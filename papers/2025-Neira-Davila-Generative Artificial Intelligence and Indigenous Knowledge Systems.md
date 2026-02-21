@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: "Generative Artificial Intelligence and Indigenous Knowledge Systems in the Global South: A Systematic Review on Data Colonialism and Epistemic Justice"
 year: 2025
 first_author: "[[Neira-Davila, Cristian David]]"
-last_author: "[[Marin Yusti, Jhon Pablo]]"
+last_author: "[[Jhon Pablo Marin Yusti]]"
 authors: Cristian David Neira-Davila; Juan Camilo Aguirre-Rivera; Jhon Pablo Marin Yusti
 url: "https://lettersinhighenergyphysics.com/index.php/LHEP/article/view/1602"
 external_pdf: "https://lettersinhighenergyphysics.com/index.php/LHEP/article/download/1602/1221"
@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Unknown (Global South systematic review authors)]]
+[[Cristian David Neira-Davila]], [[Juan Camilo Aguirre-Rivera]], [[Jhon Pablo Marin Yusti]]
 
 ## Metadata
 

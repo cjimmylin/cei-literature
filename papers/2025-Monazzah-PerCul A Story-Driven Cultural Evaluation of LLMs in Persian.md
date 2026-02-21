@@ -16,7 +16,7 @@ short_title: "PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian"
 year: 2025
 first_author: "[[Erfan Moosavi Monazzah]]"
 last_author: "[[Mohammad Taher Pilehvar]]"
-authors: Erfan Moosavi Monazzah, Vahid Rahimzadeh, Yadollah Yaghoobzadeh, Azadeh Shakery, Mohammad Taher Pilehvar
+authors: Erfan Moosavi Monazzah; Vahid Rahimzadeh; Yadollah Yaghoobzadeh; Azadeh Shakery; Mohammad Taher Pilehvar
 doi: 10.48550/arXiv.2502.07459
 url: "https://arxiv.org/abs/2502.07459"
 external_pdf: "https://arxiv.org/pdf/2502.07459.pdf"

@@ -17,7 +17,7 @@ short_title: "Alif Advancing Urdu Large Language Models"
 year: 2025
 first_author: "[[Shafique, Muhammad Ali]]"
 last_author: "[[Farooq, Hamza]]"
-authors: "[[Shafique, Muhammad Ali]]; [[Mehreen, Kanwal]]; [[Arham, Muhammad]]; [[Amjad, Maaz]]; [[Butt, Sabur]]; [[Farooq, Hamza]]"
+authors: "Shafique, Muhammad Ali; Mehreen, Kanwal; Arham, Muhammad; Amjad, Maaz; Butt, Sabur; Farooq, Hamza"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.09051"
 external_pdf: "https://arxiv.org/pdf/2510.09051.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Safinah Ali|Shafique, Muhammad Ali]], [[Mehreen, Kanwal]], [[Ahmada, Muhammad|Arham, Muhammad]], [[Amjad, Maaz]], [[Butt, Sabur]], [[Farooq, Hamza]]
+[[Shafique, Muhammad Ali]], [[Mehreen, Kanwal]], [[Arham, Muhammad]], [[Amjad, Maaz]], [[Butt, Sabur]], [[Farooq, Hamza]]
 
 ## Metadata
 

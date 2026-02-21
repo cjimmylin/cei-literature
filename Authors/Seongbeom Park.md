@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction|Zero-shot Visual Commonsense Immorality Prediction]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: suhong.moon@berkeley.edu
+- *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: suhong.moon@berkeley.edu
 - *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: suhong.moon@berkeley.edu
 - *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: suhong.moon@berkeley.edu
 - *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: psb485@korea.ac.kr

@@ -17,7 +17,7 @@ short_title: "SORRY-Bench -- Systematically Evaluating LLM Safety Refusal"
 year: 2025
 first_author: "[[Xie, Tinghao]]"
 last_author: "[[Mittal, Prateek]]"
-authors: "[[Xie, Tinghao]]; [[Qi, Xiangyu]]; [[Zeng, Yi]]; [[Huang, Yangsibo]]; [[Sehwag, Udari Madhushani]]; [[Huang, Kaixuan]]; [[He, Luxi]]; [[Wei, Boyi]]; [[Li, Dacheng]]; [[Sheng, Ying]]; [[Jia, Ruoxi]]; [[Li, Bo]]; [[Li, Kai]]; [[Chen, Danqi]]; [[Henderson, Peter]]; [[Mittal, Prateek]]"
+authors: "Xie, Tinghao; Qi, Xiangyu; Zeng, Yi; Huang, Yangsibo; Sehwag, Udari Madhushani; Huang, Kaixuan; He, Luxi; Wei, Boyi; Li, Dacheng; Sheng, Ying; Jia, Ruoxi; Li, Bo; Li, Kai; Chen, Danqi; Henderson, Peter; Mittal, Prateek"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.14598"
 external_pdf: "https://arxiv.org/pdf/2406.14598.pdf"

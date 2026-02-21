@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP|Benchmarking Sociolinguistic Diversity in Swahili NLP]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP*: Affiliation: Department of IT, Analytics, and Operations
+- *From 2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP*: Affiliation: Department of IT, Analytics, and Operations
 - *From 2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP*: Affiliation: Department of IT, Analytics, and Operations
 - *From 2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP*: Affiliation: Department of IT, Analytics, and Operations
 - *From 2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP*: Affiliation: Department of IT, Analytics, and Operations

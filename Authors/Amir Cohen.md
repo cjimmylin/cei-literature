@@ -24,6 +24,8 @@ Amir Cohen is a researcher specializing in Hebrew natural language processing an
 
 
 
+
+
 - [[2023-Cohen-HeQ|HeQ]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ Amir Cohen is a researcher specializing in Hebrew natural language processing an
 
 
 
+
+
+- *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: hilla@webiks.com
+- *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: hilla@webiks.com
 - *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: reut.tsarfaty@gmail.com
 - *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: reut.tsarfaty@gmail.com
 - *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: amirdnc@gmail.com

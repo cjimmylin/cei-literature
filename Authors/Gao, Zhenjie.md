@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese|How Large Language Models Enhance Low-Resource Mongolian-Chinese Machine Translation?]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese*: Affiliation: College of Computer Science, Inner Mongolia University
+- *From 2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese*: Affiliation: College of Computer Science, Inner Mongolia University
 - *From 2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese*: Affiliation: College of Computer Science, Inner Mongolia University
 - *From 2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese*: Affiliation: College of Computer Science, Inner Mongolia University
 - *From 2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese*: Affiliation: College of Computer Science, Inner Mongolia University

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain|Large-Scale Hate Speech Detection with Cross-Domain]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey
+- *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey
 - *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey
 - *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey
 - *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey

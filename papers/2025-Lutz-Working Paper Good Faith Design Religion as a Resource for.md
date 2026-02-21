@@ -16,7 +16,7 @@ short_title: "(Working Paper) Good Faith Design: Religion as a Resource for Tech
 year: 2025
 first_author: "[[Nina Lutz]]"
 last_author: "[[E. Glen Weyl]]"
-authors: Nina Lutz, Benjamin Olsen, Weishung Liu, E. Glen Weyl
+authors: Nina Lutz; Benjamin Olsen; Weishung Liu; E. Glen Weyl
 doi: 10.48550/arXiv.2511.05819
 url: "https://arxiv.org/abs/2511.05819"
 external_pdf: "https://arxiv.org/pdf/2511.05819.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Nina Lutz, Benjamin Olsen, Weishung Liu, E. Glen Weyl]]
+[[Nina Lutz]], [[Benjamin Olsen]], [[Weishung Liu]], [[E. Glen Weyl]]
 
 ## Metadata
 

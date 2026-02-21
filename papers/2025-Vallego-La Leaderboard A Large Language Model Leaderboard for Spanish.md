@@ -17,7 +17,7 @@ short_title: "La Leaderboard: A Large Language Model Leaderboard for Spanish Var
 year: 2025
 first_author: "[[Grandury, María]]"
 last_author: "[[Zubiaga, Irune]]"
-authors: "[[Grandury, María]]; [[Aula-Blasco, Javier]]; [[Falcão, Júlia]]; [[Fourrier, Clémentine]]; [[González, Miguel]]; [[Martínez, Gonzalo]]; [[Santamaría, Gonzalo]]; [[Agerri, Rodrigo]]; [[Aldama, Nuria]]; [[Chiruzzo, Luis]]; [[Conde, Javier]]; [[Gómez, Helena]]; [[Guerrero, Marta]]; [[Ivetta, Guido]]; [[López, Natalia]]; [[Plaza-del-Arco, Flor Miriam]]; [[Martín-Valdivia, María Teresa]]; [[Montoro, Helena]]; [[Muñoz, Carmen]]; [[Reviriego, Pedro]]; [[Rosado, Leire]]; [[Vaca, Alejandro]]; [[Vallecillo-Rodríguez, María Estrella]]; [[Vallego, Jorge]]; [[Zubiaga, Irune]]"
+authors: "Grandury, María; Aula-Blasco, Javier; Falcão, Júlia; Fourrier, Clémentine; González, Miguel; Martínez, Gonzalo; Santamaría, Gonzalo; Agerri, Rodrigo; Aldama, Nuria; Chiruzzo, Luis; Conde, Javier; Gómez, Helena; Guerrero, Marta; Ivetta, Guido; López, Natalia; Plaza-del-Arco, Flor Miriam; Martín-Valdivia, María Teresa; Montoro, Helena; Muñoz, Carmen; Reviriego, Pedro; Rosado, Leire; Vaca, Alejandro; Vallecillo-Rodríguez, María Estrella; Vallego, Jorge; Zubiaga, Irune"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.00999"
 external_pdf: "https://arxiv.org/pdf/2507.00999.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Grandury, María]], [[Aula, Javier|Aula-Blasco, Javier]], [[Júlia Falcão|Falcão, Júlia]], [[Fourrier, Clémentine]], [[González, Miguel]], [[Martínez, Gonzalo]], [[Santamaría, Gonzalo]], [[Agerri, Rodrigo]], [[Aldama, Nuria]], [[Luis Chiruzzo|Chiruzzo, Luis]], [[Conde, Javier]], [[Gómez, Helena]], [[Guerrero, Marta]], [[Ivetta, Guido]], [[López, Natalia]], [[Plaza-del, Flor Miriam|Plaza-del-Arco, Flor Miriam]], [[Martín-Valdivia, María Teresa]], [[Montoro, Helena]], [[Muñoz, Carmen]], [[Reviriego, Pedro]], [[Rosado, Leire]], [[Vaca, Alejandro]], [[Vallecillo, Estrella|Vallecillo-Rodríguez, María Estrella]], [[Vallego, Jorge]], [[Zubiaga, Irune]]
+[[Grandury, María]], [[Aula-Blasco, Javier]], [[Júlia Falcão|Falcão, Júlia]], [[Fourrier, Clémentine]], [[González, Miguel]], [[Martínez, Gonzalo]], [[Santamaría, Gonzalo]], [[Agerri, Rodrigo]], [[Aldama, Nuria]], [[Chiruzzo, Luis]], [[Conde, Javier]], [[Gómez, Helena]], [[Guerrero, Marta]], [[Ivetta, Guido]], [[López, Natalia]], [[Plaza-del-Arco, Flor Miriam]], [[Martín-Valdivia, María Teresa]], [[Montoro, Helena]], [[Muñoz, Carmen]], [[Reviriego, Pedro]], [[Rosado, Leire]], [[Vaca, Alejandro]], [[Vallecillo-Rodríguez, María Estrella]], [[Vallego, Jorge]], [[Zubiaga, Irune]]
 
 ## Metadata
 

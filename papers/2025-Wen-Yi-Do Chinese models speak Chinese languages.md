@@ -16,7 +16,7 @@ short_title: Do Chinese models speak Chinese languages?
 year: 2025
 first_author: "[[Andrea W Wen-Yi]]"
 last_author: "[[David Mimno]]"
-authors: Andrea W Wen-Yi, Unso Eun Seo Jo, David Mimno
+authors: Andrea W Wen-Yi; Unso Eun Seo Jo; David Mimno
 url: "https://arxiv.org/abs/2504.00289"
 external_pdf: "https://arxiv.org/pdf/2504.00289.pdf"
 publication: arXiv

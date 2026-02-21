@@ -16,8 +16,8 @@ type: preprint
 short_title: "Understanding LLM Development Through Longitudinal Study: Insights from the Open Ko-LLM Leaderboard"
 year: 2024
 first_author: "[[Chanjun Park]]"
-last_author: "[[Hyeonwoo Kim Chanjun Park]]"
-authors: "Chanjun Park, Hyeonwoo Kim"
+last_author: "[[Hyeonwoo Kim]]"
+authors: Chanjun Park; Hyeonwoo Kim
 url: "https://arxiv.org/abs/2409.03257"
 external_pdf: "https://arxiv.org/pdf/2409.03257.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Park-Understanding LLM Development Through Longitudinal Study Insights.md"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Hae Won Park|Hyeonwoo Kim Chanjun Park]]
+[[Chanjun Park]], [[Hyeonwoo Kim]]
 
 ## Metadata
 

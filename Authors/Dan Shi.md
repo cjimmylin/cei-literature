@@ -51,6 +51,8 @@ Shi led the development of "Large Language Model Safety: A Holistic Survey" (Dec
 
 
 
+
+
 - [[2024-Shi-Large Language Model Safety|Large Language Model Safety]] (First Author)
 
 ## External Links & Profiles
@@ -66,6 +68,10 @@ Shi led the development of "Large Language Model Safety: A Holistic Survey" (Dec
 
 
 
+
+
+- *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
+- *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
 - *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
 - *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
 - *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University

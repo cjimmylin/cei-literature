@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment|IslamTrust A Benchmark for LLMs Alignment]]
 - [[2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values|IslamTrust: A Benchmark for LLMs Alignment with Islamic Values]]
 
@@ -84,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values*: Affiliation: Faculty of Informatics, Email: mufti.mahmud@kfupm.edu.sa
+- *From 2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values*: Affiliation: Faculty of Informatics, Email: mufti.mahmud@kfupm.edu.sa
 - *From 2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values*: Affiliation: Faculty of Informatics, Email: mufti.mahmud@kfupm.edu.sa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

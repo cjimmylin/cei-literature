@@ -18,7 +18,7 @@ short_title: "BharatBBQ A Multilingual Bias Benchmark for"
 year: 2025
 first_author: "[[Aditya Tomar]]"
 last_author: "[[Pushpak Bhattacharyya]]"
-authors: "[[Aditya Tomar]]; [[Nihar Ranjan Sahoo]]; [[Pushpak Bhattacharyya]]"
+authors: Aditya Tomar; Nihar Ranjan Sahoo; Pushpak Bhattacharyya
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.07090"
 external_pdf: "https://arxiv.org/pdf/2508.07090.pdf"

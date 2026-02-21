@@ -19,7 +19,7 @@ short_title: "Exploring Bengali Religious Dialect Biases in Large Language Model
 year: 2024
 first_author: "[[Wasi, Azmine Toushik]]"
 last_author: "[[Chae, Dong-Kyu]]"
-authors: "[[Wasi, Azmine Toushik]]; [[Islam, Raima]]; [[Islam, Mst Rafia]]; [[Rafi, Taki Hasan]]; [[Chae, Dong-Kyu]]"
+authors: "Wasi, Azmine Toushik; Islam, Raima; Islam, Mst Rafia; Rafi, Taki Hasan; Chae, Dong-Kyu"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.18376"
 external_pdf: "https://arxiv.org/pdf/2407.18376.pdf"

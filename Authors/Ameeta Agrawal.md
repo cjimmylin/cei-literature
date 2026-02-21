@@ -58,6 +58,8 @@ Ameeta Agrawal is an Assistant Professor in the Department of Computer Science a
 
 
 
+
+
 - [[2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales|Self-Explaining Hate Speech Detection with Moral Rationales]] (Last Author)
 - [[2025-Trager-MFTCXplain|MFTCXplain]]
 
@@ -79,6 +81,10 @@ Ameeta Agrawal is an Assistant Professor in the Department of Computer Science a
 
 
 
+
+
+- *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
+- *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology

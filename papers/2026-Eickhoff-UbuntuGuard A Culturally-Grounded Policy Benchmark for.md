@@ -16,9 +16,9 @@ key: EXSR0313
 type: preprint
 short_title: "UbuntuGuard A Culturally-Grounded Policy Benchmark for"
 year: 2026
-first_author: "[[Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff]]"
+first_author: "[[Tassallah Abdullahi]]"
 last_author: "[[Carsten Eickhoff]]"
-authors: "[[Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff]]"
+authors: Tassallah Abdullahi; Macton Mgonzo; Mardiyyah Oduwole; Paul Okewunmi; Abraham Owodunni; Ritambhara Singh; Carsten Eickhoff
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.12696"
 external_pdf: "https://arxiv.org/pdf/2601.12696.pdf"

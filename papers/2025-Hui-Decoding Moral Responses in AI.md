@@ -80,7 +80,7 @@ Despite the proliferation of powerful large language models (LLMs), there remain
 
 ## Authors
 
-[[Binyuan Hui|Bryant P.H. Hui]], [[Chiu Lun Lau]], [[Rui Sun]]
+[[Bryant P.H. Hui]], [[Chiu Lun Lau]], [[Rui Sun]]
 
 ## Key Contribution
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Patel-Evaluating Large Language Models for Detecting|Evaluating Large Language Models for Detecting]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Patel-Evaluating Large Language Models for Detecting*: Affiliation: University, NY, USA
+- *From 2025-Patel-Evaluating Large Language Models for Detecting*: Affiliation: University, NY, USA
 - *From 2025-Patel-Evaluating Large Language Models for Detecting*: Affiliation: University, NY, USA
 - *From 2025-Patel-Evaluating Large Language Models for Detecting*: Affiliation: University, NY, USA
 - *From 2025-Patel-Evaluating Large Language Models for Detecting*: Affiliation: University, NY, USA

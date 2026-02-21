@@ -19,7 +19,7 @@ short_title: "Ex-ThaiHate A Generative Multi-task Framework for"
 year: 2023
 first_author: "[[Krishanu Maity]]"
 last_author: "[[Kitsuchart Pasupa]]"
-authors: "[[Krishanu Maity]]; [[Shaubhik Bhattacharya]]; [[Salisa Phosit]]; [[Sawarod Kongsamlit]]; [[Sriparna Saha]]; [[Kitsuchart Pasupa]]"
+authors: Krishanu Maity; Shaubhik Bhattacharya; Salisa Phosit; Sawarod Kongsamlit; Sriparna Saha; Kitsuchart Pasupa
 authors_incomplete: false
 url: "https://link.springer.com/chapter/10.1007/978-3-031-43427-3_9"
 external_pdf: 
@@ -55,7 +55,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Krishanu Maity]], [[Shaubhik Bhattacharya]], [[Salisa Phosit]], [[Sawarod Kongsamlit]], [[Samirit Saha|Sriparna Saha]], [[Kitsuchart Pasupa]]
+[[Krishanu Maity]], [[Shaubhik Bhattacharya]], [[Salisa Phosit]], [[Sawarod Kongsamlit]], [[Sriparna Saha]], [[Kitsuchart Pasupa]]
 
 ## Metadata
 

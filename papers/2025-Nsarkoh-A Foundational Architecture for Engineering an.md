@@ -20,7 +20,7 @@ short_title: "A Foundational Architecture for Engineering an"
 year: 2025
 first_author: "[[Nsarkoh, Eric]]"
 last_author: "[[Kponyo, J. J.]]"
-authors: "[[Nsarkoh, Eric]]; [[Banful, Ama Branoa]]; [[Arthur, Juliet]]; [[Fosu, Dickson Marfo]]; [[Tetteh, Prince Dawson]]; [[Kponyo, J. J.]]"
+authors: "Nsarkoh, Eric; Banful, Ama Branoa; Arthur, Juliet; Fosu, Dickson Marfo; Tetteh, Prince Dawson; Kponyo, J. J."
 authors_incomplete: false
 url: 
 external_pdf: "https://core.ac.uk/download/55728193.pdf"
@@ -57,7 +57,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Nsarkoh]], [[F.]], [[Banful]], [[A.B]], [[Arthur]], [[J.]]
+[[Nsarkoh, Eric]], [[Banful, Ama Branoa]], [[Arthur, Juliet]], [[Fosu, Dickson Marfo]], [[Tetteh, Prince Dawson]], [[Kponyo, J. J]]
 
 ## Metadata
 

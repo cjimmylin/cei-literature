@@ -58,8 +58,11 @@ twitter: ""
 
 
 
+
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
 - [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]]
+- [[2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained|AfroLM A Self-Active Learning-based Multilingual Pretrained]]
 
 ## External Links & Profiles
 
@@ -88,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained*: Affiliation: Institute, Canada, 2 McGill University, Canada, 3Instituto Politécnico Nacional, Mexico
+- *From 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained*: Affiliation: Institute, Canada, 2 McGill University, Canada, 3Instituto Politécnico Nacional, Mexico
 - *From 2025-Ousidhoum-AfriHate A Multilingual Collection of Hate*: Affiliation: College London, 2Bayero University Kano, 3DSFSI, University of Pretoria, 4Bahir Dar University, Email: s.muhammad@imperial.ac.uk
 - *From 2025-Ousidhoum-AfriHate A Multilingual Collection of Hate*: Affiliation: College London, 2Bayero University Kano, 3DSFSI, University of Pretoria, 4Bahir Dar University, Email: seid.muhie.yimam@uni-hamburg.de
 - *From 2025-Ousidhoum-AfriHate A Multilingual Collection of Hate*: Affiliation: College London, 2Bayero University Kano, 3DSFSI, University of Pretoria, 4Bahir Dar University, Email: s.muhammad@imperial.ac.uk

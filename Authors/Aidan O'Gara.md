@@ -50,6 +50,8 @@ He has co-authored comprehensive surveys on AI alignment and deception, contribu
 
 
 
+
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
 - [[2023-Park-AI Deception|AI Deception]]
 
@@ -70,6 +72,10 @@ He has co-authored comprehensive surveys on AI alignment and deception, contribu
 
 
 
+
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge

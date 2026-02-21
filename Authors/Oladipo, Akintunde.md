@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
 - [[2023-Ojo-AfroBench - How Good are LLMs on African Languages|AfroBench -- How Good are LLMs on African Languages?]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
+- *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
 - *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
 - *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
 - *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗

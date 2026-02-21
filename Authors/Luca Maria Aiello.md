@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the|Nicer Than Humans: How Do Large Language Models Behave in the Prisoner's Dilemma?]] (Last Author)
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the*: Affiliation: University of Copenhagen, Denmark, Email: luai@itu.dk
+- *From 2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the*: Affiliation: University of Copenhagen, Denmark, Email: luai@itu.dk
 - *From 2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the*: Affiliation: University of Copenhagen, Denmark, Email: luai@itu.dk
 - *From 2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the*: Affiliation: University of Copenhagen, Denmark, Email: luai@itu.dk
 - *From 2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the*: Affiliation: University of Copenhagen, Denmark, Email: luai@itu.dk

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Jourdan-FairTranslate|FairTranslate]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: fanny.jourdan@irt-saintexupery.com
+- *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: fanny.jourdan@irt-saintexupery.com
 - *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: cecile.favre@univ-lyon2.fr
 - *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: cecile.favre@univ-lyon2.fr
 - *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: cecile.favre@univ-lyon2.fr

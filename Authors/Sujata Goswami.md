@@ -59,7 +59,8 @@ twitter: ""
 
 
 
-- [[2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding|IndicVisionBench Benchmarking Cultural and Multilingual Understanding]]
+
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
@@ -91,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology

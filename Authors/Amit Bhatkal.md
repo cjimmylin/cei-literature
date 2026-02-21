@@ -24,6 +24,8 @@ Amit Bhatkal is a researcher at Mohamed bin Zayed University of Artificial Intel
 
 
 
+
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
@@ -33,6 +35,10 @@ Amit Bhatkal is a researcher at Mohamed bin Zayed University of Artificial Intel
 
 
 
+
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike

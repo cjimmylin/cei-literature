@@ -17,7 +17,7 @@ short_title: "Text classification dataset and analysis for"
 year: 2023
 first_author: "[[Kuriyozov, Elmurod]]"
 last_author: "[[Matlatipov, Gayrat]]"
-authors: "[[Kuriyozov, Elmurod]]; [[Salaev, Ulugbek]]; [[Matlatipov, Sanatbek]]; [[Matlatipov, Gayrat]]"
+authors: "Kuriyozov, Elmurod; Salaev, Ulugbek; Matlatipov, Sanatbek; Matlatipov, Gayrat"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2302.14494"
 external_pdf: "https://arxiv.org/pdf/2302.14494.pdf"

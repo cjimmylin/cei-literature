@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted|Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted*: Affiliation: University of Science and Technology), Email: lukasz.augustyniak@pwr.wroc.pl
+- *From 2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted*: Affiliation: University of Science and Technology), Email: lukasz.augustyniak@pwr.wroc.pl
 - *From 2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted*: Affiliation: University of Science and Technology), Email: lukasz.augustyniak@pwr.wroc.pl
 - *From 2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted*: Affiliation: University of Science and Technology), Email: lukasz.augustyniak@pwr.wroc.pl
 - *From 2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted*: Affiliation: University of Science and Technology), Email: lukasz.augustyniak@pwr.wroc.pl

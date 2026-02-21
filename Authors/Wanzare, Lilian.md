@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate|Swahili and Code-Switched English-Swahili Political Hate]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate*: Affiliation: lable-Swahili and Code-Switched English-Swahili Political Hate", Email: nodhianbo@gmail.com
+- *From 2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate*: Affiliation: lable-Swahili and Code-Switched English-Swahili Political Hate", Email: nodhianbo@gmail.com
 - *From 2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate*: Affiliation: lable-Swahili and Code-Switched English-Swahili Political Hate", Email: nodhianbo@gmail.com
 - *From 2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate*: Affiliation: lable-Swahili and Code-Switched English-Swahili Political Hate", Email: nodhianbo@gmail.com
 - *From 2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate*: Affiliation: lable-Swahili and Code-Switched English-Swahili Political Hate", Email: nodhianbo@gmail.com

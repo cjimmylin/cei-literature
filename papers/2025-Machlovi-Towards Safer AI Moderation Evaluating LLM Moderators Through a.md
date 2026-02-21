@@ -18,7 +18,7 @@ short_title: "Towards Safer AI Moderation: Evaluating LLM Moderators Through a U
 year: 2025
 first_author: "[[Machlovi, Naseem]]"
 last_author: "[[Amin, Ruhul]]"
-authors: "[[Machlovi, Naseem]]; [[Saleki, Maryam]]; [[Ababio, Innocent]]; [[Amin, Ruhul]]"
+authors: "Machlovi, Naseem; Saleki, Maryam; Ababio, Innocent; Amin, Ruhul"
 authors_incomplete: false
 url: "https://arxiv.org/html/2508.07063v1"
 external_pdf: "https://arxiv.org/pdf/2508.07063.pdf"

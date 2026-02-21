@@ -17,7 +17,7 @@ short_title: "SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptabl
 year: 2023
 first_author: "[[Hwaran Lee]]"
 last_author: "[[Nako Sung]]"
-authors: "Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Gunhee Kim, Byoung-Tak Zhang, Meeyoung Cha, Yejin Choi, Nako Sung"
+authors: Hwaran Lee; Seokhee Hong; Joonsuk Park; Takyoung Kim; Gunhee Kim; Byoung-Tak Zhang; Meeyoung Cha; Yejin Choi; Nako Sung
 doi: 10.18653/v1/2023.acl-long.370
 url: "https://arxiv.org/abs/2305.17696"
 external_pdf: "https://arxiv.org/pdf/2305.17696.pdf"

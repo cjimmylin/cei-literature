@@ -15,9 +15,9 @@ key: LSRC0595
 type: journalArticle
 short_title: "A Language model-based approach to sentiment classification of languages in central Asia"
 year: 2025
-first_author: "[[approach, A Language model-based]]"
+first_author: "[[approach]]"
 last_author: "[[A Language model-based]]"
-authors: "[[approach, A Language model-based]]"
+authors: approach; A Language model-based
 authors_incomplete: false
 url: "https://www.nature.com/articles/s41598-025-22198-6"
 external_pdf: "https://www.nature.com/articles/s41598-025-22198-6.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[A Language model-based approach|approach]], [[A Language model-based]]
+[[approach]], [[A Language model-based]]
 
 ## Metadata
 

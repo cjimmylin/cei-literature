@@ -1,7 +1,7 @@
 ---
 name: "Jian Gang Ngui"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University & Canada CIFAR AI Chair, 5AI Singapore"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for|Kalahi A handcrafted grassroots cultural LLM evaluation suite for]]
+
+- [[2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models|SEA-HELM: Southeast Asian Holistic Evaluation of Language Models]]
+- [[2024-Hooker-Global MMLU Understanding and Addressing Cultural|Global MMLU Understanding and Addressing Cultural]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
+- *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

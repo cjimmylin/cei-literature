@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Raihan-A Multilingual Benchmark to Evaluate Large Language|A Multilingual Benchmark to Evaluate Large Language]]
 - [[2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency|Dialectal Toxicity Detection: Evaluating LLM-as-a-Judge Consistency Across Language Varieties]] (Last Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency*: Affiliation: Department of Computer Science, George Mason University
+- *From 2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency*: Affiliation: Department of Computer Science, George Mason University
 - *From 2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency*: Affiliation: Department of Computer Science, George Mason University
 - *From 2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency*: Affiliation: Department of Computer Science, George Mason University
 - *From 2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency*: Affiliation: Department of Computer Science, George Mason University

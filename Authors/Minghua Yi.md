@@ -60,8 +60,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zhang-PoliCon|PoliCon]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 
@@ -92,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: zwzhang@stu.pku.edu.cn
+- *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: zwzhang@stu.pku.edu.cn
 - *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: kangyipeng@bigai.ai
 - *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: zwzhang@stu.pku.edu.cn
 - *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: zwzhang@stu.pku.edu.cn

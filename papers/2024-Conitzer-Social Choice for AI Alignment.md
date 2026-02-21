@@ -18,7 +18,7 @@ short_title: "Social Choice for AI Alignment"
 year: 2024
 first_author: "[[Vincent Conitzer]]"
 last_author: "[[Freedman, Rachel]]"
-authors: "[[Conitzer, Vincent]]; [[Freedman, Rachel]]"
+authors: "Conitzer, Vincent; Freedman, Rachel"
 doi: 10.48550/arXiv.2404.10000
 url: "https://arxiv.org/abs/2404.10000"
 external_pdf: "https://arxiv.org/pdf/2404.10000.pdf"

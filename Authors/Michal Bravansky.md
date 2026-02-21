@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Bravansky-Rethinking AI Cultural Alignment|Rethinking AI Cultural Alignment]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
+- *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
 - *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
 - *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
 - *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford

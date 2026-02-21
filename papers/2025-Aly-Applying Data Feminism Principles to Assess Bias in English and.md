@@ -18,7 +18,7 @@ short_title: "Applying Data Feminism Principles to Assess Bias in English and Ar
 year: 2025
 first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
-authors: "Ranwa Aly, Yara Allam, Rana Gaber"
+authors: Ranwa Aly; Yara Allam; Rana Gaber
 doi: 10.1145/3715275.3732119
 url: "https://dl.acm.org/doi/10.1145/3715275.3732119"
 publication: ACM

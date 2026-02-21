@@ -15,9 +15,9 @@ key: ARXIV_2507_20796
 type: preprint
 short_title: "Aligning LLM Agents with Rational and Kantian Preferences"
 year: 2025
-first_author: "[[Wei Lu]]"
-last_author: "[[Christian B. Hansen]]"
-authors: "[[Lu, Wei]], [[Chen, Daniel L.]], [[Hansen, Christian B.]]"
+first_author: "[[Lu]]"
+last_author: "[[Christian B.]]"
+authors: Lu; Wei; Chen; Daniel L.; Hansen; Christian B.
 doi: 10.48550/arXiv.2507.20796
 tags: "Computer Science - Machine Learning"
 url: "https://arxiv.org/abs/2507.20796"
@@ -56,7 +56,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Wei Lu]], [[Daniel L Chen|Daniel L. Chen]], [[Christian B. Hansen]]
+[[Lu]], [[Wei]], [[Chen]], [[Daniel L]], [[Hansen]], [[Christian B]]
 
 ## Links
 

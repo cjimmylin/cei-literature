@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2021-Caselli-HateBERT|HateBERT]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: t.caselli@rug.nl
+- *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: t.caselli@rug.nl
 - *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: valerio.basile@unito.it
 - *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: valerio.basile@unito.it
 - *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: t.caselli@rug.nl

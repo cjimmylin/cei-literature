@@ -15,8 +15,8 @@ type: preprint
 short_title: "Multi-TW: Benchmarking Multimodal Models on Traditional Chinese Question Answering in Taiwan"
 year: 2025
 first_author: "[[Jui-Ming Yao]]"
-last_author: "[[Shun-Feng Su Peter Shaojui Wang]]"
-authors: Jui-Ming Yao, Bing-Cheng Xie, Sheng-Wei Peng, Hao-Yuan Chen, He-Rong Zheng, Bing-Jia Tan, Peter Shaojui Wang, Shun-Feng Su
+last_author: "[[Shun-Feng Su]]"
+authors: Jui-Ming Yao; Bing-Cheng Xie; Sheng-Wei Peng; Hao-Yuan Chen; He-Rong Zheng; Bing-Jia Tan; Peter Shaojui Wang; Shun-Feng Su
 url: "https://arxiv.org/abs/2508.01274"
 external_pdf: "https://arxiv.org/pdf/2508.01274.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Ben Yao|Bing-Cheng Xie Jui-Ming Yao]], [[Hao Peng|Hao-Yuan Chen Sheng-Wei Peng]], [[Bing-Jia Tan He-Rong Zheng]], [[Shun-Feng Su Peter Shaojui Wang]]
+[[Jui-Ming Yao]], [[Bing-Cheng Xie]], [[Sheng-Wei Peng]], [[Hao-Yuan Chen]], [[He-Rong Zheng]], [[Bing-Jia Tan]], [[Peter Shaojui Wang]], [[Shun-Feng Su]]
 
 ## Metadata
 

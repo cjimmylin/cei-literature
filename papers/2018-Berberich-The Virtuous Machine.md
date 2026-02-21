@@ -14,7 +14,7 @@ short_title: "The Virtuous Machine"
 year: 2018
 first_author: "[[Nicolas Berberich]]"
 last_author: "[[Diepold, Klaus]]"
-authors: "[[Berberich, Nicolas]]; [[Diepold, Klaus]]"
+authors: "Berberich, Nicolas; Diepold, Klaus"
 doi: N/A
 url: "https://arxiv.org/abs/1806.10322"
 pdf_extract: "PDF Extracts/2018/2018-Berberich-The Virtuous Machine.md"

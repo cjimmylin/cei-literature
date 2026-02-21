@@ -16,7 +16,7 @@ short_title: "Localizing AI: Evaluating Open-Weight Language Models for Language
 year: 2025
 first_author: "[[Jurgita Kapociute-Dzikiene]]"
 last_author: "[[Marcis Pinnis]]"
-authors: Jurgita Kapociute-Dzikiene, Toms Bergmanis, Marcis Pinnis
+authors: Jurgita Kapociute-Dzikiene; Toms Bergmanis; Marcis Pinnis
 doi: 10.48550/arXiv.2501.03952
 url: "https://arxiv.org/abs/2501.03952"
 external_pdf: "https://arxiv.org/pdf/2501.03952.pdf"

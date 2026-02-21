@@ -15,7 +15,7 @@ short_title: "FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset
 year: 2022
 first_author: "[[Labrak, Yanis]]"
 last_author: "[[Gourraud, Pierre-Antoine]]"
-authors: "[[Labrak, Yanis]]; [[Bazoge, Adrien]]; [[Dufour, Richard]]; [[Rouvier, Mickael]]; [[Morin, Emmanuel]]; [[Daille, Béatrice]]; [[Gourraud, Pierre-Antoine]]"
+authors: "Labrak, Yanis; Bazoge, Adrien; Dufour, Richard; Rouvier, Mickael; Morin, Emmanuel; Daille, Béatrice; Gourraud, Pierre-Antoine"
 authors_incomplete: false
 url: "https://aclanthology.org/2022.louhi-1.5/"
 external_pdf: "https://arxiv.org/pdf/2304.04280.pdf"

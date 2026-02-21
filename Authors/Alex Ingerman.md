@@ -37,6 +37,8 @@ Alex contributes to the ethical framework development for advanced AI assistants
 
 
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## Notes
@@ -45,6 +47,10 @@ Alex contributes to the ethical framework development for advanced AI assistants
 
 
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of

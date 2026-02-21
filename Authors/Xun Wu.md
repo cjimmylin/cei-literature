@@ -59,7 +59,9 @@ twitter: ""
 
 
 
-- [[2025-Liu-Cross-cultural value alignment frameworks|Cross-cultural value alignment frameworks]]
+
+
+- [[2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with|Beyond Demographics: Enhancing Cultural Value Survey Simulation with Multi-Stage Personality-Driven Cognitive Reasoning]]
 - [[2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large|Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation]]
 
 ## External Links & Profiles
@@ -90,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with*: Affiliation: School of Computer Science and Technology, Wuhan University of Science and Technology, Wuhan 430065, China
+- *From 2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with*: Affiliation: School of Computer Science and Technology, Wuhan University of Science and Technology, Wuhan 430065, China
 - *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: CHRISTINA.XIAO@wust.edu.cn
 - *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: wuxun@hkust-gz.edu.cn
 - *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: wuxun@hkust-gz.edu.cn

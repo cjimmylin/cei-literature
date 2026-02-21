@@ -51,6 +51,8 @@ Ross has been at the forefront of the "Multi-Modal Alignment" movement, developi
 
 
 
+
+
 - [[2024-Gupta-Improving Model Evaluation using SMART Filtering|Improving Model Evaluation using SMART Filtering]]
 - [[2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models|Towards Geographic Inclusion in the Evaluation of Text-to-Image Models]]
 - [[2023-Gustafson-FACET|FACET]] (Last Author)
@@ -67,6 +69,10 @@ Ross has been at the forefront of the "Multi-Modal Alignment" movement, developi
 
 
 
+
+
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com

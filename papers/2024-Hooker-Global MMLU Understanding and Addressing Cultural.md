@@ -16,9 +16,9 @@ key: EXSR0486
 type: preprint
 short_title: "Global MMLU Understanding and Addressing Cultural"
 year: 2024
-first_author: "[[Shivalika Singh, Angelika Romanou, Clementine Fourrier, David I. Adelani, Jian Gang Ngui, Daniel Vila-Suero, Peerat Limkonchotiwat, Kelly Marchisio, Wei Qi Leong, Yosephine Susanto, Raymond Ng, Shayne Longpre, Wei-Yin Ko, Sebastian Ruder, Madeline Smith, Antoine Bosselut, Alice Oh, Andre F. T. Martins, Leshem Choshen, Daphne Ippolito, Enzo Ferrante, Marzieh Fadaee, Beyza Ermis, Sara Hooker]]"
-last_author: "[[Sara Hooker Beyza Ermis]]"
-authors: "[[Shivalika Singh, Angelika Romanou, Clementine Fourrier, David I. Adelani, Jian Gang Ngui, Daniel Vila-Suero, Peerat Limkonchotiwat, Kelly Marchisio, Wei Qi Leong, Yosephine Susanto, Raymond Ng, Shayne Longpre, Wei-Yin Ko, Sebastian Ruder, Madeline Smith, Antoine Bosselut, Alice Oh, Andre F. T. Martins, Leshem Choshen, Daphne Ippolito, Enzo Ferrante, Marzieh Fadaee, Beyza Ermis, Sara Hooker]]"
+first_author: "[[Shivalika Singh]]"
+last_author: "[[Sara Hooker]]"
+authors: Shivalika Singh; Angelika Romanou; Clementine Fourrier; David I. Adelani; Jian Gang Ngui; Daniel Vila-Suero; Peerat Limkonchotiwat; Kelly Marchisio; Wei Qi Leong; Yosephine Susanto; Raymond Ng; Shayne Longpre; Wei-Yin Ko; Sebastian Ruder; Madeline Smith; Antoine Bosselut; Alice Oh; Andre F. T. Martins; Leshem Choshen; Daphne Ippolito; Enzo Ferrante; Marzieh Fadaee; Beyza Ermis; Sara Hooker
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.03304"
 external_pdf: "https://arxiv.org/pdf/2412.03304.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Angelika Romanou Shivalika Singh]], [[David I. Adelani Clementine Fourrier]], [[Daniel Vila-Suero Jian Gang Ngui]], [[Kelly Marchisio Peerat Limkonchotiwat]], [[Yosephine Susanto Wei Qi Leong]], [[See Kiong Ng|Shayne Longpre Raymond Ng]], [[Sebastian Ruder Wei-Yin Ko]], [[Antoine Bosselut Madeline Smith]], [[Alice Oh|Andre F. T. Martins Alice Oh]], [[Daphne Ippolito Leshem Choshen]], [[Marzieh Fadaee Enzo Ferrante]], [[Sara Hooker Beyza Ermis]]
+[[Shivalika Singh]], [[Angelika Romanou]], [[Clementine Fourrier]], [[David I. Adelani]], [[Jian Gang Ngui]], [[Daniel Vila-Suero]], [[Peerat Limkonchotiwat]], [[Kelly Marchisio]], [[Wei Qi Leong]], [[Yosephine Susanto]], [[Raymond Ng]], [[Shayne Longpre]], [[Wei-Yin Ko]], [[Sebastian Ruder]], [[Madeline Smith]], [[Antoine Bosselut]], [[Alice Oh]], [[Andre F. T. Martins]], [[Leshem Choshen]], [[Daphne Ippolito]], [[Enzo Ferrante]], [[Marzieh Fadaee]], [[Beyza Ermis]], [[Sara Hooker]]
 
 ## Metadata
 

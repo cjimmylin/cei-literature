@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation|NorEval: A Norwegian Language Understanding and Generation Evaluation Benchmark]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation*: Affiliation: University of Oslo, Email: vladism@ifi.uio.no
+- *From 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation*: Affiliation: University of Oslo, Email: vladism@ifi.uio.no
 - *From 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation*: Affiliation: University of Oslo, Email: vladism@ifi.uio.no
 - *From 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation*: Affiliation: University of Oslo, Email: vladism@ifi.uio.no
 - *From 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation*: Affiliation: University of Oslo, Email: vladism@ifi.uio.no

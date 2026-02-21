@@ -72,7 +72,7 @@ Warning: This paper has contents which may be offensive, or upsetting however th
 
 ## Authors
 
-[[Jigsaw]], [[Kaggle -|Kaggle]]
+[[Jigsaw]], [[Kaggle]]
 
 ## Data Description
 

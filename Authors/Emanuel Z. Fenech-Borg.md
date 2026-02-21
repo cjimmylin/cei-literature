@@ -30,6 +30,8 @@ Emanuel Z. Fenech-Borg is a researcher affiliated with the University of Malta, 
 
 
 
+
+
 - [[2025-Fenech-Borg-The Cultural Gene of Large Language Models|The Cultural Gene of Large Language Models]] (First Author)
 
 ## Notes
@@ -39,6 +41,10 @@ Emanuel Z. Fenech-Borg is a researcher affiliated with the University of Malta, 
 
 
 
+
+
+- *From 2025-Fenech-Borg-The Cultural Gene of Large Language Models*: Affiliation: Department of Communications, Email: milica.lekovic-bojovic@ucg.ac.me
+- *From 2025-Fenech-Borg-The Cultural Gene of Large Language Models*: Affiliation: Department of Communications, Email: milica.lekovic-bojovic@ucg.ac.me
 - *From 2025-Fenech-Borg-The Cultural Gene of Large Language Models*: Affiliation: Department of Communications, Email: 925285670@sfsu.edu
 - *From 2025-Fenech-Borg-The Cultural Gene of Large Language Models*: Affiliation: Department of Communications, Email: emanuel.fenech-borg@um.edu.mt
 - *From 2025-Fenech-Borg-The Cultural Gene of Large Language Models*: Affiliation: Department of Communications, Email: milica.lekovic-bojovic@ucg.ac.me

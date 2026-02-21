@@ -14,8 +14,8 @@ type: preprint
 short_title: "GFG -- Gender-Fair Generation: A CALAMITA Challenge"
 year: 2024
 first_author: "[[Simona Frenda]]"
-last_author: "[[Luisa Bentivogli Matteo Negri]]"
-authors: "Simona Frenda, Andrea Piergentili, Beatrice Savoldi, Marco Madeddu, Martina Rosola, Silvia Casola, Chiara Ferrando, Viviana Patti, Matteo Negri, Luisa Bentivogli"
+last_author: "[[Luisa Bentivogli]]"
+authors: Simona Frenda; Andrea Piergentili; Beatrice Savoldi; Marco Madeddu; Martina Rosola; Silvia Casola; Chiara Ferrando; Viviana Patti; Matteo Negri; Luisa Bentivogli
 url: "https://arxiv.org/abs/2412.19168"
 external_pdf: "https://arxiv.org/pdf/2412.19168.pdf"
 publication: "arXiv / CLiC-it 2024"
@@ -50,7 +50,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Andrea Piergentili Simona Frenda]], [[Marco Madeddu Beatrice Savoldi]], [[Silvia Casola Martina Rosola]], [[Viviana Patti Chiara Ferrando]], [[Luisa Bentivogli Matteo Negri]]
+[[Simona Frenda]], [[Andrea Piergentili]], [[Beatrice Savoldi]], [[Marco Madeddu]], [[Martina Rosola]], [[Silvia Casola]], [[Chiara Ferrando]], [[Viviana Patti]], [[Matteo Negri]], [[Luisa Bentivogli]]
 
 ## Metadata
 

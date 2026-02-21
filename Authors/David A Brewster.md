@@ -39,6 +39,8 @@ David A. Brewster is a researcher working at the intersection of AI ethics and a
 
 
 
+
+
 - [[2025-Jotautaitė-Speciesism in AI|Speciesism in AI]]
 
 ## Notes
@@ -48,6 +50,10 @@ David A. Brewster is a researcher working at the intersection of AI ethics and a
 
 
 
+
+
+- *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge
+- *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge
 - *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge
 - *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge
 - *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge

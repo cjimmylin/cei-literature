@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media|Hate Speech Forms and Implications in English and Kurdish Social Media]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media*: Affiliation: University of Human Development (JUHD), Email: midya.noori@univsul.edu.iq
+- *From 2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media*: Affiliation: University of Human Development (JUHD), Email: midya.noori@univsul.edu.iq
 - *From 2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media*: Affiliation: University of Human Development (JUHD), Email: midya.noori@univsul.edu.iq
 - *From 2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media*: Affiliation: University of Human Development (JUHD), Email: midya.noori@univsul.edu.iq
 - *From 2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media*: Affiliation: University of Human Development (JUHD), Email: aseel.faiq@univsul.edu.iq

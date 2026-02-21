@@ -17,9 +17,9 @@ key: EXSR0454
 type: preprint
 short_title: "A multilingual dataset for offensive language"
 year: 2024
-first_author: "[[Saminu Mohammad Aliyu, Gregory Maksha Wajiga, Muhammad Murtala]]"
+first_author: "[[Saminu Mohammad Aliyu]]"
 last_author: "[[Muhammad Murtala]]"
-authors: "[[Saminu Mohammad Aliyu, Gregory Maksha Wajiga, Muhammad Murtala]]"
+authors: Saminu Mohammad Aliyu; Gregory Maksha Wajiga; Muhammad Murtala
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.02169"
 external_pdf: "https://arxiv.org/pdf/2406.02169.pdf"

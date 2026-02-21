@@ -17,7 +17,7 @@ short_title: "A survey on multi-lingual offensive language detection - PMC"
 year: 2025
 first_author: "[[Mnassri, Khouloud]]"
 last_author: "[[Crespi, Noel]]"
-authors: "[[Mnassri, Khouloud]]; [[Farahbakhsh, Reza]]; [[Chalehchaleh, Razieh]]; [[Jafari, Amir Reza]]; [[Li, Guanlin]]; [[Crespi, Noel]]"
+authors: "Mnassri, Khouloud; Farahbakhsh, Reza; Chalehchaleh, Razieh; Jafari, Amir Reza; Li, Guanlin; Crespi, Noel"
 authors_incomplete: true
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042037/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11042037&blobtype=pdf"

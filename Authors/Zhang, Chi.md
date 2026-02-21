@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards|TeleAI-Safety: A comprehensive LLM jailbreaking benchmark towards attacks,]]
 - [[2023-Ji-BeaverTails|BeaverTails]]
 - [[2023-Ji-BeaverTails|BeaverTails]]
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
+- *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: cbylll@stu.pku.edu.cn

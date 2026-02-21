@@ -33,9 +33,10 @@ Ibrahim Said Ahmad is a postdoctoral fellow at the Institute for Experiential AI
 
 
 
-- [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]]
-- [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
+
+
 - [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]]
+- [[2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus|NaijaSenti A Nigerian Twitter Sentiment Corpus]]
 
 ## Notes
 
@@ -44,6 +45,10 @@ Ibrahim Said Ahmad is a postdoctoral fellow at the Institute for Experiential AI
 
 
 
+
+
+- *From 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus*: Affiliation: Faculty of Sciences-University of Porto, Portugal
+- *From 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus*: Affiliation: Faculty of Sciences-University of Porto, Portugal
 - *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
 - *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
 - *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗

@@ -15,7 +15,7 @@ short_title: "Got Compute, but No Data: Lessons From Post-training a Finnish LLM
 year: 2025
 first_author: "[[Elaine Zosa]]"
 last_author: "[[Sampo Pyysalo]]"
-authors: "Elaine Zosa, Ville Komulainen, Sampo Pyysalo"
+authors: Elaine Zosa; Ville Komulainen; Sampo Pyysalo
 url: "https://arxiv.org/abs/2503.09407"
 external_pdf: "https://arxiv.org/pdf/2503.09407.pdf"
 publication: "arXiv / NoDaLiDa 2025"

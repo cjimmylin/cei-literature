@@ -59,6 +59,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating|Bias Mitigation or Cultural Commonsense Evaluating]]
 - [[2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a|Intersectional Bias in Japanese Large Language Models from a Contextualized Perspective]]
 - [[2024-Yanaka-JBBQ|JBBQ]]
 
@@ -90,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken

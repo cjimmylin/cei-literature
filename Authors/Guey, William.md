@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Guey-BiasLab Multilingual Dual-Framing Framework|BiasLab (Multilingual Dual-Framing Framework)]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Guey-BiasLab Multilingual Dual-Framing Framework*: Affiliation: Lab Multilingual Dual-Framing Framework - PDF Extract"
+- *From 2026-Guey-BiasLab Multilingual Dual-Framing Framework*: Affiliation: Lab Multilingual Dual-Framing Framework - PDF Extract"
 - *From 2026-Guey-BiasLab Multilingual Dual-Framing Framework*: Affiliation: Lab Multilingual Dual-Framing Framework - PDF Extract"
 - *From 2026-Guey-BiasLab Multilingual Dual-Framing Framework*: Affiliation: Lab Multilingual Dual-Framing Framework - PDF Extract"
 - *From 2026-Guey-BiasLab Multilingual Dual-Framing Framework*: Affiliation: Lab Multilingual Dual-Framing Framework - PDF Extract"

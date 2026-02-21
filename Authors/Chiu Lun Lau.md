@@ -59,7 +59,8 @@ twitter: ""
 
 
 
-- [[2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language|HKCanto-Eval: A Benchmark for Evaluating Cantonese Language Understanding and Cultural Comprehension in LLMs]]
+
+
 - [[2025-Hui-Decoding Moral Responses in AI|Decoding Moral Responses in AI]]
 
 ## External Links & Profiles

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yuan-S-Eval|S-Eval]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Yuan-S-Eval*:, Email: yuefeng.chenyf@alibaba-inc.com
+- *From 2025-Yuan-S-Eval*:, Email: yuefeng.chenyf@alibaba-inc.com
 - *From 2025-Yuan-S-Eval*:, Email: xiaohanyuan@zju.edu.cn
 - *From 2025-Yuan-S-Eval*:, Email: chenjialuo@zju.edu.cn
 - *From 2025-Yuan-S-Eval*:, Email: hui.xueh@alibaba-inc.com

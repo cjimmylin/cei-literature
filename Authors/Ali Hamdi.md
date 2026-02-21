@@ -59,7 +59,9 @@ twitter: ""
 
 
 
-- [[2025-Mohammed-Cross-Language Approach for Quranic QA|Cross-Language Approach for Quranic QA]] (Last Author)
+
+
+- [[2025-Mohammed-Cross-Language Approach for Quranic QA|Cross-Language Approach for Quranic QA]]
 - [[2024-Basem-Optimized Quran Passage Retrieval Using an|Optimized Quran Passage Retrieval Using an]]
 
 ## External Links & Profiles
@@ -90,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
+- *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
 - *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
 - *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
 - *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt

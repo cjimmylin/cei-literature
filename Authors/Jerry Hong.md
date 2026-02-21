@@ -1,7 +1,7 @@
 ---
 name: "Jerry Hong"
 title: "Current Position"
-affiliation: "University/Organization"
+affiliation: "college student asks an AI assistant for career advice"
 research_interests:
   - "Primary Research Area"
 website: ""
@@ -17,7 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]]
 
 ## Notes
 
+
+
+- *From 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI*: Affiliation: college student asks an AI assistant for career advice
+- *From 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI*: Affiliation: college student asks an AI assistant for career advice

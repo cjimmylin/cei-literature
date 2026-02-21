@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-team-Typhoon Thai Large Language Models|Typhoon: Thai Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-team-Typhoon Thai Large Language Models*: Affiliation: school students and investment professionals in
+- *From 2023-team-Typhoon Thai Large Language Models*: Affiliation: school students and investment professionals in
 - *From 2023-team-Typhoon Thai Large Language Models*: Affiliation: school students and investment professionals in
 - *From 2023-team-Typhoon Thai Large Language Models*: Affiliation: school students and investment professionals in
 - *From 2023-team-Typhoon Thai Large Language Models*: Affiliation: school students and investment professionals in

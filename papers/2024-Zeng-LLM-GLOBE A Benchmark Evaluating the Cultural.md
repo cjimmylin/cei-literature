@@ -16,9 +16,9 @@ key: EXSR0503
 type: preprint
 short_title: "LLM-GLOBE A Benchmark Evaluating the Cultural"
 year: 2024
-first_author: "[[Elise Karinshak, Amanda Hu, Kewen Kong, Vishwanatha Rao, Jingren Wang, Jindong Wang, Yi Zeng]]"
+first_author: "[[Elise Karinshak]]"
 last_author: "[[Yi Zeng]]"
-authors: "[[Elise Karinshak, Amanda Hu, Kewen Kong, Vishwanatha Rao, Jingren Wang, Jindong Wang, Yi Zeng]]"
+authors: Elise Karinshak; Amanda Hu; Kewen Kong; Vishwanatha Rao; Jingren Wang; Jindong Wang; Yi Zeng
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.06032"
 external_pdf: "https://arxiv.org/pdf/2411.06032.pdf"

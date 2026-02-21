@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Nguyen-VM14K First Vietnamese Medical Benchmark|VM14K: First Vietnamese Medical Benchmark]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Nguyen-VM14K First Vietnamese Medical Benchmark*: Affiliation: University of Maryland
+- *From 2025-Nguyen-VM14K First Vietnamese Medical Benchmark*: Affiliation: University of Maryland
 - *From 2025-Nguyen-VM14K First Vietnamese Medical Benchmark*: Affiliation: University of Maryland
 - *From 2025-Nguyen-VM14K First Vietnamese Medical Benchmark*: Affiliation: University of Maryland
 - *From 2025-Nguyen-VM14K First Vietnamese Medical Benchmark*: Affiliation: University of Maryland

@@ -18,8 +18,8 @@ type: conferencePaper
 short_title: "A survey of multilingual large language models - PMC"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: "[[Ph Adnan Masood]]"
-authors: "Adnan Masood, Ph"
+last_author: "[[Ph]]"
+authors: Adnan Masood; Ph
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11783891/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11783891&blobtype=pdf"
 publication: PubMed
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Ph Adnan Masood]]
+[[Adnan Masood]], [[Ph]]
 
 ## Metadata
 

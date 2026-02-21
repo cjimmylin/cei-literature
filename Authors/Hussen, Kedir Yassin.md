@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Tewabe-The State of Large Language Models for African Languages Progress and|The State of Large Language Models for African Languages: Progress and Challenges]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Tewabe-The State of Large Language Models for African Languages Progress and*: Affiliation: University of Gondar, Ethiopia, 2AIMS Research and Innovation Centre, Rwanda, Email: kediryassin25@yahoo.com
+- *From 2025-Tewabe-The State of Large Language Models for African Languages Progress and*: Affiliation: University of Gondar, Ethiopia, 2AIMS Research and Innovation Centre, Rwanda, Email: kediryassin25@yahoo.com
 - *From 2025-Tewabe-The State of Large Language Models for African Languages Progress and*: Affiliation: University of Gondar, Ethiopia, 2AIMS Research and Innovation Centre, Rwanda, Email: kediryassin25@yahoo.com
 - *From 2025-Tewabe-The State of Large Language Models for African Languages Progress and*: Affiliation: University of Gondar, Ethiopia, 2AIMS Research and Innovation Centre, Rwanda, Email: kediryassin25@yahoo.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

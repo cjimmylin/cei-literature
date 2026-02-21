@@ -16,7 +16,7 @@ short_title: "LLM Ethics Benchmark"
 year: 2025
 first_author: "[[Junfeng Jiao]]"
 last_author: "[[Dhurandhar, Amit]]"
-authors: "[[Jiao, Junfeng]]; [[Afroogh, Saleh]]; [[Murali, Abhejay]]; [[Chen, Kevin]]; [[Atkinson, David]]; [[Dhurandhar, Amit]]"
+authors: "Jiao, Junfeng; Afroogh, Saleh; Murali, Abhejay; Chen, Kevin; Atkinson, David; Dhurandhar, Amit"
 doi: 10.48550/arXiv.2505.00853
 tags: 
 url: "http://arxiv.org/abs/2505.00853"

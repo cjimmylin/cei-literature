@@ -22,7 +22,10 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Group-AILuminate|AILuminate]]
+- [[2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a|Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting]]
 - [[2024-Wang-Do-Not-Answer|Do-Not-Answer]]
 
 ## Notes
@@ -32,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
+- *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 - *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 - *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 - *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne

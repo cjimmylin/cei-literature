@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of|AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages]]
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder
+- *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder
 - *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder
 - *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder
 - *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder

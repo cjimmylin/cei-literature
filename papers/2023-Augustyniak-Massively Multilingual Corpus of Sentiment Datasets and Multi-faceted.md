@@ -17,7 +17,7 @@ short_title: "Massively Multilingual Corpus of Sentiment Datasets and Multi-face
 year: 2023
 first_author: "[[Lukasz Augustyniak]]"
 last_author: "[[Tomasz Kajdanowicz]]"
-authors: "Lukasz Augustyniak, Szymon Wozniak, Marcin Gruza, Piotr Gramacki, Krzysztof Rajda, Mikolaj Morzy, Tomasz Kajdanowicz"
+authors: Lukasz Augustyniak; Szymon Wozniak; Marcin Gruza; Piotr Gramacki; Krzysztof Rajda; Mikolaj Morzy; Tomasz Kajdanowicz
 url: "https://arxiv.org/abs/2306.07902"
 external_pdf: "https://arxiv.org/pdf/2306.07902.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted.md"

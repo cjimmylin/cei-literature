@@ -19,7 +19,7 @@ short_title: "Uncovering Theological and Ethical Biases in"
 year: 2024
 first_author: "[[Elrod, A. G.]]"
 last_author: "[[A. G. Elrod]]"
-authors: "[[A. G. Elrod]]"
+authors: A. G. Elrod
 authors_incomplete: false
 url: 
 external_pdf: "https://tidsskrift.dk/hiphilnovum/article/download/143407/187035"

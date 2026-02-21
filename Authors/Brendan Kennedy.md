@@ -50,6 +50,10 @@ During his doctoral research, he compiled influential datasets for hate speech d
 
 
 
+
+
+- [[2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A|Indigenous Peoples and Artificial Intelligence A]]
+- [[2025-Perera-Indigenous Peoples and Artificial Intelligence A Systematic Review|Indigenous Peoples and Artificial Intelligence: A Systematic Review and Future Directions]]
 - [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
 - [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
 
@@ -72,6 +76,10 @@ During his doctoral research, he compiled influential datasets for hate speech d
 
 
 
+
+
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu

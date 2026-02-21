@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Pothavorn-NitiBench A Comprehensive Study of LLM|NitiBench A Comprehensive Study of LLM]]
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Pothavorn-NitiBench A Comprehensive Study of LLM*: Affiliation: Institute of Science and Technology, Thailand, Email: pratai@tu.ac.th
+- *From 2025-Pothavorn-NitiBench A Comprehensive Study of LLM*: Affiliation: Institute of Science and Technology, Thailand, Email: pratai@tu.ac.th
 - *From 2025-Pothavorn-NitiBench A Comprehensive Study of LLM*: Affiliation: Institute of Science and Technology, Thailand, Email: pratai@tu.ac.th
 - *From 2025-Pothavorn-NitiBench A Comprehensive Study of LLM*: Affiliation: Institute of Science and Technology, Thailand, Email: pratai@tu.ac.th
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

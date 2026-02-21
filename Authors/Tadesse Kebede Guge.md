@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Adelani-INJONGO A Multicultural Intent Detection and|INJONGO A Multicultural Intent Detection and]]
 - [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]]
 
 ## External Links & Profiles
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Adelani-INJONGO A Multicultural Intent Detection and*: Affiliation: labi3,∗, Andiswa Bukula4,∗, Jian Yun Zhuang5, En-Shiun Annie Lee6
+- *From 2025-Adelani-INJONGO A Multicultural Intent Detection and*: Affiliation: labi3,∗, Andiswa Bukula4,∗, Jian Yun Zhuang5, En-Shiun Annie Lee6
 - *From 2025-Ousidhoum-AfriHate A Multilingual Collection of Hate*: Affiliation: College London, 2Bayero University Kano, 3DSFSI, University of Pretoria, 4Bahir Dar University, Email: s.muhammad@imperial.ac.uk
 - *From 2025-Ousidhoum-AfriHate A Multilingual Collection of Hate*: Affiliation: College London, 2Bayero University Kano, 3DSFSI, University of Pretoria, 4Bahir Dar University, Email: seid.muhie.yimam@uni-hamburg.de
 - *From 2025-Ousidhoum-AfriHate A Multilingual Collection of Hate*: Affiliation: College London, 2Bayero University Kano, 3DSFSI, University of Pretoria, 4Bahir Dar University, Email: s.muhammad@imperial.ac.uk

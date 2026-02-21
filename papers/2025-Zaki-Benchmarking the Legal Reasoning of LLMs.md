@@ -18,9 +18,9 @@ key: EXSR0333
 type: preprint
 short_title: "Benchmarking the Legal Reasoning of LLMs"
 year: 2025
-first_author: "[[Nouar AlDahoul, Yasir Zaki]]"
-last_author: "[[Yasir Zaki Nouar AlDahoul]]"
-authors: "[[Nouar AlDahoul, Yasir Zaki]]"
+first_author: "[[Nouar AlDahoul]]"
+last_author: "[[Yasir Zaki]]"
+authors: Nouar AlDahoul; Yasir Zaki
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.15796"
 external_pdf: "https://arxiv.org/pdf/2508.15796.pdf"
@@ -57,7 +57,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Yasir Zaki Nouar AlDahoul]]
+[[Nouar AlDahoul]], [[Yasir Zaki]]
 
 ## Metadata
 

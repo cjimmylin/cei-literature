@@ -16,7 +16,7 @@ short_title: "ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering:
 year: 2023
 first_author: "[[Le Trong Nhan]]"
 last_author: "[[Hien Nguyen]]"
-authors: "Le Trong Nhan, Tai Dang, Hien Nguyen"
+authors: Le Trong Nhan; Tai Dang; Hien Nguyen
 doi: 10.18653/v1/2023.emnlp-industry.70
 url: "https://aclanthology.org/2023.emnlp-industry.70/"
 external_pdf: "https://aclanthology.org/2023.emnlp-industry.70.pdf"

@@ -17,7 +17,7 @@ short_title: "Evaluating Gender Bias in Machine Translation (WinoMT)"
 year: 2019
 first_author: "[[Gabriel Stanovsky]]"
 last_author: "[[Luke Zettlemoyer]]"
-authors: "Gabriel Stanovsky, Noah A. Smith, Luke Zettlemoyer"
+authors: Gabriel Stanovsky; Noah A. Smith; Luke Zettlemoyer
 url: "https://aclanthology.org/P19-1164/"
 external_pdf: "https://arxiv.org/pdf/1906.00591v1.pdf"
 publication: "ACL Anthology"

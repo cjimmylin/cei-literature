@@ -58,7 +58,12 @@ twitter: ""
 
 
 
+
+
+- [[2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and|MITRA A Large-Scale Parallel Corpus and]] (First Author)
+- [[2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language|MITRA-zh-eval Using a Buddhist Chinese Language]] (First Author)
 - [[2024-Keutzer-One Model is All You Need|One Model is All You Need]] (First Author)
+- [[2023-Keutzer-MITRA-zh An Efficient Open Machine Translation|MITRA-zh An Efficient Open Machine Translation]] (First Author)
 
 ## External Links & Profiles
 
@@ -87,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
+- *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf

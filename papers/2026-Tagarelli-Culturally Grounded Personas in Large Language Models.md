@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[A. Tagarelli|Andrea Tagarelli]]
+[[Andrea Tagarelli]]
 
 ## Metadata
 

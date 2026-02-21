@@ -3,7 +3,7 @@ name: "Qingsong Wen"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "University of Macau"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "jwang80@wm.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of|CultureVLM: Characterizing and Improving Cultural Understanding of Vision-Language Models for over 100 Countries]]
+- [[2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language|CulturePark: Boosting Cross-cultural Understanding in Large Language Models]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language*: Affiliation: Institute of Software, CAS, Email: jwang80@wm.edu
+- *From 2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language*: Affiliation: Institute of Software, CAS, Email: jwang80@wm.edu
 - *From 2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of*: Affiliation: University of Macau
 - *From 2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of*: Affiliation: University of Macau
 - *From 2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of*: Affiliation: University of Macau

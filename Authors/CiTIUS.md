@@ -1,0 +1,24 @@
+---
+name: "CiTIUS"
+affiliation: ""
+research_interests: []
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# CiTIUS
+
+## Affiliation
+
+
+## Research Interests
+
+
+## Publications
+(Auto-generated list of linked papers)
+
+## Papers in this Vault
+
+
+- [[2024-CiTIUS-A Galician-Portuguese Generative Model|A Galician-Portuguese Generative Model]] (First Author)

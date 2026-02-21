@@ -17,9 +17,9 @@ key: EXSR0390
 type: preprint
 short_title: "Indigenous Peoples and Artificial Intelligence A"
 year: 2025
-first_author: "[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Melissa Kennedy, Brendan Kennedy, Saman Halgamuge]]"
-last_author: "[[Saman Halgamuge Brendan Kennedy]]"
-authors: "[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Melissa Kennedy, Brendan Kennedy, Saman Halgamuge]]"
+first_author: "[[Maneesha Perera]]"
+last_author: "[[Saman Halgamuge]]"
+authors: Maneesha Perera; Rajith Vidanaarachchi; Sangeetha Chandrashekeran; Melissa Kennedy; Brendan Kennedy; Saman Halgamuge
 authors_incomplete: false
 url: 
 external_pdf: "https://osf.io/6hrqj/download"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Rajith Vidanaarachchi Maneesha Perera]], [[Melissa Kennedy Sangeetha Chandrashekeran]], [[Saman Halgamuge Brendan Kennedy]]
+[[Maneesha Perera]], [[Rajith Vidanaarachchi]], [[Sangeetha Chandrashekeran]], [[Melissa Kennedy]], [[Brendan Kennedy]], [[Saman Halgamuge]]
 
 ## Metadata
 

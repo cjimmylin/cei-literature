@@ -17,7 +17,7 @@ short_title: ToxicChat
 year: 2023
 first_author: "[[Zi Lin]]"
 last_author: "[[Shang, Jingbo]]"
-authors: "[[Lin, Zi]]; [[Wang, Zihan]]; [[Tong, Yongqi]]; [[Wang, Yangkun]]; [[Guo, Yuxin]]; [[Wang, Yujia]]; [[Shang, Jingbo]]"
+authors: "Lin, Zi; Wang, Zihan; Tong, Yongqi; Wang, Yangkun; Guo, Yuxin; Wang, Yujia; Shang, Jingbo"
 url: "https://aclanthology.org/2023.findings-emnlp.311/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QG932ES4/2023 - ToxicChat Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversations.pdf"
 national_ethnic_cultural: "N/A"

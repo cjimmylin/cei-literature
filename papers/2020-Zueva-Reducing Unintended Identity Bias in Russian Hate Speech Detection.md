@@ -16,7 +16,7 @@ short_title: "Reducing Unintended Identity Bias in Russian Hate Speech Detection
 year: 2020
 first_author: "[[Nadezhda Zueva]]"
 last_author: "[[Pavel Kalaidin]]"
-authors: "Nadezhda Zueva, Madina Kabirova, Pavel Kalaidin"
+authors: Nadezhda Zueva; Madina Kabirova; Pavel Kalaidin
 doi: 10.18653/v1/2020.alw-1.8
 url: "https://arxiv.org/abs/2010.11666"
 external_pdf: "https://arxiv.org/pdf/2010.11666.pdf"

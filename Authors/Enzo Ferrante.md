@@ -39,7 +39,10 @@ Enzo Ferrante is an Independent Researcher at CONICET (Argentina's National Scie
 
 
 
+
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
+- [[2024-Hooker-Global MMLU Understanding and Addressing Cultural|Global MMLU Understanding and Addressing Cultural]]
 
 ## External Links
 
@@ -54,6 +57,10 @@ Enzo Ferrante is an Independent Researcher at CONICET (Argentina's National Scie
 
 
 
+
+
+- *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
+- *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar

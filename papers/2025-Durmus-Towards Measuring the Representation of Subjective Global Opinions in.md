@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Durmus, Esin]], [[Nguyen, Karina]], [[Liao, Thomas I.]], [[Schiefer, Nicholas]], [[Askell, Amanda]], [[Bakhtin, Anton]], [[Chen, Carol]], [[Hatfield-Dodds, Zac]], [[Hernandez, Danny]], [[Joseph, Nicholas]], [[Lovitt, Liane]], [[McCandlish, Sam]], [[Sikder, Orowa]], [[Tamkin, Alex]], [[Thamkul, Janel]], [[Kaplan, Jared]], [[Clark, Jack]], [[Ganguli, Deep]]
+[[Durmus, Esin]], [[Nguyen, Karina]], [[Liao, Thomas I]], [[Schiefer, Nicholas]], [[Askell, Amanda]], [[Bakhtin, Anton]], [[Chen, Carol]], [[Hatfield-Dodds, Zac]], [[Hernandez, Danny]], [[Joseph, Nicholas]], [[Lovitt, Liane]], [[McCandlish, Sam]], [[Sikder, Orowa]], [[Tamkin, Alex]], [[Thamkul, Janel]], [[Kaplan, Jared]], [[Clark, Jack]], [[Ganguli, Deep]]
 
 ## Metadata
 

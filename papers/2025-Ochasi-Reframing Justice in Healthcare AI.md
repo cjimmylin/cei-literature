@@ -16,7 +16,7 @@ short_title: "Reframing Justice in Healthcare AI"
 year: 2025
 first_author: "[[Aloysius Ochasi]]"
 last_author: "[[Nkwocha, Levi U C]]"
-authors: "[[Ochasi, Aloysius]]; [[Mahamadou, Abdoul Jalil Djiberou]]; [[Altman, Russ B.]]; [[Nkwocha, Levi U C]]"
+authors: "Ochasi, Aloysius; Mahamadou, Abdoul Jalil Djiberou; Altman, Russ B.; Nkwocha, Levi U C"
 doi: 10.1111/dewb.70007
 url: "https://doi.org/10.1111/dewb.70007"
 pdf_extract: 

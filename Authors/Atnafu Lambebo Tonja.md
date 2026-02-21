@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]] (First Author)
+- [[2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained|AfroLM A Self-Active Learning-based Multilingual Pretrained]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained*: Affiliation: Institute, Canada, 2 McGill University, Canada, 3Instituto Politécnico Nacional, Mexico
+- *From 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained*: Affiliation: Institute, Canada, 2 McGill University, Canada, 3Instituto Politécnico Nacional, Mexico
 - *From 2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for*: Affiliation: labi3, Muhidin A
 - *From 2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for*: Affiliation: labi3, Muhidin A
 - *From 2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for*: Affiliation: labi3, Muhidin A

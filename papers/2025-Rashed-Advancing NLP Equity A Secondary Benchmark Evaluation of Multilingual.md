@@ -16,7 +16,7 @@ short_title: "Advancing NLP Equity: A Secondary Benchmark Evaluation of Multilin
 year: 2025
 first_author: "[[Rashed, Sheak]]"
 last_author: "[[Bhuiyan, Touhid]]"
-authors: "[[Rashed, Sheak]]; [[Billah, Md. Maruf]]; [[Rahman, Kazi Shakkhar]]; [[Islam, Tanvirul]]; [[Mahmud, Zarif]]; [[Faruqui, Nuruzzaman]]; [[Bhuiyan, Touhid]]"
+authors: "Rashed, Sheak; Billah, Md. Maruf; Rahman, Kazi Shakkhar; Islam, Tanvirul; Mahmud, Zarif; Faruqui, Nuruzzaman; Bhuiyan, Touhid"
 authors_incomplete: true
 url: "https://openreview.net/forum?id=YlTVWukmJe"
 external_pdf: "https://openreview.net/pdf?id=YlTVWukmJe"

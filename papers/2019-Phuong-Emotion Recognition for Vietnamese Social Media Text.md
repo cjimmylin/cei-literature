@@ -16,7 +16,7 @@ short_title: "Emotion Recognition for Vietnamese Social Media Text"
 year: 2019
 first_author: "[[Ho Thanh Phuong]]"
 last_author: "[[Nguyen Van Phu]]"
-authors: "Ho Thanh Phuong, Nguyen Van Phu, others"
+authors: Ho Thanh Phuong; Nguyen Van Phu
 url: "https://arxiv.org/abs/1911.09339"
 external_pdf: "https://arxiv.org/pdf/1911.09339.pdf"
 pdf_extract: "PDF Extracts/2019/2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.md"

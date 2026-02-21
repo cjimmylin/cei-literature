@@ -19,7 +19,7 @@ short_title: "Investigating linguistic errors in large language"
 year: 2025
 first_author: "[[Dilyorjon Solidjonov]]"
 last_author: "[[Muhammadjon Najmiddinov]]"
-authors: "[[Dilyorjon Solidjonov]]; [[Muhammadjon Najmiddinov]]"
+authors: Dilyorjon Solidjonov; Muhammadjon Najmiddinov
 authors_incomplete: false
 url: "https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2600519"
 external_pdf: 

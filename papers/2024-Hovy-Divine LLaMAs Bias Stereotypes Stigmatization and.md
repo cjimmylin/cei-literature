@@ -18,9 +18,9 @@ key: EXSR0476
 type: conference_paper
 short_title: "Divine LLaMAs Bias Stereotypes Stigmatization and"
 year: 2024
-first_author: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]"
-last_author: "[[Dirk Hovy Fer-Jan de Vries]]"
-authors: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]"
+first_author: "[[Flor Miriam Plaza-del-Arco]]"
+last_author: "[[Dirk Hovy]]"
+authors: Flor Miriam Plaza-del-Arco; Simone Tedeschi; Fer-Jan de Vries; Dirk Hovy
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.06908"
 external_pdf: "https://arxiv.org/pdf/2407.06908.pdf"
@@ -56,7 +56,7 @@ CONFERENCE: "EMNLP 2024"
 
 ## Authors
 
-[[Simone Tedeschi Flor Miriam Plaza-del-Arco]], [[Dirk Hovy Fer-Jan de Vries]]
+[[Flor Miriam Plaza-del-Arco]], [[Simone Tedeschi]], [[Fer-Jan de Vries]], [[Dirk Hovy]]
 
 ## Metadata
 

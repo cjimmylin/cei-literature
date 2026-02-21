@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "Large Language Model Generate Prompt 生成式大模型 安全评估白皮书"
 year: 2025
 first_author: "[[Cheng, Xueqi]]"
-last_author: "[[Wang, Weiqiang]]"
+last_author: "[[Zhou, Li]]"
 authors: "Cheng, Xueqi; Ao, Xiang; Yin, Zhiyi; Zhang, Shuguang; Wang, Xiaoshi; Li, Cheng'ao; Chen, Tianyu; Jing, Shaoling; Zhang, Yujie; Zhang, Hanyu; Zhang, Xiaomin; Sheng, Xiaobao; Wang, Yong; Jiang, Qinhui; Cao, Siwei; Liu, Jinming; Wen, Yuqian; Liu, Jialei; Wang, Guangze; Wang, Weiqiang; Li, Junkui; Cui, Shiwen; Xu, Zhuoer; Sun, Chuanliang; Zheng, Liang; Zhu, Cong; Zhou, Li"
 authors_incomplete: false
 url: "https://hulianhutongshequ.cn/upload/tank/report/2025/202502/1/06d030a5fdeb4a309f68e78e170cbd1b.pdf"

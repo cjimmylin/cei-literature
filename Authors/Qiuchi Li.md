@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Yao-NurValues|NurValues]]
 - [[2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks|Beyond Single-Sentence Prompts: Upgrading Value Alignment Benchmarks with Dialogues and Stories]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
+- *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 - *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 - *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 - *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University

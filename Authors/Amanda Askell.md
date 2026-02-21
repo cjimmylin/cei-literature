@@ -52,6 +52,8 @@ Selected for TIME's 100 most influential people in AI (2023), she is a key archi
 
 
 
+
+
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 - [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
@@ -79,6 +81,10 @@ Selected for TIME's 100 most influential people in AI (2023), she is a key archi
 
 
 
+
+
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com

@@ -17,7 +17,7 @@ short_title: "Swahili and Code-Switched English-Swahili Political Hate"
 year: 2025
 first_author: "[[Amol, Cynthia]]"
 last_author: "[[Obuhuma, James]]"
-authors: "[[Amol, Cynthia]]; [[Wanzare, Lilian]]; [[Obuhuma, James]]"
+authors: "Amol, Cynthia; Wanzare, Lilian; Obuhuma, James"
 authors_incomplete: false
 url: "https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0053"
 external_pdf: "https://www.sciengine.com/parse/pdf/2096-7004/D74782CFAA4A4B1A9E29A12EC0FEA64B.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Wanzare, Lilian]], [[Obuhuma, James]]
+[[Amol, Cynthia]], [[Wanzare, Lilian]], [[Obuhuma, James]]
 
 ## Metadata
 

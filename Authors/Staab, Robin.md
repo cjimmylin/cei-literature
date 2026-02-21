@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Guldimann-COMPL-AI EU AI Act Compliance|COMPL-AI (EU AI Act Compliance)]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Guldimann-COMPL-AI EU AI Act Compliance*: Affiliation: Department of Computer Science, 2LatticeFlow AI, 3INSAIT, Sofia University
+- *From 2024-Guldimann-COMPL-AI EU AI Act Compliance*: Affiliation: Department of Computer Science, 2LatticeFlow AI, 3INSAIT, Sofia University
 - *From 2024-Guldimann-COMPL-AI EU AI Act Compliance*: Affiliation: Department of Computer Science, 2LatticeFlow AI, 3INSAIT, Sofia University
 - *From 2024-Guldimann-COMPL-AI EU AI Act Compliance*: Affiliation: Department of Computer Science, 2LatticeFlow AI, 3INSAIT, Sofia University
 - *From 2024-Guldimann-COMPL-AI EU AI Act Compliance*: Affiliation: Department of Computer Science, 2LatticeFlow AI, 3INSAIT, Sofia University

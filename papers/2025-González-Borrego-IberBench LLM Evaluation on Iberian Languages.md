@@ -17,7 +17,7 @@ short_title: "IberBench: LLM Evaluation on Iberian Languages"
 year: 2025
 first_author: "[[González, José Ángel]]"
 last_author: "[[Franco-Salvador, Marc]]"
-authors: "[[González, José Ángel]]; [[Obrador, Ian Borrego]]; [[Herrero, Álvaro Romo]]; [[Sarvazyan, Areg Mikael]]; [[Chinea-Ríos, Mara]]; [[Basile, Angelo]]; [[Franco-Salvador, Marc]]"
+authors: "González, José Ángel; Obrador, Ian Borrego; Herrero, Álvaro Romo; Sarvazyan, Areg Mikael; Chinea-Ríos, Mara; Basile, Angelo; Franco-Salvador, Marc"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.16921"
 external_pdf: "https://arxiv.org/pdf/2504.16921.pdf"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset|BRAND: Bilingual Religious Accountable Norm Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset*: Affiliation: Department of Computer Science, Email: kazi.abrab.hossain@g.bracu.ac.bd
+- *From 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset*: Affiliation: Department of Computer Science, Email: kazi.abrab.hossain@g.bracu.ac.bd
 - *From 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset*: Affiliation: Department of Computer Science, Email: jannatul.somiya.mahmud@g.bracu.ac.bd
 - *From 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset*: Affiliation: Department of Computer Science, Email: farig.sadeque@bracu.ac.bd
 - *From 2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset*: Affiliation: Department of Computer Science, Email: farig.sadeque@bracu.ac.bd

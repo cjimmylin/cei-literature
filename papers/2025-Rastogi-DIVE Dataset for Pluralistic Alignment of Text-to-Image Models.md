@@ -17,7 +17,7 @@ short_title: "DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models"
 year: 2025
 first_author: "[[Rastogi, Charvi]]"
 last_author: "[[Aroyo, Lora]]"
-authors: "[[Rastogi, Charvi]]; [[Teh, Tian Huey]]; [[Mishra, Pushkar]]; [[Patel, Roma]]; [[Wang, Ding]]; [[Díaz, Mark]]; [[Parrish, Alicia]]; [[Davani, Aida Mostafazadeh]]; [[Ashwood, Zoe]]; [[Paganini, Michela]]; [[Prabhakaran, Vinodkumar]]; [[Rieser, Verena]]; [[Aroyo, Lora]]"
+authors: "Rastogi, Charvi; Teh, Tian Huey; Mishra, Pushkar; Patel, Roma; Wang, Ding; Díaz, Mark; Parrish, Alicia; Davani, Aida Mostafazadeh; Ashwood, Zoe; Paganini, Michela; Prabhakaran, Vinodkumar; Rieser, Verena; Aroyo, Lora"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.13383"
 external_pdf: "https://arxiv.org/pdf/2507.13383.pdf"

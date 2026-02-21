@@ -16,7 +16,7 @@ short_title: "Towards Comprehensive Semantic Speech Embeddings for Chinese Diale
 year: 2026
 first_author: "[[Chang, Kalvin]]"
 last_author: "[[Yu, Dong]]"
-authors: "[[Chang, Kalvin]]; [[Shao, Yiwen]]; [[Li, Jiahong]]; [[Yu, Dong]]"
+authors: "Chang, Kalvin; Shao, Yiwen; Li, Jiahong; Yu, Dong"
 authors_incomplete: false
 url: "https://arxiv.org/html/2601.07274"
 external_pdf: "https://arxiv.org/pdf/2601.07274.pdf"

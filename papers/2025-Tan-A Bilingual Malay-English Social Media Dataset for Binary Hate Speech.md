@@ -17,7 +17,7 @@ short_title: "A Bilingual Malay-English Social Media Dataset for Binary Hate Spe
 year: 2025
 first_author: "[[Tan, Jun-Chen]]"
 last_author: "[[Ong, Lee-Yeng]]"
-authors: "[[Tan, Jun-Chen]]; [[Leow, Meng-Chew]]; [[Ong, Lee-Yeng]]"
+authors: "Tan, Jun-Chen; Leow, Meng-Chew; Ong, Lee-Yeng"
 authors_incomplete: true
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925008741"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12557484/pdf/main.pdf"

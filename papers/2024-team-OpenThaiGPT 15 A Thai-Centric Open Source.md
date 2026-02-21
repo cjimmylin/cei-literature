@@ -17,7 +17,7 @@ short_title: "OpenThaiGPT 15 A Thai-Centric Open Source"
 year: 2024
 first_author: "[[team, OpenThaiGPT]]"
 last_author: "[[OpenThaiGPT team]]"
-authors: "[[OpenThaiGPT team]]"
+authors: OpenThaiGPT team
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.07238"
 external_pdf: "https://arxiv.org/pdf/2411.07238.pdf"

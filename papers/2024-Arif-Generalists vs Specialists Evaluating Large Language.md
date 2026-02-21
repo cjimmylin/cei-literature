@@ -18,7 +18,7 @@ short_title: "Generalists vs Specialists Evaluating Large Language"
 year: 2024
 first_author: "[[Arif, Samee]]"
 last_author: "[[Athar, Awais]]"
-authors: "[[Arif, Samee]]; [[Azeemi, Abdul Hameed]]; [[Raza, Agha Ali]]; [[Athar, Awais]]"
+authors: "Arif, Samee; Azeemi, Abdul Hameed; Raza, Agha Ali; Athar, Awais"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.04459"
 external_pdf: "https://arxiv.org/pdf/2407.04459.pdf"

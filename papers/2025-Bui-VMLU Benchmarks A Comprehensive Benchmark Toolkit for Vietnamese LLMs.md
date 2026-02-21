@@ -18,7 +18,7 @@ short_title: "VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese 
 year: 2025
 first_author: "[[Cuc Thi Bui]]"
 last_author: "[[Le-Minh Nguyen]]"
-authors: "Cuc Thi Bui, Nguyen Truong Son, Truong Van Trang, Lam Viet Phung, Pham Nhut Huy, Hoang Anh Le, Quoc Huu Van, Phong Nguyen-Thuan Do, Van Le Tran Truc, Duc Thanh Chau, Le-Minh Nguyen"
+authors: Cuc Thi Bui; Nguyen Truong Son; Truong Van Trang; Lam Viet Phung; Pham Nhut Huy; Hoang Anh Le; Quoc Huu Van; Phong Nguyen-Thuan Do; Van Le Tran Truc; Duc Thanh Chau; Le-Minh Nguyen
 url: "https://aclanthology.org/2025.acl-long.563/"
 external_pdf: "https://aclanthology.org/2025.acl-long.563.pdf"
 publication: "ACL Anthology"
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Cuc Thi Bui]], [[Nguyen Truong Son]], [[Truong Van Trang]], [[Lam Viet Phung]], [[Pham Nhut Huy]], [[Hai Son Le|Hoang Anh Le]], [[Quoc Huu Van]], [[Phong Nguyen-Thuan Do]], [[Van Le Tran Truc]], [[Duc Thanh Chau]], [[Long Nguyen|Le-Minh Nguyen]]
+[[Cuc Thi Bui]], [[Nguyen Truong Son]], [[Truong Van Trang]], [[Lam Viet Phung]], [[Pham Nhut Huy]], [[Hoang Anh Le]], [[Quoc Huu Van]], [[Phong Nguyen-Thuan Do]], [[Van Le Tran Truc]], [[Duc Thanh Chau]], [[Le-Minh Nguyen]]
 
 ## Metadata
 

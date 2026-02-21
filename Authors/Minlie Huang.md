@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Li-LegalAgentBench|LegalAgentBench]] (Last Author)
 - [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE: A Chinese Language Understanding and Generation Evaluation Benchmark]]
 - [[2025-Zhang-AISafetyLab|AISafetyLab]] (Last Author)
@@ -42,6 +44,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn
+- *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: aihuang@tsinghua.edu.cn
 - *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn

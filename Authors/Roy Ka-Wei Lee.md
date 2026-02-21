@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Chua-RabakBench|RabakBench]] (Last Author)
 - [[2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety|SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety]] (Last Author)
 - [[2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in|SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Resource Languages of Singapore]] (Last Author)
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in*: Affiliation: University of Technology and Design, Email: kenny_choo@sutd.edu.sg
+- *From 2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in*: Affiliation: University of Technology and Design, Email: kenny_choo@sutd.edu.sg
 - *From 2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in*: Affiliation: University of Technology and Design, Email: richi_ng@sutd.edu.sg
 - *From 2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in*: Affiliation: University of Technology and Design, Email: roy_lee@sutd.edu.sg
 - *From 2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in*: Affiliation: University of Technology and Design, Email: nirmalendu_prakash@mymail.sutd.edu.sg

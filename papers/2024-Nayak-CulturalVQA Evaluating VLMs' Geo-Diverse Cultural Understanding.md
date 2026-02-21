@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: "CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding"
 year: 2024
 first_author: "[[Nayak, Shravan]]"
-last_author: "[[Agrawal, Aishwarya]]"
+last_author: "[[Aishwarya Agrawal]]"
 authors: Shravan Nayak; Kanishk Jain; Rabiul Awal; Siva Reddy; Sjoerd van Steenkiste; Lisa Anne Hendricks; Karolina Stanczak; Aishwarya Agrawal
 url: "https://huggingface.co/datasets/mair-lab/CulturalVQA"
 publication: HuggingFace
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Unknown (mair-lab)]]
+[[Shravan Nayak]], [[Kanishk Jain]], [[Rabiul Awal]], [[Siva Reddy]], [[Sjoerd van Steenkiste]], [[Lisa Anne Hendricks]], [[Karolina Stanczak]], [[Aishwarya Agrawal]]
 
 ## Metadata
 

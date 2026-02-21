@@ -16,9 +16,9 @@ key: EXSR0337
 type: conference_paper
 short_title: "Bias Mitigation or Cultural Commonsense Evaluating"
 year: 2025
-first_author: "[[Taisei Yamamoto, Ryoma Kumon, Danushka Bollegala, Hitomi Yanaka]]"
-last_author: "[[Hitomi Yanaka Danushka Bollegala]]"
-authors: "[[Taisei Yamamoto, Ryoma Kumon, Danushka Bollegala, Hitomi Yanaka]]"
+first_author: "[[Taisei Yamamoto]]"
+last_author: "[[Hitomi Yanaka]]"
+authors: Taisei Yamamoto; Ryoma Kumon; Danushka Bollegala; Hitomi Yanaka
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.24468"
 external_pdf: "https://arxiv.org/pdf/2509.24468.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Ryoma Kumon Taisei Yamamoto]], [[Hitomi Yanaka Danushka Bollegala]]
+[[Taisei Yamamoto]], [[Ryoma Kumon]], [[Danushka Bollegala]], [[Hitomi Yanaka]]
 
 ## Metadata
 

@@ -16,7 +16,7 @@ short_title: MoralReason
 year: 2025
 first_author: "[[Zhiyu An]]"
 last_author: "[[Du, Wan]]"
-authors: "[[An, Zhiyu]]; [[Du, Wan]]"
+authors: "An, Zhiyu; Du, Wan"
 doi: 10.48550/arXiv.2511.12271
 url: "https://arxiv.org/abs/2511.12271"
 pdf_extract: "PDF Extracts/2025/2025-An-MoralReason.md"

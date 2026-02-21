@@ -17,7 +17,7 @@ short_title: "SemEval-2023 Task 10"
 year: 2023
 first_author: "[[Hannah Kirk]]"
 last_author: "[[Röttger, Paul]]"
-authors: "[[Kirk, Hannah]]; [[Yin, Wenjie]]; [[Vidgen, Bertie]]; [[Röttger, Paul]]"
+authors: "Kirk, Hannah; Yin, Wenjie; Vidgen, Bertie; Röttger, Paul"
 url: "https://aclanthology.org/2023.semeval-1.305/"
 external_pdf: "http://arxiv.org/pdf/2303.04222"
 national_ethnic_cultural: "N/A"
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Hannah Kirk|Kirk, Hannah]], [[Wenjie Yin|Yin, Wenjie]], [[Bertie Vidgen|Vidgen, Bertie]], [[Paul Röttger|Röttger, Paul]]
+[[Hannah Kirk|Kirk, Hannah]], [[Wenjie Yin|Yin, Wenjie]], [[Bertie Vidgen|Vidgen, Bertie]], [[Röttger, Paul]]
 
 ## Links
 

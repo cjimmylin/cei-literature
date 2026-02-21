@@ -24,8 +24,11 @@ Aditi Khandelwal is a PhD student at Mila - Quebec Artificial Intelligence Insti
 
 
 
+
+
 - [[2024-Agarwal-Ethical Reasoning Depends on Language|Ethical Reasoning Depends on Language]]
 - [[2024-Khandelwal-Do Moral Judgment and Reasoning Capability of|Do Moral Judgment and Reasoning Capability of]] (First Author)
+- [[2024-Khandelwal-Multilingual Defining Issues Test|Multilingual Defining Issues Test]] (First Author)
 - [[2023-Deng-Probing the Moral Development of Large Language|Probing the Moral Development of Large Language]]
 - [[2023-Rao-Ethical Reasoning over Moral Alignment|Ethical Reasoning over Moral Alignment]]
 
@@ -36,6 +39,10 @@ Aditi Khandelwal is a PhD student at Mila - Quebec Artificial Intelligence Insti
 
 
 
+
+
+- *From 2023-Deng-Probing the Moral Development of Large Language*: Affiliation: school students, Email: t-aditikh@microsoft.com
+- *From 2023-Deng-Probing the Moral Development of Large Language*: Affiliation: school students, Email: t-aditikh@microsoft.com
 - *From 2023-Deng-Probing the Moral Development of Large Language*: Affiliation: school students, Email: monojitc@microsoft.com
 - *From 2023-Deng-Probing the Moral Development of Large Language*: Affiliation: school students, Email: monojitc@microsoft.com
 - *From 2023-Deng-Probing the Moral Development of Large Language*: Affiliation: school students, Email: monojitc@microsoft.com

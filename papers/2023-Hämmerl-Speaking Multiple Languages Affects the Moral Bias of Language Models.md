@@ -16,7 +16,7 @@ short_title: "Speaking Multiple Languages Affects the Moral Bias of Language Mod
 year: 2023
 first_author: "[[Katharina Hämmerl]]"
 last_author: "[[Patrick Schramowski]]"
-authors: "Katharina Hämmerl, Björn Deiseroth, Patrick Schramowski, others"
+authors: Katharina Hämmerl; Björn Deiseroth; Patrick Schramowski
 url: "https://aclanthology.org/2023.findings-acl.134/"
 external_pdf: "https://arxiv.org/pdf/2211.07733.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.md"

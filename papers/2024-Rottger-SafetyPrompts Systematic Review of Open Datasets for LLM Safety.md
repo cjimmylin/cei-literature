@@ -18,7 +18,7 @@ short_title: "SafetyPrompts: Systematic Review of Open Datasets for LLM Safety"
 year: 2024
 first_author: "[[Röttger, Paul]]"
 last_author: "[[Hovy, Dirk]]"
-authors: "[[Röttger, Paul]]; [[Pernisi, Fabio]]; [[Vidgen, Bertie]]; [[Hovy, Dirk]]"
+authors: "Röttger, Paul; Pernisi, Fabio; Vidgen, Bertie; Hovy, Dirk"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.05399"
 external_pdf: "https://arxiv.org/pdf/2404.05399.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "AAAI 2024"
 
 ## Authors
 
-[[Paul Röttger|Röttger, Paul]], [[Pernisi, Fabio]], [[Bertie Vidgen|Vidgen, Bertie]], [[Dirk Hovy|Hovy, Dirk]]
+[[Röttger, Paul]], [[Pernisi, Fabio]], [[Bertie Vidgen|Vidgen, Bertie]], [[Dirk Hovy|Hovy, Dirk]]
 
 ## Metadata
 

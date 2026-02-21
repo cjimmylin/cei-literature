@@ -3,7 +3,7 @@ name: "Karthik Narasimhan"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "lable at https://github"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "adewynter@microsoft.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -59,7 +59,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Chaudhari-RLHF Deciphered|RLHF Deciphered]]
+- [[2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios|RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?]]
 
 ## External Links & Profiles
 
@@ -89,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios*: Affiliation: University of York, Email: adewynter@microsoft.com
+- *From 2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios*: Affiliation: University of York, Email: adewynter@microsoft.com
 - *From 2025-Chaudhari-RLHF Deciphered*: Affiliation: lable at https://github
 - *From 2025-Chaudhari-RLHF Deciphered*: Affiliation: lable at https://github
 - *From 2025-Chaudhari-RLHF Deciphered*: Affiliation: lable at https://github

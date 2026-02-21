@@ -19,7 +19,7 @@ type: preprint
 short_title: "Hate Speech Detection in the Kazakh"
 year: 2025
 first_author: "[[Bolatbek, Milana]]"
-last_author: "[[Sagynay, Moldir]]"
+last_author: "[[Moldir Sagynay]]"
 authors: Milana Bolatbek; Shynar Mussiraliyeva; Moldir Sagynay
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/11206867/"

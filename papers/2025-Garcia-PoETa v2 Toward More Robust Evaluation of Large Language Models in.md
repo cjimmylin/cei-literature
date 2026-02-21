@@ -15,10 +15,10 @@ key: LSRC0204
 type: preprint
 short_title: "PoETa v2: Toward More Robust Evaluation of Large Language Models in Portuguese"
 year: 2025
-first_author: "[[Garcia, Eduardo]]"
-last_author: "[[Pimentel, Tiago]]"
-authors: "[[Garcia, Eduardo]]; [[Pires, Matheus]]; [[Pimentel, Tiago]]"
-authors_incomplete: true
+first_author: "[[Thales Rogério Sales Almeida]]"
+last_author: "[[H'elio Pedrini]]"
+authors: "Thales Rogério Sales Almeida; Ramon Pires; Hugo Abonizio; Rodrigo Nogueira; H'elio Pedrini"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2511.17808"
 external_pdf: "https://arxiv.org/pdf/2511.17808.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.md"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Garcia, Eduardo]], [[Pires, Matheus]], [[Pimentel, Tiago]]
+[[Thales Sales Almeida|Thales Rogério Sales Almeida]], [[Ramon Pires]], [[Hugo Abonizio]], [[Rodrigo Nogueira]], [[H'elio Pedrini]]
 
 ## Metadata
 

@@ -16,7 +16,7 @@ short_title: "Does Moral Code Have a Moral Code?"
 year: 2022
 first_author: "[[Kathleen C. Fraser]]"
 last_author: "[[Balkir, Esma]]"
-authors: "[[Fraser, Kathleen C.]]; [[Kiritchenko, Svetlana]]; [[Balkir, Esma]]"
+authors: "Fraser, Kathleen C.; Kiritchenko, Svetlana; Balkir, Esma"
 doi: 10.48550/arXiv.2205.12771
 url: "http://arxiv.org/abs/2205.12771"
 pdf_extract: "PDF Extracts/2022/2022-Fraser-Does Moral Code Have a Moral Code.md"

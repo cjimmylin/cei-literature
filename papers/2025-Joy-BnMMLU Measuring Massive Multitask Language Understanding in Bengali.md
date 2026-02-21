@@ -17,7 +17,7 @@ short_title: "BnMMLU: Measuring Massive Multitask Language Understanding in Beng
 year: 2025
 first_author: "[[Joy, Saman Sarker]]"
 last_author: "[[Shatabda, Swakkhar]]"
-authors: "[[Joy, Saman Sarker]]; [[Shatabda, Swakkhar]]"
+authors: "Joy, Saman Sarker; Shatabda, Swakkhar"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.18951"
 external_pdf: "https://arxiv.org/pdf/2505.18951.pdf"

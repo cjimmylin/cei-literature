@@ -18,8 +18,8 @@ type: conferencePaper
 short_title: "Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU"
 year: 2023
 first_author: "[[Fajri Koto]]"
-last_author: "[[Timothy Baldwin Haonan Li]]"
-authors: "Fajri Koto, Nurul Aisyah, Haonan Li, Timothy Baldwin"
+last_author: "[[Timothy Baldwin]]"
+authors: Fajri Koto; Nurul Aisyah; Haonan Li; Timothy Baldwin
 url: "https://aclanthology.org/2023.emnlp-main.760/"
 external_pdf: "https://arxiv.org/pdf/2310.04928"
 publication: "ACL Anthology"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2023"
 
 ## Authors
 
-[[Nurul Aisyah Fajri Koto]], [[Tianbin Li|Timothy Baldwin Haonan Li]]
+[[Fajri Koto]], [[Nurul Aisyah]], [[Haonan Li]], [[Timothy Baldwin]]
 
 ## Metadata
 

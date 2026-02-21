@@ -15,8 +15,8 @@ type: conferencePaper
 short_title: "CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies"
 year: 2024
 first_author: "[[Weiyan Shi]]"
-last_author: "[[Diyi Yang Rogerio Abreu de Paula]]"
-authors: Weiyan Shi, Ryan Li, Yutong Zhang, Caleb Ziems, Chunhua Yu, Raya Horesh, Rogerio Abreu de Paula, Diyi Yang
+last_author: "[[Diyi Yang]]"
+authors: Weiyan Shi; Ryan Li; Yutong Zhang; Caleb Ziems; Chunhua Yu; Raya Horesh; Rogerio Abreu de Paula; Diyi Yang
 url: "https://arxiv.org/abs/2404.15238"
 external_pdf: "https://arxiv.org/pdf/2404.15238.pdf"
 publication: HuggingFace
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Ryan Li Weiyan Shi]], [[Caleb Ziems Yutong Zhang]], [[Raya Horesh Chunhua Yu]], [[Diyi Yang Rogerio Abreu de Paula]]
+[[Weiyan Shi]], [[Ryan Li]], [[Yutong Zhang]], [[Caleb Ziems]], [[Chunhua Yu]], [[Raya Horesh]], [[Rogerio Abreu de Paula]], [[Diyi Yang]]
 
 ## Metadata
 

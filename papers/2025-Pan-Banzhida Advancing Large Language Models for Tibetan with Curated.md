@@ -16,7 +16,7 @@ short_title: "Banzhida: Advancing Large Language Models for Tibetan with Curated
 year: 2025
 first_author: "[[Leiyu Pan]]"
 last_author: "[[Deyi Xiong]]"
-authors: Leiyu Pan, Bojian Xiong, Lei Yang, Renren Jin, Shaowei Zhang, Yue Chen, Ling Shi, Jiang Zhou, Junru Wu, Zhen Wang, Jianxiang Peng, Juesi Xiao, Tianyu Dong, Zhuowen Han, Zhuo Chen, Yuqi Ren, Deyi Xiong
+authors: Leiyu Pan; Bojian Xiong; Lei Yang; Renren Jin; Shaowei Zhang; Yue Chen; Ling Shi; Jiang Zhou; Junru Wu; Zhen Wang; Jianxiang Peng; Juesi Xiao; Tianyu Dong; Zhuowen Han; Zhuo Chen; Yuqi Ren; Deyi Xiong
 url: "https://arxiv.org/abs/2507.09205"
 external_pdf: "https://arxiv.org/pdf/2507.09205.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Leiyu Pan]], [[Bojian Xiong]], [[Lei Yang]], [[Renren Jin]], [[Shaowei Zhang]], [[Yue Chen]], [[Ling Shi]], [[Jiang Zhou]], [[Junru Wu]], [[Zhen Wang]], [[Jiachuan Peng|Jianxiang Peng]], [[Juesi Xiao]], [[Tianyu Dong]], [[Ziwen Han|Zhuowen Han]], [[Zhuo Chen]], [[Yuanyi Ren|Yuqi Ren]], [[Deyi Xiong]]
+[[Leiyu Pan]], [[Bojian Xiong]], [[Lei Yang]], [[Renren Jin]], [[Shaowei Zhang]], [[Yue Chen]], [[Ling Shi]], [[Jiang Zhou]], [[Junru Wu]], [[Zhen Wang]], [[Jianxiang Peng]], [[Juesi Xiao]], [[Tianyu Dong]], [[Zhuowen Han]], [[Zhuo Chen]], [[Yuqi Ren]], [[Deyi Xiong]]
 
 ## Metadata
 

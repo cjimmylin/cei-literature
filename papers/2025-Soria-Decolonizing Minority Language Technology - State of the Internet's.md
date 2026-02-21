@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "Decolonizing Minority Language Technology - State of the Internet's Languages Report"
 year: 2025
 first_author: "[[Soria, Claudia]]"
-last_author: "[[Soria, Claudia]]"
+last_author: "[[Claudia Soria]]"
 authors: Claudia Soria
 authors_incomplete: false
 url: "https://internetlanguages.org/en/stories/decolonizing-minority-language/"

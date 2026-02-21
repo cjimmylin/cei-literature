@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Li-Quantifying AI Psychology|Quantifying AI Psychology]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
+- *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
 - *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
 - *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
 - *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge

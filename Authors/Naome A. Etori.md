@@ -58,6 +58,10 @@ twitter: ""
 
 
 
+
+
+- [[2025-Kanepajs-LAG-MMLU Benchmarking Frontier LLM Understanding in|LAG-MMLU Benchmarking Frontier LLM Understanding in]] (First Author)
+- [[2024-Adelani-Uhura A Benchmark for Evaluating Scientific|Uhura A Benchmark for Evaluating Scientific]]
 - [[2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering|AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset]]
 
 ## External Links & Profiles
@@ -87,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Adelani-Uhura A Benchmark for Evaluating Scientific*: Affiliation: labi2,∗,†, Jonas Kgomo3, Tyna Eloundou4
+- *From 2024-Adelani-Uhura A Benchmark for Evaluating Scientific*: Affiliation: labi2,∗,†, Jonas Kgomo3, Tyna Eloundou4
 - *From 2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering*: Affiliation: Institute of Technology, 3The Ohio State University, 4BioRAMP, Email: tobi@intron.io
 - *From 2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering*: Affiliation: Institute of Technology, 3The Ohio State University, 4BioRAMP, Email: tobi@intron.io
 - *From 2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering*: Affiliation: Institute of Technology, 3The Ohio State University, 4BioRAMP, Email: tobi@intron.io

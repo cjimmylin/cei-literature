@@ -18,7 +18,7 @@ short_title: "SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against
 year: 2019
 first_author: "[[Basile, Valerio]]"
 last_author: "[[Sanguinetti, Manuela]]"
-authors: "[[Basile, Valerio]]; [[Bosco, Cristina]]; [[Fersini, Elisabetta]]; [[Nozza, Debora]]; [[Patti, Viviana]]; [[Pardo, Francisco Manuel Rangel]]; [[Rosso, Paolo]]; [[Sanguinetti, Manuela]]"
+authors: "Basile, Valerio; Bosco, Cristina; Fersini, Elisabetta; Nozza, Debora; Patti, Viviana; Pardo, Francisco Manuel Rangel; Rosso, Paolo; Sanguinetti, Manuela"
 authors_incomplete: false
 url: "https://aclanthology.org/S19-2007/"
 external_pdf: "https://aclanthology.org/S19-2077.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2019"
 
 ## Authors
 
-[[Basile, Valerio]], [[Bosco, Cristina]], [[Fersini, Elisabetta]], [[Nozza, Debora]], [[Patti, Viviana]], [[Pardo, Francisco Manuel Rangel]], [[Rosso, Paolo]], [[Sanguinetti, Manuela]]
+[[Valerio Basile|Basile, Valerio]], [[Cristina Bosco|Bosco, Cristina]], [[Elisabetta Fersini|Fersini, Elisabetta]], [[Debora Nozza|Nozza, Debora]], [[Viviana Patti|Patti, Viviana]], [[Francisco Manuel Rangel Pardo|Pardo, Francisco Manuel Rangel]], [[Paolo Rosso|Rosso, Paolo]], [[Manuela Sanguinetti|Sanguinetti, Manuela]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask|SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask*: Affiliation: Institute of Science and Technology (NAIST), Japan
+- *From 2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask*: Affiliation: Institute of Science and Technology (NAIST), Japan
 - *From 2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask*: Affiliation: Institute of Science and Technology (NAIST), Japan
 - *From 2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask*: Affiliation: Institute of Science and Technology (NAIST), Japan
 - *From 2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask*: Affiliation: Institute of Science and Technology (NAIST), Japan

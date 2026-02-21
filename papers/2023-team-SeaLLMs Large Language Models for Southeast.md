@@ -17,7 +17,7 @@ short_title: "SeaLLMs Large Language Models for Southeast"
 year: 2023
 first_author: "[[team, DAMO Academy / Alibaba]]"
 last_author: "[[DAMO Academy Alibaba team]]"
-authors: "[[DAMO Academy / Alibaba team]]"
+authors: DAMO Academy Alibaba team
 authors_incomplete: false
 url: "https://arxiv.org/abs/2312.00738"
 external_pdf: "https://arxiv.org/pdf/2312.00738.pdf"

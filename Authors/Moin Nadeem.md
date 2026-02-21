@@ -24,6 +24,8 @@ Moin Nadeem received his M.Eng in Artificial Intelligence from MIT (2020-2021) a
 
 
 
+
+
 - [[2021-Nadeem-StereoSet|StereoSet]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ Moin Nadeem received his M.Eng in Artificial Intelligence from MIT (2020-2021) a
 
 
 
+
+
+- *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: mnadeem@mit.edu
+- *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: mnadeem@mit.edu
 - *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: anna.bethke@intel.com
 - *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: anna.bethke@intel.com
 - *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: mnadeem@mit.edu

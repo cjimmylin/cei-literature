@@ -39,6 +39,8 @@ Emre Kazim is Co-Director of the Digital Ethics Center at University College Lon
 
 
 
+
+
 - [[2022-Gwagwa-The role of the African value of Ubuntu in global|The role of the African value of Ubuntu in global]]
 
 ## External Links
@@ -54,6 +56,10 @@ Emre Kazim is Co-Director of the Digital Ethics Center at University College Lon
 
 
 
+
+
+- *From 2022-Gwagwa-The role of the African value of Ubuntu in global*: Affiliation: Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, Email: e.a.gwagwa@uu.nl
+- *From 2022-Gwagwa-The role of the African value of Ubuntu in global*: Affiliation: Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, Email: e.a.gwagwa@uu.nl
 - *From 2022-Gwagwa-The role of the African value of Ubuntu in global*: Affiliation: Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, Email: e.a.gwagwa@uu.nl
 - *From 2022-Gwagwa-The role of the African value of Ubuntu in global*: Affiliation: Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, Email: e.a.gwagwa@uu.nl
 - *From 2022-Gwagwa-The role of the African value of Ubuntu in global*: Affiliation: Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, Email: e.a.gwagwa@uu.nl

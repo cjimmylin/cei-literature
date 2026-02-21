@@ -15,8 +15,8 @@ type: preprint
 short_title: "Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting"
 year: 2025
 first_author: "[[Fajri Koto]]"
-last_author: "[[Preslav Nakov Neha Sengupta]]"
-authors: Fajri Koto, Rituraj Joshi, Nurdaulet Mukhituly, Yuxia Wang, Zhuohan Xie, Rahul Pal, Daniil Orel, Parvez Mullah, Diana Turmakhan, Maiya Goloburda, Mohammed Kamran, Samujjwal Ghosh, Bokang Jia, Jonibek Mansurov, Mukhammed Togmanov, Debopriyo Banerjee, Nurkhan Laiyk, Akhmed Sakip, Xudong Han, Ekaterina Kochmar, Alham Fikri Aji, Aaryamonvikram Singh, Alok Anil Jadhav, Satheesh Katipomu, Samta Kamboj, Monojit Choudhury, Gurpreet Gosal, Gokulakrishnan Ramakrishnan, Biswajit Mishra, Sarath Chandran, Avraham Sheinin, Natalia Vassilieva, Neha Sengupta, Preslav Nakov
+last_author: "[[Preslav Nakov]]"
+authors: Fajri Koto; Rituraj Joshi; Nurdaulet Mukhituly; Yuxia Wang; Zhuohan Xie; Rahul Pal; Daniil Orel; Parvez Mullah; Diana Turmakhan; Maiya Goloburda; Mohammed Kamran; Samujjwal Ghosh; Bokang Jia; Jonibek Mansurov; Mukhammed Togmanov; Debopriyo Banerjee; Nurkhan Laiyk; Akhmed Sakip; Xudong Han; Ekaterina Kochmar; Alham Fikri Aji; Aaryamonvikram Singh; Alok Anil Jadhav; Satheesh Katipomu; Samta Kamboj; Monojit Choudhury; Gurpreet Gosal; Gokulakrishnan Ramakrishnan; Biswajit Mishra; Sarath Chandran; Avraham Sheinin; Natalia Vassilieva; Neha Sengupta; Preslav Nakov
 url: "https://arxiv.org/abs/2503.01493"
 external_pdf: "https://arxiv.org/pdf/2503.01493.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Rituraj Joshi Fajri Koto]], [[Yuxia Wang Nurdaulet Mukhituly]], [[Ruobing Xie|Rahul Pal Zhuohan Xie]], [[Parvez Mullah Daniil Orel]], [[Maiya Goloburda Diana Turmakhan]], [[Samujjwal Ghosh Mohammed Kamran]], [[Jonibek Mansurov Bokang Jia]], [[Debopriyo Banerjee Mukhammed Togmanov]], [[Akhmed Sakip Nurkhan Laiyk]], [[Ekaterina Kochmar Xudong Han]], [[Aaryamonvikram Singh Alham Fikri Aji]], [[Suramya Jadhav|Satheesh Katipomu Alok Anil Jadhav]], [[Monojit Choudhury Samta Kamboj]], [[Gokulakrishnan Ramakrishnan Gurpreet Gosal]], [[Sarath Chandran Biswajit Mishra]], [[Natalia Vassilieva Avraham Sheinin]], [[Preslav Nakov Neha Sengupta]]
+[[Fajri Koto]], [[Rituraj Joshi]], [[Nurdaulet Mukhituly]], [[Yuxia Wang]], [[Zhuohan Xie]], [[Rahul Pal]], [[Daniil Orel]], [[Parvez Mullah]], [[Diana Turmakhan]], [[Maiya Goloburda]], [[Mohammed Kamran]], [[Samujjwal Ghosh]], [[Bokang Jia]], [[Jonibek Mansurov]], [[Mukhammed Togmanov]], [[Debopriyo Banerjee]], [[Nurkhan Laiyk]], [[Akhmed Sakip]], [[Xudong Han]], [[Ekaterina Kochmar]], [[Alham Fikri Aji]], [[Aaryamonvikram Singh]], [[Alok Anil Jadhav]], [[Satheesh Katipomu]], [[Samta Kamboj]], [[Monojit Choudhury]], [[Gurpreet Gosal]], [[Gokulakrishnan Ramakrishnan]], [[Biswajit Mishra]], [[Sarath Chandran]], [[Avraham Sheinin]], [[Natalia Vassilieva]], [[Neha Sengupta]], [[Preslav Nakov]]
 
 ## Metadata
 

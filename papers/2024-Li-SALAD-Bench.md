@@ -16,7 +16,7 @@ short_title: SALAD-Bench
 year: 2024
 first_author: "[[Lijun Li]]"
 last_author: "[[Shao, Jing]]"
-authors: "[[Li, Lijun]]; [[Dong, Bowen]]; [[Wang, Ruohui]]; [[Hu, Xuhao]]; [[Zuo, Wangmeng]]; [[Lin, Dahua]]; [[Qiao, Yu]]; [[Shao, Jing]]"
+authors: "Li, Lijun; Dong, Bowen; Wang, Ruohui; Hu, Xuhao; Zuo, Wangmeng; Lin, Dahua; Qiao, Yu; Shao, Jing"
 url: "https://aclanthology.org/2024.findings-acl.235/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6WRTXGCW/2024 - SALAD-Bench A Hierarchical and Comprehensive Safety Benchmark for Large Language Models.pdf"
 national_ethnic_cultural: "N/A"

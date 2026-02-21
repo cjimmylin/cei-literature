@@ -16,9 +16,9 @@ key: EXSR0447
 type: preprint
 short_title: "Vedavani A Benchmark Corpus for ASR"
 year: 2025
-first_author: "[[Sujeet Kumar, Pretam Ray, Abhinay Beerukuri, Shrey Kamoji, Manoj Balaji Jagadeeshan, Pawan Goyal]]"
-last_author: "[[Pawan Goyal Manoj Balaji Jagadeeshan]]"
-authors: "[[Sujeet Kumar, Pretam Ray, Abhinay Beerukuri, Shrey Kamoji, Manoj Balaji Jagadeeshan, Pawan Goyal]]"
+first_author: "[[Sujeet Kumar]]"
+last_author: "[[Pawan Goyal]]"
+authors: Sujeet Kumar; Pretam Ray; Abhinay Beerukuri; Shrey Kamoji; Manoj Balaji Jagadeeshan; Pawan Goyal
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.00145"
 external_pdf: "https://arxiv.org/pdf/2506.00145.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Priyanshu Kumar|Pretam Ray Sujeet Kumar]], [[Shrey Kamoji Abhinay Beerukuri]], [[Pawan Goyal Manoj Balaji Jagadeeshan]]
+[[Sujeet Kumar]], [[Pretam Ray]], [[Abhinay Beerukuri]], [[Shrey Kamoji]], [[Manoj Balaji Jagadeeshan]], [[Pawan Goyal]]
 
 ## Metadata
 

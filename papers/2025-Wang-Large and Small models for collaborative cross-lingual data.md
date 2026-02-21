@@ -16,7 +16,7 @@ short_title: "Large and Small models for collaborative cross-lingual data augmen
 year: 2025
 first_author: "[[Wang, Yurong]]"
 last_author: "[[Li, Yanling]]"
-authors: "[[Wang, Yurong]]; [[Lin, Min]]; [[Hu, Qitu]]; [[Bao, Longjie]]; [[Bai, Shuangcheng]]; [[Li, Yanling]]"
+authors: "Wang, Yurong; Lin, Min; Hu, Qitu; Bao, Longjie; Bai, Shuangcheng; Li, Yanling"
 authors_incomplete: false
 doi: 10.1007/s44443-025-00055-w
 url: "https://link.springer.com/article/10.1007/s44443-025-00055-w"

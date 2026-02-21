@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2021-Park-KLUE Korean Language Understanding Evaluation|KLUE: Korean Language Understanding Evaluation]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: james.ryu@kakaoenterprise.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: humanbrain.djlee@gmail.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com

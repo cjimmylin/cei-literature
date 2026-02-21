@@ -18,7 +18,7 @@ short_title: "SEALGuard Safeguarding the Multilingual Conversations in"
 year: 2025
 first_author: "[[Wenliang Shan]]"
 last_author: "[[Chakkrit Tantithamthavorn]]"
-authors: "[[Wenliang Shan]]; [[Michael Fu]]; [[Rui Yang]]; [[Chakkrit Tantithamthavorn]]"
+authors: Wenliang Shan; Michael Fu; Rui Yang; Chakkrit Tantithamthavorn
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.08898"
 external_pdf: "https://arxiv.org/pdf/2507.08898.pdf"

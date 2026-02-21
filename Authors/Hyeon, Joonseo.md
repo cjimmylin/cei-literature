@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for|Adaptive Ensemble Techniques Leveraging BERT-based Models for Multilingual Hate Speech Detection in Korean and English]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 

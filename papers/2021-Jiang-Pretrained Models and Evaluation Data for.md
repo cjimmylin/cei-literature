@@ -17,7 +17,7 @@ short_title: "Pretrained Models and Evaluation Data for"
 year: 2021
 first_author: "[[Jiang, Shengyi]]"
 last_author: "[[Fu, Yingwen]]"
-authors: "[[Jiang, Shengyi]]; [[Fu, Sihui]]; [[Lin, Nankai]]; [[Fu, Yingwen]]"
+authors: "Jiang, Shengyi; Fu, Sihui; Lin, Nankai; Fu, Yingwen"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/9645441/"
 external_pdf: "https://ieeexplore.ieee.org/ielx7/5971803/9645434/09645441.pdf"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Aji-Multilingual Multicultural Evaluation Workshop|Multilingual Multicultural Evaluation Workshop]]
 - [[2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local|NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
+- *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne

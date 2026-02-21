@@ -17,7 +17,7 @@ short_title: "Case Study"
 year: 2021
 first_author: "[[Shrimai Prabhumoye]]"
 last_author: "[[Black, Alan W]]"
-authors: "[[Prabhumoye, Shrimai]]; [[Boldt, Brendon]]; [[Salakhutdinov, Ruslan]]; [[Black, Alan W]]"
+authors: "Prabhumoye, Shrimai; Boldt, Brendon; Salakhutdinov, Ruslan; Black, Alan W"
 doi: 10.18653/v1/2021.naacl-main.297
 url: "https://aclanthology.org/2021.naacl-main.297/"
 pdf_extract: "PDF Extracts/2021/2021-Prabhumoye-Case Study.md"

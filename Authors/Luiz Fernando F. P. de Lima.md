@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese|A Call for a Research Agenda on Fair NLP for Portuguese]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese*:, Email: lffpl@cesar.org.br
+- *From 2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese*:, Email: lffpl@cesar.org.br
 - *From 2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese*:, Email: lffpl@cesar.org.br
 - *From 2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese*:, Email: renata.araujo@mackenzie.br
 - *From 2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese*:, Email: renata.araujo@mackenzie.br

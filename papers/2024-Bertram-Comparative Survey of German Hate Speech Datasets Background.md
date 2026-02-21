@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: "Comparative Survey of German Hate Speech Datasets: Background, Characteristics and Biases"
 year: 2024
 first_author: "[[Bertram, Markus]]"
-last_author: "[[Mandl, Thomas]]"
+last_author: "[[Thomas Mandl]]"
 authors: Markus Bertram; Johannes Schafer; Thomas Mandl
 url: "https://www.researchgate.net/publication/378070468_Comparative_Survey_of_German_Hate_Speech_Datasets_Background_Characteristics_and_Biases"
 external_pdf: "https://ceur-ws.org/Vol-3630/LWDA2023-paper19.pdf"

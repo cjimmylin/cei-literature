@@ -42,6 +42,8 @@ Wang has made significant contributions to AI safety and trustworthiness researc
 
 
 
+
+
 - [[2023-Wang-DecodingTrust|DecodingTrust]] (First Author)
 
 ## External Links & Profiles
@@ -63,6 +65,10 @@ Wang has made significant contributions to AI safety and trustworthiness researc
 
 
 
+
+
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu

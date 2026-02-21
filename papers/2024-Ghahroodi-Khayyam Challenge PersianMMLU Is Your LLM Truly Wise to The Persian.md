@@ -15,8 +15,8 @@ type: preprint
 short_title: "Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?"
 year: 2024
 first_author: "[[Omid Ghahroodi]]"
-last_author: "[[Mohammad Hossein Rohban Mahdieh Soleymani Baghshah]]"
-authors: Omid Ghahroodi, Marzia Nouri, Mohammad Vali Sanian, Alireza Sahebi, Doratossadat Dastgheib, Ehsaneddin Asgari, Mahdieh Soleymani Baghshah, Mohammad Hossein Rohban
+last_author: "[[Mohammad Hossein Rohban]]"
+authors: Omid Ghahroodi; Marzia Nouri; Mohammad Vali Sanian; Alireza Sahebi; Doratossadat Dastgheib; Ehsaneddin Asgari; Mahdieh Soleymani Baghshah; Mohammad Hossein Rohban
 doi: 10.48550/arXiv.2404.06644
 url: "https://arxiv.org/abs/2404.06644"
 external_pdf: "https://arxiv.org/pdf/2404.06644.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Marzia Nouri Omid Ghahroodi]], [[Alireza Sahebi Mohammad Vali Sanian]], [[Ehsaneddin Asgari Doratossadat Dastgheib]], [[Mahdieh Soleymani Baghshah|Mohammad Hossein Rohban Mahdieh Soleymani Baghshah]]
+[[Omid Ghahroodi]], [[Marzia Nouri]], [[Mohammad Vali Sanian]], [[Alireza Sahebi]], [[Doratossadat Dastgheib]], [[Ehsaneddin Asgari]], [[Mahdieh Soleymani Baghshah]], [[Mohammad Hossein Rohban]]
 
 ## Metadata
 

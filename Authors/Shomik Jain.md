@@ -60,7 +60,8 @@ twitter: ""
 
 
 
-- [[2025-Jain-Low-Resource NLP Challenges Breakthroughs and the Science Behind|Low-Resource NLP: Challenges, Breakthroughs, and the Science Behind Language AI - KUAIC]] (First Author)
+
+
 - [[2024-Jain-Norm Inconsistency in LLM Decision-Making|Norm Inconsistency in LLM Decision-Making]] (First Author)
 
 ## External Links & Profiles
@@ -92,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Jain-Norm Inconsistency in LLM Decision-Making*: Affiliation: Institute for Data, Systems, and Society, Massachusetts Institute of Technology, Email: ashia@mit.edu
+- *From 2024-Jain-Norm Inconsistency in LLM Decision-Making*: Affiliation: Institute for Data, Systems, and Society, Massachusetts Institute of Technology, Email: ashia@mit.edu
 - *From 2024-Jain-Norm Inconsistency in LLM Decision-Making*: Affiliation: Institute for Data, Systems, and Society, Massachusetts Institute of Technology, Email: shomikj@mit.edu
 - *From 2024-Jain-Norm Inconsistency in LLM Decision-Making*: Affiliation: Institute for Data, Systems, and Society, Massachusetts Institute of Technology, Email: ashia@mit.edu
 - *From 2024-Jain-Norm Inconsistency in LLM Decision-Making*: Affiliation: Institute for Data, Systems, and Society, Massachusetts Institute of Technology, Email: dcalacci@psu.edu

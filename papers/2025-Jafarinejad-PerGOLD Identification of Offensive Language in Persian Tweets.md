@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "PerGOLD: Identification of Offensive Language in Persian Tweets: Leveraging Crowdsourcing"
 year: 2025
 first_author: "[[Jafarinejad]]"
-last_author: "[[Karimi Khodabakhsh]]"
-authors: "Jafarinejad, Rahimi, Khodabakhsh, Karimi"
+last_author: "[[Karimi]]"
+authors: Jafarinejad; Rahimi; Khodabakhsh; Karimi
 url: "https://cke.um.ac.ir/article_46412.html"
 external_pdf: "https://cke.um.ac.ir/article_46412_dc00307da37c32ca327cb54c47db3a32.pdf"
 publication: "Computer and Knowledge Engineering (CKE)"
@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Rahimi Jafarinejad]], [[Karimi Khodabakhsh]]
+[[Jafarinejad]], [[Rahimi]], [[Khodabakhsh]], [[Karimi]]
 
 ## Metadata
 

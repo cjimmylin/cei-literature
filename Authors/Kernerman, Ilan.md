@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew|MTQE.en-he: Machine Translation Quality Estimation for English-Hebrew]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew*: Affiliation: lable English-Hebrew, Email: ilan@lexicala.com
+- *From 2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew*: Affiliation: lable English-Hebrew, Email: ilan@lexicala.com
 - *From 2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew*: Affiliation: lable English-Hebrew, Email: assaf@lexicala.com
 - *From 2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew*: Affiliation: lable English-Hebrew, Email: ilan@lexicala.com
 - *From 2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew*: Affiliation: lable English-Hebrew, Email: me@andyjrosenbaum.com

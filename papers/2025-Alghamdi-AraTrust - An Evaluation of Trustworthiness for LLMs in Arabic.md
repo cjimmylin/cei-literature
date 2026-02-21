@@ -17,7 +17,7 @@ short_title: "AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic"
 year: 2025
 first_author: "[[Alghamdi, Emad A.]]"
 last_author: "[[Zaytoon, Mohamed]]"
-authors: "[[Alghamdi, Emad A.]]; [[Masoud, Reem I.]]; [[Alnuhait, Deema]]; [[Alomairi, Afnan Y.]]; [[Ashraf, Ahmed]]; [[Zaytoon, Mohamed]]"
+authors: "Alghamdi, Emad A.; Masoud, Reem I.; Alnuhait, Deema; Alomairi, Afnan Y.; Ashraf, Ahmed; Zaytoon, Mohamed"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.09017"
 external_pdf: "https://arxiv.org/pdf/2403.09017.pdf"

@@ -14,7 +14,7 @@ short_title: "Tracing Moral Foundations in LLMs"
 year: 2026
 first_author: "[[Chenxiao Yu]]"
 last_author: "[[Dehghani, Morteza]]"
-authors: "[[Yu, Chenxiao]]; [[Yi, Bowen]]; [[Karimi-Malekabadi, Farzan]]; [[Abdurahman, Suhaib]]; [[Ye, Jinyi]]; [[Narayanan, Shrikanth]]; [[Zhao, Yue]]; [[Dehghani, Morteza]]"
+authors: "Yu, Chenxiao; Yi, Bowen; Karimi-Malekabadi, Farzan; Abdurahman, Suhaib; Ye, Jinyi; Narayanan, Shrikanth; Zhao, Yue; Dehghani, Morteza"
 doi: N/A
 url: "https://arxiv.org/abs/2601.05437"
 pdf_extract: "PDF Extracts/2026/2026-Yu-Tracing Moral Foundations in LLMs.md"

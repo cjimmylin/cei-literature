@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model|VinaLLaMA: LLaMA-based Vietnamese Foundation Model]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model*: Affiliation: laboration and open innovation, we are pleased to announce VinaLLaMA
+- *From 2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model*: Affiliation: laboration and open innovation, we are pleased to announce VinaLLaMA
 - *From 2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model*: Affiliation: laboration and open innovation, we are pleased to announce VinaLLaMA
 - *From 2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model*: Affiliation: laboration and open innovation, we are pleased to announce VinaLLaMA
 - *From 2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model*: Affiliation: laboration and open innovation, we are pleased to announce VinaLLaMA

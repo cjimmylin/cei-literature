@@ -15,7 +15,7 @@ key: EXSR0281
 type: preprint
 short_title: "Values in the Wild: Discovering and Analyzing Values in Real AI Interactions"
 year: 2025
-first_author: "[[S. Huang]]"
+first_author: "[[Saffron Huang]]"
 last_author: "[[Deep Ganguli]]"
 authors: "Saffron Huang; Esin Durmus; Miles McCain; Kunal Handa; Alex Tamkin; Jerry Hong; Michael Stern; Arushi Somani; Xiuruo Zhang; Deep Ganguli"
 url: "https://arxiv.org/abs/2504.15236"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Saffron Huang]], [[Esin Durmus]], [[Miles McCain]], [[Kunal Handa]], [[Alex Tamkin]], [[Jiseung Hong|Jerry Hong]], [[Michael Stern]], [[Arushi Somani]], [[Xiuruo Zhang]], [[Deep Ganguli]]
+[[Saffron Huang]], [[Esin Durmus]], [[Miles McCain]], [[Kunal Handa]], [[Alex Tamkin]], [[Jerry Hong]], [[Michael Stern]], [[Arushi Somani]], [[Xiuruo Zhang]], [[Deep Ganguli]]
 
 ## Metadata
 

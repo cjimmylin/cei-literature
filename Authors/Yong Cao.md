@@ -25,6 +25,10 @@ Yong Cao is a postdoctoral researcher at the Autonomous Vision Group (AVG), Univ
 
 
 
+
+
+- [[2025-Cao-Specializing Large Language Models to Simulate Survey Response|Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations]] (First Author)
+- [[2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with|Beyond Demographics: Enhancing Cultural Value Survey Simulation with Multi-Stage Personality-Driven Cognitive Reasoning]]
 - [[2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large|Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation]]
 - [[2023-Cao-Assessing Cross-Cultural Alignment between|Assessing Cross-Cultural Alignment between]] (First Author)
 
@@ -35,6 +39,10 @@ Yong Cao is a postdoctoral researcher at the Autonomous Vision Group (AVG), Univ
 
 
 
+
+
+- *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
+- *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
 - *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
 - *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
 - *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org

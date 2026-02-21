@@ -16,7 +16,7 @@ short_title: "Two-Eyed Seeing and Artificial Intelligence: Enhancing Healthcare 
 year: 2025
 first_author: "[[Amal Khan]]"
 last_author: "[[Ivar Mendez]]"
-authors: Amal Khan, Victoria McKinney, Ivar Mendez
+authors: Amal Khan; Victoria McKinney; Ivar Mendez
 doi: 10.17269/s41997-025-01037-1
 url: "https://link.springer.com/article/10.17269/s41997-025-01037-1"
 publication: Canadian Journal of Public Health
@@ -51,7 +51,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Amal Khan, Victoria McKinney, Ivar Mendez]]
+[[Amal Khan]], [[Victoria McKinney]], [[Ivar Mendez]]
 
 ## Metadata
 

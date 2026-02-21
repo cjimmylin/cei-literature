@@ -39,7 +39,10 @@ Mona Diab is a distinguished researcher in natural language processing with part
 
 
 
+
+
 - [[2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities|ConflictScope: Generative Value Conflicts Reveal LLM Priorities]]
+- [[2024-AlKhamissi-Investigating Cultural Alignment of LLMs|Investigating Cultural Alignment of LLMs]] (Last Author)
 - [[2022-Bang-Enabling Classifiers to Make Judgements|Enabling Classifiers to Make Judgements]]
 
 ## Links

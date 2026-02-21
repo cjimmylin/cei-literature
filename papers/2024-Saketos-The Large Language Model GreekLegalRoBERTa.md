@@ -16,7 +16,7 @@ short_title: "The Large Language Model GreekLegalRoBERTa"
 year: 2024
 first_author: "[[Saketos, Vasileios]]"
 last_author: "[[Koubarakis, Manolis]]"
-authors: "[[Saketos, Vasileios]]; [[Pantazi, Despina-Athanasia]]; [[Koubarakis, Manolis]]"
+authors: "Saketos, Vasileios; Pantazi, Despina-Athanasia; Koubarakis, Manolis"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.12852"
 external_pdf: "https://arxiv.org/pdf/2410.12852.pdf"

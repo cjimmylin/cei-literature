@@ -16,7 +16,7 @@ short_title: "NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian L
 year: 2022
 first_author: "[[Winata, Genta Indra]]"
 last_author: "[[Ruder, Sebastian]]"
-authors: "[[Winata, Genta Indra]]; [[Aji, Alham Fikri]]; [[Cahyawijaya, Samuel]]; [[Mahendra, Rahmad]]; [[Koto, Fajri]]; [[Romadhony, Ade]]; [[Kurniawan, Kemal]]; [[Moeljadi, David]]; [[Prasojo, Radityo Eko]]; [[Fung, Pascale]]; [[Baldwin, Timothy]]; [[Lau, Jey Han]]; [[Sennrich, Rico]]; [[Ruder, Sebastian]]"
+authors: "Winata, Genta Indra; Aji, Alham Fikri; Cahyawijaya, Samuel; Mahendra, Rahmad; Koto, Fajri; Romadhony, Ade; Kurniawan, Kemal; Moeljadi, David; Prasojo, Radityo Eko; Fung, Pascale; Baldwin, Timothy; Lau, Jey Han; Sennrich, Rico; Ruder, Sebastian"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2205.15960"
 external_pdf: "https://arxiv.org/pdf/2205.15960.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "EACL 2023"
 
 ## Authors
 
-[[Genta Indra Winata|Winata, Genta Indra]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Samuel Cahyawijaya|Cahyawijaya, Samuel]], [[Mahendra, Rahmad]], [[Koto, Fajri]], [[Romadhony, Ade]], [[Kurniawan, Kemal]], [[Moeljadi, David]], [[Prasojo, Radityo Eko]], [[Pascale Fung|Fung, Pascale]], [[Timothy Baldwin|Baldwin, Timothy]], [[Lau, Jey Han]], [[Sennrich, Rico]], [[Sebastian Ruder|Ruder, Sebastian]]
+[[Genta Indra Winata|Winata, Genta Indra]], [[Aji, Alham Fikri]], [[Samuel Cahyawijaya|Cahyawijaya, Samuel]], [[Mahendra, Rahmad]], [[Koto, Fajri]], [[Romadhony, Ade]], [[Kurniawan, Kemal]], [[Moeljadi, David]], [[Prasojo, Radityo Eko]], [[Pascale Fung|Fung, Pascale]], [[Timothy Baldwin|Baldwin, Timothy]], [[Lau, Jey Han]], [[Sennrich, Rico]], [[Sebastian Ruder|Ruder, Sebastian]]
 
 ## Metadata
 

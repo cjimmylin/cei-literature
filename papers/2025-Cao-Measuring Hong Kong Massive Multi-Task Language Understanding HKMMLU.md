@@ -16,7 +16,7 @@ short_title: Measuring Hong Kong Massive Multi-Task Language Understanding (HKMM
 year: 2025
 first_author: "[[Chuxue Cao]]"
 last_author: "[[Yike Guo]]"
-authors: Chuxue Cao, Zhenghao Zhu, Junqi Zhu, Guoying Lu, Siyu Peng, Juntao Dai, Weijie Shi, Sirui Han, Yike Guo
+authors: Chuxue Cao; Zhenghao Zhu; Junqi Zhu; Guoying Lu; Siyu Peng; Juntao Dai; Weijie Shi; Sirui Han; Yike Guo
 url: "https://arxiv.org/abs/2505.02177"
 external_pdf: "https://arxiv.org/pdf/2505.02177.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Chuxue Cao]], [[Zhu|Zhenghao Zhu]], [[Jian-Qiao Zhu|Junqi Zhu]], [[Guoying Lu]], [[Siyu Peng]], [[Juntao Dai]], [[Weijie Shi]], [[Sirui Han]], [[Yike Guo]]
+[[Chuxue Cao]], [[Zhenghao Zhu]], [[Junqi Zhu]], [[Guoying Lu]], [[Siyu Peng]], [[Juntao Dai]], [[Weijie Shi]], [[Sirui Han]], [[Yike Guo]]
 
 ## Metadata
 

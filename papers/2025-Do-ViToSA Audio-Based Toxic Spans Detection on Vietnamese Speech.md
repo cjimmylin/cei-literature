@@ -15,8 +15,8 @@ type: preprint
 short_title: "ViToSA: Audio-Based Toxic Spans Detection on Vietnamese Speech Utterances"
 year: 2025
 first_author: "[[Van-Phu Quang Do]]"
-last_author: "[[Kiet Van Nguyen Son T. Luu]]"
-authors: "Van-Phu Quang Do, Duc-Ung To, Son T. Luu, Kiet Van Nguyen"
+last_author: "[[Kiet Van Nguyen]]"
+authors: Van-Phu Quang Do; Duc-Ung To; Son T. Luu; Kiet Van Nguyen
 url: "https://arxiv.org/abs/2506.00636"
 external_pdf: "https://arxiv.org/pdf/2506.00636.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.md"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Duc Anh Do|Duc-Ung To Van-Phu Quang Do]], [[Kiet Van Nguyen Son T. Luu]]
+[[Van-Phu Quang Do]], [[Duc-Ung To]], [[Son T. Luu]], [[Kiet Van Nguyen]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models|HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models*:, Email: spthsrbwls123@yonsei.ac.kr
+- *From 2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models*:, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models*:, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models*:, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models*:, Email: spthsrbwls123@yonsei.ac.kr

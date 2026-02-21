@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating|GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluating Language Models in Greek]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating*: Affiliation: University of Athens, Email: mvazirg@lix.polytechnique.fr
+- *From 2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating*: Affiliation: University of Athens, Email: mvazirg@lix.polytechnique.fr
 - *From 2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating*: Affiliation: University of Athens, Email: mvazirg@lix.polytechnique.fr
 - *From 2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating*: Affiliation: University of Athens, Email: guokan.shang@mbzuai.ac.ae
 - *From 2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating*: Affiliation: University of Athens, Email: mvazirg@lix.polytechnique.fr

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Sharma-TABHATE A Target-based Hate Speech Detection|TABHATE A Target-based Hate Speech Detection]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Sharma-TABHATE A Target-based Hate Speech Detection*: Affiliation: lability of suitable dataset in other languages poses a problem in research advancement in them, Email: vivekks12@gmail.com
+- *From 2024-Sharma-TABHATE A Target-based Hate Speech Detection*: Affiliation: lability of suitable dataset in other languages poses a problem in research advancement in them, Email: vivekks12@gmail.com
 - *From 2024-Sharma-TABHATE A Target-based Hate Speech Detection*: Affiliation: lability of suitable dataset in other languages poses a problem in research advancement in them, Email: vivekks12@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

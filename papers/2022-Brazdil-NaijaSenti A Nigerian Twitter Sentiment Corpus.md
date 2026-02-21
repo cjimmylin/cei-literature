@@ -15,9 +15,9 @@ key: EXSR0595
 type: preprint
 short_title: "NaijaSenti A Nigerian Twitter Sentiment Corpus"
 year: 2022
-first_author: "[[Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Sa'id Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jorge, Pavel Brazdil]]"
-last_author: "[[Pavel Brazdil Alipio Jorge]]"
-authors: "[[Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Sa'id Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jorge, Pavel Brazdil]]"
+first_author: "[[Shamsuddeen Hassan Muhammad]]"
+last_author: "[[Pavel Brazdil]]"
+authors: "Shamsuddeen Hassan Muhammad; David Ifeoluwa Adelani; Sebastian Ruder; Ibrahim Sa'id Ahmad; Idris Abdulmumin; Bello Shehu Bello; Monojit Choudhury; Chris Chinenye Emezue; Saheed Salahudeen Abdullahi; Anuoluwapo Aremu; Alipio Jorge; Pavel Brazdil"
 authors_incomplete: false
 url: "https://aclanthology.org/2022.lrec-1.63/"
 external_pdf: "https://arxiv.org/pdf/2201.08277.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[David Ifeoluwa Adelani Shamsuddeen Hassan Muhammad]], [[Ibrahim Sa'id Ahmad Sebastian Ruder]], [[Bello Shehu Bello Idris Abdulmumin]], [[Chris Chinenye Emezue Monojit Choudhury]], [[Anuoluwapo Aremu Saheed Salahudeen Abdullahi]], [[Pavel Brazdil Alipio Jorge]]
+[[Shamsuddeen Hassan Muhammad]], [[David Ifeoluwa Adelani]], [[Sebastian Ruder]], [[Ibrahim Sa'id Ahmad]], [[Idris Abdulmumin]], [[Bello Shehu Bello]], [[Monojit Choudhury]], [[Chris Chinenye Emezue]], [[Saheed Salahudeen Abdullahi]], [[Anuoluwapo Aremu]], [[Alipio Jorge]], [[Pavel Brazdil]]
 
 ## Metadata
 

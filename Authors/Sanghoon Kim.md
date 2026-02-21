@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards|Evaluating Multimodal Generative AI with Korean Educational Standards (KoNET)]] (First Author)
+- [[2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean|Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards*: Affiliation: College Scholastic Abil-, Email: gwkim.rsrch@gmail.com
+- *From 2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards*: Affiliation: College Scholastic Abil-, Email: gwkim.rsrch@gmail.com
 - *From 2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards*: Affiliation: College Scholastic Abil-, Email: parksangheeeee@gmail.com
 - *From 2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards*: Affiliation: College Scholastic Abil-, Email: gwkim.rsrch@gmail.com
 - *From 2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards*: Affiliation: College Scholastic Abil-, Email: gwkim.rsrch@gmail.com

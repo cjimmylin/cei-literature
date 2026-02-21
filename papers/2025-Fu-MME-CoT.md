@@ -70,7 +70,7 @@ Answering questions with Chain-of-Thought (CoT) has significantly enhanced the r
 
 ## Authors
 
-[[Dongzhi Jiang]], [[Renrui Zhang]], [[Ziyu Guo]], [[Yanwei Li]], [[Yunjia Qi|Yu Qi]], [[Xinyan Chen]], [[Liuhui Wang]], [[Jing Jin|Jianhan Jin]], [[Claire Guo]], [[Songzhou Yan|Shen Yan]], [[Bo Zhang]], [[Cheng-Yang Fu|Chaoyou Fu]], [[Peng Gao]], [[Hongsheng Li]]
+[[Dongzhi Jiang]], [[Renrui Zhang]], [[Ziyu Guo]], [[Yanwei Li]], [[Yu Qi]], [[Xinyan Chen]], [[Liuhui Wang]], [[Jianhan Jin]], [[Claire Guo]], [[Shen Yan]], [[Bo Zhang]], [[Chaoyou Fu]], [[Peng Gao]], [[Hongsheng Li]]
 
 ## Data Description
 

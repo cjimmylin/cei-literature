@@ -16,7 +16,7 @@ short_title: "Can LLMs Grasp Implicit Cultural Values?"
 year: 2025
 first_author: "[[Ziyi Liu]]"
 last_author: "[[Zhao, Jieyu]]"
-authors: "[[Liu, Ziyi]]; [[Dey, Priyanka]]; [[Zhao, Zhenyu]]; [[Huang, Jen-tse]]; [[Gupta, Rahul]]; [[Liu, Yang]]; [[Zhao, Jieyu]]"
+authors: "Liu, Ziyi; Dey, Priyanka; Zhao, Zhenyu; Huang, Jen-tse; Gupta, Rahul; Liu, Yang; Zhao, Jieyu"
 doi: 10.48550/arXiv.2504.01127
 tags: 
 url: "http://arxiv.org/abs/2504.01127"

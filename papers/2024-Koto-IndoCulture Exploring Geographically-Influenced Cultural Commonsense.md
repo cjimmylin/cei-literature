@@ -16,7 +16,7 @@ short_title: "IndoCulture: Exploring Geographically-Influenced Cultural Commonse
 year: 2024
 first_author: "[[Koto, Fajri]]"
 last_author: "[[Baldwin, Timothy]]"
-authors: "[[Koto, Fajri]]; [[Mahendra, Rahmad]]; [[Aisyah, Nurul]]; [[Baldwin, Timothy]]"
+authors: "Koto, Fajri; Mahendra, Rahmad; Aisyah, Nurul; Baldwin, Timothy"
 authors_incomplete: false
 doi: 10.1162/tacl_a_00726
 url: "https://arxiv.org/abs/2404.01854"

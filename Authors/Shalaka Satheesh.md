@@ -25,6 +25,9 @@ Researcher at Bonn-Rhein-Sieg University of Applied Sciences, Department of Comp
 
 
 
+
+
+- [[2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social|Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch]] (First Author)
 - [[2025-Satheesh-GG-BBQ|GG-BBQ]] (First Author)
 
 ## Notes
@@ -34,6 +37,10 @@ Researcher at Bonn-Rhein-Sieg University of Applied Sciences, Department of Comp
 
 
 
+
+
+- *From 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social*: Affiliation: Department of Advanced Computing Sciences, Email: jerry.spanakis@maastrichtuniversity.nl
+- *From 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social*: Affiliation: Department of Advanced Computing Sciences, Email: jerry.spanakis@maastrichtuniversity.nl
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de

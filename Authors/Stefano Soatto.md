@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Li-THRONE|THRONE]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
+- *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 - *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 - *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 - *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk

@@ -15,8 +15,8 @@ type: preprint
 short_title: "KoBBQ: Korean Bias Benchmark for Question Answering"
 year: 2024
 first_author: "[[Jiho Jin]]"
-last_author: "[[Mark Hasegawa-Johnson Alice Oh]]"
-authors: "Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Alice Oh, Mark Hasegawa-Johnson"
+last_author: "[[Mark Hasegawa-Johnson]]"
+authors: Jiho Jin; Jiseon Kim; Nayeon Lee; Haneul Yoo; Alice Oh; Mark Hasegawa-Johnson
 doi: 10.1162/tacl_a_00661
 url: "https://arxiv.org/abs/2307.16778"
 external_pdf: "https://arxiv.org/pdf/2307.16778.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Jing Jin|Jiseon Kim Jiho Jin]], [[Hwaran Lee|Haneul Yoo Nayeon Lee]], [[Mark Hasegawa-Johnson Alice Oh]]
+[[Jiho Jin]], [[Jiseon Kim]], [[Nayeon Lee]], [[Haneul Yoo]], [[Alice Oh]], [[Mark Hasegawa-Johnson]]
 
 ## Metadata
 

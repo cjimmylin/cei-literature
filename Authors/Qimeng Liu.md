@@ -1,7 +1,7 @@
 ---
 name: "Qimeng Liu"
 title: "Current Position"
-affiliation: "University/Organization"
+affiliation: "College of Intelligence and Computing"
 research_interests:
   - "Primary Research Area"
 website: ""
@@ -17,7 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks|Beyond Single-Sentence Prompts: Upgrading Value Alignment Benchmarks with Dialogues and Stories]]
 
 ## Notes
 
+
+
+- *From 2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks*: Affiliation: College of Intelligence and Computing, Email: pzhang@tju.edu.cn
+- *From 2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks*: Affiliation: College of Intelligence and Computing, Email: pzhang@tju.edu.cn

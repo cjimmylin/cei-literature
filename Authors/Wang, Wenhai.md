@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yuan-S-Eval|S-Eval]]
 - [[2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized|Fair-PP: Synthetic Dataset for Aligning LLM with Personalized Preferences of Social Equity]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Yuan-S-Eval*:, Email: yuefeng.chenyf@alibaba-inc.com
+- *From 2025-Yuan-S-Eval*:, Email: yuefeng.chenyf@alibaba-inc.com
 - *From 2025-Yuan-S-Eval*:, Email: xiaohanyuan@zju.edu.cn
 - *From 2025-Yuan-S-Eval*:, Email: chenjialuo@zju.edu.cn
 - *From 2025-Yuan-S-Eval*:, Email: hui.xueh@alibaba-inc.com

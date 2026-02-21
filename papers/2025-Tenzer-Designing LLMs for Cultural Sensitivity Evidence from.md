@@ -17,7 +17,7 @@ short_title: "Designing LLMs for Cultural Sensitivity: Evidence from English-Jap
 year: 2025
 first_author: "[[Helene Tenzer]]"
 last_author: "[[Stefan Feuerriegel]]"
-authors: Helene Tenzer, Oumnia Abidi, Stefan Feuerriegel
+authors: Helene Tenzer; Oumnia Abidi; Stefan Feuerriegel
 url: "https://arxiv.org/abs/2509.11921"
 external_pdf: "https://arxiv.org/pdf/2509.11921.pdf"
 publication: arXiv (WITHDRAWN)

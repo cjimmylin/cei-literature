@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2025-Khurana-Decolonizing Artificial Intelligence Indigenous Knowledge Systems|Decolonizing Artificial Intelligence: Indigenous Knowledge Systems, Epistemic Pluralism, and the Ethics of Technology]] (First Author)
 
 ## Notes

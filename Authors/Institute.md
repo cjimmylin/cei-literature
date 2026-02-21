@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Institute-2025 AI Safety Index|2025 AI Safety Index]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Institute-2025 AI Safety Index*: Affiliation: Institute-2025 AI Safety Index - PDF Extract", Email: policy@futureoflife.org
+- *From 2025-Institute-2025 AI Safety Index*: Affiliation: Institute-2025 AI Safety Index - PDF Extract", Email: policy@futureoflife.org
 - *From 2025-Institute-2025 AI Safety Index*: Affiliation: Institute-2025 AI Safety Index - PDF Extract", Email: policy@futureoflife.org
 - *From 2025-Institute-2025 AI Safety Index*: Affiliation: Institute-2025 AI Safety Index - PDF Extract", Email: policy@futureoflife.org
 - *From 2025-Institute-2025 AI Safety Index*: Affiliation: Institute-2025 AI Safety Index - PDF Extract", Email: policy@futureoflife.org

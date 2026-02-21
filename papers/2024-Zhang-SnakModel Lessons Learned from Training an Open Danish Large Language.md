@@ -17,7 +17,7 @@ short_title: "SnakModel: Lessons Learned from Training an Open Danish Large Lang
 year: 2024
 first_author: "[[Mike Zhang]]"
 last_author: "[[Rob van der Goot]]"
-authors: "[[Mike Zhang]]; [[Max Müller-Eberstein]]; [[Elisa Bassignana]]; [[Rob van der Goot]]"
+authors: Mike Zhang; Max Müller-Eberstein; Elisa Bassignana; Rob van der Goot
 url: "https://arxiv.org/abs/2412.12956"
 external_pdf: "https://arxiv.org/pdf/2412.12956.pdf"
 publication: "arXiv / NoDaLiDa 2025"

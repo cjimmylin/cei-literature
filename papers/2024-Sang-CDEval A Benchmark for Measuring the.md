@@ -16,9 +16,9 @@ key: EXSR0465
 type: conference_paper
 short_title: "CDEval A Benchmark for Measuring the"
 year: 2024
-first_author: "[[Yuhang Wang, Yanxu Zhu, Chao Kong, Shuyu Wei, Xiaoyuan Yi, Xing Xie, Jitao Sang]]"
+first_author: "[[Yuhang Wang]]"
 last_author: "[[Jitao Sang]]"
-authors: "[[Yuhang Wang, Yanxu Zhu, Chao Kong, Shuyu Wei, Xiaoyuan Yi, Xing Xie, Jitao Sang]]"
+authors: Yuhang Wang; Yanxu Zhu; Chao Kong; Shuyu Wei; Xiaoyuan Yi; Xing Xie; Jitao Sang
 authors_incomplete: false
 url: "https://arxiv.org/abs/2311.16421"
 external_pdf: "https://arxiv.org/pdf/2311.16421.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "LREC-COLING 2024"
 
 ## Authors
 
-[[Yuhang Wang]], [[Yanfei Zhu|Yanxu Zhu]], [[Chao Kong]], [[Shuyu Wei]], [[Xiaoyuan Yi]], [[Xing Xie]], [[Jitao Sang]]
+[[Yuhang Wang]], [[Yanxu Zhu]], [[Chao Kong]], [[Shuyu Wei]], [[Xiaoyuan Yi]], [[Xing Xie]], [[Jitao Sang]]
 
 ## Metadata
 

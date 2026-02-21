@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework|CURE: Cultural Understanding and Reasoning Evaluation - A Framework for Thick Culture Alignment Evaluation in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework*:, Email: truongvo2025@u.northwestern.edu
+- *From 2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework*:, Email: truongvo2025@u.northwestern.edu
 - *From 2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework*:, Email: truongvo2025@u.northwestern.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

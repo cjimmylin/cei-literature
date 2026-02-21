@@ -52,6 +52,8 @@ Chandra received the AAAI Outstanding Paper Award in 2020 for his work on abduct
 
 
 
+
+
 - [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
 - [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]]
@@ -68,6 +70,10 @@ Chandra received the AAAI Outstanding Paper Award in 2020 for his work on abduct
 
 
 
+
+
+- *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
+- *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington

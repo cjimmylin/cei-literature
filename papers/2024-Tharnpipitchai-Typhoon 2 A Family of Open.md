@@ -16,9 +16,9 @@ key: EXSR0540
 type: preprint
 short_title: "Typhoon 2 A Family of Open"
 year: 2024
-first_author: "[[Kunat Pipatanakul, Potsawee Manakul, Natapong Nitarach, Warit Sirichotedumrong, Surapon Nonesung, Teetouch Jaknamon, Parinthapat Pengpun, Pittawat Taveekitworachai, Adisai Na-Thalang, Sittipong Sripaisarnmongkol, Krisanapong Jirayoot, Kasima Tharnpipitchai]]"
-last_author: "[[Kasima Tharnpipitchai Krisanapong Jirayoot]]"
-authors: "[[Kunat Pipatanakul, Potsawee Manakul, Natapong Nitarach, Warit Sirichotedumrong, Surapon Nonesung, Teetouch Jaknamon, Parinthapat Pengpun, Pittawat Taveekitworachai, Adisai Na-Thalang, Sittipong Sripaisarnmongkol, Krisanapong Jirayoot, Kasima Tharnpipitchai]]"
+first_author: "[[Kunat Pipatanakul]]"
+last_author: "[[Kasima Tharnpipitchai]]"
+authors: Kunat Pipatanakul; Potsawee Manakul; Natapong Nitarach; Warit Sirichotedumrong; Surapon Nonesung; Teetouch Jaknamon; Parinthapat Pengpun; Pittawat Taveekitworachai; Adisai Na-Thalang; Sittipong Sripaisarnmongkol; Krisanapong Jirayoot; Kasima Tharnpipitchai
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.13702"
 external_pdf: "https://arxiv.org/pdf/2412.13702.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Potsawee Manakul Kunat Pipatanakul]], [[Warit Sirichotedumrong Natapong Nitarach]], [[Teetouch Jaknamon Surapon Nonesung]], [[Pittawat Taveekitworachai Parinthapat Pengpun]], [[Sittipong Sripaisarnmongkol Adisai Na-Thalang]], [[Kasima Tharnpipitchai Krisanapong Jirayoot]]
+[[Kunat Pipatanakul]], [[Potsawee Manakul]], [[Natapong Nitarach]], [[Warit Sirichotedumrong]], [[Surapon Nonesung]], [[Teetouch Jaknamon]], [[Parinthapat Pengpun]], [[Pittawat Taveekitworachai]], [[Adisai Na-Thalang]], [[Sittipong Sripaisarnmongkol]], [[Krisanapong Jirayoot]], [[Kasima Tharnpipitchai]]
 
 ## Metadata
 

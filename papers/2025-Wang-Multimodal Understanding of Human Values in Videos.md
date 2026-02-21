@@ -16,7 +16,7 @@ key: EXSR0280
 type: journalArticle
 short_title: "Multimodal Understanding of Human Values in Videos"
 year: 2025
-first_author: "[[Y. Wang]]"
+first_author: "[[Yuchen Wang]]"
 last_author: "[[Xiaofang Luo]]"
 authors: "Yuchen Wang; Zhulin Tao; He Chang; Nanxin Huang; Libiao Jin; Xiaofang Luo"
 doi: 10.1016/j.neucom.2025.130170

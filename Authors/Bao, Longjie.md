@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Wang-Large and Small models for collaborative cross-lingual data|Large and Small models for collaborative cross-lingual data augmentation in entity relationship extraction for low-resource languages | Journal of King Saud University Computer and Information Sciences | Springer Nature Link]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Wang-Large and Small models for collaborative cross-lingual data*: Affiliation: laborative cross-lingual data - PDF Extract"
+- *From 2025-Wang-Large and Small models for collaborative cross-lingual data*: Affiliation: laborative cross-lingual data - PDF Extract"
 - *From 2025-Wang-Large and Small models for collaborative cross-lingual data*: Affiliation: laborative cross-lingual data - PDF Extract"
 - *From 2025-Wang-Large and Small models for collaborative cross-lingual data*: Affiliation: laborative cross-lingual data - PDF Extract"
 - *From 2025-Wang-Large and Small models for collaborative cross-lingual data*: Affiliation: laborative cross-lingual data - PDF Extract"

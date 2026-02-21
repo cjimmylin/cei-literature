@@ -31,6 +31,8 @@ Emilio Villa-Cueva is a researcher at Tecnologico de Monterrey in Mexico, workin
 
 
 
+
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning|VMMU: A Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark]]
@@ -44,6 +46,10 @@ Emilio Villa-Cueva is a researcher at Tecnologico de Monterrey in Mexico, workin
 
 
 
+
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

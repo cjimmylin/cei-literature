@@ -1,9 +1,9 @@
 ---
 name: "Jian Kang"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Rochester"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "hlyu5@ur.rochester.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -59,7 +59,9 @@ twitter: ""
 
 
 
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+
+
+- [[2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified|Characterizing Bias: Benchmarking Large Language Models in Simplified versus Traditional Chinese]]
 
 ## External Links & Profiles
 
@@ -85,6 +87,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified*: Affiliation: University of Rochester, Email: hlyu5@ur.rochester.edu
+- *From 2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified*: Affiliation: University of Rochester, Email: hlyu5@ur.rochester.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

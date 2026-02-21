@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures|How Well Do LLMs Represent Values Across Cultures?]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures*: Affiliation: University of Washington, Email: hi@aman.ai
+- *From 2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures*: Affiliation: University of Washington, Email: hi@aman.ai
 - *From 2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures*: Affiliation: University of Washington, Email: permissions@acm.org.
 - *From 2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures*: Affiliation: University of Washington, Email: tanya.roosta@gmail.com
 - *From 2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures*: Affiliation: University of Washington, Email: tanya.roosta@gmail.com

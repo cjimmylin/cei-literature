@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do|LLM-as-a-Judge & Reward Model: What They Can and Cannot Do]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do*: Affiliation: University1, Email: shongdr@gmail.com
+- *From 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do*: Affiliation: University1, Email: shongdr@gmail.com
 - *From 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones|LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones?]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones*: Affiliation: Institute for Language, Cognition and Computation, Email: a.keleg@sms.ed.ac.uk
+- *From 2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones*: Affiliation: Institute for Language, Cognition and Computation, Email: a.keleg@sms.ed.ac.uk
 - *From 2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones*: Affiliation: Institute for Language, Cognition and Computation, Email: a.keleg@sms.ed.ac.uk
 - *From 2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones*: Affiliation: Institute for Language, Cognition and Computation, Email: a.keleg@sms.ed.ac.uk
 - *From 2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones*: Affiliation: Institute for Language, Cognition and Computation, Email: a.keleg@sms.ed.ac.uk

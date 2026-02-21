@@ -34,6 +34,8 @@ Dr. Chunhua Liu completed her PhD in 2024, focusing on leveraging human word ass
 
 
 
+
+
 - [[2025-Xiang-Comparing Moral Values in Western|Comparing Moral Values in Western]]
 
 ## External Links & Profiles
@@ -47,6 +49,10 @@ Dr. Chunhua Liu completed her PhD in 2024, focusing on leveraging human word ass
 
 
 
+
+
+- *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
+- *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 - *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 - *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 - *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au

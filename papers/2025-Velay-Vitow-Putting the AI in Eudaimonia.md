@@ -16,7 +16,7 @@ short_title: "Putting the AI in Eudaimonia"
 year: 2025
 first_author: "[[Jesse Velay-Vitow]]"
 last_author: "[[Grant, John]]"
-authors: "[[Velay-Vitow, Jesse]]; [[Grant, John]]"
+authors: "Velay-Vitow, Jesse; Grant, John"
 doi: N/A
 url: "https://therepublicjournal.com/putting-the-ai-in-eudaimonia/"
 national_ethnic_cultural: N/A

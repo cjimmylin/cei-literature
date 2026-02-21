@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in|SI-Bench: Benchmarking Social Intelligence of Large Language Models in Human-to-Human Conversations]]
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in*: Affiliation: lable at https://github
+- *From 2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in*: Affiliation: lable at https://github
 - *From 2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in*: Affiliation: lable at https://github
 - *From 2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in*: Affiliation: lable at https://github
 - *From 2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in*: Affiliation: lable at https://github

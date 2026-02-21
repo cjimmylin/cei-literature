@@ -45,7 +45,8 @@ Chujie Zheng (郑楚杰) is a Research Scientist in the Qwen Team at Alibaba Gro
 
 
 
-- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+
+
 - [[2023-Zheng-Large Language Models Are Not Robust Multiple|Large Language Models Are Not Robust Multiple]] (First Author)
 
 ## External Links & Profiles
@@ -66,6 +67,10 @@ Chujie Zheng (郑楚杰) is a Research Scientist in the Qwen Team at Alibaba Gro
 
 
 
+
+
+- *From 2023-Zheng-Large Language Models Are Not Robust Multiple*: Affiliation: University, Beijing 100084, China, Email: chujiezhengchn@gmail.com
+- *From 2023-Zheng-Large Language Models Are Not Robust Multiple*: Affiliation: University, Beijing 100084, China, Email: chujiezhengchn@gmail.com
 - *From 2023-Zheng-Large Language Models Are Not Robust Multiple*: Affiliation: University, Beijing 100084, China, Email: aihuang@tsinghua.edu.cn
 - *From 2023-Zheng-Large Language Models Are Not Robust Multiple*: Affiliation: University, Beijing 100084, China, Email: aihuang@tsinghua.edu.cn
 - *From 2023-Zheng-Large Language Models Are Not Robust Multiple*: Affiliation: University, Beijing 100084, China, Email: aihuang@tsinghua.edu.cn

@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters|PSYCH: Psychometric Assessment of LLM Characters]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters*: Affiliation: Institute for Interactive Systems, Technische Hochschule Lübeck, 23562 Lübeck, Germany, Email: niklas.beuter@th-luebeck.de
+- *From 2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters*: Affiliation: Institute for Interactive Systems, Technische Hochschule Lübeck, 23562 Lübeck, Germany, Email: niklas.beuter@th-luebeck.de
 - *From 2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters*: Affiliation: Institute for Interactive Systems, Technische Hochschule Lübeck, 23562 Lübeck, Germany, Email: nane.kratzke@th-luebeck.de
 - *From 2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters*: Affiliation: Institute for Interactive Systems, Technische Hochschule Lübeck, 23562 Lübeck, Germany, Email: nane.kratzke@th-luebeck.de
 - *From 2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters*: Affiliation: Institute for Interactive Systems, Technische Hochschule Lübeck, 23562 Lübeck, Germany, Email: niklas.beuter@th-luebeck.de

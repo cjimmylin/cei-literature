@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Ashkinaze-Deep Value Benchmark|Deep Value Benchmark]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Ashkinaze-Deep Value Benchmark*: Affiliation: University of Michigan, Email: saiavu@umich.edu
+- *From 2025-Ashkinaze-Deep Value Benchmark*: Affiliation: University of Michigan, Email: saiavu@umich.edu
 - *From 2025-Ashkinaze-Deep Value Benchmark*: Affiliation: University of Michigan, Email: cbudak@umich.edu
 - *From 2025-Ashkinaze-Deep Value Benchmark*: Affiliation: University of Michigan, Email: cbudak@umich.edu
 - *From 2025-Ashkinaze-Deep Value Benchmark*: Affiliation: University of Michigan, Email: eegg@umich.edu

@@ -16,9 +16,9 @@ key: EXSR0406
 type: conference_paper
 short_title: "MITRA-zh-eval Using a Buddhist Chinese Language"
 year: 2025
-first_author: "[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, Rouying Tang, Xiang Wei, Leijie Zhu, Kurt Keutzer]]"
-last_author: "[[Kurt Keutzer Leijie Zhu]]"
-authors: "[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, Rouying Tang, Xiang Wei, Leijie Zhu, Kurt Keutzer]]"
+first_author: "[[Sebastian Nehrdich]]"
+last_author: "[[Kurt Keutzer]]"
+authors: Sebastian Nehrdich; Avery Chen; Marcus Bingenheimer; Lu Huang; Rouying Tang; Xiang Wei; Leijie Zhu; Kurt Keutzer
 authors_incomplete: false
 url: 
 external_pdf: "https://aclanthology.org/2025.nlp4dh-1.12.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Avery Chen Sebastian Nehrdich]], [[Lu Huang Marcus Bingenheimer]], [[Xiangru Tang|Xiang Wei Rouying Tang]], [[Kurt Keutzer Leijie Zhu]]
+[[Sebastian Nehrdich]], [[Avery Chen]], [[Marcus Bingenheimer]], [[Lu Huang]], [[Rouying Tang]], [[Xiang Wei]], [[Leijie Zhu]], [[Kurt Keutzer]]
 
 ## Metadata
 

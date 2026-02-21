@@ -15,7 +15,7 @@ short_title: "M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguist
 year: 2024
 first_author: "[[Felix Friedrich]]"
 last_author: "[[Kristian Kersting]]"
-authors: "Felix Friedrich, Simone Teber, Patrick Schramowski, Manuel Brack, Kristian Kersting"
+authors: Felix Friedrich; Simone Teber; Patrick Schramowski; Manuel Brack; Kristian Kersting
 url: "https://arxiv.org/abs/2412.15035"
 external_pdf: "https://arxiv.org/pdf/2412.15035.pdf"
 publication: arXiv

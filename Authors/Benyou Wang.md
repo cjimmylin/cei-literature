@@ -53,7 +53,11 @@ Dr. Wang has won several prestigious awards, including the Gold Medal in the AI 
 
 
 
+
+
+- [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
+- [[2023-Huang-AceGPT Localizing Large Language Models in Arabic|AceGPT, Localizing Large Language Models in Arabic]]
 
 ## External Links & Profiles
 
@@ -68,6 +72,10 @@ Dr. Wang has won several prestigious awards, including the Gold Medal in the AI 
 
 
 
+
+
+- *From 2023-Huang-AceGPT Localizing Large Language Models in Arabic*: Affiliation: Center for Industrial and Applied Mathematics, Shenzhen Research Institute of Big Data, Email: wangbenyou@cuhk.edu.cn
+- *From 2023-Huang-AceGPT Localizing Large Language Models in Arabic*: Affiliation: Center for Industrial and Applied Mathematics, Shenzhen Research Institute of Big Data, Email: wangbenyou@cuhk.edu.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn

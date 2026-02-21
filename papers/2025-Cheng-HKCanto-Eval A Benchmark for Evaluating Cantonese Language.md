@@ -16,7 +16,7 @@ short_title: "HKCanto-Eval: A Benchmark for Evaluating Cantonese Language Unders
 year: 2025
 first_author: "[[Tsz Chung Cheng]]"
 last_author: "[[Cheuk Hei Chong]]"
-authors: Tsz Chung Cheng, Chung Shing Cheng, Chaak Ming Lau, Eugene Tin-Ho Lam, Chun Yat Wong, Hoi On Yu, Cheuk Hei Chong
+authors: Tsz Chung Cheng; Chung Shing Cheng; Chaak Ming Lau; Eugene Tin-Ho Lam; Chun Yat Wong; Hoi On Yu; Cheuk Hei Chong
 url: "https://arxiv.org/abs/2503.12440"
 external_pdf: "https://arxiv.org/pdf/2503.12440.pdf"
 publication: arXiv / ACL Anthology
@@ -51,7 +51,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Tsz Chung Cheng]], [[Cheng|Chung Shing Cheng]], [[Chiu Lun Lau|Chaak Ming Lau]], [[Eugene Tin-Ho Lam]], [[Chun Yat Wong]], [[Hoi On Yu]], [[Cheuk Hei Chong]]
+[[Tsz Chung Cheng]], [[Chung Shing Cheng]], [[Chaak Ming Lau]], [[Eugene Tin-Ho Lam]], [[Chun Yat Wong]], [[Hoi On Yu]], [[Cheuk Hei Chong]]
 
 ## Metadata
 

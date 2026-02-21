@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Barov-TUMLU A Unified and Native Language|TUMLU A Unified and Native Language]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Barov-TUMLU A Unified and Native Language*: Affiliation: Center, Khazar University 2New York University, 3The George Washington University, Email: jafar.isbarov@gwu.edu
+- *From 2025-Barov-TUMLU A Unified and Native Language*: Affiliation: Center, Khazar University 2New York University, 3The George Washington University, Email: jafar.isbarov@gwu.edu
 - *From 2025-Barov-TUMLU A Unified and Native Language*: Affiliation: Center, Khazar University 2New York University, 3The George Washington University, Email: jafar.isbarov@gwu.edu
 - *From 2025-Barov-TUMLU A Unified and Native Language*: Affiliation: Center, Khazar University 2New York University, 3The George Washington University, Email: jafar.isbarov@gwu.edu
 - *From 2025-Barov-TUMLU A Unified and Native Language*: Affiliation: Center, Khazar University 2New York University, 3The George Washington University, Email: jafar.isbarov@gwu.edu

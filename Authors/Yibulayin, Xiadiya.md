@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur|MUDT: A Dependency Annotation Framework for Low-Resource Uyghur]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur*: Affiliation: College of Chinese Language and Literature, Xinjiang University, Urumqi, Xinjiang 830046, China, Email: xadiya49@sina.cn
+- *From 2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur*: Affiliation: College of Chinese Language and Literature, Xinjiang University, Urumqi, Xinjiang 830046, China, Email: xadiya49@sina.cn
 - *From 2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur*: Affiliation: College of Chinese Language and Literature, Xinjiang University, Urumqi, Xinjiang 830046, China, Email: zuojiaxin@stu.xju.edu.cn
 - *From 2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur*: Affiliation: College of Chinese Language and Literature, Xinjiang University, Urumqi, Xinjiang 830046, China, Email: zuojiaxin@stu.xju.edu.cn
 - *From 2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur*: Affiliation: College of Chinese Language and Literature, Xinjiang University, Urumqi, Xinjiang 830046, China, Email: xadiya49@sina.cn

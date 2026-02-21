@@ -18,7 +18,7 @@ short_title: "MahaMarathi-7B Marathi Large Language Model"
 year: 2024
 first_author: "[[team, Marathi-LLM]]"
 last_author: "[[Marathi-LLM team]]"
-authors: "[[Marathi-LLM team]]"
+authors: Marathi-LLM team
 authors_incomplete: false
 url: "https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base"
 external_pdf: "https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048"
@@ -59,7 +59,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[M-A-P Team|Marathi-LLM team]]
+[[Marathi-LLM team]]
 
 ## Metadata
 

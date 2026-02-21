@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh|KazMMLU Evaluating Language Models on Kazakh]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh*: Affiliation: University of Artificial Intelligence
+- *From 2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh*: Affiliation: University of Artificial Intelligence
 - *From 2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh*: Affiliation: University of Artificial Intelligence
 - *From 2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh*: Affiliation: University of Artificial Intelligence
 - *From 2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh*: Affiliation: University of Artificial Intelligence

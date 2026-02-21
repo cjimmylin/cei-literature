@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2012-Gippert-The Encoding of Avestan - Problems and Solutions|The Encoding of Avestan -- Problems and Solutions]] (First Author)
 
 ## Notes

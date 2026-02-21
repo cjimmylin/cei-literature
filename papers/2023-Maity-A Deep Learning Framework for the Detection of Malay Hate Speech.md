@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Krishanu Maity]], [[Shaubhik Bhattacharya]], [[Samirit Saha|Sriparna Saha]], [[Manjeevan Seera]]
+[[Krishanu Maity]], [[Shaubhik Bhattacharya]], [[Sriparna Saha]], [[Manjeevan Seera]]
 
 ## Metadata
 

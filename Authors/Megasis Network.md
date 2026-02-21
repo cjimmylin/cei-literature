@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Network-Harnessing the Power of Artificial Intelligence to Vitalize|Harnessing the Power of Artificial Intelligence to Vitalize Endangered Indigenous Languages: Technologies and Experiences]] (First Author)
 - [[2022-Network-How can NLP Help Revitalize Endangered Languages|How can NLP Help Revitalize Endangered Languages?]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Network-How can NLP Help Revitalize Endangered Languages*: Affiliation: laboration with, Email: benfrey@email.unc.edu
+- *From 2022-Network-How can NLP Help Revitalize Endangered Languages*: Affiliation: laboration with, Email: benfrey@email.unc.edu
 - *From 2022-Network-How can NLP Help Revitalize Endangered Languages*: Affiliation: laboration with, Email: benfrey@email.unc.edu
 - *From 2022-Network-How can NLP Help Revitalize Endangered Languages*: Affiliation: laboration with, Email: benfrey@email.unc.edu
 - *From 2022-Network-How can NLP Help Revitalize Endangered Languages*: Affiliation: laboration with, Email: benfrey@email.unc.edu

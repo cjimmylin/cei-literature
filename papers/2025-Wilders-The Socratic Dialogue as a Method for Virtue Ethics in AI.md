@@ -16,7 +16,7 @@ short_title: "The Socratic Dialogue as a Method for Virtue Ethics in AI"
 year: 2025
 first_author: "[[Maarten Wilders]]"
 last_author: "[[Dobbe, Roel]]"
-authors: "[[Wilders, Maarten]]; [[Martínez de Rituerto de Troya, Íñigo]]; [[Dobbe, Roel]]"
+authors: "Wilders, Maarten; Martínez de Rituerto de Troya, Íñigo; Dobbe, Roel"
 doi: N/A
 url: "https://aies-conference.com/2025/"
 external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/36748/38886/40823"

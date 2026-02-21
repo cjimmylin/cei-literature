@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using|Fake News Detection in Low-Resourced Languages: Kurdish Language Using Machine Learning Algorithms]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using*: Affiliation: department, College of informatics, Sulaimani Polytechnic University, Sulaimani, Iraq1
+- *From 2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using*: Affiliation: department, College of informatics, Sulaimani Polytechnic University, Sulaimani, Iraq1
 - *From 2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using*: Affiliation: department, College of informatics, Sulaimani Polytechnic University, Sulaimani, Iraq1
 - *From 2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using*: Affiliation: department, College of informatics, Sulaimani Polytechnic University, Sulaimani, Iraq1
 - *From 2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using*: Affiliation: department, College of informatics, Sulaimani Polytechnic University, Sulaimani, Iraq1

@@ -38,6 +38,8 @@ Davis David is an NLP researcher affiliated with Makerere University and the Mas
 
 
 
+
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 - [[2021-Adelani-MasakhaNER Named Entity Recognition for African|MasakhaNER Named Entity Recognition for African]]
 

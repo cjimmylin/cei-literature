@@ -15,9 +15,9 @@ key: LSRC0644
 type: conferencePaper
 short_title: "Linguistically informed ChatGPT prompts to enhance Japanese-Chinese machine translation: A case study on attributive clauses | PLOS One"
 year: 2025
-first_author: "[[Gu, Wenshi]]"
-last_author: "[[Wenshi Gu]]"
-authors: "[[Gu, Wenshi]]"
+first_author: "[[Gu]]"
+last_author: "[[Wenshi]]"
+authors: Gu; Wenshi
 authors_incomplete: false
 doi: 10.1371/journal.pone.0313264
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313264"
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Wenshi Gu]]
+[[Gu]], [[Wenshi]]
 
 ## Metadata
 

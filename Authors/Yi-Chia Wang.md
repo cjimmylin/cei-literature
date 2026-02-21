@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Altenburger-Examining the Role of Relationship Alignment in|Examining the Role of Relationship Alignment in]]
 - [[2023-Ziems-NormBank|NormBank]]
 - [[2022-Ziems-The Moral Integrity Corpus|The Moral Integrity Corpus]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology

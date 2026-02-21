@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Gao-MIST Moral Inference through Storytelling with Text and Images|MIST: Moral Inference through Storytelling with Text and Images]] (Last Author)
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]] (Last Author)
 - [[2024-Huang-TrustLLM|TrustLLM]]
@@ -34,6 +36,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
+- *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
 - *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
 - *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
 - *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...|CMoralEval: A Moral Evaluation Benchmark for Chinese ...]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn
+- *From 2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn
 - *From 2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: hujason859@gmail.com
 - *From 2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn
 - *From 2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: jiahuizhao7@163.com

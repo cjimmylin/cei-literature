@@ -17,7 +17,7 @@ short_title: "HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales 
 year: 2025
 first_author: "[[Isadora Salles]]"
 last_author: "[[Fabrício Benevenuto]]"
-authors: Isadora Salles, Francielle Vargas, Fabrício Benevenuto
+authors: Isadora Salles; Francielle Vargas; Fabrício Benevenuto
 url: "https://aclanthology.org/2025.coling-main.446/"
 publication: COLING 2025
 CONF-CC: "COLING 2025"

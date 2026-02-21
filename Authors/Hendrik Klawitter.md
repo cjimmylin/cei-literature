@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2019-Kreutz-GermEval 2019 Task 2|GermEval 2019 Task 2]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2019-Kreutz-GermEval 2019 Task 2*: Affiliation: University of Applied Sciences), Melanie Siegel (Darmstadt University of Applied Sciences), Josef Ruppenhofer
+- *From 2019-Kreutz-GermEval 2019 Task 2*: Affiliation: University of Applied Sciences), Melanie Siegel (Darmstadt University of Applied Sciences), Josef Ruppenhofer
 - *From 2019-Kreutz-GermEval 2019 Task 2*: Affiliation: University of Applied Sciences), Melanie Siegel (Darmstadt University of Applied Sciences), Josef Ruppenhofer
 - *From 2019-Kreutz-GermEval 2019 Task 2*: Affiliation: University of Applied Sciences), Melanie Siegel (Darmstadt University of Applied Sciences), Josef Ruppenhofer
 - *From 2019-Kreutz-GermEval 2019 Task 2*: Affiliation: University of Applied Sciences), Melanie Siegel (Darmstadt University of Applied Sciences), Josef Ruppenhofer

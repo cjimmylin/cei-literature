@@ -52,6 +52,8 @@ Mougan's work on "Kantian Deontology Meets AI Alignment" provides a rigorous eth
 
 
 
+
+
 - [[2024-Huang-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]] (Last Author)
 - [[2023-Mougan-Kantian Deontology Meets AI Alignment|Kantian Deontology Meets AI Alignment]] (First Author)
 
@@ -67,6 +69,10 @@ Mougan's work on "Kantian Deontology Meets AI Alignment" provides a rigorous eth
 
 
 
+
+
+- *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
+- *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 - *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 - *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 - *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu

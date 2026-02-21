@@ -15,7 +15,7 @@ type: journalArticle
 short_title: "LLM Ethics Benchmark: A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models"
 year: 2025
 first_author: "[[Jiao, Junfeng]]"
-last_author: "[[Dhurandhar, Amit]]"
+last_author: "[[Amit Dhurandhar]]"
 authors: Junfeng Jiao; Saleh Afroogh; Abhejay Murali; Kevin Chen; David Atkinson; Amit Dhurandhar
 doi: 10.1038/s41598-025-18489-7
 url: "https://www.nature.com/articles/s41598-025-18489-7"
@@ -52,7 +52,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Unknown (The Responsible AI Initiative)]]
+[[Junfeng Jiao]], [[Saleh Afroogh]], [[Abhejay Murali]], [[Kevin Chen]], [[David Atkinson]], [[Amit Dhurandhar]]
 
 ## Metadata
 

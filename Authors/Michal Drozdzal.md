@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models|Towards Geographic Inclusion in the Evaluation of Text-to-Image Models]]
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models*: Affiliation: University, Canada CIFAR AI Chair, Canada
+- *From 2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models*: Affiliation: University, Canada CIFAR AI Chair, Canada
 - *From 2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models*: Affiliation: University, Canada CIFAR AI Chair, Canada
 - *From 2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models*: Affiliation: University, Canada CIFAR AI Chair, Canada
 - *From 2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models*: Affiliation: University, Canada CIFAR AI Chair, Canada

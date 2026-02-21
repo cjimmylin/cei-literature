@@ -17,7 +17,7 @@ short_title: "Chain-of-Ethics: Defense Framework (Wu et al.)"
 year: 2025
 first_author: "[[Huang, Chutian]]"
 last_author: "[[Xu, Hanhui]]"
-authors: "[[Huang, Chutian]]; [[Cao, Dake]]; [[Ji, Jiacheng]]; [[Fan, Yunlou]]; [[Yan, Chengze]]; [[Xu, Hanhui]]"
+authors: "Huang, Chutian; Cao, Dake; Ji, Jiacheng; Fan, Yunlou; Yan, Chengze; Xu, Hanhui"
 authors_incomplete: false
 publication: "Not specified"
 CONF-CC: "Preprint"

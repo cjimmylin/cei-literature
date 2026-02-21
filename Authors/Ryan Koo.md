@@ -31,6 +31,8 @@ This research has important implications for AI safety and alignment, as it reve
 
 
 
+
+
 - [[2023-Guo-COBBLER|COBBLER]] (First Author)
 
 ## Notes
@@ -40,6 +42,10 @@ This research has important implications for AI safety and alignment, as it reve
 
 
 
+
+
+- *From 2023-Guo-COBBLER*: Affiliation: University of Minnesota, 2Grammarly, Email: vipul.raheja@grammarly.com
+- *From 2023-Guo-COBBLER*: Affiliation: University of Minnesota, 2Grammarly, Email: vipul.raheja@grammarly.com
 - *From 2023-Guo-COBBLER*: Affiliation: University of Minnesota, 2Grammarly, Email: vipul.raheja@grammarly.com
 - *From 2023-Guo-COBBLER*: Affiliation: University of Minnesota, 2Grammarly, Email: vipul.raheja@grammarly.com
 - *From 2023-Guo-COBBLER*: Affiliation: University of Minnesota, 2Grammarly, Email: vipul.raheja@grammarly.com

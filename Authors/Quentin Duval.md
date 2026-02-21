@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Gustafson-FACET|FACET]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com

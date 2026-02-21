@@ -17,8 +17,8 @@ type: conferencePaper
 short_title: "SIGARAB - Arabic NLP Archives"
 year: 2025
 first_author: "[[Anastasiia Demidova]]"
-last_author: "[[Sanad Sha Nour Rabih]]"
-authors: "Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha"
+last_author: "[[Sanad Sha]]"
+authors: Anastasiia Demidova; Hanin Atwany; Nour Rabih; Sanad Sha
 url: "https://www.sigarab.org/arabic-nlp-archives"
 publication: Web
 CONF-CC: "Preprint"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Hanin Atwany Anastasiia Demidova]], [[Sanad Sha Nour Rabih]]
+[[Anastasiia Demidova]], [[Hanin Atwany]], [[Nour Rabih]], [[Sanad Sha]]
 
 ## Metadata
 

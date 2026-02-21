@@ -15,9 +15,9 @@ key: EXSR0108
 type: preprint
 short_title: "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice"
 year: 2025
-first_author: "[[C. Hong]]"
-last_author: "[[Y]]"
-authors: "Hong, C., Wu, M., Xiao, Q., Wang, Y., Wan, X., Yu, G., Wang, B., & Hu, Y"
+first_author: "[[Chen, Guhong]]"
+last_author: "[[Y & Hu]]"
+authors: "Chen, Guhong; Minghao Wu; Qiaoling Xiao; Yujia Wang; Xinyi Wan; G. Yu; Benyou Wang; Y & Hu"
 url: "https://arxiv.org/abs/2508.05132"
 external_pdf: "https://arxiv.org/pdf/2508.05132.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Hong]], [[C.]], [[Wenshan Wu|Wu]], [[M.]], [[Xiao]], [[Q.]], [[Wang]], [[Y.]], [[Wan]], [[X.]], [[Yu]], [[G.]], [[Wang]], [[B.]], [[& Hu]], [[Y]]
+[[Chen, Guhong]], [[Minghao Wu]], [[Qiaoling Xiao]], [[Yujia Wang]], [[Xinyi Wan]], [[G. Yu]], [[Benyou Wang]], [[Y & Hu]]
 
 ## Metadata
 

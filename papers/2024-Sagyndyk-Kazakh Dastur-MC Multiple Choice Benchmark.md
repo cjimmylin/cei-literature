@@ -15,8 +15,8 @@ type: conferencePaper
 short_title: "Kazakh Dastur-MC: Multiple Choice Benchmark"
 year: 2024
 first_author: "[[Beksultan Sagyndyk]]"
-last_author: "[[Kirill Yakunin Sanzhar Umbet]]"
-authors: Beksultan Sagyndyk, Sanzhar Murzakhmetov, Sanzhar Umbet, Kirill Yakunin
+last_author: "[[Kirill Yakunin]]"
+authors: Beksultan Sagyndyk; Sanzhar Murzakhmetov; Sanzhar Umbet; Kirill Yakunin
 url: "https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc"
 publication: HuggingFace
 CONF-CC: "Preprint"
@@ -50,7 +50,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Sanzhar Murzakhmetov Beksultan Sagyndyk]], [[Kirill Yakunin Sanzhar Umbet]]
+[[Beksultan Sagyndyk]], [[Sanzhar Murzakhmetov]], [[Sanzhar Umbet]], [[Kirill Yakunin]]
 
 ## Metadata
 

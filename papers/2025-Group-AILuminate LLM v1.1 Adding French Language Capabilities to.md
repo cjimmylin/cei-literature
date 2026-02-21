@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[MLCommons AI Safety Working Group|MLCommons AI Risk and Reliability Working Group]]
+[[MLCommons AI Risk and Reliability Working Group]]
 
 ## Metadata
 

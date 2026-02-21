@@ -17,7 +17,7 @@ short_title: "VMMU: A Vietnamese Multitask Multimodal Understanding and Reasonin
 year: 2025
 first_author: "[[Dang, Vy Tuong]]"
 last_author: "[[Kim, Daeyoung]]"
-authors: "[[Dang, Vy Tuong]]; [[Vo, An]]; [[Villa-Cueva, Emilio]]; [[Tau, Quang]]; [[Dm, Duc]]; [[Solorio, Thamar]]; [[Kim, Daeyoung]]"
+authors: "Dang, Vy Tuong; Vo, An; Villa-Cueva, Emilio; Tau, Quang; Dm, Duc; Solorio, Thamar; Kim, Daeyoung"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.13680"
 external_pdf: "https://arxiv.org/pdf/2508.13680.pdf"

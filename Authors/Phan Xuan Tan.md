@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Menke-How Effective Is Constitutional AI in Small LLMs|How Effective Is Constitutional AI in Small LLMs?]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp
+- *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp
 - *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp
 - *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp
 - *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp

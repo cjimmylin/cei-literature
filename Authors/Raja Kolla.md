@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding|IndicVisionBench Benchmarking Cultural and Multilingual Understanding]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent
+- *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent
 - *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent
 - *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent
 - *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent

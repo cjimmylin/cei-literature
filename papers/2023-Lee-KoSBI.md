@@ -16,7 +16,7 @@ short_title: KoSBI
 year: 2023
 first_author: "[[Hwaran Lee]]"
 last_author: "[[Ha, Jung-woo]]"
-authors: "[[Lee, Hwaran]]; [[Hong, Seokhee]]; [[Park, Joonsuk]]; [[Kim, Takyoung]]; [[Kim, Gunhee]]; [[Ha, Jung-woo]]"
+authors: "Lee, Hwaran; Hong, Seokhee; Park, Joonsuk; Kim, Takyoung; Kim, Gunhee; Ha, Jung-woo"
 url: "https://aclanthology.org/2023.acl-industry.21/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QM5QX7X7/2023 - KoSBI A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications.pdf"
 national_ethnic_cultural: "Korean"
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2023"
 
 ## Authors
 
-[[Hwaran Lee|Lee, Hwaran]], [[Seokhee Hong|Hong, Seokhee]], [[Joonsuk Park|Park, Joonsuk]], [[Takyoung Kim|Kim, Takyoung]], [[Gunhee Kim|Kim, Gunhee]], [[Jung-woo Ha|Ha, Jung-woo]]
+[[Hwaran Lee|Lee, Hwaran]], [[Seokhee Hong|Hong, Seokhee]], [[Joonsuk Park|Park, Joonsuk]], [[Takyoung Kim|Kim, Takyoung]], [[Gunhee Kim|Kim, Gunhee]], [[Ha, Jung-woo]]
 
 ## Links
 

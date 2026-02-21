@@ -29,6 +29,8 @@ Potertì's work focuses on developing and evaluating NLP systems for the Italian
 
 
 
+
+
 - [[2025-Seveso-ITALIC|ITALIC]]
 
 ## Notes
@@ -38,6 +40,10 @@ Potertì's work focuses on developing and evaluating NLP systems for the Italian
 
 
 
+
+
+- *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
+- *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 - *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 - *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 - *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy

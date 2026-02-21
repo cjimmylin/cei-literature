@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "EMNLP (Educator-role Moral and Normative LLMs Profiling)"
 year: 2025
 first_author: "[[Yilin Jiang]]"
-last_author: "[[Binghao Tu Xiangjie Kong]]"
-authors: "Yilin Jiang, Mingzi Zhang, Sheng Jin, Zengyi Yu, Xiangjie Kong, Binghao Tu"
+last_author: "[[Binghao Tu]]"
+authors: Yilin Jiang; Mingzi Zhang; Sheng Jin; Zengyi Yu; Xiangjie Kong; Binghao Tu
 doi: 10.18653/v1/2025.emnlp-main.42
 url: "https://arxiv.org/abs/2508.15250"
 external_pdf: "https://arxiv.org/pdf/2508.15250.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Meng Jiang|Mingzi Zhang Yilin Jiang]], [[Zhijing Jin|Zengyi Yu Sheng Jin]], [[Binghao Tu Xiangjie Kong]]
+[[Yilin Jiang]], [[Mingzi Zhang]], [[Sheng Jin]], [[Zengyi Yu]], [[Xiangjie Kong]], [[Binghao Tu]]
 
 ## Metadata
 

@@ -17,9 +17,9 @@ key: EXSR0455
 type: conference_paper
 short_title: "AC-EVAL Evaluating Ancient Chinese Language Understanding"
 year: 2024
-first_author: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]"
-last_author: "[[Bin Wu Di Liu]]"
-authors: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]"
+first_author: "[[Yuting Wei]]"
+last_author: "[[Bin Wu]]"
+authors: Yuting Wei; Yuanxing Xu; Xinru Wei; Simin Yang; Yangfu Zhu; Yuqing Li; Di Liu; Bin Wu
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.06574"
 external_pdf: "https://arxiv.org/pdf/2403.06574.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "EMNLP 2024"
 
 ## Authors
 
-[[Yuanxing Xu Yuting Wei]], [[Simin Yang Xinru Wei]], [[Yanfei Zhu|Yuqing Li Yangfu Zhu]], [[Bin Wu Di Liu]]
+[[Yuting Wei]], [[Yuanxing Xu]], [[Xinru Wei]], [[Simin Yang]], [[Yangfu Zhu]], [[Yuqing Li]], [[Di Liu]], [[Bin Wu]]
 
 ## Metadata
 

@@ -17,9 +17,9 @@ key: EXSR0527
 type: preprint
 short_title: "Samayik A Benchmark and Dataset for"
 year: 2024
-first_author: "[[Ayush Maheshwari, Ashim Gupta, Amrith Krishna, Atul Kumar Singh, Ganesh Ramakrishnan, G. Anil Kumar, Jitin Singla]]"
+first_author: "[[Ayush Maheshwari]]"
 last_author: "[[Jitin Singla]]"
-authors: "[[Ayush Maheshwari, Ashim Gupta, Amrith Krishna, Atul Kumar Singh, Ganesh Ramakrishnan, G. Anil Kumar, Jitin Singla]]"
+authors: Ayush Maheshwari; Ashim Gupta; Amrith Krishna; Atul Kumar Singh; Ganesh Ramakrishnan; G. Anil Kumar; Jitin Singla
 authors_incomplete: false
 url: "https://arxiv.org/abs/2305.14004"
 external_pdf: "https://arxiv.org/pdf/2305.14004.pdf"

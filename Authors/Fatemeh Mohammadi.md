@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Mohammadi-Identifying Gender Stereotypes and Biases in Automated Translation|Identifying Gender Stereotypes and Biases in Automated Translation from English to Italian using Similarity Networks]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Mohammadi-Identifying Gender Stereotypes and Biases in Automated Translation*: Affiliation: Department of Computer Science
+- *From 2025-Mohammadi-Identifying Gender Stereotypes and Biases in Automated Translation*: Affiliation: Department of Computer Science
 - *From 2025-Mohammadi-Identifying Gender Stereotypes and Biases in Automated Translation*: Affiliation: Department of Computer Science
 - *From 2025-Mohammadi-Identifying Gender Stereotypes and Biases in Automated Translation*: Affiliation: Department of Computer Science
 - *From 2025-Mohammadi-Identifying Gender Stereotypes and Biases in Automated Translation*: Affiliation: Department of Computer Science

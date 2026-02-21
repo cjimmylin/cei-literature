@@ -16,7 +16,7 @@ short_title: "AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLM
 year: 2024
 first_author: "[[Basel Mousi]]"
 last_author: "[[Firoj Alam]]"
-authors: Basel Mousi, Nadir Durrani, Fatema Ahmad, Md. Arid Hasan, Maram Hasanain, Tameem Kabbani, Fahim Dalvi, Shammur Absar Chowdhury, Firoj Alam
+authors: Basel Mousi; Nadir Durrani; Fatema Ahmad; Md. Arid Hasan; Maram Hasanain; Tameem Kabbani; Fahim Dalvi; Shammur Absar Chowdhury; Firoj Alam
 doi: 10.48550/arXiv.2409.11404
 url: "https://arxiv.org/abs/2409.11404"
 external_pdf: "https://arxiv.org/pdf/2409.11404.pdf"

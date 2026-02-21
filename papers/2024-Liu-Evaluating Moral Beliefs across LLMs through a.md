@@ -15,7 +15,7 @@ short_title: "Evaluating Moral Beliefs across LLMs through a"
 year: 2024
 first_author: "[[Xuelin Liu]]"
 last_author: "[[Yu, Dong]]"
-authors: "[[Liu, Xuelin]]; [[Zhu, Yanfei]]; [[Zhu, Shucheng]]; [[Liu, Pengyuan]]; [[Liu, Ying]]; [[Yu, Dong]]"
+authors: "Liu, Xuelin; Zhu, Yanfei; Zhu, Shucheng; Liu, Pengyuan; Liu, Ying; Yu, Dong"
 doi: 10.48550/arXiv.2411.03665
 url: "http://arxiv.org/abs/2411.03665"
 pdf_extract: "PDF Extracts/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.md"

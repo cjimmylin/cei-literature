@@ -21,7 +21,7 @@ short_title: "SAHAAYAK 2023 The Multi-Domain Bilingual Parallel"
 year: 2023
 first_author: "[[Vishvajitsinh Bakrola]]"
 last_author: "[[Jitendra Nasariwala]]"
-authors: "[[Vishvajitsinh Bakrola]]; [[Jitendra Nasariwala]]"
+authors: Vishvajitsinh Bakrola; Jitendra Nasariwala
 authors_incomplete: false
 url: "https://arxiv.org/abs/2307.00021"
 external_pdf: "https://arxiv.org/pdf/2307.00021.pdf"

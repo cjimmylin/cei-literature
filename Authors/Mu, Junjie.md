@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns|Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and Social Groups]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns*: Affiliation: Department of Electronics, Information and Bioengineering, Politecnico di Milano, Milan, Italy, Email: fengli@mail.ustc.edu.cn
+- *From 2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns*: Affiliation: Department of Electronics, Information and Bioengineering, Politecnico di Milano, Milan, Italy, Email: fengli@mail.ustc.edu.cn
 - *From 2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns*: Affiliation: Department of Electronics, Information and Bioengineering, Politecnico di Milano, Milan, Italy, Email: fengli@mail.ustc.edu.cn
 - *From 2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns*: Affiliation: Department of Electronics, Information and Bioengineering, Politecnico di Milano, Milan, Italy, Email: mxzhu@ustc.edu.cn
 - *From 2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns*: Affiliation: Department of Electronics, Information and Bioengineering, Politecnico di Milano, Milan, Italy, Email: fengli@mail.ustc.edu.cn

@@ -17,7 +17,7 @@ short_title: "The Ubuntu Way"
 year: 2024
 first_author: "[[Brenda Odero]]"
 last_author: "[[Samuel, Gabrielle]]"
-authors: "[[Odero, Brenda]]; [[Nderitu, David]]; [[Samuel, Gabrielle]]"
+authors: "Odero, Brenda; Nderitu, David; Samuel, Gabrielle"
 doi: 10.12688/wellcomeopenres.23021.1
 url: "https://wellcomeopenresearch.org/articles/9-625"
 pdf_extract: "PDF Extracts/2024/2024-Odero-The Ubuntu Way.md"

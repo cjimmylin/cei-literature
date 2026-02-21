@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Fan-LEXam|LEXam]]
 - [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]]
 - [[2024-Piatti-Cooperate or Collapse|Cooperate or Collapse]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen

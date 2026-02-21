@@ -25,9 +25,9 @@ Hinrich Schütze is Professor of Computational Linguistics and Co-director of th
 
 
 
-- [[2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via|MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment]] (Last Author)
+
+
 - [[2024-Röttger-Political Compass or Spinning Arrow|Political Compass or Spinning Arrow?]]
-- [[2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding|TurkishMMLU Measuring Massive Multitask Language Understanding]] (Last Author)
 
 ## Notes
 
@@ -36,6 +36,10 @@ Hinrich Schütze is Professor of Computational Linguistics and Co-director of th
 
 
 
+
+
+- *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
+- *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
 - *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: akoksal@cis.lmu.de
 - *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: arda.yueksel@tum.de
 - *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: arda.yueksel@tum.de

@@ -33,6 +33,8 @@ Jiaming Ji is a PhD student at Peking University working with PKU-Alignment on A
 
 
 
+
+
 - [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]] (First Author)
 - [[2025-Ju-NaVAB|NaVAB]]
 - [[2024-Qiu-ProgressGym|ProgressGym]]
@@ -48,6 +50,10 @@ Jiaming Ji is a PhD student at Peking University working with PKU-Alignment on A
 
 
 
+
+
+- *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
+- *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: cbylll@stu.pku.edu.cn

@@ -35,6 +35,8 @@ Her work examines statistical approaches to capturing human variation in values 
 
 
 
+
+
 - [[2025-Sorensen-Value Profiles for Encoding Human Variation|Value Profiles for Encoding Human Variation]]
 
 ## External Links & Profiles
@@ -48,6 +50,10 @@ Her work examines statistical approaches to capturing human variation in values 
 
 
 
+
+
+- *From 2025-Sorensen-Value Profiles for Encoding Human Variation*: Affiliation: Department of Computer Science, University of Washington, Seattle, WA, USA, Email: verenarieser@deepmind.com
+- *From 2025-Sorensen-Value Profiles for Encoding Human Variation*: Affiliation: Department of Computer Science, University of Washington, Seattle, WA, USA, Email: verenarieser@deepmind.com
 - *From 2025-Sorensen-Value Profiles for Encoding Human Variation*: Affiliation: Department of Computer Science, University of Washington, Seattle, WA, USA, Email: tsor13@cs.washington.edu
 - *From 2025-Sorensen-Value Profiles for Encoding Human Variation*: Affiliation: Department of Computer Science, University of Washington, Seattle, WA, USA, Email: tsor13@cs.washington.edu
 - *From 2025-Sorensen-Value Profiles for Encoding Human Variation*: Affiliation: Department of Computer Science, University of Washington, Seattle, WA, USA, Email: verenarieser@deepmind.com

@@ -18,7 +18,7 @@ short_title: "Expert-Annotated Dataset to Study Cyberbullying in Polish Language
 year: 2024
 first_author: "[[Ptaszynski, Michal]]"
 last_author: "[[Wroczynski, Michal]]"
-authors: "[[Ptaszynski, Michal]]; [[Pieciukiewicz, Agata]]; [[Dybala, Pawel]]; [[Skrzek, Pawel]]; [[Soliwoda, Kamil]]; [[Fortuna, Marcin]]; [[Leliwa, Gniewosz]]; [[Wroczynski, Michal]]"
+authors: "Ptaszynski, Michal; Pieciukiewicz, Agata; Dybala, Pawel; Skrzek, Pawel; Soliwoda, Kamil; Fortuna, Marcin; Leliwa, Gniewosz; Wroczynski, Michal"
 authors_incomplete: false
 doi: 10.3390/data9010001
 url: "https://www.mdpi.com/2306-5729/9/1/1"

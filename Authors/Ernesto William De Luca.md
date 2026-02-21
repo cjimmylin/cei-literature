@@ -41,6 +41,8 @@ Has led major research groups in Germany focused on knowledge technologies and d
 
 
 
+
+
 - [[2024-Jörs-Through Eudaimonia's Lenses|Through Eudaimonia's Lenses]] (Last Author)
 
 ## External Links & Profiles
@@ -56,6 +58,10 @@ Has led major research groups in Germany focused on knowledge technologies and d
 
 
 
+
+
+- *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany
+- *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany
 - *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany
 - *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany
 - *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany

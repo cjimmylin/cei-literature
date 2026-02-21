@@ -18,7 +18,7 @@ short_title: "A structured sentiment analysis dataset based on public comments f
 year: 2024
 first_author: "[[Wei, Zhongliang]]"
 last_author: "[[Zhang, Shunxiang]]"
-authors: "[[Wei, Zhongliang]]; [[Zhang, Shunxiang]]"
+authors: "Wei, Zhongliang; Zhang, Shunxiang"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S2352340924002038"
 publication: ScienceDirect

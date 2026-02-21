@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity|Benchmarking LLM Guardrails in Handling Multilingual Toxicity]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity*: Affiliation: University of Pennsylvania, Email: yangy96@seas.upenn.edu
+- *From 2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity*: Affiliation: University of Pennsylvania, Email: yangy96@seas.upenn.edu
 - *From 2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity*: Affiliation: University of Pennsylvania, Email: lee@seas.upenn.edu
 - *From 2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity*: Affiliation: University of Pennsylvania, Email: yangy96@seas.upenn.edu
 - *From 2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity*: Affiliation: University of Pennsylvania, Email: lee@seas.upenn.edu

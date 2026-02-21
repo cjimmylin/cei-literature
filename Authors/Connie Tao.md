@@ -33,6 +33,8 @@ Connie Tao is a researcher at Google DeepMind who served as one of the leads for
 
 
 
+
+
 - [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]]
 
 ## External Links & Profiles

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Biedma-Beyond Human Norms|Beyond Human Norms]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: linus.huang@ust.hk
+- *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: linus.huang@ust.hk
 - *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: biedmanunezp10@mails.tsinghua.edu.cn
 - *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: linus.huang@ust.hk
 - *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: sms@mail.tsinghua.edu.cn

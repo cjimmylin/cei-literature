@@ -15,8 +15,8 @@ type: preprint
 short_title: "VisTW: Benchmarking Vision-Language Models for Traditional Chinese in Taiwan"
 year: 2025
 first_author: "[[Zhi Rui Tam]]"
-last_author: "[[Yun-Nung Chen Yen-Wei Lee]]"
-authors: Zhi Rui Tam, Ya-Ting Pai, Yen-Wei Lee, Yun-Nung Chen
+last_author: "[[Yun-Nung Chen]]"
+authors: Zhi Rui Tam; Ya-Ting Pai; Yen-Wei Lee; Yun-Nung Chen
 url: "https://arxiv.org/abs/2503.10427"
 external_pdf: "https://arxiv.org/pdf/2503.10427.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Ya-Ting Pai Zhi Rui Tam]], [[Yeongheon Lee|Yun-Nung Chen Yen-Wei Lee]]
+[[Zhi Rui Tam]], [[Ya-Ting Pai]], [[Yen-Wei Lee]], [[Yun-Nung Chen]]
 
 ## Metadata
 

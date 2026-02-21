@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite|B-REASO: A Multi-Level Multi-Faceted Bengali Evaluation Suite]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite*: Affiliation: University-Bangladesh, 2Cornell University, Email: 20-42737-1@student.aiub.edu
+- *From 2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite*: Affiliation: University-Bangladesh, 2Cornell University, Email: 20-42737-1@student.aiub.edu
 - *From 2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite*: Affiliation: University-Bangladesh, 2Cornell University, Email: 20-42737-1@student.aiub.edu
 - *From 2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite*: Affiliation: University-Bangladesh, 2Cornell University, Email: mmorol@cornell.edu
 - *From 2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite*: Affiliation: University-Bangladesh, 2Cornell University, Email: mmorol@cornell.edu

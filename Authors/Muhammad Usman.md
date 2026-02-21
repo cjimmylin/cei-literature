@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech|A Large Language Model-Based Approach for Multilingual Hate Speech Detection on Social Media]] (First Author)
 - [[2024-Rahman-DefAn|DefAn]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: muhammad.usman@kfupm.edu.sa
+- *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: muhammad.usman@kfupm.edu.sa
 - *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: muhammad.usman@kfupm.edu.sa
 - *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: saeed.anwar@kfupm.edu.sa
 - *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: g202204800@kfupm.edu.sa

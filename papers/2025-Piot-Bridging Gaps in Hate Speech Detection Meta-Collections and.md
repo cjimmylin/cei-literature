@@ -17,7 +17,7 @@ short_title: "Bridging Gaps in Hate Speech Detection: Meta-Collections and Bench
 year: 2025
 first_author: "[[Paloma Piot]]"
 last_author: "[[Javier Parapar]]"
-authors: "[[Paloma Piot]]; [[José Ramom Pichel Campos]]; [[Javier Parapar]]"
+authors: Paloma Piot; José Ramom Pichel Campos; Javier Parapar
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.11167"
 external_pdf: "https://arxiv.org/pdf/2510.11167.pdf"

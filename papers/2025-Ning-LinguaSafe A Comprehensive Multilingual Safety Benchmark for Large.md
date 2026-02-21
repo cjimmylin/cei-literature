@@ -15,7 +15,7 @@ short_title: "LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Larg
 year: 2025
 first_author: "[[Ning, Zhiyuan]]"
 last_author: "[[Wang, Yingchun]]"
-authors: "[[Ning, Zhiyuan]]; [[Gu, Tianle]]; [[Song, Jiaxin]]; [[Hong, Shixin]]; [[Li, Lingyu]]; [[Liu, Huacan]]; [[Li, Jie]]; [[Wang, Yixu]]; [[Lingyu, Meng]]; [[Teng, Yan]]; [[Wang, Yingchun]]"
+authors: "Ning, Zhiyuan; Gu, Tianle; Song, Jiaxin; Hong, Shixin; Li, Lingyu; Liu, Huacan; Li, Jie; Wang, Yixu; Lingyu, Meng; Teng, Yan; Wang, Yingchun"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.12733"
 external_pdf: "https://arxiv.org/pdf/2508.12733.pdf"

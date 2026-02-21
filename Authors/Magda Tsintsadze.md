@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian|GeoLogicQA: A Benchmark for Evaluating Logical Reasoning in Georgian for Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian*:, Email: archil.elizbarashvili@tsu.ge
+- *From 2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian*:, Email: archil.elizbarashvili@tsu.ge
 - *From 2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian*:, Email: irakli.koberidze@tsu.ge
 - *From 2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian*:, Email: irakli.koberidze@tsu.ge
 - *From 2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian*:, Email: archil.elizbarashvili@tsu.ge

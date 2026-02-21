@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation|NorEval: A Norwegian Language Understanding and Generation Evaluation Benchmark]] (First Author)
+- [[2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark|RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark*: Affiliation: University Higher School of Economics / Moscow, Russia
+- *From 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark*: Affiliation: University Higher School of Economics / Moscow, Russia
 - *From 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation*: Affiliation: University of Oslo, Email: vladism@ifi.uio.no
 - *From 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation*: Affiliation: University of Oslo, Email: vladism@ifi.uio.no
 - *From 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation*: Affiliation: University of Oslo, Email: vladism@ifi.uio.no

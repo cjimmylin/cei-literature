@@ -15,7 +15,7 @@ key: EXSR0253
 type: preprint
 short_title: "VAL-Bench: Belief Consistency as a Measure for Value Alignment"
 year: 2025
-first_author: "[[A. Gupta]]"
+first_author: "[[Aman Gupta]]"
 last_author: "[[Fazl Barez]]"
 authors: "Aman Gupta; Denny O'Shea; Fazl Barez"
 url: "https://arxiv.org/abs/2510.05465"

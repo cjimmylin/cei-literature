@@ -1,7 +1,7 @@
 ---
 name: "Ya-Ting Pai"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Illinois Urbana-Champaign"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in|VisTW: Benchmarking Vision-Language Models for Traditional Chinese in Taiwan]]
 - [[2024-Tam-An Improved Traditional Chinese Evaluation Suite for Foundation Model|An Improved Traditional Chinese Evaluation Suite for Foundation Model (TMMLU+)]]
 
 ## External Links & Profiles
@@ -84,6 +87,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in*: Affiliation: University of Illinois Urbana-Champaign
+- *From 2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in*: Affiliation: University of Illinois Urbana-Champaign
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

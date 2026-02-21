@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Castricato-PERSONA Pluralistic Alignment Testbed|PERSONA (Pluralistic Alignment Testbed)]]
 - [[2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning|OffTheRails: Procedural Dilemma Generation for Moral Reasoning]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Castricato-PERSONA Pluralistic Alignment Testbed*: Affiliation: lable here https://www
+- *From 2025-Castricato-PERSONA Pluralistic Alignment Testbed*: Affiliation: lable here https://www
 - *From 2025-Castricato-PERSONA Pluralistic Alignment Testbed*: Affiliation: lable here https://www
 - *From 2025-Castricato-PERSONA Pluralistic Alignment Testbed*: Affiliation: lable here https://www
 - *From 2025-Castricato-PERSONA Pluralistic Alignment Testbed*: Affiliation: lable here https://www

@@ -55,10 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI|Comparing diversity negativity and stereotypes in Chinese-language AI]]
-- [[2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns|Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns]]
+
+- [[2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in|Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts]]
 
 ## External Links & Profiles
 

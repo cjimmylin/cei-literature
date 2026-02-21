@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual|Mapping Geopolitical Bias in 11 Large Language Models: A Bilingual, Dual-Framing Analysis of U.S.-China Tensions]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual*: Affiliation: Department of Industrial Engineering, Tsinghua University, Beijing, China
+- *From 2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual*: Affiliation: Department of Industrial Engineering, Tsinghua University, Beijing, China
 - *From 2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual*: Affiliation: Department of Industrial Engineering, Tsinghua University, Beijing, China
 - *From 2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual*: Affiliation: Department of Industrial Engineering, Tsinghua University, Beijing, China
 - *From 2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual*: Affiliation: Department of Industrial Engineering, Tsinghua University, Beijing, China

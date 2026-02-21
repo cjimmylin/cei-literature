@@ -15,7 +15,7 @@ short_title: "DUMB: A Benchmark for Smart Evaluation of Dutch Models"
 year: 2023
 first_author: "[[Vries, Wietse de]]"
 last_author: "[[Nissim, Malvina]]"
-authors: "[[Vries, Wietse de]]; [[Wieling, Martijn]]; [[Nissim, Malvina]]"
+authors: "Vries, Wietse de; Wieling, Martijn; Nissim, Malvina"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2305.13026"
 external_pdf: "https://arxiv.org/pdf/2305.13026.pdf"

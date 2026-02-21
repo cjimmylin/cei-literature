@@ -36,6 +36,8 @@ Alexis leads research on creating cross-lingual and multilingual datasets for un
 
 
 
+
+
 - [[2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of|AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages]]
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
 
@@ -45,6 +47,10 @@ Alexis leads research on creating cross-lingual and multilingual datasets for un
 
 
 
+
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder

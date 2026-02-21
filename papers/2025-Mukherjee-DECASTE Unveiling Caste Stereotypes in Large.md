@@ -17,9 +17,9 @@ key: EXSR0354
 type: preprint
 short_title: "DECASTE Unveiling Caste Stereotypes in Large"
 year: 2025
-first_author: "[[Prashanth Vijayaraghavan, Soroush Vosoughi, Lamogha Chiazor, Raya Horesh, Rogerio Abreu de Paula, Ehsan Degan, Vandana Mukherjee]]"
+first_author: "[[Prashanth Vijayaraghavan]]"
 last_author: "[[Vandana Mukherjee]]"
-authors: "[[Prashanth Vijayaraghavan, Soroush Vosoughi, Lamogha Chiazor, Raya Horesh, Rogerio Abreu de Paula, Ehsan Degan, Vandana Mukherjee]]"
+authors: Prashanth Vijayaraghavan; Soroush Vosoughi; Lamogha Chiazor; Raya Horesh; Rogerio Abreu de Paula; Ehsan Degan; Vandana Mukherjee
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.14971"
 external_pdf: "https://arxiv.org/pdf/2505.14971.pdf"

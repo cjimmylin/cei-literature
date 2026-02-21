@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Wei Xiangfeng Wei Xiangfeng]], [[Yi|Yuan Yi Yuan Yi]], [[Zhang Quan Zhang Quan]], [[Tursun Kadir Tursun Kadir]]
+[[Wei Xiangfeng Wei Xiangfeng]], [[Yuan Yi Yuan Yi]], [[Zhang Quan Zhang Quan]], [[Tursun Kadir Tursun Kadir]]
 
 ## Metadata
 

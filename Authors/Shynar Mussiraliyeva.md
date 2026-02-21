@@ -56,8 +56,12 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Bolatbek-Detection of offensive content in the|Detection of offensive content in the]]
 - [[2025-Bolatbek-Hate Speech Detection in the Kazakh|Hate Speech Detection in the Kazakh]]
+- [[2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text|Kazakh Language Dataset for Hate Speech Detection on Social Media Text]]
+- [[2024-Yeltay-Kazakh Language Dataset for Hate Speech|Kazakh Language Dataset for Hate Speech]]
 
 ## External Links & Profiles
 
@@ -84,6 +88,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text*: Affiliation: University, Melbourne, Australia
+- *From 2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text*: Affiliation: University, Melbourne, Australia
 - *From 2025-Bolatbek-Detection of offensive content in the*: Affiliation: Faculty of Engineering, Federal University Oye-Ekiti, Email: akinboro2002@yahoo.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

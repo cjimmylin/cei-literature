@@ -14,8 +14,8 @@ type: conferencePaper
 short_title: "GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments"
 year: 2021
 first_author: "[[Julian Risch]]"
-last_author: "[[Michael Wiegand Lena Wilms]]"
-authors: "Julian Risch, Anke Stoll, Lena Wilms, Michael Wiegand"
+last_author: "[[Michael Wiegand]]"
+authors: Julian Risch; Anke Stoll; Lena Wilms; Michael Wiegand
 url: "https://aclanthology.org/2021.germeval-1.1/"
 external_pdf: "https://aclanthology.org/2021.germeval-1.1.pdf"
 publication: "ACL Anthology"
@@ -50,7 +50,7 @@ CONFERENCE: "ACL 2021"
 
 ## Authors
 
-[[Anke Stoll Julian Risch]], [[Michael Wiegand Lena Wilms]]
+[[Julian Risch]], [[Anke Stoll]], [[Lena Wilms]], [[Michael Wiegand]]
 
 ## Metadata
 

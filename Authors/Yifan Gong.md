@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Yao-Value FULCRA|Value FULCRA]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Yao-Value FULCRA*: Affiliation: School of Artificial Intelligence, Renmin University of China, Beijing, China, Email: xitingwang@ruc.edu.cn
+- *From 2023-Yao-Value FULCRA*: Affiliation: School of Artificial Intelligence, Renmin University of China, Beijing, China, Email: xitingwang@ruc.edu.cn
 - *From 2023-Yao-Value FULCRA*: Affiliation: School of Artificial Intelligence, Renmin University of China, Beijing, China, Email: xitingwang@ruc.edu.cn
 - *From 2023-Yao-Value FULCRA*: Affiliation: School of Artificial Intelligence, Renmin University of China, Beijing, China, Email: xitingwang@ruc.edu.cn
 - *From 2023-Yao-Value FULCRA*: Affiliation: School of Artificial Intelligence, Renmin University of China, Beijing, China, Email: xitingwang@ruc.edu.cn

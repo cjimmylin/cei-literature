@@ -60,12 +60,10 @@ twitter: ""
 
 
 
-- [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
+
+
 - [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]]
-- [[2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text|Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text]] (First Author)
 - [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content]]
-- [[2024-Basem-Optimized Quran Passage Retrieval Using an|Optimized Quran Passage Retrieval Using an]] (Last Author)
-- [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 
 ## External Links & Profiles
 
@@ -96,6 +94,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
+- *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia

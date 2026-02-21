@@ -17,7 +17,7 @@ short_title: "IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and"
 year: 2020
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
-authors: "[[AI4Bharat team]]"
+authors: AI4Bharat team
 authors_incomplete: false
 url: "https://aclanthology.org/2020.findings-emnlp.445/"
 external_pdf: "https://aclanthology.org/2020.findings-emnlp.445.pdf"

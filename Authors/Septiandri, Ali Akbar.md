@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba

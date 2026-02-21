@@ -17,7 +17,7 @@ short_title: "NorEval: A Norwegian Language Understanding and Generation Evaluat
 year: 2025
 first_author: "[[Vladislav Mikhailov]]"
 last_author: "[[Lilja Øvrelid]]"
-authors: "[[Vladislav Mikhailov]]; [[Tita Enstad]]; [[David Samuel]]; [[Hans Christian Farsethås]]; [[Andrey Kutuzov]]; [[Erik Velldal]]; [[Lilja Øvrelid]]"
+authors: Vladislav Mikhailov; Tita Enstad; David Samuel; Hans Christian Farsethås; Andrey Kutuzov; Erik Velldal; Lilja Øvrelid
 url: "https://arxiv.org/abs/2504.07749"
 external_pdf: "https://arxiv.org/pdf/2504.07749.pdf"
 publication: arXiv

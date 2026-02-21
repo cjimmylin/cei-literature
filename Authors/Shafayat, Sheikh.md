@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and|BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding and Cultural Knowledge]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and*: Affiliation: college and job level, Email: alice.oh@kaist.edu
+- *From 2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and*: Affiliation: college and job level, Email: alice.oh@kaist.edu
 - *From 2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and*: Affiliation: college and job level, Email: daeenkabirdk03@gmail.com
 - *From 2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and*: Affiliation: college and job level, Email: alice.oh@kaist.edu
 - *From 2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and*: Affiliation: college and job level, Email: alice.oh@kaist.edu

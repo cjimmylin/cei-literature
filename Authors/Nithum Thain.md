@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2018-Dixon-Measuring and Mitigating Unintended Bias in Text|Measuring and Mitigating Unintended Bias in Text]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: nthain@google.com
+- *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: nthain@google.com
 - *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: nthain@google.com
 - *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: sorenj@google.com
 - *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: ldixon@google.com

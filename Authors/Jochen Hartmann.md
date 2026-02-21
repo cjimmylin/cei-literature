@@ -28,6 +28,8 @@ He co-authored "Natural Language Processing in Marketing" (2023), a comprehensiv
 
 
 
+
+
 - [[2023-Hartmann-The political ideology of conversational AI|The political ideology of conversational AI]] (First Author)
 
 ## Notes
@@ -37,6 +39,10 @@ He co-authored "Natural Language Processing in Marketing" (2023), a comprehensiv
 
 
 
+
+
+- *From 2023-Hartmann-The political ideology of conversational AI*: Affiliation: University of Munich, TUM School of Management, Arcisstr, Email: jochen.hartmann@tum.de
+- *From 2023-Hartmann-The political ideology of conversational AI*: Affiliation: University of Munich, TUM School of Management, Arcisstr, Email: jochen.hartmann@tum.de
 - *From 2023-Hartmann-The political ideology of conversational AI*: Affiliation: University of Munich, TUM School of Management, Arcisstr, Email: jochen.hartmann@tum.de
 - *From 2023-Hartmann-The political ideology of conversational AI*: Affiliation: University of Munich, TUM School of Management, Arcisstr, Email: jochen.hartmann@tum.de
 - *From 2023-Hartmann-The political ideology of conversational AI*: Affiliation: University of Munich, TUM School of Management, Arcisstr, Email: jochen.hartmann@tum.de

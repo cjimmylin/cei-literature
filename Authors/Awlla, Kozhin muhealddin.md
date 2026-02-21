@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment|KuBERT: Central Kurdish BERT Model and Its Application for Sentiment Analysis]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment*: Affiliation: Department, Faculty of, Email: abdulhady.abas@ukh.edu.krd
+- *From 2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment*: Affiliation: Department, Faculty of, Email: abdulhady.abas@ukh.edu.krd
 - *From 2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment*: Affiliation: Department, Faculty of, Email: abdulhady.abas@ukh.edu.krd
 - *From 2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment*: Affiliation: Department, Faculty of, Email: abdulhady.abas@ukh.edu.krd
 - *From 2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment*: Affiliation: Department, Faculty of, Email: h.veisi@ut.ac.ir

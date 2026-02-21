@@ -15,7 +15,7 @@ short_title: "AustroTox: A Dataset for Target-Based Austrian German Offensive La
 year: 2024
 first_author: "[[Janis Goldzycher]]"
 last_author: "[[Hanna Mahler]]"
-authors: "Janis Goldzycher, Anna Maria Planitzer, Claudia Pichler, Sebastian Pado, Hanna Mahler"
+authors: Janis Goldzycher; Anna Maria Planitzer; Claudia Pichler; Sebastian Pado; Hanna Mahler
 url: "https://arxiv.org/abs/2406.08080"
 external_pdf: "https://arxiv.org/pdf/2406.08080.pdf"
 publication: "arXiv / ACL Anthology"

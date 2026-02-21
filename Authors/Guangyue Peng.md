@@ -44,6 +44,8 @@ Peng has also contributed to research on FEA-Bench, a benchmark designed to asse
 
 
 
+
+
 - [[2024-Luo-HalluDial|HalluDial]]
 
 ## Links
@@ -57,6 +59,10 @@ Peng has also contributed to research on FEA-Bench, a benchmark designed to asse
 
 
 
+
+
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence

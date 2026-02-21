@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection|Toxicity Posts and Hateful Comments Detection]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection*: Affiliation: University of Technology Lanna (RMUTL) Engineering Journal, Email: sutthisak@rmutl.ac.th.
+- *From 2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection*: Affiliation: University of Technology Lanna (RMUTL) Engineering Journal, Email: sutthisak@rmutl.ac.th.
 - *From 2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection*: Affiliation: University of Technology Lanna (RMUTL) Engineering Journal, Email: sutthisak@rmutl.ac.th.
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

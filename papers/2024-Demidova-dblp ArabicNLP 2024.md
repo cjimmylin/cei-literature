@@ -17,8 +17,8 @@ type: conferencePaper
 short_title: "dblp: ArabicNLP 2024"
 year: 2024
 first_author: "[[Anastasiia Demidova]]"
-last_author: "[[Sanad Sha Nour Rabih]]"
-authors: "Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha"
+last_author: "[[Sanad Sha]]"
+authors: Anastasiia Demidova; Hanin Atwany; Nour Rabih; Sanad Sha
 url: "https://dblp.org/db/conf/wanlp/arabicnlp2024.html"
 publication: Web
 CONF-CC: "Preprint"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Hanin Atwany Anastasiia Demidova]], [[Sanad Sha Nour Rabih]]
+[[Anastasiia Demidova]], [[Hanin Atwany]], [[Nour Rabih]], [[Sanad Sha]]
 
 ## Metadata
 

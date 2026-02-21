@@ -16,8 +16,8 @@ type: preprint
 short_title: "MaLLaM -- Malaysia Large Language Model"
 year: 2024
 first_author: "[[Husein Zolkepli]]"
-last_author: "[[Aisyah Razak Husein Zolkepli]]"
-authors: "Husein Zolkepli, Aisyah Razak"
+last_author: "[[Aisyah Razak]]"
+authors: Husein Zolkepli; Aisyah Razak
 url: "https://arxiv.org/abs/2401.14680"
 external_pdf: "https://arxiv.org/pdf/2401.14680.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Zolkepli-MaLLaM - Malaysia Large Language Model.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Aisyah Razak Husein Zolkepli]]
+[[Husein Zolkepli]], [[Aisyah Razak]]
 
 ## Metadata
 

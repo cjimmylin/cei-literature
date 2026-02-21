@@ -17,7 +17,7 @@ short_title: "Hate speech detection with ADHAR: a multi-dialectal hate speech co
 year: 2024
 first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
-authors: "Ranwa Aly, Yara Allam, Rana Gaber"
+authors: Ranwa Aly; Yara Allam; Rana Gaber
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11170444/"
 external_pdf: "https://public-pages-files-2025.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1391472/pdf"
 publication: PubMed

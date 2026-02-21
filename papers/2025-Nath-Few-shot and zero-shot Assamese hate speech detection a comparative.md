@@ -18,7 +18,7 @@ short_title: "Few-shot and zero-shot Assamese hate speech detection: a comparati
 year: 2025
 first_author: "[[Nath, Basab]]"
 last_author: "[[Chintalapati, Phaneendra Varma]]"
-authors: "[[Nath, Basab]]; [[Pandey, Krishna Kant]]; [[Yadav, Vinod]]; [[Chintalapati, Phaneendra Varma]]"
+authors: "Nath, Basab; Pandey, Krishna Kant; Yadav, Vinod; Chintalapati, Phaneendra Varma"
 authors_incomplete: false
 doi: 10.1007/s13278-025-01531-x
 url: "https://link.springer.com/article/10.1007/s13278-025-01531-x"

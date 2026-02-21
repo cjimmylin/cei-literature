@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for|C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for*: Affiliation: University of Technology, Email: eelwjin@scut.edu.cn
+- *From 2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for*: Affiliation: University of Technology, Email: eelwjin@scut.edu.cn
 - *From 2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for*: Affiliation: University of Technology, Email: jiahuanc@foxmail.com
 - *From 2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for*: Affiliation: University of Technology, Email: jiahuanc@foxmail.com
 - *From 2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for*: Affiliation: University of Technology, Email: jiahuanc@foxmail.com

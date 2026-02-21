@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: TrolleyBench
 year: 2025
 first_author: "[[A Zhu]]"
-last_author: "[[A]]"
-authors: "Zhu, A"
+last_author: "[[A Zhu]]"
+authors: A Zhu
 publication: "NeurIPS 2025"
 CONF-CC: "NeurIPS 2025"
 external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
@@ -52,7 +52,7 @@ CONFERENCE: "NeurIPS 2025"
 
 ## Authors
 
-[[Zhu]], [[A]]
+[[A Zhu]]
 
 ## Metadata
 

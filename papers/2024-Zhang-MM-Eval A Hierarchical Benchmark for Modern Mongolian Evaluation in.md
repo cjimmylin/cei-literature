@@ -16,7 +16,7 @@ short_title: "MM-Eval: A Hierarchical Benchmark for Modern Mongolian Evaluation 
 year: 2024
 first_author: "[[Zhang, Mengyuan]]"
 last_author: "[[Zhao, Xiaobing]]"
-authors: "[[Zhang, Mengyuan]]; [[Wang, Ruihui]]; [[Xia, Bo]]; [[Sun, Yuan]]; [[Zhao, Xiaobing]]"
+authors: "Zhang, Mengyuan; Wang, Ruihui; Xia, Bo; Sun, Yuan; Zhao, Xiaobing"
 authors_incomplete: false
 url: "https://arxiv.org/html/2411.09492v1"
 external_pdf: "https://arxiv.org/pdf/2411.09492.pdf"

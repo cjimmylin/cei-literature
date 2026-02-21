@@ -23,6 +23,8 @@ Nigini Oliveira is a Postdoc Researcher, Research Engineer and Lecturer at the U
 
 
 
+
+
 - [[2023-Oliveira-Culturally-Attuned Moral Machines|Culturally-Attuned Moral Machines]] (First Author)
 
 ## Notes
@@ -32,6 +34,10 @@ Nigini Oliveira is a Postdoc Researcher, Research Engineer and Lecturer at the U
 
 
 
+
+
+- *From 2023-Oliveira-Culturally-Attuned Moral Machines*: Affiliation: School of Computer Science and Engineering, University of Washington, Seattle, USA; bInstitute for Learnin
+- *From 2023-Oliveira-Culturally-Attuned Moral Machines*: Affiliation: School of Computer Science and Engineering, University of Washington, Seattle, USA; bInstitute for Learnin
 - *From 2023-Oliveira-Culturally-Attuned Moral Machines*: Affiliation: School of Computer Science and Engineering, University of Washington, Seattle, USA; bInstitute for Learnin
 - *From 2023-Oliveira-Culturally-Attuned Moral Machines*: Affiliation: School of Computer Science and Engineering, University of Washington, Seattle, USA; bInstitute for Learnin
 - *From 2023-Oliveira-Culturally-Attuned Moral Machines*: Affiliation: School of Computer Science and Engineering, University of Washington, Seattle, USA; bInstitute for Learnin

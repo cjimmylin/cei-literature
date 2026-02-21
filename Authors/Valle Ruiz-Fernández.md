@@ -24,6 +24,8 @@ Valle Ruiz-Fernández is a Junior Research Engineer at the Barcelona Supercomput
 
 
 
+
+
 - [[2025-Ruiz-Fernández-EsBBQ and CaBBQ|EsBBQ and CaBBQ]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ Valle Ruiz-Fernández is a Junior Research Engineer at the Barcelona Supercomput
 
 
 
+
+
+- *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
+- *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es

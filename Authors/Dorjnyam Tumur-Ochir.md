@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Tumur-Ochir-Evaluating Large Language Models in Mongolian|Evaluating Large Language Models in Mongolian]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Tumur-Ochir-Evaluating Large Language Models in Mongolian*: Affiliation: university entrance, Email: dorjnyam@nlp.ist.i.kyoto
+- *From 2025-Tumur-Ochir-Evaluating Large Language Models in Mongolian*: Affiliation: university entrance, Email: dorjnyam@nlp.ist.i.kyoto
 - *From 2025-Tumur-Ochir-Evaluating Large Language Models in Mongolian*: Affiliation: university entrance, Email: dorjnyam@nlp.ist.i.kyoto
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

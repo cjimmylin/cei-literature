@@ -35,6 +35,8 @@ Muhammad's research addresses a critical gap in hate speech detection: the need 
 
 
 
+
+
 - [[2024-Arshad-Understanding hate speech|Understanding hate speech]] (First Author)
 
 ## Notes
@@ -44,6 +46,10 @@ Muhammad's research addresses a critical gap in hate speech detection: the need 
 
 
 
+
+
+- *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and
+- *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and
 - *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and
 - *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and
 - *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and

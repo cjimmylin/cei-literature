@@ -25,6 +25,8 @@ Jwala Dhamala is an Applied Scientist at Amazon, working in the Alexa AI Natural
 
 
 
+
+
 - [[2021-Dhamala-BOLD|BOLD]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ Jwala Dhamala is an Applied Scientist at Amazon, working in the Alexa AI Natural
 
 
 
+
+
+- *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
+- *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 - *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 - *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 - *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.

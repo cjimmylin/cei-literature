@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages|IberoBench: A Benchmark for LLM Evaluation in Iberian Languages]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages*: Affiliation: Center (BSC-CNS)
+- *From 2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages*: Affiliation: Center (BSC-CNS)
 - *From 2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages*: Affiliation: Center (BSC-CNS)
 - *From 2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages*: Affiliation: Center (BSC-CNS)
 - *From 2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages*: Affiliation: Center (BSC-CNS)

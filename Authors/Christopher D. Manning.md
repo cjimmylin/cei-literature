@@ -52,6 +52,8 @@ Christopher David Manning is the inaugural Thomas M. Siebel Professor in Machine
 
 
 
+
+
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## External Links & Profiles
@@ -73,6 +75,10 @@ Christopher David Manning is the inaugural Thomas M. Siebel Professor in Machine
 
 
 
+
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: pliang@cs.stanford.edu
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: pliang@cs.stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: pliang@cs.stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu

@@ -18,7 +18,7 @@ short_title: "Nothing Comes Without Its World"
 year: 2024
 first_author: "[[Anne Arzberger]]"
 last_author: "[[Yang, Jie]]"
-authors: "[[Arzberger, Anne]]; [[Buijsman, Stefan]]; [[Lupetti, Maria Luce]]; [[Bozzon, Alessandro]]; [[Yang, Jie]]"
+authors: "Arzberger, Anne; Buijsman, Stefan; Lupetti, Maria Luce; Bozzon, Alessandro; Yang, Jie"
 doi: 10.1609/aies.v7i1.31617
 url: "https://ojs.aaai.org/index.php/AIES/article/view/31617"
 external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/31617/33784/35681"

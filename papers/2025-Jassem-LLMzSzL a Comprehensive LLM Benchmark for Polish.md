@@ -16,8 +16,8 @@ type: preprint
 short_title: "LLMzSzL: a Comprehensive LLM Benchmark for Polish"
 year: 2025
 first_author: "[[Krzysztof Jassem]]"
-last_author: "[[Ryszard Staruch Monika Jablonska]]"
-authors: "Krzysztof Jassem, Michal Ciesiolka, Filip Gralinski, Piotr Jablonski, Jakub Pokrywka, Marek Kubis, Monika Jablonska, Ryszard Staruch"
+last_author: "[[Ryszard Staruch]]"
+authors: Krzysztof Jassem; Michal Ciesiolka; Filip Gralinski; Piotr Jablonski; Jakub Pokrywka; Marek Kubis; Monika Jablonska; Ryszard Staruch
 url: "https://arxiv.org/abs/2501.02266"
 external_pdf: "https://arxiv.org/pdf/2501.02266.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Michal Ciesiolka Krzysztof Jassem]], [[Piotr Jablonski Filip Gralinski]], [[Marek Kubis Jakub Pokrywka]], [[Ryszard Staruch Monika Jablonska]]
+[[Krzysztof Jassem]], [[Michal Ciesiolka]], [[Filip Gralinski]], [[Piotr Jablonski]], [[Jakub Pokrywka]], [[Marek Kubis]], [[Monika Jablonska]], [[Ryszard Staruch]]
 
 ## Metadata
 

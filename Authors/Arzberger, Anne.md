@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Arzberger-Nothing Comes Without Its World|Nothing Comes Without Its World]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Arzberger-Nothing Comes Without Its World*: Affiliation: University of Technology, Email: s.n.r.buijsman@tudelft.nl
+- *From 2024-Arzberger-Nothing Comes Without Its World*: Affiliation: University of Technology, Email: s.n.r.buijsman@tudelft.nl
 - *From 2024-Arzberger-Nothing Comes Without Its World*: Affiliation: University of Technology, Email: a.bozzon@tudelft.nl
 - *From 2024-Arzberger-Nothing Comes Without Its World*: Affiliation: University of Technology, Email: a.bozzon@tudelft.nl
 - *From 2024-Arzberger-Nothing Comes Without Its World*: Affiliation: University of Technology, Email: a.bozzon@tudelft.nl

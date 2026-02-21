@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-team-Albertina Advancing Neural Encoding of Portuguese|Albertina: Advancing Neural Encoding of Portuguese]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-team-Albertina Advancing Neural Encoding of Portuguese*: Affiliation: University of Lisbon
+- *From 2023-team-Albertina Advancing Neural Encoding of Portuguese*: Affiliation: University of Lisbon
 - *From 2023-team-Albertina Advancing Neural Encoding of Portuguese*: Affiliation: University of Lisbon
 - *From 2023-team-Albertina Advancing Neural Encoding of Portuguese*: Affiliation: University of Lisbon
 - *From 2023-team-Albertina Advancing Neural Encoding of Portuguese*: Affiliation: University of Lisbon

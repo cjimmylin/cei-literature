@@ -15,8 +15,8 @@ type: preprint
 short_title: "AlephBERT: A Hebrew Large Pre-Trained Language Model to Start-off your Hebrew NLP Application With"
 year: 2022
 first_author: "[[Amit Seker]]"
-last_author: "[[Reut Tsarfaty Refael Shaked Greenfeld]]"
-authors: "Amit Seker, Elron Bandel, Dan Bareket, Idan Brusilovsky, Refael Shaked Greenfeld, Reut Tsarfaty"
+last_author: "[[Reut Tsarfaty]]"
+authors: Amit Seker; Elron Bandel; Dan Bareket; Idan Brusilovsky; Refael Shaked Greenfeld; Reut Tsarfaty
 url: "https://arxiv.org/abs/2104.04052"
 external_pdf: "https://arxiv.org/pdf/2104.04052.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.md"
@@ -51,7 +51,7 @@ CONFERENCE: "ACL 2022"
 
 ## Authors
 
-[[Elron Bandel Amit Seker]], [[Idan Brusilovsky Dan Bareket]], [[Reut Tsarfaty Refael Shaked Greenfeld]]
+[[Amit Seker]], [[Elron Bandel]], [[Dan Bareket]], [[Idan Brusilovsky]], [[Refael Shaked Greenfeld]], [[Reut Tsarfaty]]
 
 ## Metadata
 

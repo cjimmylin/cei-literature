@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models|DUMB: A Benchmark for Smart Evaluation of Dutch Models]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models*: Affiliation: University of Groningen, Email: m.nissim@rug.nl
+- *From 2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models*: Affiliation: University of Groningen, Email: m.nissim@rug.nl
 - *From 2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models*: Affiliation: University of Groningen, Email: m.nissim@rug.nl
 - *From 2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models*: Affiliation: University of Groningen, Email: wietse.de.vries@rug.nl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

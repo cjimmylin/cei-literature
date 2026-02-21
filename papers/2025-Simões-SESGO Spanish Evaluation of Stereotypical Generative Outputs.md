@@ -15,9 +15,9 @@ key: LSRC0273
 type: preprint
 short_title: "SESGO: Spanish Evaluation of Stereotypical Generative Outputs"
 year: 2025
-first_author: "[[Simões, Guilherme]]"
-last_author: "[[Guilherme Simões]]"
-authors: "[[Simões, Guilherme]]"
+first_author: "[[Simões]]"
+last_author: "[[Guilherme]]"
+authors: Simões; Guilherme
 authors_incomplete: true
 url: "https://arxiv.org/abs/2509.03329"
 external_pdf: "https://arxiv.org/pdf/2509.03329.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "AAAI 2025"
 
 ## Authors
 
-[[Guilherme Simões]]
+[[Simões]], [[Guilherme]]
 
 ## Metadata
 

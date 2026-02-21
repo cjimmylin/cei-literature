@@ -15,8 +15,8 @@ type: preprint
 short_title: "DialectBench: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages"
 year: 2024
 first_author: "[[Fahim Faisal]]"
-last_author: "[[Yulia Tsvetkov David Chiang]]"
-authors: "Fahim Faisal, Orevaoghene Ahia, Aarohi Srivastava, Kabir Ahuja, David Chiang, Yulia Tsvetkov"
+last_author: "[[Yulia Tsvetkov]]"
+authors: Fahim Faisal; Orevaoghene Ahia; Aarohi Srivastava; Kabir Ahuja; David Chiang; Yulia Tsvetkov
 url: "https://arxiv.org/html/2403.11009v1"
 external_pdf: "https://arxiv.org/pdf/2403.11009.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Orevaoghene Ahia Fahim Faisal]], [[Kabir Ahuja Aarohi Srivastava]], [[Yulia Tsvetkov David Chiang]]
+[[Fahim Faisal]], [[Orevaoghene Ahia]], [[Aarohi Srivastava]], [[Kabir Ahuja]], [[David Chiang]], [[Yulia Tsvetkov]]
 
 ## Metadata
 

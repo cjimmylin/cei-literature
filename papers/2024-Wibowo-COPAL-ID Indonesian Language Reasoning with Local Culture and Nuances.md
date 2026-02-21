@@ -16,7 +16,7 @@ short_title: "COPAL-ID: Indonesian Language Reasoning with Local Culture and Nua
 year: 2024
 first_author: "[[Wibowo, Haryo Akbarianto]]"
 last_author: "[[Aji, Alham Fikri]]"
-authors: "[[Wibowo, Haryo Akbarianto]]; [[Fuadi, Erland Hilman]]; [[Nityasya, Made Nindyatama]]; [[Prasojo, Radityo Eko]]; [[Aji, Alham Fikri]]"
+authors: "Wibowo, Haryo Akbarianto; Fuadi, Erland Hilman; Nityasya, Made Nindyatama; Prasojo, Radityo Eko; Aji, Alham Fikri"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2311.01012"
 external_pdf: "https://arxiv.org/pdf/2311.01012.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "NAACL 2024"
 
 ## Authors
 
-[[Wibowo, Haryo Akbarianto]], [[Fuadi, Erland Hilman]], [[Nityasya, Made Nindyatama]], [[Prasojo, Radityo Eko]], [[Alham Fikri Aji|Aji, Alham Fikri]]
+[[Wibowo, Haryo Akbarianto]], [[Fuadi, Erland Hilman]], [[Nityasya, Made Nindyatama]], [[Prasojo, Radityo Eko]], [[Aji, Alham Fikri]]
 
 ## Metadata
 

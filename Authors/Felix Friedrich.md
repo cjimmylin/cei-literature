@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic|M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies]] (First Author)
 
@@ -90,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic*: Affiliation: University of Rome, Email: friedrich@cs.tu
+- *From 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic*: Affiliation: University of Rome, Email: friedrich@cs.tu
 - *From 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic*: Affiliation: University of Rome, Email: friedrich@cs.tu
 - *From 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic*: Affiliation: University of Rome, Email: friedrich@cs.tu
 - *From 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic*: Affiliation: University of Rome, Email: friedrich@cs.tu

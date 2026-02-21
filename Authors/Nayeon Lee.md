@@ -22,10 +22,14 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and|Social Bias Benchmark for Generation: A Comparison of Generation and QA-Based Evaluations]]
 - [[2024-Bang-BLEnD A Benchmark for LLMs on|BLEnD A Benchmark for LLMs on]]
+- [[2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said|Measuring Political Bias in LLMs: What Is Said and How It Is Said]]
+- [[2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering|KoBBQ: Korean Bias Benchmark for Question Answering]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary]]
-- [[2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large|KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application]] (Last Author)
 
 ## Notes
 
@@ -34,6 +38,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
+- *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University

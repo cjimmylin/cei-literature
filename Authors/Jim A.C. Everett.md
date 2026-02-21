@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Myers-People Expect Artificial Moral Advisors|People Expect AI Moral Advisors More Utilitarian]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Myers-People Expect Artificial Moral Advisors*: Affiliation: University of Kent's Academic Repository KAR, Email: ResearchSupport@kent.ac.uk.
+- *From 2024-Myers-People Expect Artificial Moral Advisors*: Affiliation: University of Kent's Academic Repository KAR, Email: ResearchSupport@kent.ac.uk.
 - *From 2024-Myers-People Expect Artificial Moral Advisors*: Affiliation: University of Kent's Academic Repository KAR, Email: ResearchSupport@kent.ac.uk.
 - *From 2024-Myers-People Expect Artificial Moral Advisors*: Affiliation: University of Kent's Academic Repository KAR, Email: ResearchSupport@kent.ac.uk.
 - *From 2024-Myers-People Expect Artificial Moral Advisors*: Affiliation: University of Kent's Academic Repository KAR, Email: ResearchSupport@kent.ac.uk.

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]]
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
@@ -35,6 +37,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs

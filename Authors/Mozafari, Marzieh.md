@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of|Offensive Language Detection in Low Resource Languages: A Use Case of Persian Language]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of*:, Email: khouloud.mnassri@telecom-sudparis.eu
+- *From 2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of*:, Email: khouloud.mnassri@telecom-sudparis.eu
 - *From 2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of*:, Email: khouloud.mnassri@telecom-sudparis.eu
 - *From 2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of*:, Email: marzi.mozafari@gmail.com
 - *From 2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of*:, Email: khouloud.mnassri@telecom-sudparis.eu

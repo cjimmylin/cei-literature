@@ -24,6 +24,8 @@ PhD affiliated with University of Illinois Chicago, Department of Information an
 
 
 
+
+
 - [[2023-Karra-Estimating the Personality of White-Box Language|Estimating the Personality of White-Box Language]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ PhD affiliated with University of Illinois Chicago, Department of Information an
 
 
 
+
+
+- *From 2023-Karra-Estimating the Personality of White-Box Language*: Affiliation: labandhulaa, Email: theja@uic.edu
+- *From 2023-Karra-Estimating the Personality of White-Box Language*: Affiliation: labandhulaa, Email: theja@uic.edu
 - *From 2023-Karra-Estimating the Personality of White-Box Language*: Affiliation: labandhulaa, Email: snguye65@uic.edu
 - *From 2023-Karra-Estimating the Personality of White-Box Language*: Affiliation: labandhulaa, Email: snguye65@uic.edu
 - *From 2023-Karra-Estimating the Personality of White-Box Language*: Affiliation: labandhulaa, Email: skarra7@uic.edu

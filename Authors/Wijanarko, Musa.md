@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity|A Multi-Labeled Dataset for Indonesian Discourse: Examining Toxicity, Polarization, and Demographics Information]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity*: Affiliation: Labeled Dataset for Indonesian Discourse Examining Toxicity - PDF Extract"
+- *From 2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity*: Affiliation: Labeled Dataset for Indonesian Discourse Examining Toxicity - PDF Extract"
 - *From 2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity*: Affiliation: Labeled Dataset for Indonesian Discourse Examining Toxicity - PDF Extract"
 - *From 2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity*: Affiliation: Labeled Dataset for Indonesian Discourse Examining Toxicity - PDF Extract"
 - *From 2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity*: Affiliation: Labeled Dataset for Indonesian Discourse Examining Toxicity - PDF Extract"

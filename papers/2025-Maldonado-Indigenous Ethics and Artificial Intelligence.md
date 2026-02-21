@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: Indigenous Ethics and Artificial Intelligence
 year: 2025
 first_author: "[[Milton Maldonado]]"
-last_author: "[[Daniela Cordova-Pintado Milton Maldonado]]"
-authors: Milton Maldonado, Daniela Cordova-Pintado
+last_author: "[[Daniela Cordova-Pintado]]"
+authors: Milton Maldonado; Daniela Cordova-Pintado
 doi: 10.1007/s43681-025-00879-2
 url: "https://link.springer.com/article/10.1007/s43681-025-00879-2"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00879-2.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Daniela Cordova-Pintado Milton Maldonado]]
+[[Milton Maldonado]], [[Daniela Cordova-Pintado]]
 
 ## Metadata
 

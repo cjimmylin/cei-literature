@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Ramponi-Addressing Religious Hate Online From Taxonomy|Addressing Religious Hate Online From Taxonomy]]
 - [[2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection|Cross-Platform Evaluation for Italian Hate Speech Detection]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection*: Affiliation: research centers, Email: michele.corazza@inria.fr
+- *From 2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection*: Affiliation: research centers, Email: michele.corazza@inria.fr
 - *From 2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection*: Affiliation: research centers, Email: michele.corazza@inria.fr
 - *From 2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection*: Affiliation: research centers, Email: michele.corazza@inria.fr
 - *From 2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection*: Affiliation: research centers, Email: michele.corazza@inria.fr

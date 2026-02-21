@@ -20,7 +20,7 @@ type: preprint
 short_title: "hatebnBERT An Innovative Novel Transformer Model"
 year: 2024
 first_author: "[[Islam, Mohammad Shariful]]"
-last_author: "[[Rahman, Md Saifur]]"
+last_author: "[[Md Saifur Rahman]]"
 authors: Mohammad Shariful Islam; Mohammad Abu Tareq Rony; Mejbah Ahammad; Shah Md Nazmul Alam; Md Saifur Rahman
 authors_incomplete: false
 url: 

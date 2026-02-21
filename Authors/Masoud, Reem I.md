@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic|AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic*: Affiliation: Center of Research Excellence in AI and Data Science, 2 King Abdulaziz University
+- *From 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic*: Affiliation: Center of Research Excellence in AI and Data Science, 2 King Abdulaziz University
 - *From 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic*: Affiliation: Center of Research Excellence in AI and Data Science, 2 King Abdulaziz University
 - *From 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic*: Affiliation: Center of Research Excellence in AI and Data Science, 2 King Abdulaziz University
 - *From 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic*: Affiliation: Center of Research Excellence in AI and Data Science, 2 King Abdulaziz University

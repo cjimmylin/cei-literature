@@ -18,9 +18,9 @@ key: EXSR0309
 type: preprint
 short_title: "Quran-MD A Fine-Grained Multilingual Multimodal Dataset"
 year: 2026
-first_author: "[[Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam]]"
+first_author: "[[Muhammad Umar Salman]]"
 last_author: "[[Mohammed Talha Alam]]"
-authors: "[[Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam]]"
+authors: Muhammad Umar Salman; Mohammad Areeb Qazi; Mohammed Talha Alam
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.17880"
 external_pdf: "https://arxiv.org/pdf/2601.17880.pdf"

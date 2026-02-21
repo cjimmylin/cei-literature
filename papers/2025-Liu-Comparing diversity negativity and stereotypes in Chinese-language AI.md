@@ -17,7 +17,7 @@ short_title: "Comparing diversity, negativity, and stereotypes in Chinese-langua
 year: 2025
 first_author: "[[Liu, Geng]]"
 last_author: "[[Pierri, Francesco]]"
-authors: "[[Liu, Geng]]; [[Bono, Carlo Alberto]]; [[Pierri, Francesco]]"
+authors: "Liu, Geng; Bono, Carlo Alberto; Pierri, Francesco"
 authors_incomplete: false
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11935762/"
 external_pdf: "https://arxiv.org/pdf/2408.15696v4.pdf"

@@ -15,8 +15,8 @@ type: conferencePaper
 short_title: "Detecting Racial Stereotypes: An Italian Social Media Corpus where Psychology Meets NLP"
 year: 2023
 first_author: "[[Cristina Bosco]]"
-last_author: "[[Francesca D'Errico Marina Paciello]]"
-authors: "Cristina Bosco, Viviana Patti, Simona Frenda, Alessandra T. Cignarella, Marina Paciello, Francesca D'Errico"
+last_author: "[[Francesca D'Errico]]"
+authors: "Cristina Bosco; Viviana Patti; Simona Frenda; Alessandra T. Cignarella; Marina Paciello; Francesca D'Errico"
 doi: 10.1016/j.ipm.2022.103118
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457322002199"
 external_pdf: "https://hdl.handle.net/11586/413290"
@@ -57,7 +57,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Viviana Patti Cristina Bosco]], [[Alessandra T. Cignarella Simona Frenda]], [[Francesca D'Errico Marina Paciello]]
+[[Cristina Bosco]], [[Viviana Patti]], [[Simona Frenda]], [[Alessandra T. Cignarella]], [[Marina Paciello]], [[Francesca D'Errico]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced|MMLU-ProX A Multilingual Benchmark for Advanced]]
 - [[2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language|Multilingual Blending: LLM Safety Alignment Evaluation with Language Mixture]] (Last Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: zhehua1@ualberta.ca
+- *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: zhehua1@ualberta.ca
 - *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: jiayan13@ualberta.ca
 - *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: zhehua1@ualberta.ca
 - *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: yuhenghuang42@g.ecc.u

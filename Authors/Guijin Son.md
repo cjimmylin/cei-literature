@@ -58,6 +58,10 @@ twitter: ""
 
 
 
+
+
+- [[2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite|From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation]] (First Author)
+- [[2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean|HRET: A Self-Evolving LLM Evaluation Toolkit for Korean]] (First Author)
 - [[2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models|HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models]] (First Author)
 - [[2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean|KMMLU: Measuring Massive Multitask Language Understanding in Korean]] (First Author)
 - [[2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do|LLM-as-a-Judge & Reward Model: What They Can and Cannot Do]] (First Author)
@@ -89,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models*:, Email: spthsrbwls123@yonsei.ac.kr
+- *From 2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models*:, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models*:, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models*:, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models*:, Email: spthsrbwls123@yonsei.ac.kr

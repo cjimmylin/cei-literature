@@ -16,7 +16,7 @@ short_title: "Cultural Palette: Pluralising Culture Alignment via Multi-agent Pa
 year: 2024
 first_author: "[[Jiahao Yuan]]"
 last_author: "[[Usman Naseem]]"
-authors: Jiahao Yuan, Zixiang Di, Shangzixin Zhao, Zhiqing Cui, Hanqing Wang, Guisong Yang, Usman Naseem
+authors: Jiahao Yuan; Zixiang Di; Shangzixin Zhao; Zhiqing Cui; Hanqing Wang; Guisong Yang; Usman Naseem
 url: "https://arxiv.org/abs/2412.11167"
 external_pdf: "https://arxiv.org/pdf/2412.11167.pdf"
 publication: arXiv

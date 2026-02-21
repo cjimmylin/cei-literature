@@ -15,8 +15,8 @@ type: conferencePaper
 short_title: "Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?"
 year: 2024
 first_author: "[[Y Jinnai]]"
-last_author: "[[Y]]"
-authors: "Jinnai, Y"
+last_author: "[[Y Jinnai]]"
+authors: Y Jinnai
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 external_pdf: "https://arxiv.org/pdf/2406.16316v1.pdf"
@@ -50,7 +50,7 @@ CONFERENCE: "ACL 2024"
 
 ## Authors
 
-[[Jinnai]], [[Y]]
+[[Y Jinnai]]
 
 ## Metadata
 

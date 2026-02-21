@@ -17,7 +17,7 @@ short_title: "We Politely Insist: Your LLM Must Learn the Persian Art of Taarof 
 year: 2025
 first_author: "[[Nikta Gohari Sadr]]"
 last_author: "[[Ali Emami]]"
-authors: "Nikta Gohari Sadr, Sahar Heidariasl, Karine Megerdoomian, Laleh Seyyed-Kalantari, Ali Emami"
+authors: Nikta Gohari Sadr; Sahar Heidariasl; Karine Megerdoomian; Laleh Seyyed-Kalantari; Ali Emami
 url: "https://arxiv.org/abs/2509.01035"
 external_pdf: "https://arxiv.org/pdf/2509.01035.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.md"

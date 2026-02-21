@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi|On Limitations of LLM as Annotator for Low Resource Languages (Marathi case study)]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi*: Affiliation: Institute of Computer Technology, Pune
+- *From 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi*: Affiliation: Institute of Computer Technology, Pune
 - *From 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi*: Affiliation: Institute of Computer Technology, Pune
 - *From 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi*: Affiliation: Institute of Computer Technology, Pune
 - *From 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi*: Affiliation: Institute of Computer Technology, Pune

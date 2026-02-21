@@ -15,7 +15,7 @@ short_title: "AI and Society Virtue Ethics Approach"
 year: 2024
 first_author: "[[Mirko Farina]]"
 last_author: "[[Lavazza, Andrea]]"
-authors: "[[Farina, Mirko]]; [[Zhdanov, Petr]]; [[Karimov, Artur]]; [[Lavazza, Andrea]]"
+authors: "Farina, Mirko; Zhdanov, Petr; Karimov, Artur; Lavazza, Andrea"
 doi: 10.1007/s00146-022-01545-5
 url: "https://link.springer.com/article/10.1007/s00146-022-01545-5"
 pdf_extract: "PDF Extracts/2024/2024-Farina-AI and Society Virtue Ethics Approach.md"

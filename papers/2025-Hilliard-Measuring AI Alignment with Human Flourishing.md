@@ -16,7 +16,7 @@ short_title: "Measuring AI Alignment with Human Flourishing"
 year: 2025
 first_author: "[[Elizabeth Hilliard]]"
 last_author: "[[Chavez, Omar]]"
-authors: "[[Hilliard, Elizabeth]]; [[Jagadeesh, Akshaya]]; [[Cook, Alex]]; [[Billings, Steele]]; [[Skytland, Nicholas]]; [[Llewellyn, Alicia]]; [[Paull, Jackson]]; [[Paull, Nathan]]; [[Kurylo, Nolan]]; [[Nesbitt, Keatra]]; [[Gruenewald, Robert]]; [[Jantzi, Anthony]]; [[Chavez, Omar]]"
+authors: "Hilliard, Elizabeth; Jagadeesh, Akshaya; Cook, Alex; Billings, Steele; Skytland, Nicholas; Llewellyn, Alicia; Paull, Jackson; Paull, Nathan; Kurylo, Nolan; Nesbitt, Keatra; Gruenewald, Robert; Jantzi, Anthony; Chavez, Omar"
 doi: 10.48550/arXiv.2507.07787
 url: "https://arxiv.org/abs/2507.07787"
 pdf_extract: "PDF Extracts/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.md"

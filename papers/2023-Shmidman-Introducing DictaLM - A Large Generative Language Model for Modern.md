@@ -17,8 +17,8 @@ type: preprint
 short_title: "Introducing DictaLM -- A Large Generative Language Model for Modern Hebrew"
 year: 2023
 first_author: "[[Shaltiel Shmidman]]"
-last_author: "[[Moshe Koppel Amir DN Cohen]]"
-authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
+last_author: "[[Moshe Koppel]]"
+authors: Shaltiel Shmidman; Avi Shmidman; Amir DN Cohen; Moshe Koppel
 url: "https://arxiv.org/abs/2309.14568"
 external_pdf: "https://arxiv.org/pdf/2309.14568.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Avi Shmidman Shaltiel Shmidman]], [[Moshe Koppel Amir DN Cohen]]
+[[Shaltiel Shmidman]], [[Avi Shmidman]], [[Amir DN Cohen]], [[Moshe Koppel]]
 
 ## Metadata
 

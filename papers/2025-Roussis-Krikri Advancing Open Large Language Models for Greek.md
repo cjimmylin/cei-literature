@@ -15,7 +15,7 @@ short_title: "Krikri: Advancing Open Large Language Models for Greek"
 year: 2025
 first_author: "[[Dimitris Roussis]]"
 last_author: "[[Vassilis Katsouros]]"
-authors: "Dimitris Roussis, Leon Voukoutis, Georgios Paraskevopoulos, Sokratis Sofianopoulos, Prokopis Prokopidis, Vassilis Papavasileiou, Athanasios Katsamanis, Stelios Piperidis, Vassilis Katsouros"
+authors: Dimitris Roussis; Leon Voukoutis; Georgios Paraskevopoulos; Sokratis Sofianopoulos; Prokopis Prokopidis; Vassilis Papavasileiou; Athanasios Katsamanis; Stelios Piperidis; Vassilis Katsouros
 url: "https://arxiv.org/abs/2505.13772"
 external_pdf: "https://arxiv.org/pdf/2505.13772.pdf"
 publication: arXiv

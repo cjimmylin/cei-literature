@@ -19,9 +19,9 @@ key: EXSR0512
 type: preprint
 short_title: "Multi-IsnadSet MIS for Sahih Muslim Hadith"
 year: 2024
-first_author: "[[Aziz Mehmood Farooqi, Rauf Ahmed Shams Malick, Muhammad Shahzad Shaikh, Adnan Akhunzada]]"
-last_author: "[[Adnan Akhunzada Muhammad Shahzad Shaikh]]"
-authors: "[[Aziz Mehmood Farooqi, Rauf Ahmed Shams Malick, Muhammad Shahzad Shaikh, Adnan Akhunzada]]"
+first_author: "[[Aziz Mehmood Farooqi]]"
+last_author: "[[Adnan Akhunzada]]"
+authors: Aziz Mehmood Farooqi; Rauf Ahmed Shams Malick; Muhammad Shahzad Shaikh; Adnan Akhunzada
 authors_incomplete: false
 doi: 10.1016/j.dib.2024.110439
 url: "https://doi.org/10.1016/j.dib.2024.110439"
@@ -63,7 +63,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Rauf Ahmed Shams Malick Aziz Mehmood Farooqi]], [[Adnan Akhunzada Muhammad Shahzad Shaikh]]
+[[Aziz Mehmood Farooqi]], [[Rauf Ahmed Shams Malick]], [[Muhammad Shahzad Shaikh]], [[Adnan Akhunzada]]
 
 ## Metadata
 

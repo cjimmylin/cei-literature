@@ -73,7 +73,7 @@ Previous works on Large Language Models (LLMs) have mainly focused on evaluating
 
 ## Authors
 
-[[Steffi Chern]], [[Zhiyuan Hu|Zhulin Hu]], [[Yuqing Yang]], [[Ethan Chern]], [[Yuan Guo]], [[Jing Jin|Jiahe Jin]], [[Binjie Wang]], [[Pengyuan Liu|Pengfei Liu]]
+[[Steffi Chern]], [[Zhulin Hu]], [[Yuqing Yang]], [[Ethan Chern]], [[Yuan Guo]], [[Jiahe Jin]], [[Binjie Wang]], [[Pengfei Liu]]
 
 ## Data Description
 

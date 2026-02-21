@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Basem-Optimized Quran Passage Retrieval Using an|Optimized Quran Passage Retrieval Using an]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
+- *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
 - *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
 - *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
 - *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt

@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese|TaiwanVQA: A Benchmark for Visual Question Answering for Taiwanese Daily Life]]
 
 ## External Links & Profiles
@@ -84,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese*: Affiliation: Center for High-performance Computing, Taiwan, Email: 3johnnylin@g.ncu.edu.tw
+- *From 2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese*: Affiliation: Center for High-performance Computing, Taiwan, Email: 3johnnylin@g.ncu.edu.tw
 - *From 2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese*: Affiliation: Center for High-performance Computing, Taiwan, Email: 5hhhuang@iis.sinica.edu.tw
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

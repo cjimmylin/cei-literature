@@ -32,6 +32,8 @@ The research was conducted in collaboration with Ruining Zhao, Jae Doo, Chenkai 
 
 
 
+
+
 - [[2024-Liu-CultureAtlas|CultureAtlas]] (First Author)
 - [[2024-Yao-Self-Alignment Improving Alignment of Cultural Values in LLMs via|Self-Alignment: Improving Alignment of Cultural Values in LLMs via In-Context Learning]]
 
@@ -42,6 +44,10 @@ The research was conducted in collaboration with Ruining Zhao, Jae Doo, Chenkai 
 
 
 
+
+
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign

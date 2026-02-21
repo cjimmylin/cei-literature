@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic|SwitchLingua : The First Large-Scale Multilingual and Multi-Ethnic Code-Switching Dataset]]
 - [[2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis|Multilingual and Multi-Aspect Hate Speech Analysis]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis*: Affiliation: Department of Computer Science and Engineering, Email: hzhangal@cse.ust.hk
+- *From 2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis*: Affiliation: Department of Computer Science and Engineering, Email: hzhangal@cse.ust.hk
 - *From 2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis*: Affiliation: Department of Computer Science and Engineering, Email: hzhangal@cse.ust.hk
 - *From 2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis*: Affiliation: Department of Computer Science and Engineering, Email: zlinai@connect.ust.hk
 - *From 2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis*: Affiliation: Department of Computer Science and Engineering, Email: nousidhoum@cse.ust.hk

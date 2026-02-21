@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in|XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs]]
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in*: Affiliation: Department of Computer Science, National Centre for Text Mining
+- *From 2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in*: Affiliation: Department of Computer Science, National Centre for Text Mining
 - *From 2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in*: Affiliation: Department of Computer Science, National Centre for Text Mining
 - *From 2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in*: Affiliation: Department of Computer Science, National Centre for Text Mining
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

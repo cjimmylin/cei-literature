@@ -25,6 +25,8 @@ Lijun Li's research interests lie at the nexus of AI safety and visual understan
 
 
 
+
+
 - [[2025-Li-T2ISafety|T2ISafety]] (First Author)
 - [[2024-Li-Benchmarking Ethics in Text-to-Image Models|Benchmarking Ethics in Text-to-Image Models]] (First Author)
 - [[2024-Li-SALAD-Bench|SALAD-Bench]] (First Author)
@@ -36,6 +38,10 @@ Lijun Li's research interests lie at the nexus of AI safety and visual understan
 
 
 
+
+
+- *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
+- *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology

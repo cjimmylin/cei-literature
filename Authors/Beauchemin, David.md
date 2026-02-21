@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding|COLE: a Comprehensive Benchmark for French Language Understanding Evaluation]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding*: Affiliation: University (GRAIL), Email: yan.tremblay.6@ulaval.ca
+- *From 2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding*: Affiliation: University (GRAIL), Email: yan.tremblay.6@ulaval.ca
 - *From 2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding*: Affiliation: University (GRAIL), Email: richard.khoury@ift.ulaval.ca
 - *From 2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding*: Affiliation: University (GRAIL), Email: yan.tremblay.6@ulaval.ca
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

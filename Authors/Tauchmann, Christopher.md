@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Schramowski-I2P Inappropriate Image Prompts Test Bed|I2P: Inappropriate Image Prompts Test Bed]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Schramowski-I2P Inappropriate Image Prompts Test Bed*: Affiliation: University Darmstadt, Hessian Center for AI, Germany
+- *From 2022-Schramowski-I2P Inappropriate Image Prompts Test Bed*: Affiliation: University Darmstadt, Hessian Center for AI, Germany
 - *From 2022-Schramowski-I2P Inappropriate Image Prompts Test Bed*: Affiliation: University Darmstadt, Hessian Center for AI, Germany
 - *From 2022-Schramowski-I2P Inappropriate Image Prompts Test Bed*: Affiliation: University Darmstadt, Hessian Center for AI, Germany
 - *From 2022-Schramowski-I2P Inappropriate Image Prompts Test Bed*: Affiliation: University Darmstadt, Hessian Center for AI, Germany

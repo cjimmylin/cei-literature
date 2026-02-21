@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba

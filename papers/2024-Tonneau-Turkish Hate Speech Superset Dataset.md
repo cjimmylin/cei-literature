@@ -15,9 +15,9 @@ key: EXSR0536
 type: preprint
 short_title: "Turkish Hate Speech Superset Dataset"
 year: 2024
-first_author: "[[Tonneau, Manuel]]"
-last_author: "[[Manuel Tonneau]]"
-authors: "[[Tonneau, Manuel]]"
+first_author: "[[Tonneau]]"
+last_author: "[[Manuel]]"
+authors: Tonneau; Manuel
 authors_incomplete: true
 url: "https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset"
 external_pdf: 
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Manuel Tonneau]]
+[[Tonneau]], [[Manuel]]
 
 ## Metadata
 

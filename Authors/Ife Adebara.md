@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Abdul-Mageed-Where Are We Evaluating LLM Performance|Where Are We Evaluating LLM Performance]] (First Author)
+- [[2023-Inciarte-SERENGETI Massively Multilingual Language Models for|SERENGETI Massively Multilingual Language Models for]] (First Author)
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Inciarte-SERENGETI Massively Multilingual Language Models for*: Affiliation: University of British Columbia
+- *From 2023-Inciarte-SERENGETI Massively Multilingual Language Models for*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia

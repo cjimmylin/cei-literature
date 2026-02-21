@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for|NewsCom-TOX: A Corpus of Comments on News Articles Annotated for Toxicity in Spanish]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for*: Affiliation: lable for research purposes, Email: vbargiela@ub.edu
+- *From 2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for*: Affiliation: lable for research purposes, Email: vbargiela@ub.edu
 - *From 2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for*: Affiliation: lable for research purposes, Email: mtaule@ub.edu
 - *From 2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for*: Affiliation: lable for research purposes, Email: mtaule@ub.edu
 - *From 2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for*: Affiliation: lable for research purposes, Email: xavierbonetcasals@ub.edu

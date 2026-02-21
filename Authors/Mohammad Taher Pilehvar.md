@@ -59,8 +59,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian|PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian]] (Last Author)
-- [[2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate|Spanning the Spectrum of Hatred Detection: A Persian Multi-Label Hate Speech Dataset with Annotator Rationales (Phate)]] (Last Author)
 
 ## External Links & Profiles
 
@@ -90,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian*: Affiliation: University of Tehran, Iran, Email: moosavi_m@comp.iust.ac.ir
+- *From 2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian*: Affiliation: University of Tehran, Iran, Email: moosavi_m@comp.iust.ac.ir
 - *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: n.s.moosavi@sheffield.ac.uk
 - *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: z.delbari@khatam.ac.ir
 - *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: pilehvarmt@cardiff.ac.uk

@@ -16,7 +16,7 @@ short_title: The performances of the Chinese and U.S. Large Language Models on t
 year: 2026
 first_author: "[[Feiyan Liu]]"
 last_author: "[[Bao Ge]]"
-authors: Feiyan Liu, Siyan Zhao, Chenxun Zhuo, Tianming Liu, Bao Ge
+authors: Feiyan Liu; Siyan Zhao; Chenxun Zhuo; Tianming Liu; Bao Ge
 url: "https://arxiv.org/abs/2601.02830"
 external_pdf: "https://arxiv.org/pdf/2601.02830.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Fenglin Liu|Feiyan Liu]], [[Siyan Zhao]], [[Chenxun Zhuo]], [[Tianming Liu]], [[Bao Ge]]
+[[Feiyan Liu]], [[Siyan Zhao]], [[Chenxun Zhuo]], [[Tianming Liu]], [[Bao Ge]]
 
 ## Metadata
 

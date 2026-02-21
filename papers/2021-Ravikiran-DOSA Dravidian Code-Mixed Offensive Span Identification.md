@@ -17,7 +17,7 @@ short_title: "DOSA Dravidian Code-Mixed Offensive Span Identification"
 year: 2021
 first_author: "[[Ravikiran, Manikandan]]"
 last_author: "[[Annamalai]]"
-authors: "[[Ravikiran, Manikandan]]; [[Annamalai]]"
+authors: "Ravikiran, Manikandan; Annamalai"
 authors_incomplete: false
 url: "https://aclanthology.org/2021.dravidianlangtech-1.2/"
 external_pdf: "https://aclanthology.org/2021.dravidianlangtech-1.2.pdf"

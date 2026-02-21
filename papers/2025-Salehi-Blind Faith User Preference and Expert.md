@@ -18,9 +18,9 @@ key: EXSR0338
 type: conference_paper
 short_title: "Blind Faith User Preference and Expert"
 year: 2025
-first_author: "[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]"
+first_author: "[[Sabriya Alam]]"
 last_author: "[[Niloufar Salehi]]"
-authors: "[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]"
+authors: Sabriya Alam; Marwa Abdulhai; Niloufar Salehi
 authors_incomplete: false
 url: 
 external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3715275.3732162"

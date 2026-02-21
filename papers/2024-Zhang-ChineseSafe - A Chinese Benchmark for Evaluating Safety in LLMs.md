@@ -16,7 +16,7 @@ short_title: "ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs"
 year: 2024
 first_author: "[[Zhang, Hengxiang]]"
 last_author: "[[Yang, Lei]]"
-authors: "[[Zhang, Hengxiang]]; [[Gao, Hongfu]]; [[Hu, Qiang]]; [[Chen, Guanhua]]; [[Yang, Lili]]; [[Jing, Bingyi]]; [[Wei, Hongxin]]; [[Wang, Bing]]; [[Bai, Haifeng]]; [[Yang, Lei]]"
+authors: "Zhang, Hengxiang; Gao, Hongfu; Hu, Qiang; Chen, Guanhua; Yang, Lili; Jing, Bingyi; Wei, Hongxin; Wang, Bing; Bai, Haifeng; Yang, Lei"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.18491"
 external_pdf: "https://arxiv.org/pdf/2410.18491.pdf"

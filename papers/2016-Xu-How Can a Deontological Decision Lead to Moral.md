@@ -19,7 +19,7 @@ short_title: "How Can a Deontological Decision Lead to Moral"
 year: 2016
 first_author: "[[Zhi Xing Xu]]"
 last_author: "[[Ma, Hing Keung]]"
-authors: "[[Xu, Zhi Xing]]; [[Ma, Hing Keung]]"
+authors: "Xu, Zhi Xing; Ma, Hing Keung"
 doi: 10.1007/s10551-015-2576-6
 url: "http://link.springer.com/10.1007/s10551-015-2576-6"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DPB87N7D/Xu and Ma - 2016 - How Can a Deontological Decision Lead to Moral Behavior The Moderating Role of Moral Identity.pdf"

@@ -25,6 +25,8 @@ Maria De-Arteaga is an Associate Professor in the Department of Data, Analytics,
 
 
 
+
+
 - [[2019-De-Arteaga-Bias in Bios|Bias in Bios]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ Maria De-Arteaga is an Associate Professor in the Department of Data, Analytics,
 
 
 
+
+
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn

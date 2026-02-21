@@ -18,8 +18,8 @@ type: conferencePaper
 short_title: "Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts"
 year: 2021
 first_author: "[[Anastasiia Pronoza]]"
-last_author: "[[Roman Rosenberg Olga Koltsova]]"
-authors: "Anastasiia Pronoza, Polina Panicheva, Olga Koltsova, Roman Rosenberg"
+last_author: "[[Roman Rosenberg]]"
+authors: Anastasiia Pronoza; Polina Panicheva; Olga Koltsova; Roman Rosenberg
 doi: 10.1016/j.ipm.2021.102674
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457321001606"
 external_pdf: "https://riunet.upv.es/bitstream/10251/183078/3/PronozaPanichevaKoltsova%20-%20Detecting%20Ethnicity-targeted%20Hate%20Speech%20in%20Russian%20Social%20Media%20Texts.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Polina Panicheva Anastasiia Pronoza]], [[Roman Rosenberg Olga Koltsova]]
+[[Anastasiia Pronoza]], [[Polina Panicheva]], [[Olga Koltsova]], [[Roman Rosenberg]]
 
 ## Metadata
 

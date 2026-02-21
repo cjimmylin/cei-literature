@@ -19,7 +19,7 @@ short_title: "WolBanking77 Wolof Banking Speech Intent Classification"
 year: 2025
 first_author: "[[Abdou Karim Kandji]]"
 last_author: "[[Augustin Ndione]]"
-authors: "[[Abdou Karim Kandji]]; [[Frédéric Precioso]]; [[Cheikh Ba]]; [[Samba Ndiaye]]; [[Augustin Ndione]]"
+authors: Abdou Karim Kandji; Frédéric Precioso; Cheikh Ba; Samba Ndiaye; Augustin Ndione
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.19271"
 external_pdf: "https://arxiv.org/pdf/2509.19271.pdf"

@@ -16,7 +16,7 @@ short_title: "Cultural and Core Capability Benchmarks for"
 year: 2025
 first_author: "[[Dahyun Kim]]"
 last_author: "[[Park, Chanjun]]"
-authors: "[[Kim, Dahyun]]; [[Lee, Sukyung]]; [[Kim, Yungi]]; [[Rutherford, Attapol]]; [[Park, Chanjun]]"
+authors: "Kim, Dahyun; Lee, Sukyung; Kim, Yungi; Rutherford, Attapol; Park, Chanjun"
 url: "https://aclanthology.org/2025.coling-main.278/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TK8N7ILB/2025 - Cultural and Core Capability Benchmarks for Developing Thai LLMs (ThaiCLI).pdf"
 national_ethnic_cultural: "Thai"

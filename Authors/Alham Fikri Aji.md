@@ -51,8 +51,11 @@ He has created benchmarks like **Global PIQA** and **SEA-SafeguardBench** to ass
 
 
 
+
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
 - [[2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in|From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs]] (Last Author)
+- [[2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a|Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting]]
 - [[2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh|KazMMLU Evaluating Language Models on Kazakh]]
 - [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \]]
 - [[2023-Rizqullah-QASiNa|QASiNa]] (Last Author)
@@ -74,6 +77,10 @@ He has created benchmarks like **Global PIQA** and **SEA-SafeguardBench** to ass
 
 
 
+
+
+- *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: ayu@stei.itb.ac.id
+- *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: ayu@stei.itb.ac.id
 - *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: razifrizqullah@gmail.com
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne

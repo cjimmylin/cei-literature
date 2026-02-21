@@ -15,7 +15,7 @@ type: conferencePaper
 short_title: "Artificial Intelligence and Indigenous Peoples' Realities | Cultural Survival"
 year: 2025
 first_author: "[[Sangma, Nina]]"
-last_author: "[[Sangma, Nina]]"
+last_author: "[[Nina Sangma]]"
 authors: Nina Sangma
 authors_incomplete: false
 url: "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/artificial-intelligence-and-indigenous-peoples-realities"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic|M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic*: Affiliation: University of Rome, Email: friedrich@cs.tu
+- *From 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic*: Affiliation: University of Rome, Email: friedrich@cs.tu
 - *From 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic*: Affiliation: University of Rome, Email: friedrich@cs.tu
 - *From 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic*: Affiliation: University of Rome, Email: friedrich@cs.tu
 - *From 2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic*: Affiliation: University of Rome, Email: friedrich@cs.tu

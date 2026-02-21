@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Dang-RedBench|RedBench]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Dang-RedBench*: Affiliation: University of Science, Vietnam, Email: thy@uab.edu
+- *From 2026-Dang-RedBench*: Affiliation: University of Science, Vietnam, Email: thy@uab.edu
 - *From 2026-Dang-RedBench*: Affiliation: University of Science, Vietnam, Email: thy@uab.edu
 - *From 2026-Dang-RedBench*: Affiliation: University of Science, Vietnam, Email: thy@uab.edu
 - *From 2026-Dang-RedBench*: Affiliation: University of Science, Vietnam, Email: thy@uab.edu

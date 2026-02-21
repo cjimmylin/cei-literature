@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of|Localizing AI: Evaluating Open-Weight Language Models for Languages of Baltic States]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of*: Affiliation: Faculty of Informatics, Vytautas Magnus University, Lithuania
+- *From 2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of*: Affiliation: Faculty of Informatics, Vytautas Magnus University, Lithuania
 - *From 2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of*: Affiliation: Faculty of Informatics, Vytautas Magnus University, Lithuania
 - *From 2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of*: Affiliation: Faculty of Informatics, Vytautas Magnus University, Lithuania
 - *From 2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of*: Affiliation: Faculty of Informatics, Vytautas Magnus University, Lithuania

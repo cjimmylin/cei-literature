@@ -16,7 +16,7 @@ short_title: "PahGen: Generating Ancient Pahlavi Text via Grammar-guided Zero-sh
 year: 2025
 first_author: "[[Farhan Farsi]]"
 last_author: "[[Hossein Sameti]]"
-authors: Farhan Farsi, Parnian Fazel, Farzaneh Goshtasb, Nadia Hajipour, Sadra Sabouri, Ehsaneddin Asgari, Hossein Sameti
+authors: Farhan Farsi; Parnian Fazel; Farzaneh Goshtasb; Nadia Hajipour; Sadra Sabouri; Ehsaneddin Asgari; Hossein Sameti
 url: "https://aclanthology.org/2025.loresmt-1.16/"
 publication: ACL Anthology (LoResMT 2025 Workshop)
 CONF-CC: "Workshop (2025)"
@@ -50,7 +50,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Farhan Farsi, Parnian Fazel, Farzaneh Goshtasb, Nadia Hajipour, Sadra Sabouri, Ehsaneddin Asgari, Hossein Sameti]]
+[[Farhan Farsi]], [[Parnian Fazel]], [[Farzaneh Goshtasb]], [[Nadia Hajipour]], [[Sadra Sabouri]], [[Ehsaneddin Asgari]], [[Hossein Sameti]]
 
 ## Metadata
 

@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "GSI:detect — Gender Stereotype Detection Shared Task at EVALITA 2026"
 year: 2026
 first_author: "[[Gloria Comandini]]"
-last_author: "[[Bernardo Magnini Stefania Cavagnoli]]"
-authors: "Gloria Comandini, Manuela Speranza, Sofia Brenna, Davide Testa, Stefania Cavagnoli, Bernardo Magnini"
+last_author: "[[Bernardo Magnini]]"
+authors: Gloria Comandini; Manuela Speranza; Sofia Brenna; Davide Testa; Stefania Cavagnoli; Bernardo Magnini
 url: "https://www.evalita.it/campaigns/evalita-2026/tasks/"
 publication: "EVALITA 2026"
 CONF-CC: "EVALITA 2026"
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Manuela Speranza Gloria Comandini]], [[Davide Testa Sofia Brenna]], [[Bernardo Magnini Stefania Cavagnoli]]
+[[Gloria Comandini]], [[Manuela Speranza]], [[Sofia Brenna]], [[Davide Testa]], [[Stefania Cavagnoli]], [[Bernardo Magnini]]
 
 ## Metadata
 

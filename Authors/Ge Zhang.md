@@ -60,8 +60,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Wu-COIG-P|COIG-P]]
-- [[2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large|KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application]]
 
 ## External Links & Profiles
 
@@ -92,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
+- *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human

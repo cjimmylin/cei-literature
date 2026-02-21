@@ -41,6 +41,8 @@ Carol Chen is a Member of Technical Staff at Anthropic, where she has been a res
 
 
 
+
+
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 
@@ -63,6 +65,10 @@ Carol Chen is a Member of Technical Staff at Anthropic, where she has been a res
 
 
 
+
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs

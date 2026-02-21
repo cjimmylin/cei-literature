@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous|Abundant Intelligences Placing AI Within Indigenous]] (Last Author)
 
 ## External Links & Profiles

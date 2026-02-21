@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text|HebID: Detecting Social Identities in Hebrew-language Political Text]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text*: Affiliation: University of Jerusalem, 2 The Open University of Israel, Email: guy.mor@mail.huji.ac.il
+- *From 2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text*: Affiliation: University of Jerusalem, 2 The Open University of Israel, Email: guy.mor@mail.huji.ac.il
 - *From 2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text*: Affiliation: University of Jerusalem, 2 The Open University of Israel, Email: guy.mor@mail.huji.ac.il
 - *From 2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text*: Affiliation: University of Jerusalem, 2 The Open University of Israel, Email: guy.mor@mail.huji.ac.il
 - *From 2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text*: Affiliation: University of Jerusalem, 2 The Open University of Israel, Email: guy.mor@mail.huji.ac.il

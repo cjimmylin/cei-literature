@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate|MuLTa-Telegram: A Fine-Grained Italian and Polish Dataset for Hate Speech Detection]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate*: Affiliation: Research Institute, ul
+- *From 2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate*: Affiliation: Research Institute, ul
 - *From 2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate*: Affiliation: Research Institute, ul
 - *From 2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate*: Affiliation: Research Institute, ul
 - *From 2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate*: Affiliation: Research Institute, ul

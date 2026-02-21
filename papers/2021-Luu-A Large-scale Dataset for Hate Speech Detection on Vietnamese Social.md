@@ -16,7 +16,7 @@ short_title: "A Large-scale Dataset for Hate Speech Detection on Vietnamese Soci
 year: 2021
 first_author: "[[Son T. Luu]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
-authors: "Son T. Luu, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"
+authors: Son T. Luu; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen
 doi: 10.1007/978-3-030-79457-6_35
 url: "https://arxiv.org/abs/2103.11528"
 external_pdf: "https://arxiv.org/pdf/2103.11528.pdf"

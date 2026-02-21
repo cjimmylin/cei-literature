@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards|TeleAI-Safety: A comprehensive LLM jailbreaking benchmark towards attacks,]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards*: Affiliation: Institute of Artificial Intelligence (TeleAI) of China Telecom, Email: xuelong_li@ieee.org
+- *From 2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards*: Affiliation: Institute of Artificial Intelligence (TeleAI) of China Telecom, Email: xuelong_li@ieee.org
 - *From 2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards*: Affiliation: Institute of Artificial Intelligence (TeleAI) of China Telecom, Email: xuelong_li@ieee.org
 - *From 2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards*: Affiliation: Institute of Artificial Intelligence (TeleAI) of China Telecom, Email: xuelong_li@ieee.org
 - *From 2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards*: Affiliation: Institute of Artificial Intelligence (TeleAI) of China Telecom, Email: xuelong_li@ieee.org

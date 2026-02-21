@@ -31,8 +31,11 @@ Diyi Yang is an Assistant Professor of Computer Science at Stanford University. 
 
 
 
+
+
 - [[2024-Moore-Are Large Language Models Consistent over|Are Large Language Models Consistent over]] (Last Author)
 - [[2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation|Unintended Impacts of LLM Alignment on Global Representation]] (Last Author)
+- [[2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards|CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies]] (Last Author)
 - [[2023-Ziems-NormBank|NormBank]] (Last Author)
 - [[2022-Ziems-The Moral Integrity Corpus|The Moral Integrity Corpus]] (Last Author)
 
@@ -43,6 +46,10 @@ Diyi Yang is an Assistant Professor of Computer Science at Stanford University. 
 
 
 
+
+
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology

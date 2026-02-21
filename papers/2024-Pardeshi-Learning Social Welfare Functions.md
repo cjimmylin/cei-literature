@@ -17,7 +17,7 @@ short_title: "Learning Social Welfare Functions"
 year: 2024
 first_author: "[[Kanad Shrikar Pardeshi]]"
 last_author: "[[Singh, Aarti]]"
-authors: "[[Pardeshi, Kanad Shrikar]]; [[Shapira, Itai]]; [[Procaccia, Ariel D.]]; [[Singh, Aarti]]"
+authors: "Pardeshi, Kanad Shrikar; Shapira, Itai; Procaccia, Ariel D.; Singh, Aarti"
 doi: 10.48550/arXiv.2410.15000
 url: "https://arxiv.org/abs/2410.15000"
 external_pdf: "https://arxiv.org/pdf/2410.15000.pdf"

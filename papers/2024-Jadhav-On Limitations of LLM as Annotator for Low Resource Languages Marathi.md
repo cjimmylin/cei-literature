@@ -17,7 +17,7 @@ short_title: "On Limitations of LLM as Annotator for Low Resource Languages (Mar
 year: 2024
 first_author: "[[Jadhav, Suramya]]"
 last_author: "[[Joshi, Raviraj]]"
-authors: "[[Jadhav, Suramya]]; [[Shanbhag, Abhay]]; [[Thakurdesai, Amogh]]; [[Sinare, Ridhima]]; [[Joshi, Raviraj]]"
+authors: "Jadhav, Suramya; Shanbhag, Abhay; Thakurdesai, Amogh; Sinare, Ridhima; Joshi, Raviraj"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.17637"
 external_pdf: "https://arxiv.org/pdf/2411.17637.pdf"

@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "Is there Gender Bias and Stereotype in Portuguese Word Embeddings?"
 year: 2018
 first_author: "[[Bruna Santana]]"
-last_author: "[[Vinicius Woloszyn Bruna Santana]]"
-authors: "Bruna Santana, Vinicius Woloszyn"
+last_author: "[[Vinicius Woloszyn]]"
+authors: Bruna Santana; Vinicius Woloszyn
 url: "https://www.inf.ufrgs.br/propor-2018/wp-content/uploads/2018/10/PROPOR2018-SRW_paper_6.pdf"
 external_pdf: "https://arxiv.org/pdf/1810.04528v1.pdf"
 publication: "PROPOR 2018"
@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Vinicius Woloszyn Bruna Santana]]
+[[Bruna Santana]], [[Vinicius Woloszyn]]
 
 ## Metadata
 

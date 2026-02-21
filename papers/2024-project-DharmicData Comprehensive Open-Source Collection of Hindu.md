@@ -19,7 +19,7 @@ short_title: "DharmicData Comprehensive Open-Source Collection of Hindu"
 year: 2024
 first_author: "[[project), Bhavy Khatri (community]]"
 last_author: "[[Bhavy Khatri (community project)]]"
-authors: "[[Bhavy Khatri (community project)]]"
+authors: Bhavy Khatri (community project)
 authors_incomplete: false
 url: 
 external_pdf: 

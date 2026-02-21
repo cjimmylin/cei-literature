@@ -25,6 +25,8 @@ Anastasia Kozlova is a researcher at Sber AI in Russia, working on natural langu
 
 
 
+
+
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
 
 ## Notes
@@ -34,6 +36,10 @@ Anastasia Kozlova is a researcher at Sber AI in Russia, working on natural langu
 
 
 
+
+
+- *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
+- *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 - *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 - *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 - *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com

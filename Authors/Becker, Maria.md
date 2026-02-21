@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Becker-The Moralization Corpus|The Moralization Corpus]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Becker-The Moralization Corpus*: Affiliation: Department of German Linguistics, Heidelberg University
+- *From 2025-Becker-The Moralization Corpus*: Affiliation: Department of German Linguistics, Heidelberg University
 - *From 2025-Becker-The Moralization Corpus*: Affiliation: Department of German Linguistics, Heidelberg University
 - *From 2025-Becker-The Moralization Corpus*: Affiliation: Department of German Linguistics, Heidelberg University
 - *From 2025-Becker-The Moralization Corpus*: Affiliation: Department of German Linguistics, Heidelberg University

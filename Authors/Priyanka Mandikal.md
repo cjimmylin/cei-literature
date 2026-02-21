@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented|Ancient Wisdom Modern Tools Exploring Retrieval-Augmented]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented*: Affiliation: Department of Computer Science, UT Austin, Email: mandikal@utexas.edu
+- *From 2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented*: Affiliation: Department of Computer Science, UT Austin, Email: mandikal@utexas.edu
 - *From 2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented*: Affiliation: Department of Computer Science, UT Austin, Email: mandikal@utexas.edu
 - *From 2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented*: Affiliation: Department of Computer Science, UT Austin, Email: mandikal@utexas.edu
 - *From 2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented*: Affiliation: Department of Computer Science, UT Austin, Email: mandikal@utexas.edu

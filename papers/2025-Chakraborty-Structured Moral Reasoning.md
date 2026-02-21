@@ -17,7 +17,7 @@ short_title: "Structured Moral Reasoning"
 year: 2025
 first_author: "[[Mohna Chakraborty]]"
 last_author: "[[Jurgens, David]]"
-authors: "[[Chakraborty, Mohna]]; [[Wang, Lu]]; [[Jurgens, David]]"
+authors: "Chakraborty, Mohna; Wang, Lu; Jurgens, David"
 doi: 10.48550/arXiv.2506.14948
 url: "https://arxiv.org/abs/2506.14948"
 external_pdf: "https://arxiv.org/pdf/2506.14948.pdf"

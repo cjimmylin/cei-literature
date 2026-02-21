@@ -18,9 +18,9 @@ key: EXSR0443
 type: preprint
 short_title: "The Gospel Coalition AI Christian Benchmark"
 year: 2025
-first_author: "[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)]]"
+first_author: "[[Casey Sapp]]"
 last_author: "[[Dan Doriani (The Gospel Coalition)]]"
-authors: "[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)]]"
+authors: Casey Sapp; Kyle Horne; Ken Churchill; Andrew Clark; Andrew Noble; Peter Williams; Mary Hannah; Gavin Ortlund; Hans Madueme; Uche Anizor; Nadya Williams; Michael Kruger; Dan Doriani (The Gospel Coalition)
 authors_incomplete: false
 url: 
 external_pdf: "https://core.ac.uk/download/143685631.pdf"

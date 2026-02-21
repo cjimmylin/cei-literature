@@ -18,7 +18,7 @@ short_title: "Detecting Caste and Migration Hate Speech"
 year: 2025
 first_author: "[[Chakravarthi]]"
 last_author: "[[Rajiakodi]]"
-authors: "[[Chakravarthi]]; [[Rajiakodi]]"
+authors: Chakravarthi; Rajiakodi
 authors_incomplete: true
 url: "https://link.springer.com/article/10.1007/s10579-025-09848-x"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-025-09848-x.pdf"

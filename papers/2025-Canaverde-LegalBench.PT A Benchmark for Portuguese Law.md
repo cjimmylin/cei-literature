@@ -17,7 +17,7 @@ short_title: "LegalBench.PT: A Benchmark for Portuguese Law"
 year: 2025
 first_author: "[[Beatriz Canaverde]]"
 last_author: "[[André F. T. Martins]]"
-authors: "[[Beatriz Canaverde]]; [[Telmo Pessoa Pires]]; [[Leonor Melo Ribeiro]]; [[André F. T. Martins]]"
+authors: Beatriz Canaverde; Telmo Pessoa Pires; Leonor Melo Ribeiro; André F. T. Martins
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.16357"
 external_pdf: "https://arxiv.org/pdf/2502.16357.pdf"

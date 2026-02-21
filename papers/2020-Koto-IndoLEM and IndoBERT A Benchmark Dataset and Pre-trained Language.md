@@ -16,7 +16,7 @@ short_title: "IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language
 year: 2020
 first_author: "[[Koto, Fajri]]"
 last_author: "[[Baldwin, Timothy]]"
-authors: "[[Koto, Fajri]]; [[Rahimi, Afshin]]; [[Lau, Jey Han]]; [[Baldwin, Timothy]]"
+authors: "Koto, Fajri; Rahimi, Afshin; Lau, Jey Han; Baldwin, Timothy"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2011.00677"
 external_pdf: "https://arxiv.org/pdf/2011.00677.pdf"

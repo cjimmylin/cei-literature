@@ -16,7 +16,7 @@ short_title: Evaluating Large Language Models on Understanding Korean Indirect S
 year: 2025
 first_author: "[[Youngeun Koo]]"
 last_author: "[[Sungeun Lee]]"
-authors: Youngeun Koo, Jiwoo Lee, Dojun Park, Seohyun Park, Sungeun Lee
+authors: Youngeun Koo; Jiwoo Lee; Dojun Park; Seohyun Park; Sungeun Lee
 doi: 10.48550/arXiv.2502.10995
 url: "https://arxiv.org/abs/2502.10995"
 external_pdf: "https://arxiv.org/pdf/2502.10995.pdf"

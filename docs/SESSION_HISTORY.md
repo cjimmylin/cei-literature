@@ -2,6 +2,70 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 97 (Feb 20, 2026) - Dashboard v5e "Archival Modernism" Redesign
+
+### Overview
+Complete visual redesign of Dashboard v5e (`STATISTICS/cei-dashboard-5e/`), applying an "Archival Modernism" aesthetic inspired by museum exhibition design. Replaced the cold navy/indigo Tailwind palette with warm ink-and-parchment tones, added serif display typography, loading splash screen, and dark/light theme toggle.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| CSS rewritten | 452 → 877 lines (full redesign) |
+| HTML updated | 716 → 731 lines (structural additions) |
+| charts.js colors replaced | 260+ hex values |
+| app.js features added | ThemeManager, loading splash |
+| JS-referenced IDs validated | 33/33 preserved |
+| Design system | "Archival Modernism" (Newsreader + DM Sans, burnt amber accent) |
+| Theme support | Dark (default) + Light toggle with localStorage |
+
+### Key Learnings
+- [Dashboard] Bulk `replace_all` per-hex-color is safe for chart libraries when each color maps to one semantic role — verify with `grep` before/after
+- [Dashboard] CSS `[data-theme="light"]` with custom property overrides is cleanest theme toggle architecture; ECharts need full dispose/reinit since they use hardcoded colors
+- [Dashboard] Serif display + geometric sans body pairing (Newsreader + DM Sans) creates academic gravitas; Google Fonts `preconnect` prevents FOIT
+
+### Files Changed
+- `STATISTICS/cei-dashboard-5e/style.css`: Complete redesign (new palette, typography, responsive, theme toggle)
+- `STATISTICS/cei-dashboard-5e/index.html`: Loading splash, theme toggle button, Google Fonts, v5e references
+- `STATISTICS/cei-dashboard-5e/charts.js`: 260+ color replacements, `_reTheme()` method added
+- `STATISTICS/cei-dashboard-5e/app.js`: ThemeManager singleton, loading splash dismissal
+
+## Session 96 (Feb 20, 2026) - Author Entry Verification & Fix Pipeline
+
+### Overview
+Implemented and executed a comprehensive 7-step author verification pipeline: audit all 2,034 papers for 6 categories of author issues, resolve via local heuristics + API waterfall (6-agent swarm), apply YAML fixes safely, and rebuild the full author infrastructure. Fixed a critical `smart_comma_split()` bug mid-pipeline that would have corrupted 344 papers.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers audited | 2,034 |
+| Cat A: Abbreviated names resolved | 26/540 (API), 78/540 (local) |
+| Cat B: first_author mismatches fixed | 319 → 0 |
+| Cat C: last_author mismatches fixed | 48 → 0 (+ 42 trailing period + 3 "and" prefix) |
+| Cat D: Unknown/incomplete resolved | 6/54 (API) |
+| Cat E: Missing profiles created | 594 → 0 (6 stubs) |
+| Cat F: Format issues fixed | 344 → 0 |
+| Author profiles (final) | 11,439 (up from 9,791) |
+| Validation | 2,034/2,034 pass, 0 errors |
+| Scripts created | 3 new + 1 overwritten |
+
+### Key Learnings
+- [YAML] `smart_comma_split()` heuristic for "Last, First" APA detection must require initials-only given names (`^[A-Z]\.?(\s+[A-Z]\.?)*$`) — any capitalized word matches the naive check, merging plain comma-separated names
+- [Workflows] Apply order matters for dependent categories: F→A→D→B→C→E ensures format normalization resolves apparent mismatches before targeted fixes
+- [Workflows] Parallel agent consolidation must prefer resolved entries over unresolved when merging — first-seen dedup loses API results
+- [Data Quality] Trailing periods in author names (e.g., "Noah A." vs "Noah A") cause false Cat C mismatches — normalize before comparing
+- [Workflows] 6-agent API swarm (4×Cat A, 2×Cat D) with range-based `--start/--end` args effectively parallelizes rate-limited API calls
+
+### Files Changed
+- PYTHON/audit_author_entries.py: **Created** (~340 lines) — 6-category audit scan
+- PYTHON/resolve_author_issues.py: **Overwritten** (~400 lines) — local + API resolution
+- PYTHON/consolidate_author_resolutions.py: **Created** (~130 lines) — merge parallel agent results
+- PYTHON/apply_author_resolutions.py: **Created** (~380 lines) — safe YAML fixes
+- papers/: 1,327 modified (author field fixes, first/last_author updates)
+- Authors/: 9,806 modified, 1,648 new profiles created
+- logs/: ~15 new JSON files (audit report, resolution plans, applied results, pipeline rebuild)
+
+---
+
 ## Session 95 (Feb 20, 2026) - Dashboard v4: Reorder Filter Dropdowns + GitHub Pages Deploy
 
 ### Overview

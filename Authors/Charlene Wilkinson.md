@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora|GuyLingo: The Republic of Guyana Creole Corpora]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora*: Affiliation: University of Michigan, Ann Arbor, MI, Email: hubertsldevonish@gmail.com
+- *From 2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora*: Affiliation: University of Michigan, Ann Arbor, MI, Email: hubertsldevonish@gmail.com
 - *From 2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora*: Affiliation: University of Michigan, Ann Arbor, MI, Email: hubertsldevonish@gmail.com
 - *From 2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora*: Affiliation: University of Michigan, Ann Arbor, MI, Email: hubertsldevonish@gmail.com
 - *From 2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora*: Affiliation: University of Michigan, Ann Arbor, MI, Email: hubertsldevonish@gmail.com

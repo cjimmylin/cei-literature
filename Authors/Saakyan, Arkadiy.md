@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models|VideoNorms: Benchmarking Cultural Awareness of Video Language Models]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models*: Affiliation: Department of Computer Science, Columbia University, Email: nv2415@columbia.edu
+- *From 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models*: Affiliation: Department of Computer Science, Columbia University, Email: nv2415@columbia.edu
 - *From 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models*: Affiliation: Department of Computer Science, Columbia University, Email: nv2415@columbia.edu
 - *From 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models*: Affiliation: Department of Computer Science, Columbia University, Email: nv2415@columbia.edu
 - *From 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models*: Affiliation: Department of Computer Science, Columbia University, Email: nv2415@columbia.edu

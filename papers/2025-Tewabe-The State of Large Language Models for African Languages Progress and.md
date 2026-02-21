@@ -16,7 +16,7 @@ short_title: "The State of Large Language Models for African Languages: Progress
 year: 2025
 first_author: "[[Hussen, Kedir Yassin]]"
 last_author: "[[Yimam, Seid Muhie]]"
-authors: "[[Hussen, Kedir Yassin]]; [[Sewunetie, Walelign Tewabe]]; [[Ayele, Abinew Ali]]; [[Imam, Sukairaj Hafiz]]; [[Muhammad, Shamsuddeen Hassan]]; [[Yimam, Seid Muhie]]"
+authors: "Hussen, Kedir Yassin; Sewunetie, Walelign Tewabe; Ayele, Abinew Ali; Imam, Sukairaj Hafiz; Muhammad, Shamsuddeen Hassan; Yimam, Seid Muhie"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.02280"
 external_pdf: "https://arxiv.org/pdf/2506.02280.pdf"

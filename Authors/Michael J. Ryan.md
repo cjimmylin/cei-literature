@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation|Unintended Impacts of LLM Alignment on Global Representation]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation*: Affiliation: Institute of Technology, Email: wheld3@gatech.edu
+- *From 2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation*: Affiliation: Institute of Technology, Email: wheld3@gatech.edu
 - *From 2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation*: Affiliation: Institute of Technology, Email: diyiy@cs.stanford.edu
 - *From 2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation*: Affiliation: Institute of Technology, Email: wheld3@gatech.edu
 - *From 2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation*: Affiliation: Institute of Technology, Email: wheld3@gatech.edu

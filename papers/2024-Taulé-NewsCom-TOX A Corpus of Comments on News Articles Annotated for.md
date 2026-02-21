@@ -18,7 +18,7 @@ short_title: "NewsCom-TOX: A Corpus of Comments on News Articles Annotated for T
 year: 2024
 first_author: "[[Taulé, Mariona]]"
 last_author: "[[Bonet, Xavier]]"
-authors: "[[Taulé, Mariona]]; [[Nofre, Montserrat]]; [[Bargiela, Víctor]]; [[Bonet, Xavier]]"
+authors: "Taulé, Mariona; Nofre, Montserrat; Bargiela, Víctor; Bonet, Xavier"
 authors_incomplete: false
 doi: 10.1007/s10579-023-09711-x
 url: "https://link.springer.com/article/10.1007/s10579-023-09711-x"

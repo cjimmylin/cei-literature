@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "A multilingual language processing tool for Uyghur, Kazak and Kirghiz | IEEE Conference Publication | IEEE Xplore"
 year: 2025
 first_author: "[[Ablimit, Mijit]]"
-last_author: "[[Zheng, Thomas Fang]]"
+last_author: "[[Thomas Fang Zheng]]"
 authors: Mijit Ablimit; Sardar Parhat; Askar Hamdulla; Thomas Fang Zheng
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/8282131"

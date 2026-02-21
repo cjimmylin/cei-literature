@@ -77,7 +77,7 @@ Large Vision-Language Models (LVLMs) are capable of handling diverse data types 
 
 ## Authors
 
-[[Pengcheng Chen]], [[Jin Ye]], [[Guoan Wang]], [[Yanjun Li]], [[Zhongying Deng]], [[Wei Li]], [[Tianbin Li]], [[Haodong Duan]], [[Ziyan Huang]], [[Yanzhou Su]], [[Benyou Wang]], [[Shaoting Zhang]], [[Bin Fu]], [[Jianfei Cai]], [[Bohan Zhuang]], [[Eric J. Seibel|Eric J Seibel]], [[Junjun He]], [[Yu Qiao]]
+[[Pengcheng Chen]], [[Jin Ye]], [[Guoan Wang]], [[Yanjun Li]], [[Zhongying Deng]], [[Wei Li]], [[Tianbin Li]], [[Haodong Duan]], [[Ziyan Huang]], [[Yanzhou Su]], [[Benyou Wang]], [[Shaoting Zhang]], [[Bin Fu]], [[Jianfei Cai]], [[Bohan Zhuang]], [[Eric J Seibel]], [[Junjun He]], [[Yu Qiao]]
 
 ## Data Description
 

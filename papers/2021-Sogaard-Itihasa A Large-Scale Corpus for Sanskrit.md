@@ -18,9 +18,9 @@ key: EXSR0606
 type: conference_paper
 short_title: "Itihasa A Large-Scale Corpus for Sanskrit"
 year: 2021
-first_author: "[[Rahul Aralikatte, Miryam de Lhoneux, Anoop Kunchukuttan, Anders Sogaard]]"
-last_author: "[[Anders Sogaard Anoop Kunchukuttan]]"
-authors: "[[Rahul Aralikatte, Miryam de Lhoneux, Anoop Kunchukuttan, Anders Sogaard]]"
+first_author: "[[Rahul Aralikatte]]"
+last_author: "[[Anders Sogaard]]"
+authors: Rahul Aralikatte; Miryam de Lhoneux; Anoop Kunchukuttan; Anders Sogaard
 authors_incomplete: false
 url: "https://arxiv.org/abs/2106.03269"
 external_pdf: "https://arxiv.org/pdf/2106.03269.pdf"
@@ -56,7 +56,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Miryam de Lhoneux Rahul Aralikatte]], [[Anders Sogaard Anoop Kunchukuttan]]
+[[Rahul Aralikatte]], [[Miryam de Lhoneux]], [[Anoop Kunchukuttan]], [[Anders Sogaard]]
 
 ## Metadata
 

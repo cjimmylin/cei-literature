@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zhang-CultureScope A Dimensional Lens for Probing|CultureScope A Dimensional Lens for Probing]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zhang-CultureScope A Dimensional Lens for Probing*: Affiliation: Laboratory of Data Science, College of Computer Science and Artificial Intelligence, Fudan University, Email: zhangjinghao24@m.fudan.edu.cn
+- *From 2025-Zhang-CultureScope A Dimensional Lens for Probing*: Affiliation: Laboratory of Data Science, College of Computer Science and Artificial Intelligence, Fudan University, Email: zhangjinghao24@m.fudan.edu.cn
 - *From 2025-Zhang-CultureScope A Dimensional Lens for Probing*: Affiliation: Laboratory of Data Science, College of Computer Science and Artificial Intelligence, Fudan University, Email: zhangjinghao24@m.fudan.edu.cn
 - *From 2025-Zhang-CultureScope A Dimensional Lens for Probing*: Affiliation: Laboratory of Data Science, College of Computer Science and Artificial Intelligence, Fudan University, Email: zhangjinghao24@m.fudan.edu.cn
 - *From 2025-Zhang-CultureScope A Dimensional Lens for Probing*: Affiliation: Laboratory of Data Science, College of Computer Science and Artificial Intelligence, Fudan University, Email: zhangjinghao24@m.fudan.edu.cn

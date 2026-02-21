@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2024-Sharma-Towards Understanding Sycophancy in Language Models|Towards Understanding Sycophancy in Language Models]]
 
 ## Notes

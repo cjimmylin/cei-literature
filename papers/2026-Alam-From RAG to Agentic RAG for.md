@@ -16,9 +16,9 @@ key: EXSR0305
 type: preprint
 short_title: "From RAG to Agentic RAG for"
 year: 2026
-first_author: "[[Gagan Bhatia, Hamdy Mubarak, Mustafa Jarrar, George Mikros, Fadi Zaraket, Mahmoud Alhirthani, Mutaz Al-Khatib, Logan Cochrane, Kareem Darwish, Rashid Yahiaoui, Firoj Alam]]"
+first_author: "[[Gagan Bhatia]]"
 last_author: "[[Firoj Alam]]"
-authors: "[[Gagan Bhatia, Hamdy Mubarak, Mustafa Jarrar, George Mikros, Fadi Zaraket, Mahmoud Alhirthani, Mutaz Al-Khatib, Logan Cochrane, Kareem Darwish, Rashid Yahiaoui, Firoj Alam]]"
+authors: Gagan Bhatia; Hamdy Mubarak; Mustafa Jarrar; George Mikros; Fadi Zaraket; Mahmoud Alhirthani; Mutaz Al-Khatib; Logan Cochrane; Kareem Darwish; Rashid Yahiaoui; Firoj Alam
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.07528"
 external_pdf: "https://arxiv.org/pdf/2601.07528.pdf"

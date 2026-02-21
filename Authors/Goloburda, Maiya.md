@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for|Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh]]
 - [[2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian|Qorgau Evaluating LLM Safety in Kazakh-Russian]] (First Author)
 
@@ -86,6 +88,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for*: Affiliation: Department of Natural Language Processing, MBZUAI
+- *From 2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for*: Affiliation: Department of Natural Language Processing, MBZUAI
 - *From 2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for*: Affiliation: Department of Natural Language Processing, MBZUAI
 - *From 2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for*: Affiliation: Department of Natural Language Processing, MBZUAI
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

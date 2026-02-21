@@ -22,7 +22,8 @@ semantic_scholar: ""
 
 
 
-- [[2024-Gallegos-Bias and Fairness in Large Language Models A Survey|Bias and Fairness in Large Language Models: A Survey]]
+
+
 - [[2023-Lin-ToxicChat|ToxicChat]]
 
 ## Notes

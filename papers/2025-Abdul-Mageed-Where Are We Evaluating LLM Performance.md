@@ -16,9 +16,9 @@ key: EXSR0451
 type: conference_paper
 short_title: "Where Are We Evaluating LLM Performance"
 year: 2025
-first_author: "[[Ife Adebara, Hawau Olamide Toyin, Nahom Tesfu Ghebremichael, AbdelRahim Elmadany, Muhammad Abdul-Mageed]]"
+first_author: "[[Ife Adebara]]"
 last_author: "[[Muhammad Abdul-Mageed]]"
-authors: "[[Ife Adebara, Hawau Olamide Toyin, Nahom Tesfu Ghebremichael, AbdelRahim Elmadany, Muhammad Abdul-Mageed]]"
+authors: Ife Adebara; Hawau Olamide Toyin; Nahom Tesfu Ghebremichael; AbdelRahim Elmadany; Muhammad Abdul-Mageed
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.19582"
 external_pdf: "https://arxiv.org/pdf/2502.19582.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Ife Adebara]], [[Hawau Toyin|Hawau Olamide Toyin]], [[Nahom Tesfu Ghebremichael]], [[Abdelrahim A. Elmadany|AbdelRahim Elmadany]], [[Muhammad Abdul-Mageed]]
+[[Ife Adebara]], [[Hawau Olamide Toyin]], [[Nahom Tesfu Ghebremichael]], [[AbdelRahim Elmadany]], [[Muhammad Abdul-Mageed]]
 
 ## Metadata
 

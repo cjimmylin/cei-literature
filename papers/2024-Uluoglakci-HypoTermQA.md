@@ -17,7 +17,7 @@ short_title: HypoTermQA
 year: 2024
 first_author: "[[Cem Uluoglakci]]"
 last_author: "[[Temizel, Tugba]]"
-authors: "[[Uluoglakci, Cem]]; [[Temizel, Tugba]]"
+authors: "Uluoglakci, Cem; Temizel, Tugba"
 url: "https://aclanthology.org/2024.eacl-srw.9/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/N3YAM6Q3/2024 - HypoTermQA Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs.pdf"
 national_ethnic_cultural: "N/A"

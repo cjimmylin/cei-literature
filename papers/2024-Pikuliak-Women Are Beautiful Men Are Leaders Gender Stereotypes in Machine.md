@@ -16,8 +16,8 @@ type: preprint
 short_title: "Women Are Beautiful, Men Are Leaders: Gender Stereotypes in Machine Translation and Language Modeling"
 year: 2024
 first_author: "[[Matus Pikuliak]]"
-last_author: "[[Marian Simko Stefan Oresko]]"
-authors: "Matus Pikuliak, Andrea Hrckova, Stefan Oresko, Marian Simko"
+last_author: "[[Marian Simko]]"
+authors: Matus Pikuliak; Andrea Hrckova; Stefan Oresko; Marian Simko
 url: "https://arxiv.org/abs/2311.18711"
 external_pdf: "https://arxiv.org/pdf/2311.18711.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.md"
@@ -52,7 +52,7 @@ CONFERENCE: "EMNLP 2024"
 
 ## Authors
 
-[[Andrea Hrckova Matus Pikuliak]], [[Marian Simko Stefan Oresko]]
+[[Matus Pikuliak]], [[Andrea Hrckova]], [[Stefan Oresko]], [[Marian Simko]]
 
 ## Metadata
 

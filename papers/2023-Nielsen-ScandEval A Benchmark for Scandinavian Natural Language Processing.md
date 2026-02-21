@@ -13,9 +13,9 @@ key: LSRC0478
 type: preprint
 short_title: "ScandEval: A Benchmark for Scandinavian Natural Language Processing"
 year: 2023
-first_author: "[[Nielsen, Dan]]"
-last_author: "[[Dan Nielsen]]"
-authors: "[[Nielsen, Dan]]"
+first_author: "[[Nielsen]]"
+last_author: "[[Dan]]"
+authors: Nielsen; Dan
 authors_incomplete: true
 url: "https://arxiv.org/abs/2304.00906"
 external_pdf: "https://arxiv.org/pdf/2304.00906.pdf"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Dan Nielsen]]
+[[Nielsen]], [[Dan]]
 
 ## Metadata
 

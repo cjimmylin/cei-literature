@@ -20,7 +20,7 @@ short_title: "Transformer-based Pouranic Topic Classification in Indian"
 year: 2024
 first_author: "[[(Published in Sadhana journal, 2024]]"
 last_author: "[[specific author names not confirmed via search)]]"
-authors: "[[(Published in Sadhana journal, 2024]]; [[specific author names not confirmed via search)]]"
+authors: "(Published in Sadhana journal, 2024; specific author names not confirmed via search)"
 authors_incomplete: false
 url: 
 external_pdf: 

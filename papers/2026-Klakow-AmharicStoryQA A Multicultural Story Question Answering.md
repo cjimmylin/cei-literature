@@ -16,9 +16,9 @@ key: EXSR0302
 type: preprint
 short_title: "AmharicStoryQA A Multicultural Story Question Answering"
 year: 2026
-first_author: "[[Israel Abebe Azime, Abenezer Kebede Angamo, Hana Mekonen Tamiru, Dagnachew Mekonnen Marilign, Philipp Slusallek, Seid Muhie Yimam, Dietrich Klakow]]"
+first_author: "[[Israel Abebe Azime]]"
 last_author: "[[Dietrich Klakow]]"
-authors: "[[Israel Abebe Azime, Abenezer Kebede Angamo, Hana Mekonen Tamiru, Dagnachew Mekonnen Marilign, Philipp Slusallek, Seid Muhie Yimam, Dietrich Klakow]]"
+authors: Israel Abebe Azime; Abenezer Kebede Angamo; Hana Mekonen Tamiru; Dagnachew Mekonnen Marilign; Philipp Slusallek; Seid Muhie Yimam; Dietrich Klakow
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.02774"
 external_pdf: "https://arxiv.org/pdf/2602.02774.pdf"

@@ -3,7 +3,7 @@ name: "Reshmi Ghosh"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Institute of Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "Tiffany.Knearem@mbzuai.ac.ae"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -60,9 +60,9 @@ twitter: ""
 
 
 
-- [[2025-Group-AILuminate|AILuminate]]
+
+
 - [[2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment|ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs]]
-- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
 ## External Links & Profiles
 
@@ -93,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment*: Affiliation: University, qUniversity of Washington, Email: Tiffany.Knearem@mbzuai.ac.ae
+- *From 2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment*: Affiliation: University, qUniversity of Washington, Email: Tiffany.Knearem@mbzuai.ac.ae
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology

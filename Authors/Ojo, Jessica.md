@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs|IrokoBench -- A Benchmark for African Languages in the Age of LLMs]]
 - [[2023-Ojo-AfroBench - How Good are LLMs on African Languages|AfroBench -- How Good are LLMs on African Languages?]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Ojo-AfroBench - How Good are LLMs on African Languages*: Affiliation: Institute & McGill University, 2Canada CIFAR AI Chair, 3Lelapa AI
+- *From 2023-Ojo-AfroBench - How Good are LLMs on African Languages*: Affiliation: Institute & McGill University, 2Canada CIFAR AI Chair, 3Lelapa AI
 - *From 2023-Ojo-AfroBench - How Good are LLMs on African Languages*: Affiliation: Institute & McGill University, 2Canada CIFAR AI Chair, 3Lelapa AI
 - *From 2023-Ojo-AfroBench - How Good are LLMs on African Languages*: Affiliation: Institute & McGill University, 2Canada CIFAR AI Chair, 3Lelapa AI
 - *From 2023-Ojo-AfroBench - How Good are LLMs on African Languages*: Affiliation: Institute & McGill University, 2Canada CIFAR AI Chair, 3Lelapa AI

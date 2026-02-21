@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "Exploring cultural commonsense in multilingual large language models: A survey - Beijing Institute of Technology"
 year: 2025
 first_author: "[[Binegde, Geleta Negasa]]"
-last_author: "[[Zhang, Huaping]]"
+last_author: "[[Huaping Zhang]]"
 authors: Geleta Negasa Binegde; Huaping Zhang
 authors_incomplete: false
 url: "https://pure.bit.edu.cn/en/publications/exploring-cultural-commonsense-in-multilingual-large-language-mod/"

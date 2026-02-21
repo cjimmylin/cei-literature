@@ -16,8 +16,8 @@ type: preprint
 short_title: "Evaluating Polish Linguistic and Cultural Competency in Large Language Models"
 year: 2025
 first_author: "[[Slawomir Dadas]]"
-last_author: "[[Rafal Poswiata Michal Perelkiewicz]]"
-authors: "Slawomir Dadas, Malgorzata Grebowiec, Michal Perelkiewicz, Rafal Poswiata"
+last_author: "[[Rafal Poswiata]]"
+authors: Slawomir Dadas; Malgorzata Grebowiec; Michal Perelkiewicz; Rafal Poswiata
 url: "https://arxiv.org/abs/2503.00995"
 external_pdf: "https://arxiv.org/pdf/2503.00995.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Malgorzata Grebowiec Slawomir Dadas]], [[Rafal Poswiata Michal Perelkiewicz]]
+[[Slawomir Dadas]], [[Malgorzata Grebowiec]], [[Michal Perelkiewicz]], [[Rafal Poswiata]]
 
 ## Metadata
 

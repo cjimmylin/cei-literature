@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian|CALAMITA: Challenging the Abilities of LAnguage Models in ITAlian]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian*: Affiliation: University; 4 European University
+- *From 2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian*: Affiliation: University; 4 European University
 - *From 2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian*: Affiliation: University; 4 European University
 - *From 2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian*: Affiliation: University; 4 European University
 - *From 2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian*: Affiliation: University; 4 European University

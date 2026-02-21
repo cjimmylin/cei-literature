@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "Neural Modeling for Named Entities and Morphology (NEMO2)"
 year: 2021
 first_author: "[[Dan Bareket]]"
-last_author: "[[Reut Tsarfaty Dan Bareket]]"
-authors: "Dan Bareket, Reut Tsarfaty"
+last_author: "[[Reut Tsarfaty]]"
+authors: Dan Bareket; Reut Tsarfaty
 doi: 10.1162/tacl_a_00404
 url: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00404/107206"
 external_pdf: "https://arxiv.org/pdf/2007.15620"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Reut Tsarfaty Dan Bareket]]
+[[Dan Bareket]], [[Reut Tsarfaty]]
 
 ## Metadata
 

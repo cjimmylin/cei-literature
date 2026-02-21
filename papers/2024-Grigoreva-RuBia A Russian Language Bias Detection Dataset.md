@@ -16,7 +16,7 @@ short_title: "RuBia: A Russian Language Bias Detection Dataset"
 year: 2024
 first_author: "[[Grigoreva, Veronika]]"
 last_author: "[[Artemova, Ekaterina]]"
-authors: "[[Grigoreva, Veronika]]; [[Ivanova, Anastasiia]]; [[Alimova, Ilseyar]]; [[Artemova, Ekaterina]]"
+authors: "Grigoreva, Veronika; Ivanova, Anastasiia; Alimova, Ilseyar; Artemova, Ekaterina"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.17553"
 external_pdf: "https://arxiv.org/pdf/2403.17553.pdf"

@@ -19,9 +19,9 @@ key: EXSR0509
 type: preprint
 short_title: "Measuring Spiritual Values and Bias of"
 year: 2024
-first_author: "[[Songyuan Liu, and 5 others]]"
+first_author: "[[Songyuan Liu,]]"
 last_author: "[[5 others]]"
-authors: "[[Songyuan Liu,]]; [[5 others]]"
+authors: "Songyuan Liu,; 5 others"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.11647"
 external_pdf: "https://arxiv.org/pdf/2410.11647.pdf"

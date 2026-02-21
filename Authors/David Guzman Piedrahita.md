@@ -34,6 +34,8 @@ His work has examined fundamental questions about AI ethics including how langua
 
 
 
+
+
 - [[2025-Backmann-When Ethics and Payoffs Diverge|When Ethics and Payoffs Diverge]]
 - [[2025-Samway-Are Language Models Consequentialist or Deontological|Are LLMs Consequentialist or Deontological]]
 
@@ -44,6 +46,10 @@ His work has examined fundamental questions about AI ethics including how langua
 
 
 
+
+
+- *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch
+- *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: zjin@cs.toronto.edu
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: zjin@cs.toronto.edu

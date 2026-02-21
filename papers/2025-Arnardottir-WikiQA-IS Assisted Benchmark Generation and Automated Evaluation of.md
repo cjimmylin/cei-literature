@@ -15,7 +15,7 @@ short_title: "WikiQA-IS: Assisted Benchmark Generation and Automated Evaluation 
 year: 2025
 first_author: "[[Thorunn Arnardottir]]"
 last_author: "[[Hafsteinn Einarsson]]"
-authors: "Thorunn Arnardottir, Elias Bjartur Einarsson, Gardar Ingvarsson Juto, Thorvaldur Pall Helgason, Hafsteinn Einarsson"
+authors: Thorunn Arnardottir; Elias Bjartur Einarsson; Gardar Ingvarsson Juto; Thorvaldur Pall Helgason; Hafsteinn Einarsson
 url: "https://aclanthology.org/2025.resourceful-1.13/"
 external_pdf: "https://aclanthology.org/2025.resourceful-1.13.pdf"
 publication: "ACL Anthology / RESOURCEFUL 2025"

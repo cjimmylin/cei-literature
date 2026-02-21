@@ -18,7 +18,7 @@ short_title: "MATA mata Mindful Assessment of the"
 year: 2025
 first_author: "[[Kranti, Chalamalasetti]]"
 last_author: "[[Vajjala, Sowmya]]"
-authors: "[[Kranti, Chalamalasetti]]; [[Vajjala, Sowmya]]"
+authors: "Kranti, Chalamalasetti; Vajjala, Sowmya"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.13526"
 external_pdf: "https://arxiv.org/pdf/2508.13526.pdf"

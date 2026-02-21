@@ -17,7 +17,7 @@ short_title: "ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Lan
 year: 2024
 first_author: "[[Abaskohi, Amirhossein]]"
 last_author: "[[Yaghoobzadeh, Yadollah]]"
-authors: "[[Abaskohi, Amirhossein]]; [[Baruni, Sara]]; [[Masoudi, Mostafa]]; [[Abbasi, Nesa]]; [[Babalou, Mohammad Hadi]]; [[Edalat, Ali]]; [[Kamahi, Sepehr]]; [[Sani, Samin Mahdizadeh]]; [[Naghavian, Nikoo]]; [[Namazifard, Danial]]; [[Sadeghi, Pouya]]; [[Yaghoobzadeh, Yadollah]]"
+authors: "Abaskohi, Amirhossein; Baruni, Sara; Masoudi, Mostafa; Abbasi, Nesa; Babalou, Mohammad Hadi; Edalat, Ali; Kamahi, Sepehr; Sani, Samin Mahdizadeh; Naghavian, Nikoo; Namazifard, Danial; Sadeghi, Pouya; Yaghoobzadeh, Yadollah"
 authors_incomplete: false
 url: "https://github.com/ParsBench/ParsBench"
 external_pdf: "https://arxiv.org/pdf/2404.02403"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and|BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding and Cultural Knowledge]]
 - [[2024-Bang-BLEnD A Benchmark for LLMs on|BLEnD A Benchmark for LLMs on]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
+- *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University

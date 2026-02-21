@@ -15,7 +15,7 @@ short_title: CVC
 year: 2025
 first_author: "[[Ping Wu]]"
 last_author: "[[Zeng, Yi]]"
-authors: "[[Wu, Ping]]; [[Shen, Guobin]]; [[Zhao, Dongcheng]]; [[Wang, Yuwei]]; [[Dong, Yiting]]; [[Shi, Yu]]; [[Lu, Enmeng]]; [[Zhao, Feifei]]; [[Zeng, Yi]]"
+authors: "Wu, Ping; Shen, Guobin; Zhao, Dongcheng; Wang, Yuwei; Dong, Yiting; Shi, Yu; Lu, Enmeng; Zhao, Feifei; Zeng, Yi"
 doi: 10.48550/arXiv.2506.01495
 tags: 
 url: "http://arxiv.org/abs/2506.01495"

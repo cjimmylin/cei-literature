@@ -30,7 +30,10 @@ Anton Emelyanov is a researcher at Sber AI, contributing to the development of e
 
 
 
+
+
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
+- [[2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark|RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark]]
 
 ## Notes
 
@@ -39,6 +42,10 @@ Anton Emelyanov is a researcher at Sber AI, contributing to the development of e
 
 
 
+
+
+- *From 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark*: Affiliation: University Higher School of Economics / Moscow, Russia
+- *From 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark*: Affiliation: University Higher School of Economics / Moscow, Russia
 - *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 - *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 - *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com

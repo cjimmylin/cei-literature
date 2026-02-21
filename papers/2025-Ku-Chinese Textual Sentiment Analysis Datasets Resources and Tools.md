@@ -55,7 +55,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Lun‐Wei Ku]], [[Wei Chen|Wei-Fan Chen]]
+[[Lun‐Wei Ku]], [[Wei-Fan Chen]]
 
 ## Metadata
 

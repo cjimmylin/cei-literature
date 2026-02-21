@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "A Deep Learning Framework for Automatic Detection of Hate Speech Embedded in Arabic Tweets | Request PDF"
 year: 2024
 first_author: "[[Duwairi, Rehab]]"
-last_author: "[[Quwaider, Muhannad]]"
+last_author: "[[Muhannad Quwaider]]"
 authors: Rehab Duwairi; Amena Hayajneh; Muhannad Quwaider
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/349093400_A_Deep_Learning_Framework_for_Automatic_Detection_of_Hate_Speech_Embedded_in_Arabic_Tweets"

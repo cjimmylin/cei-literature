@@ -17,7 +17,7 @@ short_title: "Ce‐LLMs: Status and trends of education‐specific large languag
 year: 2025
 first_author: "[[Xie, Tao]]"
 last_author: "[[Yu, Jiazhen]]"
-authors: "[[Xie, Tao]]; [[Zhou, Yingli]]; [[Yu, Jiazhen]]"
+authors: "Xie, Tao; Zhou, Yingli; Yu, Jiazhen"
 authors_incomplete: false
 doi: 10.1002/fer3.70008
 url: "https://onlinelibrary.wiley.com/doi/10.1002/fer3.70008"

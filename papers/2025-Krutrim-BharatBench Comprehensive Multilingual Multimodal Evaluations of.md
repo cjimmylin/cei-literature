@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Not fully listed in search results (Ola Krutrim)]]
+[[Krutrim AI Team]]
 
 ## Metadata
 

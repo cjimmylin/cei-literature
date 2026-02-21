@@ -51,7 +51,11 @@ Dr. Hemmatian has published influential work on the persistence of bias in debia
 
 
 
+
+
 - [[2025-Keshmirian-Many LLMs Are More Utilitarian Than One|Many LLMs Are More Utilitarian Than One]]
+- [[2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT|Muslim-Violence Bias Persists in Debiased GPT]] (First Author)
+- [[2022-Varshney-Debiased Large Language Models Still Associate|Debiased Large Language Models Still Associate]] (First Author)
 
 ## External Links & Profiles
 
@@ -69,6 +73,10 @@ Dr. Hemmatian has published influential work on the persistence of bias in debia
 
 
 
+
+
+- *From 2022-Varshney-Debiased Large Language Models Still Associate*: Affiliation: Institute for Advanced Science and Technology, University of Illinois Urbana-Champaign
+- *From 2022-Varshney-Debiased Large Language Models Still Associate*: Affiliation: Institute for Advanced Science and Technology, University of Illinois Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign

@@ -16,9 +16,9 @@ key: EXSR0051
 type: preprint
 short_title: "Exploring Cultural Variations in Moral Judgments with Large Language Models"
 year: 2025
-first_author: "[[H. Mohammadi]]"
-last_author: "[[A]]"
-authors: "Mohammadi, H., & Bagheri, A"
+first_author: "[[Hadi Mohammadi]]"
+last_author: "[[A & Bagheri]]"
+authors: "Hadi Mohammadi; A & Bagheri"
 url: "https://arxiv.org/abs/2506.12433"
 external_pdf: "https://arxiv.org/pdf/2506.12433.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Mohammadi]], [[H.]], [[& Bagheri]], [[A]]
+[[Hadi Mohammadi]], [[A & Bagheri]]
 
 ## Metadata
 

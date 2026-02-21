@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -|Bypassing LLM guardrails: character and AML attacks in practice - Mindgard]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -*:, Email: neeraj.suri@lancaster.ac.uk
+- *From 2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -*:, Email: neeraj.suri@lancaster.ac.uk
 - *From 2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -*:, Email: neeraj.suri@lancaster.ac.uk
 - *From 2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -*:, Email: neeraj.suri@lancaster.ac.uk
 - *From 2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -*:, Email: neeraj.suri@lancaster.ac.uk

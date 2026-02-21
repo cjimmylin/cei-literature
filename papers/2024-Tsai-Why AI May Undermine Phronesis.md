@@ -15,7 +15,7 @@ short_title: "Why AI May Undermine Phronesis"
 year: 2024
 first_author: "[[Cheng-hung Tsai]]"
 last_author: "[[Ku, Hsiu-lin]]"
-authors: "[[Tsai, Cheng-hung]]; [[Ku, Hsiu-lin]]"
+authors: "Tsai, Cheng-hung; Ku, Hsiu-lin"
 doi: 10.1007/s43681-024-00617-0
 url: "https://link.springer.com/article/10.1007/s43681-024-00617-0"
 pdf_extract: "PDF Extracts/2024/2024-Tsai-Why AI May Undermine Phronesis.md"

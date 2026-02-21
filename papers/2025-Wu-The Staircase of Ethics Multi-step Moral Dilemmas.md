@@ -18,7 +18,7 @@ short_title: "The Staircase of Ethics (Multi-step Moral Dilemmas)"
 year: 2025
 first_author: "[[Wu, Ya]]"
 last_author: "[[Cao, Juan]]"
-authors: "[[Wu, Ya]]; [[Sheng, Qiang]]; [[Wang, Danding]]; [[Yang, Guang]]; [[Sun, Yifan]]; [[Wang, Zhengjia]]; [[Bu, Yuyan]]; [[Cao, Juan]]"
+authors: "Wu, Ya; Sheng, Qiang; Wang, Danding; Yang, Guang; Sun, Yifan; Wang, Zhengjia; Bu, Yuyan; Cao, Juan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.18154"
 external_pdf: "https://arxiv.org/pdf/2505.18154.pdf"

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Myung-PapersPlease|PapersPlease]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
+- *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
 - *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
 - *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
 - *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu

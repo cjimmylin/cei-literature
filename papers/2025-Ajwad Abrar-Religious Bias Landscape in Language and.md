@@ -19,7 +19,7 @@ short_title: "Religious Bias Landscape in Language and"
 year: 2025
 first_author: "[[Ajwad Abrar,]]"
 last_author: "[[Ajwad Abrar]]"
-authors: "[[Ajwad Abrar,]]"
+authors: Ajwad Abrar
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.08441"
 external_pdf: "https://arxiv.org/pdf/2501.08441.pdf"

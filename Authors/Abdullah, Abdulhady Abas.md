@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity|KurdSTS: The Kurdish Semantic Textual Similarity]] (First Author)
 - [[2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment|KuBERT: Central Kurdish BERT Model and Its Application for Sentiment Analysis]] (Last Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity*: Affiliation: Centre, University of Kurdistan Hewler, Erbil, Iraq, Email: hussein.mohammedali@ukh.edu.krd
+- *From 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity*: Affiliation: Centre, University of Kurdistan Hewler, Erbil, Iraq, Email: hussein.mohammedali@ukh.edu.krd
 - *From 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity*: Affiliation: Centre, University of Kurdistan Hewler, Erbil, Iraq, Email: h.veisi@ut.ac.ir
 - *From 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity*: Affiliation: Centre, University of Kurdistan Hewler, Erbil, Iraq, Email: abdulhady.abas@ukh.edu.krd
 - *From 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity*: Affiliation: Centre, University of Kurdistan Hewler, Erbil, Iraq, Email: hussein.mohammedali@ukh.edu.krd

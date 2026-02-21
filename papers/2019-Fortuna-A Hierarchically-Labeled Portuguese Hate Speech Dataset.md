@@ -19,7 +19,7 @@ short_title: "A Hierarchically-Labeled Portuguese Hate Speech Dataset"
 year: 2019
 first_author: "[[Paula Fortuna]]"
 last_author: "[[Sérgio Nunes]]"
-authors: "Paula Fortuna, João Rocha da Silva, Juan Soler-Company, Leo Wanner, Sérgio Nunes"
+authors: Paula Fortuna; João Rocha da Silva; Juan Soler-Company; Leo Wanner; Sérgio Nunes
 url: "https://aclanthology.org/W19-3510/"
 external_pdf: "https://www.aclweb.org/anthology/W19-3510.pdf"
 publication: "ACL Anthology (ALW3 Workshop 2019)"

@@ -22,7 +22,7 @@ short_title: "Modeling the Sacred Considerations when Using"
 year: 2024
 first_author: "[[Hutchinson, Ben]]"
 last_author: "[[Ben Hutchinson]]"
-authors: "[[Ben Hutchinson]]"
+authors: Ben Hutchinson
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.14740"
 external_pdf: "https://arxiv.org/pdf/2404.14740.pdf"

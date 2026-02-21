@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18|CodeMixBench: Evaluating Code-Mixing Capabilities of LLMs Across 18 Languages]] (First Author)
 - [[2025-Yang-CodeMixBench Evaluating Large Language Models on Code Generation with|CodeMixBench: Evaluating Large Language Models on Code Generation with Code-Mixed Prompts]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18*: Affiliation: lable at https://, Email: jeromeyluck@gmail.com
+- *From 2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18*: Affiliation: lable at https://, Email: jeromeyluck@gmail.com
 - *From 2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18*: Affiliation: lable at https://, Email: yechai@ethz.ch
 - *From 2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18*: Affiliation: lable at https://, Email: jeromeyluck@gmail.com
 - *From 2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18*: Affiliation: lable at https://, Email: jeromeyluck@gmail.com

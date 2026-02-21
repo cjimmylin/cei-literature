@@ -1,7 +1,7 @@
 ---
 name: "Seker"
 title: "Current Position"
-affiliation: "University/Organization"
+affiliation: "Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342"
 research_interests:
   - "Primary Research Area"
 website: ""
@@ -17,7 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2025-Seker-HATECAT-TR A Hate Speech Span Detection|HATECAT-TR A Hate Speech Span Detection]] (First Author)
 
 ## Notes
 
+
+
+- *From 2025-Seker-HATECAT-TR A Hate Speech Span Detection*: Affiliation: Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342, Email: gokce.uludogan@bogazici.edu.tr
+- *From 2025-Seker-HATECAT-TR A Hate Speech Span Detection*: Affiliation: Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342, Email: gokce.uludogan@bogazici.edu.tr

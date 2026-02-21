@@ -17,7 +17,7 @@ short_title: "Beyond Monolingual Assumptions: A Survey of Code-Switched NLP in t
 year: 2025
 first_author: "[[Sheth, Rajvee]]"
 last_author: "[[Singh, Mayank]]"
-authors: "[[Sheth, Rajvee]]; [[Sinha, Samridhi Raj]]; [[Patil, Mahavir]]; [[Beniwal, Himanshu]]; [[Singh, Mayank]]"
+authors: "Sheth, Rajvee; Sinha, Samridhi Raj; Patil, Mahavir; Beniwal, Himanshu; Singh, Mayank"
 authors_incomplete: false
 url: "https://arxiv.org/html/2510.07037v1"
 external_pdf: "https://arxiv.org/pdf/2510.07037.pdf"

@@ -22,7 +22,10 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Bang-HalluLens LLM Hallucination Benchmark|HalluLens: LLM Hallucination Benchmark]] (Last Author)
+- [[2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said|Measuring Political Bias in LLMs: What Is Said and How It Is Said]] (Last Author)
 - [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in]] (Last Author)
 - [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary]] (Last Author)
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
@@ -38,6 +41,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
+- *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology

@@ -14,7 +14,7 @@ short_title: "Can Robotic AI Be Virtuous"
 year: 2022
 first_author: "[[Mihaela Constantinescu]]"
 last_author: "[[Crisp, Roger]]"
-authors: "[[Constantinescu, Mihaela]]; [[Crisp, Roger]]"
+authors: "Constantinescu, Mihaela; Crisp, Roger"
 doi: 10.1007/s12369-022-00887-w
 url: "https://link.springer.com/article/10.1007/s12369-022-00887-w"
 pdf_extract: "PDF Extracts/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.md"

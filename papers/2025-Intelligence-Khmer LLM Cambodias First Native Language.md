@@ -18,7 +18,7 @@ short_title: "Khmer LLM Cambodias First Native Language"
 year: 2025
 first_author: "[[Intelligence, AI Angkor]]"
 last_author: "[[AI Angkor Intelligence]]"
-authors: "[[AI Angkor Intelligence]]"
+authors: AI Angkor Intelligence
 authors_incomplete: false
 url: "https://www.angkor-intelligence.com/projects/khmer-llm"
 external_pdf: 

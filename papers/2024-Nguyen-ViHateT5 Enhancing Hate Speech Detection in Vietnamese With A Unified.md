@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2024"
 
 ## Authors
 
-[[Long Nguyen|Luan Thanh Nguyen]]
+[[Luan Thanh Nguyen]]
 
 ## Metadata
 

@@ -15,7 +15,7 @@ short_title: "Beyond Human Norms"
 year: 2024
 first_author: "[[Pablo Biedma]]"
 last_author: "[[Xie, Xing]]"
-authors: "[[Biedma, Pablo]]; [[Yi, Xiaoyuan]]; [[Huang, Linus]]; [[Sun, Maosong]]; [[Xie, Xing]]"
+authors: "Biedma, Pablo; Yi, Xiaoyuan; Huang, Linus; Sun, Maosong; Xie, Xing"
 doi: 10.48550/arXiv.2404.12744
 url: "http://arxiv.org/abs/2404.12744"
 pdf_extract: "PDF Extracts/2024/2024-Biedma-Beyond Human Norms.md"

@@ -17,7 +17,7 @@ short_title: "Lugha-Llama Adapting Large Language Models for"
 year: 2025
 first_author: "[[Buzaaba, Happy]]"
 last_author: "[[Fellbaum, Christiane]]"
-authors: "[[Buzaaba, Happy]]; [[Wettig, Alexander]]; [[Adelani, David Ifeoluwa]]; [[Fellbaum, Christiane]]"
+authors: "Buzaaba, Happy; Wettig, Alexander; Adelani, David Ifeoluwa; Fellbaum, Christiane"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.06536"
 external_pdf: "https://arxiv.org/pdf/2504.06536.pdf"

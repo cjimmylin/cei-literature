@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Hua-TrustAgent|TrustAgent]] (Last Author)
 - [[2024-Ji-MoralBench|MoralBench]] (Last Author)
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick
+- *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick
 - *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick
 - *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick
 - *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick

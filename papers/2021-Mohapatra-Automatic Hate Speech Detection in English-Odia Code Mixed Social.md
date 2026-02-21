@@ -17,7 +17,7 @@ short_title: "Automatic Hate Speech Detection in English-Odia Code Mixed Social 
 year: 2021
 first_author: "[[Mohapatra, Sudhir Kumar]]"
 last_author: "[[Hu, Yuh-Chung]]"
-authors: "[[Mohapatra, Sudhir Kumar]]; [[Prasad, S.]]; [[Bebarta, D. K.]]; [[Das, T. K.]]; [[Srinivasan, Kathiravan]]; [[Hu, Yuh-Chung]]"
+authors: "Mohapatra, Sudhir Kumar; Prasad, S.; Bebarta, D. K.; Das, T. K.; Srinivasan, Kathiravan; Hu, Yuh-Chung"
 authors_incomplete: false
 doi: 10.3390/app11188575
 url: "https://www.mdpi.com/2076-3417/11/18/8575"

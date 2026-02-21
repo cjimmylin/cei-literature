@@ -1,9 +1,9 @@
 ---
 name: "Anoop Kunchukuttan"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Copenhagen"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "2ankunchu@microsoft.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2024-Gala-Airavata Introducing Hindi Instruction-tuned LLM|Airavata Introducing Hindi Instruction-tuned LLM]] (Last Author)
+- [[2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit|Itihasa A Large-Scale Corpus for Sanskrit]]
 
 ## External Links & Profiles
 
@@ -84,6 +87,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit*: Affiliation: University of Copenhagen, Email: 2ankunchu@microsoft.com
+- *From 2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit*: Affiliation: University of Copenhagen, Email: 2ankunchu@microsoft.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

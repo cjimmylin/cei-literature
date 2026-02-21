@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Banerjee-SafeInfer|SafeInfer]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Banerjee-SafeInfer*: Affiliation: Institute of Technology Kharagpur, India, Email: rima_hazra@sutd.edu.sg
+- *From 2025-Banerjee-SafeInfer*: Affiliation: Institute of Technology Kharagpur, India, Email: rima_hazra@sutd.edu.sg
 - *From 2025-Banerjee-SafeInfer*: Affiliation: Institute of Technology Kharagpur, India, Email: Shanu.Kumar@microsoft.com
 - *From 2025-Banerjee-SafeInfer*: Affiliation: Institute of Technology Kharagpur, India, Email: Shanu.Kumar@microsoft.com
 - *From 2025-Banerjee-SafeInfer*: Affiliation: Institute of Technology Kharagpur, India, Email: rima_hazra@sutd.edu.sg

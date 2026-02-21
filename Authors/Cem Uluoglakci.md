@@ -51,6 +51,8 @@ Uluoglakci's work on hallucination tendency provides critical tools for the "AI 
 
 
 
+
+
 - [[2024-Uluoglakci-HypoTermQA|HypoTermQA]] (First Author)
 
 ## External Links & Profiles
@@ -64,6 +66,10 @@ Uluoglakci's work on hallucination tendency provides critical tools for the "AI 
 
 
 
+
+
+- *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: cemuluoglakci@gmail.com
+- *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: cemuluoglakci@gmail.com
 - *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: ttemizel@metu.edu.tr
 - *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: ttemizel@metu.edu.tr
 - *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: cemuluoglakci@gmail.com

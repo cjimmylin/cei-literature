@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs|Made-in China, Thinking in America: U.S. Values Persist in Chinese LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs*: Affiliation: University of Science and Technology
+- *From 2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs*: Affiliation: University of Science and Technology
 - *From 2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs*: Affiliation: University of Science and Technology
 - *From 2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs*: Affiliation: University of Science and Technology
 - *From 2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs*: Affiliation: University of Science and Technology

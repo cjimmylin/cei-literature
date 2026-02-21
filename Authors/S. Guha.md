@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of|The 'Colonial Impulse' of Natural Language Processing: An Audit of Bengali Sentiment Analysis Tools and Their Identity-based Biases]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of*: Affiliation: Department of Information Science, University of Colorado Boulder, United States
+- *From 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of*: Affiliation: Department of Information Science, University of Colorado Boulder, United States
 - *From 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of*: Affiliation: Department of Information Science, University of Colorado Boulder, United States
 - *From 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of*: Affiliation: Department of Information Science, University of Colorado Boulder, United States
 - *From 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of*: Affiliation: Department of Information Science, University of Colorado Boulder, United States

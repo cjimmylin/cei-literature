@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Aravinda-SinLlama A Large Language Model for Sinhala|SinLlama: A Large Language Model for Sinhala]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Aravinda-SinLlama A Large Language Model for Sinhala*: Affiliation: University of Moratuwa, Sri Lanka, Email: rishemjit.kaur@csio.res.in
+- *From 2025-Aravinda-SinLlama A Large Language Model for Sinhala*: Affiliation: University of Moratuwa, Sri Lanka, Email: rishemjit.kaur@csio.res.in
 - *From 2025-Aravinda-SinLlama A Large Language Model for Sinhala*: Affiliation: University of Moratuwa, Sri Lanka, Email: rishemjit.kaur@csio.res.in
 - *From 2025-Aravinda-SinLlama A Large Language Model for Sinhala*: Affiliation: University of Moratuwa, Sri Lanka, Email: abhankhar_be20@thapar.edu
 - *From 2025-Aravinda-SinLlama A Large Language Model for Sinhala*: Affiliation: University of Moratuwa, Sri Lanka, Email: rishemjit.kaur@csio.res.in

@@ -30,6 +30,8 @@ The research highlights how domain-specific datasets, particularly those from re
 
 
 
+
+
 - [[2024-Wong-The Humanistic Buddhism Corpus (HBC)|The Humanistic Buddhism Corpus (HBC)]] (First Author)
 
 ## Notes
@@ -39,6 +41,10 @@ The research highlights how domain-specific datasets, particularly those from re
 
 
 
+
+
+- *From 2024-Wong-The Humanistic Buddhism Corpus (HBC)*: Affiliation: University of Illinois Chicago
+- *From 2024-Wong-The Humanistic Buddhism Corpus (HBC)*: Affiliation: University of Illinois Chicago
 - *From 2024-Wong-The Humanistic Buddhism Corpus (HBC)*: Affiliation: University of Illinois Chicago
 - *From 2024-Wong-The Humanistic Buddhism Corpus (HBC)*: Affiliation: University of Illinois Chicago
 - *From 2024-Wong-The Humanistic Buddhism Corpus (HBC)*: Affiliation: University of Illinois Chicago

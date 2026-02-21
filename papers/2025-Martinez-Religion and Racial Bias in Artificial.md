@@ -19,9 +19,9 @@ key: EXSR0421
 type: preprint
 short_title: "Religion and Racial Bias in Artificial"
 year: 2025
-first_author: "[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]"
+first_author: "[[Joshua C. Tom]]"
 last_author: "[[Brandon C. Martinez]]"
-authors: "[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]"
+authors: Joshua C. Tom; Todd W. Ferguson; Brandon C. Martinez
 authors_incomplete: false
 url: "https://doi.org/10.1177/23780231251377210"
 doi: 10.1177/23780231251377210

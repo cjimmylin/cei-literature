@@ -17,7 +17,7 @@ short_title: "Full article: Artificial intelligence tools and literary translati
 year: 2025
 first_author: "[[Abdelhalim, S.]]"
 last_author: "[[Alsuhaibani, Zainab]]"
-authors: "[[Abdelhalim, S.]]; [[Alsahil, Asma A.]]; [[Alsuhaibani, Zainab]]"
+authors: "Abdelhalim, S.; Alsahil, Asma A.; Alsuhaibani, Zainab"
 authors_incomplete: false
 doi: 10.1080/23311983.2025.2508031
 url: "https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2508031"

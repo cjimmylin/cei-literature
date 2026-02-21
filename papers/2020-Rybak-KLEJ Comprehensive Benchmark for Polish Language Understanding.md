@@ -15,8 +15,8 @@ type: preprint
 short_title: "KLEJ: Comprehensive Benchmark for Polish Language Understanding"
 year: 2020
 first_author: "[[Piotr Rybak]]"
-last_author: "[[Ireneusz Gawlik Janusz Tracz]]"
-authors: "Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik"
+last_author: "[[Ireneusz Gawlik]]"
+authors: Piotr Rybak; Robert Mroczkowski; Janusz Tracz; Ireneusz Gawlik
 url: "https://arxiv.org/abs/2005.00630"
 external_pdf: "https://arxiv.org/pdf/2005.00630.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md"
@@ -51,7 +51,7 @@ CONFERENCE: "ACL 2020"
 
 ## Authors
 
-[[Robert Mroczkowski Piotr Rybak]], [[Ireneusz Gawlik Janusz Tracz]]
+[[Piotr Rybak]], [[Robert Mroczkowski]], [[Janusz Tracz]], [[Ireneusz Gawlik]]
 
 ## Metadata
 

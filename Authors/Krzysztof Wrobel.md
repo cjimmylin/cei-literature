@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM|Bielik Guard: Efficient Polish Language Safety Classifiers for LLM Content Moderation]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM*: Affiliation: label classification
+- *From 2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM*: Affiliation: label classification
 - *From 2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM*: Affiliation: label classification
 - *From 2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM*: Affiliation: label classification
 - *From 2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM*: Affiliation: label classification

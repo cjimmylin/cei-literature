@@ -3,7 +3,7 @@ name: "Oliver Hellwig"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "University D¨usseldorf"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "oliver.hellwig@uzh.ch"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2024-Hellwig-The Vedic Compound Dataset|The Vedic Compound Dataset]] (Last Author)
 - [[2024-Keutzer-One Model is All You Need|One Model is All You Need]]
 
 ## External Links & Profiles
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Hellwig-The Vedic Compound Dataset*: Affiliation: Institute of Oriental Studies, Adam Mickiewicz University Poznań, Email: oliver.hellwig@uzh.ch
+- *From 2024-Hellwig-The Vedic Compound Dataset*: Affiliation: Institute of Oriental Studies, Adam Mickiewicz University Poznań, Email: oliver.hellwig@uzh.ch
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf

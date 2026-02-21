@@ -22,8 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Karpov-Inducing Human-like Biases in Moral Reasoning|Inducing Human-like Biases in Moral Reasoning]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## Notes
 
@@ -32,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
+- *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 - *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 - *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 - *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware

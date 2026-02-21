@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for|DaKultur: Evaluating the Cultural Awareness of Language Models for Danish with Native Speakers]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for*: Affiliation: University of Copenhagen, Denmark, Email: jjz@cs.aau.dk
+- *From 2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for*: Affiliation: University of Copenhagen, Denmark, Email: jjz@cs.aau.dk
 - *From 2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for*: Affiliation: University of Copenhagen, Denmark, Email: mamy@itu.dk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

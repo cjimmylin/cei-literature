@@ -59,7 +59,8 @@ twitter: ""
 
 
 
-- [[2025-Yu-MSLR-Bench Multi-Step Legal Reasoning|MSLR-Bench (Multi-Step Legal Reasoning)]] (Last Author)
+
+
 - [[2025-Zhang-AISafetyLab|AISafetyLab]]
 
 ## External Links & Profiles
@@ -90,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zhang-AISafetyLab*: Affiliation: Lab - PDF Extract", Email: zx-zhang22@mails.tsinghua.edu.cn
+- *From 2025-Zhang-AISafetyLab*: Affiliation: Lab - PDF Extract", Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2025-Zhang-AISafetyLab*: Affiliation: Lab - PDF Extract", Email: aihuang@tsinghua.edu.cn
 - *From 2025-Zhang-AISafetyLab*: Affiliation: Lab - PDF Extract", Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2025-Zhang-AISafetyLab*: Affiliation: Lab - PDF Extract", Email: zx-zhang22@mails.tsinghua.edu.cn

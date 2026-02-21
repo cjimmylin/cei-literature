@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU|Measuring Hong Kong Massive Multi-Task Language Understanding (HKMMLU)]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU*: Affiliation: University of Science and Technology, 2Peking University, Email: ccaoai@connect.ust.hk
+- *From 2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU*: Affiliation: University of Science and Technology, 2Peking University, Email: ccaoai@connect.ust.hk
 - *From 2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU*: Affiliation: University of Science and Technology, 2Peking University, Email: ccaoai@connect.ust.hk
 - *From 2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU*: Affiliation: University of Science and Technology, 2Peking University, Email: ccaoai@connect.ust.hk
 - *From 2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU*: Affiliation: University of Science and Technology, 2Peking University, Email: ccaoai@connect.ust.hk

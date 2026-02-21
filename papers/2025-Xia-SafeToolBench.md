@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: SafeToolBench
 year: 2025
 first_author: "[[Hongfei Xia]]"
-last_author: "[[Haifeng Wang Yuhang Guo]]"
-authors: "Hongfei Xia, Hongru Wang, Zeming Liu, Qian Yu, Yuhang Guo, Haifeng Wang"
+last_author: "[[Haifeng Wang]]"
+authors: Hongfei Xia; Hongru Wang; Zeming Liu; Qian Yu; Yuhang Guo; Haifeng Wang
 url: "https://arxiv.org/abs/2509.07315"
 external_pdf: "https://arxiv.org/pdf/2509.07315.pdf"
 pdf_extract: "PDF Extracts/0000/2025-Xia-SafeToolBench.md"
@@ -53,7 +53,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Hongru Wang Hongfei Xia]], [[Qun Liu|Qian Yu Zeming Liu]], [[Haifeng Wang Yuhang Guo]]
+[[Hongfei Xia]], [[Hongru Wang]], [[Zeming Liu]], [[Qian Yu]], [[Yuhang Guo]], [[Haifeng Wang]]
 
 ## Metadata
 

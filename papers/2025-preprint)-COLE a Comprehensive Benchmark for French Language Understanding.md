@@ -16,7 +16,7 @@ short_title: "COLE: a Comprehensive Benchmark for French Language Understanding 
 year: 2025
 first_author: "[[Beauchemin, David]]"
 last_author: "[[Khoury, Richard]]"
-authors: "[[Beauchemin, David]]; [[Tremblay, Yan]]; [[Youssef, Mohamed Amine]]; [[Khoury, Richard]]"
+authors: "Beauchemin, David; Tremblay, Yan; Youssef, Mohamed Amine; Khoury, Richard"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.05046"
 external_pdf: "https://arxiv.org/pdf/2510.05046.pdf"

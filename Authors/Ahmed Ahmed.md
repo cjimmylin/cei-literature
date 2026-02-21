@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Kaiyom-HELM Safety|HELM Safety]]
 
@@ -90,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Kaiyom-HELM Safety*: Affiliation: Institute recently reported
+- *From 2024-Kaiyom-HELM Safety*: Affiliation: Institute recently reported
 - *From 2024-Kaiyom-HELM Safety*: Affiliation: Institute recently reported
 - *From 2024-Kaiyom-HELM Safety*: Affiliation: Institute recently reported
 - *From 2024-Kaiyom-HELM Safety*: Affiliation: Institute recently reported

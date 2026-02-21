@@ -26,6 +26,8 @@ Bryan Wilie is a researcher at the Center for Artificial Intelligence Research (
 
 
 
+
+
 - [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in]]
 - [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary]]
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
@@ -39,6 +41,10 @@ Bryan Wilie is a researcher at the Center for Artificial Intelligence Research (
 
 
 
+
+
+- *From 2023-Bang-Towards Answering Open-ended Ethical Quandary*: Affiliation: Center for Artiﬁcial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology, Email: hkee@cuhk.edu.hk
+- *From 2023-Bang-Towards Answering Open-ended Ethical Quandary*: Affiliation: Center for Artiﬁcial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology, Email: hkee@cuhk.edu.hk
 - *From 2023-Bang-Towards Answering Open-ended Ethical Quandary*: Affiliation: Center for Artiﬁcial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology, Email: pascale@ece.ust.hk
 - *From 2023-Bang-Towards Answering Open-ended Ethical Quandary*: Affiliation: Center for Artiﬁcial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology, Email: hkee@cuhk.edu.hk
 - *From 2023-Bang-Towards Answering Open-ended Ethical Quandary*: Affiliation: Center for Artiﬁcial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology, Email: pascale@ece.ust.hk

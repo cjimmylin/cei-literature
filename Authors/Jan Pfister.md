@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language|LLaMmlein: Transparent, Compact and Competitive German-Only Language Models from Scratch]] (First Author)
+- [[2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark|SuperGLEBer: German Language Understanding Evaluation Benchmark]] (First Author)
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language*: Affiliation: Center for Artificial Intelligence and Data Science (CAIDAS)
+- *From 2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language*: Affiliation: Center for Artificial Intelligence and Data Science (CAIDAS)
 - *From 2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language*: Affiliation: Center for Artificial Intelligence and Data Science (CAIDAS)
 - *From 2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language*: Affiliation: Center for Artificial Intelligence and Data Science (CAIDAS)
 - *From 2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language*: Affiliation: Center for Artificial Intelligence and Data Science (CAIDAS)

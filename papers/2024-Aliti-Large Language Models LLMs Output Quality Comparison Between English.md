@@ -14,9 +14,9 @@ key: LSRC0545
 type: conferencePaper
 short_title: "Large Language Models (LLMs) Output Quality: Comparison Between English and Albanian"
 year: 2024
-first_author: "[[Aliti, Admirim]]"
-last_author: "[[Admirim Aliti]]"
-authors: "[[Aliti, Admirim]]"
+first_author: "[[Aliti]]"
+last_author: "[[Admirim]]"
+authors: Aliti; Admirim
 authors_incomplete: true
 url: "https://www.researchgate.net/publication/384927770_Large_Language_Models_LLMs_Output_Quality_Comparison_Between_English_and_Albanian"
 external_pdf: "https://arxiv.org/pdf/2307.05782v2.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Admirim Aliti]]
+[[Aliti]], [[Admirim]]
 
 ## Metadata
 

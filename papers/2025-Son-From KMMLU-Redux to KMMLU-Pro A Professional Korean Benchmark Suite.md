@@ -16,8 +16,8 @@ type: preprint
 short_title: "From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation"
 year: 2025
 first_author: "[[Guijin Son]]"
-last_author: "[[Hanwool Lee Suwan Kim]]"
-authors: "Guijin Son, Hyunwoo Ko, Suwan Kim, Hanwool Lee"
+last_author: "[[Hanwool Lee]]"
+authors: Guijin Son; Hyunwoo Ko; Suwan Kim; Hanwool Lee
 url: "https://arxiv.org/abs/2507.08924"
 external_pdf: "https://arxiv.org/pdf/2507.08924.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Hyunwoo Ko Guijin Son]], [[Hanwool Lee Suwan Kim]]
+[[Guijin Son]], [[Hyunwoo Ko]], [[Suwan Kim]], [[Hanwool Lee]]
 
 ## Metadata
 

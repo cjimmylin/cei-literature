@@ -16,7 +16,7 @@ short_title: "The State of Multilingual LLM Safety Research: From Measuring the 
 year: 2025
 first_author: "[[Yong, Zheng-Xin]]"
 last_author: "[[Kreutzer, Julia]]"
-authors: "[[Yong, Zheng-Xin]]; [[Ermis, Beyza]]; [[Fadaee, Marzieh]]; [[Bach, Stephen H.]]; [[Kreutzer, Julia]]"
+authors: "Yong, Zheng-Xin; Ermis, Beyza; Fadaee, Marzieh; Bach, Stephen H.; Kreutzer, Julia"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.24119"
 external_pdf: "https://arxiv.org/pdf/2505.24119.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Yong, Zheng-Xin]], [[Beyza Ermis|Ermis, Beyza]], [[Marzieh Fadaee|Fadaee, Marzieh]], [[Bach, Stephen H]], [[Julia Kreutzer|Kreutzer, Julia]]
+[[Yong, Zheng-Xin]], [[Beyza Ermis|Ermis, Beyza]], [[Marzieh Fadaee|Fadaee, Marzieh]], [[Bach, Stephen H]], [[Kreutzer, Julia]]
 
 ## Metadata
 

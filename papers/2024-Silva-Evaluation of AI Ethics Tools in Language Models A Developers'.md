@@ -17,7 +17,7 @@ short_title: "Evaluation of AI Ethics Tools in Language Models: A Developers' Pe
 year: 2024
 first_author: "[[Jhessica Silva]]"
 last_author: "[[Helio Pedrini]]"
-authors: "[[Jhessica Silva]]; [[Diego A. B. Moreira]]; [[Gabriel O. dos Santos]]; [[Alef Ferreira]]; [[Helena Maia]]; [[Sandra Avila]]; [[Helio Pedrini]]"
+authors: Jhessica Silva; Diego A. B. Moreira; Gabriel O. dos Santos; Alef Ferreira; Helena Maia; Sandra Avila; Helio Pedrini
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.15791"
 external_pdf: "https://arxiv.org/pdf/2512.15791.pdf"

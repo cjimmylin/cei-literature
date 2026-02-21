@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Wu-Chain-of-Ethics Defense Framework Wu et al.|Chain-of-Ethics: Defense Framework (Wu et al.)]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Wu-Chain-of-Ethics Defense Framework Wu et al.*: Affiliation: Department of Central Laboratory, Shanghai Children’s Hospital, School of Medicine, Shanghai Jiaotong, Email: jijiacheng2000@126.com.
+- *From 2025-Wu-Chain-of-Ethics Defense Framework Wu et al.*: Affiliation: Department of Central Laboratory, Shanghai Children’s Hospital, School of Medicine, Shanghai Jiaotong, Email: jijiacheng2000@126.com.
 - *From 2025-Wu-Chain-of-Ethics Defense Framework Wu et al.*: Affiliation: Department of Central Laboratory, Shanghai Children’s Hospital, School of Medicine, Shanghai Jiaotong, Email: 24210160035@m.fudan.edu.cn.
 - *From 2025-Wu-Chain-of-Ethics Defense Framework Wu et al.*: Affiliation: Department of Central Laboratory, Shanghai Children’s Hospital, School of Medicine, Shanghai Jiaotong, Email: 24260160005@m.fudan.edu.cn.
 - *From 2025-Wu-Chain-of-Ethics Defense Framework Wu et al.*: Affiliation: Department of Central Laboratory, Shanghai Children’s Hospital, School of Medicine, Shanghai Jiaotong, Email: jijiacheng2000@126.com.

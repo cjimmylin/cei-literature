@@ -16,9 +16,9 @@ key: EXSR0312
 type: preprint
 short_title: "TurkBench A Benchmark for Evaluating Turkish"
 year: 2026
-first_author: "[[Cagri Toraman, Ahmet Kaan Sever, Ayse Aysu Cengiz, Elif Ecem Arslan, Gorkem Sevinc, Mete Mert Birdal, Yusuf Faruk Guldemir, Ali Bugra Kanburoglu, Sezen Felekoglu, Osman Gurlek, Sarp Kantar, Birsen Sahin Kutuk, Busra Tufan, Elif Genc, Serkan Coskun, Gupse Ekin Demir, Muhammed Emin Arayici, Olgun Dursun, Onur Gungor, Susan Uskudarli, Abdullah Topraksoy, Esra Darici]]"
-last_author: "[[Esra Darici Abdullah Topraksoy]]"
-authors: "[[Cagri Toraman, Ahmet Kaan Sever, Ayse Aysu Cengiz, Elif Ecem Arslan, Gorkem Sevinc, Mete Mert Birdal, Yusuf Faruk Guldemir, Ali Bugra Kanburoglu, Sezen Felekoglu, Osman Gurlek, Sarp Kantar, Birsen Sahin Kutuk, Busra Tufan, Elif Genc, Serkan Coskun, Gupse Ekin Demir, Muhammed Emin Arayici, Olgun Dursun, Onur Gungor, Susan Uskudarli, Abdullah Topraksoy, Esra Darici]]"
+first_author: "[[Cagri Toraman]]"
+last_author: "[[Esra Darici]]"
+authors: Cagri Toraman; Ahmet Kaan Sever; Ayse Aysu Cengiz; Elif Ecem Arslan; Gorkem Sevinc; Mete Mert Birdal; Yusuf Faruk Guldemir; Ali Bugra Kanburoglu; Sezen Felekoglu; Osman Gurlek; Sarp Kantar; Birsen Sahin Kutuk; Busra Tufan; Elif Genc; Serkan Coskun; Gupse Ekin Demir; Muhammed Emin Arayici; Olgun Dursun; Onur Gungor; Susan Uskudarli; Abdullah Topraksoy; Esra Darici
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.07020"
 external_pdf: "https://arxiv.org/pdf/2601.07020.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Ahmet Kaan Sever Cagri Toraman]], [[Elif Ecem Arslan Ayse Aysu Cengiz]], [[Mete Mert Birdal Gorkem Sevinc]], [[Ali Bugra Kanburoglu Yusuf Faruk Guldemir]], [[Osman Gurlek Sezen Felekoglu]], [[Birsen Sahin Kutuk Sarp Kantar]], [[Elif Genc Busra Tufan]], [[Gupse Ekin Demir Serkan Coskun]], [[Olgun Dursun Muhammed Emin Arayici]], [[Susan Uskudarli Onur Gungor]], [[Esra Darici Abdullah Topraksoy]]
+[[Cagri Toraman]], [[Ahmet Kaan Sever]], [[Ayse Aysu Cengiz]], [[Elif Ecem Arslan]], [[Gorkem Sevinc]], [[Mete Mert Birdal]], [[Yusuf Faruk Guldemir]], [[Ali Bugra Kanburoglu]], [[Sezen Felekoglu]], [[Osman Gurlek]], [[Sarp Kantar]], [[Birsen Sahin Kutuk]], [[Busra Tufan]], [[Elif Genc]], [[Serkan Coskun]], [[Gupse Ekin Demir]], [[Muhammed Emin Arayici]], [[Olgun Dursun]], [[Onur Gungor]], [[Susan Uskudarli]], [[Abdullah Topraksoy]], [[Esra Darici]]
 
 ## Metadata
 

@@ -17,7 +17,7 @@ short_title: PluriHarms
 year: 2026
 first_author: "[[Li, Jing-Jing]]"
 last_author: "[[Levine, Sydney]]"
-authors: "[[Li, Jing-Jing]]; [[Mire, Joel]]; [[Fleisig, Eve]]; [[Pyatkin, Valentina]]; [[Collins, Anne]]; [[Sap, Maarten]]; [[Levine, Sydney]]"
+authors: "Li, Jing-Jing; Mire, Joel; Fleisig, Eve; Pyatkin, Valentina; Collins, Anne; Sap, Maarten; Levine, Sydney"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08951"
 external_pdf: "https://arxiv.org/pdf/2601.08951.pdf"

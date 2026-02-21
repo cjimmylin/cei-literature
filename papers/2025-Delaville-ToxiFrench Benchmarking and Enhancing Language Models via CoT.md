@@ -13,9 +13,9 @@ key: LSRC0429
 type: preprint
 short_title: "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection"
 year: 2025
-first_author: "[[Delaville, Axel]]"
-last_author: "[[Axel Delaville]]"
-authors: "[[Delaville, Axel]]"
+first_author: "[[Delaville]]"
+last_author: "[[Axel]]"
+authors: Delaville; Axel
 authors_incomplete: true
 url: "https://arxiv.org/abs/2508.11281"
 external_pdf: "https://arxiv.org/pdf/2508.11281.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Axel Delaville]]
+[[Delaville]], [[Axel]]
 
 ## Metadata
 

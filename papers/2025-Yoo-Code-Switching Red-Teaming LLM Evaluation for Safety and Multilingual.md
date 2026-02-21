@@ -16,7 +16,7 @@ short_title: "Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilin
 year: 2025
 first_author: "[[Haneul Yoo]]"
 last_author: "[[Hwaran Lee]]"
-authors: "Haneul Yoo, Yongjin Yang, Hwaran Lee"
+authors: Haneul Yoo; Yongjin Yang; Hwaran Lee
 url: "https://arxiv.org/abs/2406.15481"
 external_pdf: "https://arxiv.org/pdf/2406.15481.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.md"

@@ -18,7 +18,7 @@ short_title: "Identifying Gender Stereotypes and Biases in Automated Translation
 year: 2025
 first_author: "[[Fatemeh Mohammadi]]"
 last_author: "[[Samira Maghool]]"
-authors: "[[Fatemeh Mohammadi]]; [[Marta Annamaria Tamborini]]; [[Paolo Ceravolo]]; [[Costanza Nardocci]]; [[Samira Maghool]]"
+authors: Fatemeh Mohammadi; Marta Annamaria Tamborini; Paolo Ceravolo; Costanza Nardocci; Samira Maghool
 url: "https://arxiv.org/abs/2502.11611"
 external_pdf: "https://arxiv.org/pdf/2502.11611.pdf"
 publication: arXiv

@@ -18,7 +18,7 @@ short_title: "PLLuM: A Family of Polish Large Language Models"
 year: 2025
 first_author: "[[PLLuM Team (OPI PIB]]"
 last_author: "[[CYFRA GOV PL)]]"
-authors: "PLLuM Team (OPI PIB, CYFRA GOV PL)"
+authors: PLLuM Team (OPI PIB; CYFRA GOV PL)
 url: "https://arxiv.org/abs/2511.03823"
 external_pdf: "https://arxiv.org/pdf/2511.03823.pdf"
 pdf_extract: "PDF Extracts/2025/2025-PIB-PLLuM A Family of Polish Large Language Models.md"

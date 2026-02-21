@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model|HuGME: A Benchmark System for Evaluating Hungarian Generative Model Evaluation]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model*: Affiliation: Centre for Linguistics, Email: ligeti-nagy.noemi@nytud.hun
+- *From 2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model*: Affiliation: Centre for Linguistics, Email: ligeti-nagy.noemi@nytud.hun
 - *From 2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model*: Affiliation: Centre for Linguistics, Email: ligeti-nagy.noemi@nytud.hun
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

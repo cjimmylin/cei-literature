@@ -18,7 +18,7 @@ short_title: "ViMUL A Culturally-diverse Multilingual Multimodal Video"
 year: 2025
 first_author: "[[team, MBZUAI-Oryx]]"
 last_author: "[[MBZUAI-Oryx team]]"
-authors: "[[MBZUAI-Oryx team]]"
+authors: MBZUAI-Oryx team
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.07032"
 external_pdf: "https://arxiv.org/pdf/2506.07032.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[M-A-P Team|MBZUAI-Oryx team]]
+[[MBZUAI-Oryx team]]
 
 ## Metadata
 

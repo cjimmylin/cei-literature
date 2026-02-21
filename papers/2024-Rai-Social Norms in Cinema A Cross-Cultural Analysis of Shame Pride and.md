@@ -15,8 +15,8 @@ type: preprint
 short_title: "Social Norms in Cinema: A Cross-Cultural Analysis of Shame, Pride and Prejudice"
 year: 2024
 first_author: "[[Sunny Rai]]"
-last_author: "[[Sharath Chandra Guntuku Lyle Ungar]]"
-authors: Sunny Rai, Khushang Jilesh Zaveri, Shreya Havaldar, Soumna Nema, Lyle Ungar, Sharath Chandra Guntuku
+last_author: "[[Sharath Chandra Guntuku]]"
+authors: Sunny Rai; Khushang Jilesh Zaveri; Shreya Havaldar; Soumna Nema; Lyle Ungar; Sharath Chandra Guntuku
 url: "https://arxiv.org/abs/2402.11333"
 external_pdf: "https://arxiv.org/pdf/2402.11333.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Khushang Jilesh Zaveri Sunny Rai]], [[Shreya Havaldar|Soumna Nema Shreya Havaldar]], [[Sharath Chandra Guntuku Lyle Ungar]]
+[[Sunny Rai]], [[Khushang Jilesh Zaveri]], [[Shreya Havaldar]], [[Soumna Nema]], [[Lyle Ungar]], [[Sharath Chandra Guntuku]]
 
 ## Metadata
 

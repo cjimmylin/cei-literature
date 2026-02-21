@@ -31,9 +31,9 @@ Dipanjan Das is a Research Scientist at Google DeepMind working on natural langu
 
 
 
-- [[2026-Goel-Building Interpretable Models for Moral Decision-Making|Building Interpretable Models for Moral Decision-Making]]
+
+
 - [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]] (Last Author)
-- [[2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of|The 'Colonial Impulse' of Natural Language Processing: An Audit of Bengali Sentiment Analysis Tools and Their Identity-based Biases]] (First Author)
 
 ## Notes
 

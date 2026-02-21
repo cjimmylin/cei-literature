@@ -17,9 +17,9 @@ key: AIES_2025_36554
 type: conferencePaper
 short_title: "Aggregation Problems in Machine Ethics"
 year: 2025
-first_author: "[[Kevin Baum]]"
-last_author: "[[Marija Slavkovik]]"
-authors: "[[Baum, Kevin]], [[Slavkovik, Marija]]"
+first_author: "[[Baum]]"
+last_author: "[[Marija]]"
+authors: Baum; Kevin; Slavkovik; Marija
 doi: 10.1609/aies.v8i1.36554
 tags: "Computer Science - AI Ethics"
 url: "https://ojs.aaai.org/index.php/AIES/article/view/36554"
@@ -56,7 +56,7 @@ CONFERENCE: "AAAI 2025"
 
 ## Authors
 
-[[Kevin Baum]], [[Marija Slavkovik]]
+[[Baum]], [[Kevin]], [[Slavkovik]], [[Marija]]
 
 ## Links
 

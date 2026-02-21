@@ -39,6 +39,8 @@ Eric Xing is a Professor of Machine Learning at Carnegie Mellon University and s
 
 
 
+
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## External Links
@@ -54,6 +56,10 @@ Eric Xing is a Professor of Machine Learning at Carnegie Mellon University and s
 
 
 
+
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu

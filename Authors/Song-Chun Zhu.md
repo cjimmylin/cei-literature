@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
 - [[2023-Zhang-Heterogeneous Value Alignment Evaluation for|Heterogeneous Value Alignment Evaluation for]]
 - [[2022-Qiu-ValueNet|ValueNet]] (Last Author)
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu

@@ -34,6 +34,8 @@ Chengzhong Liu is an AI researcher known for his contributions to evaluating and
 
 
 
+
+
 - [[2025-Ju-NaVAB|NaVAB]]
 
 ## Notes
@@ -43,6 +45,10 @@ Chengzhong Liu is an AI researcher known for his contributions to evaluating and
 
 
 
+
+
+- *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
+- *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk

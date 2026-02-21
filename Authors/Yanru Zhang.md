@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Chang-niceNLP at SemEval-2023 Task 10|niceNLP at SemEval-2023 Task 10]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Chang-niceNLP at SemEval-2023 Task 10*: Affiliation: University of Electronic Science and Technology of China, Chengdu, Email: yanruzhang@uestc.edu.cn
+- *From 2023-Chang-niceNLP at SemEval-2023 Task 10*: Affiliation: University of Electronic Science and Technology of China, Chengdu, Email: yanruzhang@uestc.edu.cn
 - *From 2023-Chang-niceNLP at SemEval-2023 Task 10*: Affiliation: University of Electronic Science and Technology of China, Chengdu, Email: yanruzhang@uestc.edu.cn
 - *From 2023-Chang-niceNLP at SemEval-2023 Task 10*: Affiliation: University of Electronic Science and Technology of China, Chengdu, Email: yanruzhang@uestc.edu.cn
 - *From 2023-Chang-niceNLP at SemEval-2023 Task 10*: Affiliation: University of Electronic Science and Technology of China, Chengdu, Email: yanruzhang@uestc.edu.cn

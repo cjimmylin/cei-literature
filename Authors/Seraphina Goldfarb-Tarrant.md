@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and|MAPS: A Multilingual Benchmark for Global Agent Performance and Security]]
 - [[2024-Aakanksha-The Multilingual Alignment Prism|The Multilingual Alignment Prism]]
 - [[2024-Singhal-AyaRedTeaming|AyaRedTeaming]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
+- *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.

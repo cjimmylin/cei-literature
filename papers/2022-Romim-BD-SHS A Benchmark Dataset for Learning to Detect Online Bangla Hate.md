@@ -18,7 +18,7 @@ short_title: "BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla H
 year: 2022
 first_author: "[[Romim, Nauros]]"
 last_author: "[[Amin, Mohammad Ruhul]]"
-authors: "[[Romim, Nauros]]; [[Ahmed, Mosahed]]; [[Islam, Md. Saiful]]; [[Sharma, Arnab Sen]]; [[Talukder, Hriteshwar]]; [[Amin, Mohammad Ruhul]]"
+authors: "Romim, Nauros; Ahmed, Mosahed; Islam, Md. Saiful; Sharma, Arnab Sen; Talukder, Hriteshwar; Amin, Mohammad Ruhul"
 authors_incomplete: false
 url: "https://aclanthology.org/2022.lrec-1.552/"
 external_pdf: "https://arxiv.org/pdf/2206.00372.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2022"
 
 ## Authors
 
-[[Romim, Nauros]], [[Ahmed, Mosahed]], [[Islam, Md. Saiful]], [[Sharma, Arnab Sen]], [[Talukder, Hriteshwar]], [[Amin, Ruhul|Amin, Mohammad Ruhul]]
+[[Romim, Nauros]], [[Ahmed, Mosahed]], [[Islam, Md. Saiful]], [[Sharma, Arnab Sen]], [[Talukder, Hriteshwar]], [[Amin, Mohammad Ruhul]]
 
 ## Metadata
 

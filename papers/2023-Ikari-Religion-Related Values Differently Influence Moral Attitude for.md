@@ -16,7 +16,7 @@ short_title: Religion-Related Values Differently Influence Moral Attitude for Ro
 year: 2023
 first_author: "[[Shogo Ikari]]"
 last_author: "[[Yo Nakawake]]"
-authors: Shogo Ikari, Kosuke Sato, Emily Burdett, Hiroshi Ishiguro, Jonathan Jong, Yo Nakawake
+authors: Shogo Ikari; Kosuke Sato; Emily Burdett; Hiroshi Ishiguro; Jonathan Jong; Yo Nakawake
 doi: 10.1177/00220221231193369
 url: "https://journals.sagepub.com/doi/10.1177/00220221231193369"
 publication: SAGE Journals / Journal of Cross-Cultural Psychology
@@ -51,7 +51,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Shogo Ikari, Kosuke Sato, Emily Burdett, Hiroshi Ishiguro, Jonathan Jong, Yo Nakawake]]
+[[Shogo Ikari]], [[Kosuke Sato]], [[Emily Burdett]], [[Hiroshi Ishiguro]], [[Jonathan Jong]], [[Yo Nakawake]]
 
 ## Metadata
 

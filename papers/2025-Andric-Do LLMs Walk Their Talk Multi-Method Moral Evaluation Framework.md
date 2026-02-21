@@ -15,9 +15,9 @@ key: EXSR0287
 type: preprint
 short_title: "Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework"
 year: 2025
-first_author: "[[Andric, Sandro]]"
-last_author: "[[Sandro Andric]]"
-authors: "[[Andric, Sandro]]"
+first_author: "[[Andric]]"
+last_author: "[[Sandro]]"
+authors: Andric; Sandro
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.01568"
 external_pdf: "https://arxiv.org/pdf/2512.01568.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[S. Andric|Sandro Andric]]
+[[Andric]], [[Sandro]]
 
 ## Metadata
 

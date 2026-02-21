@@ -17,9 +17,9 @@ key: EXSR0377
 type: conference_paper
 short_title: "How Deep Is Representational Bias in"
 year: 2025
-first_author: "[[Agrima Seth, Monojit Choudhury, Sunayana Sitaram, Kentaro Toyama, Aditya Vashistha, Kalika Bali]]"
-last_author: "[[Kalika Bali Aditya Vashistha]]"
-authors: "[[Agrima Seth, Monojit Choudhury, Sunayana Sitaram, Kentaro Toyama, Aditya Vashistha, Kalika Bali]]"
+first_author: "[[Agrima Seth]]"
+last_author: "[[Kalika Bali]]"
+authors: Agrima Seth; Monojit Choudhury; Sunayana Sitaram; Kentaro Toyama; Aditya Vashistha; Kalika Bali
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.03712"
 external_pdf: "https://arxiv.org/pdf/2508.03712.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "AIES 2025"
 
 ## Authors
 
-[[Monojit Choudhury Agrima Seth]], [[Kentaro Toyama Sunayana Sitaram]], [[Kalika Bali Aditya Vashistha]]
+[[Agrima Seth]], [[Monojit Choudhury]], [[Sunayana Sitaram]], [[Kentaro Toyama]], [[Aditya Vashistha]], [[Kalika Bali]]
 
 ## Metadata
 

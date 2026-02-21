@@ -41,6 +41,8 @@ Co-author on the seminal Constitutional AI paper, which introduced a novel appro
 
 
 
+
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2024-Sharma-Towards Understanding Sycophancy in Language Models|Towards Understanding Sycophancy in Language Models]] (Last Author)
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
@@ -59,6 +61,10 @@ Co-author on the seminal Constitutional AI paper, which introduced a novel appro
 
 
 
+
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs

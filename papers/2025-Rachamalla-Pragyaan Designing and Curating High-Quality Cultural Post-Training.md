@@ -15,8 +15,8 @@ type: preprint
 short_title: "Pragyaan: Designing and Curating High-Quality Cultural Post-Training Datasets for Indian Languages"
 year: 2025
 first_author: "[[Neel Prabhanjan Rachamalla]]"
-last_author: "[[Shubham Agarwal Chandra Khatri]]"
-authors: Neel Prabhanjan Rachamalla, Aravind Konakalla, Gautam Rajeev, Ashish Kulkarni, Chandra Khatri, Shubham Agarwal
+last_author: "[[Shubham Agarwal]]"
+authors: Neel Prabhanjan Rachamalla; Aravind Konakalla; Gautam Rajeev; Ashish Kulkarni; Chandra Khatri; Shubham Agarwal
 url: "https://arxiv.org/abs/2510.07000"
 external_pdf: "https://arxiv.org/pdf/2510.07000.pdf"
 publication: arXiv / MRL 2025
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Aravind Konakalla Neel Prabhanjan Rachamalla]], [[Ashish Kulkarni Gautam Rajeev]], [[Shubham Agarwal Chandra Khatri]]
+[[Neel Prabhanjan Rachamalla]], [[Aravind Konakalla]], [[Gautam Rajeev]], [[Ashish Kulkarni]], [[Chandra Khatri]], [[Shubham Agarwal]]
 
 ## Metadata
 

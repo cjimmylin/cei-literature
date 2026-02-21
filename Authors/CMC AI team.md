@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal|VLegal-Bench: Cognitively Grounded Benchmark for Vietnamese Legal Reasoning of Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal*: Affiliation: University Heidelberg
+- *From 2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal*: Affiliation: University Heidelberg
 - *From 2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal*: Affiliation: University Heidelberg
 - *From 2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal*: Affiliation: University Heidelberg
 - *From 2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal*: Affiliation: University Heidelberg

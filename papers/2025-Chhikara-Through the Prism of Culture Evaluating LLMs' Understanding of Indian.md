@@ -16,7 +16,7 @@ short_title: "Through the Prism of Culture: Evaluating LLMs' Understanding of In
 year: 2025
 first_author: "[[Chhikara, Garima]]"
 last_author: "[[Chakraborty, Abhijnan]]"
-authors: "[[Chhikara, Garima]]; [[Kumar, Abhishek]]; [[Chakraborty, Abhijnan]]"
+authors: "Chhikara, Garima; Kumar, Abhishek; Chakraborty, Abhijnan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.16748"
 external_pdf: "https://arxiv.org/pdf/2501.16748.pdf"

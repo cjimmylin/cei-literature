@@ -16,7 +16,7 @@ short_title: Pragmatic Competence Evaluation of Large Language Models for the Ko
 year: 2024
 first_author: "[[Dojun Park]]"
 last_author: "[[Sungeun Lee]]"
-authors: Dojun Park, Jiwoo Lee, Hyeyun Jeong, Seohyun Park, Sungeun Lee
+authors: Dojun Park; Jiwoo Lee; Hyeyun Jeong; Seohyun Park; Sungeun Lee
 doi: 10.48550/arXiv.2403.12675
 url: "https://aclanthology.org/2024.paclic-1.25/"
 external_pdf: "https://arxiv.org/pdf/2403.12675.pdf"

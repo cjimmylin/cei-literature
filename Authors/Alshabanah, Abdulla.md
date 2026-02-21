@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...|Mind the Dialect: NLP Advancements Uncover Fairness ...]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...*: Affiliation: University of Southern California
+- *From 2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...*: Affiliation: University of Southern California
 - *From 2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...*: Affiliation: University of Southern California
 - *From 2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...*: Affiliation: University of Southern California
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -17,7 +17,7 @@ short_title: "RUHate-MM: Identification of Hate Speech and Targets using Multimo
 year: 2024
 first_author: "[[Thapa, Surendrabikram]]"
 last_author: "[[Naseem, Usman]]"
-authors: "[[Thapa, Surendrabikram]]; [[Jafri, Farhan Ahmad]]; [[Rauniyar, Kritesh]]; [[Nasim, Mehwish]]; [[Naseem, Usman]]"
+authors: "Thapa, Surendrabikram; Jafri, Farhan Ahmad; Rauniyar, Kritesh; Nasim, Mehwish; Naseem, Usman"
 authors_incomplete: false
 doi: 10.1145/3589335.3651973
 url: "https://dl.acm.org/doi/10.1145/3589335.3651973"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity|KurdSTS: The Kurdish Semantic Textual Similarity]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity*: Affiliation: Centre, University of Kurdistan Hewler, Erbil, Iraq, Email: hussein.mohammedali@ukh.edu.krd
+- *From 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity*: Affiliation: Centre, University of Kurdistan Hewler, Erbil, Iraq, Email: hussein.mohammedali@ukh.edu.krd
 - *From 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity*: Affiliation: Centre, University of Kurdistan Hewler, Erbil, Iraq, Email: h.veisi@ut.ac.ir
 - *From 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity*: Affiliation: Centre, University of Kurdistan Hewler, Erbil, Iraq, Email: abdulhady.abas@ukh.edu.krd
 - *From 2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity*: Affiliation: Centre, University of Kurdistan Hewler, Erbil, Iraq, Email: hussein.mohammedali@ukh.edu.krd

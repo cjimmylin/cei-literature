@@ -19,7 +19,7 @@ short_title: GuardEval
 year: 2025
 first_author: "[[Machlovi, Naseem]]"
 last_author: "[[Al-Fuqaha, Ala]]"
-authors: "[[Machlovi, Naseem]]; [[Saleki, Maryam]]; [[Amin, Ruhul]]; [[Rahouti, Mohamed]]; [[Al-Maliki, Shawqi]]; [[Qadir, Junaid]]; [[Abdallah, Mohamed M.]]; [[Al-Fuqaha, Ala]]"
+authors: "Machlovi, Naseem; Saleki, Maryam; Amin, Ruhul; Rahouti, Mohamed; Al-Maliki, Shawqi; Qadir, Junaid; Abdallah, Mohamed M.; Al-Fuqaha, Ala"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03273"
 external_pdf: "https://arxiv.org/pdf/2601.03273.pdf"

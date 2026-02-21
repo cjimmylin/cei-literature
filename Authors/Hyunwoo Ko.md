@@ -58,6 +58,10 @@ twitter: ""
 
 
 
+
+
+- [[2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite|From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation]]
+- [[2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean|HRET: A Self-Evolving LLM Evaluation Toolkit for Korean]]
 - [[2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do|LLM-as-a-Judge & Reward Model: What They Can and Cannot Do]]
 
 ## External Links & Profiles
@@ -87,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do*: Affiliation: University1, Email: shongdr@gmail.com
+- *From 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do*: Affiliation: University1, Email: shongdr@gmail.com
 - *From 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr

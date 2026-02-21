@@ -19,7 +19,7 @@ short_title: "HALF: Harm-Aware LLM Fairness Evaluation Aligned with Deployment"
 year: 2025
 first_author: "[[Ali Mekky]]"
 last_author: "[[Yuxia Wang]]"
-authors: "[[Ali Mekky]]; [[Omar El Herraoui]]; [[Preslav Nakov]]; [[Yuxia Wang]]"
+authors: Ali Mekky; Omar El Herraoui; Preslav Nakov; Yuxia Wang
 url: "https://arxiv.org/abs/2510.12217"
 external_pdf: "https://arxiv.org/pdf/2510.12217.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.md"

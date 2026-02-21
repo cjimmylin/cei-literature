@@ -17,7 +17,7 @@ short_title: RedBench
 year: 2026
 first_author: "[[Quy-Anh Dang]]"
 last_author: "[[Truong-Son Hy]]"
-authors: "Quy-Anh Dang, Chris Ngo, Truong-Son Hy"
+authors: Quy-Anh Dang; Chris Ngo; Truong-Son Hy
 url: "https://arxiv.org/abs/2601.03699"
 external_pdf: "https://arxiv.org/pdf/2601.03699.pdf"
 pdf_extract: "PDF Extracts/0000/2026-Dang-RedBench.md"

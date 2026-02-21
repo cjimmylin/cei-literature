@@ -50,6 +50,8 @@ Awobade is a key author of "AfriSpeech-MultiBench," a critical benchmark suite f
 
 
 
+
+
 - [[2025-Emezue-NaijaVoices|NaijaVoices]]
 
 ## External Links & Profiles
@@ -64,6 +66,10 @@ Awobade is a key author of "AfriSpeech-MultiBench," a critical benchmark suite f
 
 
 
+
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com

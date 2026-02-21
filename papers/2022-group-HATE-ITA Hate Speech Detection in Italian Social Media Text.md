@@ -50,7 +50,7 @@ CONFERENCE: "NAACL 2022"
 
 ## Authors
 
-[[MLCommons AI Safety Working Group|MilaNLProc group]]
+[[MilaNLProc group]]
 
 ## Metadata
 

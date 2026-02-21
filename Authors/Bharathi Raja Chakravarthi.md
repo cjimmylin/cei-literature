@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Mohan-A Multimodal Approach for Hate and|A Multimodal Approach for Hate and]] (Last Author)
 - [[2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic|Counter-Speech Generation for Homophobic and Transphobic]] (Last Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic*: Affiliation: lable strategy for countering hate in low-resource regional languages
+- *From 2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic*: Affiliation: lable strategy for countering hate in low-resource regional languages
 - *From 2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic*: Affiliation: lable strategy for countering hate in low-resource regional languages
 - *From 2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic*: Affiliation: lable strategy for countering hate in low-resource regional languages
 - *From 2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic*: Affiliation: lable strategy for countering hate in low-resource regional languages

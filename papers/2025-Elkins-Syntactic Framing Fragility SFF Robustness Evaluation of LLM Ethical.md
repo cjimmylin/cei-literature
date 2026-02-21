@@ -14,9 +14,9 @@ key: EXSR0262
 type: preprint
 short_title: "Syntactic Framing Fragility (SFF): Robustness Evaluation of LLM Ethical Decisions"
 year: 2025
-first_author: "[[K. & Chun Elkins]]"
-last_author: "[[J.]]"
-authors: "Elkins, K. & Chun, J."
+first_author: "[[K. Elkins]]"
+last_author: "[[J. Chun]]"
+authors: "K. Elkins; J. Chun"
 url: "https://arxiv.org/abs/2601.09724"
 external_pdf: "https://arxiv.org/pdf/2601.09724.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.md"
@@ -50,7 +50,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Elkins]], [[K. & Chun]], [[J.]]
+[[Elkins]], [[K. & Chun]], [[Johnstun, J.|J.]]
 
 ## Metadata
 

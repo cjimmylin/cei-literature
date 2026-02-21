@@ -17,7 +17,7 @@ short_title: "Pashto Offensive Language Detection: A Benchmark Dataset and Monol
 year: 2023
 first_author: "[[Haq, Ijazul]]"
 last_author: "[[Tang, Peng]]"
-authors: "[[Haq, Ijazul]]; [[Qiu, Weidong]]; [[Guo, Jie]]; [[Tang, Peng]]"
+authors: "Haq, Ijazul; Qiu, Weidong; Guo, Jie; Tang, Peng"
 authors_incomplete: false
 url: "https://peerj.com/articles/cs-1617/"
 external_pdf: "https://europepmc.org/articles/PMC10702970?pdf=render"

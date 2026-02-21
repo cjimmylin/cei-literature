@@ -16,9 +16,9 @@ key: EXSR0457
 type: preprint
 short_title: "Adapting LLMs to Hebrew Unveiling DictaLM"
 year: 2024
-first_author: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"
-last_author: "[[Moshe Koppel Amir DN Cohen]]"
-authors: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"
+first_author: "[[Shaltiel Shmidman]]"
+last_author: "[[Moshe Koppel]]"
+authors: Shaltiel Shmidman; Avi Shmidman; Amir DN Cohen; Moshe Koppel
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.07080"
 external_pdf: "https://arxiv.org/pdf/2407.07080.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Avi Shmidman Shaltiel Shmidman]], [[Moshe Koppel Amir DN Cohen]]
+[[Shaltiel Shmidman]], [[Avi Shmidman]], [[Amir DN Cohen]], [[Moshe Koppel]]
 
 ## Metadata
 

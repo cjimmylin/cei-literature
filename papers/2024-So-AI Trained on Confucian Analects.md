@@ -12,9 +12,9 @@ key: AUTO_SO2024
 type: journalArticle
 short_title: "AI Trained on Confucian Analects"
 year: 2024
-first_author: "[[Emma So]]"
-last_author: "[[Emma So]]"
-authors: "[[So, Emma]]"
+first_author: "[[So]]"
+last_author: "[[Emma]]"
+authors: So; Emma
 doi: N/A
 url: "https://philarchive.org/archive/SOHATI"
 pdf_extract: "PDF Extracts/2024/2024-So-AI Trained on Confucian Analects.md"
@@ -50,7 +50,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Emma So]]
+[[So]], [[Emma]]
 
 ## Metadata
 

@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2019-Aliman-Requisite Variety Ethical Utility Functions|Requisite Variety Ethical Utility Functions]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2019-Aliman-Requisite Variety Ethical Utility Functions*: Affiliation: University, Utrecht, Netherlands, Email: nadishamarie.aliman@gmail.com
+- *From 2019-Aliman-Requisite Variety Ethical Utility Functions*: Affiliation: University, Utrecht, Netherlands, Email: nadishamarie.aliman@gmail.com
 - *From 2019-Aliman-Requisite Variety Ethical Utility Functions*: Affiliation: University, Utrecht, Netherlands, Email: nadishamarie.aliman@gmail.com
 - *From 2019-Aliman-Requisite Variety Ethical Utility Functions*: Affiliation: University, Utrecht, Netherlands, Email: nadishamarie.aliman@gmail.com
 - *From 2019-Aliman-Requisite Variety Ethical Utility Functions*: Affiliation: University, Utrecht, Netherlands, Email: nadishamarie.aliman@gmail.com

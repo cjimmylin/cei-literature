@@ -12,9 +12,9 @@ key: AUTO_GRAVES2025
 type: journalArticle
 short_title: "AI Practical Wisdom and Compassion"
 year: 2025
-first_author: "[[Mark Graves]]"
-last_author: "[[Mark Graves]]"
-authors: "[[Graves, Mark]]"
+first_author: "[[Graves]]"
+last_author: "[[Mark]]"
+authors: Graves; Mark
 doi: 10.1007/s43681-025-00877-4
 url: "https://link.springer.com/article/10.1007/s43681-025-00877-4"
 pdf_extract: "PDF Extracts/2025/2025-Graves-AI Practical Wisdom and Compassion.md"
@@ -49,7 +49,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Mark Graves]]
+[[Graves]], [[Mark]]
 
 ## Metadata
 

@@ -15,8 +15,8 @@ type: preprint
 short_title: "From Measurement to Mitigation: Exploring the Transferability of Debiasing Approaches to Gender Bias in Maltese Language Models"
 year: 2025
 first_author: "[[Melanie Galea]]"
-last_author: "[[Claudia Borg Melanie Galea]]"
-authors: "Melanie Galea, Claudia Borg"
+last_author: "[[Claudia Borg]]"
+authors: Melanie Galea; Claudia Borg
 url: "https://arxiv.org/abs/2507.03142"
 external_pdf: "https://arxiv.org/pdf/2507.03142.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Claudia Borg Melanie Galea]]
+[[Melanie Galea]], [[Claudia Borg]]
 
 ## Metadata
 

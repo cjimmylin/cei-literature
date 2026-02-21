@@ -42,6 +42,8 @@ The research employed a novel typology for ethical reasoning and an interrogatio
 
 
 
+
+
 - [[2024-Meadows-LocalValueBench|LocalValueBench]] (First Author)
 
 ## Links
@@ -55,6 +57,10 @@ The research employed a novel typology for ethical reasoning and an interrogatio
 
 
 
+
+
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 - *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 - *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 - *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and

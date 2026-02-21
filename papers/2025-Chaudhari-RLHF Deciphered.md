@@ -81,7 +81,7 @@ This paper addresses the challenge of aligning large language models with human 
 
 ## Authors
 
-[[Shreyas Chaudhari]], [[Pranjal Aggarwal]], [[Vishvak Murahari]], [[Tanmay Rajpurohit]], [[Ashwin Kalyan]], [[Karthik Narasimhan]], [[Aditya Deshpande|Ameet Deshpande]], [[Bruno Castro da Silva]]
+[[Shreyas Chaudhari]], [[Pranjal Aggarwal]], [[Vishvak Murahari]], [[Tanmay Rajpurohit]], [[Ashwin Kalyan]], [[Karthik Narasimhan]], [[Ameet Deshpande]], [[Bruno Castro da Silva]]
 
 ## Key Contribution
 

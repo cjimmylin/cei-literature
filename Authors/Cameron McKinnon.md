@@ -51,6 +51,8 @@ McKinnon has contributed to foundational research on automated red-teaming and r
 
 
 
+
+
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## External Links & Profiles
@@ -65,6 +67,10 @@ McKinnon has contributed to foundational research on automated red-teaming and r
 
 
 
+
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs

@@ -59,8 +59,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models|LLMs on Trial: Evaluating Judicial Fairness for Large Language Models (JudiFair)]]
-- [[2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora|GuyLingo: The Republic of Guyana Creole Corpora]] (First Author)
 
 ## External Links & Profiles
 
@@ -90,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models*: Affiliation: University, China
+- *From 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models*: Affiliation: University, China
 - *From 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models*: Affiliation: University, China
 - *From 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models*: Affiliation: University, China
 - *From 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models*: Affiliation: University, China

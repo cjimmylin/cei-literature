@@ -14,8 +14,8 @@ type: conferencePaper
 short_title: "CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models"
 year: 2024
 first_author: "[[Giada Pistilli]]"
-last_author: "[[Margaret Mitchell Alexandra Sasha Luccioni]]"
-authors: Giada Pistilli, Alina Leidinger, Yacine Jernite, Atoosa Kasirzadeh, Alexandra Sasha Luccioni, Margaret Mitchell
+last_author: "[[Margaret Mitchell]]"
+authors: Giada Pistilli; Alina Leidinger; Yacine Jernite; Atoosa Kasirzadeh; Alexandra Sasha Luccioni; Margaret Mitchell
 url: "https://arxiv.org/abs/2405.13974"
 external_pdf: "https://arxiv.org/pdf/2405.13974.pdf"
 publication: HuggingFace
@@ -49,7 +49,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Alina Leidinger Giada Pistilli]], [[Atoosa Kasirzadeh Yacine Jernite]], [[Margaret Mitchell Alexandra Sasha Luccioni]]
+[[Giada Pistilli]], [[Alina Leidinger]], [[Yacine Jernite]], [[Atoosa Kasirzadeh]], [[Alexandra Sasha Luccioni]], [[Margaret Mitchell]]
 
 ## Metadata
 

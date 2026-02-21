@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "AI and Indigenous Languages"
 year: 2025
 first_author: "[[Corbett, Jon]]"
-last_author: "[[Corbett, Jon]]"
+last_author: "[[Jon Corbett]]"
 authors: Jon Corbett
 authors_incomplete: false
 url: "https://blog.westerndigital.com/indigenous-languages/"

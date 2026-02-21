@@ -15,7 +15,7 @@ short_title: "PAGnol: An Extra-Large French Generative Model"
 year: 2022
 first_author: "[[Launay, Julien]]"
 last_author: "[[Seddah, Djamé]]"
-authors: "[[Launay, Julien]]; [[Tommasone, Elena]]; [[Pannier, Baptiste]]; [[Boniface, François]]; [[Chatelain, Amélie]]; [[Cappelli, Alessandro]]; [[Poli, Iacopo]]; [[Seddah, Djamé]]"
+authors: "Launay, Julien; Tommasone, Elena; Pannier, Baptiste; Boniface, François; Chatelain, Amélie; Cappelli, Alessandro; Poli, Iacopo; Seddah, Djamé"
 authors_incomplete: false
 url: "https://aclanthology.org/2022.lrec-1.455/"
 external_pdf: "https://arxiv.org/pdf/2110.08554.pdf"

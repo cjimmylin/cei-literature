@@ -17,7 +17,7 @@ short_title: "ManagerBench: Evaluating Safety-Pragmatism Trade-off in Managerial
 year: 2025
 first_author: "[[Simhi, Adi]]"
 last_author: "[[Belinkov, Yonatan]]"
-authors: "[[Simhi, Adi]]; [[Herzig, Jonathan]]; [[Tutek, Martin]]; [[Itzhak, Itay]]; [[Szpektor, Idan]]; [[Belinkov, Yonatan]]"
+authors: "Simhi, Adi; Herzig, Jonathan; Tutek, Martin; Itzhak, Itay; Szpektor, Idan; Belinkov, Yonatan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.00857"
 external_pdf: "https://arxiv.org/pdf/2510.00857.pdf"

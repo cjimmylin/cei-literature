@@ -22,8 +22,10 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Pourbahman-ELAB|ELAB]] (Last Author)
-- [[2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian|Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?]] (Last Author)
+- [[2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian|Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?]]
 
 ## Notes
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian*: Affiliation: Center for Artificial Intelligence Research, Email: d_dastgheib@sbu.ac.ir
+- *From 2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian*: Affiliation: Center for Artificial Intelligence Research, Email: d_dastgheib@sbu.ac.ir
 - *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"
 - *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"
 - *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"

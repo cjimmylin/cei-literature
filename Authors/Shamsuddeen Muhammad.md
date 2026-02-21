@@ -24,6 +24,8 @@ Note: This appears to be the same person as "Shamsuddeen Hassan Muhammad". Advan
 
 
 
+
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]] (First Author)
 - [[2021-Adelani-MasakhaNER Named Entity Recognition for African|MasakhaNER Named Entity Recognition for African]]
 
@@ -34,6 +36,10 @@ Note: This appears to be the same person as "Shamsuddeen Hassan Muhammad". Advan
 
 
 
+
+
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗

@@ -18,7 +18,7 @@ short_title: "Lost in the Mix: Evaluating LLM Understanding of Code-Switched Tex
 year: 2025
 first_author: "[[Amr Mohamed]]"
 last_author: "[[Michalis Vazirgiannis]]"
-authors: "Amr Mohamed, Yang Zhang, Michalis Vazirgiannis"
+authors: Amr Mohamed; Yang Zhang; Michalis Vazirgiannis
 url: "https://arxiv.org/html/2506.14012v1"
 external_pdf: "https://arxiv.org/pdf/2506.14012.pdf"
 publication: arXiv
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Abubakr Mohamed|Amr Mohamed]], [[Yang Zhang]], [[Michalis Vazirgiannis]]
+[[Amr Mohamed]], [[Yang Zhang]], [[Michalis Vazirgiannis]]
 
 ## Metadata
 

@@ -20,7 +20,7 @@ short_title: "How Much of a Pluralist is"
 year: 2025
 first_author: "[[SOCIETY), Not fully identified in search (lead researcher published in AI &]]"
 last_author: "[[Not fully identified in search (lead researcher published in AI & SOCIETY)]]"
-authors: "[[Not fully identified in search (lead researcher published in AI & SOCIETY)]]"
+authors: "Not fully identified in search (lead researcher published in AI & SOCIETY)"
 authors_incomplete: false
 url: 
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-025-02450-3.pdf"

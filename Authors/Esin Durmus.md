@@ -36,6 +36,8 @@ Durmus's research spans AI safety, opinion diversity in language models, and mea
 
 
 
+
+
 - [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]]
 - [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]]
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]] (First Author)

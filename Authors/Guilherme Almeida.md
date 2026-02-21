@@ -38,6 +38,8 @@ His research also touches on AI-related topics, including examining how reliance
 
 
 
+
+
 - [[2025-Nunes-Evidence of conceptual mastery in the application|Evidence of conceptual mastery in the application]]
 
 ## Links
@@ -52,6 +54,10 @@ His research also touches on AI-related topics, including examining how reliance
 
 
 
+
+
+- *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
+- *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
 - *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
 - *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
 - *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio

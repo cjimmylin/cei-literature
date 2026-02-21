@@ -16,7 +16,7 @@ short_title: "FanarGuard: A Culturally-Aware Moderation Filter for Arabic Langua
 year: 2025
 first_author: "[[Masoomali Fatehkia]]"
 last_author: "[[Husrev Taha Sencar]]"
-authors: Masoomali Fatehkia, Enes Altinisik, Husrev Taha Sencar
+authors: Masoomali Fatehkia; Enes Altinisik; Husrev Taha Sencar
 doi: 10.48550/arXiv.2511.18852
 url: "https://arxiv.org/abs/2511.18852"
 external_pdf: "https://arxiv.org/pdf/2511.18852.pdf"

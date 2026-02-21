@@ -17,7 +17,7 @@ short_title: "LLM-Based Multi-Task Bangla Hate Speech Detection: Type, Severity,
 year: 2025
 first_author: "[[Hasan, Md Arid]]"
 last_author: "[[Ahmed, Syed Ishtiaque]]"
-authors: "[[Hasan, Md Arid]]; [[Alam, Firoj]]; [[Hossain, Md Fahad]]; [[Naseem, Usman]]; [[Ahmed, Syed Ishtiaque]]"
+authors: "Hasan, Md Arid; Alam, Firoj; Hossain, Md Fahad; Naseem, Usman; Ahmed, Syed Ishtiaque"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.01995"
 external_pdf: "https://arxiv.org/pdf/2510.01995.pdf"

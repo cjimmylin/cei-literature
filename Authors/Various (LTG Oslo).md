@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Oslo-NorBench A Benchmark for Norwegian Language Models|NorBench: A Benchmark for Norwegian Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Oslo-NorBench A Benchmark for Norwegian Language Models*: Affiliation: University of Oslo, Language Technology Group
+- *From 2023-Oslo-NorBench A Benchmark for Norwegian Language Models*: Affiliation: University of Oslo, Language Technology Group
 - *From 2023-Oslo-NorBench A Benchmark for Norwegian Language Models*: Affiliation: University of Oslo, Language Technology Group
 - *From 2023-Oslo-NorBench A Benchmark for Norwegian Language Models*: Affiliation: University of Oslo, Language Technology Group
 - *From 2023-Oslo-NorBench A Benchmark for Norwegian Language Models*: Affiliation: University of Oslo, Language Technology Group

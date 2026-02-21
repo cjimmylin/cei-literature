@@ -19,7 +19,7 @@ short_title: "Debiasing Large Language Models in Thai"
 year: 2025
 first_author: "[[Kasidit Sermsri]]"
 last_author: "[[Teerapong Panboonyuen]]"
-authors: "[[Kasidit Sermsri]]; [[Teerapong Panboonyuen]]"
+authors: Kasidit Sermsri; Teerapong Panboonyuen
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.21946"
 external_pdf: "https://arxiv.org/pdf/2509.21946.pdf"

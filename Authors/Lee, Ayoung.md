@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from|CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from*: Affiliation: Department of Computer Science and Engineering
+- *From 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from*: Affiliation: Department of Computer Science and Engineering
 - *From 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from*: Affiliation: Department of Computer Science and Engineering
 - *From 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from*: Affiliation: Department of Computer Science and Engineering
 - *From 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from*: Affiliation: Department of Computer Science and Engineering

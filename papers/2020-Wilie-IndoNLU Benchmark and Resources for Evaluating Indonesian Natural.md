@@ -16,7 +16,7 @@ short_title: "IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural
 year: 2020
 first_author: "[[Wilie, Bryan]]"
 last_author: "[[Purwarianti, Ayu]]"
-authors: "[[Wilie, Bryan]]; [[Vincentio, Karissa]]; [[Winata, Genta Indra]]; [[Cahyawijaya, Samuel]]; [[Li, Xiaohong]]; [[Lim, Zhi Yuan]]; [[Soleman, Sidik]]; [[Mahendra, Rahmad]]; [[Fung, Pascale]]; [[Bahar, Syafri]]; [[Purwarianti, Ayu]]"
+authors: "Wilie, Bryan; Vincentio, Karissa; Winata, Genta Indra; Cahyawijaya, Samuel; Li, Xiaohong; Lim, Zhi Yuan; Soleman, Sidik; Mahendra, Rahmad; Fung, Pascale; Bahar, Syafri; Purwarianti, Ayu"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2009.05387"
 external_pdf: "https://arxiv.org/pdf/2009.05387.pdf"

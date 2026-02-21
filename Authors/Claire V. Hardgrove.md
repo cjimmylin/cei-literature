@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Group-AILuminate|AILuminate]]
 
 ## External Links & Profiles
@@ -90,6 +92,12 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Group-AILuminate*: Affiliation: Research
+Institutes 9Turaco Strategy 10PRISM Eval 11TU Darmstadt 12Contextual AI 13Google DeepMind
+- *From 2025-Group-AILuminate*: Affiliation: Research
+Institutes 9Turaco Strategy 10PRISM Eval 11TU Darmstadt 12Contextual AI 13Google DeepMind
 - *From 2025-Group-AILuminate*: Affiliation: Research
 Institutes 9Turaco Strategy 10PRISM Eval 11TU Darmstadt 12Contextual AI 13Google DeepMind
 - *From 2025-Group-AILuminate*: Affiliation: Research

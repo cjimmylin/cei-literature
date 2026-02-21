@@ -19,7 +19,7 @@ short_title: U-SafeBench
 year: 2025
 first_author: "[[In, Yeonjun]]"
 last_author: "[[Park, Chanyoung]]"
-authors: "[[In, Yeonjun]]; [[Kim, Wonjoong]]; [[Yoon, Kanghoon]]; [[Kim, Sungchul]]; [[Tanjim, Md Mehrab]]; [[Park, Sangwu]]; [[Kim, Kibum]]; [[Park, Chanyoung]]"
+authors: "In, Yeonjun; Kim, Wonjoong; Yoon, Kanghoon; Kim, Sungchul; Tanjim, Md Mehrab; Park, Sangwu; Kim, Kibum; Park, Chanyoung"
 url: "https://arxiv.org/abs/2502.15086"
 external_pdf: "https://arxiv.org/pdf/2502.15086"
 national_ethnic_cultural: "N/A"

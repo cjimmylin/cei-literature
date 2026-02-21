@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data|Decolonizing African NLP: A Survey on Power Dynamics and Data Colonialism in Tech Development]] (First Author)
 - [[2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON|AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP: A SURVEY ON POWER]] (First Author)
 
@@ -84,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON*: Affiliation: University of New York, Email: cheng.xu1@ucdconnect.ie
+- *From 2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON*: Affiliation: University of New York, Email: cheng.xu1@ucdconnect.ie
 - *From 2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON*: Affiliation: University of New York, Email: cheng.xu1@ucdconnect.ie
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

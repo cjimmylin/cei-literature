@@ -15,9 +15,9 @@ key: EXSR0111
 type: conferencePaper
 short_title: "Robustness of Large Language Models in Moral Judgements"
 year: 2025
-first_author: "[[S. & Demberg Oh]]"
-last_author: "[[V]]"
-authors: "Oh, S. & Demberg, V"
+first_author: "[[S. Oh]]"
+last_author: "[[V. Demberg]]"
+authors: "S. Oh; V. Demberg"
 doi: 10.1098/rsos.241229
 url: "https://doi.org/10.1098/rsos.241229"
 external_pdf: "https://link.springer.com/content/pdf/10.3758/s13428-023-02307-x.pdf"

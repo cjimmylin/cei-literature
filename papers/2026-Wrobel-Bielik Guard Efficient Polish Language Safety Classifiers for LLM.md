@@ -17,7 +17,7 @@ short_title: "Bielik Guard: Efficient Polish Language Safety Classifiers for LLM
 year: 2026
 first_author: "[[Krzysztof Wrobel]]"
 last_author: "[[Maciej Szymanski]]"
-authors: "Krzysztof Wrobel, Jan Maria Kowalski, Jerzy Surma, Igor Ciuciura, Maciej Szymanski"
+authors: Krzysztof Wrobel; Jan Maria Kowalski; Jerzy Surma; Igor Ciuciura; Maciej Szymanski
 url: "https://arxiv.org/abs/2602.07954"
 external_pdf: "https://arxiv.org/pdf/2602.07954.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.md"

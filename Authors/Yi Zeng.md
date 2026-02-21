@@ -26,10 +26,13 @@ Note: There are multiple prominent researchers named Yi Zeng. (1) Yi Zeng is a P
 
 
 
+
+
 - [[2025-Wu-CVC|CVC]] (Last Author)
 - [[2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal|SORRY-Bench -- Systematically Evaluating LLM Safety Refusal]]
 - [[2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and|Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and Governance | Philosophy & Technology | Springer Nature Link]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach|Proposing Central Asian AI Ethics Principles: A Multilevel Approach for Responsible AI]] (Last Author)
 - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]] (First Author)
 - [[2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural|LLM-GLOBE A Benchmark Evaluating the Cultural]] (Last Author)
 - [[2023-Wang-STREAM|STREAM]] (Last Author)
@@ -41,6 +44,10 @@ Note: There are multiple prominent researchers named Yi Zeng. (1) Yi Zeng is a P
 
 
 
+
+
+- *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
+- *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
 - *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
 - *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
 - *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn

@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in|From Languages to Geographies: Towards Evaluating Cultural Bias in Hate Speech Datasets]]
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in*: Affiliation: University of Oxford, 2World Bank, 3New York University
+- *From 2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in*: Affiliation: University of Oxford, 2World Bank, 3New York University
 - *From 2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in*: Affiliation: University of Oxford, 2World Bank, 3New York University
 - *From 2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in*: Affiliation: University of Oxford, 2World Bank, 3New York University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

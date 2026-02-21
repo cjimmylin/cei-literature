@@ -16,7 +16,7 @@ short_title: "NileChat: Towards Linguistically Diverse and Culturally Aware LLMs
 year: 2025
 first_author: "[[Abdellah El Mekki]]"
 last_author: "[[Muhammad Abdul-Mageed]]"
-authors: Abdellah El Mekki, Houdaifa Atou, Omer Nacar, Shady Shehata, Muhammad Abdul-Mageed
+authors: Abdellah El Mekki; Houdaifa Atou; Omer Nacar; Shady Shehata; Muhammad Abdul-Mageed
 doi: 10.48550/arXiv.2505.18383
 url: "https://arxiv.org/abs/2505.18383"
 external_pdf: "https://arxiv.org/pdf/2505.18383.pdf"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural|IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation]]
 - [[2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural|IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
+- *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology

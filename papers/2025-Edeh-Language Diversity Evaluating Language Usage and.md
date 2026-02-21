@@ -15,9 +15,9 @@ key: EXSR0400
 type: preprint
 short_title: "Language Diversity Evaluating Language Usage and"
 year: 2025
-first_author: "[[Edward Ajayi, Eudoxie Umwari, Mawuli Deku, Prosper Singadi, Jules Udahemuka, Bekalu Tadele, Chukuemeka Edeh]]"
+first_author: "[[Edward Ajayi]]"
 last_author: "[[Chukuemeka Edeh]]"
-authors: "[[Edward Ajayi, Eudoxie Umwari, Mawuli Deku, Prosper Singadi, Jules Udahemuka, Bekalu Tadele, Chukuemeka Edeh]]"
+authors: Edward Ajayi; Eudoxie Umwari; Mawuli Deku; Prosper Singadi; Jules Udahemuka; Bekalu Tadele; Chukuemeka Edeh
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.01557"
 external_pdf: "https://arxiv.org/pdf/2512.01557.pdf"

@@ -17,7 +17,7 @@ short_title: "Tamil-Llama A New Tamil Language Model"
 year: 2023
 first_author: "[[Abhinand]]"
 last_author: "[[Abhinand]]"
-authors: [[Abhinand]]
+authors: Abhinand
 authors_incomplete: false
 url: "https://arxiv.org/abs/2311.05845"
 external_pdf: "https://arxiv.org/pdf/2311.05845.pdf"

@@ -18,7 +18,7 @@ short_title: "Multilingual NLP: Code-Switching, Variants & Dialects | Appen"
 year: 2025
 first_author: "[[Hamed, Injy]]"
 last_author: "[[Habash, Nizar]]"
-authors: "[[Hamed, Injy]]; [[Sabty, Caroline]]; [[Abdennadher, Slim]]; [[Vu, Ngoc Thang]]; [[Solorio, T.]]; [[Habash, Nizar]]"
+authors: "Hamed, Injy; Sabty, Caroline; Abdennadher, Slim; Vu, Ngoc Thang; Solorio, T.; Habash, Nizar"
 authors_incomplete: false
 url: "https://www.appen.com/blog/emnlp-2025-multilingual-nlp"
 publication: Web
@@ -54,7 +54,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Unknown]]
+[[Hamed, Injy]], [[Sabty, Caroline]], [[Abdennadher, Slim]], [[Ngoc Thang Vu|Vu, Ngoc Thang]], [[Solorio, T]], [[Habash, Nizar]]
 
 ## Metadata
 

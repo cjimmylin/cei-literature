@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve|Injecting Knowledge from Social Science Journals to Improve Indonesian Cultural Understanding by LLMs]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve*: Affiliation: University, Singapore, Email: adimulya.kartiyasa@ntu.edu.sg
+- *From 2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve*: Affiliation: University, Singapore, Email: adimulya.kartiyasa@ntu.edu.sg
 - *From 2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve*: Affiliation: University, Singapore, Email: adimulya.kartiyasa@ntu.edu.sg
 - *From 2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve*: Affiliation: University, Singapore, Email: adimulya.kartiyasa@ntu.edu.sg
 - *From 2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve*: Affiliation: University, Singapore, Email: adimulya.kartiyasa@ntu.edu.sg

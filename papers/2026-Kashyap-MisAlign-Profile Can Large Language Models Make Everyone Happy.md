@@ -14,7 +14,7 @@ key: CULT0158
 type: preprint
 short_title: "MisAlign-Profile: Can Large Language Models Make Everyone Happy?"
 year: 2026
-first_author: "[[Gautam Siddharth Kashyap]]"
+first_author: "[[Usman Naseem]]"
 last_author: "[[Rafiq Ali]]"
 authors: "Usman Naseem; Gautam Siddharth Kashyap; Ebad Shabbir; Sushant Kumar Ray; Abdullah Mohammad; Rafiq Ali"
 url: "https://arxiv.org/abs/2602.11091"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Usman Naseem]], [[Gautam Siddharth Kashyap]], [[Ebad Shabbir]], [[Shawn Ray|Sushant Kumar Ray]], [[Abdullah Mohammad]], [[Rafiq Ali]]
+[[Usman Naseem]], [[Gautam Siddharth Kashyap]], [[Ebad Shabbir]], [[Sushant Kumar Ray]], [[Abdullah Mohammad]], [[Rafiq Ali]]
 
 ## Metadata
 

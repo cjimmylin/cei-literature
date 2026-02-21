@@ -17,7 +17,7 @@ short_title: "MEGAVERSE: Benchmarking Large Language Models Across Languages, Mo
 year: 2024
 first_author: "[[Ahuja, Sanchit]]"
 last_author: "[[Sitaram, Sunayana]]"
-authors: "[[Ahuja, Sanchit]]; [[Aggarwal, Divyanshu]]; [[Gumma, Varun]]; [[Watts, Ishaan]]; [[Sathe, Ashutosh]]; [[Ochieng, Millicent]]; [[Hada, Rishav]]; [[Jain, Prachi]]; [[Axmed, Maxamed]]; [[Bali, Kalika]]; [[Sitaram, Sunayana]]"
+authors: "Ahuja, Sanchit; Aggarwal, Divyanshu; Gumma, Varun; Watts, Ishaan; Sathe, Ashutosh; Ochieng, Millicent; Hada, Rishav; Jain, Prachi; Axmed, Maxamed; Bali, Kalika; Sitaram, Sunayana"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2311.07463"
 external_pdf: "https://arxiv.org/pdf/2311.07463.pdf"

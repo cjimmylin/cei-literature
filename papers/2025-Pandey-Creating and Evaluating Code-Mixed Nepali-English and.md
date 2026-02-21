@@ -17,7 +17,7 @@ short_title: "Creating and Evaluating Code-Mixed Nepali-English and"
 year: 2025
 first_author: "[[Pandey, Manish]]"
 last_author: "[[Rai, Sawan]]"
-authors: "[[Pandey, Manish]]; [[Yadav, Nageshwar Prasad]]; [[Adduru, Mokshada]]; [[Rai, Sawan]]"
+authors: "Pandey, Manish; Yadav, Nageshwar Prasad; Adduru, Mokshada; Rai, Sawan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.21026"
 external_pdf: "https://arxiv.org/pdf/2504.21026.pdf"

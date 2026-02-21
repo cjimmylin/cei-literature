@@ -50,9 +50,9 @@ He has published innovative work on "Deontological Keyword Bias," analyzing how 
 
 
 
+
+
 - [[2025-Park-Deontological Keyword Bias|Deontological Keyword Bias]] (First Author)
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 

@@ -17,7 +17,7 @@ short_title: "Building a Llama2-finetuned LLM for Odia Language Utilizing Domain
 year: 2023
 first_author: "[[Kohli, Guneet Singh]]"
 last_author: "[[Dhal, Debasish]]"
-authors: "[[Kohli, Guneet Singh]]; [[Parida, Shantipriya]]; [[Sekhar, Sambit]]; [[Saha, Samirit]]; [[Nair, Nipun B]]; [[Agarwal, Parul]]; [[Khosla, Sonal]]; [[Patiyal, Kusumlata]]; [[Dhal, Debasish]]"
+authors: "Kohli, Guneet Singh; Parida, Shantipriya; Sekhar, Sambit; Saha, Samirit; Nair, Nipun B; Agarwal, Parul; Khosla, Sonal; Patiyal, Kusumlata; Dhal, Debasish"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2312.12624"
 external_pdf: "https://arxiv.org/pdf/2312.12624.pdf"

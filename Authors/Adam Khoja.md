@@ -25,6 +25,8 @@ Adam Khoja is a researcher at the Center for AI Safety (CAIS), focusing on AI sa
 
 
 
+
+
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
@@ -37,6 +39,10 @@ Adam Khoja is a researcher at the Center for AI Safety (CAIS), focusing on AI sa
 
 
 
+
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

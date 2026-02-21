@@ -20,7 +20,7 @@ short_title: "MMLU-ProX A Multilingual Benchmark for Advanced"
 year: 2025
 first_author: "[[Weihao Xuan]]"
 last_author: "[[Irene Li]]"
-authors: "[[Weihao Xuan]]; [[Rui Yang]]; [[Heli Qi]]; [[Qingcheng Zeng]]; [[Yunze Xiao]]; [[Aosong Feng]]; [[Dairui Liu]]; [[Yun Xing]]; [[Junjue Wang]]; [[Fan Gao]]; [[Jinghui Lu]]; [[Yuang Jiang]]; [[Huitao Li]]; [[Xin Li]]; [[Kunyu Yu]]; [[Ruihai Dong]]; [[Shangding Gu]]; [[Yuekang Li]]; [[Xiaofei Xie]]; [[Felix Juefei-Xu]]; [[Foutse Khomh]]; [[Osamu Yoshie]]; [[Qingyu Chen]]; [[Douglas Teodoro]]; [[Nan Liu]]; [[Randy Goebel]]; [[Lei Ma]]; [[Edison Marrese-Taylor]]; [[Shijian Lu]]; [[Yusuke Iwasawa]]; [[Yutaka Matsuo]]; [[Irene Li]]"
+authors: Weihao Xuan; Rui Yang; Heli Qi; Qingcheng Zeng; Yunze Xiao; Aosong Feng; Dairui Liu; Yun Xing; Junjue Wang; Fan Gao; Jinghui Lu; Yuang Jiang; Huitao Li; Xin Li; Kunyu Yu; Ruihai Dong; Shangding Gu; Yuekang Li; Xiaofei Xie; Felix Juefei-Xu; Foutse Khomh; Osamu Yoshie; Qingyu Chen; Douglas Teodoro; Nan Liu; Randy Goebel; Lei Ma; Edison Marrese-Taylor; Shijian Lu; Yusuke Iwasawa; Yutaka Matsuo; Irene Li
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.10497"
 external_pdf: "https://arxiv.org/pdf/2503.10497.pdf"
@@ -56,7 +56,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Weihao Xuan]], [[Rui Yang]], [[Heli Qi]], [[Qingcheng Zeng]], [[Yunze Xiao]], [[Aosong Feng]], [[Dairui Liu]], [[Yun Xing]], [[Junjue Wang]], [[Fan Gao]], [[Jinghui Lu]], [[Yuang Jiang]], [[Huitao Li]], [[Xin Li]], [[Kunyu Yu]], [[Ruihai Dong]], [[Shangding Gu]], [[Yuekang Li]], [[Xing Xie|Xiaofei Xie]], [[Felix Juefei-Xu]], [[Foutse Khomh]], [[Osamu Yoshie]], [[Qingyu Chen]], [[Douglas Teodoro]], [[Nan Liu]], [[Randy Goebel]], [[Lei Ma]], [[Edison Marrese-Taylor]], [[Shijian Lu]], [[Yusuke Iwasawa]], [[Yutaka Matsuo]], [[Irene Li]]
+[[Weihao Xuan]], [[Rui Yang]], [[Heli Qi]], [[Qingcheng Zeng]], [[Yunze Xiao]], [[Aosong Feng]], [[Dairui Liu]], [[Yun Xing]], [[Junjue Wang]], [[Fan Gao]], [[Jinghui Lu]], [[Yuang Jiang]], [[Huitao Li]], [[Xin Li]], [[Kunyu Yu]], [[Ruihai Dong]], [[Shangding Gu]], [[Yuekang Li]], [[Xiaofei Xie]], [[Felix Juefei-Xu]], [[Foutse Khomh]], [[Osamu Yoshie]], [[Qingyu Chen]], [[Douglas Teodoro]], [[Nan Liu]], [[Randy Goebel]], [[Lei Ma]], [[Edison Marrese-Taylor]], [[Shijian Lu]], [[Yusuke Iwasawa]], [[Yutaka Matsuo]], [[Irene Li]]
 
 ## Metadata
 

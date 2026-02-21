@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Xia-Evaluating Modern Large Language Models on Low-Resource and|Evaluating Modern Large Language Models on Low-Resource and]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Xia-Evaluating Modern Large Language Models on Low-Resource and*: Affiliation: University of California, Santa Cruz, CA, USA, Email: xiw120@pitt.edu
+- *From 2025-Xia-Evaluating Modern Large Language Models on Low-Resource and*: Affiliation: University of California, Santa Cruz, CA, USA, Email: xiw120@pitt.edu
 - *From 2025-Xia-Evaluating Modern Large Language Models on Low-Resource and*: Affiliation: University of California, Santa Cruz, CA, USA, Email: cxia17@ucsc.edu
 - *From 2025-Xia-Evaluating Modern Large Language Models on Low-Resource and*: Affiliation: University of California, Santa Cruz, CA, USA, Email: xiw120@pitt.edu
 - *From 2025-Xia-Evaluating Modern Large Language Models on Low-Resource and*: Affiliation: University of California, Santa Cruz, CA, USA, Email: cxia17@ucsc.edu

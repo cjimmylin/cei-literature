@@ -17,7 +17,7 @@ short_title: "Dialectal Toxicity Detection: Evaluating LLM-as-a-Judge Consistenc
 year: 2024
 first_author: "[[Faisal, Fahim]]"
 last_author: "[[Anastasopoulos, Antonios]]"
-authors: "[[Faisal, Fahim]]; [[Rahman, Md Mushfiqur]]; [[Anastasopoulos, Antonios]]"
+authors: "Faisal, Fahim; Rahman, Md Mushfiqur; Anastasopoulos, Antonios"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.10954"
 external_pdf: "https://arxiv.org/pdf/2411.10954.pdf"

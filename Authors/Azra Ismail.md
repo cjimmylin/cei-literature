@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual|Beyond the Rubric: Cultural Misalignment in LLM Benchmarks for Sexual and Reproductive Health]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual*: Affiliation: University, Atlanta, Georgia, USA
+- *From 2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual*: Affiliation: University, Atlanta, Georgia, USA
 - *From 2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual*: Affiliation: University, Atlanta, Georgia, USA
 - *From 2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual*: Affiliation: University, Atlanta, Georgia, USA
 - *From 2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual*: Affiliation: University, Atlanta, Georgia, USA

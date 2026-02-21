@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence|Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World]] (First Author)
+- [[2025-Sadallah-Commonsense Reasoning in Arab Culture|Commonsense Reasoning in Arab Culture]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence*: Affiliation: University of Artificial Intelligence
+- *From 2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence*: Affiliation: University of Artificial Intelligence
 - *From 2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence*: Affiliation: University of Artificial Intelligence
 - *From 2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence*: Affiliation: University of Artificial Intelligence
 - *From 2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence*: Affiliation: University of Artificial Intelligence

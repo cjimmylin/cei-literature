@@ -18,9 +18,9 @@ key: EXSR0557
 type: conference_paper
 short_title: "HAQA and QUQA Constructing Two Arabic"
 year: 2023
-first_author: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
+first_author: "[[Sarah Alnefaie]]"
 last_author: "[[Mohammad Ammar Alsalka]]"
-authors: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
+authors: Sarah Alnefaie; Eric Atwell; Mohammad Ammar Alsalka
 authors_incomplete: false
 url: 
 external_pdf: "https://doi.org/10.26615/978-954-452-092-2_010"

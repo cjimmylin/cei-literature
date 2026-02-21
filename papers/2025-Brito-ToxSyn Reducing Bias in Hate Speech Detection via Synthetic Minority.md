@@ -17,7 +17,7 @@ short_title: "ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic Minor
 year: 2025
 first_author: "[[Iago Alves Brito]]"
 last_author: "[[Arlindo Rodrigues Galvão Filho]]"
-authors: "[[Iago Alves Brito]]; [[Julia Soares Dollis]]; [[Fernanda Bufon Färber]]; [[Diogo Fernandes Costa Silva]]; [[Arlindo Rodrigues Galvão Filho]]"
+authors: Iago Alves Brito; Julia Soares Dollis; Fernanda Bufon Färber; Diogo Fernandes Costa Silva; Arlindo Rodrigues Galvão Filho
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.10245"
 external_pdf: "https://arxiv.org/pdf/2506.10245.pdf"

@@ -1,7 +1,7 @@
 ---
 name: "Xuechunzi Bai"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Psychology 2 Department of Computer Science"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Bai-Explicitly unbiased large language models still form biased|Explicitly unbiased large language models still form biased]]
+
+- [[2025-Griffiths-Explicitly Unbiased Large Language Models Still|Explicitly Unbiased Large Language Models Still]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Griffiths-Explicitly Unbiased Large Language Models Still*: Affiliation: Department of Psychology 2 Department of Computer Science
+- *From 2025-Griffiths-Explicitly Unbiased Large Language Models Still*: Affiliation: Department of Psychology 2 Department of Computer Science
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

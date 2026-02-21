@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 - [[2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language|D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models]]
 - [[2023-Zou-Universal and Transferable Adversarial Attacks on|Universal and Transferable Adversarial Attacks on]] (Last Author)
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
+- *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
 - *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
 - *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
 - *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety

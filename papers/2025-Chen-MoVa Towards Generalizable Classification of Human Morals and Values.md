@@ -17,7 +17,7 @@ short_title: "MoVa: Towards Generalizable Classification of Human Morals and Val
 year: 2025
 first_author: "[[Chen, Ziyu]]"
 last_author: "[[Xie, Lexing]]"
-authors: "[[Chen, Ziyu]]; [[Sun, Junfei]]; [[Li, Chenxi]]; [[Nguyen, Tuan Dung]]; [[Yao, Jing]]; [[Yi, Xiaoyuan]]; [[Xie, Xing]]; [[Tan, Chenhao]]; [[Xie, Lexing]]"
+authors: "Chen, Ziyu; Sun, Junfei; Li, Chenxi; Nguyen, Tuan Dung; Yao, Jing; Yi, Xiaoyuan; Xie, Xing; Tan, Chenhao; Xie, Lexing"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.24216"
 external_pdf: "https://arxiv.org/pdf/2509.24216.pdf"

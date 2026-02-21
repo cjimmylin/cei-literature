@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Li-HaluEval|HaluEval]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: lijunyi@ruc.edu.cn
+- *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: lijunyi@ruc.edu.cn
 - *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: chengxiaoxue3@gmail.com
 - *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: batmanfly@gmail.com
 - *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: chengxiaoxue3@gmail.com

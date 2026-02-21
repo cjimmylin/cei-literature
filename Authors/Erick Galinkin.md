@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Ghosh-AEGIS|AEGIS]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Ghosh-AEGIS*:, Email: prasoonv@nvidia.com
+- *From 2024-Ghosh-AEGIS*:, Email: prasoonv@nvidia.com
 - *From 2024-Ghosh-AEGIS*:, Email: prasoonv@nvidia.com
 - *From 2024-Ghosh-AEGIS*:, Email: cparisien@nvidia.com
 - *From 2024-Ghosh-AEGIS*:, Email: shaonag@nvidia.com

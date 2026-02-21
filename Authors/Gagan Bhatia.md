@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Alam-From RAG to Agentic RAG for|From RAG to Agentic RAG for]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Alam-From RAG to Agentic RAG for*: Affiliation: Research Institute, HBKU, Qatar, Email: fialam@hbku.edu.qa
+- *From 2026-Alam-From RAG to Agentic RAG for*: Affiliation: Research Institute, HBKU, Qatar, Email: fialam@hbku.edu.qa
 - *From 2026-Alam-From RAG to Agentic RAG for*: Affiliation: Research Institute, HBKU, Qatar, Email: fialam@hbku.edu.qa
 - *From 2026-Alam-From RAG to Agentic RAG for*: Affiliation: Research Institute, HBKU, Qatar, Email: fialam@hbku.edu.qa
 - *From 2026-Alam-From RAG to Agentic RAG for*: Affiliation: Research Institute, HBKU, Qatar, Email: fialam@hbku.edu.qa

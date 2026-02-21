@@ -15,8 +15,8 @@ type: preprint
 short_title: "The Veln(ia)s is in the Details: Evaluating LLM Judgment on Latvian and Lithuanian Short Answer Matching"
 year: 2025
 first_author: "[[Yevhen Kostiuk]]"
-last_author: "[[Artur Kiulian Lukasz Gagala]]"
-authors: Yevhen Kostiuk, Oxana Vitman, Lukasz Gagala, Artur Kiulian
+last_author: "[[Artur Kiulian]]"
+authors: Yevhen Kostiuk; Oxana Vitman; Lukasz Gagala; Artur Kiulian
 doi: 10.48550/arXiv.2501.09164
 url: "https://arxiv.org/abs/2501.09164"
 external_pdf: "https://arxiv.org/pdf/2501.09164.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Oxana Vitman Yevhen Kostiuk]], [[Artur Kiulian Lukasz Gagala]]
+[[Yevhen Kostiuk]], [[Oxana Vitman]], [[Lukasz Gagala]], [[Artur Kiulian]]
 
 ## Metadata
 

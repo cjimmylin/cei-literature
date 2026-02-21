@@ -15,7 +15,7 @@ short_title: "MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Li
 year: 2025
 first_author: "[[Kargaran, Amir Hossein]]"
 last_author: "[[Schütze, Hinrich]]"
-authors: "[[Kargaran, Amir Hossein]]; [[Modarressi, Ali]]; [[Nikeghbal, Nafiseh]]; [[Diesner, Jana]]; [[Yvon, François]]; [[Schütze, Hinrich]]"
+authors: "Kargaran, Amir Hossein; Modarressi, Ali; Nikeghbal, Nafiseh; Diesner, Jana; Yvon, François; Schütze, Hinrich"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.05873"
 external_pdf: "https://arxiv.org/pdf/2410.05873.pdf"
@@ -51,7 +51,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Kargaran, Amir Hossein]], [[Modarressi, Ali]], [[Nikeghbal, Nafiseh]], [[Diesner, Jana]], [[Yvon, François]], [[Hinrich Schütze|Schütze, Hinrich]]
+[[Kargaran, Amir Hossein]], [[Modarressi, Ali]], [[Nikeghbal, Nafiseh]], [[Diesner, Jana]], [[Yvon, François]], [[Schütze, Hinrich]]
 
 ## Metadata
 

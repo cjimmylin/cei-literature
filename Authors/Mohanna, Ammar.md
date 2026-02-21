@@ -58,7 +58,8 @@ twitter: ""
 
 
 
-- [[2025-Basem-Few-Shot Prompting for Extractive Quranic QA|Few-Shot Prompting for Extractive Quranic QA]] (Last Author)
+
+
 - [[2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic|AraLingBench A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models]]
 
 ## External Links & Profiles
@@ -88,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic*: Affiliation: University of Science and Technology (KAUST), Email: mohamad.zbib@kaust.edu.sa
+- *From 2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic*: Affiliation: University of Science and Technology (KAUST), Email: mohamad.zbib@kaust.edu.sa
 - *From 2025-Basem-Few-Shot Prompting for Extractive Quranic QA*: Affiliation: Faculty of Computer Science, Email: ammohammed@msa.edu.eg
 - *From 2025-Basem-Few-Shot Prompting for Extractive Quranic QA*: Affiliation: Faculty of Computer Science, Email: ammohammed@msa.edu.eg
 - *From 2025-Basem-Few-Shot Prompting for Extractive Quranic QA*: Affiliation: Faculty of Computer Science, Email: islam.abdulhakeem@msa.edu.eg

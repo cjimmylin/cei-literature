@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Fan-FAIRMT-BENCH|FAIRMT-BENCH]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench
+- *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench
 - *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench
 - *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench
 - *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench

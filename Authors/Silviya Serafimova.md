@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2020-Serafimova-Whose Morality Which Rationality|Whose Morality Which Rationality]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2020-Serafimova-Whose Morality Which Rationality*: Affiliation: Academy of Sciences, Soﬁa, Bulgaria, Email: silvija_seraﬁmova@yahoo.com
+- *From 2020-Serafimova-Whose Morality Which Rationality*: Affiliation: Academy of Sciences, Soﬁa, Bulgaria, Email: silvija_seraﬁmova@yahoo.com
 - *From 2020-Serafimova-Whose Morality Which Rationality*: Affiliation: Academy of Sciences, Soﬁa, Bulgaria, Email: silvija_seraﬁmova@yahoo.com
 - *From 2020-Serafimova-Whose Morality Which Rationality*: Affiliation: Academy of Sciences, Soﬁa, Bulgaria, Email: silvija_seraﬁmova@yahoo.com
 - *From 2020-Serafimova-Whose Morality Which Rationality*: Affiliation: Academy of Sciences, Soﬁa, Bulgaria, Email: silvija_seraﬁmova@yahoo.com

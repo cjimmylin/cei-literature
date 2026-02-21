@@ -12,9 +12,9 @@ key: AUTO_HAGENDORFF2022
 type: journalArticle
 short_title: "Virtue-Based Framework for AI Ethics"
 year: 2022
-first_author: "[[Thilo Hagendorff]]"
-last_author: "[[Thilo Hagendorff]]"
-authors: "[[Hagendorff, Thilo]]"
+first_author: "[[Hagendorff]]"
+last_author: "[[Thilo]]"
+authors: Hagendorff; Thilo
 doi: 10.1007/s13347-022-00553-z
 url: "https://link.springer.com/article/10.1007/s13347-022-00553-z"
 pdf_extract: "PDF Extracts/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.md"
@@ -49,7 +49,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Thilo Hagendorff]]
+[[Hagendorff]], [[Thilo]]
 
 ## Metadata
 

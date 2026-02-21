@@ -16,7 +16,7 @@ short_title: "Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence
 year: 2025
 first_author: "[[Saeed Almheiri]]"
 last_author: "[[Fajri Koto]]"
-authors: Saeed Almheiri, Rania Hossam, Mena Attia, Chenxi Wang, Preslav Nakov, Timothy Baldwin, Fajri Koto
+authors: Saeed Almheiri; Rania Hossam; Mena Attia; Chenxi Wang; Preslav Nakov; Timothy Baldwin; Fajri Koto
 doi: 10.48550/arXiv.2509.19265
 url: "https://arxiv.org/abs/2509.19265"
 external_pdf: "https://arxiv.org/pdf/2509.19265.pdf"

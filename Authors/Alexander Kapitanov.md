@@ -37,6 +37,8 @@ Alexander lead researcher on the RusCode project, a unique benchmark designed to
 
 
 
+
+
 - [[2025-Vasilev-RusCode|RusCode]]
 - [[2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]]
 
@@ -46,6 +48,10 @@ Alexander lead researcher on the RusCode project, a unique benchmark designed to
 
 
 
+
+
+- *From 2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
+- *From 2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 - *From 2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 - *From 2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 - *From 2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu

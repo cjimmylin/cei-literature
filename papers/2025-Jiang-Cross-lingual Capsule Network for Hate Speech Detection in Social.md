@@ -16,7 +16,7 @@ short_title: "Cross-lingual Capsule Network for Hate Speech Detection in Social 
 year: 2025
 first_author: "[[Jiang, Aiqi]]"
 last_author: "[[Zubiaga, Arkaitz]]"
-authors: "[[Jiang, Aiqi]]; [[Zubiaga, Arkaitz]]"
+authors: "Jiang, Aiqi; Zubiaga, Arkaitz"
 authors_incomplete: false
 doi: 10.1145/3465336.3475102
 url: "https://dl.acm.org/doi/10.1145/3465336.3475102"

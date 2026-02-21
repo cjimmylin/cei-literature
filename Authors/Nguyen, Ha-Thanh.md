@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence|RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verification]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence*: Affiliation: label Fakenews Dataset for Vietnamese Evidence - PDF Extract", Email: 2nguyenhathanh@nii.ac.jp
+- *From 2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence*: Affiliation: label Fakenews Dataset for Vietnamese Evidence - PDF Extract", Email: 2nguyenhathanh@nii.ac.jp
 - *From 2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence*: Affiliation: label Fakenews Dataset for Vietnamese Evidence - PDF Extract", Email: 2nguyenhathanh@nii.ac.jp
 - *From 2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence*: Affiliation: label Fakenews Dataset for Vietnamese Evidence - PDF Extract", Email: 2nguyenhathanh@nii.ac.jp
 - *From 2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence*: Affiliation: label Fakenews Dataset for Vietnamese Evidence - PDF Extract", Email: 2nguyenhathanh@nii.ac.jp

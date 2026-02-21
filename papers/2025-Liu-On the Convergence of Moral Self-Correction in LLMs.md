@@ -17,7 +17,7 @@ short_title: "On the Convergence of Moral Self-Correction in LLMs"
 year: 2025
 first_author: "[[Liu, Guangliang]]"
 last_author: "[[Johnson, Kristen Marie]]"
-authors: "[[Liu, Guangliang]]; [[Mao, Haitao]]; [[Cao, Bochuan]]; [[Xue, Zhiyu]]; [[Zhang, Xitong]]; [[Wang, Rongrong]]; [[Johnson, Kristen Marie]]"
+authors: "Liu, Guangliang; Mao, Haitao; Cao, Bochuan; Xue, Zhiyu; Zhang, Xitong; Wang, Rongrong; Johnson, Kristen Marie"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.07290"
 external_pdf: "https://arxiv.org/pdf/2510.07290.pdf"

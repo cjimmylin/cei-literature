@@ -38,6 +38,8 @@ Before his doctoral work, he conducted cross-cultural and clinical psychology as
 
 
 
+
+
 - [[2024-Abdulhai-Moral Foundations of Large Language Models|Moral Foundations of Large Language Models]]
 
 ## Links
@@ -53,6 +55,10 @@ Before his doctoral work, he conducted cross-cultural and clinical psychology as
 
 
 
+
+
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 - *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 - *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 - *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley

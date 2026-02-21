@@ -20,7 +20,7 @@ short_title: "Religion Theology and Philosophical Skills of"
 year: 2023
 first_author: "[[Trepczynski, Marcin]]"
 last_author: "[[Marcin Trepczynski]]"
-authors: "[[Marcin Trepczynski]]"
+authors: Marcin Trepczynski
 authors_incomplete: false
 url: 
 external_pdf: "https://hrcak.srce.hr/file/453637"

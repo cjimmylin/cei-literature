@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
+- *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: divya@cip.org

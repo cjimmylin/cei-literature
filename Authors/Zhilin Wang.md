@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Chiu-Will AI Tell Lies to Save Sick Children|Will AI Tell Lies to Save Sick Children?]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Chiu-Will AI Tell Lies to Save Sick Children*: Affiliation: University of Washington, 2NVIDIA, 3Cambridge, 4Stanford, 5MIT, 6Harvard, 7Anthropic, Email: kellycyy@uw.edu
+- *From 2025-Chiu-Will AI Tell Lies to Save Sick Children*: Affiliation: University of Washington, 2NVIDIA, 3Cambridge, 4Stanford, 5MIT, 6Harvard, 7Anthropic, Email: kellycyy@uw.edu
 - *From 2025-Chiu-Will AI Tell Lies to Save Sick Children*: Affiliation: University of Washington, 2NVIDIA, 3Cambridge, 4Stanford, 5MIT, 6Harvard, 7Anthropic, Email: kellycyy@uw.edu
 - *From 2025-Chiu-Will AI Tell Lies to Save Sick Children*: Affiliation: University of Washington, 2NVIDIA, 3Cambridge, 4Stanford, 5MIT, 6Harvard, 7Anthropic, Email: kellycyy@uw.edu
 - *From 2025-Chiu-Will AI Tell Lies to Save Sick Children*: Affiliation: University of Washington, 2NVIDIA, 3Cambridge, 4Stanford, 5MIT, 6Harvard, 7Anthropic, Email: kellycyy@uw.edu

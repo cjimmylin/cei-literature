@@ -18,8 +18,8 @@ type: conferencePaper
 short_title: "ASSIN: Avaliação de Similaridade Semântica e INferência textual"
 year: 2016
 first_author: "[[Erick Fonseca]]"
-last_author: "[[Alexandre Mouzalon Marcelo Finger]]"
-authors: "Erick Fonseca, Leandro Borges dos Santos, Marcelo Finger, Alexandre Mouzalon"
+last_author: "[[Alexandre Mouzalon]]"
+authors: Erick Fonseca; Leandro Borges dos Santos; Marcelo Finger; Alexandre Mouzalon
 url: "http://nilc.icmc.usp.br/assin/"
 publication: NILC/USP
 CONF-CC: "N/A"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Leandro Borges dos Santos Erick Fonseca]], [[Alexandre Mouzalon Marcelo Finger]]
+[[Erick Fonseca]], [[Leandro Borges dos Santos]], [[Marcelo Finger]], [[Alexandre Mouzalon]]
 
 ## Metadata
 

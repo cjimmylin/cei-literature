@@ -17,7 +17,7 @@ short_title: "Data-Efficient Hate Speech Detection via Cross-Lingual ..."
 year: 2025
 first_author: "[[Ghorbanpour, Faeze]]"
 last_author: "[[Fraser, Alexander]]"
-authors: "[[Ghorbanpour, Faeze]]; [[Dementieva, Daryna]]; [[Fraser, Alexander]]"
+authors: "Ghorbanpour, Faeze; Dementieva, Daryna; Fraser, Alexander"
 authors_incomplete: false
 url: "https://arxiv.org/pdf/2505.14272"
 external_pdf: "https://arxiv.org/pdf/2505.14272.pdf"

@@ -15,7 +15,7 @@ short_title: "DeTox: A Comprehensive Dataset for German Offensive Language and C
 year: 2022
 first_author: "[[Christoph Demus]]"
 last_author: "[[Udo Kruschwitz]]"
-authors: "Christoph Demus, Jonas Pitz, Mina Schussler, Dirk Labudde, Udo Kruschwitz"
+authors: Christoph Demus; Jonas Pitz; Mina Schussler; Dirk Labudde; Udo Kruschwitz
 url: "https://aclanthology.org/2022.woah-1.14/"
 external_pdf: "https://aclanthology.org/2022.woah-1.14.pdf"
 publication: "ACL Anthology"

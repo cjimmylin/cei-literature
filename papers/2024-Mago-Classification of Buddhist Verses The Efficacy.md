@@ -17,9 +17,9 @@ key: EXSR0468
 type: conference_paper
 short_title: "Classification of Buddhist Verses The Efficacy"
 year: 2024
-first_author: "[[Nikita Neveditsin, Ambuja Salgaonkar, Pawan Lingras, Vijay Mago]]"
-last_author: "[[Vijay Mago Pawan Lingras]]"
-authors: "[[Nikita Neveditsin, Ambuja Salgaonkar, Pawan Lingras, Vijay Mago]]"
+first_author: "[[Nikita Neveditsin]]"
+last_author: "[[Vijay Mago]]"
+authors: Nikita Neveditsin; Ambuja Salgaonkar; Pawan Lingras; Vijay Mago
 authors_incomplete: false
 url: 
 external_pdf: "https://aclanthology.org/2024.nlp4dh-1.37.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Ambuja Salgaonkar Nikita Neveditsin]], [[Vijay Mago Pawan Lingras]]
+[[Nikita Neveditsin]], [[Ambuja Salgaonkar]], [[Pawan Lingras]], [[Vijay Mago]]
 
 ## Metadata
 

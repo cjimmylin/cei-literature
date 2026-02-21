@@ -16,7 +16,7 @@ short_title: "AfroBench -- How Good are LLMs on African Languages?"
 year: 2023
 first_author: "[[Ojo, Jessica]]"
 last_author: "[[Adelani, David Ifeoluwa]]"
-authors: "[[Ojo, Jessica]]; [[Ogundepo, Odunayo]]; [[Oladipo, Akintunde]]; [[Ogueji, Kelechi]]; [[Lin, Jimmy]]; [[Stenetorp, Pontus]]; [[Adelani, David Ifeoluwa]]"
+authors: "Ojo, Jessica; Ogundepo, Odunayo; Oladipo, Akintunde; Ogueji, Kelechi; Lin, Jimmy; Stenetorp, Pontus; Adelani, David Ifeoluwa"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2311.07978"
 external_pdf: "https://arxiv.org/pdf/2311.07978.pdf"

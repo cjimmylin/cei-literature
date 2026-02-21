@@ -21,7 +21,7 @@ short_title: "Few-Shot Prompting for Extractive Quranic QA"
 year: 2025
 first_author: "[[Basem, Mohamed]]"
 last_author: "[[Mohammed, Ammar]]"
-authors: "[[Basem, Mohamed]]; [[Oshallah, Islam]]; [[Hamdi, Ali]]; [[Mohammed, Ammar]]"
+authors: "Basem, Mohamed; Oshallah, Islam; Hamdi, Ali; Mohammed, Ammar"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.06103"
 external_pdf: "https://arxiv.org/pdf/2508.06103.pdf"
@@ -57,7 +57,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Mohamed Basem|Basem, Mohamed]], [[Oshallah, Islam]], [[Hamdi, Ali]], [[Mohanna, Ammar|Mohammed, Ammar]]
+[[Mohamed Basem|Basem, Mohamed]], [[Oshallah, Islam]], [[Hamdi, Ali]], [[Mohammed, Ammar]]
 
 ## Metadata
 

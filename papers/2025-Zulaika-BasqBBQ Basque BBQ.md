@@ -17,7 +17,7 @@ short_title: "BasqBBQ (Basque BBQ)"
 year: 2025
 first_author: "[[Zulaika, Muitze]]"
 last_author: "[[Saralegi, Xabier]]"
-authors: "[[Zulaika, Muitze]]; [[Saralegi, Xabier]]"
+authors: "Zulaika, Muitze; Saralegi, Xabier"
 authors_incomplete: false
 publication: "COLING 2025"
 CONF-CC: "COLING 2025"

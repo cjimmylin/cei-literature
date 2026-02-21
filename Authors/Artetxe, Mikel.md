@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in|The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants]]
 - [[2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque|Latxa: An Open Language Model and Evaluation Suite for Basque]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
+- *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
 - *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
 - *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
 - *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§

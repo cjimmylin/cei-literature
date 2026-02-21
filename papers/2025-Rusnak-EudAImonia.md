@@ -16,7 +16,7 @@ short_title: EudAImonia
 year: 2025
 first_author: "[[Alexander Rusnak]]"
 last_author: "[[Seals, Zachary]]"
-authors: "[[Rusnak, Alexander]]; [[Seals, Zachary]]"
+authors: "Rusnak, Alexander; Seals, Zachary"
 doi: N/A
 url: "https://iscast.org/journal/cposat/"
 national_ethnic_cultural: N/A

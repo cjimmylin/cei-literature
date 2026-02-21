@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Farina-AI and Society Virtue Ethics Approach|AI and Society Virtue Ethics Approach]]
 
 ## External Links & Profiles

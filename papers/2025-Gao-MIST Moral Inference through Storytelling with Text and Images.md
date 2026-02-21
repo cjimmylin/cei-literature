@@ -16,7 +16,7 @@ key: EXSR0270
 type: conferencePaper
 short_title: "MIST: Moral Inference through Storytelling with Text and Images"
 year: 2025
-first_author: "[[C. Gao]]"
+first_author: "[[Chujie Gao]]"
 last_author: "[[Xiangliang Zhang]]"
 authors: "Chujie Gao; Yue Huang; Xiangqi Wang; Siyuan Wu; Nitesh V. Chawla; Xiangliang Zhang"
 doi: 10.1145/3746252.3760884

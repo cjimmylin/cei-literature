@@ -17,7 +17,7 @@ short_title: "VinaLLaMA: LLaMA-based Vietnamese Foundation Model"
 year: 2023
 first_author: "[[Quan Nguyen]]"
 last_author: "[[Bao Nguyen]]"
-authors: "Quan Nguyen, Huy Pham, Bao Nguyen"
+authors: Quan Nguyen; Huy Pham; Bao Nguyen
 url: "https://arxiv.org/abs/2312.11011"
 external_pdf: "https://arxiv.org/pdf/2312.11011.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Quan H. Nguyen|Quan Nguyen]], [[Huy Pham]], [[Bao Nguyen]]
+[[Quan Nguyen]], [[Huy Pham]], [[Bao Nguyen]]
 
 ## Metadata
 

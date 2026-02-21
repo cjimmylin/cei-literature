@@ -22,12 +22,18 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense|JCommonsenseMorality: Japanese Dataset for Evaluating Commonsense Morality Understanding]] (Last Author)
 
 ## Notes
 
 
 
+
+
+- *From 2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense*:, Email: 1takeshita.masashi.68@gmail.com
+- *From 2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense*:, Email: 1takeshita.masashi.68@gmail.com
 - *From 2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense*:, Email: 1takeshita.masashi.68@gmail.com
 - *From 2023-Takeshita-Towards Theory-based Moral AI*: Affiliation: School of Information Science and Technology, Hokkaido University
 [Additional context or contact information]

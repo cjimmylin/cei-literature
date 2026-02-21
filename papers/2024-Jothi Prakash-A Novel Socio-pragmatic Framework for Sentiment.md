@@ -18,7 +18,7 @@ type: preprint
 short_title: "A Novel Socio-pragmatic Framework for Sentiment"
 year: 2024
 first_author: "[[Jothi Prakash, V.]]"
-last_author: "[[Arul Antran Vijay, S.]]"
+last_author: "[[S. Arul Antran Vijay]]"
 authors: V. Jothi Prakash; S. Arul Antran Vijay
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0950705124008827"

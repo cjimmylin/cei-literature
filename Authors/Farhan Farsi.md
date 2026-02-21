@@ -59,8 +59,11 @@ twitter: ""
 
 
 
+
+
 - [[2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of|MELAC: Massive Evaluation of Large Language Models with Alignment of Culture in Persian Language]] (First Author)
 - [[2025-Farsi-PahGen Generating Ancient Pahlavi Text via Grammar-guided Zero-shot|PahGen: Generating Ancient Pahlavi Text via Grammar-guided Zero-shot Translation]] (First Author)
+- [[2025-Farsi-ParsiPy NLP Toolkit for Historical Persian Texts in Python|ParsiPy: NLP Toolkit for Historical Persian Texts in Python]] (First Author)
 
 ## External Links & Profiles
 
@@ -90,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: s.shariati21@umail.umz.ac.ir
+- *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: s.shariati21@umail.umz.ac.ir
 - *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: shayan.bali@kcl.ac.uk
 - *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: shayan.bali@kcl.ac.uk
 - *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: s.shariati21@umail.umz.ac.ir

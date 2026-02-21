@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark|SwiLTra-Bench: The Swiss Legal Translation Benchmark]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark*: Affiliation: University of Zurich, Email: joel@niklaus.ai
+- *From 2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark*: Affiliation: University of Zurich, Email: joel@niklaus.ai
 - *From 2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark*: Affiliation: University of Zurich, Email: joel@niklaus.ai
 - *From 2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark*: Affiliation: University of Zurich, Email: joel@niklaus.ai
 - *From 2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark*: Affiliation: University of Zurich, Email: joel@niklaus.ai

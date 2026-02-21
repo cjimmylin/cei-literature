@@ -51,8 +51,11 @@ Savoldi co-organizes the Workshop on Gender-Inclusive Translation Technologies (
 
 
 
+
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
+- [[2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge|GFG -- Gender-Fair Generation: A CALAMITA Challenge]]
 
 ## External Links & Profiles
 
@@ -71,6 +74,10 @@ Savoldi co-organizes the Workshop on Gender-Inclusive Translation Technologies (
 
 
 
+
+
+- *From 2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge*: Affiliation: Lab, Heriot-Watt University, Edinburgh, Scotland
+- *From 2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge*: Affiliation: Lab, Heriot-Watt University, Edinburgh, Scotland
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

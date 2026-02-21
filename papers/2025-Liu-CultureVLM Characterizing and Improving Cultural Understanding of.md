@@ -16,7 +16,7 @@ short_title: "CultureVLM: Characterizing and Improving Cultural Understanding of
 year: 2025
 first_author: "[[Shudong Liu]]"
 last_author: "[[Jindong Wang]]"
-authors: Shudong Liu, Yiqiao Jin, Cheng Li, Derek F. Wong, Qingsong Wen, Lichao Sun, Haipeng Chen, Xing Xie, Jindong Wang
+authors: Shudong Liu; Yiqiao Jin; Cheng Li; Derek F. Wong; Qingsong Wen; Lichao Sun; Haipeng Chen; Xing Xie; Jindong Wang
 doi: 10.48550/arXiv.2501.01282
 url: "https://arxiv.org/abs/2501.01282"
 external_pdf: "https://arxiv.org/pdf/2501.01282.pdf"

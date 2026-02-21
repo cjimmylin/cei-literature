@@ -18,7 +18,7 @@ short_title: "From Tradition to Technology: A Systematic Survey on Navigating Pa
 year: 2024
 first_author: "[[Zohaib Ahmad Khan]]"
 last_author: "[[Nek Dil Khan]]"
-authors: "Zohaib Ahmad Khan, Yuanqing Xia, Fiza Khaliq, Javed Ali Khan, Nek Dil Khan"
+authors: Zohaib Ahmad Khan; Yuanqing Xia; Fiza Khaliq; Javed Ali Khan; Nek Dil Khan
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5031721"
 publication: SSRN
 CONF-CC: "Preprint"
@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Zohaib Ahmad Khan]], [[Yan Xia|Yuanqing Xia]], [[Fiza Khaliq]], [[Javed Ali Khan]], [[Nek Dil Khan]]
+[[Zohaib Ahmad Khan]], [[Yuanqing Xia]], [[Fiza Khaliq]], [[Javed Ali Khan]], [[Nek Dil Khan]]
 
 ## Metadata
 

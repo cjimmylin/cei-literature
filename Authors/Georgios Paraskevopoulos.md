@@ -58,8 +58,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Roussis-Krikri Advancing Open Large Language Models for Greek|Krikri: Advancing Open Large Language Models for Greek]]
-- [[2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations|A Comparative Sentiment Analysis of Greek Clinical Conversations Using BERT, RoBERTa, GPT-2, and XLNet]] (First Author)
 - [[2024-Voukoutis-Meltemi The first open Large Language Model for Greek|Meltemi: The first open Large Language Model for Greek]]
 
 ## External Links & Profiles
@@ -89,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Voukoutis-Meltemi The first open Large Language Model for Greek*: Affiliation: Institute for Speech and Language Processing, Athena Research Center, Email: vsk@athenarc.gr
+- *From 2024-Voukoutis-Meltemi The first open Large Language Model for Greek*: Affiliation: Institute for Speech and Language Processing, Athena Research Center, Email: vsk@athenarc.gr
 - *From 2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations*: Affiliation: Department of Electrical and Computer Engineering, Hellenic Mediterranean University & Institute of, Email: xpontik@uoc.gr
 - *From 2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations*: Affiliation: Department of Electrical and Computer Engineering, Hellenic Mediterranean University & Institute of, Email: hatzimin@ics.forth.gr
 - *From 2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations*: Affiliation: Department of Electrical and Computer Engineering, Hellenic Mediterranean University & Institute of, Email: hatzimin@ics.forth.gr

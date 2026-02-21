@@ -16,7 +16,7 @@ short_title: "Evaluation of Hate Speech Detection Using Large Language Models an
 year: 2025
 first_author: "[[Zahid, Anwar Hossain]]"
 last_author: "[[Das, Swarna]]"
-authors: "[[Zahid, Anwar Hossain]]; [[Roy, Monoshi Kumar]]; [[Das, Swarna]]"
+authors: "Zahid, Anwar Hossain; Roy, Monoshi Kumar; Das, Swarna"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.19612"
 external_pdf: "https://arxiv.org/pdf/2502.19612.pdf"

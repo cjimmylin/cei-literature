@@ -17,7 +17,7 @@ short_title: "Sabiá-2: A New Generation of Portuguese Large Language Models"
 year: 2024
 first_author: "[[Almeida, Thales Sales]]"
 last_author: "[[Pires, Ramon]]"
-authors: "[[Almeida, Thales Sales]]; [[Abonizio, Hugo]]; [[Nogueira, Rodrigo]]; [[Pires, Ramon]]"
+authors: "Almeida, Thales Sales; Abonizio, Hugo; Nogueira, Rodrigo; Pires, Ramon"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.09887"
 external_pdf: "https://arxiv.org/pdf/2403.09887.pdf"

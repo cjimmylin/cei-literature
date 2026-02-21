@@ -18,8 +18,8 @@ type: conferencePaper
 short_title: "Building Interpretable Models for Moral Decision-Making"
 year: 2026
 first_author: "[[M. Goel]]"
-last_author: "[[A]]"
-authors: "Goel, M., Das, A"
+last_author: "[[A Das]]"
+authors: M. Goel; A Das
 url: "https://arxiv.org/abs/2602.03351"
 external_pdf: "https://arxiv.org/pdf/2602.03351.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Goel-Building Interpretable Models for Moral Decision-Making.md"
@@ -54,7 +54,7 @@ CONFERENCE: "NeurIPS 2025"
 
 ## Authors
 
-[[Goel]], [[M.]], [[Dipanjan Das|Das]], [[A]]
+[[M. Goel]], [[A Das]]
 
 ## Metadata
 

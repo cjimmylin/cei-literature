@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech|A Bilingual Malay-English Social Media Dataset for Binary Hate Speech Detection]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech*: Affiliation: lable at ScienceDirect, Email: lyong@mmu.edu.my
+- *From 2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech*: Affiliation: lable at ScienceDirect, Email: lyong@mmu.edu.my
 - *From 2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech*: Affiliation: lable at ScienceDirect, Email: lyong@mmu.edu.my
 - *From 2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech*: Affiliation: lable at ScienceDirect, Email: lyong@mmu.edu.my
 - *From 2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech*: Affiliation: lable at ScienceDirect, Email: lyong@mmu.edu.my

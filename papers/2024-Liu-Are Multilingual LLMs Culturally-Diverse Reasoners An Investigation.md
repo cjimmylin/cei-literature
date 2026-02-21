@@ -15,8 +15,8 @@ type: preprint
 short_title: Are Multilingual LLMs Culturally-Diverse Reasoners? An Investigation into Multicultural Proverbs and Sayings
 year: 2024
 first_author: "[[Chen Cecilia Liu]]"
-last_author: "[[Iryna Gurevych Timothy Baldwin]]"
-authors: Chen Cecilia Liu, Fajri Koto, Timothy Baldwin, Iryna Gurevych
+last_author: "[[Iryna Gurevych]]"
+authors: Chen Cecilia Liu; Fajri Koto; Timothy Baldwin; Iryna Gurevych
 url: "https://arxiv.org/abs/2309.08591"
 external_pdf: "https://arxiv.org/pdf/2309.08591.pdf"
 publication: arXiv / NAACL 2024
@@ -51,7 +51,7 @@ CONFERENCE: "NAACL 2024"
 
 ## Authors
 
-[[Fenglin Liu|Fajri Koto Chen Cecilia Liu]], [[Iryna Gurevych Timothy Baldwin]]
+[[Chen Cecilia Liu]], [[Fajri Koto]], [[Timothy Baldwin]], [[Iryna Gurevych]]
 
 ## Metadata
 

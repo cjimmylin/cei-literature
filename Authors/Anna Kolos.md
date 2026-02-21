@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content|BAN-PL: a Novel Polish Dataset of Banned Harmful and Offensive Content from Wykop.pl web service]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content*: Affiliation: Research Institute (Warsaw), †Wykop
+- *From 2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content*: Affiliation: Research Institute (Warsaw), †Wykop
 - *From 2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content*: Affiliation: Research Institute (Warsaw), †Wykop
 - *From 2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content*: Affiliation: Research Institute (Warsaw), †Wykop
 - *From 2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content*: Affiliation: Research Institute (Warsaw), †Wykop

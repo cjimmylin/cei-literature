@@ -59,7 +59,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kaewkasi-A Benchmark for Large Language Models on Northern|A Benchmark for Large Language Models on Northern]]
+- [[2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models|WangchanBERTa Pretraining transformer-based Thai Language Models]] (Last Author)
 
 ## External Links & Profiles
 
@@ -89,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models*: Affiliation: School of Information Science and Technology, Vidyasirimedhi Institution of Science and Technology, Email: charin.polpanumas@datatouille.org
+- *From 2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models*: Affiliation: School of Information Science and Technology, Vidyasirimedhi Institution of Science and Technology, Email: charin.polpanumas@datatouille.org
 - *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org
 - *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org
 - *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org

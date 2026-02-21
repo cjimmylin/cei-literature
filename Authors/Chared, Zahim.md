@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Chared-AI-driven detection of hate speech on social media a case study in|AI-driven detection of hate speech on social media: a case study in the French language]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Chared-AI-driven detection of hate speech on social media a case study in*: Affiliation: Department of Information Security and Communication, Email: zahim.chared@ecole.ensicaen.fr
+- *From 2025-Chared-AI-driven detection of hate speech on social media a case study in*: Affiliation: Department of Information Security and Communication, Email: zahim.chared@ecole.ensicaen.fr
 - *From 2025-Chared-AI-driven detection of hate speech on social media a case study in*: Affiliation: Department of Information Security and Communication, Email: zahim.chared@ecole.ensicaen.fr
 - *From 2025-Chared-AI-driven detection of hate speech on social media a case study in*: Affiliation: Department of Information Security and Communication, Email: zahim.chared@ecole.ensicaen.fr
 - *From 2025-Chared-AI-driven detection of hate speech on social media a case study in*: Affiliation: Department of Information Security and Communication, Email: robin.salmi@ecole.ensicaen.fr

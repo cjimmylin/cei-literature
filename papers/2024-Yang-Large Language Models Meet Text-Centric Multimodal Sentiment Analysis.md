@@ -16,7 +16,7 @@ short_title: "Large Language Models Meet Text-Centric Multimodal Sentiment Analy
 year: 2024
 first_author: "[[Yang, Hao]]"
 last_author: "[[Qin, Bing]]"
-authors: "[[Yang, Hao]]; [[Zhao, Yanyan]]; [[Wu, Yang]]; [[Wang, Shilong]]; [[Zheng, Tian]]; [[Zhang, Hongbo]]; [[Ma, Zongyang]]; [[Che, Wanxiang]]; [[Qin, Bing]]"
+authors: "Yang, Hao; Zhao, Yanyan; Wu, Yang; Wang, Shilong; Zheng, Tian; Zhang, Hongbo; Ma, Zongyang; Che, Wanxiang; Qin, Bing"
 authors_incomplete: false
 url: "https://arxiv.org/html/2406.08068v2"
 external_pdf: "https://arxiv.org/pdf/2406.08068.pdf"

@@ -18,7 +18,7 @@ short_title: "Through Eudaimonia's Lenses"
 year: 2024
 first_author: "[[Julian Marvin Jörs]]"
 last_author: "[[De Luca, Ernesto William]]"
-authors: "[[Jörs, Julian Marvin]]; [[De Luca, Ernesto William]]"
+authors: "Jörs, Julian Marvin; De Luca, Ernesto William"
 doi: N/A
 url: "https://www.researchgate.net/publication/380938771_Through_Eudaimonia's_Lenses_EudAImonic_Well-Being_Variables_As_Guiding_Principles_For_AI_Design"
 pdf_extract: "PDF Extracts/2024/2024-Jörs-Through Eudaimonia's Lenses.md"

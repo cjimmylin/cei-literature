@@ -36,7 +36,10 @@ Alina's research investigates the vulnerabilities of LLM guardrails and the syst
 
 
 
+
+
 - [[2024-Pistilli-CIVICS|CIVICS]]
+- [[2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in|CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models]]
 
 ## External Links & Profiles
 - [Personal Website](https://aleidinger.github.io/)
@@ -49,6 +52,10 @@ Alina's research investigates the vulnerabilities of LLM guardrails and the syst
 
 
 
+
+
+- *From 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in*: Affiliation: University of Amsterdam
+- *From 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in*: Affiliation: University of Amsterdam
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co

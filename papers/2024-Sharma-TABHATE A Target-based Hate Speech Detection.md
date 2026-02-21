@@ -17,7 +17,7 @@ type: preprint
 short_title: "TABHATE A Target-based Hate Speech Detection"
 year: 2024
 first_author: "[[Sharma, Deepawali]]"
-last_author: "[[Gupta, Vedika]]"
+last_author: "[[Vedika Gupta]]"
 authors: Deepawali Sharma; Vivek Kumar Singh; Vedika Gupta
 authors_incomplete: false
 url: "https://link.springer.com/article/10.1007/s13278-024-01355-1"
@@ -54,7 +54,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-Unknown
+[[Deepawali Sharma]], [[Vivek Kumar Singh]], [[Vedika Gupta]]
 
 ## Metadata
 

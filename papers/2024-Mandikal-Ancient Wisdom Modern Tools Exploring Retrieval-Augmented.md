@@ -19,7 +19,7 @@ short_title: "Ancient Wisdom Modern Tools Exploring Retrieval-Augmented"
 year: 2024
 first_author: "[[Mandikal, Priyanka]]"
 last_author: "[[Priyanka Mandikal]]"
-authors: "[[Priyanka Mandikal]]"
+authors: Priyanka Mandikal
 authors_incomplete: false
 url: "https://arxiv.org/abs/2408.11903"
 external_pdf: "https://arxiv.org/pdf/2408.11903.pdf"

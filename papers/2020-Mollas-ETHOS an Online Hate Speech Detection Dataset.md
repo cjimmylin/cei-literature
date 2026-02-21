@@ -15,8 +15,8 @@ type: preprint
 short_title: "ETHOS: an Online Hate Speech Detection Dataset"
 year: 2020
 first_author: "[[Ioannis Mollas]]"
-last_author: "[[Grigorios Tsoumakas Stamatis Karlos]]"
-authors: "Ioannis Mollas, Zoe Chrysopoulou, Stamatis Karlos, Grigorios Tsoumakas"
+last_author: "[[Grigorios Tsoumakas]]"
+authors: Ioannis Mollas; Zoe Chrysopoulou; Stamatis Karlos; Grigorios Tsoumakas
 doi: 10.1007/s40747-021-00608-2
 url: "https://arxiv.org/abs/2006.08328"
 external_pdf: "https://arxiv.org/pdf/2006.08328.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Zoe Chrysopoulou Ioannis Mollas]], [[Grigorios Tsoumakas Stamatis Karlos]]
+[[Ioannis Mollas]], [[Zoe Chrysopoulou]], [[Stamatis Karlos]], [[Grigorios Tsoumakas]]
 
 ## Metadata
 

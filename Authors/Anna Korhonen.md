@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models|Cultural Learning-Based Culture Adaptation of Language Models]]
 - [[2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding|TurkishMMLU Measuring Massive Multitask Language Understanding]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: akoksal@cis.lmu.de
+- *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: akoksal@cis.lmu.de
 - *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: akoksal@cis.lmu.de
 - *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: arda.yueksel@tum.de
 - *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: arda.yueksel@tum.de

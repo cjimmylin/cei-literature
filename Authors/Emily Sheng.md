@@ -39,6 +39,8 @@ Emily Sheng is a Research Scientist at Microsoft Research, specializing in fairn
 
 
 
+
+
 - [[2023-Fleisig-FairPrism|FairPrism]]
 
 ## External Links
@@ -53,6 +55,10 @@ Emily Sheng is a Research Scientist at Microsoft Research, specializing in fairn
 
 
 
+
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: efleisig@berkeley.edu
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com

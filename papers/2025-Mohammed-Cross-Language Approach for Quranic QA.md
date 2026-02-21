@@ -16,9 +16,9 @@ key: EXSR0350
 type: preprint
 short_title: "Cross-Language Approach for Quranic QA"
 year: 2025
-first_author: "[[Islam Oshallah, Mohamed Basem, Ali Hamdi, Ammar Mohammed]]"
-last_author: "[[Ammar Mohammed Ali Hamdi]]"
-authors: "[[Islam Oshallah, Mohamed Basem, Ali Hamdi, Ammar Mohammed]]"
+first_author: "[[Islam Oshallah]]"
+last_author: "[[Ammar Mohammed]]"
+authors: Islam Oshallah; Mohamed Basem; Ali Hamdi; Ammar Mohammed
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.17449"
 external_pdf: "https://arxiv.org/pdf/2501.17449.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Mohamed Basem Islam Oshallah]], [[Ali Hamdi|Ammar Mohammed Ali Hamdi]]
+[[Islam Oshallah]], [[Mohamed Basem]], [[Ali Hamdi]], [[Mohammed, Ammar|Ammar Mohammed]]
 
 ## Metadata
 

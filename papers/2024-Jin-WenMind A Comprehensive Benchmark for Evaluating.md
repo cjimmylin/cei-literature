@@ -17,9 +17,9 @@ key: EXSR0545
 type: conference_paper
 short_title: "WenMind A Comprehensive Benchmark for Evaluating"
 year: 2024
-first_author: "[[Jiahuan Cao, Yang Liu, Yongxin Shi, Kai Ding, Lianwen Jin]]"
+first_author: "[[Jiahuan Cao]]"
 last_author: "[[Lianwen Jin]]"
-authors: "[[Jiahuan Cao, Yang Liu, Yongxin Shi, Kai Ding, Lianwen Jin]]"
+authors: Jiahuan Cao; Yang Liu; Yongxin Shi; Kai Ding; Lianwen Jin
 authors_incomplete: false
 url: 
 external_pdf: "https://openreview.net/pdf?id=ZWxM9OG7m5"
@@ -55,7 +55,7 @@ CONFERENCE: "NeurIPS 2024"
 
 ## Authors
 
-[[Jiahuan Cao]], [[Yang Liu]], [[Yongxin Shi]], [[Keyan Ding|Kai Ding]], [[Lianwen Jin]]
+[[Jiahuan Cao]], [[Yang Liu]], [[Yongxin Shi]], [[Kai Ding]], [[Lianwen Jin]]
 
 ## Metadata
 

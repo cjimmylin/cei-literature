@@ -25,6 +25,8 @@ Amr A. Munshi is a researcher at King Abdulaziz University in Saudi Arabia, work
 
 
 
+
+
 - [[2021-Munshi-Towards an Automated Islamic Fatwa System|Towards an Automated Islamic Fatwa System]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ Amr A. Munshi is a researcher at King Abdulaziz University in Saudi Arabia, work
 
 
 
+
+
+- *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: aaamunshi@uqu.edu.sa
+- *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: aaamunshi@uqu.edu.sa
 - *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: whsabban@uqu.edu.sa
 - *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: aaamunshi@uqu.edu.sa
 - *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: i@omarito.me

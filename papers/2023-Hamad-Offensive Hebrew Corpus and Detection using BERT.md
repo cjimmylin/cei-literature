@@ -15,8 +15,8 @@ type: preprint
 short_title: "Offensive Hebrew Corpus and Detection using BERT"
 year: 2023
 first_author: "[[Nagham Hamad]]"
-last_author: "[[Nadim Nashif Mohammed Khalilia]]"
-authors: "Nagham Hamad, Mustafa Jarrar, Mohammed Khalilia, Nadim Nashif"
+last_author: "[[Nadim Nashif]]"
+authors: Nagham Hamad; Mustafa Jarrar; Mohammed Khalilia; Nadim Nashif
 doi: 10.1109/ICSEE61636.2024.10479258
 url: "https://arxiv.org/abs/2309.02724"
 external_pdf: "https://arxiv.org/pdf/2309.02724.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Mustafa Jarrar Nagham Hamad]], [[Nadim Nashif Mohammed Khalilia]]
+[[Nagham Hamad]], [[Mustafa Jarrar]], [[Mohammed Khalilia]], [[Nadim Nashif]]
 
 ## Metadata
 

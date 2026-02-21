@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social|Automatic Hate Speech Detection in English-Odia Code Mixed Social Media Data Using Machine Learning Techniques]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social*: Affiliation: Faculty of Emerging Technologies, Sri Sri University, Cuttack 754006, India, Email: dkbebarta@gvpcew.ac.in
+- *From 2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social*: Affiliation: Faculty of Emerging Technologies, Sri Sri University, Cuttack 754006, India, Email: dkbebarta@gvpcew.ac.in
 - *From 2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social*: Affiliation: Faculty of Emerging Technologies, Sri Sri University, Cuttack 754006, India, Email: sudhir.mohapatra@srisriuniversity.edu.in
 - *From 2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social*: Affiliation: Faculty of Emerging Technologies, Sri Sri University, Cuttack 754006, India, Email: kathiravan.srinivasan@vit.ac.in
 - *From 2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social*: Affiliation: Faculty of Emerging Technologies, Sri Sri University, Cuttack 754006, India, Email: srinivas_prasad@hotmail.com

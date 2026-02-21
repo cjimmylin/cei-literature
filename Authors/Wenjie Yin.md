@@ -22,8 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Kirk-SemEval-2023 Task 10|SemEval-2023 Task 10]]
-- [[2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating|GPTBIAS A Comprehensive Framework for Evaluating]]
 
 ## Notes
 
@@ -32,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Kirk-SemEval-2023 Task 10*: Affiliation: University of Oxford
+- *From 2023-Kirk-SemEval-2023 Task 10*: Affiliation: University of Oxford
 - *From 2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating*: Affiliation: University of Technology, the Netherlands, Email: j.zhao@tue.nl
 - *From 2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating*: Affiliation: University of Technology, the Netherlands, Email: s.pan@griffith.edu.au
 - *From 2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating*: Affiliation: University of Technology, the Netherlands, Email: Meng.Fang@liverpool.ac.uk

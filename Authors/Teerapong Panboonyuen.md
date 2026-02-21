@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Sermsri-Debiasing Large Language Models in Thai|Debiasing Large Language Models in Thai]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Sermsri-Debiasing Large Language Models in Thai*: Affiliation: Laboratory, pioneering advanced, Email: 6532012521@student.chula.ac.th
+- *From 2025-Sermsri-Debiasing Large Language Models in Thai*: Affiliation: Laboratory, pioneering advanced, Email: 6532012521@student.chula.ac.th
 - *From 2025-Sermsri-Debiasing Large Language Models in Thai*: Affiliation: Laboratory, pioneering advanced, Email: 6532012521@student.chula.ac.th
 - *From 2025-Sermsri-Debiasing Large Language Models in Thai*: Affiliation: Laboratory, pioneering advanced, Email: 6532012521@student.chula.ac.th
 - *From 2025-Sermsri-Debiasing Large Language Models in Thai*: Affiliation: Laboratory, pioneering advanced, Email: 6532012521@student.chula.ac.th

@@ -16,7 +16,7 @@ short_title: "PeLLE: Encoder-based Language Models for Brazilian Portuguese Base
 year: 2024
 first_author: "[[Mello, Guilherme Lamartine de]]"
 last_author: "[[Cavalim, Paulo]]"
-authors: "[[Mello, Guilherme Lamartine de]]; [[Finger, Marcelo]]; [[Serras, Felipe]]; [[Carpi, Miguel de Mello]]; [[Jose, Marcos Menon]]; [[Domingues, Pedro Henrique]]; [[Cavalim, Paulo]]"
+authors: "Mello, Guilherme Lamartine de; Finger, Marcelo; Serras, Felipe; Carpi, Miguel de Mello; Jose, Marcos Menon; Domingues, Pedro Henrique; Cavalim, Paulo"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2402.19204"
 external_pdf: "https://arxiv.org/pdf/2402.19204.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Moura, Vitor D. de|Mello, Guilherme Lamartine de]], [[Finger, Marcelo]], [[Serras, Felipe]], [[Carpi, Mello|Carpi, Miguel de Mello]], [[Jose, Marcos Menon]], [[Domingues, Pedro Henrique]], [[Cavalim, Paulo]]
+[[Mello, Guilherme Lamartine de]], [[Finger, Marcelo]], [[Serras, Felipe]], [[Carpi, Miguel de Mello]], [[Jose, Marcos Menon]], [[Domingues, Pedro Henrique]], [[Cavalim, Paulo]]
 
 ## Metadata
 

@@ -18,7 +18,7 @@ short_title: "GermEval 2018 Shared Task on the Identification of Offensive Langu
 year: 2018
 first_author: "[[Michael Wiegand]]"
 last_author: "[[Josef Ruppenhofer]]"
-authors: "Michael Wiegand, Melanie Siegel, Josef Ruppenhofer"
+authors: Michael Wiegand; Melanie Siegel; Josef Ruppenhofer
 url: "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf"
 external_pdf: "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf"
 publication: "GermEval Workshop"

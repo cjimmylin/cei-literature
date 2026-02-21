@@ -16,7 +16,7 @@ short_title: "Cross-lingual hate speech detection using domain-specific word emb
 year: 2025
 first_author: "[[Monnar, Ayme Arango]]"
 last_author: "[[Labra, Barbara Polete]]"
-authors: "[[Monnar, Ayme Arango]]; [[Rojas, Jorge Perez]]; [[Labra, Barbara Polete]]"
+authors: "Monnar, Ayme Arango; Rojas, Jorge Perez; Labra, Barbara Polete"
 authors_incomplete: false
 doi: 10.1371/journal.pone.0306521
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306521"

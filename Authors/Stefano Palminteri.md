@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Garcia-The Moral Turing Test|The Moral Turing Test]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
+- *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
 - *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
 - *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
 - *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: stefano.palminteri@ens.fr

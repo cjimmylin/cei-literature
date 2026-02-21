@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2021-Carroll-Operationalizing the CARE and FAIR Principles for Indigenous Data|Operationalizing the CARE and FAIR Principles for Indigenous Data Futures]]
 
 ## Notes

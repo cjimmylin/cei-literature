@@ -17,7 +17,7 @@ short_title: "L3Cube-MahaNLP Marathi Natural Language Processing Datasets"
 year: 2022
 first_author: "[[Joshi]]"
 last_author: "[[Joshi]]"
-authors: "[[Joshi]]"
+authors: Joshi
 authors_incomplete: true
 url: "https://arxiv.org/abs/2205.14728"
 external_pdf: "https://arxiv.org/pdf/2205.14728.pdf"

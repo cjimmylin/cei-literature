@@ -1,9 +1,9 @@
 ---
 name: "Kanishk Jain"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute, 2Université de Montréal, 3McGill University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "shravan.nayak@mila.quebec"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -56,6 +56,9 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
+- [[2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding|Benchmarking Vision Language Models for Cultural Understanding]]
 - [[2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding|CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding]]
 
 ## External Links & Profiles
@@ -82,6 +85,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
+- *From 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

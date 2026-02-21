@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech|ViToSA: Audio-Based Toxic Spans Detection on Vietnamese Speech Utterances]]
 - [[2024-Luu-ViTHSD Exploiting Hatred by Targets for Hate Speech Detection on|ViTHSD: Exploiting Hatred by Targets for Hate Speech Detection on Vietnamese Social Media Texts]] (First Author)
 - [[2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social|A Large-scale Dataset for Hate Speech Detection on Vietnamese Social Media Texts]] (First Author)
 
@@ -88,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
+- *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam

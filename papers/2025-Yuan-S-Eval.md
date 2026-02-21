@@ -16,7 +16,7 @@ short_title: S-Eval
 year: 2025
 first_author: "[[Yuan, Xiaohan]]"
 last_author: "[[Wang, Jingyi]]"
-authors: "[[Yuan, Xiaohan]]; [[Li, Jinfeng]]; [[Wang, Dongxia]]; [[Chen, Yuefeng]]; [[Mao, Xiaofeng]]; [[Huang, Longtao]]; [[Chen, Jialuo]]; [[Xue, Hui]]; [[Liu, Xiaoxia]]; [[Wang, Wenhai]]; [[Ren, Kui]]; [[Wang, Jingyi]]"
+authors: "Yuan, Xiaohan; Li, Jinfeng; Wang, Dongxia; Chen, Yuefeng; Mao, Xiaofeng; Huang, Longtao; Chen, Jialuo; Xue, Hui; Liu, Xiaoxia; Wang, Wenhai; Ren, Kui; Wang, Jingyi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2405.14191"
 external_pdf: "https://arxiv.org/pdf/2405.14191.pdf"

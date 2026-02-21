@@ -58,9 +58,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial|ManagerBench: Evaluating Safety-Pragmatism Trade-off in Managerial Contexts]]
-- [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
-- [[2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP|This is the way: designing and compiling LEPISZCZE, a comprehensive NLP benchmark for Polish]] (Last Author)
 
 ## External Links & Profiles
 
@@ -89,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial*: Affiliation: University of Zagreb
+- *From 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial*: Affiliation: University of Zagreb
 - *From 2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP*: Affiliation: University of
 - *From 2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP*: Affiliation: University of
 - *From 2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP*: Affiliation: University of

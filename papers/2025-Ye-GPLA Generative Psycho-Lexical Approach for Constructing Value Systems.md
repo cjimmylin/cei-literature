@@ -18,7 +18,7 @@ short_title: "GPLA: Generative Psycho-Lexical Approach for Constructing Value Sy
 year: 2025
 first_author: "[[Ye, Haoran]]"
 last_author: "[[Song, Guojie]]"
-authors: "[[Ye, Haoran]]; [[Zhang, Tianze]]; [[Xie, Yuhang]]; [[Zhang, Liyuan]]; [[Ren, Yuanyi]]; [[Zhang, Xin]]; [[Song, Guojie]]"
+authors: "Ye, Haoran; Zhang, Tianze; Xie, Yuhang; Zhang, Liyuan; Ren, Yuanyi; Zhang, Xin; Song, Guojie"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.02444"
 external_pdf: "https://arxiv.org/pdf/2502.02444.pdf"

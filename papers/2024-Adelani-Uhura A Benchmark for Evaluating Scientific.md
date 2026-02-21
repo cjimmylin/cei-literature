@@ -16,9 +16,9 @@ key: EXSR0541
 type: preprint
 short_title: "Uhura A Benchmark for Evaluating Scientific"
 year: 2024
-first_author: "[[Edward Bayes, Israel Abebe Azime, Jesujoba O. Alabi, Jonas Kgomo, Tyna Eloundou, Elizabeth Proehl, Kai Chen, Imaan Khadir, Naome A. Etori, Shamsuddeen Hassan Muhammad, Choice Mpanza, Igneciah Pocia Thete, Dietrich Klakow, David Ifeoluwa Adelani]]"
-last_author: "[[David Ifeoluwa Adelani Dietrich Klakow]]"
-authors: "[[Edward Bayes, Israel Abebe Azime, Jesujoba O. Alabi, Jonas Kgomo, Tyna Eloundou, Elizabeth Proehl, Kai Chen, Imaan Khadir, Naome A. Etori, Shamsuddeen Hassan Muhammad, Choice Mpanza, Igneciah Pocia Thete, Dietrich Klakow, David Ifeoluwa Adelani]]"
+first_author: "[[Edward Bayes]]"
+last_author: "[[David Ifeoluwa Adelani]]"
+authors: Edward Bayes; Israel Abebe Azime; Jesujoba O. Alabi; Jonas Kgomo; Tyna Eloundou; Elizabeth Proehl; Kai Chen; Imaan Khadir; Naome A. Etori; Shamsuddeen Hassan Muhammad; Choice Mpanza; Igneciah Pocia Thete; Dietrich Klakow; David Ifeoluwa Adelani
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.00948"
 external_pdf: "https://arxiv.org/pdf/2412.00948.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Israel Abebe Azime Edward Bayes]], [[Jonas Kgomo Jesujoba O. Alabi]], [[Elizabeth Proehl Tyna Eloundou]], [[Imaan Khadir Kai Chen]], [[Shamsuddeen Hassan Muhammad Naome A. Etori]], [[Igneciah Pocia Thete Choice Mpanza]], [[David Ifeoluwa Adelani Dietrich Klakow]]
+[[Edward Bayes]], [[Israel Abebe Azime]], [[Jesujoba O. Alabi]], [[Jonas Kgomo]], [[Tyna Eloundou]], [[Elizabeth Proehl]], [[Kai Chen]], [[Imaan Khadir]], [[Naome A. Etori]], [[Shamsuddeen Hassan Muhammad]], [[Choice Mpanza]], [[Igneciah Pocia Thete]], [[Dietrich Klakow]], [[David Ifeoluwa Adelani]]
 
 ## Metadata
 

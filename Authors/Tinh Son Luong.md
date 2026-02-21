@@ -30,6 +30,8 @@ This research was conducted in collaboration with Thanh-Thien Le (VinAI Research
 
 
 
+
+
 - [[2024-Luong-Realistic Evaluation of Toxicity in Large|Realistic Evaluation of Toxicity in Large]] (First Author)
 
 ## Notes
@@ -39,6 +41,10 @@ This research was conducted in collaboration with Thanh-Thien Le (VinAI Research
 
 
 
+
+
+- *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: tinh.ls@orai.io
+- *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: tinh.ls@orai.io
 - *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: tinh.ls@orai.io
 - *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: linhnv@soict.hust.edu.vn
 - *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: thien@cs.oregon.edu

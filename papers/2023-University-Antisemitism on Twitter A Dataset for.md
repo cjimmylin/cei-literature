@@ -18,9 +18,9 @@ key: EXSR0550
 type: preprint
 short_title: "Antisemitism on Twitter A Dataset for"
 year: 2023
-first_author: "[[ISCA (Institute for the Study of Contemporary Antisemitism, Indiana University)]]"
-last_author: "[[Indiana University) ISCA (Institute for the Study of Contemporary Antisemitism]]"
-authors: "[[ISCA (Institute for the Study of Contemporary Antisemitism, Indiana University)]]"
+first_author: "[[ISCA (Institute for the Study of Contemporary Antisemitism]]"
+last_author: "[[Indiana University)]]"
+authors: ISCA (Institute for the Study of Contemporary Antisemitism; Indiana University)
 authors_incomplete: false
 doi: 10.5281/zenodo.7932888
 url: "https://doi.org/10.5281/zenodo.7932888"
@@ -57,7 +57,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Indiana University) ISCA (Institute for the Study of Contemporary Antisemitism]]
+[[ISCA (Institute for the Study of Contemporary Antisemitism]], [[Indiana University)]]
 
 ## Metadata
 

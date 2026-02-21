@@ -16,7 +16,7 @@ short_title: "The Moralization Corpus"
 year: 2025
 first_author: "[[Becker, Maria]]"
 last_author: "[[Brocai, Bruno]]"
-authors: "[[Becker, Maria]]; [[Sommer, Mirko]]; [[Tapken, Lars]]; [[Teh, Yi Wan]]; [[Brocai, Bruno]]"
+authors: "Becker, Maria; Sommer, Mirko; Tapken, Lars; Teh, Yi Wan; Brocai, Bruno"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.15248"
 external_pdf: "https://arxiv.org/pdf/2512.15248.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Becker, Maria]], [[Sommer, Mirko]], [[Tapken, Lars]], [[Tong Wan|Teh, Yi Wan]], [[Brocai, Bruno]]
+[[Becker, Maria]], [[Sommer, Mirko]], [[Tapken, Lars]], [[Teh, Yi Wan]], [[Brocai, Bruno]]
 
 ## Metadata
 

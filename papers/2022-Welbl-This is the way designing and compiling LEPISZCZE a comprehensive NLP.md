@@ -16,8 +16,8 @@ type: preprint
 short_title: "This is the way: designing and compiling LEPISZCZE, a comprehensive NLP benchmark for Polish"
 year: 2022
 first_author: "[[Welbl, Johannes]]"
-last_author: "[[Clark, Jonathan H]]"
-authors: "[[Welbl, Johannes]]; [[Clark, Jonathan H.]]"
+last_author: "[[Clark, Jonathan H.]]"
+authors: "Welbl, Johannes; Clark, Jonathan H."
 authors_incomplete: true
 url: "https://arxiv.org/abs/2211.13112"
 external_pdf: "https://arxiv.org/pdf/2211.13112.pdf"

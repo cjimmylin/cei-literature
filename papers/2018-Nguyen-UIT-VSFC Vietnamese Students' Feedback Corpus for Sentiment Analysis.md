@@ -19,7 +19,7 @@ short_title: "UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment Analy
 year: 2018
 first_author: "[[Kiet Van Nguyen]]"
 last_author: "[[Kiet Van Nguyen]]"
-authors: "Kiet Van Nguyen, others"
+authors: Kiet Van Nguyen
 doi: 10.1109/KSE.2018.8573337
 url: "https://ieeexplore.ieee.org/document/8573337/"
 external_pdf: "http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337"

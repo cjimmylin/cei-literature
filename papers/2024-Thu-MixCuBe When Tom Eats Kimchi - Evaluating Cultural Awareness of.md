@@ -15,7 +15,7 @@ key: CULT0144
 type: conferencePaper
 short_title: "MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts"
 year: 2024
-first_author: "[[Kyaw Yet Thu]]"
+first_author: "[[Jun Seong Kim]]"
 last_author: "[[Alice Oh]]"
 authors: "Jun Seong Kim; Kyaw Ye Thu; Javad Ismayilzada; Junyeong Park; Eunsu Kim; Huzama Ahmad; Na Min An; James Thorne; Alice Oh"
 url: "https://huggingface.co/datasets/kyawyethu/MixCuBe"

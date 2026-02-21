@@ -15,9 +15,9 @@ key: EXSR0321
 type: preprint
 short_title: "AfriHate A Multilingual Collection of Hate"
 year: 2025
-first_author: "[[Shamsuddeen Hassan Muhammad, Idris Abdulmumin, Abinew Ali Ayele, David Ifeoluwa Adelani, Ibrahim Said Ahmad, Saminu Mohammad Aliyu, Nelson Odhiambo Onyango, Lilian D. A. Wanzare, Samuel Rutunda, Lukman Jibril Aliyu, Esubalew Alemneh, Oumaima Hourrane, Hagos Tesfahun Gebremichael, Elyas Abdi Ismail, Meriem Beloucif, Ebrahim Chekol Jibril, Andiswa Bukula, Rooweither Mabuya, Salomey Osei, Abigail Oppong, Tadesse Destaw Belay, Tadesse Kebede Guge, Tesfa Tegegne Asfaw, Chiamaka Ijeoma Chukwuneke, Paul Roettger, Seid Muhie Yimam, Nedjma Ousidhoum]]"
+first_author: "[[Shamsuddeen Hassan Muhammad]]"
 last_author: "[[Nedjma Ousidhoum]]"
-authors: "[[Shamsuddeen Hassan Muhammad, Idris Abdulmumin, Abinew Ali Ayele, David Ifeoluwa Adelani, Ibrahim Said Ahmad, Saminu Mohammad Aliyu, Nelson Odhiambo Onyango, Lilian D. A. Wanzare, Samuel Rutunda, Lukman Jibril Aliyu, Esubalew Alemneh, Oumaima Hourrane, Hagos Tesfahun Gebremichael, Elyas Abdi Ismail, Meriem Beloucif, Ebrahim Chekol Jibril, Andiswa Bukula, Rooweither Mabuya, Salomey Osei, Abigail Oppong, Tadesse Destaw Belay, Tadesse Kebede Guge, Tesfa Tegegne Asfaw, Chiamaka Ijeoma Chukwuneke, Paul Roettger, Seid Muhie Yimam, Nedjma Ousidhoum]]"
+authors: Shamsuddeen Hassan Muhammad; Idris Abdulmumin; Abinew Ali Ayele; David Ifeoluwa Adelani; Ibrahim Said Ahmad; Saminu Mohammad Aliyu; Nelson Odhiambo Onyango; Lilian D. A. Wanzare; Samuel Rutunda; Lukman Jibril Aliyu; Esubalew Alemneh; Oumaima Hourrane; Hagos Tesfahun Gebremichael; Elyas Abdi Ismail; Meriem Beloucif; Ebrahim Chekol Jibril; Andiswa Bukula; Rooweither Mabuya; Salomey Osei; Abigail Oppong; Tadesse Destaw Belay; Tadesse Kebede Guge; Tesfa Tegegne Asfaw; Chiamaka Ijeoma Chukwuneke; Paul Roettger; Seid Muhie Yimam; Nedjma Ousidhoum
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.08284"
 external_pdf: "https://arxiv.org/pdf/2501.08284.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Shamsuddeen Hassan Muhammad]], [[Idris Abdulmumin]], [[Abinew Ali Ayele]], [[David Ifeoluwa Adelani]], [[Ibrahim Sa'id Ahmad|Ibrahim Said Ahmad]], [[Saminu Mohammad Aliyu]], [[Nelson Odhiambo Onyango]], [[Lilian D. A. Wanzare]], [[Samuel Rutunda]], [[Lukman Jibril Aliyu]], [[Esubalew Alemneh]], [[Oumaima Hourrane]], [[Hagos Gebremichael|Hagos Tesfahun Gebremichael]], [[Elyas Abdi Ismail]], [[Meriem Beloucif]], [[Ebrahim Chekol Jibril]], [[Andiswa Bukula]], [[Rooweither Mabuya]], [[Salomey Osei]], [[Abigail Oppong]], [[Tadesse Belay|Tadesse Destaw Belay]], [[Tadesse Kebede Guge]], [[Tesfa Tegegne Asfaw]], [[Chiamaka Ijeoma Chukwuneke]], [[Paul Roettger]], [[Seid Muhie Yimam]], [[Nedjma Ousidhoum]]
+[[Shamsuddeen Hassan Muhammad]], [[Idris Abdulmumin]], [[Abinew Ali Ayele]], [[David Ifeoluwa Adelani]], [[Ibrahim Said Ahmad]], [[Saminu Mohammad Aliyu]], [[Nelson Odhiambo Onyango]], [[Lilian D. A. Wanzare]], [[Samuel Rutunda]], [[Lukman Jibril Aliyu]], [[Esubalew Alemneh]], [[Oumaima Hourrane]], [[Hagos Tesfahun Gebremichael]], [[Elyas Abdi Ismail]], [[Meriem Beloucif]], [[Ebrahim Chekol Jibril]], [[Andiswa Bukula]], [[Rooweither Mabuya]], [[Salomey Osei]], [[Abigail Oppong]], [[Tadesse Destaw Belay]], [[Tadesse Kebede Guge]], [[Tesfa Tegegne Asfaw]], [[Chiamaka Ijeoma Chukwuneke]], [[Paul Roettger]], [[Seid Muhie Yimam]], [[Nedjma Ousidhoum]]
 
 ## Metadata
 

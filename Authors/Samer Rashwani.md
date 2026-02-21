@@ -60,7 +60,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and|QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment]]
+- [[2025-Ghaly-Assessing Large Language Models on Islamic|Assessing Large Language Models on Islamic]]
 
 ## External Links & Profiles
 
@@ -91,6 +94,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and*: Affiliation: University, Qatar, Email: wajdi.zaghouani@northwestern.edu
+- *From 2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and*: Affiliation: University, Qatar, Email: wajdi.zaghouani@northwestern.edu
 - *From 2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and*: Affiliation: University, Qatar, Email: aerbad@qu.edu.qa
 - *From 2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and*: Affiliation: University, Qatar, Email: emad.mohamed@nu.edu.kz
 - *From 2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and*: Affiliation: University, Qatar, Email: wajdi.zaghouani@northwestern.edu

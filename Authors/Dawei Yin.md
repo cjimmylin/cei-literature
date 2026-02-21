@@ -59,8 +59,9 @@ twitter: ""
 
 
 
+
+
 - [[2024-Liu-JAILJUDGE|JAILJUDGE]]
-- [[2024-Yin-SafeWorld Geo-Diverse Safety Alignment|SafeWorld: Geo-Diverse Safety Alignment]] (First Author)
 
 ## External Links & Profiles
 
@@ -90,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
+- *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
 - *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: haoyiqiu@cs.ucla.edu
 - *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: haoyiqiu@cs.ucla.edu
 - *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: kh.huang@salesforce.com

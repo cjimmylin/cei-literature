@@ -60,6 +60,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation|Culture is Everywhere: A Call for Intentionally Cultural Evaluation]] (First Author)
 - [[2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun|Evaluating LLMs' Language Confusion in Code-switching Context Juhyun Oh KAIST]] (First Author)
 - [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity]]
 - [[2022-Jeong-KOLD Korean Offensive Language Dataset|KOLD: Korean Offensive Language Dataset]]
@@ -94,6 +97,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: james.ryu@kakaoenterprise.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: humanbrain.djlee@gmail.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com

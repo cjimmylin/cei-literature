@@ -22,8 +22,11 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2026-Alam-From RAG to Agentic RAG for|From RAG to Agentic RAG for]]
 - [[2025-Alwajih-Palm|Palm]]
+- [[2023-Hamad-Offensive Hebrew Corpus and Detection using BERT|Offensive Hebrew Corpus and Detection using BERT]]
 
 ## Notes
 
@@ -32,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Hamad-Offensive Hebrew Corpus and Detection using BERT*: Affiliation: labeled with one or more of five, Email: mkhalilia@birzeit.edu
+- *From 2023-Hamad-Offensive Hebrew Corpus and Detection using BERT*: Affiliation: labeled with one or more of five, Email: mkhalilia@birzeit.edu
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

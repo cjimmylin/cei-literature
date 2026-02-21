@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kaewkasi-A Benchmark for Large Language Models on Northern|A Benchmark for Large Language Models on Northern]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org
+- *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org
 - *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org
 - *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org
 - *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org

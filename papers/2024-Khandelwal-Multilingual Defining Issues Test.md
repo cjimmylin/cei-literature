@@ -15,8 +15,8 @@ type: conferencePaper
 short_title: "Multilingual Defining Issues Test"
 year: 2024
 first_author: "[[Aditi Khandelwal]]"
-last_author: "[[Monojit Choudhury Kumar Tanmay]]"
-authors: "Aditi Khandelwal, Utkarsh Agarwal, Kumar Tanmay, Monojit Choudhury"
+last_author: "[[Monojit Choudhury]]"
+authors: Aditi Khandelwal; Utkarsh Agarwal; Kumar Tanmay; Monojit Choudhury
 doi: 10.18653/v1/2024.eacl-long.176
 url: "https://doi.org/10.18653/v1/2024.eacl-long.176"
 external_pdf: "https://aclanthology.org/2024.eacl-long.176.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2024"
 
 ## Authors
 
-[[Utkarsh Agarwal Aditi Khandelwal]], [[Monojit Choudhury Kumar Tanmay]]
+[[Aditi Khandelwal]], [[Utkarsh Agarwal]], [[Kumar Tanmay]], [[Monojit Choudhury]]
 
 ## Metadata
 

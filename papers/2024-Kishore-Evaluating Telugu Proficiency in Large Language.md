@@ -19,7 +19,7 @@ short_title: "Evaluating Telugu Proficiency in Large Language"
 year: 2024
 first_author: "[[Katikela Sreeharsha Kishore]]"
 last_author: "[[Rahimanuddin Shaik]]"
-authors: "[[Katikela Sreeharsha Kishore]]; [[Rahimanuddin Shaik]]"
+authors: Katikela Sreeharsha Kishore; Rahimanuddin Shaik
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.19369"
 external_pdf: "https://arxiv.org/pdf/2404.19369v1"

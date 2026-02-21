@@ -17,7 +17,7 @@ short_title: "The Belebele Benchmark: a Parallel Reading Comprehension Dataset i
 year: 2024
 first_author: "[[Bandarkar, Lucas]]"
 last_author: "[[Khabsa, Madian]]"
-authors: "[[Bandarkar, Lucas]]; [[Liang, Davis]]; [[Muller, Benjamin]]; [[Artetxe, Mikel]]; [[Shukla, Satya Narayan]]; [[Husa, Donald]]; [[Goyal, Naman]]; [[Krishnan, Abhinandan]]; [[Zettlemoyer, Luke]]; [[Khabsa, Madian]]"
+authors: "Bandarkar, Lucas; Liang, Davis; Muller, Benjamin; Artetxe, Mikel; Shukla, Satya Narayan; Husa, Donald; Goyal, Naman; Krishnan, Abhinandan; Zettlemoyer, Luke; Khabsa, Madian"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2308.16884"
 external_pdf: "https://arxiv.org/pdf/2308.16884.pdf"

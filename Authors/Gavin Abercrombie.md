@@ -39,6 +39,8 @@ His research areas include sentiment analysis, computational social science, and
 
 
 
+
+
 - [[2021-Cercas Curry-ConvAbuse|ConvAbuse]]
 
 ## External Links
@@ -55,6 +57,10 @@ His research areas include sentiment analysis, computational social science, and
 
 
 
+
+
+- *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
+- *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
 - *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
 - *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
 - *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh

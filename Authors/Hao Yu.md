@@ -28,6 +28,9 @@ Hao Yu is a researcher at Tsinghua University affiliated with the THUDM (Tsinghu
 
 
 
+
+
+- [[2025-Adelani-INJONGO A Multicultural Intent Detection and|INJONGO A Multicultural Intent Detection and]] (First Author)
 - [[2023-Liu-AgentBench|AgentBench]]
 
 ## Notes
@@ -37,6 +40,10 @@ Hao Yu is a researcher at Tsinghua University affiliated with the THUDM (Tsinghu
 
 
 
+
+
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley

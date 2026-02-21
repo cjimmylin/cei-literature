@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral|TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral*: Affiliation: University, Cluj-Napoca, Romania, Email: andrei.piscoran@klusai.com
+- *From 2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral*: Affiliation: University, Cluj-Napoca, Romania, Email: andrei.piscoran@klusai.com
 - *From 2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral*: Affiliation: University, Cluj-Napoca, Romania, Email: andreea.tomescu@klusai.com
 - *From 2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral*: Affiliation: University, Cluj-Napoca, Romania, Email: laura.diosan@ubbcluj.ro
 - *From 2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral*: Affiliation: University, Cluj-Napoca, Romania, Email: andreea.tomescu@klusai.com

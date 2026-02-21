@@ -17,7 +17,7 @@ short_title: "Salamandra Technical Report"
 year: 2025
 first_author: "[[Language Technologies Unit]]"
 last_author: "[[BSC]]"
-authors: "Language Technologies Unit, BSC"
+authors: Language Technologies Unit; BSC
 url: "https://arxiv.org/abs/2502.08489"
 external_pdf: "https://arxiv.org/pdf/2502.08489.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Unit-Salamandra Technical Report.md"

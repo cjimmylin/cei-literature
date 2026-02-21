@@ -19,7 +19,7 @@ short_title: "Representations and Architectures in Neural Sentiment Analysis for
 year: 2018
 first_author: "[[Adam Amram]]"
 last_author: "[[Reut Tsarfaty]]"
-authors: "Adam Amram, Anat Ben David, Reut Tsarfaty"
+authors: Adam Amram; Anat Ben David; Reut Tsarfaty
 url: "https://aclanthology.org/C18-1190/"
 external_pdf: "https://aclanthology.org/C18-1190.pdf"
 publication: "ACL Anthology (COLING 2018)"

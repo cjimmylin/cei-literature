@@ -14,10 +14,10 @@ key: LSRC0733
 type: conferencePaper
 short_title: "Gender Bias in Natural Language Processing and Computer Vision: A Comparative Survey | ACM Computing Surveys"
 year: 2025
-first_author: "[[Yanaka]]"
-last_author: "[[Yanaka]]"
-authors: "[[Yanaka]]"
-authors_incomplete: true
+first_author: "[[Bartl, Marion]]"
+last_author: "[[Little, Suzanne]]"
+authors: "Bartl, Marion; Mandal, Abhishek; Leavy, Susan; Little, Suzanne"
+authors_incomplete: false
 doi: 10.1145/3700438
 url: "https://dl.acm.org/doi/10.1145/3700438"
 external_pdf: "https://doras.dcu.ie/30830/1/Gender-Bias-in-Natural-Language-Processing-and-Computer-Vision-A-Comparative-SurveyACM-Computing-Surveys.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Yanaka]]
+[[Bartl, Marion]], [[Mandal, Abhishek]], [[Leavy, Susan]], [[Little, Suzanne]]
 
 ## Metadata
 

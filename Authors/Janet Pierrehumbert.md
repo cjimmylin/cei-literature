@@ -31,6 +31,8 @@ Pierrehumbert is a Member of the National Academy of Sciences, a Fellow of the A
 
 
 
+
+
 - [[2021-Röttger-HateCheck|HateCheck]] (Last Author)
 
 ## Notable Contributions
@@ -47,6 +49,10 @@ Pierrehumbert is a Member of the National Academy of Sciences, a Fellow of the A
 
 
 
+
+
+- *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
+- *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford

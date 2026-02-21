@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Mazeika-HarmBench|HarmBench]]
 - [[2023-Zou-Universal and Transferable Adversarial Attacks on|Universal and Transferable Adversarial Attacks on]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
+- *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
 - *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
 - *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
 - *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety

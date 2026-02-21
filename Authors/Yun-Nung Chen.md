@@ -1,7 +1,7 @@
 ---
 name: "Yun-Nung Chen"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Computer Science and Information Engineering"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: "ytl@ieee.org"
 research_interests:
@@ -58,7 +58,11 @@ twitter: ""
 
 
 
+
+
+- [[2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in|VisTW: Benchmarking Vision-Language Models for Traditional Chinese in Taiwan]] (Last Author)
 - [[2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU|Measuring Taiwanese Mandarin Language Understanding (TMLU)]] (Last Author)
+- [[2023-Lin-Taiwan LLM Bridging the Linguistic Divide with a Culturally Aligned|Taiwan LLM: Bridging the Linguistic Divide with a Culturally Aligned Language Model]] (Last Author)
 
 ## External Links & Profiles
 
@@ -87,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Lin-Taiwan LLM Bridging the Linguistic Divide with a Culturally Aligned*: Affiliation: Department of Computer Science and Information Engineering
+- *From 2023-Lin-Taiwan LLM Bridging the Linguistic Divide with a Culturally Aligned*: Affiliation: Department of Computer Science and Information Engineering
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: ytl@ieee.org
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: r11922184@ntu.edu.tw
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: ytl@ieee.org

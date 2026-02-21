@@ -17,7 +17,7 @@ short_title: "The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on
 year: 2025
 first_author: "[[Rayes, Lubana Al]]"
 last_author: "[[Elnagar, Ashraf]]"
-authors: "[[Rayes, Lubana Al]]; [[Elnagar, Ashraf]]"
+authors: "Rayes, Lubana Al; Elnagar, Ashraf"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.icnlsp-1.20.pdf"
 external_pdf: "https://aclanthology.org/2025.icnlsp-1.20.pdf"

@@ -15,8 +15,8 @@ type: conferencePaper
 short_title: "BBQ (Bias Benchmark for Question Answering)"
 year: 2022
 first_author: "[[Parrish, Alicia]]"
-last_author: "[[Bowman, Samuel R]]"
-authors: "[[Parrish, Alicia]]; [[Chen, Angelica]]; [[Nangia, Nikita]]; [[Padmakumar, Vishakh]]; [[Phang, Jason]]; [[Thompson, Jana]]; [[Htut, Phu Mon]]; [[Bowman, Samuel R.]]"
+last_author: "[[Bowman, Samuel R.]]"
+authors: "Parrish, Alicia; Chen, Angelica; Nangia, Nikita; Padmakumar, Vishakh; Phang, Jason; Thompson, Jana; Htut, Phu Mon; Bowman, Samuel R."
 authors_incomplete: false
 url: "https://arxiv.org/abs/2110.08193"
 external_pdf: "https://arxiv.org/pdf/2110.08193.pdf"

@@ -39,9 +39,10 @@ Dahua Lin is a distinguished professor at The Chinese University of Hong Kong an
 
 
 
+
+
 - [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]]
 - [[2024-Li-SALAD-Bench|SALAD-Bench]]
-- [[2024-Wen-Yi-How Chinese are Chinese Language Models The Puzzling Lack of Language|How Chinese are Chinese Language Models? The Puzzling Lack of Language Policy in China's LLMs]] (Last Author)
 - [[2023-Huang-Flames|Flames]] (Last Author)
 
 ## Links

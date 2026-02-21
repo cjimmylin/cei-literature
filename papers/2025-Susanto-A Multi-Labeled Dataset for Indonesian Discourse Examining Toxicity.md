@@ -18,7 +18,7 @@ short_title: "A Multi-Labeled Dataset for Indonesian Discourse: Examining Toxici
 year: 2025
 first_author: "[[Susanto, Lucky]]"
 last_author: "[[Wijaya, Derry]]"
-authors: "[[Susanto, Lucky]]; [[Wijanarko, Musa]]; [[Pratama, Prasetia]]; [[Tang, Zilu]]; [[Akyas, Fariz]]; [[Hong, Traci]]; [[Idris, Ika]]; [[Aji, Alham]]; [[Wijaya, Derry]]"
+authors: "Susanto, Lucky; Wijanarko, Musa; Pratama, Prasetia; Tang, Zilu; Akyas, Fariz; Hong, Traci; Idris, Ika; Aji, Alham; Wijaya, Derry"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.00417"
 external_pdf: "https://arxiv.org/pdf/2503.00417.pdf"

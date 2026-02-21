@@ -24,6 +24,8 @@ PhD candidate at Queensland University of Technology (QUT) specializing in AI et
 
 
 
+
+
 - [[2025-El Masri-Towards Attuned AI|Towards Attuned AI]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ PhD candidate at Queensland University of Technology (QUT) specializing in AI et
 
 
 
+
+
+- *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: rayane.elmasri@hdr.qut.edu.au
+- *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: rayane.elmasri@hdr.qut.edu.au
 - *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: rayane.elmasri@hdr.qut.edu.au
 - *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: a.snoswell@qut.edu.au
 - *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: a.snoswell@qut.edu.au

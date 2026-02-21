@@ -17,7 +17,7 @@ type: journalArticle
 short_title: "Diagnosing the bias iceberg in large language models: A three-level framework of explicit, evaluative, and implicit gender bias - ScienceDirect"
 year: 2025
 first_author: "[[Xiang, Anling]]"
-last_author: "[[Xiang, Anling]]"
+last_author: "[[Anling Xiang]]"
 authors: Anling Xiang
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S0306457325004959"

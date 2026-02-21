@@ -18,7 +18,7 @@ short_title: "SANSKRITI A Comprehensive Benchmark for Evaluating"
 year: 2025
 first_author: "[[Arijit Maji]]"
 last_author: "[[Sriparna Saha]]"
-authors: "[[Arijit Maji]]; [[Raghvendra Kumar]]; [[Akash Ghosh]]; [[Anushka]]; [[Sriparna Saha]]"
+authors: Arijit Maji; Raghvendra Kumar; Akash Ghosh; Anushka; Sriparna Saha
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-acl.228/"
 external_pdf: "https://arxiv.org/pdf/2506.15355.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Arijit Maji]], [[Raghvendra Kumar]], [[Avijit Ghosh|Akash Ghosh]], [[Anushka]], [[Samirit Saha|Sriparna Saha]]
+[[Arijit Maji]], [[Raghvendra Kumar]], [[Akash Ghosh]], [[Anushka]], [[Sriparna Saha]]
 
 ## Metadata
 

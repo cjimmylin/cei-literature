@@ -53,6 +53,8 @@ Jacob Hilton is Executive Director and researcher at the Alignment Research Cent
 
 
 
+
+
 - [[2022-Lin-TruthfulQA|TruthfulQA]]
 
 ## Notes
@@ -62,6 +64,10 @@ Jacob Hilton is Executive Director and researcher at the Alignment Research Cent
 
 
 
+
+
+- *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: jhilton@openai.com
+- *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: jhilton@openai.com
 - *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com
 - *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com
 - *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com

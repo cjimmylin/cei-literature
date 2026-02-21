@@ -59,6 +59,9 @@ twitter: ""
 
 
 
+
+
+- [[2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of|The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding]]
 - [[2024-Singh-Aya Dataset|Aya Dataset]]
 - [[2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean|KMMLU: Measuring Massive Multitask Language Understanding in Korean]]
 
@@ -90,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of*: Affiliation: lable benchmarks, Email: martonkardos@cas.au.dk
+- *From 2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of*: Affiliation: lable benchmarks, Email: martonkardos@cas.au.dk
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: ahmet@cohere.com
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: sarahooker@cohere.com
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: ahmet@cohere.com

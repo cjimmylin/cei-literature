@@ -16,7 +16,7 @@ short_title: "CINO: A Chinese Minority Pre-trained Language Model"
 year: 2022
 first_author: "[[Ziqing Yang]]"
 last_author: "[[Zhigang Chen]]"
-authors: Ziqing Yang, Zihang Xu, Yiming Cui, Baoxin Wang, Min Lin, Dayong Wu, Zhigang Chen
+authors: Ziqing Yang; Zihang Xu; Yiming Cui; Baoxin Wang; Min Lin; Dayong Wu; Zhigang Chen
 url: "https://arxiv.org/abs/2202.13558"
 external_pdf: "https://arxiv.org/pdf/2202.13558.pdf"
 publication: arXiv / COLING 2022
@@ -51,7 +51,7 @@ CONFERENCE: "COLING 2022"
 
 ## Authors
 
-[[Ze Yang|Ziqing Yang]], [[Zihang Xu]], [[Yiming Cui]], [[Baoxin Wang]], [[Min Lin]], [[Dayong Wu]], [[Zhigang Chen]]
+[[Ziqing Yang]], [[Zihang Xu]], [[Yiming Cui]], [[Baoxin Wang]], [[Min Lin]], [[Dayong Wu]], [[Zhigang Chen]]
 
 ## Metadata
 

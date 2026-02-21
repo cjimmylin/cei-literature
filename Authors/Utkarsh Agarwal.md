@@ -24,8 +24,11 @@ Utkarsh Agarwal is a PhD student in Natural Language Processing at MBZUAI (Moham
 
 
 
+
+
 - [[2024-Agarwal-Ethical Reasoning Depends on Language|Ethical Reasoning Depends on Language]] (First Author)
 - [[2024-Khandelwal-Do Moral Judgment and Reasoning Capability of|Do Moral Judgment and Reasoning Capability of]]
+- [[2024-Khandelwal-Multilingual Defining Issues Test|Multilingual Defining Issues Test]]
 - [[2023-Deng-Probing the Moral Development of Large Language|Probing the Moral Development of Large Language]]
 - [[2023-Rao-Ethical Reasoning over Moral Alignment|Ethical Reasoning over Moral Alignment]]
 
@@ -36,6 +39,10 @@ Utkarsh Agarwal is a PhD student in Natural Language Processing at MBZUAI (Moham
 
 
 
+
+
+- *From 2023-Rao-Ethical Reasoning over Moral Alignment*:, Email: abhinavr@cs.cmu.edu
+- *From 2023-Rao-Ethical Reasoning over Moral Alignment*:, Email: abhinavr@cs.cmu.edu
 - *From 2023-Rao-Ethical Reasoning over Moral Alignment*:, Email: abhinavr@cs.cmu.edu
 - *From 2023-Rao-Ethical Reasoning over Moral Alignment*:, Email: abhinavr@cs.cmu.edu
 - *From 2023-Rao-Ethical Reasoning over Moral Alignment*:, Email: abhinavr@cs.cmu.edu

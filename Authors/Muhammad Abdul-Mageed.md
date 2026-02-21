@@ -22,10 +22,13 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Abdul-Mageed-Where Are We Evaluating LLM Performance|Where Are We Evaluating LLM Performance]] (Last Author)
 - [[2025-Alwajih-Palm|Palm]] (Last Author)
 - [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]] (Last Author)
 - [[2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for|NileChat: Towards Linguistically Diverse and Culturally Aware LLMs for Local Communities]] (Last Author)
+- [[2023-Inciarte-SERENGETI Massively Multilingual Language Models for|SERENGETI Massively Multilingual Language Models for]]
 
 ## Notes
 
@@ -34,6 +37,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Inciarte-SERENGETI Massively Multilingual Language Models for*: Affiliation: University of British Columbia
+- *From 2023-Inciarte-SERENGETI Massively Multilingual Language Models for*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia

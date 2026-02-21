@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural|LLM-GLOBE A Benchmark Evaluating the Cultural]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural*: Affiliation: College, Tsinghua University
+- *From 2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural*: Affiliation: College, Tsinghua University
 - *From 2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural*: Affiliation: College, Tsinghua University
 - *From 2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural*: Affiliation: College, Tsinghua University
 - *From 2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural*: Affiliation: College, Tsinghua University

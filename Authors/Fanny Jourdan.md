@@ -51,6 +51,8 @@ Jourdan created FairTranslate, a novel, fully human-annotated dataset designed t
 
 
 
+
+
 - [[2025-Jourdan-FairTranslate|FairTranslate]] (First Author)
 
 ## External Links & Profiles
@@ -67,6 +69,10 @@ Jourdan created FairTranslate, a novel, fully human-annotated dataset designed t
 
 
 
+
+
+- *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: fanny.jourdan@irt-saintexupery.com
+- *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: fanny.jourdan@irt-saintexupery.com
 - *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: cecile.favre@univ-lyon2.fr
 - *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: cecile.favre@univ-lyon2.fr
 - *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: cecile.favre@univ-lyon2.fr

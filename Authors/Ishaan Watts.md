@@ -23,8 +23,11 @@ Master in Machine Learning (MSML) student at Carnegie Mellon University (joined 
 
 
 
+
+
 - [[2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages|MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks]]
 - [[2024-Watts-PARIKSHA|PARIKSHA]] (First Author)
+- [[2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios|RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?]]
 
 ## Notes
 
@@ -33,6 +36,10 @@ Master in Machine Learning (MSML) student at Carnegie Mellon University (joined 
 
 
 
+
+
+- *From 2024-Watts-PARIKSHA*: Affiliation: lable on the web and have already been con-, Email: sunayana.sitaram@microsoft.com
+- *From 2024-Watts-PARIKSHA*: Affiliation: lable on the web and have already been con-, Email: sunayana.sitaram@microsoft.com
 - *From 2024-Watts-PARIKSHA*: Affiliation: lable on the web and have already been con-, Email: sunayana.sitaram@microsoft.com
 - *From 2024-Watts-PARIKSHA*: Affiliation: lable on the web and have already been con-, Email: wattsishaan18@gmail.com
 - *From 2024-Watts-PARIKSHA*: Affiliation: lable on the web and have already been con-, Email: sunayana.sitaram@microsoft.com

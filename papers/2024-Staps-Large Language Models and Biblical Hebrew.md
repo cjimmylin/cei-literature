@@ -18,7 +18,7 @@ short_title: "Large Language Models and Biblical Hebrew"
 year: 2024
 first_author: "[[Staps, Camil]]"
 last_author: "[[Camil Staps]]"
-authors: "[[Camil Staps]]"
+authors: Camil Staps
 authors_incomplete: false
 url: 
 external_pdf: "https://tidsskrift.dk/hiphilnovum/article/download/144177/189562"

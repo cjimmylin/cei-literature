@@ -16,9 +16,9 @@ key: EXSR0474
 type: preprint
 short_title: "Development and Evaluation of Myanmar GPT"
 year: 2024
-first_author: "[[Min Si Thu, Pyae Sone Phyo]]"
-last_author: "[[Pyae Sone Phyo Min Si Thu]]"
-authors: "[[Min Si Thu, Pyae Sone Phyo]]"
+first_author: "[[Min Si Thu]]"
+last_author: "[[Pyae Sone Phyo]]"
+authors: Min Si Thu; Pyae Sone Phyo
 authors_incomplete: false
 doi: 10.2139/ssrn.4871732
 url: "https://doi.org/10.2139/ssrn.4871732"
@@ -61,7 +61,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Pyae Sone Phyo Min Si Thu]]
+[[Min Si Thu]], [[Pyae Sone Phyo]]
 
 ## Metadata
 

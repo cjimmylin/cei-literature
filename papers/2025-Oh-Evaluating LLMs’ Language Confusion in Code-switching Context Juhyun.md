@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: "Evaluating LLMs' Language Confusion in Code-switching Context Juhyun Oh KAIST"
 year: 2025
 first_author: "[[Oh, Juhyun]]"
-last_author: "[[Oh, Alice]]"
+last_author: "[[Alice Oh]]"
 authors: Juhyun Oh; Haneul Yoo; Alice Oh
 authors_incomplete: false
 url: "https://openreview.net/pdf/2c888725c8f08727a2b712c2740bfa5e0b9b205a.pdf"

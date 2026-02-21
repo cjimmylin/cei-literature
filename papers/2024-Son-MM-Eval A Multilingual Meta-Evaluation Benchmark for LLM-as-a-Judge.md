@@ -15,7 +15,7 @@ short_title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Jud
 year: 2024
 first_author: "[[Son, Guijin]]"
 last_author: "[[Kim, Seungone]]"
-authors: "[[Son, Guijin]]; [[Yoon, Dongkeun]]; [[Suk, Juyoung]]; [[Aula-Blasco, Javier]]; [[Aslan, Mano]]; [[Kim, Vu Trong]]; [[Islam, Shayekh Bin]]; [[Prats-Cristià, Jaume]]; [[Tormo-Bañuelos, Lucía]]; [[Kim, Seungone]]"
+authors: "Son, Guijin; Yoon, Dongkeun; Suk, Juyoung; Aula-Blasco, Javier; Aslan, Mano; Kim, Vu Trong; Islam, Shayekh Bin; Prats-Cristià, Jaume; Tormo-Bañuelos, Lucía; Kim, Seungone"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.17578"
 external_pdf: "https://arxiv.org/pdf/2410.17578.pdf"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Son, Guijin]], [[Yoon, Dongkeun]], [[Suk, Juyoung]], [[Aula, Javier|Aula-Blasco, Javier]], [[Aslan, Mano]], [[Kim, Vu Trong]], [[Shayekh Bin Islam|Islam, Shayekh Bin]], [[Prats-Cristià, Jaume]], [[Tormo-Bañuelos, Lucía]], [[Kim, Seungone]]
+[[Son, Guijin]], [[Yoon, Dongkeun]], [[Suk, Juyoung]], [[Aula-Blasco, Javier]], [[Aslan, Mano]], [[Kim, Vu Trong]], [[Shayekh Bin Islam|Islam, Shayekh Bin]], [[Prats-Cristià, Jaume]], [[Tormo-Bañuelos, Lucía]], [[Kim, Seungone]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding|TAPE: Assessing Few-shot Russian Language Understanding]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
+- *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 - *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 - *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 - *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com

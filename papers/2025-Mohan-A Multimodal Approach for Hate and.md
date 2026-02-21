@@ -19,7 +19,7 @@ short_title: "A Multimodal Approach for Hate and"
 year: 2025
 first_author: "[[Jayanth Mohan]]"
 last_author: "[[Bharathi Raja Chakravarthi]]"
-authors: "[[Jayanth Mohan]]; [[Spandana Reddy Mekapati]]; [[Premjith B]]; [[Jyothish Lal G]]; [[Bharathi Raja Chakravarthi]]"
+authors: Jayanth Mohan; Spandana Reddy Mekapati; Premjith B; Jyothish Lal G; Bharathi Raja Chakravarthi
 authors_incomplete: false
 url: "https://dl.acm.org/doi/10.1145/3712260"
 external_pdf: 

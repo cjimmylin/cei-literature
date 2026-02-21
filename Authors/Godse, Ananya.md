@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic|BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic*: Affiliation: lable to support open, Email: Kundeshwar.pundalik@tihiitb.org
+- *From 2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic*: Affiliation: lable to support open, Email: Kundeshwar.pundalik@tihiitb.org
 - *From 2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic*: Affiliation: lable to support open, Email: Kundeshwar.pundalik@tihiitb.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

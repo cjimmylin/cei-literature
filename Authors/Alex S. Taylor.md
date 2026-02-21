@@ -36,6 +36,8 @@ Alex's work in AI safety emphasizes the importance of diversity in model evaluat
 
 
 
+
+
 - [[2023-Aroyo-DICES Dataset|DICES Dataset]]
 
 ## Notes
@@ -44,6 +46,10 @@ Alex's work in AI safety emphasizes the importance of diversity in model evaluat
 
 
 
+
+
+- *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
+- *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 - *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 - *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 - *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London

@@ -70,7 +70,7 @@ Large language models (LLMs) can "lie", which we define as outputting false stat
 
 ## Authors
 
-[[Lorenzo Pacchiardi]], [[Jun Shern Chan|Alex J. Chan]], [[Sören Mindermann]], [[Ilan Moscovitz]], [[Yuan Pan|Alexa Y. Pan]], [[Yarin Gal]], [[Owain Evans]], [[Jan Brauner]]
+[[Lorenzo Pacchiardi]], [[Alex J. Chan]], [[Sören Mindermann]], [[Ilan Moscovitz]], [[Alexa Y. Pan]], [[Yarin Gal]], [[Owain Evans]], [[Jan Brauner]]
 
 ## Data Description
 

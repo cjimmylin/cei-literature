@@ -38,6 +38,8 @@ Eli Tran-Johnson is a researcher at Anthropic who has contributed to foundationa
 
 
 
+
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 - [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]

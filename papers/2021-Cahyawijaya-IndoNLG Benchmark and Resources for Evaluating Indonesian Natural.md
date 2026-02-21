@@ -18,7 +18,7 @@ short_title: "IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural
 year: 2021
 first_author: "[[Cahyawijaya, Samuel]]"
 last_author: "[[Fung, Pascale]]"
-authors: "[[Cahyawijaya, Samuel]]; [[Winata, Genta Indra]]; [[Wilie, Bryan]]; [[Vincentio, Karissa]]; [[Li, Xiaohong]]; [[Kuncoro, Adhiguna]]; [[Ruder, Sebastian]]; [[Lim, Zhi Yuan]]; [[Bahar, Syafri]]; [[Khodra, Masayu Leylia]]; [[Purwarianti, Ayu]]; [[Fung, Pascale]]"
+authors: "Cahyawijaya, Samuel; Winata, Genta Indra; Wilie, Bryan; Vincentio, Karissa; Li, Xiaohong; Kuncoro, Adhiguna; Ruder, Sebastian; Lim, Zhi Yuan; Bahar, Syafri; Khodra, Masayu Leylia; Purwarianti, Ayu; Fung, Pascale"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2104.08200"
 external_pdf: "https://arxiv.org/pdf/2104.08200.pdf"

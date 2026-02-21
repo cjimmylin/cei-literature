@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "Beyond Verdicts: Evaluating Language Model Moral Competence Aaron J. Snoswell1,"
 year: 2025
 first_author: "[[Snoswell, Aaron J.]]"
-last_author: "[[Lazar, Seth]]"
+last_author: "[[Seth Lazar]]"
 authors: Aaron J. Snoswell; Daniel Kilov; Seth Lazar
 authors_incomplete: false
 url: "https://philarchive.org/archive/SNOBVE"

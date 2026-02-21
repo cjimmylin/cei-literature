@@ -18,7 +18,7 @@ short_title: "EAI -- Emotional Decision-Making of LLMs in Strategic Games and Et
 year: 2024
 first_author: "[[Mozikov, Mikhail]]"
 last_author: "[[Makarov, Ilya]]"
-authors: "[[Mozikov, Mikhail]]; [[Severin, Nikita]]; [[Bodishtianu, Valeria]]; [[Glushanina, Maria]]; [[Baklashkin, Mikhail]]; [[Savchenko, Andrey V.]]; [[Makarov, Ilya]]"
+authors: "Mozikov, Mikhail; Severin, Nikita; Bodishtianu, Valeria; Glushanina, Maria; Baklashkin, Mikhail; Savchenko, Andrey V.; Makarov, Ilya"
 authors_incomplete: false
 publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"

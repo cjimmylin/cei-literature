@@ -18,9 +18,9 @@ key: EXSR0365
 type: preprint
 short_title: "Fabricating Holiness Characterizing Religious Misinformation Circulators"
 year: 2025
-first_author: "[[Mahmoud Fawzi, Bjorn Ross, Walid Magdy]]"
+first_author: "[[Mahmoud Fawzi]]"
 last_author: "[[Walid Magdy]]"
-authors: "[[Mahmoud Fawzi, Bjorn Ross, Walid Magdy]]"
+authors: Mahmoud Fawzi; Bjorn Ross; Walid Magdy
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.07845"
 external_pdf: "https://arxiv.org/pdf/2508.07845.pdf"
@@ -56,7 +56,7 @@ CONFERENCE: "AAAI 2026"
 
 ## Authors
 
-[[Mahmoud Fawzi]], [[Björn Ross|Bjorn Ross]], [[Walid Magdy]]
+[[Mahmoud Fawzi]], [[Bjorn Ross]], [[Walid Magdy]]
 
 ## Metadata
 

@@ -25,12 +25,9 @@ Yujin Jeong is a PhD student at TU Darmstadt and member of the ELLIS program, su
 
 
 
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2022-Jeong-KOLD Korean Offensive Language Dataset|KOLD: Korean Offensive Language Dataset]] (First Author)
+
+
 - [[2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction|Zero-shot Visual Commonsense Immorality Prediction]] (First Author)
-- [[2021-Park-KLUE Korean Language Understanding Evaluation|KLUE: Korean Language Understanding Evaluation]]
 
 ## Notes
 
@@ -39,6 +36,10 @@ Yujin Jeong is a PhD student at TU Darmstadt and member of the ELLIS program, su
 
 
 
+
+
+- *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: suhong.moon@berkeley.edu
+- *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: suhong.moon@berkeley.edu
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: james.ryu@kakaoenterprise.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: humanbrain.djlee@gmail.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com

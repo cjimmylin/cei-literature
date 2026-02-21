@@ -17,7 +17,7 @@ short_title: "Value Imprint"
 year: 2024
 first_author: "[[Ike Obi]]"
 last_author: "[[Basiletti, Aaron]]"
-authors: "[[Obi, Ike]]; [[Pant, Rohan]]; [[Agrawal, Srishti Shekhar]]; [[Ghazanfar, Maham]]; [[Basiletti, Aaron]]"
+authors: "Obi, Ike; Pant, Rohan; Agrawal, Srishti Shekhar; Ghazanfar, Maham; Basiletti, Aaron"
 doi: 10.48550/arXiv.2411.11937
 url: "http://arxiv.org/abs/2411.11937"
 pdf_extract: "PDF Extracts/2024/2024-Obi-Value Imprint.md"

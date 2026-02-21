@@ -16,7 +16,7 @@ short_title: "Morality in AI"
 year: 2025
 first_author: "[[Gunter Bombaerts]]"
 last_author: "[[Uzay Kaymak]]"
-authors: "[[Gunter Bombaerts]]; [[Bram Delisse]]; [[Uzay Kaymak]]"
+authors: Gunter Bombaerts; Bram Delisse; Uzay Kaymak
 doi: N/A
 url: "https://arxiv.org/abs/2511.20689"
 pdf_extract: "PDF Extracts/2025/2025-De Montis-Morality in AI.md"

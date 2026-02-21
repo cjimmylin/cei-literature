@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-funded-Analysis of Indic Language Capabilities in|Analysis of Indic Language Capabilities in]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-funded-Analysis of Indic Language Capabilities in*: Affiliation: lable to those
+- *From 2025-funded-Analysis of Indic Language Capabilities in*: Affiliation: lable to those
 - *From 2025-funded-Analysis of Indic Language Capabilities in*: Affiliation: lable to those
 - *From 2025-funded-Analysis of Indic Language Capabilities in*: Affiliation: lable to those
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal|EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences]]
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal*: Affiliation: Institute of Technology, Cambridge, MA, USA
+- *From 2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal*: Affiliation: Institute of Technology, Cambridge, MA, USA
 - *From 2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal*: Affiliation: Institute of Technology, Cambridge, MA, USA
 - *From 2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal*: Affiliation: Institute of Technology, Cambridge, MA, USA
 - *From 2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal*: Affiliation: Institute of Technology, Cambridge, MA, USA

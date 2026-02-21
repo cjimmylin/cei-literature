@@ -16,7 +16,7 @@ short_title: "Enhancing Cross-Lingual Transfer through Reversible Transliteratio
 year: 2025
 first_author: "[[Zhuang, Wenhao]]"
 last_author: "[[Zhao, Xiaobing]]"
-authors: "[[Zhuang, Wenhao]]; [[Sun, Yuan]]; [[Zhao, Xiaobing]]"
+authors: "Zhuang, Wenhao; Sun, Yuan; Zhao, Xiaobing"
 authors_incomplete: false
 url: "https://arxiv.org/html/2509.17493"
 external_pdf: "https://arxiv.org/pdf/2509.17493.pdf"

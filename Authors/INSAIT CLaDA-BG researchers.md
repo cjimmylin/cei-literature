@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-researchers-Transformer-Based Language Models for Bulgarian|Transformer-Based Language Models for Bulgarian]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-researchers-Transformer-Based Language Models for Bulgarian*: Affiliation: Institute of Information and Communication Technologies, Email: iva.marinova@identrics.ai
+- *From 2023-researchers-Transformer-Based Language Models for Bulgarian*: Affiliation: Institute of Information and Communication Technologies, Email: iva.marinova@identrics.ai
 - *From 2023-researchers-Transformer-Based Language Models for Bulgarian*: Affiliation: Institute of Information and Communication Technologies, Email: iva.marinova@identrics.ai
 - *From 2023-researchers-Transformer-Based Language Models for Bulgarian*: Affiliation: Institute of Information and Communication Technologies, Email: iva.marinova@identrics.ai
 - *From 2023-researchers-Transformer-Based Language Models for Bulgarian*: Affiliation: Institute of Information and Communication Technologies, Email: iva.marinova@identrics.ai

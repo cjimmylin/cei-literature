@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: "Assessing Gender Bias of Pretrained Bangla Language Models"
 year: 2025
 first_author: "[[Arnob, Noor Mairukh Khan]]"
-last_author: "[[Wasi, Azmine Toushik]]"
+last_author: "[[Azmine Toushik Wasi]]"
 authors: Noor Mairukh Khan Arnob; Saiyara Mahmud; Azmine Toushik Wasi
 authors_incomplete: false
 url: "https://aclanthology.org/2025.gebnlp-1.24/"
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Arnob, Noor Mairukh Khan]], [[Mahmud, Saiyara]], [[Wasi, Azmine Toushik]]
+[[Noor Mairukh Khan Arnob]], [[Saiyara Mahmud]], [[Azmine Toushik Wasi]]
 
 ## Metadata
 

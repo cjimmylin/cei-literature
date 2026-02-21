@@ -18,9 +18,9 @@ key: EXSR0456
 type: preprint
 short_title: "Abundant Intelligences Placing AI Within Indigenous"
 year: 2024
-first_author: "[[Jason Edward Lewis, Hemi Whaanga, Ceyda Yolgoermez]]"
+first_author: "[[Jason Edward Lewis]]"
 last_author: "[[Ceyda Yolgoermez]]"
-authors: "[[Jason Edward Lewis, Hemi Whaanga, Ceyda Yolgoermez]]"
+authors: Jason Edward Lewis; Hemi Whaanga; Ceyda Yolgoermez
 authors_incomplete: false
 url: 
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-024-02099-4.pdf"

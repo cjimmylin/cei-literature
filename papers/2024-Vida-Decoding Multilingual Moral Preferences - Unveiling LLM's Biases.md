@@ -15,9 +15,9 @@ key: EXSR0158
 type: conferencePaper
 short_title: "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment"
 year: 2024
-first_author: "[[K. Vida]]"
-last_author: "[[A]]"
-authors: "Vida, K., Damken, F., & Lauscher, A"
+first_author: "[[Karina Vida]]"
+last_author: "[[A & Lauscher]]"
+authors: "Karina Vida; F. Damken; A & Lauscher"
 url: "https://arxiv.org/abs/2407.15184"
 external_pdf: "https://arxiv.org/pdf/2407.15184.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md"
@@ -52,7 +52,7 @@ CONFERENCE: "AIES 2024"
 
 ## Authors
 
-[[Vida]], [[Katleho K.|K.]], [[Damken]], [[F.]], [[& Lauscher]], [[A]]
+[[Karina Vida]], [[F. Damken]], [[A & Lauscher]]
 
 ## Metadata
 

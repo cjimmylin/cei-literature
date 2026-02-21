@@ -17,7 +17,7 @@ short_title: "Offensive Text Span Detection in Romanian Comments Using Large Lan
 year: 2024
 first_author: "[[Andrei Paraschiv]]"
 last_author: "[[Mihai Dascalu]]"
-authors: "[[Andrei Paraschiv]]; [[Teodora Andreea Ion]]; [[Mihai Dascalu]]"
+authors: Andrei Paraschiv; Teodora Andreea Ion; Mihai Dascalu
 doi: 10.3390/info15010008
 url: "https://www.mdpi.com/2078-2489/15/1/8"
 external_pdf: "https://doi.org/10.3390/info15010008"

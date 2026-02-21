@@ -15,8 +15,8 @@ type: preprint
 short_title: "CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean"
 year: 2024
 first_author: "[[Eunsu Kim]]"
-last_author: "[[Alice Oh James Thorne]]"
-authors: "Eunsu Kim, Juyoung Suk, Philhoon Oh, Haneul Yoo, James Thorne, Alice Oh"
+last_author: "[[Alice Oh]]"
+authors: Eunsu Kim; Juyoung Suk; Philhoon Oh; Haneul Yoo; James Thorne; Alice Oh
 doi: 10.18653/v1/2024.lrec-main.296
 url: "https://arxiv.org/abs/2403.06412"
 external_pdf: "https://arxiv.org/pdf/2403.06412.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "LREC-COLING 2024"
 
 ## Authors
 
-[[Juyoung Suk Eunsu Kim]], [[Haneul Yoo Philhoon Oh]], [[Alice Oh James Thorne]]
+[[Eunsu Kim]], [[Juyoung Suk]], [[Philhoon Oh]], [[Haneul Yoo]], [[James Thorne]], [[Alice Oh]]
 
 ## Metadata
 

@@ -17,7 +17,7 @@ short_title: "Evaluating LLM Capabilities in Low-Resource Contexts: A Case Study
 year: 2025
 first_author: "[[Jasmin Heierli]]"
 last_author: "[[Elena Gavagnin]]"
-authors: Jasmin Heierli, Rebecca Bahar Ganjineh, Elena Gavagnin
+authors: Jasmin Heierli; Rebecca Bahar Ganjineh; Elena Gavagnin
 url: "https://acl-bg.org/proceedings/2025/LowResNLP%202025/pdf/2025.lowresnlp-1.12.pdf"
 publication: LowResNLP 2025 Workshop (RANLP 2025)
 CONF-CC: "RANLP 2025 Workshop"

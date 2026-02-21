@@ -59,9 +59,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Han-Value Portrait|Value Portrait]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large|KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application]]
 
 ## External Links & Profiles
 
@@ -91,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large*: Affiliation: University of Richmond, Email: youngerous@gmail.com
+- *From 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large*: Affiliation: University of Richmond, Email: youngerous@gmail.com
 - *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com
 - *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com
 - *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com

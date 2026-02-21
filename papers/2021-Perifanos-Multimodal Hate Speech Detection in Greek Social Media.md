@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "Multimodal Hate Speech Detection in Greek Social Media"
 year: 2021
 first_author: "[[Konstantinos Perifanos]]"
-last_author: "[[Dionysis Goutsos Konstantinos Perifanos]]"
-authors: "Konstantinos Perifanos, Dionysis Goutsos"
+last_author: "[[Dionysis Goutsos]]"
+authors: Konstantinos Perifanos; Dionysis Goutsos
 doi: 10.3390/mti5070034
 url: "https://www.mdpi.com/2414-4088/5/7/34"
 publication: "MDPI Multimodal Technologies and Interaction"
@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Dionysis Goutsos Konstantinos Perifanos]]
+[[Konstantinos Perifanos]], [[Dionysis Goutsos]]
 
 ## Metadata
 

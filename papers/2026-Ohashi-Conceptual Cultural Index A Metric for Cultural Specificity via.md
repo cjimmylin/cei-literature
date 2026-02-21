@@ -15,8 +15,8 @@ type: preprint
 short_title: "Conceptual Cultural Index: A Metric for Cultural Specificity via Relative Generality"
 year: 2026
 first_author: "[[Takumi Ohashi]]"
-last_author: "[[Hitoshi Iyatomi Takumi Ohashi]]"
-authors: Takumi Ohashi, Hitoshi Iyatomi
+last_author: "[[Hitoshi Iyatomi]]"
+authors: Takumi Ohashi; Hitoshi Iyatomi
 url: "https://arxiv.org/abs/2602.09444"
 external_pdf: "https://arxiv.org/pdf/2602.09444.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Hitoshi Iyatomi Takumi Ohashi]]
+[[Takumi Ohashi]], [[Hitoshi Iyatomi]]
 
 ## Metadata
 

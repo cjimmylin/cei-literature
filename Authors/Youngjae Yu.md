@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2022-Kim-ProsocialDialog|ProsocialDialog]]
 - [[2022-Kim-SODA|SODA]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
+- *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 - *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 - *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 - *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr

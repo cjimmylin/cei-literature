@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Liu-On the Alignment of Large Language Models with Global Human Opinion|On the Alignment of Large Language Models with Global Human Opinion]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Liu-On the Alignment of Large Language Models with Global Human Opinion*:, Email: chu@i.kyoto
+- *From 2025-Liu-On the Alignment of Large Language Models with Global Human Opinion*:, Email: chu@i.kyoto
 - *From 2025-Liu-On the Alignment of Large Language Models with Global Human Opinion*:, Email: chu@i.kyoto
 - *From 2025-Liu-On the Alignment of Large Language Models with Global Human Opinion*:, Email: Masahiro.Kaneko@mbzuai.ac.ae
 - *From 2025-Liu-On the Alignment of Large Language Models with Global Human Opinion*:, Email: yangliu@nlp.ist.i.kyoto

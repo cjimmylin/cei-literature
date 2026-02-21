@@ -34,6 +34,8 @@ Christof Weickhardt is a bachelor student at the FHNW School of Computer Science
 
 
 
+
+
 - [[2025-Hatemo-Revisiting the Trolley Problem for AI|Revisiting the Trolley Problem for AI]]
 
 ## External Links & Profiles
@@ -45,6 +47,10 @@ Christof Weickhardt is a bachelor student at the FHNW School of Computer Science
 
 
 
+
+
+- *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: oliver.bendel@fhnw.ch
+- *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: oliver.bendel@fhnw.ch
 - *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: christof.weickhardt@students.fhnw.ch
 - *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: oliver.bendel@fhnw.ch
 - *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: luca.gisler@students.fhnw.ch

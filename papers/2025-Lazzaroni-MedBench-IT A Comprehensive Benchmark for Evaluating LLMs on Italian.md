@@ -17,7 +17,7 @@ short_title: "MedBench-IT: A Comprehensive Benchmark for Evaluating LLMs on Ital
 year: 2025
 first_author: "[[Ruggero Marino Lazzaroni]]"
 last_author: "[[Roberto Marras]]"
-authors: "[[Ruggero Marino Lazzaroni]]; [[Alessandro Angioi]]; [[Michelangelo Puliga]]; [[Davide Sanna]]; [[Roberto Marras]]"
+authors: Ruggero Marino Lazzaroni; Alessandro Angioi; Michelangelo Puliga; Davide Sanna; Roberto Marras
 url: "https://arxiv.org/abs/2509.07135"
 external_pdf: "https://arxiv.org/pdf/2509.07135.pdf"
 publication: arXiv

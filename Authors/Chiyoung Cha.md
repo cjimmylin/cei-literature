@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Jeong-KOLD Korean Offensive Language Dataset|KOLD: Korean Offensive Language Dataset]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Jeong-KOLD Korean Offensive Language Dataset*: Affiliation: School of Computing, KAIST, Email: hoon2j@gmail.com
+- *From 2022-Jeong-KOLD Korean Offensive Language Dataset*: Affiliation: School of Computing, KAIST, Email: hoon2j@gmail.com
 - *From 2022-Jeong-KOLD Korean Offensive Language Dataset*: Affiliation: School of Computing, KAIST, Email: hoon2j@gmail.com
 - *From 2022-Jeong-KOLD Korean Offensive Language Dataset*: Affiliation: School of Computing, KAIST, Email: jaimeen01@kaist.ac.kr
 - *From 2022-Jeong-KOLD Korean Offensive Language Dataset*: Affiliation: School of Computing, KAIST, Email: jaimeen01@kaist.ac.kr

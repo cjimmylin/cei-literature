@@ -16,7 +16,7 @@ type: journalArticle
 short_title: "Evaluation of Social Bias Classification Performance of LLMs Using the KoSBI Dataset"
 year: 2025
 first_author: "[[Song, Minho]]"
-last_author: "[[Lee, Subum]]"
+last_author: "[[Subum Lee]]"
 authors: Minho Song; Subum Lee
 authors_incomplete: false
 url: "https://www.koreascience.kr/article/JAKO202530450459760.page"

@@ -78,7 +78,7 @@ Ensuring the moral reasoning capabilities of Large Language Models (LLMs) is a g
 
 ## Authors
 
-[[Jackson Trager]], [[Francielle Vargas]], [[Diego Alves]], [[Matteo Guida]], [[Mikel K. Ngueajio]], [[Ameeta Agrawal]], [[Yalda Daryani]], [[Farzan Karimi-Malekabadi]], [[Flor Plaza-del-Arco|Flor Miriam Plaza-del-Arco]]
+[[Jackson Trager]], [[Francielle Vargas]], [[Diego Alves]], [[Matteo Guida]], [[Mikel K. Ngueajio]], [[Ameeta Agrawal]], [[Yalda Daryani]], [[Farzan Karimi-Malekabadi]], [[Flor Miriam Plaza-del-Arco]]
 
 ## Data Description
 

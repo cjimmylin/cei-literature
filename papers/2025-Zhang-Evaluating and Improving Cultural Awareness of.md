@@ -17,9 +17,9 @@ key: EXSR0362
 type: preprint
 short_title: "Evaluating and Improving Cultural Awareness of"
 year: 2025
-first_author: "[[Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang]]"
+first_author: "[[Hongbin Zhang]]"
 last_author: "[[Min Zhang]]"
-authors: "[[Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang]]"
+authors: Hongbin Zhang; Kehai Chen; Xuefeng Bai; Yang Xiang; Min Zhang
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.21798"
 external_pdf: "https://arxiv.org/pdf/2509.21798.pdf"

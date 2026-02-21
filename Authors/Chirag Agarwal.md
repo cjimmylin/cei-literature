@@ -37,6 +37,8 @@ Chirag Agarwal is an Assistant Professor at the School of Data Science, Universi
 
 
 
+
+
 - [[2024-Han-MedSafetyBench|MedSafetyBench]]
 
 ## External Links & Profiles
@@ -50,6 +52,10 @@ Chirag Agarwal is an Assistant Professor at the School of Data Science, Universi
 
 
 
+
+
+- *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: hlakkaraju@hbs.edu
+- *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: hlakkaraju@hbs.edu
 - *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: than@g.harvard.edu
 - *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu
 - *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu

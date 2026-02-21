@@ -16,9 +16,9 @@ key: EXSR0514
 type: conference_paper
 short_title: "One Model is All You Need"
 year: 2024
-first_author: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"
+first_author: "[[Sebastian Nehrdich]]"
 last_author: "[[Kurt Keutzer]]"
-authors: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"
+authors: Sebastian Nehrdich; Oliver Hellwig; Kurt Keutzer
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.13920"
 external_pdf: "https://arxiv.org/pdf/2409.13920.pdf"

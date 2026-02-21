@@ -17,9 +17,9 @@ key: EXSR0597
 type: preprint
 short_title: "Sanadset 650K Data on Hadith Narrators"
 year: 2022
-first_author: "[[Multiple (Data in Brief, 2022)]]"
+first_author: "[[Multiple (Data in Brief]]"
 last_author: "[[2022)]]"
-authors: "[[Multiple (Data in Brief, 2022)]]"
+authors: Multiple (Data in Brief; 2022)
 authors_incomplete: false
 url: 
 external_pdf: 

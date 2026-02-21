@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit|SanskritShala A Neural Sanskrit NLP Toolkit]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit*: Affiliation: lable benchmark datasets for all tasks, Email: jivnesh@iitk.ac.in
+- *From 2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit*: Affiliation: lable benchmark datasets for all tasks, Email: jivnesh@iitk.ac.in
 - *From 2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit*: Affiliation: lable benchmark datasets for all tasks, Email: jivnesh@iitk.ac.in
 - *From 2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit*: Affiliation: lable benchmark datasets for all tasks, Email: jivnesh@iitk.ac.in
 - *From 2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit*: Affiliation: lable benchmark datasets for all tasks, Email: jivnesh@iitk.ac.in

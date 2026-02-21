@@ -16,7 +16,7 @@ short_title: "RusCode: Russian Cultural Code Benchmark for Text-to-Image Generat
 year: 2025
 first_author: "[[Viacheslav Vasilev]]"
 last_author: "[[Denis Dimitrov]]"
-authors: Viacheslav Vasilev, Julia Agafonova, Nikolai Gerasimenko, Alexander Kapitanov, Polina Mikhailova, Evelina Mironova, Denis Dimitrov
+authors: Viacheslav Vasilev; Julia Agafonova; Nikolai Gerasimenko; Alexander Kapitanov; Polina Mikhailova; Evelina Mironova; Denis Dimitrov
 url: "https://arxiv.org/abs/2502.07455"
 external_pdf: "https://arxiv.org/pdf/2502.07455.pdf"
 publication: NAACL 2025 Findings

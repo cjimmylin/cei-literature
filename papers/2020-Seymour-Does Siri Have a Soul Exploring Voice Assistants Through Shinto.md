@@ -16,7 +16,7 @@ short_title: Does Siri Have a Soul? Exploring Voice Assistants Through Shinto De
 year: 2020
 first_author: "[[William Seymour]]"
 last_author: "[[Max Van Kleek]]"
-authors: William Seymour, Max Van Kleek
+authors: William Seymour; Max Van Kleek
 doi: 10.1145/3334480.3381809
 url: "https://dl.acm.org/doi/10.1145/3334480.3381809"
 external_pdf: "https://arxiv.org/pdf/2003.03207.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[William Seymour, Max Van Kleek]]
+[[William Seymour]], [[Max Van Kleek]]
 
 ## Metadata
 

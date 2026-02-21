@@ -58,8 +58,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset|BanHate: An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset]] (Last Author)
-- [[2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated|BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla]]
 
 ## External Links & Profiles
 
@@ -88,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset*: Affiliation: University of Engineering and Technology
+- *From 2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset*: Affiliation: University of Engineering and Technology
 - *From 2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated*: Affiliation: label Hate Speech Detection Dataset for Transliterated - PDF Extract", Email: fahimcse381@gmail.com
 - *From 2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated*: Affiliation: label Hate Speech Detection Dataset for Transliterated - PDF Extract", Email: pdcsedu@gmail.com
 - *From 2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated*: Affiliation: label Hate Speech Detection Dataset for Transliterated - PDF Extract", Email: fahimcse381@gmail.com

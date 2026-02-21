@@ -16,7 +16,7 @@ short_title: "Leveraging Large Language Models to Measure Gender Representation 
 year: 2025
 first_author: "[[Derner, Erik]]"
 last_author: "[[Oliver, Nuria]]"
-authors: "[[Derner, Erik]]; [[Fuente, Sara Sansalvador de la]]; [[Gutiérrez, Yoan]]; [[Moreda, Paloma]]; [[Oliver, Nuria]]"
+authors: "Derner, Erik; Fuente, Sara Sansalvador de la; Gutiérrez, Yoan; Moreda, Paloma; Oliver, Nuria"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.13677"
 external_pdf: "https://arxiv.org/pdf/2406.13677.pdf"

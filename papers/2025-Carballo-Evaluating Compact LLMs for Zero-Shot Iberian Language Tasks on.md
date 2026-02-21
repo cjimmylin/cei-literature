@@ -17,7 +17,7 @@ short_title: "Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on En
 year: 2025
 first_author: "[[Seller, Luís Couto]]"
 last_author: "[[Ambite, Enrique de Miguel]]"
-authors: "[[Seller, Luís Couto]]; [[Torres, Íñigo Sanz]]; [[Vogel-Fernández, Adrián]]; [[Carballo, Carlos González]]; [[Sánchez, Pedro Miguel Sánchez]]; [[Martín, Adrián Carruana]]; [[Ambite, Enrique de Miguel]]"
+authors: "Seller, Luís Couto; Torres, Íñigo Sanz; Vogel-Fernández, Adrián; Carballo, Carlos González; Sánchez, Pedro Miguel Sánchez; Martín, Adrián Carruana; Ambite, Enrique de Miguel"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.03312"
 external_pdf: "https://arxiv.org/pdf/2504.03312.pdf"

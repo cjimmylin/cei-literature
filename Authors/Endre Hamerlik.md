@@ -30,6 +30,8 @@ Endre Hamerlik is a researcher affiliated with MBZUAI (Mohamed bin Zayed Univers
 
 
 
+
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
@@ -39,6 +41,10 @@ Endre Hamerlik is a researcher affiliated with MBZUAI (Mohamed bin Zayed Univers
 
 
 
+
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike

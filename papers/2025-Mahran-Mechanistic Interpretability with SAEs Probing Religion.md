@@ -17,9 +17,9 @@ key: EXSR0409
 type: preprint
 short_title: "Mechanistic Interpretability with SAEs Probing Religion"
 year: 2025
-first_author: "[[Katharina Simbeck, Mariam Mahran]]"
-last_author: "[[Mariam Mahran Katharina Simbeck]]"
-authors: "[[Katharina Simbeck, Mariam Mahran]]"
+first_author: "[[Katharina Simbeck]]"
+last_author: "[[Mariam Mahran]]"
+authors: Katharina Simbeck; Mariam Mahran
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.17665"
 external_pdf: "https://arxiv.org/pdf/2509.17665.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Mariam Mahran Katharina Simbeck]]
+[[Katharina Simbeck]], [[Mariam Mahran]]
 
 ## Metadata
 

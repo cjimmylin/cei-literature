@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models|Assessing Gender Bias of Pretrained Bangla Language Models]] (Last Author)
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 - [[2025-Wasi-Dialectal Bias in Bengali An Evaluation of Multilingual Language|Dialectal Bias in Bengali: An Evaluation of Multilingual Language Models]] (First Author)
@@ -35,6 +37,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models*: Affiliation: University of Science and Technology, Email: azmine32@student.sust.edu
+- *From 2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models*: Affiliation: University of Science and Technology, Email: azmine32@student.sust.edu
 - *From 2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models*: Affiliation: University of Science and Technology, Email: azmine32@student.sust.edu
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar

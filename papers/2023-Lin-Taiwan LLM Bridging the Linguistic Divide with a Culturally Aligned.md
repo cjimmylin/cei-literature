@@ -15,8 +15,8 @@ type: preprint
 short_title: "Taiwan LLM: Bridging the Linguistic Divide with a Culturally Aligned Language Model"
 year: 2023
 first_author: "[[Yen-Ting Lin]]"
-last_author: "[[Yun-Nung Chen Yen-Ting Lin]]"
-authors: Yen-Ting Lin, Yun-Nung Chen
+last_author: "[[Yun-Nung Chen]]"
+authors: Yen-Ting Lin; Yun-Nung Chen
 url: "https://arxiv.org/abs/2311.17487"
 external_pdf: "https://arxiv.org/pdf/2311.17487.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Ying Lin|Yun-Nung Chen Yen-Ting Lin]]
+[[Yen-Ting Lin]], [[Yun-Nung Chen]]
 
 ## Metadata
 

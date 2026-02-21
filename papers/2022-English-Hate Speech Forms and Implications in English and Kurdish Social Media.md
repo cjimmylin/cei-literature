@@ -19,7 +19,7 @@ short_title: "Hate Speech Forms and Implications in English and Kurdish Social M
 year: 2022
 first_author: "[[English, Implications in]]"
 last_author: "[[Media.pdf, Kurdish Social]]"
-authors: "[[English, Implications in]]; [[Media.pdf, Kurdish Social]]"
+authors: "English, Implications in; Media.pdf, Kurdish Social"
 authors_incomplete: false
 url: "https://journals.uhd.edu.iq/index.php/juhd/article/view/1006"
 external_pdf: "https://journals.uhd.edu.iq/index.php/juhd/article/download/1006/724"

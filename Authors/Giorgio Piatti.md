@@ -37,6 +37,8 @@ The research team open-sourced the GovSim simulation environment, agent prompts,
 
 
 
+
+
 - [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]]
 - [[2024-Piatti-Cooperate or Collapse|Cooperate or Collapse]] (First Author)
 
@@ -53,6 +55,10 @@ The research team open-sourced the GovSim simulation environment, agent prompts,
 
 
 
+
+
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen

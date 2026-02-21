@@ -28,6 +28,8 @@ Haotian Li is a researcher at the University of Illinois Urbana-Champaign workin
 
 
 
+
+
 - [[2025-Lin-MORALISE|MORALISE]]
 
 ## Notes
@@ -37,6 +39,10 @@ Haotian Li is a researcher at the University of Illinois Urbana-Champaign workin
 
 
 
+
+
+- *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
+- *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 - *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 - *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 - *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu

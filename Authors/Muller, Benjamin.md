@@ -58,7 +58,8 @@ twitter: ""
 
 
 
-- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+
+
 - [[2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in|The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants]]
 
 ## External Links & Profiles
@@ -88,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
+- *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

@@ -17,7 +17,7 @@ short_title: "Non-Intuition-Based Machine Ethics"
 year: 2018
 first_author: "[[Tae Wan Kim]]"
 last_author: "[[Hooker, John]]"
-authors: "[[Kim, Tae Wan]]; [[Hooker, John]]"
+authors: "Kim, Tae Wan; Hooker, John"
 doi: 10.1145/3278721.3278753
 url: "https://dl.acm.org/doi/10.1145/3278721.3278753"
 external_pdf: "https://johnhooker.tepper.cmu.edu/machineEthicsNonintuitive2.pdf"

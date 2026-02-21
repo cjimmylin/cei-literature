@@ -16,7 +16,7 @@ short_title: "The Decades Progress on Code-Switching Research in NLP"
 year: 2025
 first_author: "[[Winata, Genta Indra]]"
 last_author: "[[Solorio, Thamar]]"
-authors: "[[Winata, Genta Indra]]; [[Aji, Alham Fikri]]; [[Yong, Zheng-Xin]]; [[Solorio, Thamar]]"
+authors: "Winata, Genta Indra; Aji, Alham Fikri; Yong, Zheng-Xin; Solorio, Thamar"
 authors_incomplete: false
 url: "https://aclanthology.org/2023.findings-acl.185.pdf"
 external_pdf: "https://arxiv.org/pdf/2212.09660v2.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Genta Indra Winata|Winata, Genta Indra]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Yong, Zheng-Xin]], [[Thamar Solorio|Solorio, Thamar]]
+[[Genta Indra Winata|Winata, Genta Indra]], [[Aji, Alham Fikri]], [[Yong, Zheng-Xin]], [[Thamar Solorio|Solorio, Thamar]]
 
 ## Metadata
 

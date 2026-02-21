@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents|Hybrid Approaches for Moral Value Alignment in AI Agents]]
 - [[2025-Tennant-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM|Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM AGENTS]]
 - [[2025-Yong-The State of Multilingual LLM Safety Research From Measuring the|The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It]]
@@ -86,6 +88,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Yong-The State of Multilingual LLM Safety Research From Measuring the*: Affiliation: University, 2Cohere Labs, Email: contact.yong@brown.edu
+- *From 2025-Yong-The State of Multilingual LLM Safety Research From Measuring the*: Affiliation: University, 2Cohere Labs, Email: contact.yong@brown.edu
 - *From 2025-Yong-The State of Multilingual LLM Safety Research From Measuring the*: Affiliation: University, 2Cohere Labs, Email: juliakreutzer@cohere.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

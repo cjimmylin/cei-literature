@@ -16,8 +16,8 @@ type: preprint
 short_title: "FiSCo (Fine-grained Semantic Comparison)"
 year: 2025
 first_author: "[[Xu, Weijie]]"
-last_author: "[[Reddy, Chandan K]]"
-authors: "[[Xu, Weijie]]; [[Wang, Yiwen]]; [[Xue, Chi]]; [[Hu, Xiangkun]]; [[Fang, Xi]]; [[Dong, Guimin]]; [[Reddy, Chandan K.]]"
+last_author: "[[Reddy, Chandan K.]]"
+authors: "Xu, Weijie; Wang, Yiwen; Xue, Chi; Hu, Xiangkun; Fang, Xi; Dong, Guimin; Reddy, Chandan K."
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.19028"
 external_pdf: "https://arxiv.org/pdf/2506.19028.pdf"

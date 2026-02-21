@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Lan-Fuxi A Benchmark for Evaluating Language|Fuxi A Benchmark for Evaluating Language]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Lan-Fuxi A Benchmark for Evaluating Language*: Affiliation: School of Computer Science and Technology, East China Normal University, Email: mlan@cs.ecnu.edu.cn
+- *From 2025-Lan-Fuxi A Benchmark for Evaluating Language*: Affiliation: School of Computer Science and Technology, East China Normal University, Email: mlan@cs.ecnu.edu.cn
 - *From 2025-Lan-Fuxi A Benchmark for Evaluating Language*: Affiliation: School of Computer Science and Technology, East China Normal University, Email: sqzhao@stu.ecnu.edu.cn
 - *From 2025-Lan-Fuxi A Benchmark for Evaluating Language*: Affiliation: School of Computer Science and Technology, East China Normal University, Email: sqzhao@stu.ecnu.edu.cn
 - *From 2025-Lan-Fuxi A Benchmark for Evaluating Language*: Affiliation: School of Computer Science and Technology, East China Normal University, Email: sqzhao@stu.ecnu.edu.cn

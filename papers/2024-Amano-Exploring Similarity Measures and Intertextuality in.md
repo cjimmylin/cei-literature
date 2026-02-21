@@ -16,9 +16,9 @@ key: EXSR0479
 type: conference_paper
 short_title: "Exploring Similarity Measures and Intertextuality in"
 year: 2024
-first_author: "[[So Miyagawa, Yuki Kyogoku, Yuzuki Tsukagoshi, Kyoko Amano]]"
-last_author: "[[Kyoko Amano Yuzuki Tsukagoshi]]"
-authors: "[[So Miyagawa, Yuki Kyogoku, Yuzuki Tsukagoshi, Kyoko Amano]]"
+first_author: "[[So Miyagawa]]"
+last_author: "[[Kyoko Amano]]"
+authors: So Miyagawa; Yuki Kyogoku; Yuzuki Tsukagoshi; Kyoko Amano
 authors_incomplete: false
 url: 
 external_pdf: "https://aclanthology.org/2024.nlp4dh-1.12.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Yuki Kyogoku So Miyagawa]], [[Kyoko Amano Yuzuki Tsukagoshi]]
+[[So Miyagawa]], [[Yuki Kyogoku]], [[Yuzuki Tsukagoshi]], [[Kyoko Amano]]
 
 ## Metadata
 

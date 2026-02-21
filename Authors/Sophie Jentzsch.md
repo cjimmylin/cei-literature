@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
+- *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu

@@ -17,7 +17,7 @@ short_title: "Strong and weak alignment of large language models"
 year: 2024
 first_author: "[[Mehdi Khamassi]]"
 last_author: "[[Chatila, Raja]]"
-authors: "[[Khamassi, Mehdi]]; [[Nahon, Marceau]]; [[Chatila, Raja]]"
+authors: "Khamassi, Mehdi; Nahon, Marceau; Chatila, Raja"
 doi: 10.48550/arXiv.2408.04655
 tags: "Computer Science - Artificial Intelligence"
 url: "https://arxiv.org/abs/2408.04655"

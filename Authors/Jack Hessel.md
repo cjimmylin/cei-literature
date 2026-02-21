@@ -50,6 +50,8 @@ Jack Hessel is a machine learning researcher currently at Anthropic. His researc
 
 
 
+
+
 - [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
 - [[2022-Kim-SODA|SODA]]
 
@@ -60,6 +62,10 @@ Jack Hessel is a machine learning researcher currently at Anthropic. His researc
 
 
 
+
+
+- *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
+- *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
 - *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
 - *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
 - *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence

@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2022-Pollak-Embeddings Models for Buddhist Sanskrit|Embeddings Models for Buddhist Sanskrit]] (Last Author)
 - [[2020-Shekhar-Automating News Comment Moderation with Limited Resources|Automating News Comment Moderation with Limited Resources: Benchmarking in Croatian and Estonian]]
 
 ## External Links & Profiles
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2020-Shekhar-Automating News Comment Moderation with Limited Resources*: Affiliation: lable for several major EU languages (see e
+- *From 2020-Shekhar-Automating News Comment Moderation with Limited Resources*: Affiliation: lable for several major EU languages (see e
 - *From 2020-Shekhar-Automating News Comment Moderation with Limited Resources*: Affiliation: lable for several major EU languages (see e
 - *From 2020-Shekhar-Automating News Comment Moderation with Limited Resources*: Affiliation: lable for several major EU languages (see e
 - *From 2020-Shekhar-Automating News Comment Moderation with Limited Resources*: Affiliation: lable for several major EU languages (see e

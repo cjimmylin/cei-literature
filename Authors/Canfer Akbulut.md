@@ -51,6 +51,8 @@ Akbulut has been involved in several large-scale red-teaming initiatives, provid
 
 
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - [[2024-Rauh-Gaps in the Safety Evaluation of Generative AI|Gaps in the Safety Evaluation of Generative AI]]
 
@@ -66,6 +68,10 @@ Akbulut has been involved in several large-scale red-teaming initiatives, provid
 
 
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of

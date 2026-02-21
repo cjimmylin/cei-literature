@@ -18,7 +18,7 @@ short_title: "How Do Users Identify and Perceive Stereotypes? Understanding User
 year: 2025
 first_author: "[[Lim, Hyunseung]]"
 last_author: "[[Hong, Hwajung]]"
-authors: "[[Lim, Hyunseung]]; [[Choi, Dasom]]; [[Hong, Hwajung]]"
+authors: "Lim, Hyunseung; Choi, Dasom; Hong, Hwajung"
 authors_incomplete: false
 doi: 10.1145/3715275.3732207
 url: "https://dl.acm.org/doi/10.1145/3715275.3732207"

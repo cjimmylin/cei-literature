@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Translation-Evaluation Criteria for Literary Translation|Evaluation Criteria for Literary Translation]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Translation-Evaluation Criteria for Literary Translation*: Affiliation: school of transla-
+- *From 2025-Translation-Evaluation Criteria for Literary Translation*: Affiliation: school of transla-
 - *From 2025-Translation-Evaluation Criteria for Literary Translation*: Affiliation: school of transla-
 - *From 2025-Translation-Evaluation Criteria for Literary Translation*: Affiliation: school of transla-
 - *From 2025-Translation-Evaluation Criteria for Literary Translation*: Affiliation: school of transla-

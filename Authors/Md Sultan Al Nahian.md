@@ -25,6 +25,8 @@ Md Sultan Al Nahian is faculty at Penn State Harrisburg, having previously been 
 
 
 
+
+
 - [[2024-Nahian-The Goofus & Gallant Story Corpus for Practical|The Goofus & Gallant Story Corpus for Practical]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ Md Sultan Al Nahian is faculty at Penn State Harrisburg, having previously been 
 
 
 
+
+
+- *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: harrison@cs.uky.edu
+- *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: harrison@cs.uky.edu
 - *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: sfrazier7@gatech.edu
 - *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: sfrazier7@gatech.edu
 - *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: harrison@cs.uky.edu

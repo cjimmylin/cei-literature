@@ -16,7 +16,7 @@ short_title: Self-Explaining Hate Speech Detection with Moral Rationales
 year: 2026
 first_author: "[[Francielle Vargas]]"
 last_author: "[[Ameeta Agrawal]]"
-authors: Francielle Vargas, Jackson Trager, Diego Alves, Surendrabikram Thapa, Matteo Guida, Berk Atil, Daryna Dementieva, Andrew Smart, Ameeta Agrawal
+authors: Francielle Vargas; Jackson Trager; Diego Alves; Surendrabikram Thapa; Matteo Guida; Berk Atil; Daryna Dementieva; Andrew Smart; Ameeta Agrawal
 url: "https://arxiv.org/abs/2601.03481"
 external_pdf: "https://arxiv.org/pdf/2601.03481.pdf"
 publication: arXiv

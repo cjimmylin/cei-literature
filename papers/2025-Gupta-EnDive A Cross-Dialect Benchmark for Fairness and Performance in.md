@@ -16,7 +16,7 @@ short_title: "EnDive: A Cross-Dialect Benchmark for Fairness and Performance in 
 year: 2025
 first_author: "[[Gupta, Abhay]]"
 last_author: "[[O'Brien, Sean]]"
-authors: "[[Gupta, Abhay]]; [[Cheung, Jacob]]; [[Meng, Philip]]; [[Sayyed, Shayan]]; [[Liao, Austen]]; [[Zhu, Kevin]]; [[O'Brien, Sean]]"
+authors: "Gupta, Abhay; Cheung, Jacob; Meng, Philip; Sayyed, Shayan; Liao, Austen; Zhu, Kevin; O'Brien, Sean"
 authors_incomplete: false
 url: "https://arxiv.org/html/2504.07100"
 external_pdf: "https://arxiv.org/pdf/2504.07100.pdf"

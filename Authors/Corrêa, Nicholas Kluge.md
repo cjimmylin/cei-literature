@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese|Tucano: Advancing Neural Text Generation for Portuguese]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese*: Affiliation: University of Bonn
+- *From 2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese*: Affiliation: University of Bonn
 - *From 2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese*: Affiliation: University of Bonn
 - *From 2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese*: Affiliation: University of Bonn
 - *From 2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese*: Affiliation: University of Bonn

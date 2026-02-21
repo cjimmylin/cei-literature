@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study|Is ChatGPT A Good Translator? A Preliminary Study]]
 
 ## External Links & Profiles
@@ -84,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study*: Affiliation: University, Suzhou, China, Email: hollis.shi@toki.waseda.jp
+- *From 2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study*: Affiliation: University, Suzhou, China, Email: hollis.shi@toki.waseda.jp
 - *From 2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study*: Affiliation: University, Suzhou, China, Email: fandongmeng@tencent.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

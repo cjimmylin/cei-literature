@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Rusnak-EudAImonia|EudAImonia]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Rusnak-EudAImonia*: Affiliation: College of Divinity), Email: journal@iscast.org
+- *From 2025-Rusnak-EudAImonia*: Affiliation: College of Divinity), Email: journal@iscast.org
 - *From 2025-Rusnak-EudAImonia*: Affiliation: College of Divinity), Email: journal@iscast.org
 - *From 2025-Rusnak-EudAImonia*: Affiliation: College of Divinity), Email: contact@iscast.org
 - *From 2025-Rusnak-EudAImonia*: Affiliation: College of Divinity), Email: contact@iscast.org

@@ -53,6 +53,8 @@ Dr. Kailkhura has published extensively on AI security and has been cited over 7
 
 
 
+
+
 - [[2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via|GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
@@ -69,6 +71,10 @@ Dr. Kailkhura has published extensively on AI security and has been cited over 7
 
 
 
+
+
+- *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University
+- *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University
 - *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University
 - *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University
 - *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University

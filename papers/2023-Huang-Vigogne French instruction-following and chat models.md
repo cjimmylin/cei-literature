@@ -50,7 +50,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Baixiang Huang|Bofeng Huang]]
+[[Bofeng Huang]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Edeh-Language Diversity Evaluating Language Usage and|Language Diversity Evaluating Language Usage and]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Edeh-Language Diversity Evaluating Language Usage and*: Affiliation: University Africa, Email: btadele@bdu.edu.et
+- *From 2025-Edeh-Language Diversity Evaluating Language Usage and*: Affiliation: University Africa, Email: btadele@bdu.edu.et
 - *From 2025-Edeh-Language Diversity Evaluating Language Usage and*: Affiliation: University Africa, Email: cedeh@fuotuoke.edu.ng
 - *From 2025-Edeh-Language Diversity Evaluating Language Usage and*: Affiliation: University Africa, Email: btadele@bdu.edu.et
 - *From 2025-Edeh-Language Diversity Evaluating Language Usage and*: Affiliation: University Africa, Email: btadele@bdu.edu.et

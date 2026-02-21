@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Germani-Source framing triggers systematic bias in large language models|Source framing triggers systematic bias in large language models | Science Advances]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Germani-Source framing triggers systematic bias in large language models*: Affiliation: Institute of Biomedical Ethics and History of Medicine, University of Zurich
+- *From 2025-Germani-Source framing triggers systematic bias in large language models*: Affiliation: Institute of Biomedical Ethics and History of Medicine, University of Zurich
 - *From 2025-Germani-Source framing triggers systematic bias in large language models*: Affiliation: Institute of Biomedical Ethics and History of Medicine, University of Zurich
 - *From 2025-Germani-Source framing triggers systematic bias in large language models*: Affiliation: Institute of Biomedical Ethics and History of Medicine, University of Zurich
 - *From 2025-Germani-Source framing triggers systematic bias in large language models*: Affiliation: Institute of Biomedical Ethics and History of Medicine, University of Zurich

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Toygar-Turkish Offensive Language Detection Dataset|Turkish Offensive Language Detection Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Toygar-Turkish Offensive Language Detection Dataset*: Affiliation: Department of Computer Engineering, Bo˘gaziçi University
+- *From 2024-Toygar-Turkish Offensive Language Detection Dataset*: Affiliation: Department of Computer Engineering, Bo˘gaziçi University
 - *From 2024-Toygar-Turkish Offensive Language Detection Dataset*: Affiliation: Department of Computer Engineering, Bo˘gaziçi University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

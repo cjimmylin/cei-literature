@@ -16,9 +16,9 @@ key: EXSR0323
 type: preprint
 short_title: "AfriStereo A Culturally Grounded Dataset for"
 year: 2025
-first_author: "[[Yann Le Beux, Oluchi Audu, Oche D. Ankeli, Dhananjay Balakrishnan, Melissah Weya, Marie D. Ralaiarinosy, Ignatius Ezeani]]"
+first_author: "[[Yann Le Beux]]"
 last_author: "[[Ignatius Ezeani]]"
-authors: "[[Yann Le Beux, Oluchi Audu, Oche D. Ankeli, Dhananjay Balakrishnan, Melissah Weya, Marie D. Ralaiarinosy, Ignatius Ezeani]]"
+authors: Yann Le Beux; Oluchi Audu; Oche D. Ankeli; Dhananjay Balakrishnan; Melissah Weya; Marie D. Ralaiarinosy; Ignatius Ezeani
 authors_incomplete: false
 url: "https://arxiv.org/abs/2511.22016"
 external_pdf: "https://arxiv.org/pdf/2511.22016.pdf"

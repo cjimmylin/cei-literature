@@ -15,9 +15,9 @@ key: LSRC0298
 type: conferencePaper
 short_title: "Overview of the Multilingual Text Detoxification Task at PAN 2024"
 year: 2024
-first_author: "[[at, Overview of the Multilingual Text Detoxification Task]]"
-last_author: "[[Overview of the Multilingual Text Detoxification Task at]]"
-authors: "[[at, Overview of the Multilingual Text Detoxification Task]]"
+first_author: "[[at]]"
+last_author: "[[Overview of the Multilingual Text Detoxification Task]]"
+authors: at; Overview of the Multilingual Text Detoxification Task
 authors_incomplete: false
 url: "https://ceur-ws.org/Vol-3740/paper-223.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3740/paper-223.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Overview of the Multilingual Text Detoxification Task at]]
+[[at]], [[Overview of the Multilingual Text Detoxification Task]]
 
 ## Metadata
 

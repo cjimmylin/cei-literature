@@ -19,7 +19,7 @@ short_title: "Hate Speech Detection in Social Media for the Kurdish Language"
 year: 2022
 first_author: "[[Saeed, Ari M.]]"
 last_author: "[[Rashid, Tarik Ahmed]]"
-authors: "[[Saeed, Ari M.]]; [[Ismael, Aso N.]]; [[Rasul, Danya L.]]; [[Majeed, Rayan S.]]; [[Rashid, Tarik Ahmed]]"
+authors: "Saeed, Ari M.; Ismael, Aso N.; Rasul, Danya L.; Majeed, Rayan S.; Rashid, Tarik Ahmed"
 authors_incomplete: false
 doi: 10.1007/978-3-031-14054-9_24
 url: "https://link.springer.com/chapter/10.1007/978-3-031-14054-9_24"

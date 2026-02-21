@@ -18,7 +18,7 @@ short_title: "Indic-Bias A Comprehensive Benchmark to Evaluate"
 year: 2024
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
-authors: "[[AI4Bharat team]]"
+authors: AI4Bharat team
 authors_incomplete: false
 url: "https://github.com/AI4Bharat/indic-bias"
 external_pdf: 

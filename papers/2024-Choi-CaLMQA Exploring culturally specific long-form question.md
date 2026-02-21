@@ -16,9 +16,9 @@ key: EXSR0467
 type: preprint
 short_title: "CaLMQA Exploring culturally specific long-form question"
 year: 2024
-first_author: "[[Shane Arora, Marzena Karpinska, Hung-Ting Chen, Ipsita Bhattacharjee, Mohit Iyyer, Eunsol Choi]]"
-last_author: "[[Eunsol Choi Mohit Iyyer]]"
-authors: "[[Shane Arora, Marzena Karpinska, Hung-Ting Chen, Ipsita Bhattacharjee, Mohit Iyyer, Eunsol Choi]]"
+first_author: "[[Shane Arora]]"
+last_author: "[[Eunsol Choi]]"
+authors: Shane Arora; Marzena Karpinska; Hung-Ting Chen; Ipsita Bhattacharjee; Mohit Iyyer; Eunsol Choi
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.17761"
 external_pdf: "https://arxiv.org/pdf/2406.17761.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Marzena Karpinska Shane Arora]], [[Ipsita Bhattacharjee Hung-Ting Chen]], [[Eunsol Choi Mohit Iyyer]]
+[[Shane Arora]], [[Marzena Karpinska]], [[Hung-Ting Chen]], [[Ipsita Bhattacharjee]], [[Mohit Iyyer]], [[Eunsol Choi]]
 
 ## Metadata
 

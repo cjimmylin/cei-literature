@@ -19,7 +19,7 @@ short_title: "From Phonemes to Meaning Evaluating Large"
 year: 2025
 first_author: "[[Jeyarajalingam Varsha]]"
 last_author: "[[Kengatharaiyer Sarveswaran]]"
-authors: "[[Jeyarajalingam Varsha]]; [[Menan Velayuthan]]; [[Sumirtha Karunakaran]]; [[Rasan Nivethiga]]; [[Kengatharaiyer Sarveswaran]]"
+authors: Jeyarajalingam Varsha; Menan Velayuthan; Sumirtha Karunakaran; Rasan Nivethiga; Kengatharaiyer Sarveswaran
 authors_incomplete: false
 url: "https://arxiv.org/abs/2511.12387"
 external_pdf: "https://arxiv.org/pdf/2511.12387.pdf"

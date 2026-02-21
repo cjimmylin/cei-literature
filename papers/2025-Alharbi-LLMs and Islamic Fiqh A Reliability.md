@@ -55,7 +55,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Unknown (OpenReview paper)]]
+[[Alharbi, Alaa]], [[Almarwani, Nada]], [[Aloufi, Samah]]
 
 ## Metadata
 

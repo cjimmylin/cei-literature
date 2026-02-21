@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Korir-API Multilingual & Multicultural Resources - Asian Pacific Islander|API Multilingual & Multicultural Resources - Asian Pacific Islander Speech-Language-Hearing Caucus]] (First Author)
 - [[2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25|LREC 2022 Workshop Language Resources and Evaluation Conference 20-25 June 2022]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25*:, Email: lrec@elda.org
+- *From 2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25*:, Email: lrec@elda.org
 - *From 2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25*:, Email: lrec@elda.org
 - *From 2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25*:, Email: lrec@elda.org
 - *From 2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25*:, Email: lrec@elda.org

@@ -51,6 +51,8 @@ Zhao co-created BibleQA, a new dataset based on Bible trivia questions designed 
 
 
 
+
+
 - [[2018-Zhao-Finding Answers from the Word of God|Finding Answers from the Word of God]] (First Author)
 
 ## External Links & Profiles
@@ -66,6 +68,10 @@ Zhao co-created BibleQA, a new dataset based on Bible trivia questions designed 
 
 
 
+
+
+- *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz
+- *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz
 - *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz
 - *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz
 - *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz

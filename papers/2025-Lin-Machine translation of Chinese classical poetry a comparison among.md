@@ -17,7 +17,7 @@ short_title: "Machine translation of Chinese classical poetry: a comparison amon
 year: 2025
 first_author: "[[Lin, Yumeng]]"
 last_author: "[[Gao, Ruiyao]]"
-authors: "[[Lin, Yumeng]]; [[Gao, Ruiyao]]"
+authors: "Lin, Yumeng; Gao, Ruiyao"
 authors_incomplete: true
 url: "https://www.nature.com/articles/s41599-024-03363-0"
 external_pdf: "https://www.nature.com/articles/s41599-024-03363-0.pdf?error=cookies_not_supported&code=29f09f92-c181-467c-91ee-bad257558a9a"

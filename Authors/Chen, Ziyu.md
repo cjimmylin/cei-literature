@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values|MoVa: Towards Generalizable Classification of Human Morals and Values]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values*: Affiliation: University, 2University of Chicago
+- *From 2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values*: Affiliation: University, 2University of Chicago
 - *From 2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values*: Affiliation: University, 2University of Chicago
 - *From 2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values*: Affiliation: University, 2University of Chicago
 - *From 2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values*: Affiliation: University, 2University of Chicago

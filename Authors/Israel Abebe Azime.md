@@ -58,9 +58,13 @@ twitter: ""
 
 
 
+
+
 - [[2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering|AmharicStoryQA A Multicultural Story Question Answering]] (First Author)
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
+- [[2025-Adelani-INJONGO A Multicultural Intent Detection and|INJONGO A Multicultural Intent Detection and]]
 - [[2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource|ProverbEval: Exploring LLM Evaluation Challenges for Low-resource Language Understanding]] (First Author)
+- [[2024-Adelani-Uhura A Benchmark for Evaluating Scientific|Uhura A Benchmark for Evaluating Scientific]]
 
 ## External Links & Profiles
 
@@ -89,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Adelani-Uhura A Benchmark for Evaluating Scientific*: Affiliation: labi2,∗,†, Jonas Kgomo3, Tyna Eloundou4
+- *From 2024-Adelani-Uhura A Benchmark for Evaluating Scientific*: Affiliation: labi2,∗,†, Jonas Kgomo3, Tyna Eloundou4
 - *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional
 - *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional
 - *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional

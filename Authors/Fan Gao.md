@@ -58,7 +58,11 @@ twitter: ""
 
 
 
+
+
 - [[2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced|MMLU-ProX A Multilingual Benchmark for Advanced]]
+- [[2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark|TIB-STC A Large-Scale Structured Tibetan Benchmark]]
+- [[2025-Yu-TLUE A Tibetan Language Understanding Evaluation|TLUE A Tibetan Language Understanding Evaluation]] (First Author)
 
 ## External Links & Profiles
 
@@ -87,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: irene.li@weblab.t.u
+- *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: irene.li@weblab.t.u
 - *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: irene.li@weblab.t.u
 - *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: irene.li@weblab.t.u
 - *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: weihaoxuan@g.ecc.u

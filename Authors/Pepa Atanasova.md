@@ -22,6 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark|bgGLUE: A Bulgarian General Language Understanding Evaluation Benchmark]]
 - [[2020-Zampieri-SemEval-2020 Task 12|SemEval-2020 Task 12]]
 
 ## Notes
@@ -31,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
+- *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu

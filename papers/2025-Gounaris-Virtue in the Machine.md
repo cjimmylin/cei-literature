@@ -15,7 +15,7 @@ short_title: "Virtue in the Machine"
 year: 2025
 first_author: "[[Alkis Gounaris]]"
 last_author: "[[Kolliniati, Maria-Artemis]]"
-authors: "[[Gounaris, Alkis]]; [[Kosteletos, George]]; [[Kolliniati, Maria-Artemis]]"
+authors: "Gounaris, Alkis; Kosteletos, George; Kolliniati, Maria-Artemis"
 doi: N/A
 url: "https://ejournals.epublishing.ekt.gr/index.php/Conatus/article/view/36423"
 pdf_extract: "PDF Extracts/2025/2025-Gounaris-Virtue in the Machine.md"

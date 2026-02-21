@@ -16,7 +16,7 @@ short_title: CharMoral
 year: 2025
 first_author: "[[Suyoung Bae]]"
 last_author: "[[Li, Boyang]]"
-authors: "[[Bae, Suyoung]]; [[Cho, Gunhee]]; [[Cheong, Yun-Gyung]]; [[Li, Boyang]]"
+authors: "Bae, Suyoung; Cho, Gunhee; Cheong, Yun-Gyung; Li, Boyang"
 url: "https://aclanthology.org/2025.coling-main.589/"
 pdf_extract: "PDF Extracts/2025/2025-Bae-CharMoral.md"
 local_pdf: "[[PDFs/2025/2025-Bae-CharMoral.pdf]]"

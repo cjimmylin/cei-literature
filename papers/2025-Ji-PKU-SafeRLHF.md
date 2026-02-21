@@ -16,7 +16,7 @@ short_title: PKU-SafeRLHF
 year: 2025
 first_author: "[[Ji, Jiaming]]"
 last_author: "[[Yang, Yaodong]]"
-authors: "[[Ji, Jiaming]]; [[Hong, Donghai]]; [[Zhang, Borong]]; [[Chen, Boyuan]]; [[Dai, Juntao]]; [[Zheng, Boren]]; [[Qiu, Tianyi]]; [[Zhou, Jiayi]]; [[Wang, Kaile]]; [[Li, Boxuan]]; [[Han, Sirui]]; [[Guo, Yike]]; [[Yang, Yaodong]]"
+authors: "Ji, Jiaming; Hong, Donghai; Zhang, Borong; Chen, Boyuan; Dai, Juntao; Zheng, Boren; Qiu, Tianyi; Zhou, Jiayi; Wang, Kaile; Li, Boxuan; Han, Sirui; Guo, Yike; Yang, Yaodong"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.15513"
 external_pdf: "https://arxiv.org/pdf/2406.15513.pdf"

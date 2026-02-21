@@ -15,7 +15,7 @@ short_title: "LLaMmlein: Transparent, Compact and Competitive German-Only Langua
 year: 2024
 first_author: "[[Jan Pfister]]"
 last_author: "[[Andreas Hotho]]"
-authors: "Jan Pfister, Julia Wunderle, Andreas Hotho"
+authors: Jan Pfister; Julia Wunderle; Andreas Hotho
 url: "https://arxiv.org/abs/2411.11171"
 external_pdf: "https://arxiv.org/pdf/2411.11171.pdf"
 publication: arXiv

@@ -17,7 +17,7 @@ short_title: "MUDT: A Dependency Annotation Framework for Low-Resource Uyghur"
 year: 2025
 first_author: "[[Zuo, Jiaxin]]"
 last_author: "[[Yibulayin, Xiadiya]]"
-authors: "[[Zuo, Jiaxin]]; [[Wang, Yiquan]]; [[Pan, Yuan]]; [[Yibulayin, Xiadiya]]"
+authors: "Zuo, Jiaxin; Wang, Yiquan; Pan, Yuan; Yibulayin, Xiadiya"
 authors_incomplete: false
 url: "https://arxiv.org/pdf/2507.21536"
 external_pdf: "https://arxiv.org/pdf/2507.21536.pdf"

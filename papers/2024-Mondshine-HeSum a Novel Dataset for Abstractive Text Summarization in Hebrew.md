@@ -15,8 +15,8 @@ type: preprint
 short_title: "HeSum: a Novel Dataset for Abstractive Text Summarization in Hebrew"
 year: 2024
 first_author: "[[Itai Mondshine]]"
-last_author: "[[Reut Tsarfaty Asaf Achi Mordechai]]"
-authors: "Itai Mondshine, Tzuf Paz-Argaman, Asaf Achi Mordechai, Reut Tsarfaty"
+last_author: "[[Reut Tsarfaty]]"
+authors: Itai Mondshine; Tzuf Paz-Argaman; Asaf Achi Mordechai; Reut Tsarfaty
 url: "https://arxiv.org/abs/2406.03897"
 external_pdf: "https://arxiv.org/pdf/2406.03897.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew.md"
@@ -51,7 +51,7 @@ CONFERENCE: "ACL 2024"
 
 ## Authors
 
-[[Tzuf Paz-Argaman Itai Mondshine]], [[Reut Tsarfaty Asaf Achi Mordechai]]
+[[Itai Mondshine]], [[Tzuf Paz-Argaman]], [[Asaf Achi Mordechai]], [[Reut Tsarfaty]]
 
 ## Metadata
 

@@ -15,7 +15,7 @@ short_title: "DaCy: A Unified Framework for Danish NLP"
 year: 2021
 first_author: "[[Kenneth C. Enevoldsen]]"
 last_author: "[[Kristoffer Nielbo]]"
-authors: "Kenneth C. Enevoldsen, Lasse Hansen, Kristoffer Nielbo"
+authors: Kenneth C. Enevoldsen; Lasse Hansen; Kristoffer Nielbo
 url: "https://arxiv.org/abs/2107.05295"
 external_pdf: "https://arxiv.org/pdf/2107.05295.pdf"
 publication: arXiv

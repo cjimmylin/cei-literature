@@ -16,7 +16,7 @@ short_title: "Evaluating Aggression Identification in Social"
 year: 2020
 first_author: "[[Ritesh Kumar]]"
 last_author: "[[Zampieri, Marcos]]"
-authors: "[[Kumar, Ritesh]]; [[Ojha, Atul Kr.]]; [[Malmasi, Shervin]]; [[Zampieri, Marcos]]"
+authors: "Kumar, Ritesh; Ojha, Atul Kr.; Malmasi, Shervin; Zampieri, Marcos"
 url: "https://aclanthology.org/2020.trac-1.1/"
 external_pdf: "https://aclanthology.org/2020.trac-1.1.pdf"
 national_ethnic_cultural: "Indian"

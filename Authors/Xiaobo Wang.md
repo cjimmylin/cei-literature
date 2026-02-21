@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zhang-PoliCon|PoliCon]]
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: zwzhang@stu.pku.edu.cn
+- *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: zwzhang@stu.pku.edu.cn
 - *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: kangyipeng@bigai.ai
 - *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: zwzhang@stu.pku.edu.cn
 - *From 2025-Zhang-PoliCon*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: zwzhang@stu.pku.edu.cn

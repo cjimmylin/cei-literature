@@ -14,8 +14,8 @@ type: preprint
 short_title: "QFrCoLA: a Quebec-French Corpus of Linguistic Acceptability Judgments"
 year: 2025
 first_author: "[[David Beauchemin]]"
-last_author: "[[Richard Khoury David Beauchemin]]"
-authors: "David Beauchemin, Richard Khoury"
+last_author: "[[Richard Khoury]]"
+authors: David Beauchemin; Richard Khoury
 url: "https://arxiv.org/abs/2508.16867"
 external_pdf: "https://arxiv.org/pdf/2508.16867.pdf"
 publication: "arXiv / ACL Anthology"
@@ -50,7 +50,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Richard Khoury David Beauchemin]]
+[[David Beauchemin]], [[Richard Khoury]]
 
 ## Metadata
 

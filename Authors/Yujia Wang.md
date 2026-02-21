@@ -1,6 +1,6 @@
 ---
 name: "Yujia Wang"
-affiliation: "University/Organization"
+affiliation: "University of Hong Kong, Shenzhen"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -22,8 +22,15 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
 - [[2023-Lin-ToxicChat|ToxicChat]]
 
 ## Notes
 
+
+
+- *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
+- *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
 [Additional context or contact information]

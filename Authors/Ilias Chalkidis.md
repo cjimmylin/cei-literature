@@ -23,7 +23,10 @@ Postdoctoral Researcher at the University of Copenhagen, Department of Computer 
 
 
 
+
+
 - [[2022-Chalkidis-FairLex|FairLex]] (First Author)
+- [[2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street|GREEK-BERT: The Greeks visiting Sesame Street]]
 
 ## Notes
 
@@ -32,6 +35,10 @@ Postdoctoral Researcher at the University of Copenhagen, Department of Computer 
 
 
 
+
+
+- *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
+- *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 - *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 - *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 - *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk

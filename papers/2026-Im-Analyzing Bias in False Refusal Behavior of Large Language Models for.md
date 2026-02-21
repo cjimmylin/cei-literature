@@ -17,7 +17,7 @@ short_title: "Analyzing Bias in False Refusal Behavior of Large Language Models 
 year: 2026
 first_author: "[[Im, Kyuri]]"
 last_author: "[[Färber, Michael]]"
-authors: "[[Im, Kyuri]]; [[Yuan, Shuzhou]]; [[Färber, Michael]]"
+authors: "Im, Kyuri; Yuan, Shuzhou; Färber, Michael"
 authors_incomplete: false
 url: "https://arxiv.org/html/2601.08668"
 external_pdf: "https://arxiv.org/pdf/2601.08668.pdf"

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical|Moral Judgment of LLM Using Korean Datasets and Eastern Ethical Principles]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical*:, Email: yhshin@inu.ac.kr
+- *From 2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical*:, Email: yhshin@inu.ac.kr
 - *From 2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical*:, Email: yoojuneho0723@inu.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

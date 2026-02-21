@@ -18,7 +18,7 @@ short_title: "IndicGenBench A Multilingual Benchmark to Evaluate"
 year: 2024
 first_author: "[[Singh, Harman]]"
 last_author: "[[Talukdar, Partha]]"
-authors: "[[Singh, Harman]]; [[Gupta, Nitish]]; [[Bharadwaj, Shikhar]]; [[Tewari, Dinesh]]; [[Talukdar, Partha]]"
+authors: "Singh, Harman; Gupta, Nitish; Bharadwaj, Shikhar; Tewari, Dinesh; Talukdar, Partha"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.16816"
 external_pdf: "https://arxiv.org/pdf/2404.16816.pdf"

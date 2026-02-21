@@ -18,8 +18,8 @@ type: journalArticle
 short_title: "Large language models are biased — local initiatives are fighting for change"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: "[[Ph Adnan Masood]]"
-authors: "Adnan Masood, Ph"
+last_author: "[[Ph]]"
+authors: Adnan Masood; Ph
 url: "https://www.nature.com/articles/d41586-025-03891-y"
 publication: Nature
 CONF-CC: "Nature"
@@ -54,7 +54,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Ph Adnan Masood]]
+[[Adnan Masood]], [[Ph]]
 
 ## Metadata
 

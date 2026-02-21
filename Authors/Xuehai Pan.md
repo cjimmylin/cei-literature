@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Dai-Safe RLHF|Safe RLHF]]
 - [[2023-Ji-AI Alignment|AI Alignment]]
 - [[2023-Ji-BeaverTails|BeaverTails]]
@@ -34,6 +36,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
+- *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: cbylll@stu.pku.edu.cn

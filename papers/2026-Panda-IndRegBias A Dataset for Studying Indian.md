@@ -19,7 +19,7 @@ short_title: "IndRegBias A Dataset for Studying Indian"
 year: 2026
 first_author: "[[Debasmita Panda]]"
 last_author: "[[Neelesh Kumar Shukla]]"
-authors: "[[Debasmita Panda]]; [[Akash Anil]]; [[Neelesh Kumar Shukla]]"
+authors: Debasmita Panda; Akash Anil; Neelesh Kumar Shukla
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06477"
 external_pdf: "https://arxiv.org/pdf/2601.06477.pdf"

@@ -16,7 +16,7 @@ short_title: "FarsTail: A Persian Natural Language Inference Dataset"
 year: 2020
 first_author: "[[Amirkhani, Hossein]]"
 last_author: "[[Amirak, Azadeh]]"
-authors: "[[Amirkhani, Hossein]]; [[AzariJafari, Mohammad]]; [[Faridan-Jahromi, Soroush]]; [[Kouhkan, Zeinab]]; [[Pourjafari, Zohreh]]; [[Amirak, Azadeh]]"
+authors: "Amirkhani, Hossein; AzariJafari, Mohammad; Faridan-Jahromi, Soroush; Kouhkan, Zeinab; Pourjafari, Zohreh; Amirak, Azadeh"
 authors_incomplete: false
 doi: 10.1007/s00500-023-08959-3
 url: "https://arxiv.org/abs/2009.08820"
@@ -53,7 +53,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Amirkhani, Hossein]], [[Abdullah Mohammad|AzariJafari, Mohammad]], [[Faridan-Jahromi, Soroush]], [[Kouhkan, Zeinab]], [[Pourjafari, Zohreh]], [[Amirak, Azadeh]]
+[[Amirkhani, Hossein]], [[AzariJafari, Mohammad]], [[Faridan-Jahromi, Soroush]], [[Kouhkan, Zeinab]], [[Pourjafari, Zohreh]], [[Amirak, Azadeh]]
 
 ## Metadata
 

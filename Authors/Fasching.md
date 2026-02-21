@@ -1,7 +1,7 @@
 ---
 name: "Fasching"
 title: "Current Position"
-affiliation: "University/Organization"
+affiliation: "University of Pennsylvania"
 research_interests:
   - "Primary Research Area"
 website: ""
@@ -17,7 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2025-Fasching-Inconsistencies in Hate Speech Detection Across|Inconsistencies in Hate Speech Detection Across]] (First Author)
 
 ## Notes
 
+
+
+- *From 2025-Fasching-Inconsistencies in Hate Speech Detection Across*: Affiliation: University of Pennsylvania
+- *From 2025-Fasching-Inconsistencies in Hate Speech Detection Across*: Affiliation: University of Pennsylvania

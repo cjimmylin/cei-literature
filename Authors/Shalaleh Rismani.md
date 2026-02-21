@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System|Measuring What Matters: Connecting AI Ethics Evaluations to System Attributes, Hazards, and Harms (RAI Measures Dataset)]] (First Author)
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System*: Affiliation: Institute of
+- *From 2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System*: Affiliation: Institute of
 - *From 2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System*: Affiliation: Institute of
 - *From 2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System*: Affiliation: Institute of
 - *From 2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System*: Affiliation: Institute of

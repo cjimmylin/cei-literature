@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language|Expert-Annotated Dataset to Study Cyberbullying in Polish Language]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language*: Affiliation: Laboratory, Kitami Institute of Technology, Kitami 090-8507, Japan, Email: marcin.fortuna@samurailabs.ai
+- *From 2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language*: Affiliation: Laboratory, Kitami Institute of Technology, Kitami 090-8507, Japan, Email: marcin.fortuna@samurailabs.ai
 - *From 2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language*: Affiliation: Laboratory, Kitami Institute of Technology, Kitami 090-8507, Japan, Email: marcin.fortuna@samurailabs.ai
 - *From 2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language*: Affiliation: Laboratory, Kitami Institute of Technology, Kitami 090-8507, Japan, Email: marcin.fortuna@samurailabs.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2012-Jügel-Peculiarities of Avestan Manuscripts for Computational Linguistics|Peculiarities of Avestan Manuscripts for Computational Linguistics]] (First Author)
 
 ## Notes

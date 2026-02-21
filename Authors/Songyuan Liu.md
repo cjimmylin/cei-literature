@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Songyuan Liu-Measuring Spiritual Values and Bias of|Measuring Spiritual Values and Bias of]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Songyuan Liu-Measuring Spiritual Values and Bias of*: Affiliation: Department of Computer Science, Email: j.carlyang@emory.edu
+- *From 2024-Songyuan Liu-Measuring Spiritual Values and Bias of*: Affiliation: Department of Computer Science, Email: j.carlyang@emory.edu
 - *From 2024-Songyuan Liu-Measuring Spiritual Values and Bias of*: Affiliation: Department of Computer Science, Email: wei.wu@emory.edu
 - *From 2024-Songyuan Liu-Measuring Spiritual Values and Bias of*: Affiliation: Department of Computer Science, Email: runze.yan@emory.edu
 - *From 2024-Songyuan Liu-Measuring Spiritual Values and Bias of*: Affiliation: Department of Computer Science, Email: jiaying.lu@emory.edu.

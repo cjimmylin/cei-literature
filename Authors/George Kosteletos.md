@@ -37,6 +37,8 @@ He is a member of the Expert Group on Artificial Intelligence of the National Co
 
 
 
+
+
 - [[2025-Gounaris-Virtue in the Machine|Virtue in the Machine]]
 
 ## External Links
@@ -52,6 +54,10 @@ He is a member of the Expert Group on Artificial Intelligence of the National Co
 
 
 
+
+
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 - *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 - *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 - *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece

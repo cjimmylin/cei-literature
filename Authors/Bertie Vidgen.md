@@ -3,7 +3,7 @@ name: "Bertie Vidgen"
 title: "CEO & Research Fellow"
 affiliation: "Rewire (ActiveFence) & University of Oxford"
 highest_degree: "PhD in Information, Communication and Social Sciences, University of Oxford"
-email: ""
+email: "bertievidgen@gmail.com"
 research_interests:
   - "Online Safety"
   - "Hate Speech Detection"
@@ -51,6 +51,8 @@ He has served as a specialist adviser to the UK Parliament for the Online Safety
 
 
 
+
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]] (First Author)
 - [[2024-Huang-TrustLLM|TrustLLM]]
@@ -60,6 +62,7 @@ He has served as a specialist adviser to the UK Parliament for the Online Safety
 - [[2023-Kirk-SemEval-2023 Task 10|SemEval-2023 Task 10]]
 - [[2022-Röttger-Multilingual HateCheck|Multilingual HateCheck]] (Last Author)
 - [[2021-Röttger-HateCheck|HateCheck]]
+- [[2020-Yasseri-Detecting Weak and Strong Islamophobic Hate|Detecting Weak and Strong Islamophobic Hate]] (First Author)
 
 ## External Links & Profiles
 
@@ -74,6 +77,10 @@ He has served as a specialist adviser to the UK Parliament for the Online Safety
 
 
 
+
+
+- *From 2020-Yasseri-Detecting Weak and Strong Islamophobic Hate*: Affiliation: Institute, University of Oxford, Email: bertievidgen@gmail.com
+- *From 2020-Yasseri-Detecting Weak and Strong Islamophobic Hate*: Affiliation: Institute, University of Oxford, Email: bertievidgen@gmail.com
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford

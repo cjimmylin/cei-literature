@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values"
 year: 2025
 first_author: "[[Lahmar, Abderraouf]]"
-last_author: "[[Mahmud, Mufti]]"
+last_author: "[[Mufti Mahmud]]"
 authors: Abderraouf Lahmar; Md. Easin Arafat; Zakarya Farou; Mufti Mahmud
 authors_incomplete: false
 url: "https://openreview.net/pdf?id=PBcv90iKFB"

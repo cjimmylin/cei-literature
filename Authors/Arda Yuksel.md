@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding|TurkishMMLU Measuring Massive Multitask Language Understanding]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: akoksal@cis.lmu.de
+- *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: akoksal@cis.lmu.de
 - *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: akoksal@cis.lmu.de
 - *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: arda.yueksel@tum.de
 - *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: arda.yueksel@tum.de

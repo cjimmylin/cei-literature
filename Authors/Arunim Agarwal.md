@@ -35,6 +35,8 @@ Arunim's work addresses the critical challenge of ensuring LLMs remain honest an
 
 
 
+
+
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 
 ## Notes
@@ -44,6 +46,10 @@ Arunim's work addresses the critical challenge of ensuring LLMs remain honest an
 
 
 
+
+
+- *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
+- *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI

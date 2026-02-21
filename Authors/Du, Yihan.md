@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Wang-Fake Alignment FINE Framework|Fake Alignment (FINE Framework)]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Wang-Fake Alignment FINE Framework*: Affiliation: lab, and Steinhardt], Email: du@sutd.edu.sg
+- *From 2024-Wang-Fake Alignment FINE Framework*: Affiliation: lab, and Steinhardt], Email: du@sutd.edu.sg
 - *From 2024-Wang-Fake Alignment FINE Framework*: Affiliation: lab, and Steinhardt], Email: skong10@illinois.edu
 - *From 2024-Wang-Fake Alignment FINE Framework*: Affiliation: lab, and Steinhardt], Email: skong10@illinois.edu
 - *From 2024-Wang-Fake Alignment FINE Framework*: Affiliation: lab, and Steinhardt], Email: rsrikant@illinois.edu

@@ -15,9 +15,9 @@ key: EXSR0471
 type: preprint
 short_title: "Cultural Fidelity in Large-Language Models An"
 year: 2024
-first_author: "[[Sharif Kazemi, Gloria Gerhardt, Jonty Katz, Caroline Ida Kuria, Estelle Pan, Umang Prabhakar]]"
-last_author: "[[Umang Prabhakar Estelle Pan]]"
-authors: "[[Sharif Kazemi, Gloria Gerhardt, Jonty Katz, Caroline Ida Kuria, Estelle Pan, Umang Prabhakar]]"
+first_author: "[[Sharif Kazemi]]"
+last_author: "[[Umang Prabhakar]]"
+authors: Sharif Kazemi; Gloria Gerhardt; Jonty Katz; Caroline Ida Kuria; Estelle Pan; Umang Prabhakar
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.10489"
 external_pdf: "https://arxiv.org/pdf/2410.10489.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Gloria Gerhardt Sharif Kazemi]], [[Caroline Ida Kuria Jonty Katz]], [[Umang Prabhakar Estelle Pan]]
+[[Sharif Kazemi]], [[Gloria Gerhardt]], [[Jonty Katz]], [[Caroline Ida Kuria]], [[Estelle Pan]], [[Umang Prabhakar]]
 
 ## Metadata
 

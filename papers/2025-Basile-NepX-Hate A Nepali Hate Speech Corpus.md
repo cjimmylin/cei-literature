@@ -18,7 +18,7 @@ short_title: "NepX-Hate A Nepali Hate Speech Corpus"
 year: 2025
 first_author: "[[Basile, Valerio]]"
 last_author: "[[Goyal, Naman]]"
-authors: "[[Basile, Valerio]]; [[Bosco, Cristina]]; [[Fersini, Elisabetta]]; [[Nozza, Debora]]; [[Patti, Viviana]]; [[Manuel, Francisco]]; [[Pardo, Rangel]]; [[Rosso, Paolo]]; [[Sanguinetti, M.]]; [[Bohra, Aditya]]; [[Vijay, Deepanshu]]; [[Singh, Vinay]]; [[Akhtar, Syed Sar-644 faraz]]; [[Shrivastava, Manish]]; [[Conneau, Alexis]]; [[Khandelwal, Kartikay]]; [[Goyal, Naman]]"
+authors: "Basile, Valerio; Bosco, Cristina; Fersini, Elisabetta; Nozza, Debora; Patti, Viviana; Manuel, Francisco; Pardo, Rangel; Rosso, Paolo; Sanguinetti, M.; Bohra, Aditya; Vijay, Deepanshu; Singh, Vinay; Akhtar, Syed Sar-644 faraz; Shrivastava, Manish; Conneau, Alexis; Khandelwal, Kartikay; Goyal, Naman"
 authors_incomplete: false
 url: "https://openreview.net/forum?id=PChNLEcv3V"
 external_pdf: "https://openreview.net/pdf?id=PChNLEcv3V"
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Valerio Basile|Basile, Valerio]], [[Cristina Bosco|Bosco, Cristina]], [[Elisabetta Fersini|Fersini, Elisabetta]], [[Debora Nozza|Nozza, Debora]], [[Viviana Patti|Patti, Viviana]], [[Manuel, Francisco]], [[Pardo, Rangel]], [[Paolo Rosso|Rosso, Paolo]], [[Sanguinetti, M]], [[Bohra, Aditya]], [[Vijay, Deepanshu]], [[Vinay Singh|Singh, Vinay]], [[Ali Faraz|Akhtar, Syed Sar-644 faraz]], [[Manish Shrivastava|Shrivastava, Manish]], [[Conneau, Alexis]], [[Khandelwal, Kartikay]], [[Goyal, Naman]]
+[[Valerio Basile|Basile, Valerio]], [[Cristina Bosco|Bosco, Cristina]], [[Elisabetta Fersini|Fersini, Elisabetta]], [[Debora Nozza|Nozza, Debora]], [[Viviana Patti|Patti, Viviana]], [[Manuel, Francisco]], [[Pardo, Rangel]], [[Paolo Rosso|Rosso, Paolo]], [[Sanguinetti, M]], [[Bohra, Aditya]], [[Vijay, Deepanshu]], [[Vinay Singh|Singh, Vinay]], [[Akhtar, Syed Sar-644 faraz]], [[Manish Shrivastava|Shrivastava, Manish]], [[Conneau, Alexis]], [[Khandelwal, Kartikay]], [[Goyal, Naman]]
 
 ## Metadata
 

@@ -17,7 +17,7 @@ short_title: "ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus"
 year: 2024
 first_author: "[[Tolúlọpẹ́ Ògúnrẹ̀mí]]"
 last_author: "[[Adelani, David Ifeoluwa]]"
-authors: "[[Ògúnrẹ̀mí, Tolúlọpẹ́]]; [[Túbọ̀sún, Kọ́lá]]; [[Aremu, Anuoluwapo]]; [[Orife, Iroro]]; [[Adelani, David Ifeoluwa]]"
+authors: "Ògúnrẹ̀mí, Tolúlọpẹ́; Túbọ̀sún, Kọ́lá; Aremu, Anuoluwapo; Orife, Iroro; Adelani, David Ifeoluwa"
 url: "https://aclanthology.org/2024.lrec-main.812/"
 external_pdf: "https://arxiv.org/pdf/2307.16071"
 national_ethnic_cultural: "N/A"
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Tolúlọpẹ́ Ògúnrẹ̀mí|Ògúnrẹ̀mí, Tolúlọpẹ́]], [[Kọ́lá Túbọ̀sún|Túbọ̀sún, Kọ́lá]], [[Anuoluwapo Aremu|Aremu, Anuoluwapo]], [[Iroro Orife|Orife, Iroro]], [[David Ifeoluwa Adelani|Adelani, David Ifeoluwa]]
+[[Ògúnrẹ̀mí, Tolúlọpẹ́]], [[Kọ́lá Túbọ̀sún|Túbọ̀sún, Kọ́lá]], [[Anuoluwapo Aremu|Aremu, Anuoluwapo]], [[Iroro Orife|Orife, Iroro]], [[David Ifeoluwa Adelani|Adelani, David Ifeoluwa]]
 
 ## Links
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Miranda-FilBench Can LLMs Understand and Generate Filipino|FilBench: Can LLMs Understand and Generate Filipino?]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Miranda-FilBench Can LLMs Understand and Generate Filipino*: Affiliation: Institute for AI
+- *From 2025-Miranda-FilBench Can LLMs Understand and Generate Filipino*: Affiliation: Institute for AI
 - *From 2025-Miranda-FilBench Can LLMs Understand and Generate Filipino*: Affiliation: Institute for AI
 - *From 2025-Miranda-FilBench Can LLMs Understand and Generate Filipino*: Affiliation: Institute for AI
 - *From 2025-Miranda-FilBench Can LLMs Understand and Generate Filipino*: Affiliation: Institute for AI

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Nikandrou-CROPE Evaluating In-Context Adaptation of Vision and Language Models|CROPE: Evaluating In-Context Adaptation of Vision and Language Models to Culture-Specific Concepts]]
 - [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
+- *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 - *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 - *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 - *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk

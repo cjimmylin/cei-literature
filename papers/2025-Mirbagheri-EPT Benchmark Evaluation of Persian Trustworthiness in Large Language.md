@@ -17,7 +17,7 @@ short_title: "EPT Benchmark: Evaluation of Persian Trustworthiness in Large Lang
 year: 2025
 first_author: "[[Mirbagheri, Mohammad Reza]]"
 last_author: "[[Jalili, Rasool]]"
-authors: "[[Mirbagheri, Mohammad Reza]]; [[Mirkamali, Mohammad Mahdi]]; [[Arani, Zahra Motoshaker]]; [[Javeri, Ali]]; [[Sadeghzadeh, Amir Mahdi]]; [[Jalili, Rasool]]"
+authors: "Mirbagheri, Mohammad Reza; Mirkamali, Mohammad Mahdi; Arani, Zahra Motoshaker; Javeri, Ali; Sadeghzadeh, Amir Mahdi; Jalili, Rasool"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.06838"
 external_pdf: "https://arxiv.org/pdf/2509.06838.pdf"

@@ -16,9 +16,9 @@ key: EXSR0522
 type: preprint
 short_title: "Representing the Under-Represented Cultural and Core"
 year: 2024
-first_author: "[[Sawit Kasuriya, Parinthapat Pengpun, Peerat Limkonchotiwat, Potsawee Manakul, Can Udomcharoenchaikit, Kunat Pipatanakul, Phatrasek Jirabovonvisut, Kanokorn Srimai, Peerachet Porkaew]]"
+first_author: "[[Sawit Kasuriya]]"
 last_author: "[[Peerachet Porkaew]]"
-authors: "[[Sawit Kasuriya, Parinthapat Pengpun, Peerat Limkonchotiwat, Potsawee Manakul, Can Udomcharoenchaikit, Kunat Pipatanakul, Phatrasek Jirabovonvisut, Kanokorn Srimai, Peerachet Porkaew]]"
+authors: Sawit Kasuriya; Parinthapat Pengpun; Peerat Limkonchotiwat; Potsawee Manakul; Can Udomcharoenchaikit; Kunat Pipatanakul; Phatrasek Jirabovonvisut; Kanokorn Srimai; Peerachet Porkaew
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.04795"
 external_pdf: "https://arxiv.org/pdf/2410.04795.pdf"

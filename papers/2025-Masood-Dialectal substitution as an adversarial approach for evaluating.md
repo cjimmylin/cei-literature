@@ -16,8 +16,8 @@ type: journalArticle
 short_title: "Dialectal substitution as an adversarial approach for evaluating Arabic NLP robustness"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: "[[Ph Adnan Masood]]"
-authors: "Adnan Masood, Ph"
+last_author: "[[Ph]]"
+authors: Adnan Masood; Ph
 url: "https://www.nature.com/articles/s41598-026-36252-4"
 external_pdf: "https://www.nature.com/articles/s41598-026-36252-4_reference.pdf"
 publication: Nature
@@ -52,7 +52,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Ph Adnan Masood]]
+[[Adnan Masood]], [[Ph]]
 
 ## Metadata
 

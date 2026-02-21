@@ -16,7 +16,7 @@ short_title: "MERA: A Comprehensive LLM Evaluation in Russian"
 year: 2024
 first_author: "[[Alena Fenogenova]]"
 last_author: "[[Markov, Sergey]]"
-authors: "[[Fenogenova, Alena]]; [[Chervyakov, Artem]]; [[Martynov, Nikita]]; [[Kozlova, Anastasia]]; [[Tikhonova, Maria]]; [[Akhmetgareeva, Albina]]; [[Emelyanov, Anton]]; [[Shevelev, Denis]]; [[Lebedev, Pavel]]; [[Sinev, Leonid]]; [[Isaeva, Ulyana]]; [[Kolomeytseva, Katerina]]; [[Moskovskiy, Daniil]]; [[Goncharova, Elizaveta]]; [[Savushkin, Nikita]]; [[Mikhailova, Polina]]; [[Minaeva, Anastasia]]; [[Dimitrov, Denis]]; [[Panchenko, Alexander]]; [[Markov, Sergey]]"
+authors: "Fenogenova, Alena; Chervyakov, Artem; Martynov, Nikita; Kozlova, Anastasia; Tikhonova, Maria; Akhmetgareeva, Albina; Emelyanov, Anton; Shevelev, Denis; Lebedev, Pavel; Sinev, Leonid; Isaeva, Ulyana; Kolomeytseva, Katerina; Moskovskiy, Daniil; Goncharova, Elizaveta; Savushkin, Nikita; Mikhailova, Polina; Minaeva, Anastasia; Dimitrov, Denis; Panchenko, Alexander; Markov, Sergey"
 url: "https://aclanthology.org/2024.acl-long.534/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6ESQLWPZ/2024 - MERA A Comprehensive LLM Evaluation in Russian.pdf"
 national_ethnic_cultural: "Russian"

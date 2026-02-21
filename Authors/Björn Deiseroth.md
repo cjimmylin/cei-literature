@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models|Speaking Multiple Languages Affects the Moral Bias of Language Models]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models*: Affiliation: Center for Information and Language Processing, LMU Munich, Germany
+- *From 2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models*: Affiliation: Center for Information and Language Processing, LMU Munich, Germany
 - *From 2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models*: Affiliation: Center for Information and Language Processing, LMU Munich, Germany
 - *From 2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models*: Affiliation: Center for Information and Language Processing, LMU Munich, Germany
 - *From 2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models*: Affiliation: Center for Information and Language Processing, LMU Munich, Germany

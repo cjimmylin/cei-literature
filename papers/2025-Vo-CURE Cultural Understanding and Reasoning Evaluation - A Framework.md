@@ -15,7 +15,7 @@ type: preprint
 short_title: "CURE: Cultural Understanding and Reasoning Evaluation - A Framework for Thick Culture Alignment Evaluation in LLMs"
 year: 2025
 first_author: "[[Vo, Truong]]"
-last_author: "[[Koyejo, Sanmi]]"
+last_author: "[[Sanmi Koyejo]]"
 authors: Truong Vo; Sanmi Koyejo
 url: "https://arxiv.org/abs/2511.12014"
 external_pdf: "https://arxiv.org/pdf/2511.12014.pdf"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Unknown (CURE authors)]]
+[[Truong Vo]], [[Sanmi Koyejo]]
 
 ## Metadata
 

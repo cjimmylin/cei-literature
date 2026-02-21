@@ -18,7 +18,7 @@ short_title: "MILU A Multi-task Indic Language Understanding"
 year: 2025
 first_author: "[[Verma, Sshubam]]"
 last_author: "[[Sen, Jaydeep]]"
-authors: "[[Verma, Sshubam]]; [[Khan, Mohammed Safi Ur Rahman]]; [[Kumar, Vishwajeet]]; [[Murthy, Rudra]]; [[Sen, Jaydeep]]"
+authors: "Verma, Sshubam; Khan, Mohammed Safi Ur Rahman; Kumar, Vishwajeet; Murthy, Rudra; Sen, Jaydeep"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.naacl-long.507/"
 external_pdf: "https://arxiv.org/pdf/2411.02538.pdf"

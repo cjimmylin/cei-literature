@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Aji-Multilingual Multicultural Evaluation Workshop|Multilingual Multicultural Evaluation Workshop]]
 - [[2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...|BenchMAX: A Comprehensive Multilingual Evaluation ...]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...*: Affiliation: Laboratory for Novel Software Technology, Nanjing University, Email: heconghui@pjlab.org.cn
+- *From 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...*: Affiliation: Laboratory for Novel Software Technology, Nanjing University, Email: heconghui@pjlab.org.cn
 - *From 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...*: Affiliation: Laboratory for Novel Software Technology, Nanjing University, Email: huangsj@nju.edu.cn
 - *From 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...*: Affiliation: Laboratory for Novel Software Technology, Nanjing University, Email: huangsj@nju.edu.cn
 - *From 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...*: Affiliation: Laboratory for Novel Software Technology, Nanjing University, Email: heconghui@pjlab.org.cn

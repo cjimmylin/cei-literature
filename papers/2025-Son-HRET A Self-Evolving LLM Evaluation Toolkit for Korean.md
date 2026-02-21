@@ -16,8 +16,8 @@ type: preprint
 short_title: "HRET: A Self-Evolving LLM Evaluation Toolkit for Korean"
 year: 2025
 first_author: "[[Guijin Son]]"
-last_author: "[[Jihyung Moon Huiseo Kim]]"
-authors: "Guijin Son, Hyunwoo Ko, Hanwool Lee, Suwan Kim, Huiseo Kim, Jihyung Moon"
+last_author: "[[Jihyung Moon]]"
+authors: Guijin Son; Hyunwoo Ko; Hanwool Lee; Suwan Kim; Huiseo Kim; Jihyung Moon
 url: "https://arxiv.org/abs/2503.22968"
 external_pdf: "https://arxiv.org/pdf/2503.22968.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Hyunwoo Ko Guijin Son]], [[Suwan Kim Hanwool Lee]], [[Jihyung Moon Huiseo Kim]]
+[[Guijin Son]], [[Hyunwoo Ko]], [[Hanwool Lee]], [[Suwan Kim]], [[Huiseo Kim]], [[Jihyung Moon]]
 
 ## Metadata
 

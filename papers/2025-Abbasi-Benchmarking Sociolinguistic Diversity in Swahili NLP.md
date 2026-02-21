@@ -15,9 +15,9 @@ key: EXSR0332
 type: preprint
 short_title: "Benchmarking Sociolinguistic Diversity in Swahili NLP"
 year: 2025
-first_author: "[[Kezia Oketch, John P. Lalor, Ahmed Abbasi]]"
+first_author: "[[Kezia Oketch]]"
 last_author: "[[Ahmed Abbasi]]"
-authors: "[[Kezia Oketch, John P. Lalor, Ahmed Abbasi]]"
+authors: Kezia Oketch; John P. Lalor; Ahmed Abbasi
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.14051"
 external_pdf: "https://arxiv.org/pdf/2508.14051.pdf"

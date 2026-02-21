@@ -18,7 +18,7 @@ short_title: "Results of the PolEval 2019 Shared Task 6: First Dataset and Open 
 year: 2019
 first_author: "[[Michal Ptaszynski]]"
 last_author: "[[Pawel Dybala]]"
-authors: "Michal Ptaszynski, Agata Pieciukiewicz, Pawel Dybala"
+authors: Michal Ptaszynski; Agata Pieciukiewicz; Pawel Dybala
 url: "https://github.com/ptaszynski/cyberbullying-Polish"
 publication: "PolEval 2019 Workshop"
 CONF-CC: "Workshop (2019)"

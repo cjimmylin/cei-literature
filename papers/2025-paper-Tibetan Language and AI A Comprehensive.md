@@ -18,7 +18,7 @@ short_title: "Tibetan Language and AI A Comprehensive"
 year: 2025
 first_author: "[[paper), (Multiple authors -- survey]]"
 last_author: "[[(Multiple authors -- survey paper)]]"
-authors: "[[(Multiple authors -- survey paper)]]"
+authors: (Multiple authors -- survey paper)
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.19144"
 external_pdf: "https://arxiv.org/pdf/2510.19144.pdf"

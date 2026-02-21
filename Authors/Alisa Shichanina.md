@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused|CRAFT: Cultural Russian-Oriented Dataset Adaptation for Focused Text-to-Image Generation]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu
+- *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu
 - *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu
 - *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu
 - *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu

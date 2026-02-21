@@ -16,9 +16,9 @@ key: EXSR0311
 type: preprint
 short_title: "Targum A Multilingual New Testament Translation"
 year: 2026
-first_author: "[[Maciej Rapacz, Aleksander Smywinski-Pohl]]"
-last_author: "[[Aleksander Smywinski-Pohl Maciej Rapacz]]"
-authors: "[[Maciej Rapacz, Aleksander Smywinski-Pohl]]"
+first_author: "[[Maciej Rapacz]]"
+last_author: "[[Aleksander Smywinski-Pohl]]"
+authors: Maciej Rapacz; Aleksander Smywinski-Pohl
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.09724"
 external_pdf: "https://arxiv.org/pdf/2602.09724.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Aleksander Smywinski-Pohl Maciej Rapacz]]
+[[Maciej Rapacz]], [[Aleksander Smywinski-Pohl]]
 
 ## Metadata
 

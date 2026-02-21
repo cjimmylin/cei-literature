@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Heredia-Conditioning LLMs to Generate Code-Switched Text|Conditioning LLMs to Generate Code-Switched Text]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Heredia-Conditioning LLMs to Generate Code-Switched Text*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
+- *From 2025-Heredia-Conditioning LLMs to Generate Code-Switched Text*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2025-Heredia-Conditioning LLMs to Generate Code-Switched Text*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2025-Heredia-Conditioning LLMs to Generate Code-Switched Text*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2025-Heredia-Conditioning LLMs to Generate Code-Switched Text*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU

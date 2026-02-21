@@ -15,9 +15,9 @@ key: ARXIV_2510_03892
 type: preprint
 short_title: "Kantian-Utilitarian XAI"
 year: 2025
-first_author: "[[Zahra Atf]]"
-last_author: "[[Peter R. Lewis]]"
-authors: "[[Atf, Zahra]], [[Lewis, Peter R.]]"
+first_author: "[[Atf]]"
+last_author: "[[Railton, Peter]]"
+authors: Atf; Zahra; Lewis; Railton, Peter
 doi: 10.48550/arXiv.2510.03892
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2510.03892"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Zahra Atf]], [[Peter R. Lewis]]
+[[Atf]], [[Zahra]], [[Lewis]], [[Railton, Peter]]
 
 ## Links
 

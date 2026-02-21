@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Shomik Jain|Sulbha Jain]]
+[[Sulbha Jain]]
 
 ## Metadata
 

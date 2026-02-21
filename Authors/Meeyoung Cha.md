@@ -22,8 +22,11 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Kim-How Do Moral Emotions Shape Political|How Do Moral Emotions Shape Political]]
 - [[2023-Kim-KOME|KOME]]
+- [[2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large|KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application]]
 - [[2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable|SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration]]
 
 ## Notes
@@ -33,6 +36,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
+- *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr

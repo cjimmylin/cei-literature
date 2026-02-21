@@ -14,9 +14,9 @@ key: AUTO_AINA2025
 type: bookSection
 short_title: "Virtue Ethics by Design"
 year: 2025
-first_author: "[[Adeyemi Aina]]"
-last_author: "[[Adeyemi Aina]]"
-authors: "[[Aina, Adeyemi]]"
+first_author: "[[Aina]]"
+last_author: "[[Adeyemi]]"
+authors: Aina; Adeyemi
 doi: 10.1007/978-3-031-99965-9_36
 url: "https://www.researchgate.net/publication/387431326_Virtue_Ethics_by_Design_Embedding_Morality_into_AGI_and_ASI"
 national_ethnic_cultural: N/A
@@ -50,7 +50,7 @@ CONFERENCE: "Unknown"
 
 ## Authors
 
-[[Adeyemi Aina]]
+[[Aina]], [[Adeyemi]]
 
 ## Links
 

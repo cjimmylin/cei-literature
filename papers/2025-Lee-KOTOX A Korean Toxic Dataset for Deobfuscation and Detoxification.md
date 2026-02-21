@@ -17,8 +17,8 @@ type: preprint
 short_title: "KOTOX: A Korean Toxic Dataset for Deobfuscation and Detoxification"
 year: 2025
 first_author: "[[Yejin Lee]]"
-last_author: "[[Yo-Sub Han Yeonsoo Kim]]"
-authors: "Yejin Lee, Su-Hyeon Kim, Hyundong Jin, Dayoung Kim, Yeonsoo Kim, Yo-Sub Han"
+last_author: "[[Yo-Sub Han]]"
+authors: Yejin Lee; Su-Hyeon Kim; Hyundong Jin; Dayoung Kim; Yeonsoo Kim; Yo-Sub Han
 url: "https://arxiv.org/abs/2510.10961"
 external_pdf: "https://arxiv.org/pdf/2510.10961.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.md"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Su-Hyeon Kim Yejin Lee]], [[Dayoung Kim Hyundong Jin]], [[Yo-Sub Han Yeonsoo Kim]]
+[[Yejin Lee]], [[Su-Hyeon Kim]], [[Hyundong Jin]], [[Dayoung Kim]], [[Yeonsoo Kim]], [[Yo-Sub Han]]
 
 ## Metadata
 

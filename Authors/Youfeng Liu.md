@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Li-LegalAgentBench|LegalAgentBench]]
 - [[2025-Qi-AGENTIF|AGENTIF]]
 
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
+- *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
 - *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
 - *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
 - *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn

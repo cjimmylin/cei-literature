@@ -15,10 +15,10 @@ key: LSRC0150
 type: conferencePaper
 short_title: "Persian Offensive Language Detection (Dehghani et al.)"
 year: 2023
-first_author: "[[Dehghani]]"
-last_author: "[[Dehghani]]"
-authors: "[[Dehghani]]"
-authors_incomplete: true
+first_author: "[[Kebriaei, Emad]]"
+last_author: "[[Yaghoobzadeh, Yadollah]]"
+authors: "Kebriaei, Emad; Homayouni, Ali; Faraji, Roghayeh; Razavi, Armita; Shakery, Azadeh; Faili, Heshaam; Yaghoobzadeh, Yadollah"
+authors_incomplete: false
 doi: 10.1007/s10994-023-06370-5
 url: "https://link.springer.com/article/10.1007/s10994-023-06370-5"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10994-023-06370-5.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Dehghani]]
+[[Kebriaei, Emad]], [[Homayouni, Ali]], [[Faraji, Roghayeh]], [[Razavi, Armita]], [[Shakery, Azadeh]], [[Faili, Heshaam]], [[Yaghoobzadeh, Yadollah]]
 
 ## Metadata
 

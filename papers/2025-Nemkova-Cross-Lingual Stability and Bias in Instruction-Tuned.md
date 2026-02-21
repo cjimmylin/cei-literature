@@ -20,7 +20,7 @@ short_title: "Cross-Lingual Stability and Bias in Instruction-Tuned"
 year: 2025
 first_author: "[[Poli Nemkova]]"
 last_author: "[[Mark V. Albert]]"
-authors: "[[Poli Nemkova]]; [[Amrit Adhikari]]; [[Matthew Pearson]]; [[Vamsi Krishna Sadu]]; [[Mark V. Albert]]"
+authors: Poli Nemkova; Amrit Adhikari; Matthew Pearson; Vamsi Krishna Sadu; Mark V. Albert
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.22823"
 external_pdf: "https://arxiv.org/pdf/2510.22823.pdf"

@@ -18,8 +18,8 @@ type: conferencePaper
 short_title: "Benchmarking Whisper for Low-Resource Speech Recognition: An N-Shot Evaluation on Pashto, Punjabi, and Urdu"
 year: 2025
 first_author: "[[Najm Ul Sehar]]"
-last_author: "[[Sarmad Hussain Farah Adeeba]]"
-authors: "Najm Ul Sehar, Ayesha Khalid, Farah Adeeba, Sarmad Hussain"
+last_author: "[[Sarmad Hussain]]"
+authors: Najm Ul Sehar; Ayesha Khalid; Farah Adeeba; Sarmad Hussain
 url: "https://aclanthology.org/2025.chipsal-1.20/"
 external_pdf: "https://aclanthology.org/2025.chipsal-1.20.pdf"
 publication: "CHiPSAL 2025 Workshop (ACL)"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Ayesha Khalid Najm Ul Sehar]], [[Sarmad Hussain Farah Adeeba]]
+[[Najm Ul Sehar]], [[Ayesha Khalid]], [[Farah Adeeba]], [[Sarmad Hussain]]
 
 ## Metadata
 

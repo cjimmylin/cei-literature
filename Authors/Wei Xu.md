@@ -22,7 +22,11 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness|CARE -- Multilingual Human Preference Learning for Cultural Awareness]] (Last Author)
+- [[2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages|Camellia: Benchmarking Cultural Biases in LLMs for Asian Languages]] (Last Author)
+- [[2025-Naous-On The Origin of Cultural Biases in Language Models From Pre-training|On The Origin of Cultural Biases in Language Models: From Pre-training Data to Linguistic Phenomena]] (Last Author)
 - [[2024-Xu-Course-Correction|Course-Correction]]
 
 ## Notes
@@ -32,6 +36,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University

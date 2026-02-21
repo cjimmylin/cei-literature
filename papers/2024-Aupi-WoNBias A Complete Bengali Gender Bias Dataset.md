@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "WoNBias: A Complete Bengali Gender Bias Dataset"
 year: 2024
 first_author: "[[Aupi, Md. Raisul Islam]]"
-last_author: "[[Rahman, Naimur]]"
+last_author: "[[Naimur Rahman]]"
 authors: Md. Raisul Islam Aupi; Nishat Tafannum; Md. Shahidur Rahman; Kh Mahmudul Hassan; Naimur Rahman
 authors_incomplete: false
 url: "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset"

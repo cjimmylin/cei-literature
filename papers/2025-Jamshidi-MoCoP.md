@@ -17,7 +17,7 @@ short_title: MoCoP
 year: 2025
 first_author: "[[Saeid Jamshidi]]"
 last_author: "[[Foutse Khomh]]"
-authors: "[[Saeid Jamshidi]]; [[Kawser Wazed Nafi]]; [[Arghavan Moradi Dakhel]]; [[Negar Shahabi]]; [[Foutse Khomh]]"
+authors: Saeid Jamshidi; Kawser Wazed Nafi; Arghavan Moradi Dakhel; Negar Shahabi; Foutse Khomh
 doi: 10.48550/arXiv.2512.03026
 url: "https://arxiv.org/abs/2512.03026"
 external_pdf: "https://arxiv.org/pdf/2512.03026.pdf"

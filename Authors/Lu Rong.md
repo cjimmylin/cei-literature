@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs|Edu-Values -- Evaluating Chinese Education Values of LLMs]]
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: ronglu@tju.edu.cn
+- *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: ronglu@tju.edu.cn
 - *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: harry.qin@polyu.edu.hk
 - *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: yzhou_zhang@tju.edu.cn
 - *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: ronglu@tju.edu.cn

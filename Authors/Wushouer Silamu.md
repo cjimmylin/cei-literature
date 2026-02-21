@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based|On Culture Transmission in Chinese-English Literary Translation—Based on Weicheng's English Version]] (First Author)
 - [[2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary|Wang, L. and Wang, X. (2020). How to evaluate literary]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary*: Affiliation: University of Science and Technology
+- *From 2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary*: Affiliation: University of Science and Technology
 - *From 2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary*: Affiliation: University of Science and Technology
 - *From 2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary*: Affiliation: University of Science and Technology
 - *From 2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary*: Affiliation: University of Science and Technology

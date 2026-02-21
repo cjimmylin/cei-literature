@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Qi-A Survey of Automatic Hallucination Evaluation on|A Survey of Automatic Hallucination Evaluation on]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Qi-A Survey of Automatic Hallucination Evaluation on*: Affiliation: College London, Email: lin.1.gui@kcl.ac.uk
+- *From 2025-Qi-A Survey of Automatic Hallucination Evaluation on*: Affiliation: College London, Email: lin.1.gui@kcl.ac.uk
 - *From 2025-Qi-A Survey of Automatic Hallucination Evaluation on*: Affiliation: College London, Email: lin.1.gui@kcl.ac.uk
 - *From 2025-Qi-A Survey of Automatic Hallucination Evaluation on*: Affiliation: College London, Email: lin.1.gui@kcl.ac.uk
 - *From 2025-Qi-A Survey of Automatic Hallucination Evaluation on*: Affiliation: College London, Email: zheng.yuan1@sheffield.ac.uk

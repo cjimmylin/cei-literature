@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset|BanHate: An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset*: Affiliation: University of Engineering and Technology
+- *From 2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset*: Affiliation: University of Engineering and Technology
 - *From 2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset*: Affiliation: University of Engineering and Technology
 - *From 2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset*: Affiliation: University of Engineering and Technology
 - *From 2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset*: Affiliation: University of Engineering and Technology

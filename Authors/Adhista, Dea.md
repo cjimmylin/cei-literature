@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study|Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study*: Affiliation: lable at https:, Email: alice.oh@kaist.edu
+- *From 2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study*: Affiliation: lable at https:, Email: alice.oh@kaist.edu
 - *From 2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study*: Affiliation: lable at https:, Email: deadhista@gmail.com
 - *From 2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study*: Affiliation: lable at https:, Email: deadhista@gmail.com
 - *From 2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study*: Affiliation: lable at https:, Email: alice.oh@kaist.edu

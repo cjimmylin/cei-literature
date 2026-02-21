@@ -16,7 +16,7 @@ short_title: "Benchmarking LLM Guardrails in Handling Multilingual Toxicity"
 year: 2024
 first_author: "[[Yiran Yang]]"
 last_author: "[[Robert Monarch]]"
-authors: "Yiran Yang, Zeerak Talat, Robert Monarch"
+authors: Yiran Yang; Zeerak Talat; Robert Monarch
 url: "https://arxiv.org/abs/2410.22153"
 external_pdf: "https://arxiv.org/pdf/2410.22153.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md"

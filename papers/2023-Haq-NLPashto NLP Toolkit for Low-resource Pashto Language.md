@@ -17,7 +17,7 @@ short_title: "NLPashto: NLP Toolkit for Low-resource Pashto Language"
 year: 2023
 first_author: "[[Haq, Ijazul]]"
 last_author: "[[Tang, Peng]]"
-authors: "[[Haq, Ijazul]]; [[Qiu, Weidong]]; [[Guo, Jie]]; [[Tang, Peng]]"
+authors: "Haq, Ijazul; Qiu, Weidong; Guo, Jie; Tang, Peng"
 authors_incomplete: false
 url: "https://github.com/dr-ijaz/nlpashto"
 external_pdf: "http://thesai.org/Downloads/Volume14No6/Paper_142-NLPashto_NLP_Toolkit_for_Low_resource_Pashto_Language.pdf"

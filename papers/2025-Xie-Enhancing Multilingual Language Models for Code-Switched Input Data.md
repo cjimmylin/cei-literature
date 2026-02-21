@@ -16,7 +16,7 @@ short_title: "Enhancing Multilingual Language Models for Code-Switched Input Dat
 year: 2025
 first_author: "[[Xie, Katherine]]"
 last_author: "[[Turura, Yoanna]]"
-authors: "[[Xie, Katherine]]; [[Babbar, Nitya]]; [[Chen, Vicky]]; [[Turura, Yoanna]]"
+authors: "Xie, Katherine; Babbar, Nitya; Chen, Vicky; Turura, Yoanna"
 authors_incomplete: false
 url: "https://arxiv.org/html/2503.07990v1"
 external_pdf: "https://arxiv.org/pdf/2503.07990.pdf"

@@ -16,7 +16,7 @@ short_title: "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark
 year: 2024
 first_author: "[[Cao, Jiahuan]]"
 last_author: "[[Jin, Lianwen]]"
-authors: "[[Cao, Jiahuan]]; [[Shi, Yongxin]]; [[Peng, Dezhi]]; [[Liu, Yang]]; [[Jin, Lianwen]]"
+authors: "Cao, Jiahuan; Shi, Yongxin; Peng, Dezhi; Liu, Yang; Jin, Lianwen"
 authors_incomplete: false
 url: "https://arxiv.org/html/2405.17732v1"
 external_pdf: "https://arxiv.org/pdf/2405.17732.pdf"

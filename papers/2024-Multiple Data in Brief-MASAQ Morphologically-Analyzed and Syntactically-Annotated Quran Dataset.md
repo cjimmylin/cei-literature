@@ -18,9 +18,9 @@ key: EXSR0507
 type: preprint
 short_title: "MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset"
 year: 2024
-first_author: "[[Multiple (Data in Brief, 2024)]]"
+first_author: "[[Multiple (Data in Brief]]"
 last_author: "[[2024)]]"
-authors: "[[Multiple (Data in Brief, 2024)]]"
+authors: Multiple (Data in Brief; 2024)
 authors_incomplete: false
 url: 
 external_pdf: 

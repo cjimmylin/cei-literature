@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary]]
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
 - [[2022-Bang-Enabling Classifiers to Make Judgements|Enabling Classifiers to Make Judgements]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Bang-Enabling Classifiers to Make Judgements*: Affiliation: University of Science and Technology
+- *From 2022-Bang-Enabling Classifiers to Make Judgements*: Affiliation: University of Science and Technology
 - *From 2022-Bang-Enabling Classifiers to Make Judgements*: Affiliation: University of Science and Technology
 - *From 2022-Bang-Enabling Classifiers to Make Judgements*: Affiliation: University of Science and Technology
 - *From 2022-Bang-Enabling Classifiers to Make Judgements*: Affiliation: University of Science and Technology

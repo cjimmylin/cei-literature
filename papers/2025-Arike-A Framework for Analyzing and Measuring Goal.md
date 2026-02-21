@@ -70,7 +70,7 @@ As language models (LMs) are increasingly deployed as autonomous agents, their r
 
 ## Authors
 
-[[Rauno Arike]], [[Eric Donoway|Elizabeth Donoway]], [[Henning Bartsch]], [[Martin Hobbhahn|Marius Hobbhahn]]
+[[Rauno Arike]], [[Elizabeth Donoway]], [[Henning Bartsch]], [[Marius Hobbhahn]]
 
 ## Data Description
 

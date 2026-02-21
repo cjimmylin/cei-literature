@@ -16,7 +16,7 @@ short_title: "Techno-animism in Japan: Shinto Cosmograms, Actor-Network Theory, 
 year: 2013
 first_author: "[[Casper Bruun Jensen]]"
 last_author: "[[Anders Blok]]"
-authors: Casper Bruun Jensen, Anders Blok
+authors: Casper Bruun Jensen; Anders Blok
 doi: 10.1177/0263276412456564
 url: "https://journals.sagepub.com/doi/abs/10.1177/0263276412456564"
 publication: "SAGE Journals / Theory, Culture & Society"
@@ -51,7 +51,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Casper Bruun Jensen, Anders Blok]]
+[[Casper Bruun Jensen]], [[Anders Blok]]
 
 ## Metadata
 

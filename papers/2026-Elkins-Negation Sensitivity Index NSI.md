@@ -16,9 +16,9 @@ key: EXSR0263
 type: preprint
 short_title: "Negation Sensitivity Index (NSI)"
 year: 2026
-first_author: "[[K. & Chun Elkins]]"
-last_author: "[[J.]]"
-authors: "Elkins, K. & Chun, J."
+first_author: "[[K. Elkins]]"
+last_author: "[[J. Chun]]"
+authors: "K. Elkins; J. Chun"
 url: "https://arxiv.org/abs/2601.21433"
 external_pdf: "https://arxiv.org/pdf/2601.21433.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Elkins-Negation Sensitivity Index NSI.md"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Elkins]], [[K. & Chun]], [[J.]]
+[[Elkins]], [[K. & Chun]], [[Johnstun, J.|J.]]
 
 ## Metadata
 

@@ -46,6 +46,8 @@ Changsheng (Mike) Zhao is a Staff Research Scientist at Meta AI, where he focuse
 
 
 
+
+
 - [[2024-Zhuge-Agent-as-a-Judge|Agent-as-a-Judge]]
 
 ## External Links & Profiles
@@ -62,6 +64,10 @@ Changsheng (Mike) Zhao is a Staff Research Scientist at Meta AI, where he focuse
 
 
 
+
+
+- *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: cszhao@meta.com
+- *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: cszhao@meta.com
 - *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
 - *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
 - *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa

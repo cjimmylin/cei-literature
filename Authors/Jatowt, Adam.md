@@ -3,7 +3,7 @@ name: "Jatowt, Adam"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "adam.jatowt@uibk.ac.at"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -58,9 +58,9 @@ twitter: ""
 
 
 
-- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+
+
 - [[2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting|Exploring NLP Benchmarks in an Extremely Low-Resource Setting]] (Last Author)
-- [[2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for|BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism]]
 
 ## External Links & Profiles
 
@@ -89,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting*: Affiliation: University of Innsbruck, Email: adam.jatowt@uibk.ac.at
+- *From 2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting*: Affiliation: University of Innsbruck, Email: adam.jatowt@uibk.ac.at
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

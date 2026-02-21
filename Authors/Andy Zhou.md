@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Zeng-AIR-Bench 2024*: Affiliation: University of California, Los Angeles
+- *From 2024-Zeng-AIR-Bench 2024*: Affiliation: University of California, Los Angeles
 - *From 2024-Zeng-AIR-Bench 2024*: Affiliation: University of California, Los Angeles
 - *From 2024-Zeng-AIR-Bench 2024*: Affiliation: University of California, Los Angeles
 - *From 2024-Zeng-AIR-Bench 2024*: Affiliation: University of California, Los Angeles

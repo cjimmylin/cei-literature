@@ -36,6 +36,8 @@ Abteen's work centers on the AmericasNLI project, which benchmarks the zero-shot
 
 
 
+
+
 - [[2024-Mager-Proceedings of the 4th Workshop on Natural Language Processing for|Proceedings of the 4th Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP 2024)]]
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
 
@@ -54,6 +56,10 @@ Abteen's work centers on the AmericasNLI project, which benchmarks the zero-shot
 
 
 
+
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder

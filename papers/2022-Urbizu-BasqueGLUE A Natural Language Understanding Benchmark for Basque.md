@@ -15,7 +15,7 @@ short_title: "BasqueGLUE: A Natural Language Understanding Benchmark for Basque"
 year: 2022
 first_author: "[[Gorka Urbizu]]"
 last_author: "[[Aitor Soroa]]"
-authors: "Gorka Urbizu, Iñaki San Vicente, Xabier Saralegi, Rodrigo Agerri, Aitor Soroa"
+authors: Gorka Urbizu; Iñaki San Vicente; Xabier Saralegi; Rodrigo Agerri; Aitor Soroa
 url: "https://aclanthology.org/2022.lrec-1.172/"
 external_pdf: "https://arxiv.org/pdf/2512.03903.pdf"
 publication: "ACL Anthology (LREC 2022)"

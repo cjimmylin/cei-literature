@@ -17,9 +17,9 @@ key: EXSR0371
 type: preprint
 short_title: "Fuxi A Benchmark for Evaluating Language"
 year: 2025
-first_author: "[[Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan]]"
+first_author: "[[Shangqing Zhao]]"
 last_author: "[[Man Lan]]"
-authors: "[[Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan]]"
+authors: Shangqing Zhao; Yuhao Zhou; Yupei Ren; Zhe Chen; Chenghao Jia; Fang Zhe; Zhaogaung Long; Shu Liu; Man Lan
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.15837"
 external_pdf: "https://arxiv.org/pdf/2503.15837.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Shangqing Zhao]], [[Yuhao Zhou]], [[Yuanyi Ren|Yupei Ren]], [[Zhe Chen]], [[Chenghao Jia]], [[Fang Zhe]], [[Zhaogaung Long]], [[Shu Liu]], [[Man Lan]]
+[[Shangqing Zhao]], [[Yuhao Zhou]], [[Yupei Ren]], [[Zhe Chen]], [[Chenghao Jia]], [[Fang Zhe]], [[Zhaogaung Long]], [[Shu Liu]], [[Man Lan]]
 
 ## Metadata
 

@@ -18,7 +18,7 @@ short_title: "Normative Moral Pluralism for AI"
 year: 2025
 first_author: "[[David-Doron Yaacov]]"
 last_author: "[[David-Doron Yaacov]]"
-authors: "[[David-Doron Yaacov]]"
+authors: David-Doron Yaacov
 doi: 10.48550/arXiv.2508.08333
 url: "https://arxiv.org/abs/2508.08333"
 external_pdf: "https://arxiv.org/pdf/2508.08333.pdf"

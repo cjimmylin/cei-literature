@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Hayes-Virtue and Narrative in AI Practices|Virtue and Narrative in AI Practices]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Hayes-Virtue and Narrative in AI Practices*: Affiliation: Lab+, SFI ADAPT Research, Email: Noel.fitzpatrick@tudublin.ie
+- *From 2024-Hayes-Virtue and Narrative in AI Practices*: Affiliation: Lab+, SFI ADAPT Research, Email: Noel.fitzpatrick@tudublin.ie
 - *From 2024-Hayes-Virtue and Narrative in AI Practices*: Affiliation: Lab+, SFI ADAPT Research, Email: Noel.fitzpatrick@tudublin.ie
 - *From 2024-Hayes-Virtue and Narrative in AI Practices*: Affiliation: Lab+, SFI ADAPT Research, Email: Noel.fitzpatrick@tudublin.ie
 - *From 2024-Hayes-Virtue and Narrative in AI Practices*: Affiliation: Lab+, SFI ADAPT Research, Email: Noel.fitzpatrick@tudublin.ie

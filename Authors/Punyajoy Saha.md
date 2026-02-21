@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2022-Das-Hate Speech and Offensive Language Detection|Hate Speech and Offensive Language Detection]]
 - [[2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection|HateCheckHIn Evaluating Hindi Hate Speech Detection]]
 - [[2020-Mathew-HateXplain|HateXplain]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: pawang@cse.iitkgp.ac.in
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: pawang@cse.iitkgp.ac.in
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: biemann@informatik.uni
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in

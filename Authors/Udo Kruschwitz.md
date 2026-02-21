@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and|DeTox: A Comprehensive Dataset for German Offensive Language and Conversation Analysis]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and*: Affiliation: University of Applied Sciences, Email: stud.@h-da.de
+- *From 2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and*: Affiliation: University of Applied Sciences, Email: stud.@h-da.de
 - *From 2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and*: Affiliation: University of Applied Sciences, Email: stud.@h-da.de
 - *From 2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and*: Affiliation: University of Applied Sciences, Email: stud.@h-da.de
 - *From 2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and*: Affiliation: University of Applied Sciences, Email: stud.@h-da.de

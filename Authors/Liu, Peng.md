@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark|NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark*: Affiliation: Department of Computer Science, Norwegian University of Science and Technology, Email: simen.eide@schibsted.com
+- *From 2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark*: Affiliation: Department of Computer Science, Norwegian University of Science and Technology, Email: simen.eide@schibsted.com
 - *From 2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark*: Affiliation: Department of Computer Science, Norwegian University of Science and Technology, Email: simen.eide@schibsted.com
 - *From 2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark*: Affiliation: Department of Computer Science, Norwegian University of Science and Technology, Email: simen.eide@schibsted.com
 - *From 2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark*: Affiliation: Department of Computer Science, Norwegian University of Science and Technology, Email: simen.eide@schibsted.com

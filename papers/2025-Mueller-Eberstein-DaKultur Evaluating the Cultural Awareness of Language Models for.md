@@ -16,7 +16,7 @@ short_title: "DaKultur: Evaluating the Cultural Awareness of Language Models for
 year: 2025
 first_author: "[[Müller-Eberstein, Max]]"
 last_author: "[[Goot, Rob van der]]"
-authors: "[[Müller-Eberstein, Max]]; [[Zhang, Mike]]; [[Bassignana, Elisa]]; [[Trolle, Peter Brunsgaard]]; [[Goot, Rob van der]]"
+authors: "Müller-Eberstein, Max; Zhang, Mike; Bassignana, Elisa; Trolle, Peter Brunsgaard; Goot, Rob van der"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.02403"
 external_pdf: "https://arxiv.org/pdf/2504.02403.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Müller-Eberstein, Max]], [[Zhang, Mike]], [[Bassignana, Elisa]], [[Trolle, Peter Brunsgaard]], [[Goot, Rob van der]]
+[[Müller-Eberstein, Max]], [[Mike Zhang|Zhang, Mike]], [[Bassignana, Elisa]], [[Trolle, Peter Brunsgaard]], [[Goot, Rob van der]]
 
 ## Metadata
 

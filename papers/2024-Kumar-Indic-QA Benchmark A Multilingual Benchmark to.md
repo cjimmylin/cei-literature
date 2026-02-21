@@ -18,7 +18,7 @@ short_title: "Indic-QA Benchmark A Multilingual Benchmark to"
 year: 2024
 first_author: "[[Singh, Abhishek Kumar]]"
 last_author: "[[Ramakrishnan, Ganesh]]"
-authors: "[[Singh, Abhishek Kumar]]; [[kumar, Vishwajeet]]; [[Murthy, Rudra]]; [[Sen, Jaydeep]]; [[Mittal, Ashish]]; [[Ramakrishnan, Ganesh]]"
+authors: "Singh, Abhishek Kumar; kumar, Vishwajeet; Murthy, Rudra; Sen, Jaydeep; Mittal, Ashish; Ramakrishnan, Ganesh"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.13522"
 external_pdf: "https://arxiv.org/pdf/2407.13522.pdf"

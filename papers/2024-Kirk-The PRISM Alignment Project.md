@@ -72,7 +72,7 @@ Human feedback is central to the alignment of Large Language Models (LLMs). Howe
 
 ## Authors
 
-[[Hannah Rose Kirk]], [[Alexander Whitefield]], [[Paul Röttger]], [[Andrew M. Bean|Andrew Bean]], [[Katerina Margatina]], [[Juan Ciro]], [[Rafael Mosquera]], [[Max Bartolo]], [[Adina Williams]], [[He He]], [[Bertie Vidgen]], [[Scott A. Hale]]
+[[Hannah Rose Kirk]], [[Alexander Whitefield]], [[Paul Röttger]], [[Andrew Bean]], [[Katerina Margatina]], [[Juan Ciro]], [[Rafael Mosquera]], [[Max Bartolo]], [[Adina Williams]], [[He He]], [[Bertie Vidgen]], [[Scott A. Hale]]
 
 ## Data Description
 

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Jin-MedEthicEval|MedEthicEval]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: pilgrim@sjtu.edu.cn
+- *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: pilgrim@sjtu.edu.cn
 - *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: jiachengshi@antgroup.com
 - *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: pilgrim@sjtu.edu.cn
 - *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: mengyuewu@sjtu.edu.cn

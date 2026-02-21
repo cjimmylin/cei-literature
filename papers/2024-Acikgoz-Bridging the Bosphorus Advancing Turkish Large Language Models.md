@@ -16,7 +16,7 @@ short_title: "Bridging the Bosphorus: Advancing Turkish Large Language Models th
 year: 2024
 first_author: "[[Emre Can Acikgoz]]"
 last_author: "[[Deniz Yuret]]"
-authors: Emre Can Acikgoz, Mete Erdogan, Deniz Yuret
+authors: Emre Can Acikgoz; Mete Erdogan; Deniz Yuret
 url: "https://arxiv.org/abs/2405.04685"
 external_pdf: "https://arxiv.org/pdf/2405.04685.pdf"
 publication: arXiv

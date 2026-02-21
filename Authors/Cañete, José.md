@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2021-Jiang-Pre-trained Models and Evaluation Data for|Pre-trained Models and Evaluation Data for]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2021-Jiang-Pre-trained Models and Evaluation Data for*: Affiliation: Department of Computer Science, Universidad de Chile, Email: jperez@dcc.uchile.cl
+- *From 2021-Jiang-Pre-trained Models and Evaluation Data for*: Affiliation: Department of Computer Science, Universidad de Chile, Email: jperez@dcc.uchile.cl
 - *From 2021-Jiang-Pre-trained Models and Evaluation Data for*: Affiliation: Department of Computer Science, Universidad de Chile, Email: jperez@dcc.uchile.cl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

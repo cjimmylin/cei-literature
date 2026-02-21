@@ -16,7 +16,7 @@ short_title: "BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs for Ba
 year: 2025
 first_author: "[[Saralegi, X.]]"
 last_author: "[[Zulaika, Muitze]]"
-authors: "[[Saralegi, X.]]; [[Zulaika, Muitze]]"
+authors: "Saralegi, X.; Zulaika, Muitze"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.coling-main.318/"
 external_pdf: "https://aclanthology.org/2025.coling-main.318.pdf"

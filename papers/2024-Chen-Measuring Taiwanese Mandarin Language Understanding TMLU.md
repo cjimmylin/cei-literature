@@ -16,7 +16,7 @@ short_title: Measuring Taiwanese Mandarin Language Understanding (TMLU)
 year: 2024
 first_author: "[[Po-Heng Chen]]"
 last_author: "[[Yun-Nung Chen]]"
-authors: Po-Heng Chen, Sijia Cheng, Wei-Lin Chen, Yen-Ting Lin, Yun-Nung Chen
+authors: Po-Heng Chen; Sijia Cheng; Wei-Lin Chen; Yen-Ting Lin; Yun-Nung Chen
 url: "https://arxiv.org/abs/2403.20180"
 external_pdf: "https://arxiv.org/pdf/2403.20180.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Po-Heng Chen]], [[Sunny Yu Myra Cheng|Sijia Cheng]], [[Wei Chen|Wei-Lin Chen]], [[Ying Lin|Yen-Ting Lin]], [[Yun-Nung Chen]]
+[[Po-Heng Chen]], [[Sijia Cheng]], [[Wei-Lin Chen]], [[Yen-Ting Lin]], [[Yun-Nung Chen]]
 
 ## Metadata
 

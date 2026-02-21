@@ -17,9 +17,9 @@ key: EXSR0581
 type: conference_paper
 short_title: "Challenging the Transformer-based Models with a"
 year: 2022
-first_author: "[[Shatha Altammami, Eric Atwell]]"
-last_author: "[[Eric Atwell Shatha Altammami]]"
-authors: "[[Shatha Altammami, Eric Atwell]]"
+first_author: "[[Shatha Altammami]]"
+last_author: "[[Eric Atwell]]"
+authors: Shatha Altammami; Eric Atwell
 authors_incomplete: false
 url: 
 external_pdf: 
@@ -55,7 +55,7 @@ CONFERENCE: "ACL 2022"
 
 ## Authors
 
-[[Eric Atwell Shatha Altammami]]
+[[Shatha Altammami]], [[Eric Atwell]]
 
 ## Metadata
 

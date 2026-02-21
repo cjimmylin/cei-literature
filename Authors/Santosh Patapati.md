@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment|Democracy-in-Silico: Institutional Design as Alignment]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment*:, Email: santosh@cyrionlabs.org
+- *From 2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment*:, Email: santosh@cyrionlabs.org
 - *From 2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment*:, Email: trisanth@cyrionlabs.org
 - *From 2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment*:, Email: trisanth@cyrionlabs.org
 - *From 2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment*:, Email: santosh@cyrionlabs.org

@@ -53,6 +53,8 @@ Hopp developed the Dutch Moral Foundations Stimulus Database, adapting and valid
 
 
 
+
+
 - [[2023-Hopp-The Dutch Moral Foundations Stimulus Database|The Dutch Moral Foundations Stimulus Database]] (First Author)
 
 ## External Links & Profiles
@@ -69,6 +71,10 @@ Hopp developed the Dutch Moral Foundations Stimulus Database, adapting and valid
 
 
 
+
+
+- *From 2023-Hopp-The Dutch Moral Foundations Stimulus Database*: Affiliation: School of Communication Research, University of Amsterdam, Amsterdam, Netherlands; 2Department of, Email: fhopp@uva.nl
+- *From 2023-Hopp-The Dutch Moral Foundations Stimulus Database*: Affiliation: School of Communication Research, University of Amsterdam, Amsterdam, Netherlands; 2Department of, Email: fhopp@uva.nl
 - *From 2023-Hopp-The Dutch Moral Foundations Stimulus Database*: Affiliation: School of Communication Research, University of Amsterdam, Amsterdam, Netherlands; 2Department of, Email: fhopp@uva.nl
 - *From 2023-Hopp-The Dutch Moral Foundations Stimulus Database*: Affiliation: School of Communication Research, University of Amsterdam, Amsterdam, Netherlands; 2Department of, Email: fhopp@uva.nl
 - *From 2023-Hopp-The Dutch Moral Foundations Stimulus Database*: Affiliation: School of Communication Research, University of Amsterdam, Amsterdam, Netherlands; 2Department of, Email: fhopp@uva.nl

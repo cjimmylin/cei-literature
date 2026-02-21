@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Lewis-Abundant Intelligences Placing AI within Indigenous Knowledge|Abundant Intelligences: Placing AI within Indigenous Knowledge Frameworks]] (First Author)
 - [[2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous|Abundant Intelligences Placing AI Within Indigenous]] (First Author)
 - [[2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position|Indigenous Protocol and Artificial Intelligence Position]] (First Author)

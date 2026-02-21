@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering|AmharicStoryQA A Multicultural Story Question Answering]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering*: Affiliation: University, 2 AIMS AMMI, 3 Resonance AI4D Lab, Addis Ababa University
+- *From 2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering*: Affiliation: University, 2 AIMS AMMI, 3 Resonance AI4D Lab, Addis Ababa University
 - *From 2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering*: Affiliation: University, 2 AIMS AMMI, 3 Resonance AI4D Lab, Addis Ababa University
 - *From 2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering*: Affiliation: University, 2 AIMS AMMI, 3 Resonance AI4D Lab, Addis Ababa University
 - *From 2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering*: Affiliation: University, 2 AIMS AMMI, 3 Resonance AI4D Lab, Addis Ababa University

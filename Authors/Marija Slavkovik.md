@@ -59,7 +59,8 @@ twitter: ""
 
 
 
-- [[2025-Baum-Aggregation Problems in Machine Ethics|Aggregation Problems in Machine Ethics]] (Last Author)
+
+
 - [[2025-Vishwanath-Machine Ethics or AI Alignment|Machine Ethics or AI Alignment]] (Last Author)
 
 ## External Links & Profiles
@@ -90,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Vishwanath-Machine Ethics or AI Alignment*: Affiliation: University of Agder, Norway
+- *From 2025-Vishwanath-Machine Ethics or AI Alignment*: Affiliation: University of Agder, Norway
 - *From 2025-Baum-Aggregation Problems in Machine Ethics*: Affiliation: Research Center for Artificial Intelligence (DFKI), Germany, Email: kevin.baum@dfki.de
 - *From 2025-Baum-Aggregation Problems in Machine Ethics*: Affiliation: Research Center for Artificial Intelligence (DFKI), Germany, Email: marija.slavkovik@uib.no
 - *From 2025-Baum-Aggregation Problems in Machine Ethics*: Affiliation: Research Center for Artificial Intelligence (DFKI), Germany, Email: kevin.baum@dfki.de

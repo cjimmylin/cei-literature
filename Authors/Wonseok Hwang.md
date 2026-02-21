@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent|Korean Canonical Legal Benchmark: Toward Knowledge-Independent Evaluation of LLMs' Legal Reasoning Capabilities]] (Last Author)
+- [[2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language|Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models]] (Last Author)
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language*: Affiliation: University of Seoul, Email: wonseok.hwang@uos.ac.kr
+- *From 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language*: Affiliation: University of Seoul, Email: wonseok.hwang@uos.ac.kr
 - *From 2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent*: Affiliation: University of Seoul, Email: kyoungwoon.on@lbox.kr
 - *From 2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent*: Affiliation: University of Seoul, Email: wonseok.hwang@uos.ac.kr
 - *From 2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent*: Affiliation: University of Seoul, Email: wonseok.hwang@uos.ac.kr

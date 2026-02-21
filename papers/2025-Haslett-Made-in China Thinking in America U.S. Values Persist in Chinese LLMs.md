@@ -16,7 +16,7 @@ short_title: "Made-in China, Thinking in America: U.S. Values Persist in Chinese
 year: 2025
 first_author: "[[David Haslett]]"
 last_author: "[[Antoni B. Chan]]"
-authors: David Haslett, Linus Ta-Lun Huang, Leila Khalatbari, Janet Hui-wen Hsiao, Antoni B. Chan
+authors: David Haslett; Linus Ta-Lun Huang; Leila Khalatbari; Janet Hui-wen Hsiao; Antoni B. Chan
 url: "https://arxiv.org/abs/2512.13723"
 external_pdf: "https://arxiv.org/pdf/2512.13723.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[David Haslett]], [[Linus Ta-Lun Huang]], [[Leila Khalatbari]], [[Janet Hui-wen Hsiao]], [[Alan Chan|Antoni B. Chan]]
+[[David Haslett]], [[Linus Ta-Lun Huang]], [[Leila Khalatbari]], [[Janet Hui-wen Hsiao]], [[Antoni B. Chan]]
 
 ## Metadata
 

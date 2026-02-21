@@ -17,7 +17,7 @@ short_title: "TAPE: Assessing Few-shot Russian Language Understanding"
 year: 2022
 first_author: "[[Taktasheva, Ekaterina]]"
 last_author: "[[Mikhailov, Vladislav]]"
-authors: "[[Taktasheva, Ekaterina]]; [[Shavrina, Tatiana]]; [[Fenogenova, Alena]]; [[Shevelev, Denis]]; [[Katricheva, Nadezhda]]; [[Tikhonova, Maria]]; [[Akhmetgareeva, Albina]]; [[Zinkevich, Oleg]]; [[Bashmakova, Anastasiia]]; [[Iordanskaia, Svetlana]]; [[Spiridonova, Alena]]; [[Kurenshchikova, Valentina]]; [[Artemova, Ekaterina]]; [[Mikhailov, Vladislav]]"
+authors: "Taktasheva, Ekaterina; Shavrina, Tatiana; Fenogenova, Alena; Shevelev, Denis; Katricheva, Nadezhda; Tikhonova, Maria; Akhmetgareeva, Albina; Zinkevich, Oleg; Bashmakova, Anastasiia; Iordanskaia, Svetlana; Spiridonova, Alena; Kurenshchikova, Valentina; Artemova, Ekaterina; Mikhailov, Vladislav"
 authors_incomplete: false
 doi: 10.18653/v1/2022.findings-emnlp.183
 url: "https://arxiv.org/abs/2210.12813"

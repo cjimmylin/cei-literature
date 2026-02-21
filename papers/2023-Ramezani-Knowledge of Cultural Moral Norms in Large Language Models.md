@@ -15,8 +15,8 @@ type: preprint
 short_title: Knowledge of Cultural Moral Norms in Large Language Models
 year: 2023
 first_author: "[[Aida Ramezani]]"
-last_author: "[[Xu Yang Aida Ramezani]]"
-authors: Aida Ramezani, Xu Yang
+last_author: "[[Xu Yang]]"
+authors: Aida Ramezani; Xu Yang
 url: "https://arxiv.org/abs/2306.01857"
 external_pdf: "https://arxiv.org/pdf/2306.01857.pdf"
 publication: arXiv / ACL 2023
@@ -51,7 +51,7 @@ CONFERENCE: "ACL 2023"
 
 ## Authors
 
-[[Xu Yang Aida Ramezani]]
+[[Aida Ramezani]], [[Xu Yang]]
 
 ## Metadata
 

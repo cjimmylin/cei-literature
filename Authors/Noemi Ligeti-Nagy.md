@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model|HuGME: A Benchmark System for Evaluating Hungarian Generative Model Evaluation]] (First Author)
 - [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model*: Affiliation: Centre for Linguistics, Email: ligeti-nagy.noemi@nytud.hun
+- *From 2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model*: Affiliation: Centre for Linguistics, Email: ligeti-nagy.noemi@nytud.hun
 - *From 2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model*: Affiliation: Centre for Linguistics, Email: ligeti-nagy.noemi@nytud.hun
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University

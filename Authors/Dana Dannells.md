@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2021-Hansson-The Swedish Winogender Dataset SweWinogender|The Swedish Winogender Dataset (SweWinogender)]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Hansson-The Swedish Winogender Dataset SweWinogender*: Affiliation: University of Gothenburg
+- *From 2021-Hansson-The Swedish Winogender Dataset SweWinogender*: Affiliation: University of Gothenburg
 - *From 2021-Hansson-The Swedish Winogender Dataset SweWinogender*: Affiliation: University of Gothenburg
 - *From 2021-Hansson-The Swedish Winogender Dataset SweWinogender*: Affiliation: University of Gothenburg
 - *From 2021-Hansson-The Swedish Winogender Dataset SweWinogender*: Affiliation: University of Gothenburg

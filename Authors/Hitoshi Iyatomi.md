@@ -25,6 +25,9 @@ Hitoshi Iyatomi is a Professor at Hosei University's Department of Applied Infor
 
 
 
+
+
+- [[2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via|Conceptual Cultural Index: A Metric for Cultural Specificity via Relative Generality]] (Last Author)
 - [[2024-Ohashi-Extended Japanese Commonsense Morality Dataset|Extended Japanese Commonsense Morality Dataset]] (Last Author)
 
 ## Notes
@@ -34,6 +37,10 @@ Hitoshi Iyatomi is a Professor at Hosei University's Department of Applied Infor
 
 
 
+
+
+- *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: tsubasa.nakagawa.5p@stu.hosei.ac.jp
+- *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: tsubasa.nakagawa.5p@stu.hosei.ac.jp
 - *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: tsubasa.nakagawa.5p@stu.hosei.ac.jp
 - *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: tsubasa.nakagawa.5p@stu.hosei.ac.jp
 - *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: iyatomi@hosei.ac.jp

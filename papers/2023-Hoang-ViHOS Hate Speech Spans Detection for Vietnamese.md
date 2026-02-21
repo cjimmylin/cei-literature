@@ -16,7 +16,7 @@ short_title: "ViHOS: Hate Speech Spans Detection for Vietnamese"
 year: 2023
 first_author: "[[Phu Gia Hoang]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
-authors: "Phu Gia Hoang, Canh Duc Luu, Khanh Quoc Tran, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"
+authors: Phu Gia Hoang; Canh Duc Luu; Khanh Quoc Tran; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen
 doi: 10.18653/v1/2023.eacl-main.47
 url: "https://aclanthology.org/2023.eacl-main.47/"
 external_pdf: "https://arxiv.org/pdf/2301.10186.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2023"
 
 ## Authors
 
-[[Phu Gia Hoang]], [[Canh Duc Luu]], [[Kien Tran|Khanh Quoc Tran]], [[Kiet Van Nguyen]], [[Ngan Luu-Thuy Nguyen]]
+[[Phu Gia Hoang]], [[Canh Duc Luu]], [[Khanh Quoc Tran]], [[Kiet Van Nguyen]], [[Ngan Luu-Thuy Nguyen]]
 
 ## Metadata
 

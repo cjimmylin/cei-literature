@@ -16,8 +16,8 @@ type: preprint
 short_title: "KULTURE Bench: A Benchmark for Assessing Language Model in Korean Cultural Context"
 year: 2024
 first_author: "[[Xiaonan Wang]]"
-last_author: "[[Hansaem Kim Joon-Ho Lim]]"
-authors: "Xiaonan Wang, Jinyoung Yeo, Joon-Ho Lim, Hansaem Kim"
+last_author: "[[Hansaem Kim]]"
+authors: Xiaonan Wang; Jinyoung Yeo; Joon-Ho Lim; Hansaem Kim
 url: "https://arxiv.org/abs/2412.07251"
 external_pdf: "https://arxiv.org/pdf/2412.07251.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.md"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Jinyoung Yeo Xiaonan Wang]], [[Hansaem Kim Joon-Ho Lim]]
+[[Xiaonan Wang]], [[Jinyoung Yeo]], [[Joon-Ho Lim]], [[Hansaem Kim]]
 
 ## Metadata
 

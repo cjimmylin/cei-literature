@@ -18,7 +18,7 @@ short_title: "SeeGULL Multilingual: A Dataset of Geo-Culturally Situated Stereot
 year: 2024
 first_author: "[[Bhutani, Mukul]]"
 last_author: "[[Dev, Sunipa]]"
-authors: "[[Bhutani, Mukul]]; [[Robinson, Kevin]]; [[Prabhakaran, Vinodkumar]]; [[Dave, Shachi]]; [[Dev, Sunipa]]"
+authors: "Bhutani, Mukul; Robinson, Kevin; Prabhakaran, Vinodkumar; Dave, Shachi; Dev, Sunipa"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.05696"
 external_pdf: "https://arxiv.org/pdf/2403.05696.pdf"

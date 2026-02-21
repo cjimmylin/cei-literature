@@ -19,7 +19,7 @@ short_title: "DweshVaani An LLM for Detecting Religious"
 year: 2025
 first_author: "[[search, Multiple (not fully specified in]]"
 last_author: "[[published at CHiPSAL 2025)]]"
-authors: "[[Multiple (not fully specified in search]]; [[published at CHiPSAL 2025)]]"
+authors: Multiple (not fully specified in search; published at CHiPSAL 2025)
 authors_incomplete: false
 url: 
 external_pdf: 

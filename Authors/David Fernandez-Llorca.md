@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review|Can We Trust AI Benchmarks? An Interdisciplinary Review]] (Last Author)
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review*: Affiliation: Centre (JRC), Email: erasmo.purificato@ec.europa.eu
+- *From 2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review*: Affiliation: Centre (JRC), Email: erasmo.purificato@ec.europa.eu
 - *From 2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review*: Affiliation: Centre (JRC), Email: david.fernandez-llorca@ec.europa.eu
 - *From 2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review*: Affiliation: Centre (JRC), Email: david.fernandez-llorca@ec.europa.eu
 - *From 2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review*: Affiliation: Centre (JRC), Email: maria.eriksson@ec.europa.eu

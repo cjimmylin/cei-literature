@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Seker-HATECAT-TR A Hate Speech Span Detection|HATECAT-TR A Hate Speech Span Detection]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Seker-HATECAT-TR A Hate Speech Span Detection*: Affiliation: Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342, Email: gokce.uludogan@bogazici.edu.tr
+- *From 2025-Seker-HATECAT-TR A Hate Speech Span Detection*: Affiliation: Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342, Email: gokce.uludogan@bogazici.edu.tr
 - *From 2025-Seker-HATECAT-TR A Hate Speech Span Detection*: Affiliation: Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342, Email: pelinonal@hrantdink.org
 - *From 2025-Seker-HATECAT-TR A Hate Speech Span Detection*: Affiliation: Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342, Email: arzucan.ozgur@bogazici.edu.tr
 - *From 2025-Seker-HATECAT-TR A Hate Speech Span Detection*: Affiliation: Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342, Email: arzucan.ozgur@bogazici.edu.tr

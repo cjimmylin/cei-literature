@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Durmus-Subjective Values|Subjective Values]] (First Author)
 - [[2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in|Towards Measuring the Representation of Subjective Global Opinions in Language Models \ Anthropic]] (First Author)
 - [[2024-Sharma-Towards Understanding Sycophancy in Language Models|Towards Understanding Sycophancy in Language Models]]

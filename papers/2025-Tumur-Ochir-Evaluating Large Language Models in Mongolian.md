@@ -15,7 +15,7 @@ type: conferencePaper
 short_title: "Evaluating Large Language Models in Mongolian"
 year: 2025
 first_author: "[[Tumur-Ochir, Dorjnyam]]"
-last_author: "[[Chu, Chenhui]]"
+last_author: "[[Chenhui Chu]]"
 authors: Dorjnyam Tumur-Ochir; Fei Cheng; Yugo Murawaki; Chenhui Chu
 authors_incomplete: false
 url: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-12.pdf"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales|Self-Explaining Hate Speech Detection with Moral Rationales]]
 - [[2023-Thapa-NEHATE Large-Scale Annotated Data Shedding Light|NEHATE Large-Scale Annotated Data Shedding Light]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales*: Affiliation: University of São Paulo, Email: francielleavargas@usp.br
+- *From 2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales*: Affiliation: University of São Paulo, Email: francielleavargas@usp.br
 - *From 2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales*: Affiliation: University of São Paulo, Email: francielleavargas@usp.br
 - *From 2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales*: Affiliation: University of São Paulo, Email: francielleavargas@usp.br
 - *From 2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales*: Affiliation: University of São Paulo, Email: francielleavargas@usp.br

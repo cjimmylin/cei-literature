@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark|The Catalan Language CLUB (Catalan Language Understanding Benchmark)]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark*: Affiliation: Center-The Catalan Language CLUB Catalan Language Understanding Benchmark - PDF Extract"
+- *From 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark*: Affiliation: Center-The Catalan Language CLUB Catalan Language Understanding Benchmark - PDF Extract"
 - *From 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark*: Affiliation: Center-The Catalan Language CLUB Catalan Language Understanding Benchmark - PDF Extract"
 - *From 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark*: Affiliation: Center-The Catalan Language CLUB Catalan Language Understanding Benchmark - PDF Extract"
 - *From 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark*: Affiliation: Center-The Catalan Language CLUB Catalan Language Understanding Benchmark - PDF Extract"

@@ -16,7 +16,7 @@ short_title: First Nations and Artificial Intelligence Research Paper
 year: 2024
 first_author: "[[Chiefs of Ontario]]"
 last_author: "[[Research and Data Management Sector]]"
-authors: Chiefs of Ontario, Research and Data Management Sector
+authors: Chiefs of Ontario; Research and Data Management Sector
 url: "https://chiefs-of-ontario.org/wp-content/uploads/2024/05/2024_08_16_RP_First_Nations_and-_AI_Paper_BW_final_Ack.pdf"
 publication: Chiefs of Ontario
 CONF-CC: "N/A"
@@ -50,7 +50,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Chiefs of Ontario, Research and Data Management Sector]]
+[[Chiefs of Ontario]], [[Research and Data Management Sector]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Machlovi-GuardEval|GuardEval]]
 - [[2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a|Towards Safer AI Moderation: Evaluating LLM Moderators Through a Unified Benchmark Dataset and Advocating a Human-First Approach]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
+- *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
 - *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
 - *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
 - *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA

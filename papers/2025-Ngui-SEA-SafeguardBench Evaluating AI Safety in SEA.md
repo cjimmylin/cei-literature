@@ -18,7 +18,7 @@ short_title: "SEA-SafeguardBench Evaluating AI Safety in SEA"
 year: 2025
 first_author: "[[Tasawong, Panuthep]]"
 last_author: "[[Limkonchotiwat, Peerat]]"
-authors: "[[Tasawong, Panuthep]]; [[Ngui, Jian Gang]]; [[Aji, Alham Fikri]]; [[Cohn, Trevor]]; [[Limkonchotiwat, Peerat]]"
+authors: "Tasawong, Panuthep; Ngui, Jian Gang; Aji, Alham Fikri; Cohn, Trevor; Limkonchotiwat, Peerat"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.05501"
 external_pdf: "https://arxiv.org/pdf/2512.05501.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Tasawong, Panuthep]], [[Ngui, Jian Gang]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Cohn, Trevor]], [[Peerat Limkonchotiwat|Limkonchotiwat, Peerat]]
+[[Tasawong, Panuthep]], [[Ngui, Jian Gang]], [[Aji, Alham Fikri]], [[Cohn, Trevor]], [[Peerat Limkonchotiwat|Limkonchotiwat, Peerat]]
 
 ## Metadata
 

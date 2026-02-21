@@ -34,6 +34,8 @@ Daniel Paleka is a PhD student at ETH Zurich working on theoretical aspects of A
 
 
 
+
+
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 - [[2024-Debenedetti-SaTML LLM CTF Dataset|SaTML LLM CTF Dataset]]
 

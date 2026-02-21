@@ -17,7 +17,7 @@ short_title: "Knowing But Not Doing: Convergent Morality and Divergent Action in
 year: 2026
 first_author: "[[Huang, Jen-tse]]"
 last_author: "[[Dredze, Mark]]"
-authors: "[[Huang, Jen-tse]]; [[Qin, Jiantong]]; [[Qiu, Xueli]]; [[Levy, Sharon]]; [[Kaufman, Michelle R.]]; [[Dredze, Mark]]"
+authors: "Huang, Jen-tse; Qin, Jiantong; Qiu, Xueli; Levy, Sharon; Kaufman, Michelle R.; Dredze, Mark"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.07972"
 external_pdf: "https://arxiv.org/pdf/2601.07972.pdf"

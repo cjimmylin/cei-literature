@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems|GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems]] (Last Author)
 - [[2025-Ye-Large Language Model Psychometrics|Large Language Model Psychometrics]] (Last Author)
 - [[2025-Zhu-EAVIT|EAVIT]]
@@ -35,6 +37,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
+- *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
 - *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
 - *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
 - *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com

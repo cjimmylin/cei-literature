@@ -47,6 +47,8 @@ Christopher Olah is a Co-Founder of Anthropic and one of the pioneers of mechani
 
 
 
+
+
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## External Links & Profiles
@@ -68,6 +70,10 @@ Christopher Olah is a Co-Founder of Anthropic and one of the pioneers of mechani
 
 
 
+
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs

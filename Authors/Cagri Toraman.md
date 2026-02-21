@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2026-Darici-TurkBench A Benchmark for Evaluating Turkish|TurkBench A Benchmark for Evaluating Turkish]] (First Author)
 - [[2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource|Evaluating the Quality of Benchmark Datasets for Low-Resource Languages: A Case Study on Turkish]] (Last Author)
 - [[2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain|Large-Scale Hate Speech Detection with Cross-Domain]] (First Author)
 
@@ -88,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey
+- *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey
 - *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey
 - *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey
 - *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey

@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "Toxic Language Detection in Social Media for Brazilian Portuguese: New Dataset and Multilingual Analysis (ToLD-Br)"
 year: 2020
 first_author: "[[Joao Augusto Leite]]"
-last_author: "[[Carolina Scarton Kalina Bontcheva]]"
-authors: "Joao Augusto Leite, Diego Silva, Kalina Bontcheva, Carolina Scarton"
+last_author: "[[Carolina Scarton]]"
+authors: Joao Augusto Leite; Diego Silva; Kalina Bontcheva; Carolina Scarton
 url: "https://arxiv.org/abs/2010.04543"
 external_pdf: "https://arxiv.org/pdf/2010.04543.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.md"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2020"
 
 ## Authors
 
-[[Diego Silva Joao Augusto Leite]], [[Carolina Scarton Kalina Bontcheva]]
+[[Joao Augusto Leite]], [[Diego Silva]], [[Kalina Bontcheva]], [[Carolina Scarton]]
 
 ## Metadata
 

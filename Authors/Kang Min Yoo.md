@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean|KMMLU: Measuring Massive Multitask Language Understanding in Korean]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
+- *From 2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr

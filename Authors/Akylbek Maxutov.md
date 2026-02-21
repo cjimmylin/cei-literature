@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models|Do LLMs Speak Kazakh? A Pilot Evaluation of Seven Models]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models*: Affiliation: Institute of Smart Systems and Artificial Intelligence, Astana, Kazakhstan, Email: pavel.braslavskii@nu.edu.kz
+- *From 2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models*: Affiliation: Institute of Smart Systems and Artificial Intelligence, Astana, Kazakhstan, Email: pavel.braslavskii@nu.edu.kz
 - *From 2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models*: Affiliation: Institute of Smart Systems and Artificial Intelligence, Astana, Kazakhstan, Email: pavel.braslavskii@nu.edu.kz
 - *From 2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models*: Affiliation: Institute of Smart Systems and Artificial Intelligence, Astana, Kazakhstan, Email: pavel.braslavskii@nu.edu.kz
 - *From 2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models*: Affiliation: Institute of Smart Systems and Artificial Intelligence, Astana, Kazakhstan, Email: pavel.braslavskii@nu.edu.kz

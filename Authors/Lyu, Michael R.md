@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2024-Wang-XSafety Multilingual Safety Benchmark|XSafety: Multilingual Safety Benchmark]] (Last Author)
 
 ## Notes

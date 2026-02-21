@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Huang-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
+- *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 - *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 - *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 - *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu

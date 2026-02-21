@@ -13,8 +13,8 @@ type: conferencePaper
 short_title: "Machine Ethics Architecture of Virtue"
 year: 2024
 first_author: "[[B.A. Ribeiro]]"
-last_author: "[[da Silva, M.B]]"
-authors: "[[Ribeiro, B.A.]]; [[da Silva, M.B.]]"
+last_author: "[[da Silva, M.B.]]"
+authors: "Ribeiro, B.A.; da Silva, M.B."
 doi: 10.1007/978-3-031-48855-9_29
 url: "https://link.springer.com/chapter/10.1007/978-3-031-48855-9_29"
 pdf_extract: 

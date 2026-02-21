@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: "HuGME: A Benchmark System for Evaluating Hungarian Generative Model Evaluation"
 year: 2025
 first_author: "[[Ligeti-Nagy, Noemi]]"
-last_author: "[[Proszeky, Gabor]]"
+last_author: "[[Gabor Proszeky]]"
 authors: Noemi Ligeti-Nagy; Gabor Madarasz; Flora Foldesi; Mariann Lengyel; Matyas Osvath; Bence Sarossy; Kristof Varga; Gyozo Zijian Yang; Eniko Heja; Tamas Varadi; Gabor Proszeky
 url: "https://aclanthology.org/2025.gem-1.32.pdf"
 publication: ACL Anthology
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Unknown (CIS NLP group)|Unknown (NYTK Research Group)]]
+[[Noemi Ligeti-Nagy]], [[Gabor Madarasz]], [[Flora Foldesi]], [[Mariann Lengyel]], [[Matyas Osvath]], [[Bence Sarossy]], [[Kristof Varga]], [[Gyozo Zijian Yang]], [[Eniko Heja]], [[Tamas Varadi]], [[Gabor Proszeky]]
 
 ## Metadata
 

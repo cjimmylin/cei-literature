@@ -19,7 +19,7 @@ short_title: "Myanmar XNLI Building a Dataset and"
 year: 2024
 first_author: "[[Aung Kyaw Htet]]"
 last_author: "[[Mark Dras]]"
-authors: "[[Aung Kyaw Htet]]; [[Mark Dras]]"
+authors: Aung Kyaw Htet; Mark Dras
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.09645"
 external_pdf: "https://arxiv.org/pdf/2504.09645.pdf"

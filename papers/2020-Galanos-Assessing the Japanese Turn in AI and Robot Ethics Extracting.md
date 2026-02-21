@@ -16,7 +16,7 @@ short_title: "Assessing the Japanese Turn in AI and Robot Ethics: Extracting Mea
 year: 2020
 first_author: "[[Vassilis Galanos]]"
 last_author: "[[Mary Reisel]]"
-authors: Vassilis Galanos, Mary Reisel
+authors: Vassilis Galanos; Mary Reisel
 doi: 10.1007/978-3-030-62803-1_12
 url: "https://link.springer.com/chapter/10.1007/978-3-030-62803-1_12"
 publication: Springer IFIP AICT / HAL Open Archive
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Vassilis Galanos, Mary Reisel]]
+[[Vassilis Galanos]], [[Mary Reisel]]
 
 ## Metadata
 

@@ -22,7 +22,11 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Kim-Cultural and Core Capability Benchmarks for|Cultural and Core Capability Benchmarks for]]
+- [[2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical|Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs]]
+- [[2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean|Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark]]
 
 ## Notes
 
@@ -31,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Kim-Cultural and Core Capability Benchmarks for*: Affiliation: Labs, 2 Upstage AI, 3Chulalongkorn University, 4 Korea University, Email: attapol.t@chula.ac.th
+- *From 2025-Kim-Cultural and Core Capability Benchmarks for*: Affiliation: Labs, 2 Upstage AI, 3Chulalongkorn University, 4 Korea University, Email: attapol.t@chula.ac.th
 - *From 2025-Kim-Cultural and Core Capability Benchmarks for*: Affiliation: Labs, 2 Upstage AI, 3Chulalongkorn University, 4 Korea University, Email: bcj1210@korea.ac.kr
 - *From 2025-Kim-Cultural and Core Capability Benchmarks for*: Affiliation: Labs, 2 Upstage AI, 3Chulalongkorn University, 4 Korea University, Email: bcj1210@korea.ac.kr
 - *From 2025-Kim-Cultural and Core Capability Benchmarks for*: Affiliation: Labs, 2 Upstage AI, 3Chulalongkorn University, 4 Korea University, Email: attapol.t@chula.ac.th

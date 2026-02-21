@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hosseinbeigi-Advancing Persian LLM Evaluation|Advancing Persian LLM Evaluation]]
 - [[2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large|FarsEval-PKBETS: A new diverse benchmark for evaluating Persian large language models]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hosseinbeigi-Advancing Persian LLM Evaluation*: Affiliation: University of Technology, 2Tarbiat Modares University, Email: s.bourbour@modares.ac.ir
+- *From 2025-Hosseinbeigi-Advancing Persian LLM Evaluation*: Affiliation: University of Technology, 2Tarbiat Modares University, Email: s.bourbour@modares.ac.ir
 - *From 2025-Hosseinbeigi-Advancing Persian LLM Evaluation*: Affiliation: University of Technology, 2Tarbiat Modares University, Email: s.bourbour@modares.ac.ir
 - *From 2025-Hosseinbeigi-Advancing Persian LLM Evaluation*: Affiliation: University of Technology, 2Tarbiat Modares University, Email: s.bourbour@modares.ac.ir
 - *From 2025-Hosseinbeigi-Advancing Persian LLM Evaluation*: Affiliation: University of Technology, 2Tarbiat Modares University, Email: s.bourbour@modares.ac.ir

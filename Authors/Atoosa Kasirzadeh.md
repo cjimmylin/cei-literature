@@ -53,12 +53,14 @@ A 2024 Schmidt Sciences AI2050 Early Career Fellow, she also serves as a council
 
 
 
-- [[2026-Kolt-Legal Alignment for Safe and Ethical AI|Legal Alignment for Safe and Ethical AI]]
+
+
 - [[2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value|EVALUESTEER: Measuring Reward Model Steerability Across Value Dimensions]]
 - [[2025-Kasirzadeh-Characterizing AI Agents for Alignment and|Characterizing AI Agents for Alignment and]] (First Author)
 - [[2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities|ConflictScope: Generative Value Conflicts Reveal LLM Priorities]]
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 - [[2024-Pistilli-CIVICS|CIVICS]]
+- [[2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in|CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models]]
 - [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
 - [[2021-Weidinger-Ethical and social risks of harm from Language|Ethical and social risks of harm from Language]]
 
@@ -82,6 +84,10 @@ A 2024 Schmidt Sciences AI2050 Early Career Fellow, she also serves as a council
 
 
 
+
+
+- *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
+- *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin

@@ -17,7 +17,7 @@ short_title: "Korean Canonical Legal Benchmark: Toward Knowledge-Independent Eva
 year: 2025
 first_author: "[[Heeju Yoon]]"
 last_author: "[[Wonseok Hwang]]"
-authors: "Heeju Yoon, Youngmin Kim, Woojun Kim, Jongwon Lee, Jinhwan Choi, Hai Jin Park, Wonseok Hwang"
+authors: Heeju Yoon; Youngmin Kim; Woojun Kim; Jongwon Lee; Jinhwan Choi; Hai Jin Park; Wonseok Hwang
 url: "https://arxiv.org/abs/2512.24572"
 external_pdf: "https://arxiv.org/pdf/2512.24572.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Heeju Yoon]], [[Youngmin Kim]], [[Woojin Kim|Woojun Kim]], [[Jongwon Lee]], [[Jinhwan Choi]], [[Hae Won Park|Hai Jin Park]], [[Wonseok Hwang]]
+[[Heeju Yoon]], [[Youngmin Kim]], [[Woojun Kim]], [[Jongwon Lee]], [[Jinhwan Choi]], [[Hai Jin Park]], [[Wonseok Hwang]]
 
 ## Metadata
 

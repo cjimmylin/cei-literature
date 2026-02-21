@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial|ManagerBench: Evaluating Safety-Pragmatism Trade-off in Managerial Contexts]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial*: Affiliation: University of Zagreb
+- *From 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial*: Affiliation: University of Zagreb
 - *From 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial*: Affiliation: University of Zagreb
 - *From 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial*: Affiliation: University of Zagreb
 - *From 2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial*: Affiliation: University of Zagreb

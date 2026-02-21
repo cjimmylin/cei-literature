@@ -14,8 +14,8 @@ type: conferencePaper
 short_title: "French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English"
 year: 2022
 first_author: "[[Aurélie Névéol]]"
-last_author: "[[Karën Fort Julien Bezançon]]"
-authors: "Aurélie Névéol, Yoann Dupont, Julien Bezançon, Karën Fort"
+last_author: "[[Karën Fort]]"
+authors: Aurélie Névéol; Yoann Dupont; Julien Bezançon; Karën Fort
 url: "https://aclanthology.org/2022.acl-long.583/"
 external_pdf: "https://aclanthology.org/2022.acl-long.583.pdf"
 publication: "ACL Anthology"
@@ -50,7 +50,7 @@ CONFERENCE: "ACL 2022"
 
 ## Authors
 
-[[Yoann Dupont Aurélie Névéol]], [[Karën Fort Julien Bezançon]]
+[[Aurélie Névéol]], [[Yoann Dupont]], [[Julien Bezançon]], [[Karën Fort]]
 
 ## Metadata
 

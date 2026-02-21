@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and|A cross-validation study of Turkish sentiment analysis datasets and tools | Language Resources and Evaluation | Springer Nature Link]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and*: Affiliation: lability and reuse of Turkish datasets across studies has yielded highly
+- *From 2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and*: Affiliation: lability and reuse of Turkish datasets across studies has yielded highly
 - *From 2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and*: Affiliation: lability and reuse of Turkish datasets across studies has yielded highly
 - *From 2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and*: Affiliation: lability and reuse of Turkish datasets across studies has yielded highly
 - *From 2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and*: Affiliation: lability and reuse of Turkish datasets across studies has yielded highly

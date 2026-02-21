@@ -17,7 +17,7 @@ short_title: "ArGAN: Arabic Gender, Ability, and Nationality Dataset for ..."
 year: 2025
 first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
-authors: "Ranwa Aly, Yara Allam, Rana Gaber"
+authors: Ranwa Aly; Yara Allam; Rana Gaber
 url: "https://aclanthology.org/2025.gebnlp-1.23.pdf"
 external_pdf: "https://aclanthology.org/2025.gebnlp-1.23.pdf"
 publication: "ACL Anthology"

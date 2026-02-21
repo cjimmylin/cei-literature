@@ -22,6 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large|AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models]] (Last Author)
 - [[2023-Liu-AgentBench|AgentBench]]
 - [[2023-Liu-AlignBench|AlignBench]]
 
@@ -32,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley

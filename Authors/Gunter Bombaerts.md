@@ -25,6 +25,8 @@ Gunter Bombaerts is an Assistant Professor at Eindhoven University of Technology
 
 
 
+
+
 - [[2025-De Montis-Morality in AI|Morality in AI]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ Gunter Bombaerts is an Assistant Professor at Eindhoven University of Technology
 
 
 
+
+
+- *From 2025-De Montis-Morality in AI*: Affiliation: University of Technology, the Netherlands, 0000-0002-, Email: g.bombaerts@tue.nl.
+- *From 2025-De Montis-Morality in AI*: Affiliation: University of Technology, the Netherlands, 0000-0002-, Email: g.bombaerts@tue.nl.
 - *From 2025-De Montis-Morality in AI*: Affiliation: University of Technology, the Netherlands, 0000-0002-, Email: g.bombaerts@tue.nl.
 - *From 2025-De Montis-Morality in AI*: Affiliation: University of Technology, the Netherlands, 0000-0002-, Email: g.bombaerts@tue.nl.
 - *From 2025-De Montis-Morality in AI*: Affiliation: University of Technology, the Netherlands, 0000-0002-, Email: g.bombaerts@tue.nl.

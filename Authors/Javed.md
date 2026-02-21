@@ -1,7 +1,7 @@
 ---
 name: "Javed"
 title: "Current Position"
-affiliation: "University/Organization"
+affiliation: "label toxic comments classification"
 research_interests:
   - "Primary Research Area"
 website: ""
@@ -17,7 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2022-Abbasi-Deep Learning for Religious and Continent-Based|Deep Learning for Religious and Continent-Based]]
 
 ## Notes
 
+
+
+- *From 2022-Abbasi-Deep Learning for Religious and Continent-Based*: Affiliation: label toxic comments classification
+- *From 2022-Abbasi-Deep Learning for Religious and Continent-Based*: Affiliation: label toxic comments classification

@@ -18,7 +18,7 @@ short_title: "IberoBench: A Benchmark for LLM Evaluation in Iberian Languages"
 year: 2025
 first_author: "[[Simões, Guilherme]]"
 last_author: "[[Espinosa, Ferrando]]"
-authors: "[[Simões, Guilherme]]; [[Espinosa, Ferrando]]"
+authors: "Simões, Guilherme; Espinosa, Ferrando"
 authors_incomplete: true
 url: "https://aclanthology.org/2025.coling-main.699/"
 external_pdf: "https://aclanthology.org/2025.coling-main.699.pdf"

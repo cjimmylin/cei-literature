@@ -18,7 +18,7 @@ short_title: "SEADialogues A Multilingual Culturally Grounded Multi-turn"
 year: 2025
 first_author: "[[Kautsar, Muhammad Dehan Al]]"
 last_author: "[[Winata, Genta Indra]]"
-authors: "[[Kautsar, Muhammad Dehan Al]]; [[Candra, Aswin]]; [[Hakim, Muhammad Alif Al]]; [[Kahfi, Maxalmina Satria]]; [[Koto, Fajri]]; [[Aji, Alham Fikri]]; [[Limkonchotiwat, Peerat]]; [[Chuangsuwanich, Ekapol]]; [[Winata, Genta Indra]]"
+authors: "Kautsar, Muhammad Dehan Al; Candra, Aswin; Hakim, Muhammad Alif Al; Kahfi, Maxalmina Satria; Koto, Fajri; Aji, Alham Fikri; Limkonchotiwat, Peerat; Chuangsuwanich, Ekapol; Winata, Genta Indra"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.07069"
 external_pdf: "https://arxiv.org/pdf/2508.07069.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Kautsar, Muhammad Dehan Al]], [[Candra, Aswin]], [[Hussein M. Al|Hakim, Muhammad Alif Al]], [[Kahfi, Maxalmina Satria]], [[Koto, Fajri]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Peerat Limkonchotiwat|Limkonchotiwat, Peerat]], [[Chuangsuwanich, Ekapol]], [[Genta Indra Winata|Winata, Genta Indra]]
+[[Kautsar, Muhammad Dehan Al]], [[Candra, Aswin]], [[Hakim, Muhammad Alif Al]], [[Kahfi, Maxalmina Satria]], [[Koto, Fajri]], [[Aji, Alham Fikri]], [[Peerat Limkonchotiwat|Limkonchotiwat, Peerat]], [[Chuangsuwanich, Ekapol]], [[Genta Indra Winata|Winata, Genta Indra]]
 
 ## Metadata
 

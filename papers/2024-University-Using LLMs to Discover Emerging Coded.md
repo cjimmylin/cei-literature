@@ -19,7 +19,7 @@ short_title: "Using LLMs to Discover Emerging Coded"
 year: 2024
 first_author: "[[University), Multiple authors (American]]"
 last_author: "[[Multiple authors (American University)]]"
-authors: "[[Multiple authors (American University)]]"
+authors: Multiple authors (American University)
 authors_incomplete: false
 url: "https://arxiv.org/abs/2401.10841"
 external_pdf: "https://arxiv.org/pdf/2401.10841.pdf"

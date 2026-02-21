@@ -58,8 +58,11 @@ twitter: ""
 
 
 
+
+
 - [[2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents|Evaluating Cultural and Social Awareness of LLM Web Agents]]
 - [[2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment|Multimodal Cultural Safety: Evaluation Framework and Alignment Strategies]] (Last Author)
+- [[2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models|Cultural Bias and Cultural Alignment of Large Language Models]] (Last Author)
 - [[2024-Yin-SafeWorld Geo-Diverse Safety Alignment|SafeWorld: Geo-Diverse Safety Alignment]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: violetpeng@cs.ucla.edu
+- *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: violetpeng@cs.ucla.edu
 - *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: haoyiqiu@cs.ucla.edu
 - *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: haoyiqiu@cs.ucla.edu
 - *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: kh.huang@salesforce.com

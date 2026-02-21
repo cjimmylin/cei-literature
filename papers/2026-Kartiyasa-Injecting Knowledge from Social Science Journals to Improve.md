@@ -16,7 +16,7 @@ short_title: "Injecting Knowledge from Social Science Journals to Improve Indone
 year: 2026
 first_author: "[[Kartiyasa, Adimulya]]"
 last_author: "[[Li, Boyang]]"
-authors: "[[Kartiyasa, Adimulya]]; [[Cao, Bao Gia]]; [[Li, Boyang]]"
+authors: "Kartiyasa, Adimulya; Cao, Bao Gia; Li, Boyang"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.12921"
 external_pdf: "https://arxiv.org/pdf/2601.12921.pdf"

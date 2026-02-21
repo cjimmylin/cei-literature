@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Havaldar-Culturally-Aware Conversations A Framework Benchmark for|Culturally-Aware Conversations A Framework Benchmark for]] (First Author)
 - [[2024-Rai-Social Norms in Cinema A Cross-Cultural Analysis of Shame Pride and|Social Norms in Cinema: A Cross-Cultural Analysis of Shame, Pride and Prejudice]]
 - [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Havaldar-Culturally-Aware Conversations A Framework Benchmark for*: Affiliation: University of Pennsylvania
+- *From 2025-Havaldar-Culturally-Aware Conversations A Framework Benchmark for*: Affiliation: University of Pennsylvania
 - *From 2025-Havaldar-Culturally-Aware Conversations A Framework Benchmark for*: Affiliation: University of Pennsylvania
 - *From 2025-Havaldar-Culturally-Aware Conversations A Framework Benchmark for*: Affiliation: University of Pennsylvania
 - *From 2025-Havaldar-Culturally-Aware Conversations A Framework Benchmark for*: Affiliation: University of Pennsylvania

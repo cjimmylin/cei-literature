@@ -18,7 +18,7 @@ short_title: "KazMMLU Evaluating Language Models on Kazakh"
 year: 2025
 first_author: "[[Mukhammed Togmanov]]"
 last_author: "[[Fajri Koto]]"
-authors: "[[Mukhammed Togmanov]]; [[Nurdaulet Mukhituly]]; [[Diana Turmakhan]]; [[Jonibek Mansurov]]; [[Maiya Goloburda]]; [[Akhmed Sakip]]; [[Zhuohan Xie]]; [[Yuxia Wang]]; [[Bekassyl Syzdykov]]; [[Nurkhan Laiyk]]; [[Alham Fikri Aji]]; [[Ekaterina Kochmar]]; [[Preslav Nakov]]; [[Fajri Koto]]"
+authors: Mukhammed Togmanov; Nurdaulet Mukhituly; Diana Turmakhan; Jonibek Mansurov; Maiya Goloburda; Akhmed Sakip; Zhuohan Xie; Yuxia Wang; Bekassyl Syzdykov; Nurkhan Laiyk; Alham Fikri Aji; Ekaterina Kochmar; Preslav Nakov; Fajri Koto
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.12829"
 external_pdf: "https://arxiv.org/pdf/2502.12829.pdf"

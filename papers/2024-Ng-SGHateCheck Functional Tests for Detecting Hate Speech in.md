@@ -18,7 +18,7 @@ short_title: "SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Res
 year: 2024
 first_author: "[[Ng, Ri Chi]]"
 last_author: "[[Lee, Roy Ka-Wei]]"
-authors: "[[Ng, Ri Chi]]; [[Prakash, Nirmalendu]]; [[Hee, Ming Shan]]; [[Choo, K.]]; [[Lee, Roy Ka-Wei]]"
+authors: "Ng, Ri Chi; Prakash, Nirmalendu; Hee, Ming Shan; Choo, K.; Lee, Roy Ka-Wei"
 authors_incomplete: false
 url: "https://github.com/Social-AI-Studio/SGHateCheck"
 external_pdf: "https://aclanthology.org/2024.woah-1.24.pdf"

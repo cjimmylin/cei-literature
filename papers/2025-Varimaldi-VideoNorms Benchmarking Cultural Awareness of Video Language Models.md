@@ -16,7 +16,7 @@ short_title: "VideoNorms: Benchmarking Cultural Awareness of Video Language Mode
 year: 2025
 first_author: "[[Varimalla, Nikhil Reddy]]"
 last_author: "[[Muresan, Smaranda]]"
-authors: "[[Varimalla, Nikhil Reddy]]; [[Xu, Yunfei]]; [[Saakyan, Arkadiy]]; [[Wang, Meng Fan]]; [[Muresan, Smaranda]]"
+authors: "Varimalla, Nikhil Reddy; Xu, Yunfei; Saakyan, Arkadiy; Wang, Meng Fan; Muresan, Smaranda"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.08543"
 external_pdf: "https://arxiv.org/pdf/2510.08543.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Varimalla, Nikhil Reddy]], [[Xu, Yunfei]], [[Saakyan, Arkadiy]], [[Wei Fan|Wang, Meng Fan]], [[Muresan, Smaranda]]
+[[Varimalla, Nikhil Reddy]], [[Xu, Yunfei]], [[Saakyan, Arkadiy]], [[Wang, Meng Fan]], [[Muresan, Smaranda]]
 
 ## Metadata
 

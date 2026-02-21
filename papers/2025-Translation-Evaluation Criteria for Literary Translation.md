@@ -19,7 +19,7 @@ short_title: "Evaluation Criteria for Literary Translation"
 year: 2025
 first_author: "[[Translation, Evaluation Criteria for Literary]]"
 last_author: "[[Hakobyan, Anna]]"
-authors: "[[Translation, Evaluation Criteria for Literary]]; [[Hakobyan, Anna]]"
+authors: "Translation, Evaluation Criteria for Literary; Hakobyan, Anna"
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/348918378_Evaluation_Criteria_for_Literary_Translation"
 external_pdf: "https://journals.ysu.am/index.php/arm-fol-angl/article/download/Vol.7_No.1_2011_pp.122-127/Vol.7_No.1_2011_pp.122-127.pdf"

@@ -37,6 +37,8 @@ His work extends to semantic parsing, information extraction, and question answe
 
 
 
+
+
 - [[2021-Levy-Collecting a Large-Scale Gender Bias Dataset for|Collecting a Large-Scale Gender Bias Dataset for]] (Last Author)
 - [[2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT|Evaluating Gender Bias in Machine Translation (WinoMT)]] (First Author)
 
@@ -54,6 +56,10 @@ His work extends to semantic parsing, information extraction, and question answe
 
 
 
+
+
+- *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA
+- *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA
 - *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA
 - *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA
 - *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA

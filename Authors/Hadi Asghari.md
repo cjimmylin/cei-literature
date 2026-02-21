@@ -29,6 +29,8 @@ His recent work examines moral reasoning in AI systems, including research on ho
 
 
 
+
+
 - [[2025-Keshmirian-Many LLMs Are More Utilitarian Than One|Many LLMs Are More Utilitarian Than One]]
 
 ## Links
@@ -45,6 +47,10 @@ His recent work examines moral reasoning in AI systems, including research on ho
 
 
 
+
+
+- *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
+- *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign

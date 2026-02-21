@@ -22,10 +22,14 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2025-Adelani-INJONGO A Multicultural Intent Detection and|INJONGO A Multicultural Intent Detection and]]
 - [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]]
 - [[2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs|IrokoBench -- A Benchmark for African Languages in the Age of LLMs]]
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
+- [[2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained|AfroLM A Self-Active Learning-based Multilingual Pretrained]]
 - [[2021-Adelani-MasakhaNER Named Entity Recognition for African|MasakhaNER Named Entity Recognition for African]] (Last Author)
 
 ## Notes
@@ -35,6 +39,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗

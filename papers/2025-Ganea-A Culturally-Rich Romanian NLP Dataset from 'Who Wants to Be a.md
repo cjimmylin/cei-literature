@@ -17,7 +17,7 @@ short_title: "A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a Mil
 year: 2025
 first_author: "[[Alexandru-Gabriel Ganea]]"
 last_author: "[[Adrian-Marius Dumitran]]"
-authors: "[[Alexandru-Gabriel Ganea]]; [[Antonia-Adelina Popovici]]; [[Adrian-Marius Dumitran]]"
+authors: Alexandru-Gabriel Ganea; Antonia-Adelina Popovici; Adrian-Marius Dumitran
 url: "https://arxiv.org/abs/2506.05991"
 external_pdf: "https://arxiv.org/pdf/2506.05991.pdf"
 publication: "arXiv / RANLP 2025"

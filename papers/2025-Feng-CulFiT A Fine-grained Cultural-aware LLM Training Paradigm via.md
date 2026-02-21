@@ -16,7 +16,7 @@ short_title: "CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Mu
 year: 2025
 first_author: "[[Ruixiang Feng]]"
 last_author: "[[Shuo Shang]]"
-authors: Ruixiang Feng, Shen Gao, Xiuying Chen, Lisi Chen, Shuo Shang
+authors: Ruixiang Feng; Shen Gao; Xiuying Chen; Lisi Chen; Shuo Shang
 doi: 10.18653/v1/2025.acl-long.1092
 url: "https://arxiv.org/abs/2505.19484"
 external_pdf: "https://arxiv.org/pdf/2505.19484.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Ruixiang Feng]], [[Shang Gao|Shen Gao]], [[Xiuying Chen]], [[Lisi Chen]], [[Shuo Shang]]
+[[Ruixiang Feng]], [[Shen Gao]], [[Xiuying Chen]], [[Lisi Chen]], [[Shuo Shang]]
 
 ## Metadata
 

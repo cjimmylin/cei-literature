@@ -60,8 +60,12 @@ twitter: ""
 
 
 
+
+
+- [[2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language|MITRA-zh-eval Using a Buddhist Chinese Language]] (Last Author)
 - [[2024-Keutzer-One Model is All You Need|One Model is All You Need]] (Last Author)
 - [[2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in|MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration]]
+- [[2023-Keutzer-MITRA-zh An Efficient Open Machine Translation|MITRA-zh An Efficient Open Machine Translation]] (Last Author)
 
 ## External Links & Profiles
 
@@ -92,6 +96,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
+- *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf

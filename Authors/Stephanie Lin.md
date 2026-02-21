@@ -24,6 +24,8 @@ Stephanie Lin is a Research Scholar who has been affiliated with the University 
 
 
 
+
+
 - [[2022-Lin-TruthfulQA|TruthfulQA]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ Stephanie Lin is a Research Scholar who has been affiliated with the University 
 
 
 
+
+
+- *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: jhilton@openai.com
+- *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: jhilton@openai.com
 - *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com
 - *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com
 - *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com

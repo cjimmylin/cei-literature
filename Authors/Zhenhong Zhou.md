@@ -22,6 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against|CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns]] (First Author)
 - [[2024-Xu-Course-Correction|Course-Correction]]
 
 ## Notes
@@ -31,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University

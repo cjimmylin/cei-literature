@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen

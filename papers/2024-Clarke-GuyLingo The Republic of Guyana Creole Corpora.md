@@ -16,7 +16,7 @@ short_title: "GuyLingo: The Republic of Guyana Creole Corpora"
 year: 2024
 first_author: "[[Christopher Clarke]]"
 last_author: "[[Jason Mars]]"
-authors: Christopher Clarke, Roland Daynauth, Charlene Wilkinson, Hubert Devonish, Jason Mars
+authors: Christopher Clarke; Roland Daynauth; Charlene Wilkinson; Hubert Devonish; Jason Mars
 url: "https://arxiv.org/abs/2405.03832"
 external_pdf: "https://arxiv.org/pdf/2405.03832.pdf"
 publication: NAACL 2024
@@ -51,7 +51,7 @@ CONFERENCE: "NAACL 2024"
 
 ## Authors
 
-[[Charles L.A. Clarke|Christopher Clarke]], [[Roland Daynauth]], [[Charlene Wilkinson]], [[Hubert Devonish]], [[Jason Mars]]
+[[Christopher Clarke]], [[Roland Daynauth]], [[Charlene Wilkinson]], [[Hubert Devonish]], [[Jason Mars]]
 
 ## Metadata
 

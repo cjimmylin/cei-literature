@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large|ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
+- *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of

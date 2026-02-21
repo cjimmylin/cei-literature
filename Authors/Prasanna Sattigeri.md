@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Dognin-Contextual Moral Value Alignment Through|Contextual Moral Value Alignment Through]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Dognin-Contextual Moral Value Alignment Through*: Affiliation: Research Center
+- *From 2024-Dognin-Contextual Moral Value Alignment Through*: Affiliation: Research Center
 - *From 2024-Dognin-Contextual Moral Value Alignment Through*: Affiliation: Research Center
 - *From 2024-Dognin-Contextual Moral Value Alignment Through*: Affiliation: Research Center
 - *From 2024-Dognin-Contextual Moral Value Alignment Through*: Affiliation: Research Center

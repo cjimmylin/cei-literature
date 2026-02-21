@@ -16,9 +16,9 @@ key: ARXIV_2510_05942
 type: preprint
 short_title: EvalMORAAL
 year: 2025
-first_author: "[[Hadi Mohammadi]]"
-last_author: "[[Ayoub Bagheri]]"
-authors: "[[Mohammadi, Hadi]], [[Giachanou, Anastasia]], [[Bagheri, Ayoub]]"
+first_author: "[[Mohammadi]]"
+last_author: "[[Ayoub]]"
+authors: Mohammadi; Hadi; Giachanou; Anastasia; Bagheri; Ayoub
 doi: 10.48550/arXiv.2510.05942
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2510.05942"
@@ -56,7 +56,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Hadi Mohammadi]], [[Anastasia Giachanou]], [[Ayoub Bagheri]]
+[[Mohammadi]], [[Hadi]], [[Giachanou]], [[Anastasia]], [[Bagheri]], [[Ayoub]]
 
 ## Links
 

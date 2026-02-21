@@ -14,9 +14,9 @@ key: G6BN8ZME
 type: journalArticle
 year: 2024
 short_title: "The Ethicsophical Landscape of Large Language"
-first_author: "[[Shahnawaz Akhtar]]"
-last_author: "[[Shahnawaz Akhtar]]"
-authors: "[[Akhtar, Shahnawaz]]"
+first_author: "[[Akhtar]]"
+last_author: "[[Shahnawaz]]"
+authors: Akhtar; Shahnawaz
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DIHXXCK6/Akhtar - The Ethicsophical Landscape of Large Language Models.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.md"
 local_pdf: "[[PDFs/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]"
@@ -50,7 +50,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Shahnawaz Akhtar]]
+[[Akhtar]], [[Shahnawaz]]
 
 ## Abstract
 

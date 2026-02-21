@@ -72,7 +72,7 @@ There has been concern about ideological basis and possible discrimination in te
 
 ## Authors
 
-[[Ronald Fischer]], [[Markus Luczak-Roesch]], [[Johannes A. Karl|Johannes A Karl]]
+[[Ronald Fischer]], [[Markus Luczak-Roesch]], [[Johannes A Karl]]
 
 ## Data Description
 

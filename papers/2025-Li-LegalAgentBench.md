@@ -16,7 +16,7 @@ short_title: LegalAgentBench
 year: 2025
 first_author: "[[Li, Haitao]]"
 last_author: "[[Huang, Minlie]]"
-authors: "[[Li, Haitao]]; [[Chen, Junjie]]; [[Yang, Jingli]]; [[Ai, Qingyao]]; [[Jia, Wei]]; [[Liu, Youfeng]]; [[Lin, Kai]]; [[Wu, Yueyue]]; [[Yuan, Guozhi]]; [[Hu, Yiran]]; [[Wang, Wuyue]]; [[Liu, Yiqun]]; [[Huang, Minlie]]"
+authors: "Li, Haitao; Chen, Junjie; Yang, Jingli; Ai, Qingyao; Jia, Wei; Liu, Youfeng; Lin, Kai; Wu, Yueyue; Yuan, Guozhi; Hu, Yiran; Wang, Wuyue; Liu, Yiqun; Huang, Minlie"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.17259"
 external_pdf: "https://arxiv.org/pdf/2412.17259.pdf"

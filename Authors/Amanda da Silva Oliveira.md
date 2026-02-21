@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large|Toxic Speech Detection in Portuguese: A Comparative Study of Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large*: Affiliation: University of Ouro Preto, Email: thiago.cecote@aluno.ufop.edu.br
+- *From 2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large*: Affiliation: University of Ouro Preto, Email: thiago.cecote@aluno.ufop.edu.br
 - *From 2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large*: Affiliation: University of Ouro Preto, Email: thiago.cecote@aluno.ufop.edu.br
 - *From 2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large*: Affiliation: University of Ouro Preto, Email: eduluz@ufop.edu.br
 - *From 2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large*: Affiliation: University of Ouro Preto, Email: thiago.cecote@aluno.ufop.edu.br

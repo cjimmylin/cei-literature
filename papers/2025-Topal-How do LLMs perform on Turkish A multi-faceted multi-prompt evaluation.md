@@ -16,7 +16,7 @@ short_title: How do LLMs perform on Turkish? A multi-faceted multi-prompt evalua
 year: 2025
 first_author: "[[Mustafa Burak Topal]]"
 last_author: "[[Ayse Basar]]"
-authors: Mustafa Burak Topal, Aysun Bozanta, Ayse Basar
+authors: Mustafa Burak Topal; Aysun Bozanta; Ayse Basar
 doi: 10.1016/j.eswa.2025.127421
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0957417425010437"
 publication: ScienceDirect

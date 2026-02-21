@@ -16,8 +16,8 @@ type: preprint
 short_title: "HeBERT & HebEMO: a Hebrew BERT Model and a Tool for Polarity Analysis and Emotion Recognition"
 year: 2022
 first_author: "[[Avihay Chriqui]]"
-last_author: "[[Inbal Yahav Avihay Chriqui]]"
-authors: "Avihay Chriqui, Inbal Yahav"
+last_author: "[[Inbal Yahav]]"
+authors: Avihay Chriqui; Inbal Yahav
 doi: 10.1287/ijds.2022.0016
 url: "https://arxiv.org/abs/2102.01909"
 external_pdf: "https://arxiv.org/pdf/2102.01909.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Inbal Yahav Avihay Chriqui]]
+[[Avihay Chriqui]], [[Inbal Yahav]]
 
 ## Metadata
 

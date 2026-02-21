@@ -16,9 +16,9 @@ key: EXSR0364
 type: preprint
 short_title: "FARSIQA Faithful and Advanced RAG System"
 year: 2025
-first_author: "[[Mohammad Aghajani Asl, Behrooz Minaei Bidgoli]]"
-last_author: "[[Behrooz Minaei Bidgoli Mohammad Aghajani Asl]]"
-authors: "[[Mohammad Aghajani Asl, Behrooz Minaei Bidgoli]]"
+first_author: "[[Mohammad Aghajani Asl]]"
+last_author: "[[Behrooz Minaei Bidgoli]]"
+authors: Mohammad Aghajani Asl; Behrooz Minaei Bidgoli
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.25621"
 external_pdf: "https://arxiv.org/pdf/2510.25621.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Behrooz Minaei Bidgoli Mohammad Aghajani Asl]]
+[[Mohammad Aghajani Asl]], [[Behrooz Minaei Bidgoli]]
 
 ## Metadata
 

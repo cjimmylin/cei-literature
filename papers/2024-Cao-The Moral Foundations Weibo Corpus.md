@@ -16,7 +16,7 @@ short_title: "The Moral Foundations Weibo Corpus"
 year: 2024
 first_author: "[[Renjie Cao]]"
 last_author: "[[Ihnaini, Baha]]"
-authors: "[[Cao, Renjie]]; [[Hu, Miaoyan]]; [[Wei, Jiahan]]; [[Ihnaini, Baha]]"
+authors: "Cao, Renjie; Hu, Miaoyan; Wei, Jiahan; Ihnaini, Baha"
 url: "https://aclanthology.org/2024.nlp4science-1.13/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FN5EM9LT/2024 - The Moral Foundations Weibo Corpus.pdf"
 national_ethnic_cultural: "Chinese"

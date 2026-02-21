@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Soria-Decolonizing Minority Language Technology - State of the Internet's|Decolonizing Minority Language Technology - State of the Internet's Languages Report]] (First Author)
 
 ## External Links & Profiles

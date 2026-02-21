@@ -18,7 +18,7 @@ short_title: "WangchanThaiInstruct An Instruction-Following Dataset for Culture-
 year: 2025
 first_author: "[[team, VISTEC / AIResearch.in.th]]"
 last_author: "[[VISTEC AIResearch.in.th team]]"
-authors: "[[VISTEC / AIResearch.in.th team]]"
+authors: VISTEC AIResearch.in.th team
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.15239"
 external_pdf: "https://arxiv.org/pdf/2508.15239.pdf"

@@ -14,9 +14,9 @@ key: EXSR0055
 type: preprint
 short_title: "Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment"
 year: 2025
-first_author: "[[D. Agarwal]]"
-last_author: "[[A]]"
-authors: "Agarwal, D., Shukla, A., Sitaram, S., & Vashistha, A"
+first_author: "[[Divyansh Agarwal]]"
+last_author: "[[A & Vashistha]]"
+authors: "Divyansh Agarwal; A. Shukla; Sunayana Sitaram; A & Vashistha"
 url: "https://arxiv.org/abs/2505.21548"
 external_pdf: "https://arxiv.org/pdf/2505.21548.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Agarwal]], [[D.]], [[Shukla]], [[A.]], [[Sunayana Sitaram|Sitaram]], [[S.]], [[& Vashistha]], [[A]]
+[[Divyansh Agarwal]], [[A. Shukla]], [[Sunayana Sitaram]], [[A & Vashistha]]
 
 ## Metadata
 

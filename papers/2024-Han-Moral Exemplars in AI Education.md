@@ -12,9 +12,9 @@ key: AUTO_HAN2024
 type: journalArticle
 short_title: "Moral Exemplars in AI Education"
 year: 2024
-first_author: "[[Hyemin Han]]"
-last_author: "[[Hyemin Han]]"
-authors: "[[Han, Hyemin]]"
+first_author: "[[Han]]"
+last_author: "[[Hyemin]]"
+authors: Han; Hyemin
 doi: N/A
 url: "https://www.researchgate.net/publication/380001142"
 pdf_extract: "PDF Extracts/2024/2024-Han-Moral Exemplars in AI Education.md"
@@ -49,7 +49,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Hyemin Han]]
+[[Han]], [[Hyemin]]
 
 ## Metadata
 

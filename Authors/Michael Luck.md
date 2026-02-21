@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social|Will Systems of LLM Agents Cooperate: An Investigation into a Social Dilemma]] (Last Author)
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social*: Affiliation: College London, Email: michael.luck@sussex.ac.uk
+- *From 2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social*: Affiliation: College London, Email: michael.luck@sussex.ac.uk
 - *From 2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social*: Affiliation: College London, Email: yali.du@kcl.ac.uk
 - *From 2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social*: Affiliation: College London, Email: michael.luck@sussex.ac.uk
 - *From 2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social*: Affiliation: College London, Email: jzl@deepmind.com

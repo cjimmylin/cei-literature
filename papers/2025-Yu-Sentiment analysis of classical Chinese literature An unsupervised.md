@@ -17,7 +17,7 @@ short_title: "Sentiment analysis of classical Chinese literature: An unsupervise
 year: 2025
 first_author: "[[Yu, Xiaohan]]"
 last_author: "[[Wang, Jin]]"
-authors: "[[Yu, Xiaohan]]; [[Wang, Jin]]"
+authors: "Yu, Xiaohan; Wang, Jin"
 authors_incomplete: false
 doi: 10.1371/journal.pone.0330919
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330919"

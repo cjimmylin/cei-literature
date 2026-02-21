@@ -18,7 +18,7 @@ short_title: "Construction and Evaluation of Sentiment Datasets for Low-Resource
 year: 2024
 first_author: "[[Kuriyozov, Elmurod]]"
 last_author: "[[Gómez-Rodríguez, Carlos]]"
-authors: "[[Kuriyozov, Elmurod]]; [[Matlatipov, Sanatbek]]; [[Alonso, Miguel A.]]; [[Gómez-Rodríguez, Carlos]]"
+authors: "Kuriyozov, Elmurod; Matlatipov, Sanatbek; Alonso, Miguel A.; Gómez-Rodríguez, Carlos"
 authors_incomplete: false
 doi: 10.1007/978-3-031-05328-3_15
 url: "https://link.springer.com/chapter/10.1007/978-3-031-05328-3_15"

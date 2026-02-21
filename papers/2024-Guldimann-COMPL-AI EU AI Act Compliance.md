@@ -16,7 +16,7 @@ short_title: "COMPL-AI (EU AI Act Compliance)"
 year: 2024
 first_author: "[[Guldimann, Philipp]]"
 last_author: "[[Vechev, Martin]]"
-authors: "[[Guldimann, Philipp]]; [[Spiridonov, Alexander]]; [[Staab, Robin]]; [[Jovanović, Nikola]]; [[Vero, Mark]]; [[Vechev, Velko]]; [[Gueorguieva, Anna-Maria]]; [[Balunović, Mislav]]; [[Konstantinov, Nikola]]; [[Bielik, Pavol]]; [[Tsankov, Petar]]; [[Vechev, Martin]]"
+authors: "Guldimann, Philipp; Spiridonov, Alexander; Staab, Robin; Jovanović, Nikola; Vero, Mark; Vechev, Velko; Gueorguieva, Anna-Maria; Balunović, Mislav; Konstantinov, Nikola; Bielik, Pavol; Tsankov, Petar; Vechev, Martin"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.07959"
 external_pdf: "https://arxiv.org/pdf/2410.07959.pdf"

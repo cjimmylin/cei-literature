@@ -17,7 +17,7 @@ type: journalArticle
 short_title: "Improving hate speech detection using Cross-Lingual Learning - ScienceDirect"
 year: 2025
 first_author: "[[Firmino, Anderson Almeida]]"
-last_author: "[[de Paiva, Anselmo Cardoso]]"
+last_author: "[[Anselmo Cardoso de Paiva]]"
 authors: Anderson Almeida Firmino; Claudio de Souza Baptista; Anselmo Cardoso de Paiva
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0957417423016172"

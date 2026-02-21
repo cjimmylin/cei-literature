@@ -1,7 +1,7 @@
 ---
 name: "Arthur, Juliet"
 title: "Current Position"
-affiliation: "University/Organization"
+affiliation: "University Academic Bibliography"
 research_interests:
   - "Primary Research Area"
 website: ""
@@ -17,7 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2025-Nsarkoh-A Foundational Architecture for Engineering an|A Foundational Architecture for Engineering an]]
 
 ## Notes
 
+
+
+- *From 2025-Nsarkoh-A Foundational Architecture for Engineering an*: Affiliation: University Academic Bibliography, Email: zahariad@synelixis.com
+- *From 2025-Nsarkoh-A Foundational Architecture for Engineering an*: Affiliation: University Academic Bibliography, Email: zahariad@synelixis.com

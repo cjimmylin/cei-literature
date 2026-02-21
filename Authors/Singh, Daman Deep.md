@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace|Rethinking Hate Speech Detection on Social Media: Can LLMs Replace Traditional Models?]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace*: Affiliation: Institute of Technology Delhi, India
+- *From 2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace*: Affiliation: Institute of Technology Delhi, India
 - *From 2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace*: Affiliation: Institute of Technology Delhi, India
 - *From 2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace*: Affiliation: Institute of Technology Delhi, India
 - *From 2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace*: Affiliation: Institute of Technology Delhi, India

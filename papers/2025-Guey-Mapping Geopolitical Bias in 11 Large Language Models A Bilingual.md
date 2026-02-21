@@ -16,7 +16,7 @@ short_title: "Mapping Geopolitical Bias in 11 Large Language Models: A Bilingual
 year: 2025
 first_author: "[[William Guey]]"
 last_author: "[[Jose O. Gomes]]"
-authors: William Guey, Pierrick Bougault, Vitor D. de Moura, Wei Zhang, Jose O. Gomes
+authors: William Guey; Pierrick Bougault; Vitor D. de Moura; Wei Zhang; Jose O. Gomes
 url: "https://arxiv.org/abs/2503.23688"
 external_pdf: "https://arxiv.org/pdf/2503.23688.pdf"
 publication: arXiv

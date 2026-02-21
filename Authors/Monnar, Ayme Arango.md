@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Monnar-Cross-lingual hate speech detection using domain-specific word|Cross-lingual hate speech detection using domain-specific word embeddings | PLOS One]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Monnar-Cross-lingual hate speech detection using domain-specific word*: Affiliation: Department, Universidad de Chile, Santiago de Chile, Chile, 2 Cero, Email: arangoayme@gmail.com
+- *From 2025-Monnar-Cross-lingual hate speech detection using domain-specific word*: Affiliation: Department, Universidad de Chile, Santiago de Chile, Chile, 2 Cero, Email: arangoayme@gmail.com
 - *From 2025-Monnar-Cross-lingual hate speech detection using domain-specific word*: Affiliation: Department, Universidad de Chile, Santiago de Chile, Chile, 2 Cero, Email: arangoayme@gmail.com
 - *From 2025-Monnar-Cross-lingual hate speech detection using domain-specific word*: Affiliation: Department, Universidad de Chile, Santiago de Chile, Chile, 2 Cero, Email: arangoayme@gmail.com
 - *From 2025-Monnar-Cross-lingual hate speech detection using domain-specific word*: Affiliation: Department, Universidad de Chile, Santiago de Chile, Chile, 2 Cero, Email: arangoayme@gmail.com

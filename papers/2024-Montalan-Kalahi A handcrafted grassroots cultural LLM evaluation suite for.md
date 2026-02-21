@@ -16,7 +16,7 @@ short_title: "Kalahi: A handcrafted, grassroots cultural LLM evaluation suite fo
 year: 2024
 first_author: "[[Montalan, Jann Railey]]"
 last_author: "[[Tjhi, William Chandra]]"
-authors: "[[Montalan, Jann Railey]]; [[Ngui, Jian Gang]]; [[Leong, Wei Qi]]; [[Susanto, Yosephine]]; [[Rengarajan, Hamsawardhini]]; [[Aji, Alham Fikri]]; [[Tjhi, William Chandra]]"
+authors: "Montalan, Jann Railey; Ngui, Jian Gang; Leong, Wei Qi; Susanto, Yosephine; Rengarajan, Hamsawardhini; Aji, Alham Fikri; Tjhi, William Chandra"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.15380"
 external_pdf: "https://arxiv.org/pdf/2409.15380.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Jann Railey Montalan|Montalan, Jann Railey]], [[Ngui, Jian Gang]], [[Leong, Wei Qi]], [[Susanto, Yosephine]], [[Rengarajan, Hamsawardhini]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Tjhi, William Chandra]]
+[[Jann Railey Montalan|Montalan, Jann Railey]], [[Ngui, Jian Gang]], [[Leong, Wei Qi]], [[Susanto, Yosephine]], [[Rengarajan, Hamsawardhini]], [[Aji, Alham Fikri]], [[Tjhi, William Chandra]]
 
 ## Metadata
 

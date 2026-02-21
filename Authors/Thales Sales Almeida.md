@@ -58,7 +58,11 @@ twitter: ""
 
 
 
+
+
 - [[2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs|BRoverbs -- Measuring how much LLMs understand Portuguese proverbs]] (First Author)
+- [[2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in|PoETa v2: Toward More Robust Evaluation of Large Language Models in Portuguese]] (First Author)
+- [[2023-Pires-Sabiá Portuguese Large Language Models|Sabiá: Portuguese Large Language Models]]
 
 ## External Links & Profiles
 
@@ -87,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in*: Affiliation: Institute of Computing, University of Campinas (UNICAMP)
+- *From 2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in*: Affiliation: Institute of Computing, University of Campinas (UNICAMP)
 - *From 2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs*: Affiliation: Institute of Computing, University of Campinas, Email: t224732@dac.unicamp.br
 - *From 2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs*: Affiliation: Institute of Computing, University of Campinas, Email: g216832@dac.unicamp.br
 - *From 2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs*: Affiliation: Institute of Computing, University of Campinas, Email: t224732@dac.unicamp.br

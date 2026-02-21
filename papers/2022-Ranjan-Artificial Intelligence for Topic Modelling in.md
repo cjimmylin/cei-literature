@@ -16,9 +16,9 @@ key: EXSR0580
 type: preprint
 short_title: "Artificial Intelligence for Topic Modelling in"
 year: 2022
-first_author: "[[Rohitash Chandra, Mukul Ranjan]]"
-last_author: "[[Mukul Ranjan Rohitash Chandra]]"
-authors: "[[Rohitash Chandra, Mukul Ranjan]]"
+first_author: "[[Rohitash Chandra]]"
+last_author: "[[Mukul Ranjan]]"
+authors: Rohitash Chandra; Mukul Ranjan
 authors_incomplete: false
 url: "https://arxiv.org/abs/2205.11020"
 external_pdf: "https://arxiv.org/pdf/2205.11020.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Mukul Ranjan Rohitash Chandra]]
+[[Rohitash Chandra]], [[Mukul Ranjan]]
 
 ## Metadata
 

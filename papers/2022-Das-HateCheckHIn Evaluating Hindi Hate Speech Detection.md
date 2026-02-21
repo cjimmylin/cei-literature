@@ -17,7 +17,7 @@ short_title: "HateCheckHIn Evaluating Hindi Hate Speech Detection"
 year: 2022
 first_author: "[[Das, Mithun]]"
 last_author: "[[Mukherjee, Animesh]]"
-authors: "[[Das, Mithun]]; [[Saha, Punyajoy]]; [[Mathew, Binny]]; [[Mukherjee, Animesh]]"
+authors: "Das, Mithun; Saha, Punyajoy; Mathew, Binny; Mukherjee, Animesh"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2205.00328"
 external_pdf: "https://arxiv.org/pdf/2205.00328.pdf"

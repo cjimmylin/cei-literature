@@ -55,6 +55,8 @@ Zou's work spans machine learning, computational biology, computational health, 
 
 
 
+
+
 - [[2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate|NegotiationArena: How Well Can LLMs Negotiate?]] (Last Author)
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Li-Quantifying AI Psychology|Quantifying AI Psychology]]
@@ -68,6 +70,10 @@ Zou's work spans machine learning, computational biology, computational health, 
 
 
 
+
+
+- *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: tolgab@bu.edu
+- *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: tolgab@bu.edu
 - *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: kw@kwchang.net
 - *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: srv@bu.edu
 - *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: tolgab@bu.edu

@@ -22,6 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large|AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models]]
 - [[2023-Liu-AlignBench|AlignBench]]
 
 ## Notes
@@ -31,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI

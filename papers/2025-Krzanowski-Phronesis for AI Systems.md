@@ -17,7 +17,7 @@ short_title: "Phronesis for AI Systems"
 year: 2025
 first_author: "[[Roman Krzanowski]]"
 last_author: "[[Polak, Paweł]]"
-authors: "[[Krzanowski, Roman]]; [[Polak, Paweł]]"
+authors: "Krzanowski, Roman; Polak, Paweł"
 doi: N/A
 url: "https://www.researchgate.net/publication/381504958_Phronesis_for_AI_Systems_Conceptual_Foundations_Current_Research_and_Prospects"
 pdf_extract: "PDF Extracts/2025/2025-Krzanowski-Phronesis for AI Systems.md"

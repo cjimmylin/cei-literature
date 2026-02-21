@@ -25,6 +25,8 @@ Md Tahmid Rahman Laskar is a Senior Applied Scientist (NLP & ML) at Dialpad. Pre
 
 
 
+
+
 - [[2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and|BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP]]
 - [[2024-Laskar-A Systematic Survey and Critical Review on|A Systematic Survey and Critical Review on]] (First Author)
 
@@ -35,6 +37,10 @@ Md Tahmid Rahman Laskar is a Senior Applied Scientist (NLP & ML) at Dialpad. Pre
 
 
 
+
+
+- *From 2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and*: Affiliation: University of Technology, 2York University, 3University of Alberta, Email: bari0001@e.ntu.edu.sg
+- *From 2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and*: Affiliation: University of Technology, 2York University, 3University of Alberta, Email: bari0001@e.ntu.edu.sg
 - *From 2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and*: Affiliation: University of Technology, 2York University, 3University of Alberta, Email: enamulh@yorku.ca
 - *From 2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and*: Affiliation: University of Technology, 2York University, 3University of Alberta, Email: mnayeem@ualberta.ca
 - *From 2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and*: Affiliation: University of Technology, 2York University, 3University of Alberta, Email: enamulh@yorku.ca

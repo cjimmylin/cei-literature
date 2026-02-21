@@ -39,9 +39,12 @@ Her work has been featured in Nature, The New York Times, The Washington Post, M
 
 
 
+
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
 - [[2024-Pistilli-CIVICS|CIVICS]] (First Author)
+- [[2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in|CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models]] (First Author)
 
 ## External Links
 
@@ -57,6 +60,10 @@ Her work has been featured in Nature, The New York Times, The Washington Post, M
 
 
 
+
+
+- *From 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in*: Affiliation: University of Amsterdam
+- *From 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in*: Affiliation: University of Amsterdam
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co

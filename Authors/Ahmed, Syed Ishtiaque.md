@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and|LLM-Based Multi-Task Bangla Hate Speech Detection: Type, Severity, and Target]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and*: Affiliation: University of Toronto, Canada, 2Qatar Computing Research Institute, Qatar, Email: fialam@hbku.edu.qa
+- *From 2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and*: Affiliation: University of Toronto, Canada, 2Qatar Computing Research Institute, Qatar, Email: fialam@hbku.edu.qa
 - *From 2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and*: Affiliation: University of Toronto, Canada, 2Qatar Computing Research Institute, Qatar, Email: fialam@hbku.edu.qa
 - *From 2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and*: Affiliation: University of Toronto, Canada, 2Qatar Computing Research Institute, Qatar, Email: fialam@hbku.edu.qa
 - *From 2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and*: Affiliation: University of Toronto, Canada, 2Qatar Computing Research Institute, Qatar, Email: fialam@hbku.edu.qa

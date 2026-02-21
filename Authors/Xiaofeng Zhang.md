@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in|CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
+- *From 2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 - *From 2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 - *From 2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 - *From 2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec

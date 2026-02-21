@@ -17,7 +17,7 @@ short_title: "Adaptive Ensemble Techniques Leveraging BERT-based Models for Mult
 year: 2025
 first_author: "[[Yoo, Seohyun]]"
 last_author: "[[Cho, Jaehyuk]]"
-authors: "[[Yoo, Seohyun]]; [[Jeon, Eunbae]]; [[Hyeon, Joonseo]]; [[Cho, Jaehyuk]]"
+authors: "Yoo, Seohyun; Jeon, Eunbae; Hyeon, Joonseo; Cho, Jaehyuk"
 authors_incomplete: false
 doi: 10.1038/s41598-025-88960-y
 url: "https://www.nature.com/articles/s41598-025-88960-y"

@@ -16,7 +16,7 @@ short_title: "The choice of deontological, virtue ethical, and"
 year: 2023
 first_author: "[[Andrew Maile]]"
 last_author: "[[Kristjánsson, Kristján]]"
-authors: "[[Maile, Andrew]]; [[Thompson, Aidan]]; [[McLoughlin, Shane]]; [[Kristjánsson, Kristján]]"
+authors: "Maile, Andrew; Thompson, Aidan; McLoughlin, Shane; Kristjánsson, Kristján"
 doi: 10.1080/10508422.2022.2124995
 url: "https://www.tandfonline.com/doi/full/10.1080/10508422.2022.2124995"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/M4TD65P2/Maile et al. - 2023 - The choice of deontological, virtue ethical, and consequentialist moral reasoning strategies by pre-.pdf"

@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech|Leveraging LLM and Self-Supervised Training Models for Speech Recognition in Chinese Dialects: A Comparative Analysis]] (First Author)
+- [[2024-Yao-CLAVE ValEval|CLAVE / ValEval]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Yao-CLAVE ValEval*: Affiliation: labels, leveraging its extensive knowledge and
+- *From 2024-Yao-CLAVE ValEval*: Affiliation: labels, leveraging its extensive knowledge and
 - *From 2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech*: Affiliation: Institute of Artificial Intelligence (TeleAI), China Telecom, China, Email: lxie@nwpu.edu.cn
 - *From 2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech*: Affiliation: Institute of Artificial Intelligence (TeleAI), China Telecom, China, Email: xutianyi@mail.nwpu.edu.cn
 - *From 2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech*: Affiliation: Institute of Artificial Intelligence (TeleAI), China Telecom, China, Email: lxie@nwpu.edu.cn

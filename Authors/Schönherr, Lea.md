@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Debenedetti-SaTML LLM CTF Dataset|SaTML LLM CTF Dataset]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Debenedetti-SaTML LLM CTF Dataset*: Affiliation: Center for Information Security
+- *From 2024-Debenedetti-SaTML LLM CTF Dataset*: Affiliation: Center for Information Security
 - *From 2024-Debenedetti-SaTML LLM CTF Dataset*: Affiliation: Center for Information Security
 - *From 2024-Debenedetti-SaTML LLM CTF Dataset*: Affiliation: Center for Information Security
 - *From 2024-Debenedetti-SaTML LLM CTF Dataset*: Affiliation: Center for Information Security

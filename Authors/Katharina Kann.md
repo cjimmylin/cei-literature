@@ -25,6 +25,8 @@ Katharina Kann (also known as Katharina von der Wense) is an Assistant Professor
 
 
 
+
+
 - [[2022-Kann-AmericasNLI|AmericasNLI]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ Katharina Kann (also known as Katharina von der Wense) is an Assistant Professor
 
 
 
+
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 - *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder

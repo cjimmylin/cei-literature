@@ -18,7 +18,7 @@ short_title: "Cultural Evaluation of LLMs in Russian: Catchphrases and Cultural 
 year: 2025
 first_author: "[[Gromenko, Elizaveta]]"
 last_author: "[[Shulginov, Valery]]"
-authors: "[[Gromenko, Elizaveta]]; [[Kalacheva, Daria]]; [[Klokova, Ksenia]]; [[Krongauz, Maxim]]; [[Moroz, Oksana]]; [[Shulginov, Valery]]"
+authors: "Gromenko, Elizaveta; Kalacheva, Daria; Klokova, Ksenia; Krongauz, Maxim; Moroz, Oksana; Shulginov, Valery"
 authors_incomplete: false
 url: "https://dialogue-conf.org/wp-content/uploads/2025/04/GromenkoEetal.029.pdf"
 external_pdf: "https://doi.org/10.28995/2075-7182-2025-23-117-128"

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2019-Basile-SemEval-2019 Task 5|SemEval-2019 Task 5]] (Last Author)
 - [[2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against|SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter (HatEval)]] (Last Author)
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es
+- *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es
 - *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es
 - *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es
 - *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es

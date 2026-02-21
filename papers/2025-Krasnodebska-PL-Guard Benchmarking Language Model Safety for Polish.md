@@ -16,8 +16,8 @@ type: preprint
 short_title: "PL-Guard: Benchmarking Language Model Safety for Polish"
 year: 2025
 first_author: "[[Aleksandra Krasnodebska]]"
-last_author: "[[Wojciech Kusa Szymon Lukasik]]"
-authors: "Aleksandra Krasnodebska, Karolina Seweryn, Szymon Lukasik, Wojciech Kusa"
+last_author: "[[Wojciech Kusa]]"
+authors: Aleksandra Krasnodebska; Karolina Seweryn; Szymon Lukasik; Wojciech Kusa
 url: "https://arxiv.org/abs/2506.16322"
 external_pdf: "https://arxiv.org/pdf/2506.16322.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Karolina Seweryn Aleksandra Krasnodebska]], [[Wojciech Kusa Szymon Lukasik]]
+[[Aleksandra Krasnodebska]], [[Karolina Seweryn]], [[Szymon Lukasik]], [[Wojciech Kusa]]
 
 ## Metadata
 

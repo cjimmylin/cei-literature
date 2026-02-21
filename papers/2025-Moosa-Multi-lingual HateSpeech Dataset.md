@@ -16,9 +16,9 @@ key: LSRC0772
 type: conferencePaper
 short_title: "Multi-lingual HateSpeech Dataset"
 year: 2025
-first_author: "[[Moosa, Wajid Hassan]]"
-last_author: "[[Moosa, Wajid Hassan]]"
-authors: "Moosa, Wajid Hassan"
+first_author: "[[Moosa]]"
+last_author: "[[Wajid Hassan]]"
+authors: Moosa; Wajid Hassan
 authors_incomplete: false
 url: "https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hatespeech-dataset"
 publication: Web
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Moosa, Wajid Hassan]]
+[[Moosa]], [[Wajid Hassan]]
 
 ## Metadata
 

@@ -15,8 +15,8 @@ type: preprint
 short_title: "Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch"
 year: 2025
 first_author: "[[Shalaka Satheesh]]"
-last_author: "[[Teena Hassan Sebastian Houben]]"
-authors: "Shalaka Satheesh, Katrin Klug, Katharina Beckh, Hector Allende-Cid, Sebastian Houben, Teena Hassan"
+last_author: "[[Teena Hassan]]"
+authors: Shalaka Satheesh; Katrin Klug; Katharina Beckh; Hector Allende-Cid; Sebastian Houben; Teena Hassan
 url: "https://arxiv.org/abs/2507.16442"
 external_pdf: "https://arxiv.org/pdf/2507.16442.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Katrin Klug Shalaka Satheesh]], [[Hector Allende-Cid Katharina Beckh]], [[Teena Hassan Sebastian Houben]]
+[[Shalaka Satheesh]], [[Katrin Klug]], [[Katharina Beckh]], [[Hector Allende-Cid]], [[Sebastian Houben]], [[Teena Hassan]]
 
 ## Metadata
 

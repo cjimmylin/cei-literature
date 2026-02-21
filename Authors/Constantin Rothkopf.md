@@ -38,6 +38,8 @@ Constantin Rothkopf is a full professor at TU Darmstadt's Institute for Psycholo
 
 
 
+
+
 - [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]]
 
 ## External Links & Profiles
@@ -52,6 +54,10 @@ Constantin Rothkopf is a full professor at TU Darmstadt's Institute for Psycholo
 
 
 
+
+
+- *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
+- *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu

@@ -16,7 +16,7 @@ short_title: "Semantic Analysis of Jurisprudential Zoroastrian Texts in Pahlavi:
 year: 2025
 first_author: "[[Rashin Rahnamoun]]"
 last_author: "[[Ramin Rahnamoun]]"
-authors: Rashin Rahnamoun, Ramin Rahnamoun
+authors: Rashin Rahnamoun; Ramin Rahnamoun
 url: "https://aclanthology.org/2025.clrel-1.3/"
 publication: ACL Anthology (CLRel 2025 Workshop at COLING 2025)
 CONF-CC: "COLING 2025 Workshop"
@@ -50,7 +50,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Rashin Rahnamoun, Ramin Rahnamoun]]
+[[Rashin Rahnamoun]], [[Ramin Rahnamoun]]
 
 ## Metadata
 

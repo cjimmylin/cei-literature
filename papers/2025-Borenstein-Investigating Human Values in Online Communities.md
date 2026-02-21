@@ -15,8 +15,8 @@ type: conferencePaper
 short_title: Investigating Human Values in Online Communities
 year: 2025
 first_author: "[[Nadav Borenstein]]"
-last_author: "[[Isabelle Augenstein Lucie-Aimee Kaffee]]"
-authors: Nadav Borenstein, Arnav Arora, Lucie-Aimee Kaffee, Isabelle Augenstein
+last_author: "[[Isabelle Augenstein]]"
+authors: Nadav Borenstein; Arnav Arora; Lucie-Aimee Kaffee; Isabelle Augenstein
 doi: 10.18653/v1/2025.naacl-long.77
 url: "https://aclanthology.org/2025.naacl-long.77/"
 external_pdf: "https://arxiv.org/pdf/2402.14177.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "NAACL 2025"
 
 ## Authors
 
-[[Arnav Arora Nadav Borenstein]], [[Isabelle Augenstein Lucie-Aimee Kaffee]]
+[[Nadav Borenstein]], [[Arnav Arora]], [[Lucie-Aimee Kaffee]], [[Isabelle Augenstein]]
 
 ## Metadata
 

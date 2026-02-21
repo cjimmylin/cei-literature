@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances|COPAL-ID: Indonesian Language Reasoning with Local Culture and Nuances]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances*:, Email: haryo.wibowo@mbzuai.ac.ae
+- *From 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances*:, Email: haryo.wibowo@mbzuai.ac.ae
 - *From 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances*:, Email: haryo.wibowo@mbzuai.ac.ae
 - *From 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances*:, Email: haryo.wibowo@mbzuai.ac.ae
 - *From 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances*:, Email: haryo.wibowo@mbzuai.ac.ae

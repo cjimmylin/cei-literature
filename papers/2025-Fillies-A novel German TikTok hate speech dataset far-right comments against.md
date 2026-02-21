@@ -17,7 +17,7 @@ short_title: "A novel German TikTok hate speech dataset: far-right comments agai
 year: 2025
 first_author: "[[Jan Fillies]]"
 last_author: "[[Adrian Paschke]]"
-authors: "[[Jan Fillies]]; [[Esther Theisen]]; [[Michael Hoffmann]]; [[Robert Jung]]; [[Elena Jung]]; [[Nele Fischer]]; [[Adrian Paschke]]"
+authors: Jan Fillies; Esther Theisen; Michael Hoffmann; Robert Jung; Elena Jung; Nele Fischer; Adrian Paschke
 doi: 10.1007/s44248-025-00020-y
 url: "https://link.springer.com/article/10.1007/s44248-025-00020-y"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44248-025-00020-y.pdf"

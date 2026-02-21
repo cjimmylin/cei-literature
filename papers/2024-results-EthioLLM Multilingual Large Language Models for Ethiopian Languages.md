@@ -51,7 +51,7 @@ CONFERENCE: "LREC-COLING 2024"
 
 ## Authors
 
-[[Not fully listed in search results|Not specified in search results]]
+[[Not specified in search results]]
 
 ## Metadata
 

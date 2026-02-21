@@ -13,9 +13,9 @@ key: AUTO_BROPHY2025
 type: preprint
 short_title: "Wide Reflective Equilibrium LLM Alignment"
 year: 2025
-first_author: "[[Matthew Brophy]]"
-last_author: "[[Matthew Brophy]]"
-authors: "[[Brophy, Matthew]]"
+first_author: "[[Brophy]]"
+last_author: "[[Matthew]]"
+authors: Brophy; Matthew
 doi: N/A
 url: "https://arxiv.org/abs/2506.00415"
 pdf_extract: "PDF Extracts/2025/2025-Brophy-Wide Reflective Equilibrium LLM Alignment.md"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Matthew E. Brophy|Matthew Brophy]]
+[[Brophy]], [[Matthew]]
 
 ## Metadata
 

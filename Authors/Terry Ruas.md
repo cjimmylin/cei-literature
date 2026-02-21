@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Becker-Stay Focused|Stay Focused]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
+- *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
 - *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
 - *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
 - *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de

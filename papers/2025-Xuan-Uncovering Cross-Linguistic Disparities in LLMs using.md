@@ -18,7 +18,7 @@ short_title: "Uncovering Cross-Linguistic Disparities in LLMs using"
 year: 2025
 first_author: "[[Richmond Sin Jing Xuan]]"
 last_author: "[[Yang Zhang]]"
-authors: "[[Richmond Sin Jing Xuan]]; [[Jalil Huseynov]]; [[Yang Zhang]]"
+authors: Richmond Sin Jing Xuan; Jalil Huseynov; Yang Zhang
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.18918"
 external_pdf: "https://arxiv.org/pdf/2507.18918.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Richeng Xuan|Richmond Sin Jing Xuan]], [[Jalil Huseynov]], [[Yang Zhang]]
+[[Richmond Sin Jing Xuan]], [[Jalil Huseynov]], [[Yang Zhang]]
 
 ## Metadata
 

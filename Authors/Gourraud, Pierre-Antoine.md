@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for|FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for*: Affiliation: Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for - PDF Extract", Email: first.lastname@univ-avignon.fr
+- *From 2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for*: Affiliation: Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for - PDF Extract", Email: first.lastname@univ-avignon.fr
 - *From 2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for*: Affiliation: Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for - PDF Extract", Email: first.lastname@univ-nantes.fr
 - *From 2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for*: Affiliation: Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for - PDF Extract", Email: first.lastname@univ-avignon.fr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

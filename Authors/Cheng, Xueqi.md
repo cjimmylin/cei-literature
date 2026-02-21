@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Cheng-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书|Large Language Model Generate Prompt 生成式大模型 安全评估白皮书]] (First Author)
 - [[2025-Wen-Evaluating Implicit Bias in Large Language Models|Evaluating Implicit Bias in Large Language Models]] (Last Author)
 
@@ -84,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 - *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

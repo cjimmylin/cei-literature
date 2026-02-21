@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
 - [[2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for|Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino]]
 - [[2023-Susanto-BHASA A Holistic Southeast Asian Linguistic|BHASA A Holistic Southeast Asian Linguistic]] (First Author)
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: weiqi@aisingapore.org
+- *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: weiqi@aisingapore.org
 - *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: wtjhi@aisingapore.org
 - *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: weiqi@aisingapore.org
 - *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: yosephine@aisingapore.org

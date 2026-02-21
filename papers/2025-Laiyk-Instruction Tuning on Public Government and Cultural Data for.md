@@ -17,7 +17,7 @@ short_title: "Instruction Tuning on Public Government and Cultural Data for Low-
 year: 2025
 first_author: "[[Laiyk, Nurkhan]]"
 last_author: "[[Koto, Fajri]]"
-authors: "[[Laiyk, Nurkhan]]; [[Orel, Daniil]]; [[Joshi, Rituraj]]; [[Goloburda, Maiya]]; [[Wang, Yuxia]]; [[Nakov, Preslav]]; [[Koto, Fajri]]"
+authors: "Laiyk, Nurkhan; Orel, Daniil; Joshi, Rituraj; Goloburda, Maiya; Wang, Yuxia; Nakov, Preslav; Koto, Fajri"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.13647"
 external_pdf: "https://arxiv.org/pdf/2502.13647.pdf"

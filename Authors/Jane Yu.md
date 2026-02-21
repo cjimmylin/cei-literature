@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2022-Ziems-The Moral Integrity Corpus|The Moral Integrity Corpus]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology

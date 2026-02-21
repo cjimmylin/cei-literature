@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Wang-All Languages Matter|All Languages Matter]]
 - [[2024-Wang-All Languages Matter On the Multilingual Safety of Large Language|All Languages Matter: On the Multilingual Safety of Large Language Models]]
 - [[2024-Wang-XSafety Multilingual Safety Benchmark|XSafety: Multilingual Safety Benchmark]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
+- *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong

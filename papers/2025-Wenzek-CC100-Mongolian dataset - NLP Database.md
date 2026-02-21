@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "CC100-Mongolian dataset - NLP Database"
 year: 2025
 first_author: "[[Wenzek, Guillaume]]"
-last_author: "[[Grave, Edouard]]"
+last_author: "[[Edouard Grave]]"
 authors: Guillaume Wenzek; Marie-Anne Lachaux; Alexis Conneau; Vishrav Chaudhary; Francisco Guzman; Armand Joulin; Edouard Grave
 authors_incomplete: false
 url: "https://autonlp.ai/datasets/cc100-mongolian"

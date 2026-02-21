@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Safinah Ali|Syed Muhammad Ali]], [[Hammad Sajid]], [[Zainab Haider]], [[Ali Muhammad Asad]], [[Haya Fatima]], [[Abdul Samad]]
+[[Syed Muhammad Ali]], [[Hammad Sajid]], [[Zainab Haider]], [[Ali Muhammad Asad]], [[Haya Fatima]], [[Abdul Samad]]
 
 ## Metadata
 

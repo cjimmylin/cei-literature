@@ -22,6 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social|Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch]] (Last Author)
 - [[2025-Satheesh-GG-BBQ|GG-BBQ]] (Last Author)
 
 ## Notes
@@ -31,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social*: Affiliation: Department of Advanced Computing Sciences, Email: jerry.spanakis@maastrichtuniversity.nl
+- *From 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social*: Affiliation: Department of Advanced Computing Sciences, Email: jerry.spanakis@maastrichtuniversity.nl
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de

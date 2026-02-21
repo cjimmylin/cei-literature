@@ -17,9 +17,9 @@ key: EXSR0562
 type: preprint
 short_title: "Muslim-Violence Bias Persists in Debiased GPT"
 year: 2023
-first_author: "[[Babak Hemmatian, Lav R. Varshney]]"
-last_author: "[[Lav R. Varshney Babak Hemmatian]]"
-authors: "[[Babak Hemmatian, Lav R. Varshney]]"
+first_author: "[[Babak Hemmatian]]"
+last_author: "[[Lav R. Varshney]]"
+authors: Babak Hemmatian; Lav R. Varshney
 authors_incomplete: false
 url: "https://arxiv.org/abs/2310.18368"
 external_pdf: "https://arxiv.org/pdf/2310.18368.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "NeurIPS 2023"
 
 ## Authors
 
-[[Lav R. Varshney Babak Hemmatian]]
+[[Babak Hemmatian]], [[Lav R. Varshney]]
 
 ## Metadata
 

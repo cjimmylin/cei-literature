@@ -16,7 +16,7 @@ short_title: Examining the Behavior of LLM Architectures Within the Framework of
 year: 2024
 first_author: "[[Marcelo Sartori Locatelli]]"
 last_author: "[[Virgilio Almeida]]"
-authors: Marcelo Sartori Locatelli, Matheus Prado Miranda, Igor Joaquim da Silva Costa, Matheus Torres Prates, Victor Thomé, Mateus Zaparoli Monteiro, Tomas Lacerda, Adriana Pagano, Eduardo Rios Neto, Wagner Meira Jr., Virgilio Almeida
+authors: Marcelo Sartori Locatelli; Matheus Prado Miranda; Igor Joaquim da Silva Costa; Matheus Torres Prates; Victor Thomé; Mateus Zaparoli Monteiro; Tomas Lacerda; Adriana Pagano; Eduardo Rios Neto; Wagner Meira Jr.; Virgilio Almeida
 url: "https://arxiv.org/abs/2408.05035"
 external_pdf: "https://arxiv.org/pdf/2408.05035.pdf"
 publication: arXiv

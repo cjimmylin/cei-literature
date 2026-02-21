@@ -15,8 +15,8 @@ type: preprint
 short_title: "Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models"
 year: 2024
 first_author: "[[Yeeun Kim]]"
-last_author: "[[Wonseok Hwang Hai Jin Park]]"
-authors: "Yeeun Kim, Young Rok Choi, Eunkyung Choi, Jinhwan Choi, Hai Jin Park, Wonseok Hwang"
+last_author: "[[Wonseok Hwang]]"
+authors: Yeeun Kim; Young Rok Choi; Eunkyung Choi; Jinhwan Choi; Hai Jin Park; Wonseok Hwang
 doi: 10.18653/v1/2024.findings-emnlp.319
 url: "https://arxiv.org/abs/2410.08731"
 external_pdf: "https://arxiv.org/pdf/2410.08731.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "EMNLP 2024"
 
 ## Authors
 
-[[Young Rok Choi Yeeun Kim]], [[Jinhwan Choi Eunkyung Choi]], [[Woomyoung Park|Wonseok Hwang Hai Jin Park]]
+[[Yeeun Kim]], [[Young Rok Choi]], [[Eunkyung Choi]], [[Jinhwan Choi]], [[Hai Jin Park]], [[Wonseok Hwang]]
 
 ## Metadata
 

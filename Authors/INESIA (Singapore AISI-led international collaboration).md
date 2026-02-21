@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages|Improving Methodologies for LLM Evaluations Across Global Languages]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages*: Affiliation: laboration-Improving Methodologies for LLM Evaluations Across Global Languages - PDF Extract"
+- *From 2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages*: Affiliation: laboration-Improving Methodologies for LLM Evaluations Across Global Languages - PDF Extract"
 - *From 2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages*: Affiliation: laboration-Improving Methodologies for LLM Evaluations Across Global Languages - PDF Extract"
 - *From 2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages*: Affiliation: laboration-Improving Methodologies for LLM Evaluations Across Global Languages - PDF Extract"
 - *From 2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages*: Affiliation: laboration-Improving Methodologies for LLM Evaluations Across Global Languages - PDF Extract"

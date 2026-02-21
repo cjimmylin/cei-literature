@@ -16,7 +16,7 @@ short_title: "SOLD: Sinhala Offensive Language Dataset"
 year: 2024
 first_author: "[[Ranasinghe, Tharindu]]"
 last_author: "[[Zampieri, Marcos]]"
-authors: "[[Ranasinghe, Tharindu]]; [[Anuradha, Isuri]]; [[Premasiri, Damith]]; [[Silva, Kanishka]]; [[Hettiarachchi, Hansi]]; [[Uyangodage, Lasitha]]; [[Zampieri, Marcos]]"
+authors: "Ranasinghe, Tharindu; Anuradha, Isuri; Premasiri, Damith; Silva, Kanishka; Hettiarachchi, Hansi; Uyangodage, Lasitha; Zampieri, Marcos"
 authors_incomplete: false
 doi: 10.1007/s10579-024-09723-1
 url: "https://link.springer.com/article/10.1007/s10579-024-09723-1"

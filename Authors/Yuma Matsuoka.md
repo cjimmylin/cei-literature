@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a|Intersectional Bias in Japanese Large Language Models from a Contextualized Perspective]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a*: Affiliation: University of Tokyo 2Riken 3Rikkyo University 4Softbank corp, Email: hyanaka@is.s.u
+- *From 2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a*: Affiliation: University of Tokyo 2Riken 3Rikkyo University 4Softbank corp, Email: hyanaka@is.s.u
 - *From 2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a*: Affiliation: University of Tokyo 2Riken 3Rikkyo University 4Softbank corp, Email: hyanaka@is.s.u
 - *From 2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a*: Affiliation: University of Tokyo 2Riken 3Rikkyo University 4Softbank corp, Email: hyanaka@is.s.u
 - *From 2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a*: Affiliation: University of Tokyo 2Riken 3Rikkyo University 4Softbank corp, Email: hyanaka@is.s.u

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU|Measuring Taiwanese Mandarin Language Understanding (TMLU)]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: r11922184@ntu.edu.tw
+- *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: r11922184@ntu.edu.tw
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: ytl@ieee.org
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: r11922184@ntu.edu.tw
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: ytl@ieee.org

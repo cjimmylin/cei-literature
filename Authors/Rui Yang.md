@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in|SEALGuard Safeguarding the Multilingual Conversations in]]
 - [[2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced|MMLU-ProX A Multilingual Benchmark for Advanced]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in*: Affiliation: University of Melbourne, Email: wenliang.shan@monash.edu
+- *From 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in*: Affiliation: University of Melbourne, Email: wenliang.shan@monash.edu
 - *From 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in*: Affiliation: University of Melbourne, Email: rui.yang1@monash.edu
 - *From 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in*: Affiliation: University of Melbourne, Email: wenliang.shan@monash.edu
 - *From 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in*: Affiliation: University of Melbourne, Email: rui.yang1@monash.edu

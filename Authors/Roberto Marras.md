@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian|MedBench-IT: A Comprehensive Benchmark for Evaluating LLMs on Italian Medical Entrance Examinations]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian*: Affiliation: University of Graz
+- *From 2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian*: Affiliation: University of Graz
 - *From 2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian*: Affiliation: University of Graz
 - *From 2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian*: Affiliation: University of Graz
 - *From 2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian*: Affiliation: University of Graz

@@ -18,8 +18,8 @@ type: conferencePaper
 short_title: "Fake Alignment (FINE Framework)"
 year: 2024
 first_author: "[[Du, Yihan]]"
-last_author: "[[Srikant, R]]"
-authors: "[[Du, Yihan]]; [[Kong, Seo Taek]]; [[Srikant, R.]]"
+last_author: "[[Srikant, R.]]"
+authors: "Du, Yihan; Kong, Seo Taek; Srikant, R."
 authors_incomplete: false
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"

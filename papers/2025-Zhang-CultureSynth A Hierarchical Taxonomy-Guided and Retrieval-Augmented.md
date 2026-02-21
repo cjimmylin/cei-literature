@@ -16,7 +16,7 @@ short_title: "CultureSynth: A Hierarchical Taxonomy-Guided and Retrieval-Augment
 year: 2025
 first_author: "[[Xinyu Zhang]]"
 last_author: "[[Fei Huang]]"
-authors: Xinyu Zhang, Pei Zhang, Shuang Luo, Jialong Tang, Yu Wan, Baosong Yang, Fei Huang
+authors: Xinyu Zhang; Pei Zhang; Shuang Luo; Jialong Tang; Yu Wan; Baosong Yang; Fei Huang
 url: "https://aclanthology.org/2025.findings-emnlp.552/"
 external_pdf: "https://arxiv.org/pdf/2509.10886.pdf"
 publication: Findings of EMNLP 2025
@@ -51,7 +51,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Xinyu Zhang]], [[Pei Zhang]], [[Shuang Luo]], [[Jialong Tang]], [[Yu Wan]], [[Bikun Yang|Baosong Yang]], [[Fei Huang]]
+[[Xinyu Zhang]], [[Pei Zhang]], [[Shuang Luo]], [[Jialong Tang]], [[Yu Wan]], [[Baosong Yang]], [[Fei Huang]]
 
 ## Metadata
 

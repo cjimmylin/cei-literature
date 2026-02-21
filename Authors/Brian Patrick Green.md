@@ -50,6 +50,8 @@ He has collaborated with the Vatican and the World Economic Forum on establishin
 
 
 
+
+
 - [[2023-Hou-A Multi-Level Framework for the AI Alignment|A Multi-Level Framework for the AI Alignment]] (Last Author)
 - [[2023-Hou-Foundational Moral Values for AI Alignment|Foundational Moral Values for AI Alignment]] (Last Author)
 
@@ -70,6 +72,10 @@ He has collaborated with the Vatican and the World Economic Forum on establishin
 
 
 
+
+
+- *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: bpgreen@scu.edu
+- *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: bpgreen@scu.edu
 - *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: blh9134@nyu.edu
 - *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: bpgreen@scu.edu
 - *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: blh9134@nyu.edu

@@ -16,9 +16,9 @@ key: EXSR0450
 type: preprint
 short_title: "WenyanGPT A Large Language Model for"
 year: 2025
-first_author: "[[Xinyu Yao, Mengdi Wang, Bo Chen, Xiaobing Zhao]]"
-last_author: "[[Xiaobing Zhao Bo Chen]]"
-authors: "[[Xinyu Yao, Mengdi Wang, Bo Chen, Xiaobing Zhao]]"
+first_author: "[[Xinyu Yao]]"
+last_author: "[[Xiaobing Zhao]]"
+authors: Xinyu Yao; Mengdi Wang; Bo Chen; Xiaobing Zhao
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.20609"
 external_pdf: "https://arxiv.org/pdf/2504.20609.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "IJCAI 2025"
 
 ## Authors
 
-[[Mengdi Wang Xinyu Yao]], [[Xiaobing Zhao Bo Chen]]
+[[Xinyu Yao]], [[Mengdi Wang]], [[Bo Chen]], [[Xiaobing Zhao]]
 
 ## Metadata
 

@@ -22,8 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Dubey-Addressing Moral Uncertainty using Large Language|Addressing Moral Uncertainty using Large Language]] (Last Author)
-- [[2025-Mahajan-Mapping Moral Reasoning in LLMs|Mapping Moral Reasoning in LLMs]] (First Author)
 
 ## Notes
 
@@ -32,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Dubey-Addressing Moral Uncertainty using Large Language*:, Email: damian.dailisan@gess.ethz.ch
+- *From 2025-Dubey-Addressing Moral Uncertainty using Large Language*:, Email: damian.dailisan@gess.ethz.ch
 - *From 2025-Dubey-Addressing Moral Uncertainty using Large Language*:, Email: sachit.mahajan@gess.ethz.ch
 - *From 2025-Dubey-Addressing Moral Uncertainty using Large Language*:, Email: damian.dailisan@gess.ethz.ch
 - *From 2025-Dubey-Addressing Moral Uncertainty using Large Language*:, Email: damian.dailisan@gess.ethz.ch

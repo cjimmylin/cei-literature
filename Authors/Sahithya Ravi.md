@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Chiu-CulturalBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
+- *From 2025-Chiu-CulturalBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-CulturalBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-CulturalBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-CulturalBench*: Affiliation: University of Washington, Email: lwjiang@cs.washington.edu

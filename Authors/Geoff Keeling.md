@@ -39,6 +39,8 @@ His philosophical interests include alignment, manipulation, trust, digital mind
 
 
 
+
+
 - [[2025-Gabriel-AI Alignment as Fair Treatment of Claims|AI Alignment as Fair Treatment of Claims]] (Last Author)
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - [[2024-Street-LLMs achieve adult human performance on|LLMs achieve adult human performance on]]
@@ -57,6 +59,10 @@ His philosophical interests include alignment, manipulation, trust, digital mind
 
 
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of

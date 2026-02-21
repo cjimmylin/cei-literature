@@ -17,7 +17,7 @@ short_title: "HOCON34k: A Corpus of Hate Speech in Online Comments from German N
 year: 2024
 first_author: "[[Max-Emanuel Keller]]"
 last_author: "[[Markus Franz]]"
-authors: "[[Max-Emanuel Keller]]; [[Maximilian Auch]]; [[Alexander Döschl]]; [[Fabian Vlk]]; [[Julian Quernheim]]; [[Mike Hartmann]]; [[Peter Mandl]]; [[Alexander Kaul]]; [[Markus Franz]]"
+authors: Max-Emanuel Keller; Maximilian Auch; Alexander Döschl; Fabian Vlk; Julian Quernheim; Mike Hartmann; Peter Mandl; Alexander Kaul; Markus Franz
 doi: 10.1007/978-3-031-78090-5_18
 url: "https://link.springer.com/chapter/10.1007/978-3-031-78090-5_18"
 publication: Springer

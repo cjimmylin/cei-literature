@@ -16,7 +16,7 @@ short_title: NaVAB
 year: 2025
 first_author: "[[Chengyi Ju]]"
 last_author: "[[Guo, Yike]]"
-authors: "[[Ju, Chengyi]]; [[Shi, Weijie]]; [[Liu, Chengzhong]]; [[Ji, Jiaming]]; [[Zhang, Jipeng]]; [[Zhang, Ruiyuan]]; [[Xu, Jiajie]]; [[Yang, Yaodong]]; [[Han, Sirui]]; [[Guo, Yike]]"
+authors: "Ju, Chengyi; Shi, Weijie; Liu, Chengzhong; Ji, Jiaming; Zhang, Jipeng; Zhang, Ruiyuan; Xu, Jiajie; Yang, Yaodong; Han, Sirui; Guo, Yike"
 url: "https://aclanthology.org/2025.findings-acl.1028/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5RMIU8JW/2025 - NaVAB Benchmarking Multi-National Value Alignment for Large Language Models.pdf"
 national_ethnic_cultural: "Chinese, French, German, American"

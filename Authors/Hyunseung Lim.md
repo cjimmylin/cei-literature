@@ -1,9 +1,9 @@
 ---
 name: "Hyunseung Lim"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "411juhyun@kaist.ac.kr"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Lim-How Do Users Identify and Perceive Stereotypes Understanding User|How Do Users Identify and Perceive Stereotypes Understanding User]]
+
+- [[2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation|Culture is Everywhere: A Call for Intentionally Cultural Evaluation]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation*: Affiliation: Institute of Technology, Email: 411juhyun@kaist.ac.kr
+- *From 2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation*: Affiliation: Institute of Technology, Email: 411juhyun@kaist.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

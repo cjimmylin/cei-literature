@@ -60,6 +60,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark|TIB-STC A Large-Scale Structured Tibetan Benchmark]]
 - [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language|EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models]]
 
@@ -92,6 +95,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: zhaoyi3@seas.upenn.edu
+- *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: zhaoyi3@seas.upenn.edu
 - *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: wanghaodawn@gmail.com
 - *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: zhaoyi3@seas.upenn.edu
 - *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: wanghaodawn@gmail.com

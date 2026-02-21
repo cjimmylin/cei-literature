@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias|Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias in Low-Resource Bengali]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias*: Affiliation: Department of Computer Science, Email: 18-36304-1@student.aiub.edu
+- *From 2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias*: Affiliation: Department of Computer Science, Email: 18-36304-1@student.aiub.edu
 - *From 2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias*: Affiliation: Department of Computer Science, Email: abira.student@wust.edu
 - *From 2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias*: Affiliation: Department of Computer Science, Email: 18-36304-1@student.aiub.edu
 - *From 2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias*: Affiliation: Department of Computer Science, Email: 20-43999-2@student.aiub.edu

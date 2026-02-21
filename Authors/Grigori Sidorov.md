@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yimam-CULEMO Cultural Lenses on Emotion --|CULEMO Cultural Lenses on Emotion --]]
+- [[2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism|YouTube-Based Religious Hate Speech and Extremism]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism*: Affiliation: Center for International Business & Human Rights at the University of
+- *From 2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism*: Affiliation: Center for International Business & Human Rights at the University of
 - *From 2025-Yimam-CULEMO Cultural Lenses on Emotion --*: Affiliation: College, 3Wollo University, Email: tadesseit@gmail.com
 - *From 2025-Yimam-CULEMO Cultural Lenses on Emotion --*: Affiliation: College, 3Wollo University, Email: tadesseit@gmail.com
 - *From 2025-Yimam-CULEMO Cultural Lenses on Emotion --*: Affiliation: College, 3Wollo University, Email: tadesseit@gmail.com

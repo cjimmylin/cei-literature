@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale|GVS-Scale and GVS-Bench: GenAI Value Safety Scale]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale*: Affiliation: Research Institute for Data Management & Innovation, Nanjing University, Suzhou, China, Email: libaiyang@nju.edu.cn
+- *From 2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale*: Affiliation: Research Institute for Data Management & Innovation, Nanjing University, Suzhou, China, Email: libaiyang@nju.edu.cn
 - *From 2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale*: Affiliation: Research Institute for Data Management & Innovation, Nanjing University, Suzhou, China, Email: libaiyang@nju.edu.cn
 - *From 2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale*: Affiliation: Research Institute for Data Management & Innovation, Nanjing University, Suzhou, China, Email: libaiyang@nju.edu.cn
 - *From 2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale*: Affiliation: Research Institute for Data Management & Innovation, Nanjing University, Suzhou, China, Email: libaiyang@nju.edu.cn

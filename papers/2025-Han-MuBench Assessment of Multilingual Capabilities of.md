@@ -20,7 +20,7 @@ short_title: "MuBench Assessment of Multilingual Capabilities of"
 year: 2025
 first_author: "[[Wenhan Han]]"
 last_author: "[[Yin Zheng]]"
-authors: "[[Wenhan Han]]; [[Yifan Zhang]]; [[Zhixun Chen]]; [[Binbin Liu]]; [[Haobin Lin]]; [[Bingni Zhang]]; [[Taifeng Wang]]; [[Mykola Pechenizkiy]]; [[Meng Fang]]; [[Yin Zheng]]"
+authors: Wenhan Han; Yifan Zhang; Zhixun Chen; Binbin Liu; Haobin Lin; Bingni Zhang; Taifeng Wang; Mykola Pechenizkiy; Meng Fang; Yin Zheng
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.19468"
 external_pdf: "https://arxiv.org/pdf/2506.19468.pdf"
@@ -57,7 +57,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Wenhan Han]], [[Yifan Zhang]], [[Zhixun Chen]], [[Binbin Liu]], [[Haobin Lin]], [[Bingni Zhang]], [[Taifeng Wang]], [[Mykola Pechenizkiy]], [[Ming Fang|Meng Fang]], [[Yefeng Zheng|Yin Zheng]]
+[[Wenhan Han]], [[Yifan Zhang]], [[Zhixun Chen]], [[Binbin Liu]], [[Haobin Lin]], [[Bingni Zhang]], [[Taifeng Wang]], [[Mykola Pechenizkiy]], [[Meng Fang]], [[Yin Zheng]]
 
 ## Metadata
 

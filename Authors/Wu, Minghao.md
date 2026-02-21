@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks|The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks*: Affiliation: University of Edinburgh
+- *From 2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks*: Affiliation: University of Edinburgh
 - *From 2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks*: Affiliation: University of Edinburgh
 - *From 2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks*: Affiliation: University of Edinburgh
 - *From 2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks*: Affiliation: University of Edinburgh

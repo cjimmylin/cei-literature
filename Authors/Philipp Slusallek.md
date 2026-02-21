@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering|AmharicStoryQA A Multicultural Story Question Answering]]
 - [[2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource|ProverbEval: Exploring LLM Evaluation Challenges for Low-resource Language Understanding]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional
+- *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional
 - *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional
 - *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional
 - *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional

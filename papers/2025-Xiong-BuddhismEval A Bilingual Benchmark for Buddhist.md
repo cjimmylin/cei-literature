@@ -17,9 +17,9 @@ key: EXSR0339
 type: conference_paper
 short_title: "BuddhismEval A Bilingual Benchmark for Buddhist"
 year: 2025
-first_author: "[[Nethmi Muthugala, Deyi Xiong]]"
-last_author: "[[Deyi Xiong Nethmi Muthugala]]"
-authors: "[[Nethmi Muthugala, Deyi Xiong]]"
+first_author: "[[Nethmi Muthugala]]"
+last_author: "[[Deyi Xiong]]"
+authors: Nethmi Muthugala; Deyi Xiong
 authors_incomplete: false
 url: 
 external_pdf: 
@@ -55,7 +55,7 @@ CONFERENCE: "NeurIPS 2025"
 
 ## Authors
 
-[[Deyi Xiong Nethmi Muthugala]]
+[[Nethmi Muthugala]], [[Deyi Xiong]]
 
 ## Metadata
 

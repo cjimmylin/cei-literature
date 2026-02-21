@@ -19,7 +19,7 @@ short_title: "OLID-BR: Offensive Language Identification Dataset for Brazilian P
 year: 2024
 first_author: "[[Douglas Trajano]]"
 last_author: "[[Renata Vieira]]"
-authors: "Douglas Trajano, Henrique Bordini, Renata Vieira"
+authors: Douglas Trajano; Henrique Bordini; Renata Vieira
 doi: 10.1007/s10579-023-09657-0
 url: "https://link.springer.com/article/10.1007/s10579-023-09657-0"
 publication: "Springer (Language Resources and Evaluation)"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2019-Phuong-Emotion Recognition for Vietnamese Social Media Text|Emotion Recognition for Vietnamese Social Media Text]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2019-Phuong-Emotion Recognition for Vietnamese Social Media Text*: Affiliation: University of Information Technology, VNU-HCM, Vietnam, Email: vanlinhpham888@gmail.com
+- *From 2019-Phuong-Emotion Recognition for Vietnamese Social Media Text*: Affiliation: University of Information Technology, VNU-HCM, Vietnam, Email: vanlinhpham888@gmail.com
 - *From 2019-Phuong-Emotion Recognition for Vietnamese Social Media Text*: Affiliation: University of Information Technology, VNU-HCM, Vietnam, Email: vund@uit.edu.vn
 - *From 2019-Phuong-Emotion Recognition for Vietnamese Social Media Text*: Affiliation: University of Information Technology, VNU-HCM, Vietnam, Email: vanlinhpham888@gmail.com
 - *From 2019-Phuong-Emotion Recognition for Vietnamese Social Media Text*: Affiliation: University of Information Technology, VNU-HCM, Vietnam, Email: vund@uit.edu.vn

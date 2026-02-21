@@ -17,8 +17,8 @@ type: preprint
 short_title: "Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs"
 year: 2024
 first_author: "[[Hyeonwoo Kim]]"
-last_author: "[[Chanjun Park Yungi Kim]]"
-authors: "Hyeonwoo Kim, Dahyun Kim, Jihoo Kim, Sukyung Lee, Yungi Kim, Chanjun Park"
+last_author: "[[Chanjun Park]]"
+authors: Hyeonwoo Kim; Dahyun Kim; Jihoo Kim; Sukyung Lee; Yungi Kim; Chanjun Park
 url: "https://arxiv.org/abs/2410.12445"
 external_pdf: "https://arxiv.org/pdf/2410.12445.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical.md"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Dahyun Kim Hyeonwoo Kim]], [[Sukyung Lee Jihoo Kim]], [[Cheol Woo Kim|Chanjun Park Yungi Kim]]
+[[Hyeonwoo Kim]], [[Dahyun Kim]], [[Jihoo Kim]], [[Sukyung Lee]], [[Yungi Kim]], [[Chanjun Park]]
 
 ## Metadata
 

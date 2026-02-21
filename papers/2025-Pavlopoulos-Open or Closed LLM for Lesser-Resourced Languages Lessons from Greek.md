@@ -15,8 +15,8 @@ type: preprint
 short_title: "Open or Closed LLM for Lesser-Resourced Languages? Lessons from Greek"
 year: 2025
 first_author: "[[John Pavlopoulos]]"
-last_author: "[[Maria Gavriilidou Kanella Pouli]]"
-authors: "John Pavlopoulos, Juli Bakagianni, Kanella Pouli, Maria Gavriilidou"
+last_author: "[[Maria Gavriilidou]]"
+authors: John Pavlopoulos; Juli Bakagianni; Kanella Pouli; Maria Gavriilidou
 url: "https://arxiv.org/abs/2501.12826"
 external_pdf: "https://arxiv.org/pdf/2501.12826.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Juli Bakagianni John Pavlopoulos]], [[Maria Gavriilidou Kanella Pouli]]
+[[John Pavlopoulos]], [[Juli Bakagianni]], [[Kanella Pouli]], [[Maria Gavriilidou]]
 
 ## Metadata
 

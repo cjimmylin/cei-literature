@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Wen-Evaluating Implicit Bias in Large Language Models|Evaluating Implicit Bias in Large Language Models]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 - *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 - *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 - *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology

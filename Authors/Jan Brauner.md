@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Tan-How to Catch an AI Liar|How to Catch an AI Liar]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
+- *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 - *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 - *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 - *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford

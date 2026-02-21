@@ -16,7 +16,7 @@ short_title: CBBQ
 year: 2024
 first_author: "[[Yufei Huang]]"
 last_author: "[[Xiong, Deyi]]"
-authors: "[[Huang, Yufei]]; [[Xiong, Deyi]]"
+authors: "Huang, Yufei; Xiong, Deyi"
 url: "https://aclanthology.org/2024.lrec-main.260/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/843YR4ZV/2024 - CBBQ A Chinese Bias Benchmark Dataset Curated with Human–AI Collaboration.pdf"
 national_ethnic_cultural: "Chinese"

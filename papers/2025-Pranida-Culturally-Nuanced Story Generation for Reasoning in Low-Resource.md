@@ -17,7 +17,7 @@ short_title: "Culturally-Nuanced Story Generation for Reasoning in Low-Resource 
 year: 2025
 first_author: "[[Pranida, Salsabila Zahirah]]"
 last_author: "[[Koto, Fajri]]"
-authors: "[[Pranida, Salsabila Zahirah]]; [[Genadi, Rifo Ahmad]]; [[Koto, Fajri]]"
+authors: "Pranida, Salsabila Zahirah; Genadi, Rifo Ahmad; Koto, Fajri"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.12932"
 external_pdf: "https://arxiv.org/pdf/2502.12932.pdf"

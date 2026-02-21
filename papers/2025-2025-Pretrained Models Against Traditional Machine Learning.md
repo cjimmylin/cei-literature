@@ -19,7 +19,7 @@ short_title: "Pretrained Models Against Traditional Machine Learning"
 year: 2025
 first_author: "[[2025), Multiple (MDPI Electronics]]"
 last_author: "[[Multiple (MDPI Electronics 2025)]]"
-authors: "[[Multiple (MDPI Electronics 2025)]]"
+authors: Multiple (MDPI Electronics 2025)
 authors_incomplete: false
 url: 
 external_pdf: 

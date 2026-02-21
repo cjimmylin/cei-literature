@@ -17,7 +17,7 @@ short_title: "UrduLLaMA 1.0: Dataset Curation, Preprocessing, and Evaluation in 
 year: 2025
 first_author: "[[Fiaz, Layba]]"
 last_author: "[[Hussain, Sarmad]]"
-authors: "[[Fiaz, Layba]]; [[Tahir, Munief Hassan]]; [[Shams, Sana]]; [[Hussain, Sarmad]]"
+authors: "Fiaz, Layba; Tahir, Munief Hassan; Shams, Sana; Hussain, Sarmad"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.16961"
 external_pdf: "https://arxiv.org/pdf/2502.16961.pdf"

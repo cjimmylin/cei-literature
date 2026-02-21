@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Chakraborty-Sometimes the Model doth Preach Quantifying|Sometimes the Model doth Preach Quantifying]]
 - [[2024-Bonagiri-SaGE|SaGE]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: manas@umbc.edu
+- *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: manas@umbc.edu
 - *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: priyanshul.govil@research.iiit.ac.in
 - *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: manas@umbc.edu
 - *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: sreeram.vennam@students.iiit.ac.in

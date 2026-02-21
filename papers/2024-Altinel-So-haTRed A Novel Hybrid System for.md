@@ -19,7 +19,7 @@ short_title: "So-haTRed A Novel Hybrid System for"
 year: 2024
 first_author: "[[Ayse Berna Altinel]]"
 last_author: "[[Mustafa Zahid Gurbuz]]"
-authors: "[[Ayse Berna Altinel]]; [[Gozde Karatas Baydogmus]]; [[Sema Sahin]]; [[Mustafa Zahid Gurbuz]]"
+authors: Ayse Berna Altinel; Gozde Karatas Baydogmus; Sema Sahin; Mustafa Zahid Gurbuz
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/10559617/"
 external_pdf: "https://doi.org/10.1109/access.2024.3415350"

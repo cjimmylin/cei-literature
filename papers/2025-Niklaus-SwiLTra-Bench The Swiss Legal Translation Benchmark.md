@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Joel Niklaus]], [[Jakob Merane]], [[Luka Nenadic]], [[Sina Ahmadi]], [[Yingqiang Gao]], [[Cyrill A. H. Chevalley]], [[Claude Humbel]], [[Christophe Gösken]], [[Lorenzo Tanzi]], [[Thomas Lüthi]], [[Stefan Palombo]], [[Spencer Poff]], [[Bikun Yang|Boling Yang]], [[Nan Wu]], [[Matthew Guillod]], [[Robin Mamié]], [[Daniel Brunner]], [[Julio Pereyra]], [[Niko Grupen]]
+[[Joel Niklaus]], [[Jakob Merane]], [[Luka Nenadic]], [[Sina Ahmadi]], [[Yingqiang Gao]], [[Cyrill A. H. Chevalley]], [[Claude Humbel]], [[Christophe Gösken]], [[Lorenzo Tanzi]], [[Thomas Lüthi]], [[Stefan Palombo]], [[Spencer Poff]], [[Boling Yang]], [[Nan Wu]], [[Matthew Guillod]], [[Robin Mamié]], [[Daniel Brunner]], [[Julio Pereyra]], [[Niko Grupen]]
 
 ## Metadata
 

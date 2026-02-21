@@ -15,8 +15,8 @@ type: preprint
 short_title: "PBBQ: A Persian Bias Benchmark Dataset Curated with Human-AI Collaboration for Large Language Models"
 year: 2025
 first_author: "[[Farsi, Farhan]]"
-last_author: "[[Payberah, Amir H]]"
-authors: "[[Farsi, Farhan]]; [[Bali, Shayan]]; [[Valeh, Fatemeh]]; [[Ghofrani, Parsa]]; [[Pakniat, Alireza]]; [[Kashfipour, Kian]]; [[Payberah, Amir H.]]"
+last_author: "[[Payberah, Amir H.]]"
+authors: "Farsi, Farhan; Bali, Shayan; Valeh, Fatemeh; Ghofrani, Parsa; Pakniat, Alireza; Kashfipour, Kian; Payberah, Amir H."
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.19616"
 external_pdf: "https://arxiv.org/pdf/2510.19616.pdf"

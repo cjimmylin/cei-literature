@@ -24,6 +24,8 @@ Dipankar Ray is a researcher who has worked on natural language processing, part
 
 
 
+
+
 - [[2022-Hartvigsen-ToxiGen|ToxiGen]]
 
 ## Notes
@@ -33,6 +35,10 @@ Dipankar Ray is a researcher who has worked on natural language processing, part
 
 
 
+
+
+- *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: maartensap@cmu.edu
+- *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: maartensap@cmu.edu
 - *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: skgabrie@cs.washington.edu
 - *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: hpalangi@microsoft.com
 - *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: maartensap@cmu.edu

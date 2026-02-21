@@ -16,7 +16,7 @@ short_title: "Indigenous Peoples and Artificial Intelligence: A Systematic Revie
 year: 2025
 first_author: "[[Maneesha Perera]]"
 last_author: "[[Saman Halgamuge]]"
-authors: Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Melissa Kennedy, Brendan Kennedy, Saman Halgamuge
+authors: Maneesha Perera; Rajith Vidanaarachchi; Sangeetha Chandrashekeran; Melissa Kennedy; Brendan Kennedy; Saman Halgamuge
 doi: 10.1177/20539517251349170
 url: "https://journals.sagepub.com/doi/10.1177/20539517251349170"
 publication: "SAGE Big Data & Society"
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Melissa Kennedy, Brendan Kennedy, Saman Halgamuge]]
+[[Maneesha Perera]], [[Rajith Vidanaarachchi]], [[Sangeetha Chandrashekeran]], [[Melissa Kennedy]], [[Brendan Kennedy]], [[Saman Halgamuge]]
 
 ## Metadata
 

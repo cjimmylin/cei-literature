@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "On The Origin of Cultural Biases in Language Models: From Pre-training Data to Linguistic Phenomena"
 year: 2025
 first_author: "[[Tarek Naous]]"
-last_author: "[[Wei Xu Tarek Naous]]"
-authors: Tarek Naous, Wei Xu
+last_author: "[[Wei Xu]]"
+authors: Tarek Naous; Wei Xu
 doi: 10.18653/v1/2025.naacl-long.326
 url: "https://aclanthology.org/2025.naacl-long.326/"
 external_pdf: "https://aclanthology.org/2025.naacl-long.326.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "NAACL 2025"
 
 ## Authors
 
-[[Wei Xu Tarek Naous]]
+[[Tarek Naous]], [[Wei Xu]]
 
 ## Metadata
 

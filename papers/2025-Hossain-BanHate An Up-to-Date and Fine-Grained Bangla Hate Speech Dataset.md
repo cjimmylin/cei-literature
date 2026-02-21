@@ -19,7 +19,7 @@ short_title: "BanHate: An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset
 year: 2025
 first_author: "[[Hossain, Faisal]]"
 last_author: "[[Farhan, Md]]"
-authors: "[[Hossain, Faisal]]; [[Rahman, Akm Moshiur]]; [[Hasan, Md Tahmid]]; [[Farhan, Md]]"
+authors: "Hossain, Faisal; Rahman, Akm Moshiur; Hasan, Md Tahmid; Farhan, Md"
 authors_incomplete: true
 url: "https://aclanthology.org/2025.banglalp-1.19/"
 external_pdf: "https://aclanthology.org/2025.banglalp-1.19.pdf"

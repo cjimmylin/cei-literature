@@ -23,6 +23,8 @@ Wen Luo is a postdoctoral researcher in the Space Structure Lab at California In
 
 
 
+
+
 - [[2024-Luo-HalluDial|HalluDial]] (First Author)
 
 ## Notes
@@ -32,6 +34,10 @@ Wen Luo is a postdoctoral researcher in the Space Structure Lab at California In
 
 
 
+
+
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence

@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Wen-Yi-Do Chinese models speak Chinese languages|Do Chinese models speak Chinese languages?]]
+- [[2024-Wen-Yi-How Chinese are Chinese Language Models The Puzzling Lack of Language|How Chinese are Chinese Language Models? The Puzzling Lack of Language Policy in China's LLMs]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Wen-Yi-Do Chinese models speak Chinese languages*:, Email: andreawwenyi@infosci.cornell.edu
+- *From 2025-Wen-Yi-Do Chinese models speak Chinese languages*:, Email: andreawwenyi@infosci.cornell.edu
 - *From 2025-Wen-Yi-Do Chinese models speak Chinese languages*:, Email: unsojo@cornell.edu
 - *From 2025-Wen-Yi-Do Chinese models speak Chinese languages*:, Email: andreawwenyi@infosci.cornell.edu
 - *From 2025-Wen-Yi-Do Chinese models speak Chinese languages*:, Email: andreawwenyi@infosci.cornell.edu

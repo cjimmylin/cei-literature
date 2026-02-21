@@ -36,7 +36,10 @@ Professor Jorge's research focuses on extracting structured knowledge from unstr
 
 
 
+
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
+- [[2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus|NaijaSenti A Nigerian Twitter Sentiment Corpus]]
 
 ## External Links & Profiles
 - [Personal Page](https://www.dcc.fc.up.pt/~amjorge/)
@@ -48,6 +51,10 @@ Professor Jorge's research focuses on extracting structured knowledge from unstr
 
 
 
+
+
+- *From 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus*: Affiliation: Faculty of Sciences-University of Porto, Portugal
+- *From 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus*: Affiliation: Faculty of Sciences-University of Porto, Portugal
 - *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 - *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 - *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng

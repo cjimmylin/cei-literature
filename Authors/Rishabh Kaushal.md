@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection|Towards Fairness Assessment of Dutch Hate Speech Detection]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection*: Affiliation: University 2Indira Gandhi Delhi Technical University for Women 3Utrecht University, Email: jtsg.bauer@student.maastrichtuniversity.nl
+- *From 2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection*: Affiliation: University 2Indira Gandhi Delhi Technical University for Women 3Utrecht University, Email: jtsg.bauer@student.maastrichtuniversity.nl
 - *From 2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection*: Affiliation: University 2Indira Gandhi Delhi Technical University for Women 3Utrecht University, Email: jtsg.bauer@student.maastrichtuniversity.nl
 - *From 2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection*: Affiliation: University 2Indira Gandhi Delhi Technical University for Women 3Utrecht University, Email: jtsg.bauer@student.maastrichtuniversity.nl
 - *From 2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection*: Affiliation: University 2Indira Gandhi Delhi Technical University for Women 3Utrecht University, Email: jtsg.bauer@student.maastrichtuniversity.nl

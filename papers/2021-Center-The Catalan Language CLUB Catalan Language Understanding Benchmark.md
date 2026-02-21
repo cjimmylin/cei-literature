@@ -15,7 +15,7 @@ short_title: "The Catalan Language CLUB (Catalan Language Understanding Benchmar
 year: 2021
 first_author: "[[Rodriguez-Penagos, Carlos]]"
 last_author: "[[Pio, Casimiro Carrino]]"
-authors: "[[Rodriguez-Penagos, Carlos]]; [[Armentano-Oller, Carme]]; [[Villegas, Marta]]; [[Melero, Maite]]; [[Gonzalez, Aitor]]; [[Bonet, Ona de Gibert]]; [[Pio, Casimiro Carrino]]"
+authors: "Rodriguez-Penagos, Carlos; Armentano-Oller, Carme; Villegas, Marta; Melero, Maite; Gonzalez, Aitor; Bonet, Ona de Gibert; Pio, Casimiro Carrino"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2112.01894"
 external_pdf: "https://arxiv.org/pdf/2112.01894.pdf"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Rodriguez-Penagos, Carlos]], [[Armentano, Carme|Armentano-Oller, Carme]], [[Villegas, Marta]], [[Melero, Maite]], [[Gonzalez, Aitor]], [[Bonet, Ona de Gibert]], [[Pio, Casimiro Carrino]]
+[[Rodriguez-Penagos, Carlos]], [[Armentano-Oller, Carme]], [[Villegas, Marta]], [[Melero, Maite]], [[Gonzalez, Aitor]], [[Bonet, Ona de Gibert]], [[Pio, Casimiro Carrino]]
 
 ## Metadata
 

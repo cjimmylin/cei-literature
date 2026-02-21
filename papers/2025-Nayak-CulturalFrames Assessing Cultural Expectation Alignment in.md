@@ -16,7 +16,7 @@ short_title: "CulturalFrames: Assessing Cultural Expectation Alignment in Text-t
 year: 2025
 first_author: "[[Shravan Nayak]]"
 last_author: "[[Aishwarya Agrawal]]"
-authors: Shravan Nayak, Mehar Bhatia, Xiaofeng Zhang, Verena Rieser, Lisa Anne Hendricks, Sjoerd van Steenkiste, Yash Goyal, Karolina Stanczak, Aishwarya Agrawal
+authors: Shravan Nayak; Mehar Bhatia; Xiaofeng Zhang; Verena Rieser; Lisa Anne Hendricks; Sjoerd van Steenkiste; Yash Goyal; Karolina Stanczak; Aishwarya Agrawal
 doi: 10.18653/v1/2025.findings-emnlp.1141
 url: "https://aclanthology.org/2025.findings-emnlp.1141/"
 external_pdf: "https://arxiv.org/pdf/2506.08835.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Shravan Nayak]], [[Mehar Bhatia]], [[Xiaofeng Zhang]], [[Verena Rieser]], [[Lisa Anne Hendricks]], [[Sjoerd van Steenkiste]], [[Yash Goyal]], [[Karolina Stanczak]], [[Ameeta Agrawal|Aishwarya Agrawal]]
+[[Shravan Nayak]], [[Mehar Bhatia]], [[Xiaofeng Zhang]], [[Verena Rieser]], [[Lisa Anne Hendricks]], [[Sjoerd van Steenkiste]], [[Yash Goyal]], [[Karolina Stanczak]], [[Aishwarya Agrawal]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks|Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
+- *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
 - *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
 - *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
 - *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California

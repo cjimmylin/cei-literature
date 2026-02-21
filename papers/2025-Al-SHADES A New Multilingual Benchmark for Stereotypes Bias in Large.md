@@ -17,7 +17,7 @@ short_title: "SHADES: A New Multilingual Benchmark for Stereotypes Bias in Large
 year: 2025
 first_author: "[[Al, Hamdan]]"
 last_author: "[[Villa, Emilio]]"
-authors: "[[Al, Hamdan]]; [[Zosa, Jessica]]; [[Luis, Roberto]]; [[Sta, Karolina]]; [[Timponi, Tiago]]; [[Villa, Emilio]]"
+authors: "Al, Hamdan; Zosa, Jessica; Luis, Roberto; Sta, Karolina; Timponi, Tiago; Villa, Emilio"
 authors_incomplete: true
 url: "https://aiadvisoryboards.wordpress.com/2025/05/02/shades-a-new-multilingual-benchmark-for-stereotypes-bias-in-large-language-models-2025/"
 external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"

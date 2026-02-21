@@ -15,8 +15,8 @@ type: preprint
 short_title: "BiasLab (Multilingual Dual-Framing Framework)"
 year: 2026
 first_author: "[[Guey, William]]"
-last_author: "[[Gomes, Jose O]]"
-authors: "[[Guey, William]]; [[Zhang, Wei]]; [[Rau, Pei-Luen Patrick]]; [[Bougault, Pierrick]]; [[Moura, Vitor D. de]]; [[Ucar, Bertan]]; [[Gomes, Jose O.]]"
+last_author: "[[Gomes, Jose O.]]"
+authors: "Guey, William; Zhang, Wei; Rau, Pei-Luen Patrick; Bougault, Pierrick; Moura, Vitor D. de; Ucar, Bertan; Gomes, Jose O."
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06861"
 external_pdf: "https://arxiv.org/pdf/2601.06861.pdf"

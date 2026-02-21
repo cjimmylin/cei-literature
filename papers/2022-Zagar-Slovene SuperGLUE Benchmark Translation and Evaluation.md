@@ -15,8 +15,8 @@ type: preprint
 short_title: "Slovene SuperGLUE Benchmark: Translation and Evaluation"
 year: 2022
 first_author: "[[Ales Zagar]]"
-last_author: "[[Marko Robnik-Sikonja Ales Zagar]]"
-authors: "Ales Zagar, Marko Robnik-Sikonja"
+last_author: "[[Marko Robnik-Sikonja]]"
+authors: Ales Zagar; Marko Robnik-Sikonja
 url: "https://arxiv.org/abs/2202.04994"
 external_pdf: "https://arxiv.org/pdf/2202.04994.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Zagar-Slovene SuperGLUE Benchmark Translation and Evaluation.md"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Marko Robnik-Sikonja Ales Zagar]]
+[[Ales Zagar]], [[Marko Robnik-Sikonja]]
 
 ## Metadata
 

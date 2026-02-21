@@ -16,7 +16,7 @@ short_title: "An Empirical Investigation of Gender Stereotype Representation in 
 year: 2025
 first_author: "[[Giachino, Gioele]]"
 last_author: "[[Martin, Juan Carlos De]]"
-authors: "[[Giachino, Gioele]]; [[Rondina, Marco]]; [[Vetrò, Antonio]]; [[Coppola, Riccardo]]; [[Martin, Juan Carlos De]]"
+authors: "Giachino, Gioele; Rondina, Marco; Vetrò, Antonio; Coppola, Riccardo; Martin, Juan Carlos De"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.19156"
 external_pdf: "https://arxiv.org/pdf/2507.19156.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Giachino, Gioele]], [[Rondina, Marco]], [[Vetrò, Antonio]], [[Coppola, Riccardo]], [[Moura, Vitor D. de|Martin, Juan Carlos De]]
+[[Giachino, Gioele]], [[Rondina, Marco]], [[Vetrò, Antonio]], [[Coppola, Riccardo]], [[Martin, Juan Carlos De]]
 
 ## Metadata
 

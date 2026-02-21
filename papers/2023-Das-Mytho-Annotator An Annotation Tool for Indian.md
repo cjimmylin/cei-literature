@@ -17,9 +17,9 @@ key: EXSR0563
 type: conference_paper
 short_title: "Mytho-Annotator An Annotation Tool for Indian"
 year: 2023
-first_author: "[[Apurba Paul, Anupam Mondal, Sainik Kumar Mahata, Srijan Seal, Prasun Sarkar, Dipankar Das]]"
-last_author: "[[Dipankar Das Prasun Sarkar]]"
-authors: "[[Apurba Paul, Anupam Mondal, Sainik Kumar Mahata, Srijan Seal, Prasun Sarkar, Dipankar Das]]"
+first_author: "[[Apurba Paul]]"
+last_author: "[[Dipankar Das]]"
+authors: Apurba Paul; Anupam Mondal; Sainik Kumar Mahata; Srijan Seal; Prasun Sarkar; Dipankar Das
 authors_incomplete: false
 url: 
 external_pdf: "https://doi.org/10.7717/peerj-cs.1617"
@@ -60,7 +60,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Aditya Paul|Anupam Mondal Apurba Paul]], [[Srijan Seal Sainik Kumar Mahata]], [[Dipankar Das Prasun Sarkar]]
+[[Apurba Paul]], [[Anupam Mondal]], [[Sainik Kumar Mahata]], [[Srijan Seal]], [[Prasun Sarkar]], [[Dipankar Das]]
 
 ## Metadata
 

@@ -17,7 +17,7 @@ short_title: "Diverse Human Value Alignment for LLMs via Ethical Reasoning"
 year: 2025
 first_author: "[[Jiahao Wang]]"
 last_author: "[[Wang, Xiaozhen]]"
-authors: "[[Wang, Jiahao]]; [[Xue, Songkai]]; [[Li, Jinghui]]; [[Wang, Xiaozhen]]"
+authors: "Wang, Jiahao; Xue, Songkai; Li, Jinghui; Wang, Xiaozhen"
 doi: 10.48550/arXiv.2511.00379
 url: "https://arxiv.org/abs/2511.00379"
 external_pdf: "https://arxiv.org/pdf/2511.00379.pdf"

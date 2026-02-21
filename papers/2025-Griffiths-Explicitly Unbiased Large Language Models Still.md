@@ -18,9 +18,9 @@ key: EXSR0363
 type: conference_paper
 short_title: "Explicitly Unbiased Large Language Models Still"
 year: 2025
-first_author: "[[Xuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths]]"
-last_author: "[[Thomas L. Griffiths Ilia Sucholutsky]]"
-authors: "[[Xuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths]]"
+first_author: "[[Xuechunzi Bai]]"
+last_author: "[[Thomas L. Griffiths]]"
+authors: Xuechunzi Bai; Angelina Wang; Ilia Sucholutsky; Thomas L. Griffiths
 authors_incomplete: false
 url: 
 external_pdf: "https://arxiv.org/pdf/2402.04105.pdf"
@@ -57,7 +57,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Angelina Wang Xuechunzi Bai]], [[Thomas L. Griffiths Ilia Sucholutsky]]
+[[Xuechunzi Bai]], [[Angelina Wang]], [[Ilia Sucholutsky]], [[Thomas L. Griffiths]]
 
 ## Metadata
 

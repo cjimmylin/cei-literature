@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Liu-PersuSafety LLM Can be a Dangerous Persuader|PersuSafety: LLM Can be a Dangerous Persuader]]
 - [[2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal|SORRY-Bench -- Systematically Evaluating LLM Safety Refusal]]
 - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
+- *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign

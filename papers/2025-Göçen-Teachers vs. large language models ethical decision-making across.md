@@ -18,7 +18,7 @@ short_title: "Teachers vs. large language models: ethical decision-making across
 year: 2025
 first_author: "[[Ahmet Göçen]]"
 last_author: "[[Esra Özdemir]]"
-authors: "[[Ahmet Göçen]]; [[Osman Daşyol]]; [[Esra Aslan]]; [[Mürsel Aydın]]; [[Esra Özdemir]]"
+authors: Ahmet Göçen; Osman Daşyol; Esra Aslan; Mürsel Aydın; Esra Özdemir
 doi: 10.1080/10508422.2025.2581274
 url: "https://www.tandfonline.com/doi/full/10.1080/10508422.2025.2581274"
 publication: "Ethics & Behavior (Taylor & Francis)"

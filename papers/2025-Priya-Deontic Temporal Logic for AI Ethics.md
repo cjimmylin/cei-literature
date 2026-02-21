@@ -18,7 +18,7 @@ short_title: "Deontic Temporal Logic for AI Ethics"
 year: 2025
 first_author: "[[Priya T.V.]]"
 last_author: "[[Rao, Shrisha]]"
-authors: "[[Priya, T.V.]]; [[Rao, Shrisha]]"
+authors: "Priya, T.V.; Rao, Shrisha"
 doi: 10.48550/arXiv.2501.05765
 url: "https://arxiv.org/abs/2501.05765"
 external_pdf: "https://arxiv.org/pdf/2501.05765.pdf"

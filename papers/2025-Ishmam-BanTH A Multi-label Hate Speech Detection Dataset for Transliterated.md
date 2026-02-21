@@ -17,7 +17,7 @@ short_title: "BanTH: A Multi-label Hate Speech Detection Dataset for Translitera
 year: 2025
 first_author: "[[Haider, Fabiha]]"
 last_author: "[[Alam, Md Farhad]]"
-authors: "[[Haider, Fabiha]]; [[Shifat, Fariha Tanjim]]; [[Ishmam, Md Farhan]]; [[Barua, Deeparghya Dutta]]; [[Sourove, Md Sakib Ul Rahman]]; [[Fahim, Md]]; [[Alam, Md Farhad]]"
+authors: "Haider, Fabiha; Shifat, Fariha Tanjim; Ishmam, Md Farhan; Barua, Deeparghya Dutta; Sourove, Md Sakib Ul Rahman; Fahim, Md; Alam, Md Farhad"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.13281"
 external_pdf: "https://arxiv.org/pdf/2410.13281.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "NAACL 2025"
 
 ## Authors
 
-[[Haider, Fabiha]], [[Shifat, Fariha Tanjim]], [[Ishmam, Md Farhan]], [[Barua, Deeparghya Dutta]], [[Sourove, Md Sakib Ul Rahman]], [[Farhan, Md|Fahim, Md]], [[Alam, Md Farhad]]
+[[Haider, Fabiha]], [[Shifat, Fariha Tanjim]], [[Ishmam, Md Farhan]], [[Barua, Deeparghya Dutta]], [[Sourove, Md Sakib Ul Rahman]], [[Fahim, Md]], [[Alam, Md Farhad]]
 
 ## Metadata
 

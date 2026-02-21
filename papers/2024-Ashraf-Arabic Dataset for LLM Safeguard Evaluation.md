@@ -16,7 +16,7 @@ short_title: Arabic Dataset for LLM Safeguard Evaluation
 year: 2024
 first_author: "[[Yasser Ashraf]]"
 last_author: "[[Timothy Baldwin]]"
-authors: Yasser Ashraf, Yuxia Wang, Bin Gu, Preslav Nakov, Timothy Baldwin
+authors: Yasser Ashraf; Yuxia Wang; Bin Gu; Preslav Nakov; Timothy Baldwin
 doi: 10.48550/arXiv.2410.17040
 url: "https://arxiv.org/abs/2410.17040"
 external_pdf: "https://arxiv.org/pdf/2410.17040.pdf"

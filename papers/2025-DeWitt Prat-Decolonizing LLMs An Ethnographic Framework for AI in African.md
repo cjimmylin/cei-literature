@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "Decolonizing LLMs: An Ethnographic Framework for AI in African Contexts - EPIC"
 year: 2025
 first_author: "[[DeWitt Prat, Lindsey]]"
-last_author: "[[Lewis, Mia]]"
+last_author: "[[Mia Lewis]]"
 authors: Lindsey DeWitt Prat; Olivia Nercy Ndlovu Lucas; Christopher Golias; Mia Lewis
 authors_incomplete: false
 url: "https://www.epicpeople.org/decolonizing-llms-ethnographic-framework-for-ai-in-african-contexts/"

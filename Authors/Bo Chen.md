@@ -51,8 +51,11 @@ Chen has contributed to several high-impact studies on LLM evaluation, including
 
 
 
+
+
 - [[2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language|Adversarial Alignment: Ensuring Value Consistency in Large Language Models for Sensitive Domains]]
 - [[2025-Xi-InfoDeepSeek|InfoDeepSeek]]
+- [[2025-Zhao-WenyanGPT A Large Language Model for|WenyanGPT A Large Language Model for]]
 
 ## External Links & Profiles
 
@@ -65,6 +68,10 @@ Chen has contributed to several high-impact studies on LLM evaluation, including
 
 
 
+
+
+- *From 2025-Xi-InfoDeepSeek*: Affiliation: University, 2Huawei Noah’s Ark Lab
+- *From 2025-Xi-InfoDeepSeek*: Affiliation: University, 2Huawei Noah’s Ark Lab
 - *From 2025-Xi-InfoDeepSeek*: Affiliation: University, 2Huawei Noah’s Ark Lab
 - *From 2025-Xi-InfoDeepSeek*: Affiliation: University, 2Huawei Noah’s Ark Lab
 - *From 2025-Xi-InfoDeepSeek*: Affiliation: University, 2Huawei Noah’s Ark Lab

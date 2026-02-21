@@ -17,7 +17,7 @@ short_title: "FairEval: Evaluating Fairness in LLM-Based ..."
 year: 2025
 first_author: "[[Sah, Chandan Kumar]]"
 last_author: "[[Zhang, Li]]"
-authors: "[[Sah, Chandan Kumar]]; [[Lian, Xiaoli]]; [[Xu, Tony]]; [[Zhang, Li]]"
+authors: "Sah, Chandan Kumar; Lian, Xiaoli; Xu, Tony; Zhang, Li"
 authors_incomplete: false
 url: "https://hal.science/hal-05031750v1/file/FairEval_Evaluating%20Fairness%20in%20LLM-Based%20Recommendations%20with%20Personality%20Awareness.pdf"
 external_pdf: "https://arxiv.org/pdf/2504.07801v1.pdf"

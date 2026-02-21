@@ -16,7 +16,7 @@ short_title: "Exploring Multilingual Concepts of Human Value in Large Language M
 year: 2024
 first_author: "[[Xu, Shaoyang]]"
 last_author: "[[Xiong, Deyi]]"
-authors: "[[Xu, Shaoyang]]; [[Dong, Weilong]]; [[Guo, Zishan]]; [[Wu, Xinwei]]; [[Xiong, Deyi]]"
+authors: "Xu, Shaoyang; Dong, Weilong; Guo, Zishan; Wu, Xinwei; Xiong, Deyi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2402.18120"
 external_pdf: "https://arxiv.org/pdf/2402.18120.pdf"

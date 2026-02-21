@@ -17,7 +17,7 @@ short_title: "Exploring Inherent Biases in LLMs within Korean Social Context: A 
 year: 2024
 first_author: "[[Seungyoon Lee]]"
 last_author: "[[Heuiseok Lim]]"
-authors: "Seungyoon Lee, Dongjun Kim, Dahyun Jung, Chanjun Park, Heuiseok Lim"
+authors: Seungyoon Lee; Dongjun Kim; Dahyun Jung; Chanjun Park; Heuiseok Lim
 doi: 10.18653/v1/2024.naacl-srw.11
 url: "https://aclanthology.org/2024.naacl-srw.11/"
 external_pdf: "https://aclanthology.org/2024.naacl-srw.11.pdf"

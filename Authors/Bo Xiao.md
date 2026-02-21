@@ -51,6 +51,8 @@ Dr. Xiao has published over 60 peer-reviewed papers with high citation impact. H
 
 
 
+
+
 - [[2023-Qiu-Large AI Models in Health Informatics|Large AI Models in Health Informatics]]
 
 ## External Links & Profiles
@@ -65,6 +67,10 @@ Dr. Xiao has published over 60 peer-reviewed papers with high citation impact. H
 
 
 
+
+
+- *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: jiachuan.peng@seh.ox.ac.uk
+- *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: jiachuan.peng@seh.ox.ac.uk
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: wyuan@cuhk.edu.hk
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: dongyz@connect.hku.hk
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk

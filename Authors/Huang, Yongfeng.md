@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese|LiveSecBench -- A Dynamic Event-Driven Safety Benchmark for Chinese LLMs]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications
+- *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications
 - *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications
 - *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications
 - *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications

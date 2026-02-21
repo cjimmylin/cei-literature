@@ -17,7 +17,7 @@ short_title: "Value Portrait"
 year: 2025
 first_author: "[[Jongwook Han]]"
 last_author: "[[Yohan Jo]]"
-authors: "Jongwook Han, Dongmin Choi, Woojung Song, Eun-Ju Lee, Yohan Jo"
+authors: Jongwook Han; Dongmin Choi; Woojung Song; Eun-Ju Lee; Yohan Jo
 url: "https://arxiv.org/abs/2505.01015"
 external_pdf: "https://arxiv.org/pdf/2505.01015.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Han-Value Portrait.md"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Jiawei Han|Jongwook Han]], [[Dongmin Choi]], [[Woojung Song]], [[Eun-Ju Lee]], [[Yohan Jo]]
+[[Jongwook Han]], [[Dongmin Choi]], [[Woojung Song]], [[Eun-Ju Lee]], [[Yohan Jo]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Panda-IndRegBias A Dataset for Studying Indian|IndRegBias A Dataset for Studying Indian]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Panda-IndRegBias A Dataset for Studying Indian*: Affiliation: Department of Data Science and Engineering, Indian Institute of Science Education and Research, Bhopal, Email: neelesh.kumar.shukla@oracle.com
+- *From 2026-Panda-IndRegBias A Dataset for Studying Indian*: Affiliation: Department of Data Science and Engineering, Indian Institute of Science Education and Research, Bhopal, Email: neelesh.kumar.shukla@oracle.com
 - *From 2026-Panda-IndRegBias A Dataset for Studying Indian*: Affiliation: Department of Data Science and Engineering, Indian Institute of Science Education and Research, Bhopal, Email: neelesh.kumar.shukla@oracle.com
 - *From 2026-Panda-IndRegBias A Dataset for Studying Indian*: Affiliation: Department of Data Science and Engineering, Indian Institute of Science Education and Research, Bhopal, Email: neelesh.kumar.shukla@oracle.com
 - *From 2026-Panda-IndRegBias A Dataset for Studying Indian*: Affiliation: Department of Data Science and Engineering, Indian Institute of Science Education and Research, Bhopal, Email: neelesh.kumar.shukla@oracle.com

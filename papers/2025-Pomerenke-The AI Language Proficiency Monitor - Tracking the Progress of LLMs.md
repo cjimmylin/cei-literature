@@ -17,7 +17,7 @@ short_title: "The AI Language Proficiency Monitor -- Tracking the Progress of LL
 year: 2025
 first_author: "[[David Pomerenke]]"
 last_author: "[[Simon Ostermann]]"
-authors: "David Pomerenke, Jonas Nothnagel, Simon Ostermann"
+authors: David Pomerenke; Jonas Nothnagel; Simon Ostermann
 url: "https://arxiv.org/abs/2507.08538"
 external_pdf: "https://arxiv.org/pdf/2507.08538.pdf"
 publication: arXiv

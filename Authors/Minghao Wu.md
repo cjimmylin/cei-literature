@@ -1,9 +1,9 @@
 ---
 name: "Minghao Wu"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Hong Kong, Shenzhen"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "xiaoqingying@sribd.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks|The Bitter Lesson Learned from 2000+ Multilingual Benchmarks]]
+
+- [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
+- *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

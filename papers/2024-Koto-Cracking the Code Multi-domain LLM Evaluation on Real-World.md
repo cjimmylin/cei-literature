@@ -14,9 +14,9 @@ key: LSRC0101
 type: preprint
 short_title: "Cracking the Code: Multi-domain LLM Evaluation on Real-World Professional Exams in Indonesia"
 year: 2024
-first_author: "[[Koto, Fajri]]"
-last_author: "[[Fajri Koto]]"
-authors: "[[Koto, Fajri]]"
+first_author: "[[Koto]]"
+last_author: "[[Fajri]]"
+authors: Koto; Fajri
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.08564"
 external_pdf: "https://arxiv.org/pdf/2409.08564.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "NAACL 2025"
 
 ## Authors
 
-[[Fajri Koto]]
+[[Koto]], [[Fajri]]
 
 ## Metadata
 

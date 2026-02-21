@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task|RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora]]
 - [[2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding|TAPE: Assessing Few-shot Russian Language Understanding]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: rybolos@gmail.com
+- *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: rybolos@gmail.com
 - *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: nikita.semenov@mts.ru
 - *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: rybolos@gmail.com
 - *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com

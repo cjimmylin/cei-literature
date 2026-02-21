@@ -58,8 +58,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
-- [[2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion|Mind the Gap -- Pitfalls of LLM Alignment with Asian Public Opinion]] (Last Author)
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
 
 ## External Links & Profiles
@@ -89,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba

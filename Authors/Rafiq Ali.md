@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy|MisAlign-Profile: Can Large Language Models Make Everyone Happy?]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy*: Affiliation: University, Sydney, Australia, Email: usman.naseem@mq.edu.au
+- *From 2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy*: Affiliation: University, Sydney, Australia, Email: usman.naseem@mq.edu.au
 - *From 2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy*: Affiliation: University, Sydney, Australia, Email: usman.naseem@mq.edu.au
 - *From 2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy*: Affiliation: University, Sydney, Australia, Email: usman.naseem@mq.edu.au
 - *From 2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy*: Affiliation: University, Sydney, Australia, Email: usman.naseem@mq.edu.au

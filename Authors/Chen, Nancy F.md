@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual|SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual*: Affiliation: Institute for Infocomm Research (I2R), A*STAR, Singapore
+- *From 2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual*: Affiliation: Institute for Infocomm Research (I2R), A*STAR, Singapore
 - *From 2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual*: Affiliation: Institute for Infocomm Research (I2R), A*STAR, Singapore
 - *From 2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual*: Affiliation: Institute for Infocomm Research (I2R), A*STAR, Singapore
 - *From 2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual*: Affiliation: Institute for Infocomm Research (I2R), A*STAR, Singapore

@@ -71,7 +71,7 @@ Within the context of Natural Language Processing (NLP), fairness evaluation is 
 
 ## Authors
 
-[[Shalaka Satheesh]], [[Katrin Klug]], [[Katharina Beckh]], [[Hector Allende-Cid|Héctor Allende-Cid]], [[Sebastian Houben]], [[Teena Hassan]]
+[[Shalaka Satheesh]], [[Katrin Klug]], [[Katharina Beckh]], [[Héctor Allende-Cid]], [[Sebastian Houben]], [[Teena Hassan]]
 
 ## Data Description
 

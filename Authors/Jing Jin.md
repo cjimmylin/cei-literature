@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Ye-Large Language Model Psychometrics|Large Language Model Psychometrics]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Ye-Large Language Model Psychometrics*: Affiliation: Laboratory of General Artificial Intelligence, Email: gjsong@pku.edu.cn
+- *From 2025-Ye-Large Language Model Psychometrics*: Affiliation: Laboratory of General Artificial Intelligence, Email: gjsong@pku.edu.cn
 - *From 2025-Ye-Large Language Model Psychometrics*: Affiliation: Laboratory of General Artificial Intelligence, Email: hrye@stu.pku.edu.cn
 - *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 - *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University

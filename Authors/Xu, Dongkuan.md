@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value|AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn
+- *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn
 - *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn
 - *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn
 - *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn

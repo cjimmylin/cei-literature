@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Kaddour-Challenges and Applications of Large Language|Challenges and Applications of Large Language]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Kaddour-Challenges and Applications of Large Language*: Affiliation: University College London, Email: joshua.harris@ukhsa.gov.uk
+- *From 2023-Kaddour-Challenges and Applications of Large Language*: Affiliation: University College London, Email: joshua.harris@ukhsa.gov.uk
 - *From 2023-Kaddour-Challenges and Applications of Large Language*: Affiliation: University College London, Email: joshua.harris@ukhsa.gov.uk
 - *From 2023-Kaddour-Challenges and Applications of Large Language*: Affiliation: University College London, Email: .20@ucl.ac.uk
 - *From 2023-Kaddour-Challenges and Applications of Large Language*: Affiliation: University College London, Email: .20@ucl.ac.uk

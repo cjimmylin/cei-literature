@@ -17,7 +17,7 @@ short_title: "HateBR: A Large Expert Annotated Corpus of Brazilian Instagram Com
 year: 2022
 first_author: "[[Vargas, Francielle Alves]]"
 last_author: "[[Pardo, Thiago Alexandre Salgueiro]]"
-authors: "[[Vargas, Francielle Alves]]; [[Carvalho, Isabelle]]; [[Góes, Fabiana Rodrigues de]]; [[Benevenuto, Fabrício]]; [[Pardo, Thiago Alexandre Salgueiro]]"
+authors: "Vargas, Francielle Alves; Carvalho, Isabelle; Góes, Fabiana Rodrigues de; Benevenuto, Fabrício; Pardo, Thiago Alexandre Salgueiro"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2103.14972"
 external_pdf: "https://arxiv.org/pdf/2103.14972.pdf"

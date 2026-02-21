@@ -19,7 +19,7 @@ short_title: "A Novel Deep Learning Framework with"
 year: 2025
 first_author: "[[Chen, Zhuangzhi]]"
 last_author: "[[Yang, Xiaoniu]]"
-authors: "[[Chen, Zhuangzhi]]; [[Cui, Hui]]; [[Xiang, Jingyang]]; [[Qiu, Kunfeng]]; [[Huang, Liang]]; [[Zheng, Shilian]]; [[Chen, Shichuan]]; [[Xuan, Qi]]; [[Yang, Xiaoniu]]"
+authors: "Chen, Zhuangzhi; Cui, Hui; Xiang, Jingyang; Qiu, Kunfeng; Huang, Liang; Zheng, Shilian; Chen, Shichuan; Xuan, Qi; Yang, Xiaoniu"
 authors_incomplete: false
 url: "https://www.nature.com/articles/s41599-025-06268-8"
 external_pdf: "https://arxiv.org/pdf/2011.03525v2.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Chen, Zhuangzhi]], [[Cui, Hui]], [[Xiang, Jingyang]], [[Qiu, Kunfeng]], [[Hao Liang|Huang, Liang]], [[Zheng, Shilian]], [[Chen, Shichuan]], [[Xuan, Qi]], [[Yang, Xiaoniu]]
+[[Chen, Zhuangzhi]], [[Cui, Hui]], [[Xiang, Jingyang]], [[Qiu, Kunfeng]], [[Huang, Liang]], [[Zheng, Shilian]], [[Chen, Shichuan]], [[Xuan, Qi]], [[Yang, Xiaoniu]]
 
 ## Metadata
 

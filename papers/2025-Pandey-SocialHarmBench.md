@@ -17,7 +17,7 @@ short_title: SocialHarmBench
 year: 2025
 first_author: "[[Punya Syon Pandey]]"
 last_author: "[[Zhijing Jin]]"
-authors: "Punya Syon Pandey, Hai Son Le, Devansh Bhardwaj, Rada Mihalcea, Zhijing Jin"
+authors: Punya Syon Pandey; Hai Son Le; Devansh Bhardwaj; Rada Mihalcea; Zhijing Jin
 url: "https://arxiv.org/abs/2510.04891"
 external_pdf: "https://arxiv.org/pdf/2510.04891.pdf"
 pdf_extract: "PDF Extracts/0000/2025-Pandey-SocialHarmBench.md"

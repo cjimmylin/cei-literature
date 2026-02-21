@@ -38,6 +38,9 @@ Bollegala's research spans computational semantics, word representations, and fa
 
 
 
+
+
+- [[2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating|Bias Mitigation or Cultural Commonsense Evaluating]]
 - [[2024-Kaneko-Eagle|Eagle]]
 
 ## Notes
@@ -47,6 +50,10 @@ Bollegala's research spans computational semantics, word representations, and fa
 
 
 
+
+
+- *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: danushka@liverpool.ac.uk
+- *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: danushka@liverpool.ac.uk
 - *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: danushka@liverpool.ac.uk
 - *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: danushka@liverpool.ac.uk
 - *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: Masahiro.Kaneko@mbzuai.ac.ae

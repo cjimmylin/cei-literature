@@ -17,7 +17,7 @@ short_title: "Gender Bias in Coreference Resolution"
 year: 2018
 first_author: "[[Jieyu Zhao]]"
 last_author: "[[Chang, Kai-Wei]]"
-authors: "[[Zhao, Jieyu]]; [[Wang, Tianlu]]; [[Yatskar, Mark]]; [[Ordonez, Vicente]]; [[Chang, Kai-Wei]]"
+authors: "Zhao, Jieyu; Wang, Tianlu; Yatskar, Mark; Ordonez, Vicente; Chang, Kai-Wei"
 doi: 10.18653/v1/N18-2003
 url: "https://arxiv.org/abs/1804.06876"
 pdf_extract: "PDF Extracts/2018/2018-Zhao-Gender Bias in Coreference Resolution.md"

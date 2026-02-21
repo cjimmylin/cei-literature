@@ -25,6 +25,8 @@ Tianyi Alex Qiu is affiliated with Peking University and UC Berkeley (with a ver
 
 
 
+
+
 - [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]]
 - [[2024-Qiu-ProgressGym|ProgressGym]] (First Author)
 - [[2023-Ji-AI Alignment|AI Alignment]]
@@ -36,6 +38,10 @@ Tianyi Alex Qiu is affiliated with Peking University and UC Berkeley (with a ver
 
 
 
+
+
+- *From 2025-Ji-PKU-SafeRLHF*: Affiliation: University of Science and Technology 3Infinigence-AI
+- *From 2025-Ji-PKU-SafeRLHF*: Affiliation: University of Science and Technology 3Infinigence-AI
 - *From 2025-Ji-PKU-SafeRLHF*: Affiliation: University of Science and Technology 3Infinigence-AI
 - *From 2025-Ji-PKU-SafeRLHF*: Affiliation: University of Science and Technology 3Infinigence-AI
 - *From 2025-Ji-PKU-SafeRLHF*: Affiliation: University of Science and Technology 3Infinigence-AI

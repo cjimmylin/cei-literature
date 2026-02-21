@@ -30,6 +30,9 @@ This work, published on arXiv in 2024, was conducted in collaboration with Xueji
 
 
 
+
+
+- [[2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese|Safety Evaluation and Enhancement of DeepSeek Models in Chinese Contexts]] (First Author)
 - [[2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts|Safety Evaluation of DeepSeek Models in Chinese Contexts]] (First Author)
 - [[2024-Zhang-CHiSafetyBench|CHiSafetyBench]] (First Author)
 
@@ -40,6 +43,10 @@ This work, published on arXiv in 2024, was conducted in collaboration with Xueji
 
 
 
+
+
+- *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
+- *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China

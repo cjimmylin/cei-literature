@@ -22,7 +22,10 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+- [[2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a|Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting]]
 - [[2025-Mitchell-SHADES|SHADES]]
 - [[2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian|Qorgau Evaluating LLM Safety in Kazakh-Russian]]
 - [[2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh|KazMMLU Evaluating Language Models on Kazakh]]
@@ -35,6 +38,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a*: Affiliation: University of Artificial Intelligence, UAE
+- *From 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a*: Affiliation: University of Artificial Intelligence, UAE
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

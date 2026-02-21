@@ -53,6 +53,8 @@ During the 1990s and 2000s, he co-developed Kernel Principal Component Analysis 
 
 
 
+
+
 - [[2025-Backmann-When Ethics and Payoffs Diverge|When Ethics and Payoffs Diverge]]
 - [[2025-Samway-Are Language Models Consequentialist or Deontological|Are LLMs Consequentialist or Deontological]]
 - [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]] (Last Author)
@@ -74,6 +76,10 @@ During the 1990s and 2000s, he co-developed Kernel Principal Component Analysis 
 
 
 
+
+
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
+- *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen
 - *From 2024-Jin-Language Model Alignment in Multilingual Trolley*: Affiliation: Institute for Intelligent Systems, Tübingen

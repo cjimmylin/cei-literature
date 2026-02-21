@@ -17,7 +17,7 @@ short_title: "Shifting from Endangerment to Rebirth in the Artificial Intelligen
 year: 2024
 first_author: "[[Khaksar, Aram]]"
 last_author: "[[Hassani, Hossein]]"
-authors: "[[Khaksar, Aram]]; [[Hassani, Hossein]]"
+authors: "Khaksar, Aram; Hassani, Hossein"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.16884"
 external_pdf: "https://arxiv.org/pdf/2409.16884.pdf"

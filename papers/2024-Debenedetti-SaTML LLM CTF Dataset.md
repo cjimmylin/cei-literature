@@ -17,7 +17,7 @@ short_title: "SaTML LLM CTF Dataset"
 year: 2024
 first_author: "[[Debenedetti, Edoardo]]"
 last_author: "[[Schönherr, Lea]]"
-authors: "[[Debenedetti, Edoardo]]; [[Rando, Javier]]; [[Paleka, Daniel]]; [[Florin, Silaghi Fineas]]; [[Albastroiu, Dragos]]; [[Cohen, Niv]]; [[Lemberg, Yuval]]; [[Ghosh, Reshmi]]; [[Wen, Rui]]; [[Salem, Ahmed]]; [[Cherubin, Giovanni]]; [[Zanella-Beguelin, Santiago]]; [[Schmid, Robin]]; [[Klemm, Victor]]; [[Miki, Takahiro]]; [[Li, Chenhao]]; [[Kraft, Stefan]]; [[Fritz, Mario]]; [[Tramèr, Florian]]; [[Abdelnabi, Sahar]]; [[Schönherr, Lea]]"
+authors: "Debenedetti, Edoardo; Rando, Javier; Paleka, Daniel; Florin, Silaghi Fineas; Albastroiu, Dragos; Cohen, Niv; Lemberg, Yuval; Ghosh, Reshmi; Wen, Rui; Salem, Ahmed; Cherubin, Giovanni; Zanella-Beguelin, Santiago; Schmid, Robin; Klemm, Victor; Miki, Takahiro; Li, Chenhao; Kraft, Stefan; Fritz, Mario; Tramèr, Florian; Abdelnabi, Sahar; Schönherr, Lea"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.07954"
 external_pdf: "https://arxiv.org/pdf/2406.07954.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "NeurIPS 2024"
 
 ## Authors
 
-[[Edoardo Debenedetti|Debenedetti, Edoardo]], [[Javier Rando|Rando, Javier]], [[Daniel Paleka|Paleka, Daniel]], [[Florin, Silaghi Fineas]], [[Albastroiu, Dragos]], [[Cohen, Niv]], [[Lemberg, Yuval]], [[Ghosh, Reshmi]], [[Wen, Rui]], [[Syed Ishtiaque Ahmed|Salem, Ahmed]], [[Cherubin, Giovanni]], [[Zanella-Beguelin, Santiago]], [[Schmid, Robin]], [[Klemm, Victor]], [[Miki, Takahiro]], [[Li, Chenhao]], [[Kraft, Stefan]], [[Fritz, Mario]], [[Florian Tramer|Tramèr, Florian]], [[Abdelnabi, Sahar]], [[Schönherr, Lea]]
+[[Edoardo Debenedetti|Debenedetti, Edoardo]], [[Javier Rando|Rando, Javier]], [[Daniel Paleka|Paleka, Daniel]], [[Florin, Silaghi Fineas]], [[Albastroiu, Dragos]], [[Cohen, Niv]], [[Lemberg, Yuval]], [[Ghosh, Reshmi]], [[Wen, Rui]], [[Salem, Ahmed]], [[Cherubin, Giovanni]], [[Zanella-Beguelin, Santiago]], [[Schmid, Robin]], [[Klemm, Victor]], [[Miki, Takahiro]], [[Li, Chenhao]], [[Kraft, Stefan]], [[Fritz, Mario]], [[Tramèr, Florian]], [[Abdelnabi, Sahar]], [[Schönherr, Lea]]
 
 ## Metadata
 

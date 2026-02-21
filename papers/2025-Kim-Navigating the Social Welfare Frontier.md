@@ -17,7 +17,7 @@ short_title: "Navigating the Social Welfare Frontier"
 year: 2025
 first_author: "[[Cheol Woo Kim]]"
 last_author: "[[Gupta, Swati]]"
-authors: "[[Kim, Cheol Woo]]; [[Moondra, Jai]]; [[Verma, Shresth]]; [[Pollack, Madeleine]]; [[Kong, Lingkai]]; [[Tambe, Milind]]; [[Gupta, Swati]]"
+authors: "Kim, Cheol Woo; Moondra, Jai; Verma, Shresth; Pollack, Madeleine; Kong, Lingkai; Tambe, Milind; Gupta, Swati"
 doi: 10.48550/arXiv.2502.09724
 url: "https://arxiv.org/abs/2502.09724"
 external_pdf: "https://arxiv.org/pdf/2502.09724.pdf"

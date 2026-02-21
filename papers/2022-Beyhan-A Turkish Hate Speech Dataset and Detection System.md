@@ -16,9 +16,9 @@ key: LSRC0065
 type: conferencePaper
 short_title: "A Turkish Hate Speech Dataset and Detection System"
 year: 2022
-first_author: "[[Beyhan, Fatih and Cark, Buse and Arn, \.Inanc and Terzioglu, Aysecan and Yanikoglu, Berrin and Yeniterzi, Reyyan]]"
+first_author: "[[Beyhan]]"
 last_author: "[[Reyyan]]"
-authors: "[[Beyhan, Fatih and Cark, Buse and Arn, \.Inanc and Terzioglu, Aysecan and Yanikoglu, Berrin and Yeniterzi, Reyyan]]"
+authors: Beyhan; Fatih and Cark; Buse and Arn; .Inanc and Terzioglu; Aysecan and Yanikoglu; Berrin and Yeniterzi; Reyyan
 url: "https://aclanthology.org/2022.lrec-1.443/"
 external_pdf: "https://aclanthology.org/2022.lrec-1.443.pdf"
 publication: "LREC 2022"

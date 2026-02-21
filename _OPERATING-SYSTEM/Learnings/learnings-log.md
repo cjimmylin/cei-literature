@@ -34,6 +34,26 @@
 
 ---
 
+## 2026-02-20 (Session 97)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-20 | Dashboard | **Bulk Chart Color Replacement:** When redesigning ECharts color themes across 130KB+ files with 260+ hardcoded hex colors, systematic `replace_all` per-hex is safe when each hex maps to exactly one semantic role (e.g., `#94a3b8` = axis labels everywhere). Always verify with `grep` before/after — zero remaining matches confirms completeness. |
+| 2026-02-20 | Dashboard | **Theme Toggle Architecture:** CSS `[data-theme="light"]` overriding CSS custom properties is the cleanest dark/light toggle pattern. However, ECharts uses hardcoded JS colors at render time (not CSS vars), so charts must be fully `dispose()`d and reinitialized on theme change via a `_reTheme()` method that clears `_instances` and `_initialized` sets. |
+| 2026-02-20 | Dashboard | **Academic Dashboard Typography:** Pairing a serif display font (Newsreader) with a geometric sans body font (DM Sans) creates "museum exhibition" gravitas distinct from generic tech dashboards. Google Fonts `preconnect` hints prevent FOIT. Key: use serif for KPI numbers, chart titles, and headings; sans for body text and labels. |
+
+---
+
+## 2026-02-20 (Session 96)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-20 | Author Management | **`smart_comma_split()` "Last, First" Heuristic Bug:** The original heuristic tested if even-indexed parts start with `[A-Z][a-z]` — which matches ANY name, not just first names. `"Casper Bruun Jensen, Anders Blok"` (two authors) was merged into one person. Fix: only detect "Last, Initial" APA-style pairs where given-name parts match `^[A-Z]\.?(\s+[A-Z]\.?)*$` — single initials only. 344 papers were reverted and re-applied after catching this mid-pipeline. |
+| 2026-02-20 | Author Management | **Consolidation Merge Must Prefer Resolved:** When merging parallel agent results with a skip-api base run, first-seen dedup loses API resolutions. Fix: `merge_category()` must track best entry per key and prefer `status=="resolved"` over `"unresolved"`. |
+| 2026-02-20 | Author Management | **Author Fix Apply Order Matters (F→A→D→B→C→E):** Format normalization (F) first because stripping wikilinks changes how `authors` parses → may resolve apparent B/C mismatches. Abbreviated resolution (A) before missing profiles (E) because resolved names may match existing profiles. Unknown resolution (D) before E because new names need profiles. |
+| 2026-02-20 | Data Quality | **Trailing Period in Name Matching:** `[[Smith, Noah A]]` (wikilink) vs `Smith, Noah A.` (authors field) — the disambiguation pipeline strips trailing periods from wikilink targets but the authors field preserves them. `names_match()` must strip trailing periods before comparison. 42 papers affected. |
+| 2026-02-20 | Workflows | **6-Agent Swarm for API-Bound Author Resolution:** 4 agents for Category A (abbreviated names) + 2 for Category D (unknown/incomplete), each respecting Semantic Scholar 10s rate limit independently. Reduced 86-min sequential to ~17-min parallel. Each agent writes to a range-specific JSON file that the consolidation script merges. |
+
 ## 2026-02-20 (Session 95)
 
 | Date | Category | Learning |

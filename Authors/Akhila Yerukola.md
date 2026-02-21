@@ -24,6 +24,8 @@ Akhila Yerukola is a researcher at the Language Technologies Institute at Carneg
 
 
 
+
+
 - [[2025-Rao-NormAd|NormAd]]
 
 ## Notes
@@ -33,6 +35,10 @@ Akhila Yerukola is a researcher at the Language Technologies Institute at Carneg
 
 
 
+
+
+- *From 2025-Rao-NormAd*: Affiliation: Institute, Carnegie Mellon University, Email: reinecke@cs.washington.edu
+- *From 2025-Rao-NormAd*: Affiliation: Institute, Carnegie Mellon University, Email: reinecke@cs.washington.edu
 - *From 2025-Rao-NormAd*: Affiliation: Institute, Carnegie Mellon University, Email: reinecke@cs.washington.edu
 - *From 2025-Rao-NormAd*: Affiliation: Institute, Carnegie Mellon University, Email: reinecke@cs.washington.edu
 - *From 2025-Rao-NormAd*: Affiliation: Institute, Carnegie Mellon University, Email: reinecke@cs.washington.edu

@@ -16,9 +16,9 @@ key: LSRC0787
 type: conferencePaper
 short_title: "Tokenising culture: causes and consequences of cultural misalignment in large language models | Ada Lovelace Institute"
 year: 2025
-first_author: "[[Perez, Jorge]]"
-last_author: "[[Perez, Jorge]]"
-authors: "Perez, Jorge"
+first_author: "[[Perez]]"
+last_author: "[[Jorge]]"
+authors: Perez; Jorge
 authors_incomplete: false
 url: "https://www.adalovelaceinstitute.org/blog/cultural-misalignment-llms/"
 publication: Web
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Perez, Jorge]]
+[[Perez]], [[Jorge]]
 
 ## Metadata
 

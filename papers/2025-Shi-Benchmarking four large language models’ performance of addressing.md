@@ -16,7 +16,7 @@ type: journalArticle
 short_title: "Benchmarking four large language models' performance of addressing Chinese patients' inquiries about dry eye disease: A two-phase study - ScienceDirect"
 year: 2025
 first_author: "[[Shi, Runhan]]"
-last_author: "[[Hong, Jiaxu]]"
+last_author: "[[Jiaxu Hong]]"
 authors: Runhan Shi; Steven Liu; Xinwei Xu; Zhengqiang Ye; Jin Yang; Qihua Le; Jini Qiu; Lijia Tian; Anji Wei; Kun Shan; Chen Zhao; Xinghuai Sun; Xingtao Zhou; Jiaxu Hong
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S2405844024104227"

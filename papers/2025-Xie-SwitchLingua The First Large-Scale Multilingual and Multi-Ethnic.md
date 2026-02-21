@@ -16,7 +16,7 @@ short_title: "SwitchLingua : The First Large-Scale Multilingual and Multi-Ethnic
 year: 2025
 first_author: "[[Xie, Peng]]"
 last_author: "[[Chen, Kani]]"
-authors: "[[Xie, Peng]]; [[Liu, Xingyuan]]; [[Chan, Tsz Wai]]; [[Bie, Yequan]]; [[Song, Yangqiu]]; [[Wang, Yang]]; [[Chen, Hao]]; [[Chen, Kani]]"
+authors: "Xie, Peng; Liu, Xingyuan; Chan, Tsz Wai; Bie, Yequan; Song, Yangqiu; Wang, Yang; Chen, Hao; Chen, Kani"
 authors_incomplete: false
 url: "https://arxiv.org/html/2506.00087v1"
 external_pdf: "https://arxiv.org/pdf/2506.00087.pdf"

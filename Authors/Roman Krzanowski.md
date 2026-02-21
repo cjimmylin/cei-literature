@@ -25,6 +25,8 @@ Assistant Professor at The Pontifical University of John Paul II in Krakow, Pola
 
 
 
+
+
 - [[2025-Krzanowski-Phronesis for AI Systems|Phronesis for AI Systems]] (First Author)
 
 ## Notes

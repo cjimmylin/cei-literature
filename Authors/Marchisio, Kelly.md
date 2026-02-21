@@ -58,7 +58,8 @@ twitter: ""
 
 
 
-- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+
+
 - [[2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and|MAPS: A Multilingual Benchmark for Global Agent Performance and Security]]
 
 ## External Links & Profiles
@@ -88,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
+- *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.

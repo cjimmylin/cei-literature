@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Alsalka-HAQA and QUQA Constructing Two Arabic|HAQA and QUQA Constructing Two Arabic]] (Last Author)
 - [[2023-Alsalka-Is GPT-4 a Good Islamic Expert|Is GPT-4 a Good Islamic Expert]] (Last Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Alsalka-HAQA and QUQA Constructing Two Arabic*: Affiliation: University of Leeds, Leeds, UK
+- *From 2023-Alsalka-HAQA and QUQA Constructing Two Arabic*: Affiliation: University of Leeds, Leeds, UK
 - *From 2023-Alsalka-HAQA and QUQA Constructing Two Arabic*: Affiliation: University of Leeds, Leeds, UK
 - *From 2023-Alsalka-HAQA and QUQA Constructing Two Arabic*: Affiliation: University of Leeds, Leeds, UK
 - *From 2023-Alsalka-HAQA and QUQA Constructing Two Arabic*: Affiliation: University of Leeds, Leeds, UK

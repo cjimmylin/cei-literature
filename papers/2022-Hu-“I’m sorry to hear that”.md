@@ -16,7 +16,7 @@ short_title: "'I'm sorry to hear that'"
 year: 2022
 first_author: "[[Minda Hu]]"
 last_author: "[[King, Irwin]]"
-authors: "[[Hu, Minda]]; [[Li, Muzhi]]; [[Wang, Yasheng]]; [[King, Irwin]]"
+authors: "Hu, Minda; Li, Muzhi; Wang, Yasheng; King, Irwin"
 url: "https://aclanthology.org/2022.emnlp-main.291/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FG497RSQ/2022 - 'I'm sorry to hear that' Finding New Biases in Language Models with a Holistic Descriptor Dataset.pdf"
 national_ethnic_cultural: "N/A"

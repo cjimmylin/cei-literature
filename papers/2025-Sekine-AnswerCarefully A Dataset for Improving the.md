@@ -15,9 +15,9 @@ key: EXSR0328
 type: preprint
 short_title: "AnswerCarefully A Dataset for Improving the"
 year: 2025
-first_author: "[[Hisami Suzuki, Satoru Katsumata, Takashi Kodama, Tetsuro Takahashi, Kouta Nakayama, Satoshi Sekine]]"
-last_author: "[[Satoshi Sekine Kouta Nakayama]]"
-authors: "[[Hisami Suzuki, Satoru Katsumata, Takashi Kodama, Tetsuro Takahashi, Kouta Nakayama, Satoshi Sekine]]"
+first_author: "[[Hisami Suzuki]]"
+last_author: "[[Satoshi Sekine]]"
+authors: Hisami Suzuki; Satoru Katsumata; Takashi Kodama; Tetsuro Takahashi; Kouta Nakayama; Satoshi Sekine
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.02372"
 external_pdf: "https://arxiv.org/pdf/2506.02372.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Satoru Katsumata Hisami Suzuki]], [[Tetsuro Takahashi Takashi Kodama]], [[Satoshi Sekine Kouta Nakayama]]
+[[Hisami Suzuki]], [[Satoru Katsumata]], [[Takashi Kodama]], [[Tetsuro Takahashi]], [[Kouta Nakayama]], [[Satoshi Sekine]]
 
 ## Metadata
 

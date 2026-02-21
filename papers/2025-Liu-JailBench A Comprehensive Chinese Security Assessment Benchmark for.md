@@ -16,7 +16,7 @@ short_title: "JailBench: A Comprehensive Chinese Security Assessment Benchmark f
 year: 2025
 first_author: "[[Shuyi Liu]]"
 last_author: "[[Xi Zhang]]"
-authors: Shuyi Liu, Simiao Cui, Haoran Bu, Yuming Shang, Xi Zhang
+authors: Shuyi Liu; Simiao Cui; Haoran Bu; Yuming Shang; Xi Zhang
 url: "https://arxiv.org/abs/2502.18935"
 external_pdf: "https://arxiv.org/pdf/2502.18935.pdf"
 publication: arXiv

@@ -52,13 +52,17 @@ He has published over 500 peer-reviewed works and is one of the most highly cite
 
 
 
+
+
 - [[2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence|Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World]]
 - [[2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian|Qorgau Evaluating LLM Safety in Kazakh-Russian]]
 - [[2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation|Arabic Dataset for LLM Safeguard Evaluation]] (Last Author)
 - [[2024-Kaneko-Eagle|Eagle]] (Last Author)
 - [[2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense|IndoCulture: Exploring Geographically-Influenced Cultural Commonsense Reasoning Across Eleven Indonesian Provinces]] (Last Author)
+- [[2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation|Are Multilingual LLMs Culturally-Diverse Reasoners? An Investigation into Multicultural Proverbs and Sayings]]
 - [[2024-Wang-Do-Not-Answer|Do-Not-Answer]] (Last Author)
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
+- [[2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A|Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU]] (Last Author)
 - [[2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local|NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages]]
 - [[2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language|IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP]] (Last Author)
 
@@ -80,6 +84,10 @@ He has published over 500 peer-reviewed works and is one of the most highly cite
 
 
 
+
+
+- *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: tb@ldwin.net
+- *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: tb@ldwin.net
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: ffajri@student.unimelb.edu.au
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: tb@ldwin.net
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: jeyhan.lau@gmail.com

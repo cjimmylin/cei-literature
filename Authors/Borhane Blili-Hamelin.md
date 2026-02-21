@@ -50,6 +50,8 @@ He has been instrumental in organizing large-scale AI safety events, including t
 
 
 
+
+
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2024-Hancox-Li-Is ETHICS about ethics|Is ETHICS about ethics?]] (Last Author)
 
@@ -71,6 +73,10 @@ He has been instrumental in organizing large-scale AI safety events, including t
 
 
 
+
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology

@@ -24,6 +24,8 @@ Researcher (PhD or recent doctorate) at Otto von Guericke University Magdeburg, 
 
 
 
+
+
 - [[2024-Jörs-Through Eudaimonia's Lenses|Through Eudaimonia's Lenses]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ Researcher (PhD or recent doctorate) at Otto von Guericke University Magdeburg, 
 
 
 
+
+
+- *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany
+- *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany
 - *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany
 - *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany
 - *From 2024-Jörs-Through Eudaimonia's Lenses*: Affiliation: University, Germany

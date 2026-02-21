@@ -59,8 +59,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
-- [[2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences|Aligning LLM Agents with Rational and Kantian Preferences]] (First Author)
 
 ## External Links & Profiles
 
@@ -90,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit
+- *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit
 - *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit
 - *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit
 - *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit

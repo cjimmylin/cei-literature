@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language|MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language]]
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language*: Affiliation: lable at https://github, Email: cs.chan@um.edu.my
+- *From 2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language*: Affiliation: lable at https://github, Email: cs.chan@um.edu.my
 - *From 2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language*: Affiliation: lable at https://github, Email: cs.chan@um.edu.my
 - *From 2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language*: Affiliation: lable at https://github, Email: cs.chan@um.edu.my
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

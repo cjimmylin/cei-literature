@@ -16,7 +16,7 @@ short_title: "A Large Language Model-Based Approach for Multilingual Hate Speech
 year: 2025
 first_author: "[[Usman, Muhammad]]"
 last_author: "[[Sidorov, Grigori]]"
-authors: "[[Usman, Muhammad]]; [[Ahmad, Muhammad]]; [[Tash, M. Shahiki]]; [[Gelbukh, Irina]]; [[Tellez, Rolando Quintero]]; [[Sidorov, Grigori]]"
+authors: "Usman, Muhammad; Ahmad, Muhammad; Tash, M. Shahiki; Gelbukh, Irina; Tellez, Rolando Quintero; Sidorov, Grigori"
 authors_incomplete: false
 url: "https://www.mdpi.com/2073-431X/14/7/279"
 external_pdf: "https://arxiv.org/pdf/2506.08147"
@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Usman, Muhammad]], [[Ahmad, Muhammad]], [[Tash, M. Shahiki]], [[Gelbukh, Irina]], [[Tellez, Rolando Quintero]], [[Sidorov, Grigori]]
+[[Muhammad Usman|Usman, Muhammad]], [[Ahmad, Muhammad]], [[Tash, M. Shahiki]], [[Gelbukh, Irina]], [[Tellez, Rolando Quintero]], [[Sidorov, Grigori]]
 
 ## Metadata
 

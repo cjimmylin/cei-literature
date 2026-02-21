@@ -17,7 +17,7 @@ short_title: "Evaluating LLMs' Multilingual Capabilities for Bengali: Benchmark 
 year: 2025
 first_author: "[[Bhowmik, Shimanto]]"
 last_author: "[[Reasat, Tahsin]]"
-authors: "[[Bhowmik, Shimanto]]; [[Dipto, Tawsif Tashwar]]; [[Islam, Md Sazzad]]; [[Hsu, Sheryl]]; [[Reasat, Tahsin]]"
+authors: "Bhowmik, Shimanto; Dipto, Tawsif Tashwar; Islam, Md Sazzad; Hsu, Sheryl; Reasat, Tahsin"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.23248"
 external_pdf: "https://arxiv.org/pdf/2507.23248.pdf"

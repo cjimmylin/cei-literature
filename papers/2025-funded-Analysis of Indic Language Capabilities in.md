@@ -18,7 +18,7 @@ short_title: "Analysis of Indic Language Capabilities in"
 year: 2025
 first_author: "[[Vaidya, Aatman]]"
 last_author: "[[Shah, Swair]]"
-authors: "[[Vaidya, Aatman]]; [[Prabhakar, Tarunima]]; [[George, Denny]]; [[Shah, Swair]]"
+authors: "Vaidya, Aatman; Prabhakar, Tarunima; George, Denny; Shah, Swair"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.13912"
 external_pdf: "https://arxiv.org/pdf/2501.13912.pdf"

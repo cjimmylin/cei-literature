@@ -17,7 +17,7 @@ short_title: "Collecting a Large-Scale Gender Bias Dataset for"
 year: 2021
 first_author: "[[Shahar Levy]]"
 last_author: "[[Stanovsky, Gabriel]]"
-authors: "[[Levy, Shahar]]; [[Lazar, Koren]]; [[Stanovsky, Gabriel]]"
+authors: "Levy, Shahar; Lazar, Koren; Stanovsky, Gabriel"
 url: "https://aclanthology.org/2021.findings-emnlp.211/"
 external_pdf: "https://aclanthology.org/2021.findings-emnlp.211.pdf"
 national_ethnic_cultural: "N/A"

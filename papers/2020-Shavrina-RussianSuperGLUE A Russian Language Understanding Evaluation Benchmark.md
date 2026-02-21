@@ -16,8 +16,8 @@ type: preprint
 short_title: "RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark"
 year: 2020
 first_author: "[[Tatiana Shavrina]]"
-last_author: "[[Andrey Evlampiev Andrey Chertok]]"
-authors: "Tatiana Shavrina, Alena Fenogenova, Emelyanov Anton, Denis Shevelev, Ekaterina Artemova, Valentin Malykh, Vladislav Mikhailov, Maria Tikhonova, Andrey Chertok, Andrey Evlampiev"
+last_author: "[[Andrey Evlampiev]]"
+authors: Tatiana Shavrina; Alena Fenogenova; Emelyanov Anton; Denis Shevelev; Ekaterina Artemova; Valentin Malykh; Vladislav Mikhailov; Maria Tikhonova; Andrey Chertok; Andrey Evlampiev
 doi: 10.18653/v1/2020.emnlp-main.381
 url: "https://arxiv.org/abs/2010.15925"
 external_pdf: "https://arxiv.org/pdf/2010.15925.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "EMNLP 2020"
 
 ## Authors
 
-[[Alena Fenogenova Tatiana Shavrina]], [[Denis Shevelev Emelyanov Anton]], [[Valentin Malykh Ekaterina Artemova]], [[Maria Tikhonova Vladislav Mikhailov]], [[Andrey Evlampiev Andrey Chertok]]
+[[Tatiana Shavrina]], [[Alena Fenogenova]], [[Anton Emelyanov|Emelyanov Anton]], [[Denis Shevelev]], [[Ekaterina Artemova]], [[Valentin Malykh]], [[Vladislav Mikhailov]], [[Maria Tikhonova]], [[Andrey Chertok]], [[Andrey Evlampiev]]
 
 ## Metadata
 

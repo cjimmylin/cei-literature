@@ -17,7 +17,7 @@ short_title: "Enriching Moral Perspectives on AI: Concepts of Trust amongst Afri
 year: 2025
 first_author: "[[Lameck Mbangula Amugongo]]"
 last_author: "[[Joseph Mwatukange]]"
-authors: Lameck Mbangula Amugongo, Nicola J. Bidwell, Joseph Mwatukange
+authors: Lameck Mbangula Amugongo; Nicola J. Bidwell; Joseph Mwatukange
 url: "https://arxiv.org/abs/2508.14116"
 external_pdf: "https://arxiv.org/pdf/2508.14116.pdf"
 publication: arXiv

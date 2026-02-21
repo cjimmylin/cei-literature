@@ -17,7 +17,7 @@ short_title: FairPrism
 year: 2023
 first_author: "[[Eve Fleisig]]"
 last_author: "[[Wallach, Hanna]]"
-authors: "[[Fleisig, Eve]]; [[Amstutz, Aubrie]]; [[Atalla, Chad]]; [[Blodgett, Su Lin]]; [[Daumé III, Hal]]; [[Olteanu, Alexandra]]; [[Sheng, Emily]]; [[Vann, Dan]]; [[Wallach, Hanna]]"
+authors: "Fleisig, Eve; Amstutz, Aubrie; Atalla, Chad; Blodgett, Su Lin; Daumé III, Hal; Olteanu, Alexandra; Sheng, Emily; Vann, Dan; Wallach, Hanna"
 url: "https://aclanthology.org/2023.acl-long.343/"
 external_pdf: "https://aclanthology.org/2023.acl-long.343.pdf"
 national_ethnic_cultural: "N/A"

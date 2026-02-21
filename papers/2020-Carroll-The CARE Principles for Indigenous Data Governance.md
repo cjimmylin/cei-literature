@@ -16,8 +16,8 @@ type: journalArticle
 short_title: The CARE Principles for Indigenous Data Governance
 year: 2020
 first_author: "[[Stephanie Russo Carroll]]"
-last_author: "[[Maui Hudson Jane Anderson]]"
-authors: Stephanie Russo Carroll, Ibrahim Garba, Oscar L. Figueroa-Rodriguez, Jarita Holbrook, Raymond Lovett, Simeon Materechera, Mark Parsons, Kay Raseroka, Desi Rodriguez-Lonebear, Robyn Rowe, Rodrigo Sara, Jennifer D. Walker, Jane Anderson, Maui Hudson
+last_author: "[[Maui Hudson]]"
+authors: Stephanie Russo Carroll; Ibrahim Garba; Oscar L. Figueroa-Rodriguez; Jarita Holbrook; Raymond Lovett; Simeon Materechera; Mark Parsons; Kay Raseroka; Desi Rodriguez-Lonebear; Robyn Rowe; Rodrigo Sara; Jennifer D. Walker; Jane Anderson; Maui Hudson
 doi: 10.5334/dsj-2020-043
 url: "https://datascience.codata.org/articles/10.5334/dsj-2020-043"
 publication: Data Science Journal
@@ -53,7 +53,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Ibrahim Garba Stephanie Russo Carroll]], [[Jarita Holbrook Oscar L. Figueroa-Rodriguez]], [[Simeon Materechera Raymond Lovett]], [[Kay Raseroka Mark Parsons]], [[Robyn Rowe Desi Rodriguez-Lonebear]], [[Jennifer D. Walker Rodrigo Sara]], [[Maui Hudson Jane Anderson]]
+[[Stephanie Russo Carroll]], [[Ibrahim Garba]], [[Oscar L. Figueroa-Rodriguez]], [[Jarita Holbrook]], [[Raymond Lovett]], [[Simeon Materechera]], [[Mark Parsons]], [[Kay Raseroka]], [[Desi Rodriguez-Lonebear]], [[Robyn Rowe]], [[Rodrigo Sara]], [[Jennifer D. Walker]], [[Jane Anderson]], [[Maui Hudson]]
 
 ## Metadata
 

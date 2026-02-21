@@ -24,6 +24,8 @@ Researcher at Trustworthy Technology and Engineering (TTE) Laboratory, Huawei Te
 
 
 
+
+
 - [[2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning|Diverse Human Value Alignment for LLMs via Ethical Reasoning]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ Researcher at Trustworthy Technology and Engineering (TTE) Laboratory, Huawei Te
 
 
 
+
+
+- *From 2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning*: Affiliation: Laboratory, Huawei Technologies Co
+- *From 2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning*: Affiliation: Laboratory, Huawei Technologies Co
 - *From 2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning*: Affiliation: Laboratory, Huawei Technologies Co
 - *From 2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning*: Affiliation: Laboratory, Huawei Technologies Co
 - *From 2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning*: Affiliation: Laboratory, Huawei Technologies Co

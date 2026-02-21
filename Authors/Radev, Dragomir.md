@@ -56,7 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+
+
 - [[2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ...|On the Challenges of Bias Evaluation Under Multilingual ...]]
 
 ## External Links & Profiles

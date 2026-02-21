@@ -17,7 +17,7 @@ short_title: "Offensive language detection in Hebrew: can other languages help?"
 year: 2022
 first_author: "[[Marina Litvak]]"
 last_author: "[[Eran Madeghem]]"
-authors: "Marina Litvak, Natalia Vanetik, Chaya Liebeskind, Oren Hmdia, Eran Madeghem"
+authors: Marina Litvak; Natalia Vanetik; Chaya Liebeskind; Oren Hmdia; Eran Madeghem
 url: "https://aclanthology.org/2022.lrec-1.396/"
 external_pdf: "https://aclanthology.org/2022.lrec-1.396.pdf"
 publication: "ACL Anthology (LREC 2022)"

@@ -19,7 +19,7 @@ short_title: "Multilingual Blending: LLM Safety Alignment Evaluation with Langua
 year: 2024
 first_author: "[[Jiayang Song]]"
 last_author: "[[Lei Ma]]"
-authors: "[[Jiayang Song]]; [[Yuheng Huang]]; [[Zhehua Zhou]]; [[Lei Ma]]"
+authors: Jiayang Song; Yuheng Huang; Zhehua Zhou; Lei Ma
 url: "https://arxiv.org/abs/2407.07342"
 external_pdf: "https://arxiv.org/pdf/2407.07342.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.md"
@@ -55,7 +55,7 @@ CONFERENCE: "NAACL 2025"
 
 ## Authors
 
-[[Jinwang Song|Jiayang Song]], [[Yuheng Huang]], [[Zhehua Zhou]], [[Lei Ma]]
+[[Jiayang Song]], [[Yuheng Huang]], [[Zhehua Zhou]], [[Lei Ma]]
 
 ## Metadata
 

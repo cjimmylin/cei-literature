@@ -16,7 +16,7 @@ short_title: "How Large Language Models Enhance Low-Resource Mongolian-Chinese M
 year: 2025
 first_author: "[[Gao, Zhenjie]]"
 last_author: "[[Han, Yibo]]"
-authors: "[[Gao, Zhenjie]]; [[Bao, Feilong]]; [[Li, Yuan]]; [[Hou, Ruichen]]; [[Han, Yibo]]"
+authors: "Gao, Zhenjie; Bao, Feilong; Li, Yuan; Hou, Ruichen; Han, Yibo"
 authors_incomplete: false
 doi: 10.3724/2096-7004.di.2025.0116
 url: "https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0116"

@@ -59,6 +59,9 @@ twitter: ""
 
 
 
+
+
+- [[2024-Hooker-Global MMLU Understanding and Addressing Cultural|Global MMLU Understanding and Addressing Cultural]]
 - [[2024-Singh-Aya Dataset|Aya Dataset]]
 
 ## External Links & Profiles
@@ -89,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
+- *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: ahmet@cohere.com
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: sarahooker@cohere.com
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: ahmet@cohere.com

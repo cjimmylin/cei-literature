@@ -18,8 +18,8 @@ type: conferencePaper
 short_title: "Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link"
 year: 2025
 first_author: "[[Ray, Shawn]]"
-last_author: "[[Ray, Ram L]]"
-authors: "[[Ray, Shawn]]; [[Ray, Ram L.]]"
+last_author: "[[Ray, Ram L.]]"
+authors: "Ray, Shawn; Ray, Ram L."
 authors_incomplete: false
 doi: 10.1007/s43681-025-00970-8
 url: "https://link.springer.com/article/10.1007/s43681-025-00970-8"

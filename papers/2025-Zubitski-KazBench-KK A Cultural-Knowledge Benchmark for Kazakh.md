@@ -16,9 +16,9 @@ key: EXSR0395
 type: conference_paper
 short_title: "KazBench-KK A Cultural-Knowledge Benchmark for Kazakh"
 year: 2025
-first_author: "[[Sanzhar Umbet, Sanzhar Murzakhmetov, Beksultan Sagyndyk, Kirill Yakunin, Timur Akishev, Pavel Zubitski]]"
-last_author: "[[Pavel Zubitski Timur Akishev]]"
-authors: "[[Sanzhar Umbet, Sanzhar Murzakhmetov, Beksultan Sagyndyk, Kirill Yakunin, Timur Akishev, Pavel Zubitski]]"
+first_author: "[[Sanzhar Umbet]]"
+last_author: "[[Pavel Zubitski]]"
+authors: Sanzhar Umbet; Sanzhar Murzakhmetov; Beksultan Sagyndyk; Kirill Yakunin; Timur Akishev; Pavel Zubitski
 authors_incomplete: false
 url: "https://aclanthology.org/2025.fieldmatters-1.4/"
 external_pdf: "https://aclanthology.org/2025.fieldmatters-1.4.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Sanzhar Murzakhmetov Sanzhar Umbet]], [[Kirill Yakunin Beksultan Sagyndyk]], [[Pavel Zubitski Timur Akishev]]
+[[Sanzhar Umbet]], [[Sanzhar Murzakhmetov]], [[Beksultan Sagyndyk]], [[Kirill Yakunin]], [[Timur Akishev]], [[Pavel Zubitski]]
 
 ## Metadata
 

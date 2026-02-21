@@ -100,7 +100,7 @@ Specific domain hallucination requires specific domain tuning. MedHallTune provi
 
 ## Authors
 
-[[Qiao Yan]], [[Yuchen Yuan]], [[Xiaowei Hu]], [[Yihan Wang]], [[Jiaqi Xu]], [[Jinpeng Li]], [[Cheng-Yang Fu|Chi-Wing Fu]], [[Pheng-Ann Heng]]
+[[Qiao Yan]], [[Yuchen Yuan]], [[Xiaowei Hu]], [[Yihan Wang]], [[Jiaqi Xu]], [[Jinpeng Li]], [[Chi-Wing Fu]], [[Pheng-Ann Heng]]
 
 ## Data Description
 

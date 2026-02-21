@@ -17,7 +17,7 @@ short_title: "Sentiment analysis in multilingual context: Comparative analysis o
 year: 2025
 first_author: "[[Das, Rajesh Kumar]]"
 last_author: "[[Khushbu, S.]]"
-authors: "[[Das, Rajesh Kumar]]; [[Islam, Mirajul]]; [[Hasan, Md Mahmudul]]; [[Razia, Sultana]]; [[Hassan, Mocksidul]]; [[Khushbu, S.]]"
+authors: "Das, Rajesh Kumar; Islam, Mirajul; Hasan, Md Mahmudul; Razia, Sultana; Hassan, Mocksidul; Khushbu, S."
 authors_incomplete: false
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10560063/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC10560063&blobtype=pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Das, Rajesh Kumar]], [[Islam, Mirajul]], [[Hasan, Md Mahmudul]], [[Razia, Sultana]], [[Hassan, Mocksidul]], [[Khushbu, S.]]
+[[Das, Rajesh Kumar]], [[Islam, Mirajul]], [[Hasan, Md Mahmudul]], [[Razia, Sultana]], [[Hassan, Mocksidul]], [[Khushbu, S]]
 
 ## Metadata
 

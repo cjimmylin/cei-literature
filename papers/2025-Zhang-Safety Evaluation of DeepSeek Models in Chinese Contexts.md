@@ -16,7 +16,7 @@ short_title: Safety Evaluation of DeepSeek Models in Chinese Contexts
 year: 2025
 first_author: "[[Wenjing Zhang]]"
 last_author: "[[Shiguo Lian]]"
-authors: Wenjing Zhang, Xuejiao Lei, Zhaoxiang Liu, Ning Wang, Zhenhong Long, Peijun Yang, Jiaojiao Zhao, Minjie Hua, Chaoyang Ma, Kai Wang, Shiguo Lian
+authors: Wenjing Zhang; Xuejiao Lei; Zhaoxiang Liu; Ning Wang; Zhenhong Long; Peijun Yang; Jiaojiao Zhao; Minjie Hua; Chaoyang Ma; Kai Wang; Shiguo Lian
 url: "https://arxiv.org/abs/2502.11137"
 external_pdf: "https://arxiv.org/pdf/2502.11137.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Wenjing Zhang]], [[Xuejiao Lei]], [[Zhaoxiang Liu]], [[Ningli Wang|Ning Wang]], [[Zhenhong Long]], [[Peijun Yang]], [[Jiaojiao Zhao]], [[Minjie Hua]], [[Chaoyang Ma]], [[Kaile Wang|Kai Wang]], [[Shiguo Lian]]
+[[Wenjing Zhang]], [[Xuejiao Lei]], [[Zhaoxiang Liu]], [[Ning Wang]], [[Zhenhong Long]], [[Peijun Yang]], [[Jiaojiao Zhao]], [[Minjie Hua]], [[Chaoyang Ma]], [[Kai Wang]], [[Shiguo Lian]]
 
 ## Metadata
 

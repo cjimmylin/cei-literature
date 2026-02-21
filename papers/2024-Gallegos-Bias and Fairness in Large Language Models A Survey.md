@@ -17,8 +17,8 @@ type: preprint
 short_title: "Bias and Fairness in Large Language Models: A Survey"
 year: 2024
 first_author: "[[Gallegos, Isabel O.]]"
-last_author: "[[Ahmed, Nesreen K]]"
-authors: "[[Gallegos, Isabel O.]]; [[Rossi, Ryan A.]]; [[Barrow, Joe]]; [[Tanjim, Md Mehrab]]; [[Kim, Sungchul]]; [[Dernoncourt, Franck]]; [[Yu, Tong]]; [[Zhang, Ruiyi]]; [[Ahmed, Nesreen K.]]"
+last_author: "[[Ahmed, Nesreen K.]]"
+authors: "Gallegos, Isabel O.; Rossi, Ryan A.; Barrow, Joe; Tanjim, Md Mehrab; Kim, Sungchul; Dernoncourt, Franck; Yu, Tong; Zhang, Ruiyi; Ahmed, Nesreen K."
 authors_incomplete: false
 url: "https://aclanthology.org/2024.cl-3.8/"
 external_pdf: "https://arxiv.org/pdf/2309.00770.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2024"
 
 ## Authors
 
-[[Gallegos, Isabel O]], [[Rossi, Ryan A]], [[Barrow, Joe]], [[Tanjim, Md Mehrab]], [[Kim, Sungchul]], [[Dernoncourt, Franck]], [[Yongqi Tong|Yu, Tong]], [[Zhang, Ruiyi]], [[Ahmed, Nesreen K]]
+[[Gallegos, Isabel O]], [[Rossi, Ryan A]], [[Barrow, Joe]], [[Tanjim, Md Mehrab]], [[Kim, Sungchul]], [[Dernoncourt, Franck]], [[Yu, Tong]], [[Zhang, Ruiyi]], [[Ahmed, Nesreen K]]
 
 ## Metadata
 

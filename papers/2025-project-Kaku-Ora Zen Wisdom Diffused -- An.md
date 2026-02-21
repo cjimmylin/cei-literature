@@ -19,7 +19,7 @@ short_title: "Kaku-Ora Zen Wisdom Diffused -- An"
 year: 2025
 first_author: "[[project), (LessWrong community]]"
 last_author: "[[(LessWrong community project)]]"
-authors: "[[(LessWrong community project)]]"
+authors: (LessWrong community project)
 authors_incomplete: false
 url: 
 external_pdf: 

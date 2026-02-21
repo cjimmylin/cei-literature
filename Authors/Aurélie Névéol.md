@@ -51,7 +51,10 @@ She is a pioneer in clinical NLP in French and English and a strong advocate for
 
 
 
+
+
 - [[2025-Mitchell-SHADES|SHADES]]
+- [[2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social|French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English]] (First Author)
 
 ## External Links & Profiles
 
@@ -70,6 +73,10 @@ She is a pioneer in clinical NLP in French and English and a strong advocate for
 
 
 
+
+
+- *From 2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social*: Affiliation: centered CrowS-pairs dataset to create, Email: neveol@lisn.fr
+- *From 2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social*: Affiliation: centered CrowS-pairs dataset to create, Email: neveol@lisn.fr
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

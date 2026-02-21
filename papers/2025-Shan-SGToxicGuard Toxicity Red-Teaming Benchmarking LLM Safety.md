@@ -18,7 +18,7 @@ short_title: "SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety"
 year: 2025
 first_author: "[[Hu, Yujia]]"
 last_author: "[[Lee, Roy Ka-Wei]]"
-authors: "[[Hu, Yujia]]; [[Hee, Ming Shan]]; [[Nakov, Preslav]]; [[Lee, Roy Ka-Wei]]"
+authors: "Hu, Yujia; Hee, Ming Shan; Nakov, Preslav; Lee, Roy Ka-Wei"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.15260"
 external_pdf: "https://arxiv.org/pdf/2509.15260.pdf"

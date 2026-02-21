@@ -17,9 +17,9 @@ key: EXSR0482
 type: conference_paper
 short_title: "Fit for Our Purpose Not Yours"
 year: 2024
-first_author: "[[Suzanne Duncan, Gianna Leoni, Lee Steven, Keoni Mahelona, Peter-Lucas Jones]]"
+first_author: "[[Suzanne Duncan]]"
 last_author: "[[Peter-Lucas Jones]]"
-authors: "[[Suzanne Duncan, Gianna Leoni, Lee Steven, Keoni Mahelona, Peter-Lucas Jones]]"
+authors: Suzanne Duncan; Gianna Leoni; Lee Steven; Keoni Mahelona; Peter-Lucas Jones
 authors_incomplete: false
 url: 
 external_pdf: "https://openreview.net/pdf?id=6hTgB2PR5Z"

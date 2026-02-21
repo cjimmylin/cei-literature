@@ -18,7 +18,7 @@ short_title: "TextDetox Multilingual Toxicity Dataset"
 year: 2025
 first_author: "[[Dementieva, Daryna]]"
 last_author: "[[Moskovskiy, Daniil]]"
-authors: "[[Dementieva, Daryna]]; [[Moskovskiy, Daniil]]"
+authors: "Dementieva, Daryna; Moskovskiy, Daniil"
 authors_incomplete: true
 url: "https://huggingface.co/datasets/textdetox/multilingual_toxicity_dataset"
 publication: HuggingFace

@@ -18,9 +18,9 @@ key: EXSR0346
 type: preprint
 short_title: "Cognitive Bias in Generative AI Influences"
 year: 2025
-first_author: "[[Zhang, Song, Liu]]"
+first_author: "[[Zhang]]"
 last_author: "[[Liu]]"
-authors: "[[Zhang, Song, Liu]]"
+authors: Zhang; Song; Liu
 authors_incomplete: false
 url: 
 external_pdf: "https://www.nature.com/articles/s41598-025-99121-6.pdf"

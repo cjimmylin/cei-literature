@@ -18,8 +18,8 @@ type: preprint
 short_title: "Tackling Hate Speech in Low-resource Languages"
 year: 2022
 first_author: "[[Nkemelu, Daniel]]"
-last_author: "[[Best, Michael L]]"
-authors: "[[Nkemelu, Daniel]]; [[Shah, Harshil]]; [[Essa, Irfan]]; [[Best, Michael L.]]"
+last_author: "[[Best, Michael L.]]"
+authors: "Nkemelu, Daniel; Shah, Harshil; Essa, Irfan; Best, Michael L."
 authors_incomplete: false
 url: "https://dl.acm.org/doi/fullHtml/10.1145/3572334.3572372"
 external_pdf: "https://arxiv.org/pdf/2303.16828v1.pdf"

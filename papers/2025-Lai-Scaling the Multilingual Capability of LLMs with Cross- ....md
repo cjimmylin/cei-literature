@@ -18,7 +18,7 @@ short_title: "Scaling the Multilingual Capability of LLMs with Cross- ..."
 year: 2025
 first_author: "[[Lai, Wen]]"
 last_author: "[[Fraser, Alexander]]"
-authors: "[[Lai, Wen]]; [[Mesgar, Mohsen]]; [[Fraser, Alexander]]"
+authors: "Lai, Wen; Mesgar, Mohsen; Fraser, Alexander"
 authors_incomplete: false
 url: "https://aclanthology.org/2024.findings-acl.488.pdf"
 external_pdf: "https://arxiv.org/pdf/2406.01771v1.pdf"

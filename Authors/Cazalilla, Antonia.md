@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque|Red Teaming Contemporary AI Models: Insights from Spanish and Basque Perspectives]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque*: Affiliation: Lab, I3US Institute, Universidad de Sevilla, Seville, Spain
+- *From 2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque*: Affiliation: Lab, I3US Institute, Universidad de Sevilla, Seville, Spain
 - *From 2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque*: Affiliation: Lab, I3US Institute, Universidad de Sevilla, Seville, Spain
 - *From 2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque*: Affiliation: Lab, I3US Institute, Universidad de Sevilla, Seville, Spain
 - *From 2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque*: Affiliation: Lab, I3US Institute, Universidad de Sevilla, Seville, Spain

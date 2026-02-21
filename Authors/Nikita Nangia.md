@@ -23,6 +23,8 @@ Nikita Nangia is an NLP researcher working on Responsible AI at Amazon AGI. She 
 
 
 
+
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
 - [[2022-Parrish-BBQ|BBQ]]
@@ -36,6 +38,10 @@ Nikita Nangia is an NLP researcher working on Responsible AI at Amazon AGI. She 
 
 
 
+
+
+- *From 2022-Parrish-BBQ Bias Benchmark for Question Answering*: Affiliation: Center for Data Science
+- *From 2022-Parrish-BBQ Bias Benchmark for Question Answering*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ Bias Benchmark for Question Answering*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ Bias Benchmark for Question Answering*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ Bias Benchmark for Question Answering*: Affiliation: Center for Data Science

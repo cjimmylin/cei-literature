@@ -16,9 +16,9 @@ key: EXSR0345
 type: preprint
 short_title: "Charting the Landscape of African NLP"
 year: 2025
-first_author: "[[Jesujoba O. Alabi, Michael A. Hedderich, David Ifeoluwa Adelani, Dietrich Klakow]]"
-last_author: "[[Dietrich Klakow David Ifeoluwa Adelani]]"
-authors: "[[Jesujoba O. Alabi, Michael A. Hedderich, David Ifeoluwa Adelani, Dietrich Klakow]]"
+first_author: "[[Jesujoba O. Alabi]]"
+last_author: "[[Dietrich Klakow]]"
+authors: Jesujoba O. Alabi; Michael A. Hedderich; David Ifeoluwa Adelani; Dietrich Klakow
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.21315"
 external_pdf: "https://arxiv.org/pdf/2505.21315.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Michael A. Hedderich Jesujoba O. Alabi]], [[Dietrich Klakow David Ifeoluwa Adelani]]
+[[Jesujoba O. Alabi]], [[Michael A. Hedderich]], [[David Ifeoluwa Adelani]], [[Dietrich Klakow]]
 
 ## Metadata
 

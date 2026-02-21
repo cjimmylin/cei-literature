@@ -17,8 +17,8 @@ type: conferencePaper
 short_title: "SPICA (Scenarios for Pluralistic In-Context Alignment)"
 year: 2025
 first_author: "[[Quan Ze Chen]]"
-last_author: "[[Amy X. Zhang Chan Young Park]]"
-authors: "Quan Ze Chen, Kevin Feng, Chan Young Park, Amy X. Zhang"
+last_author: "[[Amy X. Zhang]]"
+authors: Quan Ze Chen; Kevin Feng; Chan Young Park; Amy X. Zhang
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2411.10912.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Kevin Feng Quan Ze Chen]], [[Amy X. Zhang Chan Young Park]]
+[[Quan Ze Chen]], [[Kevin Feng]], [[Chan Young Park]], [[Amy X. Zhang]]
 
 ## Metadata
 

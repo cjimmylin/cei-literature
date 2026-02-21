@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Mougan-Kantian Deontology Meets AI Alignment|Kantian Deontology Meets AI Alignment]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Mougan-Kantian Deontology Meets AI Alignment*: Affiliation: University of Southampton, Email: c.mougan@soton.ac.uk
+- *From 2023-Mougan-Kantian Deontology Meets AI Alignment*: Affiliation: University of Southampton, Email: c.mougan@soton.ac.uk
 - *From 2023-Mougan-Kantian Deontology Meets AI Alignment*: Affiliation: University of Southampton, Email: c.mougan@soton.ac.uk
 - *From 2023-Mougan-Kantian Deontology Meets AI Alignment*: Affiliation: University of Southampton, Email: c.mougan@soton.ac.uk
 - *From 2023-Mougan-Kantian Deontology Meets AI Alignment*: Affiliation: University of Southampton, Email: c.mougan@soton.ac.uk

@@ -17,7 +17,7 @@ short_title: Do LLMs Speak Kazakh? A Pilot Evaluation of Seven Models
 year: 2024
 first_author: "[[Akylbek Maxutov]]"
 last_author: "[[Pavel Braslavski]]"
-authors: Akylbek Maxutov, Ayan Myrzakhmet, Pavel Braslavski
+authors: Akylbek Maxutov; Ayan Myrzakhmet; Pavel Braslavski
 url: "https://aclanthology.org/2024.sigturk-1.8/"
 external_pdf: "https://aclanthology.org/2024.sigturk-1.8.pdf"
 publication: ACL Anthology (SIGTURK 2024)

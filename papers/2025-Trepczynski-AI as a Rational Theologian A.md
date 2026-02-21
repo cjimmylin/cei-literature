@@ -21,7 +21,7 @@ short_title: "AI as a Rational Theologian A"
 year: 2025
 first_author: "[[Trepczynski, Marcin]]"
 last_author: "[[Marcin Trepczynski]]"
-authors: "[[Marcin Trepczynski]]"
+authors: Marcin Trepczynski
 authors_incomplete: false
 url: 
 external_pdf: "https://doi.org/10.31338/uw.9788323569183"

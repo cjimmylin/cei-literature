@@ -17,7 +17,7 @@ short_title: "Constructive and Toxic Speech Detection for Open-domain Social Med
 year: 2021
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
-authors: "Luan Thanh Nguyen, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"
+authors: Luan Thanh Nguyen; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen
 doi: 10.1007/978-3-030-79457-6_49
 url: "https://arxiv.org/abs/2103.10069"
 external_pdf: "https://arxiv.org/pdf/2103.10069.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Long Nguyen|Luan Thanh Nguyen]], [[Kiet Van Nguyen]], [[Ngan Luu-Thuy Nguyen]]
+[[Luan Thanh Nguyen]], [[Kiet Van Nguyen]], [[Ngan Luu-Thuy Nguyen]]
 
 ## Metadata
 

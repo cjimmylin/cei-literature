@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset|RuBia: A Russian Language Bias Detection Dataset]] (Last Author)
 - [[2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding|TAPE: Assessing Few-shot Russian Language Understanding]]
 
@@ -86,6 +88,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
+- *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 - *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 - *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

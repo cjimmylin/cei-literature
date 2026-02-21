@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering|AmharicStoryQA A Multicultural Story Question Answering]]
 - [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]]
 - [[2025-Tewabe-The State of Large Language Models for African Languages Progress and|The State of Large Language Models for African Languages: Progress and Challenges]] (Last Author)
@@ -39,6 +41,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: pawang@cse.iitkgp.ac.in
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: pawang@cse.iitkgp.ac.in
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: biemann@informatik.uni
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in

@@ -16,7 +16,7 @@ short_title: "NormGenesis: Multicultural Dialogue Generation Dataset"
 year: 2025
 first_author: "[[Hong, Minki]]"
 last_author: "[[Kim, Jihie]]"
-authors: "[[Hong, Minki]]; [[Choi, Jangho]]; [[Kim, Jihie]]"
+authors: "Hong, Minki; Choi, Jangho; Kim, Jihie"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.18395"
 external_pdf: "https://arxiv.org/pdf/2509.18395.pdf"

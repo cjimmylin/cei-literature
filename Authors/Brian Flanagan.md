@@ -52,6 +52,8 @@ Flanagan's work on the "Hart-Dworkin Debate" in the context of cognitive science
 
 
 
+
+
 - [[2025-Nunes-Evidence of conceptual mastery in the application|Evidence of conceptual mastery in the application]] (Last Author)
 
 ## External Links & Profiles
@@ -66,6 +68,10 @@ Flanagan's work on the "Hart-Dworkin Debate" in the context of cognitive science
 
 
 
+
+
+- *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
+- *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
 - *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
 - *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
 - *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio

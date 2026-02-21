@@ -17,7 +17,7 @@ short_title: "KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivity in K
 year: 2025
 first_author: "[[Sunkyoung Park]]"
 last_author: "[[Sanghoun Song]]"
-authors: "Sunkyoung Park, Eunbi Cho, Chan Young Jung, Woo Chang Kang, Taegyoon Kim, Eunah Park, Sanghoun Song"
+authors: Sunkyoung Park; Eunbi Cho; Chan Young Jung; Woo Chang Kang; Taegyoon Kim; Eunah Park; Sanghoun Song
 doi: 10.1038/s41597-025-06344-3
 url: "https://www.nature.com/articles/s41597-025-06344-3"
 external_pdf: "https://www.nature.com/articles/s41597-025-06344-3_reference.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Sunkyoung Park]], [[Eunbi Cho]], [[Chani Jung|Chan Young Jung]], [[Woo Chang Kang]], [[Takyoung Kim|Taegyoon Kim]], [[Eunah Park]], [[Sanghoun Song]]
+[[Sunkyoung Park]], [[Eunbi Cho]], [[Chan Young Jung]], [[Woo Chang Kang]], [[Taegyoon Kim]], [[Eunah Park]], [[Sanghoun Song]]
 
 ## Metadata
 

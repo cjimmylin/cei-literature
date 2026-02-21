@@ -15,9 +15,9 @@ key: EXSR0497
 type: preprint
 short_title: "Investigating Gender Bias in Turkish Language"
 year: 2024
-first_author: "[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]"
+first_author: "[[Orhun Caglidil]]"
 last_author: "[[Georg Rehm]]"
-authors: "[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]"
+authors: Orhun Caglidil; Malte Ostendorff; Georg Rehm
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.11726"
 external_pdf: "https://arxiv.org/pdf/2404.11726.pdf"

@@ -17,7 +17,7 @@ short_title: "Ko-MuSR: A Multistep Soft Reasoning Benchmark for LLMs Capable of 
 year: 2025
 first_author: "[[Chanwoo Park]]"
 last_author: "[[Byung-Won On]]"
-authors: "Chanwoo Park, Yong-Ho Kim, Byung-Won On"
+authors: Chanwoo Park; Yong-Ho Kim; Byung-Won On
 url: "https://arxiv.org/abs/2510.24150"
 external_pdf: "https://arxiv.org/pdf/2510.24150.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.md"

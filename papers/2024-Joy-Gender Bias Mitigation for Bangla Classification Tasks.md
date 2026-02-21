@@ -16,7 +16,7 @@ short_title: "Gender Bias Mitigation for Bangla Classification Tasks"
 year: 2024
 first_author: "[[Joy, Sajib Kumar Saha]]"
 last_author: "[[Shahariar, G M]]"
-authors: "[[Joy, Sajib Kumar Saha]]; [[Mahy, Arman Hassan]]; [[Sultana, Meherin]]; [[Abha, Azizah Mamun]]; [[Ahmmed, MD Piyal]]; [[Dong, Yue]]; [[Shahariar, G M]]"
+authors: "Joy, Sajib Kumar Saha; Mahy, Arman Hassan; Sultana, Meherin; Abha, Azizah Mamun; Ahmmed, MD Piyal; Dong, Yue; Shahariar, G M"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.10636"
 external_pdf: "https://arxiv.org/pdf/2411.10636.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Joy, Sajib Kumar Saha]], [[Mahy, Arman Hassan]], [[Sultana, Meherin]], [[Abha, Azizah Mamun]], [[Ahmmed, MD Piyal]], [[Dong, Yue]], [[Saeed, Ari M|Shahariar, G M]]
+[[Joy, Sajib Kumar Saha]], [[Mahy, Arman Hassan]], [[Sultana, Meherin]], [[Abha, Azizah Mamun]], [[Ahmmed, MD Piyal]], [[Dong, Yue]], [[Shahariar, G M]]
 
 ## Metadata
 

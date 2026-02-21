@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in|Analysis of LLM Bias (Chinese Propaganda & Anti-US Sentiment) in DeepSeek-R1 vs. ChatGPT o3-mini-high]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in*: Affiliation: Labs, Taipei, Taiwan, Email: uiucfuwencheng@gmail.com
+- *From 2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in*: Affiliation: Labs, Taipei, Taiwan, Email: uiucfuwencheng@gmail.com
 - *From 2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in*: Affiliation: Labs, Taipei, Taiwan, Email: ptt@ailabs.tw
 - *From 2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in*: Affiliation: Labs, Taipei, Taiwan, Email: simon.imbot@ailabs.tw
 - *From 2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in*: Affiliation: Labs, Taipei, Taiwan, Email: zweilin@ailabs.tw

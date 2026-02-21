@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect|Evaluating Large Language Models on Understanding Korean Indirect Speech Acts]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect*: Affiliation: Department of German Language and Literature, Sungkyunkwan University, Seoul, Email: cristlo5@snu.ac.kr
+- *From 2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect*: Affiliation: Department of German Language and Literature, Sungkyunkwan University, Seoul, Email: cristlo5@snu.ac.kr
 - *From 2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect*: Affiliation: Department of German Language and Literature, Sungkyunkwan University, Seoul, Email: cristlo5@snu.ac.kr
 - *From 2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect*: Affiliation: Department of German Language and Literature, Sungkyunkwan University, Seoul, Email: cristlo5@snu.ac.kr
 - *From 2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect*: Affiliation: Department of German Language and Literature, Sungkyunkwan University, Seoul, Email: cristlo5@snu.ac.kr

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Ofli-Multimodal Social Media Data Analysis in|Multimodal Social Media Data Analysis in]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Ofli-Multimodal Social Media Data Analysis in*: Affiliation: Research Institute, Email: mimran@hbku.edu.qa
+- *From 2025-Ofli-Multimodal Social Media Data Analysis in*: Affiliation: Research Institute, Email: mimran@hbku.edu.qa
 - *From 2025-Ofli-Multimodal Social Media Data Analysis in*: Affiliation: Research Institute, Email: mimran@hbku.edu.qa
 - *From 2025-Ofli-Multimodal Social Media Data Analysis in*: Affiliation: Research Institute, Email: mimran@hbku.edu.qa
 - *From 2025-Ofli-Multimodal Social Media Data Analysis in*: Affiliation: Research Institute, Email: ﬁalam@hbku.edu.qa

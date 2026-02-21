@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in|Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in*: Affiliation: University 2Chinese Uni-, Email: jhuan236@jh.edu
+- *From 2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in*: Affiliation: University 2Chinese Uni-, Email: jhuan236@jh.edu
 - *From 2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in*: Affiliation: University 2Chinese Uni-, Email: jhuan236@jh.edu
 - *From 2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in*: Affiliation: University 2Chinese Uni-, Email: jhuan236@jh.edu
 - *From 2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in*: Affiliation: University 2Chinese Uni-, Email: jhuan236@jh.edu

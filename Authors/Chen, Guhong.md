@@ -3,7 +3,7 @@ name: "Chen, Guhong"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Laboratory for High Performance Data Mining"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "xiaoqingying@sribd.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]] (First Author)
 - [[2025-Ni-A Survey on Large Language Model Benchmarks|A Survey on Large Language Model Benchmarks]]
 
 ## External Links & Profiles
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
+- *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
 - *From 2025-Ni-A Survey on Large Language Model Benchmarks*: Affiliation: Laboratory for High Performance Data Mining
 - *From 2025-Ni-A Survey on Large Language Model Benchmarks*: Affiliation: Laboratory for High Performance Data Mining
 - *From 2025-Ni-A Survey on Large Language Model Benchmarks*: Affiliation: Laboratory for High Performance Data Mining

@@ -26,6 +26,8 @@ Yue Huang is a PhD student in the MINE Lab at the University of Notre Dame's Com
 
 
 
+
+
 - [[2025-Gao-MIST Moral Inference through Storytelling with Text and Images|MIST: Moral Inference through Storytelling with Text and Images]]
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]] (First Author)
 - [[2024-Huang-TrustLLM|TrustLLM]] (First Author)
@@ -39,6 +41,10 @@ Yue Huang is a PhD student in the MINE Lab at the University of Notre Dame's Com
 
 
 
+
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu

@@ -16,8 +16,8 @@ type: journalArticle
 short_title: "Simulating social perception with large language models: perceptions of China's common prosperity"
 year: 2025
 first_author: "[[Zhuoren Jiang]]"
-last_author: "[[Biao Huang Zhuoren Jiang]]"
-authors: Zhuoren Jiang, Biao Huang
+last_author: "[[Biao Huang]]"
+authors: Zhuoren Jiang; Biao Huang
 doi: 10.1080/23812346.2025.2603822
 url: "https://www.tandfonline.com/doi/full/10.1080/23812346.2025.2603822"
 publication: "Journal of Chinese Governance (Taylor & Francis)"
@@ -52,7 +52,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Biao Huang Zhuoren Jiang]]
+[[Zhuoren Jiang]], [[Biao Huang]]
 
 ## Metadata
 

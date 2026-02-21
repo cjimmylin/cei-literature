@@ -22,7 +22,10 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence|Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World]]
+- [[2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a|Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting]] (Last Author)
 - [[2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for|Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh]]
 - [[2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment|HALF: Harm-Aware LLM Fairness Evaluation Aligned with Deployment]]
 - [[2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian|Qorgau Evaluating LLM Safety in Kazakh-Russian]] (Last Author)
@@ -30,6 +33,7 @@ semantic_scholar: ""
 - [[2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh|KazMMLU Evaluating Language Models on Kazakh]]
 - [[2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation|Arabic Dataset for LLM Safeguard Evaluation]]
 - [[2024-Wang-Do-Not-Answer|Do-Not-Answer]]
+- [[2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark|bgGLUE: A Bulgarian General Language Understanding Evaluation Benchmark]]
 - [[2020-Zampieri-SemEval-2020 Task 12|SemEval-2020 Task 12]]
 
 ## Notes
@@ -39,6 +43,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
+- *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu

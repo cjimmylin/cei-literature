@@ -17,7 +17,7 @@ short_title: "When Ethics and Payoffs Diverge"
 year: 2025
 first_author: "[[Steffen Backmann]]"
 last_author: "[[Jin, Zhijing]]"
-authors: "[[Backmann, Steffen]]; [[Guzman Piedrahita, David]]; [[Tewolde, Emanuel]]; [[Mihalcea, Rada]]; [[Schölkopf, Bernhard]]; [[Jin, Zhijing]]"
+authors: "Backmann, Steffen; Guzman Piedrahita, David; Tewolde, Emanuel; Mihalcea, Rada; Schölkopf, Bernhard; Jin, Zhijing"
 doi: 10.48550/arXiv.2505.19212
 url: "https://arxiv.org/abs/2505.19212"
 external_pdf: "https://arxiv.org/pdf/2505.19212.pdf"

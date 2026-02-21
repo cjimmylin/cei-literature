@@ -24,6 +24,8 @@ Dilshod Azizov is a researcher at Mohamed bin Zayed University of Artificial Int
 
 
 
+
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
@@ -33,6 +35,10 @@ Dilshod Azizov is a researcher at Mohamed bin Zayed University of Artificial Int
 
 
 
+
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike

@@ -1,9 +1,9 @@
 ---
 name: "Jiseon Kim"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Computing, KAIST"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "alice.oh@kaist.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -58,6 +58,10 @@ twitter: ""
 
 
 
+
+
+- [[2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and|Social Bias Benchmark for Generation: A Comparison of Generation and QA-Based Evaluations]]
+- [[2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering|KoBBQ: Korean Bias Benchmark for Question Answering]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
@@ -84,6 +88,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering*: Affiliation: School of Computing, KAIST, Email: alice.oh@kaist.edu
+- *From 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering*: Affiliation: School of Computing, KAIST, Email: alice.oh@kaist.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

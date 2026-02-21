@@ -19,7 +19,7 @@ short_title: "Two-Stage Quranic QA via Ensemble Retrieval"
 year: 2025
 first_author: "[[Basem, Mohamed]]"
 last_author: "[[Kassab, Hozaifa]]"
-authors: "[[Basem, Mohamed]]; [[Oshallah, Islam]]; [[Hamdi, Ali]]; [[Shaban, Khaled]]; [[Kassab, Hozaifa]]"
+authors: "Basem, Mohamed; Oshallah, Islam; Hamdi, Ali; Shaban, Khaled; Kassab, Hozaifa"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.06971"
 external_pdf: "https://arxiv.org/pdf/2508.06971.pdf"

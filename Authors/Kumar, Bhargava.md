@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kumar-SweEval Do LLMs Really Swear A|SweEval Do LLMs Really Swear A]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Kumar-SweEval Do LLMs Really Swear A*: Affiliation: Institute of Information Technology Ranchi, 3TD Securities‡, Email: hitesh.laxmichand.patel@oracle.com
+- *From 2025-Kumar-SweEval Do LLMs Really Swear A*: Affiliation: Institute of Information Technology Ranchi, 3TD Securities‡, Email: hitesh.laxmichand.patel@oracle.com
 - *From 2025-Kumar-SweEval Do LLMs Really Swear A*: Affiliation: Institute of Information Technology Ranchi, 3TD Securities‡, Email: dongkyu@hanyang.ac.kr
 - *From 2025-Kumar-SweEval Do LLMs Really Swear A*: Affiliation: Institute of Information Technology Ranchi, 3TD Securities‡, Email: hitesh.laxmichand.patel@oracle.com
 - *From 2025-Kumar-SweEval Do LLMs Really Swear A*: Affiliation: Institute of Information Technology Ranchi, 3TD Securities‡, Email: hitesh.laxmichand.patel@oracle.com

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs|IrokoBench -- A Benchmark for African Languages in the Age of LLMs]]
 - [[2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African|MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages]]
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
+- *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda

@@ -70,7 +70,7 @@ Understanding the deep meanings of the Qur'an and bridging the language gap betw
 
 ## Authors
 
-[[Mohamed Basem]], [[Islam Oshallah]], [[Baraa Hikal]], [[Ali Hamdi]], [[Abubakr Mohamed|Ammar Mohamed]]
+[[Mohamed Basem]], [[Islam Oshallah]], [[Baraa Hikal]], [[Ali Hamdi]], [[Ammar Mohamed]]
 
 ## Data Description
 

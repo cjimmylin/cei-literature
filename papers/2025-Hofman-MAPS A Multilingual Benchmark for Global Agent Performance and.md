@@ -18,7 +18,7 @@ short_title: "MAPS: A Multilingual Benchmark for Global Agent Performance and Se
 year: 2025
 first_author: "[[Hofman, Omer]]"
 last_author: "[[Vainshtein, Roman]]"
-authors: "[[Hofman, Omer]]; [[Brokman, Jonathan]]; [[Rachmil, Oren]]; [[Bose, Shamik]]; [[Pahuja, Vikas]]; [[Shimizu, Toshiya]]; [[Starostina, Trisha]]; [[Marchisio, Kelly]]; [[Goldfarb-Tarrant, Seraphina]]; [[Vainshtein, Roman]]"
+authors: "Hofman, Omer; Brokman, Jonathan; Rachmil, Oren; Bose, Shamik; Pahuja, Vikas; Shimizu, Toshiya; Starostina, Trisha; Marchisio, Kelly; Goldfarb-Tarrant, Seraphina; Vainshtein, Roman"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.15935"
 external_pdf: "https://arxiv.org/pdf/2505.15935.pdf"

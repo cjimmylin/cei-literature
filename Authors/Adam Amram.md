@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2018-Amram-Representations and Architectures in Neural Sentiment Analysis for|Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2018-Amram-Representations and Architectures in Neural Sentiment Analysis for*: Affiliation: University of Israel, University Road 1, Ra’anana, Email: adam.amram@gmail.com
+- *From 2018-Amram-Representations and Architectures in Neural Sentiment Analysis for*: Affiliation: University of Israel, University Road 1, Ra’anana, Email: adam.amram@gmail.com
 - *From 2018-Amram-Representations and Architectures in Neural Sentiment Analysis for*: Affiliation: University of Israel, University Road 1, Ra’anana, Email: adam.amram@gmail.com
 - *From 2018-Amram-Representations and Architectures in Neural Sentiment Analysis for*: Affiliation: University of Israel, University Road 1, Ra’anana, Email: adam.amram@gmail.com
 - *From 2018-Amram-Representations and Architectures in Neural Sentiment Analysis for*: Affiliation: University of Israel, University Road 1, Ra’anana, Email: adam.amram@gmail.com

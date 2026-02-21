@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: "Seeing Culture Benchmark: Evaluating VLMs on Culturally Rich Images from Southeast Asia"
 year: 2024
 first_author: "[[Satar, Burak]]"
-last_author: "[[Ngo, Chong-Wah]]"
+last_author: "[[Chong-Wah Ngo]]"
 authors: Burak Satar; Zhixin Ma; Patrick A. Irawan; Wilfried A. Mulyawan; Jing Jiang; Ee-Peng Lim; Chong-Wah Ngo
 url: "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"
 publication: HuggingFace
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Unknown (Multimedia-SMU)]]
+[[Burak Satar]], [[Zhixin Ma]], [[Patrick A. Irawan]], [[Wilfried A. Mulyawan]], [[Jing Jiang]], [[Ee-Peng Lim]], [[Chong-Wah Ngo]]
 
 ## Metadata
 

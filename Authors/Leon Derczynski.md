@@ -39,8 +39,11 @@ Leon Derczynski is a leading researcher in NLP safety, with particular expertise
 
 
 
+
+
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2021-Nurce-Detecting Abusive Albanian|Detecting Abusive Albanian]] (Last Author)
+- [[2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate|Offensive Language and Hate Speech Detection for Danish (DKHate)]] (Last Author)
 - [[2020-Zampieri-SemEval-2020 Task 12|SemEval-2020 Task 12]]
 
 ## Links

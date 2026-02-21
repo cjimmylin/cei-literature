@@ -16,8 +16,8 @@ type: preprint
 short_title: "Cultural Bias and Cultural Alignment of Large Language Models"
 year: 2024
 first_author: "[[Yongshuo Liu]]"
-last_author: "[[Nanyun Peng Linyuan Gong]]"
-authors: "Yongshuo Liu, Di Jin, Linyuan Gong, Nanyun Peng"
+last_author: "[[Nanyun Peng]]"
+authors: Yongshuo Liu; Di Jin; Linyuan Gong; Nanyun Peng
 doi: 10.1093/pnasnexus/pgae346
 url: "https://arxiv.org/abs/2311.14096"
 external_pdf: "https://arxiv.org/pdf/2311.14096.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Di Jin Yongshuo Liu]], [[Neil Zhenqiang Gong|Nanyun Peng Linyuan Gong]]
+[[Yongshuo Liu]], [[Di Jin]], [[Linyuan Gong]], [[Nanyun Peng]]
 
 ## Metadata
 

@@ -21,7 +21,7 @@ short_title: "GPTBIAS A Comprehensive Framework for Evaluating"
 year: 2023
 first_author: "[[Jiaxu Zhao]]"
 last_author: "[[Mykola Pechenizkiy]]"
-authors: "[[Jiaxu Zhao]]; [[Meng Fang]]; [[Shirui Pan]]; [[Wenpeng Yin]]; [[Mykola Pechenizkiy]]"
+authors: Jiaxu Zhao; Meng Fang; Shirui Pan; Wenpeng Yin; Mykola Pechenizkiy
 authors_incomplete: false
 url: "https://arxiv.org/abs/2312.06315"
 external_pdf: "https://arxiv.org/pdf/2312.06315.pdf"
@@ -57,7 +57,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Jiaxu Zhao]], [[Ming Fang|Meng Fang]], [[Shirui Pan]], [[Wenjie Yin|Wenpeng Yin]], [[Mykola Pechenizkiy]]
+[[Jiaxu Zhao]], [[Meng Fang]], [[Shirui Pan]], [[Wenpeng Yin]], [[Mykola Pechenizkiy]]
 
 ## Metadata
 

@@ -17,7 +17,7 @@ short_title: "AI Development and Innovation: A Comparison of Large Language Mode
 year: 2025
 first_author: "[[Li, Jiaxin]]"
 last_author: "[[Miao, Xiaoyu]]"
-authors: "[[Li, Jiaxin]]; [[Jiang, Zhenhui]]; [[Liu, Yang]]; [[Miao, Xiaoyu]]"
+authors: "Li, Jiaxin; Jiang, Zhenhui; Liu, Yang; Miao, Xiaoyu"
 authors_incomplete: false
 doi: 10.1145/3769086
 url: "https://dl.acm.org/doi/10.1145/3769086"

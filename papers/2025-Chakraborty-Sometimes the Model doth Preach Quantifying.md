@@ -17,9 +17,9 @@ key: EXSR0435
 type: preprint
 short_title: "Sometimes the Model doth Preach Quantifying"
 year: 2025
-first_author: "[[Hari Shankar, Vedanta S P, Tejas Cavale, Ponnurangam Kumaraguru, Abhijnan Chakraborty]]"
+first_author: "[[Hari Shankar]]"
 last_author: "[[Abhijnan Chakraborty]]"
-authors: "[[Hari Shankar, Vedanta S P, Tejas Cavale, Ponnurangam Kumaraguru, Abhijnan Chakraborty]]"
+authors: Hari Shankar; Vedanta S P; Tejas Cavale; Ponnurangam Kumaraguru; Abhijnan Chakraborty
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.07510"
 external_pdf: "https://arxiv.org/pdf/2503.07510.pdf"

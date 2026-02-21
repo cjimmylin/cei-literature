@@ -16,9 +16,9 @@ key: EXSR0322
 type: preprint
 short_title: "AfriMTEB and AfriE5 Benchmarking and Adapting"
 year: 2025
-first_author: "[[Kosei Uemura, Miaoran Zhang, David Ifeoluwa Adelani]]"
+first_author: "[[Kosei Uemura]]"
 last_author: "[[David Ifeoluwa Adelani]]"
-authors: "[[Kosei Uemura, Miaoran Zhang, David Ifeoluwa Adelani]]"
+authors: Kosei Uemura; Miaoran Zhang; David Ifeoluwa Adelani
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.23896"
 external_pdf: "https://arxiv.org/pdf/2510.23896.pdf"

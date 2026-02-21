@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi|Saudi-Alignment Benchmark -- Assessing LLMs Alignment with Saudi Cultural and Ethical Norms]] (Last Author)
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi*:, Email: walsanie@kacst.gov.sa
+- *From 2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi*:, Email: walsanie@kacst.gov.sa
 - *From 2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi*:, Email: walsanie@kacst.gov.sa
 - *From 2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi*:, Email: walsanie@kacst.gov.sa
 - *From 2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi*:, Email: walsanie@kacst.gov.sa

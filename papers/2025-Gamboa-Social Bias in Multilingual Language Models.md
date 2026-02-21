@@ -19,7 +19,7 @@ short_title: "Social Bias in Multilingual Language Models"
 year: 2025
 first_author: "[[Lance Calvin Lim Gamboa]]"
 last_author: "[[Mark Lee]]"
-authors: "[[Lance Calvin Lim Gamboa]]; [[Yue Feng]]; [[Mark Lee]]"
+authors: Lance Calvin Lim Gamboa; Yue Feng; Mark Lee
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.20201"
 external_pdf: "https://arxiv.org/pdf/2508.20201.pdf"

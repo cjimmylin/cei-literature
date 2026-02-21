@@ -18,9 +18,9 @@ key: EXSR0549
 type: preprint
 short_title: "Antisemitic Messages A Guide to High-Quality"
 year: 2023
-first_author: "[[Gunther Jikeli, Sameer Karali, Daniel Miehling, Katharina Soemer]]"
-last_author: "[[Katharina Soemer Daniel Miehling]]"
-authors: "[[Gunther Jikeli, Sameer Karali, Daniel Miehling, Katharina Soemer]]"
+first_author: "[[Gunther Jikeli]]"
+last_author: "[[Katharina Soemer]]"
+authors: Gunther Jikeli; Sameer Karali; Daniel Miehling; Katharina Soemer
 authors_incomplete: false
 url: "https://arxiv.org/abs/2304.14599"
 external_pdf: "https://arxiv.org/pdf/2304.14599.pdf"
@@ -57,7 +57,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Sameer Karali Gunther Jikeli]], [[Katharina Soemer Daniel Miehling]]
+[[Gunther Jikeli]], [[Sameer Karali]], [[Daniel Miehling]], [[Katharina Soemer]]
 
 ## Metadata
 

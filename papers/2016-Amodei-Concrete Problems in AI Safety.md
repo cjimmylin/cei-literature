@@ -73,7 +73,7 @@ Rapid progress in machine learning and artificial intelligence (AI) has brought 
 
 ## Authors
 
-[[Dario Amodei]], [[Chris Olah]], [[Jacob Steinhardt]], [[Paul Christiano]], [[John Schulman]], [[Dan Mane|Dan Mané]]
+[[Dario Amodei]], [[Chris Olah]], [[Jacob Steinhardt]], [[Paul Christiano]], [[John Schulman]], [[Dan Mané]]
 
 ## Data Description
 

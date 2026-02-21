@@ -17,7 +17,7 @@ short_title: "Incorporating Diverse Perspectives in Cultural Alignment"
 year: 2025
 first_author: "[[team, Amazon Science]]"
 last_author: "[[Amazon Science team]]"
-authors: "[[Amazon Science team]]"
+authors: Amazon Science team
 authors_incomplete: false
 url: "https://aclanthology.org/2025.emnlp-main.862.pdf"
 external_pdf: "https://aclanthology.org/2025.emnlp-main.862.pdf"

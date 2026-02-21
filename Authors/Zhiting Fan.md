@@ -25,6 +25,8 @@ Zhiting Fan is a researcher at Zhejiang University focusing on fairness in Large
 
 
 
+
+
 - [[2025-Fan-FAIRMT-BENCH|FAIRMT-BENCH]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ Zhiting Fan is a researcher at Zhejiang University focusing on fairness in Large
 
 
 
+
+
+- *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench
+- *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench
 - *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench
 - *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench
 - *From 2025-Fan-FAIRMT-BENCH*: Affiliation: lable at FairMT-Bench

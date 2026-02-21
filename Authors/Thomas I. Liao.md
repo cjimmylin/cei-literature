@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]]
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
+- *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: divya@cip.org

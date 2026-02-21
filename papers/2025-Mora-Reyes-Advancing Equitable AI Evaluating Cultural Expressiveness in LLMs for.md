@@ -16,7 +16,7 @@ short_title: "Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs
 year: 2025
 first_author: "[[Brigitte A. Mora-Reyes]]"
 last_author: "[[Abel A. Reyes-Angulo]]"
-authors: Brigitte A. Mora-Reyes, Jennifer A. Drewyor, Abel A. Reyes-Angulo
+authors: Brigitte A. Mora-Reyes; Jennifer A. Drewyor; Abel A. Reyes-Angulo
 url: "https://arxiv.org/abs/2511.04090"
 external_pdf: "https://arxiv.org/pdf/2511.04090.pdf"
 publication: arXiv

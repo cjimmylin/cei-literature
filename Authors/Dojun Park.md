@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect|Evaluating Large Language Models on Understanding Korean Indirect Speech Acts]]
 - [[2024-Park-Pragmatic Competence Evaluation of Large Language Models for the|Pragmatic Competence Evaluation of Large Language Models for the Korean Language]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)
+- *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)
 - *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)
 - *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)
 - *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)

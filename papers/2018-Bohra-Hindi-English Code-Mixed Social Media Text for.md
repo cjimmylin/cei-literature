@@ -19,7 +19,7 @@ short_title: "Hindi-English Code-Mixed Social Media Text for"
 year: 2018
 first_author: "[[Bohra, Aditya]]"
 last_author: "[[Shrivastava, Manish]]"
-authors: "[[Bohra, Aditya]]; [[Vijay, Deepanshu]]; [[Singh, Vinay]]; [[Akhtar, Syed Sarfaraz]]; [[Shrivastava, Manish]]"
+authors: "Bohra, Aditya; Vijay, Deepanshu; Singh, Vinay; Akhtar, Syed Sarfaraz; Shrivastava, Manish"
 authors_incomplete: false
 url: "https://aclanthology.org/W18-1105/"
 external_pdf: "https://aclanthology.org/W18-1105.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "ACL 2018"
 
 ## Authors
 
-[[Bohra, Aditya]], [[Vijay, Deepanshu]], [[Singh, Vinay]], [[Akhtar, Syed Sarfaraz]], [[Shrivastava, Manish]]
+[[Bohra, Aditya]], [[Vijay, Deepanshu]], [[Vinay Singh|Singh, Vinay]], [[Syed Sarfaraz Akhtar|Akhtar, Syed Sarfaraz]], [[Manish Shrivastava|Shrivastava, Manish]]
 
 ## Metadata
 

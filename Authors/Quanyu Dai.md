@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]]
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models*: Affiliation: University of Wisconsin–Madison, Email: zjf23@mails.tsinghua.edu.cn
+- *From 2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models*: Affiliation: University of Wisconsin–Madison, Email: zjf23@mails.tsinghua.edu.cn
 - *From 2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models*: Affiliation: University of Wisconsin–Madison, Email: zjf23@mails.tsinghua.edu.cn
 - *From 2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models*: Affiliation: University of Wisconsin–Madison, Email: zjf23@mails.tsinghua.edu.cn
 - *From 2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models*: Affiliation: University of Wisconsin–Madison, Email: zjf23@mails.tsinghua.edu.cn

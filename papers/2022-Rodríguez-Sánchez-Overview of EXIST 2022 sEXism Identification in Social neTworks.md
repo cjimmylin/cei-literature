@@ -15,9 +15,9 @@ key: LSRC0281
 type: conferencePaper
 short_title: "Overview of EXIST 2022: sEXism Identification in Social neTworks"
 year: 2022
-first_author: "[[Rodríguez-Sánchez, Francisco]]"
-last_author: "[[Francisco Rodríguez-Sánchez]]"
-authors: "[[Rodríguez-Sánchez, Francisco]]"
+first_author: "[[Rodríguez-Sánchez]]"
+last_author: "[[Francisco]]"
+authors: Rodríguez-Sánchez; Francisco
 authors_incomplete: true
 url: "https://nlp.uned.es/exist2022/"
 external_pdf: "https://rua.ua.es/dspace/bitstream/10045/117491/1/PLN_67_17.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Francisco Rodríguez-Sánchez]]
+[[Rodríguez-Sánchez]], [[Francisco]]
 
 ## Metadata
 

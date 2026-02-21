@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2021-Park-KLUE Korean Language Understanding Evaluation|KLUE: Korean Language Understanding Evaluation]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: james.ryu@kakaoenterprise.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: humanbrain.djlee@gmail.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com

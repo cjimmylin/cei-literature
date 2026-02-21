@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-SUTD-Sailor Open Language Models for South-East|Sailor Open Language Models for South-East]]
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-SUTD-Sailor Open Language Models for South-East*: Affiliation: Lab, Singapore
+- *From 2024-SUTD-Sailor Open Language Models for South-East*: Affiliation: Lab, Singapore
 - *From 2024-SUTD-Sailor Open Language Models for South-East*: Affiliation: Lab, Singapore
 - *From 2024-SUTD-Sailor Open Language Models for South-East*: Affiliation: Lab, Singapore
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

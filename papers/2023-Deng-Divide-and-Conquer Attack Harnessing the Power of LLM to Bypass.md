@@ -18,7 +18,7 @@ short_title: "Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass S
 year: 2023
 first_author: "[[Deng, Yimo]]"
 last_author: "[[Chen, Huangxun]]"
-authors: "[[Deng, Yimo]]; [[Chen, Huangxun]]"
+authors: "Deng, Yimo; Chen, Huangxun"
 authors_incomplete: false
 url: "https://arxiv.org/html/2312.07130v3"
 external_pdf: "https://arxiv.org/pdf/2312.07130.pdf"

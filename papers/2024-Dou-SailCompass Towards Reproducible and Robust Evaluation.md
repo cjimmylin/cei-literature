@@ -18,7 +18,7 @@ short_title: "SailCompass Towards Reproducible and Robust Evaluation"
 year: 2024
 first_author: "[[Guo, Jia]]"
 last_author: "[[Liu, Qian]]"
-authors: "[[Guo, Jia]]; [[Dou, Longxu]]; [[Zeng, Guangtao]]; [[Kok, Stanley]]; [[Lu, Wei]]; [[Liu, Qian]]"
+authors: "Guo, Jia; Dou, Longxu; Zeng, Guangtao; Kok, Stanley; Lu, Wei; Liu, Qian"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.01186"
 external_pdf: "https://arxiv.org/pdf/2412.01186.pdf"

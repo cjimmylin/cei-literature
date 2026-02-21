@@ -43,6 +43,8 @@ Chao Peng is a Research Scientist at Meta AI (FAIR) and a PhD student at the Uni
 
 
 
+
+
 - [[2023-Xu-CValues|CValues]]
 
 ## External Links & Profiles
@@ -57,6 +59,10 @@ Chao Peng is a Research Scientist at Meta AI (FAIR) and a PhD student at the Uni
 
 
 
+
+
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com

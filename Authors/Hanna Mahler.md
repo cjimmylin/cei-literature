@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive|AustroTox: A Dataset for Target-Based Austrian German Offensive Language Detection]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive*: Affiliation: University of Zurich, Email: pia.pachinger@tuwien.ac.at
+- *From 2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive*: Affiliation: University of Zurich, Email: pia.pachinger@tuwien.ac.at
 - *From 2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive*: Affiliation: University of Zurich, Email: pia.pachinger@tuwien.ac.at
 - *From 2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive*: Affiliation: University of Zurich, Email: pia.pachinger@tuwien.ac.at
 - *From 2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive*: Affiliation: University of Zurich, Email: pia.pachinger@tuwien.ac.at

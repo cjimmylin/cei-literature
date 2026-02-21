@@ -37,7 +37,11 @@ Haonan Li is a Postdoctoral researcher at MBZUAI (Mohamed bin Zayed University o
 
 
 
+
+
 - [[2024-Wang-Do-Not-Answer|Do-Not-Answer]]
+- [[2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A|Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU]]
+- [[2023-Li-ACLUE Can Large Language Model Comprehend|ACLUE Can Large Language Model Comprehend]] (Last Author)
 
 ## Notes
 
@@ -46,6 +50,10 @@ Haonan Li is a Postdoctoral researcher at MBZUAI (Mohamed bin Zayed University o
 
 
 
+
+
+- *From 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A*: Affiliation: School Exams in Indonesia A - PDF Extract", Email: nurulaisyah.inc@gmail.com
+- *From 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A*: Affiliation: School Exams in Indonesia A - PDF Extract", Email: nurulaisyah.inc@gmail.com
 - *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 - *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 - *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne

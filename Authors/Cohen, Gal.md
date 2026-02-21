@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: angelika.romanou@epfl.ch
+- *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: angelika.romanou@epfl.ch
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: angelika.romanou@epfl.ch
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: antoine.bosselut@epfl.ch
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

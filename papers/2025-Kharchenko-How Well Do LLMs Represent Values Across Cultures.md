@@ -17,7 +17,7 @@ short_title: "How Well Do LLMs Represent Values Across Cultures?"
 year: 2025
 first_author: "[[Kharchenko, Julia]]"
 last_author: "[[Shah, Chirag]]"
-authors: "[[Kharchenko, Julia]]; [[Roosta, Tanya]]; [[Chadha, Aman]]; [[Shah, Chirag]]"
+authors: "Kharchenko, Julia; Roosta, Tanya; Chadha, Aman; Shah, Chirag"
 authors_incomplete: false
 url: "https://kdd-eval-workshop.github.io/genai-evaluation-kdd2025/assets/papers/Submission%2018.pdf"
 external_pdf: "https://arxiv.org/pdf/2406.14805v2.pdf"

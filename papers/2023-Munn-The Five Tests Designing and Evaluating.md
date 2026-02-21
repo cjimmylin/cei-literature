@@ -19,7 +19,7 @@ short_title: "The Five Tests Designing and Evaluating"
 year: 2023
 first_author: "[[Munn, Luke]]"
 last_author: "[[Luke Munn]]"
-authors: "[[Luke Munn]]"
+authors: Luke Munn
 authors_incomplete: false
 url: 
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-023-01636-x.pdf"

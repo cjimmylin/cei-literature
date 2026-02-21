@@ -22,7 +22,11 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Keshmirian-Many LLMs Are More Utilitarian Than One|Many LLMs Are More Utilitarian Than One]] (Last Author)
+- [[2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT|Muslim-Violence Bias Persists in Debiased GPT]] (Last Author)
+- [[2022-Varshney-Debiased Large Language Models Still Associate|Debiased Large Language Models Still Associate]] (Last Author)
 
 ## Notes
 
@@ -31,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Varshney-Debiased Large Language Models Still Associate*: Affiliation: Institute for Advanced Science and Technology, University of Illinois Urbana-Champaign
+- *From 2022-Varshney-Debiased Large Language Models Still Associate*: Affiliation: Institute for Advanced Science and Technology, University of Illinois Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign

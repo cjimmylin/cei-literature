@@ -15,8 +15,8 @@ type: preprint
 short_title: "VietMEAgent: Culturally-Aware Few-Shot Multimodal Explanation for Vietnamese Visual Question Answering"
 year: 2025
 first_author: "[[Hai-Dang Nguyen]]"
-last_author: "[[Minh-Tuan Le Minh-Tan Le]]"
-authors: Hai-Dang Nguyen, Minh-Anh Dang, Minh-Tan Le, Minh-Tuan Le
+last_author: "[[Minh-Tuan Le]]"
+authors: Hai-Dang Nguyen; Minh-Anh Dang; Minh-Tan Le; Minh-Tuan Le
 url: "https://arxiv.org/abs/2511.09058"
 external_pdf: "https://arxiv.org/pdf/2511.09058.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Minh-Anh Dang Hai-Dang Nguyen]], [[Minh-Tuan Le Minh-Tan Le]]
+[[Hai-Dang Nguyen]], [[Minh-Anh Dang]], [[Minh-Tan Le]], [[Minh-Tuan Le]]
 
 ## Metadata
 

@@ -16,7 +16,7 @@ short_title: "Automating News Comment Moderation with Limited Resources: Benchma
 year: 2020
 first_author: "[[Ravi Shekhar]]"
 last_author: "[[Matthew Purver]]"
-authors: "Ravi Shekhar, Marko Pranjic, Senja Pollak, Andraz Pelicon, Matthew Purver"
+authors: Ravi Shekhar; Marko Pranjic; Senja Pollak; Andraz Pelicon; Matthew Purver
 url: "https://jlcl.org/article/view/224"
 external_pdf: "https://jlcl.org/article/download/224/222"
 publication: JLCL

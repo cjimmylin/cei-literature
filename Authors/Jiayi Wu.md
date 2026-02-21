@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs|OvertonScore: Benchmarking Overton Pluralism in LLMs]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology
+- *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology
 - *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology
 - *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology
 - *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology

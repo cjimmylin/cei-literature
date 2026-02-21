@@ -15,7 +15,7 @@ short_title: "Preference Tuning For Toxicity Mitigation Generalizes Across Langu
 year: 2024
 first_author: "[[Xiaochen Li]]"
 last_author: "[[Stephen Bach]]"
-authors: "Xiaochen Li, Zheng Xin Yong, Stephen Bach"
+authors: Xiaochen Li; Zheng Xin Yong; Stephen Bach
 url: "https://arxiv.org/abs/2406.16235"
 external_pdf: "https://arxiv.org/pdf/2406.16235.pdf"
 publication: "arXiv / ACL Anthology"
@@ -50,7 +50,7 @@ CONFERENCE: "ACL 2024"
 
 ## Authors
 
-[[Xiaochen Li]], [[Zheng-Xin Yong|Zheng Xin Yong]], [[Stephen H. Bach|Stephen Bach]]
+[[Xiaochen Li]], [[Zheng Xin Yong]], [[Stephen Bach]]
 
 ## Metadata
 

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]]
 - [[2020-Srivastava-A Multi-Dimensional View of Aggression when|A Multi-Dimensional View of Aggression when]]
 - [[2018-Bohra-Hindi-English Code-Mixed Social Media Text for|Hindi-English Code-Mixed Social Media Text for]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2018-Bohra-Hindi-English Code-Mixed Social Media Text for*: Affiliation: Institute of Information Technology, Email: m.shrivastava@iiit.ac.in
+- *From 2018-Bohra-Hindi-English Code-Mixed Social Media Text for*: Affiliation: Institute of Information Technology, Email: m.shrivastava@iiit.ac.in
 - *From 2018-Bohra-Hindi-English Code-Mixed Social Media Text for*: Affiliation: Institute of Information Technology, Email: m.shrivastava@iiit.ac.in
 - *From 2018-Bohra-Hindi-English Code-Mixed Social Media Text for*: Affiliation: Institute of Information Technology, Email: m.shrivastava@iiit.ac.in
 - *From 2025-Basile-NepX-Hate A Nepali Hate Speech Corpus*: Affiliation: centered on Nepali with an auxiliary

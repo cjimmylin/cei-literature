@@ -16,7 +16,7 @@ short_title: Cultural Learning-Based Culture Adaptation of Language Models
 year: 2025
 first_author: "[[Chen Cecilia Liu]]"
 last_author: "[[Iryna Gurevych]]"
-authors: Chen Cecilia Liu, Anna Korhonen, Iryna Gurevych
+authors: Chen Cecilia Liu; Anna Korhonen; Iryna Gurevych
 url: "https://arxiv.org/abs/2504.02953"
 external_pdf: "https://arxiv.org/pdf/2504.02953.pdf"
 publication: arXiv / ACL 2025

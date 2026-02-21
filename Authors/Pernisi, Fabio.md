@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety|SafetyPrompts: Systematic Review of Open Datasets for LLM Safety]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety*: Affiliation: University, 2Contextual AI
+- *From 2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety*: Affiliation: University, 2Contextual AI
 - *From 2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety*: Affiliation: University, 2Contextual AI
 - *From 2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety*: Affiliation: University, 2Contextual AI
 - *From 2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety*: Affiliation: University, 2Contextual AI

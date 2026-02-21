@@ -15,9 +15,9 @@ key: WRIGHT2020
 type: conferencePaper
 short_title: "Deontic Logic for Rightful Machines"
 year: 2020
-first_author: "[[Ava Thomas Wright]]"
-last_author: "[[Ava Thomas Wright]]"
-authors: "[[Wright, Ava Thomas]]"
+first_author: "[[Wright]]"
+last_author: "[[Ava Thomas]]"
+authors: Wright; Ava Thomas
 doi: 10.1145/3375627.3375867
 url: "https://dl.acm.org/doi/10.1145/3375627.3375867"
 external_pdf: "https://philpapers.org/archive/WRIADL-2.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "AAAI 2020"
 
 ## Authors
 
-[[Ava Thomas Wright]]
+[[Wright]], [[Ava Thomas]]
 
 ## Metadata
 

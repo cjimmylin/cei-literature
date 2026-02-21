@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment|HALF: Harm-Aware LLM Fairness Evaluation Aligned with Deployment]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment*: Affiliation: University of Artificial Intelligence, Abu Dhabi, UAE
+- *From 2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment*: Affiliation: University of Artificial Intelligence, Abu Dhabi, UAE
 - *From 2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment*: Affiliation: University of Artificial Intelligence, Abu Dhabi, UAE
 - *From 2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment*: Affiliation: University of Artificial Intelligence, Abu Dhabi, UAE
 - *From 2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment*: Affiliation: University of Artificial Intelligence, Abu Dhabi, UAE

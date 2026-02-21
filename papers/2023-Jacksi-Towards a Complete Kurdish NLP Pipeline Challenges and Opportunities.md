@@ -19,7 +19,7 @@ short_title: "Towards a Complete Kurdish NLP Pipeline: Challenges and Opportunit
 year: 2023
 first_author: "[[Jacksi, Karwan]]"
 last_author: "[[Ali, Ismael]]"
-authors: "[[Jacksi, Karwan]]; [[Ali, Ismael]]"
+authors: "Jacksi, Karwan; Ali, Ismael"
 authors_incomplete: true
 url: "https://journal.uad.ac.id/index.php/JIFO/article/view/26053"
 external_pdf: "https://journal.uad.ac.id/index.php/JIFO/article/download/26053/pdf_66"
@@ -55,7 +55,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Jacksi, Karwan]], [[Aso N. Ismael|Ali, Ismael]]
+[[Jacksi, Karwan]], [[Ali, Ismael]]
 
 ## Metadata
 

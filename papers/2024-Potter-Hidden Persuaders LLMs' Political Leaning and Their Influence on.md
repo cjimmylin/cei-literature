@@ -17,7 +17,7 @@ short_title: "Hidden Persuaders: LLMs' Political Leaning and Their Influence on 
 year: 2024
 first_author: "[[Yujin Potter]]"
 last_author: "[[Dawn Song]]"
-authors: "Yujin Potter, Shiyang Lai, Junsol Kim, James Evans, Dawn Song"
+authors: Yujin Potter; Shiyang Lai; Junsol Kim; James Evans; Dawn Song
 url: "https://arxiv.org/abs/2410.24190"
 external_pdf: "https://arxiv.org/pdf/2410.24190.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md"

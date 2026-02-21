@@ -16,7 +16,7 @@ short_title: "AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answe
 year: 2024
 first_author: "[[Tobi Olatunji]]"
 last_author: "[[M. Asiedu]]"
-authors: "Tobi Olatunji; Charles Nimo; A. Owodunni; Tassallah Abdullahi; Emmanuel Ayodele; Mardhiyah Sanni; Chinemelu Aka; Folafunmi Omofoye; Foutse Yuehgoh; Timothy Faniran; Bonaventure F. P. Dossou; Moshood Yekini; Jonas Kemp; Katherine A. Heller; Jude Chidubem Omeke; Chidi Asuzu; Naome A. Etori; A. Ndiaye; Ifeoma Okoh; E. Ocansey; Wendy Kinara; Michael L. Best; Irfan Essa; Stephen Edward Moore; Chris Fourie; M. Asiedu"
+authors: "Tobi Olatunji; Charles Nimo; Abraham Owodunni; Tassallah Abdullahi; Emmanuel Ayodele; Mardhiyah Sanni; Chinemelu Aka; Folafunmi Omofoye; Foutse Yuehgoh; Timothy Faniran; Bonaventure F. P. Dossou; Moshood Yekini; Jonas Kemp; Katherine A. Heller; Jude Chidubem Omeke; Chidi Asuzu; Naome A. Etori; A. Ndiaye; Ifeoma Okoh; E. Ocansey; Wendy Kinara; Michael L. Best; Irfan Essa; Stephen Edward Moore; Chris Fourie; M. Asiedu"
 url: "https://arxiv.org/abs/2411.15640"
 external_pdf: "https://arxiv.org/pdf/2411.15640.pdf"
 publication: arXiv / ACL 2025
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Tobi Olatunji]], [[Charles Nimo]], [[Abraham Owodunni|A. Owodunni]], [[Tassallah Abdullahi]], [[Emmanuel Ayodele]], [[Mardhiyah Sanni]], [[Chinemelu Aka]], [[Folafunmi Omofoye]], [[Foutse Yuehgoh]], [[Timothy Faniran]], [[Bonaventure F. P. Dossou]], [[Moshood Yekini]], [[Jonas Kemp]], [[Katherine A. Heller]], [[Jude Chidubem Omeke]], [[Chidi Asuzu]], [[Naome A. Etori]], [[A. Ndiaye]], [[Ifeoma Okoh]], [[E. Ocansey]], [[Wendy Kinara]], [[Michael L. Best]], [[Irfan Essa]], [[Stephen Edward Moore]], [[Chris Fourie]], [[M. Asiedu]]
+[[Tobi Olatunji]], [[Charles Nimo]], [[Abraham Owodunni]], [[Tassallah Abdullahi]], [[Emmanuel Ayodele]], [[Mardhiyah Sanni]], [[Chinemelu Aka]], [[Folafunmi Omofoye]], [[Foutse Yuehgoh]], [[Timothy Faniran]], [[Bonaventure F. P. Dossou]], [[Moshood Yekini]], [[Jonas Kemp]], [[Katherine A. Heller]], [[Jude Chidubem Omeke]], [[Chidi Asuzu]], [[Naome A. Etori]], [[A. Ndiaye]], [[Ifeoma Okoh]], [[E. Ocansey]], [[Wendy Kinara]], [[Michael L. Best]], [[Irfan Essa]], [[Stephen Edward Moore]], [[Chris Fourie]], [[M. Asiedu]]
 
 ## Metadata
 

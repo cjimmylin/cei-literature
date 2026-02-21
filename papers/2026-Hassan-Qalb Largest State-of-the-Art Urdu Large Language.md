@@ -18,7 +18,7 @@ short_title: "Qalb Largest State-of-the-Art Urdu Large Language"
 year: 2026
 first_author: "[[Hassan, Muhammad Taimoor]]"
 last_author: "[[Awais, Muhammad]]"
-authors: "[[Hassan, Muhammad Taimoor]]; [[Ahmed, Jawad]]; [[Awais, Muhammad]]"
+authors: "Hassan, Muhammad Taimoor; Ahmed, Jawad; Awais, Muhammad"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08141"
 external_pdf: "https://arxiv.org/pdf/2601.08141.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Hassan, Muhammad Taimoor]], [[Ahmed, Jawad]], [[Ahmada, Muhammad|Awais, Muhammad]]
+[[Hassan, Muhammad Taimoor]], [[Ahmed, Jawad]], [[Awais, Muhammad]]
 
 ## Metadata
 

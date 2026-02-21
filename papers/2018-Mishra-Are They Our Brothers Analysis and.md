@@ -18,9 +18,9 @@ key: EXSR0618
 type: preprint
 short_title: "Are They Our Brothers Analysis and"
 year: 2018
-first_author: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
+first_author: "[[Nuha Albadi]]"
 last_author: "[[Shivakant Mishra]]"
-authors: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
+authors: Nuha Albadi; Maram Kurdi; Shivakant Mishra
 authors_incomplete: false
 url: 
 external_pdf: "https://czasopisma.isppan.waw.pl/sm/article/download/2710/2291"

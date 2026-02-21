@@ -29,6 +29,9 @@ Moskovskiy's research focuses on developing NLP resources and evaluation methodo
 
 
 
+
+
+- [[2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025|Overview of the Multilingual Text Detoxification Task at PAN 2025]]
 - [[2025-Dementieva-TextDetox Multilingual Toxicity Dataset|TextDetox Multilingual Toxicity Dataset]] (Last Author)
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
 - [[2021-Dementieva-Methods for Detoxification of Texts for the Russian Language|Methods for Detoxification of Texts for the Russian Language]]
@@ -40,6 +43,10 @@ Moskovskiy's research focuses on developing NLP resources and evaluation methodo
 
 
 
+
+
+- *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
+- *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
 - *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
 - *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
 - *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia

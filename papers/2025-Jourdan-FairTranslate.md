@@ -15,7 +15,7 @@ short_title: FairTranslate
 year: 2025
 first_author: "[[Fanny Jourdan]]"
 last_author: "[[Favre, Cécile]]"
-authors: "[[Jourdan, Fanny]]; [[Chevalier, Yannick]]; [[Favre, Cécile]]"
+authors: "Jourdan, Fanny; Chevalier, Yannick; Favre, Cécile"
 url: "https://arxiv.org/abs/2504.15941"
 pdf_extract: "PDF Extracts/2025/2025-Jourdan-FairTranslate.md"
 local_pdf: "[[PDFs/2025/2025-Jourdan-FairTranslate.pdf]]"

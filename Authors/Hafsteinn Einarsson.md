@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of|WikiQA-IS: Assisted Benchmark Generation and Automated Evaluation of Icelandic Cultural Knowledge in LLMs]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of*: Affiliation: University of Iceland, Email: thorvaldur@mideind.is
+- *From 2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of*: Affiliation: University of Iceland, Email: thorvaldur@mideind.is
 - *From 2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of*: Affiliation: University of Iceland, Email: elias@mideind.is
 - *From 2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of*: Affiliation: University of Iceland, Email: thorunn@mideind.is
 - *From 2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of*: Affiliation: University of Iceland, Email: thorunn@mideind.is

@@ -56,7 +56,10 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in|CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics]] (Last Author)
+- [[2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding|Benchmarking Vision Language Models for Cultural Understanding]] (Last Author)
 - [[2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding|CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding]] (Last Author)
 
 ## External Links & Profiles
@@ -84,6 +87,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
+- *From 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 - *From 2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

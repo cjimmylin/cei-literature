@@ -17,7 +17,7 @@ short_title: HackAPrompt
 year: 2023
 first_author: "[[Sander Schulhoff]]"
 last_author: "[[Boyd-Graber, Jordan]]"
-authors: "[[Schulhoff, Sander]]; [[Pinto, Jeremy]]; [[Khan, Anaum]]; [[Bouchard, Louis-François]]; [[Si, Chenglei]]; [[Anati, Svetlina]]; [[Tagliabue, Valen]]; [[Kost, Anson]]; [[Carnahan, Christopher]]; [[Boyd-Graber, Jordan]]"
+authors: "Schulhoff, Sander; Pinto, Jeremy; Khan, Anaum; Bouchard, Louis-François; Si, Chenglei; Anati, Svetlina; Tagliabue, Valen; Kost, Anson; Carnahan, Christopher; Boyd-Graber, Jordan"
 url: "https://aclanthology.org/2023.emnlp-main.302/"
 external_pdf: "https://aclanthology.org/2023.emnlp-main.302.pdf"
 national_ethnic_cultural: "N/A"

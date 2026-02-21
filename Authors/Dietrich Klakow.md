@@ -58,7 +58,13 @@ twitter: ""
 
 
 
+
+
 - [[2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering|AmharicStoryQA A Multicultural Story Question Answering]] (Last Author)
+- [[2025-Adelani-INJONGO A Multicultural Intent Detection and|INJONGO A Multicultural Intent Detection and]]
+- [[2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource|ProverbEval: Exploring LLM Evaluation Challenges for Low-resource Language Understanding]] (Last Author)
+- [[2025-Klakow-Charting the Landscape of African NLP|Charting the Landscape of African NLP]] (Last Author)
+- [[2024-Adelani-Uhura A Benchmark for Evaluating Scientific|Uhura A Benchmark for Evaluating Scientific]]
 
 ## External Links & Profiles
 
@@ -87,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Adelani-Uhura A Benchmark for Evaluating Scientific*: Affiliation: labi2,∗,†, Jonas Kgomo3, Tyna Eloundou4
+- *From 2024-Adelani-Uhura A Benchmark for Evaluating Scientific*: Affiliation: labi2,∗,†, Jonas Kgomo3, Tyna Eloundou4
 - *From 2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering*: Affiliation: University, 2 AIMS AMMI, 3 Resonance AI4D Lab, Addis Ababa University
 - *From 2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering*: Affiliation: University, 2 AIMS AMMI, 3 Resonance AI4D Lab, Addis Ababa University
 - *From 2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering*: Affiliation: University, 2 AIMS AMMI, 3 Resonance AI4D Lab, Addis Ababa University

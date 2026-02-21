@@ -15,7 +15,7 @@ short_title: "Detecting Abusive Albanian"
 year: 2021
 first_author: "[[Erida Nurce]]"
 last_author: "[[Leon Derczynski]]"
-authors: "Erida Nurce, Jorgel Keci, Leon Derczynski"
+authors: Erida Nurce; Jorgel Keci; Leon Derczynski
 url: "https://arxiv.org/abs/2107.13592"
 external_pdf: "https://arxiv.org/pdf/2107.13592.pdf"
 publication: arXiv

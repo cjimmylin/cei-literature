@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans|Enriching Moral Perspectives on AI: Concepts of Trust amongst Africans]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans*: Affiliation: University of Science & Technology, Namibia, Email: amugongol@gmail.com
+- *From 2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans*: Affiliation: University of Science & Technology, Namibia, Email: amugongol@gmail.com
 - *From 2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans*: Affiliation: University of Science & Technology, Namibia, Email: amugongol@gmail.com
 - *From 2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans*: Affiliation: University of Science & Technology, Namibia, Email: amugongol@gmail.com
 - *From 2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans*: Affiliation: University of Science & Technology, Namibia, Email: amugongol@gmail.com

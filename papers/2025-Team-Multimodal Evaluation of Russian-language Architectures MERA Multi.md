@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[M-A-P Team|MERA Evaluation Team]]
+[[MERA Evaluation Team]]
 
 ## Metadata
 

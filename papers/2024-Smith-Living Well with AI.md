@@ -14,7 +14,7 @@ short_title: "Living Well with AI"
 year: 2024
 first_author: "[[Nicholas Smith]]"
 last_author: "[[Vickers, Darby]]"
-authors: "[[Smith, Nicholas]]; [[Vickers, Darby]]"
+authors: "Smith, Nicholas; Vickers, Darby"
 doi: 10.1177/14778785241231561
 url: "https://journals.sagepub.com/doi/10.1177/14778785241231561"
 pdf_extract: "PDF Extracts/2024/2024-Smith-Living Well with AI.md"

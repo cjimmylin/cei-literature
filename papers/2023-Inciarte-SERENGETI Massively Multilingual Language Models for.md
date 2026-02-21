@@ -15,9 +15,9 @@ key: EXSR0568
 type: preprint
 short_title: "SERENGETI Massively Multilingual Language Models for"
 year: 2023
-first_author: "[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]"
-last_author: "[[Alcides Alcoba Inciarte Muhammad Abdul-Mageed]]"
-authors: "[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]"
+first_author: "[[Ife Adebara]]"
+last_author: "[[Alcides Alcoba Inciarte]]"
+authors: Ife Adebara; AbdelRahim Elmadany; Muhammad Abdul-Mageed; Alcides Alcoba Inciarte
 authors_incomplete: false
 url: "https://arxiv.org/abs/2212.10785"
 external_pdf: "https://arxiv.org/pdf/2212.10785.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[AbdelRahim Elmadany Ife Adebara]], [[Alcides Alcoba Inciarte Muhammad Abdul-Mageed]]
+[[Ife Adebara]], [[AbdelRahim Elmadany]], [[Muhammad Abdul-Mageed]], [[Alcides Alcoba Inciarte]]
 
 ## Metadata
 

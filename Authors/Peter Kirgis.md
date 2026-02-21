@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Kirgis-Differences in Moral Foundations of LLMs|Differences in Moral Foundations of LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Kirgis-Differences in Moral Foundations of LLMs*:, Email: pk7019@princeton.edu
+- *From 2024-Kirgis-Differences in Moral Foundations of LLMs*:, Email: pk7019@princeton.edu
 - *From 2024-Kirgis-Differences in Moral Foundations of LLMs*:, Email: pk7019@princeton.edu
 - *From 2024-Kirgis-Differences in Moral Foundations of LLMs*:, Email: pk7019@princeton.edu
 - *From 2024-Kirgis-Differences in Moral Foundations of LLMs*:, Email: pk7019@princeton.edu

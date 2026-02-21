@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety|Understanding Gen Alpha's Digital Language: Evaluation of LLM Safety Systems for Content Moderation]] (First Author)
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety*: Affiliation: University of Trento, Email: fausto.giunchiglia@unitn.it
+- *From 2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety*: Affiliation: University of Trento, Email: fausto.giunchiglia@unitn.it
 - *From 2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety*: Affiliation: University of Trento, Email: fausto.giunchiglia@unitn.it
 - *From 2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety*: Affiliation: University of Trento, Email: manisha.mehta@systemtwoai.com
 - *From 2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety*: Affiliation: University of Trento, Email: manisha.mehta@systemtwoai.com

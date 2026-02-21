@@ -17,7 +17,7 @@ short_title: "XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasonin
 year: 2026
 first_author: "[[Kabir, Mohsinul]]"
 last_author: "[[Ananiadou, Sophia]]"
-authors: "[[Kabir, Mohsinul]]; [[Ahmed, Tasnim]]; [[Rahman, Md Mezbaur]]; [[Ji, Shaoxiong]]; [[Alhuzali, Hassan]]; [[Ananiadou, Sophia]]"
+authors: "Kabir, Mohsinul; Ahmed, Tasnim; Rahman, Md Mezbaur; Ji, Shaoxiong; Alhuzali, Hassan; Ananiadou, Sophia"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.14063"
 external_pdf: "https://arxiv.org/pdf/2601.14063.pdf"

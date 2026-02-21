@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context|One Ruler to Measure Them All: Benchmarking Multilingual Long-Context Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context*: Affiliation: University of Maryland, College ParkÌ, MicrosoftW, UMass Amherst8, Email: mkarpinska@microsoft.com
+- *From 2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context*: Affiliation: University of Maryland, College ParkÌ, MicrosoftW, UMass Amherst8, Email: mkarpinska@microsoft.com
 - *From 2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context*: Affiliation: University of Maryland, College ParkÌ, MicrosoftW, UMass Amherst8, Email: mkarpinska@microsoft.com
 - *From 2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context*: Affiliation: University of Maryland, College ParkÌ, MicrosoftW, UMass Amherst8, Email: mkarpinska@microsoft.com
 - *From 2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context*: Affiliation: University of Maryland, College ParkÌ, MicrosoftW, UMass Amherst8, Email: mkarpinska@microsoft.com

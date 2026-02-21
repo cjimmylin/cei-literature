@@ -18,7 +18,7 @@ short_title: "Azerbaijani LLM Leaderboard"
 year: 2024
 first_author: "[[LLM-Beetle]]"
 last_author: "[[LLM-Beetle]]"
-authors: [[LLM-Beetle]]
+authors: LLM-Beetle
 authors_incomplete: false
 url: "https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard"
 external_pdf: 

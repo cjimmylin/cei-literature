@@ -14,8 +14,8 @@ type: preprint
 short_title: "Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance"
 year: 2025
 first_author: "[[Xueqing Peng]]"
-last_author: "[[Sophia Ananiadou Qianqian Xie]]"
-authors: "Xueqing Peng, Triantafillos Papadopoulos, Efstathia Soufleri, Polydoros Giannouris, Ruoyu Xiang, Yan Wang, Lingfei Qian, Jimin Huang, Qianqian Xie, Sophia Ananiadou"
+last_author: "[[Sophia Ananiadou]]"
+authors: Xueqing Peng; Triantafillos Papadopoulos; Efstathia Soufleri; Polydoros Giannouris; Ruoyu Xiang; Yan Wang; Lingfei Qian; Jimin Huang; Qianqian Xie; Sophia Ananiadou
 url: "https://arxiv.org/abs/2502.18772"
 external_pdf: "https://arxiv.org/pdf/2502.18772.pdf"
 publication: arXiv
@@ -50,7 +50,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Triantafillos Papadopoulos Xueqing Peng]], [[Polydoros Giannouris Efstathia Soufleri]], [[Yang Xiang|Yan Wang Ruoyu Xiang]], [[Jing Qian|Jimin Huang Lingfei Qian]], [[Sang Michael Xie|Sophia Ananiadou Qianqian Xie]]
+[[Xueqing Peng]], [[Triantafillos Papadopoulos]], [[Efstathia Soufleri]], [[Polydoros Giannouris]], [[Ruoyu Xiang]], [[Yan Wang]], [[Lingfei Qian]], [[Jimin Huang]], [[Qianqian Xie]], [[Sophia Ananiadou]]
 
 ## Metadata
 

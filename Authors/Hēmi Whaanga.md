@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2024-Lewis-Abundant Intelligences Placing AI within Indigenous Knowledge|Abundant Intelligences: Placing AI within Indigenous Knowledge Frameworks]]
 
 ## Notes

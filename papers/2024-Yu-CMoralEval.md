@@ -15,7 +15,7 @@ short_title: CMoralEval
 year: 2024
 first_author: "[[Linhao Yu]]"
 last_author: "[[Xiong, Deyi]]"
-authors: "[[Yu, Linhao]]; [[Leng, Yongqi]]; [[Huang, Yufei]]; [[Wu, Shang]]; [[Liu, Haixin]]; [[Ji, Xinmeng]]; [[Zhao, Jiahui]]; [[Song, Jinwang]]; [[Cui, Tingting]]; [[Cheng, Xiaoqing]]; [[Liutao, Liutao]]; [[Xiong, Deyi]]"
+authors: "Yu, Linhao; Leng, Yongqi; Huang, Yufei; Wu, Shang; Liu, Haixin; Ji, Xinmeng; Zhao, Jiahui; Song, Jinwang; Cui, Tingting; Cheng, Xiaoqing; Liutao, Liutao; Xiong, Deyi"
 doi: 10.18653/v1/2024.findings-acl.703
 url: "https://aclanthology.org/2024.findings-acl.703/"
 pdf_extract: "PDF Extracts/2024/2024-Yu-CMoralEval.md"

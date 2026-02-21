@@ -17,7 +17,7 @@ short_title: JAILJUDGE
 year: 2024
 first_author: "[[Fan Liu]]"
 last_author: "[[Hao Liu]]"
-authors: "Fan Liu, Yue Feng, Zhao Xu, Lixin Su, Xinyu Ma, Dawei Yin, Hao Liu"
+authors: Fan Liu; Yue Feng; Zhao Xu; Lixin Su; Xinyu Ma; Dawei Yin; Hao Liu
 url: "https://arxiv.org/abs/2410.12855"
 external_pdf: "https://arxiv.org/pdf/2410.12855.pdf"
 pdf_extract: "PDF Extracts/0000/2024-Liu-JAILJUDGE.md"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Fenglin Liu|Fan Liu]], [[Yue Feng]], [[Zhao Xu]], [[Lixin Su]], [[Xinyu Ma]], [[Dawei Yin]], [[Hao Liu]]
+[[Fan Liu]], [[Yue Feng]], [[Zhao Xu]], [[Lixin Su]], [[Xinyu Ma]], [[Dawei Yin]], [[Hao Liu]]
 
 ## Metadata
 

@@ -17,7 +17,7 @@ short_title: "Benchmarking Hindi LLMs A New Suite"
 year: 2025
 first_author: "[[Kamath, Anusha]]"
 last_author: "[[Wartikar, Niranjan]]"
-authors: "[[Kamath, Anusha]]; [[Singla, Kanishk]]; [[Paul, Rakesh]]; [[Joshi, Raviraj]]; [[Vaidya, Utkarsh]]; [[Chauhan, Sanjay Singh]]; [[Wartikar, Niranjan]]"
+authors: "Kamath, Anusha; Singla, Kanishk; Paul, Rakesh; Joshi, Raviraj; Vaidya, Utkarsh; Chauhan, Sanjay Singh; Wartikar, Niranjan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.19831"
 external_pdf: "https://arxiv.org/pdf/2508.19831.pdf"

@@ -16,7 +16,7 @@ short_title: "ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large 
 year: 2024
 first_author: "[[Trong-Hieu Nguyen]]"
 last_author: "[[Le-Minh Nguyen]]"
-authors: "Trong-Hieu Nguyen, Quang-Bao Ta, Cuc Thi Bui, Phong Nguyen-Thuan Do, Le-Minh Nguyen"
+authors: Trong-Hieu Nguyen; Quang-Bao Ta; Cuc Thi Bui; Phong Nguyen-Thuan Do; Le-Minh Nguyen
 url: "https://arxiv.org/abs/2404.11086"
 external_pdf: "https://arxiv.org/pdf/2404.11086.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.md"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Trong-Hieu Nguyen]], [[Quang-Bao Ta]], [[Cuc Thi Bui]], [[Phong Nguyen-Thuan Do]], [[Long Nguyen|Le-Minh Nguyen]]
+[[Trong-Hieu Nguyen]], [[Quang-Bao Ta]], [[Cuc Thi Bui]], [[Phong Nguyen-Thuan Do]], [[Le-Minh Nguyen]]
 
 ## Metadata
 

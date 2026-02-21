@@ -17,7 +17,7 @@ short_title: "Mind the Dialect: NLP Advancements Uncover Fairness ..."
 year: 2025
 first_author: "[[Alshabanah, Abdulla]]"
 last_author: "[[Annavaram, Murali]]"
-authors: "[[Alshabanah, Abdulla]]; [[Annavaram, Murali]]"
+authors: "Alshabanah, Abdulla; Annavaram, Murali"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-emnlp.860.pdf"
 external_pdf: "https://aclanthology.org/2025.findings-emnlp.860.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Alshabanah, Abdulla]], [[Abhejay Murali|Annavaram, Murali]]
+[[Alshabanah, Abdulla]], [[Annavaram, Murali]]
 
 ## Metadata
 

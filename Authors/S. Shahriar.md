@@ -23,6 +23,8 @@ Likely referring to Shahriar Noroozizadeh, joint Machine Learning and Public Pol
 
 
 
+
+
 - [[2025-Shahriar-Priv-IQ|Priv-IQ]] (First Author)
 
 ## Notes
@@ -32,6 +34,10 @@ Likely referring to Shahriar Noroozizadeh, joint Machine Learning and Public Pol
 
 
 
+
+
+- *From 2025-Shahriar-Priv-IQ*: Affiliation: School of Computer Science, University of Guelph, Guelph, ON N1G 2W1, Canada; drozita@uoguelph, Email: shahrias@uoguelph.ca
+- *From 2025-Shahriar-Priv-IQ*: Affiliation: School of Computer Science, University of Guelph, Guelph, ON N1G 2W1, Canada; drozita@uoguelph, Email: shahrias@uoguelph.ca
 - *From 2025-Shahriar-Priv-IQ*: Affiliation: School of Computer Science, University of Guelph, Guelph, ON N1G 2W1, Canada; drozita@uoguelph, Email: shahrias@uoguelph.ca
 - *From 2025-Shahriar-Priv-IQ*: Affiliation: School of Computer Science, University of Guelph, Guelph, ON N1G 2W1, Canada; drozita@uoguelph, Email: shahrias@uoguelph.ca
 - *From 2025-Shahriar-Priv-IQ*: Affiliation: School of Computer Science, University of Guelph, Guelph, ON N1G 2W1, Canada; drozita@uoguelph, Email: shahrias@uoguelph.ca

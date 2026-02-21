@@ -16,7 +16,7 @@ short_title: "AI-Based Hate Speech Detection in Albanian Social Media: New Datas
 year: 2024
 first_author: "[[Etrit Fetahi]]"
 last_author: "[[Xhemal Zenuni]]"
-authors: "Etrit Fetahi, Majlinda Hamiti, Arianit Susuri, Jaumin Ajdari, Xhemal Zenuni"
+authors: Etrit Fetahi; Majlinda Hamiti; Arianit Susuri; Jaumin Ajdari; Xhemal Zenuni
 doi: 10.3991/ijim.v18i24.50851
 url: "https://online-journals.org/index.php/i-jim/article/view/50851"
 external_pdf: "https://online-journals.org/index.php/i-jim/article/download/50851/15687"

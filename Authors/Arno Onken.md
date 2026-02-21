@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
+- *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 - *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 - *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 - *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk

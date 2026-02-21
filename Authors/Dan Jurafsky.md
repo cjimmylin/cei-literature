@@ -39,6 +39,9 @@ Dan Jurafsky is one of the most influential figures in natural language processi
 
 
 
+
+
+- [[2025-Cheng-ELEPHANT Social Sycophancy|ELEPHANT (Social Sycophancy)]] (Last Author)
 - [[2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate|NegotiationArena: How Well Can LLMs Negotiate?]]
 - [[2020-Sap-Social Bias Frames|Social Bias Frames]]
 

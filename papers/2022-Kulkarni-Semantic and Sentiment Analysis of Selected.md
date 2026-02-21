@@ -17,9 +17,9 @@ key: EXSR0598
 type: preprint
 short_title: "Semantic and Sentiment Analysis of Selected"
 year: 2022
-first_author: "[[Rohitash Chandra, Venkatesh Kulkarni]]"
-last_author: "[[Venkatesh Kulkarni Rohitash Chandra]]"
-authors: "[[Rohitash Chandra, Venkatesh Kulkarni]]"
+first_author: "[[Rohitash Chandra]]"
+last_author: "[[Venkatesh Kulkarni]]"
+authors: Rohitash Chandra; Venkatesh Kulkarni
 authors_incomplete: false
 url: "https://arxiv.org/abs/2201.03115"
 external_pdf: "https://arxiv.org/pdf/2201.03115.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Vikas Chandra|Venkatesh Kulkarni Rohitash Chandra]]
+[[Rohitash Chandra]], [[Venkatesh Kulkarni]]
 
 ## Metadata
 

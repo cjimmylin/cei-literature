@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Flek-AmericasNLI Machine translation and natural language inference|AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas - PMC]] (First Author)
 - [[2025-Nie-Multilingual Large Language Models Are Not Yet Code- ...|Multilingual Large Language Models Are Not (Yet) Code- ...]] (Last Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Flek-AmericasNLI Machine translation and natural language inference*: Affiliation: University of Marburg, Germany, Email: katharina.kann@colorado.edu
+- *From 2025-Flek-AmericasNLI Machine translation and natural language inference*: Affiliation: University of Marburg, Germany, Email: katharina.kann@colorado.edu
 - *From 2025-Flek-AmericasNLI Machine translation and natural language inference*: Affiliation: University of Marburg, Germany, Email: katharina.kann@colorado.edu
 - *From 2025-Flek-AmericasNLI Machine translation and natural language inference*: Affiliation: University of Marburg, Germany, Email: katharina.kann@colorado.edu
 - *From 2025-Flek-AmericasNLI Machine translation and natural language inference*: Affiliation: University of Marburg, Germany, Email: katharina.kann@colorado.edu

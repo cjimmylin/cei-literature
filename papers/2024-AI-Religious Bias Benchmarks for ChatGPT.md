@@ -18,9 +18,9 @@ key: EXSR0521
 type: conference_paper
 short_title: "Religious Bias Benchmarks for ChatGPT"
 year: 2024
-first_author: "[[AI), Multiple authors (presented at conference on Human Freedom and]]"
+first_author: "[[Multiple authors (presented at conference on Human Freedom]]"
 last_author: "[[AI)]]"
-authors: "[[Multiple authors (presented at conference on Human Freedom]]; [[AI)]]"
+authors: Multiple authors (presented at conference on Human Freedom; AI)
 authors_incomplete: false
 url: 
 external_pdf: "https://osf.io/b2ug9/download"

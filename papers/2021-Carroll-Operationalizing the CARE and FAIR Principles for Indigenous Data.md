@@ -16,7 +16,7 @@ short_title: Operationalizing the CARE and FAIR Principles for Indigenous Data F
 year: 2021
 first_author: "[[Stephanie Russo Carroll]]"
 last_author: "[[Shelley Stall]]"
-authors: Stephanie Russo Carroll, Edit Herczog, Maui Hudson, Keith Russell, Shelley Stall
+authors: Stephanie Russo Carroll; Edit Herczog; Maui Hudson; Keith Russell; Shelley Stall
 doi: 10.1038/s41597-021-00892-0
 url: "https://www.nature.com/articles/s41597-021-00892-0"
 publication: Nature Scientific Data
@@ -51,7 +51,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Stephanie Russo Carroll, Edit Herczog, Maui Hudson, Keith Russell, Shelley Stall]]
+[[Stephanie Russo Carroll]], [[Edit Herczog]], [[Maui Hudson]], [[Keith Russell]], [[Shelley Stall]]
 
 ## Metadata
 

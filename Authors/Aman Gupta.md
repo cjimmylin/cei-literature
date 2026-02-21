@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment|VAL-Bench: Belief Consistency as a Measure for Value Alignment]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment*: Affiliation: University of Oxford
+- *From 2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment*: Affiliation: University of Oxford
 - *From 2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment*: Affiliation: University of Oxford
 - *From 2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment*: Affiliation: University of Oxford
 - *From 2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment*: Affiliation: University of Oxford

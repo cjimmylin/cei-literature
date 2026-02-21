@@ -14,9 +14,9 @@ key: LSRC0293
 type: preprint
 short_title: "Spanish and LLM Benchmarks: Is MMLU Lost in Translation?"
 year: 2024
-first_author: "[[Ortiz, Irene Plaza]]"
-last_author: "[[Irene Plaza Ortiz]]"
-authors: "[[Ortiz, Irene Plaza]]"
+first_author: "[[Ortiz]]"
+last_author: "[[Irene Plaza]]"
+authors: Ortiz; Irene Plaza
 authors_incomplete: true
 url: "https://arxiv.org/abs/2406.17789"
 external_pdf: "https://arxiv.org/pdf/2406.17789.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Irene Plaza Ortiz]]
+[[Ortiz]], [[Irene Plaza]]
 
 ## Metadata
 

@@ -26,6 +26,8 @@ Peter S. Park is the Vitalik Buterin Postdoctoral Fellow in AI Existential Safet
 
 
 
+
+
 - [[2023-Park-AI Deception|AI Deception]] (First Author)
 
 ## Notes
@@ -35,6 +37,10 @@ Peter S. Park is the Vitalik Buterin Postdoctoral Fellow in AI Existential Safet
 
 
 
+
+
+- *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
+- *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
 - *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
 - *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
 - *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety

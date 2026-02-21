@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Jinu Nyachhyon]], [[Mrinank Sharma|Mridul Sharma]], [[Prajwal Thapa]], [[Bal Krishna Bal]]
+[[Jinu Nyachhyon]], [[Mridul Sharma]], [[Prajwal Thapa]], [[Bal Krishna Bal]]
 
 ## Metadata
 

@@ -77,7 +77,7 @@ We propose a framework for robust evaluation of reasoning capabilities of langua
 
 ## Authors
 
-[[Saurabh Srivastava]], [[Annarose M. B|Annarose M B]], [[Anto P]], [[Shashank Menon]], [[Ajay Sukumar]], [[Adwaith Samod T]], [[Alan Philipose]], [[Stevin Prince]], [[Sooraj Thomas]]
+[[Saurabh Srivastava]], [[Annarose M B]], [[Anto P]], [[Shashank Menon]], [[Ajay Sukumar]], [[Adwaith Samod T]], [[Alan Philipose]], [[Stevin Prince]], [[Sooraj Thomas]]
 
 ## Data Description
 

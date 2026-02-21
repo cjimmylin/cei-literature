@@ -17,7 +17,7 @@ short_title: "Ethical Decision-Making in Humans and Large"
 year: 2025
 first_author: "[[Mohammad Nadeem]]"
 last_author: "[[Afreen, Shagufta]]"
-authors: "[[Nadeem, Mohammad]]; [[Afreen, Shagufta]]"
+authors: "Nadeem, Mohammad; Afreen, Shagufta"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/CTQZ79SQ/Nadeem and Afreen - 2025 - Ethical Decision-Making in Humans and Large Language Models Insights from Five Moral Domains.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

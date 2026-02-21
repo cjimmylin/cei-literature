@@ -16,7 +16,7 @@ short_title: "Offensive Language Identification in Greek"
 year: 2020
 first_author: "[[Zeses Pitenis]]"
 last_author: "[[Tharindu Ranasinghe]]"
-authors: "Zeses Pitenis, Marcos Zampieri, Tharindu Ranasinghe"
+authors: Zeses Pitenis; Marcos Zampieri; Tharindu Ranasinghe
 url: "https://aclanthology.org/2020.lrec-1.629/"
 external_pdf: "https://arxiv.org/pdf/2003.07459.pdf"
 publication: "ACL Anthology / LREC 2020"

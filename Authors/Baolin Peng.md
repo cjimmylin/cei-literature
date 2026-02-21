@@ -50,6 +50,8 @@ His work on "Instruction Tuning with GPT-4" and the "LLaVA" series has been foun
 
 
 
+
+
 - [[2022-Qiu-ValueNet|ValueNet]]
 
 ## External Links & Profiles
@@ -69,6 +71,10 @@ His work on "Instruction Tuning with GPT-4" and the "LLaVA" series has been foun
 
 
 
+
+
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu

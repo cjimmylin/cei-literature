@@ -17,7 +17,7 @@ short_title: "MyCulture: Exploring Malaysia's Diverse Culture under Low-Resource
 year: 2025
 first_author: "[[Hew, Zhong Ken]]"
 last_author: "[[Chan, Chee Seng]]"
-authors: "[[Hew, Zhong Ken]]; [[Low, Jia Xin]]; [[Yang, Sze Jue]]; [[Chan, Chee Seng]]"
+authors: "Hew, Zhong Ken; Low, Jia Xin; Yang, Sze Jue; Chan, Chee Seng"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.05429"
 external_pdf: "https://arxiv.org/pdf/2508.05429.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Hew, Zhong Ken]], [[Lin, Xin|Low, Jia Xin]], [[Yang, Sze Jue]], [[Chan, Chee Seng]]
+[[Hew, Zhong Ken]], [[Low, Jia Xin]], [[Yang, Sze Jue]], [[Chan, Chee Seng]]
 
 ## Metadata
 

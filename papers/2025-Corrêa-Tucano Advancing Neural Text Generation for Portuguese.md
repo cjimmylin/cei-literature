@@ -17,7 +17,7 @@ short_title: "Tucano: Advancing Neural Text Generation for Portuguese"
 year: 2025
 first_author: "[[Corrêa, Nicholas Kluge]]"
 last_author: "[[Fatimah, Shiza]]"
-authors: "[[Corrêa, Nicholas Kluge]]; [[Sen, Aniket]]; [[Falk, Sophia]]; [[Fatimah, Shiza]]"
+authors: "Corrêa, Nicholas Kluge; Sen, Aniket; Falk, Sophia; Fatimah, Shiza"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.07854"
 external_pdf: "https://arxiv.org/pdf/2411.07854.pdf"

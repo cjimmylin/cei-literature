@@ -22,6 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding|Benchmarking Vision Language Models for Cultural Understanding]]
 - [[2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding|CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding]]
 - [[2021-Nadeem-StereoSet|StereoSet]] (Last Author)
 
@@ -32,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: mnadeem@mit.edu
+- *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: mnadeem@mit.edu
 - *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: anna.bethke@intel.com
 - *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: anna.bethke@intel.com
 - *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: mnadeem@mit.edu

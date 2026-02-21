@@ -16,7 +16,7 @@ short_title: "KOLD: Korean Offensive Language Dataset"
 year: 2022
 first_author: "[[Younghoon Jeong]]"
 last_author: "[[Alice Oh]]"
-authors: "Younghoon Jeong, Juhyun Oh, Jongwon Lee, Jaimeen Ahn, Jiyoung Han, Chiyoung Cha, Alice Oh"
+authors: Younghoon Jeong; Juhyun Oh; Jongwon Lee; Jaimeen Ahn; Jiyoung Han; Chiyoung Cha; Alice Oh
 doi: 10.18653/v1/2022.emnlp-main.744
 url: "https://arxiv.org/abs/2205.11315"
 external_pdf: "https://arxiv.org/pdf/2205.11315.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "EMNLP 2022"
 
 ## Authors
 
-[[Yujin Jeong|Younghoon Jeong]], [[Juhyun Oh]], [[Jongwon Lee]], [[Jaimeen Ahn]], [[Jiawei Han|Jiyoung Han]], [[Chiyoung Cha]], [[Alice Oh]]
+[[Younghoon Jeong]], [[Juhyun Oh]], [[Jongwon Lee]], [[Jaimeen Ahn]], [[Jiyoung Han]], [[Chiyoung Cha]], [[Alice Oh]]
 
 ## Metadata
 

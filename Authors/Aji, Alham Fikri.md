@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian|LoraxBench: A Multitask, Multilingual Benchmark Suite for 20 Indonesian Languages]] (First Author)
 - [[2025-Aji-Multilingual Multicultural Evaluation Workshop|Multilingual Multicultural Evaluation Workshop]] (First Author)
 - [[2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn|SEADialogues A Multilingual Culturally Grounded Multi-turn]]
@@ -94,6 +96,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
+- *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

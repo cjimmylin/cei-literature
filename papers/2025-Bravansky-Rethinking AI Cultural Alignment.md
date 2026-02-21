@@ -16,7 +16,7 @@ short_title: Rethinking AI Cultural Alignment
 year: 2025
 first_author: "[[Michal Bravansky]]"
 last_author: "[[Fazl Barez]]"
-authors: Michal Bravansky, Filip Trhlik, Fazl Barez
+authors: Michal Bravansky; Filip Trhlik; Fazl Barez
 url: "https://arxiv.org/abs/2501.07751"
 external_pdf: "https://arxiv.org/pdf/2501.07751.pdf"
 publication: arXiv

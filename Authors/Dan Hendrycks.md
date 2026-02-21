@@ -53,6 +53,8 @@ Hendrycks has authored influential work on AI alignment and safety, including se
 
 
 
+
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 - [[2025-Hendrycks-MUST An Explainable AI-Based Framework for Multilingual Hate Speech|MUST: An Explainable AI-Based Framework for Multilingual Hate Speech Detection | IEEE Journals & Magazine | IEEE Xplore]] (First Author)
 - [[2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language|D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models]]
@@ -84,6 +86,10 @@ Hendrycks has authored influential work on AI alignment and safety, including se
 
 
 
+
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu

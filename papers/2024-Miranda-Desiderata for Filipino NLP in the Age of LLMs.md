@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Lester James V. Miranda|Lj Miranda]]
+[[Lj Miranda]]
 
 ## Metadata
 

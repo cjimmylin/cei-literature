@@ -15,10 +15,10 @@ key: LSRC0285
 type: conferencePaper
 short_title: "MarIA and BETO are Sexist: Evaluating Gender Bias in Large Language Models for Spanish"
 year: 2023
-first_author: "[[Plaza-del-Arco, Flor Miriam]]"
-last_author: "[[Flor Miriam Plaza-del-Arco]]"
-authors: "[[Plaza-del-Arco, Flor Miriam]]"
-authors_incomplete: true
+first_author: "[[Garrido-Muñoz, Ismael]]"
+last_author: "[[Montejo-Ráez, Arturo]]"
+authors: "Garrido-Muñoz, Ismael; Martínez-Santiago, Fernando; Montejo-Ráez, Arturo"
+authors_incomplete: false
 doi: 10.1007/s10579-023-09670-3
 url: "https://link.springer.com/article/10.1007/s10579-023-09670-3"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-023-09670-3.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Flor Plaza-del-Arco|Flor Miriam Plaza-del-Arco]]
+[[Garrido-Muñoz, Ismael]], [[Martínez-Santiago, Fernando]], [[Montejo-Ráez, Arturo]]
 
 ## Metadata
 

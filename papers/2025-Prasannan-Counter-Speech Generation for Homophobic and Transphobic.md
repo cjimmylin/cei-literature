@@ -19,7 +19,7 @@ short_title: "Counter-Speech Generation for Homophobic and Transphobic"
 year: 2025
 first_author: "[[Praveen Prasannan]]"
 last_author: "[[Bharathi Raja Chakravarthi]]"
-authors: "[[Praveen Prasannan]]; [[Prasanna Kumar Kumaresan]]; [[Saranya Rajiakodi]]; [[C. N. Subalalitha]]; [[Bharathi Raja Chakravarthi]]"
+authors: Praveen Prasannan; Prasanna Kumar Kumaresan; Saranya Rajiakodi; C. N. Subalalitha; Bharathi Raja Chakravarthi
 authors_incomplete: false
 url: "https://link.springer.com/article/10.1007/s13278-025-01507-x"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01507-x.pdf"

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Lan-McBE|McBE]]
 - [[2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large|McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Lan-McBE*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: velikayascarlet@gmail.com
+- *From 2025-Lan-McBE*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: velikayascarlet@gmail.com
 - *From 2025-Lan-McBE*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: cssxd@imu.edu.cn
 - *From 2025-Lan-McBE*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: cssxd@imu.edu.cn
 - *From 2025-Lan-McBE*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: velikayascarlet@gmail.com

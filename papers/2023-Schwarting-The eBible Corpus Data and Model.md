@@ -17,9 +17,9 @@ key: EXSR0575
 type: preprint
 short_title: "The eBible Corpus Data and Model"
 year: 2023
-first_author: "[[Vesa Akerman, David Baines, Damien Daspit, Ulf Hermjakob, Taeho Jang, Colin Leong, Michael Martin, Joel Mathew, Jonathan Robie, Marcus Schwarting]]"
-last_author: "[[Marcus Schwarting Jonathan Robie]]"
-authors: "[[Vesa Akerman, David Baines, Damien Daspit, Ulf Hermjakob, Taeho Jang, Colin Leong, Michael Martin, Joel Mathew, Jonathan Robie, Marcus Schwarting]]"
+first_author: "[[Vesa Akerman]]"
+last_author: "[[Marcus Schwarting]]"
+authors: Vesa Akerman; David Baines; Damien Daspit; Ulf Hermjakob; Taeho Jang; Colin Leong; Michael Martin; Joel Mathew; Jonathan Robie; Marcus Schwarting
 authors_incomplete: false
 url: "https://arxiv.org/abs/2304.09919"
 external_pdf: "https://arxiv.org/pdf/2304.09919.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[David Baines Vesa Akerman]], [[Ulf Hermjakob Damien Daspit]], [[Colin Leong Taeho Jang]], [[Joel Mathew Michael Martin]], [[Marcus Schwarting Jonathan Robie]]
+[[Vesa Akerman]], [[David Baines]], [[Damien Daspit]], [[Ulf Hermjakob]], [[Taeho Jang]], [[Colin Leong]], [[Michael Martin]], [[Joel Mathew]], [[Jonathan Robie]], [[Marcus Schwarting]]
 
 ## Metadata
 

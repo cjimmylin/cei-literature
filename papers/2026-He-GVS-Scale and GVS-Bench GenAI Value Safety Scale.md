@@ -17,7 +17,7 @@ short_title: "GVS-Scale and GVS-Bench: GenAI Value Safety Scale"
 year: 2026
 first_author: "[[He, Ying]]"
 last_author: "[[Ren, Shangsheng]]"
-authors: "[[He, Ying]]; [[Li, Baiyang]]; [[Cao, Yule]]; [[Xu, Huirun]]; [[Chen, Qiuxian]]; [[Chen, Shu]]; [[Ren, Shangsheng]]"
+authors: "He, Ying; Li, Baiyang; Cao, Yule; Xu, Huirun; Chen, Qiuxian; Chen, Shu; Ren, Shangsheng"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.09112"
 external_pdf: "https://arxiv.org/pdf/2601.09112.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Han Ying|He, Ying]], [[Li, Baiyang]], [[Cao, Yule]], [[Xu, Huirun]], [[Chen, Qiuxian]], [[Chen, Shu]], [[Ren, Shangsheng]]
+[[He, Ying]], [[Li, Baiyang]], [[Cao, Yule]], [[Xu, Huirun]], [[Chen, Qiuxian]], [[Chen, Shu]], [[Ren, Shangsheng]]
 
 ## Metadata
 

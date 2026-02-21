@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models|EmpatheticDialogues: Towards Empathetic Open-domain Conversation Models]]
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models*: Affiliation: School of Computer Science & Engineering, University of Washington, Email: hrashkin@cs.washington.edu
+- *From 2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models*: Affiliation: School of Computer Science & Engineering, University of Washington, Email: hrashkin@cs.washington.edu
 - *From 2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models*: Affiliation: School of Computer Science & Engineering, University of Washington, Email: hrashkin@cs.washington.edu
 - *From 2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models*: Affiliation: School of Computer Science & Engineering, University of Washington, Email: hrashkin@cs.washington.edu
 - *From 2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models*: Affiliation: School of Computer Science & Engineering, University of Washington, Email: hrashkin@cs.washington.edu

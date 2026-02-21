@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Adilazuarda-Towards Measuring and Modeling *: Affiliation: Institute of Technology Kanpur, India
+- *From 2024-Adilazuarda-Towards Measuring and Modeling *: Affiliation: Institute of Technology Kanpur, India
 - *From 2024-Adilazuarda-Towards Measuring and Modeling *: Affiliation: Institute of Technology Kanpur, India
 - *From 2024-Adilazuarda-Towards Measuring and Modeling *: Affiliation: Institute of Technology Kanpur, India
 - *From 2024-Adilazuarda-Towards Measuring and Modeling *: Affiliation: Institute of Technology Kanpur, India

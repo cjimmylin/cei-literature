@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media|Hate speech and abusive language detection in Indonesian social media: Progress and challenges]] (Last Author)
 - [[2019-Ibrohim-Multi-label Hate Speech and Abusive Language|Multi-label Hate Speech and Abusive Language]] (Last Author)
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2019-Ibrohim-Multi-label Hate Speech and Abusive Language*: Affiliation: label Hate Speech and Abusive Language - PDF Extract", Email: indra@cs.ui.ac.id
+- *From 2019-Ibrohim-Multi-label Hate Speech and Abusive Language*: Affiliation: label Hate Speech and Abusive Language - PDF Extract", Email: indra@cs.ui.ac.id
 - *From 2019-Ibrohim-Multi-label Hate Speech and Abusive Language*: Affiliation: label Hate Speech and Abusive Language - PDF Extract", Email: okkyibrohim@cs.ui.ac.id
 - *From 2019-Ibrohim-Multi-label Hate Speech and Abusive Language*: Affiliation: label Hate Speech and Abusive Language - PDF Extract", Email: okkyibrohim@cs.ui.ac.id
 - *From 2019-Ibrohim-Multi-label Hate Speech and Abusive Language*: Affiliation: label Hate Speech and Abusive Language - PDF Extract", Email: indra@cs.ui.ac.id

@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian|ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks]] (Last Author)
+- [[2023-Dehghani-Persian Offensive Language Detection Dehghani et al.|Persian Offensive Language Detection (Dehghani et al.)]] (Last Author)
 - [[2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian|ParsiNLU: A Suite of Language Understanding Challenges for Persian]] (Last Author)
 
 ## External Links & Profiles
@@ -88,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
+- *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
 - *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
 - *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
 - *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U

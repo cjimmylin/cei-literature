@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating|SANSKRITI A Comprehensive Benchmark for Evaluating]] (Last Author)
 - [[2024-Maity-HateThaiSent Sentiment-Aided Hate Speech Detection in|HateThaiSent Sentiment-Aided Hate Speech Detection in]]
 - [[2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech|A Deep Learning Framework for the Detection of Malay Hate Speech]]
@@ -86,6 +88,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech*: Affiliation: Department, Indian Institute of Technology Patna, Bihta 801106, India, Email: krishanu_2021cs19@iitp.ac.in
+- *From 2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech*: Affiliation: Department, Indian Institute of Technology Patna, Bihta 801106, India, Email: krishanu_2021cs19@iitp.ac.in
 - *From 2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech*: Affiliation: Department, Indian Institute of Technology Patna, Bihta 801106, India, Email: krishanu_2021cs19@iitp.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

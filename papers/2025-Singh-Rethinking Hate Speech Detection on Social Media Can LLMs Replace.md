@@ -18,7 +18,7 @@ short_title: "Rethinking Hate Speech Detection on Social Media: Can LLMs Replace
 year: 2025
 first_author: "[[Singh, Daman Deep]]"
 last_author: "[[Chakraborty, Abhijnan]]"
-authors: "[[Singh, Daman Deep]]; [[Bhattacharjee, Ramanuj]]; [[Chakraborty, Abhijnan]]"
+authors: "Singh, Daman Deep; Bhattacharjee, Ramanuj; Chakraborty, Abhijnan"
 authors_incomplete: false
 url: "https://arxiv.org/html/2506.12744v1"
 external_pdf: "https://arxiv.org/pdf/2506.12744.pdf"

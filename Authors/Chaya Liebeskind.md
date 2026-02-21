@@ -58,8 +58,11 @@ twitter: ""
 
 
 
+
+
 - [[2024-Liebeskind-From Linguistics to Practice a Case Study of Offensive Language|From Linguistics to Practice: a Case Study of Offensive Language Taxonomy in Hebrew]] (First Author)
 - [[2022-Litvak-Offensive language detection in Hebrew can other languages help|Offensive language detection in Hebrew: can other languages help?]]
+- [[2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook|Identifying Abusive Comments in Hebrew Facebook]] (First Author)
 
 ## External Links & Profiles
 
@@ -88,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com
+- *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com
 - *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com
 - *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com
 - *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com

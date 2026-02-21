@@ -60,9 +60,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Liu-PersuSafety LLM Can be a Dangerous Persuader|PersuSafety: LLM Can be a Dangerous Persuader]]
-- [[2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation|A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies]] (Last Author)
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 

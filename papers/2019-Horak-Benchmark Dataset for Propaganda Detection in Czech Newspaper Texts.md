@@ -19,7 +19,7 @@ short_title: "Benchmark Dataset for Propaganda Detection in Czech Newspaper Text
 year: 2019
 first_author: "[[Ales Horak]]"
 last_author: "[[Ondrej Herman]]"
-authors: "Ales Horak, Vit Baisa, Ondrej Herman"
+authors: Ales Horak; Vit Baisa; Ondrej Herman
 url: "https://aclanthology.org/R19-1010/"
 external_pdf: "https://doi.org/10.26615/978-954-452-056-4_010"
 publication: "ACL Anthology / RANLP 2019"

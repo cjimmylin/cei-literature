@@ -3,7 +3,7 @@ name: "Sittipong Sripaisarnmongkol"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "lable in 1B, 8B, and 20B sizes to suit"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "contact@opentyphoon.ai"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
+- [[2024-Tharnpipitchai-Typhoon 2 A Family of Open|Typhoon 2 A Family of Open]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Tharnpipitchai-Typhoon 2 A Family of Open*: Affiliation: lable in both base and instruction-, Email: contact@opentyphoon.ai
+- *From 2024-Tharnpipitchai-Typhoon 2 A Family of Open*: Affiliation: lable in both base and instruction-, Email: contact@opentyphoon.ai
 - *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit
 - *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit
 - *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit

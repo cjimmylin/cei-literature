@@ -16,7 +16,7 @@ short_title: "CROPE: Evaluating In-Context Adaptation of Vision and Language Mod
 year: 2025
 first_author: "[[Malvina Nikandrou]]"
 last_author: "[[Alessandro Suglia]]"
-authors: Malvina Nikandrou, Georgios Pantazopoulos, Nikolas Vitsakis, Ioannis Konstas, Alessandro Suglia
+authors: Malvina Nikandrou; Georgios Pantazopoulos; Nikolas Vitsakis; Ioannis Konstas; Alessandro Suglia
 doi: 10.18653/v1/2025.naacl-long.402
 url: "https://aclanthology.org/2025.naacl-long.402/"
 external_pdf: "https://arxiv.org/pdf/2410.15453.pdf"

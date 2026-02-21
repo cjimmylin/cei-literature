@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks|Evaluating Arabic Large Language Models: A Survey of Benchmarks, Methods, and Gaps]] (First Author)
 - [[2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in|Towards Inclusive Arabic LLMs: A Culturally Aligned Benchmark in Arabic Large Language Model Evaluation]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks*: Affiliation: Institute, Abu Dhabi, UAE, Email: ahmed.alzubaidi@tii.ae
+- *From 2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks*: Affiliation: Institute, Abu Dhabi, UAE, Email: ahmed.alzubaidi@tii.ae
 - *From 2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks*: Affiliation: Institute, Abu Dhabi, UAE, Email: ahmed.alzubaidi@tii.ae
 - *From 2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks*: Affiliation: Institute, Abu Dhabi, UAE, Email: ahmed.alzubaidi@tii.ae
 - *From 2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks*: Affiliation: Institute, Abu Dhabi, UAE, Email: ahmed.alzubaidi@tii.ae

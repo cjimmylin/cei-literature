@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Catapang-EMoTES-3K|EMoTES-3K]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: moses.visperas@eee.upd.edu.ph
+- *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: moses.visperas@eee.upd.edu.ph
 - *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph
 - *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph
 - *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph

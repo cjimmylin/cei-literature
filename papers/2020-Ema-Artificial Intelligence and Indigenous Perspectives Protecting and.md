@@ -17,7 +17,7 @@ short_title: "Artificial Intelligence and Indigenous Perspectives: Protecting an
 year: 2020
 first_author: "[[Arisa Ema]]"
 last_author: "[[Takanori Fujita]]"
-authors: Arisa Ema, Katsue Nagakura, Takanori Fujita
+authors: Arisa Ema; Katsue Nagakura; Takanori Fujita
 doi: 10.1145/3375627.3375845
 url: "https://dl.acm.org/doi/10.1145/3375627.3375845"
 publication: AAAI/ACM AIES 2020

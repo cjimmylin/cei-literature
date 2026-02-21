@@ -19,7 +19,7 @@ short_title: "Fake News Detection in Low-Resourced Languages: Kurdish Language U
 year: 2021
 first_author: "[[Azada, Rania]]"
 last_author: "[[Sdiqa, Shajwan]]"
-authors: "[[Azada, Rania]]; [[Mohammeda, Bilal]]; [[Mahmuda, Rawaz]]; [[Zrara, Lanya]]; [[Sdiqa, Shajwan]]"
+authors: "Azada, Rania; Mohammeda, Bilal; Mahmuda, Rawaz; Zrara, Lanya; Sdiqa, Shajwan"
 authors_incomplete: true
 url: "https://turcomat.org/index.php/turkbilmat/article/view/8393"
 external_pdf: "https://turcomat.org/index.php/turkbilmat/article/download/8393/6569"

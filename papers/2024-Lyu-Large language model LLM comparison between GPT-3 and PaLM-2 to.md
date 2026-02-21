@@ -16,8 +16,8 @@ type: journalArticle
 short_title: Large language model (LLM) comparison between GPT-3 and PaLM-2 to produce Indonesian cultural content
 year: 2024
 first_author: "[[Yiming Lyu]]"
-last_author: "[[Jie Cai Shuping Niu]]"
-authors: Yiming Lyu, Hao Zhang, Shuping Niu, Jie Cai
+last_author: "[[Jie Cai]]"
+authors: Yiming Lyu; Hao Zhang; Shuping Niu; Jie Cai
 doi: 10.15587/1729-4061.2024.309972
 url: "https://journals.uran.ua/eejet/article/view/309972"
 external_pdf: "https://journals.uran.ua/eejet/article/download/309972/301978"
@@ -53,7 +53,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Hao Zhang Yiming Lyu]], [[Jie Cai Shuping Niu]]
+[[Yiming Lyu]], [[Hao Zhang]], [[Shuping Niu]], [[Jie Cai]]
 
 ## Metadata
 

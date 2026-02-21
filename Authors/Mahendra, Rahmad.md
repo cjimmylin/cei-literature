@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense|IndoCulture: Exploring Geographically-Influenced Cultural Commonsense Reasoning Across Eleven Indonesian Provinces]]
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
+- *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology

@@ -51,6 +51,8 @@ She is a leading voice in the critical survey of "bias" in NLP, advocating for m
 
 
 
+
+
 - [[2023-Fleisig-FairPrism|FairPrism]]
 
 ## External Links & Profiles
@@ -70,6 +72,10 @@ She is a leading voice in the critical survey of "bias" in NLP, advocating for m
 
 
 
+
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: efleisig@berkeley.edu
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com

@@ -16,7 +16,7 @@ short_title: "JAI-1: A Thai-Centric Large Language Model"
 year: 2025
 first_author: "[[Rutherford, Attapol T.]]"
 last_author: "[[Pollertlam, Natchanon]]"
-authors: "[[Rutherford, Attapol T.]]; [[Karnjanaekarin, Jullajak]]; [[Panitsrisit, Narongkorn]]; [[Trakuekul, Pontakorn]]; [[Sumanakul, Sumana]]; [[Pollertlam, Natchanon]]"
+authors: "Rutherford, Attapol T.; Karnjanaekarin, Jullajak; Panitsrisit, Narongkorn; Trakuekul, Pontakorn; Sumanakul, Sumana; Pollertlam, Natchanon"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.08620"
 external_pdf: "https://arxiv.org/pdf/2510.08620.pdf"

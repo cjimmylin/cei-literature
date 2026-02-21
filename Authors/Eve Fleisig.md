@@ -41,6 +41,8 @@ Lead author on FairPrism, a framework for understanding annotator rationales in 
 
 
 
+
+
 - [[2026-Li-PluriHarms|PluriHarms]]
 - [[2023-Fleisig-FairPrism|FairPrism]] (First Author)
 
@@ -56,6 +58,10 @@ Lead author on FairPrism, a framework for understanding annotator rationales in 
 
 
 
+
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: efleisig@berkeley.edu
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com

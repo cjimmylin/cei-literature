@@ -17,7 +17,7 @@ short_title: "Beyond Ethical Alignment"
 year: 2025
 first_author: "[[Alessio Galatolo]]"
 last_author: "[[Beloucif, Meriem]]"
-authors: "[[Galatolo, Alessio]]; [[Rappuoli, Luca Alberto]]; [[Winkle, Katie]]; [[Beloucif, Meriem]]"
+authors: "Galatolo, Alessio; Rappuoli, Luca Alberto; Winkle, Katie; Beloucif, Meriem"
 doi: 10.48550/arXiv.2508.12754
 url: "https://arxiv.org/abs/2508.12754"
 external_pdf: "https://arxiv.org/pdf/2508.12754.pdf"

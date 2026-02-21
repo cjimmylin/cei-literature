@@ -17,7 +17,7 @@ short_title: "BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark 
 year: 2024
 first_author: "[[Fajcik, Martin]]"
 last_author: "[[Kydlicek, Hynek]]"
-authors: "[[Fajcik, Martin]]; [[Docekal, Martin]]; [[Dolezal, Jan]]; [[Ondrej, Karel]]; [[Beneš, Karel]]; [[Kapsa, Jan]]; [[Smrz, Pavel]]; [[Polok, Alexander]]; [[Hradis, Michal]]; [[Neverilova, Zuzana]]; [[Horak, Ales]]; [[Sabol, Radoslav]]; [[Stefanik, Michal]]; [[Jirkovsky, Adam]]; [[Adamczyk, David]]; [[Hyner, Petr]]; [[Hula, Jan]]; [[Kydlicek, Hynek]]"
+authors: "Fajcik, Martin; Docekal, Martin; Dolezal, Jan; Ondrej, Karel; Beneš, Karel; Kapsa, Jan; Smrz, Pavel; Polok, Alexander; Hradis, Michal; Neverilova, Zuzana; Horak, Ales; Sabol, Radoslav; Stefanik, Michal; Jirkovsky, Adam; Adamczyk, David; Hyner, Petr; Hula, Jan; Kydlicek, Hynek"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.17933"
 external_pdf: "https://arxiv.org/pdf/2412.17933.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Fajcik, Martin]], [[Docekal, Martin]], [[Dolezal, Jan]], [[Ondrej, Karel]], [[Beneš, Karel]], [[Kapsa, Jan]], [[Smrz, Pavel]], [[Polok, Alexander]], [[Hradis, Michal]], [[Neverilova, Zuzana]], [[Horak, Ales]], [[Sabol, Radoslav]], [[Stefanik, Michal]], [[Jatowt, Adam|Jirkovsky, Adam]], [[Anat Ben David|Adamczyk, David]], [[Hyner, Petr]], [[Hula, Jan]], [[Kydlicek, Hynek]]
+[[Fajcik, Martin]], [[Docekal, Martin]], [[Dolezal, Jan]], [[Ondrej, Karel]], [[Beneš, Karel]], [[Kapsa, Jan]], [[Smrz, Pavel]], [[Polok, Alexander]], [[Hradis, Michal]], [[Neverilova, Zuzana]], [[Horak, Ales]], [[Sabol, Radoslav]], [[Stefanik, Michal]], [[Jirkovsky, Adam]], [[Adamczyk, David]], [[Hyner, Petr]], [[Hula, Jan]], [[Kydlicek, Hynek]]
 
 ## Metadata
 

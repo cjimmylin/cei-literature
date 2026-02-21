@@ -18,9 +18,9 @@ key: LSRC0792
 type: conferencePaper
 short_title: "Cognitive imperialism in artificial intelligence: counteracting bias with indigenous epistemologies | AI & SOCIETY | Springer Nature Link"
 year: 2025
-first_author: "[[Ofosu-Asare, Yaw]]"
-last_author: "[[Yaw Ofosu-Asare]]"
-authors: "[[Ofosu-Asare, Yaw]]"
+first_author: "[[Ofosu-Asare]]"
+last_author: "[[Yaw]]"
+authors: Ofosu-Asare; Yaw
 authors_incomplete: false
 doi: 10.1007/s00146-024-02065-0
 url: "https://link.springer.com/article/10.1007/s00146-024-02065-0"
@@ -57,7 +57,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Yaw Ofosu-Asare]]
+[[Ofosu-Asare]], [[Yaw]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and|The FRENK Datasets of Socially Unacceptable Discourse in Slovene and English]] (Last Author)
 - [[2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments|Datasets of Slovene and Croatian Moderated News Comments]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments*: Affiliation: Faculty of Arts, Email: tomaz.erjavec@ijs.si
+- *From 2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments*: Affiliation: Faculty of Arts, Email: tomaz.erjavec@ijs.si
 - *From 2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments*: Affiliation: Faculty of Arts, Email: darja.fiser@ff.uni
 - *From 2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments*: Affiliation: Faculty of Arts, Email: tomaz.erjavec@ijs.si
 - *From 2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments*: Affiliation: Faculty of Arts, Email: darja.fiser@ff.uni

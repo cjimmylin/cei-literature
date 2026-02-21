@@ -16,7 +16,7 @@ short_title: "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?"
 year: 2026
 first_author: "[[Hu, Luoming]]"
 last_author: "[[Lin, Hongfei]]"
-authors: "[[Hu, Luoming]]; [[Zeng, Jingjie]]; [[Yang, Liang]]; [[Lin, Hongfei]]"
+authors: "Hu, Luoming; Zeng, Jingjie; Yang, Liang; Lin, Hongfei"
 authors_incomplete: false
 url: "https://arxiv.org/html/2601.10307"
 external_pdf: "https://arxiv.org/pdf/2601.10307.pdf"

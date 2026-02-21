@@ -18,7 +18,7 @@ short_title: "Helpful Harmless Honest Limits"
 year: 2025
 first_author: "[[Adam Dahlgren Lindström]]"
 last_author: "[[Dobbe, Roel]]"
-authors: "[[Lindström, Adam Dahlgren]]; [[Methnani, Leila]]; [[Krause, Lea]]; [[Ericson, Petter]]; [[Martínez de Rituerto de Troya, Íñigo]]; [[Coelho Mollo, Dimitri]]; [[Dobbe, Roel]]"
+authors: "Lindström, Adam Dahlgren; Methnani, Leila; Krause, Lea; Ericson, Petter; Martínez de Rituerto de Troya, Íñigo; Coelho Mollo, Dimitri; Dobbe, Roel"
 doi: 10.1007/s10676-025-09837-2
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12137480/"
 publication: "Ethics and Information Technology"

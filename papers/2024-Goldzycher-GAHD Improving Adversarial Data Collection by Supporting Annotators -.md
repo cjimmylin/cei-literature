@@ -15,7 +15,7 @@ short_title: "GAHD: Improving Adversarial Data Collection by Supporting Annotato
 year: 2024
 first_author: "[[Janis Goldzycher]]"
 last_author: "[[Gerold Schneider]]"
-authors: "Janis Goldzycher, Paul Rottger, Gerold Schneider"
+authors: Janis Goldzycher; Paul Rottger; Gerold Schneider
 url: "https://arxiv.org/abs/2403.19559"
 external_pdf: "https://arxiv.org/pdf/2403.19559.pdf"
 publication: "arXiv / NAACL 2024"
@@ -50,7 +50,7 @@ CONFERENCE: "NAACL 2024"
 
 ## Authors
 
-[[Janis Goldzycher]], [[Paul Röttger|Paul Rottger]], [[Gerold Schneider]]
+[[Janis Goldzycher]], [[Paul Rottger]], [[Gerold Schneider]]
 
 ## Metadata
 

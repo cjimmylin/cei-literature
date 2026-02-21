@@ -51,6 +51,8 @@ Bharathi has contributed to influential studies on the limitations of current LL
 
 
 
+
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## External Links & Profiles
@@ -65,6 +67,10 @@ Bharathi has contributed to influential studies on the limitations of current LL
 
 
 
+
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

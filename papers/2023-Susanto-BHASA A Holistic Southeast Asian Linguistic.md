@@ -18,7 +18,7 @@ short_title: "BHASA A Holistic Southeast Asian Linguistic"
 year: 2023
 first_author: "[[Leong, Wei Qi]]"
 last_author: "[[Tjhi, William Chandra]]"
-authors: "[[Leong, Wei Qi]]; [[Ngui, Jian Gang]]; [[Susanto, Yosephine]]; [[Rengarajan, Hamsawardhini]]; [[Sarveswaran, Kengatharaiyer]]; [[Tjhi, William Chandra]]"
+authors: "Leong, Wei Qi; Ngui, Jian Gang; Susanto, Yosephine; Rengarajan, Hamsawardhini; Sarveswaran, Kengatharaiyer; Tjhi, William Chandra"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2309.06085"
 external_pdf: "https://arxiv.org/pdf/2309.06085.pdf"

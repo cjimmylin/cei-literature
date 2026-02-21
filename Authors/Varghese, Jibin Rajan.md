@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Ghosh-AEGIS 2.0|AEGIS 2.0]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Ghosh-AEGIS 2.0*:, Email: shaonag@nvidia.com
+- *From 2025-Ghosh-AEGIS 2.0*:, Email: shaonag@nvidia.com
 - *From 2025-Ghosh-AEGIS 2.0*:, Email: jibinv@nvidia.com
 - *From 2025-Ghosh-AEGIS 2.0*:, Email: makeshn@nvidia.com
 - *From 2025-Ghosh-AEGIS 2.0*:, Email: jibinv@nvidia.com

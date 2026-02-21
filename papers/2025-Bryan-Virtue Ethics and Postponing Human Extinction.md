@@ -14,9 +14,9 @@ key: AUTO_BRYAN2025
 type: journalArticle
 short_title: "Virtue Ethics and Postponing Human Extinction"
 year: 2025
-first_author: "[[Charles S. Bryan]]"
-last_author: "[[Charles S. Bryan]]"
-authors: "[[Bryan, Charles S.]]"
+first_author: "[[Bryan]]"
+last_author: "[[Charles S.]]"
+authors: Bryan; Charles S.
 doi: 10.1001/amajethics.2025.611
 url: "https://journalofethics.ama-assn.org/article/virtue-ethics-and-postponing-human-extinction/2025-08"
 pdf_extract: "PDF Extracts/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.md"
@@ -50,7 +50,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Charles S. Bryan]]
+[[Bryan]], [[Charles S]]
 
 ## Links
 

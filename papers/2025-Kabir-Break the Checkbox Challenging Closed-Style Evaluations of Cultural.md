@@ -18,7 +18,7 @@ short_title: "Break the Checkbox: Challenging Closed-Style Evaluations of Cultur
 year: 2025
 first_author: "[[Ariba Kabir]]"
 last_author: "[[Sophia Ananiadou]]"
-authors: "Ariba Kabir, Abrar Anwar, Sophia Ananiadou"
+authors: Ariba Kabir; Abrar Anwar; Sophia Ananiadou
 url: "https://arxiv.org/abs/2502.08045"
 external_pdf: "https://arxiv.org/pdf/2502.08045.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md"

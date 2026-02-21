@@ -22,11 +22,15 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2024-Hooker-Global MMLU Understanding and Addressing Cultural|Global MMLU Understanding and Addressing Cultural]]
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 - [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]] (Last Author)
+- [[2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus|NaijaSenti A Nigerian Twitter Sentiment Corpus]]
 - [[2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local|NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages]] (Last Author)
 - [[2021-Adelani-MasakhaNER Named Entity Recognition for African|MasakhaNER Named Entity Recognition for African]]
 - [[2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural|IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation]]
@@ -38,6 +42,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗

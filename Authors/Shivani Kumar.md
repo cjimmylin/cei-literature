@@ -24,8 +24,11 @@ Shivani Kumar is a Postdoctoral Researcher at the University of Michigan School 
 
 
 
+
+
 - [[2025-Farid-One Model, Many Morals|One Model, Many Morals]]
 - [[2025-Kumar-Are Rules Meant to be Broken|Are Rules Meant to be Broken?]] (First Author)
+- [[2025-Kumar-UniMoral ACL 2025 Best Resource Paper|UniMoral (ACL 2025 Best Resource Paper)]] (First Author)
 
 ## Notes
 
@@ -34,6 +37,10 @@ Shivani Kumar is a Postdoctoral Researcher at the University of Michigan School 
 
 
 
+
+
+- *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA
+- *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA
 - *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA
 - *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA
 - *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA

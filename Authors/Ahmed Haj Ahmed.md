@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yimam-CULEMO Cultural Lenses on Emotion --|CULEMO Cultural Lenses on Emotion --]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Yimam-CULEMO Cultural Lenses on Emotion --*: Affiliation: College, 3Wollo University, Email: tadesseit@gmail.com
+- *From 2025-Yimam-CULEMO Cultural Lenses on Emotion --*: Affiliation: College, 3Wollo University, Email: tadesseit@gmail.com
 - *From 2025-Yimam-CULEMO Cultural Lenses on Emotion --*: Affiliation: College, 3Wollo University, Email: tadesseit@gmail.com
 - *From 2025-Yimam-CULEMO Cultural Lenses on Emotion --*: Affiliation: College, 3Wollo University, Email: tadesseit@gmail.com
 - *From 2025-Yimam-CULEMO Cultural Lenses on Emotion --*: Affiliation: College, 3Wollo University, Email: tadesseit@gmail.com

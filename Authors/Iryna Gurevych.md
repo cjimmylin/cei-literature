@@ -60,8 +60,11 @@ twitter: ""
 
 
 
+
+
 - [[2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in|From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs]]
 - [[2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models|Cultural Learning-Based Culture Adaptation of Language Models]] (Last Author)
+- [[2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation|Are Multilingual LLMs Culturally-Diverse Reasoners? An Investigation into Multicultural Proverbs and Sayings]] (Last Author)
 
 ## External Links & Profiles
 
@@ -92,6 +95,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation*: Affiliation: Department of Computer Science and Hessian Center for AI (hessian
+- *From 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation*: Affiliation: Department of Computer Science and Hessian Center for AI (hessian
 - *From 2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in*: Affiliation: Lab (UKP Lab)
 - *From 2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in*: Affiliation: Lab (UKP Lab)
 - *From 2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in*: Affiliation: Lab (UKP Lab)

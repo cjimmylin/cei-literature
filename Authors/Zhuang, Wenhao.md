@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A|Enhancing Cross-Lingual Transfer through Reversible Transliteration: A Huffman-Based Approach for Low-Resource Languages]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A*: Affiliation: University of China, Beijing, China, Email: sdrz_zwh@163.com
+- *From 2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A*: Affiliation: University of China, Beijing, China, Email: sdrz_zwh@163.com
 - *From 2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A*: Affiliation: University of China, Beijing, China, Email: sunyuan@muc.edu.cn
 - *From 2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A*: Affiliation: University of China, Beijing, China, Email: sdrz_zwh@163.com
 - *From 2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A*: Affiliation: University of China, Beijing, China, Email: sdrz_zwh@163.com

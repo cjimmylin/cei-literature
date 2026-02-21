@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent|Korean Canonical Legal Benchmark: Toward Knowledge-Independent Evaluation of LLMs' Legal Reasoning Capabilities]]
 - [[2022-Jeong-KOLD Korean Offensive Language Dataset|KOLD: Korean Offensive Language Dataset]]
 - [[2021-Park-KLUE Korean Language Understanding Evaluation|KLUE: Korean Language Understanding Evaluation]]
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: james.ryu@kakaoenterprise.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: humanbrain.djlee@gmail.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com

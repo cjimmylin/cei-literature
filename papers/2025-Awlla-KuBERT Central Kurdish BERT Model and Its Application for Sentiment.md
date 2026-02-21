@@ -16,7 +16,7 @@ short_title: "KuBERT: Central Kurdish BERT Model and Its Application for Sentime
 year: 2025
 first_author: "[[Awlla, Kozhin muhealddin]]"
 last_author: "[[Abdullah, Abdulhady Abas]]"
-authors: "[[Awlla, Kozhin muhealddin]]; [[Veisi, Hadi]]; [[Abdullah, Abdulhady Abas]]"
+authors: "Awlla, Kozhin muhealddin; Veisi, Hadi; Abdullah, Abdulhady Abas"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.16804"
 external_pdf: "https://arxiv.org/pdf/2509.16804.pdf"

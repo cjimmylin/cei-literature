@@ -44,9 +44,14 @@ Chanjun Park is a prominent NLP researcher based in South Korea, currently servi
 
 
 
+
+
 - [[2025-Jung-FLEX|FLEX]]
 - [[2025-Kim-Cultural and Core Capability Benchmarks for|Cultural and Core Capability Benchmarks for]] (Last Author)
+- [[2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical|Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs]] (Last Author)
 - [[2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A|Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4]]
+- [[2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean|Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark]] (First Author)
+- [[2024-Park-Understanding LLM Development Through Longitudinal Study Insights|Understanding LLM Development Through Longitudinal Study: Insights from the Open Ko-LLM Leaderboard]] (First Author)
 
 ## External Links & Profiles
 - [Personal Website](https://chanjunpark.notion.site/)
@@ -62,6 +67,10 @@ Chanjun Park is a prominent NLP researcher based in South Korea, currently servi
 
 
 
+
+
+- *From 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical*: Affiliation: Labs, 3Liner, 4Korea University, Email: kian.kim@twelvelabs.io
+- *From 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical*: Affiliation: Labs, 3Liner, 4Korea University, Email: kian.kim@twelvelabs.io
 - *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 - *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 - *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai

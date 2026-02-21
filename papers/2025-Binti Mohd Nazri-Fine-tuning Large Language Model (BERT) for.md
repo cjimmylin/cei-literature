@@ -16,7 +16,7 @@ short_title: "Fine-tuning Large Language Model (BERT) for"
 year: 2025
 first_author: "[[Nurul Aiman Binti Mohd Nazri]]"
 last_author: "[[Bin Amir Hussin, Amir 'Aatieff]]"
-authors: "[[Binti Mohd Nazri, Nurul Aiman]]; [[Binti Omar, A'wathif]]; [[Bin Amir Hussin, Amir 'Aatieff]]"
+authors: "Binti Mohd Nazri, Nurul Aiman; Binti Omar, A'wathif; Bin Amir Hussin, Amir 'Aatieff"
 doi: 10.31436/ijpcc.v11i1.533
 url: "https://journals.iium.edu.my/kict/index.php/IJPCC/article/view/533"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/LSHSUEEF/Binti Mohd Nazri et al. - 2025 - Fine-tuning Large Language Model (BERT) for Islamic Moral Inquiry and Response.pdf"

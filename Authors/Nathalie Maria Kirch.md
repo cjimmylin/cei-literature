@@ -32,6 +32,8 @@ Her work was published as "Medical triage as an AI ethics benchmark" in Scientif
 
 
 
+
+
 - [[2024-Kirch-TRIAGE|TRIAGE]] (First Author)
 
 ## Notes
@@ -41,6 +43,10 @@ Her work was published as "Medical triage as an AI ethics benchmark" in Scientif
 
 
 
+
+
+- *From 2024-Kirch-TRIAGE*: Affiliation: College London
+- *From 2024-Kirch-TRIAGE*: Affiliation: College London
 - *From 2024-Kirch-TRIAGE*: Affiliation: College London
 - *From 2024-Kirch-TRIAGE*: Affiliation: College London
 - *From 2024-Kirch-TRIAGE*: Affiliation: College London

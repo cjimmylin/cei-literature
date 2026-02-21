@@ -59,9 +59,10 @@ twitter: ""
 
 
 
+
+
 - [[2024-Luu-ViTHSD Exploiting Hatred by Targets for Hate Speech Detection on|ViTHSD: Exploiting Hatred by Targets for Hate Speech Detection on Vietnamese Social Media Texts]] (Last Author)
 - [[2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese|ViHOS: Hate Speech Spans Detection for Vietnamese]] (Last Author)
-- [[2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts|Abusive Span Detection for Vietnamese Narrative Texts]] (Last Author)
 - [[2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and|SMTCE: A Social Media Text Classification Evaluation Benchmark and BERTology Models for Vietnamese]] (Last Author)
 - [[2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social|A Large-scale Dataset for Hate Speech Detection on Vietnamese Social Media Texts]] (Last Author)
 - [[2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media|Constructive and Toxic Speech Detection for Open-domain Social Media Comments in Vietnamese]] (Last Author)
@@ -94,6 +95,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
+- *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam

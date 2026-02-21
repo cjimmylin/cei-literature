@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2025-Shimizu-Should We Treat Robots Morally Towards a Relational Account by|Should We Treat Robots Morally? Towards a Relational Account by Mind-Infusing Animism]] (First Author)
 
 ## Notes

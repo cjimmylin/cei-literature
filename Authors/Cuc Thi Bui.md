@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs|VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese LLMs]] (First Author)
 - [[2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large|ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
+- *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of

@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a|Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting]]
 - [[2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh|KazMMLU Evaluating Language Models on Kazakh]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a*: Affiliation: University of Artificial Intelligence, UAE
+- *From 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a*: Affiliation: University of Artificial Intelligence, UAE
 - *From 2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh*: Affiliation: University of Artificial Intelligence
 - *From 2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh*: Affiliation: University of Artificial Intelligence
 - *From 2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh*: Affiliation: University of Artificial Intelligence

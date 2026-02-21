@@ -20,7 +20,7 @@ type: preprint
 short_title: "Detection of offensive content in the"
 year: 2025
 first_author: "[[Bolatbek, Milana]]"
-last_author: "[[Yeltay, Zhastay]]"
+last_author: "[[Zhastay Yeltay]]"
 authors: Milana Bolatbek; Moldir Sagynay; Shynar Mussiraliyeva; Zhastay Yeltay
 authors_incomplete: false
 url: "https://peerj.com/articles/cs-3027/"

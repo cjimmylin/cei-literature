@@ -21,7 +21,7 @@ short_title: "Nothing New Under the Sun The"
 year: 2023
 first_author: "[[Elrod, A. G.]]"
 last_author: "[[A. G. Elrod]]"
-authors: "[[A. G. Elrod]]"
+authors: A. G. Elrod
 authors_incomplete: false
 url: 
 external_pdf: "https://arxiv.org/pdf/1307.6941v1.pdf"

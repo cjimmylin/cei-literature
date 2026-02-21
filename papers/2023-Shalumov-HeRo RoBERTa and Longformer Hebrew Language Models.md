@@ -15,8 +15,8 @@ type: preprint
 short_title: "HeRo: RoBERTa and Longformer Hebrew Language Models"
 year: 2023
 first_author: "[[Vitaly Shalumov]]"
-last_author: "[[Harel Haskey Vitaly Shalumov]]"
-authors: "Vitaly Shalumov, Harel Haskey"
+last_author: "[[Harel Haskey]]"
+authors: Vitaly Shalumov; Harel Haskey
 url: "https://arxiv.org/abs/2304.11077"
 external_pdf: "https://arxiv.org/pdf/2304.11077.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.md"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Harel Haskey Vitaly Shalumov]]
+[[Vitaly Shalumov]], [[Harel Haskey]]
 
 ## Metadata
 

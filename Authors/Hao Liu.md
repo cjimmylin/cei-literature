@@ -29,6 +29,8 @@ Hao Liu is an Assistant Professor at the Artificial Intelligence Thrust, HKUST (
 
 
 
+
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Liu-JAILJUDGE|JAILJUDGE]] (Last Author)
 
@@ -39,6 +41,10 @@ Hao Liu is an Assistant Professor at the Artificial Intelligence Thrust, HKUST (
 
 
 
+
+
+- *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
+- *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
 - *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
 - *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
 - *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk

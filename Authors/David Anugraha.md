@@ -29,6 +29,8 @@ Anugraha's research focuses on developing resources and evaluation methods for I
 
 
 
+
+
 - [[2025-Wiyono-IndoPref|IndoPref]]
 
 ## Notes
@@ -38,6 +40,10 @@ Anugraha's research focuses on developing resources and evaluation methods for I
 
 
 
+
+
+- *From 2025-Wiyono-IndoPref*:, Email: vanessarebecca29@gmail.com
+- *From 2025-Wiyono-IndoPref*:, Email: vanessarebecca29@gmail.com
 - *From 2025-Wiyono-IndoPref*:, Email: david.anugraha@stanford.edu
 - *From 2025-Wiyono-IndoPref*:, Email: david.anugraha@stanford.edu
 - *From 2025-Wiyono-IndoPref*:, Email: vanessarebecca29@gmail.com

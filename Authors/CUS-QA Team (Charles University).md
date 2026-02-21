@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset|CUS-QA: Local-Knowledge-Oriented Open-Ended Question Answering Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset*: Affiliation: University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset - PDF Extract"
+- *From 2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset*: Affiliation: University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset - PDF Extract"
 - *From 2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset*: Affiliation: University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset - PDF Extract"
 - *From 2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset*: Affiliation: University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset - PDF Extract"
 - *From 2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset*: Affiliation: University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset - PDF Extract"

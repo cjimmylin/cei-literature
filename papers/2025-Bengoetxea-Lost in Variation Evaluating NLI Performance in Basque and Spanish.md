@@ -16,7 +16,7 @@ short_title: "Lost in Variation? Evaluating NLI Performance in Basque and Spanis
 year: 2025
 first_author: "[[Bengoetxea, Jaione]]"
 last_author: "[[Agerri, Rodrigo]]"
-authors: "[[Bengoetxea, Jaione]]; [[Gonzalez-Dios, Itziar]]; [[Agerri, Rodrigo]]"
+authors: "Bengoetxea, Jaione; Gonzalez-Dios, Itziar; Agerri, Rodrigo"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.15239"
 external_pdf: "https://arxiv.org/pdf/2506.15239.pdf"

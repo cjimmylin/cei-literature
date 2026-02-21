@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for|Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs for Latin American Contexts]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for*: Affiliation: centered approaches to amplify, Email: brigitte.morar@ug.edu.ec
+- *From 2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for*: Affiliation: centered approaches to amplify, Email: brigitte.morar@ug.edu.ec
 - *From 2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for*: Affiliation: centered approaches to amplify, Email: brigitte.morar@ug.edu.ec
 - *From 2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for*: Affiliation: centered approaches to amplify, Email: brigitte.morar@ug.edu.ec
 - *From 2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for*: Affiliation: centered approaches to amplify, Email: jadrewyo@mtu.edu

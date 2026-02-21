@@ -16,7 +16,7 @@ short_title: "Towards Multilingual LLM Evaluation for European Languages"
 year: 2024
 first_author: "[[Thellmann, Klaudia]]"
 last_author: "[[Ali, Mehdi]]"
-authors: "[[Thellmann, Klaudia]]; [[Stadler, Bernhard]]; [[Fromm, Michael]]; [[Buschhoff, Jasper Schulze]]; [[Jude, Alex]]; [[Barth, Fabio]]; [[Leveling, Johannes]]; [[Flores-Herr, Nicolas]]; [[Köhler, Joachim]]; [[Jäkel, René]]; [[Ali, Mehdi]]"
+authors: "Thellmann, Klaudia; Stadler, Bernhard; Fromm, Michael; Buschhoff, Jasper Schulze; Jude, Alex; Barth, Fabio; Leveling, Johannes; Flores-Herr, Nicolas; Köhler, Joachim; Jäkel, René; Ali, Mehdi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.08928"
 external_pdf: "https://arxiv.org/pdf/2410.08928.pdf"

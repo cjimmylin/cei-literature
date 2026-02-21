@@ -17,7 +17,7 @@ short_title: "Fair-PP: Synthetic Dataset for Aligning LLM with Personalized Pref
 year: 2025
 first_author: "[[Zhou, Qi]]"
 last_author: "[[Guo, Qing]]"
-authors: "[[Zhou, Qi]]; [[Zhang, Jie]]; [[Wang, Dongxia]]; [[Liu, Qiang]]; [[Li, Tianlin]]; [[Dong, Jin Song]]; [[Wang, Wenhai]]; [[Guo, Qing]]"
+authors: "Zhou, Qi; Zhang, Jie; Wang, Dongxia; Liu, Qiang; Li, Tianlin; Dong, Jin Song; Wang, Wenhai; Guo, Qing"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.11861"
 external_pdf: "https://arxiv.org/pdf/2505.11861.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Zhou, Qi]], [[Jie Zhang|Zhang, Jie]], [[Wang, Dongxia]], [[Liu, Qiang]], [[Li, Tianlin]], [[Dawn Song|Dong, Jin Song]], [[Wang, Wenhai]], [[Guo, Qing]]
+[[Zhou, Qi]], [[Jie Zhang|Zhang, Jie]], [[Wang, Dongxia]], [[Liu, Qiang]], [[Li, Tianlin]], [[Dong, Jin Song]], [[Wang, Wenhai]], [[Guo, Qing]]
 
 ## Metadata
 

@@ -25,6 +25,8 @@ Kanad Pardeshi is a second-year Ph.D. student in the Machine Learning Department
 
 
 
+
+
 - [[2024-Pardeshi-Learning Social Welfare Functions|Learning Social Welfare Functions]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ Kanad Pardeshi is a second-year Ph.D. student in the Machine Learning Department
 
 
 
+
+
+- *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
+- *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 - *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 - *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 - *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.

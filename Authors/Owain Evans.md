@@ -40,6 +40,8 @@ Lead author on TruthfulQA, a highly influential benchmark for measuring truthful
 
 
 
+
+
 - [[2023-Tan-How to Catch an AI Liar|How to Catch an AI Liar]]
 - [[2022-Lin-TruthfulQA|TruthfulQA]] (Last Author)
 
@@ -55,6 +57,10 @@ Lead author on TruthfulQA, a highly influential benchmark for measuring truthful
 
 
 
+
+
+- *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: jhilton@openai.com
+- *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: jhilton@openai.com
 - *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com
 - *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com
 - *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com

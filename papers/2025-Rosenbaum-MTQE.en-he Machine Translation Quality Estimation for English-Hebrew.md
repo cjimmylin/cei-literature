@@ -16,7 +16,7 @@ short_title: "MTQE.en-he: Machine Translation Quality Estimation for English-Heb
 year: 2025
 first_author: "[[Rosenbaum, Andy]]"
 last_author: "[[Kernerman, Ilan]]"
-authors: "[[Rosenbaum, Andy]]; [[Siani, Assaf]]; [[Kernerman, Ilan]]"
+authors: "Rosenbaum, Andy; Siani, Assaf; Kernerman, Ilan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.06546"
 external_pdf: "https://arxiv.org/pdf/2602.06546.pdf"

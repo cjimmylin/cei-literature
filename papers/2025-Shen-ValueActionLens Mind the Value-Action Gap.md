@@ -16,7 +16,7 @@ short_title: "ValueActionLens (Mind the Value-Action Gap)"
 year: 2025
 first_author: "[[Hua Shen]]"
 last_author: "[[Tanushree Mitra]]"
-authors: "Hua Shen, Nicholas Clark, Tanushree Mitra"
+authors: Hua Shen; Nicholas Clark; Tanushree Mitra
 url: "https://arxiv.org/abs/2501.15463"
 external_pdf: "https://arxiv.org/pdf/2501.15463.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shen-ValueActionLens Mind the Value-Action Gap.md"

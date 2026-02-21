@@ -17,7 +17,7 @@ short_title: "Towards Fairness Assessment of Dutch Hate Speech Detection"
 year: 2025
 first_author: "[[Julie Bauer]]"
 last_author: "[[Adriana Iamnitchi]]"
-authors: "[[Julie Bauer]]; [[Rishabh Kaushal]]; [[Thales Bertaglia]]; [[Adriana Iamnitchi]]"
+authors: Julie Bauer; Rishabh Kaushal; Thales Bertaglia; Adriana Iamnitchi
 url: "https://arxiv.org/abs/2506.12502"
 external_pdf: "https://arxiv.org/pdf/2506.12502.pdf"
 publication: arXiv

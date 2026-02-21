@@ -18,7 +18,7 @@ short_title: "Cross-Lingual Transfer of Debiasing and Detoxification in Multilin
 year: 2025
 first_author: "[[Neplenbroek, Vera]]"
 last_author: "[[Fernández, Raquel]]"
-authors: "[[Neplenbroek, Vera]]; [[Bisazza, Arianna]]; [[Fernández, Raquel]]"
+authors: "Neplenbroek, Vera; Bisazza, Arianna; Fernández, Raquel"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.14050"
 external_pdf: "https://arxiv.org/pdf/2412.14050.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Neplenbroek, Vera]], [[Bisazza, Arianna]], [[Raquel Fernández|Fernández, Raquel]]
+[[Neplenbroek, Vera]], [[Bisazza, Arianna]], [[Fernández, Raquel]]
 
 ## Metadata
 

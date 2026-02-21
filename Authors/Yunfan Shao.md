@@ -25,6 +25,8 @@ Yunfan Shao is a researcher at Fudan University's School of Computer Science and
 
 
 
+
+
 - [[2023-Shao-Character-LLM A Trainable Agent for Role-Playing|Character-LLM: A Trainable Agent for Role-Playing]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ Yunfan Shao is a researcher at Fudan University's School of Computer Science and
 
 
 
+
+
+- *From 2023-Shao-Character-LLM A Trainable Agent for Role-Playing*: Affiliation: School of Computer Science, Fudan University
+- *From 2023-Shao-Character-LLM A Trainable Agent for Role-Playing*: Affiliation: School of Computer Science, Fudan University
 - *From 2023-Shao-Character-LLM A Trainable Agent for Role-Playing*: Affiliation: School of Computer Science, Fudan University
 - *From 2023-Shao-Character-LLM A Trainable Agent for Role-Playing*: Affiliation: School of Computer Science, Fudan University
 - *From 2023-Shao-Character-LLM A Trainable Agent for Role-Playing*: Affiliation: School of Computer Science, Fudan University

@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yu-MSLR-Bench Multi-Step Legal Reasoning|MSLR-Bench (Multi-Step Legal Reasoning)]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Yu-MSLR-Bench Multi-Step Legal Reasoning*: Affiliation: School of Artificial Intelligence, Beihang University, Beijing, China, Email: lanxin.ni.law@gmail.com
+- *From 2025-Yu-MSLR-Bench Multi-Step Legal Reasoning*: Affiliation: School of Artificial Intelligence, Beihang University, Beijing, China, Email: lanxin.ni.law@gmail.com
 - *From 2025-Yu-MSLR-Bench Multi-Step Legal Reasoning*: Affiliation: School of Artificial Intelligence, Beihang University, Beijing, China, Email: lanxin.ni.law@gmail.com
 - *From 2025-Yu-MSLR-Bench Multi-Step Legal Reasoning*: Affiliation: School of Artificial Intelligence, Beihang University, Beijing, China, Email: lanxin.ni.law@gmail.com
 - *From 2025-Yu-MSLR-Bench Multi-Step Legal Reasoning*: Affiliation: School of Artificial Intelligence, Beihang University, Beijing, China, Email: lanxin.ni.law@gmail.com

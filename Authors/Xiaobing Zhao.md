@@ -3,7 +3,7 @@ name: "Xiaobing Zhao"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "School of Information Engineering, Minzu University of China, Beijing 100081, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "chenbomuc@muc.edu.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -59,7 +59,10 @@ twitter: ""
 
 
 
+
+
 - [[2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language|Adversarial Alignment: Ensuring Value Consistency in Large Language Models for Sensitive Domains]] (Last Author)
+- [[2025-Zhao-WenyanGPT A Large Language Model for|WenyanGPT A Large Language Model for]] (Last Author)
 
 ## External Links & Profiles
 
@@ -89,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zhao-WenyanGPT A Large Language Model for*: Affiliation: University of China, Email: chenbomuc@muc.edu.cn
+- *From 2025-Zhao-WenyanGPT A Large Language Model for*: Affiliation: University of China, Email: chenbomuc@muc.edu.cn
 - *From 2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language*: Affiliation: School of Information Engineering, Minzu University of China, Beijing 100081, China
 - *From 2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language*: Affiliation: School of Information Engineering, Minzu University of China, Beijing 100081, China
 - *From 2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language*: Affiliation: School of Information Engineering, Minzu University of China, Beijing 100081, China

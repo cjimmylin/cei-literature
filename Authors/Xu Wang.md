@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese|LiveSecBench -- A Dynamic Event-Driven Safety Benchmark for Chinese LLMs]]
 - [[2023-Chang-A Survey on Evaluation of Large Language Models|A Survey on Evaluation of Large Language Models]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications
+- *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications
 - *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications
 - *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications
 - *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications

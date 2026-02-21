@@ -15,7 +15,7 @@ key: EXSR0273
 type: preprint
 short_title: "OvertonScore: Benchmarking Overton Pluralism in LLMs"
 year: 2025
-first_author: "[[E. Poole-Dayan]]"
+first_author: "[[Elinor Poole-Dayan]]"
 last_author: "[[Michiel A. Bakker]]"
 authors: "Elinor Poole-Dayan; Jiayi Wu; Taylor Sorensen; Jiaxin Pei; Michiel A. Bakker"
 url: "https://arxiv.org/abs/2512.01351"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Elinor Poole-Dayan]], [[Jiayi Wu]], [[Taylor Sorensen]], [[Jian Pei|Jiaxin Pei]], [[Michiel Bakker|Michiel A. Bakker]]
+[[Elinor Poole-Dayan]], [[Jiayi Wu]], [[Taylor Sorensen]], [[Jiaxin Pei]], [[Michiel A. Bakker]]
 
 ## Metadata
 

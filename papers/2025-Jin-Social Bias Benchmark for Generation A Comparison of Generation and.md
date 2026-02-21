@@ -16,8 +16,8 @@ type: preprint
 short_title: "Social Bias Benchmark for Generation: A Comparison of Generation and QA-Based Evaluations"
 year: 2025
 first_author: "[[Jiho Jin]]"
-last_author: "[[Alice Oh Nayeon Lee]]"
-authors: "Jiho Jin, Jiseon Kim, Nayeon Lee, Alice Oh"
+last_author: "[[Alice Oh]]"
+authors: Jiho Jin; Jiseon Kim; Nayeon Lee; Alice Oh
 doi: 10.18653/v1/2025.findings-acl.585
 url: "https://arxiv.org/abs/2503.06987"
 external_pdf: "https://arxiv.org/pdf/2503.06987.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Jing Jin|Jiseon Kim Jiho Jin]], [[A. Lee|Alice Oh Nayeon Lee]]
+[[Jiho Jin]], [[Jiseon Kim]], [[Nayeon Lee]], [[Alice Oh]]
 
 ## Metadata
 

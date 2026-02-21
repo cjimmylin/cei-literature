@@ -1,9 +1,9 @@
 ---
 name: "Mehwish Nasim"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Computing, Macquarie University, Australia"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "usman.naseem@mq.edu.au"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -56,6 +56,9 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
+- [[2026-Nadeem-Bias Beyond Borders|Bias Beyond Borders]]
 - [[2023-Thapa-NEHATE Large-Scale Annotated Data Shedding Light|NEHATE Large-Scale Annotated Data Shedding Light]] (Last Author)
 
 ## External Links & Profiles
@@ -82,6 +85,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2026-Nadeem-Bias Beyond Borders*: Affiliation: School of Computing, Macquarie University, Australia, Email: usman.naseem@mq.edu.au
+- *From 2026-Nadeem-Bias Beyond Borders*: Affiliation: School of Computing, Macquarie University, Australia, Email: usman.naseem@mq.edu.au
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

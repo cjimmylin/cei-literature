@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Samirit Saha|Saha]]
+[[Saha]]
 
 ## Metadata
 

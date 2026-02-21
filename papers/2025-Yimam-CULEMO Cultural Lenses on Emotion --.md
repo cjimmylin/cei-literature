@@ -16,9 +16,9 @@ key: EXSR0341
 type: preprint
 short_title: "CULEMO Cultural Lenses on Emotion --"
 year: 2025
-first_author: "[[Tadesse Destaw Belay, Ahmed Haj Ahmed, Alvin Grissom II, Iqra Ameer, Grigori Sidorov, Olga Kolesnikova, Seid Muhie Yimam]]"
+first_author: "[[Tadesse Destaw Belay]]"
 last_author: "[[Seid Muhie Yimam]]"
-authors: "[[Tadesse Destaw Belay, Ahmed Haj Ahmed, Alvin Grissom II, Iqra Ameer, Grigori Sidorov, Olga Kolesnikova, Seid Muhie Yimam]]"
+authors: Tadesse Destaw Belay; Ahmed Haj Ahmed; Alvin Grissom II; Iqra Ameer; Grigori Sidorov; Olga Kolesnikova; Seid Muhie Yimam
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.10688"
 external_pdf: "https://arxiv.org/pdf/2503.10688.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Tadesse Belay|Tadesse Destaw Belay]], [[Ahmed Haj Ahmed]], [[Alvin Grissom II]], [[Iqra Ameer]], [[Grigori Sidorov]], [[Olga Kolesnikova]], [[Seid Muhie Yimam]]
+[[Tadesse Destaw Belay]], [[Ahmed Haj Ahmed]], [[Alvin Grissom II]], [[Iqra Ameer]], [[Grigori Sidorov]], [[Olga Kolesnikova]], [[Seid Muhie Yimam]]
 
 ## Metadata
 

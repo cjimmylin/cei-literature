@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Imam Muhammad bin Saud University Team|IMSyPP Project Team]]
+[[IMSyPP Project Team]]
 
 ## Metadata
 

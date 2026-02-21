@@ -17,7 +17,7 @@ short_title: "Analysis of LLM Bias (Chinese Propaganda & Anti-US Sentiment) in D
 year: 2025
 first_author: "[[Huang, PeiHsuan]]"
 last_author: "[[Tu, Ethan]]"
-authors: "[[Huang, PeiHsuan]]; [[Lin, ZihWei]]; [[Imbot, Simon]]; [[Fu, WenCheng]]; [[Tu, Ethan]]"
+authors: "Huang, PeiHsuan; Lin, ZihWei; Imbot, Simon; Fu, WenCheng; Tu, Ethan"
 authors_incomplete: false
 url: "https://arxiv.org/html/2506.01814v1"
 external_pdf: "https://arxiv.org/pdf/2506.01814.pdf"

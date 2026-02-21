@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented|CultureSynth: A Hierarchical Taxonomy-Guided and Retrieval-Augmented Framework for Cultural Question-Answer Synthesis]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented*: Affiliation: Lab, Alibaba Group Inc
+- *From 2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented*: Affiliation: Lab, Alibaba Group Inc
 - *From 2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented*: Affiliation: Lab, Alibaba Group Inc
 - *From 2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented*: Affiliation: Lab, Alibaba Group Inc
 - *From 2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented*: Affiliation: Lab, Alibaba Group Inc

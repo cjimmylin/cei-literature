@@ -17,9 +17,9 @@ key: EXSR0279
 type: journalArticle
 short_title: "Moral Association Graph: Cognitive Model for Interpretable Moral Inference"
 year: 2024
-first_author: "[[A. & Xu Ramezani]]"
+first_author: "[[Ramezani]]"
 last_author: "[[Y.]]"
-authors: "Ramezani, A. & Xu, Y."
+authors: "Ramezani; A. & Xu; Y."
 doi: 10.1111/tops.12774
 url: "https://doi.org/10.1111/tops.12774"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11637772&blobtype=pdf"

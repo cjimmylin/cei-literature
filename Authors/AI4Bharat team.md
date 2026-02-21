@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-team-Indic-Bias A Comprehensive Benchmark for Fairness|Indic-Bias A Comprehensive Benchmark for Fairness]] (First Author)
 - [[2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate|Indic-Bias A Comprehensive Benchmark to Evaluate]] (First Author)
 - [[2024-team-IndicLLMSuite A Blueprint for Creating Pre-training|IndicLLMSuite A Blueprint for Creating Pre-training]] (First Author)
@@ -90,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and*: Affiliation: Centre for Data Science and AI, IIT Madras1,6,7, Microsoft India2, AI4Bharat3,4,5, Email: gokulnc@ai4bharat.org4
+- *From 2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and*: Affiliation: Centre for Data Science and AI, IIT Madras1,6,7, Microsoft India2, AI4Bharat3,4,5, Email: gokulnc@ai4bharat.org4
 - *From 2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and*: Affiliation: Centre for Data Science and AI, IIT Madras1,6,7, Microsoft India2, AI4Bharat3,4,5, Email: ankunchu@microsoft.com2
 - *From 2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and*: Affiliation: Centre for Data Science and AI, IIT Madras1,6,7, Microsoft India2, AI4Bharat3,4,5, Email: ankunchu@microsoft.com2
 - *From 2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and*: Affiliation: Centre for Data Science and AI, IIT Madras1,6,7, Microsoft India2, AI4Bharat3,4,5, Email: ankunchu@microsoft.com2

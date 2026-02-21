@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
+- *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Trepczynski-AI as a Rational Theologian A|AI as a Rational Theologian A]] (First Author)
 - [[2023-Trepczynski-Religion Theology and Philosophical Skills of|Religion Theology and Philosophical Skills of]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Trepczynski-Religion Theology and Philosophical Skills of*: Affiliation: Faculty of Philosophy, University of Warsaw, Email: m.trepczynski@uw.edu.pl
+- *From 2023-Trepczynski-Religion Theology and Philosophical Skills of*: Affiliation: Faculty of Philosophy, University of Warsaw, Email: m.trepczynski@uw.edu.pl
 - *From 2023-Trepczynski-Religion Theology and Philosophical Skills of*: Affiliation: Faculty of Philosophy, University of Warsaw, Email: m.trepczynski@uw.edu.pl
 - *From 2023-Trepczynski-Religion Theology and Philosophical Skills of*: Affiliation: Faculty of Philosophy, University of Warsaw, Email: m.trepczynski@uw.edu.pl
 - *From 2023-Trepczynski-Religion Theology and Philosophical Skills of*: Affiliation: Faculty of Philosophy, University of Warsaw, Email: m.trepczynski@uw.edu.pl

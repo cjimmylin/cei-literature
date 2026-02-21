@@ -17,7 +17,7 @@ short_title: "DIWALI: Diversity and Inclusivity aWare cuLture specific Items for
 year: 2025
 first_author: "[[Sahoo, Pramit]]"
 last_author: "[[Desarkar, Maunendra Sankar]]"
-authors: "[[Sahoo, Pramit]]; [[Brahma, Maharaj]]; [[Desarkar, Maunendra Sankar]]"
+authors: "Sahoo, Pramit; Brahma, Maharaj; Desarkar, Maunendra Sankar"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.17399"
 external_pdf: "https://arxiv.org/pdf/2509.17399.pdf"

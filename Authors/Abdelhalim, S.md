@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Abdelhalim-Full article Artificial intelligence tools and literary translation a|Full article: Artificial intelligence tools and literary translation: a comparative investigation of ChatGPT and Google Translate from novice and advanced EFL student translators' perspectives]] (First Author)
 
 ## External Links & Profiles

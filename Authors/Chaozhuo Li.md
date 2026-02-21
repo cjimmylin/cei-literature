@@ -37,6 +37,8 @@ Dr. Chaozhuo Li is a researcher who received his Ph.D. in Engineering from Beiha
 
 
 
+
+
 - [[2025-Liu-The Scales of Justitia|The Scales of Justitia]]
 
 ## External Links & Profiles
@@ -50,6 +52,10 @@ Dr. Chaozhuo Li is a researcher who received his Ph.D. in Engineering from Beiha
 
 
 
+
+
+- *From 2025-Liu-The Scales of Justitia*: Affiliation: School of Cyberspace Security, Bei-, Email: liusyang@bupt.edu.cn
+- *From 2025-Liu-The Scales of Justitia*: Affiliation: School of Cyberspace Security, Bei-, Email: liusyang@bupt.edu.cn
 - *From 2025-Liu-The Scales of Justitia*: Affiliation: School of Cyberspace Security, Bei-, Email: liusyang@bupt.edu.cn
 - *From 2025-Liu-The Scales of Justitia*: Affiliation: School of Cyberspace Security, Bei-, Email: liusyang@bupt.edu.cn
 - *From 2025-Liu-The Scales of Justitia*: Affiliation: School of Cyberspace Security, Bei-, Email: liusyang@bupt.edu.cn

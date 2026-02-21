@@ -15,7 +15,7 @@ short_title: "GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluating Lan
 year: 2026
 first_author: "[[Yang Zhang]]"
 last_author: "[[Michalis Vazirgiannis]]"
-authors: "Yang Zhang, Mersin Konomi, Christos Xypolopoulos, Konstantinos Divriotis, Konstantinos Skianis, Giannis Nikolentzos, Giorgos Stamou, Guokan Shang, Michalis Vazirgiannis"
+authors: Yang Zhang; Mersin Konomi; Christos Xypolopoulos; Konstantinos Divriotis; Konstantinos Skianis; Giannis Nikolentzos; Giorgos Stamou; Guokan Shang; Michalis Vazirgiannis
 url: "https://arxiv.org/abs/2602.05150"
 external_pdf: "https://arxiv.org/pdf/2602.05150.pdf"
 publication: arXiv

@@ -18,7 +18,7 @@ short_title: "Multilingual Multicultural Evaluating Gaps Between Multilingual"
 year: 2025
 first_author: "[[Rystrøm, Jonathan]]"
 last_author: "[[Scott Hale]]"
-authors: "[[Jonathan Rystrøm]]; [[Hannah Rose Kirk]]; [[Scott Hale]]"
+authors: Jonathan Rystrøm; Hannah Rose Kirk; Scott Hale
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.16534"
 external_pdf: "https://arxiv.org/pdf/2502.16534.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Jonathan H. Rystrøm|Jonathan Rystrøm]], [[Hannah Rose Kirk]], [[Scott A. Hale|Scott Hale]]
+[[Jonathan Rystrøm]], [[Hannah Rose Kirk]], [[Scott Hale]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to|Indic-QA Benchmark A Multilingual Benchmark to]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
+- *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
 - *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
 - *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
 - *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India

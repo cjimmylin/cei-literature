@@ -16,9 +16,9 @@ key: ARXIV_2507_19672
 type: preprint
 short_title: "Alignment and Safety in LLMs Survey"
 year: 2025
-first_author: "[[Tianhao Shen]]"
-last_author: "[[Yufei Huang]]"
-authors: "[[Shen, Tianhao]], [[Jin, Renren]], [[Huang, Yufei]]"
+first_author: "[[Shen]]"
+last_author: "[[Yufei]]"
+authors: Shen; Tianhao; Jin; Renren; Huang; Yufei
 doi: 10.48550/arXiv.2507.19672
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2507.19672"
@@ -56,7 +56,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Tianhao Shen]], [[Renren Jin]], [[Yufei Huang]]
+[[Shen]], [[Tianhao]], [[Jin]], [[Renren]], [[Huang]], [[Yufei]]
 
 ## Links
 

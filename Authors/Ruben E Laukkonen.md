@@ -25,6 +25,8 @@ Director of the Flourishing Intelligence Program (FLIP) at University of Oxford 
 
 
 
+
+
 - [[2025-Laukkonen-Contemplative Artificial Intelligence|Contemplative Artificial Intelligence]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ Director of the Flourishing Intelligence Program (FLIP) at University of Oxford 
 
 
 
+
+
+- *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia
+- *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia
 - *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia
 - *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia
 - *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia

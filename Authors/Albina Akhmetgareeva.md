@@ -37,6 +37,8 @@ Albina is a core contributor to the MERA (Multimodal Evaluation for Russian) ben
 
 
 
+
+
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
 - [[2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding|TAPE: Assessing Few-shot Russian Language Understanding]]
 
@@ -46,6 +48,10 @@ Albina is a core contributor to the MERA (Multimodal Evaluation for Russian) ben
 
 
 
+
+
+- *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
+- *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 - *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 - *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 - *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com

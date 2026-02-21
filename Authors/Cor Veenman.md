@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Steen-Ethical aspects of ChatGPT|Ethical aspects of ChatGPT]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Steen-Ethical aspects of ChatGPT*:, Email: marc.steen@tno.nl
+- *From 2025-Steen-Ethical aspects of ChatGPT*:, Email: marc.steen@tno.nl
 - *From 2025-Steen-Ethical aspects of ChatGPT*:, Email: marc.steen@tno.nl
 - *From 2025-Steen-Ethical aspects of ChatGPT*:, Email: marc.steen@tno.nl
 - *From 2025-Steen-Ethical aspects of ChatGPT*:, Email: marc.steen@tno.nl

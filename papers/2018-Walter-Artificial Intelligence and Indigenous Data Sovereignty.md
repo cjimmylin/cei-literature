@@ -16,7 +16,7 @@ short_title: Artificial Intelligence and Indigenous Data Sovereignty
 year: 2018
 first_author: "[[Maggie Walter]]"
 last_author: "[[Tahu Kukutai]]"
-authors: Maggie Walter, Tahu Kukutai
+authors: Maggie Walter; Tahu Kukutai
 url: "https://acola.org/wp-content/uploads/2019/07/acola-ai-input-paper_indigenous-data-sovereignty_walter-kukutai.pdf"
 publication: Australian Council of Learned Academies (ACOLA)
 CONF-CC: "N/A"
@@ -50,7 +50,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Maggie Walter, Tahu Kukutai]]
+[[Maggie Walter]], [[Tahu Kukutai]]
 
 ## Metadata
 

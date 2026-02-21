@@ -15,8 +15,8 @@ type: preprint
 short_title: Commonsense Reasoning in Arab Culture
 year: 2025
 first_author: "[[Abdelrahman Sadallah]]"
-last_author: "[[Fajri Koto Yaser Alesh]]"
-authors: Abdelrahman Sadallah, Junior Cedric Tonga, Khalid Almubarak, Saeed Almheiri, Farah Atif, Chatrine Qwaider, Karima Kadaoui, Sara Shatnawi, Yaser Alesh, Fajri Koto
+last_author: "[[Fajri Koto]]"
+authors: Abdelrahman Sadallah; Junior Cedric Tonga; Khalid Almubarak; Saeed Almheiri; Farah Atif; Chatrine Qwaider; Karima Kadaoui; Sara Shatnawi; Yaser Alesh; Fajri Koto
 doi: 10.48550/arXiv.2502.12788
 url: "https://arxiv.org/abs/2502.12788"
 external_pdf: "https://arxiv.org/pdf/2502.12788.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Junior Cedric Tonga Abdelrahman Sadallah]], [[Saeed Almheiri Khalid Almubarak]], [[Chatrine Qwaider Farah Atif]], [[Sara Shatnawi Karima Kadaoui]], [[Fajri Koto Yaser Alesh]]
+[[Abdelrahman Sadallah]], [[Junior Cedric Tonga]], [[Khalid Almubarak]], [[Saeed Almheiri]], [[Farah Atif]], [[Chatrine Qwaider]], [[Karima Kadaoui]], [[Sara Shatnawi]], [[Yaser Alesh]], [[Fajri Koto]]
 
 ## Metadata
 

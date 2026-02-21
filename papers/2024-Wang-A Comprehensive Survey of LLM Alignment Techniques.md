@@ -81,7 +81,7 @@ With advancements in self-supervised learning, the availability of trillions tok
 
 ## Authors
 
-[[Zhichao Wang]], [[Bin Bi]], [[Shiva Kumar Pentyala]], [[Kiran Ramnath]], [[Sougata Chaudhuri]], [[Shubham Mehrotra]], [[Zhu|Zixu Zhu]], [[Xiang-Bo Mao]], [[Sitaram Asur]], [[Na Cheng]]
+[[Zhichao Wang]], [[Bin Bi]], [[Shiva Kumar Pentyala]], [[Kiran Ramnath]], [[Sougata Chaudhuri]], [[Shubham Mehrotra]], [[Zixu Zhu]], [[Xiang-Bo Mao]], [[Sitaram Asur]], [[Na Cheng]]
 
 ## Data Description
 

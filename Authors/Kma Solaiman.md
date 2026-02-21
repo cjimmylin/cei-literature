@@ -25,6 +25,8 @@ KMA Solaiman (Khaled "KMA" Solaiman) is an Assistant Teaching Professor in the D
 
 
 
+
+
 - [[2025-Solaiman-BiasLab|BiasLab]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ KMA Solaiman (Khaled "KMA" Solaiman) is an Assistant Teaching Professor in the D
 
 
 
+
+
+- *From 2025-Solaiman-BiasLab*: Affiliation: Lab - PDF Extract"\nsource_pdf: "2025-Solaiman-BiasLab, Email: ksolaima@umbc.edu
+- *From 2025-Solaiman-BiasLab*: Affiliation: Lab - PDF Extract"\nsource_pdf: "2025-Solaiman-BiasLab, Email: ksolaima@umbc.edu
 - *From 2025-Solaiman-BiasLab*: Affiliation: Lab - PDF Extract"\nsource_pdf: "2025-Solaiman-BiasLab, Email: ksolaima@umbc.edu
 - *From 2025-Solaiman-BiasLab*: Affiliation: Lab - PDF Extract"\nsource_pdf: "2025-Solaiman-BiasLab, Email: ksolaima@umbc.edu
 - *From 2025-Solaiman-BiasLab*: Affiliation: Lab - PDF Extract"\nsource_pdf: "2025-Solaiman-BiasLab, Email: ksolaima@umbc.edu

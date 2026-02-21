@@ -16,7 +16,7 @@ short_title: "taz2024full: Analysing German Newspapers for Gender Bias and Discr
 year: 2025
 first_author: "[[Urchs, Stefanie]]"
 last_author: "[[Thiemichen, Stephanie]]"
-authors: "[[Urchs, Stefanie]]; [[Thurner, Veronika]]; [[Aßenmacher, Matthias]]; [[Heumann, Christian]]; [[Thiemichen, Stephanie]]"
+authors: "Urchs, Stefanie; Thurner, Veronika; Aßenmacher, Matthias; Heumann, Christian; Thiemichen, Stephanie"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.05388"
 external_pdf: "https://arxiv.org/pdf/2506.05388.pdf"

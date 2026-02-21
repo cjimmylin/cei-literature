@@ -16,7 +16,7 @@ short_title: "Filipino Benchmarks for Measuring Sexist and Homophobic Bias in Mu
 year: 2025
 first_author: "[[Gamboa, Lance Calvin Lim]]"
 last_author: "[[Lee, Mark]]"
-authors: "[[Gamboa, Lance Calvin Lim]]; [[Lee, Mark]]"
+authors: "Gamboa, Lance Calvin Lim; Lee, Mark"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.07303"
 external_pdf: "https://arxiv.org/pdf/2412.07303.pdf"

@@ -17,7 +17,7 @@ short_title: "Neural Machine Translation for the Indigenous Languages of the Ame
 year: 2023
 first_author: "[[Mager, Manuel]]"
 last_author: "[[Kann, Katharina]]"
-authors: "[[Mager, Manuel]]; [[Bhatnagar, Rajat]]; [[Neubig, Graham]]; [[Vu, Ngoc Thang]]; [[Kann, Katharina]]"
+authors: "Mager, Manuel; Bhatnagar, Rajat; Neubig, Graham; Vu, Ngoc Thang; Kann, Katharina"
 authors_incomplete: false
 url: "https://arxiv.org/html/2306.06804"
 external_pdf: "https://arxiv.org/pdf/2306.06804.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Manuel Mager|Mager, Manuel]], [[Bhatnagar, Rajat]], [[Graham Neubig|Neubig, Graham]], [[Ngoc Thang Vu|Vu, Ngoc Thang]], [[Katharina Kann|Kann, Katharina]]
+[[Mager, Manuel]], [[Bhatnagar, Rajat]], [[Graham Neubig|Neubig, Graham]], [[Ngoc Thang Vu|Vu, Ngoc Thang]], [[Kann, Katharina]]
 
 ## Metadata
 

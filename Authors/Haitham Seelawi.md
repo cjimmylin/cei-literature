@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Röttger-Multilingual HateCheck|Multilingual HateCheck]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Röttger-Multilingual HateCheck*: Affiliation: University of Oxford
+- *From 2022-Röttger-Multilingual HateCheck*: Affiliation: University of Oxford
 - *From 2022-Röttger-Multilingual HateCheck*: Affiliation: University of Oxford
 - *From 2022-Röttger-Multilingual HateCheck*: Affiliation: University of Oxford
 - *From 2022-Röttger-Multilingual HateCheck*: Affiliation: University of Oxford

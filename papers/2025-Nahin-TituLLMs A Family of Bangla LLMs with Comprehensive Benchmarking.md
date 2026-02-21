@@ -17,7 +17,7 @@ short_title: "TituLLMs: A Family of Bangla LLMs with Comprehensive Benchmarking"
 year: 2025
 first_author: "[[Nahin, Shahriar Kabir]]"
 last_author: "[[Alam, Firoj]]"
-authors: "[[Nahin, Shahriar Kabir]]; [[Nandi, Rabindra Nath]]; [[Sarker, Sagor]]; [[Muhtaseem, Quazi Sarwar]]; [[Kowsher, Md]]; [[Shill, Apu Chandraw]]; [[Ibrahim, Md]]; [[Menon, Mehadi Hasan]]; [[Al Muntasir, Tareq]]; [[Alam, Firoj]]"
+authors: "Nahin, Shahriar Kabir; Nandi, Rabindra Nath; Sarker, Sagor; Muhtaseem, Quazi Sarwar; Kowsher, Md; Shill, Apu Chandraw; Ibrahim, Md; Menon, Mehadi Hasan; Al Muntasir, Tareq; Alam, Firoj"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.11187"
 external_pdf: "https://arxiv.org/pdf/2502.11187.pdf"

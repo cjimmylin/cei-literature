@@ -18,7 +18,7 @@ short_title: "NitiBench A Comprehensive Study of LLM"
 year: 2025
 first_author: "[[Akarajaradwong, Pawitsapak]]"
 last_author: "[[Nutanong, Sarana]]"
-authors: "[[Akarajaradwong, Pawitsapak]]; [[Pothavorn, Pirat]]; [[Chaksangchaichot, Chompakorn]]; [[Tasawong, Panuthep]]; [[Nopparatbundit, Thitiwat]]; [[Pratai, Keerakiat]]; [[Nutanong, Sarana]]"
+authors: "Akarajaradwong, Pawitsapak; Pothavorn, Pirat; Chaksangchaichot, Chompakorn; Tasawong, Panuthep; Nopparatbundit, Thitiwat; Pratai, Keerakiat; Nutanong, Sarana"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.10868"
 external_pdf: "https://arxiv.org/pdf/2502.10868.pdf"

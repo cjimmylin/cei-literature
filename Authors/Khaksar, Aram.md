@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence|Shifting from Endangerment to Rebirth in the Artificial Intelligence Age: An Ensemble Machine Learning Approach for Hawrami Text Classification]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence*: Affiliation: University of Kurdistan Hewlêr, Iraq
+- *From 2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence*: Affiliation: University of Kurdistan Hewlêr, Iraq
 - *From 2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence*: Affiliation: University of Kurdistan Hewlêr, Iraq
 - *From 2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence*: Affiliation: University of Kurdistan Hewlêr, Iraq
 - *From 2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence*: Affiliation: University of Kurdistan Hewlêr, Iraq

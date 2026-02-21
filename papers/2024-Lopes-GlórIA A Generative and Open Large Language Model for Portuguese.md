@@ -16,7 +16,7 @@ short_title: "GlórIA: A Generative and Open Large Language Model for Portuguese
 year: 2024
 first_author: "[[Ricardo Lopes]]"
 last_author: "[[David Semedo]]"
-authors: "Ricardo Lopes, João Magalhães, David Semedo"
+authors: Ricardo Lopes; João Magalhães; David Semedo
 url: "https://arxiv.org/abs/2402.12969"
 external_pdf: "https://arxiv.org/pdf/2402.12969.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese.md"

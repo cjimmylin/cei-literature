@@ -17,9 +17,9 @@ key: EXSR0347
 type: preprint
 short_title: "Comparative Analysis of Religious Texts NLP"
 year: 2025
-first_author: "[[Mahit Nandan A D, Ishan Godbole, Pranav M Kapparad, Shrutilipi Bhattacharjee]]"
-last_author: "[[Shrutilipi Bhattacharjee Pranav M Kapparad]]"
-authors: "[[Mahit Nandan A D, Ishan Godbole, Pranav M Kapparad, Shrutilipi Bhattacharjee]]"
+first_author: "[[Mahit Nandan A D]]"
+last_author: "[[Shrutilipi Bhattacharjee]]"
+authors: Mahit Nandan A D; Ishan Godbole; Pranav M Kapparad; Shrutilipi Bhattacharjee
 authors_incomplete: false
 url: 
 external_pdf: 
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Ishan Godbole Mahit Nandan A D]], [[Shrutilipi Bhattacharjee Pranav M Kapparad]]
+[[Mahit Nandan A D]], [[Ishan Godbole]], [[Pranav M Kapparad]], [[Shrutilipi Bhattacharjee]]
 
 ## Metadata
 

@@ -16,7 +16,7 @@ short_title: "No Shortcuts to Culture: Indonesian Multi-hop Question Answering f
 year: 2026
 first_author: "[[Permadi, Vynska Amalia]]"
 last_author: "[[Aletras, Nikos]]"
-authors: "[[Permadi, Vynska Amalia]]; [[Tan, Xingwei]]; [[Moosavi, Nafise Sadat]]; [[Aletras, Nikos]]"
+authors: "Permadi, Vynska Amalia; Tan, Xingwei; Moosavi, Nafise Sadat; Aletras, Nikos"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.03709"
 external_pdf: "https://arxiv.org/pdf/2602.03709.pdf"

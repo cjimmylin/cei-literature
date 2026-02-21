@@ -15,8 +15,8 @@ type: preprint
 short_title: "K-HATERS: A Hate Speech Detection Corpus in Korean with Target-Specific Ratings"
 year: 2023
 first_author: "[[Chaewon Park]]"
-last_author: "[[Kunwoo Park Kyubyong Park]]"
-authors: "Chaewon Park, Soohwan Kim, Kyubyong Park, Kunwoo Park"
+last_author: "[[Kunwoo Park]]"
+authors: Chaewon Park; Soohwan Kim; Kyubyong Park; Kunwoo Park
 doi: 10.18653/v1/2023.findings-emnlp.952
 url: "https://arxiv.org/abs/2310.15439"
 external_pdf: "https://arxiv.org/pdf/2310.15439.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "EMNLP 2023"
 
 ## Authors
 
-[[Soohwan Kim Chaewon Park]], [[Kunwoo Park Kyubyong Park]]
+[[Chaewon Park]], [[Soohwan Kim]], [[Kyubyong Park]], [[Kunwoo Park]]
 
 ## Metadata
 

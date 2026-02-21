@@ -17,7 +17,7 @@ short_title: "Vikhr: The Family of Open-Source Instruction-Tuned Large Language 
 year: 2024
 first_author: "[[Nikolich, Aleksandr]]"
 last_author: "[[Shelmanov, Artem]]"
-authors: "[[Nikolich, Aleksandr]]; [[Korolev, Konstantin]]; [[Bratchikov, Sergei]]; [[Kiselev, Igor]]; [[Shelmanov, Artem]]"
+authors: "Nikolich, Aleksandr; Korolev, Konstantin; Bratchikov, Sergei; Kiselev, Igor; Shelmanov, Artem"
 authors_incomplete: false
 doi: 10.18653/v1/2024.mrl-1.15
 url: "https://arxiv.org/abs/2405.13929"

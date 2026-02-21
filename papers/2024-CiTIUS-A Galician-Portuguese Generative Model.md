@@ -17,8 +17,8 @@ type: conferencePaper
 short_title: "A Galician-Portuguese Generative Model"
 year: 2024
 first_author: "[[CiTIUS]]"
-last_author: "[[Universidade de Santiago de Compostela CiTIUS]]"
-authors: "CiTIUS, Universidade de Santiago de Compostela"
+last_author: "[[Universidade de Santiago de Compostela]]"
+authors: CiTIUS; Universidade de Santiago de Compostela
 doi: 10.1007/978-3-031-73503-5_24
 url: "https://link.springer.com/chapter/10.1007/978-3-031-73503-5_24"
 publication: "Springer (EPIA 2024)"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Universidade de Santiago de Compostela CiTIUS]]
+[[CiTIUS]], [[Universidade de Santiago de Compostela]]
 
 ## Metadata
 

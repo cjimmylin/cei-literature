@@ -18,7 +18,7 @@ short_title: SGBench
 year: 2024
 first_author: "[[Yutao Mou]]"
 last_author: "[[Wei Ye]]"
-authors: "[[Yutao Mou]]; [[Shikun Zhang]]; [[Wei Ye]]"
+authors: Yutao Mou; Shikun Zhang; Wei Ye
 url: "https://arxiv.org/abs/2410.21965"
 external_pdf: "https://arxiv.org/pdf/2410.21965.pdf"
 national_ethnic_cultural: "N/A"

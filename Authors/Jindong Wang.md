@@ -22,9 +22,12 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of|CultureVLM: Characterizing and Improving Cultural Understanding of Vision-Language Models for over 100 Countries]] (Last Author)
 - [[2025-Yao-Value Compass Benchmarks|Value Compass Benchmarks]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
+- [[2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language|CulturePark: Boosting Cross-cultural Understanding in Large Language Models]] (Last Author)
 - [[2024-Xie-CultureLLM Incorporating Cultural Differences into Large|CultureLLM Incorporating Cultural Differences into Large]]
 - [[2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural|LLM-GLOBE A Benchmark Evaluating the Cultural]]
 - [[2023-Chang-A Survey on Evaluation of Large Language Models|A Survey on Evaluation of Large Language Models]]
@@ -37,6 +40,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
+- *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: ypchang_jluai@outlook.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com

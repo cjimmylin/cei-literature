@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "Neural Machine Translation for Low-Resource Languages from a Chinese-centric Perspective: A Survey | ACM Transactions on Asian and Low-Resource Language Information Processing"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: "[[Ph Adnan Masood]]"
-authors: "Adnan Masood, Ph"
+last_author: "[[Ph]]"
+authors: Adnan Masood; Ph
 doi: 10.1145/3665244
 url: "https://dl.acm.org/doi/10.1145/3665244"
 external_pdf: "https://www.aclweb.org/anthology/N18-4016.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Ph Adnan Masood]]
+[[Adnan Masood]], [[Ph]]
 
 ## Metadata
 

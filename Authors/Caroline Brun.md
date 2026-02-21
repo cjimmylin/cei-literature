@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating|FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitigating Toxicity in French Texts]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating*: Affiliation: LABS Europe
+- *From 2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating*: Affiliation: LABS Europe
 - *From 2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating*: Affiliation: LABS Europe
 - *From 2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating*: Affiliation: LABS Europe
 - *From 2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating*: Affiliation: LABS Europe

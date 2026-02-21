@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model|CroissantLLM: A Truly Bilingual French-English Language Model]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model*: Affiliation: College London
+- *From 2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model*: Affiliation: College London
 - *From 2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model*: Affiliation: College London
 - *From 2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model*: Affiliation: College London
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

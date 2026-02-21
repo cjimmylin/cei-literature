@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Atf-Kantian-Utilitarian XAI|Kantian-Utilitarian XAI]] (Last Author)
 - [[2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from|CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives]]
 
 ## External Links & Profiles
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Atf-Kantian-Utilitarian XAI*: Affiliation: Faculty of Business and Information Technology
+- *From 2025-Atf-Kantian-Utilitarian XAI*: Affiliation: Faculty of Business and Information Technology
 - *From 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from*: Affiliation: Department of Computer Science and Engineering
 - *From 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from*: Affiliation: Department of Computer Science and Engineering
 - *From 2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from*: Affiliation: Department of Computer Science and Engineering

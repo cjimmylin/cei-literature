@@ -17,7 +17,7 @@ type: journal_article
 short_title: "Toxicity Posts and Hateful Comments Detection"
 year: 2023
 first_author: "[[Sukhamsri, Sutthisak]]"
-last_author: "[[Sukhamsri, Sutthisak]]"
+last_author: "[[Sutthisak Sukhamsri]]"
 authors: Sutthisak Sukhamsri
 authors_incomplete: false
 url: "https://ph01.tci-thaijo.org/index.php/RMUTLEngJ/article/view/256026"

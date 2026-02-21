@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof|We Politely Insist: Your LLM Must Learn the Persian Art of Taarof (TaarofBench)]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof*: Affiliation: University, St
+- *From 2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof*: Affiliation: University, St
 - *From 2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof*: Affiliation: University, St
 - *From 2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof*: Affiliation: University, St
 - *From 2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof*: Affiliation: University, St

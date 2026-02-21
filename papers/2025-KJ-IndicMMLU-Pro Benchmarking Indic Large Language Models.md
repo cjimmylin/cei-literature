@@ -18,7 +18,7 @@ short_title: "IndicMMLU-Pro Benchmarking Indic Large Language Models"
 year: 2025
 first_author: "[[Sankalp KJ]]"
 last_author: "[[Sreyoshi Bhaduri]]"
-authors: "[[Sankalp KJ]]; [[Ashutosh Kumar]]; [[Laxmaan Balaji]]; [[Nikunj Kotecha]]; [[Vinija Jain]]; [[Aman Chadha]]; [[Sreyoshi Bhaduri]]"
+authors: Sankalp KJ; Ashutosh Kumar; Laxmaan Balaji; Nikunj Kotecha; Vinija Jain; Aman Chadha; Sreyoshi Bhaduri
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.15747"
 external_pdf: "https://arxiv.org/pdf/2501.15747.pdf"

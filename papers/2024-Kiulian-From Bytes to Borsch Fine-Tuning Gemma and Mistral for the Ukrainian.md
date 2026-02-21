@@ -18,7 +18,7 @@ short_title: "From Bytes to Borsch: Fine-Tuning Gemma and Mistral for the Ukrain
 year: 2024
 first_author: "[[Kiulian, Artur]]"
 last_author: "[[Shirawalmath, Adarsh]]"
-authors: "[[Kiulian, Artur]]; [[Polishko, Anton]]; [[Khandoga, Mykola]]; [[Chubych, Oryna]]; [[Connor, Jack]]; [[Ravishankar, Raghav]]; [[Shirawalmath, Adarsh]]"
+authors: "Kiulian, Artur; Polishko, Anton; Khandoga, Mykola; Chubych, Oryna; Connor, Jack; Ravishankar, Raghav; Shirawalmath, Adarsh"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.09138"
 external_pdf: "https://arxiv.org/pdf/2404.09138.pdf"

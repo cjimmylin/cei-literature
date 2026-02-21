@@ -18,9 +18,9 @@ key: EXSR0359
 type: conference_paper
 short_title: "DharmaBench Evaluating Language Models on Buddhist"
 year: 2025
-first_author: "[[Kai Golan Hashiloni, Shay Cohen, Asaf Shina, Jingyi Yang, Orr Meir Zwebner, Nicola Bajetta, Guy Bilitski, Rebecca Sunden, Guy Maduel, Ryan Conlon, Ari Barzilai, Daniel Mass, Shanshan Jia, Aviv Naaman, Sonam Choden, Sonam Jamtsho, Yadi Qu, Harunaga Isaacson, Dorji Wangchuk, Shai Fine, Orna Almogi, Kfir Bar]]"
-last_author: "[[Kfir Bar Orna Almogi]]"
-authors: "[[Kai Golan Hashiloni, Shay Cohen, Asaf Shina, Jingyi Yang, Orr Meir Zwebner, Nicola Bajetta, Guy Bilitski, Rebecca Sunden, Guy Maduel, Ryan Conlon, Ari Barzilai, Daniel Mass, Shanshan Jia, Aviv Naaman, Sonam Choden, Sonam Jamtsho, Yadi Qu, Harunaga Isaacson, Dorji Wangchuk, Shai Fine, Orna Almogi, Kfir Bar]]"
+first_author: "[[Kai Golan Hashiloni]]"
+last_author: "[[Kfir Bar]]"
+authors: Kai Golan Hashiloni; Shay Cohen; Asaf Shina; Jingyi Yang; Orr Meir Zwebner; Nicola Bajetta; Guy Bilitski; Rebecca Sunden; Guy Maduel; Ryan Conlon; Ari Barzilai; Daniel Mass; Shanshan Jia; Aviv Naaman; Sonam Choden; Sonam Jamtsho; Yadi Qu; Harunaga Isaacson; Dorji Wangchuk; Shai Fine; Orna Almogi; Kfir Bar
 authors_incomplete: false
 url: 
 external_pdf: 
@@ -56,7 +56,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Shay Cohen Kai Golan Hashiloni]], [[Jingyi Yang Asaf Shina]], [[Nicola Bajetta Orr Meir Zwebner]], [[Rebecca Sunden Guy Bilitski]], [[Ryan Conlon Guy Maduel]], [[Daniel Mass Ari Barzilai]], [[Aviv Naaman Shanshan Jia]], [[Sonam Jamtsho Sonam Choden]], [[Harunaga Isaacson Yadi Qu]], [[Shai Fine Dorji Wangchuk]], [[Kfir Bar Orna Almogi]]
+[[Kai Golan Hashiloni]], [[Shay Cohen]], [[Asaf Shina]], [[Jingyi Yang]], [[Orr Meir Zwebner]], [[Nicola Bajetta]], [[Guy Bilitski]], [[Rebecca Sunden]], [[Guy Maduel]], [[Ryan Conlon]], [[Ari Barzilai]], [[Daniel Mass]], [[Shanshan Jia]], [[Aviv Naaman]], [[Sonam Choden]], [[Sonam Jamtsho]], [[Yadi Qu]], [[Harunaga Isaacson]], [[Dorji Wangchuk]], [[Shai Fine]], [[Orna Almogi]], [[Kfir Bar]]
 
 ## Metadata
 

@@ -17,7 +17,7 @@ short_title: "Ethical Reasoning over Moral Alignment"
 year: 2023
 first_author: "[[Abhinav Rao]]"
 last_author: "[[Choudhury, Monojit]]"
-authors: "[[Rao, Abhinav]]; [[Khandelwal, Aditi]]; [[Tanmay, Kumar]]; [[Agarwal, Utkarsh]]; [[Choudhury, Monojit]]"
+authors: "Rao, Abhinav; Khandelwal, Aditi; Tanmay, Kumar; Agarwal, Utkarsh; Choudhury, Monojit"
 doi: 10.18653/v1/2023.findings-emnlp.892
 url: "https://aclanthology.org/2023.findings-emnlp.892/"
 pdf_extract: "PDF Extracts/2023/2023-Rao-Ethical Reasoning over Moral Alignment.md"

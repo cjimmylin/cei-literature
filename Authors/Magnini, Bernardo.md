@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian|Evalita-LLM: Benchmarking Large Language Models on Italian]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian*: Affiliation: University of Torino, Computer Science Dept, Email: marco.madeddu@unito.it
+- *From 2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian*: Affiliation: University of Torino, Computer Science Dept, Email: marco.madeddu@unito.it
 - *From 2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian*: Affiliation: University of Torino, Computer Science Dept, Email: zanoli@fbk.eu
 - *From 2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian*: Affiliation: University of Torino, Computer Science Dept, Email: martin.cimmino@igenius.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

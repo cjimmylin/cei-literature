@@ -15,7 +15,7 @@ short_title: "Large Language Models Discriminate Against Speakers of German Dial
 year: 2025
 first_author: "[[Minh Duc Bui]]"
 last_author: "[[Katharina von der Wense]]"
-authors: "Minh Duc Bui, Carolin Holtermann, Valentin Hofmann, Anne Lauscher, Katharina von der Wense"
+authors: Minh Duc Bui; Carolin Holtermann; Valentin Hofmann; Anne Lauscher; Katharina von der Wense
 url: "https://arxiv.org/abs/2509.13835"
 external_pdf: "https://arxiv.org/pdf/2509.13835.pdf"
 publication: "arXiv / EMNLP 2025"

@@ -16,7 +16,7 @@ short_title: "A New Benchmark Dataset and Mixture-of-Experts Language Models for
 year: 2024
 first_author: "[[Van Huynh, Tin]]"
 last_author: "[[Nguyen, Ngan Luu-Thuy]]"
-authors: "[[Van Huynh, Tin]]; [[Van Nguyen, Kiet]]; [[Nguyen, Ngan Luu-Thuy]]"
+authors: "Van Huynh, Tin; Van Nguyen, Kiet; Nguyen, Ngan Luu-Thuy"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.17716"
 external_pdf: "https://arxiv.org/pdf/2406.17716.pdf"

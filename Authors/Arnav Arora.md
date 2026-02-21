@@ -59,6 +59,10 @@ twitter: ""
 
 
 
+
+
+- [[2025-Borenstein-Investigating Human Values in Online Communities|Investigating Human Values in Online Communities]]
+- [[2025-Cao-Specializing Large Language Models to Simulate Survey Response|Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations]]
 - [[2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop|Probing PLMs for Cross-Cultural Values (C3NLP Workshop)]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: wizzy@aims.ac.za
+- *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: wizzy@aims.ac.za
 - *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: wizzy@aims.ac.za
 - *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: wizzy@aims.ac.za
 - *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: wizzy@aims.ac.za

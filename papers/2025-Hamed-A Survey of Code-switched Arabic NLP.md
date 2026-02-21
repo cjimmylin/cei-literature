@@ -16,7 +16,7 @@ short_title: "A Survey of Code-switched Arabic NLP"
 year: 2025
 first_author: "[[Hamed, Injy]]"
 last_author: "[[Habash, Nizar]]"
-authors: "[[Hamed, Injy]]; [[Sabty, Caroline]]; [[Abdennadher, Slim]]; [[Vu, Ngoc Thang]]; [[Solorio, Thamar]]; [[Habash, Nizar]]"
+authors: "Hamed, Injy; Sabty, Caroline; Abdennadher, Slim; Vu, Ngoc Thang; Solorio, Thamar; Habash, Nizar"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.coling-main.307.pdf"
 external_pdf: "https://arxiv.org/pdf/2501.13419v1.pdf"

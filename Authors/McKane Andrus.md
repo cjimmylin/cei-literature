@@ -25,6 +25,8 @@ McKane Andrus is affiliated with UW HCDE (University of Washington, Human Center
 
 
 
+
+
 - [[2023-Andrus-Augmented Datasheets for Speech Datasets and|Augmented Datasheets for Speech Datasets and]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ McKane Andrus is affiliated with UW HCDE (University of Washington, Human Center
 
 
 
+
+
+- *From 2023-Andrus-Augmented Datasheets for Speech Datasets and*: Affiliation: lable speech—with regard to the ethics of such, Email: rebecca.bourke@sony.com
+- *From 2023-Andrus-Augmented Datasheets for Speech Datasets and*: Affiliation: lable speech—with regard to the ethics of such, Email: rebecca.bourke@sony.com
 - *From 2023-Andrus-Augmented Datasheets for Speech Datasets and*: Affiliation: lable speech—with regard to the ethics of such, Email: william.thong@sony.com
 - *From 2023-Andrus-Augmented Datasheets for Speech Datasets and*: Affiliation: lable speech—with regard to the ethics of such, Email: koenecke@cornell.edu
 - *From 2023-Andrus-Augmented Datasheets for Speech Datasets and*: Affiliation: lable speech—with regard to the ethics of such, Email: rebecca.bourke@sony.com

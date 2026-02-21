@@ -59,8 +59,8 @@ twitter: ""
 
 
 
-- [[2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark|SwiLTra-Bench: The Swiss Legal Translation Benchmark]]
-- [[2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented|CultureSynth: A Hierarchical Taxonomy-Guided and Retrieval-Augmented Framework for Cultural Question-Answer Synthesis]]
+
+
 - [[2024-Zhang-CHiSafetyBench|CHiSafetyBench]]
 
 ## External Links & Profiles
@@ -91,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
+- *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented*: Affiliation: Lab, Alibaba Group Inc
 - *From 2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented*: Affiliation: Lab, Alibaba Group Inc
 - *From 2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented*: Affiliation: Lab, Alibaba Group Inc

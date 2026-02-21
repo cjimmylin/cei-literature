@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Hua-TrustAgent|TrustAgent]]
 - [[2024-Ji-MoralBench|MoralBench]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Ji-MoralBench*: Affiliation: University of New Jersey, 2University of Chicago
+- *From 2024-Ji-MoralBench*: Affiliation: University of New Jersey, 2University of Chicago
 - *From 2024-Ji-MoralBench*: Affiliation: University of New Jersey, 2University of Chicago
 - *From 2024-Ji-MoralBench*: Affiliation: University of New Jersey, 2University of Chicago
 - *From 2024-Ji-MoralBench*: Affiliation: University of New Jersey, 2University of Chicago

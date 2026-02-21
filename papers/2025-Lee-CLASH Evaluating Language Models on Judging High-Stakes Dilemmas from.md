@@ -16,7 +16,7 @@ short_title: "CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas 
 year: 2025
 first_author: "[[Lee, Ayoung]]"
 last_author: "[[Wang, Lu]]"
-authors: "[[Lee, Ayoung]]; [[Kwon, Ryan Sungmo]]; [[Railton, Peter]]; [[Wang, Lu]]"
+authors: "Lee, Ayoung; Kwon, Ryan Sungmo; Railton, Peter; Wang, Lu"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.10823"
 external_pdf: "https://arxiv.org/pdf/2504.10823.pdf"

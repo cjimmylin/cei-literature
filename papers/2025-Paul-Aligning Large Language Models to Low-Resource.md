@@ -17,7 +17,7 @@ short_title: "Aligning Large Language Models to Low-Resource"
 year: 2025
 first_author: "[[Paul, Rakesh]]"
 last_author: "[[Wartikar, Niranjan]]"
-authors: "[[Paul, Rakesh]]; [[Kamath, Anusha]]; [[Singla, Kanishk]]; [[Joshi, Raviraj]]; [[Vaidya, Utkarsh]]; [[Chauhan, Sanjay Singh]]; [[Wartikar, Niranjan]]"
+authors: "Paul, Rakesh; Kamath, Anusha; Singla, Kanishk; Joshi, Raviraj; Vaidya, Utkarsh; Chauhan, Sanjay Singh; Wartikar, Niranjan"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.bhasha-1.6/"
 external_pdf: "https://aclanthology.org/2025.bhasha-1.6.pdf"

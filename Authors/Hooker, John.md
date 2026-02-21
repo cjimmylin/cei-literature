@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2018-Kim-Toward Non-Intuition-Based Machine Ethics|Non-Intuition-Based Machine Ethics]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2018-Kim-Toward Non-Intuition-Based Machine Ethics*: Affiliation: University, Pittsburgh, USA, Email: jh38@andrew.cmu.edu
+- *From 2018-Kim-Toward Non-Intuition-Based Machine Ethics*: Affiliation: University, Pittsburgh, USA, Email: jh38@andrew.cmu.edu
 - *From 2018-Kim-Toward Non-Intuition-Based Machine Ethics*: Affiliation: University, Pittsburgh, USA, Email: jh38@andrew.cmu.edu
 - *From 2018-Kim-Toward Non-Intuition-Based Machine Ethics*: Affiliation: University, Pittsburgh, USA, Email: jh38@andrew.cmu.edu
 - *From 2018-Kim-Toward Non-Intuition-Based Machine Ethics*: Affiliation: University, Pittsburgh, USA, Email: jh38@andrew.cmu.edu

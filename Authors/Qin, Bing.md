@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis|Large Language Models Meet Text-Centric Multimodal Sentiment Analysis: A Survey]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis*: Affiliation: Institute of Technology, Harbin 150001, China
+- *From 2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis*: Affiliation: Institute of Technology, Harbin 150001, China
 - *From 2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis*: Affiliation: Institute of Technology, Harbin 150001, China
 - *From 2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis*: Affiliation: Institute of Technology, Harbin 150001, China
 - *From 2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis*: Affiliation: Institute of Technology, Harbin 150001, China

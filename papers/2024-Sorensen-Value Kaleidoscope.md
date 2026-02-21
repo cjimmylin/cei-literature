@@ -16,7 +16,7 @@ short_title: "Value Kaleidoscope"
 year: 2024
 first_author: "[[Taylor Sorensen]]"
 last_author: "[[Choi, Yejin]]"
-authors: "[[Sorensen, Taylor]]; [[Jiang, Liwei]]; [[Hwang, Jena]]; [[Levine, Sydney]]; [[Pyatkin, Valentina]]; [[West, Peter]]; [[Dziri, Nouha]]; [[Lu, Ximing]]; [[Rao, Kavel]]; [[Bhagavatula, Chandra]]; [[Sap, Maarten]]; [[Tasioulas, John]]; [[Choi, Yejin]]"
+authors: "Sorensen, Taylor; Jiang, Liwei; Hwang, Jena; Levine, Sydney; Pyatkin, Valentina; West, Peter; Dziri, Nouha; Lu, Ximing; Rao, Kavel; Bhagavatula, Chandra; Sap, Maarten; Tasioulas, John; Choi, Yejin"
 doi: 10.1609/aaai.v38i18.29970
 url: "http://arxiv.org/abs/2309.00779"
 pdf_extract: "PDF Extracts/2024/2024-Sorensen-Value Kaleidoscope.md"

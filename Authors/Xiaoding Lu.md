@@ -23,6 +23,8 @@ Xiaoding Lu is affiliated with Chai Research, focusing on conversational AI and 
 
 
 
+
+
 - [[2023-Lu-The Chai Platform's AI Safety Framework|The Chai Platform's AI Safety Framework]] (First Author)
 
 ## Notes
@@ -32,6 +34,10 @@ Xiaoding Lu is affiliated with Chai Research, focusing on conversational AI and 
 
 
 
+
+
+- *From 2023-Lu-The Chai Platform's AI Safety Framework*: Affiliation: centres and adapted
+- *From 2023-Lu-The Chai Platform's AI Safety Framework*: Affiliation: centres and adapted
 - *From 2023-Lu-The Chai Platform's AI Safety Framework*: Affiliation: centres and adapted
 - *From 2023-Lu-The Chai Platform's AI Safety Framework*: Affiliation: centres and adapted
 - *From 2023-Lu-The Chai Platform's AI Safety Framework*: Affiliation: centres and adapted

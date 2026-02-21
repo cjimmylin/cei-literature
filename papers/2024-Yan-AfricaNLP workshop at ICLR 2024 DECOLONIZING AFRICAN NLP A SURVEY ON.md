@@ -18,7 +18,7 @@ type: conferencePaper
 short_title: "AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP: A SURVEY ON POWER"
 year: 2024
 first_author: "[[Yan, Nan]]"
-last_author: "[[Xu, Cheng]]"
+last_author: "[[Cheng Xu]]"
 authors: Nan Yan; Cheng Xu
 authors_incomplete: false
 url: "https://openreview.net/pdf?id=D698BEfwgv"

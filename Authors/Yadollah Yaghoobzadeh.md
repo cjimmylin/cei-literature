@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian|PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian*: Affiliation: University of Tehran, Iran, Email: moosavi_m@comp.iust.ac.ir
+- *From 2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian*: Affiliation: University of Tehran, Iran, Email: moosavi_m@comp.iust.ac.ir
 - *From 2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian*: Affiliation: University of Tehran, Iran, Email: rahimzade@ut.ac.ir
 - *From 2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian*: Affiliation: University of Tehran, Iran, Email: rahimzade@ut.ac.ir
 - *From 2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian*: Affiliation: University of Tehran, Iran, Email: moosavi_m@comp.iust.ac.ir

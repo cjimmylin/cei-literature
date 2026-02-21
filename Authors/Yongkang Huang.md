@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Zhang-SafetyBench|SafetyBench]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
+- *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn

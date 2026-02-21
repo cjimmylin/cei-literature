@@ -42,6 +42,8 @@ Xu has also contributed to research on multimodal learning, including mPLUG-DocO
 
 
 
+
+
 - [[2023-Xu-CValues|CValues]] (First Author)
 
 ## Links
@@ -55,6 +57,10 @@ Xu has also contributed to research on multimodal learning, including mPLUG-DocO
 
 
 
+
+
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com

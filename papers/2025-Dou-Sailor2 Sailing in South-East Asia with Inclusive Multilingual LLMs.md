@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Longxu Dou]], [[Qun Liu|Qian Liu]], [[Fan Zhou]], [[Changyu Chen]], [[Zili Wang]], [[Zhijing Jin|Ziqi Jin]], [[Zi-Yan Liu]], [[Tongyao Zhu]], [[Cunxiao Du]], [[Penghui Yang]], [[Haonan Wang]], [[Jiaheng Liu]], [[Yongchi Zhao]], [[Xiachong Feng]], [[Xiang-Bo Mao|Xin Mao]], [[Man Tsung Yeung]], [[Kunat Pipatanakul]], [[Fajri Koto]], [[Min Si Thu]], [[Hynek Kydl'ivcek]], [[Ze-Xuan Liu]], [[Qunshu Lin]], [[Sittipong Sripaisarnmongkol]], [[Kridtaphad Sae-Khow]], [[Nirattisai Thongchim]], [[Taechawat Konkaew]], [[Narong Borijindargoon]], [[Anh Dao]], [[Matichon Maneegard]], [[Phakphum Artkaew]], [[Zheng-Xin Yong]], [[Quan H. Nguyen|Quan Nguyen]], [[Wannaphong Phatthiyaphaibun]], [[Hoang H. Tran]], [[Mike Zhang]], [[Sam Chen|Shi-qiang Chen]], [[Tianyu Pang]], [[Chao Du]], [[Xiaojun Wan|Xinyi Wan]], [[Wei Lu]], [[Min Lin]]
+[[Longxu Dou]], [[Qian Liu]], [[Fan Zhou]], [[Changyu Chen]], [[Zili Wang]], [[Ziqi Jin]], [[Zi-Yan Liu]], [[Tongyao Zhu]], [[Cunxiao Du]], [[Penghui Yang]], [[Haonan Wang]], [[Jiaheng Liu]], [[Yongchi Zhao]], [[Xiachong Feng]], [[Xin Mao]], [[Man Tsung Yeung]], [[Kunat Pipatanakul]], [[Fajri Koto]], [[Min Si Thu]], [[Hynek Kydl'ivcek]], [[Ze-Xuan Liu]], [[Qunshu Lin]], [[Sittipong Sripaisarnmongkol]], [[Kridtaphad Sae-Khow]], [[Nirattisai Thongchim]], [[Taechawat Konkaew]], [[Narong Borijindargoon]], [[Anh Dao]], [[Matichon Maneegard]], [[Phakphum Artkaew]], [[Zheng-Xin Yong]], [[Quan Nguyen]], [[Wannaphong Phatthiyaphaibun]], [[Hoang H. Tran]], [[Mike Zhang]], [[Shi-qiang Chen]], [[Tianyu Pang]], [[Chao Du]], [[Xinyi Wan]], [[Wei Lu]], [[Min Lin]]
 
 ## Metadata
 

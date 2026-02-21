@@ -19,7 +19,7 @@ short_title: "Common to Whom Regional Cultural Commonsense"
 year: 2026
 first_author: "[[Sangmitra Madhusudan]]"
 last_author: "[[Ali Emami]]"
-authors: "[[Sangmitra Madhusudan]]; [[Trush Shashank More]]; [[Steph Buongiorno]]; [[Renata Dividino]]; [[Jad Kabbara]]; [[Ali Emami]]"
+authors: Sangmitra Madhusudan; Trush Shashank More; Steph Buongiorno; Renata Dividino; Jad Kabbara; Ali Emami
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.15550"
 external_pdf: "https://arxiv.org/pdf/2601.15550.pdf"

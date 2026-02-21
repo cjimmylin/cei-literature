@@ -17,7 +17,7 @@ short_title: "CARE -- Multilingual Human Preference Learning for Cultural Awaren
 year: 2025
 first_author: "[[Guo, Geyang]]"
 last_author: "[[Xu, Wei]]"
-authors: "[[Guo, Geyang]]; [[Naous, Tarek]]; [[Wakaki, Hiromi]]; [[Nishimura, Yukiko]]; [[Mitsufuji, Yuki]]; [[Ritter, Alan]]; [[Xu, Wei]]"
+authors: "Guo, Geyang; Naous, Tarek; Wakaki, Hiromi; Nishimura, Yukiko; Mitsufuji, Yuki; Ritter, Alan; Xu, Wei"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.05154"
 external_pdf: "https://arxiv.org/pdf/2504.05154.pdf"

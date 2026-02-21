@@ -18,7 +18,7 @@ short_title: "Datasets of Slovene and Croatian Moderated News Comments"
 year: 2018
 first_author: "[[Nikola Ljubesic]]"
 last_author: "[[Darja Fiser]]"
-authors: "Nikola Ljubesic, Tomaz Erjavec, Darja Fiser"
+authors: Nikola Ljubesic; Tomaz Erjavec; Darja Fiser
 url: "https://aclanthology.org/W18-5116/"
 external_pdf: "https://www.aclweb.org/anthology/W18-5116.pdf"
 publication: "ACL Anthology / ALW 2018"

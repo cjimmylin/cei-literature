@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages|IndoSafety: Culturally Grounded Safety for LLMs in Indonesian Languages]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages*: Affiliation: Faculty of Computer Science, Universitas Indonesia, Email: muhammad.falensi@ui.ac.id
+- *From 2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages*: Affiliation: Faculty of Computer Science, Universitas Indonesia, Email: muhammad.falensi@ui.ac.id
 - *From 2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages*: Affiliation: Faculty of Computer Science, Universitas Indonesia, Email: muhammad.falensi@ui.ac.id
 - *From 2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages*: Affiliation: Faculty of Computer Science, Universitas Indonesia, Email: alfan@cs.ui.ac.id
 - *From 2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages*: Affiliation: Faculty of Computer Science, Universitas Indonesia, Email: alfan@cs.ui.ac.id

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study|Is ChatGPT A Good Translator? A Preliminary Study]] (Last Author)
 - [[2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional|EmotionBench (Apathetic or Empathetic?): Evaluating LLMs' Emotional Alignments with Humans]]
 - [[2024-Wang-All Languages Matter|All Languages Matter]]
@@ -35,6 +37,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
+- *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong

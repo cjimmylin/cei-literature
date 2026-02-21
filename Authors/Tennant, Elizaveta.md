@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents|Hybrid Approaches for Moral Value Alignment in AI Agents]] (First Author)
 - [[2025-Tennant-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM|Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM AGENTS]] (First Author)
 - [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations|Dynamics of Moral Behavior in Heterogeneous Populations]] (First Author)
@@ -85,6 +87,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations*: Affiliation: Department of Computer Science, Email: l.karmannaya.16@ucl.ac.uk
+- *From 2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations*: Affiliation: Department of Computer Science, Email: l.karmannaya.16@ucl.ac.uk
 - *From 2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations*: Affiliation: Department of Computer Science, Email: s.hailes@ucl.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

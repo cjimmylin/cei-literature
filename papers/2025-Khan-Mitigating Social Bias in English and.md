@@ -15,9 +15,9 @@ key: EXSR0410
 type: preprint
 short_title: "Mitigating Social Bias in English and"
 year: 2025
-first_author: "[[Khan, Muneeb Ur Raheem]]"
-last_author: "[[Khan, Muneeb Ur Raheem]]"
-authors: "Khan, Muneeb Ur Raheem"
+first_author: "[[Khan]]"
+last_author: "[[Muneeb Ur Raheem]]"
+authors: Khan; Muneeb Ur Raheem
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.09854"
 external_pdf: "https://arxiv.org/pdf/2512.09854.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-Unknown
+[[Khan]], [[Muneeb Ur Raheem]]
 
 ## Metadata
 

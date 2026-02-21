@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Ray-Incorporating indigenous knowledge systems into AI governance|Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Ray-Incorporating indigenous knowledge systems into AI governance*: Affiliation: School of Computer Science, Carnegie Mellon University, Email: raray@pvamu.edu
+- *From 2025-Ray-Incorporating indigenous knowledge systems into AI governance*: Affiliation: School of Computer Science, Carnegie Mellon University, Email: raray@pvamu.edu
 - *From 2025-Ray-Incorporating indigenous knowledge systems into AI governance*: Affiliation: School of Computer Science, Carnegie Mellon University, Email: raray@pvamu.edu
 - *From 2025-Ray-Incorporating indigenous knowledge systems into AI governance*: Affiliation: School of Computer Science, Carnegie Mellon University, Email: raray@pvamu.edu
 - *From 2025-Ray-Incorporating indigenous knowledge systems into AI governance*: Affiliation: School of Computer Science, Carnegie Mellon University, Email: raray@pvamu.edu

@@ -16,7 +16,7 @@ short_title: "Komodo: A Linguistic Expedition into Indonesia's Regional Language
 year: 2024
 first_author: "[[Owen, Louis]]"
 last_author: "[[Ahmed, Biddwan]]"
-authors: "[[Owen, Louis]]; [[Tripathi, Vishesh]]; [[Kumar, Abhay]]; [[Ahmed, Biddwan]]"
+authors: "Owen, Louis; Tripathi, Vishesh; Kumar, Abhay; Ahmed, Biddwan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.09362"
 external_pdf: "https://arxiv.org/pdf/2403.09362.pdf"

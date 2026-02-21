@@ -19,7 +19,7 @@ short_title: "Mapping the Italian Telegram Ecosystem: Communities, Toxicity, and
 year: 2025
 first_author: "[[Lorenzo Alvisi]]"
 last_author: "[[Maurizio Tesconi]]"
-authors: "[[Lorenzo Alvisi]]; [[Serena Tardelli]]; [[Maurizio Tesconi]]"
+authors: Lorenzo Alvisi; Serena Tardelli; Maurizio Tesconi
 url: "https://arxiv.org/abs/2504.19594"
 external_pdf: "https://arxiv.org/pdf/2504.19594.pdf"
 publication: arXiv

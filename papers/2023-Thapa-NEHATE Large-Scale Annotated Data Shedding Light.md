@@ -17,7 +17,7 @@ type: preprint
 short_title: "NEHATE Large-Scale Annotated Data Shedding Light"
 year: 2023
 first_author: "[[Thapa, Surendrabikram]]"
-last_author: "[[Nasim, Mehwish]]"
+last_author: "[[Mehwish Nasim]]"
 authors: Surendrabikram Thapa; Kritesh Rauniyar; Shuvam Shiwakoti; Sweta Poudel; Usman Naseem; Mehwish Nasim
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/374325865_NEHATE_Large-Scale_Annotated_Data_Shedding_Light_on_Hate_Speech_in_Nepali_Local_Election_Discourse"
@@ -59,7 +59,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-Unknown
+[[Surendrabikram Thapa]], [[Kritesh Rauniyar]], [[Shuvam Shiwakoti]], [[Sweta Poudel]], [[Usman Naseem]], [[Mehwish Nasim]]
 
 ## Metadata
 

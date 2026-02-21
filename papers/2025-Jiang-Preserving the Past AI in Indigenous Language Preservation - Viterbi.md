@@ -16,9 +16,9 @@ key: LSRC0789
 type: conferencePaper
 short_title: "Preserving the Past: AI in Indigenous Language Preservation - Viterbi Conversations in Ethics"
 year: 2025
-first_author: "[[Jiang, Mo]]"
-last_author: "[[Jiang, Mo]]"
-authors: "Jiang, Mo"
+first_author: "[[Jiang]]"
+last_author: "[[Mo]]"
+authors: Jiang; Mo
 authors_incomplete: false
 url: "https://vce.usc.edu/weekly-news-profile/preserving-the-past-ai-in-indigenous-language-preservation/"
 publication: Web
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Jiang, Mo]]
+[[Jiang]], [[Mo]]
 
 ## Metadata
 

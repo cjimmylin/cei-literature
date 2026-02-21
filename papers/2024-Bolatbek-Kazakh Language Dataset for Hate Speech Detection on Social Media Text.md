@@ -17,8 +17,8 @@ type: conferencePaper
 short_title: "Kazakh Language Dataset for Hate Speech Detection on Social Media Text"
 year: 2024
 first_author: "[[Milana Bolatbek]]"
-last_author: "[[Zhastay Yeltay Shynar Mussiraliyeva]]"
-authors: "Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay"
+last_author: "[[Zhastay Yeltay]]"
+authors: Milana Bolatbek; Moldir Sagynay; Shynar Mussiraliyeva; Zhastay Yeltay
 url: "https://ieeexplore.ieee.org/document/10719327/"
 external_pdf: "https://core.ac.uk/download/666045464.pdf"
 publication: "IEEE ICCIA 2024"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Moldir Sagynay Milana Bolatbek]], [[Zhastay Yeltay Shynar Mussiraliyeva]]
+[[Milana Bolatbek]], [[Moldir Sagynay]], [[Shynar Mussiraliyeva]], [[Zhastay Yeltay]]
 
 ## Metadata
 

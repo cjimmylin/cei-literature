@@ -15,7 +15,7 @@ short_title: "AI-driven detection of hate speech on social media: a case study i
 year: 2025
 first_author: "[[Chared, Zahim]]"
 last_author: "[[YILDIRIM, Sule YAYILGAN]]"
-authors: "[[Chared, Zahim]]; [[Jantet, Clément]]; [[Ravix, Calliste]]; [[Salmi, Robin]]; [[Hashmi, Ehtesham]]; [[YILDIRIM, Sule YAYILGAN]]"
+authors: "Chared, Zahim; Jantet, Clément; Ravix, Calliste; Salmi, Robin; Hashmi, Ehtesham; YILDIRIM, Sule YAYILGAN"
 authors_incomplete: false
 doi: 10.1007/s10586-025-05553-0
 url: "https://link.springer.com/article/10.1007/s10586-025-05553-0"

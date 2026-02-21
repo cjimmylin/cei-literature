@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI|Comparing diversity, negativity, and stereotypes in Chinese-language AI technologies: an investigation of Baidu, Ernie and Qwen - PMC]] (First Author)
 - [[2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns|Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and Social Groups]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI*:, Email: francesco.pierri@polimi.it
+- *From 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI*:, Email: francesco.pierri@polimi.it
 - *From 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI*:, Email: francesco.pierri@polimi.it
 - *From 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI*:, Email: francesco.pierri@polimi.it
 - *From 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI*:, Email: francesco.pierri@polimi.it

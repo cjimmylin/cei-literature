@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection|Overview of HOMO-LAT at IberLEF 2025: Human-Centric Polarity Detection in Online Messages Oriented to the Latin American-speaking LGBTQ+ Population]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection*:, Email: helena.gomez@iimas.unam.mx
+- *From 2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection*:, Email: helena.gomez@iimas.unam.mx
 - *From 2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection*:, Email: helena.gomez@iimas.unam.mx
 - *From 2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection*:, Email: helena.gomez@iimas.unam.mx
 - *From 2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection*:, Email: helena.gomez@iimas.unam.mx

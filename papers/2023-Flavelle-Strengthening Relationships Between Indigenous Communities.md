@@ -16,7 +16,7 @@ short_title: Strengthening Relationships Between Indigenous Communities, Documen
 year: 2023
 first_author: "[[Darren Flavelle]]"
 last_author: "[[Jordan Lachler]]"
-authors: Darren Flavelle, Jordan Lachler
+authors: Darren Flavelle; Jordan Lachler
 doi: 10.18653/v1/2023.c3nlp-1.4
 url: "https://aclanthology.org/2023.c3nlp-1.4/"
 publication: ACL Proceedings (C3NLP Workshop at EACL 2023)
@@ -51,7 +51,7 @@ CONFERENCE: "EACL 2023"
 
 ## Authors
 
-[[Darren Flavelle, Jordan Lachler]]
+[[Darren Flavelle]], [[Jordan Lachler]]
 
 ## Metadata
 

@@ -16,7 +16,7 @@ short_title: "SHADES: Towards a Multilingual Assessment of Stereotypes in Large 
 year: 2025
 first_author: "[[Al, Hamdan]]"
 last_author: "[[Villa, Emilio]]"
-authors: "[[Al, Hamdan]]; [[Zosa, Jessica]]; [[Luis, Roberto]]; [[Sta, Karolina]]; [[Timponi, Tiago]]; [[Villa, Emilio]]"
+authors: "Al, Hamdan; Zosa, Jessica; Luis, Roberto; Sta, Karolina; Timponi, Tiago; Villa, Emilio"
 authors_incomplete: true
 url: "https://montrealethics.ai/towards-a-multilingual-assessment-of-stereotypes-in-large-language-models/"
 external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2022-Ramponi-Addressing Religious Hate Online From Taxonomy|Addressing Religious Hate Online From Taxonomy]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2022-Ramponi-Addressing Religious Hate Online From Taxonomy*: Affiliation: lable datasets use, which inevitably lead to poor repurposing of data, Email: alramponi@fbk.eu
+- *From 2022-Ramponi-Addressing Religious Hate Online From Taxonomy*: Affiliation: lable datasets use, which inevitably lead to poor repurposing of data, Email: alramponi@fbk.eu
 - *From 2022-Ramponi-Addressing Religious Hate Online From Taxonomy*: Affiliation: lable datasets use, which inevitably lead to poor repurposing of data, Email: alramponi@fbk.eu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

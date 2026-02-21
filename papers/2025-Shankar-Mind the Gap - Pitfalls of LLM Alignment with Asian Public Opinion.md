@@ -14,9 +14,9 @@ key: EXSR0089
 type: conferencePaper
 short_title: "Mind the Gap -- Pitfalls of LLM Alignment with Asian Public Opinion"
 year: 2025
-first_author: "[[H. Shankar]]"
-last_author: "[[D]]"
-authors: "Shankar, H., S P, V., Margapuri, S., & Mazumder, D"
+first_author: "[[Hari Shankar]]"
+last_author: "[[D & Mazumder]]"
+authors: "Hari Shankar; Vedanta S P; S. Margapuri; D & Mazumder"
 url: "https://precog.iiit.ac.in/pubs/mind_the_gap_LLM_Alignment_Steerability_Global_South.pdf"
 external_pdf: "https://cdn.iiit.ac.in/cdn/precog.iiit.ac.in/pubs/mind_the_gap_LLM_Alignment_Steerability_Global_South.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md"
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Shankar]], [[H.]], [[S P]], [[V.]], [[Margapuri]], [[S.]], [[& Mazumder]], [[D]]
+[[Hari Shankar]], [[Vedanta S P]], [[S. Margapuri]], [[D & Mazumder]]
 
 ## Metadata
 

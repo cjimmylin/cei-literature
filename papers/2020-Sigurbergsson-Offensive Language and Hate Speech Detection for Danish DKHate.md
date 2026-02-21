@@ -14,8 +14,8 @@ type: conferencePaper
 short_title: "Offensive Language and Hate Speech Detection for Danish (DKHate)"
 year: 2020
 first_author: "[[Gudbjartur Ingi Sigurbergsson]]"
-last_author: "[[Leon Derczynski Gudbjartur Ingi Sigurbergsson]]"
-authors: "Gudbjartur Ingi Sigurbergsson, Leon Derczynski"
+last_author: "[[Leon Derczynski]]"
+authors: Gudbjartur Ingi Sigurbergsson; Leon Derczynski
 url: "https://aclanthology.org/2020.lrec-1.430/"
 external_pdf: "https://arxiv.org/pdf/1908.04531.pdf"
 publication: "ACL Anthology / LREC 2020"
@@ -50,7 +50,7 @@ CONFERENCE: "ACL 2020"
 
 ## Authors
 
-[[Leon Derczynski Gudbjartur Ingi Sigurbergsson]]
+[[Gudbjartur Ingi Sigurbergsson]], [[Leon Derczynski]]
 
 ## Metadata
 

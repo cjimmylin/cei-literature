@@ -17,7 +17,7 @@ short_title: "All Languages Matter"
 year: 2024
 first_author: "[[Wenxuan Wang]]"
 last_author: "[[Lyu, Michael]]"
-authors: "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang]]; [[Huang, Jen-tse]]; [[Jiao, Wenxiang]]; [[Lyu, Michael]]"
+authors: "Wang, Wenxuan; Tu, Zhaopeng; Chen, Chang; Yuan, Youliang; Huang, Jen-tse; Jiao, Wenxiang; Lyu, Michael"
 url: "https://aclanthology.org/2024.findings-acl.349/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/SFH74GNU/2024 - All Languages Matter On the Multilingual Safety of Large Language Models.pdf"
 national_ethnic_cultural: "N/A"

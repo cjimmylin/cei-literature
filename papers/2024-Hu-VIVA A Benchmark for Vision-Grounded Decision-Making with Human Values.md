@@ -17,7 +17,7 @@ short_title: "VIVA: A Benchmark for Vision-Grounded Decision-Making with Human V
 year: 2024
 first_author: "[[Hu, Zhe]]"
 last_author: "[[Yin, Yu]]"
-authors: "[[Hu, Zhe]]; [[Ren, Yixiao]]; [[Li, Jing]]; [[Yin, Yu]]"
+authors: "Hu, Zhe; Ren, Yixiao; Li, Jing; Yin, Yu"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.03000"
 external_pdf: "https://arxiv.org/pdf/2407.03000.pdf"

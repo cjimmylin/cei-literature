@@ -22,8 +22,11 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2023-Lee-KoSBI|KoSBI]]
+- [[2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large|KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application]]
 - [[2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable|SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration]]
 
 ## Notes
@@ -33,6 +36,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large*: Affiliation: University of Richmond, Email: youngerous@gmail.com
+- *From 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large*: Affiliation: University of Richmond, Email: youngerous@gmail.com
 - *From 2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable*: Affiliation: University of Richmond, Email: seokhee.hong@vision.snu.ac.kr
 - *From 2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable*: Affiliation: University of Richmond, Email: seokhee.hong@vision.snu.ac.kr
 - *From 2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable*: Affiliation: University of Richmond, Email: seokhee.hong@vision.snu.ac.kr

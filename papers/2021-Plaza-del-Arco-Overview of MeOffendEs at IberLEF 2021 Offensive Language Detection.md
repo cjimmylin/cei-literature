@@ -17,7 +17,7 @@ short_title: "Overview of MeOffendEs at IberLEF 2021: Offensive Language Detecti
 year: 2021
 first_author: "[[Plaza-del-Arco, F.]]"
 last_author: "[[Villaseñor-Pineda, Luis]]"
-authors: "[[Plaza-del-Arco, F.]]; [[Casavantes, Marco]]; [[Escalante, Hugo Jair]]; [[Valdivia, M. T. M.]]; [[Montejo-Ráez, Arturo]]; [[Gómez, M. M. Y.]]; [[Jarquín-Vásquez, H.]]; [[Villaseñor-Pineda, Luis]]"
+authors: "Plaza-del-Arco, F.; Casavantes, Marco; Escalante, Hugo Jair; Valdivia, M. T. M.; Montejo-Ráez, Arturo; Gómez, M. M. Y.; Jarquín-Vásquez, H.; Villaseñor-Pineda, Luis"
 authors_incomplete: false
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6388"
 external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6388/3808"

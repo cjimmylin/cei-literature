@@ -19,7 +19,7 @@ short_title: "Lexical Sentiment and Correlation Analysis of"
 year: 2024
 first_author: "[[Felipe-Ruiz, Alonso]]"
 last_author: "[[Alonso Felipe-Ruiz]]"
-authors: "[[Alonso Felipe-Ruiz]]"
+authors: Alonso Felipe-Ruiz
 authors_incomplete: false
 url: 
 external_pdf: 

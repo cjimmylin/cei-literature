@@ -26,8 +26,11 @@ Margaret Mitchell is a Research Scientist and Chief Ethics Scientist at Hugging 
 
 
 
+
+
 - [[2025-Mitchell-SHADES|SHADES]] (First Author)
 - [[2024-Pistilli-CIVICS|CIVICS]] (Last Author)
+- [[2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in|CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models]] (Last Author)
 
 ## Notes
 
@@ -36,6 +39,10 @@ Margaret Mitchell is a Research Scientist and Chief Ethics Scientist at Hugging 
 
 
 
+
+
+- *From 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in*: Affiliation: University of Amsterdam
+- *From 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in*: Affiliation: University of Amsterdam
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co

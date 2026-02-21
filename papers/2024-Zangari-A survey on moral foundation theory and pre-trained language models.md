@@ -15,8 +15,8 @@ type: conferencePaper
 short_title: "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY"
 year: 2024
 first_author: "[[Zangari, Lorenzo]]"
-last_author: "[[Tagarelli, A]]"
-authors: "[[Zangari, Lorenzo]]; [[Greco, C. M.]]; [[Picca, Davide]]; [[Tagarelli, A.]]"
+last_author: "[[Tagarelli, A.]]"
+authors: "Zangari, Lorenzo; Greco, C. M.; Picca, Davide; Tagarelli, A."
 authors_incomplete: false
 doi: 10.1007/s00146-025-02225-w
 url: "https://link.springer.com/article/10.1007/s00146-025-02225-w"

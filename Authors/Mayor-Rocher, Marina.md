@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for|Spanish Is Not Just One: A Dataset of Spanish Dialect Recognition for LLMs]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for*: Affiliation: lable at ScienceDirect
+- *From 2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for*: Affiliation: lable at ScienceDirect
 - *From 2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for*: Affiliation: lable at ScienceDirect
 - *From 2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for*: Affiliation: lable at ScienceDirect
 - *From 2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for*: Affiliation: lable at ScienceDirect

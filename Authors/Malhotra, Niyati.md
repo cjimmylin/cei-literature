@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of|HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter]]
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of*: Affiliation: University of Oxford, 2World Bank, 3New York University
+- *From 2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of*: Affiliation: University of Oxford, 2World Bank, 3New York University
 - *From 2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of*: Affiliation: University of Oxford, 2World Bank, 3New York University
 - *From 2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of*: Affiliation: University of Oxford, 2World Bank, 3New York University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

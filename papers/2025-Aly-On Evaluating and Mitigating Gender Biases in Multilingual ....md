@@ -16,7 +16,7 @@ short_title: "On Evaluating and Mitigating Gender Biases in Multilingual ..."
 year: 2025
 first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
-authors: "Ranwa Aly, Yara Allam, Rana Gaber"
+authors: Ranwa Aly; Yara Allam; Rana Gaber
 url: "https://aclanthology.org/2023.findings-acl.21.pdf"
 external_pdf: "https://arxiv.org/pdf/2307.01503v1.pdf"
 publication: "ACL Anthology"

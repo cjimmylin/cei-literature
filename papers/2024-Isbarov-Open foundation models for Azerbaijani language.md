@@ -18,7 +18,7 @@ short_title: "Open foundation models for Azerbaijani language"
 year: 2024
 first_author: "[[Jafar Isbarov]]"
 last_author: "[[Duygu Ataman]]"
-authors: "[[Jafar Isbarov]]; [[Kavsar Huseynova]]; [[Elvin Mammadov]]; [[Mammad Hajili]]; [[Duygu Ataman]]"
+authors: Jafar Isbarov; Kavsar Huseynova; Elvin Mammadov; Mammad Hajili; Duygu Ataman
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.02337"
 external_pdf: "https://arxiv.org/pdf/2407.02337.pdf"

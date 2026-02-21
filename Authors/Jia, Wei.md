@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Li-LegalAgentBench|LegalAgentBench]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
+- *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
 - *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
 - *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
 - *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn

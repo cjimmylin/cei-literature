@@ -18,7 +18,7 @@ short_title: "SEA-LION Southeast Asian Languages in One"
 year: 2025
 first_author: "[[team, AI Singapore]]"
 last_author: "[[AI Singapore team]]"
-authors: "[[AI Singapore team]]"
+authors: AI Singapore team
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.05747"
 external_pdf: "https://arxiv.org/pdf/2504.05747.pdf"

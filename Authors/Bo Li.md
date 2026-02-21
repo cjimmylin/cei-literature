@@ -54,6 +54,8 @@ She has received some of the most prestigious awards in AI, including the IJCAI 
 
 
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal|SORRY-Bench -- Systematically Evaluating LLM Safety Refusal]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
@@ -80,6 +82,10 @@ She has received some of the most prestigious awards in AI, including the IJCAI 
 
 
 
+
+
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu

@@ -15,7 +15,7 @@ short_title: "Evalita-LLM: Benchmarking Large Language Models on Italian"
 year: 2025
 first_author: "[[Magnini, Bernardo]]"
 last_author: "[[Patti, Viviana]]"
-authors: "[[Magnini, Bernardo]]; [[Zanoli, Roberto]]; [[Resta, Michele]]; [[Cimmino, Martin]]; [[Albano, Paolo]]; [[Madeddu, Marco]]; [[Patti, Viviana]]"
+authors: "Magnini, Bernardo; Zanoli, Roberto; Resta, Michele; Cimmino, Martin; Albano, Paolo; Madeddu, Marco; Patti, Viviana"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.02289"
 external_pdf: "https://arxiv.org/pdf/2502.02289.pdf"

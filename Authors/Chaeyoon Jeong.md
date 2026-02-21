@@ -51,6 +51,8 @@ Jeong's work has been published in top-tier venues like ACL (Findings), where he
 
 
 
+
+
 - [[2024-Kim-How Do Moral Emotions Shape Political|How Do Moral Emotions Shape Political]]
 - [[2023-Kim-KOME|KOME]]
 
@@ -66,6 +68,10 @@ Jeong's work has been published in top-tier venues like ACL (Findings), where he
 
 
 
+
+
+- *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
+- *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr

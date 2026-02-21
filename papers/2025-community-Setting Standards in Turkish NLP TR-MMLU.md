@@ -18,7 +18,7 @@ short_title: "Setting Standards in Turkish NLP TR-MMLU"
 year: 2025
 first_author: "[[community), Multiple authors (Turkish NLP]]"
 last_author: "[[Multiple authors (Turkish NLP community)]]"
-authors: "[[Multiple authors (Turkish NLP community)]]"
+authors: Multiple authors (Turkish NLP community)
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.00593"
 external_pdf: "https://arxiv.org/pdf/2501.00593.pdf"

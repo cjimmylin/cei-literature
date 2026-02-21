@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages|Towards Multilingual LLM Evaluation for European Languages]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany
+- *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany
 - *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany
 - *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany
 - *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany

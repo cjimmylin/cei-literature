@@ -1,9 +1,9 @@
 ---
 name: "Nurul Aisyah"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School Exams in Indonesia A - PDF Extract'"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "nurulaisyah.inc@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense|IndoCulture Exploring Geographically-Influenced Cultural Commonsense]]
+
+- [[2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A|Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A*: Affiliation: School Exams in Indonesia A - PDF Extract", Email: nurulaisyah.inc@gmail.com
+- *From 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A*: Affiliation: School Exams in Indonesia A - PDF Extract", Email: nurulaisyah.inc@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

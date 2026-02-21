@@ -16,7 +16,7 @@ short_title: "Adversarial Alignment: Ensuring Value Consistency in Large Languag
 year: 2026
 first_author: "[[Yuan Gao]]"
 last_author: "[[Xiaobing Zhao]]"
-authors: Yuan Gao, Zhigang Liu, Xinyu Yao, Bo Chen, Xiaobing Zhao
+authors: Yuan Gao; Zhigang Liu; Xinyu Yao; Bo Chen; Xiaobing Zhao
 url: "https://arxiv.org/abs/2601.13137"
 external_pdf: "https://arxiv.org/pdf/2601.13137.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Yuan Gao]], [[Zhigang Liu]], [[Xin Yao|Xinyu Yao]], [[Bo Chen]], [[Xiaobing Zhao]]
+[[Yuan Gao]], [[Zhigang Liu]], [[Xinyu Yao]], [[Bo Chen]], [[Xiaobing Zhao]]
 
 ## Metadata
 

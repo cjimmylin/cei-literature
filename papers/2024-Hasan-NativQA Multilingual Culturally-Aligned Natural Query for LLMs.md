@@ -16,7 +16,7 @@ short_title: "NativQA: Multilingual Culturally-Aligned Natural Query for LLMs"
 year: 2024
 first_author: "[[Md Arid Hasan]]"
 last_author: "[[Firoj Alam]]"
-authors: Md Arid Hasan, Maram Hasanain, Fatema Ahmad, Sahinur Rahman Laskar, Sunaya Upadhyay, Vrunda N Sukhadia, Mucahid Kutlu, Shammur Absar Chowdhury, Firoj Alam
+authors: Md Arid Hasan; Maram Hasanain; Fatema Ahmad; Sahinur Rahman Laskar; Sunaya Upadhyay; Vrunda N Sukhadia; Mucahid Kutlu; Shammur Absar Chowdhury; Firoj Alam
 url: "https://arxiv.org/abs/2407.09823"
 external_pdf: "https://arxiv.org/pdf/2407.09823.pdf"
 publication: arXiv / ACL 2025 Findings

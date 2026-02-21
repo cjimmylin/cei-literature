@@ -16,7 +16,7 @@ short_title: "EthicsSuite: Detecting Behavioral Inconsistency in LLM Ethics Sugg
 year: 2025
 first_author: "[[Pingchuan Ma]]"
 last_author: "[[Wang, Shuai]]"
-authors: "[[Ma, Pingchuan]]; [[Li, Zongjie]]; [[Sun, Ao]]; [[Wang, Shuai]]"
+authors: "Ma, Pingchuan; Li, Zongjie; Sun, Ao; Wang, Shuai"
 doi: 10.1145/3722554
 url: "https://doi.org/10.1145/3722554"
 publication: "ACM TOSEM"

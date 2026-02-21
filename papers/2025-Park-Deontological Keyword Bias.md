@@ -16,7 +16,7 @@ short_title: "Deontological Keyword Bias"
 year: 2025
 first_author: "[[Bumjin Park]]"
 last_author: "[[Jaesik Choi]]"
-authors: "[[Bumjin Park]], [[Jinsil Lee]], [[Jaesik Choi]]"
+authors: Bumjin Park; Jinsil Lee; Jaesik Choi
 doi: 10.48550/arXiv.2506.11068
 tags: "Computer Science - Computation and Language"
 url: "http://arxiv.org/abs/2506.11068"

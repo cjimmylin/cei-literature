@@ -1,7 +1,7 @@
 ---
 name: "Moura, Vitor D. de"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Lab Multilingual Dual-Framing Framework - PDF Extract'"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: "gioele.giachino@gmail.com"
 research_interests:
@@ -58,10 +58,9 @@ twitter: ""
 
 
 
+
+
 - [[2026-Guey-BiasLab Multilingual Dual-Framing Framework|BiasLab (Multilingual Dual-Framing Framework)]]
-- [[2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in|An Empirical Investigation of Gender Stereotype Representation in Large Language Models: The Italian Case]] (Last Author)
-- [[2024-Mello-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on|PeLLE: Encoder-based Language Models for Brazilian Portuguese Based on Open Data]] (First Author)
-- [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 
 ## External Links & Profiles
 
@@ -90,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Guey-BiasLab Multilingual Dual-Framing Framework*: Affiliation: Lab Multilingual Dual-Framing Framework - PDF Extract"
+- *From 2026-Guey-BiasLab Multilingual Dual-Framing Framework*: Affiliation: Lab Multilingual Dual-Framing Framework - PDF Extract"
 - *From 2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in*:, Email: gioele.giachino@gmail.com
 - *From 2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in*:, Email: gioele.giachino@gmail.com
 - *From 2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in*:, Email: gioele.giachino@gmail.com

@@ -15,8 +15,8 @@ type: preprint
 short_title: "Multilingual European Language Models: Benchmarking Approaches and Challenges"
 year: 2025
 first_author: "[[Fabio Barth]]"
-last_author: "[[Georg Rehm Fabio Barth]]"
-authors: "Fabio Barth, Georg Rehm"
+last_author: "[[Georg Rehm]]"
+authors: Fabio Barth; Georg Rehm
 url: "https://arxiv.org/abs/2502.12895"
 external_pdf: "https://arxiv.org/pdf/2502.12895.pdf"
 publication: arXiv
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Georg Rehm Fabio Barth]]
+[[Fabio Barth]], [[Georg Rehm]]
 
 ## Metadata
 

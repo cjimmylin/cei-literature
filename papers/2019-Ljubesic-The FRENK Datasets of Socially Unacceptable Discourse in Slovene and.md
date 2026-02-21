@@ -17,7 +17,7 @@ short_title: "The FRENK Datasets of Socially Unacceptable Discourse in Slovene a
 year: 2019
 first_author: "[[Nikola Ljubesic]]"
 last_author: "[[Tomaz Erjavec]]"
-authors: "Nikola Ljubesic, Darja Fiser, Tomaz Erjavec"
+authors: Nikola Ljubesic; Darja Fiser; Tomaz Erjavec
 doi: 10.1007/978-3-030-27947-9_9
 url: "https://link.springer.com/chapter/10.1007/978-3-030-27947-9_9"
 external_pdf: "https://arxiv.org/pdf/1906.02045v2.pdf"

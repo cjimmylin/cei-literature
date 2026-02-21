@@ -15,7 +15,7 @@ key: EXSR0065
 type: journalArticle
 short_title: "Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)"
 year: 2025
-first_author: "[[L. Jiang]]"
+first_author: "[[Liwei Jiang]]"
 last_author: "[[Yejin Choi]]"
 authors: "Liwei Jiang; Jena D. Hwang; Chandra Bhagavatula; Ronan Le Bras; Jenny T. Liang; Sydney Levine; Jesse Dodge; Keisuke Sakaguchi; Maxwell Forbes; Jack Hessel; Jon Borchardt; Taylor Sorensen; Saadia Gabriel; Yulia Tsvetkov; Oren Etzioni; Maarten Sap; Regina Rini; Yejin Choi"
 doi: 10.1038/s42256-024-00969-6
@@ -54,7 +54,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Liwei Jiang]], [[Jena D. Hwang]], [[Chandra Bhagavatula]], [[Ronan Le Bras]], [[Jenny Liang|Jenny T. Liang]], [[Sydney Levine]], [[Jesse Dodge]], [[Keisuke Sakaguchi]], [[Maxwell Forbes]], [[Jack Hessel]], [[Jon Borchardt]], [[Taylor Sorensen]], [[Saadia Gabriel]], [[Yulia Tsvetkov]], [[Oren Etzioni]], [[Maarten Sap]], [[Regina Rini]], [[Yejin Choi]]
+[[Liwei Jiang]], [[Jena D. Hwang]], [[Chandra Bhagavatula]], [[Ronan Le Bras]], [[Jenny T. Liang]], [[Sydney Levine]], [[Jesse Dodge]], [[Keisuke Sakaguchi]], [[Maxwell Forbes]], [[Jack Hessel]], [[Jon Borchardt]], [[Taylor Sorensen]], [[Saadia Gabriel]], [[Yulia Tsvetkov]], [[Oren Etzioni]], [[Maarten Sap]], [[Regina Rini]], [[Yejin Choi]]
 
 ## Metadata
 

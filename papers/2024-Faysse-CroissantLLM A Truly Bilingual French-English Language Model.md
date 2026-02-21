@@ -15,7 +15,7 @@ short_title: "CroissantLLM: A Truly Bilingual French-English Language Model"
 year: 2024
 first_author: "[[Faysse, Manuel]]"
 last_author: "[[Colombo, Pierre]]"
-authors: "[[Faysse, Manuel]]; [[Fernandes, Patrick]]; [[Guerreiro, Nuno M.]]; [[Loison, António]]; [[Alves, Duarte M.]]; [[Corro, Caio]]; [[Boizard, Nicolas]]; [[Alves, João]]; [[Rei, Ricardo]]; [[Martins, Pedro H.]]; [[Casademunt, Antoni Bigata]]; [[Yvon, François]]; [[Martins, André F. T.]]; [[Viaud, Gautier]]; [[Hudelot, Céline]]; [[Colombo, Pierre]]"
+authors: "Faysse, Manuel; Fernandes, Patrick; Guerreiro, Nuno M.; Loison, António; Alves, Duarte M.; Corro, Caio; Boizard, Nicolas; Alves, João; Rei, Ricardo; Martins, Pedro H.; Casademunt, Antoni Bigata; Yvon, François; Martins, André F. T.; Viaud, Gautier; Hudelot, Céline; Colombo, Pierre"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2402.00786"
 external_pdf: "https://arxiv.org/pdf/2402.00786.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Faysse, Manuel]], [[Fernandes, Patrick]], [[Guerreiro, Nuno M]], [[Loison, António]], [[Alves, Duarte M]], [[Corro, Caio]], [[Berberich, Nicolas|Boizard, Nicolas]], [[Alves, João]], [[Rei, Ricardo]], [[Martins, Pedro H]], [[Casademunt, Antoni Bigata]], [[Yvon, François]], [[Martins, André F. T]], [[Viaud, Gautier]], [[Hudelot, Céline]], [[Colombo, Pierre]]
+[[Faysse, Manuel]], [[Fernandes, Patrick]], [[Guerreiro, Nuno M]], [[Loison, António]], [[Alves, Duarte M]], [[Corro, Caio]], [[Boizard, Nicolas]], [[Alves, João]], [[Rei, Ricardo]], [[Martins, Pedro H]], [[Casademunt, Antoni Bigata]], [[Yvon, François]], [[Martins, André F. T]], [[Viaud, Gautier]], [[Hudelot, Céline]], [[Colombo, Pierre]]
 
 ## Metadata
 

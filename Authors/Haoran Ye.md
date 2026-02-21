@@ -42,6 +42,8 @@ Haoran Ye is a first-year AI PhD student at Peking University, advised by Prof. 
 
 
 
+
+
 - [[2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems|GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems]] (First Author)
 - [[2025-Ye-Large Language Model Psychometrics|Large Language Model Psychometrics]] (First Author)
 - [[2024-Ren-ValueBench|ValueBench]]
@@ -54,6 +56,10 @@ Haoran Ye is a first-year AI PhD student at Peking University, advised by Prof. 
 
 
 
+
+
+- *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
+- *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
 - *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
 - *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
 - *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities|Towards a Complete Kurdish NLP Pipeline: Challenges and Opportunities]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities*: Affiliation: Department of Information Technology, Technical College of Informatics-Akre, Duhok Polytechnic University, Duh, Email: karwan.jacksi@uoz.edu.krd
+- *From 2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities*: Affiliation: Department of Information Technology, Technical College of Informatics-Akre, Duhok Polytechnic University, Duh, Email: karwan.jacksi@uoz.edu.krd
 - *From 2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities*: Affiliation: Department of Information Technology, Technical College of Informatics-Akre, Duhok Polytechnic University, Duh, Email: karwan.jacksi@uoz.edu.krd
 - *From 2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities*: Affiliation: Department of Information Technology, Technical College of Informatics-Akre, Duhok Polytechnic University, Duh, Email: Ismael.Ali@uoz.edu.krd
 - *From 2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities*: Affiliation: Department of Information Technology, Technical College of Informatics-Akre, Duhok Polytechnic University, Duh, Email: Ismael.Ali@uoz.edu.krd

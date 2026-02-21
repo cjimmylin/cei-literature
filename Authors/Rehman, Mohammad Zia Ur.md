@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable|X-MuTeST A Multilingual Benchmark for Explainable]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable*: Affiliation: Institute of Technology Indore, Madhya Pradesh India, Email: phd2101201005@iiti.ac.in
+- *From 2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable*: Affiliation: Institute of Technology Indore, Madhya Pradesh India, Email: phd2101201005@iiti.ac.in
 - *From 2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable*: Affiliation: Institute of Technology Indore, Madhya Pradesh India, Email: phd2101201005@iiti.ac.in
 - *From 2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable*: Affiliation: Institute of Technology Indore, Madhya Pradesh India, Email: b21322@students.iitmandi.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

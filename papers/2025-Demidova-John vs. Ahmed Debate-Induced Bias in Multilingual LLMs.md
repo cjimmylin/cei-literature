@@ -17,8 +17,8 @@ type: conferencePaper
 short_title: "John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs"
 year: 2025
 first_author: "[[Anastasiia Demidova]]"
-last_author: "[[Sanad Sha Nour Rabih]]"
-authors: "Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha"
+last_author: "[[Sanad Sha]]"
+authors: Anastasiia Demidova; Hanin Atwany; Nour Rabih; Sanad Sha
 url: "https://aclanthology.org/2024.arabicnlp-1.18.pdf"
 external_pdf: "https://aclanthology.org/2024.arabicnlp-1.18.pdf"
 publication: "ACL Anthology"
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Hanin Atwany Anastasiia Demidova]], [[Sanad Sha Nour Rabih]]
+[[Anastasiia Demidova]], [[Hanin Atwany]], [[Nour Rabih]], [[Sanad Sha]]
 
 ## Metadata
 

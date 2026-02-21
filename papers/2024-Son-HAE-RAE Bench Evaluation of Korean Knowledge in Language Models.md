@@ -17,7 +17,7 @@ short_title: "HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models"
 year: 2024
 first_author: "[[Guijin Son]]"
 last_author: "[[Songseong Kim]]"
-authors: "Guijin Son, Hanwool Lee, Suwan Kim, Huiseo Kim, Jaecheol Lee, Je Won Yeom, Jihyu Jung, Jung Woo Kim, Songseong Kim"
+authors: Guijin Son; Hanwool Lee; Suwan Kim; Huiseo Kim; Jaecheol Lee; Je Won Yeom; Jihyu Jung; Jung Woo Kim; Songseong Kim
 doi: 10.18653/v1/2024.lrec-main.704
 url: "https://arxiv.org/abs/2309.02706"
 external_pdf: "https://arxiv.org/pdf/2309.02706.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "LREC-COLING 2024"
 
 ## Authors
 
-[[Guijin Son]], [[Hwaran Lee|Hanwool Lee]], [[Suwan Kim]], [[Huiseo Kim]], [[Jaecheol Lee]], [[Je Won Yeom]], [[Jihyu Jung]], [[Jung Woo Kim]], [[Songseong Kim]]
+[[Guijin Son]], [[Hanwool Lee]], [[Suwan Kim]], [[Huiseo Kim]], [[Jaecheol Lee]], [[Je Won Yeom]], [[Jihyu Jung]], [[Jung Woo Kim]], [[Songseong Kim]]
 
 ## Metadata
 

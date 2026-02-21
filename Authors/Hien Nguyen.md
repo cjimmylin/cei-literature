@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering|ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering: System Overview, Core Models Training, and Evaluations]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering*: Affiliation: University of Orleans, INSA CVL, LIFO EA, France
+- *From 2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering*: Affiliation: University of Orleans, INSA CVL, LIFO EA, France
 - *From 2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering*: Affiliation: University of Orleans, INSA CVL, LIFO EA, France
 - *From 2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering*: Affiliation: University of Orleans, INSA CVL, LIFO EA, France
 - *From 2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering*: Affiliation: University of Orleans, INSA CVL, LIFO EA, France

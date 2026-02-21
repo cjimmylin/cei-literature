@@ -18,7 +18,7 @@ short_title: "PLLuM-Align: Polish Preference Dataset for Large Language Model Al
 year: 2025
 first_author: "[[Seweryn, Karolina]]"
 last_author: "[[Janz, Arkadiusz]]"
-authors: "[[Seweryn, Karolina]]; [[Kołos, Anna]]; [[Karlińska, Agnieszka]]; [[Lorenc, Katarzyna]]; [[Dziewulska, Katarzyna]]; [[Chrabaszcz, Maciej]]; [[Krasnodebska, Aleksandra]]; [[Betscher, Paula]]; [[Cieślińska, Zofia]]; [[Kowol, Katarzyna]]; [[Moska, Julia]]; [[Motyka, Dawid]]; [[Walkowiak, Paweł]]; [[Żuk, Bartosz]]; [[Janz, Arkadiusz]]"
+authors: "Seweryn, Karolina; Kołos, Anna; Karlińska, Agnieszka; Lorenc, Katarzyna; Dziewulska, Katarzyna; Chrabaszcz, Maciej; Krasnodebska, Aleksandra; Betscher, Paula; Cieślińska, Zofia; Kowol, Katarzyna; Moska, Julia; Motyka, Dawid; Walkowiak, Paweł; Żuk, Bartosz; Janz, Arkadiusz"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.emnlp-main.1219/"
 external_pdf: "https://aclanthology.org/2025.emnlp-main.1219.pdf"

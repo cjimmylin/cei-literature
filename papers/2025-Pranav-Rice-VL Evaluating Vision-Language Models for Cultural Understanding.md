@@ -16,7 +16,7 @@ short_title: "Rice-VL: Evaluating Vision-Language Models for Cultural Understand
 year: 2025
 first_author: "[[Pranav, Tushar]]"
 last_author: "[[Lock, Donny Soh Cheng]]"
-authors: "[[Pranav, Tushar]]; [[Pandey, Eshan]]; [[Bala, Austria Lyka Diane]]; [[Chadha, Aman]]; [[Atmosukarto, Indriyati]]; [[Lock, Donny Soh Cheng]]"
+authors: "Pranav, Tushar; Pandey, Eshan; Bala, Austria Lyka Diane; Chadha, Aman; Atmosukarto, Indriyati; Lock, Donny Soh Cheng"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.01419"
 external_pdf: "https://arxiv.org/pdf/2512.01419.pdf"

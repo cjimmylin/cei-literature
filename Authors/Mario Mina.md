@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Ruiz-Fernández-EsBBQ and CaBBQ|EsBBQ and CaBBQ]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
+- *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es

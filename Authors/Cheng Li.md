@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of|CultureVLM: Characterizing and Improving Cultural Understanding of Vision-Language Models for over 100 Countries]]
+- [[2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language|CulturePark: Boosting Cross-cultural Understanding in Large Language Models]] (First Author)
 - [[2024-Xie-CultureLLM Incorporating Cultural Differences into Large|CultureLLM Incorporating Cultural Differences into Large]] (First Author)
 
 ## External Links & Profiles
@@ -88,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language*: Affiliation: Institute of Software, CAS, Email: jwang80@wm.edu
+- *From 2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language*: Affiliation: Institute of Software, CAS, Email: jwang80@wm.edu
 - *From 2024-Xie-CultureLLM Incorporating Cultural Differences into Large*: Affiliation: Institute of Software, CAS, Email: xing.xie@microsoft.com
 - *From 2024-Xie-CultureLLM Incorporating Cultural Differences into Large*: Affiliation: Institute of Software, CAS, Email: mengzhuo.happy@gmail.com
 - *From 2024-Xie-CultureLLM Incorporating Cultural Differences into Large*: Affiliation: Institute of Software, CAS, Email: Sunayana.Sitaram@microsoft.com

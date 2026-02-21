@@ -18,7 +18,7 @@ short_title: "K-Viscuit: Evaluating Visual and Cultural Interpretation with Huma
 year: 2024
 first_author: "[[Donghyun Baek]]"
 last_author: "[[Jonghwan Hyeon]]"
-authors: "Donghyun Baek, Sangwon Park, Donghyeon Jeon, Yohan Choi, Jonghwan Hyeon"
+authors: Donghyun Baek; Sangwon Park; Donghyeon Jeon; Yohan Choi; Jonghwan Hyeon
 doi: 10.18653/v1/2025.acl-long.1066
 url: "https://arxiv.org/abs/2406.16469"
 external_pdf: "https://arxiv.org/pdf/2406.16469.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Donghyun Baek]], [[Sangwon Park]], [[Donghyeon Jeon]], [[Yejin Choi|Yohan Choi]], [[Joonseo Hyeon|Jonghwan Hyeon]]
+[[Donghyun Baek]], [[Sangwon Park]], [[Donghyeon Jeon]], [[Yohan Choi]], [[Jonghwan Hyeon]]
 
 ## Metadata
 

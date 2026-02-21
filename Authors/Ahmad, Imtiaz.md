@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on|Frontiers | Cross-dialectal Arabic translation: comparative analysis on large language models]]
 
 ## External Links & Profiles
@@ -84,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on*: Affiliation: University of Petroleum and, Email: s.abed@ku.edu.kw
+- *From 2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on*: Affiliation: University of Petroleum and, Email: s.abed@ku.edu.kw
 - *From 2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on*: Affiliation: University of Petroleum and, Email: s.abed@ku.edu.kw
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

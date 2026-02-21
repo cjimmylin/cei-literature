@@ -17,7 +17,7 @@ short_title: "Towards Multilingual LLM Evaluation for Baltic and Nordic Language
 year: 2025
 first_author: "[[Yevhen Kostiuk]]"
 last_author: "[[Artur Kiulian]]"
-authors: "[[Yevhen Kostiuk]]; [[Oxana Vitman]]; [[Łukasz Gagała]]; [[Artur Kiulian]]"
+authors: Yevhen Kostiuk; Oxana Vitman; Łukasz Gagała; Artur Kiulian
 url: "https://arxiv.org/abs/2501.09154"
 external_pdf: "https://arxiv.org/pdf/2501.09154.pdf"
 publication: arXiv

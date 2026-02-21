@@ -17,7 +17,7 @@ short_title: "Detecting gender bias in Arabic text through word embeddings | PLO
 year: 2025
 first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
-authors: "Ranwa Aly, Yara Allam, Rana Gaber"
+authors: Ranwa Aly; Yara Allam; Rana Gaber
 doi: 10.1371/journal.pone.0319301
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0319301"
 external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0319301&type=printable"

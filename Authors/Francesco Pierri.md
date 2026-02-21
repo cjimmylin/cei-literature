@@ -22,10 +22,13 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the|Nicer Than Humans: How Do Large Language Models Behave in the Prisoner's Dilemma?]]
 - [[2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI|Comparing diversity, negativity, and stereotypes in Chinese-language AI technologies: an investigation of Baidu, Ernie and Qwen - PMC]] (Last Author)
 - [[2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns|Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and Social Groups]] (Last Author)
 - [[2025-Saffari-Can I introduce my boyfriend to my grandmother|Can I introduce my boyfriend to my grandmother?]]
+- [[2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic|Toxic Bias: Perspective API Misreads German as More Toxic]]
 - [[2024-Saffari-PSN|PSN]]
 
 ## Notes
@@ -35,6 +38,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic*: Affiliation: University of Applied Sciences and, Email: gianluca.nogara@supsi.ch
+- *From 2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic*: Affiliation: University of Applied Sciences and, Email: gianluca.nogara@supsi.ch
 - *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: hamidreza.saffari@mail.polimi.it
 - *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: francesco.pierri@polimi.it
 - *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: hamidreza.saffari@mail.polimi.it

@@ -16,7 +16,7 @@ short_title: "FarsEval-PKBETS: A new diverse benchmark for evaluating Persian la
 year: 2025
 first_author: "[[Shamsfard, Mehrnoush]]"
 last_author: "[[Alipour, Sogol]]"
-authors: "[[Shamsfard, Mehrnoush]]; [[Saaberi, Zahra]]; [[manesh, Mostafa Karimi]]; [[Hashemi, Seyed Mohammad Hossein]]; [[Vatankhah, Zahra]]; [[Ramezani, Motahareh]]; [[Pourazin, Niki]]; [[Zare, Tara]]; [[Azimi, Maryam]]; [[Chitsaz, Sarina]]; [[Khoraminejad, Sama]]; [[Mortazavi, Morteza Mahdavi]]; [[Chizari, Mohammad Mahdi]]; [[Maleki, Sahar]]; [[Majd, Seyed Soroush]]; [[Masumi, Mostafa]]; [[Khoeini, Sayed Ali Musavi]]; [[Mohseni, Amir]]; [[Alipour, Sogol]]"
+authors: "Shamsfard, Mehrnoush; Saaberi, Zahra; manesh, Mostafa Karimi; Hashemi, Seyed Mohammad Hossein; Vatankhah, Zahra; Ramezani, Motahareh; Pourazin, Niki; Zare, Tara; Azimi, Maryam; Chitsaz, Sarina; Khoraminejad, Sama; Mortazavi, Morteza Mahdavi; Chizari, Mohammad Mahdi; Maleki, Sahar; Majd, Seyed Soroush; Masumi, Mostafa; Khoeini, Sayed Ali Musavi; Mohseni, Amir; Alipour, Sogol"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.14690"
 external_pdf: "https://arxiv.org/pdf/2504.14690.pdf"

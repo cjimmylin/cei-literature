@@ -18,7 +18,7 @@ short_title: "MTEB-NL and E5-NL: Embedding Benchmark and Models for Dutch"
 year: 2025
 first_author: "[[Nikolay Banar]]"
 last_author: "[[Walter Daelemans]]"
-authors: "[[Nikolay Banar]]; [[Ehsan Lotfi]]; [[Jens Van Nooten]]; [[Cristina Arhiliuc]]; [[Marija Kliocaite]]; [[Walter Daelemans]]"
+authors: Nikolay Banar; Ehsan Lotfi; Jens Van Nooten; Cristina Arhiliuc; Marija Kliocaite; Walter Daelemans
 url: "https://arxiv.org/abs/2509.12340"
 external_pdf: "https://arxiv.org/pdf/2509.12340.pdf"
 publication: arXiv

@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Suboh Alkhushayni]], [[Hwaran Lee|Hyesu Lee]]
+[[Suboh Alkhushayni]], [[Hyesu Lee]]
 
 ## Metadata
 

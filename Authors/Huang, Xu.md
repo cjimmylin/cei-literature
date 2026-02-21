@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...|BenchMAX: A Comprehensive Multilingual Evaluation ...]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...*: Affiliation: Laboratory for Novel Software Technology, Nanjing University, Email: heconghui@pjlab.org.cn
+- *From 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...*: Affiliation: Laboratory for Novel Software Technology, Nanjing University, Email: heconghui@pjlab.org.cn
 - *From 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...*: Affiliation: Laboratory for Novel Software Technology, Nanjing University, Email: huangsj@nju.edu.cn
 - *From 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...*: Affiliation: Laboratory for Novel Software Technology, Nanjing University, Email: huangsj@nju.edu.cn
 - *From 2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...*: Affiliation: Laboratory for Novel Software Technology, Nanjing University, Email: heconghui@pjlab.org.cn

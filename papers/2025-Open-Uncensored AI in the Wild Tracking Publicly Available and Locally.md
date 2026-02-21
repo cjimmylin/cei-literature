@@ -18,7 +18,7 @@ short_title: "Uncensored AI in the Wild: Tracking Publicly Available and Locally
 year: 2025
 first_author: "[[Ant Open]]"
 last_author: "[[Ant Open]]"
-authors: "[[Ant Open]]"
+authors: Ant Open
 url: "https://www.mdpi.com/1999-5903/17/10/477"
 publication: MDPI
 CONF-CC: "N/A"

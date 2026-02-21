@@ -78,7 +78,7 @@ Recent advancements in large language models (LLMs) have accelerated progress to
 
 ## Authors
 
-[[Kehua Feng]], [[Keyan Ding]], [[Yuhao Wang]], [[Menghan Li]], [[Furu Wei|Fanjunduo Wei]], [[Xinda Wang]], [[Qiang Zhang]], [[Huajun Chen]]
+[[Kehua Feng]], [[Keyan Ding]], [[Yuhao Wang]], [[Menghan Li]], [[Fanjunduo Wei]], [[Xinda Wang]], [[Qiang Zhang]], [[Huajun Chen]]
 
 ## Data Description
 

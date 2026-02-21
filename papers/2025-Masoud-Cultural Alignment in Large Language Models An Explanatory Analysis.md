@@ -16,7 +16,7 @@ short_title: "Cultural Alignment in Large Language Models: An Explanatory Analys
 year: 2025
 first_author: "[[Reem I. Masoud]]"
 last_author: "[[Miguel Rodrigues]]"
-authors: Reem I. Masoud, Ziquan Liu, Martin Ferianc, Philip Treleaven, Miguel Rodrigues
+authors: Reem I. Masoud; Ziquan Liu; Martin Ferianc; Philip Treleaven; Miguel Rodrigues
 url: "https://arxiv.org/abs/2309.12342"
 external_pdf: "https://arxiv.org/pdf/2309.12342.pdf"
 publication: COLING 2025

@@ -17,7 +17,7 @@ short_title: BeaverTails
 year: 2023
 first_author: "[[Ji, Jiaming]]"
 last_author: "[[Yang, Yaodong]]"
-authors: "[[Ji, Jiaming]]; [[Liu, Mickel]]; [[Dai, Juntao]]; [[Pan, Xuehai]]; [[Zhang, Chi]]; [[Bian, Ce]]; [[Zhang, Chi]]; [[Sun, Ruiyang]]; [[Wang, Yizhou]]; [[Yang, Yaodong]]"
+authors: "Ji, Jiaming; Liu, Mickel; Dai, Juntao; Pan, Xuehai; Zhang, Chi; Bian, Ce; Zhang, Chi; Sun, Ruiyang; Wang, Yizhou; Yang, Yaodong"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2307.04657"
 external_pdf: "https://arxiv.org/pdf/2307.04657.pdf"

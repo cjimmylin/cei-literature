@@ -19,7 +19,7 @@ short_title: "I2P: Inappropriate Image Prompts Test Bed"
 year: 2022
 first_author: "[[Schramowski, Patrick]]"
 last_author: "[[Kersting, Kristian]]"
-authors: "[[Schramowski, Patrick]]; [[Tauchmann, Christopher]]; [[Kersting, Kristian]]"
+authors: "Schramowski, Patrick; Tauchmann, Christopher; Kersting, Kristian"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2202.06675"
 external_pdf: "https://arxiv.org/pdf/2202.06675.pdf"

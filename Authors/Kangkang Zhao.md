@@ -22,7 +22,8 @@ semantic_scholar: ""
 
 
 
-- [[2024-Zhang-CHiSafetyBench|CHiSafetyBench]]
+
+
 - [[2023-Xu-SC-Safety|SC-Safety]]
 
 ## Notes
@@ -32,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
+- *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China

@@ -17,7 +17,7 @@ short_title: "Evaluating Implicit Bias in Large Language Models"
 year: 2025
 first_author: "[[Yuchen Wen]]"
 last_author: "[[Cheng, Xueqi]]"
-authors: "[[Wen, Yuchen]]; [[Bi, Keping]]; [[Chen, Wei]]; [[Guo, Jiafeng]]; [[Cheng, Xueqi]]"
+authors: "Wen, Yuchen; Bi, Keping; Chen, Wei; Guo, Jiafeng; Cheng, Xueqi"
 url: "https://aclanthology.org/2025.findings-acl.263/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FKYPKPUS/2025 - Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective.pdf"
 national_ethnic_cultural: "N/A"
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Yuchen Wen|Wen, Yuchen]], [[Keping Bi|Bi, Keping]], [[Wei Chen|Chen, Wei]], [[Jiafeng Guo|Guo, Jiafeng]], [[Xueqi Cheng|Cheng, Xueqi]]
+[[Yuchen Wen|Wen, Yuchen]], [[Keping Bi|Bi, Keping]], [[Wei Chen|Chen, Wei]], [[Jiafeng Guo|Guo, Jiafeng]], [[Cheng, Xueqi]]
 
 ## Links
 

@@ -19,7 +19,7 @@ short_title: "Leveraging Large Language Models for Code-Mixed"
 year: 2024
 first_author: "[[Linda Zeng]]"
 last_author: "[[Linda Zeng]]"
-authors: "[[Linda Zeng]]"
+authors: Linda Zeng
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.00691"
 external_pdf: "https://arxiv.org/pdf/2411.00691.pdf"

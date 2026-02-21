@@ -17,7 +17,9 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Sullins-Automated Ethical Practical Reasoning|Automated Ethical Practical Reasoning]]
+
+
+- [[2025-Sullins-Automated Ethical Practical Reasoning|Automated Ethical Practical Reasoning]] (Last Author)
 
 ## Notes
 

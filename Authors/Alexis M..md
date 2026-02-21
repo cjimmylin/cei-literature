@@ -1,6 +1,6 @@
 ---
 name: "Alexis M."
-affiliation: "University/Organization"
+affiliation: "University, Department of Thematic Studies – Gender Studies"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,14 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Elder-The Ethics of Digital Ghosts|The Ethics of Digital Ghosts]]
+
+
+- [[2025-Elder-The Ethics of Digital Ghosts|The Ethics of Digital Ghosts]] (Last Author)
 
 ## Notes
 
+
+
+- *From 2025-Elder-The Ethics of Digital Ghosts*: Affiliation: University, Department of Thematic Studies – Gender Studies
+- *From 2025-Elder-The Ethics of Digital Ghosts*: Affiliation: University, Department of Thematic Studies – Gender Studies
 [Additional context or contact information]

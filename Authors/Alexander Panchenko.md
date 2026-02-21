@@ -37,6 +37,10 @@ Alexander manages the development of standardized evaluation suites for non-Engl
 
 
 
+
+
+- [[2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025|Overview of the Multilingual Text Detoxification Task at PAN 2025]] (Last Author)
+- [[2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'|Geopolitical biases in LLMs: what are the 'good' and the 'bad' countries according to contemporary language models]]
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
 - [[2021-Dementieva-Methods for Detoxification of Texts for the Russian Language|Methods for Detoxification of Texts for the Russian Language]] (Last Author)
 
@@ -46,6 +50,10 @@ Alexander manages the development of standardized evaluation suites for non-Engl
 
 
 
+
+
+- *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
+- *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
 - *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
 - *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
 - *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia

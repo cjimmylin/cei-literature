@@ -18,7 +18,7 @@ short_title: "UrduBench An Urdu Reasoning Benchmark using"
 year: 2026
 first_author: "[[Shafique, Muhammad Ali]]"
 last_author: "[[Farooq, Hamza]]"
-authors: "[[Shafique, Muhammad Ali]]; [[Mehboob, Areej]]; [[Fiaz, Layba]]; [[Qadeer, Muhammad Usman]]; [[Farooq, Hamza]]"
+authors: "Shafique, Muhammad Ali; Mehboob, Areej; Fiaz, Layba; Qadeer, Muhammad Usman; Farooq, Hamza"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.21000"
 external_pdf: "https://arxiv.org/pdf/2601.21000.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Safinah Ali|Shafique, Muhammad Ali]], [[Mehboob, Areej]], [[Fiaz, Layba]], [[Qadeer, Muhammad Usman]], [[Farooq, Hamza]]
+[[Shafique, Muhammad Ali]], [[Mehboob, Areej]], [[Fiaz, Layba]], [[Qadeer, Muhammad Usman]], [[Farooq, Hamza]]
 
 ## Metadata
 

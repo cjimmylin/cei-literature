@@ -39,6 +39,8 @@ Elizaveta Tennant is a PhD student at the University of Bath, working on the int
 
 
 
+
+
 - [[2025-Tennant-Moral Alignment for LLM Agents|Moral Alignment for LLM Agents]] (First Author)
 - [[2025-Tennant-Moral Intrinsic Rewards for Alignment|Moral Intrinsic Rewards for Alignment]] (First Author)
 
@@ -49,6 +51,10 @@ Elizaveta Tennant is a PhD student at the University of Bath, working on the int
 
 
 
+
+
+- *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: l.karmannaya.16@ucl.ac.uk
+- *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: l.karmannaya.16@ucl.ac.uk
 - *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: s.hailes@ucl.ac.uk
 - *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: l.karmannaya.16@ucl.ac.uk
 - *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: m.musolesi@ucl.ac.uk

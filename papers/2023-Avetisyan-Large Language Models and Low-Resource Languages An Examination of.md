@@ -15,8 +15,8 @@ type: conferencePaper
 short_title: "Large Language Models and Low-Resource Languages: An Examination of Armenian NLP"
 year: 2023
 first_author: "[[Hayastan Avetisyan]]"
-last_author: "[[David Broneske Hayastan Avetisyan]]"
-authors: "Hayastan Avetisyan, David Broneske"
+last_author: "[[David Broneske]]"
+authors: Hayastan Avetisyan; David Broneske
 url: "https://aclanthology.org/2023.findings-ijcnlp.18/"
 external_pdf: "https://aclanthology.org/2023.findings-ijcnlp.18.pdf"
 publication: "ACL Anthology / IJCNLP-AACL 2023 Findings"
@@ -51,7 +51,7 @@ CONFERENCE: "ACL 2023"
 
 ## Authors
 
-[[David Broneske Hayastan Avetisyan]]
+[[Hayastan Avetisyan]], [[David Broneske]]
 
 ## Metadata
 

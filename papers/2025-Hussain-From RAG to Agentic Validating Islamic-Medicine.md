@@ -17,9 +17,9 @@ key: EXSR0370
 type: preprint
 short_title: "From RAG to Agentic Validating Islamic-Medicine"
 year: 2025
-first_author: "[[Mohammad Amaan Sayeed, Mohammed Talha Alam, Raza Imam, Shahab Saquib Sohail, Amir Hussain]]"
+first_author: "[[Mohammad Amaan Sayeed]]"
 last_author: "[[Amir Hussain]]"
-authors: "[[Mohammad Amaan Sayeed, Mohammed Talha Alam, Raza Imam, Shahab Saquib Sohail, Amir Hussain]]"
+authors: Mohammad Amaan Sayeed; Mohammed Talha Alam; Raza Imam; Shahab Saquib Sohail; Amir Hussain
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.15911"
 external_pdf: "https://arxiv.org/pdf/2506.15911.pdf"

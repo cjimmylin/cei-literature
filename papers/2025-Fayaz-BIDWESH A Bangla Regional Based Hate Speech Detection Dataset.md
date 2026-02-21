@@ -18,7 +18,7 @@ short_title: "BIDWESH: A Bangla Regional Based Hate Speech Detection Dataset"
 year: 2025
 first_author: "[[Fayaz, Azizul Hakim]]"
 last_author: "[[Manzoor, Shahriar]]"
-authors: "[[Fayaz, Azizul Hakim]]; [[Uddin, MD. Shorif]]; [[Bhuiyan, Rayhan Uddin]]; [[Sultana, Zakia]]; [[Islam, Md. Samiul]]; [[Paul, Bidyarthi]]; [[Muhammad, Tashreef]]; [[Manzoor, Shahriar]]"
+authors: "Fayaz, Azizul Hakim; Uddin, MD. Shorif; Bhuiyan, Rayhan Uddin; Sultana, Zakia; Islam, Md. Samiul; Paul, Bidyarthi; Muhammad, Tashreef; Manzoor, Shahriar"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.16183"
 external_pdf: "https://arxiv.org/pdf/2507.16183.pdf"

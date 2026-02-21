@@ -23,6 +23,8 @@ John Mellor is a researcher at Google DeepMind working on AI safety and the ethi
 
 
 
+
+
 - [[2022-Rauh-Characteristics of Harmful Text|Characteristics of Harmful Text]]
 - [[2021-Weidinger-Ethical and social risks of harm from Language|Ethical and social risks of harm from Language]]
 
@@ -33,6 +35,10 @@ John Mellor is a researcher at Google DeepMind working on AI safety and the ethi
 
 
 
+
+
+- *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
+- *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin

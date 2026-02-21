@@ -18,7 +18,7 @@ short_title: "IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech a
 year: 2024
 first_author: "[[Susanto, Lucky]]"
 last_author: "[[Wijaya, Derry]]"
-authors: "[[Susanto, Lucky]]; [[Wijanarko, Musa Izzanardi]]; [[Pratama, Prasetia Anugrah]]; [[Hong, Traci]]; [[Idris, Ika]]; [[Aji, Alham Fikri]]; [[Wijaya, Derry]]"
+authors: "Susanto, Lucky; Wijanarko, Musa Izzanardi; Pratama, Prasetia Anugrah; Hong, Traci; Idris, Ika; Aji, Alham Fikri; Wijaya, Derry"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.19349"
 external_pdf: "https://arxiv.org/pdf/2406.19349.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Susanto, Lucky]], [[Wijanarko, Musa Izzanardi]], [[Pratama, Prasetia Anugrah]], [[Hong, Traci]], [[Idris, Ika]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Wijaya, Derry]]
+[[Susanto, Lucky]], [[Wijanarko, Musa Izzanardi]], [[Pratama, Prasetia Anugrah]], [[Hong, Traci]], [[Idris, Ika]], [[Aji, Alham Fikri]], [[Wijaya, Derry]]
 
 ## Metadata
 

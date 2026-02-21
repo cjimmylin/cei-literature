@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zulaika-BasqBBQ Basque BBQ|BasqBBQ (Basque BBQ)]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zulaika-BasqBBQ Basque BBQ*: Affiliation: Research Institute, Email: fatma.elsafoury@fokus.fraunhofer.de
+- *From 2025-Zulaika-BasqBBQ Basque BBQ*: Affiliation: Research Institute, Email: fatma.elsafoury@fokus.fraunhofer.de
 - *From 2025-Zulaika-BasqBBQ Basque BBQ*: Affiliation: Research Institute, Email: fatma.elsafoury@fokus.fraunhofer.de
 - *From 2025-Zulaika-BasqBBQ Basque BBQ*: Affiliation: Research Institute, Email: fatma.elsafoury@fokus.fraunhofer.de
 - *From 2025-Zulaika-BasqBBQ Basque BBQ*: Affiliation: Research Institute, Email: fatma.elsafoury@fokus.fraunhofer.de

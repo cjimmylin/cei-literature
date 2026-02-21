@@ -15,7 +15,7 @@ short_title: "Pre-training Data Quality and Quantity for a Low-Resource Language
 year: 2022
 first_author: "[[Micallef, Kurt]]"
 last_author: "[[Borg, Claudia]]"
-authors: "[[Micallef, Kurt]]; [[Gatt, Albert]]; [[Tanti, Marc]]; [[Plas, Lonneke van der]]; [[Borg, Claudia]]"
+authors: "Micallef, Kurt; Gatt, Albert; Tanti, Marc; Plas, Lonneke van der; Borg, Claudia"
 authors_incomplete: false
 url: "https://aclanthology.org/2022.deeplo-1.10/"
 external_pdf: "https://arxiv.org/pdf/2205.10517.pdf"

@@ -15,7 +15,7 @@ short_title: "Low-Resource Dialect Adaptation of Large Language Models: A French
 year: 2025
 first_author: "[[Khan, Eeham]]"
 last_author: "[[Kosseim, Leila]]"
-authors: "[[Khan, Eeham]]; [[Saidani, Firas]]; [[Van Esbroeck, Owen]]; [[Khoury, Richard]]; [[Kosseim, Leila]]"
+authors: "Khan, Eeham; Saidani, Firas; Van Esbroeck, Owen; Khoury, Richard; Kosseim, Leila"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.22747"
 external_pdf: "https://arxiv.org/pdf/2510.22747.pdf"

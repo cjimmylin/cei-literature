@@ -14,8 +14,8 @@ type: preprint
 short_title: "GreekBarBench: A Challenging Benchmark for Free-Text Legal Reasoning and Citations"
 year: 2025
 first_author: "[[Odysseas S. Chlapanis]]"
-last_author: "[[Ion Androutsopoulos Nikolaos Aletras]]"
-authors: "Odysseas S. Chlapanis, Dimitrios Galanis, Nikolaos Aletras, Ion Androutsopoulos"
+last_author: "[[Ion Androutsopoulos]]"
+authors: Odysseas S. Chlapanis; Dimitrios Galanis; Nikolaos Aletras; Ion Androutsopoulos
 url: "https://arxiv.org/abs/2505.17267"
 external_pdf: "https://arxiv.org/pdf/2505.17267.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Dimitrios Galanis Odysseas S. Chlapanis]], [[Ion Androutsopoulos Nikolaos Aletras]]
+[[Odysseas S. Chlapanis]], [[Dimitrios Galanis]], [[Nikolaos Aletras]], [[Ion Androutsopoulos]]
 
 ## Metadata
 

@@ -53,6 +53,8 @@ Kim created ProsocialDialog, the first large-scale multi-turn dialogue dataset t
 
 
 
+
+
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2022-Kim-ProsocialDialog|ProsocialDialog]] (First Author)
 - [[2022-Kim-SODA|SODA]] (First Author)
@@ -72,6 +74,10 @@ Kim created ProsocialDialog, the first large-scale multi-turn dialogue dataset t
 
 
 
+
+
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: james.ryu@kakaoenterprise.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: humanbrain.djlee@gmail.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com

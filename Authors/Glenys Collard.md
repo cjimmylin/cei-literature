@@ -42,6 +42,8 @@ In 2018, Collard and Dr. Celeste Rodriguez Louro began an Australian Research Co
 
 
 
+
+
 - [[2024-Rodríguez Louro-The Yarning Corpus|The Yarning Corpus]] (Last Author)
 
 ## Links
@@ -56,6 +58,10 @@ In 2018, Collard and Dr. Celeste Rodriguez Louro began an Australian Research Co
 
 
 
+
+
+- *From 2024-Rodríguez Louro-The Yarning Corpus*: Affiliation: University of Western Australia and The University of Western Australia & Mallee Mungart Aboriginal
+- *From 2024-Rodríguez Louro-The Yarning Corpus*: Affiliation: University of Western Australia and The University of Western Australia & Mallee Mungart Aboriginal
 - *From 2024-Rodríguez Louro-The Yarning Corpus*: Affiliation: University of Western Australia and The University of Western Australia & Mallee Mungart Aboriginal
 - *From 2024-Rodríguez Louro-The Yarning Corpus*: Affiliation: University of Western Australia and The University of Western Australia & Mallee Mungart Aboriginal
 - *From 2024-Rodríguez Louro-The Yarning Corpus*: Affiliation: University of Western Australia and The University of Western Australia & Mallee Mungart Aboriginal

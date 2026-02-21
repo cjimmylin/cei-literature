@@ -1,7 +1,7 @@
 ---
 name: "Haneul Yoo"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Computing, KAIST"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: "haneul.yoo@kaist.ac.kr"
 research_interests:
@@ -58,9 +58,13 @@ twitter: ""
 
 
 
+
+
 - [[2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun|Evaluating LLMs' Language Confusion in Code-switching Context Juhyun Oh KAIST]]
 - [[2025-Yoo-Code-Switching Curriculum Learning for Multilingual ...|Code-Switching Curriculum Learning for Multilingual ...]] (First Author)
 - [[2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual|Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilingual Understanding]] (First Author)
+- [[2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering|KoBBQ: Korean Bias Benchmark for Question Answering]]
+- [[2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in|CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
@@ -90,6 +94,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering*: Affiliation: School of Computing, KAIST, Email: alice.oh@kaist.edu
+- *From 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering*: Affiliation: School of Computing, KAIST, Email: alice.oh@kaist.edu
 - *From 2025-Yoo-Code-Switching Curriculum Learning for Multilingual ...*:, Email: haneul.yoo@kaist.ac.kr
 - *From 2025-Yoo-Code-Switching Curriculum Learning for Multilingual ...*:, Email: haneul.yoo@kaist.ac.kr
 - *From 2025-Yoo-Code-Switching Curriculum Learning for Multilingual ...*:, Email: haneul.yoo@kaist.ac.kr

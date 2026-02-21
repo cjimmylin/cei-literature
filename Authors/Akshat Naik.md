@@ -24,6 +24,8 @@ Akshat Naik is a researcher in the Department of Computer Science at the Univers
 
 
 
+
+
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ Akshat Naik is a researcher in the Department of Computer Science at the Univers
 
 
 
+
+
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: akshat.naik@cs.ox.ac.uk
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: javcamposz@hotmail.com
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info

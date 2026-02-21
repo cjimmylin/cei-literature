@@ -17,7 +17,7 @@ short_title: LEXam
 year: 2025
 first_author: "[[Fan, Yu]]"
 last_author: "[[Niklaus, Joel]]"
-authors: "[[Fan, Yu]]; [[Ni, Jingwei]]; [[Merane, Jakob]]; [[Tian, Yang]]; [[Hermstrüwer, Yoan]]; [[Huang, Yinya]]; [[Akhtar, Mubashara]]; [[Salimbeni, Etienne]]; [[Geering, Florian]]; [[Dreyer, Oliver]]; [[Brunner, Daniel]]; [[Leippold, Markus]]; [[Sachan, Mrinmaya]]; [[Stremitzer, Alexander]]; [[Engel, Christoph]]; [[Ash, Elliott]]; [[Niklaus, Joel]]"
+authors: "Fan, Yu; Ni, Jingwei; Merane, Jakob; Tian, Yang; Hermstrüwer, Yoan; Huang, Yinya; Akhtar, Mubashara; Salimbeni, Etienne; Geering, Florian; Dreyer, Oliver; Brunner, Daniel; Leippold, Markus; Sachan, Mrinmaya; Stremitzer, Alexander; Engel, Christoph; Ash, Elliott; Niklaus, Joel"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.12864"
 external_pdf: "https://arxiv.org/pdf/2505.12864.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Fan, Yu]], [[Ni, Jingwei]], [[Merane, Jakob]], [[Tianpei Yang|Tian, Yang]], [[Hermstrüwer, Yoan]], [[Huang, Yinya]], [[Akhtar, Mubashara]], [[Salimbeni, Etienne]], [[Geering, Florian]], [[Dreyer, Oliver]], [[Brunner, Daniel]], [[Leippold, Markus]], [[Mrinmaya Sachan|Sachan, Mrinmaya]], [[Stremitzer, Alexander]], [[Engel, Christoph]], [[Elliott Ash|Ash, Elliott]], [[Niklaus, Joel]]
+[[Fan, Yu]], [[Ni, Jingwei]], [[Merane, Jakob]], [[Tian, Yang]], [[Hermstrüwer, Yoan]], [[Huang, Yinya]], [[Akhtar, Mubashara]], [[Salimbeni, Etienne]], [[Geering, Florian]], [[Dreyer, Oliver]], [[Brunner, Daniel]], [[Leippold, Markus]], [[Mrinmaya Sachan|Sachan, Mrinmaya]], [[Stremitzer, Alexander]], [[Engel, Christoph]], [[Elliott Ash|Ash, Elliott]], [[Niklaus, Joel]]
 
 ## Metadata
 

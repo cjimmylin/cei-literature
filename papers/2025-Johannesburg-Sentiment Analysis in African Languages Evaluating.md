@@ -18,7 +18,7 @@ short_title: "Sentiment Analysis in African Languages Evaluating"
 year: 2025
 first_author: "[[affiliated with University of Johannesburg]]"
 last_author: "[[affiliated with University of Johannesburg]]"
-authors: "[[affiliated with University of Johannesburg]]"
+authors: affiliated with University of Johannesburg
 authors_incomplete: true
 url: 
 external_pdf: "https://aclanthology.org/2023.findings-emnlp.271.pdf"

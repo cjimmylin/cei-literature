@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Pardeshi-Learning Social Welfare Functions|Learning Social Welfare Functions]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
+- *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 - *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 - *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 - *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.

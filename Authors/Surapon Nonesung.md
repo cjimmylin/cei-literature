@@ -59,7 +59,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kaewkasi-A Benchmark for Large Language Models on Northern|A Benchmark for Large Language Models on Northern]]
+- [[2024-Tharnpipitchai-Typhoon 2 A Family of Open|Typhoon 2 A Family of Open]]
 
 ## External Links & Profiles
 
@@ -89,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Tharnpipitchai-Typhoon 2 A Family of Open*: Affiliation: lable in both base and instruction-, Email: contact@opentyphoon.ai
+- *From 2024-Tharnpipitchai-Typhoon 2 A Family of Open*: Affiliation: lable in both base and instruction-, Email: contact@opentyphoon.ai
 - *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org
 - *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org
 - *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org

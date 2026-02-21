@@ -22,6 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in|CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean]]
 - [[2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of|MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts]]
 - [[2023-Lee-VisAlign|VisAlign]]
 
@@ -31,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 2shwon0213@gmail.com
+- *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 2shwon0213@gmail.com
 - *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 3joonseok2010@gmail.com
 - *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 4mghassem@mit.edu
 - *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 3joonseok2010@gmail.com

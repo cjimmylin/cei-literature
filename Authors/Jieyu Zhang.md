@@ -27,6 +27,8 @@ His expertise centers on designing systems that make working with data and AI mo
 
 
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 
 ## Notes
@@ -36,6 +38,10 @@ His expertise centers on designing systems that make working with data and AI mo
 
 
 
+
+
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 - *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 - *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 - *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific

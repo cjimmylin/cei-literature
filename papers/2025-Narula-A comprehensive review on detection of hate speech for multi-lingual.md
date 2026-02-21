@@ -16,7 +16,7 @@ short_title: "A comprehensive review on detection of hate speech for multi-lingu
 year: 2025
 first_author: "[[Narula, Rachna]]"
 last_author: "[[Chaudhary, Poonam]]"
-authors: "[[Narula, Rachna]]; [[Chaudhary, Poonam]]"
+authors: "Narula, Rachna; Chaudhary, Poonam"
 authors_incomplete: false
 doi: 10.1007/s13278-024-01401-y
 url: "https://link.springer.com/article/10.1007/s13278-024-01401-y"

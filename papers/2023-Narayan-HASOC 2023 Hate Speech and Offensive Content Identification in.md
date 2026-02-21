@@ -17,7 +17,7 @@ short_title: "HASOC 2023: Hate Speech and Offensive Content Identification in As
 year: 2023
 first_author: "[[Narayan, Nikhil]]"
 last_author: "[[Panigrahi, Abhranta]]"
-authors: "[[Narayan, Nikhil]]; [[Biswal, Mrutyunjay]]; [[Goyal, Pramod]]; [[Panigrahi, Abhranta]]"
+authors: "Narayan, Nikhil; Biswal, Mrutyunjay; Goyal, Pramod; Panigrahi, Abhranta"
 authors_incomplete: false
 doi: 10.1145/3632754.3633278
 url: "https://dl.acm.org/doi/10.1145/3632754.3633278"

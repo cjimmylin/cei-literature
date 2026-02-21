@@ -22,6 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2025-Goyal-Vedavani A Benchmark Corpus for ASR|Vedavani A Benchmark Corpus for ASR]] (Last Author)
 - [[2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit|SanskritShala A Neural Sanskrit NLP Toolkit]] (Last Author)
 - [[2020-Mathew-HateXplain|HateXplain]]
 
@@ -32,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: pawang@cse.iitkgp.ac.in
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: pawang@cse.iitkgp.ac.in
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: biemann@informatik.uni
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in

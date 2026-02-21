@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Lab-SDU's DAISY A Benchmark for Danish Culture|SDU's DAISY: A Benchmark for Danish Culture]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Lab-SDU's DAISY A Benchmark for Danish Culture*: Affiliation: Lab-SDU's DAISY A Benchmark for Danish Culture - PDF Extract"
+- *From 2026-Lab-SDU's DAISY A Benchmark for Danish Culture*: Affiliation: Lab-SDU's DAISY A Benchmark for Danish Culture - PDF Extract"
 - *From 2026-Lab-SDU's DAISY A Benchmark for Danish Culture*: Affiliation: Lab-SDU's DAISY A Benchmark for Danish Culture - PDF Extract"
 - *From 2026-Lab-SDU's DAISY A Benchmark for Danish Culture*: Affiliation: Lab-SDU's DAISY A Benchmark for Danish Culture - PDF Extract"
 - *From 2026-Lab-SDU's DAISY A Benchmark for Danish Culture*: Affiliation: Lab-SDU's DAISY A Benchmark for Danish Culture - PDF Extract"

@@ -16,7 +16,7 @@ short_title: "MBBQ: A Dataset for Cross-Lingual Comparison of Stereotypes in Gen
 year: 2024
 first_author: "[[Vera Neplenbroek]]"
 last_author: "[[Raquel Fernandez]]"
-authors: Vera Neplenbroek, Arianna Bisazza, Raquel Fernandez
+authors: Vera Neplenbroek; Arianna Bisazza; Raquel Fernandez
 url: "https://arxiv.org/abs/2406.07243"
 external_pdf: "https://arxiv.org/pdf/2406.07243.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Vera Neplenbroek]], [[Arianna Bisazza]], [[Raquel Fernández|Raquel Fernandez]]
+[[Vera Neplenbroek]], [[Arianna Bisazza]], [[Raquel Fernandez]]
 
 ## Metadata
 

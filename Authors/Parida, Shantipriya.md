@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Paul-Towards a More Inclusive AI Progress and Perspectives in Large|Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language]]
 - [[2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain|Building a Llama2-finetuned LLM for Odia Language Utilizing Domain Knowledge Instruction Set]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain*: Affiliation: University, India
+- *From 2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain*: Affiliation: University, India
 - *From 2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain*: Affiliation: University, India
 - *From 2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain*: Affiliation: University, India
 - *From 2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain*: Affiliation: University, India

@@ -17,7 +17,7 @@ short_title: FairLex
 year: 2022
 first_author: "[[Ilias Chalkidis]]"
 last_author: "[[Søgaard, Anders]]"
-authors: "[[Chalkidis, Ilias]]; [[Pasini, Tommaso]]; [[Zhang, Sheng]]; [[Tomada, Letizia]]; [[Schwemer, Sebastian Felix]]; [[Søgaard, Anders]]"
+authors: "Chalkidis, Ilias; Pasini, Tommaso; Zhang, Sheng; Tomada, Letizia; Schwemer, Sebastian Felix; Søgaard, Anders"
 url: "https://aclanthology.org/2022.acl-long.301/"
 external_pdf: "http://arxiv.org/pdf/2203.07228"
 national_ethnic_cultural: "Chinese, French, German, Italian"

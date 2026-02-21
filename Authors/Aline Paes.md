@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance|Exploring Brazil's LLM Fauna: Investigating the Generative Performance of Large Language Models in Portuguese]] (Last Author)
+- [[2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings|Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?]] (Last Author)
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Niterói, RJ, Brazil, Email: dvianna@gmail.com
+- *From 2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Niterói, RJ, Brazil, Email: dvianna@gmail.com
 - *From 2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Av, Email: claudiafreitas@usp.br
 - *From 2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Av, Email: assisgabriel@id.uff.br
 - *From 2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Av, Email: assisgabriel@id.uff.br

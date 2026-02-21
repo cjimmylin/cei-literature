@@ -17,7 +17,7 @@ short_title: "Pre-trained Models and Evaluation Data for"
 year: 2021
 first_author: "[[Cañete, José]]"
 last_author: "[[Pérez, Jorge]]"
-authors: "[[Cañete, José]]; [[Chaperon, Gabriel]]; [[Fuentes, Rodrigo]]; [[Ho, Jou-Hui]]; [[Kang, Hojin]]; [[Pérez, Jorge]]"
+authors: "Cañete, José; Chaperon, Gabriel; Fuentes, Rodrigo; Ho, Jou-Hui; Kang, Hojin; Pérez, Jorge"
 authors_incomplete: false
 url: "https://link.springer.com/chapter/10.1007/978-3-030-92310-5_52"
 external_pdf: "https://arxiv.org/pdf/2308.02976"

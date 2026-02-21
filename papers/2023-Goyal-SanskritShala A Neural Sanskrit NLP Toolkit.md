@@ -17,9 +17,9 @@ key: EXSR0569
 type: conference_paper
 short_title: "SanskritShala A Neural Sanskrit NLP Toolkit"
 year: 2023
-first_author: "[[Tushar Sandhan, Anshul Agarwal, Jivnesh Sandhan, Laxmidhar Behera, Pawan Goyal]]"
+first_author: "[[Tushar Sandhan]]"
 last_author: "[[Pawan Goyal]]"
-authors: "[[Tushar Sandhan, Anshul Agarwal, Jivnesh Sandhan, Laxmidhar Behera, Pawan Goyal]]"
+authors: Tushar Sandhan; Anshul Agarwal; Jivnesh Sandhan; Laxmidhar Behera; Pawan Goyal
 authors_incomplete: false
 url: "https://arxiv.org/abs/2302.09527"
 external_pdf: "https://arxiv.org/pdf/2302.09527.pdf"

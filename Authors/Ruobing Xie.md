@@ -3,7 +3,7 @@ name: "Ruobing Xie"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "University of Artificial Intelligence, UAE"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "cgq22@mails.tsinghua.edu.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -59,7 +59,8 @@ twitter: ""
 
 
 
-- [[2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a|Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting]]
+
+
 - [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]]
 
 ## External Links & Profiles
@@ -90,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn
 - *From 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a*: Affiliation: University of Artificial Intelligence, UAE
 - *From 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a*: Affiliation: University of Artificial Intelligence, UAE
 - *From 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a*: Affiliation: University of Artificial Intelligence, UAE

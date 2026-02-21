@@ -16,7 +16,7 @@ short_title: "Common Rule Revisions to Govern Machine Learning on Indigenous Dat
 year: 2025
 first_author: "[[Nicole B. Halmai]]"
 last_author: "[[Nanibaa' A. Garrison]]"
-authors: "Nicole B. Halmai, Stephanie Russo Carroll, Ibrahim Garba, Joseph Yracheta, Nanibaa' A. Garrison"
+authors: "Nicole B. Halmai; Stephanie Russo Carroll; Ibrahim Garba; Joseph Yracheta; Nanibaa' A. Garrison"
 doi: 10.1080/15265161.2024.2441737
 url: "https://www.tandfonline.com/doi/full/10.1080/15265161.2024.2441737"
 publication: American Journal of Bioethics
@@ -51,7 +51,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Nicole B. Halmai, Stephanie Russo Carroll, Ibrahim Garba, Joseph Yracheta, Nanibaa' A. Garrison]]
+[[Nicole B. Halmai]], [[Stephanie Russo Carroll]], [[Ibrahim Garba]], [[Joseph Yracheta]], [[Nanibaa' A. Garrison]]
 
 ## Metadata
 

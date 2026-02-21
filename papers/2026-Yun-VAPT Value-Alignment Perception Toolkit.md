@@ -16,7 +16,7 @@ short_title: "VAPT: Value-Alignment Perception Toolkit"
 year: 2026
 first_author: "[[Yun, Bhada]]"
 last_author: "[[Wang, April Yi]]"
-authors: "[[Yun, Bhada]]; [[Su, Renn]]; [[Wang, April Yi]]"
+authors: "Yun, Bhada; Su, Renn; Wang, April Yi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.22440"
 external_pdf: "https://arxiv.org/pdf/2601.22440.pdf"

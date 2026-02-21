@@ -16,7 +16,7 @@ short_title: "Enhancing social media hate speech detection in low-resource langu
 year: 2025
 first_author: "[[Fetahi, Endrit]]"
 last_author: "[[Misini, Arta]]"
-authors: "[[Fetahi, Endrit]]; [[Susuri, Arsim]]; [[Hamiti, Mentor]]; [[Kastrati, Zenun]]; [[Canhasi, Ercan]]; [[Misini, Arta]]"
+authors: "Fetahi, Endrit; Susuri, Arsim; Hamiti, Mentor; Kastrati, Zenun; Canhasi, Ercan; Misini, Arta"
 authors_incomplete: false
 doi: 10.1007/s13278-025-01497-w
 url: "https://link.springer.com/article/10.1007/s13278-025-01497-w"

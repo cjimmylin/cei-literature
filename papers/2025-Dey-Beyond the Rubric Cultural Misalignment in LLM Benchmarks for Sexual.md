@@ -16,7 +16,7 @@ short_title: "Beyond the Rubric: Cultural Misalignment in LLM Benchmarks for Sex
 year: 2025
 first_author: "[[Sumon Kanti Dey]]"
 last_author: "[[Azra Ismail]]"
-authors: Sumon Kanti Dey, Manvi S, Zeel Mehta, Meet Shah, Unnati Agrawal, Suhani Jalota, Azra Ismail
+authors: Sumon Kanti Dey; Manvi S; Zeel Mehta; Meet Shah; Unnati Agrawal; Suhani Jalota; Azra Ismail
 url: "https://aclanthology.org/2025.eval4nlp-1.11/"
 external_pdf: "https://arxiv.org/pdf/2511.17554.pdf"
 publication: Eval4NLP @ ACL 2025

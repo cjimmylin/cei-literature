@@ -34,6 +34,9 @@ Delong Chen is a PhD researcher working on multimodal machine learning and large
 
 
 
+
+
+- [[2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said|Measuring Political Bias in LLMs: What Is Said and How It Is Said]]
 - [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in]]
 
 ## Links

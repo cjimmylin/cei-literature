@@ -17,7 +17,7 @@ short_title: "Navigating the Political Compass (Multilingual, 50 Countries)"
 year: 2025
 first_author: "[[Chadi Helwe]]"
 last_author: "[[Davide Ceolin]]"
-authors: "Chadi Helwe, Oana Balalau, Davide Ceolin"
+authors: Chadi Helwe; Oana Balalau; Davide Ceolin
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2506.22493.pdf"

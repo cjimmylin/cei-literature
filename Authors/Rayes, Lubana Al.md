@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on|The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on Arabic Text]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on*: Affiliation: Department of Computer Science, Email: ashraf@sharjah.ac.ae
+- *From 2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on*: Affiliation: Department of Computer Science, Email: ashraf@sharjah.ac.ae
 - *From 2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on*: Affiliation: Department of Computer Science, Email: ashraf@sharjah.ac.ae
 - *From 2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on*: Affiliation: Department of Computer Science, Email: ashraf@sharjah.ac.ae
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

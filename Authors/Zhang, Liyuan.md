@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems|GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
+- *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
 - *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
 - *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
 - *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence

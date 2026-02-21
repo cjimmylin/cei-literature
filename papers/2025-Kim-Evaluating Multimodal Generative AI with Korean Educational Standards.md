@@ -17,7 +17,7 @@ short_title: "Evaluating Multimodal Generative AI with Korean Educational Standa
 year: 2025
 first_author: "[[Sanghoon Kim]]"
 last_author: "[[Youngjune Gwon]]"
-authors: "Sanghoon Kim, Juhwan Choi, Youngjune Gwon"
+authors: Sanghoon Kim; Juhwan Choi; Youngjune Gwon
 doi: 10.18653/v1/2025.naacl-short.56
 url: "https://arxiv.org/abs/2502.15422"
 external_pdf: "https://arxiv.org/pdf/2502.15422.pdf"

@@ -1,7 +1,7 @@
 ---
 name: "Fahim Faisal"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Washington"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency|Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency]]
+
+- [[2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and|DialectBench: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and*: Affiliation: University of Washington
+- *From 2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and*: Affiliation: University of Washington
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -16,7 +16,7 @@ short_title: "Cross-Lingual Probing and Community-Grounded Analysis of Gender Bi
 year: 2026
 first_author: "[[Reaj, Md Asgor Hossain]]"
 last_author: "[[Liew, Tze Hui]]"
-authors: "[[Reaj, Md Asgor Hossain]]; [[Das Gupta, Rajan]]; [[Pritha, Jui Saha]]; [[Al Noman, Abdullah]]; [[Ahmed, Abir]]; [[Mohiuddin, Golam Md]]; [[Liew, Tze Hui]]"
+authors: "Reaj, Md Asgor Hossain; Das Gupta, Rajan; Pritha, Jui Saha; Al Noman, Abdullah; Ahmed, Abir; Mohiuddin, Golam Md; Liew, Tze Hui"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.17764"
 external_pdf: "https://arxiv.org/pdf/2601.17764.pdf"

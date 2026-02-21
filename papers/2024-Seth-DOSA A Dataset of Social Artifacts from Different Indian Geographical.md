@@ -15,8 +15,8 @@ type: preprint
 short_title: "DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures"
 year: 2024
 first_author: "[[Agrima Seth]]"
-last_author: "[[Sunayana Sitaram Kalika Bali]]"
-authors: Agrima Seth, Sanchit Ahuja, Kalika Bali, Sunayana Sitaram
+last_author: "[[Sunayana Sitaram]]"
+authors: Agrima Seth; Sanchit Ahuja; Kalika Bali; Sunayana Sitaram
 url: "https://arxiv.org/abs/2403.14651"
 external_pdf: "https://arxiv.org/pdf/2403.14651.pdf"
 publication: arXiv / LREC-COLING 2024
@@ -51,7 +51,7 @@ CONFERENCE: "LREC-COLING 2024"
 
 ## Authors
 
-[[Seth|Sanchit Ahuja Agrima Seth]], [[Shayan Bali|Sunayana Sitaram Kalika Bali]]
+[[Agrima Seth]], [[Sanchit Ahuja]], [[Kalika Bali]], [[Sunayana Sitaram]]
 
 ## Metadata
 

@@ -17,7 +17,7 @@ short_title: "From Linguistics to Practice: a Case Study of Offensive Language T
 year: 2024
 first_author: "[[Chaya Liebeskind]]"
 last_author: "[[Natalia Vanetik]]"
-authors: "Chaya Liebeskind, Marina Litvak, Natalia Vanetik"
+authors: Chaya Liebeskind; Marina Litvak; Natalia Vanetik
 url: "https://aclanthology.org/2024.woah-1.8.pdf"
 external_pdf: "https://aclanthology.org/2024.woah-1.8.pdf"
 publication: "ACL Anthology (WOAH 2024)"

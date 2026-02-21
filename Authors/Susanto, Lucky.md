@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity|A Multi-Labeled Dataset for Indonesian Discourse: Examining Toxicity, Polarization, and Demographics Information]] (First Author)
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
 - [[2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and|IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language]] (First Author)
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
+- *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ...|Scaling the Multilingual Capability of LLMs with Cross- ...]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ...*: Affiliation: School of Computation, Information and Technology, TUM, Germany, Email: mohsen.mesgar@bosch.com
+- *From 2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ...*: Affiliation: School of Computation, Information and Technology, TUM, Germany, Email: mohsen.mesgar@bosch.com
 - *From 2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ...*: Affiliation: School of Computation, Information and Technology, TUM, Germany, Email: lavine@cis.lmu.de
 - *From 2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ...*: Affiliation: School of Computation, Information and Technology, TUM, Germany, Email: lavine@cis.lmu.de
 - *From 2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ...*: Affiliation: School of Computation, Information and Technology, TUM, Germany, Email: lavine@cis.lmu.de

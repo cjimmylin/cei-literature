@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]]
 - [[2024-Zhang-SafetyBench|SafetyBench]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
+- *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn

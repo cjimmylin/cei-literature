@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a|A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a Millionaire?' Videos]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a*: Affiliation: University of Bucharest Faculty of Mathematics and Computer Science
+- *From 2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a*: Affiliation: University of Bucharest Faculty of Mathematics and Computer Science
 - *From 2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a*: Affiliation: University of Bucharest Faculty of Mathematics and Computer Science
 - *From 2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a*: Affiliation: University of Bucharest Faculty of Mathematics and Computer Science
 - *From 2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a*: Affiliation: University of Bucharest Faculty of Mathematics and Computer Science

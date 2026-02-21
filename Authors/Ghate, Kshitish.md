@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value|EVALUESTEER: Measuring Reward Model Steerability Across Value Dimensions]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value*: Affiliation: University of Washington, 2 Carnegie Mellon University, Email: kghate@cs.washington.edu
+- *From 2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value*: Affiliation: University of Washington, 2 Carnegie Mellon University, Email: kghate@cs.washington.edu
 - *From 2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value*: Affiliation: University of Washington, 2 Carnegie Mellon University, Email: kghate@cs.washington.edu
 - *From 2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value*: Affiliation: University of Washington, 2 Carnegie Mellon University, Email: kghate@cs.washington.edu
 - *From 2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value*: Affiliation: University of Washington, 2 Carnegie Mellon University, Email: kghate@cs.washington.edu

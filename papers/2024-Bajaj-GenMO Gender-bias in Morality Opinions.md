@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "GenMO (Gender-bias in Morality Opinions)"
 year: 2024
 first_author: "[[Divij Bajaj]]"
-last_author: "[[Ruihong Huang Jonathan Tong]]"
-authors: "Divij Bajaj, Yuanyuan Lei, Jonathan Tong, Ruihong Huang"
+last_author: "[[Ruihong Huang]]"
+authors: Divij Bajaj; Yuanyuan Lei; Jonathan Tong; Ruihong Huang
 doi: 10.18653/v1/2024.findings-emnlp.928
 url: "https://doi.org/10.18653/v1/2024.findings-emnlp.928"
 external_pdf: "https://aclanthology.org/2024.findings-emnlp.928.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "EMNLP 2024"
 
 ## Authors
 
-[[Yuanyuan Lei Divij Bajaj]], [[Ruihong Huang Jonathan Tong]]
+[[Divij Bajaj]], [[Yuanyuan Lei]], [[Jonathan Tong]], [[Ruihong Huang]]
 
 ## Metadata
 

@@ -19,7 +19,7 @@ short_title: "Evaluating Cultural Awareness of LLMs for"
 year: 2024
 first_author: "[[Fiifi Dawson]]"
 last_author: "[[Sreedath Panat]]"
-authors: "[[Fiifi Dawson]]; [[Zainab Mosunmola]]; [[Sahil Pocker]]; [[Raj Abhijit Dandekar]]; [[Rajat Dandekar]]; [[Sreedath Panat]]"
+authors: Fiifi Dawson; Zainab Mosunmola; Sahil Pocker; Raj Abhijit Dandekar; Rajat Dandekar; Sreedath Panat
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.01811"
 external_pdf: "https://arxiv.org/pdf/2410.01811.pdf"

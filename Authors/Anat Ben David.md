@@ -58,8 +58,8 @@ twitter: ""
 
 
 
-- [[2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements|SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements]]
-- [[2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for|BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism]]
+
+
 - [[2018-Amram-Representations and Architectures in Neural Sentiment Analysis for|Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew]]
 
 ## External Links & Profiles
@@ -89,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2018-Amram-Representations and Architectures in Neural Sentiment Analysis for*: Affiliation: University of Israel, University Road 1, Ra’anana, Email: adam.amram@gmail.com
+- *From 2018-Amram-Representations and Architectures in Neural Sentiment Analysis for*: Affiliation: University of Israel, University Road 1, Ra’anana, Email: adam.amram@gmail.com
 - *From 2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: martin.fajcik@vut.cz
 - *From 2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: martin.fajcik@vut.cz
 - *From 2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: martin.fajcik@vut.cz

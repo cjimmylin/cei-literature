@@ -14,8 +14,8 @@ type: preprint
 short_title: "The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding"
 year: 2024
 first_author: "[[Kenneth Enevoldsen]]"
-last_author: "[[Kristoffer Laigaard Nielbo Niklas Muennighoff]]"
-authors: "Kenneth Enevoldsen, Marton Kardos, Niklas Muennighoff, Kristoffer Laigaard Nielbo"
+last_author: "[[Kristoffer Laigaard Nielbo]]"
+authors: Kenneth Enevoldsen; Marton Kardos; Niklas Muennighoff; Kristoffer Laigaard Nielbo
 url: "https://arxiv.org/abs/2406.02396"
 external_pdf: "https://arxiv.org/pdf/2406.02396.pdf"
 publication: "arXiv / NeurIPS 2024"
@@ -50,7 +50,7 @@ CONFERENCE: "NeurIPS 2024"
 
 ## Authors
 
-[[Marton Kardos Kenneth Enevoldsen]], [[Kristoffer Laigaard Nielbo Niklas Muennighoff]]
+[[Kenneth Enevoldsen]], [[Marton Kardos]], [[Niklas Muennighoff]], [[Kristoffer Laigaard Nielbo]]
 
 ## Metadata
 

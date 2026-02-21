@@ -17,7 +17,7 @@ short_title: "KMMLU: Measuring Massive Multitask Language Understanding in Korea
 year: 2024
 first_author: "[[Guijin Son]]"
 last_author: "[[Stella Biderman]]"
-authors: "Guijin Son, Hanwool Lee, Sungdong Kim, Seungone Kim, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
+authors: Guijin Son; Hanwool Lee; Sungdong Kim; Seungone Kim; Niklas Muennighoff; Taekyoon Choi; Cheonbok Park; Kang Min Yoo; Stella Biderman
 doi: 10.18653/v1/2025.naacl-long.206
 url: "https://arxiv.org/abs/2402.11548"
 external_pdf: "https://arxiv.org/pdf/2402.11548.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "NAACL 2025"
 
 ## Authors
 
-[[Guijin Son]], [[Hwaran Lee|Hanwool Lee]], [[Sungdong Kim]], [[Seungone Kim]], [[Niklas Muennighoff]], [[Taekyoon Choi]], [[Cheonbok Park]], [[Kang Min Yoo]], [[Stella Biderman]]
+[[Guijin Son]], [[Hanwool Lee]], [[Sungdong Kim]], [[Seungone Kim]], [[Niklas Muennighoff]], [[Taekyoon Choi]], [[Cheonbok Park]], [[Kang Min Yoo]], [[Stella Biderman]]
 
 ## Metadata
 

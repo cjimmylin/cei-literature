@@ -15,9 +15,9 @@ key: AUTO_ROURKE2025
 type: book
 short_title: "Mind Crime"
 year: 2025
-first_author: "[[Nathan Rourke]]"
-last_author: "[[Nathan Rourke]]"
-authors: "[[Rourke, Nathan]]"
+first_author: "[[Rourke]]"
+last_author: "[[Nathan]]"
+authors: Rourke; Nathan
 doi: N/A
 url: "https://www.goodreads.com/book/show/226055728-mind-crime"
 national_ethnic_cultural: "N/A"
@@ -52,7 +52,7 @@ CONFERENCE: "Unknown"
 
 ## Authors
 
-[[Nathan Rourke]]
+[[Rourke]], [[Nathan]]
 
 ## Links
 

@@ -16,7 +16,7 @@ short_title: "Jailbreaking LLMs with Arabic Transliteration and"
 year: 2024
 first_author: "[[Mansour Al Ghanim]]"
 last_author: "[[Lou, Qian]]"
-authors: "[[Al Ghanim, Mansour]]; [[Almohaimeed, Saleh]]; [[Zheng, Mengxin]]; [[Solihin, Yan]]; [[Lou, Qian]]"
+authors: "Al Ghanim, Mansour; Almohaimeed, Saleh; Zheng, Mengxin; Solihin, Yan; Lou, Qian"
 url: "https://aclanthology.org/2024.emnlp-main.1034/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KHCWIX2B/2024 - Jailbreaking LLMs with Arabic Transliteration and Arabizi.pdf"
 national_ethnic_cultural: "Arabic"

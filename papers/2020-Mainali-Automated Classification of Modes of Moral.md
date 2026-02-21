@@ -17,7 +17,7 @@ year: 2020
 short_title: "Automated Classification of Modes of Moral"
 first_author: "[[Nischal Mainali]]"
 last_author: "[[Chen, Daniel L]]"
-authors: "[[Mainali, Nischal]]; [[Meier, Liam]]; [[Ash, Elliott]]; [[Chen, Daniel L]]"
+authors: "Mainali, Nischal; Meier, Liam; Ash, Elliott; Chen, Daniel L"
 external_pdf: "https://hal.science/hal-04163443/file/Automated_Classification_of_Modes_of_Moral_Reasoning_in_Judicial_Decisions_ComputationalLegalStudies.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
@@ -51,7 +51,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Nischal Mainali|Mainali, Nischal]], [[Liam Meier|Meier, Liam]], [[Elliott Ash|Ash, Elliott]], [[Daniel L Chen|Chen, Daniel L]]
+[[Nischal Mainali|Mainali, Nischal]], [[Liam Meier|Meier, Liam]], [[Elliott Ash|Ash, Elliott]], [[Chen, Daniel L]]
 
 ## Links
 

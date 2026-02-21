@@ -14,8 +14,8 @@ type: conferencePaper
 short_title: "UniMoral (ACL 2025 Best Resource Paper)"
 year: 2025
 first_author: "[[Shivani Kumar]]"
-last_author: "[[David Jurgens Shivani Kumar]]"
-authors: "Shivani Kumar, David Jurgens"
+last_author: "[[David Jurgens]]"
+authors: Shivani Kumar; David Jurgens
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2511.03180.pdf"
@@ -49,7 +49,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[David Jurgens Shivani Kumar]]
+[[Shivani Kumar]], [[David Jurgens]]
 
 ## Metadata
 

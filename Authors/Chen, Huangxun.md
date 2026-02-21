@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass|Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass Safety Filters of Text-to-Image Models]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass*: Affiliation: University of Science and Technology (Guangzhou), Email: huangxunchen@hkust-gz.edu.cn
+- *From 2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass*: Affiliation: University of Science and Technology (Guangzhou), Email: huangxunchen@hkust-gz.edu.cn
 - *From 2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass*: Affiliation: University of Science and Technology (Guangzhou), Email: dengemo.neu@gmail.com
 - *From 2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass*: Affiliation: University of Science and Technology (Guangzhou), Email: huangxunchen@hkust-gz.edu.cn
 - *From 2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass*: Affiliation: University of Science and Technology (Guangzhou), Email: huangxunchen@hkust-gz.edu.cn

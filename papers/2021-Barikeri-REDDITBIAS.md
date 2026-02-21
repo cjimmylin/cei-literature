@@ -17,7 +17,7 @@ short_title: REDDITBIAS
 year: 2021
 first_author: "[[Soumya Barikeri]]"
 last_author: "[[Glavaš, Goran]]"
-authors: "[[Barikeri, Soumya]]; [[Lauscher, Anne]]; [[Vulić, Ivan]]; [[Glavaš, Goran]]"
+authors: "Barikeri, Soumya; Lauscher, Anne; Vulić, Ivan; Glavaš, Goran"
 url: "https://aclanthology.org/2021.acl-long.151/"
 external_pdf: "https://aclanthology.org/2021.acl-long.151.pdf"
 national_ethnic_cultural: "N/A"

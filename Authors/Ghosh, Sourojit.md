@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores|ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores Non-Gendered Pronouns: Findings across Bengali and Five other Low-Resource Languages]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores*: Affiliation: University of Washington, Email: aylin@uw.edu
+- *From 2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores*: Affiliation: University of Washington, Email: aylin@uw.edu
 - *From 2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores*: Affiliation: University of Washington, Email: aylin@uw.edu
 - *From 2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores*: Affiliation: University of Washington, Email: ghosh100@uw.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

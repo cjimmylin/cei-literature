@@ -1,9 +1,9 @@
 ---
 name: "Hamsawardhini Rengarajan"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Singapore"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "yosephine@aisingapore.org"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for|Kalahi A handcrafted grassroots cultural LLM evaluation suite for]]
+
+- [[2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models|SEA-HELM: Southeast Asian Holistic Evaluation of Language Models]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models*: Affiliation: University of Singapore, Email: yosephine@aisingapore.org
+- *From 2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models*: Affiliation: University of Singapore, Email: yosephine@aisingapore.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

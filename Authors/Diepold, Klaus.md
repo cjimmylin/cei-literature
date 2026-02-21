@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2018-Berberich-The Virtuous Machine|The Virtuous Machine]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2018-Berberich-The Virtuous Machine*: Affiliation: Department of Electrical and Computer Engineering, Technical University of Munich, Email: n.berberich@tum.de
+- *From 2018-Berberich-The Virtuous Machine*: Affiliation: Department of Electrical and Computer Engineering, Technical University of Munich, Email: n.berberich@tum.de
 - *From 2018-Berberich-The Virtuous Machine*: Affiliation: Department of Electrical and Computer Engineering, Technical University of Munich, Email: n.berberich@tum.de
 - *From 2018-Berberich-The Virtuous Machine*: Affiliation: Department of Electrical and Computer Engineering, Technical University of Munich, Email: n.berberich@tum.de
 - *From 2018-Berberich-The Virtuous Machine*: Affiliation: Department of Electrical and Computer Engineering, Technical University of Munich, Email: n.berberich@tum.de

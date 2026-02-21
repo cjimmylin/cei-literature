@@ -18,7 +18,7 @@ short_title: "Cross-Linguistic Moral Preferences in Large Language Models: Evide
 year: 2024
 first_author: "[[Jang, Seongyu]]"
 last_author: "[[Kahng, Hyungu]]"
-authors: "[[Jang, Seongyu]]; [[Jeong, Chaewon]]; [[Kim, Jimin]]; [[Kahng, Hyungu]]"
+authors: "Jang, Seongyu; Jeong, Chaewon; Kim, Jimin; Kahng, Hyungu"
 authors_incomplete: false
 doi: 10.3390/electronics14244919
 url: "https://www.mdpi.com/2079-9292/14/24/4919"

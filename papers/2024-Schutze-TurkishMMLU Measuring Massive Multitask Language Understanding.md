@@ -16,9 +16,9 @@ key: EXSR0539
 type: preprint
 short_title: "TurkishMMLU Measuring Massive Multitask Language Understanding"
 year: 2024
-first_author: "[[Arda Yuksel, Abdullatif Koksal, Lutfi Kerem Senel, Anna Korhonen, Hinrich Schutze]]"
+first_author: "[[Arda Yuksel]]"
 last_author: "[[Hinrich Schutze]]"
-authors: "[[Arda Yuksel, Abdullatif Koksal, Lutfi Kerem Senel, Anna Korhonen, Hinrich Schutze]]"
+authors: Arda Yuksel; Abdullatif Koksal; Lutfi Kerem Senel; Anna Korhonen; Hinrich Schutze
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.12402"
 external_pdf: "https://arxiv.org/pdf/2407.12402.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Arda Yuksel]], [[Abdullatif Koksal]], [[Lutfi Kerem Senel]], [[Anna Korhonen]], [[Hinrich Schütze|Hinrich Schutze]]
+[[Arda Yuksel]], [[Abdullatif Koksal]], [[Lutfi Kerem Senel]], [[Anna Korhonen]], [[Hinrich Schutze]]
 
 ## Metadata
 

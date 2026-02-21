@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology

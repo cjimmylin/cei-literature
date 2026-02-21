@@ -1,0 +1,24 @@
+---
+name: "Chen"
+affiliation: "Faculty Summit, and 2025 ISMS Marketing Science Conference"
+research_interests: []
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# Chen
+
+## Affiliation
+
+
+## Research Interests
+
+
+## Publications
+(Auto-generated list of linked papers)
+
+## Papers in this Vault
+
+
+- [[2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences|Aligning LLM Agents with Rational and Kantian Preferences]]

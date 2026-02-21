@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to|Indic-QA Benchmark A Multilingual Benchmark to]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
+- *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
 - *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
 - *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

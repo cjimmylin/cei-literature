@@ -16,7 +16,7 @@ short_title: "Evaluating the Quality of Benchmark Datasets for Low-Resource Lang
 year: 2025
 first_author: "[[Ayse Aysu Cengiz]]"
 last_author: "[[Cagri Toraman]]"
-authors: Ayse Aysu Cengiz, Ahmet Kaan Sever, Elif Ecem Umutlu, Naime Seyma Erdem, Burak Aytan, Busra Tufan, Abdullah Topraksoy, Esra Darici, Cagri Toraman
+authors: Ayse Aysu Cengiz; Ahmet Kaan Sever; Elif Ecem Umutlu; Naime Seyma Erdem; Burak Aytan; Busra Tufan; Abdullah Topraksoy; Esra Darici; Cagri Toraman
 url: "https://arxiv.org/abs/2504.09714"
 external_pdf: "https://arxiv.org/pdf/2504.09714.pdf"
 publication: arXiv

@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2023-Ty-Impact of AI-Powered Technology on Religious Practices and Ethics The|Impact of AI-Powered Technology on Religious Practices and Ethics: The Road Ahead]] (First Author)
 
 ## Notes

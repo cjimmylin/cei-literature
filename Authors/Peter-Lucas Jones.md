@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Jones-Fit for Our Purpose Not Yours|Fit for Our Purpose Not Yours]] (Last Author)
 - [[2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position|Indigenous Protocol and Artificial Intelligence Position]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: keoni@tehiku.co.nz
+- *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: keoni@tehiku.co.nz
 - *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: lee@tehiku.co.nz
 - *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: gianna@tehiku.co.nz
 - *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: keoni@tehiku.co.nz

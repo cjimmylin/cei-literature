@@ -16,7 +16,7 @@ short_title: "Methods for Detoxification of Texts for the Russian Language"
 year: 2021
 first_author: "[[Daryna Dementieva]]"
 last_author: "[[Alexander Panchenko]]"
-authors: "Daryna Dementieva, Daniil Moskovskiy, Varvara Logacheva, David Dale, Olga Kozlova, Nikita Semenov, Alexander Panchenko"
+authors: Daryna Dementieva; Daniil Moskovskiy; Varvara Logacheva; David Dale; Olga Kozlova; Nikita Semenov; Alexander Panchenko
 doi: 10.3390/mti5090054
 url: "https://www.mdpi.com/2414-4088/5/9/54"
 external_pdf: "https://arxiv.org/pdf/2105.09052.pdf"

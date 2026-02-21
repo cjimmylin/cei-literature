@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Yao-NurValues|NurValues]]
 - [[2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks|Beyond Single-Sentence Prompts: Upgrading Value Alignment Benchmarks with Dialogues and Stories]] (First Author)
 - [[2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs|Edu-Values -- Evaluating Chinese Education Values of LLMs]]
@@ -33,6 +35,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: ronglu@tju.edu.cn
+- *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: ronglu@tju.edu.cn
 - *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: harry.qin@polyu.edu.hk
 - *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: yzhou_zhang@tju.edu.cn
 - *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: ronglu@tju.edu.cn

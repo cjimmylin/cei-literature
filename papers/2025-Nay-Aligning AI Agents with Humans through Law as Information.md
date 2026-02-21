@@ -16,9 +16,9 @@ key: STANFORD_CODEX_2025_NAY
 type: whitepaper
 short_title: "Aligning AI Agents with Humans through Law as Information"
 year: 2025
-first_author: "[[John Nay]]"
-last_author: "[[John Nay]]"
-authors: "[[Nay, John]]"
+first_author: "[[Nay]]"
+last_author: "[[John]]"
+authors: Nay; John
 doi: N/A
 tags: "Law - Legal Informatics"
 url: "https://law.stanford.edu/publications/aligning-ai-agents-with-humans-through-law-as-information/"
@@ -57,7 +57,7 @@ CONFERENCE: "Unknown"
 
 ## Authors
 
-[[John Nay]]
+[[Nay]], [[John]]
 
 ## Links
 

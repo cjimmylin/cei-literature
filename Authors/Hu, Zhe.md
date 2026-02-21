@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values|VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values*: Affiliation: Department of Computing, The Hong Kong Polytechnic University, Email: jing-amelia.li@polyu.edu.hk
+- *From 2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values*: Affiliation: Department of Computing, The Hong Kong Polytechnic University, Email: jing-amelia.li@polyu.edu.hk
 - *From 2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values*: Affiliation: Department of Computing, The Hong Kong Polytechnic University, Email: 3yxy1421@case.edu
 - *From 2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values*: Affiliation: Department of Computing, The Hong Kong Polytechnic University, Email: jing-amelia.li@polyu.edu.hk
 - *From 2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values*: Affiliation: Department of Computing, The Hong Kong Polytechnic University, Email: 3yxy1421@case.edu

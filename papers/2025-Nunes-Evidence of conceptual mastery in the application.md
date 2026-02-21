@@ -16,7 +16,7 @@ short_title: "Evidence of conceptual mastery in the application"
 year: 2025
 first_author: "[[José Luiz Nunes]]"
 last_author: "[[Brian Flanagan]]"
-authors: "[[José Luiz Nunes]], [[Guilherme Almeida]], [[Brian Flanagan]]"
+authors: José Luiz Nunes; Guilherme Almeida; Brian Flanagan
 doi: 10.2139/ssrn.5161877
 url: "https://arxiv.org/abs/2503.00992"
 pdf_extract: "PDF Extracts/2025/2025-Nunes-Evidence of conceptual mastery in the application.md"

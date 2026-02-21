@@ -18,7 +18,7 @@ short_title: "Benchmarking Large Language Models for fairness across diverse dow
 year: 2025
 first_author: "[[Cantini, Riccardo]]"
 last_author: "[[Talia, Domenico]]"
-authors: "[[Cantini, Riccardo]]; [[Orsino, A.]]; [[Ruggiero, Massimo]]; [[Talia, Domenico]]"
+authors: "Cantini, Riccardo; Orsino, A.; Ruggiero, Massimo; Talia, Domenico"
 authors_incomplete: false
 url: "https://community.sap.com/t5/artificial-intelligence-blogs-posts/benchmarking-large-language-models-for-fairness-across-diverse-downstream/ba-p/14287254"
 publication: Web
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Unknown]]
+[[Cantini, Riccardo]], [[Orsino, A]], [[Ruggiero, Massimo]], [[Talia, Domenico]]
 
 ## Metadata
 

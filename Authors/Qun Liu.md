@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2022-Sun-MoralDial|MoralDial]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: h-sun20@mails.tsinghua.edu.cn
+- *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: h-sun20@mails.tsinghua.edu.cn
 - *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: aihuang@tsinghua.edu.cn
 - *From 2025-Xia-SafeToolBench*: Affiliation: Institute of Technology γThe Chinese University of Hong Kong, Email: guoyuhang@bit.edu.cn
 - *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit

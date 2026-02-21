@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies|Investigating Retrieval-Augmented Generation in Quranic Studies]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies*: Affiliation: Department of Informatics Engineering, Universitas Islam Riau, Pekanbaru 28284, Indonesia, Email: arbi@eng.uir.ac.id
+- *From 2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies*: Affiliation: Department of Informatics Engineering, Universitas Islam Riau, Pekanbaru 28284, Indonesia, Email: arbi@eng.uir.ac.id
 - *From 2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies*: Affiliation: Department of Informatics Engineering, Universitas Islam Riau, Pekanbaru 28284, Indonesia, Email: arbi@eng.uir.ac.id
 - *From 2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies*: Affiliation: Department of Informatics Engineering, Universitas Islam Riau, Pekanbaru 28284, Indonesia, Email: arbi@eng.uir.ac.id
 - *From 2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies*: Affiliation: Department of Informatics Engineering, Universitas Islam Riau, Pekanbaru 28284, Indonesia, Email: arbi@eng.uir.ac.id

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of|MELAC: Massive Evaluation of Large Language Models with Alignment of Culture in Persian Language]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: s.shariati21@umail.umz.ac.ir
+- *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: s.shariati21@umail.umz.ac.ir
 - *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: shayan.bali@kcl.ac.uk
 - *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: shayan.bali@kcl.ac.uk
 - *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: s.shariati21@umail.umz.ac.ir

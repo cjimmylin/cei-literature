@@ -17,7 +17,7 @@ type: conferencePaper
 short_title: "An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed"
 year: 2025
 first_author: "[[Ahmed, Mohamed]]"
-last_author: "[[Greenstadt, Rachel]]"
+last_author: "[[Rachel Greenstadt]]"
 authors: Mohamed Ahmed; Jeffrey Knockel; Rachel Greenstadt
 authors_incomplete: false
 url: "https://petsymposium.org/popets/2025/popets-2025-0122.pdf"

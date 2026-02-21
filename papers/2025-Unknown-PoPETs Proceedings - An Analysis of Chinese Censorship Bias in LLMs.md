@@ -18,7 +18,7 @@ short_title: "PoPETs Proceedings — An Analysis of Chinese Censorship Bias in L
 year: 2025
 first_author: "[[Ahmed, Mohamed]]"
 last_author: "[[Greenstadt, Rachel]]"
-authors: "[[Ahmed, Mohamed]]; [[Knockel, Jeffrey]]; [[Greenstadt, Rachel]]"
+authors: "Ahmed, Mohamed; Knockel, Jeffrey; Greenstadt, Rachel"
 authors_incomplete: false
 url: "https://petsymposium.org/popets/2025/popets-2025-0122.php"
 external_pdf: "https://petsymposium.org/popets/2025/popets-2025-0122.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Abubakr Mohamed|Ahmed, Mohamed]], [[Knockel, Jeffrey]], [[Greenstadt, Rachel]]
+[[Ahmed, Mohamed]], [[Knockel, Jeffrey]], [[Greenstadt, Rachel]]
 
 ## Metadata
 

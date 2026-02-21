@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding|IndicVisionBench Benchmarking Cultural and Multilingual Understanding]]
+- [[2025-Rachamalla-Pragyaan Designing and Curating High-Quality Cultural Post-Training|Pragyaan: Designing and Curating High-Quality Cultural Post-Training Datasets for Indian Languages]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent
+- *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent
 - *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent
 - *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent
 - *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent

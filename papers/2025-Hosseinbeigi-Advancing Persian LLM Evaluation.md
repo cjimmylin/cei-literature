@@ -18,7 +18,7 @@ short_title: "Advancing Persian LLM Evaluation"
 year: 2025
 first_author: "[[Hosseinbeigi, Sara Bourbour]]"
 last_author: "[[Abbasi, Mohammad Amin]]"
-authors: "[[Hosseinbeigi, Sara Bourbour]]; [[Rohani, Behnam]]; [[Masoudi, Mostafa]]; [[Shamsfard, M.]]; [[Saaberi, Zahra]]; [[Manesh, Mostafa Karimi]]; [[Abbasi, Mohammad Amin]]"
+authors: "Hosseinbeigi, Sara Bourbour; Rohani, Behnam; Masoudi, Mostafa; Shamsfard, M.; Saaberi, Zahra; Manesh, Mostafa Karimi; Abbasi, Mohammad Amin"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-naacl.147/"
 external_pdf: "https://aclanthology.org/2025.findings-naacl.147.pdf"

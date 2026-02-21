@@ -22,7 +22,10 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
+- [[2023-Li-ACLUE Can Large Language Model Comprehend|ACLUE Can Large Language Model Comprehend]] (First Author)
 
 ## Notes
 
@@ -31,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Li-ACLUE Can Large Language Model Comprehend*: Affiliation: University of Artificial Intelligence, UAE, Email: haonan.li@mbzuai.ac.ae
+- *From 2023-Li-ACLUE Can Large Language Model Comprehend*: Affiliation: University of Artificial Intelligence, UAE, Email: haonan.li@mbzuai.ac.ae
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu

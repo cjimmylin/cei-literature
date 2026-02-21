@@ -71,7 +71,7 @@ With the profound development of large language models(LLMs), their safety conce
 
 ## Authors
 
-[[Wenjing Zhang]], [[Xuejiao Lei]], [[Zhaoxiang Liu]], [[Meijuan An]], [[Bikun Yang]], [[Kangkang Zhao|KaiKai Zhao]], [[Kaile Wang|Kai Wang]], [[Shiguo Lian]]
+[[Wenjing Zhang]], [[Xuejiao Lei]], [[Zhaoxiang Liu]], [[Meijuan An]], [[Bikun Yang]], [[KaiKai Zhao]], [[Kai Wang]], [[Shiguo Lian]]
 
 ## Data Description
 

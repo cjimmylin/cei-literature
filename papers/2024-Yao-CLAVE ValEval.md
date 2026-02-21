@@ -15,9 +15,9 @@ key: EXSR0147
 type: preprint
 short_title: "CLAVE / ValEval"
 year: 2024
-first_author: "[[J. Yao]]"
-last_author: "[[X]]"
-authors: "Yao, J., Yi, X., & Xie, X"
+first_author: "[[Jing Yao]]"
+last_author: "[[X & Xie]]"
+authors: "Jing Yao; Xu, Tianyi; X & Xie"
 url: "https://arxiv.org/abs/2407.10725"
 external_pdf: "https://arxiv.org/pdf/2407.10725.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yao-CLAVE ValEval.md"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Yao]], [[J.]], [[Yi]], [[X.]], [[& Xie]], [[X]]
+[[Jing Yao]], [[Xu, Tianyi]], [[X & Xie]]
 
 ## Metadata
 

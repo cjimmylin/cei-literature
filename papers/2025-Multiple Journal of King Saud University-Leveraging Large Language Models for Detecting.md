@@ -16,9 +16,9 @@ key: EXSR0402
 type: journal_article
 short_title: "Leveraging Large Language Models for Detecting"
 year: 2025
-first_author: "[[Multiple (Journal of King Saud University, 2025)]]"
+first_author: "[[Multiple (Journal of King Saud University]]"
 last_author: "[[2025)]]"
-authors: "[[Multiple (Journal of King Saud University, 2025)]]"
+authors: Multiple (Journal of King Saud University; 2025)
 authors_incomplete: false
 url: 
 external_pdf: "https://arxiv.org/pdf/2502.11014.pdf"

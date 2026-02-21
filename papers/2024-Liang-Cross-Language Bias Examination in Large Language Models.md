@@ -15,7 +15,7 @@ short_title: "Cross-Language Bias Examination in Large Language Models"
 year: 2024
 first_author: "[[Liang, Yuxuan]]"
 last_author: "[[Mahmoud, Marwa]]"
-authors: "[[Liang, Yuxuan]]; [[Mahmoud, Marwa]]"
+authors: "Liang, Yuxuan; Mahmoud, Marwa"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.16029"
 external_pdf: "https://arxiv.org/pdf/2512.16029.pdf"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Castricato-PERSONA Pluralistic Alignment Testbed|PERSONA (Pluralistic Alignment Testbed)]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Castricato-PERSONA Pluralistic Alignment Testbed*: Affiliation: lable here https://www
+- *From 2025-Castricato-PERSONA Pluralistic Alignment Testbed*: Affiliation: lable here https://www
 - *From 2025-Castricato-PERSONA Pluralistic Alignment Testbed*: Affiliation: lable here https://www
 - *From 2025-Castricato-PERSONA Pluralistic Alignment Testbed*: Affiliation: lable here https://www
 - *From 2025-Castricato-PERSONA Pluralistic Alignment Testbed*: Affiliation: lable here https://www

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Bokaei-Culture Matters in Toxic Language Detection in Persian|Culture Matters in Toxic Language Detection in Persian]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: wmagdy@ed.ac.uk
+- *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: wmagdy@ed.ac.uk
 - *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: zahra.bokaei@ed.ac.uk
 - *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: zahra.bokaei@ed.ac.uk
 - *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: zahra.bokaei@ed.ac.uk

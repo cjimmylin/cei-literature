@@ -17,7 +17,7 @@ short_title: "What Makes it Ok to Set a Fire? Iterative"
 year: 2023
 first_author: "[[Kavel Rao]]"
 last_author: "[[Choi, Yejin]]"
-authors: "[[Rao, Kavel]]; [[Jiang, Liwei]]; [[Pyatkin, Valentina]]; [[Gu, Yuling]]; [[Tandon, Niket]]; [[Dziri, Nouha]]; [[Brahman, Faeze]]; [[Choi, Yejin]]"
+authors: "Rao, Kavel; Jiang, Liwei; Pyatkin, Valentina; Gu, Yuling; Tandon, Niket; Dziri, Nouha; Brahman, Faeze; Choi, Yejin"
 url: "https://aclanthology.org/2023.findings-emnlp.812/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/V233P2RS/2023 - What Makes it Ok to Set a Fire Iterative Self-Distillation of Contexts and Rationales for Disambigu.pdf"
 national_ethnic_cultural: "N/A"

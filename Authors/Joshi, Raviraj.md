@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kamath-Benchmarking Hindi LLMs A New Suite|Benchmarking Hindi LLMs A New Suite]]
 - [[2025-Paul-Aligning Large Language Models to Low-Resource|Aligning Large Language Models to Low-Resource]]
 - [[2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi|On Limitations of LLM as Annotator for Low Resource Languages (Marathi case study)]] (Last Author)
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi*: Affiliation: Institute of Computer Technology, Pune
+- *From 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi*: Affiliation: Institute of Computer Technology, Pune
 - *From 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi*: Affiliation: Institute of Computer Technology, Pune
 - *From 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi*: Affiliation: Institute of Computer Technology, Pune
 - *From 2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi*: Affiliation: Institute of Computer Technology, Pune

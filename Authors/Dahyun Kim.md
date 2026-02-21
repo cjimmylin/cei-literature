@@ -32,7 +32,11 @@ Dahyun Kim is a researcher at Upstage AI working on Korean language models and c
 
 
 
+
+
 - [[2025-Kim-Cultural and Core Capability Benchmarks for|Cultural and Core Capability Benchmarks for]] (First Author)
+- [[2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical|Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs]]
+- [[2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean|Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark]]
 
 ## Links
 - Google Scholar: https://scholar.google.com/citations?user=SN1-_-4AAAAJ

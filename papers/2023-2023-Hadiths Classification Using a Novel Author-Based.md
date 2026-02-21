@@ -17,9 +17,9 @@ key: EXSR0558
 type: preprint
 short_title: "Hadiths Classification Using a Novel Author-Based"
 year: 2023
-first_author: "[[2023), Multiple (MDPI Big Data and Cognitive Computing]]"
+first_author: "[[Multiple (MDPI Big Data]]"
 last_author: "[[Cognitive Computing 2023)]]"
-authors: "[[Multiple (MDPI Big Data]]; [[Cognitive Computing 2023)]]"
+authors: Multiple (MDPI Big Data; Cognitive Computing 2023)
 authors_incomplete: false
 url: 
 external_pdf: 

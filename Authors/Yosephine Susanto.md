@@ -56,7 +56,10 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2023-Susanto-BHASA A Holistic Southeast Asian Linguistic|BHASA A Holistic Southeast Asian Linguistic]] (First Author)
+
+
+- [[2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models|SEA-HELM: Southeast Asian Holistic Evaluation of Language Models]] (First Author)
+- [[2024-Hooker-Global MMLU Understanding and Addressing Cultural|Global MMLU Understanding and Addressing Cultural]]
 
 ## External Links & Profiles
 
@@ -83,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
+- *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
 - *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: yosephine@aisingapore.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

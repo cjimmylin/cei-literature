@@ -18,7 +18,7 @@ short_title: "Recent Advancements and Challenges of Turkic"
 year: 2024
 first_author: "[[Yana Veitsman]]"
 last_author: "[[Mareike Hartmann]]"
-authors: "[[Yana Veitsman]]; [[Mareike Hartmann]]"
+authors: Yana Veitsman; Mareike Hartmann
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.05006"
 external_pdf: "https://arxiv.org/pdf/2407.05006.pdf"

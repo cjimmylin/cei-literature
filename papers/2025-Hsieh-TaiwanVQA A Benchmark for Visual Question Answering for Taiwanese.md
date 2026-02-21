@@ -17,7 +17,7 @@ short_title: "TaiwanVQA: A Benchmark for Visual Question Answering for Taiwanese
 year: 2025
 first_author: "[[Hsin-Yi Hsieh]]"
 last_author: "[[I-Chen Wu]]"
-authors: Hsin-Yi Hsieh, Shang Wei Liu, Chang Chih Meng, Shuo-Yueh Lin, Chen Chien-Hua, Hung-Ju Lin, Hen-Hsen Huang, I-Chen Wu
+authors: Hsin-Yi Hsieh; Shang Wei Liu; Chang Chih Meng; Shuo-Yueh Lin; Chen Chien-Hua; Hung-Ju Lin; Hen-Hsen Huang; I-Chen Wu
 url: "https://aclanthology.org/2025.evalmg-1.6/"
 publication: ACL Anthology
 CONF-CC: "N/A"

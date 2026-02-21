@@ -22,13 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Lee-KorNAT|KorNAT]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## Notes
 
@@ -37,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Lee-KorNAT*: Affiliation: University Bundang Hospital, Email: 3shwon0213@gmail.com
+- *From 2024-Lee-KorNAT*: Affiliation: University Bundang Hospital, Email: 3shwon0213@gmail.com
 - *From 2024-Lee-KorNAT*: Affiliation: University Bundang Hospital, Email: 4hwaran.lee@navercorp.com
 - *From 2024-Lee-KorNAT*: Affiliation: University Bundang Hospital, Email: 3shwon0213@gmail.com
 - *From 2024-Lee-KorNAT*: Affiliation: University Bundang Hospital, Email: 3shwon0213@gmail.com

@@ -18,7 +18,7 @@ short_title: "SeaExam and SeaBench Benchmarking LLMs with"
 year: 2025
 first_author: "[[team, DAMO NLP SG]]"
 last_author: "[[DAMO NLP SG team]]"
-authors: "[[DAMO NLP SG team]]"
+authors: DAMO NLP SG team
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.06298"
 external_pdf: "https://arxiv.org/pdf/2502.06298.pdf"

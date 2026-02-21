@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French|Low-Resource Dialect Adaptation of Large Language Models: A French Dialect Case-Study]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French*: Affiliation: Department of Computer Science and Software Engineering, Email: mofvanes@gmail.com
+- *From 2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French*: Affiliation: Department of Computer Science and Software Engineering, Email: mofvanes@gmail.com
 - *From 2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French*: Affiliation: Department of Computer Science and Software Engineering, Email: mofvanes@gmail.com
 - *From 2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French*: Affiliation: Department of Computer Science and Software Engineering, Email: mofvanes@gmail.com
 - *From 2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French*: Affiliation: Department of Computer Science and Software Engineering, Email: mofvanes@gmail.com

@@ -60,8 +60,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Wu-COIG-P|COIG-P]]
-- [[2023-Ji-Safety Gymnasium|Safety Gymnasium]]
 
 ## External Links & Profiles
 
@@ -92,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
+- *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2023-Ji-Safety Gymnasium*: Affiliation: Institute for AI, Peking University, Email: gaiejj@outlook.com
 - *From 2023-Ji-Safety Gymnasium*: Affiliation: Institute for AI, Peking University, Email: yaodong.yang@pku.edu.cn
 - *From 2023-Ji-Safety Gymnasium*: Affiliation: Institute for AI, Peking University, Email: gaiejj@outlook.com

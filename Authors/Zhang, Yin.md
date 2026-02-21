@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese|WYWEB: A NLP Evaluation Benchmark For Classical Chinese]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese*: Affiliation: College of Computer Science and Technology, Zhejiang University, China
+- *From 2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese*: Affiliation: College of Computer Science and Technology, Zhejiang University, China
 - *From 2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese*: Affiliation: College of Computer Science and Technology, Zhejiang University, China
 - *From 2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese*: Affiliation: College of Computer Science and Technology, Zhejiang University, China
 - *From 2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese*: Affiliation: College of Computer Science and Technology, Zhejiang University, China

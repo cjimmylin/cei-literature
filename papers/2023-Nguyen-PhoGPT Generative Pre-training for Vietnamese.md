@@ -16,8 +16,8 @@ type: preprint
 short_title: "PhoGPT: Generative Pre-training for Vietnamese"
 year: 2023
 first_author: "[[Dat Quoc Nguyen]]"
-last_author: "[[Hung Bui Dinh Phung]]"
-authors: "Dat Quoc Nguyen, Linh The Nguyen, Chi Tran, Dung Ngoc Nguyen, Dinh Phung, Hung Bui"
+last_author: "[[Hung Bui]]"
+authors: Dat Quoc Nguyen; Linh The Nguyen; Chi Tran; Dung Ngoc Nguyen; Dinh Phung; Hung Bui
 url: "https://arxiv.org/abs/2311.02945"
 external_pdf: "https://arxiv.org/pdf/2311.02945.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Long Nguyen|Linh The Nguyen Dat Quoc Nguyen]], [[Dung Ngoc Nguyen Chi Tran]], [[Hung Bui Dinh Phung]]
+[[Dat Quoc Nguyen]], [[Linh The Nguyen]], [[Chi Tran]], [[Dung Ngoc Nguyen]], [[Dinh Phung]], [[Hung Bui]]
 
 ## Metadata
 

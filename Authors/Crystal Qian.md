@@ -41,6 +41,8 @@ Crystal Qian is a researcher affiliated with Stanford University and Google. Her
 
 
 
+
+
 - [[2024-Garcia-The Moral Turing Test|The Moral Turing Test]]
 
 ## External Links & Profiles
@@ -57,6 +59,10 @@ Crystal Qian is a researcher affiliated with Stanford University and Google. Her
 
 
 
+
+
+- *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
+- *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
 - *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
 - *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
 - *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: stefano.palminteri@ens.fr

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew|LCHAIM - Investigating Long Context Reasoning in Hebrew]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew*: Affiliation: Department of Software and Information Systems Engineering, Email: yigalk@post.bgu.ac.il
+- *From 2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew*: Affiliation: Department of Software and Information Systems Engineering, Email: yigalk@post.bgu.ac.il
 - *From 2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew*: Affiliation: Department of Software and Information Systems Engineering, Email: yigalk@post.bgu.ac.il
 - *From 2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew*: Affiliation: Department of Software and Information Systems Engineering, Email: yigalk@post.bgu.ac.il
 - *From 2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew*: Affiliation: Department of Software and Information Systems Engineering, Email: eliorsu@bgu.ac.il

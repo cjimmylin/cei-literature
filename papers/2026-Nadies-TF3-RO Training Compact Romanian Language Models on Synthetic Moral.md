@@ -17,7 +17,7 @@ short_title: "TF3-RO: Training Compact Romanian Language Models on Synthetic Mor
 year: 2026
 first_author: "[[Nadas, Mihai Dan]]"
 last_author: "[[Piscoran, Andrei]]"
-authors: "[[Nadas, Mihai Dan]]; [[Diosan, Laura]]; [[Tomescu, Andreea]]; [[Piscoran, Andrei]]"
+authors: "Nadas, Mihai Dan; Diosan, Laura; Tomescu, Andreea; Piscoran, Andrei"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.10410"
 external_pdf: "https://arxiv.org/pdf/2601.10410.pdf"

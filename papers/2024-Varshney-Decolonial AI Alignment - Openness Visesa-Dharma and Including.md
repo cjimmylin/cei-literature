@@ -19,7 +19,7 @@ short_title: "Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including 
 year: 2024
 first_author: "[[K. R Varshney]]"
 last_author: "[[K. R Varshney]]"
-authors: "Varshney, K. R"
+authors: K. R Varshney
 doi: 10.5555/3716662.3716790
 url: "https://arxiv.org/abs/2309.05030"
 external_pdf: "https://arxiv.org/pdf/2309.05030.pdf"
@@ -56,7 +56,7 @@ CONFERENCE: "AIES 2024"
 
 ## Authors
 
-[[Kush R. Varshney|K. R Varshney]]
+[[K. R Varshney]]
 
 ## Metadata
 

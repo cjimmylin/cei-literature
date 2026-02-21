@@ -17,7 +17,7 @@ short_title: EthicsMH
 year: 2025
 first_author: "[[S. K. R Kasu]]"
 last_author: "[[S. K. R Kasu]]"
-authors: "Kasu, S. K. R"
+authors: S. K. R Kasu
 url: "https://arxiv.org/abs/2509.11648"
 external_pdf: "https://arxiv.org/pdf/2509.11648.pdf"
 pdf_extract: "PDF Extracts/0000/2025-Kasu-EthicsMH.md"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hulagadri-Towards fair and comprehensive multilingual LLM benchmarking SEA-LION|Towards fair and comprehensive multilingual LLM benchmarking | SEA-LION]]
 - [[2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA|SEA-SafeguardBench Evaluating AI Safety in SEA]]
 - [[2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for|Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino]]
@@ -90,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: weiqi@aisingapore.org
+- *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: weiqi@aisingapore.org
 - *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: wtjhi@aisingapore.org
 - *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: weiqi@aisingapore.org
 - *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: yosephine@aisingapore.org

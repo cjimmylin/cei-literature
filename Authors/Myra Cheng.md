@@ -22,6 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2025-Cheng-ELEPHANT Social Sycophancy|ELEPHANT (Social Sycophancy)]] (First Author)
 - [[2021-Weidinger-Ethical and social risks of harm from Language|Ethical and social risks of harm from Language]]
 
 ## Notes
@@ -31,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
+- *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin

@@ -17,9 +17,9 @@ key: EXSR0553
 type: preprint
 short_title: "Building Domain-Specific LLMs Faithful To The"
 year: 2023
-first_author: "[[Shabaz Patel, Hassan Kane, Rayhan Patel]]"
+first_author: "[[Shabaz Patel]]"
 last_author: "[[Rayhan Patel]]"
-authors: "[[Shabaz Patel, Hassan Kane, Rayhan Patel]]"
+authors: Shabaz Patel; Hassan Kane; Rayhan Patel
 authors_incomplete: false
 url: "https://arxiv.org/abs/2312.06652"
 external_pdf: "https://arxiv.org/pdf/2312.06652.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "NeurIPS 2023"
 
 ## Authors
 
-[[Sahil Patel|Shabaz Patel]], [[Hassan Kane]], [[Roma Patel|Rayhan Patel]]
+[[Shabaz Patel]], [[Hassan Kane]], [[Rayhan Patel]]
 
 ## Metadata
 

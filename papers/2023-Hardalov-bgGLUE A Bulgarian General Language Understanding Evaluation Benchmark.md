@@ -16,8 +16,8 @@ type: preprint
 short_title: "bgGLUE: A Bulgarian General Language Understanding Evaluation Benchmark"
 year: 2023
 first_author: "[[Momchil Hardalov]]"
-last_author: "[[Dragomir Radev Preslav Nakov]]"
-authors: "Momchil Hardalov, Pepa Atanasova, Todor Mihaylov, Galia Angelova, Kiril Simov, Petya Osenova, Ves Stoyanov, Ivan Koychev, Preslav Nakov, Dragomir Radev"
+last_author: "[[Dragomir Radev]]"
+authors: Momchil Hardalov; Pepa Atanasova; Todor Mihaylov; Galia Angelova; Kiril Simov; Petya Osenova; Ves Stoyanov; Ivan Koychev; Preslav Nakov; Dragomir Radev
 url: "https://arxiv.org/abs/2306.02349"
 external_pdf: "https://arxiv.org/pdf/2306.02349.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark.md"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2023"
 
 ## Authors
 
-[[Pepa Atanasova Momchil Hardalov]], [[Galia Angelova Todor Mihaylov]], [[Petya Osenova Kiril Simov]], [[Ivan Koychev Ves Stoyanov]], [[Dragomir Radev Preslav Nakov]]
+[[Momchil Hardalov]], [[Pepa Atanasova]], [[Todor Mihaylov]], [[Galia Angelova]], [[Kiril Simov]], [[Petya Osenova]], [[Ves Stoyanov]], [[Ivan Koychev]], [[Preslav Nakov]], [[Dragomir Radev]]
 
 ## Metadata
 

@@ -52,6 +52,8 @@ Dr. Zhuang has made significant contributions to the "GMAI-MMBench" project, a c
 
 
 
+
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## External Links & Profiles
@@ -66,6 +68,10 @@ Dr. Zhuang has made significant contributions to the "GMAI-MMBench" project, a c
 
 
 
+
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn

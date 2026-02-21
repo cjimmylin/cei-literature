@@ -17,7 +17,7 @@ type: preprint
 short_title: "ISE-Hate A Benchmark Corpus for Inter-faith"
 year: 2023
 first_author: "[[Akram, Muhammad Hammad]]"
-last_author: "[[Bashir, Maryam]]"
+last_author: "[[Maryam Bashir]]"
 authors: Muhammad Hammad Akram; Khurram Shahzad; Maryam Bashir
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079"
@@ -60,7 +60,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-Unknown
+[[Muhammad Hammad Akram]], [[Khurram Shahzad]], [[Maryam Bashir]]
 
 ## Metadata
 

@@ -18,7 +18,7 @@ short_title: "LoraxBench: A Multitask, Multilingual Benchmark Suite for 20 Indon
 year: 2025
 first_author: "[[Aji, Alham Fikri]]"
 last_author: "[[Cohn, Trevor]]"
-authors: "[[Aji, Alham Fikri]]; [[Cohn, Trevor]]"
+authors: "Aji, Alham Fikri; Cohn, Trevor"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.12459"
 external_pdf: "https://arxiv.org/pdf/2508.12459.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Alham Fikri Aji|Aji, Alham Fikri]], [[Cohn, Trevor]]
+[[Aji, Alham Fikri]], [[Cohn, Trevor]]
 
 ## Metadata
 

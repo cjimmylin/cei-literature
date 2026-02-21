@@ -59,7 +59,9 @@ twitter: ""
 
 
 
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+
+
+- [[2025-Cheng-ELEPHANT Social Sycophancy|ELEPHANT (Social Sycophancy)]]
 - [[2023-Santurkar-Whose Opinions Do Language Models Reflect|Whose Opinions Do Language Models Reflect?]]
 
 ## External Links & Profiles
@@ -90,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Santurkar-Whose Opinions Do Language Models Reflect*: Affiliation: lable at https://github, Email: shibani@stanford.edu
+- *From 2023-Santurkar-Whose Opinions Do Language Models Reflect*: Affiliation: lable at https://github, Email: shibani@stanford.edu
 - *From 2023-Santurkar-Whose Opinions Do Language Models Reflect*: Affiliation: lable at https://github, Email: faisal@cs.columbia.edu
 - *From 2023-Santurkar-Whose Opinions Do Language Models Reflect*: Affiliation: lable at https://github, Email: thashim@stanford.edu
 - *From 2023-Santurkar-Whose Opinions Do Language Models Reflect*: Affiliation: lable at https://github, Email: esindurmus@cs.stanford.edu

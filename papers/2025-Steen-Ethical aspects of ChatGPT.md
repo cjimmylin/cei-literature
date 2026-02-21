@@ -17,7 +17,7 @@ short_title: "Ethical aspects of ChatGPT"
 year: 2025
 first_author: "[[Marc Steen]]"
 last_author: "[[Cor Veenman]]"
-authors: "[[Marc Steen]]; [[Joachim de Greeff]]; [[Maaike de Boer]]; [[Cor Veenman]]"
+authors: Marc Steen; Joachim de Greeff; Maaike de Boer; Cor Veenman
 doi: 10.1007/s43681-024-00571-x
 url: "https://doi.org/10.1007/s43681-024-00571-x"
 external_pdf: N/A

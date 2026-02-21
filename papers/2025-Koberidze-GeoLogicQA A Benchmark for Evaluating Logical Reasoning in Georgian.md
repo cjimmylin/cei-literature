@@ -16,7 +16,7 @@ short_title: "GeoLogicQA: A Benchmark for Evaluating Logical Reasoning in Georgi
 year: 2025
 first_author: "[[Irakli Koberidze]]"
 last_author: "[[Magda Tsintsadze]]"
-authors: "Irakli Koberidze, Archil Elizbarashvili, Magda Tsintsadze"
+authors: Irakli Koberidze; Archil Elizbarashvili; Magda Tsintsadze
 url: "https://aclanthology.org/2025.lowresnlp-1.13.pdf"
 external_pdf: "https://aclanthology.org/2025.lowresnlp-1.13.pdf"
 publication: "ACL Anthology / LowResNLP 2025"

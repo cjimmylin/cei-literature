@@ -18,8 +18,8 @@ type: preprint
 short_title: "DravidianCodeMix Sentiment Analysis and Offensive Language"
 year: 2022
 first_author: "[[Chakravarthi, Bharathi Raja]]"
-last_author: "[[McCrae, John P]]"
-authors: "[[Chakravarthi, Bharathi Raja]]; [[Priyadharshini, Ruba]]; [[Muralidaran, Vigneshwaran]]; [[Jose, Navya]]; [[Suryawanshi, Shardul]]; [[Sherly, Elizabeth]]; [[McCrae, John P.]]"
+last_author: "[[McCrae, John P.]]"
+authors: "Chakravarthi, Bharathi Raja; Priyadharshini, Ruba; Muralidaran, Vigneshwaran; Jose, Navya; Suryawanshi, Shardul; Sherly, Elizabeth; McCrae, John P."
 authors_incomplete: false
 url: "https://arxiv.org/abs/2106.09460"
 external_pdf: "https://arxiv.org/pdf/2106.09460.pdf"

@@ -18,7 +18,7 @@ short_title: "The Unseen Targets of Hate – A Systematic Review of Hateful Comm
 year: 2024
 first_author: "[[Yu, Zehui]]"
 last_author: "[[Wagner, Claudia]]"
-authors: "[[Yu, Zehui]]; [[Sen, Indira]]; [[Assenmacher, Dennis]]; [[Samory, Mattia]]; [[Fröhling, Leon]]; [[Dahn, Christina]]; [[Nozza, Debora]]; [[Wagner, Claudia]]"
+authors: "Yu, Zehui; Sen, Indira; Assenmacher, Dennis; Samory, Mattia; Fröhling, Leon; Dahn, Christina; Nozza, Debora; Wagner, Claudia"
 authors_incomplete: false
 url: "https://arxiv.org/html/2405.08562v1"
 external_pdf: "https://arxiv.org/pdf/2405.08562.pdf"

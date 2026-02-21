@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Chakravarthi-Findings of the Shared Task on|Findings of the Shared Task on]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Chakravarthi-Findings of the Shared Task on*: Affiliation: School of Artificial Intelligence, Coimbatore, Amrita Vishwa Vidyapeetham, India
+- *From 2024-Chakravarthi-Findings of the Shared Task on*: Affiliation: School of Artificial Intelligence, Coimbatore, Amrita Vishwa Vidyapeetham, India
 - *From 2024-Chakravarthi-Findings of the Shared Task on*: Affiliation: School of Artificial Intelligence, Coimbatore, Amrita Vishwa Vidyapeetham, India
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

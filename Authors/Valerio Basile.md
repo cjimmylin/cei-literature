@@ -34,6 +34,8 @@ He was the lead organizer of SemEval-2019 Task 5 on Multilingual Detection of Ha
 
 
 
+
+
 - [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]] (First Author)
 - [[2021-Caselli-HateBERT|HateBERT]]
 - [[2019-Basile-SemEval-2019 Task 5|SemEval-2019 Task 5]] (First Author)
@@ -56,6 +58,10 @@ He was the lead organizer of SemEval-2019 Task 5 on Multilingual Detection of Ha
 
 
 
+
+
+- *From 2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against*: Affiliation: Department of Translation, Interpreting and Communication – Ghent University, Email: firstname.lastname@ugent.be
+- *From 2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against*: Affiliation: Department of Translation, Interpreting and Communication – Ghent University, Email: firstname.lastname@ugent.be
 - *From 2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against*: Affiliation: Department of Translation, Interpreting and Communication – Ghent University, Email: firstname.lastname@ugent.be
 - *From 2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against*: Affiliation: Department of Translation, Interpreting and Communication – Ghent University, Email: gillesm.jacobs@ugent.be
 - *From 2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against*: Affiliation: Department of Translation, Interpreting and Communication – Ghent University, Email: firstname.lastname@ugent.be

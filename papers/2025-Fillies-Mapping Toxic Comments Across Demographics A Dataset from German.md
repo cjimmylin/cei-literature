@@ -17,7 +17,7 @@ short_title: "Mapping Toxic Comments Across Demographics: A Dataset from German 
 year: 2025
 first_author: "[[Jan Fillies]]"
 last_author: "[[Adrian Paschke]]"
-authors: "[[Jan Fillies]]; [[Michael Peter Hoffmann]]; [[Rebecca Reichel]]; [[Roman Salzwedel]]; [[Sven Bodemer]]; [[Adrian Paschke]]"
+authors: Jan Fillies; Michael Peter Hoffmann; Rebecca Reichel; Roman Salzwedel; Sven Bodemer; Adrian Paschke
 url: "https://arxiv.org/abs/2508.21084"
 external_pdf: "https://arxiv.org/pdf/2508.21084.pdf"
 publication: arXiv
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Jan Fillies]], [[Michael Hoffmann|Michael Peter Hoffmann]], [[Rebecca Reichel]], [[Roman Salzwedel]], [[Sven Bodemer]], [[Adrian Paschke]]
+[[Jan Fillies]], [[Michael Peter Hoffmann]], [[Rebecca Reichel]], [[Roman Salzwedel]], [[Sven Bodemer]], [[Adrian Paschke]]
 
 ## Metadata
 

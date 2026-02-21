@@ -17,7 +17,7 @@ short_title: "IndicCONAN: A Multilingual Dataset for Combating Hate Speech in In
 year: 2024
 first_author: "[[Sahoo, Nihar Ranjan]]"
 last_author: "[[Bhattacharyya, Pushpak]]"
-authors: "[[Sahoo, Nihar Ranjan]]; [[Beria, Gyana Prakash]]; [[Bhattacharyya, Pushpak]]"
+authors: "Sahoo, Nihar Ranjan; Beria, Gyana Prakash; Bhattacharyya, Pushpak"
 authors_incomplete: false
 url: "https://ojs.aaai.org/index.php/AAAI/article/view/30237"
 external_pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/30237/32202"

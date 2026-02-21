@@ -16,7 +16,7 @@ short_title: "SafeWorld: Geo-Diverse Safety Alignment"
 year: 2024
 first_author: "[[Da Yin]]"
 last_author: "[[Nanyun Peng]]"
-authors: Da Yin, Haoyi Qiu, Kung-Hsiang Huang, Kai-Wei Chang, Nanyun Peng
+authors: Da Yin; Haoyi Qiu; Kung-Hsiang Huang; Kai-Wei Chang; Nanyun Peng
 url: "https://arxiv.org/abs/2412.06483"
 external_pdf: "https://arxiv.org/pdf/2412.06483.pdf"
 publication: arXiv / NeurIPS 2024
@@ -51,7 +51,7 @@ CONFERENCE: "NeurIPS 2024"
 
 ## Authors
 
-[[Dawei Yin|Da Yin]], [[Han Qiu|Haoyi Qiu]], [[Kexin Huang|Kung-Hsiang Huang]], [[Kai-Wei Chang]], [[Nanyun Peng]]
+[[Da Yin]], [[Haoyi Qiu]], [[Kung-Hsiang Huang]], [[Kai-Wei Chang]], [[Nanyun Peng]]
 
 ## Metadata
 

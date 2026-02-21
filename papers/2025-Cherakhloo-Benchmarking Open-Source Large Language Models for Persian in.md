@@ -17,7 +17,7 @@ short_title: "Benchmarking Open-Source Large Language Models for Persian in Zero
 year: 2025
 first_author: "[[Cherakhloo, Mahdi]]"
 last_author: "[[Vahdat, Bijan Vosoughi]]"
-authors: "[[Cherakhloo, Mahdi]]; [[Abbasi, Arash]]; [[Sarafraz, Mohammad Saeid]]; [[Vahdat, Bijan Vosoughi]]"
+authors: "Cherakhloo, Mahdi; Abbasi, Arash; Sarafraz, Mohammad Saeid; Vahdat, Bijan Vosoughi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.12807"
 external_pdf: "https://arxiv.org/pdf/2510.12807.pdf"

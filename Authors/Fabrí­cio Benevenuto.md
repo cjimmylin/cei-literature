@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate|Context-Aware and Expert Data Resources for Brazilian Portuguese Hate Speech Detection]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate*: Affiliation: Institute of Mathematical and Computer Sciences, University of São Paulo, São Carlos, Brazil and 2Computer Sc, Email: francielleavargas@usp.br
+- *From 2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate*: Affiliation: Institute of Mathematical and Computer Sciences, University of São Paulo, São Carlos, Brazil and 2Computer Sc, Email: francielleavargas@usp.br
 - *From 2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate*: Affiliation: Institute of Mathematical and Computer Sciences, University of São Paulo, São Carlos, Brazil and 2Computer Sc, Email: francielleavargas@usp.br
 - *From 2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate*: Affiliation: Institute of Mathematical and Computer Sciences, University of São Paulo, São Carlos, Brazil and 2Computer Sc, Email: francielleavargas@usp.br
 - *From 2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate*: Affiliation: Institute of Mathematical and Computer Sciences, University of São Paulo, São Carlos, Brazil and 2Computer Sc, Email: francielleavargas@usp.br

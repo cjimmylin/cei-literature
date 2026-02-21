@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking|TituLLMs: A Family of Bangla LLMs with Comprehensive Benchmarking]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking*: Affiliation: University of Central Florida, USA, Email: fialam@hbku.edu.qa
+- *From 2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking*: Affiliation: University of Central Florida, USA, Email: fialam@hbku.edu.qa
 - *From 2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking*: Affiliation: University of Central Florida, USA, Email: fialam@hbku.edu.qa
 - *From 2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking*: Affiliation: University of Central Florida, USA, Email: fialam@hbku.edu.qa
 - *From 2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking*: Affiliation: University of Central Florida, USA, Email: fialam@hbku.edu.qa

@@ -15,8 +15,8 @@ type: conferencePaper
 short_title: "Characterizing Bias: Benchmarking Large Language Models in Simplified versus Traditional Chinese"
 year: 2025
 first_author: "[[Hanjia Lyu]]"
-last_author: "[[Allison Koenecke Jian Kang]]"
-authors: Hanjia Lyu, Jiebo Luo, Jian Kang, Allison Koenecke
+last_author: "[[Allison Koenecke]]"
+authors: Hanjia Lyu; Jiebo Luo; Jian Kang; Allison Koenecke
 doi: 10.1145/3715275.3732182
 url: "https://arxiv.org/abs/2505.22645"
 external_pdf: "https://arxiv.org/pdf/2505.22645.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "FAccT 2025"
 
 ## Authors
 
-[[Jiebo Luo Hanjia Lyu]], [[Allison Koenecke Jian Kang]]
+[[Hanjia Lyu]], [[Jiebo Luo]], [[Jian Kang]], [[Allison Koenecke]]
 
 ## Metadata
 

@@ -18,7 +18,7 @@ short_title: "DRISHTIKON A Multimodal Multilingual Benchmark for"
 year: 2025
 first_author: "[[Maji, Arijit]]"
 last_author: "[[Saha, Sriparna]]"
-authors: "[[Maji, Arijit]]; [[Kumar, Raghvendra]]; [[Ghosh, Akash]]; [[Anushka]]; [[Shah, Nemil]]; [[Borah, Abhilekh]]; [[Shah, Vanshika]]; [[Mishra, Nishant]]; [[Saha, Sriparna]]"
+authors: "Maji, Arijit; Kumar, Raghvendra; Ghosh, Akash; Anushka; Shah, Nemil; Borah, Abhilekh; Shah, Vanshika; Mishra, Nishant; Saha, Sriparna"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.19274"
 external_pdf: "https://arxiv.org/pdf/2509.19274.pdf"

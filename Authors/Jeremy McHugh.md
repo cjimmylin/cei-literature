@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Šekrst-AI Ethics by Design|AI Ethics by Design]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Šekrst-AI Ethics by Design*: Affiliation: University of Zagreb, Email: ksekrst@ffzg.hr
+- *From 2024-Šekrst-AI Ethics by Design*: Affiliation: University of Zagreb, Email: ksekrst@ffzg.hr
 - *From 2024-Šekrst-AI Ethics by Design*: Affiliation: University of Zagreb, Email: jon@preamble.com
 - *From 2024-Šekrst-AI Ethics by Design*: Affiliation: University of Zagreb, Email: ksekrst@ffzg.hr
 - *From 2024-Šekrst-AI Ethics by Design*: Affiliation: University of Zagreb, Email: ksekrst@ffzg.hr

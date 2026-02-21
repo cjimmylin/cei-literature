@@ -18,7 +18,7 @@ short_title: "Turkish Offensive Language Detection Dataset"
 year: 2024
 first_author: "[[Toygar]]"
 last_author: "[[Toygar]]"
-authors: [[Toygar]]
+authors: Toygar
 authors_incomplete: false
 url: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"
 external_pdf: "https://www.mdpi.com/2079-9292/14/24/4919/pdf"

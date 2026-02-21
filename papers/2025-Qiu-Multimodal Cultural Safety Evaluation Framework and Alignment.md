@@ -16,7 +16,7 @@ short_title: "Multimodal Cultural Safety: Evaluation Framework and Alignment Str
 year: 2025
 first_author: "[[Haoyi Qiu]]"
 last_author: "[[Nanyun Peng]]"
-authors: Haoyi Qiu, Kung-Hsiang Huang, Ruichen Zheng, Jiao Sun, Nanyun Peng
+authors: Haoyi Qiu; Kung-Hsiang Huang; Ruichen Zheng; Jiao Sun; Nanyun Peng
 url: "https://arxiv.org/abs/2505.14972"
 external_pdf: "https://arxiv.org/pdf/2505.14972.pdf"
 publication: TMLR (Dec 2025)
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Han Qiu|Haoyi Qiu]], [[Kexin Huang|Kung-Hsiang Huang]], [[Ruichen Zheng]], [[Jiao Sun]], [[Nanyun Peng]]
+[[Haoyi Qiu]], [[Kung-Hsiang Huang]], [[Ruichen Zheng]], [[Jiao Sun]], [[Nanyun Peng]]
 
 ## Metadata
 

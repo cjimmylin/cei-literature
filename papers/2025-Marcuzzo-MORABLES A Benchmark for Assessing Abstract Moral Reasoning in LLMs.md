@@ -17,7 +17,7 @@ short_title: "MORABLES: A Benchmark for Assessing Abstract Moral Reasoning in LL
 year: 2025
 first_author: "[[Marcuzzo, Matteo]]"
 last_author: "[[Pilehvar, Mohammad Taher]]"
-authors: "[[Marcuzzo, Matteo]]; [[Zangari, Alessandro]]; [[Albarelli, Andrea]]; [[Camacho-Collados, Jose]]; [[Pilehvar, Mohammad Taher]]"
+authors: "Marcuzzo, Matteo; Zangari, Alessandro; Albarelli, Andrea; Camacho-Collados, Jose; Pilehvar, Mohammad Taher"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.12371"
 external_pdf: "https://arxiv.org/pdf/2509.12371.pdf"

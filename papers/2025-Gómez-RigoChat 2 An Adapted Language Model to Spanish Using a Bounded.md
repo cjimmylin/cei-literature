@@ -16,7 +16,7 @@ short_title: "RigoChat 2: An Adapted Language Model to Spanish Using a Bounded D
 year: 2025
 first_author: "[[Gómez, Gonzalo Santamaría]]"
 last_author: "[[Jiménez, Álvaro Barbero]]"
-authors: "[[Gómez, Gonzalo Santamaría]]; [[Subies, Guillem García]]; [[Ruiz, Pablo Gutiérrez]]; [[Valero, Mario González]]; [[Fuertes, Natàlia]]; [[Zamorano, Helena Montoro]]; [[Sanz, Carmen Muñoz]]; [[Plaza, Leire Rosado]]; [[García, Nuria Aldama]]; [[Sánchez, David Betancur]]; [[Sushkova, Kateryna]]; [[Nieto, Marta Guerrero]]; [[Jiménez, Álvaro Barbero]]"
+authors: "Gómez, Gonzalo Santamaría; Subies, Guillem García; Ruiz, Pablo Gutiérrez; Valero, Mario González; Fuertes, Natàlia; Zamorano, Helena Montoro; Sanz, Carmen Muñoz; Plaza, Leire Rosado; García, Nuria Aldama; Sánchez, David Betancur; Sushkova, Kateryna; Nieto, Marta Guerrero; Jiménez, Álvaro Barbero"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.08188"
 external_pdf: "https://arxiv.org/pdf/2503.08188.pdf"

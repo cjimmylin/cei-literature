@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural|Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs]] (Last Author)
+- [[2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek|Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance]] (Last Author)
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural*: Affiliation: Department of Computer Science, National Center for Text Mining, Email: ajwadabrar@iut-dhaka.edu
+- *From 2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural*: Affiliation: Department of Computer Science, National Center for Text Mining, Email: ajwadabrar@iut-dhaka.edu
 - *From 2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural*: Affiliation: Department of Computer Science, National Center for Text Mining, Email: ajwadabrar@iut-dhaka.edu
 - *From 2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural*: Affiliation: Department of Computer Science, National Center for Text Mining, Email: ajwadabrar@iut-dhaka.edu
 - *From 2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural*: Affiliation: Department of Computer Science, National Center for Text Mining, Email: ajwadabrar@iut-dhaka.edu

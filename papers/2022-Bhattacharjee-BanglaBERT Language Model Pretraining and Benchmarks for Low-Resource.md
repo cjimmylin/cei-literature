@@ -18,7 +18,7 @@ short_title: "BanglaBERT: Language Model Pretraining and Benchmarks for Low-Reso
 year: 2022
 first_author: "[[Bhattacharjee, Abhik]]"
 last_author: "[[Shahriyar, Rifat]]"
-authors: "[[Bhattacharjee, Abhik]]; [[Hasan, Tahmid]]; [[Ahmad, Wasi Uddin]]; [[Samin, Kazi]]; [[Islam, Md Saiful]]; [[Iqbal, Anindya]]; [[Rahman, M. Sohel]]; [[Shahriyar, Rifat]]"
+authors: "Bhattacharjee, Abhik; Hasan, Tahmid; Ahmad, Wasi Uddin; Samin, Kazi; Islam, Md Saiful; Iqbal, Anindya; Rahman, M. Sohel; Shahriyar, Rifat"
 authors_incomplete: false
 url: "https://aclanthology.org/2022.findings-naacl.98/"
 external_pdf: "https://arxiv.org/pdf/2101.00204v4.pdf"

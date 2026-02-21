@@ -50,6 +50,8 @@ He is the primary developer of several widely used benchmarks and datasets, most
 
 
 
+
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
 - [[2024-Team-WildGuard|WildGuard]]
 
@@ -70,6 +72,10 @@ He is the primary developer of several widely used benchmarks and datasets, most
 
 
 
+
+
+- *From 2024-Team-WildGuard*: Affiliation: Institute for AI, Email: nouhad@allenai.org
+- *From 2024-Team-WildGuard*: Affiliation: Institute for AI, Email: nouhad@allenai.org
 - *From 2024-Team-WildGuard*: Affiliation: Institute for AI, Email: wade3han@snu.ac.kr
 - *From 2024-Team-WildGuard*: Affiliation: Institute for AI, Email: nouhad@allenai.org
 - *From 2024-Team-WildGuard*: Affiliation: Institute for AI, Email: wade3han@snu.ac.kr

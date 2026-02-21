@@ -16,7 +16,7 @@ short_title: "IRLBench: A Multi-modal, Culturally Grounded, Parallel Irish-Engli
 year: 2025
 first_author: "[[Khanh-Tung Tran]]"
 last_author: "[[Hoang D. Nguyen]]"
-authors: "Khanh-Tung Tran, Barry O'Sullivan, Hoang D. Nguyen"
+authors: "Khanh-Tung Tran; Barry O'Sullivan; Hoang D. Nguyen"
 url: "https://arxiv.org/abs/2505.13498"
 external_pdf: "https://arxiv.org/pdf/2505.13498.pdf"
 publication: arXiv
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Kien Tran|Khanh-Tung Tran]], [[Barry O'Sullivan]], [[Hoang D. Nguyen]]
+[[Khanh-Tung Tran]], [[Barry O'Sullivan]], [[Hoang D. Nguyen]]
 
 ## Metadata
 

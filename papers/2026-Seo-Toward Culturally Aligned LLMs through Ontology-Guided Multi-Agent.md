@@ -16,7 +16,7 @@ short_title: Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent 
 year: 2026
 first_author: "[[Seo, Wonduk]]"
 last_author: "[[Bu, Yi]]"
-authors: "[[Seo, Wonduk]]; [[Choi, Wonseok]]; [[Koh, Junseo]]; [[Lee, Juhyeon]]; [[An, Hyunjin]]; [[Yu, Minhyeong]]; [[Park, Jian]]; [[Zhou, Qingshan]]; [[Lee, Seunghyun]]; [[Bu, Yi]]"
+authors: "Seo, Wonduk; Choi, Wonseok; Koh, Junseo; Lee, Juhyeon; An, Hyunjin; Yu, Minhyeong; Park, Jian; Zhou, Qingshan; Lee, Seunghyun; Bu, Yi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.21700"
 external_pdf: "https://arxiv.org/pdf/2601.21700.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Seo, Wonduk]], [[Choi, Wonseok]], [[Koh, Junseo]], [[Lee, Juhyeon]], [[An, Hyunjin]], [[Yu, Minhyeong]], [[Park, Jian]], [[Zhou, Qingshan]], [[Lee, Seunghyun]], [[Bu, Yi]]
+[[Seo, Wonduk]], [[Wonseok Choi|Choi, Wonseok]], [[Koh, Junseo]], [[Lee, Juhyeon]], [[An, Hyunjin]], [[Yu, Minhyeong]], [[Park, Jian]], [[Zhou, Qingshan]], [[Lee, Seunghyun]], [[Bu, Yi]]
 
 ## Metadata
 

@@ -17,7 +17,7 @@ short_title: "Evaluating Code-Switching Translation with Large ..."
 year: 2025
 first_author: "[[Zheng, Weihua]]"
 last_author: "[[Chanpaisit, Nattapol]]"
-authors: "[[Zheng, Weihua]]; [[Chanpaisit, Nattapol]]"
+authors: "Zheng, Weihua; Chanpaisit, Nattapol"
 authors_incomplete: true
 url: "https://aclanthology.org/2024.lrec-main.565.pdf"
 external_pdf: "https://aclanthology.org/2024.lrec-main.565.pdf"

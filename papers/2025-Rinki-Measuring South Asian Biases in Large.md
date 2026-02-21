@@ -18,7 +18,7 @@ short_title: "Measuring South Asian Biases in Large"
 year: 2025
 first_author: "[[Rinki, Mamnuya]]"
 last_author: "[[Zhu, Ziwei]]"
-authors: "[[Rinki, Mamnuya]]; [[Raj, Chahat]]; [[Mukherjee, Anjishnu]]; [[Zhu, Ziwei]]"
+authors: "Rinki, Mamnuya; Raj, Chahat; Mukherjee, Anjishnu; Zhu, Ziwei"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.18466"
 external_pdf: "https://arxiv.org/pdf/2505.18466.pdf"

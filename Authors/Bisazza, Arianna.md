@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in|Cross-Lingual Transfer of Debiasing and Detoxification in Multilingual LLMs: An Extensive Investigation]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in*: Affiliation: Institute for Logic, Language and Computation, University of Amsterdam, Email: a.bisazza@rug.nl
+- *From 2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in*: Affiliation: Institute for Logic, Language and Computation, University of Amsterdam, Email: a.bisazza@rug.nl
 - *From 2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in*: Affiliation: Institute for Logic, Language and Computation, University of Amsterdam, Email: a.bisazza@rug.nl
 - *From 2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in*: Affiliation: Institute for Logic, Language and Computation, University of Amsterdam, Email: a.bisazza@rug.nl
 - *From 2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in*: Affiliation: Institute for Logic, Language and Computation, University of Amsterdam, Email: a.bisazza@rug.nl

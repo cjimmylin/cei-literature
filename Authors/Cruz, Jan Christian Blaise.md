@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Miranda-FilBench Can LLMs Understand and Generate Filipino|FilBench: Can LLMs Understand and Generate Filipino?]]
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
 - [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
+- *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc

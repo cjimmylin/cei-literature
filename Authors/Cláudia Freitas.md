@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance|Exploring Brazil's LLM Fauna: Investigating the Generative Performance of Large Language Models in Portuguese]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Av, Email: alinepaes@ic.uff.br
+- *From 2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Av, Email: alinepaes@ic.uff.br
 - *From 2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Av, Email: claudiafreitas@usp.br
 - *From 2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Av, Email: assisgabriel@id.uff.br
 - *From 2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Av, Email: assisgabriel@id.uff.br

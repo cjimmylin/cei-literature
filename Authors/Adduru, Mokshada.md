@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Pandey-Creating and Evaluating Code-Mixed Nepali-English and|Creating and Evaluating Code-Mixed Nepali-English and]]
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Pandey-Creating and Evaluating Code-Mixed Nepali-English and*: Affiliation: University AP, Email: adduru@srmap.edu.in
+- *From 2025-Pandey-Creating and Evaluating Code-Mixed Nepali-English and*: Affiliation: University AP, Email: adduru@srmap.edu.in
 - *From 2025-Pandey-Creating and Evaluating Code-Mixed Nepali-English and*: Affiliation: University AP, Email: sawan.r@srmap.edu.in
 - *From 2025-[[Unknown]]-Creating and Evaluating Code-Mixed Nepali-English and*: Affiliation: University AP, Email: adduru@srmap.edu.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

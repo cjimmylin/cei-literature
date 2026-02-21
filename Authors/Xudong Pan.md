@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Wu-OpenDeception|OpenDeception]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Wu-OpenDeception*: Affiliation: University (24210240338@m, Email: 25213050164@m.fudan.edu.cn
+- *From 2025-Wu-OpenDeception*: Affiliation: University (24210240338@m, Email: 25213050164@m.fudan.edu.cn
 - *From 2025-Wu-OpenDeception*: Affiliation: University (24210240338@m, Email: xdpan@fudan.edu.cn
 - *From 2025-Wu-OpenDeception*: Affiliation: University (24210240338@m, Email: 24210240338@m.fudan.edu.cn
 - *From 2025-Wu-OpenDeception*: Affiliation: University (24210240338@m, Email: 25213050164@m.fudan.edu.cn

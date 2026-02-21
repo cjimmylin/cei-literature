@@ -17,7 +17,7 @@ short_title: "Untangling Input Language from Reasoning Language: A Diagnostic Fr
 year: 2025
 first_author: "[[Li, Nan]]"
 last_author: "[[De Bie, Tijl]]"
-authors: "[[Li, Nan]]; [[Kang, Bo]]; [[De Bie, Tijl]]"
+authors: "Li, Nan; Kang, Bo; De Bie, Tijl"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.10257"
 external_pdf: "https://arxiv.org/pdf/2601.10257.pdf"

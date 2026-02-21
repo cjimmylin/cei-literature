@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Shen-PsychEthicsBench|PsychEthicsBench]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Shen-PsychEthicsBench*: Affiliation: University, 2University of Liverpool, 3Hefei University of Technology
+- *From 2026-Shen-PsychEthicsBench*: Affiliation: University, 2University of Liverpool, 3Hefei University of Technology
 - *From 2026-Shen-PsychEthicsBench*: Affiliation: University, 2University of Liverpool, 3Hefei University of Technology
 - *From 2026-Shen-PsychEthicsBench*: Affiliation: University, 2University of Liverpool, 3Hefei University of Technology
 - *From 2026-Shen-PsychEthicsBench*: Affiliation: University, 2University of Liverpool, 3Hefei University of Technology

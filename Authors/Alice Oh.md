@@ -52,12 +52,18 @@ She has been instrumental in organizing the top venues in AI, serving as General
 
 
 
+
+
+- [[2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and|Social Bias Benchmark for Generation: A Comparison of Generation and QA-Based Evaluations]] (Last Author)
 - [[2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and|BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding and Cultural Knowledge]] (Last Author)
 - [[2025-Myung-PapersPlease|PapersPlease]] (Last Author)
+- [[2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation|Culture is Everywhere: A Call for Intentionally Cultural Evaluation]] (Last Author)
 - [[2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun|Evaluating LLMs' Language Confusion in Code-switching Context Juhyun Oh KAIST]] (Last Author)
 - [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity]] (Last Author)
 - [[2024-Bang-BLEnD A Benchmark for LLMs on|BLEnD A Benchmark for LLMs on]] (Last Author)
 - [[2024-Hooker-Global MMLU Understanding and Addressing Cultural|Global MMLU Understanding and Addressing Cultural]]
+- [[2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering|KoBBQ: Korean Bias Benchmark for Question Answering]]
+- [[2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in|CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean]] (Last Author)
 - [[2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study|Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese]] (Last Author)
 - [[2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of|MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts]] (Last Author)
 - [[2022-Jeong-KOLD Korean Offensive Language Dataset|KOLD: Korean Offensive Language Dataset]] (Last Author)
@@ -80,6 +86,10 @@ She has been instrumental in organizing the top venues in AI, serving as General
 
 
 
+
+
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: jihyung.moon@upstage.ai
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: james.ryu@kakaoenterprise.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: humanbrain.djlee@gmail.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com

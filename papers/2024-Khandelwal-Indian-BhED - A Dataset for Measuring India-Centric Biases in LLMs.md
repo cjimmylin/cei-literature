@@ -15,7 +15,7 @@ key: EXSR0184
 type: preprint
 short_title: "Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs"
 year: 2024
-first_author: "[[V. & Tonneau Khandelwal]]"
+first_author: "[[Khyati Khandelwal]]"
 last_author: "[[Scott A. Hale]]"
 authors: "Khyati Khandelwal; Manuel Tonneau; Andrew M. Bean; Hannah Rose Kirk; Scott A. Hale"
 doi: 10.1145/3677525.3678666

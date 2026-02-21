@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task|RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: rybolos@gmail.com
+- *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: rybolos@gmail.com
 - *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: nikita.semenov@mts.ru
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

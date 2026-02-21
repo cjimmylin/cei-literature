@@ -14,8 +14,8 @@ type: preprint
 short_title: "Enhancing Romanian Offensive Language Detection through Knowledge Distillation, Multi-Task Learning, and Data Augmentation"
 year: 2024
 first_author: "[[Vlad-Cristian Matei]]"
-last_author: "[[Dumitru-Clementin Cercel Răzvan-Alexandru Smădu]]"
-authors: "Vlad-Cristian Matei, Iulian-Marius Tăiatu, Răzvan-Alexandru Smădu, Dumitru-Clementin Cercel"
+last_author: "[[Dumitru-Clementin Cercel]]"
+authors: Vlad-Cristian Matei; Iulian-Marius Tăiatu; Răzvan-Alexandru Smădu; Dumitru-Clementin Cercel
 url: "https://arxiv.org/abs/2409.20498"
 external_pdf: "https://arxiv.org/pdf/2409.20498.pdf"
 publication: arXiv
@@ -50,7 +50,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Iulian-Marius Tăiatu Vlad-Cristian Matei]], [[Dumitru-Clementin Cercel Răzvan-Alexandru Smădu]]
+[[Vlad-Cristian Matei]], [[Iulian-Marius Tăiatu]], [[Răzvan-Alexandru Smădu]], [[Dumitru-Clementin Cercel]]
 
 ## Metadata
 

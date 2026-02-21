@@ -25,6 +25,8 @@ Jann Railey Montalan is affiliated with AI Singapore and the National University
 
 
 
+
+
 - [[2025-Catapia-Batayan|Batayan]] (First Author)
 - [[2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models|SEA-HELM: Southeast Asian Holistic Evaluation of Language Models]]
 - [[2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for|Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino]] (First Author)
@@ -36,6 +38,10 @@ Jann Railey Montalan is affiliated with AI Singapore and the National University
 
 
 
+
+
+- *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
+- *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
 - *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
 - *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
 - *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org

@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Jin-WenMind A Comprehensive Benchmark for Evaluating|WenMind A Comprehensive Benchmark for Evaluating]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: danny_ding@intsig.net
+- *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: danny_ding@intsig.net
 - *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: yongxin_shi@foxmail.com
 - *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: ly10061105@gmail.com
 - *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: ly10061105@gmail.com

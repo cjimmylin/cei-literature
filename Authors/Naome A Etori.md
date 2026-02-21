@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for*: Affiliation: labi3, Muhidin A
+- *From 2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for*: Affiliation: labi3, Muhidin A
 - *From 2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for*: Affiliation: labi3, Muhidin A
 - *From 2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for*: Affiliation: labi3, Muhidin A
 - *From 2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for*: Affiliation: labi3, Muhidin A

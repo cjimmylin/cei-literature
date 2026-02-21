@@ -60,9 +60,10 @@ twitter: ""
 
 
 
+
+
 - [[2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks|Measuring What Matters -- Construct Validity in LLM Benchmarks]] (First Author)
 - [[2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs|Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs]]
-- [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]]
 
 ## External Links & Profiles
 
@@ -93,6 +94,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Kirk-The PRISM Alignment Project*: Affiliation: University of Oxford
 - *From 2024-Kirk-The PRISM Alignment Project*: Affiliation: University of Oxford
 - *From 2024-Kirk-The PRISM Alignment Project*: Affiliation: University of Oxford

@@ -75,7 +75,7 @@ Alignment in artificial intelligence pursues the consistency between model respo
 
 ## Authors
 
-[[Yiju Guo]], [[Ganqu Cui]], [[Lifan Yuan]], [[Ning Ding]], [[Zexu Sun]], [[Bowen Sun]], [[Huimin Chen]], [[Ruobing Xie]], [[Jie Zhou]], [[Ying Lin|Yankai Lin]], [[Zhiyuan Liu]], [[Maosong Sun]]
+[[Yiju Guo]], [[Ganqu Cui]], [[Lifan Yuan]], [[Ning Ding]], [[Zexu Sun]], [[Bowen Sun]], [[Huimin Chen]], [[Ruobing Xie]], [[Jie Zhou]], [[Yankai Lin]], [[Zhiyuan Liu]], [[Maosong Sun]]
 
 ## Data Description
 

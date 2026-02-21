@@ -15,9 +15,9 @@ key: EXSR0613
 type: preprint
 short_title: "WangchanBERTa Pretraining transformer-based Thai Language Models"
 year: 2021
-first_author: "[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Sarana Nutanong]]"
-last_author: "[[Sarana Nutanong Nawat Jantrakulchai]]"
-authors: "[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Sarana Nutanong]]"
+first_author: "[[Lalita Lowphansirikul]]"
+last_author: "[[Sarana Nutanong]]"
+authors: Lalita Lowphansirikul; Charin Polpanumas; Nawat Jantrakulchai; Sarana Nutanong
 authors_incomplete: false
 url: "https://arxiv.org/abs/2101.09635"
 external_pdf: "https://arxiv.org/pdf/2101.09635.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Charin Polpanumas Lalita Lowphansirikul]], [[Sarana Nutanong Nawat Jantrakulchai]]
+[[Lalita Lowphansirikul]], [[Charin Polpanumas]], [[Nawat Jantrakulchai]], [[Sarana Nutanong]]
 
 ## Metadata
 

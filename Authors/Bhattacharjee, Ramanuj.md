@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate|INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate]] (First Author)
 - [[2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace|Rethinking Hate Speech Detection on Social Media: Can LLMs Replace Traditional Models?]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate*: Affiliation: Institute of Technology Delhi, India
+- *From 2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate*: Affiliation: Institute of Technology Delhi, India
 - *From 2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate*: Affiliation: Institute of Technology Delhi, India
 - *From 2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate*: Affiliation: Institute of Technology Delhi, India
 - *From 2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate*: Affiliation: Institute of Technology Delhi, India

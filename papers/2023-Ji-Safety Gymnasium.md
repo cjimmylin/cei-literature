@@ -75,7 +75,7 @@ Artificial intelligence (AI) systems possess significant potential to drive soci
 
 ## Authors
 
-[[Jiaming Ji]], [[Borong Zhang]], [[Jiayi Zhou]], [[Xuehai Pan]], [[Wenhao Huang|Weidong Huang]], [[Ruiyang Sun]], [[Yiran Geng]], [[Yifan Zhong]], [[Juntao Dai]], [[Yaodong Yang]]
+[[Jiaming Ji]], [[Borong Zhang]], [[Jiayi Zhou]], [[Xuehai Pan]], [[Weidong Huang]], [[Ruiyang Sun]], [[Yiran Geng]], [[Yifan Zhong]], [[Juntao Dai]], [[Yaodong Yang]]
 
 ## Data Description
 

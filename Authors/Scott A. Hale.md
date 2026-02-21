@@ -60,7 +60,8 @@ twitter: ""
 
 
 
-- [[2025-Rystrøm-Multilingual Multicultural Evaluating Gaps Between Multilingual|Multilingual Multicultural Evaluating Gaps Between Multilingual]] (Last Author)
+
+
 - [[2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks|Measuring What Matters -- Construct Validity in LLM Benchmarks]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs|Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs]] (Last Author)
@@ -95,6 +96,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford

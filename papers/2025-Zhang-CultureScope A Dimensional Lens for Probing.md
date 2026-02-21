@@ -20,7 +20,7 @@ short_title: "CultureScope A Dimensional Lens for Probing"
 year: 2025
 first_author: "[[Jinghao Zhang]]"
 last_author: "[[Hongxia Ma]]"
-authors: "[[Jinghao Zhang]]; [[Sihang Jiang]]; [[Shiwei Guo]]; [[Shisong Chen]]; [[Yanghua Xiao]]; [[Hongwei Feng]]; [[Jiaqing Liang]]; [[Minggui HE]]; [[Shimin Tao]]; [[Hongxia Ma]]"
+authors: Jinghao Zhang; Sihang Jiang; Shiwei Guo; Shisong Chen; Yanghua Xiao; Hongwei Feng; Jiaqing Liang; Minggui HE; Shimin Tao; Hongxia Ma
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.16188"
 external_pdf: "https://arxiv.org/pdf/2509.16188.pdf"
@@ -57,7 +57,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Jinghao Zhang]], [[Sihang Jiang]], [[Shiwei Guo]], [[Sam Chen|Shisong Chen]], [[Yanghua Xiao]], [[Hongwei Feng]], [[Jenny Liang|Jiaqing Liang]], [[Minggui HE]], [[Shimin Tao]], [[Hing Keung Ma|Hongxia Ma]]
+[[Jinghao Zhang]], [[Sihang Jiang]], [[Shiwei Guo]], [[Shisong Chen]], [[Yanghua Xiao]], [[Hongwei Feng]], [[Jiaqing Liang]], [[Minggui HE]], [[Shimin Tao]], [[Hongxia Ma]]
 
 ## Metadata
 

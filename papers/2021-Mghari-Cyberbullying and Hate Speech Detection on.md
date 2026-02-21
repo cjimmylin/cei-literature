@@ -19,7 +19,7 @@ short_title: "Cyberbullying and Hate Speech Detection on"
 year: 2021
 first_author: "[[Mohammed Mghari]]"
 last_author: "[[Abdelaaziz El Hibaoui]]"
-authors: "[[Mohammed Mghari]]; [[Omar Bouras]]; [[Abdelaaziz El Hibaoui]]"
+authors: Mohammed Mghari; Omar Bouras; Abdelaaziz El Hibaoui
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/352848223"
 external_pdf: "https://doi.org/10.1016/j.dib.2022.108540"

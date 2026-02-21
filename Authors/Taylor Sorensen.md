@@ -24,10 +24,11 @@ Taylor Sorensen is a researcher at humans& (a company focused on AI alignment) a
 
 
 
+
+
 - [[2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value|EVALUESTEER: Measuring Reward Model Steerability Across Value Dimensions]]
 - [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
 - [[2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs|OvertonScore: Benchmarking Overton Pluralism in LLMs]]
-- [[2025-Sorensen-Operationalizing Pluralistic Values|Operationalizing Pluralistic Values]] (First Author)
 - [[2025-Sorensen-Value Profiles for Encoding Human Variation|Value Profiles for Encoding Human Variation]] (First Author)
 - [[2024-Jiang-Can Language Models Reason about Individualistic|Can Language Models Reason about Individualistic]]
 - [[2024-Sorensen-A Roadmap to Pluralistic Alignment|A Roadmap to Pluralistic Alignment]] (First Author)
@@ -41,6 +42,10 @@ Taylor Sorensen is a researcher at humans& (a company focused on AI alignment) a
 
 
 
+
+
+- *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
+- *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington

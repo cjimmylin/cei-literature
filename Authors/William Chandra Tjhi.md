@@ -59,7 +59,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Catapia-Batayan|Batayan]] (Last Author)
+- [[2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models|SEA-HELM: Southeast Asian Holistic Evaluation of Language Models]] (Last Author)
 
 ## External Links & Profiles
 
@@ -89,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
+- *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
 - *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
 - *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
 - *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org

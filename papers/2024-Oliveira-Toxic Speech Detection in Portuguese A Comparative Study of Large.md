@@ -17,7 +17,7 @@ short_title: "Toxic Speech Detection in Portuguese: A Comparative Study of Large
 year: 2024
 first_author: "[[Amanda da Silva Oliveira]]"
 last_author: "[[Eduardo José da Silva Luz]]"
-authors: "Amanda da Silva Oliveira, Thiago de Carvalho Cecote, João Paulo Reis Alvarenga, Vander Luis de Souza Freitas, Eduardo José da Silva Luz"
+authors: Amanda da Silva Oliveira; Thiago de Carvalho Cecote; João Paulo Reis Alvarenga; Vander Luis de Souza Freitas; Eduardo José da Silva Luz
 url: "https://aclanthology.org/2024.propor-1.11/"
 external_pdf: "https://aclanthology.org/2024.propor-1.11.pdf"
 publication: "ACL Anthology (PROPOR 2024)"

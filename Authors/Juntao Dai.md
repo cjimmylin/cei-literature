@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU|Measuring Hong Kong Massive Multi-Task Language Understanding (HKMMLU)]]
 - [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]]
 - [[2023-Ji-AI Alignment|AI Alignment]]
@@ -35,6 +37,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
+- *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: cbylll@stu.pku.edu.cn

@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Helwe-Navigating the Political Compass Multilingual 50 Countries|Navigating the Political Compass (Multilingual, 50 Countries)]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries*: Affiliation: University, ‡University of North Texas, Email: sagnik.raychoudhury@unt.edu
+- *From 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries*: Affiliation: University, ‡University of North Texas, Email: sagnik.raychoudhury@unt.edu
 - *From 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries*: Affiliation: University, ‡University of North Texas, Email: sagnik.raychoudhury@unt.edu
 - *From 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries*: Affiliation: University, ‡University of North Texas, Email: sagnik.raychoudhury@unt.edu
 - *From 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries*: Affiliation: University, ‡University of North Texas, Email: sagnik.raychoudhury@unt.edu

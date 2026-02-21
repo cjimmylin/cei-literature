@@ -17,7 +17,7 @@ short_title: "Qorgau Evaluating LLM Safety in Kazakh-Russian"
 year: 2025
 first_author: "[[Goloburda, Maiya]]"
 last_author: "[[Nakov, Preslav]]"
-authors: "[[Goloburda, Maiya]]; [[Laiyk, Nurkhan]]; [[Turmakhan, Diana]]; [[Wang, Yuxia]]; [[Togmanov, Mukhammed]]; [[Mansurov, Jonibek]]; [[Sametov, Askhat]]; [[Mukhituly, Nurdaulet]]; [[Wang, Minghan]]; [[Orel, Daniil]]; [[Mujahid, Zain Muhammad]]; [[Koto, Fajri]]; [[Baldwin, Timothy]]; [[Nakov, Preslav]]"
+authors: "Goloburda, Maiya; Laiyk, Nurkhan; Turmakhan, Diana; Wang, Yuxia; Togmanov, Mukhammed; Mansurov, Jonibek; Sametov, Askhat; Mukhituly, Nurdaulet; Wang, Minghan; Orel, Daniil; Mujahid, Zain Muhammad; Koto, Fajri; Baldwin, Timothy; Nakov, Preslav"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.13640"
 external_pdf: "https://arxiv.org/pdf/2502.13640.pdf"

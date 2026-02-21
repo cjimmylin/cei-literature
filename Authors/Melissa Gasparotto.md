@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2025-Gasparotto-Fostering Linguistic Justice in Digital Spaces Using Indigenous|Fostering Linguistic Justice in Digital Spaces: Using Indigenous Methods in the Study of NLP]] (First Author)
 
 ## Notes

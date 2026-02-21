@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering|AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset]]
+- [[2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained|AfroLM A Self-Active Learning-based Multilingual Pretrained]] (First Author)
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained*: Affiliation: Institute, Canada, 2 McGill University, Canada, 3Instituto Politécnico Nacional, Mexico
+- *From 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained*: Affiliation: Institute, Canada, 2 McGill University, Canada, 3Instituto Politécnico Nacional, Mexico
 - *From 2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering*: Affiliation: Institute of Technology, 3The Ohio State University, 4BioRAMP, Email: tobi@intron.io
 - *From 2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering*: Affiliation: Institute of Technology, 3The Ohio State University, 4BioRAMP, Email: tobi@intron.io
 - *From 2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering*: Affiliation: Institute of Technology, 3The Ohio State University, 4BioRAMP, Email: tobi@intron.io

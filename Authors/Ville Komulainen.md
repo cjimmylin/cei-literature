@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM|Got Compute, but No Data: Lessons From Post-training a Finnish LLM]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM*: Affiliation: University of Turku, Finland
+- *From 2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM*: Affiliation: University of Turku, Finland
 - *From 2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM*: Affiliation: University of Turku, Finland
 - *From 2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM*: Affiliation: University of Turku, Finland
 - *From 2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM*: Affiliation: University of Turku, Finland

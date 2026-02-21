@@ -18,7 +18,7 @@ short_title: "LaoBench A Large-Scale Multidimensional Lao Benchmark"
 year: 2025
 first_author: "[[Gao, Jian]]"
 last_author: "[[Lin, Yonghua]]"
-authors: "[[Gao, Jian]]; [[Xuan, Richeng]]; [[Kang, Zhaolu]]; [[Liao, Dingshi]]; [[Huang, Wenxin]]; [[Huang, Zongmou]]; [[Xu, Yangdi]]; [[Qin, Bowen]]; [[He, Zheqi]]; [[Yang, Xi]]; [[Li, Changjin]]; [[Lin, Yonghua]]"
+authors: "Gao, Jian; Xuan, Richeng; Kang, Zhaolu; Liao, Dingshi; Huang, Wenxin; Huang, Zongmou; Xu, Yangdi; Qin, Bowen; He, Zheqi; Yang, Xi; Li, Changjin; Lin, Yonghua"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2511.11334"
 external_pdf: "https://arxiv.org/pdf/2511.11334.pdf"

@@ -70,7 +70,7 @@ This paper examines the extent to which large language models (LLMs) have develo
 
 ## Authors
 
-[[Winnie Street]], [[John Oliver Siy]], [[Geoff Keeling]], [[Adrien Baranes]], [[Benjamin Barnett]], [[Michael McKibben]], [[Tatenda Kanyere]], [[Alison Lentz]], [[Blaise Agüera y Arcas|Blaise Aguera y Arcas]], [[Robin I. M. Dunbar]]
+[[Winnie Street]], [[John Oliver Siy]], [[Geoff Keeling]], [[Adrien Baranes]], [[Benjamin Barnett]], [[Michael McKibben]], [[Tatenda Kanyere]], [[Alison Lentz]], [[Blaise Aguera y Arcas]], [[Robin I. M. Dunbar]]
 
 ## Data Description
 

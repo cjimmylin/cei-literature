@@ -50,6 +50,8 @@ Aleid introduced Hajj-FQA, a benchmark Arabic dataset specifically designed to d
 
 
 
+
+
 - [[2025-Aleid-Hajj-FQA|Hajj-FQA]] (First Author)
 
 ## External Links & Profiles
@@ -64,6 +66,10 @@ Aleid introduced Hajj-FQA, a benchmark Arabic dataset specifically designed to d
 
 
 
+
+
+- *From 2025-Aleid-Hajj-FQA*: Affiliation: University Computer and Information Sciences (2025) 37:135
+- *From 2025-Aleid-Hajj-FQA*: Affiliation: University Computer and Information Sciences (2025) 37:135
 - *From 2025-Aleid-Hajj-FQA*: Affiliation: University Computer and Information Sciences (2025) 37:135
 - *From 2025-Aleid-Hajj-FQA*: Affiliation: University Computer and Information Sciences (2025) 37:135
 - *From 2025-Aleid-Hajj-FQA*: Affiliation: University Computer and Information Sciences (2025) 37:135

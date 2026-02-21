@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language|EuroGEST: Investigating Gender Stereotypes in Multilingual Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language*: Affiliation: University of Edinburgh, 2Warsaw University of Technology, 3Aveni, Email: jacqueline.rowe@ed.ac.uk
+- *From 2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language*: Affiliation: University of Edinburgh, 2Warsaw University of Technology, 3Aveni, Email: jacqueline.rowe@ed.ac.uk
 - *From 2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language*: Affiliation: University of Edinburgh, 2Warsaw University of Technology, 3Aveni, Email: jacqueline.rowe@ed.ac.uk
 - *From 2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language*: Affiliation: University of Edinburgh, 2Warsaw University of Technology, 3Aveni, Email: jacqueline.rowe@ed.ac.uk
 - *From 2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language*: Affiliation: University of Edinburgh, 2Warsaw University of Technology, 3Aveni, Email: jacqueline.rowe@ed.ac.uk

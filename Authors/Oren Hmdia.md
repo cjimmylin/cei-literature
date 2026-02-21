@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Litvak-Offensive language detection in Hebrew can other languages help|Offensive language detection in Hebrew: can other languages help?]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com
+- *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com
 - *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com
 - *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com
 - *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com

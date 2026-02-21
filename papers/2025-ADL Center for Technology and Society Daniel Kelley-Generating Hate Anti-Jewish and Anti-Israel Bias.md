@@ -17,9 +17,9 @@ key: EXSR0372
 type: preprint
 short_title: "Generating Hate Anti-Jewish and Anti-Israel Bias"
 year: 2025
-first_author: "[[ADL Center for Technology and Society (Daniel Kelley, interim head)]]"
+first_author: "[[ADL Center for Technology]]"
 last_author: "[[Society (Daniel Kelley, interim head)]]"
-authors: "[[ADL Center for Technology]]; [[Society (Daniel Kelley, interim head)]]"
+authors: "ADL Center for Technology; Society (Daniel Kelley, interim head)"
 authors_incomplete: false
 url: 
 external_pdf: 

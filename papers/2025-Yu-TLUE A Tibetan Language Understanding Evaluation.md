@@ -16,9 +16,9 @@ key: EXSR0439
 type: preprint
 short_title: "TLUE A Tibetan Language Understanding Evaluation"
 year: 2025
-first_author: "[[Fan Gao, Cheng Huang, Nyima Tashi, Xiangxiang Wang, Thupten Tsering, Ban Ma-bao, Renzeg Duojie, Gadeng Luosang, Rinchen Dongrub, Dorje Tashi, Xiao Feng, Yongbin Yu]]"
-last_author: "[[Yongbin Yu Xiao Feng]]"
-authors: "[[Fan Gao, Cheng Huang, Nyima Tashi, Xiangxiang Wang, Thupten Tsering, Ban Ma-bao, Renzeg Duojie, Gadeng Luosang, Rinchen Dongrub, Dorje Tashi, Xiao Feng, Yongbin Yu]]"
+first_author: "[[Fan Gao]]"
+last_author: "[[Yongbin Yu]]"
+authors: Fan Gao; Cheng Huang; Nyima Tashi; Xiangxiang Wang; Thupten Tsering; Ban Ma-bao; Renzeg Duojie; Gadeng Luosang; Rinchen Dongrub; Dorje Tashi; Xiao Feng; Yongbin Yu
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.12051"
 external_pdf: "https://arxiv.org/pdf/2503.12051.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Cheng Huang Fan Gao]], [[Xiangxiang Wang Nyima Tashi]], [[Ban Ma-bao Thupten Tsering]], [[Gadeng Luosang Renzeg Duojie]], [[Dorje Tashi Rinchen Dongrub]], [[Yongbin Yu Xiao Feng]]
+[[Fan Gao]], [[Cheng Huang]], [[Nyima Tashi]], [[Xiangxiang Wang]], [[Thupten Tsering]], [[Ban Ma-bao]], [[Renzeg Duojie]], [[Gadeng Luosang]], [[Rinchen Dongrub]], [[Dorje Tashi]], [[Xiao Feng]], [[Yongbin Yu]]
 
 ## Metadata
 

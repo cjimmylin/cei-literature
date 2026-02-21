@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "Matina: A Culturally-Aligned Persian Language Model Using Multiple LoRA Experts"
 year: 2025
 first_author: "[[Sara Bourbour Hosseinbeigi]]"
-last_author: "[[Mostafa Masoudi Mostafa Amiri]]"
-authors: Sara Bourbour Hosseinbeigi, MohammadAli SeifKashani, Javad Seraj, Fatemeh Taherinezhad, Ali Nafisi, Fatemeh Nadi, Iman Barati, Hosein Hasani, Mostafa Amiri, Mostafa Masoudi
+last_author: "[[Mostafa Masoudi]]"
+authors: Sara Bourbour Hosseinbeigi; MohammadAli SeifKashani; Javad Seraj; Fatemeh Taherinezhad; Ali Nafisi; Fatemeh Nadi; Iman Barati; Hosein Hasani; Mostafa Amiri; Mostafa Masoudi
 doi: 10.18653/v1/2025.findings-acl.1074
 url: "https://aclanthology.org/2025.findings-acl.1074/"
 external_pdf: "https://aclanthology.org/2025.findings-acl.1074.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[MohammadAli SeifKashani Sara Bourbour Hosseinbeigi]], [[Fatemeh Taherinezhad Javad Seraj]], [[Fatemeh Nadi Ali Nafisi]], [[Hosein Hasani Iman Barati]], [[Mostafa Masoudi Mostafa Amiri]]
+[[Sara Bourbour Hosseinbeigi]], [[MohammadAli SeifKashani]], [[Javad Seraj]], [[Fatemeh Taherinezhad]], [[Ali Nafisi]], [[Fatemeh Nadi]], [[Iman Barati]], [[Hosein Hasani]], [[Mostafa Amiri]], [[Mostafa Masoudi]]
 
 ## Metadata
 

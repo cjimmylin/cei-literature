@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: "1 Decolonizing NLP for 'Low-resource Languages'"
 year: 2025
 first_author: "[[Ogunremi, Tolulope]]"
-last_author: "[[Samuel, Saron]]"
+last_author: "[[Saron Samuel]]"
 authors: Tolulope Ogunremi; Wilhelmina Onyothi Nekoto; Saron Samuel
 authors_incomplete: false
 url: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546/9011"

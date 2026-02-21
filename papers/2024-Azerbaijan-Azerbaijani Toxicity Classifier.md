@@ -18,7 +18,7 @@ short_title: "Azerbaijani Toxicity Classifier"
 year: 2024
 first_author: "[[Azerbaijan, LocalDoc]]"
 last_author: "[[LocalDoc Azerbaijan]]"
-authors: "[[LocalDoc Azerbaijan]]"
+authors: LocalDoc Azerbaijan
 authors_incomplete: false
 url: "https://huggingface.co/LocalDoc/azerbaijani_toxicity_classifier"
 external_pdf: 

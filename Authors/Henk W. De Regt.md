@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Barman-RLHF Whose Culture Whose Values|RLHF Whose Culture Whose Values]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Barman-RLHF Whose Culture Whose Values*: Affiliation: Centre for Logic and Philosophy of Science, Department of Philosophy and Moral Sciences, Ghent, Email: simon.lohse@ru.nl
+- *From 2025-Barman-RLHF Whose Culture Whose Values*: Affiliation: Centre for Logic and Philosophy of Science, Department of Philosophy and Moral Sciences, Ghent, Email: simon.lohse@ru.nl
 - *From 2025-Barman-RLHF Whose Culture Whose Values*: Affiliation: Centre for Logic and Philosophy of Science, Department of Philosophy and Moral Sciences, Ghent, Email: henk.deregt@ru.nl
 - *From 2025-Barman-RLHF Whose Culture Whose Values*: Affiliation: Centre for Logic and Philosophy of Science, Department of Philosophy and Moral Sciences, Ghent, Email: henk.deregt@ru.nl
 - *From 2025-Barman-RLHF Whose Culture Whose Values*: Affiliation: Centre for Logic and Philosophy of Science, Department of Philosophy and Moral Sciences, Ghent, Email: henk.deregt@ru.nl

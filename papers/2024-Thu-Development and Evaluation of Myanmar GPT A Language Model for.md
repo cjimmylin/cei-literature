@@ -18,8 +18,8 @@ type: conferencePaper
 short_title: "Development and Evaluation of Myanmar GPT: A Language Model for Myanmar Natural Language Processing"
 year: 2024
 first_author: "[[Min Si Thu]]"
-last_author: "[[Pyae Sone Phyo Min Si Thu]]"
-authors: "Min Si Thu, Pyae Sone Phyo"
+last_author: "[[Pyae Sone Phyo]]"
+authors: Min Si Thu; Pyae Sone Phyo
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732"
 publication: SSRN
 CONF-CC: "Preprint"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Pyae Sone Phyo Min Si Thu]]
+[[Min Si Thu]], [[Pyae Sone Phyo]]
 
 ## Metadata
 

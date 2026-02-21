@@ -18,7 +18,7 @@ short_title: "IndicLLMSuite A Blueprint for Creating Pre-training"
 year: 2024
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
-authors: "[[AI4Bharat team]]"
+authors: AI4Bharat team
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.06350"
 external_pdf: "https://arxiv.org/pdf/2403.06350.pdf"

@@ -16,7 +16,7 @@ short_title: "CUGE: A Chinese Language Understanding and Generation Evaluation B
 year: 2025
 first_author: "[[Yao, Yuan]]"
 last_author: "[[Sun, Maosong]]"
-authors: "[[Yao, Yuan]]; [[Dong, Qingxiu]]; [[Guan, Jian]]; [[Cao, Boxi]]; [[Zhang, Zhengyan]]; [[Xiao, Chaojun]]; [[Wang, Xiaozhi]]; [[Qi, Fanchao]]; [[Bao, Junwei]]; [[Nie, Jinran]]; [[Zeng, Zheni]]; [[Gu, Yuxian]]; [[Zhou, Kun]]; [[Huang, Xuancheng]]; [[Li, Wenhao]]; [[Ren, Shuhuai]]; [[Lu, Jinliang]]; [[Xu, Chengqiang]]; [[Wang, Huadong]]; [[Zeng, Guoyang]]; [[Zhou, Zile]]; [[Zhang, Jiajun]]; [[Li, Juanzi]]; [[Huang, Minlie]]; [[Yan, Rui]]; [[He, Xiaodong]]; [[Wan, Xiaojun]]; [[Zhao, Xin]]; [[Sun, Xu]]; [[Liu, Yang]]; [[Liu, Zhiyuan]]; [[Han, Xianpei]]; [[Yang, Erhong]]; [[Sui, Zhifang]]; [[Sun, Maosong]]"
+authors: "Yao, Yuan; Dong, Qingxiu; Guan, Jian; Cao, Boxi; Zhang, Zhengyan; Xiao, Chaojun; Wang, Xiaozhi; Qi, Fanchao; Bao, Junwei; Nie, Jinran; Zeng, Zheni; Gu, Yuxian; Zhou, Kun; Huang, Xuancheng; Li, Wenhao; Ren, Shuhuai; Lu, Jinliang; Xu, Chengqiang; Wang, Huadong; Zeng, Guoyang; Zhou, Zile; Zhang, Jiajun; Li, Juanzi; Huang, Minlie; Yan, Rui; He, Xiaodong; Wan, Xiaojun; Zhao, Xin; Sun, Xu; Liu, Yang; Liu, Zhiyuan; Han, Xianpei; Yang, Erhong; Sui, Zhifang; Sun, Maosong"
 authors_incomplete: false
 url: "http://cuge.baai.ac.cn/pdf/CUGE.pdf"
 external_pdf: "https://arxiv.org/pdf/2112.13610v2.pdf"

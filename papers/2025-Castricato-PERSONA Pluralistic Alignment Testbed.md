@@ -17,7 +17,7 @@ short_title: "PERSONA (Pluralistic Alignment Testbed)"
 year: 2025
 first_author: "[[Castricato, Louis]]"
 last_author: "[[Finn, Chelsea]]"
-authors: "[[Castricato, Louis]]; [[Lile, Nathan]]; [[Rafailov, Rafael]]; [[Fränken, Jan-Philipp]]; [[Finn, Chelsea]]"
+authors: "Castricato, Louis; Lile, Nathan; Rafailov, Rafael; Fränken, Jan-Philipp; Finn, Chelsea"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.17387"
 external_pdf: "https://arxiv.org/pdf/2407.17387.pdf"

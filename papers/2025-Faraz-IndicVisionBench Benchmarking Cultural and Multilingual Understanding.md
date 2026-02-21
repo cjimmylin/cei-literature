@@ -19,7 +19,7 @@ short_title: "IndicVisionBench Benchmarking Cultural and Multilingual Understand
 year: 2025
 first_author: "[[Ali Faraz]]"
 last_author: "[[Shubham Agarwal]]"
-authors: "[[Ali Faraz]]; [[Akash]]; [[Shaharukh Khan]]; [[Raja Kolla]]; [[Akshat Patidar]]; [[Suranjan Goswami]]; [[Abhinav Ravi]]; [[Chandra Khatri]]; [[Shubham Agarwal]]"
+authors: Ali Faraz; Akash; Shaharukh Khan; Raja Kolla; Akshat Patidar; Suranjan Goswami; Abhinav Ravi; Chandra Khatri; Shubham Agarwal
 authors_incomplete: false
 url: "https://arxiv.org/abs/2511.04727"
 external_pdf: "https://arxiv.org/pdf/2511.04727.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Ali Faraz]], [[Akash]], [[Salman Khan|Shaharukh Khan]], [[Raja Kolla]], [[Akshat Patidar]], [[Sujata Goswami|Suranjan Goswami]], [[Abhinav Ravi]], [[Chandra Khatri]], [[Shubham Agarwal]]
+[[Ali Faraz]], [[Akash]], [[Shaharukh Khan]], [[Raja Kolla]], [[Akshat Patidar]], [[Suranjan Goswami]], [[Abhinav Ravi]], [[Chandra Khatri]], [[Shubham Agarwal]]
 
 ## Metadata
 

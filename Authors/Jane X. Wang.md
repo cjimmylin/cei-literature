@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Hagendorff-Machine Psychology|Machine Psychology]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Hagendorff-Machine Psychology*: Affiliation: University of Stuttgart
+- *From 2024-Hagendorff-Machine Psychology*: Affiliation: University of Stuttgart
 - *From 2024-Hagendorff-Machine Psychology*: Affiliation: University of Stuttgart
 - *From 2024-Hagendorff-Machine Psychology*: Affiliation: University of Stuttgart
 - *From 2024-Hagendorff-Machine Psychology*: Affiliation: University of Stuttgart

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark|LaoBench A Large-Scale Multidimensional Lao Benchmark]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark*: Affiliation: Academy of Artificial Intelligence, Beijing, China
+- *From 2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark*: Affiliation: Academy of Artificial Intelligence, Beijing, China
 - *From 2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark*: Affiliation: Academy of Artificial Intelligence, Beijing, China
 - *From 2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark*: Affiliation: Academy of Artificial Intelligence, Beijing, China
 - *From 2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark*: Affiliation: Academy of Artificial Intelligence, Beijing, China

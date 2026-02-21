@@ -17,7 +17,7 @@ short_title: "ParsiNLU: A Suite of Language Understanding Challenges for Persian
 year: 2021
 first_author: "[[Khashabi, Daniel]]"
 last_author: "[[Yaghoobzadeh, Yadollah]]"
-authors: "[[Khashabi, Daniel]]; [[Cohan, Arman]]; [[Shakeri, Siamak]]; [[Hosseini, Pedram]]; [[Pezeshkpour, Pouya]]; [[Alikhani, Malihe]]; [[Aminnaseri, Moin]]; [[Bitaab, Marzieh]]; [[Brahman, Faeze]]; [[Ghazarian, Sarik]]; [[Gheini, Mozhdeh]]; [[Kabiri, Arman]]; [[Mahabadi, Rabeeh Karimi]]; [[Memarrast, Omid]]; [[Mosallanezhad, Ahmadreza]]; [[Noury, Erfan]]; [[Raji, Shahab]]; [[Rasooli, Mohammad Sadegh]]; [[Sadeghi, Sepideh]]; [[Azer, Erfan Sadeqi]]; [[Samghabadi, Niloofar Safi]]; [[Shafaei, Mahsa]]; [[Sheybani, Saber]]; [[Tazarv, Ali]]; [[Yaghoobzadeh, Yadollah]]"
+authors: "Khashabi, Daniel; Cohan, Arman; Shakeri, Siamak; Hosseini, Pedram; Pezeshkpour, Pouya; Alikhani, Malihe; Aminnaseri, Moin; Bitaab, Marzieh; Brahman, Faeze; Ghazarian, Sarik; Gheini, Mozhdeh; Kabiri, Arman; Mahabadi, Rabeeh Karimi; Memarrast, Omid; Mosallanezhad, Ahmadreza; Noury, Erfan; Raji, Shahab; Rasooli, Mohammad Sadegh; Sadeghi, Sepideh; Azer, Erfan Sadeqi; Samghabadi, Niloofar Safi; Shafaei, Mahsa; Sheybani, Saber; Tazarv, Ali; Yaghoobzadeh, Yadollah"
 authors_incomplete: false
 url: "https://aclanthology.org/2021.tacl-1.68.pdf"
 external_pdf: "https://arxiv.org/pdf/2012.06154v2.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Daniel Khashabi|Khashabi, Daniel]], [[Cohan, Arman]], [[Shakeri, Siamak]], [[Hosseini, Pedram]], [[Pezeshkpour, Pouya]], [[Malihe Alikhani|Alikhani, Malihe]], [[Aminnaseri, Moin]], [[Bitaab, Marzieh]], [[Faeze Brahman|Brahman, Faeze]], [[Ghazarian, Sarik]], [[Gheini, Mozhdeh]], [[Kabiri, Arman]], [[manesh, Mostafa Karimi|Mahabadi, Rabeeh Karimi]], [[Memarrast, Omid]], [[Mosallanezhad, Ahmadreza]], [[Noury, Erfan]], [[Raji, Shahab]], [[Rasooli, Mohammad Sadegh]], [[Sadeghi, Sepideh]], [[Azer, Erfan Sadeqi]], [[Samghabadi, Niloofar Safi]], [[Shafaei, Mahsa]], [[Sheybani, Saber]], [[Tazarv, Ali]], [[Yaghoobzadeh, Yadollah]]
+[[Daniel Khashabi|Khashabi, Daniel]], [[Cohan, Arman]], [[Shakeri, Siamak]], [[Hosseini, Pedram]], [[Pezeshkpour, Pouya]], [[Malihe Alikhani|Alikhani, Malihe]], [[Aminnaseri, Moin]], [[Bitaab, Marzieh]], [[Faeze Brahman|Brahman, Faeze]], [[Ghazarian, Sarik]], [[Gheini, Mozhdeh]], [[Kabiri, Arman]], [[Mahabadi, Rabeeh Karimi]], [[Memarrast, Omid]], [[Mosallanezhad, Ahmadreza]], [[Noury, Erfan]], [[Raji, Shahab]], [[Rasooli, Mohammad Sadegh]], [[Sadeghi, Sepideh]], [[Azer, Erfan Sadeqi]], [[Samghabadi, Niloofar Safi]], [[Shafaei, Mahsa]], [[Sheybani, Saber]], [[Tazarv, Ali]], [[Yaghoobzadeh, Yadollah]]
 
 ## Metadata
 

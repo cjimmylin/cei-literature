@@ -16,7 +16,7 @@ short_title: "Healthcare Ethics & Safety QA (China -- Healthy China 2030)"
 year: 2025
 first_author: "[[Mouxiao Bian]]"
 last_author: "[[Jie Xu]]"
-authors: "Mouxiao Bian, Rongzhao Zhang, Chao Ding, Xinwei Peng, and Jie Xu"
+authors: Mouxiao Bian; Rongzhao Zhang; Chao Ding; Xinwei Peng; Jie Xu
 url: "https://arxiv.org/abs/2505.07205"
 external_pdf: "https://arxiv.org/pdf/2505.07205.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md"

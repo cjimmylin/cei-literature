@@ -17,7 +17,7 @@ short_title: "Deontology and Utilitarianism in Real Life"
 year: 2023
 first_author: "[[Anita Körner]]"
 last_author: "[[Deutsch, Roland]]"
-authors: "[[Körner, Anita]]; [[Deutsch, Roland]]"
+authors: "Körner, Anita; Deutsch, Roland"
 doi: 10.1177/01461672221103058
 url: "https://journals.sagepub.com/doi/10.1177/01461672221103058"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RRZFH676/Körner and Deutsch - 2023 - Deontology and Utilitarianism in Real Life A Set of Moral Dilemmas Based on Historic Events.pdf"

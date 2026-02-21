@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning|VMMU: A Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark]] (Last Author)
 
 ## External Links & Profiles

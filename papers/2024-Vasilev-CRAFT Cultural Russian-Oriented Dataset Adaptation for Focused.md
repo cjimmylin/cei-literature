@@ -16,7 +16,7 @@ short_title: "CRAFT: Cultural Russian-Oriented Dataset Adaptation for Focused Te
 year: 2024
 first_author: "[[Viacheslav Vasilev]]"
 last_author: "[[Denis Dimitrov]]"
-authors: Viacheslav Vasilev, Vladimir Arkhipkin, Julia Agafonova, Tatiana Nikulina, Evelina Mironova, Alisa Shichanina, Nikolai Gerasimenko, Mikhail Shoytov, Denis Dimitrov
+authors: Viacheslav Vasilev; Vladimir Arkhipkin; Julia Agafonova; Tatiana Nikulina; Evelina Mironova; Alisa Shichanina; Nikolai Gerasimenko; Mikhail Shoytov; Denis Dimitrov
 doi: 10.1134/S1064562424602324
 url: "https://arxiv.org/abs/2505.04851"
 external_pdf: "https://arxiv.org/pdf/2505.04851.pdf"

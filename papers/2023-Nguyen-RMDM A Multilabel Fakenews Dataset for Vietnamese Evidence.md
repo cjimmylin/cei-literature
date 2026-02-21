@@ -16,7 +16,7 @@ short_title: "RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verifi
 year: 2023
 first_author: "[[Nguyen, Hai-Long]]"
 last_author: "[[Nguyen, Ha-Thanh]]"
-authors: "[[Nguyen, Hai-Long]]; [[Pham, Thi-Kieu-Trang]]; [[Le, Thai-Son]]; [[Nguyen, Tan-Minh]]; [[Vuong, Thi-Hai-Yen]]; [[Nguyen, Ha-Thanh]]"
+authors: "Nguyen, Hai-Long; Pham, Thi-Kieu-Trang; Le, Thai-Son; Nguyen, Tan-Minh; Vuong, Thi-Hai-Yen; Nguyen, Ha-Thanh"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2309.09071"
 external_pdf: "https://arxiv.org/pdf/2309.09071.pdf"

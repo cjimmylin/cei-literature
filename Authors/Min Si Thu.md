@@ -58,7 +58,11 @@ twitter: ""
 
 
 
+
+
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
+- [[2024-Phyo-Development and Evaluation of Myanmar GPT|Development and Evaluation of Myanmar GPT]] (First Author)
+- [[2024-Thu-Development and Evaluation of Myanmar GPT A Language Model for|Development and Evaluation of Myanmar GPT: A Language Model for Myanmar Natural Language Processing]] (First Author)
 
 ## External Links & Profiles
 
@@ -87,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit
+- *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit
 - *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit
 - *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit
 - *From 2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs*: Affiliation: lable in 1B, 8B, and 20B sizes to suit

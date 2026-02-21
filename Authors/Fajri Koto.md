@@ -59,10 +59,15 @@ twitter: ""
 
 
 
+
+
 - [[2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence|Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World]] (Last Author)
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
+- [[2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a|Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting]] (First Author)
+- [[2025-Sadallah-Commonsense Reasoning in Arab Culture|Commonsense Reasoning in Arab Culture]] (Last Author)
 - [[2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh|KazMMLU Evaluating Language Models on Kazakh]] (Last Author)
-- [[2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World|Cracking the Code: Multi-domain LLM Evaluation on Real-World Professional Exams in Indonesia]] (First Author)
+- [[2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation|Are Multilingual LLMs Culturally-Diverse Reasoners? An Investigation into Multicultural Proverbs and Sayings]]
+- [[2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A|Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU]] (First Author)
 
 ## External Links & Profiles
 
@@ -92,6 +97,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A*: Affiliation: School Exams in Indonesia A - PDF Extract", Email: nurulaisyah.inc@gmail.com
+- *From 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A*: Affiliation: School Exams in Indonesia A - PDF Extract", Email: nurulaisyah.inc@gmail.com
 - *From 2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World*: Affiliation: Department of Natural Language Processing, Email: fajri.koto@mbzuai.ac.ae
 - *From 2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World*: Affiliation: Department of Natural Language Processing, Email: fajri.koto@mbzuai.ac.ae
 - *From 2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World*: Affiliation: Department of Natural Language Processing, Email: fajri.koto@mbzuai.ac.ae

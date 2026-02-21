@@ -17,7 +17,7 @@ short_title: "The Swedish Winogender Dataset (SweWinogender)"
 year: 2021
 first_author: "[[Saga Hansson]]"
 last_author: "[[Dana Dannells]]"
-authors: "Saga Hansson, Konstantinos Mavromatakis, Yvonne Adesam, Gerlof Bouma, Dana Dannells"
+authors: Saga Hansson; Konstantinos Mavromatakis; Yvonne Adesam; Gerlof Bouma; Dana Dannells
 url: "https://aclanthology.org/2021.nodalida-main.52/"
 external_pdf: "https://aclanthology.org/2021.nodalida-main.52.pdf"
 publication: "NoDaLiDa 2021"

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Chiu-CulturalBench|CulturalBench]] (Last Author)
 - [[2025-Chiu-MoReBench|MoReBench]]
 - [[2025-Chiu-Will AI Tell Lies to Save Sick Children|Will AI Tell Lies to Save Sick Children?]]
@@ -30,7 +32,6 @@ semantic_scholar: ""
 - [[2025-Li-SafetyAnalyst|SafetyAnalyst]]
 - [[2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety|SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior]]
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
-- [[2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with|K-Viscuit: Evaluating Visual and Cultural Interpretation with Human-VLM Collaboration]]
 - [[2024-Chiu-DailyDilemmas|DailyDilemmas]] (Last Author)
 - [[2024-Jiang-Can Language Models Reason about Individualistic|Can Language Models Reason about Individualistic]] (Last Author)
 - [[2024-Jiang-WildTeaming at Scale|WildTeaming at Scale]]
@@ -39,7 +40,7 @@ semantic_scholar: ""
 - [[2024-Sorensen-A Roadmap to Pluralistic Alignment|A Roadmap to Pluralistic Alignment]] (Last Author)
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]] (Last Author)
 - [[2024-Team-WildGuard|WildGuard]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large|KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application]]
 - [[2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable|SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration]]
 - [[2023-Rao-What Makes it Ok to Set a Fire Iterative|What Makes it Ok to Set a Fire? Iterative]] (Last Author)
 - [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]] (Last Author)
@@ -58,6 +59,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
+- *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington

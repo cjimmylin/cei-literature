@@ -1,7 +1,7 @@
 ---
 name: "Happy Buzaaba"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labi3,∗, Andiswa Bukula4,∗, Jian Yun Zhuang5, En-Shiun Annie Lee6"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for|Lugha-Llama Adapting Large Language Models for]] (First Author)]]
 
-- [[2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for|Lugha-Llama Adapting Large Language Models for]] (First Author)
+
+- [[2025-Adelani-INJONGO A Multicultural Intent Detection and|INJONGO A Multicultural Intent Detection and]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Adelani-INJONGO A Multicultural Intent Detection and*: Affiliation: labi3,∗, Andiswa Bukula4,∗, Jian Yun Zhuang5, En-Shiun Annie Lee6
+- *From 2025-Adelani-INJONGO A Multicultural Intent Detection and*: Affiliation: labi3,∗, Andiswa Bukula4,∗, Jian Yun Zhuang5, En-Shiun Annie Lee6
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

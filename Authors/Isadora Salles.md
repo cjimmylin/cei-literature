@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for|HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for*: Affiliation: University of Minas Gerais, Email: fabricio@dcc.ufmg.br
+- *From 2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for*: Affiliation: University of Minas Gerais, Email: fabricio@dcc.ufmg.br
 - *From 2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for*: Affiliation: University of Minas Gerais, Email: isadorasalles@dcc.ufmg.br
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

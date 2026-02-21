@@ -50,6 +50,8 @@ He has held leadership roles in major industrial labs (Disney and Baidu) and is 
 
 
 
+
+
 - [[2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve|Injecting Knowledge from Social Science Journals to Improve Indonesian Cultural Understanding by LLMs]] (Last Author)
 - [[2025-Bae-CharMoral|CharMoral]] (Last Author)
 
@@ -71,6 +73,10 @@ He has held leadership roles in major industrial labs (Disney and Baidu) and is 
 
 
 
+
+
+- *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
+- *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 - *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 - *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 - *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg

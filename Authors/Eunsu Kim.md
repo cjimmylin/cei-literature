@@ -60,10 +60,11 @@ twitter: ""
 
 
 
+
+
 - [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity]]
+- [[2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in|CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean]] (First Author)
 - [[2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of|MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 
@@ -94,6 +95,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in*: Affiliation: School of Computing, KAIST, Dajeon, South Korea, Email: alice.oh@kaist.edu
+- *From 2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in*: Affiliation: School of Computing, KAIST, Dajeon, South Korea, Email: alice.oh@kaist.edu
 - *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: alice.oh@kaist.edu
 - *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: jisu.shin@kaist.ac.kr
 - *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: jisu.shin@kaist.ac.kr

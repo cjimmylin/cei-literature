@@ -16,8 +16,8 @@ type: preprint
 short_title: "Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models"
 year: 2023
 first_author: "[[Sungjoo Byun]]"
-last_author: "[[Hyopil Shin Hyemi Jo]]"
-authors: "Sungjoo Byun, Dongjun Jang, Hyemi Jo, Hyopil Shin"
+last_author: "[[Hyopil Shin]]"
+authors: Sungjoo Byun; Dongjun Jang; Hyemi Jo; Hyopil Shin
 url: "https://arxiv.org/abs/2311.18215"
 external_pdf: "https://arxiv.org/pdf/2311.18215.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.md"
@@ -52,7 +52,7 @@ CONFERENCE: "NeurIPS 2023"
 
 ## Authors
 
-[[Dongjun Jang Sungjoo Byun]], [[Hyopil Shin Hyemi Jo]]
+[[Sungjoo Byun]], [[Dongjun Jang]], [[Hyemi Jo]], [[Hyopil Shin]]
 
 ## Metadata
 

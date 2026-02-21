@@ -16,7 +16,7 @@ short_title: MoralBench
 year: 2024
 first_author: "[[Jianchao Ji]]"
 last_author: "[[Zhang, Yongfeng]]"
-authors: "[[Ji, Jianchao]]; [[Chen, Yutong]]; [[Jin, Mingyu]]; [[Xu, Wujiang]]; [[Hua, Wenyue]]; [[Zhang, Yongfeng]]"
+authors: "Ji, Jianchao; Chen, Yutong; Jin, Mingyu; Xu, Wujiang; Hua, Wenyue; Zhang, Yongfeng"
 doi: 10.48550/arXiv.2406.04428
 url: "http://arxiv.org/abs/2406.04428"
 pdf_extract: "PDF Extracts/0000/2024-Ji-MoralBench.md"

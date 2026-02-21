@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Dementieva-TextDetox Multilingual Toxicity Dataset|TextDetox Multilingual Toxicity Dataset]] (First Author)
 - [[2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ...|Data-Efficient Hate Speech Detection via Cross-Lingual ...]]
 - [[2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task|RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora]] (First Author)
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: rybolos@gmail.com
+- *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: rybolos@gmail.com
 - *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: nikita.semenov@mts.ru
 - *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: rybolos@gmail.com
 - *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: i.krotova@mts.ai

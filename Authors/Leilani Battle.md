@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI|African Data Ethics: A Discursive Framework for Black Decolonial AI]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI*: Affiliation: School of Computer, Email: tb23@cs.washington.edu
+- *From 2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI*: Affiliation: School of Computer, Email: tb23@cs.washington.edu
 - *From 2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI*: Affiliation: School of Computer, Email: axz@cs.uw.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -19,7 +19,7 @@ short_title: "Spanish Is Not Just One: A Dataset of Spanish Dialect Recognition 
 year: 2025
 first_author: "[[Martínez, Gonzalo]]"
 last_author: "[[Reviriego, Pedro]]"
-authors: "[[Martínez, Gonzalo]]; [[Mayor-Rocher, Marina]]; [[Huertas, Cris Pozo]]; [[Melero, Nina]]; [[Grandury, María]]; [[Reviriego, Pedro]]"
+authors: "Martínez, Gonzalo; Mayor-Rocher, Marina; Huertas, Cris Pozo; Melero, Nina; Grandury, María; Reviriego, Pedro"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925008108"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12504998/pdf/main.pdf"

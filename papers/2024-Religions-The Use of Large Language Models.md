@@ -18,7 +18,7 @@ short_title: "The Use of Large Language Models"
 year: 2024
 first_author: "[[Religions), (Authors from MDPI]]"
 last_author: "[[(Authors from MDPI Religions)]]"
-authors: "[[(Authors from MDPI Religions)]]"
+authors: (Authors from MDPI Religions)
 authors_incomplete: false
 url: 
 external_pdf: "https://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0000198&type=printable"

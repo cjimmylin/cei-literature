@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: Indigenous Language Technology in the Age of Machine Learning
 year: 2024
 first_author: "[[Moshagen, Sjur]]"
-last_author: "[[Trosterud, Trond]]"
+last_author: "[[Trond Trosterud]]"
 authors: Sjur Moshagen; Lene Antonsen; Linda Wiechetek; Trond Trosterud
 doi: 10.1080/08003831.2024.2410124
 url: "https://www.tandfonline.com/doi/full/10.1080/08003831.2024.2410124"
@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Unknown (Tandfonline authors)]]
+[[Sjur Moshagen]], [[Lene Antonsen]], [[Linda Wiechetek]], [[Trond Trosterud]]
 
 ## Metadata
 

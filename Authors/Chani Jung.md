@@ -60,9 +60,9 @@ twitter: ""
 
 
 
-- [[2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in|KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivity in Korean Political Discourse with Large Language Models]]
+
+
 - [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 
@@ -93,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: alice.oh@kaist.edu
+- *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: alice.oh@kaist.edu
 - *From 2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in*: Affiliation: Department of Linguistics, Korea University,  https://orcid
 - *From 2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in*: Affiliation: Department of Linguistics, Korea University,  https://orcid
 - *From 2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in*: Affiliation: Department of Linguistics, Korea University,  https://orcid

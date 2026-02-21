@@ -18,7 +18,7 @@ short_title: "IndicParam Benchmark to Evaluate LLMs on"
 year: 2025
 first_author: "[[Maheshwari, Ayush]]"
 last_author: "[[Maheshwari, Aditya]]"
-authors: "[[Maheshwari, Ayush]]; [[Sharma, Kaushal]]; [[Patel, Vivek]]; [[Maheshwari, Aditya]]"
+authors: "Maheshwari, Ayush; Sharma, Kaushal; Patel, Vivek; Maheshwari, Aditya"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.00333"
 external_pdf: "https://arxiv.org/pdf/2512.00333.pdf"

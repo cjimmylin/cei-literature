@@ -17,8 +17,8 @@ type: preprint
 short_title: "Toxic Bias: Perspective API Misreads German as More Toxic"
 year: 2024
 first_author: "[[Gianluca Nogara]]"
-last_author: "[[Silvia Giordano Petter Tornberg]]"
-authors: "Gianluca Nogara, Francesco Pierri, Stefano Cresci, Luca Luceri, Petter Tornberg, Silvia Giordano"
+last_author: "[[Silvia Giordano]]"
+authors: Gianluca Nogara; Francesco Pierri; Stefano Cresci; Luca Luceri; Petter Tornberg; Silvia Giordano
 url: "https://arxiv.org/abs/2312.12651"
 external_pdf: "https://arxiv.org/pdf/2312.12651.pdf"
 publication: arXiv
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Francesco Pierri Gianluca Nogara]], [[Luca Luceri Stefano Cresci]], [[Silvia Giordano Petter Tornberg]]
+[[Gianluca Nogara]], [[Francesco Pierri]], [[Stefano Cresci]], [[Luca Luceri]], [[Petter Tornberg]], [[Silvia Giordano]]
 
 ## Metadata
 

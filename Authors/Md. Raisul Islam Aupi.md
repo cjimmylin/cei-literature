@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset|WoNBias: A Complete Bengali Gender Bias Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset*: Affiliation: University of Science & Technology, Email: rahmanms@sust.edu
+- *From 2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset*: Affiliation: University of Science & Technology, Email: rahmanms@sust.edu
 - *From 2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset*: Affiliation: University of Science & Technology, Email: kh39@student.sust.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

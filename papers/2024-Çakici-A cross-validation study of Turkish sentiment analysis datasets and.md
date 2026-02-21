@@ -17,7 +17,7 @@ short_title: "A cross-validation study of Turkish sentiment analysis datasets an
 year: 2024
 first_author: "[[Çakici, Sevval]]"
 last_author: "[[Hurriyetoglu, Ali]]"
-authors: "[[Çakici, Sevval]]; [[Karaduman, Dilara]]; [[Çirlan, Mehmet Akif]]; [[Hurriyetoglu, Ali]]"
+authors: "Çakici, Sevval; Karaduman, Dilara; Çirlan, Mehmet Akif; Hurriyetoglu, Ali"
 authors_incomplete: false
 doi: 10.1007/s10579-025-09869-6
 url: "https://link.springer.com/article/10.1007/s10579-025-09869-6"

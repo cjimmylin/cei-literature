@@ -19,7 +19,7 @@ short_title: "MultiLoKo A Multilingual Local Knowledge Benchmark"
 year: 2025
 first_author: "[[Hupkes, Dieuwke]]"
 last_author: "[[Bogoychev, Nikolay]]"
-authors: "[[Hupkes, Dieuwke]]; [[Bogoychev, Nikolay]]"
+authors: "Hupkes, Dieuwke; Bogoychev, Nikolay"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.10356"
 external_pdf: "https://arxiv.org/pdf/2504.10356.pdf"

@@ -58,9 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large|SHADES: A New Multilingual Benchmark for Stereotypes Bias in Large Language Models (2025) – AI Advisory Boards]]
 - [[2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large|SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models | Montreal AI Ethics Institute]]
-- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 
 ## External Links & Profiles
 
@@ -89,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
+- *From 2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

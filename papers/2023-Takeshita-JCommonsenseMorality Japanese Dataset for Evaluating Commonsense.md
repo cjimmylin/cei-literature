@@ -17,7 +17,7 @@ short_title: "JCommonsenseMorality: Japanese Dataset for Evaluating Commonsense 
 year: 2023
 first_author: "[[Masashi Takeshita]]"
 last_author: "[[Kenji Araki]]"
-authors: Masashi Takeshita, Rafal Rzepka, Kenji Araki
+authors: Masashi Takeshita; Rafal Rzepka; Kenji Araki
 url: "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/D2-1.pdf"
 publication: NLP2023 (Association for Natural Language Processing, Japan)
 CONF-CC: "Natural Language Processing"

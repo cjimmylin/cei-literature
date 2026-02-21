@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE: A Chinese Language Understanding and Generation Evaluation Benchmark]]
 - [[2023-Li-Evaluating Object Hallucination in Large|Evaluating Object Hallucination in Large]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: francis_kun_zhou@163.com
+- *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: francis_kun_zhou@163.com
 - *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: wangjinpeng04@meituan.com
 - *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: francis_kun_zhou@163.com
 - *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: jrwen@ruc.edu.cn

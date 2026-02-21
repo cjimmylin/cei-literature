@@ -16,7 +16,7 @@ short_title: "AmericasNLI: Evaluating Zero-shot Natural Language Understanding o
 year: 2025
 first_author: "[[Ebrahimi, Abteen]]"
 last_author: "[[Kann, Katharina]]"
-authors: "[[Ebrahimi, Abteen]]; [[Mager, Manuel]]; [[Oncevay, Arturo]]; [[Chaudhary, Vishrav]]; [[Chiruzzo, Luis]]; [[Fan, Angela]]; [[Ortega, John]]; [[Ramos, Ricardo]]; [[Rios, Annette]]; [[Meza-Ruiz, Ivan]]; [[Giménez-Lugo, Gustavo A.]]; [[Mager, Elisabeth]]; [[Neubig, Graham]]; [[Palmer, Alexis]]; [[Coto-Solano, Rolando]]; [[Vu, Ngoc Thang]]; [[Kann, Katharina]]"
+authors: "Ebrahimi, Abteen; Mager, Manuel; Oncevay, Arturo; Chaudhary, Vishrav; Chiruzzo, Luis; Fan, Angela; Ortega, John; Ramos, Ricardo; Rios, Annette; Meza-Ruiz, Ivan; Giménez-Lugo, Gustavo A.; Mager, Elisabeth; Neubig, Graham; Palmer, Alexis; Coto-Solano, Rolando; Vu, Ngoc Thang; Kann, Katharina"
 authors_incomplete: false
 url: "https://aclanthology.org/2022.acl-long.435/"
 external_pdf: "https://arxiv.org/pdf/2104.08726v2.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Abteen Ebrahimi|Ebrahimi, Abteen]], [[Manuel Mager|Mager, Manuel]], [[Arturo Oncevay|Oncevay, Arturo]], [[Vishrav Chaudhary|Chaudhary, Vishrav]], [[Luis Chiruzzo|Chiruzzo, Luis]], [[Angela Fan|Fan, Angela]], [[Ortega, John]], [[Ricardo Ramos|Ramos, Ricardo]], [[Annette Rios|Rios, Annette]], [[Meza-Ruiz, Ivan]], [[Giménez-Lugo, Gustavo A]], [[Elisabeth Mager|Mager, Elisabeth]], [[Graham Neubig|Neubig, Graham]], [[Alexis Palmer|Palmer, Alexis]], [[Rolando Coto-Solano|Coto-Solano, Rolando]], [[Ngoc Thang Vu|Vu, Ngoc Thang]], [[Katharina Kann|Kann, Katharina]]
+[[Ebrahimi, Abteen]], [[Mager, Manuel]], [[Oncevay, Arturo]], [[Vishrav Chaudhary|Chaudhary, Vishrav]], [[Chiruzzo, Luis]], [[Angela Fan|Fan, Angela]], [[Ortega, John]], [[Ricardo Ramos|Ramos, Ricardo]], [[Annette Rios|Rios, Annette]], [[Meza-Ruiz, Ivan]], [[Giménez-Lugo, Gustavo A]], [[Elisabeth Mager|Mager, Elisabeth]], [[Graham Neubig|Neubig, Graham]], [[Alexis Palmer|Palmer, Alexis]], [[Coto-Solano, Rolando]], [[Ngoc Thang Vu|Vu, Ngoc Thang]], [[Kann, Katharina]]
 
 ## Metadata
 

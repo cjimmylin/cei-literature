@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Tennant-Moral Alignment for LLM Agents|Moral Alignment for LLM Agents]] (Last Author)
 - [[2025-Tennant-Moral Intrinsic Rewards for Alignment|Moral Intrinsic Rewards for Alignment]] (Last Author)
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: l.karmannaya.16@ucl.ac.uk
+- *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: l.karmannaya.16@ucl.ac.uk
 - *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: s.hailes@ucl.ac.uk
 - *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: l.karmannaya.16@ucl.ac.uk
 - *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: m.musolesi@ucl.ac.uk

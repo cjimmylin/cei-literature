@@ -60,6 +60,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and|GermanPartiesQA: Benchmarking LLMs for Political Alignment and Sycophancy]] (First Author)
 - [[2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks|Measuring What Matters -- Construct Validity in LLM Benchmarks]]
 
 ## External Links & Profiles
@@ -91,6 +94,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford

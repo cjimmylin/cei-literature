@@ -15,8 +15,8 @@ type: preprint
 short_title: "A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies"
 year: 2025
 first_author: "[[Weihong Qi]]"
-last_author: "[[Haewoon Kwak Jisun An]]"
-authors: Weihong Qi, Fan Huang, Jisun An, Haewoon Kwak
+last_author: "[[Haewoon Kwak]]"
+authors: Weihong Qi; Fan Huang; Jisun An; Haewoon Kwak
 url: "https://arxiv.org/abs/2506.21587"
 external_pdf: "https://arxiv.org/pdf/2506.21587.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Fanchao Qi|Fan Huang Weihong Qi]], [[Heajun An|Haewoon Kwak Jisun An]]
+[[Weihong Qi]], [[Fan Huang]], [[Jisun An]], [[Haewoon Kwak]]
 
 ## Metadata
 

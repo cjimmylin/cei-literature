@@ -17,7 +17,7 @@ type: journalArticle
 short_title: "Frontiers | Evaluating large language models: a systematic review of efficiency, applications, and future directions"
 year: 2025
 first_author: "[[Saleh, Yasmeen]]"
-last_author: "[[Dakalbab, Fatima]]"
+last_author: "[[Fatima Dakalbab]]"
 authors: Yasmeen Saleh; Manar Abu Talib; Qassim Nasir; Fatima Dakalbab
 authors_incomplete: false
 doi: 10.3389/fcomp.2025.1523699/full

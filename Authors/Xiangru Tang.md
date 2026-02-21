@@ -60,7 +60,8 @@ twitter: ""
 
 
 
-- [[2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language|MITRA-zh-eval Using a Buddhist Chinese Language]]
+
+
 - [[2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of|MultiAgentBench (MARBLE): Evaluating Collaboration and Competition of LLM Agents]]
 
 ## External Links & Profiles
@@ -92,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of*: Affiliation: laboration and Competition of - PDF Extract", Email: kunlunz2@illinois.edu
+- *From 2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of*: Affiliation: laboration and Competition of - PDF Extract", Email: kunlunz2@illinois.edu
 - *From 2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language*: Affiliation: University of California, Berkeley, Berkeley Artificial Intelligence Research (BAIR)
 - *From 2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language*: Affiliation: University of California, Berkeley, Berkeley Artificial Intelligence Research (BAIR)
 - *From 2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language*: Affiliation: University of California, Berkeley, Berkeley Artificial Intelligence Research (BAIR)

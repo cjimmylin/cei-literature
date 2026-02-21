@@ -17,9 +17,9 @@ key: EXSR0586
 type: preprint
 short_title: "Fabricated Hadith Detection A Novel Matn-Based"
 year: 2022
-first_author: "[[Kamel Gaanoun, Mohammed Alsuhaibani]]"
-last_author: "[[Mohammed Alsuhaibani Kamel Gaanoun]]"
-authors: "[[Kamel Gaanoun, Mohammed Alsuhaibani]]"
+first_author: "[[Kamel Gaanoun]]"
+last_author: "[[Mohammed Alsuhaibani]]"
+authors: Kamel Gaanoun; Mohammed Alsuhaibani
 authors_incomplete: false
 url: 
 external_pdf: "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09931123.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Mohammed Alsuhaibani Kamel Gaanoun]]
+[[Kamel Gaanoun]], [[Mohammed Alsuhaibani]]
 
 ## Metadata
 

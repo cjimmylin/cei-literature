@@ -16,9 +16,9 @@ key: LSRC0202
 type: conferencePaper
 short_title: "BengaliFig: A Low-Resource Challenge for Figurative and Culturally Grounded Reasoning in Bengali"
 year: 2025
-first_author: "[[Al Sefat, Abdullah]]"
-last_author: "[[Abdullah Al Sefat]]"
-authors: "[[Al Sefat, Abdullah]]"
+first_author: "[[Al Sefat]]"
+last_author: "[[Abdullah]]"
+authors: Al Sefat; Abdullah
 authors_incomplete: false
 url: "https://aclanthology.org/2025.mmloso-1.6/"
 external_pdf: "https://arxiv.org/pdf/2511.20399v2.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Abdullah Al Sefat]]
+[[Al Sefat]], [[Abdullah]]
 
 ## Metadata
 

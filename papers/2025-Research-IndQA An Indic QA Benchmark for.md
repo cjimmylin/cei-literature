@@ -19,7 +19,7 @@ short_title: "IndQA An Indic QA Benchmark for"
 year: 2025
 first_author: "[[Research, AI4Bharat / IBM]]"
 last_author: "[[AI4Bharat IBM Research]]"
-authors: "[[AI4Bharat / IBM Research]]"
+authors: AI4Bharat IBM Research
 authors_incomplete: false
 url: "https://www.ibm.com/think/news/indqa-llm-benchmark"
 external_pdf: 

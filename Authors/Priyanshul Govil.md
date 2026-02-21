@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Bonagiri-SaGE|SaGE]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: manas@umbc.edu
+- *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: manas@umbc.edu
 - *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: priyanshul.govil@research.iiit.ac.in
 - *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: manas@umbc.edu
 - *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: sreeram.vennam@students.iiit.ac.in

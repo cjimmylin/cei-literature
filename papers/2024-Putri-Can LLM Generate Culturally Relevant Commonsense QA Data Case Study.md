@@ -17,7 +17,7 @@ short_title: "Can LLM Generate Culturally Relevant Commonsense QA Data? Case Stu
 year: 2024
 first_author: "[[Putri, Rifki Afina]]"
 last_author: "[[Oh, Alice]]"
-authors: "[[Putri, Rifki Afina]]; [[Haznitrama, Faiz Ghifari]]; [[Adhista, Dea]]; [[Oh, Alice]]"
+authors: "Putri, Rifki Afina; Haznitrama, Faiz Ghifari; Adhista, Dea; Oh, Alice"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2402.17302"
 external_pdf: "https://arxiv.org/pdf/2402.17302.pdf"

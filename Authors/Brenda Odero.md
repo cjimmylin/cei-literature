@@ -51,6 +51,8 @@ She has developed practical guidelines for Kenyan Research Ethics Committees (RE
 
 
 
+
+
 - [[2024-Odero-The Ubuntu Way|The Ubuntu Way]] (First Author)
 
 ## External Links & Profiles
@@ -65,6 +67,10 @@ She has developed practical guidelines for Kenyan Research Ethics Committees (RE
 
 
 
+
+
+- *From 2024-Odero-The Ubuntu Way*: Affiliation: Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Na, Email: AMusiega@kemri-wellcome.org
+- *From 2024-Odero-The Ubuntu Way*: Affiliation: Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Na, Email: AMusiega@kemri-wellcome.org
 - *From 2024-Odero-The Ubuntu Way*: Affiliation: Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Na, Email: AMusiega@kemri-wellcome.org
 - *From 2024-Odero-The Ubuntu Way*: Affiliation: Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Na, Email: AMusiega@kemri-wellcome.org
 - *From 2024-Odero-The Ubuntu Way*: Affiliation: Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Na, Email: AMusiega@kemri-wellcome.org

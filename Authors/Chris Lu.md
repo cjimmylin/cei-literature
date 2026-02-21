@@ -37,6 +37,8 @@ Chris Lu is a Research Scientist at OpenAI. Previously, he was a key researcher 
 
 
 
+
+
 - [[2024-Lu-The AI Scientist|The AI Scientist]] (First Author)
 
 ## External Links & Profiles
@@ -49,6 +51,10 @@ Chris Lu is a Research Scientist at OpenAI. Previously, he was a key researcher 
 
 
 
+
+
+- *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
+- *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR

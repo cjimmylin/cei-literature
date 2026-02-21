@@ -16,7 +16,7 @@ short_title: "ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores
 year: 2023
 first_author: "[[Ghosh, Sourojit]]"
 last_author: "[[Caliskan, Aylin]]"
-authors: "[[Ghosh, Sourojit]]; [[Caliskan, Aylin]]"
+authors: "Ghosh, Sourojit; Caliskan, Aylin"
 authors_incomplete: false
 doi: 10.1145/3600211.3604672
 url: "https://arxiv.org/abs/2305.10510"

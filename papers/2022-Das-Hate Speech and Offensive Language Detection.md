@@ -17,7 +17,7 @@ short_title: "Hate Speech and Offensive Language Detection"
 year: 2022
 first_author: "[[Das, Mithun]]"
 last_author: "[[Mukherjee, Animesh]]"
-authors: "[[Das, Mithun]]; [[Banerjee, Somnath]]; [[Saha, Punyajoy]]; [[Mukherjee, Animesh]]"
+authors: "Das, Mithun; Banerjee, Somnath; Saha, Punyajoy; Mukherjee, Animesh"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000250"
 external_pdf: "https://arxiv.org/pdf/2210.03479v1.pdf"

@@ -16,7 +16,7 @@ short_title: MedSafetyBench
 year: 2024
 first_author: "[[Tessa Han]]"
 last_author: "[[Lakkaraju, Himabindu]]"
-authors: "[[Han, Tessa]]; [[Kumar, Aounon]]; [[Agarwal, Chirag]]; [[Lakkaraju, Himabindu]]"
+authors: "Han, Tessa; Kumar, Aounon; Agarwal, Chirag; Lakkaraju, Himabindu"
 doi: 10.48550/arXiv.2403.03744
 tags: 
 url: "http://arxiv.org/abs/2403.03744"

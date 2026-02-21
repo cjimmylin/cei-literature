@@ -17,7 +17,7 @@ short_title: SafetyAnalyst
 year: 2025
 first_author: "[[Li, Jing-Jing]]"
 last_author: "[[Levine, Sydney]]"
-authors: "[[Li, Jing-Jing]]; [[Pyatkin, Valentina]]; [[Kleiman-Weiner, Max]]; [[Jiang, Liwei]]; [[Dziri, Nouha]]; [[Collins, Anne G. E.]]; [[Borg, Jana Schaich]]; [[Sap, Maarten]]; [[Choi, Yejin]]; [[Levine, Sydney]]"
+authors: "Li, Jing-Jing; Pyatkin, Valentina; Kleiman-Weiner, Max; Jiang, Liwei; Dziri, Nouha; Collins, Anne G. E.; Borg, Jana Schaich; Sap, Maarten; Choi, Yejin; Levine, Sydney"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.16665"
 external_pdf: "https://arxiv.org/pdf/2410.16665.pdf"

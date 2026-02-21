@@ -18,7 +18,7 @@ short_title: "Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchma
 year: 2026
 first_author: "[[Karimi-Malekabadi, Farzan]]"
 last_author: "[[Dehghani, Morteza]]"
-authors: "[[Karimi-Malekabadi, Farzan]]; [[Abdurahman, Suhaib]]; [[Sourati, Zhivar]]; [[Trager, Jackson]]; [[Dehghani, Morteza]]"
+authors: "Karimi-Malekabadi, Farzan; Abdurahman, Suhaib; Sourati, Zhivar; Trager, Jackson; Dehghani, Morteza"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.01878"
 external_pdf: "https://arxiv.org/pdf/2601.01878.pdf"

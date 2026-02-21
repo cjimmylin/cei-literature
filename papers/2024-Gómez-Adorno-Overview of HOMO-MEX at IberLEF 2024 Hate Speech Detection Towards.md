@@ -15,10 +15,10 @@ key: LSRC0283
 type: conferencePaper
 short_title: "Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish Speaking LGBT+ Population"
 year: 2024
-first_author: "[[Gómez-Adorno, Helena]]"
-last_author: "[[Helena Gómez-Adorno]]"
-authors: "[[Gómez-Adorno, Helena]]"
-authors_incomplete: true
+first_author: "[[Helena Gómez-Adorno]]"
+last_author: "[[Cesar Macias]]"
+authors: Helena Gómez-Adorno; Gemma Bel-Enguix; Hiram Calvo; Sergio-Luis Ojeda-Trueba; S. Andersen; Juan Vásquez; Tania Alcántara; Miguel Soto; Cesar Macias
+authors_incomplete: false
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6626"
 external_pdf: "https://core.ac.uk/download/655275054.pdf"
 publication: "IberLEF / SEPLN 2024"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Helena Gómez-Adorno]]
+[[Helena Gómez-Adorno]], [[Gemma Bel-Enguix]], [[Hiram Calvo]], [[Sergio-Luis Ojeda-Trueba]], [[S. Andersen]], [[Juan Vásquez]], [[Tania Alcántara]], [[Miguel Soto]], [[Cesar Macias]]
 
 ## Metadata
 

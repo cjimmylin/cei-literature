@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Li-PluriHarms|PluriHarms]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Li-PluriHarms*: Affiliation: Institute for AI, Email: jl3676@berkeley.edu
+- *From 2026-Li-PluriHarms*: Affiliation: Institute for AI, Email: jl3676@berkeley.edu
 - *From 2026-Li-PluriHarms*: Affiliation: Institute for AI, Email: jl3676@berkeley.edu
 - *From 2026-Li-PluriHarms*: Affiliation: Institute for AI, Email: jl3676@berkeley.edu
 - *From 2026-Li-PluriHarms*: Affiliation: Institute for AI, Email: jl3676@berkeley.edu

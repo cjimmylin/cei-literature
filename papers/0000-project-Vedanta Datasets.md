@@ -20,7 +20,7 @@ short_title: "Vedanta Datasets"
 year: 2025
 first_author: "[[project), Atmabodha (community]]"
 last_author: "[[Atmabodha (community project)]]"
-authors: "[[Atmabodha (community project)]]"
+authors: Atmabodha (community project)
 authors_incomplete: false
 url: 
 external_pdf: 

@@ -23,6 +23,8 @@ John Grant is a researcher in knowledge representation and artificial intelligen
 
 
 
+
+
 - [[2025-Velay-Vitow-Putting the AI in Eudaimonia|Putting the AI in Eudaimonia]] (Last Author)
 
 ## Notes

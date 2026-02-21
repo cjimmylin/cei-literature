@@ -17,7 +17,7 @@ type: preprint
 short_title: "Urdu Toxicity Detection A Multi-Stage and"
 year: 2024
 first_author: "[[Rashid, Ayesha]]"
-last_author: "[[Zia, Muhammad Fahad]]"
+last_author: "[[Muhammad Fahad Zia]]"
 authors: Ayesha Rashid; Sajid Mahmood; Usman Inayat; Muhammad Fahad Zia
 authors_incomplete: false
 url: "https://www.mdpi.com/2673-2688/6/8/194"
@@ -60,7 +60,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-Unknown
+[[Ayesha Rashid]], [[Sajid Mahmood]], [[Usman Inayat]], [[Muhammad Fahad Zia]]
 
 ## Metadata
 

@@ -17,8 +17,8 @@ type: conferencePaper
 short_title: "Overview of the Multilingual Text Detoxification Task at PAN 2025"
 year: 2025
 first_author: "[[Daryna Dementieva]]"
-last_author: "[[Alexander Panchenko Jan Svec]]"
-authors: "Daryna Dementieva, Daniil Moskovskiy, Nikolay Babakov, Abinew Ali Ayele, Naquee Rizwan, Florian Schneider, Xintong Wang, Guilherme Penedo, Daniel Nabus, Jakub Podolak, Jan Svec, Alexander Panchenko"
+last_author: "[[Alexander Panchenko]]"
+authors: Daryna Dementieva; Daniil Moskovskiy; Nikolay Babakov; Abinew Ali Ayele; Naquee Rizwan; Florian Schneider; Xintong Wang; Guilherme Penedo; Daniel Nabus; Jakub Podolak; Jan Svec; Alexander Panchenko
 url: "https://pan.webis.de/clef25/pan25-web/text-detoxification.html"
 external_pdf: "https://ceur-ws.org/Vol-4038/paper_278.pdf"
 publication: "CLEF 2025"
@@ -54,7 +54,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Daryna Dementieva|Daniil Moskovskiy Daryna Dementieva]], [[Abinew Ali Ayele Nikolay Babakov]], [[Florian Schneider Naquee Rizwan]], [[Guilherme Penedo Xintong Wang]], [[Jakub Podolak Daniel Nabus]], [[Alexander Panchenko Jan Svec]]
+[[Daryna Dementieva]], [[Daniil Moskovskiy]], [[Nikolay Babakov]], [[Abinew Ali Ayele]], [[Naquee Rizwan]], [[Florian Schneider]], [[Xintong Wang]], [[Guilherme Penedo]], [[Daniel Nabus]], [[Jakub Podolak]], [[Jan Svec]], [[Alexander Panchenko]]
 
 ## Metadata
 

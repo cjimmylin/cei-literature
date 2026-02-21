@@ -17,7 +17,7 @@ short_title: "Language Ranker: A Metric for Quantifying LLM Performance Across L
 year: 2024
 first_author: "[[Li, Zihao]]"
 last_author: "[[Du, Mengnan]]"
-authors: "[[Li, Zihao]]; [[Shi, Yucheng]]; [[Liu, Zirui]]; [[Yang, Fan]]; [[Payani, Ali]]; [[Liu, Ninghao]]; [[Du, Mengnan]]"
+authors: "Li, Zihao; Shi, Yucheng; Liu, Zirui; Yang, Fan; Payani, Ali; Liu, Ninghao; Du, Mengnan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.11553"
 external_pdf: "https://arxiv.org/pdf/2404.11553.pdf"

@@ -17,7 +17,7 @@ short_title: "Danoliteracy of Generative Large Language Models"
 year: 2024
 first_author: "[[Søren Vejlgaard Holm]]"
 last_author: "[[Martin Carsten Nielsen]]"
-authors: "[[Søren Vejlgaard Holm]]; [[Lars Kai Hansen]]; [[Martin Carsten Nielsen]]"
+authors: Søren Vejlgaard Holm; Lars Kai Hansen; Martin Carsten Nielsen
 url: "https://arxiv.org/abs/2410.22839"
 external_pdf: "https://arxiv.org/pdf/2410.22839.pdf"
 publication: arXiv

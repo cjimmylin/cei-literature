@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hussain-From RAG to Agentic Validating Islamic-Medicine|From RAG to Agentic Validating Islamic-Medicine]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hussain-From RAG to Agentic Validating Islamic-Medicine*: Affiliation: University of Artifi-, Email: mohammed.alam@mbzuai.ac.ae
+- *From 2025-Hussain-From RAG to Agentic Validating Islamic-Medicine*: Affiliation: University of Artifi-, Email: mohammed.alam@mbzuai.ac.ae
 - *From 2025-Hussain-From RAG to Agentic Validating Islamic-Medicine*: Affiliation: University of Artifi-, Email: mohammed.alam@mbzuai.ac.ae
 - *From 2025-Hussain-From RAG to Agentic Validating Islamic-Medicine*: Affiliation: University of Artifi-, Email: mohammed.alam@mbzuai.ac.ae
 - *From 2025-Hussain-From RAG to Agentic Validating Islamic-Medicine*: Affiliation: University of Artifi-, Email: mohammed.alam@mbzuai.ac.ae

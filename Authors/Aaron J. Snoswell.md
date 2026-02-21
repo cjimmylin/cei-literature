@@ -50,6 +50,8 @@ His doctoral work introduced new algorithms for Inverse Reinforcement Learning t
 
 
 
+
+
 - [[2025-El Masri-Towards Attuned AI|Towards Attuned AI]] (Last Author)
 - [[2025-Kilov-Discerning What Matters|Discerning What Matters]]
 - [[2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.|Beyond Verdicts: Evaluating Language Model Moral Competence Aaron J. Snoswell1,]] (First Author)
@@ -74,6 +76,10 @@ His doctoral work introduced new algorithms for Inverse Reinforcement Learning t
 
 
 
+
+
+- *From 2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.*: Affiliation: Centre GenAI Lab, Email: seth.lazar@anu.edu.au
+- *From 2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.*: Affiliation: Centre GenAI Lab, Email: seth.lazar@anu.edu.au
 - *From 2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.*: Affiliation: Centre GenAI Lab, Email: seth.lazar@anu.edu.au
 - *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: a.snoswell@qut.edu.au
 - *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: a.snoswell@qut.edu.au

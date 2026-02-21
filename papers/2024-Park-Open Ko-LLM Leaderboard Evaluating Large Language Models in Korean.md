@@ -16,8 +16,8 @@ type: preprint
 short_title: "Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark"
 year: 2024
 first_author: "[[Chanjun Park]]"
-last_author: "[[Hyeonwoo Kim Yungi Kim]]"
-authors: "Chanjun Park, Dahyun Kim, Sanghoon Kim, Sukyung Lee, Yungi Kim, Hyeonwoo Kim"
+last_author: "[[Hyeonwoo Kim]]"
+authors: Chanjun Park; Dahyun Kim; Sanghoon Kim; Sukyung Lee; Yungi Kim; Hyeonwoo Kim
 doi: 10.18653/v1/2024.acl-long.177
 url: "https://arxiv.org/abs/2405.20574"
 external_pdf: "https://arxiv.org/pdf/2405.20574.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2024"
 
 ## Authors
 
-[[Dahyun Kim Chanjun Park]], [[Sukyung Lee Sanghoon Kim]], [[Hyeonwoo Kim Yungi Kim]]
+[[Chanjun Park]], [[Dahyun Kim]], [[Sanghoon Kim]], [[Sukyung Lee]], [[Yungi Kim]], [[Hyeonwoo Kim]]
 
 ## Metadata
 

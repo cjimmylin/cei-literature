@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
 - [[2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances|COPAL-ID: Indonesian Language Reasoning with Local Culture and Nuances]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances*:, Email: haryo.wibowo@mbzuai.ac.ae
+- *From 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances*:, Email: haryo.wibowo@mbzuai.ac.ae
 - *From 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances*:, Email: haryo.wibowo@mbzuai.ac.ae
 - *From 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances*:, Email: haryo.wibowo@mbzuai.ac.ae
 - *From 2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances*:, Email: haryo.wibowo@mbzuai.ac.ae

@@ -17,7 +17,7 @@ short_title: "TeSent A Benchmark Dataset for Fairness-aware"
 year: 2025
 first_author: "[[Kumar, Vallabhaneni Raj]]"
 last_author: "[[Shakeer, Samanthapudi]]"
-authors: "[[Kumar, Vallabhaneni Raj]]; [[S, Ashwin]]; [[Manna, Supriya]]; [[Sett, Niladri]]; [[Harshitha, Cheedella V S N M S Hema]]; [[Harshitha, Kurakula]]; [[Sharma, Anand Kumar]]; [[Deepakraj, Basina]]; [[Sarkar, Tanuj]]; [[Krishna, Bondada Navaneeth]]; [[Shakeer, Samanthapudi]]"
+authors: "Kumar, Vallabhaneni Raj; S, Ashwin; Manna, Supriya; Sett, Niladri; Harshitha, Cheedella V S N M S Hema; Harshitha, Kurakula; Sharma, Anand Kumar; Deepakraj, Basina; Sarkar, Tanuj; Krishna, Bondada Navaneeth; Shakeer, Samanthapudi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.01486"
 external_pdf: "https://arxiv.org/pdf/2508.01486.pdf"

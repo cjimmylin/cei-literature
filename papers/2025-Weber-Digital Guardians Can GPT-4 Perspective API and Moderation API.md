@@ -15,7 +15,7 @@ short_title: "Digital Guardians: Can GPT-4, Perspective API, and Moderation API 
 year: 2025
 first_author: "[[Weber, Manuel]]"
 last_author: "[[Mandl, Peter]]"
-authors: "[[Weber, Manuel]]; [[Huber, Moritz]]; [[Auch, Maximilian]]; [[Döschl, Alexander]]; [[Keller, Max-Emanuel]]; [[Mandl, Peter]]"
+authors: "Weber, Manuel; Huber, Moritz; Auch, Maximilian; Döschl, Alexander; Keller, Max-Emanuel; Mandl, Peter"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.01256"
 external_pdf: "https://arxiv.org/pdf/2501.01256.pdf"

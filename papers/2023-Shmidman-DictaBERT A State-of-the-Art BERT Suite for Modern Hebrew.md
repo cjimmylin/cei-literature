@@ -15,8 +15,8 @@ type: preprint
 short_title: "DictaBERT: A State-of-the-Art BERT Suite for Modern Hebrew"
 year: 2023
 first_author: "[[Shaltiel Shmidman]]"
-last_author: "[[Moshe Koppel Amir DN Cohen]]"
-authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
+last_author: "[[Moshe Koppel]]"
+authors: Shaltiel Shmidman; Avi Shmidman; Amir DN Cohen; Moshe Koppel
 url: "https://arxiv.org/abs/2308.16687"
 external_pdf: "https://arxiv.org/pdf/2308.16687.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.md"
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Avi Shmidman Shaltiel Shmidman]], [[Moshe Koppel Amir DN Cohen]]
+[[Shaltiel Shmidman]], [[Avi Shmidman]], [[Amir DN Cohen]], [[Moshe Koppel]]
 
 ## Metadata
 

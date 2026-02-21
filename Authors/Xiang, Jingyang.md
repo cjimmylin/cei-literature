@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Xiang-A Novel Deep Learning Framework with|A Novel Deep Learning Framework with]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Xiang-A Novel Deep Learning Framework with*: Affiliation: labeled signal data are difﬁcult to obtain, Email: huicuizjut@qq.com
+- *From 2025-Xiang-A Novel Deep Learning Framework with*: Affiliation: labeled signal data are difﬁcult to obtain, Email: huicuizjut@qq.com
 - *From 2025-Xiang-A Novel Deep Learning Framework with*: Affiliation: labeled signal data are difﬁcult to obtain, Email: huicuizjut@qq.com
 - *From 2025-Xiang-A Novel Deep Learning Framework with*: Affiliation: labeled signal data are difﬁcult to obtain, Email: yexijoe@163.com
 - *From 2025-Xiang-A Novel Deep Learning Framework with*: Affiliation: labeled signal data are difﬁcult to obtain, Email: zhuangzhichen@foxmail.com

@@ -17,9 +17,9 @@ key: EXSR0342
 type: preprint
 short_title: "Can LLMs Write Faithfully An Agent-Based"
 year: 2025
-first_author: "[[Abdullah Mushtaq, Rafay Naeem, Ezieddin Elmahjub, Ibrahim Ghaznavi, Shawqi Al-Maliki, Mohamed Abdallah, Ala Al-Fuqaha, Junaid Qadir]]"
-last_author: "[[Junaid Qadir Ala Al-Fuqaha]]"
-authors: "[[Abdullah Mushtaq, Rafay Naeem, Ezieddin Elmahjub, Ibrahim Ghaznavi, Shawqi Al-Maliki, Mohamed Abdallah, Ala Al-Fuqaha, Junaid Qadir]]"
+first_author: "[[Abdullah Mushtaq]]"
+last_author: "[[Junaid Qadir]]"
+authors: Abdullah Mushtaq; Rafay Naeem; Ezieddin Elmahjub; Ibrahim Ghaznavi; Shawqi Al-Maliki; Mohamed Abdallah; Ala Al-Fuqaha; Junaid Qadir
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.24438"
 external_pdf: "https://arxiv.org/pdf/2510.24438.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "NeurIPS 2025"
 
 ## Authors
 
-[[Rafay Naeem Abdullah Mushtaq]], [[Ibrahim Ghaznavi Ezieddin Elmahjub]], [[Mohamed Abdallah Shawqi Al-Maliki]], [[Junaid Qadir Ala Al-Fuqaha]]
+[[Abdullah Mushtaq]], [[Rafay Naeem]], [[Ezieddin Elmahjub]], [[Ibrahim Ghaznavi]], [[Shawqi Al-Maliki]], [[Mohamed Abdallah]], [[Ala Al-Fuqaha]], [[Junaid Qadir]]
 
 ## Metadata
 

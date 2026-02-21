@@ -18,7 +18,7 @@ short_title: "Is ChatGPT A Good Translator? A Preliminary Study"
 year: 2025
 first_author: "[[Jiao, Wenxiang]]"
 last_author: "[[Tu, Zhaopeng]]"
-authors: "[[Jiao, Wenxiang]]; [[Wang, Wenxuan]]; [[Huang, Jen-Tse]]; [[Wang, Xing]]; [[Tu, Zhaopeng]]"
+authors: "Jiao, Wenxiang; Wang, Wenxuan; Huang, Jen-Tse; Wang, Xing; Tu, Zhaopeng"
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/367359399_Is_ChatGPT_A_Good_Translator_A_Preliminary_Study"
 publication: ResearchGate

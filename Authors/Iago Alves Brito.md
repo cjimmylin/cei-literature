@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority|ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic Minority Data in Brazilian Portuguese]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority*: Affiliation: Center for Immersive Technologies (AKCIT), Federal University of Goiás, Email: arlindogalvao@ufg.br
+- *From 2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority*: Affiliation: Center for Immersive Technologies (AKCIT), Federal University of Goiás, Email: arlindogalvao@ufg.br
 - *From 2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority*: Affiliation: Center for Immersive Technologies (AKCIT), Federal University of Goiás, Email: arlindogalvao@ufg.br
 - *From 2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority*: Affiliation: Center for Immersive Technologies (AKCIT), Federal University of Goiás, Email: arlindogalvao@ufg.br
 - *From 2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority*: Affiliation: Center for Immersive Technologies (AKCIT), Federal University of Goiás, Email: arlindogalvao@ufg.br

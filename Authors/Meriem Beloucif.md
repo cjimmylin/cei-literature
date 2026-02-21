@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Galatolo-Beyond Ethical Alignment|Beyond Ethical Alignment]] (Last Author)
 - [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]]
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
@@ -34,6 +36,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
+- *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 - *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 - *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 - *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St

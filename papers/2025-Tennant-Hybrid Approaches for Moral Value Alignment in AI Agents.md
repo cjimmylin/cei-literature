@@ -16,7 +16,7 @@ short_title: "Hybrid Approaches for Moral Value Alignment in AI Agents"
 year: 2025
 first_author: "[[Elizaveta Tennant]]"
 last_author: "[[Musolesi, Mirco]]"
-authors: "[[Tennant, Elizaveta]]; [[Hailes, Stephen]]; [[Musolesi, Mirco]]"
+authors: "Tennant, Elizaveta; Hailes, Stephen; Musolesi, Mirco"
 doi: 10.48550/arXiv.2312.01818
 url: "https://arxiv.org/abs/2312.01818"
 pdf_extract: "PDF Extracts/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Elizaveta Tennant|Tennant, Elizaveta]], [[Stephen Hailes|Hailes, Stephen]], [[Mirco Musolesi|Musolesi, Mirco]]
+[[Tennant, Elizaveta]], [[Hailes, Stephen]], [[Musolesi, Mirco]]
 
 ## Links
 

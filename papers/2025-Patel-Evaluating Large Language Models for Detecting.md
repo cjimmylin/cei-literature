@@ -20,7 +20,7 @@ short_title: "Evaluating Large Language Models for Detecting"
 year: 2025
 first_author: "[[Jay Patel]]"
 last_author: "[[Jeremy Blackburn]]"
-authors: "[[Jay Patel]]; [[Hrudayangam Mehta]]; [[Jeremy Blackburn]]"
+authors: Jay Patel; Hrudayangam Mehta; Jeremy Blackburn
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.18293"
 external_pdf: "https://arxiv.org/pdf/2509.18293.pdf"
@@ -57,7 +57,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Jay Patel]], [[Hersh Mehta|Hrudayangam Mehta]], [[Jeremy Blackburn]]
+[[Jay Patel]], [[Hrudayangam Mehta]], [[Jeremy Blackburn]]
 
 ## Metadata
 

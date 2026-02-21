@@ -60,9 +60,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Akata-Playing Repeated Games with Large Language Models|Playing Repeated Games with Large Language Models]]
-- [[2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a|Intersectional Bias in Japanese Large Language Models from a Contextualized Perspective]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 
@@ -93,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Akata-Playing Repeated Games with Large Language Models*: Affiliation: Institute for Human-Centered AI, Helmholtz Munich, Oberschleißheim, Germany, Email: elif.akata@uni-tuebingen.de
+- *From 2025-Akata-Playing Repeated Games with Large Language Models*: Affiliation: Institute for Human-Centered AI, Helmholtz Munich, Oberschleißheim, Germany, Email: elif.akata@uni-tuebingen.de
 - *From 2025-Akata-Playing Repeated Games with Large Language Models*: Affiliation: Institute for Human-Centered AI, Helmholtz Munich, Oberschleißheim, Germany, Email: elif.akata@uni-tuebingen.de
 - *From 2025-Akata-Playing Repeated Games with Large Language Models*: Affiliation: Institute for Human-Centered AI, Helmholtz Munich, Oberschleißheim, Germany, Email: elif.akata@uni-tuebingen.de
 - *From 2025-Akata-Playing Repeated Games with Large Language Models*: Affiliation: Institute for Human-Centered AI, Helmholtz Munich, Oberschleißheim, Germany, Email: elif.akata@uni-tuebingen.de

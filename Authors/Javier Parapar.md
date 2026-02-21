@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and|Bridging Gaps in Hate Speech Detection: Meta-Collections and Benchmarks for Low-Resource Iberian Languages]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and*: Affiliation: Lab, CITIC Research Centre, Universidade da Coru˜na, Spain, Email: paloma.piot@udc.es
+- *From 2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and*: Affiliation: Lab, CITIC Research Centre, Universidade da Coru˜na, Spain, Email: paloma.piot@udc.es
 - *From 2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and*: Affiliation: Lab, CITIC Research Centre, Universidade da Coru˜na, Spain, Email: paloma.piot@udc.es
 - *From 2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and*: Affiliation: Lab, CITIC Research Centre, Universidade da Coru˜na, Spain, Email: jramon.pichel@usc.gal
 - *From 2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and*: Affiliation: Lab, CITIC Research Centre, Universidade da Coru˜na, Spain, Email: jramon.pichel@usc.gal

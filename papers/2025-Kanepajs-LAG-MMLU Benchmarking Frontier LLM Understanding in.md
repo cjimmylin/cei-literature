@@ -16,9 +16,9 @@ key: EXSR0398
 type: preprint
 short_title: "LAG-MMLU Benchmarking Frontier LLM Understanding in"
 year: 2025
-first_author: "[[Naome A. Etori, Kevin Lu, Randu Karisa, Arturs Kanepajs]]"
-last_author: "[[Arturs Kanepajs Randu Karisa]]"
-authors: "[[Naome A. Etori, Kevin Lu, Randu Karisa, Arturs Kanepajs]]"
+first_author: "[[Naome A. Etori]]"
+last_author: "[[Arturs Kanepajs]]"
+authors: Naome A. Etori; Kevin Lu; Randu Karisa; Arturs Kanepajs
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.11911"
 external_pdf: "https://arxiv.org/pdf/2503.11911.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Kevin Lu Naome A. Etori]], [[Arturs Kanepajs Randu Karisa]]
+[[Naome A. Etori]], [[Kevin Lu]], [[Randu Karisa]], [[Arturs Kanepajs]]
 
 ## Metadata
 

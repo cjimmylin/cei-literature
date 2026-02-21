@@ -18,7 +18,7 @@ short_title: "AdAEM: Adaptively and Automated Extensible Measurement for Value A
 year: 2025
 first_author: "[[Duan, Shitong]]"
 last_author: "[[Xie, Xing]]"
-authors: "[[Duan, Shitong]]; [[Yi, Xiaoyuan]]; [[Zhang, Peng]]; [[Xu, Dongkuan]]; [[Yao, Jing]]; [[Lu, Tun]]; [[Gu, Ning]]; [[Xie, Xing]]"
+authors: "Duan, Shitong; Yi, Xiaoyuan; Zhang, Peng; Xu, Dongkuan; Yao, Jing; Lu, Tun; Gu, Ning; Xie, Xing"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.13531"
 external_pdf: "https://arxiv.org/pdf/2505.13531.pdf"

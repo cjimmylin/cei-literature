@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Bravansky-Rethinking AI Cultural Alignment|Rethinking AI Cultural Alignment]] (Last Author)
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment|VAL-Bench: Belief Consistency as a Measure for Value Alignment]] (Last Author)
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
+- *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
 - *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
 - *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
 - *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford

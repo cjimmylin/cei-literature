@@ -24,6 +24,8 @@ Liang Qiu is a researcher working in Natural Language Processing and reinforceme
 
 
 
+
+
 - [[2022-Qiu-ValueNet|ValueNet]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ Liang Qiu is a researcher working in Natural Language Processing and reinforceme
 
 
 
+
+
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu

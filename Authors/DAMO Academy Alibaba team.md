@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models|SeaLLMs 3: Open Foundation and Chat Multilingual Large Language Models for Southeast Asian Languages]] (First Author)
 - [[2023-team-SeaLLMs Large Language Models for Southeast|SeaLLMs Large Language Models for Southeast]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-team-SeaLLMs Large Language Models for Southeast*: Affiliation: Academy, Alibaba Group, Email: l.bing@alibaba-inc.com
+- *From 2023-team-SeaLLMs Large Language Models for Southeast*: Affiliation: Academy, Alibaba Group, Email: l.bing@alibaba-inc.com
 - *From 2023-team-SeaLLMs Large Language Models for Southeast*: Affiliation: Academy, Alibaba Group, Email: l.bing@alibaba-inc.com
 - *From 2023-team-SeaLLMs Large Language Models for Southeast*: Affiliation: Academy, Alibaba Group, Email: l.bing@alibaba-inc.com
 - *From 2023-team-SeaLLMs Large Language Models for Southeast*: Affiliation: Academy, Alibaba Group, Email: l.bing@alibaba-inc.com

@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI*: Affiliation: college student asks an AI assistant for career advice
+- *From 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI*: Affiliation: college student asks an AI assistant for career advice
 - *From 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI*: Affiliation: college student asks an AI assistant for career advice
 - *From 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI*: Affiliation: college student asks an AI assistant for career advice
 - *From 2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI*: Affiliation: college student asks an AI assistant for career advice

@@ -17,7 +17,7 @@ short_title: "A Structured Framework for Evaluating and Enhancing Interpretive C
 year: 2025
 first_author: "[[Yu, Haorui]]"
 last_author: "[[Yi, Qiufeng]]"
-authors: "[[Yu, Haorui]]; [[Ruiz-Dolz, Ramon]]; [[Yi, Qiufeng]]"
+authors: "Yu, Haorui; Ruiz-Dolz, Ramon; Yi, Qiufeng"
 authors_incomplete: false
 url: "https://arxiv.org/html/2509.23208v2"
 external_pdf: "https://arxiv.org/pdf/2509.23208.pdf"

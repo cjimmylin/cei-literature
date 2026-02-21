@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]]
 - [[2018-Bohra-Hindi-English Code-Mixed Social Media Text for|Hindi-English Code-Mixed Social Media Text for]] (First Author)
 
@@ -86,6 +88,10 @@ twitter: ""
 
 
 
+
+
+- *From 2018-Bohra-Hindi-English Code-Mixed Social Media Text for*: Affiliation: Institute of Information Technology, Email: m.shrivastava@iiit.ac.in
+- *From 2018-Bohra-Hindi-English Code-Mixed Social Media Text for*: Affiliation: Institute of Information Technology, Email: m.shrivastava@iiit.ac.in
 - *From 2018-Bohra-Hindi-English Code-Mixed Social Media Text for*: Affiliation: Institute of Information Technology, Email: m.shrivastava@iiit.ac.in
 - *From 2018-Bohra-Hindi-English Code-Mixed Social Media Text for*: Affiliation: Institute of Information Technology, Email: m.shrivastava@iiit.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

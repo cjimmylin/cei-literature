@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across|Language Ranker: A Metric for Quantifying LLM Performance Across Languages]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across*: Affiliation: Institute of Technology, 2University of Georgia, 3University of Minnesota at Twin Cities, Email: yangfan@wfu.edu
+- *From 2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across*: Affiliation: Institute of Technology, 2University of Georgia, 3University of Minnesota at Twin Cities, Email: yangfan@wfu.edu
 - *From 2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across*: Affiliation: Institute of Technology, 2University of Georgia, 3University of Minnesota at Twin Cities, Email: yucheng.shi@uga.edu
 - *From 2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across*: Affiliation: Institute of Technology, 2University of Georgia, 3University of Minnesota at Twin Cities, Email: yangfan@wfu.edu
 - *From 2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across*: Affiliation: Institute of Technology, 2University of Georgia, 3University of Minnesota at Twin Cities, Email: yucheng.shi@uga.edu

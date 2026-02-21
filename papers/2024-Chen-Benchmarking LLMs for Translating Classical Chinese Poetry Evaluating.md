@@ -16,7 +16,7 @@ short_title: "Benchmarking LLMs for Translating Classical Chinese Poetry: Evalua
 year: 2024
 first_author: "[[Chen, Andong]]"
 last_author: "[[Zhang, Min]]"
-authors: "[[Chen, Andong]]; [[Lou, Lianzhang]]; [[Chen, Kehai]]; [[Bai, Xuefeng]]; [[Xiang, Yang]]; [[Yang, Muyun]]; [[Zhao, Tiejun]]; [[Zhang, Min]]"
+authors: "Chen, Andong; Lou, Lianzhang; Chen, Kehai; Bai, Xuefeng; Xiang, Yang; Yang, Muyun; Zhao, Tiejun; Zhang, Min"
 authors_incomplete: false
 url: "https://arxiv.org/html/2408.09945v1"
 external_pdf: "https://arxiv.org/pdf/2408.09945.pdf"

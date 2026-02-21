@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM|Got Compute, but No Data: Lessons From Post-training a Finnish LLM]] (Last Author)
 - [[2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation|Toxicity Detection in Finnish Using Machine Translation]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation*: Affiliation: University of Turku, Finland
+- *From 2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation*: Affiliation: University of Turku, Finland
 - *From 2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation*: Affiliation: University of Turku, Finland
 - *From 2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation*: Affiliation: University of Turku, Finland
 - *From 2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation*: Affiliation: University of Turku, Finland

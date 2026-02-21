@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "Identifying Abusive Comments in Hebrew Facebook"
 year: 2018
 first_author: "[[Chaya Liebeskind]]"
-last_author: "[[Shmuel Liebeskind Chaya Liebeskind]]"
-authors: "Chaya Liebeskind, Shmuel Liebeskind"
+last_author: "[[Shmuel Liebeskind]]"
+authors: Chaya Liebeskind; Shmuel Liebeskind
 doi: 10.1109/ICSEE.2018.8646190
 url: "https://ieeexplore.ieee.org/document/8646190"
 publication: "IEEE (ICSEE 2018)"
@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Shmuel Liebeskind Chaya Liebeskind]]
+[[Chaya Liebeskind]], [[Shmuel Liebeskind]]
 
 ## Metadata
 

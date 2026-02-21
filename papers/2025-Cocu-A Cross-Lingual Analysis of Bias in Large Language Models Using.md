@@ -17,7 +17,7 @@ short_title: "A Cross-Lingual Analysis of Bias in Large Language Models Using Ro
 year: 2025
 first_author: "[[Matei-Iulian Cocu]]"
 last_author: "[[Adrian Marius Dumitran]]"
-authors: "[[Matei-Iulian Cocu]]; [[Răzvan-Cosmin Cristia]]; [[Adrian Marius Dumitran]]"
+authors: Matei-Iulian Cocu; Răzvan-Cosmin Cristia; Adrian Marius Dumitran
 url: "https://arxiv.org/abs/2510.02362"
 external_pdf: "https://arxiv.org/pdf/2510.02362.pdf"
 publication: arXiv

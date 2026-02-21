@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Ji-BeaverTails|BeaverTails]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
+- *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: xuehaipan@pku.edu.cn
 - *From 2023-Ji-BeaverTails*: Affiliation: Institute for Artificial Intelligence, Email: cbylll@stu.pku.edu.cn

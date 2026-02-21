@@ -79,7 +79,7 @@ Developing value-aligned AI agents is a complex undertaking and an ongoing chall
 
 ## Authors
 
-[[Pierre Dognin]], [[Jesus Rios]], [[Ronny Luss]], [[Inkit Padhi]], [[Matthew D. Riemer|Matthew D Riemer]], [[Miao Liu]], [[Prasanna Sattigeri]], [[Manish Nagireddy]], [[Kush R. Varshney]], [[Djallel Bouneffouf]]
+[[Pierre Dognin]], [[Jesus Rios]], [[Ronny Luss]], [[Inkit Padhi]], [[Matthew D Riemer]], [[Miao Liu]], [[Prasanna Sattigeri]], [[Manish Nagireddy]], [[Kush R. Varshney]], [[Djallel Bouneffouf]]
 
 ## Data Description
 

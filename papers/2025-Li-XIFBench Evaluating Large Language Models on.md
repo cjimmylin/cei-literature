@@ -18,7 +18,7 @@ short_title: "XIFBench: Evaluating Large Language Models on"
 year: 2025
 first_author: "[[Li, Zhenyu]]"
 last_author: "[[Zhang, Min]]"
-authors: "[[Li, Zhenyu]]; [[Chen, Kehai]]; [[Long, Yunfei]]; [[Bai, Xuefeng]]; [[Zhang, Yaoyin]]; [[Wei, Xuchen]]; [[Li, Juntao]]; [[Zhang, Min]]"
+authors: "Li, Zhenyu; Chen, Kehai; Long, Yunfei; Bai, Xuefeng; Zhang, Yaoyin; Wei, Xuchen; Li, Juntao; Zhang, Min"
 authors_incomplete: false
 url: "https://openreview.net/pdf/da14c5ecc0ecf18bfb2f9ccbd84f45422a3077fb.pdf"
 external_pdf: "https://arxiv.org/pdf/2503.07539v2.pdf"

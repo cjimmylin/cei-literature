@@ -25,7 +25,8 @@ Professor of Philosophy at Johns Hopkins University (as of 2026), previously at 
 
 
 
-- [[2026-Kolt-Legal Alignment for Safe and Ethical AI|Legal Alignment for Safe and Ethical AI]]
+
+
 - [[2025-Kilov-Discerning What Matters|Discerning What Matters]] (Last Author)
 - [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
 - [[2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.|Beyond Verdicts: Evaluating Language Model Moral Competence Aaron J. Snoswell1,]] (Last Author)
@@ -39,6 +40,10 @@ Professor of Philosophy at Johns Hopkins University (as of 2026), previously at 
 
 
 
+
+
+- *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
+- *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
 - *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
 - *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
 - *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu

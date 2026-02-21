@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs|VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese LLMs]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs*: Affiliation: University of Science, Ho Chi Minh City, Vietnam, Email: ctduc@fit.hcmus.edu.vn
+- *From 2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs*: Affiliation: University of Science, Ho Chi Minh City, Vietnam, Email: ctduc@fit.hcmus.edu.vn
 - *From 2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs*: Affiliation: University of Science, Ho Chi Minh City, Vietnam, Email: ctduc@fit.hcmus.edu.vn
 - *From 2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs*: Affiliation: University of Science, Ho Chi Minh City, Vietnam, Email: cucbt@vng.com.vn
 - *From 2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs*: Affiliation: University of Science, Ho Chi Minh City, Vietnam, Email: cucbt@vng.com.vn

@@ -16,7 +16,7 @@ short_title: "AI and Indigenous Data Sovereignty: Knowing, Engaging, and Learnin
 year: 2025
 first_author: "[[Jessica Russ-Smith]]"
 last_author: "[[Holly Randell-Moon]]"
-authors: Jessica Russ-Smith, Holly Randell-Moon
+authors: Jessica Russ-Smith; Holly Randell-Moon
 doi: 10.3366/soma.2025.0467
 url: "https://www.euppublishing.com/doi/10.3366/soma.2025.0467"
 publication: Somatechnics
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Jessica Russ-Smith, Holly Randell-Moon]]
+[[Jessica Russ-Smith]], [[Holly Randell-Moon]]
 
 ## Metadata
 

@@ -16,7 +16,7 @@ short_title: "LLMs as mirrors of societal moral standards: reflection of cultura
 year: 2024
 first_author: "[[Mijntje Meijer]]"
 last_author: "[[Ayoub Bagheri]]"
-authors: Mijntje Meijer, Hadi Mohammadi, Ayoub Bagheri
+authors: Mijntje Meijer; Hadi Mohammadi; Ayoub Bagheri
 url: "https://arxiv.org/abs/2412.00962"
 external_pdf: "https://arxiv.org/pdf/2412.00962.pdf"
 publication: arXiv

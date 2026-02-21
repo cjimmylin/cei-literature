@@ -19,9 +19,9 @@ key: EXSR0614
 type: journal_article
 short_title: "Detecting Weak and Strong Islamophobic Hate"
 year: 2020
-first_author: "[[Bertie Vidgen, Taha Yasseri]]"
-last_author: "[[Taha Yasseri Bertie Vidgen]]"
-authors: "[[Bertie Vidgen, Taha Yasseri]]"
+first_author: "[[Bertie Vidgen]]"
+last_author: "[[Taha Yasseri]]"
+authors: Bertie Vidgen; Taha Yasseri
 authors_incomplete: false
 url: "https://arxiv.org/abs/1812.10400"
 external_pdf: "https://arxiv.org/pdf/1812.10400.pdf"
@@ -57,7 +57,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Taha Yasseri Bertie Vidgen]]
+[[Bertie Vidgen]], [[Taha Yasseri]]
 
 ## Metadata
 

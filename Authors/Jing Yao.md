@@ -24,9 +24,12 @@ Researcher at Microsoft Research Asia focusing on AI value alignment, interpreta
 
 
 
+
+
 - [[2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values|MoVa: Towards Generalizable Classification of Human Morals and Values]]
 - [[2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value|AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment]]
 - [[2025-Yao-Value Compass Benchmarks|Value Compass Benchmarks]] (First Author)
+- [[2024-Yao-CLAVE ValEval|CLAVE / ValEval]] (First Author)
 - [[2024-Yao-Self-Alignment Improving Alignment of Cultural Values in LLMs via|Self-Alignment: Improving Alignment of Cultural Values in LLMs via In-Context Learning]] (First Author)
 - [[2023-Yao-From Instructions to Intrinsic Human Values -- A|From Instructions to Intrinsic Human Values -- A]] (First Author)
 - [[2023-Yao-Value FULCRA|Value FULCRA]] (First Author)
@@ -38,6 +41,10 @@ Researcher at Microsoft Research Asia focusing on AI value alignment, interpreta
 
 
 
+
+
+- *From 2023-Yao-From Instructions to Intrinsic Human Values -- A*: Affiliation: lable resources for future research
+- *From 2023-Yao-From Instructions to Intrinsic Human Values -- A*: Affiliation: lable resources for future research
 - *From 2023-Yao-From Instructions to Intrinsic Human Values -- A*: Affiliation: lable resources for future research
 - *From 2023-Yao-From Instructions to Intrinsic Human Values -- A*: Affiliation: lable resources for future research
 - *From 2023-Yao-From Instructions to Intrinsic Human Values -- A*: Affiliation: lable resources for future research

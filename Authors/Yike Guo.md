@@ -22,7 +22,10 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU|Measuring Hong Kong Massive Multi-Task Language Understanding (HKMMLU)]] (Last Author)
+- [[2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong|HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong]] (Last Author)
 - [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]]
 - [[2025-Ju-NaVAB|NaVAB]] (Last Author)
 - [[2023-Ji-AI Alignment|AI Alignment]]
@@ -34,6 +37,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Ji-PKU-SafeRLHF*: Affiliation: University of Science and Technology 3Infinigence-AI
+- *From 2025-Ji-PKU-SafeRLHF*: Affiliation: University of Science and Technology 3Infinigence-AI
 - *From 2025-Ji-PKU-SafeRLHF*: Affiliation: University of Science and Technology 3Infinigence-AI
 - *From 2025-Ji-PKU-SafeRLHF*: Affiliation: University of Science and Technology 3Infinigence-AI
 - *From 2025-Ji-PKU-SafeRLHF*: Affiliation: University of Science and Technology 3Infinigence-AI

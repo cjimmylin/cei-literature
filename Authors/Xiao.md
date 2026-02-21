@@ -1,7 +1,7 @@
 ---
 name: "Xiao"
 title: "Current Position"
-affiliation: "University/Organization"
+affiliation: "University of Science and Technology"
 research_interests:
   - "Primary Research Area"
 website: ""
@@ -17,7 +17,13 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
+
+
+- [[2025-Liu-Cross-cultural value alignment frameworks|Cross-cultural value alignment frameworks]]
 
 ## Notes
 
+
+
+- *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: DH@di.ku.dk
+- *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: DH@di.ku.dk

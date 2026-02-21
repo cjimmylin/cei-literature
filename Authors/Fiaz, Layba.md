@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Shafique-UrduBench An Urdu Reasoning Benchmark using|UrduBench An Urdu Reasoning Benchmark using]]
 - [[2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in|UrduLLaMA 1.0: Dataset Curation, Preprocessing, and Evaluation in Low-Resource Settings]] (First Author)
 - [[2024-Tahir-Benchmarking Pre-trained Large Language Models Potential|Benchmarking Pre-trained Large Language Models Potential]]
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Tahir-Benchmarking Pre-trained Large Language Models Potential*: Affiliation: Center for Language Engineering, Al-Khawarizmi Institute of Computer Science, Email: firstname.secondname@kics.edu.pk
+- *From 2024-Tahir-Benchmarking Pre-trained Large Language Models Potential*: Affiliation: Center for Language Engineering, Al-Khawarizmi Institute of Computer Science, Email: firstname.secondname@kics.edu.pk
 - *From 2024-Tahir-Benchmarking Pre-trained Large Language Models Potential*: Affiliation: Center for Language Engineering, Al-Khawarizmi Institute of Computer Science, Email: firstname.secondname@kics.edu.pk
 - *From 2024-Tahir-Benchmarking Pre-trained Large Language Models Potential*: Affiliation: Center for Language Engineering, Al-Khawarizmi Institute of Computer Science, Email: firstname.secondname@kics.edu.pk
 - *From 2024-Tahir-Benchmarking Pre-trained Large Language Models Potential*: Affiliation: Center for Language Engineering, Al-Khawarizmi Institute of Computer Science, Email: firstname.secondname@kics.edu.pk

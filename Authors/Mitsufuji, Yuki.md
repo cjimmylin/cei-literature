@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness|CARE -- Multilingual Human Preference Learning for Cultural Awareness]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness*: Affiliation: Institute of Technology, βSony Group Corporation, γSony AI
+- *From 2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness*: Affiliation: Institute of Technology, βSony Group Corporation, γSony AI
 - *From 2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness*: Affiliation: Institute of Technology, βSony Group Corporation, γSony AI
 - *From 2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness*: Affiliation: Institute of Technology, βSony Group Corporation, γSony AI
 - *From 2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness*: Affiliation: Institute of Technology, βSony Group Corporation, γSony AI

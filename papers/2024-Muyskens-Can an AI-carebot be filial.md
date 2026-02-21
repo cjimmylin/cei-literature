@@ -15,7 +15,7 @@ short_title: "Can an AI-carebot be filial"
 year: 2024
 first_author: "[[Kathryn Muyskens]]"
 last_author: "[[Dunn, Michael]]"
-authors: "[[Muyskens, Kathryn]]; [[Ma, Yonghui]]; [[Dunn, Michael]]"
+authors: "Muyskens, Kathryn; Ma, Yonghui; Dunn, Michael"
 doi: 10.1177/09697330241238332
 url: "https://journals.sagepub.com/doi/10.1177/09697330241238332"
 pdf_extract: 

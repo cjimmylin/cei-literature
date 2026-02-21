@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and|The Veln(ia)s is in the Details: Evaluating LLM Judgment on Latvian and Lithuanian Short Answer Matching]] (Last Author)
 - [[2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages|Towards Multilingual LLM Evaluation for Baltic and Nordic Languages]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk
+- *From 2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk
 - *From 2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk
 - *From 2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk
 - *From 2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk

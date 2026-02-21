@@ -16,8 +16,8 @@ type: preprint
 short_title: "1 Natural Language Processing for Dialects of a Language: A Survey"
 year: 2024
 first_author: "[[Adnan Masood]]"
-last_author: "[[Ph Adnan Masood]]"
-authors: "Adnan Masood, Ph"
+last_author: "[[Ph]]"
+authors: Adnan Masood; Ph
 url: "https://arxiv.org/pdf/2401.05632"
 external_pdf: "https://arxiv.org/pdf/2401.05632.pdf"
 publication: arXiv
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Ph Adnan Masood]]
+[[Adnan Masood]], [[Ph]]
 
 ## Metadata
 

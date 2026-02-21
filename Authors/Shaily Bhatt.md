@@ -1,7 +1,7 @@
 ---
 name: "Shaily Bhatt"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: "vinodkpg@google.com"
 research_interests:
@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation|Culture is Everywhere: A Call for Intentionally Cultural Evaluation]]
 - [[2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case|Re-contextualizing Fairness in NLP The Case]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation*: Affiliation: Institute of Technology, Email: 411juhyun@kaist.ac.kr
+- *From 2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation*: Affiliation: Institute of Technology, Email: 411juhyun@kaist.ac.kr
 - *From 2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case*:, Email: sunipadev@google.com
 - *From 2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case*:, Email: vinodkpg@google.com
 - *From 2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case*:, Email: vinodkpg@google.com

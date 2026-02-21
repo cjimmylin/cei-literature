@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Holm-Danoliteracy of Generative Large Language Models|Danoliteracy of Generative Large Language Models]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Holm-Danoliteracy of Generative Large Language Models*: Affiliation: University of Denmark, Anker Engelunds Vej 1, 2800 Kongens Lyngby, Denmark, Email: swiho@dtu.dk
+- *From 2024-Holm-Danoliteracy of Generative Large Language Models*: Affiliation: University of Denmark, Anker Engelunds Vej 1, 2800 Kongens Lyngby, Denmark, Email: swiho@dtu.dk
 - *From 2024-Holm-Danoliteracy of Generative Large Language Models*: Affiliation: University of Denmark, Anker Engelunds Vej 1, 2800 Kongens Lyngby, Denmark, Email: swiho@dtu.dk
 - *From 2024-Holm-Danoliteracy of Generative Large Language Models*: Affiliation: University of Denmark, Anker Engelunds Vej 1, 2800 Kongens Lyngby, Denmark, Email: swiho@dtu.dk
 - *From 2024-Holm-Danoliteracy of Generative Large Language Models*: Affiliation: University of Denmark, Anker Engelunds Vej 1, 2800 Kongens Lyngby, Denmark, Email: swiho@dtu.dk

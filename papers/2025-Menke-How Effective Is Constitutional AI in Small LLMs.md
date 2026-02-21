@@ -17,7 +17,7 @@ short_title: "How Effective Is Constitutional AI in Small LLMs?"
 year: 2025
 first_author: "[[Antonio-Gabriel Chacón Menke]]"
 last_author: "[[Phan Xuan Tan]]"
-authors: "[[Antonio-Gabriel Chacón Menke]], [[Phan Xuan Tan]]"
+authors: Antonio-Gabriel Chacón Menke; Phan Xuan Tan
 doi: 10.48550/arXiv.2503.17365
 url: "http://arxiv.org/abs/2503.17365"
 pdf_extract: "PDF Extracts/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.md"

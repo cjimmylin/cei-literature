@@ -17,7 +17,7 @@ short_title: "BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding an
 year: 2025
 first_author: "[[Kabir, Daeen]]"
 last_author: "[[Oh, Alice]]"
-authors: "[[Kabir, Daeen]]; [[Mahim, Minhajur Rahman Chowdhury]]; [[Shafayat, Sheikh]]; [[Sadik, Adnan]]; [[Ahmed, Arian]]; [[Kim, Eunsu]]; [[Oh, Alice]]"
+authors: "Kabir, Daeen; Mahim, Minhajur Rahman Chowdhury; Shafayat, Sheikh; Sadik, Adnan; Ahmed, Arian; Kim, Eunsu; Oh, Alice"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.21092"
 external_pdf: "https://arxiv.org/pdf/2505.21092.pdf"

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Saeed-Hate Speech Detection in Social Media for the Kurdish Language|Hate Speech Detection in Social Media for the Kurdish Language]] (First Author)
 
 ## External Links & Profiles

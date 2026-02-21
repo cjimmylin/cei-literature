@@ -15,8 +15,8 @@ type: preprint
 short_title: Safety Evaluation and Enhancement of DeepSeek Models in Chinese Contexts
 year: 2025
 first_author: "[[Wenjing Zhang]]"
-last_author: "[[Shiguo Lian Kai Wang]]"
-authors: Wenjing Zhang, Xuejiao Lei, Zhaoxiang Liu, Limin Han, Jiaojiao Zhao, Junting Guo, Zhenhong Long, Shu Yang, Meijuan An, Beibei Huang, Rongjia Du, Ning Wang, Kai Wang, Shiguo Lian
+last_author: "[[Shiguo Lian]]"
+authors: Wenjing Zhang; Xuejiao Lei; Zhaoxiang Liu; Limin Han; Jiaojiao Zhao; Junting Guo; Zhenhong Long; Shu Yang; Meijuan An; Beibei Huang; Rongjia Du; Ning Wang; Kai Wang; Shiguo Lian
 url: "https://arxiv.org/abs/2503.16529"
 external_pdf: "https://arxiv.org/pdf/2503.16529.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Xuejiao Lei Wenjing Zhang]], [[Liu|Limin Han Zhaoxiang Liu]], [[Junting Guo Jiaojiao Zhao]], [[Shu Yang Zhenhong Long]], [[Beibei Huang Meijuan An]], [[Ning Wang Rongjia Du]], [[Shiguo Lian Kai Wang]]
+[[Wenjing Zhang]], [[Xuejiao Lei]], [[Zhaoxiang Liu]], [[Limin Han]], [[Jiaojiao Zhao]], [[Junting Guo]], [[Zhenhong Long]], [[Shu Yang]], [[Meijuan An]], [[Beibei Huang]], [[Rongjia Du]], [[Ning Wang]], [[Kai Wang]], [[Shiguo Lian]]
 
 ## Metadata
 

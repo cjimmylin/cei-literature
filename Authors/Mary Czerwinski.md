@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of|SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Empathy in Sustained Human-AI Conversations]]
 
 ## External Links & Profiles
@@ -91,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of*: Affiliation: centered taxonomy
+- *From 2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of*: Affiliation: centered taxonomy
 - *From 2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of*: Affiliation: centered taxonomy
 - *From 2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of*: Affiliation: centered taxonomy
 - *From 2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of*: Affiliation: centered taxonomy

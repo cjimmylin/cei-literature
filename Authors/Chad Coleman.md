@@ -51,11 +51,11 @@ Coleman's work bridges the gap between theoretical cognitive science and real-wo
 
 
 
-- [[2025-Group-AILuminate|AILuminate]]
+
+
 - [[2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models|Analyzing the Ethical Logic of Six Large Language Models]]
 - [[2025-Neuman-Auditing the Ethical Logic of Generative AI Models|Auditing the Ethical Logic of Generative AI Models]]
 - [[2025-Neuman-PRIME Framework Convergent Ethics|PRIME Framework Convergent Ethics]]
-- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
 ## External Links & Profiles
 
@@ -69,6 +69,10 @@ Coleman's work bridges the gap between theoretical cognitive science and real-wo
 
 
 
+
+
+- *From 2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models*: Affiliation: University            New York University                New York University, Email: cjc652@nyu.edu
+- *From 2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models*: Affiliation: University            New York University                New York University, Email: cjc652@nyu.edu
 - *From 2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models*: Affiliation: University            New York University                New York University, Email: ms15037@nyu.edu
 - *From 2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models*: Affiliation: University            New York University                New York University, Email: wrn210@nyu.edu
 - *From 2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models*: Affiliation: University            New York University                New York University, Email: ms15037@nyu.edu

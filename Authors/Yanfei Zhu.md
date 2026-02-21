@@ -22,9 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Liu-Evaluating Moral Beliefs across LLMs through a|Evaluating Moral Beliefs across LLMs through a]]
-- [[2024-Sang-CDEval A Benchmark for Measuring the|CDEval A Benchmark for Measuring the]]
-- [[2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding|AC-EVAL Evaluating Ancient Chinese Language Understanding]]
 
 ## Notes
 
@@ -33,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Liu-Evaluating Moral Beliefs across LLMs through a*: Affiliation: School of Information Science, Beijing Language and Culture University, Beijing, China, Email: yudong_blcu@126.com
+- *From 2024-Liu-Evaluating Moral Beliefs across LLMs through a*: Affiliation: School of Information Science, Beijing Language and Culture University, Beijing, China, Email: yudong_blcu@126.com
 - *From 2024-Sang-CDEval A Benchmark for Measuring the*: Affiliation: Lab of Traffic Data Analysis and Mining, Beijing Jiaotong University
 - *From 2024-Sang-CDEval A Benchmark for Measuring the*: Affiliation: Lab of Traffic Data Analysis and Mining, Beijing Jiaotong University
 - *From 2024-Sang-CDEval A Benchmark for Measuring the*: Affiliation: Lab of Traffic Data Analysis and Mining, Beijing Jiaotong University

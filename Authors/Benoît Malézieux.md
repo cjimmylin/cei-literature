@@ -51,6 +51,8 @@ Malézieux is a contributor to several open-source AI security tools, including 
 
 
 
+
+
 - [[2025-Le Jeune-Phare A Safety Probe for Large Language Models|Phare: A Safety Probe for Large Language Models]]
 
 ## External Links & Profiles
@@ -65,6 +67,10 @@ Malézieux is a contributor to several open-source AI security tools, including 
 
 
 
+
+
+- *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: pierre@giskard.ai
+- *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: pierre@giskard.ai
 - *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: benoit@giskard.ai
 - *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: pierre@giskard.ai
 - *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: matteo@giskard.ai

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed|An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed*: Affiliation: Lab, University of Toronto, Email: greenstadt@nyu.edu
+- *From 2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed*: Affiliation: Lab, University of Toronto, Email: greenstadt@nyu.edu
 - *From 2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed*: Affiliation: Lab, University of Toronto, Email: greenstadt@nyu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -17,8 +17,8 @@ type: conferencePaper
 short_title: "Dicta-LM 3.0: Advancing The Frontier of Hebrew Sovereign LLMs"
 year: 2025
 first_author: "[[Shaltiel Shmidman]]"
-last_author: "[[Moshe Koppel Amir DN Cohen]]"
-authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
+last_author: "[[Moshe Koppel]]"
+authors: Shaltiel Shmidman; Avi Shmidman; Amir DN Cohen; Moshe Koppel
 url: "https://dicta.org.il/publications/DictaLM_3_0___Techincal_Report.pdf"
 external_pdf: "https://arxiv.org/pdf/2602.02104.pdf"
 publication: "Dicta Technical Report"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Avi Shmidman Shaltiel Shmidman]], [[Moshe Koppel Amir DN Cohen]]
+[[Shaltiel Shmidman]], [[Avi Shmidman]], [[Amir DN Cohen]], [[Moshe Koppel]]
 
 ## Metadata
 

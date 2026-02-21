@@ -15,9 +15,9 @@ key: EXSR0607
 type: preprint
 short_title: "LaoPLM Pre-trained Language Models for Lao"
 year: 2021
-first_author: "[[Guilin Lin, Jie Fu, Weiwei Sun]]"
+first_author: "[[Guilin Lin]]"
 last_author: "[[Weiwei Sun]]"
-authors: "[[Guilin Lin, Jie Fu, Weiwei Sun]]"
+authors: Guilin Lin; Jie Fu; Weiwei Sun
 authors_incomplete: false
 url: "https://arxiv.org/abs/2110.05896"
 external_pdf: "https://arxiv.org/pdf/2110.05896.pdf"

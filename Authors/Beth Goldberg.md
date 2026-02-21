@@ -51,6 +51,8 @@ Goldberg has conducted extensive digital ethnographic studies with extremist gro
 
 
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## External Links & Profiles
@@ -65,6 +67,10 @@ Goldberg has conducted extensive digital ethnographic studies with extremist gro
 
 
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of

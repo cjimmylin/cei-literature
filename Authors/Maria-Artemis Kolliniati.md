@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Gounaris-Virtue in the Machine|Virtue in the Machine]] (Last Author)
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 - *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 - *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 - *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece

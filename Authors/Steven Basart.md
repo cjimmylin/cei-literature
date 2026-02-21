@@ -34,6 +34,8 @@ He is a co-author of the influential ETHICS benchmark (Aligning AI with Shared H
 
 
 
+
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Mazeika-HarmBench|HarmBench]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
@@ -57,6 +59,10 @@ He is a co-author of the influential ETHICS benchmark (Aligning AI with Shared H
 
 
 
+
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu

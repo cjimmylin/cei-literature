@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Fillies-A novel German TikTok hate speech dataset far-right comments against|A novel German TikTok hate speech dataset: far-right comments against politicians, women, and others]] (First Author)
 - [[2025-Fillies-Mapping Toxic Comments Across Demographics A Dataset from German|Mapping Toxic Comments Across Demographics: A Dataset from German Public Broadcasting]] (First Author)
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Fillies-A novel German TikTok hate speech dataset far-right comments against*: Affiliation: labels was developed in collaboration with domain
+- *From 2025-Fillies-A novel German TikTok hate speech dataset far-right comments against*: Affiliation: labels was developed in collaboration with domain
 - *From 2025-Fillies-A novel German TikTok hate speech dataset far-right comments against*: Affiliation: labels was developed in collaboration with domain
 - *From 2025-Fillies-A novel German TikTok hate speech dataset far-right comments against*: Affiliation: labels was developed in collaboration with domain
 - *From 2025-Fillies-A novel German TikTok hate speech dataset far-right comments against*: Affiliation: labels was developed in collaboration with domain

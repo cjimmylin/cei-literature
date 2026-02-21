@@ -50,6 +50,8 @@ He has authored over 300 peer-reviewed papers and is a co-designer of foundation
 
 
 
+
+
 - [[2025-Bulla-Large Language Models meet moral values|Large Language Models meet moral values]] (Last Author)
 
 ## External Links & Profiles
@@ -69,6 +71,10 @@ He has authored over 300 peer-reviewed papers and is a co-designer of foundation
 
 
 
+
+
+- *From 2025-Bulla-Large Language Models meet moral values*: Affiliation: lable online 8 February 2025
+- *From 2025-Bulla-Large Language Models meet moral values*: Affiliation: lable online 8 February 2025
 - *From 2025-Bulla-Large Language Models meet moral values*: Affiliation: lable online 8 February 2025
 - *From 2025-Bulla-Large Language Models meet moral values*: Affiliation: lable online 8 February 2025
 - *From 2025-Bulla-Large Language Models meet moral values*: Affiliation: lable online 8 February 2025

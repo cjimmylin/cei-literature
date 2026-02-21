@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Park-Pragmatic Competence Evaluation of Large Language Models for the|Pragmatic Competence Evaluation of Large Language Models for the Korean Language]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)
+- *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)
 - *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)
 - *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)
 - *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)

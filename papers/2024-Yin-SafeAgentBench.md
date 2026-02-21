@@ -17,7 +17,7 @@ short_title: SafeAgentBench
 year: 2024
 first_author: "[[Yin, Sheng]]"
 last_author: "[[Chen, Siheng]]"
-authors: "[[Yin, Sheng]]; [[Pang, Xianghe]]; [[Ding, Yuanzhuo]]; [[Chen, Menglan]]; [[Bi, Yutong]]; [[Xiong, Yichen]]; [[Huang, Wenhao]]; [[Xiang, Zhen]]; [[Shao, Jing]]; [[Chen, Siheng]]"
+authors: "Yin, Sheng; Pang, Xianghe; Ding, Yuanzhuo; Chen, Menglan; Bi, Yutong; Xiong, Yichen; Huang, Wenhao; Xiang, Zhen; Shao, Jing; Chen, Siheng"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.13178"
 external_pdf: "https://arxiv.org/pdf/2412.13178.pdf"

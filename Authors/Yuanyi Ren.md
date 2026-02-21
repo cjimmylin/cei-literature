@@ -25,8 +25,8 @@ Yuanyi Ren is a researcher at Peking University's National Key Laboratory of Gen
 
 
 
-- [[2025-Lan-Fuxi A Benchmark for Evaluating Language|Fuxi A Benchmark for Evaluating Language]]
-- [[2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated|Banzhida: Advancing Large Language Models for Tibetan with Curated Data and Continual Pre-Training]]
+
+
 - [[2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems|GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems]]
 - [[2024-Ren-ValueBench|ValueBench]] (First Author)
 - [[2024-Ye-Measuring Human and AI Values Based on Generative|Measuring Human and AI Values Based on Generative]]
@@ -38,6 +38,10 @@ Yuanyi Ren is a researcher at Peking University's National Key Laboratory of Gen
 
 
 
+
+
+- *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
+- *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
 - *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
 - *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
 - *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence

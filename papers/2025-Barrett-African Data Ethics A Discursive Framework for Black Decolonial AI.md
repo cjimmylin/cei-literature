@@ -15,7 +15,7 @@ type: conferencePaper
 short_title: "African Data Ethics: A Discursive Framework for Black Decolonial AI"
 year: 2025
 first_author: "[[Barrett, Teanna]]"
-last_author: "[[Battle, Leilani]]"
+last_author: "[[Leilani Battle]]"
 authors: Teanna Barrett; Chinasa T. Okolo; B. Biira; Eman Sherif; Amy X. Zhang; Leilani Battle
 doi: 10.1145/3715275.3732023
 url: "https://dl.acm.org/doi/full/10.1145/3715275.3732023"

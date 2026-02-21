@@ -18,7 +18,7 @@ short_title: "Frontiers | Cross-dialectal Arabic translation: comparative analys
 year: 2025
 first_author: "[[Beidas, Ayah]]"
 last_author: "[[Abed, Sa’ed]]"
-authors: "[[Beidas, Ayah]]; [[Mohi, Kousar]]; [[Ghaddar, Fatme]]; [[Ahmad, Imtiaz]]; [[Abed, Sa’ed]]"
+authors: "Beidas, Ayah; Mohi, Kousar; Ghaddar, Fatme; Ahmad, Imtiaz; Abed, Sa’ed"
 authors_incomplete: false
 doi: 10.3389/frai.2025.1661789/full
 url: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1661789/full"

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2023-Vida-Values, Ethics, Morals|Values, Ethics, Morals?]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
+- *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 - *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 - *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 - *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg

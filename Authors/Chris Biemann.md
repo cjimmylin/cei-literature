@@ -37,6 +37,8 @@ Chris Biemann is a Professor of Language Technology at the University of Hamburg
 
 
 
+
+
 - [[2023-Ayele-Amharic Hate Speech Dataset|Amharic Hate Speech Dataset]] (Last Author)
 - [[2020-Mathew-HateXplain|HateXplain]]
 
@@ -50,6 +52,10 @@ Chris Biemann is a Professor of Language Technology at the University of Hamburg
 
 
 
+
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: pawang@cse.iitkgp.ac.in
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: pawang@cse.iitkgp.ac.in
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: biemann@informatik.uni
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in

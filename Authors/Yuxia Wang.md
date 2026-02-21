@@ -25,6 +25,9 @@ Yuxia Wang is a tenure-track Assistant Professor at INSAIT in Sofia. Previously,
 
 
 
+
+
+- [[2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a|Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting]]
 - [[2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for|Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh]]
 - [[2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment|HALF: Harm-Aware LLM Fairness Evaluation Aligned with Deployment]] (Last Author)
 - [[2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian|Qorgau Evaluating LLM Safety in Kazakh-Russian]]
@@ -39,6 +42,10 @@ Yuxia Wang is a tenure-track Assistant Professor at INSAIT in Sofia. Previously,
 
 
 
+
+
+- *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
+- *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 - *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 - *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 - *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne

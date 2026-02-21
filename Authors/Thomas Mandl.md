@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Bertram-Comparative Survey of German Hate Speech Datasets Background|Comparative Survey of German Hate Speech Datasets: Background, Characteristics and Biases]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Bertram-Comparative Survey of German Hate Speech Datasets Background*: Affiliation: University of Hildesheim, Germany
+- *From 2024-Bertram-Comparative Survey of German Hate Speech Datasets Background*: Affiliation: University of Hildesheim, Germany
 - *From 2024-Bertram-Comparative Survey of German Hate Speech Datasets Background*: Affiliation: University of Hildesheim, Germany
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

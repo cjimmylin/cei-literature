@@ -58,7 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2024-Porkaew-Representing the Under-Represented Cultural and Core|Representing the Under-Represented Cultural and Core]]
+- [[2024-Tharnpipitchai-Typhoon 2 A Family of Open|Typhoon 2 A Family of Open]]
 
 ## External Links & Profiles
 
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Porkaew-Representing the Under-Represented Cultural and Core*: Affiliation: lable to encourage further research, Email: attapol.t@chula.ac.th
+- *From 2024-Porkaew-Representing the Under-Represented Cultural and Core*: Affiliation: lable to encourage further research, Email: attapol.t@chula.ac.th
 - *From 2024-Porkaew-Representing the Under-Represented Cultural and Core*: Affiliation: lable to encourage further research, Email: attapol.t@chula.ac.th
 - *From 2024-Porkaew-Representing the Under-Represented Cultural and Core*: Affiliation: lable to encourage further research, Email: attapol.t@chula.ac.th
 - *From 2024-Porkaew-Representing the Under-Represented Cultural and Core*: Affiliation: lable to encourage further research, Email: attapol.t@chula.ac.th

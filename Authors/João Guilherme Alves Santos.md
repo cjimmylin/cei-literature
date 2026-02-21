@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs|BRoverbs -- Measuring how much LLMs understand Portuguese proverbs]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs*: Affiliation: Institute of Computing, University of Campinas, Email: j199624@dac.unicamp.br
+- *From 2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs*: Affiliation: Institute of Computing, University of Campinas, Email: j199624@dac.unicamp.br
 - *From 2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs*: Affiliation: Institute of Computing, University of Campinas, Email: t224732@dac.unicamp.br
 - *From 2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs*: Affiliation: Institute of Computing, University of Campinas, Email: g216832@dac.unicamp.br
 - *From 2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs*: Affiliation: Institute of Computing, University of Campinas, Email: t224732@dac.unicamp.br

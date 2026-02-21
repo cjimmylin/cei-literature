@@ -15,8 +15,8 @@ type: preprint
 short_title: "Abusive Span Detection for Vietnamese Narrative Texts"
 year: 2023
 first_author: "[[Nguyen]]"
-last_author: "[[Nguyen Nguyen]]"
-authors: "Nguyen, Pham, Nguyen, Nguyen"
+last_author: "[[Nguyen]]"
+authors: Nguyen; Pham; Nguyen; Nguyen
 doi: 10.1145/3628797.3628921
 url: "https://arxiv.org/abs/2312.07831"
 external_pdf: "https://arxiv.org/pdf/2312.07831.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Pham Nguyen]], [[Ngan Luu-Thuy Nguyen|Nguyen Nguyen]]
+[[Nguyen]], [[Pham]], [[Nguyen]], [[Nguyen]]
 
 ## Metadata
 

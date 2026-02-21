@@ -16,9 +16,9 @@ key: EXSR0380
 type: preprint
 short_title: "I Am Aligned But With Whom"
 year: 2025
-first_author: "[[Pardis Sadat Zahraei, Ehsaneddin Asgari]]"
-last_author: "[[Ehsaneddin Asgari Pardis Sadat Zahraei]]"
-authors: "[[Pardis Sadat Zahraei, Ehsaneddin Asgari]]"
+first_author: "[[Pardis Sadat Zahraei]]"
+last_author: "[[Ehsaneddin Asgari]]"
+authors: Pardis Sadat Zahraei; Ehsaneddin Asgari
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.13154"
 external_pdf: "https://arxiv.org/pdf/2510.13154.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Ehsaneddin Asgari Pardis Sadat Zahraei]]
+[[Pardis Sadat Zahraei]], [[Ehsaneddin Asgari]]
 
 ## Metadata
 

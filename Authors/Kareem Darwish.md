@@ -60,6 +60,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Alam-From RAG to Agentic RAG for|From RAG to Agentic RAG for]]
 - [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content]]
 
@@ -92,6 +94,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in*: Affiliation: University, Qatar, Email: wmagdy@inf.ed.ac.uk
+- *From 2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in*: Affiliation: University, Qatar, Email: wmagdy@inf.ed.ac.uk
 - *From 2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in*: Affiliation: University, Qatar, Email: telsayed@qu.edu.qa
 - *From 2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in*: Affiliation: University, Qatar, Email: wmagdy@inf.ed.ac.uk
 - *From 2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in*: Affiliation: University, Qatar, Email: wmagdy@inf.ed.ac.uk

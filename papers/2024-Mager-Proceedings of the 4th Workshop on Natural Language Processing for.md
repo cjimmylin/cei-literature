@@ -16,7 +16,7 @@ short_title: Proceedings of the 4th Workshop on Natural Language Processing for 
 year: 2024
 first_author: "[[Manuel Mager]]"
 last_author: "[[Katharina von der Wense (editors)]]"
-authors: Manuel Mager, Abteen Ebrahimi, Shruti Rijhwani, Arturo Oncevay, Luis Chiruzzo, Robert Pugh, Katharina von der Wense (editors)
+authors: Manuel Mager; Abteen Ebrahimi; Shruti Rijhwani; Arturo Oncevay; Luis Chiruzzo; Robert Pugh; Katharina von der Wense (editors)
 doi: 10.18653/v1/2024.americasnlp-1
 url: "https://aclanthology.org/volumes/2024.americasnlp-1/"
 publication: ACL Anthology / NAACL 2024
@@ -51,7 +51,7 @@ CONFERENCE: "NAACL 2024"
 
 ## Authors
 
-[[Manuel Mager, Abteen Ebrahimi, Shruti Rijhwani, Arturo Oncevay, Luis Chiruzzo, Robert Pugh, Katharina von der Wense (editors)]]
+[[Manuel Mager]], [[Abteen Ebrahimi]], [[Shruti Rijhwani]], [[Arturo Oncevay]], [[Luis Chiruzzo]], [[Robert Pugh]], [[Katharina von der Wense (editors)]]
 
 ## Metadata
 

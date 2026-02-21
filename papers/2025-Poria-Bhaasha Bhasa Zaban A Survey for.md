@@ -17,7 +17,7 @@ short_title: "Bhaasha Bhasa Zaban A Survey for"
 year: 2025
 first_author: "[[Poria, Sampoorna]]"
 last_author: "[[Xiaolei Huang]]"
-authors: "[[Sampoorna Poria]]; [[Xiaolei Huang]]"
+authors: Sampoorna Poria; Xiaolei Huang
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.11570"
 external_pdf: "https://arxiv.org/pdf/2509.11570.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Soujanya Poria|Sampoorna Poria]], [[Xiaolei Huang]]
+[[Sampoorna Poria]], [[Xiaolei Huang]]
 
 ## Metadata
 

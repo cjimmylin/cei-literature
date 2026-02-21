@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Gupta-WalledEval|WalledEval]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Gupta-WalledEval*: Affiliation: lable at https:, Email: rishabh@walled.ai
+- *From 2024-Gupta-WalledEval*: Affiliation: lable at https:, Email: rishabh@walled.ai
 - *From 2024-Gupta-WalledEval*: Affiliation: lable at https:, Email: rishabh@walled.ai
 - *From 2024-Gupta-WalledEval*: Affiliation: lable at https:, Email: rishabh@walled.ai
 - *From 2024-Gupta-WalledEval*: Affiliation: lable at https:, Email: rishabh@walled.ai

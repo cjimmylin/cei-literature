@@ -16,8 +16,8 @@ type: conferencePaper
 short_title: "Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?"
 year: 2024
 first_author: "[[Gabriel Assis]]"
-last_author: "[[Aline Paes Daniela Vianna]]"
-authors: "Gabriel Assis, Annie Amorim, Jonnathan Carvalho, Daniel de Oliveira, Daniela Vianna, Aline Paes"
+last_author: "[[Aline Paes]]"
+authors: Gabriel Assis; Annie Amorim; Jonnathan Carvalho; Daniel de Oliveira; Daniela Vianna; Aline Paes
 url: "https://aclanthology.org/2024.propor-1.31/"
 external_pdf: "https://aclanthology.org/2024.propor-1.31.pdf"
 publication: "ACL Anthology (PROPOR 2024)"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2024"
 
 ## Authors
 
-[[Annie Amorim Gabriel Assis]], [[Daniel de Oliveira Jonnathan Carvalho]], [[Aline Paes Daniela Vianna]]
+[[Gabriel Assis]], [[Annie Amorim]], [[Jonnathan Carvalho]], [[Daniel de Oliveira]], [[Daniela Vianna]], [[Aline Paes]]
 
 ## Metadata
 

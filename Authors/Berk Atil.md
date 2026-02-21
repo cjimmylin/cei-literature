@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales|Self-Explaining Hate Speech Detection with Moral Rationales]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales*: Affiliation: University of São Paulo, Email: francielleavargas@usp.br
+- *From 2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales*: Affiliation: University of São Paulo, Email: francielleavargas@usp.br
 - *From 2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales*: Affiliation: University of São Paulo, Email: francielleavargas@usp.br
 - *From 2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales*: Affiliation: University of São Paulo, Email: francielleavargas@usp.br
 - *From 2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales*: Affiliation: University of São Paulo, Email: francielleavargas@usp.br

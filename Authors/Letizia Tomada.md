@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2022-Chalkidis-FairLex|FairLex]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
+- *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 - *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 - *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 - *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk

@@ -3,7 +3,7 @@ name: "Divyansh Agarwal"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "University of California, Los Angeles"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "permissions@acm.org."
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment|Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment]] (First Author)
 - [[2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents|Evaluating Cultural and Social Awareness of LLM Web Agents]]
 
 ## External Links & Profiles
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment*:, Email: permissions@acm.org.
+- *From 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment*:, Email: permissions@acm.org.
 - *From 2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents*: Affiliation: University of California, Los Angeles
 - *From 2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents*: Affiliation: University of California, Los Angeles
 - *From 2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents*: Affiliation: University of California, Los Angeles

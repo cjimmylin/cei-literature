@@ -18,9 +18,9 @@ key: EXSR0534
 type: conference_paper
 short_title: "The Vedic Compound Dataset"
 year: 2024
-first_author: "[[Sven Sellmer, Oliver Hellwig]]"
-last_author: "[[Oliver Hellwig Sven Sellmer]]"
-authors: "[[Sven Sellmer, Oliver Hellwig]]"
+first_author: "[[Sven Sellmer]]"
+last_author: "[[Oliver Hellwig]]"
+authors: Sven Sellmer; Oliver Hellwig
 authors_incomplete: false
 url: "https://aclanthology.org/2024.mwe-1.8/"
 external_pdf: "https://aclanthology.org/2024.mwe-1.8.pdf"
@@ -56,7 +56,7 @@ CONFERENCE: "LREC-COLING 2024"
 
 ## Authors
 
-[[Oliver Hellwig Sven Sellmer]]
+[[Sven Sellmer]], [[Oliver Hellwig]]
 
 ## Metadata
 

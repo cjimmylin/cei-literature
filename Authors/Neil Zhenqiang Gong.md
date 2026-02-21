@@ -22,9 +22,10 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
-- [[2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models|Cultural Bias and Cultural Alignment of Large Language Models]] (Last Author)
 
 ## Notes
 
@@ -33,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu

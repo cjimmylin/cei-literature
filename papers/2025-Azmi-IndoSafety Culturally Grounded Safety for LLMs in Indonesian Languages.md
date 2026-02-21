@@ -16,7 +16,7 @@ short_title: "IndoSafety: Culturally Grounded Safety for LLMs in Indonesian Lang
 year: 2025
 first_author: "[[Azmi, Muhammad Falensi]]"
 last_author: "[[Koto, Fajri]]"
-authors: "[[Azmi, Muhammad Falensi]]; [[Al Kautsar, Muhammad Dehan]]; [[Wicaksono, Alfan Farizki]]; [[Koto, Fajri]]"
+authors: "Azmi, Muhammad Falensi; Al Kautsar, Muhammad Dehan; Wicaksono, Alfan Farizki; Koto, Fajri"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.02573"
 external_pdf: "https://arxiv.org/pdf/2506.02573.pdf"

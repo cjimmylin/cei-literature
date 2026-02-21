@@ -16,7 +16,7 @@ short_title: Intersectional Bias in Japanese Large Language Models from a Contex
 year: 2025
 first_author: "[[Hitomi Yanaka]]"
 last_author: "[[Yuko Itatsu]]"
-authors: Hitomi Yanaka, Xinqi He, Jie Lu, Namgi Han, Sunjin Oh, Ryoma Kumon, Yuma Matsuoka, Katsuhiko Watabe, Yuko Itatsu
+authors: Hitomi Yanaka; Xinqi He; Jie Lu; Namgi Han; Sunjin Oh; Ryoma Kumon; Yuma Matsuoka; Katsuhiko Watabe; Yuko Itatsu
 url: "https://arxiv.org/abs/2506.12327"
 external_pdf: "https://arxiv.org/pdf/2506.12327.pdf"
 publication: arXiv / GeBNLP 2025
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Hitomi Yanaka]], [[Xiaodong He|Xinqi He]], [[Jie Lu]], [[Namgi Han]], [[Seong Joon Oh|Sunjin Oh]], [[Ryoma Kumon]], [[Yuma Matsuoka]], [[Katsuhiko Watabe]], [[Yuko Itatsu]]
+[[Hitomi Yanaka]], [[Xinqi He]], [[Jie Lu]], [[Namgi Han]], [[Sunjin Oh]], [[Ryoma Kumon]], [[Yuma Matsuoka]], [[Katsuhiko Watabe]], [[Yuko Itatsu]]
 
 ## Metadata
 

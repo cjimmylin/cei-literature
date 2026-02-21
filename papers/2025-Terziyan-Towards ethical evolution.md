@@ -16,9 +16,9 @@ key: DOI_S43681_025_00759_9
 type: journalArticle
 short_title: "Towards ethical evolution"
 year: 2025
-first_author: "[[Vagan Terziyan]]"
-last_author: "[[Oleksandra Vitko]]"
-authors: "[[Terziyan, Vagan]], [[Tiihonen, Timo]], [[Shukla, Amit K.]], [[Gryshko, Svitlana]], [[Golovianko, Mariia]], [[Terziyan, Oleksandr]], [[Vitko, Oleksandra]]"
+first_author: "[[Terziyan]]"
+last_author: "[[Oleksandra]]"
+authors: Terziyan; Vagan; Tiihonen; Timo; Shukla; Kallet, Amit; Gryshko; Svitlana; Golovianko; Mariia; Terziyan; Oleksandr; Vitko; Oleksandra
 doi: 10.1007/s43681-025-00759-9
 tags: "Computer Science - AI Ethics"
 url: "https://doi.org/10.1007/s43681-025-00759-9"
@@ -55,7 +55,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Vagan Terziyan]], [[Timo Tiihonen]], [[Amit K. Shukla]], [[Svitlana Gryshko]], [[Mariia Golovianko]], [[Oleksandr Terziyan]], [[Oleksandra Vitko]]
+[[Terziyan]], [[Vagan]], [[Tiihonen]], [[Timo]], [[Shukla]], [[Kallet, Amit]], [[Gryshko]], [[Svitlana]], [[Golovianko]], [[Mariia]], [[Terziyan]], [[Oleksandr]], [[Vitko]], [[Oleksandra]]
 
 ## Links
 

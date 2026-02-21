@@ -53,6 +53,9 @@ She has received numerous prestigious grants, including an ERC Consolidator Gran
 
 
 
+
+
+- [[2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic|Algorithmic Fidelity of Large Language Models in Generating Synthetic German Public Opinions: A Case Study]]
 - [[2022-Baan-Stop Measuring Calibration When Humans Disagree|Stop Measuring Calibration When Humans Disagree]]
 
 ## External Links & Profiles
@@ -72,6 +75,10 @@ She has received numerous prestigious grants, including an ERC Consolidator Gran
 
 
 
+
+
+- *From 2022-Baan-Stop Measuring Calibration When Humans Disagree*: Affiliation: University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich, Email: b.plank@lmu.de
+- *From 2022-Baan-Stop Measuring Calibration When Humans Disagree*: Affiliation: University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich, Email: b.plank@lmu.de
 - *From 2022-Baan-Stop Measuring Calibration When Humans Disagree*: Affiliation: University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich, Email: b.plank@lmu.de
 - *From 2022-Baan-Stop Measuring Calibration When Humans Disagree*: Affiliation: University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich, Email: b.plank@lmu.de
 - *From 2022-Baan-Stop Measuring Calibration When Humans Disagree*: Affiliation: University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich, Email: b.plank@lmu.de

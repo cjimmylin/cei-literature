@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs|DIB Benchmark: Decision-based Implicit Bias in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs*: Affiliation: Research Institute of Harbin, Email: bin2020@hit.edu.cn
+- *From 2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs*: Affiliation: Research Institute of Harbin, Email: bin2020@hit.edu.cn
 - *From 2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs*: Affiliation: Research Institute of Harbin, Email: dong@ntu.edu.sg
 - *From 2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs*: Affiliation: Research Institute of Harbin, Email: bin2020@hit.edu.cn
 - *From 2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs*: Affiliation: Research Institute of Harbin, Email: dong@ntu.edu.sg

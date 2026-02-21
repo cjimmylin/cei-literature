@@ -50,6 +50,8 @@ Jiang co-authored "Raising the Bar: Investigating the Values of Large Language M
 
 
 
+
+
 - [[2025-Jiang-Raising the Bar|Raising the Bar]] (First Author)
 
 ## External Links & Profiles
@@ -65,6 +67,10 @@ Jiang co-authored "Raising the Bar: Investigating the Values of Large Language M
 
 
 
+
+
+- *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: xiaoyuanyi@microsoft.com
+- *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: xiaoyuanyi@microsoft.com
 - *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: hua_wei@tongji.edu.cn
 - *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: xiaoyuanyi@microsoft.com
 - *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: hua_wei@tongji.edu.cn

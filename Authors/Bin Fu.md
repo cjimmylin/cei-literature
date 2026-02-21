@@ -25,6 +25,8 @@ Bin Fu is a researcher at the Shenzhen Institute of Advanced Technology (SIAT), 
 
 
 
+
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## Notes
@@ -34,6 +36,10 @@ Bin Fu is a researcher at the Shenzhen Institute of Advanced Technology (SIAT), 
 
 
 
+
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn

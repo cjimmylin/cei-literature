@@ -1,7 +1,7 @@
 ---
 name: "Ramon Pires"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable, continue"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models|Sabiá-2: A New Generation of Portuguese Large Language Models]] (First Author)]]
 
-- [[2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models|Sabiá-2: A New Generation of Portuguese Large Language Models]] (First Author)
+
+- [[2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in|PoETa v2: Toward More Robust Evaluation of Large Language Models in Portuguese]]
+- [[2023-Pires-Sabiá Portuguese Large Language Models|Sabiá: Portuguese Large Language Models]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Pires-Sabiá Portuguese Large Language Models*: Affiliation: lable, continue
+- *From 2023-Pires-Sabiá Portuguese Large Language Models*: Affiliation: lable, continue
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

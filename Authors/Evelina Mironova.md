@@ -34,6 +34,8 @@ Research on Russian language NLP, particularly examining how language models han
 
 
 
+
+
 - [[2025-Vasilev-RusCode|RusCode]]
 - [[2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]]
 - [[2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused|CRAFT: Cultural Russian-Oriented Dataset Adaptation for Focused Text-to-Image Generation]]
@@ -49,6 +51,10 @@ Research on Russian language NLP, particularly examining how language models han
 
 
 
+
+
+- *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu
+- *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu
 - *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu
 - *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu
 - *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu

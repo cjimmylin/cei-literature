@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs|IrokoBench -- A Benchmark for African Languages in the Age of LLMs]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs*: Affiliation: labi4, Xuanli He6, Millicent Ochieng7, Sara Hooker8, Andiswa Bukula9
+- *From 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs*: Affiliation: labi4, Xuanli He6, Millicent Ochieng7, Sara Hooker8, Andiswa Bukula9
 - *From 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs*: Affiliation: labi4, Xuanli He6, Millicent Ochieng7, Sara Hooker8, Andiswa Bukula9
 - *From 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs*: Affiliation: labi4, Xuanli He6, Millicent Ochieng7, Sara Hooker8, Andiswa Bukula9
 - *From 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs*: Affiliation: labi4, Xuanli He6, Millicent Ochieng7, Sara Hooker8, Andiswa Bukula9

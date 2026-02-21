@@ -35,6 +35,8 @@ Alkis's research explores the philosophical foundations of AI ethics, specifical
 
 
 
+
+
 - [[2025-Gounaris-Virtue in the Machine|Virtue in the Machine]] (First Author)
 
 ## External Links & Profiles
@@ -47,6 +49,10 @@ Alkis's research explores the philosophical foundations of AI ethics, specifical
 
 
 
+
+
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 - *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 - *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 - *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece

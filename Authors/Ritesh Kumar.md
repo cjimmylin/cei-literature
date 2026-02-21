@@ -24,6 +24,8 @@ Co-founder and Director of Council for Diversity and Innovation and Co-founder o
 
 
 
+
+
 - [[2020-Kumar-Evaluating Aggression Identification in Social|Evaluating Aggression Identification in Social]] (First Author)
 
 ## Notes
@@ -33,6 +35,10 @@ Co-founder and Director of Council for Diversity and Innovation and Co-founder o
 
 
 
+
+
+- *From 2020-Kumar-Evaluating Aggression Identification in Social*: Affiliation: University, Agra, 2Charles University, Faculty of Mathematics and Physics Institute of, Email: shervin.malmasi@mq.edu.au
+- *From 2020-Kumar-Evaluating Aggression Identification in Social*: Affiliation: University, Agra, 2Charles University, Faculty of Mathematics and Physics Institute of, Email: shervin.malmasi@mq.edu.au
 - *From 2020-Kumar-Evaluating Aggression Identification in Social*: Affiliation: University, Agra, 2Charles University, Faculty of Mathematics and Physics Institute of, Email: shashwatup9k@gmail.com
 - *From 2020-Kumar-Evaluating Aggression Identification in Social*: Affiliation: University, Agra, 2Charles University, Faculty of Mathematics and Physics Institute of, Email: shashwatup9k@gmail.com
 - *From 2020-Kumar-Evaluating Aggression Identification in Social*: Affiliation: University, Agra, 2Charles University, Faculty of Mathematics and Physics Institute of, Email: llh@jnu.ac.in

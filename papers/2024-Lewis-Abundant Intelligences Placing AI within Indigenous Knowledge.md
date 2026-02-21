@@ -16,7 +16,7 @@ short_title: "Abundant Intelligences: Placing AI within Indigenous Knowledge Fra
 year: 2024
 first_author: "[[Jason Edward Lewis]]"
 last_author: "[[Ceyda Yolgörmez]]"
-authors: Jason Edward Lewis, Hēmi Whaanga, Ceyda Yolgörmez
+authors: Jason Edward Lewis; Hēmi Whaanga; Ceyda Yolgörmez
 doi: 10.1007/s00146-024-02099-4
 url: "https://link.springer.com/article/10.1007/s00146-024-02099-4"
 publication: "Springer AI & Society"
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Jason Edward Lewis, Hēmi Whaanga, Ceyda Yolgörmez]]
+[[Jason Edward Lewis]], [[Hēmi Whaanga]], [[Ceyda Yolgörmez]]
 
 ## Metadata
 

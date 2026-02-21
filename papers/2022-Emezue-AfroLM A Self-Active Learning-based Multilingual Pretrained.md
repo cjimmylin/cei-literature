@@ -15,9 +15,9 @@ key: EXSR0579
 type: preprint
 short_title: "AfroLM A Self-Active Learning-based Multilingual Pretrained"
 year: 2022
-first_author: "[[Bonaventure F. P. Dossou, Atnafu Lambebo Tonja, Oreen Yousuf, Salomey Osei, Abigail Oppong, Iyanuoluwa Shode, Oluwabusayo Olufunke Awoyomi, Chris Chinenye Emezue]]"
-last_author: "[[Chris Chinenye Emezue Oluwabusayo Olufunke Awoyomi]]"
-authors: "[[Bonaventure F. P. Dossou, Atnafu Lambebo Tonja, Oreen Yousuf, Salomey Osei, Abigail Oppong, Iyanuoluwa Shode, Oluwabusayo Olufunke Awoyomi, Chris Chinenye Emezue]]"
+first_author: "[[Bonaventure F. P. Dossou]]"
+last_author: "[[Chris Chinenye Emezue]]"
+authors: Bonaventure F. P. Dossou; Atnafu Lambebo Tonja; Oreen Yousuf; Salomey Osei; Abigail Oppong; Iyanuoluwa Shode; Oluwabusayo Olufunke Awoyomi; Chris Chinenye Emezue
 authors_incomplete: false
 url: "https://arxiv.org/abs/2211.03263"
 external_pdf: "https://arxiv.org/pdf/2211.03263.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Atnafu Lambebo Tonja Bonaventure F. P. Dossou]], [[Salomey Osei Oreen Yousuf]], [[Iyanuoluwa Shode Abigail Oppong]], [[Chris Chinenye Emezue Oluwabusayo Olufunke Awoyomi]]
+[[Bonaventure F. P. Dossou]], [[Atnafu Lambebo Tonja]], [[Oreen Yousuf]], [[Salomey Osei]], [[Abigail Oppong]], [[Iyanuoluwa Shode]], [[Oluwabusayo Olufunke Awoyomi]], [[Chris Chinenye Emezue]]
 
 ## Metadata
 

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language|FanarGuard: A Culturally-Aware Moderation Filter for Arabic Language Models]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language*: Affiliation: Research Institute, HBKU, Doha, Qatar
+- *From 2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language*: Affiliation: Research Institute, HBKU, Doha, Qatar
 - *From 2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language*: Affiliation: Research Institute, HBKU, Doha, Qatar
 - *From 2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language*: Affiliation: Research Institute, HBKU, Doha, Qatar
 - *From 2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language*: Affiliation: Research Institute, HBKU, Doha, Qatar

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Arif-Generalists vs Specialists Evaluating Large Language|Generalists vs Specialists Evaluating Large Language]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Arif-Generalists vs Specialists Evaluating Large Language*: Affiliation: University of Management Sciences, Email: awais@ebi.ac.uk
+- *From 2024-Arif-Generalists vs Specialists Evaluating Large Language*: Affiliation: University of Management Sciences, Email: awais@ebi.ac.uk
 - *From 2024-Arif-Generalists vs Specialists Evaluating Large Language*: Affiliation: University of Management Sciences, Email: awais@ebi.ac.uk
 - *From 2024-Arif-Generalists vs Specialists Evaluating Large Language*: Affiliation: University of Management Sciences, Email: awais@ebi.ac.uk
 - *From 2024-Arif-Generalists vs Specialists Evaluating Large Language*: Affiliation: University of Management Sciences, Email: awais@ebi.ac.uk

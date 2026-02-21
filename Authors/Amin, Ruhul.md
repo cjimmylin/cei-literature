@@ -58,9 +58,10 @@ twitter: ""
 
 
 
+
+
 - [[2025-Machlovi-GuardEval|GuardEval]]
 - [[2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a|Towards Safer AI Moderation: Evaluating LLM Moderators Through a Unified Benchmark Dataset and Advocating a Human-First Approach]] (Last Author)
-- [[2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate|BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts]] (Last Author)
 
 ## External Links & Profiles
 
@@ -89,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
+- *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
 - *From 2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate*: Affiliation: University of Science and Technology1, 2, 3, 4, Email: arnab-cse@sust.edu4
 - *From 2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate*: Affiliation: University of Science and Technology1, 2, 3, 4, Email: mosahed32@student.sust.edu2
 - *From 2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate*: Affiliation: University of Science and Technology1, 2, 3, 4, Email: saiful-cse@sust.edu3

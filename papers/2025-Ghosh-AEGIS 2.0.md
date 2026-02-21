@@ -18,7 +18,7 @@ short_title: "AEGIS 2.0"
 year: 2025
 first_author: "[[Ghosh, Shaona]]"
 last_author: "[[Parisien, Christopher]]"
-authors: "[[Ghosh, Shaona]]; [[Varshney, Prasoon]]; [[Sreedhar, Makesh Narsimhan]]; [[Padmakumar, Aishwarya]]; [[Rebedea, Traian]]; [[Varghese, Jibin Rajan]]; [[Parisien, Christopher]]"
+authors: "Ghosh, Shaona; Varshney, Prasoon; Sreedhar, Makesh Narsimhan; Padmakumar, Aishwarya; Rebedea, Traian; Varghese, Jibin Rajan; Parisien, Christopher"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.09004"
 external_pdf: "https://arxiv.org/pdf/2501.09004.pdf"

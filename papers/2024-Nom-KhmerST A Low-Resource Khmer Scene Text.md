@@ -20,7 +20,7 @@ short_title: "KhmerST A Low-Resource Khmer Scene Text"
 year: 2024
 first_author: "[[Nom, Vannkinh]]"
 last_author: "[[Ogier, Jean-Marc]]"
-authors: "[[Nom, Vannkinh]]; [[Bakkali, Souhail]]; [[Luqman, Muhammad Muzzamil]]; [[Coustaty, Mickaël]]; [[Ogier, Jean-Marc]]"
+authors: "Nom, Vannkinh; Bakkali, Souhail; Luqman, Muhammad Muzzamil; Coustaty, Mickaël; Ogier, Jean-Marc"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.18277"
 external_pdf: "https://arxiv.org/pdf/2410.18277.pdf"

@@ -15,7 +15,7 @@ short_title: "Latxa: An Open Language Model and Evaluation Suite for Basque"
 year: 2024
 first_author: "[[Etxaniz, Julen]]"
 last_author: "[[Soroa, Aitor]]"
-authors: "[[Etxaniz, Julen]]; [[Sainz, Oscar]]; [[Perez, Naiara]]; [[Aldabe, Itziar]]; [[Rigau, German]]; [[Agirre, Eneko]]; [[Ormazabal, Aitor]]; [[Artetxe, Mikel]]; [[Soroa, Aitor]]"
+authors: "Etxaniz, Julen; Sainz, Oscar; Perez, Naiara; Aldabe, Itziar; Rigau, German; Agirre, Eneko; Ormazabal, Aitor; Artetxe, Mikel; Soroa, Aitor"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.20266"
 external_pdf: "https://arxiv.org/pdf/2403.20266.pdf"

@@ -22,8 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Alwajih-Palm|Palm]]
-- [[2025-Machlovi-GuardEval|GuardEval]]
 
 ## Notes
 
@@ -32,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
 - *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
 - *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA

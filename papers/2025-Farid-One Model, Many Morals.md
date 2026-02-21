@@ -16,7 +16,7 @@ short_title: "One Model, Many Morals"
 year: 2025
 first_author: "[[Sualeha Farid]]"
 last_author: "[[Jurgens, David]]"
-authors: "[[Farid, Sualeha]]; [[Lin, Jayden]]; [[Chen, Zean]]; [[Kumar, Shivani]]; [[Jurgens, David]]"
+authors: "Farid, Sualeha; Lin, Jayden; Chen, Zean; Kumar, Shivani; Jurgens, David"
 doi: 10.48550/arXiv.2509.21443
 url: "https://arxiv.org/abs/2509.21443"
 external_pdf: "https://arxiv.org/pdf/2509.21443.pdf"

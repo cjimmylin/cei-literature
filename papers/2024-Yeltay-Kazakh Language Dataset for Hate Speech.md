@@ -16,9 +16,9 @@ key: EXSR0499
 type: preprint
 short_title: "Kazakh Language Dataset for Hate Speech"
 year: 2024
-first_author: "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]"
-last_author: "[[Zhastay Yeltay Shynar Mussiraliyeva]]"
-authors: "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]"
+first_author: "[[Milana Bolatbek]]"
+last_author: "[[Zhastay Yeltay]]"
+authors: Milana Bolatbek; Moldir Sagynay; Shynar Mussiraliyeva; Zhastay Yeltay
 authors_incomplete: false
 doi: 10.1109/ICCIA62557.2024.10719327
 url: "https://doi.org/10.1109/ICCIA62557.2024.10719327"
@@ -60,7 +60,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Moldir Sagynay Milana Bolatbek]], [[Zhastay Yeltay Shynar Mussiraliyeva]]
+[[Milana Bolatbek]], [[Moldir Sagynay]], [[Shynar Mussiraliyeva]], [[Zhastay Yeltay]]
 
 ## Metadata
 

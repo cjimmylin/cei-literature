@@ -17,7 +17,7 @@ short_title: WalledEval
 year: 2024
 first_author: "[[Gupta, Prannaya]]"
 last_author: "[[Poria, Soujanya]]"
-authors: "[[Gupta, Prannaya]]; [[Yau, Le Qi]]; [[Low, Hao Han]]; [[Lee, I-Shiang]]; [[Lim, Hugo Maximus]]; [[Teoh, Yu Xin]]; [[Koh, Jia Hng]]; [[Liew, Dar Win]]; [[Bhardwaj, Rishabh]]; [[Bhardwaj, Rajat]]; [[Poria, Soujanya]]"
+authors: "Gupta, Prannaya; Yau, Le Qi; Low, Hao Han; Lee, I-Shiang; Lim, Hugo Maximus; Teoh, Yu Xin; Koh, Jia Hng; Liew, Dar Win; Bhardwaj, Rishabh; Bhardwaj, Rajat; Poria, Soujanya"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2408.03837"
 external_pdf: "https://arxiv.org/pdf/2408.03837.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "EMNLP 2024"
 
 ## Authors
 
-[[Gupta, Prannaya]], [[Yunjia Qi|Yau, Le Qi]], [[Low, Hao Han]], [[Lee, I-Shiang]], [[Lim, Hugo Maximus]], [[Teoh, Yu Xin]], [[Koh, Jia Hng]], [[Liew, Dar Win]], [[Rishabh Bhardwaj|Bhardwaj, Rishabh]], [[Bhardwaj, Rajat]], [[Soujanya Poria|Poria, Soujanya]]
+[[Gupta, Prannaya]], [[Yau, Le Qi]], [[Low, Hao Han]], [[Lee, I-Shiang]], [[Lim, Hugo Maximus]], [[Teoh, Yu Xin]], [[Koh, Jia Hng]], [[Liew, Dar Win]], [[Rishabh Bhardwaj|Bhardwaj, Rishabh]], [[Bhardwaj, Rajat]], [[Soujanya Poria|Poria, Soujanya]]
 
 ## Metadata
 

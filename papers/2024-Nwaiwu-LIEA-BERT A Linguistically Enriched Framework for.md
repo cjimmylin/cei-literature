@@ -17,7 +17,7 @@ type: preprint
 short_title: "LIEA-BERT A Linguistically Enriched Framework for"
 year: 2024
 first_author: "[[Nwaiwu, Steve]]"
-last_author: "[[Tungkasthan, Anucha]]"
+last_author: "[[Anucha Tungkasthan]]"
 authors: Steve Nwaiwu; Nipat Jongsawat; Anucha Tungkasthan
 authors_incomplete: false
 url: "https://datasciencehub.net/paper/liea-bert-linguistically-enriched-framework-hate-speech-detection-low-resource-thai"

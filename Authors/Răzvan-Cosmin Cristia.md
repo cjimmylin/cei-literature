@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using|A Cross-Lingual Analysis of Bias in Large Language Models Using Romanian History]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using*: Affiliation: University of Bucharest, Email: cocu.matei24@yahoo.com
+- *From 2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using*: Affiliation: University of Bucharest, Email: cocu.matei24@yahoo.com
 - *From 2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using*: Affiliation: University of Bucharest, Email: cocu.matei24@yahoo.com
 - *From 2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using*: Affiliation: University of Bucharest, Email: cristiarazvan@gmail.com
 - *From 2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using*: Affiliation: University of Bucharest, Email: cocu.matei24@yahoo.com

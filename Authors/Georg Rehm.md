@@ -58,6 +58,9 @@ twitter: ""
 
 
 
+
+
+- [[2025-Barth-Multilingual European Language Models Benchmarking Approaches and|Multilingual European Language Models: Benchmarking Approaches and Challenges]] (Last Author)
 - [[2024-Rehm-Investigating Gender Bias in Turkish Language|Investigating Gender Bias in Turkish Language]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Rehm-Investigating Gender Bias in Turkish Language*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: first.lastname@dfki.de
+- *From 2024-Rehm-Investigating Gender Bias in Turkish Language*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: first.lastname@dfki.de
 - *From 2024-Rehm-Investigating Gender Bias in Turkish Language*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: first.lastname@dfki.de
 - *From 2024-Rehm-Investigating Gender Bias in Turkish Language*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: first.lastname@dfki.de
 - *From 2024-Rehm-Investigating Gender Bias in Turkish Language*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: first.lastname@dfki.de

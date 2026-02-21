@@ -18,7 +18,7 @@ short_title: "UAlign: LLM Alignment Benchmark for the Ukrainian Language"
 year: 2025
 first_author: "[[Andrian Kravchenko]]"
 last_author: "[[Nazarii Drushchak]]"
-authors: "Andrian Kravchenko, Yurii Paniv, Nazarii Drushchak"
+authors: Andrian Kravchenko; Yurii Paniv; Nazarii Drushchak
 url: "https://aclanthology.org/2025.unlp-1.4.pdf"
 external_pdf: "https://aclanthology.org/2025.unlp-1.4.pdf"
 publication: "ACL Anthology (UNLP 2025)"

@@ -81,7 +81,7 @@ Large AI models, or foundation models, are models recently emerging with massive
 
 ## Authors
 
-[[Jianing Qiu]], [[Lin Li]], [[Jiankai Sun]], [[Jiachuan Peng]], [[Peilun Shi]], [[Ruiyang Zhang]], [[Yinzhao Dong]], [[Kyle Lam]], [[Frank P.-W. Lo|Frank P. -W. Lo]], [[Bo Xiao]], [[Wu Yuan]], [[Ningli Wang]], [[Dong Xu]], [[Benny Lo]]
+[[Jianing Qiu]], [[Lin Li]], [[Jiankai Sun]], [[Jiachuan Peng]], [[Peilun Shi]], [[Ruiyang Zhang]], [[Yinzhao Dong]], [[Kyle Lam]], [[Frank P. -W. Lo]], [[Bo Xiao]], [[Wu Yuan]], [[Ningli Wang]], [[Dong Xu]], [[Benny Lo]]
 
 ## Data Description
 

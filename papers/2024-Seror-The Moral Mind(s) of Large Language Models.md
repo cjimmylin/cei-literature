@@ -15,9 +15,9 @@ key: AUTO_SEROR2024
 type: preprint
 short_title: "The Moral Mind(s) of Large Language Models"
 year: 2024
-first_author: "[[Avner Seror]]"
-last_author: "[[Avner Seror]]"
-authors: "[[Seror, Avner]]"
+first_author: "[[Seror]]"
+last_author: "[[Avner]]"
+authors: Seror; Avner
 doi: 10.48550/arXiv.2412.04476
 url: "https://arxiv.org/abs/2412.04476"
 external_pdf: "https://arxiv.org/pdf/2412.04476.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Avner Seror]]
+[[Seror]], [[Avner]]
 
 ## Links
 

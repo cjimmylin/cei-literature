@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive|A Structured Framework for Evaluating and Enhancing Interpretive Capabilities of Multimodal LLMs in Culturally Situated Tasks]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive*: Affiliation: University of Dundee, United Kingdom, Email: qxy953@student.bham.ac.uk
+- *From 2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive*: Affiliation: University of Dundee, United Kingdom, Email: qxy953@student.bham.ac.uk
 - *From 2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive*: Affiliation: University of Dundee, United Kingdom, Email: qxy953@student.bham.ac.uk
 - *From 2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive*: Affiliation: University of Dundee, United Kingdom, Email: qxy953@student.bham.ac.uk
 - *From 2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive*: Affiliation: University of Dundee, United Kingdom, Email: qxy953@student.bham.ac.uk

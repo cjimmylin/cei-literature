@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local|NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages]]
 - [[2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language|IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP]]
 
@@ -88,6 +90,10 @@ twitter: ""
 
 
 
+
+
+- *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: tb@ldwin.net
+- *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: tb@ldwin.net
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: ffajri@student.unimelb.edu.au
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: tb@ldwin.net
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: jeyhan.lau@gmail.com

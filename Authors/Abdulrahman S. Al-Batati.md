@@ -33,6 +33,8 @@ Abdulrahman's work is centered on the linguistic diversity of the Arab world. He
 
 
 
+
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
@@ -41,6 +43,10 @@ Abdulrahman's work is centered on the linguistic diversity of the Arab world. He
 
 
 
+
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

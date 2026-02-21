@@ -16,7 +16,7 @@ short_title: "SinLlama: A Large Language Model for Sinhala"
 year: 2025
 first_author: "[[Aravinda, H. W. K.]]"
 last_author: "[[Kaur, Rishemjit]]"
-authors: "[[Aravinda, H. W. K.]]; [[Sirajudeen, Rashad]]; [[Karunathilake, Samith]]; [[de Silva, Nisansa]]; [[Ranathunga, Surangika]]; [[Kaur, Rishemjit]]"
+authors: "Aravinda, H. W. K.; Sirajudeen, Rashad; Karunathilake, Samith; de Silva, Nisansa; Ranathunga, Surangika; Kaur, Rishemjit"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.09115"
 external_pdf: "https://arxiv.org/pdf/2508.09115.pdf"

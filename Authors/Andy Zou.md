@@ -23,6 +23,8 @@ Andy Zou is a PhD student at Carnegie Mellon University working in the area of M
 
 
 
+
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language|D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models]]
@@ -57,6 +59,10 @@ His research has significant implications for AI safety, as he argues there shou
 
 
 
+
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu

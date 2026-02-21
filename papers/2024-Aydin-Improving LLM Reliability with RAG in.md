@@ -19,9 +19,9 @@ key: EXSR0490
 type: preprint
 short_title: "Improving LLM Reliability with RAG in"
 year: 2024
-first_author: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"
+first_author: "[[Ahmet Yusuf Alan]]"
 last_author: "[[Omer Aydin]]"
-authors: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"
+authors: Ahmet Yusuf Alan; Enis Karaarslan; Omer Aydin
 authors_incomplete: false
 url: "https://arxiv.org/abs/2401.15378"
 external_pdf: "https://arxiv.org/pdf/2401.15378.pdf"

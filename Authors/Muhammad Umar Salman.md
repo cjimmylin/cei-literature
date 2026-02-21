@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset|Quran-MD A Fine-Grained Multilingual Multimodal Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset*: Affiliation: lable at https:, Email: mohammed.alam@mbzuai.ac.ae
+- *From 2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset*: Affiliation: lable at https:, Email: mohammed.alam@mbzuai.ac.ae
 - *From 2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset*: Affiliation: lable at https:, Email: umar.salman@mbzuai.ac.ae
 - *From 2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset*: Affiliation: lable at https:, Email: mohammad.qazi@mbzuai.ac.ae
 - *From 2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset*: Affiliation: lable at https:, Email: mohammad.qazi@mbzuai.ac.ae

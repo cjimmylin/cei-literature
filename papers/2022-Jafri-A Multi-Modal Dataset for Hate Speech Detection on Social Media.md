@@ -17,7 +17,7 @@ short_title: "A Multi-Modal Dataset for Hate Speech Detection on Social Media: C
 year: 2022
 first_author: "[[Thapa, Surendrabikram]]"
 last_author: "[[Razzak, Imran]]"
-authors: "[[Thapa, Surendrabikram]]; [[Shah, Aditya]]; [[Jafri, Farhan]]; [[Naseem, Usman]]; [[Razzak, Imran]]"
+authors: "Thapa, Surendrabikram; Shah, Aditya; Jafri, Farhan; Naseem, Usman; Razzak, Imran"
 authors_incomplete: false
 doi: 10.18653/v1/2022.case-1.1
 url: "https://aclanthology.org/2022.case-1.1/"
@@ -54,7 +54,7 @@ CONFERENCE: "ACL 2022"
 
 ## Authors
 
-[[Thapa, Surendrabikram]], [[Shivam Aditya|Shah, Aditya]], [[Jafri, Farhan]], [[Naseem, Usman]], [[Razzak, Imran]]
+[[Thapa, Surendrabikram]], [[Shah, Aditya]], [[Jafri, Farhan]], [[Naseem, Usman]], [[Razzak, Imran]]
 
 ## Metadata
 

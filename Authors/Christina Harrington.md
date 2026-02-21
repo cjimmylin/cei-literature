@@ -37,6 +37,8 @@ Dr. Christina N. Harrington is an Assistant Professor in the Human-Computer Inte
 
 
 
+
+
 - [[2023-Harrington-I'm Fully Who I Am|I'm Fully Who I Am]] (First Author)
 
 ## External Links & Profiles
@@ -52,6 +54,10 @@ Dr. Christina N. Harrington is an Assistant Professor in the Human-Computer Inte
 
 
 
+
+
+- *From 2023-Harrington-I'm Fully Who I Am*: Affiliation: Centering Transgender and, Email: rzemel@amazon.com
+- *From 2023-Harrington-I'm Fully Who I Am*: Affiliation: Centering Transgender and, Email: rzemel@amazon.com
 - *From 2023-Harrington-I'm Fully Who I Am*: Affiliation: Centering Transgender and, Email: anaelia@cs.ucla.edu
 - *From 2023-Harrington-I'm Fully Who I Am*: Affiliation: Centering Transgender and, Email: anaelia@cs.ucla.edu
 - *From 2023-Harrington-I'm Fully Who I Am*: Affiliation: Centering Transgender and, Email: anaelia@cs.ucla.edu

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of|AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages]] (Last Author)
 - [[2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas|Thrid Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP)]] (Last Author)
 - [[2023-Mager-Neural Machine Translation for the Indigenous Languages of the|Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction.]] (Last Author)
@@ -85,6 +87,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
+- *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 - *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

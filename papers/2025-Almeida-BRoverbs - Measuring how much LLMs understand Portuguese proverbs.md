@@ -16,7 +16,7 @@ short_title: BRoverbs -- Measuring how much LLMs understand Portuguese proverbs
 year: 2025
 first_author: "[[Thales Sales Almeida]]"
 last_author: "[[João Guilherme Alves Santos]]"
-authors: Thales Sales Almeida, Giovana Kerche Bonás, João Guilherme Alves Santos
+authors: Thales Sales Almeida; Giovana Kerche Bonás; João Guilherme Alves Santos
 url: "https://arxiv.org/abs/2509.08960"
 external_pdf: "https://arxiv.org/pdf/2509.08960.pdf"
 publication: arXiv / Journal of the Brazilian Computer Society

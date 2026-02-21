@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate|Spanning the Spectrum of Hatred Detection: A Persian Multi-Label Hate Speech Dataset with Annotator Rationales (Phate)]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: pilehvarmt@cardiff.ac.uk
+- *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: pilehvarmt@cardiff.ac.uk
 - *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: n.s.moosavi@sheffield.ac.uk
 - *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: z.delbari@khatam.ac.ir
 - *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: pilehvarmt@cardiff.ac.uk

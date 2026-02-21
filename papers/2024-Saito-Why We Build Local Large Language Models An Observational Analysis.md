@@ -15,8 +15,8 @@ type: preprint
 short_title: "Why We Build Local Large Language Models: An Observational Analysis from 35 Japanese and Multilingual LLMs"
 year: 2024
 first_author: "[[Koshiro Saito]]"
-last_author: "[[Naoaki Okazaki Rio Yokota]]"
-authors: Koshiro Saito, Sakae Mizuki, Masanari Ohi, Taishi Nakamura, Taihei Shiotani, Koki Maeda, Youmi Ma, Kakeru Hattori, Kazuki Fujii, Takumi Okamoto, Shigeki Ishida, Hiroya Takamura, Rio Yokota, Naoaki Okazaki
+last_author: "[[Naoaki Okazaki]]"
+authors: Koshiro Saito; Sakae Mizuki; Masanari Ohi; Taishi Nakamura; Taihei Shiotani; Koki Maeda; Youmi Ma; Kakeru Hattori; Kazuki Fujii; Takumi Okamoto; Shigeki Ishida; Hiroya Takamura; Rio Yokota; Naoaki Okazaki
 url: "https://arxiv.org/abs/2412.14471"
 external_pdf: "https://arxiv.org/pdf/2412.14471.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Sakae Mizuki Koshiro Saito]], [[Taishi Nakamura Masanari Ohi]], [[Koki Maeda Taihei Shiotani]], [[Kakeru Hattori Youmi Ma]], [[Takumi Okamoto Kazuki Fujii]], [[Hiroya Takamura Shigeki Ishida]], [[Naoaki Okazaki Rio Yokota]]
+[[Koshiro Saito]], [[Sakae Mizuki]], [[Masanari Ohi]], [[Taishi Nakamura]], [[Taihei Shiotani]], [[Koki Maeda]], [[Youmi Ma]], [[Kakeru Hattori]], [[Kazuki Fujii]], [[Takumi Okamoto]], [[Shigeki Ishida]], [[Hiroya Takamura]], [[Rio Yokota]], [[Naoaki Okazaki]]
 
 ## Metadata
 

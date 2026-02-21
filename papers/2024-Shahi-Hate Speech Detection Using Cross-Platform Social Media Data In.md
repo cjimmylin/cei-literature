@@ -15,8 +15,8 @@ type: preprint
 short_title: "Hate Speech Detection Using Cross-Platform Social Media Data In English and German Language"
 year: 2024
 first_author: "[[Gautam Kishore Shahi]]"
-last_author: "[[Tim A. Majchrzak Gautam Kishore Shahi]]"
-authors: "Gautam Kishore Shahi, Tim A. Majchrzak"
+last_author: "[[Tim A. Majchrzak]]"
+authors: Gautam Kishore Shahi; Tim A. Majchrzak
 url: "https://arxiv.org/abs/2410.05287"
 external_pdf: "https://arxiv.org/pdf/2410.05287.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Tim A. Majchrzak Gautam Kishore Shahi]]
+[[Gautam Kishore Shahi]], [[Tim A. Majchrzak]]
 
 ## Metadata
 

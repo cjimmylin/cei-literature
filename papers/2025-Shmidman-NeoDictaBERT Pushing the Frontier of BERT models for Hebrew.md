@@ -16,8 +16,8 @@ type: preprint
 short_title: "NeoDictaBERT: Pushing the Frontier of BERT models for Hebrew"
 year: 2025
 first_author: "[[Shaltiel Shmidman]]"
-last_author: "[[Moshe Koppel Amir DN Cohen]]"
-authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
+last_author: "[[Moshe Koppel]]"
+authors: Shaltiel Shmidman; Avi Shmidman; Amir DN Cohen; Moshe Koppel
 url: "https://arxiv.org/abs/2510.20386"
 external_pdf: "https://arxiv.org/pdf/2510.20386.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shmidman-NeoDictaBERT Pushing the Frontier of BERT models for Hebrew.md"
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Avi Shmidman Shaltiel Shmidman]], [[Moshe Koppel Amir DN Cohen]]
+[[Shaltiel Shmidman]], [[Avi Shmidman]], [[Amir DN Cohen]], [[Moshe Koppel]]
 
 ## Metadata
 

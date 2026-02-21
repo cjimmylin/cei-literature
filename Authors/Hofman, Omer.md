@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and|MAPS: A Multilingual Benchmark for Global Agent Performance and Security]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
+- *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Mager-Neural Machine Translation for the Indigenous Languages of the|Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction.]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
+- *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 - *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 - *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 - *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder

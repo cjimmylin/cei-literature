@@ -16,7 +16,7 @@ short_title: An Improved Traditional Chinese Evaluation Suite for Foundation Mod
 year: 2024
 first_author: "[[Zhi-Rui Tam]]"
 last_author: "[[Hong-Han Shuai]]"
-authors: Zhi-Rui Tam, Ya-Ting Pai, Yen-Wei Lee, Jun-Da Chen, Wei-Min Chu, Sega Cheng, Hong-Han Shuai
+authors: Zhi-Rui Tam; Ya-Ting Pai; Yen-Wei Lee; Jun-Da Chen; Wei-Min Chu; Sega Cheng; Hong-Han Shuai
 url: "https://arxiv.org/abs/2403.01858"
 external_pdf: "https://arxiv.org/pdf/2403.01858.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Zhi-Rui Tam]], [[Ya-Ting Pai]], [[Yeongheon Lee|Yen-Wei Lee]], [[Jun-Da Chen]], [[Wei-Min Chu]], [[Sunny Yu Myra Cheng|Sega Cheng]], [[Hong-Han Shuai]]
+[[Zhi-Rui Tam]], [[Ya-Ting Pai]], [[Yen-Wei Lee]], [[Jun-Da Chen]], [[Wei-Min Chu]], [[Sega Cheng]], [[Hong-Han Shuai]]
 
 ## Metadata
 

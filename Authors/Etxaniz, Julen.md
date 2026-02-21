@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque|Latxa: An Open Language Model and Evaluation Suite for Basque]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
+- *From 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Wiyono-IndoPref|IndoPref]]
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]] (Last Author)
@@ -36,6 +38,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: ayu@stei.itb.ac.id
+- *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: ayu@stei.itb.ac.id
 - *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: razifrizqullah@gmail.com
 - *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: alham.fikri@mbzuai.ac.ae
 - *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: razifrizqullah@gmail.com

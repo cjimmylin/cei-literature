@@ -19,7 +19,7 @@ short_title: "BERTimbau: Pretrained BERT Models for Brazilian Portuguese"
 year: 2020
 first_author: "[[Fábio Souza]]"
 last_author: "[[Roberto Lotufo]]"
-authors: "Fábio Souza, Rodrigo Nogueira, Roberto Lotufo"
+authors: Fábio Souza; Rodrigo Nogueira; Roberto Lotufo
 url: "https://www.researchgate.net/publication/345395208_BERTimbau_Pretrained_BERT_Models_for_Brazilian_Portuguese"
 publication: "BRACIS 2020"
 CONF-CC: "N/A"

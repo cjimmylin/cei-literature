@@ -18,7 +18,7 @@ short_title: "No Language Data Left Behind: A Comparative Study of CJK Language 
 year: 2025
 first_author: "[[Choi, Dasol]]"
 last_author: "[[Song, Youngsook]]"
-authors: "[[Choi, Dasol]]; [[Park, Woomyoung]]; [[Song, Youngsook]]"
+authors: "Choi, Dasol; Park, Woomyoung; Song, Youngsook"
 authors_incomplete: false
 url: "https://arxiv.org/html/2507.04329v1"
 external_pdf: "https://arxiv.org/pdf/2507.04329.pdf"

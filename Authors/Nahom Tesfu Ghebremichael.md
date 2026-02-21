@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Abdul-Mageed-Where Are We Evaluating LLM Performance|Where Are We Evaluating LLM Performance]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
+- *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia

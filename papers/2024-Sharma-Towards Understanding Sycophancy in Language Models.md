@@ -17,7 +17,7 @@ short_title: "Towards Understanding Sycophancy in Language Models"
 year: 2024
 first_author: "[[Sharma, Mrinank]]"
 last_author: "[[Perez, Ethan]]"
-authors: "[[Sharma, Mrinank]]; [[Tong, Meg]]; [[Korbak, Tomasz]]; [[Duvenaud, David]]; [[Askell, Amanda]]; [[Bowman, Samuel R.]]; [[Cheng, Newton]]; [[Durmus, Esin]]; [[Hatfield-Dodds, Zac]]; [[Johnston, Scott R.]]; [[Kravec, Shauna]]; [[Maxwell, Timothy]]; [[McCandlish, Sam]]; [[Ndousse, Kamal]]; [[Rausch, Oliver]]; [[Schiefer, Nicholas]]; [[Yan, Da]]; [[Zhang, Miranda]]; [[Perez, Ethan]]"
+authors: "Sharma, Mrinank; Tong, Meg; Korbak, Tomasz; Duvenaud, David; Askell, Amanda; Bowman, Samuel R.; Cheng, Newton; Durmus, Esin; Hatfield-Dodds, Zac; Johnston, Scott R.; Kravec, Shauna; Maxwell, Timothy; McCandlish, Sam; Ndousse, Kamal; Rausch, Oliver; Schiefer, Nicholas; Yan, Da; Zhang, Miranda; Perez, Ethan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2310.13548"
 external_pdf: "https://arxiv.org/pdf/2310.13548.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "ICLR 2024"
 
 ## Authors
 
-[[Sharma, Mrinank]], [[Tong, Meg]], [[Tomasz Korbak|Korbak, Tomasz]], [[Davis David|Duvenaud, David]], [[Amanda Askell|Askell, Amanda]], [[Bowman, Samuel R]], [[Cheng, Newton]], [[Esin Durmus|Durmus, Esin]], [[Zac Hatfield-Dodds|Hatfield-Dodds, Zac]], [[Johnston, Scott R]], [[Shauna Kravec|Kravec, Shauna]], [[Maxwell, Timothy]], [[Sam McCandlish|McCandlish, Sam]], [[Kamal Ndousse|Ndousse, Kamal]], [[Rausch, Oliver]], [[Nicholas Schiefer|Schiefer, Nicholas]], [[Yan, Da]], [[Zhang, Miranda]], [[Ethan Perez|Perez, Ethan]]
+[[Sharma, Mrinank]], [[Tong, Meg]], [[Tomasz Korbak|Korbak, Tomasz]], [[Duvenaud, David]], [[Askell, Amanda]], [[Bowman, Samuel R]], [[Cheng, Newton]], [[Durmus, Esin]], [[Hatfield-Dodds, Zac]], [[Johnston, Scott R]], [[Shauna Kravec|Kravec, Shauna]], [[Maxwell, Timothy]], [[McCandlish, Sam]], [[Kamal Ndousse|Ndousse, Kamal]], [[Rausch, Oliver]], [[Schiefer, Nicholas]], [[Yan, Da]], [[Zhang, Miranda]], [[Ethan Perez|Perez, Ethan]]
 
 ## Metadata
 

@@ -18,7 +18,7 @@ short_title: "BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (M
 year: 2025
 first_author: "[[McGregor, Sean]]"
 last_author: "[[Frase, Heather]]"
-authors: "[[McGregor, Sean]]; [[Lu, Victor]]; [[Tashev, Vassil]]; [[Foundjem, Armstrong]]; [[Ramasethu, Aishwarya]]; [[Zarkouei, Sadegh AlMahdi Kazemi]]; [[Knotz, Chris]]; [[Chen, Kongtao]]; [[Parrish, Alicia]]; [[Reuel, Anka]]; [[Frase, Heather]]"
+authors: "McGregor, Sean; Lu, Victor; Tashev, Vassil; Foundjem, Armstrong; Ramasethu, Aishwarya; Zarkouei, Sadegh AlMahdi Kazemi; Knotz, Chris; Chen, Kongtao; Parrish, Alicia; Reuel, Anka; Frase, Heather"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.21460"
 external_pdf: "https://arxiv.org/pdf/2510.21460.pdf"

@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Zheng-SYCON Bench|SYCON Bench]]
 - [[2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean|KMMLU: Measuring Massive Multitask Language Understanding in Korean]]
 
@@ -90,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
+- *From 2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr

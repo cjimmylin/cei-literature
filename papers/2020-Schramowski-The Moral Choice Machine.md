@@ -17,7 +17,7 @@ short_title: "The Moral Choice Machine"
 year: 2020
 first_author: "[[Patrick Schramowski]]"
 last_author: "[[Kersting, Kristian]]"
-authors: "[[Schramowski, Patrick]]; [[Turan, Cigdem]]; [[Jentzsch, Sophie]]; [[Rothkopf, Constantin]]; [[Kersting, Kristian]]"
+authors: "Schramowski, Patrick; Turan, Cigdem; Jentzsch, Sophie; Rothkopf, Constantin; Kersting, Kristian"
 doi: 10.3389/frai.2020.00036
 url: "https://www.frontiersin.org/article/10.3389/frai.2020.00036/full"
 pdf_extract: "PDF Extracts/2020/2020-Schramowski-The Moral Choice Machine.md"

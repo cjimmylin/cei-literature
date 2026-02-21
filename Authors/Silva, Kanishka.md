@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset|SOLD: Sinhala Offensive Language Dataset]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset*: Affiliation: University, Birmingham, UK, Email: t.ranasinghe@aston.ac.uk
+- *From 2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset*: Affiliation: University, Birmingham, UK, Email: t.ranasinghe@aston.ac.uk
 - *From 2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset*: Affiliation: University, Birmingham, UK, Email: t.ranasinghe@aston.ac.uk
 - *From 2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset*: Affiliation: University, Birmingham, UK, Email: t.ranasinghe@aston.ac.uk
 - *From 2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset*: Affiliation: University, Birmingham, UK, Email: t.ranasinghe@aston.ac.uk

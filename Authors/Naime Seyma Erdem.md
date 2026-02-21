@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource|Evaluating the Quality of Benchmark Datasets for Low-Resource Languages: A Case Study on Turkish]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource*: Affiliation: University, Computer Engineering Department, Email: 4busratufan@hacettepe.edu.tr
+- *From 2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource*: Affiliation: University, Computer Engineering Department, Email: 4busratufan@hacettepe.edu.tr
 - *From 2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource*: Affiliation: University, Computer Engineering Department, Email: 5abdullah.topraksoy@istanbul.edu.tr
 - *From 2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource*: Affiliation: University, Computer Engineering Department, Email: 5abdullah.topraksoy@istanbul.edu.tr
 - *From 2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource*: Affiliation: University, Computer Engineering Department, Email: 4busratufan@hacettepe.edu.tr

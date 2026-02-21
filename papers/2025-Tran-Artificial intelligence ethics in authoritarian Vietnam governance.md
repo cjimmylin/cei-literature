@@ -16,7 +16,7 @@ type: conferencePaper
 short_title: "Artificial intelligence ethics in authoritarian Vietnam: governance, trust, and societal tensions"
 year: 2025
 first_author: "[[Tran, Huong T.]]"
-last_author: "[[Nguyen, P. V.]]"
+last_author: "[[P. V. Nguyen]]"
 authors: Huong T. Tran; B. H. Dang; Mai T. T. Nguyen; Q. Pham; P. V. Nguyen
 doi: 10.1080/25741292.2025.2529625
 url: "https://www.tandfonline.com/doi/full/10.1080/25741292.2025.2529625"
@@ -52,7 +52,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Unknown (Taylor & Francis article)]]
+[[Huong T. Tran]], [[B. H. Dang]], [[Mai T. T. Nguyen]], [[Q. Pham]], [[P. V. Nguyen]]
 
 ## Metadata
 

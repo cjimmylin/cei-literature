@@ -18,7 +18,7 @@ short_title: "One Ruler to Measure Them All: Benchmarking Multilingual Long-Cont
 year: 2025
 first_author: "[[University of Maryland]]"
 last_author: "[[UMass Amherst]]"
-authors: "University of Maryland, Microsoft, UMass Amherst"
+authors: University of Maryland; Microsoft; UMass Amherst
 url: "https://arxiv.org/abs/2503.01996"
 external_pdf: "https://arxiv.org/pdf/2503.01996.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context.md"

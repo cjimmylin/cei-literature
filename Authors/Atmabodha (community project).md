@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[0000-project-Vedanta Datasets|Vedanta Datasets]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 0000-project-Vedanta Datasets*: Affiliation: Institute of the Novartis Research Foundation, 10675 John Jay Hopkins Drive, San Diego, CA 92121, USA, Email: schanda@sbpdiscovery.org
+- *From 0000-project-Vedanta Datasets*: Affiliation: Institute of the Novartis Research Foundation, 10675 John Jay Hopkins Drive, San Diego, CA 92121, USA, Email: schanda@sbpdiscovery.org
 - *From 0000-project-Vedanta Datasets*: Affiliation: Institute of the Novartis Research Foundation, 10675 John Jay Hopkins Drive, San Diego, CA 92121, USA, Email: schanda@sbpdiscovery.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -17,7 +17,7 @@ short_title: "Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluat
 year: 2024
 first_author: "[[Sang Truong]]"
 last_author: "[[Sanmi Koyejo]]"
-authors: "Sang Truong, Duc Nguyen, Toan Nguyen, Dong Le, Nhi Truong, Tho Quan, Sanmi Koyejo"
+authors: Sang Truong; Duc Nguyen; Toan Nguyen; Dong Le; Nhi Truong; Tho Quan; Sanmi Koyejo
 url: "https://aclanthology.org/2024.findings-naacl.182/"
 external_pdf: "https://arxiv.org/pdf/2403.02715.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.md"
@@ -53,7 +53,7 @@ CONFERENCE: "ACL 2024"
 
 ## Authors
 
-[[Sang T. Truong|Sang Truong]], [[Duc Nguyen]], [[Toan Nguyen]], [[Dong Le]], [[Nhi Truong]], [[Tho Quan]], [[Sanmi Koyejo]]
+[[Sang Truong]], [[Duc Nguyen]], [[Toan Nguyen]], [[Dong Le]], [[Nhi Truong]], [[Tho Quan]], [[Sanmi Koyejo]]
 
 ## Metadata
 

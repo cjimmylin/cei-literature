@@ -33,10 +33,13 @@ Dr. Idris Abdulmumin is affiliated with the Computer Science Department at Ahmad
 
 
 
+
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
 - [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]]
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 - [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]]
+- [[2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus|NaijaSenti A Nigerian Twitter Sentiment Corpus]]
 
 ## Notes
 
@@ -45,6 +48,10 @@ Dr. Idris Abdulmumin is affiliated with the Computer Science Department at Ahmad
 
 
 
+
+
+- *From 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus*: Affiliation: Faculty of Sciences-University of Porto, Portugal
+- *From 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus*: Affiliation: Faculty of Sciences-University of Porto, Portugal
 - *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 - *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 - *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng

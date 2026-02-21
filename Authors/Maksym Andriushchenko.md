@@ -24,6 +24,8 @@ Maksym Andriushchenko is a Principal Investigator at the ELLIS Institute Tübing
 
 
 
+
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]] (First Author)
 - [[2024-Chao-JBB-Behaviours|JBB-Behaviours]]
 - [[2021-Croce-RobustBench|RobustBench]]
@@ -35,6 +37,10 @@ Maksym Andriushchenko is a Principal Investigator at the ELLIS Institute Tübing
 
 
 
+
+
+- *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
+- *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor

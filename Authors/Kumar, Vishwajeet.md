@@ -61,6 +61,10 @@ twitter: ""
 
 
 
+
+
+
+
 - [[2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to|Indic-QA Benchmark A Multilingual Benchmark to]]
 
 ## External Links & Profiles
@@ -93,6 +97,14 @@ twitter: ""
 
 
 
+
+
+
+
+- *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
+- *From 2025-Verma-MILU A Multi-task Indic Language Understanding*: Affiliation: Centre at AI4Bharat
+- *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
+- *From 2025-Verma-MILU A Multi-task Indic Language Understanding*: Affiliation: Centre at AI4Bharat
 - *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
 - *From 2025-Verma-MILU A Multi-task Indic Language Understanding*: Affiliation: Centre at AI4Bharat
 - *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India

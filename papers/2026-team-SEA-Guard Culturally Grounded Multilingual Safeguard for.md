@@ -18,7 +18,7 @@ short_title: "SEA-Guard Culturally Grounded Multilingual Safeguard for"
 year: 2026
 first_author: "[[team, AI Singapore]]"
 last_author: "[[AI Singapore team]]"
-authors: "[[AI Singapore team]]"
+authors: AI Singapore team
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.01618"
 external_pdf: "https://arxiv.org/pdf/2602.01618.pdf"

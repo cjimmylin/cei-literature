@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural|IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
+- *From 2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology

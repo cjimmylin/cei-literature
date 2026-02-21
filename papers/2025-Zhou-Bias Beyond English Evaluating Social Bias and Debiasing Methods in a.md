@@ -17,7 +17,7 @@ short_title: "Bias Beyond English: Evaluating Social Bias and Debiasing Methods 
 year: 2025
 first_author: "[[Zhou, Ej]]"
 last_author: "[[Lu, Weiming]]"
-authors: "[[Zhou, Ej]]; [[Lu, Weiming]]"
+authors: "Zhou, Ej; Lu, Weiming"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.11183"
 external_pdf: "https://arxiv.org/pdf/2504.11183.pdf"

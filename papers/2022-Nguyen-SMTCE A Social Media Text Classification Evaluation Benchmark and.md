@@ -16,7 +16,7 @@ short_title: "SMTCE: A Social Media Text Classification Evaluation Benchmark and
 year: 2022
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
-authors: "Luan Thanh Nguyen, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"
+authors: Luan Thanh Nguyen; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen
 url: "https://aclanthology.org/2022.paclic-1.31/"
 external_pdf: "https://arxiv.org/pdf/2209.10482.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.md"
@@ -52,7 +52,7 @@ CONFERENCE: "ACL 2022"
 
 ## Authors
 
-[[Long Nguyen|Luan Thanh Nguyen]], [[Kiet Van Nguyen]], [[Ngan Luu-Thuy Nguyen]]
+[[Luan Thanh Nguyen]], [[Kiet Van Nguyen]], [[Ngan Luu-Thuy Nguyen]]
 
 ## Metadata
 

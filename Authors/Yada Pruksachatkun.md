@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2021-Dhamala-BOLD|BOLD]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
+- *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 - *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 - *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 - *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.

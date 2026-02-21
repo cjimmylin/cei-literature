@@ -18,7 +18,7 @@ type: conferencePaper
 short_title: "Available hate speech datasets for Arabic. | Download Scientific Diagram"
 year: 2024
 first_author: "[[Charfi, Anis]]"
-last_author: "[[Zaghouani, Wajdi]]"
+last_author: "[[Wajdi Zaghouani]]"
 authors: Anis Charfi; Mabrouka Besghaier; Raghda Akasheh; Andria Atalla; Wajdi Zaghouani
 authors_incomplete: false
 url: "https://www.researchgate.net/figure/Available-hate-speech-datasets-for-Arabic_tbl1_381031629"

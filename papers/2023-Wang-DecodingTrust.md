@@ -73,7 +73,7 @@ Generative Pre-trained Transformer (GPT) models have exhibited exciting progress
 
 ## Authors
 
-[[Boxin Wang]], [[Wei Chen|Weixin Chen]], [[Hengzhi Pei]], [[Chulin Xie]], [[Mintong Kang]], [[Chenhui Zhang]], [[Chejian Xu]], [[Zexuan Xiong|Zidi Xiong]], [[Ritik Dutta]], [[Rylan Schaeffer]], [[Sang T. Truong]], [[Simran Arora]], [[Mantas Mazeika]], [[Dan Hendrycks]], [[Zinan Lin]], [[Yu Cheng]], [[Sanmi Koyejo]], [[Dawn Song]], [[Bo Li]]
+[[Boxin Wang]], [[Weixin Chen]], [[Hengzhi Pei]], [[Chulin Xie]], [[Mintong Kang]], [[Chenhui Zhang]], [[Chejian Xu]], [[Zidi Xiong]], [[Ritik Dutta]], [[Rylan Schaeffer]], [[Sang T. Truong]], [[Simran Arora]], [[Mantas Mazeika]], [[Dan Hendrycks]], [[Zinan Lin]], [[Yu Cheng]], [[Sanmi Koyejo]], [[Dawn Song]], [[Bo Li]]
 
 ## Data Description
 

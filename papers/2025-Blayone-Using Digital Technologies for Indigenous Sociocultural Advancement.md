@@ -16,7 +16,7 @@ short_title: "Using Digital Technologies for Indigenous Sociocultural Advancemen
 year: 2025
 first_author: "[[Todd J.B. Blayone]]"
 last_author: "[[Olena Mykhailenko]]"
-authors: Todd J.B. Blayone, Olena Mykhailenko
+authors: Todd J.B. Blayone; Olena Mykhailenko
 doi: 10.1515/pdtc-2024-0086
 url: "https://www.degruyterbrill.com/document/doi/10.1515/pdtc-2024-0086/html"
 publication: "De Gruyter Preservation, Digital Technology & Culture"
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Todd J.B. Blayone, Olena Mykhailenko]]
+[[Todd J.B. Blayone]], [[Olena Mykhailenko]]
 
 ## Metadata
 

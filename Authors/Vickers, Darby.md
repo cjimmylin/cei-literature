@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Smith-Living Well with AI|Living Well with AI]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Smith-Living Well with AI*: Affiliation: University of San Diego
+- *From 2024-Smith-Living Well with AI*: Affiliation: University of San Diego
 - *From 2024-Smith-Living Well with AI*: Affiliation: University of San Diego
 - *From 2024-Smith-Living Well with AI*: Affiliation: University of San Diego
 - *From 2024-Smith-Living Well with AI*: Affiliation: University of San Diego

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns|A Multi-Orthography Parallel Corpus of Yiddish Nouns]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns*:, Email: jonnesaleva@brandeis.edu
+- *From 2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns*:, Email: jonnesaleva@brandeis.edu
 - *From 2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns*:, Email: jonnesaleva@brandeis.edu
 - *From 2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns*:, Email: jonnesaleva@brandeis.edu
 - *From 2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns*:, Email: jonnesaleva@brandeis.edu

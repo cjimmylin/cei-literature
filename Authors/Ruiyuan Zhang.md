@@ -22,6 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
+- [[2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong|HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong]]
 - [[2025-Ju-NaVAB|NaVAB]]
 
 ## Notes
@@ -31,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong*: Affiliation: Academy of Interdisciplinary Studies, The Hong Kong University of Science and Technology, Hong Kong SAR, Ch
+- *From 2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong*: Affiliation: Academy of Interdisciplinary Studies, The Hong Kong University of Science and Technology, Hong Kong SAR, Ch
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk

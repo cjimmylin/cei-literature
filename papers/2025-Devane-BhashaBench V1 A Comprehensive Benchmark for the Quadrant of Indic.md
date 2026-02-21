@@ -17,7 +17,7 @@ short_title: "BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indi
 year: 2025
 first_author: "[[Devane, Vijay]]"
 last_author: "[[Ramakrishnan, Ganesh]]"
-authors: "[[Devane, Vijay]]; [[Nauman, Mohd]]; [[Patel, Bhargav]]; [[Wakchoure, Aniket Mahendra]]; [[Sant, Yogeshkumar]]; [[Pawar, Shyam]]; [[Thakur, Viraj]]; [[Godse, Ananya]]; [[Patra, Sunil]]; [[Maurya, Neha]]; [[Racha, Suraj]]; [[Singh, Nitish Kamal]]; [[Nagpal, Ajay]]; [[Sawarkar, Piyush]]; [[Pundalik, Kundeshwar Vijayrao]]; [[Saluja, Rohit]]; [[Ramakrishnan, Ganesh]]"
+authors: "Devane, Vijay; Nauman, Mohd; Patel, Bhargav; Wakchoure, Aniket Mahendra; Sant, Yogeshkumar; Pawar, Shyam; Thakur, Viraj; Godse, Ananya; Patra, Sunil; Maurya, Neha; Racha, Suraj; Singh, Nitish Kamal; Nagpal, Ajay; Sawarkar, Piyush; Pundalik, Kundeshwar Vijayrao; Saluja, Rohit; Ramakrishnan, Ganesh"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.25409"
 external_pdf: "https://arxiv.org/pdf/2510.25409.pdf"

@@ -20,7 +20,7 @@ short_title: "Multimodal Social Media Data Analysis in"
 year: 2025
 first_author: "[[Ferda Ofli]]"
 last_author: "[[Muhammad Imran]]"
-authors: "[[Ferda Ofli]]; [[Firoj Alam]]; [[Muhammad Imran]]"
+authors: Ferda Ofli; Firoj Alam; Muhammad Imran
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/392074708"
 external_pdf: "https://arxiv.org/pdf/2004.11838"

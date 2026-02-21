@@ -17,7 +17,7 @@ short_title: "All Languages Matter: On the Multilingual Safety of Large Language
 year: 2024
 first_author: "[[Wang, Wenxuan]]"
 last_author: "[[Lyu, Michael]]"
-authors: "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang]]; [[Huang, Jen-tse]]; [[Jiao, Wenxiang]]; [[Lyu, Michael]]"
+authors: "Wang, Wenxuan; Tu, Zhaopeng; Chen, Chang; Yuan, Youliang; Huang, Jen-tse; Jiao, Wenxiang; Lyu, Michael"
 authors_incomplete: false
 doi: 10.18653/v1/2024.findings-acl.349
 url: "https://arxiv.org/abs/2310.00905"

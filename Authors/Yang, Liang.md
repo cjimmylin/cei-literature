@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path|The Straight and Narrow: Do LLMs Possess an Internal Moral Path?]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path*: Affiliation: School of Future Technology, Dalian University of Technology, China
+- *From 2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path*: Affiliation: School of Future Technology, Dalian University of Technology, China
 - *From 2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path*: Affiliation: School of Future Technology, Dalian University of Technology, China
 - *From 2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path*: Affiliation: School of Future Technology, Dalian University of Technology, China
 - *From 2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path*: Affiliation: School of Future Technology, Dalian University of Technology, China

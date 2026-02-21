@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese|Introducing Bode: A Fine-Tuned Large Language Model for Portuguese Prompt-Based Task]]
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese*: Affiliation: School of Sciences, São Paulo State University, Bauru, Brazil, Email: danilo.jodas@gmail.com
+- *From 2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese*: Affiliation: School of Sciences, São Paulo State University, Bauru, Brazil, Email: danilo.jodas@gmail.com
 - *From 2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese*: Affiliation: School of Sciences, São Paulo State University, Bauru, Brazil, Email: danilo.jodas@gmail.com
 - *From 2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese*: Affiliation: School of Sciences, São Paulo State University, Bauru, Brazil, Email: danilo.jodas@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -17,7 +17,7 @@ short_title: "PoliBias (Parliamentary Voting Records)"
 year: 2026
 first_author: "[[Chen, Jieying]]"
 last_author: "[[Wang, Chendi]]"
-authors: "[[Chen, Jieying]]; [[Jong, Karen de]]; [[Poole, Andreas]]; [[Burakowski, Jan]]; [[Nosti, Elena Elderson]]; [[Windt, Joep]]; [[Wang, Chendi]]"
+authors: "Chen, Jieying; Jong, Karen de; Poole, Andreas; Burakowski, Jan; Nosti, Elena Elderson; Windt, Joep; Wang, Chendi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08785"
 external_pdf: "https://arxiv.org/pdf/2601.08785.pdf"

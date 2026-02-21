@@ -17,9 +17,9 @@ key: EXSR0438
 type: preprint
 short_title: "TIB-STC A Large-Scale Structured Tibetan Benchmark"
 year: 2025
-first_author: "[[Cheng Huang, Fan Gao, Yutong Liu, Nyima Tashi, Xiangxiang Wang, Thupten Tsering, Ban Ma-bao, Renzeg Duojie, Gadeng Luosang, Rinchen Dongrub, Dorje Tashi, Xiao Feng, Hao Wang, Yongbin Yu]]"
-last_author: "[[Yongbin Yu Hao Wang]]"
-authors: "[[Cheng Huang, Fan Gao, Yutong Liu, Nyima Tashi, Xiangxiang Wang, Thupten Tsering, Ban Ma-bao, Renzeg Duojie, Gadeng Luosang, Rinchen Dongrub, Dorje Tashi, Xiao Feng, Hao Wang, Yongbin Yu]]"
+first_author: "[[Cheng Huang]]"
+last_author: "[[Yongbin Yu]]"
+authors: Cheng Huang; Fan Gao; Yutong Liu; Nyima Tashi; Xiangxiang Wang; Thupten Tsering; Ban Ma-bao; Renzeg Duojie; Gadeng Luosang; Rinchen Dongrub; Dorje Tashi; Xiao Feng; Hao Wang; Yongbin Yu
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.18288"
 external_pdf: "https://arxiv.org/pdf/2503.18288.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Fan Gao Cheng Huang]], [[Nyima Tashi Yutong Liu]], [[Thupten Tsering Xiangxiang Wang]], [[Renzeg Duojie Ban Ma-bao]], [[Rinchen Dongrub Gadeng Luosang]], [[Xiao Feng Dorje Tashi]], [[Yongbin Yu Hao Wang]]
+[[Cheng Huang]], [[Fan Gao]], [[Yutong Liu]], [[Nyima Tashi]], [[Xiangxiang Wang]], [[Thupten Tsering]], [[Ban Ma-bao]], [[Renzeg Duojie]], [[Gadeng Luosang]], [[Rinchen Dongrub]], [[Dorje Tashi]], [[Xiao Feng]], [[Hao Wang]], [[Yongbin Yu]]
 
 ## Metadata
 

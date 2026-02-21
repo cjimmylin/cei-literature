@@ -18,7 +18,7 @@ short_title: "TUMLU A Unified and Native Language"
 year: 2025
 first_author: "[[Ibrohimov, Jamshid]]"
 last_author: "[[Barov, Ceferis]]"
-authors: "[[Ibrohimov, Jamshid]]; [[Mirzakhalov, Jamoliddin]]; [[Abdullayev, Sardor]]; [[Barov, Ceferis]]"
+authors: "Ibrohimov, Jamshid; Mirzakhalov, Jamoliddin; Abdullayev, Sardor; Barov, Ceferis"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2502.11020"
 external_pdf: "https://arxiv.org/pdf/2502.11020.pdf"

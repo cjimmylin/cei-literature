@@ -17,7 +17,7 @@ short_title: "Hate Speech Detection in Somali-English Code-Switched"
 year: 2025
 first_author: "[[Sharma, Arushi]]"
 last_author: "[[Jain, Minni]]"
-authors: "[[Sharma, Arushi]]; [[Kabra, Anubha]]; [[Jain, Minni]]"
+authors: "Sharma, Arushi; Kabra, Anubha; Jain, Minni"
 authors_incomplete: false
 url: "https://link.springer.com/chapter/10.1007/978-981-95-3349-7_28"
 external_pdf: "https://arxiv.org/pdf/2110.09393.pdf"

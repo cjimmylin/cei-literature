@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Ren-ValueBench|ValueBench]]
 - [[2024-Ye-Measuring Human and AI Values Based on Generative|Measuring Human and AI Values Based on Generative]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
+- *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
 - *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
 - *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com
 - *From 2024-Ren-ValueBench*: Affiliation: Laboratory of General Artificial Intelligence, Email: haoran-ye@outlook.com

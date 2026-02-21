@@ -16,8 +16,8 @@ type: preprint
 short_title: "Beyond MCQ: An Open-Ended Arabic Cultural QA Benchmark with Dialect Variants"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: "[[Ph Adnan Masood]]"
-authors: "Adnan Masood, Ph"
+last_author: "[[Ph]]"
+authors: Adnan Masood; Ph
 url: "https://arxiv.org/html/2510.24328"
 external_pdf: "https://arxiv.org/pdf/2510.24328.pdf"
 publication: arXiv
@@ -52,7 +52,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Ph Adnan Masood]]
+[[Adnan Masood]], [[Ph]]
 
 ## Metadata
 

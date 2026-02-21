@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish|Lost in Variation? Evaluating NLI Performance in Basque and Spanish Geographical Variants]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
+- *From 2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU

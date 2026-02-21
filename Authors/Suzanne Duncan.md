@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Jones-Fit for Our Purpose Not Yours|Fit for Our Purpose Not Yours]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: keoni@tehiku.co.nz
+- *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: keoni@tehiku.co.nz
 - *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: lee@tehiku.co.nz
 - *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: gianna@tehiku.co.nz
 - *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: keoni@tehiku.co.nz

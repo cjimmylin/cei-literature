@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-AI-Religious Bias Benchmarks for ChatGPT|Religious Bias Benchmarks for ChatGPT]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-AI-Religious Bias Benchmarks for ChatGPT*:, Email: Michael.David.Prendergast@gmail.com
+- *From 2024-AI-Religious Bias Benchmarks for ChatGPT*:, Email: Michael.David.Prendergast@gmail.com
 - *From 2024-AI-Religious Bias Benchmarks for ChatGPT*:, Email: Michael.David.Prendergast@gmail.com
 - *From 2024-AI-Religious Bias Benchmarks for ChatGPT*:, Email: Michael.David.Prendergast@gmail.com
 - *From 2024-AI-Religious Bias Benchmarks for ChatGPT*:, Email: Michael.David.Prendergast@gmail.com

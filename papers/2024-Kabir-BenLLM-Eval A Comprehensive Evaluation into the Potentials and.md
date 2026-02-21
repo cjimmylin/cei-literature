@@ -16,7 +16,7 @@ short_title: "BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pi
 year: 2024
 first_author: "[[Kabir, Mohsinul]]"
 last_author: "[[Hoque, Enamul]]"
-authors: "[[Kabir, Mohsinul]]; [[Islam, Mohammed Saidul]]; [[Laskar, Md Tahmid Rahman]]; [[Nayeem, Mir Tafseer]]; [[Bari, M Saiful]]; [[Hoque, Enamul]]"
+authors: "Kabir, Mohsinul; Islam, Mohammed Saidul; Laskar, Md Tahmid Rahman; Nayeem, Mir Tafseer; Bari, M Saiful; Hoque, Enamul"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2309.13173"
 external_pdf: "https://arxiv.org/pdf/2309.13173.pdf"

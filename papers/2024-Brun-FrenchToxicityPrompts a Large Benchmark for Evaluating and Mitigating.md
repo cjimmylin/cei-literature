@@ -16,7 +16,7 @@ short_title: "FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitiga
 year: 2024
 first_author: "[[Caroline Brun]]"
 last_author: "[[Nadi Tomeh]]"
-authors: "Caroline Brun, Vassilina Nikoulina, Nadi Tomeh"
+authors: Caroline Brun; Vassilina Nikoulina; Nadi Tomeh
 url: "https://arxiv.org/abs/2406.17566"
 external_pdf: "https://arxiv.org/pdf/2406.17566.pdf"
 publication: "arXiv / ACL Anthology"

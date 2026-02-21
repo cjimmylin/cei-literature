@@ -51,6 +51,8 @@ Garcia has published work exploring the detectability and acceptability of LLMs'
 
 
 
+
+
 - [[2024-Garcia-The Moral Turing Test|The Moral Turing Test]] (First Author)
 
 ## External Links & Profiles
@@ -69,6 +71,10 @@ Garcia has published work exploring the detectability and acceptability of LLMs'
 
 
 
+
+
+- *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
+- *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
 - *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
 - *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: cjqian@google.com
 - *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: stefano.palminteri@ens.fr

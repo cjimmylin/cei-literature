@@ -16,7 +16,7 @@ short_title: "Sentiment Analysis Across Languages: Evaluation Before and After M
 year: 2024
 first_author: "[[Kathunia, Aekansh]]"
 last_author: "[[Narotam, N]]"
-authors: "[[Kathunia, Aekansh]]; [[Kaif, Mohammad]]; [[Arora, Nalin]]; [[Narotam, N]]"
+authors: "Kathunia, Aekansh; Kaif, Mohammad; Arora, Nalin; Narotam, N"
 authors_incomplete: false
 url: "https://arxiv.org/html/2405.02887v2"
 external_pdf: "https://arxiv.org/pdf/2405.02887.pdf"

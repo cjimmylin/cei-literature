@@ -58,8 +58,9 @@ twitter: ""
 
 
 
+
+
 - [[2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP|Benchmarking Sociolinguistic Diversity in Swahili NLP]] (Last Author)
-- [[2022-Abbasi-Deep Learning for Religious and Continent-Based|Deep Learning for Religious and Continent-Based]] (First Author)
 
 ## External Links & Profiles
 
@@ -88,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP*: Affiliation: Department of IT, Analytics, and Operations
+- *From 2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP*: Affiliation: Department of IT, Analytics, and Operations
 - *From 2022-Abbasi-Deep Learning for Religious and Continent-Based*: Affiliation: label toxic comments classification
 - *From 2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP*: Affiliation: Department of IT, Analytics, and Operations
 - *From 2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP*: Affiliation: Department of IT, Analytics, and Operations

@@ -17,9 +17,9 @@ key: EXSR0561
 type: conference_paper
 short_title: "MITRA-zh An Efficient Open Machine Translation"
 year: 2023
-first_author: "[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]]"
-last_author: "[[Kurt Keutzer Justin Brody]]"
-authors: "[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]]"
+first_author: "[[Sebastian Nehrdich]]"
+last_author: "[[Kurt Keutzer]]"
+authors: Sebastian Nehrdich; Marcus Bingenheimer; Justin Brody; Kurt Keutzer
 authors_incomplete: false
 url: 
 external_pdf: 
@@ -55,7 +55,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Marcus Bingenheimer Sebastian Nehrdich]], [[Kurt Keutzer Justin Brody]]
+[[Sebastian Nehrdich]], [[Marcus Bingenheimer]], [[Justin Brody]], [[Kurt Keutzer]]
 
 ## Metadata
 

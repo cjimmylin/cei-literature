@@ -25,6 +25,8 @@ Mohna Chakraborty is a Postdoctoral Researcher at University of Michigan. Her re
 
 
 
+
+
 - [[2025-Chakraborty-Structured Moral Reasoning|Structured Moral Reasoning]] (First Author)
 
 ## Notes
@@ -34,6 +36,10 @@ Mohna Chakraborty is a Postdoctoral Researcher at University of Michigan. Her re
 
 
 
+
+
+- *From 2025-Chakraborty-Structured Moral Reasoning*: Affiliation: University of Michigan, Ann Arbor
+- *From 2025-Chakraborty-Structured Moral Reasoning*: Affiliation: University of Michigan, Ann Arbor
 - *From 2025-Chakraborty-Structured Moral Reasoning*: Affiliation: University of Michigan, Ann Arbor
 - *From 2025-Chakraborty-Structured Moral Reasoning*: Affiliation: University of Michigan, Ann Arbor
 - *From 2025-Chakraborty-Structured Moral Reasoning*: Affiliation: University of Michigan, Ann Arbor

@@ -20,7 +20,7 @@ short_title: "Hate Speech Detection in Thai Social"
 year: 2022
 first_author: "[[Pasupa, Kitsuchart]]"
 last_author: "[[Aksornsiri, Massakorn]]"
-authors: "[[Pasupa, Kitsuchart]]; [[Karnbanjob, Werasut]]; [[Aksornsiri, Massakorn]]"
+authors: "Pasupa, Kitsuchart; Karnbanjob, Werasut; Aksornsiri, Massakorn"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/9836312/"
 external_pdf: 

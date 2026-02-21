@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Mager-Proceedings of the 4th Workshop on Natural Language Processing for|Proceedings of the 4th Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP 2024)]]
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
 
@@ -32,6 +34,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder
 - *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder

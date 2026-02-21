@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-results-JAI-1 A Thai-Centric Large Language Model|JAI-1: A Thai-Centric Large Language Model]]
 
 ## External Links & Profiles
@@ -85,6 +87,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-results-JAI-1 A Thai-Centric Large Language Model*: Affiliation: Department of Linguistics, Chulalongkorn University, Thailand, Email: jts.ai.team@gmail.com
+- *From 2025-results-JAI-1 A Thai-Centric Large Language Model*: Affiliation: Department of Linguistics, Chulalongkorn University, Thailand, Email: jts.ai.team@gmail.com
 - *From 2025-results-JAI-1 A Thai-Centric Large Language Model*: Affiliation: Department of Linguistics, Chulalongkorn University, Thailand, Email: jts.ai.team@gmail.com
 - *From 2025-results-JAI-1 A Thai-Centric Large Language Model*: Affiliation: Department of Linguistics, Chulalongkorn University, Thailand, Email: jts.ai.team@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

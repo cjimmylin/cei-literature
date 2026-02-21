@@ -20,7 +20,7 @@ short_title: "HOTTEST Hate and Offensive Content Identification"
 year: 2022
 first_author: "[[Rajalakshmi, R.]]"
 last_author: "[[M, Anand Kumar]]"
-authors: "[[Rajalakshmi, R.]]; [[Selvaraj, Srivarshan]]; [[R, Faerie Mattins]]; [[Vasudevan, Pavitra]]; [[M, Anand Kumar]]"
+authors: "Rajalakshmi, R.; Selvaraj, Srivarshan; R, Faerie Mattins; Vasudevan, Pavitra; M, Anand Kumar"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000870"
 external_pdf: "https://core.ac.uk/download/143686156.pdf"

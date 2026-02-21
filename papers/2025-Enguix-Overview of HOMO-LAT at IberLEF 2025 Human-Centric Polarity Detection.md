@@ -17,7 +17,7 @@ short_title: "Overview of HOMO-LAT at IberLEF 2025: Human-Centric Polarity Detec
 year: 2025
 first_author: "[[Enguix, Gemma Bel]]"
 last_author: "[[Ojeda-Trueba, Sergio Luís]]"
-authors: "[[Enguix, Gemma Bel]]; [[Adorno, Helena Gómez]]; [[Ojeda-Trueba, Sergio Luís]]"
+authors: "Enguix, Gemma Bel; Adorno, Helena Gómez; Ojeda-Trueba, Sergio Luís"
 authors_incomplete: true
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6764/4136"
 external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6764/4136"

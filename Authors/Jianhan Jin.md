@@ -17,6 +17,8 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
+
+
 - [[2025-Fu-MME-CoT|MME-CoT]]
 
 ## Notes

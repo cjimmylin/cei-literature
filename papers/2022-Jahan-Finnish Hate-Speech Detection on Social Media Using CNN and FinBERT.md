@@ -16,7 +16,7 @@ short_title: "Finnish Hate-Speech Detection on Social Media Using CNN and FinBER
 year: 2022
 first_author: "[[Md Saroar Jahan]]"
 last_author: "[[Nabil Arhab]]"
-authors: "Md Saroar Jahan, Mourad Oussalah, Nabil Arhab"
+authors: Md Saroar Jahan; Mourad Oussalah; Nabil Arhab
 url: "https://aclanthology.org/2022.lrec-1.92/"
 external_pdf: "https://aclanthology.org/2022.lrec-1.92.pdf"
 publication: "ACL Anthology / LREC 2022"

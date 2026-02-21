@@ -16,9 +16,9 @@ key: EXSR0621
 type: preprint
 short_title: "JainGPT AI-Powered Chatbot for Jain Literature"
 year: 2025
-first_author: "[[collections), JainKnowledge.com (built on JainELibrary.org and JainQQ.org]]"
+first_author: "[[JainKnowledge.com (built on JainELibrary.org]]"
 last_author: "[[JainQQ.org collections)]]"
-authors: "[[JainKnowledge.com (built on JainELibrary.org]]; [[JainQQ.org collections)]]"
+authors: JainKnowledge.com (built on JainELibrary.org; JainQQ.org collections)
 authors_incomplete: false
 url: 
 external_pdf: 

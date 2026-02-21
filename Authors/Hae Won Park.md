@@ -60,14 +60,9 @@ twitter: ""
 
 
 
-- [[2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent|Korean Canonical Legal Benchmark: Toward Knowledge-Independent Evaluation of LLMs' Legal Reasoning Capabilities]]
-- [[2024-Park-Understanding LLM Development Through Longitudinal Study Insights|Understanding LLM Development Through Longitudinal Study: Insights from the Open Ko-LLM Leaderboard]] (First Author)
+
+
 - [[2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal|EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences]] (Last Author)
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 
@@ -98,6 +93,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal*: Affiliation: Institute of Technology, Cambridge, MA, USA
+- *From 2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal*: Affiliation: Institute of Technology, Cambridge, MA, USA
 - *From 2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal*: Affiliation: Institute of Technology, Cambridge, MA, USA
 - *From 2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal*: Affiliation: Institute of Technology, Cambridge, MA, USA
 - *From 2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal*: Affiliation: Institute of Technology, Cambridge, MA, USA

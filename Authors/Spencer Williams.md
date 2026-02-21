@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2023-Guha-LegalBench|LegalBench]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
+- *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR

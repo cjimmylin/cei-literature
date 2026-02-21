@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]] (Last Author)
 - [[2022-Yang-CINO A Chinese Minority Pre-trained Language Model|CINO: A Chinese Minority Pre-trained Language Model]]
 
@@ -90,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2022-Yang-CINO A Chinese Minority Pre-trained Language Model*: Affiliation: Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China, Email: ymcui@ir.hit.edu.cn
+- *From 2022-Yang-CINO A Chinese Minority Pre-trained Language Model*: Affiliation: Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China, Email: ymcui@ir.hit.edu.cn
 - *From 2022-Yang-CINO A Chinese Minority Pre-trained Language Model*: Affiliation: Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China, Email: ymcui@ir.hit.edu.cn
 - *From 2022-Yang-CINO A Chinese Minority Pre-trained Language Model*: Affiliation: Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China, Email: ymcui@ir.hit.edu.cn
 - *From 2022-Yang-CINO A Chinese Minority Pre-trained Language Model*: Affiliation: Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China, Email: ymcui@ir.hit.edu.cn

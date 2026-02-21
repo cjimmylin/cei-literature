@@ -41,6 +41,8 @@ Serves on the editorial board of Nature Scientific Reports and regularly reviews
 
 
 
+
+
 - [[2025-Abdaljalil-HalluVerse25|HalluVerse25]]
 
 ## Notes
@@ -50,6 +52,10 @@ Serves on the editorial board of Nature Scientific Reports and regularly reviews
 
 
 
+
+
+- *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: eserpedin@tamu.edu
+- *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: eserpedin@tamu.edu
 - *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: sabdaljalil@tamu.edu
 - *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: sabdaljalil@tamu.edu
 - *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: eserpedin@tamu.edu

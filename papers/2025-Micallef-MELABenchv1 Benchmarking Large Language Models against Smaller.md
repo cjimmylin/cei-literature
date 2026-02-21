@@ -14,8 +14,8 @@ type: preprint
 short_title: "MELABenchv1: Benchmarking Large Language Models against Smaller Fine-Tuned Models for Low-Resource Maltese NLP"
 year: 2025
 first_author: "[[Kurt Micallef]]"
-last_author: "[[Claudia Borg Kurt Micallef]]"
-authors: "Kurt Micallef, Claudia Borg"
+last_author: "[[Claudia Borg]]"
+authors: Kurt Micallef; Claudia Borg
 url: "https://arxiv.org/abs/2506.04385"
 external_pdf: "https://arxiv.org/pdf/2506.04385.pdf"
 publication: arXiv
@@ -50,7 +50,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Claudia Borg Kurt Micallef]]
+[[Kurt Micallef]], [[Claudia Borg]]
 
 ## Metadata
 

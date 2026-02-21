@@ -18,9 +18,9 @@ key: EXSR0429
 type: preprint
 short_title: "Sacred or Secular Religious Bias in"
 year: 2025
-first_author: "[[Muhammad Salar Khan, Hamza Umer]]"
-last_author: "[[Hamza Umer Muhammad Salar Khan]]"
-authors: "[[Muhammad Salar Khan, Hamza Umer]]"
+first_author: "[[Muhammad Salar Khan]]"
+last_author: "[[Hamza Umer]]"
+authors: Muhammad Salar Khan; Hamza Umer
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.07118"
 external_pdf: "https://arxiv.org/pdf/2504.07118.pdf"
@@ -56,7 +56,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Haidar Khan|Hamza Umer Muhammad Salar Khan]]
+[[Muhammad Salar Khan]], [[Hamza Umer]]
 
 ## Metadata
 

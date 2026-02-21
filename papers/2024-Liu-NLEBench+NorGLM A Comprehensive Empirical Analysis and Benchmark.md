@@ -15,7 +15,7 @@ short_title: "NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark 
 year: 2024
 first_author: "[[Liu, Peng]]"
 last_author: "[[Yang, Zhirong]]"
-authors: "[[Liu, Peng]]; [[Zhang, Lemei]]; [[Farup, Terje]]; [[Lauvrak, Even W.]]; [[Ingvaldsen, Jon Espen]]; [[Eide, Simen]]; [[Gulla, Jon Atle]]; [[Yang, Zhirong]]"
+authors: "Liu, Peng; Zhang, Lemei; Farup, Terje; Lauvrak, Even W.; Ingvaldsen, Jon Espen; Eide, Simen; Gulla, Jon Atle; Yang, Zhirong"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2312.01314"
 external_pdf: "https://arxiv.org/pdf/2312.01314.pdf"

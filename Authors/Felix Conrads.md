@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2019-Usbeck-Benchmarking question answering systems|Benchmarking question answering systems]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
+- *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 - *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 - *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 - *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country

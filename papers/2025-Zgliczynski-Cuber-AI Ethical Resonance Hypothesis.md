@@ -16,9 +16,9 @@ key: ARXIV_2507_11552
 type: preprint
 short_title: "AI Ethical Resonance Hypothesis"
 year: 2025
-first_author: "[[Tomasz Zgliczyński-Cuber]]"
-last_author: "[[Tomasz Zgliczyński-Cuber]]"
-authors: "[[Zgliczyński-Cuber, Tomasz]]"
+first_author: "[[Zgliczyński-Cuber]]"
+last_author: "[[Tomasz]]"
+authors: Zgliczyński-Cuber; Tomasz
 doi: 10.48550/arXiv.2507.11552
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2507.11552"
@@ -56,7 +56,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Tomasz Zgliczyński-Cuber]]
+[[Zgliczyński-Cuber]], [[Tomasz]]
 
 ## Links
 

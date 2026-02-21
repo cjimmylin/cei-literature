@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic|A Web-Based Hate Speech Detection System for Dialectal Arabic]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic*: Affiliation: University in Qatar, Education City, Doha, Qatar
+- *From 2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic*: Affiliation: University in Qatar, Education City, Doha, Qatar
 - *From 2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic*: Affiliation: University in Qatar, Education City, Doha, Qatar
 - *From 2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic*: Affiliation: University in Qatar, Education City, Doha, Qatar
 - *From 2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic*: Affiliation: University in Qatar, Education City, Doha, Qatar

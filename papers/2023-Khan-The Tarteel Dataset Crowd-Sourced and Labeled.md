@@ -19,7 +19,7 @@ short_title: "The Tarteel Dataset Crowd-Sourced and Labeled"
 year: 2023
 first_author: "[[Khan, Hamzah]]"
 last_author: "[[Abid, Abubakar]]"
-authors: "[[Khan, Hamzah]]; [[Abou, Anas]]; [[Moussa, M.]]; [[Tarteel, AI]]; [[Abid, Abubakar]]"
+authors: "Khan, Hamzah; Abou, Anas; Moussa, M.; Tarteel, AI; Abid, Abubakar"
 authors_incomplete: false
 url: 
 external_pdf: 

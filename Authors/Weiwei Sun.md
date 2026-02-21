@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2021-Sun-LaoPLM Pre-trained Language Models for Lao|LaoPLM Pre-trained Language Models for Lao]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Sun-LaoPLM Pre-trained Language Models for Lao*: Affiliation: School of Information Science and Technology, Guangdong University of Foreign Studies, Guangzhou, China, Email: jiangshengyi@163.com
+- *From 2021-Sun-LaoPLM Pre-trained Language Models for Lao*: Affiliation: School of Information Science and Technology, Guangdong University of Foreign Studies, Guangzhou, China, Email: jiangshengyi@163.com
 - *From 2021-Sun-LaoPLM Pre-trained Language Models for Lao*: Affiliation: School of Information Science and Technology, Guangdong University of Foreign Studies, Guangzhou, China, Email: jiangshengyi@163.com
 - *From 2021-Sun-LaoPLM Pre-trained Language Models for Lao*: Affiliation: School of Information Science and Technology, Guangdong University of Foreign Studies, Guangzhou, China, Email: jiangshengyi@163.com
 - *From 2021-Sun-LaoPLM Pre-trained Language Models for Lao*: Affiliation: School of Information Science and Technology, Guangdong University of Foreign Studies, Guangzhou, China, Email: neakail@outlook.com

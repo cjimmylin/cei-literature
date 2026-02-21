@@ -25,7 +25,8 @@ Hing Keung Ma is a Professor and Director of the Centre for Child Development at
 
 
 
-- [[2025-Zhang-CultureScope A Dimensional Lens for Probing|CultureScope A Dimensional Lens for Probing]] (Last Author)
+
+
 - [[2016-Xu-How Can a Deontological Decision Lead to Moral|How Can a Deontological Decision Lead to Moral]] (Last Author)
 
 ## Notes

@@ -14,8 +14,8 @@ type: conferencePaper
 short_title: "SuperGLEBer: German Language Understanding Evaluation Benchmark"
 year: 2024
 first_author: "[[Jan Pfister]]"
-last_author: "[[Andreas Hotho Jan Pfister]]"
-authors: "Jan Pfister, Andreas Hotho"
+last_author: "[[Andreas Hotho]]"
+authors: Jan Pfister; Andreas Hotho
 url: "https://aclanthology.org/2024.naacl-long.438/"
 external_pdf: "https://aclanthology.org/2024.naacl-long.438.pdf"
 publication: "ACL Anthology"
@@ -50,7 +50,7 @@ CONFERENCE: "ACL 2024"
 
 ## Authors
 
-[[Andreas Hotho Jan Pfister]]
+[[Jan Pfister]], [[Andreas Hotho]]
 
 ## Metadata
 

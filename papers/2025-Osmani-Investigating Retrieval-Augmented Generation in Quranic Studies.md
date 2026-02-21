@@ -18,9 +18,9 @@ key: EXSR0391
 type: preprint
 short_title: "Investigating Retrieval-Augmented Generation in Quranic Studies"
 year: 2025
-first_author: "[[Zahra Khalila, Arbi Haza Nasution, Winda Monika, Aytug Onan, Yohei Murakami, Yasir Bin Ismail Radi, Noor Mohammad Osmani]]"
+first_author: "[[Zahra Khalila]]"
 last_author: "[[Noor Mohammad Osmani]]"
-authors: "[[Zahra Khalila, Arbi Haza Nasution, Winda Monika, Aytug Onan, Yohei Murakami, Yasir Bin Ismail Radi, Noor Mohammad Osmani]]"
+authors: Zahra Khalila; Arbi Haza Nasution; Winda Monika; Aytug Onan; Yohei Murakami; Yasir Bin Ismail Radi; Noor Mohammad Osmani
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.16581"
 external_pdf: "https://arxiv.org/pdf/2503.16581.pdf"

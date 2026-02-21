@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Sang-CDEval A Benchmark for Measuring the|CDEval A Benchmark for Measuring the]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Sang-CDEval A Benchmark for Measuring the*: Affiliation: Lab of Traffic Data Analysis and Mining, Beijing Jiaotong University
+- *From 2024-Sang-CDEval A Benchmark for Measuring the*: Affiliation: Lab of Traffic Data Analysis and Mining, Beijing Jiaotong University
 - *From 2024-Sang-CDEval A Benchmark for Measuring the*: Affiliation: Lab of Traffic Data Analysis and Mining, Beijing Jiaotong University
 - *From 2024-Sang-CDEval A Benchmark for Measuring the*: Affiliation: Lab of Traffic Data Analysis and Mining, Beijing Jiaotong University
 - *From 2024-Sang-CDEval A Benchmark for Measuring the*: Affiliation: Lab of Traffic Data Analysis and Mining, Beijing Jiaotong University

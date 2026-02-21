@@ -17,7 +17,7 @@ short_title: "Unintended Impacts of LLM Alignment on Global Representation"
 year: 2024
 first_author: "[[Michael J. Ryan]]"
 last_author: "[[Diyi Yang]]"
-authors: "Michael J. Ryan, William Held, Diyi Yang"
+authors: Michael J. Ryan; William Held; Diyi Yang
 doi: 10.18653/v1/2024.acl-long.853
 url: "https://doi.org/10.18653/v1/2024.acl-long.853"
 external_pdf: "https://aclanthology.org/2024.acl-long.853.pdf"

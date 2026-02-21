@@ -25,6 +25,8 @@ Anand Kannappan is a Research Scientist at Patronus AI, focusing on evaluation m
 
 
 
+
+
 - [[2025-Deshpande-TRAIL|TRAIL]]
 
 ## Notes
@@ -34,6 +36,10 @@ Anand Kannappan is a Research Scientist at Patronus AI, focusing on evaluation m
 
 
 
+
+
+- *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
+- *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
 - *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
 - *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
 - *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-

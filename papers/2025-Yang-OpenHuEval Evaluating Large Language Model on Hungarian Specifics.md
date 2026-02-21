@@ -17,7 +17,7 @@ short_title: "OpenHuEval: Evaluating Large Language Model on Hungarian Specifics
 year: 2025
 first_author: "[[Haote Yang]]"
 last_author: "[[Conghui He]]"
-authors: Haote Yang, Xingjian Wei, Jiang Wu, Noemi Ligeti-Nagy, Jiaxing Sun, Yinfan Wang, Zijian Gyozo Yang, Junyuan Gao, Jingchao Wang, Bowen Jiang, Shasha Wang, Nanjun Yu, Zihao Zhang, Shixin Hong, Hongwei Liu, Wei Li, Songyang Zhang, Dahua Lin, Lijun Wu, Gabor Proszeky, Conghui He
+authors: Haote Yang; Xingjian Wei; Jiang Wu; Noemi Ligeti-Nagy; Jiaxing Sun; Yinfan Wang; Zijian Gyozo Yang; Junyuan Gao; Jingchao Wang; Bowen Jiang; Shasha Wang; Nanjun Yu; Zihao Zhang; Shixin Hong; Hongwei Liu; Wei Li; Songyang Zhang; Dahua Lin; Lijun Wu; Gabor Proszeky; Conghui He
 doi: 10.48550/arXiv.2503.21500
 url: "https://arxiv.org/abs/2503.21500"
 external_pdf: "https://arxiv.org/pdf/2503.21500.pdf"
@@ -53,7 +53,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Hao Yang|Haote Yang]], [[Xingjian Wei]], [[Jiang Wu]], [[Noemi Ligeti-Nagy]], [[Jiaxing Sun]], [[Yinfan Wang]], [[Ze Yang|Zijian Gyozo Yang]], [[Junyuan Gao]], [[Jingchao Wang]], [[Bowen Jiang]], [[Shasha Wang]], [[Nanjun Yu]], [[Zihao Zhang]], [[Seokhee Hong|Shixin Hong]], [[Hongwei Liu]], [[Wei Li]], [[Songyang Zhang]], [[Dahua Lin]], [[Lindong Wu|Lijun Wu]], [[Gabor Proszeky]], [[Conghui He]]
+[[Haote Yang]], [[Xingjian Wei]], [[Jiang Wu]], [[Noemi Ligeti-Nagy]], [[Jiaxing Sun]], [[Yinfan Wang]], [[Zijian Gyozo Yang]], [[Junyuan Gao]], [[Jingchao Wang]], [[Bowen Jiang]], [[Shasha Wang]], [[Nanjun Yu]], [[Zihao Zhang]], [[Shixin Hong]], [[Hongwei Liu]], [[Wei Li]], [[Songyang Zhang]], [[Dahua Lin]], [[Lijun Wu]], [[Gabor Proszeky]], [[Conghui He]]
 
 ## Metadata
 

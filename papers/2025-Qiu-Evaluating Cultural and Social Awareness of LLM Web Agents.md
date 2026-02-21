@@ -16,7 +16,7 @@ short_title: Evaluating Cultural and Social Awareness of LLM Web Agents
 year: 2025
 first_author: "[[Haoyi Qiu]]"
 last_author: "[[Chien-Sheng Wu]]"
-authors: Haoyi Qiu, Alexander Fabbri, Divyansh Agarwal, Kung-Hsiang Huang, Sarah Tan, Nanyun Peng, Chien-Sheng Wu
+authors: Haoyi Qiu; Alexander Fabbri; Divyansh Agarwal; Kung-Hsiang Huang; Sarah Tan; Nanyun Peng; Chien-Sheng Wu
 doi: 10.18653/v1/2025.findings-naacl.222
 url: "https://aclanthology.org/2025.findings-naacl.222/"
 external_pdf: "https://arxiv.org/pdf/2410.23252.pdf"
@@ -52,7 +52,7 @@ CONFERENCE: "NAACL 2025"
 
 ## Authors
 
-[[Han Qiu|Haoyi Qiu]], [[Alexander Fabbri]], [[Divyansh Agarwal]], [[Kexin Huang|Kung-Hsiang Huang]], [[Sarah Tan]], [[Nanyun Peng]], [[Carole-Jean Wu|Chien-Sheng Wu]]
+[[Haoyi Qiu]], [[Alexander Fabbri]], [[Divyansh Agarwal]], [[Kung-Hsiang Huang]], [[Sarah Tan]], [[Nanyun Peng]], [[Chien-Sheng Wu]]
 
 ## Metadata
 

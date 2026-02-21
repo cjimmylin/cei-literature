@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Shetty-VITAL|VITAL]]
 
 ## External Links & Profiles
@@ -89,6 +91,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
+- *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
 - *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
 - *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
 - *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia

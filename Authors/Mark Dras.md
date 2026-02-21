@@ -59,6 +59,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Shetty-VITAL|VITAL]]
 - [[2024-Htet-Myanmar XNLI Building a Dataset and|Myanmar XNLI Building a Dataset and]] (Last Author)
 
@@ -90,6 +92,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Htet-Myanmar XNLI Building a Dataset and*: Affiliation: Department of Computing, Macquarie University, Sydney, Australia, Email: mark.dras@mq.edu.au
+- *From 2024-Htet-Myanmar XNLI Building a Dataset and*: Affiliation: Department of Computing, Macquarie University, Sydney, Australia, Email: mark.dras@mq.edu.au
 - *From 2024-Htet-Myanmar XNLI Building a Dataset and*: Affiliation: Department of Computing, Macquarie University, Sydney, Australia, Email: mark.dras@mq.edu.au
 - *From 2024-Htet-Myanmar XNLI Building a Dataset and*: Affiliation: Department of Computing, Macquarie University, Sydney, Australia, Email: mark.dras@mq.edu.au
 - *From 2024-Htet-Myanmar XNLI Building a Dataset and*: Affiliation: Department of Computing, Macquarie University, Sydney, Australia, Email: akhtet@gmail.com

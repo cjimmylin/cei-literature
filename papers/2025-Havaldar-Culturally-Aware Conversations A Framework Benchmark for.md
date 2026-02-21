@@ -20,7 +20,7 @@ short_title: "Culturally-Aware Conversations A Framework Benchmark for"
 year: 2025
 first_author: "[[Havaldar, Shreya]]"
 last_author: "[[Ungar, Lyle]]"
-authors: "[[Havaldar, Shreya]]; [[Rai, Sunny]]; [[Cho, Young-Min]]; [[Ungar, Lyle]]"
+authors: "Havaldar, Shreya; Rai, Sunny; Cho, Young-Min; Ungar, Lyle"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.11563"
 external_pdf: "https://arxiv.org/pdf/2510.11563.pdf"

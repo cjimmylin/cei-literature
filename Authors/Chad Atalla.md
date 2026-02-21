@@ -51,6 +51,8 @@ Atalla's work on the "FairPrism" benchmark and related evaluation toolkits provi
 
 
 
+
+
 - [[2023-Fleisig-FairPrism|FairPrism]]
 
 ## External Links & Profiles
@@ -65,6 +67,10 @@ Atalla's work on the "FairPrism" benchmark and related evaluation toolkits provi
 
 
 
+
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: efleisig@berkeley.edu
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com

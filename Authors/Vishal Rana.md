@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Rana-Indigenous Data Sovereignty A Catalyst for Ethical AI in Business|Indigenous Data Sovereignty: A Catalyst for Ethical AI in Business]] (First Author)
 
 ## External Links & Profiles

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a|Charting the European LLM Benchmarking Landscape: A New Taxonomy and a Set of Best Practices]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a*: Affiliation: Institute, Jamova 39, Ljubljana, Slovenia
+- *From 2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a*: Affiliation: Institute, Jamova 39, Ljubljana, Slovenia
 - *From 2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a*: Affiliation: Institute, Jamova 39, Ljubljana, Slovenia
 - *From 2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a*: Affiliation: Institute, Jamova 39, Ljubljana, Slovenia
 - *From 2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a*: Affiliation: Institute, Jamova 39, Ljubljana, Slovenia

@@ -15,8 +15,8 @@ type: preprint
 short_title: A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs
 year: 2025
 first_author: "[[Sean Kim]]"
-last_author: "[[Hyuhng Joon Kim Sean Kim]]"
-authors: Sean Kim, Hyuhng Joon Kim
+last_author: "[[Hyuhng Joon Kim]]"
+authors: Sean Kim; Hyuhng Joon Kim
 url: "https://arxiv.org/abs/2506.21881"
 external_pdf: "https://arxiv.org/pdf/2506.21881.pdf"
 publication: arXiv / ACL 2025 SRW
@@ -51,7 +51,7 @@ CONFERENCE: "ACL 2025"
 
 ## Authors
 
-[[Hyuhng Joon Kim Sean Kim]]
+[[Sean Kim]], [[Hyuhng Joon Kim]]
 
 ## Metadata
 

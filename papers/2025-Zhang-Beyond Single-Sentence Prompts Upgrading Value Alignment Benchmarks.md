@@ -16,7 +16,7 @@ short_title: "Beyond Single-Sentence Prompts: Upgrading Value Alignment Benchmar
 year: 2025
 first_author: "[[Yazhou Zhang]]"
 last_author: "[[Jing Qin]]"
-authors: Yazhou Zhang, Qimeng Liu, Qiuchi Li, Peng Zhang, Jing Qin
+authors: Yazhou Zhang; Qimeng Liu; Qiuchi Li; Peng Zhang; Jing Qin
 url: "https://arxiv.org/abs/2503.22115"
 external_pdf: "https://arxiv.org/pdf/2503.22115.pdf"
 publication: arXiv
@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Yazhou Zhang]], [[Qun Liu|Qimeng Liu]], [[Qiuchi Li]], [[Peng Zhang]], [[Jing Qin]]
+[[Yazhou Zhang]], [[Qimeng Liu]], [[Qiuchi Li]], [[Peng Zhang]], [[Jing Qin]]
 
 ## Metadata
 

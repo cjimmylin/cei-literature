@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Cognitive-Cognitive LLMs Toward Human-Like Artificial Intelligence by|Cognitive LLMs: Toward Human-Like Artificial Intelligence by Integrating Cognitive Architectures and Large Language Models for Manufacturing Decision-Making - Siyu Wu, Alessandro Oltramari, Jonathan Francis, C Lee Giles, Frank E Ritter, 2025]] (First Author)
 - [[2025-Cognitive-Evolution of Meta’s LLaMA Models and Parameter-Efficient Fine-Tuning|Evolution of Meta's LLaMA Models and Parameter-Efficient Fine-Tuning of Large Language Models: A Survey]] (First Author)
 - [[2025-Cognitive-Improved Tibetan Word Vectors Models Based on Position Information|Improved Tibetan Word Vectors Models Based on Position Information Fusion | ACM Transactions on Asian and Low-Resource Language Information Processing]] (First Author)
@@ -93,6 +95,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Cognitive-Multi-Agent Collaboration Mechanisms A Survey of LLMs*: Affiliation: laboration Mechanisms A Survey of LLMs - PDF Extract"
+- *From 2025-Cognitive-Multi-Agent Collaboration Mechanisms A Survey of LLMs*: Affiliation: laboration Mechanisms A Survey of LLMs - PDF Extract"
 - *From 2025-Cognitive-Multi-Agent Collaboration Mechanisms A Survey of LLMs*: Affiliation: laboration Mechanisms A Survey of LLMs - PDF Extract"
 - *From 2025-Cognitive-Multi-Agent Collaboration Mechanisms A Survey of LLMs*: Affiliation: laboration Mechanisms A Survey of LLMs - PDF Extract"
 - *From 2025-Cognitive-Multi-Agent Collaboration Mechanisms A Survey of LLMs*: Affiliation: laboration Mechanisms A Survey of LLMs - PDF Extract"

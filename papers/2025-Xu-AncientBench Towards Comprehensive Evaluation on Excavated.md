@@ -17,9 +17,9 @@ key: EXSR0327
 type: conference_paper
 short_title: "AncientBench Towards Comprehensive Evaluation on Excavated"
 year: 2025
-first_author: "[[Zhihan Zhou, Daqian Shi, Rui Song, Lida Shi, Xiaolei Diao, Hao Xu]]"
-last_author: "[[Hao Xu Xiaolei Diao]]"
-authors: "[[Zhihan Zhou, Daqian Shi, Rui Song, Lida Shi, Xiaolei Diao, Hao Xu]]"
+first_author: "[[Zhihan Zhou]]"
+last_author: "[[Hao Xu]]"
+authors: Zhihan Zhou; Daqian Shi; Rui Song; Lida Shi; Xiaolei Diao; Hao Xu
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.17756"
 external_pdf: "https://arxiv.org/pdf/2512.17756.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "EMNLP 2025"
 
 ## Authors
 
-[[Daquan Zhou|Daqian Shi Zhihan Zhou]], [[Linxin Song|Lida Shi Rui Song]], [[Hao Xu Xiaolei Diao]]
+[[Zhihan Zhou]], [[Daqian Shi]], [[Rui Song]], [[Lida Shi]], [[Xiaolei Diao]], [[Hao Xu]]
 
 ## Metadata
 

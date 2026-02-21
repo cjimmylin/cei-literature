@@ -17,7 +17,7 @@ short_title: "ParsOffensive: Persian Offensive Comments Dataset"
 year: 2024
 first_author: "[[Safayani, Mehran]]"
 last_author: "[[Pourbahman, Zahra]]"
-authors: "[[Safayani, Mehran]]; [[Sartipi, Amir]]; [[Ahmadi, Amir Hossein]]; [[Jalali, Parniyan]]; [[Mansouri, Amir Hossein]]; [[Bisheh-Niasar, Mohammad]]; [[Pourbahman, Zahra]]"
+authors: "Safayani, Mehran; Sartipi, Amir; Ahmadi, Amir Hossein; Jalali, Parniyan; Mansouri, Amir Hossein; Bisheh-Niasar, Mohammad; Pourbahman, Zahra"
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/11006224"
 external_pdf: "https://arxiv.org/pdf/2404.05540"

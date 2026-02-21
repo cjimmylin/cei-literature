@@ -15,9 +15,9 @@ key: AUTO_BROPHY2025
 type: preprint
 short_title: "Black Box Deployed"
 year: 2025
-first_author: "[[Matthew E. Brophy]]"
-last_author: "[[Matthew E. Brophy]]"
-authors: "[[Brophy, Matthew E.]]"
+first_author: "[[Brophy]]"
+last_author: "[[Matthew E.]]"
+authors: Brophy; Matthew E.
 doi: 10.48550/arXiv.2507.13175
 url: "https://arxiv.org/abs/2507.13175"
 pdf_extract: "PDF Extracts/2025/2025-Brophy-Black Box Deployed.md"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Matthew E. Brophy]]
+[[Brophy]], [[Matthew E]]
 
 ## Links
 

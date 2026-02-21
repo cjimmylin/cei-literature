@@ -31,6 +31,8 @@ Key contributions include work on:
 
 
 
+
+
 - [[2024-Ober-Lyceum Project AI Ethics Aristotle|Lyceum Project AI Ethics Aristotle]] (Last Author)
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
 
@@ -41,6 +43,10 @@ Key contributions include work on:
 
 
 
+
+
+- *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both
+- *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both
 - *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both
 - *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both
 - *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both

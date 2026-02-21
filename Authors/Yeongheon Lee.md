@@ -22,14 +22,9 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2025-Lee-When Prompting Fails to Sway|When Prompting Fails to Sway]]
-- [[2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in|VisTW: Benchmarking Vision-Language Models for Traditional Chinese in Taiwan]] (Last Author)
-- [[2024-Tam-An Improved Traditional Chinese Evaluation Suite for Foundation Model|An Improved Traditional Chinese Evaluation Suite for Foundation Model (TMMLU+)]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## Notes
 
@@ -38,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: brucelws@seas.upenn.edu
+- *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: brucelws@seas.upenn.edu
 - *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: chohyunsoo@ewha.ac.kr
 - *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: chohyunsoo@ewha.ac.kr
 - *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: brucelws@seas.upenn.edu

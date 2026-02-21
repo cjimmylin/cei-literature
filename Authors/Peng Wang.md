@@ -21,6 +21,8 @@ Multiple researchers named "Peng Wang" found in 2026 with different AI-related a
 
 
 
+
+
 - [[2025-Wang-X-WebAgentBench|X-WebAgentBench]] (First Author)
 
 ## Notes
@@ -30,6 +32,10 @@ Multiple researchers named "Peng Wang" found in 2026 with different AI-related a
 
 
 
+
+
+- *From 2025-Wang-X-WebAgentBench*: Affiliation: School of Computer Science and Engineering, Central South University, China, Email: lbqin@csu.edu.cn
+- *From 2025-Wang-X-WebAgentBench*: Affiliation: School of Computer Science and Engineering, Central South University, China, Email: lbqin@csu.edu.cn
 - *From 2025-Wang-X-WebAgentBench*: Affiliation: School of Computer Science and Engineering, Central South University, China, Email: wpengxss@gmail.com
 - *From 2025-Wang-X-WebAgentBench*: Affiliation: School of Computer Science and Engineering, Central South University, China, Email: lbqin@csu.edu.cn
 - *From 2025-Wang-X-WebAgentBench*: Affiliation: School of Computer Science and Engineering, Central South University, China, Email: lbqin@csu.edu.cn

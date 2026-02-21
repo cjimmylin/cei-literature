@@ -72,7 +72,7 @@ With the rapid advancement of Large Language Models (LLMs), the safety of LLMs h
 
 ## Authors
 
-[[Hongye Cao]], [[Yanming Wang]], [[Shuangchen Jing|Sijia Jing]], [[Ziyue Peng]], [[Zeyu Bai|Zhixin Bai]], [[Zhicheng Cao|Zhe Cao]], [[Ming Fang|Meng Fang]], [[Fan Feng]], [[Boyan Wang]], [[Jiaheng Liu]], [[Tianpei Yang]], [[Jing Huo]], [[Yang Gao]], [[Fandong Meng|Fanyu Meng]], [[Xi Yang]], [[Chao Deng]], [[Jiashi Feng|Junlan Feng]]
+[[Hongye Cao]], [[Yanming Wang]], [[Sijia Jing]], [[Ziyue Peng]], [[Zhixin Bai]], [[Zhe Cao]], [[Meng Fang]], [[Fan Feng]], [[Boyan Wang]], [[Jiaheng Liu]], [[Tianpei Yang]], [[Jing Huo]], [[Yang Gao]], [[Fanyu Meng]], [[Xi Yang]], [[Chao Deng]], [[Junlan Feng]]
 
 ## Data Description
 

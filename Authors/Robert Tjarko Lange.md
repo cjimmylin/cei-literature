@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Lu-The AI Scientist|The AI Scientist]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
+- *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR

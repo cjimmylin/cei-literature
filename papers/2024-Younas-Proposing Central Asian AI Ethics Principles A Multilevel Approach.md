@@ -17,8 +17,8 @@ type: conferencePaper
 short_title: "Proposing Central Asian AI Ethics Principles: A Multilevel Approach for Responsible AI"
 year: 2024
 first_author: "[[Ammar Younas]]"
-last_author: "[[Yi Zeng Ammar Younas]]"
-authors: "Ammar Younas, Yi Zeng"
+last_author: "[[Yi Zeng]]"
+authors: Ammar Younas; Yi Zeng
 doi: 10.1007/s43681-024-00505-7
 url: "https://link.springer.com/article/10.1007/s43681-024-00505-7"
 publication: "AI and Ethics (Springer)"
@@ -53,7 +53,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Yi Zeng Ammar Younas]]
+[[Ammar Younas]], [[Yi Zeng]]
 
 ## Metadata
 

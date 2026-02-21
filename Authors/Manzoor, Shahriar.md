@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset|BIDWESH: A Bangla Regional Based Hate Speech Detection Dataset]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset*: Affiliation: Department of Computer Science and Engineering, Email: smanzoor@seu.edu.bd
+- *From 2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset*: Affiliation: Department of Computer Science and Engineering, Email: smanzoor@seu.edu.bd
 - *From 2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset*: Affiliation: Department of Computer Science and Engineering, Email: rayhan.scholar@gmail.com
 - *From 2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset*: Affiliation: Department of Computer Science and Engineering, Email: zsultana855@gmail.com
 - *From 2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset*: Affiliation: Department of Computer Science and Engineering, Email: zsultana855@gmail.com

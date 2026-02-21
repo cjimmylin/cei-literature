@@ -47,9 +47,10 @@ The Center hosts 31 research personnel, including 13 professors, 2 research fell
 
 
 
+
+
 - [[2025-Lan-McBE|McBE]] (Last Author)
 - [[2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large|McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models]] (Last Author)
-- [[2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM|An Evaluation of Cultural Value Alignment in LLM]]
 
 ## Links
 
@@ -63,6 +64,10 @@ The Center hosts 31 research personnel, including 13 professors, 2 research fell
 
 
 
+
+
+- *From 2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: velikayascarlet@gmail.com
+- *From 2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: velikayascarlet@gmail.com
 - *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: fenglixu@tsinghua.edu.cn
 - *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: chgao96@gmail.com
 - *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: fenglixu@tsinghua.edu.cn

@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Yun-VAPT Value-Alignment Perception Toolkit|VAPT: Value-Alignment Perception Toolkit]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Yun-VAPT Value-Alignment Perception Toolkit*: Affiliation: centered computing →Empirical studies in HCI, Email: april.wang@inf.ethz.ch
+- *From 2026-Yun-VAPT Value-Alignment Perception Toolkit*: Affiliation: centered computing →Empirical studies in HCI, Email: april.wang@inf.ethz.ch
 - *From 2026-Yun-VAPT Value-Alignment Perception Toolkit*: Affiliation: centered computing →Empirical studies in HCI, Email: april.wang@inf.ethz.ch
 - *From 2026-Yun-VAPT Value-Alignment Perception Toolkit*: Affiliation: centered computing →Empirical studies in HCI, Email: bhayun@ethz.ch
 - *From 2026-Yun-VAPT Value-Alignment Perception Toolkit*: Affiliation: centered computing →Empirical studies in HCI, Email: bhayun@ethz.ch

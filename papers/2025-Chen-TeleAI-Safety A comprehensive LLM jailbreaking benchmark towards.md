@@ -16,7 +16,7 @@ short_title: "TeleAI-Safety: A comprehensive LLM jailbreaking benchmark towards 
 year: 2025
 first_author: "[[Chen, Xiuyuan]]"
 last_author: "[[Li, Xuelong]]"
-authors: "[[Chen, Xiuyuan]]; [[Zhao, Jian]]; [[He, Yuxiang]]; [[Xun, Yuan]]; [[Liu, Xinwei]]; [[Li, Yanshu]]; [[Zhou, Huilin]]; [[Cai, Wei]]; [[Shi, Ziyan]]; [[Yuan, Yuchen]]; [[Zhang, Tianle]]; [[Zhang, Chi]]; [[Li, Xuelong]]"
+authors: "Chen, Xiuyuan; Zhao, Jian; He, Yuxiang; Xun, Yuan; Liu, Xinwei; Li, Yanshu; Zhou, Huilin; Cai, Wei; Shi, Ziyan; Yuan, Yuchen; Zhang, Tianle; Zhang, Chi; Li, Xuelong"
 authors_incomplete: false
 url: "https://www.arxiv.org/pdf/2512.05485"
 external_pdf: "https://arxiv.org/pdf/2512.05485.pdf"

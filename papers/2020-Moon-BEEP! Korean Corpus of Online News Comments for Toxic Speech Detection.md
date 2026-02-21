@@ -16,7 +16,7 @@ short_title: "BEEP! Korean Corpus of Online News Comments for Toxic Speech Detec
 year: 2020
 first_author: "[[Jihyung Moon]]"
 last_author: "[[Junbum Lee]]"
-authors: "Jihyung Moon, Won Ik Cho, Junbum Lee"
+authors: Jihyung Moon; Won Ik Cho; Junbum Lee
 doi: 10.18653/v1/2020.socialnlp-1.4
 url: "https://arxiv.org/abs/2005.12503"
 external_pdf: "https://arxiv.org/pdf/2005.12503.pdf"

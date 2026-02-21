@@ -22,6 +22,8 @@ semantic_scholar: ""
 
 
 
+
+
 - [[2024-Vladimirova-FairJob|FairJob]]
 
 ## Notes
@@ -31,6 +33,10 @@ semantic_scholar: ""
 
 
 
+
+
+- *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
+- *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
 - *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
 - *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
 - *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu

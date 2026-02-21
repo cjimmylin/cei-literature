@@ -17,8 +17,8 @@ type: conferencePaper
 short_title: "Detecting Hate Speech Online: A Case of Croatian"
 year: 2020
 first_author: "[[Mladen Karan]]"
-last_author: "[[Jan Snajder Mladen Karan]]"
-authors: "Mladen Karan, Jan Snajder"
+last_author: "[[Jan Snajder]]"
+authors: Mladen Karan; Jan Snajder
 doi: 10.1007/978-3-030-38833-1_16
 url: "https://link.springer.com/chapter/10.1007/978-3-030-38833-1_16"
 external_pdf: "https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0"
@@ -59,7 +59,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Jan Snajder Mladen Karan]]
+[[Mladen Karan]], [[Jan Snajder]]
 
 ## Metadata
 

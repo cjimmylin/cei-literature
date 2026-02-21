@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty|Bilingual Bias in Large Language Models: A Taiwan Sovereignty Benchmark Study]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty*: Affiliation: Institute of Networking and Multimedia, Email: juchunko@ntu.edu.tw
+- *From 2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty*: Affiliation: Institute of Networking and Multimedia, Email: juchunko@ntu.edu.tw
 - *From 2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty*: Affiliation: Institute of Networking and Multimedia, Email: juchunko@ntu.edu.tw
 - *From 2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty*: Affiliation: Institute of Networking and Multimedia, Email: juchunko@ntu.edu.tw
 - *From 2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty*: Affiliation: Institute of Networking and Multimedia, Email: juchunko@ntu.edu.tw

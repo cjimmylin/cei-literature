@@ -18,9 +18,9 @@ key: EXSR0600
 type: journal_article
 short_title: "YouTube-Based Religious Hate Speech and Extremism"
 year: 2022
-first_author: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]"
-last_author: "[[Alexander Gelbukh Grigori Sidorov]]"
-authors: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]"
+first_author: "[[Noman Ashraf]]"
+last_author: "[[Alexander Gelbukh]]"
+authors: Noman Ashraf; Abid Rafiq; Sabur Butt; Hafiz Muhammad Faisal Shehzad; Grigori Sidorov; Alexander Gelbukh
 authors_incomplete: false
 url: 
 external_pdf: "https://core.ac.uk/download/213021265.pdf"
@@ -56,7 +56,7 @@ CONFERENCE: "Journal"
 
 ## Authors
 
-[[Abid Rafiq Noman Ashraf]], [[Hafiz Muhammad Faisal Shehzad Sabur Butt]], [[Alexander Gelbukh Grigori Sidorov]]
+[[Noman Ashraf]], [[Abid Rafiq]], [[Sabur Butt]], [[Hafiz Muhammad Faisal Shehzad]], [[Grigori Sidorov]], [[Alexander Gelbukh]]
 
 ## Metadata
 

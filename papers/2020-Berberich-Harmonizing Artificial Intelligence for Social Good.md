@@ -16,7 +16,7 @@ short_title: Harmonizing Artificial Intelligence for Social Good
 year: 2020
 first_author: "[[Nicolas Berberich]]"
 last_author: "[[Shoko Suzuki]]"
-authors: Nicolas Berberich, Toyoaki Nishida, Shoko Suzuki
+authors: Nicolas Berberich; Toyoaki Nishida; Shoko Suzuki
 doi: 10.1007/s13347-020-00421-8
 url: "https://link.springer.com/article/10.1007/s13347-020-00421-8"
 publication: "Springer Philosophy & Technology"
@@ -51,7 +51,7 @@ CONFERENCE: "Other Conference"
 
 ## Authors
 
-[[Nicolas Berberich, Toyoaki Nishida, Shoko Suzuki]]
+[[Nicolas Berberich]], [[Toyoaki Nishida]], [[Shoko Suzuki]]
 
 ## Metadata
 

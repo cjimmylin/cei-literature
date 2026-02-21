@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2024-Murtala-A multilingual dataset for offensive language|A multilingual dataset for offensive language]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2024-Murtala-A multilingual dataset for offensive language*: Affiliation: Centre for Data Analytics, Data Science Institute, National University of, Email: bharathi.raja@insight-centre.org
+- *From 2024-Murtala-A multilingual dataset for offensive language*: Affiliation: Centre for Data Analytics, Data Science Institute, National University of, Email: bharathi.raja@insight-centre.org
 - *From 2024-Murtala-A multilingual dataset for offensive language*: Affiliation: Centre for Data Analytics, Data Science Institute, National University of, Email: rubapriyadharshini.a@gmail.com
 - *From 2024-Murtala-A multilingual dataset for offensive language*: Affiliation: Centre for Data Analytics, Data Science Institute, National University of, Email: sherly@iiitmk.ac.in
 - *From 2024-Murtala-A multilingual dataset for offensive language*: Affiliation: Centre for Data Analytics, Data Science Institute, National University of, Email: bharathi.raja@insight-centre.org

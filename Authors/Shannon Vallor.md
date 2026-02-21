@@ -24,8 +24,9 @@ Baillie Gifford Chair in the Ethics of Data and Artificial Intelligence at Unive
 
 
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
-- [[2024-Vallor-The AI Mirror|The AI Mirror]] (First Author)
 
 ## Notes
 
@@ -34,6 +35,10 @@ Baillie Gifford Chair in the Ethics of Data and Artificial Intelligence at Unive
 
 
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of

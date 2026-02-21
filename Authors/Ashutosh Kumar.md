@@ -58,6 +58,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models|IndicMMLU-Pro Benchmarking Indic Large Language Models]]
 
 ## External Links & Profiles
@@ -87,6 +89,10 @@ twitter: ""
 
 
 
+
+
+- *From 2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models*: Affiliation: Institute, University of South Carolina, Email: hi@aman.ai
+- *From 2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models*: Affiliation: Institute, University of South Carolina, Email: hi@aman.ai
 - *From 2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models*: Affiliation: Institute, University of South Carolina, Email: ak1825@rit.edu
 - *From 2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models*: Affiliation: Institute, University of South Carolina, Email: laxmaanb@gmail.com
 - *From 2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models*: Affiliation: Institute, University of South Carolina, Email: laxmaanb@gmail.com

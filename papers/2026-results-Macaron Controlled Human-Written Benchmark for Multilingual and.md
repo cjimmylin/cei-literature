@@ -51,7 +51,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Not fully listed in search results|Not specified in search results]]
+[[Not specified in search results]]
 
 ## Metadata
 

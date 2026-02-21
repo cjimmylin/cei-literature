@@ -34,6 +34,8 @@ Bosch is a co-author on research related to AI agent misalignment, including wor
 
 
 
+
+
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]]
 
 ## Links
@@ -47,6 +49,10 @@ Bosch is a co-author on research related to AI agent misalignment, including wor
 
 
 
+
+
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: akshat.naik@cs.ox.ac.uk
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: javcamposz@hotmail.com
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info

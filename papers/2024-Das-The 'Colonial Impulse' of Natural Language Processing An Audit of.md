@@ -18,7 +18,7 @@ short_title: "The 'Colonial Impulse' of Natural Language Processing: An Audit of
 year: 2024
 first_author: "[[D. Das]]"
 last_author: "[[B. Semaan]]"
-authors: "Das, D., Guha, S., Brubaker, J., Semaan, B."
+authors: D. Das; S. Guha; J. Brubaker; B. Semaan
 doi: 10.1145/3613904.3642669
 url: "https://arxiv.org/abs/2401.10535"
 external_pdf: "https://arxiv.org/pdf/2401.10535.pdf"
@@ -55,7 +55,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Dipanjan Das|D. Das]], [[S. Guha]], [[J. Brubaker]], [[B. Semaan]]
+[[D. Das]], [[S. Guha]], [[J. Brubaker]], [[B. Semaan]]
 
 ## Metadata
 

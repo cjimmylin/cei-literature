@@ -16,9 +16,9 @@ key: EXSR0344
 type: preprint
 short_title: "Cetvel A Unified Benchmark for Evaluating"
 year: 2025
-first_author: "[[Yakup Abrek Er, Ilker Kesen, Gozde Gul Sahin, Aykut Erdem]]"
-last_author: "[[Aykut Erdem Gozde Gul Sahin]]"
-authors: "[[Yakup Abrek Er, Ilker Kesen, Gozde Gul Sahin, Aykut Erdem]]"
+first_author: "[[Yakup Abrek Er]]"
+last_author: "[[Aykut Erdem]]"
+authors: Yakup Abrek Er; Ilker Kesen; Gozde Gul Sahin; Aykut Erdem
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.16431"
 external_pdf: "https://arxiv.org/pdf/2508.16431.pdf"
@@ -54,7 +54,7 @@ CONFERENCE: "Preprint"
 
 ## Authors
 
-[[Ilker Kesen Yakup Abrek Er]], [[Aykut Erdem Gozde Gul Sahin]]
+[[Yakup Abrek Er]], [[Ilker Kesen]], [[Gozde Gul Sahin]], [[Aykut Erdem]]
 
 ## Metadata
 

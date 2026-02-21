@@ -2,6 +2,32 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 100 (Feb 21, 2026) - Dashboard v6c: DRY Table Headers + New Columns
+
+### Overview
+Created `STATISTICS/cei-dashboard-6c/` from v6b baseline. Implemented DRY table header architecture (`TABLE_COLS` single source of truth), added 3 new paper table columns (Moral Psych, Religion, Model), removed CSV export button, and unified all table header rendering across Explorer, heatmap drilldown, and sub-tab paper lists.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 4 (app.js, index.html, style.css, charts.js) |
+| New columns | 3 (Moral Psych, Religion, Model) |
+| Table header definitions | 3 → 1 (DRY refactor) |
+| Features removed | CSV export button + listener |
+| Helpers added | `_tableHeader()`, `_compactText()`, `_compactArray()` |
+| Bug caught | Sort handler binding order (headers must exist before Explorer.init()) |
+
+### Key Learnings
+- [Dashboard] When refactoring static HTML `<thead>` into JS-injected headers, event listeners that bind to those elements (`.sortable` sort handlers) must run AFTER injection — init order matters
+- [Dashboard] `TABLE_COLS` array + `_tableHeader(sortable)` function eliminates 3 divergable header definitions; `TABLE_COLSPAN` constant replaces hardcoded colspan values
+- [Dashboard] Compact cell rendering with `_compactArray()` uses "+N" overflow pattern (e.g. "GPT-4 +2") with full list in title tooltip — prevents wide columns from breaking table layout
+
+### Files Changed
+- `STATISTICS/cei-dashboard-6c/app.js`: TABLE_COLS registry, _tableHeader(), _compactText(), _compactArray(), 3 new td columns in renderPaperRow(), dynamic colspan in renderPaperDetail(), dynamic header injection in init, removed CSV export block, version v6→v6c
+- `STATISTICS/cei-dashboard-6c/index.html`: Removed CSV button, simplified both `<thead>` to empty (JS populates), version v6→v6c in title/badge/footer
+- `STATISTICS/cei-dashboard-6c/style.css`: Added .col-moral-psych/.col-religion/.col-model widths, .cell-tag/.text-muted-cell styling, removed .btn-export rules + focus-visible ref
+- `STATISTICS/cei-dashboard-6c/charts.js`: Updated heatmap drilldown colspan 5→8
+
 ## Session 99 (Feb 21, 2026) - Dashboard v6b UX, Accessibility & Engineering Improvements
 
 ### Overview

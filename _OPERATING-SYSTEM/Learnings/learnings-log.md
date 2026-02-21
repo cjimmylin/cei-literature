@@ -34,6 +34,16 @@
 
 ---
 
+## 2026-02-21 (Session 100)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-21 | Dashboard | **DRY Table Headers via TABLE_COLS Registry:** Centralizing column definitions in a `TABLE_COLS` array (cls, label, sort key) + `_tableHeader(sortable)` generator eliminates 3 separate `<thead>` definitions (Explorer, heatmap drilldown, renderPaperList). Adding a column = 1 array entry + 1 CSS width rule + 1 `<td>` in `renderPaperRow()`. `TABLE_COLSPAN` constant replaces all hardcoded `colspan="5"` values. |
+| 2026-02-21 | Dashboard | **Init Order Matters for JS-Injected DOM:** When converting static HTML `<thead>` to dynamically injected headers, event listeners that use `querySelectorAll('.sortable')` must bind AFTER injection. `Explorer.init()` binds sort handlers directly to `.sortable` th elements — if headers don't exist yet, the selector returns empty and handlers silently fail. Fix: inject headers before calling `Explorer.init()`, not after. Alternative: use event delegation on `<thead>` parent (order-independent but bigger refactor). |
+| 2026-02-21 | Dashboard | **Compact Array Cell Rendering Pattern:** `_compactArray()` shows first item + "+N" overflow count (e.g. "GPT-4 +2") with full `title` tooltip for hover. Items >14 chars get truncated with ellipsis. Single items show directly (up to 20 chars). Empty arrays show em-dash. This prevents wide text from blowing out narrow table columns while keeping data accessible via hover. |
+
+---
+
 ## 2026-02-21 (Session 99)
 
 | Date | Category | Learning |

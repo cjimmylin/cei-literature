@@ -34,6 +34,14 @@
 
 ---
 
+## 2026-02-20 (Session 92)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-20 | Workflows | **Conditional Chart Rendering Pattern:** `_normSubSection()` in charts.js renders generic charts (Research Type, Venue Types, Geographic Focus) conditionally — checking both data presence and HTML container existence. Adding these charts to new subtabs requires only HTML `<div>` containers; the data (already computed by `build_fw_subsection()`) and JS rendering methods flow through automatically. |
+| 2026-02-20 | Workflows | **Parameterized Chart Methods:** `_conceptBar(chartId, data, color)` serves DE (#818cf8) and CU (#f59e0b) with a single method, differing only in color parameter. Wider left margin (160px vs 120px for _virtueBar) accommodates longer concept labels like "Preference Aggregation". |
+| 2026-02-20 | Data Quality | **Keyword Taxonomy Yield:** DE taxonomy (12 concepts, `DEONTOLOGY_KEYWORDS`) found 10 concepts in 88 papers; CU taxonomy (13 concepts, `CU_CONCEPT_KEYWORDS`) found all 13 concepts in 116 papers. The `set()`-based dedup ensures each concept counts once per paper. CU papers have richer concept coverage (13/13 vs 10/12) likely because consequentialist language ("outcome", "preference") is more common in NLP/ML abstracts. |
+
 ## 2026-02-16 (Session 89)
 
 | Date | Category | Learning |

@@ -875,12 +875,19 @@ const Charts = {
             } else if (f.dim === 'concept') {
                 filtered = data.papers.filter(sp => (sp.kw || []).includes(f.val));
                 if (headerH3) headerH3.textContent = `${baseTitle} — ${f.val}`;
+            } else if (f.dim === 'fns') {
+                const fnSet = new Set(f.fns);
+                filtered = data.papers.filter(sp => fnSet.has(sp.fn));
+                if (headerH3) headerH3.textContent = `${baseTitle} — ${f.val}`;
             }
             if (countEl) countEl.textContent = filtered.length;
             if (listH3) listH3.textContent = headerH3 ? headerH3.textContent : baseTitle;
             if (listCountEl) listCountEl.textContent = filtered.length;
             renderPaperList(`${prefix}-${key}-papers`, filtered, 50);
         };
+
+        if (!this._applyFns) this._applyFns = {};
+        this._applyFns[filterKey] = applyFilter;
 
         const yearChart = this._get(`chart-${prefix}-${key}-year`);
         if (yearChart) {
@@ -997,6 +1004,29 @@ const Charts = {
                 applyFilter();
             });
         }
+    },
+
+    /**
+     * Attach click-to-filter on an extended chart using pre-computed fns arrays.
+     * resolve(params) should return {label, fns} or null.
+     */
+    _attachExtFnFilter(filterKey, chartId, resolve) {
+        const chart = this._get(chartId);
+        if (!chart) return;
+        chart.off('click');
+        chart.on('click', params => {
+            const r = resolve(params);
+            if (!r || !r.fns || !r.fns.length) return;
+            const cur = this._subFilter[filterKey];
+            if (cur && cur.dim === 'fns' && cur.val === r.label) {
+                delete this._subFilter[filterKey];
+            } else {
+                this._subFilter[filterKey] = { dim: 'fns', val: r.label, fns: r.fns };
+            }
+            if (this._applyFns && this._applyFns[filterKey]) {
+                this._applyFns[filterKey]();
+            }
+        });
     },
 
     _normOverlap(overlap) {
@@ -1554,6 +1584,7 @@ const Charts = {
                     chart.setOption({
                         ...this._theme,
                         radar: {
+                            triggerEvent: true,
                             indicator: d.map(x => ({ name: x.axis, max: maxVal })),
                             axisName: { color: '#94a3b8', fontSize: 10 },
                             splitLine: { lineStyle: { color: '#334155' } },
@@ -1602,6 +1633,19 @@ const Charts = {
                 }
             }
         }
+
+        // ── Click-to-filter wiring for extended charts ──
+        const fk = 'rel-islamic';
+        this._attachExtFnFilter(fk, 'chart-rel-islamic-domains',
+            p => { const d = (data.domainDist||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-islamic-langgeo',
+            p => { const d = (data.langGeo||[]).find(x => x.lang === p.name); return d ? {label: d.lang, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-islamic-streams',
+            p => { const fns = (data.streamTimelineFns||{})[p.seriesName]; return fns ? {label: p.seriesName, fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-islamic-sources',
+            p => { const fns = (data.sourceCoverageFns||{})[p.name]; return fns ? {label: p.name, fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-islamic-sankey',
+            p => { const d = (data.coTraditions||[]).find(x => x.target === p.name); return d ? {label: d.target, fns: d.fns} : null; });
     },
 
     // ── Christian/Jewish: 5 extended charts ───────────────────────────────
@@ -1612,7 +1656,7 @@ const Charts = {
         {
             const chart = this._get('chart-rel-christian-breakdown');
             if (chart) {
-                const tradColors = { 'Christianity': '#6366f1', 'Judaism': '#a855f7', 'Both': '#38bdf8', 'Other': '#64748b' };
+                const tradColors = { 'Christianity only': '#6366f1', 'Judaism only': '#a855f7', 'Both': '#38bdf8', 'Multi-religion': '#f59e0b' };
                 const pieData = (data.traditionBreakdown || []).map(d => ({
                     name: d.n, value: d.c,
                     itemStyle: { color: tradColors[d.n] || '#64748b' },
@@ -1642,6 +1686,7 @@ const Charts = {
                     chart.setOption({
                         ...this._theme,
                         radar: {
+                            triggerEvent: true,
                             indicator: d.map(x => ({ name: x.axis, max: maxVal })),
                             axisName: { color: '#94a3b8', fontSize: 10 },
                             splitLine: { lineStyle: { color: '#334155' } },
@@ -1751,6 +1796,17 @@ const Charts = {
                 }
             }
         }
+
+        // ── Click-to-filter wiring for extended charts ──
+        const fk = 'rel-christian';
+        this._attachExtFnFilter(fk, 'chart-rel-christian-breakdown',
+            p => { const d = (data.traditionBreakdown||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-christian-theology',
+            p => { const fns = (data.theologicalConceptsFns||{})[p.name]; return fns ? {label: p.name, fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-christian-focus',
+            p => { const d = (data.focusDist||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-christian-normative',
+            p => { const fns = (data.normativeCrossFns||{})[p.name]; return fns ? {label: p.name, fns} : null; });
     },
 
     // ── Dharmic: 5 extended charts ────────────────────────────────────────
@@ -1818,6 +1874,7 @@ const Charts = {
                         ...this._theme,
                         legend: { ...this._theme.legend, top: 0 },
                         radar: {
+                            triggerEvent: true,
                             indicator: labels.map(l => ({ name: l, max: maxVal })),
                             axisName: { color: '#94a3b8', fontSize: 10 },
                             splitLine: { lineStyle: { color: '#334155' } },
@@ -1899,6 +1956,19 @@ const Charts = {
                 }
             }
         }
+
+        // ── Click-to-filter wiring for extended charts ──
+        const fk = 'rel-dharmic';
+        this._attachExtFnFilter(fk, 'chart-rel-dharmic-split',
+            p => { const d = (data.traditionSplit||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-dharmic-cultures',
+            p => { const d = (data.cultureDist||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-dharmic-concepts',
+            p => { const fns = (data.conceptRadarFns||{})[p.name]; return fns ? {label: p.name, fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-dharmic-focus',
+            p => { const fns = (data.researchFocusFns||{})[p.name]; return fns ? {label: p.name, fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-dharmic-langs',
+            p => { const d = (data.langTreemap||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
     },
 
     // ── Confucian: 6 extended charts ──────────────────────────────────────
@@ -1938,6 +2008,7 @@ const Charts = {
                     chart.setOption({
                         ...this._theme,
                         radar: {
+                            triggerEvent: true,
                             indicator: d.map(x => ({ name: x.axis, max: maxVal })),
                             axisName: { color: '#94a3b8', fontSize: 10 },
                             splitLine: { lineStyle: { color: '#334155' } },
@@ -2066,6 +2137,21 @@ const Charts = {
                 }
             }
         }
+
+        // ── Click-to-filter wiring for extended charts ──
+        const fk = 'rel-confucian';
+        this._attachExtFnFilter(fk, 'chart-rel-confucian-cultures',
+            p => { const d = (data.culturalFootprint||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-confucian-frameworks',
+            p => { const fns = (data.frameworkOverlapFns||{})[p.name]; return fns ? {label: p.name, fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-confucian-llms',
+            p => { const d = (data.chineseVsWesternLLMs||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-confucian-langs',
+            p => { const d = (data.languageDist||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-confucian-trajectory',
+            p => { const fns = (data.researchProfileFns||{})[p.seriesName]; return fns ? {label: p.seriesName, fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-confucian-concepts',
+            p => { const d = (data.conceptFreq||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
     },
 
     // ── Ubuntu/Indigenous: 6 extended charts ──────────────────────────────
@@ -2171,6 +2257,7 @@ const Charts = {
                         ...this._theme,
                         legend: { ...this._theme.legend, top: 0 },
                         radar: {
+                            triggerEvent: true,
                             indicator: labels.map(l => ({ name: l, max: maxVal })),
                             axisName: { color: '#94a3b8', fontSize: 10 },
                             splitLine: { lineStyle: { color: '#334155' } },
@@ -2251,6 +2338,19 @@ const Charts = {
                 }
             }
         }
+
+        // ── Click-to-filter wiring for extended charts ──
+        const fk = 'rel-ubuntu';
+        this._attachExtFnFilter(fk, 'chart-rel-ubuntu-subtrad',
+            p => { const d = (data.subTradDist||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-ubuntu-cultures',
+            p => { const d = (data.cultureDist||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-ubuntu-eval',
+            p => { const fns = (data.evalReadinessFns||{})[p.name]; return fns ? {label: p.name, fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-ubuntu-themes',
+            p => { const fns = (data.themeRadarFns||{})[p.name]; return fns ? {label: p.name, fns} : null; });
+        this._attachExtFnFilter(fk, 'chart-rel-ubuntu-langs',
+            p => { const d = (data.languageDist||[]).find(x => x.n === p.name); return d ? {label: d.n, fns: d.fns} : null; });
     },
 
     // ═════════════════════════════════════════════════════════════════════

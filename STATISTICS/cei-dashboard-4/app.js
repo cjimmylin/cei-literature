@@ -18,6 +18,7 @@ const FilterState = {
         culture: new Set(),
         language: new Set(),
         religion: new Set(),
+        moralPsych: new Set(),
         llmModel: new Set(),
         category: new Set(),
         flag: new Set(),
@@ -34,7 +35,7 @@ const FilterState = {
             [p.t, p.fa, p.la, p.cc, p.ab, p.bn, p.wm,
              (p.cu||[]).join(' '), (p.ln||[]).join(' '),
              (p.rv||[]).join(' '), (p.lm||[]).join(' '),
-             (p.cs||[]).join(' ')
+             (p.cs||[]).join(' '), p.mp || ''
             ].join(' ').toLowerCase()
         );
     },
@@ -116,7 +117,23 @@ const FilterState = {
         }
         if (excludeDim !== 'culture' && f.culture.size) result = result.filter(p => p.cu && p.cu.some(c => f.culture.has(c)));
         if (excludeDim !== 'language' && f.language.size) result = result.filter(p => p.ln && p.ln.some(l => f.language.has(l)));
-        if (excludeDim !== 'religion' && f.religion.size) result = result.filter(p => p.rv && p.rv.some(r => f.religion.has(r)));
+        if (excludeDim !== 'religion' && f.religion.size) {
+            result = result.filter(p => {
+                if (f.religion.has('Yes') && p.rv && p.rv.length) return true;
+                if (f.religion.has('No') && (!p.rv || !p.rv.length)) return true;
+                return p.rv && p.rv.some(r => f.religion.has(r));
+            });
+        }
+        if (excludeDim !== 'moralPsych' && f.moralPsych.size) {
+            result = result.filter(p => {
+                if (f.moralPsych.has('Yes') && p.mp) return true;
+                if (f.moralPsych.has('No') && !p.mp) return true;
+                if (f.moralPsych.has('MFT') && p.mp && p.mp.includes('Moral Foundations')) return true;
+                if (f.moralPsych.has('Schwartz') && p.mp && p.mp.includes('Schwartz')) return true;
+                if (f.moralPsych.has('Developmental') && p.mp && p.mp.includes('Developmental')) return true;
+                return false;
+            });
+        }
         if (excludeDim !== 'llmModel' && f.llmModel.size) {
             result = result.filter(p => {
                 if (f.llmModel.has('Yes') && p.lm && p.lm.length) return true;
@@ -229,8 +246,8 @@ const FilterBar = {
         const dimLabels = {
             year: 'Year', venueType: 'Type', venue: 'Venue', confFamily: 'Family',
             ethics: 'Ethics', isBenchmark: 'Benchmark', culture: 'Culture',
-            language: 'Language', religion: 'Religion', llmModel: 'Model',
-            category: 'Category', flag: 'Flag',
+            language: 'Language', religion: 'Religion', moralPsych: 'Moral Psych',
+            llmModel: 'Model', category: 'Category', flag: 'Flag',
         };
         let html = '';
         if (FilterState.searchQuery) {
@@ -838,6 +855,46 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'R': return !!(p.rv && p.rv.length);
                 default: return false;
             }
+        },
+    });
+
+    // Moral Psychology
+    new MultiSelect('msel-moral-psych', {
+        dimension: 'moralPsych',
+        label: 'Moral Psych',
+        options: [
+            { value: 'Yes', label: 'Has Framework' },
+            { value: 'No', label: 'No Framework' },
+            { value: 'MFT', label: 'MFT (Moral Foundations)' },
+            { value: 'Schwartz', label: 'Schwartz Values' },
+            { value: 'Developmental', label: 'Developmental (Kohlberg)' },
+        ],
+        matchFn: (p, v) => {
+            switch (v) {
+                case 'Yes': return !!p.mp;
+                case 'No': return !p.mp;
+                case 'MFT': return p.mp && p.mp.includes('Moral Foundations');
+                case 'Schwartz': return p.mp && p.mp.includes('Schwartz');
+                case 'Developmental': return p.mp && p.mp.includes('Developmental');
+                default: return false;
+            }
+        },
+    });
+
+    // Religion
+    const religions = [...new Set(DATA.papers.flatMap(p => p.rv || []))].sort();
+    new MultiSelect('msel-religion', {
+        dimension: 'religion',
+        label: 'Religion',
+        options: [
+            { value: 'Yes', label: 'Has Religion' },
+            { value: 'No', label: 'No Religion' },
+            ...religions.map(r => ({ value: r, label: r })),
+        ],
+        matchFn: (p, v) => {
+            if (v === 'Yes') return !!(p.rv && p.rv.length);
+            if (v === 'No') return !p.rv || !p.rv.length;
+            return p.rv && p.rv.includes(v);
         },
     });
 

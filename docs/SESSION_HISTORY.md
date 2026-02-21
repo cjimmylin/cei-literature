@@ -2,6 +2,28 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 95 (Feb 20, 2026) - Dashboard v4: Reorder Filter Dropdowns + GitHub Pages Deploy
+
+### Overview
+Reordered Paper Explorer filter dropdowns so Moral Psych and Religion sit right after Ethics (thematic grouping), then deployed all pending dashboard changes (Moral Psych/Religion filters + reorder) to GitHub Pages.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| HTML divs reordered | 2 (msel-moral-psych, msel-religion) |
+| Files deployed to Pages | 2 (app.js, index.html) |
+| Pages commit | `ceff486` on `cei-dashboard-4` repo |
+
+### Key Learnings
+- [Workflows] Dashboard dual-repo deploy: source of truth in `cei-literature` at `STATISTICS/cei-dashboard-4/`, deployed by copying changed files to the separate `cei-dashboard-4` GitHub Pages repo and pushing
+- [Workflows] MultiSelect binds by element ID not DOM order — reordering `<div>` containers is a safe visual-only change
+
+### Files Changed
+- STATISTICS/cei-dashboard-4/index.html: reordered 2 filter `<div>` elements
+- (External) `cei-dashboard-4` GitHub Pages repo: app.js + index.html pushed
+
+---
+
 ## Session 94 (Feb 20, 2026) - Dashboard v4: Repeated Subsection Headers for MP & Religious Tabs
 
 ### Overview

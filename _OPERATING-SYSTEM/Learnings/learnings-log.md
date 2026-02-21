@@ -34,6 +34,13 @@
 
 ---
 
+## 2026-02-20 (Session 95)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-20 | Workflows | **Dashboard Dual-Repo Deploy Pattern:** Dashboard v4 source of truth lives in `cei-literature` repo at `STATISTICS/cei-dashboard-4/`. GitHub Pages is served from a separate `cei-dashboard-4` repo. Deployment = copy changed files to the Pages repo clone (at `/tmp/cei-dashboard-4`) and `git push`. Only the 5 static assets (index.html, app.js, charts.js, data.js, style.css) need syncing — no build step. |
+| 2026-02-20 | Workflows | **MultiSelect ID-Binding:** Dashboard v4's MultiSelect widgets bind by element ID (e.g., `#msel-moral-psych`), not DOM position. Reordering filter `<div>` containers in HTML is a safe visual-only change — no JS modifications required. |
+
 ## 2026-02-20 (Session 94)
 
 | Date | Category | Learning |

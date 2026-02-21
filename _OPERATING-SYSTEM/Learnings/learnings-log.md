@@ -34,6 +34,13 @@
 
 ---
 
+## 2026-02-20 (Session 93)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-20 | Data Quality | **Variable Shadowing in Large Generator Functions:** `compute_moral_psych_data()` uses `paper_theories` (dict, line 1249) for the cooccurrence matrix. Adding a loop-local `paper_theories = []` inside `for fn in dev_fns:` overwrote the dict on every iteration, leaving a stale list that caused `AttributeError: 'list' object has no attribute 'items'` at line 1507. Fix: rename the loop-local to `paper_sub_theories` to avoid shadowing. Lesson: always grep for existing uses of a variable name before introducing it in a large function. |
+| 2026-02-20 | Workflows | **Click-to-Filter Data Guard Pattern:** The `if (data.subTheories)` guard in `_attachSubSectionFilter()` ensures the paradigm chart click handler only attaches when the data object has sub-theory info (Developmental subtab only). MFT and Schwartz data objects lack this key, so they're completely unaffected. This is the same pattern used for `data.theoryVsEmpirical`, `data.venueTypeDist`, and `data.regionDist` — feature-flagging per-subtab behavior via data presence rather than explicit subtab name checks. |
+
 ## 2026-02-20 (Session 92)
 
 | Date | Category | Learning |

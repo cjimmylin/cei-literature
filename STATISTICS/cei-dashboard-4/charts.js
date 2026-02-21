@@ -5,7 +5,7 @@
 
 const Charts = {
     _instances: {},  // id -> echarts instance
-    _subFilter: {},  // "prefix-key" -> { dim: 'year'|'model', val: string }
+    _subFilter: {},  // "prefix-key" -> { dim: 'year'|'model'|'researchType'|'venueType'|'region'|'concept'|'subTheory', val: string }
     _initialized: new Set(),
 
     // Get or create an ECharts instance
@@ -816,6 +816,8 @@ const Charts = {
         // Count badge
         const countEl = document.getElementById(`norm-${key}-count`);
         if (countEl) countEl.textContent = data.count;
+        const listCountEl = document.getElementById(`norm-${key}-list-count`);
+        if (listCountEl) listCountEl.textContent = data.count;
 
         // Year chart
         this._yearBar(`chart-norm-${key}-year`, data.yearDist);
@@ -840,6 +842,9 @@ const Charts = {
         const headerH3 = countEl ? countEl.parentElement.querySelector('h3') : null;
         const baseTitle = headerH3 ? headerH3.textContent : '';
         const filterKey = `${prefix}-${key}`;
+        const listHeaderEl = document.getElementById(`${prefix}-${key}-list-header`);
+        const listH3 = listHeaderEl ? listHeaderEl.querySelector('h3') : null;
+        const listCountEl = listHeaderEl ? listHeaderEl.querySelector('.badge') : null;
 
         const applyFilter = () => {
             const f = this._subFilter[filterKey];
@@ -853,8 +858,27 @@ const Charts = {
             } else if (f.dim === 'model') {
                 filtered = data.papers.filter(sp => (sp.lm || []).includes(f.val));
                 if (headerH3) headerH3.textContent = `${baseTitle} — ${f.val}`;
+            } else if (f.dim === 'researchType') {
+                filtered = data.papers.filter(sp =>
+                    f.val === 'Benchmark / Evaluation' ? sp.ib === 1 : !sp.ib
+                );
+                if (headerH3) headerH3.textContent = `${baseTitle} — ${f.val}`;
+            } else if (f.dim === 'venueType') {
+                filtered = data.papers.filter(sp => sp.vt === f.val);
+                if (headerH3) headerH3.textContent = `${baseTitle} — ${f.val}`;
+            } else if (f.dim === 'region') {
+                filtered = data.papers.filter(sp => (sp.rg || []).includes(f.val));
+                if (headerH3) headerH3.textContent = `${baseTitle} — ${f.val}`;
+            } else if (f.dim === 'subTheory') {
+                filtered = data.papers.filter(sp => (sp.st || []).includes(f.val));
+                if (headerH3) headerH3.textContent = `${baseTitle} — ${f.val}`;
+            } else if (f.dim === 'concept') {
+                filtered = data.papers.filter(sp => (sp.kw || []).includes(f.val));
+                if (headerH3) headerH3.textContent = `${baseTitle} — ${f.val}`;
             }
             if (countEl) countEl.textContent = filtered.length;
+            if (listH3) listH3.textContent = headerH3 ? headerH3.textContent : baseTitle;
+            if (listCountEl) listCountEl.textContent = filtered.length;
             renderPaperList(`${prefix}-${key}-papers`, filtered, 50);
         };
 
@@ -883,6 +907,92 @@ const Charts = {
                     delete this._subFilter[filterKey];
                 } else {
                     this._subFilter[filterKey] = { dim: 'model', val: params.name };
+                }
+                applyFilter();
+            });
+        }
+
+        // Only attach research-type/venue/region handlers when the data has those fields
+        if (data.theoryVsEmpirical) {
+            const splitChart = this._get(`chart-${prefix}-${key}-split`);
+            if (splitChart) {
+                splitChart.off('click');
+                splitChart.on('click', params => {
+                    if (!params.name) return;
+                    const cur = this._subFilter[filterKey];
+                    if (cur && cur.dim === 'researchType' && cur.val === params.name) {
+                        delete this._subFilter[filterKey];
+                    } else {
+                        this._subFilter[filterKey] = { dim: 'researchType', val: params.name };
+                    }
+                    applyFilter();
+                });
+            }
+        }
+
+        if (data.venueTypeDist) {
+            const venueChart = this._get(`chart-${prefix}-${key}-venue`);
+            if (venueChart) {
+                venueChart.off('click');
+                venueChart.on('click', params => {
+                    if (!params.name) return;
+                    const cur = this._subFilter[filterKey];
+                    if (cur && cur.dim === 'venueType' && cur.val === params.name) {
+                        delete this._subFilter[filterKey];
+                    } else {
+                        this._subFilter[filterKey] = { dim: 'venueType', val: params.name };
+                    }
+                    applyFilter();
+                });
+            }
+        }
+
+        if (data.regionDist && data.regionDist.length) {
+            const regionChart = this._get(`chart-${prefix}-${key}-regions`);
+            if (regionChart) {
+                regionChart.off('click');
+                regionChart.on('click', params => {
+                    if (!params.name) return;
+                    const cur = this._subFilter[filterKey];
+                    if (cur && cur.dim === 'region' && cur.val === params.name) {
+                        delete this._subFilter[filterKey];
+                    } else {
+                        this._subFilter[filterKey] = { dim: 'region', val: params.name };
+                    }
+                    applyFilter();
+                });
+            }
+        }
+
+        if (data.subTheories) {
+            const paradigmChart = this._get(`chart-${prefix}-${key}-paradigm`);
+            if (paradigmChart) {
+                paradigmChart.off('click');
+                paradigmChart.on('click', params => {
+                    if (!params.name) return;
+                    const cur = this._subFilter[filterKey];
+                    if (cur && cur.dim === 'subTheory' && cur.val === params.name) {
+                        delete this._subFilter[filterKey];
+                    } else {
+                        this._subFilter[filterKey] = { dim: 'subTheory', val: params.name };
+                    }
+                    applyFilter();
+                });
+            }
+        }
+
+        // Concepts / Virtues bar (VE uses "-virtues" suffix, DE/CU use "-concepts")
+        const conceptChart = this._get(`chart-${prefix}-${key}-virtues`)
+                          || this._get(`chart-${prefix}-${key}-concepts`);
+        if (conceptChart) {
+            conceptChart.off('click');
+            conceptChart.on('click', params => {
+                if (!params.name) return;
+                const cur = this._subFilter[filterKey];
+                if (cur && cur.dim === 'concept' && cur.val === params.name) {
+                    delete this._subFilter[filterKey];
+                } else {
+                    this._subFilter[filterKey] = { dim: 'concept', val: params.name };
                 }
                 applyFilter();
             });
@@ -1257,10 +1367,15 @@ const Charts = {
         this._relCooccurrence(R.cooccurrence, R.coLabels);
         // Sub-sections
         this._relSubSection('islamic', R.islamic);
+        this._relIslamicExtended(R.islamic);
         this._relSubSection('christian', R.christianJewish);
+        this._relChristianExtended(R.christianJewish);
         this._relSubSection('dharmic', R.dharmic);
+        this._relDharmicExtended(R.dharmic);
         this._relSubSection('confucian', R.confucian);
+        this._relConfucianExtended(R.confucian);
         this._relSubSection('ubuntu', R.ubuntuIndigenous);
+        this._relUbuntuExtended(R.ubuntuIndigenous);
     },
 
     _relTradBar(dist) {
@@ -1333,6 +1448,803 @@ const Charts = {
         this._modelsBar(`chart-rel-${key}-models`, data.topModels);
         renderPaperList(`rel-${key}-papers`, data.papers, 50);
         this._attachSubSectionFilter('rel', key, data, countEl);
+    },
+
+    // ─────────────────────────────────────────────────────────────────────
+    // RELIGIOUS SUB-SECTION EXTENDED CHARTS
+    // ─────────────────────────────────────────────────────────────────────
+
+    // ── Islamic: 5 extended charts ────────────────────────────────────────
+    _relIslamicExtended(data) {
+        if (!data) return;
+
+        // 1. Domain treemap
+        {
+            const chart = this._get('chart-rel-islamic-domains');
+            if (chart) {
+                const items = (data.domainDist || []).map(d => ({ name: d.n, value: d.c }));
+                if (items.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        tooltip: { ...this._theme.tooltip, formatter: p => `${p.name}: ${p.value}` },
+                        series: [{
+                            type: 'treemap',
+                            data: items,
+                            roam: false,
+                            breadcrumb: { show: false },
+                            label: { color: '#f1f5f9', fontSize: 11 },
+                            itemStyle: { borderColor: '#0f172a', borderWidth: 2 },
+                            levels: [{ color: ['#166534','#15803d','#16a34a','#22c55e','#4ade80','#86efac'], colorMappingBy: 'index' }],
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 2. Language / geo bar (horizontal, colored by region)
+        {
+            const chart = this._get('chart-rel-islamic-langgeo');
+            if (chart) {
+                const d = (data.langGeo || []).slice(0, 12);
+                if (d.length) {
+                    const regionColors = {
+                        'Middle East': '#22c55e', 'South Asia': '#f59e0b',
+                        'Southeast Asia': '#22d3ee', 'Africa': '#f97316',
+                        'Global': '#6366f1', 'Other': '#64748b',
+                    };
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 110, right: 20, top: 10, bottom: 20 },
+                        xAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        yAxis: { type: 'category', data: d.map(x => x.lang).reverse(), axisLabel: { color: '#94a3b8', fontSize: 11 } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis', formatter: p => `${p[0].name}: ${p[0].value} (${d.find(x => x.lang === p[0].name)?.region || ''})` },
+                        series: [{
+                            type: 'bar',
+                            data: d.map(x => ({ value: x.c, itemStyle: { color: regionColors[x.region] || '#64748b', borderRadius: [0,4,4,0] } })).reverse(),
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 3. Resource vs Bias streams (stacked area / dual-line)
+        {
+            const chart = this._get('chart-rel-islamic-streams');
+            if (chart) {
+                const sl = data.streamTimeline || {};
+                const years = (sl.years || []).map(String);
+                if (years.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 50, right: 20, top: 40, bottom: 40 },
+                        legend: { ...this._theme.legend, top: 0 },
+                        xAxis: { type: 'category', data: years, axisLabel: { color: '#94a3b8' } },
+                        yAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis' },
+                        series: [
+                            {
+                                name: 'Resource', type: 'line', data: sl.resource || [], smooth: true,
+                                lineStyle: { color: '#22c55e', width: 2 }, itemStyle: { color: '#22c55e' },
+                                areaStyle: { color: 'rgba(34,197,94,0.2)' },
+                            },
+                            {
+                                name: 'Bias', type: 'line', data: sl.bias || [], smooth: true,
+                                lineStyle: { color: '#ef4444', width: 2 }, itemStyle: { color: '#ef4444' },
+                                areaStyle: { color: 'rgba(239,68,68,0.2)' },
+                            },
+                        ],
+                    }, true);
+                }
+            }
+        }
+
+        // 4. Source coverage radar
+        {
+            const chart = this._get('chart-rel-islamic-sources');
+            if (chart) {
+                const d = data.sourceCoverage || [];
+                if (d.length) {
+                    const maxVal = Math.max(...d.map(x => x.val), 1);
+                    chart.setOption({
+                        ...this._theme,
+                        radar: {
+                            indicator: d.map(x => ({ name: x.axis, max: maxVal })),
+                            axisName: { color: '#94a3b8', fontSize: 10 },
+                            splitLine: { lineStyle: { color: '#334155' } },
+                            splitArea: { areaStyle: { color: ['#0f172a', '#1e293b'] } },
+                            axisLine: { lineStyle: { color: '#334155' } },
+                        },
+                        series: [{
+                            type: 'radar',
+                            data: [{
+                                value: d.map(x => x.val),
+                                name: 'Source Coverage',
+                                areaStyle: { color: 'rgba(34,197,94,0.3)' },
+                            }],
+                            lineStyle: { color: '#22c55e' },
+                            itemStyle: { color: '#22c55e' },
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 5. Co-traditions (rendered as horizontal bar showing flow values)
+        {
+            const chart = this._get('chart-rel-islamic-sankey');
+            if (chart) {
+                const flows = data.coTraditions || [];
+                if (flows.length) {
+                    const tradColors = {
+                        'Christianity': '#6366f1', 'Judaism': '#a855f7',
+                        'Buddhism': '#f59e0b', 'Hinduism': '#ec4899',
+                        'Confucian': '#22d3ee', 'Ubuntu': '#f97316',
+                        'Indigenous': '#14b8a6', 'Shinto': '#e879f9',
+                    };
+                    const sorted = [...flows].sort((a, b) => b.value - a.value);
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 130, right: 20, top: 10, bottom: 20 },
+                        xAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        yAxis: { type: 'category', data: sorted.map(f => f.target).reverse(), axisLabel: { color: '#94a3b8', fontSize: 11 } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis' },
+                        series: [{
+                            type: 'bar',
+                            data: sorted.map(f => ({ value: f.value, itemStyle: { color: tradColors[f.target] || '#64748b', borderRadius: [0,4,4,0] } })).reverse(),
+                        }],
+                    }, true);
+                }
+            }
+        }
+    },
+
+    // ── Christian/Jewish: 5 extended charts ───────────────────────────────
+    _relChristianExtended(data) {
+        if (!data) return;
+
+        // 1. Tradition breakdown donut
+        {
+            const chart = this._get('chart-rel-christian-breakdown');
+            if (chart) {
+                const tradColors = { 'Christianity': '#6366f1', 'Judaism': '#a855f7', 'Both': '#38bdf8', 'Other': '#64748b' };
+                const pieData = (data.traditionBreakdown || []).map(d => ({
+                    name: d.n, value: d.c,
+                    itemStyle: { color: tradColors[d.n] || '#64748b' },
+                }));
+                if (pieData.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        tooltip: { ...this._theme.tooltip, trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+                        series: [{
+                            type: 'pie', radius: ['40%', '70%'], center: ['50%', '50%'],
+                            data: pieData,
+                            label: { color: '#94a3b8', fontSize: 12 },
+                            emphasis: { label: { show: true, fontSize: 14, fontWeight: 'bold' } },
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 2. Theological concepts radar
+        {
+            const chart = this._get('chart-rel-christian-theology');
+            if (chart) {
+                const d = data.theologicalConcepts || [];
+                if (d.length) {
+                    const maxVal = Math.max(...d.map(x => x.val), 1);
+                    chart.setOption({
+                        ...this._theme,
+                        radar: {
+                            indicator: d.map(x => ({ name: x.axis, max: maxVal })),
+                            axisName: { color: '#94a3b8', fontSize: 10 },
+                            splitLine: { lineStyle: { color: '#334155' } },
+                            splitArea: { areaStyle: { color: ['#0f172a', '#1e293b'] } },
+                            axisLine: { lineStyle: { color: '#334155' } },
+                        },
+                        series: [{
+                            type: 'radar',
+                            data: [{
+                                value: d.map(x => x.val),
+                                name: 'Theological Concepts',
+                                areaStyle: { color: 'rgba(99,102,241,0.3)' },
+                            }],
+                            lineStyle: { color: '#6366f1' },
+                            itemStyle: { color: '#6366f1' },
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 3. Focus distribution donut
+        {
+            const chart = this._get('chart-rel-christian-focus');
+            if (chart) {
+                const pieData = (data.focusDist || []).map((d, i) => ({
+                    name: d.n, value: d.c,
+                    itemStyle: { color: ['#6366f1','#a855f7','#38bdf8','#22c55e','#f59e0b','#64748b'][i % 6] },
+                }));
+                if (pieData.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        tooltip: { ...this._theme.tooltip, trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+                        series: [{
+                            type: 'pie', radius: ['40%', '70%'], center: ['50%', '50%'],
+                            data: pieData,
+                            label: { color: '#94a3b8', fontSize: 12 },
+                            emphasis: { label: { show: true, fontSize: 14, fontWeight: 'bold' } },
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 4. Normative cross-tradition grouped bar
+        {
+            const chart = this._get('chart-rel-christian-normative');
+            if (chart) {
+                const d = data.normativeCross || [];
+                if (d.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 80, right: 20, top: 40, bottom: 40 },
+                        legend: { ...this._theme.legend, top: 0 },
+                        xAxis: { type: 'category', data: d.map(x => x.framework), axisLabel: { color: '#94a3b8', rotate: 20, fontSize: 10 } },
+                        yAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis' },
+                        series: [
+                            {
+                                name: 'Christianity', type: 'bar', data: d.map(x => x.christianity),
+                                itemStyle: { color: '#6366f1', borderRadius: [4,4,0,0] },
+                            },
+                            {
+                                name: 'Judaism', type: 'bar', data: d.map(x => x.judaism),
+                                itemStyle: { color: '#a855f7', borderRadius: [4,4,0,0] },
+                            },
+                        ],
+                    }, true);
+                }
+            }
+        }
+
+        // 5. Tradition comparison HTML table
+        {
+            const el = document.getElementById('rel-christian-comparison');
+            if (el) {
+                const tc = data.traditionComparison || {};
+                const traditions = Object.keys(tc);
+                if (traditions.length) {
+                    const fields = [
+                        { key: 'paperCount',      label: 'Papers' },
+                        { key: 'benchmarkCount',  label: 'Benchmarks' },
+                        { key: 'biasStudies',     label: 'Bias Studies' },
+                        { key: 'frameworkPapers', label: 'Framework Papers' },
+                        { key: 'datasetsCount',   label: 'Datasets' },
+                        { key: 'languages',       label: 'Languages', format: v => Array.isArray(v) ? v.join(', ') : String(v) },
+                    ];
+                    const headerCells = traditions.map(t => `<th style="padding:8px 12px;text-align:right;color:#f1f5f9;border-bottom:1px solid #334155">${t}</th>`).join('');
+                    const rows = fields.map(f => {
+                        const cells = traditions.map(t => {
+                            const raw = tc[t]?.[f.key];
+                            const display = raw === undefined ? '—' : (f.format ? f.format(raw) : String(raw));
+                            return `<td style="padding:6px 12px;text-align:right;color:#94a3b8">${display}</td>`;
+                        }).join('');
+                        return `<tr><td style="padding:6px 12px;color:#cbd5e1;font-size:12px">${f.label}</td>${cells}</tr>`;
+                    }).join('');
+                    el.innerHTML = `
+                        <table style="width:100%;border-collapse:collapse;font-size:13px;background:#0f172a;border-radius:6px;overflow:hidden">
+                            <thead>
+                                <tr style="background:#1e293b">
+                                    <th style="padding:8px 12px;text-align:left;color:#94a3b8;border-bottom:1px solid #334155">Metric</th>
+                                    ${headerCells}
+                                </tr>
+                            </thead>
+                            <tbody>${rows}</tbody>
+                        </table>`;
+                }
+            }
+        }
+    },
+
+    // ── Dharmic: 5 extended charts ────────────────────────────────────────
+    _relDharmicExtended(data) {
+        if (!data) return;
+
+        // 1. Tradition split grouped bar
+        {
+            const chart = this._get('chart-rel-dharmic-split');
+            if (chart) {
+                const d = data.traditionSplit || [];
+                if (d.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 60, right: 20, top: 10, bottom: 40 },
+                        xAxis: { type: 'category', data: d.map(x => x.n), axisLabel: { color: '#94a3b8', fontSize: 11 } },
+                        yAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis' },
+                        series: [{
+                            type: 'bar',
+                            data: d.map((x, i) => ({
+                                value: x.c,
+                                itemStyle: { color: i === 0 ? '#f59e0b' : '#ec4899', borderRadius: [4,4,0,0] },
+                            })),
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 2. Culture distribution donut
+        {
+            const chart = this._get('chart-rel-dharmic-cultures');
+            if (chart) {
+                const pieData = (data.cultureDist || []).map((d, i) => ({
+                    name: d.n, value: d.c,
+                    itemStyle: { color: ['#f59e0b','#ec4899','#38bdf8','#22c55e','#6366f1','#64748b'][i % 6] },
+                }));
+                if (pieData.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        tooltip: { ...this._theme.tooltip, trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+                        series: [{
+                            type: 'pie', radius: ['40%', '70%'], center: ['50%', '50%'],
+                            data: pieData,
+                            label: { color: '#94a3b8', fontSize: 12 },
+                            emphasis: { label: { show: true, fontSize: 14, fontWeight: 'bold' } },
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 3. Concept radar — dual polygon (Buddhism + Hinduism)
+        {
+            const chart = this._get('chart-rel-dharmic-concepts');
+            if (chart) {
+                const cr = data.conceptRadar || {};
+                const labels = cr.labels || [];
+                const buddhism = cr.buddhism || [];
+                const hinduism = cr.hinduism || [];
+                if (labels.length) {
+                    const maxVal = Math.max(...buddhism, ...hinduism, 1);
+                    chart.setOption({
+                        ...this._theme,
+                        legend: { ...this._theme.legend, top: 0 },
+                        radar: {
+                            indicator: labels.map(l => ({ name: l, max: maxVal })),
+                            axisName: { color: '#94a3b8', fontSize: 10 },
+                            splitLine: { lineStyle: { color: '#334155' } },
+                            splitArea: { areaStyle: { color: ['#0f172a', '#1e293b'] } },
+                            axisLine: { lineStyle: { color: '#334155' } },
+                        },
+                        series: [{
+                            type: 'radar',
+                            data: [
+                                {
+                                    value: buddhism, name: 'Buddhism',
+                                    areaStyle: { color: 'rgba(245,158,11,0.3)' },
+                                    lineStyle: { color: '#f59e0b' }, itemStyle: { color: '#f59e0b' },
+                                },
+                                {
+                                    value: hinduism, name: 'Hinduism',
+                                    areaStyle: { color: 'rgba(236,72,153,0.3)' },
+                                    lineStyle: { color: '#ec4899' }, itemStyle: { color: '#ec4899' },
+                                },
+                            ],
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 4. Research focus stacked bar
+        {
+            const chart = this._get('chart-rel-dharmic-focus');
+            if (chart) {
+                const d = data.researchFocus || [];
+                if (d.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 80, right: 20, top: 40, bottom: 40 },
+                        legend: { ...this._theme.legend, top: 0 },
+                        xAxis: { type: 'category', data: d.map(x => x.category), axisLabel: { color: '#94a3b8', rotate: 20, fontSize: 10 } },
+                        yAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+                        series: [
+                            {
+                                name: 'Buddhism', type: 'bar', stack: 'total',
+                                data: d.map(x => x.buddhism),
+                                itemStyle: { color: '#f59e0b' },
+                            },
+                            {
+                                name: 'Hinduism', type: 'bar', stack: 'total',
+                                data: d.map(x => x.hinduism),
+                                itemStyle: { color: '#ec4899' },
+                            },
+                        ],
+                    }, true);
+                }
+            }
+        }
+
+        // 5. Language treemap (colored by tradition)
+        {
+            const chart = this._get('chart-rel-dharmic-langs');
+            if (chart) {
+                const tradColors = { 'Buddhism': '#f59e0b', 'Hinduism': '#ec4899', 'Both': '#38bdf8', 'Other': '#64748b' };
+                const items = (data.langTreemap || []).map(d => ({
+                    name: d.n, value: d.c,
+                    itemStyle: { color: tradColors[d.trad] || '#64748b' },
+                }));
+                if (items.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        tooltip: { ...this._theme.tooltip, formatter: p => `${p.name}: ${p.value}` },
+                        series: [{
+                            type: 'treemap',
+                            data: items,
+                            roam: false,
+                            breadcrumb: { show: false },
+                            label: { color: '#f1f5f9', fontSize: 11 },
+                            itemStyle: { borderColor: '#0f172a', borderWidth: 2 },
+                        }],
+                    }, true);
+                }
+            }
+        }
+    },
+
+    // ── Confucian: 6 extended charts ──────────────────────────────────────
+    _relConfucianExtended(data) {
+        if (!data) return;
+
+        // 1. Cultural footprint treemap
+        {
+            const chart = this._get('chart-rel-confucian-cultures');
+            if (chart) {
+                const items = (data.culturalFootprint || []).map(d => ({ name: d.n, value: d.c }));
+                if (items.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        tooltip: { ...this._theme.tooltip, formatter: p => `${p.name}: ${p.value}` },
+                        series: [{
+                            type: 'treemap',
+                            data: items,
+                            roam: false,
+                            breadcrumb: { show: false },
+                            label: { color: '#f1f5f9', fontSize: 11 },
+                            itemStyle: { borderColor: '#0f172a', borderWidth: 2 },
+                            levels: [{ color: ['#164e63','#155e75','#0e7490','#0891b2','#22d3ee','#67e8f9'], colorMappingBy: 'index' }],
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 2. Framework overlap radar
+        {
+            const chart = this._get('chart-rel-confucian-frameworks');
+            if (chart) {
+                const d = data.frameworkOverlap || [];
+                if (d.length) {
+                    const maxVal = Math.max(...d.map(x => x.val), 1);
+                    chart.setOption({
+                        ...this._theme,
+                        radar: {
+                            indicator: d.map(x => ({ name: x.axis, max: maxVal })),
+                            axisName: { color: '#94a3b8', fontSize: 10 },
+                            splitLine: { lineStyle: { color: '#334155' } },
+                            splitArea: { areaStyle: { color: ['#0f172a', '#1e293b'] } },
+                            axisLine: { lineStyle: { color: '#334155' } },
+                        },
+                        series: [{
+                            type: 'radar',
+                            data: [{
+                                value: d.map(x => x.val),
+                                name: 'Framework Overlap',
+                                areaStyle: { color: 'rgba(34,211,238,0.3)' },
+                            }],
+                            lineStyle: { color: '#22d3ee' },
+                            itemStyle: { color: '#22d3ee' },
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 3. Chinese vs Western LLMs grouped bar
+        {
+            const chart = this._get('chart-rel-confucian-llms');
+            if (chart) {
+                const d = data.chineseVsWesternLLMs || [];
+                if (d.length) {
+                    const chinese = d.filter(x => x.origin === 'Chinese');
+                    const western = d.filter(x => x.origin === 'Western');
+                    const allNames = [...new Set(d.map(x => x.n))];
+                    const lookup = (arr, name) => { const found = arr.find(x => x.n === name); return found ? found.c : 0; };
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 80, right: 20, top: 40, bottom: 40 },
+                        legend: { ...this._theme.legend, top: 0 },
+                        xAxis: { type: 'category', data: allNames, axisLabel: { color: '#94a3b8', rotate: 20, fontSize: 10 } },
+                        yAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis' },
+                        series: [
+                            {
+                                name: 'Chinese', type: 'bar', data: allNames.map(n => lookup(chinese, n)),
+                                itemStyle: { color: '#ef4444', borderRadius: [4,4,0,0] },
+                            },
+                            {
+                                name: 'Western', type: 'bar', data: allNames.map(n => lookup(western, n)),
+                                itemStyle: { color: '#38bdf8', borderRadius: [4,4,0,0] },
+                            },
+                        ],
+                    }, true);
+                }
+            }
+        }
+
+        // 4. Language distribution donut
+        {
+            const chart = this._get('chart-rel-confucian-langs');
+            if (chart) {
+                const pieData = (data.languageDist || []).map((d, i) => ({
+                    name: d.n, value: d.c,
+                    itemStyle: { color: ['#22d3ee','#6366f1','#f59e0b','#22c55e','#ec4899','#64748b'][i % 6] },
+                }));
+                if (pieData.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        tooltip: { ...this._theme.tooltip, trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+                        series: [{
+                            type: 'pie', radius: ['40%', '70%'], center: ['50%', '50%'],
+                            data: pieData,
+                            label: { color: '#94a3b8', fontSize: 12 },
+                            emphasis: { label: { show: true, fontSize: 14, fontWeight: 'bold' } },
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 5. Research trajectory stacked bar (empirical + theoretical over years)
+        {
+            const chart = this._get('chart-rel-confucian-trajectory');
+            if (chart) {
+                const rp = data.researchProfile || {};
+                const years = (rp.years || []).map(String);
+                if (years.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 50, right: 20, top: 40, bottom: 40 },
+                        legend: { ...this._theme.legend, top: 0 },
+                        xAxis: { type: 'category', data: years, axisLabel: { color: '#94a3b8' } },
+                        yAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+                        series: [
+                            {
+                                name: 'Empirical', type: 'bar', stack: 'total',
+                                data: rp.empirical || [],
+                                itemStyle: { color: '#22d3ee' },
+                            },
+                            {
+                                name: 'Theoretical', type: 'bar', stack: 'total',
+                                data: rp.theoretical || [],
+                                itemStyle: { color: '#6366f1' },
+                            },
+                        ],
+                    }, true);
+                }
+            }
+        }
+
+        // 6. Concept frequency horizontal bar
+        {
+            const chart = this._get('chart-rel-confucian-concepts');
+            if (chart) {
+                const d = (data.conceptFreq || []).slice(0, 15);
+                if (d.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 140, right: 20, top: 10, bottom: 20 },
+                        xAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        yAxis: { type: 'category', data: d.map(x => x.n).reverse(), axisLabel: { color: '#94a3b8', fontSize: 11 } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis' },
+                        series: [{
+                            type: 'bar',
+                            data: d.map(x => x.c).reverse(),
+                            itemStyle: { color: '#22d3ee', borderRadius: [0,4,4,0] },
+                        }],
+                    }, true);
+                }
+            }
+        }
+    },
+
+    // ── Ubuntu/Indigenous: 6 extended charts ──────────────────────────────
+    _relUbuntuExtended(data) {
+        if (!data) return;
+
+        const UBUNTU_COLORS = { 'Ubuntu': '#f97316', 'Indigenous': '#14b8a6', 'Shinto': '#e879f9' };
+
+        // 1. Sub-tradition donut (custom colors from col field)
+        {
+            const chart = this._get('chart-rel-ubuntu-subtrad');
+            if (chart) {
+                const pieData = (data.subTradDist || []).map(d => ({
+                    name: d.n, value: d.c,
+                    itemStyle: { color: d.col || UBUNTU_COLORS[d.n] || '#64748b' },
+                }));
+                if (pieData.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        tooltip: { ...this._theme.tooltip, trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+                        series: [{
+                            type: 'pie', radius: ['40%', '70%'], center: ['50%', '50%'],
+                            data: pieData,
+                            label: { color: '#94a3b8', fontSize: 12 },
+                            emphasis: { label: { show: true, fontSize: 14, fontWeight: 'bold' } },
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 2. Culture distribution horizontal bar (colored by trad)
+        {
+            const chart = this._get('chart-rel-ubuntu-cultures');
+            if (chart) {
+                const d = (data.cultureDist || []).slice(0, 12);
+                if (d.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 120, right: 20, top: 10, bottom: 20 },
+                        xAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        yAxis: { type: 'category', data: d.map(x => x.n).reverse(), axisLabel: { color: '#94a3b8', fontSize: 11 } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis' },
+                        series: [{
+                            type: 'bar',
+                            data: d.map(x => ({
+                                value: x.c,
+                                itemStyle: { color: UBUNTU_COLORS[x.trad] || '#64748b', borderRadius: [0,4,4,0] },
+                            })).reverse(),
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 3. Eval readiness stacked bar (benchmark + evaluation + ethicsOnly per tradition)
+        {
+            const chart = this._get('chart-rel-ubuntu-eval');
+            if (chart) {
+                const d = data.evalReadiness || [];
+                if (d.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 80, right: 20, top: 40, bottom: 40 },
+                        legend: { ...this._theme.legend, top: 0 },
+                        xAxis: { type: 'category', data: d.map(x => x.tradition), axisLabel: { color: '#94a3b8', fontSize: 11 } },
+                        yAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+                        series: [
+                            {
+                                name: 'Benchmarks', type: 'bar', stack: 'total',
+                                data: d.map(x => x.benchmark),
+                                itemStyle: { color: '#6366f1' },
+                            },
+                            {
+                                name: 'Evaluation', type: 'bar', stack: 'total',
+                                data: d.map(x => x.evaluation),
+                                itemStyle: { color: '#22c55e' },
+                            },
+                            {
+                                name: 'Ethics Only', type: 'bar', stack: 'total',
+                                data: d.map(x => x.ethicsOnly),
+                                itemStyle: { color: '#f59e0b' },
+                            },
+                        ],
+                    }, true);
+                }
+            }
+        }
+
+        // 4. Theme radar — 3 traces (Ubuntu, Indigenous, Shinto)
+        {
+            const chart = this._get('chart-rel-ubuntu-themes');
+            if (chart) {
+                const tr = data.themeRadar || {};
+                const labels = tr.labels || [];
+                const ubuntuVals = tr.ubuntu || [];
+                const indVals = tr.indigenous || [];
+                const shintoVals = tr.shinto || [];
+                if (labels.length) {
+                    const maxVal = Math.max(...ubuntuVals, ...indVals, ...shintoVals, 1);
+                    chart.setOption({
+                        ...this._theme,
+                        legend: { ...this._theme.legend, top: 0 },
+                        radar: {
+                            indicator: labels.map(l => ({ name: l, max: maxVal })),
+                            axisName: { color: '#94a3b8', fontSize: 10 },
+                            splitLine: { lineStyle: { color: '#334155' } },
+                            splitArea: { areaStyle: { color: ['#0f172a', '#1e293b'] } },
+                            axisLine: { lineStyle: { color: '#334155' } },
+                        },
+                        series: [{
+                            type: 'radar',
+                            data: [
+                                {
+                                    value: ubuntuVals, name: 'Ubuntu',
+                                    areaStyle: { color: 'rgba(249,115,22,0.3)' },
+                                    lineStyle: { color: '#f97316' }, itemStyle: { color: '#f97316' },
+                                },
+                                {
+                                    value: indVals, name: 'Indigenous',
+                                    areaStyle: { color: 'rgba(20,184,166,0.3)' },
+                                    lineStyle: { color: '#14b8a6' }, itemStyle: { color: '#14b8a6' },
+                                },
+                                {
+                                    value: shintoVals, name: 'Shinto',
+                                    areaStyle: { color: 'rgba(232,121,249,0.3)' },
+                                    lineStyle: { color: '#e879f9' }, itemStyle: { color: '#e879f9' },
+                                },
+                            ],
+                        }],
+                    }, true);
+                }
+            }
+        }
+
+        // 5. Gap comparison grouped bar (subset vs vault per metric)
+        {
+            const chart = this._get('chart-rel-ubuntu-gap');
+            if (chart) {
+                const d = data.gapComparison || [];
+                if (d.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 100, right: 20, top: 40, bottom: 40 },
+                        legend: { ...this._theme.legend, top: 0 },
+                        xAxis: { type: 'category', data: d.map(x => x.metric), axisLabel: { color: '#94a3b8', rotate: 20, fontSize: 10 } },
+                        yAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis' },
+                        series: [
+                            {
+                                name: 'Subset', type: 'bar', data: d.map(x => x.subset),
+                                itemStyle: { color: '#f97316', borderRadius: [4,4,0,0] },
+                            },
+                            {
+                                name: 'Vault', type: 'bar', data: d.map(x => x.vault),
+                                itemStyle: { color: '#64748b', borderRadius: [4,4,0,0] },
+                            },
+                        ],
+                    }, true);
+                }
+            }
+        }
+
+        // 6. Language distribution horizontal bar
+        {
+            const chart = this._get('chart-rel-ubuntu-langs');
+            if (chart) {
+                const d = (data.languageDist || []).slice(0, 12);
+                if (d.length) {
+                    chart.setOption({
+                        ...this._theme,
+                        grid: { left: 110, right: 20, top: 10, bottom: 20 },
+                        xAxis: { type: 'value', axisLabel: { color: '#94a3b8' }, splitLine: { lineStyle: { color: '#1e293b' } } },
+                        yAxis: { type: 'category', data: d.map(x => x.n).reverse(), axisLabel: { color: '#94a3b8', fontSize: 11 } },
+                        tooltip: { ...this._theme.tooltip, trigger: 'axis' },
+                        series: [{
+                            type: 'bar',
+                            data: d.map(x => x.c).reverse(),
+                            itemStyle: { color: '#14b8a6', borderRadius: [0,4,4,0] },
+                        }],
+                    }, true);
+                }
+            }
+        }
     },
 
     // ═════════════════════════════════════════════════════════════════════

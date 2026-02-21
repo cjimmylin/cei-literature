@@ -182,6 +182,7 @@ body {
     border-bottom: 1px solid var(--border);
 }
 .section-header h3 { font-size: 16px; }
+.section-header-list { margin-top: 24px; }
 .badge {
     background: var(--accent); color: #fff;
     padding: 2px 10px; border-radius: 10px;
@@ -414,6 +415,10 @@ body {
 .fw-accent-dharmic { border-left: 3px solid #f59e0b; }
 .fw-accent-confucian { border-left: 3px solid #ec4899; }
 .fw-accent-ubuntu { border-left: 3px solid #f97316; }
+
+/* Tradition comparison table */
+.trad-comparison-table { padding: 12px; }
+.trad-comparison-table table { width: 100%; }
 
 /* Best practices card grid */
 .bp-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin: 20px 0; }

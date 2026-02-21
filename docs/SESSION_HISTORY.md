@@ -2,6 +2,29 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 93 (Feb 20, 2026) - Dashboard v4: Clickable Paradigm Breakdown Chart
+
+### Overview
+Made the Paradigm Breakdown horizontal bar chart (Kohlberg vs Trolley) in the Moral Psychology > Developmental subtab clickable for paper-list filtering, matching the behavior of Year Distribution and Top Models charts. Papers can belong to both paradigms simultaneously (uses array `.includes()` filtering).
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Python changes | +3 lines (`paper_sub_theories` list, `"st"` field in paper dict) |
+| JS changes | +16 lines (`subTheory` filter branch + paradigm click handler) |
+| Dev papers with st field | 22/22 (Kohlberg: 8, Trolley: 16, Both: 2) |
+| MFT/Schwartz affected | 0 (data guard prevents handler attachment) |
+| data.js regenerated | 2,091 KB |
+
+### Key Learnings
+- [Data Quality] Variable shadowing: `paper_theories` (dict, line 1249) vs loop-local list — renamed to `paper_sub_theories`
+- [Workflows] Data-guard pattern (`if (data.subTheories)`) for per-subtab feature-flagging without explicit name checks
+
+### Files Changed
+- PYTHON/generate_vault_dashboard_4.py: +`paper_sub_theories` collection, +`"st"` field in dev paper dict
+- STATISTICS/cei-dashboard-4/charts.js: +`subTheory` filter dimension in `applyFilter()`, +paradigm click handler in `_attachSubSectionFilter()`
+- STATISTICS/cei-dashboard-4/data.js: Regenerated with `st` field in Developmental papers
+
 ## Session 92 (Feb 20, 2026) - Dashboard v4: DE & CU Subtab Enhancement
 
 ### Overview

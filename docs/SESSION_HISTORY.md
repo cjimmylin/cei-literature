@@ -2,6 +2,36 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 99 (Feb 21, 2026) - Dashboard v6b UX, Accessibility & Engineering Improvements
+
+### Overview
+Implemented an 8-phase improvement plan on `STATISTICS/cei-dashboard-6b/` (copy of v6 baseline), adding loading UX, ARIA accessibility, responsive breakpoints, performance optimizations, dark/light theme toggle, URL state persistence, CSV export, back-to-top button, and z-index layer cleanup. All changes are plain HTML/CSS/JS for GitHub Pages — no build tools or frameworks.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Phases implemented | 8/8 |
+| index.html | 717 → 739 lines (+22) |
+| style.css | 456 → 600 lines (+144) |
+| app.js | 815 → 985 lines (+170) |
+| charts.js | 1,386 → 1,425 lines (+39) |
+| Total lines added | ~375 |
+| New modules | ThemeManager, URLState, loading splash, back-to-top, CSV export |
+| Accessibility | ARIA tablist/tab/tabpanel, keyboard nav, focus-visible, skip link, chart aria-labels |
+| Responsive | 600px + 900px breakpoints, touch targets ≥36px |
+
+### Key Learnings
+- [Dashboard] CSS custom properties bridge to ECharts: `getComputedStyle(document.body).getPropertyValue()` reads CSS vars into a `_tc` cache object, replacing ~30 hardcoded hex colors — avoids full dispose/reinit needed in v5e
+- [Dashboard] URL state loop prevention: FilterState.subscribe → URLState._push → _restore → FilterState.notify creates infinite loops. A `_pushing` boolean flag gates the push during restore, breaking the cycle
+- [Dashboard] Event delegation for pagination eliminates listener accumulation: single handler on `#explorer-pagination` with `e.target.closest('.page-btn')` replaces per-button attachment on every re-render
+- [Dashboard] Single-pass Map accumulator for MultiSelect counts reduces O(options × papers) to O(papers) — precompute counts in one loop instead of `.filter().length` per option
+
+### Files Changed
+- `STATISTICS/cei-dashboard-6b/index.html`: Loading splash, skip link, ARIA roles on tabs/sections, theme toggle button, CSV export button, back-to-top button, ECharts error boundary, version v4→v6
+- `STATISTICS/cei-dashboard-6b/style.css`: Splash animation, focus-visible outlines, responsive breakpoints (600px/900px), light theme vars, theme toggle, export/back-to-top styles, z-index layer scale
+- `STATISTICS/cei-dashboard-6b/app.js`: ThemeManager, URLState, keyboard tab nav, ARIA updates, pagination delegation, MultiSelect count optimization, CSV export, back-to-top handler, version v4→v6
+- `STATISTICS/cei-dashboard-6b/charts.js`: `_resolveThemeColors()` CSS var reader, resize debounce, auto chart ARIA labels, ~30 hardcoded colors → `_tc.*` refs, version v4→v6
+
 ## Session 98 (Feb 20, 2026) - Dashboard v5f "Patina" Redesign
 
 ### Overview

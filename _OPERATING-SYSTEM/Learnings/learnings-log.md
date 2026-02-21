@@ -1,5 +1,5 @@
 # Learnings Log
-*Last updated: 2026-02-20*
+*Last updated: 2026-02-21*
 
 ---
 
@@ -31,6 +31,17 @@
 - Include context (what triggered the learning)
 - Note edge cases and exceptions
 - Link to relevant Standards/ files if applicable
+
+---
+
+## 2026-02-21 (Session 99)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-21 | Dashboard | **CSS Var → ECharts Bridge (No Dispose/Reinit):** `_resolveThemeColors()` reads CSS custom properties via `getComputedStyle(document.body).getPropertyValue('--text-secondary')` into a cached `_tc` object, then chart factory methods reference `this._tc.textSec` etc. instead of hardcoded hex. On theme toggle, call `_resolveThemeColors()` + `resizeAll()` — charts pick up new colors without full `dispose()`/reinit. This avoids the v5e pattern where `_reTheme()` had to clear `_instances` and `_initialized`. Works because ECharts `setOption()` with the same structure but new colors is a lightweight merge, not a full reinit. |
+| 2026-02-21 | Dashboard | **URL State Infinite Loop Prevention:** `FilterState.subscribe(() => URLState._push())` + `URLState._restore()` → `FilterState` notification creates a subscribe→push→restore→notify cycle. Fix: `_pushing` boolean flag set `true` before restore, checked in push. `replaceState` (not `pushState`) avoids polluting browser history with every filter change — users use Back/Forward for meaningful navigation, not incremental filter tweaks. |
+| 2026-02-21 | Dashboard | **Event Delegation for Dynamic Pagination:** Attaching click handlers to each `.page-btn` inside `_renderPagination()` leaks listeners (N new handlers per render × M renders per session). Single delegated handler on `#explorer-pagination` in `Explorer.init()` using `e.target.closest('.page-btn')?.dataset.page` eliminates the leak entirely. Same pattern works for any dynamically-rendered button list. |
+| 2026-02-21 | Dashboard | **ARIA Tablist Pattern for SPA Tabs:** `role="tablist"` on nav, `role="tab"` + `aria-selected` + `aria-controls` on buttons, `role="tabpanel"` + `aria-labelledby` on sections. Keyboard nav: ArrowLeft/Right cycles, Home/End jump to first/last. `switchTab()` must update `aria-selected` on all tabs (not just active). Screen readers announce "Tab 1 of 9, selected" without extra effort. |
 
 ---
 

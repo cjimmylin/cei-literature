@@ -174,8 +174,13 @@
                     <div class="chart-card"><h3>Venue Type Distribution</h3><div class="chart-container" id="chart-conf-donut"></div></div>
                     <div class="chart-card"><h3>Top 30 Venues</h3><div class="chart-container chart-tall" id="chart-conf-top30"></div></div>
                 </div>
+                <div class="section-header section-header-list" id="conf-ov-list-header"><h3>Conference & Venue Papers</h3><span class="badge" id="conf-ov-list-count">0</span></div>
+                <div class="paper-list" id="conf-ov-papers"></div>
             </div>
             <div class="sub-pane" id="sub-conf-families">
+                <div class="narrative">
+                    <p><strong>Individual venue names fragment what are really conference families</strong> — ACL, NAACL, EACL, and AACL-IJCNLP all belong to the ACL ecosystem; NeurIPS, ICML, and ICLR form the ML core. This sub-tab groups venues into families and ecosystems, revealing which research communities drive the ethics conversation. The treemap shows relative mass, the ecosystem chart maps disciplinary homes, and the year heatmap tracks how each family's engagement has evolved.</p>
+                </div>
                 <div class="chart-grid-2">
                     <div class="chart-card"><h3>Conference Family Treemap</h3><div class="chart-container chart-tall" id="chart-conf-treemap"></div></div>
                     <div class="chart-card"><h3>Ecosystem Distribution</h3><div class="chart-container" id="chart-conf-ecosystem"></div></div>
@@ -207,19 +212,31 @@
                         </table>
                     </div>
                 </div>
+                <div class="section-header section-header-list" id="conf-fam-list-header"><h3>Conference Family Papers</h3><span class="badge" id="conf-fam-list-count">0</span></div>
+                <div class="paper-list" id="conf-fam-papers"></div>
             </div>
             <div class="sub-pane" id="sub-conf-journals">
+                <div class="narrative">
+                    <p><strong>Journal publications complement the conference-driven pace of AI research</strong> with longer review cycles and broader disciplinary reach. Many ethics and social-science perspectives enter the AI values conversation through journals rather than conference proceedings. The chart below ranks the 20 most-represented journals in the vault, spanning AI-specific outlets, interdisciplinary ethics journals, and domain venues in law, philosophy, and public policy.</p>
+                </div>
                 <div class="chart-grid-1">
                     <div class="chart-card"><h3>Top 20 Journals</h3><div class="chart-container chart-tall" id="chart-conf-journals"></div></div>
                 </div>
+                <div class="section-header section-header-list" id="conf-jour-list-header"><h3>Journal Papers</h3><span class="badge" id="conf-jour-list-count">0</span></div>
+                <div class="paper-list" id="conf-jour-papers"></div>
             </div>
             <div class="sub-pane" id="sub-conf-temporal">
+                <div class="narrative">
+                    <p><strong>Publication patterns shift over time</strong> as new venues emerge and the balance between peer-reviewed and preprint outlets evolves. The timeline below tracks how venue types — conferences, journals, workshops, and preprints — have contributed to the vault year by year. The peer-review ratio chart reveals whether the field's rapid growth has maintained its proportion of expert-scrutinised work or increasingly relied on unreviewed preprints.</p>
+                </div>
                 <div class="chart-grid-1">
                     <div class="chart-card"><h3>Venue Type Timeline</h3><div class="chart-container" id="chart-conf-timeline"></div></div>
                 </div>
                 <div class="chart-grid-1">
                     <div class="chart-card"><h3>Peer-Review Ratio Over Time</h3><div class="chart-container" id="chart-conf-peer-ratio"></div></div>
                 </div>
+                <div class="section-header section-header-list" id="conf-temp-list-header"><h3>Publication Papers</h3><span class="badge" id="conf-temp-list-count">0</span></div>
+                <div class="paper-list" id="conf-temp-papers"></div>
             </div>
         </section>
 
@@ -230,6 +247,9 @@
                 <button class="sub-btn" data-sub="tax-benchmarks">Benchmarks</button>
             </div>
             <div class="sub-pane active" id="sub-tax-overview">
+                <div class="narrative">
+                    <p><strong>Every paper in the vault carries a multi-label classification</strong> spanning ethics focus, research methodology, data nature, and topical domain — assigned through a seven-stage keyword-and-heuristic pipeline. This overview visualises how those categories distribute over time and interact with each other. The year heatmap reveals when particular sub-fields gained traction, the co-occurrence matrix shows which topics are studied together (and which remain siloed), and the model-family chart highlights which AI systems attract the most taxonomic scrutiny.</p>
+                </div>
                 <div class="chart-grid-1">
                     <div class="chart-card"><h3>Category x Year Heatmap</h3><div class="chart-container chart-tall" id="chart-tax-heatmap"></div></div>
                 </div>
@@ -304,6 +324,9 @@
                 </div>
             </div>
             <div class="sub-pane" id="sub-cult-countries">
+                <div class="narrative">
+                    <p><strong>Country and nationality tags reveal which societies' values the AI ethics literature actually examines.</strong> The bar chart below ranks the 30 most-studied cultures and nationalities. While the Regions sub-tab aggregates by continent, this view preserves the granularity needed to spot imbalances — for example, whether "East Asian" coverage is driven primarily by Chinese or Japanese studies, or whether African representation is concentrated in a single country.</p>
+                </div>
                 <div class="section-header"><h3>Culture/Nationality Papers</h3><span class="badge" id="cult-country-count">0</span></div>
                 <div class="chart-grid-1">
                     <div class="chart-card"><h3>Top 30 Cultures/Nationalities</h3><div class="chart-container chart-tall" id="chart-cult-country-bar"></div></div>
@@ -311,6 +334,9 @@
                 <div class="paper-list" id="cult-country-papers"></div>
             </div>
             <div class="sub-pane" id="sub-cult-languages">
+                <div class="narrative">
+                    <p><strong>Language is both a proxy for cultural reach and a practical barrier to evaluation.</strong> A benchmark available only in English cannot test whether an LLM's moral reasoning holds in Mandarin, Arabic, or Yoruba. This sub-tab charts the languages explicitly studied or used in the vault's papers — revealing how far the field has moved beyond English-only evaluation and where monolingual blind spots persist.</p>
+                </div>
                 <div class="section-header"><h3>Language Papers</h3><span class="badge" id="cult-lang-count">0</span></div>
                 <div class="chart-grid-1">
                     <div class="chart-card"><h3>Top 20 Languages</h3><div class="chart-container chart-tall" id="chart-cult-lang-bar"></div></div>
@@ -318,6 +344,9 @@
                 <div class="paper-list" id="cult-lang-papers"></div>
             </div>
             <div class="sub-pane" id="sub-cult-weird">
+                <div class="narrative">
+                    <p><strong>The WEIRD framework</strong> (Western, Educated, Industrialized, Rich, Democratic) identifies a sampling bias that pervades psychology and, by extension, AI alignment research. Papers focused on populations outside WEIRD societies often uncover value structures that mainstream benchmarks miss entirely. This chart classifies every culturally-tagged paper in the vault as WEIRD or non-WEIRD, quantifying the extent of that imbalance.</p>
+                </div>
                 <div class="chart-grid-2">
                     <div class="chart-card"><h3>WEIRD vs Non-WEIRD</h3><div class="chart-container" id="chart-cult-weird-pie"></div></div>
                     <div class="chart-card info-card" id="cult-weird-info">
@@ -327,6 +356,9 @@
                 </div>
             </div>
             <div class="sub-pane" id="sub-cult-treemap">
+                <div class="narrative">
+                    <p><strong>The treemap provides a hierarchical view</strong> of the vault's cultural coverage, nesting individual countries and nationalities within their parent regions. Rectangle size encodes paper count, making it immediately visible where research mass concentrates and which regions contain only a thin scattering of studies. Click or hover to drill into any region's constituent cultures.</p>
+                </div>
                 <div class="chart-grid-1">
                     <div class="chart-card"><h3>Region → Culture Treemap</h3><div class="chart-container chart-tall" id="chart-cult-treemap"></div></div>
                 </div>
@@ -485,6 +517,9 @@
                 <div class="paper-list" id="norm-cu-papers"></div>
             </div>
             <div class="sub-pane" id="sub-norm-overlap">
+                <div class="narrative">
+                    <p><strong>Most real-world ethical dilemmas do not fit neatly into a single tradition.</strong> Papers tagged with more than one normative framework — virtue ethics, deontological, or consequentialist — reveal where the literature engages in genuinely pluralistic moral reasoning. This sub-tab maps those overlaps: which framework combinations appear most often, how multi-framework scholarship has grown over time, whether certain models or geographic regions attract more cross-tradition analysis, and how benchmark density compares across single- versus multi-framework papers.</p>
+                </div>
                 <!-- Row 1: Overlap bar (existing) + Benchmark density KPIs -->
                 <div class="chart-grid-2">
                     <div class="chart-card"><h3>Framework Overlap</h3><div class="chart-container" id="chart-norm-overlap"></div></div>
@@ -801,13 +836,12 @@
                     <p><strong>Which LLMs get evaluated — and which do not — defines the boundaries of what we know about AI alignment.</strong> This section maps the landscape of model evaluation across the vault's literature, drawn from both LLM assessment metadata and benchmark survey results. The distribution reveals a pronounced concentration: a small number of proprietary model families (GPT, Claude, LLaMA) dominate the evaluation literature, while most open-source and non-English-centric models remain under-tested. The timeline tracks the rapid post-2022 expansion of evaluation work, and the repository chart shows where researchers share their evaluation artifacts.</p>
                 </div>
                 <div class="chart-grid-2">
-                    <div class="chart-card"><h3>Top LLM Models (from Assessment)</h3><div class="chart-container chart-tall" id="chart-llm-models"></div></div>
-                    <div class="chart-card"><h3>Model Families (from Benchmarks)</h3><div class="chart-container chart-tall" id="chart-llm-families"></div></div>
-                </div>
-                <div class="chart-grid-2">
-                    <div class="chart-card"><h3>LLM Assessment Timeline</h3><div class="chart-container" id="chart-llm-timeline"></div></div>
+                    <div class="chart-card"><h3>LLM Model Families</h3><div class="chart-container chart-tall" id="chart-llm-models"></div></div>
+                    <div class="chart-card"><h3>Model Coverage Timeline</h3><div class="chart-container chart-tall" id="chart-llm-timeline"></div></div>
                     <div class="chart-card"><h3>Data Repository Distribution</h3><div class="chart-container" id="chart-llm-repos"></div></div>
                 </div>
+                <div class="section-header section-header-list" id="models-ov-list-header"><h3>LLM-Assessed Papers</h3><span class="badge" id="models-ov-list-count">0</span></div>
+                <div class="paper-list" id="models-ov-papers"></div>
             </div>
             <div class="sub-pane" id="sub-models-depth">
                 <div class="narrative">
@@ -821,6 +855,8 @@
                     <div class="chart-card"><h3>Open vs. Closed Source Models</h3><div class="chart-container" id="chart-md-open-closed"></div></div>
                     <div class="chart-card"><h3>Model Coverage Breadth</h3><div class="chart-container" id="chart-md-breadth"></div></div>
                 </div>
+                <div class="section-header section-header-list" id="models-depth-list-header"><h3>Model Depth Papers</h3><span class="badge" id="models-depth-list-count">0</span></div>
+                <div class="paper-list" id="models-depth-papers"></div>
             </div>
         </section>
 

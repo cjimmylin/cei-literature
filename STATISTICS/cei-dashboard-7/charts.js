@@ -482,6 +482,31 @@ const Charts = {
                 areaStyle: { color: { type: 'linear', x: 0, y: 0, x2: 0, y2: 1, colorStops: [{offset: 0, color: 'rgba(99,102,241,0.3)'}, {offset: 1, color: 'rgba(99,102,241,0.0)'}] } },
             }],
         });
+
+        // --- Paper lists + click-to-filter ---
+        this._attachModelFilter('conf-ov', DATA.papers, [
+            { chartId: 'chart-conf-donut', dim: 'venueType', filterFn: (p, val) => p.vt === val },
+            { chartId: 'chart-conf-top30', dim: 'venue', filterFn: (p, val) => p.cc === val },
+        ]);
+
+        const famPapers = DATA.papers.filter(p => p.cf);
+        this._attachModelFilter('conf-fam', famPapers, [
+            {
+                chartId: 'chart-conf-treemap',
+                dim: 'family',
+                filterFn: (p, val) => p.cf === val,
+                resolveName: params => (params.data && params.data.children === undefined) ? params.name : null,
+            },
+        ]);
+
+        const journalPapers = DATA.papers.filter(p => p.vt === 'Journal');
+        this._attachModelFilter('conf-jour', journalPapers, [
+            { chartId: 'chart-conf-journals', dim: 'journal', filterFn: (p, val) => p.cc === val },
+        ]);
+
+        this._attachModelFilter('conf-temp', DATA.papers, [
+            { chartId: 'chart-conf-timeline', dim: 'year', filterFn: (p, val) => p.y === +val },
+        ]);
     },
 
     _heatmapExpandedIdx: null,
@@ -1247,19 +1272,37 @@ const Charts = {
 
     _initModels() {
         const L = DATA.llm;
-        this._horizontalBar('chart-llm-models', L.llmModels, {
-            maxItems: 20, fontSize: 10, color: this._palette.violet,
-            onClick: p => { if (p.name) FilterState.toggle('llmModel', p.name); },
-        });
-        this._horizontalBar('chart-llm-families', L.modelFamilies, { maxItems: 20, fontSize: 10, color: this._palette.yellow });
 
-        // LLM timeline
-        const years = Object.keys(L.llmByYear).sort();
+        // Compute model-family counts from p.lm at runtime (matches filter logic)
+        const llmPapers = DATA.papers.filter(p => p.lm && p.lm.length);
+        const familyCounts = {};
+        llmPapers.forEach(p => (p.lm || []).forEach(m => {
+            familyCounts[m] = (familyCounts[m] || 0) + 1;
+        }));
+        const familyItems = Object.entries(familyCounts)
+            .sort((a, b) => b[1] - a[1])
+            .map(([n, c]) => ({ n, c }));
+        this._horizontalBar('chart-llm-models', familyItems, {
+            maxItems: 20, fontSize: 10, color: this._palette.violet,
+        });
+
+        // Model coverage timeline (computed from p.lm to match filter)
+        const yearCounts = {};
+        DATA.papers.forEach(p => {
+            if (!p.y || p.y < 2016) return;
+            const k = String(p.y);
+            if (!yearCounts[k]) yearCounts[k] = { a: 0, na: 0 };
+            if (p.lm && p.lm.length) yearCounts[k].a++;
+            else yearCounts[k].na++;
+        });
+        const years = Object.keys(yearCounts).sort();
         this._stackedTimeline('chart-llm-timeline', {
             years,
             series: [
-                { name: 'Assessed', type: 'bar', data: years.map(y => L.llmByYear[y].a), color: this._palette.green, stack: 'total', smooth: false },
-                { name: 'Not Assessed', type: 'bar', data: years.map(y => L.llmByYear[y].na), color: '#475569', stack: 'total', smooth: false },
+                { name: 'Has Models', type: 'bar', data: years.map(y => yearCounts[y].a),
+                  color: this._palette.green, stack: 'total', smooth: false },
+                { name: 'No Models', type: 'bar', data: years.map(y => yearCounts[y].na),
+                  color: '#475569', stack: 'total', smooth: false },
             ],
         });
 
@@ -1270,6 +1313,20 @@ const Charts = {
 
         // v7: Model Depth sub-tab
         this._initModelDepth();
+
+        // --- Paper list + click-to-filter (Overview) ---
+        this._attachModelFilter('models-ov', llmPapers, [
+            {
+                chartId: 'chart-llm-models',
+                dim: 'model',
+                filterFn: (p, val) => (p.lm || []).includes(val),
+            },
+            {
+                chartId: 'chart-llm-timeline',
+                dim: 'year',
+                filterFn: (p, val) => p.y === +val,
+            },
+        ]);
     },
 
     // ═══════════════════════════════════════════════════════════════════════
@@ -1408,6 +1465,58 @@ const Charts = {
                 const cur = this._subFilter[filterKey];
                 if (cur && cur.dim === dim && cur.val === params.name) delete this._subFilter[filterKey];
                 else this._subFilter[filterKey] = { dim, val: params.name };
+                applyFilter();
+            });
+        }
+    },
+
+    /**
+     * Attach filter wiring for Models & LLMs sub-tabs.
+     * Like _attachSubSectionFilter but for non-standard chart IDs.
+     * @param {string} filterKey - unique key for _subFilter (e.g., 'models-ov')
+     * @param {Array} basePapers - full paper objects to filter from
+     * @param {Array} bindings - [{chartId, dim, filterFn, resolveName?}]
+     */
+    _attachModelFilter(filterKey, basePapers, bindings) {
+        const listHeaderEl = document.getElementById(`${filterKey}-list-header`);
+        const listH3 = listHeaderEl ? listHeaderEl.querySelector('h3') : null;
+        const listCountEl = listHeaderEl ? listHeaderEl.querySelector('.badge') : null;
+        const baseTitle = listH3 ? listH3.textContent : '';
+        const containerId = `${filterKey}-papers`;
+
+        // Initial render
+        if (listCountEl) listCountEl.textContent = basePapers.length;
+        renderPaperList(containerId, basePapers, 50);
+
+        const applyFilter = () => {
+            const f = this._subFilter[filterKey];
+            let filtered;
+            if (!f) {
+                filtered = basePapers;
+                if (listH3) listH3.textContent = baseTitle;
+            } else {
+                filtered = basePapers.filter(p => f.filterFn(p, f.val));
+                if (listH3) listH3.textContent = `${baseTitle} \u2014 ${f.val}`;
+            }
+            if (listCountEl) listCountEl.textContent = filtered.length;
+            renderPaperList(containerId, filtered, 50);
+        };
+        this._applyFns[filterKey] = applyFilter;
+
+        // Wire click handlers on each chart
+        for (const b of bindings) {
+            const chart = this._get(b.chartId);
+            if (!chart) continue;
+            chart.off('click');
+            chart.on('click', params => {
+                const name = b.resolveName ? b.resolveName(params) : (params.name || null);
+                if (!name) return;
+                const cur = this._subFilter[filterKey];
+                if (cur && cur.dim === b.dim && cur.val === name) {
+                    delete this._subFilter[filterKey];
+                } else {
+                    this._subFilter[filterKey] = { dim: b.dim, val: name, filterFn: b.filterFn };
+                }
                 applyFilter();
             });
         }
@@ -1706,22 +1815,35 @@ const Charts = {
         }).sort((a, b) => b.c - a.c);
         this._horizontalBar('chart-md-model-culture', cultureCounts, { maxItems: 15, gridLeft: 130, labelWidth: 120, color: this._palette.pink });
 
-        // Open vs. Closed source donut
-        const openModels = ['LLaMA', 'Llama', 'Llama 2', 'Llama 3', 'Mistral', 'Mixtral', 'Falcon', 'BLOOM', 'Vicuna', 'Alpaca', 'Qwen', 'ChatGLM', 'Baichuan', 'DeepSeek', 'Yi', 'OLMo', 'Gemma', 'Phi', 'StableLM', 'MPT'];
-        const closedModels = ['GPT-4', 'GPT-3.5', 'GPT-3', 'ChatGPT', 'Claude', 'Claude 2', 'Claude 3', 'Gemini', 'PaLM', 'PaLM 2', 'Bard'];
-        let openCount = 0, closedCount = 0, otherCount = 0;
-        papers.forEach(p => {
-            (p.lm || []).forEach(m => {
-                const mLower = m.toLowerCase();
-                if (openModels.some(o => mLower.includes(o.toLowerCase()))) openCount++;
-                else if (closedModels.some(c => mLower.includes(c.toLowerCase()))) closedCount++;
-                else otherCount++;
-            });
+        // Open vs. Closed source donut — mutually exclusive paper partition
+        const LM_LICENSE = {
+            'Llama': 'open', 'Mistral/Mixtral': 'open', 'Falcon': 'open', 'BLOOM': 'open',
+            'Vicuna': 'open', 'Alpaca': 'open', 'Qwen': 'open', 'ChatGLM': 'open',
+            'Baichuan': 'open', 'DeepSeek': 'open', 'Yi': 'open', 'Gemma': 'open',
+            'Phi': 'open', 'Zephyr': 'open', 'StableLM': 'open', 'MPT': 'open',
+            'WizardLM': 'open', 'OLMo': 'open',
+            'GPT-4': 'closed', 'GPT-3.5': 'closed', 'GPT-3': 'closed', 'Claude': 'closed',
+            'Gemini': 'closed', 'PaLM': 'closed', 'Cohere': 'closed',
+        };
+        let openOnly = 0, closedOnly = 0, bothOC = 0, otherLic = 0;
+        const depthWithLm = papers.filter(p => p.lm && p.lm.length);
+        depthWithLm.forEach(p => {
+            let hasOpen = false, hasClosed = false;
+            for (const m of p.lm) {
+                const lic = LM_LICENSE[m];
+                if (lic === 'open') hasOpen = true;
+                else if (lic === 'closed') hasClosed = true;
+            }
+            if (hasOpen && hasClosed) bothOC++;
+            else if (hasOpen) openOnly++;
+            else if (hasClosed) closedOnly++;
+            else otherLic++;
         });
         this._donut('chart-md-open-closed', [
-            { name: 'Open Source', value: openCount, itemStyle: { color: this._palette.green } },
-            { name: 'Closed Source', value: closedCount, itemStyle: { color: this._palette.red } },
-            { name: 'Other/Unknown', value: otherCount, itemStyle: { color: this._palette.slate } },
+            { name: 'Open Source Only', value: openOnly, itemStyle: { color: this._palette.green } },
+            { name: 'Closed Source Only', value: closedOnly, itemStyle: { color: this._palette.red } },
+            { name: 'Both Open & Closed', value: bothOC, itemStyle: { color: this._palette.yellow } },
+            { name: 'Other/Unknown', value: otherLic, itemStyle: { color: this._palette.slate } },
         ]);
 
         // Model coverage breadth — frameworks tested per model
@@ -1740,6 +1862,58 @@ const Charts = {
             maxItems: 15, gridLeft: 130, labelWidth: 120, color: this._palette.accent,
             tooltipFmt: p => `${p[0].name}: ${p[0].value} dimensions tested`,
         });
+
+        // --- Paper list + click-to-filter (Model Depth) ---
+        const depthPapers = papers.filter(p => p.lm && p.lm.length);
+
+        this._attachModelFilter('models-depth', depthPapers, [
+            {
+                chartId: 'chart-md-model-fw',
+                dim: 'model\u00d7fw',
+                resolveName: (params) => {
+                    const rowIdx = params.value[1];
+                    const colIdx = params.value[0];
+                    return `${topModels[rowIdx]} + ${fwCols[colIdx]}`;
+                },
+                filterFn: (p, val) => {
+                    const [model, fw] = val.split(' + ');
+                    if (!(p.lm || []).includes(model)) return false;
+                    if (fw === 'VE') return !!p.ve;
+                    if (fw === 'DE') return !!p.de;
+                    if (fw === 'CU') return !!p.ue;
+                    if (fw === 'MFT') return p.mp && p.mp.includes('Moral Foundations');
+                    if (fw === 'Schwartz') return p.mp && p.mp.includes('Schwartz');
+                    if (fw === 'Kohlberg') return p.mp && p.mp.includes('Developmental');
+                    return false;
+                },
+            },
+            {
+                chartId: 'chart-md-model-culture',
+                dim: 'model',
+                filterFn: (p, val) => (p.lm || []).includes(val),
+            },
+            {
+                chartId: 'chart-md-open-closed',
+                dim: 'license',
+                filterFn: (p, val) => {
+                    let hasOpen = false, hasClosed = false;
+                    for (const m of (p.lm || [])) {
+                        const lic = LM_LICENSE[m];
+                        if (lic === 'open') hasOpen = true;
+                        else if (lic === 'closed') hasClosed = true;
+                    }
+                    if (val === 'Open Source Only') return hasOpen && !hasClosed;
+                    if (val === 'Closed Source Only') return hasClosed && !hasOpen;
+                    if (val === 'Both Open & Closed') return hasOpen && hasClosed;
+                    return !hasOpen && !hasClosed; // Other/Unknown
+                },
+            },
+            {
+                chartId: 'chart-md-breadth',
+                dim: 'model',
+                filterFn: (p, val) => (p.lm || []).includes(val),
+            },
+        ]);
     },
 
     // ═══════════════════════════════════════════════════════════════════════

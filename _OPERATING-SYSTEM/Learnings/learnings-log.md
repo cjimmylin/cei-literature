@@ -34,6 +34,26 @@
 
 ---
 
+## 2026-02-21 (Session 106)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-21 | Data Quality | **Treemap leaf vs group detection:** ECharts treemap click events fire for both leaf nodes and group nodes. Leaf nodes have `params.data.children === undefined`; group nodes always have a `children` array. Use this in `resolveName` to suppress group clicks (return `null`) and only filter on leaf clicks. |
+| 2026-02-21 | Data Quality | **`resolveName` must take priority over `params.name`:** The pattern `params.name \|\| resolveName()` short-circuits when `params.name` is set — but treemap group nodes DO set `params.name` (to the group label). Flip to `resolveName() \|\| params.name` so guards can return `null` to suppress unwanted clicks. |
+| 2026-02-21 | Workflows | **`_attachModelFilter` replaces existing click handlers:** `chart.off('click')` in the binding loop automatically removes prior `FilterState.toggle()` onClick handlers. No manual cleanup needed when migrating from global filter to local paper-list filter. |
+
+---
+
+## 2026-02-21 (Session 105)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-21 | Data Quality | **ECharts heatmap click params have no `.name`:** Unlike bar/donut charts, heatmap click events return `params.value = [colIdx, rowIdx, count]`. Must use a `resolveName(params)` callback that maps indices back to axis label arrays (e.g., `topModels[rowIdx]`). |
+| 2026-02-21 | Workflows | **Generalize filter wiring with binding arrays:** When chart IDs don't follow a predictable naming convention (like `chart-{prefix}-{key}-{suffix}`), use `{chartId, dim, filterFn}` binding objects. Keeps the toggle-on-click pattern but decouples from ID conventions. Pattern: `_attachModelFilter()` in Dashboard v7. |
+| 2026-02-21 | Data Quality | **Repos donut has no per-paper backing data:** `DATA.llm.repoDist` is pre-computed aggregate — individual papers don't carry a repo field. Skip this chart from click-to-filter bindings rather than wiring a no-op filter. |
+
+---
+
 ## 2026-02-21 (Session 104)
 
 | Date | Category | Learning |

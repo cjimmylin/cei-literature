@@ -2,6 +2,57 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 106 (Feb 21, 2026) - Dashboard v7: Click-to-Filter Paper Lists for Conference & Venue Tab
+
+### Overview
+Extended the click-to-filter paper list pattern (built in Session 105) to all 4 Conference & Venue sub-tabs. Each sub-tab now has a paper list that filters when users click chart elements. Also fixed a `resolveName` priority bug in `_attachModelFilter` to support treemap group-node suppression.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 2 (index.html, charts.js) |
+| Lines added (this session) | ~33 (JS) + ~8 (HTML) |
+| Sub-tabs wired | 4 (Overview, Families, Journals, Temporal) |
+| Charts wired | 5 (donut, top-30 bar, treemap, journals bar, timeline) |
+| Bug fix | `resolveName` priority flip — guards now take precedence over `params.name` |
+
+### Key Learnings
+- [Dashboard] Treemap click events fire for BOTH leaf nodes (family) and group nodes (ecosystem). Use `params.data.children === undefined` as the leaf-node discriminator — groups always have a `children` array.
+- [Dashboard] `_attachModelFilter` automatically calls `chart.off('click')` before adding its handler, replacing any existing `FilterState.toggle()` handlers without manual cleanup.
+- [Dashboard] `resolveName` priority must be `b.resolveName ? b.resolveName(params) : params.name` — the old `params.name || resolveName()` short-circuits because treemap group nodes DO set `params.name`.
+
+### Files Changed
+- `STATISTICS/cei-dashboard-7/charts.js`: +25 lines (conference bindings), 1 line fix (`resolveName` priority)
+- `STATISTICS/cei-dashboard-7/index.html`: +8 lines (4 paper list containers)
+
+---
+
+## Session 105 (Feb 21, 2026) - Dashboard v7: Paper Explorer + Click-to-Filter for Models & LLMs
+
+### Overview
+Added embedded, filterable paper tables to both Models & LLMs sub-tabs (Overview and Model Depth) in Dashboard v7, matching the existing pattern in Normative Ethics, Moral Psychology, Religious Values, and Cultural Values tabs. Every chart now wires click-to-filter behavior to the local paper list.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 2 (index.html, charts.js) |
+| Lines added | 163 |
+| New method | `_attachModelFilter()` — generalized filter wiring for non-standard chart IDs |
+| Charts wired (Overview) | 3 (Top Models, Model Families, Timeline) |
+| Charts wired (Depth) | 4 (Model×Framework heatmap, Cultural Exposure, Open/Closed, Breadth) |
+| Charts skipped | 1 (Repos donut — no per-paper repo field) |
+
+### Key Learnings
+- [Dashboard] `_attachModelFilter` generalizes `_attachSubSectionFilter` for charts that don't follow `chart-{prefix}-{key}-{suffix}` naming. Accepts arbitrary `{chartId, dim, filterFn}` bindings.
+- [Dashboard] ECharts heatmap click params use `params.value = [colIdx, rowIdx, count]` — no `.name` property. Needs a `resolveName` callback to reconstruct labels from axis arrays.
+- [Dashboard] Removed old `onClick: FilterState.toggle('llmModel', ...)` from `chart-llm-models` bar to avoid dual filter behavior (main Paper Explorer vs local paper list).
+
+### Files Changed
+- `STATISTICS/cei-dashboard-7/index.html`: +4 lines (paper list containers in both sub-tabs)
+- `STATISTICS/cei-dashboard-7/charts.js`: +97 lines (new method, Overview wiring, Model Depth wiring), -1 line (removed old onClick)
+
+---
+
 ## Session 104 (Feb 21, 2026) - Context Optimization: CLAUDE.md + Memory Progressive Disclosure
 
 ### Overview

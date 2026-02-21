@@ -2,6 +2,26 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 94 (Feb 20, 2026) - Dashboard v4: Repeated Subsection Headers for MP & Religious Tabs
+
+### Overview
+Extended the repeated subsection header pattern (already implemented for Normative Ethics in Session 92) to the Moral Psychology (3 subtabs) and Religious Values (5 subtabs) tabs. Each subtab now has a second header+badge between charts and paper list, which syncs with the top header on chart-click filtering.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| HTML divs added | 8 (3 MP + 5 Religious) |
+| JS init lines added | 6 (3 functions, 2 lines each) |
+| Total insertions | 14 lines across 2 files |
+| Subtabs covered | MFT, Schwartz, Developmental, Islamic, Christian-Jewish, Dharmic, Confucian, Ubuntu/Indigenous |
+
+### Key Learnings
+- [Workflows] Null-guard forward-compatibility: `_attachSubSectionFilter()` already had generic `${prefix}-${key}-list-header` lookups; adding HTML IDs activated sync with zero shared-function changes
+
+### Files Changed
+- STATISTICS/cei-dashboard-4/index.html: +8 `section-header-list` divs before paper-list containers
+- STATISTICS/cei-dashboard-4/charts.js: +`listCountEl` init in `_mpMFT()`, `_mpSubSection()`, `_relSubSection()`
+
 ## Session 93 (Feb 20, 2026) - Dashboard v4: Clickable Paradigm Breakdown Chart
 
 ### Overview

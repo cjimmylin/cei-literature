@@ -1296,6 +1296,8 @@ const Charts = {
     _mpMFT(mft) {
         const countEl = document.getElementById('mp-mft-count');
         if (countEl) countEl.textContent = mft.count;
+        const listCountEl = document.getElementById('mp-mft-list-count');
+        if (listCountEl) listCountEl.textContent = mft.count;
 
         // Year distribution bar
         this._yearBar('chart-mp-mft-year', mft.yearDist);
@@ -1335,6 +1337,8 @@ const Charts = {
     _mpSubSection(key, data) {
         const countEl = document.getElementById(`mp-${key}-count`);
         if (countEl) countEl.textContent = data.count;
+        const listCountEl = document.getElementById(`mp-${key}-list-count`);
+        if (listCountEl) listCountEl.textContent = data.count;
         this._yearBar(`chart-mp-${key}-year`, data.yearDist);
         this._modelsBar(`chart-mp-${key}-models`, data.topModels);
         // Paradigm breakdown (Developmental sub-theories)
@@ -1444,6 +1448,8 @@ const Charts = {
     _relSubSection(key, data) {
         const countEl = document.getElementById(`rel-${key}-count`);
         if (countEl) countEl.textContent = data.count;
+        const listCountEl = document.getElementById(`rel-${key}-list-count`);
+        if (listCountEl) listCountEl.textContent = data.count;
         this._yearBar(`chart-rel-${key}-year`, data.yearDist);
         this._modelsBar(`chart-rel-${key}-models`, data.topModels);
         renderPaperList(`rel-${key}-papers`, data.papers, 50);

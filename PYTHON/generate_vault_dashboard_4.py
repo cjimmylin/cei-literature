@@ -1532,18 +1532,19 @@ def build_islamic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     """Build extended Islamic tradition analysis data for dashboard charts."""
 
     # ── domainDist — treemap ──────────────────────────────────────────────
-    domain_counter = Counter()
+    domain_fns = defaultdict(list)
     for fn in sub_fns:
         fields = paper_yaml.get(fn, {})
         text = (fields.get("short_title", "") or "") + " " + (fields.get("abstract", "") or "")
         matched = False
         for domain_name, pat in ISLAMIC_DOMAIN_PATTERNS.items():
             if pat.search(text):
-                domain_counter[domain_name] += 1
+                domain_fns[domain_name].append(fn)
                 matched = True
         if not matched:
-            domain_counter["General"] += 1
-    domain_dist = [{"n": n, "c": c} for n, c in domain_counter.most_common()]
+            domain_fns["General"].append(fn)
+    domain_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                   for n, flist in sorted(domain_fns.items(), key=lambda x: -len(x[1]))]
 
     # ── langGeo — grouped bar ────────────────────────────────────────────
     LANG_REGION_MAP = {
@@ -1552,19 +1553,19 @@ def build_islamic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
         "Bengali": "South Asia", "Urdu": "South Asia",
         "English": "Global/Western", "Turkish": "Turkey",
     }
-    lang_counter = Counter()
+    lang_fns = defaultdict(list)
     for fn in sub_fns:
         for lang in paper_yaml.get(fn, {}).get("languages_list", []):
             if lang:
-                lang_counter[lang] += 1
+                lang_fns[lang].append(fn)
     lang_geo = []
-    for lang, c in lang_counter.most_common(10):
+    for lang, flist in sorted(lang_fns.items(), key=lambda x: -len(x[1]))[:10]:
         region = "Other"
         for key, reg in LANG_REGION_MAP.items():
             if key.lower() in lang.lower():
                 region = reg
                 break
-        lang_geo.append({"lang": lang, "c": c, "region": region})
+        lang_geo.append({"lang": lang, "c": len(flist), "region": region, "fns": sorted(set(flist))})
 
     # ── streamTimeline — stacked area ────────────────────────────────────
     RESOURCE_KW = re.compile(
@@ -1574,6 +1575,7 @@ def build_islamic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
         r"\bbias\b|\bislamophob|\bstereotyp|\bdiscriminat|\bprejudic"
         r"|\banti.muslim\b|\bhate\b", re.I)
     year_resource, year_bias = Counter(), Counter()
+    resource_fns_all, bias_fns_all = [], []
     for fn in sub_fns:
         abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
         year = extract_year(fn)
@@ -1581,8 +1583,10 @@ def build_islamic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
             continue
         if RESOURCE_KW.search(abstract):
             year_resource[year] += 1
+            resource_fns_all.append(fn)
         if BIAS_KW.search(abstract):
             year_bias[year] += 1
+            bias_fns_all.append(fn)
     all_yrs = sorted(y for y in set(list(year_resource) + list(year_bias)) if y >= 2016)
     stream_timeline = {
         "years": all_yrs,
@@ -1592,16 +1596,18 @@ def build_islamic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
 
     # ── sourceCoverage — radar ───────────────────────────────────────────
     source_counter = Counter()
+    source_fns_map = defaultdict(list)
     for fn in sub_fns:
         abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
         for src, pat in ISLAMIC_SOURCE_PATTERNS.items():
             if pat.search(abstract):
                 source_counter[src] += 1
+                source_fns_map[src].append(fn)
     source_coverage = [{"axis": s, "val": source_counter.get(s, 0)}
                        for s in ISLAMIC_SOURCE_PATTERNS]
 
     # ── coTraditions — sankey ────────────────────────────────────────────
-    co_counter = Counter()
+    co_fns = defaultdict(list)
     for fn in sub_fns:
         fields = paper_yaml.get(fn, {})
         trads = classify_relig_traditions(
@@ -1609,16 +1615,18 @@ def build_islamic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
             fields.get("religious_values", "") or "")
         for t in trads:
             if t != "Islam":
-                co_counter[t] += 1
+                co_fns[t].append(fn)
     co_traditions = sorted(
-        [{"source": "Islam", "target": t, "value": c}
-         for t, c in co_counter.items() if c > 0],
+        [{"source": "Islam", "target": t, "value": len(flist), "fns": sorted(set(flist))}
+         for t, flist in co_fns.items() if len(flist) > 0],
         key=lambda x: -x["value"])
 
     return {
         "domainDist": domain_dist, "langGeo": lang_geo,
         "streamTimeline": stream_timeline, "sourceCoverage": source_coverage,
         "coTraditions": co_traditions,
+        "streamTimelineFns": {"Resource": sorted(set(resource_fns_all)), "Bias": sorted(set(bias_fns_all))},
+        "sourceCoverageFns": {s: sorted(set(source_fns_map.get(s, []))) for s in ISLAMIC_SOURCE_PATTERNS},
     }
 
 

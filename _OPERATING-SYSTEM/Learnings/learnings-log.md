@@ -34,6 +34,12 @@
 
 ---
 
+## 2026-02-20 (Session 94)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-20 | Workflows | **Null-Guard Forward-Compatibility Pattern:** Dashboard v4's `_attachSubSectionFilter(prefix, key, data, countEl)` uses `document.getElementById(`${prefix}-${key}-list-header`)` to find optional repeated section headers. Before Session 94, these lookups returned `null` for MP and Religious subtabs (no HTML elements existed), which was harmless due to null guards (`if (listH3) ...`). Adding 8 HTML divs with the matching IDs instantly activated filter-sync behavior with zero JS logic changes to the shared function. This shows the value of designing generic handlers with ID-convention lookups + null guards — new features can be enabled by adding HTML alone. |
+
 ## 2026-02-20 (Session 93)
 
 | Date | Category | Learning |

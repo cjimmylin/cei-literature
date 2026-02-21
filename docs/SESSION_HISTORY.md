@@ -2,6 +2,57 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 92 (Feb 20, 2026) - Dashboard v4: DE & CU Subtab Enhancement
+
+### Overview
+Enhanced Normative Ethics DE and CU subtabs with 4 new charts each (Research Type, Venue Types, Geographic Focus, Framework-Specific Concepts), matching the VE subtab's 6-chart layout. Added deontological (12 concepts) and consequentialist (13 concepts) keyword taxonomies with title+abstract scanning. All 3 normative subtabs now have symmetric 6-chart layouts.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| DE concepts detected | 10 unique concepts across 88 papers |
+| CU concepts detected | 13 unique concepts across 116 papers |
+| New HTML containers | 8 (4 per subtab) |
+| New JS methods | 1 (`_conceptBar`) + 2 wiring calls |
+| New Python keyword dicts | 2 (12 DE + 13 CU concepts) |
+| New Python scan functions | 2 (`scan_deontology_keywords`, `scan_cu_concepts`) |
+| Data.js regenerated | 2,058 KB |
+
+### Key Learnings
+- [Architecture] `_normSubSection()` conditional rendering means generic charts need only HTML containers — data + JS already flow through
+- [Design] Parameterized `_conceptBar(chartId, data, color)` avoids method duplication for DE vs CU
+- [Data] DE top: Rules/Norms (13), Moral Dilemma (11); CU top: Outcome/Consequences (23), Value Alignment (17)
+
+### Files Changed
+- PYTHON/generate_vault_dashboard_4.py: +2 keyword dicts, +2 scan functions, +2 scan blocks
+- STATISTICS/cei-dashboard-4/charts.js: +`_conceptBar()` method, +2 wiring calls, renamed section header
+- STATISTICS/cei-dashboard-4/index.html: +8 chart container divs (4 DE + 4 CU)
+- STATISTICS/cei-dashboard-4/data.js: Regenerated with DE/CU concept data
+
+---
+
+## Session 91 (Feb 20, 2026) - Dashboard v4: Ubuntu/Indigenous Narrative
+
+### Overview
+Added missing narrative text block to the Ubuntu/Indigenous sub-tab in Dashboard v4's Religious Values tab. This was the only one of five religious tradition sub-tabs lacking an introductory narrative.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 2 (index.html, style.css) |
+| Lines added | ~6 (1 CSS rule + 5 HTML lines) |
+| Content | 3 paragraphs: Ubuntu philosophy, Indigenous frameworks, LLM challenges |
+
+### Key Learnings
+- [Dashboard] All religious sub-tabs follow consistent DOM pattern: section-header → narrative → chart-grid-2 → paper-list
+- [Dashboard] CSS accent colors must match TRADITION_META JS colors for visual consistency
+
+### Files Changed
+- STATISTICS/cei-dashboard-4/index.html: Added narrative block to Ubuntu/Indigenous sub-tab
+- STATISTICS/cei-dashboard-4/style.css: Added `.fw-accent-ubuntu` CSS rule
+
+---
+
 ## Session 90 (Feb 20, 2026) - CONF-CC Classification & Conference Report
 
 ### Overview

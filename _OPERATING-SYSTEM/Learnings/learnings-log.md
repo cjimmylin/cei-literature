@@ -34,6 +34,16 @@
 
 ---
 
+## 2026-02-20 (Session 98)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-20 | Dashboard | **Template Literal Color Cleanup:** `sed` single-quoted hex replacements (`'#6366f1'` → `'#4ea89a'`) miss colors embedded in JS template literal strings (backtick strings with unquoted hex like `color:#f1f5f9`). Always run a second pass targeting unquoted patterns (`color:#hex`, `background:#hex`, `solid #hex`) after the primary quoted pass. |
+| 2026-02-20 | Dashboard | **3-Tier Typography System:** Instrument Serif (display/headings) + Plus Jakarta Sans (body/UI) + JetBrains Mono (data/badges) creates clear hierarchy. Key: Instrument Serif is underused in dashboards and gives "natural history museum label" character — rare enough to be distinctive without being illegible at small sizes. |
+| 2026-02-20 | Dashboard | **SVG Noise Grain Overlay:** Inline `data:image/svg+xml` with `feTurbulence type='fractalNoise'` at 2% opacity on `body::after` adds subtle material texture with zero network cost. Must use `pointer-events: none` and high `z-index` to avoid blocking interactions. Differentiates from flat digital dashboards. |
+
+---
+
 ## 2026-02-20 (Session 97)
 
 | Date | Category | Learning |

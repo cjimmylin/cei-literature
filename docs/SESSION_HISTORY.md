@@ -2,6 +2,32 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 98 (Feb 20, 2026) - Dashboard v5f "Patina" Redesign
+
+### Overview
+Complete visual redesign of Dashboard v5f (`STATISTICS/cei-dashboard-5f/`), applying a "Patina" aesthetic inspired by museum vitrines and precision scientific instruments. Replaced generic indigo/Tailwind palette with verdigris teal + copper on warm charcoal, added 3-tier Google Fonts typography (Instrument Serif + Plus Jakarta Sans + JetBrains Mono), grain texture overlay, and staggered KPI card animations.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| CSS rewritten | 452 lines (full palette + typography + animation) |
+| HTML updated | 4 edits (Google Fonts, v5f labels) |
+| charts.js colors replaced | 27 hex + 11 RGBA + 2 treemap gradients + template literals |
+| app.js updated | 2 edits (comment header, error color) |
+| Design system | "Patina" (Instrument Serif + Plus Jakarta Sans + JetBrains Mono, verdigris #4ea89a accent) |
+| Verification | 0 remaining v4 colors in theme files, 0 stale "v4" references |
+
+### Key Learnings
+- [Dashboard] Sed-based bulk color replacement via Bash subagent is efficient for large JS files (2000+ lines) — single-quoted hex colors replace cleanly, but template literal strings need separate unquoted passes
+- [Dashboard] Instrument Serif (Google Fonts) provides editorial warmth rare in data dashboards; paired with JetBrains Mono for data and Plus Jakarta Sans for body, creates clear 3-tier visual hierarchy
+- [Dashboard] SVG fractalNoise inline data URI at 2% opacity adds subtle material texture without network requests — key differentiator from flat digital dashboards
+
+### Files Changed
+- `STATISTICS/cei-dashboard-5f/style.css`: Full Patina theme (27 CSS vars, 3 font families, grain overlay, KPI animations, hover glow, framework accent borders)
+- `STATISTICS/cei-dashboard-5f/index.html`: Google Fonts preconnect + links, v5f title/badge/footer
+- `STATISTICS/cei-dashboard-5f/charts.js`: Systematic color migration (27 hex, 11 RGBA, 2 treemap gradients, template literals)
+- `STATISTICS/cei-dashboard-5f/app.js`: v5f comment header, error color update
+
 ## Session 97 (Feb 20, 2026) - Dashboard v5e "Archival Modernism" Redesign
 
 ### Overview

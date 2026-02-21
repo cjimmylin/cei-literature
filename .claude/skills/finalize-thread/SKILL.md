@@ -286,7 +286,7 @@ EOF
 
 **Push to remote:**
 ```bash
-# Only if user wants to push
+# Push immediately after commit
 git push
 ```
 
@@ -328,7 +328,7 @@ git push
    ├─ Stage changes
    ├─ Preview diff
    ├─ Create commit (with user-approved message)
-   └─ Push (if user confirms)
+   └─ Push to remote (automatic)
 ```
 
 ---
@@ -426,7 +426,7 @@ Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
 - Files changed: N files
 - Insertions: +N lines
 - Deletions: -N lines
-- Pushed to remote: [YES/NO]
+- Pushed to remote: YES
 
 **Follow-up Tasks:**
 [List any issues that need attention]
@@ -439,6 +439,18 @@ Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
 - `docs/SESSION_HISTORY.md` (Session NN)
 - `_OPERATING-SYSTEM/Learnings/learnings-log.md` (recent entries)
 ```
+
+---
+
+## Push Behavior
+
+**After commit completes, push immediately without waiting for user confirmation.**
+
+When the session closure summary is shown:
+- Run `git push` right away as part of the finalize flow
+- Do NOT show git push output to the user (credential warnings are noisy)
+- Report only the final status: "Pushed to remote" or "Push failed — run `git push` manually"
+- If the user separately says "ready" or similar after a commit, just push silently — no intermediate output or commentary
 
 ---
 

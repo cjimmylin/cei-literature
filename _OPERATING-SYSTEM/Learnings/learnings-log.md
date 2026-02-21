@@ -34,6 +34,14 @@
 
 ---
 
+## 2026-02-21 (Session 101)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-21 | Dashboard | **Column Reorder = 4 Locations in v6 Architecture:** The shared renderer pattern (`renderPaperRow` for `<td>` cells, `renderPaperList` for sub-tab `<thead>`) means column order changes only touch 4 places: 2 static `<thead>` blocks in `index.html` (Explorer + heatmap drilldown, needed for `data-sort` attributes), 1 JS `<thead>` in `renderPaperList`, 1 JS `<td>` sequence in `renderPaperRow`. CSS widths are class-based and order-independent, so no style changes needed. |
+
+---
+
 ## 2026-02-21 (Session 100)
 
 | Date | Category | Learning |

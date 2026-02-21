@@ -70,7 +70,7 @@ Phase 2: Finalize Thread (QA & Git)
 **Expected output:**
 - 6-category QA results
 - Git commit created
-- Push to remote (if user approves)
+- Push to remote (automatic)
 - Session closure summary
 
 **If finalize-thread fails:**

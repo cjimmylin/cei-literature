@@ -2,6 +2,28 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 101 (Feb 21, 2026) - Dashboard v6d: Column Reorder + Flags Rightmost
+
+### Overview
+Created `STATISTICS/cei-dashboard-6d/` from v6c baseline. Moved the Flags column from position 5 (after Ethics) to position 8 (rightmost, after Model), reordering paper tables across all views: Explorer, sub-tab paper lists, and heatmap drilldown.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 2 (app.js, index.html) |
+| Edit locations | 4 (2 static `<thead>` in HTML + 1 `renderPaperList` thead + 1 `renderPaperRow` cells) |
+| Column order | Year \| Paper \| Venue \| Ethics \| Moral Psych \| Religion \| Model \| Flags |
+
+### Key Learnings
+- [Dashboard] v6 shared-renderer architecture (`renderPaperRow` + `renderPaperList`) means column reorder is a 4-location edit, not N-per-table — the two HTML `<thead>` blocks exist only for static `data-sort` attribute binding
+- [Dashboard] CSS column widths are class-based (`.col-flags { width: 100px }`) and order-independent — no style changes needed for column moves
+
+### Files Changed
+- `STATISTICS/cei-dashboard-6d/index.html`: Moved Flags `<th>` after Model in Explorer thead (line 122) and heatmap drilldown thead (line 176)
+- `STATISTICS/cei-dashboard-6d/app.js`: Moved Flags `<th>` after Model in `renderPaperList()` (line 563); moved Flags `<td>` after Model in `renderPaperRow()` (line 663)
+
+---
+
 ## Session 100 (Feb 21, 2026) - Dashboard v6c: DRY Table Headers + New Columns
 
 ### Overview

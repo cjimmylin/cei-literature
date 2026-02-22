@@ -2,6 +2,60 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 115 (Feb 22, 2026) - Dashboard v8b: Moral Psychology Narrative Expansion
+
+### Overview
+Rewrote the opening narrative text for 4 Moral Psychology subtab sections in Dashboard v8b (MFT, Schwartz, Moral Reasoning, Moral Dilemmas). Expanded thin 1-2 paragraph descriptions into 3-paragraph scholarly narratives following the pattern established by Normative Ethics subtabs: (1) field overview with citations, (2) values alignment significance, (3) chart reading guide.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 1 (index.html) |
+| Narrative blocks rewritten | 4 (MFT, Schwartz, Moral Reasoning, Moral Dilemmas) |
+| Paragraphs before | 6 total (2+2+1+1) |
+| Paragraphs after | 12 total (3+3+3+3) |
+| CSS changes | 0 (fw-accent has no height constraints) |
+| HTML validation | Clean (0 tag nesting errors, 0 unclosed tags) |
+
+### Key Learnings
+- [Workflows] `fw-accent` narrative containers use flexible height — expanding from 1-2 to 3 paragraphs requires zero CSS changes, confirmed by Normative Ethics precedent
+
+### Files Changed
+- STATISTICS/cei-dashboard-8b/index.html: 4 narrative blocks expanded (lines ~735-812)
+
+---
+
+## Session 114 (Feb 22, 2026) - Dashboard v8b: Overview Page Redesign
+
+### Overview
+Redesigned the v8 dashboard overview page from a generic stats landing page into an intellectual roadmap. Replaced key-findings panel + 6 KPIs with narrative digest + 8 KPIs + 8 clickable dimension cards that preview each analytical axis (normative ethics, moral psychology, religious values, etc.). Created as full copy of v8 to preserve report immutability.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 4 (index.html, app.js, charts.js, style.css) |
+| New CSS classes | ~15 (.overview-digest, .dim-grid, .dim-card, .kpi-row-compact, etc.) |
+| KPIs expanded | 6 → 8 (added Traditions, Cultures) |
+| Dimension cards added | 8 (Normative, Moral Psych, Religious, Cultural, Models, Conference, Taxonomy, Authors) |
+| Key findings removed | 6-card panel → replaced by narrative digest |
+| Charts removed from overview | 1 (Top 15 Authors — lives in Authors tab) |
+| Charts retained | 4 (Timeline, Venue Donut, Category Bar, Availability) |
+| JS functions replaced | 2 (_computeKeyFindings + _setKF → _populateOverviewDigest) |
+| Responsive breakpoints | 2 (900px, 600px) |
+
+### Key Learnings
+- [Workflows] Double curly braces `{{` `}}` are only needed in Python f-string templates (dashboard generators), not in standalone `.js` files — creates valid-but-wrong JS (empty block statements)
+- [Workflows] Centralizing all DOM text population in app.js and keeping only ECharts canvas logic in charts.js creates cleaner separation of concerns
+- [Data Quality] When moving KPI population from charts.js to app.js, must verify all element IDs still exist in the restructured HTML
+
+### Files Changed
+- STATISTICS/cei-dashboard-8b/index.html: Overview section restructured (narrative + 8 KPIs + dim cards)
+- STATISTICS/cei-dashboard-8b/app.js: _populateOverviewDigest() replaces _computeKeyFindings()
+- STATISTICS/cei-dashboard-8b/charts.js: _initOverview() simplified (no KPIs, no top-authors chart)
+- STATISTICS/cei-dashboard-8b/style.css: ~140 lines of new overview CSS appended
+
+---
+
 ## Session 113 (Feb 22, 2026) - Dashboard v8: Consolidate v7b2 + v7c + v7e
 
 ### Overview

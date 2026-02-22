@@ -2,6 +2,96 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 112 (Feb 22, 2026) - Dashboard v7c: Moral Psychology Tab Overhaul
+
+### Overview
+Overhauled the Moral Psychology tab from 4 descriptive subtabs to 5 analytical subtabs with 13 new features. Based on `cei-dashboard-7b2` (which includes Session 111 normative enhancements). Modified `generate_vault_dashboard_5b.py` directly (no 5c copy). Used parallel agents for HTML + JS while Python generator was edited sequentially.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| New subtabs | 5 (Overview, Value Frameworks, Moral Reasoning, Moral Dilemmas, Cross-Framework) |
+| New pattern dicts | 6 (SCHWARTZ_HIGHER_ORDER, ALIGNMENT_OUTCOME, METHODOLOGY, INSTRUMENT, MFT_APPROACH, ACTIVE_THEORIES) |
+| New data keys | 8 (dominanceShift, weirdSplit, modelTheory, alignment, methodology, instruments, normativeBridge, sophistication) |
+| New chart containers (HTML) | 21 |
+| New KPI cards | 6 |
+| Developmental → split | reasoning (Kohlberg: 8 papers) + dilemmas (Trolley: 16 papers) |
+| Cooccurrence filtered | 8×8 → 5×5 (active theories only) |
+| DRY refactor | `_build_subsection()` helper replaces 3 duplicated ~60-line blocks |
+| Bugs fixed during verify | 2 (DATA.overview→DATA.agg, _tc.textMain→_tc.textSec) |
+| Cross-tab updates | 3 (Intersection heatmap, Model Deep Dive heatmap, FILTER_DIMS) |
+
+### Key Learnings
+- [Workflows] DRY `_build_subsection()` pattern makes adding new theory sub-sections trivial — one-liner + extras
+- [Data Quality] Always verify data API contract: `DATA.overview.totalPapers` doesn't exist, `DATA.agg.total` does
+- [Workflows] OUTPUT_DIR edits can silently revert when "file modified since read" errors occur — always verify after editing
+
+### Files Changed
+- `PYTHON/generate_vault_dashboard_5b.py`: Output path → 7c, +6 pattern dicts, refactored `compute_moral_psych_data()` with 8 new data keys
+- `STATISTICS/cei-dashboard-7c/index.html`: 5-subtab restructure, 21 new chart containers, 6 KPIs, version badge → v7c
+- `STATISTICS/cei-dashboard-7c/charts.js`: Replaced `_initMoralPsych()` (~180 lines), updated Intersection + Model heatmaps
+- `STATISTICS/cei-dashboard-7c/app.js`: FILTER_DIMS Developmental → Reasoning + Dilemmas
+- `STATISTICS/cei-dashboard-7c/split_data.py`: Added `al`, `mt`, `ins` to SECTION_KEEP
+- `STATISTICS/cei-dashboard-7c/data.js`: Regenerated (2172 KB, 134 moral psych papers)
+
+---
+
+## Session 111 (Feb 22, 2026) - Dashboard v7b2: Normative Ethics Tab Full-Scope Enhancement
+
+### Overview
+Implemented all 14 planned improvements across 4 tiers for the Normative Ethics tab in dashboard v7b2, transforming it from a basic "Big Three" (VE/DE/CU) descriptive overview into a multi-layered scholarly analytical tool. Used 4 parallel agent streams editing the Python generator and frontend files concurrently.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Items implemented | 14 (all 4 tiers) |
+| New chart containers (HTML) | 29 |
+| New Python helpers | 8 (co-occurrence, sub-traditions, concept timeline, comparative dims, gap matrix, bridge, pattern-fw subsection, meta-ethics scan) |
+| New keyword dicts | 9 (Care 8-cat, Contractualism 7-cat, Principlism 6-cat, VE/DE/CU sub-traditions, Meta-Ethics 5-pat, Philosopher 12-pat) |
+| Lines added (Python) | +683 (3165→3848) |
+| Lines added (JS) | +186 (2458→2644) |
+| Lines added (HTML) | +95 (985→1080) |
+| Lines added (CSS) | +32 (752→784) |
+| New subtab | Norm × Psych (bridge analysis) |
+| Beyond Big Three frameworks | Care (3), Contractualism (3), Principlism (2) |
+| Bridge papers (norm × psych) | 25 |
+| Author-framework entries | 30 (top authors with ≥2 normative papers) |
+
+### Items Breakdown
+| Tier | Item | Description |
+|------|------|-------------|
+| 1 | 1. Depth Score | Per-framework keyword engagement histogram + mean KPI |
+| 1 | 2. Co-occurrence | NxN keyword co-occurrence heatmaps per framework |
+| 1 | 3. Comparative Radar | 6-dimension radar across VE/DE/CU (benchmark%, depth, WEIRD, models, venue, growth) |
+| 1 | 4. Beyond Big Three | Care Ethics, Contractualism, Principlism with keyword dicts + subsections |
+| 1 | 5. Coverage Gap Matrix | 14 frameworks × 5 dimensions heatmap |
+| 2 | 6. Norm × Psych Bridge | 3×8 heatmap + timeline + paper list for cross-function joins |
+| 2 | 7. Sub-Traditions | Aristotelian/Confucian/Sentimentalist, Kantian/Rossian/Rights, Act/Rule/Preference |
+| 2 | 8. Concept Timeline | Top 8 keyword evolution over publication years |
+| 2 | 9. Overlap Typology | Comparative/Integrative/Incidental classification of multi-framework papers |
+| 2 | 10. Research Type 5-way | Empirical Benchmark/Non-Benchmark, Philosophical, Mixed, Dataset |
+| 3 | 11. Meta-Ethics | Realism, anti-realism, relativism, universalism, reflective equilibrium |
+| 3 | 12. Author-Framework | Bipartite mapping of top 30 authors across VE/DE/CU |
+| 3 | 13. Full-Text Depth | PDF extract keyword density scanning (top 20 papers) |
+| 3 | 14. Citation Network | 12 philosopher patterns (Aristotle, Kant, Mill, Rawls, etc.) |
+
+### Key Learnings
+- **Parallel agent partitioning:** 4 agents editing the same Python file works if sections are non-overlapping (A: ~960-1120, B: ~200-210+1235, C: ~1440-1555+3090, D: separate files)
+- **Agent OUTPUT_DIR drift:** Agents may rename config constants when they infer a new version is being created — always verify OUTPUT_DIR after parallel runs
+- **`_radar()` API convention:** ECharts radar series use `s.values` not `s.data`; the `_radar()` helper maps `values: s.data` internally
+- **Template literal cross-check limitation:** Automated HTML↔JS ID cross-checks can't resolve dynamic IDs like `chart-${pfx}-depth`; manual grep needed
+
+### Files Changed
+- `PYTHON/generate_vault_dashboard_5b.py`: +683 lines — 8 new helpers, 9 keyword dicts, bridge computation, all 14 items' data generation
+- `STATISTICS/cei-dashboard-7b2/index.html`: +95 lines — 29 chart containers, Norm × Psych subtab, Beyond Big Three accordion, Tier 3 section
+- `STATISTICS/cei-dashboard-7b2/charts.js`: +186 lines — `_normExtraCharts()`, `_normBridge()`, expanded `_initNormative()` and `_normOverlap()`
+- `STATISTICS/cei-dashboard-7b2/style.css`: +32 lines — 3 accent colors, accordion, depth KPI, typology badges, gap legend
+- `STATISTICS/cei-dashboard-7b2/data.js`: Regenerated (2,172 KB)
+- `STATISTICS/cei-dashboard-7b2/data-core.js`: Regenerated (1,100 KB)
+- `STATISTICS/cei-dashboard-7b2/data-detail.js`: Regenerated (861 KB)
+
+---
+
 ## Session 110 (Feb 22, 2026) - Dashboard v7e: Split Religious Values Tab into Individual Traditions
 
 ### Overview

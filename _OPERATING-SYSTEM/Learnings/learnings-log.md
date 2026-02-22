@@ -34,6 +34,29 @@
 
 ---
 
+## 2026-02-22 (Session 112)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-22 | Workflows | **DRY `_build_subsection()` refactor for theory sub-sections:** The old `compute_moral_psych_data()` had 3 near-identical ~60-line blocks (MFT, Schwartz, Developmental). Extracting the common 6-chart pattern into a helper reduced each new theory to a one-liner + surgical extras (e.g., `mft_data["foundations"]`, `schwartz_data["higherOrder"]`). This cut 180 lines and made adding Reasoning + Dilemmas trivial. |
+| 2026-02-22 | Data Quality | **`DATA.overview.totalPapers` vs `DATA.agg.total`:** The dashboard data structure has no `overview` key — the top-level aggregates live under `DATA.agg`. JS code referencing `DATA.overview.totalPapers` throws a TypeError that halts the entire tab's `_initMoralPsych()` initialization. Always verify the data API contract between Python generator and JS consumer. |
+| 2026-02-22 | Data Quality | **Theme color tokens vary per dashboard:** `this._tc` (theme colors) defines `textSec`, `textPri`, `bgCard`, `border`, `bgPrimary`, `textMuted` — but NOT `textMain` or `gridLine`. Using nonexistent tokens causes `undefined` values that ECharts silently degrades. Always read `_tc` definition before writing raw ECharts configs. |
+| 2026-02-22 | Workflows | **OUTPUT_DIR edit-then-revert risk:** When a file edit fails due to "file modified since read" (e.g., from linter or concurrent agent), the edit is silently dropped but subsequent edits on the same file may succeed, leaving an inconsistent state. Always verify critical path constants (OUTPUT_DIR, OUTPUT_FILE) after editing by re-reading the file. In this session, the generator wrote to `cei-dashboard-7b/` instead of `7c/` on the first run. |
+| 2026-02-22 | Workflows | **Cross-tab references when renaming data keys:** Renaming `developmental` → `reasoning` + `dilemmas` required updates in 3 places beyond Moral Psychology: the Intersection tab's Framework×Religion heatmap (`fwRows`), Model Deep Dive's Model×Framework heatmap (`fwCols`), and FILTER_DIMS in app.js. Always search all files for the old key name before removing it. |
+
+---
+
+## 2026-02-22 (Session 111)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-22 | Workflows | **Parallel agent file partitioning:** 4 agents can safely edit the same Python file if line ranges are non-overlapping and each agent's scope is tightly defined (e.g., A: helpers at ~960-1120, B: keyword dicts ~200-210 + cross-framework ~1235, C: bridge/Tier3 ~1440-1555 + main() ~3090, D: separate frontend files). Merge conflicts are avoided by section isolation, not locking. |
+| 2026-02-22 | Workflows | **Agent OUTPUT_DIR drift:** When agents are told to add features to a dashboard, they may infer they should create a new version and change `OUTPUT_DIR` from `cei-dashboard-7b` to `cei-dashboard-7c`. Always verify OUTPUT_DIR hasn't been mutated after parallel agent runs. This caused data.js to be written to the wrong directory. |
+| 2026-02-22 | Data Quality | **`_radar()` API: `values` not `data`:** The `_radar()` helper in charts.js expects radar series objects with `s.values` (not `s.data`). When Python emits `series[].data`, the JS side must map to `values: s.data` when calling `_radar()`. Failing to do so causes silent empty radar rendering. |
+| 2026-02-22 | Data Quality | **Template literal cross-check limitation:** Automated HTML↔JS container ID cross-checks (scanning for `getElementById` matches) cannot resolve dynamic template literal IDs like `chart-${pfx}-depth`. These will show as false-positive "missing in JS" warnings. Verify with `grep` for the template pattern instead. |
+
+---
+
 ## 2026-02-22 (Session 110)
 
 | Date | Category | Learning |

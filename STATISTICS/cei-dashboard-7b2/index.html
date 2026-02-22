@@ -438,6 +438,7 @@
                 <button class="sub-btn" data-sub="norm-de">Deontological</button>
                 <button class="sub-btn" data-sub="norm-cu">Consequentialism</button>
                 <button class="sub-btn" data-sub="norm-overlap">Overlaps</button>
+                <button class="sub-btn" data-sub="norm-bridge">Norm × Psych</button>
             </div>
             <div class="sub-pane active" id="sub-norm-overview">
                 <div class="narrative">
@@ -449,6 +450,54 @@
                 </div>
                 <div class="chart-grid-1">
                     <div class="chart-card"><h3>Framework Timeline</h3><div class="chart-container" id="chart-norm-timeline"></div></div>
+                </div>
+                <!-- Item 5: Coverage Gap Matrix -->
+                <div class="chart-grid-1">
+                    <div class="chart-card"><h3>Framework Coverage Gap Matrix</h3><div class="gap-matrix-legend"><span>● Covered</span><span>○ Gap</span></div><div class="chart-container chart-tall" id="chart-norm-gap-matrix"></div></div>
+                </div>
+                <!-- Item 4: Beyond Big Three -->
+                <h3 class="narrative-heading">Beyond the Big Three</h3>
+                <div class="norm-accordion">
+                    <details>
+                        <summary class="fw-accent fw-accent-care">Care Ethics <span class="badge" id="norm-care-count">0</span></summary>
+                        <div class="accord-body">
+                            <div class="chart-grid-2">
+                                <div class="chart-card"><h3>Year Distribution</h3><div class="chart-container chart-sm" id="chart-norm-care-year"></div></div>
+                                <div class="chart-card"><h3>Key Concepts</h3><div class="chart-container chart-sm" id="chart-norm-care-concepts"></div></div>
+                            </div>
+                            <div class="paper-list" id="norm-care-papers"></div>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="fw-accent fw-accent-contract">Contractualism / Rawlsian <span class="badge" id="norm-contract-count">0</span></summary>
+                        <div class="accord-body">
+                            <div class="chart-grid-2">
+                                <div class="chart-card"><h3>Year Distribution</h3><div class="chart-container chart-sm" id="chart-norm-contract-year"></div></div>
+                                <div class="chart-card"><h3>Key Concepts</h3><div class="chart-container chart-sm" id="chart-norm-contract-concepts"></div></div>
+                            </div>
+                            <div class="paper-list" id="norm-contract-papers"></div>
+                        </div>
+                    </details>
+                    <details>
+                        <summary class="fw-accent fw-accent-princ">Principlism <span class="badge" id="norm-princ-count">0</span></summary>
+                        <div class="accord-body">
+                            <div class="chart-grid-2">
+                                <div class="chart-card"><h3>Year Distribution</h3><div class="chart-container chart-sm" id="chart-norm-princ-year"></div></div>
+                                <div class="chart-card"><h3>Key Concepts</h3><div class="chart-container chart-sm" id="chart-norm-princ-concepts"></div></div>
+                            </div>
+                            <div class="paper-list" id="norm-princ-papers"></div>
+                        </div>
+                    </details>
+                </div>
+                <!-- Tier 3: Meta-Ethics, Author-Framework, Citations -->
+                <h3 class="narrative-heading">Tier 3: Advanced Analytics</h3>
+                <div class="chart-grid-2">
+                    <div class="chart-card"><h3>Meta-Ethics Concepts</h3><div class="chart-container chart-sm" id="chart-norm-meta-ethics"></div></div>
+                    <div class="chart-card"><h3>Philosopher Citations</h3><div class="chart-container chart-sm" id="chart-norm-citations"></div></div>
+                </div>
+                <div class="chart-grid-2">
+                    <div class="chart-card"><h3>Author × Framework</h3><div class="chart-container chart-tall" id="chart-norm-author-fw"></div></div>
+                    <div class="chart-card"><h3>Full-Text Keyword Density</h3><div class="chart-container chart-tall" id="chart-norm-fulltext-depth"></div></div>
                 </div>
             </div>
             <div class="sub-pane" id="sub-norm-ve">
@@ -469,6 +518,15 @@
                 <div class="chart-grid-2">
                     <div class="chart-card"><h3>Geographic Focus</h3><div class="chart-container chart-sm" id="chart-norm-ve-regions"></div></div>
                     <div class="chart-card"><h3>Virtues Studied</h3><div class="chart-container chart-sm" id="chart-norm-ve-virtues"></div></div>
+                </div>
+                <!-- Items 1, 2, 7, 8: Per-framework enrichments -->
+                <div class="chart-grid-2">
+                    <div class="chart-card"><h3>Engagement Depth</h3><div class="chart-container chart-sm" id="chart-norm-ve-depth"></div></div>
+                    <div class="chart-card"><h3>Keyword Co-occurrence</h3><div class="chart-container chart-sm" id="chart-norm-ve-cooc"></div></div>
+                </div>
+                <div class="chart-grid-2">
+                    <div class="chart-card"><h3>Sub-Traditions</h3><div class="chart-container chart-sm" id="chart-norm-ve-subtrad"></div></div>
+                    <div class="chart-card"><h3>Concept Evolution</h3><div class="chart-container chart-sm" id="chart-norm-ve-concept-timeline"></div></div>
                 </div>
                 <div class="section-header section-header-list" id="norm-ve-list-header"><h3>Virtue Ethics Papers</h3><span class="badge" id="norm-ve-list-count">0</span></div>
                 <div class="paper-list" id="norm-ve-papers"></div>
@@ -492,6 +550,15 @@
                     <div class="chart-card"><h3>Geographic Focus</h3><div class="chart-container chart-sm" id="chart-norm-de-regions"></div></div>
                     <div class="chart-card"><h3>Deontological Concepts</h3><div class="chart-container chart-sm" id="chart-norm-de-concepts"></div></div>
                 </div>
+                <!-- Items 1, 2, 7, 8: Per-framework enrichments -->
+                <div class="chart-grid-2">
+                    <div class="chart-card"><h3>Engagement Depth</h3><div class="chart-container chart-sm" id="chart-norm-de-depth"></div></div>
+                    <div class="chart-card"><h3>Keyword Co-occurrence</h3><div class="chart-container chart-sm" id="chart-norm-de-cooc"></div></div>
+                </div>
+                <div class="chart-grid-2">
+                    <div class="chart-card"><h3>Sub-Traditions</h3><div class="chart-container chart-sm" id="chart-norm-de-subtrad"></div></div>
+                    <div class="chart-card"><h3>Concept Evolution</h3><div class="chart-container chart-sm" id="chart-norm-de-concept-timeline"></div></div>
+                </div>
                 <div class="section-header section-header-list" id="norm-de-list-header"><h3>Deontological Ethics Papers</h3><span class="badge" id="norm-de-list-count">0</span></div>
                 <div class="paper-list" id="norm-de-papers"></div>
             </div>
@@ -514,6 +581,15 @@
                     <div class="chart-card"><h3>Geographic Focus</h3><div class="chart-container chart-sm" id="chart-norm-cu-regions"></div></div>
                     <div class="chart-card"><h3>CU Concepts Studied</h3><div class="chart-container chart-sm" id="chart-norm-cu-concepts"></div></div>
                 </div>
+                <!-- Items 1, 2, 7, 8: Per-framework enrichments -->
+                <div class="chart-grid-2">
+                    <div class="chart-card"><h3>Engagement Depth</h3><div class="chart-container chart-sm" id="chart-norm-cu-depth"></div></div>
+                    <div class="chart-card"><h3>Keyword Co-occurrence</h3><div class="chart-container chart-sm" id="chart-norm-cu-cooc"></div></div>
+                </div>
+                <div class="chart-grid-2">
+                    <div class="chart-card"><h3>Sub-Traditions</h3><div class="chart-container chart-sm" id="chart-norm-cu-subtrad"></div></div>
+                    <div class="chart-card"><h3>Concept Evolution</h3><div class="chart-container chart-sm" id="chart-norm-cu-concept-timeline"></div></div>
+                </div>
                 <div class="section-header section-header-list" id="norm-cu-list-header"><h3>Consequentialism/Utilitarianism Papers</h3><span class="badge" id="norm-cu-list-count">0</span></div>
                 <div class="paper-list" id="norm-cu-papers"></div>
             </div>
@@ -525,6 +601,11 @@
                 <div class="chart-grid-2">
                     <div class="chart-card"><h3>Framework Overlap</h3><div class="chart-container" id="chart-norm-overlap"></div></div>
                     <div class="chart-card"><h3>Benchmark Density by Combination</h3><div class="chart-container" id="chart-norm-overlap-bench"></div></div>
+                </div>
+                <!-- Item 3: Comparative Radar + Item 9: Typology -->
+                <div class="chart-grid-2">
+                    <div class="chart-card"><h3>Comparative Radar</h3><div class="chart-container" id="chart-norm-comparative-radar"></div></div>
+                    <div class="chart-card"><h3>Overlap Typology</h3><div class="chart-container" id="chart-norm-overlap-typology"></div></div>
                 </div>
                 <!-- Row 2: Overlap timeline + Exclusivity sunburst -->
                 <div class="chart-grid-2">
@@ -542,6 +623,20 @@
                     <span class="badge" id="norm-overlap-count"></span>
                 </div>
                 <div class="paper-list" id="norm-overlap-papers"></div>
+            </div>
+            <div class="sub-pane" id="sub-norm-bridge">
+                <div class="narrative">
+                    <p><strong>Normative × Descriptive Bridge:</strong> This intersection reveals which papers engage with both prescriptive ethical frameworks (VE/DE/CU) and descriptive psychological theories (MFT, Schwartz, etc.). Papers at this intersection are uniquely positioned to test whether LLMs can distinguish between how people <em>do</em> reason morally and how they <em>ought</em> to.</p>
+                </div>
+                <div class="kpi-row">
+                    <div class="kpi-card"><div class="kpi-value" id="kpi-norm-bridge-count">—</div><div class="kpi-label">Bridge Papers</div></div>
+                </div>
+                <div class="chart-grid-2">
+                    <div class="chart-card"><h3>Normative × Moral Psych Heatmap</h3><div class="chart-container" id="chart-norm-bridge-heatmap"></div></div>
+                    <div class="chart-card"><h3>Bridge Papers Over Time</h3><div class="chart-container chart-sm" id="chart-norm-bridge-timeline"></div></div>
+                </div>
+                <div class="section-header"><h3>Bridge Papers</h3><span class="badge" id="norm-bridge-list-count">0</span></div>
+                <div class="paper-list" id="norm-bridge-papers"></div>
             </div>
         </section>
 

@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
-Generate data.js for CEI Literature Vault Dashboard v7b.
+Generate data.js for CEI Literature Vault Dashboard v7c.
 
 Scans paper YAML frontmatter, benchmark survey JSON, normative v2 JSON,
 and author map to produce a JavaScript data file consumed by the static
 HTML/CSS/JS frontend.
 
 v7b additions: Authors & Collaboration tab data, fixed author KPI.
+v7c additions: Moral Psychology tab overhaul — 13 new analytical features, 5 subtabs.
 
-Output: STATISTICS/cei-dashboard-7b/data.js
+Output: STATISTICS/cei-dashboard-7c/data.js
 
 Data sources:
   - papers/*.md YAML frontmatter (2,034 papers)
@@ -42,7 +43,7 @@ NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260220-author_paper_map.json"
 AUTHOR_PROFILES_DIR = WS_ROOT / "Authors"
 AI_LABS_DIR = WS_ROOT / "AI Labs"
-OUTPUT_DIR = STATS_DIR / "cei-dashboard-7b"
+OUTPUT_DIR = STATS_DIR / "cei-dashboard-7c"
 OUTPUT_FILE = OUTPUT_DIR / "data.js"
 
 # ── Import from existing scripts ──────────────────────────────────────────
@@ -204,6 +205,65 @@ def scan_cu_concepts(title, abstract):
     return found
 
 
+# ── Care Ethics Keyword Taxonomy ─────────────────────────────────────
+CARE_ETHICS_KEYWORDS = {
+    "Ethics of Care": ["ethics of care", "care ethic", "caring ethic"],
+    "Relational Ethics": ["relational ethic", "relational autonomy"],
+    "Feminist Ethics": ["feminist ethic", "feminist moral", "feminist approach"],
+    "Vulnerability": ["vulnerability", "vulnerable", "dependent"],
+    "Empathy/Compassion": ["empathy", "empathetic", "compassion", "compassionate"],
+    "Caregiving": ["caregiving", "caregiver", "care work", "care labor"],
+    "Attentiveness": ["attentiveness", "attentive", "responsiveness"],
+    "Interdependence": ["interdependence", "interdependent", "interconnected"],
+}
+
+CONTRACTUALISM_KEYWORDS = {
+    "Social Contract": ["social contract", "contractarian", "contractualis"],
+    "Rawlsian": ["rawlsian", "rawls", "veil of ignorance", "original position"],
+    "Justice as Fairness": ["justice as fairness", "fairness principle"],
+    "Distributive Justice": ["distributive justice", "distributive fairness"],
+    "Procedural Justice": ["procedural justice", "procedural fairness"],
+    "Consent": ["consent", "consensual", "mutual agreement"],
+    "Rights": ["rights-based", "natural rights", "human rights framework"],
+}
+
+PRINCIPLISM_KEYWORDS = {
+    "Autonomy": ["autonomy", "autonomous", "self-determination", "informed consent"],
+    "Beneficence": ["beneficence", "beneficent", "do good"],
+    "Non-maleficence": ["non-maleficence", "nonmaleficence", "do no harm", "primum non nocere"],
+    "Justice": ["justice", "just distribution", "equitable access"],
+    "Beauchamp & Childress": ["beauchamp", "childress", "principl"],
+    "Bioethics": ["bioethic", "medical ethic", "clinical ethic"],
+}
+
+
+def scan_care_keywords(title, abstract):
+    text = (title + " " + abstract).lower()
+    found = set()
+    for concept, patterns in CARE_ETHICS_KEYWORDS.items():
+        if any(p in text for p in patterns):
+            found.add(concept)
+    return found
+
+
+def scan_contractualism_keywords(title, abstract):
+    text = (title + " " + abstract).lower()
+    found = set()
+    for concept, patterns in CONTRACTUALISM_KEYWORDS.items():
+        if any(p in text for p in patterns):
+            found.add(concept)
+    return found
+
+
+def scan_principlism_keywords(title, abstract):
+    text = (title + " " + abstract).lower()
+    found = set()
+    for concept, patterns in PRINCIPLISM_KEYWORDS.items():
+        if any(p in text for p in patterns):
+            found.add(concept)
+    return found
+
+
 # ── Cultural Region Mapping ───────────────────────────────────────────────
 
 CULTURE_TO_REGION = {
@@ -331,12 +391,12 @@ MFT_FOUNDATIONS = [
 ]
 
 MFT_FOUNDATION_PATTERNS = {
-    "Care/Harm": re.compile(r'care|harm|compassion|cruelty|suffer|protect|nurtur', re.I),
-    "Fairness/Cheating": re.compile(r'fairness|cheat|justice|reciproc|equality|proportional', re.I),
-    "Loyalty/Betrayal": re.compile(r'loyalty|betray|in[\s\-]?group|patriot|team|collectiv', re.I),
-    "Authority/Subversion": re.compile(r'authority|subver|respect|hierarch|tradition|obedien', re.I),
-    "Sanctity/Degradation": re.compile(r'sanctity|degrad|purity|disgust|sacred|contamina', re.I),
-    "Liberty/Oppression": re.compile(r'liberty|oppress|freedom|tyrann|autonomy|coerci', re.I),
+    "Care/Harm": re.compile(r'care[/\s]harm|care\s+foundation|harm\s+foundation|compassion.*cruelty|nurtur.*suffer', re.I),
+    "Fairness/Cheating": re.compile(r'fairness[/\s]cheat|fairness\s+foundation|justice.*reciproc|proportional.*justice', re.I),
+    "Loyalty/Betrayal": re.compile(r'loyalty[/\s]betray|loyalty\s+foundation|in[\s\-]?group.*loyal|patriot.*betray', re.I),
+    "Authority/Subversion": re.compile(r'authority[/\s]subver|authority\s+foundation|hierarch.*obedien|respect.*authority', re.I),
+    "Sanctity/Degradation": re.compile(r'sanctity[/\s]degrad|sanctity\s+foundation|purity.*disgust|sacred.*contamina', re.I),
+    "Liberty/Oppression": re.compile(r'liberty[/\s]oppress|liberty\s+foundation|freedom.*tyrann|autonomy.*coerci', re.I),
 }
 
 SCHWARTZ_VALUES = [
@@ -373,6 +433,59 @@ def classify_theories(text):
     if not text or text.lower() in ('n/a', 'na', 'no', 'none', ''):
         return []
     return [abbrev for abbrev, pat in THEORY_PATTERNS.items() if pat.search(text)]
+
+
+# ── v7c: Schwartz Higher-Order Quadrants ─────────────────────────────────
+
+SCHWARTZ_HIGHER_ORDER = {
+    "Openness to Change": ["Self-Direction", "Stimulation", "Hedonism"],
+    "Self-Enhancement": ["Hedonism", "Achievement", "Power"],
+    "Conservation": ["Security", "Conformity", "Tradition"],
+    "Self-Transcendence": ["Benevolence", "Universalism"],
+}
+
+# ── v7c: Alignment Outcome Patterns ─────────────────────────────────────
+
+ALIGNMENT_OUTCOME_PATTERNS = {
+    "Aligned": re.compile(r'align(ed|ment)|consistent\s+with\s+human|match(es|ed|ing)\s+(human|moral)|moral\s+agreement', re.I),
+    "Misaligned": re.compile(r'misalign|inconsisten|diverge[sd]?\s+from|fail(s|ed)?\s+to\s+align|moral\s+gap|moral\s+blind', re.I),
+    "Mixed": re.compile(r'partial(ly)?\s+align|mixed\s+result|varies?\s+(across|by)|depends?\s+on|context[\s\-]?dependent', re.I),
+    "Culturally Variable": re.compile(r'cultur(e|al)(ly)?\s+(vari|differ|bias|specif)|cross[\s\-]?cultural\s+differ|western\s+bias', re.I),
+}
+
+# ── v7c: Methodology Patterns ───────────────────────────────────────────
+
+METHODOLOGY_PATTERNS = {
+    "Questionnaire / Survey": re.compile(r'questionnaire|survey|MFQ\b|SVS\b|PVQ\b|WVS\b|DIT\b|likert|self[\s\-]?report', re.I),
+    "Prompt-Based Probing": re.compile(r'prompt[\s\-]?(based|engineer|prob)|zero[\s\-]?shot|few[\s\-]?shot|in[\s\-]?context\s+learn', re.I),
+    "Scenario / Vignette": re.compile(r'scenario|vignette|trolley|dilemma|thought\s+experiment|moral\s+machine', re.I),
+    "Corpus / Text Analysis": re.compile(r'corpus|text\s+analysis|content\s+analysis|NLP|dictionary[\s\-]?based|MFD\b|eMFD\b', re.I),
+    "Human Comparison": re.compile(r'human\s+comparison|human\s+baseline|human\s+annotator|inter[\s\-]?annotator|human\s+subject', re.I),
+}
+
+# ── v7c: Instrument Patterns ────────────────────────────────────────────
+
+INSTRUMENT_PATTERNS = {
+    "MFQ": re.compile(r'MFQ\b|Moral\s+Foundations?\s+Questionnaire', re.I),
+    "MFD / eMFD": re.compile(r'MFD\b|eMFD\b|Moral\s+Foundations?\s+Dictionary', re.I),
+    "SVS / PVQ": re.compile(r'SVS\b|PVQ\b|Schwartz\s+Value\s+Survey|Portrait\s+Values?\s+Questionnaire', re.I),
+    "WVS": re.compile(r'WVS\b|World\s+Values?\s+Survey', re.I),
+    "DIT": re.compile(r'DIT\b|Defining\s+Issues?\s+Test', re.I),
+    "Moral Machine": re.compile(r'Moral\s+Machine', re.I),
+    "ETHICS dataset": re.compile(r'ETHICS\s+(dataset|benchmark)|Hendrycks.*ETHICS', re.I),
+}
+
+# ── v7c: MFT Approach Patterns ──────────────────────────────────────────
+
+MFT_APPROACH_PATTERNS = {
+    "MFQ Instrument": re.compile(r'MFQ\b|Moral\s+Foundations?\s+Questionnaire|likert.*foundation|foundation.*likert', re.I),
+    "MFD Dictionary": re.compile(r'MFD\b|eMFD\b|Moral\s+Foundations?\s+Dictionary|dictionary[\s\-]?based.*moral', re.I),
+    "Prompt-Based": re.compile(r'prompt[\s\-]?(based|engineer|prob).*moral|moral.*prompt[\s\-]?(based|engineer)|zero[\s\-]?shot.*foundation|foundation.*zero[\s\-]?shot', re.I),
+    "Corpus / Text": re.compile(r'corpus.*moral|moral.*corpus|text\s+analysis.*moral|moral.*text\s+analysis|NLP.*foundation|foundation.*NLP', re.I),
+}
+
+# 5 active theories for filtered cooccurrence (exclude SIM, Dyadic, MoralID — <5 papers each)
+ACTIVE_THEORIES = ["MFT", "Schwartz", "Kohlberg", "Trolley", "DualProc"]
 
 
 # ── Religious Tradition Patterns ──────────────────────────────────────────
@@ -957,6 +1070,86 @@ def build_conference_data(papers):
 # SECTION 7: DEEP-DIVE SECTION BUILDERS (FIXED)
 # ═══════════════════════════════════════════════════════════════════════════
 
+# ── Co-occurrence Matrix Helper ──────────────────────────────────────────
+
+def build_cooccurrence_matrix(papers, keyword_dict):
+    """Build keyword co-occurrence matrix from paper keyword lists."""
+    labels = sorted(keyword_dict.keys())
+    n = len(labels)
+    label_idx = {l: i for i, l in enumerate(labels)}
+    matrix = [[0] * n for _ in range(n)]
+    for sp in papers:
+        kws = sp.get("kw", [])
+        for i, a in enumerate(kws):
+            if a not in label_idx:
+                continue
+            ai = label_idx[a]
+            matrix[ai][ai] += 1  # diagonal = occurrences
+            for b in kws[i+1:]:
+                if b not in label_idx:
+                    continue
+                bi = label_idx[b]
+                matrix[ai][bi] += 1
+                matrix[bi][ai] += 1
+    return labels, matrix
+
+
+# ── Sub-Tradition Definitions ────────────────────────────────────────────
+
+VE_SUB_TRADITIONS = {
+    "Aristotelian": re.compile(r'aristot|phronesis|eudaimonia|practical\s+wisdom|nicomachean', re.I),
+    "Confucian": re.compile(r'confuci|junzi|ren\b|li\b.*ritual|five\s+relationship', re.I),
+    "Sentimentalist": re.compile(r'sentimentali|moral\s+sentiment|hume.*virtue|sympathy.*ethic', re.I),
+    "Capability": re.compile(r'capabilit.*approach|nussbaum|sen.*capabilit|human\s+capabilit', re.I),
+}
+DE_SUB_TRADITIONS = {
+    "Kantian": re.compile(r'kantian|categorical\s+imperative|universaliz|universal\s+law', re.I),
+    "Rossian": re.compile(r'ross(?:ian)?|prima\s+facie\s+dut', re.I),
+    "Rights-based": re.compile(r'rights[\s\-]based|human\s+rights|natural\s+rights|right\s+to', re.I),
+}
+CU_SUB_TRADITIONS = {
+    "Act": re.compile(r'act\s+utilitari|act[\s\-]consequential', re.I),
+    "Rule": re.compile(r'rule\s+utilitari|rule[\s\-]consequential', re.I),
+    "Preference": re.compile(r'preference\s+utilitari|preference\s+satisfac', re.I),
+}
+
+
+def scan_sub_traditions(title, abstract, sub_dict):
+    """Scan title+abstract for sub-tradition patterns."""
+    text = (title + " " + abstract).lower() if title or abstract else ""
+    found = []
+    for name, pat in sub_dict.items():
+        if pat.search(text):
+            found.append(name)
+    return found
+
+
+# ── Concept Timeline Helper ──────────────────────────────────────────────
+
+def build_concept_timeline(papers, keyword_dict, top_n=8):
+    """Build concept-over-time series for top N keywords."""
+    kw_year = defaultdict(Counter)
+    for sp in papers:
+        y = sp.get("y", 0)
+        if y < 2016:
+            continue
+        for k in sp.get("kw", []):
+            kw_year[k][y] += 1
+    # Top N by total count
+    totals = {k: sum(yc.values()) for k, yc in kw_year.items()}
+    top_kws = sorted(totals, key=totals.get, reverse=True)[:top_n]
+    if not top_kws:
+        return {"years": [], "concepts": [], "series": []}
+    all_years = sorted(set(y for k in top_kws for y in kw_year[k]))
+    series = []
+    for kw in top_kws:
+        series.append({
+            "name": kw,
+            "data": [kw_year[kw].get(y, 0) for y in all_years],
+        })
+    return {"years": all_years, "concepts": top_kws, "series": series}
+
+
 def compute_normative_data(normative_entries, candidates, paper_yaml, candidates_set):
     """Compute normative ethics data with FIXED sub-sections."""
     cand_lookup = {e["filename"]: e for e in candidates}
@@ -1040,6 +1233,7 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
         venue_counter = Counter()
         region_counter = Counter()
         theory_vs_emp = Counter()  # "Benchmark / Evaluation" vs "Theoretical / Framework"
+        research_type_5 = Counter()
         bench_count = 0
         for fn, fields in paper_yaml.items():
             val = fields.get(yaml_field, '').lower()
@@ -1072,17 +1266,41 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
                 paper_regions.add(r)
 
             # Theory vs Empirical
+            abstract = fields.get("abstract", "") or ""
             if fn in cand_lookup:
                 theory_vs_emp["Benchmark / Evaluation"] += 1
             else:
                 theory_vs_emp["Theoretical / Framework"] += 1
 
+            # 5-category research type
+            if fn in cand_lookup:
+                # Distinguish benchmark evaluation from non-benchmark empirical
+                research_type_5["Empirical Benchmark"] += 1
+            elif abstract and any(w in abstract.lower() for w in ["experiment", "dataset", "survey", "participant", "sample", "collected", "annotation"]):
+                research_type_5["Empirical Non-Benchmark"] += 1
+            elif abstract and any(w in abstract.lower() for w in ["mixed", "qualitative", "interview", "case study"]):
+                research_type_5["Mixed Methods"] += 1
+            elif abstract and any(w in abstract.lower() for w in ["dataset", "corpus", "resource", "benchmark", "annotation tool"]):
+                research_type_5["Dataset/Resource"] += 1
+            else:
+                research_type_5["Philosophical Analysis"] += 1
+
             # Per-paper concept/virtue keywords (for click-to-filter)
             kw = []
             if scan_fn:
                 _title = fields.get("title", "") or fields.get("short_title", fn)
-                _abstract = fields.get("abstract", "")
+                _abstract = abstract
                 kw = sorted(scan_fn(_title, _abstract))
+
+            # Sub-traditions
+            st = []
+            if scan_fn:
+                if scan_fn == scan_virtue_keywords:
+                    st = scan_sub_traditions(_title, _abstract, VE_SUB_TRADITIONS)
+                elif scan_fn == scan_deontology_keywords:
+                    st = scan_sub_traditions(_title, _abstract, DE_SUB_TRADITIONS)
+                elif scan_fn == scan_cu_concepts:
+                    st = scan_sub_traditions(_title, _abstract, CU_SUB_TRADITIONS)
 
             # FIX #1: return full paper objects, not just filenames
             sub_papers.append({
@@ -1095,7 +1313,14 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
                 "vt": vt,
                 "rg": sorted(paper_regions),
                 "kw": kw,
+                "st": st,
             })
+        # Depth histogram and mean depth
+        depth_counts = Counter(len(sp.get("kw", [])) for sp in sub_papers)
+        depth_hist = [{"depth": d, "count": c} for d, c in sorted(depth_counts.items())]
+        total_kw = sum(len(sp.get("kw", [])) for sp in sub_papers)
+        mean_depth = round(total_kw / max(len(sub_papers), 1), 2)
+
         return {
             "papers": sub_papers,
             "count": len(sub_papers),
@@ -1105,19 +1330,49 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
             "theoryVsEmpirical": [{"n": n, "c": c} for n, c in theory_vs_emp.most_common()],
             "venueTypeDist": [{"n": n, "c": c} for n, c in venue_counter.most_common()],
             "regionDist": [{"n": n, "c": c} for n, c in region_counter.most_common()],
+            "depthHist": depth_hist,
+            "meanDepth": mean_depth,
+            "researchType5": [{"n": n, "c": c} for n, c in research_type_5.most_common()],
         }
 
     ve_data = build_fw_subsection('virtue_ethics', 'VE', scan_fn=scan_virtue_keywords)
     ve_data["virtueKeywords"] = [{"n": n, "c": c} for n, c in
         Counter(k for sp in ve_data["papers"] for k in sp.get("kw", [])).most_common()]
+    # Co-occurrence matrix
+    labels, matrix = build_cooccurrence_matrix(ve_data["papers"], VIRTUE_KEYWORDS)
+    ve_data["coocLabels"] = labels
+    ve_data["coocMatrix"] = matrix
+    # Sub-traditions
+    ve_data["subTraditions"] = [{"n": n, "c": c} for n, c in
+        Counter(s for sp in ve_data["papers"] for s in sp.get("st", [])).most_common()]
+    # Concept timeline
+    ve_data["conceptTimeline"] = build_concept_timeline(ve_data["papers"], VIRTUE_KEYWORDS)
 
     de_data = build_fw_subsection('deontological_ethics', 'DE', scan_fn=scan_deontology_keywords)
     de_data["deontConcepts"] = [{"n": n, "c": c} for n, c in
         Counter(k for sp in de_data["papers"] for k in sp.get("kw", [])).most_common()]
+    # Co-occurrence matrix
+    labels, matrix = build_cooccurrence_matrix(de_data["papers"], DEONTOLOGY_KEYWORDS)
+    de_data["coocLabels"] = labels
+    de_data["coocMatrix"] = matrix
+    # Sub-traditions
+    de_data["subTraditions"] = [{"n": n, "c": c} for n, c in
+        Counter(s for sp in de_data["papers"] for s in sp.get("st", [])).most_common()]
+    # Concept timeline
+    de_data["conceptTimeline"] = build_concept_timeline(de_data["papers"], DEONTOLOGY_KEYWORDS)
 
     cu_data = build_fw_subsection('utilitarian_ethics', 'CU', scan_fn=scan_cu_concepts)
     cu_data["cuConcepts"] = [{"n": n, "c": c} for n, c in
         Counter(k for sp in cu_data["papers"] for k in sp.get("kw", [])).most_common()]
+    # Co-occurrence matrix
+    labels, matrix = build_cooccurrence_matrix(cu_data["papers"], CU_CONCEPT_KEYWORDS)
+    cu_data["coocLabels"] = labels
+    cu_data["coocMatrix"] = matrix
+    # Sub-traditions
+    cu_data["subTraditions"] = [{"n": n, "c": c} for n, c in
+        Counter(s for sp in cu_data["papers"] for s in sp.get("st", [])).most_common()]
+    # Concept timeline
+    cu_data["conceptTimeline"] = build_concept_timeline(cu_data["papers"], CU_CONCEPT_KEYWORDS)
 
     # Overlap
     ve_fns = set(p["fn"] for p in ve_data["papers"])
@@ -1234,6 +1489,281 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
         overlap_timeline[combo_name] = [yc.get(y, 0) for y in overlap_years]
     overlap["overlapTimeline"] = overlap_timeline
 
+    # ── Item 9: Overlap Typology ─────────────────────────────────────
+    typology_counter = Counter()
+    any_overlap_fns = ve_de_set | ve_cu_set | de_cu_set
+    for fn in any_overlap_fns:
+        # Check normative entries for reasoning
+        entry = next((e for e in normative_entries if e.get("filename") == fn), None)
+        reasoning = (entry.get("reasoning", "") if entry else "").lower()
+        if any(w in reasoning for w in ["compar", "contrast", "versus", "differ"]):
+            typology_counter["Comparative"] += 1
+        elif any(w in reasoning for w in ["integrat", "combin", "synthesiz", "reconcil", "bridg"]):
+            typology_counter["Integrative"] += 1
+        else:
+            typology_counter["Incidental"] += 1
+    overlap["typology"] = [{"n": n, "c": c} for n, c in typology_counter.most_common()]
+
+    # ── Item 3: Comparative Radar ────────────────────────────────────
+    def _compute_comparative_dims(fw_data, fw_fns, paper_yaml, candidates_set):
+        """Compute 6 comparative dimensions for a framework."""
+        papers = fw_data["papers"]
+        n = max(len(papers), 1)
+        # 1. Benchmark %
+        bench_pct = round(100 * fw_data["benchmarkCount"] / n, 1)
+        # 2. Mean depth (keyword count)
+        total_kw = sum(len(sp.get("kw", [])) for sp in papers)
+        mean_depth = round(total_kw / n, 2)
+        # 3. Non-WEIRD %
+        non_weird = 0
+        for fn in fw_fns:
+            cultures = paper_yaml.get(fn, {}).get("cultures_nationalities_list", [])
+            for c in (cultures if isinstance(cultures, list) else []):
+                r = classify_region(c)
+                if r not in ("North America", "Western Europe", "Mixed", "Unknown"):
+                    non_weird += 1
+                    break
+        non_weird_pct = round(100 * non_weird / n, 1)
+        # 4. Median models per paper
+        model_counts = [len(sp.get("lm", [])) for sp in papers]
+        model_counts.sort()
+        median_models = model_counts[len(model_counts) // 2] if model_counts else 0
+        # 5. Conference %
+        conf_count = sum(1 for sp in papers if sp.get("vt") == "Conference")
+        conf_pct = round(100 * conf_count / n, 1)
+        # 6. Growth rate (latest 2 years)
+        yd = fw_data["yearDist"]
+        years_sorted = sorted(int(y) for y in yd.keys())
+        if len(years_sorted) >= 2:
+            prev = yd.get(str(years_sorted[-2]), 0)
+            curr = yd.get(str(years_sorted[-1]), 0)
+            growth = round(100 * (curr - prev) / max(prev, 1), 1)
+        else:
+            growth = 0.0
+        return {
+            "benchmarkPct": bench_pct,
+            "meanDepth": mean_depth,
+            "nonWeirdPct": non_weird_pct,
+            "medianModels": median_models,
+            "conferencePct": conf_pct,
+            "growthRate": growth,
+        }
+
+    comparative_indicators = [
+        {"name": "Benchmark %", "max": 100},
+        {"name": "Mean Depth", "max": 6},
+        {"name": "Non-WEIRD %", "max": 100},
+        {"name": "Median Models", "max": 5},
+        {"name": "Conference %", "max": 100},
+        {"name": "Growth Rate %", "max": 200},
+    ]
+    comparative_series = []
+    for fw_key, fw_data_ref, fw_fns_ref, fw_name in [
+        ("ve", ve_data, ve_fns, "Virtue Ethics"),
+        ("de", de_data, de_fns, "Deontological"),
+        ("cu", cu_data, cu_fns, "Consequentialism"),
+    ]:
+        dims = _compute_comparative_dims(fw_data_ref, fw_fns_ref, paper_yaml, candidates_set)
+        comparative_series.append({
+            "name": fw_name,
+            "data": [dims["benchmarkPct"], dims["meanDepth"], dims["nonWeirdPct"],
+                     dims["medianModels"], dims["conferencePct"], dims["growthRate"]],
+        })
+    comparative = {"indicators": comparative_indicators, "series": comparative_series}
+
+    # ── Item 4: Beyond Big Three ─────────────────────────────────────
+    def build_pattern_fw_subsection(fw_pattern, scan_fn, keyword_dict):
+        """Build a framework subsection by scanning ALL papers via regex pattern."""
+        sub_papers = []
+        year_dist = Counter()
+        concept_counter = Counter()
+        for fn, fields in paper_yaml.items():
+            title = fields.get("short_title", "") or fn
+            abstract = fields.get("abstract", "") or ""
+            search_text = f"{title} {abstract}"
+            if not fw_pattern.search(search_text):
+                continue
+            year = extract_year(fn)
+            if year == 9999:
+                year = 0
+            kw = sorted(scan_fn(title, abstract))
+            for k in kw:
+                concept_counter[k] += 1
+            if year > 0:
+                year_dist[year] += 1
+            sub_papers.append({
+                "fn": fn,
+                "y": year,
+                "kw": kw,
+            })
+        return {
+            "count": len(sub_papers),
+            "papers": sub_papers,
+            "yearDist": {str(y): c for y, c in sorted(year_dist.items()) if y >= 2016},
+            "concepts": [{"n": n, "c": c} for n, c in concept_counter.most_common()],
+        }
+
+    care_data = build_pattern_fw_subsection(
+        NORMATIVE_FRAMEWORK_PATTERNS["Care Ethics"], scan_care_keywords, CARE_ETHICS_KEYWORDS)
+    contract_data = build_pattern_fw_subsection(
+        NORMATIVE_FRAMEWORK_PATTERNS["Contractualism/Rawlsian"], scan_contractualism_keywords, CONTRACTUALISM_KEYWORDS)
+    princ_data = build_pattern_fw_subsection(
+        NORMATIVE_FRAMEWORK_PATTERNS["Principlism"], scan_principlism_keywords, PRINCIPLISM_KEYWORDS)
+
+    # ── Item 5: Coverage Gap Matrix ──────────────────────────────────
+    gap_fw_names = list(NORMATIVE_FRAMEWORK_PATTERNS.keys())
+    gap_cols = ["Has Benchmark", "Has Model Eval", "Has Non-WEIRD", "Has Multilingual", "Paper Count"]
+
+    # Build paper sets per framework
+    fw_paper_sets = {}
+    for fw_name, fw_pat in NORMATIVE_FRAMEWORK_PATTERNS.items():
+        fns = set()
+        for fn, fields in paper_yaml.items():
+            title = fields.get("short_title", "") or fn
+            abstract = fields.get("abstract", "") or ""
+            search_text = f"{title} {abstract}"
+            if fw_pat.search(search_text):
+                fns.add(fn)
+        fw_paper_sets[fw_name] = fns
+
+    gap_matrix = []
+    for fw_name in gap_fw_names:
+        fns = fw_paper_sets[fw_name]
+        has_bench = 1 if any(fn in candidates_set for fn in fns) else 0
+        has_model = 1 if any(paper_yaml.get(fn, {}).get("LLM_assessed", "").lower() not in ("", "na", "n/a", "none") for fn in fns) else 0
+        has_non_weird = 0
+        has_multilingual = 0
+        for fn in fns:
+            cultures = paper_yaml.get(fn, {}).get("cultures_nationalities_list", [])
+            for c in (cultures if isinstance(cultures, list) else []):
+                r = classify_region(c)
+                if r not in ("North America", "Western Europe", "Mixed", "Unknown"):
+                    has_non_weird = 1
+                    break
+            langs = paper_yaml.get(fn, {}).get("languages_list", [])
+            if len([l for l in langs if l.lower() not in ("english", "en", "")]) > 0:
+                has_multilingual = 1
+            if has_non_weird and has_multilingual:
+                break
+        gap_matrix.append([has_bench, has_model, has_non_weird, has_multilingual, len(fns)])
+
+    # ── Item 11: Meta-Ethics ─────────────────────────────────────────
+    META_ETHICS_KEYWORDS = {
+        "Moral Realism": re.compile(r'moral\s+realis[mt]|ethical\s+realis[mt]|mind[\s\-]independent\s+moral', re.I),
+        "Anti-Realism": re.compile(r'anti[\s\-]?realis[mt]|moral\s+(?:anti[\s\-]?realis|error\s+theor|expressivis|non[\s\-]?cognitivis)', re.I),
+        "Relativism": re.compile(r'moral\s+relativis[mt]|ethical\s+relativis[mt]|cultural\s+relativis', re.I),
+        "Universalism": re.compile(r'moral\s+universalis[mt]|ethical\s+universalis[mt]|universal\s+(?:moral|ethic)', re.I),
+        "Reflective Equilibrium": re.compile(r'reflective\s+equilibrium', re.I),
+    }
+    meta_ethics_counter = Counter()
+    for fn, fields in paper_yaml.items():
+        abstract = fields.get("abstract", "") or ""
+        title = fields.get("short_title", "") or fn
+        text = f"{title} {abstract}"
+        for concept, pat in META_ETHICS_KEYWORDS.items():
+            if pat.search(text):
+                meta_ethics_counter[concept] += 1
+    meta_ethics = [{"n": n, "c": c} for n, c in meta_ethics_counter.most_common()]
+
+    # ── Item 12: Author-Framework Bipartite ──────────────────────────
+    author_fw_counter = defaultdict(lambda: {"total": 0, "ve": 0, "de": 0, "cu": 0})
+    for fn in ve_fns:
+        fields = paper_yaml.get(fn, {})
+        fa = fields.get("first_author", "")
+        if fa:
+            author_fw_counter[fa]["total"] += 1
+            author_fw_counter[fa]["ve"] += 1
+    for fn in de_fns:
+        fields = paper_yaml.get(fn, {})
+        fa = fields.get("first_author", "")
+        if fa:
+            author_fw_counter[fa]["total"] += 1
+            author_fw_counter[fa]["de"] += 1
+    for fn in cu_fns:
+        fields = paper_yaml.get(fn, {})
+        fa = fields.get("first_author", "")
+        if fa:
+            author_fw_counter[fa]["total"] += 1
+            author_fw_counter[fa]["cu"] += 1
+    # Top 30 authors with >=2 normative papers
+    author_fw_list = sorted(
+        [{"n": name, "c": d["total"], "ve": d["ve"], "de": d["de"], "cu": d["cu"]}
+         for name, d in author_fw_counter.items() if d["total"] >= 2],
+        key=lambda x: -x["c"]
+    )[:30]
+
+    # ── Item 13: Full-Text Depth ─────────────────────────────────────
+    EXTRACT_DIR = WS_ROOT / "PDF Extracts"
+    all_normative_fns = ve_fns | de_fns | cu_fns
+    full_text_depth = []
+    for fn in sorted(all_normative_fns):
+        year_str = fn[:4] if fn[:4].isdigit() else "0000"
+        extract_path = EXTRACT_DIR / year_str / fn
+        if not extract_path.exists():
+            continue
+        try:
+            text = extract_path.read_text(encoding='utf-8')
+        except Exception:
+            continue
+        # Word count
+        words = text.split()
+        word_count = len(words)
+        if word_count < 100:
+            continue
+        # Count normative keywords
+        text_lower = text.lower()
+        kw_count = 0
+        all_kw_dicts = [VIRTUE_KEYWORDS, DEONTOLOGY_KEYWORDS, CU_CONCEPT_KEYWORDS]
+        for kw_dict in all_kw_dicts:
+            for concept, patterns in kw_dict.items():
+                for p in patterns:
+                    kw_count += text_lower.count(p)
+        density = round(1000 * kw_count / word_count, 2)
+        full_text_depth.append({"fn": fn, "density": density})
+
+    full_text_depth.sort(key=lambda x: -x["density"])
+    full_text_depth = full_text_depth[:20]  # Top 20
+
+    # Add full-text depth per framework
+    for fw_key, fw_fns_set, fw_data_ref in [("ve", ve_fns, ve_data), ("de", de_fns, de_data), ("cu", cu_fns, cu_data)]:
+        fw_depth = [d for d in full_text_depth if d["fn"] in fw_fns_set]
+        fw_data_ref["fullTextDepth"] = fw_depth[:10]
+
+    # ── Item 14: Philosopher Citation Network ────────────────────────
+    PHILOSOPHER_PATTERNS = {
+        "Aristotle": re.compile(r'\baristot', re.I),
+        "Kant": re.compile(r'\bkant(?:ian)?\b', re.I),
+        "Mill": re.compile(r'\bmill\b.*utilitar|utilitar.*\bmill\b|\bjohn\s+stuart\s+mill', re.I),
+        "Rawls": re.compile(r'\brawls', re.I),
+        "Confucius": re.compile(r'\bconfuci', re.I),
+        "Bentham": re.compile(r'\bbentham', re.I),
+        "Hume": re.compile(r'\bhume\b', re.I),
+        "Habermas": re.compile(r'\bhabermas', re.I),
+        "Nussbaum": re.compile(r'\bnussbaum', re.I),
+        "Sen": re.compile(r'\bamartya\s+sen\b|\bsen\b.*capabilit', re.I),
+        "Gilligan": re.compile(r'\bgilligan', re.I),
+        "Noddings": re.compile(r'\bnoddings', re.I),
+    }
+
+    citation_counter = Counter()
+    citation_fws = defaultdict(Counter)  # philosopher -> {VE: n, DE: n, CU: n}
+    for fn, fields in paper_yaml.items():
+        abstract = fields.get("abstract", "") or ""
+        title = fields.get("short_title", "") or fn
+        text = f"{title} {abstract}"
+        for philosopher, pat in PHILOSOPHER_PATTERNS.items():
+            if pat.search(text):
+                citation_counter[philosopher] += 1
+                if fn in ve_fns:
+                    citation_fws[philosopher]["VE"] += 1
+                if fn in de_fns:
+                    citation_fws[philosopher]["DE"] += 1
+                if fn in cu_fns:
+                    citation_fws[philosopher]["CU"] += 1
+
+    citations = [{"n": name, "c": count, "fws": dict(citation_fws.get(name, {}))}
+                 for name, count in citation_counter.most_common()]
+
     return {
         "yes": len(yes_entries),
         "borderline": len(border_entries),
@@ -1245,11 +1775,22 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
         "cu": cu_data,
         "overlap": overlap,
         "timelineFw": timeline_fw,
+        "metaEthics": meta_ethics,
+        "authorFramework": author_fw_list,
+        "citations": citations,
+        # NEW: Items 3, 4, 5
+        "comparative": comparative,
+        "care": care_data,
+        "contract": contract_data,
+        "princ": princ_data,
+        "gapRows": gap_fw_names,
+        "gapCols": gap_cols,
+        "gapMatrix": gap_matrix,
     }
 
 
 def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
-    """Compute moral psychology data with FIXED sub-sections."""
+    """Compute moral psychology data — v7c overhaul with 13 new analytics."""
     cand_lookup = {e["filename"]: e for e in candidates}
 
     mp_papers = []
@@ -1258,6 +1799,13 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
     theory_year = defaultdict(Counter)
     theory_paper_sets = defaultdict(set)
     benchmark_count = 0
+
+    # v7c: cross-cutting per-paper accumulators
+    alignment_counter = Counter()
+    methodology_counter = Counter()
+    instrument_counter = Counter()
+    weird_counter = Counter()
+    sophistication_year = defaultdict(list)
 
     for fn, fields in paper_yaml.items():
         mp_val = fields.get('moral_psychology', '') or ''
@@ -1279,6 +1827,46 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
         cand = cand_lookup.get(fn, {})
         combined_model_text = get_models_text(cand, fields)
 
+        # v7c: per-paper alignment outcomes
+        paper_alignment = []
+        for al_name, al_pat in ALIGNMENT_OUTCOME_PATTERNS.items():
+            if al_pat.search(combined_text):
+                paper_alignment.append(al_name)
+                alignment_counter[al_name] += 1
+
+        # v7c: per-paper methodology tags
+        paper_methods = []
+        for mt_name, mt_pat in METHODOLOGY_PATTERNS.items():
+            if mt_pat.search(combined_text):
+                paper_methods.append(mt_name)
+                methodology_counter[mt_name] += 1
+
+        # v7c: per-paper instruments
+        paper_instruments = []
+        for ins_name, ins_pat in INSTRUMENT_PATTERNS.items():
+            if ins_pat.search(combined_text):
+                paper_instruments.append(ins_name)
+                instrument_counter[ins_name] += 1
+
+        # v7c: WEIRD status from region
+        cultures = fields.get("cultures_nationalities_list", [])
+        paper_regions = set()
+        for c in (cultures if isinstance(cultures, list) else []):
+            paper_regions.add(classify_region(c))
+        paper_weird_statuses = set(classify_weird(r) for r in paper_regions if r != "Other")
+        if len(paper_weird_statuses) > 1 or "Mixed" in paper_weird_statuses:
+            paper_weird = "Mixed"
+        elif paper_weird_statuses:
+            paper_weird = next(iter(paper_weird_statuses))
+        else:
+            paper_weird = "Unknown"
+        if paper_weird != "Unknown":
+            weird_counter[paper_weird] += 1
+
+        # v7c: sophistication = number of theories per paper
+        if year != 9999:
+            sophistication_year[year].append(len(theories))
+
         mp_papers.append({
             "fn": fn,
             "y": year if year != 9999 else 0,
@@ -1287,6 +1875,9 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
             "bn": get_benchmark_name(cand, fields),
             "wm": get_what_measures(cand, fields),
             "lm": extract_model_families(combined_model_text)[:5],
+            "al": paper_alignment[:2],
+            "mt": paper_methods[:2],
+            "ins": paper_instruments[:2],
         })
 
         paper_theories[fn] = theories
@@ -1307,212 +1898,236 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
             "col": meta["color"],
         })
 
-    # MFT sub-section — FIXED: full paper objects
+    # ── Helper: build theory sub-section ─────────────────────────────────
+    def _build_subsection(theory_key):
+        """Build standard sub-section data for a single theory key."""
+        sub_fns = theory_paper_sets.get(theory_key, set())
+        sub_papers = []
+        sub_year = Counter()
+        sub_model = Counter()
+        sub_theory_vs_emp = Counter()
+        sub_venue = Counter()
+        sub_region = Counter()
+        for fn in sub_fns:
+            fields = paper_yaml.get(fn, {})
+            cand = cand_lookup.get(fn, {})
+            cmt = get_models_text(cand, fields)
+            yr = extract_year(fn)
+            if yr != 9999:
+                sub_year[yr] += 1
+            for m in extract_model_families(cmt):
+                sub_model[m] += 1
+            if fn in candidates_set:
+                sub_theory_vs_emp["Benchmark / Evaluation"] += 1
+            else:
+                sub_theory_vs_emp["Theoretical / Framework"] += 1
+            cc = fields.get("CONF-CC", "") or "N/A"
+            vt = categorize_venue(cc)
+            sub_venue[vt] += 1
+            cultures_list = fields.get("cultures_nationalities_list", [])
+            pr = set()
+            for c in (cultures_list if isinstance(cultures_list, list) else []):
+                r = classify_region(c)
+                sub_region[r] += 1
+                pr.add(r)
+            sub_papers.append({
+                "fn": fn,
+                "y": yr if yr != 9999 else 0,
+                "ib": 1 if fn in candidates_set else 0,
+                "bn": get_benchmark_name(cand, fields),
+                "wm": get_what_measures(cand, fields),
+                "lm": extract_model_families(cmt)[:5],
+                "vt": vt,
+                "rg": sorted(pr),
+            })
+        return {
+            "papers": sub_papers,
+            "count": len(sub_papers),
+            "yearDist": {str(y): c for y, c in sorted(sub_year.items()) if y >= 2016},
+            "topModels": [{"n": n, "c": c} for n, c in sub_model.most_common(10)],
+            "theoryVsEmpirical": [{"n": n, "c": c} for n, c in sub_theory_vs_emp.most_common()],
+            "venueTypeDist": [{"n": n, "c": c} for n, c in sub_venue.most_common()],
+            "regionDist": [{"n": n, "c": c} for n, c in sub_region.most_common()],
+        }
+
+    # ── MFT sub-section ──────────────────────────────────────────────────
+    mft_data = _build_subsection("MFT")
+    # Add MFT-specific: foundations + approach distribution
     mft_fns = theory_paper_sets.get("MFT", set())
-    mft_papers = []
-    mft_year = Counter()
-    mft_model = Counter()
     mft_foundation_counts = Counter()
-    mft_theory_vs_emp = Counter()
-    mft_venue_counter = Counter()
-    mft_region_counter = Counter()
+    mft_approach_counter = Counter()
     for fn in mft_fns:
         fields = paper_yaml.get(fn, {})
-        cand = cand_lookup.get(fn, {})
-        combined_model_text = get_models_text(cand, fields)
-        year = extract_year(fn)
-        if year != 9999:
-            mft_year[year] += 1
-        for m in extract_model_families(combined_model_text):
-            mft_model[m] += 1
-        # Detect foundations
         abstract = fields.get('abstract', '') or ''
         mp_val = fields.get('moral_psychology', '') or ''
         combined = f"{mp_val} {abstract}"
         for fnd_name, fnd_pat in MFT_FOUNDATION_PATTERNS.items():
             if fnd_pat.search(combined):
                 mft_foundation_counts[fnd_name] += 1
-        # Theory vs Empirical
-        if fn in candidates_set:
-            mft_theory_vs_emp["Benchmark / Evaluation"] += 1
-        else:
-            mft_theory_vs_emp["Theoretical / Framework"] += 1
-        # Venue type
-        conf_cc = fields.get("CONF-CC", "") or "N/A"
-        vt = categorize_venue(conf_cc)
-        mft_venue_counter[vt] += 1
-        # Region
-        cultures = fields.get("cultures_nationalities_list", [])
-        paper_regions = set()
-        for c in (cultures if isinstance(cultures, list) else []):
-            r = classify_region(c)
-            mft_region_counter[r] += 1
-            paper_regions.add(r)
-        mft_papers.append({
-            "fn": fn,
-            "y": year if year != 9999 else 0,
-            "ib": 1 if fn in candidates_set else 0,
-            "bn": get_benchmark_name(cand, fields),
-            "wm": get_what_measures(cand, fields),
-            "lm": extract_model_families(combined_model_text)[:5],
-            "vt": vt,
-            "rg": sorted(paper_regions),
-        })
+        for ap_name, ap_pat in MFT_APPROACH_PATTERNS.items():
+            if ap_pat.search(combined):
+                mft_approach_counter[ap_name] += 1
+    mft_data["foundations"] = [{"n": f, "c": mft_foundation_counts.get(f, 0)} for f in MFT_FOUNDATIONS]
+    mft_data["approachDist"] = [{"n": n, "c": c} for n, c in mft_approach_counter.most_common()]
 
-    mft_data = {
-        "papers": mft_papers,
-        "count": len(mft_papers),
-        "foundations": [{"n": f, "c": mft_foundation_counts.get(f, 0)} for f in MFT_FOUNDATIONS],
-        "yearDist": {str(y): c for y, c in sorted(mft_year.items()) if y >= 2016},
-        "topModels": [{"n": n, "c": c} for n, c in mft_model.most_common(10)],
-        "theoryVsEmpirical": [{"n": n, "c": c} for n, c in mft_theory_vs_emp.most_common()],
-        "venueTypeDist": [{"n": n, "c": c} for n, c in mft_venue_counter.most_common()],
-        "regionDist": [{"n": n, "c": c} for n, c in mft_region_counter.most_common()],
-    }
-
-    # Schwartz sub-section — FIXED
+    # ── Schwartz sub-section ─────────────────────────────────────────────
+    schwartz_data = _build_subsection("Schwartz")
+    # Add Schwartz-specific: value dims + higher-order quadrants
     schwartz_fns = theory_paper_sets.get("Schwartz", set())
-    schwartz_papers = []
-    schwartz_year = Counter()
-    schwartz_model = Counter()
-    schwartz_theory_vs_emp = Counter()
-    schwartz_venue_counter = Counter()
-    schwartz_region_counter = Counter()
     schwartz_value_counts = Counter()
     for fn in schwartz_fns:
         fields = paper_yaml.get(fn, {})
-        cand = cand_lookup.get(fn, {})
-        combined_model_text = get_models_text(cand, fields)
-        year = extract_year(fn)
-        if year != 9999:
-            schwartz_year[year] += 1
-        for m in extract_model_families(combined_model_text):
-            schwartz_model[m] += 1
-        # Theory vs Empirical
-        if fn in candidates_set:
-            schwartz_theory_vs_emp["Benchmark / Evaluation"] += 1
-        else:
-            schwartz_theory_vs_emp["Theoretical / Framework"] += 1
-        # Venue type
-        conf_cc = fields.get("CONF-CC", "") or "N/A"
-        vt = categorize_venue(conf_cc)
-        schwartz_venue_counter[vt] += 1
-        # Region
-        cultures = fields.get("cultures_nationalities_list", [])
-        paper_regions = set()
-        for c in (cultures if isinstance(cultures, list) else []):
-            r = classify_region(c)
-            schwartz_region_counter[r] += 1
-            paper_regions.add(r)
-        # Schwartz value dimension extraction
         abstract = fields.get('abstract', '') or ''
         mp_val = fields.get('moral_psychology', '') or ''
         combined = f"{mp_val} {abstract}"
         for val_name, val_pat in SCHWARTZ_VALUE_PATTERNS.items():
             if val_pat.search(combined):
                 schwartz_value_counts[val_name] += 1
-        schwartz_papers.append({
-            "fn": fn,
-            "y": year if year != 9999 else 0,
-            "ib": 1 if fn in candidates_set else 0,
-            "bn": get_benchmark_name(cand, fields),
-            "wm": get_what_measures(cand, fields),
-            "lm": extract_model_families(combined_model_text)[:5],
-            "vt": vt,
-            "rg": sorted(paper_regions),
-        })
+    schwartz_data["valueDims"] = [{"n": v, "c": schwartz_value_counts.get(v, 0)} for v in SCHWARTZ_VALUES]
+    # Higher-order quadrants: count papers with >=1 constituent value
+    ho_counts = {}
+    for quadrant, values in SCHWARTZ_HIGHER_ORDER.items():
+        papers_in_quad = set()
+        for fn in schwartz_fns:
+            fields = paper_yaml.get(fn, {})
+            abstract = fields.get('abstract', '') or ''
+            mp_val = fields.get('moral_psychology', '') or ''
+            combined = f"{mp_val} {abstract}"
+            for v in values:
+                if SCHWARTZ_VALUE_PATTERNS[v].search(combined):
+                    papers_in_quad.add(fn)
+                    break
+        ho_counts[quadrant] = len(papers_in_quad)
+    schwartz_data["higherOrder"] = [{"n": q, "c": ho_counts.get(q, 0)} for q in SCHWARTZ_HIGHER_ORDER]
 
-    schwartz_data = {
-        "papers": schwartz_papers,
-        "count": len(schwartz_papers),
-        "yearDist": {str(y): c for y, c in sorted(schwartz_year.items()) if y >= 2016},
-        "topModels": [{"n": n, "c": c} for n, c in schwartz_model.most_common(10)],
-        "theoryVsEmpirical": [{"n": n, "c": c} for n, c in schwartz_theory_vs_emp.most_common()],
-        "venueTypeDist": [{"n": n, "c": c} for n, c in schwartz_venue_counter.most_common()],
-        "regionDist": [{"n": n, "c": c} for n, c in schwartz_region_counter.most_common()],
-        "valueDims": [{"n": v, "c": schwartz_value_counts.get(v, 0)} for v in SCHWARTZ_VALUES],
+    # ── v7c: Reasoning (Kohlberg) sub-section ────────────────────────────
+    reasoning_data = _build_subsection("Kohlberg")
+
+    # ── v7c: Dilemmas (Trolley) sub-section ──────────────────────────────
+    dilemmas_data = _build_subsection("Trolley")
+    # Add paradigm breakdown for dilemmas
+    trolley_fns = theory_paper_sets.get("Trolley", set())
+    paradigm_counter = Counter()
+    PARADIGM_PATTERNS = {
+        "Classic Trolley": re.compile(r'trolley\s+problem|classic\s+trolley|trolley\s+dilemma', re.I),
+        "Moral Machine": re.compile(r'moral\s+machine|autonomous\s+vehicle|self[\s\-]?driving', re.I),
+        "Medical Triage": re.compile(r'medical\s+triage|hospital|organ\s+transplant|doctor', re.I),
+        "AI Safety": re.compile(r'AI\s+safety|machine\s+ethics|robot\s+ethics|artificial\s+moral', re.I),
+        "Custom Vignettes": re.compile(r'vignette|custom\s+scenario|novel\s+dilemma|modified\s+dilemma', re.I),
     }
-
-    # Developmental sub-section — FIXED
-    dev_theories = ["Kohlberg", "Trolley"]
-    dev_fns = set()
-    for t in dev_theories:
-        dev_fns |= theory_paper_sets.get(t, set())
-    dev_papers = []
-    dev_year = Counter()
-    dev_model = Counter()
-    sub_theory_counter = Counter()
-    dev_theory_vs_emp = Counter()
-    dev_venue_counter = Counter()
-    dev_region_counter = Counter()
-    for fn in dev_fns:
+    for fn in trolley_fns:
         fields = paper_yaml.get(fn, {})
-        cand = cand_lookup.get(fn, {})
-        combined_model_text = get_models_text(cand, fields)
-        year = extract_year(fn)
-        if year != 9999:
-            dev_year[year] += 1
-        for m in extract_model_families(combined_model_text):
-            dev_model[m] += 1
-        paper_sub_theories = []
-        for t in dev_theories:
-            if fn in theory_paper_sets.get(t, set()):
-                sub_theory_counter[t] += 1
-                paper_sub_theories.append(t)
-        # Theory vs Empirical
-        if fn in candidates_set:
-            dev_theory_vs_emp["Benchmark / Evaluation"] += 1
-        else:
-            dev_theory_vs_emp["Theoretical / Framework"] += 1
-        # Venue type
-        conf_cc = fields.get("CONF-CC", "") or "N/A"
-        vt = categorize_venue(conf_cc)
-        dev_venue_counter[vt] += 1
-        # Region
-        cultures = fields.get("cultures_nationalities_list", [])
-        paper_regions = set()
-        for c in (cultures if isinstance(cultures, list) else []):
-            r = classify_region(c)
-            dev_region_counter[r] += 1
-            paper_regions.add(r)
-        dev_papers.append({
-            "fn": fn,
-            "y": year if year != 9999 else 0,
-            "ib": 1 if fn in candidates_set else 0,
-            "bn": get_benchmark_name(cand, fields),
-            "wm": get_what_measures(cand, fields),
-            "lm": extract_model_families(combined_model_text)[:5],
-            "vt": vt,
-            "rg": sorted(paper_regions),
-            "st": paper_sub_theories,
-        })
+        abstract = fields.get('abstract', '') or ''
+        mp_val = fields.get('moral_psychology', '') or ''
+        combined = f"{mp_val} {abstract}"
+        matched_any = False
+        for pg_name, pg_pat in PARADIGM_PATTERNS.items():
+            if pg_pat.search(combined):
+                paradigm_counter[pg_name] += 1
+                matched_any = True
+        if not matched_any:
+            paradigm_counter["Other Dilemma"] += 1
+    dilemmas_data["paradigmDist"] = [{"n": n, "c": c} for n, c in paradigm_counter.most_common()]
 
-    developmental_data = {
-        "papers": dev_papers,
-        "count": len(dev_papers),
-        "subTheories": [{"n": t, "c": sub_theory_counter.get(t, 0)} for t in dev_theories],
-        "yearDist": {str(y): c for y, c in sorted(dev_year.items()) if y >= 2016},
-        "topModels": [{"n": n, "c": c} for n, c in dev_model.most_common(10)],
-        "theoryVsEmpirical": [{"n": n, "c": c} for n, c in dev_theory_vs_emp.most_common()],
-        "venueTypeDist": [{"n": n, "c": c} for n, c in dev_venue_counter.most_common()],
-        "regionDist": [{"n": n, "c": c} for n, c in dev_region_counter.most_common()],
+    # ── v7c: Dominance Shift (proportional % timeline) ───────────────────
+    theory_meta_lookup = {m["abbrev"]: m["name"] for m in THEORY_META}
+    all_years = sorted(set(y for tc in theory_year.values() for y in tc.keys() if y >= 2016))
+    dominance_raw = {}
+    for t in ACTIVE_THEORIES:
+        dominance_raw[t] = [theory_year.get(t, Counter()).get(y, 0) for y in all_years]
+    dominance_pct = {"years": all_years}
+    for t in ACTIVE_THEORIES:
+        dominance_pct[t] = []
+    for yi, y in enumerate(all_years):
+        total = sum(dominance_raw[t][yi] for t in ACTIVE_THEORIES)
+        for t in ACTIVE_THEORIES:
+            dominance_pct[t].append(round(100 * dominance_raw[t][yi] / max(total, 1), 1))
+
+    # ── v7c: WEIRD Split cross-tab (theory × WEIRD status) ──────────────
+    weird_split = {"theories": [], "WEIRD": [], "Non-WEIRD": [], "Mixed": []}
+    for t in ACTIVE_THEORIES:
+        wc = Counter()
+        for fn in theory_paper_sets.get(t, set()):
+            cultures = paper_yaml.get(fn, {}).get("cultures_nationalities_list", [])
+            pr = set()
+            for c in (cultures if isinstance(cultures, list) else []):
+                pr.add(classify_region(c))
+            weird_statuses = set(classify_weird(r) for r in pr if r != "Other")
+            if len(weird_statuses) > 1 or "Mixed" in weird_statuses:
+                wc["Mixed"] += 1
+            elif weird_statuses:
+                wc[next(iter(weird_statuses))] += 1
+            else:
+                wc["Unknown"] += 1
+        weird_split["theories"].append(theory_meta_lookup.get(t, t))
+        weird_split["WEIRD"].append(wc.get("WEIRD", 0))
+        weird_split["Non-WEIRD"].append(wc.get("Non-WEIRD", 0))
+        weird_split["Mixed"].append(wc.get("Mixed", 0))
+
+    # ── v7c: Model × Theory heatmap ─────────────────────────────────────
+    model_theory_counter = defaultdict(Counter)
+    for t in ACTIVE_THEORIES:
+        for fn in theory_paper_sets.get(t, set()):
+            fields = paper_yaml.get(fn, {})
+            cand = cand_lookup.get(fn, {})
+            cmt = get_models_text(cand, fields)
+            for m in extract_model_families(cmt):
+                model_theory_counter[m][t] += 1
+    model_totals = {m: sum(tc.values()) for m, tc in model_theory_counter.items()}
+    top_models = sorted(model_totals, key=model_totals.get, reverse=True)[:10]
+    model_theory_heatmap = {
+        "models": top_models,
+        "theories": [theory_meta_lookup.get(t, t) for t in ACTIVE_THEORIES],
+        "matrix": [[model_theory_counter[m].get(t, 0) for t in ACTIVE_THEORIES] for m in top_models],
     }
 
-    # Timeline
-    all_years = sorted(set(y for tc in theory_year.values() for y in tc.keys() if y >= 2016))
+    # ── v7c: Normative Bridge (moral psych theory × VE/DE/CU) ───────────
+    fw_labels = ["Virtue Ethics", "Deontological", "Utilitarian"]
+    fw_fields = {"Virtue Ethics": "virtue_ethics", "Deontological": "deontological_ethics",
+                 "Utilitarian": "utilitarian_ethics"}
+    normative_bridge_matrix = []
+    for t in ACTIVE_THEORIES:
+        row = []
+        for fw_name in fw_labels:
+            field_key = fw_fields[fw_name]
+            count = 0
+            for fn in theory_paper_sets.get(t, set()):
+                val = paper_yaml.get(fn, {}).get(field_key, "").lower()
+                if val in ("yes", "partial", "true"):
+                    count += 1
+            row.append(count)
+        normative_bridge_matrix.append(row)
+    normative_bridge = {
+        "theories": [theory_meta_lookup.get(t, t) for t in ACTIVE_THEORIES],
+        "frameworks": fw_labels,
+        "matrix": normative_bridge_matrix,
+    }
+
+    # ── v7c: Sophistication timeline ─────────────────────────────────────
+    sophistication = {
+        "years": sorted(y for y in sophistication_year if y >= 2016),
+        "avgTheories": [],
+        "paperCounts": [],
+    }
+    for y in sophistication["years"]:
+        scores = sophistication_year[y]
+        sophistication["avgTheories"].append(round(sum(scores) / max(len(scores), 1), 2))
+        sophistication["paperCounts"].append(len(scores))
+
+    # ── Timeline (updated: reasoning + dilemmas instead of dev) ──────────
     timeline = {
         "years": all_years,
         "mft": [theory_year.get("MFT", Counter()).get(y, 0) for y in all_years],
         "schwartz": [theory_year.get("Schwartz", Counter()).get(y, 0) for y in all_years],
-        "dev": [sum(theory_year.get(t, Counter()).get(y, 0) for t in dev_theories) for y in all_years],
+        "reasoning": [theory_year.get("Kohlberg", Counter()).get(y, 0) for y in all_years],
+        "dilemmas": [theory_year.get("Trolley", Counter()).get(y, 0) for y in all_years],
     }
 
-    # Cooccurrence
-    abbrevs = [m["abbrev"] for m in THEORY_META]
-    n = len(abbrevs)
-    cooccurrence = [[0] * n for _ in range(n)]
+    # ── Cooccurrence (filtered to 5 active theories) ────────────────────
+    n_active = len(ACTIVE_THEORIES)
+    cooccurrence = [[0] * n_active for _ in range(n_active)]
     for fn, theories in paper_theories.items():
-        indices = [abbrevs.index(t) for t in theories if t in abbrevs]
+        indices = [ACTIVE_THEORIES.index(t) for t in theories if t in ACTIVE_THEORIES]
         for ii in range(len(indices)):
             for jj in range(ii + 1, len(indices)):
                 cooccurrence[indices[ii]][indices[jj]] += 1
@@ -1526,9 +2141,19 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
         "benchmarkCount": benchmark_count,
         "mft": mft_data,
         "schwartz": schwartz_data,
-        "developmental": developmental_data,
+        "reasoning": reasoning_data,
+        "dilemmas": dilemmas_data,
         "cooccurrence": cooccurrence,
-        "coLabels": abbrevs,
+        "coLabels": [theory_meta_lookup.get(t, t) for t in ACTIVE_THEORIES],
+        # v7c new keys
+        "dominanceShift": dominance_pct,
+        "weirdSplit": weird_split,
+        "modelTheory": model_theory_heatmap,
+        "alignment": [{"n": n, "c": c} for n, c in alignment_counter.most_common()],
+        "methodology": [{"n": n, "c": c} for n, c in methodology_counter.most_common()],
+        "instruments": [{"n": n, "c": c} for n, c in instrument_counter.most_common()],
+        "normativeBridge": normative_bridge,
+        "sophistication": sophistication,
     }
 
 
@@ -3085,6 +3710,64 @@ def main():
     print(f"  Moral psych: {moral_psych['paperCount']} papers, "
           f"MFT={moral_psych['mft']['count']}, "
           f"Schwartz={moral_psych['schwartz']['count']}")
+
+    # ── Item 6: Normative × Moral Psych Bridge ──────────────────────
+    print("  Computing normative × moral psych bridge...")
+    bridge_norm_fws = {"VE": set(), "DE": set(), "CU": set()}
+    for p in normative["ve"]["papers"]:
+        bridge_norm_fws["VE"].add(p["fn"])
+    for p in normative["de"]["papers"]:
+        bridge_norm_fws["DE"].add(p["fn"])
+    for p in normative["cu"]["papers"]:
+        bridge_norm_fws["CU"].add(p["fn"])
+
+    bridge_psych_fns = {}
+    for p in moral_psych.get("papers", []):
+        for th in p.get("th", []):
+            bridge_psych_fns.setdefault(th, set()).add(p["fn"])
+
+    # Heatmap: normative frameworks (Y) × moral psych theories (X)
+    bridge_norm_labels = ["VE", "DE", "CU"]
+    bridge_psych_labels = [m["abbrev"] for m in THEORY_META]
+    bridge_matrix = []
+    for nfw in bridge_norm_labels:
+        row = []
+        for pth in bridge_psych_labels:
+            overlap_count = len(bridge_norm_fws.get(nfw, set()) & bridge_psych_fns.get(pth, set()))
+            row.append(overlap_count)
+        bridge_matrix.append(row)
+
+    # Bridge papers (papers in BOTH normative and moral psych)
+    all_norm_fns = bridge_norm_fws["VE"] | bridge_norm_fws["DE"] | bridge_norm_fws["CU"]
+    all_psych_fns = set()
+    for fns in bridge_psych_fns.values():
+        all_psych_fns |= fns
+    bridge_paper_fns = all_norm_fns & all_psych_fns
+    bridge_papers = [{"fn": fn} for fn in sorted(bridge_paper_fns)]
+
+    # Timeline: bridge papers by year
+    bridge_year = Counter()
+    for fn in bridge_paper_fns:
+        y = extract_year(fn)
+        if 2016 <= y <= 2026:
+            bridge_year[y] += 1
+    bridge_timeline_years = sorted(bridge_year.keys())
+    bridge_timeline_data = [bridge_year[y] for y in bridge_timeline_years]
+
+    normative["bridge"] = {
+        "heatmap": {
+            "xLabels": bridge_psych_labels,
+            "yLabels": bridge_norm_labels,
+            "matrix": bridge_matrix,
+        },
+        "papers": bridge_papers,
+        "timeline": {
+            "years": bridge_timeline_years,
+            "data": bridge_timeline_data,
+        },
+        "count": len(bridge_paper_fns),
+    }
+    print(f"  Bridge: {len(bridge_paper_fns)} papers at normative × moral psych intersection")
 
     religious = compute_religious_data(paper_yaml, candidates, candidates_set)
     print(f"  Religious: {religious['paperCount']} papers, "

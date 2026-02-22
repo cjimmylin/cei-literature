@@ -680,20 +680,90 @@ const Charts = {
         this._deepDiveSubSection('norm', 've', N.ve, [
             { render(data, pfx) {
                 if (data.virtueKeywords) this._horizontalBar(`chart-${pfx}-virtues`, data.virtueKeywords, { maxItems: 15, color: this._palette.green });
+                this._normExtraCharts(data, pfx);
             }},
         ]);
         this._deepDiveSubSection('norm', 'de', N.de, [
             { render(data, pfx) {
                 if (data.deontConcepts) this._horizontalBar(`chart-${pfx}-concepts`, data.deontConcepts, { maxItems: 13, gridLeft: 160, color: '#818cf8', emptyText: 'No concept data' });
+                this._normExtraCharts(data, pfx);
             }},
         ]);
         this._deepDiveSubSection('norm', 'cu', N.cu, [
             { render(data, pfx) {
                 if (data.cuConcepts) this._horizontalBar(`chart-${pfx}-concepts`, data.cuConcepts, { maxItems: 13, gridLeft: 160, color: this._palette.yellow, emptyText: 'No concept data' });
+                this._normExtraCharts(data, pfx);
             }},
         ]);
         // Overlap
         this._normOverlap(N.overlap);
+
+        // ── Item 5: Gap Matrix ──────────────────────────────
+        if (N.gapMatrix) {
+            this._heatmap('chart-norm-gap-matrix', {
+                xLabels: N.gapCols || [],
+                yLabels: N.gapRows || [],
+                matrix: N.gapMatrix || [],
+                grid: { left: 220, right: 60, top: 10, bottom: 60 },
+                xRotate: 30,
+                vmColor: this._palette.accent,
+                customFormatter: (p) => {
+                    const row = (N.gapRows || [])[p.value[1]];
+                    const col = (N.gapCols || [])[p.value[0]];
+                    const val = p.value[2];
+                    if (col === 'Paper Count') return `${row}: ${val} papers`;
+                    return `${row} × ${col}: ${val ? '✓ Yes' : '✗ No'}`;
+                },
+            });
+        }
+
+        // ── Item 4: Beyond Big Three ────────────────────────
+        for (const [fwKey, fwLabel] of [['care', 'Care Ethics'], ['contract', 'Contractualism'], ['princ', 'Principlism']]) {
+            const fwData = N[fwKey];
+            if (!fwData) continue;
+            const countEl = document.getElementById(`norm-${fwKey}-count`);
+            if (countEl) countEl.textContent = fwData.count;
+            this._yearBar(`chart-norm-${fwKey}-year`, fwData.yearDist);
+            if (fwData.concepts) this._horizontalBar(`chart-norm-${fwKey}-concepts`, fwData.concepts, { maxItems: 10, gridLeft: 160, color: this._palette.pink });
+            renderPaperList(`norm-${fwKey}-papers`, fwData.papers || [], 50);
+        }
+
+        // ── Tier 3: Meta-Ethics, Citations, Author-FW, Full-Text ─
+        if (N.metaEthics) this._horizontalBar('chart-norm-meta-ethics', N.metaEthics, { gridLeft: 180, color: this._palette.violet });
+        if (N.citations) this._horizontalBar('chart-norm-citations', N.citations, { maxItems: 12, gridLeft: 120, color: this._palette.teal });
+
+        if (N.authorFramework && N.authorFramework.length) {
+            const afData = N.authorFramework.slice(0, 20);
+            const chart = this._get('chart-norm-author-fw');
+            if (chart) {
+                const fwColors = { ve: this._palette.green, de: this._palette.accent, cu: this._palette.yellow };
+                chart.setOption({
+                    ...this._theme,
+                    grid: { left: 150, right: 30, top: 30, bottom: 20 },
+                    legend: { data: ['VE', 'DE', 'CU'], top: 0, textStyle: { color: this._tc.textSec } },
+                    xAxis: { type: 'value', axisLabel: { color: this._tc.textSec }, splitLine: { lineStyle: { color: this._tc.bgPrimary } } },
+                    yAxis: { type: 'category', data: afData.map(a => a.n).reverse(), axisLabel: { color: this._tc.textSec, fontSize: 10, width: 140, overflow: 'truncate' } },
+                    tooltip: { ...this._theme.tooltip, trigger: 'axis' },
+                    series: ['ve', 'de', 'cu'].map(fw => ({
+                        name: fw.toUpperCase(), type: 'bar', stack: 'total',
+                        data: afData.map(a => a[fw] || 0).reverse(),
+                        itemStyle: { color: fwColors[fw] },
+                    })),
+                }, true);
+            }
+        }
+
+        if (N.ve && N.ve.fullTextDepth && N.ve.fullTextDepth.length) {
+            const allDepth = [...(N.ve.fullTextDepth || []), ...(N.de.fullTextDepth || []), ...(N.cu.fullTextDepth || [])];
+            allDepth.sort((a, b) => b.density - a.density);
+            const top = allDepth.slice(0, 15);
+            this._horizontalBar('chart-norm-fulltext-depth', top.map(d => ({ n: d.fn.replace('.md', '').slice(0, 40), c: d.density })), {
+                gridLeft: 260, labelWidth: 250, fontSize: 10, color: this._palette.emerald,
+            });
+        }
+
+        // Item 6: Bridge
+        if (N.bridge) this._normBridge(N.bridge);
     },
 
     _normOverlap(overlap) {
@@ -778,6 +848,29 @@ const Charts = {
 
         // Benchmark density
         this._normOverlapBench(overlap);
+
+        // Item 3: Comparative radar
+        if (DATA.normative.comparative) {
+            this._radar('chart-norm-comparative-radar', {
+                indicators: DATA.normative.comparative.indicators,
+                series: DATA.normative.comparative.series.map((s, i) => ({
+                    name: s.name,
+                    values: s.data,
+                    color: [this._palette.green, this._palette.accent, this._palette.yellow][i],
+                })),
+                maxVal: null,  // use indicator-specific max
+            });
+        }
+
+        // Item 9: Typology donut
+        if (overlap.typology && overlap.typology.length) {
+            const typoColors = { 'Comparative': this._palette.accent, 'Integrative': this._palette.green, 'Incidental': this._palette.slate };
+            const typoData = overlap.typology.map(d => ({
+                name: d.n, value: d.c,
+                itemStyle: { color: typoColors[d.n] || this._palette.slate },
+            }));
+            this._donut('chart-norm-overlap-typology', typoData);
+        }
     },
 
     _normOverlapExclusivity(excl) {
@@ -833,6 +926,99 @@ const Charts = {
                 label: { show: true, position: 'right', color: this._tc.textSec, fontSize: 10, formatter: p => { const b = bars[bars.length - 1 - p.dataIndex]; return `${b.count}/${b.total}`; } },
             }],
         }, true);
+    },
+
+    _normExtraCharts(data, pfx) {
+        // Item 1: Depth histogram
+        if (data.depthHist) {
+            const chart = this._get(`chart-${pfx}-depth`);
+            if (chart) {
+                const d = data.depthHist;
+                chart.setOption({
+                    ...this._theme,
+                    grid: { left: 40, right: 20, top: 10, bottom: 30 },
+                    xAxis: { type: 'category', data: d.map(x => x.depth), name: 'Keywords', nameLocation: 'center', nameGap: 25, axisLabel: { color: this._tc.textSec } },
+                    yAxis: { type: 'value', axisLabel: { color: this._tc.textSec }, splitLine: { lineStyle: { color: this._tc.bgPrimary } } },
+                    tooltip: { ...this._theme.tooltip, trigger: 'axis', formatter: p => `${p[0].name} keywords: ${p[0].value} papers` },
+                    series: [{ type: 'bar', data: d.map(x => x.count), itemStyle: { color: this._palette.accent, borderRadius: [4,4,0,0] } }],
+                }, true);
+            }
+        }
+
+        // Item 2: Co-occurrence heatmap
+        if (data.coocLabels && data.coocMatrix) {
+            this._heatmap(`chart-${pfx}-cooc`, {
+                xLabels: data.coocLabels,
+                yLabels: data.coocLabels,
+                matrix: data.coocMatrix,
+                grid: { left: 140, right: 60, top: 10, bottom: 100 },
+                xRotate: 45,
+                vmColor: this._palette.accent,
+            });
+        }
+
+        // Item 7: Sub-traditions
+        if (data.subTraditions && data.subTraditions.length) {
+            this._horizontalBar(`chart-${pfx}-subtrad`, data.subTraditions, { gridLeft: 120, color: this._palette.teal });
+        }
+
+        // Item 8: Concept timeline
+        if (data.conceptTimeline && data.conceptTimeline.years && data.conceptTimeline.years.length) {
+            const ct = data.conceptTimeline;
+            this._stackedTimeline(`chart-${pfx}-concept-timeline`, {
+                years: ct.years,
+                series: ct.series.map((s, i) => ({
+                    name: s.name,
+                    data: s.data,
+                    color: this._colors[i % this._colors.length],
+                })),
+            });
+        }
+
+        // Item 10: 5-category research type (replaces donut if present)
+        if (data.researchType5 && data.researchType5.length) {
+            const rt5Colors = {
+                'Empirical Benchmark': this._palette.green,
+                'Empirical Non-Benchmark': this._palette.cyan,
+                'Philosophical Analysis': this._palette.violet,
+                'Mixed Methods': this._palette.yellow,
+                'Dataset/Resource': this._palette.orange,
+            };
+            const pieData = data.researchType5.map(d => ({
+                name: d.n, value: d.c,
+                itemStyle: { color: rt5Colors[d.n] || this._palette.slate },
+            }));
+            this._donut(`chart-${pfx}-split`, pieData);
+        }
+    },
+
+    _normBridge(bridge) {
+        if (!bridge) return;
+        const countEl = document.getElementById('kpi-norm-bridge-count');
+        if (countEl) countEl.textContent = bridge.count || 0;
+        const listCountEl = document.getElementById('norm-bridge-list-count');
+        if (listCountEl) listCountEl.textContent = (bridge.papers || []).length;
+
+        // Heatmap
+        if (bridge.heatmap) {
+            this._heatmap('chart-norm-bridge-heatmap', {
+                xLabels: bridge.heatmap.xLabels,
+                yLabels: bridge.heatmap.yLabels,
+                matrix: bridge.heatmap.matrix,
+                grid: { left: 60, right: 60, top: 10, bottom: 80 },
+                xRotate: 30,
+                vmColor: this._palette.violet,
+            });
+        }
+
+        // Timeline
+        if (bridge.timeline && bridge.timeline.years) {
+            this._yearBar('chart-norm-bridge-timeline',
+                Object.fromEntries(bridge.timeline.years.map((y, i) => [y, bridge.timeline.data[i]])));
+        }
+
+        // Paper list
+        renderPaperList('norm-bridge-papers', bridge.papers || [], 50);
     },
 
     // ═══════════════════════════════════════════════════════════════════════

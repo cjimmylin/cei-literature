@@ -2,6 +2,22 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 109 (Feb 22, 2026) - Dashboard v7b2: Network Chart Height Increase
+
+### Overview
+Increased the collaboration network graph container height from 550px to 825px (1.5×) in dashboard v7b2 for better node visibility in the dense 80-author graph.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 1 (index.html) |
+| Change | Container height 550px → 825px |
+
+### Files Changed
+- `STATISTICS/cei-dashboard-7b2/index.html`: Line 927 — chart container height increased to 825px
+
+---
+
 ## Session 108 (Feb 22, 2026) - Dashboard v7b: Network Graph Node Coloring
 
 ### Overview

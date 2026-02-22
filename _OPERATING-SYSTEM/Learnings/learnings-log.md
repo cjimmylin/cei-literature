@@ -34,6 +34,17 @@
 
 ---
 
+## 2026-02-22 (Session 110)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-22 | Data Quality | **Regex false positive: "parsi" → "parsing":** The Zoroastrianism detection pattern `parsee\|parsi` matched common English words "parsing", "parsimonious". Fix: `\bparsi\b(?!ng\|mon)` with negative lookahead. This reduced false matches from 16 to 6. Always test religious/cultural regexes against common programming terms. |
+| 2026-02-22 | Workflows | **`_deepDiveSubSection()` requires standard wrapper:** Custom data sources (like `otherTraditions` which collects papers via `OTHER_TRADITIONS_CONCEPTS` patterns rather than `RELIG_TRAD_PATTERNS`) must still provide the standard `count`, `papers`, `yearDist`, `topModels` fields or the charts.js rendering function will fail silently. Built manual wrapper to populate these fields. |
+| 2026-02-22 | Workflows | **Splitting grouped tabs: extract shared utility first.** When splitting `build_ubuntu_indigenous_extended()` into 3 individual builders, the gap comparison logic was duplicated. Factored out `_build_gap_comparison()` as reusable helper. Same pattern applies: identify shared logic before splitting grouped functions. |
+| 2026-02-22 | Data Quality | **Shinto reclassification from Indigenous:** Moving `shinto` out of the `Indigenous` regex pattern into its own `RELIG_TRAD_PATTERNS` entry correctly separates Japanese techno-animism (10 papers) from First Nations/Aboriginal work (9 papers). The old `Indigenous` regex included `shinto` as a catch-all, which obscured both traditions' distinct research profiles. |
+
+---
+
 ## 2026-02-22 (Session 108)
 
 | Date | Category | Learning |

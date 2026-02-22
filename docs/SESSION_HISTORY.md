@@ -2,6 +2,36 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 110 (Feb 22, 2026) - Dashboard v7e: Split Religious Values Tab into Individual Traditions
+
+### Overview
+Split the Religious Values tab from 6 grouped subtabs (Christian-Jewish, Dharmic, Ubuntu/Indigenous) into 11 individual tradition subtabs (Islam, Christianity, Judaism, Buddhism, Hinduism, Confucian, Shinto, Ubuntu, Indigenous, Other Traditions). Each tradition now has its own scholarly narrative, tradition-specific concept/text/school analyses, and dedicated chart panels. Added Shinto as a standalone tradition in `TRADITION_META`.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Subtabs | 6 → 11 |
+| New builder functions | 8 (replacing 3 grouped) |
+| New regex pattern dicts | 18 tradition-specific |
+| Shinto papers (new standalone) | 10 |
+| Other Traditions papers | 12 (Jainism 2, Sikhism 4, Taoism 1, Baha'i 1, Zoroastrianism 6) |
+| Religious paper total | 142 (unchanged) |
+
+### Key Learnings
+- **Regex:** "parsi" in Zoroastrianism pattern matched "parsing"/"parsimonious" — use `\bparsi\b(?!ng|mon)` negative lookahead
+- **Architecture:** `_deepDiveSubSection()` requires standard fields (`count`, `papers`, `yearDist`, `topModels`) — custom data sources like `otherTraditions` need manual wrapper
+- **Shinto reclassification:** Moving Shinto from Indigenous regex to its own `RELIG_TRAD_PATTERNS` entry correctly separates Japanese techno-animism research from First Nations/Aboriginal traditions
+
+### Files Changed
+- `PYTHON/generate_vault_dashboard_4.py`: Added 18 regex pattern dicts, 8 individual builder functions, updated `compute_religious_data()`, added Shinto to TRADITION_META/RELIG_TRAD_PATTERNS
+- `STATISTICS/cei-dashboard-7e/` (new): Full v7e dashboard with split religious tabs
+  - `index.html`: 11 subtab buttons, 8 new tradition panes with narratives
+  - `style.css`: 7 new `.fw-accent-*` classes + mobile scroll
+  - `charts.js`: 10 individual `_relExtendedConfigs` entries
+  - `data.js`, `data-core.js`, `data-detail.js`: Regenerated
+
+---
+
 ## Session 109 (Feb 22, 2026) - Dashboard v7b2: Network Chart Height Increase
 
 ### Overview

@@ -34,6 +34,15 @@
 
 ---
 
+## 2026-02-22 (Session 117)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-22 | Workflows | **GitHub Pages legacy mode may not trigger initial build when enabled via API:** After `gh api repos/.../pages -X POST`, the `status` stays `None` and no build appears in `/pages/builds`. Workaround: push an empty commit (`git commit --allow-empty -m "Trigger build"`) to nudge the build system. |
+| 2026-02-22 | Workflows | **Dashboard deployment pattern:** Copy web files (exclude `__pycache__/`, `split_data.py`) to temp dir → `git init` → `gh repo create --public --source . --push` → enable Pages via API → switch to `legacy` build type (matches existing dashboards). Each version gets its own repo (`cei-dashboard-N`). |
+
+---
+
 ## 2026-02-22 (Session 116)
 
 | Date | Category | Learning |

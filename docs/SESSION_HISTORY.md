@@ -2,6 +2,30 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 117 (Feb 22, 2026) - Deploy Dashboard v8b to GitHub Pages
+
+### Overview
+Deployed Dashboard v8b to GitHub Pages as a new public repository (`cjimmylin/cei-dashboard-8b`). This is the first deployed version since v4, bridging a significant gap. v8b consolidates Normative Ethics, Moral Psychology, Religious Values tabs, plus Overview redesign and Countries/Languages enrichment.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| New GitHub repo | `cjimmylin/cei-dashboard-8b` |
+| Live URL | `cjimmylin.github.io/cei-dashboard-8b/` |
+| Files deployed | 7 (index.html, app.js, charts.js, style.css, data.js, data-core.js, data-detail.js) |
+| Total size | ~4.6 MB |
+| Papers covered | 2,034 |
+
+### Key Learnings
+- [Workflows] GitHub Pages legacy mode may not trigger initial build via API — empty commit workaround needed
+- [Workflows] Dashboard deployment pattern: web files to temp dir → `gh repo create` → enable Pages → switch to legacy mode
+
+### Files Changed
+- `memory/report-generation.md`: Added v8b deployment entry
+- External: New repo `cjimmylin/cei-dashboard-8b` created on GitHub
+
+---
+
 ## Session 116 (Feb 22, 2026) - Dashboard v8b: Countries & Languages Subtab Enrichment
 
 ### Overview

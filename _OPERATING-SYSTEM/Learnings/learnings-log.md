@@ -34,6 +34,16 @@
 
 ---
 
+## 2026-02-22 (Session 108)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-22 | Data Quality | **ECharts graph `category` must be numeric index:** Setting `category` on graph nodes to a string (e.g., `'Ethics'`) causes silent legend-filter failure. ECharts matches categories by array index, not name. Fix: build a `catIndex = {}` name→index map from the `categories` array, then assign `base.category = catIndex[catName]`. |
+| 2026-02-22 | Data Quality | **ECharts `visualMap` as decorative gradient bar:** To display a color gradient legend without affecting node colors, use `seriesIndex: []` (empty array = no series affected). Do NOT use `dimension: 'none'` — that's not a valid ECharts property and causes it to default to dimension 0, overriding explicit `itemStyle.color`. |
+| 2026-02-22 | Workflows | **Network graph multi-mode coloring pattern:** Use a `renderNetwork(mode)` closure with `setOption(opts, true)` for full option replacement when legend/visualMap/categories structure changes per mode. Pre-compute static edges outside the closure; only rebuild node `itemStyle.color` + legend per mode. |
+
+---
+
 ## 2026-02-21 (Session 107)
 
 | Date | Category | Learning |

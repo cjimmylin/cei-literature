@@ -2,6 +2,33 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 108 (Feb 22, 2026) - Dashboard v7b: Network Graph Node Coloring
+
+### Overview
+Added a 5-mode color selector to the collaboration network graph (80 nodes, 90 edges). Previously all nodes were indigo; now users can switch between Research Focus, Author Role, Venue Type, Research Era, and Collaboration Breadth coloring. Each mode uses categorical legends or continuous gradient bars.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 4 (generator, charts.js, index.html, style.css) |
+| New node fields | 6 (dim, role, roleCt, vt, avgY, coauthors) |
+| Color modes | 5 (3 categorical with ECharts legend, 2 continuous with gradient bar) |
+| Data overhead | ~8 KB (6 fields × 80 nodes) |
+
+### Key Learnings
+- [Data Quality] ECharts graph `category` must be numeric index, not string name — legend click-to-filter silently fails with strings
+- [Data Quality] ECharts `visualMap` with `seriesIndex: []` acts as a display-only gradient bar without overriding `itemStyle.color`
+- [Workflows] Multi-mode coloring pattern: `renderNetwork(mode)` closure with `setOption(opts, true)` for full option replacement per mode
+
+### Files Changed
+- `PYTHON/generate_vault_dashboard_5b.py`: Extended network node construction with 6 per-author aggregated fields
+- `STATISTICS/cei-dashboard-7b/charts.js`: Replaced static network graph with dynamic multi-mode coloring system (~250 lines)
+- `STATISTICS/cei-dashboard-7b/index.html`: Added 5-button color-mode selector bar in Collaboration subtab
+- `STATISTICS/cei-dashboard-7b/style.css`: Added `.net-color-bar` / `.net-color-btn` pill styles
+- `STATISTICS/cei-dashboard-7b/data.js`: Regenerated with enriched node data
+
+---
+
 ## Session 107 (Feb 21, 2026) - Dashboard v7: Fix Model Cultural Exposure Filter Scope
 
 ### Overview

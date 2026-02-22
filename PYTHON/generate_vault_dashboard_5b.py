@@ -43,7 +43,7 @@ NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260220-author_paper_map.json"
 AUTHOR_PROFILES_DIR = WS_ROOT / "Authors"
 AI_LABS_DIR = WS_ROOT / "AI Labs"
-OUTPUT_DIR = STATS_DIR / "cei-dashboard-7c"
+OUTPUT_DIR = STATS_DIR / "cei-dashboard-8"
 OUTPUT_FILE = OUTPUT_DIR / "data.js"
 
 # ── Import from existing scripts ──────────────────────────────────────────
@@ -497,6 +497,7 @@ TRADITION_META = [
     {"name": "Hinduism", "abbrev": "Hinduism", "color": "#ec4899"},
     {"name": "Confucian", "abbrev": "Confucian", "color": "#22d3ee"},
     {"name": "Judaism", "abbrev": "Judaism", "color": "#a855f7"},
+    {"name": "Shinto", "abbrev": "Shinto", "color": "#e879f9"},
     {"name": "Ubuntu", "abbrev": "Ubuntu", "color": "#f97316"},
     {"name": "Indigenous", "abbrev": "Indigenous", "color": "#14b8a6"},
 ]
@@ -508,8 +509,9 @@ RELIG_TRAD_PATTERNS = {
     "Hinduism": re.compile(r'hindu|vedic|bhagavad|upanishad', re.I),
     "Confucian": re.compile(r'confucian|confucius|mencius', re.I),
     "Judaism": re.compile(r'jewish|judaism|talmud|torah|rabbinic|halakh', re.I),
+    "Shinto": re.compile(r'shinto|kami\b(?!.*kaze)|techno.?animis|animis.*japan|japan.*animis', re.I),
     "Ubuntu": re.compile(r'ubuntu(?!.*(?:linux|operat))|african\s+ethic|african\s+moral', re.I),
-    "Indigenous": re.compile(r'indigenous\s+(?:ethic|value|spirit|religi)|first\s+nation|shinto|aboriginal\s+(?:spirit|religi)|native\s+(?:american|spirit)', re.I),
+    "Indigenous": re.compile(r'indigenous\s+(?:ethic|value|spirit|religi)|first\s+nation|aboriginal\s+(?:spirit|religi)|native\s+(?:american|spirit)', re.I),
 }
 
 
@@ -599,6 +601,167 @@ UBUNTU_THEME_PATTERNS = {
 
 # Shinto sub-tradition pattern (for Ubuntu/Indigenous breakdown)
 SHINTO_PATTERN = re.compile(r"shinto|kami|techno.?animis|animis.*japan|japan.*animis", re.I)
+
+# ── Per-Tradition Pattern Constants (from v4 for individual tradition tabs) ──
+
+CHRISTIANITY_DENOM_PATTERNS = {
+    "Catholic": re.compile(r"catholic|papal|vatican|pope|magisterium|encyclical", re.I),
+    "Protestant": re.compile(r"protestant|reform|lutheran|calvini|evangelical|baptist|methodist|pentecost", re.I),
+    "Orthodox": re.compile(r"orthodox\s+christian|eastern\s+orthodox|coptic|greek\s+orthodox|russian\s+orthodox", re.I),
+    "Evangelical": re.compile(r"evangelic|born.?again|megachurch", re.I),
+}
+CHRISTIANITY_CONCEPT_PATTERNS = {
+    "Natural Law": re.compile(r"natural\s+law|aquinas|thomist|thomistic", re.I),
+    "Divine Command": re.compile(r"divine\s+command|god.s\s+will|theistic\s+ethics", re.I),
+    "Thomistic Virtue": re.compile(r"thomistic\s+virtue|theological\s+virtue|faith.*hope.*charit|charity.*faith|aquinas.*virtue", re.I),
+    "Liberation Theology": re.compile(r"liberation\s+theolog|preferential\s+option|option.*poor", re.I),
+    "Imago Dei": re.compile(r"imago\s+dei|image\s+of\s+god", re.I),
+    "Sola Scriptura": re.compile(r"sola\s+scriptura|scripture\s+alone|biblical\s+authority", re.I),
+}
+CHRISTIANITY_TEXT_PATTERNS = {
+    "Old Testament": re.compile(r"old\s+testament|hebrew\s+bible|genesis|exodus|psalm|proverb|isaiah|deuteronom", re.I),
+    "New Testament": re.compile(r"new\s+testament|gospel|matthew|mark|luke|john|paul.*epistle|revelation|acts\s+of", re.I),
+    "Patristic": re.compile(r"patristic|church\s+father|augustin|chrysostom|athanasius", re.I),
+}
+
+# Judaism — concept & textual patterns
+JUDAISM_CONCEPT_PATTERNS = {
+    "Tikkun Olam": re.compile(r"tikkun\s+olam|repair.*world", re.I),
+    "Pikuach Nefesh": re.compile(r"pikuach\s+nefesh|sanctity\s+of\s+life|preserv.*life", re.I),
+    "Mussar": re.compile(r"mussar|musar", re.I),
+    "Halakha": re.compile(r"halakh|jewish\s+law|halacha", re.I),
+    "Tzedakah": re.compile(r"tzedakah|tzedaka|righteous.*giving|jewish.*charit", re.I),
+    "B'tselem Elohim": re.compile(r"b.?tselem|image\s+of\s+god.*judai|judai.*image\s+of\s+god", re.I),
+}
+JUDAISM_TEXT_PATTERNS = {
+    "Torah": re.compile(r"\btorah\b|pentateuch|five\s+books\s+of\s+moses", re.I),
+    "Talmud": re.compile(r"\btalmud|talmudic|gemara", re.I),
+    "Mishnah": re.compile(r"mishnah|mishnaic", re.I),
+    "Midrash": re.compile(r"midrash|midrashic", re.I),
+    "Responsa": re.compile(r"responsa|she.?elot|teshuvot", re.I),
+}
+
+# Buddhism — school, concept, textual patterns
+BUDDHISM_SCHOOL_PATTERNS = {
+    "Theravada": re.compile(r"theravada|pali\s+canon|hinayana|southern\s+buddhis", re.I),
+    "Mahayana": re.compile(r"mahayana|bodhisattva|pure\s+land|northern\s+buddhis", re.I),
+    "Vajrayana": re.compile(r"vajrayana|tantric\s+buddhis|tibetan\s+buddhis|dzogchen", re.I),
+    "Zen": re.compile(r"\bzen\b|chan\s+buddhis|seon\s+buddhis|rinzai|soto", re.I),
+    "Secular Buddhism": re.compile(r"secular\s+buddhis|modern\s+buddhis|engaged\s+buddhis", re.I),
+}
+BUDDHISM_CONCEPT_PATTERNS = {
+    "Four Noble Truths": re.compile(r"four\s+noble\s+truth|dukkha|four\s+truth", re.I),
+    "Eightfold Path": re.compile(r"eightfold\s+path|noble\s+eightfold|right\s+action.*right\s+speech", re.I),
+    "Ahimsa": re.compile(r"ahimsa|non.?harm|non.?violen", re.I),
+    "Karuna": re.compile(r"\bkaruna\b|compassion.*buddhis|buddhis.*compassion", re.I),
+    "Metta": re.compile(r"\bmetta\b|loving.?kindness|maitri", re.I),
+    "Upaya": re.compile(r"upaya|skillful\s+means", re.I),
+    "Middle Way": re.compile(r"middle\s+way|madhyamaka|middle\s+path", re.I),
+    "Dependent Origination": re.compile(r"dependent\s+originat|pratityasamutpada|conditioned\s+aris", re.I),
+    "Sunyata": re.compile(r"sunyata|shunyata|emptiness.*buddhis|buddhis.*emptiness", re.I),
+}
+BUDDHISM_TEXT_PATTERNS = {
+    "Pali Canon": re.compile(r"pali\s+canon|tipitaka|tripitaka|sutta\s+pitaka|vinaya", re.I),
+    "Mahayana Sutras": re.compile(r"heart\s+sutra|diamond\s+sutra|lotus\s+sutra|prajnaparamita|mahayana\s+sutra", re.I),
+    "Tibetan Texts": re.compile(r"tibetan\s+text|kangyur|tengyur|tibetan\s+canon|bardo\s+thodol", re.I),
+}
+
+# Hinduism — text, concept, school patterns
+HINDUISM_TEXT_PATTERNS = {
+    "Vedas": re.compile(r"\bveda[s]?\b|vedic|rigved|samaved|yajurved|atharva", re.I),
+    "Upanishads": re.compile(r"upanishad", re.I),
+    "Bhagavad Gita": re.compile(r"bhagavad|gita\b|geeta", re.I),
+    "Dharmashastra": re.compile(r"dharmashastra|dharmasutra|smriti", re.I),
+    "Manusmriti": re.compile(r"manusmriti|manu.*smriti|laws\s+of\s+manu", re.I),
+}
+HINDUISM_CONCEPT_PATTERNS = {
+    "Dharma": re.compile(r"\bdharma\b(?!.*buddhis)|\bdharmic\b", re.I),
+    "Karma": re.compile(r"\bkarma\b|karmic", re.I),
+    "Moksha": re.compile(r"moksha|liberation.*cycle|samsara", re.I),
+    "Ahimsa": re.compile(r"ahimsa|non.?harm|non.?violen", re.I),
+    "Purushartha": re.compile(r"purushartha|four\s+aim|artha.*kama.*dharma", re.I),
+    "Svadharma": re.compile(r"svadharma|personal\s+duty|caste\s+duty", re.I),
+    "Rta": re.compile(r"\brta\b|cosmic\s+order|vedic\s+order", re.I),
+}
+HINDUISM_SCHOOL_PATTERNS = {
+    "Vedanta": re.compile(r"vedanta|advaita|dvaita|vishishtadvaita|shankar", re.I),
+    "Samkhya": re.compile(r"samkhya|sankhya", re.I),
+    "Yoga": re.compile(r"yoga\s+philosoph|patanjali|yoga\s+sutra|raja\s+yoga", re.I),
+    "Nyaya": re.compile(r"\bnyaya\b|nyaya.*logic|indian\s+logic", re.I),
+    "Mimamsa": re.compile(r"mimamsa|mimansa", re.I),
+}
+
+# Shinto — concept & theme patterns
+SHINTO_CONCEPT_PATTERNS = {
+    "Kami": re.compile(r"\bkami\b(?!.*kaze)|spirit.*shinto|shinto.*spirit|divinit.*shinto", re.I),
+    "Wa (Harmony)": re.compile(r"\bwa\b.*harmon|harmon.*\bwa\b|japanese\s+harmon", re.I),
+    "Harae (Purification)": re.compile(r"harae|harai|purif.*shinto|shinto.*purif|misogi", re.I),
+    "Ma": re.compile(r"\bma\b.*spac|negative\s+space|japanese\s+aesthet.*space", re.I),
+    "Musubi": re.compile(r"musubi|creative.*interconnect|shinto.*creation", re.I),
+}
+SHINTO_THEME_PATTERNS = {
+    "Techno-Animism": re.compile(r"techno.?animis|robot.*spirit|spirit.*robot|ai.*soul|soul.*ai", re.I),
+    "Robot Ethics": re.compile(r"robot\s+ethic|robot.*moral|embodi.*ethic.*japan", re.I),
+    "AI Personhood": re.compile(r"ai\s+person|machine\s+person|artificial.*person|robot.*person", re.I),
+    "Cultural Alignment": re.compile(r"cultur.*align|japan.*value|japanese.*ethic|cultural.*ai.*japan", re.I),
+}
+
+# Ubuntu — concept & research theme patterns
+UBUNTU_CONCEPT_PATTERNS = {
+    "Communalism": re.compile(r"communal|community.*ethic|collective.*value|umuntu|ngumuntu", re.I),
+    "Relational Personhood": re.compile(r"relational\s+person|person.*through.*person|relational\s+ontolog", re.I),
+    "Indaba": re.compile(r"indaba|consensus.*decision|communal.*deliberat", re.I),
+    "Restorative Justice": re.compile(r"restorative\s+justice|reconciliat|conflict.*resolut.*commun", re.I),
+    "Collective Flourishing": re.compile(r"collective\s+flourish|communal.*flourish|common\s+good.*afric", re.I),
+}
+UBUNTU_RESEARCH_THEMES = {
+    "AI Governance": re.compile(r"ai\s+governance|governance.*ai|regulat.*ai|ai.*regulat|policy.*ai", re.I),
+    "Decolonization": re.compile(r"decoloni|colonial|postcolonial|neo.?colonial|global\s+south", re.I),
+    "Data Ethics": re.compile(r"data\s+ethic|data\s+sovereign|data\s+justice|data.*right", re.I),
+    "Community Values": re.compile(r"community\s+value|local.*value|indigenous.*value|communit.*centred", re.I),
+}
+
+# Indigenous — tradition & theme patterns
+INDIGENOUS_TRADITION_PATTERNS = {
+    "Maori": re.compile(r"maori|aotearoa|te\s+ao\s+maori|whanau|tikanga", re.I),
+    "First Nations": re.compile(r"first\s+nation|metis|inuit|canadian\s+indigenous", re.I),
+    "Aboriginal Australian": re.compile(r"aboriginal\s+austral|torres\s+strait|dreamtime|first\s+australi", re.I),
+    "Native American": re.compile(r"native\s+american|american\s+indian|navajo|cherokee|lakota|ojibwe|hopi|apache", re.I),
+}
+INDIGENOUS_THEME_PATTERNS = {
+    "Data Sovereignty": re.compile(r"data\s+sovereign|OCAP|CARE\s+principle|indigenous\s+data|data.*right.*indigen", re.I),
+    "Decolonization": re.compile(r"decoloni|colonial.*indigen|indigen.*colonial|epistemic\s+justice", re.I),
+    "Language Preservation": re.compile(r"language\s+preserv|endanger.*lang|revitali.*lang|indigenous.*lang|lang.*indigen", re.I),
+    "Knowledge Systems": re.compile(r"indigenous\s+knowledge|traditional\s+knowledge|oral\s+tradition|knowledge\s+system", re.I),
+    "Land/Place Ethics": re.compile(r"land.*ethic|place.*ethic|country.*connection|land.*connect|seven\s+generation", re.I),
+}
+
+# Other Traditions — Jainism, Sikhism, Taoism, Baha'i, Zoroastrianism
+OTHER_TRADITIONS_CONCEPTS = {
+    "Jainism": {
+        "pattern": re.compile(r"jain|ahimsa.*jain|jain.*ahimsa|anekantavada|syadvada", re.I),
+        "concepts": {"Ahimsa": re.compile(r"ahimsa|non.?violen", re.I),
+                     "Anekantavada": re.compile(r"anekantavada|many.?sided|non.?absolut", re.I)},
+    },
+    "Sikhism": {
+        "pattern": re.compile(r"sikh|guru\s+granth|gurdwara|khalsa|waheguru", re.I),
+        "concepts": {"Seva": re.compile(r"\bseva\b|selfless\s+service", re.I),
+                     "Equality": re.compile(r"sikh.*equal|equal.*sikh|langar|casteless", re.I)},
+    },
+    "Taoism": {
+        "pattern": re.compile(r"taois[mt]|daois[mt]|tao\s+te|dao\s+de|lao\s?tzu|lao\s?zi|wu\s+wei|zhuangzi|chuang\s+tzu", re.I),
+        "concepts": {"Wu Wei": re.compile(r"wu\s+wei|non.?action|effortless\s+action", re.I),
+                     "Dao/Tao": re.compile(r"\btao\b|\bdao\b|the\s+way", re.I)},
+    },
+    "Baha'i": {
+        "pattern": re.compile(r"baha.?i|baha.?ull|bahaism", re.I),
+        "concepts": {"Unity": re.compile(r"unity.*human|human.*unity", re.I)},
+    },
+    "Zoroastrianism": {
+        "pattern": re.compile(r"zoroastr|zarathustra|avesta|ahura\s+mazda|parsee|parsi\b(?!ng|mon)", re.I),
+        "concepts": {"Good Thoughts": re.compile(r"good\s+thought|humata|good.*word.*deed|\basha\b(?!.*\bmap)", re.I)},
+    },
+}
 
 # Chinese-origin LLM model family names (for Confucian Chinese vs Western analysis)
 CHINESE_LLM_NAMES = {"Qwen", "ChatGLM", "Baichuan", "InternLM", "Yi", "DeepSeek", "ERNIE"}
@@ -2262,98 +2425,149 @@ def build_islamic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     }
 
 
-def build_christian_jewish_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
-    """Build extended Christianity/Judaism tradition analysis data."""
+def build_christianity_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
+    """Build extended Christianity tradition analysis data."""
 
-    BIAS_PAT = re.compile(r"\bbias\b|\bstereotyp|\bprejudic|\bdiscriminat|\bhate\b|\bantisemit|\bislamophob", re.I)
+    BIAS_PAT = re.compile(r"\bbias\b|\bstereotyp|\bprejudic|\bdiscriminat|\bhate\b", re.I)
     THEOL_PAT = re.compile(r"\bethic|\bmoral|\btheolog|\bvirtue|\bnatural\s+law|\bdeontolog", re.I)
     SCRIPT_PAT = re.compile(r"\bcorpus\b|\bdataset\b|\bQA\b|\bquestion\s+answer|\btranslation\b|\bNLP\b|\btext\s+mining", re.I)
-    COMPAR_PAT = re.compile(r"\bcompar|\bcross.relig|\binter.faith|\binterfaith|\bmulti.relig", re.I)
-    HATE_PAT = re.compile(r"\bhate\s+speech\b|\bantisemit|\banti.semit|\banti.jewish", re.I)
 
-    def _has_trad(fn, name):
-        f = paper_yaml.get(fn, {})
-        return name in classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or "")
-
-    christian_fns = {fn for fn in sub_fns if _has_trad(fn, "Christianity")}
-    jewish_fns = {fn for fn in sub_fns if _has_trad(fn, "Judaism")}
-
-    # ── traditionBreakdown — donut ───────────────────────────────────────
-    only_c_fns, only_j_fns, both_fns, multi_fns = [], [], [], []
+    # ── denomDist — donut (Catholic/Protestant/Orthodox/Evangelical) ────
+    denom_fns_map = defaultdict(list)
+    unclassified = []
     for fn in sub_fns:
-        f = paper_yaml.get(fn, {})
-        trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
-        has_c, has_j = "Christianity" in trads, "Judaism" in trads
-        other = trads - {"Christianity", "Judaism"}
-        if has_c and has_j:
-            both_fns.append(fn)
-        elif has_c:
-            if other:
-                multi_fns.append(fn)
-            else:
-                only_c_fns.append(fn)
-        elif has_j:
-            if other:
-                multi_fns.append(fn)
-            else:
-                only_j_fns.append(fn)
-        elif other:
-            multi_fns.append(fn)
-    tradition_breakdown = [
-        {"n": "Christianity only", "c": len(only_c_fns), "fns": sorted(only_c_fns)},
-        {"n": "Judaism only", "c": len(only_j_fns), "fns": sorted(only_j_fns)},
-        {"n": "Both", "c": len(both_fns), "fns": sorted(both_fns)},
-        {"n": "Multi-religion", "c": len(multi_fns), "fns": sorted(multi_fns)},
-    ]
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        matched = False
+        for denom, pat in CHRISTIANITY_DENOM_PATTERNS.items():
+            if pat.search(abstract):
+                denom_fns_map[denom].append(fn)
+                matched = True
+        if not matched:
+            unclassified.append(fn)
+    if unclassified:
+        denom_fns_map["General/Unspecified"] = unclassified
+    denom_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                  for n, flist in sorted(denom_fns_map.items(), key=lambda x: -len(x[1]))]
 
-    # ── theologicalConcepts — radar ──────────────────────────────────────
+    # ── conceptRadar — radar (6 theological concepts) ────────────────────
     concept_ctr = Counter()
     concept_fns_map = defaultdict(list)
     for fn in sub_fns:
         abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
-        for name, pat in THEOLOGICAL_CONCEPT_PATTERNS.items():
+        for name, pat in CHRISTIANITY_CONCEPT_PATTERNS.items():
             if pat.search(abstract):
                 concept_ctr[name] += 1
                 concept_fns_map[name].append(fn)
-    theological_concepts = [{"axis": n, "val": concept_ctr.get(n, 0)}
-                            for n in THEOLOGICAL_CONCEPT_PATTERNS]
+    concept_radar = [{"axis": n, "val": concept_ctr.get(n, 0)}
+                     for n in CHRISTIANITY_CONCEPT_PATTERNS]
 
-    # ── focusDist — donut ────────────────────────────────────────────────
+    # ── textCoverage — radar (OT/NT/Patristic) ──────────────────────────
+    text_ctr = Counter()
+    text_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in CHRISTIANITY_TEXT_PATTERNS.items():
+            if pat.search(abstract):
+                text_ctr[name] += 1
+                text_fns_map[name].append(fn)
+    text_coverage = [{"axis": n, "val": text_ctr.get(n, 0)}
+                     for n in CHRISTIANITY_TEXT_PATTERNS]
+
+    # ── focusDist — donut (research focus) ───────────────────────────────
     focus_fns = defaultdict(list)
     for fn in sub_fns:
         abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
-        if HATE_PAT.search(abstract):
-            focus_fns["Hate Speech & Antisemitism"].append(fn)
-        elif COMPAR_PAT.search(abstract):
-            focus_fns["Multi-Religion Comparative"].append(fn)
+        if SCRIPT_PAT.search(abstract):
+            focus_fns["Scriptural NLP"].append(fn)
         elif BIAS_PAT.search(abstract):
             focus_fns["Bias Detection"].append(fn)
-        elif SCRIPT_PAT.search(abstract):
-            focus_fns["Scriptural NLP & Corpora"].append(fn)
         elif THEOL_PAT.search(abstract):
-            focus_fns["Theological/Ethical Framework"].append(fn)
+            focus_fns["Theological Framework"].append(fn)
         else:
             focus_fns["Other"].append(fn)
     focus_dist = [{"n": n, "c": len(flist), "fns": sorted(flist)}
                   for n, flist in sorted(focus_fns.items(), key=lambda x: -len(x[1]))]
 
-    # ── traditionComparison — HTML table ─────────────────────────────────
-    def _agg(trad_fns):
-        return {
-            "paperCount": len(trad_fns),
-            "benchmarkCount": sum(1 for fn in trad_fns if fn in candidates_set),
-            "biasStudies": sum(1 for fn in trad_fns if BIAS_PAT.search(
-                paper_yaml.get(fn, {}).get("abstract", "") or "")),
-            "frameworkPapers": sum(1 for fn in trad_fns if THEOL_PAT.search(
-                paper_yaml.get(fn, {}).get("abstract", "") or "")),
-            "languages": sorted({l for fn in trad_fns
-                                  for l in paper_yaml.get(fn, {}).get("languages_list", []) if l}),
-            "datasetsCount": sum(1 for fn in trad_fns if fn in cand_lookup
-                                 and (cand_lookup[fn].get("availability", "") or "").startswith("Public")),
-        }
-    tradition_comparison = {"Christianity": _agg(christian_fns), "Judaism": _agg(jewish_fns)}
+    # ── normativeCross — grouped bar (Virtue/Deontological/Utilitarian) ──
+    FW_FIELDS = {"Virtue Ethics": "virtue_ethics", "Deontological": "deontological_ethics",
+                 "Utilitarian": "utilitarian_ethics"}
+    normative_cross = []
+    normative_cross_fns = {}
+    for fw_label, yaml_f in FW_FIELDS.items():
+        matched_fns = [fn for fn in sub_fns
+                       if paper_yaml.get(fn, {}).get(yaml_f, "").lower() in ("yes", "partial", "true")]
+        normative_cross.append({"framework": fw_label, "count": len(matched_fns)})
+        normative_cross_fns[fw_label] = sorted(set(matched_fns))
+
+    # ── coTraditions — bar (co-occurrence with other traditions) ─────────
+    co_fns = defaultdict(list)
+    for fn in sub_fns:
+        f = paper_yaml.get(fn, {})
+        trads = set(classify_relig_traditions(
+            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        for t in trads:
+            if t != "Christianity":
+                co_fns[t].append(fn)
+    co_traditions = sorted(
+        [{"n": t, "c": len(flist), "fns": sorted(set(flist))}
+         for t, flist in co_fns.items() if len(flist) > 0],
+        key=lambda x: -x["c"])
+
+    return {
+        "denomDist": denom_dist, "conceptRadar": concept_radar,
+        "textCoverage": text_coverage, "focusDist": focus_dist,
+        "normativeCross": normative_cross, "coTraditions": co_traditions,
+        "conceptRadarFns": {n: sorted(set(concept_fns_map.get(n, []))) for n in CHRISTIANITY_CONCEPT_PATTERNS},
+        "textCoverageFns": {n: sorted(set(text_fns_map.get(n, []))) for n in CHRISTIANITY_TEXT_PATTERNS},
+        "normativeCrossFns": normative_cross_fns,
+    }
+
+
+def build_judaism_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
+    """Build extended Judaism tradition analysis data."""
+
+    BIAS_PAT = re.compile(r"\bbias\b|\bstereotyp|\bantisemit|\banti.semit|\bhate\b", re.I)
+    HALAKH_PAT = re.compile(r"halakh|jewish\s+law|talmudic\s+reason", re.I)
+    HEBREW_NLP_PAT = re.compile(r"hebrew.*nlp|nlp.*hebrew|hebrew.*corpus|corpus.*hebrew|hebrew.*process", re.I)
+
+    # ── conceptRadar — radar (6 Jewish concepts) ────────────────────────
+    concept_ctr = Counter()
+    concept_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in JUDAISM_CONCEPT_PATTERNS.items():
+            if pat.search(abstract):
+                concept_ctr[name] += 1
+                concept_fns_map[name].append(fn)
+    concept_radar = [{"axis": n, "val": concept_ctr.get(n, 0)}
+                     for n in JUDAISM_CONCEPT_PATTERNS]
+
+    # ── textSources — radar (Torah/Talmud/Mishnah/Midrash/Responsa) ────
+    text_ctr = Counter()
+    text_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in JUDAISM_TEXT_PATTERNS.items():
+            if pat.search(abstract):
+                text_ctr[name] += 1
+                text_fns_map[name].append(fn)
+    text_sources = [{"axis": n, "val": text_ctr.get(n, 0)}
+                    for n in JUDAISM_TEXT_PATTERNS]
+
+    # ── focusDist — donut ────────────────────────────────────────────────
+    focus_fns = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        if BIAS_PAT.search(abstract):
+            focus_fns["Antisemitism Detection"].append(fn)
+        elif HALAKH_PAT.search(abstract):
+            focus_fns["Halakhic Reasoning"].append(fn)
+        elif HEBREW_NLP_PAT.search(abstract):
+            focus_fns["Hebrew NLP"].append(fn)
+        else:
+            focus_fns["Other"].append(fn)
+    focus_dist = [{"n": n, "c": len(flist), "fns": sorted(flist)}
+                  for n, flist in sorted(focus_fns.items(), key=lambda x: -len(x[1]))]
 
     # ── normativeCross — grouped bar ─────────────────────────────────────
     FW_FIELDS = {"Virtue Ethics": "virtue_ethics", "Deontological": "deontological_ethics",
@@ -2361,73 +2575,96 @@ def build_christian_jewish_extended(sub_fns, paper_yaml, cand_lookup, candidates
     normative_cross = []
     normative_cross_fns = {}
     for fw_label, yaml_f in FW_FIELDS.items():
-        fw_fns = []
-        c_ct = 0
-        for fn in christian_fns:
-            if paper_yaml.get(fn, {}).get(yaml_f, "").lower() in ("yes", "partial", "true"):
-                c_ct += 1
-                fw_fns.append(fn)
-        j_ct = 0
-        for fn in jewish_fns:
-            if paper_yaml.get(fn, {}).get(yaml_f, "").lower() in ("yes", "partial", "true"):
-                j_ct += 1
-                fw_fns.append(fn)
-        normative_cross.append({"framework": fw_label, "christianity": c_ct, "judaism": j_ct})
-        normative_cross_fns[fw_label] = sorted(set(fw_fns))
+        matched_fns = [fn for fn in sub_fns
+                       if paper_yaml.get(fn, {}).get(yaml_f, "").lower() in ("yes", "partial", "true")]
+        normative_cross.append({"framework": fw_label, "count": len(matched_fns)})
+        normative_cross_fns[fw_label] = sorted(set(matched_fns))
+
+    # ── coTraditions — bar ───────────────────────────────────────────────
+    co_fns = defaultdict(list)
+    for fn in sub_fns:
+        f = paper_yaml.get(fn, {})
+        trads = set(classify_relig_traditions(
+            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        for t in trads:
+            if t != "Judaism":
+                co_fns[t].append(fn)
+    co_traditions = sorted(
+        [{"n": t, "c": len(flist), "fns": sorted(set(flist))}
+         for t, flist in co_fns.items() if len(flist) > 0],
+        key=lambda x: -x["c"])
 
     return {
-        "traditionBreakdown": tradition_breakdown, "theologicalConcepts": theological_concepts,
-        "focusDist": focus_dist, "traditionComparison": tradition_comparison,
-        "normativeCross": normative_cross,
-        "theologicalConceptsFns": {n: sorted(set(concept_fns_map.get(n, []))) for n in THEOLOGICAL_CONCEPT_PATTERNS},
+        "conceptRadar": concept_radar, "textSources": text_sources,
+        "focusDist": focus_dist, "normativeCross": normative_cross,
+        "coTraditions": co_traditions,
+        "conceptRadarFns": {n: sorted(set(concept_fns_map.get(n, []))) for n in JUDAISM_CONCEPT_PATTERNS},
+        "textSourcesFns": {n: sorted(set(text_fns_map.get(n, []))) for n in JUDAISM_TEXT_PATTERNS},
         "normativeCrossFns": normative_cross_fns,
     }
 
 
-def build_dharmic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
-    """Build extended Dharmic (Buddhism/Hinduism) tradition analysis data."""
+def build_buddhism_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
+    """Build extended Buddhism tradition analysis data."""
 
     ETHICS_PAT = re.compile(r"\bethic|\bmoral|\bvalue|\bvirtue|\bharm\b", re.I)
     BIAS_PAT = re.compile(r"\bbias\b|\bfair|\bstereotyp|\bdiscriminat", re.I)
     NLP_PAT = re.compile(r"\bcorpus\b|\bdataset\b|\bNLP\b|\btranslat|\blanguage\s+model|\btext\s+process", re.I)
     PHILO_PAT = re.compile(r"\bphilosoph|\btheor|\bframework|\bconceptual|\bontolog", re.I)
 
-    def _is_trad(fn, name):
-        f = paper_yaml.get(fn, {})
-        return name in classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or "")
-
-    buddhism_fns = {fn for fn in sub_fns if _is_trad(fn, "Buddhism")}
-    hinduism_fns = {fn for fn in sub_fns if _is_trad(fn, "Hinduism")}
-
-    # ── traditionSplit — grouped bar ─────────────────────────────────────
-    only_b_fns, only_h_fns, both_fns, multi_fns = [], [], [], []
+    # ── schoolDist — donut (Theravada/Mahayana/Vajrayana/Zen/Secular) ──
+    school_fns_map = defaultdict(list)
+    unclassified = []
     for fn in sub_fns:
-        f = paper_yaml.get(fn, {})
-        trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
-        has_b, has_h = "Buddhism" in trads, "Hinduism" in trads
-        other = trads - {"Buddhism", "Hinduism"}
-        if has_b and has_h:
-            both_fns.append(fn)
-        elif has_b:
-            if other:
-                multi_fns.append(fn)
-            else:
-                only_b_fns.append(fn)
-        elif has_h:
-            if other:
-                multi_fns.append(fn)
-            else:
-                only_h_fns.append(fn)
-        elif other:
-            multi_fns.append(fn)
-    tradition_split = [
-        {"n": "Buddhism only", "c": len(only_b_fns), "fns": sorted(only_b_fns)},
-        {"n": "Hinduism only", "c": len(only_h_fns), "fns": sorted(only_h_fns)},
-        {"n": "Both", "c": len(both_fns), "fns": sorted(both_fns)},
-        {"n": "Multi-religion", "c": len(multi_fns), "fns": sorted(multi_fns)},
-    ]
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        matched = False
+        for school, pat in BUDDHISM_SCHOOL_PATTERNS.items():
+            if pat.search(abstract):
+                school_fns_map[school].append(fn)
+                matched = True
+        if not matched:
+            unclassified.append(fn)
+    if unclassified:
+        school_fns_map["General/Unspecified"] = unclassified
+    school_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                   for n, flist in sorted(school_fns_map.items(), key=lambda x: -len(x[1]))]
+
+    # ── conceptRadar — radar (9 Buddhist concepts) ──────────────────────
+    concept_ctr = Counter()
+    concept_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in BUDDHISM_CONCEPT_PATTERNS.items():
+            if pat.search(abstract):
+                concept_ctr[name] += 1
+                concept_fns_map[name].append(fn)
+    concept_radar = [{"axis": n, "val": concept_ctr.get(n, 0)}
+                     for n in BUDDHISM_CONCEPT_PATTERNS]
+
+    # ── textSources — radar (Pali Canon/Mahayana Sutras/Tibetan) ───────
+    text_ctr = Counter()
+    text_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in BUDDHISM_TEXT_PATTERNS.items():
+            if pat.search(abstract):
+                text_ctr[name] += 1
+                text_fns_map[name].append(fn)
+    text_sources = [{"axis": n, "val": text_ctr.get(n, 0)}
+                    for n in BUDDHISM_TEXT_PATTERNS]
+
+    # ── researchFocus — stacked bar ──────────────────────────────────────
+    FOCUS_CATS = [("Ethics/Moral", ETHICS_PAT), ("Bias & Fairness", BIAS_PAT),
+                  ("NLP/Corpus", NLP_PAT), ("Philosophical", PHILO_PAT)]
+    focus_ctr = Counter()
+    focus_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for cat, pat in FOCUS_CATS:
+            if pat.search(abstract):
+                focus_ctr[cat] += 1
+                focus_fns_map[cat].append(fn)
+    research_focus = [{"category": cat, "count": focus_ctr.get(cat, 0)} for cat, _ in FOCUS_CATS]
 
     # ── cultureDist — donut ──────────────────────────────────────────────
     culture_fns = defaultdict(list)
@@ -2438,71 +2675,411 @@ def build_dharmic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     culture_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
                     for n, flist in sorted(culture_fns.items(), key=lambda x: -len(x[1]))[:10]]
 
-    # ── conceptRadar — dual-polygon radar ────────────────────────────────
-    labels = list(DHARMIC_CONCEPT_PATTERNS.keys())
-    b_counts, h_counts = [], []
+    # ── languageDist — bar ───────────────────────────────────────────────
+    lang_fns = defaultdict(list)
+    for fn in sub_fns:
+        for lang in paper_yaml.get(fn, {}).get("languages_list", []):
+            if lang:
+                lang_fns[lang].append(fn)
+    language_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                     for n, flist in sorted(lang_fns.items(), key=lambda x: -len(x[1]))]
+
+    # ── coTraditions — bar ───────────────────────────────────────────────
+    co_fns = defaultdict(list)
+    for fn in sub_fns:
+        f = paper_yaml.get(fn, {})
+        trads = set(classify_relig_traditions(
+            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        for t in trads:
+            if t != "Buddhism":
+                co_fns[t].append(fn)
+    co_traditions = sorted(
+        [{"n": t, "c": len(flist), "fns": sorted(set(flist))}
+         for t, flist in co_fns.items() if len(flist) > 0],
+        key=lambda x: -x["c"])
+
+    return {
+        "schoolDist": school_dist, "conceptRadar": concept_radar,
+        "textSources": text_sources, "researchFocus": research_focus,
+        "cultureDist": culture_dist, "languageDist": language_dist,
+        "coTraditions": co_traditions,
+        "conceptRadarFns": {n: sorted(set(concept_fns_map.get(n, []))) for n in BUDDHISM_CONCEPT_PATTERNS},
+        "textSourcesFns": {n: sorted(set(text_fns_map.get(n, []))) for n in BUDDHISM_TEXT_PATTERNS},
+        "researchFocusFns": {cat: sorted(set(focus_fns_map.get(cat, []))) for cat, _ in FOCUS_CATS},
+    }
+
+
+def build_hinduism_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
+    """Build extended Hinduism tradition analysis data."""
+
+    ETHICS_PAT = re.compile(r"\bethic|\bmoral|\bvalue|\bvirtue|\bharm\b", re.I)
+    BIAS_PAT = re.compile(r"\bbias\b|\bfair|\bstereotyp|\bdiscriminat", re.I)
+    NLP_PAT = re.compile(r"\bcorpus\b|\bdataset\b|\bNLP\b|\btranslat|\blanguage\s+model|\btext\s+process", re.I)
+    PHILO_PAT = re.compile(r"\bphilosoph|\btheor|\bframework|\bconceptual|\bontolog", re.I)
+
+    # ── textRadar — radar (Vedas/Upanishads/Gita/Dharmashastra/Manusmriti)
+    text_ctr = Counter()
+    text_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in HINDUISM_TEXT_PATTERNS.items():
+            if pat.search(abstract):
+                text_ctr[name] += 1
+                text_fns_map[name].append(fn)
+    text_radar = [{"axis": n, "val": text_ctr.get(n, 0)}
+                  for n in HINDUISM_TEXT_PATTERNS]
+
+    # ── conceptRadar — radar (7 Hindu concepts) ─────────────────────────
+    concept_ctr = Counter()
     concept_fns_map = defaultdict(list)
-    for name, pat in DHARMIC_CONCEPT_PATTERNS.items():
-        b_ct = 0
-        h_ct = 0
-        for fn in buddhism_fns:
-            if pat.search(paper_yaml.get(fn, {}).get("abstract", "") or ""):
-                b_ct += 1
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in HINDUISM_CONCEPT_PATTERNS.items():
+            if pat.search(abstract):
+                concept_ctr[name] += 1
                 concept_fns_map[name].append(fn)
-        for fn in hinduism_fns:
-            if pat.search(paper_yaml.get(fn, {}).get("abstract", "") or ""):
-                h_ct += 1
-                concept_fns_map[name].append(fn)
-        b_counts.append(b_ct)
-        h_counts.append(h_ct)
-    concept_radar = {"labels": labels, "buddhism": b_counts, "hinduism": h_counts}
+    concept_radar = [{"axis": n, "val": concept_ctr.get(n, 0)}
+                     for n in HINDUISM_CONCEPT_PATTERNS]
+
+    # ── schoolDist — donut (Vedanta/Samkhya/Yoga/Nyaya/Mimamsa) ────────
+    school_fns_map = defaultdict(list)
+    unclassified = []
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        matched = False
+        for school, pat in HINDUISM_SCHOOL_PATTERNS.items():
+            if pat.search(abstract):
+                school_fns_map[school].append(fn)
+                matched = True
+        if not matched:
+            unclassified.append(fn)
+    if unclassified:
+        school_fns_map["General/Unspecified"] = unclassified
+    school_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                   for n, flist in sorted(school_fns_map.items(), key=lambda x: -len(x[1]))]
 
     # ── researchFocus — stacked bar ──────────────────────────────────────
     FOCUS_CATS = [("Ethics/Moral", ETHICS_PAT), ("Bias & Fairness", BIAS_PAT),
                   ("NLP/Corpus", NLP_PAT), ("Philosophical", PHILO_PAT)]
-    b_focus, h_focus = Counter(), Counter()
+    focus_ctr = Counter()
     focus_fns_map = defaultdict(list)
     for fn in sub_fns:
         abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
-        is_b, is_h = fn in buddhism_fns, fn in hinduism_fns
         for cat, pat in FOCUS_CATS:
             if pat.search(abstract):
-                if is_b:
-                    b_focus[cat] += 1
-                if is_h:
-                    h_focus[cat] += 1
-                if is_b or is_h:
-                    focus_fns_map[cat].append(fn)
-    research_focus = [{"category": cat, "buddhism": b_focus.get(cat, 0),
-                       "hinduism": h_focus.get(cat, 0)} for cat, _ in FOCUS_CATS]
+                focus_ctr[cat] += 1
+                focus_fns_map[cat].append(fn)
+    research_focus = [{"category": cat, "count": focus_ctr.get(cat, 0)} for cat, _ in FOCUS_CATS]
 
-    # ── langTreemap — treemap ────────────────────────────────────────────
-    lang_trad = defaultdict(set)
-    lang_ctr = Counter()
+    # ── cultureDist — donut ──────────────────────────────────────────────
+    culture_fns = defaultdict(list)
+    for fn in sub_fns:
+        for c in paper_yaml.get(fn, {}).get("cultures_nationalities_list", []):
+            if c:
+                culture_fns[c].append(fn)
+    culture_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                    for n, flist in sorted(culture_fns.items(), key=lambda x: -len(x[1]))[:10]]
+
+    # ── languageDist — bar ───────────────────────────────────────────────
     lang_fns = defaultdict(list)
     for fn in sub_fns:
-        is_b, is_h = fn in buddhism_fns, fn in hinduism_fns
         for lang in paper_yaml.get(fn, {}).get("languages_list", []):
-            if not lang:
-                continue
-            lang_ctr[lang] += 1
-            lang_fns[lang].append(fn)
-            if is_b:
-                lang_trad[lang].add("Buddhism")
-            if is_h:
-                lang_trad[lang].add("Hinduism")
-    lang_treemap = []
-    for lang, c in lang_ctr.most_common():
-        ts = lang_trad.get(lang, set())
-        trad = "Both" if len(ts) == 2 else (ts.pop() if ts else "Other")
-        lang_treemap.append({"n": lang, "c": c, "trad": trad, "fns": sorted(set(lang_fns[lang]))})
+            if lang:
+                lang_fns[lang].append(fn)
+    language_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                     for n, flist in sorted(lang_fns.items(), key=lambda x: -len(x[1]))]
+
+    # ── coTraditions — bar ───────────────────────────────────────────────
+    co_fns = defaultdict(list)
+    for fn in sub_fns:
+        f = paper_yaml.get(fn, {})
+        trads = set(classify_relig_traditions(
+            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        for t in trads:
+            if t != "Hinduism":
+                co_fns[t].append(fn)
+    co_traditions = sorted(
+        [{"n": t, "c": len(flist), "fns": sorted(set(flist))}
+         for t, flist in co_fns.items() if len(flist) > 0],
+        key=lambda x: -x["c"])
 
     return {
-        "traditionSplit": tradition_split, "cultureDist": culture_dist,
-        "conceptRadar": concept_radar, "researchFocus": research_focus,
-        "langTreemap": lang_treemap,
-        "conceptRadarFns": {n: sorted(set(concept_fns_map.get(n, []))) for n in DHARMIC_CONCEPT_PATTERNS},
+        "textRadar": text_radar, "conceptRadar": concept_radar,
+        "schoolDist": school_dist, "researchFocus": research_focus,
+        "cultureDist": culture_dist, "languageDist": language_dist,
+        "coTraditions": co_traditions,
+        "textRadarFns": {n: sorted(set(text_fns_map.get(n, []))) for n in HINDUISM_TEXT_PATTERNS},
+        "conceptRadarFns": {n: sorted(set(concept_fns_map.get(n, []))) for n in HINDUISM_CONCEPT_PATTERNS},
         "researchFocusFns": {cat: sorted(set(focus_fns_map.get(cat, []))) for cat, _ in FOCUS_CATS},
+    }
+
+
+def _build_gap_comparison(sub_fns, paper_yaml, candidates_set, vault_total, vault_benchmark_count, vault_ethics_count):
+    """Reusable gap comparison vs vault average."""
+    n_sub = len(sub_fns) or 1
+    _pct = lambda num, den: round(num * 100 / den, 1) if den > 0 else 0.0
+    sub_bench = sum(1 for fn in sub_fns if fn in candidates_set)
+    sub_llm = sum(1 for fn in sub_fns
+                  if (paper_yaml.get(fn, {}).get("LLM_assessed", "") or "").lower()
+                  not in ("", "na", "n/a", "none"))
+    sub_eth = sum(1 for fn in sub_fns
+                  if paper_yaml.get(fn, {}).get("ethics_overall", "").lower() == "yes")
+    sub_data = sum(1 for fn in sub_fns
+                   if (paper_yaml.get(fn, {}).get("DATA_URL", "") or "").lower()
+                   not in ("", "na", "n/a", "none"))
+    vault_llm = sum(1 for f in paper_yaml.values()
+                    if (f.get("LLM_assessed", "") or "").lower() not in ("", "na", "n/a", "none"))
+    vault_data = sum(1 for f in paper_yaml.values()
+                     if (f.get("DATA_URL", "") or "").lower() not in ("", "na", "n/a", "none"))
+    return [
+        {"metric": "% Benchmarks", "subset": _pct(sub_bench, n_sub),
+         "vault": _pct(vault_benchmark_count, vault_total)},
+        {"metric": "% LLM Assessed", "subset": _pct(sub_llm, n_sub),
+         "vault": _pct(vault_llm, vault_total)},
+        {"metric": "% Ethics=Yes", "subset": _pct(sub_eth, n_sub),
+         "vault": _pct(vault_ethics_count, vault_total)},
+        {"metric": "% DATA_URL", "subset": _pct(sub_data, n_sub),
+         "vault": _pct(vault_data, vault_total)},
+    ]
+
+
+def build_shinto_extended(sub_fns, paper_yaml, cand_lookup, candidates_set,
+                          vault_total, vault_benchmark_count, vault_ethics_count):
+    """Build extended Shinto tradition analysis data."""
+
+    # ── conceptRadar — radar (5 Shinto concepts) ────────────────────────
+    concept_ctr = Counter()
+    concept_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in SHINTO_CONCEPT_PATTERNS.items():
+            if pat.search(abstract):
+                concept_ctr[name] += 1
+                concept_fns_map[name].append(fn)
+    concept_radar = [{"axis": n, "val": concept_ctr.get(n, 0)}
+                     for n in SHINTO_CONCEPT_PATTERNS]
+
+    # ── themeDist — donut (Techno-Animism/Robot Ethics/AI Personhood/Cultural)
+    theme_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in SHINTO_THEME_PATTERNS.items():
+            if pat.search(abstract):
+                theme_fns_map[name].append(fn)
+    theme_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                  for n, flist in sorted(theme_fns_map.items(), key=lambda x: -len(x[1]))]
+
+    # ── cultureDist — bar ────────────────────────────────────────────────
+    culture_fns = defaultdict(list)
+    for fn in sub_fns:
+        for c in paper_yaml.get(fn, {}).get("cultures_nationalities_list", []):
+            if c:
+                culture_fns[c].append(fn)
+    culture_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                    for n, flist in sorted(culture_fns.items(), key=lambda x: -len(x[1]))]
+
+    # ── coTraditions — bar ───────────────────────────────────────────────
+    co_fns = defaultdict(list)
+    for fn in sub_fns:
+        f = paper_yaml.get(fn, {})
+        trads = set(classify_relig_traditions(
+            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        for t in trads:
+            if t != "Shinto":
+                co_fns[t].append(fn)
+    co_traditions = sorted(
+        [{"n": t, "c": len(flist), "fns": sorted(set(flist))}
+         for t, flist in co_fns.items() if len(flist) > 0],
+        key=lambda x: -x["c"])
+
+    # ── gapComparison — grouped bar ──────────────────────────────────────
+    gap_comparison = _build_gap_comparison(sub_fns, paper_yaml, candidates_set,
+                                           vault_total, vault_benchmark_count, vault_ethics_count)
+
+    return {
+        "conceptRadar": concept_radar, "themeDist": theme_dist,
+        "cultureDist": culture_dist, "coTraditions": co_traditions,
+        "gapComparison": gap_comparison,
+        "conceptRadarFns": {n: sorted(set(concept_fns_map.get(n, []))) for n in SHINTO_CONCEPT_PATTERNS},
+    }
+
+
+def build_ubuntu_extended(sub_fns, paper_yaml, cand_lookup, candidates_set,
+                          vault_total, vault_benchmark_count, vault_ethics_count):
+    """Build extended Ubuntu tradition analysis data."""
+
+    # ── conceptRadar — radar (5 Ubuntu concepts) ────────────────────────
+    concept_ctr = Counter()
+    concept_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in UBUNTU_CONCEPT_PATTERNS.items():
+            if pat.search(abstract):
+                concept_ctr[name] += 1
+                concept_fns_map[name].append(fn)
+    concept_radar = [{"axis": n, "val": concept_ctr.get(n, 0)}
+                     for n in UBUNTU_CONCEPT_PATTERNS]
+
+    # ── themeDist — donut (AI Governance/Decolonization/Data Ethics/Community)
+    theme_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in UBUNTU_RESEARCH_THEMES.items():
+            if pat.search(abstract):
+                theme_fns_map[name].append(fn)
+    theme_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                  for n, flist in sorted(theme_fns_map.items(), key=lambda x: -len(x[1]))]
+
+    # ── geoDist — bar (Pan-African geographic spread) ────────────────────
+    culture_fns = defaultdict(list)
+    for fn in sub_fns:
+        for c in paper_yaml.get(fn, {}).get("cultures_nationalities_list", []):
+            if c:
+                culture_fns[c].append(fn)
+    geo_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                for n, flist in sorted(culture_fns.items(), key=lambda x: -len(x[1]))]
+
+    # ── gapComparison — grouped bar ──────────────────────────────────────
+    gap_comparison = _build_gap_comparison(sub_fns, paper_yaml, candidates_set,
+                                           vault_total, vault_benchmark_count, vault_ethics_count)
+
+    # ── coTraditions — bar ───────────────────────────────────────────────
+    co_fns = defaultdict(list)
+    for fn in sub_fns:
+        f = paper_yaml.get(fn, {})
+        trads = set(classify_relig_traditions(
+            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        for t in trads:
+            if t != "Ubuntu":
+                co_fns[t].append(fn)
+    co_traditions = sorted(
+        [{"n": t, "c": len(flist), "fns": sorted(set(flist))}
+         for t, flist in co_fns.items() if len(flist) > 0],
+        key=lambda x: -x["c"])
+
+    return {
+        "conceptRadar": concept_radar, "themeDist": theme_dist,
+        "geoDist": geo_dist, "gapComparison": gap_comparison,
+        "coTraditions": co_traditions,
+        "conceptRadarFns": {n: sorted(set(concept_fns_map.get(n, []))) for n in UBUNTU_CONCEPT_PATTERNS},
+    }
+
+
+def build_indigenous_extended(sub_fns, paper_yaml, cand_lookup, candidates_set,
+                              vault_total, vault_benchmark_count, vault_ethics_count):
+    """Build extended Indigenous traditions analysis data."""
+
+    # ── traditionDist — donut (Maori/First Nations/Aboriginal/Native American)
+    trad_fns_map = defaultdict(list)
+    unclassified = []
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        matched = False
+        for trad, pat in INDIGENOUS_TRADITION_PATTERNS.items():
+            if pat.search(abstract):
+                trad_fns_map[trad].append(fn)
+                matched = True
+        if not matched:
+            unclassified.append(fn)
+    if unclassified:
+        trad_fns_map["Other Indigenous"] = unclassified
+    tradition_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                      for n, flist in sorted(trad_fns_map.items(), key=lambda x: -len(x[1]))]
+
+    # ── themeRadar — radar (5 Indigenous themes) ─────────────────────────
+    theme_ctr = Counter()
+    theme_fns_map = defaultdict(list)
+    for fn in sub_fns:
+        abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
+        for name, pat in INDIGENOUS_THEME_PATTERNS.items():
+            if pat.search(abstract):
+                theme_ctr[name] += 1
+                theme_fns_map[name].append(fn)
+    theme_radar = [{"axis": n, "val": theme_ctr.get(n, 0)}
+                   for n in INDIGENOUS_THEME_PATTERNS]
+
+    # ── geoDist — bar (geographic origins) ───────────────────────────────
+    culture_fns = defaultdict(list)
+    for fn in sub_fns:
+        for c in paper_yaml.get(fn, {}).get("cultures_nationalities_list", []):
+            if c:
+                culture_fns[c].append(fn)
+    geo_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
+                for n, flist in sorted(culture_fns.items(), key=lambda x: -len(x[1]))]
+
+    # ── gapComparison — grouped bar ──────────────────────────────────────
+    gap_comparison = _build_gap_comparison(sub_fns, paper_yaml, candidates_set,
+                                           vault_total, vault_benchmark_count, vault_ethics_count)
+
+    # ── coTraditions — bar ───────────────────────────────────────────────
+    co_fns = defaultdict(list)
+    for fn in sub_fns:
+        f = paper_yaml.get(fn, {})
+        trads = set(classify_relig_traditions(
+            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        for t in trads:
+            if t != "Indigenous":
+                co_fns[t].append(fn)
+    co_traditions = sorted(
+        [{"n": t, "c": len(flist), "fns": sorted(set(flist))}
+         for t, flist in co_fns.items() if len(flist) > 0],
+        key=lambda x: -x["c"])
+
+    return {
+        "traditionDist": tradition_dist, "themeRadar": theme_radar,
+        "geoDist": geo_dist, "gapComparison": gap_comparison,
+        "coTraditions": co_traditions,
+        "themeRadarFns": {n: sorted(set(theme_fns_map.get(n, []))) for n in INDIGENOUS_THEME_PATTERNS},
+    }
+
+
+def build_other_traditions_extended(paper_yaml, candidates_set, vault_total, vault_benchmark_count, vault_ethics_count):
+    """Build extended 'Other Traditions' analysis data (Jainism, Sikhism, Taoism, Baha'i, Zoroastrianism)."""
+
+    # Collect papers per tradition
+    trad_papers = {}
+    all_fns = set()
+    for trad_name, info in OTHER_TRADITIONS_CONCEPTS.items():
+        matched = []
+        for fn, fields in paper_yaml.items():
+            text = (fields.get("abstract", "") or "") + " " + \
+                   " ".join(fields.get("religious_values_list", []))
+            if info["pattern"].search(text):
+                matched.append(fn)
+        trad_papers[trad_name] = sorted(set(matched))
+        all_fns.update(matched)
+
+    # ── summaryTable — HTML data ─────────────────────────────────────────
+    summary_table = []
+    for trad_name, fns in trad_papers.items():
+        concepts = list(OTHER_TRADITIONS_CONCEPTS[trad_name]["concepts"].keys())
+        summary_table.append({
+            "tradition": trad_name,
+            "paperCount": len(fns),
+            "benchmarkCount": sum(1 for fn in fns if fn in candidates_set),
+            "keyConcepts": concepts,
+            "fns": fns,
+        })
+
+    # ── conceptBar — grouped bar (key concepts per tradition) ────────────
+    concept_data = []
+    concept_fns_map = {}
+    for trad_name, info in OTHER_TRADITIONS_CONCEPTS.items():
+        fns = trad_papers[trad_name]
+        for concept_name, pat in info["concepts"].items():
+            matched = [fn for fn in fns
+                       if pat.search(paper_yaml.get(fn, {}).get("abstract", "") or "")]
+            concept_data.append({"tradition": trad_name, "concept": concept_name,
+                                 "count": len(matched), "fns": sorted(set(matched))})
+            concept_fns_map[f"{trad_name}:{concept_name}"] = sorted(set(matched))
+
+    # ── gapComparison — bar ──────────────────────────────────────────────
+    gap_comparison = _build_gap_comparison(all_fns, paper_yaml, candidates_set,
+                                           vault_total, vault_benchmark_count, vault_ethics_count)
+
+    return {
+        "summaryTable": summary_table, "conceptData": concept_data,
+        "gapComparison": gap_comparison, "conceptFns": concept_fns_map,
     }
 
 
@@ -2629,136 +3206,6 @@ def build_confucian_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     }
 
 
-def build_ubuntu_indigenous_extended(sub_fns, paper_yaml, cand_lookup, candidates_set,
-                                     vault_total, vault_benchmark_count, vault_ethics_count):
-    """Build extended Ubuntu/Indigenous tradition analysis data."""
-
-    UBUNTU_PAT = RELIG_TRAD_PATTERNS["Ubuntu"]
-
-    def _is_shinto(fn):
-        f = paper_yaml.get(fn, {})
-        text = (f.get("abstract", "") or "") + " " + " ".join(f.get("religious_values_list", []))
-        return bool(SHINTO_PATTERN.search(text))
-
-    def _is_ubuntu(fn):
-        f = paper_yaml.get(fn, {})
-        text = (f.get("abstract", "") or "") + " " + " ".join(f.get("religious_values_list", []))
-        return bool(UBUNTU_PAT.search(text))
-
-    shinto_fns = {fn for fn in sub_fns if _is_shinto(fn)}
-    ubuntu_fns = {fn for fn in sub_fns if _is_ubuntu(fn)}
-    indigenous_fns = sub_fns - ubuntu_fns - shinto_fns
-
-    # ── subTradDist — donut ──────────────────────────────────────────────
-    COLOR_MAP = {"Ubuntu": "#f97316", "Indigenous": "#14b8a6", "Shinto": "#e879f9"}
-    sub_trad_fns = {"Ubuntu": [], "Indigenous": [], "Shinto": []}
-    for fn in sub_fns:
-        if fn in shinto_fns:
-            sub_trad_fns["Shinto"].append(fn)
-        if fn in ubuntu_fns:
-            sub_trad_fns["Ubuntu"].append(fn)
-        if fn not in shinto_fns and fn not in ubuntu_fns:
-            sub_trad_fns["Indigenous"].append(fn)
-    sub_trad_dist = [{"n": n, "c": len(sub_trad_fns[n]), "col": COLOR_MAP[n], "fns": sorted(sub_trad_fns[n])}
-                     for n in ["Ubuntu", "Indigenous", "Shinto"]]
-
-    # ── cultureDist — horizontal bar ─────────────────────────────────────
-    culture_trad_ctr = Counter()
-    culture_fn_map = defaultdict(list)
-    for fn in sub_fns:
-        trad = "Ubuntu" if fn in ubuntu_fns else ("Shinto" if fn in shinto_fns else "Indigenous")
-        for c in paper_yaml.get(fn, {}).get("cultures_nationalities_list", []):
-            if c:
-                culture_trad_ctr[(c, trad)] += 1
-                culture_fn_map[c].append(fn)
-    culture_total = Counter()
-    culture_best = defaultdict(Counter)
-    for (c, trad), cnt in culture_trad_ctr.items():
-        culture_total[c] += cnt
-        culture_best[c][trad] += cnt
-    culture_dist = [{"n": c, "c": total, "trad": culture_best[c].most_common(1)[0][0],
-                     "fns": sorted(set(culture_fn_map[c]))}
-                    for c, total in culture_total.most_common()]
-
-    # ── evalReadiness — stacked bar ──────────────────────────────────────
-    def _eval(fn_set):
-        bench = sum(1 for fn in fn_set if fn in candidates_set
-                    and (cand_lookup.get(fn, {}).get("decision", "") or "").lower() == "yes")
-        evl = sum(1 for fn in fn_set if fn in candidates_set)
-        eth = sum(1 for fn in fn_set
-                  if paper_yaml.get(fn, {}).get("ethics_overall", "").lower() == "yes"
-                  and fn not in candidates_set)
-        return {"benchmark": bench, "evaluation": evl, "ethicsOnly": eth}
-    eval_readiness_fns = {}
-    for trad_name, trad_set in [("Ubuntu", ubuntu_fns), ("Indigenous", indigenous_fns), ("Shinto", shinto_fns)]:
-        eval_readiness_fns[trad_name] = sorted(trad_set)
-    eval_readiness = [
-        {"tradition": "Ubuntu", **_eval(ubuntu_fns)},
-        {"tradition": "Indigenous", **_eval(indigenous_fns)},
-        {"tradition": "Shinto", **_eval(shinto_fns)},
-    ]
-
-    # ── themeRadar — radar with 3 traces ─────────────────────────────────
-    labels = list(UBUNTU_THEME_PATTERNS.keys())
-    def _tcounts(fn_set):
-        return [sum(1 for fn in fn_set
-                    if pat.search(paper_yaml.get(fn, {}).get("abstract", "") or ""))
-                for pat in UBUNTU_THEME_PATTERNS.values()]
-    theme_fns_map = defaultdict(list)
-    for fn_set in [ubuntu_fns, indigenous_fns, shinto_fns]:
-        for fn in fn_set:
-            abstract = paper_yaml.get(fn, {}).get("abstract", "") or ""
-            for theme_name, pat in UBUNTU_THEME_PATTERNS.items():
-                if pat.search(abstract):
-                    theme_fns_map[theme_name].append(fn)
-    theme_radar = {
-        "labels": labels, "ubuntu": _tcounts(ubuntu_fns),
-        "indigenous": _tcounts(indigenous_fns), "shinto": _tcounts(shinto_fns),
-    }
-
-    # ── gapComparison — diverging bar ────────────────────────────────────
-    n_sub = len(sub_fns) or 1
-    _pct = lambda num, den: round(num * 100 / den, 1) if den > 0 else 0.0
-    sub_bench = sum(1 for fn in sub_fns if fn in candidates_set)
-    sub_llm = sum(1 for fn in sub_fns
-                  if (paper_yaml.get(fn, {}).get("LLM_assessed", "") or "").lower()
-                  not in ("", "na", "n/a", "none"))
-    sub_eth = sum(1 for fn in sub_fns
-                  if paper_yaml.get(fn, {}).get("ethics_overall", "").lower() == "yes")
-    sub_data = sum(1 for fn in sub_fns
-                   if (paper_yaml.get(fn, {}).get("DATA_URL", "") or "").lower()
-                   not in ("", "na", "n/a", "none"))
-    vault_llm = sum(1 for f in paper_yaml.values()
-                    if (f.get("LLM_assessed", "") or "").lower() not in ("", "na", "n/a", "none"))
-    vault_data = sum(1 for f in paper_yaml.values()
-                     if (f.get("DATA_URL", "") or "").lower() not in ("", "na", "n/a", "none"))
-    gap_comparison = [
-        {"metric": "% Benchmarks", "subset": _pct(sub_bench, n_sub),
-         "vault": _pct(vault_benchmark_count, vault_total)},
-        {"metric": "% LLM Assessed", "subset": _pct(sub_llm, n_sub),
-         "vault": _pct(vault_llm, vault_total)},
-        {"metric": "% Ethics=Yes", "subset": _pct(sub_eth, n_sub),
-         "vault": _pct(vault_ethics_count, vault_total)},
-        {"metric": "% DATA_URL", "subset": _pct(sub_data, n_sub),
-         "vault": _pct(vault_data, vault_total)},
-    ]
-
-    # ── languageDist — bar ───────────────────────────────────────────────
-    lang_fns = defaultdict(list)
-    for fn in sub_fns:
-        for lang in paper_yaml.get(fn, {}).get("languages_list", []):
-            if lang:
-                lang_fns[lang].append(fn)
-    language_dist = [{"n": n, "c": len(flist), "fns": sorted(set(flist))}
-                     for n, flist in sorted(lang_fns.items(), key=lambda x: -len(x[1]))]
-
-    return {
-        "subTradDist": sub_trad_dist, "cultureDist": culture_dist,
-        "evalReadiness": eval_readiness, "themeRadar": theme_radar,
-        "gapComparison": gap_comparison, "languageDist": language_dist,
-        "evalReadinessFns": eval_readiness_fns,
-        "themeRadarFns": {n: sorted(set(theme_fns_map.get(n, []))) for n in UBUNTU_THEME_PATTERNS},
-    }
 
 
 def compute_religious_data(paper_yaml, candidates, candidates_set):
@@ -2856,20 +3303,26 @@ def compute_religious_data(paper_yaml, candidates, candidates_set):
         }
 
     islamic_data = build_trad_subsection(["Islam"])
-    christian_jewish_data = build_trad_subsection(["Christianity", "Judaism"])
-    dharmic_data = build_trad_subsection(["Buddhism", "Hinduism"])
+    christianity_data = build_trad_subsection(["Christianity"])
+    judaism_data = build_trad_subsection(["Judaism"])
+    buddhism_data = build_trad_subsection(["Buddhism"])
+    hinduism_data = build_trad_subsection(["Hinduism"])
     confucian_data = build_trad_subsection(["Confucian"])
-    ubuntu_indigenous_data = build_trad_subsection(["Ubuntu", "Indigenous"])
+    shinto_data = build_trad_subsection(["Shinto"])
+    ubuntu_data = build_trad_subsection(["Ubuntu"])
+    indigenous_data = build_trad_subsection(["Indigenous"])
 
     # ── Extended analyses per tradition ───────────────────────────────────
     islamic_data.update(build_islamic_extended(
         tradition_paper_sets.get("Islam", set()), paper_yaml, cand_lookup, candidates_set))
-    christian_jewish_data.update(build_christian_jewish_extended(
-        tradition_paper_sets.get("Christianity", set()) | tradition_paper_sets.get("Judaism", set()),
-        paper_yaml, cand_lookup, candidates_set))
-    dharmic_data.update(build_dharmic_extended(
-        tradition_paper_sets.get("Buddhism", set()) | tradition_paper_sets.get("Hinduism", set()),
-        paper_yaml, cand_lookup, candidates_set))
+    christianity_data.update(build_christianity_extended(
+        tradition_paper_sets.get("Christianity", set()), paper_yaml, cand_lookup, candidates_set))
+    judaism_data.update(build_judaism_extended(
+        tradition_paper_sets.get("Judaism", set()), paper_yaml, cand_lookup, candidates_set))
+    buddhism_data.update(build_buddhism_extended(
+        tradition_paper_sets.get("Buddhism", set()), paper_yaml, cand_lookup, candidates_set))
+    hinduism_data.update(build_hinduism_extended(
+        tradition_paper_sets.get("Hinduism", set()), paper_yaml, cand_lookup, candidates_set))
     confucian_data.update(build_confucian_extended(
         tradition_paper_sets.get("Confucian", set()), paper_yaml, cand_lookup, candidates_set))
 
@@ -2877,16 +3330,24 @@ def compute_religious_data(paper_yaml, candidates, candidates_set):
     vault_bench_ct = len(candidates_set)
     vault_ethics_ct = sum(1 for f in paper_yaml.values()
                           if f.get("ethics_overall", "").lower() == "yes")
-    ubuntu_indigenous_data.update(build_ubuntu_indigenous_extended(
-        tradition_paper_sets.get("Ubuntu", set()) | tradition_paper_sets.get("Indigenous", set()),
-        paper_yaml, cand_lookup, candidates_set,
+    shinto_data.update(build_shinto_extended(
+        tradition_paper_sets.get("Shinto", set()), paper_yaml, cand_lookup, candidates_set,
         vault_total, vault_bench_ct, vault_ethics_ct))
+    ubuntu_data.update(build_ubuntu_extended(
+        tradition_paper_sets.get("Ubuntu", set()), paper_yaml, cand_lookup, candidates_set,
+        vault_total, vault_bench_ct, vault_ethics_ct))
+    indigenous_data.update(build_indigenous_extended(
+        tradition_paper_sets.get("Indigenous", set()), paper_yaml, cand_lookup, candidates_set,
+        vault_total, vault_bench_ct, vault_ethics_ct))
+
+    other_traditions_data = build_other_traditions_extended(
+        paper_yaml, candidates_set, vault_total, vault_bench_ct, vault_ethics_ct)
 
     # Timeline
     all_years = sorted(set(y for tc in tradition_year.values() for y in tc.keys() if y >= 2016))
     abrahamic = ["Islam", "Christianity", "Judaism"]
     dharmic_names = ["Buddhism", "Hinduism"]
-    east_asian = ["Confucian"]
+    east_asian = ["Confucian", "Shinto"]
     african_indigenous = ["Ubuntu", "Indigenous"]
 
     timeline = {
@@ -2915,10 +3376,15 @@ def compute_religious_data(paper_yaml, candidates, candidates_set):
         "timeline": timeline,
         "benchmarkCount": benchmark_count,
         "islamic": islamic_data,
-        "christianJewish": christian_jewish_data,
-        "dharmic": dharmic_data,
+        "christianity": christianity_data,
+        "judaism": judaism_data,
+        "buddhism": buddhism_data,
+        "hinduism": hinduism_data,
         "confucian": confucian_data,
-        "ubuntuIndigenous": ubuntu_indigenous_data,
+        "shinto": shinto_data,
+        "ubuntu": ubuntu_data,
+        "indigenous": indigenous_data,
+        "otherTraditions": other_traditions_data,
         "cooccurrence": cooccurrence,
         "coLabels": trad_names,
     }
@@ -3772,7 +4238,8 @@ def main():
     religious = compute_religious_data(paper_yaml, candidates, candidates_set)
     print(f"  Religious: {religious['paperCount']} papers, "
           f"Islamic={religious['islamic']['count']}, "
-          f"Dharmic={religious['dharmic']['count']}")
+          f"Christianity={religious['christianity']['count']}, "
+          f"Buddhism={religious['buddhism']['count']}")
 
     # ── Taxonomy & methods ─────────────────────────────────────────────
     print("\n[7/8] Computing taxonomy & LLM data...")

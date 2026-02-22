@@ -34,6 +34,17 @@
 
 ---
 
+## 2026-02-22 (Session 113)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-22 | Workflows | **Python patch scripts for large multi-function replacements:** When replacing hundreds of lines across multiple function definitions (e.g., 3 grouped builders → 9 individual builders), a purpose-built Python script with line-index splicing is more reliable than sequential Edit tool calls. The script finds exact positions via `enumerate(lines)` + string matching, then splices cleanly. This avoids Edit tool's string-uniqueness requirement and handles interleaved keep/replace sections. |
+| 2026-02-22 | Data Quality | **Grouped→Individual key restructuring — update ALL consumers:** Renaming data keys from `christianJewish`/`dharmic`/`ubuntuIndigenous` to individual tradition keys required updates in: (1) `compute_religious_data()` return dict, (2) JS `_relExtendedConfigs` chart configs, (3) HTML sub-pane IDs, AND (4) diagnostic `print()` in `main()`. The forgotten print caused `KeyError: 'dharmic'` at runtime. Always grep all files for old key names. |
+| 2026-02-22 | Data Quality | **RELIG_TRAD_PATTERNS ↔ TRADITION_META must stay in sync:** Adding Shinto as a standalone tradition required: (1) adding to `TRADITION_META` list (for cooccurrence matrix sizing), (2) adding to `RELIG_TRAD_PATTERNS` dict (for `classify_relig_traditions()` detection), and (3) removing `shinto` from the `Indigenous` regex. Missing any one causes either empty Shinto data, wrong cooccurrence dimensions, or Shinto papers misclassified as Indigenous. |
+| 2026-02-22 | Workflows | **Dashboard version consolidation pattern (cherry-pick merge):** When N parallel dashboard branches each modify exactly one tab, use the "best base + graft" strategy: copy the base version (most complex tab), then replace only the tab-specific sections from each variant. No conflicts because each version's changes are tab-isolated. Order: HTML panes → JS chart functions → CSS accents → Python generator → data regeneration. |
+
+---
+
 ## 2026-02-22 (Session 112)
 
 | Date | Category | Learning |

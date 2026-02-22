@@ -2,6 +2,37 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 113 (Feb 22, 2026) - Dashboard v8: Consolidate v7b2 + v7c + v7e
+
+### Overview
+Consolidated three independently-enhanced dashboard versions into a unified v8: v7b2 (Normative Ethics, 6 subtabs), v7c (Moral Psychology, 5 subtabs + 13 analytics), and v7e (Religious Values, 11 individual tradition subtabs). Used v7b2 as base, cherry-picked v7c's Moral Psychology tab and v7e's Religious Values tab. No conflicts — each version only modified its own tab.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Source versions merged | 3 (v7b2 + v7c + v7e) |
+| Normative Ethics subtabs | 6 (from v7b2: Overview, VE, DE, CU, Beyond Big Three, Bridge) |
+| Moral Psychology subtabs | 5 (from v7c: Overview, Value Frameworks, Reasoning, Dilemmas, Cross-Framework) |
+| Religious Values subtabs | 11 (from v7e: Overview + 10 individual traditions) |
+| New pattern constants added to 5b.py | 18 dicts (CHRISTIANITY_*, JUDAISM_*, BUDDHISM_*, etc.) |
+| Grouped→Individual builders | 3 replaced by 9 + 1 helper (_build_gap_comparison) |
+| New data keys (religious) | 10 individual (christianity, judaism, buddhism, hinduism, shinto, ubuntu, indigenous, otherTraditions) replacing 3 grouped |
+| Cross-tab updates | Intersections (Kohlberg/Trolley), Paper Explorer (Reasoning/Dilemmas) |
+| data.js size | 2,181 KB → core: 1,113 KB (49% reduction) |
+| Religious papers | 142 total across all traditions |
+| Bugs fixed during verify | 1 (KeyError: 'dharmic' in main() print stmt) |
+
+### Key Learnings
+- [Workflows] Large multi-function Python patches are more reliable via purpose-built patch scripts than sequential Edit tool calls — line-index splicing avoids string-matching ambiguity
+- [Data Quality] When restructuring data keys (grouped→individual), ALL consumers must be updated: generator return dict, JS chart configs, AND diagnostic print statements
+- [Data Quality] RELIG_TRAD_PATTERNS and TRADITION_META must stay in sync — adding Shinto as standalone required updates to both, plus removing it from Indigenous pattern
+
+### Files Changed
+- `PYTHON/generate_vault_dashboard_5b.py`: OUTPUT_DIR→v8, +18 pattern dicts, 9 individual tradition builders, Shinto in TRADITION_META/RELIG_TRAD_PATTERNS, restructured `compute_religious_data()` return keys
+- `STATISTICS/cei-dashboard-8/` (NEW): index.html, charts.js, app.js, style.css, split_data.py, data.js, data-core.js, data-detail.js
+
+---
+
 ## Session 112 (Feb 22, 2026) - Dashboard v7c: Moral Psychology Tab Overhaul
 
 ### Overview

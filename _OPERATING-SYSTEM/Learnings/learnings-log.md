@@ -34,6 +34,16 @@
 
 ---
 
+## 2026-02-22 (Session 116)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-22 | Data Quality | **LANG_TO_REGION must use same region names as CULTURE_TO_REGION:** When computing the L4 language–culture alignment radar, `classify_region()` returns short names from CULTURE_TO_REGION (e.g., `"MENA"`), but LANG_TO_REGION initially used long names (`"Middle East & North Africa"`). This caused 0% language coverage for MENA in the radar chart. Fix: align all region names in LANG_TO_REGION to match CULTURE_TO_REGION exactly. |
+| 2026-02-22 | Workflows | **Dashboard enrichment pattern: "fat data, thin client" scales linearly:** Adding 10 new charts required ~230 lines of Python cross-tabulation code, ~90 lines of JS rendering glue, and ~22 lines of HTML containers. Zero new chart helpers needed — every chart reuses `_heatmap`, `_stackedTimeline`, `_groupedBar`, `_treemap`, or `_radar`. Total data payload increase: ~15KB against 2.2MB baseline. |
+| 2026-02-22 | Workflows | **Guard new data keys with `if (C.key)` in JS for backwards compatibility:** Since `data.js` might be regenerated from an older script version (e.g., after a git stash), all new chart rendering calls should check for key existence before calling helpers. This prevents ECharts errors on missing containers and gracefully degrades. |
+
+---
+
 ## 2026-02-22 (Session 115)
 
 | Date | Category | Learning |

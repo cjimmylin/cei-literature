@@ -2,6 +2,40 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 116 (Feb 22, 2026) - Dashboard v8b: Countries & Languages Subtab Enrichment
+
+### Overview
+Enriched the under-served Countries and Languages subtabs in Dashboard v8b with 10 new analytical charts (5 each). Previously each subtab had only a single horizontal bar chart. New charts include timelines, co-occurrence matrices, benchmark gap analysis, ethical framework cross-tabs, language family treemaps, and a language–culture alignment radar. Ported `LANG_TO_FAMILY` (60+ entries, 14 families) from v3 generator and created `LANG_TO_REGION` mapping. Fixed a region name mismatch between CULTURE_TO_REGION ("MENA") and LANG_TO_REGION ("Middle East & North Africa") that caused 0% MENA language coverage in the radar.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| New charts added | 10 (5 Countries, 5 Languages) |
+| Python lines added | ~330 (cross-tabulations + mappings) |
+| JS lines added | ~125 (rendering calls) |
+| HTML lines added | ~22 (chart containers) |
+| Data payload increase | ~15KB (against 2.2MB baseline) |
+| Files modified | 7 (1 Python, 1 HTML, 1 JS, 4 data files) |
+| Bugs caught | 1 (LANG_TO_REGION / CULTURE_TO_REGION name mismatch) |
+
+### New Charts
+**Countries:** C1 Co-Occurrence Matrix, C2 Culture Timeline, C3 Ethics×Culture Heatmap, C4 Benchmark Gap, C5 Venue×Culture Heatmap
+**Languages:** L1 Language Family Treemap, L2 Language Timeline, L3 Benchmark Gap, L4 Language–Culture Radar, L5 Venue×Language Heatmap
+
+### Key Learnings
+- [Data Quality] LANG_TO_REGION region names must exactly match CULTURE_TO_REGION — "MENA" ≠ "Middle East & North Africa" caused silent radar misalignment
+- [Workflows] "Fat data, thin client" architecture scales: 10 new charts require zero new JS helpers, only ~90 lines of glue code
+- [Workflows] Guard new data keys with `if (C.key)` in JS for backwards compatibility with older data.js versions
+
+### Files Changed
+- PYTHON/generate_vault_dashboard_5b.py: +LANG_TO_FAMILY, +LANG_TO_REGION, +classify_lang_family(), +classify_lang_region(), extended compute_cultural_data() with 10 cross-tabs
+- STATISTICS/cei-dashboard-8b/index.html: +10 chart container divs in Countries & Languages subtabs
+- STATISTICS/cei-dashboard-8b/charts.js: extended _initCultural() with 10 new chart rendering calls
+- STATISTICS/cei-dashboard-8b/data.js, data-core.js, data-detail.js: regenerated
+- STATISTICS/cei-dashboard-8/data.js: regenerated (upstream)
+
+---
+
 ## Session 115 (Feb 22, 2026) - Dashboard v8b: Moral Psychology Narrative Expansion
 
 ### Overview

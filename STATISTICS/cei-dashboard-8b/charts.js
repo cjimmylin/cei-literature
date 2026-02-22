@@ -601,8 +601,133 @@ const Charts = {
 
         // Country bar
         this._horizontalBar('chart-cult-country-bar', C.countryDist, { maxItems: 30, color: this._palette.pink });
+
+        // ── C2: Culture Focus Shift Timeline ──
+        if (C.cultureTimeline) {
+            const ct = C.cultureTimeline;
+            const cults = ct.cultures.filter(c => ct.series[c] && ct.series[c].some(v => v > 0));
+            this._stackedTimeline('chart-cult-country-timeline', {
+                years: ct.years, legendType: 'scroll',
+                series: cults.map((c, i) => ({
+                    name: c, type: 'line', data: ct.series[c],
+                    color: this._colors[i % this._colors.length],
+                    stack: 'total', areaStyle: {},
+                })),
+            });
+        }
+
+        // ── C1: Culture Co-Occurrence Matrix ──
+        if (C.coLabels && C.coMatrix) {
+            this._heatmap('chart-cult-country-cooccur', {
+                xLabels: C.coLabels, yLabels: C.coLabels, matrix: C.coMatrix,
+                grid: { left: 100, right: 60, top: 10, bottom: 90 },
+                xRotate: 35, yInverse: true, vmColor: this._palette.orange,
+                tooltipFmt: p => p.value[2] === '-' ? '' :
+                    (p.value[0] === p.value[1]
+                        ? `${C.coLabels[p.value[1]]}: ${p.value[2]} papers`
+                        : `${C.coLabels[p.value[1]]} × ${C.coLabels[p.value[0]]}: ${p.value[2]} co-occurrences`),
+            });
+        }
+
+        // ── C3: Ethical Framework × Culture Heatmap ──
+        if (C.cultureFramework) {
+            const cf = C.cultureFramework;
+            this._heatmap('chart-cult-country-framework', {
+                xLabels: cf.columns, yLabels: cf.cultures, matrix: cf.matrix,
+                grid: { left: 100, right: 60, top: 10, bottom: 50 },
+                yInverse: true, vmColor: this._palette.violet,
+                tooltipFmt: p => p.value[2] === '-' ? '' :
+                    `${cf.cultures[p.value[1]]} × ${cf.columns[p.value[0]]}: ${p.value[2]} papers`,
+            });
+        }
+
+        // ── C4: Benchmark Gap by Culture ──
+        if (C.cultureBenchmark) {
+            const cb = C.cultureBenchmark;
+            this._groupedBar('chart-cult-country-bench', {
+                categories: cb.cultures, xRotate: 30,
+                series: [
+                    { name: 'Benchmark/Eval', data: cb.benchEval, color: this._palette.accent },
+                    { name: 'Conceptual Only', data: cb.conceptual, color: this._palette.slate },
+                ],
+            });
+        }
+
+        // ── C5: Culture × Venue Type Heatmap ──
+        if (C.cultureVenue) {
+            const cv = C.cultureVenue;
+            this._heatmap('chart-cult-country-venue', {
+                xLabels: cv.venues, yLabels: cv.cultures, matrix: cv.matrix,
+                grid: { left: 100, right: 60, top: 10, bottom: 50 },
+                yInverse: true, vmColor: this._palette.teal,
+                tooltipFmt: p => p.value[2] === '-' ? '' :
+                    `${cv.cultures[p.value[1]]} × ${cv.venues[p.value[0]]}: ${p.value[2]} papers`,
+            });
+        }
+
         // Language bar
         this._horizontalBar('chart-cult-lang-bar', C.langDist, { maxItems: 20, gridLeft: 110, color: this._palette.cyan });
+
+        // ── L1: Language Family Treemap ──
+        if (C.langFamilyTreemap) {
+            const lfData = C.langFamilyTreemap.map(f => ({
+                name: f.n, children: f.ch.map(l => ({ name: l.n, value: l.v })),
+            }));
+            this._treemap('chart-cult-lang-family', lfData, { useColors: true });
+        }
+
+        // ── L2: Language Coverage Timeline ──
+        if (C.langTimeline) {
+            const lt = C.langTimeline;
+            const langs = lt.languages.filter(l => lt.series[l] && lt.series[l].some(v => v > 0));
+            this._stackedTimeline('chart-cult-lang-timeline', {
+                years: lt.years, legendType: 'scroll',
+                series: langs.map((l, i) => ({
+                    name: l, type: 'line', data: lt.series[l],
+                    color: this._colors[i % this._colors.length],
+                    stack: 'total', areaStyle: {},
+                    ...(l === 'English' ? { lineStyle: { type: 'dashed' } } : {}),
+                })),
+            });
+        }
+
+        // ── L3: Language Benchmark Gap ──
+        if (C.langBenchmark) {
+            const lb = C.langBenchmark;
+            this._groupedBar('chart-cult-lang-bench', {
+                categories: lb.languages, xRotate: 30,
+                series: [
+                    { name: 'Benchmark/Eval', data: lb.benchEval, color: this._palette.accent },
+                    { name: 'Conceptual Only', data: lb.conceptual, color: this._palette.slate },
+                ],
+            });
+        }
+
+        // ── L4: Language–Culture Alignment Radar ──
+        if (C.langCultureRadar && C.langCultureRadar.regions.length) {
+            const lr = C.langCultureRadar;
+            const maxPct = Math.max(...lr.culturePct, ...lr.langPct, 1);
+            this._radar('chart-cult-lang-radar', {
+                indicators: lr.regions.map(r => ({ name: r, max: Math.ceil(maxPct / 10) * 10 })),
+                series: [
+                    { name: 'Culture Coverage %', values: lr.culturePct, color: this._palette.pink },
+                    { name: 'Language Coverage %', values: lr.langPct, color: this._palette.cyan },
+                ],
+            });
+        }
+
+        // ── L5: Language × Venue Type Heatmap ──
+        if (C.langVenue) {
+            const lv = C.langVenue;
+            this._heatmap('chart-cult-lang-venue', {
+                xLabels: lv.venues, yLabels: lv.languages, matrix: lv.matrix,
+                grid: { left: 100, right: 60, top: 10, bottom: 50 },
+                yInverse: true, vmColor: this._palette.teal,
+                tooltipFmt: p => p.value[2] === '-' ? '' :
+                    `${lv.languages[p.value[1]]} × ${lv.venues[p.value[0]]}: ${p.value[2]} papers`,
+            });
+        }
+
         // WEIRD pie
         const wColors = { WEIRD: this._palette.red, 'Non-WEIRD': this._palette.green, Mixed: this._palette.yellow };
         const wData = Object.entries(C.weird).map(([n, v]) => ({ name: n, value: v, itemStyle: { color: wColors[n] } }));

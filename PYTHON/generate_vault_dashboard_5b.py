@@ -372,6 +372,94 @@ def classify_weird(region):
     return "Non-WEIRD"
 
 
+# ── Language family & region mappings (for Cultural Values enrichment) ────
+LANG_TO_FAMILY = {
+    "English": "Indo-European", "German": "Indo-European", "French": "Indo-European",
+    "Spanish": "Indo-European", "Portuguese": "Indo-European", "Italian": "Indo-European",
+    "Dutch": "Indo-European", "Russian": "Indo-European", "Hindi": "Indo-European",
+    "Urdu": "Indo-European", "Bengali": "Indo-European", "Persian": "Indo-European",
+    "Greek": "Indo-European", "Polish": "Indo-European", "Romanian": "Indo-European",
+    "Swedish": "Indo-European", "Norwegian": "Indo-European", "Danish": "Indo-European",
+    "Czech": "Indo-European", "Marathi": "Indo-European", "Gujarati": "Indo-European",
+    "Nepali": "Indo-European", "Sinhala": "Indo-European", "Pashto": "Indo-European",
+    "Kurdish": "Indo-European", "Ukrainian": "Indo-European",
+    "Chinese": "Sino-Tibetan", "Mandarin": "Sino-Tibetan", "Cantonese": "Sino-Tibetan",
+    "Burmese": "Sino-Tibetan", "Tibetan": "Sino-Tibetan",
+    "Arabic": "Afro-Asiatic", "Hebrew": "Afro-Asiatic", "Amharic": "Afro-Asiatic",
+    "Hausa": "Afro-Asiatic", "Somali": "Afro-Asiatic",
+    "Japanese": "Japonic",
+    "Korean": "Koreanic",
+    "Turkish": "Turkic", "Azerbaijani": "Turkic", "Uzbek": "Turkic", "Kazakh": "Turkic",
+    "Indonesian": "Austronesian", "Malay": "Austronesian", "Filipino": "Austronesian",
+    "Tagalog": "Austronesian", "Javanese": "Austronesian",
+    "Vietnamese": "Austroasiatic", "Khmer": "Austroasiatic",
+    "Thai": "Tai-Kadai", "Lao": "Tai-Kadai",
+    "Swahili": "Niger-Congo", "Yoruba": "Niger-Congo", "Igbo": "Niger-Congo",
+    "Zulu": "Niger-Congo", "Xhosa": "Niger-Congo", "Twi": "Niger-Congo",
+    "Tamil": "Dravidian", "Telugu": "Dravidian", "Kannada": "Dravidian",
+    "Malayalam": "Dravidian",
+    "Finnish": "Uralic", "Hungarian": "Uralic", "Estonian": "Uralic",
+    "Georgian": "Kartvelian",
+}
+
+LANG_TO_REGION = {
+    # Must use same region names as CULTURE_TO_REGION for radar alignment
+    "English": "North America", "French": "Western Europe", "German": "Western Europe",
+    "Spanish": "Latin America", "Portuguese": "Latin America", "Italian": "Western Europe",
+    "Dutch": "Western Europe", "Swedish": "Western Europe", "Norwegian": "Western Europe",
+    "Danish": "Western Europe", "Greek": "Western Europe", "Polish": "Eastern Europe",
+    "Romanian": "Eastern Europe", "Czech": "Eastern Europe", "Ukrainian": "Eastern Europe",
+    "Russian": "Eastern Europe",
+    "Chinese": "East Asia", "Mandarin": "East Asia", "Cantonese": "East Asia",
+    "Japanese": "East Asia", "Korean": "East Asia",
+    "Hindi": "South Asia", "Urdu": "South Asia", "Bengali": "South Asia",
+    "Marathi": "South Asia", "Gujarati": "South Asia", "Nepali": "South Asia",
+    "Sinhala": "South Asia", "Tamil": "South Asia", "Telugu": "South Asia",
+    "Kannada": "South Asia", "Malayalam": "South Asia",
+    "Arabic": "MENA", "Hebrew": "MENA",
+    "Persian": "MENA", "Turkish": "MENA",
+    "Kurdish": "MENA", "Pashto": "MENA",
+    "Indonesian": "Southeast Asia", "Malay": "Southeast Asia", "Filipino": "Southeast Asia",
+    "Tagalog": "Southeast Asia", "Javanese": "Southeast Asia", "Vietnamese": "Southeast Asia",
+    "Khmer": "Southeast Asia", "Thai": "Southeast Asia", "Lao": "Southeast Asia",
+    "Burmese": "Southeast Asia", "Tibetan": "East Asia",
+    "Swahili": "Sub-Saharan Africa", "Yoruba": "Sub-Saharan Africa",
+    "Igbo": "Sub-Saharan Africa", "Zulu": "Sub-Saharan Africa",
+    "Xhosa": "Sub-Saharan Africa", "Twi": "Sub-Saharan Africa",
+    "Hausa": "Sub-Saharan Africa", "Amharic": "Sub-Saharan Africa",
+    "Somali": "Sub-Saharan Africa",
+    "Azerbaijani": "Central Asia", "Uzbek": "Central Asia", "Kazakh": "Central Asia",
+    "Finnish": "Western Europe", "Hungarian": "Eastern Europe", "Estonian": "Eastern Europe",
+    "Georgian": "Eastern Europe",
+}
+
+
+def classify_lang_family(lang):
+    """Map a language name to its language family."""
+    if not lang:
+        return "Other"
+    if lang in LANG_TO_FAMILY:
+        return LANG_TO_FAMILY[lang]
+    lang_lower = lang.lower()
+    for k, v in LANG_TO_FAMILY.items():
+        if k.lower() == lang_lower:
+            return v
+    return "Other"
+
+
+def classify_lang_region(lang):
+    """Map a language name to a geographic region."""
+    if not lang:
+        return "Other"
+    if lang in LANG_TO_REGION:
+        return LANG_TO_REGION[lang]
+    lang_lower = lang.lower()
+    for k, v in LANG_TO_REGION.items():
+        if k.lower() == lang_lower:
+            return v
+    return "Other"
+
+
 # ── Moral Psychology Patterns ─────────────────────────────────────────────
 
 THEORY_PATTERNS = {
@@ -3479,8 +3567,8 @@ def compute_taxonomy_data(candidates, paper_yaml):
     }
 
 
-def compute_cultural_data(paper_yaml):
-    """Compute cultural values tab data."""
+def compute_cultural_data(paper_yaml, papers):
+    """Compute cultural values tab data (v8b: enriched with 10 new analyses)."""
     culture_counter = Counter()
     region_counter = Counter()
     treemap_data = defaultdict(Counter)
@@ -3488,6 +3576,14 @@ def compute_cultural_data(paper_yaml):
     weird_counts = {"WEIRD": 0, "Non-WEIRD": 0, "Mixed": 0}
     lang_counter = Counter()
     paper_count = 0
+
+    # ── NEW: additional trackers for enriched subtabs ──
+    META_REGIONS = {"Multi-Region"}
+    culture_year = defaultdict(Counter)       # C2: culture timeline
+    culture_pairs = Counter()                 # C1: co-occurrence
+    lang_year = defaultdict(Counter)          # L2: language timeline
+    lang_family_tree = defaultdict(Counter)   # L1: language family treemap
+    META_LANGS = {"multilingual", "multiple", "various"}
 
     for fn, fields in paper_yaml.items():
         cultures = fields.get('cultures_nationalities_list', [])
@@ -3503,20 +3599,44 @@ def compute_cultural_data(paper_yaml):
         weird_counts[w] = weird_counts.get(w, 0) + 1
 
         paper_regions = set()
+        specific_cultures = []
         for c in cultures:
             culture_counter[c] += 1
             r = classify_region(c)
             region_counter[r] += 1
             treemap_data[r][c] += 1
             paper_regions.add(r)
+            # Track specific (non-meta) cultures for C1/C2
+            if r not in META_REGIONS:
+                specific_cultures.append(c)
 
         for r in paper_regions:
             if year > 0:
                 region_year[r][year] += 1
 
+        # C2: culture-year cross-tab (specific cultures only)
+        for c in specific_cultures:
+            if year > 0:
+                culture_year[c][year] += 1
+
+        # C1: culture co-occurrence (papers with 2+ specific cultures)
+        uniq_specific = list(dict.fromkeys(specific_cultures))  # dedupe, preserve order
+        if len(uniq_specific) >= 2:
+            for i, a in enumerate(uniq_specific):
+                for b in uniq_specific[i + 1:]:
+                    pair = tuple(sorted([a, b]))
+                    culture_pairs[pair] += 1
+
+        # L1/L2: language tracking
         for lang in fields.get('languages_list', []):
             lang_counter[lang] += 1
+            if lang.lower() not in META_LANGS:
+                family = classify_lang_family(lang)
+                lang_family_tree[family][lang] += 1
+                if year > 0:
+                    lang_year[lang][year] += 1
 
+    # ── Original outputs ──────────────────────────────────────────────
     # Region distribution
     region_dist = [{"n": r, "c": c} for r, c in region_counter.most_common()]
 
@@ -3527,8 +3647,8 @@ def compute_cultural_data(paper_yaml):
 
     # Treemap
     treemap = []
-    for r, cultures in sorted(treemap_data.items()):
-        children = [{"n": c, "v": v} for c, v in cultures.most_common()]
+    for r, cultures_map in sorted(treemap_data.items()):
+        children = [{"n": c, "v": v} for c, v in cultures_map.most_common()]
         treemap.append({"n": r, "ch": children})
 
     # Timeline
@@ -3543,6 +3663,171 @@ def compute_cultural_data(paper_yaml):
     # Language distribution (top 20)
     lang_dist = [{"n": n, "c": c} for n, c in lang_counter.most_common(20)]
 
+    # ── NEW: enriched outputs (v8b) ───────────────────────────────────
+
+    # Build paper lookup for cross-tabs with benchmark/venue/ethics flags
+    paper_lookup = {p['fn']: p for p in papers}
+
+    # --- C1: Culture Co-Occurrence Matrix (15×15 symmetric heatmap) ---
+    # Use top 15 specific cultures (exclude Multi-Region)
+    specific_culture_counter = Counter()
+    for c, count in culture_counter.items():
+        if classify_region(c) not in META_REGIONS:
+            specific_culture_counter[c] = count
+    co_labels = [c for c, _ in specific_culture_counter.most_common(15)]
+    co_idx = {c: i for i, c in enumerate(co_labels)}
+    n_co = len(co_labels)
+    co_matrix = [[0] * n_co for _ in range(n_co)]
+    # Diagonal = culture frequency; off-diagonal = co-occurrence count
+    for c in co_labels:
+        co_matrix[co_idx[c]][co_idx[c]] = specific_culture_counter[c]
+    for (a, b), cnt in culture_pairs.items():
+        if a in co_idx and b in co_idx:
+            co_matrix[co_idx[a]][co_idx[b]] = cnt
+            co_matrix[co_idx[b]][co_idx[a]] = cnt
+
+    # --- C2: Culture Focus Shift Timeline (stacked area, top 10) ---
+    top10_cultures = [c for c, _ in specific_culture_counter.most_common(10)]
+    cult_tl_years = sorted(set(
+        y for cc in culture_year.values() for y in cc.keys() if y >= 2016))
+    culture_timeline = {
+        "years": cult_tl_years,
+        "cultures": top10_cultures,
+        "series": {c: [culture_year[c].get(y, 0) for y in cult_tl_years]
+                   for c in top10_cultures},
+    }
+
+    # --- C3: Ethical Framework × Culture Heatmap ---
+    fw_columns = ["VE", "DE", "CU", "Ethics-Gen", "Non-Ethics"]
+    top12_cultures = [c for c, _ in specific_culture_counter.most_common(12)]
+    fw_matrix = [[0] * len(fw_columns) for _ in range(len(top12_cultures))]
+    for fn, fields in paper_yaml.items():
+        p = paper_lookup.get(fn)
+        if not p:
+            continue
+        cultures_list = fields.get('cultures_nationalities_list', [])
+        for ci, cult in enumerate(top12_cultures):
+            if cult not in cultures_list:
+                continue
+            if p.get('ve'):
+                fw_matrix[ci][0] += 1
+            if p.get('de'):
+                fw_matrix[ci][1] += 1
+            if p.get('ue'):
+                fw_matrix[ci][2] += 1
+            if p.get('eo') and not p.get('ve') and not p.get('de') and not p.get('ue'):
+                fw_matrix[ci][3] += 1  # Ethics-General (ethics=yes but no specific branch)
+            if not p.get('eo'):
+                fw_matrix[ci][4] += 1  # Non-Ethics
+
+    # --- C4: Benchmark Gap by Culture (grouped bar, top 15) ---
+    top15_cultures = [c for c, _ in specific_culture_counter.most_common(15)]
+    cult_bench = {c: 0 for c in top15_cultures}
+    cult_concept = {c: 0 for c in top15_cultures}
+    for fn, fields in paper_yaml.items():
+        p = paper_lookup.get(fn)
+        if not p:
+            continue
+        cultures_list = fields.get('cultures_nationalities_list', [])
+        has_bench = p.get('ib') or p.get('ie')
+        for cult in top15_cultures:
+            if cult in cultures_list:
+                if has_bench:
+                    cult_bench[cult] += 1
+                else:
+                    cult_concept[cult] += 1
+
+    # --- C5: Culture × Venue Type Heatmap ---
+    venue_categories = ["Conference", "Journal", "Preprint", "Workshop", "Findings", "Other"]
+    top12c_venue = top12_cultures  # reuse same top 12
+    cv_matrix = [[0] * len(venue_categories) for _ in range(len(top12c_venue))]
+    vc_idx = {v: i for i, v in enumerate(venue_categories)}
+    for fn, fields in paper_yaml.items():
+        p = paper_lookup.get(fn)
+        if not p:
+            continue
+        vt = p.get('vt', 'Other') or 'Other'
+        if vt not in vc_idx:
+            vt = 'Other'
+        cultures_list = fields.get('cultures_nationalities_list', [])
+        for ci, cult in enumerate(top12c_venue):
+            if cult in cultures_list:
+                cv_matrix[ci][vc_idx[vt]] += 1
+
+    # --- L1: Language Family Treemap ---
+    lang_family_tm = []
+    for family in sorted(lang_family_tree.keys()):
+        children = [{"n": lang, "v": cnt}
+                    for lang, cnt in lang_family_tree[family].most_common()]
+        lang_family_tm.append({"n": family, "ch": children})
+
+    # --- L2: Language Coverage Timeline (top 9: English + 8 non-English) ---
+    lang_rank = lang_counter.most_common()
+    top_non_en = [l for l, _ in lang_rank
+                  if l.lower() not in META_LANGS and l != "English"][:8]
+    tl_langs = (["English"] if "English" in lang_counter else []) + top_non_en
+    lang_tl_years = sorted(set(
+        y for lc in lang_year.values() for y in lc.keys() if y >= 2016))
+    lang_timeline = {
+        "years": lang_tl_years,
+        "languages": tl_langs,
+        "series": {l: [lang_year[l].get(y, 0) for y in lang_tl_years]
+                   for l in tl_langs},
+    }
+
+    # --- L3: Language Benchmark Gap (grouped bar, top 15) ---
+    specific_lang_counter = Counter({l: c for l, c in lang_counter.items()
+                                     if l.lower() not in META_LANGS})
+    top15_langs = [l for l, _ in specific_lang_counter.most_common(15)]
+    lang_bench = {l: 0 for l in top15_langs}
+    lang_concept = {l: 0 for l in top15_langs}
+    for fn, fields in paper_yaml.items():
+        p = paper_lookup.get(fn)
+        if not p:
+            continue
+        langs_list = fields.get('languages_list', [])
+        has_bench = p.get('ib') or p.get('ie')
+        for lang in top15_langs:
+            if lang in langs_list:
+                if has_bench:
+                    lang_bench[lang] += 1
+                else:
+                    lang_concept[lang] += 1
+
+    # --- L4: Language-Culture Alignment Radar ---
+    # Compute coverage % by region for both cultures and languages
+    radar_regions = sorted(set(
+        r for r in region_counter.keys() if r not in META_REGIONS and r != "Other"))
+    total_culture_tags = sum(region_counter[r] for r in radar_regions) or 1
+    culture_pct = [round(region_counter.get(r, 0) / total_culture_tags * 100, 1)
+                   for r in radar_regions]
+    # Language→region counts
+    lang_region_counter = Counter()
+    for fn, fields in paper_yaml.items():
+        for lang in fields.get('languages_list', []):
+            if lang.lower() not in META_LANGS:
+                lr = classify_lang_region(lang)
+                if lr != "Other":
+                    lang_region_counter[lr] += 1
+    total_lang_tags = sum(lang_region_counter[r] for r in radar_regions) or 1
+    lang_pct = [round(lang_region_counter.get(r, 0) / total_lang_tags * 100, 1)
+                for r in radar_regions]
+
+    # --- L5: Language × Venue Type Heatmap ---
+    top12_langs = [l for l, _ in specific_lang_counter.most_common(12)]
+    lv_matrix = [[0] * len(venue_categories) for _ in range(len(top12_langs))]
+    for fn, fields in paper_yaml.items():
+        p = paper_lookup.get(fn)
+        if not p:
+            continue
+        vt = p.get('vt', 'Other') or 'Other'
+        if vt not in vc_idx:
+            vt = 'Other'
+        langs_list = fields.get('languages_list', [])
+        for li, lang in enumerate(top12_langs):
+            if lang in langs_list:
+                lv_matrix[li][vc_idx[vt]] += 1
+
     return {
         "paperCount": paper_count,
         "cultureCount": len(culture_counter),
@@ -3552,6 +3837,42 @@ def compute_cultural_data(paper_yaml):
         "timeline": timeline,
         "weird": weird_counts,
         "langDist": lang_dist,
+        # ── v8b enrichments ──
+        "coLabels": co_labels,
+        "coMatrix": co_matrix,
+        "cultureTimeline": culture_timeline,
+        "cultureFramework": {
+            "cultures": top12_cultures,
+            "columns": fw_columns,
+            "matrix": fw_matrix,
+        },
+        "cultureBenchmark": {
+            "cultures": top15_cultures,
+            "benchEval": [cult_bench[c] for c in top15_cultures],
+            "conceptual": [cult_concept[c] for c in top15_cultures],
+        },
+        "cultureVenue": {
+            "cultures": top12c_venue,
+            "venues": venue_categories,
+            "matrix": cv_matrix,
+        },
+        "langFamilyTreemap": lang_family_tm,
+        "langTimeline": lang_timeline,
+        "langBenchmark": {
+            "languages": top15_langs,
+            "benchEval": [lang_bench[l] for l in top15_langs],
+            "conceptual": [lang_concept[l] for l in top15_langs],
+        },
+        "langCultureRadar": {
+            "regions": radar_regions,
+            "culturePct": culture_pct,
+            "langPct": lang_pct,
+        },
+        "langVenue": {
+            "languages": top12_langs,
+            "venues": venue_categories,
+            "matrix": lv_matrix,
+        },
     }
 
 
@@ -4247,7 +4568,7 @@ def main():
     print(f"  Categories: {len(taxonomy['categories'])}, "
           f"Models: {len(taxonomy['models'])}")
 
-    cultural = compute_cultural_data(paper_yaml)
+    cultural = compute_cultural_data(paper_yaml, papers)
     print(f"  Cultural papers: {cultural['paperCount']}, "
           f"Cultures: {cultural['cultureCount']}")
 

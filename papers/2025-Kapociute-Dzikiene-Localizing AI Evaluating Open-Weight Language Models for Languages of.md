@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Llama-3, Llama-3.1, Llama-3.2, Gemma-2, Phi-3, GPT-3.5-Turbo, GPT
 DATA_URL: "NA"
 tags: 
 abstract: "Although large language models (LLMs) have transformed our expectations of modern language technologies, concerns over data privacy often restrict the use of commercially available LLMs hosted outside of EU jurisdictions. This limits their application in governmental, defence, and other data-sensitive sectors. In this work, we evaluate the extent to which locally deployable open-weight LLMs support lesser-spoken languages such as Lithuanian, Latvian, and Estonian."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Localizing AI: Evaluating Open-Weight Language Models for Languages of Baltic States
 

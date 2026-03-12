@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_BERBERICH2018
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Alignment, Imitation Learning, Value Alignment Problem"
 key_contribution: "Proposes imitation learning from moral exemplars (virtue ethics concept) can solve value alignment problem; argues virtuous AI with temperance would not pose control problem"
 significance: "Early influential work connecting Aristotelian virtue ethics with modern machine learning approaches"
@@ -35,6 +50,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 publication: arXiv
 CONF-CC: "Preprint"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -44,7 +60,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # The Virtuous Machine - Old Ethics for New Technology?
 

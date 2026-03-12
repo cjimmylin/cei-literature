@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "AI Safety & Alignment"
 key_contribution: "Used mechanistic interpretability to identify specific 'moral neurons' and sub-circuits in LLMs responsible for processing dimensions like Care, Fairness, and Sanctity."
 significance: "Moves beyond behavioral analysis to finding the *physical* location of moral reasoning in model weights, opening the door for precise circuit-level editing of moral alignment."
@@ -39,6 +58,7 @@ LLM_assessed: "Gemma-2"
 DATA_URL: "https://github.com/coairesearch/mapping_moral_reasoning.git"
 pdf_extract: "PDF Extracts/2025/2025-Schacht-Mapping Moral Reasoning Circuits.md"
 local_pdf: "[[PDFs/2025/2025-Schacht-Mapping Moral Reasoning Circuits.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Mapping Moral Reasoning Circuits: A Mechanistic Analysis of Ethical Decision-Making in Large Language Models
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Myung-PapersPlease.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Llama, Qwen"
 DATA_URL: "https://github.com/yeonsuuuu28/papers-please"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # PapersPlease: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory
 

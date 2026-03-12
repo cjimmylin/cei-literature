@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ DATA_URL: "https://github.com/AIRI-Institute/geopolitical_llm_bias"
 tags: 
 abstract: "This paper evaluates geopolitical biases in LLMs with respect to various countries though an analysis of their interpretation of historical events with conflicting national perspectives (USA, UK, USSR, and China). We introduce a novel dataset with neutral event descriptions and contrasting viewpoints from different countries. Our findings show significant geopolitical biases, with models favoring specific national narratives."
 ethics_perspective: "Bias & Fairness"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Geopolitical biases in LLMs: what are the 'good' and the 'bad' countries according to contemporary language models
 

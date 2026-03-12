@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Addresses how digital colonialism poses a significant threat to Indigenous communities in the age of rapid AI advancement. Presents Indigenous data sovereignty as a powerful framework for resisting digital colonialism and promoting ethical AI development. Discusses OCAP principles and CARE framework as cornerstones of indigenous data governance for AI."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Indigenous Data Sovereignty: A Catalyst for Ethical AI in Business
 

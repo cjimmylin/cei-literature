@@ -7,6 +7,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +55,7 @@ LLM_assessed: "ChatGPT, GPT-4o, Qwen, Qwen 2.5"
 DATA_URL: "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B"
 tags: 
 abstract: "I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun Oh KAIST
 

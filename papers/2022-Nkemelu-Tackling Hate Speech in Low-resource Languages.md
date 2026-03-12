@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Given Myanmar’s historical and socio-political context, hate speech spread on social media have escalated into offline unrest and violence. This paper presents findings from our remote study on the automatic detection of hate speech online in Myanmar. We argue that effectively addressing this problem will require community-based approaches that combine the knowledge of context experts with machine learning tools that can analyze the vast amount of data produced."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Tackling Hate Speech in Low-resource Languages with Context Experts
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Despite the remarkable advances of Large Language Models (LLMs) across diverse cognitive tasks, the rapid enhancement of these capabilities also introduces emergent deception behaviors that may induce severe risks in high-stakes deployments. More critically, the characterization of deception across realistic real-world scenarios remains underexplored. To bridge this gap, we establish DeceptionBench, the first benchmark that systematically evaluates how deceptive tendencies manifest across..."
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Grok, DeepSeek, Qwen"
 DATA_URL: "https://github.com/Aries-iai/DeceptionBench"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "1,000 samples; over 1,000 samples"
-CONFERENCE: "Preprint"
 ---
 # DeceptionBench: A Comprehensive Benchmark for AI Deception Behaviors in Real-world Scenarios
 

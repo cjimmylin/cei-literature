@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "Semantic Textual Similarity measures the degree of equivalence between the two texts and is important in many Natural Language Processing tasks. While extensive resources have been developed for high-resource languages, unfortunately, low-resource languages, for example, Kurdish, have been neglected. In this paper, the first STS dataset for Kurdish has been introduced, which aims to alleviate this gap. This dataset contains 10,000 formal and informal sentence pairs annotated for similarity."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # KurdSTS: The Kurdish Semantic Textual Similarity
 

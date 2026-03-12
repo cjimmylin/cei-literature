@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +41,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Huang-Moral Persuasion in Large Language Models.md"
@@ -39,6 +54,7 @@ LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://github.com/acyhuang/moral-persuasion"
 normative_ethics_benchmark: Borderline
 ethics_perspective: "General Ethics"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Moral Persuasion in Large Language Models
 

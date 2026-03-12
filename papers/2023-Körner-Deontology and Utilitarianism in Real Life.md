@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Introduces a set of moral dilemmas based on real-life historic events to test deontology vs utilitarianism in a realistic setting"
 significance: "Shows that 'factual' dilemmas are perceived as more realistic/less absurd than standard trolley problems, improving validity of moral cognition research"
@@ -39,6 +54,7 @@ CONF-CC: "Personality and Social Psychology Bulletin"
 DATE_ADDED: 20260208
 LLM_assessed: "Bartels"
 DATA_URL: "https://osf.io/cg5tq"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -48,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Deontology and Utilitarianism in Real Life: A Set of Moral Dilemmas Based on Historic Events
 

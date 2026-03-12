@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/amandacurry/convabuse"
+CONFERENCE: "EMNLP 2021"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -46,7 +62,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2021"
 ---
  ConvAbuse: Data, Analysis, and Benchmarks for Nuanced Abuse Detection in Conversational AI
 

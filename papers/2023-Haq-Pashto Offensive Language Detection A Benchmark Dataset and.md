@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, GloVe, RoBERTa, Word2Vec"
 DATA_URL: "https://zenodo.org/record/8195797"
 tags: 
 abstract: "Social media platforms have become inundated with offensive language. This issue must be addressed for the growth of online social networks (OSNs) and a healthy online environment. While significant research has been devoted to identifying toxic content in major languages like English, this remains an open area of research in the low-resource Pashto language. This study aims to develop an AI model for the automatic detection of offensive textual content in Pashto."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT
 

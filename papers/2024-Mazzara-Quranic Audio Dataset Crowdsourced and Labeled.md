@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "This paper addresses the challenge of learning to recite the Quran for non-Arabic speakers. We explore the possibility of crowdsourcing a carefully annotated Quranic dataset, on top of which AI models can be built to simplify the learning process. In particular, we use the volunteer-based crowdsourcing genre and implement a crowdsourcing API to gather audio assets. We integrated the API into an existing mobile application called NamazApp to collect audio recitations."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Quranic Audio Dataset: Crowdsourced and Labeled Recitation from Non-Arabic Speakers
 

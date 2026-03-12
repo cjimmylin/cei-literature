@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "We evaluated the performance of a large language model called ChatGPT on the United States Medical Licensing Exam (USMLE), which consists of three exams: Step 1, Step 2CK, and Step 3. ChatGPT performed at or near the passing threshold for all three exams without any specialized training or reinforcement. Additionally, ChatGPT demonstrated a high level of concordance and insight in its explanations. These results suggest that large language models may have the potential to assist with medical..."
 LLM_assessed: "ChatGPT, GPT3"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # The Use of Large Language Models for Translating Buddhist Texts from Classical Chinese to Modern English: An Analysis and Evaluation with ChatGPT 4, ERNIE Bot 4, and Gemini Advanced
 

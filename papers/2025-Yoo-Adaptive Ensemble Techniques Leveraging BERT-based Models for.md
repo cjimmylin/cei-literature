@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BART, BERT, DistilBERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Adaptive ensemble techniques for hate speech detection in Korean and English using BERT-based models. Addresses multilingual hate speech detection with Korean-specific considerations."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Adaptive Ensemble Techniques Leveraging BERT-based Models for Multilingual Hate Speech Detection in Korean and English
 

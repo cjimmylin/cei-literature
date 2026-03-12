@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "Content moderation systems powered by large language models (LLMs) are increasingly deployed to detect hate speech; however, no systematic comparison exists between different systems. If different systems produce different outcomes for the same content, it undermines consistency and predictability, leading to moderation decisions that appear arbitrary or unfair. Analyzing seven leading models—dedicated Moderation Endpoints (OpenAI, Mistral), frontier LLMs (Claude 3."
 LLM_assessed: "ChatGPT, Claude, Claude 3.5, GPT-4o, MISTRAL LARGE, Mistral"
 DATA_URL: "NA"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Inconsistencies in Hate Speech Detection Across LLM-Generated Datasets
 

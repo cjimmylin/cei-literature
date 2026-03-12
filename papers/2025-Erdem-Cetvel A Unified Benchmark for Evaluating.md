@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "We introduce CETVEL, a comprehensive benchmark designed to evaluate large language models (LLMs) in Turkish. Existing Turkish benchmarks often lack either task diversity or culturally relevant content, or both. CETVEL addresses these gaps by combining a broad range of both discriminative and generative tasks ensuring content that reflects the linguistic and cultural richness of Turkish language. CETVEL covers 23 tasks grouped into seven categories, including tasks such as grammatical error..."
 LLM_assessed: "ALBERT, BERT, Llama, LLaMA 3, Llama-3, Llama-3.1, Llama-3.2, Llama-3.3, Llama3, Mistral, Mistral-7B, Mistral-v0, Mixtral, Qwen, Qwen 2.5, Qwen2, Qwen2.5, RoBERTa, T5, T5 17"
 DATA_URL: "https://huggingface.co/spaces/KUIS-AI/Cetvel"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "7 categories"
-CONFERENCE: "Preprint"
 ---
 # Cetvel: A Unified Benchmark for Evaluating Language Understanding, Generation and Cultural Capacity of LLMs for Turkish
 

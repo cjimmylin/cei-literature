@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ tags:
 abstract: "Online antisemitism is hard to quantify. How can it be measured in rapidly growing and diversifying platforms? Are the numbers of antisemitic messages rising proportionally to other content or is it the case that the share of antisemitic content is increasing? How does such content travel and what are reactions to it? How widespread is online Jew-hatred beyond infamous websites and fora, and closed social media groups?"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Annotating Antisemitic Online Content: Towards an Applicable Definition of Antisemitism
 

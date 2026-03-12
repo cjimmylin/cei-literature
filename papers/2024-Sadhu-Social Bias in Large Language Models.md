@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "The rapid growth of Large Language Models (LLMs) has put forward the study of biases as a crucial field. It is important to assess the influence of different types of biases embedded in LLMs to ensure fair use in sensitive fields. Although there have been extensive works on bias assessment in English, such efforts are rare and scarce for a major language like Bangla. In this work, we examine two types of social biases in LLM generated outputs for Bangla language."
 LLM_assessed: "BERT, Claude-3.5, Claude-3.5-Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4o, Llama, Llama-2, Llama-3, Llama3, Mistral-7B"
 DATA_URL: "Publicly available (code and resources)"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Social Bias in Large Language Models for Bangla: An Empirical Study on Gender and Religious Bias
 

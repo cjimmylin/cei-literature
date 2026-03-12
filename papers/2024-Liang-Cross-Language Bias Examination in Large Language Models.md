@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: GPT-4
 DATA_URL: "NA"
 tags: 
 abstract: "This study introduces an innovative multilingual bias evaluation framework for assessing bias in Large Language Models, combining explicit bias assessment through the BBQ benchmark with implicit bias measurement using a prompt-based Implicit Association Test. By translating the prompts and word list into five target languages — English, Chinese, Arabic, French, and Spanish — we were able to directly compare different types of bias across languages."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "5 languages"
-CONFERENCE: "Preprint"
 ---
 # Cross-Language Bias Examination in Large Language Models
 

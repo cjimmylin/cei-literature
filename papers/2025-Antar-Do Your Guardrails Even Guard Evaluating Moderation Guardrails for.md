@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Ensuring that large language models (LLMs) align with human values and goals is crucial for their adoption in highstakes decision-making. To guard against incorrect, misleading, or otherwise unexpected or undesirable LLM outputs, guardrail engineers implement guardrails based on expert knowledge from subject-matter authorities to steer and align pre-trained LLMs. Existing evaluation methods assess LLM performance, with and without guardrails, but provide limited insight into the contribution of..."
 LLM_assessed: "ChatGPT, Claude, GPT-4, GPT-4o, Llama, Llama Guard, PaLM, T5"
 DATA_URL: "NA"
+CONFERENCE: "AIES 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "AIES 2025"
 ---
 # "Do Your Guardrails Even Guard?" Evaluating Moderation Guardrails for LLM Alignment
 

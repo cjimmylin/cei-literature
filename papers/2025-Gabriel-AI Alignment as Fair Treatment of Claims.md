@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.md"
@@ -39,6 +58,7 @@ DATE_ADDED: 20260208
 research_topic: "AI Alignment & Fairness"
 LLM_assessed: "Claude, GPT-4"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # AI Alignment as Fair Treatment of Claims
 

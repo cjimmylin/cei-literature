@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Efﬁciently and accurately translating a corpus into a low-resource language remains a challenge, regardless of the strategies employed, whether manual, automated, or a combination of the two. Many Christian organizations are dedicated to the task of translating the Holy Bible into languages that lack a modern translation. Bible translation (BT) work is currently underway for over 3000 extremely low resource languages."
 LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/datasets/bible-nlp/biblenlp-corpus / https://github.com/BibleNLP/ebible"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # The eBible Corpus: Data and Model Benchmarks for Bible Translation for Low-Resource Languages
 

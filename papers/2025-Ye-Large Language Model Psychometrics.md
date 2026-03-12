@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Ye-Large Language Model Psychometrics.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/valuebyte-ai/Awesome-LLM-Psychometrics"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Large Language Model Psychometrics: A Systematic Review of Evaluation, Validation, and Enhancement
 

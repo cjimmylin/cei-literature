@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers. BERT baseline achieves MCC 0.32, F2-score 0.64. Publicly available for German hate speech research."
 authors_incomplete: false
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # HOCON34k: A Corpus of Hate Speech in Online Comments from German Newspapers
 

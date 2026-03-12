@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ DATA_URL: "https://github.com/cophi-wue/German_HateSpeech_Corpus"
 tags: 
 abstract: "We provide a German corpus consisting of 7,061 posts authored by users of social media platforms. A group of volunteers annotated each post according to hatespeech and misogynistic/misogynous hatespeech in a binary fashion. The interrater reliability over all annotators according to Fleiss’ Kappa is 0.6409 for hatespeech and 0.8258 for misogynistic hatespeech. Furthermore, baseline measurements with machine learning based text classification with BERT are presented."
 research_topic: "Machine Learning"
+CONFERENCE: "AAAI 2021"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "2,871 instances"
-CONFERENCE: "AAAI 2021"
 ---
 # German HateSpeech Corpus
 

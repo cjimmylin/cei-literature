@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "How could LLMs influence our democracy? We investigate LLMs’ political leanings and the potential influence of LLMs on voters by conducting multiple experiments in a U.S. presidential election context. Through a voting simulation, we first demonstrate 18 openand closed-weight LLMs’ political preference for a Democratic nominee over a Republican nominee. We show how this leaning towards the Democratic nominee becomes more pronounced in instruction-tuned models compared to their base versions by..."
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Llama-2, Mixtral, Alpaca, Vicuna, Qwen"
 DATA_URL: "NA"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Southeast Asia (SEA) is a region characterized by rich linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, the performance of contemporary AI models for SEA languages is compromised by a significant lack of representation of texts, images, and auditory datasets from SEA. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the predominance of English training..."
 LLM_assessed: "ALBERT, BLOOMZ, Bloom, Command-R, Deberta, Falcon 0, Falcon 7B, GPT-4, Gemma, LLaMa3, Llama, Llama-3, Llama2, Llama3., Llama39, Mistral, Mistral 0.159 Llama3, Mistral 7B, Mistral-7B, BERT, flan-t5-xl, t5-xl"
 DATA_URL: "https://huggingface.co/SEACrowd"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "36 languages"
-CONFERENCE: "EMNLP 2024"
 ---
 # SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages
 

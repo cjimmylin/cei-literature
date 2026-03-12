@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Large language models (LLMs) are increasingly being used for tasks where outputs shape human decisions, so it is critical to verify that their responses consistently reflect desired human values. Humans, as individuals or groups, don’t agree on a universal set of values, which makes evaluating value alignment difficult. Existing benchmarks often use hypothetical or commonsensical situations, which don’t capture the complexity and ambiguity of real-life debates."
 LLM_assessed: "Claude, GPT-4, GPT-3.5, GPT-4, Llama-2, Llama-3, Llama, Qwen, Mistral, DeepSeek, Gemma"
 DATA_URL: "https://github.com/val-bench/VAL-Bench"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # VAL-Bench: Belief Consistency as a Measure for Value Alignment
 

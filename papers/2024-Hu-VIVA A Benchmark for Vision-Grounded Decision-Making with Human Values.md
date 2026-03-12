@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Large vision language models (VLMs) have demonstrated significant potential for integration into daily life, making it crucial for them to incorporate human values when making decisions in real-world situations. This paper introduces VIVA, a benchmark for VIsiongrounded decision-making driven by human VAlues. While most large VLMs focus on physical-level skills, our work is the first to examine their multimodal capabilities in leveraging human values to make decisions under a vision-depicted..."
 LLM_assessed: "GPT-4, Claude"
 DATA_URL: "https://github.com/Derekkk/VIVA_EMNLP24"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values
 

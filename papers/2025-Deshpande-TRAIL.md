@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2025/2025-Deshpande-TRAIL.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, o1, o3, Claude, Gemini, Llama"
 DATA_URL: "https://huggingface.co/datasets/PatronusAI/TRAIL"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # TRAIL: Trace Reasoning and Agentic Issue Localization
 

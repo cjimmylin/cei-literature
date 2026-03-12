@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "The rapid progress in Large Language Models (LLMs) poses potential ri
 LLM_assessed: "GPT-4, GPT-2, Phi, Mistral, Llama-2, Alpaca"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # CLAVE / ValEval
 

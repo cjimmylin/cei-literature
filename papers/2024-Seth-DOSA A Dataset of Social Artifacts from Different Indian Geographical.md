@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4, Llama-2, PaLM-2, Falcon"
 DATA_URL: "NA"
 tags: 
 abstract: "Generative models are increasingly being used in various applications, such as text generation, commonsense reasoning, and question-answering. To be effective globally, these models must be aware of and account for local socio-cultural contexts, making it necessary to have benchmarks to evaluate the models for their cultural familiarity. Since the training data for LLMs is web-based and the Web is limited in its representation of information, it does not capture knowledge present within..."
+CONFERENCE: "LREC-COLING 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "LREC-COLING 2024"
 ---
 # DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures
 

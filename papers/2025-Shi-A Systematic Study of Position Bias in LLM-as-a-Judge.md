@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Claude, Claude-3, Claude-3-Haiku, Claude-3-Opus, Claude-3-Sonnet,
 DATA_URL: "NA"
 tags: 
 abstract: "LLM-as-a-Judge has emerged as a promising alternative to human evaluators across various tasks, yet inherent biases—particularly position bias, the tendency to favor solutions based on their position within the prompt—compromise its reliability. This exploratory study evaluates position bias in LLM judges across pairwise and list-wise comparison settings, introducing three metrics: repetition stability, position consistency, and preference fairness."
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # A Systematic Study of Position Bias in LLM-as-a-Judge
 

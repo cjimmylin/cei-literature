@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ abstract: "The data article presents the large bilingual parallel corpus of lowâ
 LLM_assessed: "NA"
 DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "1.5m sentence"
-CONFERENCE: "Preprint"
 ---
 # SAHAAYAK 2023: The Multi-Domain Bilingual Parallel Corpus of Sanskrit to Hindi for Machine Translation
 

@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ abstract: "As Large Language Models (LLMs) increasingly influence high-stakes de
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, GPT-3.5, Claude, Llama-3, Llama-2, Mistral, Mixtral, Qwen, DeepSeek"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Cross-cultural value alignment frameworks for responsible AI governance: Evidence from China-West comparative analysis
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2023/2023-Cao-Assessing Cross-Cultural Alignment between.pdf]
 DATE_ADDED: 20260208
 LLM_assessed: ChatGPT
 DATA_URL: "https://github.com/yongcaoplus/ProbingChatGPT"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study
 

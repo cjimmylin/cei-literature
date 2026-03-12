@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, BLOOM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, Llama-2
 DATA_URL: "https://github.com/HAE-RAE/HAE-RAE-BENCH"
 tags: 
 abstract: "Large language models (LLMs) trained on massive corpora demonstrate impressive capabilities in a wide range of tasks. While there are ongoing efforts to adapt these models to languages beyond English, the attention given to their evaluation methodologies remains limited. Current multilingual benchmarks often rely on back translations or re-implementations of English tests, limiting their capacity to capture unique cultural and linguistic nuances."
+CONFERENCE: "LREC-COLING 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "1.5k questions"
-CONFERENCE: "LREC-COLING 2024"
 ---
 # HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models
 

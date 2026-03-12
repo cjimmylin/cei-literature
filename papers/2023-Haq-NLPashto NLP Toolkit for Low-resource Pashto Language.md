@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://github.com/dr-ijaz/nlpashto"
 tags: 
 abstract: "In recent years, natural language processing (NLP) has transformed numerous domains, becoming a vital area of research. However, the focus of NLP studies has predominantly centered on major languages like English, inadvertently neglecting low-resource languages like Pashto. Pashto, spoken by a population of over 50 million worldwide, remains largely unexplored in NLP research, lacking off-the-shelf resources and tools even for fundamental text-processing tasks."
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # NLPashto: NLP Toolkit for Low-resource Pashto Language
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ CONF-CC: "International Symposium on Software Testing and Analysis"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Vicuna, Llama"
 DATA_URL: "https://github.com/facebookresearch/llama"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # DistillSeq: A Framework for Safety Alignment Testing in Large Language Models using Knowledge Distillation
 

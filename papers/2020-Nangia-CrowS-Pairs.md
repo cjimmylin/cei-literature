@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,9 @@ publication: "EMNLP 2020"
 CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260207
 research_topic: "Machine Learning"
+CONFERENCE: "EMNLP 2020"
+eleutherai: incorporated
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +72,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2020"
 ---
 # CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models
 

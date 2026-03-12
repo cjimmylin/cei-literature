@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "European Conference on Artificial Intelligence"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Llama-3, Phi, Qwen"
 DATA_URL: "https://github.com/alessioGalatolo/AMAeval"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Beyond Ethical Alignment: Evaluating LLMs as Artificial Moral Assistants
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +45,7 @@ cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Indonesian, Value Pluralism / Schwartz, Toxicity & Hate Speech"
 key_contribution: "Developed a multi-label classification framework for hate speech detection on Indonesian Twitter, identifying target, category, and level of offensiveness."
 significance: "Addresses the lack of safety resources for low-resource languages (Indonesian), enabling more nuanced content moderation that distinguishes between different types and severities of hate."
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection"
 pdf_extract: "PDF Extracts/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md"
 local_pdf: "[[PDFs/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Multi-label Hate Speech and Abusive Language Detection in Indonesian Twitter
 

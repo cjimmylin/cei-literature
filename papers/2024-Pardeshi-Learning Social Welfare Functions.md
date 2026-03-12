@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Learning Social Welfare Functions
 

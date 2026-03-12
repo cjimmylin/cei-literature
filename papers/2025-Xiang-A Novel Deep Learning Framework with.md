@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Framework for hate speech detection in accented and low-resource Malayalam speech using balanced learning, multi-level validation, and robustness evaluation. Establishes transferable framework for multilingual content moderation. Malayalam speech-based hate speech detection. Addresses accent-specific challenges in content moderation relevant to cultural values enforcement."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # A Novel Deep Learning Framework with Advanced Feature Engineering for Hate Speech Detection in Accented Malayalam Speech
 

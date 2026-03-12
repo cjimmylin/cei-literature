@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Rapid developments of large language models have revolutionized many NLP tasks for English data. Unfortunately, the models and their evaluations for low-resource languages are being overlooked, especially for languages in South Asia. Although there are more than 650 languages in South Asia, many of them either have very limited computational resources or are missing from existing language models. Thus, a concrete question to be answered is: Can we assess the current stage and challenges to..."
 LLM_assessed: "BERT, GPT-4o"
 DATA_URL: "https://github.com/trust-nlp/LM4SouthAsia-Survey"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # Bhaasha, Bhasa, Zaban: A Survey for Low-Resourced Languages in South Asia -- Current Stage and Challenges
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2024/2024-Gupta-Improving Model Evaluation using SMART Filter
 DATE_ADDED: 20260208
 LLM_assessed: "Qwen, Llama-3, Gemma, Phi, Mixtral"
 DATA_URL: "NA"
+CONFERENCE: "NAACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2024"
 ---
 # Improving Model Evaluation using SMART Filtering of Benchmark Datasets
 

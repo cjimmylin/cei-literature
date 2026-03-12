@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "ChatGPT, GPT-4, PaLM-2, Vicuna"
 DATA_URL: "https://github.com/verazuo/jailbreak_llms"
 pdf_extract: "PDF Extracts/2023/2023-Shen-'Do Anything Now'.md"
 local_pdf: "[[PDFs/2023/2023-Shen-“Do Anything Now”.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "107,250 samples"
-CONFERENCE: "Journal"
 ---
 # “Do Anything Now”: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models
 

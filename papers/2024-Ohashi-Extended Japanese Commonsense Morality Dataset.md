@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "International Conference on Information and Knowledge Management"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, ChatGPT, GPT-4"
 DATA_URL: "https://github.com/IyatomiLab/extended-jcm"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Extended Japanese Commonsense Morality Dataset with Masked Token and Label Enhancement
 

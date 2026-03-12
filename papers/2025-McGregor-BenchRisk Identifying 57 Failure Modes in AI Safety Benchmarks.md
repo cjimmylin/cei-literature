@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Large language model (LLM) benchmarks inform LLM use decisions (e.g., “is this LLM safe to deploy for my use case and context?”). However, benchmarks may be rendered unreliable by various failure modes that impact benchmark bias, variance, coverage, or people’s capacity to understand benchmark evidence. Using the National Institute of Standards and Technology’s risk management process as a foundation, this research iteratively analyzed 26 popular benchmarks, identifying 57 potential failure..."
 LLM_assessed: "o3"
 DATA_URL: "https://github.com/BenchRisk"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.)
 

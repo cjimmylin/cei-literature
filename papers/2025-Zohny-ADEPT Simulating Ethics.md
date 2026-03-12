@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "o3, Gemini"
 DATA_URL: "https://github.com/hazemzohny/ADEPT/"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -47,7 +63,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  Simulating Ethics: Using LLM Debate Panels to Model Deliberation on Medical Dilemmas
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4o, GPT-4-turbo, GPT-3.5-turbo, Llama-2-7B, Llama-2-13B, Llam
 DATA_URL: "https://github.com/PlusLabNLP/SafeWorld"
 tags: 
 abstract: "Content Warning: This paper may contain examples of harmful contents by nature. In the rapidly evolving field of Large Language Models (LLMs), ensuring safety is a crucial and widely discussed topic. However, existing works often overlook the geodiversity of cultural and legal standards across the world. To demonstrate the challenges posed by geo-diverse safety standards, we introduce SAFEWORLD, a novel benchmark specifically designed to evaluate LLMs’ ability to generate responses that are not..."
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # SafeWorld: Geo-Diverse Safety Alignment
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-4"
 DATA_URL: "https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard"
 tags: 
 abstract: "This paper introduces the Open Ko-LLM Leaderboard1 and the Ko-H5 Benchmark as vital tools for evaluating Large Language Models (LLMs) in Korean. Incorporating private test sets while mirroring the English Open LLM Leaderboard, we establish a robust evaluation framework that has been well integrated in the Korean LLM community. We perform data leakage analysis that shows the benefit of private test sets along with a correlation study within the Ko-H5 benchmark and temporal analyses of the Ko-H5..."
+CONFERENCE: "ACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark
 

@@ -8,6 +8,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +57,7 @@ LLM_assessed: "BERT, GPT-3"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.md"
 local_pdf: "[[PDFs/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Metaethical perspectives on ‘benchmarking’ AI ethics
 

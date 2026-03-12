@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Can simulate historical characters"
@@ -26,7 +45,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: Christianity
 religious_values_list: Christianity
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "American, Virtue Ethics"
 key_contribution: "Introduces 'Character-LLM', a trainable agent framework that edits profiles as experiences to simulate specific human characters (simulacra)"
 significance: "Enables the detailed simulation of specific personal avatars with consistent profiles and emotional states, relevant for character-based AI interactions"
@@ -37,6 +56,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama, ChatGPT, Alpaca, Vicuna"
 DATA_URL: "https://github.com/choosewhatulike/trainable-agents"
+CONFERENCE: "EMNLP 2023"
 ethics_overall: "No"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2023"
 ---
  Character-LLM: A Trainable Agent for Role-Playing
 

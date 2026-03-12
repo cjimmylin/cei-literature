@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "A distinct feature of Hindu religious and philosophical text is that they come from a library of texts rather than single source. The Upanishads is known as one of the oldest philosophical texts in the world that forms the foundation of Hindu philosophy. The Bhagavad Gita is core text of Hindu philosophy and is known as a text that summarises the key philosophies of the Upanishads with major focus on the philosophy of karma."
 LLM_assessed: "ALBERT, BERT, GloVe, word2vec"
 DATA_URL: "https://github.com/sydney-machine-learning/topicmodelling_vedictexts"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Artificial Intelligence for Topic Modelling in Hindu Philosophy: Mapping Themes between the Upanishads and the Bhagavad Gita
 

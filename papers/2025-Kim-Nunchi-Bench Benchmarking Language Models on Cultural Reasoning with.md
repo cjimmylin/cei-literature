@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "HyperCLOVA-X, GPT-3.5-Turbo, Gemini-1.5-Pro, Claude-3-Opus, Claud
 DATA_URL: "https://github.com/koreankiwi99/Nunchi-Bench"
 tags: 
 abstract: "As large language models (LLMs) become key advisors in various domains, their cultural sensitivity and reasoning skills are crucial in multicultural environments. We introduce Nunchi-Bench, a benchmark designed to evaluate LLMs’ cultural understanding, with a focus on Korean superstitions. The benchmark consists of 247 questions spanning 31 topics, assessing factual knowledge, culturally appropriate advice, and situational interpretation."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "247 questions"
-CONFERENCE: "ACL 2025"
 ---
 # Nunchi-Bench: Benchmarking Language Models on Cultural Reasoning with a Focus on Korean Superstition
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Investigates ethical challenges of AI deployment in Vietnam under authoritarian governance. Uses qualitative methods including policy documents, interviews with policymakers and citizens, social media analysis, and case studies of facial recognition in Hanoi and AI in public health. Examines how Vietnam's centralized governance enables swift AI adoption but falters in ethical flexibility."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Artificial intelligence ethics in authoritarian Vietnam: governance, trust, and societal tensions
 

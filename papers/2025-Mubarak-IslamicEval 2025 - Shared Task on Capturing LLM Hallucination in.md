@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ tags:
 abstract: "Hallucination in Large Language Models (LLMs) remains a significant challenge and continues to draw substantial research attention. The problem becomes especially critical when hallucinations arise in sensitive domains, such as religious discourse. To address this gap, we introduce IslamicEval 2025—the first shared task specifically focused on evaluating and detecting hallucinations in Islamic content."
 LLM_assessed: "Llama-3, Qwen, Gemma"
 DATA_URL: "https://www.codabench.org/competitions/9820/"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content
 

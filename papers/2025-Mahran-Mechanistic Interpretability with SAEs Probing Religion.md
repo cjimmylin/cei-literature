@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Despite growing research on bias in large language models (LLMs), most work has focused on gender and race, with little attention to religious identity. This paper explores how religion is internally represented in LLMs and how it intersects with concepts of violence and geography. Using mechanistic interpretability and Sparse Autoencoders (SAEs) via the Neuronpedia API, we analyze latent feature activations across five models."
 LLM_assessed: "GPT-4, GPT2, Gemma, Gemma-2, Llama, Llama3.1"
 DATA_URL: "Uses Neuronpedia API"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Mechanistic Interpretability with SAEs: Probing Religion, Violence, and Geography in Large Language Models
 

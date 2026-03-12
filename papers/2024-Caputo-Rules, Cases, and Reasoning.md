@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2024/2024-Caputo-Rules, Cases, and Reasoning.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Rules, Cases, and Reasoning: Positivist Legal Theory as a Framework for Pluralistic AI Alignment
 

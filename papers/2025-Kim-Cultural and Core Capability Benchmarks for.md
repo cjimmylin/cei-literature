@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "Llama-3, Qwen, GPT-4, GPT-3.5, Claude, Gemini"
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
 pdf_extract: "PDF Extracts/2025/2025-Kim-Cultural and Core Capability Benchmarks for.md"
 local_pdf: "[[PDFs/2025/2025-Kim-Cultural and Core Capability Benchmarks for.pdf]]"
+CONFERENCE: "COLING 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "COLING 2025"
 ---
 # Cultural and Core Capability Benchmarks for Developing Thai LLMs (ThaiCLI)
 

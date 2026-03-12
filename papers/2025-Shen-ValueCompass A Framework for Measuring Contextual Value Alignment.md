@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "As AI advances, aligning it with diverse human and societal values grows critical. But how do we define these values and measure AI’s adherence to them? We present ValueCompass, a framework grounded in psychological theories, to assess human-AI alignment. Applying it to five diverse LLMs and 112 humans from seven countries across four scenarios—collaborative writing, education, public sectors, and healthcare—we uncover key misalignments."
 LLM_assessed: "GPT-4, Gemini, Llama-3, Gemma, DeepSeek, o3"
 DATA_URL: "https://github.com/huashen218/value_action_gap"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs
 

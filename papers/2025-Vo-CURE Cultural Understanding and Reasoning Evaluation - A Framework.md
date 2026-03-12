@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4o, GPT-4.1, Claude-Sonnet-3.7, Claude-Sonnet-4, Claude-Opus-
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in culturally diverse environments, yet existing evaluations of cultural competence remain limited. Existing methods focus on de-contextualized correctness or forced-choice judgments, overlooking the need for cultural understanding and reasoning required for appropriate responses. To address this gap, we introduce a set of benchmarks that, instead of directly probing abstract norms or isolated statements, present models with realistic..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # CURE: Cultural Understanding and Reasoning Evaluation - A Framework for Thick Culture Alignment Evaluation in LLMs
 

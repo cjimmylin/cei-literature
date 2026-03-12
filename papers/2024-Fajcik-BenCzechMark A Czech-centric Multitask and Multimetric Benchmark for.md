@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ALBERT, BERT, ChatGPT, Command-R, GPT-2, Gemma 2, Gemma-2, Gemma2
 DATA_URL: "https://huggingface.co/BUT-FIT/CSTinyLlama-1.2B"
 tags: 
 abstract: "We present BenCzechMark (BCM), the first comprehensive Czech language benchmark designed for large language models, offering diverse tasks, multiple task formats, and multiple evaluation metrics. Its duel scoring system is grounded in statistical significance theory and uses aggregation across tasks inspired by social preference theory. Our benchmark encompasses 50 challenging tasks, with corresponding test datasets, primarily in native Czech, with 14 newly collected ones."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "8 categories"
-CONFERENCE: "Preprint"
 ---
 # BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism
 

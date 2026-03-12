@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4o, GPT-4o-mini, Claude-3.7-Sonnet, Grok-2, Gemini, Mistral, 
 DATA_URL: "NA"
 tags: 
 abstract: "This study systematically analyzes geopolitical bias across 11 prominent Large Language Models (LLMs) by examining their responses to seven critical topics in U.S.–China relations. Utilizing a bilingual (English and Chinese) and dual-framing (affirmative and reverse) methodology, we generated 19,712 prompts designed to detect ideological leanings in model outputs. Responses were quantitatively assessed on a normalized scale from −2 (strongly ProChina) to +2 (strongly Pro-U.S."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Mapping Geopolitical Bias in 11 Large Language Models: A Bilingual, Dual-Framing Analysis of U.S.-China Tensions
 

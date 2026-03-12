@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "ChatGPT, Claude, Claude 3 Opus, GPT-3, GPT-3.5, GPT-3.5 Turbo, GP
 DATA_URL: "https://github.com/Ammce/llm-"
 tags: 
 abstract: "Online toxic language causes real harm, especially in regions with limited moderation tools. In this study, we evaluate how large language models handle toxic comments in Serbian, Croatian, and Bosnian, languages with limited labeled data. We built and manually labeled a dataset of 4,500 YouTube and TikTok comments drawn from videos across diverse categories, including music, politics, sports, modeling, influencer content, discussions of sexism, and general topics."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Large Language Models for Toxic Language Detection in Low-Resource Balkan Languages
 

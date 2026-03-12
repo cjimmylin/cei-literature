@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT, BLOOM, BLOOM-1, BLOOM-7, Falcon-7B, Gemma, Llama, Llama 3, 
 DATA_URL: "NA"
 tags: 
 abstract: "The current best practice to measure the performance of base Large Language Models is to establish a multi-task benchmark that covers a range of capabilities of interest. Currently, however, such benchmarks are only available in a few high-resource languages. To address this situation, we present IberoBench, a multilingual, multi-task benchmark for Iberian languages (i.e., Basque, Catalan, Galician, European Spanish and European Portuguese) built on the LM Evaluation Harness framework."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # IberoBench: A Benchmark for LLM Evaluation in Iberian Languages
 

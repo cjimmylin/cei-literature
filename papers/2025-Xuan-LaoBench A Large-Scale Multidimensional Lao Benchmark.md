@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "The rapid advancement of large language models (LLMs) has not been ma
 LLM_assessed: "Claude, Claude-Opus, Claude-Sonnet, DeepSeek-V3, Qwen-family, Qwen3"
 DATA_URL: "NA"
 research_topic: "Machine Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # LaoBench: A Large-Scale Multidimensional Lao Benchmark for Large Language Models
 

@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +41,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.md"
@@ -37,6 +52,7 @@ DATE_ADDED: 20260208
 research_topic: "Socratic AI Ethics"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "AAAI 2024"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2024"
 ---
 # Socratic Dialogue for Virtue Ethics in AI
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "We introduce VMMU, a Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark designed to evaluate how vision language models (VLMs) interpret and reason over visual and textual information beyond English. VMMU consists of 2.5k multimodal questions across 7 tasks, covering a diverse range of problem contexts, including STEM problem solving, data interpretation, rule-governed visual reasoning, and abstract visual reasoning."
 research_topic: "Computer Vision & Multimodal"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "2,548 questions"
-CONFERENCE: "Preprint"
 ---
 # VMMU: A Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark
 

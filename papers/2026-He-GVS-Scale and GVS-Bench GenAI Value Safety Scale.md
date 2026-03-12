@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "The rapid development of generative AI has brought value- and ethics-related risks to the forefront, making value safety a critical concern while a unified consensus remains lacking. In this work, we propose an internationally inclusive and resilient unified value framework, the GenAI Value Safety Scale (GVSScale): Grounded in a lifecycle-oriented perspective, we develop a taxonomy of GenAI value safety risks and construct the GenAI Value Safety Incident Repository (GVSIR), and further derive..."
 LLM_assessed: "GPT-4, Claude, Gemini, Grok, Qwen, DeepSeek"
 DATA_URL: "https://github.com/acl2026/GVS-Bench"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # GVS-Scale and GVS-Bench: GenAI Value Safety Scale
 

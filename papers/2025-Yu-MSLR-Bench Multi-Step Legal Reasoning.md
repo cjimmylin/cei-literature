@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ tags:
 abstract: "As large language models (LLMs) exhibit advanced reasoning capabilities in different specialized domains, their application to legal reasoning tasks is actively being explored. The pursuit of justice in legal contexts demands not only correct outcomes but also reasoned elaboration, which necessitates deriving conclusions through logically justified and transparent argumentation. Current legal benchmarks, despite being cited as reasoning-focused, suffer from three critical limitations:..."
 LLM_assessed: "GPT-4, GPT-4o, Llama-3, Qwen, DeepSeek, o1, o3"
 DATA_URL: "https://github.com/yuwenhan07/MSLR-Bench"
+CONFERENCE: "AAAI 2026"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2026"
 ---
 # MSLR-Bench (Multi-Step Legal Reasoning)
 

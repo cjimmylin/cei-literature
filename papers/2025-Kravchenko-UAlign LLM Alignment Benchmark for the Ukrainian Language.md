@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Claude 3.7, GPT-4, GPT-4o, Gemma 2, Llama, Llama 3.2, Llama-3.2, 
 DATA_URL: "https://github.com/andrian-kr/alignment"
 tags: 
 abstract: "This paper introduces UAlign, the comprehensive benchmark for evaluating the alignment of Large Language Models (LLMs) in the Ukrainian language. The benchmark consists of two complementary components: a moral judgment dataset with 3,682 scenarios of varying ethical complexities and a dataset with 1,700 ethical situations presenting clear normative distinctions. Each element provides parallel English-Ukrainian text pairs, enabling crosslingual comparison."
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # UAlign: LLM Alignment Benchmark for the Ukrainian Language
 

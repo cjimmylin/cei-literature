@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Evaluations of Large Language Models (LLMs) on knowledge-intensive tasks and factual accuracy often focus on high-resource languages primarily because datasets for low-resource languages (LRLs) are scarce. In this paper, we present Uhura—a new benchmark that focuses on two tasks in six typologically-diverse African languages, created via human translation of existing English benchmarks. The first dataset, Uhura-ARC-Easy, is composed of multiple-choice science questions."
 LLM_assessed: "Alpaca, Claude, Claude Sonnet, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, GPT-4o mini, Gemma, Gemma-2, Gemma2, Llama, Llama-3.1, T5, claude-3, gpt-4o-mini"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Uhura: A Benchmark for Evaluating Scientific Question Answering and Truthfulness in Low-Resource African Languages
 

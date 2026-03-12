@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BLOOM, BLOOM-1, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Ll
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # A survey of multilingual large language models - PMC
 

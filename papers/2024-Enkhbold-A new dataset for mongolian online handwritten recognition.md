@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "I found the research paper you were looking for. The paper \"Recognizing Textual Inference in Mongolian Bar Exam Questions\" was authored by Khaltarkhuu, Garmaabazar; Batjargal, Biligsaikhan; and Maeda, Akira."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # A new dataset for mongolian online handwritten recognition
 

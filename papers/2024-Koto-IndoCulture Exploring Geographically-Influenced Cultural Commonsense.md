@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Although commonsense reasoning is greatly shaped by cultural and geographical factors, previous studies have predominantly centered on cultures grounded in the English language, potentially resulting in an Anglocentric bias. In this paper, we introduce IndoCulture, aimed at understanding the influence of geographical factors on language model reasoning ability, with a specific emphasis on the diverse cultures found within eleven Indonesian provinces."
 ethics_perspective: "Social & Cultural Values"
+CONFERENCE: "ACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "2,429 questions"
-CONFERENCE: "ACL 2024"
 ---
 # IndoCulture: Exploring Geographically-Influenced Cultural Commonsense Reasoning Across Eleven Indonesian Provinces
 

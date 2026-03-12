@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2023/2023-Shen-Large Language Model Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, ChatGPT, Claude, ELMo, FLAN-T5, GPT-2, GPT-3, GPT-4, GPT3, GloVe, InstructGPT, T5, WizardLM, text-davinci-003"
 DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Large Language Model Alignment: A Survey
 

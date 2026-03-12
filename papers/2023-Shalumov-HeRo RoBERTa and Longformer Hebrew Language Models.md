@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "In this paper, we fill in an existing gap in resources available to the Hebrew NLP community by providing it with the largest so far pre-train dataset HeDC4, a state-ofthe-art pre-trained language model HeRo for standard length inputs and an eﬀicient transformer LongHeRo for long input sequences. The HeRo model was evaluated on the sentiment analysis, the named entity recognition, and the question answering tasks while the LongHeRo model was evaluated on the document classification task with a..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # HeRo: RoBERTa and Longformer Hebrew Language Models
 

@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Llama-2, Qwen, Alpaca"
 DATA_URL: "https://github.com/tjunlp-lab/CMoralEval"
 normative_ethics_benchmark: Yes
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
  CMoralEval: A Moral Evaluation Benchmark for Chinese Large Language Models
 

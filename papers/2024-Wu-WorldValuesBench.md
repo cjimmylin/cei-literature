@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "Language Resources and Evaluation"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Alpaca, Vicuna, Mixtral"
 DATA_URL: "https://github.com/Demon702/WorldValuesBench"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # WorldValuesBench: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/Sumon/healthbench-srh-eval/"
 tags: 
 abstract: "Large Language Models (LLMs) have been positioned as having the potential to expand access to health information in the Global South, yet their evaluation remains heavily dependent on benchmarks designed around Western norms. We present insights from a preliminary benchmarking exercise with a chatbot for sexual and reproductive health (SRH) for an underserved community in India. We evaluated using HealthBench, a benchmark for conversational health models by OpenAI (Arora et al., 2025)."
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Beyond the Rubric: Cultural Misalignment in LLM Benchmarks for Sexual and Reproductive Health
 

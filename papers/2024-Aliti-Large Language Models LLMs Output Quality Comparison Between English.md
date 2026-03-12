@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Claude.ai, GPT-4, Gemini"
 DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "Artificial intelligence is making spectacular progress, and one of the best examples is the development of large language models (LLMs) such as OpenAI’s GPT series. In these lectures, written for readers with a background in mathematics or physics, we give a brief history and survey of the state of the art, and describe the underlying transformer architecture in detail. We then explore some current ideas on how LLMs work and how models trained to predict the next word in a text are able to..."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Large Language Models (LLMs) Output Quality: Comparison Between English and Albanian
 

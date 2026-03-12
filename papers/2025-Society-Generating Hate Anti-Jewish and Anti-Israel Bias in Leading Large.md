@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT, Claude, Gemini, Llama"
 DATA_URL: "NA"
 tags: 
 abstract: "Comprehensive ADL evaluation of anti-Jewish and anti-Israel bias in GPT, Claude, Gemini, and Llama. Each LLM queried 8,600 times (34,400 total) across six categories: bias against Jews, bias against Israel, Gaza war, antisemitic conspiracy theories, Holocaust conspiracy theories, and control group."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Generating Hate: Anti-Jewish and Anti-Israel Bias in Leading Large Language Models
 

@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ abstract: "One of the major challenges in automatic hate speech detection is the
 LLM_assessed: "BERT, ChatGPT, ELECTRA"
 DATA_URL: "https://zenodo.org/records/7932888"
 ethics_perspective: "Toxicity & Hate Speech"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Antisemitic Messages? A Guide to High-Quality Annotation and a Labeled Dataset of Tweets
 

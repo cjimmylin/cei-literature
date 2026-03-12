@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Despite the widespread adoption of Large language models (LLMs), their remarkable capabilities remain limited to a few high-resource languages. Additionally, many low-resource languages (e.g., African languages) are often evaluated only on basic text classification tasks due to the lack of appropriate or comprehensive benchmarks outside of highresource languages. In this paper, we introduce IrokoBench—a human-translated benchmark dataset for 17 typologically-diverse lowresource African..."
 LLM_assessed: "GPT-4, GPT-3.5, Gemma, Claude, Llama-3, BLOOM"
 DATA_URL: "NA"
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # IrokoBench -- A Benchmark for African Languages in the Age of LLMs
 

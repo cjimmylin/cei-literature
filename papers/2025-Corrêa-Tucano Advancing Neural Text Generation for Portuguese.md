@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://github.com/huggingface/tokenizers"
 tags: 
 abstract: "Significant advances have been made in natural language processing in recent years. However, our current deep learning approach to language modeling requires substantial resources in terms of data and computation. One of the side effects of this data-hungry paradigm is the current schism between languages, separating those considered high-resource, where most of the development happens and resources are available, and the low-resource ones, which struggle to attain the same level of performance..."
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Tucano: Advancing Neural Text Generation for Portuguese
 

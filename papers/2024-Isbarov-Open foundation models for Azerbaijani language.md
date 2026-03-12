@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "The emergence of multilingual large language models has enabled the d
 LLM_assessed: "BERT, DeBERTa-Base, RoBERTa"
 DATA_URL: "NA"
 research_topic: "Machine Translation"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "651.1m words; 1m words"
-CONFERENCE: "Preprint"
 ---
 # Open foundation models for Azerbaijani language
 

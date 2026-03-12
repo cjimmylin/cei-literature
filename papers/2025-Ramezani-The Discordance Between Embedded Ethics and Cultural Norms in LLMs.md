@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Identifies a hyperplane embedding ethical norms in LLM representational space and studies cultural norms with respect to this embedded ethics. Finds discordance between LLMs' embedded ethics and cultural norms, particularly evident in instruct-tuned models."
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # The Discordance Between Embedded Ethics and Cultural Norms in LLMs
 

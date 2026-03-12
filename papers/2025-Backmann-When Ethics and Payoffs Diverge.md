@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "https://github.com/sbackmann/moralsim"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas
 

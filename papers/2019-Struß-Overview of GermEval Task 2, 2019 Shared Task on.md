@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: BERT
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
 local_pdf: "[[PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Overview of GermEval Task 2, 2019 Shared Task on the Identiﬁcation of Offensive Language
 

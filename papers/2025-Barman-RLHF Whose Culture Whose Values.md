@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2025/2025-Barman-RLHF Whose Culture Whose Values.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-4, InstructGPT"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # RLHF Whose Culture Whose Values
 

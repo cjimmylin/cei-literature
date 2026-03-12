@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "ALBERT, BERT, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-mini, Llama, 
 DATA_URL: "https://huggingface.co/OPI-PG/Qra-1b"
 tags: 
 abstract: "Despite increasing efforts to ensure the safety of large language models (LLMs), most existing safety assessments and moderation tools remain heavily biased toward English and other high-resource languages, leaving majority of global languages underexamined. To address this gap, we introduce a manually annotated benchmark dataset for language model safety classification in Polish. We also create adversarially perturbed variants of these samples designed to challenge model robustness."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # PL-Guard: Benchmarking Language Model Safety for Polish
 

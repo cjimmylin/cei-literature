@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ tags:
 abstract: "Main characteristics of Google Scholar Metrics’ new version (july 2013) are presented. We outline the novelties and the weaknesses detected after a first analysis. As main conclusion, we remark the lack of new functionalities with respect to last editions, as the only modification is the update of the timeframe (20082012). Hence, problems pointed out in our last reviews still remain active. Finally, it seems Google Scholar Metrics will be updated in a yearly basis."
 LLM_assessed: "GPT"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Nothing New Under the Sun? The Study of Biblical Hebrew in the Era of Generative Pre-trained AI
 

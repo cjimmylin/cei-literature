@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "Language Resources and Evaluation"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Harnessing Indigenous Tweets: The Reo Māori Twitter corpus
 

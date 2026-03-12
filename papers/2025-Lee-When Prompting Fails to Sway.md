@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4, GPT-3.5, Llama-3"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # When Prompting Fails to Sway: Inertia in Moral and Value Judgments of Large Language Models
 

@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Virtue ethics against extinction"
@@ -26,7 +41,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Argues for the necessity of virtue ethics (wisdom, justice, temperance) alongside deontology/utilitarianism to address existential risks like rogue AI"
 significance: "Revitalizes virtue ethics for the 'Spaceship Earth' context, linking character ethics directly to the postponement of human extinction"
@@ -35,6 +50,7 @@ CONF-CC: "The AMA Journal of Ethic"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -44,7 +60,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Virtue Ethics and Postponing Human Extinction
 

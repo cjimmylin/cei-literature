@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/microsoft/nni"
 tags: 
 abstract: "Transformer-based models have advanced NLP, yet Hebrew still lacks a large-scale RoBERTa encoder which is extensively trained. Existing models such as HeBERT, AlephBERT, and HeRo are limited by corpus size, vocabulary, or training depth. We present HalleluBERT, a RoBERTa-based encoder family (base and large) trained from scratch on 49.1 GB of deduplicated Hebrew web text and Wikipedia with a Hebrew-specific byte-level BPE vocabulary."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # HalleluBERT: Let every token that has meaning bear its weight
 

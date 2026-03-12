@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ abstract: "Introduces hatebnBERT, a BERT-based model tailored to Bangla for reli
 LLM_assessed: "NA"
 DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # hatebnBERT: An Innovative Novel Transformer Model and Datasets for Safeguarding Religious Sensitivities in Online Social Platforms
 

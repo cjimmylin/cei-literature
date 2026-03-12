@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "The widespread application of Large Language Models (LLMs) imposes increasing demands on safety, such as reducing harmful content and fake information, and avoiding certain forbidden tokens due to rules and laws. While there have been several recent works studying safe alignment of LLMs, these works either require the training of reward and cost models and incur high memory and computational costs, or need prior knowledge about the optimal solution."
 LLM_assessed: "Alpaca, GPT-4, Llama, Llama-2"
 DATA_URL: "https://github.com/AIFlames/Fake-Alignment"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Fake Alignment (FINE Framework)
 

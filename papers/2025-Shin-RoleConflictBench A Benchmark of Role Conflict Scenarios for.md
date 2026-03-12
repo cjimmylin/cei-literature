@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Humans often encounter role conflicts—social dilemmas where the expectations of multiple roles clash and cannot be simultaneously fulfilled. As large language models (LLMs) become increasingly influential in human decision-making, understanding how they behave in complex social situations is essential. While previous research has evaluated LLMs’ social abilities in contexts with predefined correct answers, role conflicts represent inherently ambiguous social dilemmas that require contextual..."
 LLM_assessed: "GPT-4, Gemini, Qwen"
 DATA_URL: "https://github.com/ddindidu/RoleConflictBench"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity
 

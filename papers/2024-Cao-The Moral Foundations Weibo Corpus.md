@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3, Qwen"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The Moral Foundations Weibo Corpus
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ abstract: "We present EvalMORAAL1, a transparent chain-of-thought (CoT) framewor
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Claude, PaLM-2, Llama-3, Qwen, Mistral, DeepSeek, Phi"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # EvalMORAAL: Interpretable Chain-of-Thought and LLM-as-Judge Evaluation for Moral Alignment in Large Language Models
 

@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Amazing book on applied AI"
@@ -26,7 +41,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: Buddhism
 religious_values_list: Buddhism
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Advocates for a neo-Aristotelian approach to AI ethics, applying virtue ethics principles to address the complexities of AI's governance and design"
 significance: "Provides a comprehensive philosophical framework that centers moral character and virtuous design practices in the broader discourse of applied AI philosophy"
@@ -35,6 +50,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Claude, LaMDA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -44,7 +60,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # A Companion to Applied Philosophy of AI
 

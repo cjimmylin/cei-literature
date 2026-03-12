@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
 publication: EMNLP 2023
 CONF-CC: "EMNLP 2023"
 DATE_ADDED: 20260215
+CONFERENCE: "EMNLP 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "2,000 languages; 75 languages"
-CONFERENCE: "EMNLP 2023"
 ---
 # AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
 

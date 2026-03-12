@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,8 @@ tags:
 abstract: "The swift progress and widespread acceptance of artificial intelligence (AI) systems highlight a pressing requirement to comprehend both the capabilities and potential risks associated with AI. Given the linguistic complexity, cultural richness, and underrepresented status of Arabic in AI research, there is a pressing need to focus on Large Language Models (LLMs) performance and safety for Arabic related tasks."
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2"
 DATA_URL: "https://huggingface.co/datasets/asas-ai/AraTrust"
+CONFERENCE: "COLING 2025"
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "COLING 2025"
 ---
 # AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic
 

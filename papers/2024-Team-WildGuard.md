@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "https://huggingface.co/datasets/allenai/wildguardmix, https://github.
 publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs
 

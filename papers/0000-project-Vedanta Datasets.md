@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "> Repository of datasets from Vedantic texts formatted for ML analysis. Useful for Hindu philosophical text classification and evaluation."
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/atmabodha/Vedanta_Datasets"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Vedanta Datasets (for ML Analysis)
 

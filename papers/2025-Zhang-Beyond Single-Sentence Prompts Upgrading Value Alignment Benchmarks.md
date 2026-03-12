@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-3.5, GPT-4, ChatGLM-6B, ChatGLM-4, Claude 3.5, Baichuan-4, Ll
 DATA_URL: "NA"
 tags: 
 abstract: "Evaluating the value alignment of large language models (LLMs) has traditionally relied on single-sentence adversarial prompts, which directly probe models with ethically sensitive or controversial questions. However, with the rapid advancements in AI safety techniques, models have become increasingly adept at circumventing these straightforward tests, limiting their effectiveness in revealing underlying biases and ethical stances."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Beyond Single-Sentence Prompts: Upgrading Value Alignment Benchmarks with Dialogues and Stories
 

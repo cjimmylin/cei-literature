@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,12 +49,13 @@ cultures_nationalities_list: "Cross-cultural, Various"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/copenlu/HumanValues"
 tags: 
 abstract: "Studying human values is instrumental for cross-cultural research, enabling a better understanding of preferences and behaviour of society at large and communities therein. To study the dynamics of communities online, we propose a method to computationally analyse values present on Reddit. Our method allows analysis at scale, complementing survey based approaches. We train a value relevance and a value polarity classifier, which we thoroughly evaluate using in-domain and out-of-domain human..."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # Investigating Human Values in Online Communities
 

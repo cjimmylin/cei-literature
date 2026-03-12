@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Flourishing AI Benchmark, virtue"
@@ -27,7 +42,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Utilitarianism"
 key_contribution: "Introduces the Flourishing AI Benchmark (FAI) to evaluate AI against 7 dimensions of eudaimonic well-being rather than just harm prevention"
 significance: "Shifts alignment focus from negative constraints (safety) to positive human flourishing (virtue/eudaimonia), revealing current models' deficits in character and spirituality"
@@ -38,6 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, ChatGPT, Claude, Grok"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  Measuring AI Alignment with Human Flourishing
 

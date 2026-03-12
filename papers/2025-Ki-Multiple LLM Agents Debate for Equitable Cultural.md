@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2025/2025-Ki-Multiple LLM Agents Debate for Equitable Cultura
 LLM_assessed: "Llama-3, Gemma"
 DATA_URL: "https://github.com/dayeonki/cultural_debate"
 DATE_ADDED: 20260207
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Multiple LLM Agents Debate for Equitable Cultural Alignment
 

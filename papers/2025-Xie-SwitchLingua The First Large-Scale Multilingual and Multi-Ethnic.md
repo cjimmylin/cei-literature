@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4o, GPT-4, Qwen2"
 DATA_URL: "NA"
 tags: 
 abstract: "Code-switching (CS) is the alternating use of two or more languages within a conversation or utterance, often influenced by social context and speaker identity. This linguistic phenomenon poses challenges for Automatic Speech Recognition (ASR) systems, which are typically designed for a single language and struggle to handle multilingual inputs. The growing global demand for multilingual applications, including Code-Switching ASR (CSASR), Text-to-Speech (CSTTS), and Cross-Lingual Information..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for conversational ai"
 data_metrics: "12 languages"
-CONFERENCE: "Preprint"
 ---
 # SwitchLingua : The First Large-Scale Multilingual and Multi-Ethnic Code-Switching Dataset
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/twintproject/twint"
 pdf_extract: "PDF Extracts/2024/2024-Arshad-Understanding hate speech.md"
 local_pdf: "[[PDFs/2024/2024-Arshad-Understanding hate speech.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Understanding hate speech: the HateInsights dataset and model interpretability
 

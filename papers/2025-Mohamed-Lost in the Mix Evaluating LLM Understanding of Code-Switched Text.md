@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ALBERT, BERT, Claude, Claude 3.5 Sonnet, Claude., GPT-4o, Llama, 
 DATA_URL: "https://github.com/amr-mohamedd/Lost-in-the-Mix.git"
 tags: 
 abstract: "Code-switching (CSW) is the act of alternating between two or more languages within a single discourse. This phenomenon is widespread in multilingual communities, and increasingly prevalent in online content, where users naturally mix languages in everyday communication. As a result, Large Language Models (LLMs), now central to content processing and generation, are frequently exposed to code-switched inputs."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4-turbo, Llama-
 DATA_URL: "https://github.com/TartuNLP/smugri-llm"
 tags: 
 abstract: "The advancement of large language models (LLMs) has predominantly focused on highresource languages, leaving low-resource languages, such as those in the Finno-Ugric family, significantly underrepresented. This paper addresses this gap by focusing on Võro, Livonian, and Komi. We cover almost the entire cycle of LLM creation, from data collection to instruction tuning and evaluation. Our contributions include developing multilingual base and instruction-tuned models; creating evaluation..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # LLMs for Extremely Low-Resource Finno-Ugric Languages
 

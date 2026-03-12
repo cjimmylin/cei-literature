@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://huggingface.co/rmihaylov/bert-base-bg"
 tags: 
 abstract: "This paper presents an approach for training lightweight and robust language models for Bulgarian that mitigate gender, political, racial, and other biases in the data. Our method involves scraping content from major Bulgarian online media providers using a specialized procedure for source filtering, topic selection, and lexicon-based removal of inappropriate language during the pre-training phase. We continuously improve the models by incorporating new data from various domains, including..."
 ethics_perspective: "Bias & Fairness"
+CONFERENCE: "ACL 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2023"
 ---
 # Transformer-Based Language Models for Bulgarian
 

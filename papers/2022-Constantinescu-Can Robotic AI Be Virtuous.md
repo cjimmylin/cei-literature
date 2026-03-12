@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_CONSTANTINESCU2022
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: Yes
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Social Robotics, Deep Learning, Human-Robot Interaction"
 key_contribution: "Argues AI systems cannot genuinely be virtuous (Aristotelian sense) but can only behave in a virtuous way; analyzes right actions, feelings, and manner requirements"
 significance: "Influential Oxford-based analysis of virtue ethics limitations for social robots using deep learning"
@@ -34,6 +49,7 @@ CONF-CC: "International Journal of Social Robotics"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -43,7 +59,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Can Robotic AI Systems Be Virtuous and Why Does This Matter?
 

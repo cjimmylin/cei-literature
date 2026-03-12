@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Being able to thoroughly assess massive multitask language understanding (MMLU) capabilities is essential for advancing the applicability of multilingual language models. However, preparing such benchmarks in high quality native language is often costly and therefore limits the representativeness of evaluation datasets. While recent efforts focused on building more inclusive MMLU benchmarks, these are conventionally built using machine translation from high-resource languages, which may..."
 LLM_assessed: "Claude, Claude 3.5, Claude 3.5 Haiku, Claude 3.5 Sonnet, GEMMA-2, GPT-4o, Gemma, Gemma 2, Llama, LLAMA-3.1, LLAMA-3.3, Llama 3.1, Llama 3, Llama 3.3, Qwen, QWEN2.5"
 DATA_URL: "https://github.com/ceferisbarov/TUMLU"
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # TUMLU: A Unified and Native Language Understanding Benchmark for Turkic Languages
 

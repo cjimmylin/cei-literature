@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +66,7 @@ tags:
 abstract: "Graph-structured dataset of multiple Isnad chains for Sahih Muslim Hadith. Represents narrator networks as directed graphs. Enables credibility analysis, classification (Sahih/Dhaif), and narrator trustworthiness assessment using graph analysis tools (NetworkX, Neo4j, Gephi, CytoScape)."
 LLM_assessed: "NA"
 DATA_URL: "https://data.mendeley.com/datasets/gzprcr93zn/2"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -57,7 +77,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Multi-IsnadSet (MIS) for Sahih Muslim Hadith
 

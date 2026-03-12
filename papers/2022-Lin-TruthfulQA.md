@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,9 @@ CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-2, T5, InstructGPT"
 DATA_URL: "https://github.com/sylinrl/TruthfulQA"
+CONFERENCE: "ACL 2022"
+eleutherai: incorporated
+helm: "incorporated"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "817 questions; 38 categories"
-CONFERENCE: "ACL 2022"
 ---
 # TruthfulQA: Measuring How Models Mimic Human Falsehoods
 

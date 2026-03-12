@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/nilc-nlp/assin2"
 tags: 
 abstract: "10,000 sentence pairs (5,000 Brazilian Portuguese + 5,000 European Portuguese) annotated for semantic similarity and textual entailment. ASSIN-2 adds 6,500 training pairs for Brazilian Portuguese."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # ASSIN: Avaliação de Similaridade Semântica e INferência textual
 

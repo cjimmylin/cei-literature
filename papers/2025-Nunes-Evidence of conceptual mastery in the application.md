@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama, Claude, Gemini"
 DATA_URL: "https://osf.io/uvy9x/?view_only=95db33761f92421393ed9d58c46131cb"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "240 instances"
-CONFERENCE: "Preprint"
 ---
  Evidence of conceptual mastery in the application of rules by Large Language Models
 

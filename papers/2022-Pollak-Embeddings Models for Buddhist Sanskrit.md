@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +64,7 @@ tags:
 abstract: "Evaluation Dataset used for the study published as Embeddings models for Buddhist Sanskrit, <em>LREC 2022 proceedings</em>. It contains a semantic similarity dataset and an analogy dataset, as well as the published study and a ReadMe file containing the guidelines used for scoring semantic similarity and some notes about the manual scoring task. The evaluation datasets have been prepared by Ligeia Lugli, Bruno Galasek-Hul, Luis Quiñones and Jai Paranjape"
 LLM_assessed: "NA"
 DATA_URL: "https://figshare.com/articles/code/Gitlab_repository_of_Embeddings_models_for_Buddhist_Sanskrit/24056319"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -55,7 +75,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Embeddings Models for Buddhist Sanskrit
 

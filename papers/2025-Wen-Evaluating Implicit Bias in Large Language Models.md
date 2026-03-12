@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-3.5, GPT-4, Mistral, Llama-3, Qwen"
 DATA_URL: "https://github.com/yuchenwen1/BUMBLE"
 pdf_extract: "PDF Extracts/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.md"
 local_pdf: "[[PDFs/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.pdf]]"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "2.7k instances; 12.7k instances"
-CONFERENCE: "ACL 2025"
 ---
 # Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective
 

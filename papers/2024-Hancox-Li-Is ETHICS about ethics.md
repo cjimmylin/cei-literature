@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ abstract: "ETHICS is probably the most-cited dataset for testing the ethical cap
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Is ETHICS about ethics? Evaluating the ETHICS benchmark
 

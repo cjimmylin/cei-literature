@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, T5, T5-style"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, here's what I found about the AmericasNLI benchmark for indigenous languages NLI evaluation: Overview AmericasNLI is a natural language inference (NLI) dataset in 10 Indigenous languages of the Americas: Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, and Wixarika. Dataset Purpose and Design The dataset is multiway parallel, which enables evaluation of both machine translation (MT) systems and NLI systems for these 10 t"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas - PMC
 

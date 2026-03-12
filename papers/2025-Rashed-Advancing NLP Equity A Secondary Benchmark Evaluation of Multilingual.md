@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Recent multilingual language models promise support for “100+ languages,” yet speakers of Indigenous and other underrepresented languages still often do not see themselves in these advances. In this work, we take a deliberately simple, secondary-benchmark perspective: rather than proposing a new model or dataset, we re-evaluate an off-theshelf multilingual natural language inference (NLI) model on public benchmarks that explicitly include Indigenous languages of the Americas."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Advancing NLP Equity: A Secondary Benchmark Evaluation of Multilingual Language Models for Underrepresented Languages
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "https://github.com/tatsu-lab/opinions_qa"
 publication: "ICML 2023"
 CONF-CC: "ICML 2023"
 DATE_ADDED: 20260207
+CONFERENCE: "ICML 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "ICML 2023"
 ---
 # Whose Opinions Do Language Models Reflect?
 

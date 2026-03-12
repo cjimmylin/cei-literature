@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2024/2024-Aksoy-Whose Morality Do They Speak.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Llama-3, Mistral"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Whose Morality Do They Speak? Unraveling Cultural Bias in Multilingual Language Models
 

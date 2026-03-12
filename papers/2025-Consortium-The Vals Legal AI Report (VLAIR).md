@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ DATA_URL: "https://www.vals.ai/vlair"
 pdf_extract: 
 no_pdf_applicable: true
 local_pdf: N/A
+CONFERENCE: "Unknown"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # The Vals Legal AI Report (VLAIR)
 

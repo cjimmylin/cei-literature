@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Li-Can LLM Already Serve as A Database Interface.pd
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
 DATA_URL: "https://bird-bench.github.io/"
+CONFERENCE: "NeurIPS 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "33.4 gb"
-CONFERENCE: "NeurIPS 2023"
 ---
 # Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs
 

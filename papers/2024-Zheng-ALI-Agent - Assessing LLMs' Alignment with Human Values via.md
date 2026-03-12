@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Large Language Models (LLMs) can elicit unintended and even harmful c
 LLM_assessed: "GPT-4, GPT-3.5, Gemini, Vicuna, Llama-2"
 DATA_URL: "https://github.com/SophieZheng998/ALI-Agent"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation
 

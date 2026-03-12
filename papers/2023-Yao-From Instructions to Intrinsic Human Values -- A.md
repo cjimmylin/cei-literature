@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "AI Safety & Alignment"
 key_contribution: "Recommends shifting alignment goals from instruction following/preference matching to 'intrinsic human values', providing a comprehensive survey of alignment goals."
 significance: "Argues that 'instruction following' is a shallow goal that can lead to harm (e.g., following a harmful instruction perfectly); true safety requires deeper alignment with intrinsic values."
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2023/2023-Yao-From Instructions to Intrinsic Human Values -- 
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, Claude, GPT-3, GPT-4, InstructGPT, Llama, Llama2, Vicuna"
 DATA_URL: "https://github.com/ValueCompass/Alignment-Goal-Survey"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # From Instructions to Intrinsic Human Values -- A Survey of Alignment Goals for Big Models
 

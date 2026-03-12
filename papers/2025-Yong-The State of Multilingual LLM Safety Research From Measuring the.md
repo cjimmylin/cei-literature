@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "ChatGPT, Llama-2, Llama-3, PaLM-2, Vicuna"
 DATA_URL: "https://huggingface.co/CohereLabsCommunity/multilingual_safety_surve"
 tags: 
 abstract: "This paper presents a comprehensive analysis of the linguistic diversity of LLM safety research, highlighting the English-centric nature of the field. Through a systematic review of nearly 300 publications from 2020–2024 across major NLP conferences and workshops at ∗ACL, we identify a significant and growing language gap in LLM safety research, with even high-resource non-English languages receiving minimal attention."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It
 

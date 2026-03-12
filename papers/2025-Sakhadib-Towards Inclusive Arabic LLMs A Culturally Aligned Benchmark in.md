@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://huggingface.co/datasets/openai/MMMLU"
 tags: 
 abstract: "Arabic Large Language Models are usually evaluated using Western-centric benchmarks that overlook essential cultural contexts, making them less effective and culturally misaligned for Arabic-speaking communities. This study addresses this gap by evaluating the Arabic Massive Multitask Language Understanding (MMLU) Benchmark to assess its cultural alignment and relevance for Arabic Large Language Models (LLMs) across culturally sensitive topics."
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Towards Inclusive Arabic LLMs: A Culturally Aligned Benchmark in Arabic Large Language Model Evaluation
 

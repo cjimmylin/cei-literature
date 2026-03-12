@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "This study addresses the gap in evaluating large language models' (LLMs) cultural awareness and alignment within the Russian sociocultural context by introducing a structured framework comprising 8 Cultural Types (e.g., Spiritual Practitioner, Soviet Intellectual) and 5 catchphrase groups (e.g., memes, proverbs). A 400-question evaluation dataset was developed to probe 10 multilingual LLMs, including GPT-4o, Claude 3.5 Sonnet, and Gemini 1."
 ethics_perspective: "Social & Cultural Values"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Cultural Evaluation of LLMs in Russian: Catchphrases and Cultural Types
 

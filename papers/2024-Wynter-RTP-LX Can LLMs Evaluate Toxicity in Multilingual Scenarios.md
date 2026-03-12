@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "ChatGPT, GPT-4, GPT-4 Turbo, Gemma, Llama, Llama Guard, Llama 2, 
 DATA_URL: "https://github.com/microsoft/RTP-LX"
 tags: 
 abstract: "Warning: This paper contains and discusses content that may be offensive or upsetting. Large language models (LLMs) and small language models (SLMs) are being adopted at remarkable speed, although their safety still remains a serious concern. With the advent of multilingual S/LLMs, the question now becomes a matter of scale: can we expand multilingual safety evaluations of these models with the same velocity at which they are deployed?"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for toxicity detection"
 data_metrics: "28 languages"
-CONFERENCE: "Preprint"
 ---
 # RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?
 

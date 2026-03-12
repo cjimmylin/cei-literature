@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/spaces/MCINext/mizan-llm-leaderboard"
 tags: 
 abstract: "Standard Persian LLM leaderboard evaluating models across general knowledge, logical reasoning, and language skills. Includes PerCoR (Persian CommonSense Reasoning) benchmark."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # MIZAN: A Persian LLM Leaderboard
 

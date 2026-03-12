@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "CLAUDE 3.5 SONNET, CLAUDE-3, CLAUDE-3 HAIKU, CLAUDE-3-HAIKU, Clau
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) demonstrate impressive general knowledge and reasoning abilities, yet their evaluation has predominantly focused on global or anglocentric subjects, often neglecting low-resource languages and culturally specific content. While recent multilingual benchmarks attempt to bridge this gap, many rely on automatic translation, which can introduce errors and misrepresent the original cultural context."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ significance: "Addresses the 'Translation-ese' problem in multilingual LLM evalu
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Gemini, Gemma, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/davidanugraha/IndoPref"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark annotated dataset"
 data_metrics: "522 prompts; 10 categories"
-CONFERENCE: "Other Conference"
 ---
 # IndoPref: A Multi-Domain Pairwise Preference Dataset for Indonesian
 

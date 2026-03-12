@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Cambodia's first large language model (7B-13B parameters) trained on 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Khmer LLM: Cambodia's First Native Language Model
 

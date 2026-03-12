@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "I found the research article you're looking for. Here are the key findings: Study Overview The article \"Exploring the occupational biases and stereotypes of Chinese large language models\" was published in Scientific Reports in 2025."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "General Ethics"
 key_contribution: "Surveyed 92 NLP papers on morality, identifying a widespread lack of clear definitions and philosophical grounding (confusing descriptive vs. normative)."
 significance: "A critical call for conceptual clarity, urging the field to adopt precise terminology from moral philosophy to avoid confused or invalid claims about 'moral AM'."
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2023/2023-Vida-Values, Ethics, Morals.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT"
 DATA_URL: "NA"
+CONFERENCE: "EMNLP 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2023"
 ---
 # Values, Ethics, Morals? On the Use of Moral Concepts in NLP Research
 

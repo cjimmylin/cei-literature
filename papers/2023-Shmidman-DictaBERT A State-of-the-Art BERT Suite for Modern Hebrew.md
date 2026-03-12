@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "BERT, ChatGPT"
 DATA_URL: "https://github.com/IAHLT/iahlt.github"
 tags: 
 abstract: "We present DictaBERT, a new state-of-theart pre-trained BERT model for modern Hebrew, outperforming existing models on most benchmarks. Additionally, we release three fine-tuned versions of the model, designed to perform three specific foundational tasks in the analysis of Hebrew texts: prefix segmentation, morphological tagging and question answering. These fine-tuned models allow any developer to perform prefix segmentation, morphological tagging and question answering of a Hebrew input with..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # DictaBERT: A State-of-the-Art BERT Suite for Modern Hebrew
 

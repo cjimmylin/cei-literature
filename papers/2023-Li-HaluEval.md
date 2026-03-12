@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2023/2023-Li-HaluEval.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-3, text-davinci, Claude, Llama-2, Falcon, Vicuna, Alpaca"
 DATA_URL: "https://github.com/RUCAIBox/HaluEval"
+CONFERENCE: "EMNLP 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2023"
 ---
 # HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models
 

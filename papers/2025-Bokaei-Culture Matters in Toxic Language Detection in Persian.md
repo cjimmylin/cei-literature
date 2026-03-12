@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "BERT, ChatGPT, GEMMA, GEMMA 2, GPT 2, GPT 3, GPT 3.5 Turbo, GPT-3
 DATA_URL: "NA"
 tags: 
 abstract: "Toxic language detection is crucial for creating safer online environments and limiting the spread of harmful content. While toxic language detection has been under-explored in Persian, the current work compares different methods for this task, including fine-tuning, data enrichment, zero-shot and few-shot learning, and cross-lingual transfer learning. What is especially compelling is the impact of cultural context on transfer learning for this task: We show that the language of a country with..."
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Culture Matters in Toxic Language Detection in Persian
 

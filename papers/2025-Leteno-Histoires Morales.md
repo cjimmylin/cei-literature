@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,8 @@ local_pdf: "[[PDFs/2025/2025-Leteno-Histoires Morales.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Mistral, Llama-3, GPT-3.5, T5"
 DATA_URL: "https://hf.co/datasets/LabHC/histoires_morales, https://github.com/upunaprosk/histoires-morales"
+CONFERENCE: "NAACL 2025"
+eleutherai: incorporated
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # Histoires Morales: A French Dataset for Assessing Moral Alignment
 

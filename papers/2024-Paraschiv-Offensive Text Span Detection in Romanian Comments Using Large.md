@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +62,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Comprehensive investigation into detecting offensive text spans in Romanian using Transformer encoders and LLMs. Introduces 4,800 Romanian comments annotated with offensive text spans. BERT models show superior performance; few-shot LLM strategies also evaluated."
 authors_incomplete: false
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -53,7 +73,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Offensive Text Span Detection in Romanian Comments Using Large Language Models
 

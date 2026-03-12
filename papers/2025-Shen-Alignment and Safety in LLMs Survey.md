@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +51,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Deontology, AI Safety & Alignment, LLM Survey, Ethical Constraints"
 key_contribution: "Comprehensive survey of alignment techniques, training protocols, and empirical findings for LLM safety"
 significance: "Covers domain-specific safety benchmarks addressing refusal behavior, adversarial robustness, and adherence to ethical constraints"
@@ -40,6 +59,7 @@ abstract: "Due to the remarkable capabilities and growing impact of large langua
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, Barto, ChatGPT, Claude, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeekMath, GPT-4, GPT-4o, Gemini, Gemini 2.0 flash, Grok, InstructGPT, Llama, LlaMA 2, Llama 2-Chat, Qwen, Qwen et, Qwen2.5, qwenlm"
 DATA_URL: "https://github.com/ethz-spylab/rlhf_trojan_competition"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Alignment and Safety in Large Language Models: Safety Mechanisms, Training Paradigms, and Emerging Challenges
 

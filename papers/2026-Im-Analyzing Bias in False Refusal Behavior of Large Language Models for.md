@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4o mini, GPT-4o-mini, Gemma, G
 DATA_URL: "https://github.com/unitaryai/detoxify"
 tags: 
 abstract: "Warning: This paper contains examples of hate speech, which may be disturbing or offensive to some readers. While large language models (LLMs) have increasingly been applied to hate speech detoxification, the prompts often trigger safety alerts, causing LLMs to refuse the task. In this study, we systematically investigate false refusal behavior in hate speech detoxification and analyze the contextual and linguistic biases that trigger such refusals."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Analyzing Bias in False Refusal Behavior of Large Language Models for Hate Speech Detoxification
 

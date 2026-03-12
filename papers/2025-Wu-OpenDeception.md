@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ LLM_assessed: "GPT-4o, GPT-3.5, Llama-3, Qwen"
 DATA_URL: "https://anonymous.4open.science/r/OpenDeception-C187/"
 DATE_ADDED: 20260207
 research_topic: "Other"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # OpenDeception: Benchmarking and Investigating AI Deceptive Behaviors via Open-ended Interaction Simulation
 

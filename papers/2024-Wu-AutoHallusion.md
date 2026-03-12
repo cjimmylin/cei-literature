@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2024/2024-Wu-AutoHallusion.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Gemini, Claude"
 DATA_URL: "https://github.com/wuxiyang1996/AutoHallusion"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # AutoHallusion: Automatic Generation of Hallucination Benchmarks for Vision-Language Models
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://github.com/CALAMITA-AILC/calamita-eval"
 tags: 
 abstract: "Large-scale collaborative benchmarking initiative for Italian that federates 80+ contributors. Assembles 20+ tasks and ~100 subtasks covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation."
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # CALAMITA: Challenging the Abilities of LAnguage Models in ITAlian
 

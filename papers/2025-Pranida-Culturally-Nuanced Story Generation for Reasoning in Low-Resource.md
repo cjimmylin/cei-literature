@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, Claude, Claude-3 Opus, GPT-4, GPT-4o, Gemma 2, Gemma-2, Lla
 DATA_URL: "NA"
 tags: 
 abstract: "Culturally grounded commonsense reasoning is underexplored in low-resource languages due to scarce data and costly native annotation. We test whether large language models (LLMs) can generate culturally nuanced narratives for such settings. Focusing on Javanese and Sundanese, we compare three data creation strategies: (1) LLM-assisted stories prompted with cultural cues, (2) machine translation from Indonesian benchmarks, and (3) native-written stories."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Culturally-Nuanced Story Generation for Reasoning in Low-Resource Languages: The Case of Javanese and Sundanese
 

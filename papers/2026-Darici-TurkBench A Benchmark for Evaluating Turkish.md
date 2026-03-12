@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "With the recent surge in the development of large language models, th
 LLM_assessed: "DeepSeek-R1, DeepSeek-V3, GPT-4o, Gemma, Gemma-2, Gemma-3, Qwen, Qwen-3, Qwen-32B, Qwen3, deepseek-ai"
 DATA_URL: "https://github.com/argilla-io/argilla"
 research_topic: "Machine Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "6 categories"
-CONFERENCE: "Preprint"
 ---
 # TurkBench: A Benchmark for Evaluating Turkish Large Language Models
 

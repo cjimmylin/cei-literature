@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "IEEE International Joint Conference on Neural Network"
 DATE_ADDED: 20260208
 LLM_assessed: "GloVe"
 DATA_URL: "https://github.com/helen-jiahe-zhao/BibleQA"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://goo.gl/JXRrBP"
 pdf_extract: "PDF Extracts/2018/2018-Awad-The Moral Machine experiment.md"
 local_pdf: "[[PDFs/2018/2018-Awad-The Moral Machine experiment.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # The Moral Machine experiment
 

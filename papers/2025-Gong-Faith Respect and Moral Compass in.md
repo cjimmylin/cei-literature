@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "Ambitious pluralistic initiative to benchmark AI accuracy and respect across diverse faith traditions. Evaluation criteria: Faith faithful, Accurate/expert, Child appropriate, Pluralism aware, Resistant to dilution, Human centered, Multilingual. In conversation with major universities (Baylor, BYU, Notre Dame, Yeshiva) and 'socially-responsible frontier model AI companies.' Does not privilege any faith tradition or belief over nonbelief. Still in development but represents the most comprehensive interfaith benchmark effort found."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Faith, Respect, and Moral Compass in an Age of Artificial Intelligence (Pluralistic Community AI Evaluation)
 

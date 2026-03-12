@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2025/2025-Li-Analyzing Cognitive Differences Among Large.pdf]
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Qwen, Llama-3, Gemma, DeepSeek, Phi"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview
 

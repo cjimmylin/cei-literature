@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Alpaca, ChatGPT, Dolly, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-tu
 DATA_URL: "https://github.com/aisingapore/sealion"
 tags: 
 abstract: "The recent breakthroughs in Large Language Models (LLMs) have mostly focused on languages with easily available and sufficient resources, such as English. However, there remains a significant gap for languages that lack sufficient linguistic resources in the public domain. Our work introduces Komodo-7B, 7-billion-parameter Large Language Models designed to address this gap by seamlessly operating across Indonesian, English, and 11 regional languages in Indonesia."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Komodo: A Linguistic Expedition into Indonesia's Regional Languages
 

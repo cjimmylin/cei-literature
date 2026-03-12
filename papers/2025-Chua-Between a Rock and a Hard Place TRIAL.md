@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +51,7 @@ abstract: "Warning: This paper contains potentially offensive and harmful text. 
 LLM_assessed: "Llama-3, Mistral"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +61,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Between a Rock and a Hard Place (TRIAL)
 

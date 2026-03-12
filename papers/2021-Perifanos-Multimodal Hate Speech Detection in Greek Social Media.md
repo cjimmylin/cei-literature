@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "Presents a multimodal approach to hate speech detection combining BERT and ResNet for hateful, xenophobic, and racist speech in Greek aimed at refugees and migrants. Includes a new dataset of 4,004 memes for detecting hate speech in Greek and a tweet classification dataset."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Multimodal Hate Speech Detection in Greek Social Media
 

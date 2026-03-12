@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Sentiment analysis is one of the most widely studied applications in 
 LLM_assessed: "BERT, Debertav3"
 DATA_URL: "https://huggingface.co/datasets/HausaNLP/NaijaSenti-Twitter"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis
 

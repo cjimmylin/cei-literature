@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2023/2023-Gao-Large Language Models Empowered Agent-based.pdf
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-4, PaLM, text-davinci"
 DATA_URL: "https://github.com/tatsu-lab/stanford_alpaca"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives
 

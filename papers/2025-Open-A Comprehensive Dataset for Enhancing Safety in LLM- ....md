@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, GPT-3, GPT-3.5 Tu
 DATA_URL: "NA"
 tags: 
 abstract: "LLMs are evolving into assistants that leverage tools, significantly expanding their capabilities but also introducing critical safety risks. Current models exhibit notable vulnerabilities, particularly in maintaining safety during multi-step tool interactions and in scenarios involving indirect harm. This paper introduces ToolSafety, a safety fine-tuning dataset designed to address these limitations."
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # A Comprehensive Dataset for Enhancing Safety in LLM- ...
 

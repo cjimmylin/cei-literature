@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "In recent years, multilingual pre-trained language models have gained
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/bonadossou/afrolm_active_learning"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # AfroLM: A Self-Active Learning-based Multilingual Pretrained Language Model for 23 African Languages
 

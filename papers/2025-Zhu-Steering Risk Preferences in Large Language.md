@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ significance: "Bridges the gap between behavioral psychometrics and mechanistic 
 DATE_ADDED: 20260208
 LLM_assessed: Gemma
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Steering Risk Preferences in Large Language Models by Aligning Behavioral and Neural Representations
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +45,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Moral Reasoning & Psychology"
 key_contribution: "Proposed an 'ethical reasoning paradigm' for LLMs involving a 5-step process (fact gathering to reflection) to align with diverse regional values (tested on SafeWorld benchmark)."
 significance: "Promotes 'procedural alignment' (teaching models *how* to reason ethically) over just 'behavioral alignment' (teaching models *what* to say), enabling better cross-cultural adaptability."
@@ -38,6 +57,7 @@ CONF-CC: "AIES 2025"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3, DeepSeek, Qwen"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Diverse Human Value Alignment for Large Language Models via Ethical Reasoning
 

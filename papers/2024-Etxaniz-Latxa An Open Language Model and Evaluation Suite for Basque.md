@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "Latxa (LLaMa-based), Irati, Llama-2, Mistral"
 DATA_URL: "https://github.com/hitz-zentroa/latxa"
 tags: 
 abstract: "We introduce Latxa, a family of large language models for Basque ranging from 7 to 70 billion parameters. Latxa is based on Llama 2, which we continue pretraining on a new Basque corpus comprising 4.3M documents and 4.2B tokens. Addressing the scarcity of high-quality benchmarks for Basque, we further introduce 4 multiple choice evaluation datasets: EusProficiency, comprising 5,169 questions from official language proficiency exams; EusReading, comprising 352 reading comprehension questions;..."
+CONFERENCE: "ACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "5,169 questions; 352 questions; 1,715 questions; 16,774 questions"
-CONFERENCE: "ACL 2024"
 ---
 # Latxa: An Open Language Model and Evaluation Suite for Basque
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Responsible AI"
 key_contribution: "'ValueBench' – a psychometric benchmark with 44 inventories (453 dimensions) to profile LLM value orientations."
 significance: "Applies human psychometrics to AI, allowing us to map models onto human value landscapes (e.g., is this model 'conservative' or 'liberal'? 'Open' or 'Conscientious'?)."
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2024/2024-Ren-ValueBench.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Mixtral"
 DATA_URL: "https://github.com/Value4AI/ValueBench"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models
 

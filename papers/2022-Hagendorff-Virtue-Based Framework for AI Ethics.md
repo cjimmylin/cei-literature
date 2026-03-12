@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_HAGENDORFF2022
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: Yes
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Ethics, Organizational Ethics"
 key_contribution: "Defines four basic AI virtues (justice, honesty, responsibility, care) and two second-order virtues (prudence, fortitude) for AI ethics practice"
 significance: "Seminal framework proposing virtue ethics as complement to principled AI ethics approaches"
@@ -34,6 +49,7 @@ CONF-CC: "Philosophy & Technology"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -43,7 +59,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # A Virtue-Based Framework to Support Putting AI Ethics into Practice
 

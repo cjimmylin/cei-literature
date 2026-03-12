@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ abstract: "Islamic inheritance domain holds significant importance for Muslims t
 LLM_assessed: "Falcon3, GPT-4o, Llama 4, Llama4, Llama"
 DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Benchmarking the Legal Reasoning of LLMs in Arabic Islamic Inheritance Cases
 

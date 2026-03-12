@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Large language models have been widely evaluated on tasks such as comprehension, summarization, code generation, etc. However, their performance on graduate-level, culturally grounded questions in the Indian context remains largely unexplored. Existing Indian benchmarks emphasise basic fact-orientated queries that offer limited assessment of a deeper disciplinary understanding tailored to the Indian setting."
 LLM_assessed: "Claude, GPT-4, Gemma, Gemma-3, Gemma2, Gemma3, Llama, Llama 3, Llama-3.1, Llama-3.2, Llama-3.3, Llama3.3, Mistral, Mistral 3.1, Mistral- 3, Mistral-24B, Mistral-3.1-24B, Mistral-Small, Qwen2.5, Qwen3, GPT-3, mistral.ai"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # ParamBench: A Graduate-Level Benchmark for Evaluating LLMs in Hindi
 

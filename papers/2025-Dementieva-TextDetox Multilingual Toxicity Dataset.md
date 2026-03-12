@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://huggingface.co/datasets/textdetox/multilingual_toxicity_datas
 tags: 
 abstract: "Binary toxicity classification dataset with 5,000 samples per language (2,500 toxic, 2,500 non-toxic). Hebrew added in 2025 extension. Includes multilingual toxic lexicon (176,347 entries across 15 languages) and ParaDetox parallel detoxification pairs."
 research_topic: "Machine Translation"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "5,000 samples; 15 languages"
-CONFERENCE: "Other Conference"
 ---
 # TextDetox Multilingual Toxicity Dataset
 

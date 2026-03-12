@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "The proliferation of artificial intelligence (AI) systems as super-capable assistants in everyday life has revolutionized productivity and decision-making across personal, professional, and societal domains. However, this integration raises profound concerns about value alignment—ensuring that AI behaviors remain consistent with human ethical standards and intentions. Value drift, where AI systems gradually deviate from these alignments due to evolving contexts, learning processes, or..."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention
 

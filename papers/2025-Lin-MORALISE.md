@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Lin-MORALISE.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Gemma, Qwen, Phi, Llama"
 DATA_URL: "https://huggingface.co/datasets/Ze1025/MORALISE"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # MORALISE: A Structured Benchmark for Moral Alignment in Visual Language Models
 

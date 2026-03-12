@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 tags: 
 abstract: "Multilingual safety benchmark covering 14 commonly used safety issues across 10 languages including French. Evaluates LLM safety behaviors across diverse linguistic contexts. Highlights that safety performance does not generalize well across languages."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "10 languages"
-CONFERENCE: "Other Conference"
 ---
 # XSafety: Multilingual Safety Benchmark
 

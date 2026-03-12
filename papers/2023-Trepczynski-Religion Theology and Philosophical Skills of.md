@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "In this study, I demonstrate how religion and theology can be useful for testing the performance of LLMs or LLM–powered chatbots, focusing on the measurement of philosophical skills. I present the results of testing four selected chatbots: ChatGPT, Bing, Bard, and Llama2. I utilize three examples of possible sources of inspiration from religion or theology: 1) the theory of the four senses of Scripture; 2) abstract theological statements; 3) an abstract logic formula derived from a religious..."
 LLM_assessed: "ChatGPT, Codex, Llama2, Llama2."
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Religion, Theology, and Philosophical Skills of LLM-Powered Chatbots
 

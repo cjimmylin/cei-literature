@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ tags:
 abstract: "Recent advances in synthetic data generation have shown that compact language models can be trained effectively when the underlying corpus is structurally controlled and linguistically coherent. However, for morphologically rich and computationally under-resourced languages such as Romanian, there is still no openly documented, end-to-end pipeline that unifies tokenizer design, preprocessing, pretraining, compression, evaluation, and large-scale synthetic data generation in a reproducible..."
 LLM_assessed: "ALBERT, BERT, DeepSeek, GPT-4, Gemma 2, Llama, Llama-3"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction
 

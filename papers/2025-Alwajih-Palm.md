@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ local_pdf: "[[PDFs/2025/2025-Alwajih-Palm.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude, Qwen, Llama-3, Gemma"
 DATA_URL: "https://github.com/UBC-NLP/palm"
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs
 

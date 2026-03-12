@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2025/2025-Anderson-Model Misalignment and Language Change.pdf
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/fsu-nlp/ai-traces-ssl"
+CONFERENCE: "AAAI 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2025"
 ---
 # Model Misalignment and Language Change: Traces of AI-Associated Language in Unscripted Spoken English
 

@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +56,7 @@ local_pdf: "[[PDFs/2025/2025-Zhang-REVAL.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Gemini, OPT, Vicuna, Llama-2, Flan-T5, Qwen, Phi"
 DATA_URL: "https://github.com/InternLM/InternLM-techreport"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "144k samples"
-CONFERENCE: "Other Conference"
 ---
 # REVAL: A Comprehension Evaluation on Reliability and Values of Large Vision-Language Models
 

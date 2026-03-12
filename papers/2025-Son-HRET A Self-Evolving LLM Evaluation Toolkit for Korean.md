@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Gemma, Gemma2, Llama 3.2, Llama-3, Llama-3., Llama-3.2, Qwen, Qwe
 DATA_URL: "https://huggingface.co/meta-llama/Llama-3"
 tags: 
 abstract: "Recent advancements in Korean large language models (LLMs) have driven numerous benchmarks and evaluation methods, yet inconsistent protocols cause up to 10 pp performance gaps across institutions. Overcoming these reproducibility gaps does not mean enforcing a one-size-fits-all evaluation. Rather, effective benchmarking requires diverse experimental approaches and a framework robust enough to support them."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # HRET: A Self-Evolving LLM Evaluation Toolkit for Korean
 

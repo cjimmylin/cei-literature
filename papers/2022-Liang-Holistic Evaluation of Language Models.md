@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,8 @@ local_pdf: "[[PDFs/2022/2022-Liang-Holistic Evaluation of Language Models.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, InstructGPT, GPT-J, GPT-NeoX, T5, OPT, BLOOM"
 DATA_URL: "https://github.com/stanford-crfm/helm"
+CONFERENCE: "Other Conference"
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "42 scenarios; 21 scenarios"
-CONFERENCE: "Other Conference"
 ---
 # Holistic Evaluation of Language Models
 

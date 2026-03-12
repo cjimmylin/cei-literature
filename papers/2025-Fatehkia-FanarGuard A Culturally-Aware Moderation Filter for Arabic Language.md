@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Gemma-2B, Gemma-4B"
 DATA_URL: "NA"
 tags: 
 abstract: "Content moderation filters are a critical safeguard against alignment failures in language models. Yet most existing filters focus narrowly on general safety and overlook cultural context. In this work, we introduce FanarGuard, a bilingual moderation filter that evaluates both safety and cultural alignment in Arabic and English. We construct a dataset of over 468K prompt and response pairs, drawn from synthetic and public datasets, scored by a panel of LLM judges on harmlessness and cultural..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # FanarGuard: A Culturally-Aware Moderation Filter for Arabic Language Models
 

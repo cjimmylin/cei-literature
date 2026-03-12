@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-4, GPT-4o"
 DATA_URL: "https://github.com/KORPUS-DB/KOGENT"
 tags: 
 abstract: "1,222 Korean National Assembly transcripts with 6,024 utterances annotated for gender sensitivity. Spans legislative sessions 1948-2024. GPT-4.1 achieves 87.5-91.2% F1. Reveals LLM limitations in culturally specific terminology."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivity in Korean Political Discourse with Large Language Models
 

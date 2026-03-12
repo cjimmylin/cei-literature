@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Despite remarkable progress in large language models, Urdu—a langua
 LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-2, Llama, Llama-3, LLaMA-3.1, Llama 3, Mistral, Mistral-Nemo, Qwen, Qwen2.5"
 DATA_URL: "https://github.com/unslothai/unsloth"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Qalb: Largest State-of-the-Art Urdu Large Language Model for 230M Speakers with Systematic Continued Pre-training
 

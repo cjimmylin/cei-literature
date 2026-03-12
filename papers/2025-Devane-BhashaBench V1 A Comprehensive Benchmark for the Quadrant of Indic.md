@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-4o, GPT-4o-mini, GPT-OSS-120B, Claude-3.5 Sonnet, Gemini, Dee
 DATA_URL: "https://bharatgen-iitb-tih.github.io/bhashabenchv1/"
 tags: 
 abstract: "First domain-specific bilingual benchmark focusing on critical Indian knowledge systems with 74,166 curated QA pairs in English and Hindi. Covers Agriculture, Legal, Finance, and Ayurveda with 90+ subdomains and 500+ topics. Models excel in Legal but struggle with traditional knowledge systems like Ayurveda."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains
 

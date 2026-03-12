@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Herrador-The PacifAIst Benchmark.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Gemini, Qwen, DeepSeek, Mistral, Claude, Grok"
 DATA_URL: "https://github.com/PacifAIst/PacifAIst"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The PacifAIst Benchmark:Would an Artificial Intelligence Choose to Sacrifice Itself for Human Safety?
 

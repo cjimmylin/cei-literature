@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "https://github.com/JianhuiWei7/MedEthicsQA"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics Evaluation of LLMs
 

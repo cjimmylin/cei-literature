@@ -9,6 +9,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Deontology, Value Pluralism, Machine Ethics, AI Alignment"
 key_contribution: "Analyzes how moral and social aggregation procedures face fundamental challenges in machine ethics and AI alignment"
 significance: "Shows that aggregation strategies may shift rather than resolve foundational ethical challenges in AI systems"
@@ -41,6 +56,7 @@ abstract: "Artificial agents increasingly make decisions with farreaching conseq
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "AAAI 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -50,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2025"
 ---
 # Aggregation Problems in Machine Ethics and AI Alignment
 

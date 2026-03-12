@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ DATA_URL: "https://github.com/bear/python-twitter"
 tags: 
 abstract: "We introduce the first dataset of harmful and offensive language collected from the Polish Internet. This dataset was meticulously curated to facilitate the exploration of harmful online phenomena such as cyberbullying and hate speech, which have exhibited a significant surge both within the Polish Internet as well as globally. The dataset was systematically collected and then annotated using two approaches."
 ethics_perspective: "Toxicity & Hate Speech"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Expert-Annotated Dataset to Study Cyberbullying in Polish Language
 

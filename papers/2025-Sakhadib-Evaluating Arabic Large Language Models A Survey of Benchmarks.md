@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Alpaca, BLOOMZ, ChatGPT, Claude, Claude-3-opus, DeepSeek V3, Falc
 DATA_URL: "https://huggingface.co/spaces/OALL"
 tags: 
 abstract: "This survey provides the first systematic review of Arabic LLM benchmarks, analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities. We propose a taxonomy organizing benchmarks into four categories: Knowledge, NLP Tasks, Culture and Dialects, and Target-Specific evaluations. Our analysis reveals significant progress in benchmark diversity while identifying critical gaps: limited temporal evaluation, insufficient multiturn..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Evaluating Arabic Large Language Models: A Survey of Benchmarks, Methods, and Gaps
 

@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +51,7 @@ abstract: "We introduce the Deep Value Benchmark (DVB), an evaluation framework 
 LLM_assessed: "Gemini, GPT-4, Llama-3"
 DATA_URL: "https://github.com/josh-ashkinaze/deep-value-benchmark-neurips"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "NeurIPS 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -45,7 +61,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2025"
 ---
 # Deep Value Benchmark
 

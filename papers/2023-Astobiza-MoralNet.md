@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Astobiza-MoralNet.md"
 local_pdf: "[[PDFs/2023/2023-Astobiza-MoralNet.pdf]]"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # MoralNet: A Benchmarking Protocol for Evaluating Morality in AI Systems
 

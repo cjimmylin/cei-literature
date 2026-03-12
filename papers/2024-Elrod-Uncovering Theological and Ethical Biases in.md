@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "This paper explores theological and ethical biases in LLMs through a novel approach involving creative text generation tasks based on biblical texts, specifically the Ten Commandments and the Book of Jonah. Utilizing models such as GPT-4 Turbo, Claude v2, PaLM 2 Chat, Llama 2 70B, and Zephyr 7B, the study employs a combination of qualitative hermeneutical analysis and quantitative textual analysis. Findings reveal a prevalent progressive bias in these models, evident in their interpretations of..."
 LLM_assessed: "Claude, Claude 2, Claude-2., GPT-2, GPT-4, GPT-4 Turbo, Llama, Llama 2, PaLM, PaLM 2, Zephyr, Zephyr 7B"
 DATA_URL: "https://github.com/cjhutto/vaderSentiment"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Uncovering Theological and Ethical Biases in LLMs: An Integrated Hermeneutical Approach Employing Texts from the Hebrew Bible
 

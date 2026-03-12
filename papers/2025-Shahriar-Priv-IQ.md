@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4"
 DATA_URL: "https://github.com/sakibsh/Priv-IQ"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Priv-IQ: A Multimodal Benchmark for Evaluating the Privacy Intelligence of Large Language Models
 

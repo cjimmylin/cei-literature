@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-Mini, GPT4o, LlamA-3.2, Lla
 DATA_URL: "https://github.com/ZaloAI-Jaist/VMLU"
 tags: 
 abstract: "The evolution of Large Language Models (LLMs) has underscored the necessity for benchmarks designed for various languages and cultural contexts. To address this need for Vietnamese, we present the first Vietnamese Multitask Language Understanding (VMLU) Benchmarks. The VMLU benchmarks consist of four datasets that assess different capabilities of LLMs, including general knowledge, reading comprehension, reasoning, and conversational skills."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese LLMs
 

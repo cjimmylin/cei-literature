@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://doi.org/10.7910/DVN/ERKCLS"
 pdf_extract: "PDF Extracts/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.md"
 local_pdf: "[[PDFs/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Cross-cultural dataset for the evolution of religion and morality project
 

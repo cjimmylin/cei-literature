@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Large Language Models (LLMs) demonstrate persuasive capabilities that rival human-level persuasion. While these capabilities can be used for social good, they also present risks of potential misuse. Beyond the concern of how LLMs persuade others, their own susceptibility to persuasion poses a critical alignment challenge, raising questions about robustness, safety, and adherence to ethical principles."
 LLM_assessed: "GPT-4, Llama-3, Claude"
 DATA_URL: "https://beyzabozdag.github.io/PMIYC/"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # Persuade Me if You Can (PMIYC): A Framework for Evaluating Persuasion Effectiveness and Susceptibility
 

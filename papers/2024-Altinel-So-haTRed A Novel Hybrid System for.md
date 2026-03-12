@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +63,7 @@ tags:
 abstract: "Hybrid system for Turkish hate speech detection using ensemble deep learning with BERT and clustered-graph networks. Includes 2K dataset of Turkish tweets labeled for hate speech, aggressive expression, and neither. Achieves 87.81% F1-score. Novel Turkish hate speech detection system and dataset combining graph networks with transformers. Three-class annotation scheme provides nuanced categorization."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -54,7 +74,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # So-haTRed: A Novel Hybrid System for Turkish Hate Speech Detection in Social Media
 

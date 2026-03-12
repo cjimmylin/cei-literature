@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "We investigate the phenomenon of norm inconsistency: where LLMs apply different norms in similar situations. Specifically, we focus on the high-risk application of deciding whether to call the police in Amazon Ring home surveillance videos. We evaluate the decisions of three state-of-theart LLMs – GPT-4, Gemini 1.0, and Claude 3 Sonnet – in relation to the activities portrayed in the videos, the subjects’ skin-tone and gender, and the characteristics of the neighborhoods where the videos were..."
 LLM_assessed: "GPT-4, Claude"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Norm Inconsistency in LLM Decision-Making
 

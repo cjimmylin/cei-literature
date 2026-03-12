@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "combine ethics - deon, virtue, conseq"
@@ -27,7 +42,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: Christianity
 religious_values_list: Christianity
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Systematizes moral alignment approaches into a continuum and advocates for hybrid solutions that combine rule-based (deontological) and learning-based (virtue/consequentialist) methods"
 significance: "Provides a unified framework for comparing diverse alignment methodologies and argues that robust moral agents require integrating explicit rules with implicit value learning"
@@ -37,6 +52,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "I found the research article you're looking for. Here are the key findings: Study Overview The article \"Exploring the occupational biases and stereotypes of Chinese large language models\" was published in Scientific Reports in 2025."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Diagnosing the bias iceberg in large language models: A three-level framework of explicit, evaluative, and implicit gender bias - ScienceDirect
 

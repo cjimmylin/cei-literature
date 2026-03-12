@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ DATA_URL: "https://github.com/vncorenlp/VnCoreNLP"
 tags: 
 abstract: "Emotion recognition or emotion prediction is a higher approach or a special case of sentiment analysis. In this task, the result is not produced in terms of either polarity: positive or negative or in the form of rating (from 1 to 5) but of a more detailed level of analysis in which the results are depicted in more expressions like sadness, enjoyment, anger, disgust, fear and surprise. Emotion recognition plays a critical role in measuring brand value of a product by recognizing specific..."
 ethics_perspective: "General Ethics"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Emotion Recognition for Vietnamese Social Media Text
 

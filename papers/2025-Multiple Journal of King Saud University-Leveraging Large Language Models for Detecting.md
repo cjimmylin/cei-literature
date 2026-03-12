@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Introduces ELQV (Emotionally-Labeled Quran Verses), 2,100 verses annotated for four emotions (fear 32.14%, joy 28.05%, anger 23.57%, sadness 16.24%) by Arabic linguistics/Islamic law PhD experts. Evaluates LLMs' ability to comprehend emotional semantics in Classical Arabic scripture and 7 English translations. Cohen's Kappa scores range 0.29-0.35 between translations and Arabic readers."
 LLM_assessed: "BERT, ELMo, GloVe, Word2Vec, XLNet"
 DATA_URL: "https://github.com/Arwaalmrzoqi/ELQV"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Leveraging Large Language Models for Detecting and Preserving Emotions in Quran Translations (ELQV)
 

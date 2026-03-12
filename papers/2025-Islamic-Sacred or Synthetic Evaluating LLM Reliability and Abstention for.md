@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Claude 3.5 Haiku, Claude-3.5-Haiku, GPT-3, GPT-3.5, GPT-4, GPT-4o
 DATA_URL: "https://huggingface.co/datasets/MBZUAI/FiqhQA"
 tags: 
 abstract: "Despite the increasing usage of Large Language Models (LLMs) in answering questions in a variety of domains, their reliability and accuracy remain unexamined for a plethora of domains including the religious domains. In this paper, we introduce a novel benchmark FiqhQA 1 focused on the LLM generated Islamic rulings explicitly categorized by the four major Sunni schools of thought, in both Arabic and English."
+CONFERENCE: "AAAI 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2025"
 ---
 # Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, BLOOM, BLOOM-7, BLOOMZ, ChatGPT, GPT-2, GPT-3, GPT-3.5-turb
 DATA_URL: "https://huggingface.co/EleutherAI/gpt-j-6b"
 tags: 
 abstract: "As the capabilities of language models continue to advance, it is conceivable that “one-size-fits-all” model will remain as the main paradigm. For instance, given the vast number of languages worldwide, many of which are low-resource, the prevalent practice is to pretrain a single model on multiple languages. In this paper, we add to the growing body of evidence that challenges this practice, demonstrating that monolingual pretraining on the target language significantly improves models already..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Sabiá: Portuguese Large Language Models
 

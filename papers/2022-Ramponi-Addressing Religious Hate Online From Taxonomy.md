@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ abstract: "Proposes a fine-grained labeling scheme for religious hate speech det
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/dhfbk/religious-hate-speech"
 research_topic: "Other"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Addressing Religious Hate Online: From Taxonomy Creation to Automated Detection
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2025/2025-Abdaljalil-HalluVerse25.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Phi, Mistral, Qwen, Gemma, Llama-3, PaLM-2"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations
 

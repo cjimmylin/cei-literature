@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_OHLHORST2025
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Artificial Virtues, Virtue Classification, AI Design"
 key_contribution: "Proposes three-dimensional classification of artificial virtues: domain of excellence, norm making it excellence, and mode of delivering excellence"
 significance: "Expands virtue ethics for AI beyond narrow Aristotelian moral virtues to broader virtue taxonomy"
@@ -34,6 +49,7 @@ CONF-CC: "AI & Society"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -43,7 +59,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Virtues for AI
 

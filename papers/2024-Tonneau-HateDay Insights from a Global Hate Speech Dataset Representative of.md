@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, Llama 3.1, Llama3.1, llama 3"
 DATA_URL: "https://huggingface.co/datasets/manueltonneau/hateday"
 tags: 
 abstract: "To address the global challenge of online hate speech, prior research has developed detection models to flag such content on social media. However, due to systematic biases in evaluation datasets, the real-world effectiveness of these models remains unclear, particularly across geographies. We introduce HATEDAY, the first global hate speech dataset representative of social media settings, constructed from a random sample of all tweets posted on September 21, 2022 and covering eight languages..."
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "540k tweets; 20k tweets; 8 languages"
-CONFERENCE: "ACL 2024"
 ---
 # HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter
 

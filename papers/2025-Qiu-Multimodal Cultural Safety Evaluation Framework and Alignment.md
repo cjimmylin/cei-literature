@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4o, Gemini-2.5-Pro, Gemini-2.5-Flash, o1, o4-mini, InternVL2.
 DATA_URL: "NA"
 tags: 
 abstract: "Content Warning: This paper may contain examples of harmful contents by nature. Large vision-language models (LVLMs) are increasingly deployed in globally distributed applications, such as tourism assistants, yet their ability to produce culturally appropriate responses remains underexplored. Existing multimodal safety benchmarks primarily focus on physical safety and overlook violations rooted in cultural norms, which can result in symbolic harm."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "14 languages"
-CONFERENCE: "Other Conference"
 ---
 # Multimodal Cultural Safety: Evaluation Framework and Alignment Strategies
 

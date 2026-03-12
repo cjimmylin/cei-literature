@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +56,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -50,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Aligning Large Language Model Agents with Rational and Moral Preferences: A Supervised Fine-Tuning Approach
 

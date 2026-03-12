@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_OBER2024
@@ -25,7 +44,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Aristotelian Ethics, Human Flourishing, AI Ethics Framework"
 key_contribution: "Major Oxford/Stanford white paper arguing Aristotelian ethics offers most compelling framework for AI ethics, emphasizing human flourishing, virtues, and practical reason"
 significance: "Landmark collaborative paper from Oxford Institute for Ethics in AI and Stanford establishing Aristotelian foundations for AI ethics"
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4, ChatGPT, Gemini, Llama"
 DATA_URL: "NA"
 publication: Oxford Institute for Ethics in AI
 CONF-CC: "N/A"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # The Lyceum Project: AI Ethics with Aristotle
 

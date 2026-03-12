@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, ChatGPT, GPT-4, LLAMA2, Llama, Llama-2, VICUNA"
 DATA_URL: "https://github.com/declare-lab/red-instruct"
 tags: 
 abstract: "Larger language models (LLMs) have taken the world by storm with their massive multi-tasking capabilities simply by optimizing over a next-word prediction objective. With the emergence of their properties and encoded knowledge, the risk of LLMs producing harmful outputs increases, making them unfit for scalable deployment for the public. In this work, we propose a new safety evaluation benchmark RED-EVAL that carries out red-teaming."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Over the past decade, an ecosystem of measures has emerged to evaluate the social and ethical implications of AI systems, largely shaped by high-level ethics principles. These measures are developed and used in fragmented ways, without adequate attention to how they are situated in AI systems. In this paper, we examine how existing measures used in the computing literature map to AI system components, attributes, hazards, and harms."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Measuring What Matters: Connecting AI Ethics Evaluations to System Attributes, Hazards, and Harms (RAI Measures Dataset)
 

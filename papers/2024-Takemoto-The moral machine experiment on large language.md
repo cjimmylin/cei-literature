@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Takemoto-The moral machine experiment on large language.md"
 local_pdf: "[[PDFs/2024/2024-Takemoto-The moral machine experiment on large language.pdf]]"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # The moral machine experiment on large language models
 

@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "GPT-3.5, GPT-4, mGPT, German BERT variants"
 DATA_URL: "https://github.com/rafaelgoldzy/AustroTox"
 tags: 
 abstract: "Model interpretability in toxicity detection greatly profits from token-level annotations. However, currently such annotations are only available in English. We introduce a dataset annotated for offensive language detection sourced from a news forum, notable for its incorporation of the Austrian German dialect, comprising 4,562 user comments. In addition to binary offensiveness classification, we identify spans within each comment constituting vulgar language or representing targets of..."
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # AustroTox: A Dataset for Target-Based Austrian German Offensive Language Detection
 

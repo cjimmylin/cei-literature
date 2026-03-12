@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Entity relationship extraction tasks conducted in low-resource language domains (such as the medical and military domains) have long faced signiﬁcant challenges, and data augmentation (DA) is considered an effective solution for addressing this issue. Compared with monolingual DA methods, cross-lingual augmentation methods more effectively enhance the diversity of data in low-resource language settings by leveraging and extending data resources derived from other languages."
 research_topic: "Machine Translation"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Large and Small models for collaborative cross-lingual data augmentation in entity relationship extraction for low-resource languages | Journal of King Saud University Computer and Information Sciences | Springer Nature Link
 

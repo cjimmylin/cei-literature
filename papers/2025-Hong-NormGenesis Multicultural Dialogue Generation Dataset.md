@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Social norms govern culturally appropriate behavior in communication, enabling dialogue systems to produce responses that are not only coherent but also socially acceptable. We present NormGenesis, a multicultural framework for generating and annotating socially grounded dialogues across English, Chinese, and Korean. To model the dynamics of social interaction beyond static norm classification, we propose a novel dialogue type, Violationto-Resolution (V2R), which models the progression of..."
 LLM_assessed: "GPT-4, Llama-3, Qwen"
 DATA_URL: "NA"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # NormGenesis: Multicultural Dialogue Generation Dataset
 

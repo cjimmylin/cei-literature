@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,7 +42,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Deontology"
 key_contribution: "Explores value pluralism in AI, challenging the default 'average' value fitting of statistical learners which washes out conflicts"
 significance: "Highlights the necessity for AI systems to model irreducible value conflicts (rights vs duties) rather than reducing them to a single metric"
@@ -39,6 +54,7 @@ DATA_URL: "https://huggingface.co/datasets/allenai/ValuePrism"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -48,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
  Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties
 

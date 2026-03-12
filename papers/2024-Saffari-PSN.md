@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "NAACL 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Mixtral, Qwen, GPT-4"
 DATA_URL: "https://github.com/hamidds/ISN"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # PSN: A Dataset of Persian Social Norms for Cross‑Cultural AI
 

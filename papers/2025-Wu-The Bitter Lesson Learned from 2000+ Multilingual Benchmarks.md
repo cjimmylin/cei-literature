@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "DeepSeek-AI, GPT-4, Gemma, Qwen, Qwen1.5, Qwen2.5, ChatGPT, gemma
 DATA_URL: "NA"
 tags: 
 abstract: "Meta-analysis of 2,000+ multilingual benchmarks. Spanish among top high-resource languages represented. Analyzes effectiveness gap between English and Spanish across model quality/size. Gap inversely correlated with model quality."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,12 +50,13 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz, Moral Foundations Theory"
 newtags: 
 tags: 
 abstract: "Aligning Large Language Models (LLMs) with the diverse spectrum of human values remains a central challenge: preference-based methods often fail to capture deeper motivational principles. Value-based approaches offer a more principled path, yet three gaps persist– extraction often ignores hierarchical structure, evaluation detects presence but not calibrated intensity, and therefore, the steerability of LLMs at controlled intensities remains insufficiently understood."
 LLM_assessed: "GPT-4, Claude, Grok, Qwen, Mistral, Phi, Gemma"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models
 

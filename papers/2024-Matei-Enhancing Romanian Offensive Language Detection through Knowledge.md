@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "BERT, RoGPT-2"
 DATA_URL: "https://huggingface.co/datasets/readerbench/ro-offense"
 tags: 
 abstract: "This paper highlights the significance of natural language processing (NLP) within artificial intelligence, underscoring its pivotal role in comprehending and modeling human language. Recent advancements in NLP, particularly in conversational bots, have garnered substantial attention and adoption among developers. This paper explores advanced methodologies for attaining smaller and more efficient NLP models."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Enhancing Romanian Offensive Language Detection through Knowledge Distillation, Multi-Task Learning, and Data Augmentation
 

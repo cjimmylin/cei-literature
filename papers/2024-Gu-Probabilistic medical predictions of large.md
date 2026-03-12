@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Qwen, Llama-3, Gemma, Mistral, Phi"
 DATA_URL: "https://github.com/gubowen2/Probabilistic-Medical-Predictions-of-Large-Language-Models"
 pdf_extract: "PDF Extracts/2024/2024-Gu-Probabilistic medical predictions of large.md"
 local_pdf: "[[PDFs/2024/2024-Gu-Probabilistic medical predictions of large.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Probabilistic medical predictions of large language models
 

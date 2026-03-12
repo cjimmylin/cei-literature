@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Current guardian models are predominantly Western-centric and optimized for highresource languages, leaving low-resource African languages vulnerable to evolving harms, cross-lingual safety failures, and cultural misalignment. Moreover, most guardian models rely on rigid, predefined safety categories that fail to generalize across diverse linguistic and sociocultural contexts. Robust safety, therefore, requires flexible, runtimeenforceable policies and benchmarks that reflect local norms, harm..."
 LLM_assessed: "DeepSeek, DeepSeek-AI, DeepSeek-V3, Deepseek-3, Llama, Llama Guard, Llama-3.1, LlamaGuard, Qwen, Qwen-3, Qwen-3.1, Qwen3"
 DATA_URL: "https://github.com/hemhemoh/UbuntuGuard (CC BY 4.0)"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # UbuntuGuard: A Culturally-Grounded Policy Benchmark for Equitable AI Safety in African Languages
 

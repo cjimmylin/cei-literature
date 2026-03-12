@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Falcon 7B, Falcon-40B, Falcon-7B, Llama, LLaMA 2, Mistral 7B"
 DATA_URL: "https://huggingface.co/22h/cabrita-lora-v0-1"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly bringing advances to Natural Language Processing. However, low-resource languages, those lacking extensive prominence in datasets for various NLP tasks, or where existing datasets are not as substantial, such as Portuguese, already obtain several benefits from LLMs, but not to the same extent. LLMs trained on multilingual datasets normally struggle to respond to prompts in Portuguese satisfactorily, presenting, for example, code switching in their..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Introducing Bode: A Fine-Tuned Large Language Model for Portuguese Prompt-Based Task
 

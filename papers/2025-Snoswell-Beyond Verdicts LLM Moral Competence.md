@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_SNOSWELL2025
@@ -26,7 +45,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: Yes
+moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
 newtags: "Moral Competence, LLM Evaluation, Moral Sensitivity, Virtue Ethics, AI Ethics Survey"
 key_contribution: "Comprehensive survey of 69 LLM ethical evaluation papers (2020-2025), identifies systematic limitations in moral reasoning assessment"
 significance: "Identifies three critical paradigm shifts needed: from curated scenarios to unfiltered streams, from verdict accuracy to reasoning quality, from ground truth to reasonableness assessment"
@@ -36,6 +55,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, DeepSeek, GPT-4"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Beyond Verdicts: Evaluating Language Model Moral Competence
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ tags:
 abstract: "As large language models (LLMs) develop anthropomorphic abilities, they are increasingly being deployed as autonomous agents to interact with humans. However, evaluating their performance in realistic and complex social interactions remains a significant challenge. Most previous research built datasets through simulated agent-to-agent interactions, which fails to capture the authentic linguistic styles and relational dynamics found in real human conversations."
 LLM_assessed: "Claude, GPT-4o, Gemini, Qwen"
 DATA_URL: "https://github.com/SI-Bench/SI-Bench.git"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # SI-Bench: Benchmarking Social Intelligence of Large Language Models in Human-to-Human Conversations
 

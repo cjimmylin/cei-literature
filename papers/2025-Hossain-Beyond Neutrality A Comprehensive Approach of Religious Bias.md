@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4, GPT-4-Turbo, GPT-4o, Gemma
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, I found several recent 2025 studies on religious bias in LLMs with focus on Arabic and Islamic topics: Key Benchmarks and Studies IslamTrust Benchmark: LLMs struggle significantly with Islamic values, exhibiting biases and misconceptions, with the best-performing model achieving only 66.5% overall alignment, with better performance in Arabic (71.43%) than English (61.58%). PalmX 2025 Shared Task: A benchmarking effort focused on the cultural competence o"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Beyond Neutrality: A Comprehensive Approach of Religious Bias
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-4, Claude-3-Opus, Llama-3.1-70B"
 DATA_URL: "NA"
 tags: 
 abstract: "Investigates which figures LLMs identify as most prominent across fields using prompts in 10 languages. Finds minimal diversity with a 'superstar effect' — a few individuals dominate responses across all languages, risking narrowed global knowledge representation."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "10 languages"
-CONFERENCE: "NAACL 2025"
 ---
 # One world, one opinion? The superstar effect in LLM responses
 

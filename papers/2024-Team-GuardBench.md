@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ tags:
 abstract: 
 LLM_assessed: "Llama-2, Llama-3, Mistral, T5, BERT"
 DATA_URL: "https://github.com/AmenRa/guardbench"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # GuardBench
 

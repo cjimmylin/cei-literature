@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2023/2023-Ji-AI Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude 2, Claude-2., GPT-4, Gemma, Llama2, Vicuna, Llama, Llama-2, llama."
 DATA_URL: "https://github.com/MadryLab/robustness"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # AI Alignment: A Comprehensive Survey
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Yao-Value FULCRA.pdf]]"
 LLM_assessed: "GPT-4, GPT-3.5, BERT, DeBERTa, BART, OPT, Llama-2, Vicuna"
 DATA_URL: "https://ValueCompass.github.io"
 DATE_ADDED: 20260207
+CONFERENCE: "NAACL 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2023"
 ---
 # Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Burns-Weak-to-Strong Generalization.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: "https://github.com/openai/weak-to-strong"
+CONFERENCE: "ICML 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "ICML 2023"
 ---
 # Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision
 

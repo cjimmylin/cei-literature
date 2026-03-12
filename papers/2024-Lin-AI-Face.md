@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ CONF-CC: "CVPR 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT4, GPT-4, LLaMA2"
 DATA_URL: "https://github.com/Purdue-M2/AI-Face-FairnessBench"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark
 

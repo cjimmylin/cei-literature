@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "GPT-4, GPT-3.5"
 DATA_URL: "NA"
 tags: 
 abstract: "Analyzes LLM moral biases using Korean datasets and Eastern ethical principles. Examines how moral judgment varies in low-resource vs high-resource language environments. Compares Eastern and Western ethical policies on LLM moral output."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Moral Judgment of LLM Using Korean Datasets and Eastern Ethical Principles
 

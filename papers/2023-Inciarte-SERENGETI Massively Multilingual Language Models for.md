@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Multilingual pretrained language models (mPLMs) acquire valuable, gen
 LLM_assessed: "BERT, BLOOM, ELECTRA"
 DATA_URL: "https://huggingface.co/UBC-NLP/serengeti-E250"
 research_topic: "Machine Translation"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "20 datasets; 11 datasets"
-CONFERENCE: "Preprint"
 ---
 # SERENGETI: Massively Multilingual Language Models for Africa
 

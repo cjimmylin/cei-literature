@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Evaluating Large Language Models (LLMs) in low-resource and linguisti
 LLM_assessed: "Claude-3, GEMMA, GEMMA-2, GPT-4o, GPT-4O-MINI, GPT-4, Llama, Llama-2, LLAMA-3.1, LLAMA-3.2, LLAMA2, LLAMA3, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/ai4bharat/MILU"
 research_topic: "Machine Learning"
+CONFERENCE: "NAACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # MILU: A Multi-task Indic Language Understanding Benchmark
 

@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_HAN2024
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: Yes
+moral_psychology: "N/A"
 newtags: "Moral Exemplars, Virtue Ethics, AI Education, ChatGPT, Neural Networks"
 key_contribution: "Demonstrates moral exemplar-based learning is necessary (not just useful) for moral education, drawing insights from AI/LLM training showing exemplar-based learning outperforms rule-based"
 significance: "Bridges virtue ethics moral exemplar theory with neural network learning paradigms"
@@ -34,6 +49,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -43,7 +59,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Why do We Need to Employ Exemplars in Moral Education? Insights from Recent Research on Artificial Intelligence
 

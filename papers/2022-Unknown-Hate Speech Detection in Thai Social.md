@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "Develops Thai hate-speech classification method with various loss functions on a corpus of ordinal-imbalanced Thai text, addressing the challenge of hate speech severity grading in Thai social media. Thai-specific hate speech dataset with ordinal severity labels. Relevant to nuanced toxicity evaluation."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Hate Speech Detection in Thai Social Media with Ordinal-Imbalanced Text Classification
 

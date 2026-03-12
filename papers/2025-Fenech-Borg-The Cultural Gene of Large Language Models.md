@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "Chinese, American"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Chinese, Multicultural/Cross-cultural, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Investigates the 'cultural genes' of LLMs using a Cultural Probe Dataset (CPD), comparing the value orientations (Individualism vs. Collectivism) of Western (GPT-4) vs. Eastern (ERNIE) models."
 significance: "Provides quantitative evidence that LLMs mirror the cultural norms of their training data (GPT-4 is individualistic, ERNIE is collectivistic), warning against the 'algorithmic cultural hegemony' of exporting Western models globally."
@@ -39,6 +58,7 @@ abstract: "Large Language Models (LLMs) are being deployed globally, yet their u
 DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases
 

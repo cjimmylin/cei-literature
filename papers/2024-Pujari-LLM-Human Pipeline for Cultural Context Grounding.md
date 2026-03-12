@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ local_pdf: "[[PDFs/2024/2024-Pujari-LLM-Human Pipeline for Cultural Context Grou
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Llama-3, RoBERTa"
 DATA_URL: "https://github.com/pujari-rajkumar/cultural-schema-naacl2025"
+CONFERENCE: "NAACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2024"
 ---
 # LLM-Human Pipeline for Cultural Context Grounding of Conversations
 

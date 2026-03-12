@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "UX Virtue ethics, catholic social teaching"
@@ -27,7 +42,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: Christianity
 religious_values_list: Christianity
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Christianity, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Identifies seven UX design patterns for social media that embody the virtues of Catholic Social Teaching to support the common good"
 significance: "Moves virtue ethics from theory to practice by providing concrete design patterns that technologists can instantiate to foster specific virtues like solidarity and subsidiarity"
@@ -38,6 +53,7 @@ CONF-CC: "International Conference on Human Factors in Computing Systems"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
  Design Patterns for the Common Good: Building Better Technologies Using the Wisdom of Virtue Ethics
 

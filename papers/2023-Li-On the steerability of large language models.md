@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2023/2023-Li-On the steerability of large language models.pdf
 DATE_ADDED: 20260208
 LLM_assessed: Falcon
 DATA_URL: "NA"
+CONFERENCE: "NAACL 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2023"
 ---
 # On the steerability of large language models toward data-driven personas
 

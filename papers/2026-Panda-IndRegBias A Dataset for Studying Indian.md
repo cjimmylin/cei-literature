@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ abstract: "Warning: This paper consists of examples representing regional biases
 LLM_assessed: "BERT, DeepSeek, DeepSeek-R1, GPT-4o, Gemma, Gemma-1.1, GPT-4, Llama, LLama 4, Llama-2, Llama-3.2, Llama-4, Mistral-7B, Mistral-NeMo, Mistral-Small, Phi-4-Mini, Qwen, Qwen3"
 DATA_URL: "NA"
 research_topic: "Machine Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # IndRegBias: A Dataset for Studying Indian Regional Biases in English and Code-Mixed Social Media Comments
 

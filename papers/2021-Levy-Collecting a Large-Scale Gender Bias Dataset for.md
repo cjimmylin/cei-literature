@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/SLAB-NLP/BUG"
+CONFERENCE: "EMNLP 2021"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2021"
 ---
 # Collecting a Large-Scale Gender Bias Dataset for Coreference Resolution and Machine Translation
 

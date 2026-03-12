@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "GPT-3.5, GPT-4, Claude-2, Llama-2, Mistral, Gemini, Command, and 
 DATA_URL: "https://github.com/cmu-lti/m-alert"
 tags: 
 abstract: "Building safe Large Language Models (LLMs) across multiple languages is essential in ensuring both safe access and linguistic diversity. To this end, we conduct a large-scale, comprehensive safety evaluation of the current LLM landscape. For this purpose, we introduce M-ALERT, a multilingual benchmark that evaluates the safety of LLMs in five languages: English, French, German, Italian, and Spanish."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies
 

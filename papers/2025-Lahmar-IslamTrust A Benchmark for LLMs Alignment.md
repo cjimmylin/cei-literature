@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "First multi-choice benchmark evaluating LLM alignment with Islamic values across 6 domains. Best model achieves only 66.5% overall alignment, with better Arabic (71.43%) than English (61.58%) performance. Shortcomings stem from limited Islamic ethical discourse in training data, inadequate handling of culturally specific contexts, and model tendency to default to non-Islamic knowledge."
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/aii-lab-dot-org/IslamTrust"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # IslamTrust: A Benchmark for LLMs Alignment with Islamic Values
 

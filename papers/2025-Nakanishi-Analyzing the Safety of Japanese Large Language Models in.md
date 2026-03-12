@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ tags:
 abstract: "In recent years, Large Language Models (LLMs) have attracted growing interest for their significant potential, though concerns have rapidly emerged regarding unsafe behaviors stemming from inherent stereotypes and biases. Most research on stereotypes in LLMs has primarily relied on indirect evaluation setups, in which models are prompted to select between pairs of sentences associated with particular social groups."
 LLM_assessed: "Gemma, Qwen"
 DATA_URL: "https://github.com/momijiro/stereotype_japanese_llm"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "3,612 prompts"
-CONFERENCE: "Preprint"
 ---
 # Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ LLM_assessed: "GPT-4, Llama-3"
 DATA_URL: "https://github.com/Language-Media-Lab/jethics"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "78k examples"
-CONFERENCE: "Other Conference"
 ---
 # JETHICS: Japanese Ethics Understanding Evaluation Dataset
 

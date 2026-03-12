@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Morphologically rich languages are notoriously challenging to process for downstream NLP applications. This paper presents a new pretrained language model, ByT5-Sanskrit, designed for NLP applications involving the morphologically rich language Sanskrit. We evaluate ByT5-Sanskrit on established Sanskrit word segmentation tasks, where it outperforms previous data-driven approaches by a considerable margin and matches the performance of the current best lexicon-based model."
 LLM_assessed: "T5"
 DATA_URL: "https://github.com/sebastian-nehrdich/byt5-sanskrit-analyzers ; https://huggingface.co/buddhist-nlp/byt5-sanskrit"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # One Model is All You Need: ByT5-Sanskrit, a Unified Model for Sanskrit NLP Tasks
 

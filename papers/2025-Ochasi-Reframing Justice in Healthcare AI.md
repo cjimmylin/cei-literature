@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "African healthcare, ubuntu, relational"
@@ -26,7 +41,7 @@ cultures_nationalities_list: "African"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "African/Ubuntu, Virtue Ethics, Utilitarianism"
 key_contribution: "Introduces Ubuntu as a guiding framework for AI in African healthcare, focusing on justice, communalism, and collective well-being"
 significance: "Offers a culturally grounded lens for interpreting justice in AI, challenging Western individualistic approaches and asserting the importance of relational virtues in healthcare deployment"
@@ -37,6 +52,7 @@ CONF-CC: "Developing World Bioethics"
 DATE_ADDED: 20260213
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
  Reframing Justice in Healthcare AI: An Ubuntu-Based Approach for Africa
 

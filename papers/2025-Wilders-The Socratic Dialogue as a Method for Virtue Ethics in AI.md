@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics socratic dialogue"
@@ -27,7 +42,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Demonstrates how using Socratic dialogue with LLMs can foster the cultivation of intellectual virtues like critical thinking and intellectual humility in users"
 significance: "Proposes an educational and interactive method for virtue acquisition mediated by AI, transforming the tool from a passive oracle to an active partner in moral development"
@@ -36,6 +51,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "AIES 2025"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -45,7 +61,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "AIES 2025"
 ---
 # The Socratic Dialogue as a Method for Virtue Ethics in AI: A Case Study
 

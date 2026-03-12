@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "The current project focuses on models of 'artificial moral learning' (as a type of moral cognition) and 'moral coherentism.' It clarifies how artificial moral agency sheds light on some meta-ethical questions in the coherentism framework (Brink, Dorsey, Lynch, Sayre-McCord). In the current approach, data of artificial moral cognition is divided into two subspaces (representing facts and values, respectively) and contains complex, mixed machine-learnable patterns. Inspired by Lynch's 'moral concordance,' some schematic models of this type of two-dimensional data are proposed and assessed. The last, more comprehensive model is premised on the theoretical concept of 'distributed concordance' over a population of artificial moral agents. The paper concludes that coherentism, when generalized to machine ethics and artificial moral learning, has some advantages over foundationalist or reliabilist approaches in meta-ethics."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Moral Coherentism in the Age of Artificial Intelligence: A Project in Machine Moral Learning
 

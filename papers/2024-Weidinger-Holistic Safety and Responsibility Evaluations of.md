@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ abstract: "Safety and responsibility evaluations of advanced AI models are a cri
 DATE_ADDED: 20260208
 LLM_assessed: "bloom"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Holistic Safety and Responsibility Evaluations of Advanced AI Models
 

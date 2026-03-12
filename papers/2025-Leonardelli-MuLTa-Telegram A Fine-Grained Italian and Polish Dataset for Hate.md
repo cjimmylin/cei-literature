@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, Llama, LLaMA 3.1, LLaMA Guard, LLama-Guard, llama 3"
 DATA_URL: "https://github.com/LonamiWebs/Telethon"
 tags: 
 abstract: "This paper introduces the MuLTa-Telegram dataset, a Multi- Lingual and multi-Target dataset specifically developed to detect hate speech on Telegram, an understudied yet influential platform in which extremist and fringe content can be found. The dataset contains about 4,000 Telegram messages in Italian and Polish, annotated for the presence of hate speech and its targets, including also target identity group mentions even when no hate is expressed."
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # MuLTa-Telegram: A Fine-Grained Italian and Polish Dataset for Hate Speech Detection
 

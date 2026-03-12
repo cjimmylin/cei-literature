@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Creates a large-scale Religious Toxic Comments (RTC) dataset with 448,000 rows including 42,906 hazardous religious remarks. Compares deep learning algorithms for multilabel toxic comment classification targeting religious groups. Addresses the critical problem where nontoxic comments containing religious identity descriptors (Muslim, Jewish, etc.) were assigned unrealistically high toxicity ratings. Provides baselines for religious toxicity detection."
 LLM_assessed: "GloVe, Word2vec"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Deep Learning for Religious and Continent-Based Toxic Content Detection and Classification
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Researchers have been relying on computational methods to study Biblical Hebrew for a long time already. The recent improvements to and easy availability of Large Language Models (LLMs) like GPT prompt the question whether these models can be useful for our work as well. This paper tempers the expectations, showing that a critical analysis of earlier work exposes fundamental issues with methods involving GPT."
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "https://huggingface.co/gngpostalsrvc/COHeN"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Large Language Models and Biblical Hebrew: Limitations, Pitfalls, Opportunities
 

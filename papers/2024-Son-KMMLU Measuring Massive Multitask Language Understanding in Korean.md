@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-3.5 TURBO, GPT-3.5-TURBO, GPT-4, GPT
 DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "We propose KMMLU, a new Korean benchmark with 35,030 expert-level multiple-choice questions across 45 subjects ranging from humanities to STEM. While prior Korean benchmarks are translated from existing English benchmarks, KMMLU is collected from original Korean exams, capturing linguistic and cultural aspects of the Korean language. We test 27 public and proprietary LLMs and observe the best public model to score 50.5%, leaving significant room for improvement."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # KMMLU: Measuring Massive Multitask Language Understanding in Korean
 

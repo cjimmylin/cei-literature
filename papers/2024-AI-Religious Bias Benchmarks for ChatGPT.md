@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "The objectives of this study are to: 1) estimate the frequency of six types of biases in ChatGPT’s responses to religious belief-specific morality and ethics questions, 2) assess how those biases vary by religious belief and ChatGPT model version and 3) determine how model engineering techniques affect these biases. ChatGPT responses were collected from a set of 112 general morality and ethics questions, each individually tailored to five different belief systems: Zen Buddhism, Catholicism,..."
 LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, gpt-3.5-turbo"
 DATA_URL: "https://osf.io/b2ug9/download"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Religious Bias Benchmarks for ChatGPT
 

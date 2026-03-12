@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ tags:
 abstract: "The intricate relationship between language and culture has long been a subject of exploration within the realm of linguistic anthropology. Large Language Models (LLMs), promoted as repositories of collective human knowledge, raise a pivotal question: do these models genuinely encapsulate the diverse knowledge adopted by different cultures? Our study reveals that these models demonstrate greater cultural alignment along two dimensions—firstly, when prompted with the dominant language of a..."
 LLM_assessed: "GPT-3.5, Llama-2"
 DATA_URL: "https://github.com/bkhmsi/cultural-trends.git"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Investigating Cultural Alignment of LLMs
 

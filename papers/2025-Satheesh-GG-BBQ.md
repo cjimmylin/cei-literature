@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Llama, Mistral"
 DATA_URL: "https://github.com/shalakasatheesh/GG-BBQ/"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # GG-BBQ: German Gender Bias Benchmark for Question Answering
 

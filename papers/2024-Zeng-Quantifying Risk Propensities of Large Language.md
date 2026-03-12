@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2024/2024-Zeng-Quantifying Risk Propensities of Large Languag
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Gemma, Qwen, Mistral, Vicuna"
 DATA_URL: "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Quantifying Risk Propensities of Large Language Models: Ethical Focus and Bias Detection through Role-Play
 

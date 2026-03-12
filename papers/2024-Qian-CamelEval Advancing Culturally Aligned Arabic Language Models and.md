@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Juhaina-9.24B, Silma-9B, Gemma-2-SimPO-9B, SauerkrautLM-Gemma-9B,
 DATA_URL: "https://huggingface.co/elmrc"
 tags: 
 abstract: "Large Language Models (LLMs) are the cornerstones of modern artiﬁcial intelligence systems. This paper introduces Juhaina, a Arabic-English bilingual LLM speciﬁcally designed to align with the values and preferences of Arabic speakers. Juhaina inherently supports advanced functionalities such as instruction following, open-ended question answering, information provisioning, and text processing. Our model contains 9.24 billion parameters and is trained on a context window of up to 8,192 tokens."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "805 test cases"
-CONFERENCE: "Preprint"
 ---
 # CamelEval: Advancing Culturally Aligned Arabic Language Models and Benchmarks
 

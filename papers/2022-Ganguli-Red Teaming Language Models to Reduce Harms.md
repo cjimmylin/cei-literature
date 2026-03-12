@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,8 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Bartolo"
 DATA_URL: "https://github.com/anthropics/hh-rlhf"
+CONFERENCE: "Preprint"
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned
 

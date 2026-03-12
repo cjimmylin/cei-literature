@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +56,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, Alpaca, BLOOM, BLOOM model, ChatGPT, GPT-3, GPT-4, PaLM"
 DATA_URL: "https://github.com/Significant-Gravitas/Auto-GPT"
 ethics_perspective: "General Ethics"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The Ethics of Advanced AI Assistants
 

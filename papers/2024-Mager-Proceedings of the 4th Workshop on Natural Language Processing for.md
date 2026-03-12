@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,12 +48,13 @@ cultures_nationalities_list: "Chatino, Guarani, Quechua, Rarámuri, Bribri, Maya
 languages_list: "Chatino, Guarani, Quechua, Rarámuri, Bribri, Maya"
 religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
-moral_psychology: 
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "https://aclanthology.org/volumes/2024.americasnlp-1/"
 tags: 
 abstract:
+CONFERENCE: "NAACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2024"
 ---
 # Proceedings of the 4th Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP 2024)
 

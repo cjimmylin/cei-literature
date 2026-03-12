@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "Multilingual/Cross-cultural"
 languages_list: "English, Italian, Persian, Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "Iranian, Italian, Brazilian, Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Created MFTCXplain, a multilingual benchmark for evaluating moral reasoning in LLMs via hate speech multi-hop explanations based on Moral Foundation Theory."
 significance: "Addresses cultural and linguistic bias in moral reasoning evaluation while proving that LLMs struggle to justify their safety classifications with rationales, especially in non-English languages."
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2025/2025-Trager-MFTCXplain.pdf]]"
 LLM_assessed: "GPT-4, Llama-3"
 DATA_URL: "https://github.com/franciellevargas/MFTCXplain"
 DATE_ADDED: 20260207
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for moral/ethical reasoning annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # MFTCXplain: A Multilingual Benchmark Dataset for Evaluating the Moral Reasoning of LLMs through Hate Speech Multi-hop Explanations
 

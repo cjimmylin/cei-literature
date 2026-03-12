@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2022/2022-Rauh-Characteristics of Harmful Text.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, BERT, GPT-2, GPT-3, PaLM"
 DATA_URL: "https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words"
+CONFERENCE: "NeurIPS 2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2022"
 ---
 # Characteristics of Harmful Text: Towards Rigorous Benchmarking of Language Models
 

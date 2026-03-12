@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Warning: This paper contains content that may be offensive or upsetting. Large Language Models (LLMs) have significantly impacted various fields requiring advanced linguistic understanding, yet concerns regarding their inherent biases and ethical considerations have also increased. Notably, LLMs have been critiqued for perpetuating stereotypes against diverse groups based on race, sexual orientation, and other attributes."
 research_topic: Other
+CONFERENCE: "NAACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2024"
 ---
 # Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4
 

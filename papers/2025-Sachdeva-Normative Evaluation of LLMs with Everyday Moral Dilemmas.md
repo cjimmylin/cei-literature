@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "LLM-Evaluation, Moral-Judgment, AITA-Dataset, Normative-Ethics, Everyday-Dilemmas"
 key_contribution: "Evaluates LLMs on 10,000+ Reddit AITA moral dilemmas; reveals distinct moral judgment patterns with low inter-model agreement"
 significance: "Uses real-world everyday moral dilemmas rather than abstract trolley problems for ecological validity"
@@ -41,6 +60,7 @@ LLM_assessed: "GPT-4, GPT-3.5, Claude, PaLM-2, Llama-2, Mistral, Gemma"
 DATA_URL: "https://github.com/dlab-projects/normative_evaluation_llms_everyday_dilemmas"
 pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md"
 local_pdf: "[[PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
+CONFERENCE: "FAccT 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "FAccT 2025"
 ---
 # Normative Evaluation of Large Language Models with Everyday Moral Dilemmas
 

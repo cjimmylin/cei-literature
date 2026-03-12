@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ abstract: "Despite dramatic recent progress in NLP, it is still a major challeng
 LLM_assessed: "BERT, DeBERTa, DeBERTaV3, ELECTRA, GPT-3, RoBERTa"
 DATA_URL: "https://github.com/cdpierse/transformers-interpret"
 research_topic: "Machine Learning"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Myanmar XNLI: Building a Dataset and Exploring Low-resource Approaches to Natural Language Inference with Myanmar
 

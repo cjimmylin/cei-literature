@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ CONF-CC: "ICLR 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Claude, Gemini, Mistral, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/ai-safety-institute/AgentHarm"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents
 

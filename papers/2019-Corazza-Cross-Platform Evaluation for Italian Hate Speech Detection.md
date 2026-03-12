@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +62,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "English. Despite the number of approaches recently proposed in NLP for detecting abusive language on social networks, the issue of developing hate speech detection systems that are robust across different platforms is still an unsolved problem. In this paper we perform a comparative evaluation on datasets for hate speech detection in Italian, extracted from four different social media platforms, i.e. Facebook, Twitter, Instagram and WhatsApp."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -53,7 +73,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Cross-Platform Evaluation for Italian Hate Speech Detection
 

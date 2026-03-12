@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/datasets/fmplaza/offendes"
 tags: 
 abstract: "Offensive language detection and analysis has become a major area of research in Natural Language Processing. The freedom of participation in social media has exposed online users to posts designed to denigrate, insult or hurt them according to gender, race, religion, ideology, or other personal characteristics. Focusing on young inﬂuencers from the wellknown social platforms of Twitter, Instagram, and YouTube, we have collected a corpus composed of 47,128 Spanish comments manually labeled on..."
+CONFERENCE: "ACL 2021"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2021"
 ---
 # OffendES: A New Corpus in Spanish for Offensive Language Research
 

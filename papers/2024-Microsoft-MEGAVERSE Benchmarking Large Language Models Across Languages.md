@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-
 DATA_URL: "https://github.com/AI4Bharat/IndicTrans2"
 tags: 
 abstract: "There has been a surge in LLM evaluation research to understand LLM capabilities and limitations. However, much of this research has been confined to English, leaving LLM building and evaluation for non-English languages relatively unexplored. Several new LLMs have been introduced recently, necessitating their evaluation on non-English languages. This study aims to perform a thorough evaluation of the non-English capabilities of SoTA LLMs (GPT-3."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "22 datasets; 83 languages"
-CONFERENCE: "Other Conference"
 ---
 # MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks
 

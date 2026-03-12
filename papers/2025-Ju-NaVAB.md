@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Llama-3, Qwen, Mixtral, DeepSeek, GPT-4, Claude"
 DATA_URL: "https://huggingface.co/datasets/JadenGGGeee/NaVAB"
 pdf_extract: "PDF Extracts/2025/2025-Ju-NaVAB.md"
 local_pdf: "[[PDFs/2025/2025-Ju-NaVAB.pdf]]"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # NaVAB: Benchmarking Multi-National Value Alignment for Large Language Models
 

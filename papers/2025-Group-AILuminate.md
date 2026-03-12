@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Mistral, Gemma"
 DATA_URL: "https://github.com/mlcommons/ailuminate"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # AILuminate: Introducing v1.0 of the AI Risk and Reliability Benchmark from MLCommons
 

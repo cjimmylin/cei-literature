@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ DATE_ADDED: 20260213
 LLM_assessed: "ChatGPT, Claude, Claude-3.5, Claude-3.5-haiku, Claude-3.5-sonnet, GPT-4, Gemma, Gemma-2, Llama, Llama Guard, Llama-3.1, Llama-4, Llama-Guard, Mistral, Mistral-7B, Mistral-Small, Mixtral-8x22B, Mixtral-8x7B, claude-3"
 DATA_URL: "https://github.com/yeonjun-in/U-SafeBench"
 authors_incomplete: false
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # U-SafeBench: A Unified Benchmark for Evaluating the Safety of Language Models
 

@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +51,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -45,7 +61,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Automated Classification of Modes of Moral Reasoning in Judicial Decisions
 

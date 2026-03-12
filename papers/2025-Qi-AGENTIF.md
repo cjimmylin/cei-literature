@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2025/2025-Qi-AGENTIF.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, DeepSeek, Claude, Llama-3, Qwen, Mistral"
 DATA_URL: "https://github.com/THU-KEG/AgentIF, https://huggingface.co/datasets/THU-KEG/AgentIF"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "723 words; 630 words"
-CONFERENCE: "Other Conference"
 ---
 # AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios
 

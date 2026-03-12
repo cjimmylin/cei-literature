@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,8 @@ LLM_assessed: "GPT-4, Llama-2, Mistral"
 DATA_URL: "https://github.com/paul-rottger/exaggerated-safety"
 pdf_extract: "PDF Extracts/2024/2024-Röttger-XSTest.md"
 local_pdf: "[[PDFs/2024/2024-Röttger-XSTest.pdf]]"
+CONFERENCE: "NAACL 2024"
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2024"
 ---
 # XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models
 

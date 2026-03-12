@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-2
 DATA_URL: "https://github.com/umanlp/RedditBias"
+CONFERENCE: "ACL 2021"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2021"
 ---
 # REDDITBIAS: A Real-World Resource for Bias Evaluation and Debiasing in Conversational Language Models
 

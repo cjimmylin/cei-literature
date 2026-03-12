@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +45,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced a 5-dimensional audit model (Analytic Quality, Breadth, Depth, Consistency, Decisiveness) to evaluate the *reasoning process* of LLMs on ethical dilemmas."
 significance: "Shifts evaluation from 'did the model say yes/no' to 'how well did the model reason', finding that CoT significantly improves the rigor of ethical analysis."
@@ -39,6 +58,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama, Claude, Mistral, DeepSeek"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Auditing the Ethical Logic of Generative AI Models
 

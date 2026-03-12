@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +64,7 @@ tags:
 abstract: "Mixed-methods study finding Muslim users overwhelmingly preferred AI-generated responses to Islamic questions (81.3%) in blind evaluations despite expressing distrust. Expert Islamic scholars found critical shortcomings in accuracy, depth, and contextual sensitivity. Highlights the paradox of user preference vs. expert quality assessment in religious AI content."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "FAccT 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -55,7 +75,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "FAccT 2025"
 ---
 # Blind Faith? User Preference and Expert Assessment of AI-Generated Religious Content
 

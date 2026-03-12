@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ local_pdf: "[[PDFs/2025/2025-Huang-Model Editing as a Double-Edged Sword.pdf]]"
 LLM_assessed: "Llama-2, Llama-3, Mistral, Qwen, Claude, GPT-4, o1, o3, Gemini, DeepSeek, Grok"
 DATA_URL: "https://github.com/baixianghuang/behavior-edit"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm
 

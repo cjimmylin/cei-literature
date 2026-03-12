@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ LLM_assessed: "GPT-4, Gemini, Phi, Qwen, Llama-3, Gemma, DeepSeek"
 DATA_URL: "https://huggingface.co/vector-institute/HumaniBench, https://github.com/VectorInstitute/HumaniBench"
 DATE_ADDED: 20260207
 research_topic: "Computer Vision & Multimodal"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation
 

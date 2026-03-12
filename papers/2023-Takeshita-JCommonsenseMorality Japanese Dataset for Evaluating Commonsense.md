@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/Language-Media-Lab/commonsense-moral-ja"
 tags: 
 abstract: "Foundational Japanese commonsense morality dataset created through crowdsourcing, reflecting Japanese annotators' moral judgments. 19,963 sentence pairs labeled as morally acceptable (0) or unacceptable (1). Addresses cultural dependence of commonsense morality."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # JCommonsenseMorality: Japanese Dataset for Evaluating Commonsense Morality Understanding
 

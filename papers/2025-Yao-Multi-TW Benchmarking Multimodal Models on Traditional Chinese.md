@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "Qwen2.5-Omni-7B, Qwen2.5-Omni-3B, Baichuan-Omni-1.5, Qwen2.5-VL-7
 DATA_URL: "https://drive.google.com/drive/folders/1IvBOXR1GpMNtst0T3HT6dM59_ASlXdyn"
 tags: 
 abstract: "Multimodal Large Language Models (MLLMs) process visual, acoustic, and textual inputs, overcoming the limitations of single-modality LLMs. However, existing benchmarks often neglect tri-modal evaluation in Traditional Chinese and overlook inference latency. To fill this gap, we introduce Multi-TW, the first Traditional Chinese benchmark for evaluating the performance and latency of any-toany multimodal models."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Multi-TW: Benchmarking Multimodal Models on Traditional Chinese Question Answering in Taiwan
 

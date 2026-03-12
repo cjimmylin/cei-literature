@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +63,7 @@ tags:
 abstract: "Detection of cyberbullying and hate speech on Kazakh-language social networks. Early work establishing methods and datasets for harmful content detection in Kazakh. Early Kazakh-specific hate speech detection research. Establishes baseline for harmful content identification in Kazakh social media."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -54,7 +74,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Cyberbullying and Hate Speech Detection on Kazakh-Language Social Networks
 

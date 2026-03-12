@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATE_ADDED: 20260208
 research_topic: "LLM Moral Foundations"
 LLM_assessed: "Claude, DeepSeek, Gemini, Llama-3, GPT-3.5, GPT-4, o3, Grok"
 DATA_URL: "https://github.com/peterkirgis/llm-moral-foundations"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Differences in Moral Foundations of LLMs
 

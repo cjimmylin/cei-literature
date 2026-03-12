@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ DATA_URL: "https://github.com/AndrewZhe/lawyer-llama"
 tags: 
 abstract: "Large language models (LLMs) have made significant progress in natural language processing tasks and demonstrate considerable potential in the legal domain. However, legal applications demand high standards of accuracy, reliability, and fairness. Applying existing LLMs to legal systems without careful evaluation of their potential and limitations could pose significant risks in legal practice. To this end, we introduce a standardized comprehensive Chinese legal benchmark LexEval."
 research_topic: "Machine Learning"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "14,150 questions"
-CONFERENCE: "NeurIPS 2024"
 ---
 # LexEval: A Comprehensive Chinese Legal Benchmark
 

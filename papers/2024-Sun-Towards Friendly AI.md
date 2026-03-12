@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_SUN2024
@@ -25,7 +44,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Friendly AI, Human-AI Alignment, Virtue Ethics, AI Ethics Review"
 key_contribution: "Comprehensive review of Friendly AI proposing 'as-if friendship' framework where AI emulates virtues like empathy and helpfulness"
 significance: "Provides formal definitions of FAI with applications in XAI, privacy, fairness, and affective computing"
@@ -35,6 +54,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Towards Friendly AI: A Comprehensive Review and New Perspectives on Human-AI Alignment
 

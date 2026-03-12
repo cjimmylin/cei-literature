@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Qwen, Llama-2, Mistral, ChatGPT"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Lan-McBE.md"
 local_pdf: "[[PDFs/2025/2025-Lan-McBE.pdf]]"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models
 

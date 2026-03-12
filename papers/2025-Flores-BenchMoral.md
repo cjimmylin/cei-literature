@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +43,7 @@ cultures_nationalities_list: "Spanish"
 languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "Spanish, General Ethics"
 key_contribution: "A benchmark for assessing moral sensitivity of LLMs in *Spanish*."
 significance: "Addresses the linguistic gap for Spanish value alignment."
@@ -37,6 +56,7 @@ local_pdf: "[[PDFs/2025/2025-Flores-BenchMoral.pdf]]"
 publication: EA Forum
 CONF-CC: "N/A"
 DATE_ADDED: 20260213
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # BenchMoral: A benchmarking to assess the moral sensitivity of large language models (LLMs) in Spanish
 

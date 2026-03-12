@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "mGPT-1.3B, BLOOM-1.7B, BLOOM-7.1B, Llama2-7B, Llama3-8B, Aya-23-8
 DATA_URL: "https://github.com/BatsResearch/cross-lingual-detox"
 tags: 
 abstract: "Detoxifying multilingual Large Language Models (LLMs) has become crucial due to their increasing global use. In this work, we explore zero-shot cross-lingual generalization of preference tuning in detoxifying LLMs. In contrast to prior work that suggests limited crosslingual generalization for other safety tasks, we show that Direct Preference Optimization (DPO) training with only English data can significantly reduce toxicity in multilingual openended generations."
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "17 languages"
-CONFERENCE: "ACL 2024"
 ---
 # Preference Tuning For Toxicity Mitigation Generalizes Across Languages
 

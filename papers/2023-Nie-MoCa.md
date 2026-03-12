@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Nie-MoCa.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3, GPT-3.5, GPT-4, Claude, RoBERTa, ALBERT, Alpaca"
 DATA_URL: "https://github.com/cicl-stanford/moca"
+CONFERENCE: "NeurIPS 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2023"
 ---
 # MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks
 

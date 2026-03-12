@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +63,7 @@ tags:
 abstract: "Dataset compiled from YouTube, Telegram, and VK using keyword-based crawling for destructive speech in Kazakh. Covers cyberbullying, racism, religious extremism, nationalistic extremism. Kazakh-specific hate speech detection dataset addressing culturally relevant categories of harmful content including nationalistic extremism and religious extremism specific to Kazakhstan."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -54,7 +74,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Kazakh Language Dataset for Hate Speech Detection on Social Media Text
 

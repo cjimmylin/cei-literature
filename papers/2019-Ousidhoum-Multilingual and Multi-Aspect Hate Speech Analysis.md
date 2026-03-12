@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: BiLSTM
 DATA_URL: "https://github.com/HKUST-KnowComp/MLMA_hate_speech"
 tags: 
 abstract: "Current research on hate speech analysis is typically oriented towards monolingual and single classiﬁcation tasks. In this paper, we present a new multilingual multi-aspect hate speech analysis dataset and use it to test the current state-of-the-art multilingual multitask learning approaches. We evaluate our dataset in various classiﬁcation settings, then we discuss how to leverage our annotations in order to improve hate speech detection and classiﬁcation in general."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Multilingual and Multi-Aspect Hate Speech Analysis
 

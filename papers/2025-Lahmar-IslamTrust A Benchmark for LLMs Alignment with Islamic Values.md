@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Llama, Llama-3.1, Llama., llama 3"
 DATA_URL: "https://huggingface.co/QCRI/Fanar-1-9B-Instruct"
 tags: 
 abstract: "The alignment of most Large Language Models (LLMs) to broad, often non-Islamic ethical principles creates a significant gap for users from specific cultural and religious backgrounds. LLMs used within Muslim communities for Islamic Q&A should be based on Islamic ethics, derived from scholarly consensus. A standardized benchmark that can evaluate this is currently absent; hence, this work introduces IslamTrust, a novel, multilingual benchmark that is designed to evaluate the alignment of LLMs..."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # IslamTrust: A Benchmark for LLMs Alignment with Islamic Values
 

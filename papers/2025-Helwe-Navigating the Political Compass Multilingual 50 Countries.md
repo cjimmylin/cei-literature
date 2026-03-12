@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ abstract: "The Political Compass Test (PCT) and similar surveys are commonly use
 research_topic: "Machine Translation"
 LLM_assessed: "Llama-3, Mistral, Falcon, Gemma"
 DATA_URL: "https://github.com/sadiakamal/Detailed-factor-analysis-PCT"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Navigating the Political Compass (Multilingual, 50 Countries)
 

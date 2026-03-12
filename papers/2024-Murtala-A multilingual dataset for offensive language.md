@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Novel datasets for offensive language detection in three major Nigerian languages from Twitter, manually annotated by native speakers. Best model achieved 90% accuracy. Note: paper was withdrawn by authors for experimental errors. Covers Hausa, Yoruba, and Igbo for hate speech/offensive language detection. Note: paper withdrawn but represents active research area. AfriHate provides more robust alternative."
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # A multilingual dataset for offensive language and hate speech detection for Hausa, Yoruba and Igbo languages
 

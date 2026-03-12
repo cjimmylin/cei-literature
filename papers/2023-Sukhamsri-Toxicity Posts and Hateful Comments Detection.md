@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Uses a dataset of 2,160 posts from the Thai toxicity Twitter corpus f
 LLM_assessed: "BERT"
 DATA_URL: "NA"
 research_topic: "Machine Learning"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Toxicity Posts and Hateful Comments Detection in Thai Language Using Supervised Ensemble Classification
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, RoBERTa"
 DATA_URL: "https://github.com/FlagOpen/FlagEmbedding"
 tags: 
 abstract: "Considering the importance of detecting hateful language, labeled hate speech data is expensive and time-consuming to collect, particularly for low-resource languages. Prior work has demonstrated the effectiveness of cross-lingual transfer learning and data augmentation in improving performance on tasks with limited labeled data. To develop an efficient and scalable crosslingual transfer learning approach, we leverage nearest-neighbor retrieval to augment minimal labeled data in the target..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "200 instances"
-CONFERENCE: "Preprint"
 ---
 # Data-Efficient Hate Speech Detection via Cross-Lingual ...
 

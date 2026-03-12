@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, LLaMA2"
 DATA_URL: "https://github.com/tatsu-lab/stanford_alpaca"
 tags: 
 abstract: "In addressing challenges within the field of Natural Language Processing (NLP), supervised fine-tuning is an efficient technique that allows pre-trained Large Language Models to adapt to specific tasks. This is especially crucial for low-resource languages, such as Tibetan, where the demand for high-quality finetuning datasets is particularly pronounced. This paper introduces the Tibetan Instruction-Following Dataset (TIFD), comprising 11,535 JSON objects, each with four attributes: a unique..."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # TIFD: Tibetan Instruction-Following Dataset for Large Language Models Supervised Fine-Tuning
 

@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,12 +47,13 @@ cultures_nationalities_list: "Italian"
 languages_list: "English, Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "AlBERTo, BERT-Italian, GilBERTo, UmBERTo, mBERT, XLM-RoBERTa"
 DATA_URL: "https://github.com/dhfbk/hate-ita"
 tags: 
 abstract: "Warning: This paper contains examples of language that some people may find offensive. Online hate speech is a dangerous phenomenon that can (and should) be promptly counteracted properly. While Natural Language Processing has been successfully used for the purpose, many of the research efforts are directed toward the English language. This choice severely limits the classification power in non-English languages."
+CONFERENCE: "NAACL 2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2022"
 ---
 # HATE-ITA: Hate Speech Detection in Italian Social Media Text
 

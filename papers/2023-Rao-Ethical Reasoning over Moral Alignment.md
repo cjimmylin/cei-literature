@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Deontology"
 key_contribution: "Proposes infusing generic ethical reasoning capabilities into LLMs to handle global value pluralism rather than aligning to specific fixed principles"
 significance: "Develops a framework integrating moral dilemmas with different normative ethics to maintain consistency with provided policies"
@@ -41,6 +56,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, GPT-3"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "EMNLP 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -50,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2023"
 ---
  Ethical Reasoning over Moral Alignment: A Case and Framework for In-Context Ethical Policies in LLMs
 

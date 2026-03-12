@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ tags:
 abstract: "Warning: This paper contains content that may be offensive or upsetting. There has been a significant increase in the usage of large language models (LLMs) in various applications, both in their original form and through fine-tuned adaptations. As a result, LLMs have gained popularity and are being widely adopted by a large user community. However, one of the concerns with LLMs is the potential generation of socially biased content."
 LLM_assessed: "BLOOM, BLOOM 0, BLOOM 3, BLOOMZ, ChatGPT, GPT-3, GPT-4, Llama, LLaMA., OPT 3, OPT-66B, gpt-3.5-turbo"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "9 categories"
-CONFERENCE: "Preprint"
 ---
 # GPTBIAS: A Comprehensive Framework for Evaluating Bias in Large Language Models
 

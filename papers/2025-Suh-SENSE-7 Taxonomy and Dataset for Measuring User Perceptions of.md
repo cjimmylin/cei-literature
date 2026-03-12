@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Empathy is increasingly recognized as a key factor in human–AI communication, yet conventional approaches to “digital empathy” often focus on simulating internal, humanlike emotional states while overlooking the inherently subjective, contextual, and relational facets of empathy as perceived by users. In this work, we propose a human-centered taxonomy that emphasizes observable empathic behaviors and introduce a new dataset, SENSE-7, of real-world conversations between information workers and..."
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Empathy in Sustained Human-AI Conversations
 

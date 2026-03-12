@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,12 +51,13 @@ cultures_nationalities_list: "Chinese, Japanese"
 languages_list: "Chinese, English, Japanese, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
 newtags: 
 LLM_assessed: "ChatGPT, DeepSeek, GPT-4"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, here's what I found about Chinese moral dilemma LLM alignment evaluation in 2025: Key Research Findings Recent research introduced the Multi-step Moral Dilemmas (MMDs) framework, a path-dependent evaluation approach that captures temporal dynamics of moral judgment. This research across 3,302 five-stage dilemmas revealed that LLMs maintain value orientations while flexibly adjusting preference strengths across sequential dilemmas, with value preferences shifting"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Beyond Verdicts: Evaluating Language Model Moral Competence Aaron J. Snoswell1,
 

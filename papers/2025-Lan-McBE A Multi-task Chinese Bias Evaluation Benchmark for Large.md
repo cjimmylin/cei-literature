@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "ALBERT, Baichuan 2, Baichuan2, ChatGLM, DeepSeek, DeepSeek 1, Dee
 DATA_URL: "NA"
 tags: 
 abstract: ". Warning: This paper contains content that may be offensive or harmful As large language models (LLMs) are increasingly applied to various NLP tasks, their inherent biases are gradually disclosed. Therefore, measuring biases in LLMs is crucial to mitigate its ethical risks. However, most existing bias evaluation datasets are focus on English and North American culture, and their bias categories are not fully applicable to other cultures."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models
 

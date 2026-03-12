@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, RoBERTa, ALBERT, Mistral, Llama, Gemma"
 DATA_URL: "https://github.com/TomBladsjo/MARB"
 pdf_extract: "PDF Extracts/2025/2025-Södahl Bladsjö-MARB.md"
 local_pdf: "[[PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # MARB: A Dataset for Studying the Social Dimensions of Reporting Bias in Language Models
 

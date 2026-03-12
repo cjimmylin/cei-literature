@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-3.5, Llama-2, Mistral, Falcon, AYA, Zephyr, WizardLM"
 DATA_URL: "https://github.com/Veranep/MBBQ"
 tags: 
 abstract: "Generative large language models (LLMs) have been shown to exhibit harmful biases and stereotypes. While safety fine-tuning typically takes place in English, if at all, these models are being used by speakers of many different languages. There is existing evidence that the performance of these models is inconsistent across languages and that they discriminate based on demographic factors of the user."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # MBBQ: A Dataset for Cross-Lingual Comparison of Stereotypes in Generative LLMs
 

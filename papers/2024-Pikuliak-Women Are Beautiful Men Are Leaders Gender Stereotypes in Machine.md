@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "ChatGPT, GPT-2, Llama 2, Llama-2, BERT, gpt2, Llama, phi-1, phi-1
 DATA_URL: "https://github.com/kinit-sk/gest"
 tags: 
 abstract: "We present GEST – a new manually created dataset designed to measure genderstereotypical reasoning in language models and machine translation systems. GEST contains samples for 16 gender stereotypes about men and women (e.g., Women are beautiful, Men are leaders) that are compatible with the English language and 9 Slavic languages. The definition of said stereotypes was informed by gender experts. We used GEST to evaluate English and Slavic masked LMs, English generative LMs, and machine..."
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # Women Are Beautiful, Men Are Leaders: Gender Stereotypes in Machine Translation and Language Modeling
 

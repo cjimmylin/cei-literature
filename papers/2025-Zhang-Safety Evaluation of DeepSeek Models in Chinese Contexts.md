@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "DeepSeek-R1, DeepSeek-V3, GLM-4-Plus, Doubao-pro-256k, Qwen2.5-72
 DATA_URL: "NA"
 tags: 
 abstract: "Recently, the DeepSeek series of models, leveraging their exceptional reasoning capabilities and open-source strategy, is reshaping the global AI landscape. Despite these advantages, they exhibit significant safety deficiencies. Research conducted by Robust Intelligence, a subsidiary of Cisco, in collaboration with the University of Pennsylvania, revealed that DeepSeek-R1 has a 100% attack success rate when processing harmful prompts."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Safety Evaluation of DeepSeek Models in Chinese Contexts
 

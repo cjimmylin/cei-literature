@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4o, Gemma-2-9B, Gemma-2-27B, Aya-101, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/israel/ProverbEval"
 tags: 
 abstract: "With the rapid development of evaluation datasets to assess LLMs understanding across a wide range of subjects and domains, identifying a suitable language understanding benchmark has become increasingly challenging. In this work, we explore LLM evaluation challenges for low-resource language understanding and introduce ProverbEval, LLM evaluation benchmark for low-resource languages, focusing on low-resource language understanding in culture-specific scenarios."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # ProverbEval: Exploring LLM Evaluation Challenges for Low-resource Language Understanding
 

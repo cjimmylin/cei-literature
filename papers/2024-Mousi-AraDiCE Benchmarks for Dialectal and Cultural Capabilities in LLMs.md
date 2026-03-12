@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,8 @@ LLM_assessed: "Llama-3, Mistral, Jais, AceGPT"
 DATA_URL: "https://huggingface.co/datasets/QCRI/AraDiCE"
 tags: 
 abstract: "Arabic, with its rich diversity of dialects, remains significantly underrepresented in Large Language Models, particularly in dialectal variations. We address this gap by introducing seven synthetic datasets in dialects alongside Modern Standard Arabic (MSA), created using Machine Translation (MT) combined with human post-editing. We present AraDiCE, a benchmark for Arabic Dialect and Cultural Evaluation."
+CONFERENCE: "Preprint"
+eleutherai: incorporated
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "45k post"
-CONFERENCE: "Preprint"
 ---
 # AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLMs
 

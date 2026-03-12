@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ tags:
 abstract: "Offensive content refers to messages which are socially unacceptable including vulgar or derogatory messages. As the use of social media increases worldwide, social media administrators are faced with the challenges of tackling the inclusion of offensive content, to ensure clean and non-abusive or offensive conversations on the platforms they provide. This work organizes and describes techniques used for the automated detection of offensive languages in social media content in recent times,..."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Detection of offensive content in the Kazakh language using machine learning and deep learning approaches
 

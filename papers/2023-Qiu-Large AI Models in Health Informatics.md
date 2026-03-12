@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "IEEE Journal of Biomedical and Health Informatics"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, PaLM, PaLM 2"
 DATA_URL: "https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Large AI Models in Health Informatics: Applications, Challenges, and the Future
 

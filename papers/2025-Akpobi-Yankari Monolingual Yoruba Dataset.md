@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/acflp/YANKARI"
 pdf_extract: "PDF Extracts/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.md"
 local_pdf: "[[PDFs/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Yankari: Monolingual Yoruba Dataset
 

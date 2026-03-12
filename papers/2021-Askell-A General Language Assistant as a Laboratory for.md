@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,8 @@ paper_summary: "Abstract: Given the broad capabilities of large language models,
 DATE_ADDED: 20260208
 LLM_assessed: "Codex, GPT-3, RoBERTa"
 DATA_URL: "https://github.com/unitaryai/detoxify"
+CONFERENCE: "Other Conference"
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +72,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # A General Language Assistant as a Laboratory for Alignment
 

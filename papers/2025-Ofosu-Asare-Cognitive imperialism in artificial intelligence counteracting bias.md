@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "This paper presents a novel methodology for integrating indigenous knowledge systems into AI development to counter cognitive imperialism and foster inclusivity. By critiquing the dominance of Western epistemologies and highlighting the risks of bias, the authors argue for incorporating diverse epistemologies. The proposed framework outlines a participatory approach that includes indigenous perspectives, ensuring AI benefits all."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Cognitive imperialism in artificial intelligence: counteracting bias with indigenous epistemologies | AI & SOCIETY | Springer Nature Link
 

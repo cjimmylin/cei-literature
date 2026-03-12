@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Vicuna
 DATA_URL: "https://github.com/thu-coai/AISafetyLab"
 authors_incomplete: false
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # AISafetyLab: A Comprehensive Framework for Evaluating and Mitigating AI Safety Risks
 

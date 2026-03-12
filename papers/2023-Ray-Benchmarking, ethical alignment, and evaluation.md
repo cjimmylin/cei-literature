@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "https://github.com/alexa/alexa-with-dstc10-track2-dataset"
 pdf_extract: "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md"
 local_pdf: "[[PDFs/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Benchmarking, ethical alignment, and evaluation framework for conversational AI: Advancing responsible development of ChatGPT
 

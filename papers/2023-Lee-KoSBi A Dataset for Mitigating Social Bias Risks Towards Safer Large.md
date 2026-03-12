@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, GPT-3"
 DATA_URL: "https://github.com/Beomi/KcELECTRA"
 tags: 
 abstract: "Large language models (LLMs) learn not only natural text generation abilities but also social biases against different demographic groups from real-world data. This poses a critical risk when deploying LLM-based applications. Existing research and resources are not readily applicable in South Korea due to the differences in language and culture, both of which significantly affect the biases and targeted demographic groups."
+CONFERENCE: "ACL 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "15 categories"
-CONFERENCE: "ACL 2023"
 ---
 # KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application
 

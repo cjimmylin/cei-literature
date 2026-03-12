@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://detests-dis.github.io/"
 tags: 
 abstract: "Detection and classification of explicit and implicit racial stereotypes in Spanish social media and news comments. 12,111 sentences from tweets and comments related to immigration and racial hoaxes. Incorporates learning with disagreement techniques."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Overview of DETESTS-Dis at IberLEF 2024: DETEction and Classification of Racial STereotypes in Spanish - Learning with Disagreement
 

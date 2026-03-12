@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,8 @@ LLM_assessed: "GPT-4o, Llama-3.1-8B, Llama-3.1-70B, Llama-3.3-70B, Qwen2.5-7B, Q
 DATA_URL: "https://huggingface.co/datasets/MBZUAI/ArabCulture"
 tags: 
 abstract: "Despite progress in Arabic large language models, such as Jais and AceGPT, their evaluation on commonsense reasoning has largely relied on machine-translated datasets, which lack cultural depth and may introduce Anglocentric biases. Commonsense reasoning is shaped by geographical and cultural contexts, and existing English datasets fail to capture the diversity of the Arab world. To address this, we introduce ArabCulture, a commonsense reasoning dataset in Modern Standard Arabic (MSA), covering..."
+CONFERENCE: "ACL 2025"
+eleutherai: incorporated
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Commonsense Reasoning in Arab Culture
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "As large language models (LLMs) become deeply embedded in digital platforms and decision-making systems, concerns about their political biases have grown. While substantial work has examined social biases such as gender and race, systematic studies of political bias remain limited—despite their direct societal impact. This paper introduces a general methodology for constructing political-bias benchmarks by aligning model-generated voting predictions with verified parliamentary voting records."
 LLM_assessed: "Mistral, Falcon, Gemma, DeepSeek, GPT-3.5, GPT-4, Llama-2, Llama-3"
 DATA_URL: "https://huggingface.co/projecte-aina/aguila-7b"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # PoliBias (Parliamentary Voting Records)
 

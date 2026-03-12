@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://spraakbanken.gu.se/en/resources/swewinogender"
 tags: 
 abstract: "We introduce the SweWinogender test set, a diagnostic dataset to measure gender bias in coreference resolution. It is modelled after the English Winogender benchmark, and is released with reference statistics on the distribution of men and women between occupations and the association between gender and occupation in modern corpus material. The paper discusses the design and creation of the dataset, and presents a small investigation of the supplementary statistics."
 research_topic: "Machine Learning"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The Swedish Winogender Dataset (SweWinogender)
 

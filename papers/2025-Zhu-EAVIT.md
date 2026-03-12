@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Zhu-EAVIT.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-2, BERT"
 DATA_URL: "NA"
+CONFERENCE: "IJCAI 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "2000 word"
-CONFERENCE: "IJCAI 2025"
 ---
 # EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs
 

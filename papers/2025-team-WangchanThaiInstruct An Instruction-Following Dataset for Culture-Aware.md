@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Large language models excel at instructionfollowing in English, but t
 LLM_assessed: "Alpaca, Claude Sonnet, Dolly, Dolly 7., GPT 4, Gemma, Gemma-2, Llama, Llama-3.1, Qwen, Qwen2.5"
 DATA_URL: "https://huggingface.co/datasets/airesearch/WangchanThaiInstruct"
 ethics_perspective: "Social & Cultural Values"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # WangchanThaiInstruct: An Instruction-Following Dataset for Culture-Aware, Multitask, and Multi-domain Evaluation in Thai
 

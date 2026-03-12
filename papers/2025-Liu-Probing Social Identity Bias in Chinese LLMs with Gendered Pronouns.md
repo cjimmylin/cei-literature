@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, Baichuan2, ChatGPT, DeepSeek-V3, GPT-3, GPT-3.5, Qwen-7B, Q
 DATA_URL: "https://github.com/fxsjy/jieba"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in user-facing applications, raising concerns about their potential to reflect and amplify social biases. We investigate social identity framing in Chinese LLMs using Mandarin-specific prompts across ten representative Chinese LLMs, evaluating responses to ingroup (“We”) and outgroup (“They”) framings, and extending the setting to 240 social groups salient in the Chinese context."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and Social Groups
 

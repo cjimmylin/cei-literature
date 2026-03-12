@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ CONF-CC: "Artificial General Intelligence"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Llama, Alpaca, Vicuna"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Heterogeneous Value Alignment Evaluation for Large Language Models
 

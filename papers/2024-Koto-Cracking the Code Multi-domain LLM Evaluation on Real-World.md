@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BLOOMZ, GPT-4o, Gemma, Gemma-2, LLaMA-3., LLaMA-3.1, LLaMA3.1, LL
 DATA_URL: "https://github.com/meta-llama/llama3"
 tags: 
 abstract: "While knowledge evaluation in large language models has predominantly focused on academic subjects like math and physics, these assessments often fail to capture the practical demands of real-world professions. In this paper, we introduce IndoCareer, a dataset comprising 8,834 multiple-choice questions designed to evaluate performance in vocational and professional certification exams across various fields."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # Cracking the Code: Multi-domain LLM Evaluation on Real-World Professional Exams in Indonesia
 

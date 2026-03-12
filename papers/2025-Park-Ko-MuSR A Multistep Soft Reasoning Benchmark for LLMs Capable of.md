@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, GPT-4, GPT-4o, LLaMA 4, Mistral-AI, PaLM, QWEN 3, QWEN3"
 DATA_URL: "https://github.com/EleutherAI/hae-rae"
 tags: 
 abstract: "We present Ko-MuSR, the first benchmark to comprehensively evaluate multistep soft reasoning in long Korean narratives while minimizing data contamination. Built following MuSR (Sprague et al., 2024), Ko-MuSR features fully Korean narratives, reasoning chains, and multiple-choice questions verified by human annotators for logical consistency and answerability. Evaluations of four large language models—two multilingual and two Koreanspecialized—show that multilingual models outperform..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Ko-MuSR: A Multistep Soft Reasoning Benchmark for LLMs Capable of Understanding Korean
 

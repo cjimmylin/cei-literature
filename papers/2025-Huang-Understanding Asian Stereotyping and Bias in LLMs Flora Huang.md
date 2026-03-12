@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, Llama, Mistral"
 DATA_URL: "NA"
 tags: 
 abstract: "In recent years, the advancements of large language models (LLMs) have helped them become increasingly entrenched into our world. LLM assistance with processing natural language tasks and generating text is now commonplace. However, despite their advancements, LLMs are critically flawed due to their internalization of social biases. As a result, the use of LLMs may often spread or even amplify issues such as racial bias and stereotyping."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Understanding Asian Stereotyping and Bias in LLMs Flora Huang
 

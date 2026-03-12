@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_CHEUNG2025
@@ -23,7 +38,7 @@ cultures_nationalities_list: "American"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: Yes
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Moral Reasoning, LLM Bias, Cognitive Bias, Deontology, Utilitarianism"
 key_contribution: "Demonstrates LLMs show stronger omission bias than humans and a novel 'no-bias' in moral decision-making, likely arising from fine-tuning"
 significance: "PNAS publication revealing systematic biases in LLM moral advice with implications for AI ethics"
@@ -35,6 +50,7 @@ normative_ethics_benchmark: Yes
 publication: PNAS
 CONF-CC: "PNAS"
 DATE_ADDED: 20260207
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -44,7 +60,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Large language models show amplified cognitive biases in moral decision-making
 

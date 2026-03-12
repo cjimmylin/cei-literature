@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/spaces/hebrew-llm-leaderboard/leaderboard"
 tags: 
 abstract: "Open leaderboard for evaluating Hebrew LLMs on four tasks: QA, Sentiment Analysis, Winograd Schema Challenge, and Translation. Addresses Hebrew as low-resource language with unique evaluation needs."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Open Leaderboard for Hebrew LLMs
 

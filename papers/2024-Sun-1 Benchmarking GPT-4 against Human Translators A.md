@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "ChatGPT, GPT-3, GPT-4, GPT-4-turbo, GPT4, gpt-4vision"
 DATA_URL: "https://github.com/ElliottYan/GPT_versus_"
 tags: 
 abstract: "This study presents a comprehensive evaluation of GPT-4’s translation capabilities compared to human translators of varying expertise levels. Through systematic human evaluation using the MQM schema, we assess translations across three language pairs (Chinese←→English, Russian←→English, and Chinese←→Hindi) and three domains (News, Technology, and Biomedical). Our findings reveal that GPT-4 achieves performance comparable to junior-level translators in terms of total errors, while still lagging..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for hallucination detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # 1 Benchmarking GPT-4 against Human Translators: A
 

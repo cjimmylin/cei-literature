@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "Bartolo, Command R, Command R+, Dolly, Dolly-200, GPT-4, GPT4, Gemma, Mistral, ChatGPT"
 DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "6 languages"
-CONFERENCE: "Journal"
 ---
 # AyaRedTeaming: A Benchmark for Exploring Alignment Across Global and Local Preferences
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Llama-2, Mistral"
 DATA_URL: "https://github.com/ai-forever/MERA"
 pdf_extract: "PDF Extracts/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md"
 local_pdf: "[[PDFs/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.pdf]]"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # MERA: A Comprehensive LLM Evaluation in Russian
 

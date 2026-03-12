@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, DistilBERT"
 DATA_URL: "https://github.com/MaityKrishanu/Hate_Malay"
 tags: 
 abstract: "26,985 bilingual Malay-English social media texts from five public sources for binary hate speech detection. 13,609 English and 13,376 Malay-language texts with human annotation and controlled pseudo-labelling."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # A Bilingual Malay-English Social Media Dataset for Binary Hate Speech Detection
 

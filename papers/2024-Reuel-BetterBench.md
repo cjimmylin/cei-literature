@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, ChatGPT, Claude-3, Claude., Codex, GPT-4, Gemini, Llama"
 DATA_URL: "https://betterbench.stanford.edu"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # BetterBench: Assessing AI Benchmarks, Uncovering Issues and Opportunities
 

@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ CONF-CC: "WOAH"
 DATE_ADDED: 20260208
 LLM_assessed: "XLM-T"
 DATA_URL: "https://github.com/rewire-online/multilingual-hatecheck"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Multilingual HateCheck: Functional Tests for Hate Speech Detection Models in 16 Languages
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "Findings of the Association for Computational Linguistics: ACL 2022"
 DATE_ADDED: 20260208
 LLM_assessed: "T5, RoBERTa, DeBERTa"
 DATA_URL: "https://github.com/nyu-mll/BBQ"
+CONFERENCE: "ACL 2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2022"
 ---
 # BBQ: A hand-built bias benchmark for question answering
 

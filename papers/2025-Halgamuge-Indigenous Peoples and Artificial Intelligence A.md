@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "This systematic literature review addresses the intersection of two rapidly evolving areas of knowledge and practice: Indigenous Knowledge Systems (IKS) and artiﬁcial intelligence (AI). There is growing scholarly recognition of the rich and diverse nature of IKS, which are unique intergenerational understandings of worldly relations from an Indigenous standpoint. There is now a vast literature on the promise and pitfalls of AI."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Indigenous Peoples and Artificial Intelligence: A Systematic Review and Future Directions
 

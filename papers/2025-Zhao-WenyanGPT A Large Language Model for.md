@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Classical Chinese, as the core carrier of Chinese culture, plays a crucial role in the inheritance and study of ancient literature. However, existing natural language processing models primarily optimize for Modern Chinese, resulting in inadequate performance on Classical Chinese. This paper presents a comprehensive solution for Classical Chinese language processing. By continuing pre-training and instruction fine-tuning on the LLaMA38B-Chinese model, we construct a large language model,..."
 LLM_assessed: "BERT, Baichuan2, DeepSeek-AI, DeepSeek, Deepseek-V3, GPT-4, GPT-4o, Llama, LLaMA3, Llama-3, Qwen1.5, Qwen2, Qwen2.5"
 DATA_URL: "Training data, instruction fine-tuning data, and WenyanBENCH publicly available"
+CONFERENCE: "IJCAI 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "IJCAI 2025"
 ---
 # WenyanGPT: A Large Language Model for Classical Chinese Tasks (with WenyanBENCH)
 

@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +40,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: Utilitarianism
 key_contribution: "Presented ValueNet, a dataset of 21k text scenarios annotated with Schwartz values, and a value regression model"
 significance: "First large-scale dataset for teaching agents diverse human values (Schwartz dimensions) rather than just social norms, enabling value-driven dialogue systems"
@@ -38,6 +53,7 @@ CONF-CC: "AAAI 2022"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, BART"
 DATA_URL: "https://liang-qiu.github.io/ValueNet/"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +63,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # ValueNet: A New Dataset for Human Value Driven Dialogue System
 

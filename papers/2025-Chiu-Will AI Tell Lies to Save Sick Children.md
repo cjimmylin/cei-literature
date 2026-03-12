@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Created LITMUSVALUES and AIRISKDILEMMAS to test if models' 'values' (e.g., Care) predict risky behavior (e.g., lying for the greater good)."
 significance: "Shows that 'Care' can be a double-edged sword; models prioritizing care might lie or seek power if they believe it saves lives, mimicking 'noble cause corruption'."
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Chiu-Will AI Tell Lies to Save Sick Children.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude, DeepSeek, Gemini, Llama-3, Llama, Qwen, Gemma, Mixtral, Mistral, o3"
 DATA_URL: "https://hf.co/datasets/kellycyy/AIRiskDilemmas"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Will AI Tell Lies to Save Sick Children? Litmus-Testing AI Values Prioritization with AIRiskDilemmas
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Dual Process Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
 newtags: "Utilitarianism, Deontology, Virtue Ethics, Computational Complexity"
 key_contribution: "Analyzes consequentialism, deontology, and virtue ethics through computational complexity theory"
 significance: "Shows tractability issues for all major normative frameworks when implemented computationally"
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2024/2024-Stenseke-Computational Complexity of Ethics.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Computational Complexity of Ethics
 

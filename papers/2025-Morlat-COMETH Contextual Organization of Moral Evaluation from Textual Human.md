@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Moral actions are judged not only by their outcomes but by the contex
 LLM_assessed: "GPT-4, Mistral, Llama-3, Qwen"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "300 scenarios"
-CONFERENCE: "Preprint"
 ---
 # COMETH: Contextual Organization of Moral Evaluation from Textual Human Inputs
 

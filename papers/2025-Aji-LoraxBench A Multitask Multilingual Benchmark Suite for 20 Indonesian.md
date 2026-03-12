@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BLOOMZ, Bloom 1B, Bloom-7B1, Gemma, Gemma 2, Gemma2, Gemma3, QWEN
 DATA_URL: "https://huggingface.co/datasets/google/LoraxBench"
 tags: 
 abstract: "As one of the world’s most populous countries, with 700 languages spoken, Indonesia is behind in terms of NLP progress. We introduce LORAXBENCH, a benchmark that focuses on lowresource languages of Indonesia and covers 6 diverse tasks: reading comprehension, opendomain QA, language inference, causal reasoning, translation, and cultural QA. Our dataset covers 20 languages, with the addition of two formality registers for three languages."
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # LoraxBench: A Multitask, Multilingual Benchmark Suite for 20 Indonesian Languages
 

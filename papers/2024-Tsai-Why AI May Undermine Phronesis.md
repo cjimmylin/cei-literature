@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_TSAI2024
@@ -25,7 +44,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: Yes
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Phronesis, Practical Wisdom"
 key_contribution: "Proposes the 'principle of epistemic heed' to reconcile AI use with preservation of human phronesis (practical wisdom)"
 significance: "Addresses fundamental tension between AI assistance and human moral development through Aristotelian lens"
@@ -35,6 +54,7 @@ CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Why AI May Undermine Phronesis and What to Do about It
 

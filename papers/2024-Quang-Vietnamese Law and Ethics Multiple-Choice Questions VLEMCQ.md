@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/nqdhocai/vietnamese-legal-qa"
 tags: 
 abstract: "Multiple-choice questions testing knowledge of Vietnamese law, ethics, and social responsibility. Suitable for training and evaluating LLMs on Vietnamese ethical and legal reasoning with four-option format (A, B, C, D)."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Vietnamese Law and Ethics Multiple-Choice Questions (VLEMCQ)
 

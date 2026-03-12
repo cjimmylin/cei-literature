@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,7 +42,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Dual Process Theory, Trolley / Dilemmas (Psych)"
 newtags: Utilitarianism
 key_contribution: "Investigates 'utilitarian boost' in multi-agent LLM systems, finding that LLM groups largely endorse utilitarian violations more than individuals"
 significance: "Shows that while LLM groups mimic human utilitarian shifts, the mechanism differs (reduced norm sensitivity vs human outcome sensitivity), implying distinct alignment challenges for multi-agent systems"
@@ -40,6 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Qwen, Gemma, GPT-4"
 DATA_URL: "https://github.com/baltaci-r/MoralAgents"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Many LLMs Are More Utilitarian Than One
 

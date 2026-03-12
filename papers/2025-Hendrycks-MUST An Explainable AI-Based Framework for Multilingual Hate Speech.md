@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "In this letter an approach for fitting saturation characteristic and hysteresis using arctangent functions is presented. It has direct application to modeling transformers and electric machines. The approach is based on measurements of the magnetizing curve of the ferromagnetic material. The analytical form of the characteristic can be completely described by only three parameters. These three parameters are enough to take into account: the slope of the linear region, the position of the knee, and the saturating slope. The appropriate selection of these parameters allows the fitting of a wide class of magnetizing characteristics in simulation programs."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # MUST: An Explainable AI-Based Framework for Multilingual Hate Speech Detection | IEEE Journals & Magazine | IEEE Xplore
 

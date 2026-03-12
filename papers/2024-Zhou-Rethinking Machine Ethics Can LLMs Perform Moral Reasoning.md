@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +56,7 @@ LLM_assessed: "Llama-2, GPT-4"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ethics_perspective: "Moral Reasoning & Psychology"
+CONFERENCE: "NAACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -50,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2024"
 ---
 # Rethinking Machine Ethics – Can LLMs Perform Moral Reasoning through the Lens of Moral Theories?
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_BROPHY2025
@@ -25,7 +44,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Moral Epistemology, AI Safety, Constitutional AI, Reflective Equilibrium"
 key_contribution: "Proposes Method of Wide Reflective Equilibrium (MWRE) from moral philosophy as framework for improving LLM alignment through dynamic bi-directional principle revision"
 significance: "Bridges moral epistemology and AI safety, arguing current methods like CAI lack MWRE's procedural legitimacy"
@@ -35,6 +54,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Claude, Claude Opus, DeepSeek"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Wide Reflective Equilibrium in LLM Alignment: Bridging Moral Epistemology and AI Safety
 

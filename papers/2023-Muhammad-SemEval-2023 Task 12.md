@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "SemEval 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, Debertav3, RoBERTa, deberta using, electra"
 DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)
 

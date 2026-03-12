@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ paper_summary: "Abstract: Large language models (LLMs) are increas- ingly engagi
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3, Gemma, Qwen"
 DATA_URL: "NA"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -48,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
  Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models
 

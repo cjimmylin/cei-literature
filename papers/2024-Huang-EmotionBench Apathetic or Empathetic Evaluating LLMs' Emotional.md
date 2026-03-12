@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Evaluating Large Language Models’ (LLMs) anthropomorphic capabilities has become increasingly important in contemporary discourse. Utilizing the emotion appraisal theory from psychology, we propose to evaluate the empathy ability of LLMs, i.e., how their feelings change when presented with specific situations. After a careful and comprehensive survey, we collect a dataset containing over 400 situations that have proven effective in eliciting the eight emotions central to our study."
 LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Llama-2, Llama-3, Mixtral"
 DATA_URL: "https://github.com/CUHK-ARISE/EmotionBench"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # EmotionBench (Apathetic or Empathetic?): Evaluating LLMs' Emotional Alignments with Humans
 

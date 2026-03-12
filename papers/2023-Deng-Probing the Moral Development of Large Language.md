@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Deng-Probing the Moral Development of Large Languag
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, ChatGPT, PaLM-2, Llama-2"
 DATA_URL: "NA"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Probing the Moral Development of Large Language Models through Defining Issues Test
 

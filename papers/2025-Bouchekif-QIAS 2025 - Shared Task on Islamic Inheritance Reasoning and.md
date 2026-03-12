@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ tags:
 abstract: "This paper provides a comprehensive overview of the QIAS 2025 shared task, organized as part of the ArabicNLP 2025 conference and co­located with EMNLP 2025. The task was designed for the evaluation of large language models in the complex domains of religious and legal reasoning. It comprises two subtasks: (1) Islamic Inheritance Reasoning, requiring mod­ els to compute inheritance shares according to Islamic jurisprudence, and (2) Islamic Knowl­ edge Assessment, which covers a range of tradi­..."
 LLM_assessed: "GPT-4, Gemini, DeepSeek, Qwen, Claude, Llama-3, Mistral, Falcon, BERT"
 DATA_URL: "https://gitlab.com/islamgpt1/qias_shared_task_2025"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment
 

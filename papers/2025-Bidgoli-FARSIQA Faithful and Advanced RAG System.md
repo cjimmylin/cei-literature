@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "The advent of Large Language Models (LLMs) has revolutionized Natural
 LLM_assessed: "Llama 3, Llama 4, Llama-4"
 DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # FARSIQA: Faithful and Advanced RAG System for Islamic Question Answering
 

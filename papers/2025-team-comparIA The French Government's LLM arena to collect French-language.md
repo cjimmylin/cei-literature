@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ DATA_URL: "https://huggingface.co/datasets/ministere-culture/comparia-conversati
 tags: 
 abstract: "Large Language Models (LLMs) often show reduced performance, cultural alignment, and safety robustness in non-English languages, partly because English dominates both pre-training data and human preference alignment datasets. Training methods like Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO) require human preference data, which remains scarce and largely non-public for many languages beyond English."
 ethics_perspective: "AI Safety & Alignment"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # compar:IA: The French Government's LLM arena to collect French-language human prompts and preference data
 

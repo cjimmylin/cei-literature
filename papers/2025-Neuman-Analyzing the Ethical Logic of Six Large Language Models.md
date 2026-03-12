@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +56,7 @@ DATE_ADDED: 20260213
 LLM_assessed: "GPT-4, Llama, Claude, Mistral"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -50,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  Analyzing the Ethical Logic of Six Large Language Models
 

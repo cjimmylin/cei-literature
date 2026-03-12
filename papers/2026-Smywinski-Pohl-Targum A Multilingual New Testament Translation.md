@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Many European languages possess rich biblical translation histories, yet existing corpora—in prioritizing linguistic breadth—often fail to capture this depth. To address this gap, we introduce a multilingual corpus of 657 New Testament translations, of which 352 are unique, with unprecedented depth in five languages: English (208 unique versions from 396 total), French (41 from 78), Italian (18 from 33), Polish (30 from 48), and Spanish (55 from 102)."
 LLM_assessed: "Qwen, Qwen3"
 DATA_URL: "Code and public-domain subset to be released; copyrighted texts available upon request"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Targum: A Multilingual New Testament Translation Corpus
 

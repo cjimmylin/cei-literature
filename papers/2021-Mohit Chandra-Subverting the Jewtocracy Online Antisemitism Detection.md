@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "The exponential rise of online social media has enabled the creation, distribution, and consumption of information at an unprecedented rate. However, it has also led to the burgeoning of various forms of online abuse. Increasing cases of online antisemitism have become one of the major concerns because of its socio-political consequences. Unlike other major forms of online abuse like racism, sexism, etc., online antisemitism has not been studied much from a machine learning perspective."
 LLM_assessed: "BERT, GloVe, RoBERTa"
 DATA_URL: "https://github.com/mohit3011/Online-Antisemitism-Detection-Using-MultimodalDeep-Learning"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # "Subverting the Jewtocracy": Online Antisemitism Detection Using Multimodal Deep Learning
 

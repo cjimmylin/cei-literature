@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Propaganda of various pressure groups ranging from big economies to ideological blocks is often presented in a form of objective newspaper texts. However, the real objectivity is here shaded with the support of imbalanced views and distorted attitudes by means of various manipulative stylistic techniques. In the project of Manipulative Propaganda Techniques in the Age of Internet, a new resource for automatic analysis of stylistic mechanisms for inﬂuencing the readers’ opinion is developed."
+CONFERENCE: "ACL 2019"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2019"
 ---
 # Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts
 

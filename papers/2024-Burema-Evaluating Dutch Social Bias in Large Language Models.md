@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-3.5, GPT-4, LLaMa-2, Mistral, Zephyr"
 DATA_URL: "https://github.com/renateburema/master"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly used by people in their daily lives. However, LLMs can contain biases and express these biases in their responses. One of these biases is social bias, on which this thesis is focused. Furthermore, one form of social bias is a disparate treatment of individuals based on characterizations such as age, gender and race. It is therefore crucial to explore the possible biases within LLMs and to raise awareness."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Evaluating Dutch Social Bias in Large Language Models
 

@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "Claude-3.5-Sonnet, GPT-4o, Gemini-Pro, Llama-3, Qwen, DeepSeek"
 DATA_URL: "https://huggingface.co/datasets/telegraphpolehead/linguasafe"
 tags: 
 abstract: "The widespread adoption and increasing prominence of large language models (LLMs) in global technologies necessitate a rigorous focus on ensuring their safety across a diverse range of linguistic and cultural contexts. The lack of a comprehensive evaluation and diverse data in existing multilingual safety evaluations for LLMs limits their effectiveness, hindering the development of robust multilingual safety alignment."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "12 languages"
-CONFERENCE: "Preprint"
 ---
 # LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models
 

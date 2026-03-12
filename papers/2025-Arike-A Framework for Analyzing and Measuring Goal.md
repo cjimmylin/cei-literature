@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "100,000 tokens"
-CONFERENCE: "Preprint"
 ---
 # A Framework for Analyzing and Measuring Goal Drift in Language Model Agents
 

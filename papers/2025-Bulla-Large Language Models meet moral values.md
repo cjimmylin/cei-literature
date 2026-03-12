@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +45,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "Machine Ethics"
 key_contribution: "Evaluated the ability of LLMs (GPT-4, Llama, etc.) to perform *unsupervised* moral classification on the Moral Foundation Reddit Corpus, comparing them to human annotations."
 significance: "Assesses whether general-purpose LLMs can replace specific supervised models for moral sensing, finding that GPT-4 is superior but significant variations exist across moral domains."
@@ -38,6 +57,7 @@ LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://osf.io/kw6rc/?view_only=73c3d8e2f7c9483ea012347d70d27b6f"
 pdf_extract: "PDF Extracts/2025/2025-Bulla-Large Language Models meet moral values.md"
 local_pdf: "[[PDFs/2025/2025-Bulla-Large Language Models meet moral values.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Large Language Models meet moral values: A comprehensive assessment of moral abilities
 

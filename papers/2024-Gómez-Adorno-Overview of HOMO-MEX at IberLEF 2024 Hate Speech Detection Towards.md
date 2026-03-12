@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, GPT2, GloVE, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Hate speech is a significant threat to social diversity and human rights. Detecting anti-LGBT hate speech on social media is a complex area of research that requires a multifaceted and adaptable approach. This work aims to present a review of recent efforts in the investigation of hate speech towards the LGBT population on social networks and explore the use of computational techniques for the detection and classification of these speeches."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish Speaking LGBT+ Population
 

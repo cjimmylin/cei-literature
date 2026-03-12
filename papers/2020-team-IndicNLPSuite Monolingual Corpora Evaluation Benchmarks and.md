@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "In this paper, we introduce NLP resources for 11 major Indian languages from two major language families. These resources include: (a) large-scale sentence-level monolingual corpora, (b) pre-trained word embeddings, (c) pre-trained language models, and (d) multiple NLU evaluation datasets (IndicGLUE benchmark). The monolingual corpora contains a total of 8.8 billion tokens across all 11 languages and Indian English, primarily sourced from news crawls."
 LLM_assessed: "ALBERT, BERT, GloVe, word2vec"
 DATA_URL: "https://github.com/AI4Bharat/indicnlp_catalog"
+CONFERENCE: "EMNLP 2020"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2020"
 ---
 # IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ paper_summary: "Abstract: Hate speech is a challenging issue plaguing the online
 LLM_assessed: BERT
 DATA_URL: "https://github.com/punyajoy/HateXplain"
 DATE_ADDED: 20260213
+CONFERENCE: "AAAI 2020"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2020"
 ---
 # HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection
 

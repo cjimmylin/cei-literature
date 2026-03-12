@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 authors_incomplete: false
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # SGBench: A Benchmark for Evaluating the Safety of Generative AI
 

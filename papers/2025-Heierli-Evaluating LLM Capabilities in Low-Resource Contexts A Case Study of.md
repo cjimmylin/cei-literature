@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4o, Gemini, Llama, DeepSeek"
 DATA_URL: "NA"
 tags: 
 abstract: "Examines GPT-4o, Gemini, Llama, and DeepSeek across multiple Persian language tasks. Finds consistent performance deterioration and cultural misalignment. Role-based prompting shows only incremental improvements. Advocates for expanded Persian linguistic resources and evaluation methods addressing both language proficiency and cultural congruence."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Evaluating LLM Capabilities in Low-Resource Contexts: A Case Study of Persian Linguistic and Cultural Tasks
 

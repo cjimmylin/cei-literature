@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ abstract: "Summary: Seven orthodox theologians graded seven LLMs on responses to
 LLM_assessed: "DeepSeek R1, Llama-3.7, GPT-4o, Claude, Gemini"
 DATA_URL: "https://www.thegospelcoalition.org/ai-christian-benchmark/"
 research_topic: "Machine Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # The Gospel Coalition AI Christian Benchmark: Evaluating 7 Top LLMs for Theological Reliability
 

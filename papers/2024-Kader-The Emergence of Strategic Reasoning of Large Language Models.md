@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "As large language models (LLMs) have demonstrated strong reasoning abilities in structured tasks (e.g., coding and mathematics), we explore whether these abilities extend to strategic multi-agent environments. We investigate strategic reasoning capabilities – the process of choosing an optimal course of action by predicting and adapting to others’ actions – of LLMs by analyzing their performance in three classical games from behavioral economics."
 LLM_assessed: "GPT-4, Claude"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # The Emergence of Strategic Reasoning of Large Language Models
 

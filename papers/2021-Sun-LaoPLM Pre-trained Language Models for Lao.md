@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Trained on the large corpus, pre-trained language models (PLMs) can c
 LLM_assessed: "BERT, ELECTRA, RoBERTa"
 DATA_URL: "https://github.com/GKLMIP/Yunshan-Cup-2020"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "ACL 2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "8 categories"
-CONFERENCE: "ACL 2022"
 ---
 # LaoPLM: Pre-trained Language Models for Lao
 

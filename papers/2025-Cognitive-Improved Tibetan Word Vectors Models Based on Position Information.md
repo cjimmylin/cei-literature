@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Tibetan language processing is crucial for preserving its rich cultural heritage and reducing communication barriers between different languages. However, as a low-resource language, the development of Tibetan natural language processing has lagged behind. To address the unique and complex structural information of Tibetan, this article improves the embedding model based on fundamental Tibetan Component-and-Character-and-Word-based Embedding (TCCWE) to enhance the effectiveness of word vector representation. We incorporate position information into the training of Tibetan word vectors, developing models based on components, characters, and their integration. Furthermore, to evaluate the effectiveness of these word vectors, we propose an intrinsic evaluation set, wordsimT, based on             k             -means clustering. Experimental results demonstrate that the character-based positional vector integration model achieves a Spearman's rank correlation coefficient of 79.99% on the wordsimT benchmark, outperforming the baseline TCCWE model by 1.51%. Additionally, we validate the proposed models in downstream text classification tasks. These findings underscore the importance of incorporating positional information in Tibetan word vectors."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Improved Tibetan Word Vectors Models Based on Position Information Fusion | ACM Transactions on Asian and Low-Resource Language Information Processing
 

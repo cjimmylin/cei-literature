@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Human flourishing in AI"
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Argues that the development of AI (civil and military) should be unified by the teleological goal of protecting the space and time necessary for human eudaimonia"
 significance: "Reframes the purpose of AI technology from mere capability advancement to the Aristotelian support of the 'good life' and societal stability"
@@ -35,6 +50,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: 
 local_pdf: N/A
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -44,7 +60,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Putting the AI in Eudaimonia
 

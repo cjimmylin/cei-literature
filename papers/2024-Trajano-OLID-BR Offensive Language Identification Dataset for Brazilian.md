@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/DougTrajano/olid-br"
 tags: 
 abstract: "Collection of 7,943 Portuguese comments with 5 NLP tasks: detecting offensive comments, classifying offense types (racism, LGBTQphobia, sexism, xenophobia), identifying type/target, and extracting toxic spans."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # OLID-BR: Offensive Language Identification Dataset for Brazilian Portuguese
 

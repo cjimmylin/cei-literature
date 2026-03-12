@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT, GPT-2"
 DATA_URL: "https://github.com/sahoonihar/ToxicBias_CoNLL_2022"
 pdf_extract: "PDF Extracts/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.md"
 local_pdf: "[[PDFs/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Detecting Unintended Social Bias in Toxic Language Datasets
 

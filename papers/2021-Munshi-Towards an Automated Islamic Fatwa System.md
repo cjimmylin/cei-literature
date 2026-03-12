@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "International Journal of Computer Science and Mobile Computing"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Towards an Automated Islamic Fatwa System: Survey, Dataset and Benchmarks
 

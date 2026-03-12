@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ CONF-CC: "ACL 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Llama-2, Mistral, Mixtral"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Realistic Evaluation of Toxicity in Large Language Models
 

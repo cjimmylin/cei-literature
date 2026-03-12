@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "First benchmark hate speech corpus in Thai with four annotations: hate, sentiment, emotion, and rationales (explainability). Proposes GenX, a unified generative framework that redefines multi-task hate speech detection as text-to-text generation. First annotated Thai hate speech corpus with explainability. Includes rationale annotations showing which phrases justify hate speech classification. Directly relevant to Thai toxicity and values evaluation."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Ex-ThaiHate: A Generative Multi-task Framework for Sentiment and Emotion Aware Hate Speech Detection with Explanation in Thai
 

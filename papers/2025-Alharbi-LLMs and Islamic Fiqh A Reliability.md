@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "First systematic study of school-specific Islamic legal reasoning focusing on Maliki Fiqh. Tests GPT-4o and ALLaM on 550 curated questions across purification (Tahara), marital jurisprudence (Fiqh Al-Nikah), and financial transactions (Buyu). Highlights gaps in adherence to established Fiqhi rules."
 LLM_assessed: "GPT-4o, ALLaM"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # LLMs and Islamic Fiqh: A Reliability Study
 

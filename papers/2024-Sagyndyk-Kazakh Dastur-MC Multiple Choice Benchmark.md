@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc"
 tags: 
 abstract: "Multiple-choice benchmark dataset evaluating knowledge of Kazakh traditions ('dastur'). Contains 1,005 questions testing cultural and traditional knowledge. Available on HuggingFace under Apache 2.0 license. Directly evaluates knowledge of Kazakh cultural traditions. Part of a broader effort by kz-transformers community to build culturally grounded Kazakh NLP benchmarks."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Kazakh Dastur-MC: Multiple Choice Benchmark
 

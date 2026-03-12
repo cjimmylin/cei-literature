@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_HAYES2024
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Narrative Ethics, MacIntyre, Ricoeur, AI Ethics"
 key_contribution: "Proposes narrative and virtue-based ethics (VPD - Virtuous Practice Design) as foundation for AI ethics, building on MacIntyre and Ricoeur"
 significance: "Bridges Ricoeur's 'little ethics', MacIntyre's virtue ethics, and AI design practices through narrative framework"
@@ -34,6 +49,7 @@ CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -43,7 +59,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # From applied ethics and ethical principles to virtue and narrative in AI practices
 

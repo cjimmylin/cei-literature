@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Flux-1.0-dev; Stable-Diffusion-3.5-Large; Imagen3; GPT-Image"
 DATA_URL: "https://culturalframes.github.io"
 tags: 
 abstract: "The increasing ubiquity of text-to-image (T2I) models as tools for visual content generation raises concerns about their ability to accurately represent diverse cultural contexts – where missed cues can stereotype communities and undermine usability. In this work, we present the first study to systematically quantify the alignment of T2I models and evaluation metrics with respect to both explicit (stated) as well as implicit (unstated, implied by the prompt’s cultural context) cultural..."
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "983 prompts"
-CONFERENCE: "EMNLP 2025"
 ---
 # CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics
 

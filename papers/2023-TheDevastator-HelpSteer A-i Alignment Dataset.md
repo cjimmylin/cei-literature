@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/nvidia/HelpSteer"
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md"
 local_pdf: "[[PDFs/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.pdf]]"
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # HelpSteer: A-i Alignment Dataset
 

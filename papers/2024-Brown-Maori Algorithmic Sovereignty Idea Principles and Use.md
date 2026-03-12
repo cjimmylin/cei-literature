@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Due to the emergence of data-driven technologies in Aotearoa New Zealand that use Māori data, there is a need for values-based frameworks to guide thinking around balancing the tension between the opportunities these create, and the inherent risks that these technologies can impose. Algorithms can be framed as a particular use of data, therefore data frameworks that currently exist can be extended to include algorithms."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Maori Algorithmic Sovereignty: Idea, Principles, and Use
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, Claude, Claude 3.7 Sonnet, DeepSeek, DeepSeek v3, GPT-3,
 DATA_URL: "https://github.com/Rezamirbagheri110/EPT-Benchmark"
 tags: 
 abstract: "Large Language Models (LLMs), trained on extensive datasets using advanced deep learning architectures, have demonstrated remarkable performance across a wide range of language tasks, becoming a cornerstone of modern AI technologies. However, ensuring their trustworthiness remains a critical challenge, as reliability is essential not only for accurate performance but also for upholding ethical, cultural, and social values."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # EPT Benchmark: Evaluation of Persian Trustworthiness in Large Language Models
 

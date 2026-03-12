@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://osf.io/ezn37/"
 pdf_extract: "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md"
 local_pdf: "[[PDFs/2020/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "10 categories"
-CONFERENCE: "Journal"
 ---
 # Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment
 

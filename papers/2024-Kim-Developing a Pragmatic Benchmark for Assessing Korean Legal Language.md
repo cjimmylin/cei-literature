@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "ALBERT, BERT, Bloom, Claude, Claude-3, Claude-3-opus, Claude-3-so
 DATA_URL: "https://github.com/haven-jeon/LegalQA"
 tags: 
 abstract: "Large language models (LLMs) have demonstrated remarkable performance in the legal domain, with GPT-4 even passing the Uniform Bar Exam in the U.S. However their efficacy remains limited for non-standardized tasks and tasks in languages other than English. This underscores the need for careful evaluation of LLMs within each legal system before application. Here, we introduce KBL, a benchmark for assessing the Korean legal language understanding of LLMs, consisting of (1) 7 legal knowledge tasks..."
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "510 examples; 288 examples; 2,510 examples"
-CONFERENCE: "EMNLP 2024"
 ---
 # Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models
 

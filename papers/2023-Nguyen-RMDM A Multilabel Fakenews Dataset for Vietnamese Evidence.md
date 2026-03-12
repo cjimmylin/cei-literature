@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, ChatGPT, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "NA"
 tags: 
 abstract: "In this study, we present a novel and challenging multilabel Vietnamese dataset (RMDM) designed to assess the performance of large language models (LLMs), in verifying electronic information related to legal contexts, focusing on fake news as potential input for electronic evidence. The RMDM dataset comprises four labels: real, mis, dis, and mal, representing real information, misinformation, disinformation, and mal-information, respectively."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "1,556 samples"
-CONFERENCE: "Preprint"
 ---
 # RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verification
 

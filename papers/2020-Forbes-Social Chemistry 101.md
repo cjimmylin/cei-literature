@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "NA"
 publication: "EMNLP 2020"
 CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260207
+CONFERENCE: "EMNLP 2020"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2020"
 ---
 # Social Chemistry 101: Learning to Reason about Social and Moral Norms
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "DeepSeek, Deepseek Reasoner, DeepseekR, DeepseekRa, DeepseekRi, D
 DATA_URL: "https://osf.io/ubcye"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly used not only to generate text but also to evaluate it, raising urgent questions about whether their judgments are consistent, unbiased, and robust to framing effects. In this study, we systematically examine inter- and intra-model agreement across four state-of-the-art LLMs – OpenAI o3-mini, Deepseek Reasoner, xAI Grok 2, and Mistral – tasked with evaluating 4,800 narrative statements on 24 different topics of social, political, and public health..."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Source framing triggers systematic bias in large language models | Science Advances
 

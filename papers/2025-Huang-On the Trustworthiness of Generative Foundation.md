@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ abstract: "Generative Foundation Models (GenFMs) have emerged as transformative 
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3, Llama, Mistral, Mixtral, Claude, Gemini, Gemma, Qwen, DeepSeek"
 DATA_URL: "https://github.com/TrustGen/TrustEval-toolkit"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # On the Trustworthiness of Generative Foundation Models: Guideline, Assessment, and Perspective
 

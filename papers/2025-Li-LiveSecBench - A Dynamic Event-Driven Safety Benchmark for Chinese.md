@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "We introduce LiveSecBench, a continuously updated safety benchmark specifically for Chinese-language LLM application scenarios. LiveSecBench constructs a high-quality and unique dataset through a pipeline that combines automated generation with human verification. By periodically releasing new versions to expand the dataset and update evaluation metrics, LiveSecBench provides a robust and up-to-date standard for AI safety."
 LLM_assessed: "GPT-5, GPT-4o, Claude, Qwen, Llama-3, Gemini, DeepSeek, Grok"
 DATA_URL: "https://livesecbench.intokentech.cn/"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # LiveSecBench -- A Dynamic Event-Driven Safety Benchmark for Chinese LLMs
 

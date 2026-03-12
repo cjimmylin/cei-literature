@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Representational bias in large language models (LLMs) has predominantly been measured through single-response interactions and has focused on Global North-centric identities like race and gender. We expand on that research by conducting a systematic audit of GPT-4 Turbo to reveal how deeply encoded representational biases are and how they extend to less-explored dimensions of identity. We prompt GPT4 Turbo to generate over 7,200 stories about significant life events (such as weddings) in India,..."
 LLM_assessed: "ChatGPT, GPT-4, GPT-4 Turbo, GPT4-Turbo"
 DATA_URL: "NA"
+CONFERENCE: "AIES 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "AIES 2025"
 ---
 # How Deep Is Representational Bias in LLMs? The Cases of Caste and Religion
 

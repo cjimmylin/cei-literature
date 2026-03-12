@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "BERTje, RobBERT, mBERT, Mistral-7B, BERT, RoBERTa, FlauBERT, Came
 DATA_URL: "NA"
 tags: 
 abstract: "Warning: This paper contains explicit statements of offensive stereotypes which might be upsetting Language models are prone to exhibiting biases, further amplifying unfair and harmful stereotypes. Given the fast-growing popularity and wide application of these models, it is necessary to ensure safe and fair language models. As of recent considerable attention has been paid to measuring bias in language models, yet the majority of studies have focused only on English language."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch
 

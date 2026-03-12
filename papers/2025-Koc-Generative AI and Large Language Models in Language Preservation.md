@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "The global crisis of language endangerment meets a technological turning point as Generative AI (GenAI) and Large Language Models (LLMs) unlock new frontiers in automating corpus creation, transcription, translation, and tutoring. However, this promise is imperiled by fragmented practices and the critical lack of a methodology to navigate the fraught balance between LLM capabilities and the profound risks of data scarcity, cultural misappropriation, and ethical missteps."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Generative AI and Large Language Models in Language Preservation: Opportunities and Challenges
 

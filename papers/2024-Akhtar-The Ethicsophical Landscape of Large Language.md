@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "LLM through view of Aristole and Kang"
@@ -25,7 +40,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Deontology"
 key_contribution: "Analyzes LLM capabilities through Aristotelian virtue and Kantian deontological lenses to assess their moral epistemological status"
 significance: "Highlights the need for new ethical paradigms for machine intelligence that go beyond human-like knowledge acquisition"
@@ -35,6 +50,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -44,7 +60,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # The Ethicsophical Landscape of Large Language Models
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BanglaBERT"
 DATA_URL: "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset"
 tags: 
 abstract: "Manually annotated corpus of Bengali designed to identify gender-based biases, stereotypes, and harmful language against women. Supports research in ethical NLP, content moderation, and computational social science."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # WoNBias: A Complete Bengali Gender Bias Dataset
 

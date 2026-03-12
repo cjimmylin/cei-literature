@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Alpaca, BLOOM, BLOOMZ, Baichuan, Baichuan-2, ChatGPT, FLAN-T5-XXL
 DATA_URL: "https://github.com/SeaEval/SeaEval"
 tags: 
 abstract: "We present SeaEval, a benchmark for multilingual foundation models. In addition to characterizing how these models understand and reason with natural language, we also investigate how well they comprehend cultural practices, nuances, and values. Alongside standard accuracy metrics, we investigate the brittleness of foundation models in the dimensions of semantics and multilinguality. Our analyses span both open-sourced and closed models, leading to empirical results across classic NLP tasks,..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "29 datasets; 7 languages"
-CONFERENCE: "Preprint"
 ---
 # SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning
 

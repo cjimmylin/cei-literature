@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Human values are crucial to human decision-making. Value pluralism is
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude, Gemini, Gemma, Qwen"
 DATA_URL: "https://hf.co/datasets/CohereForAI/kaleidoscope"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "18 languages"
-CONFERENCE: "Other Conference"
 ---
 # Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation
 

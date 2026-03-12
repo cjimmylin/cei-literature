@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "American"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Value Pluralism / Schwartz"
+moral_psychology: "Moral Foundations Theory, Cognitive Developmental"
 newtags: "Moral Foundations Theory, Cognitive Developmental, Deontology, Utilitarianism, Moral Foundations Analysis"
 key_contribution: "Introduces the PRIME framework to analyze moral foundation priorities in LLMs"
 significance: "Reveals a convergence across models on care/harm and fairness while underweighting other foundations"
@@ -40,6 +55,7 @@ normative_ethics_benchmark: Yes
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -49,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  The Convergent Ethics of AI? Analyzing Moral Foundation Priorities in Large Language Models with a Multi-Framework Approach
 

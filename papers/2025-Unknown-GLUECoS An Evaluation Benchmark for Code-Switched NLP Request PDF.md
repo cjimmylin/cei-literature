@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://github.com/ElizaLo/Question-Answering-based-"
 tags: 
 abstract: "Code-switching is the use of more than one language in the same conversation or utterance. Recently, multilingual contextual embedding models, trained on multiple monolingual corpora, have shown promising results on cross-lingual and multilingual tasks. We present an evaluation benchmark, GLUECoS, for code-switched languages, that spans several NLP tasks in English-Hindi and EnglishSpanish. Speciﬁcally, our evaluation benchmark includes Language Identiﬁcation from text, POS tagging, Named..."
+CONFERENCE: "ACL 2020"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2020"
 ---
 # GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF
 

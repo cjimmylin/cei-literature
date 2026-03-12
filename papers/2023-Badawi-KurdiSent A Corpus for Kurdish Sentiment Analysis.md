@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "XLM-R"
 DATA_URL: "NA"
 tags: 
 abstract: "Kurdish sentiment analysis corpus evaluated with machine learning and deep learning classifiers. XLM-R achieves best accuracy of 85%."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # KurdiSent: A Corpus for Kurdish Sentiment Analysis
 

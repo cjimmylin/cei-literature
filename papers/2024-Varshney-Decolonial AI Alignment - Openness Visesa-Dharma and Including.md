@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ abstract: "Prior work has explicated the coloniality of artificial intelligence 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "AIES 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "AIES 2024"
 ---
 # Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges
 

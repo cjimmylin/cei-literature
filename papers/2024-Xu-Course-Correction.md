@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2024/2024-Xu-Course-Correction.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-2, Vicuna, Phi, Llama-3, Qwen"
 DATA_URL: "https://github.com/pillowsofwind/Course-Correction"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # Course-Correction: Safety Alignment Using Synthetic Preferences
 

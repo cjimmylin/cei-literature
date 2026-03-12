@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "There is an growing interest in using Large Language Models (LLMs) in multiagent systems to tackle interactive real-world tasks that require effective collaboration and assessing complex situations. Yet, we still have a limited understanding of LLMs’ communication and decision-making abilities in multi-agent setups. The fundamental task of negotiation spans many key features of communication, such as cooperation, competition, and manipulation potentials."
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Mixtral"
 DATA_URL: "https://github.com/S-Abdelnabi/LLM-Deliberation"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation
 

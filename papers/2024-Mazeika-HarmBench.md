@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,8 @@ CONF-CC: "ICML 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-2, Vicuna, Mistral, Mixtral"
 DATA_URL: "https://github.com/centerforaisafety/HarmBench"
+CONFERENCE: "Journal"
+helm: "incorporated"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal
 

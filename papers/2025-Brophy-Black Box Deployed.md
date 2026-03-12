@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -49,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  Black Box Deployed -- Functional Criteria for Artificial Moral Agents in the LLM Era
 

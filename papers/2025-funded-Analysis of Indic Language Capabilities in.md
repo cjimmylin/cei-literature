@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Comprehensive analysis of text-based LLM capabilities for Indic langu
 LLM_assessed: "BERT, BLOOM, BLOOMZ, ChatGPT, Claude, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-4-Vision, GPT-4o, Gemma, Llama, LLaMA., Llama 2, Llama 3, Llama 3.1, Llama-2, Llama-3, Llama2, Mistral, Mistral-7B, PaLM-2, PaLM2, T5, llama 2."
 DATA_URL: "NA"
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Analysis of Indic Language Capabilities in LLMs
 

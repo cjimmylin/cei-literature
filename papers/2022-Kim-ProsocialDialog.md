@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2022/2022-Kim-ProsocialDialog.pdf]]"
 LLM_assessed: "GPT-3, InstructGPT, GPT-2, T5"
 DATA_URL: "https://hyunw.kim/prosocial-dialog"
 DATE_ADDED: 20260207
+CONFERENCE: "EMNLP 2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2022"
 ---
 # ProsocialDialog: A Prosocial Backbone for Conversational Agents
 

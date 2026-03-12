@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ abstract: "Political stance detection in low-resource and culturally complex set
 LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-3"
 DATA_URL: "NA"
 research_topic: "Social & Cultural Analysis"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Debiasing Large Language Models in Thai Political Stance Detection via Counterfactual Calibration
 

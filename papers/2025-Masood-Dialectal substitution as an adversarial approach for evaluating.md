@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, Qwen3, RoBERTa, XLNet"
 DATA_URL: "https://github.com/elnagara/HARD-Arabic-Dataset"
 tags: 
 abstract: "Recent advances in deep neural networks (DNNs) have led to significant enhancements in Arabic natural language processing (NLP). However, their robustness remains insufficiently explored, particularly in adversarial settings. Most existing Arabic NLP systems are predominantly trained on Modern Standard Arabic (MSA), whereas real-world Arabic text frequently incorporates dialectal forms that diverge lexically and morphologically."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Dialectal substitution as an adversarial approach for evaluating Arabic NLP robustness
 

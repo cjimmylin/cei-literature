@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Su-Understanding How Value Neurons Shape the.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Qwen, Gemma"
 DATA_URL: "NA"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # Understanding How Value Neurons Shape the Generation of Specified Values in LLMs
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "Evaluating large language models (LLMs) is crucial for both assessing
 research_topic: Other
 LLM_assessed: "GPT-4, GPT-4o mini"
 DATA_URL: "NA"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # Measuring What Matters -- Construct Validity in LLM Benchmarks
 

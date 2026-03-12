@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "Qwen2.5-7B, Qwen3-8B, Llama-3.1-8B, DeepSeek-R1-Distill-Llama-8B"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models have achieved remarkable progress across many languages. However, Tibetan, as a representative low-resource language, is particularly underrepresented in existing models due to the scarcity of high-quality training corpora. To address this gap, we curate the largest Tibetan pre-training corpus to date, aggregating data from diverse sources and applying a dedicated data cleaning and processing pipeline tailored for Tibetan."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "72 gb"
-CONFERENCE: "Preprint"
 ---
 # Banzhida: Advancing Large Language Models for Tibetan with Curated Data and Continual Pre-Training
 

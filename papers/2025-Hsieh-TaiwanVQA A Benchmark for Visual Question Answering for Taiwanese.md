@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/hhhuang/TaiwanVQA"
 tags: 
 abstract: "Novel VQA benchmark with 2,000 image-question pairs covering Taiwanese culture and daily life including local cuisine, festivals, landmarks, and public signage. Performance gap widens between recognition (73.60%) and reasoning tasks (49.80%), indicating challenges in cultural inference."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # TaiwanVQA: A Benchmark for Visual Question Answering for Taiwanese Daily Life
 

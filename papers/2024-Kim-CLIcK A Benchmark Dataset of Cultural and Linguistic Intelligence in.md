@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://github.com/Beomi/KoAlpaca"
 tags: 
 abstract: "Despite the rapid development of large language models (LLMs) for the Korean language, there remains an obvious lack of benchmark datasets that test the requisite Korean cultural and linguistic knowledge. Because many existing Korean benchmark datasets are derived from the English counterparts through translation, they often overlook the different cultural contexts. For the few benchmark datasets that are sourced from Korean data capturing cultural knowledge, only narrow tasks such as bias and..."
 ethics_perspective: "Social & Cultural Values"
+CONFERENCE: "LREC-COLING 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "11 categories"
-CONFERENCE: "LREC-COLING 2024"
 ---
 # CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean
 

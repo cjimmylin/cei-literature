@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Safety alignment is critical for LLM-powered systems. While recent LL
 LLM_assessed: "Alpaca, ChatGPT, GPT-4, Llama, Llama- Guard, Llama-Guard, LlamaGuard"
 DATA_URL: "https://github.com/awsm-research/SEALGuard"
 research_topic: "Machine Translation"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # SEALGuard: Safeguarding the Multilingual Conversations in Southeast Asian Languages for LLM Software Systems
 

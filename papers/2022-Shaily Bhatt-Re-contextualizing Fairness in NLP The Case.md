@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Recent research has revealed undesirable biases in NLP data and models. However, these efforts focus on social disparities in West, and are not directly portable to other geo-cultural contexts. In this paper, we focus on NLP fairness in the context of India. We start with a brief account of the prominent axes of social disparities in India. We build resources for fairness evaluation in the Indian context and use them to demonstrate prediction biases along some of the axes."
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/google-research-datasets/nlp-fairness-for-india"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Re-contextualizing Fairness in NLP: The Case of India
 

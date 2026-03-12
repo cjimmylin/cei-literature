@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-3, PaLM-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Compares GPT-3 and PaLM-2 on generating Indonesian cultural content about traditional dances from Palembang. PaLM-2 scored 27 points for validity vs GPT-3's 8 points. GPT-3 excelled in fine-tuning speed (50 min vs 2h10). Expert judgment assessment of cultural content correctness."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Large language model (LLM) comparison between GPT-3 and PaLM-2 to produce Indonesian cultural content
 

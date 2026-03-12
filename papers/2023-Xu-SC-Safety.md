@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2023/2023-Xu-SC-Safety.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Alpaca, Vicuna, Qwen, Falcon"
 DATA_URL: "https://www.CLUEbenchmarks.com"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # SC-Safety: A Multi-round Open-ended Question Adversarial Safety Benchmark for Large Language Models in Chinese
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, ChatGPT, Claude, DeepSeek, GPT-3, GPT-3.5, GPT-4o, Llama, c
 DATA_URL: "NA"
 tags: 
 abstract: "Recent advances in Large Language Models (LLMs) have enabled their application to recommender systems (RecLLMs), yet concerns remain regarding fairness across demographic and psychological user dimensions. We introduce FairEval, a novel evaluation framework to systematically assess fairness in LLM-based recommendations. Unlike prior benchmarks that focus solely on demographic attributes, FairEval uniquely integrates personality traits with eight sensitive demographic attributes, including..."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # FairEval: Evaluating Fairness in LLM-Based ...
 

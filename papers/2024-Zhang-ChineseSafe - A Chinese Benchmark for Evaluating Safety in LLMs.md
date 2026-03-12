@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "With the rapid development of Large language models (LLMs), understanding the capabilities of LLMs in identifying unsafe content has become increasingly important. While previous works have introduced several benchmarks to evaluate the safety risk of LLMs, the community still has a limited understanding of current LLMs’ capability to recognize illegal and unsafe content in Chinese contexts. In this work, we present a Chinese safety benchmark (ChineseSafe) to facilitate research on the content..."
 LLM_assessed: "GPT-4, GPT-3.5, DeepSeek, Llama-3, Qwen, OPT, Gemma, Mistral"
 DATA_URL: "https://huggingface.co/datasets/SUSTech/ChineseSafe"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "205,034 examples; 20,000 examples"
-CONFERENCE: "Preprint"
 ---
 # ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs
 

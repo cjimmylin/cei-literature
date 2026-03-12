@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ local_pdf: "[[PDFs/2025/2025-Ren-The MASK Benchmark.pdf]]"
 LLM_assessed: "GPT-4, Claude, Llama-2, Llama-3, Qwen, DeepSeek, Gemini, Grok"
 DATA_URL: "https://github.com/centerforaisafety/mask"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems
 

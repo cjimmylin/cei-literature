@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "HuggingFace Space for browsing and filtering Azerbaijani LLM benchmark results, viewing evaluation queues, and submitting models for evaluation. Active leaderboard for Azerbaijani LLM evaluation. Provides standardized comparison infrastructure for Azerbaijani language models."
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Azerbaijani LLM Leaderboard
 

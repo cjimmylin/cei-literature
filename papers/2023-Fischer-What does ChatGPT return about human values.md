@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +44,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Bias & Fairness"
 key_contribution: "Analysed ChatGPT's value alignment using Schwartz's Basic Value Theory prompts, finding high fidelity to theoretical constructs but some merging of social values."
 significance: "Suggests that LLMs capture the semantic structure of human values well without explicit bias, but may blur distinctions between related social motivations in their outputs."
@@ -38,6 +57,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: ChatGPT
 DATA_URL: "https://osf.io/w46nq/"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # What does ChatGPT return about human values? Exploring value bias in ChatGPT using a descriptive value theory
 

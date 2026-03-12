@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, GPT 4o, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, RoBE
 DATA_URL: "https://github.com/farhanishmam/BanTH"
 tags: 
 abstract: "The proliferation of transliterated texts in digital spaces has emphasized the need for detecting and classifying hate speech in languages beyond English, particularly in low-resource languages. As online discourse can perpetuate discrimination based on target groups, e.g. gender, religion, and origin, multi-label classification of hateful content can help in understanding hate motivation and enhance content moderation."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla
 

@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Utilitarianism"
 key_contribution: "Explores societal impacts and normative questions of 'Language Model Agents', focusing on their distinctiveness as complex, tool-using systems"
 significance: "Shifts ethical focus from static models or far-future risks to the near-term disruptive potential of agentic AI systems and their societal integration"
@@ -36,6 +51,7 @@ LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Lazar-Frontier AI Ethics.md"
 local_pdf: "[[PDFs/2024/2024-Lazar-Frontier AI Ethics.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +61,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Frontier AI Ethics: Anticipating and Evaluating the Societal Impacts of Language Model Agents
 

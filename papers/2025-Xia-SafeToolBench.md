@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "Large Language Models (LLMs) have exhibited great performance in auto
 LLM_assessed: "GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://github.com/BITHLP/SafeToolBench"
 research_topic: "Other"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # SafeToolBench
 

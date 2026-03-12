@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Large language models (LLMs) increasingly find their way into the most diverse areas of our everyday lives. They indirectly influence people’s decisions or opinions through their daily use. Therefore, understanding how and which moral judgements these LLMs make is crucial. However, morality is not universal and depends on the cultural background. This raises the question of whether these cultural preferences are also reflected in LLMs when prompted in different languages or whether moral..."
 LLM_assessed: "Falcon, Gemini, Llama-2, Llama-3, GPT-3.5"
 DATA_URL: "https://github.com/fdamken/decoding_multilingual_moral_preferences/tree/publication_aies2024"
+CONFERENCE: "AIES 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "6500 scenarios"
-CONFERENCE: "AIES 2024"
 ---
 # Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment
 

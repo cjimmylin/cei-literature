@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude, Gemini, Llama, Mistral, Mixtral, Qwen, DeepSeek, Grok"
 DATA_URL: "https://github.com/aida-ugent/llm-ideology-analysis"
 ethics_perspective: "General Ethics"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Large Language Models Reflect the Ideology of their Creators
 

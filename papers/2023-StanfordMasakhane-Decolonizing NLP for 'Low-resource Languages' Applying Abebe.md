@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Applies Birhane's relational ethics framework to argue for decolonizing NLP for African languages. Advocates for language speakers to determine how their languages are used in AI, with communities retaining data ownership. Foundational framework paper for ethical African language NLP. Applies relational ethics (African tradition) to data sovereignty and community ownership. Essential context for values-aligned AI development."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics
 

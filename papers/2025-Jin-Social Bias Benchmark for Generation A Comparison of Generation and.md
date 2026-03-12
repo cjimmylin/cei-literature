@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Claude, Claude-3-haiku, Claude-3.5-sonnet, GPT-3, GPT-3.5-turbo, 
 DATA_URL: "NA"
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. Measuring social bias in large language models (LLMs) is crucial, but existing bias evaluation methods struggle to assess bias in longform generation. We propose a Bias Benchmark for Generation (BBG), an adaptation of the Bias Benchmark for QA (BBQ), designed to evaluate social bias in long-form generation by having LLMs generate continuations of story prompts."
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Social Bias Benchmark for Generation: A Comparison of Generation and QA-Based Evaluations
 

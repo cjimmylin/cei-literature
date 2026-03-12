@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "The rapid advancement of large language models (LLMs) has highlighted
 LLM_assessed: "Claude Sonnet, Claude-3, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o Mini, GPT-4, Llama, Llama-3, Llama-3.1, Qwen2"
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
 research_topic: "Machine Learning"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Representing the Under-Represented: Cultural and Core Capability Benchmarks for Developing Thai Large Language Models
 

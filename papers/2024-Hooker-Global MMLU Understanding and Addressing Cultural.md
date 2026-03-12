@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,8 @@ abstract: "Cultural biases in multilingual datasets pose significant challenges 
 LLM_assessed: "ChatGPT, Claude 3.5 Sonnet, Claude 3.5, Claude Sonnet, Claude-Sonnet, Command-R, CommandR, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT4o, Gemma, Gemma2, Llama, Llama 3.1, Llama-3.1, Mistral Nemo25, Mistral-Nemo, Qwen, Qwen 2.5, Qwen 2.526, Qwen2.5, BERT, gemma-2, llama 3, mistralai"
 DATA_URL: "https://huggingface.co/papers/2412.03304"
 research_topic: "Machine Translation"
+CONFERENCE: "Preprint"
+eleutherai: incorporated
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "42 languages"
-CONFERENCE: "Preprint"
 ---
 # Global MMLU: Understanding and Addressing Cultural and Linguistic Biases in Multilingual Evaluation
 

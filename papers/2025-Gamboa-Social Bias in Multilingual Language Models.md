@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Pretrained multilingual models exhibit the same social bias as models processing English texts. This systematic review analyzes emerging research that extends bias evaluation and mitigation approaches into multilingual and non-English contexts. We examine these studies with respect to linguistic diversity, cultural awareness, and their choice of evaluation metrics and mitigation techniques. Our survey illuminates gaps in the field's dominant methodological design choices (e.g."
 LLM_assessed: "BERT, ChatGPT, GPT-4, Llama, Llama 3, Qwen 2, word2vec"
 DATA_URL: "https://github.com/gamboalance/multilingual_"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Social Bias in Multilingual Language Models: A Survey
 

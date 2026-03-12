@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Given a data set and a learning task such as classification, there are two prime motives for executing some kind of data set reduction. On one hand there is the possible algorithm performance improvement. On the other hand the decrease in the overall size of the data set can bring advantages in storage space used and time spent computing. Our purpose is to determine the importance of several basic reduction techniques on Support Vector Machines, by comparing their relative performance improvement when applied on the standard REUTERS-21578 benchmark."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Text and Value | Mongolian Journal of Humanities and Social Sciences
 

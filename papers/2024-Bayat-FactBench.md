@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2024/2024-Bayat-FactBench.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Gemini, Llama"
 DATA_URL: "https://huggingface.co/spaces/launch/factbench"
+CONFERENCE: "ACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation
 

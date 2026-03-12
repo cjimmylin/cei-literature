@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Role Playing Personas"
@@ -25,7 +44,7 @@ cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Chinese, Virtue Ethics"
 key_contribution: "Introduces CharacterEval, a comprehensive Chinese benchmark for evaluating Role-Playing Conversational Agents across four dimensions"
 significance: "Addresses the lack of benchmarks for role-playing agents (RPCAs) and evaluates the ability of LLMs to maintain consistent character personas, a prerequisite for simulacra-based virtue modeling"
@@ -36,6 +55,7 @@ CONF-CC: "ACL 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5"
 DATA_URL: "https://github.com/morecry/CharacterEval"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "23,020 examples"
-CONFERENCE: "Journal"
 ---
  CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation
 

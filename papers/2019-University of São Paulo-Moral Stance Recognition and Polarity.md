@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "Natural Language Processing"
 DATE_ADDED: 20260208
 LLM_assessed: Word2Vec
 DATA_URL: "NA"
+CONFERENCE: "ACL 2019"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2019"
 ---
 # Moral Stance Recognition and Polarity Classification from Twitter and Elicited Text
 

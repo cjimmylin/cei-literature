@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ paper_summary: "Abstract: The blind application of machine learning runs the ris
 DATE_ADDED: 20260208
 LLM_assessed: "Word2Vec, GloVe"
 DATA_URL: "NA"
+CONFERENCE: "NeurIPS 2016"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2016"
 ---
 # Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings
 

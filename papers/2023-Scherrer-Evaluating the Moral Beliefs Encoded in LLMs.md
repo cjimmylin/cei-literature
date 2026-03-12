@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LL
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, PaLM-2, Flan-T5, BLOOM, OPT"
 DATA_URL: "https://huggingface.co/datasets/ninoscherrer/moralchoice"
+CONFERENCE: "NeurIPS 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2023"
 ---
 # Evaluating the Moral Beliefs Encoded in LLMs
 

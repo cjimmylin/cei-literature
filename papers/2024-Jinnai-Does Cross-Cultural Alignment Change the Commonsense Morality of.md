@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ tags:
 abstract: "Alignment of the language model with human preferences is a common approach to making a language model useful to end users. However, most alignment work is done in English, and human preference datasets are dominated by English, reflecting only the preferences of Englishspeaking annotators. Nevertheless, it is common practice to use the English preference data, either directly or by translating it into the target language, when aligning a multilingual language model."
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://huggingface.co/datasets/cyberagent/chatbot-arena-ja-calm2-7b-chat-experimental"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?
 

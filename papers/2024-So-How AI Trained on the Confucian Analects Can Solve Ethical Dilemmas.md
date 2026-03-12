@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ abstract: "Introduction. AI Ethics is framed distinctly across actors and stakeh
 LLM_assessed: "NA"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas
 

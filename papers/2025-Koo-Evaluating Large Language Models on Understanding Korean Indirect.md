@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-3.5-Turbo, GPT-4-Turbo, Claude-3-Haiku, Claude-3-Sonnet, Clau
 DATA_URL: "NA"
 tags: 
 abstract: "To accurately understand the intention of an utterance is crucial in conversational communication. As conversational artificial intelligence models are rapidly being developed and applied in various fields, it is important to evaluate the LLMs’ capabilities of understanding the intentions of user’s utterance. Speech act is a linguistic concept in pragmatics, the study of human language use, and can be simply understood as referring to the intention of an utterance."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Evaluating Large Language Models on Understanding Korean Indirect Speech Acts
 

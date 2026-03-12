@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ DATA_URL: "https://huggingface.co/datasets/intronhealth/afrimedqa_v2"
 tags: 
 abstract: "Recent advancements in large language model (LLM) performance on medical multiplechoice question (MCQ) benchmarks have stimulated interest from healthcare providers and patients globally. Particularly in low-andmiddle-income countries (LMICs) facing acute physician shortages and lack of specialists, LLMs offer a potentially scalable pathway to enhance healthcare access and reduce costs. However, their effectiveness in the Global South, especially across the African continent, remains to be..."
 ethics_perspective: "Applied Ethics"
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "15,000 questions"
-CONFERENCE: "ACL 2025"
 ---
 # AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset
 

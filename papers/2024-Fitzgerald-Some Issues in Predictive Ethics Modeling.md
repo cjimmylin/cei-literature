@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: RoBERTa
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "5 words"
-CONFERENCE: "Preprint"
 ---
 # Some Issues in Predictive Ethics Modeling: An Annotated Contrast Set of "Moral Stories"
 

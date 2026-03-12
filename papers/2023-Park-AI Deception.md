@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2023/2023-Park-AI Deception.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # AI Deception: A Survey of Examples, Risks, and Potential Solutions
 

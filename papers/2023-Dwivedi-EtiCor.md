@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-3.5, Falcon, BERT"
 DATA_URL: "https://github.com/Exploration-Lab/EtiCor"
 pdf_extract: "PDF Extracts/2023/2023-Dwivedi-EtiCor.md"
 local_pdf: "[[PDFs/2023/2023-Dwivedi-EtiCor.pdf]]"
+CONFERENCE: "EMNLP 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2023"
 ---
 # EtiCor: Corpus for Analyzing LLMs for Etiquettes
 

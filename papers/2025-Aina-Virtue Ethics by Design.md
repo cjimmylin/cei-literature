@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "embed virtue ethics"
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Proposes 'Virtue Ethics by Design' (VED), a framework for embedding basic (justice, honesty) and second-order (prudence, fortitude) virtues directly into AGI architectures"
 significance: "Offers a proactive design methodology for superintelligence safety, arguing that virtue-oriented algorithmic design is a precondition for accountability in ASI"
@@ -35,6 +50,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Aina-Virtue Ethics by Design.md"
 local_pdf: "[[PDFs/2025/2025-Aina-Virtue Ethics by Design.pdf]]"
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -44,7 +60,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # Virtue Ethics by Design: Embedding Morality into AGI and ASI
 

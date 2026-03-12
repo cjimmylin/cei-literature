@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Alpaca, BLOOMZ, ChatGPT, Dolly, GPT-3, GPT-3.5-turbo, Llama, LLaM
 DATA_URL: "https://github.com/huggingface/peft"
 tags: 
 abstract: "Multilingual Large Language Models (LLMs) often provide suboptimal performance on lowresource languages like Urdu. This paper introduces UrduLLaMA 1.0, a model derived from the open-source Llama-3.1-8B-Instruct architecture and continually pre-trained on 128 million Urdu tokens, capturing the rich diversity of the language. To enhance instructionfollowing and translation capabilities, we leverage Low-Rank Adaptation (LoRA) to fine tune the model on 41,000 Urdu instructions and approximately..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # UrduLLaMA 1.0: Dataset Curation, Preprocessing, and Evaluation in Low-Resource Settings
 

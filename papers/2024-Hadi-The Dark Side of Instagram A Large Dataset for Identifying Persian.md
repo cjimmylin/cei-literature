@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://github.com/davardoust/PHICAD"
 tags: 
 abstract: "Over 300,000 Farsi Instagram comments categorized into hate speech/offensive language, obscenity, and spam. Multi-stage labeling with high inter-annotator agreement."
 research_topic: "Machine Learning"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The Dark Side of Instagram: A Large Dataset for Identifying Persian Harmful Comments (PHICAD)
 

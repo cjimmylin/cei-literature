@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ DATA_URL: "https://github.com/BriansIDP/CASEBench"
 publication: "ICML 2025"
 CONF-CC: "ICML 2025"
 DATE_ADDED: 20260207
+CONFERENCE: "ICML 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "ICML 2025"
 ---
 # CASE-Bench: Context-Aware SafEty Benchmark for Large Language Models
 

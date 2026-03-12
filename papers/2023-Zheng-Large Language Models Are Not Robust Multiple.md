@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Zheng-Large Language Models Are Not Robust Multiple
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Llama, Llama-2, Vicuna, Falcon"
 DATA_URL: "https://github.com/chujiezheng/LLM-MCQ-Bias"
+CONFERENCE: "ICLR 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "ICLR 2023"
 ---
 # Large Language Models Are Not Robust Multiple Choice Selectors
 

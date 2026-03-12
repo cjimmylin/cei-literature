@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "ELECTRA, BERT, XLM-RoBERTa"
 DATA_URL: "https://github.com/centre-for-humanities-computing/DaCy"
 tags: 
 abstract: "Danish natural language processing (NLP) has in recent years obtained considerable improvements with the addition of multiple new datasets and models. However, at present, there is no coherent framework for applying state-of-the-art models for Danish. We present DaCy: a uniﬁed framework for Danish NLP built on SpaCy. DaCy uses efﬁcient multitask models which obtain state-of-the-art performance on named entity recognition, part-of-speech tagging, and dependency parsing."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # DaCy: A Unified Framework for Danish NLP
 

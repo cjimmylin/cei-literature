@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ CONF-CC: "ACL 2025"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Mistral, Gemma, Qwen, Claude, GPT-4"
 DATA_URL: "https://github.com/facebookresearch/HalluLens"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # HalluLens: LLM Hallucination Benchmark
 

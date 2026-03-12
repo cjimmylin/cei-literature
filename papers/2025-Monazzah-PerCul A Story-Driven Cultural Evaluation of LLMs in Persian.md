@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Claude-3-Haiku; Claude-3-Sonnet; Claude-3.5-Sonnet; Claude-3-Opus
 DATA_URL: "https://huggingface.co/datasets/teias-ai/percul"
 tags: 
 abstract: "Large language models predominantly reflect Western cultures, largely due to the dominance of English-centric training data. This imbalance presents a significant challenge, as LLMs are increasingly used across diverse contexts without adequate evaluation of their cultural competence in non-English languages, including Persian. To address this gap, we introduce PERCUL, a carefully constructed dataset designed to assess the sensitivity of LLMs toward Persian culture."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian
 

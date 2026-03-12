@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "In this paper, we introduce SailCompass, a reproducible and robust evaluation benchmark for assessing Large Language Models (LLMs) on Southeast Asian Languages (SEA). SailCompass encompasses three main SEA languages, eight primary tasks including 14 datasets covering three task types (generation, multiplechoice questions, and classiﬁcation). To improve the robustness of the evaluation approach, we explore different prompt conﬁgurations for multiple-choice questions and leverage calibrations to..."
 LLM_assessed: "BLOOM, BLOOM-7B1, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT3, GPT3.5-turbo, Gemma, Llama, Llama-2, Llama-3, Mistral, Mistral 7b, Mistral-7B, QWEN1.5, Qwen, Qwen-1.5, Qwen.5"
 DATA_URL: "https://huggingface.co/datasets/sail/Sailcompass_data"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "14 datasets"
-CONFERENCE: "Preprint"
 ---
 # SailCompass: Towards Reproducible and Robust Evaluation for Southeast Asian Languages
 

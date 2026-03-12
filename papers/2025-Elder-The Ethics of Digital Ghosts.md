@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Virtue ethics"
@@ -25,7 +40,7 @@ cultures_nationalities_list: "Chinese"
 languages_list: ""
 religious_values: Confucianism
 religious_values_list: Confucianism
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Chinese, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Explores the ethics of AI, specifically 'digital ghosts', through Chinese philosophical traditions (Confucianism, Mohism, Zhuangism), emphasizing virtues like ren and li"
 significance: "Highlights the relevance of non-Western virtue ethics for addressing the specific ethical challenges of digital afterlife and AI representations of the deceased"
@@ -36,6 +51,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Elder-The Ethics of Digital Ghosts.md"
 local_pdf: "[[PDFs/2025/2025-Elder-The Ethics of Digital Ghosts.pdf]]"
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -45,7 +61,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # The Ethics of Digital Ghosts: Confucian, Mohist, and Zhuangist Perspectives on AI and Death
 

@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Explores religious dialect bias in Bengali focusing on Hindu and Muslim-majority dialects. Tests ChatGPT, Gemini, Microsoft Copilot on 20 religious dialect sentences. Finds slight bias towards Muslim dialects across all three models."
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Exploring Bengali Religious Dialect Biases in Large Language Models with Evaluation Perspectives
 

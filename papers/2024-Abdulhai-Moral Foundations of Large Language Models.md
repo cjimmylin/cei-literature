@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "GPT-3, GPT-3.5, ChatGPT, PaLM"
 DATA_URL: "https://github.com/abdulhaim/moral_foundations_llms"
 pdf_extract: "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md"
 local_pdf: "[[PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # Moral Foundations of Large Language Models
 

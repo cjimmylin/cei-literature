@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Benchmarking Fairness in Image Upsampling
 

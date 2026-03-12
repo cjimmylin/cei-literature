@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "DeepSeek, Falcon 3, GPT-4, GPT-4o, LLama 2, Llama, Llama 1, Llama
 DATA_URL: "https://github.com/PoETaV2/PoETaV2"
 tags: 
 abstract: "Large Language Models (LLMs) exhibit significant variations in performance across linguistic and cultural contexts, underscoring the need for systematic evaluation in diverse languages. In this work, we present the most extensive evaluation of LLMs for the Portuguese language to date. Leveraging our newly introduced PoETa v2 benchmark – a comprehensive suite of over 40 tasks in Portuguese – we assess more than 20 models covering a broad spectrum of training scales and computational resources."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # PoETa v2: Toward More Robust Evaluation of Large Language Models in Portuguese
 

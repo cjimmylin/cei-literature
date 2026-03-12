@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Vicuna, Mistral, Mixtral, Llama-2, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/allenai/wildjailbreak"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models
 

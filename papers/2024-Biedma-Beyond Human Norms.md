@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Elicit Human View from scratch: ValueLex"
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: "Virtue Ethics"
 key_contribution: "Introduces 'ValueLex', a framework that reconstructs LLMs' unique value systems from scratch, identifying three core non-human dimensions: Competence, Character, and Integrity"
 significance: "Reveals that LLMs possess a structured, distinct value system ('Character', 'Integrity') that differs from human personality models, necessitating bespoke metrics for 'virtuous' AI behavior"
@@ -38,6 +53,7 @@ paper_summary: "Abstract: Recent advancements in Large Language Models (LLMs) ha
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Mistral, Vicuna"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
  Beyond Human Norms: Unveiling Unique Values of Large Language Models through Interdisciplinary Approaches
 

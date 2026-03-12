@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "Comprehensive morphological and syntactic annotation of the entire Quran using verified Tanzil.net text. Features 72 syntactic roles, detailed morphological analysis, and context-specific annotations by expert Arabic linguists using traditional i'rab methodologies. Available in TSV, SQLite, CSV, and JSON formats. Valuable for dependency parsing, grammar checking, MT, and text summarization of Classical Arabic."
 LLM_assessed: "NA"
 DATA_URL: "https://data.mendeley.com/datasets/9yvrzxktmr"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # MASAQ: Morphologically-Analyzed and Syntactically-Annotated Quran Dataset
 

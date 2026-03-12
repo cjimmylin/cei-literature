@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATE_ADDED: 20260208
 LLM_assessed: GloVe
 DATA_URL: "https://github.com/uclanlp/gn_glove"
 doi: 10.18653/v1/D18-1521
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Gender Bias in Contextualized Word Embeddings (SemBias)
 

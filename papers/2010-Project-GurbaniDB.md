@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/sikher/gurbanidb"
+CONFERENCE: "Unknown"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # GurbaniDB
 

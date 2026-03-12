@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ALBERT, Alpaca, Claude, Claude 3.74, Claude-3.5-Sonnet, Falcon 23
 DATA_URL: "https://huggingface.co/datasets/AmanMussa"
 tags: 
 abstract: "Instruction tuning in low-resource languages remains underexplored due to limited text data, particularly in government and cultural domains. To address this, we introduce and open-source a large-scale (10,600 samples) instruction-following (IFT) dataset, covering key institutional and cultural knowledge relevant to Kazakhstan. Our dataset enhances LLMs’ understanding of procedural, legal, and structural governance topics."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh
 

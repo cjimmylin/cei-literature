@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Alpaca, GPT-3, GPT-3.5-Turbo, GPT-4-Turbo, GPT-4o, GPT-4o-mini, G
 DATA_URL: "https://huggingface.co/Qwen/Qwen2"
 tags: 
 abstract: "This paper presents a comprehensive evaluation for assessing large language model (LLM) capabilities in the Mongolian language, addressing a critical gap in multilingual LLM evaluation. We introduce MonMLU, a novel benchmark derived from native-level university entrance exams, alongside Mongolian adaptations of established benchmarks including Vicuna, MT-Bench, MGSM, and XCOPA. Our evaluation of leading commercial and openly available models reveals that while GPT-4o-mini achieves the highest..."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Evaluating Large Language Models in Mongolian
 

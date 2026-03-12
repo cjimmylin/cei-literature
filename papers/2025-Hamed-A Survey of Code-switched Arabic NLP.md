@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "ChatGPT, Llama-3"
 DATA_URL: "NA"
 tags: 
 abstract: "Language in the Arab world presents a complex diglossic and multilingual setting, involving the use of Modern Standard Arabic, various dialects and sub-dialects, as well as multiple European languages. This diverse linguistic landscape has given rise to code-switching, both within Arabic varieties and between Arabic and foreign languages. The widespread occurrence of code-switching across the region makes it vital to address these linguistic needs when developing language technologies."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # A Survey of Code-switched Arabic NLP
 

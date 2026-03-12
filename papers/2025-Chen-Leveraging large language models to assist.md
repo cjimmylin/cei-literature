@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ LLM_assessed: "GPT-4"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Chen-Leveraging large language models to assist.md"
 local_pdf: "[[PDFs/2025/2025-Chen-Leveraging large language models to assist.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Leveraging large language models to assist philosophical counseling: prospective techniques, value, and challenges
 

@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +64,7 @@ abstract: "This foundational position paper, written by a large consortium of In
 LLM_assessed: "NA"
 DATA_URL: "https://www.indigenous-ai.net/position-paper/"
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -55,7 +75,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Indigenous Protocol and Artificial Intelligence Position Paper
 

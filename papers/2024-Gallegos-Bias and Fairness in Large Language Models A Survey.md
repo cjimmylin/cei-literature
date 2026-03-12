@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BART, BERT, Bartl, GPT-4"
 DATA_URL: "https://github.com/i-gallegos/Fair-LLM-Benchmark"
 tags: 
 abstract: "Comprehensive survey organizing LLM bias and fairness work into three categories: metrics, datasets, and techniques. Covers embedding-based, probability-based, and generated text-based bias evaluation approaches. Published in Computational Linguistics 2024."
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Bias and Fairness in Large Language Models: A Survey
 

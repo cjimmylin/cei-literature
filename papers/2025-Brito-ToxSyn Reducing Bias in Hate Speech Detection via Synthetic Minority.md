@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-4, BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "The development of robust hate speech detection systems remains limited by the lack of large-scale, fine-grained training data, especially for languages beyond English. Existing corpora typically rely on coarse toxic/non-toxic labels, and the few that capture hate directed at specific minority groups critically lack the non-toxic counterexamples (i.e., benign text about minorities) required to distinguish genuine hate from mere discussion."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic Minority Data in Brazilian Portuguese
 

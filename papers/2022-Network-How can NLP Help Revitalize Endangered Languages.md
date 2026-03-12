@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/ZhangShiyue/RevitalizeCherokee"
 tags: 
 abstract: "More than 43% of the languages spoken in the world are endangered, and language loss currently occurs at an accelerated rate because of globalization and neocolonialism. Saving and revitalizing endangered languages has become very important for maintaining the cultural diversity on our planet. In this work, we focus on discussing how NLP can help revitalize endangered languages. We first suggest three principles that may help NLP practitioners to foster mutual understanding and collaboration..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # How can NLP Help Revitalize Endangered Languages?
 

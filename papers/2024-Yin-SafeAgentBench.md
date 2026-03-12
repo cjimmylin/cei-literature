@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "With the integration of large language models (LLMs), embodied agents
 LLM_assessed: "GPT-4, Gemini, Llama-3, Qwen, DeepSeek"
 DATA_URL: "https://github.com/shengyin1224/SafeAgentBench"
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # SafeAgentBench
 

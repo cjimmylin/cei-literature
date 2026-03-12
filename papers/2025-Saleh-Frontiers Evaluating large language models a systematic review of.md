@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, I found information about a paper titled \"Evaluating Large Language Models in Mongolian\" presented at ANLP 2025. According to the PDF document from the proceedings: The paper was presented at the 31st Annual Meeting of the Association for NLP (言語処理学会 第31回年次大会) in 2025."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Frontiers | Evaluating large language models: a systematic review of efficiency, applications, and future directions
 

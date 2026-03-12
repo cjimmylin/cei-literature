@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_ANGLE2021
@@ -23,7 +38,7 @@ cultures_nationalities_list: "Chinese"
 languages_list: ""
 religious_values: Confucianism
 religious_values_list: Confucianism
-moral_psychology: Yes
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Confucian Ethics, AI Philosophy, Technomoral Virtue"
 key_contribution: "Examines from Confucian perspective whether AI can lead humans to genuine virtue, expanding beyond Western ethical frameworks"
 significance: "One of the first rigorous Confucian philosophical analyses of AI and virtue, published in multi-author volume bridging Chinese philosophy and AI"
@@ -33,6 +48,7 @@ CONF-CC: "Intelligence and Wisdom"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -42,7 +58,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Can Artificial Intelligence Lead Us to Genuine Virtue? A Confucian Perspective
 

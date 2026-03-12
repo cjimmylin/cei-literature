@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Computational preference elicitation methods are tools used to learn people’s preferences quantitatively in a given context. Recent works on preference elicitation advocate for active learning as an efficient method to iteratively construct queries (framed as comparisons between context-specific cases) that are likely to be most informative about an agent’s underlying preferences. In this work, we argue that the use of active learning for moral preference elicitation relies on certain..."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "AIES 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "AIES 2024"
 ---
 # On the Pros and Cons of Active Learning for Moral Preference Elicitation
 

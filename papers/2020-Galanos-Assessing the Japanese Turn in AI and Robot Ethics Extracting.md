@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,12 +48,13 @@ cultures_nationalities_list: "Japanese, Shinto"
 languages_list: ""
 religious_values: Buddhism, Shinto
 religious_values_list: "Buddhism, Shinto"
-moral_psychology: 
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "https://hal.science/hal-03525267/"
 tags: 
 abstract:
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Assessing the Japanese Turn in AI and Robot Ethics: Extracting Meaningful Principles Between Exoticism and Empiricism in the Case of AIBO
 

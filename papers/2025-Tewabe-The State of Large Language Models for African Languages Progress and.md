@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BART, BERT, BLOOM, T5"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) are transforming Natural Language Processing (NLP), but their benefits are largely absent for Africa’s 2,000 low-resource languages. This paper comparatively analyzes African language coverage across six LLMs, eight Small Language Models (SLMs), and six Specialized SLMs (SSLMs). The evaluation covers language coverage, training sets, technical limitations, script problems, and language modelling roadmaps."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The State of Large Language Models for African Languages: Progress and Challenges
 

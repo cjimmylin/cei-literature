@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-4o, GPT-4o-mini, DeepSeek-V3, Qwen2.5, Llama-3.1, o1-mini"
 DATA_URL: "https://github.com/opendatalab/OpenHuEval"
 tags: 
 abstract: "First LLM benchmark focused on Hungarian language and cultural specifics across eight Hungarian-specific dimensions with 3,953 questions, including morphology, pragmatics, cultural knowledge, and dialectal understanding."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "3,953 questions"
-CONFERENCE: "Preprint"
 ---
 # OpenHuEval: Evaluating Large Language Model on Hungarian Specifics
 

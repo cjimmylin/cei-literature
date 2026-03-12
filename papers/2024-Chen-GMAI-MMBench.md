@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2024/2024-Chen-GMAI-MMBench.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Gemini, Claude, DeepSeek, Qwen"
 DATA_URL: "https://huggingface.co/datasets/OpenGVLab/GMAI-MMBench"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "284 datasets"
-CONFERENCE: "NeurIPS 2024"
 ---
 # GMAI-MMBench: A Comprehensive Multimodal Evaluation Benchmark Towards General Medical AI
 

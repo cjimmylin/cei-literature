@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Event-based Persian offensive language dataset of 13,716 tweets labeled via crowdsourcing platform. 34% labeled as offensive. ParsBERT achieves best F1 of 85.4%."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # PerGOLD: Identification of Offensive Language in Persian Tweets: Leveraging Crowdsourcing
 

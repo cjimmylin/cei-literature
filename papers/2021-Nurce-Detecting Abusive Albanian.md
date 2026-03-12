@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: BERT
 DATA_URL: "https://doi.org/10.6084/m9.figshare.19333298.v1"
 tags: 
 abstract: "The ever growing usage of social media in the recent years has had a direct impact on the increased presence of hate speech and offensive speech in online platforms. Research on effective detection of such content has mainly focused on English and a few other widespread languages, while the leftover majority fail to have the same work put into them and thus cannot benefit from the steady advancements made in the field."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "11,874 instances"
-CONFERENCE: "Preprint"
 ---
 # Detecting Abusive Albanian
 

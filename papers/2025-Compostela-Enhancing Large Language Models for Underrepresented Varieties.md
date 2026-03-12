@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BLOOM, LLama-3.1, Llama, Llama 3.1"
 DATA_URL: "https://github.com/proxectonos/instruction_datasets"
 tags: 
 abstract: "Systematic exploration of pretraining strategies for generative LLMs in the Galician-Portuguese diasystem. Investigates combining vs separating varieties and quality vs scale tradeoffs."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Enhancing Large Language Models for Underrepresented Varieties: Pretraining Strategies in the Galician-Portuguese Diasystem
 

@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Fuse moral reasoning"
@@ -27,7 +42,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed a 'Probabilistic Aggregation' mechanism to fuse moral scores from multiple LLMs into a robust consensus, and 'Targeted Embedding Optimization' (TEO) to align deviants."
 significance: "Offers a 'democratic' way to stabilize AI moral reasoning (Wisdom of Crowds) and a 'surgical' method to fix specific moral failures without expensive retraining."
@@ -39,6 +54,7 @@ local_pdf: "[[PDFs/2025/2025-Yuan-Probabilistic Aggregation and Targeted Embeddi
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Llama-3"
 DATA_URL: "https://github.com/yuanchencn/Collective-Moral-Reasoning"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Probabilistic Aggregation and Targeted Embedding Optimization for Collective Moral Reasoning in Large Language Models
 

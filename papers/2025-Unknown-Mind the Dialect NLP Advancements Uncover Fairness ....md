@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://github.com/alshabae/FairArRecSys"
 tags: 
 abstract: "Recommendation systems play a critical role in shaping user experiences and access to digital content. However, these systems can exhibit unfair behavior when their performance varies across user groups, especially in linguistically diverse populations. Recent advances in NLP have enabled the identification of user dialects, allowing for more granular analysis of such disparities. In this work, we investigate fairness disparities in recommendation quality among Arabic-speaking users, a..."
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Mind the Dialect: NLP Advancements Uncover Fairness ...
 

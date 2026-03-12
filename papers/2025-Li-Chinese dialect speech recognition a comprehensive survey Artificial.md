@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "As a multi-ethnic country with a large population, China is endowed with diverse dialects, which brings considerable challenges to speech recognition work. In fact, due to geographical location, population migration, and other factors, the research progress and practical application of Chinese dialect speech recognition are currently at different stages. Therefore, exploring the significant regional heterogeneities in specific recognition approaches and effects, dialect corpus, and other..."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Chinese dialect speech recognition: a comprehensive survey | Artificial Intelligence Review
 

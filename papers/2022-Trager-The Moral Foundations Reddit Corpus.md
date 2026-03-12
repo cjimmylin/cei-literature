@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2022/2022-Trager-The Moral Foundations Reddit Corpus.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, BERT"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "8 categories"
-CONFERENCE: "Other Conference"
 ---
 # The Moral Foundations Reddit Corpus
 

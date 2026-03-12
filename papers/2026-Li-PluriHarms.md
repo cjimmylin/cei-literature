@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Current AI safety frameworks, which often treat harmfulness as binary
 LLM_assessed: "GPT-4, Claude, Qwen, DeepSeek"
 DATA_URL: "https://jl3676.github.io/PluriHarms"
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "150 prompts"
-CONFERENCE: "Preprint"
 ---
 # PluriHarms
 

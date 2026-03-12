@@ -9,6 +9,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Moral Identity, Value Pluralism / Schwartz"
+moral_psychology: "Moral Identity, Dual Process Theory, Trolley / Dilemmas (Psych)"
 newtags: "Moral Identity, Value Pluralism / Schwartz, Deontology, Utilitarianism"
 key_contribution: "Investigated the link between moral identity, deontological vs utilitarian preferences, and moral behavior"
 significance: "Found that deontological reasoning, when coupled with strong moral identity, most effectively predicts moral behavior, challenging the view of deontology as merely Error-prone intuition"
@@ -40,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.md"
 local_pdf: "[[PDFs/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # How Can a Deontological Decision Lead to Moral Behavior? The Moderating Role of Moral Identity
 

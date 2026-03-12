@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "Past work seeks to align large language model (LLM)-based assistants 
 LLM_assessed: "GPT-4o, Claude, Llama-3, Qwen, Gemma"
 DATA_URL: "https://github.com/andyjliu/conflictscope"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # ConflictScope: Generative Value Conflicts Reveal LLM Priorities
 

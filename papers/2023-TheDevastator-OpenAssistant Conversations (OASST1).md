@@ -8,6 +8,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/OpenAssistant/oasst1"
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).md"
 local_pdf: "[[PDFs/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).pdf]]"
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # OpenAssistant Conversations (OASST1)
 

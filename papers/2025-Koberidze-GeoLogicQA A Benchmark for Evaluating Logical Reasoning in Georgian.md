@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "ChatGPT, DeepSeek, DeepSeek-V3, GPT-4, GPT-4o, Gemini, Gemini 2.5
 DATA_URL: "https://github.com/irakli97/GeoLogicQA"
 tags: 
 abstract: "Advancements in LLMs have largely overlooked low-resource languages (LRLs), creating a gap in evaluation benchmarks. To address this for Georgian, a Kartvelian language, we introduce GeoLogicQA. This novel, manually-curated benchmark assesses LLMs’ logical and inferential reasoning through 100 questions. Questions cover syllogistic deduction, inferential reading comprehension, common-sense reasoning, and arithmetic, adapted from challenging sources (Kangaroo Mathematics Competition) and..."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "100 questions"
-CONFERENCE: "ACL 2025"
 ---
 # GeoLogicQA: A Benchmark for Evaluating Logical Reasoning in Georgian for Large Language Models
 

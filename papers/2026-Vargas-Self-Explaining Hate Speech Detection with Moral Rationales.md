@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4o-mini, Llama-3.1-70B, mBERT, BERTimbau"
 DATA_URL: "https://github.com/franciellevargas/SMRA"
 tags: 
 abstract: "Hate speech detection models rely on surfacelevel lexical features, increasing vulnerability to spurious correlations and limiting robustness, cultural contextualization, and interpretability. We propose Supervised Moral Rationale Attention (SMRA)1, the first selfexplaining hate speech detection framework to incorporate moral rationales as direct supervision for attention alignment. Based on Moral Foundations Theory, SMRA aligns token-level attention with expert-annotated moral rationales,..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Self-Explaining Hate Speech Detection with Moral Rationales
 

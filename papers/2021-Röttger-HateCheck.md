@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ CONF-CC: "ACL 2020"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/paul-rottger/hatecheck-data"
+CONFERENCE: "ACL 2021"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2021"
 ---
 # HateCheck: Functional Tests for Hate Speech Detection Models
 

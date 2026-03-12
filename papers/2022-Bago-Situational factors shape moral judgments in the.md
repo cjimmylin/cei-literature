@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,7 +45,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Dual Process Theory, Trolley / Dilemmas (Psych)"
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Replicated Greene's trolley dilemma experiments across 45 countries, testing the universality of situational factors on deontological vs utilitarian judgment"
 significance: "Confirmed that situational factors (like physical contact) universally influence moral judgment across cultures, supporting a dual-process model of moral cognition"
@@ -40,6 +55,7 @@ DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "NA"
 ethics_perspective: "General Ethics"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Situational factors shape moral judgments in the trolley dilemma in Eastern, Southern, and Western countries in a culturally diverse sample
 

@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ abstract: "Analysis of counter-speech generation for homophobic and transphobic 
 LLM_assessed: "ChatGPT, GPT-2, GPT-3, GPT-4, GPT-4o"
 DATA_URL: "NA"
 research_topic: "Other"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Counter-Speech Generation for Homophobic and Transphobic Social Media Content in Malayalam
 

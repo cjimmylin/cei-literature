@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
 DATA_URL: "https://bird-bench.github.io/"
 pdf_extract: "PDF Extracts/2023/2023-Li-BIRD.md"
 local_pdf: "[[PDFs/2023/2023-Li-BIRD.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "33.4 gb"
-CONFERENCE: "Journal"
 ---
 # BIRD: BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation
 

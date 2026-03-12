@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ abstract: "Although LLMs have been extremely effective in a large number of comp
 LLM_assessed: "GPT-4o, GPT-4o mini, GPT-4o-mini, Gemma"
 DATA_URL: "NA"
 research_topic: "Social & Cultural Analysis"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Evaluating Cultural Awareness of LLMs for Yoruba, Malayalam, and English
 

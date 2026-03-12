@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,12 +45,13 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "Does AI understand human values? While this remains an open philosophical question, we take a pragmatic stance by introducing VAPT, the Value-Alignment Perception Toolkit, for studying how LLMs reflect people’s values and how people judge those reflections. 20 participants texted a chatbot over a month, then completed a 2-hour interview with our toolkit evaluating AI’s ability to extract (pull details regarding), embody (make decisions guided by), and explain (provide proof of) their values."
 LLM_assessed: Claude
 DATA_URL: "https://github.com/KaluJo/chatbot-study"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +61,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # VAPT: Value-Alignment Perception Toolkit
 

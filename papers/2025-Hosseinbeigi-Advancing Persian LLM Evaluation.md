@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT, ChatGPT, Claude, Command-r, GPT-3, GPT-3.5, GPT-4, GPT-4o, 
 DATA_URL: "https://github.com/SajjjadAyobi/PersianQA"
 tags: 
 abstract: "Evaluation of large language models (LLMs) in low-resource languages like Persian has received less attention than in high-resource languages like English. Existing evaluation approaches for Persian LLMs generally lack comprehensive frameworks, limiting their ability to assess models’ performance over a wide range of tasks requiring considerable cultural and contextual knowledge, as well as a deeper understanding of Persian literature and style."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # Advancing Persian LLM Evaluation
 

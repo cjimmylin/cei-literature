@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: GPT-4
 DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
 pdf_extract: "PDF Extracts/2024/2024-Aakanksha-The Multilingual Alignment Prism.md"
 local_pdf: "[[PDFs/2024/2024-Aakanksha-The Multilingual Alignment Prism.pdf]]"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "6 languages"
-CONFERENCE: "EMNLP 2024"
 ---
 # The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm
 

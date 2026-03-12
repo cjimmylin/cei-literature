@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus"
 tags: 
 abstract: "Although Indonesian is known to be the fourth most frequently used language over the internet, the research progress on this language in natural language processing (NLP) is slowmoving due to a lack of available resources. In response, we introduce the ﬁrst-ever vast resource for training, evaluation, and benchmarking on Indonesian natural language understanding (IndoNLU) tasks. IndoNLU includes twelve tasks, ranging from single sentence classiﬁcation to pair-sentences sequence labeling with..."
+CONFERENCE: "ACL 2020"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2020"
 ---
 # IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding
 

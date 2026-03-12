@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://github.com/HannahKirk/prism-alignment, https://huggingface.co
 publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models
 

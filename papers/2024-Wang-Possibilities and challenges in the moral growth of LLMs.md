@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ abstract: "With the rapid expansion of parameters in large language models (LLMs
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3, ChatGPT"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -47,7 +63,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Possibilities and challenges in the moral growth of large language models: a philosophical perspective
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: Gemini
 DATA_URL: "https://github.com/cvs-health/langfair"
 pdf_extract: "PDF Extracts/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.md"
 local_pdf: "[[PDFs/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.pdf]]"
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # How to Assess Your LLM Use Case for Bias and Fairness with LangFair
 

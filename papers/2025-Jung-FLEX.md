@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Llama-2, Llama-3, Mistral, Gemma, GPT-4, GPT-3.5"
 DATA_URL: "https://github.com/ekgus9/FLEX"
 pdf_extract: "PDF Extracts/2025/2025-Jung-FLEX.md"
 local_pdf: "[[PDFs/2025/2025-Jung-FLEX.pdf]]"
+CONFERENCE: "NAACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # FLEX: A Benchmark for Evaluating Robustness of Fairness in Large Language Models
 

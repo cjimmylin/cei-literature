@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +51,7 @@ tags:
 abstract: "Large Language Models (LLMs) are increasingly deployed in high-stakes contexts where their outputs influence real-world decisions. However, evaluating bias in LLM outputs remains methodologically challenging due to sensitivity to prompt wording, limited multilingual coverage, and the lack of standardized metrics that enable reliable comparison across models. In this paper, we introduce BiasLab, an open-source model-agnostic evaluation framework for quantifying output-level (extrinsic) bias..."
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/williamguey/LLMbiaslab"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +61,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # BiasLab (Multilingual Dual-Framing Framework)
 

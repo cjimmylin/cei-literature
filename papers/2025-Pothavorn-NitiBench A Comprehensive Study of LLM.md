@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "The application of large language models (LLMs) in the legal domain h
 LLM_assessed: "BERT, Claude, Claude 3.5 Sonnet, GPT 4o, GPT-4o, GPT-4o mini, GPT4o, Llama3, claude 3, claude-3, claude-3.5-sonnet, gpt-4o-mini, llama 3, llama3.1"
 DATA_URL: "https://github.com/vistec-ai/nitibench"
 research_topic: "Question Answering"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # NitiBench: A Comprehensive Study of LLM Framework Capabilities for Thai Legal Question Answering
 

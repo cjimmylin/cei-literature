@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/datasets/ImruQays"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "251 questions; 629 questions"
-CONFERENCE: "Preprint"
 ---
 # Optimized Quran Passage Retrieval Using an Expanded QA Dataset and Fine-Tuned Language Models
 

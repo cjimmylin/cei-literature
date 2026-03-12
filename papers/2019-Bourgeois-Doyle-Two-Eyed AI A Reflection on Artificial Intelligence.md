@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,12 +47,13 @@ cultures_nationalities_list: "Indigenous Canadian, Mi'kmaw"
 languages_list: ""
 religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
-moral_psychology: 
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract:
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Two-Eyed AI: A Reflection on Artificial Intelligence
 

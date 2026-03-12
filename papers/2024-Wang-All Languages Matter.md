@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, GPT-3.5, PaLM-2, Llama-2, Vicuna"
 DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 pdf_extract: "PDF Extracts/2024/2024-Wang-All Languages Matter.md"
 local_pdf: "[[PDFs/2024/2024-Wang-All Languages Matter.pdf]]"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "10 languages"
-CONFERENCE: "ACL 2024"
 ---
 # All Languages Matter: On the Multilingual Safety of Large Language Models
 

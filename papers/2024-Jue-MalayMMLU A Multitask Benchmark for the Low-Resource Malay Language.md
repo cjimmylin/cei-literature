@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "Baichuan, Baichuan-2, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) and Large Vision Language Models (LVLMs) exhibit advanced proficiency in language reasoning and comprehension across a wide array of languages. While their performance is notably robust in well-resourced languages, their capabilities in low-resource languages, such as Bahasa Melayu (hereinafter referred to as Malay), remain less explored due to a scarcity of dedicated studies and benchmarks."
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "24,213 questions"
-CONFERENCE: "EMNLP 2024"
 ---
 # MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language
 

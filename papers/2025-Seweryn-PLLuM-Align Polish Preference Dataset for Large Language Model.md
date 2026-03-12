@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "ALBERT, GPT-4, GPT-4o, Llama, Llama 3, Llama 3.1, Llama-3, Llama-
 DATA_URL: "https://huggingface.co/datasets/argilla"
 tags: 
 abstract: "Alignment is the critical process of minimizing harmful outputs by teaching large language models (LLMs) to prefer safe, helpful and appropriate responses. While the majority of alignment research and datasets remain overwhelmingly English-centric, ensuring safety across diverse linguistic and cultural contexts requires localized resources. In this paper, we introduce the first Polish preference dataset PLLuM-Align, created entirely through human annotation to reflect Polish language and..."
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # PLLuM-Align: Polish Preference Dataset for Large Language Model Alignment
 

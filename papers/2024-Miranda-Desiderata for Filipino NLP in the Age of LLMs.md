@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Comprehensive analysis of the state of Filipino NLP and what is needed for LLM evaluation, discussing gaps in benchmarks for cultural understanding, safety, and alignment specific to Filipino."
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Desiderata for Filipino NLP in the Age of LLMs
 

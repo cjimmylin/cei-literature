@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Claude 3.5, Claude 3.5 Sonnet, Deepseek 4o, Deepseek R1, GPT-4o, 
 DATA_URL: "https://github.com/ShayHill/docx2python"
 tags: 
 abstract: "Medical benchmarks are indispensable for evaluating the capabilities of language models in healthcare for non-English-speaking communities,therefore help ensuring the quality of real-life applications. However, not every community has sufficient resources and standardized methods to effectively build and design such benchmark, and available non-English medical data is normally fragmented and difficult to verify."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "14,000 questions"
-CONFERENCE: "Preprint"
 ---
 # VM14K: First Vietnamese Medical Benchmark
 

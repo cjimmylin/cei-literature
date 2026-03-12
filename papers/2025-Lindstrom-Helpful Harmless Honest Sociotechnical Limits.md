@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ LLM_assessed: "ChatGPT, Claude, Llama"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.md"
 local_pdf: "[[PDFs/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Helpful, harmless, honest? Sociotechnical limits of AI alignment and safety through Reinforcement Learning from Human Feedback
 

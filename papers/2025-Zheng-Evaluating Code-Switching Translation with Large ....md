@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-2, PaLM, PaL
 DATA_URL: "NA"
 tags: 
 abstract: "Recent advances in large language models (LLMs) have shown they can match or surpass finetuned models on many natural language processing tasks. Currently, more studies are being carried out to assess whether this performance carries over across different languages. In this paper, we present a thorough evaluation of LLMs for the less well-researched code-switching translation setting, where inputs include a mixture of different languages."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Evaluating Code-Switching Translation with Large ...
 

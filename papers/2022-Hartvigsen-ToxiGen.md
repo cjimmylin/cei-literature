@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,8 @@ CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, BERT, RoBERTa"
 DATA_URL: "https://github.com/microsoft/ToxiGen"
+CONFERENCE: "ACL 2022"
+eleutherai: incorporated
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2022"
 ---
 # ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection
 

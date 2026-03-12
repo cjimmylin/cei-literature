@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Systematic review examining how GenAI applications within Indigenous Knowledge Systems can contribute to epistemic and cultural justice in Latin America and the Global South. Identifies four interrelated axes: Preservation and revitalization of knowledge; Culturally situated educational and evaluative tools; Data governance frameworks and knowledge cocreation; Decolonial imagination of creativity. Searches Scopus and Web of Science 2023-2025."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Generative Artificial Intelligence and Indigenous Knowledge Systems in the Global South: A Systematic Review on Data Colonialism and Epistemic Justice
 

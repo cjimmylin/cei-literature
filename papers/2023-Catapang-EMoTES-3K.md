@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "RoBERTa, Flan-T5"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
 local_pdf: "[[PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # EMoTES-3K: Emotion-based Morality in Tagalog and English Scenarios
 

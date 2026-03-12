@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "This paper explores the moral judgment and moral reasoning abilities 
 research_topic: "Machine Translation"
 LLM_assessed: "GPT-4, ChatGPT, Llama-2"
 DATA_URL: "NA"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Multilingual Defining Issues Test
 

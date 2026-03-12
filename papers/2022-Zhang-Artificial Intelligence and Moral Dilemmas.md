@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Utilitarianism, Deontology, AI Perception, Warmth-Competence, Moral Dilemmas"
 key_contribution: "Demonstrates that people perceive AI as more likely to make utilitarian choices than humans, with perceived warmth accounting for differences"
 significance: "Foundational empirical work (N=804) showing AI perceived as high competence/low warmth favoring utilitarianism vs humans with high warmth/low competence favoring deontology"
@@ -41,6 +56,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 ethics_perspective: "Machine Ethics"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -50,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Artificial Intelligence and Moral Dilemmas: Perception of Ethical Decision-Making in AI
 

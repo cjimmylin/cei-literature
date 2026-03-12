@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2025/2025-Xi-InfoDeepSeek.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, o3, Claude, DeepSeek, Gemini, Llama, Qwen"
 DATA_URL: "https://infodeepseek.github.io/"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation
 

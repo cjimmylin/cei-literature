@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Developing a high-performing large language models (LLMs) for low-res
 LLM_assessed: "Alpaca, ChatGPT, Cohere-Aya, Dolly, GPT-4o, Gemma, GPT-4, Llama, Llama-3.1, Mistral- 7B, Mistral-7B, Qwen-2.5, Qwen2.5, BERT, llama."
 DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
 research_topic: "Machine Translation"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation
 

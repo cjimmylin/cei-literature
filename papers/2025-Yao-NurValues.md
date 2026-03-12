@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Yao-NurValues.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, o1, Claude, Gemini, DeepSeek, Llama-3, Llama, Qwen"
 DATA_URL: "https://huggingface.co/datasets/Ben012345/NurValues"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # NurValues: Real-World Nursing Values Evaluation for Large Language Models in Clinical Context
 

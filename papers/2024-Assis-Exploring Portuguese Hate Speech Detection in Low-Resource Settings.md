@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, ChatGPT"
 DATA_URL: "https://github.com/MeLLL-UFF/hate_speech_"
 tags: 
 abstract: "Automatically identifying hate speech is an emerging field driven by the growth of social media and the consequent amplification of communication. However, this domain faces challenges due to the nuances of the language and variations in expression. In some countries, such as Brazil, the focus of this paper, hate speech can be typified as a crime by law. Nonetheless, enforcing the law is challenging, given the complexity of distinguishing hateful comments among the volume of interactions on..."
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?
 

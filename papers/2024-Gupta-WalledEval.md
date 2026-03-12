@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "WALLEDEVAL is a comprehensive AI safety testing toolkit designed to e
 LLM_assessed: "Llama-2, Llama-3, Mistral, Mixtral, Qwen, Gemma, Phi, GPT-4, Claude, Gemini"
 DATA_URL: "https://github.com/walledai/walledeval"
 research_topic: "Other"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # WalledEval
 

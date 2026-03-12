@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,8 @@ CONF-CC: "AGI - Artificial General Intelligence - Robotics - Safety &amp; Alignm
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude"
 DATA_URL: "https://huggingface.co/datasets/stanford-crfm/air-bench-2024"
+CONFERENCE: "Journal"
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # AIR-Bench 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies
 

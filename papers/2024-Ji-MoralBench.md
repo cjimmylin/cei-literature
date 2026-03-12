@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +44,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Identity, Deontology"
 key_contribution: "Curates a comprehensive dataset to probe 'moral identity' of LLMs across diverse ethical dilemmas and real-world scenarios"
 significance: "Focuses on assessing 'moral identity' (nuance, context sensitivity) rather than just correct labels, offering a more holistic evaluation"
@@ -40,6 +55,7 @@ LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Gemma"
 DATA_URL: "https://github.com/agiresearch/MoralBench"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
+CONFERENCE: "KDD 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -49,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "KDD 2024"
 ---
  MoralBench: Moral Evaluation of LLMs
 

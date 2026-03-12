@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, Word2Vec"
 DATA_URL: "https://github.com/tarudesu/ViCTSD"
 tags: 
 abstract: "The rise of social media has led to the increasing of comments on online forums. However, there still exists invalid comments which are not informative for users. Moreover, those comments are also quite toxic and harmful to people. In this paper, we create a dataset for constructive and toxic speech detection, named UIT-ViCTSD (Vietnamese Constructive and Toxic Speech Detection dataset) with 10,000 humanannotated comments."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Constructive and Toxic Speech Detection for Open-domain Social Media Comments in Vietnamese
 

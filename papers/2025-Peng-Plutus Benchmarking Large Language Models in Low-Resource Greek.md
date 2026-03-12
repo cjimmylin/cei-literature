@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "GPT-4o, Claude-3.5-Sonnet, Gemini-Pro, Llama-3.1, Qwen-2.5, DeepS
 DATA_URL: "https://huggingface.co/collections/TheFinAI/plutus-benchmarking-greek-financial-llms-67bc718fb8d897c65f1e87db"
 tags: 
 abstract: "Despite Greece’s pivotal role in the global economy, large language models (LLMs) remain underexplored for Greek financial context due to the linguistic complexity of Greek and the scarcity of domainspecific datasets. Previous efforts in multilingual financial natural language processing (NLP) have exposed considerable performance disparities, yet no dedicated Greek financial benchmarks or Greekspecific financial LLMs have been developed until now."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance
 

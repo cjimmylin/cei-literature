@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Investigated the acquisition of moral reasoning in LLMs, identifying a 'pragmatic dilemma' where models struggle to generalize moral judgment due to pragmatic nuances in discourse."
 significance: "Suggests that current semantic learning paradigms are insufficient for robust moral reasoning, which requires deeper pragmatic understanding than simple fine-tuning provides."
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in.pdf]]
 LLM_assessed: "Mistral, Llama-3, BERT"
 DATA_URL: "NA"
 DATE_ADDED: 20260207
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # Diagnosing Moral Reasoning Acquisition in Language Models: Pragmatics and Generalization
 

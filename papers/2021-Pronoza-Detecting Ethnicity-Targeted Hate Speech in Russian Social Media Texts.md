@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/hse-scila/ethnohate-project"
 tags: 
 abstract: "First dataset annotated with ethnicity-targeted hate speech in Russian (5.5K texts). Constructed from 2.6M user messages mentioning ethnic groups with 12K annotated instances. Addresses differentiation of attitudes towards different ethnic groups."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts
 

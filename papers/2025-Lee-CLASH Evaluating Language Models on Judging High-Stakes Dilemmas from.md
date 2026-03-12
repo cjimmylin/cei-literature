@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ abstract: "Navigating dilemmas involving conflicting values is challenging even 
 LLM_assessed: "GPT-4o, GPT-4o mini, GPT-5, Claude, Llama-3, Qwen, Mistral, DeepSeek"
 DATA_URL: "https://huggingface.co/datasets/launch/CLASH"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives
 

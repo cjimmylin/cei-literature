@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ research_topic: "SPECTRA Ethical Framework"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Evaluating Computational Models of Ethics
 

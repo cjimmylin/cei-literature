@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,7 +46,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "General Ethics"
 key_contribution: "Introduced the Moral Machine platform, a global crowdsourcing experiment to gather human perspectives on how autonomous machines should handle moral dilemmas."
 significance: "Laid the groundwork for the largest cross-cultural study of machine ethics, providing the data necessary to understand regional variations in moral intuition for autonomous vehicle regulation."
@@ -39,6 +58,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://moralmachine.mit.edu"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md"
 local_pdf: "[[PDFs/2020/2020-Awad-Crowdsourcing moral machines.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Crowdsourcing moral machines
 

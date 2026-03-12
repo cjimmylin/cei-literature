@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://github.com/LDNOOBW/List-of-Dirty-Naughty-"
 tags: 
 abstract: "Toxic comments in online platforms are an unavoidable social issue under the cloak of anonymity. Hate speech detection has been actively done for languages such as English, German, or Italian, where manually labeled corpus has been released. In this work, we ﬁrst present 9.4K manually labeled entertainment news comments for identifying Korean toxic speech, collected from a widely used online news platform in Korea."
+CONFERENCE: "ACL 2020"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2020"
 ---
 # BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection
 

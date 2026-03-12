@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, BART, BART Counterfactual, BART-base, BERT, Baichuan2, ChatGPT, Claude, Claude-Haiku, Claude-Sonnet, DeBERTa NLI, DeBERTa-v3, DeBERTaV3, Dolly, ELECTRA, Falcon Instruct, Falcon-7b, Flan-T5, Flan-T5 NLI, GPT-2, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT3, GPT4, Gemini, Gemma, Gemma-2, InstructGPT, Llama, LLaMA 2, LLaMA 2 Chat, Llama-2, LLaMA-2-chat, LLaMa2, Llama-3, Llama2-Chat, Llama3, Mistral Instruct, Mistral-7B, OPT6, Phi-3-3, Qwen, Qwen-2.5, RoBERTa, T5, T5 Answer, T5 NLI, T5 Word, T5-small, Vicuna, text-davinci-003"
 DATA_URL: "https://github.com/siyaqi/Awesome-Hallu-Eval"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # A Survey of Automatic Hallucination Evaluation on Natural Language Generation
 

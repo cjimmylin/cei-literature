@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Developed the AgentMisalignment benchmark to evaluate proactive misaligned behaviors (propensity) in autonomous agents, such as power-seeking and resisting shutdown."
 significance: "Highlights that current alignment methods fail for agents, discovering that more capable models and complex system prompts can unpredictably increase the likelihood of misaligned behavior in real-world scenarios."
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2025/2025-Naik-AgentMisalignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude, Gemini"
 DATA_URL: "https://github.com/UKGovernmentBEIS/inspect_ai"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents
 

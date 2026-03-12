@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Multimodal dataset comprising videos with audio and textual transcripts annotated for 4 hate speech categories: offensive, sexist, racist, and casteist. First multimodal hate speech dataset for Tamil. Multimodal Tamil hate speech dataset with culturally specific categories including casteist content. Addresses values-relevant hate speech detection."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # A Multimodal Approach for Hate and Offensive Content Detection in Tamil: From Corpus Creation to Model Development
 

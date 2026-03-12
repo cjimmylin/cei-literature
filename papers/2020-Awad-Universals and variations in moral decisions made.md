@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +45,7 @@ cultures_nationalities_list: "Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Analyzed 70k responses from 42 countries to sacrificial dilemmas, finding universal qualitative ordering but significant quantitative cultural variation driven by 'relational mobility'."
 significance: "Demonstrates that while some moral cognitive processes are universal, local culture (e.g., relational risks) heavily modulates the acceptability of utilitarian sacrifice."
@@ -39,6 +58,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://moralmachine.mit.edu"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"
 local_pdf: "[[PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "10 languages"
-CONFERENCE: "Journal"
 ---
 # Universals and variations in moral decisions made in 42 countries by 70,000 participants
 

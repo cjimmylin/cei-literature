@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,12 +47,13 @@ cultures_nationalities_list: "Zoroastrian, Persian, Sassanian"
 languages_list: "Pahlavi"
 religious_values: Zoroastrian
 religious_values_list: "Zoroastrian"
-moral_psychology: 
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract:
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Semantic Analysis of Jurisprudential Zoroastrian Texts in Pahlavi: A Word Embedding Approach for an Extremely Under-Resourced, Extinct Language
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini"
 research_topic: "Machine Translation"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Frontiers | Cross-dialectal Arabic translation: comparative analysis on large language models
 

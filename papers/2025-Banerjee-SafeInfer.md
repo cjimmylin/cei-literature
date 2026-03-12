@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "Llama-2, Mistral, Vicuna, Falcon"
 DATA_URL: "https://github.com/NeuralSentinel/SafeInfer"
+CONFERENCE: "AAAI 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2025"
 ---
 # SafeInfer: Context Adaptive Decoding Time Safety Alignment for Large Language Models
 

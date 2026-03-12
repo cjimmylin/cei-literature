@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +41,7 @@ cultures_nationalities_list: "American"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Deontology, Kantian-Ethics, AI-Alignment, Values-Alignment"
 key_contribution: "Argues AI can follow Kantian Categorical Imperative principles for alignment without possessing moral agency"
 significance: "Provides philosophical grounding for using Kantian deontology as alignment target while addressing moral agency concerns"
@@ -38,6 +53,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Sanwoolu-Kantian deontology for AI.md"
 local_pdf: "[[PDFs/2025/2025-Sanwoolu-Kantian deontology for AI.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Kantian deontology for AI: alignment without moral agency
 

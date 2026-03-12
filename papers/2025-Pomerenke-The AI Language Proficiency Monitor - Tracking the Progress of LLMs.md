@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, Barth, Gemma, Gemma 3, LLama 3"
 DATA_URL: "https://huggingface.co/spaces/Eurolingua"
 tags: 
 abstract: "To ensure equitable access to the benefits of large language models (LLMs), it is essential to evaluate their capabilities across the world’s languages. We introduce the AI Language Proficiency Monitor, a comprehensive multilingual benchmark that systematically assesses LLM performance across up to 200 languages, with a particular focus on low-resource languages. Our benchmark aggregates diverse tasks including translation, question answering, math, and reasoning, using datasets such as..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "200 languages"
-CONFERENCE: "Preprint"
 ---
 # The AI Language Proficiency Monitor -- Tracking the Progress of LLMs on Multilingual Benchmarks
 

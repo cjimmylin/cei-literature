@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "South Africa’s escalating mental health crisis, compounded by limited access to culturally responsive care, calls for innovative and contextually grounded interventions. While Large Language Models (LLMs) show considerable promise for mental health support, their predominantly Western-centric training data limit cultural and linguistic applicability in African contexts. This study introduces a proof-of-concept framework that integrates Cognitive Behavioural Therapy (CBT) with the African..."
 LLM_assessed: "BLOOM, ChatGPT, Flan-T5-Large, GPT-4, GPT-4o-mini, Llama 2, T5-Large, Vicuna"
 DATA_URL: "https://github.com/Sontaga25/Chatbot_FrontEnd.git"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # An Ubuntu-Guided Large Language Model Framework for Cognitive Behavioral Mental Health Dialogue
 

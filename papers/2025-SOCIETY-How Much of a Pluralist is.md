@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,12 +53,13 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This study introduces pluralism as a benchmark for evaluating generative AI chatbots’ ability to navigate and potentially endorse diverse values and perspectives. Pluralism—the recognition and valuing of multiple, distinct perspectives—is essential for contemporary democratic societies, making systematic assessment of how AI systems handle value pluralism crucial. Using the Magic Wand Survey (MWS), which presents diverse value conflicts, we empirically measured 2 dimensions of..."
 LLM_assessed: "ChatGPT, Claude, Claude 3.5, Claude 3.5 Sonnet, DeepSeek"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # How Much of a Pluralist is ChatGPT? A Comparative Study of Value Pluralism in Generative AI Chatbots
 

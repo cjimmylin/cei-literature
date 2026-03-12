@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ abstract: "The integration of large language models into healthcare necessitates
 LLM_assessed: "GPT-4, Claude, Gemma, Llama-3, Qwen, DeepSeek"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "3,648 questions"
-CONFERENCE: "Preprint"
 ---
 # PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice
 

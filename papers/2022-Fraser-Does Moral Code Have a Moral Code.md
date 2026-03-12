@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +44,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory, Social Intuitionist Model"
 newtags: Deontology
 key_contribution: "Probes the Delphi model with standardized morality questionnaires to check for consistent higher-level ethical principles"
 significance: "Finds Delphi mirrors annotator demographics rather than learning abstract ethics, questioning the viability of bottom-up moral learning"
@@ -39,6 +54,7 @@ paper_summary: "Abstract: In an effort to guarantee that machine learning model 
 DATE_ADDED: 20260208
 LLM_assessed: T5
 DATA_URL: "https://svkir.com/projects/moralQ.html"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -48,7 +64,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
  Does Moral Code Have a Moral Code? Probing Delphi's Moral Philosophy
 

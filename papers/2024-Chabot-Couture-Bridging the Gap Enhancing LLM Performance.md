@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Large Language Models (LLMs) have shown remarkable performance across various tasks, yet significant disparities remain for non-English languages, and especially native African languages. This paper addresses these disparities by creating approximately 1 million human-translated words of new benchmark data in 8 low-resource African languages, covering a population of over 160 million speakers of: Amharic, Bambara, Igbo, Sepedi (Northern Sotho), Shona, Sesotho (Southern Sotho), Setswana, and..."
 LLM_assessed: "BLOOMZ, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama 3, Llama 3.1, gpt-3.5-turbo, gpt-4-turbo"
 DATA_URL: "https://github.com/InstituteforDiseaseModeling/Bridging-the-Gap-Low-Resource-African-Languages (CC BY 4.0)"
+CONFERENCE: "AAAI 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2025"
 ---
 # Bridging the Gap: Enhancing LLM Performance for Low-Resource African Languages with New Benchmarks, Fine-Tuning, and Cultural Adjustments
 

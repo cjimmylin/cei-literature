@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Virtue ethics certification"
@@ -25,7 +40,7 @@ cultures_nationalities_list: "European"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Proposes a virtue-based 'AI Seal of Excellence' certification process grounded in Aristotelian ethics (arete) for low-risk AI systems"
 significance: "Offers a specific regulatory implementation of virtue ethics, contrasting it with the data-centric focus of the EU AI Act"
@@ -35,6 +50,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -44,7 +60,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Virtue in the Machine: Beyond a One-size-fits-all Approach and Aristotelian Ethics for Artificial Intelligence
 

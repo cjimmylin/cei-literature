@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/paulafortuna/Portuguese-Hate-Speech-Dataset"
 tags: 
 abstract: "Over the past years, the amount of online offensive speech has been growing steadily. To successfully cope with it, machine learning is applied. However, ML-based techniques require sufﬁciently large annotated datasets. In the last years, different datasets were published, mainly for English. In this paper, we present a new dataset for Portuguese, which has not been in focus so far. The dataset is composed of 5,668 tweets."
+CONFERENCE: "ACL 2019"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "81 categories"
-CONFERENCE: "ACL 2019"
 ---
 # A Hierarchically-Labeled Portuguese Hate Speech Dataset
 

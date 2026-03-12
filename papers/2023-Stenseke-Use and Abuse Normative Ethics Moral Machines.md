@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +56,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 ethics_perspective: "General Ethics"
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -50,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # Use and Abuse Normative Ethics Moral Machines
 

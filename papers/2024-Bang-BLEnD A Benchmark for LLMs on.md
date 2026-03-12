@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Large language models (LLMs) often lack culture-specific knowledge of daily life, especially across diverse regions and non-English languages. Existing benchmarks for evaluating LLMs’ cultural sensitivities are limited to a single language or collected from online sources such as Wikipedia, which do not reflect the mundane everyday lifestyles of diverse regions. That is, information about the food people eat for their birthday celebrations, spices they typically use, musical instruments..."
 LLM_assessed: "Claude-3, Claude-3-Haiku, Claude-3-Opus, Claude-3-Sonnet, Command-R, GPT-3, GPT-3.5, GPT-4, Qwen, Qwen1.5, gpt-3.5-turbo"
 DATA_URL: "https://github.com/nlee0212/BLEnD"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "13 languages; 2024 datasets"
-CONFERENCE: "NeurIPS 2024"
 ---
 # BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages
 

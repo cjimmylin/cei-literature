@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,8 @@ CONF-CC: "Natural Language Processing"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, T5, BART, RoBERTa"
 DATA_URL: "https://github.com/demelin/moral_stories"
+CONFERENCE: "EMNLP 2021"
+eleutherai: incorporated
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2021"
 ---
 # Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences
 

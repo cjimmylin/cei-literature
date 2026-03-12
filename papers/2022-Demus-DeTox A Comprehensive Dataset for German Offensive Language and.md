@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: BERT
 DATA_URL: "https://github.com/hdaSprachtechnologie/detox"
 tags: 
 abstract: "In this work, we present a publicly available offensive language dataset (DeTox-dataset) containing 10,278 annotated German social media comments collected in the first half of 2021. With twelve different annotation categories annotated by six annotators, it is far more comprehensive than other datasets, and goes beyond just hate speech detection. The labels aim in particular also at toxicity, criminal relevance and discrimination types of comments."
+CONFERENCE: "ACL 2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2022"
 ---
 # DeTox: A Comprehensive Dataset for German Offensive Language and Conversation Analysis
 

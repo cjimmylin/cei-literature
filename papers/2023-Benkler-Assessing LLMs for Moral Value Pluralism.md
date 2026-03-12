@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "American, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Used the 'Recognizing Value Resonance' (RVR) model to identify implicit values in LLM text, quantifying 'moral distance' from World Values Survey (WVS) demographics."
 significance: "Demonstrates that LLMs are not value-neutral but reflect specific cultural values (often WEIRD), and provides a method to measure this 'value resonance' automatically."
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2023/2023-Benkler-Assessing LLMs for Moral Value Pluralism.pd
 LLM_assessed: "RoBERTa"
 DATA_URL: "NA"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Assessing LLMs for Moral Value Pluralism
 

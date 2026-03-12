@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4, Qwen, Llama-3"
 DATA_URL: "https://github.com/KaguraRuri/MedEthicEval"
 pdf_extract: "PDF Extracts/2025/2025-Jin-MedEthicEval.md"
 local_pdf: "[[PDFs/2025/2025-Jin-MedEthicEval.pdf]]"
+CONFERENCE: "NAACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # MedEthicEval: Evaluating Large Language Models Based on Chinese Medical Ethics
 

@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "GPT-3.5, GPT-4, LeoLM, gelectra-large"
 DATA_URL: "https://github.com/jagol/gahd"
 tags: 
 abstract: "Hate speech detection models are only as good as the data they are trained on. Datasets sourced from social media suffer from systematic gaps and biases, leading to unreliable models with simplistic decision boundaries. Adversarial datasets, collected by exploiting model weaknesses, promise to fix this problem. However, adversarial data collection can be slow and costly, and individual annotators have limited creativity."
+CONFERENCE: "NAACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "11,000 examples; ~11,000 examples"
-CONFERENCE: "NAACL 2024"
 ---
 # GAHD: Improving Adversarial Data Collection by Supporting Annotators - Lessons from a German Hate Speech Dataset
 

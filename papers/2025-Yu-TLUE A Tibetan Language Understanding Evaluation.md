@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Large language models have made tremendous progress in recent years, 
 LLM_assessed: "ChatGPT, Claude, Claude 3, Claude 3.5-Sonnet, Claude-3.5, Claude-3.5-Sonnet, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT 4O, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT4, GPT4O, Llama, LlaMA 3.1, LlaMA-3.1, Llama3.1, Qwen, Qwen 2.5, Qwen 3.5, Qwen-2.5, Qwen-chat, Qwen2.5, llama 3"
 DATA_URL: "https://github.com/Vicentvankor/TLUE"
 ethics_perspective: "AI Safety & Alignment"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # TLUE: A Tibetan Language Understanding Evaluation Benchmark
 

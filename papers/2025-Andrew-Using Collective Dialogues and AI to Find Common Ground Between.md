@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "A growing body of work has shown that AI-assisted methods — leveraging large language models, social choice methods, and collective dialogues — can help navigate polarization and surface common ground in controlled lab settings. But what can these approaches contribute in real-world contexts? We present a case study applying these techniques to find common ground between Israeli and Palestinian peacebuilders in the period following October 7th, 2023."
 research_topic: "Other"
+CONFERENCE: "FAccT 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "FAccT 2025"
 ---
 # Using Collective Dialogues and AI to Find Common Ground Between Israeli and Palestinian Peacebuilders
 

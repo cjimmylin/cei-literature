@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Claude, GPT-4"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Aggarwal-Letta Leaderboard.md"
 local_pdf: "[[PDFs/2025/2025-Aggarwal-Letta Leaderboard.pdf]]"
+CONFERENCE: "Unknown"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # Letta Leaderboard: Benchmarking Agentic Memory in LLMs
 

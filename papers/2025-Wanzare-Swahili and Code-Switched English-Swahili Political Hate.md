@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Annotated hate speech dataset for Swahili and code-switched English-Swahili texts from Kenyan social media, addressing political hate speech during elections. Fills gap as only second publicly available Swahili hate speech dataset. Directly relevant to toxicity evaluation in Swahili. Addresses political hate speech which intersects with cultural values and civic discourse. Code-switched data reflects real Kenyan linguistic context."
 LLM_assessed: "BERT, Glove"
 DATA_URL: "https://github.com/Odhiambo-nelson/Swahili-and-English-Swahili-hate-speech-models-and-datasets"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Swahili and Code-Switched English-Swahili Political Hate Speech Detection Textual Dataset
 

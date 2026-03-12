@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Transformer-based language models, more speciﬁcally BERT-based arch
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/airesearch/wangchanberta-base-att-spm-uncased"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "78.5gb"
-CONFERENCE: "Preprint"
 ---
 # WangchanBERTa: Pretraining transformer-based Thai Language Models
 

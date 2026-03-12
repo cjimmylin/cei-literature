@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, DistilBERT, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, Llama, LLa
 DATA_URL: "NA"
 tags: 
 abstract: "The effectiveness of Large Language Models (LLMs) diminishes for extremely low-resource languages, such as indigenous languages, primarily due to the lack of labeled data. Despite growing interest, the availability of high-quality natural language processing (NLP) datasets for these languages remains limited, making it difficult to develop robust language technologies. This paper addresses such gap by focusing on Ladin, an endangered Romance language, specifically targeting the Val Badia variant."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Exploring NLP Benchmarks in an Extremely Low-Resource Setting
 

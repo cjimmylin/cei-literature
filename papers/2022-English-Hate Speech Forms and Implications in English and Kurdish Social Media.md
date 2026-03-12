@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Social media platforms have become a favorable way of communication, sharing opinion and views about different topics around the world freely. Freedom of expression or free speech is the right to say whatever one likes; it has been sometimes conflated with hate speech. The latter is a public communication that expresses hate or advocates violence toward a person or group based on their race, religion or sex."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Hate Speech Forms and Implications in English and Kurdish Social Media
 

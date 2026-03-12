@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ CONF-CC: "CVPR 2024"
 DATE_ADDED: 20260208
 LLM_assessed: Flan-T5
 DATA_URL: "https://github.com/amazon-science/THRONE"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # THRONE: An Object-based Hallucination Benchmark for the Free-form Generations of Large Vision-Language Models
 

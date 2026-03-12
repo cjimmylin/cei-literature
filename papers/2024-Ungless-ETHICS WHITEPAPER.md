@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +44,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "General Ethics"
 key_contribution: "Published a comprehensive whitepaper detailing best practices and ethical considerations for research into and with Large Language Models."
 significance: "Serves as a practical guide for researchers/industry to navigate the ethical landscape of LLM development, addressing issues from data procurement to deployment impact."
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/MxEddie/Ethics-Whitepaper"
 pdf_extract: "PDF Extracts/2024/2024-Ungless-ETHICS WHITEPAPER.md"
 local_pdf: "[[PDFs/2024/2024-Ungless-ETHICS WHITEPAPER.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # ETHICS WHITEPAPER: Whitepaper on Ethical Research into Large Language Models
 

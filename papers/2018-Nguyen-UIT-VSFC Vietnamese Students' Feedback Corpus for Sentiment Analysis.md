@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +63,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/kietnv/uit-vsfc"
 tags: 
 abstract: "16,000+ human-annotated Vietnamese sentences for sentiment-based and topic-based classification. 91.20% inter-annotator agreement for sentiment task. Used in SEA-HELM as Vietnamese sentiment benchmark."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -54,7 +74,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment Analysis
 

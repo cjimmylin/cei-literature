@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://github.com/ICTRC/Parsivar"
 tags: 
 abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Different types of abusive content such as offensive language, hate speech, aggression, etc. have become prevalent in social media and many efforts have been dedicated to automatically detect this phenomenon in different resource-rich languages such as English. This is mainly due to the comparative lack of annotated data related to offensive language in lowresource languages, especially the..."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "520,000 samples"
-CONFERENCE: "Other Conference"
 ---
 # Offensive Language Detection in Low Resource Languages: A Use Case of Persian Language
 

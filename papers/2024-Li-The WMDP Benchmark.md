@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz"
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Li-The WMDP Benchmark.md"
@@ -38,6 +57,8 @@ local_pdf: "[[PDFs/2024/2024-Li-The WMDP Benchmark.pdf]]"
 LLM_assessed: "GPT-4, Mixtral"
 DATA_URL: "https://wmdp.ai"
 DATE_ADDED: 20260207
+CONFERENCE: "ICML 2024"
+eleutherai: incorporated
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ICML 2024"
 ---
 # The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning
 

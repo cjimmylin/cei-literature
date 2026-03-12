@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,12 +49,13 @@ cultures_nationalities_list: "Cross-cultural (49 nations benchmarked)"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 LLM_assessed: "GPT-4, GPT-3.5, Claude-2, Bard"
 DATA_URL: "NA"
 tags: 
 abstract: "Four LLMs (Bard, Claude 2, GPT-3.5, GPT-4) completed the Portrait Values Questionnaire-Revised and results compared to data from 53,472 individuals across 49 nations. All models prioritized universalism and self-direction while de-emphasizing achievement, power, and security relative to humans."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Assessing the Alignment of Large Language Models With Human Values for Mental Health Integration: Cross-Sectional Study Using Schwartz's Theory of Basic Values
 

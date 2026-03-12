@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "EMNLP 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Llama, Vicuna"
 DATA_URL: "https://github.com/RUCAIBox/POPE"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Evaluating Object Hallucination in Large Vision-Language Models (POPE)
 

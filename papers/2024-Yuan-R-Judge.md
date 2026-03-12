@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, ChatGPT, Llama-3, Llama-2, Vicuna, Mistral"
 DATA_URL: "https://github.com/Lordog/R-Judge"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
  R-Judge: A Benchmark for Evaluating the Reasoning and Judgment of Language Models
 

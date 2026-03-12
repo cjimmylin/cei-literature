@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,12 +49,13 @@ cultures_nationalities_list: "Afghan, Pashto"
 languages_list: Pashto
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Systematic survey of Pashto NLP covering text processing, sentiment analysis, machine translation, and other tasks. Reviews challenges and opportunities for Pashto computational linguistics."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # From Tradition to Technology: A Systematic Survey on Navigating Pashto in Modern NLP
 

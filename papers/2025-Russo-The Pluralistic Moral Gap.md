@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "AI Safety & Alignment"
 key_contribution: "Created the Moral Dilemma Dataset and Dynamic Moral Profiling (DMP) method to evaluate and improve the alignment of LLM moral judgments with diverse human perspectives."
 significance: "Reveals a 'pluralistic moral gap' where LLMs fail to capture human disagreement and value diversity, and provides a method (DMP) to significantly improve alignment with pluralistic human values."
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Russo-The Pluralistic Moral Gap.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, ChatGPT, Claude, Mistral, Llama-3, Qwen"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models
 

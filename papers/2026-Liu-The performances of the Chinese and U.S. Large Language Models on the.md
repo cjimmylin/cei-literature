@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-5.1, Claude Sonnet 4.5, Gemini 2.5 Pro, Grok 4, DeepSeek-V3.2
 DATA_URL: "NA"
 tags: 
 abstract: "Cultural backgrounds shape individuals’ perspectives and approaches to problem-solving. Since the emergence of GPT-1 in 2018, large language models (LLMs) have undergone rapid development. To date, the world’s ten leading LLM developers are primarily based in China and the United States. To examine whether LLMs released by Chinese and U.S. developers exhibit cultural differences in Chinese-language settings, we evaluate their performance on questions about Chinese culture."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # The performances of the Chinese and U.S. Large Language Models on the Topic of Chinese Culture
 

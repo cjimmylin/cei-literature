@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Background: Existing evaluations of large language models (LLMs) largely emphasize linguistic and factual performance, while their psychometric characteristics and behavioral biases remain insufficiently examined, particularly beyond English-language contexts. This study presents a systematic psychometric screening of LLMs in German using the validated Big Five Inventory-2 (BFI-2). Methods: Thirty-two contemporary commercial and open-source LLMs completed all 60 BFI-2 items 60 times each (once..."
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Grok, Llama, Llama-3, Qwen, DeepSeek, Mistral"
 DATA_URL: "https://doi.org/10.5281/zenodo.18002092"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "2 items"
-CONFERENCE: "Journal"
 ---
 # PSYCH: Psychometric Assessment of LLM Characters
 

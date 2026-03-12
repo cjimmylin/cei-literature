@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "DeBERTa, RoBERTa"
 DATA_URL: "https://github.com/rewire-online/edos"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # SemEval-2023 Task 10: Explainable Detection of Online Sexism (EDOS)
 

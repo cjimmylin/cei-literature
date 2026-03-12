@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Utilitarianism, Utility Functions, Value Alignment"
 key_contribution: "Proposes augmented utilitarianism for AI utility functions based on moral intuitions"
 significance: "Addresses variety requirements for ethical utility functions in value alignment"
@@ -40,6 +55,7 @@ local_pdf: "[[PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Requisite Variety Ethical Utility Functions
 

@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,7 @@ local_pdf: "[[PDFs/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, ChatGPT"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Beyond Preferences in AI Alignment
 

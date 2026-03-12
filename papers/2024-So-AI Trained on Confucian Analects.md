@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_SO2024
@@ -24,7 +43,7 @@ cultures_nationalities_list: "Chinese"
 languages_list: ""
 religious_values: Confucianism
 religious_values_list: Confucianism
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Confucian Ethics, AI Training, The Analects, Ethical Dilemmas"
 key_contribution: "Proposes Confucian-imbued AI trained on The Analects could reduce prevalent AI ethical issues and resolve ethical dilemmas"
 significance: "Applies Eastern virtue ethics philosophy to AI training methodology, addressing Eurocentric bias concerns"
@@ -34,6 +53,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas
 

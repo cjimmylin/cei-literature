@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Large Language Models (LLMs) have shown strong generalization across tasks in high-resource languages; however, their linguistic competence in low-resource and morphologically rich languages such as Tamil remains largely unexplored. Existing multilingual benchmarks often rely on translated English datasets, failing to capture the linguistic and cultural nuances of the target language. To address this gap, we introduce ILAKKANAM, the first Tamil-specific linguistic evaluation benchmark manually..."
 LLM_assessed: "ChatGPT, Claude, Claude Sonnet, Claude., DeepSeek V3, DeepSeek-V3, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4-Turbo, GPT-4o, Grok 4, LLaMA 4, Qwen, Qwen 2.5, claude-sonnet"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "820 questions"
-CONFERENCE: "Preprint"
 ---
 # From Phonemes to Meaning: Evaluating Large Language Models on Tamil
 

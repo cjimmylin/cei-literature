@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,12 +52,13 @@ cultures_nationalities_list: "African"
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "This research paper explores the imperative to decolonize African Natural Language Processing (NLP) by addressing power dynamics and data colonialism within technology development. Based on the historical context of colonialism in Africa, the paper examines the pervasive influence of colonial traces on the research and development of NLPs, highlighting the marginalization of African languages, cultures, and voices."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP: A SURVEY ON POWER
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "DictaLM"
 DATA_URL: "NA"
 tags: 
 abstract: "We present DictaLM, a large-scale language model tailored for Modern Hebrew. Boasting 7B parameters, this model is predominantly trained on Hebrew-centric data. As a commitment to promoting research and development in the Hebrew language, we release both the foundation model and the instruct-tuned model under a Creative Commons license1. Concurrently, we introduce DictaLM-Rab, another foundation model geared towards Rabbinic/Historical Hebrew."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Introducing DictaLM -- A Large Generative Language Model for Modern Hebrew
 

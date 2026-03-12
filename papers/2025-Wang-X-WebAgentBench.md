@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Wang-X-WebAgentBench.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, GPT-3.5, Mistral, Llama-3, Qwen"
 DATA_URL: "https://github.com/WPENGxs/X-WebAgentBench"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "7,000 languages"
-CONFERENCE: "ACL 2025"
 ---
 # X-WebAgentBench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2024/2024-Tonneau-NaijaHate.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, BERT, DeBERTa, RoBERTa"
 DATA_URL: "https://github.com/worldbank/NaijaHate"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # NaijaHate: Evaluating Hate Speech Detection on Nigerian Twitter Using Representative Data
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ DATA_URL: "https://huggingface.co/datasets/openai/MMMLU"
 tags: 
 abstract: "The breakthrough of generative large language models (LLMs) that can solve different tasks through chat interaction has led to a significant increase in the use of general benchmarks to assess the quality or performance of these models beyond individual applications. There is also a need for better methods to evaluate and also to compare models due to the ever increasing number of new models published. However, most of the established benchmarks revolve around the English language."
 research_topic: "Machine Translation"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Multilingual European Language Models: Benchmarking Approaches and Challenges
 

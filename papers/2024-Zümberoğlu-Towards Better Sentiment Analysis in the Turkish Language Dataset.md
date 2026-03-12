@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Sentiment analysis in the Turkish language has gained increasing attention due to the growing availability of Turkish textual data across various domains. However, existing datasets often suffer from limitations such as insufficient size, lack of diversity, and annotation inconsistencies, which hinder the development of robust and accurate sentiment analysis models. In this study, we present a novel enhanced dataset specifically designed to address these challenges, providing a comprehensive and high-quality resource for Turkish sentiment analysis. We perform a comparative evaluation of previously proposed models using our dataset to assess their performance and limitations. Experimental findings demonstrate the effectiveness of the presented dataset and trained models, offering valuable insights for advancing sentiment analysis research in the Turkish language. These results underscore the critical role of the enhanced dataset in bridging the gap between existing datasets and the importance of training the modern sentiment analysis models on scalable, balanced, and curated datasets. This can offer valuable insights for advancing sentiment analysis research in the Turkish language. Furthermore, the experimental results represent an important step in overcoming the challenges associated with Turkish sentiment analysis and improving the performance of existing models."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Towards Better Sentiment Analysis in the Turkish Language: Dataset Improvements and Model Innovations
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2023/2023-Kaddour-Challenges and Applications of Large Langua
 DATE_ADDED: 20260208
 LLM_assessed: "BART, BERT, BLOOM, BLOOM perform, Bartolo, Bloomberg, BloombergGPT, ChatGPT, Claude, Codex, GPT-2, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, LaMDA, PaLM, PaLM 2, T5, T5 LLM, WizardLM, phi-1, phi-1 using"
 DATA_URL: "https://github.com/NVIDIA/FasterTransformer"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Challenges and Applications of Large Language Models
 

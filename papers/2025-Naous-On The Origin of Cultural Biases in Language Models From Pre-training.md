@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://github.com/tareknaous/camel2"
 tags: 
 abstract: "Introduces CAMeL-2, a parallel Arabic-English benchmark with 58,000+ entities tied to Arab and Western cultures. Investigates why LMs favor Western-culture entities in non-Western languages; traces bias to frequency-based tokenization and pre-training data composition."
 research_topic: "Social & Cultural Analysis"
+CONFERENCE: "NAACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # On The Origin of Cultural Biases in Language Models: From Pre-training Data to Linguistic Phenomena
 

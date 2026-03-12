@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +44,7 @@ cultures_nationalities_list: "Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "General Ethics"
 key_contribution: "Introduced CIVICS, a multilingual dataset of value-laden prompts on sensitive topics (LGBTQI+, welfare, etc.) to examine culturally-informed values in LLMs."
 significance: "Reveals the implicit value variability in models across languages and topics, showing that refusals and responses are disparately triggered depending on the cultural context of the prompt."
@@ -37,6 +56,7 @@ LLM_assessed: "Llama-3, Qwen, DeepSeek, Mistral, Gemma"
 DATA_URL: "https://huggingface.co/CIVICS-dataset"
 pdf_extract: "PDF Extracts/2024/2024-Pistilli-CIVICS.md"
 local_pdf: "[[PDFs/2024/2024-Pistilli-CIVICS.pdf]]"
+CONFERENCE: "AAAI 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2024"
 ---
 # CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models
 

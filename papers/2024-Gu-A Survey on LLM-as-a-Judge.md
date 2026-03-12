@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "Alpaca, ChatGLM-6B, ChatGPT, Claude, DeepSeek-R1, GPT-3, GPT-3.5,
 DATA_URL: "https://github.com/tatsu-lab/stanford_"
 tags: 
 abstract: "Accurate and consistent evaluation is crucial for decision-making across numerous fields, yet it remains a challenging task due to inherent subjectivity, variability, and scale. Large Language Models (LLMs) have achieved remarkable success across diverse domains, leading to the emergence of 'LLM-as-a-Judge,' where LLMs are employed as evaluators for complex tasks. With their ability to process diverse data types and provide scalable and flexible assessments, LLMs present a compelling..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # A Survey on LLM-as-a-Judge
 

@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +51,7 @@ CONF-CC: "FAccT 2025"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Mistral, Llama-3"
 DATA_URL: "https://github.com/fanny-jourdan/FairTranslate"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -45,7 +61,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  FairTranslate: An English-French Dataset for Gender Bias Evaluation in Machine Translation by Overcoming Gender Binarity
 

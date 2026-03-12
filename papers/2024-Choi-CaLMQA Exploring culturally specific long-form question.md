@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Despite rising global usage of large language models (LLMs), their ab
 LLM_assessed: "Claude, CLAUDE-3, CLAUDE-3-OPUS, GPT-4, GPT-4-TURBO, GPT-4o, Llama, Llama-3, Mixtral, MIXTRAL-8X22B, BERT"
 DATA_URL: "https://huggingface.co/datasets/shanearora/CaLMQA"
 research_topic: "Truthfulness & Factuality"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "23 languages"
-CONFERENCE: "Preprint"
 ---
 # CaLMQA: Exploring culturally specific long-form question answering across 23 languages
 

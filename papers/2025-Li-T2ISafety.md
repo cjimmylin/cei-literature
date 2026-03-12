@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "GPT-4o, Claude, Gemini"
 DATA_URL: "https://github.com/adwardlee/t2i_safety"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety annotated dataset for toxicity detection"
 data_metrics: "44 categories"
-CONFERENCE: "Journal"
 ---
 # T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation
 

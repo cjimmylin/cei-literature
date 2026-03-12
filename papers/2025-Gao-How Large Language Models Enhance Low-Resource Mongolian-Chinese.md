@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, Gemma, Gemma2, LLaMA-3.1, LLaMA3.1, Llama, Qwen2, Qwen2.5, 
 DATA_URL: "NA"
 tags: 
 abstract: "The rapid development of Inner Mongolia has led to a growing demand for Mongolian-Chinese translation. However, Mongolian presents significant challenges for machine translation, such as data scarcity and its complex syntactic structures. Consequently, traditional Mongolian-Chinese machine translation methods often produce outputs with poor fluency and suffer from the loss of critical semantic information."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # How Large Language Models Enhance Low-Resource Mongolian-Chinese Machine Translation?
 

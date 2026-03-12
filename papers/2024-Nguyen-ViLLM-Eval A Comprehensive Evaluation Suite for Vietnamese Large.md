@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5-turbo, Llama, LLaMa 2, Llama-2, Mis
 DATA_URL: "https://github.com/ZaloAI-Jaist/VMLU"
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) necessitates the development of new benchmarks to accurately assess their capabilities. To address this need for Vietnamese, this work aims to introduce ViLLM-Eval, the comprehensive evaluation suite designed to measure the advanced knowledge and reasoning abilities of foundation models within a Vietnamese context. ViLLM-Eval consists of multiple-choice questions and predict next word tasks spanning various difficulty levels and diverse..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models
 

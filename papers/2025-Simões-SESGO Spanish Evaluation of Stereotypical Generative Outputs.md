@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Claude 3, Claude 3., Claude 3.5 Haiku, DeepSeek R1, GPT-4, GPT-4o
 DATA_URL: "https://github.com/mvrobles/SESGO"
 tags: 
 abstract: "This paper addresses the critical gap in evaluating bias in multilingual Large Language Models (LLMs), with a specific focus on Spanish language within culturally-aware Latin American contexts. Despite widespread global deployment, current evaluations remain predominantly US-Englishcentric, leaving potential harms in other linguistic and cultural contexts largely underexamined. We introduce a novel, culturally-grounded framework for detecting social biases in instruction-tuned LLMs."
+CONFERENCE: "AAAI 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "4,156 prompts"
-CONFERENCE: "AAAI 2025"
 ---
 # SESGO: Spanish Evaluation of Stereotypical Generative Outputs
 

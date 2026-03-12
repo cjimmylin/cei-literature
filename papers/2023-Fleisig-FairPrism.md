@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "InstructGPT, GPT-3, GPT-2, XLNet"
 DATA_URL: "https://github.com/microsoft/fairprism"
+CONFERENCE: "ACL 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "5,000 examples"
-CONFERENCE: "ACL 2023"
 ---
 # FairPrism: Evaluating Multilingual Models for Unfairness and Toxicity
 

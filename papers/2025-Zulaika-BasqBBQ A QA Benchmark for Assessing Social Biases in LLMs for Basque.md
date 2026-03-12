@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://github.com/orai-nlp/BasqBBQ"
 tags: 
 abstract: "The rise of pre-trained language models has revolutionized natural language processing (NLP) tasks, but concerns about the propagation of social biases in these models remain, particularly in under-resourced languages like Basque. This paper introduces BasqBBQ, the first benchmark designed to assess social biases in Basque across eight domains, using a multiple-choice question-answering (QA) task. We evaluate various autoregressive large language models (LLMs), including multilingual and those..."
 research_topic: "Question Answering"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs for Basque, a Low-Resource Language
 

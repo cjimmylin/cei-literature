@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, GPT-2"
 DATA_URL: "https://github.com/sberbank-ai/ru-gpts"
 tags: 
 abstract: "We introduce the ﬁrst study of automatic detoxiﬁcation of Russian texts to combat offensive language. Such a kind of textual style transfer can be used, for instance, for processing toxic content in social media. While much work has been done for the English language in this ﬁeld, it has never been solved for the Russian language yet. We test two types of models – unsupervised approach based on BERT architecture that performs local corrections and supervised approach based on pretrained..."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Methods for Detoxification of Texts for the Russian Language
 

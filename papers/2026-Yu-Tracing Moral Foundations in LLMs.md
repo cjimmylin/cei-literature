@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_YU2026
@@ -24,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: Yes
+moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, LLM Interpretability, Moral Reasoning"
 key_contribution: "Uses Moral Foundations Theory with mechanistic interpretability (sparse autoencoders, activation steering) to show LLMs encode moral reasoning in structured, layer-dependent ways"
 significance: "Demonstrates moral understanding in LLMs emerges as latent pattern from language statistics, not mimicry"
@@ -34,6 +53,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Qwen"
 DATA_URL: "https://github.com/AiChiMoCha/MFT_LLMs"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Tracing Moral Foundations in Large Language Models
 

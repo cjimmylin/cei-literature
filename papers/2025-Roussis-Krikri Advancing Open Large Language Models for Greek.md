@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "Llama-Krikri-8B, Llama-3.1-8B, Meltemi"
 DATA_URL: "https://huggingface.co/ilsp/Llama-Krikri-8B-Base"
 tags: 
 abstract: "We introduce Llama-Krikri-8B, a cutting-edge Large Language Model tailored for the Greek language, built on Meta’s Llama 3.1-8B. LlamaKrikri-8B has been extensively trained on highquality Greek data to ensure superior adaptation to linguistic nuances. With 8 billion parameters, it offers advanced capabilities while maintaining efficient computational performance. Llama-Krikri-8B supports both Modern Greek and English, and is also equipped to handle polytonic text and Ancient Greek."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Krikri: Advancing Open Large Language Models for Greek
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "In this paper we present datasets of Facebook comment threads to mainstream media posts in Slovene and English developed inside the Slovene national project FRENK3 which cover two topics, migrants and LGBT, and are manually annotated for diﬀerent types of socially unacceptable discourse (SUD). The main advantages of these datasets compared to the existing ones are identical sampling procedures, producing comparable data across languages and an annotation schema that takes into account six types..."
 research_topic: "Machine Learning"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The FRENK Datasets of Socially Unacceptable Discourse in Slovene and English
 

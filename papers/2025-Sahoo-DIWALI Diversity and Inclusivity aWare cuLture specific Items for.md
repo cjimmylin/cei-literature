@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Gemma, Gemma 2, Gemma-2, Llama, Llama 2, Llama 3.1, Llama 3.2, Ll
 DATA_URL: "https://github.com/pramitsahoo/culture-"
 tags: 
 abstract: "Large language models (LLMs) are widely used in various tasks and applications. However, despite their wide capabilities, they are shown to lack cultural alignment (Ryan et al., 2024; AlKhamissi et al., 2024) and produce biased generations (Naous et al., 2024) due to a lack of cultural knowledge and competence. Evaluation of LLMs for cultural awareness and alignment is particularly challenging due to the lack of proper evaluation metrics and unavailability of culturally grounded datasets..."
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # DIWALI: Diversity and Inclusivity aWare cuLture specific Items for India Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context
 

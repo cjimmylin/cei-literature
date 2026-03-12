@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hatespe
 tags: 
 abstract: "Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc"
 research_topic: "Machine Learning"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Multi-lingual HateSpeech Dataset
 

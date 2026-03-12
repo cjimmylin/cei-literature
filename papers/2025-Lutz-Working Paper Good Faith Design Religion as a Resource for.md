@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,12 +49,13 @@ cultures_nationalities_list: "Shinto, Multi-faith"
 languages_list: ""
 religious_values: Multi-tradition
 religious_values_list: "Buddhism, Christianity, Hinduism, Islam, Judaism, Mormonism, Shinto, Sikhism, Taoism"
-moral_psychology: 
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract:
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # (Working Paper) Good Faith Design: Religion as a Resource for Technologists
 

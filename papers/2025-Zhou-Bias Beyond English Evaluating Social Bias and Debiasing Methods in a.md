@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, Gemma, Gemma 3, Llama, LLaMA 3, LLaMA 3., Qwen, Qwen 2.5, Q
 DATA_URL: "NA"
 tags: 
 abstract: "This paper addresses the identification of social harms—including stereotypes and bias—which may be upsetting to some readers. Social bias in language models can potentially exacerbate social inequalities. Despite it having garnered wide attention, most research focuses on English data. In a low-resource scenario, the models often perform worse due to insufficient training data. This study aims to leverage high-resource language corpora to evaluate bias and experiment with debiasing methods in..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Bias Beyond English: Evaluating Social Bias and Debiasing Methods in a Low-Resource Setting
 

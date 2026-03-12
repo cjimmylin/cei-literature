@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +49,7 @@ abstract: "As multilingual Large Language Models (LLMs) gain traction across Sou
 research_topic: Other
 LLM_assessed: "Llama-3, Gemma, Qwen, DeepSeek"
 DATA_URL: "https://huggingface.co/datasets/ciol-research/BengaliMoralBench"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -43,7 +59,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # UniMoral (ACL 2025 Best Resource Paper)
 

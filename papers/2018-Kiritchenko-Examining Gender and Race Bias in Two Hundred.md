@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ CONF-CC: "SemEval 2018"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "http://saifmohammad.com/WebPages/Biases-SA.html"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Examining Gender and Race Bias in Two Hundred Sentiment Analysis Systems
 

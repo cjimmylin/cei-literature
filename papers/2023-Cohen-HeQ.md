@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ DATA_URL: "https://github.com/NNLP-IL/Hebrew-Question-Answering-Dataset"
 publication: ACL Anthology (EMNLP 2023 Findings)
 CONF-CC: "EMNLP 2023 Findings"
 DATE_ADDED: 20260213
+CONFERENCE: "EMNLP 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2023"
 ---
 # HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark
 

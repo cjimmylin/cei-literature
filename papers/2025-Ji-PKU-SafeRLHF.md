@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "In this study, we introduce the safety human preference dataset, PKU-
 LLM_assessed: "Llama-2, Llama-3, Alpaca"
 DATA_URL: "https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF"
 research_topic: "Other"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "265k question"
-CONFERENCE: "ACL 2025"
 ---
 # PKU-SafeRLHF
 

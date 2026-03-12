@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "With the advent of large language models, machine translation (MT) ha
 LLM_assessed: "ChatGPT, Claude, Claude 131, Claude 3.5, Claude 3.5 Haiku, Claude 3.5 Sonnet, Claude Sonnet, DeepSeek-AI, DeepSeek-R1, GPT 4, GPT 4 Turbo, GPT-4 Turbo, Gemma, Gemma 2, Qwen, Qwen-14B, gemma-2"
 DATA_URL: "https://aclanthology.org/2025.nlp4dh-1.12/"
 ethics_perspective: "General Ethics"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # MITRA-zh-eval: Using a Buddhist Chinese Language Evaluation Dataset to Assess Machine Translation and Evaluation Metrics
 

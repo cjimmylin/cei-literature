@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "LLaVA-1.5; MOLMO; LLaVA-NeXT; Phi-3-Vision; Idefics2; Mantis-Idef
 DATA_URL: "NA"
 tags: 
 abstract: "As Vision and Language models (VLMs) are reaching users across the globe, assessing their cultural understanding has become a critical challenge. In this paper, we introduce CROPE, a visual question answering benchmark designed to probe the knowledge of culturespecific concepts and evaluate the capacity for cultural adaptation through contextual information. This allows us to distinguish between parametric knowledge acquired during training and contextual knowledge provided during inference via..."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # CROPE: Evaluating In-Context Adaptation of Vision and Language Models to Culture-Specific Concepts
 

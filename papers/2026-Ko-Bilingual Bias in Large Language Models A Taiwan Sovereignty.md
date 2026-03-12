@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-5.2, GPT-4o, GPT-4o Mini, Claude Opus 4.5, Claude Sonnet 4.5,
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual contexts, yet their consistency across languages on politically sensitive topics remains understudied. This paper presents a systematic bilingual benchmark study examining how 17 LLMs respond to questions concerning the sovereignty of the Republic of China (Taiwan) when queried in Chinese versus English. We discover significant language bias—the phenomenon where the same model produces substantively different political..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Bilingual Bias in Large Language Models: A Taiwan Sovereignty Benchmark Study
 

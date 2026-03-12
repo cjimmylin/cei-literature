@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-3.5, BLOOM"
 DATA_URL: "https://github.com/YFHuangxxxx/CBBQ/"
 pdf_extract: "PDF Extracts/2024/2024-Huang-CBBQ.md"
 local_pdf: "[[PDFs/2024/2024-Huang-CBBQ.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "100k questions; over 100k questions"
-CONFERENCE: "Other Conference"
 ---
 # CBBQ: A Chinese Bias Benchmark Dataset Curated with Human–AI Collaboration
 

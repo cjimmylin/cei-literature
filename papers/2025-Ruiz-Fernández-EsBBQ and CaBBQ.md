@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,8 @@ local_pdf: "[[PDFs/2025/2025-Ruiz-Fernández-EsBBQ and CaBBQ.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Mistral, Llama-3, Gemma, Qwen"
 DATA_URL: "https://huggingface.co/datasets/BSC-LT/EsBBQ, https://huggingface.co/datasets/BSC-LT/CaBBQ, https://github.com/langtech-bsc/EsBBQ-CaBBQ"
+CONFERENCE: "Other Conference"
+eleutherai: incorporated
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "10 categories"
-CONFERENCE: "Other Conference"
 ---
 # EsBBQ and CaBBQ: The Spanish and Catalan Bias Benchmarks for Question Answering
 

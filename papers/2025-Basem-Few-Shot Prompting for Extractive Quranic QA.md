@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ tags:
 abstract: "This paper presents two effective approaches for Extractive Question Answering (QA) on the Qur’an. It addresses challenges related to complex language, unique terminology, and deep meaning in the text. The second uses few-shot prompting with instruction-tuned large language models such as Gemini and DeepSeek. A specialized Arabic prompt framework is developed for span extraction. A strong post-processing system integrates subword alignment, overlap suppression, and semantic filtering."
 LLM_assessed: "BERT, DeepSeek, GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "https://gitlab.com/bigirqu/quran-qa-2023/-/"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Few-Shot Prompting for Extractive Quranic QA with Instruction-Tuned LLMs
 

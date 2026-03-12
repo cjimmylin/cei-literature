@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +63,7 @@ tags:
 abstract: "> Most precise digital Gurbani database with standardized lagamatras and padh chhedh. Covers Sri Guru Granth Sahib, Sri Dasam Granth, and other Sikh canonical texts. API accessible. Could be used for Sikh knowledge QA evaluation of LLMs."
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/KhalisFoundation/banidb-api / https://github.com/shabados/database / https://www.banidb.com/"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -54,7 +74,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # BaniDB / Shabad OS: Digital Gurbani Database
 

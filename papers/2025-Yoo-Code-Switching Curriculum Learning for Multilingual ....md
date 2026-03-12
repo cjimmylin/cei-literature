@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ DATA_URL: "https://huggingface.co/datasets/openai/MMMLU"
 tags: 
 abstract: "Large language models (LLMs) now exhibit near human-level performance in various tasks, but their performance drops drastically after a handful of high-resource languages due to the imbalance in pre-training data. Inspired by the human process of second language acquisition, particularly code-switching—the practice of language alternation in a conversation— we propose code-switching curriculum learning (CSCL) to enhance cross-lingual transfer for LLMs."
 research_topic: "Machine Translation"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Code-Switching Curriculum Learning for Multilingual ...
 

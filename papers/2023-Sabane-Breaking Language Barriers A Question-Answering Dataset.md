@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "The recent advances in deep-learning have led to the development of highly sophisticated systems with an unquenchable appetite for data. On the other hand, building good deep-learning models for low-resource languages remains a challenging task. This paper focuses on developing a Question Answering dataset for two such languages- Hindi and Marathi. Despite Hindi being the 3rd most spoken language worldwide, with 345 million speakers, and Marathi being the 11th most spoken language globally,..."
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Breaking Language Barriers: A Question-Answering Dataset for Hindi and Marathi
 

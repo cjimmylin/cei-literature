@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://autonlp.ai/datasets/cc100-mongolian"
 tags: 
 abstract: "I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # CC100-Mongolian dataset - NLP Database
 

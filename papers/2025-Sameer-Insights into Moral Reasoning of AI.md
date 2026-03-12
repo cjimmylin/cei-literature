@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Moral Foundations Theory"
+moral_psychology: "Moral Foundations Theory, Cognitive Developmental"
 newtags: "Moral Reasoning, Deontology, LLM Evaluation, Moral Foundations Theory"
 key_contribution: "Compares moral reasoning between humans and LLMs using Moral Competence Test (MCT) and Moral Foundations Questionnaire (MFQ)"
 significance: "Demonstrates humans consistently outperform LLMs on moral competence; LLMs overemphasize harm/care while under-representing loyalty, authority, purity"
@@ -38,6 +57,7 @@ LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"
 local_pdf: "[[PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Insights into Moral Reasoning of AI: A Comparative Study Between Humans and Large Language Models
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Word2Vec"
 DATA_URL: "https://github.com/aiamourad/AraGenderBias, https://doi.org/10.5281/zenodo.13772479"
 tags: 
 abstract: "For generations, women have fought to achieve equal rights with those of men. Many historians and social scientists examined this uphill path with a focus on women’s rights and economic status in the West. Other parts of the world, such as the Middle East, remain understudied, with a noticeable shortage in gender-based statistics in the economic arena. According to the sociocognitive theory of critical discourse analysis, social behaviors and norms are reflected by language discourses, which..."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Detecting gender bias in Arabic text through word embeddings | PLOS One
 

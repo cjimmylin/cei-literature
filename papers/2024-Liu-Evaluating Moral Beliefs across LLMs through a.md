@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Gemini"
 DATA_URL: "https://github.com/MuMu-Lily/Moral-Beliefs"
 normative_ethics_benchmark: Yes
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
  Evaluating Moral Beliefs across LLMs through a Pluralistic Framework
 

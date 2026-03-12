@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/datasets/lmsys/toxic-chat"
 pdf_extract: "PDF Extracts/2023/2023-Lin-ToxicChat.md"
 local_pdf: "[[PDFs/2023/2023-Lin-ToxicChat.pdf]]"
+CONFERENCE: "EMNLP 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2023"
 ---
 # ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversations
 

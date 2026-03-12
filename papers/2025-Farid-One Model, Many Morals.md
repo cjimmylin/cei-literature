@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://github.com/sualehafarid/moral-project"
 publication: "ICLR 2026"
 CONF-CC: "ICLR 2026"
 DATE_ADDED: 20260207
+CONFERENCE: "ICLR 2026"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "ICLR 2026"
 ---
 # One Model, Many Morals: Uncovering Cross-Linguistic Misalignments in Computational Moral Reasoning
 

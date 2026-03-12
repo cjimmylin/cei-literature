@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ALBERT, Claude, Claude-3, Claude-3-Opus, Claude-3.5, Claude-3.5-S
 DATA_URL: "NA"
 tags: 
 abstract: "The recent application of LLMs to the legal field has spurred the creation of benchmarks across various jurisdictions and languages. However, no benchmark has yet been specifically designed for the Portuguese legal system. In this work, we present LegalBench.PT, the first comprehensive legal benchmark covering key areas of Portuguese law. To develop LegalBench.PT, we first collect longform questions and answers from real law exams, and then use GPT-4o to convert them into multiple-choice,..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # LegalBench.PT: A Benchmark for Portuguese Law
 

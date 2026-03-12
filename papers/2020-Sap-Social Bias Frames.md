@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +45,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Bias & Fairness"
 key_contribution: "Introduced 'Social Bias Frames' (SBIC), a structured formalism to explain *why* something is biased (e.g., 'This implies [group] is [negative trait]'), moving beyond binary 'toxic/not toxic' labels."
 significance: "Transforming hate speech detection into *explanation*, helping users (and models) understand implicit toxicity and social power dynamics in language."
@@ -38,6 +57,7 @@ CONF-CC: "ACL 2019"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-2
 DATA_URL: "http://tinyurl.com/social-bias-frames"
+CONFERENCE: "ACL 2020"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2020"
 ---
 # Social Bias Frames: Reasoning about Social and Power Implications of Language
 

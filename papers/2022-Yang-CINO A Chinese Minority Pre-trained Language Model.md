@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "NA"
 DATA_URL: "http://cino.hfl-rc.com"
 tags: 
 abstract: "Multilingual pre-trained language models have shown impressive performance on crosslingual tasks. It greatly facilitates the applications of natural language processing on lowresource languages. However, there are still some languages that the current multilingual models do not perform well on. In this paper, we propose CINO (Chinese Minority Pretrained Language Model), a multilingual pretrained language model for Chinese minority languages."
+CONFERENCE: "COLING 2022"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "COLING 2022"
 ---
 # CINO: A Chinese Minority Pre-trained Language Model
 

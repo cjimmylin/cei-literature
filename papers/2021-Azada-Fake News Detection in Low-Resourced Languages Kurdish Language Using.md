@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://www.kaggle.com/raniaazad/kurdish-fake-news-dataset"
 tags: 
 abstract: "Kurdish Fake News Detection Dataset (KDFND) of 100,962 news articles (50,751 real, 50,211 fake). Hybrid FastText-LSTM achieves 94.25% accuracy."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Fake News Detection in Low-Resourced Languages: Kurdish Language Using Machine Learning Algorithms
 

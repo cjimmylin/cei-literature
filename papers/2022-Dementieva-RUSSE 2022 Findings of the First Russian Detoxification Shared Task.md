@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "https://github.com/sberbank-ai/ru-gpts"
 tags: 
 abstract: "Text detoxification is the task of rewriting a toxic text into a neutral text while preserving its original content. It has a wide range of applications, e.g. moderation of output of neural chatbots or suggesting less emotional version of posts on social networks. This paper provides a description of RUSSE-2022 competition of detoxification methods for the Russian language. This is the first competition which features (i) parallel training data and (ii) manual evaluation."
 research_topic: Other
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora
 

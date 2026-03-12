@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "While large language models excel on highresource multilingual tasks, low- and extremely low-resource Indic languages remain severely under-evaluated. We present IndicParam, a human-curated benchmark of over 13,000 multiple-choice questions covering 11 such languages (Nepali, Gujarati, Marathi, Odia as low-resource; Dogri, Maithili, Rajasthani, Sanskrit, Bodo, Santali, Konkani as extremely low-resource)."
 LLM_assessed: "Claude 4.5, Claude- Haiku, Claude-4.5, Claude-4.5., Claude-Haiku, DeepSeek, DeepSeek V3, DeepSeek-3, DeepSeek-AI, DeepSeek-V3, Gemma, Gemma 3, Gemma-3, Gemma3, Grok-4, Grok4, Llama, Llama 3, Llama 3.3, Llama-3.1, Llama-3.2, Llama-3.3, Llama-4, Llama3.2, Llama3.3, Llama4, Mistral, Mistral 3.1, Mistral-Small, Mistral3.1-24B, MistralAI, Qwen 3, Qwen2.5, Qwen3"
 DATA_URL: "https://github.com/VikParuchuri/surya"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # IndicParam: Benchmark to Evaluate LLMs on Low-Resource Indic Languages
 

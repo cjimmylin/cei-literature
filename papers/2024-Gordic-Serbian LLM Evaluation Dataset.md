@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/gordicaleksa/serbian-llm-eval"
 tags: 
 abstract: "First Serbian LLM evaluation dataset covering ARC, BoolQ, HellaSwag, PIQA, TriviaQA, Winogrande tasks. Machine-translated and GPT-4 refined. Integrated with Lighteval framework."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Serbian LLM Evaluation Dataset
 

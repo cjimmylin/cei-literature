@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Duan-Denevil.pdf]]"
 LLM_assessed: "ChatGPT, Llama"
 DATA_URL: "https://valuecompass.github.io"
 DATE_ADDED: 20260207
+CONFERENCE: "ICLR 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "2,397 prompts"
-CONFERENCE: "ICLR 2023"
 ---
 # Denevil: Towards Deciphering and Navigating the Ethical Values of Large Language Models via Instruction Learning
 

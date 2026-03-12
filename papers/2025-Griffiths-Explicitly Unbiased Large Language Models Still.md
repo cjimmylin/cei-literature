@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ abstract: "Introduces two psychological measures (LLM Word Association Test and 
 LLM_assessed: "Alpaca, Claude-3-Opus, Claude-3-Sonnet, Claude3-Opus, Claude3-Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, LLaMA2Chat, Llama2"
 DATA_URL: "LLM Word Association Test, LLM Relative Decision Test (methodological tools)"
 research_topic: "Other"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Explicitly Unbiased Large Language Models Still Form Biased Associations
 

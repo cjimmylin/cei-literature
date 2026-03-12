@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT, ChatGPT, ELECTRA, GloVe, RoBERTa"
 DATA_URL: "https://github.com/sevvalckc/Turkish-SAD"
 tags: 
 abstract: "In recent years, sentiment analysis has gained increasing significance, prompting re­ searchers to explore datasets in various languages, including Turkish. However, the limited availability and reuse of Turkish datasets across studies has yielded highly diverse outcomes. To address this, we conducted a systematic review of sentiment analysis studies on Turkish text. Our search identified 78 relevant studies, from which we extracted over 80 datasets."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "80 datasets"
-CONFERENCE: "Other Conference"
 ---
 # A cross-validation study of Turkish sentiment analysis datasets and tools | Language Resources and Evaluation | Springer Nature Link
 

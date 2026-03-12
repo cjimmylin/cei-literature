@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ abstract: "Racism and intolerance on social media contribute to a toxic online e
 LLM_assessed: "BERT"
 DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Monitoring the Evolution of Antisemitic Discourse on Extremist Social Media Using BERT
 

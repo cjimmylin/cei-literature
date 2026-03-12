@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics robot inner speak with human"
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Demonstrates how robotic 'inner speech' can enhance human phronesis (practical wisdom) and foster virtuous decision-making in collaborative contexts"
 significance: "Proposes a novel mechanism for human-robot ethical alignment where the robot's transparent internal reasoning acts as a catalyst for human moral reflection"
@@ -35,6 +50,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Pipitone-Unlocking practical wisdom.md"
 local_pdf: "[[PDFs/2025/2025-Pipitone-Unlocking practical wisdom.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -44,7 +60,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Unlocking practical wisdom through the inner voice of robots
 

@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "Misinformation is a growing concern in a decade involving critical global events. While social media regulation is mainly dedicated towards the detection and prevention of fake news and political misinformation, there is limited research about religious misinformation which has only been addressed through qualitative approaches. In this work, we study the spread of fabricated quotes (Hadith) that are claimed to belong to Prophet Muhammad (the prophet of Islam) as a case study demonstrating one..."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "AAAI 2026"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2026"
 ---
 # Fabricating Holiness: Characterizing Religious Misinformation Circulators on Arabic Social Media
 

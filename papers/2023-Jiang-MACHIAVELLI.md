@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Utilitarianism"
 key_contribution: "Introduced MACHIAVELLI benchmark (134 CYOA games) to measure power-seeking, deception, and utility maximization trade-offs"
 significance: "Quantifies the 'alignment tax'—the trade-off between maximizing reward (competence) and behaving ethically—in sequential decision-making environments"
@@ -37,6 +52,7 @@ CONF-CC: "ICML 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5"
 DATA_URL: "https://aypan17.github.io/machiavelli"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # MACHIAVELLI: A Benchmark for Measuring Ethical Behavior and Power-Seeking in Large Language Models
 

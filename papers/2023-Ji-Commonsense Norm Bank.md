@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "DeBERTa, BERT, RoBERTa, ALBERT, T5"
 DATA_URL: "https://huggingface.co/microsoft/deberta-v3-large"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Commonsense Norm Bank: 1.7M Moral Judgments for Generative Moral Reasoning
 

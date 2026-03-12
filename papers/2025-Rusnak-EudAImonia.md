@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics in AI, Christian"
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: Christianity
 religious_values_list: Christianity
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Christianity, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Proposes the 'EudAImonia' framework to integrate virtue ethics into AI systems for moral wisdom and flourishing"
 significance: "Addresses the limitations of rule-based ethics by focusing on character development and the cultivation of practical wisdom in AI"
@@ -36,6 +51,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Barton, ChatGPT, Gemini"
 DATA_URL: "https://huggingface.co/blog/rlhf"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -45,7 +61,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # EudAImonia: Virtue Ethics and Artificial Intelligence
 

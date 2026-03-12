@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://github.com/AI4Bharat/indicTrans"
 tags: 
 abstract: "Llama2-finetuned LLM for Odia language using domain knowledge instruction set. First dedicated Odia LLM enabling downstream cultural and safety evaluation."
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Building a Llama2-finetuned LLM for Odia Language Utilizing Domain Knowledge Instruction Set
 

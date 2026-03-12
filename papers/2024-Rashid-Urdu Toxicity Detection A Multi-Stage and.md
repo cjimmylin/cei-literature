@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +63,7 @@ abstract: "Comprehensive multilabel Urdu toxicity detection corpus with over 72,
 LLM_assessed: "NA"
 DATA_URL: "NA"
 research_topic: "Other"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -54,7 +74,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety text corpus for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Urdu Toxicity Detection: A Multi-Stage and Multi-Label Classification Approach
 

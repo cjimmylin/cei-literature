@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ paper_summary: "Abstract: Ensuring that Large Language Models (LLMs) align with 
 LLM_assessed: "GPT-4o, Claude, Gemini, Llama-3, DeepSeek, Qwen"
 DATA_URL: "https://huggingface.co/datasets/Beijing-AISI/C-VARC"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
  CVC: A Large-Scale Chinese Value Rule Corpus for Value Alignment of Large Language Models
 

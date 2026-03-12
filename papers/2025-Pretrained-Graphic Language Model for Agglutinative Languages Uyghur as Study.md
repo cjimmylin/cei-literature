@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Graphic Language Model for Agglutinative Languages: Uyghur as Study Case
 

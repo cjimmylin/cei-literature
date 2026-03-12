@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Multiple choice question answering tasks evaluate the reasoning, comp
 LLM_assessed: "ALBERT, Claude, Claude-3, Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command-R, GPT 3, GPT 3.5, GPT 4, GPT 4-Turbo, GPT 4o, Gemma, Llama, Llama 2, Llama-2, Llama-3, Mistral 7B, MistralAI, Mixtral 8x22B, Mixtral 8x7B, BERT"
 DATA_URL: "https://github.com/ArdaYuksel/TurkishMMLU"
 research_topic: "Machine Translation"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multi-task benchmark for bias and fairness"
 data_metrics: "10,032 questions"
-CONFERENCE: "Preprint"
 ---
 # TurkishMMLU: Measuring Massive Multitask Language Understanding in Turkish
 

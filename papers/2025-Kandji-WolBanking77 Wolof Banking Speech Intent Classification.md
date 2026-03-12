@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ abstract: "Intent classification models have made a significant progress in rece
 LLM_assessed: "BERT, Deberta, GPT-4o, Llama-3.2, Phi-4-multimodal, Qwen2, RoBERTa, Llama"
 DATA_URL: "https://github.com/UniversalDependencies/UD_Wolof-WTB"
 research_topic: "Machine Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # WolBanking77: Wolof Banking Speech Intent Classification Dataset
 

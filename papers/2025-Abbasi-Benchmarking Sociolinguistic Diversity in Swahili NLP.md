@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "We introduce the first taxonomy-guided evaluation of Swahili NLP, add
 LLM_assessed: "BERT, Llama, Llama 3.1, Llama-3.1, Llama3.1, Qwen2, Qwen2.5, RoBERTa, llama 3"
 DATA_URL: "https://github.com/nd-hal/swahili_psych_taxonomy"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Benchmarking Sociolinguistic Diversity in Swahili NLP: A Taxonomy-Guided Approach
 

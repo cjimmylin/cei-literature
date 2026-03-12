@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ DATA_URL: "https://huggingface.co/datasets/FrenchToxicityPrompts"
 tags: 
 abstract: "Dataset of 50K naturally occurring French prompts and their continuations, annotated with toxicity scores from Perspective API. Evaluated 14 different LLMs from four open-source families (XGLM, BLOOM, LLaMa, LLaMa2). Found toxicity metrics grow with model size and are higher for toxic prompts. Published at TRAC Workshop @ LREC-COLING 2024."
 research_topic: "Machine Learning"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitigating Toxicity in French Texts
 

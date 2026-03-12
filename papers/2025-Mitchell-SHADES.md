@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ local_pdf: "[[PDFs/2025/2025-Mitchell-SHADES.pdf]]"
 publication: ACL Anthology (NAACL 2025)
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
+CONFERENCE: "NAACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "16 languages"
-CONFERENCE: "NAACL 2025"
 ---
 # SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models
 

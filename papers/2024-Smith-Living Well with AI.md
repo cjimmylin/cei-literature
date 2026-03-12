@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_SMITH2024
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: Yes
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Education, Aristotelian Ethics"
 key_contribution: "Argues Aristotelian virtue ethics provides superior framework for living well with AI compared to principlist or consequentialist approaches"
 significance: "Addresses practical challenges of teaching virtue ethics for AI in educational settings"
@@ -34,6 +49,7 @@ CONF-CC: "Theory and Research in Education"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -43,7 +59,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Living well with AI: Virtue, education, and artificial intelligence
 

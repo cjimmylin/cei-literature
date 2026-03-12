@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2023/2023-Xu-CValues.pdf]]"
 LLM_assessed: "ChatGPT, Alpaca, Vicuna"
 DATA_URL: "https://github.com/X-PLUG/CValues"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "10 scenarios"
-CONFERENCE: "Other Conference"
 ---
 # CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility
 

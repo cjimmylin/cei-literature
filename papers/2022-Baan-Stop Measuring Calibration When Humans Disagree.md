@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2022/2022-Baan-Stop Measuring Calibration When Humans Disagre
 DATE_ADDED: 20260208
 LLM_assessed: RoBERTa
 DATA_URL: "https://github.com/jsbaan/calibration-on-disagreement-data"
+CONFERENCE: "EMNLP 2022"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2022"
 ---
 # Stop Measuring Calibration When Humans Disagree
 

@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ abstract: "As large language models (LLMs) are increasingly deployed in sensitiv
 LLM_assessed: "Qwen, DeepSeek, Gemma"
 DATA_URL: "https://github.com/sachit27/Moral-Reasoning-in-LLMs"
 DATE_ADDED: 20260207
+CONFERENCE: "AAAI 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -47,7 +63,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2025"
 ---
 # Mapping Moral Reasoning in LLMs: A Multi-Dimensional Analysis of Safety Principle Conflicts
 

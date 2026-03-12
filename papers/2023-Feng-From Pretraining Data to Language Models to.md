@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Feng-From Pretraining Data to Language Models to.pd
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, ALBERT, BART, GPT-2, GPT-3, GPT-4, ChatGPT, Alpaca, Llama"
 DATA_URL: "https://github.com/BunsenFeng/PoliLean"
+CONFERENCE: "ACL 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2023"
 ---
 # From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models
 

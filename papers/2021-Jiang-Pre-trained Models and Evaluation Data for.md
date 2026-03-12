@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "The Spanish language is one of the top 5 spoken languages in the worl
 LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://github.com/dccuchile/beto"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Pre-trained Models and Evaluation Data for the Myanmar Language
 

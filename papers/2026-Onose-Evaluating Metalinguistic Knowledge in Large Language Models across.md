@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-3, Llama, Llama-3.3"
 DATA_URL: "https://github.com/Oranzna/metalinguistic_"
 tags: 
 abstract: "Large language models (LLMs) are routinely evaluated on language use tasks, yet their explicit knowledge about linguistic structure remains poorly understood. Existing linguistic benchmarks typically focus on narrow phenomena, emphasize high-resource languages, and rarely evaluate metalinguistic knowledge—explicit reasoning about language structure rather than language use. In this paper, we present a comprehensive multilingual evaluation of metalinguistic knowledge in LLMs, based on the World..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "2,660 languages"
-CONFERENCE: "Preprint"
 ---
 # Evaluating Metalinguistic Knowledge in Large Language Models across the World’s Languages
 

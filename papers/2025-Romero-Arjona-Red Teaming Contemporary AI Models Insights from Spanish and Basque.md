@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, DeepSeek, DeepSeek R1, GPT-4, GPT-4o, Llama 3"
 DATA_URL: "https://github.com/ollama/ollama"
 tags: 
 abstract: "The battle for AI leadership is on, with OpenAI in the United States and DeepSeek in China as key contenders. In response to these global trends, the Spanish government has proposed ALIA, a public and transparent AI infrastructure incorporating small language models designed to support Spanish and co-official languages such as Basque. This paper presents the results of Red Teaming sessions, where ten participants applied their expertise and creativity to manually test three of the latest models..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Red Teaming Contemporary AI Models: Insights from Spanish and Basque Perspectives
 

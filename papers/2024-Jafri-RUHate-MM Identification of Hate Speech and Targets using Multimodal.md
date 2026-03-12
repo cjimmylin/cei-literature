@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "ALBERT, BERT, DistilBERT, RoBERTa"
 DATA_URL: "https://github.com/Farhan-jafri/Russia-Ukraine"
 tags: 
 abstract: "During the conflict between Ukraine and Russia, hate speech targeted toward specific groups was widespread on different social media platforms. With most social platforms allowing multimodal content, the use of multimodal content to express hate speech is widespread on the Internet. Although there has been considerable research in detecting hate speech within unimodal content, the investigation into multimodal content remains insufficient."
+CONFERENCE: "WWW 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "WWW 2024"
 ---
 # RUHate-MM: Identification of Hate Speech and Targets using Multimodal Data from Russia-Ukraine Crisis
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Liu-AgentBench.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, Llama-2, CodeLlama, Vicuna"
 DATA_URL: "https://github.com/THUDM/AgentBench"
+CONFERENCE: "ICLR 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ICLR 2023"
 ---
 # AgentBench: Evaluating LLMs as Agents
 

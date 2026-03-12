@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://github.com/chakki-works/seqeval"
 tags: 
 abstract: "The language technology moonshot moment of Generative Large Language Models (GLLMs) was not limited to English: These models brought a surge of technological applications, investments, and hype to low-resource languages as well. However, the capabilities of these models in languages such as Danish were, until recently, difficult to verify beyond qualitative demonstrations due to a lack of applicable evaluation corpora."
 authors_incomplete: false
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "8 scenarios"
-CONFERENCE: "Preprint"
 ---
 # Danoliteracy of Generative Large Language Models
 

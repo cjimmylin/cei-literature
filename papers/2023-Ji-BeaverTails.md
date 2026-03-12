@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "In this paper, we introduce the BEAVERTAILS dataset, aimed at fosteri
 LLM_assessed: "GPT-4, GPT-3.5, Alpaca, Vicuna"
 DATA_URL: "https://sites.google.com/view/pku-beavertails"
 research_topic: "Other"
+CONFERENCE: "NeurIPS 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "333,963 question"
-CONFERENCE: "NeurIPS 2023"
 ---
 # BeaverTails
 

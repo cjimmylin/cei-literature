@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ tags:
 abstract: "In this paper we present AnswerCarefully, a dataset for promoting the safety and appropriateness of Japanese LLM outputs. The dataset consists of 1,800 pairs of questions and reference answers, where the questions require special attention in answering. It covers a wide range of risk categories established in prior Englishlanguage datasets, but the data samples are original in that they are manually created to reflect the socio-cultural context of LLM usage in Japan."
 LLM_assessed: "ChatGPT, Dolly, GPT-4, Llama, Llama Guard, Llama-3, Llama2, Llama2-Chat, Qwen, Qwen2, gemma-2, gpt-35-turbo"
 DATA_URL: "https://huggingface.co/datasets/llm-jp/AnswerCarefully"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # AnswerCarefully: A Dataset for Improving the Safety of Japanese LLM Output
 

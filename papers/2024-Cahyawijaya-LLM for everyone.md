@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-3.5, Llama-3, BLOOM"
 DATA_URL: "https://github.com/IndoNLP/nusax"
 pdf_extract: "PDF Extracts/2024/2024-Cahyawijaya-LLM for everyone.md"
 local_pdf: "[[PDFs/2024/2024-Cahyawijaya-LLM for everyone.pdf]]"
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # LLM for everyone : representing the underrepresented in large language models
 

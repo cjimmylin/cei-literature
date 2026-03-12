@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "ACL 2025"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3, Gemma, Gemini, Mistral, Qwen"
 DATA_URL: "https://github.com/aisingapore/sea-helm"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Batayan: A Filipino NLP benchmark for evaluating Large Language Models
 

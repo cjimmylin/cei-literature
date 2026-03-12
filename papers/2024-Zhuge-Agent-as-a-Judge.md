@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Contemporary evaluation techniques are inadequate for agentic systems
 DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: "https://huggingface.co/devai-benchmark"
+CONFERENCE: "ICML 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "ICML 2024"
 ---
 # Agent-as-a-Judge: Evaluate Agents with Agents
 

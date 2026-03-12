@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2023/2023-Clymer-Generalization Analogies.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: Llama
 DATA_URL: "https://github.com/Joshuaclymer/GENIES"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "8 categories"
-CONFERENCE: "Other Conference"
 ---
 # Generalization Analogies: A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains
 

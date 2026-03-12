@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ LLM_assessed: "BERT, Word2Vec"
 DATA_URL: "NA"
 tags: 
 abstract: "Chemical named entity recognition (NER) models are used in many downstream tasks, from adverse drug reaction identification to pharmacoepidemiology. However, it is unknown whether these models work the same for everyone. Performance disparities can potentially cause harm rather than the intended good. This paper assesses gender-related performance disparities in chemical NER systems. We develop a framework for measuring gender bias in chemical NER models using synthetic data and a newly..."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # A curated dataset for hate speech detection on social media text - PMC
 

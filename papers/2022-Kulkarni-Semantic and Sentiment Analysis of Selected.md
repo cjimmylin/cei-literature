@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "> Creates hand-labelled sentiment dataset for Bhagavad Gita and uses BERT for verse-by-verse sentiment analysis across translations. Notes the absence of a Hindu philosophy BERT model and identifies need for one that captures terms like Brahman, karma, dharma, maya."
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/sydney-machine-learning/sentimentanalysis_bhagavadgita"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Semantic and Sentiment Analysis of Selected Bhagavad Gita Translations Using BERT-Based Language Framework
 

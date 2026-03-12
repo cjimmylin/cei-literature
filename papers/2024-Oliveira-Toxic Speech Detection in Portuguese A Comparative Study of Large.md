@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, ChatGPT, GPT 3, GPT 3.5, GPT-3, Llama, GPT-3.5, gpt-3.5-tur
 DATA_URL: "https://github.com/maritaca-ai/maritalk-api"
 tags: 
 abstract: "This research addresses the automatic detection of toxic speech in Portuguese. Utilizing the ToLD-Br dataset, which includes 21,000 annotated tweets, we examine the performance of Large Language Models (LLMs) such as OpenAI’s ChatGPT and the monolingual MariTalk from Maritaca AI. The study focuses on their effectiveness in identifying Toxic speech, the influence of few-shot learning, and the intricacies of annotating datasets, particularly regarding vulgar language (swear words)."
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Toxic Speech Detection in Portuguese: A Comparative Study of Large Language Models
 

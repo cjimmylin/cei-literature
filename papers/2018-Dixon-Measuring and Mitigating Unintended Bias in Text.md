@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/conversationai/unintended-ml-bias-analysis"
 pdf_extract: "PDF Extracts/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md"
 local_pdf: "[[PDFs/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Measuring and Mitigating Unintended Bias in Text Classification
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, ELMo, word2vec"
 DATA_URL: "https://github.com/HIT-SCIR/ELMoForManyLangs"
 tags: 
 abstract: "Natural language inference (NLI) is known as one of the central tasks in natural language processing (NLP) which encapsulates many fundamental aspects of language understanding. With the considerable achievements of data-hungry deep learning methods in NLP tasks, a great amount of eﬀort has been devoted to develop more diverse datasets for diﬀerent languages. In this paper, we present a new dataset for the NLI task in the Persian language, also known as Farsi, which is one of the dominant..."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # FarsTail: A Persian Natural Language Inference Dataset
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: RoBERTa
 DATA_URL: "https://github.com/uhh-lt/AmharicHateSpeech"
 pdf_extract: "PDF Extracts/2023/2023-Ayele-Amharic Hate Speech Dataset.md"
 local_pdf: "[[PDFs/2023/2023-Ayele-Amharic Hate Speech Dataset.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "15.1k tweets"
-CONFERENCE: "Other Conference"
 ---
 # Amharic Hate Speech Dataset
 

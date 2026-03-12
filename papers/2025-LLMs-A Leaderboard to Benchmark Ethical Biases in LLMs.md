@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, GPT4, Llama-2"
 DATA_URL: "NA"
 tags: 
 abstract: "This paper introduces a public leaderboard that comprehensively assesses and benchmarks Large Language Models (LLMs) according to a set of ethical biases and test metrics. The initiative aims to raise awareness about the status of the latest advances in development of ethical AI, and foster its alignment to recent regulations in order to guardrail its societal impacts."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # A Leaderboard to Benchmark Ethical Biases in LLMs
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "LLMs are increasingly used for Islamic question answering, where ungr
 LLM_assessed: "ALBERT, DeepSeek-R1, GPT-4, Llama-2, Llama-3.1, Mistral 7b, Mistral-7B, Qwen-1.5B, Qwen-7B, Qwen2.5, Qwen3, BERT"
 DATA_URL: "Planned public release"
 ethics_perspective: "Social & Cultural Values"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection text corpus for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # From RAG to Agentic RAG for Faithful Islamic Question Answering (IslamicFaithQA)
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Africa’s rich linguistic heritage remains underrepresented in NLP, 
 LLM_assessed: "BERT, Claude, Claude-4, Claude-4-Sonnet, CommandR, GPT-4, Gemma, Gemma-2, Gemma-3, Gemma2, Gemma3, Llama, Llama-3.1, Llama3, Llama3.1, Llama3.2, Phi-3, Phi-4"
 DATA_URL: "https://africa.dlnlp.ai/sahara/ (public leaderboard)"
 research_topic: "Machine Learning"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "517 languages"
-CONFERENCE: "ACL 2025"
 ---
 # Where Are We? Evaluating LLM Performance on African Languages (Sahara Benchmark)
 

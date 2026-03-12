@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://github.com/sahoonihar/IndicCONAN"
 tags: 
 abstract: "Hate speech (HS) is a growing concern in many parts of the world, including India, where it has led to numerous instances of violence and discrimination. The development of effective counter-narratives (CNs) is a critical step in combating hate speech, but there is a lack of research in this area, especially in non-English languages. In this paper, we introduce a new dataset, IndicCONAN, of counter-narratives against hate speech in Hindi and Indian English."
+CONFERENCE: "AAAI 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2024"
 ---
 # IndicCONAN: A Multilingual Dataset for Combating Hate Speech in Indian Context
 

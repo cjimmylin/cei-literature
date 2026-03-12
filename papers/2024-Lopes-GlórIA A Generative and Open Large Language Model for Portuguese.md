@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "ALBERT, BERT, GPT-3, GPT-3.5"
 DATA_URL: "https://github.com/rvlopes/GlorIA"
 tags: 
 abstract: "Significant strides have been made in natural language tasks, largely attributed to the emergence of powerful large language models (LLMs). These models, pre-trained on extensive and diverse corpora, have become increasingly capable of comprehending the intricacies of language. Despite the abundance of LLMs for many high-resource languages, the availability of such models remains limited for European Portuguese. We introduce GlórIA, a robust European Portuguese decoder LLM."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # GlórIA: A Generative and Open Large Language Model for Portuguese
 

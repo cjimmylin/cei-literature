@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2024/2024-Kaneko-Eagle.pdf]]"
 LLM_assessed: "Llama-2, Falcon, Mistral, Mixtral"
 DATA_URL: "https://huggingface.co/datasets/MasahiroKaneko/eagle"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset for toxicity detection"
 data_metrics: "1 datasets"
-CONFERENCE: "Other Conference"
 ---
 # Eagle: Ethical Dataset Given from Real Interactions
 

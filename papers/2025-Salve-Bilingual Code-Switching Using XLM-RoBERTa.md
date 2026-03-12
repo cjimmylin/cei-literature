@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +63,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations."
 research_topic: "Other"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -54,7 +74,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Bilingual Code-Switching Using XLM-RoBERTa
 

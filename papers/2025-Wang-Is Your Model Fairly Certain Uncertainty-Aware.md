@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "ICML 2025"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Mistral, Mixtral, Falcon"
 DATA_URL: "https://github.com/apple/ml-synthbias"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "31,756 samples"
-CONFERENCE: "Preprint"
 ---
 # Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs (UCerF)
 

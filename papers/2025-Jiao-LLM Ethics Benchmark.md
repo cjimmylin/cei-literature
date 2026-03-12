@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,7 +45,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory, Trolley / Dilemmas (Psych)"
 newtags: Deontology
 key_contribution: "Establishes a 3D assessment framework (foundational principles, reasoning robustness, value consistency) to evaluate LLM moral reasoning"
 significance: "Provides precise metric quantification for ethical strengths and weaknesses, prioritizing consistency over simple accuracy"
@@ -40,6 +55,7 @@ LLM_assessed: "GPT-4, Claude, DeepSeek, Llama-3, Gemini"
 DATA_URL: "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -49,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
  LLM Ethics Benchmark: A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models
 

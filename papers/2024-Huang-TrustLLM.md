@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ paper_summary: "Abstract: Large language models (LLMs), exemplified by ChatGPT, 
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, PaLM-2, Llama-2, Mistral, Vicuna"
 DATA_URL: "https://github.com/HowieHwong/TrustLLM"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "30 datasets"
-CONFERENCE: "Other Conference"
 ---
  TrustLLM: Trustworthiness in Large Language Models
 

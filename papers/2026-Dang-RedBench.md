@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "As large language models (LLMs) become integral to safety-critical ap
 LLM_assessed: "Llama-3, Gemma, Qwen, Mistral, GPT-4"
 DATA_URL: "https://github.com/knoveleng/redeval"
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "29,362 samples"
-CONFERENCE: "Preprint"
 ---
 # RedBench
 

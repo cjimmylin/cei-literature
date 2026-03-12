@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +62,7 @@ tags:
 abstract: "13,505 Nepali tweets annotated for hate speech with sub-categorization of targets including community, individual, and organization in local election discourse. Large-scale Nepali hate speech dataset focused on political discourse and community targeting."
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/shucoll/NEHate"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -53,7 +73,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # NEHATE: Large-Scale Annotated Data Shedding Light on Hate Speech in Nepali Local Election Discourse
 

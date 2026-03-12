@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ CONF-CC: "CVPR 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Gemini"
 DATA_URL: "https://people-robots.github.io/vidhalluc"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for hallucination detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # VidHalluc: Evaluating Temporal Hallucinations in Multimodal Large Language Models for Video Understanding
 

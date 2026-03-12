@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "One of the grand challenges of artificial general intelligence is dev
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4, DeepSeek, Llama-3"
 DATA_URL: "https://github.com/SakanaAI/AI-Scientist"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery
 

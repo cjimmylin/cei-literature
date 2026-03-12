@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, GPT-4, RoBERTa"
 DATA_URL: "https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU"
 tags: 
 abstract: "Kyrgyz is a very underrepresented language in terms of modern natural language processing resources. In this work, we present a new public benchmark for topic classiﬁcation in Kyrgyz, introducing a dataset based on collected and annotated data from the news site 24.KG and presenting several baseline models for news classiﬁcation in the multilabel setting. We train and evaluate both classical statistical and neural models, reporting the scores, discussing the results, and proposing directions..."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Benchmarking Multilabel Topic Classification in the Kyrgyz Language
 

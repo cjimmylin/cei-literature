@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the web search results, here's what I found regarding Uyghur language technology, NLP resources, and evaluation: Overview of Uyghur NLP Resources There is a critical resource gap in Uyghur Natural Language Processing (NLP), with researchers introducing dependency annotation frameworks to overcome the limitations of existing treebanks for the low-resource, agglutinative language. Key NLP Resources and Tools Linguistic resources for low-resource language programs include Represen"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # A multilingual language processing tool for Uyghur, Kazak and Kirghiz | IEEE Conference Publication | IEEE Xplore
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "This study introduces two novel benchmarks, SeaExam and SeaBench, designed to evaluate the capabilities of Large Language Models (LLMs) in Southeast Asian (SEA) application scenarios. Unlike existing multilingual datasets primarily derived from English translations, these benchmarks are constructed based on realworld scenarios from SEA regions. SeaExam draws from regional educational exams to form a comprehensive dataset that encompasses subjects such as local history and literature."
 LLM_assessed: "ChatGPT, Claude, Claude-3-Haiku, GPT-4, GPT-4o, GPT-4o-mini, Gemma, Gemma-2, Llama-3.1, Mistral 7B, Mistral-7B, Qwen2, claude-3.5-sonnet, gemma2, llama3"
 DATA_URL: "https://github.com/DAMO-NLP-SG/SeaExam"
+CONFERENCE: "NAACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # SeaExam and SeaBench: Benchmarking LLMs with Local Multilingual Questions in Southeast Asia
 

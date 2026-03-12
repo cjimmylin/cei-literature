@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Flan-T5, Falcon, Llama-2"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Pisano-Moral High Ground.md"
 local_pdf: "[[PDFs/2024/2024-Pisano-Moral High Ground.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Moral High Ground: A text-based games benchmark for moral evaluation
 

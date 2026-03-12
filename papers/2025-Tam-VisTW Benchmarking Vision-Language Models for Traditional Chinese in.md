@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4o, GPT-4o-mini, Gemini-2.0-Pro, Gemini-2.0-Flash, Gemini-1.5
 DATA_URL: "https://github.com/TMMMU-Benchmark/evaluation"
 tags: 
 abstract: "In this paper, we propose a comprehensive evaluation benchmark for Visual Language Models (VLM) in Traditional Chinese. Our evaluation suite, the first of its kind, contains two complementary components: (1) VisTWMCQ, a collection of manually curated exam multi-choice questions from 21 academic subjects designed to test the broad knowledge and reasoning capabilities of VLMs; and (2) VisTW-Dialogue, an open dialogue benchmark comprising 131 image-question pairs manually created to evaluate VLMs’..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # VisTW: Benchmarking Vision-Language Models for Traditional Chinese in Taiwan
 

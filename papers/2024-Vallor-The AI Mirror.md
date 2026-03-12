@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics book"
@@ -26,7 +41,7 @@ cultures_nationalities_list: "American"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "American, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Presents the metaphor of 'AI as a mirror' and argues that reclaiming human virtues like wisdom, courage, and care is essential for navigating the age of machine thinking"
 significance: "Shifts the AI ethics discourse from existential fear to active moral self-cultivation, emphasizing that AI reflects and amplifies our existing moral character"
@@ -35,6 +50,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Gemini, Llama"
 DATA_URL: "NA"
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -44,7 +60,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking
 

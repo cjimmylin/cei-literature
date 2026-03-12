@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2024/2024-Adilazuarda-Towards Measuring and Modeling .pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Bartolo"
 DATA_URL: "https://github.com/faridlazuarda/cultural-llm-papers"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # Towards Measuring and Modeling "Culture" in LLMs: A Survey
 

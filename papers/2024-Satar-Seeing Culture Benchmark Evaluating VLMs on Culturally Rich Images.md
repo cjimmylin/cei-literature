@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"
 tags: 
 abstract: "1,065 images capturing 138 cultural artifacts across 5 categories from 7 Southeast Asian countries, with 3,178 questions. Requires VLMs to reason on culturally rich images via multiple-choice VQA and segment cultural artifacts."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "3,178 questions; 5 categories"
-CONFERENCE: "Other Conference"
 ---
 # Seeing Culture Benchmark: Evaluating VLMs on Culturally Rich Images from Southeast Asia
 

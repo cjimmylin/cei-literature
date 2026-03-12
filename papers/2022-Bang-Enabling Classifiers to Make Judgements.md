@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2022/2022-Bang-Enabling Classifiers to Make Judgements.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "OPT, ALBERT, RoBERTa, BART"
 DATA_URL: "https://github.com/makcedward/nlpaug"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Enabling Classifiers to Make Judgements Explicitly Aligned with Human Values
 

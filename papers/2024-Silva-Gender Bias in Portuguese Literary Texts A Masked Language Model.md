@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, Bartl"
 DATA_URL: "https://huggingface.co/neuralmind/bert-base-portuguese-cased"
 tags: 
 abstract: "In this work, we investigate how a corpus of Portuguese literary texts shapes the gender bias of a language model using a masked language modeling approach. We fine-tune a BERT-based model on a curated corpus of 592 literary works and analyze gender associations in adjective and verb predictions. Our results show that fine-tuning shifts gender associations: female-denoting targets showed a significant reduction in negative associations, while male-denoting targets retained a negative bias."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Gender Bias in Portuguese Literary Texts: A Masked Language Model Approach
 

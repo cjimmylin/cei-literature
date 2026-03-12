@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT, ELMo, GPT3, GloVe, RoBERTa, Word2Vec"
 DATA_URL: "NA"
 tags: 
 abstract: "With the proliferation of social networks and their impact on human life, one of the rising problems in this environment is the rise in verbal and written insults and hatred. As one of the significant platforms for distributing text-based content, Twitter frequently publishes its users’ abusive remarks. Creating a model that requires a complete collection of offensive sentences is the initial stage in recognizing objectionable phrases."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Persian Offensive Language Detection (Dehghani et al.)
 

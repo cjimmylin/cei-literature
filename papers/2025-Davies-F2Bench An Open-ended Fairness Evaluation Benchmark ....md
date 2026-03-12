@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "ChatGPT, DeepSeek, DeepSeek 1, DeepSeek-V3, GPT-4, Gemma, Gemma2,
 DATA_URL: "NA"
 tags: 
 abstract: ". Warning: This paper contains content that may be offensive or harmful With the growing adoption of large language models (LLMs) in NLP tasks, concerns about their fairness have intensified. Yet, most existing fairness benchmarks rely on closed-ended evaluation formats, which diverge from realworld open-ended interactions. These formats are prone to position bias and introduce a 'minimum score' effect, where models can earn partial credit simply by guessing."
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # F2Bench: An Open-ended Fairness Evaluation Benchmark ...
 

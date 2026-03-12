@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ DATA_URL: "https://zenodo.org/records/15101403"
 tags: 
 abstract: "Dataset of 30 expert-crafted multiple-choice questions assessing LLMs' ability to identify Spanish varieties and measuring potential dialect preference bias. Each question reviewed by linguistic experts through multiple refinement cycles."
 research_topic: "Machine Learning"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Spanish Is Not Just One: A Dataset of Spanish Dialect Recognition for LLMs
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT, Barth, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, Gemma, Gemma-2, L
 DATA_URL: "https://github.com/ola-krutrim/BharatBench"
 tags: 
 abstract: "This paper presents a comprehensive evaluation of Foundation AI models in multilingual and multimodal contexts, addressing their performance, adaptability, and limitations. With the increasing globalization of digital content and the rise of multi-modal data, understanding how Large Language Models (LLMs) operate across diverse languages and modes of information is critical. We introduce BharatBench as an evaluation framework benchmarking the performance of multilingual LLMs."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # BharatBench: Comprehensive Multilingual Multimodal Evaluations of Indian Languages
 

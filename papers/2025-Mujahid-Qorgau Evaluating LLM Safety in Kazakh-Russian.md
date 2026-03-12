@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Large Language Models (LLMs) are known to have the potential to generate harmful content, posing risks to users. While major progress has been made in developing taxonomies for LLM risks and safety evaluation prompts, most studies have focused on monolingual contexts, primarily in English. However, language- and region-specific risks in bilingual contexts are often overlooked, and core findings can diverge from such in monolingual settings."
 LLM_assessed: "Claude, Claude 96.5, Falcon3, GPT-4o, LLama-3.1, Llama, Qwen, Qwen-2.5, Qwen2.5"
 DATA_URL: "https://github.com/mbzuai-nlp/qorgau-kaz-ru-safety"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Qorgau: Evaluating LLM Safety in Kazakh-Russian Bilingual Contexts
 

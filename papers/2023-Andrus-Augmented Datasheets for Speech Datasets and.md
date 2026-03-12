@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "ALBERT"
 DATA_URL: "https://github.com/SonyResearch/project_ethics_augmented_datasheets_for_speech_datasets"
 pdf_extract: "PDF Extracts/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.md"
 local_pdf: "[[PDFs/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Augmented Datasheets for Speech Datasets and Ethical Decision-Making
 

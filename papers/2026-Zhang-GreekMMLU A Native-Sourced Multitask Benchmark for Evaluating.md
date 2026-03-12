@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "80+ open- and closed-source LLMs"
 DATA_URL: "https://github.com/mersinkonomi/GreekMMLU"
 tags: 
 abstract: "Large Language Models (LLMs) are commonly trained on multilingual corpora that include Greek, yet reliable evaluation benchmarks for Greek—particularly those based on authentic, native-sourced content—remain limited. Existing datasets are often machine-translated from English, failing to capture Greek linguistic and cultural characteristics. We introduce GreekMMLU1, a native-sourced benchmark for massive multitask language understanding in Greek, comprising 21,805 multiple-choice questions..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluating Language Models in Greek
 

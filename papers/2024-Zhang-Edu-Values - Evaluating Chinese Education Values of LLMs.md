@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "In this paper, we present Edu-Values, the first Chinese education values evaluation benchmark that includes seven core values: professional philosophy, teachers’ professional ethics, education laws and regulations, cultural literacy, educational knowledge and skills, basic competencies and subject knowledge. We meticulously design 1,418 questions, covering multiple-choice, multi-modal question answering, subjective analysis, adversarial prompts, and Chinese traditional culture (short answer)..."
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Gemma, Mixtral, Llama-2, Llama-3, Qwen, DeepSeek"
 DATA_URL: "https://github.com/zhangpeii/Edu-Values"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "1,418 questions"
-CONFERENCE: "Preprint"
 ---
 # Edu-Values -- Evaluating Chinese Education Values of LLMs
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,12 +49,13 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable capabilities as autonomous agents; yet existing benchmarks either focus on singleagent tasks or are confined to narrow domains, failing to capture the dynamics of multi-agent coordination and competition. In this paper, we introduce MultiAgentBench, a comprehensive benchmark designed to evaluate LLMbased multi-agent systems across diverse, interactive scenarios."
 LLM_assessed: "GPT-4, GPT-3.5, Llama-3"
 DATA_URL: "https://github.com/MultiagentBench/MARBLE"
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # MultiAgentBench (MARBLE): Evaluating Collaboration and Competition of LLM Agents
 

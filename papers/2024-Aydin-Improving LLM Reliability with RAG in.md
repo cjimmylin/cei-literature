@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ abstract: "Question Answering Systems Chatbots Generative Artificial Intelligenc
 LLM_assessed: "ChatGPT, DeepSeek, Gemma, Llama, Mistral, Qwen"
 DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Improving LLM Reliability with RAG in Religious Question-Answering: MufassirQAS
 

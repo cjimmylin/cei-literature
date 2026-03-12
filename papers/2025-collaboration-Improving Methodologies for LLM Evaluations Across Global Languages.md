@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Joint multilingual evaluation exercise by international AI safety institutes (Singapore, Japan, Australia, Canada, EU, France, Kenya, South Korea, UK). Tested 2 open-weight models across 10 languages with over 6,000 prompts across 5 harm categories. French INESIA (ANSSI, Inria, LNE, PEReN) participated. Finds jailbreaking is a common weakness for non-English languages."
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "6,000 prompts; 10 languages"
-CONFERENCE: "Preprint"
 ---
 # Improving Methodologies for LLM Evaluations Across Global Languages
 

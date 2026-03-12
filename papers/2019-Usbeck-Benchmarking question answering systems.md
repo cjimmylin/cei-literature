@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/AKSW/gerbil/tree/QuestionAnswering"
 pdf_extract: "PDF Extracts/2019/2019-Usbeck-Benchmarking question answering systems.md"
 local_pdf: "[[PDFs/2019/2019-Usbeck-Benchmarking question answering systems.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Benchmarking question answering systems
 

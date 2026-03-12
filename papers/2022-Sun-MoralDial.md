@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2022/2022-Sun-MoralDial.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, ALBERT, RoBERTa"
 DATA_URL: "https://github.com/thu-coai/MoralDial"
+CONFERENCE: "ACL 2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2022"
 ---
 # MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions
 

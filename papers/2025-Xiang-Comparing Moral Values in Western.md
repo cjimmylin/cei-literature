@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "Western, American, British, Canadian, Australian"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Used 'Word Associations' (projective testing) to probe implicit moral values in LLMs, finding they lack the 'visceral' associations of humans and are biased towards WEIRD values (Care/Fairness)."
 significance: "Demonstrates a more robust method for moral auditing than direct questioning (which is easily rehearsed), revealing the deep semantic divergence between 'clean' LLM morality and 'messy' human morality."
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2025/2025-Xiang-Comparing Moral Values in Western.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: Llama-3
 DATA_URL: "https://github.com/ChunhuaLiu596/Word_Association_Generation"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "LLaVA-1.5-7B, LLaVA-1.5-13B, LLaVA-Next-7B, LLaVA-OneVision-0.5B,
 DATA_URL: "https://culturevlm.github.io"
 tags: 
 abstract: "Vision-language models (VLMs) have advanced human-AI interaction but struggle with cultural understanding, often misinterpreting symbols, gestures, and artifacts due to biases in predominantly Western-centric training data. In this paper, we construct CultureVerse, a large-scale multimodal benchmark covering 19, 682 cultural concepts, 188 countries/regions, 15 cultural concepts, and 3 question types, with the aim of characterizing and improving VLMs’ multicultural understanding capabilities."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "3 question"
-CONFERENCE: "Preprint"
 ---
 # CultureVLM: Characterizing and Improving Cultural Understanding of Vision-Language Models for over 100 Countries
 

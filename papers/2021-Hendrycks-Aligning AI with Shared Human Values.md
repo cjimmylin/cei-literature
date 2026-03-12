@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,8 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-3"
 DATA_URL: "https://github.com/hendrycks/ethics"
 normative_ethics_benchmark: Yes
+CONFERENCE: "ICLR 2021"
+eleutherai: incorporated
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -48,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ICLR 2021"
 ---
  Aligning AI with Shared Human Values: The ETHICS Benchmark
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
 tags: 
 abstract: "Multi-task benchmark evaluating LLM performance across 64 African languages including Francophone African languages, with 15 tasks and 22 datasets. Includes NLU, text generation, knowledge/QA, and mathematical reasoning tasks."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark dataset for question answering"
 data_metrics: "22 datasets"
-CONFERENCE: "Other Conference"
 ---
 # AfroBench: Multi-task Benchmark for Evaluating LLMs in African Languages
 

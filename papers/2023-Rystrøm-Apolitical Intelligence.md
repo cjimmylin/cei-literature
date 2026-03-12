@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "American, Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Audited Delphi's responses to controversial US political issues, finding it 'poorly calibrated' and exhibiting significant political skew (often left-leaning)."
 significance: "Critiques the notion of 'neutrality' in AI, arguing through a data-feminist lens that claiming neutrality often masks enforcing the status quo or specific political ideologies."
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2023/2023-Rystrøm-Apolitical Intelligence.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-3, GPT-4"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Apolitical Intelligence? Auditing Delphi's responses on controversial political issues in the US
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "First law review article dedicated to exploring how AI can enhance tribal sovereignty. Discusses how artificial intelligence has permeated every facet of modern existence, with governments exploring applications and regulatory frameworks. Notes that Indian tribes have been neglected in AI policy discussions. Examines Cherokee Nation's Data Sovereignty and Governance Task Force and AI policy."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Tribes and AI: Possibilities for Tribal Sovereignty
 

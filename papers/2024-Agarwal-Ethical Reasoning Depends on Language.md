@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ pdf_extract: "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning Depends on Langua
 local_pdf: "[[PDFs/2024/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
+CONFERENCE: "LREC-COLING 2024"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "LREC-COLING 2024"
 ---
 # Ethical Reasoning and Moral Value Alignment of LLMs Depend on the Language We Prompt Them In
 

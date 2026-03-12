@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "The ideal AI safety moderation system would be both structurally inte
 LLM_assessed: "GPT-4o, Gemini, Llama-3, Claude"
 DATA_URL: "https://jl3676.github.io/SafetyAnalyst/"
 research_topic: "Other"
+CONFERENCE: "ICML 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "ICML 2025"
 ---
 # SafetyAnalyst
 

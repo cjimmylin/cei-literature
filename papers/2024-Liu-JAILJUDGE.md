@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "Although significant research efforts have been dedicated to enhancin
 LLM_assessed: "GPT-4, GPT-3.5, Llama, Qwen, Mistral, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/usail-hkust/JailJudge"
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # JAILJUDGE
 

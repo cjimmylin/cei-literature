@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,8 @@ CONF-CC: "NeurIPS 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Llama, Llama-2, Alpaca, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/AI-Secure/DecodingTrust"
+CONFERENCE: "Preprint"
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models
 

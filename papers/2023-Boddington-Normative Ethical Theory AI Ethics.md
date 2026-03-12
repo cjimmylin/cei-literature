@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +56,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, BERT, DeBERTa re, DeBERTa-v3, DeBERTa-v3large, ELECTRA, RoBERTa, T5, T5 and, T511B"
 DATA_URL: "https://huggingface.co/microsoft/deberta-v3-large"
 ethics_perspective: "Machine Ethics"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -50,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Normative Ethical Theory AI Ethics
 

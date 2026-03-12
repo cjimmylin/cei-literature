@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://github.com/JAugusto97/ToLD-Br"
 tags: 
 abstract: "Hate speech and toxic comments are a common concern of social media platform users. Although these comments are, fortunately, the minority in these platforms, they are still capable of causing harm. Therefore, identifying these comments is an important task for studying and preventing the proliferation of toxicity in social media. Previous work in automatically detecting toxic comments focus mainly in English, with very few work in languages like Brazilian Portuguese."
+CONFERENCE: "ACL 2020"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "6 categories"
-CONFERENCE: "ACL 2020"
 ---
 # Toxic Language Detection in Social Media for Brazilian Portuguese: New Dataset and Multilingual Analysis (ToLD-Br)
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2025/2025-Zhou-Moral Reasoning Across Languages.pdf]]"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mixtral"
 DATA_URL: "https://anonymous.4open.science/r/ethics_scenarios-913B"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
 data_metrics: "5 languages"
-CONFERENCE: "Other Conference"
 ---
 # Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) are pretrained on substantial, unfiltered corpora, assembled from a variety of sources. This risks inheriting the deep-rooted biases that exist within them, both implicit and explicit. This is even more apparent in low-resource languages, where corpora may be prioritized by quantity over quality, potentially leading to more unchecked biases, particularly in low-resource languages, where all available data is leveraged solely to expand volume due to inherent scarcity."
 research_topic: "Bias & Fairness"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # ArGAN: Arabic Gender, Ability, and Nationality Dataset for ...
 

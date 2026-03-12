@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,8 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Mixtral, Qwen, DeepSeek"
 DATA_URL: "https://github.com/stanford-crfm/helm"
+CONFERENCE: "Unknown"
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # HELM Safety: Towards Standardized Safety Evaluations of Language Models
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Social media posts containing hate speech are reproduced and redistributed at an accelerated pace, reaching greater audiences at a higher speed. We present a machine learning system for automatic detection of hate speech in Turkish, along with a hate speech dataset consisting of tweets collected in two separate domains. We first adopted a definition for hate speech that is in line with our goals and amenable to easy annotation; then designed the annotation schema for annotating the collected..."
 LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Turkish Hate Speech Superset Dataset
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://github.com/explosion/spaCy"
 tags: 
 abstract: "Natural language processing (NLP) has signiﬁcant impact on society via technologies such as machine translation and search engines. Despite its success, NLP technology is only widely available for high-resource languages such as English and Mandarin Chinese, and remains inaccessible to many languages due to the unavailability of data resources and benchmarks. In this work, we focus on developing resources for languages of Indonesia."
+CONFERENCE: "EACL 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "12 languages"
-CONFERENCE: "EACL 2023"
 ---
 # NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages
 

@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "QA benchmark across 12 languages and 10 domains including law, health, history, and current affairs. Multi-domain Indic QA benchmark covering culturally relevant domains."
 LLM_assessed: "Llama, llama 2, Llama-2, llama2.70, llama2.70. chat, mixtral 8x7b"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "12 languages"
-CONFERENCE: "Preprint"
 ---
 # IndQA: An Indic QA Benchmark for LLMs
 

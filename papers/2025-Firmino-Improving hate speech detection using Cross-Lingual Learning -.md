@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Improving hate speech detection using Cross-Lingual Learning - ScienceDirect
 

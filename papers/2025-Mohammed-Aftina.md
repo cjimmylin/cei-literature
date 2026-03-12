@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ pdf_extract: "PDF Extracts/0000/2025-Mohammed-Aftina.md"
 local_pdf: "[[PDFs/2025/2025-Mohammed-Aftina.pdf]]"
 CONF-CC: "Neural Computing and Applications"
 DATE_ADDED: 20260207
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Aftina: Arabic Fatwa QA Benchmark for Islamic Jurisprudence
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, Falcon3, Gemma 2, Gemma2, LLaMA3.1, LLaMA3.2, Llama 2, M
 DATA_URL: "https://paperswithcode.com/task/"
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities across numerous languages; however, their effectiveness in low-resource languages like Persian requires thorough investigation. This paper presents a comprehensive benchmark of several open-source LLMs for Persian Natural Language Processing (NLP) tasks, utilizing both zero-shot and few-shot learning paradigms. We evaluate models across a range of tasks including sentiment analysis, named entity recognition, reading..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Benchmarking Open-Source Large Language Models for Persian in Zero-Shot and Few-Shot Learning
 

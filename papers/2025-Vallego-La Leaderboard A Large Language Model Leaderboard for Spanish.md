@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ALBERT, BERT, Barth, DeepSeek, DeepSeek-AI, Gemma, Gemma-2, GPT-4
 DATA_URL: "https://zenodo.org/records/12571763"
 tags: 
 abstract: "Leaderboards showcase the current capabilities and limitations of Large Language Models (LLMs). To motivate the development of LLMs that represent the linguistic and cultural diversity of the Spanish-speaking community, we present LA LEADERBOARD 1, the first open-source leaderboard to evaluate generative LLMs in languages and language varieties of Spain and Latin America. LA LEADERBOARD is a communitydriven project that aims to establish an evaluation standard for everyone interested in..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "66 datasets"
-CONFERENCE: "Preprint"
 ---
 # La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America
 

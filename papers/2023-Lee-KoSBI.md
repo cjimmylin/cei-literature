@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, BERT"
 DATA_URL: "https://github.com/naver-ai/korean-safety-benchmarks"
+CONFERENCE: "ACL 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "15 categories"
-CONFERENCE: "ACL 2023"
 ---
 # KoSBI: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications
 

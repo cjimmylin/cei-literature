@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Evaluates GPT-4 on Quranic question answering using the newly created QUQA dataset (2,189 questions). Finds GPT-4 struggles with classical Arabic, semantic ambiguity, and contextual meaning. Three main issues: misinterpretation of religious context, unreliable answers not grounded in authoritative Islamic sources, and sensitivity to phrasing variations. Follow-up work showed RAG substantially improved results."
 LLM_assessed: "GPT-4"
 DATA_URL: "NA"
+CONFERENCE: "ACL 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "2,189 questions"
-CONFERENCE: "ACL 2023"
 ---
 # Is GPT-4 a Good Islamic Expert for Answering Quran Questions?
 

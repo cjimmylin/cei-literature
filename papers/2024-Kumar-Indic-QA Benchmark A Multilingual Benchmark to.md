@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Large Language Models (LLMs) perform well on unseen tasks in English,
 LLM_assessed: "Bloom, BloomZ, Gemma, Gemma-2, Gemma2, Llama, Llama-3, LLama 3, Llama-3., Llama-3.1, Mistral-nemo, RoBERTa, BERT, mistral.ai"
 DATA_URL: "https://github.com/AI4Bharat/IndicTrans2"
 ethics_perspective: "Bias & Fairness"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Indic-QA Benchmark: A Multilingual Benchmark to Evaluate Question Answering Capability of LLMs for Indic Languages
 

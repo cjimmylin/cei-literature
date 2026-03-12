@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "CodeLlama, DeepSeek, DeepSeekCoder, GPT 4, GPT-3, GPT-3.5, GPT-4,
 DATA_URL: "NA"
 tags: 
 abstract: "The proliferation of hate speech on social media is one of the serious issues that is bringing huge impacts to society: an escalation of violence, discrimination, and social fragmentation. The problem of detecting hate speech is intrinsically multifaceted due to cultural, linguistic, and contextual complexities and adversarial manipulations. In this study, we systematically investigate the performance of LLMs on detecting hate speech across multilingual datasets and diverse geographic contexts."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Evaluation of Hate Speech Detection Using Large Language Models and Geographical Contextualization
 

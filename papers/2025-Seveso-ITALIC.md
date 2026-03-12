@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ local_pdf: "[[PDFs/2025/2025-Seveso-ITALIC.pdf]]"
 publication: ACL Anthology (NAACL 2025)
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
+CONFERENCE: "NAACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # ITALIC: An Italian Culture-Aware Natural Language Benchmark
 

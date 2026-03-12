@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BLOOM, BLOOM-7B, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, L
 DATA_URL: "NA"
 tags: 
 abstract: "In this technical report, we present VinaLLaMA, an open-weight, state-of-the-art (SOTA) Large Language Model for the Vietnamese language, built upon LLaMA-2 with an additional 800 billion trained tokens. VinaLLaMA not only demonstrates fluency in Vietnamese but also exhibits a profound understanding of Vietnamese culture, making it a truly indigenous model. VinaLLaMA-7B-chat, trained on 1 million high-quality synthetic samples, achieves SOTA results on key benchmarks, including VLSP, VMLU, and..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # VinaLLaMA: LLaMA-based Vietnamese Foundation Model
 

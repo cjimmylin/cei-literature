@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "> Introduces PouranicTopic dataset of 200K+ annotated verses from 7 major Hindu Puranas. Evaluates BERT, RoBERTa, and DistilBERT for topic classification. Creates additional similarity-based and log-likelihood-based datasets via sentence clustering. Major Hindu mythology AI resource."
 LLM_assessed: "BERT, RoBERTa, DistilBERT"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Transformer-based Pouranic Topic Classification in Indian Mythology (PouranicTopic Dataset)
 

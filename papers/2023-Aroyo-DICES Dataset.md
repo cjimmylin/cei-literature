@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,7 +49,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Released the DICES (Diversity In Conversational AI Evaluation for Safety) dataset, containing fine-grained demographic information and high replication of ratings (votes) from diverse raters."
 significance: "Enables the analysis of how safety perceptions vary by demographic group (race, age, gender), challenging the notion of a single 'ground truth' for safety and promoting value-pluralistic evaluation."
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2023/2023-Aroyo-DICES Dataset.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/google-research-datasets/dices-dataset"
+CONFERENCE: "NeurIPS 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2023"
 ---
 # DICES Dataset: Diversity in Conversational AI Evaluation for Safety
 

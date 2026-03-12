@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Nair-Do Language Models Think Consistently.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Gemma, Mistral, Qwen"
 DATA_URL: "https://github.com/launchnlp/ValuePreferenceConsistency"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Do Language Models Think Consistently? A Study of Value Preferences Across Varying Response Lengths
 

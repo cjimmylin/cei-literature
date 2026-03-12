@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Large Language Models (LLMs) increasingly serve diverse global audiences, making it critical for responsible AI deployment across cultures. While recent works have proposed various approaches to enhance cultural alignment in LLMs, a systematic analysis of their evaluation benchmarks remains needed. We propose a novel framework that conceptualizes alignment along three dimensions: Cultural Group (who to align with), Cultural Elements (what to align), and Awareness Scope (how to align:..."
 LLM_assessed: "ChatGPT, Mistral-7B"
 DATA_URL: "NA"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # Incorporating Diverse Perspectives in Cultural Alignment: Survey of Evaluation Benchmarks Through A Three-Dimensional Framework
 

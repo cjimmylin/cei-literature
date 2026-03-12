@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-OSS-20B"
 DATA_URL: "NA"
 tags: 
 abstract: "Despite the growing utility of Large Language Models (LLMs) for simulating human behavior, the extent to which these synthetic personas accurately reﬂect world and moral value systems across different cultural conditionings remains uncertain. This paper investigates the alignment of synthetic, culturally-grounded personas with established frameworks, speciﬁcally the World Values Survey (WVS), the Inglehart–Welzel Cultural Map, and Moral Foundations Theory."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks
 

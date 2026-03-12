@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "Whisper"
 DATA_URL: "NA"
 tags: 
 abstract: "Whisper, a large-scale multilingual model, has demonstrated strong performance in speech recognition benchmarks, but its effectiveness on low-resource languages remains underexplored. This paper evaluates Whisper’s performance on Pashto, Punjabi, and Urdu, three underrepresented languages. While Automatic Speech Recognition (ASR) has advanced for widely spoken languages, low-resource languages still face challenges due to limited data."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Benchmarking Whisper for Low-Resource Speech Recognition: An N-Shot Evaluation on Pashto, Punjabi, and Urdu
 

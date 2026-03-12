@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Jiang-SPARTA ALIGNMENT.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Qwen, Gemini"
 DATA_URL: "https://github.com/yurujiang2003/sparta"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # SPARTA ALIGNMENT: Collectively Aligning Multiple Language Models through Combat
 

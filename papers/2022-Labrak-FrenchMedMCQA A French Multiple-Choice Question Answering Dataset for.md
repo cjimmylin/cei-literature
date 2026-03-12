@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "CamemBERT, BioBERT, PubMedBERT, XLM-RoBERTa, BARThez"
 DATA_URL: "https://huggingface.co/datasets/qanastek/frenchmedmcqa"
 tags: 
 abstract: "This paper introduces FrenchMedMCQA, the ﬁrst publicly available Multiple-Choice Question Answering (MCQA) dataset in French for medical domain. It is composed of 3,105 questions taken from real exams of the French medical specialization diploma in pharmacy, mixing single and multiple answers. Each instance of the dataset contains an identiﬁer, a question, ﬁve possible answers and their manual correction(s)."
+CONFERENCE: "ACL 2022"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "3,105 questions"
-CONFERENCE: "ACL 2022"
 ---
 # FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain
 

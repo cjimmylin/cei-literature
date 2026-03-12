@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "BERT, GPT-2, GloVe, RoBERTa, Word2Vec"
 DATA_URL: "https://github.com/amiangshu/SentiSE"
 tags: 
 abstract: "Detecting and removing hate speech content in a timely manner remains a challenge for social media platforms. Automated techniques such as deep learning models offer solutions which can keep up with the volume and velocity of user content production. Research in this area has mainly focused on either binary classiﬁcation or on classifying tweets into generalised categories such as hateful, offensive, or neither."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core
 

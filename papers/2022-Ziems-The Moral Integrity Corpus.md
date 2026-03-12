@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, T5, BART, BERT, ALBERT"
 DATA_URL: "https://github.com/GT-SALT/mic"
+CONFERENCE: "ACL 2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2022"
 ---
 # The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems
 

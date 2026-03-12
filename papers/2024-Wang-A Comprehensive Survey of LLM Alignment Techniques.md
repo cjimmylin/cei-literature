@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ local_pdf: "[[PDFs/2024/2024-Wang-A Comprehensive Survey of LLM Alignment Techni
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude-3, GPT-2, GPT-3, GPT-4, GPT-4-Turbo, InstructGPT, Llama, LlaMA3, Llama 2, Llama-2, Llama-3, Mistral, Mistral 7b, Mistral Large, Mistral-7B, PaLM 2, Phi-2, T5-Large, T5-XXL"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More
 

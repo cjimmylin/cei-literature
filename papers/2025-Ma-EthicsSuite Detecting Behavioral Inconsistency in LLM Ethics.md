@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ ethics_perspective: "AI Safety & Alignment"
 LLM_assessed: "ChatGPT, GPT-4, Llama, Vicuna"
 DATA_URL: "https://github.com/LLM-Ethics/EthicsSuite"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # EthicsSuite: Detecting Behavioral Inconsistency in LLM Ethics Suggestions
 

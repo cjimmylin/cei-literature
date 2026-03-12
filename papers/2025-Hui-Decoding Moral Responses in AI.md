@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Utilitarianism, Moral Dilemmas, LLM Evaluation"
 key_contribution: "Systematic quantitative comparison of seven LLMs on moral dilemmas showing utilitarian tendencies in impersonal contexts"
 significance: "Demonstrates that LLMs exhibit human-like patterns in moral reasoning but diverge in emotional/personal contexts"
@@ -42,6 +57,7 @@ LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4.1, Claude-3.7-Sonnet, Grok-3, Gemini
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ethics_perspective: "General Ethics"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -51,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Decoding Moral Responses in AI
 

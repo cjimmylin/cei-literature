@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "Nowadays, Question Answering (QA) tasks receive significant research 
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, BERT"
 DATA_URL: "https://github.com/rizquuula/QASiNa"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # QASiNa: Religious Domain Question Answering using Sirah Nabawiyah
 

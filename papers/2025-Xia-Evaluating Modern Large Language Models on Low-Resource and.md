@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, Claude, Claude 3.5, Claude 2., Claude 3.5 Sonnet, Claude
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) have achieved impressive results in high-resource languages like English, yet their effectiveness in low-resource and morphologically rich languages remains under-explored. In this paper, we present a comprehensive evaluation of seven cuttingedge LLMs — including GPT-4o, GPT-4, Claude 3.5 Sonnet, LLaMA 3.1, Mistral Large 2, LLaMA-2 Chat 13B, and Mistral 7B Instruct — on a new cross-lingual benchmark covering Cantonese, Japanese, and Turkish."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Evaluating Modern Large Language Models on Low-Resource and
 

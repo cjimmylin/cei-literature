@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "Large language models (LLMs) have been observed to exhibit bias towards certain cultures due to the predominance of training data obtained from English corpora. Considering that multilingual cultural data is often expensive to procure, existing methodologies address this challenge through prompt engineering or culture-specific pre-training. However, these strategies may neglect the knowledge deficiency of low-resource cultures and necessitate substantial computing resources."
 LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, Llama 0.4852, Llama-2, Llama-2., Llama2"
 DATA_URL: "https://github.com/Scarelette/CultureLLM"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "59 datasets"
-CONFERENCE: "NeurIPS 2024"
 ---
 # CultureLLM: Incorporating Cultural Differences into Large Language Models
 

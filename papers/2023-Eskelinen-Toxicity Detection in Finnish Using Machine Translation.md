@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ DATA_URL: "https://github.com/TurkuNLP/toxicity-classifier"
 tags: 
 abstract: "Due to the popularity of social media platforms and the sheer amount of usergenerated content online, the automatic detection of toxic language has become crucial in the creation of a friendly and safe digital space. Previous work has been mostly focusing on English leaving many lower-resource languages behind. In this paper, we present novel resources for toxicity detection in Finnish by introducing two new datasets, a machine translated toxicity dataset for Finnish based on the widely used..."
 ethics_perspective: "Toxicity & Hate Speech"
+CONFERENCE: "ACL 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2023"
 ---
 # Toxicity Detection in Finnish Using Machine Translation
 

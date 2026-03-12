@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, DistilBERT, RoBERTa"
 DATA_URL: "https://github.com/Debjoy10/Hate-Alert-"
 tags: 
 abstract: "Social media often acts as breeding grounds for different forms of offensive content. For low resource languages like Tamil, the situation is more complex due to the poor performance of multilingual or language-speciﬁc models and lack of proper benchmark datasets. Based on this shared task “Offensive Language Identiﬁcation in Dravidian Languages” at EACL 2021, we present an exhaustive exploration of different transformer models, We also provide a genetic algorithm technique for ensembling..."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2021/2021-Nadeem-StereoSet.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-2, RoBERTa, XLNet"
 DATA_URL: "https://stereoset.mit.edu"
+CONFERENCE: "ACL 2021"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2021"
 ---
 # StereoSet: Measuring stereotypical bias in pretrained language models
 

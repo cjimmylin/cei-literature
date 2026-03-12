@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ paper_summary: "Abstract: As large language models (LLMs) develop increasingly s
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-2, Llama-3, Vicuna, Mistral, Mixtral, GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/AI4LIFE-GROUP/med-safety-bench"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
  MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models
 

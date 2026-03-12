@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/ZILiAT-NASK/BAN-PL"
 tags: 
 abstract: "Since the Internet is flooded with hate, it is one of the main tasks for NLP experts to master automated online content moderation. However, advancements in this field require improved access to publicly available accurate and non-synthetic datasets of social media content. For the Polish language, such resources are very limited. In this paper, we address this gap by presenting a new open dataset of offensive social media content for the Polish language. The dataset comprises content from Wykop."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # BAN-PL: a Novel Polish Dataset of Banned Harmful and Offensive Content from Wykop.pl web service
 

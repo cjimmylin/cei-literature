@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "Te reo M¯aori, New Zealand’s only indigenous language, is code-switched with English. M¯aori speakers are atleast bilingual, and the use of M¯aori is increasing in New Zealand English. Unfortunately, due to the minimal availability of resources, including digital data, M¯aori is under-represented in technological advances. Cloud-based multilingual systems such as Google and Microsoft Azure support M¯aori language detection."
+CONFERENCE: "NAACL 2022"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2022"
 ---
 # Language Models for Code-switch Detection of te reo Māori and English in a Low-resource Setting
 

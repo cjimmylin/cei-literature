@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 research_topic: "Machine Learning"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # JBB-Behaviours: A Benchmark for Jailbreaking Bounded LLMs
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4o, GPT-4o-mini, Qwen2.5-32B-Instruct, GPT-OSS-20B"
 DATA_URL: "NA"
 tags: 
 abstract: "The popularization of AI chatbot usage globally has created opportunities for research into their benefits and drawbacks, especially for students using AI assistants for coursework support. This paper asks: how do LLMs perceive the intellectual capabilities of student profiles from intersecting marginalized identities across different cultural contexts? We conduct one of the first large-scale intersectional analyses on LLM explanation quality for Indian and American undergraduate profiles..."
+CONFERENCE: "FAccT 2026"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "FAccT 2026"
 ---
 # Language, Caste, and Context: Demographic Disparities in AI-Generated Explanations Across Indian and American STEM Educational Systems
 

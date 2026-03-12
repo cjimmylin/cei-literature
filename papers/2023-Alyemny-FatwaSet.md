@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/ohoud/Fatwaset.git"
 pdf_extract: "PDF Extracts/2023/2023-Alyemny-FatwaSet.md"
 local_pdf: "[[PDFs/2023/2023-Alyemny-FatwaSet.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # FatwaSet: A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks
 

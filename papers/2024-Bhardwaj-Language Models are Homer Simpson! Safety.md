@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: Llama-2
 DATA_URL: "https://github.com/declare-lab/resta"
 pdf_extract: "PDF Extracts/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.md"
 local_pdf: "[[PDFs/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.pdf]]"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "11 categories"
-CONFERENCE: "ACL 2024"
 ---
 # Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic
 

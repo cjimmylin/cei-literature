@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, Claude 3.5, Claude 3.5 Sonnet, Claude Sonnet, GPT-4o, Gemma
 DATA_URL: "NA"
 tags: 
 abstract: "While the evaluation of multimodal Englishcentric models is an active area of research with numerous benchmarks, there is a profound lack of benchmarks or evaluation suites for low- and mid-resource languages. We introduce ZNO-Vision, a comprehensive multimodal Ukrainian-centric benchmark derived from standardized university entrance examination (ZNO). The benchmark consists of over 4,300 expert-crafted questions spanning 12 academic disciplines, including mathematics, physics, chemistry, and..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Benchmarking Multimodal Models for Ukrainian Language Understanding Across Academic and Cultural Domains
 

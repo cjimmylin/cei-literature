@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4o"
 DATA_URL: "https://github.com/es133lolo/Knowing-the-Words-Missing-the-Meaning"
 tags: 
 abstract: "Benchmark evaluating LLMs' cultural understanding through Sino-Korean words and four-character idioms. Four question categories: idioms, synonyms, antonyms, homophones with 200 samples each. GPT-4o shows highest accuracy but relies on primary dictionary definitions and Chinese usages rather than Korean-specific meanings."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "200 samples"
-CONFERENCE: "Journal"
 ---
 # Knowing the Words, Missing the Meaning: Evaluating LLMs' Cultural Understanding Through Sino-Korean Words and Four-Character Idioms
 

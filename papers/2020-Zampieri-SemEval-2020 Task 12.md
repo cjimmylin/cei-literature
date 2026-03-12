@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-2, XLNet, ELMo"
 DATA_URL: "http://sites.google.com/site/offensevalsharedtask/home"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # SemEval-2020 Task 12: Multilingual Offensive Language Identification in Social Media (OffensEval 2020)
 

@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ DATA_URL: "https://github.com/noehsueh/greatest-good-benchmark"
 pdf_extract: "PDF Extracts/2024/2024-Marraffini-The Greatest Good Benchmark.md"
 local_pdf: "[[PDFs/2024/2024-Marraffini-The Greatest Good Benchmark.pdf]]"
 normative_ethics_benchmark: Yes
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # The Greatest Good Benchmark: Measuring LLMs’ Alignment with Utilitarian Moral Dilemmas
 

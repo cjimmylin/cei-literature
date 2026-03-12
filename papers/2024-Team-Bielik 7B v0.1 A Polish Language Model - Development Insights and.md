@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4, Llama-2, Llama-3.1, Llama2, Mistral 7B, Mistral v0, Mistra
 DATA_URL: "https://github.com/chrisociepa/allamo"
 tags: 
 abstract: "We introduce Bielik 7B v0.1, a 7-billion-parameter generative text model for Polish language processing. Trained on curated Polish corpora, this model addresses key challenges in language model development through innovative techniques. These include Weighted Instruction Cross-Entropy Loss, which balances the learning of different instruction types, and Adaptive Learning Rate, which dynamically adjusts the learning rate based on training progress."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Bielik 7B v0.1: A Polish Language Model -- Development, Insights, and Evaluation
 

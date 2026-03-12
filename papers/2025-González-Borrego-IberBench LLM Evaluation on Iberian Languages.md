@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT2, Gemma, Llama, Llama-3.1, Llama-3.2, Mistral-7B, Qwen, Qwen-
 DATA_URL: "https://github.com/IberBench/dataset-preparation"
 tags: 
 abstract: "Despite their remarkable success, Large Language Models (LLMs) remain difficult to evaluate comprehensively, particularly for languages other than English, where high-quality data is often limited. Existing benchmarks and leaderboards are predominantly English-centric, with only a few addressing other languages. These benchmarks fall short in several key areas: they overlook the diversity of language varieties, prioritize fundamental Natural Language Processing (NLP) capabilities over tasks of..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "101 datasets"
-CONFERENCE: "Preprint"
 ---
 # IberBench: LLM Evaluation on Iberian Languages
 

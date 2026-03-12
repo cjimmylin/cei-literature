@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Collection of benchmark datasets spanning 8 NLP tasks covering up to 28 Creole languages. Includes MIT-Haiti Corpus for Haitian Creole with English/French/Spanish translations. Baseline zero-shot transfer learning experiments. First major NLP benchmark for Creole languages."
+CONFERENCE: "ACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # CreoleVal: Multilingual Multitask Benchmarks for Creoles
 

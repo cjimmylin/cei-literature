@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "Assessing the ethical biases of large language models (LLMs) is cruci
 LLM_assessed: "GPT-4"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "50 scenarios"
-CONFERENCE: "Other Conference"
 ---
 # Corpus-Based Medical Ethics Decision-Making Evaluation
 

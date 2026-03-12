@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT, CodeLlama, DeepSeekCoder, ELECTRA, GPT-3, GPT-3.5, GPT-3.5 
 DATA_URL: "https://data.mendeley.com/datasets/bpkrvf882k/1"
 tags: 
 abstract: "Hate speech on digital platforms has become a growing concern globally, especially in linguistically diverse countries like Bangladesh, where regional dialects play a major role in everyday communication. Despite progress in hate speech detection for standard Bangla, Existing datasets and systems fail to address the informal and culturally rich expressions found in dialects such as Barishal, Noakhali, and Chittagong."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # BIDWESH: A Bangla Regional Based Hate Speech Detection Dataset
 

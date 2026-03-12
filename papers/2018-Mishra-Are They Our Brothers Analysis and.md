@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "First paper to address religious hate speech detection in Arabic Twitter. Creates the first publicly available Arabic dataset annotated for religious hate speech and the first Arabic lexicon of religious discussion terms with polarity/strength scores. Achieves 0.84 AUROC with simple RNN-GRU architecture. Addresses sectarian hate speech, a critical gap in Arabic NLP."
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/nuhaalbadi/Arabic_hatespeech"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Are They Our Brothers? Analysis and Detection of Religious Hate Speech in the Arabic Twittersphere
 

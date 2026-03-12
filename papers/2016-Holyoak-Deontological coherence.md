@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Dual Process Theory"
 newtags: Deontology
 key_contribution: "Proposes 'Deontological Coherence' framework where moral judgments emerge from coherence maximization between duties, consequences, and causal structure"
 significance: "Offers a cognitive model for how humans integrate conflicting deontological and consequentialist signals, potentially useful for AI cognitive architectures"
@@ -38,6 +53,7 @@ CONF-CC: "Psychological Bulletin"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -47,7 +63,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Deontological coherence: A framework for commonsense moral reasoning.
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Gemma"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.pdf]]"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "16k questions"
-CONFERENCE: "ACL 2025"
 ---
 # Measuring Desired Group Discrimination in LLMs (DiffAware Benchmark Suite)
 

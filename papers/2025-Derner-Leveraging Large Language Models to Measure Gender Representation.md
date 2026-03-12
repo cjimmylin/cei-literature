@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4, Llama 3, Llama 3.1, Llama 3.2, Qwen 2.5, gpt-4-turbo, GPT-
 DATA_URL: "https://github.com/ellisalicante/grb-corpora"
 tags: 
 abstract: "Large language models (LLMs) often inherit and amplify social biases embedded in their training data. A prominent social bias is gender bias. In this regard, prior work has mainly focused on gender stereotyping bias – the association of specific roles or traits with a particular gender – in English and on evaluating gender bias in model embeddings or generated outputs. In contrast, gender representation bias – the unequal frequency of references to individuals of different genders – in the..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Leveraging Large Language Models to Measure Gender Representation Bias in Gendered Language Corpora
 

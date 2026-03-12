@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ local_pdf: "[[PDFs/2023/2023-Durmus-Towards Measuring the Representation of.pdf]
 DATE_ADDED: 20260208
 LLM_assessed: Claude
 DATA_URL: "https://huggingface.co/datasets/Anthropic/llm_global_opinions"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Towards Measuring the Representation of Subjective Global Opinions in Language Models
 

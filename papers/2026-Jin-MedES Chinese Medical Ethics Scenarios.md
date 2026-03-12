@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ abstract: "Recent advances in large language models (LLMs) have enabled their ap
 LLM_assessed: "GPT-3.5, GPT-4, DeepSeek, Qwen"
 DATA_URL: "https://github.com/X-LANCE/MedEthicAlign"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # MedES (Chinese Medical Ethics Scenarios)
 

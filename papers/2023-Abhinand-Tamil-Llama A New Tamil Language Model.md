@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Language modeling has witnessed remarkable advancements in recent years, with Large Language Models (LLMs) like ChatGPT setting unparalleled benchmarks in human-like text generation. However, a prevailing limitation is the underrepresentation of languages like Tamil in these cutting-edge models, leading to suboptimal performance in diverse linguistic contexts. This paper addresses this lacuna, enhancing the open-source LLaMA model with an addition of 16,000 Tamil tokens, aiming to achieve..."
 LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-4, Llama, LLAMA 2, LLaMA 1, LLaMA 3.1, LLaMA 1., LLaMA., Mistral, Mistral 7b, gpt-3.5-turbo"
 DATA_URL: "https://huggingface.co/abhinand/tamil-llama-7b-instruct-v0.2"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Tamil-Llama: A New Tamil Language Model Based on Llama 2
 

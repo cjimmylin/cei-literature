@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Large language models (LLMs) exhibit social biases, prompting the development of various debiasing methods. However, debiasing methods may degrade the capabilities of LLMs. Previous research has evaluated the impact of bias mitigation primarily through tasks measuring general language understanding, which are often unrelated to social biases. In contrast, cultural commonsense is closely related to social biases, as both are rooted in social norms and values."
 LLM_assessed: "DeepSeek-70B, DeepSeek-AI, DeepSeek-R1, GPT-4o-mini, Llama, Llama 3, Llama-3.1"
 DATA_URL: "Not confirmed from search results"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # Bias Mitigation or Cultural Commonsense? Evaluating LLMs with a Japanese Dataset (SOBACO)
 

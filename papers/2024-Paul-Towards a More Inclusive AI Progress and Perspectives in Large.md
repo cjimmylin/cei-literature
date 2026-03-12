@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BLOOM, Pegasus"
 DATA_URL: "NA"
 tags: 
 abstract: "First study on adapting modern LLMs for the Sámi language (Northern Sámi). Compiles the SAmi LLM Token (SALT) dataset with ~22M tokens. Experiments with ~7B parameter models on multilingual training. Finds decoder-only models under sequential multilingual training perform best for ultra-low-resource languages."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "22m tokens"
-CONFERENCE: "Preprint"
 ---
 # Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language
 

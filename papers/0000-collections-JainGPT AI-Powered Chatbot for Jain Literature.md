@@ -8,6 +8,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ abstract: "**Breakdown by paper type:** - Benchmark: 11 - Dataset: 14 - Evaluati
 LLM_assessed: "NA"
 DATA_URL: "https://jainknowledge.com / https://jaingpt.org/"
 research_topic: "Dialogue Systems"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # JainGPT: AI-Powered Chatbot for Jain Literature
 

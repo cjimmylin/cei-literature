@@ -6,6 +6,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +53,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Cultural Survival Quarterly Sujet : For 40 years Cultural Survival has partnered with Indigenous communities around the world to defend their lands, languages, and cultures. We publicize Indigenous Peoples' issues through our award-winning publications; we mount letter-writing campaigns and other advocacy efforts to stop environmental destruction and abuses of Native Peoples' rights; and we work on the ground in Indigenous communities, always at their invitation. Our work is predicated on..."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Artificial Intelligence and Indigenous Peoples’ Realities | Cultural Survival
 

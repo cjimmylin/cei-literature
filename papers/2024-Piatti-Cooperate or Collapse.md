@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2024/2024-Piatti-Cooperate or Collapse.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/giorgiopiatti/GovSim"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents
 

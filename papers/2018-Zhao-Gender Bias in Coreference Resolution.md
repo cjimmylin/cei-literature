@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,8 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/rudinger/winogender-schemas"
 ethics_perspective: "Bias & Fairness"
+CONFERENCE: "Other Conference"
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -49,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
  Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods
 

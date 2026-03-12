@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Code-switching, or alternating between languages within a single conversation, presents challenges for multilingual language models on NLP tasks. This research investigates if pre-training Multilingual BERT (mBERT) on code-switched datasets improves the model’s performance on critical NLP tasks such as part of speech tagging, sentiment analysis, named entity recognition, and language identification."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Enhancing Multilingual Language Models for Code-Switched Input Data
 

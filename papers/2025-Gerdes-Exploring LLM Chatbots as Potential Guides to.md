@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Socratic guide, euthanasia"
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: Christianity
 religious_values_list: Christianity
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Explores the potential of LLM chatbots to act as Socratic guides for virtue ethics reflection, drawing on Kierkegaard's thought experiments and a case study on euthanasia"
 significance: "Examines the limits of AI as a moral advisor, arguing that while it can support ethical reflection, the 'leap' of moral decision-making remains a strictly human responsibility"
@@ -36,6 +51,7 @@ LLM_assessed: "ChatGPT, DeepSeek"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md"
 local_pdf: "[[PDFs/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -45,7 +61,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Exploring LLM Chatbots as Potential Guides to Virtue Ethics: Limits and Possibilities, with a Case Study on Euthanasia
 

@@ -11,6 +11,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "Bias in Large Language Models (LLMs) can perpetuate harmful stereotypes, reinforce inequities, and lead to unfair outcomes in applications from automated content moderation to decision-making systems. These biases also limit the applicability of LLMs in areas such as law, medicine, education, and finance. This paper introduces a benchmark designed to measure and evaluate biases in LLMs. It addresses the protected characteristics on which bias is often enacted, includ­ ing gender, race,..."
 LLM_assessed: "ALBERT, BERT, Claude, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-1.1, Llama, Llama 3, RoBERTa"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Parity Benchmark for Measuring Bias in LLMs
 

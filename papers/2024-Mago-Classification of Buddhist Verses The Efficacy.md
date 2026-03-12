@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "This study assesses the ability of machine learning to classify verses from Buddhist texts into two categories: Therigatha and Theragatha, attributed to female and male authors, respectively. It highlights the difficulties in data preprocessing and the use of Transformer-based models on Devanagari script due to limited vocabulary, demonstrating that simple statistical models can be equally effective."
 LLM_assessed: "Electra, RoBERTa, T5, T5-base, BERT"
 DATA_URL: "Dataset provided for further study (per paper)"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Classification of Buddhist Verses: The Efficacy and Limitations of Transformer-Based Models
 

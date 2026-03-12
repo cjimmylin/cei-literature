@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2024/2024-Vayani-All Languages Matter.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Gemini, Qwen, Phi"
 DATA_URL: "https://mbzuai-oryx.github.io/ALM-Bench/"
+CONFERENCE: "CVPR 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "100 languages"
-CONFERENCE: "CVPR 2024"
 ---
 # All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages
 

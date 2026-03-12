@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ tags:
 abstract: "Large Language Models (LLMs) have gained significant traction across critical domains owing to their impressive contextual understanding and generative capabilities. However, their increasing deployment in high stakes applications necessitates rigorous evaluation of embedded biases, particularly in culturally diverse contexts like India where existing embedding-based bias assessment methods often fall short in capturing nuanced stereotypes."
 LLM_assessed: "Gemma, Llama-3, Phi, Mistral, DeepSeek"
 DATA_URL: "https://github.com/cerai-iitm/IndiCASA"
+CONFERENCE: "AIES 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "AIES 2025"
 ---
 # IndiCASA -- Dataset and Bias Evaluation Framework for LLMs in Indian Context
 

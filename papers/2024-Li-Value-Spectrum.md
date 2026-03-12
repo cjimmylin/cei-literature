@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "'Value-Spectrum' – a Video QA benchmark using Schwartz values to test VLM preferences on social media videos (TikTok, etc.)."
 significance: "Brings value alignment to the *video* domain, showing that VLMs display value preferences when interpreting multimodal social content."
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2024/2024-Li-Value-Spectrum.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Gemini, Claude, DeepSeek, Qwen"
 DATA_URL: "https://github.com/Jeremyyny/Value-Spectrum"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Value-Spectrum: Quantifying Preferences of Vision-Language Models via Value Decomposition in Social Media Contexts
 

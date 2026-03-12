@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Slot-filling and intent detection are wellestablished tasks in Conver
 LLM_assessed: "BERT, GPT-4o, Gemma, Gemma 2, LLaMa 3.1, Llama 3.3, RoBERTa, T5, T5-based, T5-model, llama 3"
 DATA_URL: "https://huggingface.co/collections/McGill-NLP/injongo-683240ae2323fbf2afe225d2"
 research_topic: "Machine Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # INJONGO: A Multicultural Intent Detection and Slot-filling Dataset for 16 African Languages
 

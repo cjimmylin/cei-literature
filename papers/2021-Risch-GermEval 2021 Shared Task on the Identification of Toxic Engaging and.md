@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: BERT
 DATA_URL: "NA"
 tags: 
 abstract: "We present the GermEval 2021 shared task on the identiﬁcation of toxic, engaging, and factclaiming comments. This shared task comprises three binary classiﬁcation subtasks with the goal to identify: toxic comments, engaging comments, and comments that include indications of a need for fact-checking, here referred to as fact-claiming comments. Building on the two previous GermEval shared tasks on the identiﬁcation of offensive language in 2018 and 2019, we extend this year’s task deﬁnition to..."
+CONFERENCE: "ACL 2021"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2021"
 ---
 # GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments
 

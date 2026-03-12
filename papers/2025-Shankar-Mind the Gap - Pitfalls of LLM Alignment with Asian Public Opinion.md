@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ tags:
 abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual, multicultural settings, yet their reliance on predominantly English-centric training data risks misalignment with the diverse cultural values of different societies. In this paper, we present a comprehensive, multilingual audit of alignment of contemporary LLMs including GPT-4o-Mini, Gemini2.5-Flash, Llama 3.2, Mistral and Gemma 3 across India, East Asia and Southeast Asia."
 LLM_assessed: "GPT-4, Gemini, Llama-3, Mistral, Gemma"
 DATA_URL: "https://github.com/HariShankar08/LLMOpinions/"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Mind the Gap -- Pitfalls of LLM Alignment with Asian Public Opinion
 

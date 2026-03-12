@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Large language models (LLMs) increasingly shape interpersonal and soc
 LLM_assessed: "Claude, DeepSeek, Gemini, Llama, Llama-3, Phi, Mistral, ChatGPT, GPT-4, Qwen, Grok"
 DATA_URL: "https://github.com/smartlab-nyu/CCD-Bench"
 authors_incomplete: false
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # CCD-Bench: Probing Cultural Conflict in LLM Decision-Making
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, BERT, BLOOM, Bart, Bartolo, ChatGPT, Claude, Claude 1, Claude 2, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, Llama2, Llama2., RoBERTa, Vicuna, text-davinci-002"
 DATA_URL: "https://github.com/MLGroupJLU/LLM-eval-survey"
 research_topic: "Other"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # A Survey on Evaluation of Large Language Models
 

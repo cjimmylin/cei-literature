@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Large Language Models (LLMs) pre-trained on multilingual data have revolutionized natural language processing research, by transitioning from languages and task specific model pipelines to a single model adapted on a variety of tasks. However majority of existing multilingual NLP benchmarks for LLMs provide evaluation data in only few languages with little linguistic diversity. In addition these benchmarks lack quality assessment against the respective state-of the art models."
 LLM_assessed: "BERT, BLOOM, Bloomz, ChatGPT, GPT 3, GPT 3.5, GPT 2, GPT 3.5 Turbo, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT3, GPT3.5, GPT3.5 turbo, Llama, Llama 2, Llama 3.1, Llama 3, Mistral 8B"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "15 datasets"
-CONFERENCE: "Preprint"
 ---
 # Benchmarking Pre-trained Large Language Models' Potential Across Urdu NLP tasks
 

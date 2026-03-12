@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "With LLM usage becoming widespread across countries, languages, and h
 LLM_assessed: "Claude, Llama, Qwen"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Measuring Moral LLM Responses in Multilingual Capacities
 

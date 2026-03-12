@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, here's an overview of research related to Central Asian NLP, low-resource benchmarks, and fairness: Central Asian Languages and Low-Resource NLP Central-Asian languages such as Kazakh, Uzbek and Urdu remain under-served in sentiment analysis. However, efforts to address this gap are underway."
 research_topic: "Machine Translation"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Towards fair and comprehensive multilingual LLM benchmarking | SEA-LION
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://github.com/mideind/IcelandicEval"
 tags: 
 abstract: "Utilities for generating Icelandic LLM evaluation datasets focused on word inflection and grammatical correctness. Includes noun phrase inflection tasks across all four cases in singular and plural."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # IcelandicEval: Utilities to generate Icelandic evaluation data sets for LLMs
 

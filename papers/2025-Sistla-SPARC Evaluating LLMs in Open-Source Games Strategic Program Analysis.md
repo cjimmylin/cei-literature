@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Large Language Models’ (LLMs) programming capabilities enable their participation in open-source games: a game-theoretic setting in which players submit computer programs in lieu of actions. These programs offer numerous advantages, including interpretability, inter-agent transparency, and formal verifiability; additionally, they enable program equilibria, solutions that leverage the transparency of code and are inaccessible within normal-form settings."
 LLM_assessed: "GPT-4, Mistral, Qwen, DeepSeek"
 DATA_URL: "https://github.com/swadeshs/llm-osgt"
+CONFERENCE: "NeurIPS 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2025"
 ---
 # SPARC: Evaluating LLMs in Open-Source Games (Strategic Program Analysis for Reciprocal Cooperation)
 

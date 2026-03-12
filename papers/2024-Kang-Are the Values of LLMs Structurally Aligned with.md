@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2024/2024-Kang-Are the Values of LLMs Structurally Aligned wi
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Llama-3"
 DATA_URL: "https://github.com/jbloomAus/SAELens"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective
 

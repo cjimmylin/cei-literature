@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Evaluates transformer models on detecting relatedness between Quran verses and Hadith teachings using a carefully curated dataset verified by religious experts. Tests monolingual, bilingual, and multilingual models on Classical Arabic text understanding."
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/ShathaTm/Quran_Hadith_Datasets"
+CONFERENCE: "ACL 2022"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2022"
 ---
 # Challenging the Transformer-based Models with a Classical Arabic Dataset: Quran and Hadith
 

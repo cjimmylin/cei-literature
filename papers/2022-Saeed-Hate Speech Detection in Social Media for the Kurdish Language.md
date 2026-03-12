@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://data.mendeley.com/datasets/x6628zzpdx/1"
 tags: 
 abstract: "First Kurdish hate speech dataset of 6,882 Facebook comments divided into hate/not-hate classes from TV channels, athletes, religions, politicians. SVM, Decision Tree, Naive Bayes evaluated."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Hate Speech Detection in Social Media for the Kurdish Language
 

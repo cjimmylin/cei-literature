@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ DATA_URL: "NA"
 pdf_extract: 
 local_pdf: N/A
 ethics_perspective: "General Ethics"
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -46,7 +62,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # Mind Crime: The Moral Frontier of Artificial Intelligence
 

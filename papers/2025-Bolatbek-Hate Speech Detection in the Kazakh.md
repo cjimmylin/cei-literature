@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "Modern text data processing and classification methods require extensive use of machine learning and neural networks. Categorizing text into different classes has become a crucial task in many fields. This paper presents a multi-class text classification model utilizing a Modified TF-IDF (MTF-IDF) approach in combination with Long Short-Term Memory (LSTM) neural networks, XGBoost, and MLPClassifier algorithms."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Hate Speech Detection in the Kazakh Language Utilizing an Attention-Based BERT Model
 

@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ abstract: "Detecting hateful content is a challenging and important problem. Aut
 LLM_assessed: "DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5, Gemma, Gemma-3, Gemma3, Llama, Llama 3.1, Llama 11, Llama 8, Llama-3, Llama-3., Llama-3.1, Mistral 8B, Mistral 2410 4, Mistral 24B, Mistral 2501 5, Mistral- 2410, Mistral-2501 24B, Qwen, qwenlm"
 DATA_URL: "https://huggingface.co/RedHatAI/Meta-Llama-3"
 research_topic: "Interpretability & Explainability"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # Evaluating Large Language Models for Detecting Antisemitism
 

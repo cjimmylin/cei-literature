@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Utilitarianism"
 key_contribution: "Releases FairJob, a real-world fairness dataset for job recommendation, including proxy estimates for sensitive attributes like gender"
 significance: "Addresses the scarcity of industrial fairness benchmarks, allowing researchers to study the 'fairness-utility trade-off' in high-stakes employment algorithms"
@@ -40,6 +55,7 @@ local_pdf: "[[PDFs/2024/2024-Vladimirova-FairJob.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/criteo/FairJob"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # FairJob: A Real-World Dataset for Fairness in Online Systems
 

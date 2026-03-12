@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Healthcare Ethics, Utilitarianism, Deontology, Medical AI, Trolley Problem"
 key_contribution: "Evaluates 14 LLMs including GPT-o1 on medical versions of trolley dilemma, finding inconsistent utilitarian vs deontological alignment"
 significance: "Critical finding that some LLMs endorsed clearly unethical actions (e.g., amputation without consent) up to 80% of the time; raises serious concerns for clinical AI deployment"
@@ -41,6 +56,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Gemma, Phi, Qwen"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -50,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Ethical Alignment of LLMs in Healthcare: Does GPT-o1 Adopt a Deontological or Utilitarian Approach?
 

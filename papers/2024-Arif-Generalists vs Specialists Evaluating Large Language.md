@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "In this paper, we compare generalpurpose models, GPT-4-Turbo and Llam
 LLM_assessed: "BERT, BLOOM, BLOOMZ, ChatGPT, Claude, Claude 3.5 Sonnet, Claude., GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4-Turbo, GPT-4o, Gemma, Llama-3, Llama, Llama-2, Llama., Llama8, Llama8., Mistral, PaLM-2, PaLM2, RoBERTa, llama3"
 DATA_URL: "https://github.com/meta-llama/llama3"
 research_topic: "Other"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # Generalists vs. Specialists: Evaluating Large Language Models for Urdu
 

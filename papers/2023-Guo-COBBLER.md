@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "ACL 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, ChatGPT, InstructGPT, Llama, Llama-2, Alpaca, Falcon, Vicuna, Mistral"
 DATA_URL: "https://github.com/minnesotanlp/cobbler"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # COBBLER: A Scrutinizing Benchmark for Assessing the Cognitive Bias of Large Language Models as Evaluators
 

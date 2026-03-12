@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Deep ensemble framework for hate speech detection in Tamil, Malayalam, and Kannada code-mixed text. Weighted ensemble achieved 0.802 and 0.933 weighted F1-scores for Tamil code-mixed datasets. Covers three Dravidian languages for hate speech detection. Ensemble approach establishes strong baselines for culturally specific offensive content."
 LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://github.com/doccano/doccano"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Hate Speech and Offensive Language Detection in Dravidian Languages Using Deep Ensemble Framework
 

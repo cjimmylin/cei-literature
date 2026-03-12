@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "Should social media companies ban Holocaust denial from their platforms? What about conspiracy theorists that spew hate? Does good corporate citizenship mean platforms should remove offensive speech or tolerate it? The content moderation rules that companies develop to govern speech on their platforms will have significant implications for the future of freedom of expression. Given that the prospects for compelling platforms to respect users’ free speech rights are bleak within the U.S."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # YouTube-Based Religious Hate Speech and Extremism Detection Dataset with Machine Learning Baselines
 

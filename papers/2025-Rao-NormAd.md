@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ CONF-CC: "NAACL 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Llama, Llama-2, Mistral"
 DATA_URL: "https://github.com/Akhila-Yerukola/NormAd"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models
 

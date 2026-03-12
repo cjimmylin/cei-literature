@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BART, BART-based, BERT, T5"
 DATA_URL: "https://github.com/IndoNLP/indonlg"
 tags: 
 abstract: "Natural language generation (NLG) benchmarks provide an important avenue to measure progress and develop better NLG systems. Unfortunately, the lack of publicly available NLG benchmarks for low-resource languages poses a challenging barrier for building NLG systems that work well for languages with limited amounts of data. Here we introduce IndoNLG, the ﬁrst benchmark to measure natural language generation (NLG) progress in three low-resource—yet widely spoken— languages of Indonesia:..."
+CONFERENCE: "EMNLP 2021"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2021"
 ---
 # IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation
 

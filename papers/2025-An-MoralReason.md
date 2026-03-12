@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Qwen
 DATA_URL: "https://huggingface.co/datasets/zankjhk/Moral-Reason-QA"
 normative_ethics_benchmark: Yes
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning
 

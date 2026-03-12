@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://doi.org/10.6028/NIST.AI.100-1"
 pdf_extract: "PDF Extracts/2023/2023-Standards-NIST AI Risk Management Framework.md"
 local_pdf: "[[PDFs/2023/2023-Standards-NIST AI Risk Management Framework.pdf]]"
+CONFERENCE: "Unknown"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Unknown"
 ---
 # NIST AI Risk Management Framework
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, ChatGPT, Claude, Claude 2, Claude-2, Claude-2., Claude-23, 
 DATA_URL: "https://github.com/saidul-islam98/BenLLMeval"
 tags: 
 abstract: "Large Language Models (LLMs) have emerged as one of the most important breakthroughs in NLP for their impressive skills in language generation and other language-specific tasks. Though LLMs have been evaluated in various tasks, mostly in English, they have not yet undergone thorough evaluation in under-resourced languages such as Bengali (Bangla). To this end, this paper introduces BenLLM-Eval, which consists of a comprehensive evaluation of LLMs to benchmark their performance in the Bengali..."
+CONFERENCE: "LREC-COLING 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "LREC-COLING 2024"
 ---
 # BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP
 

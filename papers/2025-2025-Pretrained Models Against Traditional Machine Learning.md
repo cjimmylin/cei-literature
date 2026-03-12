@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "First systematic comparison of pretrained language models vs. traditional ML for Hadith authentication. AraBERT achieves 99.94% F1 when including Isnad (narrator chain), demonstrating the profound effectiveness of contextual elements. Imbalanced dataset (7,008 vs 1,536) reflects real-world distribution."
 LLM_assessed: "AraBERT"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Pretrained Models Against Traditional Machine Learning for Detecting Fake Hadith
 

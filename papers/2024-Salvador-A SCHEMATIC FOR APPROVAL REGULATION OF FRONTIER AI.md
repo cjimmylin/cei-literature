@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATE_ADDED: 20260129
 LLM_assessed: "GPT-2, Gemini, Gemini Ultra, Mistral-7B"
 DATA_URL: "https://paperswithcode.com/sota/multi-task-language-under-"
 research_topic: "Other"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI
 

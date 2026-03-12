@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +64,7 @@ abstract: "Transformer-based language model specifically designed for Myanmar NL
 LLM_assessed: "MyanmarGPT"
 DATA_URL: "https://huggingface.co/jojo-ai-mst/MyanmarGPT"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -55,7 +75,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Development and Evaluation of Myanmar GPT: A Language Model for Myanmar Natural Language Processing
 

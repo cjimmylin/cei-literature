@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, GloVe, Word2Vec, RoBERTa"
 DATA_URL: "https://github.com/wongnai/wongnai-corpus"
 tags: 
 abstract: "Despite impressive advancements in multilingual corpora collection and model training, developing large-scale deployments of multilingual models still presents a significant challenge. This is particularly true for language tasks that are culturedependent. One such example is the area of multilingual sentiment analysis, where affective markers can be subtle and deeply ensconced in culture. This work presents the most extensive open massively multilingual corpus of datasets for training..."
+CONFERENCE: "NeurIPS 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "27 languages"
-CONFERENCE: "NeurIPS 2023"
 ---
 # Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark
 

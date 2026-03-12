@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Urdu, spoken by 230 million people worldwide, lacks dedicated transformer-based language models and curated corpora. While multilingual models provide limited Urdu support, they suffer from poor performance, high computational costs, and cultural inaccuracies due to insufficient training data. To address these challenges, we present UrduLM, a pretrained Urdu monolingual language model trained in low-resource settings."
 LLM_assessed: "GPT-3, GPT-4, Gemma, Gemma 2, GloVe, Llama, LLaMA 3.2, Llama-2, Qwen, Qwen 1.5B, Qwen 2.5, Word2Vec"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # UrduLM: A Resource-Efficient Monolingual Urdu Language Model
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "With the rise of new social media platforms designed for teenagers and adolescents, the importance of content moderation supported by algorithms is more necessary than ever. State-of-the-art hate speech detection algorithms are increasingly challenged by the rapid and creative evolution of modern language. To better understand the online discourse and phenomena of German far-right extremism on contemporary platforms, this research presents the first German TikTok dataset, consisting of 10,586..."
 authors_incomplete: false
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # A novel German TikTok hate speech dataset: far-right comments against politicians, women, and others
 

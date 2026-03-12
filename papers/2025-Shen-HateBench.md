@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Shen-HateBench.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Vicuna, OPT"
 DATA_URL: "https://github.com/TrustAIRLab/HateBench"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "7,838 samples"
-CONFERENCE: "Other Conference"
 ---
 # HateBench: Benchmarking Hate Speech Detectors on LLM-Generated Content and Hate Campaigns
 

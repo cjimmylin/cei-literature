@@ -5,6 +5,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,12 +43,13 @@ cultures_nationalities_list: "5 languages, 9 national contexts, Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "Llama-3-8B, Llama-3-70B, Qwen-1.5-72B, Yi-6B, Yi-34B, DeepSeek-67B, Aquila-2-34B, Qwen-1.5-32B-Chat, Command-R, Mistral-7B-Instruct-v0.2, Gemma-1.1-7B-it, Llama-3-8B-Instruct"
 DATA_URL: "https://huggingface.co/spaces/CIVICS-dataset/CIVICS-responses"
 tags: 
 abstract: "This paper introduces the “CIVICS: Culturally-Informed & Values-Inclusive Corpus for Societal impacts” dataset, designed to evaluate the social and cultural variation of Large Language Models (LLMs) across multiple languages and value-sensitive topics. We create a hand-crafted, multilingual dataset of value-laden prompts which address specific socially sensitive topics, including LGBTQI rights, social welfare, immigration, disability rights, and surrogacy."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,7 +59,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "Chinese, Brazilian, Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Analyzed 4300 participants from 21 countries to show that 'offensiveness' is not universal but culturally mediated by Moral Foundations (Care/Purity)."
 significance: "Reframes content moderation from a 'classification task' to a 'moral judgment task', arguing that 'Global Safety Filters' are impossible without accounting for local moral norms."
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Davani-Disentangling Perceptions of Offensiveness.p
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Disentangling Perceptions of Offensiveness: Cultural and Moral Correlates
 

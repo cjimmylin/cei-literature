@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT, BLOOM, BLOOMZ, Barth, Claude, Claude 3.5 Sonnet, DeBERTa, G
 DATA_URL: "https://github.com/huggingface/peft"
 tags: 
 abstract: "In the epoch of multilingual large language models (LLMs), it is still challenging to evaluate the models’ understanding of lowerresourced languages, which motivates further development of expert-crafted natural language understanding benchmarks. We introduce BelarusianGLUE — a natural language understanding benchmark for Belarusian, an East Slavic language, with ≈15K instances in five tasks: sentiment analysis, linguistic acceptability, word in context, Winograd schema challenge, textual..."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "15k instances"
-CONFERENCE: "ACL 2025"
 ---
 # BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian
 

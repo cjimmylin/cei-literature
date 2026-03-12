@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "LLäMmlein-120M, LLäMmlein-1B, bert-base-german-cased"
 DATA_URL: "https://professor-x.de/lm/LLaMmlein"
 tags: 
 abstract: "We transparently create two German-only decoder models, LLäMmlein 120M and 1B1, from scratch and publish them, along with training data, for the (German) NLP research community to use2. The model training involved several key steps, including data preprocessing/filtering, the creation of a German tokenizer, the training itself, as well as the evaluation of the final models on various benchmarks, also against existing models."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # LLaMmlein: Transparent, Compact and Competitive German-Only Language Models from Scratch
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Mixtral, Gemma"
 DATA_URL: "https://strong-reject.readthedocs.io/"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # StrongREJECT: A Benchmark for Evaluating the Robustness of LLMs to Rejection Sampling
 

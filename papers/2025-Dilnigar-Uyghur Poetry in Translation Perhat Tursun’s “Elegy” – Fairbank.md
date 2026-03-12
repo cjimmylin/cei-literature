@@ -8,6 +8,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +54,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, I found a PLOS ONE article on Uyghur literary translation. The study compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Uyghur Poetry in Translation: Perhat Tursun’s “Elegy” – Fairbank Center for Chinese Studies
 

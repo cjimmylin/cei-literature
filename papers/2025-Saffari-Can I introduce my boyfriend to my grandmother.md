@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4, Llama-3, Mixtral, Qwen, Claude"
 DATA_URL: "https://github.com/hamidds/ISN"
 pdf_extract: "PDF Extracts/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
 local_pdf: "[[PDFs/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.pdf]]"
+CONFERENCE: "NAACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # Can I introduce my boyfriend to my grandmother? Evaluating Large Language Models Capabilities on Iranian Social Norm Classification
 

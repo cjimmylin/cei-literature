@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ abstract: "Generative large language models (LLMs) have revolutionized natural l
 LLM_assessed: "GPT-4, Qwen, Llama, Gemini, Gemma, Mistral, Vicuna"
 DATA_URL: "https://github.com/IS2Lab/S-Eval"
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "220,000 test cases"
-CONFERENCE: "Preprint"
 ---
 # S-Eval
 

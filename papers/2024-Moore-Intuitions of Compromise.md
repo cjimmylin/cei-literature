@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,7 @@ local_pdf: "[[PDFs/2024/2024-Moore-Intuitions of Compromise.pdf]]"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, text-davinci"
 DATA_URL: "https://osf.io/2hxgu"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Intuitions of Compromise: Utilitarianism vs. Contractualism
 

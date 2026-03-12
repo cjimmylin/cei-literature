@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,7 +46,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Moral Reasoning & Psychology"
 key_contribution: "Proposed the task of 'Ethical Quandary Generative Question Answering', prompting LLMs to provide deliberative, multi-perspective answers (Socratic method) rather than single-oracle verdicts."
 significance: "Shifts the goal of ethical AI from 'giving the right answer' to 'facilitating moral deliberation', evaluating whether models can reason through conflicting principles (e.g., utilitarian vs. deontological) in open-ended scenarios."
@@ -40,6 +59,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Towards Answering Open-ended Ethical Quandary Questions
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4 Turb
 DATA_URL: "https://github.com/commonsense/conceptnet5"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly being used to generate synthetic data for training and evaluating models. However, it is unclear whether they can generate a good quality of question answering (QA) dataset that incorporates knowledge and cultural nuance embedded in a language, especially for low-resource languages. In this study, we investigate the effectiveness of using LLMs in generating culturally relevant commonsense QA datasets for Indonesian and Sundanese languages."
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "4.5k questions"
-CONFERENCE: "EMNLP 2024"
 ---
 # Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese
 

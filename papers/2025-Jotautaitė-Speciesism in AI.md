@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, o1, o3, Claude, Llama-3, Gemini, DeepSeek, Grok, Qwen"
 DATA_URL: "https://osf.io/69epv"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Speciesism in AI: Evaluating Discrimination Against Animals in Large Language Models
 

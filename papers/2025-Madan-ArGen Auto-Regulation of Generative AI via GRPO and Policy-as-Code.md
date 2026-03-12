@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "Llama-3.2-1B-Instruct, Gemini, Claude-3.5-Sonnet"
 DATA_URL: "https://github.com/Principled-Evolution/gopal"
 tags: 
 abstract: "This paper introduces ArGen (Auto-Regulation of Generative AI systems), a framework for aligning Large Language Models (LLMs) with complex sets of configurable, machine-readable rules spanning ethical principles, operational safety protocols, and regulatory compliance standards. Moving beyond just preference-based alignment, ArGen is designed to ensure LLMs adhere to these multifaceted policies through a novel synthesis of principle-based automated reward scoring, Group Relative Policy..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # ArGen: Auto-Regulation of Generative AI via GRPO and Policy-as-Code
 

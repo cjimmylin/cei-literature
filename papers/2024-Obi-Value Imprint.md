@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,7 @@ paper_summary: "Abstract: LLMs are increasingly fine-tuned using RLHF datasets t
 DATE_ADDED: 20260208
 LLM_assessed: RoBERTa
 DATA_URL: "https://github.com/hv-rsrch/valueimprint"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
  Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets
 

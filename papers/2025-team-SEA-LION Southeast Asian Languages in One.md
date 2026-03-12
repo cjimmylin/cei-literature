@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Recently, Large Language Models (LLMs) have dominated much of the art
 LLM_assessed: "BLOOM, Gemma, Gemma 2, Gemma 35.15, Gemma 35.31, Gemma 69.37, Gemma-2, Gemma2, Llama, Llama 3.1, Llama-3.1, Llama., Qwen, Qwen 2.5, Qwen2, Qwen2.5, llama 3"
 DATA_URL: "https://github.com/aisingapore/sealion"
 ethics_perspective: "AI Safety & Alignment"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # SEA-LION: Southeast Asian Languages in One Network
 

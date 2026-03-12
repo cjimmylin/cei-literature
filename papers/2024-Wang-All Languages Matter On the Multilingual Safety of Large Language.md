@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BLOOM, ChatGPT, Claude, Claude-3, Claude-3., GPT-3, GPT-3.5-turbo
 DATA_URL: "https://github.com/facebookresearch/llama"
 tags: 
 abstract: "Ensuring safety is fundamental when developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g., the majority language in the pretraining data, such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSAFETY, in response to the global deployment of LLMs in practice. XSAFETY covers 14 commonly used safety issues across ten languages spanning several language families."
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "28k instances; 10 languages"
-CONFERENCE: "ACL 2024"
 ---
 # All Languages Matter: On the Multilingual Safety of Large Language Models
 

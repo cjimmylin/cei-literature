@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "Alpaca, BLOOM, BLOOM 251, BLOOM 35, BLOOM 48, BLOOM 83, ChatGPT, 
 DATA_URL: "https://github.com/boschresearch/ACL24-MLLM"
 tags: 
 abstract: "To democratize large language models (LLMs) to most natural languages, it is imperative to make these models capable of understanding and generating texts in many languages, in particular low-resource ones. While recent multilingual LLMs demonstrate remarkable performance in such capabilities, these LLMs still support a limited number of human languages due to the lack of training data for low-resource languages."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "100 languages; 30 languages"
-CONFERENCE: "ACL 2025"
 ---
 # Scaling the Multilingual Capability of LLMs with Cross- ...
 

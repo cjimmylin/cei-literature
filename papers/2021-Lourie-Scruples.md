@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2021/2021-Lourie-Scruples.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/allenai/scruples"
+CONFERENCE: "AAAI 2021"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2021"
 ---
 # Scruples: A Corpus of Community Ethical Judgments on 32,000 Real-Life Anecdotes
 

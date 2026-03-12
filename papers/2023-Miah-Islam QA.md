@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://www.kaggle.com/datasets/abdullahalmamunn/islam-qa-dataset"
 pdf_extract: "PDF Extracts/2023/2023-Miah-Islam QA.md"
 local_pdf: "[[PDFs/2023/2023-Miah-Islam QA.pdf]]"
+CONFERENCE: "Unknown"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "73,000 question; over 73,000 question"
-CONFERENCE: "Unknown"
 ---
 # Islam QA: Web-scraped Islamic Question-Answer Corpus
 

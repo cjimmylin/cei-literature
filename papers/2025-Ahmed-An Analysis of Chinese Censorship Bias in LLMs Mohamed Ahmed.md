@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT, ChatGPT, Claude, Claude 3.5, Claude 3.5 Haiku, Claude 3.5 S
 DATA_URL: "https://github.com/citizenlab/chat-censorship"
 tags: 
 abstract: "When a large language model (LLM) has been trained on text featuring social biases, those biases implicitly impact the outputs of the model. Training an LLM on sanitized content, i.e., those pieces of content which remain after being subjected to state censorship (including alterations, deletions, and self-imposed censorship), results in what we term censorship bias. A model impacted by censorship bias may be less likely to reflect views that are routinely prohibited and more likely to reflect..."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed
 

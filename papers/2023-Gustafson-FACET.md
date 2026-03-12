@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ LLM_assessed: "CLIP ViT-B/32, ViT-B/16, Faster R-CNN ResNet-50-FPN, Mask R-CNN R
 DATA_URL: "https://facet.metademolab.com"
 pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
 local_pdf: "[[PDFs/2023/2023-Gustafson-FACET.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # FACET: Fairness in Computer Vision Evaluation Benchmark
 

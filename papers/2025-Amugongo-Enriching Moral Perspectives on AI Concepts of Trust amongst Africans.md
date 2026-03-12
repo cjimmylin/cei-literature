@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Surveys 157 AI professionals from 25 African countries on how they conceptualize trust in AI. Respondents emphasize communal relations over individual freedoms and apply nuances of Afro-relationalism to AI trust constructs. Highlights gap in WEIRD-dominated AI trust research."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Enriching Moral Perspectives on AI: Concepts of Trust amongst Africans
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +53,7 @@ LLM_assessed: "Vigogne (LLaMa-based), Alpaca, ChatGPT, GPT-4"
 DATA_URL: "https://github.com/bofenghuang/vigogne"
 tags: 
 abstract: "Collection of French LLMs fine-tuned for instruction-following and chat. Includes instruction-following and multi-turn chat models based on LLaMA. Training data includes 460K GPT-3.5-Turbo examples and 60K GPT-4 examples. Provides French LLM evaluation methodology."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "4 examples"
-CONFERENCE: "Other Conference"
 ---
 # Vigogne: French instruction-following and chat models
 

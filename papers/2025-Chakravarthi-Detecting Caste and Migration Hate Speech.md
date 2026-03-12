@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,12 +51,13 @@ cultures_nationalities_list: "Indian"
 languages_list: "English, Tamil"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The Indian constitution categorizes its population into groups such as Scheduled Castes, Scheduled Tribes, Other Backward Classes, and Forward Castes, reflecting historical inequalities that influence social dynamics and discrimination. Migrants who are relocating within the country for better opportunities are often viewed as outsiders, leading to concerns about job security and crime, fostering hate and discrimination against them."
 LLM_assessed: "BERT, BLOOM, BLOOM-560, RoBERTa, Word2Vec"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Detecting Caste and Migration Hate Speech in Low-Resource Tamil Language
 

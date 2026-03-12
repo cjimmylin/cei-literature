@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, RoBERTa, gloVe, word2vec"
 DATA_URL: "NA"
 tags: 
 abstract: "This paper is an overview of MeOﬀendES 2021, organized at IberLEF 2021 and co-located with the 37th International Conference of the Spanish Society for Natural Language Processing (SEPLN 2021). The main purpose of MeOﬀendEs is to promote research on the detection of oﬀensive language in Spanish variants. The shared task involve four subtasks, the ﬁrst two correspond to the identiﬁcation of oﬀensive language categories in generic Spanish texts from diﬀerent social media platforms, while subtasks..."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Overview of MeOffendEs at IberLEF 2021: Offensive Language Detection in Spanish Variants
 

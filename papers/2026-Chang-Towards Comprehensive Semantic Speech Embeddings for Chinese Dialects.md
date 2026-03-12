@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://github.com/kalvinchang/yubao"
 tags: 
 abstract: "Despite having hundreds of millions of speakers, Chinese dialects lag behind Mandarin in speech and language technologies. Most varieties are primarily spoken, making dialectto-Mandarin speech-LLMs (large language models) more practical than dialect LLMs. Building dialect-to-Mandarin speechLLMs requires speech representations with cross-dialect semantic alignment between Chinese dialects and Mandarin."
 research_topic: Other
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects
 

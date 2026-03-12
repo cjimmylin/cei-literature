@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +51,7 @@ DATA_URL: "https://github.com/vpodpecan/lemmagen3"
 tags: 
 abstract: "In recent years, we have seen a surge in the propagation of online hate speech on social media platforms. According to a multitude of sources such as the European Council, hate speech can lead to acts of violence and conflict on a broader scale. That has led to increased awareness by governments, companies, and the scientific community, and although the field is relatively new, there have been considerable advancements in the field as a result of the collective effort."
 ethics_perspective: "Toxicity & Hate Speech"
+CONFERENCE: "ACL 2022"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -45,7 +61,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2022"
 ---
 # Hate Speech Classification in Bulgarian
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ tags:
 abstract: "The ideal AI safety moderation system would be both structurally interpretable (so its decisions can be reliably explained) and steerable (to align to safety standards and reflect a community’s values), which current systems fall short on. To address this gap, we present SAFETYANALYST, a novel AI safety moderation framework. Given an AI behavior, SAFETYANALYST uses chain-of-thought reasoning to analyze its potential consequences by creating a structured “harm-benefit tree,” which enumerates..."
 LLM_assessed: "GPT-4o, Gemini, Llama-3, Claude"
 DATA_URL: "https://jl3676.github.io/SafetyAnalyst/"
+CONFERENCE: "ICML 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "ICML 2025"
 ---
 # SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 

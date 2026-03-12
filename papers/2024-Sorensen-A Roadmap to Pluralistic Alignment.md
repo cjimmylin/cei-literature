@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,7 +49,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Proposed a 'roadmap to pluralistic alignment' defining three types of pluralism: Overton (spectrum of responses), Steerable (user-controlled), and Distributional (population-calibrated)."
 significance: "Foundational framework for moving beyond 'single-vector alignment' (which collapses diversity) to systems that can represent the full distribution of human values."
@@ -42,6 +61,7 @@ local_pdf: "[[PDFs/2024/2024-Sorensen-A Roadmap to Pluralistic Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, GPT-3, GPT3, Gemma, Llama, LLaMA2, LLaMA2., gpt-3.5-turbo"
 DATA_URL: "NA"
+CONFERENCE: "ICML 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ICML 2024"
 ---
 # A Roadmap to Pluralistic Alignment
 

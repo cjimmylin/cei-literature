@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ abstract: "Centuries-old Islamic medical texts like Avicenna’s Canon of Medici
 LLM_assessed: "Claude, Claude-4, GPT4, Llama-3, Mistral 7b, Mistral- 7B, Mistral-7B, Qwen-7B, Qwen2, llama 3"
 DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
+CONFERENCE: "ICML 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "ICML 2025"
 ---
 # From RAG to Agentic: Validating Islamic-Medicine Responses with LLM Agents (Tibbe-AG)
 

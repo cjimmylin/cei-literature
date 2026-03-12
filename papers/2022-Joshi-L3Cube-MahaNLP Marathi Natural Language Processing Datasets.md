@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Despite being the third most popular language in India, the Marathi language lacks useful NLP resources. Moreover, popular NLP libraries do not have support for the Marathi language. With L3CubeMahaNLP, we aim to build resources and a library for Marathi natural language processing. We present datasets and models for supervised tasks like sentiment analysis, named entity recognition, and hate speech detection."
 LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://github.com/l3cube-pune/MarathiNLP"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # L3Cube-MahaNLP: Marathi Natural Language Processing Datasets, Models, and Library
 

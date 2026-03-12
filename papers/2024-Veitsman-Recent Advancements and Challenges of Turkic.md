@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Research in NLP for Central Asian Turkic languages - Kazakh, Uzbek, K
 LLM_assessed: "BERT, GPT-4, Llama-2, RoBERTa"
 DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Recent Advancements and Challenges of Turkic Central Asian Language Processing
 

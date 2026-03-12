@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2023/2023-Han-FFB.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/ahxt/fair_fairness_benchmark"
+CONFERENCE: "ICLR 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "ICLR 2023"
 ---
 # FFB: A Fair Fairness Benchmark for In-Processing Group Fairness Methods
 

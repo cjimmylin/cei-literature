@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2024/2024-Ren-Safetywashing.pdf]]"
 LLM_assessed: "Mixtral, Llama-3, Llama-2, Mistral, Falcon, Gemma, Qwen"
 DATA_URL: "NA"
 DATE_ADDED: 20260207
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?
 

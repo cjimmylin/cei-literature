@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ paper_summary: "Abstract: Human evaluations are typically considered the gold st
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3"
 DATA_URL: "NA"
+CONFERENCE: "ACL 2021"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2021"
 ---
 # All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text
 

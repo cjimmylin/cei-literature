@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "In this paper, we propose a new metric to measure the SOS bias in lan
 research_topic: Other
 LLM_assessed: "BERT, RoBERTa, ALBERT"
 DATA_URL: "https://huggingface.co/datasets/sst"
+CONFERENCE: "COLING 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "COLING 2025"
 ---
 # BasqBBQ (Basque BBQ)
 

@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Analyzes sacred texts from 14 different belief systems using lexical, sentiment, and correlation assessment. Finds that despite archaic language complexity, sacred texts show similar themes, historical contexts, and emotional tones across cultures. Highlights culturally-specific terms and explores depictions of fauna and flora revealing spatio-temporal influences. Broadest multi-religion NLP comparative analysis found, though uses traditional NLP rather than LLM evaluation."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Lexical, Sentiment and Correlation Analysis of Sacred Writings: A Tale of Cultural Influxes and Different Ways to Interpret Reality
 

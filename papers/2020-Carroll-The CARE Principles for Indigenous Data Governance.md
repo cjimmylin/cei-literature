@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Develops the CARE Principles for Indigenous Data Governance: Collective Benefit, Authority to Control, Responsibility, and Ethics. People and purpose-oriented principles reflecting the crucial role of data in advancing Indigenous innovation and self-determination. Complement FAIR principles by centering people and purpose. Developed at 2018 International Data Week workshop on Indigenous data sovereignty."
 research_topic: "Other"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # The CARE Principles for Indigenous Data Governance
 

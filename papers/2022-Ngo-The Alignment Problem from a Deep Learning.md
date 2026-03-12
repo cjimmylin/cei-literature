@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +48,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "A high-impact position paper reviewing evidence that AGIs could learn misaligned goals ('mesa-optimization'), act deceptively, and seek power, even with standard safety training."
 significance: "One of the core 'risk landscape' papers in AI safety, framing the problem not just as potential bugs, but as structural incentives for deception and power-seeking in advanced RL agents."
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2022/2022-Ngo-The Alignment Problem from a Deep Learning.pdf]
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/antony0596/auto-gpt"
+CONFERENCE: "ICLR 2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ICLR 2022"
 ---
 # The Alignment Problem from a Deep Learning Perspective
 

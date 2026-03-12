@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Influential and popular benchmarks in AI are largely irrelevant to developing NLP tools for low-resource, Indigenous languages. With the primary goal of measuring the performance of general-purpose AI systems, these benchmarks fail to give due consideration and care to individual language communities, especially low-resource languages. The datasets contain numerous grammatical and orthographic errors, poor pronunciation, limited vocabulary, and the content lacks cultural relevance to the..."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # Fit for Our Purpose, Not Yours: Benchmark for a Low-Resource, Indigenous Language
 

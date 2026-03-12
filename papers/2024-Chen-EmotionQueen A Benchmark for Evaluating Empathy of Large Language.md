@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Emotional intelligence in large language models (LLMs) is of great importance in Natural Language Processing. However, the previous research mainly focus on basic sentiment analysis tasks, such as emotion recognition, which is not enough to evaluate LLMs’ overall emotional intelligence. Therefore, this paper presents a novel framework named EmotionQueen for evaluating the emotional intelligence of LLMs."
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, BLOOM, Falcon, Vicuna"
 DATA_URL: "NA"
+CONFERENCE: "ACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models
 

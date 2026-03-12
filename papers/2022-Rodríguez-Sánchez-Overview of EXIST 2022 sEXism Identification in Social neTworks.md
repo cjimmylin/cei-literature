@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "The paper describes the organization, goals, and results of the sEXism Identiﬁcation in Social neTworks (EXIST) challenge, a shared task proposed for the ﬁrst time at IberLEF 2021. EXIST 2021 proposes two challenges: sexism identiﬁcation and sexism categorization of tweets and gabs, both in Spanish and English. We have received a total of 70 runs for the sexism identiﬁcation task and 61 for the sexism categorization challenge, submitted by 31 diﬀerent teams from 11 countries."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Overview of EXIST 2022: sEXism Identification in Social neTworks
 

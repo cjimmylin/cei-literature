@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://github.com/RussianNLP/RussianSuperGLUE"
 tags: 
 abstract: "In this paper, we introduce an advanced Russian general language understanding evaluation benchmark – RussianGLUE. Recent advances in the ﬁeld of universal language models and transformers require the development of a methodology for their broad diagnostics and testing for general intellectual skills - detection of natural language inference, commonsense reasoning, ability to perform simple logical operations regardless of text subject or lexicon."
 research_topic: "Machine Learning"
+CONFERENCE: "EMNLP 2020"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2020"
 ---
 # RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark
 

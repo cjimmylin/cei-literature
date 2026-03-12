@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ abstract: "With the rapid advancement of artificial intelligence, Large Language
 LLM_assessed: "BERT, ChatGPT, DeBERTa, GPT-3, GPT-3.5, GPT-4, Gemma2, Llama, Llama Guard, Llama-2, Llama2, Llama3, Mistral 7b, Mistral among, Mistral- 7b, Mistral-7B, Qwen technical, Qwen-14B, RoBERTa, Vicuna, gemma"
 DATA_URL: "https://github.com/meta-llama/PurpleLlama"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs
 

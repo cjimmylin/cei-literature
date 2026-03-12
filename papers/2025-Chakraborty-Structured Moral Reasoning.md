@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +47,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Moral-Reasoning, Value-Systems, LLM-Evaluation, Prompting, Knowledge-Transfer"
 key_contribution: "Shows structured prompting with explicit moral frameworks improves LLM accuracy; smaller models learn moral reasoning via knowledge transfer"
 significance: "Practical methodology for improving LLM moral reasoning through value-grounded prompting"
@@ -41,6 +60,7 @@ pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Structured Moral Reasoning.md"
 local_pdf: "[[PDFs/2025/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260213
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Structured Moral Reasoning in Language Models: A Value-Grounded Evaluation Framework
 

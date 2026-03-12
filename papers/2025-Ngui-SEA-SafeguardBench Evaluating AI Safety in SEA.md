@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Safeguard models help large language models (LLMs) detect and block harmful content, but most evaluations remain English-centric and overlook linguistic and cultural diversity. Existing multilingual safety benchmarks often rely on machine-translated English data, which fails to capture nuances in low-resource languages. Southeast Asian (SEA) languages are underrepresented despite the region's linguistic diversity and unique safety concerns, from culturally sensitive political speech to..."
 LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-2, Gemma-3, Gemma3, LLaMA-3.1, LLaMA-3.3, Llama, Llama-3.2, LlamaGuard, Qwen 494M"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "21,640 samples"
-CONFERENCE: "Other Conference"
 ---
 # SEA-SafeguardBench: Evaluating AI Safety in SEA Languages and Cultures
 

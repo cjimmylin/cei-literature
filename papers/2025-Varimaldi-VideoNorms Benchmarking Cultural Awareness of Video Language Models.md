@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "As Video Large Language Models (VideoLLMs) are deployed globally, they require understanding of and grounding in the relevant cultural background. To properly assess these models’ cultural awareness, adequate benchmarks are needed. We introduce VIDEONORMS, a benchmark of over 1000 (video clip, norm) pairs from US and Chinese cultures annotated with socio-cultural norms grounded in speech act theory, norm adherence and violations labels, and verbal and non-verbal evidence."
 LLM_assessed: "Gemini, Qwen"
 DATA_URL: "https://github.com/nikhilreddy3/VideoNorms"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # VideoNorms: Benchmarking Cultural Awareness of Video Language Models
 

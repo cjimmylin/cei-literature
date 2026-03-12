@@ -12,6 +12,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ tags:
 abstract: "This position paper concerns the use of religious texts in Natural Language Processing (NLP), which is of special interest to the Ethics of NLP. Religious texts are expressions of culturally important values, and machine learned models have a propensity to reproduce cultural values encoded in their training data. Furthermore, translations of religious texts are frequently used by NLP researchers when language data is scarce."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "NAACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2024"
 ---
 # Modeling the Sacred: Considerations when Using Religious Texts in Natural Language Processing
 

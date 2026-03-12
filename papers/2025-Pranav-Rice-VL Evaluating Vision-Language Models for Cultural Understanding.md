@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Claude, Claude-3, Claude-3-Opus, GPT-4, GPT-4o, LLaMA 3.2, Qwen, 
 DATA_URL: "NA"
 tags: 
 abstract: "Vision-Language Models (VLMs) excel in multimodal tasks but often exhibit Westerncentric biases, limiting their effectiveness in culturally diverse regions like Southeast Asia (SEA). To address this, we introduce RICE-VL, a novel benchmark evaluating VLM cultural understanding across 11 ASEAN countries. RICE-VL includes over 28,000 human-curated Visual Question Answering (VQA) samples—covering True/False, Fill-inthe-Blank, and open-ended formats—and 1,000 image-bounding box pairs for Visual..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Rice-VL: Evaluating Vision-Language Models for Cultural Understanding Across ASEAN Countries
 

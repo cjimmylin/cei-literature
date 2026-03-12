@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,7 @@ paper_summary: "Abstract: We present an ethical decision-making framework that r
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Mistral, Llama-3"
 DATA_URL: "https://github.com/xxxxx/moral"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
  Addressing Moral Uncertainty using Large Language Models for Ethical Decision-Making
 

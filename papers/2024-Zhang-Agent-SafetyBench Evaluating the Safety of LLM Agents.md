@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "As large language models (LLMs) are increasingly deployed as agents, their integration into interactive environments and tool use introduce new safety challenges beyond those associated with the models themselves. However, the absence of comprehensive benchmarks for evaluating agent safety presents a significant barrier to effective assessment and further improvement. In this paper, we introduce AGENTSAFETYBENCH, a comprehensive benchmark designed to evaluate the safety of LLM agents."
 LLM_assessed: "Claude, GPT-4, Gemini, Qwen, Llama-3, DeepSeek"
 DATA_URL: "https://github.com/thu-coai/Agent-SafetyBench/"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "2,000 test cases; 8 categories"
-CONFERENCE: "Preprint"
 ---
 # Agent-SafetyBench: Evaluating the Safety of LLM Agents
 

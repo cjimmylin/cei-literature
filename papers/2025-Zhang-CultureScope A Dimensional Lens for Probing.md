@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ abstract: "As large language models (LLMs) are increasingly deployed in diverse 
 LLM_assessed: "ChatGPT, DeepSeek-V3, Deepseek-R1, GPT-4o, Qwen-3, Qwen2.5, Qwen3, qwen-13b, qwen-7b"
 DATA_URL: "https://github.com/HoganZinger/Culture"
 research_topic: "Social & Cultural Analysis"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # CultureScope: A Dimensional Lens for Probing Cultural Understanding in LLMs
 

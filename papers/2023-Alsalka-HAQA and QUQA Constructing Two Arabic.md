@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ tags:
 abstract: "It is neither possible nor fair to compare the performance of question-answering systems for the Holy Quran and Hadith Sharif in Arabic due to both the absence of a golden test dataset on the Hadith Sharif and the small size and easy questions of the newly created golden test dataset on the Holy Quran. This article presents two question–answer datasets: Hadith Question-Answer pairs (HAQA) and Quran Question–Answer pairs (QUQA)."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "ACL 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2023"
 ---
 # HAQA and QUQA: Constructing Two Arabic Question-Answering Corpora for the Quran and Hadith
 

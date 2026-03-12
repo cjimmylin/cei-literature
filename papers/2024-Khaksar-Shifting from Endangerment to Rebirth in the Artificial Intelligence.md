@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://github.com/KurdishBLARK/HawramiClassification"
 tags: 
 abstract: "Dataset of 6,854 Hawrami articles labeled into 15 categories. Linear SVM achieves 96% accuracy. First text classification resource for endangered Hawrami dialect of Kurdish."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "15 categories"
-CONFERENCE: "Preprint"
 ---
 # Shifting from Endangerment to Rebirth in the Artificial Intelligence Age: An Ensemble Machine Learning Approach for Hawrami Text Classification
 

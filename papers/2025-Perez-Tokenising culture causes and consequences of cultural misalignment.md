@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, here's what I found about the Anthropic LLM global opinions dataset related to the World Values Survey: Overview Anthropic uses the LLM Global Opinions dataset to analyze the opinions that large language models reflect on complex global issues, with the goal of gaining insights into potential biases in AI systems by evaluating their performance on subjective topics. Research Framework Large language models may not equitably represent diverse global perspecti"
 research_topic: "Social & Cultural Analysis"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Tokenising culture: causes and consequences of cultural misalignment in large language models | Ada Lovelace Institute
 

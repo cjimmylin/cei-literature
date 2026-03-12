@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "This technical report introduces JAI-1, a Thai-centric language model with 75B parameters. Recent Thai models have primarily relied on existing open-source models, applying additional training without structural modifications to specialize in Thai. However, this approach risks eroding pre-existing knowledge in the model’s parameter space during the injection of Thai-specific information, as optimized parameters for general tasks may conflict with new linguistic requirements."
 ethics_perspective: "AI Safety & Alignment"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # JAI-1: A Thai-Centric Large Language Model
 

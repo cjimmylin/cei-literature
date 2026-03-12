@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,7 +42,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Trolley / Dilemmas (Psych), Dual Process Theory"
 newtags: "Deontology, Consequentialism, Moral-Reasoning, LLM-Evaluation, Trolley-Problem"
 key_contribution: "Introduces taxonomy of moral rationales; finds LLM chains-of-thought favor deontological principles while post-hoc explanations shift to consequentialism"
 significance: "Reveals systematic differences in how LLMs reason vs explain moral decisions, important for interpretability"
@@ -40,6 +55,7 @@ DATA_URL: "https://github.com/keenansamway/moral-lens"
 pdf_extract: "PDF Extracts/2025/2025-Samway-Are Language Models Consequentialist or Deontological.md"
 local_pdf: "[[PDFs/2025/2025-Samway-Are Language Models Consequentialist or Deontological.pdf]]"
 normative_ethics_benchmark: Yes
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # Are Language Models Consequentialist or Deontological Moral Reasoners?
 

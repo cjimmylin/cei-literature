@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "As LLMs excel on standard reading comprehension benchmarks, attention is shifting toward evaluating their capacity for complex abstract reasoning and inference. Literaturebased benchmarks, with their rich narrative and moral depth, provide a compelling framework for evaluating such deeper comprehension skills. Here, we present MORABLES, a humanverified benchmark built from fables and short stories drawn from historical literature."
 LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Mistral, Mixtral, Qwen, DeepSeek, o3"
 DATA_URL: "https://huggingface.co/datasets/cardiffnlp/Morables"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # MORABLES: A Benchmark for Assessing Abstract Moral Reasoning in LLMs with Fables
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Evaluates cultural sensitivity of LLMs in English-Japanese workplace email translation. Tests naive, audience-targeted, and instructional prompts. Assesses keigo (honorifics), politeness forms, and formality. Native Japanese speakers rate appropriateness. Culturally-tailored prompting improves cultural fit. NOTE: Paper was withdrawn by first author Dec 2025."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Designing LLMs for Cultural Sensitivity: Evidence from English-Japanese Translation
 

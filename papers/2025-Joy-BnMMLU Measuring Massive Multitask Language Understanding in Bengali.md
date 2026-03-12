@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, DeepSeek, DEEPSEEK-V3, GPT-3, GROK 4, Gemma, Llama, LLAM
 DATA_URL: "https://github.com/JaidedAI/EasyOCR"
 tags: 
 abstract: "Large-scale multitask benchmarks have driven rapid progress in language modeling, yet most emphasize high-resource languages such as English, leaving Bengali underrepresented. We present BnMMLU, a comprehensive benchmark for measuring massive multitask language understanding in Bengali. BnMMLU spans 41 domains across STEM, humanities, social sciences, and general knowledge, and contains 134,375 multiple-choice question–option pairs-the most extensive Bengali evaluation suite to date."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "138,949 question"
-CONFERENCE: "Preprint"
 ---
 # BnMMLU: Measuring Massive Multitask Language Understanding in Bengali
 

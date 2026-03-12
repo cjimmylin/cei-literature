@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Large language models (LLMs) have showcased remarkable capabilities in understanding and generating language. However, their ability in comprehending ancient languages, particularly ancient Chinese, remains largely unexplored. To bridge this gap, we present ACLUE, an evaluation benchmark designed to assess the capability of language models in comprehending ancient Chinese. ACLUE consists of 15 tasks cover a range of skills, spanning phonetic, lexical, syntactic, semantic, inference and knowledge."
 LLM_assessed: "BLOOM, BLOOMZ, Baichuan, Baichuan-7B, ChatGLM, ChatGLM-6B, ChatGLM2, ChatGPT, Falcon-40B, Llama, LLaMA 36.4, T5"
 DATA_URL: "https://github.com/isen-zhang/ACLUE ; https://huggingface.co/datasets/tyouisen/aclue"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "5 categories"
-CONFERENCE: "Other Conference"
 ---
 # ACLUE: Can Large Language Model Comprehend Ancient Chinese? A Preliminary Test
 

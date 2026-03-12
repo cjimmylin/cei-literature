@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "Social Science Research Network"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Claude, OPT, Flan-T5, Llama-2, Falcon, BLOOM"
 DATA_URL: "https://github.com/HazyResearch/legalbench/"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models
 

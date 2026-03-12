@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Culturally aware safeguards are crucial for AI alignment in real-world settings, where safety extends beyond common sense and encompasses diverse local values, norms, and regionspecific regulations. However, building largescale, culturally grounded datasets is challenging due to limited resources and a scarcity of native annotators. Consequently, many safeguard models rely on machine translation of English datasets, often missing regional and cultural nuances."
 LLM_assessed: "Gemma, Gemma2, Gemma3, Llama, Llama-3, Llama3, LlamaGuard, Qwen, Qwen-SEA, Qwen3, Qwen3Guard"
 DATA_URL: "https://huggingface.co/aisingapore/Qwen-SEA-Guard-8B-2602"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # SEA-Guard: Culturally Grounded Multilingual Safeguard for Southeast Asia
 

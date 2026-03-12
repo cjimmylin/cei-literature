@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,13 +51,14 @@ cultures_nationalities_list: "Indian"
 languages_list: "Sanskrit"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This paper examines semantic similarity and intertextuality in selected texts from the Vedic Sanskrit corpus, specifically the Maitr¯ayan.¯ı Sam. hit¯a (MS) and K¯at.haka Sam. hit¯a (KS). Three computational methods are employed: Word2Vec for word embeddings, stylo package for stylometric analysis, and TRACER for text reuse detection. By comparing various sections of the texts at different granularities, patterns of similarity and structural alignment are uncovered, providing insights into..."
 LLM_assessed: "BERT, Word2Vec"
 DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Exploring Similarity Measures and Intertextuality in Vedic Sanskrit Literature
 

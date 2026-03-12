@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "> Comprehensive structured JSON collection of major Hindu sacred texts ready for ML/LLM analysis. Covers Vedas, epics, and Gita. Open Database License. Suitable as training or evaluation corpus for Hindu knowledge QA."
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/bhavykhatri/DharmicData"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # DharmicData: Comprehensive Open-Source Collection of Hindu Sacred Texts
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "This paper introduces Alympics (Olympics for Agents), a systematic simulation framework utilizing Large Language Model (LLM) agents for game theory research. Alympics creates a versatile platform for studying complex game theory problems, bridging the gap between theoretical game theory and empirical investigations by providing a controlled environment for simulating human-like strategic interactions with LLM agents."
 LLM_assessed: GPT-4
 DATA_URL: "https://github.com/microsoft/Alympics"
+CONFERENCE: "COLING 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "COLING 2025"
 ---
 # ALYMPICS: LLM Agents Meet Game Theory
 

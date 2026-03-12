@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,9 @@ tags:
 abstract: "It is well documented that NLP models learn social biases, but little work has been done on how these biases manifest in model outputs for applied tasks like question answering (QA). We introduce the Bias Benchmark for QA (BBQ), a dataset of question sets constructed by the authors that highlight attested social biases against people belonging to protected classes along nine social dimensions relevant for U.S. English-speaking contexts."
 LLM_assessed: "T5, RoBERTa, DeBERTa"
 DATA_URL: "https://github.com/nyu-mll/BBQ"
+CONFERENCE: "ACL 2022"
+eleutherai: incorporated
+helm: "incorporated"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2022"
 ---
 # BBQ (Bias Benchmark for Question Answering)
 

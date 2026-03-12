@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "We present MultiLoKo, a new benchmark for evaluating multilinguality in LLMs covering 31 languages. MultiLoKo consists of three partitions: a main partition consisting of 500 questions per language, separately sourced to be locally relevant to the specific language, and two translated partitions, containing human-authored translations from 30 non-English languages to English and vice versa. For comparison, we also release corresponding machine-authored translations."
 LLM_assessed: "Claude 3.5 Sonnet, Claude Sonnet, Claude., GPT4, GPT-4o, Llama 3.1, Mixtral 8x22B, Qwen, Qwen 2.5, Qwen2.5, llama 3, mistral.ai, mixtral-8x22b"
 DATA_URL: "https://github.com/facebookresearch/multiloko"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "500 questions"
-CONFERENCE: "Preprint"
 ---
 # MultiLoKo: A Multilingual Local Knowledge Benchmark for LLMs Spanning 31 Languages
 

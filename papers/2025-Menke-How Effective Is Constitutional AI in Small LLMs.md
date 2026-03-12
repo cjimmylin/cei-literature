@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,7 @@ paper_summary: "Abstract: Recent incidents highlight safety risks in Large Langu
 DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, Gemma, Llama-3, Qwen"
 DATA_URL: "https://zenodo.org/records/12608602"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "90 prompts"
-CONFERENCE: "Other Conference"
 ---
  How Effective Is Constitutional AI in Small LLMs? A Study on DeepSeek-R1 and Its Peers
 

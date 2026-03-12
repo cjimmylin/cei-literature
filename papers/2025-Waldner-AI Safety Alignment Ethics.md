@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_WALDNER2025
@@ -25,7 +44,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Safety, Moral Representation Learning, Cooperative AI"
 key_contribution: "Proposes framework connecting moral representation learning with system design using evolutionary lens; treats virtue ethics as character formation vs outcome optimization"
 significance: "Comprehensive framework viewing moral norms through evolutionary lens with neural network encoding techniques"
@@ -35,6 +54,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Open Opportunities in AI Safety, Alignment, and Ethics (AI SAE)
 

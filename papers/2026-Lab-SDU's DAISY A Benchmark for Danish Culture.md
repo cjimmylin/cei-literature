@@ -5,6 +5,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,12 +47,13 @@ cultures_nationalities_list: "Danish"
 languages_list: Danish
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "GPT-OSS, Mistral-Small, Llama-3.3, Gemma-3"
 DATA_URL: "https://github.com/schneiderkamplab/SDU-Daisy"
 tags: 
 abstract: "We introduce a new benchmark for Danish culture via cultural heritage, Daisy, based on the curated topics from the Danish Culture Canon 2006. For each artifact in the culture canon, we query the corresponding Wikipedia page and have a language model generate random questions. This yields a sampling strategy within each work, with a mix of central of peripheral questions for each work, not only knowledge of mainstream information, but also in-depth cornerstones defining the heritage of Danish..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # SDU's DAISY: A Benchmark for Danish Culture
 

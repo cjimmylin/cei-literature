@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Qwen"
 DATA_URL: "https://github.com/wyqmath/MUDT"
 tags: 
 abstract: "Developing effective educational technologies for low-resource agglutinative languages like Uyghur is often hindered by the mismatch between existing annotation frameworks and specific grammatical structures. To address this challenge, this study introduces the Modern Uyghur Dependency Treebank (MUDT), a linguistically grounded annotation framework specifically designed to capture the agglutinative complexity of Uyghur, including zero copula constructions and fine-grained case marking."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # MUDT: A Dependency Annotation Framework for Low-Resource Uyghur
 

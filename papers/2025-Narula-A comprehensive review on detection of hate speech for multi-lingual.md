@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, GPT-3, GloVe, RoBERTa, Word2Vec, XLNet, distilBERT"
 DATA_URL: "NA"
 tags: 
 abstract: "The paper addresses the critical challenge of detecting and mitigating hate speech in Hindi across social media platforms, utilizing natural language processing (NLP) techniques. It underscores the complexities associated with the Hindi language, including the prevalence of code-switching, the existence of various dialects, and the inconsistent use of Romanized Hindi. These linguistic factors present significant challenges for developing automated systems capable of reliably identifying hate..."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # A comprehensive review on detection of hate speech for multi-lingual data | Social Network Analysis and Mining
 

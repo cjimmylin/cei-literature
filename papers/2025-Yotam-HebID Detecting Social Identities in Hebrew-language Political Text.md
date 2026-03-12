@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "DictaLM2.0, AlephBERT, mBERT"
 DATA_URL: "https://github.com/guymorlan/hebid/"
 tags: 
 abstract: "Political language is deeply intertwined with social identities. While social identities are often shaped by specific cultural contexts, existing NLP datasets are predominantly Englishcentric and focus on coarse-grained identity categories. We introduce HEBID, the first multilabel Hebrew corpus for social identity detection. The corpus contains 5,536 sentences from Israeli politicians’ Facebook posts (Dec 2018– Apr 2021), with each sentence manually annotated for twelve nuanced social..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # HebID: Detecting Social Identities in Hebrew-language Political Text
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +59,7 @@ local_pdf: "[[PDFs/2024/2024-Hua-TrustAgent.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Mixtral"
 DATA_URL: "https://github.com/agiresearch/TrustAgent"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # TrustAgent: Towards Safe and Trustworthy LLM-based Agents
 

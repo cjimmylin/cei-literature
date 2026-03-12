@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Validated methodology to quantify gender bias in Spanish LLM-generated text. Creates gendered seed-word lists and a Spanish-specific corpus using curated prompts. Finds male:female gender disparity ranging 4:1 to 6:1 in benchmark datasets."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Leading and Non-Leading Prompts: Quantifying Gender Bias in Large Language Models through BiasBloom Corpus
 

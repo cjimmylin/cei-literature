@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-3.5, GPT-4, Gemini, HyperCLOVA X"
 DATA_URL: "https://github.com/DojunPark/pragmatic_eval_korean"
 tags: 
 abstract: "Benchmarks play a significant role in the current evaluation of Large Language Models (LLMs), yet they often overlook the models’ abilities to capture the nuances of human language, primarily focusing on evaluating embedded knowledge and technical skills. To address this gap, our study evaluates how well LLMs understand context-dependent expressions from a pragmatic standpoint, specifically in Korean."
+CONFERENCE: "ACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Pragmatic Competence Evaluation of Large Language Models for the Korean Language
 

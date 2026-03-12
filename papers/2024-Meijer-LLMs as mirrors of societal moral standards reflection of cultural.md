@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-2, OPT, BLOOM"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) have become increasingly pivotal in various domains due the recent advancements in their performance capabilities. However, concerns persist regarding biases in LLMs, including gender, racial, and cultural biases derived from their training data. These biases raise critical questions about the ethical deployment and societal impact of LLMs. Acknowledging these concerns, this study investigates whether LLMs accurately reflect cross-cultural variations and..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # LLMs as mirrors of societal moral standards: reflection of cultural divergence and agreement across ethical topics
 

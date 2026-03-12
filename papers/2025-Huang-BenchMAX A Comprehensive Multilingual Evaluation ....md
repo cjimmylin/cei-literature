@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ALBERT, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT-4, G
 DATA_URL: "https://github.com/CONE-MT/BenchMAX.git"
 tags: 
 abstract: "Previous multilingual benchmarks focus primarily on simple understanding tasks, but for large language models (LLMs), we emphasize proficiency in instruction following, reasoning, long context understanding, code generation, and so on. However, measuring these advanced capabilities across languages is underexplored. To address the disparity, we introduce BenchMAX, a multi-way multilingual evaluation benchmark that allows for fair comparisons of these important abilities across languages."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # BenchMAX: A Comprehensive Multilingual Evaluation ...
 

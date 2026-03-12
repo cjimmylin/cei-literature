@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Generative AI systems produce a range of ethical and social risks. Evaluation of these risks is a critical step on the path to ensuring the safety of these systems. However, evaluation requires the availability of validated and established measurement approaches and tools. In this paper, we provide an empirical review of the methods and tools that are available for evaluating known safety of generative AI systems to date."
 LLM_assessed: "BLOOM, ChatGPT, Claude, GPT-3, GPT-4, Vicuna"
 DATA_URL: "https://dpmd.ai/EvalsRepo"
+CONFERENCE: "AIES 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "AIES 2024"
 ---
 # Gaps in the Safety Evaluation of Generative AI
 

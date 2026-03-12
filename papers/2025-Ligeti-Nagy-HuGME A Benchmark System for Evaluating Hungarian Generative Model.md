@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://hugme.nytud.hu/"
 tags: 
 abstract: "First benchmark system dedicated to testing Hungarian LLMs covering linguistic proficiency, cultural & contextual understanding, and ethical considerations including bias and toxicity. Uses LLM-as-a-judge with six manually curated datasets. Presented at GEM Workshop at ACL 2025."
 research_topic: "Machine Learning"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # HuGME: A Benchmark System for Evaluating Hungarian Generative Model Evaluation
 

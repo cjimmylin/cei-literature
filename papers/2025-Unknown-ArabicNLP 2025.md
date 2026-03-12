@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, I found information about the \"Mind the Dialect\" paper presented at EMNLP 2025: Paper Overview The paper \"Mind the Dialect: NLP Advancements Uncover Fairness Disparities\" was published in the Findings of the Association for Computational Linguistics: EMNLP 2025, November 4-9, 2025. Key Findings The research focuses on fairness disparities in NLP systems when processing Arabic language variants."
 research_topic: "Other"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # ArabicNLP 2025
 

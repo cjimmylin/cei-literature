@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, here's what I found about the ADHAR multi-dialectal Arabic hate speech corpus: Overview ADHAR is a comprehensive multi-dialect, multi-category hate speech corpus for Arabic. The paper was published in Frontiers in Artificial Intelligence in May 2024."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # A Deep Learning Framework for Automatic Detection of Hate Speech Embedded in Arabic Tweets | Request PDF
 

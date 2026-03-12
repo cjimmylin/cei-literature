@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,7 +42,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed 'Value Compass', a dynamic benchmarking platform using generative testing to assess LLMs on 27 value dimensions (expanded from Schwartz)."
 significance: "Addresses 'benchmark saturation' by generating new test items on the fly ('Generative Evolving Testing'), ensuring models can't just memorize fixed safety questions."
@@ -39,6 +54,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, GPT-3.5, o3, DeepSeek, Gemini, Claude, Llama-2, Llama-3"
 DATA_URL: "https://valuecompass.github.io/#/leaderboard"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Value Compass Benchmarks: A Platform for Fundamental and Validated Evaluation of LLMs Values
 

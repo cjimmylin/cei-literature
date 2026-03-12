@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Hate speech and abusive language are global phenomena that need socio-cultural background knowledge to be understood, identified, and moderated. However, in many regions of the Global South, there have been several documented occurrences of (1) absence of moderation and (2) censorship due to the reliance on keyword spotting out of context. Further, highprofile individuals have frequently been at the center of the moderation process, while large and targeted hate speech campaigns against..."
 LLM_assessed: "BERT, GPT-4o, Gemma, Gemma 2, LLaMa 3.1, T5-style, llama 3"
 DATA_URL: "https://huggingface.co/papers/2501.08284"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # AfriHate: A Multilingual Collection of Hate Speech and Abusive Language Datasets for African Languages
 

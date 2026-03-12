@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4o-mini"
 DATA_URL: "NA"
 tags: 
 abstract: "The increasing use of Large Language Models (LLMs) in a large variety of domains has sparked worries about how easily they can perpetuate stereotypes and contribute to the generation of biased content. With a focus on gender and professional bias, this work examines in which manner LLMs shape responses to ungendered prompts, contributing to biased outputs. This analysis uses a structured experimental method, giving different prompts involving three different professional job combinations, which..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # An Empirical Investigation of Gender Stereotype Representation in Large Language Models: The Italian Case
 

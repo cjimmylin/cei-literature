@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Vicuna-1.5, Llama-3, Qwen"
 DATA_URL: "https://github.com/yongcaoplus/SimLLMCultureDist"
 tags: 
 abstract: "First work to specialize LLMs for simulating survey response distributions using country-level results from two global cultural surveys (WVS) as testbed. Fine-tuning method based on first-token probabilities to minimize divergence. Best models still struggle, especially on unseen questions."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "Recent advances in large language models (LLMs) have led to strong re
 LLM_assessed: "Barth, ChatGPT, DeepSeek, DeepSeek-AI, DeepSeek-R1, Falcon-h1, Gemma, Gemma-3, Gemma2, LLaMA-3.1, LLaMA-3.2, Llama, Mistral-7B, Mistral-NeMo, Phi-4, Phi-4-Mini, Qwen, Qwen R1, Qwen 3, Qwen-1.5B, Qwen-14B, Qwen-3, Qwen-7B, Qwen2.5"
 DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # UrduBench: An Urdu Reasoning Benchmark using Contextually Ensembled Translations with Human-in-the-Loop
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the web search results, here's what I found regarding Arabic NLP dataset bias and fairness evaluation in 2025: Key Research Areas Data Feminism and Bias Assessment: Most papers do not sufficiently address social bias, scoring near a 1 on average in five-point scales, according to recent research applying data feminism principles to English and Arabic NLP. Researchers created a prototype interactive form to address common issues in reporting bias in NLP datasets, which suggests"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency
 

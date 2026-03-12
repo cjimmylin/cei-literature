@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://github.com/wangxiaonan-git/KULTUREBench"
 tags: 
 abstract: "Large language models (LLMs) have exhibited significant enhancements in performance across various tasks. However, the complexity of their evaluation increases as these models generate more fluent and coherent content. Current multilingual benchmarks often use translated English versions, which may incorporate Western cultural biases that do not accurately assess other languages and cultures. To address this research gap, we introduce KULTURE Bench, an evaluation framework specifically designed..."
 research_topic: "Social & Cultural Analysis"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # KULTURE Bench: A Benchmark for Assessing Language Model in Korean Cultural Context
 

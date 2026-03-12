@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "While recent developments in large language models have improved bias detection and classification, sensitive subjects like religion still present challenges because even minor errors can result in severe misunderstandings. In particular, multilingual models often misrepresent religions and have difficulties being accurate in religious contexts. To address this, we introduce BRAND: Bilingual Religious Accountable Norm Dataset, which focuses on the four main religions of South Asia: Buddhism,..."
 LLM_assessed: "Mistral, Llama-3, Gemini, Gemma, Qwen"
 DATA_URL: "https://anonymous.4open.science/r/BRAND/README.md"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # BRAND: Bilingual Religious Accountable Norm Dataset
 

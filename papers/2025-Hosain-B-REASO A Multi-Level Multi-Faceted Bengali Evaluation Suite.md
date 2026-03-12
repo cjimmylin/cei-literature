@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Claude, Claude-3.5, Claude-3.5-Sonnet, DeepSeek-v3, GPT-4, GPT-4o
 DATA_URL: "https://github.com/kraritt/b-reaso"
 tags: 
 abstract: "The fast growth of large language models (LLMs) necessitates the urgent need for new NLP benchmarks. We provide B-REASO, the first inclusive Bengali assessment suite created to evaluate advanced foundation model knowledge and reasoning skills in a Bengali language setup. The B-REASO includes multiplechoice questions with four different degrees of diﬀiculty: professional, college, high school, and middle school."
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # B-REASO: A Multi-Level Multi-Faceted Bengali Evaluation Suite
 

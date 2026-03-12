@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://github.com/huggingface/transformers"
 tags: 
 abstract: "In this paper we present PeLLE, a family of large language models based on the RoBERTa architecture, for Brazilian Portuguese, trained on curated, open data from the Carolina corpus. Aiming at reproducible results, we describe details of the pretraining of the models. We also evaluate PeLLE models against a set of existing multilingual and PT-BR refined pretrained Transformer-based LLM encoders, contrasting performance of large versus smaller-but-curated pretrained models in several downstream..."
 research_topic: "Machine Translation"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # PeLLE: Encoder-based Language Models for Brazilian Portuguese Based on Open Data
 

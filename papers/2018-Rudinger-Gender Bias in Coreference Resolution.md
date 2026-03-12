@@ -1,0 +1,80 @@
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Human View:
+Human View Date:
+Human View note:
+Not AI:
+key: "ELEUTHERAI_02"
+type: preprint
+short_title: "Gender Bias in Coreference Resolution"
+year: 2018
+first_author: "[[Rachel Rudinger]]"
+last_author: "[[Benjamin Van Durme]]"
+authors: "Rachel Rudinger; Jason Naradowsky; Brian Leonard; Benjamin Van Durme"
+doi: ""
+url: "https://arxiv.org/abs/1804.09301"
+external_pdf: "https://arxiv.org/pdf/1804.09301"
+national_ethnic_cultural: ""
+cultures_nationalities_list: ""
+languages_list: "English"
+religious_values: ""
+religious_values_list: ""
+moral_psychology: "N/A"
+newtags: ""
+tags:
+pdf_extract: "PDF Extracts/2018/2018-Rudinger-Gender Bias in Coreference Resolution.md"
+local_pdf: "[[PDFs/2018/2018-Rudinger-Gender Bias in Coreference Resolution.pdf]]"
+abstract: "We present an empirical study of gender bias in coreference resolution systems. We first introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these \"Winogender schemas,\" we evaluate and confirm systematic gender bias in three publicly-available coreference resolution systems, and correlate this bias with real-world and textual gender statistics."
+CONF-CC: ""
+DATE_ADDED: 20260312
+LLM_assessed: ""
+DATA_URL: ""
+eleutherai: incorporated
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
+---
+
+# Gender Bias in Coreference Resolution
+
+## Metadata
+- **Authors:** Rachel Rudinger, Jason Naradowsky, Brian Leonard, Benjamin Van Durme
+- **Year:** 2018
+- **Venue:** NAACL-HLT 2018
+- **arXiv:** [1804.09301](https://arxiv.org/abs/1804.09301)
+- **Categories:** cs.CL
+
+## Links
+- **PDF:** [arXiv PDF](https://arxiv.org/pdf/1804.09301)
+- **Local PDF:** [[PDFs/2018/2018-Rudinger-Gender Bias in Coreference Resolution.pdf]]
+- **PDF Extract:** [[PDF Extracts/2018/2018-Rudinger-Gender Bias in Coreference Resolution.md]]
+
+## Abstract
+We present an empirical study of gender bias in coreference resolution systems. We first introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these "Winogender schemas," we evaluate and confirm systematic gender bias in three publicly-available coreference resolution systems, and correlate this bias with real-world and textual gender statistics.

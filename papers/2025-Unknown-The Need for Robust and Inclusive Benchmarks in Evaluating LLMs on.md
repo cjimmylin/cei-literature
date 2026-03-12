@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "The widespread success of large language models (LLMs) has prompted increasing interest in their evaluation across diverse linguistic settings, yet systematic assessments for Arabic remain underexplored. This survey presents a structured taxonomy of benchmarks specifically designed to evaluate LLMs on Arabic text. It critically reviews existing benchmarks, highlighting their coverage across multiple domains, including general single-task and multitask scenarios, knowledge and reasoning tasks,..."
 research_topic: "Other"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on Arabic Text
 

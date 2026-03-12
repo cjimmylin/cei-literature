@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "https://projects.cai.fbi.h-da.de/iggsa/"
 tags: 
 abstract: "We present the pilot edition of the GermEval Shared Task on the Identiﬁcation of Offensive Language. This shared task deals with the classiﬁcation of German tweets from Twitter. It comprises two tasks, a coarse-grained binary classiﬁcation task and a ﬁne-grained multi-class classiﬁcation task. The shared task had 20 participants submitting 51 runs for the coarse-grained task and 25 runs for the ﬁne-grained task."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # GermEval 2018 Shared Task on the Identification of Offensive Language
 

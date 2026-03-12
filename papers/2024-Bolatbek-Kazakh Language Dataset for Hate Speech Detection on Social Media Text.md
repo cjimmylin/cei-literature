@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe/"
 tags: 
 abstract: "Stemming and lemmatization are text preprocessing methods that aim to convert words into their root and to the canonical or dictionary form. Some previous studies state that using stemming and lemmatization worsens the performance of text classification models. However, some other studies report the positive impact of using stemming and lemmatization in supporting the performance of text classification models."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Kazakh Language Dataset for Hate Speech Detection on Social Media Text
 

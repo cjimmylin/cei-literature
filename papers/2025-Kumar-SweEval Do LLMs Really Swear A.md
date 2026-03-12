@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Enterprise customers are increasingly adopting Large Language Models (LLMs) for critical communication tasks, such as drafting emails, crafting sales pitches, and composing casual messages. Deploying such models across different regions requires them to understand diverse cultural and linguistic contexts and generate safe and respectful responses. For enterprise applications, it is crucial to mitigate reputational risks, maintain trust, and ensure compliance by effectively identifying and..."
 LLM_assessed: "ChatGPT, Llama, Llama-3, Llama-3.1, Mistral, Mistral-7b, Mixtral-8x7b, Phi-3, Qwen, Qwen2.5"
 DATA_URL: "https://huggingface.co/datasets/ariondas/SweEval-Bench"
+CONFERENCE: "NAACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "8 languages"
-CONFERENCE: "NAACL 2025"
 ---
 # SweEval: Do LLMs Really Swear? A Safety Benchmark for Testing Limits for Enterprise Use
 

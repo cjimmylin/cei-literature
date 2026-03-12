@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2024/2024-Lee-KorNAT.pdf]]"
 publication: arXiv / ACL Anthology
 CONF-CC: "N/A"
 DATE_ADDED: 20260215
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # KorNAT: LLM Alignment Benchmark for Korean Social Values and Common Knowledge
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, o3, Claude, Qwen, Llama-3, Gemma, DeepSeek"
 DATA_URL: "https://github.com/JiseungHong/SYCON-Bench"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # SYCON Bench: A Sycophancy Benchmark for Multi-Turn Dialogue
 

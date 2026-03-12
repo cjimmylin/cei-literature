@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2024/2024-Rahman-DefAn.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Llama-2, Llama-3, Gemini, Mixtral"
 DATA_URL: "https://github.com/ashikiut/DefAn"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "75,000 prompts"
-CONFERENCE: "Other Conference"
 ---
 # DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://github.com/vlarine/ruGPT2"
 tags: 
 abstract: "Toxicity has become a grave problem for many online communities and has been growing across many languages, including Russian. Hate speech creates an environment of intimidation, discrimination, and may even incite some real-world violence. Both researchers and social platforms have been focused on developing models to detect toxicity in online communication for a while now. A common problem of these models is the presence of bias towards some words (e.g."
+CONFERENCE: "ACL 2020"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2020"
 ---
 # Reducing Unintended Identity Bias in Russian Hate Speech Detection
 

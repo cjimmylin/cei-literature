@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ local_pdf: "[[PDFs/2022/2022-Kim-SODA.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, ChatGPT, Llama, T5"
 DATA_URL: "https://hyunw.kim/sodaverse"
+CONFERENCE: "EMNLP 2022"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2022"
 ---
 # SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization
 

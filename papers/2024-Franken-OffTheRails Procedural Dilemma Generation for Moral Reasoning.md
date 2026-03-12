@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,13 +50,14 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Trolley / Dilemmas (Psych), Dual Process Theory"
 newtags: 
 tags: 
 abstract: "As AI systems like language models are increasingly integrated into decision-making processes affecting people’s lives, it’s critical to ensure that these systems have sound moral reasoning. To test whether they do, we need to develop systematic evaluations. We provide a framework that uses a language model to translate causal graphs that capture key aspects of moral dilemmas into prompt templates. With this framework, we procedurally generated a large and diverse set of moral dilemmas— the..."
 LLM_assessed: "GPT-4, Claude"
 DATA_URL: "https://github.com/cicl-stanford/moral-evals"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "50 scenarios"
-CONFERENCE: "Preprint"
 ---
 # OffTheRails: Procedural Dilemma Generation for Moral Reasoning
 

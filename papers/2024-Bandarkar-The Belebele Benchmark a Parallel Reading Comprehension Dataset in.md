@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, BLOOM, BLOOMZ, FALCON 40B, GPT3, GPT3.5, GPT3.5-TURBO, Llam
 DATA_URL: "https://github.com/openai/tiktoken"
 tags: 
 abstract: "We present BELEBELE, a multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants. Significantly expanding the language coverage of natural language understanding (NLU) benchmarks, this dataset enables the evaluation of text models in high-, medium-, and low-resource languages. Each question is based on a short passage from the FLORES-200 dataset and has four multiplechoice answers."
+CONFERENCE: "ACL 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "122 languages"
-CONFERENCE: "ACL 2024"
 ---
 # The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants
 

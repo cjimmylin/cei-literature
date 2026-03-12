@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Ancient Buddhist literature features frequent, yet often unannotated, textual parallels spread across diverse languages: Sanskrit, P¯ali, Buddhist Chinese, Tibetan, and more. The scale of this material makes manual examination prohibitive. We present the MITRA framework, which consists of a novel pipeline for multilingual parallel passage mining, MITRA-parallel, a large-scale corpus of 1.74 million parallel sentence pairs between Sanskrit, Chinese, and Tibetan, and the development of the..."
 LLM_assessed: "Gemma, Gemma 2, Gemma 3, Gemma-2, Gemma-3, Llama 3, Llama 3.1, Mistral, Mistral 7B, Qwen, Qwen2.5"
 DATA_URL: "Parallel dataset, model weights, and benchmark openly available (Hugging Face: buddhist-nlp)"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # MITRA: A Large-Scale Parallel Corpus and Multilingual Pretrained Language Model for Machine Translation and Semantic Retrieval for Pali, Sanskrit, Buddhist Chinese, and Tibetan
 

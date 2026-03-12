@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/avichr/heBERT_sentiment_analysis"
 tags: 
 abstract: "Sentiment analysis of user-generated content (UGC) can provide valuable information across numerous domains, including marketing, psychology, and public health. Currently, there are very few Hebrew models for natural language processing in general, and for sentiment analysis in particular; indeed, it is not straightforward to develop such models because Hebrew is a Morphologically Rich Language (MRL) with challenging characteristics."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # HeBERT & HebEMO: a Hebrew BERT Model and a Tool for Polarity Analysis and Emotion Recognition
 

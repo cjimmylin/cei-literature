@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, Glove"
 DATA_URL: "https://github.com/franciellevargas/HateBR"
 tags: 
 abstract: "This paper provides data resources for low-resource hate speech detection. Speciﬁcally, we introduce two different data resources: (i) the HateBR 2.0 corpus, which is composed of 7,000 comments extracted from Brazilian politicians’ accounts on Instagram and manually annotated a binary class (offensive versus non-offensive) and hate speech targets. It consists of an updated version of the HateBR corpus, in which highly similar and one-word comments were replaced; and (ii) the multilingual..."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Context-Aware and Expert Data Resources for Brazilian Portuguese Hate Speech Detection
 

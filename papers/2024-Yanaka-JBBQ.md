@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://github.com/ynklab/JBBQ_data"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # JBBQ: A Japanese Benchmark for Evaluating Bias and Fairness in Question Answering
 

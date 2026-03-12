@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ LLM_assessed: BERT
 DATA_URL: "https://github.com/krishnaik06/Trnasformer-"
 pdf_extract: "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md"
 local_pdf: "[[PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "0 dataset"
-CONFERENCE: "Journal"
 ---
 # Fine-tuning Large Language Model (BERT) for Islamic Moral Inquiry and Response
 

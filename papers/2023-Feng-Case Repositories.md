@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ local_pdf: "[[PDFs/2023/2023-Feng-Case Repositories.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "https://social.cs.washington.edu/case-law-ai-policy/"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Case Repositories: Towards Case-Based Reasoning for AI Alignment
 

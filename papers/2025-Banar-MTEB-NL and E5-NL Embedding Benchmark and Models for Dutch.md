@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Recently, embedding resources, including models, benchmarks, and datasets, have been widely released to support a variety of languages. However, the Dutch language remains underrepresented, typically comprising only a small fraction of the published multilingual resources. To address this gap and encourage the further development of Dutch embeddings, we introduce new resources for their evaluation and generation."
 authors_incomplete: false
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # MTEB-NL and E5-NL: Embedding Benchmark and Models for Dutch
 

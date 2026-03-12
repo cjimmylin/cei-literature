@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GloVe"
 DATA_URL: "https://github.com/OnlpLab/NEMO"
 tags: 
 abstract: "Named Entity Recognition (NER) is a fundamental NLP task, commonly formulated as classiﬁcation over a sequence of tokens. Morphologically-Rich Languages (MRLs) pose a challenge to this basic formulation, as the boundaries of Named Entities do not necessarily coincide with token boundaries, rather, they respect morphological boundaries. To address NER in MRLs we then need to answer two fundamental questions, namely, what are the basic units to be labeled, and how can these units be detected and..."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Neural Modeling for Named Entities and Morphology (NEMO2)
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "ALBERT, BERT, DeepSeek 67B, ELECTRA, GPT 3, GPT 3.5 Turbo, GPT-3,
 DATA_URL: "NA"
 tags: 
 abstract: "Social media platforms are critical spaces for public discourse, shaping opinions and community dynamics, yet their widespread use has amplified harmful content, particularly hate speech, threatening online safety and inclusivity. While hate speech detection has been extensively studied in languages like English and Spanish, Urdu remains underexplored, especially using translation-based approaches. To address this gap, we introduce a trilingual dataset of 10,193 tweets in English (3,834..."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset for hate speech detection"
 data_metrics: "17 languages"
-CONFERENCE: "Other Conference"
 ---
 # A Large Language Model-Based Approach for Multilingual Hate Speech Detection on Social Media
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/christinacdl/XLM_"
 tags: 
 abstract: "The perception of offensive language varies based on cultural, social, and individual perspectives. With the spread of social media, there has been an increase in offensive content online, necessitating advanced solutions for its identiﬁcation and moderation. This paper addresses the practical application of an offensive language taxonomy, speciﬁcally targeting Hebrew social media texts. By introducing a newly annotated dataset, modeled after the taxonomy of explicit offensive language of..."
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # From Linguistics to Practice: a Case Study of Offensive Language Taxonomy in Hebrew
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "NA"
 DATA_URL: "http://www.jonnesaleva.com/yi-lrec"
 tags: 
 abstract: "Yiddish is a low­resource language belonging to the Germanic language family and written using the Hebrew alphabet. As a language, Yiddish can be considered resource­poor as it lacks both public accessible corpora and a widely­used standard orthography, with various countries and organizations influencing the spellings speakers use. While existing corpora of Yiddish text do exist, they are often only written in a single, potentially non­standard orthography, with no parallel version with..."
+CONFERENCE: "ACL 2020"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2020"
 ---
 # A Multi-Orthography Parallel Corpus of Yiddish Nouns
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-3.5, Llama-2"
 DATA_URL: "https://github.com/cemuluoglakci/HypoTermQA"
 pdf_extract: "PDF Extracts/2024/2024-Uluoglakci-HypoTermQA.md"
 local_pdf: "[[PDFs/2024/2024-Uluoglakci-HypoTermQA.pdf]]"
+CONFERENCE: "EACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "EACL 2024"
 ---
 # HypoTermQA: Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs
 

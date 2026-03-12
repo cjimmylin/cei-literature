@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GloVe, word2vec"
 DATA_URL: "NA"
 tags: 
 abstract: "Smart applications often rely on training data in form of text. If there is a bias in that training data, the decision of the applications might not be fair. Common training data has been shown to be biased towards different groups of minorities. However, there is no generic algorithm to determine the fairness of training data. One existing approach is to measure gender bias using word embeddings. Most research in this ﬁeld has been dedicated to the English language."
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Cultural Differences in Bias? Origin and Gender Bias in Pre-Trained German and French Word Embeddings
 

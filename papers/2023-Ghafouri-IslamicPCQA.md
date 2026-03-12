@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "IEEE Transactions on Audio, Speech, and Language Processing"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, T5"
 DATA_URL: "https://github.com/sajjjadayobi/PersianQA"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "12,282 question"
-CONFERENCE: "Journal"
 ---
 # IslamicPCQA: A Dataset for Persian Multi-hop Complex Question Answering in Islamic Text Resources
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Alpaca, BERT, ChatGPT, RoBERTa"
 DATA_URL: "https://github.com/Akyl-AI/kyrgyz-alpaca"
 tags: 
 abstract: "Large language models (LLMs) have excelled in numerous benchmarks, advancing AI applications in both linguistic and non-linguistic tasks. However, this has primarily benefited well-resourced languages, leaving less-resourced ones (LRLs) at a disadvantage. In this paper, we highlight the current state of the NLP field in the specific LRL: кыргыз тили. Human evaluation, including annotated datasets created by native speakers, remains an irreplaceable component of reliable NLP performance,..."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # KyrgyzNLP: Challenges, Progress, and Future
 

@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Dual Process Theory, Trolley / Dilemmas (Psych)"
 newtags: Utilitarianism
 key_contribution: "Created a corpus of human vs. LLM responses to moral scenarios and conducted a user study (N=230) to evaluate detection and agreement"
 significance: "Revealed that while humans often prefer LLM moral assessments, an 'anti-AI bias' leads them to reject judgments they believe are machine-generated, complicating user-aligned AI deployment"
@@ -41,6 +56,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making
 

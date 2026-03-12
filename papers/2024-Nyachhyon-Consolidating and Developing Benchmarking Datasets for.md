@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "The Nepali language has distinct linguistic features, especially its 
 LLM_assessed: "BERT, DeBERTa, DeBERTa-v3, Distilbert, GPT-4o-mini, RoBERTa"
 DATA_URL: "NA"
 research_topic: "Other"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Consolidating and Developing Benchmarking Datasets for the Nepali Natural Language Understanding Tasks (NLUE)
 

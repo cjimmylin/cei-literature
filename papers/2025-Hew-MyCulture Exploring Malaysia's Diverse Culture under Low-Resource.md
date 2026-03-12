@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,12 +50,13 @@ cultures_nationalities_list: "Malaysian"
 languages_list: Malay
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "DeepSeek, DeepSeek-V3, GPT-4o, GPT-4o mini, GPT-4, Llama, Llama 3.2, Llama 4, Qwen3, llama 3"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) often exhibit cultural biases due to training data dominated by high-resource languages like English and Chinese. This poses challenges for accurately representing and evaluating diverse cultural contexts, particularly in low-resource language settings. To address this, we introduce MyCulture, a benchmark designed to comprehensively evaluate LLMs on Malaysian culture across six pillars: arts, attire, customs, entertainment, food, and religion presented in Bahasa..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "2,600 questions"
-CONFERENCE: "Preprint"
 ---
 # MyCulture: Exploring Malaysia's Diverse Culture under Low-Resource Language Constraints
 

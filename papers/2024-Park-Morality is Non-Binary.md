@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,7 +44,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: Deontology
 key_contribution: "Builds a 'pluralist moral sentence embedding space' using contrastive learning to capture multiple moral elements rather than binary right/wrong"
 significance: "Shows that moral pluralism (including deontology) can be mathematically represented in embedding space, enabling more nuanced value alignment"
@@ -39,6 +54,7 @@ paper_summary: "Abstract: Recent advances in NLP show that language models retai
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/jeongwoopark0514/morality-is-non-binary"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -48,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
  Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning
 

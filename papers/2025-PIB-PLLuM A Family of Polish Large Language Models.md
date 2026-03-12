@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude 3.5 Sonnet, Claude-3.7-Sonn
 DATA_URL: "https://github.com/MeetKai/functionary"
 tags: 
 abstract: "Family of Polish LLMs with evaluation on CPTUB benchmark assessing implied meanings and cognitively challenging questions. Includes Open PL LLM Leaderboard and Polish Medical Leaderboard."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # PLLuM: A Family of Polish Large Language Models
 

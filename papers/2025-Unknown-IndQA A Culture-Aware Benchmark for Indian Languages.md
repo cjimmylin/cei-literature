@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "OpenAI benchmark with 2,278 questions across 12 languages and 10 cultural domains (architecture, arts, food, history, law/ethics, religion/spirituality, etc.) created with 261 domain experts. GPT-5 best at 34.9%. Includes Bengali and Odia natively written questions."
 research_topic: "Machine Learning"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "2,278 questions; 12 languages"
-CONFERENCE: "Other Conference"
 ---
 # IndQA: A Culture-Aware Benchmark for Indian Languages
 

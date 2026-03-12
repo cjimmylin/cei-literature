@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ abstract: "NLP research has increasingly focused on subjective tasks such as emo
 LLM_assessed: "ChatGPT, Claude, Claude-3, Claude-3-opus, Claude-3.5, Claude-3.5-sonnet, GPT-3, GPT-3.5, GPT-4, Gemma, Gemma-2, Llama-3, Llama-3.2, Llama"
 DATA_URL: "https://github.com/llm-for-emotion/culemo"
 research_topic: "Social & Cultural Analysis"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # CULEMO: Cultural Lenses on Emotion -- Benchmarking LLMs for Cross-Cultural Emotion Understanding
 

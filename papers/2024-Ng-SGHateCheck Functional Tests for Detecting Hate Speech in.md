@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BERT, Llama, LLaMA2, Mistral, Mistral 7B"
 DATA_URL: "https://github.com/Social-AI-Studio/SGHateCheck"
 tags: 
 abstract: "To address the limitations of current hate speech detection models, we introduce SGHateCheck, a novel framework designed for the linguistic and cultural context of Singapore and Southeast Asia. It extends the functional testing approach of HateCheck and MHC, employing large language models for translation and paraphrasing into Singapore’s main languages, and refining these with native annotators. SGHateCheck reveals critical flaws in state-of-theart models, highlighting their inadequacy in..."
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "21,152 test cases"
-CONFERENCE: "ACL 2024"
 ---
 # SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Resource Languages of Singapore
 

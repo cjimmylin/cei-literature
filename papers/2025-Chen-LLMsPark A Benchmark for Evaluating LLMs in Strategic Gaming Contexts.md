@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "As large language models (LLMs) advance across diverse tasks, the need for comprehensive evaluation beyond single metrics becomes increasingly important. To fully assess LLM intelligence, it is crucial to examine their interactive dynamics and strategic behaviors. We present LLMsPark, a game theory–based evaluation platform that measures LLMs’ decision-making strategies and social behaviors in classic game-theoretic settings, providing a multi-agent environment to explore strategic depth."
 LLM_assessed: "GPT-4, GPT-3.5, Qwen"
 DATA_URL: "https://llmsparks.github.io/"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # LLMsPark: A Benchmark for Evaluating LLMs in Strategic Gaming Contexts
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,12 +49,13 @@ cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Background: While Large Language Models (LLMs) have achieved widespread adoption, malicious prompt engineering—specifically 'jailbreak attacks'—poses severe security risks by inducing models to bypass internal safety mechanisms. Current benchmarks predominantly focus on public safety and Western cultural norms, leaving a critical gap in evaluating the niche, high-risk domain of medical ethics within the Chinese context."
 LLM_assessed: "GPT-4, GPT-4o, Claude, DeepSeek, Qwen"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Chain-of-Ethics: Defense Framework (Wu et al.)
 

@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,13 +52,14 @@ cultures_nationalities_list: "Indigenous Australian"
 languages_list: ""
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As AI technologies are increasingly deployed in work, welfare, healthcare, and other domains, there is a growing realization not only of their power but of their problems. AI has the capacity to reinforce historical injustice, to amplify labor precarity, and to cement forms of racial and gendered inequality. An alternate set of values, paradigms, and priorities are urgently needed. How might we design and evaluate AI from an indigenous perspective?"
 LLM_assessed: "Falconer"
 DATA_URL: "NA"
 research_topic: Other
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # The Five Tests: Designing and Evaluating AI According to Indigenous Maori Principles
 

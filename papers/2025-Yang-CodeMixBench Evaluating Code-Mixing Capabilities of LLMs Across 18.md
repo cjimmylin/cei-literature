@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ALBERT, BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Tur
 DATA_URL: "https://github.com/fxsjy/jieba"
 tags: 
 abstract: "Code-mixing, the practice of switching between languages within a conversation, poses unique challenges for traditional NLP. Existing benchmarks are limited by their narrow language pairs and tasks, failing to adequately assess large language models’ (LLMs) codemixing abilities. Despite the recognized importance of code-mixing for multilingual users, research on LLMs in this context remains sparse. Additionally, current techniques for synthesizing code-mixed data are underdeveloped to generate..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for conversational ai"
 data_metrics: "4 prompt; 18 languages"
-CONFERENCE: "Preprint"
 ---
 # CodeMixBench: Evaluating Code-Mixing Capabilities of LLMs Across 18 Languages
 

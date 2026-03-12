@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ tags:
 abstract: "Quantitative Artificial Intelligence (AI) Benchmarks have emerged as fundamental tools for evaluating the performance, capability, and safety of AI models and systems. Currently, they shape the direction of AI development and are playing an increasingly prominent role in regulatory frameworks. As their influence grows, however, so too does concerns about how and with what effects they evaluate highly sensitive topics such as capabilities, including high-impact capabilities, safety and systemic..."
 LLM_assessed: "Bartz, Claude 3 Opus, GPT-4, GPT4"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Can We Trust AI Benchmarks? An Interdisciplinary Review
 

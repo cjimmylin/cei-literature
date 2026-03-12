@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Gemma, Phi"
 DATA_URL: "https://huggingface.co/google/gemma-2b-it"
+CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "NeurIPS 2024"
 ---
 # Unveiling the Bias Impact on Symmetric Moral Consistency of Large Language Models
 

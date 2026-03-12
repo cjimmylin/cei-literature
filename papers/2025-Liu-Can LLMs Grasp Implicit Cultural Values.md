@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ DATA_URL: "https://github.com/uscnlp-lime/CQ-Bench"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  Can LLMs Grasp Implicit Cultural Values? Benchmarking LLMs' Metacognitive Cultural Intelligence with CQ-Bench
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,12 +49,13 @@ cultures_nationalities_list: "Sub-Saharan African, Ubuntu"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "The shift towards pluralism in global data ethics acknowledges the importance of including perspectives from the Global Majority to develop responsible data science practices that mitigate systemic harms in the current data science ecosystem. Sub-Saharan African (SSA) practitioners, in particular, are disseminating progressive data ethics principles and best practices for identifying and navigating anti-blackness and data colonialism."
+CONFERENCE: "FAccT 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "FAccT 2025"
 ---
 # African Data Ethics: A Discursive Framework for Black Decolonial AI
 

@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ LLM_assessed: "BART, BERT, Flan-T5-based, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-
 DATA_URL: "https://github.com/MeLLL-UFF/brfauna-gen-eval"
 tags: 
 abstract: "Large Language Models (LLMs) are now embedded in widely used applications worldwide, yet their evaluation still centers on narrow, discriminative benchmarks. These pipelines often overlook key generative aspects such as discourse coherence, linguistic transformations, and adequacy, which are crucial for real-world applications. In addition, most large-scale evaluations remain heavily biased toward English, limiting our understanding of LLM performance in other languages."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Exploring Brazil's LLM Fauna: Investigating the Generative Performance of Large Language Models in Portuguese
 

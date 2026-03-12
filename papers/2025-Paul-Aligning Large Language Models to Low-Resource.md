@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract: "Multilingual large language models (LLMs) often demonstrate a perform
 LLM_assessed: "GPT-4o, GPT-4, Llama, Llama-3, Llama-3.1, Llama-3.3, llama-3."
 DATA_URL: "https://huggingface.co/datasets/nvidia/GSM8K-Hi"
 research_topic: "Machine Translation"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Aligning Large Language Models to Low-Resource Languages through LLM-Based Selective Translation: A Systematic Study (Hindi)
 

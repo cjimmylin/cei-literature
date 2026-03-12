@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "https://github.com/jaaack-wang/Chinese-Synonyms"
 tags: 
 abstract: "Large Language Models (LLMs) and search engines have the potential to perpetuate biases and stereotypes by amplifying existing prejudices in their training data and algorithmic processes, thereby influencing public perception and decision-making. While most work has focused on Western-centric AI technologies, we examine social biases embedded in prominent Chinese-based commercial tools, the main search engine Baidu and two leading LLMs, Ernie and Qwen."
 research_topic: Other
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "13 categories"
-CONFERENCE: "Other Conference"
 ---
 # Comparing diversity, negativity, and stereotypes in Chinese-language AI technologies: an investigation of Baidu, Ernie and Qwen - PMC
 

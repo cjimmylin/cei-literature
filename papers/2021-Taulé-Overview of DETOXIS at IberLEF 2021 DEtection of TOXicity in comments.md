@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, GloVe"
 DATA_URL: "https://github.com/dccuchile/beto"
 tags: 
 abstract: "In this paper we present the DETOXIS task, DEtection of TOxicity in comments In Spanish, which took place as part of the IberLEF 2021 Workshop on Iberian Languages Evaluation Forum at the SEPLN 2021 Conference. We describe the NewsCom-TOX dataset used for training and testing the systems, the metrics applied for their evaluation and the results obtained by the submitted approaches. We also provide an error analysis of the results of these systems."
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish
 

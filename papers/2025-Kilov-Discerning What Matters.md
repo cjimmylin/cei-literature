@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,7 @@ paper_summary: "Abstract: Moral competence is the ability to act in accordance w
 LLM_assessed: "Llama-3, GPT-4, DeepSeek, Claude"
 DATA_URL: "NA"
 DATE_ADDED: 20260207
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -49,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
  Discerning What Matters: A Multi-Dimensional Assessment of Moral Competence in LLMs
 

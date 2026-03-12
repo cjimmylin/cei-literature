@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ local_pdf: "[[PDFs/2025/2025-Mazeika-Utility Engineering.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Gemma, Qwen"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs
 

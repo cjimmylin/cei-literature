@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude, Gemini, DeepSeek, Qwen, Llama"
 DATA_URL: "https://hf.co/datasets/morebench/morebench"
 normative_ethics_benchmark: Yes
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -49,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "150 examples"
-CONFERENCE: "Other Conference"
 ---
  MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes
 

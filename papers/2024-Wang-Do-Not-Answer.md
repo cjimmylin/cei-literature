@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-4, ChatGPT, Claude, Vicuna, Llama-2, BERT"
 DATA_URL: "https://github.com/Libr-AI/do-not-answer"
 pdf_extract: "PDF Extracts/2024/2024-Wang-Do-Not-Answer.md"
 local_pdf: "[[PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]"
+CONFERENCE: "EACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "EACL 2024"
 ---
 # Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BLOOM, BERT, GPT-4o, Llama, Llama3, Llama3.3, Mistral 31.65 80, M
 DATA_URL: "NA"
 tags: 
 abstract: "Code-switching (CS) is still a critical challenge in Natural Language Processing (NLP), due to the limited availability of large-scale, diverse CS datasets for robust training and evaluation. Despite recent advances, the true capabilities and limitations of LLMs in handling CS remain underexplored. In this work, we investigate the extent to which LLMs can be used in a framework for CS text generation, focusing on the English-Spanish language pair."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Conditioning LLMs to Generate Code-Switched Text
 

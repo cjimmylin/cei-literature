@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "ChatGPT, Dolly, Dolly24, Llama, Llama3"
 DATA_URL: "https://github.com/ParsBench/ParsBench"
 tags: 
 abstract: "Research on evaluating and analyzing large language models (LLMs) has been extensive for high-resource languages such as English, yet their performance in languages such as Persian has received considerably less attention. This paper introduces FarsEval-PKBETS benchmark, a subset of FarsEval project for evaluating large language models in Persian. This benchmark consists of 4,000 questions and answers in various formats, including multiple-choice, short-answer, and descriptive responses."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "4,000 questions"
-CONFERENCE: "Preprint"
 ---
 # FarsEval-PKBETS: A new diverse benchmark for evaluating Persian large language models
 

@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "https://huggingface.co/datasets/Vikhrmodels"
 tags: 
 abstract: "There has been a surge in the development of various Large Language Models (LLMs). However, text generation for languages other than English often faces significant challenges, including poor generation quality and reduced computational performance due to the disproportionate representation of tokens in the model’s vocabulary. In this work, we address these issues by developing a pipeline for the adaptation of English-oriented pre-trained models to other languages and constructing efficient..."
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian
 

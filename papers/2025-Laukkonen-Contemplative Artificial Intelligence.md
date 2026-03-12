@@ -8,6 +8,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +52,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: "https://osf.io/az59t"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 Contemplative Artificial Intelligence
 

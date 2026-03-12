@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama, Llama2
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs), the bedrock of many “artificial intelligence” (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new..."
+CONFERENCE: "NAACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-CONFERENCE: "NAACL 2025"
 ---
 # SHADES: A New Multilingual Benchmark for Stereotypes Bias in Large Language Models (2025) – AI Advisory Boards
 

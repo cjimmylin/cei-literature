@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Develops sovereign LLM for Hong Kong addressing multilingual environment (Cantonese, Mandarin, English) and socio-legal context. Introduces Adversarial HK Value Benchmark with 300 human-crafted sensitive questions evaluating alignment with local ethical and legal standards."
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong
 

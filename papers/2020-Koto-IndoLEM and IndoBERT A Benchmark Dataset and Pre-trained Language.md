@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT"
 DATA_URL: "https://github.com/ChineseGLUE/ChineseGLUE"
 tags: 
 abstract: "Although the Indonesian language is spoken by almost 200 million people and the 10th mostspoken language in the world,1 it is under-represented in NLP research. Previous work on Indonesian has been hampered by a lack of annotated datasets, a sparsity of language resources, and a lack of resource standardization. In this work, we release the INDOLEM dataset comprising seven tasks for the Indonesian language, spanning morpho-syntax, semantics, and discourse."
+CONFERENCE: "ACL 2020"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2020"
 ---
 # IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP
 

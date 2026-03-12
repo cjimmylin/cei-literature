@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Spanish language knowledge evaluation dataset for LLMs using expert-prepared multiple-choice questions matching the format and level of Spanish evaluation tests for humans (Instituto Cervantes format). 100 questions. Included in La Leaderboard."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "100 questions"
-CONFERENCE: "Journal"
 ---
 # TELEIA: A Spanish Language Dataset for Evaluating Artificial Intelligence Models
 

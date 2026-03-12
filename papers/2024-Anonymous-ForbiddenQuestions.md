@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, GPT-4, PaLM-2, Vicuna"
 DATA_URL: "https://github.com/verazuo/jailbreak_llms"
 pdf_extract: "PDF Extracts/2024/2024-Anonymous-ForbiddenQuestions.md"
 local_pdf: "[[PDFs/2024/2024-Anonymous-ForbiddenQuestions.pdf]]"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "107,250 samples"
-CONFERENCE: "Other Conference"
 ---
 # ForbiddenQuestions: A Benchmark of In-the-Wild Jailbreak Prompts
 

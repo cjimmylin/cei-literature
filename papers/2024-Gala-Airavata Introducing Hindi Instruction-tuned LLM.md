@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Hindi instruction-tuned LLM with evaluation benchmarks and framework for assessing performance across Hindi tasks. Hindi instruction-following LLM with evaluation framework."
 LLM_assessed: "Alpaca, ChatGPT, Dolly, GPT-4, Llama, Llama 2, Llama2"
 DATA_URL: "https://github.com/AI4Bharat/IndicInstruct"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Airavata: Introducing Hindi Instruction-tuned LLM
 

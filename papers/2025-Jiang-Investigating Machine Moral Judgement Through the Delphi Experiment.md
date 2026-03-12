@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ abstract:
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, T5"
 DATA_URL: "https://github.com/liweijiang/delphi.git"
 normative_ethics_benchmark: Borderline
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)
 

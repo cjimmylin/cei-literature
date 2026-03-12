@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "https://github.com/huggingface/peft"
 tags: 
 abstract: "Large Language Models (LLMs) have become a key element of modern artificial intelligence, demonstrating the ability to address a wide range of language processing tasks at unprecedented levels of accuracy without the need of collecting problem-specific data. However, these versatile models face a significant challenge: both their training and inference processes require substantial computational resources, time, and memory."
 research_topic: "NLP & Representation Learning"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # RigoChat 2: An Adapted Language Model to Spanish Using a Bounded Dataset and Reduced Hardware
 

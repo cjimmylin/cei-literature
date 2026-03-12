@@ -9,6 +9,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ abstract: "Large Language Model (LLMs) such as ChatGPT that exhibit generative A
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, BLOOM, Bart, ChatGPT, GPT-4, Llama, Zephyr"
 DATA_URL: "NA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # AI Safety in Generative AI Large Language Models: A Survey
 

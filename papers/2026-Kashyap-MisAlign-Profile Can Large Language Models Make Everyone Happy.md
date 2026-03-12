@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "H3FUSION, TRINITYX, Phi-3-14B, DeepSeek-7B, Gemma-2-9B-it, Qwen3-
 DATA_URL: "NA"
 tags: 
 abstract: "Misalignment in Large Language Models (LLMs) refers to the failure to simultaneously satisfy safety, value, and cultural dimensions, leading to behaviors that diverge from human expectations in real-world settings where these dimensions must co-occur. Existing benchmarks, such as SAFETUNEBED (safety-centric), VALUEBENCH (value-centric), and WORLDVIEW-BENCH (culture-centric), primarily evaluate these dimensions in isolation and therefore provide limited insight into their interactions and..."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # MisAlign-Profile: Can Large Language Models Make Everyone Happy?
 

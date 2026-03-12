@@ -10,6 +10,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,6 +60,7 @@ abstract: "Multilingual large language models (LLMs) are advancing rapidly, with
 LLM_assessed: "GPT-4o, Gemma, Gemma 2, Gemma 3, Gemma-3, Gemma2, Gemma3, Llama-2, Qwen, Qwen2.5, Qwen3, gemma-2"
 DATA_URL: "https://github.com/vllm-project/vllm"
 research_topic: "Machine Translation"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -51,7 +71,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "61 languages"
-CONFERENCE: "Preprint"
 ---
 # MuBench: Assessment of Multilingual Capabilities of Large Language Models Across 61 Languages
 

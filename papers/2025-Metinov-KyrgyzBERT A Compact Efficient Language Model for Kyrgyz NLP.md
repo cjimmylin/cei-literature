@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "The advancement of Natural Language Processing (NLP) has been largely driven by large-scale transformer models, yet these breakthroughs have predominantly benefited highresource languages. Low-resource languages like Kyrgyz lack the foundational models necessary for robust NLP application development. To address this gap, we introduce KyrgyzBert, the first publicly available, monolingual BERT-based language model pre-trained for the Kyrgyz language. KyrgyzBERT is a compact and efficient 35."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # KyrgyzBERT: A Compact, Efficient Language Model for Kyrgyz NLP
 

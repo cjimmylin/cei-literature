@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://gitlab.com/jochre/corpora/jochre-yiddish-corpus"
 tags: 
 abstract: "We describe the construction of a publicly available Yiddish OCR Corpus, and describe and evaluate the open source OCR tool suite Jochre 3, including an Alto editor for corpus annotation, OCR software for Alto OCR layer generation, and a customizable OCR search engine. The current version of the Yiddish OCR corpus contains 658 pages, 186K tokens and 840K glyphs. The Jochre 3 OCR tool uses various fine-tuned YOLOv8 models for top-down page layout analysis, and a custom CNN network for glyph..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "186k tokens; 660m word"
-CONFERENCE: "Preprint"
 ---
 # Jochre 3 and the Yiddish OCR corpus
 

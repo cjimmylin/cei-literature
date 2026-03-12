@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ tags:
 abstract: "Large-scale multilingual evaluations, such as MEGA, often include only a handful of African languages due to the scarcity of high-quality evaluation data and the limited discoverability of existing African datasets. This lack of representation hinders comprehensive LLM evaluation across a diverse range of languages and tasks. To address these challenges, we introduce AFROBENCH—a multi-task benchmark for evaluating the performance of LLMs across 64 African languages, 15 tasks and 22 datasets."
 LLM_assessed: "GPT-4, Llama-2, Llama-3, Gemma, Gemini"
 DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "22 datasets"
-CONFERENCE: "Preprint"
 ---
 # AfroBench -- How Good are LLMs on African Languages?
 

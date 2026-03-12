@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +53,7 @@ DATA_URL: "https://github.com/google/BIG-bench"
 pdf_extract: "PDF Extracts/2025/2025-Steen-Ethical aspects of ChatGPT.md"
 local_pdf: "[[PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]"
 ethics_perspective: "General Ethics"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -47,7 +63,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Ethical aspects of ChatGPT: An approach to discuss and evaluate key requirements from different ethical perspectives
 

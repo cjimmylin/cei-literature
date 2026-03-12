@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ DATA_URL: "https://github.com/UnicomAI/UnicomBenchmark/tree/main/CHiSafetyBench"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety text corpus"
 data_metrics: "31 categories"
-CONFERENCE: "Journal"
 ---
 # CHiSafetyBench: A Chinese Hierarchical Safety Benchmark for Large Language Models
 

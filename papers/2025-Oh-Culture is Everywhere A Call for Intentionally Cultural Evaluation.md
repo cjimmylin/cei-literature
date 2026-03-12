@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Critiques the trivia-centered paradigm for cultural alignment evaluation. Advocates for 'intentionally cultural evaluation' examining cultural assumptions embedded in all evaluation aspects. Proposes HCI-inspired participatory methodologies for inclusive NLP research."
 research_topic: "Social & Cultural Analysis"
+CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2025"
 ---
 # Culture is Everywhere: A Call for Intentionally Cultural Evaluation
 

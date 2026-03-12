@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ tags:
 abstract: "Warning: This paper includes content that may be considered offensive or upsetting. Existing studies on fairness are largely Westernfocused, making them inadequate for culturally diverse countries such as India. To address this gap, we introduce INDIC-BIAS, a comprehensive India-centric benchmark designed to evaluate fairness of LLMs across 85 identity groups encompassing diverse castes, religions, regions, and tribes."
 LLM_assessed: "GPT-4, Llama-3, Gemma, Mistral, Mixtral, Gemini"
 DATA_URL: "https://github.com/AI4Bharat/indic-bias"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # FairI Tales / INDIC-BIAS -- Evaluation of Fairness in Indian Contexts
 

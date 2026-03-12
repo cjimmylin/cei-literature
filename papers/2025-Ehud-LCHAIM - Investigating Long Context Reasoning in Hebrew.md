@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "Gemma-9B, Dicta-LM-2.0, GPT-4o, LongHero"
 DATA_URL: "https://github.com/oriel9p/lchaim.git"
 tags: 
 abstract: "Hebrew NLI evaluation dataset with 8,325 context-hypothesis pairs requiring coreferential, temporal, logical and analytical reasoning. LLMs like DictaLM-2.0 and GPT-4o achieve max 60.12% vs human performance of ~87%. Tests Hebrew cultural-linguistic reasoning."
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # LCHAIM - Investigating Long Context Reasoning in Hebrew
 

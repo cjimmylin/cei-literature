@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +45,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz, Trolley / Dilemmas (Psych)"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Proposed GETA (Generative Evolving Testing Approach), an adaptive testing method that dynamically generates test items to match the model's capability level."
 significance: "Solves the 'benchmark saturation' and 'contamination' problem by moving from static datasets to dynamic, adaptive evaluation (like a GRE test for AI morality)."
@@ -39,6 +58,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Gemini, Mistral, Llama-2, Llama-3"
 DATA_URL: "https://github.com/Salomeeeee/GETA"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing
 

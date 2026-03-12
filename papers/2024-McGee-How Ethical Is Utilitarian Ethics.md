@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,6 +55,7 @@ local_pdf: "[[PDFs/2024/2024-McGee-How Ethical Is Utilitarian Ethics.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # How Ethical Is Utilitarian Ethics? A Study in Artificial Intelligence
 

@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "BLOOMZ, GPT-4, Gemma, Llama, Llama-3, Mistral, Mistral 7B, Phi3, 
 DATA_URL: "https://github.com/openai/tiktoken"
 tags: 
 abstract: "Low-resource languages such as Sinhala are often overlooked by open-source Large Language Models (LLMs). Therefore, it is imperative that the existing LLMs are further trained to cover such languages. In this research, we extend an existing multilingual LLM (Llama-3-8B) to get a better coverage for Sinhala. We enhanced the LLM tokenizer with Sinhala specific vocabulary and performed continual pre-training on a 10 million sentence Sinhala corpus, resulting in the SinLlama model."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "10m sentence"
-CONFERENCE: "Preprint"
 ---
 # SinLlama: A Large Language Model for Sinhala
 

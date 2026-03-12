@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Values are core drivers of individual and collective perception, cognition, and behavior. Value systems, such as Schwartz’s Theory of Basic Human Values, delineate the hierarchy and interplay among these values, enabling cross-disciplinary investigations into decisionmaking and societal dynamics. Recently, the rise of Large Language Models (LLMs) has raised concerns regarding their elusive intrinsic values."
 LLM_assessed: "GPT-4, GPT-3.5, GPT-4o, Llama-2, Llama-3, Mistral, Qwen, Gemma"
 DATA_URL: "https://github.com/Value4AI/ValueBench"
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems
 

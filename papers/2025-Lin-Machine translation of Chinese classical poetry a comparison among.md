@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, GPT-3, GPT-3.5"
 DATA_URL: "https://osf.io/34cgd"
 tags: 
 abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Machine translation of Chinese classical poetry: a comparison among ChatGPT, Google Translate, and DeepL Translator | Humanities and Social Sciences Communications
 

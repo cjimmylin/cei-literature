@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "Gemini 3 Flash Preview (thinking), Gemini 2.5 Pro (thinking), Dee
 DATA_URL: "https://huggingface.co/datasets/AlaaAhmed2444/Macaron"
 tags: 
 abstract: "Multilingual benchmarks rarely test reasoning over culturally grounded premises: translated datasets keep English-centric scenarios, while culture-first datasets often lack control over the reasoning required. We propose Macaron, a template-first benchmark that factorizes reasoning type and cultural aspect across question languages. Using 100 language-agnostic templates that cover 7 reasoning types, 22 cultural aspects, native annotators create scenarioaligned English and local-language..."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "11,862 instances; 20 languages"
-CONFERENCE: "Preprint"
 ---
 # Macaron: Controlled, Human-Written Benchmark for Multilingual and Multicultural Reasoning via Template-Filling
 

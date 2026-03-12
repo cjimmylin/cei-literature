@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Ethics up front, not post hoc"
@@ -26,7 +41,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Proposes 'morality by design' by integrating ethical principles directly into the architectural mechanisms of transformer-based LLMs"
 significance: "Challenges post-hoc alignment methods (like fine-tuning) by arguing that genuine moral character must be structurally enshrined in the AI's architecture"
@@ -37,6 +52,7 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -46,7 +62,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  Morality in AI. A plea to embed morality in LLM architectures and frameworks
 

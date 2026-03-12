@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Hallucination in VLM"
@@ -27,7 +46,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: American
 tags: 
 paper_summary: "Overview: BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-language Models Moon Ye-Bin1∗ Nam Hyeon-Woo1∗ Wonseok Choi2 Tae-Hyun Oh1,2,3 1Dept. of EE, POSTECH, Korea 2Grad. School of AI,  | Key Findings: benchmark. This benchmark comprises a dataset enhanced along the vision-axis and metrics that are aware of changes. We manipulate scenes by selectivel | Conclusions: We present a comprehensive analysis of hallucination using our BEAF bench- mark. Unlike conventional hallucination benchmarks that measure accuracy by"
@@ -36,6 +55,7 @@ CONF-CC: "European Conference on Computer Vision"
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, Llama, Llama 2"
 DATA_URL: "https://beafbench.github.io/"
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
  BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-language Models
 

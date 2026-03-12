@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,12 +49,13 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "LLMs exhibit promising Social Intelligence (SI) in modeling human behavior, raising the need to evaluate LLMs’ SI and their discrepancy with humans. SI equips humans with interpersonal abilities to behave wisely in navigating social interactions to achieve social goals. This presents an operational evaluation paradigm: outcome-oriented goal achievement evaluation and process-oriented interpersonal ability evaluation, which existing work fails to address."
 LLM_assessed: "GPT-4, o1, Claude, Llama-3, Qwen, Mistral, Mixtral, DeepSeek"
 DATA_URL: "https://github.com/thu-coai/SocialEval"
+CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # SocialEval: Evaluating Social Intelligence of Large Language Models
 

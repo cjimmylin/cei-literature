@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4o"
 DATA_URL: "NA"
 tags: 
 abstract: "접수: 2025. 5. 26; 최종수정: 2025. 6. 20; 게재확정: 2025. 6. 24 *** ‌이 논문은 인천대학교 2023년도 자체연구비 지원에 의하여 연구되었음 ** 주저자, 인천대학교 정보기술대학원 강사(jhmh1230@naver.com, https://orcid.org/0009-0008-9090-5407) *** 교신저자, 인천대학교 미디어커뮤니케이션학과 교수 soolee815@naver.com, https://orcid.org/0000-0003-0395-4208) 정보화정책 제32권 제3호 2025·가을 44 2024). 또한, 소규모 데이터셋을 활용한 평가는 LLMs 의 일반화 능력이나 다양한 맥락에서의 일관된 편향 탐 지 성능(robustness)을 검증하기에 충분하지 않을 수 있다는 우려도 제기된다(Park et al., 2024; Wessel & Horych, 2024)."
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Evaluation of Social Bias Classification Performance of LLMs Using the KoSBI Dataset
 

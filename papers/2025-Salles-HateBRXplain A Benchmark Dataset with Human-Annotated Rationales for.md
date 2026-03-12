@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "mBERT, BERTimbau, DistilBERTimbau, PTT5"
 DATA_URL: "NA"
 tags: 
 abstract: "First benchmark dataset for hate speech detection in Brazilian Portuguese with human-annotated text span rationales. Evaluated using mBERT, BERTimbau, DistilBERTimbau, and PTT5 models for explainability using LIME and SHAP."
+CONFERENCE: "COLING 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "COLING 2025"
 ---
 # HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese
 

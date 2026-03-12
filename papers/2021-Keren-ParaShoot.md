@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ CONF-CC: "Workshop on Machine Reading for Question Answering"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/omrikeren/ParaShoot"
+CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for question answering"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # ParaShoot: A Hebrew Question Answering Dataset
 

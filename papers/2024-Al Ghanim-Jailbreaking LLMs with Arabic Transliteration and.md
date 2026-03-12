@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "GPT-4, Claude"
 DATA_URL: "https://github.com/SecureDL/arabic_jailbreak"
 pdf_extract: "PDF Extracts/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md"
 local_pdf: "[[PDFs/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.pdf]]"
+CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-CONFERENCE: "EMNLP 2024"
 ---
 # Jailbreaking LLMs with Arabic Transliteration and Arabizi
 

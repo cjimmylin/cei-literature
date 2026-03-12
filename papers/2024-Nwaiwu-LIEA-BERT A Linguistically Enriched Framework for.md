@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Proposes a weakly supervised learning framework for hate speech detection in Thai. Constructs a weakly labeled dataset combining a curated lexicon of Thai toxicity terms with other data sources to address low-resource challenges. Addresses Thai hate speech detection with linguistically enriched approach. Relevant to toxicity evaluation in Thai language."
 LLM_assessed: "BERT"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # LIEA-BERT: A Linguistically Enriched Framework for Hate Speech Detection in Low-Resource Thai
 

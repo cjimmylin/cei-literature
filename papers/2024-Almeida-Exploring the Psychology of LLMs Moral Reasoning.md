@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,7 +49,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "Moral-Psychology, Legal-Reasoning, LLM-Evaluation, Experimental-Methods, GPT-4"
 key_contribution: "Replicates 8 psychology studies with 4 LLMs; finds GPT-4 leads but all models exaggerate human moral effects"
 significance: "First systematic application of experimental psychology methods to probe LLM moral and legal reasoning"
@@ -40,6 +59,7 @@ DATE_ADDED: 20260208
 research_topic: "LLM Moral Reasoning"
 LLM_assessed: "GPT-4, Claude, Llama-2, Gemini"
 DATA_URL: "https://osf.io/zunm4/?view_only=217abaddc7f6498483fda045157f5dd6"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -50,7 +70,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Exploring the Psychology of LLMs' Moral and Legal Reasoning
 

@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ tags:
 abstract: "Preference elicitation frameworks feature heavily in the research on participatory ethical AI tools and provide a viable mechanism to enquire and incorporate the moral values of various stakeholders. As part of the elicitation process, surveys about moral preferences, opinions, and judgments are typically administered only once to each participant. This methodological practice is reasonable if participants’ responses are stable over time such that, all other relevant factors being held..."
 LLM_assessed: "NA"
 DATA_URL: "NA"
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods
 

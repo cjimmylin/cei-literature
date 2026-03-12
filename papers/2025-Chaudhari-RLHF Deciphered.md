@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +61,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, Bloom-7B, ChatGPT, Codex, Dolly, GPT-3, GPT-3.5, GPT-4, GPT4, Llama, Text-Davinci-003, Vicuna, Vicuna-80, WizardLM, BERT"
 DATA_URL: "https://github.com/GaryYufei/AlignLLMHumanSurvey"
 ethics_perspective: "AI Safety & Alignment"
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -52,7 +72,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # RLHF Deciphered
 

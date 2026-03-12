@@ -7,6 +7,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +43,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Utilitarianism, Value Alignment, Fairness"
 key_contribution: "Empirically demonstrates value forks between human and AI agents in moral trade-offs"
 significance: "Shows AI may need different ethical standards than humans, complicating alignment"
@@ -40,6 +55,7 @@ local_pdf: "[[PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Bloomsbury"
 DATA_URL: "https://osf.io/rqkcz"
+CONFERENCE: "FAccT 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +65,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "FAccT 2025"
 ---
 # Hard Problem AI Alignment Value Forks
 

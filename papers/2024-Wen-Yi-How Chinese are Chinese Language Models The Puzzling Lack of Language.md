@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,6 +55,7 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Explores how Chinese LLM developers navigate language diversity. Evaluates six open-source Chinese multilingual LLMs on minority languages including Lhasa Tibetan, Jingpho, Kazakh, and Northern Uzbek. Chinese LLMs' performance on diverse languages is indistinguishable from international LLMs. No PRC policy on minority language performance in LLMs."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -46,7 +66,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # How Chinese are Chinese Language Models? The Puzzling Lack of Language Policy in China's LLMs
 

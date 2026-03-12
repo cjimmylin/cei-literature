@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ abstract: "Warning: This paper contains potentially offensive and harmful text. 
 LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, Claude, Llama-2, Llama-3, Qwen, Phi"
 DATA_URL: "https://github.com/Isaac-theori/BiasJailbreak"
 research_topic: "Other"
+CONFERENCE: "AAAI 2026"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "AAAI 2026"
 ---
 # BiasJailbreak
 

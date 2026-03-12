@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +54,7 @@ local_pdf: "[[PDFs/2023/2023-Ziems-NormBank.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-3
 DATA_URL: "https://github.com/SALT-NLP/normbank"
+CONFERENCE: "ACL 2023"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +64,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2023"
 ---
 # NormBank: A Knowledge Bank of Situational Social Norms
 

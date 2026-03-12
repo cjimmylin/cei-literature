@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BART, BART 0, BERT, DeBERTa, DeBERTa 0, DistilBERT, ELECTRA, GPT-
 DATA_URL: "https://github.com/chapagaisa/hate_speech_detection"
 tags: 
 abstract: "Hate speech is a widespread and harmful form of online discourse, encompassing slurs and defamatory posts that can have serious social, psychological, and sometimes physical impacts on targeted individuals and communities. As social media platforms such as X (formerly Twitter), Facebook, Instagram, Reddit, and others continue to facilitate widespread communication, they also become breeding grounds for hate speech, which has increasingly been linked to real-world hate crimes."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset for hate speech detection"
 data_metrics: "36 datasets"
-CONFERENCE: "Preprint"
 ---
 # Advancing Hate Speech Detection with Transformers: Insights from the MetaHate
 

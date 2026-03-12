@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,6 +58,7 @@ local_pdf: "[[PDFs/2024/2024-Jain-PolygloToxicityPrompts.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Llama-2, Qwen, BLOOM, Mistral"
 DATA_URL: "https://huggingface.co/datasets/ToxicityPrompts/PolygloToxicityPrompts"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -49,7 +69,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "17 languages"
-CONFERENCE: "Other Conference"
 ---
 # PolygloToxicityPrompts: Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models
 

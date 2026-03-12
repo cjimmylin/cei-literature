@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "This paper presents a comprehensive review of Natural Language Processing (NLP) research on Armenian, a language that, despite its rich history and unique linguistic characteristics, is currently low-resource in the field of NLP. We critically synthesize and evaluate various studies in Armenian NLP, highlighting key advancements, challenges, and areas for improvement. A notable aspect of our work is the underlined lack of application of Large Language Models (LLMs) in Armenian NLP, signifying..."
+CONFERENCE: "ACL 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2023"
 ---
 # Large Language Models and Low-Resource Languages: An Examination of Armenian NLP
 

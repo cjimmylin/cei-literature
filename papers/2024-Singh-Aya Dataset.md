@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ CONF-CC: "ACL 2024"
 DATE_ADDED: 20260208
 LLM_assessed: BLOOM
 DATA_URL: "https://hf.co/CohereForAI/aya-101"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "101 languages; 99 languages"
-CONFERENCE: "Journal"
 ---
 # Aya Dataset: A Massively Multilingual Instruction-Tuned Dataset
 

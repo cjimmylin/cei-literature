@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,6 +57,7 @@ CONF-CC: "FAccT 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, OPT, ChatGPT"
 DATA_URL: "https://github.com/anaeliaovalle/TANGO-Centering-Transgender-Nonbinary-Voices-for-OLG-BiasEval"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -48,7 +68,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # I'm Fully Who I Am: Towards Centering Transgender and Non-Binary Voices to Measure Biases in Open Language Generation
 

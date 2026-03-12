@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "Evaluates how LLMs handle Maori language, identifying issues such as models not always responding in Maori and producing hallucinations (e.g., incorrectly stating Te Tiriti was signed between India and Asia). Explores bias mitigation in LLMs regarding te reo Maori and the concept of Maori data sovereignty in AI development."
 research_topic: "Other"
+CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "Other Conference"
 ---
 # Maori Data Sovereignty in AI Development: Seeking Maori Appropriate Pathways
 

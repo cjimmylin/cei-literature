@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ChatGPT, Command-R, GPT-4, GPT-4o, GPT4, GPT4o, Gemma, LLAMA 3, L
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) attempt to imitate human behavior by responding to humans in a way that pleases them, including by adhering to their values. However, humans come from diverse cultures with different values. We prompt different LLMs with advice requests based on Hofstede Cultural Dimensions, incorporating personas representing 36 countries and languages. Our analysis reveals that while LLMs can differentiate cultural values, they often fail to consistently uphold them when giving..."
+CONFERENCE: "KDD 2018"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "KDD 2018"
 ---
 # How Well Do LLMs Represent Values Across Cultures?
 

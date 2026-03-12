@@ -6,6 +6,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_KYRIACOU2024
@@ -24,7 +39,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
-moral_psychology: Yes
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Aristotelian Ethics, Computability, Moral Intelligence"
 key_contribution: "Argues human rational intelligence is not mechanically computable for four reasons: categorical normativity, autonomous reasons-responsiveness, affective experience, practical wisdom"
 significance: "Rigorous Aristotelian critique of AI moral intelligence claims based on computability arguments"
@@ -34,6 +49,7 @@ CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260208
 LLM_assessed: "Bloom, ChatGPT, GPT-4"
 DATA_URL: "NA"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -43,7 +59,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Artificial moral intelligence and computability: an Aristotelian perspective
 

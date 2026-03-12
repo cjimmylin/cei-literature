@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "BERT, GPT-4, Qwen2.5, RoBERTa"
 DATA_URL: "https://github.com/leeyejin1231/KOTOX"
 tags: 
 abstract: "Online communication increasingly amplifies toxic language, and recent research actively explores methods for detecting and rewriting such content. Existing studies primarily focus on non-obfuscated text, which limits robustness in the situation where users intentionally disguise toxic expressions. In particular, Korean allows toxic expressions to be easily disguised through its agglutinative characteristic."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # KOTOX: A Korean Toxic Dataset for Deobfuscation and Detoxification
 

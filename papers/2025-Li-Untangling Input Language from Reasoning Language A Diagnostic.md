@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,12 +50,13 @@ cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
-moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
+moral_psychology: "Moral Foundations Theory"
 newtags: 
 LLM_assessed: "ALBERT, Claude, Claude 1.00, Claude 11.5, Claude 42.7, Claude-Sonnet, DeepSeek, DeepSeek 0, DeepSeek-R1, Grok, Grok 0, Grok-4, Llama, Llama-4, Qwen, Qwen 28.6, Qwen 37.1, Qwen3"
 DATA_URL: "NA"
 tags: 
 abstract: "When LLMs judge moral dilemmas, do they reach different conclusions in different languages, and if so, why? Two factors could drive such differences: the language of the dilemma itself, or the language in which the model reasons. Standard evaluation conflates these by testing only matched conditions (e.g., English dilemma with English reasoning). We introduce a methodology that separately manipulates each factor, covering also mismatched conditions (e.g."
+CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Untangling Input Language from Reasoning Language: A Diagnostic Framework for Cross-Lingual Moral Alignment in LLMs
 

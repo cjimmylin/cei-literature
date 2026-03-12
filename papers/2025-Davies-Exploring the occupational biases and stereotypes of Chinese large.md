@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ DATA_URL: "NA"
 tags: 
 abstract: "I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources."
 research_topic: "Other"
+CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # Exploring the occupational biases and stereotypes of Chinese large language models
 

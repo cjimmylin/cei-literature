@@ -8,6 +8,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-4"
 DATA_URL: "https://data.mendeley.com/datasets/h5t7p4bcj2/1"
 tags: 
 abstract: "First publicly available aspect-based sentiment analysis dataset for Sorani Kurdish with 4,000+ quadruplet ABSA entries in restaurant review domain. Perso-Arabic script."
+CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Journal"
 ---
 # KurdABSA: Kurdish Aspect-Based Sentiment Analysis Dataset Curation Using Few-Shot Learning
 

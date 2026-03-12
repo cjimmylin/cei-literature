@@ -7,6 +7,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "ALBERT, BERT, ELECTRA, GPT-2, GPT2, Gemma, Llama, T5, T5Tokenizer
 DATA_URL: "https://github.com/csebuetnlp/normalizer"
 tags: 
 abstract: "Gender bias continues to shape societal perceptions across both STEM (Science, Technology, Engineering, and Mathematics) and SHAPE (Social Sciences, Humanities, and the Arts for People and the Economy) domains. While existing studies have explored such biases in English language models, similar analyses in Bangla—spoken by over 240 million people—remain scarce. In this work, we investigate gender-profession associations in Bangla language models."
+CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2025"
 ---
 # Assessing Gender Bias of Pretrained Bangla Language Models
 

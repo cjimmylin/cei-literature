@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "Qwen-72B, GPT-4, Qwen-14B, Gemini-Pro, Yi-34B-Chat, Qwen-1.5-14B-
 DATA_URL: "https://huggingface.co/datasets/ikala/tmmluplus"
 tags: 
 abstract: "We present TMMLU+, a new benchmark designed for Traditional Chinese language understanding. TMMLU+ is a multi-choice question-answering dataset with 66 subjects from elementary to professional level. It is six times larger and boasts a more balanced subject distribution than its predecessor, Taiwan Massive Multitask Language Understanding (TMMLU). We also benchmark closed-source models and 23 open-weight Chinese large language models (LLMs) of parameters ranging from 1."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark dataset"
 data_metrics: "22,690 questions"
-CONFERENCE: "Preprint"
 ---
 # An Improved Traditional Chinese Evaluation Suite for Foundation Model (TMMLU+)
 

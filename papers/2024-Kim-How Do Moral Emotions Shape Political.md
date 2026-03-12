@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,6 +56,7 @@ LLM_assessed: "GPT-3.5, GPT-4, BERT"
 DATA_URL: "https://github.com/Paul-scpark/Moral-Emotion"
 pdf_extract: "PDF Extracts/2024/2024-Kim-How Do Moral Emotions Shape Political.md"
 local_pdf: "[[PDFs/2024/2024-Kim-How Do Moral Emotions Shape Political.pdf]]"
+CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -47,7 +67,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-CONFERENCE: "ACL 2024"
 ---
 # How Do Moral Emotions Shape Political Participation? A Cross-Cultural Analysis of Online Petitions Using Language Models
 

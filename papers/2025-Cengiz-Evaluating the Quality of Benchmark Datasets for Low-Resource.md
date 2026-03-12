@@ -6,6 +6,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +54,7 @@ LLM_assessed: "GPT-4o, Llama-3.3-70B"
 DATA_URL: "https://github.com/metunlp/llmevaluation"
 tags: 
 abstract: "The reliance on translated or adapted datasets from English or multilingual resources introduces challenges regarding linguistic and cultural suitability. This study addresses the need for robust and culturally appropriate benchmarks by evaluating the quality of 17 commonly used Turkish benchmark datasets. Using a comprehensive framework that assesses six criteria, both human and LLM-judge annotators provide detailed evaluations to identify dataset strengths and shortcomings."
+CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,7 +65,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-CONFERENCE: "Preprint"
 ---
 # Evaluating the Quality of Benchmark Datasets for Low-Resource Languages: A Case Study on Turkish
 

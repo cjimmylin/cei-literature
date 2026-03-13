@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +46,8 @@ CONF-CC: "Preprint"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "7 countries, Southeast Asian"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -62,7 +65,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "3,178 questions; 5 categories"
 ---
@@ -97,7 +100,7 @@ data_metrics: "3,178 questions; 5 categories"
 
 ## Data Description
 
-The Seeing Culture Benchmark (SCB) consists of 1,065 images capturing 138 cultural artifacts across 5 categories from 7 Southeast Asian countries, accompanied by 3,178 questions. It requires vision-language models to reason about culturally rich images via multiple-choice VQA and segment cultural artifacts. The benchmark tests both recognition and reasoning about Southeast Asian cultural elements.
+1,065 images of 138 cultural artifacts from 7 Southeast Asian countries with 3,178 associated questions for VLM evaluation via multiple-choice VQA and cultural artifact segmentation. Constitutes a novel image-question dataset for culturally-aware vision-language model assessment.
 
 
 ## Notes

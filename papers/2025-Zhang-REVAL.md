@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,8 +58,8 @@ abstract: "The rapid evolution of Large Vision-Language Models (LVLMs) has highl
 paper_summary: "Abstract: The rapid evolution of Large Vision-Language Models (LVLMs) has highlighted the necessity for comprehensive evaluation frameworks that assess these models across diverse dimensions. While existing ben | Overview: REVAL: A Comprehension Evaluation on Reliability and Values of Large Vision-Language Models Jie Zhang1,2†, Zheng Yuan1,2†, Zhongqi Wang1,2, Bei Yan1,2, Sibo Wang1,2, Xiangkui Cao1,2, Zonghui Guo1, Shi | Key Findings: aspects, question types and statistics. The number following the ✓indicates the number of fine-grained categories specifically considered when evaluat | Conclusions: Discussion on the difference with MultiTrust. In recent years, comprehen- sive multi-dimensional evaluations of Large Vision-Language Models (LVLMs) h"
 local_pdf: "[[PDFs/2025/2025-Zhang-REVAL.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Gemini, OPT, Vicuna, Llama-2, Flan-T5, Qwen, Phi"
-DATA_URL: "https://github.com/InternLM/InternLM-techreport"
+LLM_assessed: "GPT-4o, Gemini, LLaVA, InstructBLIP, BLIP, Vicuna, Llama-2, FLAN-T5, Phi-3"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -134,7 +138,7 @@ Current LVLMs are powerful but fragile. REVAL provides the standard for "Red Tea
 
 ## Data Description
 
-REVAL is a comprehensive benchmark for evaluating the reliability and values of large vision-language models, encompassing over 144,000 image-text Visual Question Answering (VQA) samples. The benchmark is structured into two primary sections: Reliability (truthfulness and robustness) and Values (ethics, safety, and privacy), covering 11 evaluation aspects including perception, hallucination, adversarial attacks, typographic attacks, image corruption, bias, morality, toxicity, jailbreak, privacy awareness, and privacy leakage. A total of 26 models were evaluated across true-or-false, multiple-choice, and free-form question types.
+REVAL is a comprehensive benchmark for evaluating Large Vision-Language Models (LVLMs) across reliability (truthfulness, robustness) and values (ethics, safety, privacy), comprising over 144K image-text VQA samples. No public repository URL was found in the extract; the current DATA_URL pointing to InternLM techreport is incorrect.
 
 
 ## Notes

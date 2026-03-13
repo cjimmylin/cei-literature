@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Modeling empathy is a complex endeavor that is rooted in interpersonal and experiential dimensions of human interaction, and remains an open problem within AI. Existing empathy datasets fall short in capturing the richness of empathy responses, often being confined to in-lab or acted scenarios, lacking longitudinal data, and missing self-reported labels. We introduce a new multimodal dataset for empathy during personal experience sharing: the EMPATHICSTORIES++ dataset1 containing 53 hours of..."
-LLM_assessed: "GPT-3, GPT-4"
+LLM_assessed: "GPT-4"
 DATA_URL: "https://mitmedialab.github.io/empathic-stories-multimodal/"
 CONFERENCE: "ACL 2024"
 ethics_overall: "No"
@@ -98,7 +102,8 @@ Modeling empathy is a complex endeavor that is rooted in interpersonal and exper
 
 ## Data Description
 
-EmpathicStories++ is a multimodal dataset containing 53 hours of video, audio, and text data from 41 participants across 269 sessions over a month-long in-home deployment with social robots. Participants shared personal stories, read empathically similar stories, and self-rated their empathy on a 1-5 scale. The dataset includes 5,380 utterances, psychometric surveys (Big 5 personality, trait empathy, absorption), and extracted features from OpenFace, ResNet50, openSMILE, GloVe, and Sentence-BERT.
+EmpathicStories++: a multimodal dataset (53 hours of video, audio, and text) collected from a month-long in-the-wild deployment with 41 participants sharing personal stories with a social robot, including self-reported empathy labels and psychometric surveys.
+
 
 ## Notes
 

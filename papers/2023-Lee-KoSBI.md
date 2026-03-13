@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBI.md"
 local_pdf: "[[PDFs/2023/2023-Lee-KoSBI.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3, BERT"
+LLM_assessed: "GPT-3"
 DATA_URL: "https://github.com/naver-ai/korean-safety-benchmarks"
 CONFERENCE: "ACL 2023"
 ethics_overall: "Yes"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "15 categories"
@@ -84,7 +88,7 @@ Large language models (LLMs) not only learn natural text generation abilities bu
 
 ## Data Description
 
-KOSBI is a Korean social bias dataset containing 34,214 context-sentence pairs covering 72 demographic groups across 15 categories. The dataset was generated using HyperCLOVA with in-context few-shot learning, then annotated by 200 crowd workers for safety labels including stereotypes, prejudice, and discrimination. It supports filtering-based moderation to reduce social biases in LLM-generated content.
+KOSBI: 34K pairs of contexts and sentences covering 72 demographic groups in 15 categories for Korean social bias detection, with safe/unsafe labels.
 
 
 ## Notes

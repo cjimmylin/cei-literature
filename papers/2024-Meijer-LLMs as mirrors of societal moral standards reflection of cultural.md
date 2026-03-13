@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +47,13 @@ local_pdf: "[[PDFs/2024/2024-Meijer-LLMs as mirrors of societal moral standards 
 pdf_extract: "PDF Extracts/2024/2024-Meijer-LLMs as mirrors of societal moral standards reflection of cultural.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Cross-cultural (55 countries via WVS, 40 countries via Pew)"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-2, OPT, BLOOM"
+LLM_assessed: "BLOOM, GPT-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) have become increasingly pivotal in various domains due the recent advancements in their performance capabilities. However, concerns persist regarding biases in LLMs, including gender, racial, and cultural biases derived from their training data. These biases raise critical questions about the ethical deployment and societal impact of LLMs. Acknowledging these concerns, this study investigates whether LLMs accurately reflect cross-cultural variations and..."

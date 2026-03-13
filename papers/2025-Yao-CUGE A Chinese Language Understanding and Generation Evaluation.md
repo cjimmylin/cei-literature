@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +49,13 @@ local_pdf: "[[PDFs/2025/2025-Yao-CUGE A Chinese Language Understanding and Gener
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: "Cantonese, Chinese, Hakka, Min"
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
-DATA_URL: "NA"
+LLM_assessed: "mT5"
+DATA_URL: "https://cuge.baai.ac.cn"
 tags: 
 abstract: "Realizing general-purpose language intelligence has been a longstanding goal for natural language processing, where standard evaluation benchmarks play a fundamental and guiding role. We argue that for generalpurpose language intelligence evaluation, the benchmark itself needs to be comprehensive and systematic. To this end, we propose CUGE, a Chinese Language Understanding and Generation Evaluation benchmark with the following features: (1) Hierarchical benchmark framework, where datasets are..."
 CONFERENCE: "Other Conference"
@@ -98,7 +101,8 @@ Realizing general-purpose language intelligence has been a longstanding goal for
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+CUGE is a hierarchical Chinese language benchmark covering 7 language capabilities, 18 NLP tasks, and 21 representative datasets. Models evaluated are pre-trained language models (mT5-Small, mT5-Large, mT5-XXL, CPM-2) rather than modern instruction-tuned LLMs; BERT is not actually tested.
+
 
 ## Notes
 

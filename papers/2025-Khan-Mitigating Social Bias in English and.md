@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +45,8 @@ local_pdf: "[[PDFs/2025/2025-Khan-Mitigating Social Bias in English and.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "English, Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -50,7 +54,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) increasingly mediate human communication, decision support, content creation, and information retrieval. Despite impressive fluency, these systems frequently produce biased or stereotypical content, especially when prompted with socially sensitive language. A growing body of research has demonstrated that such biases disproportionately affect low-resource languages, where training data is limited and culturally unrepresentative."
-LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o-mini, Llama, PaLM"
+LLM_assessed: "GPT-3.5, GPT-4o mini"
 DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 CONFERENCE: "Preprint"
@@ -60,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -90,7 +94,8 @@ Evaluates inference-time bias mitigation across English and Urdu. Urdu shows sig
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o-mini, Llama, PaLM. No high-confidence repository-style data URL was identified.
+Introduces a bilingual dataset of 200 English prompts and 200 Urdu translations for fairness evaluation of single-word completions, spanning gender, ethnicity, nationality, religion, disability, and other demographic dimensions.
+
 
 ## Notes
 

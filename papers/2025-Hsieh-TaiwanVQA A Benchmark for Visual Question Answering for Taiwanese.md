@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +46,14 @@ local_pdf: "[[PDFs/2025/2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Ans
 pdf_extract: "PDF Extracts/2025/2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese.md"
 "N/A"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Taiwanese"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: "GPT-4, GPT-4o"
 DATA_URL: "https://huggingface.co/datasets/hhhuang/TaiwanVQA"
 tags: 
 abstract: "Novel VQA benchmark with 2,000 image-question pairs covering Taiwanese culture and daily life including local cuisine, festivals, landmarks, and public signage. Performance gap widens between recognition (73.60%) and reasoning tasks (49.80%), indicating challenges in cultural inference."
@@ -62,8 +64,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---

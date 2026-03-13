@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +55,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: "GPT-3.5, GPT-4, Gemini"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini"
@@ -64,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"

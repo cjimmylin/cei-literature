@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,12 +53,12 @@ local_pdf: "[[PDFs/2025/2025-Yoo-Moral Judgment of LLM Using Korean Datasets and
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
-religious_values: "N/A"
-religious_values_list: "N/A"
+languages_list: "Korean"
+religious_values: "Confucianism, Taoism, Buddhism"
+religious_values_list: "Confucianism, Taoism, Buddhism"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, GPT-3.5"
+LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "NA"
 tags: 
 abstract: "Analyzes LLM moral biases using Korean datasets and Eastern ethical principles. Examines how moral judgment varies in low-resource vs high-resource language environments. Compares Eastern and Western ethical policies on LLM moral output."
@@ -65,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---

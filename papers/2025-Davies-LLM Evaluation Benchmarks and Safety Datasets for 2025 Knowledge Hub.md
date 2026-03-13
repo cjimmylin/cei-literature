@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,9 +47,9 @@ CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Chinese, English, Japanese"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -61,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

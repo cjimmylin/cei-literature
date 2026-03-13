@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ publication: "arXiv / ACL Anthology (LoResMT 2024)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
-languages_list: Hebrew
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Lamda"
+LLM_assessed: "GPT-3.5, GPT-4, T5"
 DATA_URL: "https://github.com/OnlpLab/HeSum"
 tags: 
 abstract: "While large language models (LLMs) excel in various natural language tasks in English, their performance in lower-resourced languages like Hebrew, especially for generative tasks such as abstractive summarization, remains unclear. The high morphological richness in Hebrew adds further challenges due to the ambiguity in sentence comprehension and the complexities in meaning construction. In this paper, we address this resource and evaluation gap by introducing HeSum, a novel benchmark..."
@@ -60,7 +64,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -97,7 +101,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Lamda. Verified dataset/resource link: https://github.com/OnlpLab/HeSum.
+HeSum: a dataset of 10,000 article-summary pairs from Hebrew news websites for abstractive summarization, with high abstractness and unique morphological challenges for Hebrew NLP benchmarking.
+
 
 ## Notes
 

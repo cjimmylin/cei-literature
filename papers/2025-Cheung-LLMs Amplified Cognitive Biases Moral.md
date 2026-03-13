@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_CHEUNG2025
@@ -33,18 +37,18 @@ doi: 10.1073/pnas.2412015122
 url: "https://www.pnas.org/doi/10.1073/pnas.2412015122"
 pdf_extract: "PDF Extracts/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.md"
 local_pdf: "[[PDFs/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.pdf]]"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Moral Reasoning, LLM Bias, Cognitive Bias, Deontology, Utilitarianism"
 key_contribution: "Demonstrates LLMs show stronger omission bias than humans and a novel 'no-bias' in moral decision-making, likely arising from fine-tuning"
 significance: "PNAS publication revealing systematic biases in LLM moral advice with implications for AI ethics"
 external_pdf: N/A
 abstract: "The experiments demonstrate that the decisions and advice of LLMs are systematically biased against doing anything, and this bias is stronger than in humans. In Study 1, compared LLM responses to those of a representative U.S. sample (N = 285) for 22 dilemmas, including both collective action problems that pitted self-interest against the greater good, and moral dilemmas that pitted utilitarian cost-benefit reasoning against deontological rules. In collective action problems, LLMs were more altruistic than participants. In moral dilemmas, LLMs exhibited stronger omission bias than participants: They usually endorsed inaction over action. Moreover, identified a bias in LLMs' responses that has not been found in people - LLMs tend to answer 'no,' thus flipping their decision/advice depending on how the question is worded. In Study 4, investigated the sources of these biases by comparing models with and without fine-tuning, showing that they likely arise from fine-tuning models for chatbot applications."
-LLM_assessed: "GPT-4, Claude, Llama-3"
+LLM_assessed: "Claude, GPT-4, GPT-4o, Llama-3"
 DATA_URL: "https://osf.io/3ahrb"
 normative_ethics_benchmark: Yes
 publication: PNAS

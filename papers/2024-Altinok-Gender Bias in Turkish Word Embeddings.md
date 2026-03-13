@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +52,7 @@ publication: "GeBNLP 2024 (ACL Workshop)"
 CONF-CC: "ACL 2024 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Gender bias in word representations has emerged as a prominent research area in recent years. While numerous studies have focused on measuring and addressing bias in English word embeddings, research on the Turkish language remains limited. This work aims to bridge this gap by conducting a comprehensive evaluation of gender bias in Turkish word embeddings, considering the dimensions of syntax, semantics, and morphology."
-LLM_assessed: "Qwen2"
+LLM_assessed: NA
 DATA_URL: "https://github.com/DuyguA/GeBNLP-2024-Gende"
 CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -96,7 +100,8 @@ Studies gender bias in Turkish word embeddings. Examines how gender-neutral Turk
 
 ## Data Description
 
-Backfill summary: Models assessed include Qwen2. Verified dataset/resource link: https://github.com/DuyguA/GeBNLP-2024-Gende.
+Evaluates gender bias in Turkish Floret/FastText subword-based static word embeddings across three domains (web crawl, academic, medical).
+
 
 ## Notes
 

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,8 +58,8 @@ tags:
 abstract: "Conversational AI systems like ChatGPT have seen remarkable advancements in recent years, revolutionizing human–computer interactions. However, evaluating the performance and ethical implications of these systems remains a challenge. This paper delves into the creation of rigorous benchmarks, adaptable standards, and an intelligent evaluation methodology tailored specifically for ChatGPT. We meticulously analyze several prominent benchmarks, including GLUE, SuperGLUE, SQuAD, CoQA, Persona-Chat,"
 CONF-CC: "BenchCouncil Transactions on Benchmarks Standards and Evaluations"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, GPT-4"
-DATA_URL: "https://github.com/alexa/alexa-with-dstc10-track2-dataset"
+LLM_assessed: "ChatGPT"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md"
 local_pdf: "[[PDFs/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.pdf]]"
 CONFERENCE: "Journal"
@@ -64,8 +68,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"

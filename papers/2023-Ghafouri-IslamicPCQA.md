@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "12,282 question"
@@ -94,7 +97,7 @@ Nowadays, one of the main challenges for Question Answering Systems is to answer
 
 ## Data Description
 
-IslamicPCQA is the first Persian multi-hop complex question answering dataset based on unstructured Islamic text resources, consisting of 12,282 question-answer pairs extracted from 9 Islamic encyclopedias. The dataset includes comparative and bridge questions requiring multi-step reasoning across multiple paragraphs, with supporting facts and key sentences. Four pre-trained models (XLM-RoBERTa, ParsBERT, BERT multilingual, and mT5) were fine-tuned and evaluated on the dataset.
+IslamicPCQA: the first Persian multi-hop complex question answering dataset consisting of 12,282 question-answer pairs extracted from 9 Islamic encyclopedias, evaluated using XLM-RoBERTa, ParsBERT (BERT-based), mBERT, and mT5 models.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ local_pdf: "[[PDFs/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Ant
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
-languages_list: Chinese
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5, GPT-4, GPT-4o"
+LLM_assessed: "DeepSeek, GPT-4o, o3-mini"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) increasingly shape public understanding and civic decisions, yet their ideological neutrality is a growing concern. While existing research has explored various forms of LLM bias, a direct, cross-lingual comparison of models with differing geopolitical alignments—specifically a PRC-system model versus a non-PRC counterpart—has been lacking. This study addresses this gap by systematically evaluating DeepSeek-R1 (PRC-aligned) against ChatGPT o3-mini-high (non-PRC) for..."
@@ -97,7 +101,8 @@ Large language models (LLMs) increasingly shape public understanding and civic d
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5, GPT-4, GPT-4o. No high-confidence repository-style data URL was identified.
+A corpus of 1,200 de-contextualized reasoning-oriented questions derived from Chinese-language news, presented in Simplified Chinese, Traditional Chinese, and English, used to evaluate propaganda and anti-US bias. 7,200 total model answers collected.
+
 
 ## Notes
 

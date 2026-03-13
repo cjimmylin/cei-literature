@@ -46,6 +46,7 @@ Maarten Sap is an Assistant Professor at Carnegie Mellon University's Language T
 - [[2020-Forbes-Social Chemistry 101|Social Chemistry 101]]
 - [[2020-Gehman-RealToxicityPrompts|RealToxicityPrompts]]
 - [[2020-Sap-Social Bias Frames|Social Bias Frames]] (First Author)
+- [[2019-Sap-Social IQa Commonsense Reasoning about Social Interactions|Social IQa]] (First Author)
 
 ## Notes
 

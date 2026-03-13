@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ As AI systems become more capable, we would like to enlist their help to supervi
 
 ## Data Description
 
-The paper introduces the Constitutional AI (CAI) method for training harmless AI assistants using AI feedback rather than human labels for harmfulness. It uses red-teaming conversation datasets and human feedback helpfulness datasets to train and evaluate various sizes (810M to 52B parameters) of Anthropic's own language models through supervised learning and reinforcement learning phases. The preference datasets and code are available at the listed GitHub repository, with additional RLHF data at https://github.com/anthropics/hh-rlhf.
+Constitutional AI principles and few-shot prompts for training harmless AI assistants via RLAIF self-improvement.
 
 
 ## Notes

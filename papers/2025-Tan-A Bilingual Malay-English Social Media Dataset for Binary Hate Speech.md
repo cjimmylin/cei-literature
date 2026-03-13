@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +48,15 @@ CONF-CC: "Data in Brief"
 pdf_extract: "PDF Extracts/2025/2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.md"
 local_pdf: "[[PDFs/2025/2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Malaysian"
+national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: "English, Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, DistilBERT"
-DATA_URL: "https://github.com/MaityKrishanu/Hate_Malay"
+LLM_assessed: "BERT"
+DATA_URL: "https://data.mendeley.com/datasets/mgv2n2vcb9/3"
 tags: 
 abstract: "26,985 bilingual Malay-English social media texts from five public sources for binary hate speech detection. 13,609 English and 13,376 Malay-language texts with human annotation and controlled pseudo-labelling."
 CONFERENCE: "Journal"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -97,7 +100,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DistilBERT. Verified dataset/resource link: https://github.com/MaityKrishanu/Hate_Malay.
+A bilingual Malay-English social media dataset of 26,985 texts (13,609 English, 13,376 Malay) for binary hate speech detection, combining human-annotated sources with controlled pseudo-labelled data from five public repositories to address class imbalance and low-resource language coverage.
+
 
 ## Notes
 

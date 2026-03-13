@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2025/2025-Davies-Exploring the occupational biases and stereo
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: Chinese
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Baichuan, ChatGLM, ChatGLM2, ChatGPT, GPT-3, baichuan-ai, BERT"
-DATA_URL: "NA"
+LLM_assessed: "Baichuan, ChatGLM, ERNIE, Qwen"
+DATA_URL: "https://data.mendeley.com/datasets/n54mks9dzx/1"
 tags: 
 abstract: "I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources."
 research_topic: "Other"
@@ -96,7 +100,8 @@ I've performed a web search and found several relevant results about Chinese NLP
 
 ## Data Description
 
-Backfill summary: Models assessed include Baichuan, ChatGLM, ChatGLM2, ChatGPT, GPT-3, baichuan-ai, BERT. No high-confidence repository-style data URL was identified.
+Releases a dataset of 16,200 AI-generated personal profiles produced by 5 Chinese LLMs across 90 surnames and 12 occupations, with annotations for gender, region, age, and educational background biases, available on Mendeley Data.
+
 
 ## Notes
 

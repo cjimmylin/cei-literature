@@ -22,6 +22,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +44,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
-languages_list: Hebrew
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -58,7 +61,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
@@ -96,7 +99,7 @@ Develops a Hebrew corpus of user comments annotated for abusive language from Fa
 
 ## Data Description
 
-This paper develops a Hebrew corpus of user comments from Facebook annotated for abusive language. It investigates sparse n-grams and dense character n-grams representations for abuse classification. The classifiers used are traditional machine learning models, not LLMs. No public data repository URL was identified.
+A Hebrew corpus of user comments from Facebook annotated for abusive language, used to train and evaluate classifiers for abuse detection.
 
 
 ## Notes

@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +55,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, Llama-2, PaLM-2, Falcon"
+LLM_assessed: "Falcon, GPT-4, Llama-2, PaLM-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Generative models are increasingly being used in various applications, such as text generation, commonsense reasoning, and question-answering. To be effective globally, these models must be aware of and account for local socio-cultural contexts, making it necessary to have benchmarks to evaluate the models for their cultural familiarity. Since the training data for LLMs is web-based and the Web is limited in its representation of information, it does not capture knowledge present within..."
@@ -61,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -97,7 +102,7 @@ First community-generated dataset of 615 social artifacts from 260 participants 
 
 ## Data Description
 
-DOSA (Dataset of Social Artifacts) contains 615 social artifacts spanning food, clothing, and rituals from 19 Indian subcultures across different geographical regions. Evaluates GPT-4, Llama-2, PaLM 2, and Falcon on cultural knowledge of Indian social artifacts. Tests models on recognition, association, and cultural significance of Indian regional traditions.
+DOSA is the first community-generated dataset of 615 social artifacts from 260 participants across 19 Indian geographic subcultures, collected via surveys and a gamified participatory framework (GWAP). Both original and expanded artifact lists are intended for release.
 
 
 ## Notes

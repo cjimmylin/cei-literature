@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "Preservation Digital Technology & Culture"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Systematic critical synthesis analyzing 69 studies across five continents on digital technology projects for Indigenous sociocultural advancement. Identifies eight project types, three ideopolitical frames (cultural bridging, countering Euro-Western dominance, technical problem-solving), and tensions around outsider expert control over Indigenous data."
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"

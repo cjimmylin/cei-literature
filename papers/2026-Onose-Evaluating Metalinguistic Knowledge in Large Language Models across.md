@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2026/2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across.md"
 local_pdf: "[[PDFs/2026/2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-3, Llama, Llama-3.3"
+LLM_assessed: "GPT-4o, Gemma, LLaMA"
 DATA_URL: "https://github.com/Oranzna/metalinguistic_"
 tags: 
 abstract: "Large language models (LLMs) are routinely evaluated on language use tasks, yet their explicit knowledge about linguistic structure remains poorly understood. Existing linguistic benchmarks typically focus on narrow phenomena, emphasize high-resource languages, and rarely evaluate metalinguistic knowledge—explicit reasoning about language structure rather than language use. In this paper, we present a comprehensive multilingual evaluation of metalinguistic knowledge in LLMs, based on the World..."
@@ -95,7 +99,8 @@ Large language models (LLMs) are routinely evaluated on language use tasks, yet 
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, GPT-4o, Gemma, Gemma-3, Llama, Llama-3.3. Verified dataset/resource link: https://github.com/Oranzna/metalinguistic_.
+A massively multilingual metalinguistic knowledge benchmark derived from the World Atlas of Language Structures (WALS), comprising natural-language multiple-choice questions about 192 linguistic features across 2,660 languages. Released as open-source under CC-BY-4.0.
+
 
 ## Notes
 

@@ -22,6 +22,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,14 +56,14 @@ tags:
 abstract: "Recent incidents highlight safety risks in Large Language Models (LLMs), motivating research into alignment methods like Constitutional AI (CAI). This paper explores CAI’s self-critique mechanism on small, uncensored 7-9B parameter models: DeepSeek-R1-8B, Gemma-2-9B, Llama 3.1-8B, and Qwen2.5-7B. We show that while Llama-based models exhibited significant harm reduction through self-critique, other architectures demonstrated less improvement in harm detection after abliteration."
 paper_summary: "Abstract: Recent incidents highlight safety risks in Large Language Models (LLMs), mo- tivating research into alignment methods like Constitutional AI (CAI). This pa- per explores CAI's self-critique mechanism  | Overview: HOW EFFECTIVE IS CONSTITUTIONAL AI IN SMALL LLMS? A STUDY ON DEEPSEEK-R1 AND ITS PEERS Antonio-Gabriel Chac´on Menke Shibaura Institute of Technology, Tokyo Kempten University of Applied Sciences, Kem | Methodology: We experiment with four small instruction models in the 7-9B parameter range: DeepSeek-R1-Distill-Llama-8B (DeepSeek-AI et al., 2025) (R1-Llama); Gemm | Conclusions: Figure 1 shows that models based on the Llama architecture (R1-Llama and Llama-3.1) demon- strated the strongest harm reduction in their revised respo"
 DATE_ADDED: 20260208
-LLM_assessed: "DeepSeek, Gemma, Llama-3, Qwen"
-DATA_URL: "https://zenodo.org/records/12608602"
+LLM_assessed: "DeepSeek, Gemma-2, Llama-3, Qwen-2"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"

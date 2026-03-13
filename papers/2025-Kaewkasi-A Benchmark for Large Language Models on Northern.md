@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ paper_summary: "Abstract: Large language models show promising results in variou
 local_pdf: "[[PDFs/2025/2025-Kaewkasi-A Benchmark for Large Language Models on Northern.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, GPT-4, Gemini"
+LLM_assessed: "Gemini, GPT-4o, Llama-3"
 DATA_URL: "https://github.com/mrpeerat/Thai_local_benchmark"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -92,7 +96,7 @@ Large language models show promising results in various NLP tasks. Despite these
 
 ## Data Description
 
-This paper introduces a Thai local dialect benchmark covering Northern (Lanna), Northeastern (Isan), and Southern (Dambro) Thai dialects. It evaluates LLMs on five NLP tasks: summarization, question answering, translation, conversation, and food-related tasks, comprising 400 samples total (100 per dialect plus Central Thai). The benchmark includes human evaluation guidelines and metrics for assessing dialect-specific fluency and generation accuracy.
+A Thai local dialect benchmark with 400 samples covering Northern (Lanna), Northeastern (Isan), and Southern (Dambro) Thai dialects across five NLP tasks (QA, summarization, translation, conversation, food topics), plus a new human evaluation guideline and metric for dialect fluency.
 
 
 ## Notes

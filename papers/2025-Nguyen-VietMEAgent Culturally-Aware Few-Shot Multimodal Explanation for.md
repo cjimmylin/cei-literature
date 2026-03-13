@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +53,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BLIP-VQA; LXMERT; PaLM-VQA; Gemini-2.0-Pro"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/Dangindev/viet-cultural-vqa"
 tags: 
 abstract: "Contemporary Visual Question Answering (VQA) systems remain constrained when confronted with culturally specific content, largely because cultural knowledge is under-represented in training corpora and the reasoning process is not rendered interpretable to end users. This paper introduces VietMEAgent, a multimodal explainable framework engineered for Vietnamese cultural understanding. The method integrates a cultural object detection backbone with a structured program generation layer, yielding..."
@@ -61,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for question answering"
 data_metrics: "Not specified"

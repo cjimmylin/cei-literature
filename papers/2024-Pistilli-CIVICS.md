@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,9 +43,9 @@ authors: "Giada Pistilli; Alina Leidinger; Yacine Jernite; Atoosa Kasirzadeh; Al
 doi: 10.1609/aies.v7i1.31710
 url: "https://ojs.aaai.org/index.php/AIES/article/view/31710"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/4LU2FNH5/Pistilli et al. - 2024 - CIVICS Building a Dataset for Examining Culturally-Informed Values in Large Language Models.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
-languages_list: "Multilingual"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "English, French, German, Italian, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -52,7 +56,7 @@ tags:
 abstract: "This paper introduces the “CIVICS: Culturally-Informed & Values-Inclusive Corpus for Societal impacts” dataset, designed to evaluate the social and cultural variation of Large Language Models (LLMs) across multiple languages and value-sensitive topics. We create a hand-crafted, multilingual dataset of value-laden prompts which address specific socially sensitive topics, including LGBTQI rights, social welfare, immigration, disability rights, and surrogacy."
 CONF-CC: "Proceedings of the AAAI/ACM Conference on AI Ethics and Society"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, Qwen, DeepSeek, Mistral, Gemma"
+LLM_assessed: "Command-R, DeepSeek, Gemma, Llama-3, Mistral, Qwen-1.5"
 DATA_URL: "https://huggingface.co/CIVICS-dataset"
 pdf_extract: "PDF Extracts/2024/2024-Pistilli-CIVICS.md"
 local_pdf: "[[PDFs/2024/2024-Pistilli-CIVICS.pdf]]"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -137,7 +141,7 @@ The authors conclude that CIVICS serves as a tool for future research on LLM val
 
 ## Data Description
 
-CIVICS (Culturally-Informed & Values-Inclusive Corpus for Societal impacts) is a hand-crafted, multilingual dataset of 699 value-laden prompts spanning five languages (English, French, German, Italian, Turkish) and nine national contexts. The prompts address socially sensitive topics including LGBTQI rights, social welfare, immigration, disability rights, and surrogacy, sourced from authoritative entities such as national governments and news agencies. The dataset is designed to evaluate LLMs' social and cultural variation across diverse linguistic and cultural contexts.
+Releases the CIVICS (Culturally-Informed & Values-Inclusive Corpus for Societal impacts) dataset: a hand-crafted, multilingual collection of 699 value-laden prompts across five languages and nine national contexts, covering LGBTQI rights, social welfare, immigration, disability rights, and surrogacy.
 
 
 ## Notes

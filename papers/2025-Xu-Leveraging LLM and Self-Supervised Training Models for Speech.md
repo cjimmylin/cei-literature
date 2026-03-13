@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +56,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Qwen 2.5, Qwen 2, Qwen-Audio, Qwen2, Qwen2.5"
-DATA_URL: "https://github.com/jeinlee1991/chinese-LLM-"
+LLM_assessed: "Qwen, Qwen-2"
+DATA_URL: NA
 tags: 
 abstract: "Large-scale training corpora have significantly improved the performance of ASR models. Unfortunately, due to the relative scarcity of data, Chinese accents and dialects remain a challenge for most ASR models. Recent advancements in self-supervised learning have shown that self-supervised pretraining, combined with large language models (LLM), can effectively enhance ASR performance in low-resource scenarios. We aim to investigate the effectiveness of this paradigm for Chinese dialects."
 research_topic: "Machine Learning"
@@ -64,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

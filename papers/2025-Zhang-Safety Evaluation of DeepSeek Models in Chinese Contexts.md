@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "DeepSeek-R1, DeepSeek-V3, GLM-4-Plus, Doubao-pro-256k, Qwen2.5-72B, Yi-Lightning, MiniMax-01, Moonshot-v1-128k, Spark-4.0-Ultra, ERNIE-4.0-Turbo-128K, Step-2-16K, Hunyuan-Turbo"
+LLM_assessed: "DeepSeek, Baichuan, ChatGLM, Qwen, Yi"
 DATA_URL: "NA"
 tags: 
 abstract: "Recently, the DeepSeek series of models, leveraging their exceptional reasoning capabilities and open-source strategy, is reshaping the global AI landscape. Despite these advantages, they exhibit significant safety deficiencies. Research conducted by Robust Intelligence, a subsidiary of Cisco, in collaboration with the University of Pennsylvania, revealed that DeepSeek-R1 has a 100% attack success rate when processing harmful prompts."
@@ -60,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,7 @@ Introduces CHiSafetyBench for evaluating DeepSeek-R1 and DeepSeek-V3 safety in C
 
 ## Data Description
 
-This study uses CHiSafetyBench to evaluate DeepSeek-R1 and DeepSeek-V3 alongside 10 other Chinese LLMs on safety in Chinese-specific contexts. The evaluation covers multiple safety dimensions relevant to Chinese deployment scenarios. The study compares how these models handle Chinese-specific safety challenges relative to each other.
+CHiSafetyBench is a Chinese-specific safety evaluation benchmark aligned with the Chinese government's 'Basic Safety Requirements for Generative AI Services' standard, covering 5 major safety areas (discrimination, violation of values, commercial violations, infringement of rights, security requirements) with multiple-choice and risky question tasks.
 
 
 ## Notes

@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: Inspired by the superior language abilities of large l
 local_pdf: "[[PDFs/2023/2023-Li-Evaluating Object Hallucination in Large.pdf]]"
 CONF-CC: "EMNLP 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, GPT-4, Llama, Vicuna"
+LLM_assessed: NA
 DATA_URL: "https://github.com/RUCAIBox/POPE"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -63,7 +67,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
@@ -95,7 +99,7 @@ Inspired by the superior language abilities of large language models (LLM), larg
 
 ## Data Description
 
-The paper introduces POPE (Polling-based Object Probing Evaluation), a benchmark method for evaluating object hallucination in large vision-language models. It uses the MSCOCO dataset with 500 randomly sampled images to evaluate five LVLMs (mPLUG-Owl, LLaVA, MultiModal-GPT, MiniGPT-4, InstructBLIP) on their tendency to hallucinate objects not present in images. No standard LLMs from the canonical list were directly tested.
+POPE (Polling-based Object Probing Evaluation), a benchmark method for evaluating object hallucination in large vision-language models using Yes/No probing questions with random, popular, and adversarial sampling strategies.
 
 
 ## Notes

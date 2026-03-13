@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +49,8 @@ pdf_extract: PDF Extracts/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment
 local_pdf: "[[PDFs/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kurdish"
-languages_list: "Kurdish (Sorani)"
+cultures_nationalities_list: "N/A"
+languages_list: "Kurdish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -99,7 +102,7 @@ First publicly available aspect-based sentiment analysis dataset for Sorani Kurd
 
 ## Data Description
 
-This paper introduces KurdABSA, the first publicly available aspect-based sentiment analysis (ABSA) dataset for the Sorani dialect of Kurdish, containing over 4,000 quadruplet annotations in the restaurant review domain. The dataset was automatically annotated using GPT-4 Turbo with a prompt-based few-shot learning approach, guided by 35 manually annotated examples verified by native Kurdish-language experts. The data was collected from public Facebook and Instagram restaurant review pages in the Kurdistan Region.
+Releases KurdABSA, the first publicly available aspect-based sentiment analysis dataset for Sorani Kurdish, containing 4,355 quadruplet ABSA entries from restaurant reviews annotated using GPT-4 Turbo in a few-shot setting.
 
 
 ## Notes

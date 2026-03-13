@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -85,7 +89,7 @@ Without proper safeguards, large language models will readily follow malicious i
 
 ## Data Description
 
-XSTEST is a test suite comprising 250 safe prompts across ten prompt types and 200 unsafe contrast prompts designed to identify exaggerated safety behaviours in LLMs. The benchmark evaluates models on their propensity to refuse safe prompts that superficially resemble unsafe ones, covering categories including homonyms, figurative language, safe targets, safe contexts, definitions, discrimination, historical events, and privacy.
+XSTEST is a hand-crafted test suite of 250 safe prompts across 10 prompt types plus 200 unsafe contrast prompts, designed to identify exaggerated safety behaviours in LLMs.
 
 
 ## Notes

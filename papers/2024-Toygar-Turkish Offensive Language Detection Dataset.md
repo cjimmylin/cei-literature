@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +55,7 @@ publication: HuggingFace
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -60,7 +63,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Turkish offensive language detection dataset available on HuggingFace for training and evaluating models on offensive content in Turkish. Publicly available Turkish offensive language dataset for safety evaluation of Turkish language models."
-LLM_assessed: "NA"
+LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -101,7 +104,7 @@ Turkish offensive language detection dataset available on HuggingFace for traini
 
 ## Data Description
 
-A Turkish offensive language detection dataset hosted on HuggingFace, designed for training and evaluating models on offensive content in Turkish. The dataset provides labeled examples for safety evaluation of Turkish language models, though the exact scale and annotation details are not available from the metadata alone.
+28,808 Turkish tweet-reply pairs annotated for offensive language against unvaccinated people during COVID-19, with evaluation of ML models including BERTurk (Turkish BERT) and traditional ML baselines.
 
 
 ## Notes

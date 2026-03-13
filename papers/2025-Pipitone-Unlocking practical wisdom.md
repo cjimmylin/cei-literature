@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics robot inner speak with human"
@@ -34,11 +36,11 @@ last_author: "[[Chella, Antonio]]"
 authors: "Pipitone, Arianna; Seidita, Irene; Sullins, John P.; Chella, Antonio"
 doi: 10.1038/s41598-025-86193-7
 url: "https://pubmed.ncbi.nlm.nih.gov/39837932/"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Demonstrates how robotic 'inner speech' can enhance human phronesis (practical wisdom) and foster virtuous decision-making in collaborative contexts"

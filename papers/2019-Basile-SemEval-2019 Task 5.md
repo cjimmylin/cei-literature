@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +45,7 @@ doi: 10.18653/v1/S19-2007
 url: "https://www.aclweb.org/anthology/S19-2007"
 external_pdf: "https://aclanthology.org/S19-2007.pdf"
 national_ethnic_cultural: "Spanish"
-cultures_nationalities_list: "Spanish, English"
+cultures_nationalities_list: "Spanish"
 languages_list: "English, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ pdf_extract: "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5.md"
 local_pdf: "[[PDFs/2019/2019-Basile-SemEval-2019 Task 5.pdf]]"
 CONF-CC: "SemEval 2019"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, GloVe"
+LLM_assessed: NA
 DATA_URL: "https://github.com/msang/hateval"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -63,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,7 @@ The paper describes the organization of the SemEval 2019 Task 5 about the detect
 
 ## Data Description
 
-The HatEval dataset comprises 19,600 tweets (13,000 English, 6,600 Spanish) annotated for multilingual hate speech detection against immigrants and women. Each tweet is labeled for hate speech presence (binary), target range (individual vs. group), and aggressiveness, collected from Twitter using keyword-driven approaches and annotated via crowdsourcing with expert adjudication.
+HatEval dataset: 19,600 tweets in English and Spanish annotated for hate speech against immigrants and women, used in SemEval-2019 Task 5 with 74 teams and 108 submitted runs.
 
 
 ## Notes

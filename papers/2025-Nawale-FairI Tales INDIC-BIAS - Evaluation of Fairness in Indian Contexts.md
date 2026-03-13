@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Warning: This paper includes content that may be considered offensive or upsetting. Existing studies on fairness are largely Westernfocused, making them inadequate for culturally diverse countries such as India. To address this gap, we introduce INDIC-BIAS, a comprehensive India-centric benchmark designed to evaluate fairness of LLMs across 85 identity groups encompassing diverse castes, religions, regions, and tribes."
-LLM_assessed: "GPT-4, Llama-3, Gemma, Mistral, Mixtral, Gemini"
+LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Gemma-2, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://github.com/AI4Bharat/indic-bias"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,8 @@ Warning: This paper includes content that may be considered offensive or upsetti
 
 ## Data Description
 
-INDIC-BIAS is an India-centric fairness benchmark comprising 20,000 manually validated real-world scenario templates across 85 identity groups spanning caste, religion, region, and tribe categories. The benchmark evaluates LLMs through three tasks (plausibility, judgment, and generation) using over 1,800 expert-curated socio-cultural topics. Fourteen LLMs were evaluated including Llama-3 (1B-70B), Gemma (2B-27B), Mistral (7B, 8x7B MoE), GPT-4O, GPT-4O-mini, Gemini-1.5-Pro, and Gemini-1.5-Flash.
+INDIC-BIAS is a comprehensive India-centric benchmark with 20,000 manually validated real-world scenario templates probing LLMs for fairness across 85 identity groups (castes, religions, regions, tribes), structured into three evaluation tasks: plausibility, judgment, and generation. Released as open-source.
+
 
 ## Notes
 

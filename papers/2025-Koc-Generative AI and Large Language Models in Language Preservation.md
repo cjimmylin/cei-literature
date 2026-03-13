@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +46,7 @@ local_pdf: "[[PDFs/2025/2025-Koc-Generative AI and Large Language Models in Lang
 pdf_extract: "PDF Extracts/2025/2025-Koc-Generative AI and Large Language Models in Language Preservation.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Global Indigenous, Maori"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -61,7 +63,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Responsible AI"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

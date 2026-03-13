@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +45,7 @@ authors: "Machlovi, Naseem; Saleki, Maryam; Amin, Ruhul; Rahouti, Mohamed; Al-Ma
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03273"
 external_pdf: "https://arxiv.org/pdf/2601.03273.pdf"
-pdf_extract: "PDF Extracts/0000/2025-Machlovi-GuardEval.md"
+pdf_extract: "PDF Extracts/2025/2025-Machlovi-GuardEval.md"
 local_pdf: "[[PDFs/2025/2025-Machlovi-GuardEval.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
@@ -64,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -100,7 +103,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-GuardEval is a unified multi-perspective benchmark dataset containing 106 fine-grained categories spanning human emotions, offensive language, gender and racial bias, and broader safety concerns, integrating 13 prominent benchmark datasets. The paper introduces GGuard (GemmaGuard), a QLoRA fine-tuned version of Gemma3-12B trained on GuardEval, and evaluates it against OpenAI Moderator, Llama Guard3, NemoGuard, and ShieldGemma for content moderation tasks.
+GuardEval is a unified multi-perspective benchmark dataset with 106 fine-grained safety categories spanning hate speech, offensive language, gender/racial bias, emotional toxicity, and jailbreak prompts, consolidated from multiple existing sources for training and evaluating LLM content moderators.
+
 
 ## Notes
 

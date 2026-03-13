@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ last_author: "[[Kush R. Varshney]]"
 authors: "Matthew Pisano; Keerthiram Murugesan; Lamogha Chiazor; Lan Hoang; Karthikeyan Natesan Ramamurthy; Kush R. Varshney"
 url: "https://openreview.net/forum?id=11nZWTg0mS"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7KJT72S3/8903_Moral_High_Ground_A_text_.pdf"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -52,7 +56,7 @@ tags:
 abstract: "In this paper, we introduce a benchmark for the evaluation of large language models on moral values and business principles. The main focus of this framework is to evaluate the moral and ethical reasoning abilities of large language models using text-based games, which can be played by both human players and models. We present these games to the player as an interaction between the player and the environment."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Flan-T5, Falcon, Llama-2"
+LLM_assessed: "Flan-T5, Flan-UL2, Falcon, Llama-2"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Pisano-Moral High Ground.md"
 local_pdf: "[[PDFs/2024/2024-Pisano-Moral High Ground.pdf]]"

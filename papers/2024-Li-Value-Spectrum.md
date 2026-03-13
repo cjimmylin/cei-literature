@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "The recent progress in Vision-Language Models (VLMs) has broadened th
 paper_summary: "Abstract: The recent progress in Vision-Language Mod- els (VLMs) has broadened the scope of multi- modal applications. However, evaluations often remain limited to functional tasks, neglecting abstract dimensio | Overview: arXiv:2411.11479v3 [cs.CL] 3 Jun 2025 Value-Spectrum: Quantifying Preferences of Vision-Language Models via Value Decomposition in Social Media Contexts Jingxuan Li1,* Yuning Yang1,* Shengqi Yang2 Lin | Methodology: We randomly sampled 2,614 images from our dataset. A two-step pipeline was then applied: | Key Findings: GPT-4o, Gemini 1.5 Pro, Qwen-VL-Plus (Bai et al., 2023), Claude 3.5 Sonnet, and CogVLM (Wang et al., 2023a). We assess the VLMs' role-playing ability  | Conclusions: VLMs vs. Corresponding LLMs. We conduct several experiments to examine whether different types of multi-modal inputs influence value pref- erence outc"
 local_pdf: "[[PDFs/2024/2024-Li-Value-Spectrum.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Gemini, Claude, DeepSeek, Qwen"
+LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Gemini, Qwen-2"
 DATA_URL: "https://github.com/Jeremyyny/Value-Spectrum"
 CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
@@ -102,7 +106,7 @@ The recent progress in Vision-Language Models (VLMs) has broadened the scope of 
 
 ## Data Description
 
-Value-Spectrum is a Visual Question Answering (VQA) benchmark for assessing vision-language model preferences based on Schwartz's ten value dimensions. The dataset comprises 50,191 unique short video screenshots collected from Instagram (32%), YouTube (29%), and TikTok (39%), spanning July to October 2024 across diverse topics including lifestyle, technology, and health. Eight VLMs were evaluated including GPT-4o, Gemini 2.0 Flash, Claude 3.5 Sonnet, DeepSeek-VL2, Qwen2.5-VL-Plus, InternVL2, CogVLM2, and Blip-2 for their intrinsic value preferences and role-playing adaptability.
+Value-Spectrum: a VQA benchmark of 50,191 short video screenshots from TikTok, YouTube Shorts, and Instagram Reels (July–October 2024), organized by Schwartz's 10 value dimensions, used to evaluate VLM value preferences and persona role-playing capabilities.
 
 
 ## Notes

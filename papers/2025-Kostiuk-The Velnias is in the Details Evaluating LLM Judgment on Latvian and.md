@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2025/2025-Kostiuk-The Velnias is in the Details Evaluating LL
 pdf_extract: "PDF Extracts/2025/2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Latvian, Lithuanian"
+cultures_nationalities_list: "N/A"
 languages_list: "Latvian, Lithuanian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Qwen-2.5-72B, Qwen-2.5-7B, Llama-3.1-70B, Llama-3.1-8B, EuroLLM-9B, Mistral-Nemo-12B, Mistral-7B"
+LLM_assessed: "Llama-3, Mistral, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "In this work, we address the challenge of evaluating large language models (LLMs) on the short answer matching task for Latvian and Lithuanian languages. We introduce novel datasets consisting of 502 Latvian and 690 Lithuanian question-answer pairs. For each question-answer pair, we generated matched and non-matched answers using a set of alteration rules specifically designed to introduce small but meaningful changes in the text."
@@ -98,7 +102,7 @@ Novel datasets of 502 Latvian and 690 Lithuanian QA pairs evaluating LLMs on sho
 
 ## Data Description
 
-Evaluates 7 LLMs on moral and ethical judgment tasks in Latvian (502 QA pairs) and Lithuanian (690 QA pairs). Tests models on culturally-specific ethical dilemmas in Baltic languages. GitHub repository mentioned but anonymized for peer review.
+Introduces novel datasets of 502 Latvian and 690 Lithuanian question-answer pairs for short answer matching, with matched and non-matched answers generated via culturally-specific text alteration rules. A subset was manually verified for quality.
 
 
 ## Notes

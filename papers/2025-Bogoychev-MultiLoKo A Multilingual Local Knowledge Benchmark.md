@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +51,8 @@ local_pdf: "[[PDFs/2025/2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge 
 publication: "Meta Research"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We present MultiLoKo, a new benchmark for evaluating multilinguality in LLMs covering 31 languages. MultiLoKo consists of three partitions: a main partition consisting of 500 questions per language, separately sourced to be locally relevant to the specific language, and two translated partitions, containing human-authored translations from 30 non-English languages to English and vice versa. For comparison, we also release corresponding machine-authored translations."
-LLM_assessed: "Claude 3.5 Sonnet, Claude Sonnet, Claude., GPT4, GPT-4o, Llama 3.1, Mixtral 8x22B, Qwen, Qwen 2.5, Qwen2.5, llama 3, mistral.ai, mixtral-8x22b"
+LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Llama-3, Mixtral, Qwen-2"
 DATA_URL: "https://github.com/facebookresearch/multiloko"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -65,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "500 questions"
 ---
@@ -101,7 +105,8 @@ Multilingual local knowledge benchmark with 500 questions per language separatel
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 3.5 Sonnet, Claude Sonnet, Claude., GPT4, GPT-4o, Llama 3.1, Mixtral 8x22B, Qwen, Qwen 2.5, Qwen2.5, llama 3, mistral.ai, mixtral-8x22b. Verified dataset/resource link: https://github.com/facebookresearch/multiloko.
+MultiLoKo benchmark dataset with 500 locally-sourced questions per language across 31 languages, plus human- and machine-authored translations, totalling 15,500 parallel samples. Includes language-specific prompts, few-shot examples, and evaluation scripts.
+
 
 ## Notes
 

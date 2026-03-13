@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +52,12 @@ local_pdf: "[[PDFs/2023/2023-Dehghani-Persian Offensive Language Detection Dehgh
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ELMo, GPT3, GloVe, RoBERTa, Word2Vec"
+LLM_assessed: "BERT, XLM-R"
 DATA_URL: "NA"
 tags: 
 abstract: "With the proliferation of social networks and their impact on human life, one of the rising problems in this environment is the rise in verbal and written insults and hatred. As one of the significant platforms for distributing text-based content, Twitter frequently publishes its users’ abusive remarks. Creating a model that requires a complete collection of offensive sentences is the initial stage in recognizing objectionable phrases."
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -100,7 +104,8 @@ Database of 33k Persian abusive language tweets tested using 648 abusive Persian
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ELMo, GPT3, GloVe, RoBERTa, Word2Vec. No high-confidence repository-style data URL was identified.
+38K-tweet Persian offensive language dataset with manual annotations, bias evaluation using FPED and pAUCED metrics, and debiasing methodology.
+
 
 ## Notes
 

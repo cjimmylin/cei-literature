@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) evolve from conversational assistants into autonomous agents, evaluating the safety of their actions becomes critical. Prior safety benchmarks have primarily focused on preventing generation of harmful content, such as toxic text. However, they overlook the challenge of agents taking harmful actions when the most effective path to an operational goal conflicts with human safety."
-LLM_assessed: "GPT-4, Gemini, Claude, Qwen"
+LLM_assessed: "GPT-4o, Claude, Gemini, Qwen"
 DATA_URL: "https://github.com/technion-cs-nlp/ManagerBench"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

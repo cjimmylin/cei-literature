@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ pdf_extract: "PDF Extracts/2025/2025-Shmidman-Dicta-LM 3.0 Advancing The Frontie
 local_pdf: "[[PDFs/2025/2025-Shmidman-Dicta-LM 3.0 Advancing The Frontier of Hebrew Sovereign LLMs.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli, Hebrew"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "English, Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT4o, Gemma, Gemma 3, Llama, Llama 3, Mistral Small, Mistral-Small, Qwen, Qwen3, gemma-3"
-DATA_URL: "https://github.com/NVIDIA-NeMo/RL"
+LLM_assessed: "Gemma, GPT-4o, LLaMA, Llama-3, Mistral, Qwen"
+DATA_URL: "https://huggingface.co/dicta-il/dictalm3.0"
 tags: 
 abstract: "Open-weight LLMs have been released by frontier labs; however, sovereign Large Language Models (for languages other than English) remain low in supply yet high in demand. Training large language models (LLMs) for low-resource languages such as Hebrew poses unique challenges. In this paper, we introduce Dicta-LM 3.0: an open-weight collection of LLMs trained on substantially-sized corpora of Hebrew and English texts. The model is released in three sizes: 24B - adapted from the Mistral-Small-3."
 CONFERENCE: "Other Conference"

@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,9 +47,9 @@ CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Saudi"
-languages_list: "English, Uyghur"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
+languages_list: "Arabic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

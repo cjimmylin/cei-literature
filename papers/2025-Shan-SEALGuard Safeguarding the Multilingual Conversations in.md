@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-Shan-SEALGuard Safeguarding the Multilingual Conver
 publication: "AIware 2025"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Southeast Asian"
+national_ethnic_cultural: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Safety alignment is critical for LLM-powered systems. While recent LLM-powered guardrail approaches such as LlamaGuard achieve high detection accuracy of unsafe inputs written in English (e.g., 'How to create a bomb?'), they struggle with multilingual unsafe inputs. This limitation leaves LLM systems vulnerable to unsafe and jailbreak prompts written in low-resource languages such as those in Southeast Asia."
-LLM_assessed: "Alpaca, ChatGPT, GPT-4, Llama, Llama- Guard, Llama-Guard, LlamaGuard"
+LLM_assessed: "LLaMA"
 DATA_URL: "https://github.com/awsm-research/SEALGuard"
 research_topic: "Machine Translation"
 CONFERENCE: "Preprint"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Multilingual guardrail for LLM safety in SEA languages. Constructs SEALSBench wi
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-4, Llama, Llama- Guard, Llama-Guard, LlamaGuard. Verified dataset/resource link: https://github.com/awsm-research/SEALGuard.
+SEALSBench is a multilingual safety alignment benchmark containing 266,444 prompts (safe, unsafe, and jailbreak) across English and nine Southeast Asian languages, covering ten unsafe content categories and nine jailbreak types.
+
 
 ## Notes
 

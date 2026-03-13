@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,14 +52,14 @@ pdf_extract: "PDF Extracts/2024/2024-Research-SEA-VQA Southeast Asian Cultural C
 local_pdf: "[[PDFs/2024/2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian, Filipino, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Indonesian, Filipino, Southeast Asian"
+cultures_nationalities_list: "Indonesian, Filipino, Multicultural/Cross-cultural"
 languages_list: "Filipino/Tagalog, Indonesian, Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, GPT-4-TURBO"
-DATA_URL: "https://huggingface.co/datasets/wit543/sea-vqa"
+LLM_assessed: "GPT-4, Gemini"
+DATA_URL: "https://wit543.github.io/sea-vqa"
 tags: 
 abstract: "Visual Question Answering (VQA) is a critical task requiring the simultaneous understanding of visual and textual information. While significant advancements have been made with multilingual datasets, these often lack cultural specificity, especially in the context of Southeast Asia (SEA). In this paper, we introduce SEA-VQA, aiming to highlight the challenges and gaps in existing VQA models when confronted with culturally specific content."
 CONFERENCE: "ACL 2024"
@@ -64,8 +68,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
@@ -101,7 +105,8 @@ VQA dataset with images from eight Southeast Asian countries curated from UNESCO
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, GPT-4-TURBO. Verified dataset/resource link: https://huggingface.co/datasets/wit543/sea-vqa.
+SEA-VQA: a Visual Question Answering dataset with 1,999 questions from 515 images across 8 Southeast Asian countries and 53 cultures, curated from UNESCO Cultural Heritage collection, for evaluating cultural understanding in multimodal models.
+
 
 ## Notes
 

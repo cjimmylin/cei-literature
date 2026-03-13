@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,15 +46,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Aly-On Evaluating and Mitigating Gender Biases in Multilingual ....md"
 local_pdf: "[[PDFs/2025/2025-Aly-On Evaluating and Mitigating Gender Biases in Multilingual ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian, Arabic"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: "Arabic, Indian, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Arabic, Indian, Multicultural/Cross-cultural"
 languages_list: "Arabic, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "NA"
+DATA_URL: "https://aka.ms/multilingual-bias"
 tags: 
 abstract: "While understanding and removing gender biases in language models has been a longstanding problem in Natural Language Processing, prior research work has primarily been limited to English. In this work, we investigate some of the challenges with evaluating and mitigating biases in multilingual settings which stem from a lack of existing benchmarks and resources for bias evaluation beyond English especially for non-western context."
 research_topic: "Bias & Fairness"
@@ -96,7 +99,8 @@ While understanding and removing gender biases in language models has been a lon
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
+Multilingual DisCo benchmark extending gender bias evaluation templates to 6 Indian languages (Hindi, Bengali, Marathi, Punjabi, Gujarati) using human-corrected annotations; enables systematic evaluation and debiasing of masked language models across non-English languages.
+
 
 ## Notes
 

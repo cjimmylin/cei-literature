@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -62,9 +65,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -98,7 +101,8 @@ Shared task series (2021-2025) on sexism identification in social networks. Bili
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
+EXIST 2021 shared task: 11,000+ bilingual (Spanish/English) tweets and gabs annotated for sexism identification and categorization.
+
 
 ## Notes
 

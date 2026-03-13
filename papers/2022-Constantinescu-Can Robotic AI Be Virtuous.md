@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_CONSTANTINESCU2022
@@ -34,11 +36,11 @@ doi: 10.1007/s12369-022-00887-w
 url: "https://link.springer.com/article/10.1007/s12369-022-00887-w"
 pdf_extract: "PDF Extracts/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.md"
 local_pdf: "[[PDFs/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.pdf]]"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, Social Robotics, Deep Learning, Human-Robot Interaction"
 key_contribution: "Argues AI systems cannot genuinely be virtuous (Aristotelian sense) but can only behave in a virtuous way; analyzes right actions, feelings, and manner requirements"

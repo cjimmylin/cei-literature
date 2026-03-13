@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ local_pdf: "[[PDFs/2023/2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehen
 pdf_extract: "PDF Extracts/2023/2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew, Israeli"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, mBERT, AlephBERT, AlephBERTGimel"
-DATA_URL: "NA"
+LLM_assessed: "AlephBERT, AlephBERTGimel, BERT, ChatGPT"
+DATA_URL: "https://github.com/NNLP-IL/Hebrew-Question-Answering-Dataset"
 tags: 
 abstract: "Current benchmarks for Hebrew Natural Language Processing (NLP) focus mainly on morpho-syntactic tasks, neglecting the semantic dimension of language understanding. To bridge this gap, we set out to deliver a Hebrew Machine Reading Comprehension (MRC) dataset, where MRC is to be realized as extractive Question Answering. The morphologically-rich nature of Hebrew poses a challenge to this endeavor: the indeterminacy and non-transparency of span boundaries in morphologically complex forms lead to..."
 CONFERENCE: "EMNLP 2023"
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-The paper introduces HeQ (Hebrew QA), a Hebrew machine reading comprehension benchmark containing 30,147 question-answer pairs derived from Hebrew Wikipedia articles and Israeli tech news. Several models are evaluated including mBERT, AlephBERT, AlephBERTGimel, and ChatGPT. The paper also proposes revised evaluation metrics suitable for morphologically rich languages, finding that standard metrics like F1 and Exact Match are not appropriate for Hebrew.
+HeQ benchmark: 30,147 Hebrew QA pairs from Hebrew Wikipedia and Israeli tech news for Hebrew reading comprehension evaluation with revised metrics for morphologically rich languages.
 
 
 ## Notes

@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +52,7 @@ publication: "EMNLP 2024"
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Pakistani"
+cultures_nationalities_list: "N/A"
 languages_list: "Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "In this paper, we compare generalpurpose models, GPT-4-Turbo and Llama-3-8b, with special-purpose models—XLM-Roberta-large, mT5-large, and Llama-3-8b—that have been fine-tuned on specific tasks. We focus on seven classification and seven generation tasks to evaluate the performance of these models on Urdu language. Urdu has 70 million native speakers, yet it remains underrepresented in Natural Language Processing (NLP)."
-LLM_assessed: "BERT, BLOOM, BLOOMZ, ChatGPT, Claude, Claude 3.5 Sonnet, Claude., GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4-Turbo, GPT-4o, Gemma, Llama-3, Llama, Llama-2, Llama., Llama8, Llama8., Mistral, PaLM-2, PaLM2, RoBERTa, llama3"
-DATA_URL: "https://github.com/meta-llama/llama3"
+LLM_assessed: "GPT-4, Llama-3, Claude-3, RoBERTa, T5, BLOOM"
+DATA_URL: "https://github.com/sameearif/"
 research_topic: "Other"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
@@ -66,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---
@@ -96,7 +101,8 @@ Evaluates LLMs across 14 NLP tasks using 15 Urdu datasets in zero-shot setting. 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, BLOOMZ, ChatGPT, Claude, Claude 3.5 Sonnet, Claude., GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4-Turbo, GPT-4o, Gemma, Llama-3, Llama, Llama-2, Llama., Llama8, Llama8., Mistral, PaLM-2, PaLM2, RoBERTa, llama3. Verified dataset/resource link: https://github.com/meta-llama/llama3.
+Comprehensive evaluation of generalist (GPT-4-Turbo, Llama-3-8b) and specialist (XLM-RoBERTa-large, mT5-large, fine-tuned Llama-3-8b) models across 14 Urdu NLP tasks using 15 datasets.
+
 
 ## Notes
 

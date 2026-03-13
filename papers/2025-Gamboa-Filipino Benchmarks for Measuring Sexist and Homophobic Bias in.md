@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "COLING 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Filipino"
 cultures_nationalities_list: "Filipino"
-languages_list: Filipino/Tagalog
+languages_list: "Filipino"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOM, GPT-4, Mistral, RoBERTa, llama3"
-DATA_URL: "NA"
+LLM_assessed: "BERT, BLOOM, GPT-4, Llama-3, Mistral, RoBERTa"
+DATA_URL: "https://github.com/gamboalance/filipino_bias_benchmarks"
 tags: 
 abstract: "Bias studies on multilingual models confirm the presence of gender-related stereotypes in masked models processing languages with high NLP resources. We expand on this line of research by introducing Filipino CrowS-Pairs and Filipino WinoQueer: benchmarks that assess both sexist and anti-queer biases in pretrained language models (PLMs) handling texts in Filipino, a low-resource language from the Philippines."
 CONFERENCE: "ACL 2025"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, GPT-4, Mistral, RoBERTa, llama3. No high-confidence repository-style data URL was identified.
+Filipino CrowS-Pairs and Filipino WinoQueer: 7,074 new Filipino-language challenge pairs culturally adapted from English bias benchmarks to assess sexist and homophobic biases in multilingual PLMs.
+
 
 ## Notes
 

@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,16 +52,16 @@ local_pdf: "[[PDFs/2025/2025-Osmani-Investigating Retrieval-Augmented Generation
 publication: "IJACSA / arXiv"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Accurate and contextually faithful responses are critical when applying large language models (LLMs) to sensitive and domain-specific tasks, such as answering queries related to quranic studies. General-purpose LLMs often struggle with hallucinations, where generated responses deviate from authoritative sources, raising concerns about their reliability in religious contexts. This challenge highlights the need for systems that can integrate domain-specific knowledge while maintaining response..."
-LLM_assessed: "GPT-4, Gemma, Gemma 2, Gemma2, Llama, Llama 3, Llama 3.1, Llama 3.2, Llama 3.3, Llama3, Llama3.1, Llama3.2, Llama3.3, Phi3"
+LLM_assessed: "Gemma, Gemma-2, LLaMA, Llama-3, Phi-3, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"

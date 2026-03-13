@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,9 +48,9 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.md"
 local_pdf: "[[PDFs/2025/2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Uyghur"
-languages_list: Uyghur
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
+languages_list: "Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -99,7 +102,7 @@ Developing effective educational technologies for low-resource agglutinative lan
 
 ## Data Description
 
-This paper introduces the Modern Uyghur Dependency Treebank (MUDT), a linguistically grounded annotation framework for Uyghur consisting of 3,456 sentences. The Qwen3-max LLM was used via API for pre-annotation, followed by human correction. Parsing experiments evaluated UDPipe, Stanza, and DiaParser on the treebank, and a controlled experiment with 35 L2 learners validated an AI-assisted grammar tutoring system built on the MUDT parser.
+Modern Uyghur Dependency Treebank (MUDT): 3,456 Uyghur sentences with linguistically grounded dependency annotations, split into train/dev/test sets and validated via inter-annotator agreement and extrinsic parsing experiments with UDPipe and Stanza.
 
 
 ## Notes

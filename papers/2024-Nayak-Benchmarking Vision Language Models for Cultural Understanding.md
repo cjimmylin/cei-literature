@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "EMNLP 2024"
 local_pdf: "[[PDFs/2024/2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "African/Ubuntu, American"
-cultures_nationalities_list: "Ethiopian, Nigerian, Rwandan"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, Gemini, Claude, LLaVA, InternVL"
+LLM_assessed: "GPT-4o, Gemini"
 DATA_URL: "https://culturalvqa.org"
 tags: 
 abstract: "Foundation models and vision-language pretraining have notably advanced Vision Language Models (VLMs), enabling multimodal processing of visual and linguistic data. However, their performance has been typically assessed on general scene understanding – recognizing objects, attributes, and actions – rather than cultural comprehension. This study introduces CULTURALVQA, a visual question-answering benchmark aimed at assessing VLM’s geo-diverse cultural understanding."
@@ -62,8 +66,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ Introduces CulturalVQA, a VQA benchmark with 2,378 image-question pairs from 11 
 
 ## Data Description
 
-CulturalVQA is a visual question-answering benchmark with 2,378 image-question pairs (7,206 total answers) representing cultures from 11 countries across 5 continents. Questions probe understanding of clothing, food, drinks, rituals, and traditions. Multiple VLMs are evaluated including GPT-4o, Gemini-Pro-Vision, Claude 3.5, LLaVA-1.5, LLaVA-Next, and InternVL, revealing significant performance disparities between Western and non-Western cultural understanding.
+CulturalVQA is a visual question-answering benchmark of 2,378 image-question pairs from 11 countries across 5 continents, probing VLMs' geo-diverse cultural understanding across clothing, food, drinks, rituals, and traditions.
 
 
 ## Notes

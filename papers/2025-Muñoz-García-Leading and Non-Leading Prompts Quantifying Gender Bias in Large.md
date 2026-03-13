@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
-languages_list: Spanish
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -61,8 +64,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
@@ -97,7 +100,7 @@ Validated methodology to quantify gender bias in Spanish LLM-generated text. Cre
 
 ## Data Description
 
-The paper introduces the BiasBloom corpus, a methodology for quantifying gender bias in Spanish LLM-generated text using gendered seed-word lists and curated prompts. No PDF extract is available and the abstract does not name the specific LLMs tested. Finds male:female gender disparity of 4:1 to 6:1 in benchmark datasets.
+Spanish-specific corpus constructed using curated prompts and gendered seed-word lists to quantify gender bias in Spanish LLM-generated text; finds 4:1 to 6:1 male:female gender disparity.
 
 
 ## Notes

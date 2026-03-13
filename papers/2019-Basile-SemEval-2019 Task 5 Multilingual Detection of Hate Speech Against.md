@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ pdf_extract: "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Det
 local_pdf: "[[PDFs/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
-cultures_nationalities_list: "Spanish, English"
+cultures_nationalities_list: "Spanish"
 languages_list: "English, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

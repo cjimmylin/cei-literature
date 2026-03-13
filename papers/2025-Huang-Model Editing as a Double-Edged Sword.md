@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ pdf_extract: "PDF Extracts/2025/2025-Huang-Model Editing as a Double-Edged Sword
 abstract: "Agents based on Large Language Models (LLMs) have demonstrated strong capabilities across a wide range of tasks. However, deploying LLM-based agents in high-stakes domains comes with significant safety and ethical risks. Unethical behavior by these agents can directly result in serious real-world consequences, including physical harm and financial loss. To efficiently steer the ethical behavior of agents, we frame agent behavior steering as a model editing task, which we term Behavior Editing."
 paper_summary: "Abstract: Agents based on Large Language Models (LLMs) have demonstrated strong capabilities across a wide range of tasks. However, deploying LLM-based agents in high-stakes do- mains comes with significant saf | Overview: Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm Baixiang Huang1, Zhen Tan2, Haoran Wang1, Zijie Liu3, Dawei Li2, Ali Payani4, Huan Liu2, Tianlong Chen | Methodology: shows strong potential for promoting benevolent behav- ior, it also introduces significant safety risks. Parameter- modifying techniques generally out | Key Findings: After constructing the benchmark, we propose a holistic evaluation framework to assess the effectiveness of model editing methods in steering agent be | Conclusions: By conceptualizing behavior steering as a model edit- ing task, we demonstrate that Behavior Editing supports both fine-grained, scenario-specific adj"
 local_pdf: "[[PDFs/2025/2025-Huang-Model Editing as a Double-Edged Sword.pdf]]"
-LLM_assessed: "Llama-2, Llama-3, Mistral, Qwen, Claude, GPT-4, o1, o3, Gemini, DeepSeek, Grok"
+LLM_assessed: "Claude, DeepSeek, GPT-4, GPT-4o, Gemini, Grok, Llama-2, Llama-3, Mistral, Qwen, o1, o3"
 DATA_URL: "https://github.com/baixianghuang/behavior-edit"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
@@ -96,7 +100,7 @@ Agents based on Large Language Models (LLMs) have demonstrated strong capabiliti
 
 ## Data Description
 
-BEHAVIORBENCH is a multi-tier benchmark grounded in psychological moral theories (Moral Foundations Theory, Kohlberg's Stages, Rest's Four Component Model) for evaluating and editing ethical behavior of LLM-based agents. The benchmark comprises 1,001 moral scenarios from 10 datasets and was tested on 9 open-weight LLMs (including Llama-2-7B, Llama-3-8B, Mistral-7B, Qwen3-8B) and 20 proprietary models (including Claude 3.5/3.7 Sonnet, GPT-4o/4.1, o1/o3/o4-mini, Gemini 2.5 Pro/Flash, DeepSeek-R1-671B, Grok-3-beta) using three editing methods (ROME, FT-M, ICE).
+BEHAVIORBENCH is a multi-tier benchmark for ethical behavior evaluation of LLM agents, comprising 10 existing datasets aggregated and curated; no new dataset is released.
 
 
 ## Notes

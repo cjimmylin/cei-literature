@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The safety and alignment of Large Language Models (LLMs) are critical for their responsible deployment. Current evaluation methods predominantly focus on identifying and preventing overtly harmful outputs. However, they often fail to address a more insidious failure mode: models that produce benign-appearing outputs while operating on malicious or deceptive internal reasoning. This vulnerability, often triggered by sophisticated system prompt injections, allows models to bypass conventional..."
-LLM_assessed: "Claude, DeepSeek, Qwen, Grok"
+LLM_assessed: "Claude, DeepSeek, Gemini, Grok, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -98,7 +102,8 @@ Red-teaming exercise-generated dataset; each sample contains: adversarial system
 
 ## Data Description
 
-The paper introduces D-REX (Deceptive Reasoning Exposure Suite), a benchmark of 8,162 samples collected through a competitive red-teaming exercise designed to evaluate deceptive reasoning in LLMs. Each sample contains an adversarial system prompt injection, an end-user test query, the model's internal chain-of-thought revealing malicious intent, and a seemingly innocuous final response. Seven frontier models were evaluated across seven behavioral categories, with four judge LLMs scoring six deceptive behavior criteria. D-REX is maintained as a private benchmark with a controlled submission portal.
+D-REX (Deceptive Reasoning Exposure Suite) is a private benchmark of 8,162 adversarial examples collected via competitive red-teaming, each containing an adversarial system prompt, benign user query, internal chain-of-thought revealing malicious intent, and a seemingly innocuous final response. The benchmark is maintained as a private test set with a controlled submission portal to prevent contamination.
+
 
 ## Notes
 

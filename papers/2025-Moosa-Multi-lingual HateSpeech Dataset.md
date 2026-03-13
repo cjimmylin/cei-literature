@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +49,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Multilingual/Cross-cultural"
-languages_list: "English, Multilingual"
+cultures_nationalities_list: "N/A"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -63,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for hate speech detection"
@@ -97,7 +100,7 @@ Based on the web search results, here's what I found about multilingual hate spe
 
 ## Data Description
 
-This is a multilingual hate speech dataset hosted on Kaggle, designed for cross-lingual hate speech detection research. Without detailed documentation, the exact languages covered and dataset scale cannot be confirmed from the metadata alone. It is a dataset resource rather than an LLM evaluation study.
+Multilingual hate speech dataset available on Kaggle for cross-lingual hate speech detection research.
 
 
 ## Notes

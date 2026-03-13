@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -105,7 +108,7 @@ NLP annotation tool for named entities, relationships, and events in Hindu mytho
 
 ## Data Description
 
-The paper presents Mytho-Annotator, a web-based NLP annotation tool for Hindu mythology texts that supports labeling of named entities, relationships, and event entities. It enables creation of annotated corpora for information extraction from mythological texts. No models are tested; this is a tool paper for enabling future NLP research on Indian mythology.
+A web-based NLP annotation tool for Hindu mythology texts enabling creation of annotated corpora for named entities, relationships, and event entities in mythological texts.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ paper_summary: "Abstract: The robustness of LLMs to jailbreak attacks, where use
 local_pdf: "[[PDFs/2025/2025-Andriushchenko-AgentHarm.pdf]]"
 CONF-CC: "ICLR 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, GPT-4, Claude, Gemini, Mistral, Llama-3"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, GPT-3.5, GPT-4o, GPT-4o mini, Gemini, Llama-3, Mistral"
 DATA_URL: "https://huggingface.co/datasets/ai-safety-institute/AgentHarm"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -99,7 +103,7 @@ The robustness of LLMs to jailbreak attacks, where users design prompts to circu
 
 ## Data Description
 
-AgentHarm is a benchmark of 440 explicitly malicious agent tasks (110 base behaviors with augmentations) spanning 11 harm categories including fraud, cybercrime, and harassment, designed to evaluate LLM agent robustness to jailbreak attacks. The benchmark uses 104 synthetic tools and fine-grained grading rubrics to measure both refusal rates and multi-step agentic task completion capability across 15 frontier models.
+AgentHarm benchmark dataset of 440 agentic harm tasks (110 base + augmentations) across 11 harm categories with synthetic tools and grading rubrics for evaluating LLM agent safety.
 
 
 ## Notes

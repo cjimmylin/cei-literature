@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2025/2025-Simões-SESGO Spanish Evaluation of Stereotypical G
 publication: "arXiv / AAAI AIES"
 CONF-CC: "AAAI 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish, American, Latin American"
-cultures_nationalities_list: "Spanish, Latin American, American"
-languages_list: Spanish
+national_ethnic_cultural: "Spanish, Latin American"
+cultures_nationalities_list: "Spanish, Latin American"
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude 3, Claude 3., Claude 3.5 Haiku, DeepSeek R1, GPT-4, GPT-4o, GPT-4o mini, Llama, Llama 3.1, Llama 3, Llama-3.1, Qwen, Claude"
+LLM_assessed: "GPT-4o, Llama-3, DeepSeek"
 DATA_URL: "https://github.com/mvrobles/SESGO"
 tags: 
 abstract: "This paper addresses the critical gap in evaluating bias in multilingual Large Language Models (LLMs), with a specific focus on Spanish language within culturally-aware Latin American contexts. Despite widespread global deployment, current evaluations remain predominantly US-Englishcentric, leaving potential harms in other linguistic and cultural contexts largely underexamined. We introduce a novel, culturally-grounded framework for detecting social biases in instruction-tuned LLMs."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation methodology"
 data_metrics: "4,156 prompts"
 ---
@@ -98,7 +102,8 @@ Culturally situated evaluation methodology for Spanish-language models in Latin 
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 3, Claude 3., Claude 3.5 Haiku, DeepSeek R1, GPT-4, GPT-4o, GPT-4o mini, Llama, Llama 3.1, Llama 3, Llama-3.1, Qwen, Claude. Verified dataset/resource link: https://github.com/mvrobles/SESGO.
+SESGO is a culturally-grounded bias evaluation framework for Spanish-language LLMs in Latin American contexts, comprising 4,156+ prompts addressing gender, race, socioeconomic class, and national origin stereotypes adapted from the BBQ dataset with regional cultural expressions.
+
 
 ## Notes
 

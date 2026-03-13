@@ -1,23 +1,4 @@
----
-title: "2025-Sun-Document-Level Machine Translation with Large Language Models Longyue - PDF Extract"
-source_pdf: "2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.pdf"
-pages: 16
-extracted_at: "2026-02-13T17:43:24.878738"
----
-
-# PDF Extract: 2025-Sun-Document-Level Machine Translation with Large Language Models Longyue
-
-**Source PDF:** 2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.pdf
-**Total Pages:** 16
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 16646–16661
+---\ntitle: "2025-Sun-Document-Level Machine Translation with Large Language Models Longyue - PDF Extract"\nsource_pdf: "2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.pdf"\npages: 16\nextracted_at: "2026-02-14T02:17:35.826790"\n---\n\n# PDF Extract: 2025-Sun-Document-Level Machine Translation with Large Language Models Longyue\n\n**Source PDF:** 2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.pdf\n**Total Pages:** 16\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nProceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 16646–16661
 December 6-10, 2023 ©2023 Association for Computational Linguistics
 Document-Level Machine Translation with Large Language Models
 Longyue Wang1∗
@@ -104,9 +85,7 @@ were obtained from GPT-3.5 and GPT-4 in March 2023. The
 reproducibility is discussed in Section Limitation.
 16646
 
---- Page 2 ---
-
-ditionally, the model is trained on a large dialogue
+--- Page 2 ---\n\nditionally, the model is trained on a large dialogue
 dataset, which allows it to learn the patterns and
 conventions of human communication, further im-
 proving its ability to document-level understanding
@@ -211,9 +190,7 @@ tive, the mZPRT Fiction and IWSLT TED datasets
 pose a greater challenge compared to others.
 16647
 
---- Page 3 ---
-
-ID
+--- Page 3 ---\n\nID
 Domain
 Source
 Language
@@ -366,9 +343,7 @@ appears frequently in pronoun-dropping (pro-drop)
 5https://github.com/rsennrich/Bleualign.
 16648
 
---- Page 4 ---
-
-ID
+--- Page 4 ---\n\nID
 BLEU↑
 TER↓
 COMET↑
@@ -523,9 +498,7 @@ search confirms the neutrality and representative-
 ness of various prompts, allowing other researchers
 16649
 
---- Page 5 ---
-
-Model
+--- Page 5 ---\n\nModel
 Automatic (d-BLEU)
 Human (General/Discourse)
 News
@@ -673,9 +646,7 @@ d-BLEU, commercial MT systems generally out-
 8https://transmart.qq.com.
 16650
 
---- Page 6 ---
-
-Model
+--- Page 6 ---\n\nModel
 ZH⇒EN
 EN⇒DE
 TED
@@ -842,9 +813,7 @@ parallel decoder, which leverages the document
 structure and semantics for translation.
 16651
 
---- Page 7 ---
-
-ID
+--- Page 7 ---\n\nID
 Prompt
 P4
 Given an SRC text:{D}. Which one is the
@@ -975,9 +944,7 @@ con consistency, ellipsis (inflection), and ellipsis
 in English-Russian translations. Each instance has
 16652
 
---- Page 8 ---
-
-Subset
+--- Page 8 ---\n\nSubset
 GPT-3.5
 GPT-4
 Prediction
@@ -1098,9 +1065,7 @@ of LLMs trained with distinct techniques (detailed
 in §A.3). Accordingly, we use P3 and P4 prompts.
 16653
 
---- Page 9 ---
-
-Model
+--- Page 9 ---\n\nModel
 ZH⇒EN
 EN⇒RU
 Training Techniques in LLMs
@@ -1207,9 +1172,7 @@ antee accuracy or applicability across all contexts.
 These limitations might inadvertently introduce
 16654
 
---- Page 10 ---
-
-bias or overlook certain phenomena, potentially
+--- Page 10 ---\n\nbias or overlook certain phenomena, potentially
 impacting the comprehensiveness of our findings.
 In response to this concern, we strive to use an
 extensive array of the most recent datasets, span-
@@ -1312,9 +1275,7 @@ bls.gov/oes/current/oes273091.htm and https://www.
 bls.gov/oes/current/oes251124.htm.
 16655
 
---- Page 11 ---
-
-searchers can readily access and evaluate past
+--- Page 11 ---\n\nsearchers can readily access and evaluate past
 versions, ensuring continuity in analysis even as
 new model versions emerge.
 Acknowledgements
@@ -1426,9 +1387,7 @@ Proceedings of the Seventh Conference on Machine
 Translation.
 16656
 
---- Page 12 ---
-
-Tom Kocmi and Christian Federmann. 2023. Large
+--- Page 12 ---\n\nTom Kocmi and Christian Federmann. 2023. Large
 language models are state-of-the-art evaluators of
 translation quality. arXiv preprint arXiv:2302.14520.
 Klaus Krippendorff. 2011. Computing krippendorff’s
@@ -1537,9 +1496,7 @@ survey on zero pronoun translation. arXiv preprint
 arXiv:2305.10196.
 16657
 
---- Page 13 ---
-
-Longyue Wang, Zhaopeng Tu, Yan Gu, Siyou Liu, Dian
+--- Page 13 ---\n\nLongyue Wang, Zhaopeng Tu, Yan Gu, Siyou Liu, Dian
 Yu, Qingsong Ma, Chenyang Lyu, Liting Zhou, Chao-
 Hong Liu, Yufeng Ma, Weiyu Chen, Yvette Graham,
 Bonnie Webber, Philipp Koehn, Andy Way, Yulin
@@ -1612,9 +1569,7 @@ Incorporating bert into neural machine translation.
 arXiv preprint arXiv:2002.06823.
 16658
 
---- Page 14 ---
-
-A
+--- Page 14 ---\n\nA
 Appendix
 A.1
 Significance Testing
@@ -1763,9 +1718,7 @@ An improved version of GPT-3 with supervised
 model-index-for-researchers.
 16659
 
---- Page 15 ---
-
-fine-tuning on human-written demonstrations
+--- Page 15 ---\n\nfine-tuning on human-written demonstrations
 and model-generated examples rated by humans
 with high quality.
 • InstructGPT (FeedME-2) (Ouyang et al., 2022):
@@ -1787,9 +1740,7 @@ mation in dialogue into consideration.
 instruction-following.
 16660
 
---- Page 16 ---
-
-Score
+--- Page 16 ---\n\nScore
 General Quality
 Discourse Awareness
 5
@@ -1870,5 +1821,4 @@ Output is unrelated to previous or following
 sections.
 Table 12: Human evaluation criteria on document-level translation.
 16661
-
-```
+\n```\n

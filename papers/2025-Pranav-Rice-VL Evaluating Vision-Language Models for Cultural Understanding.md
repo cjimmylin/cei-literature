@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ local_pdf: "[[PDFs/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models fo
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indonesian, Filipino"
-cultures_nationalities_list: "Southeast Asian, Indonesian, Filipino, Vietnamese, Thai, Malaysian, Singaporean, Cambodian, Laotian, Burmese, Bruneian"
+national_ethnic_cultural: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
 languages_list: "Filipino/Tagalog, Indonesian, Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude-3, Claude-3-Opus, GPT-4, GPT-4o, LLaMA 3.2, Qwen, Qwen-VL, Qwen2.5, llama 3"
+LLM_assessed: "Claude-3, GPT-4o, LLaMA, Llama-3, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Vision-Language Models (VLMs) excel in multimodal tasks but often exhibit Westerncentric biases, limiting their effectiveness in culturally diverse regions like Southeast Asia (SEA). To address this, we introduce RICE-VL, a novel benchmark evaluating VLM cultural understanding across 11 ASEAN countries. RICE-VL includes over 28,000 human-curated Visual Question Answering (VQA) samples—covering True/False, Fill-inthe-Blank, and open-ended formats—and 1,000 image-bounding box pairs for Visual..."
@@ -61,9 +65,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude-3, Claude-3-Opus, GPT-4, GPT-4o, LLaMA 3.2, Qwen, Qwen-VL, Qwen2.5, llama 3. No high-confidence repository-style data URL was identified.
+RICE-VL is a multimodal benchmark with over 28,000 human-curated VQA samples across 11 ASEAN countries covering True/False, Fill-in-the-Blank, and open-ended formats, plus 1,000 image-bounding box pairs for Visual Grounding, annotated by culturally trained experts across 14 sub-categories.
+
 
 ## Notes
 

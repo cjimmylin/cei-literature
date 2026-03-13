@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "Nature Scientific Data"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous Peoples"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Describes how to operationalize FAIR Principles for scientific data together with CARE Principles for Indigenous Data Governance. Enhances machine actionability while bringing people and purpose to resolve Indigenous Peoples' rights and interests in their data across the data lifecycle, particularly relevant to big data and AI systems."
 CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"

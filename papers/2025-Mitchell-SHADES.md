@@ -21,6 +21,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +48,7 @@ key_contribution: "Introduces SHADES, a multilingual (16 languages) dataset for 
 significance: "Crucial for de-westernizing safety eval, showing that models consistently reproduce regional stereotypes often missed by English-centric benchmarks"
 tags: 
 abstract: "Large Language Models (LLMs), the bedrock of many “artificial intelligence” (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new..."
-LLM_assessed: "BLOOM, Llama-3, Mistral, Qwen"
+LLM_assessed: "BLOOM, Llama-2, Llama-3, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/LanguageShades/BiasShades"
 pdf_extract: "PDF Extracts/2025/2025-Mitchell-SHADES.md"
 local_pdf: "[[PDFs/2025/2025-Mitchell-SHADES.pdf]]"
@@ -86,7 +89,7 @@ Large Language Models (LLMs) reproduce and exacerbate the social biases present 
 
 ## Data Description
 
-SHADES is a multilingual dataset of stereotypes containing over 300 stereotypes from 37 regions, translated across 16 languages and annotated with multiple features including bias type, statement type, valid regions, and stereotyped entity. The dataset includes 304 stereotypes and 443 minimally contrastive statements, with templates for synthetic data generation. Evaluated on 13 multilingual LLMs from the BLOOM, Llama, Mistral, and Qwen model families.
+SHADES is a new multilingual parallel dataset of 304 internationally valid culturally-specific stereotypes from 37 regions translated across 16 languages, annotated with bias type, geographic validity, targeted subpopulations, and statement types; also includes 443 minimally contrastive non-stereotype statements and multilingual templates for synthetic bias evaluation data generation.
 
 
 ## Notes

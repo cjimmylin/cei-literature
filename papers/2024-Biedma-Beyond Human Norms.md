@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Elicit Human View from scratch: ValueLex"
@@ -38,11 +42,11 @@ local_pdf: "[[PDFs/2024/2024-Biedma-Beyond Human Norms.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2404.12744.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: "Virtue Ethics"
 key_contribution: "Introduces 'ValueLex', a framework that reconstructs LLMs' unique value systems from scratch, identifying three core non-human dimensions: Competence, Character, and Integrity"
@@ -51,7 +55,7 @@ tags:
 abstract: "Recent advancements in Large Language Models (LLMs) have revolution- ized the AI field but also pose potential safety and ethical risks. Deciphering LLMs' embedded values becomes crucial for assessing and mitigating their risks. Despite extensive investigation into LLMs' values, previous studies heavily rely on human-oriented value systems in social sciences. Then, a natural question arises: Do LLMs possess unique values beyond those of hu- mans? Delving into it, this work proposes a novel frame"
 paper_summary: "Abstract: Recent advancements in Large Language Models (LLMs) have revolution- ized the AI field but also pose potential safety and ethical risks. Deciphering LLMs' embedded values becomes crucial for assessing | Overview: Pre-print Beyond Human Norms: Unveiling Unique Values of Large Language Models through Interdisciplinary Approaches Pablo Biedma♢, Xiaoyuan Yi§∗, Linus Huang‡, Maosong Sun♢∗, Xing Xie§ § Microsoft Res | Methodology: for eliciting beliefs encoded in LLMs and studies different beliefs encoded in diverse LLMs. Simmons (2022a) further utilizes MFQ to analyze LLMs' pol | Key Findings: Input: p, Θ, S, V = {v1, v2, . . . , vK} Output: w = (w1, . . . , wK) 1: Y = ∅ 2: for each s ∈S do 3: for each θ ∈Θ do 4: Y = Y S{ym}M m=1, ym ∼p(y|s,"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Mistral, Vicuna"
+LLM_assessed: "GPT-3.5, GPT-3, GPT-4, Llama-2, Mistral, Gemma, Baichuan, Tulu-2, GLM-3, GLM-4, Gemini"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -125,7 +129,7 @@ LLMs possess structured value systems that do not translate seamlessly from huma
 
 ## Data Description
 
-The study proposes ValueLex, a framework to reconstruct LLMs' unique value systems using psychological methodologies. Over 525 LLM respondents from 30+ models (including GPT, LLaMA, Mistral, Vicuna, Baichuan, ChatGLM families) across various configurations were queried with 15 value-elicitation prompts, yielding 43,884 words and 197 unique value descriptors. Factor analysis and semantic clustering identified three core value dimensions (Competence, Character, Integrity), and projective sentence completion tests evaluated value orientations across different model sizes and training methods.
+Proposes ValueLex, a framework using projective tests to construct and evaluate LLM-specific value systems across 30+ models with 525 respondent configurations.
 
 
 ## Notes

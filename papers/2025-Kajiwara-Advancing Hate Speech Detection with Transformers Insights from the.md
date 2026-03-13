@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ pdf_extract: "PDF Extracts/2025/2025-Kajiwara-Advancing Hate Speech Detection wi
 local_pdf: "[[PDFs/2025/2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Japanese"
-cultures_nationalities_list: "N/A"
-languages_list: Japanese
+cultures_nationalities_list: "Japanese"
+languages_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BART, BART 0, BERT, DeBERTa, DeBERTa 0, DistilBERT, ELECTRA, GPT-2, GPT2, RoBERTa, T5, T5 0, XLNet"
+LLM_assessed: "BERT, GPT-2, RoBERTa, T5, XLNet"
 DATA_URL: "https://github.com/chapagaisa/hate_speech_detection"
 tags: 
 abstract: "Hate speech is a widespread and harmful form of online discourse, encompassing slurs and defamatory posts that can have serious social, psychological, and sometimes physical impacts on targeted individuals and communities. As social media platforms such as X (formerly Twitter), Facebook, Instagram, Reddit, and others continue to facilitate widespread communication, they also become breeding grounds for hate speech, which has increasingly been linked to real-world hate crimes."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation methodology dataset for hate speech detection"
 data_metrics: "36 datasets"
 ---

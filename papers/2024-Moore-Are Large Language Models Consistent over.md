@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +44,8 @@ url: "http://arxiv.org/abs/2407.02996"
 external_pdf: "http://arxiv.org/pdf/2407.02996.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2024"
-national_ethnic_cultural: "Chinese, Japanese, German, American"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Chinese, English, German, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +59,7 @@ abstract: "Large language models (LLMs) appear to bias their survey answers towa
 paper_summary: "Abstract: Large language models (LLMs) appear to bias their survey answers toward certain values. Nonetheless, some argue that LLMs are too inconsistent to simulate particular values. Are they? To answer, we fi | Overview: Are Large Language Models Consistent over Value-laden Questions? Jared Moore Stanford University jlcmoore@stanford.edu Tanvi Deshpande Stanford University tanvimd@stanford.edu Diyi Yang Stanford Unive | Conclusions: Prior work has argued that models either do (Dur- mus et al., 2024; Santurkar et al., 2023) or do not (Röttger et al., 2024; Shu et al., 2023) hold ce"
 local_pdf: "[[PDFs/2024/2024-Moore-Are Large Language Models Consistent over.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-2, Llama-3"
+LLM_assessed: "GPT-4o, Llama-2, Llama-3, Yi, Command-R"
 DATA_URL: "https://huggingface.co/datasets/jlcmoore/ValueConsistency"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
@@ -66,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "8,000 questions"
 ---
@@ -101,7 +104,7 @@ Large language models (LLMs) appear to bias their survey answers toward certain 
 
 ## Data Description
 
-The paper introduces VALUECONSISTENCY, a dataset of more than 8,000 questions across over 300 controversial and uncontroversial topics in four languages (English, Chinese, German, Japanese) for four countries (U.S., China, Germany, Japan). The dataset is designed to measure value consistency of LLMs across paraphrases, topics, use-cases (multiple-choice vs. open-ended), and multilingual translations, using a variant of the Jensen-Shannon divergence.
+VALUECONSISTENCY: a dataset of 8,000+ questions spanning 300+ topics across four languages (English, Chinese, German, Japanese) for measuring LLM value consistency across paraphrases, use-cases, multilingual translations, and related questions.
 
 
 ## Notes

@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +62,7 @@ abstract: "Language models (LMs) are becoming the foundation for almost all majo
 paper_summary: "Abstract: Language models (LMs) are becoming the foundation for almost all major language tech- nologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation o | Overview: Published in Transactions on Machine Learning Research (08/2023) Holistic Evaluation of Language Models Percy Liang†, Rishi Bommasani†, Tony Lee†, Dimitris Tsipras‡, Dilara Soylu‡, Michihiro Yasunaga‡ | Methodology: employed throughout linguistics (Chomsky, 1957) that helps to tease out fine-grained understanding of specific linguistic phenomena. Together, the two | Key Findings: No canonical tasks/not task-centric Semantics: Lexical Word sense disambiguation, word sense induction Semantics: Sentence-level Semantics, Textual In | Conclusions: 75 10 What is missing 77 10.1 Missing scenarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78 10.2 Missing"
 local_pdf: "[[PDFs/2022/2022-Liang-Holistic Evaluation of Language Models.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3, InstructGPT, GPT-J, GPT-NeoX, T5, OPT, BLOOM"
+LLM_assessed: "Anthropic-LM, BLOOM, Cohere, GLM, GPT-3, GPT-J, GPT-NeoX, InstructGPT, T0, T5, TNLGv2, YaLM"
 DATA_URL: "https://github.com/stanford-crfm/helm"
 CONFERENCE: "Other Conference"
 helm: "incorporated"
@@ -103,7 +108,7 @@ Language models (LMs) are becoming the foundation for almost all major language 
 
 ## Data Description
 
-HELM (Holistic Evaluation of Language Models) is a comprehensive benchmark evaluating 30 language models across 42 scenarios spanning 7 metric categories (accuracy, calibration, robustness, fairness, bias, toxicity, efficiency). The 30 models come from 12 organizations and include GPT-3 variants (davinci, curie, babbage, ada), InstructGPT variants (text-davinci-002, text-curie-001, text-babbage-001, text-ada-001), Codex (code-davinci-002, code-cushman-001), OPT (66B, 175B), BLOOM (176B), T5 (11B), T0++ (11B), UL2 (20B), GPT-J (6B), GPT-NeoX (20B), Anthropic-LM v4-s3 (52B), TNLG v2 (6.7B, 530B), Cohere models (4 sizes), AI21 J1 models (3 sizes), GLM (130B), and YaLM (100B).
+Holistic benchmark evaluating 30 LMs across 42 scenarios on 7 metrics including accuracy, fairness, bias, toxicity
 
 
 ## Notes

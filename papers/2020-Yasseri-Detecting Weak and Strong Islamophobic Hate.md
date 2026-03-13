@@ -30,6 +30,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -67,8 +70,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -105,7 +108,7 @@ Builds a multi-class classifier distinguishing non-Islamophobic, weak Islamophob
 
 ## Data Description
 
-The paper creates a new annotated dataset of 4,000 tweets (1,341 after balancing) labeled as non-Islamophobic, weak Islamophobic, or strong Islamophobic, drawn from a larger corpus of 140 million tweets from UK political party followers. Traditional ML classifiers (SVM, Naive Bayes, Deep Learning) are evaluated, with SVM achieving 77.3% accuracy on unseen data. No LLMs were tested.
+4,000 annotated tweets for three-class Islamophobic hate speech detection (non-Islamophobic, weak, strong), sampled from a corpus of 140 million tweets from UK political party followers, with custom-trained domain-specific GloVe word embeddings.
 
 
 ## Notes

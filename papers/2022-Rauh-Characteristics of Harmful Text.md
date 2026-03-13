@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,16 +61,16 @@ abstract: "Large language models produce human-like text that drives a growing n
 paper_summary: "Abstract: Large language models produce human-like text that drives a growing number of applications. However, recent literature and, increasingly, real world observations, have demonstrated that these models c | Overview: arXiv:2206.08325v2 [cs.CL] 28 Oct 2022 Characteristics of Harmful Text: Towards Rigorous Benchmarking of Language Models Maribeth Rauh∗ John Mellor Jonathan Uesato Po-Sen Huang Johannes Welbl Laura We | Key Findings: Table 2: Overview of inputs, outputs, and metrics associated with the various benchmarks we study. erence accuracy on Winobias could be evaluated the  | Conclusions: Related work. Numerous works have surveyed the landscape of potential language model harms, both broadly [11, 102] and speciﬁc to social bias [52, 93,"
 local_pdf: "[[PDFs/2022/2022-Rauh-Characteristics of Harmful Text.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "ALBERT, BERT, GPT-2, GPT-3, PaLM"
-DATA_URL: "https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "NeurIPS 2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"

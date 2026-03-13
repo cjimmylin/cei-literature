@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +48,7 @@ local_pdf: "[[PDFs/2022/2022-Das-Hate Speech and Offensive Language Detection.pd
 publication: "WebSearch: hate speech detection Dravidian languages"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Bengali"
 religious_values: "N/A"
@@ -54,8 +57,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Deep ensemble framework for hate speech detection in Tamil, Malayalam, and Kannada code-mixed text. Weighted ensemble achieved 0.802 and 0.933 weighted F1-scores for Tamil code-mixed datasets. Covers three Dravidian languages for hate speech detection. Ensemble approach establishes strong baselines for culturally specific offensive content."
-LLM_assessed: "ALBERT, BERT, RoBERTa"
-DATA_URL: "https://github.com/doccano/doccano"
+LLM_assessed: "BERT, RoBERTa, ALBERT"
+DATA_URL: "https://github.com/hate-alert/Bengali_Hate"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -95,7 +98,8 @@ Deep ensemble framework for hate speech detection in Tamil, Malayalam, and Kanna
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://github.com/doccano/doccano.
+Gold-standard dataset of 10K Bengali tweets (5K actual Bengali, 5K Romanized Bengali) annotated for hate speech, offensive language, and normal content, with target community annotations.
+
 
 ## Notes
 

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ paper_summary: "Abstract: Following the success of Large Language Models (LLMs),
 local_pdf: "[[PDFs/2025/2025-Chen-AVHBench.pdf]]"
 CONF-CC: "ICLR 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, Gemini, GEMINI-Flash, GPT4, Llama, LLaMA 50.0, LLaMA 50.1, LLaMA 67.2, LLaMA2, Llama 2, Qwen2, Vicuna"
+LLM_assessed: NA
 DATA_URL: "https://github.com/kaist-ami/AVHBench"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -94,7 +98,7 @@ Following the success of Large Language Models (LLMs), expanding their boundarie
 
 ## Data Description
 
-AVHBench is the first benchmark for evaluating cross-modal hallucinations in audio-visual large language models, comprising 5,302 QnA pairs and 1,106 audio-visual captions across four tasks: audio-driven video hallucination, video-driven audio hallucination, audio-visual matching, and audio-visual captioning. The benchmark evaluates six audio-visual LLMs (X-InstructBLIP, ImageBind-LLM, Video-LLaMA, ChatBridge, PandaGPT, OneLLM), which are specialized multimodal models rather than standard text LLMs from the canonical list. ChatGPT (GPT-4) was used for dataset construction but not as a tested subject.
+AVHBench: a cross-modal hallucination benchmark dataset of 5,302 QnA pairs and 1,106 audio-visual captions across 2,136 videos, designed to evaluate hallucinations in audio-visual LLMs.
 
 
 ## Notes

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "In this paper, we present Edu-Values, the first Chinese education values evaluation benchmark that includes seven core values: professional philosophy, teachers’ professional ethics, education laws and regulations, cultural literacy, educational knowledge and skills, basic competencies and subject knowledge. We meticulously design 1,418 questions, covering multiple-choice, multi-modal question answering, subjective analysis, adversarial prompts, and Chinese traditional culture (short answer)..."
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Gemma, Mixtral, Llama-2, Llama-3, Qwen, DeepSeek"
+LLM_assessed: "ChatGLM, Claude, DeepSeek, GPT-3.5, GPT-4, Gemini, Gemma-2, InternLM, Llama-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/zhangpeii/Edu-Values"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "1,418 questions"
 ---
@@ -100,7 +104,8 @@ In this paper, we present Edu-Values, the first Chinese education values evaluat
 
 ## Data Description
 
-Edu-Values is the first Chinese education values evaluation benchmark, consisting of 1,418 questions across seven core educational dimensions including professional philosophy, teachers' professional ethics, and subject knowledge. The benchmark evaluates 21 state-of-the-art LLMs including GPT-4, Claude-3, Gemini-1.5-Pro, Llama-2/3, Qwen-2, and DeepSeek-V2, finding that Chinese LLMs outperform English LLMs, with Qwen-2 achieving the highest overall score of 81.37.
+Edu-Values is the first Chinese education values evaluation benchmark with 1,418 questions across seven core educational value dimensions, used to evaluate 21 state-of-the-art LLMs including Chinese and English models.
+
 
 ## Notes
 

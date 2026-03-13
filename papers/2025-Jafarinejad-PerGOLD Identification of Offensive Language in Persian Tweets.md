@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ local_pdf: "[[PDFs/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Lan
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -97,7 +100,8 @@ Event-based Persian offensive language dataset of 13,716 tweets labeled via crow
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
+PerGOLD is a Persian General Offensive Language Dataset of 13,716 event-based tweets from Twitter, labeled via a custom crowdsourcing platform as offensive or non-offensive (34% offensive). Evaluated using LR, SVM, RoBERTa, and ParsBERT (BERT-based) classifiers.
+
 
 ## Notes
 

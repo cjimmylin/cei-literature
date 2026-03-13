@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Despite the considerable advancements in English LLMs, the progress in building comparable models for other languages has been hindered due to the scarcity of tailored resources. Our work aims to bridge this divide by introducing an expansive suite of resources specifically designed for the development of Indic LLMs, covering 22 languages, containing a total of 251B tokens and 74.8M instruction-response pairs."
-LLM_assessed: "ChatGPT, DOLLY, LLAMA2, Llama, Mixtral, MIXTRAL-8X7B"
-DATA_URL: "https://huggingface.co/datasets/ai4bharat/indic-align"
+LLM_assessed: NA
+DATA_URL: "https://github.com/AI4Bharat/IndicLLMSuite"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -100,7 +105,8 @@ IndicAlign-Toxic comprises 123K pairs of toxic prompts and non-toxic responses f
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, DOLLY, LLAMA2, Llama, Mixtral, MIXTRAL-8X7B. Verified dataset/resource link: https://huggingface.co/datasets/ai4bharat/indic-align.
+IndicLLMSuite: pre-training and fine-tuning datasets for 22 Indian languages totaling 251B tokens and 74.8M instruction-response pairs, including IndicAlign-Toxic with 123K toxic prompt/non-toxic response pairs for safety alignment of Indic LLMs.
+
 
 ## Notes
 

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +61,7 @@ abstract: "Why should moral philosophers, moral psychologists, and machine ethic
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Stenseke-Computational Complexity of Ethics.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

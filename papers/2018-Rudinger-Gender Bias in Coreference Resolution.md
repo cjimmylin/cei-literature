@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View:
 Human View Date:
 Human View note:
@@ -34,11 +38,11 @@ authors: "Rachel Rudinger; Jason Naradowsky; Brian Leonard; Benjamin Van Durme"
 doi: ""
 url: "https://arxiv.org/abs/1804.09301"
 external_pdf: "https://arxiv.org/pdf/1804.09301"
-national_ethnic_cultural: ""
-cultures_nationalities_list: ""
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: ""
-religious_values_list: ""
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: ""
 tags:
@@ -48,16 +52,16 @@ abstract: "We present an empirical study of gender bias in coreference resolutio
 CONF-CC: ""
 DATE_ADDED: 20260312
 LLM_assessed: ""
-DATA_URL: ""
+DATA_URL: "https://github.com/rudinger/winogender-schemas"
 eleutherai: incorporated
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -78,3 +82,8 @@ data_metrics: "Not specified"
 
 ## Abstract
 We present an empirical study of gender bias in coreference resolution systems. We first introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these "Winogender schemas," we evaluate and confirm systematic gender bias in three publicly-available coreference resolution systems, and correlate this bias with real-world and textual gender statistics.
+
+
+## Data Description
+
+Winogender schemas: 720 sentences in Winograd-schema style for evaluating gender bias in coreference resolution systems, validated with human annotators and used to test three publicly available coreference resolution systems.

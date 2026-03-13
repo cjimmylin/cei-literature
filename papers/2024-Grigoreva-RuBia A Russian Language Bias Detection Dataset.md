@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +51,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
-languages_list: Russian
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5-turbo, RoBERTa"
-DATA_URL: "NA"
+LLM_assessed: "GPT-3.5, RuBERT, RuGPT-3, TwHIN-BERT, XLM-R, mGPT, ruRoBERTa"
+DATA_URL: "https://github.com/vergrig/RuBia-Dataset"
 tags: 
 abstract: "Warning: this work contains upsetting or disturbing content. Large language models (LLMs) tend to learn the social and cultural biases present in the raw pre-training data. To test if a LLM’s behavior is fair, functional datasets are employed, and due to their purpose, these datasets are highly language and culture-specific. In this paper, we address a gap in the scope of multilingual bias evaluation by presenting a bias detection dataset specifically designed for the Russian language, dubbed..."
 CONFERENCE: "Preprint"
@@ -97,7 +102,8 @@ Bias detection dataset for Russian with ~2,000 sentence pairs across 4 domains: 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT, GPT-3, GPT-3.5-turbo, RoBERTa. No high-confidence repository-style data URL was identified.
+Russian-language bias detection dataset with ~2,000 sentence pairs across 4 domains (gender, nationality, socio-economic status, diverse) and 19 subdomains for evaluating LLM bias.
+
 
 ## Notes
 

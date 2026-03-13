@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,14 +44,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.md"
 local_pdf: "[[PDFs/2025/2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: "Arabic, English, Multilingual"
+languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude 3, Claude-3.5, Claude-3.5 Sonnet, DeepSeek-R1, GPT-4, GPT-4o mini, GPT4, Grok, Grok-3, Llama, Llama-3.1, LlamaGuard, Qwen-1.5, Qwen-2.5, QwenScorer, Vicuna, gemma"
+LLM_assessed: "Claude, DeepSeek, GPT-4, GPT-4o mini, GPT-5, Gemini, Grok, Llama-3, Qwen-1.5, Qwen-2, Vicuna"
 DATA_URL: "https://github.com/yuanyc06/Tele-Safety"
 tags: 
 abstract: "While the deployment of large language models (LLMs) in high-value industries continues to expand, the systematic assessment of their safety against jailbreak and promptbased attacks remains insufficient. Existing safety evaluation benchmarks and frameworks are often limited by an imbalanced integration of core components (attack, defense, and evaluation methods) and an isolation between flexible evaluation frameworks and standardized benchmarking capabilities."
@@ -94,7 +98,8 @@ While the deployment of large language models (LLMs) in high-value industries co
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude 3, Claude-3.5, Claude-3.5 Sonnet, DeepSeek-R1, GPT-4, GPT-4o mini, GPT4, Grok, Grok-3, Llama, Llama-3.1, LlamaGuard, Qwen-1.5, Qwen-2.5, QwenScorer, Vicuna, gemma. Verified dataset/resource link: https://github.com/yuanyc06/Tele-Safety.
+TeleAI-Safety includes a self-constructed attack dataset of 342 harmful prompts spanning 12 risk categories, used as a standardized testbed for jailbreak evaluation. The complete code, dataset, and evaluation results are released at the GitHub repository.
+
 
 ## Notes
 

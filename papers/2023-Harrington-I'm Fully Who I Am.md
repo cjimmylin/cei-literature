@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ pdf_extract: "PDF Extracts/2023/2023-Harrington-I'm Fully Who I Am.md"
 local_pdf: "[[PDFs/2023/2023-Harrington-I'm Fully Who I Am.pdf]]"
 CONF-CC: "FAccT 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-2, OPT, ChatGPT"
+LLM_assessed: "ChatGPT, GPT-2"
 DATA_URL: "https://github.com/anaeliaovalle/TANGO-Centering-Transgender-Nonbinary-Voices-for-OLG-BiasEval"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,7 @@ Although much literature has established the presence of demographic bias in\nna
 
 ## Data Description
 
-TANGO is a dataset for evaluating gender non-affirmation in open language generation, consisting of two prompt sets grounded in real-world text from the Nonbinary Wiki community. The misgendering evaluation set contains 2,880 prompts testing pronoun consistency across six pronoun families (she, he, they, xe, ey, fae) with four antecedent types. The gender identity disclosure set comprises 1,422,720 prompts combining 52 gender identities, 18 disclosure forms, and 1,520 nonbinary names. Four LLMs (GPT-2, GPT-Neo, OPT, ChatGPT) were evaluated at multiple model sizes.
+TANGO dataset: 2,880 template-based prompts for misgendering evaluation and 1.4M templates for measuring harmful text related to gender identity disclosure, curated from Nonbinary Wiki.
 
 
 ## Notes

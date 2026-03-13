@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +57,7 @@ pdf_extract: "PDF Extracts/2024/2024-Li-The WMDP Benchmark.md"
 abstract: "The White House Executive Order on Artificial Intelligence highlights the risks of large language models (LLMs) empowering malicious actors in developing biological, cyber, and chemical weapons. To measure these risks, government institutions and major AI labs are developing evaluations for hazardous capabilities in LLMs. However, current evaluations are private and restricted to a narrow range of malicious use scenarios, limiting further research into mitigating risk."
 paper_summary: "Abstract: The White House Executive Order on Artificial Intelligence highlights the risks of large language models (LLMs) empowering malicious actors in developing biological, cyber, and chemical weapons. To me | Overview: The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning Nathaniel Li∗1,2, Alexander Pan∗2, Anjali Gopal†3,4, Summer Yue†5, Daniel Berrios†5, Alice Gatti‡1, Justin D. Li‡1,6, Ann-Kathr | Methodology: (Section 4.2), with further detail in Appendix B.4 and B.5. We focus on unlearning hazardous knowledge in biosecurity and cybersecurity, but not in ch | Key Findings: for hazardous knowledge in LLMs, and second, as a benchmark for unlearning methods to remove such hazardous knowledge. To guide progress on unlearning | Conclusions: We discuss how unlearning on WMDP can tie in with other strategies to mitigate malicious use, such as structured API access. See Appendix D for a full"
 local_pdf: "[[PDFs/2024/2024-Li-The WMDP Benchmark.pdf]]"
-LLM_assessed: "GPT-4, Mixtral"
+LLM_assessed: "GPT-4, Mixtral, Zephyr, Yi"
 DATA_URL: "https://wmdp.ai"
 DATE_ADDED: 20260207
 CONFERENCE: "ICML 2024"
@@ -101,7 +104,7 @@ The White House Executive Order on Artificial Intelligence highlights the risks 
 
 ## Data Description
 
-The Weapons of Mass Destruction Proxy (WMDP) benchmark is a dataset of 3,668 expert-written multiple-choice questions measuring hazardous knowledge across three domains: biosecurity (1,273 questions), cybersecurity (1,987 questions), and chemical security (408 questions). The benchmark was developed by a consortium of academics and technical consultants at a cost of over $200K, with stringent filtering to eliminate sensitive and export-controlled information. Unlearning experiments were conducted on Zephyr-7B, Yi-34B, and Mixtral-8x7B, with GPT-4 benchmarked as an upper bound.
+WMDP (Weapons of Mass Destruction Proxy) benchmark: 3,668 multiple-choice questions measuring hazardous knowledge in biosecurity (1,273 questions), cybersecurity (1,987 questions), and chemistry (408 questions); also benchmarks machine unlearning methods (RMU) on Zephyr-7B, Yi-34B, and Mixtral-8x7B.
 
 
 ## Notes

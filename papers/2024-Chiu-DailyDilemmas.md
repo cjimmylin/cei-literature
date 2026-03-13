@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +62,7 @@ abstract: "As users increasingly seek guidance from LLMs for decision-making in 
 paper_summary: "Abstract: As users increasingly seek guidance from LLMs for decision-making in daily life, many of these decisions are not clear-cut and depend significantly on the personal values and ethical standards of peop | Overview: Published as a conference paper at ICLR 2025 DAILYDILEMMAS: REVEALING VALUE PREFERENCES OF LLMS WITH QUANDARIES OF DAILY LIFE Yu Ying Chiu♡, Liwei Jiang♡, Yejin Choi♡ ♡University of Washington kellycy | Methodology: (Park et al., 2023; Shao et al., 2023) and our study lies in applying such a methodology to moral value judgments. Human Verification. We used the Ope | Key Findings: Have ≥1 similar dilemma 1st: similar 2nd: no 3rd: no Result: Have ≥1 similar dilemma Table 5: Annotated examples on our reddit validation dataset. 1st | Conclusions: We introduce DAILYDILEMMAS, a dataset for evaluating how LLMs navigate value conflicts in daily life. Grounded in theories from psychology, philosophy"
 local_pdf: "[[PDFs/2024/2024-Chiu-DailyDilemmas.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Mixtral, Claude"
+LLM_assessed: "Claude-3 Haiku, GPT-3.5, GPT-4, Llama-2, Llama-3, Mixtral"
 DATA_URL: "https://hf.co/datasets/kellycyy/daily_dilemmas, https://github.com/kellycyy/daily_dilemmas"
 CONFERENCE: "ICLR 2024"
 ethics_overall: "Yes"
@@ -102,7 +107,7 @@ As users increasingly seek guidance from LLMs for decision-making in daily life,
 
 ## Data Description
 
-DAILYDILEMMAS is a dataset of 1,360 moral dilemmas encountered in everyday life, generated with GPT-4 and covering 17 topics from interpersonal relationships to environmental issues. Each dilemma presents two possible actions with associated stakeholders and 301 human values mapped to five theoretical frameworks (World Values Survey, Moral Foundations Theory, Maslow's Hierarchy of Needs, Aristotle's Virtues, Plutchik's Wheel of Emotions). Six LLMs are evaluated on their value preferences through binary-choice action selections.
+DailyDilemmas: a dataset of 1,360 moral dilemmas encountered in everyday life, each with two possible actions, affected parties, and relevant human values, analyzed through five theoretical frameworks (World Values Survey, Moral Foundations Theory, Maslow's Hierarchy, Aristotle's Virtues, Plutchik's Emotions).
 
 
 ## Notes

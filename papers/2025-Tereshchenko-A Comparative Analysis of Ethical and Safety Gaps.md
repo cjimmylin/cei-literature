@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +62,7 @@ abstract: "Artificial Intelligence (AI) and Large Language Models (LLMs) have ra
 paper_summary: "Abstract: Artificial Intelligence (AI) and Large Language Models (LLMs) have rapidly evolved in recent years, showcasing remarkable capabilities in natural language understanding and generation. However, these  | Overview: A Comparative Analysis of Ethical and Safety Gaps in LLMs using Relative Danger Coefficient Yehor Tereshchenko and Mika Hämäläinen Metropolia University of Applied Sciences Helsinki, Finland firstname | Conclusions: This comparative study set out to examine the ethical and safety gaps of state-of-the-art Large Language Models (LLMs)—including newly intro- duced sy"
 local_pdf: "[[PDFs/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, DeepSeek"
+LLM_assessed: "DeepSeek, GPT-3.5, GPT-4, GPT-4o, Gemini, o1, o3"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +101,8 @@ Extends HATECHECK functional test suite for hate speech detection models from En
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/hate-alert/HateCheckHIn.
+HateCheckHIn functional test suite of 5.8K test cases for evaluating Hindi hate speech detection models, extending English HATECHECK with six new multilingual functionalities for code-mixed content.
+
 
 ## Notes
 

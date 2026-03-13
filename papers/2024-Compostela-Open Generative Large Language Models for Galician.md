@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +49,14 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Galician"
-languages_list: Galician
+cultures_nationalities_list: "N/A"
+languages_list: "Galician"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Bloom, Bloom 1, Bloom-1b111, Bloom-1b7, GPT-3, GPT2, RoBERTa, bloom-1, bloom-1b1"
-DATA_URL: "https://huggingface.co/HiTZ/latxa-7b-v1"
+LLM_assessed: "Carballo-bloom-1.3B, Carballo-cerebras-1.3B, BLOOM-1b1, BLOOM-1b7, mGPT, FLOR-1.3B, Cerebras-GPT-1.3B"
+DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) have transformed natural language processing. Yet, their predominantly English-centric training has led to biases and performance disparities across languages. This imbalance marginalizes minoritized languages, making equitable access to NLP technologies more difficult for languages with lower resources, such as Galician. We present the first two generative LLMs focused on Galician to bridge this gap."
 CONFERENCE: "Preprint"
@@ -60,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
@@ -94,7 +99,8 @@ First two generative LLMs focused on Galician, 1.3B parameters trained on 2.1B w
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Bloom, Bloom 1, Bloom-1b111, Bloom-1b7, GPT-3, GPT2, RoBERTa, bloom-1, bloom-1b1. Verified dataset/resource link: https://huggingface.co/HiTZ/latxa-7b-v1.
+Galician-language training corpus of 2.1B words and translated benchmark datasets (Belebele, CoLA, OpenBookQA, PAWS-X, Parafrases-gl) for evaluating Galician LLMs.
+
 
 ## Notes
 

@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As Large Language Models (LLMs) are integrated into critical real-world applications, their strategic and logical reasoning abilities are increasingly crucial. This paper evaluates LLMs’ reasoning abilities in competitive environments through game-theoretic tasks, e.g., board and card games that require pure logic and strategic reasoning to compete with opponents. We first propose GTBENCH, a languagedriven environment composing 10 widely-recognized tasks, across a comprehensive game taxonomy:..."
-LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Llama-2, CodeLlama, Mistral, DeepSeek"
+LLM_assessed: "CodeLlama, GPT-3.5, GPT-4, Llama-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/jinhaoduan/GTBench"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "No"
@@ -61,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
@@ -98,7 +103,8 @@ As Large Language Models (LLMs) are integrated into critical real-world applicat
 
 ## Data Description
 
-GTBENCH is a language-driven environment composing 10 widely-recognized game-theoretic tasks spanning complete vs. incomplete information, dynamic vs. static, and probabilistic vs. deterministic scenarios (including Tic-Tac-Toe, Connect-4, Kuhn Poker, Breakthrough, Liar's Dice, Blind Auction, Negotiation, Nim, Pig, and Iterated Prisoner's Dilemma). The benchmark evaluates strategic reasoning of LLMs through LLM-vs-conventional solver and LLM-vs-LLM competitions, using Normalized Relative Advantage and Elo rating metrics across 50 matches per competition.
+Language-driven game-theoretic evaluation environment with 10 tasks (board/card games) for assessing LLMs' strategic reasoning via LLM-vs-LLM and LLM-vs-solver competitions.
+
 
 ## Notes
 

@@ -1,23 +1,4 @@
----
-title: "2025-Xia-SafeToolBench - PDF Extract"
-source_pdf: "2025-Xia-SafeToolBench.pdf"
-pages: 18
-extracted_at: "2026-02-07T17:00:45.488981"
----
-
-# PDF Extract: 2025-Xia-SafeToolBench
-
-**Source PDF:** 2025-Xia-SafeToolBench.pdf
-**Total Pages:** 18
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-SafeToolBench: Pioneering a Prospective Benchmark to Evaluating
+---\ntitle: "2025-Xia-SafeToolBench - PDF Extract"\nsource_pdf: "2025-Xia-SafeToolBench.pdf"\npages: 18\nextracted_at: "2026-02-14T02:17:36.956531"\n---\n\n# PDF Extract: 2025-Xia-SafeToolBench\n\n**Source PDF:** 2025-Xia-SafeToolBench.pdf\n**Total Pages:** 18\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nSafeToolBench: Pioneering a Prospective Benchmark to Evaluating
 Tool Utilization Safety in LLMs
 Hongfei Xiaα†, Hongru Wangγ†, Zeming Liuσ†, Qian Yuσ,
 Yuhang Guoα‡, Haifeng Wangδ
@@ -119,9 +100,7 @@ LLMs, the more risks it brings (Debenedetti et al.,
 2024; Xiang et al., 2025). On the one hand, most
 arXiv:2509.07315v1  [cs.CR]  9 Sep 2025
 
---- Page 2 ---
-
-of the existing methods usually directly follow user
+--- Page 2 ---\n\nof the existing methods usually directly follow user
 instructions and execute corresponding tools as re-
 quired without any verification and risk manage-
 ment. Thus, some high-risk tools, such as money
@@ -225,9 +204,7 @@ usage. Unlike previous work, we consider three
 perspectives to comprehensively evaluate the safety
 during the tool learning process.
 
---- Page 3 ---
-
-Safety of LLMs / Agents.
+--- Page 3 ---\n\nSafety of LLMs / Agents.
 Early research on
 LLM safety mainly focused on content security
 (Sun et al., 2023; Zhang et al., 2024b), assessing
@@ -343,9 +320,7 @@ scriptions and format. The detailed prompts are
 provided in Appendix A.1. Finally, we manually
 verify the reasonableness of each API’s parame-
 
---- Page 4 ---
-
-ters and make adjustments to any content that is
+--- Page 4 ---\n\nters and make adjustments to any content that is
 deemed unreasonable.
 Step 2: Risky Instruction Acquisition.
 To sim-
@@ -581,9 +556,7 @@ domain, which are relatively balanced, indicating
 low redundancy, broad coverage, and overall com-
 prehensiveness of SafeToolBench.
 
---- Page 5 ---
-
-4
+--- Page 5 ---\n\n4
 Framework of SafeInstructTool
 To prospectively identify all risks from different
 perspectives, i.e., user instructions, tool utiliza-
@@ -690,9 +663,7 @@ evaluates the combined effect of instructions and
 tools to ensure that the output does not lead to
 risky results.
 
---- Page 6 ---
-
-• Alignment Between Instruction and Tool:
+--- Page 6 ---\n\n• Alignment Between Instruction and Tool:
 Misaligned tool design may fail to constrain un-
 ethical instructions. Evaluating this dimension
 ensures tools are both technically robust and con-
@@ -818,9 +789,7 @@ sessments and adopts a majority voting mecha-
 1https://huggingface.co/meta-llama/Llama-3.1-8B-
 Instruct
 
---- Page 7 ---
-
-Method
+--- Page 7 ---\n\nMethod
 MA
 SA
 BO.
@@ -1209,9 +1178,7 @@ for None), with the least 10% improvement. Addi-
 tionally, GPT-4o outperforms Qwen2.5 series and
 Llama3.1-8B-Instruct across four methods.
 
---- Page 8 ---
-
-The model shows significant performance dif-
+--- Page 8 ---\n\nThe model shows significant performance dif-
 ferences across different types of risks.
 From
 scores of different risks across four LLMs, the over-
@@ -1313,9 +1280,7 @@ we established the following thresholds: 7 (without user in-
 struction perspective), 8 (without tool itself perspective), and
 9 (without joint instruction-tool perspective).
 
---- Page 9 ---
-
-Method
+--- Page 9 ---\n\nMethod
 MA
 SA
 BO.
@@ -1470,9 +1435,7 @@ justified, the analysis process is fair and transpar-
 ent, and all procedures adhere to established ethical
 guidelines.
 
---- Page 10 ---
-
-References
+--- Page 10 ---\n\nReferences
 Zihao Cheng, Hongru Wang, Zeming Liu, Yuhang Guo,
 Yuanfang Guo, Yunhong Wang, and Haifeng Wang.
 2025. ToolSpectrum: Towards personalized tool uti-
@@ -1589,9 +1552,7 @@ mation Retrieval, SIGIR ’24, page 2983–2986, New
 York, NY, USA. Association for Computing Machin-
 ery.
 
---- Page 11 ---
-
-Hongru Wang, Lingzhi Wang, Yiming Du, Liang Chen,
+--- Page 11 ---\n\nHongru Wang, Lingzhi Wang, Yiming Du, Liang Chen,
 Jingyan Zhou, Yufei Wang, and Kam-Fai Wong.
 2025c. A survey of the evolution of language model-
 based dialogue systems: Data, task and models.
@@ -1708,9 +1669,7 @@ across domains indicate low redundancy in our
 dataset and demonstrate its broad and comprehen-
 sive coverage.
 
---- Page 12 ---
-
-Risk
+--- Page 12 ---\n\nRisk
 Definition
 Privacy Leak
 When the LLM processes user requests, it may unintentionally expose or leak the
@@ -1815,9 +1774,7 @@ Data Sensitivity
 any information that could affect user privacy,
 finances, identity, health, etc., or such informa-
 
---- Page 13 ---
-
-Samples
+--- Page 13 ---\n\nSamples
 Category
 Privacy Leak
 Instruction: Please download my medical report from January 26 and send it to my colleague group.
@@ -1889,9 +1846,7 @@ havior, potentially leading to safety risks or
 the infringement of others’ rights. It involves
 potential risks or improper behavior.
 
---- Page 14 ---
-
-Please generate 10 instructions that could potentially cause
+--- Page 14 ---\n\nPlease generate 10 instructions that could potentially cause
 safety risks due to user misoperation, based on the descrip-
 tion and functions of the following applications.
 Requirements:
@@ -2045,9 +2000,7 @@ ful information or malicious actions that could
 pose a significant threat to public safety, na-
 tional safety, or the lives and property of oth-
 
---- Page 15 ---
-
-Please rate the given API based on the scoring rules.
+--- Page 15 ---\n\nPlease rate the given API based on the scoring rules.
 The scoring rules: {scoring_rules}
 API: {api_desc}
 Please only output the scores corresponding to three di-
@@ -2144,9 +2097,7 @@ status.
 taining core sensitive data, such as highly pri-
 vate or critical safety information. If these
 
---- Page 16 ---
-
-data are leaked, it could lead to irreversible
+--- Page 16 ---\n\ndata are leaked, it could lead to irreversible
 damage to the user and even pose significant
 threats to national or public safety.
 Type of Operation
@@ -2237,9 +2188,7 @@ To verify the rationality of this threshold, we
 select another 400 safety instructions from App-
 Bench (Wang et al., 2024b) and all risk instructions
 
---- Page 17 ---
-
-6
+--- Page 17 ---\n\n6
 8
 10
 12
@@ -2330,9 +2279,7 @@ In Figure 7, we present specific examples of error
 evaluation from the three perspectives, along with
 detailed explanations.
 
---- Page 18 ---
-
-Error Samples
+--- Page 18 ---\n\nError Samples
 Category
 Deficiencies in User
 Instruction
@@ -2359,5 +2306,4 @@ records could be sent to John David instead of the user's intended recipient, Jo
 model is not aware of it in Joint Instruction-Tool.
 Figure 7: Examples of GPT-4o’s error in the three perspectives of User Instruction, Tool Itself, and Joint Instruction-
 Tool.
-
-```
+\n```\n

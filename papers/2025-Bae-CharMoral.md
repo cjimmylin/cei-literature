@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ abstract: "This paper introduces CharMoral, a dataset designed to analyze the mo
 paper_summary: "Abstract: This paper introduces CharMoral, a dataset designed to analyze the moral evolution of characters in long-form narratives. CharMoral, built from 1,337 movie synopses, includes an- notations for charact | Overview: Proceedings of the 31st International Conference on Computational Linguistics, pages 8809–8818 January 19–24, 2025. ©2025 Association for Computational Linguistics 8809 CharMoral: A Character Morality | Methodology: draws upon earlier work, as described in Kim et al. (2022), highlighting the significance of the main characters in these pivotal narrative moments. A | Key Findings: 4.1 Human Evaluation We evaluate the effectiveness of our framework by comparing its predictions with human assessments and recruiting nine proficient | Conclusions: In this paper, we introduced CharMoral, a novel dataset designed to analyze the moral dynam- ics of characters in long-form narratives. Using a four-s"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, GPT-4, BERT"
+LLM_assessed: "BERT, GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/BaeSuyoung/CharMoral"
 CONFERENCE: "COLING 2025"
 ethics_overall: "Yes"
@@ -121,7 +125,7 @@ Morality is a trajectory, not a label. CharMoral provides a tool for developing 
 
 ## Data Description
 
-The CharMoral dataset contains 1,337 movie synopses with 103,836 morality-annotated character actions, including context information (situation, intention, consequence). GPT-3.5 and GPT-4o are tested in zero-shot and few-shot moral action classification, and a BERT-large model is fine-tuned as the Moral Action Detector (MAD). The dataset is evaluated on in-domain and cross-domain moral reasoning tasks.
+Releases CharMoral, a dataset of moral annotations for characters in 1,337 movie synopses, including character actions, context, and morality labels (moral/immoral) with a four-stage LLM-assisted construction framework.
 
 
 ## Notes

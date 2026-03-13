@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "People increasingly rely on Large Language Models (LLMs) for moral ad
 paper_summary: "Abstract: People increasingly rely on Large Language Models (LLMs) for moral advice, which may influence humans' decisions. Yet, little is known about how closely LLMs align with human moral judgments. To addre | Overview: The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models Giuseppe Russo EPFL giuseppe.russo@epfl.ch Debora Nozza Bocconi University debora.nozza | Methodology: is Overton-style synthesis (Sorensen et al., 2024b), where multiple moral perspectives are integrated into a single, transparent response. Ethical Con | Key Findings: LLM Evaluation wrong right wrong Judgment: You're in the right Rationale: You have a greater obligation towards your kids … Judgment: You're in the wr | Conclusions: We analyze the moral evaluations and values ex- pressed of LLMs when providing moral advice. To enable this analysis, we introduced a novel dataset of"
 local_pdf: "[[PDFs/2025/2025-Russo-The Pluralistic Moral Gap.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, ChatGPT, Claude, Mistral, Llama-3, Qwen"
+LLM_assessed: "Claude-3, GPT-4o mini, Llama-3, Mistral, Qwen, o1, o3"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -102,7 +106,7 @@ People increasingly rely on Large Language Models (LLMs) for moral advice, which
 
 ## Data Description
 
-The paper introduces the Moral Dilemma Dataset (MDD), a benchmark of 1,618 real-world moral dilemmas sourced from Reddit's r/AmITheAsshole, paired with 51,776 human moral judgments including binary evaluations and free-text rationales. Ten LLMs from six model families (GPT-4o-mini, GPT-o1, GPT-o3-mini, Claude Haiku 3.5, Claude Opus 3, Claude Sonnet 3.5, DBRX Instruct, Llama 3 70B, Mistral Large, and Qwen 1.5-72B) were evaluated on distributional moral judgment alignment with humans. A 60-value taxonomy was constructed from 3,783 value expressions extracted from rationales.
+Moral Dilemma Dataset (MDD): 1,618 real-world moral dilemmas sourced from Reddit's r/AmITheAsshole, paired with distributions of human moral judgments (binary evaluation + free-text rationale). Dataset limited to abstracted retellings to prevent privacy issues; full-text posts not released.
 
 
 ## Notes

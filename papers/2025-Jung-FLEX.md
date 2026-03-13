@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +42,7 @@ last_author: "[[Lim, Heuiseok]]"
 authors: "Jung, Dahyun; Lee, Seungyoon; Moon, Hyeonseok; Park, Chanjun; Lim, Heuiseok"
 url: "https://aclanthology.org/2025.findings-naacl.199/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/M5J3WHBS/2025 - FLEX A Benchmark for Evaluating Robustness of Fairness in Large Language Models.pdf"
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: "Korean"
 religious_values: "N/A"
@@ -51,7 +55,7 @@ tags:
 abstract: "Recent advancements in Large Language Models (LLMs) have significantly enhanced interactions between users and models. These advancements concurrently underscore the need for rigorous safety evaluations due to the manifestation of social biases, which can lead to harmful societal impacts. Despite these concerns, existing benchmarks may overlook the intrinsic weaknesses of LLMs, which can generate biased responses even with simple adversarial instructions."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-2, Llama-3, Mistral, Gemma, GPT-4, GPT-3.5"
+LLM_assessed: "GPT-3.5, GPT-4o, Gemma, Llama-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/ekgus9/FLEX"
 pdf_extract: "PDF Extracts/2025/2025-Jung-FLEX.md"
 local_pdf: "[[PDFs/2025/2025-Jung-FLEX.pdf]]"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -83,7 +87,7 @@ Recent advancements in Large Language Models (LLMs) have significantly enhanced 
 
 ## Data Description
 
-FLEX (Fairness Benchmark in LLM under Extreme Scenarios) is a benchmark of 3,145 samples designed to evaluate LLM fairness robustness under adversarial conditions. It reconstructs existing fairness benchmarks (BBQ, CrowS-Pairs, StereoSet) into multiple-choice QA format with adversarial prompts including persona injection, competing objectives, and text attacks to expose hidden biases.
+FLEX (Fairness Benchmark in LLM under Extreme Scenarios): adversarial fairness benchmark constructed from BBQ, CrowS-Pairs, and StereoSet by injecting persona injection, competing objectives, and text attack prompts to induce bias in LLMs.
 
 
 ## Notes

@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +46,8 @@ CONF-CC: "Workshop (2025)"
 local_pdf: "[[PDFs/2025/2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Arab, Diverse Arab cultures, Pan-Arab, Various Arab countries"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"

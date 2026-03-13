@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Recent failures such as Google Gemini generating people of color in Nazi-era uniforms illustrate how AI outputs can be factually plausible yet socially harmful. AI models are increasingly evaluated for “fairness,” yet existing benchmarks often conflate two fundamentally different dimensions: factual correctness and normative fairness. A model may generate responses that are factually accurate but socially unfair, or conversely, appear fair while distorting factual reality."
-LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-3, Qwen"
+LLM_assessed: "GPT-3.5, GPT-4o, Gemini, Llama-3, Qwen"
 DATA_URL: "https://github.com/uclanlp/Fact-or-Fair"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ Recent failures such as Google Gemini generating people of color in Nazi-era uni
 
 ## Data Description
 
-The paper introduces FACT-OR-FAIR, a benchmark for evaluating the boundary between factual correctness and normative fairness in AI models. It collects 19 U.S. societal statistics across economic, social, and health dimensions, generating objective fact-based queries and subjective fairness-based queries grounded in three cognitive biases (representativeness bias, attribution error, ingroup/outgroup bias). Six LLMs and four text-to-image models are evaluated.
+FACT-OR-FAIR is a benchmark comprising objective (fact-based) and subjective (fairness-based) queries constructed from 19 real-world statistics, designed to disentangle factual correctness from normative fairness in LLM evaluation.
+
 
 ## Notes
 

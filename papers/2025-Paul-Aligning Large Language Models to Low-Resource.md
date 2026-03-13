@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,8 +58,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Multilingual large language models (LLMs) often demonstrate a performance gap between English and non-English languages, particularly in low-resource settings. Aligning these models to low-resource languages is essential yet challenging due to limited high-quality data. While English alignment datasets are readily available, curating equivalent data in other languages is expensive and time-consuming."
-LLM_assessed: "GPT-4o, GPT-4, Llama, Llama-3, Llama-3.1, Llama-3.3, llama-3."
-DATA_URL: "https://huggingface.co/datasets/nvidia/GSM8K-Hi"
+LLM_assessed: "Llama-3"
+DATA_URL: NA
 research_topic: "Machine Translation"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -64,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---

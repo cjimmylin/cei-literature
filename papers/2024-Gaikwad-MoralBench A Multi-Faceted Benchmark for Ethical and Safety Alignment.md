@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +47,7 @@ local_pdf:
 "N/A"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Various"
+cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -61,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
@@ -97,7 +100,7 @@ Combines three datasets: 1K high-fidelity safety-alignment prompt set, 10K abstr
 
 ## Data Description
 
-MoralBench is a multi-faceted benchmark combining three datasets: a 1K high-fidelity safety-alignment prompt set, a 10K abstracted variation set for domain transfer, and a 19,132-record rich metadata preference dataset with structured ethical annotations. It covers ethical reasoning, safety alignment, and socially sensitive dialogue generation. Based on available metadata, no specific LLMs are identified as having been tested in the paper.
+Three combined datasets: a 1K safety-alignment prompt set, a 10K abstracted variation set for domain transfer, and a 19,132-record preference dataset with structured ethical annotations covering ethical reasoning, safety alignment, and socially sensitive dialogue.
 
 
 ## Notes

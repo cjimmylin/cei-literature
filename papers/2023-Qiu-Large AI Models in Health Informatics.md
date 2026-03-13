@@ -27,6 +27,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +47,7 @@ authors: "Jianing Qiu; Lin Li; Jiankai Sun; Jiachuan Peng; Peilun Shi; Ruiyang Z
 doi: 10.1109/JBHI.2023.3316750
 url: "http://arxiv.org/abs/2303.11568"
 external_pdf: "http://arxiv.org/pdf/2303.11568.pdf"
-national_ethnic_cultural: "Chinese"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -55,7 +61,7 @@ local_pdf: "[[PDFs/2023/2023-Qiu-Large AI Models in Health Informatics.pdf]]"
 abstract: "Large AI models, or foundation models, are models recently emerging with massive scales both parameter-wise and data-wise, the magnitudes of which can reach beyond billions. Once pretrained, large AI models demonstrate impressive performance in various downstream tasks. A prime example is ChatGPT, whose capability has compelled people’s imagination about the farreaching inﬂuence that large AI models can have and their potential to transform different domains of our lives."
 CONF-CC: "IEEE Journal of Biomedical and Health Informatics"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, PaLM, PaLM 2"
+LLM_assessed: NA
 DATA_URL: "https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models"
 CONFERENCE: "Journal"
 ethics_overall: "No"
@@ -104,7 +110,7 @@ Large AI models, or foundation models, are models recently emerging with massive
 
 ## Data Description
 
-This paper is a comprehensive review of large AI models (foundation models) and their applications in health informatics. It surveys seven key sectors including bioinformatics, medical diagnosis, medical imaging, medical informatics, medical education, public health, and medical robotics. No LLM models were directly tested or benchmarked; the paper discusses models such as ChatGPT, GPT-4, PaLM, LLaMA 2, and various protein language models in a review capacity only.
+GitHub repository curating resources on large AI models (foundation models) applied in health informatics, serving as a living bibliography rather than a novel dataset.
 
 
 ## Notes

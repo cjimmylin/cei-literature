@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +47,8 @@ url: "http://arxiv.org/abs/2008.09094"
 external_pdf: "http://arxiv.org/pdf/2008.09094.pdf"
 publication: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-21)"
 CONF-CC: "AAAI 2021"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -65,8 +69,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Machine Ethics"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -102,7 +106,7 @@ As AI systems become an increasing part of people’s everyday lives, it becomes
 
 ## Data Description
 
-SCRUPLES consists of two parts: the ANECDOTES containing 32,766 real-life ethical anecdotes with 626,714 ethical judgments sourced from Reddit, and the DILEMMAS containing 10,000 pairs of actions with crowdsourced normative judgments from Mechanical Turk. The dataset tests models' ability to predict distributions of community ethical judgments about complex real-life situations involving moral ambiguity.
+SCRUPLES: a corpus of 32,000 real-life ethical anecdotes with 625,000 community judgments from Reddit, plus DILEMMAS with 10,000 crowdsourced ethical comparisons of actions.
 
 
 ## Notes

@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,15 +53,15 @@ publication: "arXiv (related to QIAS 2025 Challenge)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Islamic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Islamic inheritance domain holds significant importance for Muslims to ensure fair distribution of shares between heirs. Manual calculation of shares under numerous scenarios is complex, time-consuming, and error-prone. Recent advancements in Large Language Models (LLMs) have sparked interest in their potential to assist with complex legal reasoning tasks. This study evaluates the reasoning capabilities of state-of-the-art LLMs to interpret and apply Islamic inheritance laws."
-LLM_assessed: "Falcon3, GPT-4o, Llama 4, Llama4, Llama"
+LLM_assessed: "Falcon, GPT-4o, GPT-o1, Gemini, Llama-3"
 DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "Preprint"
@@ -66,7 +70,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"

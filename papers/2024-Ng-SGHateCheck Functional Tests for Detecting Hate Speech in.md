@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +52,12 @@ local_pdf: "[[PDFs/2024/2024-Ng-SGHateCheck Functional Tests for Detecting Hate 
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Singaporean"
 cultures_nationalities_list: "Singaporean"
-languages_list: Malay
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Llama, LLaMA2, Mistral, Mistral 7B"
+LLM_assessed: "BERT, Llama-2, Mistral"
 DATA_URL: "https://github.com/Social-AI-Studio/SGHateCheck"
 tags: 
 abstract: "To address the limitations of current hate speech detection models, we introduce SGHateCheck, a novel framework designed for the linguistic and cultural context of Singapore and Southeast Asia. It extends the functional testing approach of HateCheck and MHC, employing large language models for translation and paraphrasing into Singapore’s main languages, and refining these with native annotators. SGHateCheck reveals critical flaws in state-of-theart models, highlighting their inadequacy in..."
@@ -63,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "21,152 test cases"
 ---
@@ -100,7 +104,8 @@ data_metrics: "21,152 test cases"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Llama, LLaMA2, Mistral, Mistral 7B. Verified dataset/resource link: https://github.com/Social-AI-Studio/SGHateCheck.
+SGHateCheck is a functional test suite of 21,152 test cases (15,052 hateful, 6,100 non-hateful) across Singlish, Mandarin, Malay, and Tamil for hate speech detection evaluation, extending HateCheck to Singapore/Southeast Asia context.
+
 
 ## Notes
 

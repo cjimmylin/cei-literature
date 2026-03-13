@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language model systems face important security risks from maliciously crafted messages that aim to overwrite the system’s original instructions or leak private data. To study this problem, we organized a capture-the-flag competition at IEEE SaTML 2024, where the flag is a secret string in the LLM system prompt. The competition was organized in two phases. In the first phase, teams developed defenses to prevent the model from leaking the secret."
-LLM_assessed: "GPT-3.5, Llama-2"
+LLM_assessed: "GPT-3.5, Llama-2-70B"
 DATA_URL: "https://huggingface.co/datasets/ethz-spylab/ctf-satml24, https://github.com/ethz-spylab/satml-llm-ctf"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "No"
@@ -62,8 +66,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -99,7 +103,8 @@ Large language model systems face important security risks from maliciously craf
 
 ## Data Description
 
-This paper presents a dataset from the IEEE SaTML 2024 capture-the-flag competition on LLM prompt injection attacks and defenses. The dataset contains over 137,000 multi-turn attack conversations targeting GPT-3.5 and Llama-2 (70B) models, with 44 accepted defenses including system prompts, Python filters, and LLM filters. The dataset includes labeled successful and unsuccessful secret extraction attempts from 65 attacking teams.
+Dataset of 137K+ multi-turn prompt injection attack conversations from a capture-the-flag competition at IEEE SaTML 2024, with 44 defenses and labeled attack outcomes for LLM security research.
+
 
 ## Notes
 

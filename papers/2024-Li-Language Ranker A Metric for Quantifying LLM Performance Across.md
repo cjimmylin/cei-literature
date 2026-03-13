@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ local_pdf: "[[PDFs/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Per
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "French, German"
-cultures_nationalities_list: "Cross-cultural"
-languages_list: "Multiple including Kurdish (0.308), Pashto (0.284)"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Bloom 3B, Bloom 7B, Claude-3, GPT-4, Gemma, Llama, LlaMa2, LlaMa3, Mistral, Mistral 7B, Mistral-v0, Qwen, Qwen 1, Qwen Llama2, Qwen 13B, Qwen 7B"
-DATA_URL: "https://github.com/Helsinki-NLP/Tatoeba-"
+LLM_assessed: "Llama-2, Gemma, Mistral, Qwen"
+DATA_URL: "https://github.com/lizh9885/Language-Ranker/"
 tags: 
 abstract: "The development of Large Language Models (LLMs) relies on extensive text corpora, which are often unevenly distributed across languages. This imbalance results in LLMs performing significantly better on high-resource languages like English, German, and French, while their capabilities in low-resource languages remain inadequate. Currently, there is a lack of quantitative methods to evaluate the performance of LLMs in these low-resource languages."
 CONFERENCE: "Preprint"

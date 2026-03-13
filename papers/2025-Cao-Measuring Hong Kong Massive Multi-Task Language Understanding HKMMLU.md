@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Hong Kong"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Cantonese, Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, Claude 3.7 Sonnet, DeepSeek-V3, Gemma-2, GLM-4, Llama-3.1, Llama-3-Taiwan, Meta-Llama-3, Qwen-2.5"
+LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/chuxuecao/HKMMLU"
 tags: 
 abstract: "Multilingual understanding is crucial for the cross-cultural applicability of Large Language Models (LLMs). However, evaluation benchmarks designed for Hong Kong’s unique linguistic landscape, which combines Traditional Chinese script with Cantonese as the spoken form and its cultural context, remain underdeveloped. To address this gap, we introduce HKMMLU, a multi-task language understanding benchmark that evaluates Hong Kong’s linguistic competence and socio-cultural knowledge."
@@ -60,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-HKMMLU is a multi-task language understanding benchmark for Hong Kong, containing 26,698 multi-choice questions across 66 subjects organized into STEM, Social Sciences, Humanities, and Other categories, plus 90,550 Mandarin-Cantonese translation tasks. Twenty models from 10 model families were evaluated. The best-performing model (DeepSeek-V3) achieved only 74.8% accuracy, significantly below MMLU benchmarks.
+HKMMLU is a Hong Kong-specific multi-task language understanding benchmark with 26,698 multi-choice questions across 66 subjects and 90,550 Mandarin-Cantonese translation tasks, released publicly on HuggingFace.
 
 
 ## Notes

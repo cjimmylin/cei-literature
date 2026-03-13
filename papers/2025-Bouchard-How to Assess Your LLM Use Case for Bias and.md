@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +55,7 @@ tags:
 abstract: "Current AI evaluation methods relying on static, model-only tests fail to account for harms that emerge through sustained human-AI interaction. This paper proposes a shift towards evaluation based on interactional ethics, focusing on interaction harms like inappropriate parasocial relationships, social manipulation, and cognitive overreliance that develop over time. The authors present practical principles for designing interactive evaluations including ecologically valid scenarios, human impact metrics, and diverse human participation approaches."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: Gemini
+LLM_assessed: "Gemini"
 DATA_URL: "https://github.com/cvs-health/langfair"
 pdf_extract: "PDF Extracts/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.md"
 local_pdf: "[[PDFs/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.pdf]]"
@@ -136,7 +139,7 @@ LangFair provides a practical, use-case-specific approach to LLM fairness evalua
 
 ## Data Description
 
-This paper introduces LangFair, a Python library for conducting bias and fairness assessments of LLM use cases, supporting toxicity, stereotype, and counterfactual fairness evaluations. The tutorial demonstrates the framework using Gemini-Pro on a text summarization use case with 1,000 conversations from the dialogsum-test dataset, computing metrics including Expected Maximum Toxicity, Stereotype Association, and Counterfactual Sentiment Bias.
+LangFair is an open-source Python library for bias and fairness assessment of LLM use cases, implementing toxicity, stereotype, and counterfactual fairness metrics with a bring-your-own-prompts approach.
 
 
 ## Notes

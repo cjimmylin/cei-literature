@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,9 +49,9 @@ CONF-CC: "Electronics"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
-languages_list: "multiple languages"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

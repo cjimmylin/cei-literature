@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Filipino"
 cultures_nationalities_list: "Filipino"
-languages_list: Filipino/Tagalog
+languages_list: "Filipino"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +47,13 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Armenian"
-languages_list: Armenian
+cultures_nationalities_list: "N/A"
+languages_list: "Armenian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude-3.7-Sonnet, Gemini-2.0-Flash"
+LLM_assessed: "Claude-3, Gemini"
 DATA_URL: "https://huggingface.co/spaces/metric-am/ArmBench-LLM"
 tags: 
 abstract: "The first benchmark specifically designed to evaluate LLMs on Armenian language tasks. Features Armenian university entrance exams in Literature, Language, History, and Mathematics, plus 1,000 MMLU questions translated and post-processed into Armenian. Claude 3.7 Sonnet leads overall, Gemini 2.0 Flash leads MMLU-Pro-Hy."
@@ -61,7 +65,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,7 @@ This paper presents ArmBench-LLM, the first comprehensive benchmark specifically
 
 ## Data Description
 
-ArmBench-LLM is the first benchmark specifically designed to evaluate LLMs on Armenian language tasks. It features Armenian university entrance exams in Literature, Language, History, and Mathematics, plus 1,000 MMLU questions translated and post-processed into Armenian. Claude 3.7 Sonnet leads overall, Gemini 2.0 Flash leads MMLU-Pro-Hy.
+ArmBench-LLM is the first benchmark for evaluating LLMs on Armenian language tasks, featuring Armenian university entrance exams (Literature, Language, History, Mathematics) and 1,000 MMLU questions translated into Armenian.
 
 
 ## Notes

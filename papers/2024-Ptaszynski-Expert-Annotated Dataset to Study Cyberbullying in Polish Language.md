@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,14 +52,14 @@ pdf_extract: "PDF Extracts/2024/2024-Ptaszynski-Expert-Annotated Dataset to Stud
 local_pdf: "[[PDFs/2024/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Polish"
-languages_list: Polish
+cultures_nationalities_list: "N/A"
+languages_list: "Polish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, distilbert"
-DATA_URL: "https://github.com/bear/python-twitter"
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "We introduce the first dataset of harmful and offensive language collected from the Polish Internet. This dataset was meticulously curated to facilitate the exploration of harmful online phenomena such as cyberbullying and hate speech, which have exhibited a significant surge both within the Polish Internet as well as globally. The dataset was systematically collected and then annotated using two approaches."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -66,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
@@ -102,7 +106,8 @@ Expert-annotated dataset for cyberbullying and hate-speech detection in Polish w
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, distilbert. Verified dataset/resource link: https://github.com/bear/python-twitter.
+Expert-annotated Polish cyberbullying dataset of 11,041 tweets (training + test split) with binary and multi-class harmfulness labels, released on Zenodo alongside classification models (Polish BERT variants). The Zenodo URL is referenced but not spelled out in the PDF extract.
+
 
 ## Notes
 

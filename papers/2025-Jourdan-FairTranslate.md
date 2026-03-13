@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +53,7 @@ abstract: "Large Language Models (LLMs) are increasingly leveraged for translati
 paper_summary: "Abstract: Large Language Models (LLMs) are increasingly leveraged for trans- lation tasks but often fall short when translating inclusive language – such as texts containing the singular 'they' pronoun or other | Overview: FairTranslate: An English-French Dataset for Gender Bias Evaluation in Machine Translation by Overcoming Gender Binarity Fanny Jourdan fanny.jourdan@irt-saintexupery.com IRT Saint Exupery Toulouse, Fr | Conclusions: In this work, we introduced FairTranslate, a novel English-French translation dataset annotated by experts with extensive metadata, enabling detailed"
 CONF-CC: "FAccT 2025"
 DATE_ADDED: 20260208
-LLM_assessed: "Gemma, Mistral, Llama-3"
+LLM_assessed: "Gemma-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/fanny-jourdan/FairTranslate"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -80,7 +84,7 @@ Large Language Models (LLMs) are increasingly leveraged for translation tasks bu
 
 ## Data Description
 
-FairTranslate is a fully human-annotated English-French dataset of 2,418 sentence pairs designed to evaluate non-binary gender biases in machine translation. Each entry is centered around an occupation and annotated with metadata including stereotypical alignment, grammatical gender ambiguity, and ground-truth gender labels (male, female, or inclusive). The dataset enables counterfactual analysis by providing all three gender variants for each example.
+FairTranslate: 2,418 fully human-annotated English-French sentence pairs for gender bias evaluation in machine translation, annotated with gender labels (male/female/inclusive), occupation stereotypicality, and grammatical gender ambiguity.
 
 
 ## Notes

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +48,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
-languages_list: Hebrew
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -98,7 +101,7 @@ Open leaderboard for evaluating Hebrew LLMs on four tasks: QA, Sentiment Analysi
 
 ## Data Description
 
-Open leaderboard platform for evaluating Hebrew LLMs on four tasks: QA, Sentiment Analysis, Winograd Schema Challenge, and Translation. Addresses Hebrew as a low-resource language with unique evaluation needs. The specific models evaluated rotate as the leaderboard is continuously updated.
+Open leaderboard evaluating Hebrew LLMs on four standardized tasks: QA, Sentiment Analysis, Winograd Schema Challenge, and Translation. Provides infrastructure for ongoing comparison of Hebrew language models.
 
 
 ## Notes

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +43,7 @@ authors: "Alfred Malengo Kondoro"
 url: "https://arxiv.org/abs/2410.14289"
 external_pdf: "https://arxiv.org/pdf/2410.14289.pdf"
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Swahili"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +58,7 @@ paper_summary: "Abstract: This paper proposes the creation of a Swahili Question
 local_pdf: "[[PDFs/2024/2024-Oliech-SwaQuAD-24.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -65,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning annotated dataset for question answering"
 data_metrics: "Not specified"
 ---
@@ -95,7 +98,7 @@ This paper proposes the creation of a Swahili Question Answering (QA) benchmark 
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a proposal paper outlining the design for a Swahili Question Answering benchmark dataset (SwaQuAD-24), discussing planned data sources, evaluation metrics (F1, EM, BLEU), ethical considerations, and potential baseline models (mBERT, XLM-R), but no actual dataset or model evaluations are presented.
+Proposal paper for SwaQuAD-24, a Swahili QA benchmark dataset; describes planned dataset design, ethical considerations, and evaluation metrics but the dataset has not yet been constructed or released.
 
 
 ## Notes

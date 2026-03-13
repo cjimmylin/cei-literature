@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ local_pdf: "[[PDFs/2023/2023-team-Albertina Advancing Neural Encoding of Portugu
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "American, Brazilian"
-cultures_nationalities_list: "Portuguese, Brazilian"
-languages_list: Portuguese
+national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian"
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, DeBERTa"
+LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/PORTULAN/albertina-ptbr"
 tags: 
 abstract: "To advance the neural encoding of Portuguese (PT), and a fortiori the technological preparation of this language for the digital age, we developed a Transformer-based foundation model that sets a new state of the art in this respect for two of its variants, namely European Portuguese from Portugal (PT-PT) and American Portuguese from Brazil (PT-BR). To develop this encoder, which we named Albertina PT-*, a strong model was used as a starting point, DeBERTa, and its pre-training was done over..."

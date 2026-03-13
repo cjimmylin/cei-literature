@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2026/2026-Shafique-UrduBench An Urdu Reasoning Benchmark usin
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Urdu, Pakistani"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Recent advances in large language models (LLMs) have led to strong reasoning capabilities; however, evaluating such models in low-resource languages remains challenging due to the lack of standardized benchmarks. In particular, Urdu reasoning evaluation has been limited by the sensitivity of machine translation and an emphasis on general language tasks rather than reasoning benchmarks. In this paper, we propose a contextually ensembled translation framework with humanin-the-loop validation that..."
-LLM_assessed: "Barth, ChatGPT, DeepSeek, DeepSeek-AI, DeepSeek-R1, Falcon-h1, Gemma, Gemma-3, Gemma2, LLaMA-3.1, LLaMA-3.2, Llama, Mistral-7B, Mistral-NeMo, Phi-4, Phi-4-Mini, Qwen, Qwen R1, Qwen 3, Qwen-1.5B, Qwen-14B, Qwen-3, Qwen-7B, Qwen2.5"
+LLM_assessed: "DeepSeek, Falcon, Gemma, Gemma-2, Llama-3, Mistral, Phi-3, Qwen-2"
 DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: "Preprint"
@@ -65,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Contextually ensembled translation framework with human-in-the-loop validation f
 
 ## Data Description
 
-Backfill summary: Models assessed include Barth, ChatGPT, DeepSeek, DeepSeek-AI, DeepSeek-R1, Falcon-h1, Gemma, Gemma-3, Gemma2, LLaMA-3.1, LLaMA-3.2, Llama, Mistral-7B, Mistral-NeMo, Phi-4, Phi-4-Mini, Qwen, Qwen R1, Qwen 3, Qwen-1.5B, Qwen-14B, Qwen-3, Qwen-7B, Qwen2.5. No high-confidence repository-style data URL was identified.
+UrduBench consists of Urdu translations of four established reasoning benchmarks (MGSM, MATH-500, CommonSenseQA, OpenBookQA) created using a contextually ensembled translation framework with human-in-the-loop validation; dataset to be publicly released.
+
 
 ## Notes
 

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....md"
 local_pdf: "[[PDFs/2025/2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Chinese, English, Multilingual"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BLOOM, BLOOM 251, BLOOM 35, BLOOM 48, BLOOM 83, ChatGPT, Llama, LLaMA 23.26, LLaMA 32, LLaMA 38.10, LLaMA 45.65, LLaMA 5.38, LLaMA 50.00, LLaMA 6.26, LLaMA 7.09, LLaMA 76.6, Llama-2, T5-LM, bloom-7b1"
+LLM_assessed: "BLOOM, LLaMA, Llama-2"
 DATA_URL: "https://github.com/boschresearch/ACL24-MLLM"
 tags: 
 abstract: "To democratize large language models (LLMs) to most natural languages, it is imperative to make these models capable of understanding and generating texts in many languages, in particular low-resource ones. While recent multilingual LLMs demonstrate remarkable performance in such capabilities, these LLMs still support a limited number of human languages due to the lack of training data for low-resource languages."
@@ -63,7 +67,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
@@ -98,7 +102,8 @@ To democratize large language models (LLMs) to most natural languages, it is imp
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, BLOOM, BLOOM 251, BLOOM 35, BLOOM 48, BLOOM 83, ChatGPT, Llama, LLaMA 23.26, LLaMA 32, LLaMA 38.10, LLaMA 45.65, LLaMA 5.38, LLaMA 50.00, LLaMA 6.26, LLaMA 7.09, LLaMA 76.6, Llama-2, T5-LM, bloom-7b1. Verified dataset/resource link: https://github.com/boschresearch/ACL24-MLLM.
+Two novel datasets released: a multilingual instruction-following dataset covering 100 languages (translated from Alpaca) and a cross-lingual human feedback dataset covering 30 languages, used to train xLLaMA-100 and xBLOOM-100.
+
 
 ## Notes
 

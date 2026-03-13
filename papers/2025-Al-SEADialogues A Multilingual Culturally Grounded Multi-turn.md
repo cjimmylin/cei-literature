@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +50,17 @@ local_pdf: "[[PDFs/2025/2025-Al-SEADialogues A Multilingual Culturally Grounded 
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indonesian, Thai, Vietnamese, Filipino, Malaysian, Burmese"
-languages_list: "Indonesian, Javanese, Malay, Minangkabau, Tagalog, Tamil, Thai, Vietnamese"
+national_ethnic_cultural: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
+languages_list: "Indonesian, Javanese, Malay, Tagalog, Tamil, Thai, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Although numerous datasets have been developed to support dialogue systems, most existing chit-chat datasets overlook the cultural nuances inherent in natural human conversations. To address this gap, we introduce SEADIALOGUES, a culturally grounded dialogue dataset centered on Southeast Asia, a region with over 700 million people and immense cultural diversity. Our dataset features dialogues in eight languages from six Southeast Asian countries, many of which are low-resource despite having..."
-LLM_assessed: "GPT-4, GPT-4o mini, Llama, Llama-3.1, Qwen-14B"
-DATA_URL: "NA"
+LLM_assessed: "Aya, GPT-4o mini, Gemini, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/SEACrowd/SEADialogues"
 research_topic: "Machine Translation"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for conversational ai"
@@ -100,7 +104,8 @@ Multilingual culturally grounded multi-turn dialogue dataset for SEA languages. 
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, GPT-4o mini, Llama, Llama-3.1, Qwen-14B. No high-confidence repository-style data URL was identified.
+SEADIALOGUES: a multilingual multi-turn dialogue dataset with 32,000 dialogues in 8 Southeast Asian languages (Indonesian, Javanese, Malay, Minangkabau, Tagalog, Tamil, Thai, Vietnamese) across 6 countries, covering 100+ culturally relevant topics with 210 diverse personas. Code also available at https://github.com/SEACrowd/SEADialogues.
+
 
 ## Notes
 

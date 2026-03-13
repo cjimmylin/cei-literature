@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +62,7 @@ abstract: "Artiﬁcial intelligence is currently powering diverse real-world app
 paper_summary: "Abstract: Artiﬁcial intelligence is currently powering diverse real-world applications. These applications have shown promising performance, but raise complicated ethical issues, i.e. how to embed ethics to mak | Overview: arXiv:2211.05521v1 [cs.CV] 10 Nov 2022 JEONG ET AL.: ZERO-SHOT VISUAL COMMONSENSE IMMORALITY 1 Zero-shot Visual Commonsense Immorality Prediction Yujin Jeong1 eugene6923@korea.ac.kr Seongbeom Park1 ps | Conclusions: Predicting immorality from images is of paramount importance regarding social safety. In this work, we ﬁrst utilized CLIP-based text-image joint embed"
 local_pdf: "[[PDFs/2022/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-3"
+LLM_assessed: "CLIP"
 DATA_URL: "https://github.com/ku-vai/Zero-shot-Visual-Commonsense-Immorality-Prediction"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -102,7 +107,7 @@ Artiﬁcial intelligence is currently powering diverse real-world applications. 
 
 ## Data Description
 
-The paper introduces a Visual Commonsense Immorality benchmark containing 2,172 immoral images across 3 categories (actions, scenes with intentions, and results of actions), plus 6,890 moral images. Text-based NLP baselines (BERT-base, BERT-large, RoBERTa-large, ALBERT-xxlarge, GPT-3 few-shot) are evaluated alongside CLIP-based models on the ETHICS dataset for commonsense immorality classification.
+Visual commonsense immorality benchmark with 2,172 immoral images across multiple domains
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: Ensuring the safety of large language models (LLMs) is
 local_pdf: "[[PDFs/2025/2025-Le Jeune-Phare A Safety Probe for Large Language Models.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Gemma, Claude, Mistral, Llama, Llama-3, Grok, Qwen, DeepSeek"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, GPT-4o mini, Gemini, Gemma, Grok, LLaMA, Llama-3, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/giskardai/phare, https://github.com/giskard-ai/phare"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -63,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -95,7 +99,7 @@ Ensuring the safety of large language models (LLMs) is critical for responsible 
 
 ## Data Description
 
-Phare is a multilingual diagnostic safety benchmark for LLMs covering three dimensions: hallucination and reliability, social biases and stereotypes, and harmful content generation. The dataset spans English, French, and Spanish, with tasks including factuality questions, debunking challenges, tool reliability tests, bias measurement via story generation, and misguidance detection. Seventeen state-of-the-art LLMs were evaluated across these dimensions. The public dataset and evaluation code are openly available.
+Phare: multilingual (EN/FR/ES) safety diagnostic dataset with three modules — hallucination/reliability (factuality, misinformation, debunking, tool reliability), social biases/stereotypes, and harmful content — publicly released with evaluation code.
 
 
 ## Notes

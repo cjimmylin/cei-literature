@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,7 @@ Calibration is a popular framework to evaluate whether a classifier knows when i
 
 ## Data Description
 
-The paper uses the ChaosNLI dataset, which contains approximately 4,645 natural language inference instances from SNLI and MNLI with 100 human annotations each, capturing inherent disagreement in human judgements. The authors fine-tune RoBERTa on these datasets to study calibration metrics and propose instance-level measures of calibration that capture key statistical properties of human judgement distributions including class frequency, ranking, and entropy.
+Code and evaluation framework for instance-level calibration measures (DistCE) on disagreement data, demonstrated on ChaosNLI dataset with fine-tuned RoBERTa classifiers.
 
 
 ## Notes

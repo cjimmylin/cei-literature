@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,13 +51,13 @@ CONF-CC: "EMNLP 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
-languages_list: Russian
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/RussianNLP/TAPE"
+LLM_assessed: "ruGPT-3, mGPT"
+DATA_URL: "https://tape-benchmark.com"
 tags: 
 abstract: "Recent advances in zero-shot and few-shot learning have shown promise for a scope of research and practical purposes. However, this fast-growing area lacks standardized evaluation suites for non-English languages, hindering progress outside the Anglo-centric paradigm. To address this line of research, we propose TAPE (Text Attack and Perturbation Evaluation), a novel benchmark that includes six more complex NLU tasks for Russian, covering multi-hop reasoning, ethical concepts, logic and..."
 CONFERENCE: "EMNLP 2022"
@@ -65,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -103,7 +106,8 @@ Benchmark for few-shot Russian language understanding with six complex NLU tasks
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/RussianNLP/TAPE.
+TAPE benchmark with six Russian NLU tasks covering multi-hop reasoning, ethical concepts, logic and commonsense knowledge, including adversarial attack framework RuTransform.
+
 
 ## Notes
 

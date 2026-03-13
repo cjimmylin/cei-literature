@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ research_topic: Other
 abstract: "Background: Integrating evidence-based approaches in healthcare and artificial intelligence (AI) is crucial for enhancing clinical decision-making and patient safety. Yesil o1 Pro is a specialized large language model (LLM) designed to transform medical knowledge synthesis by leveraging a comprehensive, curated database of scientific literature, clinical guidelines, and medical textbooks. Objective: The system's innovative 'AI Hospital' framework employs domain-specific expert agents..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, DeepSeek, Llama-3, Gemini"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, GPT-o1, Gemini, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/yesilhealth/Health_Benchmarks"
 pdf_extract: "PDF Extracts/2025/2025-Yesil-Yesil o1 Pro.md"
 local_pdf: "[[PDFs/2025/2025-Yesil-Yesil o1 Pro.pdf]]"
@@ -66,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Applied Ethics"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
@@ -139,7 +143,7 @@ Yesil o1 Pro represents an advancement in AI-driven healthcare support through i
 
 ## Data Description
 
-The study benchmarks Yesil o1 Pro, a specialized medical LLM built on GPT-4o, against leading models across over 50 medical specialties. The benchmarking dataset covers diverse medical domains including cardiology, mental health, epidemiology, and dentistry. The model's training dataset comprises 1.5 million question-answer pairs from scientific literature, clinical guidelines, and medical textbooks, totaling over 600 million words.
+A proprietary healthcare benchmarking dataset spanning 50+ medical specialties used to evaluate Yesil o1 Pro against other LLMs; the dataset is stated to be freely accessible to the public for benchmarking medical language models.
 
 
 ## Notes

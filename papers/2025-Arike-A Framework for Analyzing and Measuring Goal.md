@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ paper_summary: "Abstract: As language models (LMs) are increasingly de- ployed a
 local_pdf: "[[PDFs/2025/2025-Arike-A Framework for Analyzing and Measuring Goal.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Claude, GPT-4"
+LLM_assessed: "Claude-3 Sonnet, Claude-3 Haiku, GPT-4o, GPT-4o mini"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"

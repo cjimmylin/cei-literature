@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ local_pdf: "[[PDFs/2025/2025-Liu-Comparing diversity negativity and stereotypes 
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: Chinese
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-4, Qwen, Qwen 0.60"
-DATA_URL: "https://github.com/jaaack-wang/Chinese-Synonyms"
+LLM_assessed: "ERNIE, Qwen"
+DATA_URL: "https://doi.org/10.5281/zenodo.14148258"
 tags: 
 abstract: "Large Language Models (LLMs) and search engines have the potential to perpetuate biases and stereotypes by amplifying existing prejudices in their training data and algorithmic processes, thereby influencing public perception and decision-making. While most work has focused on Western-centric AI technologies, we examine social biases embedded in prominent Chinese-based commercial tools, the main search engine Baidu and two leading LLMs, Ernie and Qwen."
 research_topic: Other
@@ -98,7 +102,8 @@ Large Language Models (LLMs) and search engines have the potential to perpetuate
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4, Qwen, Qwen 0.60. Verified dataset/resource link: https://github.com/jaaack-wang/Chinese-Synonyms.
+A dataset of 240 Chinese social groups across 13 categories with over 30,000 generated completions from Ernie (ernie-turbo), Qwen (qwen-turbo), and Baidu search autocomplete, for studying diversity, negativity, and stereotypes in Chinese-language AI tools.
+
 
 ## Notes
 

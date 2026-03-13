@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOM, ChatGPT, CommandR, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT-4o-mini, GPT4, Gemma, Gemma-2, Gemma2, Llama, Llama-3, LLaMA-3.1, LLaMA-3.2, LLaMA-3.3, LLama3, Mistral-7B, PaLM 2, Palm, Phi-3, Qwen-2.5, Qwen2.5, WizardLM-2, phi-4"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "The widespread success of large language models (LLMs) has prompted increasing interest in their evaluation across diverse linguistic settings, yet systematic assessments for Arabic remain underexplored. This survey presents a structured taxonomy of benchmarks specifically designed to evaluate LLMs on Arabic text. It critically reviews existing benchmarks, highlighting their coverage across multiple domains, including general single-task and multitask scenarios, knowledge and reasoning tasks,..."
@@ -63,8 +67,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"

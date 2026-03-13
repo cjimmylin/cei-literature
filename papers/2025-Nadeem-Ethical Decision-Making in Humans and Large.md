@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ tags:
 abstract: "Received: 28 Dec 2024 Revised: 18 Feb 2025 Accepted: 26 Feb 2025 Introduction: The rapid integration of large language models (LLMs) into sensitive domains such as healthcare, law, and public policy has intensified scrutiny of their ethical decisionmaking. Although LLMs can express structured reasoning, their capacity to mirror human moral intuitions—especially in socially and emotionally complex situations—remains uncertain."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, DeepSeek"
+LLM_assessed: "DeepSeek, GPT-4, Gemini"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.md"
 local_pdf: "[[PDFs/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
@@ -126,7 +130,7 @@ Current LLMs can reproduce structured ethical rules but struggle significantly w
 
 ## Data Description
 
-This study developed 30 binary-choice ethical dilemmas spanning five domains (moral reasoning, fairness and bias, relational ethics, accountability and transparency, privacy and human rights) used to compare responses from five LLMs (GPT-4.0, Copilot, Gemini 1.5, Perplexity AI, and DeepSeek) against 150 human participants. The dataset includes structured yes/no responses with embedded justifications grounded in ethical frameworks including utilitarianism, deontology, and care ethics.
+Develops 30 binary-choice ethical dilemmas spanning 5 moral domains with responses from 5 LLMs and 150 human participants, stored in a structured annotated dataset; no public release URL found.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Qwen3, RoBERTa, XLNet"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/elnagara/HARD-Arabic-Dataset"
 tags: 
 abstract: "Recent advances in deep neural networks (DNNs) have led to significant enhancements in Arabic natural language processing (NLP). However, their robustness remains insufficiently explored, particularly in adversarial settings. Most existing Arabic NLP systems are predominantly trained on Modern Standard Arabic (MSA), whereas real-world Arabic text frequently incorporates dialectal forms that diverge lexically and morphologically."
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ Recent advances in deep neural networks (DNNs) have led to significant enhanceme
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Qwen3, RoBERTa, XLNet. Verified dataset/resource link: https://github.com/elnagara/HARD-Arabic-Dataset.
+Uses the Hotel Arabic Reviews Dataset (HARD) for adversarial evaluation of Arabic NLP robustness under dialectal substitution; the paper does not release a new dataset.
+
 
 ## Notes
 

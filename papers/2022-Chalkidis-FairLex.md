@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,8 +43,8 @@ last_author: "[[Søgaard, Anders]]"
 authors: "Chalkidis, Ilias; Pasini, Tommaso; Zhang, Sheng; Tomada, Letizia; Schwemer, Sebastian Felix; Søgaard, Anders"
 url: "https://aclanthology.org/2022.acl-long.301/"
 external_pdf: "http://arxiv.org/pdf/2203.07228"
-national_ethnic_cultural: "Chinese, French, German, Italian"
-cultures_nationalities_list: "Chinese, French, German, Italian"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Chinese, English, French, German, Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ local_pdf: "[[PDFs/2022/2022-Chalkidis-FairLex.pdf]]"
 abstract: "We present a benchmark suite of four datasets for evaluating the fairness of pre-trained language models and the techniques used to ﬁne-tune them for downstream tasks. Our benchmarks cover four jurisdictions (European Council, USA, Switzerland, and China), ﬁve languages (English, German, French, Italian and Chinese) and fairness across ﬁve attributes (gender, age, region, language, and legal area). In our experiments, we evaluate pretrained language models using several grouprobust ﬁne-tuning..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, elmo"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/coastalcph/fairlex"
 CONFERENCE: "ACL 2022"
 ethics_overall: "Yes"
@@ -86,7 +90,7 @@ We present a benchmark suite of four datasets for evaluating the fairness of pre
 
 ## Data Description
 
-FairLex is a multilingual fairness benchmark suite comprising four legal text classification datasets covering four jurisdictions (European Council, USA, Switzerland, China), five languages (English, German, French, Italian, Chinese), and fairness across five attributes (gender, age, region, language, legal area). The datasets include ECtHR (11K cases), SCOTUS (9,262 cases), FSCS (85K+ decisions), and CAIL (100K+ criminal cases), all with chronological train/dev/test splits and annotated sensitive attributes for fairness evaluation.
+FairLex benchmark suite of four legal datasets across four jurisdictions (ECtHR, SCOTUS, FSCS, CAIL), five languages, and fairness across five attributes. Includes four domain-specific BERT models and unified HuggingFace dataset release.
 
 
 ## Notes

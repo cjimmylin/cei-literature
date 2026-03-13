@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: "WebSearch: LAG-MMLU Giriama African language benchmark"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Latvian, Kenyan"
+cultures_nationalities_list: "N/A"
 languages_list: "Giriama, Latvian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) rapidly advance, evaluating their performance is critical. LLMs are trained on multilingual data, but their reasoning abilities are mainly evaluated using English datasets. Hence, robust evaluation frameworks are needed using high-quality nonEnglish datasets, especially low-resource languages (LRLs). This study evaluates eight state-of-the-art (SOTA) LLMs on Latvian and Giriama using a Massive Multitask Language Understanding (MMLU) subset curated with native..."
-LLM_assessed: "BERT, Claude 3.5, Claude 3.5 Sonnet, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, Gemma, Llama, Llama 3, Llama 3.3, Llama-3.3, Llama3.3, Mistral- large, Mistral-Large"
-DATA_URL: "NA"
+LLM_assessed: "Claude-3, DeepSeek, Gemini, GPT-4o, Llama-3, Mistral, o1"
+DATA_URL: "https://github.com/akanepajs/capabilities_lv_giriama/tree/main/MMLU"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ First gold-standard benchmark for Giriama (Kenyan Bantu language). Evaluates 8 S
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Claude 3.5, Claude 3.5 Sonnet, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, Gemma, Llama, Llama 3, Llama 3.3, Llama-3.3, Llama3.3, Mistral- large, Mistral-Large. No high-confidence repository-style data URL was identified.
+LAG-MMLU is a curated 500-question MMLU subset benchmark for Latvian (machine-translated + human-edited) and Giriama (gold-standard human-translated), representing the first benchmark for the Giriama Kenyan Bantu language.
+
 
 ## Notes
 

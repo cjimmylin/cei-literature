@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +52,7 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu, South African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
 religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "South Africa’s escalating mental health crisis, compounded by limited access to culturally responsive care, calls for innovative and contextually grounded interventions. While Large Language Models (LLMs) show considerable promise for mental health support, their predominantly Western-centric training data limit cultural and linguistic applicability in African contexts. This study introduces a proof-of-concept framework that integrates Cognitive Behavioural Therapy (CBT) with the African..."
-LLM_assessed: "BLOOM, ChatGPT, Flan-T5-Large, GPT-4, GPT-4o-mini, Llama 2, T5-Large, Vicuna"
+LLM_assessed: "GPT-4o mini"
 DATA_URL: "https://github.com/Sontaga25/Chatbot_FrontEnd.git"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Dialogue Systems"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

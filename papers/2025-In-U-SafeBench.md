@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ local_pdf: "[[PDFs/2025/2025-In-U-SafeBench.pdf]]"
 abstract: "There is an ongoing debate about what safety means for large language models (LLMs). While most safety benchmarks evaluate LLMs against universal safety standards, in practice, safety requirements vary across users and contexts. We introduce U-SafeBench, a comprehensive benchmark for evaluating user-specific safety of LLMs. Our evaluation reveals that current LLMs fail to act safely when considering user-specific safety standards, representing a newly identified vulnerability. We propose a chain-of-thought based remedy that improves user-specific safety performance."
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
-LLM_assessed: "ChatGPT, Claude, Claude-3.5, Claude-3.5-haiku, Claude-3.5-sonnet, GPT-4, Gemma, Gemma-2, Llama, Llama Guard, Llama-3.1, Llama-4, Llama-Guard, Mistral, Mistral-7B, Mistral-Small, Mixtral-8x22B, Mixtral-8x7B, claude-3"
+LLM_assessed: "ChatGPT, Claude-3 Haiku, Claude-3 Sonnet, GPT-3.5, GPT-4o, GPT-4o mini, Gemma-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/yeonjun-in/U-SafeBench"
 authors_incomplete: false
 CONFERENCE: "Preprint"
@@ -68,7 +72,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,7 @@ There is an ongoing debate about what safety means for large language models (LL
 
 ## Data Description
 
-U-SafeBench benchmark dataset for evaluating user-specific safety of large language models. Tests LLMs against individualized safety standards rather than universal ones.
+U-SafeBench is a benchmark dataset with 130+ user profiles and 2,700+ real-world user instructions for evaluating user-specific safety of LLM agents across QA and autonomous agent tasks. Covers physical health, mental health, and illegal/unethical activity risk scenarios.
 
 
 ## Notes

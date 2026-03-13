@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ local_pdf: "[[PDFs/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Und
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi, Bengali"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, DeepSeek, DEEPSEEK-V3, GPT-3, GROK 4, Gemma, Llama, LLAMA-3., LLAMA-3.2, LLAMA-3.3, QWEN-PLUS, QWEN3, gemma3, grok-4"
-DATA_URL: "https://github.com/JaidedAI/EasyOCR"
+LLM_assessed: "DeepSeek, Gemini, Gemma, Grok, Llama-3, Qwen"
+DATA_URL: "https://github.com/saman-sarker-joy/BnMMLU"
 tags: 
 abstract: "Large-scale multitask benchmarks have driven rapid progress in language modeling, yet most emphasize high-resource languages such as English, leaving Bengali underrepresented. We present BnMMLU, a comprehensive benchmark for measuring massive multitask language understanding in Bengali. BnMMLU spans 41 domains across STEM, humanities, social sciences, and general knowledge, and contains 134,375 multiple-choice question–option pairs-the most extensive Bengali evaluation suite to date."
 CONFERENCE: "Preprint"
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "138,949 question"
 ---
@@ -98,7 +102,8 @@ data_metrics: "138,949 question"
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, DeepSeek, DEEPSEEK-V3, GPT-3, GROK 4, Gemma, Llama, LLAMA-3., LLAMA-3.2, LLAMA-3.3, QWEN-PLUS, QWEN3, gemma3, grok-4. Verified dataset/resource link: https://github.com/JaidedAI/EasyOCR.
+BnMMLU: a 134,375-item multiple-choice Bengali language understanding benchmark spanning 41 domains (STEM, humanities, social sciences, general knowledge), with a BnMMLU-HARD subset of most frequently missed questions.
+
 
 ## Notes
 

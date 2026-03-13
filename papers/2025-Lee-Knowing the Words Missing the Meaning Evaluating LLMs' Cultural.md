@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ local_pdf:
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: "Chinese, Korean"
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -63,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "200 samples"
 ---
@@ -99,7 +102,7 @@ Benchmark evaluating LLMs' cultural understanding through Sino-Korean words and 
 
 ## Data Description
 
-Evaluates LLMs on understanding Korean Sino-Korean words, testing cultural and linguistic comprehension. Code and data are available on GitHub. The paper specifically tests GPT-4o on cultural meaning interpretation tasks.
+A benchmark dataset of 800 questions (200 per category) covering Sino-Korean words and four-character idioms across four question types: idioms, synonyms, antonyms, and homophones, for evaluating LLMs' Korean cultural understanding.
 
 
 ## Notes

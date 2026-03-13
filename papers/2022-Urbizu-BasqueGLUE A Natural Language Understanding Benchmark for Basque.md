@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +46,13 @@ pdf_extract: "PDF Extracts/2022/2022-Urbizu-BasqueGLUE A Natural Language Unders
 local_pdf: "[[PDFs/2022/2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Basque"
-languages_list: Basque
+cultures_nationalities_list: "N/A"
+languages_list: "Basque"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERTeus, mBERT, mT5, XLM-RoBERTa"
+LLM_assessed: "BERT, BERTeus, XLM-R"
 DATA_URL: "https://github.com/orai-nlp/BasqueGLUE"
 tags: 
 abstract: "Language models depend on massive text corpora that are often filtered for quality, a process that can unintentionally exclude non-standard linguistic varieties, reduce model robustness and reinforce representational biases. In this paper, we argue that language models should aim to capture the full spectrum of language variation (dialectal, historical, informal, etc.) rather than relying solely on standardized text."
@@ -60,8 +63,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +103,7 @@ This paper introduces BasqueGLUE, the first comprehensive Natural Language Under
 
 ## Data Description
 
-BasqueGLUE benchmark for Basque Natural Language Understanding, containing 6 tasks including sentiment analysis, topic classification, named entity recognition, POS tagging, dependency parsing, and semantic textual similarity. First comprehensive benchmark suite for evaluating language models on Basque.
+BasqueGLUE: first NLU benchmark for Basque with 9 tasks and baselines from state-of-the-art Basque language models, freely available under open license.
 
 
 ## Detailed Summary

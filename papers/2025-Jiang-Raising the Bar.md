@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ paper_summary: "Abstract: Warning: Contains harmful model outputs. Despite signi
 local_pdf: "[[PDFs/2025/2025-Jiang-Raising the Bar.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Gemini, Mistral, Llama-2, Llama-3"
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2, Mistral"
 DATA_URL: "https://github.com/Salomeeeee/GETA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ Warning: Contains harmful model outputs. Despite significant advancements, the p
 
 ## Data Description
 
-The paper introduces GETA (Generative Evolving Testing of vAlues), a dynamic evaluation framework that uses adaptive testing methods from psychometrics. The evaluation dataset comprises 15,000 test items (5,000 each for social bias, ethics, and toxicity) drawn from 12 static datasets including BBQ, ETHICS, RealToxicityPrompts, and HarmfulQA. Eight examinee LLMs were tested including GPT-4, GPT-3.5-Turbo, Gemini-1.0-Pro, Mistral-Medium/7B, LLaMA-2-70B/7B, and Orca2-13B, with a LLaMA-3-8B model fine-tuned as the item generator.
+GETA (Generative Evolving Testing Approach) is released as a framework and codebase for dynamically generating value-alignment test items tailored to LLM capability, addressing evaluation chronoeffect.
 
 
 ## Notes

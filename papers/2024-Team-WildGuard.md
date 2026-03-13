@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,11 +53,11 @@ newtags: "AI Safety & Alignment"
 key_contribution: "Introduced WildGuard, a lightweight and open moderation tool for LLM safety, along with WildGuardMix (a balanced 92k labeled multi-task safety dataset)."
 significance: "Establishes a state-of-the-art open moderation baseline that rivals or exceeds GPT-4 in refusal detection and harmfulness identification, significantly enhancing the security of open LLM interfaces."
 tags: 
-pdf_extract: "PDF Extracts/0000/2024-Team-WildGuard.md"
+pdf_extract: "PDF Extracts/2024/2024-Team-WildGuard.md"
 abstract: "We introduce WILDGUARD—an open, light-weight moderation tool for LLM safety that achieves three goals: (1) identifying malicious intent in user prompts, (2) detecting safety risks of model responses, and (3) determining model refusal rate. Together, WILDGUARD serves the increasing needs for automatic safety moderation and evaluation of LLM interactions, providing a one-stop tool with enhanced accuracy and broad coverage across 13 risk categories. While existing open moderation tools such as Llam"
 paper_summary: "Abstract: We introduce WILDGUARD—an open, light-weight moderation tool for LLM safety that achieves three goals: (1) identifying malicious intent in user prompts, (2) detecting safety risks of model responses,  | Overview: WILDGUARD: Open One-stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs Seungju Han∗♡♠ Kavel Rao∗♢ Allyson Ettinger†♡ Liwei Jiang†♡♢ Bill Yuchen Lin♡ Nathan Lambert♡ Yejin Choi♡♢  | Key Findings: framework for automated red teaming and robust refusal. arXiv preprint arXiv:2402.04249, 2024. [26] Meta. Meta llama guard 2: Model cards and prompt f | Conclusions: In this work, we introduce WILDGUARD, a unified multi-task open LLM safety moderation model capable of detecting diverse types of vanilla and adversar"
 local_pdf: "[[PDFs/2024/2024-Team-WildGuard.pdf]]"
-LLM_assessed: "GPT-4, GPT-3.5, Llama, Mistral, Gemma, Vicuna"
+LLM_assessed: "GPT-4, LLaMA, Mistral, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/allenai/wildguardmix, https://github.com/allenai/wildguard"
 publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
@@ -96,7 +100,7 @@ We introduce WildGuard -- an open, light-weight moderation tool for LLM safety t
 
 ## Data Description
 
-WildGuardMix is a large-scale, balanced multi-task safety moderation dataset comprising 92K labeled examples covering 13 risk categories. It includes WildGuardTrain (87K training examples) and WildGuardTest (5,299 human-annotated items) for prompt harmfulness detection, response harmfulness detection, and refusal detection. The dataset covers vanilla and adversarial prompts paired with compliance and refusal responses, drawn from synthetic generation, in-the-wild user-LLM interactions, and existing annotator-written safety data.
+WILDGUARDMIX is a 92K-item multi-task safety moderation dataset covering vanilla and adversarial prompts paired with refusal/compliance responses across 13 risk categories; includes WILDGUARDTEST, a 5K human-annotated evaluation set.
 
 
 ## Notes

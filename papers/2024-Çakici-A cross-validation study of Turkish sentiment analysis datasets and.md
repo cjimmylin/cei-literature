@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +49,14 @@ CONF-CC: "Language Resources and Evaluation"
 pdf_extract: "PDF Extracts/2024/2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.md"
 local_pdf: "[[PDFs/2024/2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Turkish"
-languages_list: "Arabic, Mongolian, Multilingual, Tibetan, Turkish, Uyghur"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, ELECTRA, GloVe, RoBERTa"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/sevvalckc/Turkish-SAD"
 tags: 
 abstract: "In recent years, sentiment analysis has gained increasing significance, prompting re­ searchers to explore datasets in various languages, including Turkish. However, the limited availability and reuse of Turkish datasets across studies has yielded highly diverse outcomes. To address this, we conducted a systematic review of sentiment analysis studies on Turkish text. Our search identified 78 relevant studies, from which we extracted over 80 datasets."
@@ -101,7 +104,8 @@ In recent years, sentiment analysis has gained increasing significance, promptin
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT, ELECTRA, GloVe, RoBERTa. Verified dataset/resource link: https://github.com/sevvalckc/Turkish-SAD.
+Turkish Sentiment Analysis Database (Turkish-SAD) is a publicly accessible repository compiling over 80 Turkish sentiment analysis datasets from 78 studies, organized with taxonomic classification labels to guide future Turkish NLP research.
+
 
 ## Notes
 

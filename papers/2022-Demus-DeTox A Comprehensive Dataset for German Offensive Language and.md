@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +47,7 @@ local_pdf: "[[PDFs/2022/2022-Demus-DeTox A Comprehensive Dataset for German Offe
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -100,7 +103,7 @@ This paper presents DeTox, a comprehensive German offensive language dataset con
 
 ## Data Description
 
-DeTox dataset of 10,278 German social media comments with 12 annotation categories covering toxicity, criminal relevance, and discrimination types. About half the comments are from coherent conversations enabling conversation-level analysis. Evaluated with BERT-based models.
+DeTox dataset of 10,278 annotated German social media comments with 12 annotation categories covering toxicity, criminal relevance, discrimination types, and conversation-level analysis.
 
 
 ## Detailed Summary

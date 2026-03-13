@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +50,8 @@ local_pdf: "[[PDFs/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Ext
 publication: "Journal of Intelligent and Fuzzy Systems"
 CONF-CC: "Journal of Intelligent and Fuzzy Systems"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -67,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

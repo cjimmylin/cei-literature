@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +44,8 @@ authors: "Yu Ying Chiu; Liwei Jiang; Bill Yuchen Lin; Chan Young Park; Shuyue St
 doi: 10.48550/arXiv.2410.02677
 url: "http://arxiv.org/abs/2410.02677"
 external_pdf: "http://arxiv.org/pdf/2410.02677.pdf"
-national_ethnic_cultural: "Chinese, African/Ubuntu"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ paper_summary: "Abstract: Robust, diverse, and challenging cultural knowledge be
 local_pdf: "[[PDFs/2025/2025-Chiu-CulturalBench.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, o1, Llama-3, Mistral, DeepSeek, Qwen, Gemma"
+LLM_assessed: "Aya, Cohere, DeepSeek, GPT-4o, Llama-3, Mistral, o1, Qwen"
 DATA_URL: "https://hf.co/spaces/kellycyy/CulturalBench"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,7 @@ Robust, diverse, and challenging cultural knowledge benchmarks are essential for
 
 ## Data Description
 
-CulturalBench is a benchmark of 1,696 human-written and human-verified cultural knowledge questions covering 45 global regions and 17 topics, constructed through a human-AI red-teaming pipeline. The benchmark includes Easy (multiple-choice) and Hard (True/False) formats, testing 29 models from families including GPT, Llama, DeepSeek, Mistral, and Qwen, with best-performing model OpenAI o1 achieving only 61.4% on the Hard version compared to 92.4% human accuracy.
+CULTURALBENCH is a set of 1,696 human-written and human-verified cultural knowledge questions covering 45 global regions and 17 topics, released with Creative Commons Attribution 4.0 license. The benchmark includes Easy (multiple-choice) and Hard (binary T/F) variants.
 
 
 ## Notes

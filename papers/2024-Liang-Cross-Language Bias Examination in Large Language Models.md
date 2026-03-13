@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +46,8 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Liang-Cross-Language Bias Examination in Large Language Models.md"
 local_pdf: "[[PDFs/2024/2024-Liang-Cross-Language Bias Examination in Large Language Models.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Arabic, French, Spanish"
-cultures_nationalities_list: "Chinese, Arabic, French, Spanish"
+national_ethnic_cultural: "Chinese, Arabic, French, Spanish, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, Arabic, French, Spanish, Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, English, French, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -60,7 +63,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"

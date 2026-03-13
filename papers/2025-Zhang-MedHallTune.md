@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ local_pdf: "[[PDFs/2025/2025-Zhang-MedHallTune.pdf]]"
 abstract: "The increasing use of vision-language models (VLMs) in healthcare applications presents great challenges related to hallucinations, in which the models may generate seemingly plausible results that are in fact incorrect. Such hallucinations can jeopardize clinical decision making, potentially harming the diagnosis and treatments. In this work, we propose MedHallTune, a large-scale benchmark designed specifically to evaluate and mitigate hallucinations in medical VLMs."
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Qwen, Vicuna, Llama-2, Flan-T5"
+LLM_assessed: "GPT-4o, Qwen, LLaVA"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -123,7 +127,7 @@ Specific domain hallucination requires specific domain tuning. MedHallTune provi
 
 ## Data Description
 
-MedHallTune is a large-scale medical hallucination benchmark comprising over 100,000 images and 1,000,000 instruction pairs, including both hallucination and non-hallucination samples with ground-truth annotations. The dataset is sourced from PubMed medical image-text pairs and covers diverse medical domains such as brain, chest, eyes, and cellular structures. The testing split contains 200 images with 1,143 hallucination and 1,127 non-hallucination instructions, designed to evaluate and mitigate hallucinations in vision-language models for healthcare applications.
+MedHallTune: a large-scale medical vision-language instruction-tuning benchmark with 100,000+ images and 1,000,000+ instruction pairs (hallucination and non-hallucination samples) sourced from PubMed, with four new clinical evaluation metrics. Dataset URL not yet public (abstract states 'will be available at MedHallTune').
 
 
 ## Notes

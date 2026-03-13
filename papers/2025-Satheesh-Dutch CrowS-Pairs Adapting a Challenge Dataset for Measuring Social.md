@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,15 +47,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.md"
 local_pdf: "[[PDFs/2025/2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "French, Dutch, American"
-cultures_nationalities_list: "Dutch, French, American"
-languages_list: "Dutch, English, French"
+national_ethnic_cultural: "Dutch"
+cultures_nationalities_list: "Dutch"
+languages_list: "Dutch"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERTje, RobBERT, mBERT, Mistral-7B, BERT, RoBERTa, FlauBERT, CamemBERT"
-DATA_URL: "NA"
+LLM_assessed: "BERT, RoBERTa, Mistral"
+DATA_URL: "https://github.com/jerryspan/Dutch-CrowS-Pairs"
 tags: 
 abstract: "Warning: This paper contains explicit statements of offensive stereotypes which might be upsetting Language models are prone to exhibiting biases, further amplifying unfair and harmful stereotypes. Given the fast-growing popularity and wide application of these models, it is necessary to ensure safe and fair language models. As of recent considerable attention has been paid to measuring bias in language models, yet the majority of studies have focused only on English language."
 CONFERENCE: "Preprint"
@@ -100,7 +104,7 @@ This paper presents Dutch CrowS-Pairs, the first full adaptation of the CrowS-Pa
 
 ## Data Description
 
-Dutch CrowS-Pairs is the first full adaptation of CrowS-Pairs for Dutch with 1,463 sentence pairs covering 9 bias categories including sexual orientation, gender, and disability. GEITje (Dutch fine-tuned model) exhibited significantly more bias than base Mistral-7B. Also evaluates English and French models for cross-lingual comparison.
+Dutch adaptation of CrowS-Pairs: 1,463 sentence pairs covering 9 bias categories (including sexual orientation, gender, disability) for measuring social biases in Dutch language models.
 
 
 ## Detailed Summary

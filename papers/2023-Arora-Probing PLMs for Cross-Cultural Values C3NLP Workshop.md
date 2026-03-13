@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +46,8 @@ external_pdf: "https://core.ac.uk/download/674011497.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop.md"
 local_pdf: "[[PDFs/2023/2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop.pdf]]"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "African/Ubuntu, Multicultural/Cross-cultural"
-cultures_nationalities_list: "African"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -52,7 +55,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Pretrained language models (PLMs) for African languages are continually improving, but the reasons behind these advances remain unclear. This paper presents the first systematic investigation into probing PLMs for linguistic knowledge about African languages. We train layer-wise probes for six typologically diverse African languages to analyse how linguistic features are distributed. We also design control tasks, a way to interpret probe performance, for the MasakhaPOS dataset."
-LLM_assessed: "BERT"
+LLM_assessed: "RoBERTa"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -61,8 +64,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---

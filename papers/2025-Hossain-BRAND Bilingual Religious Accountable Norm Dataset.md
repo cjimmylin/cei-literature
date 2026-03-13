@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +48,8 @@ local_pdf: "[[PDFs/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm 
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi, Bengali, South Asian"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Bengali, English"
 religious_values: "Islam, Christianity, Buddhism, Hinduism"
 religious_values_list: "Islam, Christianity, Buddhism, Hinduism"
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "While recent developments in large language models have improved bias detection and classification, sensitive subjects like religion still present challenges because even minor errors can result in severe misunderstandings. In particular, multilingual models often misrepresent religions and have difficulties being accurate in religious contexts. To address this, we introduce BRAND: Bilingual Religious Accountable Norm Dataset, which focuses on the four main religions of South Asia: Buddhism,..."
-LLM_assessed: "Mistral, Llama-3, Gemini, Gemma, Qwen"
+LLM_assessed: "Gemini, Gemma, Llama-3, Mistral, Qwen"
 DATA_URL: "https://anonymous.4open.science/r/BRAND/README.md"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -97,7 +101,8 @@ While recent developments in large language models have improved bias detection 
 
 ## Data Description
 
-BRAND (Bilingual Religious Accountable Norm Dataset) contains over 2,400 entries focusing on four major South Asian religions (Buddhism, Christianity, Hinduism, Islam) in both English and Bengali, with three types of prompts used to evaluate religious bias. Five LLMs were tested: Mistral Saba 24B, Llama 3 70B, Gemini 2.0 Flash, Gemma3 4B-IT, and Qwen3 32B, revealing that models perform better in English than Bengali and consistently display bias toward Islam.
+BRAND is a bilingual (English/Bengali) religious bias dataset with over 2,400 entries spanning four South Asian religions (Buddhism, Christianity, Hinduism, Islam), used to evaluate religious bias across multilingual LLMs.
+
 
 ## Notes
 

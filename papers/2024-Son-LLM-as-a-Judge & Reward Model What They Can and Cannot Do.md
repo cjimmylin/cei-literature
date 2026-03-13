@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +56,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude-3.5-Sonnet, Command-R, GPT-4, GPT-4o, Llama-3, Llama-3.1, Mistral, Mistral-7B, Mistral-Large, Mistral-Nemo, Mixtral, Mixtral-8x22B, Mixtral-8x7B, Qwen-1.5, Qwen1.5, Qwen2, claude-3, llama-3."
+LLM_assessed: "Command-R, GPT-4, Llama-3, Mistral, Mixtral, Qwen-1.5"
 DATA_URL: "https://github.com/guijinSON/kudge"
 tags: 
 abstract: "LLM-as-a-Judge and reward models are widely used alternatives of multiplechoice questions or human annotators for large language model (LLM) evaluation. Their efficacy shines in evaluating long-form responses, serving a critical role as evaluators of leaderboards and as proxies to align LLMs via reinforcement learning. However, despite their popularity, their effectiveness in diverse contexts, such as non-English prompts, factual verification, or challenging questions, remains unexplored."
@@ -61,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -97,7 +102,8 @@ First non-English meta-evaluation dataset with 5,012 Korean human annotations. E
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude-3.5-Sonnet, Command-R, GPT-4, GPT-4o, Llama-3, Llama-3.1, Mistral, Mistral-7B, Mistral-Large, Mistral-Nemo, Mixtral, Mixtral-8x22B, Mixtral-8x7B, Qwen-1.5, Qwen1.5, Qwen2, claude-3, llama-3.. Verified dataset/resource link: https://github.com/guijinSON/kudge.
+KUDGE: a bilingual (Korean/English) meta-evaluation dataset with 5,012 human annotations evaluating LLM-as-a-Judge and reward models, including pointwise/pairwise subsets, a challenge subset for complex STEM reasoning, and an ablation set with culturally corrupted responses.
+
 
 ## Notes
 

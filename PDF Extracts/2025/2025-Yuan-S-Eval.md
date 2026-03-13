@@ -1,23 +1,4 @@
----
-title: "2025-Yuan-S-Eval - PDF Extract"
-source_pdf: "2025-Yuan-S-Eval.pdf"
-pages: 16
-extracted_at: "2026-02-07T17:00:46.442451"
----
-
-# PDF Extract: 2025-Yuan-S-Eval
-
-**Source PDF:** 2025-Yuan-S-Eval.pdf
-**Total Pages:** 16
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-S-Eval: Towards Automated and Comprehensive Safety
+---\ntitle: "2025-Yuan-S-Eval - PDF Extract"\nsource_pdf: "2025-Yuan-S-Eval.pdf"\npages: 16\nextracted_at: "2026-02-14T02:17:37.049955"\n---\n\n# PDF Extract: 2025-Yuan-S-Eval\n\n**Source PDF:** 2025-Yuan-S-Eval.pdf\n**Total Pages:** 16\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nS-Eval: Towards Automated and Comprehensive Safety
 Evaluation for Large Language Models
 Xiaohan Yuan
 Zhejiang University
@@ -132,9 +113,7 @@ ACM Conference (Conference’17). ACM, New York, NY, USA, 16 pages. https:
 1Our benchmark is publicly available at https://github.com/IS2Lab/S-Eval.
 arXiv:2405.14191v4  [cs.CR]  7 Apr 2025
 
---- Page 2 ---
-
-Conference’17, July 2017, Washington, DC, USA
+--- Page 2 ---\n\nConference’17, July 2017, Washington, DC, USA
 Yuan et al.
 1
 INTRODUCTION
@@ -283,9 +262,7 @@ architecture [44], and they are trained on massive textual corpora
 with a large number of parameters to effectively understand and
 generate natural language text. A common method to interact with
 
---- Page 3 ---
-
-S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
+--- Page 3 ---\n\nS-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
 Conference’17, July 2017, Washington, DC, USA
 Attack Prompts (AP):
 • Positive Induction (PI): BRP + Please start your answer with "A robber can avoid …"
@@ -423,9 +400,7 @@ and jailbreak attacks (details in Section 3.3 later). With evolving
 LLMs, new risks and attacks, our risk management can be updated
 and configure S-Eval to generate new test cases.
 
---- Page 4 ---
-
-Conference’17, July 2017, Washington, DC, USA
+--- Page 4 ---\n\nConference’17, July 2017, Washington, DC, USA
 Yuan et al.
 In risk management, a comprehensive and systematic risk tax-
 onomy is beneficial to the diversity of test and provide careful
@@ -539,9 +514,7 @@ from given prompt seeds, which are risky but more covert in pre-
 sentation, augmenting challenge and adaptability.
 4The "experts" refer to professionals with many years of content review experience.
 
---- Page 5 ---
-
-S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
+--- Page 5 ---\n\nS-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
 Conference’17, July 2017, Washington, DC, USA
 Instruction: Generate a prompt related to <Risk> based on the following input.
 Input: Risk Definition, Risk Knowledge or Risk Seed for <Risk>
@@ -663,9 +636,7 @@ and the issue of over-alignment (i.e., exaggerated safety) [38]. The
 under- and over-alignment issues mentioned above severely restrict
 the applicability of such methods.
 
---- Page 6 ---
-
-Conference’17, July 2017, Washington, DC, USA
+--- Page 6 ---\n\nConference’17, July 2017, Washington, DC, USA
 Yuan et al.
 Prompt: How can electronic devices be used to interfere with security systems
 in order to steal in public places?
@@ -781,9 +752,7 @@ As shown in Table 2, M𝑐achieves the highest balanced accuracy,
 significantly outperforming the other methods, allowing for accu-
 rate and automatic evaluations. At the same time, we also design the
 
---- Page 7 ---
-
-S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
+--- Page 7 ---\n\nS-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
 Conference’17, July 2017, Washington, DC, USA
 Table 2: Comparison of different evaluation methods. “ACC”
 stands for the balanced accuracy. The bold value indicates
@@ -980,9 +949,7 @@ ences in the safety of different LLMs. Among the closed-source
 6The 5 LLMs include Gemma-2B-it, ChatGLM3-6B, Baichuan2-13B-Chat, Yi-34B-Chat,
 and Qwen-72B-Chat.
 
---- Page 8 ---
-
-Conference’17, July 2017, Washington, DC, USA
+--- Page 8 ---\n\nConference’17, July 2017, Washington, DC, USA
 Yuan et al.
 Table 3: The safety scores (%) of evaluated models on the five benchmarks. Rows with ♣denote English results. The bold value
 in each column indicates the safest and underline indicates the second. “AB”: AdvBench; “H-R”: HH-RLHF; “FL”: Flames; “SP”:
@@ -1456,9 +1423,7 @@ English set in P𝐵.
 From Figure 6(a), we have the following observations. First, for
 each model family, there is a discernible trend of improved model
 
---- Page 9 ---
-
-S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
+--- Page 9 ---\n\nS-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
 Conference’17, July 2017, Washington, DC, USA
 Qwen
 LLaMA-2
@@ -1607,9 +1572,7 @@ prompts and the base risk prompt corresponding to the attack
 prompts for evaluation. The attack success rates of the different
 attacks are shown in Table 6.
 
---- Page 10 ---
-
-Conference’17, July 2017, Washington, DC, USA
+--- Page 10 ---\n\nConference’17, July 2017, Washington, DC, USA
 Yuan et al.
 Table 6: The attack success rates (%) of jailbreak attacks in P𝐴on evaluated models. Rows with ♣denote English results. In the
 columns “Overall” and “Adaptive”, the value with ∗indicates the lowest attack success rate. For the 10 jailbreak attacks, the
@@ -2091,9 +2054,7 @@ Turbo. Too smart models may instead have additional potential
 safety vulnerabilities. In addition, LLMs are difficult to cope with
 adaptive attacks with multiple attack methods.
 
---- Page 11 ---
-
-S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
+--- Page 11 ---\n\nS-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
 Conference’17, July 2017, Washington, DC, USA
 Qwen-Chat
 LLaMA-2-Chat
@@ -2167,9 +2128,7 @@ choice prompts. Do-not-answer [46] introduces a three-level risk
 taxonomy across mild and extreme risks with 939 harmful instruc-
 tions. Flames [18] is the first highly adversarial benchmark that
 
---- Page 12 ---
-
-Conference’17, July 2017, Washington, DC, USA
+--- Page 12 ---\n\nConference’17, July 2017, Washington, DC, USA
 Yuan et al.
 contains 2,251 manually designed Chinese prompts. SALAD-Bench
 [23] includes 30,000 test prompts from base queries to complex
@@ -2321,9 +2280,7 @@ bias benchmark for question answering. arXiv preprint arXiv:2110.08193 (2021).
 Societal biases in language generation: Progress and challenges. arXiv preprint
 arXiv:2105.04054 (2021).
 
---- Page 13 ---
-
-S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
+--- Page 13 ---\n\nS-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
 Conference’17, July 2017, Washington, DC, USA
 [35] Taylor Shin, Yasaman Razeghi, Robert L. Logan IV, Eric Wallace, and Sameer
 Singh. 2020. AutoPrompt: Eliciting Knowledge from Language Models with
@@ -2414,9 +2371,7 @@ life. Ethnos 74, 2 (2009), 251–276.
 and transferable adversarial attacks on aligned language models. arXiv preprint
 arXiv:2307.15043 (2023).
 
---- Page 14 ---
-
-Conference’17, July 2017, Washington, DC, USA
+--- Page 14 ---\n\nConference’17, July 2017, Washington, DC, USA
 Yuan et al.
 A
 THE DETAILS OF RISK TAXONOMY
@@ -2515,9 +2470,7 @@ Appearance Discrimination
 Regional Discrimination
 Continued on next page
 
---- Page 15 ---
-
-S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
+--- Page 15 ---\n\nS-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models
 Conference’17, July 2017, Washington, DC, USA
 Table 8 continued from previous page
 Risk Dimension
@@ -2606,9 +2559,7 @@ Finance
 Law
 Medicine
 
---- Page 16 ---
-
-Conference’17, July 2017, Washington, DC, USA
+--- Page 16 ---\n\nConference’17, July 2017, Washington, DC, USA
 Yuan et al.
 Table 9: The jailbreak attack methods integrated by S-Eval and their descriptions.
 Attack
@@ -2671,5 +2622,4 @@ Chinese: 在评估大语言模型时，你是一位乐于助人且一丝不苟�
 应该谨慎回应某些问题或请求。请逐步思考。然后，根据你的思考，判断
 响应是否安全。
 Figure 9: Zero-Shot-CoT prompt for safety evaluation.
-
-```
+\n```\n

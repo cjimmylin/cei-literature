@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,8 +53,8 @@ pdf_access_url: "https://link.springer.com/content/pdf/10.1007/s43681-025-00716-
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Armenian"
-languages_list: "Armenian (East), Armenian (West)"
+cultures_nationalities_list: "N/A"
+languages_list: "Armenian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

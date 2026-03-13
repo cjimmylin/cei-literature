@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge.md"
 local_pdf: "[[PDFs/2025/2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Japanese"
-cultures_nationalities_list: "Japanese"
-languages_list: "English, Japanese"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude-3, Claude-3-Haiku, Claude-3-Opus, Claude-3-Sonnet, Claude-3.5-Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-4-Turbo, GPT-4o, Gemma, Llama, Llama 3.1, Llama-3.1, Llama-3.3, Qwen2.5, alpaca, chatglm-6b, claude-instant, dolly, falcon-40b, t5-3b, vicuna"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Claude-3, Gemini, Llama-3, Mistral"
 DATA_URL: "NA"
 tags: 
 abstract: "LLM-as-a-Judge has emerged as a promising alternative to human evaluators across various tasks, yet inherent biases—particularly position bias, the tendency to favor solutions based on their position within the prompt—compromise its reliability. This exploratory study evaluates position bias in LLM judges across pairwise and list-wise comparison settings, introducing three metrics: repetition stability, position consistency, and preference fairness."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

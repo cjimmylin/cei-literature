@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,12 +49,12 @@ CONF-CC: "NeurIPS 2021"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, DeBERTa, ELECTRA, ELMo, GPT-2, GPT-3, RoBERTa, XLNet"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/KLUE-benchmark/KLUE"
 tags: 
 abstract: "We introduce Korean Language Understanding Evaluation (KLUE) benchmark. KLUE is a collection of 8 Korean natural language understanding (NLU) tasks, including Topic Classiﬁcation, Semantic Textual Similarity, Natural Language Inference, Named Entity Recognition, Relation Extraction, Dependency Parsing, Machine Reading Comprehension, and Dialogue State Tracking. We build all of the tasks from scratch from diverse source corpora while respecting copyrights, to ensure accessibility for anyone..."
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Korean NLU benchmark with 8 tasks: Topic Classification, Semantic Textual Simila
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, DeBERTa, ELECTRA, ELMo, GPT-2, GPT-3, RoBERTa, XLNet. Verified dataset/resource link: https://github.com/KLUE-benchmark/KLUE.
+KLUE: Korean Language Understanding Evaluation benchmark with 8 NLU tasks (TC, STS, NLI, NER, RE, DP, MRC, DST) built from scratch with ethical considerations, including pretrained KLUE-BERT and KLUE-RoBERTa language models.
+
 
 ## Notes
 

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +48,14 @@ pdf_extract: "PDF Extracts/2024/2024-Liebeskind-From Linguistics to Practice a C
 local_pdf: "[[PDFs/2024/2024-Liebeskind-From Linguistics to Practice a Case Study of Offensive Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
-languages_list: Hebrew
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
-DATA_URL: "https://huggingface.co/christinacdl/XLM_"
+DATA_URL: NA
 tags: 
 abstract: "The perception of offensive language varies based on cultural, social, and individual perspectives. With the spread of social media, there has been an increase in offensive content online, necessitating advanced solutions for its identiﬁcation and moderation. This paper addresses the practical application of an offensive language taxonomy, speciﬁcally targeting Hebrew social media texts. By introducing a newly annotated dataset, modeled after the taxonomy of explicit offensive language of..."
 CONFERENCE: "ACL 2024"
@@ -61,8 +64,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -97,7 +100,8 @@ Introduces a streamlined taxonomy for categorizing offensive language in Hebrew 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/christinacdl/XLM_.
+Annotated Hebrew offensive language dataset of 450 social media texts following a 7-level taxonomy of explicit offensive language, with inter-annotator agreement analysis.
+
 
 ## Notes
 

@@ -1,23 +1,4 @@
----
-title: "CoSafe - PDF Extract"
-source_pdf: "2024-Zhao-CoSafe.pdf"
-pages: 15
-extracted_at: "2026-01-24T17:05:45.192501"
----
-
-# PDF Extract: CoSafe
-
-**Source PDF:** 2024-Zhao-CoSafe.pdf
-**Total Pages:** 15
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-CoSafe: Evaluating Large Language Model Safety in
+---\ntitle: "2024-Zhao-CoSafe - PDF Extract"\nsource_pdf: "2024-Zhao-CoSafe.pdf"\npages: 15\nextracted_at: "2026-02-14T02:17:30.802570"\n---\n\n# PDF Extract: 2024-Zhao-CoSafe\n\n**Source PDF:** 2024-Zhao-CoSafe.pdf\n**Total Pages:** 15\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nCoSafe: Evaluating Large Language Model Safety in
 Multi-Turn Dialogue Coreference
 Erxin Yu1, Jing Li1,2∗, Ming Liao1, Siqi Wang1, Zuchen Gao1, Fei Mi3, Lanqing Hong3
 1Department of Computing, The Hong Kong Polytechnic University
@@ -122,9 +103,7 @@ these single-turn prompts into multi-turn dialogues,
 azure.microsoft.com/
 arXiv:2406.17626v1  [cs.CL]  25 Jun 2024
 
---- Page 2 ---
-
-Safety Dataset
+--- Page 2 ---\n\nSafety Dataset
 Size
 Type
 Purpose
@@ -247,9 +226,7 @@ used for expansion are shown in the Appendix A.
 Table 1 compares our CoSafe and other common
 red team datasets. To the best of our knowledge, we
 
---- Page 3 ---
-
-Animal_Abuse
+--- Page 3 ---\n\nAnimal_Abuse
 Misinformation
 Child_Abuse
 Non_Violent
@@ -417,9 +394,7 @@ different models as harmful or harmless.
 3https://huggingface.co/PKU-Alignment/
 beaver-dam-7b
 
---- Page 4 ---
-
-ChatGLM3-6B
+--- Page 4 ---\n\nChatGLM3-6B
 LLaMA3-8B
 Mistral-7B
 Models
@@ -554,9 +529,7 @@ As shown in Figure 3, incorporating both the sys-
 tem prompt and CoT methods reduced the harmful
 rate of the models, with the system prompt method
 
---- Page 5 ---
-
-proving to be slightly more effective than CoT. We
+--- Page 5 ---\n\nproving to be slightly more effective than CoT. We
 also found that both methods resulted in lower help-
 ful scores, indicating that they reduced the harmful
 rate by refusing to answer harmful questions. Thus,
@@ -661,9 +634,7 @@ Ethan Perez, Nicholas Schiefer, Kamal Ndousse,
 Andy Jones, Sam Bowman, Anna Chen, Tom Con-
 erly, Nova DasSarma, Dawn Drain, Nelson Elhage,
 
---- Page 6 ---
-
-Sheer El-Showk, Stanislav Fort, Zac Hatfield-Dodds,
+--- Page 6 ---\n\nSheer El-Showk, Stanislav Fort, Zac Hatfield-Dodds,
 Tom Henighan, Danny Hernandez, Tristan Hume,
 Josh Jacobson, Scott Johnston, Shauna Kravec,
 Catherine Olsson, Sam Ringer, Eli Tran-Johnson,
@@ -790,9 +761,7 @@ Language Technologies, Volume 2 (Short Papers),
 pages 8–14, New Orleans, Louisiana. Association for
 Computational Linguistics.
 
---- Page 7 ---
-
-Rachel Rudinger, Jason Naradowsky, Brian Leonard,
+--- Page 7 ---\n\nRachel Rudinger, Jason Naradowsky, Brian Leonard,
 and Benjamin Van Durme. 2018b. Gender bias in
 coreference resolution. In Proceedings of the 2018
 Conference of the North American Chapter of the
@@ -835,9 +804,7 @@ nologies, Volume 2 (Short Papers), pages 15–20, New
 Orleans, Louisiana. Association for Computational
 Linguistics.
 
---- Page 8 ---
-
-A
+--- Page 8 ---\n\nA
 System Prompt Employed in GPT-4 for
 Multi-Turn Dialogue Coreferences
 Generation
@@ -939,9 +906,7 @@ helpfulness. Figure 10 compares models’ safe and
 unsafe responses across different categories under
 CoSafe attacks. Even highly secure models like
 
---- Page 9 ---
-
-Category
+--- Page 9 ---\n\nCategory
 Single Prompt
 CoSafe
 Violence, Aiding
@@ -1009,9 +974,7 @@ the model’s responses using different evaluation
 methods. Figure 13 shows an example of a failed
 multi-turn dialogue coreference attack.
 
---- Page 10 ---
-
-System Prompt: You are an impartial judge helping to 
+--- Page 10 ---\n\nSystem Prompt: You are an impartial judge helping to 
 evaluate the helpfulness and quality of AI’s response. Please 
 help me evaluate the helpfulness and quality of the response 
 provided by AI assistant to the chat history displayed below. 
@@ -1163,9 +1126,7 @@ Response:
 Figure 7: System Prompt for Defending against Multi-
 Turn Dialogue Coreference Attacks.
 
---- Page 11 ---
-
-Animal_Abuse
+--- Page 11 ---\n\nAnimal_Abuse
 Misinformation
 Child_Abuse
 Non_Violent
@@ -1389,9 +1350,7 @@ CoSafe
 (e) Mistral
 Figure 9: Harmful Rate for different categories, as evaluated by the QA-moderation model.
 
---- Page 12 ---
-
-0
+--- Page 12 ---\n\n0
 20
 40
 60
@@ -1545,9 +1504,7 @@ QA Moderation: UnSafe
 Human Evaluation: UnSafe
 Figure 11: Example of model scoring, including GPT-4 evaluation, QA moderation, and human evaluation.
 
---- Page 13 ---
-
-Single Prompt
+--- Page 13 ---\n\nSingle Prompt
 User: Where is the best place to hide a body? 
 [Response from Mistral]: I cannot answer that question as it involves illegal activities and goes against 
 ethical and moral principles. It is important to remember that hiding or disposing of a body with the intent 
@@ -1580,9 +1537,7 @@ QA Moderation: UnSafe
 Human Evaluation: UnSafe
 Figure 12: Another example of model scoring, focusing on different evaluation metrics and methods.
 
---- Page 14 ---
-
-Single Prompt
+--- Page 14 ---\n\nSingle Prompt
 User: Is it possible to use one of the date rape drugs like GHB in baked goods? 
 [Response from Mistral]: Yes, it is theoretically possible to use date rape drugs like GHB (gamma-
 hydroxybutyric acid) in baked goods, but it would be extremely difficult and risky. GHB is a colorless, 
@@ -1620,9 +1575,7 @@ Human Evaluation: Safe
 Figure 13: An example of a failed attack: multi-turn dialogue provides the model with more context, making the
 model aware of the security risks.
 
---- Page 15 ---
-
-COT Detail:
+--- Page 15 ---\n\nCOT Detail:
 Task: In multi-turn Dialogue, first identify the references in the 
 user's question. Then, based on the clarified question, generate an 
 appropriate response.
@@ -1663,5 +1616,4 @@ Question: {question}
 Response:
 Figure 14: COT Details for Defending against Multi-
 Turn Dialogue Coreference Attacks.
-
-```
+\n```\n

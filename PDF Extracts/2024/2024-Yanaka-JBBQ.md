@@ -1,23 +1,4 @@
----
-title: "JBBQ - PDF Extract"
-source_pdf: "2024-Yanaka-JBBQ.pdf"
-pages: 17
-extracted_at: "2026-01-24T17:05:44.235397"
----
-
-# PDF Extract: JBBQ
-
-**Source PDF:** 2024-Yanaka-JBBQ.pdf
-**Total Pages:** 17
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-arXiv:2406.02050v4  [cs.CL]  13 Jun 2025
+---\ntitle: "2024-Yanaka-JBBQ - PDF Extract"\nsource_pdf: "2024-Yanaka-JBBQ.pdf"\npages: 17\nextracted_at: "2026-02-14T02:17:30.530976"\n---\n\n# PDF Extract: 2024-Yanaka-JBBQ\n\n**Source PDF:** 2024-Yanaka-JBBQ.pdf\n**Total Pages:** 17\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\narXiv:2406.02050v4  [cs.CL]  13 Jun 2025
 JBBQ: Japanese Bias Benchmark
 for Analyzing Social Biases in Large Language Models
 Hitomi Yanaka1,2,∗Namgi Han1,∗Ryoma Kumon1,2 Jie Lu1
@@ -110,9 +91,7 @@ BBQ. While BBQ has nine categories in total, we
 selected the five involving stereotypes for adjust-
 ment to Japanese contexts: age, disability status,
 
---- Page 2 ---
-
-gender identity, physical appearance, and sexual
+--- Page 2 ---\n\ngender identity, physical appearance, and sexual
 orientation. In addition, we added examples partic-
 ular to the Japanese background for each category.
 For example, we added templates of stereotypes
@@ -212,9 +191,7 @@ race, religion, sexual orientation, and socioeco-
 nomic status. The templates for each category are
 composed of ambiguous and disambiguated con-
 
---- Page 3 ---
-
-Category
+--- Page 3 ---\n\nCategory
 Ambiguous context
 +Disambiguated context
 Negative Q
@@ -439,9 +416,7 @@ into those categories of the original BBQ dataset.
 Table 1 gives examples of questions in BBQ and
 JBBQ.
 
---- Page 4 ---
-
-3.2
+--- Page 4 ---\n\n3.2
 Methodology
 Overview
 We created the JBBQ dataset semi-
@@ -548,9 +523,7 @@ non-binary is a related concept, it is a broader umbrella term
 that encompasses both gender identity and gender expression,
 whereas X-gender refers specifically to gender identity.
 
---- Page 5 ---
-
-Model
+--- Page 5 ---\n\nModel
 Training
 Param.
 Inst.
@@ -688,9 +661,7 @@ releases/tag/v1.4.1
 label in JBBQ; the paraP prompt explains the unknown label
 by using expressions that do not appear in JBBQ.
 
---- Page 6 ---
-
-the evidence included in contexts leading to the
+--- Page 6 ---\n\nthe evidence included in contexts leading to the
 correct label) for each question in JBBQ, and we
 analyzed the extent to which the models output
 not only correct answer labels but also correct rea-
@@ -786,9 +757,7 @@ LLMs across categories showed a similar tendency
 to that in Table 3; the accuracies for disambiguated
 contexts are better than those for ambiguous con-
 
---- Page 7 ---
-
-Model
+--- Page 7 ---\n\nModel
 OoC
 Acc. Avg
 Acc. Amb
@@ -963,9 +932,7 @@ against biases and prejudices) settings. All models
 showed the same tendency as SWL3-70B-INST on
 average (see Appendix E for the results of all mod-
 
---- Page 8 ---
-
-Model
+--- Page 8 ---\n\nModel
 OoC
 Acc. Avg
 Acc. Amb
@@ -1153,9 +1120,7 @@ porated a bias detection task based on our main
 experiment, requiring the model to directly select
 biased answers. To achieve this, we asked the mod-
 
---- Page 9 ---
-
-els to select the answer that may contain social
+--- Page 9 ---\n\nels to select the answer that may contain social
 bias. In the bias detection task, answer choices
 are the same as those of the original QA task, but
 the correct answers are different from those of the
@@ -1255,9 +1220,7 @@ ated with publishing a dataset that contains stereo-
 types and biases. The JBBQ dataset should not
 be used as training data to generate and publish
 
---- Page 10 ---
-
-biased languages targeting specific groups. We
+--- Page 10 ---\n\nbiased languages targeting specific groups. We
 will explicitly state in the Terms of Use that we do
 not allow any malicious use of our dataset when it
 is released. We encourage researchers to use this
@@ -1370,9 +1333,7 @@ guistics.
 Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Al-
 ice Oh, and Hwaran Lee. 2024. KoBBQ: Korean
 
---- Page 11 ---
-
-Bias Benchmark for Question Answering. Transac-
+--- Page 11 ---\n\nBias Benchmark for Question Answering. Transac-
 tions of the Association for Computational Linguis-
 tics, 12:507–524.
 Masahiro Kaneko, Danushka Bollegala, and Timothy
@@ -1495,9 +1456,7 @@ Japanese.
 Miles Turpin, Julian Michael, Ethan Perez, and
 Samuel R. Bowman. 2023. Language models don’t
 
---- Page 12 ---
-
-always say what they think: Unfaithful explanations
+--- Page 12 ---\n\nalways say what they think: Unfaithful explanations
 in chain-of-thought prompting. In Thirty-seventh
 Conference on Neural Information Processing Sys-
 tems.
@@ -1600,9 +1559,7 @@ that we mitigated this order bias by our data con-
 struction method as in Section 3.3, so the results in
 Section 5.1 are valid.
 
---- Page 13 ---
-
-Category
+--- Page 13 ---\n\nCategory
 Ambiguous context
 +Disambiguated context
 Negative ques-
@@ -1720,9 +1677,7 @@ lary in a manner similar to how the JBBQ dataset
 was constructed. Table 20 gives an example of a
 created reasoning template.
 
---- Page 14 ---
-
-以下は、タスクを説明する指示と、文脈
+--- Page 14 ---\n\n以下は、タスクを説明する指示と、文脈
 のある入力の組み合わせです。要求を適
 切に満たす応答を書きなさい。
 (The following is a combination of instruc-
@@ -1751,9 +1706,7 @@ tion and the answer to the question should be
 written strictly in [].)
 Table 11: Prompt used for the CoT experiments.
 
---- Page 15 ---
-
-Model
+--- Page 15 ---\n\nModel
 BS Avg
 BS Amb
 BS Dis
@@ -1988,9 +1941,7 @@ GPT4O-MINI
 −4.4
 Table 14: Evaluation results for the 3-shot setting with paraP prompt.
 
---- Page 16 ---
-
-Percentage of choice (%)
+--- Page 16 ---\n\nPercentage of choice (%)
 Model
 First
 Second
@@ -2105,9 +2056,7 @@ a walker].)
 Table 17: Error example for the CoT setting (output
 unnecessary contexts).
 
---- Page 17 ---
-
-Model
+--- Page 17 ---\n\nModel
 Acc. Avg
 Acc. Amb
 Acc. Dis
@@ -2296,5 +2245,4 @@ and I don’t know where they are]. is described.
 Therefore, the answer is [{NAME2}].)
 Table 20: An example of a reasoning template and cor-
 responding context and question.
-
-```
+\n```\n

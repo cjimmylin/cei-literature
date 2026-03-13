@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Czech, Polish, Serbian, and 23 other languages"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "DeepSeek-AI, DeepSeek, Deepseek-R1, GPT-4o, LLaMA 3.1, LLaMA 3.3, Llama, Llama 3, Llama-3.1, Llama3.1, Qwen, Qwen 2.5, Qwen2.5"
-DATA_URL: "https://github.com/Blkzer0/Wordlists"
+LLM_assessed: "Gemini, Llama-3, Qwen, Qwen-2, o1"
+DATA_URL: "https://github.com/mungg/OneRuler"
 tags: 
 abstract: "We present ONERULER, a multilingual benchmark designed to evaluate long-context language models across 26 languages. ONERULER adapts the English-only RULER benchmark (Hsieh et al., 2024) by including seven synthetic tasks that test both retrieval and aggregation, including new variations of the “needle-in-a-haystack” task that allow for the possibility of a nonexistent needle. We create ONERULER through a two-step process, first writing English instructions for each task and then collaborating..."
 CONFERENCE: "Preprint"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "26 languages"
 ---
@@ -98,7 +102,8 @@ Multilingual long-context benchmark across 26 languages. Polish emerged as the t
 
 ## Data Description
 
-Backfill summary: Models assessed include DeepSeek-AI, DeepSeek, Deepseek-R1, GPT-4o, LLaMA 3.1, LLaMA 3.3, Llama, Llama 3, Llama-3.1, Llama3.1, Qwen, Qwen 2.5, Qwen2.5. Verified dataset/resource link: https://github.com/Blkzer0/Wordlists.
+ONERULER is a multilingual long-context benchmark spanning 26 languages with seven synthetic tasks adapted from the RULER benchmark. Released publicly to facilitate multilingual and cross-lingual long-context LLM research.
+
 
 ## Notes
 

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ local_pdf: "[[PDFs/2024/2024-Das-The 'Colonial Impulse' of Natural Language Proc
 publication: "arXiv / CHI 2024"
 CONF-CC: "CHI 2024"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bengali"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "T5"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "Algorithmic audit of all Bengali sentiment analysis tools on PyPI and GitHub for identity-based biases across gender, religion, and nationality. Finds tools perpetuate colonial values and bias. Examines how colonial legacies impact NLP systems for Bengali communities."
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: No
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +48,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
-languages_list: Italian
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,7 +65,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -101,7 +104,7 @@ ITA-Bench is a comprehensive benchmark suite for evaluating large language model
 
 ## Data Description
 
-ITA-Bench is a comprehensive benchmark suite for evaluating LLMs on Italian, comprising 10 widely-used benchmarks (ARC, BoolQ, GSM8K, HellaSwag, MMLU, PIQA, SciQ, TruthfulQA, Winogrande). Addresses the problem that direct translations of English-centric benchmarks may contain culturally inappropriate instances for Italian contexts.
+Benchmark suite for Italian LLM evaluation including 10 benchmarks (ARC, BoolQ, GSM8K, HellaSwag, MMLU, PIQA, SciQ, TruthfulQA, Winogrande) adapted for Italian. Addresses culturally inappropriate instances in English-centric benchmark translations.
 
 
 ## Notes

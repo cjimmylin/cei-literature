@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +46,7 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Uyghur, Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"

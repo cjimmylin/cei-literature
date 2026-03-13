@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +47,13 @@ pdf_extract: "PDF Extracts/2025/2025-Galea-From Measurement to Mitigation Explor
 local_pdf: "[[PDFs/2025/2025-Galea-From Measurement to Mitigation Exploring the Transferability of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Maltese"
-languages_list: Maltese
+cultures_nationalities_list: "N/A"
+languages_list: "Maltese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERTu, mBERTu"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/MLRS/Malti-Bias"
 tags: 
 abstract: "The advancement of Large Language Models (LLMs) has transformed Natural Language Processing (NLP), enabling performance across diverse tasks with little task-specific training. However, LLMs remain susceptible to social biases, particularly reflecting harmful stereotypes from training data, which can disproportionately affect marginalised communities. We measure gender bias in Maltese LMs, arguing that such bias is harmful as it reinforces societal stereotypes and fails to account for gender..."
@@ -98,7 +101,7 @@ This paper investigates gender bias in Maltese language models by adapting Engli
 
 ## Data Description
 
-This paper adapts CrowS-Pairs and SEAT benchmarks to Maltese and evaluates gender bias in Maltese language models (BERTu and mBERTu). It tests four debiasing methods: Counterfactual Data Augmentation, Dropout Regularization, Auto-Debias, and GuiDebias. Finds mBERTu shows less biased representation than BERTu. Creates new Maltese evaluation datasets for gender bias research.
+The Malti-Bias repository contains code and datasets used for measuring and mitigating gender bias in Maltese language models (BERTu and mBERTu), including adapted versions of CrowS-Pairs and SEAT benchmarks for Maltese.
 
 
 ## Detailed Summary

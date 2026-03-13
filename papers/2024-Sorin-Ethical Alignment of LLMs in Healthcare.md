@@ -22,6 +22,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,7 @@ abstract: "In moral philosophy, two foundational approaches shape ethical decisi
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Gemma, Phi, Qwen"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Gemini, Gemma-2, Llama-3, Phi-3, Qwen-2"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 CONFERENCE: "Preprint"

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,12 +55,12 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
-languages_list: Japanese
+languages_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Word2Vec"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "Chemical named entity recognition (NER) models are used in many downstream tasks, from adverse drug reaction identification to pharmacoepidemiology. However, it is unknown whether these models work the same for everyone. Performance disparities can potentially cause harm rather than the intended good. This paper assesses gender-related performance disparities in chemical NER systems. We develop a framework for measuring gender bias in chemical NER models using synthetic data and a newly..."
@@ -101,7 +104,8 @@ I found search results related to Japanese hate speech detection and NLP evaluat
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Word2Vec. No high-confidence repository-style data URL was identified.
+A newly annotated corpus of over 92,405 words with self-identified gender information from Reddit, used for analyzing gender bias in Chemical Named Entity Recognition (NER) models.
+
 
 ## Notes
 

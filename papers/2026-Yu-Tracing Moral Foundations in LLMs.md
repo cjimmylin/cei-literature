@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_YU2026
@@ -38,11 +41,11 @@ doi: N/A
 url: "https://arxiv.org/abs/2601.05437"
 pdf_extract: "PDF Extracts/2026/2026-Yu-Tracing Moral Foundations in LLMs.md"
 local_pdf: "[[PDFs/2026/2026-Yu-Tracing Moral Foundations in LLMs.pdf]]"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, LLM Interpretability, Moral Reasoning"
 key_contribution: "Uses Moral Foundations Theory with mechanistic interpretability (sparse autoencoders, activation steering) to show LLMs encode moral reasoning in structured, layer-dependent ways"
@@ -51,7 +54,7 @@ external_pdf: "https://arxiv.org/pdf/2601.05437"
 abstract: "The researchers investigated whether LLMs genuinely encode moral reasoning or merely replicate surface-level moral language. Employing Moral Foundations Theory as their analytical lens, they examined two instruction-tuned models using three complementary techniques: layer-specific analysis of moral concept representations, sparse autoencoders to identify features supporting moral reasoning, and causal interventions via steering. Their findings demonstrate that both models represent moral foundations in a structured, layer-dependent way that aligns with human judgments, with sparse features showing semantic connections to specific moral domains. The work suggests moral understanding in LLMs emerges as a latent pattern from the statistical regularities of language alone rather than mimicry."
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, Qwen"
+LLM_assessed: "Llama-3, Qwen-2"
 DATA_URL: "https://github.com/AiChiMoCha/MFT_LLMs"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -60,7 +63,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

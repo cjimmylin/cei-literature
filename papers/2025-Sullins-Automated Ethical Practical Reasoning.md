@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics in robot"
@@ -36,11 +38,11 @@ doi: N/A
 url: "https://mitpress.mit.edu/9780262549721/robophilosophy/"
 pdf_extract: "PDF Extracts/2025/2025-Sullins-Automated Ethical Practical Reasoning.md"
 local_pdf: "[[PDFs/2025/2025-Sullins-Automated Ethical Practical Reasoning.pdf]]"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, Deontology"
 key_contribution: "Investigates the concept of 'artificial phronesis' or 'quasi-phronesis'—the capacity for machines to perform virtuous behaviors through context-sensitive practical reasoning"

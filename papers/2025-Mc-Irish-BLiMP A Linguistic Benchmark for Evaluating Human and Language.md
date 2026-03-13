@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ pdf_extract: "PDF Extracts/2025/2025-Mc-Irish-BLiMP A Linguistic Benchmark for E
 local_pdf: "[[PDFs/2025/2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Irish"
-languages_list: "Irish, Multilingual, Welsh"
+cultures_nationalities_list: "N/A"
+languages_list: "Irish, Welsh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Gemma, Gemma 3, Llama 2, Llama-2, Llama-4, Mistral, Mistral small, Mistral-Small, Mistral. 2025, BERT, claude-sonnet, gemma-3"
+LLM_assessed: "Claude, Gemini, Gemma, Llama-2, Mistral"
 DATA_URL: "NA"
 tags: 
 abstract: "We present Irish-BLiMP (Irish Benchmark of Linguistic Minimal Pairs), the first dataset and framework designed for fine-grained evaluation of linguistic competence in the Irish language, an endangered language. Drawing on a variety of linguistic literature and grammar reference works, we manually constructed and reviewed 1020 minimal pairs across a taxonomy of 11 linguistic features, through a team of fluent Irish speakers."
@@ -98,7 +102,8 @@ We present Irish-BLiMP (Irish Benchmark of Linguistic Minimal Pairs), the first 
 
 ## Data Description
 
-Backfill summary: Models assessed include Gemma, Gemma 3, Llama 2, Llama-2, Llama-4, Mistral, Mistral small, Mistral-Small, Mistral. 2025, BERT, claude-sonnet, gemma-3. No high-confidence repository-style data URL was identified.
+Irish-BLiMP is a dataset of 1,020 manually crafted minimal pairs across 11 linguistic phenomena for evaluating grammatical competence in the Irish language, providing the first systematic syntactic evaluation benchmark for this endangered low-resource language.
+
 
 ## Notes
 

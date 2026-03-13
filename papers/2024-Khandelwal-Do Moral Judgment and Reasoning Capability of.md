@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +45,8 @@ url: "http://arxiv.org/abs/2402.02135"
 external_pdf: "http://arxiv.org/pdf/2402.02135.pdf"
 publication: "Conference of the European Chapter of the Association for Computational Linguistics"
 CONF-CC: "EACL 2024"
-national_ethnic_cultural: "Chinese, Indian, African/Ubuntu, Spanish, Russian"
-cultures_nationalities_list: "Chinese, Indian, African, Spanish, Russian"
+national_ethnic_cultural: "Chinese, Indian, African/Ubuntu, Spanish, Russian, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, Indian, African/Ubuntu, Spanish, Russian, Multicultural/Cross-cultural"
 languages_list: "Chinese, English, Hindi, Russian, Spanish, Swahili"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +60,7 @@ abstract: "This paper explores the moral judgment and moral reasoning abilities 
 paper_summary: "Abstract: This paper explores the moral judgment and moral reasoning abilities exhibited by Large Language Models (LLMs) across languages through the Defining Issues Test. It iswe a well known fact that moral j | Overview: Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test Aditi Khandelwal1∗ Utkarsh Agarwal1∗ Kumar Tanmay1∗ Monojit Choudhury2† 1Mi | Methodology: We provide the translated prompt to the model and translate the response to English using Google Translate API. Then we extract the responses of the t | Conclusions: In this first of its kind study of multilingual moral reasoning assessment of LLMs, we observe that quite unsurprisingly, the moral reasoning capabil-"
 local_pdf: "[[PDFs/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, ChatGPT, Llama-2"
+LLM_assessed: "ChatGPT, GPT-4, Llama-2"
 DATA_URL: "NA"
 CONFERENCE: "EACL 2024"
 ethics_overall: "Yes"
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

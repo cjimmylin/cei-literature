@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ local_pdf: "[[PDFs/2026/2026-Ohashi-Conceptual Cultural Index A Metric for Cultu
 pdf_extract: "PDF Extracts/2026/2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Cross-cultural, Japanese, Multiple cultures (methodology paper)"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Qwen2.5-7B, Llama-3.1-8B, Llama-3.1-Swallow-8B, llm-jp-3.1-13b, gpt-oss-20b"
+LLM_assessed: "Llama-3, Qwen-2"
 DATA_URL: "https://github.com/IyatomiLab/CCI"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in multicultural settings; however, systematic evaluation of cultural specificity at the sentence level remains underexplored. We propose the Conceptual Cultural Index (CCI), which estimates cultural specificity at the sentence level. CCI is defined as the difference between the generality estimate within the target culture and the average generality estimate across other cultures."

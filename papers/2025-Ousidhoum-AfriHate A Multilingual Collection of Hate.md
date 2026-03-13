@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,7 @@ publication: "WebSearch: AfriHate African hate speech dataset benchmark"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,8 +58,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Hate speech and abusive language are global phenomena that need socio-cultural background knowledge to be understood, identified, and moderated. However, in many regions of the Global South, there have been several documented occurrences of (1) absence of moderation and (2) censorship due to the reliance on keyword spotting out of context. Further, highprofile individuals have frequently been at the center of the moderation process, while large and targeted hate speech campaigns against..."
-LLM_assessed: "BERT, GPT-4o, Gemma, Gemma 2, LLaMa 3.1, T5-style, llama 3"
-DATA_URL: "https://huggingface.co/papers/2501.08284"
+LLM_assessed: "BERT, Gemma, Gemma-2, GPT-4o, Llama-3, T5"
+DATA_URL: "https://github.com/AfriHate/AfriHate"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -99,7 +103,8 @@ Multilingual collection of hate speech and abusive language datasets in 15 Afric
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4o, Gemma, Gemma 2, LLaMa 3.1, T5-style, llama 3. Verified dataset/resource link: https://huggingface.co/papers/2501.08284.
+AfriHate is a multilingual collection of hate speech and abusive language datasets in 15 African languages, annotated by native speakers with three classes (hate, abusive/offensive, neutral) and six target attributes. The release also includes individual annotations and hate speech lexicons.
+
 
 ## Notes
 

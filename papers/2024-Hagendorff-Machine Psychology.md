@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +45,7 @@ authors: "Thilo Hagendorff; Ishita Dasgupta; Marcel Binz; Stephanie C. Y. Chan; 
 doi: 10.48550/arXiv.2303.13988
 url: "http://arxiv.org/abs/2303.13988"
 external_pdf: "http://arxiv.org/pdf/2303.13988.pdf"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -55,15 +59,15 @@ paper_summary: "Abstract: Large language models (LLMs) show increasingly advance
 local_pdf: "[[PDFs/2024/2024-Hagendorff-Machine Psychology.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3, GPT-4, LaMDA"
-DATA_URL: "https://kaggle.com/competitions/abstraction-and-reasoning-challenge"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
@@ -100,7 +104,7 @@ Large language models (LLMs) show increasingly advanced emergent capabilities an
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a review and position paper that surveys the emerging field of 'machine psychology,' discussing how experimental paradigms from psychology can be applied to study LLM behavior across domains including heuristics and biases, social interactions, psychology of language, and learning.
+Review article proposing 'machine psychology' as a framework for studying LLM behavior using experimental psychology paradigms; does not conduct original model experiments.
 
 
 ## Notes

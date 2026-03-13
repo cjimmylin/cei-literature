@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +47,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean, Indian"
-cultures_nationalities_list: "Indian, Spanish, Korean"
-languages_list: "Code-switching, English, Korean, Multilingual"
+national_ethnic_cultural: "Indian, Spanish"
+cultures_nationalities_list: "Indian, Spanish"
+languages_list: "English, Hindi, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
-DATA_URL: "https://github.com/ElizaLo/Question-Answering-based-"
+DATA_URL: NA
 tags: 
 abstract: "Code-switching is the use of more than one language in the same conversation or utterance. Recently, multilingual contextual embedding models, trained on multiple monolingual corpora, have shown promising results on cross-lingual and multilingual tasks. We present an evaluation benchmark, GLUECoS, for code-switched languages, that spans several NLP tasks in English-Hindi and EnglishSpanish. Speciﬁcally, our evaluation benchmark includes Language Identiﬁcation from text, POS tagging, Named..."
 CONFERENCE: "ACL 2020"
@@ -98,7 +101,8 @@ Code-switching is the use of more than one language in the same conversation or 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/ElizaLo/Question-Answering-based-.
+GLUECoS is an evaluation benchmark for code-switched NLP covering six tasks (Language Identification, POS tagging, NER, Sentiment Analysis, QA, NLI) in English-Hindi and English-Spanish; datasets are publicly available and the NLI dataset was newly released with the paper.
+
 
 ## Notes
 

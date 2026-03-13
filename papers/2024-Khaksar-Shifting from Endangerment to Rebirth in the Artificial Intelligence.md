@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +48,14 @@ local_pdf: "[[PDFs/2024/2024-Khaksar-Shifting from Endangerment to Rebirth in th
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kurdish, Hawrami"
-languages_list: "Kurdish (Hawrami)"
+national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
+languages_list: "Kurdish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: NA
 DATA_URL: "https://github.com/KurdishBLARK/HawramiClassification"
 tags: 
 abstract: "Dataset of 6,854 Hawrami articles labeled into 15 categories. Linear SVM achieves 96% accuracy. First text classification resource for endangered Hawrami dialect of Kurdish."
@@ -97,7 +100,8 @@ Dataset of 6,854 Hawrami articles labeled into 15 categories. Linear SVM achieve
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/KurdishBLARK/HawramiClassification.
+Dataset of 6,854 Hawrami articles labeled into 15 categories for text classification of the endangered Hawrami dialect of Kurdish, evaluated with KNN, Linear SVM, Logistic Regression, and Decision Tree classifiers.
+
 
 ## Notes
 

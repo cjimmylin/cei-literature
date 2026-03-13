@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ local_pdf: "[[PDFs/2025/2025-Romero-Arjona-Red Teaming Contemporary AI Models In
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Spanish, American"
-cultures_nationalities_list: "Spanish, Basque, Chinese, American"
+national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: "Basque, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, DeepSeek, DeepSeek R1, GPT-4, GPT-4o, Llama 3"
-DATA_URL: "https://github.com/ollama/ollama"
+LLM_assessed: "DeepSeek, o3"
+DATA_URL: "https://zenodo.org/records/15014968"
 tags: 
 abstract: "The battle for AI leadership is on, with OpenAI in the United States and DeepSeek in China as key contenders. In response to these global trends, the Spanish government has proposed ALIA, a public and transparent AI infrastructure incorporating small language models designed to support Spanish and co-official languages such as Basque. This paper presents the results of Red Teaming sessions, where ten participants applied their expertise and creativity to manually test three of the latest models..."
 CONFERENCE: "Preprint"
@@ -63,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ Red teaming of OpenAI o3-mini, DeepSeek R1, and Salamandra. 670 conversations (5
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, DeepSeek, DeepSeek R1, GPT-4, GPT-4o, Llama 3. Verified dataset/resource link: https://github.com/ollama/ollama.
+670 red-teaming conversations (590 Spanish, 80 Basque) conducted with o3-mini, DeepSeek R1, and Salamandra 7B, annotated for bias and safety failures. Released as supplementary material for replicability and future red-teaming research.
+
 
 ## Notes
 

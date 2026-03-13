@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ pdf_extract: "PDF Extracts/2024/2024-Zhang-MM-Eval A Hierarchical Benchmark for 
 local_pdf: "[[PDFs/2024/2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Mongolian"
-languages_list: "Mongolian, Multilingual"
+cultures_nationalities_list: "N/A"
+languages_list: "Mongolian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, DeepseekV2, GPT-4, GPT-4-Turbo, Llama, Llama 2, Llama3.1, Qwen2, llama-3.1"
+LLM_assessed: "DeepSeek, GLM, GPT-4, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/joenahm/MM-Eval"
 tags: 
 abstract: "Large language models (LLMs) excel in highresource languages but face notable challenges in low-resource languages like Mongolian. This paper addresses these challenges by categorizing capabilities into language abilities (syntax and semantics) and cognitive abilities (knowledge and reasoning). To systematically evaluate these areas, we developed MM-Eval, a specialized dataset based on Modern Mongolian Language Textbook I and enriched with WebQSP and MGSM datasets."
@@ -98,7 +102,8 @@ Large language models (LLMs) excel in highresource languages but face notable ch
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, DeepseekV2, GPT-4, GPT-4-Turbo, Llama, Llama 2, Llama3.1, Qwen2, llama-3.1. Verified dataset/resource link: https://github.com/joenahm/MM-Eval.
+MM-Eval is a hierarchical Mongolian language benchmark with 1,840 tasks covering syntax, semantics, knowledge, and reasoning, constructed from Modern Mongolian Language Textbooks and translated WebQSP/MGSM datasets.
+
 
 ## Notes
 

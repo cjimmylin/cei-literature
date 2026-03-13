@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,8 +45,8 @@ url: "http://arxiv.org/abs/2303.17466"
 external_pdf: "http://arxiv.org/pdf/2303.17466.pdf"
 publication: C3NLP
 CONF-CC: "C3NLP"
-national_ethnic_cultural: "American, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -66,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach text corpus for conversational ai"
 data_metrics: "Not specified"
 ---
@@ -101,7 +104,7 @@ The recent release of ChatGPT has garnered widespread recognition for its except
 
 ## Data Description
 
-The study uses the Hofstede Culture Survey consisting of 24 questions across six cultural dimensions, administered to ChatGPT using three types of prompts across five languages (English, Chinese, German, Japanese, Spanish). The probing framework evaluates cultural alignment between ChatGPT and human societies from five countries (US, China, Germany, Japan, Spain), measuring correlation via Spearman coefficients.
+Code and probing framework for assessing cross-cultural alignment between ChatGPT and human societies using Hofstede Culture Survey questions.
 
 
 ## Notes

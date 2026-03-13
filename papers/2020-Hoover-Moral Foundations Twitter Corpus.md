@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -66,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "10 categories"

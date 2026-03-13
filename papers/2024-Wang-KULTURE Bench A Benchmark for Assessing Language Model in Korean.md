@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +50,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT3, GPT3.5, GPT3.5-Turbo"
+LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/wangxiaonan-git/KULTUREBench"
 tags: 
 abstract: "Large language models (LLMs) have exhibited significant enhancements in performance across various tasks. However, the complexity of their evaluation increases as these models generate more fluent and coherent content. Current multilingual benchmarks often use translated English versions, which may incorporate Western cultural biases that do not accurately assess other languages and cultures. To address this research gap, we introduce KULTURE Bench, an evaluation framework specifically designed..."
@@ -99,7 +103,8 @@ Korean cultural evaluation framework featuring datasets of cultural news, idioms
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT3, GPT3.5, GPT3.5-Turbo. Verified dataset/resource link: https://github.com/wangxiaonan-git/KULTUREBench.
+KULTURE Bench: an evaluation framework for Korean cultural comprehension, featuring datasets of cultural news, idioms, and poetry for word-, sentence-, and paragraph-level assessment.
+
 
 ## Notes
 

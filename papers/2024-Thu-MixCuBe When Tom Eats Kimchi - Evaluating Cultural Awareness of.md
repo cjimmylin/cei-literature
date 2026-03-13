@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +46,8 @@ CONF-CC: "Preprint"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "4 ethnicities, 5 countries, American, Cross-cultural, Indian, Japanese, Korean, Middle Eastern"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -62,7 +65,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +100,7 @@ Cross-cultural awareness benchmark studying elements from five countries and fou
 
 ## Data Description
 
-MixCuBe is a cross-cultural awareness benchmark studying cultural mixture contexts from five countries and four ethnicities. Evaluates multimodal LLMs on cultural awareness in scenarios where cultural elements are mixed. Finds MLLMs achieve higher accuracy for high-resource cultures but not for low-resource ones.
+Cross-cultural awareness benchmark studying cultural element mixing from five countries and four ethnicities, evaluating MLLMs on cultural mixture scenarios. HuggingFace dataset release enables standardized comparison.
 
 
 ## Notes

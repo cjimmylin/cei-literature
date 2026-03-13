@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,7 @@ publication: "arxiv.org / ACL 2025 Findings"
 CONF-CC: "ACL 2025 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
-cultures_nationalities_list: "Kazakh, Russian"
+cultures_nationalities_list: "Russian"
 languages_list: "Kazakh, Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are known to have the potential to generate harmful content, posing risks to users. While major progress has been made in developing taxonomies for LLM risks and safety evaluation prompts, most studies have focused on monolingual contexts, primarily in English. However, language- and region-specific risks in bilingual contexts are often overlooked, and core findings can diverge from such in monolingual settings."
-LLM_assessed: "Claude, Claude 96.5, Falcon3, GPT-4o, LLama-3.1, Llama, Qwen, Qwen-2.5, Qwen2.5"
+LLM_assessed: "Claude, Falcon, GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/mbzuai-nlp/qorgau-kaz-ru-safety"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -99,7 +103,8 @@ Safety benchmark for LLMs in Kazakhstan's bilingual environment. 6 high-level ri
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude 96.5, Falcon3, GPT-4o, LLama-3.1, Llama, Qwen, Qwen-2.5, Qwen2.5. Verified dataset/resource link: https://github.com/mbzuai-nlp/qorgau-kaz-ru-safety.
+Qorgau: a bilingual Kazakh-Russian LLM safety evaluation dataset covering 6 risk areas and 17 harm types, with region-specific and culturally sensitive prompts for Kazakhstan (5,448 questions total), plus code-switched prompts.
+
 
 ## Notes
 

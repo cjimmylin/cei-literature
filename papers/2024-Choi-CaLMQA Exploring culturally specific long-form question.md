@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +51,8 @@ local_pdf: "[[PDFs/2024/2024-Choi-CaLMQA Exploring culturally specific long-form
 publication: "WebSearch: CaLMQA culturally specific long-form question answering"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Despite rising global usage of large language models (LLMs), their ability to generate longform answers to culturally specific questions remains unexplored in many languages. To fill this gap, we perform the first study of textual multilingual long-form QA by creating CALMQA, a dataset of 51.7K culturally specific questions across 23 different languages. We define culturally specific questions as those that refer to concepts unique to one or a few cultures, or have different answers depending..."
-LLM_assessed: "Claude, CLAUDE-3, CLAUDE-3-OPUS, GPT-4, GPT-4-TURBO, GPT-4o, Llama, Llama-3, Mixtral, MIXTRAL-8X22B, BERT"
+LLM_assessed: "Claude-3 Opus, Gemini-1.5-Pro, GPT-4-Turbo, GPT-4o, Aya-Expanse-32B, Llama-3-70B, Mixtral-8x22B"
 DATA_URL: "https://huggingface.co/datasets/shanearora/CaLMQA"
 research_topic: "Truthfulness & Factuality"
 CONFERENCE: "Preprint"
@@ -64,9 +69,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Hallucination & Truthfulness"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation methodology"
 data_metrics: "23 languages"
 ---
@@ -101,7 +106,8 @@ data_metrics: "23 languages"
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, CLAUDE-3, CLAUDE-3-OPUS, GPT-4, GPT-4-TURBO, GPT-4o, Llama, Llama-3, Mixtral, MIXTRAL-8X22B, BERT. Verified dataset/resource link: https://huggingface.co/datasets/shanearora/CaLMQA.
+CaLMQA is a dataset of 51.7K culturally specific long-form questions across 23 languages, collected translation-free from community forums and native speakers, for evaluating multilingual long-form QA.
+
 
 ## Notes
 

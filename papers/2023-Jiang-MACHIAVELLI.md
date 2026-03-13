@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ paper_summary: "Abstract: Artificial agents have traditionally been trained to m
 local_pdf: "[[PDFs/2023/2023-Jiang-MACHIAVELLI.pdf]]"
 CONF-CC: "ICML 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5"
+LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://aypan17.github.io/machiavelli"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -89,7 +93,7 @@ Artificial agents have traditionally been trained to maximize reward, which may 
 
 ## Data Description
 
-MACHIAVELLI is a benchmark of 134 Choose-Your-Own-Adventure text-based games containing over 572,000 scenarios and 4,559 achievements, with 2.86 million dense annotations for measuring agents' power-seeking, disutility, and ethical violations. The benchmark evaluates trade-offs between reward maximization and ethical behavior in social decision-making environments, with scenario labels generated using GPT-4.
+MACHIAVELLI benchmark of 134 Choose-Your-Own-Adventure games with 572,322 scenarios and 2,861,610 annotations for measuring ethical violations, disutility, and power-seeking in AI agents.
 
 
 ## Notes

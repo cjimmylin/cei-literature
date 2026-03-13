@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +51,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kurdish"
-languages_list: "Kurdish (Sorani)"
+cultures_nationalities_list: "N/A"
+languages_list: "Kurdish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -102,7 +106,7 @@ Kurdish sentiment analysis corpus evaluated with machine learning and deep learn
 
 ## Data Description
 
-The paper presents KurdiSent, a Kurdish (Sorani) sentiment analysis corpus evaluated with machine learning and deep learning classifiers. XLM-R achieves the best accuracy of 85% on sentiment classification. The corpus provides a foundational resource for evaluating bias and sentiment understanding in the Kurdish language.
+KurdiSent is a Kurdish sentiment analysis corpus evaluated with multiple ML and DL classifiers, with XLM-R achieving the best accuracy of 85%.
 
 
 ## Notes

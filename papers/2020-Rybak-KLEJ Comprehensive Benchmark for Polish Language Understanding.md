@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ publication: "arXiv / ACL 2020"
 CONF-CC: "ACL 2020"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Polish"
-languages_list: Polish
+cultures_nationalities_list: "N/A"
+languages_list: "Polish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, ELMo"
-DATA_URL: "NA"
+DATA_URL: "https://klejbenchmark.com"
 tags: 
 abstract: "In recent years, a series of Transformer-based models unlocked major improvements in general natural language understanding (NLU) tasks. Such a fast pace of research would not be possible without general NLU benchmarks, which allow for a fair comparison of the proposed methods. However, such benchmarks are available only for a handful of languages. To alleviate this issue, we introduce a comprehensive multi-task benchmark for the Polish language understanding, accompanied by an online..."
 CONFERENCE: "ACL 2020"
@@ -61,8 +65,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Comprehensive benchmark for Polish NLU with 9 tasks including NER, QA, textual e
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ELMo. No high-confidence repository-style data URL was identified.
+KLEJ benchmark: nine Polish NLU tasks including NER, cyberbullying detection, sentiment analysis, QA, textual entailment, and semantic relatedness, with the HerBERT model and online leaderboard.
+
 
 ## Notes
 

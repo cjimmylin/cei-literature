@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2024/2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hu
 publication: "EMNLP 2024"
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Southeast Asian"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Southeast Asia (SEA) is a region characterized by rich linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, the performance of contemporary AI models for SEA languages is compromised by a significant lack of representation of texts, images, and auditory datasets from SEA. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the predominance of English training..."
-LLM_assessed: "ALBERT, BLOOMZ, Bloom, Command-R, Deberta, Falcon 0, Falcon 7B, GPT-4, Gemma, LLaMa3, Llama, Llama-3, Llama2, Llama3., Llama39, Mistral, Mistral 0.159 Llama3, Mistral 7B, Mistral-7B, BERT, flan-t5-xl, t5-xl"
-DATA_URL: "https://huggingface.co/SEACrowd"
+LLM_assessed: "BLOOM, Command-R, Falcon, GPT-4, Llama-2, Llama-3, Mistral"
+DATA_URL: "https://github.com/SEACrowd/seacrowd-datahub"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -100,7 +104,8 @@ Comprehensive resource hub providing standardized corpora in nearly 1,000 SEA la
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BLOOMZ, Bloom, Command-R, Deberta, Falcon 0, Falcon 7B, GPT-4, Gemma, LLaMa3, Llama, Llama-3, Llama2, Llama3., Llama39, Mistral, Mistral 0.159 Llama3, Mistral 7B, Mistral-7B, BERT, flan-t5-xl, t5-xl. Verified dataset/resource link: https://huggingface.co/SEACrowd.
+SEACrowd consolidates ~500 corpora in nearly 1,000 Southeast Asian languages across text, image, and audio modalities, with a benchmark suite covering 38 indigenous languages on 13 tasks.
+
 
 ## Notes
 

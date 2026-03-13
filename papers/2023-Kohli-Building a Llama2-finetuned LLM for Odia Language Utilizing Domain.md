@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ local_pdf: "[[PDFs/2023/2023-Kohli-Building a Llama2-finetuned LLM for Odia Lang
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
-languages_list: Odia
+languages_list: "Odia"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BERT, ChatGPT, Dolly, LlaMA2, Llama-2, Llama"
-DATA_URL: "https://github.com/AI4Bharat/indicTrans"
+LLM_assessed: "Llama-2"
+DATA_URL: "https://huggingface.co/OdiaGenAI"
 tags: 
 abstract: "Llama2-finetuned LLM for Odia language using domain knowledge instruction set. First dedicated Odia LLM enabling downstream cultural and safety evaluation."
 research_topic: "Other"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Llama2-finetuned LLM for Odia language using domain knowledge instruction set. F
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, BERT, ChatGPT, Dolly, LlaMA2, Llama-2, Llama. Verified dataset/resource link: https://github.com/AI4Bharat/indicTrans.
+181K Odia instruction set for LLM fine-tuning, compiled from translated Alpaca/Dolly/GPTeacher sets and domain knowledge using IndicTrans and GPT models.
+
 
 ## Notes
 

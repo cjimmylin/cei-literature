@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +60,7 @@ abstract: "We propose a framework for robust evaluation of reasoning capabilitie
 paper_summary: "Abstract: We propose a framework for robust evaluation of reasoning capabilities of language models, using functional variants of benchmarks. Models that solve a reasoning test should exhibit no difference in p | Overview: Functional Benchmarks for Robust Evaluation of Reasoning Performance, and the Reasoning Gap Saurabh Srivastava∗, Annarose M B, Anto P V, Shashank Menon, Ajay Sukumar, Adwaith Samod T, Alan Philipose,  | Methodology: Given a benchmark test written as a 'question, answer' pair, we convert it to three functions 'problem(inputs), solution(inputs), inputs(rngs, seed)'. | Key Findings: Compute the product of the number $5+\\sqrt{3}$ and its radical conjugate. • counting and probability/64.json: Expected value of independent trials is | Conclusions: 5.1 Functionalizing MATH to MATH() We have functionalized 41.2% (2060/5000) of the MATH benchmark. This subset was chosen based on the portion of the"
 local_pdf: "[[PDFs/2024/2024-Srivastava-Functional Benchmarks for Robust Evaluation of.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Mixtral, Llama-2, Qwen"
+LLM_assessed: "GPT-3.5, GPT-4, Claude-2, Mixtral, Llama-2, Qwen"
 DATA_URL: "https://github.com/consequentai/fneval/"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -100,7 +105,7 @@ We propose a framework for robust evaluation of reasoning capabilities of langua
 
 ## Data Description
 
-The paper introduces functional benchmarks for reasoning evaluation, converting static question-answer pairs into parameterized code that generates infinite novel snapshots preserving the same reasoning pattern. The authors functionalized 41.2% (2,060 of 5,000 problems) of the MATH benchmark into MATH(), releasing three quarterly snapshots. Evaluation covers 13 state-of-the-art models (4 closed-weight and 9 open-weight) and reveals reasoning gaps of 58-80% between static and functional accuracy, quantifying the gap between memorization and genuine reasoning.
+MATH() is a functional variant of the MATH benchmark where problem parameters are randomized, allowing infinite snapshot instantiation to test true reasoning versus memorization. Three quarterly snapshots (Oct/Nov/Dec 2023) are released publicly.
 
 
 ## Notes

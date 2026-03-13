@@ -28,6 +28,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +52,8 @@ local_pdf: "[[PDFs/2024/2024-Dawson-Evaluating Cultural Awareness of LLMs for.pd
 publication: "WebSearch: Malayalam cultural awareness LLM"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Indian, African"
+national_ethnic_cultural: "Indian, African/Ubuntu"
+cultures_nationalities_list: "Indian, African/Ubuntu"
 languages_list: "English, Malayalam, Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +61,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Although LLMs have been extremely effective in a large number of complex tasks, their understanding and functionality for regional languages and cultures are not well studied. In this paper, we explore the ability of various LLMs to comprehend the cultural aspects of two regional languages: Malayalam (state of Kerala, India) and Yoruba (West Africa). Using Hofstede's six cultural dimensions: Power Distance (PDI), Individualism (IDV), Motivation towards Achievement and Success (MAS), Uncertainty..."
-LLM_assessed: "GPT-4o, GPT-4o mini, GPT-4o-mini, Gemma"
+LLM_assessed: "GPT-4o mini, Gemma-7B"
 DATA_URL: "NA"
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: "Preprint"

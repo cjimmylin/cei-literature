@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: "WebSearch: Uhura benchmark African languages scientific question a
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Amharic, Hausa, Northern Sotho, Swahili, Yoruba, Zulu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Evaluations of Large Language Models (LLMs) on knowledge-intensive tasks and factual accuracy often focus on high-resource languages primarily because datasets for low-resource languages (LRLs) are scarce. In this paper, we present Uhura—a new benchmark that focuses on two tasks in six typologically-diverse African languages, created via human translation of existing English benchmarks. The first dataset, Uhura-ARC-Easy, is composed of multiple-choice science questions."
-LLM_assessed: "Alpaca, Claude, Claude Sonnet, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, GPT-4o mini, Gemma, Gemma-2, Gemma2, Llama, Llama-3.1, T5, claude-3, gpt-4o-mini"
-DATA_URL: "NA"
+LLM_assessed: "Claude, Gemma-2, GPT-4, GPT-4o, Llama-3, Alpaca"
+DATA_URL: "https://www.uhura.dev/"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ Benchmark focusing on scientific QA and truthfulness in 6 African languages via 
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, Claude, Claude Sonnet, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, GPT-4o mini, Gemma, Gemma-2, Gemma2, Llama, Llama-3.1, T5, claude-3, gpt-4o-mini. No high-confidence repository-style data URL was identified.
+Uhura benchmark for scientific QA (Arc-Easy) and truthfulness (TruthfulQA) in 6 African languages via human translation of English benchmarks.
+
 
 ## Notes
 

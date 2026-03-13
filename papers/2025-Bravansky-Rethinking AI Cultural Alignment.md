@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Bravansky-Rethinking AI Cultural Alignment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bravansky-Rethinking AI Cultural Alignment.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Chinese, Global"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, GPT-4"
+LLM_assessed: "GPT-4, GPT-4o"
 DATA_URL: "NA"
 tags: 
 abstract: "As general-purpose artiﬁcial intelligence (AI) systems become increasingly integrated with diverse human communities, cultural alignment has emerged as a crucial element in their deployment. Most existing approaches treat cultural alignment as one-directional, embedding predeﬁned cultural values from standardized surveys and repositories into AI systems. To challenge this perspective, we highlight research showing that humans’ cultural values must be understood within the context of speciﬁc AI..."
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ local_pdf:
 "N/A"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Gemma-2-9B, Llama-3.1-8B, Mistral-7B, Qwen-2.5-7B"
+LLM_assessed: "Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://huggingface.co/collections/Holmeister/turkish-llm-multi-prompt-evaluation-datasets-676994cd18391bb6e813bec3"
 tags: 
 abstract: "Comprehensive evaluation of 10 open-source LLMs across 11 tasks using 17 datasets. Covers fairness, truthfulness, ethics, and NLP proficiency dimensions. Found gemma2-9b-it outperforms other chat LLMs in understanding and trustworthiness. Directly evaluates ethics, fairness, and trustworthiness of LLMs in Turkish. Multi-faceted evaluation including prompt robustness and comparison of fine-tuned vs chat models."
@@ -98,7 +102,7 @@ Comprehensive evaluation of 10 open-source LLMs across 11 tasks using 17 dataset
 
 ## Data Description
 
-This paper presents a comprehensive evaluation of 10 open-source LLMs across 11 tasks using 17 datasets for Turkish language. The evaluation covers fairness, truthfulness, machine ethics, and NLP proficiency dimensions with a multi-prompt approach to test robustness. Results show gemma2-9b-it outperforms other chat LLMs in understanding and trustworthiness for Turkish.
+Multi-prompt evaluation datasets for Turkish LLM assessment covering 11 tasks using 17 datasets. Datasets released on HuggingFace for evaluating fairness, truthfulness, and machine ethics of open-source LLMs.
 
 
 ## Notes

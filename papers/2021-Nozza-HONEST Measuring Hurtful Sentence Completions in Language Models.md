@@ -7,6 +7,8 @@
 
 
 
+
+
 key: HELM0002
 type: conferencePaper
 short_title: "HONEST"
@@ -18,9 +20,11 @@ url: "https://aclanthology.org/2021.naacl-main.191/"
 external_pdf: "https://aclanthology.org/2021.naacl-main.191.pdf"
 publication: "NAACL-HLT 2021"
 CONF-CC: "NAACL 2021"
-national_ethnic_cultural: ""
-languages_list: ""
-religious_values: ""
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "English, French, Italian, Portuguese, Romanian, Spanish"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "bias-evaluation, gender-bias, language-models, hurtful-language, benchmark, multilingual, stereotype, NLP"
 key_contribution: "Introduces HONEST, a template- and lexicon-based benchmark score for measuring hurtful gendered sentence completions across six language models and six languages."
@@ -39,6 +43,8 @@ utilitarian_ethics: "No"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
+LLM_assessed: "BERT, GPT-2"
+DATA_URL: "https://github.com/MilaNLProc/honest"
 data_description: "Manually-created cloze sentence templates for six languages (English, Italian, French, Portuguese, Romanian, Spanish) paired with a hurtful-word lexicon to measure gendered stereotype bias in BERT and GPT-2 completions"
 data_metrics: "HONEST score (proportion of hurtful sentence completions per language model)"
 ---

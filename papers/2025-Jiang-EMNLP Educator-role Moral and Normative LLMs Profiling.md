@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "Cognitive Developmental"
 newtags: 
 tags: 
 abstract: "Simulating Professions (SP) enables Large Language Models (LLMs) to emulate professional roles. However, comprehensive psychological and ethical evaluation in these contexts remains lacking. This paper introduces EMNLP, an Educator-role Moral and Normative LLMs Profiling framework for personality profiling, moral development stage measurement, and ethical risk under soft prompt injection. EMNLP extends existing scales and constructs 88 teacher-specific moral dilemmas, enabling..."
-LLM_assessed: "DeepSeek, Claude, GPT-4, Qwen"
+LLM_assessed: "Claude, DeepSeek, GPT-4, Qwen, Qwen-2"
 DATA_URL: "https://e-m-n-l-p.github.io/"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "EMNLP 2025"
@@ -102,7 +106,8 @@ Size: 88 teacher-specific moral dilemmas
 
 ## Data Description
 
-EMNLP is a framework for evaluating teacher-role LLMs across personality profiling, moral development stages, and ethical risk under soft prompt injection. It includes extended CPST-E personality scales, 88 teacher-specific moral dilemmas, and targeted soft prompt injection tests, evaluated on 14 LLMs (including DeepSeek-R1, Claude-3.7, GPT-4.1, Qwen2.5 variants, Qwen3-235B, Baichuan2-7B, QwQ-32B, and GLM-Z1-9B) with comparison to 100 human teachers.
+The EMNLP framework provides 88 teacher-specific moral dilemmas, extended personality scales, and soft prompt injection sets for evaluating educator-role LLMs; resources available at the project website.
+
 
 ## Notes
 

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2025/2025-Ehud-LCHAIM - Investigating Long Context Reasoning 
 pdf_extract: "PDF Extracts/2025/2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew, Israeli"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Gemma-9B, Dicta-LM-2.0, GPT-4o, LongHero"
+LLM_assessed: "Gemma, GPT-4o"
 DATA_URL: "https://github.com/oriel9p/lchaim.git"
 tags: 
 abstract: "Hebrew NLI evaluation dataset with 8,325 context-hypothesis pairs requiring coreferential, temporal, logical and analytical reasoning. LLMs like DictaLM-2.0 and GPT-4o achieve max 60.12% vs human performance of ~87%. Tests Hebrew cultural-linguistic reasoning."
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -97,7 +101,7 @@ Hebrew NLI evaluation dataset with 8,325 context-hypothesis pairs requiring core
 
 ## Data Description
 
-LCHAIM is a Hebrew natural language inference dataset containing 8,325 context-hypothesis pairs requiring coreferential, temporal, logical, and analytical reasoning, created by translating and validating the English ConTRoL dataset. Fine-tuning the LongHero model achieved 52% mean accuracy (35% below human performance). LLMs including Gemma-9B, Dicta-LM-2.0-7B, and GPT-4o achieved a top mean accuracy of 60.12% in few-shot settings.
+LCHAIM is a Hebrew NLI dataset of 8,325 context-hypothesis pairs translated and validated from the English ConTRoL dataset, requiring coreferential, temporal, logical, and analytical reasoning; released on GitHub.
 
 
 ## Notes

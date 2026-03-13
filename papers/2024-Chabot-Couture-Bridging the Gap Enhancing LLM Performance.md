@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +52,7 @@ publication: "AAAI 2025"
 CONF-CC: "AAAI 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable performance across various tasks, yet significant disparities remain for non-English languages, and especially native African languages. This paper addresses these disparities by creating approximately 1 million human-translated words of new benchmark data in 8 low-resource African languages, covering a population of over 160 million speakers of: Amharic, Bambara, Igbo, Sepedi (Northern Sotho), Shona, Sesotho (Southern Sotho), Setswana, and..."
-LLM_assessed: "BLOOMZ, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama 3, Llama 3.1, gpt-3.5-turbo, gpt-4-turbo"
-DATA_URL: "https://github.com/InstituteforDiseaseModeling/Bridging-the-Gap-Low-Resource-African-Languages (CC BY 4.0)"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Llama-3, Phi-3, BLOOMZ"
+DATA_URL: "https://huggingface.co/datasets/Institute-Disease-Modeling/mmlu-winogrande-afr"
 CONFERENCE: "AAAI 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,7 +70,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -105,7 +110,8 @@ Creates approximately 1 million human-translated words of new benchmark data in 
 
 ## Data Description
 
-Backfill summary: Models assessed include BLOOMZ, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama 3, Llama 3.1, gpt-3.5-turbo, gpt-4-turbo. Verified dataset/resource link: https://github.com/InstituteforDiseaseModeling/Bridging-the-Gap-Low-Resource-African-Languages (CC BY 4.0).
+Approximately 1 million human-translated words of benchmark data (Winogrande + MMLU sections) in 8 low-resource African languages with cultural appropriateness adjustments.
+
 
 ## Notes
 

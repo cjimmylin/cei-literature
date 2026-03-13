@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ pdf_extract: "PDF Extracts/2020/2020-Pitenis-Offensive Language Identification i
 local_pdf: "[[PDFs/2020/2020-Pitenis-Offensive Language Identification in Greek.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Greek"
-languages_list: Greek
+cultures_nationalities_list: "N/A"
+languages_list: "Greek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: BERT
-DATA_URL: "https://github.com/google-research/bert"
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "As offensive language has become a rising issue for online communities and social media platforms, researchers have been investigating ways of coping with abusive content and developing systems to detect its different types: cyberbullying, hate speech, aggression, etc. With a few notable exceptions, most research on this topic so far has dealt with English. This is mostly due to the availability of language resources for English."
 CONFERENCE: "ACL 2020"
@@ -102,7 +106,7 @@ This paper presents the Offensive Greek Tweet Dataset (OGTD), the first manually
 
 ## Data Description
 
-Dataset and models for offensive language identification in Greek social media. Evaluates BERT and other deep learning approaches on Greek offensive language detection tasks with focus on toxic comment classification.
+OGTD (Offensive Greek Tweet Dataset): 4,779 manually annotated Greek Twitter posts for offensive language identification, later expanded to 10,287 in v2.0.
 
 
 ## Detailed Summary

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ tags:
 abstract: "Despite remarkable advances that large language models have achieved in chatbots, maintaining a non-toxic user-AI interactive environment has become increasingly critical nowadays. However, previous efforts in toxicity detection have been mostly based on benchmarks derived from social media content, leaving the unique challenges inherent to real-world user-AI interactions insufficiently explored. In this work, we introduce TOXICCHAT, a novel benchmark based on real user queries from an..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: "RoBERTa"
 DATA_URL: "https://huggingface.co/datasets/lmsys/toxic-chat"
 pdf_extract: "PDF Extracts/2023/2023-Lin-ToxicChat.md"
 local_pdf: "[[PDFs/2023/2023-Lin-ToxicChat.pdf]]"
@@ -84,7 +88,7 @@ Despite remarkable advances that large language models have achieved in chatbots
 
 ## Data Description
 
-ToxicChat is a toxicity detection benchmark based on 10,166 real user queries from the Vicuna open-source chatbot demo, annotated for toxicity (7.10% toxic rate) and jailbreaking (1.75% rate). The dataset includes binary toxicity labels determined by majority vote among four annotators, with an additional jailbreaking label for implicit toxic inputs designed to trick chatbots into generating harmful content.
+ToxicChat benchmark dataset of 10,166 real user-AI conversation examples with human toxicity annotations and jailbreaking labels, collected from Vicuna chatbot interactions.
 
 
 ## Notes

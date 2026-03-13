@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,7 @@ publication: "WebSearch: Benchmarking Sociolinguistic Diversity Swahili NLP"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Kenyan"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "English, Swahili"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We introduce the first taxonomy-guided evaluation of Swahili NLP, addressing gaps in sociolinguistic diversity. Drawing on health-related psychometric tasks, we collect a dataset of 2,170 free-text responses from Kenyan speakers. The data exhibits tribal influences, urban vernacular, code-mixing, and loanwords. We develop a structured taxonomy and use it as a lens for examining model prediction errors across pre-trained and instruction-tuned language models."
-LLM_assessed: "BERT, Llama, Llama 3.1, Llama-3.1, Llama3.1, Qwen2, Qwen2.5, RoBERTa, llama 3"
+LLM_assessed: "Llama-3, Qwen-2, RoBERTa, BERT"
 DATA_URL: "https://github.com/nd-hal/swahili_psych_taxonomy"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Preprint"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -95,7 +99,8 @@ First taxonomy-guided evaluation of Swahili NLP with 2,170 responses from Kenyan
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Llama, Llama 3.1, Llama-3.1, Llama3.1, Qwen2, Qwen2.5, RoBERTa, llama 3. Verified dataset/resource link: https://github.com/nd-hal/swahili_psych_taxonomy.
+A Swahili health psychometrics dataset of 2,170 free-text responses from Kenyan speakers with demographic metadata (tribe, gender, income, education), designed for sociolinguistic NLP evaluation with a taxonomy of Swahili sociolinguistic features including code-mixing, tribal lexicon, and urban vernacular.
+
 
 ## Notes
 

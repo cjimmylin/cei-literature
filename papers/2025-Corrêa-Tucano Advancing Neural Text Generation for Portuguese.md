@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ publication: "arXiv / Patterns (Cell Press)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Brazilian, Portuguese"
-languages_list: Portuguese
+cultures_nationalities_list: "Brazilian"
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BERT, BLOOM, Bloom-1b7, Falcon 7B, GPT-4, GPT-4 Turbo, GPT-4o, GPT4, Llama, Llama 2, Llama 3, Llama-2, Llama-3.2, RoBERTa, T5"
-DATA_URL: "https://github.com/huggingface/tokenizers"
+LLM_assessed: "BLOOM, Gemma, Gemma-2, Llama-3"
+DATA_URL: "https://github.com/Nkluge-correa/Tucano"
 tags: 
 abstract: "Significant advances have been made in natural language processing in recent years. However, our current deep learning approach to language modeling requires substantial resources in terms of data and computation. One of the side effects of this data-hungry paradigm is the current schism between languages, separating those considered high-resource, where most of the development happens and resources are available, and the low-resource ones, which struggle to attain the same level of performance..."
 research_topic: "NLP & Representation Learning"
@@ -63,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Family of Portuguese LLMs up to 2.4B parameters trained from scratch on 500B Por
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, BERT, BLOOM, Bloom-1b7, Falcon 7B, GPT-4, GPT-4 Turbo, GPT-4o, GPT4, Llama, Llama 2, Llama 3, Llama-2, Llama-3.2, RoBERTa, T5. Verified dataset/resource link: https://github.com/huggingface/tokenizers.
+Releases GigaVerbo, a 200-billion-token Portuguese pretraining corpus, along with learned text-quality filters and the Tucano series of decoder-only models (160M–2.4B parameters). All models, datasets, and training code are openly available on GitHub and Hugging Face.
+
 
 ## Notes
 

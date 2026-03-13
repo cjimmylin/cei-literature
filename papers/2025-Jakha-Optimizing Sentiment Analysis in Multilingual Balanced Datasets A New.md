@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Mongolian, Multilingual"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -96,7 +99,7 @@ Social network platforms have a big impact on the development of companies by in
 
 ## Data Description
 
-This study compares feature extraction techniques (TF-IDF, Word2Vec, FastText, BERT embeddings) for sentiment analysis on three multilingual hotel review datasets in English, French, and Arabic. It achieves accuracy rates of approximately 99% for English, 94% for Arabic, and 89% for French. The study uses traditional ML/DL classifiers and BERT-based models rather than LLMs for evaluation.
+Presents a new multilingual sentiment analysis dataset and evaluates sentiment models, focusing on balanced data construction for improved cross-lingual performance.
 
 
 ## Notes

@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of.md"
 local_pdf: "[[PDFs/2025/2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "Indigenous American"
-languages_list: "Guarani, Multilingual, Quechua"
+national_ethnic_cultural: "Latin American"
+cultures_nationalities_list: "Latin American"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: "RoBERTa"
 DATA_URL: "https://github.com/abteen/americasnli"
 tags: 
 abstract: "Pretrained multilingual models are able to perform cross-lingual transfer in a zero-shot setting, even for languages unseen during pretraining. However, prior work evaluating performance on unseen languages has largely been limited to low-level, syntactic tasks, and it remains unclear if zero-shot learning of high-level, semantic tasks is possible for unseen languages. To explore this question, we present AmericasNLI, an extension of XNLI (Conneau et al."
@@ -61,7 +64,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
@@ -98,7 +101,8 @@ Pretrained multilingual models are able to perform cross-lingual transfer in a z
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://github.com/abteen/americasnli.
+AmericasNLI extends XNLI to 10 Indigenous languages of the Americas (Asháninka, Aymara, Bribri, Guaraní, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, Wixarika), providing dev and test NLI sets; intended as a benchmark for zero-shot multilingual evaluation.
+
 
 ## Notes
 

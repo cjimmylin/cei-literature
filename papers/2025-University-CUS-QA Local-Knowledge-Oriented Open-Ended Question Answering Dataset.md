@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ local_pdf: "[[PDFs/2025/2025-University-CUS-QA Local-Knowledge-Oriented Open-End
 publication: "arXiv / Hugging Face"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Czech, Slovak, Ukrainian"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Czech, Slovak, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, Claude 3.5 Sonnet, Claude 3.5, GPT-4o, Gemma, Gemma 3, LLaMA 3, LLaMA 3.1, LLaMA 3.2, LLaMA 3.2., LLaMA 3.3, LLaMA 4, Llama-3.1, Llama-3.2, Llama-3.3, Llama-4, Mistral, Mistral 7B, Mistral v0, Mistral-7B, gemma3"
-DATA_URL: "https://huggingface.co/datasets/ufal"
+LLM_assessed: "Claude-3, GPT-4o, Gemma, Llama-3, Mistral"
+DATA_URL: "https://huggingface.co/datasets/ufal/cus-qa"
 tags: 
 abstract: "We introduce CUS-QA, a benchmark for evaluation of open-ended regional question answering that encompasses both textual and visual modalities. We also provide strong baselines using state-of-the-art large language models (LLMs). Our dataset consists of manually curated questions and answers grounded in Wikipedia, created by native speakers from Czechia, Slovakia, and Ukraine, with accompanying English translations."
 CONFERENCE: "Preprint"
@@ -98,7 +102,8 @@ Regional QA benchmark with 1,536 Czech, 1,210 Slovak, and 1,158 Ukrainian questi
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, Claude 3.5 Sonnet, Claude 3.5, GPT-4o, Gemma, Gemma 3, LLaMA 3, LLaMA 3.1, LLaMA 3.2, LLaMA 3.2., LLaMA 3.3, LLaMA 4, Llama-3.1, Llama-3.2, Llama-3.3, Llama-4, Mistral, Mistral 7B, Mistral v0, Mistral-7B, gemma3. Verified dataset/resource link: https://huggingface.co/datasets/ufal.
+CUS-QA is a manually curated open-ended regional QA dataset with 1,536 Czech, 1,210 Slovak, and 1,158 Ukrainian question-answer pairs grounded in local Wikipedia, covering both textual and visual modalities with human evaluation annotations.
+
 
 ## Notes
 

@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ publication: "arXiv / LREC 2022"
 CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Slovenian"
-languages_list: Slovenian
+cultures_nationalities_list: "N/A"
+languages_list: "Slovenian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "NA"
+LLM_assessed: "BERT, SloBERTa, XLM-R"
+DATA_URL: "http://hdl.handle.net/11356/1380"
 tags: 
 abstract: "We present a Slovene combined machine-human translated SuperGLUE benchmark. We describe the translation process and problems arising due to differences in morphology and grammar. We evaluate the translated datasets in several modes: monolingual, cross-lingual, and multilingual, taking into account differences between machine and human translated training sets. The results show that the monolingual Slovene SloBERTa model is superior to massively multilingual and trilingual BERT models, but these..."
 CONFERENCE: "Preprint"
@@ -62,7 +65,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +100,8 @@ Machine-human translated SuperGLUE benchmark for Slovenian with cultural adaptat
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
+Slovene combined machine-human translation of SuperGLUE benchmark with 6 tasks (BoolQ, CB, COPA, MultiRC, RTE, WSC), released under open-source license via CLARIN.SI.
+
 
 ## Notes
 

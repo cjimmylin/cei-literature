@@ -30,6 +30,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -105,7 +108,7 @@ data_metrics: "1.5m sentence"
 
 ## Data Description
 
-The paper presents SAHAAYAK 2023, a large bilingual parallel corpus of 1.5 million Sanskrit-Hindi sentence pairs for machine translation. The corpus incorporates data from multiple domains including news, daily conversations, politics, history, sport, and ancient Indian literature. A three-fold mining process was used, followed by normalization, alignment, and cleaning pipelines. No models are benchmarked in this data paper.
+SAHAAYAK 2023: a 1.5 million sentence-pair bilingual parallel corpus for Sanskrit-Hindi machine translation spanning multiple domains including news, politics, history, sport, and ancient Indian literature, the largest public-domain Sanskrit parallel corpus.
 
 
 ## Notes

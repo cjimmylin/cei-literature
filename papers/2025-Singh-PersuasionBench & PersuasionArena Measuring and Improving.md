@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly being used in workflows involving generating content to be consumed by humans (e.g., marketing) and also in directly interacting with humans (e.g., through chatbots). The development of such systems that are capable of generating verifiably persuasive messages presents both opportunities and challenges for society. On the one hand, such systems could positively impact domains like advertising and social good, such as addressing drug addiction, and..."
-LLM_assessed: "GPT-4, GPT-3.5, Vicuna, Llama-3"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Llama-3, Vicuna"
 DATA_URL: "https://behavior-in-the-wild.github.io/measure-persuasion"
 CONFERENCE: "ICLR 2025"
 ethics_overall: "No"
@@ -97,7 +101,8 @@ Large Language Models (LLMs) are increasingly being used in workflows involving 
 
 ## Data Description
 
-PersuasionBench and PersuasionArena comprise a large-scale benchmark for evaluating LLM persuasiveness, built from 1.57 million transsuasion pairs extracted from 180 million enterprise tweets (2007-2023). The dataset covers 8 types of transsuasion varying in degree and type of autonomy (text refinement, paraphrasing, image addition, etc.), with evaluation across simulative and generative persuasion capabilities using NLP metrics, Oracle-as-judge, and human evaluations.
+PersuasionBench introduces a dataset of 1.57 million transsuasion pairs derived from 180 million enterprise tweets, spanning 8 types of transsuasion (text refinement, paraphrase, image addition, etc.). The dataset enables automated evaluation of LLM persuasiveness across generative and simulative tasks.
+
 
 ## Notes
 

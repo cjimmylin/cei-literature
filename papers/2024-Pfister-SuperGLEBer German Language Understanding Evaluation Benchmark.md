@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,12 +47,12 @@ local_pdf: "[[PDFs/2024/2024-Pfister-SuperGLEBer German Language Understanding E
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "10 German-pretrained models"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/LSX-UniWue/SuperGLEBer"
 tags: 
 abstract: "We assemble a broad Natural Language Understanding benchmark suite for the German language and consequently evaluate a wide array of existing German-capable models in order to create a better understanding of the current state of German LLMs. Our benchmark consists of 29 different tasks ranging over different types such as document classification, sequence tagging, sentence similarity, and question answering, on which we evaluate 10 different German-pretrained models, thereby charting the..."

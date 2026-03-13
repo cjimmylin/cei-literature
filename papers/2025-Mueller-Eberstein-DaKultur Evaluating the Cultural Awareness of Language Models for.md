@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ pdf_extract: "PDF Extracts/2025/2025-Mueller-Eberstein-DaKultur Evaluating the C
 local_pdf: "[[PDFs/2025/2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Danish"
-languages_list: Danish
+cultures_nationalities_list: "N/A"
+languages_list: "Danish, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "LLAMA2, BERT"
+LLM_assessed: "Llama-2"
 DATA_URL: "https://mxij.me/x/dakultur"
 tags: 
 abstract: "Large Language Models (LLMs) have seen widespread societal adoption. However, while they are able to interact with users in languages beyond English, they have been shown to lack cultural awareness, providing anglocentric or inappropriate responses for underrepresented language communities. To investigate this gap and disentangle linguistic versus cultural proficiency, we conduct the first cultural evaluation study for the mid-resource language of Danish, in which native speakers prompt..."
@@ -61,9 +65,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ This paper presents DaKultur, the first cultural evaluation dataset for Danish w
 
 ## Data Description
 
-DaKultur is the first cultural evaluation dataset for Danish with 1,038 interactions from 63 native speakers. Native speakers prompt different models to solve tasks requiring cultural awareness. Training on native-speaker data doubles response acceptance rates (14% to 42%), with maximum acceptance of 42% highlighting the need for further research in aligning LLMs to Danish culture.
+DAKULTUR: the first native Danish cultural evaluation dataset with 1,038 input-response pairs from 63 native speakers, with human accept/reject annotations across 12 cultural topics.
 
 
 ## Detailed Summary

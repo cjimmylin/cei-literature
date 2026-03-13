@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +50,8 @@ local_pdf: "[[PDFs/2024/2024-Kishore-Evaluating Telugu Proficiency in Large Lang
 publication: "WebSearch: Telugu LLM evaluation"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indian, Telugu"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Comparative analysis of ChatGPT and Gemini on Telugu language proficiency across various NLP tasks. Telugu-specific LLM evaluation comparing major models. Assesses Telugu language capabilities of commercial LLMs."
-LLM_assessed: "ChatGPT"
+LLM_assessed: "ChatGPT, Gemini"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"

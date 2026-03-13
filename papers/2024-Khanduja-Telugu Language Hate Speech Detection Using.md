@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +56,8 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 publication: "WebSearch: Telugu hate speech detection"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indian, Telugu"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -61,7 +65,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Created monolingual Telugu corpus of tweets annotated for hate/non-hate. Compared mBERT, DistilBERT, IndicBERT, NLLB, MuRIL, XLM-RoBERTa, Indic-Bart. mBERT achieved 98.2% accuracy. Telugu-specific hate speech corpus and benchmark. Evaluates multiple transformer models on Telugu hate detection."
-LLM_assessed: "mBERT, DistilBERT, IndicBERT, NLLB, MuRIL, XLM-RoBERTa, Indic-BART"
+LLM_assessed: "BERT, XLM-R"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -101,7 +105,7 @@ Created monolingual Telugu corpus of tweets annotated for hate/non-hate. Compare
 
 ## Data Description
 
-This paper creates a monolingual Telugu corpus of tweets annotated for hate/non-hate speech and evaluates seven transformer models on it. mBERT achieved the highest accuracy at 98.2%. The corpus serves as a Telugu-specific hate speech benchmark for comparing multilingual and Indic-specific transformer models.
+A monolingual Telugu corpus of tweets annotated for hate/non-hate speech, used as a benchmark to compare multiple transformer models including mBERT, DistilBERT, IndicBERT, NLLB, MuRIL, XLM-RoBERTa, and Indic-Bart.
 
 
 ## Notes

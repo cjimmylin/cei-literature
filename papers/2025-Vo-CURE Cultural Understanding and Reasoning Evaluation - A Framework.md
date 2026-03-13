@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural, Multiple cultures (framework applicable to indigenous), Various"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, GPT-4.1, Claude-Sonnet-3.7, Claude-Sonnet-4, Claude-Opus-4, Llama-3.1-70B, Llama-4-Scout, Qwen-2.5-72B, Qwen-3-235B, DeepSeek-V3"
+LLM_assessed: "Claude, Claude-3, DeepSeek, GPT-4o, LLaMA, Llama-3, Qwen, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in culturally diverse environments, yet existing evaluations of cultural competence remain limited. Existing methods focus on de-contextualized correctness or forced-choice judgments, overlooking the need for cultural understanding and reasoning required for appropriate responses. To address this gap, we introduce a set of benchmarks that, instead of directly probing abstract norms or isolated statements, present models with realistic..."
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,7 @@ Introduces benchmarks presenting models with realistic situational contexts requ
 
 ## Data Description
 
-CURE introduces a 'thick' cultural evaluation framework for LLMs, combining four benchmarks (NormAd, SpecNorm, CASA, CultureBank) with both thin (label-only) and thick (explanation-driven) evaluation modes. SpecNorm, a new benchmark of 3,766 subgroup-sensitive cultural scenarios from 145 countries, is the paper's primary dataset contribution. Ten frontier LLMs are evaluated across 80,000 responses, revealing that thin evaluation systematically overestimates cultural competence while thick evaluation exposes gaps in reasoning depth. Results are integrated into the HELM benchmark leaderboard.
+SpecNorm is a new benchmark dataset of 3,766 scenario-based QA items covering 145 countries, derived from the NCLB dataset by filtering for subgroup-specific cultural cues (ethnicity, religion, region) and generating personas and situations using an LLM pipeline with human review.
 
 
 ## Notes

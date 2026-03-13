@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -59,7 +62,7 @@ paper_summary: "Abstract: As large language models (LLMs) become increasingly in
 local_pdf: "[[PDFs/2024/2024-Kang-Are the Values of LLMs Structurally Aligned with.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Llama-3"
-DATA_URL: "https://github.com/jbloomAus/SAELens"
+DATA_URL: NA
 CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -67,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

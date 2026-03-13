@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +50,13 @@ local_pdf: "[[PDFs/2025/2025-Fillies-A novel German TikTok hate speech dataset f
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
-DATA_URL: "NA"
+DATA_URL: "https://zenodo.org/records/14677171"
 tags: 
 abstract: "With the rise of new social media platforms designed for teenagers and adolescents, the importance of content moderation supported by algorithms is more necessary than ever. State-of-the-art hate speech detection algorithms are increasingly challenged by the rapid and creative evolution of modern language. To better understand the online discourse and phenomena of German far-right extremism on contemporary platforms, this research presents the first German TikTok dataset, consisting of 10,586..."
 authors_incomplete: false
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -104,7 +107,7 @@ This paper introduces the first German TikTok hate speech dataset comprising 10,
 
 ## Data Description
 
-Presents the first German TikTok hate speech dataset with 10,586 comments annotated using a fine-grained 32-label schema developed with extremism experts, targeting far-right content with 13.76% hateful. Uses ensemble of six classifiers for initial filtering but does not evaluate specific LLMs as the main contribution.
+First German TikTok hate speech dataset: 10,586 comments annotated for far-right extremism and hate speech using a 32-label annotation schema, with 13.76% labeled hateful. Covers targets including politicians, women, and immigrants.
 
 
 ## Detailed Summary

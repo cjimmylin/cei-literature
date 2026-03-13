@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +49,8 @@ pdf_extract: "PDF Extracts/2025/2025-Saleh-Frontiers Evaluating large language m
 local_pdf: "[[PDFs/2025/2025-Saleh-Frontiers Evaluating large language models a systematic review of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Mongolian"
-languages_list: Mongolian
+cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

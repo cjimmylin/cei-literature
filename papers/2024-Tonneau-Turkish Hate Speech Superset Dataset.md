@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ publication: HuggingFace
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -95,7 +98,8 @@ Aggregated superset of Turkish hate speech datasets available on HuggingFace, co
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset.
+Turkish hate speech dataset combining two domain-specific tweet corpora (Istanbul Convention, 1,033 tweets; Refugee, 1,278 tweets) annotated for hate speech; also includes a hate speech detection system using BERTurk (transformer-based).
+
 
 ## Notes
 

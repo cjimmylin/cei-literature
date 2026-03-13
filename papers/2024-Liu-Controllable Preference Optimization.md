@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -66,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -98,7 +101,7 @@ Alignment in artificial intelligence pursues the consistency between model respo
 
 ## Data Description
 
-This paper introduces Controllable Preference Optimization (CPO) for multi-objective alignment of LLMs along helpfulness, honesty, and harmlessness dimensions. The experiments use three datasets: UltraFeedback (large-scale multi-aspect preference data scored by GPT-4), UltraSafety (3,000 harmful instructions with jailbreak prompts and four model completions), and HH-RLHF (chosen/rejected response pairs). The CPO algorithm was applied to Mistral-7B with 114K CPSFT training instances and 120K preference pairs for CDPO training.
+UltraSafety preference dataset for jailbreak safety alignment, containing prompt-completion pairs with safety scores for training controllable multi-objective aligned LLMs.
 
 
 ## Notes

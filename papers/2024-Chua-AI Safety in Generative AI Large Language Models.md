@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -59,7 +63,7 @@ paper_summary: "Overview: Highlights AI Safety in Generative AI Large Language M
 local_pdf: "[[PDFs/2024/2024-Chua-AI Safety in Generative AI Large Language Models.pdf]]"
 abstract: "Large Language Model (LLMs) such as ChatGPT that exhibit generative AI capabilities are facing accelerated adoption and innovation. The increased presence of Generative AI (GAI) inevitably raises concerns about the risks and safety associated with these models. This article provides an up-to-date survey of recent trends in AI safety research of GAI-LLMs from a computer scientist's perspective: specific and technical. In this survey, we explore the background and motivation for the identified har"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, BLOOM, Bart, ChatGPT, GPT-4, Llama, Zephyr"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"

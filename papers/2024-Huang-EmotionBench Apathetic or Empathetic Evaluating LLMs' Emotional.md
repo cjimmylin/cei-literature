@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Evaluating Large Language Models’ (LLMs) anthropomorphic capabilities has become increasingly important in contemporary discourse. Utilizing the emotion appraisal theory from psychology, we propose to evaluate the empathy ability of LLMs, i.e., how their feelings change when presented with specific situations. After a careful and comprehensive survey, we collect a dataset containing over 400 situations that have proven effective in eliciting the eight emotions central to our study."
-LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Llama-2, Llama-3, Mixtral"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Llama-3, Mixtral, Text-Davinci-003"
 DATA_URL: "https://github.com/CUHK-ARISE/EmotionBench"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
@@ -98,7 +102,8 @@ Evaluating Large Language Models’ (LLMs) anthropomorphic capabilities has beco
 
 ## Data Description
 
-EmotionBench is a testing framework for evaluating LLMs' emotional alignment with humans, containing 428 situations collected from 18 psychology papers that elicit eight negative emotions (anger, anxiety, depression, frustration, jealousy, guilt, fear, embarrassment). The situations are categorized into 36 factors, with a human baseline established from 1,266 subjects worldwide. The framework uses self-report psychological scales including PANAS and eight emotion-specific measures.
+EmotionBench dataset containing 428 situations across 8 negative emotions with human evaluation baselines from 1,266 subjects, designed to evaluate LLMs' emotional alignment.
+
 
 ## Notes
 

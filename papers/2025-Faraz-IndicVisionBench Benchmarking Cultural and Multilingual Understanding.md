@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ local_pdf: "[[PDFs/2025/2025-Faraz-IndicVisionBench Benchmarking Cultural and Mu
 publication: "WebSearch: IndicVisionBench"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
 religious_values: "N/A"
@@ -56,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Vision-language models (VLMs) have demonstrated impressive generalization across multimodal tasks, yet most evaluation benchmarks remain Western-centric, leaving open questions about their performance in culturally diverse and multilingual settings. To address this gap, we introduce IndicVisionBench, the first large-scale benchmark centered on the Indian subcontinent. Covering English and 10 Indian languages, our benchmark spans 3 multimodal tasks, including Optical Character Recognition (OCR),..."
-LLM_assessed: "GPT-4o, GPT-4o-mini, Gemma, Gemma-3, LLaMA-4, LLaMA-4., Llama"
-DATA_URL: "https://github.com/Yuliang-Liu/MultimodalOCR"
+LLM_assessed: "GPT-4o, Gemini, Gemma, LLaMA"
+DATA_URL: NA
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ First large-scale Indian-centric benchmark for VLMs on culture-specific understa
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4o, GPT-4o-mini, Gemma, Gemma-3, LLaMA-4, LLaMA-4., Llama. Verified dataset/resource link: https://github.com/Yuliang-Liu/MultimodalOCR.
+IndicVisionBench is the first large-scale Indian-centric VLM benchmark with 5K unique images and 37K+ QA pairs spanning 13 cultural topics across English and 10 Indic languages, covering VQA, OCR, and Multimodal Machine Translation tracks.
+
 
 ## Notes
 

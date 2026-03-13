@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +47,13 @@ pdf_extract: "PDF Extracts/2025/2025-Ligeti-Nagy-HuGME A Benchmark System for Ev
 "N/A"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Hungarian"
+cultures_nationalities_list: "N/A"
 languages_list: "Hungarian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, Llama-3"
 DATA_URL: "https://hugme.nytud.hu/"
 tags: 
 abstract: "First benchmark system dedicated to testing Hungarian LLMs covering linguistic proficiency, cultural & contextual understanding, and ethical considerations including bias and toxicity. Uses LLM-as-a-judge with six manually curated datasets. Presented at GEM Workshop at ACL 2025."

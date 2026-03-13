@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ pdf_extract: "PDF Extracts/2025/2025-Unknown-Sentiment analysis in multilingual 
 local_pdf: "[[PDFs/2025/2025-Unknown-Sentiment analysis in multilingual context Comparative analysis of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Mongolian"
-languages_list: "Mongolian, Multilingual"
+cultures_nationalities_list: "N/A"
+languages_list: "Mongolian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, word2vec"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language."
@@ -96,7 +100,8 @@ I found several relevant resources related to Mongolian NLP and sentiment analys
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, word2vec. No high-confidence repository-style data URL was identified.
+The paper uses a proprietary e-commerce review dataset (from DARAZ, a Bengali e-commerce platform) for sentiment analysis in English and Bangla; no public release of the dataset is mentioned.
+
 
 ## Notes
 

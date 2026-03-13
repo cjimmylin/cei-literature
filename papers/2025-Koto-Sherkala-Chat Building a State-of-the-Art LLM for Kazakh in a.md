@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +46,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Russian"
-cultures_nationalities_list: "Kazakh"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "English, Kazakh, Russian, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Sherkala-Chat-8B"
+LLM_assessed: "Llama-3, GPT-4o"
 DATA_URL: "https://huggingface.co/inceptionai/Llama-3.1-Sherkala-8B-Chat"
 tags: 
 abstract: "Llama-3.1-Sherkala-8B-Chat, or Sherkala-Chat (8B) for short, is a state-ofthe-art instruction-tuned open generative large language model (LLM) designed for Kazakh. Sherkala-Chat (8B) aims to enhance the inclusivity of LLM advancements for Kazakh speakers. Adapted from the LLaMA3.1-8B model, Sherkala-Chat (8B) is trained on 45.3B tokens across Kazakh, English, Russian, and Turkish. With 8 billion parameters, it demonstrates strong knowledge and reasoning abilities in Kazakh, significantly..."

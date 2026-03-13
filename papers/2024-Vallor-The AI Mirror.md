@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics book"
@@ -36,11 +40,11 @@ isbn: 9780197759066
 url: "https://global.oup.com/academic/product/the-ai-mirror-9780197759066"
 pdf_extract: "PDF Extracts/2024/2024-Vallor-The AI Mirror.md"
 local_pdf: "[[PDFs/2024/2024-Vallor-The AI Mirror.pdf]]"
-national_ethnic_cultural: American
-cultures_nationalities_list: "American"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "American, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Presents the metaphor of 'AI as a mirror' and argues that reclaiming human virtues like wisdom, courage, and care is essential for navigating the age of machine thinking"
@@ -48,7 +52,7 @@ significance: "Shifts the AI ethics discourse from existential fear to active mo
 abstract: "In this landmark work, Shannon Vallor presents a critical examination of artificial intelligence using the metaphor of AI as a mirror reflecting humanity. The book argues that AI systems, forged from vast amounts of historical data, often reproduce the biases and failures of the past. Vallor proposes that we must move beyond viewing AI as a utopian or dystopian force and instead see it as a catalyst for moral and intellectual growth. Drawing on the virtue ethics tradition, she argues that we must reclaim our capacity for wisdom, courage, and care in our interaction with machines. The book explores how AI acts as a \"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, Gemini, Llama"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Unknown"
 ethics_overall: "Yes"

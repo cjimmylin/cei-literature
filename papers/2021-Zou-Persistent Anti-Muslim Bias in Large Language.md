@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,8 +53,8 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

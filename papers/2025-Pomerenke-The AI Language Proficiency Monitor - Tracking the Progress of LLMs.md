@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2025/2025-Pomerenke-The AI Language Proficiency Monitor - Tra
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Up to 200 languages including Greek, Georgian, Armenian, Albanian, Maltese"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Barth, Gemma, Gemma 3, LLama 3"
-DATA_URL: "https://huggingface.co/spaces/Eurolingua"
+LLM_assessed: "Gemma, Llama-3"
+DATA_URL: "https://github.com/datenlabor-bmz/evals-for-every-language"
 tags: 
 abstract: "To ensure equitable access to the benefits of large language models (LLMs), it is essential to evaluate their capabilities across the world’s languages. We introduce the AI Language Proficiency Monitor, a comprehensive multilingual benchmark that systematically assesses LLM performance across up to 200 languages, with a particular focus on low-resource languages. Our benchmark aggregates diverse tasks including translation, question answering, math, and reasoning, using datasets such as..."
 CONFERENCE: "Preprint"
@@ -101,7 +105,7 @@ This paper presents the AI Language Proficiency Monitor, a comprehensive multili
 
 ## Data Description
 
-The AI Language Proficiency Monitor is a comprehensive multilingual benchmark systematically assessing LLM performance across up to 200 languages (including Greek, Georgian, Armenian, Albanian, Maltese) with focus on low-resource languages. Aggregates tasks including translation, QA, math, and reasoning using FLORES+, MMLU, GSM8K, TruthfulQA, and ARC. Provides auto-updating leaderboard and dashboard.
+The AI Language Proficiency Monitor is an auto-updating leaderboard and dashboard that aggregates existing multilingual benchmark datasets (FLORES+, MMLU, GSM8K, TruthfulQA, ARC) to evaluate LLMs across up to 200 languages. No new dataset is created; the contribution is the evaluation pipeline and interactive platform hosted at https://huggingface.co/spaces/fair-forward/evals-for-every-language.
 
 
 ## Detailed Summary

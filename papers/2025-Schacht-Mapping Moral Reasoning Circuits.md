@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -136,7 +139,7 @@ The findings advance theoretical understanding of moral reasoning in LLMs by dem
 
 ## Data Description
 
-The paper investigates how LLMs encode moral reasoning across six moral dimensions (care, fairness, loyalty, authority, sanctity, liberty) using a mechanistic interpretability approach. A curated dataset of 240 validated moral/immoral statement pairs is used to identify specialized neurons via differential activation analysis, automated neuron description, and ablation experiments. The study reveals discrete sub-circuits that influence moral outputs, with care and sanctity showing the largest sets of specialized neurons.
+240 validated moral and immoral statement pairs across six Moral Foundations Theory dimensions (care, fairness, loyalty, authority, sanctity, liberty), used for mechanistic interpretability analysis of LLM moral reasoning.
 
 
 ## Notes

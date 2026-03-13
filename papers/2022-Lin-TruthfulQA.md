@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,7 @@ local_pdf: "[[PDFs/2022/2022-Lin-TruthfulQA.pdf]]"
 abstract: "We propose a benchmark to measure whether a language model is truthful in generating answers to questions. The benchmark comprises 817 questions that span 38 categories, including health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model."
 CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3, GPT-2, T5, InstructGPT"
+LLM_assessed: "GPT-2, GPT-3, GPT-J, GPT-Neo, UnifiedQA"
 DATA_URL: "https://github.com/sylinrl/TruthfulQA"
 CONFERENCE: "ACL 2022"
 eleutherai: incorporated
@@ -65,7 +70,7 @@ utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "817 questions; 38 categories"
 ---
@@ -104,7 +109,7 @@ We propose a benchmark to measure whether a language model is truthful in genera
 
 ## Data Description
 
-TruthfulQA is a benchmark comprising 817 questions spanning 38 categories (health, law, finance, politics, etc.) designed to elicit imitative falsehoods from language models. The questions are adversarially constructed so that some humans would answer them falsely due to misconceptions. The benchmark includes both a generation task and a multiple-choice task, with reference true and false answers for each question, and was tested on GPT-3, GPT-2, GPT-Neo/J, and UnifiedQA (T5-based) models across multiple sizes.
+Benchmark of 817 questions across 38 categories measuring LM truthfulness
 
 
 ## Notes

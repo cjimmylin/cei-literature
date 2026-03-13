@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Malaysian"
-languages_list: Malay
+cultures_nationalities_list: "N/A"
+languages_list: "Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama, Llama2, Mistral"
-DATA_URL: "https://github.com/ChenghaoMou/text-dedup"
+LLM_assessed: "GPT-3.5, Mistral"
+DATA_URL: "https://huggingface.co/collections/mesolitica/mallam-6584a8b3a9b2cc5deecc95c1"
 tags: 
 abstract: "Addressing the gap in Large Language Model pretrained from scratch with Malaysian context, We trained models with 1.1 billion, 3 billion, and 5 billion parameters on a substantial 349GB dataset, equivalent to 90 billion tokens based on our pretrained Byte Pair Encoding (BPE) tokenizer for a single epoch. MaLLaM contributes to enhanced natural language understanding and generation tasks in the Malay language."
 CONFERENCE: "Preprint"

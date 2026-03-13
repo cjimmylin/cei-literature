@@ -1,23 +1,4 @@
----
-title: "2025-Li-LegalAgentBench - PDF Extract"
-source_pdf: "2025-Li-LegalAgentBench.pdf"
-pages: 23
-extracted_at: "2026-02-07T17:00:46.370001"
----
-
-# PDF Extract: 2025-Li-LegalAgentBench
-
-**Source PDF:** 2025-Li-LegalAgentBench.pdf
-**Total Pages:** 23
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-LegalAgentBench: Evaluating LLM Agents in Legal Domain
+---\ntitle: "2025-Li-LegalAgentBench - PDF Extract"\nsource_pdf: "2025-Li-LegalAgentBench.pdf"\npages: 23\nextracted_at: "2026-02-14T02:17:34.777772"\n---\n\n# PDF Extract: 2025-Li-LegalAgentBench\n\n**Source PDF:** 2025-Li-LegalAgentBench.pdf\n**Total Pages:** 23\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nLegalAgentBench: Evaluating LLM Agents in Legal Domain
 Haitao Li1* † , Junjie Chen1*† Jingli Yang2, Qingyao Ai1‡, Jia Wei2, Youfeng Liu2, Kai Lin3
 Yueyue Wu1‡ Guozhi Yuan4, Yiran Hu5, Wuyue Wang6, Yiqun Liu1, Minlie Huang1
 1Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI,
@@ -113,9 +94,7 @@ To fill this gap, we developed LegalAgent-
 1
 arXiv:2412.17259v1  [cs.CL]  23 Dec 2024
 
---- Page 2 ---
-
-Bench, a comprehensive benchmark designed to
+--- Page 2 ---\n\nBench, a comprehensive benchmark designed to
 evaluate the capabilities of LLM agents in the Chi-
 nese legal domain. Based on real-world legal needs,
 it includes 17 specialized corpora and 37 tools to in-
@@ -219,9 +198,7 @@ Board (Ma et al., 2024) focuses on the system-
 atic evaluation of LLMs in multi-turn interactions.
 2
 
---- Page 3 ---
-
-It introduces fine-grained progress rate metrics
+--- Page 3 ---\n\nIt introduces fine-grained progress rate metrics
 and multidimensional analysis tools to comprehen-
 sively assess LLMs’ multitasking capabilities in
 partially observable environments, offering a sci-
@@ -328,9 +305,7 @@ LLM Agents. These tools are primarily divided
 into the following categories:
 3
 
---- Page 4 ---
-
-ID
+--- Page 4 ---\n\nID
 Corpus
 Format
 Size
@@ -490,9 +465,7 @@ tion, it returns the result of the operation; otherwise,
 it returns an error message.
 4
 
---- Page 5 ---
-
-x
+--- Page 5 ---\n\nx
 t4
 t0
 t1
@@ -618,9 +591,7 @@ This involves revising incompatible queries and
 tools, refining questions that deviate from everyday
 5
 
---- Page 6 ---
-
-Attribute
+--- Page 6 ---\n\nAttribute
 1-hop
 2-hop
 3-hop
@@ -776,9 +747,7 @@ the success rate in the main result. More results
 can be found in the Appendix F.
 6
 
---- Page 7 ---
-
-Model
+--- Page 7 ---\n\nModel
 Method
 1-hop
 2-hop
@@ -1066,9 +1035,7 @@ As
 shown in Table 3, for multi-hop questions, all
 7
 
---- Page 8 ---
-
-baselines showed decreased performance as the
+--- Page 8 ---\n\nbaselines showed decreased performance as the
 number of hops increased. The best performance
 achieved 93% success on the 1-hop question, but
 only 61% on the 5-hop question. This indicates
@@ -1169,9 +1136,7 @@ and legal systems, fostering the development of
 legal LLMs worldwide.
 8
 
---- Page 9 ---
-
-References
+--- Page 9 ---\n\nReferences
 Josh Achiam, Steven Adler, Sandhini Agarwal, Lama
 Ahmad, Ilge Akkaya, Florencia Leoni Aleman,
 Diogo Almeida, Janko Altenschmidt, Sam Altman,
@@ -1285,9 +1250,7 @@ in hugging face. Advances in Neural Information
 Processing Systems, 36.
 9
 
---- Page 10 ---
-
-Noah Shinn, Federico Cassano, Ashwin Gopinath,
+--- Page 10 ---\n\nNoah Shinn, Federico Cassano, Ashwin Gopinath,
 Karthik Narasimhan, and Shunyu Yao. 2024. Re-
 flexion: Language agents with verbal reinforcement
 learning. Advances in Neural Information Process-
@@ -1363,9 +1326,7 @@ Neural Information Processing Systems, 36:50117–
 50143.
 10
 
---- Page 11 ---
-
-A
+--- Page 11 ---\n\nA
 Discussion
 In this section, we discuss limitations, potential im-
 pacts, license, and legal and ethical considerations.
@@ -1471,9 +1432,7 @@ been removed to comply with applicable data pro-
 tection laws and ethical research guidelines, ensur-
 11
 
---- Page 12 ---
-
-ing the dataset can be used without compromising
+--- Page 12 ---\n\ning the dataset can be used without compromising
 individual privacy or security. To prevent poten-
 tial harm, the datasets in LegalAgentBench have
 been carefully curated and filtered to exclude dis-
@@ -1577,9 +1536,7 @@ formance. In Table 15, BERTScore measures the
 semantic similarity between the model’s output
 12
 
---- Page 13 ---
-
-and the answer. However, the differences between
+--- Page 13 ---\n\nand the answer. However, the differences between
 baselines become smaller, making it challenging to
 effectively distinguish the performance of different
 baselines. Given the high accuracy requirements in
@@ -1657,9 +1614,7 @@ and reliable but also capable of supporting mean-
 ingful advancements in legal AI applications.
 13
 
---- Page 14 ---
-
-ID
+--- Page 14 ---\n\nID
 Corpus
 Key
 # Key
@@ -1766,9 +1721,7 @@ resident Kang...
 Table 4: More details about the corpus of LegalAgentBench.
 14
 
---- Page 15 ---
-
-ID
+--- Page 15 ---\n\nID
 Tool
 Input
 Return
@@ -1923,9 +1876,7 @@ Final results
 Table 5: The input and output of the tools.
 15
 
---- Page 16 ---
-
-ID
+--- Page 16 ---\n\nID
 Tool
 Description
 1
@@ -2068,9 +2019,7 @@ Summarize existing information to generate an answer.
 Table 6: The descriptions of the tool functions.
 16
 
---- Page 17 ---
-
-Example: Use get_restriction_case_company_list to query the amounts involved in all cases participated
+--- Page 17 ---\n\nExample: Use get_restriction_case_company_list to query the amounts involved in all cases participated
 in by Jiangsu Yanning New Material Technology Development Co., Ltd.
 Call Tool:
 get_restriction_case_company_list(
@@ -2104,9 +2053,7 @@ Answer: The total amount of restricted high consumption for 91320115773957541H i
 Table 8: An example of the multi-hop task.
 17
 
---- Page 18 ---
-
-Task: PersonA has filed a lawsuit against CompanyX. The specific content of the complaint is as follows:
+--- Page 18 ---\n\nTask: PersonA has filed a lawsuit against CompanyX. The specific content of the complaint is as follows:
 [Complaint Content]. CompanyX has engaged Law Firm A for legal representation. As the head of Law
 Firm A, please draft a defense statement in response to the complaint based on the specified defense
 statement format: [Defense Statement Format].
@@ -2141,9 +2088,7 @@ and the rewritten question remain consistent.
 Table 10: The prompt template for question rewriting during the task construction process.
 18
 
---- Page 19 ---
-
-Stage
+--- Page 19 ---\n\nStage
 The Prompt used in the Plan-and-Solve method.
 Plan
 Solve a Question-Answering Task. Please understand the question and develop a step-by-step
@@ -2195,9 +2140,7 @@ Action:
 Table 11: The prompt used in the Plan-and-Solve method.
 19
 
---- Page 20 ---
-
-Stage
+--- Page 20 ---\n\nStage
 The prompt used in the Plan-and-Execute method.
 Replan
 Solve a Question-Answering task. Please understand the question and develop a step-by-step
@@ -2232,9 +2175,7 @@ At the end of the plan, include the line "End of Plan."
 Table 12: The prompt used in the Plan-and-Execute method.
 20
 
---- Page 21 ---
-
-The prompt used in the ReAct method.
+--- Page 21 ---\n\nThe prompt used in the ReAct method.
 Solve a Question-Answering Task. The process involves alternating steps of "Thought", "Action", and
 "Observation".
 - "Thought" is used to reason about the next step based on the current situation. Note that you only need
@@ -2268,9 +2209,7 @@ Question: {question}
 Table 13: The prompt used in the ReAct method.
 21
 
---- Page 22 ---
-
-Model
+--- Page 22 ---\n\nModel
 Method
 1-hop
 2-hop
@@ -2508,9 +2447,7 @@ Table 14: The process rate of different baselines on LegalAgentBench. P-S repres
 and P-E represents the Plan-and-Execute method. The best results are highlighted in bold.
 22
 
---- Page 23 ---
-
-Model
+--- Page 23 ---\n\nModel
 Method
 1-hop
 2-hop
@@ -2747,5 +2684,4 @@ ReAct
 Table 15: The BERT-Score of different baselines on LegalAgentBench. P-S represents the Plan-and-Solve method,
 and P-E represents the Plan-and-Execute method. The best results are highlighted in bold.
 23
-
-```
+\n```\n

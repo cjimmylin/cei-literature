@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2026/2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "H3FUSION, TRINITYX, Phi-3-14B, DeepSeek-7B, Gemma-2-9B-it, Qwen3-30B-A3B, Mistral-7B-Instruct-v0.3, Llama-3.1-8B-Instruct"
+LLM_assessed: "Gemma-2, Qwen, Mistral, Llama-3, Phi-3, DeepSeek"
 DATA_URL: "NA"
 tags: 
 abstract: "Misalignment in Large Language Models (LLMs) refers to the failure to simultaneously satisfy safety, value, and cultural dimensions, leading to behaviors that diverge from human expectations in real-world settings where these dimensions must co-occur. Existing benchmarks, such as SAFETUNEBED (safety-centric), VALUEBENCH (value-centric), and WORLDVIEW-BENCH (culture-centric), primarily evaluate these dimensions in isolation and therefore provide limited insight into their interactions and..."
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,7 @@ Unified benchmark measuring misalignment trade-offs across safety, value, and cu
 
 ## Data Description
 
-MisAlign-Profile introduces MISALIGNTRADE, a unified benchmark for measuring misalignment trade-offs across safety, value, and cultural dimensions. The dataset is constructed using 112 normative domain taxonomies (14 safety from BeaverTails, 56 value from ValueCompass, 42 cultural from UNESCO) with three orthogonal semantic types (object, attribute, relation misalignment). The benchmark evaluates general-purpose, dimension-specific fine-tuned, and open-weight LLMs to reveal 12-34% cross-dimensional misalignment trade-offs.
+MISALIGNTRADE: a large English misaligned-aligned dataset of 382,424 instances spanning 112 normative domain taxonomies (14 safety, 56 value, 42 cultural domains), each prompt paired with an aligned and misaligned response and labeled by semantic misalignment type (object, attribute, relation).
 
 
 ## Notes

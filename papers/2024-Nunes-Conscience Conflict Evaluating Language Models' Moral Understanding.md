@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ moral_psychology: "Moral Foundations Theory"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) have taken centre stage in debates on Artificial Intelligence. Yet there remains a gap in how to assess LLMs’ conformity to important human values. In this paper, we investigate whether state-of-the-art LLMs, GPT-4 and Claude 2.1 (Gemini Pro and LLAMA 2 did not generate valid results) are moral hypocrites. We employ two research instruments based on the Moral Foundations Theory: (i) the Moral Foundations Questionnaire (MFQ), which investigates which values are..."
-LLM_assessed: "GPT-4, Claude"
+LLM_assessed: "Claude-2, GPT-4"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"
@@ -96,7 +100,8 @@ Large language models (LLMs) have taken centre stage in debates on Artificial In
 
 ## Data Description
 
-The paper investigates whether LLMs exhibit moral hypocrisy by comparing their abstract moral endorsements (via the Moral Foundations Questionnaire) with their concrete moral judgments (via the Moral Foundations Vignettes, 68 scenarios). GPT-4 (version 0613) and Claude 2.1 were tested with 30 repetitions each, in both English and Portuguese, and results were compared against human respondent data from prior validation studies.
+Evaluates moral hypocrisy in GPT-4 and Claude 2.1 using Moral Foundations Questionnaire (MFQ) and Moral Foundations Vignettes (MFVs); Gemini Pro and Llama-2 were attempted but did not generate valid results.
+
 
 ## Notes
 

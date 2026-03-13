@@ -29,6 +29,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,9 +51,9 @@ CONF-CC: "EACL 2023"
 pdf_extract: "PDF Extracts/2023/2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.md"
 local_pdf: "[[PDFs/2023/2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -66,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
@@ -102,7 +105,7 @@ Bengali Identity Bias Evaluation Dataset with 25,396 gender-based sentence pairs
 
 ## Data Description
 
-The paper describes a process for developing a cultural bias evaluation dataset highlighting cultural influences on identity for Bengali, focusing on gender, religious (Muslim/Hindu), and national (Bangladeshi/Indian) identity dimensions. It produces a Bengali bias evaluation dataset as an artifact outcome. No specific models are tested; the paper focuses on the dataset construction methodology for enabling future bias evaluation studies.
+BIBED (Bengali Identity Bias Evaluation Dataset): 50,648 sentence pairs covering gender-based (25,396 pairs), religion-based (11,724 pairs), and nationality-based (13,528 pairs) bias dimensions for evaluating cultural bias in NLP systems for Bengali.
 
 
 ## Notes

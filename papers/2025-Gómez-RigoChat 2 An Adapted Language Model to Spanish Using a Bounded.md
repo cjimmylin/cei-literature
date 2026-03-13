@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
-languages_list: Spanish
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3, GPT-3.5-turbo, GPT-4o, GPT-4o-mini, Gemma, GPT-4, Llama, Llama 3.1, Llama-3.1, Qwen-2.5, Qwen2, Qwen2.5, gemma-2, llama 3, llama."
-DATA_URL: "https://github.com/huggingface/peft"
+LLM_assessed: "GPT-3.5, GPT-4o, GPT-4o mini, Gemma-2, Llama-2, Llama-3, Mistral, Phi-3, Qwen-2, StableLM"
+DATA_URL: "https://huggingface.co/IIC/RigoChat-7b-v2"
 tags: 
 abstract: "Large Language Models (LLMs) have become a key element of modern artificial intelligence, demonstrating the ability to address a wide range of language processing tasks at unprecedented levels of accuracy without the need of collecting problem-specific data. However, these versatile models face a significant challenge: both their training and inference processes require substantial computational resources, time, and memory."
 research_topic: "NLP & Representation Learning"
@@ -97,7 +101,8 @@ Spanish instruction-tuned model fine-tuned from Qwen2.5-7B-Instruct with improve
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-3, GPT-3.5-turbo, GPT-4o, GPT-4o-mini, Gemma, GPT-4, Llama, Llama 3.1, Llama-3.1, Qwen-2.5, Qwen2, Qwen2.5, gemma-2, llama 3, llama.. Verified dataset/resource link: https://github.com/huggingface/peft.
+RigoChat 2 is a Spanish-aligned LLM (Qwen2.5-7B-Instruct fine-tuned via DPO) along with a high-quality Spanish conversational preference dataset derived from filtered/augmented public and private corpora. The model and quantized variants are publicly available on Hugging Face.
+
 
 ## Notes
 

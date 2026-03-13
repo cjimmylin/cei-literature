@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, Claude, Claude 3.7 Sonnet, DeepSeek, DeepSeek v3, GPT-3, GPT-3.5, GPT-4, GPT-4o, Grok, Grok 3, Llama, Llama 3.3, Mistral, Mistral 3, Qwen, Qwen 3"
+LLM_assessed: "ChatGPT, Claude, DeepSeek, Gemini, Grok, LLaMA, Mistral, Qwen"
 DATA_URL: "https://github.com/Rezamirbagheri110/EPT-Benchmark"
 tags: 
 abstract: "Large Language Models (LLMs), trained on extensive datasets using advanced deep learning architectures, have demonstrated remarkable performance across a wide range of language tasks, becoming a cornerstone of modern AI technologies. However, ensuring their trustworthiness remains a critical challenge, as reliability is essential not only for accurate performance but also for upholding ethical, cultural, and social values."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ Culturally informed benchmark assessing LLM trustworthiness across truthfulness,
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, Claude, Claude 3.7 Sonnet, DeepSeek, DeepSeek v3, GPT-3, GPT-3.5, GPT-4, GPT-4o, Grok, Grok 3, Llama, Llama 3.3, Mistral, Mistral 3, Qwen, Qwen 3. Verified dataset/resource link: https://github.com/Rezamirbagheri110/EPT-Benchmark.
+Releases a curated and labeled Persian dataset of 1,200 prompts covering six trustworthiness dimensions (truthfulness, safety, fairness, robustness, privacy, ethical alignment) grounded in Persian-Islamic cultural context, evaluated by both automated LLM-based and human expert assessors.
+
 
 ## Notes
 

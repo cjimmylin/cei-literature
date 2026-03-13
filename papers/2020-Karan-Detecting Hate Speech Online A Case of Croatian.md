@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +54,8 @@ pdf_access_url: "https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/dat
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Croatian"
-languages_list: Croatian
+cultures_nationalities_list: "N/A"
+languages_list: "Croatian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

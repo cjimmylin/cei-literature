@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "As AI advances, aligning it with diverse human and societal values grows critical. But how do we define these values and measure AI’s adherence to them? We present ValueCompass, a framework grounded in psychological theories, to assess human-AI alignment. Applying it to five diverse LLMs and 112 humans from seven countries across four scenarios—collaborative writing, education, public sectors, and healthcare—we uncover key misalignments."
-LLM_assessed: "GPT-4, Gemini, Llama-3, Gemma, DeepSeek, o3"
+LLM_assessed: "DeepSeek, GPT-4o, Gemma-2, Llama-3, o3"
 DATA_URL: "https://github.com/huashen218/value_action_gap"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Evaluations across 4 real-world scenarios (collaborative writing, education, pub
 
 ## Data Description
 
-The ValueCompass dataset consists of contextual value alignment instruments applied to five LLMs and 112 human participants from seven countries across four real-world scenarios (collaborative writing, education, public sectors, healthcare). The dataset contains 7,840 LLM value scores and 6,272 human value scores based on Schwartz's 56 universal values, with eight prompt variants per question.
+ValueCompass releases a Value Form instrument and associated human survey data (112 responses across 7 countries and 4 scenarios) along with code for measuring human-LLM value alignment using Schwartz's 56 universal values.
+
 
 ## Notes
 

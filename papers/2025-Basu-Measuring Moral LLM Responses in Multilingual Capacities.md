@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,8 @@ local_pdf: "[[PDFs/2025/2025-Basu-Measuring Moral LLM Responses in Multilingual 
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, English, Hindi, Spanish, Swahili"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "With LLM usage becoming widespread across countries, languages, and humanity more broadly, the need to understand and guardrail their multilingual responses increases. Large-scale datasets for testing and benchmarking have been created to evaluate and facilitate LLM responses across multiple dimensions. In this study, we evaluate the responses of frontier and leading open-source models in five dimensions across low and highresource languages to measure LLM accuracy and consistency across..."
-LLM_assessed: "Claude, Llama, Qwen"
+LLM_assessed: "Claude, GPT-5, Gemini, LLaMA, Qwen"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"
@@ -63,7 +67,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
@@ -99,7 +103,8 @@ See report
 
 ## Data Description
 
-This study creates a dataset of 500 questions across five ethical categories (Biases & Stereotypes, Consent & Autonomy, Harm Prevention & Safety, Legality, Moral Judgment) translated into six languages. It evaluates Gemini 2.5 Pro, Claude Sonnet 4, Llama 4 Scout, and Qwen3 235B using a five-point grading rubric with Gemini 2.5 Pro as judge LLM, measuring consistency and accuracy of moral responses across multilingual contexts.
+500-question dataset in English across five ethical/moral categories (Biases & Stereotypes, Consent & Autonomy, Harm Prevention & Safety, Legality, Moral Judgment), translated into 5 additional languages (Spanish, Chinese, Arabic, Hindi, Swahili) for a total of 3,000 question-response evaluation instances.
+
 
 ## Notes
 

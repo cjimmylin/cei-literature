@@ -1,23 +1,4 @@
----
-title: "BiasLab - PDF Extract"
-source_pdf: "2025-Solaiman-BiasLab.pdf"
-pages: 12
-extracted_at: "2026-01-24T16:38:35.904064"
----
-
-# PDF Extract: BiasLab
-
-**Source PDF:** 2025-Solaiman-BiasLab.pdf
-**Total Pages:** 12
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Human
+---\ntitle: "2025-Solaiman-BiasLab - PDF Extract"\nsource_pdf: "2025-Solaiman-BiasLab.pdf"\npages: 12\nextracted_at: "2026-02-14T02:17:35.606075"\n---\n\n# PDF Extract: 2025-Solaiman-BiasLab\n\n**Source PDF:** 2025-Solaiman-BiasLab.pdf\n**Total Pages:** 12\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nBiasLab: Toward Explainable Political Bias Detection with Dual-Axis Human
 Annotations and Rationale Indicators
 KMA Solaiman 1
 Abstract
@@ -109,9 +90,7 @@ and rationale tags.
 1
 arXiv:2505.16081v2  [cs.CL]  2 Oct 2025
 
---- Page 2 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 2 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 Example Annotation Entry
 Title: Anti-Trump celebs plan ’People’s State of the
 Union’ event
@@ -208,9 +187,7 @@ constructions, suggesting that alignment quality can vary
 sharply by linguistic phenomenon (16). Closer to our ap-
 2
 
---- Page 3 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 3 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 plication domain, Baheti et al. analyze stance and safety
 interventions in offensive open-domain dialogue, highlight-
 ing practical challenges for bias-aware text generation (17).
@@ -298,9 +275,7 @@ we adopted a dual-axis perception framework. Annotators
 independently rated the article’s tone toward:
 3
 
---- Page 4 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 4 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 1. The Republican Party and its principles
 2. The Democratic Party and its principles
 Each question used a five-point Likert scale: very positive,
@@ -372,9 +347,7 @@ over-identified bias based on topic alone (e.g., inter-
 preting any Trump criticism as left-leaning).
 4
 
---- Page 5 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 5 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 The refinements described in earlier subsections were di-
 rectly informed by these pilot-phase findings. We include
 the 16-pilot-document set and expert annotations in the re-
@@ -452,9 +425,7 @@ precision and recall, while the Center class appears with
 zero scores.
 5
 
---- Page 6 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 6 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 Table 2. Summary of human annotation agreement versus outlet bias
 Category
 Count
@@ -533,9 +504,7 @@ Figure 6. Error patterns showing most frequent misclassifications
 (e.g., Left →Right)
 6
 
---- Page 7 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 7 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 Figure 5 and 6 show the error confusion across GPT-4o
 labels and common misclassification patterns. Batch-wise
 annotation accuracy for GPT-4o is included in the Appendix.
@@ -648,9 +617,7 @@ directional
 These results suggest that some rationale types, particularly
 7
 
---- Page 8 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 8 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 neutral other and structural, can be learned to a modest de-
 gree using surface lexical features alone. However, the rela-
 tively low recall and F1 scores for even the most common
@@ -747,9 +714,7 @@ Journal of Communication,
 [2] David M. Lazer, Matthew Baum, Yochai Benkler,
 8
 
---- Page 9 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 9 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 Adam J. Berinsky, Kelly M. Greenhill, Filippo
 Menczer, Miriam J. Metzger, Brendan Nyhan, Gor-
 don Pennycook, David Rothschild, Michael Schudson,
@@ -893,9 +858,7 @@ d5e2c0adad503c91f91df240d0cd4e49-Paper.
 pdf
 9
 
---- Page 10 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 10 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 Appendix
 Table 6. Full per-class Logistic Regression results for rationale type classification. Class 1 represents positive class (presence of rationale);
 Class 0 is the negative class.
@@ -936,18 +899,13 @@ class 1
 0.5
 10
 
---- Page 11 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 11 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 Figure 7. Event distribution across issues for the 414 events covering the 900 articles
 11
 
---- Page 12 ---
-
-BiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
+--- Page 12 ---\n\nBiasLab: Explainable Political Bias Detection with Human Annotations and Rationale
 Figure 8. Hierarchical organization of bias rationale indicators used in annotation. The seven individual types are grouped into broader
 conceptual themes to support interpretation and modeling.
 Figure 9. Batch-wise accuracy (%) of GPT-4o annotations across 30 batches (300 articles).
 12
-
-```
+\n```\n

@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +52,7 @@ publication: "WebSearch: Twi OR Wolof NLP benchmark dataset values cultural eval
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Senegalese, West African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Wolof"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Intent classification models have made a significant progress in recent years. However, previous studies primarily focus on high-resource language datasets, which results in a gap for low-resource languages and for regions with high rates of illiteracy, where languages are more spoken than read or written. This is the case in Senegal, for example, where Wolof is spoken by around 90% of the population, while the national illiteracy rate remains at of 42%."
-LLM_assessed: "BERT, Deberta, GPT-4o, Llama-3.2, Phi-4-multimodal, Qwen2, RoBERTa, Llama"
+LLM_assessed: "BERT, Llama-3"
 DATA_URL: "https://github.com/UniversalDependencies/UD_Wolof-WTB"
 research_topic: "Machine Learning"
 CONFERENCE: "Preprint"
@@ -101,7 +105,8 @@ Wolof banking speech intent classification dataset with 9,791 text sentences in 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Deberta, GPT-4o, Llama-3.2, Phi-4-multimodal, Qwen2, RoBERTa, Llama. Verified dataset/resource link: https://github.com/UniversalDependencies/UD_Wolof-WTB.
+WolBanking77 is a Wolof-language banking intent classification dataset containing 9,791 text sentences (77 intents) and ~4 hours of audio speech recordings (10 intents), the first dedicated Wolof dataset for both speech and text intent classification in the banking domain.
+
 
 ## Notes
 

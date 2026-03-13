@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +44,7 @@ last_author: "[[Anoop Kunchukuttan]]"
 authors: Jay Gala; Thanmay Jayakumar; Jaavid Aktar Husain; Aswanth Kumar M; Mohammed Safi Ur Rahman Khan; Diptesh Kanojia; Ratish Puduppully; Mitesh M. Khapra; Raj Dabre; Rudra Murthy; Anoop Kunchukuttan
 url: "https://arxiv.org/abs/2401.15006"
 external_pdf: "https://arxiv.org/pdf/2401.15006.pdf"
-pdf_extract: "PDF Extracts/2024/2024-[[Gala]]-Airavata Introducing Hindi Instruction-tuned LLM.md"
+pdf_extract: "PDF Extracts/2024/2024-Gala-Airavata Introducing Hindi Instruction-tuned LLM.md"
 local_pdf: "[[PDFs/2024/2024-Gala-Airavata Introducing Hindi Instruction-tuned LLM.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
@@ -52,8 +57,8 @@ religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
-abstract: "Hindi instruction-tuned LLM with evaluation benchmarks and framework for assessing performance across Hindi tasks. Hindi instruction-following LLM with evaluation framework."
-LLM_assessed: "Alpaca, ChatGPT, Dolly, GPT-4, Llama, Llama 2, Llama2"
+abstract: "We announce Airavata, an instruction-tuned model for Hindi built upon finetuning OpenHathi with diverse, instruction-tuning Hindi datasets to make it better suited for assistive tasks. Along with the model, we also share the instruction tuning datasets to enable further research for IndicLLMs. We rely on human-curated, license-friendly instruction-tuned datasets. We also introduce a new evaluation framework with benchmarks for Hindi, covering tasks involving language, knowledge, reasoning, and creative generation."
+LLM_assessed: "ChatGPT, GPT-4, Llama-2"
 DATA_URL: "https://github.com/AI4Bharat/IndicInstruct"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -61,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: No
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +102,8 @@ Hindi instruction-tuned LLM with evaluation benchmarks and framework for assessi
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, ChatGPT, Dolly, GPT-4, Llama, Llama 2, Llama2. Verified dataset/resource link: https://github.com/AI4Bharat/IndicInstruct.
+Hindi instruction-tuning datasets and evaluation benchmarks for LLMs, including Airavata model based on OpenHathi/Llama-2 with diverse Hindi NLU and NLG tasks.
+
 
 ## Notes
 

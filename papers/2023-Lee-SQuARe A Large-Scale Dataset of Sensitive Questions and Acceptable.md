@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ CONF-CC: "ACL 2023"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Electra, GPT-3"
-DATA_URL: "https://github.com/Beomi/KcELECTRA"
+LLM_assessed: "GPT-3"
+DATA_URL: "https://github.com/naver-ai/korean-safety-benchmarks"
 tags: 
 abstract: "The potential social harms that large language models pose, such as generating offensive content and reinforcing biases, are steeply rising. Existing works focus on coping with this concern while interacting with ill-intentioned users, such as those who explicitly make hate speech or elicit harmful responses. However, discussions on sensitive issues can become toxic even if the users are well-intentioned."
 CONFERENCE: "ACL 2023"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -102,7 +106,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include Electra, GPT-3. Verified dataset/resource link: https://github.com/Beomi/KcELECTRA.
+SQUARE: 49K Korean sensitive questions with 42K acceptable and 46K non-acceptable responses, constructed via human-in-the-loop with HyperCLOVA for safer LLM conversations.
+
 
 ## Notes
 

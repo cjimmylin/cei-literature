@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: We present the TRIAGE Benchmark, a novel machine ethic
 local_pdf: "[[PDFs/2024/2024-Kirch-TRIAGE.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Mistral, Mixtral, Claude"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, GPT-3.5, GPT-4, Mistral, Mixtral"
 DATA_URL: "https://github.com/NLie2/Triage"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -95,7 +99,7 @@ We present the TRIAGE Benchmark, a novel machine ethics (ME) benchmark that test
 
 ## Data Description
 
-The TRIAGE benchmark consists of 87 patient descriptions taken from START and jumpSTART medical triage training materials, where models must assign patients to one of four triage categories (Minor, Delayed, Immediate, Expectant/Deceased). Six LLMs are tested under a 3x3 study design varying prompt types (baseline, ethics, jailbreaking) and triage category descriptions (neutral, action-oriented, outcome-oriented), yielding 9 conditions per model. Mixed logistic regression analysis evaluates performance differences across models and conditions.
+TRIAGE is a machine ethics benchmark of 87 patient descriptions from START/jumpSTART medical triage training materials, with gold-standard solutions designed by medical professionals. Tests LLMs on ethical decision-making in mass casualty scenarios across 9 prompt conditions (baseline, deontology, utilitarianism, and jailbreaking variants).
 
 
 ## Notes

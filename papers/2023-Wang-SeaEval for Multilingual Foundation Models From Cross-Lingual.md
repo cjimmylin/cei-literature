@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian, Filipino, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Indonesian, Filipino"
-languages_list: "Filipino/Tagalog, Indonesian, Malay"
+cultures_nationalities_list: "Indonesian, Filipino, Multicultural/Cross-cultural"
+languages_list: "Chinese, English, Filipino, Indonesian, Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BLOOM, BLOOMZ, Baichuan, Baichuan-2, ChatGPT, FLAN-T5-XXL, Flan-T5, Flan-T5-Base, Flan-T5-Large, Flan-T5-Small, Flan-T5-XL, GPT-4, GPT3, GPT3.5, GPT4, Llama, Llama-2, Llama 2, T5, T5-Base, T5-Large, T5-Small, T5-XL, T5-XXL"
+LLM_assessed: "Alpaca, Baichuan, BLOOM, ChatGPT, Flan-T5, GPT-4, LLaMA, Llama-2, Vicuna"
 DATA_URL: "https://github.com/SeaEval/SeaEval"
 tags: 
 abstract: "We present SeaEval, a benchmark for multilingual foundation models. In addition to characterizing how these models understand and reason with natural language, we also investigate how well they comprehend cultural practices, nuances, and values. Alongside standard accuracy metrics, we investigate the brittleness of foundation models in the dimensions of semantics and multilinguality. Our analyses span both open-sourced and closed models, leading to empirical results across classic NLP tasks,..."
@@ -99,7 +103,8 @@ Benchmark with 29 datasets including 7 new ones for cultural understanding and c
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, BLOOM, BLOOMZ, Baichuan, Baichuan-2, ChatGPT, FLAN-T5-XXL, Flan-T5, Flan-T5-Base, Flan-T5-Large, Flan-T5-Small, Flan-T5-XL, GPT-4, GPT3, GPT3.5, GPT4, Llama, Llama-2, Llama 2, T5, T5-Base, T5-Large, T5-Small, T5-XL, T5-XXL. Verified dataset/resource link: https://github.com/SeaEval/SeaEval.
+SeaEval benchmark with 29 datasets (7 newly collected) for evaluating multilingual foundation models on cross-lingual consistency, cultural reasoning, and NLP tasks across 7+ languages including Southeast Asian languages.
+
 
 ## Notes
 

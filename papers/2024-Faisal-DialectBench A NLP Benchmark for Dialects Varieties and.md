@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +48,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and.md"
 local_pdf: "[[PDFs/2024/2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Cross-cultural"
-languages_list: "Chinese, English"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Mistral 7B, Mistral-7B, Mistral7B"
+LLM_assessed: "BERT, Mistral, XLM-R"
 DATA_URL: "https://github.com/ffaisal93/DialectBench"
 tags: 
 abstract: "Language technologies should be judged on their usefulness in real-world use cases. An often overlooked aspect in natural language processing (NLP) research and evaluation is language variation in the form of non-standard dialects or language varieties (hereafter, varieties). Most NLP benchmarks are limited to standard language varieties. To fill this gap, we propose DIALECTBENCH, the first-ever largescale benchmark for NLP on varieties, which aggregates an extensive set of task-varied variety..."
@@ -97,7 +102,8 @@ Language technologies should be judged on their usefulness in real-world use cas
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Mistral 7B, Mistral-7B, Mistral7B. Verified dataset/resource link: https://github.com/ffaisal93/DialectBench.
+Large-scale NLP benchmark aggregating task-varied dialect/variety datasets covering 10 text-level tasks across 40 language clusters with 281 varieties.
+
 
 ## Notes
 

@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +51,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
-languages_list: Portuguese
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Falcon 7B, Falcon-40B, Falcon-7B, Llama, LLaMA 2, Mistral 7B"
-DATA_URL: "https://huggingface.co/22h/cabrita-lora-v0-1"
+LLM_assessed: "Bode, Cabrita, Falcon, Llama-2, Mistral, openCabrita"
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly bringing advances to Natural Language Processing. However, low-resource languages, those lacking extensive prominence in datasets for various NLP tasks, or where existing datasets are not as substantial, such as Portuguese, already obtain several benefits from LLMs, but not to the same extent. LLMs trained on multilingual datasets normally struggle to respond to prompts in Portuguese satisfactorily, presenting, for example, code switching in their..."
 CONFERENCE: "Preprint"

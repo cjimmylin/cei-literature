@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Dutch, American, Brazilian, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Danish, Dutch, American, Brazilian, Multicultural"
+cultures_nationalities_list: "Dutch, American, Brazilian, Multicultural/Cross-cultural"
 languages_list: "Danish, Dutch, English, Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are becoming increasingly capable across global languages. However, the ability to communicate across languages does not necessarily translate to appropriate cultural representations. A key concern is US-centric bias, where LLMs reflect US rather than local cultural values. We propose a novel methodology that compares LLM-generated response distributions against population-level opinion data from the World Value Survey across four languages (Danish, Dutch, English,..."
-LLM_assessed: "GPT-3, GPT-4, Gemma, Llama, gpt-3.5-turbo"
+LLM_assessed: "Gemma, GPT-3.5"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

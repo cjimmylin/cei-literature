@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Africa is home to over one-third of the world’s languages, yet remains underrepresented in AI research. We introduce Afri-MCQA, the first Multilingual Cultural Question-Answering benchmark covering 7.5k Q&A pairs across 15 African languages from 12 countries. The benchmark offers parallel English-African language Q&A pairs across text and speech modalities and was entirely created by native speakers."
-LLM_assessed: "GPT-4o-mini, Gemma, Gemma3, GPT-4o, Qwen, Qwen 2.5, Qwen-3B, Qwen-7B"
-DATA_URL: "https://huggingface.co/papers/2601.05699"
+LLM_assessed: "Gemini, Gemma, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/Atnafu/Afri-MCQA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ First multilingual cultural QA benchmark covering 7.5k QA pairs across 15 Africa
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4o-mini, Gemma, Gemma3, GPT-4o, Qwen, Qwen 2.5, Qwen-3B, Qwen-7B. Verified dataset/resource link: https://huggingface.co/papers/2601.05699.
+Afri-MCQA is the first multilingual cultural VQA benchmark covering ~7,500 Q&A pairs across 15 African languages from 12 countries, with parallel text and speech modalities created by native speakers. The dataset is released under academic license or CC BY-NC 4.0.
+
 
 ## Notes
 

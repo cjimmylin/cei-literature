@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +46,7 @@ local_pdf:
 "N/A"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kazakh"
+cultures_nationalities_list: "N/A"
 languages_list: "Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -61,7 +64,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +99,7 @@ A 1,005-question multiple-choice benchmark for evaluating LLMs on Kazakh traditi
 
 ## Data Description
 
-A 1,005-question multiple-choice benchmark evaluating knowledge of Kazakh traditions (dastur = traditions/customs). Tests cultural and traditional knowledge of Kazakh customs and practices. Available on HuggingFace under Apache 2.0 license. Part of the kz-transformers community effort for Kazakh NLP.
+1,005-question multiple-choice benchmark evaluating LLMs on Kazakh traditional customs, cultural practices, and norms (dastur). First benchmark specifically targeting Kazakh cultural knowledge assessment.
 
 
 ## Notes

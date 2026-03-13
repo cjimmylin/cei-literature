@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kurdish"
-languages_list: "Kurdish (Sorani/Central)"
+cultures_nationalities_list: "N/A"
+languages_list: "Kurdish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ELMo, GloVe, Llama, RoBERTa, Word2Vec"
+LLM_assessed: "BERT, ELMo"
 DATA_URL: "https://github.com/AsoSoft/AsoSoft-Library-py"
 tags: 
 abstract: "This paper enhances the study of sentiment analysis for the Central Kurdish language by integrating the Bidirectional Encoder Representations from Transformers (BERT) into Natural Language Processing techniques. Kurdish is a low-resourced language, having a high level of linguistic diversity with minimal computational resources, making sentiment analysis somewhat challenging. Earlier, this was done using a traditional word embedding model, such as Word2Vec, but with the emergence of new..."
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Pre-trained BERT model for Central Kurdish language with sentiment analysis benc
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ELMo, GloVe, Llama, RoBERTa, Word2Vec. Verified dataset/resource link: https://github.com/AsoSoft/AsoSoft-Library-py.
+Introduces KuBERT, a new BERT model for Central Kurdish, alongside a sentiment analysis benchmark dataset and evaluation against baseline models (Word2Vec, GloVe, ELMo). The GitHub link points to the AsoSoft preprocessing library used, not the dataset itself; the KuBERT model and dataset are the primary contributions.
+
 
 ## Notes
 

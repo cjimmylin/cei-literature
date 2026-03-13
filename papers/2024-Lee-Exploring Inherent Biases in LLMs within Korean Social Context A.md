@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ local_pdf: "[[PDFs/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

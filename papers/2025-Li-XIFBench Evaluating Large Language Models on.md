@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,13 +52,13 @@ local_pdf: "[[PDFs/2025/2025-Li-XIFBench Evaluating Large Language Models on.pdf
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: Multilingual
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude-3.5-Sonnet, DeepSeek-R1, GPT-4, GPT-4o, Gemma-3, InstructGPT, Llama, Llama-3.1, Qwen, Qwen-2.5, WizardLM, WizardLM 0, bloomz, claude-3"
-DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
+LLM_assessed: "ChatGLM, Claude-3, GPT-4o, Gemini, Llama-3, Qwen-2"
+DATA_URL: "https://github.com/zhenyyli801/XIFBench"
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable instructionfollowing capabilities across various applications. However, their performance in multilingual settings lacks systematic investigation, with existing evaluations lacking fine-grained constraint analysis across diverse linguistic contexts. We introduce XIFBench, a comprehensive constraint-based benchmark for evaluating multilingual instruction-following abilities of LLMs, comprising 558 instructions with 0-5 additional..."
 CONFERENCE: "Other Conference"
@@ -100,7 +104,8 @@ Large Language Models (LLMs) have demonstrated remarkable instructionfollowing c
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude-3.5-Sonnet, DeepSeek-R1, GPT-4, GPT-4o, Gemma-3, InstructGPT, Llama, Llama-3.1, Qwen, Qwen-2.5, WizardLM, WizardLM 0, bloomz, claude-3. Verified dataset/resource link: https://github.com/tatsu-lab/alpaca_eval.
+XIFBench: 558 multilingual instructions (Easy + Hard sets) augmented with 0-5 constraints across 5 categories and 21 dimensions, translated into 6 languages (English, Chinese, Russian, Arabic, Hindi, Swahili), yielding 3,348 evaluation instances with structured binary-question evaluation requirements.
+
 
 ## Notes
 

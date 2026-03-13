@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "Journal of Cross-Cultural Psychology"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "American, Japanese, Shinto, Buddhist, Abrahamic"
+national_ethnic_cultural: "American, Japanese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "American, Japanese, Multicultural/Cross-cultural"
 languages_list: ""
-religious_values: Buddhism, Shinto
-religious_values_list: "Buddhism, Shinto"
+religious_values: "Buddhism, Shinto, Christianity"
+religious_values_list: "Buddhism, Shinto, Christianity"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Empirically examines how moral care for robots is influenced by religiosity and religion-related values (animism, anthropocentrism) in US and Japanese samples grounded in Abrahamic and Shinto-Buddhist traditions (N=3,781). Finds moral care for robots higher in Japan, with positive association with animism in Japan and negative association with anthropocentrism in the US."
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"

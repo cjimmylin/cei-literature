@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
@@ -100,7 +103,7 @@ In recent years, machine translation based on neural networks has become the mai
 
 ## Data Description
 
-The paper proposes a multistrategy segmentation granularity training method for Uyghur-Chinese neural machine translation using a Transformer model based on multihead self-attention. It evaluates on the CCMT2019 Uyghur-Chinese bilingual dataset and shows that multiple translation granularity training outperforms single-granularity approaches. The Transformer model achieves higher BLEU scores than Self-Attention-RNN baselines. No LLMs were tested.
+A parallel Uyghur-Chinese corpus addressing low-resource translation challenges, examining different segmentation granularities for neural machine translation.
 
 
 ## Notes

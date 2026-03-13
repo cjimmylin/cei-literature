@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,8 +51,8 @@ pdf_extract: "PDF Extracts/2025/2025-Team-Annotated Slovak Datasets for Toxicity
 local_pdf: "[[PDFs/2025/2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Slovak"
-languages_list: Slovak
+cultures_nationalities_list: "N/A"
+languages_list: "Slovak"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

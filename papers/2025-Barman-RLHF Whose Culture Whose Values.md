@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +46,8 @@ url: "https://link.springer.com/article/10.1007/s13347-025-00861-0"
 external_pdf: "https://arxiv.org/pdf/2407.17482.pdf"
 publication: "Philosophy & Technology"
 CONF-CC: "Philosophy & Technology"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -58,7 +61,7 @@ abstract: "We argue for the epistemic and ethical advantages of pluralism in Rei
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Barman-RLHF Whose Culture Whose Values.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3, GPT-4, InstructGPT"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

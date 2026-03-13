@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Socio-cognitive benchmarks for large language models (LLMs) often fail to predict real-world behavior, even when models achieve high benchmark scores. Prior work has attributed this evaluation–deployment gap to problems of measurement and validity. While these critiques are insightful, we argue that they overlook a more fundamental issue: many sociocognitive evaluations proceed without an explicit theoretical specification of the target capability, leaving the assumptions linking task..."
-LLM_assessed: "GPT-4"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -63,8 +66,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"

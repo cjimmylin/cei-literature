@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,14 +51,14 @@ pdf_extract: "PDF Extracts/2025/2025-Papadimitriou-BelarusianGLUE Towards a Natu
 local_pdf: "[[PDFs/2025/2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Belarusian"
-languages_list: Belarusian
+cultures_nationalities_list: "N/A"
+languages_list: "Belarusian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOM, BLOOMZ, Barth, Claude, Claude 3.5 Sonnet, DeBERTa, GPT-4o, Gemma, Gemma 2, Mistral, Qwen, Qwen 2, Qwen2, bloom-1b1, claude-3"
-DATA_URL: "https://github.com/huggingface/peft"
+LLM_assessed: "BERT, Gemma-2, Llama-3, Mistral, Phi-3, Qwen-2"
+DATA_URL: "https://hf.co/datasets/maaxap/BelarusianGLUE"
 tags: 
 abstract: "In the epoch of multilingual large language models (LLMs), it is still challenging to evaluate the models’ understanding of lowerresourced languages, which motivates further development of expert-crafted natural language understanding benchmarks. We introduce BelarusianGLUE — a natural language understanding benchmark for Belarusian, an East Slavic language, with ≈15K instances in five tasks: sentiment analysis, linguistic acceptability, word in context, Winograd schema challenge, textual..."
 CONFERENCE: "ACL 2025"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "15k instances"
 ---
@@ -100,7 +104,8 @@ First NLU benchmark for Belarusian with ~15K instances across 5 tasks: sentiment
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, BLOOMZ, Barth, Claude, Claude 3.5 Sonnet, DeBERTa, GPT-4o, Gemma, Gemma 2, Mistral, Qwen, Qwen 2, Qwen2, bloom-1b1, claude-3. Verified dataset/resource link: https://github.com/huggingface/peft.
+BelarusianGLUE is the first NLU benchmark for Belarusian, comprising five expert-crafted datasets (~15K instances total) covering sentiment analysis, linguistic acceptability, word-in-context, Winograd schema challenge, and textual entailment. All datasets and evaluation code are released publicly.
+
 
 ## Notes
 

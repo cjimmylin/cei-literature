@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +51,8 @@ local_pdf: "[[PDFs/2025/2025-Varsha-From Phonemes to Meaning Evaluating Large.pd
 publication: "WebSearch: Tamil LLM evaluation"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Tamil, Indian"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Tamil"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have shown strong generalization across tasks in high-resource languages; however, their linguistic competence in low-resource and morphologically rich languages such as Tamil remains largely unexplored. Existing multilingual benchmarks often rely on translated English datasets, failing to capture the linguistic and cultural nuances of the target language. To address this gap, we introduce ILAKKANAM, the first Tamil-specific linguistic evaluation benchmark manually..."
-LLM_assessed: "ChatGPT, Claude, Claude Sonnet, Claude., DeepSeek V3, DeepSeek-V3, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4-Turbo, GPT-4o, Grok 4, LLaMA 4, Qwen, Qwen 2.5, claude-sonnet"
+LLM_assessed: "GPT-4o, Claude, Gemini, Grok, LLaMA, DeepSeek, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"

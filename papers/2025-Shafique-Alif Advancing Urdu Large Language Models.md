@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,8 @@ local_pdf: "[[PDFs/2025/2025-Shafique-Alif Advancing Urdu Large Language Models.
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Urdu, Pakistani"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "English, Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,8 +58,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Developing a high-performing large language models (LLMs) for low-resource languages such as Urdu, present several challenges. These challenges include the scarcity of high-quality datasets, multilingual inconsistencies, and safety concerns. Existing multilingual LLMs often address these issues by translating large volumes of available data. However, such translations often lack quality and cultural nuance while also incurring significant costs for data curation and training."
-LLM_assessed: "Alpaca, ChatGPT, Cohere-Aya, Dolly, GPT-4o, Gemma, GPT-4, Llama, Llama-3.1, Mistral- 7B, Mistral-7B, Qwen-2.5, Qwen2.5, BERT, llama."
-DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
+LLM_assessed: "GPT-4o, LLaMA, Llama-3, Mistral, Qwen-2"
+DATA_URL: "https://github.com/traversaal-ai/alif-urdu-llm"
 research_topic: "Machine Translation"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -64,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ Alif-1.0-8B-Instruct incorporates Urdu-native chain-of-thought reasoning, cultur
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, ChatGPT, Cohere-Aya, Dolly, GPT-4o, Gemma, GPT-4, Llama, Llama-3.1, Mistral- 7B, Mistral-7B, Qwen-2.5, Qwen2.5, BERT, llama.. Verified dataset/resource link: https://github.com/tatsu-lab/alpaca_eval.
+The paper releases Alif-1.0-8B-Instruct, an Urdu-English LLM trained on Urdu-Instruct, a high-quality multilingual synthetic dataset of Urdu chain-of-thought reasoning, translation, cultural relevance, and safety tasks generated via a modified self-instruct technique.
+
 
 ## Notes
 

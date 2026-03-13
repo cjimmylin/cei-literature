@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2026/2026-Hassan-Qalb Largest State-of-the-Art Urdu Large Lan
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Urdu, Pakistani"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Despite remarkable progress in large language models, Urdu—a language spoken by over 230 million people—remains critically underrepresented in modern NLP systems. Existing multilingual models demonstrate poor performance on Urdu-specific tasks, struggling with the language's complex morphology, right-to-left Nastaliq script, and rich literary traditions. Even the base LLaMA-3.1 8B-Instruct model shows limited capability in generating fluent, contextually appropriate Urdu text."
-LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-2, Llama, Llama-3, LLaMA-3.1, Llama 3, Mistral, Mistral-Nemo, Qwen, Qwen2.5"
-DATA_URL: "https://github.com/unslothai/unsloth"
+LLM_assessed: "GPT-4o, Llama-3, Gemma-2, Mistral, Qwen"
+DATA_URL: NA
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Largest Urdu LLM achieving 90.34 weighted average score. Notes that model may pr
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, GPT-4o, Gemma, Gemma-2, Llama, Llama-3, LLaMA-3.1, Llama 3, Mistral, Mistral-Nemo, Qwen, Qwen2.5. Verified dataset/resource link: https://github.com/unslothai/unsloth.
+A large-scale Urdu pre-training corpus of 1.97 billion tokens (1.84B Urdu + 140M English Wikipedia) curated from news, literature, government, and social media sources, plus the resulting Qalb language model; authors state both will be released on HuggingFace but no URL is provided in the paper.
+
 
 ## Notes
 

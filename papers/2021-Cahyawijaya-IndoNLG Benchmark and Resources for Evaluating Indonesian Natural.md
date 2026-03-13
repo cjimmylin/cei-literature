@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,8 +56,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BART, BART-based, BERT, T5"
-DATA_URL: "https://github.com/IndoNLP/indonlg"
+LLM_assessed: "BART, GPT-2, T5"
+DATA_URL: "https://github.com/indobenchmark/indonlg"
 tags: 
 abstract: "Natural language generation (NLG) benchmarks provide an important avenue to measure progress and develop better NLG systems. Unfortunately, the lack of publicly available NLG benchmarks for low-resource languages poses a challenging barrier for building NLG systems that work well for languages with limited amounts of data. Here we introduce IndoNLG, the ﬁrst benchmark to measure natural language generation (NLG) progress in three low-resource—yet widely spoken— languages of Indonesia:..."
 CONFERENCE: "EMNLP 2021"
@@ -100,7 +103,8 @@ First NLG benchmark for Indonesian, Javanese, and Sundanese covering summarizati
 
 ## Data Description
 
-Backfill summary: Models assessed include BART, BART-based, BERT, T5. Verified dataset/resource link: https://github.com/IndoNLP/indonlg.
+IndoNLG benchmark covering six NLG tasks (summarization, QA, chit-chat, MT) for Indonesian, Javanese, and Sundanese, plus Indo4B-Plus pretraining corpus and IndoBART/IndoGPT models.
+
 
 ## Notes
 

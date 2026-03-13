@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +62,7 @@ abstract: "The potential of Large Language Model (LLM) as agents has been widely
 paper_summary: "Abstract: The potential of Large Language Model (LLM) as agents has been widely acknowl- edged recently. Thus, there is an urgent need to quantitatively evaluate LLMs as agents on challenging tasks in interacti | Overview: Published as a conference paper at ICLR 2024 AGENTBENCH: EVALUATING LLMS AS AGENTS Xiao Liu1,*, Hao Yu1,*,†, Hanchen Zhang1,*, Yifan Xu1, Xuanyu Lei1, Hanyu Lai1, Yu Gu2,†, Hangliang Ding1, Kaiwen Men | Key Findings: scope rounds out to be codellama-34b, achieving an overall score of 0.96 but still presents a clear performance gap to gpt-3.5-turbo. Our community st | Conclusions: We present AGENTBENCH, a systematically designed multi-dimensional evolving benchmark for evaluating LLMs as agents, covering as many as 29 LLMs in th"
 local_pdf: "[[PDFs/2023/2023-Liu-AgentBench.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, Llama-2, CodeLlama, Vicuna"
+LLM_assessed: "ChatGPT, Claude, Claude-3, GPT-4, Llama-2, Vicuna"
 DATA_URL: "https://github.com/THUDM/AgentBench"
 CONFERENCE: "ICLR 2023"
 ethics_overall: "Yes"
@@ -102,7 +107,7 @@ Large Language Models (LLMs) are becoming increasingly smart and autonomous, tar
 
 ## Data Description
 
-AgentBench is a multi-dimensional benchmark evaluating LLM-as-Agent capabilities across 8 distinct interactive environments: Operating System, Database, Knowledge Graph, Digital Card Game, Lateral Thinking Puzzles, House-Holding, Web Shopping, and Web Browsing. The benchmark tests 29 LLMs (both API-based commercial and open-source models up to 70B parameters) on reasoning, decision-making, and instruction-following abilities in real-world scenarios.
+AGENTBENCH, a multi-dimensional benchmark with 8 distinct interactive environments (OS, Database, Knowledge Graph, Digital Card Game, Lateral Thinking Puzzles, House-holding, Web Shopping, Web Browsing) for evaluating LLM-as-Agent capabilities, with integrated evaluation toolkit.
 
 
 ## Notes

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "FAccT 2025"
 local_pdf: "[[PDFs/2025/2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, GPT-4o-mini, Llama-3.3-70B, Mixtral-8x7B, Gemini-1.5-Flash"
+LLM_assessed: "GPT-4o, GPT-4o mini, Llama-3, Mixtral"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable advancements but also raise concerns about cultural bias, often reflecting dominant narratives at the expense of underrepresented subcultures. In this study, we evaluate the capacity of LLMs to recognize and accurately respond to the Little Traditions within Indian society, encompassing localized cultural practices and social institutions such as caste, kinship, marriage, and religion."

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ local_pdf: "[[PDFs/2025/2025-Cengiz-Evaluating the Quality of Benchmark Datasets
 pdf_extract: "PDF Extracts/2025/2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, Llama-3.3-70B"
+LLM_assessed: "GPT-4o, Llama-3"
 DATA_URL: "https://github.com/metunlp/llmevaluation"
 tags: 
 abstract: "The reliance on translated or adapted datasets from English or multilingual resources introduces challenges regarding linguistic and cultural suitability. This study addresses the need for robust and culturally appropriate benchmarks by evaluating the quality of 17 commonly used Turkish benchmark datasets. Using a comprehensive framework that assesses six criteria, both human and LLM-judge annotators provide detailed evaluations to identify dataset strengths and shortcomings."
@@ -60,7 +64,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
@@ -94,7 +98,7 @@ Evaluates quality of 17 commonly used Turkish benchmark datasets using framework
 
 ## Data Description
 
-This study evaluates the quality of 17 commonly used Turkish benchmark datasets using a framework assessing six criteria: answer correctness, grammatical correctness, cohesion/coherence, comprehensibility/fluency, technical term usage, and cultural common sense alignment. Both human annotators and LLM judges (GPT-4o and Llama-3.3-70B) are used for evaluation. Results show 70% of benchmark datasets fail quality standards.
+Annotation data, scripts, and prompts for evaluating 17 Turkish benchmark datasets across 6 quality criteria, comparing LLM-as-a-judge (GPT-4o and Llama-3.3-70B) against human annotators.
 
 
 ## Notes

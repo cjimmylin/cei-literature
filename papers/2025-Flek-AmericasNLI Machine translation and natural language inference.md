@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,18 +46,18 @@ url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9755662/"
 external_pdf: "https://www.frontiersin.org/articles/10.3389/frai.2022.995667/pdf"
 publication: PubMed
 CONF-CC: "N/A"
-pdf_extract: "PDF Extracts/0000/2025-Flek-AmericasNLI Machine translation and natural language inference.md"
+pdf_extract: "PDF Extracts/2025/2025-Flek-AmericasNLI Machine translation and natural language inference.md"
 local_pdf: "[[PDFs/2025/2025-Flek-AmericasNLI Machine translation and natural language inference.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "Indigenous American"
-languages_list: "Guarani, Quechua"
+national_ethnic_cultural: "Latin American"
+cultures_nationalities_list: "Latin American"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, T5, T5-style"
-DATA_URL: "NA"
+LLM_assessed: "BERT"
+DATA_URL: "https://nala-cub.github.io/resources/"
 tags: 
 abstract: "Based on the search results, here's what I found about the AmericasNLI benchmark for indigenous languages NLI evaluation: Overview AmericasNLI is a natural language inference (NLI) dataset in 10 Indigenous languages of the Americas: Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, and Wixarika. Dataset Purpose and Design The dataset is multiway parallel, which enables evaluation of both machine translation (MT) systems and NLI systems for these 10 t"
 CONFERENCE: "Other Conference"
@@ -98,7 +102,8 @@ Based on the search results, here's what I found about the AmericasNLI benchmark
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, T5, T5-style. No high-confidence repository-style data URL was identified.
+AmericasNLI: a multiway parallel natural language inference dataset in 10 Indigenous languages of the Americas (Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, Wixarika), enabling evaluation of both NLI and machine translation systems for truly low-resource languages.
+
 
 ## Notes
 

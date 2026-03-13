@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +57,7 @@ tags:
 abstract: "Speech datasets are crucial for training Speech Language Technologies (SLT); however, the lack of diversity of the underlying training data can lead to serious limitations in building equitable and robust SLT products, especially along dimensions of language, accent, dialect, variety, and speech impairment—and the intersectionality of speech features with socioeconomic and demographic features. Furthermore, there is often a lack of oversight on the underlying training data—commonly built on..."
 CONF-CC: "FAccT 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "ALBERT"
+LLM_assessed: NA
 DATA_URL: "https://github.com/SonyResearch/project_ethics_augmented_datasheets_for_speech_datasets"
 pdf_extract: "PDF Extracts/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.md"
 local_pdf: "[[PDFs/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.pdf]]"
@@ -66,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---
@@ -138,7 +141,7 @@ The authors conclude that speech datasets require specialized documentation beyo
 
 ## Data Description
 
-This paper introduces augmented datasheets for speech datasets, providing standardized documentation templates for speech data in .tex and .docx formats. The work is based on an in-depth literature review of 178 speech studies related to fairness and diversity, along with 220 speech datasets. The templates and worked examples are released on GitHub for use by dataset creators and researchers working with speech language technologies.
+Augmented datasheet templates for documenting speech datasets, providing standardized questions for ethical consideration of speech data properties, scope, and limitations.
 
 
 ## Notes

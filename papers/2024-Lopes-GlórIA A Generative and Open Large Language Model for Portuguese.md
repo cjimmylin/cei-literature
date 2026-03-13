@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +46,14 @@ local_pdf: "[[PDFs/2024/2024-Lopes-GlórIA A Generative and Open Large Language 
 publication: "arXiv / PROPOR 2024"
 CONF-CC: "PROPOR 2024"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Portuguese"
-languages_list: Portuguese
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, GPT-3, GPT-3.5"
+LLM_assessed: "GPT-3.5"
 DATA_URL: "https://github.com/rvlopes/GlorIA"
 tags: 
 abstract: "Significant strides have been made in natural language tasks, largely attributed to the emergence of powerful large language models (LLMs). These models, pre-trained on extensive and diverse corpora, have become increasingly capable of comprehending the intricacies of language. Despite the abundance of LLMs for many high-resource languages, the availability of such models remains limited for European Portuguese. We introduce GlórIA, a robust European Portuguese decoder LLM."
@@ -61,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
@@ -97,7 +100,8 @@ European Portuguese decoder LLM pre-trained on 35B tokens. Introduces CALAME-PT,
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, GPT-3, GPT-3.5. Verified dataset/resource link: https://github.com/rvlopes/GlorIA.
+CALAME-PT: the first zero-shot Portuguese language modeling benchmark inspired by LAMBADA, used to evaluate GlórIA and other Portuguese/multilingual decoder models (Gervásio-PTPT, mGPT) on next-word prediction.
+
 
 ## Notes
 

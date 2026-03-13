@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +50,14 @@ pdf_extract: "PDF Extracts/2024/2024-Sewunetie-Gender Bias Evaluation in Machine
 local_pdf: "[[PDFs/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Afaan Oromoo, Amharic, Tigrinya"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT"
-DATA_URL: "https://github.com/manandey/bias_"
+LLM_assessed: NA
+DATA_URL: "https://huggingface.co/datasets/EthioNLP/Gender-Bias-Evaluation-Dataset"
 tags: 
 abstract: "While Machine Translation (MT) research has progressed over the years, translation systems still suffer from biases, including gender bias. While an active line of research studies the existence and mitigation strategies of gender bias in machine translation systems, there is limited research exploring this phenomenon for lowresource languages. The limited availability of linguistic and computational resources confounded with the lack of benchmark datasets makes studying bias for low-resourced..."
 CONFERENCE: "Other Conference"
@@ -95,7 +100,8 @@ Benchmark datasets evaluating gender bias in MT for three low-resource languages
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT. Verified dataset/resource link: https://github.com/manandey/bias_.
+Gold Gender Bias Test Dataset (GGBTD) of 7,200 gender-balanced sentence pairs for Amharic, Tigrinya, and Afaan Oromoo machine translation evaluation; evaluates NLLB and Google Translate on gender bias.
+
 
 ## Notes
 

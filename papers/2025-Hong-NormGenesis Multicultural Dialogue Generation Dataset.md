@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +48,7 @@ publication: EMNLP
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese, Korean, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Chinese, Korean"
+cultures_nationalities_list: "Chinese, Korean, Multicultural/Cross-cultural"
 languages_list: "Chinese, English, Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -53,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Social norms govern culturally appropriate behavior in communication, enabling dialogue systems to produce responses that are not only coherent but also socially acceptable. We present NormGenesis, a multicultural framework for generating and annotating socially grounded dialogues across English, Chinese, and Korean. To model the dynamics of social interaction beyond static norm classification, we propose a novel dialogue type, Violationto-Resolution (V2R), which models the progression of..."
-LLM_assessed: "GPT-4, Llama-3, Qwen"
+LLM_assessed: "GPT-4, GPT-4o, Llama-3, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
@@ -97,7 +100,8 @@ Social norms govern culturally appropriate behavior in communication, enabling d
 
 ## Data Description
 
-NormGenesis is a multicultural framework that generates and annotates socially grounded dialogues across English, Chinese, and Korean, constructing a dataset of 10,800 multi-turn dialogues annotated at the turn level for norm adherence, speaker intent, and emotional response. GPT-4.1 was used for scenario-situation refinement and dialogue generation, GPT-4o for automatic evaluation, and GPT-4o-mini, LLaMA-3-8B, Qwen-2.5-14B, and Qwen-2.5-32B were fine-tuned for downstream generalization experiments.
+NormGenesis is a dataset of 10,800 multicultural multi-turn dialogues (English, Chinese, Korean) with turn-level annotations for norm adherence, speaker intent, and emotional response, generated via exemplar-based iterative refinement.
+
 
 ## Notes
 

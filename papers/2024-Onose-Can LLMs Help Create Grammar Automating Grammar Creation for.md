@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ local_pdf: "[[PDFs/2024/2024-Onose-Can LLMs Help Create Grammar Automating Gramm
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, BERT, gpt-4o-mini"
+LLM_assessed: "GPT-4o mini"
 DATA_URL: "NA"
 tags: 
 abstract: "Yes! In the present-day documenting and preserving endangered languages, the application of Large Language Models (LLMs) presents a promising approach. This paper explores how LLMs, particularly through in-context learning, can assist in generating grammatical information for low-resource languages with limited amount of data. We takes Moklen as a case study to evaluate the efficacy of LLMs in producing coherent grammatical rules and lexical entries using only bilingual dictionaries and..."

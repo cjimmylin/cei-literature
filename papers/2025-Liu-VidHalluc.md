@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ paper_summary: "Abstract: Multimodal large language models (MLLMs) have recently
 local_pdf: "[[PDFs/2025/2025-Liu-VidHalluc.pdf]]"
 CONF-CC: "CVPR 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Gemini"
+LLM_assessed: "Gemini, GPT-4o, LLaVA"
 DATA_URL: "https://people-robots.github.io/vidhalluc"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for hallucination detection"
 data_metrics: "Not specified"
 ---
@@ -93,7 +97,7 @@ Multimodal large language models (MLLMs) have recently shown significant advance
 
 ## Data Description
 
-VIDHALLUC is the largest benchmark for evaluating temporal hallucinations in multimodal LLMs for video understanding, consisting of 5,002 videos and 9,295 QA pairs across three dimensions: action, temporal sequence, and scene transition hallucination. Ten models are evaluated including Video-ChatGPT (7B), Video-LLaVA (7B), ShareGPT4Video (8B), Chat-UniVi (13B), LLaVA-NeXT-Video (34B), PLLaVA (13B), VideoLLaMA2 (7B), VILA1.5 (13B), Gemini-1.5-Pro, and GPT-4o.
+VidHalluc is the largest video hallucination benchmark comprising 5,002 video pairs and 9,295 QA pairs, evaluating action, temporal sequence, and scene transition hallucinations in multimodal LLMs.
 
 
 ## Notes

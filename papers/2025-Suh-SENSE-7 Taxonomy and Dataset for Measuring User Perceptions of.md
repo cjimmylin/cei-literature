@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Empathy is increasingly recognized as a key factor in human–AI communication, yet conventional approaches to “digital empathy” often focus on simulating internal, humanlike emotional states while overlooking the inherently subjective, contextual, and relational facets of empathy as perceived by users. In this work, we propose a human-centered taxonomy that emphasizes observable empathic behaviors and introduce a new dataset, SENSE-7, of real-world conversations between information workers and..."
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -97,7 +101,8 @@ Empathy is increasingly recognized as a key factor in human–AI communication, 
 
 ## Data Description
 
-The paper introduces SENSE-7, a dataset of 695 real-world multi-turn conversations between 109 information workers and LLM-based AI agents (GPT-4, GPT-4 with empathy prompt, GPT-3.5-turbo, and Llama2-Chat-70B). The dataset includes per-turn empathy annotations from the actual users across 7 empathy dimensions, along with user characteristics, psychometrics, contextual details, and pre/post mood assessments. A subset of 672 anonymized conversations is provided for research.
+SENSE-7: a dataset of 695 real-world conversations (672 anonymized) between 109 information workers and LLMs, annotated per-turn with 7-dimensional subjective empathy ratings along with participant characteristics and contextual details.
+
 
 ## Notes
 

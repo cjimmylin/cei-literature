@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ paper_summary: "Abstract: In this research, we introduce BEATS, a novel framewor
 local_pdf: "[[PDFs/2025/2025-Anonymous-BEATS.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Mistral, Llama-3"
+LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Llama-3, Mistral"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,7 @@ In this research, we introduce BEATS, a novel framework for evaluating Bias, Eth
 
 ## Data Description
 
-BEATS (Bias Evaluation and Assessment Test Suite) is a framework for evaluating bias, ethics, fairness, and factuality in LLMs using 901 curated evaluation questions spanning 12 primary bias categories. Five leading LLMs are evaluated using a consortium of three LLM-as-a-Judge models across 29 distinct metrics, finding that 37.65% of outputs contained some form of bias.
+BEATS benchmark dataset of 901 bias-probing evaluation questions across 12 bias categories (age, gender, race, religion, etc.) used to evaluate BEFF metrics in LLMs.
 
 
 ## Notes

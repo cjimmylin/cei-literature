@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -66,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -104,7 +107,7 @@ We present a large-scale study of gender bias in occupation classification, a ta
 
 ## Data Description
 
-The paper creates a large-scale dataset of 397,340 online biographies from Common Crawl spanning 28 occupations, used to study gender bias in occupation classification. Three semantic representations (bag-of-words, word embeddings, deep recurrent neural networks) are trained and evaluated on this dataset. The study measures true positive rate gender gaps across occupations and demonstrates how occupation classifiers compound existing gender imbalances.
+A large-scale dataset of online biographies with gender labels and occupation classifications for studying semantic representation bias, with analysis of proxy behavior when explicit gender indicators are removed.
 
 
 ## Notes

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,12 +49,12 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ELECTRA, RoBERTa"
+LLM_assessed: "BERT, DistilmBERT, PhoBERT, XLM-R, vELECTRA, viBERT, viBERT4news"
 DATA_URL: "https://github.com/binhvq/news-corpus"
 tags: 
 abstract: "Text classification is a typical natural language processing or computational linguistics task with various interesting applications. As the number of users on social media platforms increases, data acceleration promotes emerging studies on Social Media Text Classification (SMTC) or social media text mining on these valuable resources. In contrast to English, Vietnamese, one of the low-resource languages, is still not concentrated on and exploited thoroughly."
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Social Media Text Classification Evaluation benchmark for Vietnamese inspired by
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ELECTRA, RoBERTa. Verified dataset/resource link: https://github.com/binhvq/news-corpus.
+Vietnamese social media text classification benchmark with 4 tasks: constructive speech, complaint, emotion, hate speech detection
+
 
 ## Notes
 

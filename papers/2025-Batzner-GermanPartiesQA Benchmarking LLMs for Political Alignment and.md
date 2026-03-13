@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) are increasingly shaping citizens’ information ecosystems. Products incorporating LLMs, such as chatbots and AI Companions, are now widely used for decision support and information retrieval, including in sensitive domains, raising concerns about hidden biases and growing potential to shape individual decisions and public opinion. This paper introduces GermanPartiesQA, a benchmark of 418 political statements from German Voting Advice Applications across 11 elections..."
-LLM_assessed: "ChatGPT, GPT-4, Claude"
+LLM_assessed: "ChatGPT, Claude, Claude-2, Command-R, GPT-3.5, GPT-4o"
 DATA_URL: "https://github.com/janbatzner/GermanPartiesQA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,8 @@ Large language models (LLMs) are increasingly shaping citizens’ information ec
 
 ## Data Description
 
-GermanPartiesQA is a benchmark of 418 political statements from German Voting Advice Applications across 11 elections. It evaluates six commercial LLMs (ChatGPT-3.5, ChatGPT-4o, Claude 2.1, Claude 3 Sonnet, Cohere Command, Command R+) for political alignment, factual accuracy of party positions, and persona-based steerability through role-playing experiments with political personas.
+GermanPartiesQA: 418 political statements from German Voting Advice Applications (Wahl-o-Mat) across 11 elections with official positions from 7 German political parties, including political reasoning; released with documentation following community standards.
+
 
 ## Notes
 

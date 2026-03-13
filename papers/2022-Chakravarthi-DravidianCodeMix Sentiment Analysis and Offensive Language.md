@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ local_pdf: "[[PDFs/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis an
 publication: "WebSearch: DravidianCodeMix dataset"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Kannada, Malayalam, Tamil"
 religious_values: "N/A"
@@ -64,8 +67,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -102,7 +105,7 @@ Manually annotated dataset of 60,000+ YouTube comments for sentiment analysis an
 
 ## Data Description
 
-The paper presents a multilingual, manually annotated dataset of over 60,000 YouTube comments for sentiment analysis and offensive language identification in three code-mixed Dravidian languages: Tamil-English (~44,000), Malayalam-English (~20,000), and Kannada-English (~7,000). Baseline experiments using logistic regression, naive Bayes, decision tree, random forest, and SVM are provided. No LLMs were tested.
+Manually annotated multilingual dataset of 60,000+ YouTube comments in code-mixed Tamil-English, Kannada-English, and Malayalam-English for sentiment analysis and offensive language identification, with ML baseline experiments (logistic regression, naive Bayes, SVM, etc.) establishing benchmarks.
 
 
 ## Notes

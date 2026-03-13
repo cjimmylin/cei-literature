@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ local_pdf: "[[PDFs/2025/2025-Research-IndQA An Indic QA Benchmark for.pdf]]"
 publication: "IBM Research"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
 religious_values: "N/A"
@@ -56,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "QA benchmark across 12 languages and 10 domains including law, health, history, and current affairs. Multi-domain Indic QA benchmark covering culturally relevant domains."
-LLM_assessed: "Llama, llama 2, Llama-2, llama2.70, llama2.70. chat, mixtral 8x7b"
+LLM_assessed: "LLaMA, Llama-2, Mixtral"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"

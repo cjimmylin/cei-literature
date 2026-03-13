@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ pdf_extract: "PDF Extracts/2018/2018-Ljubesic-Datasets of Slovene and Croatian M
 local_pdf: "[[PDFs/2018/2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Slovene, Croatian"
+cultures_nationalities_list: "N/A"
 languages_list: "Croatian, Slovenian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -98,7 +101,7 @@ Two large datasets of moderated news comments from Slovene RTV MCC and Croatian 
 
 ## Data Description
 
-This paper presents two large datasets of moderated news comments from Slovene (RTV MCC) and Croatian (24sata) online news portals. The datasets include comments deleted by human moderators, annotated by deletion type. Initial experiments on automatically detecting deleted content are presented using baseline classifiers. Both datasets are published in encrypted form to protect privacy. No LLMs are evaluated.
+Two large datasets of moderated news comments in Slovene (7.6M comments from RTV MCC) and Croatian (17M comments from 24sata), with moderation metadata and baseline fastText classifiers for inappropriate content detection.
 
 
 ## Notes

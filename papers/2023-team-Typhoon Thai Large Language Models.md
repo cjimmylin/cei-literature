@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"
-languages_list: Thai
+languages_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, Llama2, Mistral, Mistral-7B"
-DATA_URL: "https://github.com/aisingapore/sealion"
+LLM_assessed: "ChatGPT, GPT-3.5, GPT-4, Llama-2, Mistral"
+DATA_URL: "https://huggingface.co/scb10x/typhoon-7b"
 tags: 
 abstract: "Typhoon is a series of Thai large language models (LLMs) developed specifically for the Thai language. This technical report presents challenges and insights in developing Thai LLMs, including data preparation, pretraining, instructiontuning, and evaluation. As one of the challenges of low-resource languages is the amount of pretraining data, we apply continual training to transfer existing world knowledge from a strong LLM."
 CONFERENCE: "Preprint"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
@@ -97,7 +101,8 @@ First Typhoon model family. Introduces ThaiExam benchmark based on Thai high-sch
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, Llama2, Mistral, Mistral-7B. Verified dataset/resource link: https://github.com/aisingapore/sealion.
+ThaiExam: a benchmark based on Thai high-school (ONET, TGAT, TPAT-1, A-Level) and investment professional (IC) examinations with 646 questions total.
+
 
 ## Notes
 

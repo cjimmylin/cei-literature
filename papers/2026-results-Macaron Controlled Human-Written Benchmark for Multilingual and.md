@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2026/2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Arabic, African/Ubuntu, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Amharic, Yoruba, Zulu, and 17 other cultures/languages"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Gemini 3 Flash Preview (thinking), Gemini 2.5 Pro (thinking), DeepSeek Chat v3.1 (thinking), Gemini 2.5 Flash (thinking), Gemini 3 Flash Preview, Claude Opus 4.5, GPT-5 Chat, Gemini 2.5 Flash, DeepSeek Chat v3.1, Claude Haiku 4.5, GPT-4o-mini, Qwen3-235B-A22B, Llama 3.3 70B Instruct, Llama 4 Maverick, Llama 3.1 8B Instruct, Qwen3-4B Instruct, InternLM3-8B Instruct, Qwen2.5-7B Instruct, Aya Expanse 8B, Llama 3.2 3B Instruct, Aya 23 8B"
+LLM_assessed: "Claude, Command-R, DeepSeek, GPT-4o, Gemini, InternLM, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/AlaaAhmed2444/Macaron"
 tags: 
 abstract: "Multilingual benchmarks rarely test reasoning over culturally grounded premises: translated datasets keep English-centric scenarios, while culture-first datasets often lack control over the reasoning required. We propose Macaron, a template-first benchmark that factorizes reasoning type and cultural aspect across question languages. Using 100 language-agnostic templates that cover 7 reasoning types, 22 cultural aspects, native annotators create scenarioaligned English and local-language..."
@@ -61,8 +65,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "11,862 instances; 20 languages"
 ---
@@ -96,7 +100,7 @@ Template-first benchmark with 11,862 instances spanning 20 countries, 10 scripts
 
 ## Data Description
 
-Macaron is a controlled human-written benchmark for multilingual and multicultural reasoning across 20 countries, 20 languages, and 10 scripts. It uses 100 language-agnostic templates tagged with reasoning types and cultural aspects, instantiated by native-speaker annotators with culturally grounded content. The benchmark contains 11,862 evaluation instances in bilingual MCQ and True/False formats, testing 21 LLMs in zero-shot settings to measure language robustness and cultural reasoning.
+Macaron is a template-first bilingual benchmark with 11,862 instances spanning 20 countries, 10 scripts, and 20 languages, covering 7 reasoning types and 22 cultural aspects, with scenario-aligned English and local-language MCQ and derived True/False questions.
 
 
 ## Notes

@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,9 +50,9 @@ local_pdf: N/A
 publication: "Hugging Face dataset (paper under review, likely NeurIPS 2025)"
 CONF-CC: "NeurIPS 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Sri Lankan, Sinhala"
-languages_list: "English, Sinhala"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "English, Pali, Sinhala"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
@@ -66,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Hallucination & Truthfulness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -101,7 +104,7 @@ BuddhismEval is the first bilingual evaluation benchmark specifically designed t
 
 ## Data Description
 
-BuddhismEval is the first bilingual evaluation benchmark for assessing LLMs on Buddhist ethical reasoning and philosophical understanding. It contains 1,242 English MCQs, 1,023 Sinhala MCQs, and 423 parallel Dhammapada verses (approximately 2,688 items total), drawn from the Dhammapada, Abhidharma texts, Sri Lankan government Buddhism exam papers, and Buddhist literature. No PDF extract confirmed which specific LLMs were tested.
+BuddhismEval is the first bilingual benchmark for assessing LLMs on Buddhist ethical reasoning and philosophical understanding, with questions drawn from the Dhammapada, Abhidharma texts, Sri Lankan government Buddhism exam papers, and Buddhist literature.
 
 
 ## Notes

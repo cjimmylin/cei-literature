@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +49,13 @@ pdf_extract: "PDF Extracts/2020/2020-Kurpicz-Briki-Cultural Differences in Bias 
 local_pdf: "[[PDFs/2020/2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French, German"
-cultures_nationalities_list: "German, French"
+cultures_nationalities_list: "French, German"
 languages_list: "French, German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GloVe, word2vec"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "Smart applications often rely on training data in form of text. If there is a bias in that training data, the decision of the applications might not be fair. Common training data has been shown to be biased towards different groups of minorities. However, there is no generic algorithm to determine the fairness of training data. One existing approach is to measure gender bias using word embeddings. Most research in this ﬁeld has been dedicated to the English language."
@@ -61,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

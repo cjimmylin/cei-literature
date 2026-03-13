@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,7 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "N/A"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have shown strong performance across many tasks, but their ability to capture culturally diverse moral values remains unclear. In this paper, we examine whether LLMs mirror variations in moral attitudes reported by the World Values Survey (WVS) and the Pew Research Center’s Global Attitudes Survey (PEW). We compare smaller monolingual and multilingual models (GPT-2, OPT, BLOOMZ, and Qwen) with recent instruction-tuned models (GPT-4o, GPT-4o-mini, Gemma-2-9b-it, and..."
-LLM_assessed: "GPT-4, GPT-3.5, GPT-2, OPT, BLOOM, Qwen, Gemma, Llama-2, Llama-3, Falcon"
+LLM_assessed: "BLOOM, Falcon, GPT-2, GPT-3.5, GPT-4o, GPT-4o mini, Gemma-2, Llama-2, Llama-3, Qwen"
 DATA_URL: "https://github.com/mohammadi-hadi/cultural-moral-judgments-llms"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -63,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---

@@ -21,6 +21,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -60,8 +63,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -96,7 +99,7 @@ We present NormBank, a knowledge bank of 155k situational norms. This resource i
 
 ## Data Description
 
-NormBank is a knowledge bank of 155k situational social norms grounded within a multivalent sociocultural frame called SCENE, containing 63k unique constraints including settings, roles, attributes, and behaviors. The dataset was built through scalable human annotation on Amazon Mechanical Turk, bootstrapped with GPT-3 (text-davinci-002) for generating roles and behaviors. Neural models were trained and evaluated on knowledge completion and transfer learning tasks using the NormBank data.
+NormBank: a knowledge bank of 155k situational social norms grounded in sociocultural frames with settings, roles, attributes, and constraints, plus a SCENE taxonomy of 63k constraints.
 
 
 ## Notes

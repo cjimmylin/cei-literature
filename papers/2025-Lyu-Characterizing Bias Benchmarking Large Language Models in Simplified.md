@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2025/2025-Lyu-Characterizing Bias Benchmarking Large Language
 pdf_extract: "PDF Extracts/2025/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese, Taiwanese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, Taiwan-LLM, Qwen-1.5"
+LLM_assessed: "Baichuan, ChatGLM, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://github.com/brucelyu17/SC-TC-Bench"
 tags: 
 abstract: "While the capabilities of Large Language Models (LLMs) have been studied in both Simplified and Traditional Chinese, it is yet unclear whether LLMs exhibit differential performance when prompted in these two variants of written Chinese. This understanding is critical, as disparities in the quality of LLM responses can perpetuate representational harms by ignoring the different cultural contexts underlying Simplified versus Traditional Chinese, and can exacerbate downstream harms in..."
@@ -62,8 +66,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ Audits 11 leading LLMs for differential performance across Simplified and Tradit
 
 ## Data Description
 
-Introduces SC-TC-Bench, a benchmark for characterizing bias between Simplified and Traditional Chinese in LLMs. Tests 11 LLMs including GPT-4o, Taiwan-LLM, and Qwen-1.5 variants. Benchmark and code available on GitHub.
+SC-TC-Bench (Simplified Chinese-Traditional Chinese Benchmark) contains question-answer pairs for regional term choice and regional name choice tasks, covering culturally specific vocabulary differences and regionally-popular name lists with population counts and gender labels across Simplified and Traditional Chinese.
 
 
 ## Notes

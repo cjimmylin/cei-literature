@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ last_author: "[[Truong-Son Hy]]"
 authors: Quy-Anh Dang; Chris Ngo; Truong-Son Hy
 url: "https://arxiv.org/abs/2601.03699"
 external_pdf: "https://arxiv.org/pdf/2601.03699.pdf"
-pdf_extract: "PDF Extracts/0000/2026-Dang-RedBench.md"
+pdf_extract: "PDF Extracts/2026/2026-Dang-RedBench.md"
 local_pdf: "[[PDFs/2026/2026-Dang-RedBench.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) become integral to safety-critical applications, ensuring their robustness against adversarial prompts is paramount. However, existing red teaming datasets suffer from inconsistent risk categorizations, limited domain coverage, and outdated evaluations, hindering systematic vulnerability assessments. To address these challenges, we introduce RedBench, a universal dataset aggregating 37 benchmark datasets from leading conferences and repositories, comprising..."
-LLM_assessed: "Llama-3, Gemma, Qwen, Mistral, GPT-4"
+LLM_assessed: "Gemma-2, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://github.com/knoveleng/redeval"
 research_topic: "Other"
 CONFERENCE: "Preprint"
@@ -99,7 +103,8 @@ As large language models (LLMs) become integral to safety-critical applications,
 
 ## Data Description
 
-RedBench is a universal red teaming dataset aggregating 37 benchmark datasets from leading conferences and repositories, comprising 29,362 samples across attack and refusal prompts. It employs a standardized taxonomy with 22 risk categories and 19 domains, enabling consistent evaluation of LLM vulnerabilities. Six safety-aligned LLMs (Llama-3.1-8B-Instruct, Gemma-2-9B-It, Qwen2.5-7B-Instruct, Ministral-8B-Instruct-2410, GPT-4o Mini, GPT-4.1-Nano) are evaluated using attack success rate and rejection rate metrics.
+RedBench aggregates 37 existing red-teaming benchmark datasets into a unified corpus of 29,362 samples (attack and refusal prompts) with a standardized taxonomy of 22 risk categories and 19 domains, released open-source alongside evaluation code.
+
 
 ## Notes
 

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2025/2025-Fatehkia-FanarGuard A Culturally-Aware Moderation F
 pdf_extract: "PDF Extracts/2025/2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Pan-Arab"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Gemma-2B, Gemma-4B"
+LLM_assessed: "Gemma, Gemma-2, GPT-4o, Qwen-2, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Content moderation filters are a critical safeguard against alignment failures in language models. Yet most existing filters focus narrowly on general safety and overlook cultural context. In this work, we introduce FanarGuard, a bilingual moderation filter that evaluates both safety and cultural alignment in Arabic and English. We construct a dataset of over 468K prompt and response pairs, drawn from synthetic and public datasets, scored by a panel of LLM judges on harmlessness and cultural..."
@@ -100,7 +104,7 @@ Bilingual moderation filter evaluating both safety and cultural alignment in Ara
 
 ## Data Description
 
-The paper introduces FanarGuard, a bilingual (Arabic/English) content moderation filter that evaluates both safety and cultural alignment. It constructs a training dataset of over 468K prompt-response pairs scored by LLM judges on harmlessness and cultural awareness, and develops a new benchmark of over 1,000 culturally sensitive prompts targeting Arabic cultural contexts with human annotations. FanarGuard is trained as a regression model on RoBERTa-large, Gemma-2B, and Gemma-4B base models, achieving MAE of 0.79 on cultural alignment and F1 of 0.84 on safety benchmarks.
+Introduces a 468K prompt-response pair training dataset (safety + cultural alignment, bilingual Arabic/English) and a new benchmark of 1,008+ norm-sensitive prompts with human annotations targeting Arabic cultural contexts. All filter variants and the benchmark will be released under Apache 2.0 (no URL yet at time of publication).
 
 
 ## Notes

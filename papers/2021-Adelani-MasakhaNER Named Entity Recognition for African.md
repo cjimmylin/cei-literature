@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ publication: "WebSearch: MasakhaNER African languages named entity recognition"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
@@ -100,7 +103,8 @@ First large publicly available high-quality NER dataset for 10 African languages
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://github.com/masakhane-io/masakhane-ner.
+MasakhaNER: first large, publicly available NER dataset for 10 African languages (Amharic, Hausa, Igbo, Kinyarwanda, Luganda, Luo, Nigerian Pidgin, Swahili, Wolof, Yoruba) annotated by native speakers for PER, LOC, ORG, DATE entities.
+
 
 ## Notes
 

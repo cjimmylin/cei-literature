@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +48,14 @@ pdf_extract: "PDF Extracts/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and 
 local_pdf: "[[PDFs/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kyrgyz"
-languages_list: "Kyrgyz, Multilingual, Turkish, Uyghur"
+cultures_nationalities_list: "N/A"
+languages_list: "Kyrgyz"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BERT, ChatGPT, RoBERTa"
-DATA_URL: "https://github.com/Akyl-AI/kyrgyz-alpaca"
+LLM_assessed: NA
+DATA_URL: "https://kyrgyznlp.github.io/"
 tags: 
 abstract: "Large language models (LLMs) have excelled in numerous benchmarks, advancing AI applications in both linguistic and non-linguistic tasks. However, this has primarily benefited well-resourced languages, leaving less-resourced ones (LRLs) at a disadvantage. In this paper, we highlight the current state of the NLP field in the specific LRL: кыргыз тили. Human evaluation, including annotated datasets created by native speakers, remains an irreplaceable component of reliable NLP performance,..."
 CONFERENCE: "Other Conference"
@@ -61,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
 ---

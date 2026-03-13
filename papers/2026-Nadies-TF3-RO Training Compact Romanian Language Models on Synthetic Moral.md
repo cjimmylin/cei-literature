@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +46,7 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Romanian"
+cultures_nationalities_list: "N/A"
 languages_list: "Romanian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -50,14 +54,14 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Recent advances in synthetic data generation have shown that compact language models can be trained effectively when the underlying corpus is structurally controlled and linguistically coherent. However, for morphologically rich and computationally under-resourced languages such as Romanian, there is still no openly documented, end-to-end pipeline that unifies tokenizer design, preprocessing, pretraining, compression, evaluation, and large-scale synthetic data generation in a reproducible..."
-LLM_assessed: "ALBERT, BERT, DeepSeek, GPT-4, Gemma 2, Llama, Llama-3"
+LLM_assessed: "BERT, Gemma-2, GPT-4, LLaMA, Llama-3"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
@@ -93,7 +97,8 @@ Recent advances in synthetic data generation have shown that compact language mo
 
 ## Data Description
 
-TF3-RO presents an end-to-end pipeline for training compact Romanian language models on synthetic moral microfiction. The dataset consists of three million Romanian synthetic fables generated via a combinatorial prompting framework, built upon the TF2 bilingual corpus. A 51.65M-parameter LLaMA-style Transformer is trained from scratch on approximately one billion Romanian tokens and compressed via knowledge distillation into a 26.45M-parameter student model. The pipeline includes custom Romanian BPE and Unigram tokenizers optimized for Romanian morphology.
+TF3-RO generates a new dataset of 3 million Romanian-native synthetic moral fables via a controlled combinatorial prompting framework; also releases a Romanian BERT-based NER dataset. All artifacts stated to be released under permissive licenses; predecessor TF2 dataset is at HuggingFace (ds-tf2-en-ro-3m) but no specific TF3 URL given.
+
 
 ## Notes
 

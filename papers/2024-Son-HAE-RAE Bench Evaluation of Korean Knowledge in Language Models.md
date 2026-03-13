@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +52,12 @@ CONF-CC: "LREC-COLING 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, Llama-2, T5, ChatGPT"
+LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://github.com/HAE-RAE/HAE-RAE-BENCH"
 tags: 
 abstract: "Large language models (LLMs) trained on massive corpora demonstrate impressive capabilities in a wide range of tasks. While there are ongoing efforts to adapt these models to languages beyond English, the attention given to their evaluation methodologies remains limited. Current multilingual benchmarks often rely on back translations or re-implementations of English tests, limiting their capacity to capture unique cultural and linguistic nuances."
@@ -64,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "1.5k questions"
 ---
@@ -102,7 +107,8 @@ data_metrics: "1.5k questions"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, Llama-2, T5, ChatGPT. Verified dataset/resource link: https://github.com/HAE-RAE/HAE-RAE-BENCH.
+HAE-RAE Bench: a 1,538-question Korean-specific evaluation dataset covering vocabulary, history, general knowledge, and reading comprehension across six tasks, designed to challenge models lacking Korean cultural and contextual depth.
+
 
 ## Notes
 

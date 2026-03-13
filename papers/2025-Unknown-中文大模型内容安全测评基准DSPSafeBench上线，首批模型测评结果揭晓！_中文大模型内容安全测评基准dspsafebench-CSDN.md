@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: Chinese
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -96,7 +99,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-This CSDN blog post introduces DSPSafeBench, a Chinese LLM content safety evaluation benchmark designed with reference to national standards. It covers 5 primary safety dimensions and 30 secondary safety tasks with 2,133 evaluation items. However, no PDF extract was available to determine which specific models were evaluated.
+DSPSafeBench is a Chinese LLM content safety evaluation benchmark covering 5 primary safety dimensions and 30 secondary safety tasks with 2,133 test items, designed in reference to Chinese national AI safety standards.
 
 
 ## Notes

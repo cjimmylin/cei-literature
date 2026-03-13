@@ -29,6 +29,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -103,7 +106,7 @@ First paper to address religious hate speech detection in Arabic Twitter. Create
 
 ## Data Description
 
-This paper is the first to address religious hate speech detection in Arabic Twitter. It creates the first publicly available Arabic dataset annotated for religious hate speech (5,569 training + 567 testing examples) and the first Arabic lexicon of religious discussion terms with polarity/strength scores. A simple RNN-GRU architecture achieves 0.84 AUROC. No LLMs are tested.
+First publicly available Arabic Twitter dataset annotated for religious hate speech with an Arabic lexicon of religious discussion terms, targeting sectarian hate speech detection.
 
 
 ## Notes

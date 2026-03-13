@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ tags:
 abstract: "The increasing deployment of large language model (LLM)-based chatbots has raised concerns regarding fairness. Fairness issues in LLMs may result in serious consequences, such as bias amplification, discrimination, and harm to minority groups. Many efforts are dedicated to evaluating and mitigating biases in LLMs. However, existing fairness benchmarks mainly focus on single-turn dialogues, while multi-turn scenarios, which better reflect real-world conversations, pose greater challenges due to..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, GPT-4, Llama-3, Llama-2, Mistral, Gemma"
+LLM_assessed: "ChatGPT, GPT-4, Gemma, Gemma-2, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/FanZT6/FairMT-bench"
 pdf_extract: "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md"
 local_pdf: "[[PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]"
@@ -132,7 +136,7 @@ The authors conclude that current LLM fairness evaluations based on single-turn 
 
 ## Data Description
 
-FairMT-Bench is a comprehensive benchmark for evaluating LLM fairness in multi-turn dialogue scenarios, consisting of FairMT-10K (10,195 multi-turn dialogue data points) and a more challenging FairMT-1K subset. The benchmark covers two bias types (stereotype and toxicity) across six bias attributes (gender, race, religion, disabled, age, appearance) with six evaluation tasks across three stages. Six LLMs including ChatGPT, Llama-3.1-8b, Mistral-7b, Llama-2-7b/13b, and Gemma-7b are tested, with GPT-4 and Llama-Guard-3 serving as evaluators.
+FairMT-Bench introduces FairMT-10K (~10K multi-turn dialogue samples covering stereotype and toxicity bias across 6 attributes) and a more challenging FairMT-1K subset, both designed to evaluate LLM fairness in multi-turn dialogue scenarios with a six-task taxonomy.
 
 
 ## Notes

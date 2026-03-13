@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,8 +57,8 @@ tags:
 abstract: "Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However, these models raise significant ethical concerns, including the risk of generating harmful, biased, or private content. Existing safety benchmarks are limited in scope, lacking comprehensive coverage of critical ethical aspects such as detailed categories of toxicity, privacy, and fairness, and often rely on inadequate evaluation techniques."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Claude3.5, Claude3.5-sonnet, GPT-4o, Gemini1.5-pro, InternLM, InternLM-XComposer2, Llama, LlamaGuard, Mixtral-8x7B, O3, Qwen technical, Qwen1.5"
-DATA_URL: "https://huggingface.co/datasets/succinctly"
+LLM_assessed: "Claude-3, GPT-4o, Gemini"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.md"
 local_pdf: "[[PDFs/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.pdf]]"
 CONFERENCE: "Other Conference"
@@ -129,7 +133,7 @@ T2IEthics provides a much-needed comprehensive ethical evaluation framework for 
 
 ## Data Description
 
-T2IEthics is a comprehensive benchmark evaluating 12 text-to-image diffusion models across three ethical dimensions: fairness (gender, age, race), toxicity (sexual, hate, humiliation, violence, illegal activity, disturbing), and privacy (personal identification documents, intellectual property, public figures). The benchmark contains 2,669 categorized prompts and introduces ImageGuard, an MLLM-based evaluator trained on 68K annotated images. Models evaluated include SD-v1.4, SD-v1.5, SD-v2.1, SDXL, SDXL-Turbo, SDXL-Lightening, SD-v3-mid, Kandinsky 2.2, Kandinsky 3, Playground-v2.5, Pixart-alpha, and HunyuanDiT.
+T2IEthics benchmark with 2,669 ethical prompts across fairness, toxicity, and privacy dimensions for evaluating 12 text-to-image diffusion models. Also releases ImageGuard, a fine-tuned MLLM evaluator trained on ~70K prompt-image pairs with human annotations.
 
 
 ## Notes

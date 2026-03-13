@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.md"
 local_pdf: "[[PDFs/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indonesian"
-cultures_nationalities_list: "Kazakh"
-languages_list: Kazakh
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
-DATA_URL: "https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe/"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Stemming and lemmatization are text preprocessing methods that aim to convert words into their root and to the canonical or dictionary form. Some previous studies state that using stemming and lemmatization worsens the performance of text classification models. However, some other studies report the positive impact of using stemming and lemmatization in supporting the performance of text classification models."
 CONFERENCE: "Other Conference"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ Dataset compiled from YouTube, Telegram, and VK using keyword-based crawling for
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe/.
+Kazakh destructive speech dataset compiled from YouTube, Telegram, and VK covering cyberbullying, racism, religious extremism, and nationalistic extremism.
+
 
 ## Notes
 

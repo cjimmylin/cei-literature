@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +50,7 @@ pdf_extract: "PDF Extracts/2022/2022-English-Hate Speech Forms and Implications 
 local_pdf: "[[PDFs/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kurdish"
+cultures_nationalities_list: "N/A"
 languages_list: "English, Kurdish"
 religious_values: "N/A"
 religious_values_list: "N/A"

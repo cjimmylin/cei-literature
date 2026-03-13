@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,16 +50,16 @@ local_pdf: "[[PDFs/2022/2022-Ranjan-Artificial Intelligence for Topic Modelling 
 publication: "PLOS ONE"
 CONF-CC: "PLOS ONE"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
-languages_list: "English, Sanskrit"
-religious_values: "Buddhism, Hinduism"
-religious_values_list: "Buddhism, Hinduism"
+languages_list: "English"
+religious_values: "Hinduism"
+religious_values_list: "Hinduism"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "A distinct feature of Hindu religious and philosophical text is that they come from a library of texts rather than single source. The Upanishads is known as one of the oldest philosophical texts in the world that forms the foundation of Hindu philosophy. The Bhagavad Gita is core text of Hindu philosophy and is known as a text that summarises the key philosophies of the Upanishads with major focus on the philosophy of karma."
-LLM_assessed: "ALBERT, BERT, GloVe, word2vec"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/sydney-machine-learning/topicmodelling_vedictexts"
 CONFERENCE: "Journal"
 ethics_overall: "No"
@@ -101,7 +105,8 @@ Full Upanishads + Bhagavad Gita texts
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, GloVe, word2vec. Verified dataset/resource link: https://github.com/sydney-machine-learning/topicmodelling_vedictexts.
+Code and data for BERT-based topic modelling of Upanishads and Bhagavad Gita texts.
+
 
 ## Notes
 

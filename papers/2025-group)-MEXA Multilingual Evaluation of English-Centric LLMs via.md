@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,15 +47,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.md"
 local_pdf: "[[PDFs/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "French"
-cultures_nationalities_list: "French"
-languages_list: "Multiple including French"
-religious_values: "Christianity"
-religious_values_list: "Christianity"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3.1, Gemma, Mistral, OLMo"
-DATA_URL: "https://github.com/cisnlp/Mexa"
+LLM_assessed: "Gemma, Llama-3, Mistral"
+DATA_URL: "https://github.com/cisnlp/MEXA"
 tags: 
 abstract: "English-centric large language models (LLMs) often show strong multilingual capabilities. However, their multilingual performance remains unclear and is under-evaluated for many other languages. Most benchmarks for multilinguality focus on classic NLP tasks or cover a minimal number of languages. We introduce MEXA, a method for assessing the multilingual capabilities of pre-trained English-centric LLMs using parallel sentences, which are available for more languages than existing downstream..."
 CONFERENCE: "ACL 2025"
@@ -101,7 +105,7 @@ This paper introduces MEXA, a method for assessing the multilingual capabilities
 
 ## Data Description
 
-Introduces MEXA, a method to assess multilingual capabilities of English-centric LLMs using cross-lingual alignment scores computed from parallel sentences (FLORES-200 and Bible datasets), achieving 0.90 Pearson correlation with downstream task performance across nine models.
+MEXA method and leaderboard for estimating multilingual coverage of English-centric LLMs via cross-lingual alignment; evaluated using FLORES-200 and Bible parallel datasets across nine LLMs (Llama family, Gemma family, Mistral, OLMo) and three downstream tasks (Belebele, m-MMLU, m-ARC).
 
 
 ## Detailed Summary

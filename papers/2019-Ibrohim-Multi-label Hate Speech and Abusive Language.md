@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -102,7 +105,7 @@ Hate speech and abusive language spreading on social media need to be detected a
 
 ## Data Description
 
-The paper builds a multi-label Indonesian Twitter dataset of 13,169 tweets annotated for hate speech and abusive language, including hate speech target (individual/group), category (religion, race, physical/disability, gender, other), and level (weak/moderate/strong). Traditional ML classifiers (SVM, Naive Bayes, Random Forest) with three data transformation methods are evaluated, with Random Forest using Label Power-set achieving 77.36% accuracy for binary hate speech detection and 66.12% for the full multi-label task.
+Multi-label Indonesian Twitter dataset for hate speech and abusive language detection including target, category, and severity level annotations.
 
 
 ## Notes

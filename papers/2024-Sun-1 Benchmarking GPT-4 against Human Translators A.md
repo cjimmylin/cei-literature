@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,15 +47,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Sun-1 Benchmarking GPT-4 against Human Translators A.md"
 local_pdf: "[[PDFs/2024/2024-Sun-1 Benchmarking GPT-4 against Human Translators A.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Indian, Russian"
-cultures_nationalities_list: "Chinese, Russian, Indian"
-languages_list: "English, Uyghur"
+national_ethnic_cultural: "Chinese, Russian"
+cultures_nationalities_list: "Chinese, Russian"
+languages_list: "Chinese, English, Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, GPT-3, GPT-4, GPT-4-turbo, GPT4, gpt-4vision"
-DATA_URL: "https://github.com/ElliottYan/GPT_versus_"
+LLM_assessed: "GPT-4"
+DATA_URL: "https://github.com/ElliottYan/GPT_versus_mt_experts"
 tags: 
 abstract: "This study presents a comprehensive evaluation of GPT-4’s translation capabilities compared to human translators of varying expertise levels. Through systematic human evaluation using the MQM schema, we assess translations across three language pairs (Chinese←→English, Russian←→English, and Chinese←→Hindi) and three domains (News, Technology, and Biomedical). Our findings reveal that GPT-4 achieves performance comparable to junior-level translators in terms of total errors, while still lagging..."
 CONFERENCE: "Preprint"

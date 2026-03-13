@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +56,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, ChatGPT, GPT-4, GPT-4o, Gemma, Gemma 2, Llama, LLaMa 3, Llama 3.1, Llama 4, Llama-4, Mixtral 8x22B, Qwen, Qwen2.5, gpt-4o-mini, mistral.ai"
-DATA_URL: "https://huggingface.co/spaces/OALL"
+LLM_assessed: "GPT-4o, Llama-3, Gemma-2, Qwen-2, Mistral, Mixtral"
+DATA_URL: "https://github.com/filbench/filbench-eval"
 tags: 
 abstract: "Despite the impressive performance of LLMs on English-based tasks, little is known about their capabilities in specific languages such as Filipino. In this work, we address this gap by introducing FILBENCH, a Filipino-centric benchmark designed to evaluate LLMs across a diverse set of tasks and capabilities in Filipino, Tagalog, and Cebuano. We carefully curate the tasks in FILBENCH to reflect the priorities and trends of NLP research in the Philippines such as Cultural Knowledge, Classical..."
 ethics_perspective: "Social & Cultural Values"

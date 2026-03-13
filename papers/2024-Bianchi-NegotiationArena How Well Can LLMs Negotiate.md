@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Negotiation is the basis of social interactions; humans negotiate everything from the price of cars to how to share common resources. With rapidly growing interest in using large language models (LLMs) to act as agents on behalf of human users, such LLM agents would also need to be able to negotiate. In this paper, we study how well LLMs can negotiate with each other. We develop NEGOTIATIONARENA: a flexible framework for evaluating and probing the negotiation abilities of LLM agents."
-LLM_assessed: "GPT-4, GPT-3.5, Claude"
+LLM_assessed: "GPT-3.5, GPT-4, Claude 2, Claude 2.1"
 DATA_URL: "https://github.com/vinid/NegotiationArena"
 CONFERENCE: "ICML 2024"
 ethics_overall: "No"
@@ -98,7 +103,8 @@ Negotiation is the basis of social interactions; humans negotiate everything fro
 
 ## Data Description
 
-NEGOTIATIONARENA is an open-source framework for evaluating LLM negotiation abilities through three game-theoretic scenarios: resource exchange, multi-turn ultimatum, and seller-buyer negotiations. The study benchmarks GPT-4, GPT-3.5, Claude-2, and Claude-2.1 across 60 negotiations per ordered pair of agents in each scenario. The framework captures structured multi-turn dialogues with XML-like communication formats for tracking offers, reasoning, and behavioral strategies.
+Open-source evaluation framework for probing LLM negotiation abilities across ultimatum games, resource exchange, and price negotiation scenarios.
+
 
 ## Notes
 

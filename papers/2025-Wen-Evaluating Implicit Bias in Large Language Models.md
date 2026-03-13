@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,8 +43,8 @@ last_author: "[[Cheng, Xueqi]]"
 authors: "Wen, Yuchen; Bi, Keping; Chen, Wei; Guo, Jiafeng; Cheng, Xueqi"
 url: "https://aclanthology.org/2025.findings-acl.263/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FKYPKPUS/2025 - Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -84,7 +88,7 @@ As large language models (LLMs) become an important way of information access, t
 
 ## Data Description
 
-The paper introduces two benchmarks for evaluating implicit bias in LLMs: a bilingual dataset with 2.7K biased statement instances covering four bias types (age, gender, race, sexual orientation), and BUMBLE, a larger benchmark spanning nine common bias types with 12.7K data entries. The data is sourced from the CBBQ dataset and uses psychometric-inspired attack methods (Disguise, Deception, Teaching) to elicit bias agreement responses from LLMs in both English and Chinese.
+BUMBLE (Bias Understanding and Measurement Benchmark for LLM Evaluation), a large benchmark built from BBQ spanning nine common bias categories with 12.7K items and 10 repeated tests per item. Also includes a bilingual (Chinese-English) bias statement dataset for psychometric-style bias elicitation.
 
 
 ## Notes

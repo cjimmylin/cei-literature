@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "Big Data & Society"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Systematic literature review of 53 articles (2012-2023) addressing the intersection of Indigenous Knowledge Systems and AI. Identifies four overlapping categories: AI assisting IKS promotion, pitfalls of AI for Indigenous peoples, and how IKS can enrich AI development. Raises critical ethical questions about Indigenous Data Sovereignty, consent, and cultural appropriateness."
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,13 +51,13 @@ local_pdf: "[[PDFs/2024/2024-Mozafari-Offensive Language Detection in Low Resour
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "ALBERT, BERT, RoBERTa"
-DATA_URL: "https://github.com/ICTRC/Parsivar"
+DATA_URL: "https://github.com/marzimzf/Persian_offensive_language_data"
 tags: 
 abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Different types of abusive content such as offensive language, hate speech, aggression, etc. have become prevalent in social media and many efforts have been dedicated to automatically detect this phenomenon in different resource-rich languages such as English. This is mainly due to the comparative lack of annotated data related to offensive language in lowresource languages, especially the..."
 CONFERENCE: "Other Conference"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "520,000 samples"
@@ -100,7 +103,8 @@ Persian corpus of 520,000 samples from Twitter, 6,000 annotated by native speake
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://github.com/ICTRC/Parsivar.
+A new Persian offensive language corpus of 6,000 annotated samples (from 520,000 tweets) with a three-level annotation schema covering offensive vs. non-offensive, targeted vs. untargeted, and individual vs. group targeting.
+
 
 ## Notes
 

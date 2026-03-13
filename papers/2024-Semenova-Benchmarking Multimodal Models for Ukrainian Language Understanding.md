@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +51,13 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Ukrainian"
-languages_list: Ukrainian
+cultures_nationalities_list: "N/A"
+languages_list: "Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Claude 3.5, Claude 3.5 Sonnet, Claude Sonnet, GPT-4o, Gemma, LLaMA 3.2, LLama-3.2, Llama3.2, Qwen, Qwen2, Claude, llama 3, mistral-7b"
+LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Llama-3, Mistral, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "While the evaluation of multimodal Englishcentric models is an active area of research with numerous benchmarks, there is a profound lack of benchmarks or evaluation suites for low- and mid-resource languages. We introduce ZNO-Vision, a comprehensive multimodal Ukrainian-centric benchmark derived from standardized university entrance examination (ZNO). The benchmark consists of over 4,300 expert-crafted questions spanning 12 academic disciplines, including mathematics, physics, chemistry, and..."
@@ -64,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +103,8 @@ Multimodal benchmark based on 20 popular Ukrainian dishes for culture testing. I
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Claude 3.5, Claude 3.5 Sonnet, Claude Sonnet, GPT-4o, Gemma, LLaMA 3.2, LLama-3.2, Llama3.2, Qwen, Qwen2, Claude, llama 3, mistral-7b. No high-confidence repository-style data URL was identified.
+Introduces ZNO-Vision (4,306 multimodal questions from Ukrainian university entrance exams across 12 disciplines) and UACUISINE (140 QA pairs on 20 Ukrainian dishes) as new Ukrainian-language multimodal benchmarks.
+
 
 ## Notes
 

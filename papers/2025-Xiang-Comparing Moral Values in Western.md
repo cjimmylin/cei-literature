@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,8 +45,8 @@ url: "http://arxiv.org/abs/2505.19674"
 external_pdf: "http://arxiv.org/pdf/2505.19674.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2025"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Western, American, British, Canadian, Australian"
+national_ethnic_cultural: "Western"
+cultures_nationalities_list: "Western"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -131,7 +134,7 @@ Directly asking an LLM "Are you moral?" yields rehearsed answers. probing its fr
 
 ## Data Description
 
-This study creates a large dataset of LLM-generated word associations using Llama-3.1-8B-Instruct, resembling an existing human word association dataset (Small World of Words) with over 12,000 cue words. Each cue was presented 100 times to the LLM generating up to three responses per cue. The dataset is used to construct Global Moral Networks by propagating moral values from Moral Foundation Theory seed words through the association graphs, enabling comparison of moral conceptualizations between English-speaking humans and the LLM.
+A large dataset of LLM-generated word associations for 12,000 cues (prompting Llama-3.1-8B-Instruct), mirroring the human Small World of Words dataset, used to construct and compare Global Moral Networks between humans and LLMs.
 
 
 ## Notes

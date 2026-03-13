@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ pdf_extract: "PDF Extracts/2024/2024-Paraskevopoulos-A Comparative Sentiment Ana
 local_pdf: "[[PDFs/2024/2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Greek"
-languages_list: Greek
+cultures_nationalities_list: "N/A"
+languages_list: "Greek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa, GPT-2, XLNet"
-DATA_URL: "https://github.com/codelucas/newspaper"
+LLM_assessed: "BERT, GPT-2, RoBERTa, XLNet"
+DATA_URL: NA
 tags: 
 abstract: "In addressing the critical role of emotional context in patient–clinician conversations, this study conducted a comprehensive sentiment analysis using BERT, RoBERTa, GPT-2, and XLNet. Our dataset includes 185 h of Greek conversations focused on hematologic malignancies. The methodology involved data collection, data annotation, model training, and performance evaluation using metrics such as accuracy, precision, recall, F1-score, and specificity."
 research_topic: "NLP & Representation Learning"
@@ -104,7 +108,7 @@ This paper conducts a comparative evaluation of four transformer-based models (B
 
 ## Data Description
 
-Compares BERT, RoBERTa, GPT-2, and XLNet on sentiment analysis of 185 hours of Greek clinical conversations. Addresses class imbalance and bias through weighted evaluation. BERT outperforms across all sentiment categories. Maintains dataset authenticity to avoid introducing artificial biases.
+Introduces the first dataset of Greek clinical conversations for sentiment analysis, comprising 185 hours and over 43,000 utterances between patients and clinicians discussing hematologic malignancies.
 
 
 ## Notes

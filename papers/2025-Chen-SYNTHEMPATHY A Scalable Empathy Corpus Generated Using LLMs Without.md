@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,8 +58,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Previous research has shown that humans are more receptive towards language models that that exhibit empathetic behavior. While empathy is essential for developing helpful dialogue agents, very few large corpora containing empathetic dialogues are available for fine-tune LLMs. The few existing corpora have largely relied on crowdsourcing to simulate empathetic conversations, a process that is expensive, timeconsuming, and not scalable to larger datasets."
-LLM_assessed: "Llama-2, Llama-3, Gemma, Mistral, RoBERTa"
-DATA_URL: "https://github.com/unslothai/unsloth"
+LLM_assessed: "Gemma, Llama-2, Llama-3, Mistral, RoBERTa"
+DATA_URL: NA
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Dialogue Systems"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
@@ -98,7 +102,8 @@ Previous research has shown that humans are more receptive towards language mode
 
 ## Data Description
 
-SYNTHEMPATHY is a corpus of 105,578 empathetic single-turn dialogues generated through a multi-step LLM pipeline using Llama-2 13B Chat, Llama-3 8B, Gemma 7B, and Mistral 7B without any crowdsourcing. A base Mistral 7B model fine-tuned on this corpus shows a 21% increase in emotional reaction empathy scores, evaluated using a RoBERTa-based empathy scoring model on 4,666 sad tweets.
+SYNTHEMPATHY is a corpus of 105,578 empathetic single-turn dialogues (explanation-response pairs) generated via a multi-step LLM pipeline using Llama-2, Gemma, and Mistral without any crowdsourcing. The dataset is described as open-sourced but no permanent repository URL is provided in the paper (footnote states it will be released upon final publication).
+
 
 ## Notes
 

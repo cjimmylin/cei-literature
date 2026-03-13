@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -102,7 +106,7 @@ Hate speech is a challenging issue plaguing the online social media. While bette
 
 ## Data Description
 
-HateXplain is a benchmark dataset of 20,148 posts from Twitter and Gab, annotated for three-class hate speech classification (hate, offensive, normal), target community identification across 10 communities, and word-level rationale annotations justifying labeling decisions. Each post was annotated by three Amazon Mechanical Turk workers, with a Krippendorff's alpha of 0.46.
+HateXplain: first benchmark hate speech dataset with 3-class labels (hate/offensive/normal), target community annotations, and human rationales for explainability evaluation.
 
 
 ## Notes

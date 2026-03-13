@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: Indonesian
+languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Qwen-SEA, Qwen-SEA_LION"
-DATA_URL: "https://github.com/pymupdf/PyMuPDF"
+LLM_assessed: "Qwen"
+DATA_URL: NA
 tags: 
 abstract: "Recently there have been intensifying efforts to improve the understanding of Indonesian cultures by large language models (LLMs). An attractive source of cultural knowledge that has been largely overlooked is local journals of social science, which likely contain substantial cultural studies from a native perspective. We present a novel text dataset of journal article passages, created from 151 open-source Indonesian social science journals, called IndoSoSci."
 CONFERENCE: "Preprint"
@@ -61,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -97,7 +101,8 @@ Novel dataset of journal article passages from 151 open-source Indonesian social
 
 ## Data Description
 
-Backfill summary: Models assessed include Qwen-SEA, Qwen-SEA_LION. Verified dataset/resource link: https://github.com/pymupdf/PyMuPDF.
+IndoSoSci: a text dataset of ~212 million tokens from 21,374 articles sourced from 151 open-access Indonesian social science journals, with ~102,000 extracted cultural fact entries (~15M tokens); used to improve LLM understanding of Indonesian culture via RAG.
+
 
 ## Notes
 

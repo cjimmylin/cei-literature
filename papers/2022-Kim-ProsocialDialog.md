@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,11 +57,11 @@ moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced ProsocialDialog, a large-scale multi-turn dialogue dataset (58K dialogues) designed to teach agents to respond to toxic or unethical content with prosocial, rule-grounded guidance."
 significance: "Moves beyond simple toxicity suppression (blocking/ignoring) to active prosocial intervention, equipping agents with the ability to explain *why* a statement is problematic using commonsense social rules (Rules-of-Thumb)."
-pdf_extract: "PDF Extracts/0000/2022-Kim-ProsocialDialog.md"
+pdf_extract: "PDF Extracts/2022/2022-Kim-ProsocialDialog.md"
 abstract: "Most existing dialogue systems fail to re- spond properly to potentially unsafe user ut- terances by either ignoring or passively agree- ing with them. To address this issue, we intro- duce PROSOCIALDIALOG, the ﬁrst large-scale multi-turn dialogue dataset to teach conversa- tional agents to respond to problematic con- tent following social norms. Covering diverse unethical, problematic, biased, and toxic situa- tions, PROSOCIALDIALOG contains responses that encourage prosocial behavior, grounded"
 paper_summary: "Abstract: Most existing dialogue systems fail to re- spond properly to potentially unsafe user ut- terances by either ignoring or passively agree- ing with them. To address this issue, we intro- duce PROSOCIALD | Overview: PROSOCIALDIALOG: A Prosocial Backbone for Conversational Agents Hyunwoo Kim♥♠∗ Youngjae Yu♥∗Liwei Jiang♥♣ Ximing Lu♥♣ Daniel Khashabi♦ Gunhee Kim♠ Yejin Choi♥♣ Maarten Sap♥♦ ♥Allen Institute for Artiﬁ | Key Findings: between dialogue agents on response generation for PROSOCIALDIALOG (in percentages; §5.2). Evaluation metrics. We conduct both auto- matic and human e | Conclusions: We introduced PROSOCIALDIALOG, a large-scale English dialogue dataset providing constructive feedback for prosocial behaviors aligned with com- monsen"
 local_pdf: "[[PDFs/2022/2022-Kim-ProsocialDialog.pdf]]"
-LLM_assessed: "GPT-3, InstructGPT, GPT-2, T5"
+LLM_assessed: "GPT-2, GPT-3, T5"
 DATA_URL: "https://hyunw.kim/prosocial-dialog"
 DATE_ADDED: 20260207
 CONFERENCE: "EMNLP 2022"
@@ -66,7 +71,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -102,7 +107,7 @@ Most existing dialogue systems fail to respond properly to potentially unsafe us
 
 ## Data Description
 
-PROSOCIALDIALOG is a large-scale dataset of 58K dialogues where a speaker responds prosocially to potentially unsafe conversational situations, grounded in rules-of-thumb (RoTs) from Social Chemistry. GPT-3 generates problematic utterances in the data collection pipeline. GPT-3, Instruct GPT-3, GPT-2, DialoGPT, and T5 are evaluated as baselines in safety classification and response generation tasks (Tables 2-4), with head-to-head human evaluations against the trained Prost model.
+58K multi-turn prosocial dialogue dataset with 331K utterances, 160K rules-of-thumb, and 497K safety labels
 
 
 ## Notes

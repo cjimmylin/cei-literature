@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Hong Kong"
-languages_list: "Cantonese, English, Chinese"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
+languages_list: "Cantonese, Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "HKGAI-V1"
+LLM_assessed: "GPT-4, GPT-4o, Llama-3, Mistral, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Develops sovereign LLM for Hong Kong addressing multilingual environment (Cantonese, Mandarin, English) and socio-legal context. Introduces Adversarial HK Value Benchmark with 300 human-crafted sensitive questions evaluating alignment with local ethical and legal standards."

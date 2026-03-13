@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -139,7 +142,7 @@ GERBIL QA provides the first online benchmarking platform for factoid question a
 
 ## Data Description
 
-The paper presents GERBIL QA, an online benchmarking platform for question answering systems over Linked Data that follows FAIR principles. It integrates 6 existing QA systems and 22 question answering datasets (QALD-1 through QALD-6, NLQ) for evaluation using 7 metrics and 6 experiment types. The platform addresses fair benchmarking across different URIs/URLs and supports both online and file-based evaluation. No LLMs were tested; the systems evaluated are traditional semantic web QA frameworks.
+GERBIL QA: An online benchmarking platform for RDF-based question answering systems, supporting fine-grained evaluation with FAIR principles, multiple metrics, and diverse semantic web datasets.
 
 
 ## Notes

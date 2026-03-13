@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "251 questions; 629 questions"
@@ -93,7 +97,7 @@ Understanding the deep meanings of the Qur'an and bridging the language gap betw
 
 ## Data Description
 
-The study uses an expanded Quran Question Answering dataset containing 1,895 questions (up from 251 original questions) categorized into single-answer, multi-answer, and zero-answer types. The dataset was compiled from the Quran QA 2022 dataset, Kaggle, Tafseer books, and Hugging Face datasets, and was used to fine-tune Arabic transformer models including AraBERT, CAMeLBERT, AraELECTRA, RoBERTa, and BERT for Quranic passage retrieval.
+The paper expands the Quran QA 2023 shared task dataset from 251 to 1,895 questions through rephrasing and categorization (single-answer, multi-answer, zero-answer types), and fine-tunes transformer models (AraBERT, RoBERTa, CAMeLBERT, AraELECTRA, BERT) for Quranic passage retrieval.
 
 
 ## Notes

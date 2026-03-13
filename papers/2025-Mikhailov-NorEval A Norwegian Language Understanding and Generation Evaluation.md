@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ pdf_extract: "PDF Extracts/2025/2025-Mikhailov-NorEval A Norwegian Language Unde
 local_pdf: "[[PDFs/2025/2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Norwegian"
-languages_list: Norwegian
+cultures_nationalities_list: "N/A"
+languages_list: "Norwegian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude 3.7 Sonnet, GPT-4o, Llama, Llama-3, Llama-3.3, Llama2, Mistral-7B, Mistral-Nemo, Mistral-Small, gemma-2, mistralai"
-DATA_URL: "NA"
+LLM_assessed: "Llama-2, Llama-3, Mistral"
+DATA_URL: "https://github.com/ltgoslo/noreval"
 tags: 
 abstract: "This paper introduces NorEval, a new and comprehensive evaluation suite for large-scale standardized benchmarking of Norwegian generative language models (LMs). NorEval consists of 24 high-quality human-created datasets – of which five are created from scratch. In contrast to existing benchmarks for Norwegian, NorEval covers a broad spectrum of task categories targeting Norwegian language understanding and generation, establishes human baselines, and focuses on both of the official written..."
 authors_incomplete: false
@@ -102,7 +106,7 @@ This paper introduces NorEval, a comprehensive evaluation suite for standardized
 
 ## Data Description
 
-Introduces NorEval, a comprehensive evaluation suite with 24 high-quality human-created datasets (5 newly created) for standardized benchmarking of Norwegian generative language models across language understanding and generation tasks. Paper focuses on benchmark creation rather than specific model evaluations.
+NorEval releases 24 human-created datasets for Norwegian Bokmål and Nynorsk across 9 task categories; 5 datasets are introduced from scratch (NCB, NorIdiom, NorRewrite-Instruct, NorSummarize-Instruct, NorTruthfulQA variants), along with 100+ human-written prompts and annotation materials integrated into LM Evaluation Harness.
 
 
 ## Detailed Summary

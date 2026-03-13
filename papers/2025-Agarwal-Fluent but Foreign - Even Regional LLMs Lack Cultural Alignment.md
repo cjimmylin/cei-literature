@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) are used worldwide, yet exhibit Western cultural tendencies. Many countries are now building “regional” or “sovereign” LLMs, but it remains unclear whether they reflect local values and practices or merely speak local languages. Using India as a case study, we evaluate six Indic and six global LLMs on two dimensions—values and practices—grounded in nationally representative surveys and community-sourced QA datasets."
-LLM_assessed: "GPT-4, Llama-2, Llama-3, Mistral, Gemma"
+LLM_assessed: "Mistral, Llama-2, Llama-3, Gemma, Aya, GPT-4o"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -60,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
 ---

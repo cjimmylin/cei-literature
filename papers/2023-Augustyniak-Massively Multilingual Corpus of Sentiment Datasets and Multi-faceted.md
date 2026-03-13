@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ local_pdf: "[[PDFs/2023/2023-Augustyniak-Massively Multilingual Corpus of Sentim
 publication: "arXiv / NeurIPS 2023"
 CONF-CC: "NeurIPS 2023"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
-languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and 21 other languages"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GloVe, Word2Vec, RoBERTa"
-DATA_URL: "https://github.com/wongnai/wongnai-corpus"
+LLM_assessed: "BERT, RoBERTa, T5"
+DATA_URL: "https://huggingface.co/datasets/Brand24/mms"
 tags: 
 abstract: "Despite impressive advancements in multilingual corpora collection and model training, developing large-scale deployments of multilingual models still presents a significant challenge. This is particularly true for language tasks that are culturedependent. One such example is the area of multilingual sentiment analysis, where affective markers can be subtle and deeply ensconced in culture. This work presents the most extensive open massively multilingual corpus of datasets for training..."
 CONFERENCE: "NeurIPS 2023"
@@ -98,7 +102,8 @@ data_metrics: "27 languages"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GloVe, Word2Vec, RoBERTa. Verified dataset/resource link: https://github.com/wongnai/wongnai-corpus.
+Massively multilingual corpus of 79 sentiment classification datasets covering 27 languages across 6 language families, with a multi-faceted benchmark comparing 11 models across different training objectives and fine-tuning strategies.
+
 
 ## Notes
 

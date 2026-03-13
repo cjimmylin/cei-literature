@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ tags:
 abstract: "Large language models (LLMs) and generative artiﬁcial intelligence (AI) have demonstrated notable capabilities, achieving human-level performance in intelligent tasks like medical exams. Despite the introduction of extensive LLM evaluations and benchmarks in disciplines like education, software development, and general intelligence, a privacy-centric perspective remains underexplored in the literature."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4"
+LLM_assessed: "Claude, Claude-3, DeepSeek, GPT-4o, GPT-4o mini, Gemini"
 DATA_URL: "https://github.com/sakibsh/Priv-IQ"
 CONFERENCE: "Journal"
 ethics_overall: "No"
@@ -63,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -93,7 +96,7 @@ Large language models (LLMs) and generative artificial intelligence (AI) have de
 
 ## Data Description
 
-Priv-IQ is a multimodal benchmark of 146 image-text pair questions designed to evaluate LLM performance across eight privacy competencies including visual privacy recognition, named entity recognition, privacy risk assessment, privacy-enhancing technologies, privacy law, general privacy knowledge, contextual privacy understanding, and multilingual understanding. Seven models were evaluated: Claude 3 Opus, Claude 3.5 Sonnet, DeepSeek-VL, Gemini 1.5 Flash, Gemini 1.5 Pro, GPT-4o, and GPT-4o Mini. Data was sourced from annotated datasets (VizWiz-Priv, BIV-Priv, AI4privacy) and expert-curated privacy scenarios.
+Priv-IQ is a comprehensive multimodal benchmark measuring LLM privacy intelligence across 8 competencies (visual privacy recognition, NER, privacy risk assessment, PETs, spatial reasoning, regulatory knowledge, multilingual privacy, and complex privacy reasoning). Seven state-of-the-art multimodal LLMs are evaluated on the benchmark.
 
 
 ## Notes

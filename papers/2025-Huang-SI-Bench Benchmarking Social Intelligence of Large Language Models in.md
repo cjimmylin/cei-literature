@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +47,7 @@ local_pdf: "[[PDFs/2025/2025-Huang-SI-Bench Benchmarking Social Intelligence of 
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) develop anthropomorphic abilities, they are increasingly being deployed as autonomous agents to interact with humans. However, evaluating their performance in realistic and complex social interactions remains a significant challenge. Most previous research built datasets through simulated agent-to-agent interactions, which fails to capture the authentic linguistic styles and relational dynamics found in real human conversations."
-LLM_assessed: "Claude, GPT-4o, Gemini, Qwen"
+LLM_assessed: "Claude, GPT-4o, Gemini, Qwen-2"
 DATA_URL: "https://github.com/SI-Bench/SI-Bench.git"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -97,7 +101,8 @@ As large language models (LLMs) develop anthropomorphic abilities, they are incr
 
 ## Data Description
 
-SI-Bench is a social intelligence benchmark containing 2,221 authentic multi-turn dialogues collected from a Chinese social networking application, covering 12 types of complex social situations. A subset of 312 dialogues was manually annotated across 8 leading LLMs (Claude-4-Opus, Claude-4-Sonnet, GPT-4o, Gemini-2.5-Pro, Gemini-2.5-Flash, Doubao-1.6-Thinking, Doubao-1.5-Pro-Character, and Qwen-2.5-Max), evaluating both reasoning process quality and reply quality in social dialogue tasks.
+SI-Bench contains 2,221 authentic multi-turn dialogues collected from a real social networking application, with a manually annotated subset of 312 dialogues across 8 major models; released publicly.
+
 
 ## Notes
 

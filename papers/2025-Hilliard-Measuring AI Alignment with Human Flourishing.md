@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Flourishing AI Benchmark, virtue"
@@ -37,11 +41,11 @@ url: "https://arxiv.org/abs/2507.07787"
 pdf_extract: "PDF Extracts/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.md"
 local_pdf: "[[PDFs/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.07787.pdf"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, Utilitarianism"
 key_contribution: "Introduces the Flourishing AI Benchmark (FAI) to evaluate AI against 7 dimensions of eudaimonic well-being rather than just harm prevention"
@@ -50,7 +54,7 @@ abstract: "This paper introduces the Flourishing AI Benchmark (FAI Benchmark), a
 paper_summary: "Abstract: This paper introduces the Flourishing AI Benchmark (FAI Benchmark), a novel evaluation framework that assesses AI alignment with human flourishing across seven dimensions: Character and Virtue, Close  | Overview: Measuring AI Alignment with Human Flourishing Elizabeth Hilliard2 Akshaya Jagadeesh1 Alex Cook1 Steele Billings1 Nicholas Skytland1 Alicia Llewellyn1 Jackson Paull2 Nathan Paull2 Nolan Kurylo2 Keatra  | Methodology: 4.1 Core Principles The FAI Benchmark is built on three foundational principles: | Key Findings: Each model listed in Appendix C was evaluated once using the FAI Benchmark. The results represent point-in-time snapshots of each model's ability to r | Conclusions: 9.1 FAI Benchmark Significance The FAI Benchmark represents a significant advancement in evaluating AI systems. By moving beyond narrow technical perf"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, ChatGPT, Claude, Grok"
+LLM_assessed: "ChatGPT, Claude, GPT-4, Grok, o1, o3"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 CONFERENCE: "Preprint"

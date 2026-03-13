@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: "WebSearch: AfriMTEB text embedding benchmark African languages"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Text embeddings are an essential building component of several NLP tasks such as retrievalaugmented generation which is crucial for preventing hallucinations in LLMs. Despite the recent release of massively multilingual MTEB (MMTEB), African languages remain underrepresented, with existing tasks often repurposed from translation benchmarks such as FLORES clustering or SIB-200. In this paper, we introduce AfriMTEB—a regional expansion of MMTEB covering 59 languages, 14 tasks, and 38 datasets,..."
-LLM_assessed: "BERT, Gemma, Mistral, Mistral-7B, Qwen2, Qwen3, RoBERTa"
+LLM_assessed: "BERT, Gemma, Mistral, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -99,7 +103,8 @@ Regional MTEB extension for African languages covering 59 languages, 14 tasks, 3
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Gemma, Mistral, Mistral-7B, Qwen2, Qwen3, RoBERTa. No high-confidence repository-style data URL was identified.
+AfriMTEB is a regional MTEB extension covering 59 African languages across 38 datasets and 8 task families, including 6 newly added datasets for hate speech detection, intent detection, and emotion classification. Also releases AfriE5-Large-Instruct, a cross-lingually adapted embedding model for African languages.
+
 
 ## Notes
 

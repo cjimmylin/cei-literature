@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +41,7 @@ last_author: "[[V. Pérez-Rosas]]"
 authors: "V. Pérez-Rosas"
 url: "https://pubmed.ncbi.nlm.nih.gov/40089524/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UQBMYCDW/Pérez-Rosas and others - 2024 - CogniModal-D A Multimodal Deception Detection Dataset.pdf"
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: ""
 religious_values: "N/A"
@@ -62,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"

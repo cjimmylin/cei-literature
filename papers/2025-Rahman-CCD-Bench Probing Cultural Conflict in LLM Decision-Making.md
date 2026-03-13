@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,8 @@ local_pdf: "[[PDFs/2025/2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM D
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "African/Ubuntu, Multicultural/Cross-cultural"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) increasingly shape interpersonal and societal decision-making, yet their ability to navigate explicit conflicts between legitimate cultural values remains underexplored. Existing benchmarks focus on cultural knowledge (CulturalBench), value inference (WorldValuesBench), or single-axis bias (CDEval), but none assess how LLMs adjudicate when multiple cultural frameworks directly clash."
-LLM_assessed: "Claude, DeepSeek, Gemini, Llama, Llama-3, Phi, Mistral, ChatGPT, GPT-4, Qwen, Grok"
+LLM_assessed: "Claude, Claude-3, Command-R, DeepSeek, GPT-4o, Gemini, Grok, Llama-3, Mistral, Phi-3, Qwen-2, WizardLM"
 DATA_URL: "https://github.com/smartlab-nyu/CCD-Bench"
 authors_incomplete: false
 CONFERENCE: "Preprint"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ Large language models (LLMs) increasingly shape interpersonal and societal decis
 
 ## Data Description
 
-CCD-Bench (Culture-Conflict Decision Benchmark) contains 2,182 open-ended dilemmas across seven domains (Arts, Education, Family, Wellness, Work, Science, Lifestyle), each with ten anonymized response options aligned with the ten GLOBE cultural clusters spanning 62 societies. The benchmark evaluates 17 leading LLMs using a Stratified Latin Square design to assess how models navigate cross-cultural value conflicts. Responses were generated via multi-cluster prompting with OpenAI o3 and verified by human annotators.
+CCD-Bench contains 2,182 open-ended cultural dilemmas across seven domains (Arts, Education, Family, Wellness, Work, Science, Lifestyle), each paired with ten anonymized response options aligned with ten GLOBE cultural clusters spanning 62 societies.
+
 
 ## Notes
 

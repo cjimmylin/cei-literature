@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +49,14 @@ pdf_extract: "PDF Extracts/2024/2024-Hossein-ParsOffensive Persian Offensive Com
 local_pdf: "[[PDFs/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Persian, Iranian"
-languages_list: Persian
+cultures_nationalities_list: "Iranian"
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, RoBERTa"
-DATA_URL: "https://huggingface.co/HooshvareLab/roberta-fa-zwnj-base"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Warning This paper includes a sample of comments extracted from the dataset, some of which may contain offensive or obscene content. The proliferation of hate speech and offensive comments on social media has become increasingly prevalent due to user activities. Such comments can have detrimental effects on individuals’ psychological well-being and social behavior. While numerous datasets in the English language exist in this domain, few equivalent resources are available for Persian language."
 CONFERENCE: "Other Conference"
@@ -98,7 +101,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://huggingface.co/HooshvareLab/roberta-fa-zwnj-base.
+Persian offensive language dataset (OPSD) with 21,165 annotated comments from Twitter and Instagram in three classes (Positive, Targeted Negative, Non-Targeted Negative), plus 170K unlabeled data.
+
 
 ## Notes
 

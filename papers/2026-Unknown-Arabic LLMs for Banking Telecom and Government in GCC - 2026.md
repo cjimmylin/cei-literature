@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +50,12 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
-languages_list: Arabic
-religious_values: "N/A"
-religious_values_list: "N/A"
+languages_list: "Arabic"
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: "GPT-4o"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, I found relevant information about the benchmark you're asking about: GPT-4o and ALLaM were benchmarked on Maliki Fiqh using 550 curated questions across three domains, highlighting gaps in adherence to established Fiqhi rules. The study revealed several key findings: 1."
@@ -62,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"

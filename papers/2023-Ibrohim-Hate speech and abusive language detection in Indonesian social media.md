@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +51,7 @@ external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC10447929&
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: Indonesian
+languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

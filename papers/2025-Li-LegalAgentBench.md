@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,12 +43,12 @@ authors: "Li, Haitao; Chen, Junjie; Yang, Jingli; Ai, Qingyao; Jia, Wei; Liu, Yo
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.17259"
 external_pdf: "https://arxiv.org/pdf/2412.17259.pdf"
-pdf_extract: "PDF Extracts/0000/2025-Li-LegalAgentBench.md"
+pdf_extract: "PDF Extracts/2025/2025-Li-LegalAgentBench.md"
 local_pdf: "[[PDFs/2025/2025-Li-LegalAgentBench.pdf]]"
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "With the increasing intelligence and autonomy of LLM agents, their potential applications in the legal domain are becoming increasingly apparent. However, existing general-domain benchmarks cannot fully capture the complexity and subtle nuances of real-world judicial cognition and decision-making. Therefore, we propose LegalAgentBench, a comprehensive benchmark specifically designed to evaluate LLM Agents in the Chinese legal domain."
-LLM_assessed: "GPT-4o, GPT-4o mini, GPT-3.5, Claude, Llama-3, Qwen"
+LLM_assessed: "Claude, GPT-3.5, GPT-4o, GPT-4o mini, Llama-3, Qwen"
 DATA_URL: "https://github.com/CSHaitao/LegalAgentBench"
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
@@ -98,7 +102,8 @@ With the increasing intelligence and autonomy of LLM agents, their potential app
 
 ## Data Description
 
-LegalAgentBench is a benchmark for evaluating LLM agents in the Chinese legal domain, comprising 17 real-world corpora (14 tabular databases and 3 document collections) and 37 specialized tools. It includes 300 carefully annotated tasks spanning multi-hop reasoning and legal writing at varying difficulty levels (1-hop to 5-hop). Eight LLMs were evaluated using three agent methods (Plan-and-Solve, Plan-and-Execute, ReAct), with both success rate and fine-grained progress rate metrics.
+LegalAgentBench: a benchmark with 17 real-world Chinese legal corpora, 37 tools, and 300 human-annotated tasks spanning multi-hop reasoning and legal writing, designed to evaluate LLM agents on realistic judicial cognition and decision-making.
+
 
 ## Notes
 

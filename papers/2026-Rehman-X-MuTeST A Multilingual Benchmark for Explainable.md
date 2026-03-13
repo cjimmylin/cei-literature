@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Hate speech detection on social media faces challenges in both accuracy and explainability, especially for underexplored Indic languages. We propose a novel explainabilityguided training framework, X-MuTeST (eXplainable Multilingual haTe Speech deTection), for hate speech detection that combines high-level semantic reasoning from large language models (LLMs) with traditional attentionenhancing techniques."
-LLM_assessed: "BERT, GPT-4o, LLaMA-3.1, LLaMa-3.1., LLama 3.1, Mistral- 24, Mistral-24.07, MistralAI, llama 3, mistral-large, mistral.ai"
+LLM_assessed: "GPT-4o, Llama-3, Mistral, BERT"
 DATA_URL: "https://huggingface.co/datasets/UVSKKR/X-MuTeST"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -100,7 +104,8 @@ Multilingual explainable hate speech detection benchmark with token-level ration
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4o, LLaMA-3.1, LLaMa-3.1., LLama 3.1, Mistral- 24, Mistral-24.07, MistralAI, llama 3, mistral-large, mistral.ai. Verified dataset/resource link: https://huggingface.co/datasets/UVSKKR/X-MuTeST.
+X-MuTeST is a multilingual explainable hate speech detection benchmark with token-level rationale annotations covering 6,004 Hindi, 4,492 Telugu, and 6,334 English samples, with human-annotated word-level rationales. Code also available at https://github.com/ziarehman30/X-MuTeST.
+
 
 ## Notes
 

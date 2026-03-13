@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "ACL 2023 Workshop"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous Peoples"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Addresses barriers to collaboration between documentary linguists, computational linguists, and Indigenous communities for NLP-assisted language revitalization. Recommends increased opportunities for awareness-building and skills-training in computational linguistics tailored to Indigenous community members' needs."
 CONFERENCE: "EACL 2023"
 ethics_overall: "No"
 virtue_ethics: "No"

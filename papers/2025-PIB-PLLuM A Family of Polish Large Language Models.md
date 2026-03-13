@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Polish"
-languages_list: Polish
+cultures_nationalities_list: "N/A"
+languages_list: "Polish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude 3.5 Sonnet, Claude-3.7-Sonnet, Command-R, DeepSeek, DeepSeek-V3, GPT 4, GPT-4, GPT4, Gemma, Gemma-3, Grok-3, Llama, LLaMA 3.1, LLama-3.1, LLama-3.3, Llama 3, Llama 3.3, Llama-3, Llama-4, Llama3.1, Mistral, Mistral-7B, Mistral-Nemo, Mistral-Small, Mixtral, Mixtral-8x22B, Mixtral-8x7B, Phi-3, Qwen, claude-3, RoBERTa"
-DATA_URL: "https://github.com/MeetKai/functionary"
+LLM_assessed: "LLaMA, Llama-3, Mistral, Mixtral"
+DATA_URL: "https://huggingface.co/CYFRAGOVPL"
 tags: 
 abstract: "Family of Polish LLMs with evaluation on CPTUB benchmark assessing implied meanings and cognitively challenging questions. Includes Open PL LLM Leaderboard and Polish Medical Leaderboard."
 CONFERENCE: "Preprint"
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Family of Polish LLMs with evaluation on CPTUB benchmark assessing implied meani
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, BERT, ChatGPT, Claude, Claude 3.5 Sonnet, Claude-3.7-Sonnet, Command-R, DeepSeek, DeepSeek-V3, GPT 4, GPT-4, GPT4, Gemma, Gemma-3, Grok-3, Llama, LLaMA 3.1, LLama-3.1, LLama-3.3, Llama 3, Llama 3.3, Llama-3, Llama-4, Llama3.1, Mistral, Mistral-7B, Mistral-Nemo, Mistral-Small, Mixtral, Mixtral-8x22B, Mixtral-8x7B, Phi-3, Qwen, claude-3, RoBERTa. Verified dataset/resource link: https://github.com/MeetKai/functionary.
+PLLuM releases 18 open-access Polish-language foundation models (8B–70B parameters) on HuggingFace, along with a 140-billion-token Polish pre-training corpus, a 77k instruction dataset, and a 100k preference optimization dataset.
+
 
 ## Notes
 

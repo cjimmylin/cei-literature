@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,14 +50,14 @@ pdf_extract: "PDF Extracts/2021/2021-Azada-Fake News Detection in Low-Resourced 
 local_pdf: "[[PDFs/2021/2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kurdish"
-languages_list: Kurdish
+cultures_nationalities_list: "N/A"
+languages_list: "Kurdish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
-DATA_URL: "https://www.kaggle.com/raniaazad/kurdish-fake-news-dataset"
+DATA_URL: "https://www.kaggle.com/datasets/azada/kurdfake"
 tags: 
 abstract: "Kurdish Fake News Detection Dataset (KDFND) of 100,962 news articles (50,751 real, 50,211 fake). Hybrid FastText-LSTM achieves 94.25% accuracy."
 CONFERENCE: "Journal"
@@ -65,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "Moral Foundations Theory"
 newtags: 
 tags: 
 abstract: "Moralizations – arguments that invoke moral values to justify demands or positions – are a yet underexplored form of persuasive communication. We present the Moralization Corpus, a novel multi-genre dataset designed to analyze how moral values are strategically used in argumentative discourse. Moralizations are pragmatically complex and often implicit, posing significant challenges for both human annotators and NLP systems."
-LLM_assessed: "Llama, Mistral, Claude"
+LLM_assessed: "Claude-3 Haiku, Command R+, LLaMA, Mistral"
 DATA_URL: "https://anonymous.4open.science/r/Moralisierungsdetektion"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -97,7 +101,8 @@ Multi-genre German dataset analyzing moral values in argumentative discourse wit
 
 ## Data Description
 
-The Moralization Corpus contains 11,503 German text instances across seven genres (parliamentary debates, news articles, online discussions, etc.) annotated for moralizing speech acts using a frame-based scheme capturing moral values, demands, and discourse protagonists. Five LLMs (LLaMA-4-Scout-109B, Mistral-Small-24B, Claude-3.5-Haiku, and others) are tested across seven prompting configurations for moralization detection and component extraction.
+The Moralization Corpus is a multi-genre German dataset of moralizing speech acts annotated with moral values, demands, and protagonists using a frame-based scheme; all data, annotation guidelines, and code are released publicly.
+
 
 ## Notes
 

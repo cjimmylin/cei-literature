@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ local_pdf: "[[PDFs/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gend
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -101,7 +104,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, GPT-4o. Verified dataset/resource link: https://github.com/KORPUS-DB/KOGENT.
+KOGENT is a benchmark dataset of 1,222 Korean National Assembly transcripts with 6,024 utterances annotated for gender sensitivity, spanning legislative sessions 1948–2024. Released publicly for research on gender-sensitivity evaluation in Korean political discourse.
+
 
 ## Notes
 

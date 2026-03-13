@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew, Israeli"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "English, Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Training large language models (LLMs) in low-resource languages such as Hebrew poses unique challenges. In this paper, we introduce DictaLM2.0 and DictaLM2.0-Instruct, two LLMs derived from the Mistral model, trained on a substantial corpus of approximately 200 billion tokens in both Hebrew and English. Adapting a pre-trained model to a new language involves specialized techniques that differ significantly from training a model from scratch or further training existing models on well-resourced..."
-LLM_assessed: "Claude 3 Haiku, GPT 4, GPT-4, Gemma, Llama, LLaMA 2, Llama-3, Mistral-7B, claude 3"
-DATA_URL: "https://huggingface.co/dicta-il/dictalm2.0"
+LLM_assessed: "Claude-3 Haiku, Gemma, GPT-3.5, GPT-4, Llama-3, Mistral"
+DATA_URL: "https://huggingface.co/spaces/hebrew-llm-leaderboard/leaderboard"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -101,7 +105,8 @@ Summary: Introduces Hebrew LLM benchmark suite covering QA, Sentiment Analysis, 
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 3 Haiku, GPT 4, GPT-4, Gemma, Llama, LLaMA 2, Llama-3, Mistral-7B, claude 3. Verified dataset/resource link: https://huggingface.co/dicta-il/dictalm2.0.
+A benchmark suite for Hebrew LLM evaluation covering QA, Sentiment Analysis, Winograd Schema Challenge, Translation, and Summarization tasks. An accompanying Hebrew Open LLM Leaderboard provides a public comparison platform.
+
 
 ## Notes
 

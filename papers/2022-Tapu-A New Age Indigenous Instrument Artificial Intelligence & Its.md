@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,17 +45,17 @@ CONF-CC: "N/A"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous Peoples"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Explores whether AI will serve as a 'revolution' or a 'new colonizer' for Indigenous peoples. Examines AI in judicial processes and its impact on Indigenous Peoples' legal rights. Argues that Indigenous data sovereignty must guide 21st-century data governance and AI development."
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"

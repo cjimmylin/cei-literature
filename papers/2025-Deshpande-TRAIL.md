@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ abstract: "The increasing adoption of agentic workflows across diverse domains b
 paper_summary: "Abstract: The increasing adoption of agentic workflows across diverse domains brings a critical need to scalably and systematically evaluate the com- plex traces these systems generate. Current evaluation metho | Overview: arXiv:2505.08638v3 [cs.AI] 23 Jun 2025 TRAIL: Trace Reasoning and Agentic Issue Localization Darshan Deshpande Varun Gangal Hersh Mehta Jitin Krishnan Anand Kannappan Rebecca Qian Patronus AI {darshan | Key Findings: methods for agentic workflow traces, (2) intro- duce a formal taxonomy of error types encoun- tered in agentic systems, and (3) present a set of 148 l | Conclusions: In this work, TRAIL, a new taxonomy for classi- fying agentic errors, along with an expert-curated dataset of 148 agentic problem instances and 841 un"
 local_pdf: "[[PDFs/2025/2025-Deshpande-TRAIL.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, o1, o3, Claude, Gemini, Llama"
+LLM_assessed: "Claude-3 Sonnet, Gemini, LLaMA, o1, o3"
 DATA_URL: "https://huggingface.co/datasets/PatronusAI/TRAIL"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -100,7 +104,7 @@ The increasing adoption of agentic workflows across diverse domains brings a cri
 
 ## Data Description
 
-The paper introduces TRAIL (Trace Reasoning and Agentic Issue Localization), a benchmark of 148 human-annotated agentic workflow traces with 841 errors across a formal taxonomy of reasoning, planning, and execution error categories. Traces are sourced from GAIA and SWE-Bench datasets in opentelemetry format. Models tested include GPT-4.1, o1, o3, Claude-3.7-Sonnet, Gemini-2.5-Pro, Gemini-2.5-Flash, and Llama-4 (Scout and Maverick), with the best model (Gemini-2.5-Pro) achieving only 11% joint accuracy.
+Introduces TRAIL, a benchmark of 148 human-annotated agentic workflow traces (1987 OpenTelemetry spans, 841 errors) drawn from GAIA and SWE-Bench, covering a formal taxonomy of agentic error types for evaluating LLM trace-debugging capabilities.
 
 
 ## Notes

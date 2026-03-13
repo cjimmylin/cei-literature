@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.md"
 local_pdf: "[[PDFs/2025/2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "N/A"
-languages_list: English
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, DeepSeek, DeepSeek-R1, DeepSeek-V3, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama3, Qwen 2.5, Qwen2.5, Qwen25"
+LLM_assessed: "DeepSeek, GPT-3.5, GPT-4, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/ku-nlp/global-opinion-alignment"
 tags: 
 abstract: "Today’s large language models (LLMs) are capable of supporting multilingual scenarios, allowing users to interact with LLMs in their native languages. When LLMs respond to subjective questions posed by users, they are expected to align with the views of specific demographic groups or historical periods, shaped by the language in which the user interacts with the model. Existing studies mainly focus on researching the opinions represented by LLMs among demographic groups in the United States or..."

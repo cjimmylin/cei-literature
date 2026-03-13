@@ -30,6 +30,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,8 +52,8 @@ local_pdf: "[[PDFs/2022/2022-Ramponi-Addressing Religious Hate Online From Taxon
 publication: "PeerJ Computer Science"
 CONF-CC: "PeerJ Computer Science"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Italian"
+cultures_nationalities_list: "Italian"
 languages_list: "English, Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -68,7 +71,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -104,7 +107,8 @@ Bilingual Twitter dataset (English + Italian)
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://github.com/dhfbk/religious-hate-speech.
+Bilingual (English/Italian) Twitter dataset annotated with fine-grained religious hate speech taxonomy covering Judaism, Christianity, and Islam.
+
 
 ## Notes
 

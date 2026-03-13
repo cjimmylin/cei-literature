@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +63,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) have become integral tool for users from various backgrounds. Pre-trained on vast corpora, LLMs reflect the linguistic and cultural nuances embedded in their training data. However, the values and perspectives inherent in this data can influence the behavior of LLMs, leading to potential biases. As a result, the use of LLMs in contexts involving spiritual or moral values necessitates careful consideration of these underlying biases."
-LLM_assessed: "ChatGLM, ChatGLM 2, Chatglm2, CodeLlama, GPT-2, GPT-4, GPT-4-turbo, GPT2, Llama-2, Llama-3, Llama, Llama 3, Llama2, Llama3, Mistral, Phi-3, Qwen 1.5, Qwen-1.5, Vicuna, Vicuna 1.5"
+LLM_assessed: "ChatGLM, GPT-4, Gemma, Llama-2, Llama-3, MPT, Mistral, Phi-3, Qwen-1.5, Vicuna"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,12 +49,12 @@ local_pdf: "[[PDFs/2025/2025-Resta-Evalita-LLM Benchmarking Large Language Model
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
-languages_list: Italian
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3.1, Gemma-2, Mistral, Qwen-2.5, Aya-Expanse, Minerva-3B, Zefiro"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/spaces/evalita-llm"
 tags: 
 abstract: "We describe Evalita-LLM, a new benchmark designed to evaluate Large Language Models (LLMs) on Italian tasks. The distinguishing and innovative features of Evalita-LLM are the following: (i) all tasks are native Italian, avoiding issues of translating from Italian and potential cultural biases; (ii) in addition to well established multiple-choice tasks, the benchmark includes generative tasks, enabling more natural interaction with LLMs; (iii) all tasks are evaluated against multiple prompts,..."
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ This paper presents Evalita-LLM, a comprehensive benchmark for evaluating LLMs o
 
 ## Data Description
 
-Evalita-LLM is a comprehensive benchmark and leaderboard designed to evaluate LLMs on Italian tasks, covering ten native Italian tasks including both multiple-choice and generative formats, with multiple prompts per task to mitigate sensitivity. All tasks are native Italian, avoiding translation biases. Provides leaderboard for 23 open-source models.
+Evalita-LLM: a benchmark of 10 native Italian NLP tasks (word disambiguation, textual entailment, sentiment analysis, hate speech, FAQ QA, medical admission tests, lexical substitution, NER, relation extraction, summarization) compiled from existing Evalita campaign datasets, released on HuggingFace.
 
 
 ## Detailed Summary

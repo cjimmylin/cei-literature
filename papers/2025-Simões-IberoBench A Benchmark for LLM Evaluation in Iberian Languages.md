@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,14 +51,14 @@ pdf_extract: "PDF Extracts/2025/2025-Simões-IberoBench A Benchmark for LLM Eval
 local_pdf: "[[PDFs/2025/2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish, Brazilian"
-cultures_nationalities_list: "Spanish, Portuguese, Basque, Catalan, Galician"
+cultures_nationalities_list: "Spanish, Brazilian"
 languages_list: "Basque, Catalan, Galician, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOM, BLOOM-1, BLOOM-7, Falcon-7B, Gemma, Llama, Llama 3, Llama-3, Mistral, Mistral-7B"
-DATA_URL: "NA"
+LLM_assessed: "BERT, BLOOM, Falcon, Gemma, LLaMA, Llama-3, Mistral"
+DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "The current best practice to measure the performance of base Large Language Models is to establish a multi-task benchmark that covers a range of capabilities of interest. Currently, however, such benchmarks are only available in a few high-resource languages. To address this situation, we present IberoBench, a multilingual, multi-task benchmark for Iberian languages (i.e., Basque, Catalan, Galician, European Spanish and European Portuguese) built on the LM Evaluation Harness framework."
 CONFERENCE: "ACL 2025"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ Multi-task benchmark for Iberian languages built on LM Evaluation Harness. 62 ta
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, BLOOM-1, BLOOM-7, Falcon-7B, Gemma, Llama, Llama 3, Llama-3, Mistral, Mistral-7B. No high-confidence repository-style data URL was identified.
+IberoBench is a multi-task benchmark for Iberian languages (Basque, Catalan, Galician, European Spanish, European Portuguese) comprising 62 tasks and 179 subtasks. It includes 22 newly created datasets (including Phrases, Parafrases_gl, and Summarization_gl) contributed as part of the benchmark.
+
 
 ## Notes
 

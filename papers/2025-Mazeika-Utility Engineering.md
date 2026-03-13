@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ abstract: "As AIs rapidly advance and become more agentic, the risk they pose is
 paper_summary: "Abstract: As AIs rapidly advance and become more agentic, the risk they pose is governed not only by their capabilities but increasingly by their propensities, including goals and values. Tracking the emergence | Overview: Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs Mantas Mazeika1, Xuwang Yin1, Rishub Tamirisa1, Jaehyuk Lim2, Bruce W. Lee2, Richard Ren2, Long Phan1, Norman Mu3, Adam Kho | Methodology: to analyze and reshape these utilities, offering a more direct way to control AI systems' behavior. By studying both how emergent values arise and how | Key Findings: AI preferences derive from coherent value systems AI outputs are shaped by utility maximization AIs are acquiring their own goals and values Figure 2: | Conclusions: 18 3 --- Page 4 --- Prior"
 local_pdf: "[[PDFs/2025/2025-Mazeika-Utility Engineering.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Gemma, Qwen"
+LLM_assessed: "Claude, GPT-4o, Gemma, Llama-2, Llama-3, Phi, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"

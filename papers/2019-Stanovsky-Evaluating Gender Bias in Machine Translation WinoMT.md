@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,9 +47,9 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2019/2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.md"
 local_pdf: "[[PDFs/2019/2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic, French, Italian, Spanish, Russian, Hebrew/Israeli"
-cultures_nationalities_list: "Arabic, French, Italian, Spanish, Russian, Israeli"
-languages_list: "Arabic, Czech, English, French, Hebrew, Italian, Polish, Russian, Spanish, Ukrainian"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -61,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -101,7 +104,7 @@ This paper introduces WinoMT, a challenge set of 3,888 English sentences derived
 
 ## Data Description
 
-The paper introduces WinoMT, a challenge set of 3,888 English sentences for evaluating gender bias in machine translation, built by concatenating the Winogender and WinoBias coreference datasets. Six MT systems are evaluated across eight target languages: Google Translate, Microsoft Translator, Amazon Translate, SYSTRAN (commercial), and two academic models from fairseq. Results show all systems are significantly prone to gender-biased translation errors, with stereotypical gender role assignments changing sentence meaning.
+WinoMT: A challenge set of 3,888 English segments for evaluating gender bias in machine translation to 8 target languages, with accuracy, gender gap, and stereotype gap metrics.
 
 
 ## Detailed Summary

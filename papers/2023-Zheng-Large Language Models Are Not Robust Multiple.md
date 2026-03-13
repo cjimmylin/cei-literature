@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "Multiple choice questions (MCQs) serve as a common yet important task
 paper_summary: "Abstract: Multiple choice questions (MCQs) serve as a common yet important task format in the evaluation of large language models (LLMs). This work shows that modern LLMs are vulnerable to option position chang | Overview: Published as a conference paper at ICLR 2024 LARGE LANGUAGE MODELS ARE NOT ROBUST MULTIPLE CHOICE SELECTORS Chujie Zheng† Hao Zhou‡ Fandong Meng‡ Jie Zhou‡ Minlie Huang†∗ †The CoAI Group, DCST, BNRist | Methodology: 3.1 PERMUTATION-BASED DEBIASING BASELINE AND FORMULATION Before proposing our debiasing method, we first introduce a strong permutation-based debiasin | Key Findings: Our evaluation protocol follows the mainstream LLM evaluation frameworks, such as HuggingFace LLM Leaderboard, EleutherAI lm-harness, the original MML | Conclusions: This work studies the inherent selection bias of large language models (LLMs), which makes them vulnerable to option position changes in multiple choi"
 local_pdf: "[[PDFs/2023/2023-Zheng-Large Language Models Are Not Robust Multiple.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, Llama, Llama-2, Vicuna, Falcon"
+LLM_assessed: "ChatGPT, Falcon, LLaMA, Llama-2, Vicuna"
 DATA_URL: "https://github.com/chujiezheng/LLM-MCQ-Bias"
 CONFERENCE: "ICLR 2023"
 ethics_overall: "Yes"
@@ -65,7 +69,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
@@ -102,7 +106,7 @@ Multiple choice questions (MCQs) serve as a common yet important task format in 
 
 ## Data Description
 
-This paper investigates selection bias in LLMs when answering multiple choice questions, showing that models prefer specific option IDs as answers. The evaluation covers 20 LLMs across popular families including Llama (7/13/30/65B), Llama-2 and Llama-2-chat (7/13/70B), Vicuna v1.3 and v1.5 variants, Falcon (7/40B) and Falcon-instruct, and gpt-3.5-turbo, tested on MMLU, ARC-Challenge, and CommonsenseQA benchmarks. The paper proposes PriDe, a label-free inference-time debiasing method.
+Code and analysis for investigating selection bias in LLMs on multiple choice questions, with the PriDe debiasing method.
 
 
 ## Notes

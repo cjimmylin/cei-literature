@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,7 @@ CONF-CC: "AACL 2020"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
-languages_list: Portuguese
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "6 categories"
@@ -98,7 +102,8 @@ Largest toxic language dataset for Brazilian Portuguese with 21,000 tweets annot
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/JAugusto97/ToLD-Br.
+ToLD-Br: 21,000 Brazilian Portuguese tweets annotated by 42 annotators across 6 toxicity categories (LGBTQ+phobia, Xenophobia, Obscene, Insult, Misogyny, Racism).
+
 
 ## Notes
 

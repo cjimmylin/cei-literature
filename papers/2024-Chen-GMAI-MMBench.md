@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +60,7 @@ abstract: "Large Vision-Language Models (LVLMs) are capable of handling diverse 
 paper_summary: "Abstract: Large Vision-Language Models (LVLMs) are capable of handling diverse data types such as imaging, text, and physiological signals, and can be applied in vari- ous fields. In the medical field, LVLMs ha | Overview: GMAI-MMBench: A Comprehensive Multimodal Evaluation Benchmark Towards General Medical AI Pengcheng Chen1,2∗Jin Ye1,3∗† Guoan Wang1,4∗Yanjun Li1,4 Zhongying Deng5 Wei Li1,6 Tianbin Li1 Haodong Duan1 Zi | Methodology: for the semantic segmentation and quantitative analysis of retinal arteries and veins in infrared reflectance imaging. IEEE Journal of Biomedical and  | Key Findings: across all clinical aspects. A comprehensive benchmark should be easily customized to evaluate any specific abilities of LVLMs for each clinical profe | Conclusions: The development of GMAI-MMBench as a benchmark for evaluating LVLMs' capabilities represents a significant advancement in the pursuit of general medic"
 local_pdf: "[[PDFs/2024/2024-Chen-GMAI-MMBench.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Gemini, Claude, DeepSeek, Qwen"
+LLM_assessed: "Claude-3 Opus, CogVLM, DeepSeek-VL, Gemini, Gemini Pro 1.5, GPT-4V, GPT-4o, InternVL, LLaVA, MiniCPM-V, Qwen-VL"
 DATA_URL: "https://huggingface.co/datasets/OpenGVLab/GMAI-MMBench"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "No"
@@ -100,7 +105,7 @@ Large Vision-Language Models (LVLMs) are capable of handling diverse data types 
 
 ## Data Description
 
-The paper introduces GMAI-MMBench, a comprehensive multimodal evaluation benchmark for general medical AI, constructed from 284 datasets across 38 medical image modalities, 18 clinical VQA tasks, and 18 departments. The benchmark contains approximately 26,000 QA pairs with four perceptual granularities (image, box, mask, contour) and was used to evaluate 50 large vision-language models.
+GMAI-MMBench: a comprehensive medical AI multimodal benchmark with ~26K VQA pairs from 284 datasets across 38 imaging modalities, 18 clinical VQA tasks, 18 departments, and 4 perceptual granularities, organized in a lexical tree for customized evaluation.
 
 
 ## Notes

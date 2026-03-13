@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +42,8 @@ authors: "Edmond Awad; Sohan Dsouza; Azim Shariff; Iyad Rahwan; Jean-François B
 doi: 10.1073/pnas.1911517117
 url: "https://pnas.org/doi/full/10.1073/pnas.1911517117"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/G3UPAJU7/Awad et al. - 2020 - Universals and variations in moral decisions made in 42 countries by 70,000 participants.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +57,7 @@ pdf: "https://www.pnas.org/content/pnas/117/5/2332.full.pdf"
 CONF-CC: "PNAS"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
-DATA_URL: "https://moralmachine.mit.edu"
+DATA_URL: "https://bit.ly/2Y7Brr9"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"
 local_pdf: "[[PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"
 CONFERENCE: "Journal"

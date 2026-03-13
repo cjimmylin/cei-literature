@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -90,7 +93,7 @@ The recent rise in popularity of large language models (LLMs) has prompted consi
 
 ## Data Description
 
-The paper introduces AMAeval, a benchmark for evaluating LLMs as Artificial Moral Assistants (AMAs), testing both deductive and abductive moral reasoning capabilities. Multiple open-source LLM families are evaluated including Gemma 3 (12B, 27B), Llama 3.1-3.3, Phi 3 and 4, and Qwen 2.5 in both static (evaluating reasoning chains) and dynamic (generating reasoning chains) settings.
+AMAeval is a new benchmark for evaluating LLMs as Artificial Moral Assistants, comprising a static component (reasoning evaluation) and a dynamic component (reasoning generation), with human-annotated moral scenarios aligned to Moral Foundations Theory.
 
 
 ## Notes

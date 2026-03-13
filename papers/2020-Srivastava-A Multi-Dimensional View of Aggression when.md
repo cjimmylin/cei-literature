@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +58,7 @@ local_pdf: "[[PDFs/2020/2020-Srivastava-A Multi-Dimensional View of Aggression w
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
-DATA_URL: "NA"
+DATA_URL: "https://github.com/arjitsrivastava/MultidimensionalViewOpinionMining"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -91,7 +94,7 @@ The advent of social media has immensely proliferated the amount of opinions and
 
 ## Data Description
 
-The paper presents a Hindi-English code-mixed dataset on the topic of the 2016 India banknote demonetisation, annotated across multiple dimensions including aggression, hate speech, emotion arousal, and figurative language usage (sarcasm/irony, metaphors/similes, puns/word-play). This is the first work to combine analysis of aggression patterns and figurative language use when voicing opinion in social media, providing fine-grained multi-dimensional annotation of stance-related discourse.
+1,001 Hindi-English code-mixed tweets about the 2016 Indian banknote demonetisation annotated across six dimensions: stance, aggression (overt/covert/non-aggressive), hate speech, sarcasm/irony/rhetorical questions, puns/word-play, metaphors/similes, and emotion arousal.
 
 
 ## Notes

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, GPT-4, MariTalk"
+LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "NA"
 tags: 
 abstract: "The Exame Nacional do Ensino M´edio (ENEM) is a pivotal test for Brazilian students, required for admission to a significant number of universities in Brazil. The test consists of four objective high-school level tests on Math, Humanities, Natural Sciences and Languages, and one writing essay. Students’ answers to the test and to the accompanying socioeconomic status questionnaire are made public every year (albeit anonymized) due to transparency policies from the Brazilian Government."
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

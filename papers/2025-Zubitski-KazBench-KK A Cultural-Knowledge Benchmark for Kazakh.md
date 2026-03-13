@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +52,7 @@ publication: "ACL 2025 FieldMatters Workshop"
 CONF-CC: "ACL 2025 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kazakh"
+cultures_nationalities_list: "N/A"
 languages_list: "Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We introduce KazBench-KK, a comprehensive 7,111-question multiple-choice benchmark designed to assess large language models’ understanding of culturally grounded Kazakh knowledge. By combining expertcurated topics with LLM-assisted web mining, we create a diverse dataset spanning 17 culturally salient domains, including pastoral traditions, social hierarchies, and contemporary politics. Beyond evaluation, KazBenchKK serves as a practical tool for field linguists, enabling rapid lexical..."
-LLM_assessed: "DeepSeek, Gemma-3, LLama-3.1, Llama, Llama-3, Llama-3.3, Mistral, Qwen, Qwen 2.5, Qwen-32B"
+LLM_assessed: "DeepSeek, Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "NA"
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
@@ -65,7 +70,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +104,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include DeepSeek, Gemma-3, LLama-3.1, Llama, Llama-3, Llama-3.3, Mistral, Qwen, Qwen 2.5, Qwen-32B. No high-confidence repository-style data URL was identified.
+KazBench-KK is a 7,111-question multiple-choice benchmark covering 17 culturally salient Kazakh knowledge domains, generated via a semi-automated pipeline combining expert curation and LLM-assisted web mining. Dataset is noted as available on HuggingFace but no explicit URL is given in the paper.
+
 
 ## Notes
 

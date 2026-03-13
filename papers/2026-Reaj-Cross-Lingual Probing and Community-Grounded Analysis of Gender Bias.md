@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ local_pdf: "[[PDFs/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded A
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bengali"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5-Turbo"
+LLM_assessed: "GPT-3.5"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) have achieved significant success in recent years; yet, issues of intrinsic gender bias persist, especially in nonEnglish languages. Although current research mostly emphasizes English, the linguistic and cultural biases inherent in Global South languages, like Bengali, are little examined. This research seeks to examine the characteristics and magnitude of gender bias in Bengali, evaluating the efficacy of current approaches in identifying and alleviating Bias."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"

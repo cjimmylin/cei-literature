@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +49,8 @@ local_pdf: "[[PDFs/2024/2024-Hall-Towards Geographic Inclusion in the Evaluation
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"

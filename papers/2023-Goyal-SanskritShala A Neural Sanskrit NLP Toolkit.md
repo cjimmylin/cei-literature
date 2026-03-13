@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ local_pdf: "[[PDFs/2023/2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit.p
 publication: "ACL 2023 (System Demonstrations)"
 CONF-CC: "ACL 2023"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Sanskrit"
 religious_values: "N/A"
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We present a neural Sanskrit Natural Language Processing (NLP) toolkit named SanskritShala1 to facilitate computational linguistic analyses for several tasks such as word segmentation, morphological tagging, dependency parsing, and compound type identification. Our systems currently report state-of-the-art performance on available benchmark datasets for all tasks. SanskritShala is deployed as a web-based application, which allows a user to get real-time analysis for the given input."
-LLM_assessed: "Word2Vec, GloVe, ELMo, ALBERT"
+LLM_assessed: "ALBERT, ELMo"
 DATA_URL: "https://github.com/Jivnesh/SanskritShala"
 CONFERENCE: "ACL 2023"
 ethics_overall: "No"
@@ -64,8 +68,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "7 word"
@@ -102,7 +106,7 @@ data_metrics: "7 word"
 
 ## Data Description
 
-SanskritShala provides a neural Sanskrit NLP toolkit with four task modules (word segmentation, morphological tagging, dependency parsing, compound type identification) and seven pretrained word embedding models (word2vec, GloVe, fastText, charLM, ELMo, ALBERT, LCM) trained on publicly available Sanskrit corpora. The toolkit also includes four intrinsic evaluation datasets for analogy prediction, synonym detection, relatedness, and concept categorization, built from Sanskrit WordNet, Amarakosa, and Sanskrit Heritage Reader.
+SanskritShala toolkit releasing 7 pretrained Sanskrit word embedding models (Word2Vec, GloVe, fastText, charLM, ELMo, ALBERT, LCM) and 4 intrinsic evaluation datasets (word similarity, relatedness, categorization, analogy prediction) for Sanskrit NLP.
 
 
 ## Notes

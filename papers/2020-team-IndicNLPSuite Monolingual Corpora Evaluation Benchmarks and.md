@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "In this paper, we introduce NLP resources for 11 major Indian languages from two major language families. These resources include: (a) large-scale sentence-level monolingual corpora, (b) pre-trained word embeddings, (c) pre-trained language models, and (d) multiple NLU evaluation datasets (IndicGLUE benchmark). The monolingual corpora contains a total of 8.8 billion tokens across all 11 languages and Indian English, primarily sourced from news crawls."
-LLM_assessed: "ALBERT, BERT, GloVe, word2vec"
+LLM_assessed: "ALBERT, BERT"
 DATA_URL: "https://github.com/AI4Bharat/indicnlp_catalog"
 CONFERENCE: "EMNLP 2020"
 ethics_overall: "No"
@@ -99,7 +104,8 @@ NLP resources for 11 Indian languages including large-scale corpora, pre-trained
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, GloVe, word2vec. Verified dataset/resource link: https://github.com/AI4Bharat/indicnlp_catalog.
+IndicNLPSuite: monolingual corpora (8.8B tokens across 11 Indian languages), FastText word embeddings (IndicFT), ALBERT-based language model (IndicBERT), and IndicGLUE benchmark with NLU tasks including genre classification, headline prediction, NER, QA, and NLI.
+
 
 ## Notes
 

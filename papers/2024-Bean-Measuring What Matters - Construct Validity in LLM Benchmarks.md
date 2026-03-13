@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ newtags:
 tags: 
 abstract: "Evaluating large language models (LLMs) is crucial for both assessing their capabilities and identifying safety or robustness issues prior to deployment. Reliably measuring abstract and complex phenomena such as ‘safety’ and ‘robustness’ requires strong construct validity, that is, having measures that represent what matters to the phenomenon. With a team of 29 expert reviewers, we conduct a systematic review of 445 LLM benchmarks from leading conferences in natural language processing and..."
 research_topic: Other
-LLM_assessed: "GPT-4, GPT-4o mini"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
@@ -62,8 +66,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
@@ -97,7 +101,8 @@ Meta-analysis of existing LLM benchmarks
 
 ## Data Description
 
-This paper presents a systematic review of 445 LLM benchmark articles from leading ML and NLP conferences (ICML, ICLR, NeurIPS, ACL, NAACL, EMNLP) between 2018 and 2024. The dataset consists of expert annotations on 21 question items covering phenomena, tasks, metrics, and claims for each benchmark article, coded by 29 expert reviewers. The study is a meta-analysis of benchmarking practices rather than an evaluation of specific LLM models.
+Systematic review of 445 LLM benchmarks assessing construct validity; no new benchmark or dataset is introduced, only a meta-analysis and recommendations.
+
 
 ## Notes
 

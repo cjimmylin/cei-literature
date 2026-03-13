@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ local_pdf: "[[PDFs/2025/2025-Urieli-Jochre 3 and the Yiddish OCR corpus.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Yiddish"
-languages_list: Yiddish
+national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Yiddish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: "RoBERTa"
 DATA_URL: "https://gitlab.com/jochre/corpora/jochre-yiddish-corpus"
 tags: 
 abstract: "We describe the construction of a publicly available Yiddish OCR Corpus, and describe and evaluate the open source OCR tool suite Jochre 3, including an Alto editor for corpus annotation, OCR software for Alto OCR layer generation, and a customizable OCR search engine. The current version of the Yiddish OCR corpus contains 658 pages, 186K tokens and 840K glyphs. The Jochre 3 OCR tool uses various fine-tuned YOLOv8 models for top-down page layout analysis, and a custom CNN network for glyph..."
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "186k tokens; 660m word"
@@ -98,7 +101,8 @@ Annotated OCR corpus for Yiddish with 658 pages, 186K tokens, 840K glyphs. Achie
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://gitlab.com/jochre/corpora/jochre-yiddish-corpus.
+The Yiddish OCR Corpus (v1.0.0) contains 658 annotated pages (186K tokens, 840K glyphs) from historical Yiddish books (1880–1980), released under a Creative Commons Attribution-NonCommercial-ShareAlike license. It is used to train and evaluate the Jochre 3 OCR system.
+
 
 ## Notes
 

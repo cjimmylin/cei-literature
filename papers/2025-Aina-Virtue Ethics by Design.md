@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "embed virtue ethics"
@@ -34,11 +36,11 @@ last_author: "[[Adeyemi]]"
 authors: Aina; Adeyemi
 doi: 10.1007/978-3-031-99965-9_36
 url: "https://www.researchgate.net/publication/387431326_Virtue_Ethics_by_Design_Embedding_Morality_into_AGI_and_ASI"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Proposes 'Virtue Ethics by Design' (VED), a framework for embedding basic (justice, honesty) and second-order (prudence, fortitude) virtues directly into AGI architectures"
@@ -56,7 +58,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ paper_summary: "Abstract: The advent of large language models (LLMs) and their a
 local_pdf: "[[PDFs/2023/2023-Guha-LegalBench.pdf]]"
 CONF-CC: "Social Science Research Network"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Claude, OPT, Flan-T5, Llama-2, Falcon, BLOOM"
+LLM_assessed: "BLOOM, Claude, Falcon, Flan-T5, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://github.com/HazyResearch/legalbench/"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -94,7 +98,7 @@ The advent of large language models (LLMs) and their adoption by the legal commu
 
 ## Data Description
 
-LegalBench is a collaboratively constructed legal reasoning benchmark consisting of 162 tasks covering six types of legal reasoning: issue-spotting, rule-recall, rule-application, rule-conclusion, interpretation, and rhetorical-understanding. Tasks are drawn from 36 distinct corpora and include binary classification, multi-class classification, multiple-choice, and open-generation formats. Twenty LLMs from 11 families were evaluated, including commercial models (GPT-4, GPT-3.5, Claude-1) and 17 open-source models at 3B, 7B, and 13B parameter sizes.
+LegalBench: a collaboratively constructed legal reasoning benchmark consisting of 162 tasks covering six types of legal reasoning, with hand-crafted evaluation data from legal professionals, evaluated across 20 LLMs from 11 families.
 
 
 ## Notes

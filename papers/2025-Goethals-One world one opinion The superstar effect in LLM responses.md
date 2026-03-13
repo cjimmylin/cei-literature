@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "NAACL 2025"
 local_pdf: "[[PDFs/2025/2025-Goethals-One world one opinion The superstar effect in LLM responses.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Goethals-One world one opinion The superstar effect in LLM responses.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "10 languages, Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, Claude-3-Opus, Llama-3.1-70B"
+LLM_assessed: "Claude-3 Opus, GPT-4, Llama-3"
 DATA_URL: "NA"
 tags: 
 abstract: "Investigates which figures LLMs identify as most prominent across fields using prompts in 10 languages. Finds minimal diversity with a 'superstar effect' — a few individuals dominate responses across all languages, risking narrowed global knowledge representation."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "10 languages"

@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,14 +51,14 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.md"
 local_pdf: "[[PDFs/2025/2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi, Bengali"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT 4o, GPT-4o, Gemma, Gemma-3, Llama, LLaMA-3.1, Mistral 7B, Phi-4 14B, Qwen, Qwen-2.5"
+LLM_assessed: "Gemma, GPT-4o, Llama-3, Mistral, Phi, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/aplycaebous/BanHate"
 tags: 
 abstract: "Online safety in low-resource languages relies on effective hate speech detection, yet Bangla remains critically underexplored. Existing resources focus narrowly on binary classification and fail to capture the evolving, implicit nature of online hate. To address this, we introduce BANHATE, a large-scale Bangla hate speech dataset, comprising 19,203 YouTube comments collected between April 2024 and June 2025."
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
@@ -101,7 +105,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT 4o, GPT-4o, Gemma, Gemma-3, Llama, LLaMA-3.1, Mistral 7B, Phi-4 14B, Qwen, Qwen-2.5. Verified dataset/resource link: https://huggingface.co/datasets/aplycaebous/BanHate.
+BANHATE is a large-scale Bangla hate speech dataset of 19,203 YouTube comments annotated for binary hate labels, 7 fine-grained categories, and 7 target groups, collected between April 2024 and June 2025.
+
 
 ## Notes
 

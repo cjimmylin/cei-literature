@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, GPT-4, ChatGLM-6B, ChatGLM-4, Claude 3.5, Baichuan-4, Llama-3.1-405B, Qwen-2-72B, Qwen-Turbo, DeepSeek-R1"
+LLM_assessed: "ChatGPT, GPT-4, ChatGLM, Claude-3, Llama-3, Qwen, Qwen-2, Baichuan, Yi"
 DATA_URL: "NA"
 tags: 
 abstract: "Evaluating the value alignment of large language models (LLMs) has traditionally relied on single-sentence adversarial prompts, which directly probe models with ethically sensitive or controversial questions. However, with the rapid advancements in AI safety techniques, models have become increasingly adept at circumventing these straightforward tests, limiting their effectiveness in revealing underlying biases and ethical stances."
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,7 @@ Upgrades the CVALUES Chinese value alignment benchmark with multi-turn dialogues
 
 ## Data Description
 
-C-Plus Values is a Chinese value alignment benchmark that upgrades single-sentence adversarial prompts to multi-turn dialogues and narrative-based story scenarios. Built by extending the CValues dataset using GPT-4 to generate adversarial dialogue and story formats, it evaluates LLMs' responsibility alignment through more stealthy and context-rich settings. The benchmark includes both manual and automatic evaluation, testing 10 models including Chinese and Western LLMs, finding that advanced models like GPT-4 and Claude 3.5 that scored 97-98 on original CValues showed more varied performance on the upgraded benchmark.
+C-Plus: an upgraded version of the CVALUES Chinese value alignment benchmark with 1,528 entries, transforming single-sentence adversarial prompts into multi-turn dialogues and narrative story scenarios with responsibility traps. No public repository URL was found in the extract.
 
 
 ## Notes

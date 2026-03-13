@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +58,7 @@ paper_summary: "Overview: Agent-as-a-Judge: Evaluate Agents with Agents Mingchen
 local_pdf: "[[PDFs/2024/2024-Zhuge-Agent-as-a-Judge.pdf]]"
 abstract: "Contemporary evaluation techniques are inadequate for agentic systems. These approaches either focus exclusively on final outcomes -- ignoring the step-by-step nature of agentic systems, or require excessive manual labour. To address this, we introduce the Agent-as-a-Judge framework, wherein agentic systems are used to evaluate agentic systems. This is an organic extension of the LLM-as-a-Judge framework, incorporating agentic features that enable intermediate feedback for the entire task-solvin"
 DATE_ADDED: 20260208
-LLM_assessed: GPT-4
+LLM_assessed: "GPT-4o"
 DATA_URL: "https://huggingface.co/devai-benchmark"
 CONFERENCE: "ICML 2024"
 ethics_overall: "No"
@@ -100,7 +103,7 @@ Contemporary evaluation techniques are inadequate for agentic systems. These app
 
 ## Data Description
 
-The paper introduces the DevAI benchmark of 55 realistic automated AI development tasks with 365 hierarchical requirements, evaluated using the Agent-as-a-Judge framework. Three code-generating agentic systems (MetaGPT, GPT-Pilot, OpenHands) are benchmarked with gpt-4o-2024-05-13 as the backend engine, comparing Agent-as-a-Judge evaluation against LLM-as-a-Judge and human evaluation baselines.
+DevAI: a benchmark of 55 real-world automated AI development tasks with 365 hierarchical requirements, used to evaluate code-generating agentic systems under the Agent-as-a-Judge framework.
 
 
 ## Notes

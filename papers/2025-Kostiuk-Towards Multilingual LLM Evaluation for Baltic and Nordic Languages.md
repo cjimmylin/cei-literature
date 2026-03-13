@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md"
 local_pdf: "[[PDFs/2025/2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Lithuanian, Baltic, Nordic"
-languages_list: "Lithuanian, Nordic languages"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, Llama-3.1, Qwen2"
-DATA_URL: "https://github.com/ollama/ollama"
+LLM_assessed: "GPT-4o, Llama-3, Mistral, Qwen-2"
+DATA_URL: NA
 tags: 
 abstract: "In this work, we evaluated Lithuanian and general history knowledge of multilingual Large Language Models (LLMs) on a multiple-choice question-answering task. The models were tested on a dataset of Lithuanian national and general history questions translated into Baltic, Nordic, and other languages (English, Ukrainian, Arabic) to assess the knowledge sharing from culturally and historically connected groups. We evaluated GPT-4o, LLaMa3.1 8b and 70b, QWEN2."
 ethics_perspective: "AI Safety & Alignment"

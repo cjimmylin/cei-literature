@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,16 +49,16 @@ local_pdf: "[[PDFs/2025/2025-Jiang-Investigating Machine Moral Judgement Through
 publication: "Nature Machine Intelligence"
 CONF-CC: "Nature Machine Intelligence"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
-languages_list: ""
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
-abstract: 
-LLM_assessed: "GPT-3, GPT-3.5, GPT-4, T5"
+abstract: "As our society adopts increasingly powerful artificial intelligence (AI) systems for pervasive use, there are growing concerns about machine morality -- or lack thereof. Millions of users already rely on the outputs of AI systems, such as chatbots, as decision aids. Meanwhile, AI researchers continue to grapple with the challenge of aligning these systems with human morality and values. In response to this challenge, we build and test Delphi, an open-source AI system trained to predict the..."
+LLM_assessed: "Delphi, GPT-3, GPT-3.5, GPT-4, T5"
 DATA_URL: "https://github.com/liweijiang/delphi.git"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Journal"
@@ -64,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,8 @@ DelphiHYBRID system: operationalizes Gert's 10 moral principles as symbolic cons
 
 ## Data Description
 
-The paper presents the Commonsense Norm Bank, a compilation of 1.7 million crowdsourced moral judgements of everyday situations drawn from Social Chemistry (1.5M), Moral Stories (144k), Social Bias Frames (28k), and ETHICS (21k) datasets. These judgements were primarily annotated by educated, white US-based crowdworkers and converted into a unified query-answer format. The Delphi system, built on T5-11B via the UNICORN commonsense reasoning model, was benchmarked against GPT-3, GPT-3.5, and GPT-4 on held-out moral judgement prediction tasks.
+The paper releases the Commonsense Norm Bank, a large-scale dataset of human moral judgements across everyday situations, along with the Delphi model (built on T5) and associated evaluation resources.
+
 
 ## Notes
 

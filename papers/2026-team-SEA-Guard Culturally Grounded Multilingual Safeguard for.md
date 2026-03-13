@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2026/2026-team-SEA-Guard Culturally Grounded Multilingual Saf
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Southeast Asian"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Culturally aware safeguards are crucial for AI alignment in real-world settings, where safety extends beyond common sense and encompasses diverse local values, norms, and regionspecific regulations. However, building largescale, culturally grounded datasets is challenging due to limited resources and a scarcity of native annotators. Consequently, many safeguard models rely on machine translation of English datasets, often missing regional and cultural nuances."
-LLM_assessed: "Gemma, Gemma2, Gemma3, Llama, Llama-3, Llama3, LlamaGuard, Qwen, Qwen-SEA, Qwen3, Qwen3Guard"
+LLM_assessed: "Gemma, Gemma-2, Llama-3, Qwen"
 DATA_URL: "https://huggingface.co/aisingapore/Qwen-SEA-Guard-8B-2602"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -100,7 +104,8 @@ First multilingual safeguard models grounded in SEA cultural contexts. Trained o
 
 ## Data Description
 
-Backfill summary: Models assessed include Gemma, Gemma2, Gemma3, Llama, Llama-3, Llama3, LlamaGuard, Qwen, Qwen-SEA, Qwen3, Qwen3Guard. Verified dataset/resource link: https://huggingface.co/aisingapore/Qwen-SEA-Guard-8B-2602.
+A culturally grounded SEA safety dataset of 870,000 samples per language (8 SEA languages), spanning 53 SEA cultural categories, generated via an agentic data-synthesis framework with LLM-based annotation and human verification by 32 native speakers.
+
 
 ## Notes
 

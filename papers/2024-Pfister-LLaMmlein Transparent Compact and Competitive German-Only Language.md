@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,12 +48,12 @@ local_pdf: "[[PDFs/2024/2024-Pfister-LLaMmlein Transparent Compact and Competiti
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "LLäMmlein-120M, LLäMmlein-1B, bert-base-german-cased"
+LLM_assessed: "BERT"
 DATA_URL: "https://professor-x.de/lm/LLaMmlein"
 tags: 
 abstract: "We transparently create two German-only decoder models, LLäMmlein 120M and 1B1, from scratch and publish them, along with training data, for the (German) NLP research community to use2. The model training involved several key steps, including data preprocessing/filtering, the creation of a German tokenizer, the training itself, as well as the evaluation of the final models on various benchmarks, also against existing models."
@@ -61,7 +65,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,7 @@ This paper presents LLäMmlein, the first fully transparent German-only language
 
 ## Data Description
 
-German-only decoder models (120M and 1B params) trained from scratch with custom tokenizer. Evaluated on SuperGLEBer benchmark. The 120M model outperforms bert-base-german-cased by 14% on NLI tasks. Fully transparent training pipeline for German language model development.
+Releases two German-only decoder models (LLäMmlein 120M and 1B) trained from scratch, along with the filtered German training dataset derived from RedPajama V2. All training data, code, and intermediate checkpoints are made publicly available.
 
 
 ## Detailed Summary

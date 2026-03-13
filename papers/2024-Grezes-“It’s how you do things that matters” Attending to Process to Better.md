@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,9 +45,9 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Grezes-'It's how you do things that matters' Attending to Process to Better.md"
 local_pdf: "[[PDFs/2024/2024-Grezes-“It’s how you do things that matters” Attending to Process to Better.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indigenous"
-languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "The importance of benchmarks for assessing the values of language models has been pronounced due to the growing need of more authentic, human-aligned responses. However, existing benchmarks rely on human or machine annotations that are vulnerable to value-related biases. Furthermore, the tested scenarios often diverge from real-world contexts in which models are commonly used to generate text and express values."
-LLM_assessed: "GPT-4, Llama-3, Qwen, Gemma, Mistral, Claude"
+LLM_assessed: "Claude, Gemma, Gemma-2, GPT-4, GPT-4o, Llama-3, Mistral, Qwen, o1"
 DATA_URL: "https://github.com/holi-lab/ValuePortrait"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -97,7 +101,8 @@ Psychometrically validated items with human-subject correlation data; evaluates 
 
 ## Data Description
 
-Value Portrait is a psychometrically validated benchmark for evaluating LLM value orientations using 520 query-response pairs annotated with correlations to Schwartz's 10 basic values and Big Five personality traits. The benchmark was constructed using GPT-4o for response generation and validated via a Prolific survey with 681 participants. Forty-four LLMs were evaluated, revealing consistent prioritization of Benevolence, Security, and Self-Direction values, with analyses of demographic biases and value steering effectiveness.
+Value Portrait is a psychometrically validated benchmark of 520 unique query-response pairs from real human-LLM interactions (ShareGPT, LMSYS, Reddit, Dear Abby), each annotated on 15 psychological dimensions (10 Schwartz values + 5 Big Five traits) by human participants via correlation analysis, used to evaluate 44 LLMs.
+
 
 ## Notes
 

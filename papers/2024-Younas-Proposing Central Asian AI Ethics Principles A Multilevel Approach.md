@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,9 +47,9 @@ CONF-CC: "AI and Ethics"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Central Asian"
-languages_list: "Kazakh, Kyrgyz, Tajik, Turkmen, Uzbek"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

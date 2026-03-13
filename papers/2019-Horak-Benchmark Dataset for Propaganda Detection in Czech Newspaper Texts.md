@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +50,8 @@ pdf_extract: "PDF Extracts/2019/2019-Horak-Benchmark Dataset for Propaganda Dete
 local_pdf: "[[PDFs/2019/2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Czech"
-languages_list: Czech
+cultures_nationalities_list: "N/A"
+languages_list: "Czech"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
@@ -99,7 +102,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-The paper introduces a benchmark dataset of 7,494 Czech newspaper articles from four digital news servers annotated for the presence of specific manipulative propaganda techniques including blaming, demonizing, labelling, fear mongering, and fabulation. Ten machine learning classifiers (including SVM, Random Forest, Ridge, Naive Bayes) are evaluated using bag-of-words features with TF-IDF weighting via stratified 3-fold cross-validation. The dataset also includes sentiment analysis correlations with propaganda attributes.
+A benchmark dataset of 7,494 Czech newspaper articles annotated for 17 manipulative propaganda techniques, intended for automatic detection of media manipulation and propaganda.
 
 
 ## Notes

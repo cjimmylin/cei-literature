@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,17 +45,17 @@ CONF-CC: "N/A"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Baha'i, Multi-religious"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Multi-tradition
+religious_values: "Baha'i, Buddhism, Christianity, Hinduism, Islam"
 religious_values_list: "Baha'i, Buddhism, Christianity, Hinduism, Islam"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Exploratory research examining the impact of AI on religious practices and ethics across multiple faith traditions. Covers the Baha'i International Community's engagement with AI ethics at the UN (2021), discusses how the Baha'i Faith positions science and religion as complementary forces, and calls for religious institutions to develop AI ethics codes and e-literacy programs."
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"

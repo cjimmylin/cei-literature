@@ -1,25 +1,6 @@
----
-title: "2025-Mohammed-Aftina - PDF Extract"
-source_pdf: "2025-Mohammed-Aftina.pdf"
-pages: 27
-extracted_at: "2026-01-29T13:51:32.039107"
----
-
-# PDF Extract: 2025-Mohammed-Aftina
-
-**Source PDF:** 2025-Mohammed-Aftina.pdf
-**Total Pages:** 27
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Vol.:(0123456789)
-Neural Computing and Applications 
- Neural Computing and Applications
+---\ntitle: "2025-Mohammed-Aftina - PDF Extract"\nsource_pdf: "2025-Mohammed-Aftina.pdf"\npages: 26\nextracted_at: "2026-02-14T02:17:35.064934"\n---\n\n# PDF Extract: 2025-Mohammed-Aftina\n\n**Source PDF:** 2025-Mohammed-Aftina.pdf\n**Total Pages:** 26\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nVol.:(0123456789)
+Neural Computing and Applications (2025) 37:20957–20982 
+ Neural Computing and Applications (2025) 37:20957–20982
 https://doi.org/10.1007/s00521-025-11229-y
 ORIGINAL ARTICLE
 Aftina: enhancing stability and preventing hallucination 
@@ -27,7 +8,7 @@ in AI‑based Islamic fatwa generation using LLMs
 and RAG​
 Marryam Yahya Mohammed1   · Sama Ayman Ali1 · Salma Khaled Ali1 · 
 Ayad Abdul Majeed3 · Ensaf Hussein Mohamed1,2
-Received: 10 December 2024 / Accepted: 26 March 2025 
+Received: 10 December 2024 / Accepted: 26 March 2025 / Published online: 2 June 2025 
 © The Author(s) 2025, corrected publication 2025
 Abstract
 Question–answering (QA) systems face considerable challenges when involved in Islamic fatwas due to the com-
@@ -53,13 +34,11 @@ sensitivity of religious questions. Regardless of the progress in LLMs and RAG a
 and compliant replies in Islamic jurisprudence is crucial. This paper aims to implement a fatwa QA system using 
 Marryam Yahya Mohammed, Sama Ayman Ali, Salma Khaled Ali, and Ensaf Hussein Mohamed have contributed 
 equally to this work.
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 2 ---
-
-	
-Neural Computing and Applications
+--- Page 2 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
 https://doi.org/10.1007/s00521-025-11229-y
+20958
 RAG with LLMs to generate responses. It addresses the challenges in automating fatwa generation and proposes 
 a solution for efficient and accurate automation.
 Implementing the fatwa QA faces several challenges that slow its reliability. These challenges are categorized 
@@ -95,11 +74,9 @@ versus
 While both sentences mean "Is prayer required during travel?", the dialectal variation can confuse NLP models. 
 This emphasizes the need for dialect-aware processing in AI-driven fatwa systems to ensure accurate responses 
 for diverse Arabic-speaking users.
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 3 ---
-
-Neural Computing and Applications	
+--- Page 3 ---\n\n20959
+Neural Computing and Applications (2025) 37:20957–20982	
 https://doi.org/10.1007/s00521-025-11229-y
 1.2  Technical challenges
 •	 Limitation in the availability of the Dataset: There is a lack of complete datasets especially tailored for Islamic 
@@ -145,13 +122,11 @@ consultation with trained Islamic scholars. This ensures the understanding of th
 •	 Bias and Fairness: The system intends to evaluate balanced interpretations from many Islamic schools of 
 thought to reduce bias. This guarantees that the produced replies are comprehensive and represent the full 
 scope of Islamic jurisprudence.
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 4 ---
-
-	
-Neural Computing and Applications
+--- Page 4 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
 https://doi.org/10.1007/s00521-025-11229-y
+20960
 By integrating these processes, the fatwa QA system can more effectively maintain ethical measures, ensuring 
 that AI-generated religious fatwas are precise, reliable, and consistent with Islamic values.
 We designed a structured approach to implementing a fatwa QA system using RAG and LLMs to guarantee 
@@ -194,11 +169,9 @@ On the other hand, [19] outlined the features of question–answering systems (Q
 lenges of the Arabic language’s complexity. Their survey presented current tools and datasets for Arabic QA, 
 discussing evaluation metrics and suggesting recommendations for future research. However, the focus stayed 
 on retrieval-based methods, with a limitation in exploring generative strategies.
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 5 ---
-
-Neural Computing and Applications	
+--- Page 5 ---\n\n20961
+Neural Computing and Applications (2025) 37:20957–20982	
 https://doi.org/10.1007/s00521-025-11229-y
 Building on this, [20] classified Islamic QAS into retrieval-based and pre-trained models or corpus-based sys-
 tems but emphasized the limited availability of NLP tools and the limited range of existing techniques. These stud-
@@ -242,13 +215,11 @@ torization and retrieval, and the LLMs used to generate the response.
 The dataset, obtained from Dar Alifta in Egypt, was used to implement the model. The dataset comprises three 
 main categories, which are Fasting, Banks, and Zakka, which includes a total of 18,407 question–answering. 
 Figure 1 shows the total number of occurrences for every category in the dataset.
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 6 ---
-
-	
-Neural Computing and Applications
+--- Page 6 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
 https://doi.org/10.1007/s00521-025-11229-y
+20962
 3.2  Methodology
 This paper will apply an experimental design approach to implement a QA approach that leverages an 
 advanced retrieval-augmented generation (RAG) technique specifically designed to implement a Fatwa QA 
@@ -334,11 +305,9 @@ Evaluated using ChatGPT−3.5 Turbo, showing
 improved performance on sensitive questions. 
 However, the dataset contains bias, affecting 
 precision
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 7 ---
-
-Neural Computing and Applications	
+--- Page 7 ---\n\n20963
+Neural Computing and Applications (2025) 37:20957–20982	
 https://doi.org/10.1007/s00521-025-11229-y
 The RAG techniques, enhanced by a Flash re-ranker, enhance the relevance of retrieved chunks and the qual-
 ity of generated responses, as shown in Fig. 2. This assures the procedure prioritizes the most relevant and 
@@ -349,13 +318,11 @@ We obtained our data from the Egyptian Dar Alifta. We received several files in 
 prepare the data for analysis, we applied several preprocessing techniques to remove the HTML tags from the 
 Fig. 1   Distribution of categories
 Fig. 2   Proposed model pipeline
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 8 ---
-
-	
-Neural Computing and Applications
+--- Page 8 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
 https://doi.org/10.1007/s00521-025-11229-y
+20964
 HTML files, such as <html>, <body>, <table>, <tr>, and <td>. Then, all the files were merged into two 
 CSV files: testing and training, having three main columns: Subject, Question and Answer.
 In Fig. 3, a sample of the data after being preprocessed and saved into a suitable format. After preprocessing 
@@ -379,11 +346,9 @@ allow for similarity calculations. Euclidean distance was decided over other opt
 to its significance with dense embeddings in retrieval tasks. Once the user query gets vectorized, FAISS com-
 putes the distances and returns the top-k chunks most similar to the user’s query. The value of K was adjusted 
 Fig. 3   Dataset sample
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 9 ---
-
-Neural Computing and Applications	
+--- Page 9 ---\n\n20965
+Neural Computing and Applications (2025) 37:20957–20982	
 https://doi.org/10.1007/s00521-025-11229-y
 experimentally to guarantee a balance between precision and available computational power and memory. The 
 top-k relevant chunks retrieved are passed to the last phase in the pipeline. The LLM generates an accurate and 
@@ -410,21 +375,19 @@ achieving good performance. Given that Silma is a large model in terms of comput
 applied the 4-bit quantization version. To generate a response, we initialized the prompt template to be specific 
 and detailed to guide the model in generating responses related to Islamic fatwas.
 AceGPT LLM The AceGPT [33] model shows significant advancements in language modeling. They are 
-designed to understand and generate Arabic text. It comes in versions with 7 to 13 billion parameters, with 
-the 7-billion-parameter AceGPT-7B standing out for its exceptional language generation and conversational 
-capabilities. Its unique focus on Arabic allows it to comprehend and produce text effectively. AceGPT-7B’s 
-impressive understanding of Arabic opens various possibilities for automation and creative applications. It is a 
-key tool for AI-powered chatbots, meeting high-quality Arabic language processing. With a stable structure and 
-extensive training data, it can generate logical and contextually relevant responses, making it suitable for casual 
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+designed to understand and generate Arabic text. It comes in versions with 7 to 13 billion parameters, with the 
+7-billion-parameter AceGPT-7B standing out for its exceptional language generation and conversational capabili-
+ties. Its unique focus on Arabic allows it to comprehend and produce text effectively. AceGPT-7B’s impressive 
+understanding of Arabic opens various possibilities for automation and creative applications. It is a key tool for 
+AI-powered chatbots, meeting high-quality Arabic language processing. With a stable structure and extensive 
+training data, it can generate logical and contextually relevant responses, making it suitable for casual and profes-
+sional users. Given that AceGPT is a large model of computational power and memory, we used the AceGPT-7B 
+Chat AWQ version that supports the 4-bit quantization version.
 
---- Page 10 ---
-
-	
-Neural Computing and Applications
+--- Page 10 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
 https://doi.org/10.1007/s00521-025-11229-y
-and professional users. Given that AceGPT is a large model of computational power and memory, we used the 
-AceGPT-7B Chat AWQ version that supports the 4-bit quantization version.
+20966
 Gemini LLM Google’s Gemini 1.5 [34], a magnificent and giant language model, is ahead of all other 
 models in humanlike natural language processing and generation. Gemini 1.5, on the one hand, has a better 
 understanding of the context and a higher level of accuracy as it is trained on millions of tokens of context 
@@ -450,20 +413,18 @@ chosen, they are combined with the user query to provide a thorough input prompt
 creates a response that includes the contextual information provided by the re-ranked chunks and the user query. 
 The relation between RAG retrieval and the LLM guarantees that the generated response is relevant and accurate.
 Algorithm 2   Generate response with re-rank
-Algorithm 2 illustrates the re-ranking technique used to generate responses based on a given query in 
-our work. The procedure starts by embedding the query and searching an FAISS index for the top-k results 
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+Algorithm 2 illustrates the re-ranking technique used to generate responses based on a given query in our 
+work. The procedure starts by embedding the query and searching an FAISS index for the top-k results corre-
+sponding to the query embedding. These results are then retrieved from the data to retrieve relevant QA pairs. 
+The algorithm returns a message indicating this if no relevant chunks are located. Otherwise, the retrieved 
 
---- Page 11 ---
-
-Neural Computing and Applications	
+--- Page 11 ---\n\n20967
+Neural Computing and Applications (2025) 37:20957–20982	
 https://doi.org/10.1007/s00521-025-11229-y
-corresponding to the query embedding. These results are then retrieved from the data to retrieve relevant 
-QA pairs. The algorithm returns a message indicating this if no relevant chunks are located. Otherwise, the 
-retrieved chunks will be re-ranked based on their relevancy to the query, and the re-ranked chunks will be 
-returned as the final response. After re-ranking, the sorted chunks are combined with the user query and passed 
-as input to the generative model, allowing it to create a response incorporating the most relevant retrieved 
-knowledge. This strategy guarantees that the generated response is both appropriate and precise.
+chunks will be re-ranked based on their relevancy to the query, and the re-ranked chunks will be returned as 
+the final response. After re-ranking, the sorted chunks are combined with the user query and passed as input 
+to the generative model, allowing it to create a response incorporating the most relevant retrieved knowledge. 
+This strategy guarantees that the generated response is both appropriate and precise.
 3.4  Validation and verification
 To ensure the accuracy, reliability, and compliance of AI-generated Fatwas with Islamic jurisprudence, our pro-
 posed Fatwa QA system incorporates a structured Validation and Verification Module as shown in Fig. 2. This 
@@ -471,10 +432,9 @@ module consists of the following key components:
 1.	 Automated Validation via Re-Ranking: The system employs a Flash re-ranker to refine retrieved knowl-
 edge by scoring and ranking the most contextually relevant and jurisprudentially accurate sources. This step 
 enhances retrieval quality and ensures that AI-generated responses align with verified Islamic rulings.
-2.	 Human Verification and Expert Review: To maintain jurisprudential accuracy, the system incorporates 
-human oversight. Responses flagged for low confidence or ambiguous content are reviewed by scholars before 
-dissemination. This expert validation ensures alignment with Islamic principles and minimizes the risk of 
-misinterpretation.
+2.	 Human Verification and Expert Review: To maintain jurisprudential accuracy, the system incorporates human 
+oversight. Responses flagged for low confidence or ambiguous content are reviewed by scholars before dissemina-
+tion. This expert validation ensures alignment with Islamic principles and minimizes the risk of misinterpretation.
 3.	 LLM-to-LLM Cross-Validation: An additional verification step is implemented using a higher-capability 
 language model to assess clarity and contextual accuracy. This approach provides an additional layer of evalu-
 ation, helping to refine AI-generated responses.
@@ -495,17 +455,15 @@ ITY_THRESHOLD of 0.97 to filter out irrelevant chunks.
 For all experiments, the models (AceGPT, Silma, and Gemini 1.5) generate responses using the generate func-
 tion, with hyperparameters like max_new_tokens=512 and max_length=256 for tokenization. Additionally, torch.
 no_grad() is used to optimize memory consumption during generation. The experiments were performed on GPU T4.
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
-
---- Page 12 ---
-
-	
-Neural Computing and Applications
-https://doi.org/10.1007/s00521-025-11229-y
 4.2  Evaluation metrics
 To assess the effectiveness of our proposed approach, we employed six widely recognized evaluation metrics, 
 categorized into statistical and semantic measurements. Additionally, we conducted an LLM-to-LLM evaluation 
 and engaged a domain expert to qualitatively assess a sample of the dataset.
+
+--- Page 12 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
+https://doi.org/10.1007/s00521-025-11229-y
+20968
 These metrics provide quantitative and qualitative insights into the quality of generated text by comparing it 
 against reference outputs. Below, we discuss each category in detail.
 4.2.1  Statistical measurements
@@ -529,6 +487,12 @@ where
 •	 Penalty: A penalty term based on the fragmentation of matches (e.g., word order differences between the 
 generated and reference text).
 •	 훾 : A parameter that controls the impact of the penalty (default is usually 0.5).
+4.2.4  Semantic measurements
+Semantic metrics go beyond lexical similarity by evaluating meaning, contextual relevance, and factual con-
+sistency in generated responses.
+4.2.5  BERTScore
+BERTScore [43] is a semantic similarity metric that leverages pre-trained BERT embeddings to evaluate 
+the closeness of the generated text to the reference text. Given a pair of sequences X (generated text) and Y 
 (1)
 BLEU = BP ⋅exp
 ( N
@@ -540,18 +504,10 @@ wn log pn
 METEOR = (1 −훾⋅Penalty) ×
 Precision ⋅Recall
 훼⋅Precision + (1 −훼) ⋅Recall
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 13 ---
-
-Neural Computing and Applications	
+--- Page 13 ---\n\n20969
+Neural Computing and Applications (2025) 37:20957–20982	
 https://doi.org/10.1007/s00521-025-11229-y
-4.2.4  Semantic measurements
-Semantic metrics go beyond lexical similarity by evaluating meaning, contextual relevance, and factual con-
-sistency in generated responses.
-4.2.5  BERTScore
-BERTScore [43] is a semantic similarity metric that leverages pre-trained BERT embeddings to evaluate 
-the closeness of the generated text to the reference text. Given a pair of sequences X (generated text) and Y 
 (reference text), BERTScore computes the cosine similarity between token embeddings and aggregates them 
 to measure similarity:
 where
@@ -566,6 +522,10 @@ Here, A represents the generated response, K is the set of key points, and 1[⋅
 ki . This metric is essential to minimize domain errors where precision is paramount [44].
 Algorithm 3 illustrates how we calculated the hallucination function in our experiment.
 Algorithm 3   Calculate hallucination
+4.2.7  Irrelevance
+The irrelevance [44] metric evaluates the proportion of key points that are neither covered nor contradicted by the 
+generated response. This reflects the system’s ability to address relevant information while avoiding omissions. 
+Irrelevance is derived as:
 (3)
 BERTScore = 1
 N
@@ -580,17 +540,12 @@ n
 ∑
 i=1
 1[A contradicts ki]
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+Irr(A, K) = 1 −Comp(A, K) −Hallu(A, K)
 
---- Page 14 ---
-
-	
-Neural Computing and Applications
+--- Page 14 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
 https://doi.org/10.1007/s00521-025-11229-y
-4.2.7  Irrelevance
-The irrelevance [44] metric evaluates the proportion of key points that are neither covered nor contradicted by the 
-generated response. This reflects the system’s ability to address relevant information while avoiding omissions. 
-Irrelevance is derived as:
+20970
 In this formula, completeness and hallucination scores are subtracted from 1 to quantify the key points the gen-
 erated response fails to engage. This metric underscores areas where the system needs to improve its contextual 
 alignment with the source material [44].
@@ -605,7 +560,10 @@ where A is the generated answer, K = {k1, k2, … , kn} is the set of key points
 ating whether A covers ki . This metric ensures the generated answer contains accurate and relevant information 
 without omissions[44]. Algorithm 5 illustrates how we calculated the completeness function in our experiment.
 Algorithm 5   Calculate completeness
-Irr(A, K) = 1 −Comp(A, K) −Hallu(A, K)
+4.3  Experimental results
+This section presents the results of our experiments. Initially, we evaluated the base LLMs on our dataset to assess 
+their performance using only their pre-trained data. We then applied the RAG technique and re-evaluated the 
+models. Finally, we assessed their performance after integrating the retrieval re-ranker mechanism.
 Comp(A, K) =
 1
 |K|
@@ -613,16 +571,10 @@ n
 ∑
 i=1
 1[A covers ki]
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 15 ---
-
-Neural Computing and Applications	
+--- Page 15 ---\n\n20971
+Neural Computing and Applications (2025) 37:20957–20982	
 https://doi.org/10.1007/s00521-025-11229-y
-4.3  Experimental results
-This section presents the results of our experiments. Initially, we evaluated the base LLMs on our dataset to assess 
-their performance using only their pre-trained data. We then applied the RAG technique and re-evaluated the 
-models. Finally, we assessed their performance after integrating the retrieval re-ranker mechanism.
 4.3.1  LLMs base model
 In this section, we present the experimental results of our Fatwa QA dataset without applying RAG techniques. 
 Without RAG, the generative LLMs rely only on their pre-trained knowledge without retrieval. These results 
@@ -657,21 +609,19 @@ that there is still a possibility for development in the relevance and accuracy 
 nificance of using additional strategies such as re-ranking to enhance retrieval and eliminate hallucinations.
 4.3.3  LLMs with RAG and re‑ranker
 In our final experiment, we aimed to enhance the relevance of the generated responses by integrating the RAG 
-model with a re-ranking mechanism. This re-ranking step refined the retrieval process by selecting the most 
-contextually relevant answers based on the user’s query. By applying RAG with re-ranking, we observed a 
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
-
---- Page 16 ---
-
-	
-Neural Computing and Applications
-https://doi.org/10.1007/s00521-025-11229-y
-considerable improvement in response accuracy, as the model effectively prioritized the most relevant answers. 
-Table 4 shows the positive impact of re-ranking on both response accuracy and relevance.
+model with a re-ranking mechanism. This re-ranking step refined the retrieval process by selecting the most con-
+textually relevant answers based on the user’s query. By applying RAG with re-ranking, we observed a consider-
+able improvement in response accuracy, as the model effectively prioritized the most relevant answers. Table 4 
+shows the positive impact of re-ranking on both response accuracy and relevance.
 In this last experiment, combining the RAG model with a re-ranking mechanism significantly enhances answer 
 accuracy and relevance compared to the base model and the LLM with RAG. The F1-BERTScore of Silma with 
 RAG re-ranker rises to 70.40%, outperforming both the base model (63.05%) and the LLM with RAG (68.93%), 
 revealing a considerable improvement in the model’s capacity to create accurate and applicable responses. Silma’s 
+
+--- Page 16 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
+https://doi.org/10.1007/s00521-025-11229-y
+20972
 hallucination rate also drops dramatically to 0.40%, revealing the efficiency of re-ranking in determining the most 
 contextually appropriate responses. The completeness score for Silma also remains high at 99.60%, highlight-
 ing that the re-ranking mechanism, when applied with RAG, improves the quality of the generated answers by 
@@ -692,6 +642,13 @@ trustworthiness of responses over rapid response time. Incorrect or unstable ans
 tion and potentially serious real-world consequences. Therefore, although the Silma with RAG and re-ranker 
 system require additional computational overhead, its superior performance justifies the latency in the context 
 of our intended use case.
+4.3.5  Human evaluation
+To ensure the real-world applicability of our system, we conducted a qualitative expert evaluation on the third 
+experiment LLM with RAG and re-ranker that achieved the highest accuracy and stability. The evaluation was 
+done by a Professor of Arabic Studies at Mohamed Bin Zayed University for Humanities, who independently 
+analyzed all 210 AI-generated fatwas, which consisted of 70 responses from each LLM Silma, AceGPT, and 
+Gemini 1.5—without knowing their source. The professor independently and blindly evaluated the generated 
+responses, in which the responses were graded 1 to 5 based on correctness and Islamic principles for fatwas. Each 
 Table 2   Performance of 
 LLMs base models
 Base model
@@ -760,19 +717,10 @@ Silma
 0.00
 17.02
 10.18
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 17 ---
-
-Neural Computing and Applications	
+--- Page 17 ---\n\n20973
+Neural Computing and Applications (2025) 37:20957–20982	
 https://doi.org/10.1007/s00521-025-11229-y
-4.3.5  Human evaluation
-To ensure the real-world applicability of our system, we conducted a qualitative expert evaluation on the third 
-experiment LLM with RAG and re-ranker that achieved the highest accuracy and stability. The evaluation was 
-done by a Professor of Arabic Studies at Mohamed Bin Zayed University for Humanities, who independently 
-analyzed all 210 AI-generated fatwas, which consisted of 70 responses from each LLM Silma, AceGPT, and 
-Gemini 1.5—without knowing their source. The professor independently and blindly evaluated the generated 
-responses, in which the responses were graded 1 to 5 based on correctness and Islamic principles for fatwas. Each 
 model’s evaluation score was derived by the average of the individual grades. Figure 4 presents the domain expert 
 ratings, highlighting Silma’s distinguished performance in generating contextually relevant and accurate answers.
 The results of the human evaluation showed that LLM Silma outperformed the other models with an average 
@@ -795,6 +743,12 @@ quality and appropriateness of the generated responses related to Islamic fatwas
 ground truth (original answer).
 We evaluated the 210 total samples that were assessed by the expert domain. The evaluation criteria were 
 based on 3 main criteria: 
+1.	 Clarity: This aims to evaluate whether the generated response by the LLM is easy to understand and delivers 
+the intended response.
+2.	 Information Completeness: This aims to determine if the generated response thoroughly addresses the ques-
+tion and includes all the needed information.
+3.	 Islamic Context: This aims to assess whether the generated response matches the Islamic principles, specifi-
+cally in banking, Zakka, and Fasting.
 Table 4   Performance 
 of LLMs with RAG and 
 re-ranking
@@ -847,19 +801,11 @@ Silma with RAG​
 Silma with RAG and re-ranker
 26.95
 70.40
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 18 ---
-
-	
-Neural Computing and Applications
+--- Page 18 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
 https://doi.org/10.1007/s00521-025-11229-y
-1.	 Clarity: This aims to evaluate whether the generated response by the LLM is easy to understand and delivers 
-the intended response.
-2.	 Information Completeness: This aims to determine if the generated response thoroughly addresses the ques-
-tion and includes all the needed information.
-3.	 Islamic Context: This aims to assess whether the generated response matches the Islamic principles, specifi-
-cally in banking, Zakka, and Fasting.
+20974
 Figure 6 presents the results of the LLM-to-LLM evaluation. Among the models, Silma with RAG and re-ranker 
 achieved the highest clarity score of 7.67/10, followed by AceGPT and Gemini 1.5, both with a score of 7.46/10. 
 For completeness, Gemini 1.5 outperformed the others with a score of 7.49/10, while Silma scored 7.26/10, 
@@ -873,15 +819,6 @@ scores across all metrics while addressing the model’s instability by generati
 responses. In contrast, the Gemini 1.5 and AceGPT LLM, both with and without re-ranking, demonstrated sig-
 nificantly lower performance, indicating limitations in their ability to produce high-quality outputs. However, 
 they showed moderate improvements with the re-ranking approach but still lagged behind the Silma LLM model.
-Fig. 4   Human evaluation scores
-Fig. 5   LLM-to-LLM evalua-
-tion prompt
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
-
---- Page 19 ---
-
-Neural Computing and Applications	
-https://doi.org/10.1007/s00521-025-11229-y
 Figure 7 presents a sample-generated response across all the applied experiments.
 Our findings demonstrate that integrating retrieval-augmented generation (RAG) and re-ranking significantly 
 enhances the accuracy and reliability of fatwa QA systems. Without retrieval, base models struggled with fac-
@@ -889,6 +826,13 @@ tual consistency, with AceGPT achieving the highest F1-BERTScore (64.92%) but ex
 tion (1.54%) than Silma (0.82%). Implementing RAG improved response quality, particularly for Silma, which 
 achieved 68.93% F1-BERTScore and reduced hallucinations to 0.52%. Further integrating re-ranking optimized 
 retrieval relevance, with Silma’s F1-BERTScore reaching 70.40% and hallucinations dropping to 0.40%. However, 
+Fig. 4   Human evaluation scores
+Fig. 5   LLM-to-LLM evalua-
+tion prompt
+
+--- Page 19 ---\n\n20975
+Neural Computing and Applications (2025) 37:20957–20982	
+https://doi.org/10.1007/s00521-025-11229-y
 this came at the cost of increased latency (26.95s). Human evaluation rated Silma highest (3.86/5) for Islamic 
 accuracy, and LLM-to-LLM evaluation (GPT-4o) confirmed its superior clarity (7.67/10) and relevance (8.11/10). 
 These results confirm that re-ranking refines retrieval quality, reducing hallucinations and improving contextual 
@@ -901,19 +845,17 @@ several mechanisms to ensure trustworthiness and ethical compliance in AI-genera
 To prevent misinformation, our RAG model exclusively retrieves data from verified Islamic databases. Addition-
 ally, the Flash re-ranker prioritizes content that aligns with established jurisprudential principles, filtering out 
 unreliable or misleading sources.
-Fig. 6   LLM-to-LLM evalua-
-tion results
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
-
---- Page 20 ---
-
-	
-Neural Computing and Applications
-https://doi.org/10.1007/s00521-025-11229-y
 4.5.2  Reducing hallucinations
 Hallucination risks are mitigated using semantic similarity filtering, removing uncertain responses. Furthermore, 
 the re-ranker acts as an additional verification layer, ensuring that retrieved content is both accurate and contex-
 tually relevant to the user’s query.
+Fig. 6   LLM-to-LLM evalua-
+tion results
+
+--- Page 20 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
+https://doi.org/10.1007/s00521-025-11229-y
+20976
 4.5.3  Ethical oversight and human‑in‑the‑loop (HITL) Approach
 We emphasize that AI should assist, not replace, scholars. The system flags ambiguous or sensitive fatwas for 
 expert review, ensuring compliance with Islamic ethical guidelines. The HITL framework strengthens account-
@@ -924,6 +866,12 @@ trace, interpret, and validate AI-generated fatwas. The following key approaches
 accuracy of our system: 
 1.	 Source Attribution: Every ruling is linked to verified Islamic references. The AI retrieves the top three re-
 ranked QA pairs from Dar al-Ifta, ensuring responses align with scholar-approved rulings. For instance, if a 
+user asks, “What is the ruling on not fasting in Ramadan?,” the AI retrieves relevant fatwas, grounding its 
+response in authenticated Islamic sources.
+2.	 Semantic Similarity Analysis: We employ BERTScore, achieving a 70.04% similarity, to filter inaccurate 
+responses and minimize hallucinations, ensuring AI-generated fatwas remain contextually precise. Addi-
+tionally, we conducted heatmap visualizations representing the user query vs. top-k retrieved documents as 
+shown in Fig. 8, and this evaluates the precision of the retrieval process in determining contextually relevant 
 Table 6   Comparison of existing and proposed models
 Category
 Accuracy (%)
@@ -1075,34 +1023,22 @@ Gemini 1.5 with RAG re-ranker
 8.53
 91.47
 0.00
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 21 ---
-
-Neural Computing and Applications	
+--- Page 21 ---\n\n20977
+Neural Computing and Applications (2025) 37:20957–20982	
 https://doi.org/10.1007/s00521-025-11229-y
 Fig. 7   Comparison of generated responses across all the experiments
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 22 ---
-
-	
-Neural Computing and Applications
+--- Page 22 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
 https://doi.org/10.1007/s00521-025-11229-y
+20978
 Fig. 8   Heatmap visualization of the similarity between the user query and the top-k retrieved documents
 Fig. 9   Heatmap visualization of the similarity between the top-k retrieved documents and the generated response
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
 
---- Page 23 ---
-
-Neural Computing and Applications	
+--- Page 23 ---\n\n20979
+Neural Computing and Applications (2025) 37:20957–20982	
 https://doi.org/10.1007/s00521-025-11229-y
-user asks, “What is the ruling on not fasting in Ramadan?,” the AI retrieves relevant fatwas, grounding its 
-response in authenticated Islamic sources.
-2.	 Semantic Similarity Analysis: We employ BERTScore, achieving a 70.04% similarity, to filter inaccurate 
-responses and minimize hallucinations, ensuring AI-generated fatwas remain contextually precise. Addi-
-tionally, we conducted heatmap visualizations representing the user query vs. top-k retrieved documents as 
-shown in Fig. 8, and this evaluates the precision of the retrieval process in determining contextually relevant 
 documents, and top-k retrieved documents vs. generated response as shown in Fig. 9 to evaluate retrieval 
 accuracy and response alignment.
 3.	 Re-ranking for Accuracy: Retrieved documents are scored and ranked, refining knowledge selection before 
@@ -1114,14 +1050,6 @@ assistive tool rather than an independent decision-maker.
 Figure 10 illustrates the top three retrieved documents along with their re-ranked retrieval scores.
 By integrating these safeguards, our model ensures trustworthy, contextually accurate, and ethically sound 
 AI-generated fatwas, reinforcing its role as a scholarly-assistive tool rather than an independent decision-maker.
-Fig. 10   Sample of the retrieved document and user query for answer generation
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
-
---- Page 24 ---
-
-	
-Neural Computing and Applications
-https://doi.org/10.1007/s00521-025-11229-y
 5  Conclusion and future work
 This study presents a question–answering (QA) system that integrates the retrieval-augmented generation (RAG) 
 approach with large language models (LLMs) to address the complexities of issuing Islamic fatwas. The model 
@@ -1129,6 +1057,12 @@ enhances response relevance and reliability by combining retrieval-based and gen
 mental results revealed that each used LLM: Silma, AceGPT, and Gemini 1.5 showed an increase in the perfor-
 mance when integrated with the RAG mechanism. The evaluations without RAG showed limited relevance, as 
 shown in Table 2, with the percentage of hallucination scores being high compared to Silma 1.54%, 4.45%, and 
+Fig. 10   Sample of the retrieved document and user query for answer generation
+
+--- Page 24 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
+https://doi.org/10.1007/s00521-025-11229-y
+20980
 0.82% for AceGPT, Gemini 1.5, and Silma, respectively. After integrating RAG as shown in Table 3, the qual-
 ity of the generated response has improved significantly and reduced the hallucination, with the hallucination 
 score for Silma decreasing to 0.52% and applying a re-ranking mechanism in the final step enhanced accuracy, 
@@ -1162,12 +1096,6 @@ References
 islamic text. arXiv:​2409.​09844
 	2.	 Elhalwany I, Mohammed A, Wassif K, Hefny H (2015) Using textual case-based reasoning in intelligent fatawa qa 
 system. Int Arab J Inf Technol 12:503–509
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
-
---- Page 25 ---
-
-Neural Computing and Applications	
-https://doi.org/10.1007/s00521-025-11229-y
 	3.	 Alrayzah A, Alsolami F, Saleh M (2023) Challenges and opportunities for arabic question-answering systems: current 
 techniques and future directions. PeerJ Comput Sci 9:1633. https://​doi.​org/​10.​7717/​peerj-​cs.​1633
 	4.	 Alyemny O, Al-Khalifa H, Mirza A (2023) A data-driven exploration of a new islamic fatwas dataset for arabic nlp tasks. 
@@ -1178,6 +1106,10 @@ hensive Dataset for Arabic Question Answering. arXiv:​2403.​17848
 fatwa system: survey, dataset and benchmarks. Int J Comput Sci Mobile Comput 10(4):118–131
 	7.	 Yigit G, Amasyali MF (2024) From text to multimodal: a survey of adversarial example generation in question answer-
 ing systems. Knowl Inf Syst 66(12):7165–7204. https://​doi.​org/​10.​1007/​s10115-​024-​02199-z
+
+--- Page 25 ---\n\n20981
+Neural Computing and Applications (2025) 37:20957–20982	
+https://doi.org/10.1007/s00521-025-11229-y
 	8.	 Wu L, Wu P, Zhang X (2020) A seq2seq-based approach to question answering over knowledge bases. In: Wang X, Lisi 
 FA, Xiao G, Botoeva E (eds) Semantic Technology. Springer, Singapore, pp 170–181
 	9.	 Mansurova A, Mansurova A, Nugumanova A (2024) Qa-rag: exploring llm reliance on external knowledge. Big Data 
@@ -1227,13 +1159,6 @@ arXiv preprint arXiv:​2402.​05672
 	30.	 Siriwardhana S, Weerasekera R, Wen E, Kaluarachchi T, Rana R, Nanayakkara S (2023) Improving the domain adaptation 
 of retrieval augmented generation (RAG) models for open domain question answering. Trans Assoc Comput Linguist 
 11:1–17. https://​doi.​org/​10.​1162/​tacl_a_​00530
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
-
---- Page 26 ---
-
-	
-Neural Computing and Applications
-https://doi.org/10.1007/s00521-025-11229-y
 	31.	 Douze M, Guzhva A, Deng C, Johnson J, Szilvasy G, Mazaré P-E, Lomeli M, Hosseini L, Jégou H (2024) The Faiss 
 library. arXiv:​2401.​08281
 	32.	 Team S (2024) Silma. Silma. https://​www.​silma.​ai
@@ -1245,6 +1170,11 @@ arXiv:​2403.​05160
 	36.	 Saab K, Tu T, Weng W-H, Tanno R al, D.S (2024) Capabilities of Gemini Models in Medicine. arXiv:​2404.​18416
 	37.	 Damodaran P (2024) FlashRank, Lightest and fastest 2nd stage Reranker for search pipelines. Zenodo. https://​doi.​org/​
 10.​5281/​zenodo.​11093​524
+
+--- Page 26 ---\n\n	
+Neural Computing and Applications (2025) 37:20957–20982
+https://doi.org/10.1007/s00521-025-11229-y
+20982
 	38.	 Wu S, Xiong Y, Cui Y, Wu H, Chen C, Yuan Y, Huang L, Liu X, Kuo T-W, Guan N, et al (2024) Retrieval-augmented 
 generation for natural language processing: A survey. arXiv preprint arXiv:​2407.​13193
 	39.	 Eibich M, Nagpal S, Fred-Ojala A (2024) ARAGOG: Advanced RAG Output Grading. arXiv:​2404.​01037
@@ -1290,70 +1220,5 @@ School of Information Technology and Computer Science ITCS, Nile University, G
 2	
 Faculty of Computers and Artificial Intelligence, Helwan University, Cairo Governorate, Egypt
 3	
-Mohamed Bin Zayed University for Humanities, Ajman, United Arab Emirates
-Content courtesy of Springer Nature, terms of use apply. Rights reserved.
-
---- Page 27 ---
-
-1.
-2.
-3.
-4.
-5.
-6.
-Terms and Conditions
- 
-Springer Nature journal content, brought to you courtesy of Springer Nature Customer Service Center GmbH (“Springer Nature”).
- 
-Springer Nature supports a reasonable amount of sharing of  research papers by authors, subscribers and authorised users (“Users”), for small-
-scale personal, non-commercial use provided that all copyright, trade and service marks and other proprietary notices are maintained. By
-accessing, sharing, receiving or otherwise using the Springer Nature journal content you agree to these terms of use (“Terms”). For these
-purposes, Springer Nature considers academic use (by researchers and students) to be non-commercial.
- 
-These Terms are supplementary and will apply in addition to any applicable website terms and conditions, a relevant site licence or a personal
-subscription. These Terms will prevail over any conflict or ambiguity with regards to the relevant terms, a site licence or a personal subscription
-(to the extent of the conflict or ambiguity only). For Creative Commons-licensed articles, the terms of the Creative Commons license used will
-apply.
- 
-We collect and use personal data to provide access to the Springer Nature journal content. We may also use these personal data internally within
-ResearchGate and Springer Nature and as agreed share it, in an anonymised way, for purposes of tracking, analysis and reporting. We will not
-otherwise disclose your personal data outside the ResearchGate or the Springer Nature group of companies unless we have your permission as
-detailed in the Privacy Policy.
- 
-While Users may use the Springer Nature journal content for small scale, personal non-commercial use, it is important to note that Users may
-not:
-  
-use such content for the purpose of providing other users with access on a regular or large scale basis or as a means to circumvent access
-control;
-use such content where to do so would be considered a criminal or statutory offence in any jurisdiction, or gives rise to civil liability, or is
-otherwise unlawful;
-falsely or misleadingly imply or suggest endorsement, approval , sponsorship, or association unless explicitly agreed to by Springer Nature in
-writing;
-use bots or other automated methods to access the content or redirect messages
-override any security feature or exclusionary protocol; or
-share the content in order to create substitute for Springer Nature products or services or a systematic database of Springer Nature journal
-content.
- 
-In line with the restriction against commercial use, Springer Nature does not permit the creation of a product or service that creates revenue,
-royalties, rent or income from our content or its inclusion as part of a paid for service or for other commercial gain. Springer Nature journal
-content cannot be used for inter-library loans and librarians may not upload Springer Nature journal content on a large scale into their, or any
-other, institutional repository.
- 
-These terms of use are reviewed regularly and may be amended at any time. Springer Nature is not obligated to publish any information or
-content on this website and may remove it or features or functionality at our sole discretion, at any time with or without notice. Springer Nature
-may revoke this licence to you at any time and remove access to any copies of the Springer Nature journal content which have been saved.
- 
-To the fullest extent permitted by law, Springer Nature makes no warranties, representations or guarantees to Users, either express or implied
-with respect to the Springer nature journal content and all parties disclaim and waive any implied warranties or warranties imposed by law,
-including merchantability or fitness for any particular purpose.
- 
-Please note that these rights do not automatically extend to content, data or other material published by Springer Nature that may be licensed
-from third parties.
- 
-If you would like to use or distribute our Springer Nature journal content to a wider audience or on a regular basis or in any other manner not
-expressly permitted by these Terms, please contact Springer Nature at
-  
-onlineservice@springernature.com
- 
-
-```
+Mohamed Bin Zayed University for Humanities, Abu Dhabi, United Arab Emirates
+\n```\n

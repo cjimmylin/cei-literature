@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +52,12 @@ local_pdf: "[[PDFs/2023/2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
-languages_list: Spanish
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, Bartl, ELECTRA, RoBERTa"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "The study of bias in language models is a growing area of work, however, both research and resources are focused on English. In this paper, we make a first approach focusing on gender bias in some freely available Spanish language models trained using popular deep neural networks, like BERT or RoBERTa. Some of these models are known for achieving state-of-the-art results on downstream tasks. These promising results have promoted such models’ integration in many realworld applications and..."

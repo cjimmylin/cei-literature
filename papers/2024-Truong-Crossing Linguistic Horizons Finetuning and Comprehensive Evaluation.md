@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +50,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BLOOM, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT4, Gemma, Llama, Llama-2, Mistral, Mistral 7b, Mixtral, Mixtral 8"
+LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Gemini, Gemma, Llama-2, Mistral, Mixtral"
 DATA_URL: "https://github.com/stair-lab/villm"
 tags: 
 abstract: "Recent advancements in large language models (LLMs) have underscored their importance in the evolution of artificial intelligence. However, despite extensive pretraining on multilingual datasets, available open-sourced LLMs exhibit limited effectiveness in processing Vietnamese. The challenge is exacerbated by the absence of systematic benchmark datasets and metrics tailored for Vietnamese LLM evaluation."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Comprehensive evaluation framework for Vietnamese LLMs with 10 tasks and 31 metr
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BLOOM, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT4, Gemma, Llama, Llama-2, Mistral, Mistral 7b, Mixtral, Mixtral 8. Verified dataset/resource link: https://github.com/stair-lab/villm.
+Releases five Vietnamese fine-tuned LLMs (URA-LLaMa 7B/13B/70B, MixSUra, GemSUra) and two novel Vietnamese reasoning datasets (inspired by MATH and Synthetic Reasoning benchmarks), along with a comprehensive evaluation framework for Vietnamese LLMs.
+
 
 ## Notes
 

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated excepti
 local_pdf: "[[PDFs/2024/2024-Li-Quantifying AI Psychology.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, GPT-4, Mistral, Mixtral, Llama-3, Qwen"
+LLM_assessed: "ChatGPT, GPT-4, Mistral, Mixtral, Qwen, Llama-3"
 DATA_URL: "https://github.com/CHATS-lab/persuasive_jailbreaker"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -102,7 +106,7 @@ Large Language Models (LLMs) have demonstrated exceptional task-solving capabili
 
 ## Data Description
 
-This paper presents a comprehensive psychometric benchmark comprising 13 datasets across five psychological dimensions: personality, values, emotion, theory of mind, and motivation. The datasets include standardized psychometric tests (Big Five Inventory, Short Dark Triad, Cultural Orientation), established datasets (MoralChoice with 1,767 items, Emotion Understanding/Application with 200 items each, False Belief Task, Strange Stories Task), and self-designed scenarios (Human-Centered Values with 228 items, LLM Self-Efficacy). Nine popular LLMs were evaluated using diverse item types including rating-scale, alternative-choice, multiple-choice, and open-ended formats.
+Psychometric benchmark suite of 13 datasets covering 5 psychological dimensions (personality, values, emotional intelligence, theory of mind, self-efficacy) for evaluating LLMs; includes both closed-form and open-ended assessment items across diverse scenarios.
 
 
 ## Notes

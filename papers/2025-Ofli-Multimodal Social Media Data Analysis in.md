@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-Ofli-Multimodal Social Media Data Analysis in.pdf]]
 publication: "WebSearch: DravidianLangTech 2025"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Dravidian"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"

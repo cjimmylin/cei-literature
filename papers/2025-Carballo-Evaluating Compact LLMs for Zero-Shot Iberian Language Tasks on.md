@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iber
 publication: "arXiv / SEPLN"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish, Brazilian"
-cultures_nationalities_list: "Spanish, Portuguese, Basque, Catalan, Galician"
+national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: "Basque, Catalan, Galician, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "DeepSeek-R1, GPT-4, Gemma, Gemma 2, Gemma-2, Llama, Llama-3.1, Mistral Small, Mistral-3-24B, Mistral-7B, Qwen-7B, Qwen2, Qwen2.5"
+LLM_assessed: "DeepSeek, Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models have significantly advanced natural language processing, achieving remarkable performance in tasks such as language generation, translation, and reasoning. However, their substantial computational requirements restrict deployment to high-end systems, limiting accessibility on consumer-grade devices. This challenge is especially pronounced for under-resourced languages like those spoken in the Iberian Peninsula, where relatively limited linguistic resources and benchmarks..."

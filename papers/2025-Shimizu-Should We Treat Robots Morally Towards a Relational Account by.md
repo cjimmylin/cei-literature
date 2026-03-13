@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +47,17 @@ CONF-CC: "AI and Ethics"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Japanese, Shinto"
+national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: ""
-religious_values: Shinto
+religious_values: "Shinto"
 religious_values_list: "Shinto"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Proposes 'mind-infusing animism' as a new relational framework for evaluating the moral treatment of robots, inspired by Japanese animistic thought (Shinto). Distinguishes between mind-reading animism (static properties) and mind-infusing animism (dynamically constructed through interaction), drawing on philosopher Omori Shozo."
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

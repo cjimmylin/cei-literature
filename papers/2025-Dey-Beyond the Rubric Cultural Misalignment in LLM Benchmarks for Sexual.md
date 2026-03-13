@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +45,14 @@ CONF-CC: "ACL 2025"
 local_pdf: "[[PDFs/2025/2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Indian"
+national_ethnic_cultural: "Indian, Western"
 cultures_nationalities_list: "Indian, Western"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: "GPT-4"
 DATA_URL: "https://github.com/Sumon/healthbench-srh-eval/"
 tags: 
 abstract: "Large Language Models (LLMs) have been positioned as having the potential to expand access to health information in the Global South, yet their evaluation remains heavily dependent on benchmarks designed around Western norms. We present insights from a preliminary benchmarking exercise with a chatbot for sexual and reproductive health (SRH) for an underserved community in India. We evaluated using HealthBench, a benchmark for conversational health models by OpenAI (Arora et al., 2025)."
@@ -60,7 +62,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"

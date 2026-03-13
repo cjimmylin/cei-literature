@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models have been widely evaluated on tasks such as comprehension, summarization, code generation, etc. However, their performance on graduate-level, culturally grounded questions in the Indian context remains largely unexplored. Existing Indian benchmarks emphasise basic fact-orientated queries that offer limited assessment of a deeper disciplinary understanding tailored to the Indian setting."
-LLM_assessed: "Claude, GPT-4, Gemma, Gemma-3, Gemma2, Gemma3, Llama, Llama 3, Llama-3.1, Llama-3.2, Llama-3.3, Llama3.3, Mistral, Mistral 3.1, Mistral- 3, Mistral-24B, Mistral-3.1-24B, Mistral-Small, Qwen2.5, Qwen3, GPT-3, mistral.ai"
+LLM_assessed: "Gemma, Llama-3, Mistral, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, GPT-4, Gemma, Gemma-3, Gemma2, Gemma3, Llama, Llama 3, Llama-3.1, Llama-3.2, Llama-3.3, Llama3.3, Mistral, Mistral 3.1, Mistral- 3, Mistral-24B, Mistral-3.1-24B, Mistral-Small, Qwen2.5, Qwen3, GPT-3, mistral.ai. No high-confidence repository-style data URL was identified.
+ParamBench is a graduate-level Hindi-language benchmark of 17,275 questions drawn from UGC-NET (2012-2018) and UPSC Civil Services (2011-2024) examinations, covering 21 India-centric subjects (archaeology, religion, law, Indian culture, music, yoga, drama, philosophy, etc.) with 6 question types including MCQ, list-matching, assertion-reason, and sequencing.
+
 
 ## Notes
 

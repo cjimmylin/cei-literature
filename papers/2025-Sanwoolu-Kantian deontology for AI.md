@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +38,8 @@ doi: 10.1007/s43681-025-00784-8
 url: "https://link.springer.com/article/10.1007/s43681-025-00784-8"
 publication: "AI and Ethics"
 CONF-CC: "AI and Ethics"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -59,7 +61,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

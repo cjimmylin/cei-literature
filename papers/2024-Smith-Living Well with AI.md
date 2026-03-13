@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_SMITH2024
@@ -34,11 +36,11 @@ doi: 10.1177/14778785241231561
 url: "https://journals.sagepub.com/doi/10.1177/14778785241231561"
 pdf_extract: "PDF Extracts/2024/2024-Smith-Living Well with AI.md"
 local_pdf: "[[PDFs/2024/2024-Smith-Living Well with AI.pdf]]"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Education, Aristotelian Ethics"
 key_contribution: "Argues Aristotelian virtue ethics provides superior framework for living well with AI compared to principlist or consequentialist approaches"

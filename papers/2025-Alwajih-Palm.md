@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +45,7 @@ url: "http://arxiv.org/abs/2503.00151"
 external_pdf: "http://arxiv.org/pdf/2503.00151.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2025"
-national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
+national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "N/A"
@@ -54,7 +58,7 @@ abstract: "As large language models (LLMs) become increasingly integrated into d
 paper_summary: "Abstract: As large language models (LLMs) become increasingly integrated into daily life, ensur- ing their cultural sensitivity and inclusivity is paramount. We introduce PALM, a year-long community-driven proj | Overview: Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs Fakhraddin Alwajih1*, Abdellah El Mekki1,2*, Samar Mohamed Magdy1,2, Abdelrahim A. Elmadany1, Omer Nacar5, ElMoatez Bill | Methodology: ingredients steps way method dish meat meal steps activities city date play tourist name reason hotels city trip places information places city beache | Key Findings: Request/Desire Support/Assist Miscellaneous write give mention explain describe provide summarize discuss talk tell say choose make do complete use pr | Conclusions: Here, we analyze results of a subset of 12 LLMs that yield notable insights.7 5https://langchain.com/ 6We also apply the same methodology to evaluate"
 local_pdf: "[[PDFs/2025/2025-Alwajih-Palm.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Qwen, Llama-3, Gemma"
+LLM_assessed: "Claude-3, Gemma, GPT-4, Llama-3, Qwen"
 DATA_URL: "https://github.com/UBC-NLP/palm"
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
@@ -62,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -99,7 +103,7 @@ As large language models (LLMs) become increasingly integrated into daily life, 
 
 ## Data Description
 
-PALM is a comprehensive, fully human-created Arabic instruction dataset covering all 22 Arab countries across 20 culturally relevant topics in both Modern Standard Arabic and 10 Arabic dialects, totaling 17,411 instruction pairs. Eighteen Arabic-aware LLMs were evaluated including GPT-4o, Claude 3.5 Sonnet, Command R+, Qwen 2.5, JAIS, AceGPT, LLaMA 3.1, and Gemma-2, using surface-level metrics, LLM-as-Judge evaluation, and human evaluation.
+PALM is a culturally inclusive, human-created Arabic instruction dataset covering all 22 Arab countries, with instructions in both Modern Standard Arabic and dialectal Arabic across 20 diverse topics. It serves both as a fine-tuning resource and as a benchmark for evaluating cultural and dialectal capabilities of LLMs.
 
 
 ## Notes

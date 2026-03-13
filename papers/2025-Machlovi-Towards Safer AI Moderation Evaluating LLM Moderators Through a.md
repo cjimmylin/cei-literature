@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +52,12 @@ local_pdf: "[[PDFs/2025/2025-Machlovi-Towards Safer AI Moderation Evaluating LLM
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: Multilingual
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BERT, Gemma, Gemma2, Llama, Llama Guard, LlamaGuard, Mistral-7B, Phi-4, Phi4"
+LLM_assessed: "Gemma, Llama-2, Phi-3"
 DATA_URL: "NA"
 tags: 
 abstract: "As AI systems become more integrated into daily life, the need for safer and more reliable moderation has never been greater. Large Language Models (LLMs) have demonstrated remarkable capabilities, surpassing earlier models in complexity and performance. Their evaluation across diverse tasks has consistently showcased their potential, enabling the development of adaptive and personalized agents. However, despite these advancements, LLMs remain prone to errors, particularly in areas requiring..."
@@ -99,7 +103,8 @@ As AI systems become more integrated into daily life, the need for safer and mor
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, BERT, Gemma, Gemma2, Llama, Llama Guard, LlamaGuard, Mistral-7B, Phi-4, Phi4. No high-confidence repository-style data URL was identified.
+A unified human-curated moderation dataset of ~236K instances aggregated from 10 existing hate speech and offensive language datasets (GoEmotions, HateXplain, Slur, SBIC, MHS, CMSB, Stormfront, OWS, etc.), unified into binary Safe/Unsafe labels across 49 subcategories. Paper states it will be made publicly available on HuggingFace; no specific URL found in extract.
+
 
 ## Notes
 

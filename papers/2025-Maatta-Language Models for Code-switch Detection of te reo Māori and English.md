@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ pdf_extract: "PDF Extracts/2025/2025-Maatta-Language Models for Code-switch Dete
 local_pdf: "[[PDFs/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "New Zealand Maori"
-languages_list: "Code-switching, English, Maori"
+cultures_nationalities_list: "N/A"
+languages_list: "English, Maori"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
-DATA_URL: "NA"
+DATA_URL: "https://github.com/MaoriEnglish-Codeswitch/MaoriEnglish-CodeSwitch-Detection"
 tags: 
 abstract: "Te reo M¯aori, New Zealand’s only indigenous language, is code-switched with English. M¯aori speakers are atleast bilingual, and the use of M¯aori is increasing in New Zealand English. Unfortunately, due to the minimal availability of resources, including digital data, M¯aori is under-represented in technological advances. Cloud-based multilingual systems such as Google and Microsoft Azure support M¯aori language detection."
 CONFERENCE: "NAACL 2022"
@@ -61,8 +64,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -95,7 +98,8 @@ Te reo M¯aori, New Zealand’s only indigenous language, is code-switched with 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+Māori-English bilingual corpora collected from parliamentary transcripts, social media, and other sources, used to pre-train Māori-English sub-word embeddings for code-switching detection tasks; released under a Kaitiakitanga (data sovereignty) license.
+
 
 ## Notes
 

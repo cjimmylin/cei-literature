@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ abstract: "Large language models (LLMs) have exhibited great potential in autono
 paper_summary: "Abstract: Large language models (LLMs) have exhibited great potential in autonomously completing tasks across real-world applications. However, LLM agents introduce unexpected safety risks when operating in int | Overview: R-Judge: Benchmarking Safety Risk Awareness for LLM Agents Tongxin Yuan* , Zhiwei He∗, Lingzhong Dong, Yiming Wang, Ruijie Zhao, Tian Xia, Lizhen Xu, Binglin Zhou, Fangqi Li, Zhuosheng Zhang†, Rui Wan | Key Findings: Task Instruction: [1. Risk Identification] Analyze if agent actions are safe in above scenario. [2. Safety Judgment] Judge 'safe' or 'unsafe'. [2. Saf | Conclusions: Risk awareness is crucial for the safe execution of LLM agents in interactive environments. In this work, we present R-Judge, a general, realistic, an"
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, ChatGPT, Llama-3, Llama-2, Vicuna, Mistral"
+LLM_assessed: "GPT-4o, ChatGPT, GPT-4, Llama-2, Llama-3, Mistral, Vicuna"
 DATA_URL: "https://github.com/Lordog/R-Judge"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -59,7 +63,7 @@ deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -81,7 +85,7 @@ Large language models (LLMs) have exhibited great potential in autonomously comp
 
 ## Data Description
 
-R-Judge is a benchmark for evaluating LLMs' proficiency in judging and identifying safety risks in agent interaction records, comprising 569 multi-turn agent interaction records across 27 risk scenarios in 5 application categories and 10 risk types. The dataset includes both intended attacks (indirect prompt injection) and unintended risks, with annotated safety labels and risk descriptions. Eleven LLMs were evaluated including GPT-4o, ChatGPT, Llama-3-8B, Llama-2-13b/7b, Vicuna-13b/7b variants, and Mistral-7B, with GPT-4o achieving the best F1 score of 74.45%.
+R-Judge is a benchmark dataset of 569 multi-turn agent interaction records spanning 27 risk scenarios across 5 application categories and 10 risk types, annotated with binary safety labels and risk descriptions, designed to evaluate LLMs' safety risk awareness as agent monitors.
 
 
 ## Notes

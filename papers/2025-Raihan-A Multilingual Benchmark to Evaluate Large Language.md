@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Raihan-A Multilingual Benchmark to Evaluate Large Language.md"
 local_pdf: "[[PDFs/2025/2025-Raihan-A Multilingual Benchmark to Evaluate Large Language.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese, Arabic"
-cultures_nationalities_list: "Chinese, Japanese, Arabic"
-languages_list: "Arabic, Chinese, English, Japanese, Multilingual"
+national_ethnic_cultural: "Chinese, Japanese, Arabic, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, Japanese, Arabic, Multicultural/Cross-cultural"
+languages_list: "Arabic, Chinese, English, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Claude, Claude3.5, DeepSeek-Coder, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT3, GPT3.5, GPT4, GPT4o, LLaMA 3, LLaMA 3., MistralAI, T500, ChatGPT"
-DATA_URL: "NA"
+LLM_assessed: "Claude-3, DeepSeek, GPT-3.5, GPT-4, GPT-4o, WizardCoder"
+DATA_URL: "https://github.com/mraihan-gmu/mHumanEval-Benchmark"
 tags: 
 abstract: "Recent advancements in large language models (LLMs) have significantly enhanced code generation from natural language prompts. The HumanEval Benchmark, developed by OpenAI, remains the most widely used code generation benchmark. However, this and other Code LLM benchmarks face critical limitations, particularly in task diversity, test coverage, and linguistic scope. Current evaluations primarily focus on English-to-Python conversion tasks with limited test cases, potentially overestimating..."
 CONFERENCE: "ACL 2025"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Recent advancements in large language models (LLMs) have significantly enhanced 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Claude, Claude3.5, DeepSeek-Coder, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT3, GPT3.5, GPT4, GPT4o, LLaMA 3, LLaMA 3., MistralAI, T500, ChatGPT. No high-confidence repository-style data URL was identified.
+mHumanEval is a multilingual code generation benchmark extending HumanEval to 204 natural languages with machine-translated prompts and expert human translations for 15 languages, and canonical solutions in 25 programming languages.
+
 
 ## Notes
 

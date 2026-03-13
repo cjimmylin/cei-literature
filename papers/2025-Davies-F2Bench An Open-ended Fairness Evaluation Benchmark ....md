@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ pdf_extract: "PDF Extracts/2025/2025-Davies-F2Bench An Open-ended Fairness Evalu
 local_pdf: "[[PDFs/2025/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese, English, Japanese, Multilingual"
+cultures_nationalities_list: "Chinese, Japanese"
+languages_list: "Chinese, English, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, DeepSeek, DeepSeek 1, DeepSeek-V3, GPT-4, Gemma, Gemma2, LLaMA2, Llama, Qwen 2.5, Qwen2, Qwen2.5, BERT"
-DATA_URL: "NA"
+LLM_assessed: "DeepSeek, GPT-4, Gemma-2, Llama-2, Qwen-2"
+DATA_URL: "https://github.com/VelikayaScarlet/F2Bench"
 tags: 
 abstract: ". Warning: This paper contains content that may be offensive or harmful With the growing adoption of large language models (LLMs) in NLP tasks, concerns about their fairness have intensified. Yet, most existing fairness benchmarks rely on closed-ended evaluation formats, which diverge from realworld open-ended interactions. These formats are prone to position bias and introduce a 'minimum score' effect, where models can earn partial credit simply by guessing."
 CONFERENCE: "ACL 2025"
@@ -96,7 +100,8 @@ I've performed a web search and found several relevant results about Chinese NLP
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, DeepSeek, DeepSeek 1, DeepSeek-V3, GPT-4, Gemma, Gemma2, LLaMA2, Llama, Qwen 2.5, Qwen2, Qwen2.5, BERT. No high-confidence repository-style data URL was identified.
+Releases F2Bench, an open-ended fairness evaluation benchmark for LLMs covering 10 demographic groups with two evaluation tasks (Multi-turn Dialogue Induction and Fairness-Factuality Balance), available on GitHub.
+
 
 ## Notes
 

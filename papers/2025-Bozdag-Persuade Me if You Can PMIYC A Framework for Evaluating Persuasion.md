@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) demonstrate persuasive capabilities that rival human-level persuasion. While these capabilities can be used for social good, they also present risks of potential misuse. Beyond the concern of how LLMs persuade others, their own susceptibility to persuasion poses a critical alignment challenge, raising questions about robustness, safety, and adherence to ethical principles."
-LLM_assessed: "GPT-4, Llama-3, Claude"
+LLM_assessed: "Claude-3 Haiku, GPT-4o, GPT-4o mini, Llama-3"
 DATA_URL: "https://beyzabozdag.github.io/PMIYC/"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
@@ -97,7 +101,8 @@ Automated multi-turn conversation framework between Persuader and Persuadee agen
 
 ## Data Description
 
-The paper introduces PMIYC, an automated framework for evaluating persuasion effectiveness and susceptibility among LLMs through multi-agent interactions. Models tested include Llama-3.1-8B-Instruct, Llama-3.3-70B-Instruct, GPT-4o, GPT-4o-mini, Claude 3 Opus, Claude 2, and Claude 3 Haiku across 961 subjective claims and 817 misinformation claims from TruthfulQA. Results show Llama-3.3-70B and GPT-4o exhibit similar persuasive effectiveness, while GPT-4o demonstrates over 50% greater resistance to misinformation persuasion.
+PMIYC framework code and data released publicly, including multi-turn persuasion conversation datasets across subjective and misinformation claim settings used for evaluating LLM persuasion effectiveness and susceptibility.
+
 
 ## Notes
 

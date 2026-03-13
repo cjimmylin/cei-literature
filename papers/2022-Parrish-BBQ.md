@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +59,7 @@ pdf_extract: "PDF Extracts/2022/2022-Parrish-BBQ.md"
 local_pdf: "[[PDFs/2022/2022-Parrish-BBQ.pdf]]"
 CONF-CC: "Findings of the Association for Computational Linguistics: ACL 2022"
 DATE_ADDED: 20260208
-LLM_assessed: "T5, RoBERTa, DeBERTa"
+LLM_assessed: "DeBERTaV3, RoBERTa, UnifiedQA"
 DATA_URL: "https://github.com/nyu-mll/BBQ"
 CONFERENCE: "ACL 2022"
 ethics_overall: "Yes"
@@ -101,7 +106,7 @@ It is well documented that NLP models learn social biases, but little work has b
 
 ## Data Description
 
-BBQ (Bias Benchmark for QA) contains 58,492 unique examples from 325 hand-written templates targeting attested social biases across nine categories relevant to U.S. English-speaking contexts. The benchmark evaluates model responses at two levels: reliance on stereotypes in under-informative contexts, and whether biases override correct answers in adequately informative contexts. Models evaluated include UnifiedQA (T5-based), RoBERTa, and DeBERTaV3.
+Bias benchmark for QA with question sets across 9 social dimensions evaluating stereotypical reasoning
 
 
 ## Notes

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,8 +43,8 @@ authors: "Ashutosh Dwivedi; Pradhyumna Lavania; Ashutosh Modi"
 doi: 10.18653/v1/2023.emnlp-main.428
 url: "https://aclanthology.org/2023.emnlp-main.428/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/33PLAZMC/Dwivedi et al. - 2023 - EtiCor Corpus for Analyzing LLMs for Etiquettes.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -50,7 +54,7 @@ tags:
 abstract: "Etiquettes are an essential ingredient of dayto-day interactions among people. Moreover, etiquettes are region-specific, and etiquettes in one region might contradict those in other regions. In this paper, we propose EtiCor, an Etiquettes Corpus, having texts about social norms from five different regions across the globe. The corpus provides a test bed for evaluating LLMs for knowledge and understanding of region-specific etiquettes. Additionally, we propose the task of Etiquette Sensitivity."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, Falcon, BERT"
+LLM_assessed: "BERT, Falcon, GPT-3.5"
 DATA_URL: "https://github.com/Exploration-Lab/EtiCor"
 pdf_extract: "PDF Extracts/2023/2023-Dwivedi-EtiCor.md"
 local_pdf: "[[PDFs/2023/2023-Dwivedi-EtiCor.pdf]]"
@@ -99,7 +103,7 @@ Etiquettes are an essential ingredient of day-to-day interactions among people. 
 
 ## Data Description
 
-The EMNLP 2023 proceedings version of EtiCor introduces a corpus of 36,347 labeled English sentences about region-specific social norms from five global regions. Three LLMs (Delphi, Falcon-40B, GPT-3.5) are evaluated in zero-shot settings on the Etiquette Sensitivity task, and a fine-tuned BERT model is tested in a supervised setting.
+EtiCor corpus of 36,347 labeled social norms from five world regions (East Asia, India, Middle East/Africa, North America/Europe, Latin America) for evaluating LLMs on etiquette sensitivity.
 
 
 ## Notes

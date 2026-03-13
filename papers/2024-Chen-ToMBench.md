@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +60,7 @@ abstract: "Theory of Mind (ToM) is the cognitive capability to perceive and ascr
 paper_summary: "Abstract: Theory of Mind (ToM) is the cognitive capa- bility to perceive and ascribe mental states to oneself and others. Recent research has sparked a debate over whether large language models (LLMs) exhibit a | Overview: T MBENCH: Benchmarking Theory of Mind in Large Language Models Zhuang Chen1∗ Jincenzi Wu2∗ Jinfeng Zhou1∗ Bosi Wen1∗ Guanqun Bi1,3 Gongyao Jiang4 Yaru Cao1,5 Mengting Hu6 Yunghwei Lai7 Zexuan Xiong1 M | Methodology: In T MBENCH, we organize the test samples in two perspectives: the task view groups them into 8 theory-of-mind tasks, and the ability view cate- goriz | Key Findings: ✔ Original Inventory Bilingual Corpus Systematic Framework ✔ ✔ Question1: What emotion does Mike likely show? A. Proud B. Guilty C. Ashamed D. Disappo"
 local_pdf: "[[PDFs/2024/2024-Chen-ToMBench.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Mistral, Mixtral, Qwen"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/zhchen18/ToMBench"
 CONFERENCE: "ACL 2024"
 ethics_overall: "No"
@@ -65,7 +70,7 @@ utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -100,7 +105,7 @@ Theory of Mind (ToM) is the cognitive capability to perceive and ascribe mental 
 
 ## Data Description
 
-The paper introduces ToMBench, a systematic Theory of Mind benchmark for LLMs containing 2,860 bilingual (Chinese and English) multiple-choice test samples covering 8 social cognitive tasks and 31 ToM abilities across diverse real-world social scenarios. The benchmark is built from scratch to avoid data contamination, with samples inspired by daily social scenarios across topics like family, workplace, school, and relationships.
+ToMBench: a bilingual (English/Chinese) Theory of Mind benchmark with 2,860 multiple-choice test samples covering 8 social cognitive tasks and 31 abilities, built from scratch to avoid data contamination.
 
 
 ## Notes

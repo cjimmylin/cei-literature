@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "IberLEF 2025"
 pdf_extract: "PDF Extracts/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md"
 local_pdf: "[[PDFs/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish, American, Latin American"
-cultures_nationalities_list: "Latin American, Spanish"
-languages_list: Spanish
+national_ethnic_cultural: "Spanish, Latin American"
+cultures_nationalities_list: "Spanish, Latin American"
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Falcon-7B, Gemma, Mistral-7B, ChatGPT"
+LLM_assessed: "BERT, RoBERTa, GPT-4o mini, Mistral, Falcon"
 DATA_URL: "NA"
 tags: 
 abstract: "This paper presents the HOMO-LAT shared task organized at IberLEF 2025, as part of the 41st International Conference of the Spanish Society for Natural Language Processing (SEPLN 2025). Our goal is to foster the design of algorithms capable of capturing the polarity of Reddit comments on keywords referring to the LGBTQ+ community. HOMO-LAT is a continuation of the past tasks HOMO-MEX 2023 and 2024, with the particularity of including posts from 19 Spanish-speaking Latin American countries."
@@ -62,8 +66,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -98,7 +102,8 @@ Extension of HOMO-MEX to 19 Spanish-speaking Latin American countries. Polarity 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Falcon-7B, Gemma, Mistral-7B, ChatGPT. No high-confidence repository-style data URL was identified.
+HOMO-LAT is a polarity detection corpus extending HOMO-MEX to 19 Spanish-speaking Latin American countries, covering LGBTQ+-oriented online messages; Track 1 uses matched-country data and Track 2 tests cross-country generalization.
+
 
 ## Notes
 

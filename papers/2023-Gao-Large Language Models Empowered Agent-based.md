@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,8 +62,8 @@ abstract: "Agent-based modeling and simulation has evolved as a powerful tool fo
 paper_summary: "Abstract: Agent-based modeling and simulation has evolved as a powerful tool for modeling complex systems, offering insights into emergent behaviors and interactions among diverse agents. Integrating large lang | Overview: Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives Chen Gao Xiaochong Lan Nian Li Yuan Yuan Jingtao Ding Zhilun Zhou Fengli Xu Yong Li Tsinghua University,  | Methodology: to bounded rationality. The American economic review, 81(2):353–359, 1991. [14] Anonymous Authors. Sociodojo: Building lifelong analytical agents. [15 | Key Findings: Besides the simulation accuracy or explainability of the large language model-empowered agent- based simulation, the ethics issue is also of great imp | Conclusions: Agent-based modeling and simulation is one of the most important methods to model complex systems in various domains. The recent advances in large lan"
 local_pdf: "[[PDFs/2023/2023-Gao-Large Language Models Empowered Agent-based.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-4, PaLM, text-davinci"
-DATA_URL: "https://github.com/tatsu-lab/stanford_alpaca"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -67,7 +71,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

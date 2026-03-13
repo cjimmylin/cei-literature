@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2024/2024-Kajiwara-Multiclass hate speech detection with an a
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
-languages_list: Japanese
+languages_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-2, GloVe, RoBERTa, Word2Vec"
-DATA_URL: "https://github.com/amiangshu/SentiSE"
+LLM_assessed: "BERT, GPT-2"
+DATA_URL: NA
 tags: 
 abstract: "Detecting and removing hate speech content in a timely manner remains a challenge for social media platforms. Automated techniques such as deep learning models offer solutions which can keep up with the volume and velocity of user content production. Research in this area has mainly focused on either binary classiﬁcation or on classifying tweets into generalised categories such as hateful, offensive, or neither."
 CONFERENCE: "Other Conference"
@@ -95,7 +99,8 @@ Statistical approaches to processing natural language text have become dominant 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-2, GloVe, RoBERTa, Word2Vec. Verified dataset/resource link: https://github.com/amiangshu/SentiSE.
+Aggregated and re-annotated hate speech dataset classifying tweets into ethnicity, gender, religion, sexuality, and non-hate categories, evaluated with logistic regression, LSTM, BERT, and GPT-2 models.
+
 
 ## Notes
 

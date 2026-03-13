@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +49,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
-languages_list: Russian
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, GPT-2"
-DATA_URL: "https://github.com/sberbank-ai/ru-gpts"
+DATA_URL: "https://github.com/skoltech-nlp/rudetoxifier"
 tags: 
 abstract: "We introduce the ﬁrst study of automatic detoxiﬁcation of Russian texts to combat offensive language. Such a kind of textual style transfer can be used, for instance, for processing toxic content in social media. While much work has been done for the English language in this ﬁeld, it has never been solved for the Russian language yet. We test two types of models – unsupervised approach based on BERT architecture that performs local corrections and supervised approach based on pretrained..."
 CONFERENCE: "Journal"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -102,7 +105,8 @@ First study of automatic detoxification of Russian texts. Introduces RuToxic dat
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-2. Verified dataset/resource link: https://github.com/sberbank-ai/ru-gpts.
+RuToxic dataset of 163,187 Russian social media texts (31,407 toxic) plus parallel toxic-to-neutral sentence pairs for detoxification training and evaluation.
+
 
 ## Notes
 

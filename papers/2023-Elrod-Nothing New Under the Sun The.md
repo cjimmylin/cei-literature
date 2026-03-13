@@ -30,6 +30,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,15 +53,15 @@ publication: "HIPHIL Novum, 8(2), 1--32"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "N/A"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: ""
-religious_values: "Christianity"
-religious_values_list: "Christianity"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Main characteristics of Google Scholar Metrics’ new version (july 2013) are presented. We outline the novelties and the weaknesses detected after a first analysis. As main conclusion, we remark the lack of new functionalities with respect to last editions, as the only modification is the update of the timeframe (20082012). Hence, problems pointed out in our last reviews still remain active. Finally, it seems Google Scholar Metrics will be updated in a yearly basis."
-LLM_assessed: "GPT"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"

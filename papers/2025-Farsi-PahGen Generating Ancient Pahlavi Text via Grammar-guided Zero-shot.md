@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,17 +47,17 @@ CONF-CC: "Workshop (2025)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Persian, Zoroastrian"
-languages_list: "Pahlavi, English"
-religious_values: Zoroastrian
-religious_values_list: "Zoroastrian"
+national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
+languages_list: "Pahlavi"
+religious_values: "Zoroastrianism"
+religious_values_list: "Zoroastrianism"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Combines grammar-guided term extraction with zero-shot translation using LLMs to generate syntactically and semantically accurate Pahlavi (Middle Persian) sentences. Generates 360 expert-validated parallel English-Pahlavi texts. Pahlavi was the language of Zoroastrian Middle Persian texts and the majority of surviving Pahlavi texts are religious Zoroastrian writings."
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -60,8 +65,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -93,7 +98,7 @@ Combines grammar-guided term extraction with zero-shot translation using LLMs to
 
 ## Data Description
 
-The paper generates 360 expert-validated parallel English-Pahlavi text pairs using grammar-guided term extraction combined with zero-shot LLM translation. The data consists of syntactically and semantically accurate Pahlavi (Middle Persian) sentences for a low-resource ancient language used in Zoroastrian religious literature.
+360 expert-validated parallel English-Pahlavi (Middle Persian) texts generated through grammar-guided zero-shot translation, serving as an evaluation corpus for ancient Zoroastrian language generation tasks.
 
 
 ## Notes

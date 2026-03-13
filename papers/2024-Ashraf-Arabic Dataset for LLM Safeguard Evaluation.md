@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +50,13 @@ local_pdf: "[[PDFs/2024/2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.
 pdf_extract: "PDF Extracts/2024/2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Pan-Arab"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Jais, AceGPT, Qwen-2, GPT-4o, Llama-3"
+LLM_assessed: "GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/mbzuai-nlp/Arabic_safety_evaluation"
 tags: 
 abstract: "The growing use of large language models (LLMs) has raised concerns regarding their safety. While many studies have focused on English, the safety of LLMs in Arabic, with its linguistic and cultural complexities, remains under-explored. Here, we aim to bridge this gap. In particular, we present an Arab-regionspecific safety evaluation dataset consisting of 5,799 questions, including direct attacks, indirect attacks, and harmless requests with sensitive words, adapted to reflect the..."
@@ -61,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
@@ -98,7 +103,7 @@ Arab-region-specific safety evaluation dataset of 5,799 questions covering direc
 
 ## Data Description
 
-An Arab-region-specific safety evaluation dataset consisting of 5,799 Arabic questions across six risk areas and eighteen harm types, including direct attacks, indirect attacks, and harmless requests with sensitive words. The dataset combines 2,726 localized questions from a Chinese safety benchmark and 1,024 newly crafted Arab-region-specific sensitive questions. Five LLMs were evaluated: Jais-30B-chat, AceGPT-7B-chat, Llama-3-8B-instruct, GPT-4o, and Qwen-2-7B-instruct. A dual-perspective evaluation framework assesses responses from governmental and opposition viewpoints.
+Arab-region-specific safety evaluation dataset of 5,799 questions covering direct attacks, indirect attacks, and harmless requests, with dual-perspective (governmental/opposition) evaluation framework across five Arabic-centric LLMs.
 
 
 ## Notes

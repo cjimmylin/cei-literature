@@ -22,6 +22,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +53,7 @@ external_pdf: "https://philpapers.org/archive/KRZAOP-2.pdf"
 abstract: "This paper explores the definition and relevance of phronesis (practical wisdom) for AI systems. It discusses the conceptual foundations of synthetic phronesis, reviews current research on embedding moral judgment into AI, and examines the prospects for creating architectures capable of context-dependent moral reasoning. The authors argue that while AI currently lacks the lived experience of human phronesis, developing \"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, GPT-4"
+LLM_assessed: "ChatGPT"
 DATA_URL: "NA"
 research_topic: "Other"
 CONFERENCE: "Journal"

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ pdf_extract: "PDF Extracts/2022/2022-Malhas-Qur'an QA 2022.md"
 local_pdf: "[[PDFs/2022/2022-Malhas-Qur'an QA 2022.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: BERT
+LLM_assessed: "AraBERT, AraELECTRA, BERT, CAMeLBERT"
 DATA_URL: "https://gitlab.com/bigirqu/quranqa"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -59,9 +63,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -95,7 +99,7 @@ Motivated by the resurgence of the machine reading comprehension (MRC) research,
 
 ## Data Description
 
-The Qur'anic Reading Comprehension Dataset (QRCD) consists of 1,093 question-passage pairs yielding 1,337 question-passage-answer triplets, split into training (65%), development (10%), and test (25%) sets. The dataset targets extractive question answering over the Holy Qur'an in Arabic, with questions posed in Modern Standard Arabic and answers extracted as spans from Classical Arabic Qur'anic passages. Thirteen teams participated in the shared task using transformer-based models including AraBERT and AraElectra variants.
+Shared task benchmark and dataset for extractive QA over the Holy Qur'an in Arabic
 
 
 ## Notes

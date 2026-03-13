@@ -28,6 +28,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,8 +61,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Efﬁciently and accurately translating a corpus into a low-resource language remains a challenge, regardless of the strategies employed, whether manual, automated, or a combination of the two. Many Christian organizations are dedicated to the task of translating the Holy Bible into languages that lack a modern translation. Bible translation (BT) work is currently underway for over 3000 extremely low resource languages."
-LLM_assessed: "BERT"
-DATA_URL: "https://huggingface.co/datasets/bible-nlp/biblenlp-corpus / https://github.com/BibleNLP/ebible"
+LLM_assessed: NA
+DATA_URL: "https://huggingface.co/datasets/bible-nlp/biblenlp-corpus"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
@@ -102,7 +107,8 @@ Summary: Largest standardized Bible corpus for NLP, with 1,009 translations alig
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/datasets/bible-nlp/biblenlp-corpus / https://github.com/BibleNLP/ebible.
+The eBible corpus: 1,009 Bible translations across 833 languages aligned by verse, released as a parallel multilingual corpus for low-resource language NLP research and machine translation benchmarking.
+
 
 ## Notes
 

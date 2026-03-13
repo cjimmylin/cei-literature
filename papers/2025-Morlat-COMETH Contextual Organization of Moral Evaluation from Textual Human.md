@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Moral actions are judged not only by their outcomes but by the context in which they occur. We present COMETH (Contextual Organization of Moral Evaluation from Textual Human inputs), a framework that integrates a probabilistic context learner with LLM-based semantic abstraction and human moral evaluations to model how context shapes the acceptability of ambiguous actions. We curate an empirically grounded dataset of 300 scenarios across six core actions (violating Do not kill, Do not deceive,..."
-LLM_assessed: "GPT-4, Mistral, Llama-3, Qwen"
+LLM_assessed: "GPT-4, Llama-3, Mistral, Qwen"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"
@@ -99,7 +103,8 @@ Moral actions are judged not only by their outcomes but by the context in which 
 
 ## Data Description
 
-COMETH presents a framework integrating probabilistic context learning with LLM-based semantic abstraction and human moral evaluations. The dataset consists of 300 high-ambiguity moral scenarios across six core actions (violations of Do not kill, Do not deceive, Do not break the law) with ternary judgments (Blame/Neutral/Support) collected from 101 participants. Pre-processing uses Mistral-7B, Llama-3.1-8B, and Qwen3-Next-80B for action extraction, with GPT-4 used for scenario generation.
+Empirically grounded dataset of 300 moral scenarios across six core actions (euthanasia, killing in protection, lying for support, lying for self-interest, stealing, illegal protest), with ternary moral judgments (Blame/Neutral/Support) from 101 participants.
+
 
 ## Notes
 

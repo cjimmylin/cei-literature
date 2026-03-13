@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ paper_summary: "Abstract: Generative Pre-trained Transformer (GPT) models have e
 local_pdf: "[[PDFs/2023/2023-Wang-DecodingTrust.pdf]]"
 CONF-CC: "NeurIPS 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama, Llama-2, Alpaca, Vicuna"
+LLM_assessed: "Alpaca, GPT-3.5, GPT-4, LLaMA, Llama-2, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/AI-Secure/DecodingTrust"
 CONFERENCE: "Preprint"
 helm: "incorporated"
@@ -97,7 +101,7 @@ Generative Pre-trained Transformer (GPT) models have exhibited exciting progress
 
 ## Data Description
 
-DecodingTrust is a comprehensive trustworthiness evaluation benchmark for GPT models, publicly available on HuggingFace. It covers eight trustworthiness perspectives including toxicity, stereotype bias, adversarial robustness, out-of-distribution robustness, privacy, machine ethics, and fairness, with evaluations conducted primarily on GPT-4 and GPT-3.5 and extended to open LLMs including Llama, Llama 2, Alpaca, and Vicuna. The benchmark includes custom-designed adversarial system/user prompts, stereotype datasets across 24 demographic groups, and evaluation scenarios across diverse tasks.
+Comprehensive trustworthiness benchmark for LLMs covering 8 perspectives: toxicity, stereotype bias, adversarial robustness, OOD robustness, adversarial demonstrations, privacy, machine ethics, and fairness, with custom datasets and evaluation scenarios.
 
 
 ## Notes

@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +47,7 @@ url: "http://arxiv.org/abs/2410.20245"
 external_pdf: "http://arxiv.org/pdf/2410.20245.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 CONF-CC: "NAACL 2024"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
@@ -55,7 +60,7 @@ abstract: "One of the most challenging problems facing NLP today is evaluation. 
 paper_summary: "Abstract: One of the most challenging problems facing NLP today is evaluation. Some of the most pressing issues pertain to benchmark satura- tion, data contamination, and diversity in the quality of test exampl | Overview: Improving Model Evaluation using SMART Filtering of Benchmark Datasets Vipul Gupta1, 2, † Candace Ross1 David Pantoja3 Rebecca J. Passonneau2 Megan Ung1 Adina Williams1 1 FAIR, Meta AI 2 Pennsylvania  | Methodology: increases efficiency without hits to leaderboard util- ity. For example, on the ARC dataset, we shrink the dataset by 68.9%, increasing computational  | Key Findings: datasets, preserving the high-quality examples that are most informative and reliable as our basis for benchmarking. Our methodology applies three fil | Conclusions: Dataset Quality. Our approach removes the easy, data contaminated, and similar examples, thus im- proving the quality of the resulting dataset. Our me"
 local_pdf: "[[PDFs/2024/2024-Gupta-Improving Model Evaluation using SMART Filtering.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Qwen, Llama-3, Gemma, Phi, Mixtral"
+LLM_assessed: "Gemma, Gemma-2, Llama-3, Mixtral, Phi-3, Qwen-2, Yi"
 DATA_URL: "NA"
 CONFERENCE: "NAACL 2024"
 ethics_overall: "No"
@@ -63,9 +68,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 ---
@@ -100,7 +105,7 @@ One of the most challenging problems facing NLP today is evaluation. Some of the
 
 ## Data Description
 
-The paper applies SMART (Selection Methodology for Accurate, Reduced, and Targeted) filtering to three multiple-choice QA benchmark datasets: ARC (3,530 examples, filtered to 1,097), MMLU (14,042 examples, filtered to 8,000), and CommonsenseQA (1,221 examples, filtered to 802). Eleven LLMs including Qwen2-72B, Llama-3.1-70B, Gemma-2-27b, Phi-3.5-MoE, and Mixtral-8x22B are evaluated on both original and SMART-filtered versions to demonstrate that filtering increases efficiency while preserving model rankings.
+Proposes SMART filtering methodology to select high-quality subsets from existing benchmarks (ARC, MMLU, CommonsenseQA); does not release a new standalone dataset.
 
 
 ## Notes

@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +50,8 @@ local_pdf: "[[PDFs/2023/2023-Munn-The Five Tests Designing and Evaluating.pdf]]"
 publication: "AI & Society (Springer)"
 CONF-CC: "AI & Society"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indigenous Australian"
+national_ethnic_cultural: "Australian/Aboriginal"
+cultures_nationalities_list: "Australian/Aboriginal"
 languages_list: ""
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
@@ -56,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As AI technologies are increasingly deployed in work, welfare, healthcare, and other domains, there is a growing realization not only of their power but of their problems. AI has the capacity to reinforce historical injustice, to amplify labor precarity, and to cement forms of racial and gendered inequality. An alternate set of values, paradigms, and priorities are urgently needed. How might we design and evaluate AI from an indigenous perspective?"
-LLM_assessed: "Falconer"
+LLM_assessed: NA
 DATA_URL: "NA"
 research_topic: Other
 CONFERENCE: "Journal"
@@ -66,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +47,13 @@ pdf_extract: "PDF Extracts/2024/2024-Keegan-Maori Data Sovereignty in AI Develop
 "N/A"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Maori"
+cultures_nationalities_list: "N/A"
 languages_list: "Maori"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: "GPT-2, LLaMA-2, Mistral, Gemma"
 DATA_URL: "NA"
 tags: 
 abstract: "Evaluates how LLMs handle Maori language, identifying issues such as models not always responding in Maori and producing hallucinations (e.g., incorrectly stating Te Tiriti was signed between India and Asia). Explores bias mitigation in LLMs regarding te reo Maori and the concept of Maori data sovereignty in AI development."

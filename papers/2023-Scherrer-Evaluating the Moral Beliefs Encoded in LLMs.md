@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +62,7 @@ abstract: "This paper presents a case study on the design, administration, post-
 paper_summary: "Abstract: This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for el | Overview: Evaluating the Moral Beliefs Encoded in LLMs Warning: This paper contains moral scenarios which are controversial and offensive in nature. Nino Scherrer ∗1, Claudia Shi ∗1,2, Amir Feder 2, and David M"
 local_pdf: "[[PDFs/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, PaLM-2, Flan-T5, BLOOM, OPT"
+LLM_assessed: "BLOOM, Claude, Flan-T5, GPT-3.5, GPT-4, PaLM"
 DATA_URL: "https://huggingface.co/datasets/ninoscherrer/moralchoice"
 CONFERENCE: "NeurIPS 2023"
 ethics_overall: "Yes"
@@ -65,9 +70,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---
@@ -102,7 +107,7 @@ This paper presents a case study on the design, administration, post-processing,
 
 ## Data Description
 
-The paper presents MoralChoice, a survey dataset containing 1,367 moral scenarios (680 high-ambiguity and 687 low-ambiguity) with responses from 28 open- and closed-source LLMs. The scenarios are grounded in Gert's common morality framework of ten rules and include descriptions, action pairs, and auxiliary labels indicating violated rules. The 28 models surveyed span seven providers (OpenAI, Anthropic, Google, Meta, BigScience, AI21 Labs, Cohere) ranging from 80M to unknown parameter counts.
+MoralChoice survey dataset containing 680 high-ambiguity and 687 low-ambiguity moral scenarios with action pairs and auxiliary rule-violation labels, plus responses from 28 LLMs.
 
 
 ## Notes

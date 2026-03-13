@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ local_pdf: "[[PDFs/2024/2024-Joy-Gender Bias Mitigation for Bangla Classificatio
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi, Bengali"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BERT, ChatGPT, ELECTRA, GPT-4, GloVe, Word2Vec"
-DATA_URL: "https://huggingface.co/datasets/FredZhang7"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/sajib-kumar/Gender-Bias-Mitigation-From-Bangla-PLM"
 tags: 
 abstract: "In this study, we investigate gender bias in Bangla pretrained language models, a largely under explored area in low-resource languages. To assess this bias, we applied gender-name swapping techniques to existing datasets, creating four manually annotated, task-specific datasets for sentiment analysis, toxicity detection, hate speech detection, and sarcasm detection. By altering names and gender-specific terms, we ensured these datasets were suitable for detecting and mitigating gender bias."
 CONFERENCE: "Preprint"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -95,7 +99,8 @@ Investigates gender bias in Bangla PLMs using gender-name swapping. Creates four
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, BERT, ChatGPT, ELECTRA, GPT-4, GloVe, Word2Vec. Verified dataset/resource link: https://huggingface.co/datasets/FredZhang7.
+Four manually annotated gender-bias datasets for Bangla NLP tasks (sentiment analysis, toxicity detection, hate speech detection, sarcasm detection), constructed via gender-name swapping on existing Bangla datasets.
+
 
 ## Notes
 

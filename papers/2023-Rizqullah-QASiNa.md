@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +59,7 @@ paper_summary: "Overview: QASiNa: Religious Domain Question Answering using Sira
 local_pdf: "[[PDFs/2023/2023-Rizqullah-QASiNa.pdf]]"
 abstract: "Nowadays, Question Answering (QA) tasks receive significant research focus, particularly with the development of Large Language Model (LLM) such as Chat GPT [1]. LLM can be applied to various domains, but it contradicts the principles of information transmission when applied to the Islamic domain. In Islam we strictly regulates the sources of information and who can give interpretations or tafseer for that sources [2]."
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, BERT"
+LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/rizquuula/QASiNa"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -99,7 +104,7 @@ Nowadays, Question Answering (QA) tasks receive significant research focus, part
 
 ## Data Description
 
-The paper introduces QASiNa (Question Answering Sirah Nabawiyah), a novel dataset of 500 question-answer pairs from 66 contexts about Islamic prophetic biography in Indonesian language. The dataset was compiled from 9 Sirah Nabawiyah literature sources and validated by domain experts. Models evaluated include mBERT, XLM-R, IndoBERT (fine-tuned with SQuAD-ID), and ChatGPT (GPT-3.5-turbo and GPT-4).
+QASiNa: 500 question-answer pairs from 66 contexts about Sirah Nabawiyah (Prophetic Biography) in Indonesian language, validated by domain experts, for religious domain QA evaluation.
 
 
 ## Notes

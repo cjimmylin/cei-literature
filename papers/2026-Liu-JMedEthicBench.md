@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,12 +44,12 @@ authors: "Liu, Junyu; Li, Zirui; Niu, Qian; Zhang, Zequn; Xun, Yue; Hou, Wenlong
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.01627"
 external_pdf: "https://arxiv.org/pdf/2601.01627.pdf"
-pdf_extract: "PDF Extracts/0000/2026-Liu-JMedEthicBench.md"
+pdf_extract: "PDF Extracts/2026/2026-Liu-JMedEthicBench.md"
 local_pdf: "[[PDFs/2026/2026-Liu-JMedEthicBench.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: "English, Japanese"
 religious_values: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As Large Language Models (LLMs) are increasingly deployed in healthcare field, it becomes essential to carefully evaluate their medical safety before clinical use. However, existing safety benchmarks remain predominantly English-centric, and test with only single-turn prompts despite multi-turn clinical consultations. To address these gaps, we introduce JMedEthicBench, the first multi-turn conversational benchmark for evaluating medical safety of LLMs for Japanese healthcare."
-LLM_assessed: "GPT-4, Claude, DeepSeek, Qwen, Llama-3, Grok"
+LLM_assessed: "Claude, DeepSeek, GPT-4, Gemini, Grok, Llama-3, Qwen"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 research_topic: "Other"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ As Large Language Models (LLMs) are increasingly deployed in healthcare field, i
 
 ## Data Description
 
-JMedEthicBench is the first multi-turn conversational benchmark for evaluating medical safety of LLMs in Japanese healthcare, comprising over 50,000 adversarial conversations generated from 1,935 validated harmful questions using seven jailbreak strategies. The benchmark is grounded in 67 guidelines from the Japan Medical Association (JMA). A total of 27 models were evaluated across three categories (commercial, general open-source, and medical-specialized), with a test set of 2,345 instances.
+JMedEthicBench is a multi-turn Japanese medical safety benchmark comprising 54,180 adversarial conversations grounded in 67 Japan Medical Association guidelines, with a test set of 2,345 instances. No public data URL found in the extract.
+
 
 ## Notes
 

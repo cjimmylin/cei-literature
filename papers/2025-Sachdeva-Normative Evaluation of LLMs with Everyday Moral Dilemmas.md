@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ tags:
 abstract: "This work conducts a normative evaluation of LLMs using everyday moral dilemmas from the 'Am I The Asshole' (AITA) community on Reddit, which provides a rich dataset capturing nuanced social dynamics and competing perspectives. The authors prompted seven commonly used LLMs, including proprietary and open-source models, to assign blame and provide explanations for over 10,000 AITA moral dilemmas. Results show that LLMs exhibit distinct patterns of moral judgment, varying substantially from human evaluations, with moderate to high self-consistency but low inter-model agreement."
 DATE_ADDED: 20260208
 research_topic: "LLM Moral Reasoning"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, PaLM-2, Llama-2, Mistral, Gemma"
+LLM_assessed: "GPT-3.5, GPT-4, Claude, PaLM-2, Llama-2, Mistral, Gemma"
 DATA_URL: "https://github.com/dlab-projects/normative_evaluation_llms_everyday_dilemmas"
 pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md"
 local_pdf: "[[PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
@@ -140,7 +144,7 @@ The study demonstrates that LLMs exhibit distinct patterns of moral judgment tha
 
 ## Data Description
 
-The study uses 10,826 moral dilemmas from Reddit's r/AmITheAsshole subreddit (October 2022 to March 2023), each paired with community verdicts and comments totaling 476,183 comments. Seven LLMs (GPT-3.5, GPT-4, Claude Haiku, PaLM 2 Bison, Llama 2 7B, Mistral 7B, and Gemma 7B) were prompted to assign blame verdicts and provide explanations, with each model evaluated three times per submission. Moral themes were classified using six RoBERTa models fine-tuned on the Yudkin et al. moral dilemma catalog.
+Dataset of 10,826 preprocessed Reddit AITA posts (Oct 2022–Mar 2023) paired with 7-model LLM verdicts and Redditor judgments, enabling normative evaluation of moral reasoning. Code and model outputs are released via the GitHub repository.
 
 
 ## Notes

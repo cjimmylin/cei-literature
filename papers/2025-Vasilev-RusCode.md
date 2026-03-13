@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ tags:
 abstract: "Text-to-image generation models have gained popularity among users around the world. However, many of these models exhibit a strong bias toward English-speaking cultures, ignoring or misrepresenting the unique characteristics of other language groups, countries, and nationalities. The lack of cultural awareness can reduce the generation quality and lead to undesirable consequences such as unintentional insult, and the spread of prejudice."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Ernie"
+LLM_assessed: "Stable Diffusion, DALL-E"
 DATA_URL: "https://github.com/ai-forever/RusCode"
 pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode.md"
 local_pdf: "[[PDFs/2025/2025-Vasilev-RusCode.pdf]]"
@@ -112,7 +116,7 @@ RusCode highlights that "high quality" image generation is not universal. A mode
 
 ## Data Description
 
-RusCode is a benchmark dataset for evaluating cultural awareness of text-to-image generation models with respect to Russian visual culture. It consists of 1,250 text prompts in Russian and English across 19 cultural categories and 125 subcategories, each paired with reference images. The benchmark was used for human evaluation of four T2I models (Stable Diffusion 3, DALL-E 3, Kandinsky 3.1, YandexART 2), which are image generation models rather than LLMs.
+RusCode is a benchmark dataset of 1,250 text prompts in Russian and English covering 19 categories of Russian cultural code (architecture, art, literature, folklore, famous personalities, etc.), with corresponding high-quality reference images. It is designed to evaluate the cultural awareness of text-to-image generation models.
 
 
 ## Notes

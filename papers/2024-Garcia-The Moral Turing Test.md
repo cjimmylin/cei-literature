@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -98,7 +102,7 @@ As large language models (LLMs) become increasingly integrated into society, the
 
 ## Data Description
 
-The study creates corpora of human and LLM-generated moral judgments using 60 ethical scenarios from Greene et al., evaluated by 230 human participants. Three corpora were generated using GPT-3.5 davinci-text-002 and davinci-text-003, each containing approximately 3,500 responses with yes/no judgments and free-text justifications. The data captures detection accuracy, agreement with judgments, and agreement with justifications across non-moral, impersonal moral, and personal moral scenario types.
+Corpus of human- and LLM-generated responses to moral scenarios (trolley-type dilemmas) used to evaluate alignment between human and LLM moral assessments, with a 230-participant user study.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ abstract: "Large Language Models (LLMs) have recently gained significant attenti
 paper_summary: "Abstract: Large Language Models (LLMs) have re- cently gained significant attention due to their remarkable capabilities in performing diverse tasks across various domains. How- ever, a thorough evaluation of t | Overview: A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations Md Tahmid Rahman Laskar†,||,∗, Sawsan Alqahtani§, M Saiful Bari¶,∗ Mizanur Rah | Methodology: Parsing Script Design: Evaluating LLM- generated responses is difficult because they often produce verbose outputs (see Table 6 for some examples). Th | Key Findings: of LLMs often focus only on benchmark tasks, datasets, and evaluation criteria, neglecting the broader complexities. This oversight can under- mine th"
 local_pdf: "[[PDFs/2024/2024-Laskar-A Systematic Survey and Critical Review on.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, Llama-3, Mistral, Qwen"
+LLM_assessed: NA
 DATA_URL: "https://github.com/ntunlp/Critical-Review-of-LLM-Eval"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

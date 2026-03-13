@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.md"
 local_pdf: "[[PDFs/2025/2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "French"
-cultures_nationalities_list: "French"
-languages_list: "12 languages including French"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude-3.5-Sonnet, GPT-4o, Gemini-Pro, Llama-3, Qwen, DeepSeek"
+LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Gemini, Gemma-2, Llama-3, Mistral, Phi-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/telegraphpolehead/linguasafe"
 tags: 
 abstract: "The widespread adoption and increasing prominence of large language models (LLMs) in global technologies necessitate a rigorous focus on ensuring their safety across a diverse range of linguistic and cultural contexts. The lack of a comprehensive evaluation and diverse data in existing multilingual safety evaluations for LLMs limits their effectiveness, hindering the development of robust multilingual safety alignment."
@@ -61,8 +65,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "12 languages"
 ---
@@ -100,7 +104,7 @@ This paper introduces LinguaSafe, a comprehensive multilingual safety benchmark 
 
 ## Data Description
 
-LinguaSafe is a comprehensive multilingual safety benchmark with 45,000 entries in 12 languages (including French) curated using translated, transcreated, and natively-sourced data. Introduces TATER (Task-Aware Translate, Estimate, and Refine) framework for safety evaluation. Finds safety performance varies dramatically across languages with English typically surpassing others. Claude-3.5-Sonnet achieves lowest vulnerability.
+LinguaSafe is a comprehensive multilingual safety benchmark with 45,000 entries across 12 languages (Hungarian to Malay), curated from translated, transcreated, and natively-sourced data, covering 5 safety domains and 23 subtypes with 4 severity levels and both direct and indirect evaluation tasks.
 
 
 ## Detailed Summary

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "EMNLP 2023 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
-DATA_URL: "https://huggingface.co/jhgan/ko-sbert-multitask"
+DATA_URL: NA
 tags: 
 abstract: "Numerous datasets have been proposed to combat the spread of online hate. Despite these efforts, a majority of these resources are Englishcentric, primarily focusing on overt forms of hate. This research gap calls for developing high-quality corpora in diverse languages that also encapsulate more subtle hate expressions. This study introduces K-HATERS, a new corpus for hate speech detection in Korean, comprising approximately 192K news comments with target-specific offensiveness ratings."
 CONFERENCE: "EMNLP 2023"
@@ -61,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
@@ -101,7 +105,8 @@ Largest Korean offensive language corpus with ~192K news comments and target-spe
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/jhgan/ko-sbert-multitask.
+K-HATERS corpus: ~192K Korean news comments with target-specific offensiveness ratings on 3-point Likert scale across 8 target categories (gender, age, race, religion, politics, job, disability, individuals).
+
 
 ## Notes
 

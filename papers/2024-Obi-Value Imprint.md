@@ -22,6 +22,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ tags:
 abstract: "LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized through these datasets. In this paper, we introduce Value Imprint, a framework for auditing and classifying the human values embedded within RLHF datasets. To investigate the viability of this framework, we conducted three case study experiments by auditing the Anthropic/hh-rlhf, OpenAI WebGPT..."
 paper_summary: "Abstract: LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized th | Overview: Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets Ike Obi Purdue University West Lafayette, Indiana Rohan Pant Purdue University West Lafayette, Indiana Srishti Shekha | Methodology: 3.1 Experiment Dataset We collected the datasets for this research from different developer collaboration platforms. We collected the Anthropic/hh-rlh | Key Findings: of a section of the classification output to examine their performance. We followed the evaluation with an additional round of analysis to examine how | Conclusions: In this research, we introduced Value Imprint, a technique for auditing and classifying the human values embedded within RLHF datasets. Findings from"
 DATE_ADDED: 20260208
-LLM_assessed: RoBERTa
+LLM_assessed: "GPT-4"
 DATA_URL: "https://github.com/hv-rsrch/valueimprint"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
@@ -61,7 +64,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -123,7 +126,7 @@ Value Imprint provides a quantitative way to hold AI developers accountable for 
 
 ## Data Description
 
-The paper introduces the Value Imprint framework for auditing human values in RLHF datasets. It uses 6,501 qualitatively annotated RLHF preferences as ground truth to train a RoBERTa-based classifier, which is then deployed to classify human values across the Anthropic/hh-rlhf (338,704 entries), OpenAI WebGPT Comparisons (19,578 entries), and Alpaca GPT-4-LLM (52,002 entries) datasets. The taxonomy covers seven human value categories spanning information-utility, prosocial, civic, and well-being dimensions.
+Value Imprint framework for auditing human values in RLHF datasets, with 6,501 annotated RLHF preferences from Anthropic/hh-rlhf, OpenAI WebGPT Comparisons, and Alpaca GPT-4-LLM, classified using a transformer-based model (not a specific named LLM).
 
 
 ## Notes

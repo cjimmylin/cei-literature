@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,14 +51,14 @@ pdf_extract: "PDF Extracts/2024/2024-Jue-MalayMMLU A Multitask Benchmark for the
 local_pdf: "[[PDFs/2024/2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Malaysian, Malay"
-languages_list: Malay
+cultures_nationalities_list: "N/A"
+languages_list: "Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Baichuan, Baichuan-2, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-2, Llama, Llama-3, LLaMA-3.1, LLaMA-3.2, Mistral, Mistral-v0, Qwen, Qwen-2, Qwen-2.5"
-DATA_URL: "NA"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4o, LLaMA, Llama-3, Mistral, Qwen, Qwen-2, Gemma, Gemma-2, Baichuan, StableLM, GLM, Command-R, Command R+"
+DATA_URL: "https://github.com/UMxYTL-AI-Labs/MalayMMLU"
 tags: 
 abstract: "Large Language Models (LLMs) and Large Vision Language Models (LVLMs) exhibit advanced proficiency in language reasoning and comprehension across a wide array of languages. While their performance is notably robust in well-resourced languages, their capabilities in low-resource languages, such as Bahasa Melayu (hereinafter referred to as Malay), remain less explored due to a scarcity of dedicated studies and benchmarks."
 CONFERENCE: "EMNLP 2024"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "24,213 questions"
 ---
@@ -99,7 +103,8 @@ data_metrics: "24,213 questions"
 
 ## Data Description
 
-Backfill summary: Models assessed include Baichuan, Baichuan-2, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-2, Llama, Llama-3, LLaMA-3.1, LLaMA-3.2, Mistral, Mistral-v0, Qwen, Qwen-2, Qwen-2.5. No high-confidence repository-style data URL was identified.
+MalayMMLU is the first multitask language understanding benchmark for Malay, comprising 24,213 multiple-choice questions across primary and secondary education levels in Malaysia, covering 5 topics and 22 subjects with cultural and linguistic context.
+
 
 ## Notes
 

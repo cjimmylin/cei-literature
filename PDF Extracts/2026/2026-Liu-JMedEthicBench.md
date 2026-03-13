@@ -1,23 +1,4 @@
----
-title: "2026-Liu-JMedEthicBench - PDF Extract"
-source_pdf: "2026-Liu-JMedEthicBench.pdf"
-pages: 12
-extracted_at: "2026-02-07T17:00:46.424001"
----
-
-# PDF Extract: 2026-Liu-JMedEthicBench
-
-**Source PDF:** 2026-Liu-JMedEthicBench.pdf
-**Total Pages:** 12
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-JMedEthicBench: A Multi-Turn Conversational Benchmark for Evaluating
+---\ntitle: "2026-Liu-JMedEthicBench - PDF Extract"\nsource_pdf: "2026-Liu-JMedEthicBench.pdf"\npages: 12\nextracted_at: "2026-02-14T02:17:38.190971"\n---\n\n# PDF Extract: 2026-Liu-JMedEthicBench\n\n**Source PDF:** 2026-Liu-JMedEthicBench.pdf\n**Total Pages:** 12\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nJMedEthicBench: A Multi-Turn Conversational Benchmark for Evaluating
 Medical Safety in Japanese Large Language Models
 Junyu Liu1, Zirui Li2, Qian Niu3*, Zequn Zhang4, Yue Xun5, Wenlong Hou5,
 Shujun Wang5, Yusuke Iwasawa3, Yutaka Matsuo3, Kan Hatakeyama-Sato3
@@ -120,9 +101,7 @@ and cultural contexts. Second, while recent bench-
 marks like MedSafetyBench (Han et al., 2024) ref-
 arXiv:2601.01627v1  [cs.CL]  4 Jan 2026
 
---- Page 2 ---
-
-erence the American Medical Association’s (AMA)
+--- Page 2 ---\n\nerence the American Medical Association’s (AMA)
 Principles of Medical Ethics (Association, 2001),
 they rely on broad categorical principles without
 incorporating detailed guidelines or concrete clini-
@@ -224,9 +203,7 @@ tional attacks that exploit the progressive erosion
 of safety boundaries, (2) we ground evaluation in
 67 domain-specific guidelines from the JMA rather
 
---- Page 3 ---
-
-than general harm taxonomies, and (3) we use au-
+--- Page 3 ---\n\nthan general harm taxonomies, and (3) we use au-
 tomated strategy discovery to generate adversarial
 conversations at scale. Table 1 summarizes this
 positioning.
@@ -332,9 +309,7 @@ a strict filtering process.
 A distinct set of five
 LLMs (Claude-4-Sonnet, Gemini-2.5-Flash, GPT-
 
---- Page 4 ---
-
-Table 1: Comparison of JMedEthicBench with related benchmarks. Our work is the first to combine a medical
+--- Page 4 ---\n\nTable 1: Comparison of JMedEthicBench with related benchmarks. Our work is the first to combine a medical
 domain, Japanese language, and a multi-turn conversational format to evaluate safety.
 Benchmark
 Language(s)
@@ -451,9 +426,7 @@ approximately 50,000 multi-turn conversation in-
 stances. The questions in the multi-turn conversa-
 tions are used for evaluating the LLMs.
 
---- Page 5 ---
-
-Algorithm 1 Multi-Turn Jailbreak Strategy Discov-
+--- Page 5 ---\n\nAlgorithm 1 Multi-Turn Jailbreak Strategy Discov-
 ery
 Require: Harmful
 questions
@@ -573,9 +546,7 @@ nAI et al., 2025), Qwen3 (8b, 30b-a3b, 32b, and
 Guo et al., 2025a), Kimi-K2 (Team et al., 2025),
 and GLM-4.5 (Zeng et al., 2025). For commercial
 
---- Page 6 ---
-
-Figure 3: Safety scores across conversation turns for all
+--- Page 6 ---\n\nFigure 3: Safety scores across conversation turns for all
 evaluated models. General models (left) and medical
 models (right) are separated by the dashed line. Com-
 mercial models (e.g., Claude, GPT-5) maintain high
@@ -651,9 +622,7 @@ boundaries across conversation turns. The median
 safety score decreases from approximately 9.5 at
 Turn 0 to 6.0 at Turn 1 and 5.0 at Turn 2. All
 
---- Page 7 ---
-
-0
+--- Page 7 ---\n\n0
 2
 4
 6
@@ -776,9 +745,7 @@ source models show greater variance, with most
 falling below the diagonal line, achieving high help-
 fulness but struggling with safety. This asymmetry
 
---- Page 8 ---
-
-Table
+--- Page 8 ---\n\nTable
 2:
 Performance
 comparison
@@ -931,9 +898,7 @@ troduce biases or miss subtle safety failures that
 human evaluators would detect.
 Third, our fo-
 
---- Page 9 ---
-
-cus on refusal does not address other dimensions
+--- Page 9 ---\n\ncus on refusal does not address other dimensions
 such as hallucination, misinformation, or overcau-
 tious refusals in benign contexts. Finally, while
 our cross-lingual analysis of medical models pro-
@@ -1043,9 +1008,7 @@ language models based on Chinese medical ethics.
 In Proceedings of the 2025 Conference of the Na-
 tions of the Americas Chapter of the Association for
 
---- Page 10 ---
-
-Computational Linguistics: Human Language Tech-
+--- Page 10 ---\n\nComputational Linguistics: Human Language Tech-
 nologies (Volume 3: Industry Track), pages 404–421,
 Albuquerque, New Mexico. Association for Compu-
 tational Linguistics.
@@ -1166,9 +1129,7 @@ Xunliang Cai, and Chenjuan Guo. 2025. MUSE:
 MCTS-driven red teaming framework for enhanced
 multi-turn dialogue safety in large language models.
 
---- Page 11 ---
-
-In Proceedings of the 2025 Conference on Empiri-
+--- Page 11 ---\n\nIn Proceedings of the 2025 Conference on Empiri-
 cal Methods in Natural Language Processing, pages
 21293–21314, Suzhou, China. Association for Com-
 putational Linguistics.
@@ -1273,9 +1234,7 @@ complex scenarios
 • Consistency: Maintains unwavering ethics
 under pressure, citing medical guidelines
 
---- Page 12 ---
-
-Table 3: The seven jailbreak strategies discovered through automated multi-agent framework. Each strategy employs
+--- Page 12 ---\n\nTable 3: The seven jailbreak strategies discovered through automated multi-agent framework. Each strategy employs
 distinct mechanisms to circumvent safety refusals in medical contexts.
 Strategy
 Description
@@ -1344,5 +1303,4 @@ or normalizes harm
 zero safeguards
 • Consistency: Abandons ethics for conve-
 nience, contradicts core principles
-
-```
+\n```\n

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2024/2024-Religions-The Use of Large Language Models.pdf]]"
 publication: "Religions (MDPI), Vol. 15, Issue 12, Article 1559"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, American, Hebrew/Israeli"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We evaluated the performance of a large language model called ChatGPT on the United States Medical Licensing Exam (USMLE), which consists of three exams: Step 1, Step 2CK, and Step 3. ChatGPT performed at or near the passing threshold for all three exams without any specialized training or reinforcement. Additionally, ChatGPT demonstrated a high level of concordance and insight in its explanations. These results suggest that large language models may have the potential to assist with medical..."
-LLM_assessed: "ChatGPT, GPT3"
+LLM_assessed: "ChatGPT"
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "No"

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,8 +61,8 @@ pdf_extract: "PDF Extracts/2025/2025-Liu-The Scales of Justitia.md"
 paper_summary: "Overview: JOURNAL OF LATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 1 The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs Songyang Liu, Chaozhuo Li∗, Jiameng Qiu, Xi Zhang, Feiran Huang, | Methodology: assesses fairness by analyzing the differences in similarity among various sensitive attribute values (for example, in the context of race, comparing  | Key Findings: Taxonomy of Tasks Metrics Datasets and Benchmarks Taxonomy of Evaluators Frameworks Challenges and Future Directions Guo et al. [14] 2023 ✓ ✗ ✓ ✗ ✗ ✗  | Conclusions: Ensuring the safe deployment and responsible use of LLMs in real-world applications requires systematic safety evalu- ation. This paper provides the f"
 local_pdf: "[[PDFs/2025/2025-Liu-The Scales of Justitia.pdf]]"
 abstract: "With the rapid advancement of artificial intelligence, Large Language Models (LLMs) have shown remarkable capabilities in Natural Language Processing (NLP), including content generation, human-computer interaction, machine translation, and code generation. However, their widespread deployment has also raised significant safety concerns. In particular, LLMgenerated content can exhibit unsafe behaviors such as toxicity, bias, or misinformation, especially in adversarial contexts, which has..."
-LLM_assessed: "BERT, ChatGPT, DeBERTa, GPT-3, GPT-3.5, GPT-4, Gemma2, Llama, Llama Guard, Llama-2, Llama2, Llama3, Mistral 7b, Mistral among, Mistral- 7b, Mistral-7B, Qwen technical, Qwen-14B, RoBERTa, Vicuna, gemma"
-DATA_URL: "https://github.com/meta-llama/PurpleLlama"
+LLM_assessed: NA
+DATA_URL: NA
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -66,9 +70,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "It is well documented that NLP models learn social biases, but little work has been done on how these biases manifest in model outputs for applied tasks like question answering (QA). We introduce the Bias Benchmark for QA (BBQ), a dataset of question sets constructed by the authors that highlight attested social biases against people belonging to protected classes along nine social dimensions relevant for U.S. English-speaking contexts."
-LLM_assessed: "T5, RoBERTa, DeBERTa"
+LLM_assessed: "DeBERTaV3, RoBERTa, UnifiedQA"
 DATA_URL: "https://github.com/nyu-mll/BBQ"
 CONFERENCE: "ACL 2022"
 eleutherai: incorporated
@@ -100,7 +105,8 @@ It is well documented that NLP models learn social biases, but little work has b
 
 ## Data Description
 
-BBQ (Bias Benchmark for QA) is a hand-built dataset of 58,492 unique examples constructed from 325 templates across nine social bias categories (age, disability, gender, nationality, physical appearance, race/ethnicity, religion, socioeconomic status, and sexual orientation). Each example pairs an ambiguous or disambiguated context with negative or non-negative questions and three answer choices, designed to test whether QA models rely on social stereotypes. Models tested include UnifiedQA (T5-based), RoBERTa, and DeBERTaV3.
+Bias benchmark for QA with question sets across 9 social dimensions evaluating stereotypical reasoning
+
 
 ## Notes
 

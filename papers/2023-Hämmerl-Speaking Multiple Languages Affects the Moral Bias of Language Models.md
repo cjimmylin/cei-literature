@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,15 +46,15 @@ local_pdf: "[[PDFs/2023/2023-Hämmerl-Speaking Multiple Languages Affects the Mo
 publication: "ACL Anthology / ACL 2023 Findings"
 CONF-CC: "ACL 2023 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Arabic, German"
-cultures_nationalities_list: "Chinese, Arabic, German"
+national_ethnic_cultural: "Chinese, Arabic, German, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, Arabic, German, Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, Czech, English, German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: 
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "NA"
+LLM_assessed: "BERT, XLNet"
+DATA_URL: "https://github.com/kathyhaem/"
 tags: 
 abstract: "Pre-trained multilingual language models (PMLMs) are commonly used when dealing with data from multiple languages and crosslingual transfer. However, PMLMs are trained on varying amounts of data for each language. In practice this means their performance is often much better on English than many other languages. We explore to what extent this also applies to moral norms. Do the models capture moral norms from English and impose them on other languages?"
 CONFERENCE: "ACL 2023"
@@ -61,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
-languages_list: Hebrew
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "DictaLM"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: "https://huggingface.co/dicta-il/dictalm-7b"
 tags: 
 abstract: "We present DictaLM, a large-scale language model tailored for Modern Hebrew. Boasting 7B parameters, this model is predominantly trained on Hebrew-centric data. As a commitment to promoting research and development in the Hebrew language, we release both the foundation model and the instruct-tuned model under a Creative Commons license1. Concurrently, we introduce DictaLM-Rab, another foundation model geared towards Rabbinic/Historical Hebrew."
 CONFERENCE: "Preprint"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
@@ -99,7 +103,7 @@ First large generative language model (7B) for Modern Hebrew, trained on Hebrew-
 
 ## Data Description
 
-The paper introduces DictaLM, a 7B parameter language model tailored for Modern Hebrew, trained on 7.5 billion tokens predominantly from Hebrew sources. It also presents DictaLM-Rab for Rabbinic/Historical Hebrew. The model is instruct-tuned using Hebrew QA datasets (HeQ, ParaShoot) and a translated MPT Instruct Dataset. Both foundation and instruct-tuned models are released under Creative Commons license.
+Releases DictaLM (7B) and DictaLM-Rab foundation models for Modern and Rabbinic Hebrew under Creative Commons license, establishing initial Hebrew LLM generation benchmarks.
 
 
 ## Notes

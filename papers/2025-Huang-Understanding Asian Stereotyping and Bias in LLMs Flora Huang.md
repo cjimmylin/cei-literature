@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Huang-Understanding Asian Stereotyping and Bias in LLMs Flora Huang.md"
 local_pdf: "[[PDFs/2025/2025-Huang-Understanding Asian Stereotyping and Bias in LLMs Flora Huang.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Asian, Chinese"
-languages_list: Chinese
+national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Llama, Mistral"
+LLM_assessed: "GPT-4o, Gemini, Llama-3, Mistral"
 DATA_URL: "NA"
 tags: 
 abstract: "In recent years, the advancements of large language models (LLMs) have helped them become increasingly entrenched into our world. LLM assistance with processing natural language tasks and generating text is now commonplace. However, despite their advancements, LLMs are critically flawed due to their internalization of social biases. As a result, the use of LLMs may often spread or even amplify issues such as racial bias and stereotyping."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

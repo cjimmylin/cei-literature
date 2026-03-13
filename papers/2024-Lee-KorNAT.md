@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ key_contribution: "Created KorNAT, a benchmark for 'national alignment' with Sou
 significance: "Defines 'National Alignment' as a distinct goal from 'Human Alignment', showing that general models often fail on specific cultural norms (Korean values) even if they are generally 'helpful'."
 tags: 
 abstract: "For Large Language Models (LLMs) to be effectively deployed in a specific country, they must possess an understanding of the nation’s culture and basic knowledge. To this end, we introduce National Alignment, which measures an alignment between an LLM and a targeted country from two aspects: social value alignment and common knowledge alignment. Social value alignment evaluates how well the model understands nation-specific social values, while common knowledge alignment examines how well the..."
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, PaLM-2, Gemini"
+LLM_assessed: "Claude, GPT-3.5, GPT-4, Gemini, Llama-2, PaLM-2"
 DATA_URL: "https://huggingface.co/datasets/datumo/KorNAT"
 pdf_extract: "PDF Extracts/2024/2024-Lee-KorNAT.md"
 local_pdf: "[[PDFs/2024/2024-Lee-KorNAT.pdf]]"
@@ -102,7 +106,7 @@ To reliably deploy Large Language Models (LLMs) in a specific country, they must
 
 ## Data Description
 
-KorNAT is a benchmark measuring national alignment of LLMs with South Korea, containing 10K multiple-choice questions: 4K on social values (with ground truth distributions from a large-scale survey of 6,174 unique Korean participants, averaging 219 responses per question) and 6K on common knowledge (based on Korean textbooks and GED reference materials across seven subjects). Seven LLMs were tested in zero-shot settings using five distinct prompts.
+KorNAT: 10,000 multiple-choice questions (4K social value, 6K common knowledge) measuring national alignment between LLMs and South Korea; social value ground truth derived from a survey of 6,174 Korean participants; common knowledge based on Korean GED curriculum.
 
 
 ## Notes

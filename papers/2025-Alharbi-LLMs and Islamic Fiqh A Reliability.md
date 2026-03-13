@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,16 +51,16 @@ local_pdf: "[[PDFs/2025/2025-Alharbi-LLMs and Islamic Fiqh A Reliability.pdf]]"
 publication: "OpenReview (workshop paper)"
 CONF-CC: "Workshop (2025)"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Islamic, Arabic"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "First systematic study of school-specific Islamic legal reasoning focusing on Maliki Fiqh. Tests GPT-4o and ALLaM on 550 curated questions across purification (Tahara), marital jurisprudence (Fiqh Al-Nikah), and financial transactions (Buyu). Highlights gaps in adherence to established Fiqhi rules."
-LLM_assessed: "GPT-4o, ALLaM"
+LLM_assessed: "GPT-4o"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -65,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,7 @@ First systematic study of school-specific Islamic legal reasoning focusing on Ma
 
 ## Data Description
 
-This study presents the first systematic evaluation of school-specific Islamic legal reasoning focusing on Maliki Fiqh. It tests GPT-4o and ALLaM on 550 curated questions across three domains: purification (Tahara), marital jurisprudence (Fiqh Al-Nikah), and financial transactions (Buyu). The study highlights gaps in LLM adherence to established Fiqhi rules.
+FiqhAlign-Maliki: a specialized dataset of 550 questions (450 True/False, 100 MCQ) across three Maliki Fiqh domains (Taharah/purification, Fiqh Al-Nikah/marital jurisprudence, Buyu/financial transactions) for evaluating LLMs on Islamic jurisprudence.
 
 
 ## Notes

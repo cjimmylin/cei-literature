@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +50,15 @@ local_pdf: "[[PDFs/2024/2024-Tonneau-From Languages to Geographies Towards Evalu
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic, Spanish, American"
-cultures_nationalities_list: "Arabic, Spanish, American"
+national_ethnic_cultural: "Arabic, Spanish, American, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Arabic, Spanish, American, Multicultural/Cross-cultural"
 languages_list: "Arabic, English, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Gemma"
-DATA_URL: "https://huggingface.co/datasets/manueltonneau/spanish-hate-speech-superset"
+LLM_assessed: NA
+DATA_URL: "https://github.com/manueltonneau/hs-survey-cultural-bias"
 tags: 
 abstract: "Perceptions of hate can vary greatly across cultural contexts. Hate speech (HS) datasets, however, have traditionally been developed by language. This hides potential cultural biases, as one language may be spoken in different countries home to different cultures. In this work, we evaluate cultural bias in HS datasets by leveraging two interrelated cultural proxies: language and geography. We conduct a systematic survey of HS datasets in eight languages and confirm past findings on their..."
 CONFERENCE: "Preprint"
@@ -63,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -99,7 +104,8 @@ Systematic survey of hate speech datasets showing geo-cultural bias. Compiles 29
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Gemma. Verified dataset/resource link: https://huggingface.co/datasets/manueltonneau/spanish-hate-speech-superset.
+Preprocessed hate speech corpora for eight languages (Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish) with geocoding code, plus a 29,855-post Spanish hate speech superset merging all available Spanish-language datasets.
+
 
 ## Notes
 

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +44,8 @@ authors: "Shamsuddeen Muhammad; Idris Abdulmumin; Abinew Ayele; Nedjma Ousidhoum
 doi: 10.18653/v1/2023.emnlp-main.862
 url: "https://aclanthology.org/2023.emnlp-main.862/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZYT6SY9F/Muhammad et al. - 2023 - AfriSenti A Twitter Sentiment Analysis Benchmark for African Languages.pdf"
-national_ethnic_cultural: "Arabic, African/Ubuntu, Brazilian"
-cultures_nationalities_list: "African, Arabic, Brazilian"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -52,7 +56,7 @@ abstract: "Africa is home to over 2,000 languages from more than six language fa
 pdf: "http://arxiv.org/pdf/2302.08956"
 pdf_extract: "PDF Extracts/2023/2023-Muhammad-AfriSenti.md"
 local_pdf: "[[PDFs/2023/2023-Muhammad-AfriSenti.pdf]]"
-LLM_assessed: "BERT, Debertav3"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
 publication: EMNLP 2023
 CONF-CC: "EMNLP 2023"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "2,000 languages; 75 languages"
@@ -102,7 +106,7 @@ Africa is home to over 2,000 languages from over six language families and has t
 
 ## Data Description
 
-AfriSenti is a Twitter sentiment analysis benchmark containing over 110,000 tweets in 14 African languages (Amharic, Algerian Arabic, Hausa, Igbo, Kinyarwanda, Moroccan Arabic, Mozambican Portuguese, Nigerian Pidgin, Oromo, Swahili, Tigrinya, Twi, Xitsonga, and Yoruba) from four language families. Tweets are annotated as positive, negative, or neutral by native speakers, and baseline experiments use pretrained language models such as XLM-R, mDeBERTaV3, AfriBERTa, and AfroXLMR.
+AfriSenti: a sentiment analysis benchmark containing 110K+ tweets in 14 African languages with 3-class sentiment labels, along with sentiment lexicons for most languages.
 
 
 ## Notes

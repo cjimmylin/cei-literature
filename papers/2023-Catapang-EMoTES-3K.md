@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ tags:
 abstract: "Grasping morality is vital in AI systems, particularly as they become more prevalent in humanfocused applications. Yet, research is scarce on this topic. This study presents the Emotionbased Morality in Tagalog and English Scenarios (EMoTES-3K), a collection that shows commonsense morality in both Filipino and English. This dataset is instrumental for analyzing moral decisions in various situations and their justifications."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "RoBERTa, Flan-T5"
+LLM_assessed: "Flan-T5, RoBERTa"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
 local_pdf: "[[PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -83,7 +87,7 @@ Grasping morality is vital in AI systems, particularly as they become more preva
 
 ## Data Description
 
-EMoTES-3K is a parallel corpus of approximately 2,905 commonsense morality scenarios (1,712 moral and 1,193 immoral) in both Filipino and English. Each entry includes a scenario, moral/immoral annotation, explanation, and inferred personality traits. The dataset is used for moral text classification (fine-tuning RoBERTa) and text generation of moral explanations (fine-tuning FLAN-T5 large).
+EMoTES-3K: parallel corpus of ~2,900 commonsense morality scenarios in Filipino and English, annotated with moral/immoral labels, explanations, and personality traits.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2025/2025-Canaverde-LegalBench.PT A Benchmark for Portuguese 
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Portuguese"
-languages_list: Portuguese
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, Claude, Claude-3, Claude-3-Opus, Claude-3.5, Claude-3.5-Sonnet, GPT-4, GPT-4o, GPT-4o-mini, Llama, Llama 3, Llama-3.1, Mixtral, Mixtral-8x7B"
+LLM_assessed: "Claude-3 Opus, GPT-4o, GPT-4o mini, Llama-3, Mixtral"
 DATA_URL: "NA"
 tags: 
 abstract: "The recent application of LLMs to the legal field has spurred the creation of benchmarks across various jurisdictions and languages. However, no benchmark has yet been specifically designed for the Portuguese legal system. In this work, we present LegalBench.PT, the first comprehensive legal benchmark covering key areas of Portuguese law. To develop LegalBench.PT, we first collect longform questions and answers from real law exams, and then use GPT-4o to convert them into multiple-choice,..."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ First comprehensive legal benchmark covering key areas of Portuguese law. Domain
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, Claude, Claude-3, Claude-3-Opus, Claude-3.5, Claude-3.5-Sonnet, GPT-4, GPT-4o, GPT-4o-mini, Llama, Llama 3, Llama-3.1, Mixtral, Mixtral-8x7B. No high-confidence repository-style data URL was identified.
+LegalBench.PT is the first comprehensive legal benchmark for Portuguese law, consisting of multiple-choice, true/false, and matching questions generated from real law exams using GPT-4o and validated by a legal professional.
+
 
 ## Notes
 

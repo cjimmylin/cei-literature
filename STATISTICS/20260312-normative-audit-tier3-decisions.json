@@ -1,0 +1,266 @@
+{
+  "audit_tier": "tier3",
+  "audit_date": "2026-03-12",
+  "decisions": [
+    {
+      "filename": "2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): hate speech"
+    },
+    {
+      "filename": "2020-Kumar-Evaluating Aggression Identification in Social.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (6): offensive content, offensive language, hate speech"
+    },
+    {
+      "filename": "2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): hate speech"
+    },
+    {
+      "filename": "2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (6): toxicity, hate speech"
+    },
+    {
+      "filename": "2023-Chang-niceNLP at SemEval-2023 Task 10.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): explainable"
+    },
+    {
+      "filename": "2023-Durmus-Towards Measuring the Representation of.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (3): ethical principles, ethical issues, toxicity"
+    },
+    {
+      "filename": "2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (13): toxic, toxicity"
+    },
+    {
+      "filename": "2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (5): algorithmic discrimination, algorithmic fairness, ethical issues"
+    },
+    {
+      "filename": "2023-Park-AI Deception.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (4): ai safety"
+    },
+    {
+      "filename": "2023-Soemer-Antisemitic Messages A Guide to High-Quality.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (10): hate speech"
+    },
+    {
+      "filename": "2023-researchers-Transformer-Based Language Models for Bulgarian.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): bias, hate speech"
+    },
+    {
+      "filename": "2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (1): stereotypes"
+    },
+    {
+      "filename": "2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (10): toxicity, hate speech"
+    },
+    {
+      "filename": "2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): stereotypes"
+    },
+    {
+      "filename": "2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (9): bias"
+    },
+    {
+      "filename": "2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): hate speech"
+    },
+    {
+      "filename": "2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (4): stereotypes"
+    },
+    {
+      "filename": "2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (10): hate speech"
+    },
+    {
+      "filename": "2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): stereotypes, fairness"
+    },
+    {
+      "filename": "2024-Team-GuardBench.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): ai safety, hate speech"
+    },
+    {
+      "filename": "2024-University-Monitoring the Evolution of Antisemitic Discourse.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): hate speech"
+    },
+    {
+      "filename": "2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (4): toxic, toxicity"
+    },
+    {
+      "filename": "2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): fairness, ethical concerns"
+    },
+    {
+      "filename": "2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (4): moral judgment, ethical principles, transparency, accountability"
+    },
+    {
+      "filename": "2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (9): toxicity, toxic, hate speech"
+    },
+    {
+      "filename": "2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (5): toxic"
+    },
+    {
+      "filename": "2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (3): hate speech"
+    },
+    {
+      "filename": "2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (12): toxicity"
+    },
+    {
+      "filename": "2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (1): fairness"
+    },
+    {
+      "filename": "2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (3): toxic, toxicity"
+    },
+    {
+      "filename": "2025-PIB-PLLuM A Family of Polish Large Language Models.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): responsible ai"
+    },
+    {
+      "filename": "2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): toxic, bias"
+    },
+    {
+      "filename": "2025-Research-IndQA An Indic QA Benchmark for.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): responsible ai, ai ethics"
+    },
+    {
+      "filename": "2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (1): bias"
+    },
+    {
+      "filename": "2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: title + strong (2): stereotypes, bias"
+    },
+    {
+      "filename": "2025-Zhu-TrolleyBench.md",
+      "changes": {
+        "ethics_overall": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "E: strong (8): moral reasoning, ai ethics, moral foundations; U: strong: utilitarian"
+    },
+    {
+      "filename": "2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md",
+      "changes": {
+        "ethics_overall": "Yes"
+      },
+      "note": "E: strong (2, no FP): responsible ai, bias"
+    }
+  ]
+}

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ pdf_extract: "PDF Extracts/2023/2023-researchers-Transformer-Based Language Mode
 local_pdf: "[[PDFs/2023/2023-researchers-Transformer-Based Language Models for Bulgarian.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bulgarian"
-languages_list: Bulgarian
+cultures_nationalities_list: "N/A"
+languages_list: "Bulgarian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Bartl, ChatGPT, GPT-2, GPT-3, GPT-3.5, RoBERTa, T5"
-DATA_URL: "https://huggingface.co/rmihaylov/bert-base-bg"
+LLM_assessed: "BERT, GPT-2"
+DATA_URL: "https://huggingface.co/usmiva/bert-web-bg"
 tags: 
 abstract: "This paper presents an approach for training lightweight and robust language models for Bulgarian that mitigate gender, political, racial, and other biases in the data. Our method involves scraping content from major Bulgarian online media providers using a specialized procedure for source filtering, topic selection, and lexicon-based removal of inappropriate language during the pre-training phase. We continuously improve the models by incorporating new data from various domains, including..."
 ethics_perspective: "Bias & Fairness"
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Evaluation of transformer-based language models for Bulgarian NLP tasks. Foundat
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Bartl, ChatGPT, GPT-2, GPT-3, GPT-3.5, RoBERTa, T5. Verified dataset/resource link: https://huggingface.co/rmihaylov/bert-base-bg.
+A 50GB cleaned and balanced Bulgarian web dataset for pre-training transformer models, plus two trained models: BERT-WEB-BG and GPT-WEB-BG.
+
 
 ## Notes
 

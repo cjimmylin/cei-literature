@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ pdf_extract: "PDF Extracts/2024/2024-Saketos-The Large Language Model GreekLegal
 local_pdf: "[[PDFs/2024/2024-Saketos-The Large Language Model GreekLegalRoBERTa.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Greek"
-languages_list: Greek
+cultures_nationalities_list: "N/A"
+languages_list: "Greek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GreekLegalRoBERTa, GreekLegalBERT, GreekLegalBERT-v2, GreekBERT"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/AI-team-UoA/GreekLegalRoBERTa"
 tags: 
 abstract: "We develop four versions of GreekLegalRoBERTa, which are four large language models trained on Greek legal and nonlegal text. We show that our models surpass the performance of GreekLegalBERT, Greek- LegalBERT-v2, and GreekBERT in two tasks involving Greek legal documents: named entity recognition and multiclass legal topic classiﬁcation. We view our work as a contribution to the study of domain-speciﬁc NLP tasks in low-resource languages, like Greek, using modern NLP techniques and..."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -99,7 +103,7 @@ This paper presents four versions of GreekLegalRoBERTa, domain-specific large la
 
 ## Data Description
 
-Four versions of RoBERTa-based language models trained on Greek legal and non-legal text. Surpasses performance of GreekLegalBERT and GreekBERT in named entity recognition and multi-class legal topic classification. Contribution to domain-specific NLP tasks in low-resource languages.
+Four versions of GreekLegalRoBERTa models trained on Greek legal text, with code, models, and datasets for NER and legal topic classification.
 
 
 ## Detailed Summary

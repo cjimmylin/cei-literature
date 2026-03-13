@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,12 +47,12 @@ local_pdf: "[[PDFs/2025/2025-team-comparIA The French Government's LLM arena to 
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
-languages_list: French
+languages_list: "French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "multiple LLMs"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/ministere-culture/comparia-conversations"
 tags: 
 abstract: "Large Language Models (LLMs) often show reduced performance, cultural alignment, and safety robustness in non-English languages, partly because English dominates both pre-training data and human preference alignment datasets. Training methods like Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO) require human preference data, which remains scarce and largely non-public for many languages beyond English."

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2025/2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal C
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
-languages_list: "Arabic, English, Multilingual"
+languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Falcon-H1, GPT-4, Gemma, Gemma-3, Mistral-7B, PALM, Qwen2, Qwen3"
-DATA_URL: "https://huggingface.co/blog/silma-ai"
+LLM_assessed: "Falcon, Gemma, Mistral, Qwen"
+DATA_URL: NA
 tags: 
 abstract: "We present DIALECTALARABICMMLU, a new benchmark for evaluating the performance of large language models (LLMs) across Arabic dialects. While recently developed Arabic and multilingual benchmarks have advanced LLM evaluation for Modern Standard Arabic (MSA), dialectal varieties remain underrepresented despite their prevalence in everyday communication. DIALECTALARABICMMLU extends the MMLU-Redux framework through manual translation and adaptation of 3K multiple-choice question–answer pairs into..."
 CONFERENCE: "Preprint"
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ We present DIALECTALARABICMMLU, a new benchmark for evaluating the performance o
 
 ## Data Description
 
-Backfill summary: Models assessed include Falcon-H1, GPT-4, Gemma, Gemma-3, Mistral-7B, PALM, Qwen2, Qwen3. Verified dataset/resource link: https://huggingface.co/blog/silma-ai.
+DIALECTALARABICMMLU is a human-curated benchmark of 21,945 multiple-choice QA pairs (5 dialects + MSA + English) covering 32 academic and professional domains, produced by native-speaker translation teams from MMLU-Redux.
+
 
 ## Notes
 

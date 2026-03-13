@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,15 +51,15 @@ publication: OpenReview
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Southeast Asian"
-languages_list: "Multilingual"
+cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Safeguard models help large language models (LLMs) detect and block harmful content, but most evaluations remain English-centric and overlook linguistic and cultural diversity. Existing multilingual safety benchmarks often rely on machine-translated English data, which fails to capture nuances in low-resource languages. Southeast Asian (SEA) languages are underrepresented despite the region's linguistic diversity and unique safety concerns, from culturally sensitive political speech to..."
-LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-2, Gemma-3, Gemma3, LLaMA-3.1, LLaMA-3.3, Llama, Llama-3.2, LlamaGuard, Qwen 494M"
+LLM_assessed: "GPT-4o, Gemma, LLaMA, Llama-3, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "21,640 samples"
 ---
@@ -99,7 +103,8 @@ First human-verified safety benchmark for SEA covering eight languages, 21,640 s
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, GPT-4o, Gemma, Gemma-2, Gemma-3, Gemma3, LLaMA-3.1, LLaMA-3.3, Llama, Llama-3.2, LlamaGuard, Qwen 494M. No high-confidence repository-style data URL was identified.
+SEA-SafeguardBench is the first human-verified safety benchmark for Southeast Asian languages, containing 13,830 prompts and 7,810 responses across 8 languages (7 SEA + English) and 1,338 cultural topics, organized into three subsets: general, in-the-wild, and content generation; all verified by native SEA speakers.
+
 
 ## Notes
 

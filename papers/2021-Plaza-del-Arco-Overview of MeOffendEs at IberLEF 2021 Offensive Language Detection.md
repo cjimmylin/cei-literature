@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ local_pdf: "[[PDFs/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 20
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
-languages_list: Spanish
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa, gloVe, word2vec"
-DATA_URL: "NA"
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://competitions.codalab.org/competitions/28679"
 tags: 
 abstract: "This paper is an overview of MeOﬀendES 2021, organized at IberLEF 2021 and co-located with the 37th International Conference of the Spanish Society for Natural Language Processing (SEPLN 2021). The main purpose of MeOﬀendEs is to promote research on the detection of oﬀensive language in Spanish variants. The shared task involve four subtasks, the ﬁrst two correspond to the identiﬁcation of oﬀensive language categories in generic Spanish texts from diﬀerent social media platforms, while subtasks..."
 CONFERENCE: "Other Conference"
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Shared task on offensive language detection in Spanish variants at IberLEF 2021.
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa, gloVe, word2vec. No high-confidence repository-style data URL was identified.
+MeOffendEs shared task datasets: OffendES (30,416 Spanish comments) and OffendMEX (7,319 Mexican Spanish tweets) for offensive language detection across 4 subtasks.
+
 
 ## Notes
 

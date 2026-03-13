@@ -1,23 +1,4 @@
----
-title: "2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting - PDF Extract"
-source_pdf: "2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf"
-pages: 15
-extracted_at: "2026-02-14T01:57:25.236642"
----
-
-# PDF Extract: 2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting
-
-**Source PDF:** 2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf
-**Total Pages:** 15
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Leveraging Large Language Models for
+---\ntitle: "2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting - PDF Extract"\nsource_pdf: "2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf"\npages: 15\nextracted_at: "2026-02-14T02:17:35.161827"\n---\n\n# PDF Extract: 2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting\n\n**Source PDF:** 2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf\n**Total Pages:** 15\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nLeveraging Large Language Models for
 Cybersecurity: Enhancing SMS Spam Detection
 with Robust and Context-Aware Text Classification
 1st Mohsen Ahmadi
@@ -118,9 +99,7 @@ However, while predefined features limit model performance,
 supervised machine learning and neural networks have proven
 arXiv:2502.11014v1  [cs.CR]  16 Feb 2025
 
---- Page 2 ---
-
-capable of achieving high accuracy, provided they are trained
+--- Page 2 ---\n\ncapable of achieving high accuracy, provided they are trained
 with sufficient labeled data. On the other hand, unsupervised
 methods like hierarchical clustering and K-means, which do
 not rely on labeled data, are less accurate and more challenging
@@ -231,9 +210,7 @@ showed competitive, albeit slightly lower, performance met-
 rics.Abbasalizadeh et al. [57] developed PriLink, a secure link
 scheduling framework designed to enhance privacy in wireless
 
---- Page 3 ---
-
-TABLE I
+--- Page 3 ---\n\nTABLE I
 SUMMARY OF RECENT RESEARCH ON SPAM DETECTION AND RELATED AREAS
 Author
 Year
@@ -399,9 +376,7 @@ Prasad et al. [36], in a 2022 study, sought to improve the
 accuracy of spam detection by leveraging machine learning
 methods, with a specific emphasis on the Multinomial Naive
 
---- Page 4 ---
-
-Bayes and Decision Tree classifiers. To ensure statistical valid-
+--- Page 4 ---\n\nBayes and Decision Tree classifiers. To ensure statistical valid-
 ity, they employed GPower to determine an appropriate sample
 size, maintaining a power of 0.8 and an alpha threshold of
 0.05. Their results revealed that the Multinomial Naive Bayes
@@ -508,9 +483,7 @@ are estimated from the training data. Given a d-dimensional
 feature vector x, the class-conditional probability is computed
 as follows:
 
---- Page 5 ---
-
-E. Class-Conditional Probabilities
+--- Page 5 ---\n\nE. Class-Conditional Probabilities
 Bayes classifiers are employed to assess whether samples
 conform to the assumption of independence and identical
 distribution (i.i.d.). This means that each variable does not
@@ -637,9 +610,7 @@ di∈KNN
 SIM(X, di) · y(di, Cj)
 (9)
 
---- Page 6 ---
-
-where y(di, Cj) is a category attribute function, defined as:
+--- Page 6 ---\n\nwhere y(di, Cj) is a category attribute function, defined as:
 y(di, Cj) =
 (
 1,
@@ -762,9 +733,7 @@ J(W) =
 |W T SW W|
 (19)
 
---- Page 7 ---
-
-A. DT Classifier
+--- Page 7 ---\n\nA. DT Classifier
 Decision Trees (DT) function by recursively partitioning
 data into subgroups through logical conditions. During the
 training process, the dataset is successively divided into two
@@ -870,9 +839,7 @@ criterion is challenging. Experimental assessments primarily
 focus on measuring classifier effectiveness in terms of predic-
 tion accuracy rather than computational efficiency.
 
---- Page 8 ---
-
-I. Performance Metrics for Classification
+--- Page 8 ---\n\nI. Performance Metrics for Classification
 The performance of a classification algorithm is assessed
 using several key metrics, including accuracy, recall, precision,
 and the F1 score. Accuracy (Acci) is determined by computing
@@ -969,9 +936,7 @@ L. Data collection
 For our SMS spam detection project, we utilized a dataset of
 SMS messages available in CSV format from Kaggle. Kaggle
 
---- Page 9 ---
-
-Fig. 2. Conceptual diagram and workflow
+--- Page 9 ---\n\nFig. 2. Conceptual diagram and workflow
 is a well-known platform that hosts data science competitions
 and offers a variety of datasets [44]. The dataset comprises
 5,572 records, with each entry representing an individual
@@ -1059,9 +1024,7 @@ models. It visually illustrates the trade-off between the True
 Positive Rate (TPR) and the False Positive Rate (FPR) across
 varying threshold levels. The TPR indicates the proportion of
 
---- Page 10 ---
-
-Fig. 3. The confusion matrices for various machine learning models utilizing the Bag-of-Words (BoW) feature extraction technique
+--- Page 10 ---\n\nFig. 3. The confusion matrices for various machine learning models utilizing the Bag-of-Words (BoW) feature extraction technique
 correctly classified positive instances, while the FPR repre-
 sents the fraction of negative instances incorrectly classified
 as positives. The ROC curve is generated by systematically
@@ -1089,9 +1052,7 @@ from the Principal Component Analysis (PCA) applied to the
 TF-IDF features. The plot demonstrates a declining trend, in-
 dicating that as the number of principal components increases,
 
---- Page 11 ---
-
-Fig. 4.
+--- Page 11 ---\n\nFig. 4.
 The ROC curve comparing different machine learning models
 employing the Bag-of-Words (BoW) feature extraction method
 Fig. 5. The scree plot illustrating the feature reduction of TF-IDF features
@@ -1171,9 +1132,7 @@ VI. CONCLUSION
 The findings of this study reveal that among the six
 classification models examined, the Term Frequency-Inverse
 
---- Page 12 ---
-
-Fig. 6. The confusion matrices for various machine learning models utilizing the Term Frequency-Inverse Document Frequency (TF-IDF) feature extraction
+--- Page 12 ---\n\nFig. 6. The confusion matrices for various machine learning models utilizing the Term Frequency-Inverse Document Frequency (TF-IDF) feature extraction
 technique
 Document Frequency (TF-IDF) feature extraction method con-
 sistently outperforms the Bag-of-Words (BoW) approach for
@@ -1200,9 +1159,7 @@ reliable strategy for spam detection in SMS messages.
 The Deep Neural Network (DNN) model showed solid
 performance overall, with BoW providing the most favorable
 
---- Page 13 ---
-
-TABLE II
+--- Page 13 ---\n\nTABLE II
 COMPARISON OF MACHINE LEARNING METHODS BASED ON PERFORMANCE METRICS
 Classification Model
 Feature Extraction
@@ -1400,9 +1357,7 @@ community
 question answering sites. Information Sciences. 2022 Jul
 1;600:144-54.
 
---- Page 14 ---
-
-2. Abkenar SB, Kashani MH, Akbari M, Mahdipour E.
+--- Page 14 ---\n\n2. Abkenar SB, Kashani MH, Akbari M, Mahdipour E.
 Twitter spam detection: a systematic review. arXiv preprint
 arXiv:2011.14754. 2020 Nov 30.
 3. Saeidnia HR, Hosseini E, Lund B, Tehrani MA, Zaker
@@ -1571,9 +1526,7 @@ IEEE
 Transactions
 on
 
---- Page 15 ---
-
-Robotics and Automation. 1998 Jun;14(3):437-51.
+--- Page 15 ---\n\nRobotics and Automation. 1998 Jun;14(3):437-51.
 33. Raschka S. Naive bayes and text classification i-
 introduction and theory. arXiv preprint arXiv:1410.5329.
 2014 Oct 16.
@@ -1763,5 +1716,4 @@ Sam. ”SMSecure: Leveraging Machine Learning for Smishing
 Detection.” In International Conference on Data Engineering
 and Machine Intelligence, pp. 257-271. Singapore: Springer
 Nature Singapore, 2023.
-
-```
+\n```\n

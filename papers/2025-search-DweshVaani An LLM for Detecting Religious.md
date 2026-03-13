@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +52,7 @@ publication: "CHiPSAL 2025 Workshop (co-located with COLING 2025, Abu Dhabi)"
 CONF-CC: "COLING 2025 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian, Hindi"
+cultures_nationalities_list: "Indian"
 languages_list: "English, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,17 +60,17 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Presents DweshVaani, a fine-tuned Gemma-2 model for detecting religious hate speech and identifying targeted religions in code-mixed Hindi-English. Benchmarks cutting-edge LLMs (Meta, Google, OpenAI, Nvidia) and Indic-specific LLMs (Sarvam, Indic-Gemma, Airavata). Finds that Indic-LLMs instruction-tuned on Indian content underperform. Uses knowledge-distillation based fine-tuning with rationale extraction to improve performance."
-LLM_assessed: "Gemma-2, Llama, GPT-4o, Sarvam, Indic-Gemma, Airavata"
-DATA_URL: "NA"
+LLM_assessed: "GPT-4o, Gemma-2, LLaMA"
+DATA_URL: "https://huggingface.co/varadsrivastava/dwesh-vaani_v1.0"
 CONFERENCE: "COLING 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ Religious hate speech corpus in code-mixed Hindi-English
 
 ## Data Description
 
-DweshVaani is a fine-tuned Gemma-2 model for detecting religious hate speech and identifying targeted religions in code-mixed Hindi-English text. The paper benchmarks cutting-edge LLMs from Meta, Google, OpenAI, and Nvidia alongside Indic-specific LLMs (Sarvam, Indic-Gemma, Airavata), finding that Indic-LLMs instruction-tuned on Indian content underperform on this task.
+A hate speech detection dataset for code-mixed Hindi-English is used to evaluate LLMs; the fine-tuned DweshVaani model (based on Gemma-2) is released publicly on HuggingFace.
 
 
 ## Notes

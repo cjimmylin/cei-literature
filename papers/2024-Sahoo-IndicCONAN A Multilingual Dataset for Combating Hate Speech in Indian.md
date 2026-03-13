@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ local_pdf: "[[PDFs/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combati
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
-languages_list: "English, English (Indian context), Hindi"
+languages_list: "English, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: NA
 DATA_URL: "https://github.com/sahoonihar/IndicCONAN"
 tags: 
 abstract: "Hate speech (HS) is a growing concern in many parts of the world, including India, where it has led to numerous instances of violence and discrimination. The development of effective counter-narratives (CNs) is a critical step in combating hate speech, but there is a lack of research in this area, especially in non-English languages. In this paper, we introduce a new dataset, IndicCONAN, of counter-narratives against hate speech in Hindi and Indian English."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -98,7 +102,8 @@ Framework for generating counter-narratives to hate speech in Indian context. Co
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/sahoonihar/IndicCONAN.
+IndicCONAN is a multilingual hate speech counter-narrative dataset with ~2,509 HS-CN pairs each in Hindi and Indian English, covering six hate speech categories and seven counter-narrative types. Created via a human-in-the-loop pipeline using mGPT as the generative backbone.
+
 
 ## Notes
 

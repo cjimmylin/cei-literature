@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,8 @@ local_pdf: "[[PDFs/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Model
 publication: "WebSearch: Cultural Fidelity LLM African languages values"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The training data for LLMs embeds societal values, increasing their familiarity with the language’s culture. Our analysis found that 44% of the variance in the ability of GPT-4o to reflect the societal values of a country, as measured by the World Values Survey, correlates with the availability of digital resources in that language. Notably, the error rate was more than five times higher for the languages of the lowest resource compared to the languages of the highest resource."
-LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4, GPT-4 Turbo, GPT-4-turbo, GPT-4o, PaLM"
+LLM_assessed: "GPT-4, GPT-4o"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -94,7 +98,8 @@ Finds 44% of variance in GPT-4o's ability to reflect societal values (measured b
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-3.5, GPT-4, GPT-4 Turbo, GPT-4-turbo, GPT-4o, PaLM. No high-confidence repository-style data URL was identified.
+Constructs one of the largest datasets in this area: 21 country-language pairs from World Values Survey Wave 7, each containing 94 survey questions verified by native speakers, used to evaluate LLM cultural value representation accuracy.
+
 
 ## Notes
 

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ pdf_extract: "PDF Extracts/2025/2025-Pavlopoulos-Open or Closed LLM for Lesser-R
 local_pdf: "[[PDFs/2025/2025-Pavlopoulos-Open or Closed LLM for Lesser-Resourced Languages Lessons from Greek.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Greek"
-languages_list: Greek
+cultures_nationalities_list: "N/A"
+languages_list: "Greek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-70B, GPT-4o-mini"
-DATA_URL: "https://github.com/eellak/gsoc2018-spacy"
+LLM_assessed: "LLaMA, GPT-4o"
+DATA_URL: "https://github.com/greek-nlp/benchmark"
 tags: 
 abstract: "Natural Language Processing (NLP) for lesserresourced languages faces persistent challenges, including limited datasets, inherited biases from high-resource languages, and the need for domain-specific solutions. This study addresses these gaps for Modern Greek through three key contributions. First, we evaluate the performance of open-source (Llama-70b) and closed-source (GPT-4o mini) large language models (LLMs) on seven core NLP tasks with dataset availability, revealing task-specific..."
 CONFERENCE: "Preprint"
@@ -60,7 +64,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"

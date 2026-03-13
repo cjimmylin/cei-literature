@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,9 +47,9 @@ CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
-cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
-languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -63,7 +66,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "10 languages"
 ---
@@ -102,7 +105,7 @@ XSafety is a multilingual safety benchmark designed to evaluate LLM safety behav
 
 ## Data Description
 
-XSafety is a multilingual safety benchmark covering 14 commonly used safety issues across 10 languages (Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish). It evaluates LLM safety behaviors across diverse linguistic contexts, revealing that safety performance does not generalize well across languages. The benchmark enables systematic cross-lingual safety evaluation and highlights the need for language-specific safety alignment strategies.
+Multilingual safety benchmark covering 14 safety issue categories across 10 languages, designed to evaluate LLM safety behaviors across diverse linguistic contexts. Demonstrates that safety performance does not generalize well across languages.
 
 
 ## Notes

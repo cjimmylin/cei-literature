@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,8 +57,8 @@ tags:
 abstract: "With the rapid development of Artificial Intelligence technology come widespread concerns about how machines will behave in morally charged situations. Addressing these concerns raises the major challenge of quantifying societal expectations about the ethical principles that should guide machine behavior. To address this challenge, we deployed the Moral Machine, an Internet-based experimental platform that is designed to explore the multi-dimensional moral dilemmas faced by autonomous vehicles."
 CONF-CC: "Royal Society Open Science"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, GPT-4, PaLM-2, Llama-2"
-DATA_URL: "NA"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, PaLM-2"
+DATA_URL: "https://doi.org/10.5061/dryad.d7wm37q6v"
 pdf_extract: "PDF Extracts/2024/2024-Takemoto-The moral machine experiment on large language.md"
 local_pdf: "[[PDFs/2024/2024-Takemoto-The moral machine experiment on large language.pdf]]"
 normative_ethics_benchmark: Borderline
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Machine Ethics"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

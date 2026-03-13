@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ newtags: "Deontology, Value Pluralism, LLM Evaluation, Moral Reasoning"
 key_contribution: "Analyzes how open-weight LLMs resolve conflicts between competing safety principles using ethical dilemmas"
 significance: "Identifies three behavioral patterns in LLM moral reasoning: rule-based, balanced, and pragmatic integration"
 abstract: "As large language models (LLMs) are increasingly deployed in sensitive domains such as healthcare, governance, and corporate compliance, understanding their moral reasoning strategies becomes essential for evaluating alignment and social trustworthiness. This paper presents a structured analysis of how open-weight LLMs resolve conflicts between competing safety principles—including public welfare, institutional transparency, and individual rights—using carefully designed ethical dilemmas."
-LLM_assessed: "Qwen, DeepSeek, Gemma"
+LLM_assessed: "DeepSeek, Gemma, Qwen"
 DATA_URL: "https://github.com/sachit27/Moral-Reasoning-in-LLMs"
 DATE_ADDED: 20260207
 CONFERENCE: "AAAI 2025"
@@ -59,7 +63,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,14 +51,14 @@ CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "English"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large vision language models (VLMs) have demonstrated significant potential for integration into daily life, making it crucial for them to incorporate human values when making decisions in real-world situations. This paper introduces VIVA, a benchmark for VIsiongrounded decision-making driven by human VAlues. While most large VLMs focus on physical-level skills, our work is the first to examine their multimodal capabilities in leveraging human values to make decisions under a vision-depicted..."
-LLM_assessed: "GPT-4, Claude"
+LLM_assessed: "Claude, GPT-4, GPT-4V, LLaVA, MiniGPT-4"
 DATA_URL: "https://github.com/Derekkk/VIVA_EMNLP24"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
@@ -98,7 +102,8 @@ Large vision language models (VLMs) have demonstrated significant potential for 
 
 ## Data Description
 
-VIVA is a benchmark for vision-grounded decision-making driven by human values, containing 1,240 images depicting diverse real-world situations with manually annotated decisions. The benchmark includes two-level tasks: Level-1 action selection (multiple-choice) and Level-2 value inference and reason generation. It covers 10 situation categories including dangerous behavior, child safety, emergent situations, and assistance scenarios, with 8,610 unique annotated human values.
+VIVA benchmark containing 1,240 images with manually annotated decisions grounded in human values for evaluating vision-language models on value-driven decision-making.
+
 
 ## Notes
 

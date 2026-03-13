@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,18 +41,18 @@ url: "https://montrealethics.ai/towards-a-multilingual-assessment-of-stereotypes
 external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"
 publication: Web
 CONF-CC: "Preprint"
-pdf_extract: "PDF Extracts/0000/2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.md"
+pdf_extract: "PDF Extracts/2025/2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.md"
 local_pdf: "[[PDFs/2025/2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "N/A"
-languages_list: "Arabic, English, Multilingual, Turkish"
+national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Arabic, Multicultural/Cross-cultural"
+languages_list: "Arabic, English, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama, Llama2, Llama3, Llama3., Mistral, Mistral-7B, Qwen, Qwen2, qwenlm"
-DATA_URL: "NA"
+LLM_assessed: "Aya, BLOOM, Llama-2, Llama-3, Mistral, Qwen, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/LanguageShades/BiasShades"
 tags: 
 abstract: "Large Language Models (LLMs) reproduce and exacerbate the social biases present in their training data, and resources to quantify this issue are limited. While research has attempted to identify and mitigate such biases, most efforts have been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. In this paper, we introduce a new multilingual parallel dataset SHADES to help address this issue, designed for examining culturally-specific stereotypes that may be learned by LLMs. The dataset includes stereotypes from 20 regions around the world and 16 languages, spanning multiple identity categories subject to discrimination worldwide. We demonstrate its utility in a series of exploratory evaluations for both 'base' and 'instruction-tuned' language models. Our results suggest that stereotypes are consistently reflected across models and languages, with some languages and models indicating much stronger stereotype biases than others."
 ethics_perspective: "Machine Ethics"
@@ -57,7 +61,7 @@ ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -94,7 +98,8 @@ Large Language Models (LLMs) reproduce and exacerbate the social biases present 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama, Llama2, Llama3, Llama3., Mistral, Mistral-7B, Qwen, Qwen2, qwenlm. No high-confidence repository-style data URL was identified.
+SHADES: a multilingual parallel dataset of 304 culturally-specific stereotypes from 37 regions, translated across 16 languages with annotations for bias type, geographic validity, and minimally contrastive statements, plus templates for generating new evaluation data.
+
 
 ## Notes
 

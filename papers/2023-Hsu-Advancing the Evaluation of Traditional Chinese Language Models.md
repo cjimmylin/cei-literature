@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ local_pdf: "[[PDFs/2023/2023-Hsu-Advancing the Evaluation of Traditional Chinese
 pdf_extract: "PDF Extracts/2023/2023-Hsu-Advancing the Evaluation of Traditional Chinese Language Models.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Taiwanese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, Taiwan-LLaMa, Model 7-C"
+LLM_assessed: "GPT-3.5, Llama-2"
 DATA_URL: "https://github.com/mtkresearch/MR-Models"
 tags: 
 abstract: "The evaluation of large language models is an essential task in the field of language understanding and generation. As language models continue to advance, the need for effective benchmarks to assess their performance has become imperative. In the context of Traditional Chinese, there is a scarcity of comprehensive and diverse benchmarks to evaluate the capabilities of language models, despite the existence of certain benchmarks such as DRCD, TTQA, CMDQA, and FGC dataset."
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "140 prompts"
 ---
@@ -96,7 +100,7 @@ Proposes a novel set of benchmarks tailored to evaluate language models in Tradi
 
 ## Data Description
 
-The paper proposes a benchmark suite for evaluating language models in Traditional Chinese, including the new Taiwan Massive Multitask Language Understanding (TMMLU) dataset covering 55 subjects from Taiwanese exams. Benchmarks span contextual QA (DRCD, FGC), world knowledge (TTQA, TMMLU), summarization (XSum-TC), classification (IMDB-TC), and table understanding (Penguins-in-a-Table-TC). GPT-3.5, Taiwan-LLaMa-v1.0, Model 7-C, and Model 7-C-Chat are evaluated zero-shot across all tasks.
+Suite of Traditional Chinese benchmarks including TMMLU (55-subject exam dataset) and translations of English benchmarks (XSum-TC, IMDB-TC, Penguins-in-a-Table-TC) for evaluating LLM capabilities in Traditional Chinese.
 
 
 ## Notes

@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Can simulate historical characters"
@@ -40,11 +45,11 @@ url: "https://aclanthology.org/2023.emnlp-main.814/"
 pdf_extract: "PDF Extracts/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.md"
 local_pdf: "[[PDFs/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/J3VV4C8K/2023 - Character-LLM A Trainable Agent for Role-Playing.pdf"
-national_ethnic_cultural: American
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: Christianity
-religious_values_list: Christianity
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "American, Virtue Ethics"
 key_contribution: "Introduces 'Character-LLM', a trainable agent framework that edits profiles as experiences to simulate specific human characters (simulacra)"
@@ -54,7 +59,7 @@ abstract: "Large language models (LLMs) can be used to serve as agents to simula
 paper_summary: "Abstract: Large language models (LLMs) can be used to serve as agents to simulate human behav- iors, given the powerful ability to understand human instructions and provide high-quality generated texts. Such ab | Overview: Character-LLM: A Trainable Agent for Role-Playing Yunfan Shao1,2∗, Linyang Li1, Junqi Dai1, Xipeng Qiu1† 1School of Computer Science, Fudan University 1Shanghai Key Laboratory of Intelligent Informati | Methodology: Our methodology diverges from the existing prac- tice of mimicking the style and tones of curated utterances via Supervised Fine-Tuning (SFT) or provi"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama, ChatGPT, Alpaca, Vicuna"
+LLM_assessed: "Alpaca, ChatGPT, LLaMA, Vicuna"
 DATA_URL: "https://github.com/choosewhatulike/trainable-agents"
 CONFERENCE: "EMNLP 2023"
 ethics_overall: "No"
@@ -64,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---
@@ -122,7 +127,7 @@ The authors conclude that *training* on character-specific memories is more effe
 
 ## Data Description
 
-The paper presents Character-LLM, a framework for training LLM-based agents for role-playing specific characters such as Beethoven, Cleopatra, and Julius Caesar. The experience dataset consists of approximately 1K-2K reconstructed scenes per character across nine historical and fictional figures, generated using GPT-3.5-turbo. LLaMA 7B is fine-tuned on these scenes and evaluated via single-turn and multi-turn interviews (1,307 total questions).
+Character experience datasets for 9 historical/fictional figures (e.g., Beethoven, Cleopatra, Caesar) with ~1.6K scenes each, plus 1,307 evaluation interview questions across single-turn and multi-turn formats.
 
 
 ## Notes

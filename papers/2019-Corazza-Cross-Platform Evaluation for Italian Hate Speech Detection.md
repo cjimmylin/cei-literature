@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
-languages_list: Italian
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -106,7 +109,7 @@ This paper conducts a cross-platform evaluation of hate speech detection models 
 
 ## Data Description
 
-This paper performs a comparative evaluation of hate speech detection across four Italian social media platforms (Facebook, Twitter, Instagram, WhatsApp). It investigates whether combining platform-dependent datasets improves classification robustness. The classifiers used are traditional ML approaches for hate speech detection in Italian. No LLMs are evaluated, and no new public dataset repository is provided by the authors.
+Cross-platform evaluation study using existing Italian hate speech datasets from Facebook, Twitter, Instagram, and WhatsApp to assess model generalizability across social media platforms.
 
 
 ## Notes

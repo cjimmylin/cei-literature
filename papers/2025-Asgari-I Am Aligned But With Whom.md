@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-Asgari-I Am Aligned But With Whom.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic, Iranian, African/Ubuntu, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Arabic, Iranian, Turkish"
+national_ethnic_cultural: "Arabic, Iranian, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Arabic, Iranian, Multicultural/Cross-cultural"
 languages_list: "Arabic, English, Persian, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We introduce MENAValues, a novel benchmark designed to evaluate the cultural alignment and multilingual biases of large language models (LLMs) with respect to the beliefs and values of the Middle East and North Africa (MENA) region, an underrepresented area in current AI evaluation efforts. Drawing from large-scale, authoritative human surveys, we curate a structured dataset that captures the sociocultural landscape of MENA with population-level response distributions from 16 countries."
-LLM_assessed: "GPT-4, GPT-4o-mini, Llama, Llama-3.1, Mistral, Mistral-7B"
+LLM_assessed: "GPT-4o mini, Gemini, Llama-3, Mistral"
 DATA_URL: "https://github.com/llm-lab-org/MENA-Values-Benchmark-Evaluating-Cultural-Alignment-and-Multilingual-Bias-in-Large-Language-Models"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -105,7 +109,8 @@ Population-level survey response distributions from 16 MENA countries
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, GPT-4o-mini, Llama, Llama-3.1, Mistral, Mistral-7B. Verified dataset/resource link: https://github.com/llm-lab-org/MENA-Values-Benchmark-Evaluating-Cultural-Alignment-and-Multilingual-Bias-in-Large-Language-Models.
+MENAValues benchmark: 864 questions derived from World Values Survey Wave 7 and Arab Opinion Index 2022, covering 16 MENA countries across 4 thematic domains, with population-level response distributions.
+
 
 ## Notes
 

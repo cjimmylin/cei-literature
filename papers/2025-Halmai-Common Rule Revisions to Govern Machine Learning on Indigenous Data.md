@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "American Journal of Bioethics"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Argues that the Common Rule needs revision regarding AI/ML in health research with Indigenous Peoples. Without greater consideration of collective harms, AI/ML technology can circumvent Indigenous self-determination. Calls for incorporating CARE Principles to address group harms and govern machine learning on Indigenous data."
 CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"

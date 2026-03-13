@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ local_pdf: "[[PDFs/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Soc
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
-languages_list: "English, Italian"
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "AlBERTo, BERT-Italian, GilBERTo, UmBERTo, mBERT, XLM-RoBERTa"
-DATA_URL: "https://github.com/dhfbk/hate-ita"
+LLM_assessed: "BERT, XLM-R"
+DATA_URL: "https://github.com/MilaNLProc/hate-ita"
 tags: 
 abstract: "Warning: This paper contains examples of language that some people may find offensive. Online hate speech is a dangerous phenomenon that can (and should) be promptly counteracted properly. While Natural Language Processing has been successfully used for the purpose, many of the research efforts are directed toward the English language. This choice severely limits the classification power in non-English languages."
 CONFERENCE: "NAACL 2022"
@@ -60,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -100,7 +104,7 @@ This paper presents HATE-ITA, a set of multilingual models for hate speech detec
 
 ## Data Description
 
-HATE-ITA dataset of Italian tweets annotated for hate speech detection. Dataset includes binary hate/non-hate labels and multi-class target categories (gender, religion, nationality, disability, etc.). Developed for evaluating Italian language models on toxicity and hate speech classification.
+HATE-ITA: multilingual models for Italian hate speech detection, trained on combined English and Italian hate speech datasets covering 177k+ samples across 5 protected categories.
 
 
 ## Detailed Summary

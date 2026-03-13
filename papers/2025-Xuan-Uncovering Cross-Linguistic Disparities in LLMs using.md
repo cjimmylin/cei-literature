@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-Xuan-Uncovering Cross-Linguistic Disparities in LLM
 publication: "WebSearch: cross-linguistic disparities LLM Malayalam"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Chinese, Russian, Spanish, Italian, Indonesian, Catalan, Marathi, Malayalam, Hindi"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Multilingual Large Language Models (LLMs) exhibit strong cross-linguistic generalization, yet medium-to-low resource languages underperform in common benchmarks (ARC-C, MMLU, HellaSwag). We analyze activation patterns in Gemma-2-2B across all 26 residual layers and 10 languages: Chinese (zh), Russian (ru), Spanish (es), Italian (it); medium-tolow resource languages: Indonesian (id), Catalan (ca), Marathi (mr), Malayalam (ml), Hindi (hi), with English (en) as the reference—using Sparse..."
-LLM_assessed: "GPT-4, Gemma, Gemma-2"
+LLM_assessed: "Gemma-2"
 DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: "Preprint"
@@ -64,8 +68,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"

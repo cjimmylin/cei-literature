@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Japanese, and others (5 continents)"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3.1-8B-Instruct, Qwen-2.5-7B-Instruct, GPT-4o"
+LLM_assessed: "GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) face challenges in aligning with diverse cultural values despite their remarkable performance in generation, which stems from inherent monocultural biases and difficulties in capturing nuanced cultural semantics. Existing methods struggle to adapt to unknown culture after fine-tuning. Inspired by cultural geography across five continents, we propose Cultural Palette, a multi-agent framework that redefines cultural alignment as an adaptive 'color-blending' process..."
@@ -61,8 +65,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,7 @@ Multi-agent framework for cultural alignment using continental cultural geograph
 
 ## Data Description
 
-Proposes Cultural Palette, a multi-agent framework for pluralistic culture alignment of LLMs. Uses GPT-4o to synthesize culturally diverse training data via multiple cultural agents. Evaluates Llama-3.1-8B-Instruct and Qwen-2.5-7B-Instruct on cultural alignment tasks across multiple cultures.
+The paper synthesizes the Pentachromatic Cultural Palette Dataset using GPT-4o — a novel dataset of continent-level cultural alignment dialogues refined using Hofstede's cultural dimensions. Released as part of the Cultural Palette framework.
 
 
 ## Notes

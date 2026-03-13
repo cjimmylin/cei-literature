@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Xie-Enhancing Multilingual Language Models for Code-Switched Input Data.md"
 local_pdf: "[[PDFs/2025/2025-Xie-Enhancing Multilingual Language Models for Code-Switched Input Data.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean, Spanish"
-cultures_nationalities_list: "Korean, Spanish"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Code-switching, English, Korean, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "Code-switching, or alternating between languages within a single conversation, presents challenges for multilingual language models on NLP tasks. This research investigates if pre-training Multilingual BERT (mBERT) on code-switched datasets improves the model’s performance on critical NLP tasks such as part of speech tagging, sentiment analysis, named entity recognition, and language identification."
@@ -63,7 +66,7 @@ utilitarian_ethics: "Yes"
 research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation methodology text corpus for conversational ai"
 data_metrics: "Not specified"
 ---

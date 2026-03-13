@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2025/2025-Davies-Overview of the NLPCC 2025 Shared Task Gende
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: Chinese
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Electra"
-DATA_URL: "https://github.com/fxsjy/jieba"
+LLM_assessed: "ERNIE"
+DATA_URL: "https://arxiv.org/abs/2301.00395"
 tags: 
 abstract: "As natural language processing for gender bias becomes a significant interdisciplinary topic, the prevalent data-driven techniques, such as pre-trained language models, suffer from biased corpus. This case becomes more obvious regarding those languages with less fairness-related computational linguistic resources, such as Chinese. To this end, we propose a Chinese cOrpus foR Gender bIas Probing and Mitigation (CORGI-PM), which contains 32."
 CONFERENCE: "Preprint"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "32.9k sentences"
@@ -96,7 +100,8 @@ As natural language processing for gender bias becomes a significant interdiscip
 
 ## Data Description
 
-Backfill summary: Models assessed include Electra. Verified dataset/resource link: https://github.com/fxsjy/jieba.
+Introduces CORGI-PM, a Chinese corpus of 32,900 human-annotated sentences for gender bias probing and mitigation, containing biased/non-biased samples with fine-grained bias subclass labels and parallel human-rewritten debiased versions.
+
 
 ## Notes
 

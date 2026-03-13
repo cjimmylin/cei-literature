@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ paper_summary: "Abstract: Foundation models (FMs) provide societal benefits but 
 local_pdf: "[[PDFs/2024/2024-Zeng-AIR-Bench 2024.pdf]]"
 CONF-CC: "AGI - Artificial General Intelligence - Robotics - Safety &amp; Alignment"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Qwen-1.5, Yi"
 DATA_URL: "https://huggingface.co/datasets/stanford-crfm/air-bench-2024"
 CONFERENCE: "Journal"
 helm: "incorporated"
@@ -67,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,7 @@ Foundation models (FMs) provide societal benefits but also amplify risks. Govern
 
 ## Data Description
 
-AIR-BENCH 2024 is a safety benchmark comprising 5,694 diverse risky instruction prompts spanning 314 granular risk categories derived from 8 government regulations and 16 company policies. The benchmark evaluates 22 leading language models on their safety refusal rates across these regulation-aligned categories, with GPT-4o used as the category-specific evaluation judge and prompts generated using GPT-4, GPT-4o, and Claude 3 Opus.
+AIR-Bench 2024 is a safety benchmark of 5,694 diverse prompts spanning 314 granular risk categories derived from 8 government regulations and 16 company policies, structured in a four-tiered taxonomy; the leaderboard is at https://crfm.stanford.edu/helm/air-bench/v1.1.0/.
 
 
 ## Notes

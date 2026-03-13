@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ local_pdf: "[[PDFs/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answer
 publication: "arXiv / TACL 2024"
 CONF-CC: "TACL 2024"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean, American"
+national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, GPT-3, GPT-3.5, GPT-4, claude-2.0, claude-instant, gpt-3.5-turbo"
-DATA_URL: "https://github.com/Beomi/KoAlpaca"
+LLM_assessed: "Claude, Claude-2, CLOVA-X, GPT-3.5, GPT-4, KoAlpaca"
+DATA_URL: "https://jinjh0123.github.io/KoBBQ"
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. The Bias Benchmark for Question Answering (BBQ) is designed to evaluate social biases of language models (LMs), but it is not simple to adapt this benchmark to cultural contexts other than the US because social biases depend heavily on the cultural context. In this paper, we present KoBBQ, a Korean bias benchmark dataset, and we propose a general framework that addresses considerations for cultural adaptation of a dataset."
 CONFERENCE: "Preprint"
@@ -62,8 +66,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "76,048 samples; 12 categories"
 ---
@@ -101,7 +105,8 @@ Korean bias benchmark adapted from BBQ with cultural considerations. 268 templat
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, GPT-3, GPT-3.5, GPT-4, claude-2.0, claude-instant, gpt-3.5-turbo. Verified dataset/resource link: https://github.com/Beomi/KoAlpaca.
+Korean Bias Benchmark for Question Answering with 268 templates and 76,048 samples across 12 categories of social bias, culturally adapted from BBQ with 4 new Korean-specific bias categories validated through large-scale survey.
+
 
 ## Notes
 

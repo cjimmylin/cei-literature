@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +46,8 @@ doi: 10.48550/arXiv.2304.06845
 tags: 
 url: "http://arxiv.org/abs/2304.06845"
 external_pdf: "http://arxiv.org/pdf/2304.06845.pdf"
-national_ethnic_cultural: "Arabic, African/Ubuntu, Brazilian"
-cultures_nationalities_list: "African"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +59,7 @@ paper_summary: "Abstract: We present the ﬁrst Africentric SemEval Shared task,
 local_pdf: "[[PDFs/2023/2023-Muhammad-SemEval-2023 Task 12.pdf]]"
 CONF-CC: "SemEval 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, Debertav3, RoBERTa, deberta using, electra"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -62,8 +67,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -99,7 +104,7 @@ We present the ﬁrst Africentric SemEval Shared task, Sentiment Analysis for Af
 
 ## Data Description
 
-This paper describes the AfriSenti-SemEval 2023 shared task for sentiment analysis in 14 African languages, providing 110K sentiment-labeled tweets across three subtasks: monolingual, multilingual, and zero-shot classification. The baseline systems use fine-tuned AfroXLMR-large, and 44 teams submitted systems using various pretrained language models, but no generative LLMs from the canonical list were directly tested by the paper authors.
+Shared task overview paper for AfriSenti-SemEval 2023 with evaluation results from 44 teams across 14 African languages.
 
 
 ## Notes

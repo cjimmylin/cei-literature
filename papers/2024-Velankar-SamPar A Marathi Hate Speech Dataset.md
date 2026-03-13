@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,12 +42,12 @@ last_author: "[[Raviraj Joshi]]"
 authors: Abhishek Velankar; Hrushikesh Patil; Amol Gore; Shubham Salunke; Raviraj Joshi
 url: "https://link.springer.com/chapter/10.1007/978-3-031-58495-4_3"
 external_pdf: "https://arxiv.org/pdf/2203.13778"
-pdf_extract: "PDF Extracts/2024/2024-[[Velankar]]-SamPar A Marathi Hate Speech Dataset.md"
+pdf_extract: "PDF Extracts/2024/2024-Velankar-SamPar A Marathi Hate Speech Dataset.md"
 local_pdf: "[[PDFs/2022/2022-team-L3Cube-MahaHate A Tweet-based Marathi Hate Speech.pdf]]"
 publication: "Springer (SPELLL 2023)"
 CONF-CC: "SPELLL 2023"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Marathi"
 religious_values: "N/A"
@@ -62,10 +65,10 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
-data_metrics: "Not specified"
+data_metrics: "25,000+ tweets, 4 classes (hate, offensive, profane, not)"
 ---
 # SamPar: A Marathi Hate Speech Dataset for Homophobia, Transphobia
 
@@ -98,7 +101,8 @@ Marathi hate speech dataset specifically targeting homophobia and transphobia, a
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://github.com/l3cube-pune/MarathiNLP.
+L3Cube-MahaHate is a Marathi hate speech dataset of 25,000 tweets (also a 37,500-sample binary version) annotated into four classes (hate, offensive, profane, not) by native speakers, with baseline results using BERT variants including MahaBERT, MahaALBERT, MahaRoBERTa, mBERT, IndicBERT, and XLM-RoBERTa.
+
 
 ## Notes
 

@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +51,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
-languages_list: "Arabic, Egyptian Arabic, Gulf Arabic, Levantine, Maghrebi"
+languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -97,7 +100,7 @@ Based on the search results, here's what I found about the ADHAR multi-dialectal
 
 ## Data Description
 
-This appears to be a figure or table from a paper cataloguing available hate speech datasets for Arabic, related to the ADHAR multi-dialectal Arabic hate speech corpus. It covers multiple Arabic dialects including Egyptian, Gulf, Levantine, and Maghrebi varieties. No specific dataset creation or LLM evaluation is described in the available metadata.
+The ADHAR multi-dialectal, multi-category hate speech corpus for Arabic, published in Frontiers in Artificial Intelligence (May 2024).
 
 
 ## Notes

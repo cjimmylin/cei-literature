@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: With the rapid advancement of Large Language Models (L
 local_pdf: "[[PDFs/2025/2025-Cao-SafeDialBench.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mistral, Qwen, DeepSeek"
+LLM_assessed: "ChatGLM, DeepSeek, GPT-3.5, GPT-4o, InternLM, Llama-3, Mistral, o3-mini, Qwen"
 DATA_URL: "https://github.com/drivetosouth/SafeDialBench-Dataset"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -95,7 +99,7 @@ With the rapid advancement of Large Language Models (LLMs), the safety of LLMs h
 
 ## Data Description
 
-SafeDialBench is a fine-grained safety benchmark evaluating LLMs in multi-turn dialogues under diverse jailbreak attacks. It comprises 4,053 dialogues in both Chinese and English across 22 scenarios and 6 safety dimensions, with 7 jailbreak attack strategies. The benchmark evaluates 17 LLMs (3 closed-source: ChatGPT-4o, o3-mini, MoonShot-v1; 14 open-source including Llama3.1-8B-Instruct, Mistral-7B-Instruct, Qwen variants, DeepSeek-7B-Chat, Yi, Baichuan2, ChatGLM, InternLM2) on three safety abilities: identifying unsafe risks, handling unsafe information, and maintaining consistency.
+SafeDialBench is a fine-grained multi-turn dialogue safety benchmark with 4,053 bilingual (Chinese/English) dialogues across 22 scenarios, 6 safety dimensions, and 7 jailbreak attack methods.
 
 
 ## Notes

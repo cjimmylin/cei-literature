@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Ancient Chinese text processing presents unique challenges for large language models (LLMs) due to its distinct linguistic features, complex structural constraints, and rich cultural context. While existing benchmarks have primarily focused on evaluating comprehension through multiple-choice questions, there remains a critical gap in assessing models’ generative capabilities in classical Chinese. We introduce Fùxì, a comprehensive benchmark that evaluates both understanding and generation..."
-LLM_assessed: "GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, GPT-4o-mini, Internlm2, Llama, LLaMA-31, Qwen-Max, Qwen2, Qwen2.5, alpaca, internlm25, llama 3"
-DATA_URL: "Benchmark, evaluation toolkit, and baseline results publicly available (repository link not confirmed)"
+LLM_assessed: "ChatGLM, GPT-4o, InternLM, LLaMA, Llama-3, Qwen, Qwen-2"
+DATA_URL: "https://github.com/cubenlp/FuxiBench"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,8 @@ Fuxi is a benchmark that evaluates both understanding and generation capabilitie
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, GPT-4o-mini, Internlm2, Llama, LLaMA-31, Qwen-Max, Qwen2, Qwen2.5, alpaca, internlm25, llama 3. Verified dataset/resource link: Benchmark, evaluation toolkit, and baseline results publicly available (repository link not confirmed).
+Fùxì benchmark: 21 ancient Chinese text understanding and generation tasks (NLU and NLG), including novel tasks like poetry composition, couplet completion, and classical-to-modern translation; releases benchmark data, evaluation toolkit, and a fine-tuned Qwen2 evaluator model.
+
 
 ## Notes
 

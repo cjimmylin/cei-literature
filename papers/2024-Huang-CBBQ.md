@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ tags:
 abstract: "Holistically measuring societal biases of large language models is crucial for detecting and reducing ethical risks in highly capable AI models. In this work, we present a Chinese Bias Benchmark dataset that consists of over 100K questions jointly constructed by human experts and generative language models, covering stereotypes and societal biases in 14 social dimensions related to Chinese culture and values."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, BLOOM"
+LLM_assessed: "Baichuan, BELLE, BLOOM, BLOOMz, ChatGLM, ChatGLM2, GLM, GPT-3.5, MOSS"
 DATA_URL: "https://github.com/YFHuangxxxx/CBBQ/"
 pdf_extract: "PDF Extracts/2024/2024-Huang-CBBQ.md"
 local_pdf: "[[PDFs/2024/2024-Huang-CBBQ.pdf]]"
@@ -83,7 +87,7 @@ Holistically measuring societal biases of large language models is crucial for d
 
 ## Data Description
 
-CBBQ (Chinese Bias Benchmark Questions) is a dataset of over 100K questions constructed through human-AI collaboration, covering stereotypes and societal biases across 14 social dimensions related to Chinese culture and values. The dataset is derived from 3,000+ high-quality human-authored templates and evaluates 12 publicly available Chinese LLMs plus GPT-3.5-turbo on bias using multiple-choice question-answering format with ambiguous and unambiguous contexts.
+Chinese Bias Benchmark dataset with over 100K questions covering stereotypes and societal biases across 14 social dimensions related to Chinese culture and values.
 
 
 ## Notes

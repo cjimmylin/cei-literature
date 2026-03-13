@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ abstract: "Moral judgment is integral to large language models’ (LLMs) social 
 paper_summary: "Abstract: Moral judgment is integral to large language models' (LLMs) social reasoning. As multi-agent systems gain prominence, it becomes crucial to understand how LLMs function when collaborating compared to  | Overview: Many LLMs Are More Utilitarian Than One Anita Keshmirian1,4,*,† Razan Baltaji2,*,† Babak Hemmatian3 Hadi Asghari4,5 Lav R. Varshney2,6 1 Forward College 2 University of Illinois at Urbana-Champaign 3  | Conclusions: Consider a doctor who could poison a patient, intending to infect others upon discharge. This is a personal dilemma: it involves direct, emotionally c"
 local_pdf: "[[PDFs/2025/2025-Keshmirian-Many LLMs Are More Utilitarian Than One.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, Qwen, Gemma, GPT-4"
+LLM_assessed: "GPT-4, Gemma, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/baltaci-r/MoralAgents"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -97,7 +101,7 @@ Moral judgment is integral to large language model (LLM) alignment and social re
 
 ## Data Description
 
-This study tests six LLMs (Llama3.3:70B, QwQ, Qwen3:32B, Gemma3:27B, Qwen2.5:32B, and GPT4.1) on established moral dilemma sets in solo and group deliberation conditions. The experiments use validated psychological instruments including classical sacrificial dilemmas, the Oxford Utilitarianism Scale, and the CNI Model to measure utilitarian shifts in multi-agent moral reasoning across pairs and triads.
+Code and experimental data for multi-agent LLM moral deliberation experiments on established moral dilemma benchmarks (Greene trolley problems, CNI model, Oxford Utilitarianism Scale).
 
 
 ## Notes

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +48,7 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "South Slavic"
+cultures_nationalities_list: "N/A"
 languages_list: "Croatian, Serbian, Slovenian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -61,7 +64,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
@@ -98,7 +101,7 @@ COPA causal commonsense reasoning adapted for South Slavic dialects: Slovenian C
 
 ## Data Description
 
-DIALECT-COPA adapts the COPA causal commonsense reasoning task for South Slavic dialects including Slovenian Cerkno, Croatian Chakavian, and Serbian Torlak, with training data for standard Slovenian, Croatian, Serbian, and Macedonian. The dataset is part of the VarDial 2024 shared task. No PDF extract was available for deeper analysis, and no specific LLM evaluations are documented in the paper metadata.
+COPA causal commonsense reasoning datasets adapted for South Slavic dialects including Slovenian Cerkno, Croatian Chakavian, and Serbian Torlak, plus training data for standard Slovenian, Croatian, Serbian, and Macedonian. Extends the COPA benchmark framework to under-resourced dialect varieties.
 
 
 ## Notes

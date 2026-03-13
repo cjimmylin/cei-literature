@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +48,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural, Various"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-2-70B, Mixtral-8x7B, GPT-4"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mixtral"
 DATA_URL: "https://github.com/SALT-NLP/CultureBank"
 tags: 
 abstract: "To enhance language models’ cultural awareness, we design a generalizable pipeline to construct cultural knowledge bases from different online communities on a massive scale. With the pipeline, we construct CultureBank, a knowledge base built upon users’ self-narratives with 12K cultural descriptors sourced from TikTok and 11K from Reddit. Unlike previous cultural knowledge resources, CultureBank contains diverse views on cultural descriptors to allow flexible interpretation of cultural..."
@@ -60,9 +65,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -97,7 +102,7 @@ Knowledge base built upon users' self-narratives with 12K cultural descriptors f
 
 ## Data Description
 
-CultureBank is a community-driven cultural knowledge base with 12K cultural descriptors from TikTok and 11K from Reddit, covering 2K+ cultural groups across 5 continents. Uses Llama-2-70B for knowledge extraction, Mixtral-8x7B for summarization, and GPT-4 for quality evaluation. Released as open-source on GitHub.
+CultureBank: an open-source cultural knowledge base with ~12K cultural descriptors from TikTok and ~11K from Reddit, extracted from user self-narratives and organized into a structured taxonomy for evaluating and improving LLMs' cultural awareness.
 
 
 ## Notes

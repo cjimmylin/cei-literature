@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, GPT-4o-mini, GPT-OSS-120B, Claude-3.5 Sonnet, Gemini, DeepSeek-V3, Llama-3.2, Llama-3.1, Qwen-2.5, Qwen-3, Gemma-2, Mistral"
+LLM_assessed: "Claude-3 Sonnet, DeepSeek, Gemini, Gemma, Gemma-2, GPT-4o, GPT-4o mini, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://bharatgen-iitb-tih.github.io/bhashabenchv1/"
 tags: 
 abstract: "First domain-specific bilingual benchmark focusing on critical Indian knowledge systems with 74,166 curated QA pairs in English and Hindi. Covers Agriculture, Legal, Finance, and Ayurveda with 90+ subdomains and 500+ topics. Models excel in Legal but struggle with traditional knowledge systems like Ayurveda."
@@ -63,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,7 @@ First domain-specific bilingual benchmark focusing on critical Indian knowledge 
 
 ## Data Description
 
-BhashaBench V1 is the first domain-specific, multi-task, bilingual benchmark for India-centric knowledge systems, containing 74,166 question-answer pairs (52,494 English, 21,672 Hindi) across four domains: Agriculture, Legal, Finance, and Ayurveda, spanning 90+ subdomains and 500+ topics. Over 29 LLMs were evaluated, with Qwen3-235B achieving 67.25% overall accuracy and GPT-4o at 66.18%. Significant domain and language gaps were found.
+Introduces BhashaBench V1, a bilingual (English/Hindi) benchmark of 74,166 curated QA pairs across four Indian knowledge domains (Agriculture, Legal, Finance, Ayurveda) with 90+ subdomains, sourced from authentic government examinations. Evaluates 29+ LLMs across domain and language dimensions.
 
 
 ## Notes

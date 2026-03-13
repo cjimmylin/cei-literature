@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +48,14 @@ CONF-CC: "NoDaLiDa 2023"
 pdf_extract: "PDF Extracts/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.md"
 local_pdf: "[[PDFs/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Scandinavian"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Danish, Faroese, Icelandic, Norwegian, Swedish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NB-BERT, KB-BERT, DFM-encoder, RemBERT, mDeBERTaV3, Scandinavian BERT variants"
+LLM_assessed: NA
 DATA_URL: "https://github.com/saattrupdan/ScandEval"
 tags: 
 abstract: "This paper introduces a Scandinavian benchmarking platform, ScandEval, which can benchmark any pretrained model on four different tasks in the Scandinavian languages. The datasets used in two of the tasks, linguistic acceptability and question answering, are new. We develop and release a Python package and command-line interface, scandeval, which can benchmark any model that has been uploaded to the Hugging Face Hub, with reproducible results."
@@ -101,7 +106,7 @@ This paper introduces ScandEval, a comprehensive benchmarking platform for Scand
 
 ## Data Description
 
-ScandEval benchmark for evaluating NLP models across 4 Scandinavian languages (Danish, Swedish, Norwegian Bokmål, Norwegian Nynorsk) plus Icelandic and Faroese. Covers 4 task types: text classification, named entity recognition, question answering, and linguistic acceptability.
+ScandEval benchmarking platform for Scandinavian languages with new linguistic acceptability and QA datasets, evaluating 100+ models across 4 NLP tasks in Danish, Swedish, Norwegian, Icelandic, and Faroese.
 
 
 ## Detailed Summary

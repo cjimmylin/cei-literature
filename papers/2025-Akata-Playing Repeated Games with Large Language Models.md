@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "LLMs are increasingly used in applications where they interact with humans and other agents. We propose to use behavioural game theory to study LLM’s cooperation and coordination behaviour. We let different LLMs play finitely repeated 2×2 games with each other, with human-like strategies, and actual human players. Our results show that LLMs perform particularly well at self-interested games like the iterated Prisoner’s Dilemma family."
-LLM_assessed: "GPT-4, Claude, Llama-2"
+LLM_assessed: "Llama-2, Claude-2, text-davinci-002, text-davinci-003, GPT-4"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

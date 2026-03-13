@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +43,7 @@ doi: 10.18653/v1/2023.findings-emnlp.915
 url: "https://aclanthology.org/2023.findings-emnlp.915/"
 external_pdf: "https://aclanthology.org/2023.findings-emnlp.915.pdf"
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -50,7 +53,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Cohen-HeQ.md"
 local_pdf: "[[PDFs/2023/2023-Cohen-HeQ.pdf]]"
 abstract: "Current benchmarks for Hebrew Natural Language Processing (NLP) focus mainly on morpho-syntactic tasks, neglecting the semantic dimension of language understanding. To bridge this gap, we set out to deliver a Hebrew Machine Reading Comprehension (MRC) dataset, where MRC is to be realized as extractive Question Answering. The morphologically-rich nature of Hebrew poses a challenge to this endeavor: the indeterminacy and non-transparency of span boundaries in morphologically complex forms lead to..."
-LLM_assessed: BERT
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/NNLP-IL/Hebrew-Question-Answering-Dataset"
 publication: ACL Anthology (EMNLP 2023 Findings)
 CONF-CC: "EMNLP 2023 Findings"
@@ -102,7 +105,7 @@ Current benchmarks for Hebrew Natural Language Processing (NLP) focus mainly on 
 
 ## Data Description
 
-HeQ (Hebrew QA) is a Hebrew machine reading comprehension benchmark containing 30,147 question-answer pairs derived from Hebrew Wikipedia articles and Israeli tech news (GeekTime). The dataset is split into train (90%), development (5%), and test (5%) sets, with annotations produced by native Hebrew speakers through a controlled crowdsourcing protocol with quality-tiered evaluation (rejected, verified, good, gold).
+HeQ benchmark: 30,147 Hebrew question-answer pairs from Hebrew Wikipedia and Israeli tech news for machine reading comprehension evaluation.
 
 
 ## Notes

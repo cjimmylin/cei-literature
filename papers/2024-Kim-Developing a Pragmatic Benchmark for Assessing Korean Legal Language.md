@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ local_pdf: "[[PDFs/2024/2024-Kim-Developing a Pragmatic Benchmark for Assessing 
 publication: "arXiv / EMNLP 2024 Findings"
 CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean, American"
+national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, Bloom, Claude, Claude-3, Claude-3-opus, Claude-3-sonnet, Claude-3.5, Claude-3.5-sonnet, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama, Llama-3, Llama3, Mistral, Qwen-72b, Qwen2, mistral-7b"
-DATA_URL: "https://github.com/haven-jeon/LegalQA"
+LLM_assessed: "Claude-3 Sonnet, Claude-3 Opus, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Qwen-2"
+DATA_URL: "https://github.com/lbox-kr/kbl"
 tags: 
 abstract: "Large language models (LLMs) have demonstrated remarkable performance in the legal domain, with GPT-4 even passing the Uniform Bar Exam in the U.S. However their efficacy remains limited for non-standardized tasks and tasks in languages other than English. This underscores the need for careful evaluation of LLMs within each legal system before application. Here, we introduce KBL, a benchmark for assessing the Korean legal language understanding of LLMs, consisting of (1) 7 legal knowledge tasks..."
 CONFERENCE: "EMNLP 2024"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "510 examples; 288 examples; 2,510 examples"
 ---
@@ -101,7 +105,8 @@ Korean legal language understanding benchmark: 7 legal knowledge tasks (510 exam
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, Bloom, Claude, Claude-3, Claude-3-opus, Claude-3-sonnet, Claude-3.5, Claude-3.5-sonnet, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama, Llama-3, Llama3, Mistral, Qwen-72b, Qwen2, mistral-7b. Verified dataset/resource link: https://github.com/haven-jeon/LegalQA.
+KBL (Korean Benchmark for Legal Language Understanding) consists of 7 legal knowledge tasks (510 examples), 4 legal reasoning tasks (288 examples), and the Korean bar exam (2,510 examples). Developed in collaboration with licensed lawyers; also includes Korean statute and precedent corpora for RAG evaluation.
+
 
 ## Notes
 

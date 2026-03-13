@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +52,12 @@ local_pdf: "[[PDFs/2025/2025-Gromenko-Cultural Evaluation of LLMs in Russian Cat
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
-languages_list: Russian
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4o, Gemma 2, Llama 3.1, Qwen2.5"
+LLM_assessed: "GPT-3.5, GPT-4o, Claude-3, Gemini, Gemma-2, Qwen-2, Llama-3, Command-R, Mistral"
 DATA_URL: "NA"
 tags: 
 abstract: "This study addresses the gap in evaluating large language models' (LLMs) cultural awareness and alignment within the Russian sociocultural context by introducing a structured framework comprising 8 Cultural Types (e.g., Spiritual Practitioner, Soviet Intellectual) and 5 catchphrase groups (e.g., memes, proverbs). A 400-question evaluation dataset was developed to probe 10 multilingual LLMs, including GPT-4o, Claude 3.5 Sonnet, and Gemini 1."
@@ -100,7 +104,8 @@ Introduces structured framework with 8 Cultural Types (e.g., Spiritual Practitio
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4o, Gemma 2, Llama 3.1, Qwen2.5. No high-confidence repository-style data URL was identified.
+A 400-question Russian cultural evaluation dataset structured around 8 Cultural Types and 5 catchphrase groups, in multiple formats (MCQ, gap-fill, matching, answer extraction). Used to probe 10 multilingual LLMs for cultural awareness in a zero-shot setting.
+
 
 ## Notes
 

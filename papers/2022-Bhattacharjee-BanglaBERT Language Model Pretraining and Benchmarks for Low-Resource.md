@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +49,14 @@ CONF-CC: "NAACL 2022 Findings"
 pdf_extract: "PDF Extracts/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md"
 local_pdf: "[[PDFs/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://github.com/csebuetnlp/banglabert"
 tags: 
 abstract: "In this work, we introduce BanglaBERT, a BERT-based Natural Language Understanding (NLU) model pretrained in Bangla, a widely spoken yet low-resource language in the NLP literature. To pretrain BanglaBERT, we collect 27.5 GB of Bangla pretraining data (dubbed ‘Bangla2B+’) by crawling 110 popular Bangla sites. We introduce two downstream task datasets on natural language inference and question answering and benchmark on four diverse NLU tasks covering text classiﬁcation, sequence labeling, and..."
@@ -65,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +103,8 @@ First Bangla Language Understanding Benchmark (BLUB) with four NLU tasks (text c
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/csebuetnlp/banglabert.
+Introduces BLUB (Bangla Language Understanding Benchmark) with four NLU tasks and two new datasets (BNLI for NLI and BQA for QA). Also releases BanglaBERT and BanglishBERT pretrained models and the Bangla2B+ pretraining corpus.
+
 
 ## Notes
 

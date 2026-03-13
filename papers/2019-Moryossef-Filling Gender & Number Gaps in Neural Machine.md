@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +44,7 @@ doi: 10.18653/v1/W19-3807
 url: "https://www.aclweb.org/anthology/W19-3807"
 external_pdf: "https://arxiv.org/pdf/1903.03467v1.pdf"
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "English, Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -100,7 +103,7 @@ When translating from a language that does not morphologically mark information 
 
 ## Data Description
 
-The paper proposes a black-box method for injecting gender and number information into pre-trained neural machine translation systems for English-to-Hebrew translation. The method concatenates textual hints about speaker/audience gender and number to input sentences and is evaluated on a state-of-the-art online NMT system (Google Translate), showing up to 2.3 BLEU improvement on a female-speaker test set. No LLMs were tested; the work focuses on controlling morphological output of existing MT systems.
+A female-speaker test set for English-to-Hebrew neural machine translation, enabling evaluation of gender injection approaches for controlling grammatical gender in generated translations.
 
 
 ## Notes

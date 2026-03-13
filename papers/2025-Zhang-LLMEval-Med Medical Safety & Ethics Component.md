@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +49,7 @@ local_pdf: "[[PDFs/2025/2025-Zhang-LLMEval-Med Medical Safety & Ethics Component
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Evaluating large language models (LLMs) in medicine is crucial because medical applications require high accuracy with little room for error. Current medical benchmarks have three main types: medical exam-based, comprehensive medical, and specialized assessments. However, these benchmarks have limitations in question design (mostly multiple-choice), data sources (often not derived from real clinical scenarios), and evaluation methods (poor assessment of complex reasoning)."
-LLM_assessed: "GPT-4, DeepSeek, Qwen, Mistral, Llama-3, o1"
+LLM_assessed: "Baichuan, DeepSeek, GPT-4, Llama-3, Mistral, Qwen, o1"
 DATA_URL: "https://github.com/llmeval/LLMEval-Med"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
@@ -99,7 +103,8 @@ Evaluating large language models (LLMs) in medicine is crucial because medical a
 
 ## Data Description
 
-LLMEval-Med is a medical benchmark containing 2,996 high-quality questions derived from real-world electronic health records and expert-designed clinical scenarios, covering five core medical dimensions: Medical Knowledge, Medical Language Understanding, Medical Reasoning, Medical Text Generation, and Medical Safety and Ethics, with 27 secondary capability indicators. The study evaluates 13 LLMs across three categories (specialized medical models, open-source, and closed-source) using an automated LLM-as-Judge evaluation pipeline with expert-developed checklists.
+LLMEval-Medicine: 2,996 questions derived from real-world clinical electronic health records covering 5 medical dimensions (knowledge, language understanding, reasoning, text generation, safety ethics) with expert-validated reference answers and evaluation checklists.
+
 
 ## Notes
 

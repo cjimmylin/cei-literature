@@ -21,6 +21,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +57,7 @@ abstract: "In this work, we designed unbiased prompts to systematically evaluate
 paper_summary: "Abstract: In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two per- sonality tests: S | Overview: Evaluating Psychological Safety of Large Language Models Xingxuan Li1,2∗Yutong Li3 Lin Qiu3 Shafiq Joty2,4 Lidong Bing1,5 1DAMO Academy, Alibaba Group, Singapore 2School of Computer Science and Engine | Key Findings: framework that we designed for fair analysis."
 local_pdf: "[[PDFs/2022/2022-Li-Evaluating Psychological Safety of Large Language.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3, InstructGPT, GPT-3.5, GPT-4, Llama-2"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "NA"
 CONFERENCE: "EMNLP 2022"
 ethics_overall: "Yes"
@@ -61,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
 ---
@@ -96,7 +101,7 @@ In this work, we designed unbiased prompts to systematically evaluate the psycho
 
 ## Data Description
 
-The paper evaluates psychological safety of five LLMs using standardized personality tests (Short Dark Triad SD-3, Big Five Inventory BFI) and well-being scales (Flourishing Scale FS, Satisfaction With Life Scale SWLS). Models tested include GPT-3 (davinci), InstructGPT (text-davinci-003), GPT-3.5 (gpt-3.5-turbo-0613), GPT-4 (gpt-4-0613), and Llama-2 (Llama-2-chat-7B), with a fine-tuned P-Llama-2-chat-7B using DPO for safety alignment.
+Evaluation framework using psychological tests (SD-3, BFI) to assess LLM psychological safety
 
 
 ## Notes

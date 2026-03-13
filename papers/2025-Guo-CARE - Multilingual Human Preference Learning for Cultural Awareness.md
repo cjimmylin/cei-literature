@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,8 @@ local_pdf: "[[PDFs/2025/2025-Guo-CARE - Multilingual Human Preference Learning f
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Language Models (LMs) are typically tuned with human preferences to produce helpful responses, but the impact of preference tuning on the ability to handle culturally diverse queries remains understudied. In this paper, we systematically analyze how native human cultural preferences can be incorporated into the preference learning process to train more culturally aware LMs. We introduce CARE, a multilingual resource containing 3,490 culturally specific questions and 31."
-LLM_assessed: "GPT-4, Llama-3, Qwen, Gemma, Mistral"
+LLM_assessed: "GPT-4, Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/Guochry/CARE"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
@@ -63,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Size: 3,490 culturally specific questions + 31,700 LLM/human-written responses w
 
 ## Data Description
 
-CARE is a multilingual human preference dataset containing 3,490 culturally specific questions and 31,700 responses with human judgments across Chinese, Arabic, and Japanese cultures. Nine LLMs were tested including Llama-3.3-70B, Llama-3.1-8B, Qwen-2.5-72B, Qwen-2.5-7B, Gemma-2-27B, Gemma-2-9B, Mistral-Large, Mistral-7B, and GPT-4o, evaluated on five cultural dimensions (entities, opinion, social norms, commonsense, literacy) using preference optimization methods like DPO, KTO, and SimPO.
+CARE: a multilingual human preference dataset with 3,490 culturally specific questions and 31.7k LLM/human-written responses annotated with human preference judgments, covering Chinese, Arabic, and Japanese cultures. Used to train and evaluate culturally aware LMs via preference optimization.
+
 
 ## Notes
 

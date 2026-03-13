@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
-languages_list: Russian
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, T5"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/RussianNLP/RussianSuperGLUE"
 tags: 
 abstract: "In this paper, we introduce an advanced Russian general language understanding evaluation benchmark – RussianGLUE. Recent advances in the ﬁeld of universal language models and transformers require the development of a methodology for their broad diagnostics and testing for general intellectual skills - detection of natural language inference, commonsense reasoning, ability to perform simple logical operations regardless of text subject or lexicon."
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -103,7 +107,8 @@ Benchmark of nine tasks developed from scratch for Russian language understandin
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, T5. Verified dataset/resource link: https://github.com/RussianNLP/RussianSuperGLUE.
+RussianSuperGLUE: benchmark of nine NLU tasks for Russian including textual entailment, commonsense reasoning, word sense disambiguation, reading comprehension, and QA, with human baselines and online leaderboard.
+
 
 ## Notes
 

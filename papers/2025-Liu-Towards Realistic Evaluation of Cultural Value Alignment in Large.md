@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +47,14 @@ CONF-CC: "Technological Forecasting and Social Change (ScienceDirect)"
 pdf_extract: "PDF Extracts/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.md"
 local_pdf: "[[PDFs/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese, Korean, Indian, Arabic, French, German, Spanish, Russian"
-cultures_nationalities_list: "Chinese, Japanese, Korean, Indian, Arabic, French, German, Spanish, Russian"
-languages_list: "Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Russian, Spanish"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: "ChatGPT, Claude-3 Sonnet, Llama-3, Mistral, Mixtral"
 DATA_URL: "NA"
 tags: 
 abstract: "Evaluates cultural value alignment through survey response simulation. Enhances diversity in simulated responses to better capture cultural nuances including Korean values. Uses World Values Survey as ground truth."

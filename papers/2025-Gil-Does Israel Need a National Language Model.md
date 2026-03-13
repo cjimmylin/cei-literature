@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +46,7 @@ local_pdf:
 "N/A"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew, Israeli"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"

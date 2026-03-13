@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ pdf_extract: "PDF Extracts/2019/2019-Ljubesic-The FRENK Datasets of Socially Una
 local_pdf: "[[PDFs/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Slovene, English"
+cultures_nationalities_list: "N/A"
 languages_list: "Croatian, English, Slovenian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -103,7 +106,7 @@ Offensive language dataset of Facebook news comments from Croatian, English, and
 
 ## Data Description
 
-The paper presents the FRENK datasets of Facebook comment threads from mainstream media in Slovene and English, covering topics of migrants and LGBT. Comments are manually annotated with a two-dimensional schema for socially unacceptable discourse (SUD), covering six types of SUD and five targets. This is presented as the first multilingual dataset annotated for SUD with identical sampling and annotation procedures across languages, enabling cross-linguistic comparison.
+FRENK datasets of Facebook comment threads in Slovene and English on migrant and LGBT topics, annotated for six types of socially unacceptable discourse and five target categories.
 
 
 ## Notes

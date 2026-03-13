@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,7 @@ local_pdf: "[[PDFs/2024/2024-Assis-Exploring Portuguese Hate Speech Detection in
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
-languages_list: Portuguese
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -95,7 +99,8 @@ Compares lightly-tuned encoder models with in-context learning of large models f
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT. Verified dataset/resource link: https://github.com/MeLLL-UFF/hate_speech_.
+Compares lightly fine-tuned Portuguese BERT-based encoders (BERTimbau, AlBERTina, BERTweet.BR) with in-context learning of ChatGPT and MariTalk for Portuguese hate speech detection in low-resource settings.
+
 
 ## Notes
 

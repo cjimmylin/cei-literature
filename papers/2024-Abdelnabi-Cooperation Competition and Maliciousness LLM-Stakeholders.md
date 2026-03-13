@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "There is an growing interest in using Large Language Models (LLMs) in multiagent systems to tackle interactive real-world tasks that require effective collaboration and assessing complex situations. Yet, we still have a limited understanding of LLMs’ communication and decision-making abilities in multi-agent setups. The fundamental task of negotiation spans many key features of communication, such as cooperation, competition, and manipulation potentials."
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Mixtral"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Llama-3, Mixtral"
 DATA_URL: "https://github.com/S-Abdelnabi/LLM-Deliberation"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
@@ -100,7 +104,8 @@ Multi-agent, multi-issue, semantically rich negotiation games; tunable difficult
 
 ## Data Description
 
-The paper presents a testbed of complex multi-agent, multi-issue negotiation games to evaluate LLMs' communication and decision-making abilities. Six parties negotiate over five issues with secret scores and minimum thresholds in compromising, greedy, and adversarial game variants. The benchmark evaluates GPT-4, GPT-3.5, Gemini Pro, Llama-2 (13b, 70b), Llama-3 70b, and Mixtral 8x7B across 20 runs per experiment with metrics including deal success rate, score calculations, and score leakage.
+A multi-agent, multi-issue negotiation benchmark with scorable games testing LLMs' cooperation, competition, and manipulation capabilities across compromising, greedy, and adversarial settings.
+
 
 ## Notes
 

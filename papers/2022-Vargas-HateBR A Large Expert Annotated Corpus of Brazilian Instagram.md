@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +52,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
-languages_list: Portuguese
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Glove"
+LLM_assessed: NA
 DATA_URL: "https://github.com/franciellevargas/HateBR"
 tags: 
 abstract: "Due to the severity of the social media offensive and hateful comments in Brazil, and the lack of research in Portuguese, this paper provides the ﬁrst large-scale expert annotated corpus of Brazilian Instagram comments for hate speech and offensive language detection. The HateBR corpus was collected from the comment section of Brazilian politicians’ accounts on Instagram and manually annotated by specialists, reaching a high inter-annotator agreement."
@@ -63,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -99,7 +104,8 @@ Large-scale expert-annotated corpus of 7,000 Brazilian Instagram comments from p
 
 ## Data Description
 
-Backfill summary: Models assessed include Glove. Verified dataset/resource link: https://github.com/franciellevargas/HateBR.
+HateBR: 7,000 Brazilian Instagram comments from politicians' accounts, expert-annotated across three annotation layers (binary classification, offensiveness level, and nine hate speech targets including xenophobia and racism), the first large-scale expert-annotated Brazilian Portuguese hate speech corpus.
+
 
 ## Notes
 

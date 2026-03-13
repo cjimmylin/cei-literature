@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2024/2024-Jadhav-On Limitations of LLM as Annotator for Low R
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indian, Marathi"
-languages_list: Marathi
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Marathi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, ChatGPT, GPT-3, GPT-4, GPT-4 Turbo, GPT-4o, Gemma, Gemma 2, Gemma-2, Llama, Llama 3.1, Llama-3.1, RoBERTa, Vicuna"
+LLM_assessed: "GPT-4o, Gemini, Gemma-2, Llama-3"
 DATA_URL: "NA"
 tags: 
 abstract: "Low-resource languages face significant challenges due to the lack of sufficient linguistic data, resources, and tools for tasks such as supervised learning, annotation, and classification. This shortage hinders the development of accurate models and datasets, making it difficult to perform critical NLP tasks like sentiment analysis or hate speech detection. To bridge this gap, Large Language Models (LLMs) present an opportunity for potential annotators, capable of generating datasets and..."
@@ -96,7 +100,8 @@ Comparative study between fine-tuned BERT models and LLMs evaluating their poten
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, ChatGPT, GPT-3, GPT-4, GPT-4 Turbo, GPT-4o, Gemma, Gemma 2, Gemma-2, Llama, Llama 3.1, Llama-3.1, RoBERTa, Vicuna. No high-confidence repository-style data URL was identified.
+Comparative evaluation of LLMs as annotators for Marathi across sentiment analysis (MahaSent), hate speech detection (MahaHate), and news classification (MahaNews) tasks.
+
 
 ## Notes
 

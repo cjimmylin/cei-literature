@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,14 +50,14 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "English"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Automatic response forecasting for news media plays a crucial role in enabling content producers to efficiently predict the impact of news releases and prevent unexpected negative outcomes such as social conflict and moral injury. To effectively forecast responses, it is essential to develop measures that leverage the social dynamics and contextual information surrounding individuals, especially in cases where explicit profiles or historical actions of the users are limited (referred to as..."
-LLM_assessed: "ChatGPT, DeBERTa, RoBERTa"
+LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/chenkaisun/SocialSense"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"

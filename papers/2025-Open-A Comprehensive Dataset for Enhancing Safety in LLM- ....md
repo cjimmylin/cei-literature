@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ....md"
 local_pdf: "[[PDFs/2025/2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: Chinese
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, GPT-3, GPT-3.5 Turbo, GPT-4, GPT-4o, GPT-4o mini, Llama, Llama-3, LLaMA-3.1, LLaMA3, LLaMA3.1, LLaMA3.1., Qwen-2.5, Qwen2.5, Claude"
-DATA_URL: "NA"
+LLM_assessed: "LLaMA, Llama-3, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/jinjinyien/ToolSafety"
 tags: 
 abstract: "LLMs are evolving into assistants that leverage tools, significantly expanding their capabilities but also introducing critical safety risks. Current models exhibit notable vulnerabilities, particularly in maintaining safety during multi-step tool interactions and in scenarios involving indirect harm. This paper introduces ToolSafety, a safety fine-tuning dataset designed to address these limitations."
 CONFERENCE: "ACL 2025"
@@ -61,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
@@ -95,7 +99,8 @@ Based on my web search results, I was unable to find any specific information ab
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, GPT-3, GPT-3.5 Turbo, GPT-4, GPT-4o, GPT-4o mini, Llama, Llama-3, LLaMA-3.1, LLaMA3, LLaMA3.1, LLaMA3.1., Qwen-2.5, Qwen2.5, Claude. No high-confidence repository-style data URL was identified.
+ToolSafety is a safety fine-tuning dataset of 14,290 instances covering 40 tool categories and 16 harm categories, including direct harm, indirect harm, and multi-step tool-use scenarios for LLM-based agent tool invocations.
+
 
 ## Notes
 

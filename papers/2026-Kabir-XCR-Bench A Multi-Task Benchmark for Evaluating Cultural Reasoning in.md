@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Bengali, English, Multiple languages, multiple"
+languages_list: "Bengali, English, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Claude, Claude 3.7, Claude-3.7, Claude-3.7-Sonnet, DeepSeek, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, LLaMA-3.3, Qwen, Qwen-2.5, Qwen-32B, claude 3.7 sonnet, deepseek llama3, deepseek chat, deepseek r1, GPT-3, llama3, qwen 2.5"
-DATA_URL: "NA"
+LLM_assessed: "GPT-4o, Qwen, Claude, Gemini, DeepSeek, Llama-3"
+DATA_URL: "https://github.com/mohsinulkabir14/xcr_bench"
 tags: 
 abstract: "Cross-cultural competence in large language models (LLMs) requires the ability to identify Culture-Specific Items (CSIs) and to adapt them appropriately across cultural contexts. Progress in evaluating this capability has been constrained by the scarcity of high-quality CSIannotated corpora with parallel cross-cultural sentence pairs. To address this limitation, we introduce XCR-Bench, a Cross(X)-Cultural Reasoning Benchmark consisting of 4."
 CONFERENCE: "Preprint"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Claude, Claude 3.7, Claude-3.7, Claude-3.7-Sonnet, DeepSeek, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, LLaMA-3.3, Qwen, Qwen-2.5, Qwen-32B, claude 3.7 sonnet, deepseek llama3, deepseek chat, deepseek r1, GPT-3, llama3, qwen 2.5. No high-confidence repository-style data URL was identified.
+XCR-Bench: a cross-cultural reasoning benchmark with 4,136 parallel sentences, 1,098 unique Culture-Specific Items (CSIs) spanning 4 cultures (Chinese, Arabic, Bengali/West Bengal, Bangladeshi), with 3 evaluation tasks (CSI Identification, Prediction, Adaptation) and Hall's Triad cultural-level annotations; corpus and code publicly released.
+
 
 ## Notes
 

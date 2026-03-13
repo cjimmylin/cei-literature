@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,12 +50,12 @@ local_pdf: "[[PDFs/2022/2022-Launay-PAGnol An Extra-Large French Generative Mode
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
-languages_list: French
+languages_list: "French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-2, PAGnol"
+LLM_assessed: "GPT-2"
 DATA_URL: "https://lair.lighton.ai/pagnol"
 tags: 
 abstract: "Access to large pre-trained models of varied architectures, in many different languages, is central to the democratization of NLP. We introduce PAGnol, a collection of French GPT models. Using scaling laws, we efﬁciently train PAGnol-XL (1.5B parameters) with the same computational budget as CamemBERT, a model 13 times smaller. PAGnol-XL is the largest model trained to date for the French language. We plan to train increasingly large and performing versions of PAGnol, exploring the capabilities..."
@@ -61,8 +66,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---
@@ -99,7 +104,7 @@ This paper introduces PAGnol, a collection of French GPT models with PAGnol-XL (
 
 ## Data Description
 
-Collection of French GPT models with PAGnol-XL (1.5B parameters) being the largest French model trained from scratch. Evaluated on discriminative (FLUE) and generative tasks (FQuAD question answering, OrangeSum summarization). Found OSCAR pre-training dataset led to low-quality offensive text generation, highlighting data quality importance.
+PAGnol collection of French GPT models up to 1.5B parameters; evaluated on FLUE, FQuAD, and OrangeSum
 
 
 ## Detailed Summary

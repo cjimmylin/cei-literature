@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +48,7 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "American"
-cultures_nationalities_list: "N/A"
+cultures_nationalities_list: "American"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Reward models (RMs) are central to the alignment of language models (LMs). An RM often serves as a proxy for human preferences to guide downstream LM behavior. However, our understanding of RM behavior is limited. Our work (i) formalizes a framework for measuring the alignment of opinions captured by RMs, (ii) investigates the extent to which RMs demonstrate sociodemographic biases, and (iii) explores the effects of prompting to steer rewards towards the preferences of a target group."
-LLM_assessed: DeBERTa
+LLM_assessed: BERT
 DATA_URL: "https://github.com/socialnlp/rmp"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

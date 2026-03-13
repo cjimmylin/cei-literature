@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2025/2025-Giachino-An Empirical Investigation of Gender Stere
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
-languages_list: Italian
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o-mini"
-DATA_URL: "NA"
+LLM_assessed: "GPT-4o mini, Gemini"
+DATA_URL: "https://anonymous.4open.science/r/GenderStereotypeLLMsItalian-47F6/"
 tags: 
 abstract: "The increasing use of Large Language Models (LLMs) in a large variety of domains has sparked worries about how easily they can perpetuate stereotypes and contribute to the generation of biased content. With a focus on gender and professional bias, this work examines in which manner LLMs shape responses to ungendered prompts, contributing to biased outputs. This analysis uses a structured experimental method, giving different prompts involving three different professional job combinations, which..."
 CONFERENCE: "Preprint"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -99,7 +103,7 @@ This empirical study examines gender and professional bias in LLM responses to u
 
 ## Data Description
 
-This empirical study examines how LLMs shape responses to ungendered Italian prompts, focusing on gender and professional bias. Uses structured experimental method with 3,600 responses testing three professional job combinations with hierarchical relationships. Finds Gemini associated 100% of 'she' pronouns with 'assistant' rather than 'manager', highlighting how Italian's extensive grammatical gender system amplifies stereotypes.
+3,600 responses collected from GPT-4o mini and Gemini Flash to 60 Italian ungendered professional prompts, analyzed via conditional probability metrics for gender bias.
 
 
 ## Detailed Summary

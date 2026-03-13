@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +44,8 @@ authors: "Franziska Hopp"
 doi: 10.31234/osf.io/ywhx2
 url: "https://doi.org/10.31234/osf.io/ywhx2"
 external_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/199A848F4ACDF273759329C34FCC653B/S1930297524000056a.pdf/div-class-title-the-dutch-moral-foundations-stimulus-database-an-adaptation-and-validation-of-moral-vignettes-and-sociomoral-images-in-a-dutch-sample-div.pdf"
-national_ethnic_cultural: "Dutch, American, Brazilian, Australian/Aboriginal"
-cultures_nationalities_list: "Dutch, American, Brazilian, Australian"
+national_ethnic_cultural: "Dutch, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Dutch, Multicultural/Cross-cultural"
 languages_list: "Dutch, English, Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ pdf_extract: "PDF Extracts/2023/2023-Hopp-The Dutch Moral Foundations Stimulus D
 local_pdf: "[[PDFs/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT"
+LLM_assessed: NA
 DATA_URL: "https://osf.io/9gnza"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -97,7 +101,7 @@ Moral judgments are shaped by socialization and cultural heritage. Understanding
 
 ## Data Description
 
-The dataset comprises Dutch translations of 120 Moral Foundations Vignettes and 120 selected images from the Socio-Moral Image Database (SMID), validated using over 38,460 individual moral and affective judgments from 586 Dutch crowd-workers. Stimuli cover seven moral foundation categories plus social norm transgressions, with ratings on moral wrongness, comprehensibility, imaginability, frequency, and emotional response.
+The Dutch Moral Foundations Stimulus Database: 120 Moral Foundations Vignettes translated and validated in Dutch, and 120 Socio-Moral Image Database images, rated by 586 Dutch crowd-workers (38,460+ judgments) across moral and affective dimensions.
 
 
 ## Notes

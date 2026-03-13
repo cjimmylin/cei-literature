@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As autonomous agents become more prevalent, understanding their collective behaviour in strategic interactions is crucial. This study investigates the emergent cooperative tendencies of systems of Large Language Model (LLM) agents in a social dilemma. Unlike previous research where LLMs output individual actions, we prompt state-of-theart LLMs to generate complete strategies for iterated Prisoner’s Dilemma."
-LLM_assessed: "ChatGPT, Claude"
+LLM_assessed: "GPT-4o, Claude"
 DATA_URL: "https://github.com/willis-richard/evollm"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -61,8 +64,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

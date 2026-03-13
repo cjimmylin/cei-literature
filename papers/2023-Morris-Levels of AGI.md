@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ paper_summary: "Abstract: We propose a framework for classifying the ca- pabilit
 local_pdf: "[[PDFs/2023/2023-Morris-Levels of AGI.pdf]]"
 CONF-CC: "ICML 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "ALBERT, GPT-4, Llama 2"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -64,8 +68,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Human Rights"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,8 +58,8 @@ tags:
 abstract: "Generative Adversarial Networks (GANs) using Long Short-Term Memory (LSTM) provide a computationally cheaper approach for text generation compared to large language models (LLMs). The low hardware barrier of training GANs poses a threat because it means more bad actors may use them to mass-produce prompt attack messages against LLM systems. Thus, to better understand the threat of GANs being used for prompt attack generation, we train two well-known GAN architectures, SeqGAN and RelGAN, on..."
 CONF-CC: "Machine Learning"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, GPT-4"
-DATA_URL: "https://github.com/williamSYSU/TextGAN-PyTorch"
+LLM_assessed: "GPT-4o"
+DATA_URL: NA
 CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

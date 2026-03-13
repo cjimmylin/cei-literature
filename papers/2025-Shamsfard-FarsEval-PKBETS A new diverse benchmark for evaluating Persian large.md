@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian, Persian"
-languages_list: Persian
+cultures_nationalities_list: "Iranian"
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, Dolly, Dolly24, Llama, Llama3"
-DATA_URL: "https://github.com/ParsBench/ParsBench"
+LLM_assessed: "LLaMA"
+DATA_URL: NA
 tags: 
 abstract: "Research on evaluating and analyzing large language models (LLMs) has been extensive for high-resource languages such as English, yet their performance in languages such as Persian has received considerably less attention. This paper introduces FarsEval-PKBETS benchmark, a subset of FarsEval project for evaluating large language models in Persian. This benchmark consists of 4,000 questions and answers in various formats, including multiple-choice, short-answer, and descriptive responses."
 CONFERENCE: "Preprint"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "4,000 questions"
 ---
@@ -97,7 +101,8 @@ data_metrics: "4,000 questions"
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, Dolly, Dolly24, Llama, Llama3. Verified dataset/resource link: https://github.com/ParsBench/ParsBench.
+FarsEval-PKBETS is a 4,000-question Persian-language benchmark covering medicine, law, religion, ethics, and cultural knowledge in diverse question formats (MCQ, short-answer, descriptive). No public repository URL was found; the dataset is associated with Iran's National Artificial Intelligence Organization (NAIO).
+
 
 ## Notes
 

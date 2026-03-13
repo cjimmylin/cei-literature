@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -102,7 +105,8 @@ Resources for fairness evaluation in Indian context
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/google-research-datasets/nlp-fairness-for-india.
+Fairness evaluation resources for Indian context: datasets and templates for probing prediction biases along caste, religion, region, and gender in NLP models.
+
 
 ## Notes
 

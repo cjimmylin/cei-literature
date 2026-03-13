@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2025/2025-Hosseinbeigi-Matina A Culturally-Aligned Persian La
 pdf_extract: "PDF Extracts/2025/2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian, Persian"
+cultures_nationalities_list: "Iranian"
 languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3.1-8B"
+LLM_assessed: "Llama-3, GPT-4o, GPT-4o mini"
 DATA_URL: "NA"
 tags: 
 abstract: "Creates culturally aligned datasets for Persian contexts and develops Matina by fine-tuning LLaMA3.1 across five domains using Multiple LoRA Experts. Demonstrates that culturally aligned datasets enable the model to surpass baselines in task performance and user satisfaction, embodying Iranian cultural values and linguistic structures."
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -100,7 +104,7 @@ Creates culturally aligned datasets for Persian contexts and develops Matina by 
 
 ## Data Description
 
-The paper introduces Matina, a Persian-focused multi-expert language model designed to embody Iranian cultural values and linguistic structures. Built by fine-tuning LLaMA3.1 8B-Instruct across five domains (culinary, tourism, socio-culture, translation, and summarization) using LoRA experts, it was trained on 264M+ tokens and 42,097+ cultural documents. The model is evaluated using LLM-based evaluations and human assessments, demonstrating improvements in cultural understanding and task-specific performance compared to baseline models.
+Constructs diverse culturally-aligned Persian datasets across five domains (general conversation, law, medicine, culinary, translation) used to fine-tune Matina (LLaMA3.1 8B) via Multiple LoRA Experts.
 
 
 ## Notes

@@ -22,6 +22,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,11 +39,11 @@ doi: 10.12688/wellcomeopenres.23021.1
 url: "https://wellcomeopenresearch.org/articles/9-625"
 pdf_extract: "PDF Extracts/2024/2024-Odero-The Ubuntu Way.md"
 local_pdf: "[[PDFs/2024/2024-Odero-The Ubuntu Way.pdf]]"
-national_ethnic_cultural: "German"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Ubuntu Philosophy"
+religious_values_list: "Ubuntu Philosophy"
 moral_psychology: "N/A"
 newtags: "African/Ubuntu, Virtue Ethics, Utilitarianism"
 key_contribution: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa"

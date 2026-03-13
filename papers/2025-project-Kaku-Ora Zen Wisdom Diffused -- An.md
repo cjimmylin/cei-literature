@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,11 +49,11 @@ local_pdf: N/A
 publication: "LessWrong / HuggingFace Spaces"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Buddhism"
+religious_values_list: "Buddhism"
 moral_psychology: "N/A"
 newtags: 
 tags: 

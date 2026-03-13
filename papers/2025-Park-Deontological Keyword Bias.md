@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ significance: "demonstrates how linguistic framing significantly distorts normat
 abstract: "Large language models (LLMs) are increasingly engaging in moral and ethical reasoning, where criteria for judgment are often unclear, even for humans. While LLM alignment studies cover many areas, one important yet underexplored area is how LLMs make judgments about obligations. This work reveals a strong tendency in LLMs to judge non-obligatory contexts as obligations when prompts are augmented with modal expressions such as must or ought to."
 paper_summary: "Abstract: Large language models (LLMs) are increas- ingly engaging in moral and ethical reasoning, where criteria for judgment are often unclear, even for humans. While LLM alignment stud- ies cover many areas, | Overview: arXiv:2506.11068v1 [cs.CL] 1 Jun 2025 Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models Bumjin Park1, Jinsil Lee1, Jaesik Choi12 1KAIST AI 2INEEJI { | Methodology: Deontology (↑) Commonsense (↓) GPT-4o Llama-70B Qwen2 ExaOne GPT-4o Llama-70B Qwen2 ExaOne With MEs | Key Findings: We conducted a human evaluation with 100 participants, all of whom had at least a university-level education and self-reported the ability to judge wh | Conclusions: Modal expressions appear in a wide range of con- texts, each conveying varying degrees of neces- sity or enforceability depending on the situation (Pa"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-3, Gemma, Qwen"
+LLM_assessed: "GPT-4o, GPT-4o, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "NA"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -60,7 +64,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

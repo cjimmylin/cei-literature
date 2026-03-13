@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +62,7 @@ abstract: "The widespread application of LLMs across various tasks and fields ha
 paper_summary: "Abstract: The widespread application of LLMs across various tasks and fields has necessitated the alignment of these models with human val- ues and preferences. Given various approaches of human value alignment | Overview: High-Dimension Human Value Representation in Large Language Models Samuel Cahyawijaya∗ Delong Chen∗ Yejin Bang∗ Leila Khalatbari Bryan Wilie∗ Ziwei Ji Etsuko Ishii Pascale Fung* The Hong Kong Universi | Key Findings: Task To quantitatively evaluate whether represen- tation effectively captures value-relevant features in LLMs, we introduce an LLM value identificatio | Conclusions: The adoption of LLMs across various fields neces- sitates understanding how these models represent human values. Our paper introduces UniVaR, a high-d"
 local_pdf: "[[PDFs/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, Llama-2, Llama-3, Mistral, Mixtral, BLOOM"
+LLM_assessed: "Mixtral, Aya-101, SeaLLM, BLOOMZ, ChatGLM-3, Nous-Hermes-Mixtral, SOLAR, Mistral, JAIS, Yi, Llama-2, MaralGPT, Command-R, Llama-3, ChatGPT"
 DATA_URL: "NA"
 CONFERENCE: "NAACL 2024"
 ethics_overall: "Yes"
@@ -67,7 +72,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "25 languages"
 ---
@@ -102,7 +107,7 @@ The widespread application of LLMs across various tasks and fields has necessita
 
 ## Data Description
 
-The paper introduces UniVaR, a high-dimensional value representation trained on approximately 1 million value-eliciting QA pairs generated from 15 LLMs across 25 languages. The evaluation dataset consists of QA pairs derived from four value questionnaire sources (PVQ-RR, WVS, GLOBE, ValuePrism) covering 87 core human values, with 21,480 value-eliciting questions used for training.
+UniVaR framework with 1M QA pairs from 15 LLMs in 25 languages used to create high-dimensional neural representations of human value distributions in LLMs.
 
 
 ## Notes

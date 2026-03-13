@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-Kranti-MATA mata Mindful Assessment of the.pdf]]"
 publication: "WebSearch: MATA Telugu benchmark"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indian, Telugu"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "In this paper, we introduce MATA, a novel evaluation dataset to assess the ability of Large Language Models (LLMs) in Telugu language, comprising 729 carefully curated multiple-choice and open-ended questions that span diverse linguistic dimensions. We evaluate 11 openweight and closed-source LLMs on our dataset and present a fine-grained analysis of their performance. Further, we empirically show how LLMs rely on superficial heuristics such as answer position and distractor patterns for..."
-LLM_assessed: "Claude, Claude Sonnet, Claude-Sonnet, GPT-4, GPT-4o, Gemma, Gemma3, Grok3, Llama, LLaMA3, LLaMA3.3, Qwen3"
+LLM_assessed: "Claude-3 Sonnet, GPT-4, GPT-4o, Gemini, Gemma, Grok, Llama-3, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -99,7 +103,8 @@ Novel evaluation dataset with 729 curated MCQ and open-ended questions spanning 
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude Sonnet, Claude-Sonnet, GPT-4, GPT-4o, Gemma, Gemma3, Grok3, Llama, LLaMA3, LLaMA3.3, Qwen3. No high-confidence repository-style data URL was identified.
+MATA is a 729-question evaluation dataset for Telugu covering seven linguistic categories (grammar, factual knowledge, vocabulary, linguistic reasoning, riddles, idioms/proverbs) sourced from school textbooks and competitive exams; approximately 25% MCQ and 75% open-ended.
+
 
 ## Notes
 

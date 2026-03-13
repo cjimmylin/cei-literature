@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,15 +47,15 @@ local_pdf: "[[PDFs/2025/2025-consortium-Charting the European LLM Benchmarking L
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "European, Multicultural/Cross-cultural"
-languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and other European languages"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Barth, Bloom"
-DATA_URL: "https://huggingface.co/spaces/sdadas"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "While new benchmarks for large language models (LLMs) are being developed continuously to catch up with the growing capabilities of new models and AI in general, using and evaluating LLMs in non-English languages remains a little-charted landscape. We give a concise overview of recent developments in LLM benchmarking, and then propose a new taxonomy for the categorization of benchmarks that is tailored to multilingual or non-English use scenarios."
 CONFERENCE: "Preprint"
@@ -60,8 +64,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"

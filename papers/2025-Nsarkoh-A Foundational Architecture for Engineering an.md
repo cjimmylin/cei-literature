@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-Nsarkoh-A Foundational Architecture for Engineering
 publication: "Discover Artificial Intelligence (Springer)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "African"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -68,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---

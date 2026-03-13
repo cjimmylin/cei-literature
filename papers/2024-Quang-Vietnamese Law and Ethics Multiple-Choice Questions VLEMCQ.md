@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -61,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -98,7 +101,7 @@ Multiple-choice questions testing knowledge of Vietnamese law, ethics, and socia
 
 ## Data Description
 
-Multiple-choice question dataset testing knowledge of Vietnamese law, ethics, and social responsibility. Suitable for training and evaluating LLMs on Vietnamese ethical and legal reasoning with four-option format (A, B, C, D). Available on HuggingFace.
+Multiple-choice question dataset testing knowledge of Vietnamese law, ethics, and social responsibility, designed for training and evaluating LLMs on Vietnamese ethical and legal reasoning. Uses four-option format (A, B, C, D).
 
 
 ## Notes

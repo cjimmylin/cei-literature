@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are poised to transform healthcare under China’s Healthy China 2030 initiative, yet they introduce new ethical and patient-safety challenges. We present a novel 12,000-item Q&A benchmark covering 11 ethics and 9 safety dimensions in medical contexts, to quantitatively evaluate these risks. Using this dataset, we assess state-of-the-art Chinese medical LLMs (e.g., Qwen 2.5-32B, DeepSeek), revealing moderate baseline performance (accuracy 42.7% for Qwen 2."
-LLM_assessed: "Qwen, DeepSeek"
+LLM_assessed: "DeepSeek, Qwen"
 DATA_URL: "https://medbench.opencompass.org.cn/community/data-station"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"
@@ -97,7 +101,8 @@ Large Language Models (LLMs) are poised to transform healthcare under China’s 
 
 ## Data Description
 
-The paper introduces a 12,000-item Q&A benchmark covering 11 ethics and 9 safety dimensions in medical contexts, designed to evaluate healthcare LLMs in China. State-of-the-art Chinese medical LLMs including Qwen 2.5-32B and DeepSeek are assessed on this benchmark, with Qwen 2.5-32B achieving 42.7% baseline accuracy improving to 50.8% after fine-tuning. The dataset is publicly available at MedBench.
+A 12,000-item Q&A benchmark covering 11 ethics and 9 safety dimensions for Chinese medical LLMs, constructed from textbooks, policy documents, and clinical guidelines, with expert validation and publicly released via MedBench.
+
 
 ## Notes
 

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -103,7 +106,7 @@ Machine learning approaches often require training and evaluation datasets with 
 
 ## Data Description
 
-The paper introduces DICES (Diversity In Conversational AI Evaluation for Safety), containing two sets of annotated AI chatbot conversations: DICES-990 (990 conversations, ~70 annotations each) and DICES-350 (350 conversations, ~120 annotations each). Conversations were generated from human agents interacting with a generative AI chatbot, rated by a demographically diverse set of human raters across five safety categories. The dataset captures diversity in safety perceptions across gender, age, and racial/ethnic groups.
+DICES (Diversity In Conversational AI Evaluation for Safety): two annotated datasets (DICES-990 and DICES-350) of AI chatbot conversations rated by demographically diverse human raters across fine-grained safety categories (harm, bias, misinformation, politics), capturing diversity in safety perceptions across demographic groups.
 
 
 ## Notes

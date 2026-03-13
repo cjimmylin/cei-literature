@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ pdf_extract: "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md"
 local_pdf: "[[PDFs/2024/2024-Cao-The Moral Foundations Weibo Corpus.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-3, Qwen"
+LLM_assessed: "GPT-4, Llama-3, Qwen-2"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -84,7 +88,7 @@ Moral sentiments expressed in natural language significantly influence both onli
 
 ## Data Description
 
-The paper introduces the Moral Foundations Weibo Corpus (MFWC), consisting of 25,671 Chinese Weibo comments spanning six diverse topic areas (animal protection, real estate, people's livelihoods, volunteers, volunteer army, and China-U.S. heads of state meeting). Each comment is manually annotated by at least three trained annotators based on ten moral sentiment categories derived from Moral Foundations Theory.
+Annotated corpus of 25,671 Chinese Weibo comments across six topics, manually labeled by trained annotators for ten moral categories derived from Moral Foundations Theory.
 
 
 ## Notes

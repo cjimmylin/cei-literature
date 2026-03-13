@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Islamic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "LLMs are increasingly used for Islamic question answering, where ungrounded responses may carry serious religious consequences. Yet standard MCQ/MRC-style evaluations1 do not capture key real-world failure modes, notably free-form hallucinations and whether models appropriately abstain when evidence is lacking. To shed a light on this aspect we introduce ISLAMICFAITHQA, a 3,810-item bilingual (Arabic/English) generative benchmark with atomic single-gold answers, which enables direct measurement..."
-LLM_assessed: "ALBERT, DeepSeek-R1, GPT-4, Llama-2, Llama-3.1, Mistral 7b, Mistral-7B, Qwen-1.5B, Qwen-7B, Qwen2.5, Qwen3, BERT"
-DATA_URL: "Planned public release"
+LLM_assessed: "Qwen, Qwen-2, Mistral, Llama-2, Llama-3"
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -106,7 +110,8 @@ Introduces IslamicFaithQA, a 3,810-item bilingual generative benchmark with atom
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, DeepSeek-R1, GPT-4, Llama-2, Llama-3.1, Mistral 7b, Mistral-7B, Qwen-1.5B, Qwen-7B, Qwen2.5, Qwen3, BERT. Verified dataset/resource link: Planned public release.
+ISLAMICFAITHQA is a 3,810-item bilingual (Arabic/English) generative benchmark for Islamic QA measuring hallucination and abstention; an accompanying suite includes 25K SFT reasoning pairs, 5K preference alignment samples, and a 6,236-verse Quran RAG corpus, to be released publicly.
+
 
 ## Notes
 

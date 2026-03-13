@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -105,7 +108,7 @@ This paper presents HOCON34k, a corpus of 34,223 German comments collected from 
 
 ## Data Description
 
-HOCON34k contains 34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers. BERT baseline achieves MCC 0.32, F2-score 0.64. Publicly available for German hate speech research. Used as benchmark for evaluating detection tools.
+HOCON34k: a corpus of 34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers, publicly available for German hate speech research.
 
 
 ## Notes

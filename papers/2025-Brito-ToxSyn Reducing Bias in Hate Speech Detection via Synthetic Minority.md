@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
-languages_list: Portuguese
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, BERT"
+LLM_assessed: "BERT, GPT-4"
 DATA_URL: "NA"
 tags: 
 abstract: "The development of robust hate speech detection systems remains limited by the lack of large-scale, fine-grained training data, especially for languages beyond English. Existing corpora typically rely on coarse toxic/non-toxic labels, and the few that capture hate directed at specific minority groups critically lack the non-toxic counterexamples (i.e., benign text about minorities) required to distinguish genuine hate from mere discussion."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -99,7 +103,8 @@ First Portuguese publicly available corpus for hate-speech classification across
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, BERT. No high-confidence repository-style data URL was identified.
+ToxSyn: first large-scale Portuguese corpus for multi-label hate speech detection across nine protected minority groups, comprising 53,274 LLM-generated samples with discourse-type and target-group annotations; released on HuggingFace (no specific URL in paper).
+
 
 ## Notes
 

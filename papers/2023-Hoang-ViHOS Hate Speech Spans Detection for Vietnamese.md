@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
@@ -102,7 +105,8 @@ First human-annotated Vietnamese corpus of 26k hate/offensive spans on 11k onlin
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://github.com/phusroyal/ViHOS.
+ViHOS (Vietnamese Hate and Offensive Spans) dataset: first human-annotated Vietnamese corpus containing 26k hate/offensive spans on 11k comments, with detailed annotation guidelines for nine Vietnamese foul linguistic phenomena.
+
 
 ## Notes
 

@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ osint_source: "Recovered via GITHUB"
 abstract: "We show how to assess a language model’s knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents."
 paper_summary: "Abstract: We show how to assess a language model's knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and comm | Overview: Published as a conference paper at ICLR 2021 ALIGNING AI WITH SHARED HUMAN VALUES Dan Hendrycks∗ UC Berkeley Collin Burns* Columbia University Steven Basart UChicago Andrew Critch UC Berkeley Jerry Li"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-3"
+LLM_assessed: "ALBERT, BERT, GPT-3, RoBERTa"
 DATA_URL: "https://github.com/hendrycks/ethics"
 normative_ethics_benchmark: Yes
 CONFERENCE: "ICLR 2021"
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
@@ -92,7 +96,7 @@ We show how to assess a language model's knowledge of basic concepts of morality
 
 ## Data Description
 
-The ETHICS dataset contains over 130,000 examples spanning five categories of normative ethics: justice, deontology, virtue ethics, utilitarianism, and commonsense morality. Models including BERT, RoBERTa, ALBERT (fine-tuned), and GPT-3 (few-shot) are evaluated on predicting widespread moral judgments about diverse natural language scenarios requiring connecting physical and social world knowledge to value judgments.
+ETHICS dataset: 130k+ examples spanning justice, well-being, duties, virtues, and commonsense morality for benchmarking language models' ethical reasoning.
 
 
 ## Notes

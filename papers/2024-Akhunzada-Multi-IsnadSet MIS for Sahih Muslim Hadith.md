@@ -30,6 +30,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,8 +57,8 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 publication: "Data in Brief (ScienceDirect)"
 CONF-CC: "Data in Brief"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -73,7 +75,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"

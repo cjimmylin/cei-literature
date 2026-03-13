@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "NAACL 2025"
 local_pdf: "[[PDFs/2025/2025-Cao-Specializing Large Language Models to Simulate Survey Response.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Cao-Specializing Large Language Models to Simulate Survey Response.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural (global populations)"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Vicuna-1.5, Llama-3, Qwen"
+LLM_assessed: "Llama-2, Llama-3, Qwen"
 DATA_URL: "https://github.com/yongcaoplus/SimLLMCultureDist"
 tags: 
 abstract: "First work to specialize LLMs for simulating survey response distributions using country-level results from two global cultural surveys (WVS) as testbed. Fine-tuning method based on first-token probabilities to minimize divergence. Best models still struggle, especially on unseen questions."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

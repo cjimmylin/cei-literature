@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +50,8 @@ publication: "WebSearch: Hausa Igbo Yoruba offensive language hate speech multil
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
-languages_list: "Kannada, Malayalam, Tamil"
+cultures_nationalities_list: "African/Ubuntu"
+languages_list: "Hausa, Igbo, Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

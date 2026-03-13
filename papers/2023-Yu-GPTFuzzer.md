@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ paper_summary: "Abstract: Content warning: This paper contains unfiltered conten
 local_pdf: "[[PDFs/2023/2023-Yu-GPTFuzzer.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, Llama-2, Vicuna, RoBERTa"
+LLM_assessed: "ChatGPT, Llama-2, RoBERTa, Vicuna"
 DATA_URL: "https://github.com/sherdencooper/GPTFuzz"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -96,7 +100,7 @@ Large language models (LLMs) have recently experienced tremendous popularity and
 
 ## Data Description
 
-GPTFUZZER is a black-box jailbreak fuzzing framework for automated generation of jailbreak prompts targeting LLMs. The dataset consists of 100 harmful questions from open datasets and 77 human-written jailbreak templates as initial seeds. The framework was evaluated against ChatGPT (gpt-3.5-turbo), Llama-2-7B-Chat, and Vicuna-7B as target models, achieving over 90% attack success rates. A fine-tuned RoBERTa-large model serves as the judgment model for assessing jailbreak success.
+GPTFUZZER automated jailbreak fuzzing framework with code, mutate operators, and fine-tuned RoBERTa judgment model for red-teaming LLMs.
 
 
 ## Notes

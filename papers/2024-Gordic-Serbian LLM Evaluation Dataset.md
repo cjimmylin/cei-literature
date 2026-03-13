@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +48,13 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Serbian"
-languages_list: Serbian
+cultures_nationalities_list: "N/A"
+languages_list: "Serbian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: "GPT-4"
 DATA_URL: "https://github.com/gordicaleksa/serbian-llm-eval"
 tags: 
 abstract: "First Serbian LLM evaluation dataset covering ARC, BoolQ, HellaSwag, PIQA, TriviaQA, Winogrande tasks. Machine-translated and GPT-4 refined. Integrated with Lighteval framework."
@@ -61,7 +64,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for question answering"
@@ -98,7 +101,7 @@ First Serbian LLM evaluation dataset covering ARC, BoolQ, HellaSwag, PIQA, Trivi
 
 ## Data Description
 
-First Serbian LLM evaluation dataset covering six tasks: ARC, BoolQ, HellaSwag, PIQA, TriviaQA, and Winogrande. The dataset was created through machine translation and GPT-4 refinement, and is integrated with the Lighteval framework for standardized evaluation of Serbian language models.
+The first Serbian LLM evaluation dataset covering ARC, BoolQ, HellaSwag, PIQA, TriviaQA, and Winogrande tasks, machine-translated and GPT-4 refined, integrated with the Lighteval framework.
 
 
 ## Notes

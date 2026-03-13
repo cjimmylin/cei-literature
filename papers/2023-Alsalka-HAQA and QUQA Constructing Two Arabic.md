@@ -29,6 +29,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +61,7 @@ newtags:
 tags: 
 abstract: "It is neither possible nor fair to compare the performance of question-answering systems for the Holy Quran and Hadith Sharif in Arabic due to both the absence of a golden test dataset on the Hadith Sharif and the small size and easy questions of the newly created golden test dataset on the Holy Quran. This article presents two question–answer datasets: Hadith Question-Answer pairs (HAQA) and Quran Question–Answer pairs (QUQA)."
 LLM_assessed: "NA"
-DATA_URL: "NA"
+DATA_URL: "http://github.com/scsaln/HAQA-and-QUQA"
 CONFERENCE: "ACL 2023"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -66,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "Not specified"
@@ -102,7 +105,7 @@ QUQA: 3,369 records (2,189 unique questions, 301K+ tokens); HAQA: Hadith QA corp
 
 ## Data Description
 
-The paper constructs two Arabic question-answering datasets for Islamic texts: HAQA (Hadith Question-Answer pairs, 1,598 QA pairs) and QUQA (Quran Question-Answer pairs, 3,382 QA pairs). HAQA is the first Arabic Hadith QA dataset. The datasets are designed as gold-standard benchmarks for evaluating question-answering systems on Islamic religious texts. No models are tested in this paper.
+QUQA (3,382 Quran question-answer pairs covering 47% of Quranic verses) and HAQA (1,598 Hadith question-answer pairs), the first publicly available Arabic Hadith QA corpus and the most extensive Quran QA collection, intended as gold-standard evaluation resources for Islamic QA systems.
 
 
 ## Notes

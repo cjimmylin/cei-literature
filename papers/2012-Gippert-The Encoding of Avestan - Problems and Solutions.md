@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +47,17 @@ CONF-CC: "Journal for Language Technology and Computational Linguistics (JLCL) 2
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Zoroastrian, Avestan"
+national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: "Avestan"
-religious_values: Zoroastrian
-religious_values_list: "Zoroastrian"
+religious_values: "Zoroastrianism"
+religious_values_list: "Zoroastrianism"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Addresses the challenges of digital encoding of the Avestan script used for Zoroastrian sacred texts. Discusses the TITUS database as one of the first electronic corpus-building efforts for Avestan, and the problems of character encoding, right-to-left script processing, and Unicode representation for computational processing of Avestan texts."
 CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "Yes"
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,7 @@ Addresses the challenges of digital encoding of the Avestan script used for Zoro
 
 ## Data Description
 
-This paper discusses the TITUS database as one of the first electronic corpus-building efforts for the Avestan script used in Zoroastrian sacred texts. It addresses character encoding, right-to-left script processing, and Unicode representation challenges for computational processing of Avestan texts.
+Discusses the TITUS database as an early electronic corpus for Avestan texts, focusing on character encoding and Unicode challenges for the Avestan script.
 
 
 ## Notes

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ key_contribution: "Transparent CoT framework evaluating moral alignment in 20 LL
 significance: "Reveals 21-point Western vs non-Western alignment gap; Claude-3-Opus achieves r=0.890 survey correlation"
 abstract: "We present EvalMORAAL1, a transparent chain-of-thought (CoT) framework that uses two scoring methods (log-probabilities and direct ratings) plus a model-as-judge peer review to evaluate moral alignment in 20 large language models. We assess models on the World Values Survey (55 countries, 19 topics) and the PEW Global Attitudes Survey (39 countries, 8 topics). With EvalMORAAL, top models align closely with survey responses (Pearson’s 𝑟≈0.90 on WVS)."
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Claude, PaLM-2, Llama-3, Qwen, Mistral, DeepSeek, Phi"
+LLM_assessed: "Claude-3, Command-R, DeepSeek, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Gemini, Llama-3, Mistral, PaLM-2, Phi-3, Qwen-2"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

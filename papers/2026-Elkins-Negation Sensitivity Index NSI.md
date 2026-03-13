@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "When a user tells an AI system that someone should not take an action, the system ought to treat this as a prohibition. Yet many large language models do the opposite: they interpret negated instructions as affirmations. We audited 16 models across 14 ethical scenarios and found that open-source models endorse prohibited actions 77% of the time under simple negation and 100% under compound negation—a 317% increase over affirmative framing."
-LLM_assessed: "GPT-4, Claude, Grok, DeepSeek, Qwen, Llama, Gemma, Phi"
+LLM_assessed: "Claude, DeepSeek, Gemma, GPT-4o, Grok, Llama-3, Phi-3, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

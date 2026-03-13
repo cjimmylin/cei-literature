@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,9 +47,9 @@ CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Mongolian, Tibetan, Uyghur, Kazakh, Kyrgyz"
-languages_list: "Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
+languages_list: "Kazakh, Kyrgyz, Mongolian, Tibetan, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -95,7 +98,7 @@ Based on my search results, here's what I found regarding datasets for Uyghur, M
 
 ## Data Description
 
-This paper presents a dataset of Mongolian, Tibetan, and Uyghur speech fragments based on voice activity detection. The dataset is part of broader efforts in the M2ASR project to construct speech and text resources for minority languages in China. No LLMs are tested; it is a speech dataset resource for low-resource language processing.
+A speech fragment dataset for Mongolian, Tibetan, and Uyghur languages, part of efforts to build speech and text resources for low-resource minority languages in northwest China.
 
 
 ## Notes

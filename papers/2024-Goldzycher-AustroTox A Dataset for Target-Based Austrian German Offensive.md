@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +48,13 @@ pdf_extract: "PDF Extracts/2024/2024-Goldzycher-AustroTox A Dataset for Target-B
 local_pdf: "[[PDFs/2024/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
-cultures_nationalities_list: "Austrian"
-languages_list: "German (Austrian)"
+cultures_nationalities_list: "German"
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, GPT-4, mGPT, German BERT variants"
+LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/rafaelgoldzy/AustroTox"
 tags: 
 abstract: "Model interpretability in toxicity detection greatly profits from token-level annotations. However, currently such annotations are only available in English. We introduce a dataset annotated for offensive language detection sourced from a news forum, notable for its incorporation of the Austrian German dialect, comprising 4,562 user comments. In addition to binary offensiveness classification, we identify spans within each comment constituting vulgar language or representing targets of..."
@@ -60,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
@@ -99,7 +104,7 @@ This paper introduces AustroTox, the first offensive language detection dataset 
 
 ## Data Description
 
-AustroTox dataset of 4,562 Austrian German Reddit comments annotated for offensive language with target-based taxonomy (individual, group, other, none). First offensive language dataset specifically for Austrian German dialect, comparing LLM performance vs. fine-tuned approaches.
+4,562 Austrian German user comments annotated for offensive language detection with token-level spans for vulgarities and offensive targets.
 
 
 ## Detailed Summary

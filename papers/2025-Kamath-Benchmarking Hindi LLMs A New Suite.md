@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Evaluating instruction-tuned Large Language Models (LLMs) in Hindi is challenging due to a lack of high-quality benchmarks, as direct translation of English datasets fails to capture crucial linguistic and cultural nuances. To address this, we introduce a suite of five Hindi LLM evaluation datasets: IFEval-Hi, MT-BenchHi, GSM8K-Hi, ChatRAG-Hi, and BFCL-Hi. These were created using a methodology that combines from-scratch human annotation with a translate-and-verify process."
-LLM_assessed: "GPT-4o, Gemma, Gemma-2, Gemma-3, GPT-4, Llama, Llama-3.1, Qwen"
+LLM_assessed: "GPT-4o, Gemma, Gemma-2, Llama-3, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/nvidia/BFCL-Hi"
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
@@ -98,7 +102,8 @@ Suite of five Hindi LLM evaluation datasets created with translate-and-verify me
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4o, Gemma, Gemma-2, Gemma-3, GPT-4, Llama, Llama-3.1, Qwen. Verified dataset/resource link: https://huggingface.co/datasets/nvidia/BFCL-Hi.
+A suite of five Hindi LLM evaluation datasets (IFEval-Hi, MT-Bench-Hi, GSM8K-Hi, ChatRAG-Hi, BFCL-Hi) totaling ~10,566 samples, created via translate-and-verify plus human annotation methodology for instruction-following, conversational, math, RAG, and function-calling tasks in Hindi.
+
 
 ## Notes
 

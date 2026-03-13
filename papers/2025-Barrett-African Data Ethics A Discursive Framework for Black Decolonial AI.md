@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,10 +47,10 @@ local_pdf: "[[PDFs/2025/2025-Barrett-African Data Ethics A Discursive Framework 
 pdf_extract: "PDF Extracts/2025/2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Sub-Saharan African, Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Ubuntu Philosophy"
+religious_values_list: "Ubuntu Philosophy"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"

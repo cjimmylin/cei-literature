@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +49,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md"
 local_pdf: "[[PDFs/2025/2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: "Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur"
+languages_list: "Kyrgyz, Mongolian, Tibetan, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama2, Qwen2, Qwen2.5, Llama"
-DATA_URL: "NA"
+LLM_assessed: "LLaMA, Qwen-2"
+DATA_URL: "https://github.com/CMLI-NLP/HuffmanTranslit"
 tags: 
 abstract: "As large language models (LLMs) are trained on increasingly diverse and extensive multilingual corpora, they demonstrate cross-lingual transfer capabilities. However, these capabilities often fail to eﬀectively extend to low-resource languages, particularly those utilizing nonLatin scripts. While transliterating low-resource languages into Latin script presents a natural solution, there currently lacks a comprehensive framework for integrating transliteration into LLMs training and deployment."
 CONFERENCE: "Preprint"
@@ -62,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
@@ -96,7 +101,8 @@ As large language models (LLMs) are trained on increasingly diverse and extensiv
 
 ## Data Description
 
-Backfill summary: Models assessed include Llama2, Qwen2, Qwen2.5, Llama. No high-confidence repository-style data URL was identified.
+Introduces a Huffman coding-based reversible transliteration framework for low-resource languages (Tibetan, Mongolian, Uyghur) and releases training corpora and code for the end-to-end transliteration and cross-lingual transfer pipeline.
+
 
 ## Notes
 

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,12 +53,12 @@ local_pdf: "[[PDFs/2025/2025-Nath-Few-shot and zero-shot Assamese hate speech de
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
-languages_list: Assamese
+languages_list: "Assamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Mistral- 7B, Mistral-7B"
+LLM_assessed: "BERT, GPT-3.5, GPT-4, Mistral"
 DATA_URL: "NA"
 tags: 
 abstract: "Hate speech detection remains a critical challenge for natural language processing (NLP), particularly in low-resource languages such as Assamese. Although supervised models have shown promise, their performance is often constrained by the scarcity of annotated data and complex linguistic phenomena, such as code-mixing. In this study, we systematically benchmark large language models (LLMs), including GPT-4, GPT-3."
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -101,7 +105,8 @@ Benchmarks GPT-4, GPT-3.5, Mistral-7B alongside IndicBERT and mBERT for Assamese
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Mistral- 7B, Mistral-7B. No high-confidence repository-style data URL was identified.
+An extended Assamese hate speech dataset augmenting an existing Kaggle corpus with code-mixed and Romanized examples, used for systematic few-shot and zero-shot LLM benchmarking. No standalone public release URL identified in the paper.
+
 
 ## Notes
 

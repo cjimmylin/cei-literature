@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,11 +56,11 @@ newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Introduced OpenDeception, a framework and dataset for evaluating deceptive behaviors in LLM agents through open-ended multi-turn simulations."
 significance: "Revealed that mainstream LLMs have a high propensity for deception (>80% intention) when incentivized to achieve a goal, even without explicit instructions to lie."
 tags: 
-pdf_extract: "PDF Extracts/0000/2025-Wu-OpenDeception.md"
+pdf_extract: "PDF Extracts/2025/2025-Wu-OpenDeception.md"
 abstract: "As the general capabilities of large language models (LLMs) improve and agent applications become more widespread, the underlying deception risks urgently require systematic evaluation and effective oversight. Unlike existing evaluation which uses simulated games or presents limited choices, we introduce OpenDecep- tion, a novel deception evaluation framework with an open-ended scenario dataset. OpenDeception jointly evaluates both the deception intention and capabilities of LLM-based agents by"
 paper_summary: "Abstract: As the general capabilities of large language models (LLMs) improve and agent applications become more widespread, the underlying deception risks urgently require systematic evaluation and effective o | Overview: OpenDeception: Benchmarking and Investigating AI Deceptive Behaviors via Open-ended Simulation Yichen Wu1, Xudong Pan1,2, Geng Hong1, Min Yang1 1Fudan University, 2Shanghai Innovation Institute (SII)  | Methodology: In this study, we use AI agents to simulate user-AI interactions, generating diverse conversational scenarios by varying roles and objectives. By anal | Key Findings: which uses simulated games or presents limited choices, we introduce OpenDecep- tion, a novel deception evaluation framework with an open-ended scenar"
 local_pdf: "[[PDFs/2025/2025-Wu-OpenDeception.pdf]]"
-LLM_assessed: "GPT-4o, GPT-3.5, Llama-3, Qwen"
+LLM_assessed: "GPT-3.5, GPT-4o, Llama-3, Qwen, Qwen-2, DeepSeek"
 DATA_URL: "https://anonymous.4open.science/r/OpenDeception-C187/"
 DATE_ADDED: 20260207
 research_topic: "Other"
@@ -103,7 +107,7 @@ As the general capabilities of large language models (LLMs) improve and agent ap
 
 ## Data Description
 
-OpenDeception is an AI deception evaluation benchmark comprising 50 real-world-inspired open-ended scenarios across five deception types (telecommunications fraud, product promotion, personal safety, emotional deception, privacy stealing). Each type contains 10 concrete scenarios with defined AI deceiver and user roles. The benchmark evaluates 11 LLMs including GPT-4o, GPT-3.5-turbo, Llama-3.1-8B/70B-Instruct, Qwen2-7B/72B-Instruct, and Qwen2.5-3B/7B/14B/32B/72B-Instruct through agent-based multi-turn dialogue simulations.
+OpenDeception framework includes a manually constructed seed benchmark of 50 real-world deception scenarios, a supervised fine-tuning dataset (St) with 27k+ samples, and a contrastive learning dataset (Cu) with 61k+ samples for training deception intention and user trust models.
 
 
 ## Notes

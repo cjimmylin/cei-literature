@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +44,7 @@ doi: 10.4102/ve.v45i1.3100
 url: "http://www.ve.org.za/index.php/VE/article/view/3100"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KM62LRJY/Mokoena - 2024 - A holistic ubuntu artificial intelligence ethics approach in South Africa.pdf"
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
 religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"

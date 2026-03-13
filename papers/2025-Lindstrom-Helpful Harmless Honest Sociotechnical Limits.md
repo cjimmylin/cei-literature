@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ tags:
 abstract: "This paper critically evaluates the attempts to align Artificial Intelligence (AI) systems, especially Large Language Models (LLMs), with human values and intentions through Reinforcement Learning from Feedback methods, involving either human feedback (RLHF) or AI feedback (RLAIF). Specifically, we show the shortcomings of the broadly pursued alignment goals of honesty, harmlessness, and helpfulness."
 DATE_ADDED: 20260208
 research_topic: "AI Safety & Alignment"
-LLM_assessed: "ChatGPT, Claude, Llama"
+LLM_assessed: NA
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.md"
 local_pdf: "[[PDFs/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.pdf]]"

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,15 +52,15 @@ CONF-CC: "IJCAI 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
+languages_list: "Chinese, Classical Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Classical Chinese, as the core carrier of Chinese culture, plays a crucial role in the inheritance and study of ancient literature. However, existing natural language processing models primarily optimize for Modern Chinese, resulting in inadequate performance on Classical Chinese. This paper presents a comprehensive solution for Classical Chinese language processing. By continuing pre-training and instruction fine-tuning on the LLaMA38B-Chinese model, we construct a large language model,..."
-LLM_assessed: "BERT, Baichuan2, DeepSeek-AI, DeepSeek, Deepseek-V3, GPT-4, GPT-4o, Llama, LLaMA3, Llama-3, Qwen1.5, Qwen2, Qwen2.5"
-DATA_URL: "Training data, instruction fine-tuning data, and WenyanBENCH publicly available"
+LLM_assessed: "GPT-4o, DeepSeek, Llama-3, Qwen, Qwen-2, Baichuan, BERT"
+DATA_URL: "https://github.com/Wenyanmuc/WenyanBENCH"
 CONFERENCE: "IJCAI 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,8 @@ WenyanBENCH: 6 tasks (punctuation with 14 mark types, POS tagging with 17 catego
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Baichuan2, DeepSeek-AI, DeepSeek, Deepseek-V3, GPT-4, GPT-4o, Llama, LLaMA3, Llama-3, Qwen1.5, Qwen2, Qwen2.5. Verified dataset/resource link: Training data, instruction fine-tuning data, and WenyanBENCH publicly available.
+WenyanBENCH is an evaluation benchmark dataset for 6 classical Chinese NLP tasks; the paper also releases training data and instruction fine-tuning data for WenyanGPT (a LLaMA3-8B-Chinese-based model for classical Chinese).
+
 
 ## Notes
 

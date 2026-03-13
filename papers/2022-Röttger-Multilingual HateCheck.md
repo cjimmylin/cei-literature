@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +38,8 @@ last_author: "[[Bertie Vidgen]]"
 authors: "Paul Röttger; Haitham Seelawi; Debora Nozza; Zeerak Talat; Bertie Vidgen"
 url: "https://arxiv.org/abs/2206.09917"
 external_pdf: "https://arxiv.org/pdf/2206.09917.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, Dutch, English, French, German, Hindi, Italian, Polish, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -51,14 +55,14 @@ paper_summary: "Abstract: Hate speech detection models are typically evaluated o
 local_pdf: "[[PDFs/2022/2022-Röttger-Multilingual HateCheck.pdf]]"
 CONF-CC: "WOAH"
 DATE_ADDED: 20260208
-LLM_assessed: "XLM-T"
+LLM_assessed: NA
 DATA_URL: "https://github.com/rewire-online/multilingual-hatecheck"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
@@ -92,7 +96,7 @@ Hate speech detection models are typically evaluated on held-out test sets. Howe
 
 ## Data Description
 
-The paper introduces Multilingual HateCheck (MHC), a suite of functional tests for multilingual hate speech detection models covering 34 functionalities across 10 languages (Arabic, Dutch, French, German, Hindi, Italian, Mandarin, Polish, Portuguese, Spanish) with 36,582 hand-crafted test cases. An XLM-T model fine-tuned on Spanish, Italian, and Portuguese hate speech datasets is evaluated, along with Google's Perspective API for comparison.
+Multilingual HateCheck (MHC): a suite of 34 functional tests for multilingual hate speech detection models covering 10 languages, enabling targeted diagnostic evaluation beyond held-out test sets.
 
 
 ## Notes

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "Societal and personal values are transmitted to younger generations through interaction and exposure. Traditionally, children and adolescents learned values from parents, educators, or peers. Nowadays, social platforms serve as a significant channel through which youth (and adults) consume information, as the main medium of entertainment, and possibly the medium through which they learn different values."
-LLM_assessed: "Mistral, RoBERTa, DeBERTa"
+LLM_assessed: "RoBERTa, Mistral, ChatGPT"
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
@@ -101,7 +105,8 @@ First multimodal benchmark for human value understanding in video content
 
 ## Data Description
 
-The paper curates and annotates a dataset of 890 TikTok videos from 89 influencers targeting children and adolescents, annotated according to the Schwartz Theory of Personal Values (19 values) with 2,968 total labels. Models tested include RoBERTa-large, DeBERTaV2-xlarge (both with and without fine-tuning), Gemini 1.5 Pro (direct video and 2-step transcript-based approaches), and Mistral 7B, comparing masked language model and LLM-based value extraction pipelines.
+A curated dataset of hundreds of annotated TikTok videos from influencers targeting children and adolescents, labeled according to Schwartz Theory of Personal Values, enabling multimodal (video + transcript) value extraction research.
+
 
 ## Notes
 

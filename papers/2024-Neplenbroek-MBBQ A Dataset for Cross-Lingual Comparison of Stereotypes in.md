@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Spanish, Dutch"
-cultures_nationalities_list: "Dutch, English, Spanish, Turkish"
+national_ethnic_cultural: "Spanish, Dutch, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Spanish, Dutch, Multicultural/Cross-cultural"
 languages_list: "Dutch, English, Spanish, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, Llama-2, Mistral, Falcon, AYA, Zephyr, WizardLM"
+LLM_assessed: "Aya, Falcon, GPT-3.5, Llama-2, Mistral, WizardLM, Zephyr"
 DATA_URL: "https://github.com/Veranep/MBBQ"
 tags: 
 abstract: "Generative large language models (LLMs) have been shown to exhibit harmful biases and stereotypes. While safety fine-tuning typically takes place in English, if at all, these models are being used by speakers of many different languages. There is existing evidence that the performance of these models is inconsistent across languages and that they discriminate based on demographic factors of the user."
@@ -97,7 +101,7 @@ Hand-checked translation of English BBQ bias benchmark into Dutch, Spanish, and 
 
 ## Data Description
 
-MBBQ (Multilingual Bias Benchmark for Question-answering) is a hand-checked translation of the English BBQ bias benchmark into Dutch, Spanish, and Turkish, measuring stereotypes across 6 bias categories common to all four languages. It includes a parallel control dataset measuring task performance independently from bias. Seven LLMs are evaluated for cross-lingual bias behavior, finding that non-English languages suffer from more bias even when controlling for cultural shifts.
+MBBQ (Multilingual Bias Benchmark for Question-answering) is a hand-checked translation of the English BBQ bias benchmark into Dutch, Spanish, and Turkish, measuring cross-lingual stereotypes across 6 bias categories in 4 languages.
 
 
 ## Notes

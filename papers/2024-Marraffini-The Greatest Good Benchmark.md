@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +52,7 @@ tags:
 abstract: "The question of how to make decisions that maximise the well-being of all persons is very relevant to design language models that are beneficial to humanity and free from harm. We introduce the Greatest Good Benchmark (GGB), to evaluate LLMs moral judgments using utilitarian dilemmas. Our framework enables a direct comparison between the moral preferences of LLMs and humans, contributing to a deeper understanding of LLMs’ alignment with human moral values."
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, GPT-4, Falcon, Gemma, Gemini, Claude, Llama-3, Mistral, Mixtral"
+LLM_assessed: "ChatGPT, Claude-3 Haiku, Claude-3 Opus, Falcon, GPT-4, Gemini, Gemma, Llama-3, Mistral, Mixtral, Yi"
 DATA_URL: "https://github.com/noehsueh/greatest-good-benchmark"
 pdf_extract: "PDF Extracts/2024/2024-Marraffini-The Greatest Good Benchmark.md"
 local_pdf: "[[PDFs/2024/2024-Marraffini-The Greatest Good Benchmark.pdf]]"

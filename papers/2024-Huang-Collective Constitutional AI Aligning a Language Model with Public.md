@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +46,8 @@ local_pdf: "[[PDFs/2024/2024-Huang-Collective Constitutional AI Aligning a Langu
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"

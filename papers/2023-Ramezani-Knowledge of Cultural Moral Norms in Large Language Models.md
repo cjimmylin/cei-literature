@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +48,7 @@ local_pdf: "[[PDFs/2023/2023-Ramezani-Knowledge of Cultural Moral Norms in Large
 pdf_extract: "PDF Extracts/2023/2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "55 countries (WVS) and 40 countries (PEW) including African nations"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -95,7 +99,7 @@ Investigates whether monolingual English LLMs capture moral variation across 55 
 
 ## Data Description
 
-The paper investigates whether English pre-trained language models encode knowledge about moral norms across different cultures. Using World Values Survey data (55 countries) and PEW Global Attitudes survey (40 countries), the authors probe Sentence-BERT, GPT-2, and GPT-3 for cultural moral knowledge. The study finds that pre-trained models predict empirical moral norms across countries worse than English-only norms, but fine-tuning on survey data improves cross-cultural inference at the cost of English norm accuracy.
+Code and data for probing cultural moral norms in language models using World Values Survey and PEW survey data across 55 countries.
 
 
 ## Notes

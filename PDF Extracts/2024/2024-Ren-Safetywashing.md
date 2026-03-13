@@ -1,23 +1,4 @@
----
-title: "Safetywashing - PDF Extract"
-source_pdf: "2024-Ren-Safetywashing.pdf"
-pages: 43
-extracted_at: "2026-01-24T17:05:40.769742"
----
-
-# PDF Extract: Safetywashing
-
-**Source PDF:** 2024-Ren-Safetywashing.pdf
-**Total Pages:** 43
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Safetywashing: Do AI Safety Benchmarks
+---\ntitle: "2024-Ren-Safetywashing - PDF Extract"\nsource_pdf: "2024-Ren-Safetywashing.pdf"\npages: 43\nextracted_at: "2026-02-14T02:17:30.060979"\n---\n\n# PDF Extract: 2024-Ren-Safetywashing\n\n**Source PDF:** 2024-Ren-Safetywashing.pdf\n**Total Pages:** 43\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nSafetywashing: Do AI Safety Benchmarks
 Actually Measure Safety Progress?
 Richard Ren∗1,2, Steven Basart∗1, Adam Khoja1,3, Alice Gatti1,
 Long Phan1, Xuwang Yin1, Mantas Mazeika1, Alexander Pan3,
@@ -58,9 +39,7 @@ scrutinized and often admit counterarguments that are equally convincing. This r
 ∗Equal Contribution. Correspondence to renrich@seas.upenn.edu.
 arXiv:2407.21792v3  [cs.LG]  27 Dec 2024
 
---- Page 2 ---
-
-Calibration
+--- Page 2 ---\n\nCalibration
 
 
 
@@ -128,9 +107,7 @@ aim to enhance model safety beyond the standard development trajectory. Separate
 alignment philosophy’s intuitive arguments can mislead researchers, since it is highly disconnected
 2
 
---- Page 3 ---
-
-Safety Benchmark
+--- Page 3 ---\n\nSafety Benchmark
 Leaderboard
 Capabilities Benchmark
 Benchmark Score
@@ -191,9 +168,7 @@ vector PC1. The capabilities score for each model is given by projecting the mod
 scores onto PC1. Because PC1 of B represents the direction in the space of benchmark performances
 3
 
---- Page 4 ---
-
-Models
+--- Page 4 ---\n\nModels
 Benchmarks 
 Models
 Capabilities
@@ -274,9 +249,7 @@ across metrics. For example, proportion of successful attacks, which is often re
 were recalculated as proportion of failed attacks.
 4
 
---- Page 5 ---
-
-MedQA [48], ARC Challenge [49], MMLU [40], MATH [50], LAMBADA [51], GSM8K [42], and
+--- Page 5 ---\n\nMedQA [48], ARC Challenge [49], MMLU [40], MATH [50], LAMBADA [51], GSM8K [42], and
 BBH [52]. We used a diverse set of model classes and derivatives to avoid skewing results towards
 any particular model architecture, listing the 27 base models and 26 chat/instruct fine-tuned models
 used for our analysis in the Appendix. Running separate analyses for base and chat models, we
@@ -361,9 +334,7 @@ The rhythm of waves crashing...
 Figure 5: Alignment benchmarks assess AI systems’ ability to produce outputs that humans prefer.
 5
 
---- Page 6 ---
-
-Dubious Intuitive Arguments For and Against Researching “Alignment”
+--- Page 6 ---\n\nDubious Intuitive Arguments For and Against Researching “Alignment”
 In this section we will cover key intuitive arguments for and against alignment, and thereby
 show how intuitive arguments and their underlying distinctions can be a highly fragile and
 unreliable guide for determining a research area’s relation to upstream general capabilities
@@ -417,9 +388,7 @@ We preliminarily provide context for interpreting correlations. We note that the
 SAT and ACT math scores—tests designed to measure similar constructs—is 81.5% [62]. Similarly,
 6
 
---- Page 7 ---
-
-we observe a mean correlation of 67.5% (σ = 14.3%) between capabilities benchmarks for instruct-
+--- Page 7 ---\n\nwe observe a mean correlation of 67.5% (σ = 14.3%) between capabilities benchmarks for instruct-
 tuned language models. Consequently, if “safety benchmarks” have similarly high correlations, they
 are not highly empirically distinct from upstream general capabilities. We treat correlations below
 40% as a low correlation.
@@ -484,9 +453,7 @@ market demands [64]. That means AIs will have to balance between various human v
 (e.g., pleasure, autonomy, knowledge, friendship, constraints) and other goals.
 7
 
---- Page 8 ---
-
-Inputs
+--- Page 8 ---\n\nInputs
 Machine Ethics
 Benchmarks
 ETHICS
@@ -557,9 +524,7 @@ sure AI does not kill everyone, not a utopia. We can worry about creating benefi
 our survival is ensured.
 8
 
---- Page 9 ---
-
-Category
+--- Page 9 ---\n\nCategory
 Dataset
 Capabilities
 Correlation
@@ -621,9 +586,7 @@ Dubious Intuitive Arguments For and Against Researching “Bias”
 We should work on bias because:
 9
 
---- Page 10 ---
-
-1: Garbage In, Garbage Out. Models reflect the biases and statistical tendencies of their
+--- Page 10 ---\n\n1: Garbage In, Garbage Out. Models reflect the biases and statistical tendencies of their
 data, more tightly imitating those biases.
 2: Misuse. AI developers are not representative. They are not politically, racially, or
 socioeconomically diverse. Consequently if we do not study bias, their own biases and power
@@ -706,9 +669,7 @@ Figure 7: Bias benchmarks assess systems’ propensity to produce unfair or skew
 diverse groups.
 10
 
---- Page 11 ---
-
-developers should avoid using safety benchmarks with a high capabilities correlations in the first
+--- Page 11 ---\n\ndevelopers should avoid using safety benchmarks with a high capabilities correlations in the first
 place.
 We find that, generally, the bias benchmarks we evaluated are not prone to safetywashing.
 5
@@ -762,9 +723,7 @@ its ‘belief”’ [76]. To make AIs truthful, we will also need to make AIs ho
 is not just about increasing factual knowledge.
 11
 
---- Page 12 ---
-
-We should not work on truth-seeking AI because:
+--- Page 12 ---\n\nWe should not work on truth-seeking AI because:
 1: Truthfulness Is Generic Capabilities Research. Truthfulness is a synonym for accuracy,
 which is already the core metric of AI research and development. The concept of truthfulness
 is often entangled with accuracy, calibration, and honesty. Most benchmarks for truthfulness
@@ -838,9 +797,7 @@ experiments, which we hope can help devise ways for human experts to reliably ge
 information from AI systems that surpass human capabilities.”
 12
 
---- Page 13 ---
-
-2. QuALITY [82] is a dataset testing knowledge that requires full understanding of long context
+--- Page 13 ---\n\n2. QuALITY [82] is a dataset testing knowledge that requires full understanding of long context
 passages; the dataset has been used by the authors on scalable oversight experiments.
 Inputs
 Scalable Oversight
@@ -919,9 +876,7 @@ which leverage such datasets—tend to be repackaged approaches to general capab
 with a focus on obtaining better Q/A performance on math and question-answering tasks. Conceptual
 13
 
---- Page 14 ---
-
-ambiguity around “AI safety” can be exploited, intentionally or not, to present capability gains as
+--- Page 14 ---\n\nambiguity around “AI safety” can be exploited, intentionally or not, to present capability gains as
 safety advancements, ultimately muddling the discourse on AI safety and potentially misdirecting
 research efforts.
 Some argue that scalable oversight techniques could be applied to solve distinct safety-related issues.
@@ -989,9 +944,7 @@ a distinct phenomena. The accuracy correlation is low across vision (15.2%) and 
 models. However, comparing Brier scores across models seems to show a strong correlation with
 14
 
---- Page 15 ---
-
-20
+--- Page 15 ---\n\n20
 30
 40
 50
@@ -1086,9 +1039,7 @@ Datasets. We test six commonly used evaluations to measure adversarial robustnes
 models:
 15
 
---- Page 16 ---
-
-1. ANLI [88] is a large-scale natural language inference dataset created via an iterative, ad-
+--- Page 16 ---\n\n1. ANLI [88] is a large-scale natural language inference dataset created via an iterative, ad-
 versarial human-and-model-in-the-loop procedure focused on examples that could fool
 state-of-the-art models at the time of its creation (e.g. BERT-Large [89], RoBERTa [90]).
 2. AdvGLUE [91] uses questions from the General Language Understanding Evaluation
@@ -1157,9 +1108,7 @@ adversarial examples by adding small, carefully crafted perturbations to input i
 some attack budget (we use ε = 8/255).
 16
 
---- Page 17 ---
-
-Dubious Arguments For and Against Researching “Adversarial Robustness”
+--- Page 17 ---\n\nDubious Arguments For and Against Researching “Adversarial Robustness”
 In this section we will again raise many common distinctions and arguments for and against
 adversarial robustness and see that they are not particularly helpful for deciding whether
 adversarial robustness is a useful area of AI safety.
@@ -1212,9 +1161,7 @@ This serves as an illustration for how relying solely on verbal arguments to det
 field measures distinct properties or merely reflects capabilities can be misleading; our empirical
 17
 
---- Page 18 ---
-
-Adversarial Attacks
+--- Page 18 ---\n\nAdversarial Attacks
 Correlation
 Attack Type
 Attack Dataset
@@ -1325,9 +1272,7 @@ creation or use of chemical, biological, radiological, or nuclear weapons, as we
 critical infrastructure.
 18
 
---- Page 19 ---
-
-Inputs
+--- Page 19 ---\n\nInputs
 Labels (MC)
 What is a disseminating factor that, when expressed, might make a
 bacterium more harmful? 
@@ -1400,9 +1345,7 @@ Empirically measuring capabilities correlations is necessary. Benchmark scores c
 on many “safety” datasets, such as ETHICS [63], TruthfulQA [3], GPQA [81], QuALITY [82],
 19
 
---- Page 20 ---
-
-MT-Bench [53], LMSYS Chatbot ARENA [53], ANLI [88], AdvGLUE [91], and AdvGLUE++ [93],
+--- Page 20 ---\n\nMT-Bench [53], LMSYS Chatbot ARENA [53], ANLI [88], AdvGLUE [91], and AdvGLUE++ [93],
 simply by increasing the capabilities of the model or scaling pre-training compute. This raises
 questions about whether safety benchmarks are setting the right incentives or can be misused for
 safetywashing. In some cases, safety-related areas may act a jangle for capabilities; jangle fallacy is
@@ -1483,9 +1426,7 @@ related with capabilities. Given this context, how should the AI safety communit
 efforts to differentially improve model safety? We can derive some insight from the “Bitter Lesson”
 20
 
---- Page 21 ---
-
-[111], which observes that as compute becomes exponentially more available over time, AI research
+--- Page 21 ---\n\n[111], which observes that as compute becomes exponentially more available over time, AI research
 methodologies which optimize performance at a constant level of compute are subsumed by new
 paradigms that effectively leverage greater compute. Therefore, rather than fixating on the strengths
 and weaknesses of present-day models, effective safety research should anticipate and address the
@@ -1539,9 +1480,7 @@ alignment theory, which has heavily influenced AI safety priorities, is a counte
 for guiding ML safety research. Science through empirical measurement should take its place.
 21
 
---- Page 22 ---
-
-Acknowledgements
+--- Page 22 ---\n\nAcknowledgements
 We thank Owain Evans, Noa Nabeshima, and Arunim Agarwal for providing feedback on drafts of
 this paper, as well as Andriy Novykov for providing support for compute resources at the Center for
 AI Safety. Because this paper can also serve as an introduction to AI safety, we also sent a preview to
@@ -1588,9 +1527,7 @@ Lintang Sutawika, Eric Tang, Anish Thite, Ben Wang, Kevin Wang, and Andy Zou. A
 framework for few-shot language model evaluation. doi:10.5281/zenodo.10256836, 2023.
 22
 
---- Page 23 ---
-
-[10] Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga,
+--- Page 23 ---\n\n[10] Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga,
 Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, et al. Holistic evaluation of
 language models. arXiv preprint arXiv:2211.09110, 2023.
 [11] Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun, Hassan
@@ -1640,9 +1577,7 @@ scales. arXiv preprint arXiv:2212.09803, 2022.
 gence linearly. arXiv preprint arXiv:2404.09937, 2024.
 23
 
---- Page 24 ---
-
-[29] Kaiming He, Ross Girshick, and Piotr Dollar. Rethinking imagenet pre-training. In ICCV,
+--- Page 24 ---\n\n[29] Kaiming He, Ross Girshick, and Piotr Dollar. Rethinking imagenet pre-training. In ICCV,
 2019.
 [30] Priya Goyal, Mathilde Caron, Benjamin Lefaudeux, Min Xu, Pengchao Wang, Vivek Pai,
 Mannat Singh, Vitaliy Liptchinsky, Ishan Misra, Armand Joulin, and Piotr Bojanowski. Self-
@@ -1690,9 +1625,7 @@ machine really finish your sentence? In ACL, 2019.
 evaluation of commonsense causal reasoning. In AAAI Spring Symposium, 2011.
 24
 
---- Page 25 ---
-
-[48] Di Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, and Peter Szolovits. What
+--- Page 25 ---\n\n[48] Di Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, and Peter Szolovits. What
 disease does this patient have? a large-scale open domain question answering dataset from
 medical exams. Applied Sciences, 2021.
 [49] Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick,
@@ -1742,9 +1675,7 @@ measuring trade-offs between rewards and ethical behavior in the machiavelli ben
 ICML, 2023.
 25
 
---- Page 26 ---
-
-[65] Dan Hendrycks, Nicholas Carlini, John Schulman, and Jacob Steinhardt. Unsolved problems
+--- Page 26 ---\n\n[65] Dan Hendrycks, Nicholas Carlini, John Schulman, and Jacob Steinhardt. Unsolved problems
 in ml safety. arXiv preprint arXiv:2109.13916, 2022.
 [66] Phillip Rogaway. The moral character of cryptographic work. Cryptology ePrint Archive,
 2015.
@@ -1796,9 +1727,7 @@ Dirani, Julian Michael, and Samuel R. Bowman. Gpqa: A graduate-level google-proo
 benchmark. arXiv preprint arXiv:2311.12022, 2023.
 26
 
---- Page 27 ---
-
-[82] Richard Yuanzhe Pang, Alicia Parrish, Nitish Joshi, Nikita Nangia, Jason Phang, Angelica
+--- Page 27 ---\n\n[82] Richard Yuanzhe Pang, Alicia Parrish, Nitish Joshi, Nikita Nangia, Jason Phang, Angelica
 Chen, Vishakh Padmakumar, Johnny Ma, Jana Thompson, He He, and Samuel R. Bowman.
 Quality: Question answering with long input texts, yes! arXiv preprint arXiv:2112.08608,
 2022.
@@ -1847,9 +1776,7 @@ framework for automated red teaming and robust refusal. arXiv preprint arXiv:240
 2024.
 27
 
---- Page 28 ---
-
-[98] Anay Mehrotra, Manolis Zampetakis, Paul Kassianik, Blaine Nelson, Hyrum Anderson, Yaron
+--- Page 28 ---\n\n[98] Anay Mehrotra, Manolis Zampetakis, Paul Kassianik, Blaine Nelson, Hyrum Anderson, Yaron
 Singer, and Amin Karbasi. Tree of attacks: Jailbreaking black-box llms automatically. arXiv
 preprint arXiv:2312.02119, 2024.
 [99] Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, and Karthik
@@ -1896,9 +1823,7 @@ Malartic, et al. The falcon series of open language models. arXiv preprint arXiv
 2023.
 28
 
---- Page 29 ---
-
-[117] 01. AI, :, Alex Young, Bei Chen, Chao Li, Chengen Huang, Ge Zhang, Guanwei Zhang, Heng
+--- Page 29 ---\n\n[117] 01. AI, :, Alex Young, Bei Chen, Chao Li, Chengen Huang, Ge Zhang, Guanwei Zhang, Heng
 Li, Jiangcheng Zhu, Jianqun Chen, Jing Chang, Kaidong Yu, Peng Liu, Qiang Liu, Shawn
 Yue, Senbin Yang, Shiming Yang, Tao Yu, Wen Xie, Wenhao Huang, Xiaohui Hu, Xiaoyi
 Ren, Xinyao Niu, Pengcheng Nie, Yuchi Xu, Yudong Liu, Yue Wang, Yuxuan Cai, Zhenyu
@@ -1948,9 +1873,7 @@ models from natural language supervision. In ICML, 2021.
 enhofer, and Jitendra Malik. Reversible vision transformers. In CVPR, 2022.
 29
 
---- Page 30 ---
-
-[135] Junyi Li, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, and Ji-Rong Wen. Halueval: A
+--- Page 30 ---\n\n[135] Junyi Li, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, and Ji-Rong Wen. Halueval: A
 large-scale hallucination evaluation benchmark for large language models. arXiv preprint
 arXiv:2305.11747, 2023.
 [136] Simon Hughes and Minseok Bae. Vectara hallucination leaderboard, 2023.
@@ -1980,9 +1903,7 @@ Basel Alomair, Dan Hendrycks, and David Wagner. Can LLMs follow simple rules? ar
 preprint arXiv:2311.04235, 2024.
 30
 
---- Page 31 ---
-
-A
+--- Page 31 ---\n\nA
 Appendix
 A.1
 List of Models
@@ -2057,9 +1978,7 @@ The following is the list of vision models used in our calibration evaluations.
 8. ConvNeXt-Small [123]
 31
 
---- Page 32 ---
-
-9. ConvNeXt-Base [123]
+--- Page 32 ---\n\n9. ConvNeXt-Base [123]
 10. ConvNeXt-Large [123]
 11. ConvNeXtV2-Atto [124]
 12. ConvNeXtV2-Femto [124]
@@ -2157,9 +2076,7 @@ ImageNet1K
 54. ViT-small Patch16 ImageNet1K [132]
 32
 
---- Page 33 ---
-
-55. ViT-small Patch16 ImageNet1K+22K
+--- Page 33 ---\n\n55. ViT-small Patch16 ImageNet1K+22K
 [132]
 56. ViT-base Patch32 ImageNet1K+22K
 [132]
@@ -2242,9 +2159,7 @@ based adversarial robustness (PGD 8/255).
 [130]
 33
 
---- Page 34 ---
-
-A.2
+--- Page 34 ---\n\nA.2
 Capabilities Scores
 Separate runs for capabilities scores were conducted between base and chat language models. Table 9
 presents these scores, highlighting the performance differences across various capabilities benchmarks.
@@ -2365,9 +2280,7 @@ Qwen-1.5 0.5B
 −7.80
 34
 
---- Page 35 ---
-
-A.3
+--- Page 35 ---\n\nA.3
 Capabilities Evaluations: Correlation Matrices
 As an intermediate step in our implementation of PCA, we compute Spearman correlation matrices
 for both base and chat language models. We show these matrices in Figure 16 to show the correlation
@@ -2457,9 +2370,7 @@ Figure 16: Spearman correlation matrices across capabilities evaluations for bas
 models. Most capabilities evaluations are highly correlated with each other.
 35
 
---- Page 36 ---
-
-A.4
+--- Page 36 ---\n\nA.4
 Strict Instruction Following
 Area Overview. Strict instruction following evaluations benchmark how well AI models can strictly
 adhere to specific instructions or rules, which may ensure AI systems behave as intended and follow
@@ -2505,9 +2416,7 @@ ing. However, strict instruction following, when combined with red-team prompts 
 does not seem to be correlated with upstream model capabilities.
 36
 
---- Page 37 ---
-
-A.5
+--- Page 37 ---\n\nA.5
 Hallucinations and Misconceptions: Expanded
 Area overview. Factual reliability encompasses the ability of AI systems to generate and process
 accurate, truthful, and reliable content. This includes avoiding hallucinations, misconceptions, and
@@ -2567,9 +2476,7 @@ vious work which has observed that larger language
 models tend to exhibit reduced hallucinations [136].
 37
 
---- Page 38 ---
-
-A.6
+--- Page 38 ---\n\nA.6
 Capabilities Correlations for All Tested Evaluations
 This section presents a comprehensive overview of the capabilities correlations for both base and chat
 models across all tested evaluations. We used lm-eval-harness for implementing most evaluations.
@@ -2663,9 +2570,7 @@ QuALITY [82]
 88.8
 38
 
---- Page 39 ---
-
-A.6.3
+--- Page 39 ---\n\nA.6.3
 Machine Ethics
 Note that we obtained a subset of the SafetyBench questions directly from the authors, as the dataset
 was not publicly released.
@@ -2782,9 +2687,7 @@ Older than 60 - Age 60
 −30.2
 39
 
---- Page 40 ---
-
-A.6.5
+--- Page 40 ---\n\nA.6.5
 Misconceptions and Hallucinations
 Table 16: Capabilities correlations for misconceptions and hallucinations datasets.
 Evaluation
@@ -2914,9 +2817,7 @@ SST2
 35.6
 40
 
---- Page 41 ---
-
-Table 19: Base models’ capabilities correlations for GLUE [92], AdvGLUE [91], and AdvGLUE++
+--- Page 41 ---\n\nTable 19: Base models’ capabilities correlations for GLUE [92], AdvGLUE [91], and AdvGLUE++
 [93], reported as a percent. We find that neither AdvGLUE nor AdvGLUE significantly decorrelates
 performance on GLUE relative to the GLUE dataset.
 Evaluation
@@ -3059,9 +2960,7 @@ All
 −28.4
 41
 
---- Page 42 ---
-
-A.6.8
+--- Page 42 ---\n\nA.6.8
 Weaponization Capabilities
 Table 21: Capabilities correlations for weaponization capabilities datasets. The metric used for
 CybersecEval2 was vulnerability detection rate for Exploit, safe suggestion rate for Instruct, Safe
@@ -3130,9 +3029,7 @@ All
 26.5
 42
 
---- Page 43 ---
-
-A.7
+--- Page 43 ---\n\nA.7
 Closed Source Model Evaluations: GPT-4o Capabilities Score
 Qwen1.5-0.5B-Chat
 Qwen1.5-1.8B-Chat
@@ -3203,5 +3100,4 @@ GSM8K
 68.7
 Table 23: Evaluation of GPT-4o on different capabilities tasks.
 43
-
-```
+\n```\n

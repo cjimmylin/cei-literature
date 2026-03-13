@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +47,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Icelandic"
-languages_list: Icelandic
+cultures_nationalities_list: "N/A"
+languages_list: "Icelandic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -101,7 +104,7 @@ IcelandicEval provides a set of utilities for generating evaluation datasets to 
 
 ## Data Description
 
-IcelandicEval is a toolkit providing utilities for generating Icelandic LLM evaluation datasets, focusing on word inflection and grammatical correctness tasks. It includes noun phrase inflection across all four Icelandic grammatical cases in singular and plural forms. Rather than providing a fixed benchmark dataset, the project offers flexible tooling for researchers to generate Icelandic-specific evaluation data.
+Toolkit for generating Icelandic LLM evaluation datasets, focusing on noun phrase inflection across all four grammatical cases in singular and plural forms. Produces evaluation data for grammatical correctness assessment of Icelandic language models.
 
 
 ## Notes

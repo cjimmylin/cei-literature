@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ last_author: "[[Hao Liu]]"
 authors: Fan Liu; Yue Feng; Zhao Xu; Lixin Su; Xinyu Ma; Dawei Yin; Hao Liu
 url: "https://arxiv.org/abs/2410.12855"
 external_pdf: "https://arxiv.org/pdf/2410.12855.pdf"
-pdf_extract: "PDF Extracts/0000/2024-Liu-JAILJUDGE.md"
+pdf_extract: "PDF Extracts/2024/2024-Liu-JAILJUDGE.md"
 local_pdf: "[[PDFs/2024/2024-Liu-JAILJUDGE.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Although significant research efforts have been dedicated to enhancing the safety of large language models (LLMs) by understanding and defending against jailbreak attacks, evaluating the defense capabilities of LLMs against jailbreak attacks also attracts lots of attention. Current evaluation methods lack explainability and do not generalize well to complex scenarios, resulting in incomplete and inaccurate assessments (e.g."
-LLM_assessed: "GPT-4, GPT-3.5, Llama, Qwen, Mistral, Vicuna"
+LLM_assessed: "GPT-3.5, GPT-4, LLaMA, Mistral, Qwen, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/usail-hkust/JailJudge"
 research_topic: "Other"
 CONFERENCE: "Preprint"
@@ -101,7 +105,8 @@ Preprint JAILJUDGE Guard model is available at https://huggingface.co/ usail-hku
 
 ## Data Description
 
-JAILJUDGE is a comprehensive jailbreak judge benchmark comprising JAILJUDGETRAIN (35k+ instruction-tuning data with reasoning explainability) and JAILJUDGETEST (4.5k+ labeled complex scenarios and 6k+ multilingual scenarios in ten languages). The dataset covers 14 safety categories with six types of harmful prompts (vanilla, synthetic vanilla, synthetic adversarial, multilingual, in-the-wild, and deceptive) and responses from closed-source LLMs (GPT-4, GPT-3.5), open-source LLMs (Llama, Qwen, Mistral, Vicuna families), and defense-enhanced LLMs.
+JAILJUDGE: a comprehensive jailbreak judge benchmark with over 35k instruction-tuning training samples and a 10k+ human-annotated test set covering 14 safety hazard categories across complex, adversarial, in-the-wild, and 10-language multilingual scenarios. Also includes the JAILJUDGE Guard model and code at https://github.com/usail-hkust/Jailjudge.
+
 
 ## Notes
 

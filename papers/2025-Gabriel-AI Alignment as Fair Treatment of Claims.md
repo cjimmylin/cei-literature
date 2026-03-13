@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +59,7 @@ paper_summary:
 local_pdf: "[[PDFs/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "AI Alignment & Fairness"
-LLM_assessed: "Claude, GPT-4"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

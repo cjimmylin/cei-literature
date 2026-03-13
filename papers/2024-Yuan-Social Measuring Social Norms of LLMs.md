@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -98,7 +101,8 @@ We present a new challenge to examine whether large language models understand s
 
 ## Data Description
 
-The Social benchmark is a large-scale dataset for examining LLMs' understanding of fundamental social norms, consisting of 12,383 multi-choice questions across 402 skills spanning social studies and language arts, designed following the K-12 curriculum. Models tested include GPT3.5-Turbo, LLaMA2-Chat (70B, 13B, 7B variants), and UnifiedQA (T5-based), with a proposed multi-agent framework called SocialAgent that improves LLM performance to be on par with elementary student benchmarks.
+The Social benchmark dataset consists of 12,383 multi-choice questions covering 402 social norm skills across social studies and language arts, designed following the K-12 curriculum to evaluate LLMs' fundamental understanding of social norms.
+
 
 ## Notes
 

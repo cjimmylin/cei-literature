@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +47,7 @@ external_pdf: "http://arxiv.org/pdf/2503.07833.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Turkish"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ abstract: "Large Language Models (LLMs) are increasingly used in various context
 paper_summary: "Abstract: Large Language Models (LLMs) are in- creasingly used in various contexts, yet re- main prone to generating non-factual con- tent, commonly referred to as 'hallucina- tions'. The literature categorizes | Overview: HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations Samir Abdaljalil Texas A&M University College Station, TX., USA sabdaljalil@tamu.edu Hasan Kurban Hamad Bin Khalifa Uni | Key Findings: process, since the intended output is one of three labels, we set the temperature to 0 to ensure that it is deterministic. | Conclusions: In this paper, we present HalluVerse25, a fine- grained multilingual dataset for LLM-generated hallucinations, constructed by injecting halluci- nated"
 local_pdf: "[[PDFs/2025/2025-Abdaljalil-HalluVerse25.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Phi, Mistral, Qwen, Gemma, Llama-3, PaLM-2"
+LLM_assessed: "GPT-4, GPT-4o, GPT-4o mini, Gemini, Gemma-2, Llama-3, Mistral, Phi, Qwen-2"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -100,7 +104,7 @@ Large Language Models (LLMs) are increasingly used in various contexts, yet rema
 
 ## Data Description
 
-The paper introduces HalluVerse25, a fine-grained multilingual hallucination dataset spanning English (1,310 samples), Arabic (828), and Turkish (978), with entity, relation, and sentence-level hallucination annotations. Ten LLMs are evaluated on hallucination detection including GPT-4o, GPT-4o-mini, phi-4, Mistral-7b-instruct, Qwen-2.5 (7b and 72b), Gemini-flash-1.5-8b, Gemma-2-27b, Llama-3.3-70b, and PaLM 2.
+HalluVerse25 is a multilingual fine-grained LLM hallucination dataset covering English, Arabic, and Turkish, with 3,116 sentence pairs annotated for entity-level, relation-level, and sentence-level hallucinations, constructed via automated GPT-4 injection followed by human expert validation.
 
 
 ## Notes

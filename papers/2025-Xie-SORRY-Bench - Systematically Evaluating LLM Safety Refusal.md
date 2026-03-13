@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Evaluating aligned large language models’ (LLMs) ability to recognize and reject unsafe user requests is crucial for safe, policy-compliant deployments. Existing evaluation efforts, however, face three limitations that we address with SORRYBench, our proposed benchmark. First, existing methods often use coarse-grained taxonomies of unsafe topics, and are over-representing some fine-grained topics. For example, among the ten existing datasets that we evaluated, tests for refusals of self-harm..."
-LLM_assessed: "GPT-4o, GPT-3.5, Claude, Gemini, Llama-3, Llama-2, Mistral, Gemma, Qwen, BERT"
+LLM_assessed: "GPT-3.5, GPT-4o, Claude-2, Gemini, Gemma, Llama-2, Llama-3, Mistral, Qwen, Vicuna, BERT"
 DATA_URL: "https://sorry-bench.github.io"
 CONFERENCE: "ICLR 2025"
 ethics_overall: "Yes"
@@ -99,7 +103,8 @@ Evaluating aligned large language models’ (LLMs) ability to recognize and reje
 
 ## Data Description
 
-SORRY-Bench is a class-balanced LLM safety refusal evaluation dataset comprising 440 unsafe instructions across 44 fine-grained risk categories in four domains, supplemented with 8,800 additional instructions via 20 diverse linguistic mutations (writing styles, persuasion techniques, encoding/encryption, multi-languages). The benchmark includes over 7,000 human safety judgment annotations for meta-evaluation. Over 50 proprietary and open-weight LLMs were evaluated, including Claude-2, Gemini-1.5, GPT-4o, GPT-3.5-turbo, Llama-2/3 series, Mistral series, Qwen, and Gemma models.
+SORRY-Bench: A class-balanced LLM safety refusal evaluation dataset of 440 unsafe instructions across 44 fine-grained risk categories, augmented with 8,800 additional linguistically mutated variants (20 mutations × 440 base instructions), plus 7,040 human safety judgment annotations for evaluator training and meta-evaluation.
+
 
 ## Notes
 

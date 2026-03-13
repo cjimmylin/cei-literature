@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -100,7 +103,7 @@ Psychology research has long explored aspects of human personality such as extro
 
 ## Data Description
 
-The paper uses a standard 50-item Big Five personality assessment questionnaire adapted for language models, evaluating BERT-base and GPT2 on personality trait measurement and manipulation. The authors contribute two datasets: a crowd-sourced dataset of personality descriptions from human subjects paired with their Big Five assessment scores, and a dataset of personality descriptions collated from Reddit. Human population baseline data comes from a large-scale survey of approximately 1,015,000 individuals.
+Contributes a crowd-sourced dataset of personality descriptions paired with Big Five personality assessment data, and a dataset of personality descriptions collated from Reddit.
 
 
 ## Notes

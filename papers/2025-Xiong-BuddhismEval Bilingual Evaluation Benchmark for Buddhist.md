@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,14 +44,14 @@ authors: Nethmi Muthugala; Deyi Xiong
 authors_incomplete: false
 url: 
 external_pdf: "http://www.gbv.de/dms/bowker/toc/9780415749237.pdf"
-pdf_extract: "PDF Extracts/0000/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md"
+pdf_extract: "PDF Extracts/2025/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md"
 local_pdf: "[[PDFs/2025/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf]]"
 publication: "Submitted to NeurIPS 2025 (under review)"
 CONF-CC: "NeurIPS 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Sri Lankan, Sinhala"
-languages_list: "English, Sinhala"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "English, Pali, Sinhala"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"

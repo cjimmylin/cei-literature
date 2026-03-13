@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....md"
 local_pdf: "[[PDFs/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "English, Multilingual"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, Claude, DeepSeek, GPT-3, GPT-3.5, GPT-4o, Llama, claude3."
+LLM_assessed: "GPT-4o, Gemini"
 DATA_URL: "NA"
 tags: 
 abstract: "Recent advances in Large Language Models (LLMs) have enabled their application to recommender systems (RecLLMs), yet concerns remain regarding fairness across demographic and psychological user dimensions. We introduce FairEval, a novel evaluation framework to systematically assess fairness in LLM-based recommendations. Unlike prior benchmarks that focus solely on demographic attributes, FairEval uniquely integrates personality traits with eight sensitive demographic attributes, including..."

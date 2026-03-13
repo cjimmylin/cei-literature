@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +48,13 @@ pdf_extract: "PDF Extracts/2023/2023-Oslo-NorBench A Benchmark for Norwegian Lan
 local_pdf: "[[PDFs/2023/2023-Oslo-NorBench A Benchmark for Norwegian Language Models.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Norwegian"
-languages_list: Norwegian
+cultures_nationalities_list: "N/A"
+languages_list: "Norwegian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NorBERT3, NorT5, NB-BERT, ScandiBERT, mBERT, XLM-RoBERTa"
+LLM_assessed: NA
 DATA_URL: "https://github.com/ltgoslo/NorBench"
 tags: 
 abstract: "We present NorBench: a streamlined suite of NLP tasks and probes for evaluating Norwegian language models (LMs) on standardized data splits and evaluation metrics. We also introduce a range of new Norwegian language models (both encoder and encoder-decoder based). Finally, we compare and analyze their performance, along with other existing LMs, across the different benchmark tests of NorBench."
@@ -62,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -101,7 +106,7 @@ This paper introduces NorBench, a streamlined suite of NLP tasks and diagnostic 
 
 ## Data Description
 
-NorBench comprehensive benchmark for Norwegian language models, including 9 datasets covering sentiment analysis, named entity recognition, dependency parsing, and diagnostic tasks for gender bias and toxicity. Includes harmfulness scores using HONEST metric adapted for Norwegian.
+NorBench benchmark suite for Norwegian language models with standardized data splits and evaluation metrics across multiple NLP tasks, including diagnostic probes for gender bias and toxic language.
 
 
 ## Detailed Summary

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2023/2023-Huang-AceGPT Localizing Large Language Models in Ar
 pdf_extract: "PDF Extracts/2023/2023-Huang-AceGPT Localizing Large Language Models in Arabic.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Pan-Arab"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "AceGPT, Jais, GPT-3.5, GPT-4"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, BLOOM"
 DATA_URL: "https://github.com/FreedomIntelligence/AceGPT"
 tags: 
 abstract: "This paper is devoted to the development of a localized Large Language Model (LLM) specifically for Arabic, a language imbued with unique cultural characteristics inadequately addressed by current mainstream models. Significant concerns emerge when addressing cultural sensitivity and local values. To address this, the paper proposes a comprehensive solution that includes further pre-training with Arabic texts, Supervised Fine-Tuning (SFT) utilizing native Arabic instructions, and GPT-4..."
@@ -62,8 +66,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ Introduces AceGPT, an Arabic-localized LLM with RLAIF using reward model attuned
 
 ## Data Description
 
-The paper develops AceGPT, a localized Arabic LLM built on LLaMA-2, using Arabic pre-training, Arabic native instructions from Quora, GPT-4 generated Arabic responses, and RLAIF with a culturally-attuned reward model. It introduces the Arabic Cultural and Value Alignment (ACVA) benchmark for localization testing and evaluates on Arabic Vicuna-80, Arabic AlpacaEval, ALUE, Arabic MMLU, and EXAMs benchmarks.
+ACVA (Arabic Cultural and Value Alignment) benchmark: 8,000+ binary true/false statements across 50 Arabic cultural topics, plus localized Arabic instruction-tuning data and preference data for RLAIF.
 
 
 ## Notes

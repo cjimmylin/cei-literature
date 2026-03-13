@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +48,14 @@ pdf_extract: "PDF Extracts/2024/2024-Kathunia-Sentiment Analysis Across Language
 local_pdf: "[[PDFs/2024/2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian, Cross-cultural"
-languages_list: "English, Mongolian"
+cultures_nationalities_list: "Indian"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "https://huggingface.co/datasets/hungnm"
+LLM_assessed: "BERT, XLM-R"
+DATA_URL: "https://huggingface.co/datasets/hungnm/multilingual-amazon-review-sentiment-processed"
 tags: 
 abstract: "People communicate in more than 7,000 languages around the world, with around 780 languages spoken in India alone. Despite this linguistic diversity, research on Sentiment Analysis has predominantly focused on English text data, resulting in a disproportionate availability of sentiment resources for English. This paper examines the performance of transformer models in Sentiment Analysis tasks across multilingual datasets and text that has undergone machine translation."
 CONFERENCE: "Preprint"
@@ -63,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "7,000 languages; 780 languages"
 ---
@@ -96,7 +99,8 @@ People communicate in more than 7,000 languages around the world, with around 78
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://huggingface.co/datasets/hungnm.
+Uses the Multilingual Amazon Reviews Corpus with sentiment labels to evaluate BERT and XLM-RoBERTa performance on sentiment analysis across French, German, Spanish, Japanese, and Chinese before and after machine translation to English.
+
 
 ## Notes
 

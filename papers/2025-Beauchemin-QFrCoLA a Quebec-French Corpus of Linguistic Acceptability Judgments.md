@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +47,13 @@ pdf_extract: "PDF Extracts/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus o
 local_pdf: "[[PDFs/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French"
-cultures_nationalities_list: "Canadian, French"
-languages_list: "Quebecois French"
+cultures_nationalities_list: "French"
+languages_list: "French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, CamemBERT, XLM-RoBERTa, BLOOM-7B, BLOOMZ-7B, Mistral-7B, Llama-3.1-8B, Lucie"
+LLM_assessed: "BERT, BLOOM, LLaMA, Mistral, RoBERTa"
 DATA_URL: "https://github.com/GRAAL-Research/QFrCoLA"
 tags: 
 abstract: "Large language models (LLM) perform outstandingly in various downstream tasks. However, there is limited understanding regarding how these models internalize linguistic knowledge, so various linguistic benchmarks have recently been proposed to facilitate syntactic evaluation of language models (LM) across languages. This paper introduces QFrCoLA (Quebec-French Corpus of Linguistic Acceptability Judgments), a normative binary acceptability judgments dataset comprising 25,153 in-domain and 2,675..."
@@ -59,8 +63,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
@@ -99,7 +103,7 @@ This paper introduces QFrCoLA, the first normative binary acceptability judgment
 
 ## Data Description
 
-QFrCoLA is the first normative binary acceptability judgments corpus for Quebec French with 25,153 in-domain and 2,675 out-of-domain sentences from official linguistic sources. It is the second-largest linguistic acceptability corpus in any language and evaluates whether LLMs can distinguish grammatical from ungrammatical Quebec French sentences.
+QFrCoLA is a Quebec-French binary linguistic acceptability corpus of 25,153 in-domain and 2,675 out-of-domain sentences sourced from normative linguistic guidelines. It benchmarks eight language models and is released publicly for syntactic evaluation research.
 
 
 ## Detailed Summary

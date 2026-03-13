@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,14 +50,14 @@ local_pdf: "[[PDFs/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in 
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bengali"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT"
+LLM_assessed: "ChatGPT, Gemini"
 DATA_URL: "NA"
 tags: 
 abstract: "Explores religious dialect bias in Bengali focusing on Hindu and Muslim-majority dialects. Tests ChatGPT, Gemini, Microsoft Copilot on 20 religious dialect sentences. Finds slight bias towards Muslim dialects across all three models."
@@ -67,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -99,7 +102,8 @@ Explores religious dialect bias in Bengali focusing on Hindu and Muslim-majority
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT. No high-confidence repository-style data URL was identified.
+A manually constructed dataset of 20 Bengali sentences with religious dialect markers (Hindu/Muslim) used to audit ChatGPT 3.5, Gemini, and Microsoft Copilot for religious bias; not publicly released with a URL.
+
 
 ## Notes
 

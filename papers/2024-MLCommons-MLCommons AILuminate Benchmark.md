@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,8 +55,8 @@ research_topic: "Machine Learning"
 abstract: "The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. This paper introduces AILUMINATE v1.0, the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability. Its development employed an open process that included participants from multiple fields. The benchmark evaluates an AI system’s resistance to prompts designed to elicit dangerous, illegal, or undesirable behavior in 12 hazard categories,..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama, LlamaGuard, Mistral, Mistral Nemo, Mistral-7B, mistralai"
-DATA_URL: "https://github.com/mlcommons/ailuminate"
+LLM_assessed: "ChatGPT, Claude, Gemini, LLaMA, Mistral"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-MLCommons-MLCommons AILuminate Benchmark.md"
 local_pdf: "[[PDFs/2024/2024-MLCommons-MLCommons AILuminate Benchmark.pdf]]"
 CONFERENCE: "Unknown"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -155,7 +159,7 @@ The paper concludes that AILUMINATE represents a crucial step toward establishin
 
 ## Data Description
 
-AILUMINATE v1.0 is the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability, developed by MLCommons. It evaluates AI systems' resistance to prompts designed to elicit dangerous behavior across 12 hazard categories using practice and hidden prompt datasets with human-annotated ground truth. The benchmark employs an ensemble of fine-tuned LLM evaluators and a five-tier grading scale (Poor to Excellent), but the paper does not report evaluation results for specific named LLM models in the first 500 lines of the extract.
+AILuminate v1.0: the first comprehensive industry-standard AI safety benchmark covering 12 hazard categories (violent crimes, CSAM, indiscriminate weapons, hate, privacy, etc.), with hidden- and practice-prompt datasets and a five-tier grading scale. Initial results for select systems (Anthropic, Google, Meta, OpenAI, Mistral, OLMo) published separately at the project website.
 
 
 ## Notes

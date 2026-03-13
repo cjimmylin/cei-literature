@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,8 +46,8 @@ url: "http://arxiv.org/abs/2411.16508"
 external_pdf: "http://arxiv.org/pdf/2411.16508.pdf"
 publication: "Computer Vision and Pattern Recognition"
 CONF-CC: "CVPR 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ abstract: "Existing Large Multimodal Models (LMMs) generally focus on only a few
 paper_summary: "Abstract: Existing Large Multimodal Models (LMMs) generally fo- cus on only a few regions and languages. As LMMs con- tinue to improve, it is increasingly important to ensure they understand cultural contexts,  | Overview: All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages Ashmal Vayani1, 2 *, Dinura Dissanayake2, Hasindri Watawana2, Noor Ahsan2, Nevasini Sasikumar2, Omkar Thawakar2, Henok Biadgli | Key Findings: for decision-making questions (T/F and MCQs) using GPT- 4o as a judge, we also show consistent performance using LLaMA-3.8.1B-Instruct [13] in Tab. A. | Conclusions: In this paper, we introduce ALM-bench, a novel multilingual multimodal cultural benchmark for evaluation with over 22.7k humanly verified samples acro"
 local_pdf: "[[PDFs/2024/2024-Vayani-All Languages Matter.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Gemini, Qwen, Phi"
+LLM_assessed: "GLM, GPT-4o, Gemini, Phi, Qwen-2"
 DATA_URL: "https://mbzuai-oryx.github.io/ALM-Bench/"
 CONFERENCE: "CVPR 2024"
 ethics_overall: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "100 languages"
 ---
@@ -100,7 +104,7 @@ Existing Large Multimodal Models (LMMs) generally focus on only a few regions an
 
 ## Data Description
 
-ALM-bench is a culturally diverse multilingual and multimodal VQA benchmark covering 100 languages with 22,763 question-answer pairs. It spans 73 countries across five continents with 24 distinct scripts, and evaluates 19 generic and culture-specific domains including architecture, customs, heritage, literature, music, and sports. The benchmark includes multiple question formats: multiple choice, true/false, short and long visual question answers, curated with over 800 hours of native-language expert annotation.
+ALM-bench is a multilingual multimodal VQA benchmark covering 100 languages with 22,700 question-answer pairs across 19 cultural and generic domains, curated and verified by native-language experts. It evaluates 16 LMMs on cultural and linguistic diversity tasks.
 
 
 ## Notes

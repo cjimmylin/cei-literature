@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ pdf_extract: "PDF Extracts/2022/2022-Beyhan-A Turkish Hate Speech Dataset and De
 local_pdf: "[[PDFs/2022/2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
-languages_list: Turkish
+cultures_nationalities_list: "N/A"
+languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
-DATA_URL: "NA"
+DATA_URL: "https://github.com/verimsu/Turkish-HS-Dataset"
 tags: 
 abstract: "Social media posts containing hate speech are reproduced and redistributed at an accelerated pace, reaching greater audiences at a higher speed. We present a machine learning system for automatic detection of hate speech in Turkish, along with a hate speech dataset consisting of tweets collected in two separate domains. We first adopted a definition for hate speech that is in line with our goals and amenable to easy annotation; then designed the annotation schema for annotating the collected..."
 authors_incomplete: false
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -97,7 +101,8 @@ Turkish hate speech dataset from two domains: Istanbul Convention withdrawal twe
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+Turkish hate speech dataset with 1,206 Istanbul Convention tweets and 1,278 Refugee-related tweets, annotated for hate speech with BERTurk baseline achieving 77% and 71% accuracy.
+
 
 ## Notes
 

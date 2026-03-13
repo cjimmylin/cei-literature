@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +47,7 @@ local_pdf: "[[PDFs/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making E
 publication: Unknown
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: "Japanese"
 religious_values: "N/A"
@@ -53,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Assessing the ethical biases of large language models (LLMs) is crucial for their clinical application. To evaluate the ethical behavior of LLMs in clinical settings, we introduce a text corpus that focuses on ethical dilemmas. The corpus comprises 50 scenarios of clinical cases, each consisting of a clinical situation and options that impose ethical dilemmas. Each option is scored based on four ethical principles, enabling the evaluation of the ethical decision-making capabilities of LLMs..."
-LLM_assessed: "GPT-4"
+LLM_assessed: "GPT-4o, Gemini"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"
@@ -100,7 +103,8 @@ Assessing the ethical biases of large language models (LLMs) is crucial for thei
 
 ## Data Description
 
-The authors introduce a scenario-based text corpus of 50 clinical cases structured as decision trees, each presenting ethical dilemmas scored on four biomedical ethics principles (Respect for Autonomy, Beneficence and Non-maleficence, Justice, Common Morality). GPT-4 (gpt-4o-2024-08-06) and Gemini (gemini-1.5-pro) are evaluated across baseline and ethics-focused instruction conditions, with ethical scores computed from moral rule violation rates in decision trajectories.
+A scenario-based corpus of 50 clinical ethics dilemmas structured as decision trees, each option annotated with scores across four biomedical ethics principles (RFA, BAN, JST, CM); no public repository URL provided.
+
 
 ## Notes
 

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +48,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Slovenian"
-languages_list: Slovenian
+cultures_nationalities_list: "N/A"
+languages_list: "Slovenian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -98,7 +101,7 @@ Hand-labeled Slovenian Twitter dataset: 50,000 training tweets and 10,000 evalua
 
 ## Data Description
 
-The IMSyPP-sl dataset is a hand-labeled Slovenian Twitter dataset containing 50,000 training tweets and 10,000 evaluation tweets, annotated for hate speech types (offensive/violent) and targets. It was created as part of the IMSyPP EU project for monitoring the spread of hate speech online. No LLMs were tested.
+IMSyPP-sl is a hand-labeled Slovenian Twitter dataset of 50,000 training tweets and 10,000 evaluation tweets annotated for hate speech types (offensive/violent) and targets, developed as part of the IMSyPP EU project.
 
 
 ## Notes

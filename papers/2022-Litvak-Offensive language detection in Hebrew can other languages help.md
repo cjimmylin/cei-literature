@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ pdf_extract: "PDF Extracts/2022/2022-Litvak-Offensive language detection in Hebr
 local_pdf: "[[PDFs/2022/2022-Litvak-Offensive language detection in Hebrew can other languages help.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew, Arabic"
+cultures_nationalities_list: "Arabic, Hebrew/Israeli"
 languages_list: "Arabic, English, Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Unfortunately, offensive language in social media is a common phenomenon nowadays. It harms many people and vulnerable groups. Therefore, automated detection of offensive language is in high demand and it is a serious challenge in multilingual domains. Various machine learning approaches combined with natural language techniques have been applied for this task lately. This paper contributes to this area in several aspects: (1) it introduces a new dataset of annotated Facebook comments in..."
 CONFERENCE: "ACL 2022"
@@ -97,7 +101,8 @@ Introduces a new dataset of annotated Facebook comments in Hebrew and conducts c
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+Annotated Hebrew Facebook comments dataset for offensive language detection with cross-lingual evaluation
+
 
 ## Notes
 

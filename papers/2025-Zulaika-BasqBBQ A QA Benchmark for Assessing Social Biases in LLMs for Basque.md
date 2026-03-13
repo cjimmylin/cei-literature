@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +48,13 @@ pdf_extract: "PDF Extracts/2025/2025-Zulaika-BasqBBQ A QA Benchmark for Assessin
 local_pdf: "[[PDFs/2025/2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Basque"
-languages_list: Basque
+cultures_nationalities_list: "N/A"
+languages_list: "Basque"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "multilingual and Basque-adapted LLMs"
+LLM_assessed: "LLaMA, Mistral"
 DATA_URL: "https://github.com/orai-nlp/BasqBBQ"
 tags: 
 abstract: "The rise of pre-trained language models has revolutionized natural language processing (NLP) tasks, but concerns about the propagation of social biases in these models remain, particularly in under-resourced languages like Basque. This paper introduces BasqBBQ, the first benchmark designed to assess social biases in Basque across eight domains, using a multiple-choice question-answering (QA) task. We evaluate various autoregressive large language models (LLMs), including multilingual and those..."
@@ -64,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ local_pdf: "[[PDFs/2025/2025-Narula-A comprehensive review on detection of hate 
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
-languages_list: "English, Multilingual"
+languages_list: "Hindi, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-3, GloVe, RoBERTa, Word2Vec, XLNet, distilBERT"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "The paper addresses the critical challenge of detecting and mitigating hate speech in Hindi across social media platforms, utilizing natural language processing (NLP) techniques. It underscores the complexities associated with the Hindi language, including the prevalence of code-switching, the existence of various dialects, and the inconsistent use of Romanized Hindi. These linguistic factors present significant challenges for developing automated systems capable of reliably identifying hate..."

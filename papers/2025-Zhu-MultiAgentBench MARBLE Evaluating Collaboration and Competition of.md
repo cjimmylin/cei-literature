@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable capabilities as autonomous agents; yet existing benchmarks either focus on singleagent tasks or are confined to narrow domains, failing to capture the dynamics of multi-agent coordination and competition. In this paper, we introduce MultiAgentBench, a comprehensive benchmark designed to evaluate LLMbased multi-agent systems across diverse, interactive scenarios."
-LLM_assessed: "GPT-4, GPT-3.5, Llama-3"
+LLM_assessed: "GPT-3.5, GPT-4o, GPT-4o mini, Llama-3"
 DATA_URL: "https://github.com/MultiagentBench/MARBLE"
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
@@ -98,7 +103,8 @@ Diverse multi-agent interactive scenarios spanning collaborative coding to gamin
 
 ## Data Description
 
-MultiAgentBench is a comprehensive benchmark for evaluating LLM-based multi-agent systems across six diverse interactive scenarios: research collaboration, Minecraft building, database error analysis, coding challenges, bargaining, and Werewolf. The benchmark includes 100 test cases per task with variations in topics, structures, and objectives, measuring both task completion performance and coordination quality using milestone-based key performance indicators. It supports four coordination protocols (star, chain, tree, graph) and multiple reasoning strategies.
+MultiAgentBench (MARBLE) is a comprehensive benchmark and dataset suite evaluating LLM-based multi-agent systems across six diverse interactive scenarios (research, Minecraft, Werewolf, etc.), with milestone-based KPI metrics for coordination and competition quality.
+
 
 ## Notes
 

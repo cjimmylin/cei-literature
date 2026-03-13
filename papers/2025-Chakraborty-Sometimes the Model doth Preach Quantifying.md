@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are capable of generating opinions and propagating bias unknowingly, originating from unrepresentative and non-diverse data collection. Prior research has analysed these opinions with respect to the West, particularly the United States. However, insights thus produced may not be generalized in non-Western populations. With the widespread usage of LLM systems by users across several different walks of life, the cultural sensitivity of each generated output is of..."
-LLM_assessed: "ChatGPT, Claude1, GPT 3, GPT 3.5, Llama, Llama 3.1, Llama 3.2, Mistral"
+LLM_assessed: "Gemma-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/HariShankar08/LLMOpinions"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -101,7 +105,8 @@ Surveys from multiple Asian nations, focus on India
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, Claude1, GPT 3, GPT 3.5, Llama, Llama 3.1, Llama 3.2, Mistral. Verified dataset/resource link: https://github.com/HariShankar08/LLMOpinions.
+Code and results for profiling open LLMs using Pew Research Center surveys on religious tolerance in India and Asian nations.
+
 
 ## Notes
 

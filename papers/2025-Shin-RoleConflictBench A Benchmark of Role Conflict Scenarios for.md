@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -97,7 +101,8 @@ Humans often encounter role conflicts—social dilemmas where the expectations o
 
 ## Data Description
 
-RoleConflictBench is a story-based benchmark of over 13,914 role conflict scenarios spanning 65 social roles across five domains (Family, Occupation, Society, Interpersonal Relationship, Religion). Scenarios are generated through a three-stage pipeline that systematically varies role expectations and situational urgency levels (3x3 grid), producing first-person vignettes depicting social dilemmas with binary choice outcomes.
+RoleConflictBench is a dataset of 13,914 role conflict stories across 65 social roles, generated via a three-stage pipeline varying expectation and situational urgency levels. It is designed to evaluate LLMs' contextual sensitivity in ambiguous social dilemmas.
+
 
 ## Notes
 

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +56,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOMZ, Bloom, GPT-2"
-DATA_URL: "https://github.com/google-research-datasets/conceptual-12m"
+LLM_assessed: "BLOOM"
+DATA_URL: "https://github.com/IndoNLP/nusa-crowd"
 tags: 
 abstract: "We present NusaCrowd, a collaborative initiative to collect and unify existing resources for Indonesian languages, including opening access to previously non-public resources. Through this initiative, we have brought together 137 datasets and 118 standardized data loaders. The quality of the datasets has been assessed manually and automatically, and their value is demonstrated through multiple experiments."
 ethics_perspective: "General Ethics"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "137 datasets"
@@ -100,7 +104,8 @@ Collaborative initiative unifying 137 datasets and 118 standardized data loaders
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOMZ, Bloom, GPT-2. Verified dataset/resource link: https://github.com/google-research-datasets/conceptual-12m.
+NusaCrowd: collaborative hub unifying 137 datasets and 118 standardized data loaders for Indonesian languages, enabling first zero-shot NLU (NusaNLU), NLG (NusaNLG), and multilingual ASR (NusaASR) benchmarks.
+
 
 ## Notes
 

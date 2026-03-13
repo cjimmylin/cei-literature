@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "Somatechnics"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Examines how AI development takes place in a digital context informed by older colonial knowledges. Argues that digital and data colonialism are contemporary expressions of colonialism where extracting Indigenous land and Indigenous data are equivalent. Necessitates Indigenous-led responses centering Indigenous Data Sovereignty."
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"

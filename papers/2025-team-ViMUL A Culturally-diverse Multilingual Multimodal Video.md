@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-team-ViMUL A Culturally-diverse Multilingual Multim
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
-cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large multimodal models (LMMs) have recently gained attention due to their effectiveness to understand and generate descriptions of visual content. Most existing LMMs are in English language. While few recent works explore multilingual image LMMs, to the best of our knowledge, moving beyond the En- *Equal contribution glish language for cultural and linguistic inclusivity is yet to be investigated in the context of video LMMs."
-LLM_assessed: "ALBERT, ChatGPT, DeepSeek-R1, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, LLaMA 3, LLaMA-3.1, Llama, Mistral, Mistral-7B, Phi-4, Phi-4-14B, Qwen, Qwen 3, Qwen-3, llama., llama3, llama3."
-DATA_URL: "NA"
+LLM_assessed: "ChatGPT, GPT-4o, LLaMA, Llama-3, Mistral, Qwen"
+DATA_URL: "https://mbzuai-oryx.github.io/ViMUL/"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "14 languages; 15 categories"
 ---
@@ -99,7 +103,8 @@ Multilingual video LMM benchmark across 14 languages including Hindi and Urdu. 8
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, ChatGPT, DeepSeek-R1, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, LLaMA 3, LLaMA-3.1, Llama, Mistral, Mistral-7B, Phi-4, Phi-4-14B, Qwen, Qwen 3, Qwen-3, llama., llama3, llama3.. No high-confidence repository-style data URL was identified.
+ViMUL-Bench is an 8K-sample multilingual video LMM benchmark covering 14 languages and 15 domains with cultural evaluation categories, along with a 1.2M-sample multilingual video training set; all released publicly.
+
 
 ## Notes
 

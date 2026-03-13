@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,15 +50,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.md"
 local_pdf: "[[PDFs/2025/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
-languages_list: Multilingual
+languages_list: "English, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-4, GPT-4o, GPT-4o-mini, InternLM, InternLM-2, InternLM2, Llama, Llama-3, LLaMA-3.1, LLaMA3.1, Mistral-7B, Qwen, Qwen2.5, RoBERTa"
-DATA_URL: "https://huggingface.co/Qwen/Qwen2.5-7B"
+LLM_assessed: "BERT, RoBERTa, Mistral, Llama-3, InternLM, Qwen, GPT-4o"
+DATA_URL: NA
 tags: 
 abstract: "Hate speech detection across contemporary social media presents unique challenges due to linguistic diversity and the informal nature of online discourse. These challenges are further amplified in settings involving code-mixing, transliteration, and culturally nuanced expressions. While fine-tuned transformer models, such as BERT, have become standard for this task, we argue that recent large language models (LLMs) not only surpass them but also redefine the landscape of hate speech detection more broadly. To support this claim, we introduce IndoHateMix, a diverse, high-quality dataset capturing Hindi-English code-mixing and transliteration in the Indian context, providing a realistic benchmark to evaluate model robustness in complex multilingual scenarios where existing NLP methods often struggle. Our extensive experiments show that cutting-edge LLMs (such as LLaMA-3.1) consistently outperform task-specific BERT-based models, even when fine-tuned on significantly less data. With their superior generalization and adaptability, LLMs offer a transformative approach to mitigating online hate in diverse environments. This raises the question of whether future works should prioritize developing specialized models or focus on curating richer and more varied datasets to further enhance the effectiveness of LLMs."
 CONFERENCE: "Preprint"
@@ -98,7 +102,8 @@ Hate speech detection across contemporary social media presents unique challenge
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4, GPT-4o, GPT-4o-mini, InternLM, InternLM-2, InternLM2, Llama, Llama-3, LLaMA-3.1, LLaMA3.1, Mistral-7B, Qwen, Qwen2.5, RoBERTa. Verified dataset/resource link: https://huggingface.co/Qwen/Qwen2.5-7B.
+IndoHateMix is a new hate speech detection dataset of 11,725 Hindi-English code-mixed samples from the Koo microblogging platform, annotated by three expert annotators for hate speech in complex multilingual scenarios involving code-mixing and transliteration.
+
 
 ## Notes
 

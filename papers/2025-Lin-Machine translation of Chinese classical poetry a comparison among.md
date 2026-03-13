@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +55,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, GPT-3, GPT-3.5"
+LLM_assessed: "ChatGPT"
 DATA_URL: "https://osf.io/34cgd"
 tags: 
 abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."

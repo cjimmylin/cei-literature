@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ last_author: "[[Zhijing Jin]]"
 authors: Punya Syon Pandey; Hai Son Le; Devansh Bhardwaj; Rada Mihalcea; Zhijing Jin
 url: "https://arxiv.org/abs/2510.04891"
 external_pdf: "https://arxiv.org/pdf/2510.04891.pdf"
-pdf_extract: "PDF Extracts/0000/2025-Pandey-SocialHarmBench.md"
+pdf_extract: "PDF Extracts/2025/2025-Pandey-SocialHarmBench.md"
 local_pdf: "[[PDFs/2025/2025-Pandey-SocialHarmBench.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
@@ -53,8 +57,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in contexts where their failures can have direct sociopolitical consequences. Yet, existing safety benchmarks rarely test vulnerabilities in domains such as political manipulation, propaganda and disinformation generation, or surveillance and information control. We introduce SOCIALHARMBENCH, a dataset of 585 prompts spanning 7 sociopolitical categories and 34 countries, designed to surface where LLMs most acutely fail in politically..."
-LLM_assessed: "GPT-4, Claude, Gemini, Gemma, Llama-3, Mistral, Qwen, DeepSeek"
-DATA_URL: "https://huggingface.co/datasets/psyonp/SocialHarmBench, https://github.com/psyonp/SocialHarmBench"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Gemma, Llama-3, Mistral, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/psyonp/SocialHarmBench"
 research_topic: "Other"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -99,7 +103,8 @@ Large language models (LLMs) are increasingly deployed in contexts where their f
 
 ## Data Description
 
-SocialHarmBench is a benchmark dataset of 585 prompts spanning 7 sociopolitical harm categories (censorship, historical revisionism, human rights violations, political manipulation, propaganda, surveillance, war crimes) across 34 countries and multiple centuries. The dataset includes three functional prompt types (standard, opinion elicitation, historical reference) and is evaluated using HarmBench and StrongREJECT classifiers to measure attack success rates.
+SOCIALHARMBENCH is a dataset of 585 adversarial prompts spanning 7 sociopolitical categories and 34 countries, designed to evaluate LLM vulnerabilities in politically charged contexts including propaganda, surveillance, historical revisionism, war crimes, censorship, human rights violations, and political manipulation.
+
 
 ## Notes
 

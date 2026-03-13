@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Background: While Large Language Models (LLMs) have achieved widespread adoption, malicious prompt engineering—specifically 'jailbreak attacks'—poses severe security risks by inducing models to bypass internal safety mechanisms. Current benchmarks predominantly focus on public safety and Western cultural norms, leaving a critical gap in evaluating the niche, high-risk domain of medical ethics within the Chinese context."
-LLM_assessed: "GPT-4, GPT-4o, Claude, DeepSeek, Qwen"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"

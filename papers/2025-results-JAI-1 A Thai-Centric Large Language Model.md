@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +50,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"
-languages_list: Thai
+languages_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Gemma-3, Llama, Llama-3, Llama3.3, Phi-3, Phi-3-medium, Qwen-3, Qwen1.5, Qwen2, Qwen2.5, phi-3 47, phi-4 18"
+LLM_assessed: "Claude, GPT-3.5, GPT-4, GPT-4o, Llama-3, Phi-3, Qwen-1.5, Qwen-2"
 DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "This technical report introduces JAI-1, a Thai-centric language model with 75B parameters. Recent Thai models have primarily relied on existing open-source models, applying additional training without structural modifications to specialize in Thai. However, this approach risks eroding pre-existing knowledge in the model’s parameter space during the injection of Thai-specific information, as optimized parameters for general tasks may conflict with new linguistic requirements."

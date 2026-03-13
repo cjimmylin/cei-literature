@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +45,8 @@ url: "http://arxiv.org/abs/2406.10900"
 external_pdf: "http://arxiv.org/pdf/2406.10900.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2024"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +60,7 @@ abstract: "Large vision-language models (LVLMs) are prone to hallucinations, whe
 paper_summary: "Abstract: Large vision-language models (LVLMs) are prone to hallucinations, where certain contextual cues in an image can trigger the language module to produce overconfident and incorrect reasoning about abnor | Overview: AUTOHALLUSION: Automatic Generation of Hallucination Benchmarks for Vision-Language Models Xiyang Wu* Tianrui Guan* Dianqi Li Shuaiyi Huang Xiaoyu Liu Xijun Wang Ruiqi Xian Abhinav Shrivastava Furong  | Methodology: that employs several key strategies to create a diverse range of hallucination examples. Our generated visual-question pairs pose significant challeng | Key Findings: results for all metrics. For diversity, we sam- pled 200 hallucination examples from the synthetic dataset and 126 from the real-world dataset. The im | Conclusions: In this paper, we introduce AUTOHALLUSION, the first automatic benchmark generation approach to create diverse hallucination examples. Inspired by sch"
 local_pdf: "[[PDFs/2024/2024-Wu-AutoHallusion.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Gemini, Claude"
+LLM_assessed: "Claude-3, GPT-4, Gemini"
 DATA_URL: "https://github.com/wuxiyang1996/AutoHallusion"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
@@ -101,7 +105,7 @@ Large vision-language models (LVLMs) are prone to hallucinations, where certain 
 
 ## Data Description
 
-AutoHallusion is the first automated benchmark generation approach for evaluating hallucinations in large vision-language models. It uses three image manipulation strategies (abnormal object insertion, paired object insertion, and correlated object removal) to create visual-question pairs that trigger hallucinations, achieving 97.7% and 98.7% success rates on synthetic and real-world datasets respectively.
+AutoHallusion generates hallucination benchmark datasets for vision-language models via automated image manipulation strategies (abnormal object insertion, paired object insertion, correlated object removal); the curated benchmark dataset and generation codebase are released.
 
 
 ## Notes

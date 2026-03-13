@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +43,7 @@ url: "https://sociology.kaist.ac.kr/works/kome-korean-online-moral-emotion-a-kor
 external_pdf: "file:///Users/jimmylin/Zotero/storage/98WEUINE/Kim and others - 2023 - KOME A Korean Dataset of Fine-Grained Moral Emotions.pdf"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: ""
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -65,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---

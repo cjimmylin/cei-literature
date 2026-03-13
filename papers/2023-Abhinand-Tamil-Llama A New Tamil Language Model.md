@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Language modeling has witnessed remarkable advancements in recent years, with Large Language Models (LLMs) like ChatGPT setting unparalleled benchmarks in human-like text generation. However, a prevailing limitation is the underrepresentation of languages like Tamil in these cutting-edge models, leading to suboptimal performance in diverse linguistic contexts. This paper addresses this lacuna, enhancing the open-source LLaMA model with an addition of 16,000 Tamil tokens, aiming to achieve..."
-LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-4, Llama, LLAMA 2, LLaMA 1, LLaMA 3.1, LLaMA 1., LLaMA., Mistral, Mistral 7b, gpt-3.5-turbo"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://huggingface.co/abhinand/tamil-llama-7b-instruct-v0.2"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -95,7 +99,8 @@ New Tamil language model based on Llama 2. Includes Tamil-specific evaluation be
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-3, GPT-4, Llama, LLAMA 2, LLaMA 1, LLaMA 3.1, LLaMA 1., LLaMA., Mistral, Mistral 7b, gpt-3.5-turbo. Verified dataset/resource link: https://huggingface.co/abhinand/tamil-llama-7b-instruct-v0.2.
+Tamil-translated Alpaca dataset (52k instructions) and OpenOrca subset (93k instructions) for Tamil instruction fine-tuning, plus 120+ evaluation examples across QA, reasoning, translation, coding, and ethics.
+
 
 ## Notes
 

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +49,8 @@ publication: "arXiv / INFORMS Journal on Data Science"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
-languages_list: Hebrew
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
@@ -102,7 +105,8 @@ Hebrew BERT model with sentiment and emotion recognition tools. Dataset of ~2000
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/avichr/heBERT_sentiment_analysis.
+HeBERT Hebrew BERT model and HebEMO emotion/polarity detection tool, plus a COVID-19-related Hebrew user comments dataset annotated for polarity and 8 emotions (~2000 comments from Israeli news sites).
+
 
 ## Notes
 

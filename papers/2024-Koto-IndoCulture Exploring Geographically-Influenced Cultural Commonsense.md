@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: Indonesian
+languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BART, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-2, Llama-2 chat, Llama-3, gpt-3.5-turbo"
-DATA_URL: "NA"
+LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Llama-2, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/indolem/IndoCulture"
 tags: 
 abstract: "Although commonsense reasoning is greatly shaped by cultural and geographical factors, previous studies have predominantly centered on cultures grounded in the English language, potentially resulting in an Anglocentric bias. In this paper, we introduce IndoCulture, aimed at understanding the influence of geographical factors on language model reasoning ability, with a specific emphasis on the diverse cultures found within eleven Indonesian provinces."
 ethics_perspective: "Social & Cultural Values"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "2,429 questions"
 ---
@@ -102,7 +106,8 @@ Commonsense reasoning benchmark with 2,429 questions testing LLM understanding o
 
 ## Data Description
 
-Backfill summary: Models assessed include BART, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-2, Llama-2 chat, Llama-3, gpt-3.5-turbo. No high-confidence repository-style data URL was identified.
+IndoCulture: 2,429 culturally-grounded sentence-completion instances covering 11 Indonesian provinces and 12 fine-grained cultural topics, manually created by local residents to evaluate geographically-influenced commonsense reasoning.
+
 
 ## Notes
 

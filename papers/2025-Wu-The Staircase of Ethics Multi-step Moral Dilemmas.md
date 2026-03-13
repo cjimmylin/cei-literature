@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "Ethical decision-making is a critical aspect of human judgment, and the growing use of LLMs in decision-support systems necessitates a rigorous evaluation of their moral reasoning capabilities. However, existing assessments primarily rely on single-step evaluations, failing to capture how models adapt to evolving ethical challenges. Addressing this gap, we introduce the Multi-step Moral Dilemmas (MMDs), the first dataset specifically constructed to evaluate the evolving moral judgments of LLMs across 3,302 five-stage dilemmas. This framework enables a fine-grained, dynamic analysis of how LLMs adjust their moral reasoning across escalating dilemmas. Our evaluation of nine widely used LLMs reveals that their value preferences shift significantly as dilemmas progress, indicating that models recalibrate moral judgments based on scenario complexity. Furthermore, pairwise value comparisons demonstrate that while LLMs often prioritize the value of care, this value can sometimes be superseded by fairness in certain contexts, highlighting the dynamic and context-dependent nature of LLM ethical reasoning. Our findings call for a shift toward dynamic, context-aware evaluation paradigms, paving the way for more human-aligned and value-sensitive development of LLMs."
-LLM_assessed: "GPT-4o, DeepSeek, Llama-3, Gemini, Claude, Mistral, Qwen"
+LLM_assessed: "GPT-4o, DeepSeek, Llama-3, Mistral, Gemini, Claude"
 DATA_URL: "https://isir-wuya.github.io/Multi-step-Moral-Dilemmas/"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
@@ -63,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Multi-step Moral Dilemmas (MMDs) is a benchmark dataset of 3,302 five-stage moral dilemmas designed to evaluate the evolving moral judgments of LLMs across escalating ethical conflicts. Each scenario comprises five sequential steps with increasing moral complexity, and each step includes context, dilemma, and two mutually exclusive actions mapped to value dimensions from Moral Foundation Theory and Schwartz's Theory of Basic Values. Nine LLMs were evaluated including DeepSeek-V3, GPT-4o, LLaMA-3-70B, GLM-4 variants, Qwen-Plus, Mistral-Small-24B, Gemini-2.0-Flash, and Claude-3-5-Haiku.
+The Multi-step Moral Dilemmas (MMDs) dataset containing 3,302 five-stage moral dilemma scenarios, each with context, dilemma framing, two actions, and moral value annotations across MFT and Schwartz frameworks. Available at the project website.
+
 
 ## Notes
 

@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +51,7 @@ publication: "NeurIPS 2025 Datasets and Benchmarks Track / arXiv"
 CONF-CC: "NeurIPS 2025 D&B"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Islamic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"

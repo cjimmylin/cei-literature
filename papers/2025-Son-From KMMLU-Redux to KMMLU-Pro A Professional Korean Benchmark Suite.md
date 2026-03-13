@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude 3.7, Claude 3.7 Sonnet, DeepSeek, DeepSeek R1, DeepSeek-AI, DeepSeek-R1, GPT-4, GPT-4o, Grok 3, Grok-3, Llama, Llama-4, Qwen, Qwen 2.5, Qwen3, BERT"
-DATA_URL: "https://huggingface.co/datasets/LGAI-EXAONE"
+LLM_assessed: "Claude-3, DeepSeek, GPT-4o, GPT-o1, Qwen"
+DATA_URL: "https://huggingface.co/datasets/LGAI-EXAONE/KMMLU-Redux"
 tags: 
 abstract: "The development of Large Language Models (LLMs) requires robust benchmarks that encompass not only academic domains but also industrial fields to effectively evaluate their applicability in real-world scenarios. In this paper, we introduce two Korean expert-level benchmarks. KMMLU-REDUX, reconstructed from the existing KMMLU (Son et al., 2024a), consists of questions from the Korean National Technical Qualification exams, with critical errors removed to enhance reliability."
 CONFERENCE: "Preprint"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ KMMLU-Redux: reconstructed from Korean National Technical Qualification exams wi
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude 3.7, Claude 3.7 Sonnet, DeepSeek, DeepSeek R1, DeepSeek-AI, DeepSeek-R1, GPT-4, GPT-4o, Grok 3, Grok-3, Llama, Llama-4, Qwen, Qwen 2.5, Qwen3, BERT. Verified dataset/resource link: https://huggingface.co/datasets/LGAI-EXAONE.
+Two Korean expert-level benchmarks: KMMLU-Redux (2,587 problems from Korean National Technical Qualification exams, cleaned of errors and duplicates) and KMMLU-Pro (2,822 problems from 14 Korean National Professional Licensure exams), both publicly released on HuggingFace.
+
 
 ## Notes
 

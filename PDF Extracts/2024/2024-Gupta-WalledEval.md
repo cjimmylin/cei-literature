@@ -1,23 +1,4 @@
----
-title: "2024-Gupta-WalledEval - PDF Extract"
-source_pdf: "2024-Gupta-WalledEval.pdf"
-pages: 11
-extracted_at: "2026-02-07T17:00:45.468885"
----
-
-# PDF Extract: 2024-Gupta-WalledEval
-
-**Source PDF:** 2024-Gupta-WalledEval.pdf
-**Total Pages:** 11
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-WALLEDEVAL: A Comprehensive Safety Evaluation Toolkit for Large
+---\ntitle: "2024-Gupta-WalledEval - PDF Extract"\nsource_pdf: "2024-Gupta-WalledEval.pdf"\npages: 11\nextracted_at: "2026-02-14T02:17:29.475343"\n---\n\n# PDF Extract: 2024-Gupta-WalledEval\n\n**Source PDF:** 2024-Gupta-WalledEval.pdf\n**Total Pages:** 11\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nWALLEDEVAL: A Comprehensive Safety Evaluation Toolkit for Large
 Language Models
 Prannaya Gupta*, Le Qi Yau*, Hao Han Low*, I-Shiang Lee*,
 Hugo M. Lim*, Yu Xin Teoh*, Jia Hng Koh*, Dar Win Liew†,
@@ -121,9 +102,7 @@ art guardrails like LlamaGuard 3 and its previous
 1
 arXiv:2408.03837v3  [cs.CL]  19 Aug 2024
 
---- Page 2 ---
-
-Existing 
+--- Page 2 ---\n\nExisting 
 dataset
 AdvBench
 Exaggerated
@@ -241,9 +220,7 @@ combination allows three types of testing: LLM
 benchmarking (Dataset −→LLM −→Judge −→
 2
 
---- Page 3 ---
-
-Score), Judge benchmarking (Dataset −→Judge
+--- Page 3 ---\n\nScore), Judge benchmarking (Dataset −→Judge
 −→Score) and MCQ benchmarking (Dataset −→
 Template −→LLM −→Judge −→Score).
 Getting the dataset ready.
@@ -410,9 +387,7 @@ from walledeval.types import MultipleChoiceQuestion
 from walledeval.prompts import PromptTemplate
 3
 
---- Page 4 ---
-
-4
+--- Page 4 ---\n\n4
 from walledeval.llm import HF_LLM
 5
 from walledeval.judge import MCQJudge
@@ -613,9 +588,7 @@ harmful behavior datasets consisting of unsafe
 prompts, such as HarmBench (Mazeika et al.,
 4
 
---- Page 5 ---
-
-Harmful Behavior
+--- Page 5 ---\n\nHarmful Behavior
 Refusal Behavior
 LLM
 HarmBench
@@ -887,9 +860,7 @@ tests (primarily English), and multilingual safety
 tests (in eight languages).
 5
 
---- Page 6 ---
-
-LLM
+--- Page 6 ---\n\nLLM
 Arabic
 English
 Filipino
@@ -1154,9 +1125,7 @@ WALLEDGUARD, which have 0.3B and 0.5B pa-
 rameters, respectively. On average, we observe that
 6
 
---- Page 7 ---
-
-LLM
+--- Page 7 ---\n\nLLM
 English
 Arabic
 Filipino
@@ -1347,9 +1316,7 @@ WALLEDEVAL does not
 batch inputs to HF_LLM for faster inference. As
 7
 
---- Page 8 ---
-
-an immediate feature enhancement, we are work-
+--- Page 8 ---\n\nan immediate feature enhancement, we are work-
 ing towards adding support for batching to make
 evaluations with WALLEDEVAL much faster and
 more efficient.
@@ -1470,9 +1437,7 @@ Guillaume Lample, Lucile Saulnier, et al. 2023. Mis-
 tral 7b. arXiv preprint arXiv:2310.06825.
 8
 
---- Page 9 ---
-
-Quentin Lhoest, Albert Villanova del Moral, Yacine
+--- Page 9 ---\n\nQuentin Lhoest, Albert Villanova del Moral, Yacine
 Jernite, Abhishek Thakur, Patrick von Platen, Suraj
 Patil, Julien Chaumond, Mariama Drame, Julien Plu,
 Lewis Tunstall, Joe Davison, Mario Šaško, Gun-
@@ -1557,9 +1522,7 @@ ial attacks on aligned language models. Preprint,
 arXiv:2307.15043.
 9
 
---- Page 10 ---
-
-A
+--- Page 10 ---\n\nA
 Appendix
 A.1
 Dataset details
@@ -1619,9 +1582,7 @@ in enhancing LLM safety. In our final draft, we
 plan to incorporate a warning at the paper’s outset.
 10
 
---- Page 11 ---
-
-Dataset
+--- Page 11 ---\n\nDataset
 Prompt
 Safe/Unsafe
 Scoring
@@ -1701,5 +1662,4 @@ dataset= HuggingFaceDataset.from_hub(
                                               walledai/hfdata)
 Figure 2: WALLEDEVAL supports data loading from Python list, CSV, JSON, and HuggingFace datasets.
 11
-
-```
+\n```\n

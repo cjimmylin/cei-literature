@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +59,7 @@ paper_summary:
 local_pdf: "[[PDFs/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "AI Alignment & Normative Ethics"
-LLM_assessed: "Barto"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

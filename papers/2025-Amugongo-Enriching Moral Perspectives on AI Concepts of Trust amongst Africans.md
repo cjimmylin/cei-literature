@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +46,8 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Ghanaian, Kenyan, Nigerian, South African, Sub-Saharan African, Ubuntu"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"

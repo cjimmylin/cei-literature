@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,11 +49,11 @@ local_pdf: "[[PDFs/2024/2024-Keutzer-One Model is All You Need.pdf]]"
 publication: "Findings of EMNLP 2024"
 CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indian, Sanskrit"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Sanskrit"
-religious_values: "Hinduism"
-religious_values_list: "Hinduism"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
@@ -64,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -102,7 +105,8 @@ Multitask dataset covering word segmentation, dependency parsing, OCR post-corre
 
 ## Data Description
 
-Backfill summary: Models assessed include T5. Verified dataset/resource link: https://github.com/sebastian-nehrdich/byt5-sanskrit-analyzers ; https://huggingface.co/buddhist-nlp/byt5-sanskrit.
+ByT5-Sanskrit pretrained language model with a novel multitask dataset for Sanskrit word segmentation, lemmatization, and morphosyntactic tagging, achieving SOTA on word segmentation, Vedic dependency parsing, and OCR post-correction benchmarks.
+
 
 ## Notes
 

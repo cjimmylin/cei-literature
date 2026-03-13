@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Background: Existing evaluations of large language models (LLMs) largely emphasize linguistic and factual performance, while their psychometric characteristics and behavioral biases remain insufficiently examined, particularly beyond English-language contexts. This study presents a systematic psychometric screening of LLMs in German using the validated Big Five Inventory-2 (BFI-2). Methods: Thirty-two contemporary commercial and open-source LLMs completed all 60 BFI-2 items 60 times each (once..."
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Grok, Llama, Llama-3, Qwen, DeepSeek, Mistral"
+LLM_assessed: "Claude, Claude-2, Claude-3, DeepSeek, GPT-4, GPT-4o, Gemini, Gemma, Grok, Llama-3, Mistral, Qwen, Qwen-2"
 DATA_URL: "https://doi.org/10.5281/zenodo.18002092"
 CONFERENCE: "Journal"
 ethics_overall: "No"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "2 items"
 ---
@@ -99,7 +103,8 @@ Background: Existing evaluations of large language models (LLMs) largely emphasi
 
 ## Data Description
 
-The PSYCH study generates over 330,000 responses from 32 LLMs completing the German Big Five Inventory-2 (BFI-2) 60 times each under male and female impersonation conditions, with and without justification requirements. Models from 8 providers (Alibaba, Anthropic, DeepSeek, Google, OpenAI, xAI, Meta, Mistral) including GPT-4o/4.1/5-series, Claude-3.5/3.7/4-series, Gemini-2.0/2.5, Grok-3, Llama-3.3/4, Qwen-2.5/3, DeepSeek-R1/V3, and Mistral variants are evaluated against human reference data (N=770) using Welch's t-tests.
+PSYCH dataset: over 330,000 structured BFI-2 personality questionnaire responses from 32 LLMs (60 items × 60 repetitions × male/female impersonation × with/without justification), enabling psychometric comparison of LLM personality profiles against validated German human reference norms.
+
 
 ## Notes
 

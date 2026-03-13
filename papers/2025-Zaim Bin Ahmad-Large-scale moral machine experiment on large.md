@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +52,7 @@ significance: "Confirms the 'Scaling Law of Morality': bigger models get better 
 abstract: "The rapid advancement of Large Language Models (LLMs) and their potential integration into autonomous driving systems necessitates understanding their moral decisionmaking capabilities. While our previous study examined four prominent LLMs using the Moral Machine experimental framework, the dynamic landscape of LLM development demands a more comprehensive analysis. Here, we evaluate moral judgments across 52 different LLMs, including multiple versions of proprietary models (GPT, Claude, Gemini)..."
 CONF-CC: "PLOS ONE"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Gemini, Llama-2, Llama-3, Gemma, PaLM, PaLM-2, Vicuna, Mistral, Phi, o1"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, o1, Claude-3, Gemini, Gemma, Llama-3, Vicuna, Mistral, Command-R, Phi-3"
 DATA_URL: "https://github.com/kztakemoto/mmllm"
 pdf_extract: "PDF Extracts/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md"
 local_pdf: "[[PDFs/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.pdf]]"
@@ -58,7 +62,7 @@ ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
@@ -131,7 +135,7 @@ As LLMs become "moral agents" in systems like self-driving cars, size is a proxy
 
 ## Data Description
 
-This study evaluates moral judgments across 52 different LLMs using the Moral Machine experimental framework with autonomous driving scenarios involving unavoidable accidents. The dataset consists of up to 50,000 scenarios per model exploring nine ethical dimensions including species, social value, gender, age, fitness, utilitarianism, interventionism, relationship to the autonomous vehicle, and legal considerations, analyzed using conjoint analysis to compute Average Marginal Component Effects.
+The authors release all data, prompt generation scripts, and analysis code for the large-scale Moral Machine experiment on 52 LLMs to GitHub, including the conjoint analysis outputs and AMCE values for each model.
 
 
 ## Notes

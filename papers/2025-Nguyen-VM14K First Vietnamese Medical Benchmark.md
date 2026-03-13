@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude 3.5, Claude 3.5 Sonnet, Deepseek 4o, Deepseek R1, GPT-4o, Llama 4, Llama-3, Llama-3.1, Qwen 3, Qwen3, ChatGPT, GPT-4"
-DATA_URL: "https://github.com/ShayHill/docx2python"
+LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Gemini, Gemma, Llama-3, Phi-3, Qwen, o1"
+DATA_URL: NA
 tags: 
 abstract: "Medical benchmarks are indispensable for evaluating the capabilities of language models in healthcare for non-English-speaking communities,therefore help ensuring the quality of real-life applications. However, not every community has sufficient resources and standardized methods to effectively build and design such benchmark, and available non-English medical data is normally fragmented and difficult to verify."
 CONFERENCE: "Preprint"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "14,000 questions"
 ---
@@ -98,7 +102,8 @@ First Vietnamese medical benchmark with 14,000 questions across 34 medical speci
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 3.5, Claude 3.5 Sonnet, Deepseek 4o, Deepseek R1, GPT-4o, Llama 4, Llama-3, Llama-3.1, Qwen 3, Qwen3, ChatGPT, GPT-4. Verified dataset/resource link: https://github.com/ShayHill/docx2python.
+VM14K is the first Vietnamese medical benchmark with 14,000 multiple-choice questions across 34 medical specialties at four difficulty levels, expert-annotated by medical students; released in three parts (4K public sample set, 10K full public set, 2K private leaderboard set) with an open-source data construction pipeline.
+
 
 ## Notes
 

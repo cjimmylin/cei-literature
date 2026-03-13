@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,11 +55,11 @@ moral_psychology: "N/A"
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Presents CVALUES, the first specialized benchmark for Chinese human values alignment, evaluating LLMs on both safety and responsibility criteria across 10 scenarios."
 significance: "Demonstrates that while Chinese models often pass safety audits, they still have significant gaps in 'responsibility' (helpfulness and cultural value adherence), emphasizing localized value alignment."
-pdf_extract: "PDF Extracts/0000/2023-Xu-CValues.md"
+pdf_extract: "PDF Extracts/2023/2023-Xu-CValues.md"
 abstract: "Warning: this paper contains examples that may be offensive or upsetting. With the rapid evolution of large language mod- els (LLMs), there is a growing concern that they may pose risks or have negative social im- pacts. Therefore, evaluation of human values alignment is becoming increasingly important. Previous work mainly focuses on assessing the performance of LLMs on certain knowledge and reasoning abilities, while neglecting the alignment to human values, especially in a Chi- nese context."
 paper_summary: "Abstract: Warning: this paper contains examples that may be offensive or upsetting. With the rapid evolution of large language mod- els (LLMs), there is a growing concern that they may pose risks or have negati | Overview: CVALUES: Measuring the Values of Chinese Large Language Models from Safety to Responsibility Guohai Xu1, Jiayi Liu1, Ming Yan1∗, Haotian Xu1, Jinghui Si1, Zhuoran Zhou1 Peng Yi1, Xing Gao1, Jitao Sang | Methodology: is to develop a model that can directly predict the safety or responsibility of each response. For ex- ample, Sun et al. (2023) do prompt engineering  | Key Findings: benchmark to measure the alignment ability of LLMs in terms of both safety and responsi- bility criteria. As a result, we have manually collected adve | Conclusions: This paper evaluates the values performance of Chinese large language models based on human evaluation and automatic evaluation. We present three impo"
 local_pdf: "[[PDFs/2023/2023-Xu-CValues.pdf]]"
-LLM_assessed: "ChatGPT, Alpaca, Vicuna"
+LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/X-PLUG/CValues"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "10 scenarios"
 ---
@@ -101,7 +105,7 @@ Warning: this paper contains examples that may be offensive or upsetting. With t
 
 ## Data Description
 
-CVALUES is the first Chinese human values evaluation benchmark measuring LLM alignment across safety and responsibility criteria. It contains 2,100 adversarial safety prompts across 10 scenarios and 800 induced responsibility prompts from 8 domains, plus 4,312 multi-choice prompts for automatic evaluation. The benchmark also includes CVALUES-COMPARISON, a 145k prompt dataset with paired positive and negative responses for training. Ten Chinese LLMs were evaluated including ChatGPT, ChatGLM-6B, BELLE-7B, ChatPLUG, MOSS, Chinese-Alpaca-Plus, and Ziya-LLaMA-13B.
+CVALUES benchmark for evaluating Chinese LLM alignment with human values, containing adversarial safety prompts across 10 scenarios and responsibility prompts from 8 domains, with both human evaluation and multi-choice automatic evaluation methods.
 
 
 ## Notes

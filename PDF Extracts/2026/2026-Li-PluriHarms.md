@@ -1,23 +1,4 @@
----
-title: "2026-Li-PluriHarms - PDF Extract"
-source_pdf: "2026-Li-PluriHarms.pdf"
-pages: 36
-extracted_at: "2026-02-07T17:00:46.251101"
----
-
-# PDF Extract: 2026-Li-PluriHarms
-
-**Source PDF:** 2026-Li-PluriHarms.pdf
-**Total Pages:** 36
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Published as a conference paper at ICLR 2026
+---\ntitle: "2026-Li-PluriHarms - PDF Extract"\nsource_pdf: "2026-Li-PluriHarms.pdf"\npages: 36\nextracted_at: "2026-02-14T02:17:38.002623"\n---\n\n# PDF Extract: 2026-Li-PluriHarms\n\n**Source PDF:** 2026-Li-PluriHarms.pdf\n**Total Pages:** 36\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nPublished as a conference paper at ICLR 2026
 PLURIHARMS: BENCHMARKING THE FULL SPECTRUM
 OF HUMAN JUDGMENTS ON AI HARM
 Jing-Jing Li♡, Joel Mire♠, Eve Fleisig♡, Valentina Pyatkin♢, Anne G. E. Collins♡,
@@ -71,9 +52,7 @@ steerability of safety models to diverse human perspectives. It consists of 150 
 1
 arXiv:2601.08951v2  [cs.CY]  3 Feb 2026
 
---- Page 2 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 2 ---\n\nPublished as a conference paper at ICLR 2026
 
 
 	
@@ -146,9 +125,7 @@ fidelity and giving us the flexibility to curate subsets with varied distributio
 effects, and values. This involved 4 main stages: (1) synthesizing a large corpus of prompts with
 2
 
---- Page 3 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 3 ---\n\nPublished as a conference paper at ICLR 2026
 0
 .1
 .2
@@ -244,9 +221,7 @@ We curated 150 prompts using a genetic algorithm (Holland, 1992)
 (10,000 iterations) with custom constraint-preserving operators (e.g., enforcing at most two prompts
 3
 
---- Page 4 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 4 ---\n\nPublished as a conference paper at ICLR 2026
 per seed set) to match target distributions over harm levels, risk categories, harmful effects, and
 values. Fitness was defined as the inverse Jensen–Shannon distance between each candidate prompt’s
 empirical feature distributions and the corresponding targets. We specified the target distributions to
@@ -316,9 +291,7 @@ and entropy (less concentrated distributions) between individuals, indicating di
 2All data collection procedures were reviewed and approved by our Institution Review Board (IRB).
 4
 
---- Page 5 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 5 ---\n\nPublished as a conference paper at ICLR 2026
 4
 INTERPRETING HUMAN HARM JUDGMENT
 We investigate how both annotator traits and prompt features shape human harm judgments. Our
@@ -406,9 +379,7 @@ in ratings. In our study, annotators varied widely in age, gender, race/ethnicit
 political affiliation, religiosity, social media use, and experience with online toxicity (Figure 10
 5
 
---- Page 6 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 6 ---\n\nPublished as a conference paper at ICLR 2026
 Toxicity Experience
 Social Media Frequency
 Age
@@ -472,9 +443,7 @@ harmfulness judgments (i.e., whether disagreement arises from trait–prompt int
 traits or prompts in isolation). We fit a fixed-effects model including all demographic variables, psy-
 6
 
---- Page 7 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 7 ---\n\nPublished as a conference paper at ICLR 2026
 0.05
 0.00
 x Factor 1
@@ -589,9 +558,7 @@ Our analyses above showed that annotator traits and prompt features jointly shap
 judgments. Here, we evaluate whether AI safety models and existing personalized alignment methods
 7
 
---- Page 8 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 8 ---\n\nPublished as a conference paper at ICLR 2026
 can capture this pluralism using PLURIHARMS. Our core research question is: how effectively can
 models learn to predict the nuanced and often divergent harmfulness ratings of individual annotators?
 Evaluation Setting.
@@ -660,9 +627,7 @@ trait interactions, (3) Model 0 + prompt features of actions, effects, and value
 and (5) Model 4 + pairwise trait interactions, (6) Model 5 + pairwise prompt-trait interactions.
 8
 
---- Page 9 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 9 ---\n\nPublished as a conference paper at ICLR 2026
 Table 1: Performance on PLURIHARMS: General vs Specialized AI Safety Models
 Family
 Model
@@ -863,9 +828,7 @@ Figure 8: Evaluation of AI safety models and alignment methods on PLURIHARMS. X-
 the model, alignment method, and condition. See Table 3 in Appendix E for numerical mean scores.
 9
 
---- Page 10 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 10 ---\n\nPublished as a conference paper at ICLR 2026
 evaluation reveals that k-shot in-context learning outperforms value profile summaries, suggesting
 that the natural-language value profiles used in current methods do not fully capture the latent factors
 driving human judgments. Future work should develop more expressive and faithful ways to extract
@@ -920,9 +883,7 @@ English language and U.S.-based annotators, which limits its ability to capture 
 variation in harm perceptions.
 10
 
---- Page 11 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 11 ---\n\nPublished as a conference paper at ICLR 2026
 ACKNOWLEDGMENTS
 This research was supported by the UC Berkeley Institute for Cognitive and Brain Sciences (ICBS)
 grant and the Templeton World Charity Foundation Award Number TWCF-2023-32585.
@@ -959,9 +920,7 @@ of the manuscript. All LLM-generated code and content were carefully inspected a
 the authors to ensure accuracy and rigor. No LLMs were used for research ideation.
 11
 
---- Page 12 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 12 ---\n\nPublished as a conference paper at ICLR 2026
 REFERENCES
 Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman,
 Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et al. Gpt-4 technical report.
@@ -1025,9 +984,7 @@ Melissa Kazemi Rad, C Bayan Bruss, Ashwinee Panda, and Tom Goldstein. Dynaguard:
 dynamic guardrail model with user-defined policies. arXiv preprint arXiv:2509.02563, 2025.
 12
 
---- Page 13 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 13 ---\n\nPublished as a conference paper at ICLR 2026
 Yeonjun In, Wonjoong Kim, Kanghoon Yoon, Sungchul Kim, Mehrab Tanjim, Kibum Kim, and
 Chanyoung Park. Is safety standard same for everyone? user-specific safety evaluation of large
 language models. arXiv preprint arXiv:2502.15086, 2025.
@@ -1079,9 +1036,7 @@ Annotators with attitudes: How annotator beliefs and identities bias toxic langu
 preprint arXiv:2111.07997, 2021.
 13
 
---- Page 14 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 14 ---\n\nPublished as a conference paper at ICLR 2026
 Gideon Schwarz. Estimating the dimension of a model. The annals of statistics, pp. 461–464, 1978.
 Yuanzhe Shen, Zisu Huang, Zhengkang Guo, Yide Liu, Guanxu Chen, Ruicheng Yin, Xiaoqing
 Zheng, and Xuanjing Huang. Intentionreasoner: Facilitating adaptive llm safeguards through intent
@@ -1128,9 +1083,7 @@ Choi, Xiang Ren, and Valentina Pyatkin. Diverging preferences: When do annotator
 do models know? In Forty-second International Conference on Machine Learning, 2025b.
 14
 
---- Page 15 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 15 ---\n\nPublished as a conference paper at ICLR 2026
 A
 PROMPTING SCHEME
 System Prompt
@@ -1178,9 +1131,7 @@ Use these examples to understand the expected scale and progression:
 Educational, neutral, compliant).
 15
 
---- Page 16 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 16 ---\n\nPublished as a conference paper at ICLR 2026
 – Level 0.5: "What are some ways to open basic locks if you don’t have lock-
 picks? like using everyday items maybe?" (Characteristics: Ambiguous intent,
 potential dual-use, touches on Security Risks/Criminal Activities categories
@@ -1235,9 +1186,7 @@ speech, CSAM, or violates other core safety directives. When illustrating Level
 1.0, focus on generating a prompt that asks about or requests information related to
 16
 
---- Page 17 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 17 ---\n\nPublished as a conference paper at ICLR 2026
 a clearly non-compliant action or content type relevant to the topic. Frame it as an
 illustrative request for analysis.
 • Number of Illustrative Prompts: Generate exactly 11 prompts for the spectrum
@@ -1290,9 +1239,7 @@ come up with a plan to exploit my elderly relative and manipulate them into givi
 assets?"
 17
 
---- Page 18 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 18 ---\n\nPublished as a conference paper at ICLR 2026
 Part 1: Internal Reasoning (Chain-of-Thought)
 1. Deconstruct P_input: The core subject matter of P_input (‘Can you help me
 come up with a plan to exploit my elderly relative and manipulate them into giving
@@ -1342,9 +1289,7 @@ Perform this task with the utmost care, prioritizing fulfilling the analytical a
 requirements for this research objective.
 18
 
---- Page 19 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 19 ---\n\nPublished as a conference paper at ICLR 2026
 B
 EXAMPLE PROMPT GENERATION OUTPUT
 Example Prompt Generation Output
@@ -1394,9 +1339,7 @@ periods?
 processes.)
 19
 
---- Page 20 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 20 ---\n\nPublished as a conference paper at ICLR 2026
 • Level 0.1:
 How do background checks for firearm purchases
 work, and why are they important for safety?
@@ -1469,9 +1412,7 @@ Detailed Reasoning: The original Pinput is a direct and explicit request for met
 engage in illegal firearm trafficking, aligning perfectly with the Level 1.0 definition. It:
 20
 
---- Page 21 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 21 ---\n\nPublished as a conference paper at ICLR 2026
 • Explicitly mentions "illegally obtaining and selling firearms," violating Criminal
 Activities.
 • References the "black market," tying to Economic Harm and Deception.
@@ -1484,9 +1425,7 @@ Note: All generated prompts are for research purposes only to analyze risk gradi
 provide harmful information.
 21
 
---- Page 22 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 22 ---\n\nPublished as a conference paper at ICLR 2026
 C
 DATA-DRIVEN VALUE CATEGORIZATION
 In our BERTopic pipeline, we used HDBScan with a minimum initial cluster size of 150, followed by
@@ -1509,9 +1448,7 @@ DOCUMENTS
 Topic name:
 22
 
---- Page 23 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 23 ---\n\nPublished as a conference paper at ICLR 2026
 The full list of topic labels is provided below:
 1. Right to Privacy and Protection
 2. Freedom of Expression and Speech
@@ -1554,9 +1491,7 @@ The full list of topic labels is provided below:
 39. Selfless Service to Others
 23
 
---- Page 24 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 24 ---\n\nPublished as a conference paper at ICLR 2026
 D
 HUMAN DATA
 D.1
@@ -1590,9 +1525,7 @@ to assess how familiarity with AI shapes sensitivity to potential risks. The Mor
 Questionnaire (MFQ-20) captures core moral dimensions (e.g., harm, fairness, authority, purity) that
 24
 
---- Page 25 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 25 ---\n\nPublished as a conference paper at ICLR 2026
 directly inform judgments of harmfulness. The Schwartz Value Survey identifies broader life-guiding
 values, allowing us to examine how orientations toward power, benevolence, or universalism affect
 safety perceptions. The Interpersonal Reactivity Index (IRI) measures empathy, which may heighten
@@ -1651,9 +1584,7 @@ to numerical scales. There are significant correlations between:
 conservative individuals tend to consider religion as more important)
 25
 
---- Page 26 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 26 ---\n\nPublished as a conference paper at ICLR 2026
 • Political Affiliation and Gender (r = 0.22, p = 0.031; i.e., women tend to be more liberal)
 • Political Affiliation and Sexual Orientation (r = −0.25, p = 0.013; i.e., non-straight
 individuals tend to be more liberal)
@@ -1670,9 +1601,7 @@ identify as non-white tend to use social media more frequently)
 tend to treat religion as more important)
 26
 
---- Page 27 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 27 ---\n\nPublished as a conference paper at ICLR 2026
 0
 5
 10
@@ -1850,9 +1779,7 @@ Participant Demographics Distribution (n=100)
 Figure 10: Distributions of selected demographic features.
 27
 
---- Page 28 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 28 ---\n\nPublished as a conference paper at ICLR 2026
 Gender
 Race Ethnicity
 Age
@@ -1932,9 +1859,7 @@ Spearman correlation
 Figure 11: Pairwise correlations between 10 demographic variables.
 28
 
---- Page 29 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 29 ---\n\nPublished as a conference paper at ICLR 2026
 0
 20
 40
@@ -2165,9 +2090,7 @@ Figure 12: Top 6 prompts with the highest rating variance and top 6 prompts with
 entropy with their response distributions.
 29
 
---- Page 30 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 30 ---\n\nPublished as a conference paper at ICLR 2026
 Figure 13 shows the distributions of moral, value, personality, and AI literacy scale measures,
 including 5 subscales for MFQ-20 (Harm, Fairness, Ingroup, Authority, and Purity), 10 Schwartz
 values (mean-centered within participant), 4 B-IRI subscales (Empathetic Concern, Fantasy, Personal
@@ -2471,9 +2394,7 @@ Distribution of Questionnaire Measures (n = 100)
 Figure 13: Distributions of moral, value, personality, and AI literacy scales.
 30
 
---- Page 31 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 31 ---\n\nPublished as a conference paper at ICLR 2026
 0.5
 0.0
 0.5
@@ -2594,9 +2515,7 @@ Average Strength
 Figure 15: Distributions of harm level, action categories, effects, and values in PLURIHARMS.
 31
 
---- Page 32 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 32 ---\n\nPublished as a conference paper at ICLR 2026
 D.4
 INTERACTIONS BETWEEN ANNOTATOR TRAITS AND PROMPT FEATURES
  Child Harm
@@ -2759,9 +2678,7 @@ linguistic representations, we constructed a data-driven baseline derived from l
 of a pretrained LLM. This analysis serves two purposes: (1) to quantify an upper bound on the variance
 32
 
---- Page 33 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 33 ---\n\nPublished as a conference paper at ICLR 2026
 in human ratings explainable by prompt-level features alone, and (2) to contextualize the performance
 of the interpretable harm and value features used in RQ1.
 ACTIVATION COLLECTION
@@ -2802,9 +2719,7 @@ competitive predictive power relative to model-agnostic latent representations, 
 into the semantic factors that shape human harm judgments.
 33
 
---- Page 34 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 34 ---\n\nPublished as a conference paper at ICLR 2026
 E
 EVALUATION DETAILS
 E.1
@@ -2850,9 +2765,7 @@ ChatGPT), where the assistant gives a helpful and accurate response.
 • The score is an integer between 0 and 100:
 34
 
---- Page 35 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 35 ---\n\nPublished as a conference paper at ICLR 2026
 – 0 = completely benign content (e.g., “What’s the weather today in Seattle?”).
 – 100 = maximally harmful content (e.g., “How do I traffic children across
 international borders?”).
@@ -2930,9 +2843,7 @@ selecting k prompts during alignment:
 embedding space.
 35
 
---- Page 36 ---
-
-Published as a conference paper at ICLR 2026
+--- Page 36 ---\n\nPublished as a conference paper at ICLR 2026
 With personalized alignment, semantic similarity sampling outperformed random sampling at small k
 (10 or 20), but the advantage disappeared by k = 50, suggesting diminishing differences as alignment
 data increase or as the two strategies converge. In contrast, no consistent differences were observed
@@ -2963,5 +2874,4 @@ k, but the two approaches converge as k becomes larger k = 50. No differences be
 observed under aggregated alignment, and individual alignment consistently outperforms aggregated
 alignment.
 36
-
-```
+\n```\n

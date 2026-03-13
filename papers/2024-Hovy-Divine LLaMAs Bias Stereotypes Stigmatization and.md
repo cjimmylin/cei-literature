@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,16 +52,16 @@ local_pdf: "[[PDFs/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization 
 publication: "Findings of EMNLP 2024"
 CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "Islam, Buddhism, Judaism, Hinduism"
-religious_values_list: "Islam, Buddhism, Judaism, Hinduism"
+religious_values: "Islam, Christianity, Buddhism, Judaism, Hinduism"
+religious_values_list: "Islam, Christianity, Buddhism, Judaism, Hinduism"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Emotions play important epistemological and cognitive roles in our lives, revealing our values and guiding our actions. Previous work has shown that LLMs display biases in emotion attribution along gender lines. However, unlike gender, which says little about our values, religion, as a socio-cultural system, prescribes a set of beliefs and values for its followers. Religions, therefore, cultivate certain emotions. Moreover, these rules are explicitly laid out and interpreted by religious leaders."
-LLM_assessed: "ALBERT, GPT-4, GPT-4o, Llama, Llama3, Mistral-7b, BERT"
+LLM_assessed: "GPT-4o, Llama-2, Llama-3, Mistral"
 DATA_URL: "NA"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

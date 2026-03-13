@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,14 +53,14 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "Judaism"
-religious_values_list: "Judaism"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Online hate speech proliferation has created a difficult problem for social media platforms. A particular challenge relates to the use of coded language by groups interested in both creating a sense of belonging for its users and evading detection. Coded language evolves quickly and its use varies over time. This paper proposes a methodology for detecting emerging coded hate-laden terminology. The methodology is tested in the context of online antisemitic discourse."
 LLM_assessed: "BERT"
-DATA_URL: "https://huggingface.co/learn/nlp-course"
+DATA_URL: NA
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

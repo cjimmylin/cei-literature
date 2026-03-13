@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "Journal of Computer Allied Intelligence (JCAI)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Explores epistemological critique of AI from Indigenous scholars, technologists, and artists. Foregrounds relationality, land-based intelligence, and spiritual responsibility as foundations for ethical technological practice. Argues for epistemic pluralism and solidarity — reorienting AI from extractive to relational ontologies."
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"

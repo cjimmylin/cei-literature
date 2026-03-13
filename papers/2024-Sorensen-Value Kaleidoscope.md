@@ -21,6 +21,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +54,7 @@ significance: "Highlights the necessity for AI systems to model irreducible valu
 tags: 
 abstract: "Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect their feelings, how does one balance honesty with friendship?). As statistical learners, AI systems fit to averages by default, washing out these potentially irreducible value conflicts. To improve AI systems to better reflect value pluralism, the first-order challenge is to explore the extent to..."
 paper_summary: "Abstract: Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect | Overview: Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties Taylor Sorensen 1,2, Liwei Jiang 1,2, Jena D. Hwang 2, Sydney Levine 2, Valentina Pyatkin 1,2, Peter West 1,2, Nouha D | Conclusions: Strengths Over Teacher Model Although our model per- forms strongly against the teacher in value generation, it also has several other advantages. It"
-LLM_assessed: "GPT-4, Flan-T5"
+LLM_assessed: "Flan-T5, GPT-4"
 DATA_URL: "https://huggingface.co/datasets/allenai/ValuePrism"
 publication: arXiv
 CONF-CC: "Preprint"
@@ -60,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -84,7 +89,7 @@ Human values are crucial to human decision-making. Value pluralism is the view t
 
 ## Data Description
 
-The paper introduces ValuePrism, a large-scale dataset of 218k contextualized values, rights, and duties connected to 31k human-written situations, distilled from GPT-4. The dataset supports four tasks: generation, relevance classification, valence classification, and explanation. The Value Kaleidoscope (Kaleido) model, built on Flan-T5 in multiple sizes, is trained on this multi-task dataset of approximately 1.1M examples and compared against GPT-4 in human evaluation studies.
+ValuePrism is a dataset of 218k values, rights, and duties connected to 31k human-written situations, generated using GPT-4 and validated by human annotators. The Kaleido model (5 sizes, Flan-T5-based) is also released.
 
 
 ## Notes

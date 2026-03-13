@@ -29,6 +29,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,8 +68,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
@@ -103,7 +106,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-The paper introduces Itihasa, a large-scale Sanskrit-to-English translation dataset containing 93,030 shloka-translation pairs extracted from The Ramayana and The Mahabharata. Standard translation models (Moses SMT and Transformer-based NMT) are benchmarked, achieving only 7-8 BLEU points, demonstrating the dataset's complexity. No LLMs were tested; the focus is on traditional machine translation models.
+Large-scale parallel corpus of 93,000 Sanskrit shloka-English translation pairs from the Ramayana and Mahabharata, with train/dev/test splits used to benchmark Moses SMT and BERT-based Transformer seq2seq NMT models (trained from scratch).
 
 
 ## Notes

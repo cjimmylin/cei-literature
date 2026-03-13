@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +47,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Afghan, Pashto"
-languages_list: Pashto
+cultures_nationalities_list: "N/A"
+languages_list: "Pashto"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

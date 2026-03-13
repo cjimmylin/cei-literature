@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,15 +50,15 @@ CONF-CC: "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery a
 pdf_extract: "PDF Extracts/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....md"
 local_pdf: "[[PDFs/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "English, Multilingual"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, DistilBERT, RoBERTa, T5, T5 Base, T5-styled"
-DATA_URL: "https://github.com/conversationai/unintended-ml-bias-"
+LLM_assessed: "BERT, T5"
+DATA_URL: NA
 tags: 
 abstract: "On the world wide web, toxic content detectors are a crucial line of defense against potentially hateful and offensive messages. As such, building highly effective classifiers that enable a safer internet is an important research area. Moreover, the web is a highly multilingual, cross-cultural community that develops its own lingo over time. As such, it is crucial to develop models that are effective across a diverse range of languages, usages, and styles."
 research_topic: "Machine Translation"
@@ -64,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"

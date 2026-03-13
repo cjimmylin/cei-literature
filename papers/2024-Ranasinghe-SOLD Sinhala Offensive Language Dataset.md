@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +49,8 @@ publication: "Springer / arXiv"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Sri Lankan"
-languages_list: Sinhala
+cultures_nationalities_list: "N/A"
+languages_list: "Sinhala"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -103,7 +106,8 @@ Largest Sinhala offensive language dataset: 10,000 Twitter posts annotated at se
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa, XLNet. Verified dataset/resource link: https://github.com/Sinhala-NLP/SOLD.
+SOLD: the first large Sinhala offensive language dataset with 10,000 Twitter posts annotated at sentence-level and token-level; also introduces SemiSOLD (145,000+ semi-supervised instances). Models evaluated include mBERT, SinBERT, XLM-RoBERTa, and XLM-T.
+
 
 ## Notes
 

@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ abstract: "The dominant practice of AI alignment assumes (1) that preferences ar
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, ChatGPT"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

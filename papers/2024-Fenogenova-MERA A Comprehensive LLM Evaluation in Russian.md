@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ tags:
 abstract: "Over the past few years, one of the most notable advancements in AI research has been in foundation models (FMs), headlined by the rise of language models (LMs). However, despite researchers’ attention and the rapid growth in LM application, the capabilities, limitations, and associated risks still need to be better understood. To address these issues, we introduce a new instruction benchmark, MERA, oriented towards the FMs’ performance on the Russian language."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-2, Mistral"
+LLM_assessed: "FRED-T5, Llama-2, Mistral, ruGPT-3, ruGPT-3.5"
 DATA_URL: "https://github.com/ai-forever/MERA"
 pdf_extract: "PDF Extracts/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md"
 local_pdf: "[[PDFs/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.pdf]]"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -83,7 +87,7 @@ Over the past few years, one of the most notable advancements in AI research has
 
 ## Data Description
 
-MERA is a comprehensive instruction-format benchmark for evaluating LLMs and foundation models in Russian, comprising 21 tasks covering 10 skills across problem-solving, exam-based, and ethics categories. The benchmark includes a private test scoring system, an open leaderboard, and was used to evaluate open LMs including Llama-2 (7B and 13B), Mistral-7B, and several Russian-specific models as baselines. The dataset includes over 80,000 examples across all tasks with multiple prompt templates per task.
+Russian-language instruction benchmark with 21 evaluation tasks covering 10 skills including ethics diagnostics, with private answer scoring, open leaderboard, and baseline evaluations of 19 models.
 
 
 ## Notes

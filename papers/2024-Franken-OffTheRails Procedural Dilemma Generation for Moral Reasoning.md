@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +59,7 @@ moral_psychology: "Trolley / Dilemmas (Psych), Dual Process Theory"
 newtags: 
 tags: 
 abstract: "As AI systems like language models are increasingly integrated into decision-making processes affecting people’s lives, it’s critical to ensure that these systems have sound moral reasoning. To test whether they do, we need to develop systematic evaluations. We provide a framework that uses a language model to translate causal graphs that capture key aspects of moral dilemmas into prompt templates. With this framework, we procedurally generated a large and diverse set of moral dilemmas— the..."
-LLM_assessed: "GPT-4, Claude"
+LLM_assessed: "Claude-2, GPT-4"
 DATA_URL: "https://github.com/cicl-stanford/moral-evals"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"
@@ -65,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "50 scenarios"
 ---
@@ -99,7 +104,8 @@ As AI systems like language models are increasingly integrated into decision-mak
 
 ## Data Description
 
-OffTheRails is a procedurally generated benchmark of moral reasoning dilemmas consisting of 50 scenarios and 400 unique test items. The benchmark uses causal graphs to systematically manipulate three factors (causal structure, evitability, and action/omission) across eight conditions. Human participants and two language models (GPT-4 and Claude-2) were evaluated on moral permissibility and intention judgments.
+OffTheRails benchmark of 50 scenarios and 400 unique test items for moral reasoning, procedurally generated using causal graphs with eight conditions manipulating causal structure, evitability, and action type.
+
 
 ## Notes
 

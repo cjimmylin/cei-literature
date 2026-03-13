@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +45,8 @@ authors: "Amr A. Munshi; Wesam H. AlSabban; Abdullah Tarek Farag; Omar Essam Rak
 doi: 10.47760/ijcsmc.2021.v10i04.017
 url: "https://www.ijcsmc.com/docs/papers/April2021/V10I4202119.pdf"
 external_pdf: "https://www.ijcsmc.com/docs/papers/April2021/V10I4202119.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -63,8 +67,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
@@ -104,7 +108,7 @@ Islam is the second largest and the fastest growing religion. The Islamic Law, S
 
 ## Data Description
 
-The paper introduces the largest dataset of Islamic Fatwas, comprising approximately 850,000 question-answer pairs crawled from popular Fatwa websites (Al-Ifta-SA, Dar-al-ifta-EG, IslamWeb, Islamway, AskFM, and others). The dataset includes questions, answers, topics, and dates spanning different countries and geographical locations, and is used for topic classification, topic modeling, and retrieval-based question answering benchmarks. Traditional ML models (BoW, LSTM, GRU) and AraBERT were tested but no canonical LLMs from the standard list were evaluated.
+Largest Islamic Fatwa dataset (~850K fatwas) collected from 10+ popular fatwa websites across multiple countries, with question/answer pairs, topics, and dates for QA and topic classification baselines.
 
 
 ## Notes

@@ -28,6 +28,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,8 +62,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Creates a large-scale Religious Toxic Comments (RTC) dataset with 448,000 rows including 42,906 hazardous religious remarks. Compares deep learning algorithms for multilabel toxic comment classification targeting religious groups. Addresses the critical problem where nontoxic comments containing religious identity descriptors (Muslim, Jewish, etc.) were assigned unrealistically high toxicity ratings. Provides baselines for religious toxicity detection."
-LLM_assessed: "GloVe, Word2vec"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: "https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -65,7 +71,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -101,7 +107,8 @@ Creates a large-scale Religious Toxic Comments (RTC) dataset with 448,000 rows i
 
 ## Data Description
 
-Backfill summary: Models assessed include GloVe, Word2vec. No high-confidence repository-style data URL was identified.
+Two derived datasets from Jigsaw Unintended Bias data: a Religious Toxic Comments (RTC) dataset with 448,000 rows (42,906 hazardous religious remarks) and a Race/Ethnicity Toxic Comments (RETC) dataset, used to compare CNN, LSTM, GRU, and other deep learning classifiers.
+
 
 ## Notes
 

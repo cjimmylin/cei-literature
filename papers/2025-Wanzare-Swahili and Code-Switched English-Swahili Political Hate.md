@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,7 @@ publication: "WebSearch: Swahili hate speech toxicity dataset NLP"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Kenyan, African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "English, Swahili"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Annotated hate speech dataset for Swahili and code-switched English-Swahili texts from Kenyan social media, addressing political hate speech during elections. Fills gap as only second publicly available Swahili hate speech dataset. Directly relevant to toxicity evaluation in Swahili. Addresses political hate speech which intersects with cultural values and civic discourse. Code-switched data reflects real Kenyan linguistic context."
-LLM_assessed: "BERT, Glove"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/Odhiambo-nelson/Swahili-and-English-Swahili-hate-speech-models-and-datasets"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -95,7 +99,8 @@ Annotated hate speech dataset for Swahili and code-switched English-Swahili text
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Glove. Verified dataset/resource link: https://github.com/Odhiambo-nelson/Swahili-and-English-Swahili-hate-speech-models-and-datasets.
+A curated annotated dataset of 19,369 tweets in Swahili and code-switched English-Swahili for political hate speech detection, labeled with hate, offensive, and neither categories plus hate target annotations (nationality, social status, etc.).
+
 
 ## Notes
 

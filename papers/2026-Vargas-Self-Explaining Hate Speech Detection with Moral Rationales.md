@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: 
-LLM_assessed: "GPT-4o-mini, Llama-3.1-70B, mBERT, BERTimbau"
+LLM_assessed: "BERT, GPT-4o, Llama-3"
 DATA_URL: "https://github.com/franciellevargas/SMRA"
 tags: 
 abstract: "Hate speech detection models rely on surfacelevel lexical features, increasing vulnerability to spurious correlations and limiting robustness, cultural contextualization, and interpretability. We propose Supervised Moral Rationale Attention (SMRA)1, the first selfexplaining hate speech detection framework to incorporate moral rationales as direct supervision for attention alignment. Based on Moral Foundations Theory, SMRA aligns token-level attention with expert-annotated moral rationales,..."
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
@@ -97,7 +101,7 @@ Introduces HateBRMoralXplain, a Brazilian Portuguese benchmark dataset with 7,00
 
 ## Data Description
 
-This paper introduces SMRA (Supervised Moral Rationale Attention), a self-explaining framework for hate speech detection that aligns model attention with human-annotated moral rationales based on Moral Foundations Theory. The paper also releases HateBRMoralXplain, the third version of the HateBR corpus with 7,000 Brazilian Portuguese Instagram comments annotated for moral categories and span-level moral rationales. LLMs are evaluated on hate speech and moral sentiment classification using multiple prompting strategies.
+HateBRMoralXplain is a Brazilian Portuguese hate speech benchmark dataset of 7,000 Instagram comments annotated with hate labels, moral categories (based on Moral Foundations Theory), token-level moral rationales, and socio-political metadata. Code, models, and inter-annotator disagreements are also released.
 
 
 ## Notes

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +60,7 @@ local_pdf: "[[PDFs/2025/2025-Beyer-LLM-Safety Evaluations Lack Robustness.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: Llama-2
-DATA_URL: "https://github.com/meta-llama/llama3"
+DATA_URL: NA
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -65,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

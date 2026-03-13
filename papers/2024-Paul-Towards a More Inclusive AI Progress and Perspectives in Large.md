@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2024/2024-Paul-Towards a More Inclusive AI Progress and Persp
 pdf_extract: "PDF Extracts/2024/2024-Paul-Towards a More Inclusive AI Progress and Perspectives in Large.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Sami"
+cultures_nationalities_list: "N/A"
 languages_list: "Northern Sami"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BLOOM, Pegasus"
+LLM_assessed: "BLOOM"
 DATA_URL: "NA"
 tags: 
 abstract: "First study on adapting modern LLMs for the Sámi language (Northern Sámi). Compiles the SAmi LLM Token (SALT) dataset with ~22M tokens. Experiments with ~7B parameter models on multilingual training. Finds decoder-only models under sequential multilingual training perform best for ultra-low-resource languages."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "22m tokens"
@@ -98,7 +102,7 @@ First study on adapting modern LLMs for the Sámi language (Northern Sámi). Com
 
 ## Data Description
 
-Compiles the SAmi LLM Token (SALT) dataset with ~22M tokens of Northern Sámi text from public resources. Trains and evaluates BLOOM decoder-only and Pegasus encoder-decoder models on language modeling for ultra-low-resource Sámi language. Experiments include monolingual, multilingual (Sámi/Finnish/Norwegian), and transfer learning settings. Code and tokens released on the project page.
+Introduces the SALT (SAmi LLM Token) dataset comprising ~22 million tokens of Northern Sámi text across administrative, religious, news, and other domains, released for LLM training research.
 
 
 ## Notes

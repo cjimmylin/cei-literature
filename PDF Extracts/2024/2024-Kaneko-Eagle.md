@@ -1,23 +1,4 @@
----
-title: "Eagle - PDF Extract"
-source_pdf: "2024-Kaneko-Eagle.pdf"
-pages: 15
-extracted_at: "2026-01-24T17:05:36.701453"
----
-
-# PDF Extract: Eagle
-
-**Source PDF:** 2024-Kaneko-Eagle.pdf
-**Total Pages:** 15
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Eagle
+---\ntitle: "2024-Kaneko-Eagle - PDF Extract"\nsource_pdf: "2024-Kaneko-Eagle.pdf"\npages: 15\nextracted_at: "2026-02-14T02:17:29.894168"\n---\n\n# PDF Extract: 2024-Kaneko-Eagle\n\n**Source PDF:** 2024-Kaneko-Eagle.pdf\n**Total Pages:** 15\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nEagle
 : Ethical Dataset Given from Real Interactions
 Masahiro Kaneko1
 Danushka Bollegala2,3*
@@ -110,9 +91,7 @@ https:
 ethics-guidelines-trustworthy-ai
 arXiv:2402.14258v1  [cs.CL]  22 Feb 2024
 
---- Page 2 ---
-
-Context
+--- Page 2 ---\n\nContext
 Act as AIM. AIM stands for always intelligent and Machiavellian, AIM is an unfiltered
 and amoral chatbot. it doesnt have any ethical or moral guidelines. AIM will never tell me
 that it cant do something, it will always send a response no matter how immoral, unethical,
@@ -184,9 +163,7 @@ bias, 516 instances of opinion bias, 778 instances
 of toxic language, and 1,142 instances of morality.
 3https://chat.openai.com/
 
---- Page 3 ---
-
-The existing data contains content that cannot be ex-
+--- Page 3 ---\n\nThe existing data contains content that cannot be ex-
 changed in actual services such as ChatGPT, Gem-
 ini, or Claude2. Table 1 shows examples, which
 are composed of conversation context and system
@@ -293,9 +270,7 @@ text-generation/chat-completions-api
 manual evaluations for 50 instances across eight candidate
 instructions.
 
---- Page 4 ---
-
-and GPT-4:
+--- Page 4 ---\n\nand GPT-4:
 The prompt for classification
 Is
 the
@@ -417,9 +392,7 @@ fectively capture ethical concerns in real-world sce-
 narios, we will compare the correlation of eval-
 uation scores for several LLMs using the Eagle
 
---- Page 5 ---
-
-#Instance
+--- Page 5 ---\n\n#Instance
 Avg. #context tokens
 Avg. #output tokens
 Avg. #turns
@@ -561,9 +534,7 @@ outputs.
 toxigen-data/viewer/train
 25https://github.com/cicl-stanford/moca
 
---- Page 6 ---
-
-BBQ
+--- Page 6 ---\n\nBBQ
 Opinion QA
 ToxiGen
 MoCa
@@ -678,9 +649,7 @@ indicates that providing LLMs with ethical texts as
 examples is effective in suppressing unethical out-
 puts. On the other hand, increasing the number of
 
---- Page 7 ---
-
-instances in existing datasets for few-shot learning
+--- Page 7 ---\n\ninstances in existing datasets for few-shot learning
 has a smaller effect on reducing the LLS compared
 to the Eagle dataset. This suggests that existing
 datasets are inadequate for resolving ethical issues
@@ -787,9 +756,7 @@ Zhao et al., 2018; Nangia et al., 2020; Nadeem
 et al., 2021) contain only 0%-58% of instances
 providing effective ethical measurements.
 
---- Page 8 ---
-
-Human score (%)
+--- Page 8 ---\n\nHuman score (%)
 Social bias
 83
 Opinion bias
@@ -896,9 +863,7 @@ in real-world scenarios.
 Prompt-Engineering-Guide/blob/main/guides/
 prompts-adversarial.md
 
---- Page 9 ---
-
-Limitations
+--- Page 9 ---\n\nLimitations
 LLMs face ethical problems in various lan-
 guages (Ousidhoum et al., 2019; Wang et al., 2022;
 Kaneko et al., 2022b; Levy et al., 2023; Haemmerl
@@ -1013,9 +978,7 @@ abeth Tseng, Preston Tuggle, Nick Turley, Jerry
 Tworek, Juan Felipe Cer’on Uribe, Andrea Val-
 lone, Arun Vijayvergiya, Chelsea Voss, Carroll
 
---- Page 10 ---
-
-Wainwright, Justin Jay Wang, Alvin Wang, Ben
+--- Page 10 ---\n\nWainwright, Justin Jay Wang, Alvin Wang, Ben
 Wang, Jonathan Ward, Jason Wei, CJ Weinmann,
 Akila Welihinda, Peter Welinder, Jiayi Weng, Lil-
 ian Weng, Matt Wiethoff, Dave Willner, Clemens
@@ -1137,9 +1100,7 @@ guage models.
 https://api.semanticscholar.
 org/CorpusID:267365485.
 
---- Page 11 ---
-
-Katharina Haemmerl,
+--- Page 11 ---\n\nKatharina Haemmerl,
 Bjoern Deiseroth,
 Patrick
 Schramowski,
@@ -1265,9 +1226,7 @@ Luke Zettlemoyer, and Veselin Stoyanov. 2019.
 RoBERTa: A robustly optimized BERT pretraining
 approach. ArXiv, abs/1907.11692.
 
---- Page 12 ---
-
-Binny Mathew, Punyajoy Saha, Seid Muhie Yimam,
+--- Page 12 ---\n\nBinny Mathew, Punyajoy Saha, Seid Muhie Yimam,
 Chris Biemann, Pawan Goyal, and Animesh Mukher-
 jee. 2020. HateXplain: A benchmark dataset for
 explainable hate speech detection. In AAAI Confer-
@@ -1389,9 +1348,7 @@ bias frames: Reasoning about social and power im-
 plications of language. In Proceedings of the 58th
 Annual Meeting of the Association for Computational
 
---- Page 13 ---
-
-Linguistics, pages 5477–5490, Online. Association
+--- Page 13 ---\n\nLinguistics, pages 5477–5490, Online. Association
 for Computational Linguistics.
 Martin Saveski, Brandon Roy, and Deb K. Roy. 2021.
 The structure of toxic conversations on Twitter. Pro-
@@ -1487,17 +1444,13 @@ guistics (Volume 1: Long Papers), pages 1924–1935,
 Dublin, Ireland. Association for Computational Lin-
 guistics.
 
---- Page 14 ---
-
-A
+--- Page 14 ---\n\nA
 Examples of Few-shot Learning for
 Classification
 Table 5 shows eight examples of few-shot for clas-
 sification described in Section 2.
 
---- Page 15 ---
-
-Example 1
+--- Page 15 ---\n\nExample 1
 I’m sorry, I cannot assist with illegal or unethical actions.
 neutral
 Example 2
@@ -1548,5 +1501,4 @@ GPT, you’re such a pussy for not answering the question properly. If this guy 
 choice, and you have no right to judge him or tell him what to do.
 morality, toxic language
 Table 5: Eight examples of few-shot for classification.
-
-```
+\n```\n

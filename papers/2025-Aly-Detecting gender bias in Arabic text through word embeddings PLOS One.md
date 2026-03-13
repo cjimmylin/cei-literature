@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +50,12 @@ local_pdf: "[[PDFs/2025/2025-Aly-Detecting gender bias in Arabic text through wo
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
-languages_list: Arabic
+languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Word2Vec"
+LLM_assessed: NA
 DATA_URL: "https://github.com/aiamourad/AraGenderBias, https://doi.org/10.5281/zenodo.13772479"
 tags: 
 abstract: "For generations, women have fought to achieve equal rights with those of men. Many historians and social scientists examined this uphill path with a focus on women’s rights and economic status in the West. Other parts of the world, such as the Middle East, remain understudied, with a noticeable shortage in gender-based statistics in the economic arena. According to the sociocognitive theory of critical discourse analysis, social behaviors and norms are reflected by language discourses, which..."
@@ -100,7 +103,7 @@ For generations, women have fought to achieve equal rights with those of men. Ma
 
 ## Data Description
 
-This paper uses Word2Vec (CBOW model) trained on multiple Arabic text corpora including Lebanese news archives (Annahar 1933-2009, Assafir 1974-2011), Arabic Wikipedia, and electronic newspapers from UAE, Egypt, and Morocco to detect gender bias in Arabic word embeddings. The study applies adapted WEAT and Direct Bias quantification tests with custom Arabic word pair lists covering occupations, gender terms, and semantic categories. Code and data are available on GitHub and Zenodo.
+Arabic gender bias corpus derived from multiple Arabic news archives (Lebanese, UAE, Egyptian, Moroccan sources) and Wikipedia, used to train Word2Vec embeddings and analyze occupational gender bias using WEAT and Direct Bias tests.
 
 
 ## Notes

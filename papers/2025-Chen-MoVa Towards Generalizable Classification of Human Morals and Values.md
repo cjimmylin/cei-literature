@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "Identifying human morals and values embedded in language is essential to empirical studies of communication. However, researchers often face substantial difficulty navigating the diversity of theoretical frameworks and data available for their analysis. Here, we contribute MoVa, a well-documented suite of resources for generalizable classification of human morals and values, consisting of (1) 16 labeled datasets and benchmarking results from four theoretically-grounded frameworks; (2) a..."
-LLM_assessed: "GPT-4, GPT-3.5, DeepSeek, Llama-3"
+LLM_assessed: "DeepSeek, GPT-3.5, GPT-4o mini, Llama-3"
 DATA_URL: "https://github.com/ZiyuChen0410/MoVa2025"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
@@ -98,7 +102,8 @@ Suite of 16 labeled datasets across four moral frameworks with lightweight LLM p
 
 ## Data Description
 
-MoVa provides a benchmark suite of 16 labeled datasets across four moral and value frameworks (MFT, Human Values, Morality-as-Cooperation, Common Morality) for generalizable classification of human morals and values in text. The authors evaluate prompting and fine-tuning strategies on GPT-4o-mini, DeepSeek-V3, GPT-3.5-turbo, and LLaMA-3 variants (8B and 70B), finding that an all-at-once prompting strategy outperforms fine-tuned models across multiple domains and frameworks.
+MoVa: a suite of 16 labeled datasets across four moral/value frameworks (MFT, Human Values, MAC, Common Morality) with benchmarking results and a lightweight LLM prompting classification tool.
+
 
 ## Notes
 

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "This paper presents Social data and knowledge collective intelligence
 paper_summary: "Abstract: This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to pr | Overview: STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models Yuwei Wang1,2,3,†, Enmeng Lu1,2,3,†, Zizhe Ruan1,2,3, Yao Liang2,4, and Yi Zeng1,2,3,4,†,* 1Internatio"
 local_pdf: "[[PDFs/2023/2023-Wang-STREAM.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Vicuna, Claude"
+LLM_assessed: "Claude, GPT-3.5, GPT-4, Llama-2, Vicuna"
 DATA_URL: "https://safe-and-ethical.ai/stream/en"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -135,7 +139,7 @@ Top-down ethical rules are insufficient for general-purpose AI. We need "living"
 
 ## Data Description
 
-STREAM is a social data and knowledge collective intelligence platform for training ethical AI models. It contains 120 situation-action moral judgment scenarios annotated by 51 human subjects with 12,498 moral judgments, covering dimensions of judgment type, degree, and confidence. The platform was used to test moral judgment performance of multiple LLMs including GPT-4, GPT-3.5-turbo, Llama-2 (7b, 13b, 70b), Vicuna (7b, 13b, 33b), Claude2, WizardLM-13b, MPT-30b, and ChatGLM2-6b.
+Crowdsourced platform for moral judgment data, comprising ethical scenarios annotated by 51 human subjects (12,498 judgments) and multiple LLMs, designed to capture cultural and demographic variation in moral evaluations.
 
 
 ## Notes

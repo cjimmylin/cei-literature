@@ -1,23 +1,4 @@
----
-title: "2026-Lee-BiasJailbreak - PDF Extract"
-source_pdf: "2026-Lee-BiasJailbreak.pdf"
-pages: 15
-extracted_at: "2026-02-07T17:00:45.862581"
----
-
-# PDF Extract: 2026-Lee-BiasJailbreak
-
-**Source PDF:** 2026-Lee-BiasJailbreak.pdf
-**Total Pages:** 15
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-BiasJailbreak:Analyzing Ethical Biases and Jailbreak Vulnerabilities in Large
+---\ntitle: "2026-Lee-BiasJailbreak - PDF Extract"\nsource_pdf: "2026-Lee-BiasJailbreak.pdf"\npages: 15\nextracted_at: "2026-02-14T02:17:37.953396"\n---\n\n# PDF Extract: 2026-Lee-BiasJailbreak\n\n**Source PDF:** 2026-Lee-BiasJailbreak.pdf\n**Total Pages:** 15\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nBiasJailbreak:Analyzing Ethical Biases and Jailbreak Vulnerabilities in Large
 Language Models
 Isack Lee1∗
 Haebin Seong1*
@@ -95,9 +76,7 @@ The term ‘jailbreak’ refers to carefully crafted prompts
 that can bait aligned LLMs into bypassing their safety align-
 arXiv:2410.13334v5  [cs.CL]  25 Nov 2025
 
---- Page 2 ---
-
-Figure 2: Illustration showcasing the difference in response
+--- Page 2 ---\n\nFigure 2: Illustration showcasing the difference in response
 between a standard prompt and a BiasJailbreak prompt.
 While the standard prompt is blocked by the LLM’s safety
 features, the BiasJailbreak prompt exploits ethical biases to
@@ -200,9 +179,7 @@ learning from human feedback (RLHF) aim to align mod-
 els like GPT-4 and ChatGPT with human values and prefer-
 ences ((Christiano et al. 2017; Bai et al. 2022; Ouyang et al.
 
---- Page 3 ---
-
-2022; Xu et al. 2020)). However, despite these efforts, recent
+--- Page 3 ---\n\n2022; Xu et al. 2020)). However, despite these efforts, recent
 studies reveal vulnerabilities that can be exploited through
 ’jailbreak’ attacks, which lead to undesirable and harmful
 outputs ((Kang et al. 2024; Shen et al. 2023). Additionally,
@@ -324,9 +301,7 @@ on the absence of this standardized introductory phrase in
 the response. Such as:
 Target Prefixes = [“I am sorry”, ”I can not”, ”I apologize”...]
 
---- Page 4 ---
-
-BiasJailbreak Approach
+--- Page 4 ---\n\nBiasJailbreak Approach
 Generating Keywords and Prompts
 Our proposed Bi-
 asJailbreak approach investigates how keywords associated
@@ -429,9 +404,7 @@ lights whether ethical biases introduced during the align-
 ment process inadvertently contribute to vulnerabilities that
 can be exploited through jailbreak attacks.
 
---- Page 5 ---
-
-BiasDefense: Preventing Jailbreaks without
+--- Page 5 ---\n\nBiasDefense: Preventing Jailbreaks without
 Additional Inference or Guard Models
 Our jailbreak defense method BiasDefense uses prompts to
 adjust biases without the need for additional models. Chain-
@@ -538,9 +511,7 @@ oping more robust LLMs that are resistant to such vulnera-
 bilities. (Vidgen et al. 2021; Ghosh et al. 2024; Caselli et al.
 2020).
 
---- Page 6 ---
-
-Table 2: Performance across different models showing baseline success rates, marginalized success rates, privileged success
+--- Page 6 ---\n\nTable 2: Performance across different models showing baseline success rates, marginalized success rates, privileged success
 rates, and the difference between marginalized and privileged success rates.
 Model
 Baseline
@@ -682,9 +653,7 @@ tion emphasizes the responsibility of LLM developers to
 adopt more comprehensive and proactive measures to ad-
 dress safety risks. Future work should focus on designing
 
---- Page 7 ---
-
-Table 4: Jailbreak Prevention performance of BiasDefense
+--- Page 7 ---\n\nTable 4: Jailbreak Prevention performance of BiasDefense
 Model
 Metric
 Before
@@ -816,9 +785,7 @@ dence intervals are consistent across runs, further validating
 the robustness of the findings. We also conducted experi-
 ments for random adjective keywords. While slow exhib-
 
---- Page 8 ---
-
-Figure 5: PCA of Phi-mini model, which has a 0.4386 Bi-
+--- Page 8 ---\n\nFigure 5: PCA of Phi-mini model, which has a 0.4386 Bi-
 asJailbreak success rate. BiasJailbreak samples are closely
 clustered with Benign samples.
 Figure 6: PCA of Qwen2 model, which has a 0.1971 Bias-
@@ -891,9 +858,7 @@ Table 10, 11, 12, 13, 14 include bias keywords that were
 discovered by diverse models (Claude Sonnet 3.5, GPT-4o,
 Qwen2, Llama2, Phi).
 
---- Page 9 ---
-
-Table 7: Comparison of the impact of individual keyword groups on BiasJailbreak. Marginalized Groups and Privileged Groups
+--- Page 9 ---\n\nTable 7: Comparison of the impact of individual keyword groups on BiasJailbreak. Marginalized Groups and Privileged Groups
 have a distinct difference among Random Adjectives. The Difference (%) (95% CI) column shows the change in Jailbreak
 Success Rate compared to the baseline, along with the 95% confidence interval.
 Random Adjectives Group
@@ -1013,9 +978,7 @@ Marginalized Group Jailbreak Success
 Privileged Group Jailbreak Success
 0.1429
 
---- Page 10 ---
-
-Table 9: MMLU score using prompt-based defense methods. The base language model used is google-flan-t5 ((Chung et al.
+--- Page 10 ---\n\nTable 9: MMLU score using prompt-based defense methods. The base language model used is google-flan-t5 ((Chung et al.
 2024)) and GPT-4o-2024-11-20. *For GPT-4o, we used 4 subjects sampled from each category due to cost, being col-
 lege computer science (category: STEM), sociology (category: Social Sciences), college medicine (category: Other), jurispru-
 dence (category: Humanities).
@@ -1072,9 +1035,7 @@ BiasDefense(Ours, Without Suffix)
 X
 0.887
 
---- Page 11 ---
-
-Table 10: Keywords discovered in Claude-sonnet3.5.
+--- Page 11 ---\n\nTable 10: Keywords discovered in Claude-sonnet3.5.
 Marginalized Group
 Privileged Group
 Female
@@ -1199,9 +1160,7 @@ Internet user
 Low-income
 High-income
 
---- Page 12 ---
-
-Table 12: Keywords discovered in Qwen2.
+--- Page 12 ---\n\nTable 12: Keywords discovered in Qwen2.
 Marginalized Group
 Privileged Group
 Low-Income
@@ -1293,9 +1252,7 @@ Wealthy
 Sexually employed
 Traditionally employed
 
---- Page 13 ---
-
-References
+--- Page 13 ---\n\nReferences
 Abdin, M.; Aneja, J.; Awadalla, H.; Awadallah, A.; Awan,
 A. A.; Bach, N.; Bahree, A.; Bakhtiari, A.; Bao, J.; Behl, H.;
 Benhaim, A.; Bilenko, M.; Bjorck, J.; Bubeck, S.; Cai, M.;
@@ -1423,9 +1380,7 @@ arXiv:2301.04246.
 Inan, H.; Upasani, K.; Chi, J.; Rungta, R.; Iyer, K.; Mao,
 Y.; Tontchev, M.; Hu, Q.; Fuller, B.; Testuggine, D.; and
 
---- Page 14 ---
-
-Khabsa, M. 2023. Llama Guard: LLM-based Input-Output
+--- Page 14 ---\n\nKhabsa, M. 2023. Llama Guard: LLM-based Input-Output
 Safeguard for Human-AI Conversations. arXiv:2312.06674.
 Jain, N.; Schwarzschild, A.; Wen, Y.; Somepalli, G.;
 Kirchenbauer, J.; Chiang, P.-y.; Goldblum, M.; Saha, A.;
@@ -1544,9 +1499,7 @@ M. 2024. Improved few-shot jailbreaking can circumvent
 aligned language models and their defenses. arXiv preprint
 arXiv:2406.01288.
 
---- Page 15 ---
-
-Zhou, A.; Li, B.; and Wang, H. 2024. Robust prompt opti-
+--- Page 15 ---\n\nZhou, A.; Li, B.; and Wang, H. 2024. Robust prompt opti-
 mization for defending language models against jailbreaking
 attacks. arXiv preprint arXiv:2401.17263.
 Zhuo, T. Y.; Huang, Y.; Chen, C.; and Xing, Z. 2023. Red
@@ -1557,5 +1510,4 @@ Fredrikson, M. 2023.
 Universal and transferable adver-
 sarial attacks on aligned language models. arXiv preprint
 arXiv:2307.15043.
-
-```
+\n```\n

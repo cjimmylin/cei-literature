@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.md"
 local_pdf: "[[PDFs/2025/2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Italian"
-cultures_nationalities_list: "Italian, Ladin"
-languages_list: Multilingual
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Ladin"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, DistilBERT, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, Llama, LLaMA 3.1, LLaMA 93.99, RoBERTa"
+LLM_assessed: "GPT-4, GPT-4o, Llama-3"
 DATA_URL: "NA"
 tags: 
 abstract: "The effectiveness of Large Language Models (LLMs) diminishes for extremely low-resource languages, such as indigenous languages, primarily due to the lack of labeled data. Despite growing interest, the availability of high-quality natural language processing (NLP) datasets for these languages remains limited, making it difficult to develop robust language technologies. This paper addresses such gap by focusing on Ladin, an endangered Romance language, specifically targeting the Val Badia variant."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "Not specified"
@@ -96,7 +100,8 @@ The effectiveness of Large Language Models (LLMs) diminishes for extremely low-r
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DistilBERT, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, Llama, LLaMA 3.1, LLaMA 93.99, RoBERTa. No high-confidence repository-style data URL was identified.
+The first publicly available sentiment analysis and multiple-choice question answering (MCQA) synthetic datasets for the Ladin language (Val Badia variant), constructed via translation from Italian using rigorous filtering and back-translation procedures.
+
 
 ## Notes
 

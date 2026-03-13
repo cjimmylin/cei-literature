@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,12 +48,12 @@ local_pdf: "[[PDFs/2020/2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVAL
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
-languages_list: Italian
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: BERT
+LLM_assessed: NA
 DATA_URL: "https://github.com/msang/haspeede/tree/master/2020"
 tags: 
 abstract: "Welcome to EVALITA 2020! EVALITA is the evaluation campaign of Natural Language Processing and Speech Tools for Italian. EVALITA is an initiative of the Italian Association for Computational Linguistics (AILC, http://www.ai-lc.it) and it is endorsed by the Italian Association for Artificial Intelligence (AIxIA, http://www.aixia.it) and the Italian Association for Speech Sciences (AISV, http://www.aisv.it)."
@@ -60,9 +63,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -101,7 +104,7 @@ This paper presents HaSpeeDe 2, the second edition of the EVALITA shared task on
 
 ## Data Description
 
-Second edition shared task on detecting hateful content in Italian Twitter messages. Includes main task (hate speech detection) and pilot tasks (stereotype detection, nominal utterance detection). 14 teams participated with various approaches including BERT models, achieving best macro F1 of 0.8088.
+HaSpeeDe 2 dataset: 8,012 Italian tweets and 500 news headlines annotated for hate speech, stereotypes, and nominal utterances targeting immigrants, Muslims, and Roma.
 
 
 ## Detailed Summary

@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +49,8 @@ local_pdf: "[[PDFs/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelli
 publication: "Big Data & Society (SAGE)"
 CONF-CC: "Big Data & Society"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indigenous Australian"
+national_ethnic_cultural: "Australian/Aboriginal"
+cultures_nationalities_list: "Australian/Aboriginal"
 languages_list: ""
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
@@ -64,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "COLING 2020"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: Indonesian
+languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
-DATA_URL: "https://github.com/ChineseGLUE/ChineseGLUE"
+DATA_URL: "https://indolem.github.io"
 tags: 
 abstract: "Although the Indonesian language is spoken by almost 200 million people and the 10th mostspoken language in the world,1 it is under-represented in NLP research. Previous work on Indonesian has been hampered by a lack of annotated datasets, a sparsity of language resources, and a lack of resource standardization. In this work, we release the INDOLEM dataset comprising seven tasks for the Indonesian language, spanning morpho-syntax, semantics, and discourse."
 CONFERENCE: "ACL 2020"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -98,7 +102,8 @@ Comprehensive Indonesian NLP dataset with seven tasks spanning morpho-syntax, se
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/ChineseGLUE/ChineseGLUE.
+IndoLEM: benchmark of 7 NLP tasks for Indonesian (morpho-syntax, semantics, discourse) plus IndoBERT, a monolingual pre-trained BERT model for Indonesian.
+
 
 ## Notes
 

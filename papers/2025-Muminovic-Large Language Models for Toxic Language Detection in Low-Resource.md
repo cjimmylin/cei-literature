@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Serbian, Croatian, Bosnian"
+cultures_nationalities_list: "N/A"
 languages_list: "Bosnian, Croatian, Serbian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, Claude, Claude 3 Opus, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, claude-3-opus"
-DATA_URL: "https://github.com/Ammce/llm-"
+LLM_assessed: "GPT-3.5, GPT-4, Claude-3, Gemini"
+DATA_URL: "https://github.com/Ammce/llm-balkan-toxicity"
 tags: 
 abstract: "Online toxic language causes real harm, especially in regions with limited moderation tools. In this study, we evaluate how large language models handle toxic comments in Serbian, Croatian, and Bosnian, languages with limited labeled data. We built and manually labeled a dataset of 4,500 YouTube and TikTok comments drawn from videos across diverse categories, including music, politics, sports, modeling, influencer content, discussions of sexism, and general topics."
 CONFERENCE: "Preprint"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -95,7 +99,8 @@ Evaluates GPT-3.5, GPT-4.1, Gemini 1.5 Pro, and Claude 3 Opus on 4,500 manually 
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, Claude, Claude 3 Opus, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, claude-3-opus. Verified dataset/resource link: https://github.com/Ammce/llm-.
+Introduces a manually labeled dataset of 4,500 YouTube and TikTok comments (1,500 per language) in Serbian, Croatian, and Bosnian for toxic language detection, covering diverse content categories including politics, sports, and sexism.
+
 
 ## Notes
 

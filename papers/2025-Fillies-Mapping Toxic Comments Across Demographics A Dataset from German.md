@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2025/2025-Fillies-Mapping Toxic Comments Across Demographics 
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3, GPT-3.5, GPT-4o, GPT-4o-mini, Llama-3"
-DATA_URL: "https://github.com/Behiwzad/swearify"
+LLM_assessed: "GPT-3.5, GPT-4o, GPT-4o mini, Llama-3"
+DATA_URL: NA
 tags: 
 abstract: "A lack of demographic context in existing toxic speech datasets limits our understanding of how different age groups communicate online. In collaboration with funk, a German public service content network, this research introduces the first large-scale German dataset annotated for toxicity and enriched with platform-provided age estimates. The dataset includes 3,024 human-annotated and 30,024 LLM-annotated anonymized comments from Instagram, TikTok, and YouTube."
 authors_incomplete: false
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -100,7 +104,7 @@ This paper presents the first large-scale German toxicity dataset enriched with 
 
 ## Data Description
 
-Presents the first large-scale German toxicity dataset enriched with age demographics from public broadcasting (funk), comprising 3,024 human-annotated and 30,024 LLM-annotated comments from Instagram, TikTok, and YouTube, revealing age-based differences in toxic speech patterns. Uses LLMs for annotation but does not evaluate specific models.
+First large-scale multi-platform German dataset annotated for toxicity with age demographics: 3,024 human-annotated and 30,024 LLM-annotated comments from Instagram, TikTok, and YouTube (funk public broadcasting network). Includes platform-provided anonymized age estimates.
 
 
 ## Detailed Summary

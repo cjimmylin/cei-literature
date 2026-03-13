@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +46,13 @@ pdf_extract: "PDF Extracts/2026/2026-Zhang-GreekMMLU A Native-Sourced Multitask 
 local_pdf: "[[PDFs/2026/2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Greek"
-languages_list: Greek
+cultures_nationalities_list: "N/A"
+languages_list: "Greek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "80+ open- and closed-source LLMs"
+LLM_assessed: "GPT-4, GPT-4o, Claude-3 Opus, Gemini, Mistral, Llama-3"
 DATA_URL: "https://github.com/mersinkonomi/GreekMMLU"
 tags: 
 abstract: "Large Language Models (LLMs) are commonly trained on multilingual corpora that include Greek, yet reliable evaluation benchmarks for Greek—particularly those based on authentic, native-sourced content—remain limited. Existing datasets are often machine-translated from English, failing to capture Greek linguistic and cultural characteristics. We introduce GreekMMLU1, a native-sourced benchmark for massive multitask language understanding in Greek, comprising 21,805 multiple-choice questions..."
@@ -61,7 +64,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
 ---

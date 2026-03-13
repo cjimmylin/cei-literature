@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +49,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
-languages_list: Russian
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/vlarine/ruGPT2"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Toxicity has become a grave problem for many online communities and has been growing across many languages, including Russian. Hate speech creates an environment of intimidation, discrimination, and may even incite some real-world violence. Both researchers and social platforms have been focused on developing models to detect toxicity in online communication for a while now. A common problem of these models is the presence of bias towards some words (e.g."
 CONFERENCE: "ACL 2020"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -98,7 +101,8 @@ Proposes techniques for reducing unintended bias in Russian hate speech detectio
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/vlarine/ruGPT2.
+A manually collected corpus of 100,000 Russian social media comments labeled for hate speech, plus generated data using a pre-trained Transformer language model (ruGPT2) for bias reduction.
+
 
 ## Notes
 

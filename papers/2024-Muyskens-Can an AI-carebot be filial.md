@@ -20,6 +20,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Confuscian Virtue Ethics"
@@ -35,11 +37,11 @@ doi: 10.1177/09697330241238332
 url: "https://journals.sagepub.com/doi/10.1177/09697330241238332"
 pdf_extract: 
 local_pdf: N/A
-national_ethnic_cultural: Chinese
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: ""
-religious_values: Confucianism
-religious_values_list: Confucianism
+religious_values: "Confucianism"
+religious_values_list: "Confucianism"
 moral_psychology: "N/A"
 newtags: "Chinese, Value Pluralism / Schwartz, Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Examines AI-carebots through a Confucian virtue ethics lens, analyzing interactions with filial piety (xiao) and benevolence (ren)"

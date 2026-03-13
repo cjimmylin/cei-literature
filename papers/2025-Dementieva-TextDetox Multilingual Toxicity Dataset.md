@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,9 +48,9 @@ CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Hebrew/Israeli"
-cultures_nationalities_list: "Russian, Ukrainian, German, Spanish, Chinese, Arabic, Indian, Italian, French, Hebrew, Japanese, Ethiopian, Tatar"
-languages_list: "Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Hinglish, Italian, Japanese, Russian, Spanish, Tatar, Ukrainian"
+national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Hebrew/Israeli, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Hebrew/Israeli, Multicultural/Cross-cultural"
+languages_list: "Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Italian, Japanese, Russian, Spanish, Tatar, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -100,7 +103,7 @@ Binary toxicity classification dataset with 5,000 samples per language (2,500 to
 
 ## Data Description
 
-TextDetox is a multilingual binary toxicity classification dataset with 5,000 samples per language (2,500 toxic, 2,500 non-toxic) covering 15 languages including Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Japanese, Russian, Spanish, and others. It includes a multilingual toxic lexicon with 176,347 entries and ParaDetox parallel detoxification pairs. No specific LLMs were benchmarked in the dataset card.
+Binary toxicity classification dataset with 5,000 samples per language (2,500 toxic, 2,500 non-toxic) across 15 languages, including a Hebrew extension added in 2025. Also includes a multilingual toxic lexicon with 176,347 entries and ParaDetox parallel detoxification pairs.
 
 
 ## Notes

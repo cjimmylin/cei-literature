@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +52,12 @@ local_pdf: "[[PDFs/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.pdf]]
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, Claude, Command-r, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, Llama 3, Llama 3.1, Llama-3, Llama-3.1, Llama3, Llama3.1, Mistral, Qwen, Qwen 2, Qwen 2.5, Qwen-2.5, Qwen2, Qwen2.5"
+LLM_assessed: "Claude, GPT-4o, GPT-4o mini, LLaMA, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/SajjjadAyobi/PersianQA"
 tags: 
 abstract: "Evaluation of large language models (LLMs) in low-resource languages like Persian has received less attention than in high-resource languages like English. Existing evaluation approaches for Persian LLMs generally lack comprehensive frameworks, limiting their ability to assess models’ performance over a wide range of tasks requiring considerable cultural and contextual knowledge, as well as a deeper understanding of Persian literature and style."
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ Two new benchmarks (PeKA and PK-BETS) on history, literature, cultural knowledge
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT, Claude, Command-r, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, Llama 3, Llama 3.1, Llama-3, Llama-3.1, Llama3, Llama3.1, Mistral, Qwen, Qwen 2, Qwen 2.5, Qwen-2.5, Qwen2, Qwen2.5. Verified dataset/resource link: https://github.com/SajjjadAyobi/PersianQA.
+Introduces two new Persian benchmarks: PeKA (history, literature, cultural knowledge) and PK-BETS (challenging Persian language tasks), designed to reduce data contamination while assessing Persian LLMs.
+
 
 ## Notes
 

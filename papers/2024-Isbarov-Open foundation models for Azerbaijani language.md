@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: "SIGTURK 2024"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Azerbaijani"
+cultures_nationalities_list: "N/A"
 languages_list: "Azerbaijani"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The emergence of multilingual large language models has enabled the development of language understanding and generation systems in Azerbaijani. However, most of the productiongrade systems rely on cloud solutions, such as GPT-4. While there have been several attempts to develop open foundation models for Azerbaijani, these works have not found their way into common use due to a lack of systemic benchmarking."
-LLM_assessed: "BERT, DeBERTa-Base, RoBERTa"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: "https://huggingface.co/datasets/allmalab/DOLLMA"
 research_topic: "Machine Translation"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
@@ -100,7 +104,8 @@ Introduces large text corpus (651.1M words), encoder-only language models, and l
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DeBERTa-Base, RoBERTa. No high-confidence repository-style data URL was identified.
+Large Azerbaijani text corpus (DOLLMA, 651M words) for pre-training, plus three labeled evaluation datasets (AZE-SCI text classification, AZE-NSP next-sentence prediction, CB-MCQ closed-book QA) and a family of BERT-class encoder-only models (aLLMA) for Azerbaijani NLU benchmarking.
+
 
 ## Notes
 

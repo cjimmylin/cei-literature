@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_GRAVES2025
@@ -34,11 +36,11 @@ doi: 10.1007/s43681-025-00877-4
 url: "https://link.springer.com/article/10.1007/s43681-025-00877-4"
 pdf_extract: "PDF Extracts/2025/2025-Graves-AI Practical Wisdom and Compassion.md"
 local_pdf: "[[PDFs/2025/2025-Graves-AI Practical Wisdom and Compassion.pdf]]"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Buddhism
-religious_values_list: Buddhism
+religious_values: "Buddhism"
+religious_values_list: "Buddhism"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, Phronesis, Practical Wisdom, Compassion, Healthcare AI"
 key_contribution: "Proposes artificial practical wisdom grounded in compassion as more achievable than AGI, integrating Aristotelian phronesis with Buddhist and utilitarian perspectives"
@@ -55,7 +57,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

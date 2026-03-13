@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As Large Language Models (LLMs) and generative AI become increasingly widespread, concerns about content safety have grown in parallel. Currently, there is a clear lack of highquality, human-annotated datasets that address the full spectrum of LLM-related safety risks and are usable for commercial applications. To bridge this gap, we propose a comprehensive and adaptable taxonomy for categorizing safety risks, structured into 12 top-level hazard categories with an extension to 9 fine-grained..."
-LLM_assessed: "Llama-3, Mistral, Gemma, Mixtral"
+LLM_assessed: "Gemma, Gemma-2, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://github.com/meta-llama/llama-recipes"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "248 samples"
@@ -100,7 +104,8 @@ As Large Language Models (LLMs) and generative AI become increasingly widespread
 
 ## Data Description
 
-AEGIS 2.0 is a curated AI safety dataset of 34,248 human-LLM interaction samples annotated according to a 12-category content safety risk taxonomy with 9 fine-grained subcategories. The dataset uses Mistral-7B-v0.1 for response generation and Gemma-2-27B for synthetic refusals. Safety guard models were fine-tuned on Llama-3.1-8B-Instruct using parameter-efficient techniques, with an LLM jury of Mixtral-8x22B, Mistral-NeMo, and Gemma-2-27B for response-level annotation.
+AEGIS2.0 dataset of 34,248 human-LLM interaction samples annotated according to a 12-category safety taxonomy with 9 fine-grained subcategories, generated via a hybrid pipeline combining human annotation and LLM jury.
+
 
 ## Notes
 

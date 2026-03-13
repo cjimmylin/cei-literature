@@ -21,6 +21,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +39,7 @@ doi: 10.1007/s44217-024-00289-2
 url: "https://link.springer.com/10.1007/s44217-024-00289-2"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/L3SX86XW/Suliman et al. - 2024 - The interconnectedness between Ubuntu principles and generative artificial intelligence in distance.pdf"
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
 religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"
@@ -48,7 +51,7 @@ tags:
 abstract: "The interconnectedness of African philosophical principles of Ubuntu with generative artificial intelligence may provide an inclusive approach to distance higher education. This fusion may improve and provide customised learning, access quality education, collaboration, inclusivity, strengthens lecturer support and development, and a culturally relevant experience that acknowledges the communal interests of all stakeholders."
 CONF-CC: "Discover Education"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT"
+LLM_assessed: NA
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Suliman-The interconnectedness between Ubuntu principles.md"
 local_pdf: "[[PDFs/2024/2024-Suliman-The interconnectedness between Ubuntu principles.pdf]]"

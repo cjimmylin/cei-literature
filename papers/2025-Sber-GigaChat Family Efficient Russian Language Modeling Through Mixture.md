@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ CONF-CC: "ACL 2025 Demo"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
-languages_list: Russian
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Claude 3.7 Sonnet, DeepSeek, GPT-4, GPT-4o, LLaMA 3, LLaMA 3., Llama 3.1, Llama-3, Llama-3., Mistral, Mistral-7B, Phi-4, Qwen, Qwen 2.5, Qwen1.5, Qwen2, Qwen2.5, RoBERTa, T5, deepseek-coder, deepseek-v2, Llama, mistral-large"
-DATA_URL: "https://github.com/salute-developers/GigaAM"
+LLM_assessed: "Claude, GPT-4o, Gemini, Gemma, Gemma-2, Llama-3, Mistral, Mixtral, Phi-3, Qwen, Qwen-2, DeepSeek"
+DATA_URL: "https://huggingface.co/ai-sage"
 tags: 
 abstract: "Generative large language models (LLMs) have become crucial for modern NLP research and applications across various languages. However, the development of foundational models specifically tailored to the Russian language has been limited, primarily due to the significant computational resources required. This paper introduces the GigaChat family of Russian LLMs, available in various sizes, including base models and instruction-tuned versions."
 CONFERENCE: "ACL 2025"

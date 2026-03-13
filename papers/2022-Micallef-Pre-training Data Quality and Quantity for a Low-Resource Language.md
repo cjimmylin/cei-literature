@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ pdf_extract: "PDF Extracts/2022/2022-Micallef-Pre-training Data Quality and Quan
 local_pdf: "[[PDFs/2022/2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Maltese"
-languages_list: Maltese
+cultures_nationalities_list: "N/A"
+languages_list: "Maltese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, mBERT"
+LLM_assessed: "BERT, BERTu, mBERTu"
 DATA_URL: "https://huggingface.co/MLRS/BERTu"
 tags: 
 abstract: "Multilingual language models such as mBERT have seen impressive cross-lingual transfer to a variety of languages, but many languages remain excluded from these models. In this paper, we analyse the effect of pre-training with monolingual data for a low-resource language that is not included in mBERT – Maltese – with a range of pre-training set ups. We conduct evaluations with the newly pretrained models on three morphosyntactic tasks – dependency parsing, part-of-speech tagging, and..."
@@ -101,7 +105,7 @@ This paper presents BERTu, a monolingual BERT model for Maltese (a low-resource 
 
 ## Data Description
 
-BERTu and mBERTu models for Maltese trained on Korpus Malti v4.0 corpus. Evaluates monolingual BERT (BERTu) trained from scratch versus further pre-trained multilingual BERT (mBERTu) on dependency parsing, POS tagging, NER, and sentiment analysis for low-resource Maltese language.
+BERTu monolingual BERT model for Maltese and Korpus Malti v4.0 pre-training corpus
 
 
 ## Detailed Summary

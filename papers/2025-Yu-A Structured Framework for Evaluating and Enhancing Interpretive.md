@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ local_pdf: "[[PDFs/2025/2025-Yu-A Structured Framework for Evaluating and Enhanc
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: "Chinese, English"
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, LLaMA-4, Llama, Llama-3.1, Qwen, Qwen-2.5, Qwen-VL"
-DATA_URL: "NA"
+LLM_assessed: "Gemini, LLaMA, Qwen"
+DATA_URL: "https://github.com/yha9806/VULCA-EMNLP2025"
 tags: 
 abstract: "This study aims to test and evaluate the capabilities and characteristics of current mainstream Visual Language Models (VLMs) in generating critiques for traditional Chinese painting. To achieve this, we first developed a quantitative framework for Chinese painting critique. This framework was constructed by extracting multi-dimensional evaluative features covering evaluative stance, feature focus, and commentary quality from human expert critiques using a zero-shot classification model."
 CONFERENCE: "Preprint"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ This study aims to test and evaluate the capabilities and characteristics of cur
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, LLaMA-4, Llama, Llama-3.1, Qwen, Qwen-2.5, Qwen-VL. No high-confidence repository-style data URL was identified.
+MHEB (Multi-dimensional Human Expert Benchmark): 163 expert-annotated Chinese art commentaries across five cultural capability dimensions, used to evaluate VLMs in culturally-situated art critique tasks.
+
 
 ## Notes
 

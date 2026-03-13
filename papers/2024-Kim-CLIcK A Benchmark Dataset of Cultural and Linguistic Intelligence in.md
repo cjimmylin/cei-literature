@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "LREC-COLING 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude-2, Claude2, Falcon40B, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, LLaMA2, LLaMA2-chat, Llama-2, llama-2 chat"
-DATA_URL: "https://github.com/Beomi/KoAlpaca"
+LLM_assessed: "Claude-2, GPT-3.5, LLaMA, Llama-2"
+DATA_URL: "https://github.com/rladmstn1714/CLIcK"
 tags: 
 abstract: "Despite the rapid development of large language models (LLMs) for the Korean language, there remains an obvious lack of benchmark datasets that test the requisite Korean cultural and linguistic knowledge. Because many existing Korean benchmark datasets are derived from the English counterparts through translation, they often overlook the different cultural contexts. For the few benchmark datasets that are sourced from Korean data capturing cultural knowledge, only narrow tasks such as bias and..."
 ethics_perspective: "Social & Cultural Values"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "11 categories"
@@ -102,7 +106,8 @@ data_metrics: "11 categories"
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude-2, Claude2, Falcon40B, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, LLaMA2, LLaMA2-chat, Llama-2, llama-2 chat. Verified dataset/resource link: https://github.com/Beomi/KoAlpaca.
+CLIcK is a benchmark dataset of 1,995 QA pairs sourced from official Korean exams and textbooks, organized into 11 categories covering Korean culture and language. Used to evaluate 13 model configurations, revealing significant gaps in LLM Korean cultural and linguistic proficiency.
+
 
 ## Notes
 

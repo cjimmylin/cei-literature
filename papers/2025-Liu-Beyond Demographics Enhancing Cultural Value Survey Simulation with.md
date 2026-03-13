@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "EMNLP 2025"
 local_pdf: "[[PDFs/2025/2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Chinese, Global (WVS)"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GLM-4-Air, GPT-4o, Doubao-1.5-Pro"
+LLM_assessed: "ChatGLM, GPT-4o, Llama-3"
 DATA_URL: "https://github.com/alexc-l/MARK-Multi-stAge-Reasoning-frameworK"
 tags: 
 abstract: "Introducing MARK, the Multi-stAge Reasoning frameworK for cultural value survey response simulation, designed to enhance the accuracy, steerability, and interpretability of large language models in this task. The system is inspired by the type dynamics theory in the MBTI psychological framework for personality research. It effectively predicts and utilizes human demographic information for simulation: life-situational stress analysis, group-level personality prediction, and self-weighted..."
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

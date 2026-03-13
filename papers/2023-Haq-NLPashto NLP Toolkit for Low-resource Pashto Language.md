@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +49,13 @@ pdf_extract: "PDF Extracts/2023/2023-Haq-NLPashto NLP Toolkit for Low-resource P
 local_pdf: "[[PDFs/2023/2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Pashtun"
-languages_list: Pashto
+cultures_nationalities_list: "N/A"
+languages_list: "Pashto"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GloVe, Word2Vec"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/dr-ijaz/nlpashto"
 tags: 
 abstract: "In recent years, natural language processing (NLP) has transformed numerous domains, becoming a vital area of research. However, the focus of NLP studies has predominantly centered on major languages like English, inadvertently neglecting low-resource languages like Pashto. Pashto, spoken by a population of over 50 million worldwide, remains largely unexplored in NLP research, lacking off-the-shelf resources and tools even for fundamental text-processing tasks."
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -100,7 +103,8 @@ Python toolkit with models for spelling correction, word segmentation, POS taggi
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GloVe, Word2Vec. Verified dataset/resource link: https://github.com/dr-ijaz/nlpashto.
+NLPashto toolkit including pre-trained Pashto BERT, static word embeddings (Word2Vec, fastText, GloVe), and benchmark datasets for spelling correction, word segmentation, POS tagging, and offensive language detection in Pashto.
+
 
 ## Notes
 

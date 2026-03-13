@@ -31,6 +31,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,11 +52,11 @@ local_pdf: "[[PDFs/2024/2024-Hutchinson-Modeling the Sacred Considerations when 
 publication: "Findings of NAACL 2024"
 CONF-CC: "NAACL 2024 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: ""
+religious_values: "Christianity, Islam"
+religious_values_list: "Christianity, Islam"
 moral_psychology: "N/A"
 newtags: 
 tags: 

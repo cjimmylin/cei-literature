@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics in AI, Christian"
@@ -34,11 +38,11 @@ last_author: "[[Seals, Zachary]]"
 authors: "Rusnak, Alexander; Seals, Zachary"
 doi: N/A
 url: "https://iscast.org/journal/cposat/"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Christianity
-religious_values_list: Christianity
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: "N/A"
 newtags: "Christianity, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Proposes the 'EudAImonia' framework to integrate virtue ethics into AI systems for moral wisdom and flourishing"
@@ -49,8 +53,8 @@ pdf_extract: "PDF Extracts/2025/2025-Rusnak-EudAImonia.md"
 local_pdf: "[[PDFs/2025/2025-Rusnak-EudAImonia.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Barton, ChatGPT, Gemini"
-DATA_URL: "https://huggingface.co/blog/rlhf"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"

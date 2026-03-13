@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-paper-Tibetan Language and AI A Comprehensive.pdf]]
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Tibetan"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Tibetan"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Tibetan, one of the major low-resource languages in Asia, presents unique linguistic and sociocultural characteristics that pose both challenges and opportunities for AI research. Despite increasing interest in developing AI systems for underrepresented languages, Tibetan has received limited attention due to a lack of accessible data resources, standardized benchmarks, and dedicated tools. This paper provides a comprehensive survey of the current state of Tibetan AI in the AI domain, covering..."
-LLM_assessed: "ALBERT, BLOOM72, Bart, BERT, Bloom, Claude, Claude 3, Claude 3.5, Claude 3.5 sonnet, DeepSeek-R126, DeepSeek-V327, DeepSeek-based, Deepseek-r1, Deepseek-v3, Llama, LLaMA 3.1, LLaMA-224, LLaMA23, Qwen 2.5, Qwen Family28, Qwen2, Qwen2.5, Qwen2.530, RoBERTa"
-DATA_URL: "https://github.com/Esukhia/pybo"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"

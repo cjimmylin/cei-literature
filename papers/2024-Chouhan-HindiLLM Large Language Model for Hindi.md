@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +44,7 @@ last_author: "[[Aparajita Dutta]]"
 authors: Sanjay Chouhan; Shubha Brata Nath; Aparajita Dutta
 url: "https://arxiv.org/abs/2412.20357"
 external_pdf: "https://arxiv.org/pdf/2412.20357.pdf"
-pdf_extract: "PDF Extracts/2024/2024-[[Chouhan]]-HindiLLM Large Language Model for Hindi.md"
+pdf_extract: "PDF Extracts/2024/2024-Chouhan-HindiLLM Large Language Model for Hindi.md"
 local_pdf: "[[PDFs/2024/2024-Chouhan-HindiLLM Large Language Model for Hindi.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
@@ -53,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The advancements in the Large Language Model (LLM) have helped in solving several problems related to language processing. Most of the researches have focused on the English language only, because of its popularity and abundance on the internet. However, a high-performance language model for Hindi and other Indic languages is lacking in the literature. In this work, we have pre-trained two autoregressive LLM models for the Hindi language, namely HindiLLM-Small and HindiLLMMedium."
-LLM_assessed: "ALBERT, GPT-2, GPT-3, GPT-3.5 Turbo, GPT2, Mistral 7b, BERT"
+LLM_assessed: "HindiLLM-Small, HindiLLM-Medium, GPT-2, GPT-3.5"
 DATA_URL: "https://github.com/NirantK/hindi2vec"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -61,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +102,8 @@ Pre-trained autoregressive LLM models (HindiLLM-Small and HindiLLM-Medium) for H
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, GPT-2, GPT-3, GPT-3.5 Turbo, GPT2, Mistral 7b, BERT. Verified dataset/resource link: https://github.com/NirantK/hindi2vec.
+BBC Hindi news classification dataset used for evaluating Hindi language models, alongside IndicGLUE benchmark tasks and IITP sentiment datasets.
+
 
 ## Notes
 

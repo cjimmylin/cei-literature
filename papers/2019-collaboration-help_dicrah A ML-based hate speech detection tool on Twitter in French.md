@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +48,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
-languages_list: French
+languages_list: "French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -61,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -99,7 +102,7 @@ This project presents help_dicrah, a machine learning-based hate speech detectio
 
 ## Data Description
 
-This project presents help_dicrah, a machine learning-based hate speech detection tool for French Twitter developed in collaboration with DILCRAH, the French government's interministerial delegation against racism and anti-LGBTQ+ hatred. It uses a translated and French-contextualized version of the Hatebase.org hate speech lexicon and provides a complete pipeline from data collection to deployment as an online detection tool using traditional ML approaches.
+French-language Twitter hate speech dataset collected with a translated Hatebase.org lexicon filtered for French context, used to build and evaluate an ML-based detection pipeline.
 
 
 ## Notes

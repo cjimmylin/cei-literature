@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Academic researchers and social media entities grappling with the identification of hate speech face significant challenges, primarily due to the vast scale of data and the dynamic nature of hate speech. Given the ethical and practical limitations of large predictive models like ChatGPT in directly addressing such sensitive issues, our research has explored alternative advanced transformer-based and generative AI technologies since 2019."
-LLM_assessed: "BERT, DistilBERT, GloVe, Llama-2, Llama2, RoBERTa, Word2Vec"
+LLM_assessed: "Llama-2"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -102,7 +106,8 @@ Fine-tuned on ~22K annotated samples
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DistilBERT, GloVe, Llama-2, Llama2, RoBERTa, Word2Vec. No high-confidence repository-style data URL was identified.
+Annotated dataset of approximately 3,000 Twitter posts labeled for anti-Semitic hate speech content using a threshold-based multi-annotator labeling process.
+
 
 ## Notes
 

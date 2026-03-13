@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ abstract: "Evaluation of multilingual Large Language Models (LLMs) is challengin
 paper_summary: "Abstract: Evaluation of multilingual Large Language Models (LLMs) is challenging due to a vari- ety of factors – the lack of benchmarks with sufficient linguistic diversity, contamination of popular benchmarks  | Overview: PARIKSHA: Large-Scale Investigation of Human-LLM Evaluator Agreement on Multilingual and Multi-Cultural Data Ishaan Watts* Varun Gumma♠ Aditya Yadavalli♢ Vivek Seshadri♠♢ Manohar Swaminathan♠ Sunayana | Methodology: Our evaluation setup is summarized in Figure 1. | Key Findings: focus on English. Recent works have shown that LLMs perform worse on non-English languages, particularly those written in scripts other than the Latin | Conclusions: RQ1. Are Indic LLMs able to compete with Pro- prietary models in respective languages? From our evaluations, we find that smaller Indic models perform"
 local_pdf: "[[PDFs/2024/2024-Watts-PARIKSHA.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-2, Llama-3, Mistral, Gemma"
+LLM_assessed: "GPT-4o, GPT-4, Llama-3, Llama-2, Mistral, Gemma, Aya"
 DATA_URL: "https://aka.ms/pariksha"
 research_topic: "Machine Translation"
 CONFERENCE: "EMNLP 2024"
@@ -102,7 +106,7 @@ Evaluation of multilingual Large Language Models (LLMs) is challenging due to a 
 
 ## Data Description
 
-PARIKSHA is a large-scale multilingual evaluation benchmark covering 10 Indic languages with 90K human evaluations and 30K LLM-based evaluations across 30 models. The benchmark uses culturally-nuanced prompts created by native speakers and evaluates models in pairwise comparison and direct assessment settings, also analyzing human-LLM evaluator agreement.
+PARIKSHA: a large-scale multilingual evaluation dataset with 90K human evaluations and 30K LLM-based evaluations across 30 models and 10 Indic languages, including culturally-nuanced prompts created by native speakers.
 
 
 ## Notes

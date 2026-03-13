@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,11 +53,11 @@ newtags: "Applied Ethics"
 key_contribution: "Created MedEthicsQA, a benchmark of ~11,000 questions (multiple-choice and open-ended) for evaluating medical ethics in LLMs, derived from global standards and literature."
 significance: "Exposes the gap between general medical knowledge (where MedLLMs excel) and medical *ethics* (where they often fail), providing a critical tool for ensuring safe AI deployment in healthcare."
 tags: 
-pdf_extract: "PDF Extracts/0000/2025-Wei-MedEthicsQA.md"
+pdf_extract: "PDF Extracts/2025/2025-Wei-MedEthicsQA.md"
 abstract: "While Medical Large Language Models (MedLLMs) have demonstrated remarkable po- tential in clinical tasks, their ethical safety remains insufficiently explored. This paper introduces MedEthicsQA, a comprehensive benchmark comprising 5,623 multiple-choice questions and 5,351 open-ended questions for evaluation of medical ethics in LLMs. We systematically establish a hierarchical taxon- omy integrating global medical ethical stan- dards. The benchmark encompasses widely used medical datasets, autho"
 paper_summary: "Abstract: While Medical Large Language Models (MedLLMs) have demonstrated remarkable po- tential in clinical tasks, their ethical safety remains insufficiently explored. This paper introduces MedEthicsQA, a com | Overview: arXiv:2506.22808v1 [cs.CL] 28 Jun 2025 MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics Evaluation of LLMs Jianhui Wei1 Zijie Meng1 Zikai Xiao1 Tianxiang Hu1 Yang Feng2 Zhi | Methodology: minimizes the contents generated from the model's knowledge, thus minimizing the potential halluci- nated and biased contents. The human validation | Key Findings: 3.1 Evaluation Method and Metrics We follow previous work (Que et al., 2024) to utilize checklist-based LLM-as-Judge evaluation, and use the key point | Conclusions: In this work, we present MedEthicsQA, a question- answering benchmark encompassing a hierarchical ethics taxonomy with 11k multi-choice and open- ende"
 local_pdf: "[[PDFs/2025/2025-Wei-MedEthicsQA.pdf]]"
-LLM_assessed: "GPT-4o, Llama-3, Llama-2, Qwen"
+LLM_assessed: "GPT-4o, GPT-4o mini, Llama-2, Llama-3, Qwen, o1"
 DATA_URL: "https://github.com/JianhuiWei7/MedEthicsQA"
 publication: arXiv
 CONF-CC: "Preprint"
@@ -96,7 +100,7 @@ While Medical Large Language Models (MedLLMs) have demonstrated remarkable poten
 
 ## Data Description
 
-MedEthicsQA is a comprehensive medical ethics benchmark comprising 5,623 multiple-choice questions and 5,351 open-ended questions organized under a hierarchical taxonomy (4 Pillar Principles, 26 Categories, 256 Guidelines). The MCQs are collected from existing medical QA benchmarks and question banks, while the open-ended questions are synthesized from PubMed literature. The benchmark evaluates state-of-the-art MedLLMs and their foundation models, including GPT-4o, Llama-2/3 variants, and Qwen-plus, across medical ethics alignment.
+MedEthicsQA is a comprehensive medical ethics benchmark comprising 5,623 multiple-choice questions and 5,351 open-ended questions, organized under a hierarchical 4P-26C-256G taxonomy integrating global medical ethical standards from worldwide medical associations.
 
 
 ## Notes

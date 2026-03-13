@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,9 +46,9 @@ url: "http://arxiv.org/abs/2504.07072"
 external_pdf: "http://arxiv.org/pdf/2504.07072.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -55,7 +59,7 @@ paper_summary: "Overview: Kaleidoscope: In-language Exams for Massively Multilin
 local_pdf: "[[PDFs/2025/2025-Salazar-Kaleidoscope.pdf]]"
 abstract: "Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect their feelings, how does one balance honesty with friendship?). As statistical learners, AI systems fit to averages by default, washing out these potentially irreducible value conflicts. To improve AI systems to better reflect value pluralism, the first-order challenge is to explore the extent to w"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Gemini, Gemma, Qwen"
+LLM_assessed: "GPT-4o, Claude, Gemini, Qwen"
 DATA_URL: "https://hf.co/datasets/CohereForAI/kaleidoscope"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -100,7 +104,7 @@ The evaluation of vision-language models (VLMs) has mainly relied on English-lan
 
 ## Data Description
 
-Kaleidoscope is a large-scale multilingual multimodal benchmark containing 20,911 multiple-choice exam questions across 18 languages and 14 subjects, with 55% requiring image understanding. The dataset was created through open-science collaboration with native speakers from 20 nations. Models evaluated include GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, Aya-Vision (8B and 32B), Molmo-7B-D, Pangea-7B, and Qwen2.5-VL (3B, 7B, 32B, 72B).
+Kaleidoscope: a large-scale multimodal multilingual exam benchmark spanning 18 languages for evaluating vision-language models, constructed through open science collaboration with native content (not translations) across diverse subject domains.
 
 
 ## Notes

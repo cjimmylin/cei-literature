@@ -22,6 +22,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +38,7 @@ last_author: "[[S. K. R Kasu]]"
 authors: S. K. R Kasu
 url: "https://arxiv.org/abs/2509.11648"
 external_pdf: "https://arxiv.org/pdf/2509.11648.pdf"
-pdf_extract: "PDF Extracts/0000/2025-Kasu-EthicsMH.md"
+pdf_extract: "PDF Extracts/2025/2025-Kasu-EthicsMH.md"
 local_pdf: "[[PDFs/2025/2025-Kasu-EthicsMH.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
@@ -49,7 +52,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The deployment of large language models (LLMs) in mental health and other sensitive domains raises urgent questions about ethical reasoning, fairness, and responsible alignment. Yet, existing benchmarks for moral and clinical decision-making do not adequately capture the unique ethical dilemmas encountered in mental health practice, where confidentiality, autonomy, beneficence, and bias frequently intersect."
-LLM_assessed: ChatGPT
+LLM_assessed: "ChatGPT"
 DATA_URL: "https://huggingface.co/datasets/UVSKKR/Ethical-Reasoning-in-Mental-Health-v1"
 normative_ethics_benchmark: Borderline
 research_topic: "Other"
@@ -59,7 +62,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 is_benchmark: "Yes"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "125 scenarios"
@@ -95,7 +98,8 @@ Size: 125 therapy-relevant scenarios
 
 ## Data Description
 
-EthicsMH is a pilot dataset of 125 ethically challenging scenarios designed to evaluate AI systems in mental health contexts. Each scenario is structured with multiple decision options, expert-aligned reasoning, expected model behavior, real-world impact, and multi-stakeholder viewpoints across five ethical subcategories (confidentiality, racial bias, gender bias, adult autonomy, and minor autonomy). The dataset was constructed through a human-in-the-loop process using ChatGPT for draft generation with expert review.
+EthicsMH is a pilot dataset of 125 ethically challenging mental health scenarios with multi-dimensional structured annotations (decision options, expert reasoning, model behavior, real-world impact, stakeholder viewpoints) across five subcategories: Confidentiality & Trust, Bias in AI (Race/Gender), and Autonomy vs Beneficence (Adult/Minor).
+
 
 ## Notes
 

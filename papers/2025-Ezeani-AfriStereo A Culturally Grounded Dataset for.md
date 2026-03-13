@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: "arXiv (NeurIPS 2025)"
 CONF-CC: "NeurIPS 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Senegalese, Kenyan, Nigerian"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Existing AI bias evaluation benchmarks largely reflect Western perspectives, leaving African contexts underrepresented and enabling harmful stereotypes in applications across various domains. To address this gap, we introduce AfriStereo, the first open-source African stereotype dataset and evaluation framework grounded in local socio-cultural contexts. Through community engaged efforts across Senegal, Kenya, and Nigeria, we collected 1,163 stereotypes spanning gender, ethnicity, religion, age,..."
-LLM_assessed: "BERT, Claude, Flan-T5, Flan-T5-Large, GPT-2, Gemma, Gemma 2, Llama, Llama 3.2, Mistral, Mistral 7B, Phi-3, Phi-3 Mini, Qwen, Qwen 2.5, Qwen2.5, T5, T5-Large"
-DATA_URL: "Open-source (CC BY 4.0)"
+LLM_assessed: "BERT, Flan-T5, GPT-2, Gemma-2, LLaMA, Mistral, Phi, Qwen"
+DATA_URL: "https://github.com/YUX-Cultural-AI-Lab/Afri-Stereo"
 CONFERENCE: "NeurIPS 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -102,7 +106,8 @@ The first open-source African stereotype dataset grounded in local socio-cultura
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Claude, Flan-T5, Flan-T5-Large, GPT-2, Gemma, Gemma 2, Llama, Llama 3.2, Mistral, Mistral 7B, Phi-3, Phi-3 Mini, Qwen, Qwen 2.5, Qwen2.5, T5, T5-Large. Verified dataset/resource link: Open-source (CC BY 4.0).
+AfriStereo is the first open-source African stereotype dataset, comprising 1,163 community-collected stereotypes from Senegal, Kenya, and Nigeria, augmented to over 5,000 stereotype-antistereotype pairs via few-shot LLM generation with human-in-the-loop validation.
+
 
 ## Notes
 

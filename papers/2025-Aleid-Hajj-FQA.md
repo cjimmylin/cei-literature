@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +45,7 @@ doi: 10.1007/s44443-025-00128-w
 url: "https://link.springer.com/10.1007/s44443-025-00128-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44443-025-00128-w.pdf"
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Islamic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -51,9 +55,9 @@ key_contribution: "Introduces Hajj-FQA, a benchmark Arabic dataset for question 
 significance: "Fills a critical gap in Arabic-language religious QA resources, enabling accurate, domain-specific responses for pilgrims"
 tags: 
 abstract: "Deep learning has signiﬁcantly advanced the question-answering (QA) systems across various sectors. However, Arabiclanguage systems for Hajj-related fatwas (non-binding Islamic legal opinions issued by muftis) remain underdeveloped. This paper introduces Hajj-FQA, a benchmark Arabic dataset speciﬁcally designed to develop HajjBot - a specialized chatbot for fatwas QA during the annual Hajj pilgrimage. The dataset captures the unique linguistic and jurisprudential characteristics of pilgrims' inq"
-LLM_assessed: "BERT, RoBERTa, DeBERTa, T5, BART"
-DATA_URL: "https://github.com/Omarito2412/ASKFM"
-pdf_extract: "PDF Extracts/0000/2025-Aleid-Hajj-FQA.md"
+LLM_assessed: "BART, BERT, RoBERTa"
+DATA_URL: NA
+pdf_extract: "PDF Extracts/2025/2025-Aleid-Hajj-FQA.md"
 local_pdf: "[[PDFs/2025/2025-Aleid-Hajj-FQA.pdf]]"
 CONF-CC: "Journal of King Saud University - Computer and Information Sciences"
 DATE_ADDED: 20260207
@@ -139,7 +143,7 @@ The authors conclude that Hajj-FQA provides both a critical resource for develop
 
 ## Data Description
 
-The Hajj-FQA benchmark is a manually annotated Arabic QA dataset of 800 Hajj-related fatwas designed for developing chatbot applications. It comprises four specialized datasets supporting extractive MRC, generative MRC, duplicate question detection, and duplicate answer detection tasks. Multiple Arabic and multilingual BERT variants (AraBERT, CAMeLBERT, MARBERTv2, mBERT, DeBERTaV3, XLM-RoBERTa) and generative models (AraBART, AraT5, mT5) were fine-tuned and evaluated with 10-fold cross-validation.
+Hajj-FQA: a benchmark Arabic dataset of expert-annotated Hajj-related fatwas for question-answering systems, supporting machine reading comprehension (MRC), duplicate question detection (DQD), and duplicate answer detection (DAD) tasks.
 
 
 ## Notes

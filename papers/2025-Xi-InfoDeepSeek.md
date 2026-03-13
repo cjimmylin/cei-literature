@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ abstract: "Retrieval-Augmented Generation (RAG) enhances large language models (
 paper_summary: "Abstract: Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by grounding responses with retrieved information. As an emerging paradigm, Agentic RAG further enhances this process by intr | Overview: InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation Yunjia Xi1, Jianghao Lin1∗, Menghui Zhu2, Yongzhao Xiao1, Zhuoying Ou1, Jiaqi Liu1, Tong Wan1, Bo Chen2, Weiwe | Key Findings: w/ Golden Doc Set Dynamic Evaluation w/o Golden Doc Set 🎯 Answer Accuracy 📦 Info. Quality by NDCG & Recall ✂️ Rubost & Compact 🎯 Answer Accuracy ⏱️ In"
 local_pdf: "[[PDFs/2025/2025-Xi-InfoDeepSeek.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4o, o3, Claude, DeepSeek, Gemini, Llama, Qwen"
+LLM_assessed: "GPT-4o, Claude-3, DeepSeek, Gemini, Llama-3, Qwen"
 DATA_URL: "https://infodeepseek.github.io/"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -132,7 +136,7 @@ Agentic RAG is the future of knowledge systems, but we lack the tools to measure
 
 ## Data Description
 
-InfoDeepSeek is a benchmark with 245 manually curated challenging questions designed for evaluating agentic information seeking in real-world dynamic web environments. The questions satisfy criteria of determinacy, difficulty, and diversity across 14 domains and 19 predominant languages, covering attributes like multi-hop reasoning, long-tail knowledge, time-sensitivity, freshness, distracting information, and false premises. The benchmark evaluates multiple LLMs including GPT-4o, o3-mini, Claude-3.7-Sonnet, DeepSeek-V3, DeepSeek-R1, Gemini-2.5-Flash/Pro, Llama-4-Maverick, and Qwen3-32B under an agentic RAG framework.
+InfoDeepSeek benchmark: 245 manually curated, high-quality challenging questions for evaluating agentic Retrieval-Augmented Generation in real-world, dynamic web environments, spanning 14 domains and 19 predominant languages.
 
 
 ## Notes

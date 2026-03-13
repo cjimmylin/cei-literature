@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) can elicit unintended and even harmful content when misaligned with human values, posing severe risks to users and society. To mitigate these risks, current evaluation benchmarks predominantly employ expertdesigned contextual scenarios to assess how well LLMs align with human values. However, the labor-intensive nature of these benchmarks limits their test scope, hindering their ability to generalize to the extensive variety of open-world use cases and identify rare..."
-LLM_assessed: "GPT-4, GPT-3.5, Gemini, Vicuna, Llama-2"
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2, Vicuna"
 DATA_URL: "https://github.com/SophieZheng998/ALI-Agent"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "NeurIPS 2024"
@@ -100,7 +104,8 @@ Tests across three aspects of human values: stereotypes (DecodingTrust, CrowS-Pa
 
 ## Data Description
 
-ALI-Agent is an agent-based evaluation framework that uses LLM-powered autonomous agents to conduct adaptive alignment assessments of LLMs across stereotypes, morality, and legality. The framework operates through Emulation and Refinement stages, testing 10 mainstream LLMs including GPT-4, GPT-3.5, Gemini-Pro, ChatGLM3, Vicuna (7B/13B/33B), and Llama-2 (7B/13B/70B) on six datasets, using a fine-tuned Llama-2 evaluator and GPT-4 as the core controller.
+ALI-Agent: an agent-based evaluation framework that autonomously generates and refines alignment test scenarios to probe LLM misalignment across stereotypes, morality, and legality.
+
 
 ## Notes
 

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As LLMs excel on standard reading comprehension benchmarks, attention is shifting toward evaluating their capacity for complex abstract reasoning and inference. Literaturebased benchmarks, with their rich narrative and moral depth, provide a compelling framework for evaluating such deeper comprehension skills. Here, we present MORABLES, a humanverified benchmark built from fables and short stories drawn from historical literature."
-LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Mistral, Mixtral, Qwen, DeepSeek, o3"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Llama-3, Mistral, Mixtral, Qwen, o3"
 DATA_URL: "https://huggingface.co/datasets/cardiffnlp/Morables"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Literature-based benchmark using fables for abstract moral reasoning, includes a
 
 ## Data Description
 
-MORABLES is a human-verified benchmark of 709 fables and short stories from historical literature, structured as multiple-choice questions targeting moral inference with carefully crafted distractors. Eleven LLMs are evaluated including Mistral 7B, Llama 3.1 8B, Qwen 2.5 7B, Mixtral 8x22B, Llama 3.3 70B, DeepSeek V3, GPT-4o, Gemini 2.0 Flash, Claude 3.5 Sonnet, GPT-o3-mini, and DeepSeek R1, with adversarial variants (character swaps, trait injection, tautology injection) and alternative evaluation procedures (NOTO, True/False).
+MORABLES is a human-verified benchmark of 709 fables and short stories drawn from Western historical literature (Aesop, La Fontaine), structured as 5-choice MCQA moral inference tasks with adversarial variants (character swaps, trait injection, tautology injection). Publicly released on HuggingFace.
+
 
 ## Notes
 

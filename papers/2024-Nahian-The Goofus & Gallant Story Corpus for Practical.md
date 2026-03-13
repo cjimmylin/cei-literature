@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ local_pdf: "[[PDFs/2024/2024-Nahian-The Goofus & Gallant Story Corpus for Practi
 abstract: "Values or principles are key elements of human society that influence people to behave and function according to an accepted standard set of social rules to maintain social order. As AI systems are becoming ubiquitous in human society, it is a major concern that they could violate these norms or values and potentially cause harm. Thus, to prevent intentional or unintentional harm, AI systems are expected to take actions that align with these principles."
 CONF-CC: "Machine Learning"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, BERT"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -103,7 +107,7 @@ Values or principles are key elements of human society that influence people to 
 
 ## Data Description
 
-The paper introduces the Goofus and Gallant story corpus, a multi-modal dataset for practical value alignment containing 1,387 texts and 819 images from Goofus and Gallant comic strips (1995-2017). The dataset includes two sub-datasets: the GnG Normative dataset (classifying actions as normative/non-normative) and the GnG Principles dataset (annotated with 27 social values from the Kiesel taxonomy). GPT-4o was used for principle annotation and BERT-based models served as classification baselines.
+The Goofus & Gallant Story Corpus is a multimodal dataset of 1,387 text descriptions and 819 images from Goofus & Gallant comic strips (1995-2017), annotated for normativity and social principles, for AI value alignment research.
 
 
 ## Notes

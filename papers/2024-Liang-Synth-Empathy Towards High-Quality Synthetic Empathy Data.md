@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -61,7 +64,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
@@ -97,7 +100,8 @@ In recent years, with the rapid advancements in large language models (LLMs), ac
 
 ## Data Description
 
-Synth-Empathy introduces an LLM-based data generation and quality/diversity selection pipeline for creating high-quality empathetic dialogue data. The pipeline generates over 250K empathetic data points from the EmpatheticDialogues (ED) dataset (25,000 daily conversations with 32 emotion labels), applies quality selection using a fine-tuned discriminator and gte-qwen2-7b-instruct embeddings, and diversity selection via KCenterGreedy algorithm. Multiple LLMs including LLaMA3-8B-Instruct, Mixtral-8x7B-Instruct, and Qwen1.5-72B-Chat were evaluated as baselines for empathetic response generation.
+Synthetic empathetic dialogue dataset generated via LLM pipeline with quality and diversity selection, used to fine-tune and evaluate empathetic response models.
+
 
 ## Notes
 

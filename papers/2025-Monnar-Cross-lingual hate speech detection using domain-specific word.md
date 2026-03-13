@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +48,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md"
 local_pdf: "[[PDFs/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "English, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/facebookresearch/XLM"
+LLM_assessed: NA
+DATA_URL: "https://github.com/aymeam/Datasets-for-Hate-Speech-Detection"
 tags: 
 abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Hate speech detection in online social networks is a multidimensional problem, dependent on language and cultural factors. Most supervised learning resources for this task, such as labeled datasets and Natural Language Processing (NLP) tools, have been specifically tailored for English. However, a large portion of web users around the world speak different languages, creating an important need..."
 CONFERENCE: "Other Conference"
@@ -62,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for hate speech detection"
@@ -100,7 +103,8 @@ THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFEN
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/facebookresearch/XLM.
+Domain-specific multilingual hate speech word embeddings (Word2Vec-based) trained on 30M English and 10M each Spanish/Italian tweets, released alongside hate speech detection datasets for cross-lingual evaluation.
+
 
 ## Notes
 

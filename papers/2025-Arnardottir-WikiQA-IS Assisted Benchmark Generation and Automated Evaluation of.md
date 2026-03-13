@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +46,14 @@ pdf_extract: "PDF Extracts/2025/2025-Arnardottir-WikiQA-IS Assisted Benchmark Ge
 local_pdf: "[[PDFs/2025/2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Icelandic"
-languages_list: Icelandic
+cultures_nationalities_list: "N/A"
+languages_list: "Icelandic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, GPT-4o"
-DATA_URL: "NA"
+LLM_assessed: "Claude-3 Opus, Claude-3 Sonnet, GPT-4, GPT-4o, Llama-3, o1-preview"
+DATA_URL: "https://repository.clarin.is/repository/xmlui/handle/20.500.12537/347"
 tags: 
 abstract: "This paper presents WikiQA-IS, a novel question-answering dataset focusing on Icelandic culture and history, along with an automated pipeline for dataset generation and evaluation. Leveraging GPT4 to create questions and answers based on Icelandic Wikipedia articles and news sources, we produced a high-quality corpus of 2,000 question-answer pairs. We introduce an automatic evaluation method using GPT-4o as a judge, which shows strong agreement with human evaluations."
 CONFERENCE: "ACL 2025"
@@ -61,7 +64,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +102,7 @@ This paper presents WikiQA-IS, a benchmark of 2,000 question-answer pairs on Ice
 
 ## Data Description
 
-WikiQA-IS is a benchmark of 2,000 QA pairs on Icelandic culture and history generated from Wikipedia and news using GPT-4. Automated evaluation via GPT-4o as judge shows strong agreement with human evaluation. Closed-source models outperform open-weights for Icelandic cultural knowledge.
+WikiQA-IS: 2,000 Icelandic cultural and historical QA pairs generated from Wikipedia and news sources using GPT-4 Turbo, released under CC BY license with automated evaluation pipeline.
 
 
 ## Notes

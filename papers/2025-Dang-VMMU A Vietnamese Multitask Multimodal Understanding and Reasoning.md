@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude 4., GPT-4, Gemma, Gemma-3, Llama-4, Mistral Small, Mistral-Medium, Mistral-Small, MistralAI, Qwen, Qwen-2.5, claude-4."
-DATA_URL: "NA"
+LLM_assessed: "Claude, GPT-4, GPT-4o, Gemini, o3"
+DATA_URL: "https://vmmu-bench.github.io"
 tags: 
 abstract: "We introduce VMMU, a Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark designed to evaluate how vision language models (VLMs) interpret and reason over visual and textual information beyond English. VMMU consists of 2.5k multimodal questions across 7 tasks, covering a diverse range of problem contexts, including STEM problem solving, data interpretation, rule-governed visual reasoning, and abstract visual reasoning."
 research_topic: "Computer Vision & Multimodal"
@@ -64,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "2,548 questions"
 ---
@@ -99,7 +103,8 @@ Vietnamese multimodal benchmark with 2,548 questions across 7 tasks. Tests visua
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 4., GPT-4, Gemma, Gemma-3, Llama-4, Mistral Small, Mistral-Medium, Mistral-Small, MistralAI, Qwen, Qwen-2.5, claude-4.. No high-confidence repository-style data URL was identified.
+Releases VMMU, a Vietnamese multimodal benchmark of 2,548 questions spanning 7 domains (Mathematics, Physics, Chemistry, Biology, Geography, Driving Test, IQ Test), collected from official Vietnamese government exam sources and made available with code at vmmu-bench.github.io.
+
 
 ## Notes
 

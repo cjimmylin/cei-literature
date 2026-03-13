@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ local_pdf: "[[PDFs/2022/2022-Ziems-The Moral Integrity Corpus.pdf]]"
 publication: "ACL 2022"
 CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-2, T5, BART, BERT, ALBERT"
+LLM_assessed: "ALBERT, BART, BERT, GPT-2, T5"
 DATA_URL: "https://github.com/GT-SALT/mic"
 CONFERENCE: "ACL 2022"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
@@ -108,7 +112,8 @@ Size: 38,000 prompt-reply pairs; 99,000 distinct Rules of Thumb; 114,000 annotat
 
 ## Data Description
 
-The Moral Integrity Corpus (MIC) captures the moral assumptions of 38,000 prompt-reply pairs using 99,000 distinct Rules of Thumb (RoTs), with 114,000 sets of structured annotations covering moral foundations, global consensus, violation severity, and reply alignment. GPT-2, BART, and T5 are evaluated for RoT generation, while BERT and ALBERT are benchmarked for RoT attribute classification. Chatbot replies were generated using BlenderBot, DialoGPT, and GPT-Neo to create the initial conversational pairs.
+MIC (Moral Integrity Corpus): 38k prompt-reply pairs with 99k Rules of Thumb annotations capturing moral assumptions of dialogue systems, with 9 moral/social attributes.
+
 
 ## Notes
 

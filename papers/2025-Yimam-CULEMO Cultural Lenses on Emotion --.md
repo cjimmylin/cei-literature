@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: "WebSearch: CuLEmo cultural lenses emotion benchmarking"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian, Arabic, African/Ubuntu, German, Spanish, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Indian, Arabic, African, German, Spanish"
+cultures_nationalities_list: "Indian, Arabic, African/Ubuntu, German, Spanish, Multicultural/Cross-cultural"
 languages_list: "Amharic, Arabic, English, German, Hindi, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "NLP research has increasingly focused on subjective tasks such as emotion analysis. However, existing emotion benchmarks suffer from two major shortcomings: (1) they largely rely on keyword-based emotion recognition, overlooking crucial cultural dimensions required for deeper emotion understanding, and (2) many are created by translating English-annotated data into other languages, leading to potentially unreliable evaluation."
-LLM_assessed: "ChatGPT, Claude, Claude-3, Claude-3-opus, Claude-3.5, Claude-3.5-sonnet, GPT-3, GPT-3.5, GPT-4, Gemma, Gemma-2, Llama-3, Llama-3.2, Llama"
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, Claude, Claude-3, Llama-3, Gemma"
 DATA_URL: "https://github.com/llm-for-emotion/culemo"
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: "Preprint"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,8 @@ First benchmark for culture-aware emotion prediction across six languages. 400 c
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, Claude, Claude-3, Claude-3-opus, Claude-3.5, Claude-3.5-sonnet, GPT-3, GPT-3.5, GPT-4, Gemma, Gemma-2, Llama-3, Llama-3.2, Llama. Verified dataset/resource link: https://github.com/llm-for-emotion/culemo.
+CuLEmo is a cross-cultural emotion benchmark with 400 human-annotated questions per language across 6 languages (Amharic, Arabic, English, German, Hindi, Spanish), requiring nuanced cultural reasoning about emotions in 10 topic categories.
+
 
 ## Notes
 

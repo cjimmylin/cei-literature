@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +49,7 @@ local_pdf: "[[PDFs/2024/2024-Chakravarthi-Findings of the Shared Task on.pdf]]"
 publication: "WebSearch: DravidianLangTech shared task"
 CONF-CC: "Shared Task (2024)"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Telugu"
 religious_values: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This paper examines the submissions of various participating teams to the task on Hate and Offensive Language Detection in Telugu Codemixed Text (HOLD-Telugu) organized as part of DravidianLangTech 2024. In order to identify the contents containing harmful information in Telugu codemixed social media text, the shared task pushes researchers and academicians to build models. The dataset for the task was created by gathering YouTube comments and annotated manually."
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -98,7 +102,8 @@ Shared task on hate and offensive language detection in Telugu code-mixed text a
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
+Dataset of 4,500 annotated Telugu-English code-mixed YouTube comments for hate and offensive language detection, used in the HOLD-Telugu shared task at DravidianLangTech 2024.
+
 
 ## Notes
 

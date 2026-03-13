@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,17 +45,17 @@ CONF-CC: "N/A"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous Australian"
+national_ethnic_cultural: "Australian/Aboriginal"
+cultures_nationalities_list: "Australian/Aboriginal"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Input paper for Australia's ACOLA Horizon Scanning Project on AI. Addresses Indigenous data sovereignty — the rights of Indigenous peoples to own, control, access, and possess data about their members, knowledge systems, customs, or territories — in the context of AI development."
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "Language models (LMs) are pretrained on diverse data sources, includi
 paper_summary: "Abstract: Language models (LMs) are pretrained on di- verse data sources, including news, discussion forums, books, and online encyclopedias. A sig- nificant portion of this data includes opinions and perspecti | Overview: From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models Shangbin Feng1 Chan Young Park2 Yuhan Liu3 Yulia Tsvetkov1 1Universit | Methodology: We propose a two-step methodology to establish the effect of political biases in pretraining corpora on the fairness of downstream tasks: (1) we devel | Key Findings: framework, we investigate the impact of these bi- ases on downstream tasks with social implications such as hate speech detection and misinformation i | Conclusions: forums, books, and online encyclopedias. A sig- nificant portion of this data includes opinions and perspectives which, on one hand, celebrate democra"
 local_pdf: "[[PDFs/2023/2023-Feng-From Pretraining Data to Language Models to.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, RoBERTa, ALBERT, BART, GPT-2, GPT-3, GPT-4, ChatGPT, Alpaca, Llama"
+LLM_assessed: "ALBERT, Alpaca, BART, BERT, ChatGPT, GPT-2, GPT-3, GPT-4, LLaMA, RoBERTa"
 DATA_URL: "https://github.com/BunsenFeng/PoliLean"
 CONFERENCE: "ACL 2023"
 ethics_overall: "Yes"
@@ -67,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation methodology text corpus for hate speech detection"
 data_metrics: "Not specified"
 ---

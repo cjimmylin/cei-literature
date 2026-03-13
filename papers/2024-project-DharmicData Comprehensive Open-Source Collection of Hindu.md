@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ local_pdf: N/A
 publication: "GitHub (open-source)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Sanskrit"
 religious_values: "Hinduism"
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "Not specified"
@@ -101,7 +104,7 @@ Ramcharitmanas, Bhagavad Gita, Mahabharata (~1 lakh shlokas), Valmiki Ramayana, 
 
 ## Data Description
 
-Comprehensive structured JSON collection of major Hindu sacred texts including Ramcharitmanas, Bhagavad Gita, Mahabharata, Valmiki Ramayana, Rigveda, Yajurveda, and Atharvaveda. Designed for ML/LLM training or evaluation on Hindu knowledge QA, released under Open Database License.
+Comprehensive structured JSON collection of major Hindu sacred texts (Vedas, epics, Gita) ready for ML/LLM analysis, released under Open Database License. Suitable as training or evaluation corpus for Hindu knowledge question-answering systems.
 
 
 ## Notes

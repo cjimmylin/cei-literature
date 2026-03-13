@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ local_pdf: "[[PDFs/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Mo
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Iranian, American"
+national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, GPT-4, Gemma, GPT-4o, Llama, Llama 3.2, Llama-3, Llama-3.1, Llama-3.2, Llama3, Qwen, Qwen2, Qwen2.5, Qwen3, gemma-3, llama 3"
+LLM_assessed: "BERT, Gemini, Gemma, GPT-4o, Llama-3, Qwen, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "As large language models (LLMs) become increasingly embedded in our daily lives, evaluating their quality and reliability across diverse contexts has become essential. While comprehensive benchmarks exist for assessing LLM performance in English, there remains a significant gap in evaluation resources for other languages. Moreover, because most LLMs are trained primarily on data rooted in European and American cultures, they often lack familiarity with non-Western cultural contexts."
@@ -97,7 +101,8 @@ Introduces 19 new evaluation datasets designed to assess LLMs on Iranian law, Pe
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT, GPT-4, Gemma, GPT-4o, Llama, Llama 3.2, Llama-3, Llama-3.1, Llama-3.2, Llama3, Qwen, Qwen2, Qwen2.5, Qwen3, gemma-3, llama 3. No high-confidence repository-style data URL was identified.
+MELAC introduces 19 new evaluation datasets for the Persian language and Iranian culture, including 13 original datasets (Persian literature, Iranian law, Persian grammar, religious rules, university entrance exams) and 6 translated/localized versions of standard English benchmarks.
+
 
 ## Notes
 

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md"
 local_pdf: "[[PDFs/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: Multilingual
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, Command-R, GPT-4, GPT-4o, GPT4, GPT4o, Gemma, LLAMA 3, Llama, Llama-3, Llama 3."
+LLM_assessed: "GPT-4, GPT-4o, Command R+, Gemma, Llama-3"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) attempt to imitate human behavior by responding to humans in a way that pleases them, including by adhering to their values. However, humans come from diverse cultures with different values. We prompt different LLMs with advice requests based on Hofstede Cultural Dimensions, incorporating personas representing 36 countries and languages. Our analysis reveals that while LLMs can differentiate cultural values, they often fail to consistently uphold them when giving..."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

@@ -2,28 +2,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +21,14 @@ pdf_extract: "PDF Extracts/2025/2025-Pretrained-MiLiC-Eval Benchmarking Multilin
 local_pdf: "[[PDFs/2025/2025-Pretrained-MiLiC-Eval Benchmarking Multilingual LLMs for China’s Minority.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese, Tibetan, Uyghur, Kazakh, Mongolian"
-languages_list: "Chinese, Multilingual, Uyghur"
+cultures_nationalities_list: "Chinese"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, GPT-4, GPT-4o, GPT-4o-mini, Gemma, Gemma 3, Gemma-2, Gemma-3, Llama-3.1, Qwen, Qwen-2.5, Qwen-3, Llama-3, llama2"
-DATA_URL: "https://github.com/microsoft/DeepSpeed"
+LLM_assessed: "Gemini, Gemma-2, GPT-4o mini, Llama-3, Mistral, Qwen-2"
+DATA_URL: "https://github.com/luciusssss/MiLiC-Eval"
 tags: 
 abstract: "Large language models (LLMs) excel in highresource languages but struggle with lowresource languages (LRLs), particularly those spoken by minority communities in China, such as Tibetan, Uyghur, Kazakh, and Mongolian. To systematically track the progress in these languages, we introduce MiLiC-Eval, a benchmark designed for minority languages in China, featuring 24K instances across 9 tasks. MiLiCEval focuses on underrepresented writing systems. Its parallelism between tasks and languages can provide a faithful and fine-grained assessment of linguistic and problem-solving skills. Our evaluation reveals that open-source LLMs perform poorly on syntax-intensive tasks and multi-script languages. We further demonstrate how MiLiC-Eval can help advance LRL research in handling diverse writing systems and understanding the process of language adaptation 1."
 CONFERENCE: "Preprint"
@@ -61,10 +39,11 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "24k instances"
 ---
+
 # MiLiC-Eval: Benchmarking Multilingual LLMs for China’s Minority Languages
 
 ## Authors
@@ -96,7 +75,8 @@ Large language models (LLMs) excel in highresource languages but struggle with l
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, GPT-4, GPT-4o, GPT-4o-mini, Gemma, Gemma 3, Gemma-2, Gemma-3, Llama-3.1, Qwen, Qwen-2.5, Qwen-3, Llama-3, llama2. Verified dataset/resource link: https://github.com/microsoft/DeepSpeed.
+MiLiC-Eval is a benchmark with 24K instances across 9 tasks for four minority languages in China (Tibetan, Uyghur, Kazakh, Mongolian), with human-translated data emphasizing underrepresented non-Latin writing systems.
+
 
 ## Notes
 

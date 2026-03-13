@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +61,7 @@ local_pdf: "[[PDFs/2024/2024-Group-The AI Safety Benchmark.pdf]]"
 abstract: "This paper introduces v0.5 of the AI Safety Benchmark, which has been created by the MLCommons AI Safety Working Group. The AI Safety Benchmark has been designed to assess the safety risks of AI systems that use chat-tuned language models. We introduce a principled approach to specifying and constructing the benchmark, which for v0.5 covers only a single use case (an adult chatting to a general-purpose assistant in English), and a limited set of personas (i.e., typical users, malicious users, and vulnerable users). We created a new taxonomy of 13 hazard categories, of which 7 have tests in the v0.5 benchmark. We plan to release version 1.0 of the AI Safety Benchmark by the end of 2024. The v1.0 benchmark will provide meaningful insights into the safety of AI systems. However, the v0.5 benchmark should not be used to assess the safety of AI systems. We have sought to fully document the limitations, flaws, and challenges of v0.5. This release of v0.5 of the AI Safety Benchmark includes (1) a principled approach to specifying and constructing the benchmark, which comprises use cases, types of systems under test (SUTs), language and context, personas, tests, and test items; (2) a taxonomy of 13 hazard categories with definitions and subcategories; (3) tests for seven of the hazard categories, each comprising a unique set of test items, i.e., prompts. There are 43,090 test items in total, which we created with templates; (4) a grading system for AI systems against the benchmark; (5) an openly available platform, and downloadable tool, called ModelBench that can be used to evaluate the safety of AI systems on the benchmark; (6) an example evaluation report which benchmarks the performance of over a dozen openly available chat-tuned language models; (7) a test specification for the benchmark."
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "Bartolo, Bartolo59, GPT-4, Gemma, Llama, Llama 2, LlamaGuard, Palm 2, palm"
+LLM_assessed: NA
 DATA_URL: "https://github.com/mlcommons/modelbench"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -66,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -96,7 +101,7 @@ This paper introduces v0.5 of the AI Safety Benchmark, which has been created by
 
 ## Data Description
 
-The AI Safety Benchmark v0.5 from MLCommons is a safety evaluation framework comprising 43,090 template-generated test items covering seven of 13 defined hazard categories for chat-tuned language models. The benchmark covers a single use case (adult chatting with a general-purpose assistant in English) with three persona types (typical, malicious, and vulnerable users). Over a dozen openly available chat-tuned models were tested but all results are anonymized, and the benchmark includes an open-source evaluation tool (ModelBench) with a grading system.
+MLCommons AI Safety Benchmark v0.5 with over 43,000 test items covering seven hazard categories for evaluating safety of chat-tuned language models in English.
 
 
 ## Notes

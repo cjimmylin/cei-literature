@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +47,13 @@ local_pdf: "[[PDFs/2021/2021-Risch-GermEval 2021 Shared Task on the Identificati
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: BERT
-DATA_URL: "NA"
+DATA_URL: "https://germeval2021toxic.github.io/SharedTask/"
 tags: 
 abstract: "We present the GermEval 2021 shared task on the identiﬁcation of toxic, engaging, and factclaiming comments. This shared task comprises three binary classiﬁcation subtasks with the goal to identify: toxic comments, engaging comments, and comments that include indications of a need for fact-checking, here referred to as fact-claiming comments. Building on the two previous GermEval shared tasks on the identiﬁcation of offensive language in 2018 and 2019, we extend this year’s task deﬁnition to..."
 CONFERENCE: "ACL 2021"
@@ -59,9 +62,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -99,7 +102,7 @@ This paper presents the GermEval 2021 shared task, which extends traditional hat
 
 ## Data Description
 
-Extended GermEval shared task for identifying toxic, engaging, and fact-claiming comments in German Facebook posts. Expands beyond offensive language detection to include respectful communication and fact-checking dimensions. Participating systems used BERT-based models.
+GermEval 2021 dataset: 4,188 German Facebook comments annotated for toxicity, engaging quality, and fact-claiming, with theory-based annotation scheme and high intercoder reliability.
 
 
 ## Notes

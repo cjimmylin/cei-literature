@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +53,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT"
+LLM_assessed: "ChatGLM, GPT-3.5, GPT-4, InternLM, Llama-2, Llama-3, Mistral, Qwen-1.5, Qwen-2"
 DATA_URL: "https://github.com/STAIR-BUPT/JailBench"
 tags: 
 abstract: "Large language models (LLMs) have demonstrated remarkable capabilities across various applications, highlighting the urgent need for comprehensive safety evaluations. In particular, the enhanced Chinese language proficiency of LLMs, combined with the unique characteristics and complexity of Chinese expressions, has driven the emergence of Chinese-specific benchmarks for safety assessment. However, these benchmarks generally fall short in effectively exposing LLM safety vulnerabilities."
@@ -62,7 +65,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -97,7 +100,7 @@ First comprehensive Chinese security benchmark with hierarchical safety taxonomy
 
 ## Data Description
 
-Introduces JailBench, a comprehensive Chinese security assessment benchmark with 10,800 queries across multiple safety categories. Tests 13 LLMs including ChatGPT on jailbreak resistance. Code and benchmark available on GitHub.
+Releases JailBench, a Chinese security assessment benchmark with 10,800 jailbreak-enhanced queries spanning 5 risk domains and 40 risk types, constructed using the Automatic Jailbreak Prompt Engineer (AJPE) framework.
 
 
 ## Notes

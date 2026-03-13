@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ newtags:
 tags: 
 abstract: "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI’s public discourse leveraged ‘ethics’, ‘safety’, ‘alignment’ and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was..."
 LLM_assessed: "NA"
-DATA_URL: "NA"
+DATA_URL: "https://github.com/famous-coder/openai-case-study"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -98,7 +101,7 @@ Type: Theoretical/proposal paper with practical application demonstration (psych
 
 ## Data Description
 
-Theoretical paper examining how AI systems trained on the Confucian Analects might approach ethical dilemmas. Proposes a framework for Confucian-informed AI ethical reasoning. No LLMs were actually trained or tested.
+Structured corpus of OpenAI public documentation differentiating general audience vs. academic communications, used for qualitative content analysis and NLP topic modeling of ethical AI discourse.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,8 +58,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "OpenThaiGPT 1.5 is an advanced Thai language chat model based on Qwen v2.5, ﬁnetuned on over 2,000,000 Thai instruction pairs. This report provides an engineering perspective on the model’s development, capabilities, and performance. We discuss the model’s architecture, training process, and key features, including multi-turn conversation support, Retrieval Augmented Generation (RAG) compatibility, and tool-calling functionality. Benchmark results demonstrate OpenThaiGPT 1."
-LLM_assessed: "Claude 3.5 Sonnet, GPT-4o, Llama 3, Llama 3.1, Llama-3, Llama-3.1, Qwen, Qwen2, Qwen2.5"
-DATA_URL: "https://huggingface.co/openthaigpt"
+LLM_assessed: "Claude-3, GPT-4o, Llama-3, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/openthaigpt/openthaigpt_eval"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ Open-source Thai-centric LLM based on Llama-2 (7B/13B/70B). Evaluated on Thai Ex
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 3.5 Sonnet, GPT-4o, Llama 3, Llama 3.1, Llama-3, Llama-3.1, Qwen, Qwen2, Qwen2.5. Verified dataset/resource link: https://huggingface.co/openthaigpt.
+The OpenThaiGPT Evaluation Dataset is a Thai-language benchmark comprising standardized academic and professional exam questions (A-Level, ONET, TGAT, TPAT1, investment consultant exams) plus NLU benchmarks, released under Apache-2.0 to enable standardized evaluation of Thai language models.
+
 
 ## Notes
 

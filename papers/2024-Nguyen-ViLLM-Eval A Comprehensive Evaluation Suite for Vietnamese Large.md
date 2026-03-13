@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5-turbo, Llama, LLaMa 2, Llama-2, Mistral 7B"
-DATA_URL: "https://github.com/ZaloAI-Jaist/VMLU"
+LLM_assessed: "ChatGPT, Mistral"
+DATA_URL: "https://huggingface.co/datasets/vlsp-2023-vllm/ViLLM-Eval"
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) necessitates the development of new benchmarks to accurately assess their capabilities. To address this need for Vietnamese, this work aims to introduce ViLLM-Eval, the comprehensive evaluation suite designed to measure the advanced knowledge and reasoning abilities of foundation models within a Vietnamese context. ViLLM-Eval consists of multiple-choice questions and predict next word tasks spanning various difficulty levels and diverse..."
 CONFERENCE: "Preprint"
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Comprehensive evaluation suite for Vietnamese LLMs from VLSP 2023 shared task. I
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT, GPT-3, GPT-3.5-turbo, Llama, LLaMa 2, Llama-2, Mistral 7B. Verified dataset/resource link: https://github.com/ZaloAI-Jaist/VMLU.
+Comprehensive Vietnamese LLM evaluation suite comprising LAMBADA vi (10,246 samples), Exam Vietnamese (19,150 multiple-choice questions grades 6-12), General Knowledge (2,000 questions), and Comprehension QA (900 questions) from VLSP 2023.
+
 
 ## Notes
 

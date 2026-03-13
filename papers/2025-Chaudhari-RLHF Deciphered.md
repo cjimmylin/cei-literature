@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +62,7 @@ abstract: "Large Language Models (LLMs) trained on extensive textual corpora hav
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Chaudhari-RLHF Deciphered.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Alpaca, Bloom-7B, ChatGPT, Codex, Dolly, GPT-3, GPT-3.5, GPT-4, GPT4, Llama, Text-Davinci-003, Vicuna, Vicuna-80, WizardLM, BERT"
+LLM_assessed: NA
 DATA_URL: "https://github.com/GaryYufei/AlignLLMHumanSurvey"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: "Journal"

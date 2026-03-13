@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,12 +50,12 @@ local_pdf: "[[PDFs/2024/2024-Burema-Evaluating Dutch Social Bias in Large Langua
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Dutch"
 cultures_nationalities_list: "Dutch"
-languages_list: Dutch
+languages_list: "Dutch"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, GPT-4, LLaMa-2, Mistral, Zephyr"
+LLM_assessed: "Claude-3.5-Haiku, EuroLLM-9B-Instruct, GPT-4o mini, Geitje-7B-Ultra"
 DATA_URL: "https://github.com/renateburema/master"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly used by people in their daily lives. However, LLMs can contain biases and express these biases in their responses. One of these biases is social bias, on which this thesis is focused. Furthermore, one form of social bias is a disparate treatment of individuals based on characterizations such as age, gender and race. It is therefore crucial to explore the possible biases within LLMs and to raise awareness."
@@ -98,7 +103,7 @@ This Utrecht University master's thesis evaluates social bias in Dutch language 
 
 ## Data Description
 
-Dutch translation and adaptation of social bias evaluation prompts for LLMs. Tests gender, nationality, religion, and other demographic biases in Dutch language generations from major LLMs. No public dataset URL provided.
+Master's thesis evaluating Dutch social bias in LLM hiring decisions using handwritten Dutch prompts testing gender and country-of-origin bias across four models.
 
 
 ## Notes

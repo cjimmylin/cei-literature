@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "Cambridge NLP Journal 2025"
 pdf_extract: PDF Extracts/2025/2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md
 local_pdf: "[[PDFs/2025/2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "French, German, Spanish, Brazilian"
+national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
-languages_list: Portuguese
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Glove"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/franciellevargas/HateBR"
 tags: 
 abstract: "This paper provides data resources for low-resource hate speech detection. Speciﬁcally, we introduce two different data resources: (i) the HateBR 2.0 corpus, which is composed of 7,000 comments extracted from Brazilian politicians’ accounts on Instagram and manually annotated a binary class (offensive versus non-offensive) and hate speech targets. It consists of an updated version of the HateBR corpus, in which highly similar and one-word comments were replaced; and (ii) the multilingual..."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
@@ -98,7 +102,8 @@ Expert data resources for Brazilian Portuguese hate speech detection. HateBR 2.0
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Glove. Verified dataset/resource link: https://github.com/franciellevargas/HateBR.
+Introduces two expert-annotated data resources: (1) HateBR 2.0, a corpus of 7,000 Instagram comments in Brazilian Portuguese with binary hate speech labels and updated from the original HateBR; and (2) the Multilingual Offensive Lexicon (MOL), comprising 1,000 explicit and implicit offensive terms with context annotations and translations in English, Spanish, French, German, and Turkish.
+
 
 ## Notes
 

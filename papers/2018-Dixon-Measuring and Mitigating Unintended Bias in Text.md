@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -147,7 +150,7 @@ The paper establishes that unintended bias in text classification stems from dat
 
 ## Data Description
 
-This paper introduces methods for measuring and mitigating unintended bias in text classification models, illustrated using a toxicity classifier trained on Wikipedia Talk Pages. It demonstrates that identity terms (e.g., 'gay') become disproportionately associated with toxicity labels due to training data imbalance, and proposes an unsupervised data-balancing mitigation strategy. The models tested are CNN-based text classifiers, not LLMs.
+A synthetic test set and augmented training corpus for measuring and mitigating unintended demographic bias in text classifiers, applied to Wikipedia Talk page toxicity annotations.
 
 
 ## Notes

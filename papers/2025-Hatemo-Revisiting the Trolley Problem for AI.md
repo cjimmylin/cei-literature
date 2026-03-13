@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +44,7 @@ pdf_extract: "PDF Extracts/2025/2025-Hatemo-Revisiting the Trolley Problem for A
 local_pdf: "[[PDFs/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Multilingual"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"

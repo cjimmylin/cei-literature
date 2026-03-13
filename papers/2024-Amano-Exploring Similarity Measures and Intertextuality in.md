@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +49,17 @@ local_pdf: "[[PDFs/2024/2024-Amano-Exploring Similarity Measures and Intertextua
 publication: "NLP4DH 2024 (4th International Conference on NLP for Digital Humanities), Miami, USA"
 CONF-CC: "N/A"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Sanskrit"
-religious_values: "Hinduism"
-religious_values_list: "Hinduism"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This paper examines semantic similarity and intertextuality in selected texts from the Vedic Sanskrit corpus, specifically the Maitr¯ayan.¯ı Sam. hit¯a (MS) and K¯at.haka Sam. hit¯a (KS). Three computational methods are employed: Word2Vec for word embeddings, stylo package for stylometric analysis, and TRACER for text reuse detection. By comparing various sections of the texts at different granularities, patterns of similarity and structural alignment are uncovered, providing insights into..."
-LLM_assessed: "BERT, Word2Vec"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: "https://github.com/somiyagawa/VedicSanskrit"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
@@ -100,7 +103,8 @@ Vedic Samhita texts (Maitrayanin Samhita and Kathaka Samhita)
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Word2Vec. No high-confidence repository-style data URL was identified.
+Vedic Sanskrit corpus (Maitrayani Samhita and Kathaka Samhita sections) analyzed using Word2Vec, stylometry (stylo), and TRACER for intertextuality detection.
+
 
 ## Notes
 

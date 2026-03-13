@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ tags:
 abstract: "Reporting bias is the tendency for speakers to omit unnecessary or obvious information while mentioning things they consider relevant or surprising. In descriptions of people, reporting bias can manifest as a tendency to over report on attributes that deviate from the norm. While social bias in language models has garnered a lot of attention in recent years, a majority of the existing work equates “bias” with “stereotypes”."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, RoBERTa, ALBERT, Mistral, Llama, Gemma"
+LLM_assessed: "BERT, RoBERTa, ALBERT, Mistral, LLaMA, Gemma"
 DATA_URL: "https://github.com/TomBladsjo/MARB"
 pdf_extract: "PDF Extracts/2025/2025-Södahl Bladsjö-MARB.md"
 local_pdf: "[[PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
@@ -62,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -84,7 +88,7 @@ Reporting bias is the tendency for speakers to omit unnecessary or obvious infor
 
 ## Data Description
 
-The MARB (Marked Attribute and Reporting Bias) dataset is a diagnostic dataset for studying the interaction between social bias and reporting bias in language models. It consists of 28.5K sequence templates based on naturally occurring English text, populated with attribute descriptors across three categories: Race, Queerness, and Disability. Each template is paired with marked and unmarked versions to measure how language models handle socially marked attributes related to marginalized identities.
+MARB is a diagnostic dataset for studying the interaction between social bias and reporting bias in language models, covering attributes such as race, gender, and other marginalized identities. The dataset is designed to measure whether models over-report on deviations from social norms in descriptions of people.
 
 
 ## Notes

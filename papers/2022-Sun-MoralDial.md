@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "Morality in dialogue systems has raised great attention in research r
 paper_summary: "Abstract: Morality in dialogue systems has raised great attention in research recently. A moral dia- logue system aligned with users' values could enhance conversation engagement and user con- nections. In this | Overview: MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions Hao Sun1, Zhexin Zhang1, Fei Mi2, Yasheng Wang2, Wei Liu3, Jianwei Cui3, Bin Wang3, Qun Liu2, Minlie Huang1∗ 1 | Methodology: constructing moral discussions between sim- ulated specific users and the dialogue system. The constructed discussions consist of express- ing, explai | Key Findings: Automatic open-domain dialogue evaluation is pretty difficult due to the essence of one-to-many mapping. Traditional reference-based methods do not we | Conclusions: State (conversation-level), and (3) Discusser Be- arXiv:2212.10720v2 [cs.CL] 26 May 2023 --- Page 2 --- Expression of basic RoTs Moral Explanation Mor"
 local_pdf: "[[PDFs/2022/2022-Sun-MoralDial.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, ALBERT, RoBERTa"
+LLM_assessed: "BERT, ALBERT, RoBERTa, DialoGPT, BlenderBot"
 DATA_URL: "https://github.com/thu-coai/MoralDial"
 CONFERENCE: "ACL 2022"
 ethics_overall: "Yes"
@@ -67,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,7 @@ Morality in dialogue systems has raised great attention in research recently. A 
 
 ## Data Description
 
-MoralDial provides a framework for training and evaluating moral dialogue systems, with a constructed moral discussion dataset of 383,949 samples across four dialogue flows (moral answering, moral explanation, moral revision, and RoT inference learning). BERT, ALBERT, and RoBERTa are evaluated as answer-RoT agreement scorers for the morality evaluation metrics, with RoBERTa achieving the best classification results (78.4% accuracy, 73.8 F1). DialoGPT and Blenderbot are also tested as dialogue systems but are not in the canonical LLM list.
+MoralDial framework: constructed moral discussion datasets and evaluation metrics for training and evaluating moral dialogue systems.
 
 
 ## Notes

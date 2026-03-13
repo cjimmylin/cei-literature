@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ paper_summary: "Abstract: With the advancement of large language mod- els (LLMs)
 local_pdf: "[[PDFs/2025/2025-Molchanova-Exploring the Potential of Large Language Models.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Mixtral, Claude"
+LLM_assessed: "Claude, GPT-3.5, GPT-4o, Mixtral"
 DATA_URL: "https://github.com/mary-silence/simulating_"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -97,7 +101,7 @@ With the advancement of large language models (LLMs), the focus in Conversationa
 
 ## Data Description
 
-The study evaluates four proprietary LLMs (GPT-3.5 Turbo, GPT-4 Omni, Mixtral 8x22B, and Claude 3 Haiku) on their ability to simulate Big Five personality traits. The evaluation involves BFI-44 questionnaire answering and personality-related text generation, with approximately 288 text samples annotated by 8 human evaluators and an LLM-based personality classifier for automatic evaluation.
+Dataset of LLM-generated texts with predefined Big Five personality trait profiles (GPT-3.5, GPT-4o, Mixtral, Claude 3 Haiku outputs), with human annotations and an open-source analytical framework for personality simulation evaluation.
 
 
 ## Notes

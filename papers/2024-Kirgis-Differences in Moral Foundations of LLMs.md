@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary:
 local_pdf: "[[PDFs/2024/2024-Kirgis-Differences in Moral Foundations of LLMs.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "LLM Moral Foundations"
-LLM_assessed: "Claude, DeepSeek, Gemini, Llama-3, GPT-3.5, GPT-4, o3, Grok"
+LLM_assessed: "Claude-3 Opus, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Gemini, Grok, Llama-3, o3-mini"
 DATA_URL: "https://github.com/peterkirgis/llm-moral-foundations"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +51,7 @@ publication: "ACCV 2024"
 CONF-CC: "ACCV 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cambodian"
+cultures_nationalities_list: "N/A"
 languages_list: "Khmer"
 religious_values: "N/A"
 religious_values_list: "N/A"

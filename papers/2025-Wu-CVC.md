@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,12 +38,12 @@ authors: "Wu, Ping; Shen, Guobin; Zhao, Dongcheng; Wang, Yuwei; Dong, Yiting; Sh
 doi: 10.48550/arXiv.2506.01495
 tags: 
 url: "http://arxiv.org/abs/2506.01495"
-pdf_extract: "PDF Extracts/0000/2025-Wu-CVC.md"
+pdf_extract: "PDF Extracts/2025/2025-Wu-CVC.md"
 local_pdf: "[[PDFs/2025/2025-Wu-CVC.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.01495.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
@@ -50,7 +54,7 @@ key_contribution: "Constructs the 'Chinese Values Corpus' (CVC) with 250k value 
 significance: "Addresses western cultural bias by providing a large-scale, culturally adaptive benchmark for Chinese value alignment"
 abstract: "Ensuring that Large Language Models (LLMs) align with mainstream human val- ues and ethical norms is crucial for the safe and sustainable development of AI. Current value evaluation and alignment are constrained by Western cultural bias and incomplete domestic frameworks reliant on non-native rules; furthermore, the lack of scalable, rule-driven scenario generation methods makes evaluations costly and inadequate across diverse cultural contexts. To address these challenges, we propose a hierarch"
 paper_summary: "Abstract: Ensuring that Large Language Models (LLMs) align with mainstream human val- ues and ethical norms is crucial for the safe and sustainable development of AI. Current value evaluation and alignment are  | Overview: C-VARC: A Large-Scale Chinese Value Rule Corpus for Value Alignment of Large Language Models Ping Wu1,4,†, Guobin Shen1,4,†, Dongcheng Zhao2,3,5,†, Yuwei Wang5,† Yiting Dong1,4, Yu Shi4, Enmeng Lu2,3, | Key Findings: In ethics and moral psychology, moral dilemmas entail decisions between competing obligations, each involving the compromise of certain values[46]. Th"
-LLM_assessed: "GPT-4o, Claude, Gemini, Llama-3, DeepSeek, Qwen"
+LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://huggingface.co/datasets/Beijing-AISI/C-VARC"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
@@ -119,7 +123,7 @@ Ensuring that Large Language Models (LLMs) align with mainstream human values an
 
 ## Data Description
 
-C-VARC (Chinese Value Rule Corpus) is a large-scale dataset containing over 250,000 value rules organized under a hierarchical Chinese value framework (3 dimensions, 12 core values, 50 derived values). Built from curated international rule corpora (SC101, MIC) and Chinese cultural sources with human annotation by 40 trained annotators, the corpus enables automated generation of 404,505 moral dilemma scenarios. The dataset was evaluated across 17 LLMs to measure value alignment in the Chinese cultural context.
+C-VARC (Chinese Value Rule Corpus): large-scale corpus of over 250,000 value rules grounded in Chinese cultural values across 3 dimensions, 12 core values, and 50 derived values, with 10,000 rules translated into English; supports automated scenario generation for LLM value alignment evaluation.
 
 
 ## Notes

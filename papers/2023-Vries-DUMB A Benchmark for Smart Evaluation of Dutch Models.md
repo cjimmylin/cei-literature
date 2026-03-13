@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,12 +49,12 @@ local_pdf: "[[PDFs/2023/2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutc
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Dutch"
 cultures_nationalities_list: "Dutch"
-languages_list: Dutch
+languages_list: "Dutch"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERTje, RobBERT, mBERT, XLM-RoBERTa"
+LLM_assessed: NA
 DATA_URL: "https://github.com/wjwillemse/dumb"
 tags: 
 abstract: "We introduce the Dutch Model Benchmark: DUMB. The benchmark includes a diverse set of datasets for low-, medium- and highresource tasks. The total set of nine tasks includes four tasks that were previously not available in Dutch. Instead of relying on a mean score across tasks, we propose Relative Error Reduction (RER), which compares the DUMB performance of language models to a strong baseline which can be referred to in the future even when assessing different sets of language models."
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ This paper introduces DUMB (Dutch Model Benchmark), a comprehensive evaluation s
 
 ## Data Description
 
-DUMB (Dutch Model Benchmark) suite containing 6 datasets for evaluating Dutch language models across sentiment analysis, topic classification, hate speech detection, and natural language inference tasks. Designed to provide comprehensive evaluation of Dutch NLP models.
+Dutch Model Benchmark (DUMB) with 9 tasks including 4 new for Dutch (WSD, pronoun resolution, causal reasoning, QA), evaluating 14 pre-trained language models using a Relative Error Reduction metric.
 
 
 ## Detailed Summary

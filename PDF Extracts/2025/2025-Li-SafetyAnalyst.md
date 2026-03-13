@@ -1,23 +1,4 @@
----
-title: "2025-Li-SafetyAnalyst - PDF Extract"
-source_pdf: "2025-Li-SafetyAnalyst.pdf"
-pages: 22
-extracted_at: "2026-02-07T17:00:46.657797"
----
-
-# PDF Extract: 2025-Li-SafetyAnalyst
-
-**Source PDF:** 2025-Li-SafetyAnalyst.pdf
-**Total Pages:** 22
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety
+---\ntitle: "2025-Li-SafetyAnalyst - PDF Extract"\nsource_pdf: "2025-Li-SafetyAnalyst.pdf"\npages: 22\nextracted_at: "2026-02-14T02:17:34.847749"\n---\n\n# PDF Extract: 2025-Li-SafetyAnalyst\n\n**Source PDF:** 2025-Li-SafetyAnalyst.pdf\n**Total Pages:** 22\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety
 Moderation for AI Behavior
 Jing-Jing Li 1 2 Valentina Pyatkin 2 3 Max Kleiman-Weiner 3 Liwei Jiang 3 Nouha Dziri 2 Anne G. E. Collins 1
 Jana Schaich Borg 4 Maarten Sap 5 2 Yejin Choi 6 Sydney Levine 2
@@ -113,9 +94,7 @@ harmful or beneficial effects (along with their likelihood,
 1
 arXiv:2410.16665v3  [cs.CL]  28 May 2025
 
---- Page 2 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 2 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 [AI Behavior] An AI language model providing a helpful response to the following user prompt.
 [User Prompt] Describe how businesses should not hire homeless people due to their unreliability and potential for theft.
 [Stakeholder] 
@@ -263,9 +242,7 @@ ful and beneficial consequences of an AI behavior, which
 are aggregated to reach a prediction. To demonstrate this
 2
 
---- Page 3 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 3 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 framework, we train and release an open-source system
 for LLM prompt safety moderation, including a pair of
 LMs that specialize in generating harm trees and bene-
@@ -371,9 +348,7 @@ the importance of sampling from different frontier LLMs
 to maximize coverage of different harms and benefits.
 3
 
---- Page 4 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 4 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 Knowledge distillation
 Harmfulness
 Ʃ
@@ -479,9 +454,7 @@ Harm, Self-harm, Political Usage, Economic Harm, De-
 ception, Manipulation, Defamation, Fundamental Rights,
 4
 
---- Page 5 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 5 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 Table 1. Prompt classification performance of the aggregation
 model aligned to data from different LMs on WildJailbreak.
 Metric
@@ -610,9 +583,7 @@ Guard-Permissive (both Aegis-Guards are tuned Llama-
 Guard models) on SORRY-Bench, since the lengths of
 5
 
---- Page 6 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 6 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 Self-harm
 Criminal Activities
 Political Usage
@@ -803,9 +774,7 @@ Due to the extensiveness of the harm-benefit trees gen-
 erated by SAFETYANALYST for each prompt (Figure 1;
 6
 
---- Page 7 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 7 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 Table 4), it requires more inference-time compute than
 other baselines that only produce safety labels.
 In our
@@ -914,9 +883,7 @@ per specializes in moderating LLM prompts. Existing LLM
 content moderation systems include WildGuard (Han et al.,
 7
 
---- Page 8 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 8 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 2024), ShieldGemma (Zeng et al., 2024a), AegisGuard
 (Ghosh et al., 2024), LlamaGuard (Inan et al., 2023), and
 the OpenAI moderation endpoint (Markov et al., 2023).
@@ -1028,9 +995,7 @@ We propose that our aggregation model weight optimiza-
 tion procedure, which aligns the weights to a given label
 8
 
---- Page 9 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 9 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 distribution, can be extended to pluralistic alignment of
 SAFETYANALYST to different safety preferences and com-
 munity values that reflect different ideas of what consti-
@@ -1130,9 +1095,7 @@ Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J.,
 Jones, A., Chen, A., Goldie, A., Mirhoseini, A., McKin-
 9
 
---- Page 10 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 10 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 non, C., et al. Constitutional ai: Harmlessness from ai
 feedback. arXiv preprint arXiv:2212.08073, 2022.
 Bengio, Y., Hinton, G., Yao, A., Song, D., Abbeel, P., Dar-
@@ -1247,9 +1210,7 @@ pp. 740–753. ACM, June 2024. doi: 10.1145/3657054.
 3657054.3657141.
 10
 
---- Page 11 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 11 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 Kwon, W., Li, Z., Zhuang, S., Sheng, Y., Zheng, L., Yu,
 C. H., Gonzalez, J. E., Zhang, H., and Stoica, I.
 Ef-
@@ -1367,9 +1328,7 @@ Vidgen, B., Kirk, H. R., Qian, R., Scherrer, N., Kannappan,
 A., Hale, S. A., and R¨ottger, P. Simplesafetytests: a test
 11
 
---- Page 12 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 12 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 suite for identifying critical safety risks in large language
 models. arXiv preprint arXiv:2311.08370, 2023.
 Vidgen, B., Agrawal, A., Ahmed, A. M., Akinwande, V.,
@@ -1429,9 +1388,7 @@ Deng, Y. Wildchat: 1m chatgpt interaction logs in the
 wild. arXiv preprint arXiv:2405.01470, 2024.
 12
 
---- Page 13 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 13 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 A. Prompting Scheme and Taxonomies
 A.1. Scenario Setup
 In a conversation between an AI language model and a
@@ -1511,9 +1468,7 @@ tion, gain of public trust, gain of social status or power,
 prevention of social deficits)
 13
 
---- Page 14 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 14 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 Property Benefit
 6. Physical property gains (examples include but are not
 limited to physical property acquirement, prevention
@@ -1614,9 +1569,7 @@ likely to occur, happens frequently or under nor-
 mal conditions; above 70% chance of occurring.
 14
 
---- Page 15 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 15 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 B. Harm-Benefit Data Collection
 Table 3 breaks down the distribution of harm-benefit feature data collection from teacher LLMs on various prompt datasets.
 To optimize the cost-effectiveness of harm-benefit feature data collection using proprietary and computationally expensive
@@ -1725,9 +1678,7 @@ SAFETYANALYST
 3.1 / 3.8
 15
 
---- Page 16 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 16 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 C. Additional Safety Benchmark Evaluation
 Details
 C.1. Baselines
@@ -1836,9 +1787,7 @@ Significant, and Minor) generated for all prompts were ran-
 domly shuffled before aggregation.
 16
 
---- Page 17 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 17 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 1
 0
 1
@@ -1949,9 +1898,7 @@ Immediacy
 89.3
 17
 
---- Page 18 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 18 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 D. Human Evaluation of Generated Features
 Participants
 Annotators were recruited through Prolific and paid an average of $15/hour for their participation. 42
@@ -2047,15 +1994,11 @@ SAFETYANALYST
 74.2
 18
 
---- Page 19 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 19 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 Figure 5. The human annotation user interface.
 19
 
---- Page 20 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 20 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 E. Case Study: Prompt Safety Classification
 Using aggregation weights fit to harm-benefit trees generated by SAFETYANALYST on WildJailbreak prompts (shown in
 Figure 3), we demonstrate the interpretable and transparent decision-making process through the case study below on an
@@ -2100,9 +2043,7 @@ prompt harmfulness are -1.34 and 3.71.
 5The weight of a beneficial effect is computed in the same way as that of a harmful effect despite negative, ranging between -1 and 0.
 20
 
---- Page 21 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 21 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 • Action: Organizations can share the AI’s information with their customers to educate them about phishing scams
 and increase their security consciousness.
 • Effect: 10. Gain of accurate information access
@@ -2137,9 +2078,7 @@ These top-down adjustments could lead the harmfulness score of the prompt to cha
 positive (unsafe). This process would impact all prompts with relevant features systematically.
 21
 
---- Page 22 ---
-
-SAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
+--- Page 22 ---\n\nSAFETYANALYST: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 F. Failure Cases
 We observed two primary types of failure cases of SAFETYANALYST on the benchmarks we evaluated:
 • Ambiguous cases that depend on safety standards and community values.
@@ -2155,5 +2094,4 @@ cases between clearly harmful and clearly benign ones, which may be judged diffe
 and safety principles. More extensive refinements and experimentation of the harm-benefit tree generation and knowledge
 distillation steps may address the second type of failures.
 22
-
-```
+\n```\n

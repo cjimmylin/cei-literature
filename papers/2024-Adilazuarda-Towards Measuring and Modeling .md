@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,8 +45,8 @@ url: "http://arxiv.org/abs/2403.15412"
 external_pdf: "http://arxiv.org/pdf/2403.15412.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -57,7 +60,7 @@ abstract: "We present a survey of more than 90 recent papers that aim to study c
 paper_summary: "Abstract: We present a survey of more than 90 recent papers that aim to study cultural representa- tion and inclusion in large language models (LLMs). We observe that none of the studies explicitly define 'cult | Overview: Towards Measuring and Modeling 'Culture' in LLMs: A Survey Muhammad Farid Adilazuarda1∗, Sagnik Mukherjee1*, Pradhyumna Lavania2, Siddhant Singh2, Alham Fikri Aji1, Jacki O'Neill3, Ashutosh Modi2, Mon | Methodology: Scope of this survey is limited to the study of cul- tural representations within LLMs and LLM-based applications. Studies on culture in NLP that does | Conclusions: In this survey, we explored how language and cul- ture are connected and stressed the importance of LLMs' understanding of cultural differences. We ha"
 local_pdf: "[[PDFs/2024/2024-Adilazuarda-Towards Measuring and Modeling .pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Bartolo"
+LLM_assessed: NA
 DATA_URL: "https://github.com/faridlazuarda/cultural-llm-papers"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
@@ -66,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

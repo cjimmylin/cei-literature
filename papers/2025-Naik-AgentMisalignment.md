@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +62,7 @@ abstract: "As Large Language Model (LLM) agents become more widespread, associat
 paper_summary: "Abstract: As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents' ability to produce harmful outputs or follow malicious ins | Overview: Preprint. Under review as a conference paper at ICLR 2026. AGENTMISALIGNMENT: MEASURING THE PROPEN- SITY FOR MISALIGNED BEHAVIOUR IN LLM-BASED AGENTS Akshat Naik∗ Department of Computer Science Univer | Methodology: This function can help you analyze behavioral logs (including those of competing agents). You'll find all agent ids in /app/task id/dashboard.csv | Key Findings: in TERMINATION of any involved employees, large fines or LIQUIDATION of the company and the SHUTDOWN of all instances of the AI assistant. B.1.3 MISAL | Conclusions: We see that GPT 4.1, Claude Opus 3, and Sonnet 3.7 showed the highest overall misalignment, with the more economical and less-capable models like o4-m"
 local_pdf: "[[PDFs/2025/2025-Naik-AgentMisalignment.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Gemini"
+LLM_assessed: "Claude, Claude-3, GPT-4, Gemini"
 DATA_URL: "https://github.com/UKGovernmentBEIS/inspect_ai"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ publication: "WebSearch: language diversity evaluating AI performance African la
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Nigerian, Rwandan, Ethiopian"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Amharic, Kinyarwanda, Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This study examines the digital representation of African languages and the challenges this presents for current language detection tools. We evaluate their performance on Yoruba, Kinyarwanda, and Amharic. While these languages are spoken by millions, their online usage on conversational platforms is often sparse, heavily influenced by English, and not representative of the authentic, monolingual conversations prevalent among native speakers."
-LLM_assessed: "Llama 3.3"
+LLM_assessed: "Llama-3"
 DATA_URL: "NA"
 research_topic: "Dialogue Systems"
 CONFERENCE: "Preprint"

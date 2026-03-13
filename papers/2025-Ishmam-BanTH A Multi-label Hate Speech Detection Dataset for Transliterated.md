@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ publication: "arXiv / NAACL 2025"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Bangladeshi, Bengali"
-languages_list: Bengali
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT 4o, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, RoBERTa"
+LLM_assessed: "BERT, GPT-3.5, GPT-4o"
 DATA_URL: "https://github.com/farhanishmam/BanTH"
 tags: 
 abstract: "The proliferation of transliterated texts in digital spaces has emphasized the need for detecting and classifying hate speech in languages beyond English, particularly in low-resource languages. As online discourse can perpetuate discrimination based on target groups, e.g. gender, religion, and origin, multi-label classification of hateful content can help in understanding hate motivation and enhance content moderation."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -99,7 +103,8 @@ First multi-label transliterated Bangla hate speech dataset with 37.3k YouTube c
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT 4o, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, RoBERTa. Verified dataset/resource link: https://github.com/farhanishmam/BanTH.
+BanTH is the first multi-label transliterated Bangla hate speech detection dataset with 37.3k YouTube comment samples, covering target groups including gender, religion, and origin. Released with multi-label annotations and code.
+
 
 ## Notes
 

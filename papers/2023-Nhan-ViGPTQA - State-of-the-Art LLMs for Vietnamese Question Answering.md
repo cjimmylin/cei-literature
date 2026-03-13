@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +51,13 @@ local_pdf: "[[PDFs/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-3.5, Llama, Llama2, Vicuna, gpt-3.5-turbo, GPT-4"
-DATA_URL: "https://huggingface.co/VietAI/gpt-neo-1"
+LLM_assessed: "ChatGPT, GPT-3.5"
+DATA_URL: "https://github.com/DopikAI-Labs/ViGPT"
 tags: 
 abstract: "Large language models (LLMs) and their applications in low-resource languages (such as in Vietnamese) are limited due to lack of training data and benchmarking datasets. This paper introduces a practical real-world implementation of a question answering system for Vietnamese, called ViGPTQA, leveraging the power of LLM. Since there is no effective LLM in Vietnamese to date, we also propose, evaluate, and open-source an instruction-tuned LLM for Vietnamese, named ViGPT."
 CONFERENCE: "EMNLP 2023"
@@ -101,7 +106,8 @@ Instruction-tuned LLM for Vietnamese with new benchmark datasets encompassing AI
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-3, GPT-3.5, Llama, Llama2, Vicuna, gpt-3.5-turbo, GPT-4. Verified dataset/resource link: https://huggingface.co/VietAI/gpt-neo-1.
+Vietnamese QA benchmark datasets (ViLawsQA, ViTruthfulQA) and instruction-tuned ViGPT model for Vietnamese, with evaluation across QA, NER, and truthfulness tasks.
+
 
 ## Notes
 

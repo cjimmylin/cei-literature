@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +51,12 @@ local_pdf: "[[PDFs/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: "Cantonese, Chinese, Classical Chinese, Hakka, Min"
+languages_list: "Chinese, Classical Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, DeBERTa, DeBERTa V2, DeBERTa-base, RoBERTa"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/baudzhou/WYWEB"
 tags: 
 abstract: "To fully evaluate the overall performance of different NLP models in a given domain, many evaluation benchmarks are proposed, such as GLUE, SuperGLUE and CLUE. The field of natural language understanding has traditionally focused on benchmarks for various tasks in languages such as Chinese, English, and multilingual, however, there has been a lack of attention given to the area of classical Chinese, also known as 'wen yan wen (文言文)', which has a rich history spanning thousands of years and..."
@@ -99,7 +104,8 @@ To fully evaluate the overall performance of different NLP models in a given dom
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DeBERTa, DeBERTa V2, DeBERTa-base, RoBERTa. Verified dataset/resource link: https://github.com/baudzhou/WYWEB.
+WYWEB introduces nine NLP evaluation tasks for classical Chinese, covering sequence labeling, sentence classification, reading comprehension, and machine translation. Supplementary datasets and evaluation tools are also released.
+
 
 ## Notes
 

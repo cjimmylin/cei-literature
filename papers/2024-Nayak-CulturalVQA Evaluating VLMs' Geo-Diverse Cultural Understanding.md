@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +46,8 @@ CONF-CC: "Preprint"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "11 countries, 5 continents"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -62,7 +65,7 @@ utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +100,7 @@ Visual question-answering benchmark with 2,378 image-question pairs representing
 
 ## Data Description
 
-CulturalVQA is a visual question-answering benchmark with 2,378 image-question pairs representing cultures from 11 countries across 5 continents. It probes VLMs' understanding of clothing, food, drinks, rituals, and traditions. The benchmark evaluates geo-diverse cultural understanding in vision-language models, though specific models tested are not documented in the available metadata.
+Visual question-answering benchmark with 2,378 image-question pairs representing cultures from 11 countries across 5 continents, covering clothing, food, drinks, rituals, and traditions. Constitutes a novel data collection for geo-diverse cultural understanding evaluation.
 
 
 ## Notes

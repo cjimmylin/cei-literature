@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,8 +53,8 @@ tags:
 abstract: "Existing pre-training methods for extractive Question Answering (QA) generate cloze-like queries different from natural questions in syntax structure, which could overfit pre-trained models to simple keyword matching. In order to address this problem, we propose a novel Momentum Contrastive pRe-training fOr queStion anSwering (MCROSS) method for extractive QA. Specifically, MCROSS introduces a momentum contrastive learning framework to align the answer probability between cloze-like and natural query-passage sample pairs. Hence, the pre-trained models can better transfer the knowledge learned in cloze-like samples to answering natural questions. Experimental results on three benchmarking QA datasets show that our method achieves noticeable improvement compared with all baselines in both supervised and zero-shot scenarios."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: BERT
-DATA_URL: "https://github.com/allenai/bi-att-flow"
+LLM_assessed: "BERT, T5"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2022/2022-Hu-'I'm sorry to hear that'.md"
 local_pdf: "[[PDFs/2022/2022-Hu-“I’m sorry to hear that”.pdf]]"
 CONFERENCE: "EMNLP 2022"
@@ -59,9 +63,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 ---
@@ -81,7 +85,7 @@ Existing pre-training methods for extractive Question Answering (QA) generate cl
 
 ## Data Description
 
-The paper proposes MCROSS (Momentum Contrastive Pre-training for Question Answering), which uses a dual BERT-base encoder architecture with momentum contrastive learning. It is evaluated on three QA benchmarks: SQuAD v1.1 (in-domain), NewsQA, and TriviaQA (out-of-domain). T5 is used only as a question generator for data augmentation, not as the evaluated QA model.
+N/A
 
 
 ## Notes

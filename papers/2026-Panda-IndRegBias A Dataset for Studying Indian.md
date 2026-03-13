@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Warning: This paper consists of examples representing regional biases in Indian regions that might be offensive towards a particular region. While social biases corresponding to gender, race, socio-economic conditions, etc., have been extensively studied in the major applications of Natural Language Processing (NLP), biases corresponding to regions have garnered less attention. This is mainly because of (i) difficulty in the extraction of regional bias datasets, (ii) disagreements in annotation..."
-LLM_assessed: "BERT, DeepSeek, DeepSeek-R1, GPT-4o, Gemma, Gemma-1.1, GPT-4, Llama, LLama 4, Llama-2, Llama-3.2, Llama-4, Mistral-7B, Mistral-NeMo, Mistral-Small, Phi-4-Mini, Qwen, Qwen3"
+LLM_assessed: "DeepSeek, GPT-4o, Gemini, Gemma, Llama-3, Mistral, Phi-3, Qwen"
 DATA_URL: "NA"
 research_topic: "Machine Learning"
 CONFERENCE: "Preprint"
@@ -101,7 +105,8 @@ Novel dataset of 25,000 user comments from Reddit and YouTube on Indian regional
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DeepSeek, DeepSeek-R1, GPT-4o, Gemma, Gemma-1.1, GPT-4, Llama, LLama 4, Llama-2, Llama-3.2, Llama-4, Mistral-7B, Mistral-NeMo, Mistral-Small, Phi-4-Mini, Qwen, Qwen3. No high-confidence repository-style data URL was identified.
+IndRegBias is a dataset of 25,000 Reddit and YouTube comments annotated for Indian regional biases, including code-mixed and transliterated content, with severity labels (Mild/Moderate/Severe). The dataset and code are available on GitHub but no explicit URL is given in the extract.
+
 
 ## Notes
 

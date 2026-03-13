@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +48,7 @@ local_pdf: "[[PDFs/2025/2025-Osei Mensah-Where are the missing values an explora
 pdf_extract: "PDF Extracts/2025/2025-Osei Mensah-Where are the missing values an exploration of the need to.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Sub-Saharan African, Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
 religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"

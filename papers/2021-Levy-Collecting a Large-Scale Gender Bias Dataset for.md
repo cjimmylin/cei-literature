@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -62,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
@@ -86,7 +89,7 @@ Recent works have found evidence of gender bias in models of machine translation
 
 ## Data Description
 
-BUG is a large-scale gender bias dataset containing 108,419 diverse real-world English sentences semi-automatically collected from Wikipedia, PubMed, and COVID-19 research corpora using 14 lexical-syntactic patterns. Each sentence contains a human entity identified by profession and a gendered pronoun, marked as stereotypical, anti-stereotypical, or neutral with respect to gender-role assignments for evaluating bias in coreference resolution and machine translation.
+BUG: 108K diverse real-world English sentences for large-scale gender bias evaluation in coreference resolution and machine translation, with stereotypical/anti-stereotypical labels.
 
 
 ## Notes

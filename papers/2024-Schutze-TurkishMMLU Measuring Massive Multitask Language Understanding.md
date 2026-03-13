@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +52,7 @@ publication: arxiv.org
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Multiple choice question answering tasks evaluate the reasoning, comprehension, and mathematical abilities of Large Language Models (LLMs). While existing benchmarks employ automatic translation for multilingual evaluation, this approach is error-prone and potentially introduces culturally biased questions, especially in social sciences. We introduce the first multitask, multiple-choice Turkish QA benchmark, TurkishMMLU, to evaluate LLMs’ understanding of the Turkish language."
-LLM_assessed: "ALBERT, Claude, Claude-3, Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command-R, GPT 3, GPT 3.5, GPT 4, GPT 4-Turbo, GPT 4o, Gemma, Llama, Llama 2, Llama-2, Llama-3, Mistral 7B, MistralAI, Mixtral 8x22B, Mixtral 8x7B, BERT"
-DATA_URL: "https://github.com/ArdaYuksel/TurkishMMLU"
+LLM_assessed: "Aya, Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command-R, GPT-3.5, GPT-4, GPT-4o, Gemini, Gemma, Llama-2, Llama-3, Mistral, Mixtral, Phi-3"
+DATA_URL: "https://github.com/ArdaYueksel/TurkishMMLU"
 research_topic: "Machine Translation"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -66,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multi-task benchmark for bias and fairness"
 data_metrics: "10,032 questions"
 ---
@@ -101,7 +106,8 @@ First multitask multiple-choice Turkish QA benchmark with 10,032 questions acros
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, Claude, Claude-3, Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command-R, GPT 3, GPT 3.5, GPT 4, GPT 4-Turbo, GPT 4o, Gemma, Llama, Llama 2, Llama-2, Llama-3, Mistral 7B, MistralAI, Mixtral 8x22B, Mixtral 8x7B, BERT. Verified dataset/resource link: https://github.com/ArdaYuksel/TurkishMMLU.
+TurkishMMLU is the first large-scale multitask multiple-choice Turkish QA benchmark with 10,032 questions across 9 subjects from Turkish high-school curricula, natively constructed to avoid translation artifacts.
+
 
 ## Notes
 

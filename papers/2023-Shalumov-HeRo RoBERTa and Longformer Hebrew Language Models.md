@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
-languages_list: Hebrew
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "NA"
+DATA_URL: "https://huggingface.co/HeNLP/HeDC4"
 tags: 
 abstract: "In this paper, we fill in an existing gap in resources available to the Hebrew NLP community by providing it with the largest so far pre-train dataset HeDC4, a state-ofthe-art pre-trained language model HeRo for standard length inputs and an eﬀicient transformer LongHeRo for long input sequences. The HeRo model was evaluated on the sentiment analysis, the named entity recognition, and the question answering tasks while the LongHeRo model was evaluated on the document classification task with a..."
 CONFERENCE: "Preprint"
@@ -60,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ Hebrew RoBERTa model with benchmark suite establishing NER (BMC and NeMO), senti
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
+HeDC4 (Hebrew Deduplicated and Cleaned Common Crawl Corpus), a 47.5GB pre-training dataset of 8.5M documents and 4.7B words, the largest publicly available Hebrew corpus at time of publication.
+
 
 ## Notes
 

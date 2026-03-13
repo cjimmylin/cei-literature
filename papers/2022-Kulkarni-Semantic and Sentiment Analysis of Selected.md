@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ local_pdf: "[[PDFs/2022/2022-Kulkarni-Semantic and Sentiment Analysis of Selecte
 publication: "IEEE Access"
 CONF-CC: "IEEE Access"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Sanskrit"
 religious_values: "Hinduism"
@@ -103,7 +107,8 @@ Multiple Bhagavad Gita translations (verse-by-verse, 700 verses)
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/sydney-machine-learning/sentimentanalysis_bhagavadgita.
+Hand-labelled sentiment dataset for Bhagavad Gita verses across multiple English translations
+
 
 ## Notes
 

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Barth, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, Gemma, Gemma-2, LLaMA 3.1, LLaMA 3., LLaMA 3.2, LLaMA3, LLama3.1, Llama, Llama 2, Llama-3, Llama-3.1, Llama-3.2, Llama3.2, Mistral-Nemo, gpt4, llama 3"
+LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-2, LLaMA, Llama-3, Mistral"
 DATA_URL: "https://github.com/ola-krutrim/BharatBench"
 tags: 
 abstract: "This paper presents a comprehensive evaluation of Foundation AI models in multilingual and multimodal contexts, addressing their performance, adaptability, and limitations. With the increasing globalization of digital content and the rise of multi-modal data, understanding how Large Language Models (LLMs) operate across diverse languages and modes of information is critical. We introduce BharatBench as an evaluation framework benchmarking the performance of multilingual LLMs."
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Comprehensive multimodal multilingual Indian benchmark testing language understa
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Barth, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, Gemma, Gemma-2, LLaMA 3.1, LLaMA 3., LLaMA 3.2, LLaMA3, LLama3.1, Llama, Llama 2, Llama-3, Llama-3.1, Llama-3.2, Llama3.2, Mistral-Nemo, gpt4, llama 3. Verified dataset/resource link: https://github.com/ola-krutrim/BharatBench.
+BharatBench introduces multiple proprietary evaluation datasets for Indian languages: a 300-example text generation/understanding set across 8 Indic languages and 5 tasks rated by native speakers; BharatBench-V (30 images per language across 9 Indian languages with 5 QA prompts per image); BharatBench-OCR (~40 OCR images); and ~800 hours of proprietary speech data across 8 languages.
+
 
 ## Notes
 

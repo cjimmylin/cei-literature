@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ publication: "WebSearch: SERENGETI multilingual language model African evaluatio
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,8 +57,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Multilingual pretrained language models (mPLMs) acquire valuable, generalizable linguistic information during pretraining and have advanced the state of the art on task-specific finetuning. To date, only ∼31 out of ∼2, 000 African languages are covered in existing language models. We ameliorate this limitation by developing SERENGETI, a massively multilingual language model that covers 517 African languages and language varieties."
-LLM_assessed: "BERT, BLOOM, ELECTRA"
-DATA_URL: "https://huggingface.co/UBC-NLP/serengeti-E250"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/UBC-NLP/serengeti"
 research_topic: "Machine Translation"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -63,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
@@ -100,7 +103,8 @@ Massively multilingual language model covering 517 African languages. Evaluated 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, ELECTRA. Verified dataset/resource link: https://huggingface.co/UBC-NLP/serengeti-E250.
+AfroNLU benchmark with 20 datasets across 8 NLU tasks for 28+ African languages, plus SERENGETI multilingual language models covering 517 African languages.
+
 
 ## Notes
 

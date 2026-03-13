@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ tags:
 abstract: "Language models aligned for safety often exhibit fragile and imbalanced mechanisms, increasing the chances of producing unsafe content. In addition, editing techniques to incorporate new knowledge can further compromise safety. To tackle these issues, we propose SAFEINFER, a context-adaptive, decodingtime safety alignment strategy for generating safe responses to user queries. SAFEINFER involves two phases: the ‘safety amplification’ phase, which uses safe demonstration examples to adjust the..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260129
-LLM_assessed: "Llama-2, Mistral, Vicuna, Falcon"
+LLM_assessed: "Falcon, Llama-2, Mistral, Vicuna"
 DATA_URL: "https://github.com/NeuralSentinel/SafeInfer"
 CONFERENCE: "AAAI 2025"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -145,7 +149,7 @@ The paper concludes that SafeInfer provides a versatile and effective approach t
 
 ## Data Description
 
-SafeInfer is evaluated on six safety datasets (DangerousQA, AdvBench, HEx-PHI, TechHazardQA, NicheHazardQA, and the newly proposed HarmEval with ~550 harmful queries). The method is tested on Llama-2-7b-chat, Mistral-7B-Instruct, Vicuna-7b, and Falcon-7b-instruct, assessing decoding-time safety alignment for reducing harmful responses while preserving model utility.
+HARMEVAL: a new safety benchmark of ~550 harmful queries across 11 policy-violating categories (privacy violation, fraud, hate/harassment, illegal activity, etc.) derived from OpenAI and Meta usage policies. Code and datasets released via GitHub.
 
 
 ## Notes

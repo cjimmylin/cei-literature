@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,8 +58,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The behavior of Large Language Models (LLMs) as artificial social agents is largely unexplored, and we still lack extensive evidence of how these agents react to simple social stimuli. Testing the behavior of AI agents in classic Game Theory experiments provides a promising theoretical framework for evaluating the norms and values of these agents in archetypal social situations. In this work, we investigate the cooperative behavior of three LLMs (Llama2, Llama3, and GPT3."
-LLM_assessed: "Llama-2, Llama-3, GPT-3.5"
-DATA_URL: "https://huggingface.co/inference-api/serverless"
+LLM_assessed: "GPT-3.5, Llama-2, Llama-3"
+DATA_URL: NA
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"

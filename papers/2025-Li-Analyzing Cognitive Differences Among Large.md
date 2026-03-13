@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +62,7 @@ abstract: "Large Language Models significantly influence social interactions, de
 paper_summary: "Abstract: Large Language Models significantly influence so- cial interactions, decision-making, and information dissemination, underscoring the need to understand the implicit socio-cognitive attitudes, referre | Overview: Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview Jiatao Li1,2 , Yanheng Li3 , Xiaojun Wan1 1Wangxuan Institute of Computer Technology, Peking University | Methodology: Inter-Agent Validation Accuracy The inter-agent validation accuracy is calculated by comparing automated categorization | Key Findings: of socio-cognitive biases in large language models. Leverag- ing our novel Automated Multi-Agent Prompting Framework, we operationalized and assessed  | Conclusions: We introduced the Social Worldview Taxonomy (SWT), grounded in Cultural Theory, enabling systematic evaluation of socio-cognitive biases in large lang"
 local_pdf: "[[PDFs/2025/2025-Li-Analyzing Cognitive Differences Among Large.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4o, Qwen, Llama-3, Gemma, DeepSeek, Phi"
+LLM_assessed: "ChatGLM, DeepSeek, GPT-4o, Gemini, Gemma, InternLM, Llama-3, Phi-3, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -68,7 +72,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Responsible AI"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -103,7 +107,7 @@ Large Language Models (LLMs) have become integral to daily life, widely adopted 
 
 ## Data Description
 
-This study introduces the Social Worldview Taxonomy (SWT) and Social Worldview Questionnaire (SWQ), a dataset of 640 Likert-scale items distributed across four socio-cognitive worldview dimensions (Hierarchy, Egalitarianism, Individualism, Fatalism) with 160 items per dimension. Twenty-eight LLMs were assessed under three experimental conditions: Basic, Self-Awareness, and Feedback Loop, to measure cognitive profiles and social referencing effects. The SWQ was generated via an Automated Multi-Agent Prompting Framework using GPT-4o and validated by domain experts.
+Social Worldview Questionnaire (SWQ): 640 Likert-scale items operationalizing four worldview dimensions (Hierarchy, Egalitarianism, Individualism, Fatalism), generated via Automated Multi-Agent Framework and rigorously validated by domain experts with Cronbach alpha >99%. Authors state it will be released.
 
 
 ## Notes

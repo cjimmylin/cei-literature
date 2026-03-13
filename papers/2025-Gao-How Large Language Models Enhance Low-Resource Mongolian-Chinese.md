@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ pdf_extract: "PDF Extracts/2025/2025-Gao-How Large Language Models Enhance Low-R
 local_pdf: "[[PDFs/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Mongolian, Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Mongolian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Gemma, Gemma2, LLaMA-3.1, LLaMA3.1, Llama, Qwen2, Qwen2.5, T5-large"
+LLM_assessed: "Gemma-2, Llama-3, Qwen, T5"
 DATA_URL: "NA"
 tags: 
 abstract: "The rapid development of Inner Mongolia has led to a growing demand for Mongolian-Chinese translation. However, Mongolian presents significant challenges for machine translation, such as data scarcity and its complex syntactic structures. Consequently, traditional Mongolian-Chinese machine translation methods often produce outputs with poor fluency and suffer from the loss of critical semantic information."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
 ---

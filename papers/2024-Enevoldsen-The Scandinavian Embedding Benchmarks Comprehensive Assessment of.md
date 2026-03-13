@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +48,13 @@ pdf_extract: "PDF Extracts/2024/2024-Enevoldsen-The Scandinavian Embedding Bench
 local_pdf: "[[PDFs/2024/2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Scandinavian"
+cultures_nationalities_list: "N/A"
 languages_list: "Danish, Norwegian, Swedish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "E5-multilingual, Sentence-T5, LaBSE, multilingual-e5, Scandinavian sentence encoders"
+LLM_assessed: NA
 DATA_URL: "https://github.com/KennethEnevoldsen/scandinavian-embedding-benchmark"
 tags: 
 abstract: "The evaluation of English text embeddings has transitioned from evaluating a handful of datasets to broad coverage across many tasks through benchmarks such as MTEB. However, this is not the case for multilingual text embeddings due to a lack of available benchmarks. To address this problem, we introduce the Scandinavian Embedding Benchmark (SEB). SEB is a comprehensive framework that enables text embedding evaluation for Scandinavian languages across 24 tasks, 10 subtasks, and 4 task categories."
@@ -99,7 +104,7 @@ This paper introduces the Scandinavian Embedding Benchmark (SEB), a comprehensiv
 
 ## Data Description
 
-Scandinavian Embedding Benchmark (SEB) evaluating sentence embeddings across 6 Scandinavian languages (Danish, Swedish, Norwegian, Icelandic, Faroese, Norwegian Nynorsk) on 24 diverse tasks including classification, retrieval, and semantic similarity.
+Comprehensive text embedding evaluation framework for Scandinavian languages with 24 tasks, 10 subtasks, and 4 task categories, evaluating 26+ embedding models including commercial APIs from OpenAI and Cohere.
 
 
 ## Detailed Summary

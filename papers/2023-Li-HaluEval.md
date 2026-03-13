@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ abstract: "Large language models (LLMs), such as ChatGPT, are prone to generate 
 paper_summary: "Abstract: Large language models (LLMs), such as Chat- GPT, are prone to generate hallucinations, i.e., content that conflicts with the source or cannot be verified by the factual knowledge. To un- derstand what | Overview: HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models Junyi Li1,3,4∗, Xiaoxue Cheng1∗, Wayne Xin Zhao1,4†, Jian-Yun Nie3 and Ji-Rong Wen1,2,4 1Gaoling School of Artifici | Conclusions: We introduce HaluEval, a large-scale collection of generated and human-annotated hallucinated sam- ples for evaluating the performance of LLMs in reco"
 local_pdf: "[[PDFs/2023/2023-Li-HaluEval.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, GPT-3, text-davinci, Claude, Llama-2, Falcon, Vicuna, Alpaca"
+LLM_assessed: "Alpaca, ChatGPT, Claude, Falcon, GPT-3, Llama-2, Vicuna"
 DATA_URL: "https://github.com/RUCAIBox/HaluEval"
 CONFERENCE: "EMNLP 2023"
 ethics_overall: "No"
@@ -100,7 +104,7 @@ Large language models (LLMs), such as ChatGPT, are prone to generate hallucinati
 
 ## Data Description
 
-HaluEval is a large-scale hallucination evaluation benchmark containing 35,000 samples: 30,000 automatically generated hallucinated/normal examples across question answering (HotpotQA), knowledge-grounded dialogue (OpenDialKG), and text summarization (CNN/Daily Mail), plus 5,000 human-annotated ChatGPT responses to general user queries from Alpaca. The benchmark evaluates LLMs' ability to recognize hallucinated content across these tasks.
+HaluEval benchmark containing 35,000 hallucinated/normal samples (5,000 general user queries with human-annotated ChatGPT responses plus 30,000 task-specific examples for QA, dialogue, and summarization) for evaluating LLM hallucination recognition.
 
 
 ## Notes

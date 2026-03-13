@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Bilateral negotiation is a complex, context-sensitive task in which human negotiators dynamically adjust anchors, pacing, and flexibility to exploit power asymmetries and informal cues. We introduce a unified mathematical framework for modeling concession dynamics based on a hyperbolic tangent curve, and propose two metrics burstiness (τ) and the Concession-Rigidity Index (CRI) to quantify the timing and rigidity of offer trajectories."
-LLM_assessed: "GPT-4, ChatGPT"
+LLM_assessed: "GPT-4, GPT-4o, GPT-4o mini, GPT-o1"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"

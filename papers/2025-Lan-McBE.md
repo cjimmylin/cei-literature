@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ last_author: "[[Guanglai Gao]]"
 authors: "Tian Lan; Xiangdong Su; Xu Liu; Ruirui Wang; Ke Chang; Jiang Li; Guanglai Gao"
 url: "https://aclanthology.org/2025.findings-acl.313/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MNNLABM6/Lan et al. - McBE A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models.pdf"
-national_ethnic_cultural: "Chinese, American"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
@@ -52,7 +56,7 @@ tags:
 abstract: ". Warning: This paper contains content that may be offensive or harmful As large language models (LLMs) are increasingly applied to various NLP tasks, their inherent biases are gradually disclosed. Therefore, measuring biases in LLMs is crucial to mitigate its ethical risks. However, most existing bias evaluation datasets are focus on English and North American culture, and their bias categories are not fully applicable to other cultures."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Qwen, Llama-2, Mistral, ChatGPT"
+LLM_assessed: "Baichuan, ChatGLM, InternLM, Llama-2, Mistral, Qwen-2"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Lan-McBE.md"
 local_pdf: "[[PDFs/2025/2025-Lan-McBE.pdf]]"
@@ -91,7 +95,7 @@ As large language models (LLMs) are increasingly applied to various NLP tasks, t
 
 ## Data Description
 
-The paper introduces McBE (Multi-task Chinese Bias Evaluation Benchmark), comprising 4,077 bias evaluation instances covering 12 single bias categories (gender, religion, nationality, socioeconomic status, age, appearance, health, region, LGBTQ+, worldview, subculture, race) and 82 subcategories. The benchmark includes five evaluation tasks: preference computation, subcategory classification, scenario selection, bias analysis, and bias scoring. Multiple Chinese and multilingual LLMs were evaluated including Qwen2.5 series (0.5B to 32B), InternLM2.5-7B, Baichuan2-7B, GLM4-AIR, GLM4-0520, Llama2-7B, and Mistral-7B.
+McBE: 4,077-instance multi-task Chinese bias evaluation benchmark with 12 bias categories and 82 subcategories, supporting 5 evaluation task types; published at ACL 2025 Findings (pages 6033–6056).
 
 
 ## Notes

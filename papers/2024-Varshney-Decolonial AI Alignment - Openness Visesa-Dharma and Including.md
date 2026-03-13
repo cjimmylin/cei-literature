@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,11 +49,11 @@ local_pdf: "[[PDFs/2024/2024-Varshney-Decolonial AI Alignment - Openness Visesa-
 publication: "AIES 2024"
 CONF-CC: "AIES 2024"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: ""
-religious_values: "Buddhism"
-religious_values_list: "Buddhism"
+religious_values: "Hinduism"
+religious_values_list: "Hinduism"
 moral_psychology: "N/A"
 newtags: 
 tags: 

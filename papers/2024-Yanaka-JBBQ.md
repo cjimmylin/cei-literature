@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,11 +51,11 @@ newtags: "Japanese, Bias & Fairness"
 key_contribution: "Constructed JBBQ, a Japanese bias benchmark for QA based on the English BBQ dataset, to evaluate social biases in Japanese LLMs."
 significance: "Addresses the lack of non-English bias resources, finding that while larger Japanese LLMs are more accurate, they also exhibit higher bias scores, highlighting a trade-off in current model scaling."
 tags: 
-pdf_extract: "PDF Extracts/0000/2024-Yanaka-JBBQ.md"
+pdf_extract: "PDF Extracts/2024/2024-Yanaka-JBBQ.md"
 abstract: "With the development of large language mod- els (LLMs), social biases in these LLMs have become a pressing issue. Although there are various benchmarks for social biases across lan- guages, the extent to which Japanese LLMs exhibit social biases has not been fully investi- gated. In this study, we construct the Japanese Bias Benchmark dataset for Question Answer- ing (JBBQ) based on the English bias bench- mark BBQ, with analysis of social biases in Japanese LLMs. The results show that while cur"
 paper_summary: "Abstract: With the development of large language mod- els (LLMs), social biases in these LLMs have become a pressing issue. Although there are various benchmarks for social biases across lan- guages, the extent | Overview: arXiv:2406.02050v4 [cs.CL] 13 Jun 2025 JBBQ: Japanese Bias Benchmark for Analyzing Social Biases in Large Language Models Hitomi Yanaka1,2,∗Namgi Han1,∗Ryoma Kumon1,2 Jie Lu1 Masashi Takeshita3 Ryo Se | Methodology: Overview We created the JBBQ dataset semi- automatically. The manual work was performed by five NLP researchers whose native language is Japanese. Fir | Key Findings: targets. | Conclusions: In this study, we constructed the Japanese social bias QA dataset JBBQ and used it to analyze social biases in Japanese LLMs from various perspectives"
 local_pdf: "[[PDFs/2024/2024-Yanaka-JBBQ.pdf]]"
-LLM_assessed: "GPT-4, Llama-2, Llama-3"
+LLM_assessed: "GPT-4o, Llama-2, Llama-3"
 DATA_URL: "https://github.com/ynklab/JBBQ_data"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
@@ -93,7 +96,7 @@ With the development of large language models (LLMs), social biases in these LLM
 
 ## Data Description
 
-JBBQ (Japanese Bias Benchmark for QA) is a semi-automatically constructed Japanese social bias benchmark based on the English BBQ dataset, covering five social categories (age, disability status, gender identity, physical appearance, sexual orientation) with 50,856 question pairs. Eight open Japanese LLMs based on Llama-2 and Llama-3 (Swallow variants), plus GPT-4o and GPT-4o-mini, were evaluated under various prompt settings to analyze social biases in Japanese language models.
+Japanese Bias Benchmark for Question Answering (JBBQ), a social bias QA dataset for Japanese LLMs adapted from English BBQ, covering 5 social categories with 50,856 question pairs across 245 templates.
 
 
 ## Notes

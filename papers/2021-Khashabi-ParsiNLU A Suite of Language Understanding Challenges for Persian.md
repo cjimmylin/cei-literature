@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +50,13 @@ local_pdf: "[[PDFs/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, T5"
-DATA_URL: "https://github.com/MarioVilas/googlesearch"
+DATA_URL: "https://github.com/persiannlp/parsinlu"
 tags: 
 abstract: "Despite the progress made in recent years in addressing natural language understanding (NLU) challenges, the majority of this progress remains to be concentrated on resource-rich languages like English. This work focuses on Persian language, one of the widely spoken languages in the world, and yet there are few NLU datasets available for this language. The availability of high-quality evaluation datasets is a necessity for reliable assessment of the progress on different NLU tasks and domains."
 CONFERENCE: "Other Conference"
@@ -63,8 +66,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +102,8 @@ First comprehensive Persian NLU benchmark with 6 tasks: reading comprehension, m
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, T5. Verified dataset/resource link: https://github.com/MarioVilas/googlesearch.
+ParsiNLU: first comprehensive Persian NLU benchmark with 14.5k instances across 6 tasks: reading comprehension, multiple-choice QA, textual entailment, sentiment analysis, query paraphrasing, and machine translation.
+
 
 ## Notes
 

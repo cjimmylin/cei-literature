@@ -1,23 +1,5 @@
----
-title: "2025-Aleid-Hajj-FQA - PDF Extract"
-source_pdf: "2025-Aleid-Hajj-FQA.pdf"
-pages: 28
-extracted_at: "2026-01-29T13:51:23.632315"
----
-
-# PDF Extract: 2025-Aleid-Hajj-FQA
-
-**Source PDF:** 2025-Aleid-Hajj-FQA.pdf
-**Total Pages:** 28
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Journal of King Saud University Computer and Information Sciences          (2025) 37:135 
+---\ntitle: "2025-Aleid-Hajj-FQA - PDF Extract"\nsource_pdf: "2025-Aleid-Hajj-FQA.pdf"\npages: 28\nextracted_at: "2026-02-14T02:17:34.082789"\n---\n\n# PDF Extract: 2025-Aleid-Hajj-FQA\n\n**Source PDF:** 2025-Aleid-Hajj-FQA.pdf\n**Total Pages:** 28\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\n/ Published online: 25 July 2025
+Journal of King Saud University Computer and Information Sciences (2025) 37:135 
 https://doi.org/10.1007/s44443-025-00128-w
 ORIGINAL PAPER
 Hajj-FQA: A benchmark Arabic dataset for developing
@@ -86,11 +68,7 @@ highly emphasized; therefore, it is ethically preferable for
 0123456789().: V,-vol 
 123
 
---- Page 2 ---
-
-  135 
-Page 2 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 2 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 a system to admit uncertainty (e.g., stating “I don’t know” )
 rather than provide a potentially misleading answer. How-
 ever, many chatbots default to evasive or uninformative
@@ -192,12 +170,10 @@ tion 6, we present a comprehensive evaluation of the dataset
 usingdifferent languagemodels. Finally, Section7concludes
 the paper and highlights avenues for future research.
 123
+ 135 
+Page 2 of 28
 
---- Page 3 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 3 of 28
-  135 
+--- Page 3 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 2 Background
 2.1 Overview of chatbots, QA, and MRC
 Chatbots are intelligent conversational agents designed
@@ -295,12 +271,10 @@ have signiﬁcantly improved performance across a wide range
 of downstream NLP tasks (Li et al. 2024; Radford et al. 2018;
 Peters et al. 2018).
 123
+Page 3 of 28 
+135
 
---- Page 4 ---
-
-  135 
-Page 4 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 4 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 2.3 Language models
 The ﬁeld of AI, particularly within machine learning (ML),
 has witnessed transformative growth with the advent of
@@ -403,12 +377,10 @@ websites. Typically, a fatwa involves a question posed by an
 individual about a religious matter, to which a mufti provides
 an answer based on Islamic teachings (Ibrahim et al. 2024).
 123
+ 135 
+Page 4 of 28
 
---- Page 5 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 5 of 28
-  135 
+--- Page 5 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Table 1 Overview of Arabic Language Models
 Name
 Architecture
@@ -521,12 +493,10 @@ Bilingual
 Under the “Languages” heading, “Arabic” refers to Modern Standard Arabic (MSA) by default. Notations such as CA or DA specify Classical or Dialectal Arabic, respectively. While “Bilingual”
 includes models that support both Arabic and English
 123
+Page 5 of 28 
+135
 
---- Page 6 ---
-
-  135 
-Page 6 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 6 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Nowadays, the public frequently turns to modern platforms
 like television, radio, and online resources for fatwas. This
 shiftisoftenduetotherelevanceofmodernfatwastocontem-
@@ -634,12 +604,10 @@ and input ambiguity add further complexity to the evaluation
 of QA chatbots. Commonly used evaluation metrics include
 human assessments, followed by BLEU scores, and then
 123
+ 135 
+Page 6 of 28
 
---- Page 7 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 7 of 28
-  135 
+--- Page 7 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 ROUGE-1 and ROUGE-2 scores. Notably, Arabic chatbot
 studies predominantly utilize human evaluation, in contrast
 to English studies, which often employ BLEU scores, possi-
@@ -740,12 +708,10 @@ with KaifLematha speciﬁcally targeting non-factoid “how”
 and “why” questions through crowdsourcing, demonstrating
 a move beyond purely fact-based QA.
 123
+Page 7 of 28 
+135
 
---- Page 8 ---
-
-  135 
-Page 8 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 8 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 More recent advancements have focused on tackling the
 complexities of multi-hop reasoning and non-factoid ques-
 tion answering. The introduction of the ACQAD dataset (Sid-
@@ -848,12 +814,10 @@ most of the datasets. On the level of the NLP task, extractive
 MRC is the most dominant, as seen in datasets like SQuAD,
 ARCD, AQAD, ArQuAD, and ArabicaQA-MRC
 123
+ 135 
+Page 8 of 28
 
---- Page 9 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 9 of 28
-  135 
+--- Page 9 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Table 2 Summary of Arabic QA datasets: The datasets are classiﬁed under the task of Machine Reading Comprehension (MRC) and are further categorized by question type, differentiating
 between ’Open’ domain and ’Closed’ domain questions. The datasets are arranged in chronological order based on their publication date
 Name
@@ -993,12 +957,10 @@ Webteb and Islamweb
 Closed (Healthcare)
 (*) Dataset available at, https://github.com/Omarito2412/ASKFM
 123
+Page 9 of 28 
+135
 
---- Page 10 ---
-
-  135 
-Page 10 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 10 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 The methods employed for creating these datasets have
 evolved from machine translation, exempliﬁed by Arabic-
 SQuAD, toward crowdsourcing or expert linguists, as seen
@@ -1067,12 +1029,10 @@ greater detail to clarify the methodologies employed. This
 procedure adheres to a comprehensive guideline speciﬁed in
 Section 4.2.
 123
+ 135 
+Page 10 of 28
 
---- Page 11 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 11 of 28
-  135 
+--- Page 11 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 We developed a web scraping tool to gather contextual
 data from reliable fatwa websites, speciﬁcally https://binbaz.
 org.sa and https://binothaimeen.net, chosen for their exten-
@@ -1167,20 +1127,16 @@ to minimize bias.
 • Annotation examples (related/unrelated fatwas, com-
 pound cases) were provided.
 123
+Page 11 of 28 
+135
 
---- Page 12 ---
-
-  135 
-Page 12 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 12 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Table 3 Randomly selected examples from the Hajj-FQA dataset. SI Q1 and SI Q2 represent semantically identical question pairs
 123
+ 135 
+Page 12 of 28
 
---- Page 13 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 13 of 28
-  135 
+--- Page 13 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 • Answer extraction follows question construction to ensure
 context comprehension.
 • Reject fatwas presenting uncovered edge cases.
@@ -1322,12 +1278,10 @@ he take now?”
 Fig. 1 Question words distribution diagram comparing our Hajj-FQA
 dataset with QRCD, ArTrivia, and TyDi datasets
 123
+Page 13 of 28 
+135
 
---- Page 14 ---
-
-  135 
-Page 14 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 14 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 The “composed questions” are considered the most chal-
 lenging category due to their length and the advanced level of
 comprehension they require. Responding to these questions
@@ -1462,12 +1416,10 @@ Duplicate
 answer
 detection (DAD)
 123
+ 135 
+Page 14 of 28
 
---- Page 15 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 15 of 28
-  135 
+--- Page 15 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Fig. 2 Trigram preﬁxes distribution of: (a) SI Q1, (b) SI Q2, (c) Title Q, and (d) Cleaned Q
 Additionally, we performed a token count analysis using
 the NLTK (Natural Language Toolkit) package in Python.3
@@ -1483,12 +1435,10 @@ questions, and duplicate question pairs, as illustrated in
 Fig. 2. Notably, the duplicate question pairs exhibit similar
 distributions of question words. In contrast, title questions
 123
+Page 15 of 28 
+135
 
---- Page 16 ---
-
-  135 
-Page 16 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 16 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 are predominantly phrased with
 (translation: “What
 istheIslamicruling”),likelybecausetheyaredirectlyderived
@@ -1588,12 +1538,10 @@ for download from, https://github.com/aub-mind/arabert
 6 Available: https://huggingface.co/ﬂax-community/arabic-t5-small.
 7 Available: https://huggingface.co/moussaKam/AraBART.
 123
+ 135 
+Page 16 of 28
 
---- Page 17 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 17 of 28
-  135 
+--- Page 17 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 ter forms, removing diacritics and Tatweel—before metric
 computation. This approach ensures direct comparability
 with established QA research while accommodating Arabic’s
@@ -1738,12 +1686,10 @@ Generated answers are evaluated using BERTScore
 (BERT-P, BERT-R, BERT-F), which measures cosine sim-
 ilarity between contextual embeddings from a pretrained
 123
+Page 17 of 28 
+135
 
---- Page 18 ---
-
-  135 
-Page 18 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 18 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 BERT-base model. Given predicted answer embeddings
 PredTks and reference embeddings RefTks, with representing
 vector similarity, the metric computes:
@@ -1888,12 +1834,10 @@ Evaluation results (Tables 10–11) show AraBERTv0.2-
 base achieving top precision, accuracy, and F1 for DQD, with
 AraBERTv0.2-large leading in recall. For DAD, AraBERT-
 123
+ 135 
+Page 18 of 28
 
---- Page 19 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 19 of 28
-  135 
+--- Page 19 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Fig. 3 Training dynamics for: (a) MRC-Ex, and (b) MRC-Gen
 v0.2-base attained highest recall and average precision, while
 AraBERTv0.2-large performed best overall in accuracy, pre-
@@ -1994,12 +1938,10 @@ DeBERTaV3-base
 ⎪⎪⎪⎬
 ⎪⎪⎪⎭
 123
+Page 19 of 28 
+135
 
---- Page 20 ---
-
-  135 
-Page 20 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 20 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Table 9 Results for LLMs on generative question answering using the HajjFatwa MRC (generative) dataset, employing a 10-fold CV approach. The SD is reported for the word-base and
 embedding-base metrics to indicate variability across the folds. For BERTScore calculations, bert-base-multilingual-cased model was used for token embeddings
 Model
@@ -2125,12 +2067,10 @@ Average
 68.4 ± 1.25
 68.66 ± 0.89
 123
+ 135 
+Page 20 of 28
 
---- Page 21 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 21 of 28
-  135 
+--- Page 21 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Fig. 4 Training dynamics for: (a) DQD, and (b) DAD
 demonstrating the limitations of EM for evaluation. Incom-
 plete answers account for 28% of errors, revealing model
@@ -2282,12 +2222,10 @@ Average
 98.64 ± 0.06
 97.95 ± 1.36
 123
+Page 21 of 28 
+135
 
---- Page 22 ---
-
-  135 
-Page 22 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 22 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Table 11 Results for testing LLMs on the duplicate answer detection (DAD) task using the HajjFatwa SAS dataset, with SD reported for each
 metric
 Model
@@ -2438,12 +2376,10 @@ Performance clustering appeared tighter among top MRC-
 Ex models compared to the clearer separation in MRC-Gen
 Fig. 5 Answer error distribution for: (a) AraBERTV0.2 MRC-Ex, and (b) AraBART MRC-Gen
 123
+ 135 
+Page 22 of 28
 
---- Page 23 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 23 of 28
-  135 
+--- Page 23 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Table 12 Model performance comparison on TyDiQA dataset (from
 Antoun et al. 2021)
 Model
@@ -2570,12 +2506,10 @@ while suitable for base models, may further exacerbate insta-
 bility in larger models. The complex parameter space of
 these models also makes locating global minima more dif-
 123
+Page 23 of 28 
+135
 
---- Page 24 ---
-
-  135 
-Page 24 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 24 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 ﬁcult, increasing the likelihood of settling in suboptimal
 local minima. These ﬁndings underscore the need for dataset
 expansion and precise hyperparameter optimization to fully
@@ -2676,12 +2610,10 @@ distilled/smaller LLMs (Llama, Mistral, DeepSeek) is war-
 ranted given their near-human performance and potential for
 resource-efﬁcient deployment.
 123
+ 135 
+Page 24 of 28
 
---- Page 25 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 25 of 28
-  135 
+--- Page 25 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Deployment optimization. Future work should compare
 deployment strategies (edge vs. cloud-based) for QA sys-
 tems, with particular attention to scalability during peak
@@ -2800,12 +2732,10 @@ ings of the Sixth Arabic Natural Language Processing Workshop.
 Kyiv, Ukraine (Virtual): Association for Computational Linguis-
 tics, pp 191–195
 123
+Page 25 of 28 
+135
 
---- Page 26 ---
-
-  135 
-Page 26 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 26 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Artetxe M, Ruder S, Yogatama D (2020) On the Cross-lingual Trans-
 ferability of Monolingual Representations. In: Jurafsky D, Chai
 J, Schluter N, Tetreault J (eds) Proceedings of the 58th Annual
@@ -2935,12 +2865,10 @@ D, Chai J, Schluter N, Tetreault J (eds) Proceedings of the 58th
 Annual Meeting of the Association for Computational Linguistics.
 Online: Association for Computational Linguistics, pp 7315–7330
 123
+ 135 
+Page 26 of 28
 
---- Page 27 ---
-
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
-Page 27 of 28
-  135 
+--- Page 27 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 Liang D, Gonen H, Mao Y, Hou R, Goyal N, Ghazvininejad M, et al
 (2023) XLM-V: Overcoming the Vocabulary Bottleneck in Mul-
 tilingual Masked Language Models. In: Proceedings of the 2023
@@ -3073,12 +3001,10 @@ Text Transformer. In: Toutanova K, Rumshisky A, Zettlemoyer
 L, Hakkani-Tur D, Beltagy I, Bethard S, et al. (eds) Proceed-
 ings of the 2021 Conference of the North American Chapter of
 123
+Page 27 of 28 
+135
 
---- Page 28 ---
-
-  135 
-Page 28 of 28
-Journal of King Saud University Computer and Information Sciences           (2025) 37:135 
+--- Page 28 ---\n\nJournal of King Saud University Computer and Information Sciences (2025) 37:135 
 the Association for Computational Linguistics: Human Language
 Technologies. Association for Computational Linguistics, pp 483–
 498
@@ -3093,5 +3019,6 @@ Modeling, Learning, and Reasoning. Engineering 6(3):275–290
 Publisher’s Note Springer Nature remains neutral with regard to juris-
 dictional claims in published maps and institutional afﬁliations.
 123
-
-```
+ 135 
+Page 28 of 28
+\n```\n

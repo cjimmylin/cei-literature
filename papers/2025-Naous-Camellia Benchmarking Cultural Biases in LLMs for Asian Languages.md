@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +46,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Arabic, Western"
-cultures_nationalities_list: "Chinese, Gujarati, Hindi, Japanese, Korean, Malayalam, Marathi, Urdu, Vietnamese"
-languages_list: "Chinese, Gujarati, Hindi, Japanese, Korean, Malayalam, Marathi, Urdu, Vietnamese"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3.3-70B; Qwen-2.5-72B; Aya-Expanse-32B; Gemma-3-27B"
+LLM_assessed: "Llama-3, Qwen-2, Gemma-3"
 DATA_URL: "NA"
 tags: 
 abstract: "As Large Language Models (LLMs) gain stronger multilingual capabilities, their ability to handle culturally diverse entities becomes crucial. Prior work has shown that LLMs often favor Western-associated entities in Arabic, raising concerns about cultural fairness. Due to the lack of multilingual benchmarks, it remains unclear if such biases also manifest in different non-Western languages. In this paper, we introduce Camellia, a benchmark for measuring entity-centric cultural biases in nine..."
@@ -63,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

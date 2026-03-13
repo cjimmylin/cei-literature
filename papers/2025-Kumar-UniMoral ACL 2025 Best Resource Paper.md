@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,9 +41,9 @@ external_pdf: "https://arxiv.org/pdf/2511.03180.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md"
 local_pdf: "[[PDFs/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.pdf]]"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi, Bengali"
-languages_list: "Bengali"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -47,7 +51,7 @@ newtags:
 tags: 
 abstract: "As multilingual Large Language Models (LLMs) gain traction across South Asia, their alignment with local ethical norms, particularly for Bengali, which is spoken by over 285 million people and ranked 6th globally, remains underexplored. Existing ethics benchmarks are largely English-centric and shaped by Western frameworks, overlooking cultural nuances critical for real-world deployment. To address this, we introduce BengaliMoralBench, the first large-scale ethics benchmark for the Bengali..."
 research_topic: Other
-LLM_assessed: "Llama-3, Gemma, Qwen, DeepSeek"
+LLM_assessed: "DeepSeek, Gemma, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/ciol-research/BengaliMoralBench"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -56,7 +60,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -89,7 +93,8 @@ Size: 8,784 instances
 
 ## Data Description
 
-The paper introduces BengaliMoralBench, a large-scale ethics benchmark for Bengali language and socio-cultural contexts containing 3,000 carefully curated moral scenarios across five domains (Daily Activities, Habits, Parenting, Family Relationships, Religious Activities) with 50 culturally relevant subtopics. Each scenario is annotated via native-speaker consensus using three ethical lenses: Virtue, Commonsense, and Justice ethics. Multiple multilingual LLMs were evaluated including Llama 3.1/3.2/3.3, Gemma 2/3, Qwen2.5-14B, and DeepSeek-R1-Distill-Llama-70B with accuracy ranging from 50-91%.
+BengaliMoralBench is the first large-scale ethics benchmark for the Bengali language, containing 3,000 handcrafted moral dilemmas across five domains (Daily Activities, Habits, Parenting, Family Relationships, Religious Activities) and 50 culturally relevant subtopics, annotated by native Bengali speakers using three ethical lenses (Virtue, Commonsense, Justice).
+
 
 ## Notes
 

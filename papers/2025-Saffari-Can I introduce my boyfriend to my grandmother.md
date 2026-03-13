@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ authors: "Hamidreza Saffari; Mohammadamin Shafiei; Donya Rooein; Francesco Pierr
 url: "https://aclanthology.org/2025.findings-naacl.337/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MJ364QQ4/Saffari et al. - Can I introduce my boyfriend to my grandmother Evaluating Large Language Models Capabilities on Ira.pdf"
 national_ethnic_cultural: "Iranian, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Iranian"
+cultures_nationalities_list: "Iranian, Multicultural/Cross-cultural"
 languages_list: "English, Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -51,7 +55,7 @@ tags:
 abstract: "Creating globally inclusive AI systems demands datasets reflecting diverse social norms. Iran, with its unique cultural blend, offers an ideal case study, with Farsi adding linguistic complexity. In this work, we introduce the Iranian Social Norms (ISN) dataset, a novel collection of 1,699 Iranian social norms, including environments, demographic features, and scope annotation, alongside English translations."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-3, Mixtral, Qwen, Claude"
+LLM_assessed: "GPT-4o, Llama-3, Mixtral, Qwen"
 DATA_URL: "https://github.com/hamidds/ISN"
 pdf_extract: "PDF Extracts/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
 local_pdf: "[[PDFs/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.pdf]]"
@@ -90,7 +94,7 @@ Creating globally inclusive AI systems demands datasets reflecting diverse socia
 
 ## Data Description
 
-The paper introduces the Iranian Social Norms (ISN) dataset, comprising 1,699 human-annotated social norms specific to Iranian culture, categorized as Expected, Normal, or Taboo, with environment, demographic features, and scope annotations in both Farsi and English. Six LLMs (Llama-3-8B, Llama-3.1-8B, Mixtral-8x7B, Qwen2-7B, Aya-23-8B, and GPT-4o) were evaluated on social norm classification in zero-shot settings across default and Iran-specific prompting strategies.
+Iranian Social Norms (ISN) dataset: 1,699 Iranian social norms annotated with environment, demographic features, and scope labels (Expected/Normal/Taboo), with English translations, for evaluating LLM cultural norm classification.
 
 
 ## Notes

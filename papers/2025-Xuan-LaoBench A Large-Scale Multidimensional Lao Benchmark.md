@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Lao, Laotian"
+cultures_nationalities_list: "N/A"
 languages_list: "Chinese, English, Lao"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has not been matched by their evaluation in low-resource languages, especially Southeast Asian languages like Lao. To fill this gap, we introduce LaoBench, the first large-scale, high-quality, and multidimensional benchmark for assessing LLM language understanding and reasoning in Lao. LaoBench contains 17,000+ expert-curated samples across three dimensions: culturally grounded knowledge application, curriculum-aligned K12 education, and..."
-LLM_assessed: "Claude, Claude-Opus, Claude-Sonnet, DeepSeek-V3, Qwen-family, Qwen3"
-DATA_URL: "NA"
+LLM_assessed: "Claude, DeepSeek, Gemini, Mistral, Qwen"
+DATA_URL: "https://huggingface.co/datasets/BAAI/LaoBench"
 research_topic: "Machine Learning"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ First large-scale multidimensional benchmark for Lao LLM evaluation. 17,000+ exp
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude-Opus, Claude-Sonnet, DeepSeek-V3, Qwen-family, Qwen3. No high-confidence repository-style data URL was identified.
+LaoBench: 17,000+ expert-curated samples for evaluating LLMs in Lao across three dimensions (culturally grounded knowledge application, K12 education, and bilingual translation). Includes an open-source subset (Lao-7k MCQs + Lao-500 open-ended) and a held-out black-box subset (Lao-10k).
+
 
 ## Notes
 

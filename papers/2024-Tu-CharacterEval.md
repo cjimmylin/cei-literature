@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Role Playing Personas"
@@ -39,11 +43,11 @@ url: "https://arxiv.org/abs/2401.01275"
 pdf_extract: "PDF Extracts/2024/2024-Tu-CharacterEval.md"
 local_pdf: "[[PDFs/2024/2024-Tu-CharacterEval.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2401.01275.pdf"
-national_ethnic_cultural: Chinese
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Chinese, Virtue Ethics"
 key_contribution: "Introduces CharacterEval, a comprehensive Chinese benchmark for evaluating Role-Playing Conversational Agents across four dimensions"
@@ -53,7 +57,7 @@ abstract: "Recently, the advent of large language models (LLMs) has revolutioniz
 paper_summary: "Introduces CharacterEval, a Chinese benchmark for evaluating Role-Playing Conversational Agents (RPCAs). Dataset contains 1,785 multi-turn dialogues with 23,000 examples featuring 77 characters from Chinese literary works. Employs 13 metrics across 4 dimensions; Chinese LLMs outperformed GPT-4 in role-playing tasks."
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5"
+LLM_assessed: "Baichuan, ChatGLM, GPT-3.5, GPT-4, InternLM, Qwen"
 DATA_URL: "https://github.com/morecry/CharacterEval"
 CONFERENCE: "Journal"
 ethics_overall: "No"
@@ -131,7 +135,7 @@ RPCAs require culturally and linguistically grounded evaluation. CharacterEval p
 
 ## Data Description
 
-CharacterEval is a Chinese benchmark for evaluating Role-Playing Conversational Agents (RPCAs), comprising 1,785 multi-turn role-playing dialogues with 11,376 examples featuring 77 characters derived from Chinese novels and scripts. The benchmark employs thirteen targeted metrics across four dimensions (conversational ability, character consistency, role-playing attractiveness, and personality back-testing). The dataset includes detailed character profiles sourced from Baidu Baike and was constructed through GPT-4-based dialogue extraction followed by human quality control.
+Introduces CharacterEval, a Chinese benchmark for role-playing conversational agent evaluation with 1,785 multi-turn dialogues, 11,376 examples, and 77 characters from Chinese novels and scripts, evaluated across 13 metrics on 4 dimensions.
 
 
 ## Notes

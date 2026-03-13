@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,13 +56,13 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Christianity, Islam"
+religious_values_list: "Christianity, Islam"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Summary: Extended study (2023--2024) showing that leading chatbots possess core skills of a rational theologian. Finds surprisingly high performance on theological skills, with caveats about hallucination risks especially for specific quotations."
-LLM_assessed: "Bloom, ChatGPT, Codex, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama-3, Llama2, PaLM, T5"
+LLM_assessed: "ChatGPT, GPT-4o, Gemini, GPT-3.5, PaLM"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -66,7 +70,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"

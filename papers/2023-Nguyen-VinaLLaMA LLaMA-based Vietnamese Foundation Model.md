@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +50,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BLOOM, BLOOM-7B, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-2, LLaMA-2-chat, Qwen, Vicuna"
+LLM_assessed: "BLOOM, ChatGPT, GPT-4, Llama-2, Qwen"
 DATA_URL: "NA"
 tags: 
 abstract: "In this technical report, we present VinaLLaMA, an open-weight, state-of-the-art (SOTA) Large Language Model for the Vietnamese language, built upon LLaMA-2 with an additional 800 billion trained tokens. VinaLLaMA not only demonstrates fluency in Vietnamese but also exhibits a profound understanding of Vietnamese culture, making it a truly indigenous model. VinaLLaMA-7B-chat, trained on 1 million high-quality synthetic samples, achieves SOTA results on key benchmarks, including VLSP, VMLU, and..."
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"

@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,8 +54,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We investigate whether Large Language Models (LLMs) exhibit altruistic tendencies, and critically, whether their implicit associations and self-reports predict actual altruistic behavior. Using a multimethod approach inspired by human social psychology, we tested 24 frontier LLMs across three paradigms: (1) an Implicit Association Test (IAT) measuring implicit altruism bias, (2) a forced binary choice task measuring behavioral altruism, and (3) a self-assessment scale measuring explicit..."
-LLM_assessed: "GPT-4, Gemini, Gemma, Claude, Llama-3, Mistral, Grok, Phi"
-DATA_URL: "https://github.com/sandroandric/LLMs_Altruism_"
+LLM_assessed: "Claude, Claude-3 Haiku, ChatGPT, GPT-4o, GPT-4o mini, Gemini, Gemma, Grok, Llama-3, Mistral, Phi"
+DATA_URL: "https://github.com/sandroandric/LLMs_Altruism_Study_Code"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
@@ -93,7 +97,8 @@ Tests implicit associations (IAT), behavioral altruism, and explicit beliefs acr
 
 ## Data Description
 
-The paper evaluates 24 frontier LLMs from 9 providers using a multi-method framework adapted from human social psychology, comprising an Implicit Association Test (IAT), a forced binary choice task for behavioral altruism, and a 15-item self-assessment scale. The study reveals a systematic 'virtue signaling gap' where models overestimate their altruism by an average of 11.9 percentage points, and proposes the Calibration Gap as a standardized alignment metric.
+Code and data for the multi-method altruism evaluation framework (IAT, forced binary choice, self-assessment) applied to 24 frontier LLMs across 9 providers.
+
 
 ## Notes
 

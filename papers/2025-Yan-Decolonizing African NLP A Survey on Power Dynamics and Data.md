@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +48,8 @@ pdf_extract: "PDF Extracts/2025/2025-Yan-Decolonizing African NLP A Survey on Po
 local_pdf: "[[PDFs/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
-languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
+cultures_nationalities_list: "African/Ubuntu"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -63,8 +65,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

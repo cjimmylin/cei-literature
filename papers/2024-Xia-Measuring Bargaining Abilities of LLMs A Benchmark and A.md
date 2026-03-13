@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +47,8 @@ local_pdf: "[[PDFs/2024/2024-Xia-Measuring Bargaining Abilities of LLMs A Benchm
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Bargaining is an important and unique part of negotiation between humans. As LLM-driven agents learn to negotiate and act like real humans, how to evaluate agents’ bargaining abilities remains an open problem. For the first time, we formally described the Bargaining task as an asymmetric incomplete information game, defining the gains of the Buyer and Seller in multiple bargaining processes. It allows us to quantitatively assess an agent’s performance in the Bargain task."
-LLM_assessed: "GPT-4, ChatGPT, Llama-2, Mistral, Mixtral, Qwen"
+LLM_assessed: "ChatGPT, GPT-4, Llama-2, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/TianXiaSJTU/AmazonPriceHistory"
 CONFERENCE: "ACL 2024"
 ethics_overall: "No"
@@ -97,7 +101,8 @@ AmazonHistoryPrice dataset -- 930 popular products across 18 categories with rea
 
 ## Data Description
 
-AmazonHistoryPrice is a dataset of 930 real products across 18 categories collected from Amazon's price history, used to benchmark LLM agents' bargaining abilities. The paper formally defines the bargaining task as an asymmetric incomplete information game and evaluates multiple LLMs as both buyers and sellers, finding that playing a buyer is significantly harder than a seller.
+AmazonHistoryPrice is a real product price dataset collected from camelcamelcamel covering ~900 products across 18 categories with historical price ranges, used as a benchmark for evaluating LLM bargaining abilities in asymmetric incomplete information games.
+
 
 ## Notes
 

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Human preference plays a crucial role in the refinement of large language models (LLMs). However, collecting human preference feedback is costly and most existing datasets neglect the correlation between personalization and preferences. To address this issue, we introduce FAIR-PP, a synthetic dataset of personalized preferences targeting social equity, derived from real-world social survey data, which includes 28 social groups, 98 equity topics, and 5 personal preference dimensions."
-LLM_assessed: "Falcon, Llama-3, Mistral, Qwen"
+LLM_assessed: "Falcon, GPT-4o mini, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/tools-only/FairPP, https://huggingface.co/datasets/tools-o/Fair-PP"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -98,7 +101,8 @@ Human preference plays a crucial role in the refinement of large language models
 
 ## Data Description
 
-FAIR-PP is a synthetic dataset of personalized preferences targeting social equity, derived from real-world social survey data. It contains 34,089 survey questions and 238,623 personalized preference records covering 28 social groups, 98 equity topics, and 5 personal preference dimensions across 7 representative persona portrayals. The dataset was generated using GPT-4o-mini for LLM personalization based on value-based segments from the UK public as defined in the 'More in Common' and YouGov's 2020 Britain's Choice report.
+FAIR-PP is a synthetic dataset of personalized preferences targeting social equity, comprising 238,623 samples across 28 social groups, 98 equity topics, and 5 preference dimensions, derived from real-world social survey data using GPT-4o-mini role-playing.
+
 
 ## Notes
 

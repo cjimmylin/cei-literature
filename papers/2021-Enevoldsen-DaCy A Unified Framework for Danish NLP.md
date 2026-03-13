@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +47,13 @@ pdf_extract: "PDF Extracts/2021/2021-Enevoldsen-DaCy A Unified Framework for Dan
 local_pdf: "[[PDFs/2021/2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Danish"
-languages_list: Danish
+cultures_nationalities_list: "N/A"
+languages_list: "Danish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ELECTRA, BERT, XLM-RoBERTa"
+LLM_assessed: "BERT, XLM-R"
 DATA_URL: "https://github.com/centre-for-humanities-computing/DaCy"
 tags: 
 abstract: "Danish natural language processing (NLP) has in recent years obtained considerable improvements with the addition of multiple new datasets and models. However, at present, there is no coherent framework for applying state-of-the-art models for Danish. We present DaCy: a uniﬁed framework for Danish NLP built on SpaCy. DaCy uses efﬁcient multitask models which obtain state-of-the-art performance on named entity recognition, part-of-speech tagging, and dependency parsing."
@@ -100,7 +104,7 @@ This paper presents DaCy, a unified SpaCy-based framework for Danish NLP providi
 
 ## Data Description
 
-DaCy framework providing three Danish NLP models: DaCy small (Danish ELECTRA, 14M parameters), DaCy medium (Danish BERT, 110M parameters), and DaCy large (XLM-RoBERTa, 550M parameters). Evaluated on POS tagging, NER, and dependency parsing with data augmentation tests for robustness.
+DaCy: unified Danish NLP framework with augmented evaluation suite testing bias and robustness of Danish language models on NER, POS, and dependency parsing.
 
 
 ## Detailed Summary

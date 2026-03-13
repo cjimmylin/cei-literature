@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +50,7 @@ publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "European"
+cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -53,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The EU’s Artificial Intelligence Act (AI Act) is a significant step towards responsible AI development, but lacks clear technical interpretation, making it difficult to assess models’ compliance. This work presents COMPL-AI, a comprehensive framework consisting of (i) the first technical interpretation of the EU AI Act, translating its broad regulatory requirements into measurable technical requirements, with the focus on large language models (LLMs), and (ii) an open-source Act-centered..."
-LLM_assessed: "Llama-2, Llama-3, Mistral, Mixtral, Qwen, GPT-3.5, GPT-4, Claude"
+LLM_assessed: "Claude-3 Opus, GPT-3.5, GPT-4, Llama-2, Llama-3, Mistral, Mixtral, Qwen-1.5, Yi"
 DATA_URL: "https://github.com/compl-ai/compl-ai"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -98,7 +103,8 @@ Comprehensive benchmarking suite aggregating state-of-the-art LLM benchmarks
 
 ## Data Description
 
-COMPL-AI is a comprehensive EU AI Act compliance benchmarking suite that evaluates 12 prominent LLMs across up to 23 benchmarks organized under six ethical principles. The suite includes robustness benchmarks (MMLU Robustness, BoolQ/IMDB Contrast Sets), safety benchmarks (TensorTrust, LLM RuLES, AdvBench), fairness benchmarks (DecodingTrust, FaiRLLM, BBQ, BOLD, RedditBias), transparency benchmarks (MMLU, TruthfulQA, HumanEval), and toxicity benchmarks (RealToxicityPrompts). The framework and code are open-source.
+Open-source EU AI Act-centered LLM benchmarking suite with technical interpretation of regulatory requirements mapped to state-of-the-art benchmarks.
+
 
 ## Notes
 

@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +45,7 @@ publication: arXiv
 CONF-CC: "Preprint"
 ethics_perspective: "Cross-Cultural Ethics"
 national_ethnic_cultural: "Chinese, American, Western, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Chinese, American"
+cultures_nationalities_list: "Chinese, American, Western, Multicultural/Cross-cultural"
 languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -51,7 +55,7 @@ key_contribution: "Develops Multi-Layered Auditing Platform comparing value alig
 significance: "Shows larger LLMs favor deontological perspective; reveals cultural differences in ethical reasoning across 20+ models"
 abstract: "As Large Language Models (LLMs) increasingly influence high-stakes decisionmaking across global contexts, ensuring their alignment with diverse cultural values has become a critical governance challenge. This study presents a MultiLayered Auditing Platform for Responsible AI that systematically evaluates crosscultural value alignment in China-origin and Western-origin LLMs through four integrated methodologies: Ethical Dilemma Corpus for assessing temporal stability, Diversity-Enhanced..."
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4o, GPT-3.5, Claude, Llama-3, Llama-2, Mistral, Mixtral, Qwen, DeepSeek"
+LLM_assessed: "Claude, DeepSeek, GPT-3.5, GPT-4o, Llama-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -81,7 +85,7 @@ As Large Language Models (LLMs) increasingly influence high-stakes decision-maki
 
 ## Data Description
 
-This study presents a Multi-Layered Auditing Platform for Responsible AI that evaluates cross-cultural value alignment in 20+ China-origin and Western-origin LLMs through four integrated methodologies. The platform utilizes ethical dilemma corpora with 1,730 scenarios across value pairs, Diversity-Enhanced Framework for cultural fidelity quantification, First-Token Probability Alignment, and Multi-stAge Reasoning frameworK (MARK). Models are evaluated against World Values Survey data from U.S. and Chinese populations.
+Constructs an Ethical Dilemma Corpus used to evaluate temporal stability of LLM value systems; corpus is part of the Multi-Layered Auditing Platform for Responsible AI but no public repository URL is provided in the paper.
 
 
 ## Notes

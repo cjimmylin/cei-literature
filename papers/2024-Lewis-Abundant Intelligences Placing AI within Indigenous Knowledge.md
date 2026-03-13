@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +47,17 @@ CONF-CC: "AI & Society"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous Peoples"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
-DATA_URL: "https://abundant-intelligences.net/"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: "Presents a new research agenda — Abundant Intelligences — an Indigenous-led, Indigenous-majority international research program that reimagines how to conceptualize and design AI based on Indigenous knowledge systems. Argues that Western rationalist epistemologies provide insufficient foundations for AI and proposes IK systems as engines of abundance rather than scarcity."
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"

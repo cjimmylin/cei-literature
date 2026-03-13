@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ publication: "arXiv / ACL Anthology (UNLP 2024)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Ukrainian"
-languages_list: Ukrainian
+cultures_nationalities_list: "N/A"
+languages_list: "Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, GPT 3, GPT 3.5, GPT 4, GPT3, GPT3.5, GPT4, Gemma, Gemma7, Llama, Mistral, Mistral-based, MistralFT"
+LLM_assessed: "Alpaca, Gemma, GPT-3.5, GPT-4, LLaMA, Mistral"
 DATA_URL: "https://github.com/PolyAgent/from-bytes-to-borsch"
 tags: 
 abstract: "In the rapidly advancing field of AI and NLP, generative large language models (LLMs) stand at the forefront of innovation, showcasing unparalleled abilities in text understanding and generation. However, the limited representation of low-resource languages like Ukrainian poses a notable challenge, restricting the reach and relevance of this technology. Our paper addresses this by fine-tuning the open-source Gemma and Mistral LLMs with Ukrainian datasets, aiming to improve their linguistic..."
@@ -100,7 +104,8 @@ Presents Ukrainian Knowledge and Instruction Dataset (UKID) for LLM fine-tuning.
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, GPT 3, GPT 3.5, GPT 4, GPT3, GPT3.5, GPT4, Gemma, Gemma7, Llama, Mistral, Mistral-based, MistralFT. Verified dataset/resource link: https://github.com/PolyAgent/from-bytes-to-borsch.
+UKID (Ukrainian Knowledge and Instruction Dataset) is an instruction fine-tuning dataset for the Ukrainian language. The paper fine-tunes Gemma-2B/7B and Mistral-7B on UKID and benchmarks them against proprietary models (GPT-3.5, GPT-4) and UAlpaca on Ukrainian language tasks.
+
 
 ## Notes
 

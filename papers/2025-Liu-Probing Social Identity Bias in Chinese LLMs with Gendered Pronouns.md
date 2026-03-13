@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ local_pdf: "[[PDFs/2025/2025-Liu-Probing Social Identity Bias in Chinese LLMs wi
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: Chinese
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Baichuan2, ChatGPT, DeepSeek-V3, GPT-3, GPT-3.5, Qwen-7B, Qwen-7B5, Qwen-Plus, Qwen3, Qwen"
-DATA_URL: "https://github.com/fxsjy/jieba"
+LLM_assessed: "Baichuan, ChatGLM, DeepSeek, ERNIE, Hunyuan, Qwen"
+DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in user-facing applications, raising concerns about their potential to reflect and amplify social biases. We investigate social identity framing in Chinese LLMs using Mandarin-specific prompts across ten representative Chinese LLMs, evaluating responses to ingroup (“We”) and outgroup (“They”) framings, and extending the setting to 240 social groups salient in the Chinese context."
 CONFERENCE: "Preprint"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation framework text corpus for conversational ai"
 data_metrics: "Not specified"
 ---

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "ACL 2025 Findings"
 local_pdf: "[[PDFs/2024/2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi, Nepali"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Arabic, Assamese, Bangla, English, Hindi, Nepali, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, Gemini, Llama-3.1, Mistral"
+LLM_assessed: "GPT-4o, Gemini, Llama-3, Mistral"
 DATA_URL: "https://huggingface.co/datasets/QCRI/MultiNativQA"
 tags: 
 abstract: "Natural Question Answering (QA) datasets play a crucial role in evaluating the capabilities of large language models (LLMs), ensuring their effectiveness in real-world applications. Despite the numerous QA datasets that have been developed and some work has been done in parallel, there is a notable lack of a framework and large scale region-specific datasets queried by native users in their own languages."
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for question answering"
 data_metrics: "7 languages"
@@ -97,7 +101,7 @@ Scalable framework for constructing culturally and regionally aligned QA dataset
 
 ## Data Description
 
-NativQA is a framework for creating culturally and regionally aligned QA datasets. The resulting MultiNativQA dataset contains approximately 64,000 manually annotated QA pairs in seven languages (Bangla, English, Hindi, Turkish, Arabic, Assamese, Nepali) covering 18 topics from 9 regions. Four LLMs were benchmarked, and a fine-tuned Llama-3.1 model was also evaluated across all languages.
+Multilingual culturally-aligned QA dataset with ~64K manually annotated QA pairs in 7 languages (Arabic, Assamese, Bangla, English, Hindi, Nepali, Turkish) from 9 regions covering 18 topics.
 
 
 ## Notes

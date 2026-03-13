@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +48,7 @@ external_pdf: "http://arxiv.org/pdf/2306.13000.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
 national_ethnic_cultural: "American"
-cultures_nationalities_list: "N/A"
+cultures_nationalities_list: "American"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -58,7 +62,7 @@ abstract: "As generative language models are deployed in ever-wider contexts, co
 paper_summary: "Abstract: As generative language models are deployed in ever-wider contexts, concerns about their political values have come to the forefront with critique from all parts of the political spec- trum that the mo | Overview: Apolitical Intelligence? Auditing Delphi's responses on controversial political issues in the US Jonathan H. Rystrøm Oxford Internet Institute Oxford, UK Abstract As generative language models are dep | Methodology: and training data for Delphi [43], doing a code audit would be infeasible given the complexity of the model [73]. Delphi has 11 billion non-linear par | Conclusions: 7.1 Key Findings H1 As shown in fig. 1, I found no relation between entropy and controversy. Most of Delphi's responses had low entropy for both quest"
 local_pdf: "[[PDFs/2023/2023-Rystrøm-Apolitical Intelligence.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, GPT-3, GPT-4"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -67,7 +71,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

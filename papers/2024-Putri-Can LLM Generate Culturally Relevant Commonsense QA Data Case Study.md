@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +56,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, Llama-2, Mistral-7B, MistralOrca"
-DATA_URL: "https://github.com/commonsense/conceptnet5"
+LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Llama-2, Mistral"
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly being used to generate synthetic data for training and evaluating models. However, it is unclear whether they can generate a good quality of question answering (QA) dataset that incorporates knowledge and cultural nuance embedded in a language, especially for low-resource languages. In this study, we investigate the effectiveness of using LLMs in generating culturally relevant commonsense QA datasets for Indonesian and Sundanese languages."
 CONFERENCE: "EMNLP 2024"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "4.5k questions"
@@ -99,7 +103,8 @@ Investigates LLM effectiveness in generating culturally relevant commonsense QA 
 
 ## Data Description
 
-Backfill summary: Models assessed include BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, Llama-2, Mistral-7B, MistralOrca. Verified dataset/resource link: https://github.com/commonsense/conceptnet5.
+Culturally relevant commonsense QA dataset for Indonesian and Sundanese (~4.5K questions per language, ~9K total), the largest of its kind, created using both LLMs and human annotators with multiple generation methods.
+
 
 ## Notes
 

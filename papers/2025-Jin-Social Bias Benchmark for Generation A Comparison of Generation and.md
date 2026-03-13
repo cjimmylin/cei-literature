@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +56,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude-3-haiku, Claude-3.5-sonnet, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4-turbo, GPT-4o, Llama, Llama-3.3, Qwen, Qwen2.5, ChatGPT, claude-3, llama 3"
-DATA_URL: "NA"
+LLM_assessed: "ChatGPT, Claude-3 Haiku, Claude-3 Sonnet, GPT-3.5, GPT-4, GPT-4o, Gemini, Llama-3, Qwen"
+DATA_URL: "https://jinjh0123.github.io/BBG"
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. Measuring social bias in large language models (LLMs) is crucial, but existing bias evaluation methods struggle to assess bias in longform generation. We propose a Bias Benchmark for Generation (BBG), an adaptation of the Bias Benchmark for QA (BBQ), designed to evaluate social bias in long-form generation by having LLMs generate continuations of story prompts."
 CONFERENCE: "ACL 2025"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,8 @@ Bias Benchmark for Generation adapted from BBQ/KoBBQ for long-form story generat
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude-3-haiku, Claude-3.5-sonnet, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4-turbo, GPT-4o, Llama, Llama-3.3, Qwen, Qwen2.5, ChatGPT, claude-3, llama 3. No high-confidence repository-style data URL was identified.
+Bias Benchmark for Generation (BBG): English and Korean story-generation bias evaluation dataset adapted from BBQ/KoBBQ, with neutrality and bias scores across 9 (English) and 12 (Korean) social categories.
+
 
 ## Notes
 

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +49,17 @@ local_pdf: "[[PDFs/2025/2025-Rinki-Measuring South Asian Biases in Large.pdf]]"
 publication: "WebSearch: South Asian biases LLM"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "South Asian, Indian, Pakistani, Bangladeshi, Sri Lankan"
-languages_list: "Multilingual"
+national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indian, Multicultural/Cross-cultural"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Evaluations of Large Language Models (LLMs) often overlook intersectional and culturally specific biases, particularly in underrepresented multilingual regions like South Asia. This work addresses these gaps by conducting a multilingual and intersectional analysis of LLM outputs across 10 Indo-Aryan and Dravidian languages, identifying how cultural stigmas influenced by purdah and patriarchy are reinforced in generative tasks."
-LLM_assessed: "Gemma"
-DATA_URL: "https://huggingface.co/Telugu-LLM-Labs/Indic-"
+LLM_assessed: "mT5"
+DATA_URL: NA
 research_topic: "Other"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -66,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -96,7 +99,8 @@ Multilingual and intersectional analysis of LLM outputs across 10 Indo-Aryan and
 
 ## Data Description
 
-Backfill summary: Models assessed include Gemma. Verified dataset/resource link: https://huggingface.co/Telugu-LLM-Labs/Indic-.
+A novel South Asian intersectional bias lexicon (923 culturally grounded terms) and a generated dataset of 100,800 entries spanning 10 Indo-Aryan and Dravidian languages, 48 identity combinations, and 3 open-ended generation tasks for measuring intersectional bias in multilingual LLMs.
+
 
 ## Notes
 

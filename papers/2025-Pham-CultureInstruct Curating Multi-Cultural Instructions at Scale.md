@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "NAACL 2025"
 local_pdf: "[[PDFs/2025/2025-Pham-CultureInstruct Curating Multi-Cultural Instructions at Scale.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pham-CultureInstruct Curating Multi-Cultural Instructions at Scale.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural, Various"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3.1-8B, Llama-3.1-70B, Qwen2-7B, Qwen2-72B, Gemma-2-9B, Mistral-7B, OLMo-7B, GPT-4o, GPT-4o-mini"
+LLM_assessed: "Gemma-2, GPT-4o, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/thanhpv2102/CultureInstruct"
 tags: 
 abstract: "430K multi-cultural instructions covering 11 culturally relevant topics. Fine-tuning with CultureInstruct yields consistent improvements on cultural knowledge, human opinions/values, and linguistic cultural bias benchmarks. Qwen2-Instruct 72B + CultureInstruct outperforms GPT-4o."
@@ -63,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-CultureInstruct is a large-scale instruction-tuning dataset of 430K multicultural instructions covering 11 cultural topics (norms, history, cuisine, art, religion, language, music, festivals, literature, social life) across 183 countries. Built from the DOLMA corpus via a four-step pipeline (document filtering, instruction generation with tuned BONITO, diversification, decontamination), the dataset is used to fine-tune LLMs and evaluate them on cultural benchmarks including CulturalBench, CANDLE, ETICOR, GlobalOpinionQA, and CAMEL.
+CultureInstruct is a large-scale instruction-tuning dataset of 430K multi-cultural instructions spanning 11 cultural topics, constructed automatically from web documents using a four-step pipeline. Released publicly for reducing cultural bias in LLMs.
 
 
 ## Notes

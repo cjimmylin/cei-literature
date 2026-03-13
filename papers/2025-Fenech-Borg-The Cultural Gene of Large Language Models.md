@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,8 +45,8 @@ url: "http://arxiv.org/abs/2508.12411"
 external_pdf: "http://arxiv.org/pdf/2508.12411.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Chinese, American"
+national_ethnic_cultural: "Chinese, American, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, American, Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -101,7 +104,7 @@ Large Language Models (LLMs) are being deployed globally, yet their underlying c
 
 ## Data Description
 
-The paper introduces a Cultural Probe Dataset (CPD) comprising 200 unique probes equally divided between Individualism-Collectivism and Power Distance dimensions, with three probe types (Value-Dilemma, Scenario-Judgment, Stereotype-Association). GPT-4 (Western-centric) and ERNIE Bot (Eastern-centric) are tested via zero-shot prompting to measure cultural alignment indices across Hofstede's cultural dimensions.
+Introduces a Cultural Probe Dataset (CPD) designed to evaluate LLMs on cross-cultural psychological dimensions (Individualism-Collectivism and Power Distance). The dataset and methodology are described but no public repository URL is provided.
 
 
 ## Notes

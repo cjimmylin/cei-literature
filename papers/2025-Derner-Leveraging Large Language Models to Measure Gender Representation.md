@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French, Spanish"
-cultures_nationalities_list: "Spanish"
+cultures_nationalities_list: "French, Spanish"
 languages_list: "French, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, Llama 3, Llama 3.1, Llama 3.2, Qwen 2.5, gpt-4-turbo, GPT-4o, llama-3.3, llama3.1, llama3.2, Qwen, qwen-2.5, qwen2.5"
+LLM_assessed: "GPT-4, GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/ellisalicante/grb-corpora"
 tags: 
 abstract: "Large language models (LLMs) often inherit and amplify social biases embedded in their training data. A prominent social bias is gender bias. In this regard, prior work has mainly focused on gender stereotyping bias – the association of specific roles or traits with a particular gender – in English and on evaluating gender bias in model embeddings or generated outputs. In contrast, gender representation bias – the unequal frequency of references to individuals of different genders – in the..."
@@ -95,7 +99,8 @@ Novel methodology using LLMs to analyze gender representation in Spanish and Fre
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, Llama 3, Llama 3.1, Llama 3.2, Qwen 2.5, gpt-4-turbo, GPT-4o, llama-3.3, llama3.1, llama3.2, Qwen, qwen-2.5, qwen2.5. Verified dataset/resource link: https://github.com/ellisalicante/grb-corpora.
+Releases annotated Spanish and French corpora with gender-tagged entities, enabling measurement of gender representation bias in NLP benchmark datasets. Introduces methodology and benchmark corpora for assessing gender representation imbalance.
+
 
 ## Notes
 

@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +56,8 @@ pdf_extract: "PDF Extracts/2024/2024-Moore-Intuitions of Compromise.md"
 abstract: "What is the best compromise in a situation where different people value different things? The most commonly accepted method for answering this question—in fields across the behavioral and social sciences, decision theory, philosophy, and artificial intelligence development—is simply to add up utilities associated with the different options and pick the solution with the largest sum. This “utilitarian” approach seems like the obvious, theory-neutral way of approaching the problem."
 paper_summary: "Abstract: What is the best compromise in a situation where different people value different things? The most commonly accepted method for answering this question—in fields across the behavioral and social scien | Overview: Intuitions of Compromise: Utilitarianism vs. Contractualism Jared Moore Stanford University jlcmoore@stanford.edu Yejin Choi University of Washington yejin@cs.washington.edu Sydney Levine Allen Instit | Methodology: yields more intuitively plausible results. We empirically survey participants' intuitions about the recommendations given by these contrasting approac | Conclusions: When people aggregate values, what strategies do they think are best? In other words, which algorithm yields more intuitively plausible compromises, t"
 local_pdf: "[[PDFs/2024/2024-Moore-Intuitions of Compromise.pdf]]"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, text-davinci"
-DATA_URL: "https://osf.io/2hxgu"
+LLM_assessed: "GPT-3.5, GPT-4, Claude-2, Claude-3 Opus, text-davinci-002"
+DATA_URL: "https://github.com/jlcmoore/valueaggregation"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"

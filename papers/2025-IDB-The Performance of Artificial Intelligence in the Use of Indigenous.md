@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +46,8 @@ CONF-CC: "N/A"
 local_pdf: "[[PDFs/2025/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "Peruvian, pan-Latin American"
+national_ethnic_cultural: "Latin American"
+cultures_nationalities_list: "Latin American"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"

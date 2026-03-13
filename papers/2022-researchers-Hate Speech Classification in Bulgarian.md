@@ -21,6 +21,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,15 +42,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2022/2022-researchers-Hate Speech Classification in Bulgarian.md"
 local_pdf: "[[PDFs/2022/2022-researchers-Hate Speech Classification in Bulgarian.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic, German"
-cultures_nationalities_list: "Bulgarian"
-languages_list: Bulgarian
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Bulgarian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, Word2Vec"
-DATA_URL: "https://github.com/vpodpecan/lemmagen3"
+LLM_assessed: "BERT"
+DATA_URL: "http://www.pfeffer.at/data/bulgarian/"
 tags: 
 abstract: "In recent years, we have seen a surge in the propagation of online hate speech on social media platforms. According to a multitude of sources such as the European Council, hate speech can lead to acts of violence and conflict on a broader scale. That has led to increased awareness by governments, companies, and the scientific community, and although the field is relatively new, there have been considerable advancements in the field as a result of the collective effort."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -57,7 +60,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -90,7 +93,8 @@ Dataset of 108,142 annotated sentences from Bulgarian online forums. Categories:
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, Word2Vec. Verified dataset/resource link: https://github.com/vpodpecan/lemmagen3.
+108,142 manually annotated Bulgarian sentences from online forums for hate speech classification, with categories: racism, sexism, rudeness, profanity (~1.74% hate speech).
+
 
 ## Notes
 

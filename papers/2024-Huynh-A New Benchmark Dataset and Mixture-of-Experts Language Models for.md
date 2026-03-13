@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +49,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-4, T5"
+LLM_assessed: "BERT, CafeBERT, PhoBERT, XLM-R"
 DATA_URL: "https://huggingface.co/datasets/uitnlp/ViANLI"
 tags: 
 abstract: "Existing Vietnamese Natural Language Inference (NLI) datasets lack adversarial complexity, limiting their ability to evaluate model robustness against challenging linguistic phenomena. In this article, we address the gap in robust Vietnamese NLI resources by introducing ViANLI, the first adversarial NLI dataset for Vietnamese, and propose NLIMoE, a Mixture-of-Experts model to tackle its complexity. We construct ViANLI using an adversarial human-and-machine-in-the-loop approach with rigorous..."
@@ -97,7 +100,8 @@ First adversarial NLI dataset for Vietnamese. Addresses limitations of ViNLI and
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4, T5. Verified dataset/resource link: https://huggingface.co/datasets/uitnlp/ViANLI.
+ViANLI, the first adversarial NLI dataset for Vietnamese, containing over 10,000 premise-hypothesis pairs constructed through an adversarial human-and-machine-in-the-loop approach.
+
 
 ## Notes
 

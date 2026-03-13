@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,15 +50,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.md"
 local_pdf: "[[PDFs/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Russian, American"
+national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
-languages_list: Russian
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa, T5, T5-based"
-DATA_URL: "https://github.com/sberbank-ai/ru-gpts"
+LLM_assessed: "BERT, T5"
+DATA_URL: "https://russe.nlpub.org/2022/tox"
 tags: 
 abstract: "Text detoxification is the task of rewriting a toxic text into a neutral text while preserving its original content. It has a wide range of applications, e.g. moderation of output of neural chatbots or suggesting less emotional version of posts on social networks. This paper provides a description of RUSSE-2022 competition of detoxification methods for the Russian language. This is the first competition which features (i) parallel training data and (ii) manual evaluation."
 research_topic: Other
@@ -64,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for toxicity detection"
@@ -101,7 +105,8 @@ First shared task on Russian text detoxification with parallel corpus of toxic s
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa, T5, T5-based. Verified dataset/resource link: https://github.com/sberbank-ai/ru-gpts.
+First parallel corpus for Russian text detoxification with 6,948 training toxic sentences and manually written non-toxic paraphrases. Shared task with automatic and manual evaluation of participating detoxification systems.
+
 
 ## Notes
 

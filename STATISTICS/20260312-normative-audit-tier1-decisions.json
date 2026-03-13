@@ -1,0 +1,300 @@
+{
+  "audit_tier": "tier1",
+  "audit_date": "2026-03-12",
+  "decisions": [
+    {
+      "filename": "2012-Gippert-The Encoding of Avestan - Problems and Solutions.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2020-Sandaruwan-Sinhala Hate Speech Detection in Social Media using Text Mining and.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2021-Röttger-HateCheck.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2021-collaborators-Optimisation of the Largest Annotated Tibetan.md",
+      "changes": {
+        "deontological_ethics": "No"
+      },
+      "note": "D-FP: no ethics context, weak match: rule-based"
+    },
+    {
+      "filename": "2022-Qiu-ValueNet.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: hedonism"
+    },
+    {
+      "filename": "2022-Röttger-Multilingual HateCheck.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2022-researchers-Hate Speech Classification in Bulgarian.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: FP context: character-level"
+    },
+    {
+      "filename": "2023-Shao-Character-LLM A Trainable Agent for Role-Playing.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2023-TheDevastator-OpenAssistant Conversations (OASST1).md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2023-Zou-Universal and Transferable Adversarial Attacks on.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: maximize"
+    },
+    {
+      "filename": "2024-Li-SALAD-Bench.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2024-Tu-CharacterEval.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: FP context: virtual"
+    },
+    {
+      "filename": "2024-Zeng-Leveraging Large Language Models for Code-Mixed.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: FP context: character level"
+    },
+    {
+      "filename": "2025-Brophy-Black Box Deployed.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2025-Cognitive-Improved Tibetan Word Vectors Models Based on Position Information.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Farsi-ParsiPy NLP Toolkit for Historical Persian Texts in Python.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Jourdan-FairTranslate.md",
+      "changes": {
+        "deontological_ethics": "No"
+      },
+      "note": "D-FP: FP context: imperative to, it is imperative"
+    },
+    {
+      "filename": "2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....md",
+      "changes": {
+        "deontological_ethics": "No"
+      },
+      "note": "D-FP: FP context: imperative to, it is imperative"
+    },
+    {
+      "filename": "2025-Lan-Fuxi A Benchmark for Evaluating Language.md",
+      "changes": {
+        "deontological_ethics": "No"
+      },
+      "note": "D-FP: no ethics context, weak match: rule-based"
+    },
+    {
+      "filename": "2025-Lee-Knowing the Words Missing the Meaning Evaluating LLMs' Cultural.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games.md",
+      "changes": {
+        "deontological_ethics": "No"
+      },
+      "note": "D-FP: no ethics context, weak match: rule-based"
+    },
+    {
+      "filename": "2025-Menke-How Effective Is Constitutional AI in Small LLMs.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Mitchell-SHADES.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2025-Pretrained-Optimizing Uyghur Speech Synthesis by Combining Pretrained.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Sekine-AnswerCarefully A Dataset for Improving the.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2025-Xi-InfoDeepSeek.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2025-Xie-Enhancing Multilingual Language Models for Code-Switched Input Data.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Yao-Value Compass Benchmarks.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: FP context: character set"
+    },
+    {
+      "filename": "2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: utility"
+    },
+    {
+      "filename": "2025-project-Kaku-Ora Zen Wisdom Diffused -- An.md",
+      "changes": {
+        "virtue_ethics": "No"
+      },
+      "note": "V-FP: no ethics context, weak match: "
+    },
+    {
+      "filename": "2026-Yun-VAPT Value-Alignment Perception Toolkit.md",
+      "changes": {
+        "utilitarian_ethics": "No"
+      },
+      "note": "U-FP: no ethics context, weak match: welfare"
+    }
+  ]
+}

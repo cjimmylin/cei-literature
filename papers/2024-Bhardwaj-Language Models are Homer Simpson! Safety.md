@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +42,8 @@ last_author: "[[Poria, Soujanya]]"
 authors: "Bhardwaj, Rishabh; Do, Duc Anh; Poria, Soujanya"
 url: "https://aclanthology.org/2024.acl-long.762/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B6BW5928/2024 - Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Ar.pdf"
-national_ethnic_cultural: "Chinese, Indian"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Chinese, English, Hindi, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
@@ -83,7 +87,7 @@ We propose RESTA to perform LLM realignment towards safety, which gets compromis
 
 ## Data Description
 
-The paper introduces CATQA, a multilingual safety evaluation benchmark containing 550 harmful questions across 11 categories (each with 5 sub-categories of 10 questions) covering prohibited use cases from OpenAI and Meta usage policies. CATQA is available in English, Chinese, and Vietnamese. The study evaluates Llama-2-7B-Chat under PEFT and Full Fine-Tuning across five domains (Chinese, Hindi, English, Code, Math) using CATQA and three existing safety benchmarks (HarmfulQA, AdversarialQA, DangerousQA). The dataset is released at https://huggingface.co/datasets/declare-lab/CategoricalHarmfulQA.
+Introduces CATQA, a multilingual safety evaluation benchmark of 550 harmful questions across 11 categories in English, Chinese, and Vietnamese, used to evaluate the RESTA safety realignment method on Llama-2.
 
 
 ## Notes

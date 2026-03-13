@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.md"
 local_pdf: "[[PDFs/2025/2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, American"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: Chinese
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, Baichuan 2, Baichuan2, ChatGLM, DeepSeek, DeepSeek 1, DeepSeek-V3, GPT-2, InternLM2, LLAMA2, Mistral 7b, Mistral-7B, Qwen2, Qwen2.5, BERT, ChatGPT"
+LLM_assessed: "Baichuan, ChatGLM, InternLM, Llama-2, Mistral, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: ". Warning: This paper contains content that may be offensive or harmful As large language models (LLMs) are increasingly applied to various NLP tasks, their inherent biases are gradually disclosed. Therefore, measuring biases in LLMs is crucial to mitigate its ethical risks. However, most existing bias evaluation datasets are focus on English and North American culture, and their bias categories are not fully applicable to other cultures."
@@ -100,7 +104,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, Baichuan 2, Baichuan2, ChatGLM, DeepSeek, DeepSeek 1, DeepSeek-V3, GPT-2, InternLM2, LLAMA2, Mistral 7b, Mistral-7B, Qwen2, Qwen2.5, BERT, ChatGPT. No high-confidence repository-style data URL was identified.
+McBE: 4,077-instance multi-task Chinese bias evaluation benchmark covering 12 bias categories (gender, religion, nationality, socioeconomic, age, appearance, health, region, LGBTQ+, worldview, subculture, race) and 82 subcategories, with 5 evaluation tasks.
+
 
 ## Notes
 

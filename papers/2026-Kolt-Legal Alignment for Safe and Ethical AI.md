@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +62,7 @@ key_contribution: "Defines legal alignment as a field leveraging legal rules, in
 significance: "Major multi-institutional collaboration (17 authors) proposing law as an overlooked resource for AI alignment"
 abstract: "Alignment of artificial intelligence (AI) encompasses the normative problem of specifying how AI systems should act and the technical problem of ensuring AI systems comply with those specifications. To date, AI alignment has generally overlooked an important source of knowledge and practice for grappling with these problems: law. This paper defines a new emerging field—legal alignment—that focuses on three research directions: (1) designing AI systems to comply with the content of legal rules developed through legitimate institutions and processes, (2) adapting methods from legal interpretation to guide how AI systems reason and make decisions, and (3) harnessing legal concepts as a structural blueprint for confronting challenges of reliability, trust, and cooperation in AI systems."
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama, Llama Guard"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,8 +60,8 @@ paper_summary: "Abstract: Moral AI has been studied in the fields of philosophy 
 local_pdf: "[[PDFs/2023/2023-Ji-Commonsense Norm Bank.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "DeBERTa, BERT, RoBERTa, ALBERT, T5"
-DATA_URL: "https://huggingface.co/microsoft/deberta-v3-large"
+LLM_assessed: "BERT"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

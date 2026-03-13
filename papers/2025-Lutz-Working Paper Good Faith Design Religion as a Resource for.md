@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +47,17 @@ CONF-CC: "Preprint"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Shinto, Multi-faith"
+national_ethnic_cultural: "Japanese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Japanese, Multicultural/Cross-cultural"
 languages_list: ""
-religious_values: Multi-tradition
-religious_values_list: "Buddhism, Christianity, Hinduism, Islam, Judaism, Mormonism, Shinto, Sikhism, Taoism"
+religious_values: "Buddhism, Christianity, Hinduism, Islam, Judaism, Sikhism, Shinto, Taoism"
+religious_values_list: "Buddhism, Christianity, Hinduism, Islam, Judaism, Sikhism, Shinto, Taoism"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Interview study with 48 religious people/experts from 11 faiths including Shinto, documenting how religious people experience and imagine technologies. Shinto participants discussed AI temple guides and shrine maintenance via immersive projections. Distills six design values: wonder, humility, space, embodiedness, community, and eternity."
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"

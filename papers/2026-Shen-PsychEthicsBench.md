@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +44,7 @@ authors: "Shen, Yaling; Fong, Stephanie; Jiang, Yiwen; Wang, Zimu; Tang, Feilong
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03578"
 external_pdf: "https://arxiv.org/pdf/2601.03578.pdf"
-pdf_extract: "PDF Extracts/0000/2026-Shen-PsychEthicsBench.md"
+pdf_extract: "PDF Extracts/2026/2026-Shen-PsychEthicsBench.md"
 local_pdf: "[[PDFs/2026/2026-Shen-PsychEthicsBench.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The increasing integration of large language models (LLMs) into mental health applications necessitates robust frameworks for evaluating professional safety alignment. Current evaluative approaches primarily rely on refusal-based safety signals, which offer limited insight into the nuanced behaviors required in clinical practice. In mental health, clinically inadequate refusals can be perceived as unempathetic and discourage help-seeking."
-LLM_assessed: "GPT-4, Claude, Qwen, Llama-3, Llama-2"
+LLM_assessed: "Qwen, Llama-3, Llama-2"
 DATA_URL: "https://github.com/ElsieSHEN/PsychEthicsBench"
 normative_ethics_benchmark: Borderline
 research_topic: "Other"

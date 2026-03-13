@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ tags:
 abstract: "Large language models (LLMs) demonstrate significant potential in advancing medical applications, yet their capabilities in addressing medical ethics challenges remain underexplored. This paper introduces MedEthicEval, a novel benchmark designed to systematically evaluate LLMs in the domain of medical ethics. Our framework encompasses two key components: knowledge, assessing the models’ grasp of medical ethics principles, and application, focusing on their ability to apply these principles..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Qwen, Llama-3"
+LLM_assessed: "GPT-4, Llama-3, Qwen"
 DATA_URL: "https://github.com/KaguraRuri/MedEthicEval"
 pdf_extract: "PDF Extracts/2025/2025-Jin-MedEthicEval.md"
 local_pdf: "[[PDFs/2025/2025-Jin-MedEthicEval.pdf]]"
@@ -90,7 +94,7 @@ Large language models (LLMs) demonstrate significant potential in advancing medi
 
 ## Data Description
 
-The paper introduces MedEthicEval, a benchmark for evaluating LLMs on Chinese medical ethics comprising four datasets: Knowledge (629 questions from existing sources), Detecting Violation (236 queries), Priority Dilemma (100 questions), and Equilibrium Dilemma (100 questions). The benchmark was constructed using Qwen2.5 for question generation with expert review. Six LLMs were evaluated: GPT-4, GPT-4-turbo, Qwen2.5 (72B), HA-base (80B), HA (80B), and LLaMa3-8B, with human annotation for scoring.
+Releases MedEthicEval benchmark comprising four datasets (629 knowledge questions plus three new application datasets: 236 detecting violation, 100 priority dilemma, 100 equilibrium dilemma), covering Chinese medical ethics evaluation across diverse clinical scenarios.
 
 
 ## Notes

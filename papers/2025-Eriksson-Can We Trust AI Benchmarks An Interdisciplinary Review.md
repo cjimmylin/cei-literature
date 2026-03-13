@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Quantitative Artificial Intelligence (AI) Benchmarks have emerged as fundamental tools for evaluating the performance, capability, and safety of AI models and systems. Currently, they shape the direction of AI development and are playing an increasingly prominent role in regulatory frameworks. As their influence grows, however, so too does concerns about how and with what effects they evaluate highly sensitive topics such as capabilities, including high-impact capabilities, safety and systemic..."
-LLM_assessed: "Bartz, Claude 3 Opus, GPT-4, GPT4"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -64,9 +68,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
 ---

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,18 +39,18 @@ key: EXSR0315
 type: preprint
 short_title: "UrduLM A Resource-Efficient Monolingual Urdu Language"
 year: 2026
-first_author: "[[Syed Muhammad Ali]]"
+first_author: "[[Syed Muhammad Ali Naqvi]]"
 last_author: "[[Abdul Samad]]"
-authors: Syed Muhammad Ali; Hammad Sajid; Zainab Haider; Ali Muhammad Asad; Haya Fatima; Abdul Samad
+authors: "Syed Muhammad Ali Naqvi; Hammad Sajid; Zainab Haider; Ali Muhammad Asad; Haya Fatima; Abdul Samad"
 url: "https://arxiv.org/abs/2601.17664"
 external_pdf: "https://arxiv.org/pdf/2601.17664.pdf"
-pdf_extract: "PDF Extracts/2026/2026-[[Ali]]-UrduLM A Resource-Efficient Monolingual Urdu Language.md"
+pdf_extract: "PDF Extracts/2026/2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language.md"
 local_pdf: "[[PDFs/2026/2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Urdu, Pakistani"
+national_ethnic_cultural: "Pakistani"
+cultures_nationalities_list: "Pakistani"
 languages_list: "Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,25 +58,25 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Urdu, spoken by 230 million people worldwide, lacks dedicated transformer-based language models and curated corpora. While multilingual models provide limited Urdu support, they suffer from poor performance, high computational costs, and cultural inaccuracies due to insufficient training data. To address these challenges, we present UrduLM, a pretrained Urdu monolingual language model trained in low-resource settings."
-LLM_assessed: "GPT-3, GPT-4, Gemma, Gemma 2, GloVe, Llama, LLaMA 3.2, Llama-2, Qwen, Qwen 1.5B, Qwen 2.5, Word2Vec"
-DATA_URL: "NA"
+LLM_assessed: "Gemma-2, Llama-3, Qwen-2"
+DATA_URL: "https://huggingface.co/"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark"
-data_metrics: "Not specified"
+is_dataset: Yes
+data_description: "Monolingual Urdu language model with custom BPE tokenizer and evaluation benchmarks"
+data_metrics: "33GB corpus, 100M parameters, 66.6% sentiment accuracy, BLEU >30 grammar correction"
 ---
 # UrduLM: A Resource-Efficient Monolingual Urdu Language Model
 
 ## Authors
 
-[[Syed Muhammad Ali]], [[Hammad Sajid]], [[Zainab Haider]], [[Ali Muhammad Asad]], [[Haya Fatima]], [[Abdul Samad]]
+[[Syed Muhammad Ali Naqvi]], [[Hammad Sajid]], [[Zainab Haider]], [[Ali Muhammad Asad]], [[Haya Fatima]], [[Abdul Samad]]
 
 ## Metadata
 
@@ -98,7 +102,8 @@ Resource-efficient monolingual Urdu model (UrduLM-100M) achieving competitive qu
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-3, GPT-4, Gemma, Gemma 2, GloVe, Llama, LLaMA 3.2, Llama-2, Qwen, Qwen 1.5B, Qwen 2.5, Word2Vec. No high-confidence repository-style data URL was identified.
+UrduLM-100M, a 100M-parameter monolingual Urdu language model trained on a 33GB corpus with a custom BPE tokenizer, is released on HuggingFace along with evaluation benchmarks for Urdu generative tasks.
+
 
 ## Notes
 

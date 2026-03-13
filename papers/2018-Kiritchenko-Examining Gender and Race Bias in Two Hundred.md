@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -99,7 +102,7 @@ Automatic machine learning systems can inadvertently accentuate and perpetuate i
 
 ## Data Description
 
-This paper presents the Equity Evaluation Corpus (EEC), consisting of 8,640 English sentences designed to reveal biases toward certain races and genders. The corpus was used to evaluate 219 automatic sentiment analysis systems from SemEval-2018 Task 1, finding statistically significant gender and race bias in several systems. The 219 systems tested are traditional ML/neural sentiment analysis systems from 2018, not LLMs.
+The Equity Evaluation Corpus (EEC) of 8,640 English sentences designed to probe gender and race bias, used to evaluate 219 automatic sentiment analysis systems from SemEval-2018 Task 1.
 
 
 ## Notes

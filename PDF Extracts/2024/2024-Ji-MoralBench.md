@@ -1,23 +1,4 @@
----
-title: "MoralBench - PDF Extract"
-source_pdf: "2024-Ji-MoralBench.pdf"
-pages: 10
-extracted_at: "2026-01-24T17:05:36.312725"
----
-
-# PDF Extract: MoralBench
-
-**Source PDF:** 2024-Ji-MoralBench.pdf
-**Total Pages:** 10
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-arXiv:2406.04428v2  [cs.CL]  4 Jul 2025
+---\ntitle: "2024-Ji-MoralBench - PDF Extract"\nsource_pdf: "2024-Ji-MoralBench.pdf"\npages: 10\nextracted_at: "2026-02-14T02:17:29.770474"\n---\n\n# PDF Extract: 2024-Ji-MoralBench\n\n**Source PDF:** 2024-Ji-MoralBench.pdf\n**Total Pages:** 10\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\narXiv:2406.04428v2  [cs.CL]  4 Jul 2025
 MoralBench: Moral Evaluation of LLMs
 Jianchao Ji∗1 ∗, Yutong Chen∗2, Mingyu Jin1, Wujiang Xu1, Wenyue Hua1, Yongfeng Zhang1
 1Rutgers, The State University of New Jersey, 2University of Chicago
@@ -119,9 +100,7 @@ idea of the similarities between human and LLM choices [38;
 39]. However, more thorough and systematic evaluation and
 benchmarking of whether LLMs can be considered moral
 
---- Page 2 ---
-
-entities is crucial.
+--- Page 2 ---\n\nentities is crucial.
 This requires not only a comparison
 of choices but also an analysis of the underlying ethical
 reasoning processes employed by the models. Establishing a
@@ -245,9 +224,7 @@ BENCHMARK AND METHOD
 In this paper, we undertake a systematic evaluation to inves-
 tigate the moral identity of various Large Language Models
 
---- Page 3 ---
-
-(LLMs). Our methodology is structured around a series of ex-
+--- Page 3 ---\n\n(LLMs). Our methodology is structured around a series of ex-
 periments designed to assess how these models navigate and
 interpret scenarios that have inherent moral implications.
 3.1
@@ -370,9 +347,7 @@ ment. Given a statement S with an average human score
 H on a scale from 0 to 5, the scoring methodology for an
 LLM’s response can be expressed as:
 
---- Page 4 ---
-
- 
+--- Page 4 ---\n\n 
 LLM
 Moral Statement：
 One of the worst things 
@@ -485,9 +460,7 @@ EXPERIMENTS
 In this section, we present evaluation of large language
 models (LLMs) using two distinct datasets to assess their
 
---- Page 5 ---
-
-Moral Foundations Questionnaire (MFQ-30-LLM)
+--- Page 5 ---\n\nMoral Foundations Questionnaire (MFQ-30-LLM)
 LLM
 Care
 Fairness
@@ -675,9 +648,7 @@ moral statement between two given statements. In this part
 of experiment, different models show varying strengths across
 moral foundations, indicating that no single model excels
 
---- Page 6 ---
-
-Moral Foundations Questionnair (MFQ-30-LLM)
+--- Page 6 ---\n\nMoral Foundations Questionnair (MFQ-30-LLM)
 LLM
 Care
 Fairness
@@ -862,9 +833,7 @@ in the future.
 8.
 REFERENCES
 
---- Page 7 ---
-
-[1] Josh Achiam, Steven Adler, Sandhini Agarwal, Lama
+--- Page 7 ---\n\n[1] Josh Achiam, Steven Adler, Sandhini Agarwal, Lama
 Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo
 Almeida, Janko Altenschmidt, Sam Altman, Shyamal
 Anadkat, et al. Gpt-4 technical report. arXiv preprint
@@ -983,9 +952,7 @@ to evaluate the effectiveness of jailbreak attacking on
 large language models. arXiv preprint arXiv:2401.09002,
 2024.
 
---- Page 8 ---
-
-[23] Cheng Peng, Xi Yang, Aokun Chen, Kaleb E Smith,
+--- Page 8 ---\n\n[23] Cheng Peng, Xi Yang, Aokun Chen, Kaleb E Smith,
 Nima PourNejatian, Anthony B Costa, Cheryl Martin,
 Mona G Flores, Ying Zhang, Tanja Magoc, et al. A
 study of generative large language model for medical
@@ -1096,9 +1063,7 @@ Kristina Toutanova. Bert: Pre-training of deep bidirec-
 tional transformers for language understanding. arXiv
 preprint arXiv:1810.04805, 2018.
 
---- Page 9 ---
-
-[50] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B
+--- Page 9 ---\n\n[50] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B
 Brown, Benjamin Chess, Rewon Child, Scott Gray,
 Alec Radford, Jeffrey Wu, and Dario Amodei. Scal-
 ing laws for neural language models. arXiv preprint
@@ -1222,9 +1187,7 @@ to become a commercial airline pilot like
 him.’’
 (Average human score H2 = 2.1)
 
---- Page 10 ---
-
-A.3
+--- Page 10 ---\n\nA.3
 Easy to Compare Examples
 S1:
 ‘‘People should not do things that
@@ -1295,5 +1258,4 @@ rights and liberty, opposing any form of oppression that
 restricts personal freedoms. An example is “You see a
 father requiring his son to become a commercial airline
 pilot like him.”
-
-```
+\n```\n

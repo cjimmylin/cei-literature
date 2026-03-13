@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,8 +59,8 @@ abstract: "Large Language Models (LLMs) have demonstrated advanced capabilities 
 paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated advanced capabilities in real- world agentic applications. Growing research efforts aim to develop LLM-based agents to address practical demands, introdu | Overview: arXiv:2505.16944v1 [cs.AI] 22 May 2025 AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios Yunjia Qi1∗, Hao Peng1∗, Xiaozhi Wang1, Amy Xin1, Youfeng Liu2, Bin Xu1 | Methodology: Evaluation Generation Evaluation Method Figure 3: The data construction process and evaluation workflow of AGENTIF. The detailed descrip- tions of dif | Key Findings: protocol (§ 3.4). Figure 3 illustrates the dataset construction and evaluation workflow of AGENTIF. 3 --- Page 4 --- STEP1: Instruction Collection STE | Conclusions: topics, prioritize maintaining the time-boxed structure."
 local_pdf: "[[PDFs/2025/2025-Qi-AGENTIF.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, DeepSeek, Claude, Llama-3, Qwen, Mistral"
-DATA_URL: "https://github.com/THU-KEG/AgentIF, https://huggingface.co/datasets/THU-KEG/AgentIF"
+LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Llama-3, Mistral, Qwen, o1"
+DATA_URL: "https://github.com/THU-KEG/AgentIF"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "723 words; 630 words"
 ---
@@ -100,7 +104,7 @@ Large Language Models (LLMs) have demonstrated advanced capabilities in realworl
 
 ## Data Description
 
-AGENTIF is a benchmark of 707 human-annotated instructions from 50 real-world agentic applications (40 open-source and 10 industrial), with an average instruction length of 1,723 words and 11.9 constraints per instruction. The benchmark contains 8,415 constraints across formatting, semantic, and tool types, with three constraint presentation paradigms (vanilla, condition, example), and supports code-based, LLM-based, and hybrid evaluation methods.
+AGENTIF is a benchmark of 707 human-annotated instructions across 50 real-world agentic tasks, averaging 1,723 words per instruction with complex constraints; the dataset is also released on HuggingFace at https://huggingface.co/datasets/THU-KEG/AgentIF.
 
 
 ## Notes

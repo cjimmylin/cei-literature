@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +51,7 @@ local_pdf: "[[PDFs/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
-languages_list: Spanish
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -100,7 +103,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/datasets/fmplaza/offendes.
+OffendES: 47,128 Spanish comments from Twitter, Instagram, and YouTube manually labeled with fine-grained offensive categories (OFP, OFG, NOE, NO) focused on young influencers.
+
 
 ## Notes
 

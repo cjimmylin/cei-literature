@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +49,8 @@ local_pdf: "[[PDFs/2025/2025-Xiang-A Novel Deep Learning Framework with.pdf]]"
 publication: "WebSearch: Malayalam hate speech detection"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indian, Malayalam"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Malayalam"
 religious_values: "N/A"
 religious_values_list: "N/A"

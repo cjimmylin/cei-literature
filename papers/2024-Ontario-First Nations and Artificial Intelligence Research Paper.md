@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,17 +45,17 @@ CONF-CC: "N/A"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "First Nations, Canadian Indigenous"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Analyzes the effects of AI on First Nations in Ontario, Canada. Lays out the nature of AI technology, proposed regulations, and consequences for First Nations communities. Notes AI has potential but comes paired with serious risks for First Nations peoples."
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"

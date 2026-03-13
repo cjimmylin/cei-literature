@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +62,7 @@ abstract: "The rapid integration of Large Language Models (LLMs) in high-stakes 
 paper_summary: "Abstract: The rapid integration of Large Language Models (LLMs) in high-stakes decision- making—such as allocating scarce resources like donor organs—raises critical questions about their alignment with human m | Overview: arXiv:2506.00079v1 [cs.CY] 30 May 2025 Who Gets the Kidney? Human-AI Alignment, Indecision, and Moral Values John P. Dickerson Mozilla john@mozilla.ai Hadi Hosseini Penn State University hadi@psu.edu  | Methodology: improves LLMs' ability to predict human decisions by up to 19% (as for Qwen-3-14B) in the Strict 6Further details about fine-tuning hyper-parameters a"
 local_pdf: "[[PDFs/2025/2025-Dickerson-Who Gets the Kidney.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Gemma, Llama-3, DeepSeek"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Gemma, Llama-3"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"

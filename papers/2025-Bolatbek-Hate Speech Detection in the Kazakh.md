@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +51,7 @@ publication: IEEE
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kazakh"
+cultures_nationalities_list: "N/A"
 languages_list: "Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"

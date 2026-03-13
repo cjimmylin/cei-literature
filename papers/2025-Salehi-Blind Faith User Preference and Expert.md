@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,8 +55,8 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 publication: "ACM FAccT 2025"
 CONF-CC: "FAccT 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Muslim"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"

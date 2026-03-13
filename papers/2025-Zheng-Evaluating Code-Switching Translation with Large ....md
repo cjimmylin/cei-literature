@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Zheng-Evaluating Code-Switching Translation with Large ....md"
 local_pdf: "[[PDFs/2025/2025-Zheng-Evaluating Code-Switching Translation with Large ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: Code-switching
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Code-switching, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-2, PaLM, PaLM-2, PaLM2, gpt-3.5-turbo"
-DATA_URL: "NA"
+LLM_assessed: "GPT-4, GPT-3.5, PaLM-2, Llama-2, Falcon, BLOOM"
+DATA_URL: "https://github.com/muhdhuz/CodeSwitch_Text_Generator"
 tags: 
 abstract: "Recent advances in large language models (LLMs) have shown they can match or surpass finetuned models on many natural language processing tasks. Currently, more studies are being carried out to assess whether this performance carries over across different languages. In this paper, we present a thorough evaluation of LLMs for the less well-researched code-switching translation setting, where inputs include a mixture of different languages."
 CONFERENCE: "ACL 2025"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ I've retrieved comprehensive search results on code-switching LLM benchmark eval
 
 ## Data Description
 
-Backfill summary: Models assessed include BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-2, PaLM, PaLM-2, PaLM2, gpt-3.5-turbo. No high-confidence repository-style data URL was identified.
+The paper constructs and releases new synthetic code-switching datasets for translation evaluation, generated via a text generator tool; these are evaluated alongside existing public code-switching corpora across seven datasets and multiple language pairs.
+
 
 ## Notes
 

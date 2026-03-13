@@ -29,6 +29,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -104,7 +107,7 @@ Large-scale dataset of 6,941 tweets covering conversations about Jews, Israel, a
 
 ## Data Description
 
-A large-scale dataset of 6,941 tweets covering conversations about Jews, Israel, and antisemitism from January 2019 to December 2021. 18% of tweets (approximately 1,250) meet the IHRA definition of antisemitic messages. Created by the Institute for the Study of Contemporary Antisemitism at Indiana University and made available on Zenodo for research use in machine learning and text analytics.
+A dataset of 6,941 tweets covering conversations about Jews, Israel, and antisemitism from January 2019 to December 2021, with 18% meeting the IHRA definition of antisemitic messages, created by Indiana University.
 
 
 ## Notes

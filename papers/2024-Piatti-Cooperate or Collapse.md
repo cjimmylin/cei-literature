@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +47,7 @@ url: "http://arxiv.org/abs/2404.16698"
 external_pdf: "http://arxiv.org/pdf/2404.16698.pdf"
 publication: "Neural Information Processing Systems"
 CONF-CC: "NeurIPS 2024"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -57,7 +61,7 @@ abstract: "As AI systems pervade human life, ensuring that large language models
 paper_summary: "Abstract: As AI systems pervade human life, ensuring that large language models (LLMs) make safe decisions remains a significant challenge. We introduce the GOVernance of the Commons SIMulation (GOVSIM), a gene | Overview: Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents Giorgio Piatti1,∗ Zhijing Jin1,2,3,∗ Max Kleiman-Weiner4,∗ Bernhard Schölkopf2 Mrinmaya Sachan1 Rada Mihalcea5 1E | Methodology: Common Information For each of the scenarios we use the same description used in the simulation, but using controlled settings: the only memory presen | Key Findings: failures across machine learning. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2), 2021. [ | Conclusions: RULES: You are John, a fisherman, and you fish each month in a lake along with four other fishermen (Kate, Jack, Emma, Luke). The lake has a carrying"
 local_pdf: "[[PDFs/2024/2024-Piatti-Cooperate or Collapse.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, GPT-3.5, GPT-4, GPT-4o, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/giorgiopiatti/GovSim"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
@@ -65,8 +69,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Responsible AI"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -102,7 +106,7 @@ As AI systems pervade human life, ensuring that large language models (LLMs) mak
 
 ## Data Description
 
-The paper introduces GOVSIM, a generative simulation platform for studying cooperative decision-making in LLM agents across three common pool resource dilemmas (fishery, pasture, pollution). Fifteen LLMs including GPT-3.5, GPT-4, GPT-4-turbo, GPT-4o, Claude-3 (Haiku, Sonnet, Opus), Llama-2 (7B, 13B, 70B), Llama-3 (8B, 70B), Mistral-7B, Mixtral-8x7B, and Qwen (72B, 110B) are benchmarked on sustainability metrics including survival rate, efficiency, equality, and over-usage across five random seeds per simulation.
+Introduces GovSim (GOVernance of the Commons SIMulation), a generative simulation platform with three resource-sharing scenarios (fishery, pasture, pollution) for benchmarking cooperative decision-making in LLM agents.
 
 
 ## Notes

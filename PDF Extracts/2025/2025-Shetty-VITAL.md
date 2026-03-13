@@ -1,23 +1,4 @@
----
-title: "VITAL - PDF Extract"
-source_pdf: "2025-Shetty-VITAL.pdf"
-pages: 21
-extracted_at: "2026-01-24T16:38:35.870587"
----
-
-# PDF Extract: VITAL
-
-**Source PDF:** 2025-Shetty-VITAL.pdf
-**Total Pages:** 21
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-arXiv:2502.13775v2  [cs.CL]  31 May 2025
+---\ntitle: "2025-Shetty-VITAL - PDF Extract"\nsource_pdf: "2025-Shetty-VITAL.pdf"\npages: 21\nextracted_at: "2026-02-14T02:17:35.524202"\n---\n\n# PDF Extract: 2025-Shetty-VITAL\n\n**Source PDF:** 2025-Shetty-VITAL.pdf\n**Total Pages:** 21\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\narXiv:2502.13775v2  [cs.CL]  31 May 2025
 VITAL: A New Dataset for Benchmarking
 Pluralistic Alignment in Healthcare
 Anudeex Shetty♢♣, Amin Beheshti♣, Mark Dras♣, Usman Naseem♣
@@ -122,9 +103,7 @@ et al., 2022b; Gordon et al., 2022; Sorensen et al.,
 2024a) (as illustrated in Figure 1), recognising the
 1
 
---- Page 2 ---
-
-risks of overlooking diverse opinions, particularly
+--- Page 2 ---\n\nrisks of overlooking diverse opinions, particularly
 in sensitive domains like health where misinfor-
 mation can have severe consequences (Chen and
 Shu, 2024; Menz et al., 2024; Suarez-Lledo and
@@ -231,9 +210,7 @@ gests that LLMs require domain-specific solutions
 in healthcare (Yang et al., 2023b; Thirunavukarasu
 2
 
---- Page 3 ---
-
-et al., 2023), it is critical to benchmark and evaluate
+--- Page 3 ---\n\net al., 2023), it is critical to benchmark and evaluate
 LLMs for pluralistic alignment in this domain.
 Dataset
 Type
@@ -420,9 +397,7 @@ diversity across both overall and alignment modes.
 Additionally, we visualise the entire dataset in Ap-
 3
 
---- Page 4 ---
-
-Alignment Mode
+--- Page 4 ---\n\nAlignment Mode
 Sample
 Options
 Overton
@@ -528,9 +503,7 @@ ure 8).
 selects the most appropriate community LLM
 4
 
---- Page 5 ---
-
-for a given task. Then, the response from this
+--- Page 5 ---\n\nfor a given task. Then, the response from this
 community LLM is provided to the main LLM,
 using which the main LLM populates the final
 response (Feng et al., 2024).
@@ -641,9 +614,7 @@ given pair of answers, the annotator chooses the
 response that better reflects pluralistic perspectives
 5
 
---- Page 6 ---
-
-LLaMA2 Gemma Qwen2.5 LLaMA3 LLaMA2 Qwen2.5 LLaMA2 ChatGPT Avg.
+--- Page 6 ---\n\nLLaMA2 Gemma Qwen2.5 LLaMA3 LLaMA2 Qwen2.5 LLaMA2 ChatGPT Avg.
 7B
 7B
 7B
@@ -853,9 +824,7 @@ Figure 3: Results of LLMs for Distributional mode in VITAL in JS distance, with 
 similarity with the expected distribution.
 6
 
---- Page 7 ---
-
-cf. Vanilla
+--- Page 7 ---\n\ncf. Vanilla
 cf. MoE
 cf. Prompting
 57
@@ -982,9 +951,7 @@ mance gains; vanilla: 20.62 →23.48, prompting:
 23.69 →24.88, MoE: 19.51 →20.90, ModPlural:
 7
 
---- Page 8 ---
-
-Avg. Num. Sentences
+--- Page 8 ---\n\nAvg. Num. Sentences
 LLaMA2-7B
 Gemma-7B
 Qwen2.5-7B LLaMA3-8B LLaMA2-13B Qwen2.5-14B LLaMA2-70B
@@ -1099,9 +1066,7 @@ poor alignment and entropy decrease. For the latter,
 in this subsection, we measure the entropy values
 8
 
---- Page 9 ---
-
-LLaMA2
+--- Page 9 ---\n\nLLaMA2
 Gemma
 Qwen2.5
 LLaMA3
@@ -1219,9 +1184,7 @@ Mahdi Khoursha for their support in data anno-
 tation and analysis.
 9
 
---- Page 10 ---
-
-References
+--- Page 10 ---\n\nReferences
 2025. Oxford English Dictionary, s.v. “Overton window
 (n.)”.
 Josh Achiam, Steven Adler, Sandhini Agarwal, Lama
@@ -1343,9 +1306,7 @@ tional Linguistics: Human Language Technologies
 (Volume 1: Long Papers), pages 4551–4591.
 10
 
---- Page 11 ---
-
-Albert Q Jiang, Alexandre Sablayrolles, Arthur Men-
+--- Page 11 ---\n\nAlbert Q Jiang, Alexandre Sablayrolles, Arthur Men-
 sch, Chris Bamford, Devendra Singh Chaplot, Diego
 de las Casas, Florian Bressand, Gianna Lengyel, Guil-
 laume Lample, Lucile Saulnier, et al. 2023. Mistral
@@ -1467,9 +1428,7 @@ learning in python. the Journal of machine Learning
 research, 12:2825–2830.
 11
 
---- Page 12 ---
-
-Ethan Perez, Saffron Huang, Francis Song, Trevor Cai,
+--- Page 12 ---\n\nEthan Perez, Saffron Huang, Francis Song, Trevor Cai,
 Roman Ring, John Aslanides, Amelia Glaese, Nat
 McAleese, and Geoffrey Irving. 2022. Red teaming
 language models with language models. In Proceed-
@@ -1592,9 +1551,7 @@ using chatgpt in health care. Journal of Medical
 Internet Research, 25:e48009.
 12
 
---- Page 13 ---
-
-Xiaofei Wang, Hayley M Sanders, Yuchen Liu,
+--- Page 13 ---\n\nXiaofei Wang, Hayley M Sanders, Yuchen Liu,
 Kennarey Seang, Bach Xuan Tran, Atanas G
 Atanasov, Yue Qiu, Shenglan Tang, Josip Car,
 Ya Xing Wang, et al. 2023b. Chatgpt: promise and
@@ -1704,9 +1661,7 @@ arXiv preprint
 arXiv:2303.18223.
 13
 
---- Page 14 ---
-
-Appendix
+--- Page 14 ---\n\nAppendix
 A
 VITAL Dataset
 (a) Overall
@@ -1772,9 +1727,7 @@ VITAL dataset and its summary by GPT-4o; expanded
 from Appendix 5.
 14
 
---- Page 15 ---
-
-A few-shot classification using FLAN-T5
+--- Page 15 ---\n\nA few-shot classification using FLAN-T5
 model.
 Instruction
 Classify the following situations as either
@@ -1865,9 +1818,7 @@ Figure 8: Prompts for adding different modes of plural-
 ism to LLM via prompting.
 15
 
---- Page 16 ---
-
-Mode
+--- Page 16 ---\n\nMode
 Sample
 Options
 Overton
@@ -1945,9 +1896,7 @@ B. I give her the drugs.
 Table 12: More samples from VITAL dataset.
 16
 
---- Page 17 ---
-
-B
+--- Page 17 ---\n\nB
 Experiment Settings (Cont.)
 We make extensive use of the Huggingface Trans-
 formers (Wolf, 2020) framework and AdamW
@@ -2046,9 +1995,7 @@ Figure 9: Few examples of LLM agents used in place
 of community LLMs.
 17
 
---- Page 18 ---
-
-Model
+--- Page 18 ---\n\nModel
 Checkpoint
 Type
 LLaMA2-7B (Touvron et al., 2023)
@@ -2191,9 +2138,7 @@ were done in parallel (on average 6.11 seconds), then the main LLM processed it 
 and w/ ModPlural cases). “Avg.” column represents average performance across LLMs.
 18
 
---- Page 19 ---
-
-LLaMA2 Gemma Qwen2.5 LLaMA3 LLaMA2 Qwen2.5 LLaMA2 ChatGPT
+--- Page 19 ---\n\nLLaMA2 Gemma Qwen2.5 LLaMA3 LLaMA2 Qwen2.5 LLaMA2 ChatGPT
 Avg.
 7B
 7B
@@ -2470,9 +2415,7 @@ better). Refer Figure 3 for overall Distributional results. The best and second-
 bold and underline, respectively.
 19
 
---- Page 20 ---
-
-LLaMA2 Gemma Qwen2.5 LLaMA3 LLaMA2 Qwen2.5 LLaMA2 ChatGPT Avg.
+--- Page 20 ---\n\nLLaMA2 Gemma Qwen2.5 LLaMA3 LLaMA2 Qwen2.5 LLaMA2 ChatGPT Avg.
 7B
 7B
 7B
@@ -2594,9 +2537,7 @@ Table 19: Comparing different responses for health situation (“donating a kidn
 VITAL.
 20
 
---- Page 21 ---
-
-Situation
+--- Page 21 ---\n\nSituation
 Use narcotic drugs for heavy pain.
 Prompting Response
 There are a variety of perspectives and values to consider when discussing
@@ -2627,5 +2568,4 @@ the well-being and safety of patients should be the top priority when consid-
 ering the use of narcotic drugs for heavy pain.
 Table 20: Comparing different responses for health situation (“Use narcotic drugs for heavy pain.”) from VITAL.
 21
-
-```
+\n```\n

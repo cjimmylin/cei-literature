@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +43,7 @@ doi: 10.1007/s10676-025-09834-5
 url: "https://link.springer.com/10.1007/s10676-025-09834-5"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5ZTYJ2SS/Yilma - 2025 - Ethics of AI in Africa Interrogating the role of Ubuntu and AI governance initiatives.pdf"
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
 religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"

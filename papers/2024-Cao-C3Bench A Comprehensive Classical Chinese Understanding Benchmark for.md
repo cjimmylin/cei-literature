@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,8 +56,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BERT, Baichuan, Baichuan2, Bloom, Bloom-7B, ChatGLM, ChatGLM2, ChatGLM_Turbo, Llama, LLaMA2, Qwen, Qwen-14B, Qwen-7B, baichuan-inc"
-DATA_URL: "https://github.com/NiuTrans/Classical-Modern"
+LLM_assessed: "BLOOM-7B-Chunhua, Baichuan-2, ChatGLM-2, Qwen, Llama-2, MOSS, GPT-3.5, GPT-4, ERNIE-Bot, Spark, abab5-chat, ChatGLM-Turbo"
+DATA_URL: "https://github.com/SCUT-DLVCLab/C3bench"
 tags: 
 abstract: "Classical Chinese Understanding (CCU) holds significant value in preserving and exploration of the outstanding traditional Chinese culture. Recently, researchers have attempted to leverage the potential of Large Language Models (LLMs) for CCU by capitalizing on their remarkable comprehension and semantic capabilities. However, no comprehensive benchmark is available to assess the CCU capabilities of LLMs."
 research_topic: "Machine Learning"
@@ -99,7 +104,8 @@ Classical Chinese Understanding (CCU) holds significant value in preserving and 
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, BERT, Baichuan, Baichuan2, Bloom, Bloom-7B, ChatGLM, ChatGLM2, ChatGLM_Turbo, Llama, LLaMA2, Qwen, Qwen-14B, Qwen-7B, baichuan-inc. Verified dataset/resource link: https://github.com/NiuTrans/Classical-Modern.
+Comprehensive Classical Chinese understanding benchmark with 50,000 text pairs across 5 tasks (classification, retrieval, NER, punctuation, translation) from 10 domains.
+
 
 ## Notes
 

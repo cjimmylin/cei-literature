@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +49,12 @@ local_pdf: "[[PDFs/2025/2025-Urchs-taz2024full Analysing German Newspapers for G
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT"
+LLM_assessed: NA
 DATA_URL: "https://doi.org/10.5281/zenodo.15480855"
 tags: 
 abstract: "Open-access corpora are essential for advancing natural language processing (NLP) and computational social science (CSS). However, large-scale resources for German remain limited, restricting research on linguistic trends and societal issues such as gender bias. We present taz2024full, the largest publicly available corpus of German newspaper articles to date, comprising over 1.8 million texts from taz, spanning 1980 to 2024."
@@ -101,7 +104,7 @@ This paper presents taz2024full, the largest publicly available German newspaper
 
 ## Data Description
 
-Presents taz2024full, the largest publicly available German newspaper corpus comprising 1.8 million articles from taz newspaper (1980-2024), used for gender bias and discrimination analysis across four decades of German media coverage. Does not evaluate LLMs but provides a resource for training and analyzing German-language models.
+taz2024full is the largest publicly available German newspaper corpus, comprising over 1.8 million texts from the taz newspaper spanning 1980 to 2024. It is released for academic research on NLP and bias/discrimination analysis in German media.
 
 
 ## Detailed Summary

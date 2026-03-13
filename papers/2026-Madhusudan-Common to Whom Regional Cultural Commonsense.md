@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Existing cultural commonsense benchmarks treat nations as monolithic, assuming uniform practices within national boundaries. But does cultural commonsense hold uniformly within a nation, or does it vary at the sub-national level? We introduce INDICA, the first benchmark designed to test LLMs' ability to address this question, focusing on India—a nation of 28 states, 8 union territories, and 22 official languages."
-LLM_assessed: "Claude, Claude Sonnet, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-V3, Grok, Grok-4, Llama, Llama 3.3, Mistral, Mistral Large, Qwen, Qwen3"
+LLM_assessed: "Claude, DeepSeek, Gemini, Grok, LLaMA, Mistral, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Introduces Indica benchmark testing LLMs' ability to handle regional vs national
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude Sonnet, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-V3, Grok, Grok-4, Llama, Llama 3.3, Mistral, Mistral Large, Qwen, Qwen3. No high-confidence repository-style data URL was identified.
+INDICA benchmark: 515 questions across 8 everyday-life domains with 1,630 region-specific question-answer pairs collected from human annotators across 5 Indian regions (North, South, East, West, Central). Dataset and codebase are stated to be available on GitHub and HuggingFace but no specific URL is provided in the paper.
+
 
 ## Notes
 

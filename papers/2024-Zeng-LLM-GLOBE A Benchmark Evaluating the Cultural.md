@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Immense effort has been dedicated to minimizing the presence of harmful or biased generative content and better aligning AI output to human intention; however, research investigating the cultural values of LLMs is still in very early stages. Cultural values underpin how societies operate, providing profound insights into the norms, priorities, and decision making of their members. In recognition of this need for further research, we draw upon cultural psychology theory and the..."
-LLM_assessed: "ChatGPT, Claude, Claude 3 Opus, GPT-3, GPT-3.5, GPT-4, Qwen, Qwen-14b, Qwen-72b"
+LLM_assessed: "GPT-3.5, GPT-4, Claude, Gemini, GLM, ERNIE"
 DATA_URL: "https://github.com/raovish6/LLM-GLOBE"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -100,7 +104,8 @@ Theoretically-grounded assessment tool using GLOBE cultural psychology framework
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, Claude, Claude 3 Opus, GPT-3, GPT-3.5, GPT-4, Qwen, Qwen-14b, Qwen-72b. Verified dataset/resource link: https://github.com/raovish6/LLM-GLOBE.
+LLM-GLOBE is a benchmark grounded in the GLOBE cultural psychology framework that evaluates cultural values embedded in LLM outputs, comparing four US (GPT-3.5, GPT-4, Claude, Gemini) and four Chinese (GLM-4, Ernie 3.5, Ernie 4.0, Qwen-14b) models. Includes a novel LLMs-as-a-Jury automated evaluation pipeline.
+
 
 ## Notes
 

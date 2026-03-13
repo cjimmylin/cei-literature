@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +45,8 @@ authors: "Maxwell Forbes; Jena D. Hwang; Vered Shwartz; Maarten Sap; Yejin Choi"
 doi: 10.18653/v1/2020.emnlp-main.48
 url: "https://www.aclweb.org/anthology/2020.emnlp-main.48"
 external_pdf: "https://arxiv.org/pdf/2011.00620v3.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -53,8 +58,8 @@ tags:
 abstract: "Social norms—the unspoken commonsense rules about acceptable social behavior—are crucial in understanding the underlying causes and intents of people’s actions in narratives. For example, underlying an action such as “wanting to call cops on my neighbor” are social norms that inform our conduct, such as “It is expected that you report crimes.” We present SOCIAL CHEMISTRY, a new conceptual formalism to study people’s everyday social norms and moral judgments over a rich spectrum of real life..."
 pdf_extract: "PDF Extracts/2020/2020-Forbes-Social Chemistry 101.md"
 local_pdf: "[[PDFs/2020/2020-Forbes-Social Chemistry 101.pdf]]"
-LLM_assessed: "GPT-2, T5, BART"
-DATA_URL: "NA"
+LLM_assessed: "GPT-2, BART, T5"
+DATA_URL: "https://maxwellforbes.com/social-chemistry"
 publication: "EMNLP 2020"
 CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260207
@@ -65,8 +70,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -103,7 +108,7 @@ Social norms -- the unspoken commonsense rules about acceptable social behavior 
 
 ## Data Description
 
-SOCIAL-CHEM-101 is a large-scale corpus of 292k crowdsourced rules-of-thumb (RoTs) describing social and moral norms across 104k real-life situations drawn from Reddit (r/AITA, r/confessions), ROCStories, and Dear Abby. Each RoT includes 12 structured dimensions of social judgment (moral foundations, cultural pressure, legality, anticipated agreement, etc.), totaling over 4.5 million categorical and free-text annotations.
+SOCIAL-CHEM-101: large-scale corpus of 292k rules-of-thumb for social and moral norms with 4.5M annotations across 12 dimensions of social judgment.
 
 
 ## Notes

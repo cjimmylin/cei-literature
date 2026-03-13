@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ local_pdf: "[[PDFs/2024/2024-team-SeaLLMs 3 Open Foundation and Chat Multilingua
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Indonesian, Filipino, Thai, Vietnamese"
-cultures_nationalities_list: "Chinese, Indonesian, Filipino, Thai, Vietnamese"
+national_ethnic_cultural: "Chinese, Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
 languages_list: "Burmese, Chinese, Indonesian, Khmer, Lao, Thai, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-1.1, Llama, Llama-3, Qwen, Qwen2"
-DATA_URL: "https://github.com/DAMO-NLP-SG/SeaExam"
+LLM_assessed: "Gemma, Llama-3, Qwen-2"
+DATA_URL: "https://huggingface.co/collections/SeaLLMs/seallms-v3-668f3a52e1e6fbaad5752cdb"
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable abilities across various tasks, yet their development has predominantly centered on high-resource languages like English and Chinese, leaving low-resource languages underserved. To address this disparity, we present SeaLLMs 3, the latest iteration of the SeaLLMs model family, tailored for Southeast Asian languages. This region, characterized by its rich linguistic diversity, has lacked adequate language technology support."
 CONFERENCE: "Preprint"
@@ -61,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -98,7 +102,8 @@ SeaLLMs-v3-7B-Chat achieves 79.7% average safe rate across languages. Excels par
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, GPT-4o, Gemma, Gemma-1.1, Llama, Llama-3, Qwen, Qwen2. Verified dataset/resource link: https://github.com/DAMO-NLP-SG/SeaExam.
+SeaLLMs-v3 introduces SeaBench (multi-turn instruction-following benchmark for SEA languages) and SeaRefuse (benchmark assessing LLM refusal on out-of-knowledge-boundary queries for Southeast Asian context), publicly available on HuggingFace.
+
 
 ## Notes
 

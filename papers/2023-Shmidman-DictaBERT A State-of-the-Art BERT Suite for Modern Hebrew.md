@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
-languages_list: Hebrew
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, ChatGPT"
-DATA_URL: "https://github.com/IAHLT/iahlt.github"
+DATA_URL: "https://huggingface.co/dicta-il/dictabert"
 tags: 
 abstract: "We present DictaBERT, a new state-of-theart pre-trained BERT model for modern Hebrew, outperforming existing models on most benchmarks. Additionally, we release three fine-tuned versions of the model, designed to perform three specific foundational tasks in the analysis of Hebrew texts: prefix segmentation, morphological tagging and question answering. These fine-tuned models allow any developer to perform prefix segmentation, morphological tagging and question answering of a Hebrew input with..."
 CONFERENCE: "Preprint"
@@ -60,8 +64,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
@@ -97,7 +101,8 @@ State-of-the-art BERT models for Modern Hebrew with fine-tuned versions for pref
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT. Verified dataset/resource link: https://github.com/IAHLT/iahlt.github.
+DictaBERT: state-of-the-art BERT model for Modern Hebrew with fine-tuned variants for prefix segmentation, morphological tagging, NER, and QA.
+
 
 ## Notes
 

@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +47,8 @@ pdf_extract: "PDF Extracts/2021/2021-Hansson-The Swedish Winogender Dataset SweW
 local_pdf: "[[PDFs/2021/2021-Hansson-The Swedish Winogender Dataset SweWinogender.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Swedish"
-languages_list: Swedish
+cultures_nationalities_list: "N/A"
+languages_list: "Swedish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

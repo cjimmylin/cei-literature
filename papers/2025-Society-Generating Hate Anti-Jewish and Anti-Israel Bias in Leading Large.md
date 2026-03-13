@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ local_pdf:
 "N/A"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli, Jewish"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "English"
-religious_values: "Judaism"
-religious_values_list: "Judaism"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT, Claude, Gemini, Llama"
+LLM_assessed: "ChatGPT, Claude, Gemini, LLaMA"
 DATA_URL: "NA"
 tags: 
 abstract: "Comprehensive ADL evaluation of anti-Jewish and anti-Israel bias in GPT, Claude, Gemini, and Llama. Each LLM queried 8,600 times (34,400 total) across six categories: bias against Jews, bias against Israel, Gaza war, antisemitic conspiracy theories, Holocaust conspiracy theories, and control group."

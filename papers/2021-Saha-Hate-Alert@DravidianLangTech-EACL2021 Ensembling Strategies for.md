@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +47,15 @@ CONF-CC: "Shared Task (2021)"
 pdf_extract: "PDF Extracts/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md"
 local_pdf: "[[PDFs/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
-languages_list: "Kannada-English, Malayalam-English, Tamil-English"
+languages_list: "Kannada, Malayalam, Tamil"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, DistilBERT, RoBERTa"
-DATA_URL: "https://github.com/Debjoy10/Hate-Alert-"
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://github.com/Debjoy10/Hate-Alert-DravidianLangTech"
 tags: 
 abstract: "Social media often acts as breeding grounds for different forms of offensive content. For low resource languages like Tamil, the situation is more complex due to the poor performance of multilingual or language-speciﬁc models and lack of proper benchmark datasets. Based on this shared task “Offensive Language Identiﬁcation in Dravidian Languages” at EACL 2021, we present an exhaustive exploration of different transformer models, We also provide a genetic algorithm technique for ensembling..."
 CONFERENCE: "Other Conference"
@@ -62,8 +65,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---
@@ -98,7 +101,8 @@ Winning submission to the DravidianLangTech EACL 2021 shared task on offensive l
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DistilBERT, RoBERTa. Verified dataset/resource link: https://github.com/Debjoy10/Hate-Alert-.
+Code repository for GA-based ensemble models for offensive language detection in Dravidian languages (Tamil, Kannada, Malayalam).
+
 
 ## Notes
 

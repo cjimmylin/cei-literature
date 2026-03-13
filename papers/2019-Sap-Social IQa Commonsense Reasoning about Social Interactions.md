@@ -17,6 +17,10 @@
 
 
 
+
+
+
+
 Human View:
 Human View Date:
 Human View note:
@@ -31,11 +35,11 @@ authors: "Maarten Sap; Hannah Rashkin; Derek Chen; Ronan LeBras; Yejin Choi"
 doi: ""
 url: "https://arxiv.org/abs/1904.09728"
 external_pdf: "https://arxiv.org/pdf/1904.09728"
-national_ethnic_cultural: ""
-cultures_nationalities_list: ""
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: ""
-religious_values_list: ""
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: ""
 tags:
@@ -53,8 +57,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -80,6 +84,12 @@ We introduce Social IQa, the first largescale benchmark for commonsense reasonin
 ## Authors
 
 [[Maarten Sap]], [[Hannah Rashkin]], [[Derek Chen]], [[Ronan LeBras]], [[Yejin Choi]]
+
+
+## Data Description
+
+Social IQa: A large-scale benchmark of 38,000 multiple-choice questions for commonsense reasoning about social situations, testing emotional and social intelligence.
+
 
 ## Notes
 

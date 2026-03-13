@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +51,8 @@ local_pdf: "[[PDFs/2022/2022-Alsuhaibani-Fabricated Hadith Detection A Novel Mat
 publication: "IEEE Access"
 CONF-CC: "IEEE Access"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -56,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Creates MAHADDAT, the first dataset dedicated to fabricated (Mawdu) Hadith detection. Uses Matn (textual content) analysis rather than solely Sanad (narrator chain). BERT-based system achieves 92.47% F1 score. Foundational resource for Hadith authenticity verification using NLP."
-LLM_assessed: "BERT, GPT-3, RoBERTa, XLNet"
-DATA_URL: "MAHADDAT dataset (released with paper)"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/kamelgaanoun/mhdetection"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -106,7 +110,8 @@ MAHADDAT dataset (first dedicated Mawdu Hadith dataset; exact size in paper)
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-3, RoBERTa, XLNet. Verified dataset/resource link: MAHADDAT dataset (released with paper).
+MAHADDAT: first dataset dedicated to fabricated (Mawdu) Hadith detection, plus NAH Plus corpus of non-authentic Hadiths. Evaluated with multiple Arabic BERT variants achieving 92.47% F1.
+
 
 ## Notes
 

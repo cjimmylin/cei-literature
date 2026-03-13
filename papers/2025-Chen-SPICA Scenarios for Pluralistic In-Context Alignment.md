@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "When different groups’ values differ, one approach to model alignment is to steer models at inference time towards each group’s preferences. However, techniques like in-context learning only consider similarity when drawing few-shot examples and not cross-group differences in values. We propose SPICA, a framework that accounts for group-level differences during in-context example retrieval. SPICA introduces three designs: scenario banks, groupinformed retrieval metrics, and in-context alignment..."
-LLM_assessed: "GPT-4o, Llama3"
+LLM_assessed: "GPT-4o, Llama-3"
 DATA_URL: "https://github.com/Social-Futures-Lab/SPICA-code"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -96,7 +100,8 @@ Size: Evaluation with n=544 participants (4 demographic groups) + n=120 end-to-e
 
 ## Data Description
 
-SPICA introduces a framework for pluralistic in-context alignment that uses scenario banks, group-informed retrieval metrics, and ICL prompt setups to steer LLM outputs toward different demographic groups' values and norms. The evaluation involves an alignment task with four demographic groups (n=544 for retrieval evaluation, n=120 for end-to-end), but the extract does not specify which base LLM models were tested.
+Code and scenario bank data for pluralistic in-context alignment experiments across four demographic groups.
+
 
 ## Notes
 

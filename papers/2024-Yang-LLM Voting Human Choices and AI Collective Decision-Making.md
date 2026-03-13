@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -101,7 +104,8 @@ Dataset from human voting experiments used as baseline; LLM agents replicate vot
 
 ## Data Description
 
-This study investigates LLM voting behaviors by comparing 180 LLM agents (using LLaMA-2 70B and GPT-4 Turbo) to 180 human participants in a Participatory Budgeting scenario in Zurich, where voters allocated a CHF 60,000 budget across 24 urban projects. The experiments examined the effects of voting methods (Approval, 5-Approval, Cumulative, Ranked), list presentation order, persona variation, Chain-of-Thought prompting, and temperature settings on LLM voting outcomes and their alignment with human preferences.
+A dataset from a Participatory Budgeting (PB) voting experiment in Zurich used to compare LLM voting behaviors against human voting patterns under multiple voting methods.
+
 
 ## Notes
 

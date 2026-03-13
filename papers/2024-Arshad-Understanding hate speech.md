@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ abstract: "The persistence of hate speech continues to pose an obstacle in the r
 CONF-CC: "PeerJ Computer Science"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "https://github.com/twintproject/twint"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Arshad-Understanding hate speech.md"
 local_pdf: "[[PDFs/2024/2024-Arshad-Understanding hate speech.pdf]]"
 CONFERENCE: "Journal"
@@ -165,7 +169,7 @@ The research demonstrates that high classification accuracy does not guarantee i
 
 ## Data Description
 
-The study introduces HateInsights, a benchmark dataset of 11,782 Urdu-language social media posts from Twitter and Facebook, annotated for three-class classification (hate speech, offensive language, normal discourse) with word-level rationales. Three transformer-based models are fine-tuned and evaluated: XLM-RoBERTa Base, FinBERT, and BERT-Hinglish, with explainability analysis using SHAP, LIME, and Integrated Gradients feature attribution methods.
+HateInsights: a benchmark hate speech dataset with dual annotation (3-class labels plus word-level rationales) for Urdu tweets, evaluated with XLM-RoBERTa, FinBERT, and BERT-Hinglish models plus XAI methods.
 
 
 ## Notes

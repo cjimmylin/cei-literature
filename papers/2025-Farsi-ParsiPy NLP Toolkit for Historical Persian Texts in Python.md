@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +48,17 @@ CONF-CC: "Workshop (2025)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Persian, Zoroastrian"
-languages_list: "Middle Persian, Pahlavi"
-religious_values: Zoroastrian
-religious_values_list: "Zoroastrian"
+national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
+languages_list: "Pahlavi"
+religious_values: "Zoroastrianism"
+religious_values_list: "Zoroastrianism"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/openscilab/parsipy"
 tags: 
-abstract:
+abstract: "NLP toolkit for historical Persian languages offering modules for tokenization, lemmatization, POS tagging, phoneme-to-transliteration conversion, and word embedding. Demonstrates utility through processing of Parsig (Middle Persian/Pahlavi) texts. The majority of surviving Parsig texts are religious Zoroastrian writings composed in Book Pahlavi script."
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"

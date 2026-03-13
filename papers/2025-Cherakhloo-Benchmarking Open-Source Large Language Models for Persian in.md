@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, Falcon3, Gemma 2, Gemma2, LLaMA3.1, LLaMA3.2, Llama 2, Mistral, Qwen2, Qwen2.5"
-DATA_URL: "https://paperswithcode.com/task/"
+LLM_assessed: "ChatGPT, Falcon, Gemma-2, Llama-2, Llama-3, Mistral, Qwen-2"
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities across numerous languages; however, their effectiveness in low-resource languages like Persian requires thorough investigation. This paper presents a comprehensive benchmark of several open-source LLMs for Persian Natural Language Processing (NLP) tasks, utilizing both zero-shot and few-shot learning paradigms. We evaluate models across a range of tasks including sentiment analysis, named entity recognition, reading..."
 CONFERENCE: "Preprint"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"

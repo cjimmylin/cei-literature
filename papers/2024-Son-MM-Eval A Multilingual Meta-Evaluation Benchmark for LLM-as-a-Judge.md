@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +48,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.md"
 local_pdf: "[[PDFs/2024/2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "French"
-cultures_nationalities_list: "French"
-languages_list: "122 languages for consistency, 18 languages including French"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, GPT-4o, Claude models, various LLM-as-a-Judge and reward models"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/guijinSON/MM-Eval"
 tags: 
 abstract: "As Large Language Models (LLMs) are now capable of producing fluent and coherent content in languages other than English, it is not imperative to precisely evaluate these non-English outputs. However, when assessing the outputs from mutlilingual LLMs, prior works often employed LLM based evaluators that excel at assessing English outputs, without a thorough examination of whether these evaluators could effectively assess non-English text as well."
@@ -62,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "18 languages"
 ---
@@ -101,7 +106,7 @@ This paper introduces MM-Eval, a multilingual meta-evaluation benchmark designed
 
 ## Data Description
 
-MM-Eval is a multilingual meta-evaluation benchmark with five core subsets (Chat, Reasoning, Safety, Language Hallucination, Linguistics) spanning 18 languages. Models achieve only 68.9% average accuracy (50% = random). Safety subset performance in low-resource languages is 18.4% lower than English, revealing significant degradation in non-English safety evaluation.
+MM-EVAL: a multilingual meta-evaluation benchmark spanning 18 languages (plus 122-language consistency subset) with five core subsets (Chat, Reasoning, Safety, Language Hallucination, Linguistics) for evaluating LLM-as-a-Judge and reward model capabilities in non-English settings.
 
 
 ## Detailed Summary

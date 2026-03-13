@@ -29,6 +29,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +51,7 @@ local_pdf: "[[PDFs/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.pd
 publication: "Scientific Reports (Nature)"
 CONF-CC: "Nature Scientific Reports"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: ""
 religious_values: "N/A"
@@ -66,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

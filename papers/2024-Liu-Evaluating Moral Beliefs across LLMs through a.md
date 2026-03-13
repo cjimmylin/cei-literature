@@ -20,6 +20,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +54,7 @@ tags:
 abstract: "Proper moral beliefs are fundamental for language models, yet assessing these beliefs poses a significant challenge. This study introduces a novel three-module framework to evaluate the moral beliefs of four prominent large language models. Initially, we constructed a dataset containing 472 moral choice scenarios in Chinese, derived from moral words. The decisionmaking process of the models in these scenarios reveals their moral principle preferences."
 paper_summary: "Abstract: Proper moral beliefs are fundamental for lan- guage models, yet assessing these beliefs poses a significant challenge. This study introduces a novel three-module framework to evaluate the moral belief | Overview: Evaluating Moral Beliefs across LLMs through a Pluralistic Framework Xuelin Liu*1, Yanfei Zhu*1, Shucheng Zhu*2, Pengyuan Liu†1,3, Ying Liu†2, Dong Yu†1 1School of Information Science, Beijing Languag | Conclusions: drawn in Section 5.1. ChatGPT and Gemini con- sistently performed well in moral decision-making, closely aligning with moral beliefs of the sample of"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, Gemini"
+LLM_assessed: "ChatGLM, ChatGPT, Ernie, Gemini"
 DATA_URL: "https://github.com/MuMu-Lily/Moral-Beliefs"
 normative_ethics_benchmark: Yes
 CONFERENCE: "EMNLP 2024"
@@ -84,7 +87,7 @@ Proper moral beliefs are fundamental for language models, yet assessing these be
 
 ## Data Description
 
-The paper introduces a dataset of 472 Chinese moral choice scenarios derived from 514 negative moral words sourced from the Chinese Moral Dictionary. Each scenario includes a moral question, two mutually exclusive moral choices, and associated moral principles. The dataset is used to evaluate the moral beliefs of four LLMs (ChatGPT/GPT-3.5-turbo-16K, Gemini Pro, ChatGLM2-6B-32K, and Ernie-Bot-turbo) through moral choice, moral ranking, and moral debate modules.
+Dataset of 472 Chinese moral choice scenarios derived from moral words, designed to evaluate LLMs' moral beliefs through moral choice, ranking, and debate modules.
 
 
 ## Notes

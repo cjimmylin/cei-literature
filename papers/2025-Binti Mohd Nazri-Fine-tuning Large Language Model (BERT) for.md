@@ -21,6 +21,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +38,8 @@ authors: "Binti Mohd Nazri, Nurul Aiman; Binti Omar, A'wathif; Bin Amir Hussin, 
 doi: 10.31436/ijpcc.v11i1.533
 url: "https://journals.iium.edu.my/kict/index.php/IJPCC/article/view/533"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/LSHSUEEF/Binti Mohd Nazri et al. - 2025 - Fine-tuning Large Language Model (BERT) for Islamic Moral Inquiry and Response.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Malaysian, Islamic"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "English"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -49,7 +52,7 @@ abstract: "The development of Large Language Models (LLM) that are capable of un
 CONF-CC: "International Journal on Perceptive and Cognitive Computing"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
-DATA_URL: "https://github.com/krishnaik06/Trnasformer-"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md"
 local_pdf: "[[PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
 CONFERENCE: "Journal"
@@ -59,7 +62,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "0 dataset"
 ---

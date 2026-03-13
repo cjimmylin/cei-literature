@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Hate speech detection across contemporary social media presents unique challenges due to linguistic diversity and the informal nature of online discourse. These challenges are further amplified in settings involving code-mixing, transliteration, and culturally nuanced expressions. While fine-tuned transformer models, such as BERT, have become standard for this task, we argue that recent large language models (LLMs) not only surpass them but also redefine the landscape of hate speech detection..."
-LLM_assessed: "BERT, GPT-4, GPT-4o, GPT-4o-mini, InternLM, InternLM-2, InternLM2, Llama, Llama-3, LLaMA-3.1, LLaMA3.1, Mistral-7B, Qwen, Qwen2.5, RoBERTa"
+LLM_assessed: "BERT, GPT-4, GPT-4o, GPT-4o mini, InternLM, Llama-3, Mistral, Qwen, Qwen-2, RoBERTa"
 DATA_URL: "https://huggingface.co/Qwen/Qwen2.5-7B"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -62,8 +66,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -98,7 +102,8 @@ Diverse code-mixed Hindi-English hate speech dataset from Koo platform capturing
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4, GPT-4o, GPT-4o-mini, InternLM, InternLM-2, InternLM2, Llama, Llama-3, LLaMA-3.1, LLaMA3.1, Mistral-7B, Qwen, Qwen2.5, RoBERTa. Verified dataset/resource link: https://huggingface.co/Qwen/Qwen2.5-7B.
+INDOHATEMIX is a diverse Hindi-English code-mixed hate speech dataset from the Koo platform capturing multi-target (religious, political) hate with transliteration, designed as a benchmark to evaluate model robustness in multilingual hate speech detection.
+
 
 ## Notes
 

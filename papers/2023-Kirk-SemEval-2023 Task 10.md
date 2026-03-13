@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +55,7 @@ local_pdf: "[[PDFs/2023/2023-Kirk-SemEval-2023 Task 10.pdf]]"
 abstract: "Online sexism is a widespread and harmful phenomenon. Automated tools can assist the detection of sexism at scale. Binary detection, however, disregards the diversity of sexist content, and fails to provide clear explanations for why something is sexist. To address this issue, we introduce SemEval Task 10 on the Explainable Detection of Online Sexism (EDOS). We make three main contributions: i) a novel hierarchical taxonomy of sexist content, which includes granular vectors of sexism to aid..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "DeBERTa, RoBERTa"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/rewire-online/edos"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -60,8 +63,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Interpretability & Explainability"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -84,7 +87,7 @@ Online sexism is a widespread and harmful phenomenon. Automated tools can assist
 
 ## Data Description
 
-The EDOS dataset consists of 20,000 social media comments from Reddit and Gab with fine-grained hierarchical labels for sexist content detection across three tasks: binary sexism detection (Task A), four-category classification (Task B), and 11 fine-grained sexism vectors (Task C). An additional 2 million unlabelled entries were provided for model adaptation. All entries were annotated by trained annotators who self-identify as women, with expert adjudication for disagreements.
+EDOS dataset of 20,000 social media comments (from Reddit and Gab) with fine-grained hierarchical labels for sexism detection across 3 tasks: binary sexism detection, 4 categories, and 11 fine-grained vectors.
 
 
 ## Notes

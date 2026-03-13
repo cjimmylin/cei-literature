@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +49,17 @@ local_pdf: "[[PDFs/2025/2025-Goyal-Vedavani A Benchmark Corpus for ASR.pdf]]"
 publication: "World Sanskrit Conference 2025 / arXiv"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Sanskrit"
-religious_values: "Hinduism"
-religious_values_list: "Hinduism"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Sanskrit, an ancient language with a rich linguistic heritage, presents unique challenges for automatic speech recognition (ASR) due to its phonemic complexity and the phonetic transformations that occur at word junctures, similar to the connected speech found in natural conversations. Due to these complexities, there has been limited exploration of ASR in Sanskrit, particularly in the context of its poetic verses, which are characterized by intricate prosodic and rhythmic patterns."
-LLM_assessed: "BERT"
-DATA_URL: "https://huggingface.co/datasets/sanganaka/Vedavani-Dataset"
+LLM_assessed: "Whisper, wav2vec, HuBERT"
+DATA_URL: "https://github.com/SujeetNlp/Vedavani"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -101,7 +104,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/datasets/sanganaka/Vedavani-Dataset.
+Vedavani is a 54-hour Sanskrit ASR dataset of 30,779 labelled audio samples from the Rig Veda and Atharva Veda with an 80/10/10 train/val/test split. Multiple ASR models (Whisper variants, IndicWhisper, MMS, HuBERT, Wav2Vec2 variants) are benchmarked on the corpus using WER and CER metrics.
+
 
 ## Notes
 

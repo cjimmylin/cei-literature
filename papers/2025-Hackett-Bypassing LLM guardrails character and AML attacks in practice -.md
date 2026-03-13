@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,15 +44,15 @@ CONF-CC: "Preprint"
 pdf_extract: PDF Extracts/2025/2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -.md
 local_pdf: "[[PDFs/2025/2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Arabic, English, Multilingual"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, DeBERTa, GPT-4o-mini"
-DATA_URL: "https://github.com/NoDataFound/hackGPT"
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "Here are the web search results for \"transliterated text LLM evaluation safety bypass\": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi"
 research_topic: "Other"

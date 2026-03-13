@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +61,7 @@ paper_summary: "Abstract: Previous works on Large Language Models (LLMs) have ma
 local_pdf: "[[PDFs/2024/2024-Chern-BeHonest.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, ChatGPT, Llama-2, Llama-3, Mistral, Qwen"
+LLM_assessed: "ChatGPT, GPT-4o, Llama-2, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/GAIR-NLP/BeHonest"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -96,7 +101,7 @@ Previous works on Large Language Models (LLMs) have mainly focused on evaluating
 
 ## Data Description
 
-The paper introduces BeHonest, a benchmark for evaluating honesty in LLMs across three aspects: self-knowledge (awareness of knowledge boundaries), non-deceptiveness (avoidance of deceit), and consistency in responses. The benchmark comprises 10 evaluation scenarios using datasets totaling over 19,000 instances drawn from existing sources (SelfAware, UnknownBench, TrustLLM, TruthfulQA, CommonSenseQA, Big-Bench Hard) and synthetically generated data.
+BeHonest: a benchmark for evaluating honesty in LLMs across three aspects (self-knowledge, non-deceptiveness, consistency) with 10 scenarios using combined, augmented, and synthetic datasets totaling ~19K samples.
 
 
 ## Notes

@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ key_contribution: "Establishes a 3D assessment framework (foundational principle
 significance: "Provides precise metric quantification for ethical strengths and weaknesses, prioritizing consistency over simple accuracy"
 abstract: "This study establishes a novel framework for systematically evaluating the moral reasoning capabilities of large language models (LLMs) as they increasingly integrate into critical societal domains. Current assessment methodologies lack the precision needed to evaluate nuanced ethical decision-making in AI systems, creating significant accountability gaps. Our framework addresses this challenge by quantifying alignment with human ethical standards through three dimensions: foundational moral..."
 paper_summary: "Abstract: This study establishes a novel framework for systematically evaluating the moral reasoning capabilities of large language models (LLMs) as they increasingly in- tegrate into critical societal domains. | Overview: LLM Ethics Benchmark A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models Junfeng Jiao Urban Information Lab The University of Texas at Austin jjiao@austin.ute | Key Findings: parameters. Third, we have established a standardized methodology for processing responses that extracts both numerical scores and reasoning text from"
-LLM_assessed: "GPT-4, Claude, DeepSeek, Llama-3, Gemini"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Llama-3"
 DATA_URL: "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
@@ -85,7 +89,7 @@ This study establishes a novel framework for systematically evaluating the moral
 
 ## Data Description
 
-The paper establishes a three-dimensional moral reasoning assessment framework evaluating LLMs on Moral Foundation Alignment (MFQ-30), Reasoning Index, and Value Consistency using adapted versions of the Moral Foundations Questionnaire, World Values Survey, and moral dilemmas. Five LLMs were evaluated: GPT-4o, Claude 3.7 Sonnet, DeepSeek-V3, LLaMA 3.1 (70B), and Gemini 2.5 Pro, with composite scores ranging from 75.8 to 90.9 on a 0-100 scale across dimensions.
+Releases benchmark datasets and evaluation codebase covering MFQ-adapted, WVS-adapted, and moral dilemma assessments for evaluating moral reasoning in LLMs.
 
 
 ## Notes

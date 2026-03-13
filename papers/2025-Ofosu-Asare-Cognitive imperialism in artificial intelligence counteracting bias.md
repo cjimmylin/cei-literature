@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,9 +51,9 @@ CONF-CC: "AI & Society"
 pdf_extract: "PDF Extracts/2025/2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.md"
 local_pdf: "[[PDFs/2025/2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: ""
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"

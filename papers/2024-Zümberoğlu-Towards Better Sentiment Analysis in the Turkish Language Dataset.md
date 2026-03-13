@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,9 +46,9 @@ CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Turkish"
-languages_list: "Arabic, Mongolian, Multilingual, Tibetan, Turkish, Uyghur"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -95,7 +98,7 @@ Sentiment analysis in the Turkish language has gained increasing attention due t
 
 ## Data Description
 
-Presents an enhanced Turkish sentiment analysis dataset and evaluates traditional sentiment analysis models (not LLMs) on it. Focuses on addressing dataset limitations for Turkish NLP including insufficient size, lack of diversity, and annotation inconsistencies.
+Novel enhanced Turkish sentiment analysis dataset addressing limitations of existing datasets including insufficient size, lack of diversity, and annotation inconsistencies. Designed to support development of robust Turkish sentiment analysis models.
 
 
 ## Notes

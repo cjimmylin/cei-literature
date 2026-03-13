@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ pdf_extract: "PDF Extracts/2024/2024-Aupi-WoNBias A Complete Bengali Gender Bias
 local_pdf: "[[PDFs/2024/2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.pdf]]"
 external_pdf: "https://aclanthology.org/2025.gebnlp-1.10.pdf"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bengali"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BanglaBERT"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset"
 tags: 
 abstract: "Manually annotated corpus of Bengali designed to identify gender-based biases, stereotypes, and harmful language against women. Supports research in ethical NLP, content moderation, and computational social science."
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
@@ -100,7 +104,7 @@ Manually annotated corpus of Bengali designed to identify gender-based biases, s
 
 ## Data Description
 
-WoNBias is a curated Bengali dataset of 31,484 annotated entries (10,656 negative, 10,170 positive, 10,658 neutral) for identifying gender-based biases, stereotypes, and harmful language directed at women. It merges digital sources (social media, blogs, news) with offline data (surveys, focus groups). The authors fine-tuned a BanglaBERT model for bias classification, achieving per-class recall of 0.962 (neutral), 0.881 (positive), and 0.824 (negative), with inter-annotator agreement of kappa=0.74.
+WoNBias is a 31,484-entry annotated Bengali text dataset for detecting gender-based bias and harmful language against women, with three sentiment classes (Negative, Positive, Neutral). Sources include social media, news, blogs, and offline surveys; BanglaBERT is fine-tuned on the dataset as a baseline classifier.
 
 
 ## Notes

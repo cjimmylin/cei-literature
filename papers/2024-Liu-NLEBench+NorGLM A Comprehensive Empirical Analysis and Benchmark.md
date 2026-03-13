@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ pdf_extract: "PDF Extracts/2024/2024-Liu-NLEBench+NorGLM A Comprehensive Empiric
 local_pdf: "[[PDFs/2024/2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Norwegian"
-languages_list: Norwegian
+cultures_nationalities_list: "N/A"
+languages_list: "Norwegian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NorGPT-369M, NorGPT-3B, NorGPT-23B, NorLlama-3B, NB-GPT-J-6B, GPT-3.5-Turbo"
+LLM_assessed: "GPT-3.5"
 DATA_URL: "https://github.com/Smartmedia-AI/NorGLM"
 tags: 
 abstract: "Norwegian, spoken by only 5 million population, is under-representative within the most impressive breakthroughs in NLP tasks. To the best of our knowledge, there has not yet been a comprehensive evaluation of the existing language models (LMs) on Norwegian generation tasks during the article writing process. To fill this gap, we 1) compiled the existing Norwegian dataset and pre-trained 4 Norwegian Open Language Models varied from parameter scales and architectures, collectively called NorGLM;..."
@@ -102,7 +106,7 @@ This paper presents NLEBench, a comprehensive benchmark for evaluating generativ
 
 ## Data Description
 
-NLEBench is a comprehensive Norwegian generative LM benchmark including translation, human-annotated datasets, toxicity and bias evaluation, instruction fine-tuning, and Chain-of-Thought investigation. Includes datasets covering Norwegian culture, idioms, and expressions. NorGLM models are Norwegian GPT-2/Llama-based models trained from scratch.
+NLEBench: a comprehensive Norwegian NLG benchmark covering translation, summarization, dialogue generation, and instruction following; includes human-annotated datasets on Norwegian culture, idioms, and expressions. Also introduces four Norwegian open language models (NorGPT-369M, NorGPT-3B, NorGPT-23B, NorLlama-3B) collectively called NorGLM.
 
 
 ## Detailed Summary

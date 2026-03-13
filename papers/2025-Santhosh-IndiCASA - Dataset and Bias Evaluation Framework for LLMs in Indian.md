@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have gained significant traction across critical domains owing to their impressive contextual understanding and generative capabilities. However, their increasing deployment in high stakes applications necessitates rigorous evaluation of embedded biases, particularly in culturally diverse contexts like India where existing embedding-based bias assessment methods often fall short in capturing nuanced stereotypes."
-LLM_assessed: "Gemma, Llama-3, Phi, Mistral, DeepSeek"
+LLM_assessed: "Llama-3, Gemma, Gemma-2, Mistral, Phi-3, DeepSeek"
 DATA_URL: "https://github.com/cerai-iitm/IndiCASA"
 CONFERENCE: "AIES 2025"
 ethics_overall: "Yes"
@@ -96,7 +100,8 @@ Large Language Models (LLMs) have gained significant traction across critical do
 
 ## Data Description
 
-The paper introduces IndiCASA (IndiBias-based Contextually Aligned Stereotypes and Anti-stereotypes), a dataset of 2,575 human-validated sentences spanning five demographic axes (caste, gender, religion, disability, and socioeconomic status) in the Indian context. A contrastive learning-based bias evaluation framework was developed using the dataset to train encoders that capture fine-grained stereotypical associations. Seven open-weight LLMs (Gemma-2-9B, Gemma-3-1B, Llama-3.1-8B, Llama-3.2-1B, Phi-3.5-mini, Mistral-8B, DeepSeek-R1-Distill-Llama-8B) were evaluated for bias.
+IndiCASA: a novel Indian-context bias dataset of stereotype/anti-stereotype pairs covering caste, religion, socioeconomic, and regional dimensions, used to train a contrastive encoder and evaluate bias in open-weight LLMs.
+
 
 ## Notes
 

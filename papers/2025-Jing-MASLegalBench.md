@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,13 +42,13 @@ last_author: "[[Yangqiu Song]]"
 authors: "Huihao Jing; Wenbin Hu; Hongyu Luo; Jianhui Yang; Wei Fan; Haoran Li; Yangqiu Song"
 url: "https://arxiv.org/abs/2509.24922"
 external_pdf: "https://arxiv.org/pdf/2509.24922.pdf"
-pdf_extract: "PDF Extracts/0000/2025-Jing-MASLegalBench.md"
+pdf_extract: "PDF Extracts/2025/2025-Jing-MASLegalBench.md"
 local_pdf: "[[PDFs/2025/2025-Jing-MASLegalBench.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "European"
+cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Multi-agent systems (MAS), leveraging the remarkable capabilities of Large Language Models (LLMs), show great potential in addressing complex tasks. In this context, integrating MAS with legal tasks is a crucial step. While previous studies have developed legal benchmarks for LLM agents, none are specifically designed to consider the unique advantages of MAS, such as task decomposition, agent specialization, and flexible training."
-LLM_assessed: "GPT-4, DeepSeek, Llama-3, Qwen"
+LLM_assessed: "Claude, DeepSeek, GPT-4, Llama-3, Mixtral, Qwen"
 DATA_URL: "https://github.com/HKUST-KnowComp/MASLegalBench"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Multi-agent systems (MAS), leveraging the remarkable capabilities of Large Langu
 
 ## Data Description
 
-The paper proposes MASLegalBench, a legal benchmark for multi-agent systems based on GDPR court cases, containing 950 multiple-choice questions (647 yes/no and 303 single-choice) derived from real UK enforcement reports. The benchmark follows an extended IRAC reasoning framework with four role-based agents (Facts, Rules, Application, Common Sense). Five Meta-LLMs were tested: Llama3.1-8B-Instruct, Qwen2.5-7B-Instruct, Qwen3-8B, DeepSeek-v3.1, and GPT-4o-mini, with DeepSeek-v3.1 as the sub-task agent.
+MASLegalBench: a GDPR-based multi-agent legal reasoning benchmark with 950 expert-authored legal questions structured using an extended IRAC framework, supporting evaluation of multi-agent LLM systems.
+
 
 ## Notes
 

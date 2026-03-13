@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +50,13 @@ local_pdf: "[[PDFs/2024/2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM
 pdf_extract: "PDF Extracts/2024/2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian, Persian"
+cultures_nationalities_list: "Iranian"
 languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, GPT-3.5, Claude-3-Haiku, Aya, XVERSE-13B, XVERSE-7B, PersianMind, mT0XL, mGPT"
+LLM_assessed: "Aya, Claude-3 Haiku, GPT-3.5, GPT-4, mGPT, mT0, PersianMind, XVERSE"
 DATA_URL: "NA"
 tags: 
 abstract: "Evaluating Large Language Models (LLMs) is challenging due to their generative nature, necessitating precise evaluation methodologies. Additionally, non-English LLM evaluation lags behind English, resulting in the absence or weakness of LLMs for many languages. In response to this necessity, we introduce Khayyam Challenge (also known as PersianMMLU), a meticulously curated collection comprising 20,192 four-choice questions sourced from 38 diverse tasks extracted from Persian examinations,..."
@@ -61,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -100,7 +105,7 @@ A meticulously curated collection of 20,192 four-choice questions from 38 divers
 
 ## Data Description
 
-The Khayyam Challenge (PersianMMLU) is a benchmark of 20,192 four-choice questions sourced from 38 diverse tasks extracted from Persian examinations, spanning subjects from primary to upper secondary school. It includes rich metadata such as human response rates, difficulty levels, descriptive answers, and trapped questions. Nine LLMs supporting Persian were evaluated on this benchmark in zero-shot and chain-of-thought settings.
+PersianMMLU (Khayyam Challenge): 20,192 four-choice questions from 38 tasks extracted from Persian examinations, with rich metadata including human response rates and difficulty levels.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,18 +45,18 @@ url: "https://openreview.net/pdf?id=q9kPg2ndg2"
 external_pdf: "https://arxiv.org/pdf/2407.15390.pdf"
 publication: OpenReview
 CONF-CC: "Preprint"
-pdf_extract: "PDF Extracts/0000/2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.md"
+pdf_extract: "PDF Extracts/2025/2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.md"
 local_pdf: "[[PDFs/2025/2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Saudi Arabian"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, Alpaca, BERT, ChatGPT, Command-R, CommandR, GPT 3, GPT 3.5 Turbo, GPT-4, GPT4, Gemma, Llama, Llama 2, Llama 2 chat, Llama 2-Chat, Llama 3, Llama-2, Llama-3, Llama2, Mistral, Mistral-7B, Mixtral-8x22B, Mixtral-8x7B, Qwen2"
-DATA_URL: "https://github.com/NVIDIA/Megatron-LM"
+LLM_assessed: "Aya, Command-R, Command R+, Gemma, GPT-3.5, GPT-4, LLaMA, Llama-2, Llama-3, Mistral, Mixtral, Qwen-2"
+DATA_URL: NA
 tags: 
 abstract: "We present ALLaM: Arabic Large Language Model, a series of large language models to support the ecosystem of Arabic Language Technologies (ALT). ALLaM is carefully trained considering the values of language alignment and knowledge transfer at scale. Our autoregressive decoder-only architecture models demonstrate how second-language acquisition via vocabulary expansion and pretraining on a mixture of Arabic and English text can steer a model towards a new language (Arabic) without any catastrophic forgetting in the original language (English). Furthermore, we highlight the effectiveness of using parallel/translated data to aid the process of knowledge alignment between languages. Finally, we show that extensive alignment with human preferences can significantly enhance the performance of a language model compared to models of a larger scale with lower quality alignment. ALLaM achieves state-of-the-art performance in various Arabic benchmarks, including MMLU Arabic, ACVA, and Arabic Exams. Our aligned models improve both in Arabic and English from their base aligned models. ∗Corresponding author: skarim@sdaia.gov.sa †Core contributors arXiv:2407.15390v1 [cs.CL] 22 Jul 2024 Contents"
 research_topic: "Other"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"

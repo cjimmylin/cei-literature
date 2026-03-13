@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ local_pdf: "[[PDFs/2025/2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Mod
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Dutch"
 cultures_nationalities_list: "Dutch"
-languages_list: Dutch
+languages_list: "Dutch"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, Qwen, Qwen3, Mistral"
-DATA_URL: "NA"
+LLM_assessed: "BERT, Mistral, Qwen"
+DATA_URL: "https://huggingface.co/collections/clips/mteb-nl-6888d7136112c731605f93ed"
 tags: 
 abstract: "Recently, embedding resources, including models, benchmarks, and datasets, have been widely released to support a variety of languages. However, the Dutch language remains underrepresented, typically comprising only a small fraction of the published multilingual resources. To address this gap and encourage the further development of Dutch embeddings, we introduce new resources for their evaluation and generation."
 authors_incomplete: false
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -103,7 +107,7 @@ This paper introduces MTEB-NL, a comprehensive text embedding benchmark for Dutc
 
 ## Data Description
 
-Introduces MTEB-NL, a comprehensive text embedding benchmark for Dutch, and releases E5-NL embedding models demonstrating strong performance across multiple Dutch NLP tasks. Focuses on embedding models rather than generative LLMs.
+Releases MTEB-NL, a massive text embedding benchmark for Dutch comprising 40 datasets across multiple tasks, plus a training mixture of Dutch retrieval and synthetic data, and E5-NL embedding models; all resources available on Hugging Face and GitHub.
 
 
 ## Detailed Summary

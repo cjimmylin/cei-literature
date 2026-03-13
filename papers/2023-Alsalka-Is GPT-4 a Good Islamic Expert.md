@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ local_pdf: N/A
 publication: "ROCLING 2023 (35th Conference on Computational Linguistics and Speech Processing) / ACL Anthology"
 CONF-CC: "ROCLING 2023"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "Islam"
@@ -101,7 +104,7 @@ Evaluates GPT-4 on Quranic question answering using the newly created QUQA datas
 
 ## Data Description
 
-The paper evaluates GPT-4 on Quranic question answering using the QUQA dataset (2,189 questions). It finds GPT-4 struggles with classical Arabic, semantic ambiguity, and contextual meaning in religious texts. Three main issues are identified: misinterpretation of religious context, unreliable answers not grounded in authoritative Islamic sources, and sensitivity to phrasing variations.
+QUQA is a dataset of 2,189 Quranic questions used to evaluate GPT-4 on Islamic question answering, revealing limitations in classical Arabic comprehension and contextual religious reasoning.
 
 
 ## Notes

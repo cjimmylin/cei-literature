@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +52,7 @@ local_pdf: "[[PDFs/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in
 DATE_ADDED: 20260214
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
-languages_list: Russian
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -104,7 +107,7 @@ First dataset annotated with ethnicity-targeted hate speech in Russian (5.5K tex
 
 ## Data Description
 
-The paper creates the first dataset annotated for ethnicity-targeted hate speech in Russian, containing 5,500 texts constructed from 2.6 million user messages mentioning ethnic groups, with 12,000 annotated instances. It addresses the differentiation of attitudes towards different ethnic groups in Russian social media. No LLMs were tested; the PDF extract contained no readable text due to the scanned nature of the document.
+Annotated dataset of 5,500+ Russian social media texts targeting ethnic groups, with 12,000 annotated instances for ethnicity-targeted hate speech detection across multiple classifiers.
 
 
 ## Notes

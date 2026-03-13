@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,7 @@ local_pdf: "[[PDFs/2024/2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark t
 publication: "WebSearch: multilingual benchmark Indic"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
 religious_values: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) perform well on unseen tasks in English, but their abilities in non-English languages are less explored due to limited benchmarks and training data. To bridge this gap, we introduce the Indic-QA Benchmark, a large dataset for context-grounded question answering in 11 major Indian languages, covering both extractive and abstractive tasks. Evaluations of multilingual LLMs, including instruction fine-tuned versions, revealed weak performance in lowresource languages..."
-LLM_assessed: "Bloom, BloomZ, Gemma, Gemma-2, Gemma2, Llama, Llama-3, LLama 3, Llama-3., Llama-3.1, Mistral-nemo, RoBERTa, BERT, mistral.ai"
-DATA_URL: "https://github.com/AI4Bharat/IndicTrans2"
+LLM_assessed: "BLOOM, Gemma, Gemma-2, Llama-3"
+DATA_URL: "https://github.com/ayushayush591/IndicQA-Benchmark"
 ethics_perspective: "Bias & Fairness"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -100,7 +104,8 @@ Multilingual QA benchmark compiling existing datasets, translated English datase
 
 ## Data Description
 
-Backfill summary: Models assessed include Bloom, BloomZ, Gemma, Gemma-2, Gemma2, Llama, Llama-3, LLama 3, Llama-3., Llama-3.1, Mistral-nemo, RoBERTa, BERT, mistral.ai. Verified dataset/resource link: https://github.com/AI4Bharat/IndicTrans2.
+Indic-QA Benchmark: a large multilingual context-grounded QA dataset for 11 major Indian languages covering both extractive and abstractive tasks, compiled from existing datasets, English datasets translated to Indic languages, and a synthetically generated dataset using Gemini.
+
 
 ## Notes
 

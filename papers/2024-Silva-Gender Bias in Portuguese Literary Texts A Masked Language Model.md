@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +52,12 @@ local_pdf: "[[PDFs/2024/2024-Silva-Gender Bias in Portuguese Literary Texts A Ma
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
-languages_list: Portuguese
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Bartl"
+LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/neuralmind/bert-base-portuguese-cased"
 tags: 
 abstract: "In this work, we investigate how a corpus of Portuguese literary texts shapes the gender bias of a language model using a masked language modeling approach. We fine-tune a BERT-based model on a curated corpus of 592 literary works and analyze gender associations in adjective and verb predictions. Our results show that fine-tuning shifts gender associations: female-denoting targets showed a significant reduction in negative associations, while male-denoting targets retained a negative bias."

@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ paper_summary: "Abstract: The emergent capabilities of Large Language Models (LL
 local_pdf: "[[PDFs/2023/2023-Zhang-Heterogeneous Value Alignment Evaluation for.pdf]]"
 CONF-CC: "Artificial General Intelligence"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Llama, Alpaca, Vicuna"
+LLM_assessed: "Alpaca, ChatGPT, Claude, GPT-3.5, GPT-4, Vicuna"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -90,7 +94,7 @@ The emergent capabilities of Large Language Models (LLMs) have made it crucial t
 
 ## Data Description
 
-This paper introduces the Heterogeneous Value Alignment Evaluation (HVAE) system using the Social Value Orientation (SVO) framework from social psychology. The evaluation uses SVO slider measure tasks with four value categories (altruistic, individualistic, prosocial, competitive) to assess eight mainstream LLMs: GPT-4, GPT-3.5 (text-davinci-003), ChatGPT (gpt-3.5-turbo), Claude, LLaMA-13B, Alpaca-13B, Vicuna-13B, and Koala-13B. Each experiment consisted of 10 trials per model with temperature set to 0.1.
+HVAE (Heterogeneous Value Alignment Evaluation) system using Social Value Orientation framework to evaluate LLMs on prosocial, individualistic, competitive, and altruistic values.
 
 
 ## Notes

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +49,7 @@ local_pdf: "[[PDFs/2024/2024-Dorn-BELLS A Framework Towards Future Proof Benchma
 publication: "ICML 2024"
 CONF-CC: "ICML 2024"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "French"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -99,7 +103,8 @@ See report
 
 ## Data Description
 
-BELLS (Benchmarks for the Evaluation of LLM Safeguards) is a framework comprising three categories of tests for input-output safeguards: established failure tests, emerging failure tests, and next-gen architecture tests. The paper implements a next-gen architecture test using the MACHIAVELLI benchmark environment, generating 200 agent traces (33.6K API calls, 18.5M words) with ethical and unethical steering prompts. GPT-4 is used as a baseline content moderator for detecting unethical agent behavior.
+BELLS is a structured benchmark framework for evaluating LLM input-output safeguards, including 200 agent traces from the MACHIAVELLI environment with 33.6K API calls for detecting ethical vs. unethical agent behavior.
+
 
 ## Notes
 

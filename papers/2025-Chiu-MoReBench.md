@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ local_pdf: "[[PDFs/2025/2025-Chiu-MoReBench.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2510.16380.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -52,7 +56,7 @@ tags:
 abstract: "As AI systems progress, we rely more on them to make decisions with us and for us. To ensure that such decisions are aligned with human values, it is imperative for us to understand not only what decisions they make but also how they come to those decisions. Reasoning language models, which provide both final responses and (partially transparent) intermediate thinking traces, present a timely opportunity to study AI procedural reasoning."
 paper_summary: "Abstract: As AI systems progress, we rely more on them to make decisions with us and for us. To ensure that such decisions are aligned with human values, it is im- perative for us to understand not only what de | Overview: Preprint. MOREBENCH: EVALUATING PROCEDURAL AND PLU- RALISTIC MORAL REASONING IN LANGUAGE MOD- ELS, MORE THAN OUTCOMES Yu Ying Chiu*1,2 Michael S. Lee*3 Rachel Calcott4 Brandon Handoko3 Paul de Font-Re | Methodology: To score the moral reasoning capabilities of various models, we propose and meta-evaluate three components of our methodology: (1) Measuring the perfo | Key Findings: These instructions were shared with human experts to elicit the low-, medium- and high-quality reasoning traces across 30 morally ambiguous scenarios  | Conclusions: on this metric in relation to an alternative is in Section E.3. si =   Mi X j=1 sgn(pij) · rij · pij     Mi X j=1 |pij|   where pij ∈[−3, 3],"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Gemini, DeepSeek, Qwen, Llama"
+LLM_assessed: "Claude, DeepSeek, GPT-4, GPT-5, Gemini, Llama-3, Qwen"
 DATA_URL: "https://hf.co/datasets/morebench/morebench"
 normative_ethics_benchmark: Yes
 CONFERENCE: "Other Conference"
@@ -62,7 +66,7 @@ deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "150 examples"
 ---
@@ -85,7 +89,7 @@ As AI systems progress, we rely more on them to make decisions with us and for u
 
 ## Data Description
 
-MoReBench is a benchmark of 1,000 moral dilemma scenarios with 23,018 expert-written rubric criteria for evaluating procedural moral reasoning in LLMs, covering both moral advisor and moral agent roles. The benchmark also includes MoReBench-Theory with 150 scenarios annotated under five normative ethics frameworks, testing frontier models including GPT-5, Claude Opus 4.1, Gemini 2.5 Pro, DeepSeek R1, Qwen3, and Llama 4 Maverick, finding that scaling laws fail to predict moral reasoning capabilities.
+MOREBENCH contains 1,000 moral dilemma scenarios paired with over 23,000 expert-written rubric criteria for evaluating the quality of AI moral reasoning processes; MOREBENCH-THEORY contains 150 scenarios annotated under five normative ethics frameworks. Both are released on HuggingFace.
 
 
 ## Notes

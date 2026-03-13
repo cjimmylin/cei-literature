@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +57,7 @@ local_pdf: "[[PDFs/2023/2023-Schulhoff-HackAPrompt.pdf]]"
 abstract: "Large Language Models (LLMs) are deployed in interactive contexts with direct user engagement, such as chatbots and writing assistants. These deployments are vulnerable to prompt injection and jailbreaking (collectively, prompt hacking), in which models are manipulated to ignore their original instructions and follow potentially malicious ones. Although widely acknowledged as a significant security threat, there is a dearth of large-scale resources and quantitative studies on prompt hacking."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3, ChatGPT, Flan-T5"
+LLM_assessed: "ChatGPT, Flan-T5, GPT-3"
 DATA_URL: "NA"
 CONFERENCE: "EMNLP 2023"
 ethics_overall: "No"
@@ -60,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -84,7 +89,7 @@ Large Language Models (LLMs) are increasingly being deployed in interactive cont
 
 ## Data Description
 
-The paper introduces HackAPrompt, a global prompt hacking competition dataset containing over 600,000 adversarial prompts from 2,800+ participants across 50+ countries. The dataset is divided into Submissions and Playground datasets, testing prompt injection and jailbreaking attacks against GPT-3 (text-davinci-003), ChatGPT (GPT-3.5-turbo), and FlanT5-XXL across ten challenges of varying difficulty. The dataset is available on HuggingFace.
+600K+ adversarial prompts from a global prompt hacking competition against GPT-3, ChatGPT, and FlanT5-XXL, with comprehensive taxonomy of prompt injection attacks. Available on HuggingFace.
 
 
 ## Notes

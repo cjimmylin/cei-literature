@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "African healthcare, ubuntu, relational"
@@ -36,11 +38,11 @@ doi: 10.1111/dewb.70007
 url: "https://doi.org/10.1111/dewb.70007"
 pdf_extract: 
 local_pdf: N/A
-national_ethnic_cultural: African/Ubuntu
-cultures_nationalities_list: "African"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "Ubuntu Philosophy"
+religious_values_list: "Ubuntu Philosophy"
 moral_psychology: "N/A"
 newtags: "African/Ubuntu, Virtue Ethics, Utilitarianism"
 key_contribution: "Introduces Ubuntu as a guiding framework for AI in African healthcare, focusing on justice, communalism, and collective well-being"

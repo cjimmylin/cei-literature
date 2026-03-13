@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ tags:
 abstract: "Large language models (LLMs) exhibit expert-level performance in tasks across a wide range of different domains. Ethical issues raised by LLMs and the need to align future versions makes it important to know how state of the art models reason about moral and legal issues. In this paper, we employ the methods of experimental psychology to probe into this question. We replicate eight studies from the experimental literature with instances of Google's Gemini Pro, Anthropic's Claude 2."
 DATE_ADDED: 20260208
 research_topic: "LLM Moral Reasoning"
-LLM_assessed: "GPT-4, Claude, Llama-2, Gemini"
+LLM_assessed: "Claude, Gemini, GPT-4, Llama-2"
 DATA_URL: "https://osf.io/zunm4/?view_only=217abaddc7f6498483fda045157f5dd6"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -101,7 +105,7 @@ Large language models (LLMs) exhibit expert-level performance in tasks across a 
 
 ## Data Description
 
-The study replicates eight vignette-based experiments from experimental psychology with four LLMs: GPT-4 (gpt-4-0314), Claude 2.1, Gemini Pro 1.0, and Llama 2 Chat 70b. Each model generated 100 responses per study condition, probing moral and legal reasoning across topics including intentional action, causation, deception, Moral Foundations Theory, consent, hindsight bias, and rule interpretation. The dataset comprises LLM-generated responses compared against published human experimental results.
+Replication materials, code, and data from eight experimental psychology studies probing moral and legal reasoning in LLMs.
 
 
 ## Notes

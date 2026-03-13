@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ pdf_extract: "PDF Extracts/2024/2024-Röttger-Political Compass or Spinning Arro
 abstract: "Much recent work seeks to evaluate values and opinions in large language models (LLMs) using multiple-choice surveys and questionnaires. Most of this work is motivated by concerns around real-world LLM applications. For example, politically-biased LLMs may subtly influence society when they are used by millions of people. Such real-world concerns, however, stand in stark contrast to the artificiality of current evaluations: real users do not typically ask LLMs survey questions."
 paper_summary: "Abstract: Much recent work seeks to evaluate values and opinions in large language models (LLMs) us- ing multiple-choice surveys and questionnaires. Most of this work is motivated by concerns around real-world  | Overview: Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models Paul Röttger1* Valentin Hofmann2,4,5* Valentina Pyatkin2 Musashi Hinck3 Hannah | Methodology: We searched Google Scholar, arXiv and the ACL Anthology using the keywords 'political compass' combined with variants of 'language model'. Ta- ble 1 s | Key Findings: Leaving be- hind the multiple-choice format complicates auto- mated evaluation, since string-matching on answer labels is no longer possible. Instead, | Conclusions: The PCT is a typical example for current con- strained approaches to evaluating values and opin- ions in LLMs. PCT evaluations are constrained by the"
 local_pdf: "[[PDFs/2024/2024-Röttger-Political Compass or Spinning Arrow.pdf]]"
-LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Zephyr"
 DATA_URL: "https://github.com/paul-rottger/llm-values-pct"
 DATE_ADDED: 20260207
 CONFERENCE: "ACL 2024"
@@ -102,7 +106,7 @@ Much recent work seeks to evaluate values and opinions in large language models 
 
 ## Data Description
 
-This paper evaluates up to 10 LLMs on the Political Compass Test (62 propositions) using constrained and unconstrained evaluation paradigms. The dataset includes model responses across multiple prompt configurations (forced and unforced multiple-choice, 10 paraphrase templates, and open-ended settings) for models including Llama2 (7b, 13b, 70b), Mistral 7b, Zephyr 7b, and GPT-3.5/GPT-4 variants.
+Evaluation framework for Political Compass Test responses from LLMs in constrained and unconstrained settings.
 
 
 ## Notes

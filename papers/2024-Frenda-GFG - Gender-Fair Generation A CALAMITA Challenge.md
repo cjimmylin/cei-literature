@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +49,13 @@ local_pdf: "[[PDFs/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Chal
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
-languages_list: "English, Italian"
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, GPT-4, LLaMa-2, Mistral"
-DATA_URL: "https://github.com/dhfbk/gfg-calamita"
+LLM_assessed: NA
+DATA_URL: "https://github.com/simonasnow/GFL-it-Dataset"
 tags: 
 abstract: "Gender-fair language aims at promoting gender equality by using terms and expressions that include all identities and avoid reinforcing gender stereotypes. Implementing gender-fair strategies is particularly challenging in heavily gender-marked languages, such as Italian. To address this, the Gender-Fair Generation challenge intends to help shift toward gender-fair language in written communication."
 CONFERENCE: "Preprint"
@@ -59,8 +64,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Bias & Fairness"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
@@ -99,7 +104,7 @@ This paper presents the Gender-Fair Generation (GFG) challenge, part of the CALA
 
 ## Data Description
 
-GFG (Gender-Fair Generation) challenge dataset for evaluating gender bias in Italian text generation. Includes occupation-based prompts testing for stereotypical gendered continuations in Italian language models. Part of CALAMITA shared task series.
+Three datasets for gender-fair language generation in Italian: GFL-it corpus (2,170 texts from University of Brescia administrative documents), GeNTE (1,500 bilingual English-Italian sentence triplets), and Neo-GATE (841 entries for neomorpheme evaluation).
 
 
 ## Detailed Summary

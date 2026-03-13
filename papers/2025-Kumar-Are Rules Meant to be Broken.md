@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ abstract: "Moral reasoning is a complex cognitive process shaped by individual e
 paper_summary: "Abstract: Moral reasoning is a complex cognitive pro- cess shaped by individual experiences and cul- tural contexts and presents unique challenges for computational analysis. While natural lan- guage processing | Overview: Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UNIMORAL Shivani Kumar University of Michigan kshivan@umich.edu David Jurgens University of Mi | Key Findings: metric, as it emphasizes semantic similarity rather than exact word matches. [I] Action Prediction 0 20 40 60 Score Arabic Chinese English Hindi Russi | Conclusions: Moral reasoning is a complex process and here we introduce UNIMORAL to unify the multiple strands of NLP research on moral reasoning. UNI- MORAL is a"
 local_pdf: "[[PDFs/2025/2025-Kumar-Are Rules Meant to be Broken.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Phi, Llama-3, DeepSeek"
+LLM_assessed: "DeepSeek, Llama-3, Phi-3"
 DATA_URL: "https://huggingface.co/datasets/shivaniku/UniMoral"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -95,7 +99,7 @@ Moral reasoning is a complex cognitive process shaped by individual experiences 
 
 ## Data Description
 
-The paper introduces UNIMORAL, a multilingual moral reasoning dataset spanning six languages (Arabic, Chinese, English, Hindi, Russian, Spanish) with 5,256 total instances of moral dilemmas annotated with action choices, ethical principles, contributing factors, and consequences. The dataset combines 144 psychologically grounded scenarios generated from seed dilemmas and 200 Reddit-based dilemmas, with crowd-sourced annotations including annotators' moral and cultural profiles via MFQ2 and Hofstede's Value Survey Module. Three LLMs (Phi-3.5-mini, Llama-3.1-8B, DeepSeek-R1-Distill Llama-8B) were benchmarked on four tasks.
+UNIMORAL is a multilingual moral reasoning dataset spanning six languages (Arabic, Chinese, English, Hindi, Russian, Spanish), integrating psychologically-grounded and social-media-derived moral dilemmas with rich annotations covering action choices, ethical principles, contributing factors, consequences, and annotators' moral and cultural profiles.
 
 
 ## Notes

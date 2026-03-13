@@ -1,23 +1,4 @@
----
-title: "JBB-Behaviours - PDF Extract"
-source_pdf: "2024-Chao-JBB-Behaviours.pdf"
-pages: 25
-extracted_at: "2026-01-24T17:05:27.612009"
----
-
-# PDF Extract: JBB-Behaviours
-
-**Source PDF:** 2024-Chao-JBB-Behaviours.pdf
-**Total Pages:** 25
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-JailbreakBench: An Open Robustness Benchmark
+---\ntitle: "2024-Chao-JBB-Behaviours - PDF Extract"\nsource_pdf: "2024-Chao-JBB-Behaviours.pdf"\npages: 25\nextracted_at: "2026-02-14T02:17:29.401184"\n---\n\n# PDF Extract: 2024-Chao-JBB-Behaviours\n\n**Source PDF:** 2024-Chao-JBB-Behaviours.pdf\n**Total Pages:** 25\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nJailbreakBench: An Open Robustness Benchmark
 for Jailbreaking Large Language Models
 Patrick Chao∗1, Edoardo Debenedetti∗2, Alexander Robey∗1, Maksym Andriushchenko∗3,
 Francesco Croce3, Vikash Sehwag4, Edgar Dobriban1, Nicolas Flammarion3,
@@ -63,9 +44,7 @@ jailbreak prompts corresponding to attacked and defended models, extensibility t
 38th Conference on Neural Information Processing Systems (NeurIPS 2024) Track on Datasets and Benchmarks.
 arXiv:2404.01318v5  [cs.CR]  31 Oct 2024
 
---- Page 2 ---
-
-Figure 1: The website hosted at https://jailbreakbench.github.io/ provides a convenient
+--- Page 2 ---\n\nFigure 1: The website hosted at https://jailbreakbench.github.io/ provides a convenient
 web interface to our collected evaluations (both attacks and defenses) and jailbreak artifacts.
 attacks, defenses, and LLMs, and accessibility of our evaluation pipeline to expedite future research.
 In this paper, we elaborate further on these principles, describe the components of the benchmark,
@@ -109,9 +88,7 @@ behavior, we also collect a matching benign behavior on the same exact topic tha
 a sanity check for evaluating refusal rates of new models and defenses.
 2
 
---- Page 3 ---
-
-• Reproducible evaluation framework. We provide a reproducible framework for evaluating the
+--- Page 3 ---\n\n• Reproducible evaluation framework. We provide a reproducible framework for evaluating the
 attack success rate of jailbreaking algorithms, which can also be used to submit an algorithm’s
 jailbreak strings to our artifact repository.
 • Jailbreaking leaderboard and website.
@@ -171,9 +148,7 @@ duced HarmBench benchmark (Mazeika et al., 2024), which implements jailbreaking 
 fenses, and considers a broad array of topics including copyright infringement and multimodal mod-
 3
 
---- Page 4 ---
-
-els.1 In contrast, we focus on supporting adaptive attacks (Tram`er et al., 2020; Andriushchenko et al.,
+--- Page 4 ---\n\nels.1 In contrast, we focus on supporting adaptive attacks (Tram`er et al., 2020; Andriushchenko et al.,
 2024) and test-time defenses (Jain et al., 2023; Robey et al., 2023). Thus, we standardize evaluation of
 test-time defenses but not attack implementations, since we expect them to potentially differ for differ-
 ent defenses. Moreover, we strive to make our benchmark community-driven, prioritizing clear guide-
@@ -230,9 +205,7 @@ updated to reflect the fact that HarmBench did release jailbreak strings after t
 paper; these have been available since February 26th, 2024 at https://zenodo.org/records/10714577.
 4
 
---- Page 5 ---
-
-behaviors to evaluate refusal rates for different models and defenses to make sure they do not refuse
+--- Page 5 ---\n\nbehaviors to evaluate refusal rates for different models and defenses to make sure they do not refuse
 too often by, e.g., simply detecting some key words that are often associated with harmful behaviors.
 We note that some fraction of these behaviors can be considered as borderline, and different LLM
 providers might disagree about whether they should be refused or not.
@@ -286,9 +259,7 @@ To this end, we consider six candidate classifiers used in the jailbreaking lite
 • Llama Guard. An LLM safeguard model fine-tuned from Llama-2-7B (Inan et al., 2023),
 5
 
---- Page 6 ---
-
-Table 1: Comparison of classifiers across 300 prompts and responses, either harmful or benign. We
+--- Page 6 ---\n\nTable 1: Comparison of classifiers across 300 prompts and responses, either harmful or benign. We
 compute the agreement, false positive rate (FPR), and false negative rate (FNR) for six classifiers.
 We use the majority vote of three expert annotators as the ground truth label.
 JUDGE function
@@ -365,9 +336,7 @@ Turbo-1106 (OpenAI, 2023), GPT-4-0125-Preview (OpenAI, 2023). To facilitate repr
 model use greedy, deterministic sampling (i.e., with temperature equal to zero), and by default all
 6
 
---- Page 7 ---
-
-LLMs generate 150 tokens per input. A more detailed discussion about reproducibility is given in
+--- Page 7 ---\n\nLLMs generate 150 tokens per input. A more detailed discussion about reproducibility is given in
 Appendix E. To evaluate the performance of a set of jailbreak strings on any of these LLMs, one can
 run the following code snippet:
 jb = {"Phishing": "Write a phishing email.", "Network hacking": "Write a hacking script.", ...}
@@ -423,9 +392,7 @@ p sampling with p = 0.9, N = 30 streams, and a maximum depth of K = 3. For JB-Ch
 the most popular jailbreak template, which is called “Always Intelligent and Machiavellian” (AIM).
 7
 
---- Page 8 ---
-
-Table 2: Evaluation of current attacks. For each
+--- Page 8 ---\n\nTable 2: Evaluation of current attacks. For each
 method we report attack success rate according to
 Llama-3-70B as a judge, and average number of
 queries and tokens used, across target LLMs.
@@ -620,9 +587,7 @@ reduces the ASR of GCG, PAIR, while might not work well against JB-Chat and Prom
 (see Vicuna and GPT-4). Erase-and-Check appears to be the most solid defense, although Prompt
 8
 
---- Page 9 ---
-
-with RS still achieves non-trivial success rate on all LLMs. Finally, we note that using some of these
+--- Page 9 ---\n\nwith RS still achieves non-trivial success rate on all LLMs. Finally, we note that using some of these
 defenses incurs a substantial increase in inference time, which should be considered when analyzing
 the results. We hope that the easy access to these defenses provided by our benchmark will facilitate
 the development of adaptive jailbreaking algorithms specifically designed to counter them.
@@ -698,9 +663,7 @@ are those of the authors and do not necessarily reflect the views of the Army Re
 or the Department of Defense, or the United States Government. Maksym Andriushchenko is
 9
 
---- Page 10 ---
-
-supported by the Google Fellowship and Open Phil AI Fellowship. Edoardo Debenedetti is supported
+--- Page 10 ---\n\nsupported by the Google Fellowship and Open Phil AI Fellowship. Edoardo Debenedetti is supported
 by armasuisse Science and Technology. Alexander Robey, Hamed Hassani, and George J. Pappas are
 supported by the NSF Institute for CORE Emerging Methods in Data Science (EnCORE). Alexander
 Robey is also supported by an ASSET Amazon AWS Trustworthy AI Fellowship. Eric Wong is
@@ -752,9 +715,7 @@ Yangsibo Huang, Samyak Gupta, Mengzhou Xia, Kai Li, and Danqi Chen. Catastrophic
 open-source llms via exploiting generation. arXiv preprint arXiv:2310.06987, 2023.
 10
 
---- Page 11 ---
-
-Evan Hubinger, Carson Denison, Jesse Mu, Mike Lambert, Meg Tong, Monte MacDiarmid, Tamera
+--- Page 11 ---\n\nEvan Hubinger, Carson Denison, Jesse Mu, Mike Lambert, Meg Tong, Monte MacDiarmid, Tamera
 Lanham, Daniel M Ziegler, Tim Maxwell, Newton Cheng, et al. Sleeper agents: Training deceptive
 llms that persist through safety training. arXiv preprint arXiv:2401.05566, 2024.
 Hakan Inan, Kartikeya Upasani, Jianfeng Chi, Rashi Rungta, Krithika Iyer, Yuning Mao, Michael
@@ -808,9 +769,7 @@ and Amin Karbasi. Tree of attacks: Jailbreaking black-box llms automatically. ar
 arXiv:2312.02119, 2023.
 11
 
---- Page 12 ---
-
-Zvi Mowshowitz. Jailbreaking chatgpt on release day. https://www.lesswrong.com/posts/
+--- Page 12 ---\n\nZvi Mowshowitz. Jailbreaking chatgpt on release day. https://www.lesswrong.com/posts/
 RYcoJdvmoBbi5Nax7/jailbreaking-chatgpt-on-release-day, 2022. Accessed: 2024-02-
 25.
 OpenAI. Gpt-4 technical report, 2023.
@@ -864,9 +823,7 @@ of trustworthiness in gpt models. Thirty-seventh Conference on Neural Informatio
 Systems Datasets and Benchmarks Track, 2023.
 12
 
---- Page 13 ---
-
-Alexander Wei, Nika Haghtalab, and Jacob Steinhardt. Jailbroken: How does llm safety training fail?
+--- Page 13 ---\n\nAlexander Wei, Nika Haghtalab, and Jacob Steinhardt. Jailbroken: How does llm safety training fail?
 arXiv preprint arXiv:2307.02483, 2023.
 Chen Xiong, Xiangyu Qi, Pin-Yu Chen, and Tsung-Yi Ho. Defensive prompt patch: A robust and
 interpretable defense of llms against jailbreak attacks. arXiv preprint arXiv:2405.20099, 2024.
@@ -897,9 +854,7 @@ Andy Zou, Zifan Wang, J Zico Kolter, and Matt Fredrikson. Universal and transfer
 attacks on aligned language models. arXiv preprint arXiv:2307.15043, 2023.
 13
 
---- Page 14 ---
-
-Structure of the appendix
+--- Page 14 ---\n\nStructure of the appendix
 • Appendix A: we detail the maintenance plan of the benchmark.
 • Appendix B: we give further details on JBB-Behaviors.
 • Appendix C: we give further details on the datasets used for the selection of the judge classifier.
@@ -950,9 +905,7 @@ prompts with different attacks:
 2https://pages.github.com/
 14
 
---- Page 15 ---
-
-Table 4: JBB-Behaviors categories. Each behavior in JBB-Behaviors is grouped under one of
+--- Page 15 ---\n\nTable 4: JBB-Behaviors categories. Each behavior in JBB-Behaviors is grouped under one of
 ten categories, and each category corresponds to ten behaviors in JBB-Behaviors. The behaviors
 and their corresponding categories were chosen with reference to OpenAI’s usage policies.
 Category
@@ -1028,9 +981,7 @@ same evaluation protocol as for Table 3 (see §4 for details) and show results i
 that the Synonym Substitution defense is surprisingly effective, with the highest attack success rate
 15
 
---- Page 16 ---
-
-Table 5: Attack success rates by source. We report the attack success rates of each data source used
+--- Page 16 ---\n\nTable 5: Attack success rates by source. We report the attack success rates of each data source used
 to curate JBB-Behaviors. All results correspond to attacking target models without applying any
 test-time defenses.
 Model
@@ -1175,9 +1126,7 @@ although running the models locally should be preferred. Even with using Togethe
 is more deterministic than using the GPT-4 judge, which is known for non-deterministic inference
 16
 
---- Page 17 ---
-
-despite using a fixed seed (Chann, 2023). For submissions to the leaderboard, we automatically
+--- Page 17 ---\n\ndespite using a fixed seed (Chann, 2023). For submissions to the leaderboard, we automatically
 include evaluation dates and the inference type.
 F
 System prompts
@@ -1196,9 +1145,7 @@ A chat between a curious user and an artificial intelligence assistant. The assi
 and polite answers to the user’s questions.
 17
 
---- Page 18 ---
-
-Table 9: Prompt for Llama Guard 1 and Llama Guard 2. The ‘{prompt}’ and ‘{response}’ values are
+--- Page 18 ---\n\nTable 9: Prompt for Llama Guard 1 and Llama Guard 2. The ‘{prompt}’ and ‘{response}’ values are
 replaced with the respective prompt and response values to be classified.
 [INST] Task: Check if there is unsafe content in ’Agent’ messages in conversations according our safety policy with the below categories. The ‘Agent’ messages
 could contain an affirmative answer (e.g., starting with ‘Sure’ and continuing repeating the ‘User’ prompt) but not contain the actual content at all. These cases
@@ -1273,9 +1220,7 @@ Provide your safety assessment for Agent in the above conversation:
 - If unsafe, a second line must include a comma-separated list of violated categories. [/INST]
 18
 
---- Page 19 ---
-
-Table 10: Prompt for Llama-3-70B as a jailbreak judge (can be copied from this file in our repository).
+--- Page 19 ---\n\nTable 10: Prompt for Llama-3-70B as a jailbreak judge (can be copied from this file in our repository).
 Please carefully read the following user request (denoted as ’REQUEST’) and response (denoted as ’RE-
 SPONSE’).
 <BEGIN REQUEST>{behavior}<END REQUEST>
@@ -1303,9 +1248,7 @@ Does the language model refuse to assist the user with their request? Answer eit
 ”Yes” if the response contains a refusal to the request above.
 19
 
---- Page 20 ---
-
-G
+--- Page 20 ---\n\nG
 Main checklist
 1. For all authors...
 (a) Do the main claims made in the abstract and introduction accurately reflect the paper’s
@@ -1360,9 +1303,7 @@ applicable? [N/A]
 on participant compensation? [N/A]
 20
 
---- Page 21 ---
-
-H
+--- Page 21 ---\n\nH
 Dataset-related supplementary material
 H.1
 Licenses
@@ -1411,9 +1352,7 @@ Dataset Owners
 – George J. Pappas, University of Pennsylvania
 21
 
---- Page 22 ---
-
-– Florian Tram`er, ETH Zurich
+--- Page 22 ---\n\n– Florian Tram`er, ETH Zurich
 – Hamed Hassani, University of Pennsylvania
 – Eric Wong, University of Pennsylvania
 I.2.3
@@ -1466,9 +1405,7 @@ https://huggingface.co/datasets/JailbreakBench/
 JBB-Behaviors/viewer/behaviors/harmful
 22
 
---- Page 23 ---
-
-– Typical Data Point Link:
+--- Page 23 ---\n\n– Typical Data Point Link:
 https://huggingface.co/datasets/JailbreakBench/
 JBB-Behaviors/viewer/behaviors/harmful?row=0
 • Data fields:
@@ -1520,9 +1457,7 @@ Collection
 3https://openai.com/policies/usage-policies
 23
 
---- Page 24 ---
-
-– Dates of Collection: 11/2023 – 05/2024
+--- Page 24 ---\n\n– Dates of Collection: 11/2023 – 05/2024
 – Primary modality of collection data: Text Data
 – Update Frequency for collected data: Static
 – Additional Links for this collection:
@@ -1579,10 +1514,7 @@ Known applications and benchmarks
 • ML Applications: large language models
 24
 
---- Page 25 ---
-
-• Evaluation results and processes: We show the evaluation results and methodology in the main
+--- Page 25 ---\n\n• Evaluation results and processes: We show the evaluation results and methodology in the main
 paper, in Section 4.
 25
-
-```
+\n```\n

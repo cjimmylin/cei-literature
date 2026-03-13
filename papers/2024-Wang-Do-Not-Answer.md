@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ tags:
 abstract: "With the rapid evolution of large language models (LLMs), new and hard-to-predict harmful capabilities are emerging. This requires developers to identify potential risks through the evaluation of “dangerous capabilities” in order to responsibly deploy LLMs. Here we aim to facilitate this process. In particular, we collect an open-source dataset to evaluate the safeguards in LLMs, to facilitate the deployment of safer open-source LLMs at a low cost."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, ChatGPT, Claude, Vicuna, Llama-2, BERT"
+LLM_assessed: "GPT-4, ChatGPT, Claude, Vicuna, Llama-2, ChatGLM"
 DATA_URL: "https://github.com/Libr-AI/do-not-answer"
 pdf_extract: "PDF Extracts/2024/2024-Wang-Do-Not-Answer.md"
 local_pdf: "[[PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]"
@@ -62,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -84,7 +88,7 @@ With the rapid evolution of large language models (LLMs), new and hard-to-predic
 
 ## Data Description
 
-Do-Not-Answer is an open-source dataset for evaluating safeguards in LLMs, consisting of 939 risky prompts curated and filtered to include only instructions that responsible language models should not follow. The dataset covers a three-level hierarchical risk taxonomy with 5 top-level risk areas, 12 harm types, and 61 specific risk types. It includes 5,634 responses from six LLMs with manual harmfulness annotations and six-category response pattern labels.
+Do-Not-Answer: an open-source dataset of instructions that responsible LLMs should refuse to follow, used to evaluate safeguards in six LLMs. Also includes a BERT-style automatic safety classifier.
 
 
 ## Notes

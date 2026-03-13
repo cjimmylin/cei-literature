@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ paper_summary: "Abstract: As generative AI models become increasingly integrated
 local_pdf: "[[PDFs/2025/2025-Neuman-Auditing the Ethical Logic of Generative AI Models.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama, Claude, Mistral, DeepSeek"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, LLaMA, Llama-3, Mistral"
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

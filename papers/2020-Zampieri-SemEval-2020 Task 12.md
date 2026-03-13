@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +42,8 @@ last_author: "[[Çöltekin, Çağrı]]"
 authors: "Zampieri, Marcos; Nakov, Preslav; Rosenthal, Sara; Atanasova, Pepa; Karadzhov, Georgi; Mubarak, Hamdy; Derczynski, Leon; Pitenis, Zeses; Çöltekin, Çağrı"
 url: "https://aclanthology.org/2020.semeval-1.188/"
 external_pdf: "https://aclanthology.org/2020.semeval-1.188.pdf"
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Danish, Greek, Turkish"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Arabic, Danish, English, Greek, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -53,16 +57,16 @@ pdf_extract: "PDF Extracts/2020/2020-Zampieri-SemEval-2020 Task 12.md"
 local_pdf: "[[PDFs/2020/2020-Zampieri-SemEval-2020 Task 12.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-2, XLNet, ELMo"
-DATA_URL: "http://sites.google.com/site/offensevalsharedtask/home"
+LLM_assessed: NA
+DATA_URL: "https://sites.google.com/site/offensevalsharedtask/home"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -83,7 +87,7 @@ We present the results and the main findings of SemEval-2020 Task 12 on Multilin
 
 ## Data Description
 
-The OffensEval-2020 shared task provides datasets for multilingual offensive language identification in five languages: Arabic, Danish, English, Greek, and Turkish. The English dataset (SOLID) contains over 9 million tweets annotated semi-supervisedly across three hierarchical subtasks (offensive language detection, offense type categorization, and target identification). Across all languages, datasets range from approximately 3,000 to 35,000 tweets, with 528 teams registered and 145 submitting official runs.
+OffensEval-2020 multilingual offensive language datasets in five languages (Arabic, Danish, English, Greek, Turkish) following the OLID annotation schema, including SOLID with 9M+ semi-supervised English tweets.
 
 
 ## Notes

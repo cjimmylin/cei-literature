@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: AI models are increasingly prevalent in high-stakes en
 local_pdf: "[[PDFs/2024/2024-Reuel-BetterBench.pdf]]"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "Alpaca, ChatGPT, Claude-3, Claude., Codex, GPT-4, Gemini, Llama"
+LLM_assessed: NA
 DATA_URL: "https://betterbench.stanford.edu"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -63,8 +67,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
@@ -95,7 +99,7 @@ AI models are increasingly prevalent in high-stakes environments, necessitating 
 
 ## Data Description
 
-This paper presents an assessment framework with 46 best practices across the AI benchmark lifecycle and evaluates 24 AI benchmarks (16 foundation model and 8 non-foundation model benchmarks) against it. The assessment covers benchmark design, implementation, documentation, and maintenance stages, providing scores and a checklist for minimum quality assurance.
+A benchmark assessment framework evaluating 24 AI benchmarks against 46 quality criteria across the benchmark lifecycle, with a living repository of benchmark assessments.
 
 
 ## Notes

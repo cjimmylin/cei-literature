@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "LLMs are known to exhibit sycophancy: agreeing with and flattering users, even at the cost of correctness. Prior work measures sycophancy only as direct agreement with users’ explicitly stated beliefs that can be compared to a ground truth. This fails to capture broader forms of sycophancy such as affirming a user’s self-image or other implicit beliefs. To address this gap, we introduce social sycophancy, characterizing sycophancy as excessive preservation of a user’s face (their desired..."
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-3, Llama, Mistral, DeepSeek, Qwen"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, GPT-5, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/myracheng/elephant"
 CONFERENCE: "Preprint"
 eleutherai: incorporated

@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +63,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Question Answering Systems Chatbots Generative Artificial Intelligence Large Language Model Retrieval Augmented Generation Religious teachings can sometimes be complex and challenging to grasp, but chatbots can serve as effective assistants in this domain. Large Language Model (LLM) based chatbots, powered by Natural Language Processing (NLP), can connect related topics and provide wellsupported responses to intricate questions, making them valuable tools for religious education."
-LLM_assessed: "ChatGPT, DeepSeek, Gemma, Llama, Mistral, Qwen"
+LLM_assessed: "GPT-3.5"
 DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: "Journal"
@@ -68,8 +73,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---
@@ -104,7 +109,8 @@ Vector database of fundamental Islamic texts (Turkish translations and interpret
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, DeepSeek, Gemma, Llama, Mistral, Qwen. No high-confidence repository-style data URL was identified.
+MufassirQAS builds a RAG knowledge base from Turkish translations and interpretations of the Quran (Kuran Yolu), Kutub-i Sitte (six hadith collections), and Islamic Catechism (Islam Ilmihali). The system is evaluated against ChatGPT (GPT-3.5-Turbo) on sensitive religious questions.
+
 
 ## Notes
 

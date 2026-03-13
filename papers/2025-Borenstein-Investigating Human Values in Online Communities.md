@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +46,8 @@ CONF-CC: "NAACL 2025"
 local_pdf: "[[PDFs/2025/2025-Borenstein-Investigating Human Values in Online Communities.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Borenstein-Investigating Human Values in Online Communities.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "American, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Cross-cultural, Various"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -63,7 +65,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---

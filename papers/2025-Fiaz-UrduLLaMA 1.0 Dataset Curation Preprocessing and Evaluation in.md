@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ local_pdf: "[[PDFs/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing a
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Pakistani"
-languages_list: Urdu
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BLOOMZ, ChatGPT, Dolly, GPT-3, GPT-3.5-turbo, Llama, LLaMA 2, LLaMA 3, Llama-3.1, MISTRAL-X, Mistral 7B"
-DATA_URL: "https://github.com/huggingface/peft"
+LLM_assessed: "Llama-3"
+DATA_URL: NA
 tags: 
 abstract: "Multilingual Large Language Models (LLMs) often provide suboptimal performance on lowresource languages like Urdu. This paper introduces UrduLLaMA 1.0, a model derived from the open-source Llama-3.1-8B-Instruct architecture and continually pre-trained on 128 million Urdu tokens, capturing the rich diversity of the language. To enhance instructionfollowing and translation capabilities, we leverage Low-Rank Adaptation (LoRA) to fine tune the model on 41,000 Urdu instructions and approximately..."
 CONFERENCE: "Preprint"
@@ -98,7 +102,8 @@ Demonstrates significant performance improvements in Urdu machine translation co
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, BLOOMZ, ChatGPT, Dolly, GPT-3, GPT-3.5-turbo, Llama, LLaMA 2, LLaMA 3, Llama-3.1, MISTRAL-X, Mistral 7B. Verified dataset/resource link: https://github.com/huggingface/peft.
+Curates a 128M-token Urdu pre-training corpus plus 41,000 Urdu instruction-following pairs and ~50,000 English-Urdu translation pairs for fine-tuning UrduLLaMA 1.0. Establishes a new benchmark for Urdu LLM performance on machine translation tasks.
+
 
 ## Notes
 

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation 
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean, American"
+national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-4, Qwen2.5, RoBERTa"
+LLM_assessed: "BERT, GPT-4, Qwen-2, RoBERTa"
 DATA_URL: "https://github.com/leeyejin1231/KOTOX"
 tags: 
 abstract: "Online communication increasingly amplifies toxic language, and recent research actively explores methods for detecting and rewriting such content. Existing studies primarily focus on non-obfuscated text, which limits robustness in the situation where users intentionally disguise toxic expressions. In particular, Korean allows toxic expressions to be easily disguised through its agglutinative characteristic."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -99,7 +103,8 @@ First dataset supporting both deobfuscation and detoxification for Korean. 6.9K 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4, Qwen2.5, RoBERTa. Verified dataset/resource link: https://github.com/leeyejin1231/KOTOX.
+KOTOX: ~6.9K Korean neutral-toxic paired sentences with obfuscated counterparts using 17 transformation rules across 5 linguistic categories (phonological, iconological, transliteration, syntactic, pragmatic), supporting three tasks: obfuscated toxic text classification, neutral text deobfuscation, and obfuscated toxic text sanitization.
+
 
 ## Notes
 

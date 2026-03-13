@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2024/2024-Pires-Sabiá-2 A New Generation of Portuguese Large
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "American, Brazilian"
+national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
-languages_list: Portuguese
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude 3 Sonnet, Claude 3, Claude 3 Opus, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, Mistral Medium, Mistral large"
+LLM_assessed: "Claude-3 Opus, Claude-3 Sonnet, GPT-3.5, GPT-4, Gemini, Mistral"
 DATA_URL: "NA"
 tags: 
 abstract: "We introduce Sabi´a-2, a family of large language models trained on Portuguese texts. The models are evaluated on a diverse range of exams, including entry-level tests for Brazilian universities, professional certification exams, and graduate-level exams for various disciplines such as accounting, economics, engineering, law and medicine. Our results reveal that our best model so far, Sabi´a-2 Medium, matches or surpasses GPT4’s performance in 23 out of 64 exams and outperforms GPT-3."
@@ -62,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"

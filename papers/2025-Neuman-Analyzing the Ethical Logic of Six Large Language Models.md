@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ abstract: "This study examines the ethical reasoning of six prominent generative
 paper_summary: "Abstract: This study examines the ethical reasoning of six prominent generative large language models: OpenAI's GPT-4o, Meta's LLaMA 3.1, Perplexity, Anthropic's Claude 3.5 Sonnet, Google's Gemini, and Mistral  | Overview: Analyzing the Ethical Logic of Six Large Language Models W. Russell Neuman Chad Coleman Manan Shah New York University New York University New York University wrn210@nyu.edu cjc652@nyu.edu ms15037@nyu | Methodology: is analyzed through three established ethical typologies: the consequentialist- deontological analytic, Moral Foundations Theory, and Kohlberg's Stage"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-LLM_assessed: "GPT-4, Llama, Claude, Mistral"
+LLM_assessed: "Claude, Gemini, GPT-4o, LLaMA, Llama-3, Mistral"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 CONFERENCE: "Preprint"
@@ -63,7 +67,7 @@ deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 ---

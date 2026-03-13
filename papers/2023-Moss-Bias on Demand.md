@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ tags:
 abstract: "Recommendation systems increasingly depend on massive humanlabeled datasets; however, the human annotators hired to generate these labels increasingly come from homogeneous backgrounds. This poses an issue when downstream predictive models—based on these labels—are applied globally to a heterogeneous set of users. We study this disconnect with respect to the labels themselves, asking whether they are “consistently conceptualized” across annotators of different demographics."
 CONF-CC: "FAccT 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT"
+LLM_assessed: NA
 DATA_URL: "https://github.com/koenecke/crosscultural_labelconsistency/"
 pdf_extract: "PDF Extracts/2023/2023-Moss-Bias on Demand.md"
 local_pdf: "[[PDFs/2023/2023-Moss-Bias on Demand.pdf]]"
@@ -147,7 +151,7 @@ The paper concludes that practitioners should consider global inclusivity from t
 
 ## Data Description
 
-The dataset consists of a survey of 5,174 Xbox gamers across 16 countries and 9 languages who annotated 11 popular video games using 28 labels. The study uses multilevel regression and post-stratification (MRP) to evaluate cross-cultural consistency of human-annotated labels for recommendation systems, focusing on 280 game-label pairs.
+Survey dataset of 5,174 Xbox gamers across 16 countries and 9 languages annotating video game labels, used to audit cross-cultural consistency of human annotations for recommendation systems.
 
 
 ## Notes

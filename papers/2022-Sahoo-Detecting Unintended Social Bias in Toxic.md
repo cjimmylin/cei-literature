@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -102,7 +105,7 @@ With the rise of online hate speech, automatic detection of Hate Speech, Offensi
 
 ## Data Description
 
-ToxicBias is a manually annotated dataset of 5,409 instances curated from the Jigsaw Unintended Bias in Toxicity Classification dataset, annotated for social bias detection across five categories: gender, race/ethnicity, religion, political, and LGBTQ. Each instance includes bias labels, target group annotations, and free-text bias implications. BERT and GPT-2 transformer models were trained and evaluated for bias identification, category detection, and target generation tasks.
+ToxicBias: 5,409 annotated instances for social bias detection in toxic language with 5 bias categories (gender, race/ethnicity, religion, political, LGBTQ).
 
 
 ## Notes

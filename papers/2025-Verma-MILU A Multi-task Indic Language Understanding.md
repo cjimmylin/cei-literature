@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Evaluating Large Language Models (LLMs) in low-resource and linguistically diverse languages remains a significant challenge in NLP, particularly for languages using non-Latin scripts like those spoken in India. Existing benchmarks predominantly focus on English, leaving substantial gaps in assessing LLM capabilities in these languages. We introduce MILU—Multi-task Indic Language Understanding Benchmark—a comprehensive evaluation benchmark designed to address this gap."
-LLM_assessed: "Claude-3, GEMMA, GEMMA-2, GPT-4o, GPT-4O-MINI, GPT-4, Llama, Llama-2, LLAMA-3.1, LLAMA-3.2, LLAMA2, LLAMA3, Llama-3"
+LLM_assessed: "Claude-3, GPT-4o, GPT-4o mini, Gemini, Gemma, Gemma-2, LLaMA, Llama-2, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/ai4bharat/MILU"
 research_topic: "Machine Learning"
 CONFERENCE: "NAACL 2025"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,8 @@ Comprehensive evaluation benchmark spanning 8 domains and 41 subjects across 11 
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude-3, GEMMA, GEMMA-2, GPT-4o, GPT-4O-MINI, GPT-4, Llama, Llama-2, LLAMA-3.1, LLAMA-3.2, LLAMA2, LLAMA3, Llama-3. Verified dataset/resource link: https://huggingface.co/datasets/ai4bharat/MILU.
+MILU (Multi-task Indic Language Understanding Benchmark) spans 8 domains and 41 subjects across 11 Indic languages with approximately 85,000 multiple-choice questions, sourced from over 1,500 competitive exams in India. It is designed to evaluate both linguistic and cultural knowledge including local history, arts, festivals, and laws.
+
 
 ## Notes
 

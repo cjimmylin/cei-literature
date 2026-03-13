@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "SAGE Journals / Theory, Culture & Society"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Japanese, Shinto"
+national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: ""
-religious_values: Shinto
+religious_values: "Shinto"
 religious_values_list: "Shinto"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Foundational paper on Shinto techno-animism. Deploys Japanese techno-animism as a site of theoretical experimentation, showing how Shinto cosmograms provide an alternative framework for interpreting the immanent, affective, and enabling powers of non-humans in collective life. Extends actor-network theory through Shinto perspectives."
 CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"

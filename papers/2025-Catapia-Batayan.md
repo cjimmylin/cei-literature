@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ paper_summary: "Abstract: Recent advances in large language models (LLMs) have d
 local_pdf: "[[PDFs/2025/2025-Catapia-Batayan.pdf]]"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-3, Gemma, Gemini, Mistral, Qwen"
+LLM_assessed: "Gemini, Gemma, GPT-4, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/aisingapore/sea-helm"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -94,7 +98,7 @@ Recent advances in large language models (LLMs) have demonstrated remarkable cap
 
 ## Data Description
 
-BATAYAN is a holistic Filipino NLP benchmark evaluating LLMs across 8 tasks spanning understanding, reasoning, and generation competencies, with 3,800 test instances in Tagalog and code-switched Taglish. The benchmark evaluates over 50 LLMs of varying sizes (7B-671B) including commercial systems (Gemini, GPT-4o variants) and open-source models (Llama-3 series, Gemma-SEA-LION, Mistral, Qwen, Sailor2) on tasks including paraphrase identification, question answering, sentiment analysis, toxicity detection, causal reasoning, natural language inference, abstractive summarization, and machine translation.
+BATAYAN is a holistic Filipino NLP benchmark with 8 tasks and 3,800 test instances covering understanding, reasoning, and generation, released as part of the SEA-HELM evaluation suite.
 
 
 ## Notes

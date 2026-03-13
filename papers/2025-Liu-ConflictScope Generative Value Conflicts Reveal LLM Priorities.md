@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Past work seeks to align large language model (LLM)-based assistants with a target set of values, but such assistants are frequently forced to make tradeoffs between values when deployed. In response to the scarcity of value conflict in existing alignment datasets, we introduce CONFLICTSCOPE, an automatic pipeline to evaluate how LLMs prioritize different values. Given a user-defined value set, CONFLICTSCOPE automatically generates scenarios in which a language model faces a conflict between..."
-LLM_assessed: "GPT-4o, Claude, Llama-3, Qwen, Gemma"
+LLM_assessed: "Claude-3, GPT-4o, GPT-4o mini, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/andyjliu/conflictscope"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"
@@ -98,7 +102,8 @@ Automated pipeline generating value-conflict dilemmas from user-defined value se
 
 ## Data Description
 
-CONFLICTSCOPE is an automated pipeline for generating value conflict scenarios that evaluate how LLMs prioritize different values. The dataset contains approximately 2,900 filtered scenarios across three value sets (HHH, Personal-Protective, and ModelSpec), each presenting a conflict between two sampled values. The pipeline evaluates 14 target models through both multiple-choice and open-ended evaluation settings, using Bradley-Terry preference models to elicit value rankings.
+CONFLICTSCOPE: automatically generated value-conflict scenarios for three value sets (HHH, Personal-Protective, ModelSpec), released with code for eliciting and comparing LLM value rankings via open-ended simulation-based evaluation.
+
 
 ## Notes
 

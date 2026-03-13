@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_BERBERICH2018
@@ -34,11 +36,11 @@ doi: N/A
 url: "https://arxiv.org/abs/1806.10322"
 pdf_extract: "PDF Extracts/2018/2018-Berberich-The Virtuous Machine.md"
 local_pdf: "[[PDFs/2018/2018-Berberich-The Virtuous Machine.pdf]]"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Alignment, Imitation Learning, Value Alignment Problem"
 key_contribution: "Proposes imitation learning from moral exemplars (virtue ethics concept) can solve value alignment problem; argues virtuous AI with temperance would not pose control problem"

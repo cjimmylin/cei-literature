@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,14 +53,14 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English"
-religious_values: "Buddhism"
-religious_values_list: "Buddhism"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "With the advent of large language models, machine translation (MT) has become a widely used, but little understood, tool for accessing historical and multilingual texts. While models like GPT, Claude, and Deepseek increasingly enable translation of low-resource and ancient languages, critical questions remain about their evaluation, optimal model selection, and the value of domain-specific training and retrieval-augmented generation setups."
-LLM_assessed: "ChatGPT, Claude, Claude 131, Claude 3.5, Claude 3.5 Haiku, Claude 3.5 Sonnet, Claude Sonnet, DeepSeek-AI, DeepSeek-R1, GPT 4, GPT 4 Turbo, GPT-4 Turbo, Gemma, Gemma 2, Qwen, Qwen-14B, gemma-2"
-DATA_URL: "https://aclanthology.org/2025.nlp4dh-1.12/"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Sonnet, DeepSeek, GPT-4, Gemini, Gemma-2"
+DATA_URL: "https://github.com/dharmamitra/mitra-evaluation"
 ethics_perspective: "General Ethics"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -64,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -102,7 +106,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, Claude, Claude 131, Claude 3.5, Claude 3.5 Haiku, Claude 3.5 Sonnet, Claude Sonnet, DeepSeek-AI, DeepSeek-R1, GPT 4, GPT 4 Turbo, GPT-4 Turbo, Gemma, Gemma 2, Qwen, Qwen-14B, gemma-2. Verified dataset/resource link: https://aclanthology.org/2025.nlp4dh-1.12/.
+Introduces MITRA-zh-eval, a comprehensive evaluation dataset of 2,662 Buddhist Chinese–English bilingual data points drawn from 32 canonical texts, accompanied by expert human translation quality annotations for 182 machine-generated translations.
+
 
 ## Notes
 

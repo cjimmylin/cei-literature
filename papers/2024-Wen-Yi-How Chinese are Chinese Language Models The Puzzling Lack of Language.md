@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +47,7 @@ local_pdf:
 "N/A"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese minority languages, Kazakh, Tibetan"
+cultures_nationalities_list: "Chinese"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"

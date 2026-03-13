@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +46,8 @@ CONF-CC: "N/A"
 local_pdf: "[[PDFs/2025/2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Global Indigenous, Latin American Indigenous"
+national_ethnic_cultural: "Latin American, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Latin American, Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
@@ -62,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

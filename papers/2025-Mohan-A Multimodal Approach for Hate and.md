@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +50,8 @@ local_pdf: N/A
 publication: "WebSearch: Tamil hate speech multimodal"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indian, Tamil"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Tamil"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -101,7 +104,7 @@ Multimodal dataset comprising videos with audio and textual transcripts annotate
 
 ## Data Description
 
-This paper presents a multimodal dataset for Tamil hate speech and offensive language detection, combining text and images. The approach uses traditional ML and deep learning classifiers (not LLMs). No dataset or code repository URL was identified from the available metadata.
+First multimodal hate speech dataset for Tamil, comprising videos with audio and textual transcripts annotated for four categories: offensive, sexist, racist, and casteist content.
 
 
 ## Notes

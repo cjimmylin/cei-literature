@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +48,8 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kurdish"
-languages_list: Kurdish
+cultures_nationalities_list: "N/A"
+languages_list: "Kurdish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -97,7 +100,8 @@ Kurdish Semantic Textual Similarity benchmark dataset with meticulous data colle
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+KurdSTS is the first semantic textual similarity dataset for Kurdish, containing 10,000 formal and informal sentence pairs annotated for similarity, used to benchmark multilingual BERT and Sentence-BERT models.
+
 
 ## Notes
 

@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,16 +51,16 @@ local_pdf: "[[PDFs/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medi
 publication: "Muslims in Machine Learning Workshop at ICML 2025 / arXiv"
 CONF-CC: "ICML 2025 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Islamic, Arabic"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Centuries-old Islamic medical texts like Avicenna’s Canon of Medicine and the Prophetic Tibb-e-Nabawi, encode a wealth of preventive care, nutrition, and holistic therapies, yet remain inaccessible to many and underutilized in modern AI systems. Existing language-model benchmarks focus narrowly on factual recall or user preference, leaving a gap in validating culturally grounded medical guidance at scale."
-LLM_assessed: "Claude, Claude-4, GPT4, Llama-3, Mistral 7b, Mistral- 7B, Mistral-7B, Qwen-7B, Qwen2, llama 3"
+LLM_assessed: "Claude, Gemini, GPT-4, Llama-3, Mistral, Qwen-2"
 DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "ICML 2025"

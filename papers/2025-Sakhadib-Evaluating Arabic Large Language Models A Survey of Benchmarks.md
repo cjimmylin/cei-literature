@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2025/2025-Sakhadib-Evaluating Arabic Large Language Models A 
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
-languages_list: Arabic
+languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BLOOMZ, ChatGPT, Claude, Claude-3-opus, DeepSeek V3, Falcon-Arabic, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Llama, PALM, Qwen3, claude."
-DATA_URL: "https://huggingface.co/spaces/OALL"
+LLM_assessed: NA
+DATA_URL: "https://github.com/tiiuae/Arabic-LLM-Benchmarks"
 tags: 
 abstract: "This survey provides the first systematic review of Arabic LLM benchmarks, analyzing 40+ evaluation benchmarks across NLP tasks, knowledge domains, cultural understanding, and specialized capabilities. We propose a taxonomy organizing benchmarks into four categories: Knowledge, NLP Tasks, Culture and Dialects, and Target-Specific evaluations. Our analysis reveals significant progress in benchmark diversity while identifying critical gaps: limited temporal evaluation, insufficient multiturn..."
 CONFERENCE: "Preprint"
@@ -61,9 +65,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
 ---

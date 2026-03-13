@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +43,7 @@ authors: Akpobi; Maro
 url: "https://aclanthology.org/2025.africanlp-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ULDM59EJ/2025 - Yankari Monolingual Yoruba Dataset.pdf"
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Nigerian"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -64,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"

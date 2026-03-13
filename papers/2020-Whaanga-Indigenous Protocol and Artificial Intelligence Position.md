@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,11 +55,11 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 publication: "The Indigenous Protocol and Artificial Intelligence Working Group / CIFAR"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Māori, Indigenous Australian, Indigenous North American, Indigenous Pacific"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 tags: 
@@ -70,7 +73,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"

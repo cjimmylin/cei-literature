@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +44,7 @@ doi: 10.48550/arXiv.2509.21443
 url: "https://arxiv.org/abs/2509.21443"
 external_pdf: "https://arxiv.org/pdf/2509.21443.pdf"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Chinese, German, Indian, Spanish, Pakistani"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Chinese, English, German, Hindi, Spanish, Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -52,7 +56,7 @@ pdf_extract: "PDF Extracts/2025/2025-Farid-One Model, Many Morals.md"
 abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual and multicultural environments where moral reasoning is essential for generating ethically appropriate responses. Yet, the dominant pretraining of LLMs on Englishlanguage data raises critical concerns about their ability to generalize judgments across diverse linguistic and cultural contexts. In this work, we systematically investigate how language mediates moral decision-making in LLMs."
 paper_summary: "Abstract: Large Language Models (LLMs) are increasingly deployed in multilingual and multicultural environments where moral reasoning is essential for generating eth- ically appropriate responses. Yet, the domi | Overview: ONE MODEL, MANY MORALS: UNCOVERING CROSS-LINGUISTIC MISALIGNMENTS IN COMPUTATIONAL MORAL REASONING Sualeha Farid, Jayden Lin∗, Zean Chen∗, Shivani Kumar, & David Jurgens University of Michigan, Ann Ar | Methodology: to extracting moral intuitions from text. Behavior research methods, 53(1):232–246, 2021. Jianchao Ji, Yutong Chen, Mingyu Jin, Wujiang Xu, Wenyue Hua | Key Findings: Gather Information Consequence Weighing Ethical Framework Application Intent Evaluation Principle Prioritization Option Generation Scenario Simulation | Conclusions: We present a comprehensive multilingual evaluation of moral reasoning in LLMs, translating two es- tablished benchmarks into five diverse non-English"
 local_pdf: "[[PDFs/2025/2025-Farid-One Model, Many Morals.pdf]]"
-LLM_assessed: "Qwen, Llama-3, Llama-3, Mistral, DeepSeek, Phi"
+LLM_assessed: "DeepSeek, Llama-3, Mistral, Phi, Qwen"
 DATA_URL: "https://github.com/sualehafarid/moral-project"
 publication: "ICLR 2026"
 CONF-CC: "ICLR 2026"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -89,7 +93,7 @@ Large Language Models (LLMs) are increasingly deployed in multilingual and multi
 
 ## Data Description
 
-This study constructs a multilingual moral reasoning benchmark by translating MoralExceptQA (148 scenarios) and ETHICS (130k+ scenarios across five moral dimensions) into five languages (Chinese, German, Hindi, Spanish, Urdu). Seven LLMs of various sizes are evaluated in zero-shot settings across these languages to analyze cross-linguistic moral reasoning inconsistencies. The dataset and code are available on GitHub.
+Multilingual translations of two established moral reasoning benchmarks (MoralExceptQA and ETHICS) into five languages — Chinese, German, Hindi, Spanish, and Urdu — enabling zero-shot cross-linguistic evaluation of LLM moral reasoning.
 
 
 ## Notes

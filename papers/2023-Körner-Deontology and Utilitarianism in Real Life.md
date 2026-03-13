@@ -22,6 +22,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +41,7 @@ url: "https://journals.sagepub.com/doi/10.1177/01461672221103058"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RRZFH676/Körner and Deutsch - 2023 - Deontology and Utilitarianism in Real Life A Set of Moral Dilemmas Based on Historic Events.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Körner-Deontology and Utilitarianism in Real Life.md"
 local_pdf: "[[PDFs/2023/2023-Körner-Deontology and Utilitarianism in Real Life.pdf]]"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -52,7 +55,7 @@ abstract: "Moral dilemmas are frequently used to examine psychological processes
 pdf: "https://doi.org/10.1177/01461672221103058"
 CONF-CC: "Personality and Social Psychology Bulletin"
 DATE_ADDED: 20260208
-LLM_assessed: "Bartels"
+LLM_assessed: NA
 DATA_URL: "https://osf.io/cg5tq"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -61,7 +64,7 @@ deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---

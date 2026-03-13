@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +53,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The integration of large language models into healthcare necessitates a rigorous evaluation of their ethical reasoning, an area current benchmarks often overlook. We introduce PrinciplismQA, a comprehensive benchmark with 3,648 questions designed to systematically assess LLMs’ alignment with core medical ethics. Grounded in Principlism, our benchmark features a high-quality dataset. This includes multiple-choice questions curated from authoritative textbooks and openended questions sourced from..."
-LLM_assessed: "GPT-4, Claude, Gemma, Llama-3, Qwen, DeepSeek"
+LLM_assessed: "Claude, DeepSeek, GPT-4, Gemini, Gemma, Llama-3, Qwen, o1, o3"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 CONFERENCE: "Preprint"
@@ -93,7 +97,8 @@ PrinciplismQA benchmark: 3,648 questions total
 
 ## Data Description
 
-PrinciplismQA is a comprehensive medical ethics benchmark with 3,648 questions (2,182 multiple-choice and 1,466 open-ended) designed to assess LLMs' alignment with the four core principles of medical ethics (Autonomy, Non-Maleficence, Beneficence, Justice). Over 20 models were evaluated including GPT-4.1, o3, o3-mini, Claude Sonnet 4, Gemini 2.5 Flash, DeepSeek-V3, DeepSeek-R1, Llama-3.1, Qwen2.5, Gemma3, and several medical LLMs (HuatuoGPT-o1, Med42, MedGemma).
+PrinciplismQA is a medical ethics benchmark of 3,648 questions (2,182 MCQAs from 350 textbooks + 1,466 open-ended cases from JAMA Journal of Ethics), validated by 12 medical experts and annotated across four Principlism principles.
+
 
 ## Notes
 

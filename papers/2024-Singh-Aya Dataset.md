@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +42,8 @@ last_author: "[[Sara Hooker]]"
 authors: "Ahmet Üstün; Viraat Aryabumi; Zheng-Xin Yong; Wei-Yin Ko; Daniel D'souza; Gbemileke Onilude; Neel Bhandari; Shivalika Singh; Hui-Lee Ooi; Amr Kayid; Freddie Vargus; Phil Blunsom; Shayne Longpre; Niklas Muennighoff; Marzieh Fadaee; Julia Kreutzer; Sara Hooker"
 url: "https://arxiv.org/abs/2402.07827"
 external_pdf: "https://arxiv.org/pdf/2402.07827.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ paper_summary: "Abstract: Recent breakthroughs in large language models (LLMs) h
 local_pdf: "[[PDFs/2024/2024-Singh-Aya Dataset.pdf]]"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260208
-LLM_assessed: BLOOM
+LLM_assessed: "Aya, BLOOM"
 DATA_URL: "https://hf.co/CohereForAI/aya-101"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -62,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for toxicity detection"
@@ -94,7 +98,7 @@ Recent breakthroughs in large language models (LLMs) have centered around a hand
 
 ## Data Description
 
-The paper introduces the Aya model and associated multilingual instruction finetuning datasets covering 101 languages. The training mixture includes xP3x (168M examples), Aya Collection (templated, translated, and human-annotated data totaling 513M instances), Data Provenance Collection (1.65M examples), and ShareGPT-Command (6.8M synthetic examples). The Aya Dataset specifically contains 204K human-curated prompt-response pairs across 65 languages, and evaluation spans discriminative tasks, generative tasks, human evaluation, and safety assessments across 99 languages.
+Releases the Aya-101 multilingual instruction-finetuned model covering 101 languages, along with the Aya instruction dataset of 204K human-curated prompt-response pairs in 65 languages. Also introduces extensive new multilingual evaluation suites across 99 languages.
 
 
 ## Notes

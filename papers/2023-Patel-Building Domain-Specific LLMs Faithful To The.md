@@ -28,6 +28,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +52,8 @@ local_pdf: "[[PDFs/2023/2023-Patel-Building Domain-Specific LLMs Faithful To The
 publication: "Muslims in ML Workshop at NeurIPS 2023 / arXiv"
 CONF-CC: "NeurIPS 2023 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -56,7 +61,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable performance across numerous natural language understanding use cases. However, this impressive performance comes with inherent limitations, such as the tendency to perpetuate stereotypical biases or fabricate non-existent facts. In the context of Islam and its representation, accurate and factual representation of its beliefs and teachings rooted in the Quran and Sunnah is key."
-LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5 turbo, GPT-4, Llama"
+LLM_assessed: "GPT-3.5, GPT-4, LLaMA"
 DATA_URL: "https://github.com/shabazpatel/domain-specific-llm"
 CONFERENCE: "NeurIPS 2023"
 ethics_overall: "No"
@@ -65,8 +70,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---
@@ -102,7 +107,8 @@ N/A (framework paper)
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5, GPT-3.5 turbo, GPT-4, Llama. Verified dataset/resource link: https://github.com/shabazpatel/domain-specific-llm.
+Framework and evaluation methodology for building domain-specific LLMs aligned with Islamic worldview, including few-shot prompting experiments.
+
 
 ## Notes
 

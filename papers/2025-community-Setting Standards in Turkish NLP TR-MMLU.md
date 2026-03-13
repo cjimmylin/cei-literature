@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: arxiv.org
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,17 +59,17 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Language models have made remarkable advancements in understanding and generating human language, achieving notable success across a wide array of applications. However, evaluating these models remains a signiﬁcant challenge, particularly for resource-limited languages such as Turkish. To address this gap, we introduce the Turkish MMLU (TR-MMLU) benchmark, a comprehensive evaluation framework designed to assess the linguistic and conceptual capabilities of large language models (LLMs) in Turkish."
-LLM_assessed: "BERT, Claude, ELECTRA, GPT-4, Gemma, Llama, claude-3.5, claude-3.5 Sonnet, gemma2, GPT-4o, llama 70., llama3.1, llama3.3"
-DATA_URL: "NA"
+LLM_assessed: "Claude, Gemini, Gemma-2, GPT-4o, Llama-3"
+DATA_URL: "https://huggingface.co/spaces/malhajar"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Claude, ELECTRA, GPT-4, Gemma, Llama, claude-3.5, claude-3.5 Sonnet, gemma2, GPT-4o, llama 70., llama3.1, llama3.3. No high-confidence repository-style data URL was identified.
+TR-MMLU: 6,200 Turkish multiple-choice questions across 62 categories derived from the Turkish education system (university entrance exams, AUZEF, KPSS, TUS, driver's license tests), released on Hugging Face as three datasets: overall leaderboard, section results, and model responses.
+
 
 ## Notes
 

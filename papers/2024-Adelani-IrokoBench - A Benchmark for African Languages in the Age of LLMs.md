@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,8 @@ local_pdf: "[[PDFs/2024/2024-Adelani-IrokoBench - A Benchmark for African Langua
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "African/Ubuntu, French"
-cultures_nationalities_list: "African"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Despite the widespread adoption of Large language models (LLMs), their remarkable capabilities remain limited to a few high-resource languages. Additionally, many low-resource languages (e.g., African languages) are often evaluated only on basic text classification tasks due to the lack of appropriate or comprehensive benchmarks outside of highresource languages. In this paper, we introduce IrokoBench—a human-translated benchmark dataset for 17 typologically-diverse lowresource African..."
-LLM_assessed: "GPT-4, GPT-3.5, Gemma, Claude, Llama-3, BLOOM"
+LLM_assessed: "BLOOM, Claude, Command-R, Gemma-2, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Llama-3, Aya, Alpaca, T5"
 DATA_URL: "NA"
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
@@ -98,7 +102,8 @@ Despite the widespread adoption of Large language models (LLMs), their remarkabl
 
 ## Data Description
 
-IrokoBench is a human-translated benchmark dataset for 17 typologically diverse low-resource African languages covering three tasks: natural language inference (AfriXNLI), mathematical reasoning (AfriMGSM), and multi-choice knowledge-based QA (AfriMMLU). The benchmark evaluates 10 open LLMs (including BLOOMZ 7B, Gemma 2, LLaMa 3/3.1, Aya-101, Command-R) and six proprietary models (GPT-3.5, GPT-4-Turbo, GPT-4o-mini, GPT-4o, Gemini-1.5-Pro, Claude OPUS) in zero-shot, few-shot, and translate-test settings.
+IrokoBench: human-translated benchmark for 17 African languages covering NLI (AfriXNLI), math reasoning (AfriMGSM), and knowledge QA (AfriMMLU).
+
 
 ## Notes
 

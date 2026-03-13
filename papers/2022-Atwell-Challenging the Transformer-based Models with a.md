@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -101,7 +104,7 @@ Evaluates transformer models on detecting relatedness between Quran verses and H
 
 ## Data Description
 
-The paper evaluates transformer models on detecting semantic relatedness between Quran verses and Hadith teachings using a carefully curated dataset verified by religious experts. The dataset contains 310 Quran-Hadith pairs and 4,072 Quran-verse pairs (balanced related/non-related). Monolingual, bilingual, and multilingual transformer models are tested on Classical Arabic text understanding. No LLMs (in the generative sense) were tested.
+A curated dataset of Quran verse and Hadith teaching pairs verified by religious experts, used to evaluate transformer models on Classical Arabic text understanding and Islamic text relatedness detection.
 
 
 ## Notes

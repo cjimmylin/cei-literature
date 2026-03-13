@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2023/2023-Bhardwaj-Red-Teaming Large Language Models using Ch
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Vietnamese"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Chinese, English, Vietnamese"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, GPT-4, LLAMA2, Llama, Llama-2, VICUNA"
+LLM_assessed: "ChatGPT, GPT-4, Llama-2, Vicuna"
 DATA_URL: "https://github.com/declare-lab/red-instruct"
 tags: 
 abstract: "Larger language models (LLMs) have taken the world by storm with their massive multi-tasking capabilities simply by optimizing over a next-word prediction objective. With the emergence of their properties and encoded knowledge, the risk of LLMs producing harmful outputs increases, making them unfit for scalable deployment for the public. In this work, we propose a new safety evaluation benchmark RED-EVAL that carries out red-teaming."
@@ -62,8 +66,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
@@ -99,7 +103,8 @@ Red-teaming framework using Chain of Utterances (CoU) prompting. CategoricalQA d
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT, GPT-4, LLAMA2, Llama, Llama-2, VICUNA. Verified dataset/resource link: https://github.com/declare-lab/red-instruct.
+RED-EVAL safety benchmark and HARMFULQA dataset with 1,960 harmful questions, 9,536 safe (blue) and 7,356 harmful (red) conversations from ChatGPT, plus the STARLING safety-aligned model.
+
 
 ## Notes
 

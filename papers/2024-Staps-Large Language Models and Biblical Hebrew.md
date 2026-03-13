@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,16 +50,16 @@ publication: "HIPHIL Novum, 9(1), 46--55"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "Hebrew"
-religious_values: "Christianity"
-religious_values_list: "Christianity"
+religious_values: "Judaism"
+religious_values_list: "Judaism"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Researchers have been relying on computational methods to study Biblical Hebrew for a long time already. The recent improvements to and easy availability of Large Language Models (LLMs) like GPT prompt the question whether these models can be useful for our work as well. This paper tempers the expectations, showing that a critical analysis of earlier work exposes fundamental issues with methods involving GPT."
-LLM_assessed: "ChatGPT, GPT-4"
-DATA_URL: "https://huggingface.co/gngpostalsrvc/COHeN"
+LLM_assessed: "GPT-3.5, GPT-4"
+DATA_URL: NA
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"

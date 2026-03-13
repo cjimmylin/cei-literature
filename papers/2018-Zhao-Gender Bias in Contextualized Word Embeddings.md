@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ abstract: "Word embedding models have become a fundamental component in a wide r
 paper_summary: "Abstract: Word embedding models have become a fun- damental component in a wide range of Natural Language Processing (NLP) appli- cations. However, embeddings trained on human-generated corpora have been demon- | Overview: Learning Gender-Neutral Word Embeddings Jieyu Zhao Yichao Zhou Zeyu Li Wei Wang Kai-Wei Chang University of California, Los Angeles {jyzhao, yz, zyli, weiwang, kwchang}@cs.ucla.edu Abstract Word embed | Methodology: In this paper, we take GloVe (Pennington et al., 2014) as the base embedding model and gender as the protected attribute. It is worth noting that our  | Conclusions: In this paper, we introduced an algorithm for train- ing gender-neutral word embedding. Our method is general and can be applied in any language as lo"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: GloVe
+LLM_assessed: NA
 DATA_URL: "https://github.com/uclanlp/gn_glove"
 doi: 10.18653/v1/D18-1521
 CONFERENCE: "Journal"
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
@@ -98,7 +102,7 @@ Word embedding models have become a fundamental component in a wide range of Nat
 
 ## Data Description
 
-The paper proposes GN-GloVe, a gender-neutral word embedding training method, and evaluates it against standard GloVe and Hard-GloVe on multiple benchmark datasets including SemBias (a newly created 440-instance gender relational analogy dataset), word similarity tasks (WS353-ALL, RG-65, MTurk-287, MTurk-771, RW, MEN-TR-3k), word analogy tasks (Google, MSR), and coreference resolution on OntoNotes 5.0 and WinoBias. All embeddings are trained on 2017 English Wikipedia.
+GN-GloVe: Gender-Neutral GloVe word embeddings trained on Wikipedia, plus SemBias analogy evaluation dataset (440 instances) for measuring gender stereotype vs. definitional word pairs.
 
 
 ## Notes

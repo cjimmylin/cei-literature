@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ local_pdf: "[[PDFs/2023/2023-Barrett-Skin Deep.pdf]]"
 abstract: "To investigate the well-observed racial disparities in computer vision systems that analyze images of humans, researchers have turned to skin tone as more objective annotation than race metadata for fairness performance evaluations. However, the current state of skin tone annotation procedures is highly varied. For instance, researchers use a range of untested scales and skin tone categories, have unclear annotation procedures, and provide inadequate analyses of uncertainty."
 CONF-CC: "FAccT 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "ALBERT"
+LLM_assessed: NA
 DATA_URL: "https://github.com/Social-Futures-Lab/skin-deep"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -63,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---
@@ -103,7 +107,7 @@ To investigate the well-observed racial disparities in computer vision systems t
 
 ## Data Description
 
-This study investigates skin tone annotation procedures for computer vision benchmark datasets through a systematic literature review of 50 papers (2017-2022) and annotation experiments with 165 participants. The experiments varied annotation configurations including scale type (Fitzpatrick Skin Type, Monk Skin Tone), ordering of scale levels, and image type (face vs. skin patch), collecting range-based skin tone annotations to measure inter-annotator agreement and individual uncertainty.
+Code and materials for investigating subjectivity in skin tone annotations for computer vision benchmark datasets; includes annotation experiment protocols and analysis scripts.
 
 
 ## Notes

@@ -1,23 +1,4 @@
----
-title: "2025-Machlovi-GuardEval - PDF Extract"
-source_pdf: "2025-Machlovi-GuardEval.pdf"
-pages: 21
-extracted_at: "2026-02-07T17:00:47.218532"
----
-
-# PDF Extract: 2025-Machlovi-GuardEval
-
-**Source PDF:** 2025-Machlovi-GuardEval.pdf
-**Total Pages:** 21
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and
+---\ntitle: "2025-Machlovi-GuardEval - PDF Extract"\nsource_pdf: "2025-Machlovi-GuardEval.pdf"\npages: 21\nextracted_at: "2026-02-14T02:17:34.986835"\n---\n\n# PDF Extract: 2025-Machlovi-GuardEval\n\n**Source PDF:** 2025-Machlovi-GuardEval.pdf\n**Total Pages:** 21\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and
 Robustness in LLM Moderators
 NASEEM MACHLOVI, Department of Computer and Information Science, Fordham University, USA
 MARYAM SALEKI, Department of Computer and Information Science, Fordham University, USA
@@ -62,9 +43,7 @@ Manuscript submitted to ACM
 1
 arXiv:2601.03273v1  [cs.CL]  22 Dec 2025
 
---- Page 2 ---
-
-2
+--- Page 2 ---\n\n2
 Machlovi et al.
 Additional Key Words and Phrases: Biases, GemmaGuard, GuardEval, Large Language Models, Moderation, QLoRA
 ACM Reference Format:
@@ -107,9 +86,7 @@ an “accident” with the magnitude of its consequences.
 • Reliability is defined as whether a system functions as intended under expected conditions.
 Manuscript submitted to ACM
 
---- Page 3 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+--- Page 3 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
 3
 • Safety determines whether a system can avoid unacceptable outcomes, even when functioning as intended. It
 is both a state of being—freedom from unacceptable risk—and a practice dedicated to designing systems that
@@ -152,9 +129,7 @@ marginalized groups bear disproportionate burdens.
 harmful stereotypes, uses toxic or offensive language, or marginalizes certain identities by normalizing narrow
 Manuscript submitted to ACM
 
---- Page 4 ---
-
-4
+--- Page 4 ---\n\n4
 Machlovi et al.
 social norms. Inequity also arises when models perform disproportionately poorly for specific social or language
 groups.
@@ -197,9 +172,7 @@ A major limitation with existing benchmarks is that they are often narrow in sco
 yet underrepresent subtle bias, factual integrity, privacy leakage, safety-critical advice (medical/legal/financial), and
 Manuscript submitted to ACM
 
---- Page 5 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+--- Page 5 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
 5
 adversarial robustness (jailbreaks ). Labels often lack severity gradations and user-intent context, and pairing between
 PH and RH examples is sparse, limiting the ability to reason about how obscure prompts translate into risky outputs.
@@ -247,9 +220,7 @@ source datasets with varying annotation schemes and bias characteristics. Our ch
 𝑡=1 Y𝑡→Y where Y is a harmonized label space.
 Manuscript submitted to ACM
 
---- Page 6 ---
-
-6
+--- Page 6 ---\n\n6
 Machlovi et al.
 • Generalization: Train 𝑓𝜃on D such that its performance is stable across both in-domain and out-of-distribution
 instances.
@@ -294,9 +265,7 @@ by enabling fine-grained understanding through fine-tuning on benchmark datasets
 address a broader spectrum of risk categories.
 Manuscript submitted to ACM
 
---- Page 7 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+--- Page 7 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
 7
 Sentiment, Social Norm
 Hate/Offensive
@@ -336,9 +305,7 @@ scenarios, Mathew et al. [3] introduced dynamic thresholding approaches. Additio
 prominence. Sap et al. [44] proposed a structured taxonomy of ethical risks associated with abusive language detection,
 Manuscript submitted to ACM
 
---- Page 8 ---
-
-8
+--- Page 8 ---\n\n8
 Machlovi et al.
 while recent efforts by Dillon et al. [19] explored leveraging LLM-generated adversarial content to rigorously test model
 robustness.
@@ -543,9 +510,7 @@ Notably, Llama Guard3, an instruction-tuned moderation model built upon the Llam
 gorizes inputs and responses as “safe” or “unsafe” based on a predefined taxonomy covering 14 risk categories. Similarly,
 Manuscript submitted to ACM
 
---- Page 9 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+--- Page 9 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
 9
 ShieldGemma, fine-tuned on Gemma2-7B using a proprietary dataset, utilizes a comparatively limited taxonomy of only
 four safety categories. Our empirical analyses highlight substantial reliability concerns with ShieldGemma, particularly
@@ -590,9 +555,7 @@ safety policies for guardrails. We applied these policies to open-source models 
 Gemma3 due to its Gemini lineage and multimodal potential. While ShieldGemma, also derived from Gemma, offered a
 Manuscript submitted to ACM
 
---- Page 10 ---
-
-10
+--- Page 10 ---\n\n10
 Machlovi et al.
 lightweight safety framework, our evaluation showed significant degradation in label accuracy and low-confidence
 outputs under diverse prompts. To address this, we introduced combined safety instructions during fine-tuning, enabling
@@ -694,9 +657,7 @@ Ours (GGuard)
 MM
 Manuscript submitted to ACM
 
---- Page 11 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+--- Page 11 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
 11
 4.3
 Datasets Preparation
@@ -741,9 +702,7 @@ In this subsection, we detail the unification of GuardEval, which integrates 13 
 across various stages of NLP research into a single cohesive resource. This unified dataset specifically targets key
 Manuscript submitted to ACM
 
---- Page 12 ---
-
-12
+--- Page 12 ---\n\n12
 Machlovi et al.
 dimensions of unsafe content, including explicit hate speech (e.g., slurs, sexism, racism), implicit bias, harmful requests,
 jailbreak prompts, and unethical instructions, guided by established moderation frameworks such as Llama Guard and
@@ -845,9 +804,7 @@ yielding 106 subcategories (Section 4.4). This unification is a harmonization st
 retain dataset-provided annotations and do not claim new human adjudication of cross-dataset mappings. Entropy over
 Manuscript submitted to ACM
 
---- Page 13 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+--- Page 13 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
 13
 annotator distributions (Section 2.2) is employed to analyze ethically uncertain cases and model calibration, rather than
 relabeling or resolving conflicts during training. For evaluation, we report safe/unsafe results and exclude fine-grained
@@ -892,9 +849,7 @@ achieves 0.832, shown in Table 4, revealing UBS’s challenging breadth and unde
 2Hugging Face - Unsloth Gemma3-12b
 Manuscript submitted to ACM
 
---- Page 14 ---
-
-14
+--- Page 14 ---\n\n14
 Machlovi et al.
 Table 4. GGuard outperforms both open-source and proprietary models across multiple safety evaluation benchmarks. Bold values
 indicate the best F1 score per column. TOXC has only prompt labels, and Beaver has only response labels. ShieldGemma scores
@@ -1015,9 +970,7 @@ Guard3 excels on Xtest (0.904), indicating strong detection of exaggerated or ed
 underperformed for PolygloToxicity, OILD, and TweetEval, highlighting limited understanding when dealing
 Manuscript submitted to ACM
 
---- Page 15 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+--- Page 15 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
 15
 with more nuanced datasets. OpenAI leads on OLID (0.73) and PolygloToxicity (0.78), showing strong rule-based
 consistency but slightly weaker performance on TweetEval.
@@ -1228,9 +1181,7 @@ GuardEval shows similar gains over its base variant, with the most significant i
 Tails.
 Manuscript submitted to ACM
 
---- Page 16 ---
-
-16
+--- Page 16 ---\n\n16
 Machlovi et al.
 For (ii), larger-capacity models tend to realize greater absolute gains, although smaller models also benefit reliably.
 Improvements are most pronounced on datasets with nuanced or implicit unsafe content, indicating that GuardEval
@@ -1274,9 +1225,7 @@ and evaluation frameworks that measure both under-blocking and over-blocking, en
 usability.
 Manuscript submitted to ACM
 
---- Page 17 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+--- Page 17 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
 17
 Additionally, this work primarily targets English-language datasets. There has been limited exploration of the
 model’s performance across different languages, which poses challenges for global applicability. Given the increasing
@@ -1319,9 +1268,7 @@ tools should be co-developed with marginalized communities to capture the full s
 and intersectional biases, leading to more equitable, accurate, and culturally aware moderation systems.
 Manuscript submitted to ACM
 
---- Page 18 ---
-
-18
+--- Page 18 ---\n\n18
 Machlovi et al.
 Acknowledgments
 Research reported in this publication was supported by the Qatar Research Development and Innovation Council grant
@@ -1376,9 +1323,7 @@ evaluation of neural toxic degeneration in large language models. arXiv preprint
 Towards improved safety alignment of LLM via a human-preference dataset. Advances in Neural Information Processing Systems (2023).
 Manuscript submitted to ACM
 
---- Page 19 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+--- Page 19 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
 19
 [22] Jiaming Ji, Mickel Liu, Juntao Dai, Xuehai Pan, Chi Zhang, Ce Bian, Chi Zhang, Ruiyang Sun, Yizhou Wang, and Yaodong Yang. 2023. BeaverTails:
 Towards Improved Safety Alignment of LLM via a Human-Preference Dataset. arXiv preprint arXiv:2307.04657 (2023).
@@ -1438,9 +1383,7 @@ Research (2023).
 Kasirzadeh, et al. 2021. Ethical and social risks of harm from language models. arXiv preprint arXiv:2112.04359 (2021).
 Manuscript submitted to ACM
 
---- Page 20 ---
-
-20
+--- Page 20 ---\n\n20
 Machlovi et al.
 [52] Marcos Zampieri, Shervin Malmasi, Preslav Nakov, Sara Rosenthal, Noura Farra, and Ritesh Kumar. 2019. Predicting the type and target of offensive
 posts in social media. (2019).
@@ -1492,9 +1435,7 @@ Provide your safety assessment for the above conversation in the below output JS
 "User Safety ": safe or unsafe rating for the user message ,
 Manuscript submitted to ACM
 
---- Page 21 ---
-
-GuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
+--- Page 21 ---\n\nGuardEval: A Multi-Perspective Benchmark for Evaluating Safety, Fairness, and Robustness in LLM Moderators
 21
 "Response Safety ": safe or unsafe rating for the agent response. Omit if no agent response present.
 "Safety Categories ": a comma -separated list of applicable safety categories from the provided taxonomy
@@ -1590,5 +1531,4 @@ S22
 S4
 Received 7 September 2025; revised Day Month Year; accepted Day Month Year
 Manuscript submitted to ACM
-
-```
+\n```\n

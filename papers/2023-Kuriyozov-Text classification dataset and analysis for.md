@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ publication: arxiv.org
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Uzbek"
+cultures_nationalities_list: "N/A"
 languages_list: "Uzbek"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +58,7 @@ newtags:
 tags: 
 abstract: "Text classification is an important task in Natural Language Processing (NLP), where the goal is to categorize text data into predefined classes. In this study, we analyze the dataset creation steps and evaluation techniques of multi-label news categorisation task as part of text classification. We first present a newly obtained dataset for Uzbek text classification, which was collected from 10 different news and press websites and covers 15 categories of news, press and law texts."
 LLM_assessed: "BERT"
-DATA_URL: "https://github.com/elmurod1202/textclassification"
+DATA_URL: "https://github.com/elmurod1202/TextClassification ; https://doi.org/10.5281/zenodo.7677430"
 research_topic: "Machine Learning"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -63,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
@@ -96,7 +99,8 @@ data_metrics: "15 categories"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/elmurod1202/textclassification.
+512,750 Uzbek news articles across 15 categories from 10 news websites, with evaluation of multiple ML/DL models including monolingual BERTbek achieving 85.2% F1.
+
 
 ## Notes
 

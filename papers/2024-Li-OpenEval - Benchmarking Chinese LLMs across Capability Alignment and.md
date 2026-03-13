@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,8 +57,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The rapid development of Chinese large language models (LLMs) poses big challenges for efficient LLM evaluation. While current initiatives have introduced new benchmarks or evaluation platforms for assessing Chinese LLMs, many of these focus primarily on capabilities, usually overlooking potential alignment and safety issues. To address this gap, we introduce OpenEval, an evaluation testbed that benchmarks Chinese LLMs across capability, alignment and safety."
-LLM_assessed: "Baichuan2, ChatGPT, GPT-3, GPT-3.5, GPT-4, InternLM, InternLM Team, InternLM-Chat, Qwen, Qwen Qwen, Qwen Table, Qwen technical, Qwen-72B, Qwen-7B, Yi 16, Yi-34B, alpaca, Llama"
-DATA_URL: "https://github.com/01-ai/Yi"
+LLM_assessed: "Baichuan, InternLM, Qwen, Yi"
+DATA_URL: "http://openeval.org.cn/"
 CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -97,7 +101,8 @@ The rapid development of Chinese large language models (LLMs) poses big challeng
 
 ## Data Description
 
-OpenEval is a comprehensive evaluation platform for Chinese LLMs encompassing 25 benchmark datasets organized into 53 tasks across capability, alignment, and safety dimensions. The benchmark contains approximately 300K questions covering NLP tasks, disciplinary knowledge, commonsense reasoning, mathematical reasoning, bias, offensiveness, illegality, and advanced AI safety risks. The platform evaluated 14 Chinese LLMs (9 open-source ranging from 6B to 72B parameters, plus 5 proprietary models) under zero-shot settings.
+OpenEval evaluation testbed for Chinese LLMs covering capability (NLP tasks, disciplinary knowledge, commonsense and mathematical reasoning), alignment, and safety; evaluates models including Qwen-7B/72B-Chat, Baichuan2-7B/13B-Chat, Yi-34B-Chat, InternLM-Chat-7B, MOSS-SFT-16B, and BELLE-7B-2M.
+
 
 ## Notes
 

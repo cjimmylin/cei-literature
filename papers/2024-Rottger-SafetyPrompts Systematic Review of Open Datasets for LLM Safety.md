@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The last two years have seen a rapid growth in concerns around the safety of large language models (LLMs). Researchers and practitioners have met these concerns by creating an abundance of datasets for evaluating and improving LLM safety. However, much of this work has happened in parallel, and with very different goals in mind, ranging from the mitigation of near-term risks around bias and toxic content generation to the assessment of longer-term catastrophic risk potential."
-LLM_assessed: "BERT, ChatGPT, Claude, Claude 3.5, Command R, GPT-4, GPT-4o, Gemini, Gemma 2, Llama, Llama 3, Mixtral, Phi 3, Qwen 2"
+LLM_assessed: NA
 DATA_URL: "https://github.com/paul-rottger/safetyprompts-paper"
 CONFERENCE: "AAAI 2024"
 ethics_overall: "Yes"
@@ -64,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Systematic review of 144 datasets for LLM safety evaluation; living catalogue at
 
 ## Data Description
 
-This paper systematically reviews 144 open datasets for evaluating and improving LLM safety, published between June 2018 and December 2024. The review catalogs datasets along 23 dimensions including purpose, format, size, creation method, language, and licensing, and examines their use in model release publications and popular LLM benchmarks. The living catalogue is maintained at SafetyPrompts.com.
+SafetyPrompts.com is a living catalogue of 144 open datasets for LLM safety evaluation; the paper provides a systematic review and structured metadata spreadsheet covering dataset purpose, format, language, and licensing.
+
 
 ## Notes
 

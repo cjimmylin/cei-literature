@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ CONF-CC: "Complex & Intelligent Systems"
 pdf_extract: "PDF Extracts/2025/2025-Cognitive-T-LLaMA a Tibetan large language model based on LLaMA2 Complex &.md"
 local_pdf: "[[PDFs/2025/2025-Cognitive-T-LLaMA a Tibetan large language model based on LLaMA2 Complex &.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Tibetan"
-languages_list: Tibetan
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
+languages_list: "Tibetan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, Baichuan2, ChatGPT, Llama, LLaMA 8, LLaMA., LLaMA2, LLaMA2."
-DATA_URL: "NA"
+LLM_assessed: "ALBERT, BERT, Llama-2"
+DATA_URL: "https://huggingface.co/Pagewood/T-LLaMA"
 tags: 
 abstract: "The advent of ChatGPT and GPT-4 has generated substantial interest in large language model (LLM) research, showcasing remarkable performance in various applications such as conversation systems, machine translation, and research paper summarization. However, their efficacy diminishes when applied to low-resource languages, particularly in academic research contexts like Tibetan. In this study, we trained Tibetan LLaMA (T-LLaMA), a model based on efficient pre-training technology for three..."
 CONFERENCE: "Other Conference"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
@@ -101,7 +105,8 @@ The advent of ChatGPT and GPT-4 has generated substantial interest in large lang
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, Baichuan2, ChatGPT, Llama, LLaMA 8, LLaMA., LLaMA2, LLaMA2.. No high-confidence repository-style data URL was identified.
+Tibetan corpus of 2.2 billion characters used to train T-LLaMA; the trained model weights are publicly released. The paper also constructs a Tibetan news generation dataset from proprietary news data.
+
 
 ## Notes
 

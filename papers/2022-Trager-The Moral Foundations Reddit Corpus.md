@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,8 +61,8 @@ abstract: "Moral framing and sentiment can affect a variety of online and offlin
 paper_summary: "Abstract: Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, environmental action, political engagement, and protest. Various computational methods in Natural  | Overview: The Moral Foundations Reddit Corpus Jackson Trager1,*, Alireza S. Ziabari1,*, Elnaz Rahmati1, Aida Mostafazadeh Davani2, Preni Golazizian1, Farzan Karimi-Malekabadi1, Ali Omrani3, Zhihe Li1, Brendan K | Methodology: Model Care Equality Prop Loyalty Authority Purity Thin 0-shot Llamasingle | Key Findings: from this theoretical change, we need to have an updated annotated corpus that complies with the latest theoretical revisions. Together, the above rea | Conclusions: Moral rhetoric and framing have been shown to be predictive of various important pro-social and anti-social behaviors. Several NLP methods have recent"
 local_pdf: "[[PDFs/2022/2022-Trager-The Moral Foundations Reddit Corpus.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, BERT"
-DATA_URL: "NA"
+LLM_assessed: "BERT, Llama-3, Mistral"
+DATA_URL: "https://huggingface.co/datasets/USC-MOLA-Lab/MFRC"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -66,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "8 categories"
@@ -102,7 +106,7 @@ Moral framing and sentiment can affect a variety of online and ofﬂine behavior
 
 ## Data Description
 
-The Moral Foundations Reddit Corpus (MFRC) consists of 16,123 English Reddit comments curated from 12 subreddits, hand-annotated by at least three trained annotators for 8 categories of moral sentiment based on the revised Moral Foundations Theory framework. Baseline evaluations include Llama-3-8B and Ministral-8B in zero-shot, few-shot, and PEFT settings, compared against fine-tuned BERT models, with BERT outperforming LLMs on this subjective classification task. The corpus will be available as a HuggingFace dataset but no specific URL is provided in the paper.
+Moral Foundations Reddit Corpus (MFRC): 16,123 English Reddit comments annotated for 10 moral sentiment categories across diverse subreddits, released as a HuggingFace dataset.
 
 
 ## Notes

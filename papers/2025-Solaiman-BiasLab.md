@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +46,7 @@ url: "http://arxiv.org/abs/2505.16081"
 external_pdf: "http://arxiv.org/pdf/2505.16081.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English"
 religious_values: "N/A"
@@ -52,11 +55,11 @@ moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Released BiasLab, a dataset of 300 political news articles with dual-axis bias annotations (Democrat vs. Republican sentiment) and rationale indicators."
 significance: "Enhances explainable bias detection by providing 'rationale' annotations (why a text is biased), allowing models to move beyond simple classification to justifying their verdicts on ideological slant."
-pdf_extract: "PDF Extracts/0000/2025-Solaiman-BiasLab.md"
+pdf_extract: "PDF Extracts/2025/2025-Solaiman-BiasLab.md"
 abstract: "We present BiasLab, a dataset of 300 politi- cal news articles annotated for perceived ideo- logical bias. These articles were selected from a curated 900-document pool covering diverse political events and source biases. Each arti- cle is labeled by crowdworkers along two inde- pendent scales, assessing sentiment toward the Democratic and Republican parties, and enriched with rationale indicators adapted from media liter- acy guidelines. The annotation pipeline incorpo- rates targeted worker qu"
 paper_summary: "Abstract: We present BiasLab, a dataset of 300 politi- cal news articles annotated for perceived ideo- logical bias. These articles were selected from a curated 900-document pool covering diverse political even | Overview: BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Human Annotations and Rationale Indicators KMA Solaiman 1 Abstract We present BiasLab, a dataset of 300 politi- cal news articles an | Methodology: for subjective annotation tasks, including bias detection. Budak et al. (11) demonstrated the effectiveness of crowd workers in quantifying media bias | Conclusions: BiasLab introduces a new resource for explainable politi- cal bias detection, pairing dual-axis sentiment labels with rationale indicators that surfac"
 local_pdf: "[[PDFs/2025/2025-Solaiman-BiasLab.pdf]]"
-LLM_assessed: GPT-4
+LLM_assessed: "GPT-4o"
 DATA_URL: "https://github.com/ksolaiman/PoliticalBiasCorpus"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
@@ -102,7 +105,7 @@ We present BiasLab, a dataset of 300 political news articles annotated for perce
 
 ## Data Description
 
-BiasLab is a dataset of 300 U.S. political news articles annotated for perceived ideological bias along dual axes (sentiment toward Democratic and Republican parties) using 5-point Likert scales. Articles are drawn from a curated 900-document pool covering diverse political events (2016-2018) from partisan sources, with annotations by crowdworkers on Amazon Mechanical Turk including rationale indicators adapted from media literacy frameworks.
+BiasLab: 300 political news articles annotated for perceived ideological bias with dual-axis Likert ratings (Democratic/Republican party sentiment) and rationale indicators; released alongside outlet-derived bias labels for 900 articles and schema-constrained GPT-4o annotations for all 300 articles.
 
 
 ## Notes

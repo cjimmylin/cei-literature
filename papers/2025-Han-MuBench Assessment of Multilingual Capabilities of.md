@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,8 +61,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Multilingual large language models (LLMs) are advancing rapidly, with new models frequently claiming support for an increasing number of languages. However, existing evaluation datasets are limited and lack cross-lingual alignment, leaving assessments of multilingual capabilities fragmented in both language and skill coverage. To address this, we introduce MUBENCH, a benchmark covering 61 languages and evaluating a broad range of capabilities."
-LLM_assessed: "GPT-4o, Gemma, Gemma 2, Gemma 3, Gemma-3, Gemma2, Gemma3, Llama-2, Qwen, Qwen2.5, Qwen3, gemma-2"
-DATA_URL: "https://github.com/vllm-project/vllm"
+LLM_assessed: "Gemma, Gemma-2, GPT-4o, Qwen, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/aialt/MuBench"
 research_topic: "Machine Translation"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -68,7 +72,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Hallucination & Truthfulness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "61 languages"
 ---
@@ -102,7 +106,8 @@ Multilingual benchmark covering 61 languages with NLU, commonsense reasoning, fa
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4o, Gemma, Gemma 2, Gemma 3, Gemma-3, Gemma2, Gemma3, Llama-2, Qwen, Qwen2.5, Qwen3, gemma-2. Verified dataset/resource link: https://github.com/vllm-project/vllm.
+MUBENCH is a multilingual benchmark covering 61 languages and 12 task categories (NLU, commonsense reasoning, factual recall, knowledge-based QA, academic reasoning, truthfulness) with ~3.9M aligned samples across languages, including code-switched variants.
+
 
 ## Notes
 

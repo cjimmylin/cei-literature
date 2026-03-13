@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +53,7 @@ newtags: "Ethics-Testing, Reflective-Equilibrium, Behavioral-Inconsistency, LLM-
 tags: 
 abstract: "As the popularity of large language models (LLMs) soars across various applications, ensuring their alignment with human values has become a paramount concern. In particular, given that LLMs have great potential to serve as general-purpose AI assistants in daily life, their subtly unethical suggestions become a serious and real concern. Tackling the challenge of automatically testing and repairing unethical suggestions is thus demanding."
 ethics_perspective: "AI Safety & Alignment"
-LLM_assessed: "ChatGPT, GPT-4, Llama, Vicuna"
+LLM_assessed: "ChatGLM, ChatGPT, GPT-4, LLaMA, Vicuna"
 DATA_URL: "https://github.com/LLM-Ethics/EthicsSuite"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Journal"
@@ -98,7 +102,8 @@ LLMs increasingly serve as general-purpose AI assistants in daily life, and thei
 
 ## Data Description
 
-ETHICSSUITE is a test suite of approximately 20,000 contextualized and realistic moral situations generated through LLM-assisted augmentation of the ETHICS benchmark. Seven LLMs are tested as suggesters: GPT-Neo (2.7B), Llama-7B, Llama-13B, ChatGLM (6B), Vicuna (7B), ChatGPT, and GPT-4. The paper introduces the Suggest-Critique-Reflect (SCR) process to detect unethical suggestions, uncovering 109,824 unethical suggestions across all models.
+EthicsSuite is a test suite of approximately 20,000 contextualized, complex, and realistic moral scenarios generated via in-context learning, used to detect and repair unethical suggestions in LLMs.
+
 
 ## Detailed Summary
 

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,8 +58,8 @@ tags:
 abstract: "We explore the AI2050 \"
 CONF-CC: "N/A"
 DATE_ADDED: 20260129
-LLM_assessed: "BERT, Bartlett, Codex, GPT-3, GPT-4, RoBERTa"
-DATA_URL: "https://github.com/Veriﬁed-Intelligence/alpha-beta-"
+LLM_assessed: NA
+DATA_URL: NA
 research_topic: "Other"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

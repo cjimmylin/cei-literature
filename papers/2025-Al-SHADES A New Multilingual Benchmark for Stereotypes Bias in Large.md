@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.md"
 local_pdf: "[[PDFs/2025/2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English, Multilingual"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama, Llama2, Llama3, Llama3., Mistral, Mistral-7B, Qwen, Qwen2, qwenlm"
-DATA_URL: "NA"
+LLM_assessed: "Aya, BLOOM, Llama-2, Llama-3, Mistral, Qwen, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/LanguageShades/BiasShades"
 tags: 
 abstract: "Large Language Models (LLMs), the bedrock of many “artificial intelligence” (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new..."
 CONFERENCE: "NAACL 2025"
@@ -98,7 +102,8 @@ Here's what I found about SHADES multilingual stereotypes LLM benchmark assessme
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama, Llama2, Llama3, Llama3., Mistral, Mistral-7B, Qwen, Qwen2, qwenlm. No high-confidence repository-style data URL was identified.
+SHADES: a multilingual parallel dataset of 304 culturally-specific stereotypes from 37 regions, translated across 16 languages with annotations for bias type, geographic validity, and minimally contrastive statements, plus templates for generating new evaluation data.
+
 
 ## Notes
 

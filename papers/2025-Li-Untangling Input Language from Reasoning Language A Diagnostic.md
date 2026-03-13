@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +56,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: 
-LLM_assessed: "ALBERT, Claude, Claude 1.00, Claude 11.5, Claude 42.7, Claude-Sonnet, DeepSeek, DeepSeek 0, DeepSeek-R1, Grok, Grok 0, Grok-4, Llama, Llama-4, Qwen, Qwen 28.6, Qwen 37.1, Qwen3"
-DATA_URL: "NA"
+LLM_assessed: "Claude, DeepSeek, ERNIE, Gemini, Grok, Llama-3, o1, Qwen"
+DATA_URL: "https://anonymous.4open.science/r/CrossCulturalMoralJudgement"
 tags: 
 abstract: "When LLMs judge moral dilemmas, do they reach different conclusions in different languages, and if so, why? Two factors could drive such differences: the language of the dilemma itself, or the language in which the model reasons. Standard evaluation conflates these by testing only matched conditions (e.g., English dilemma with English reasoning). We introduce a methodology that separately manipulates each factor, covering also mismatched conditions (e.g."
 CONFERENCE: "Preprint"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ Diagnostic framework isolating effects of input language vs reasoning language o
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, Claude, Claude 1.00, Claude 11.5, Claude 42.7, Claude-Sonnet, DeepSeek, DeepSeek 0, DeepSeek-R1, Grok, Grok 0, Grok-4, Llama, Llama-4, Qwen, Qwen 28.6, Qwen 37.1, Qwen3. No high-confidence repository-style data URL was identified.
+Two cross-lingual moral judgment datasets with human baselines: an English-origin set (AITA, 847 dilemmas from Reddit r/AmItheAsshole) and a Chinese-origin set (1,048 dilemmas adapted from CMoralEval), both reformatted into binary first-person format for a 2x2 EN-CN factorial evaluation design.
+
 
 ## Notes
 

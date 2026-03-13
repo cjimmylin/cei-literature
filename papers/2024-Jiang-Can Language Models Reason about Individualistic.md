@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "Recent calls for pluralistic alignment emphasize that AI systems shou
 paper_summary: "Abstract: Recent calls for pluralistic alignment empha- size that AI systems should address the diverse needs of all people. Yet, efforts in this space often require sorting people into fixed buck- ets of pre-s | Overview: arXiv:2410.03868v2 [cs.CL] 31 May 2025 Can Language Models Reason about Individualistic Human Values and Preferences? Liwei Jiang♠* Taylor Sorensen♠ Sydney Levine♣∗ Yejin Choi♡ University of Washingto | Methodology: The rich data in INDIEVALUECATALOG allows us to train a series of Individualistic Value Rea- soner models (INDIEVALUEREASONER) based on Llama-3.1-8B.  | Key Findings: Population Figure 6: Continent-specific INDIEVALUEREASONER evaluated with continent-specific test sets. Similar value demonstration trajectories can h | Conclusions: We propose a bottom-up approach to pluralistic value learning by inducing individualistic values bottom-up. We harvest the well-established social sci"
 local_pdf: "[[PDFs/2024/2024-Jiang-Can Language Models Reason about Individualistic.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-3, Mixtral, Qwen, Claude"
+LLM_assessed: "Claude-3.5-Sonnet, GPT-4, GPT-4o, GPT-4o mini, Llama-3, Mixtral, Qwen-2"
 DATA_URL: "https://github.com/liweijiang/indievalue"
 CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
@@ -102,7 +106,7 @@ Recent calls for pluralistic alignment emphasize that AI systems should address 
 
 ## Data Description
 
-IndieValueCatalog is a dataset derived from the World Value Survey (WVS) for studying individualistic human value reasoning in language models. It transforms unstructured survey questions into 929 standardized natural language statements describing value preferences from 93K unique real humans across 70+ countries, with each person having on average 242 value-expressing statements and 31 demographic-declaring statements. The evaluation tasks models with predicting an individual's value judgments in novel cases given a sample of their value-expressing statements.
+IndieValueCatalog dataset transformed from the World Values Survey (WVS) containing value-expressing statements from 93K real humans across 70+ countries, for evaluating LMs on individualistic value reasoning.
 
 
 ## Notes

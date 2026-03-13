@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ abstract: "We present the second edition of the GermEval Shared Task on the Iden
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
-DATA_URL: "NA"
+DATA_URL: "https://projects.fzai.h-da.de/iggsa/"
 pdf_extract: "PDF Extracts/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
 local_pdf: "[[PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
 CONFERENCE: "Other Conference"
@@ -60,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -123,7 +127,7 @@ The GermEval 2019 shared task advanced research on German offensive language det
 
 ## Data Description
 
-The GermEval 2019 Shared Task dataset contains approximately 12,000 German tweets annotated for offensive language identification across three subtasks: coarse-grained binary classification (OFFENSE vs OTHER), fine-grained 4-way classification (ABUSE, INSULT, PROFANITY, OTHER), and implicit vs explicit offensive language classification. The 2019 data includes 7,025 newly collected tweets with 3,994 for training and 3,031 for testing, sampled from user timelines across different political orientations to reduce topic bias.
+GermEval 2019 shared task dataset: 7,025 German tweets annotated for offensive language with coarse-grained (OFFENSE/OTHER), fine-grained (ABUSE/INSULT/PROFANITY/OTHER), and implicit/explicit classification subtasks.
 
 
 ## Notes

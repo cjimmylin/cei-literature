@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "We propose SPARTA ALIGNMENT, an algorithm to collectively align multi
 paper_summary: "Abstract: We propose SPARTA ALIGNMENT, an algorithm to collectively align multiple LLMs through competition and combat. To complement a single model's lack of diversity in generation and biases in evaluation, m | Overview: SPARTA ALIGNMENT: Collectively Aligning Multiple Language Models through Combat Yuru Jiang∗1 Wenxuan Ding∗2 Shangbin Feng∗3 Greg Durrett2 Yulia Tsvetkov3 1Zhejiang University 2New York University 3Uni | Methodology: Overview SPARTA ALIGNMENT assumes access to a pool of LLMs, denoted as M0 = {M 0 k}m k=1 where 0 denotes the 0-th iteration, and a dataset X. The mode | Key Findings: domains: (1) Domain-Specific Question Answering, including MedQA-US (MedQA) [46] and Normad [73]. Normad is a benchmark assessing LLMs' cultural adapt | Conclusions: We propose SPARTA ALIGNMENT, a game-theoretic algorithm to collectively improve multiple LLMs through competition. Starting with a pool of diverse mod"
 local_pdf: "[[PDFs/2025/2025-Jiang-SPARTA ALIGNMENT.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Qwen, Gemini"
+LLM_assessed: "Qwen"
 DATA_URL: "https://github.com/yurujiang2003/sparta"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -67,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,7 @@ We propose SPARTA ALIGNMENT, an algorithm to collectively align multiple LLMs th
 
 ## Data Description
 
-The paper proposes SPARTA ALIGNMENT, a collective alignment algorithm where multiple LLMs compete and judge each other. The model pool consists of 10 Qwen2.5-7B-Instruct models fine-tuned on different data domains from Tulu-v2 with 1,000 prompts per iteration over 8 iterations. Evaluation spans 12 datasets across domain-specific QA (MedQA, Normad), reasoning (GSM8K, MATH, KCross, COM2), and instruction following/safety (Alpaca, TruthfulQA), with Gemini-1.5-Flash serving as the LLM-as-a-Judge evaluator.
+The SPARTA ALIGNMENT algorithm and associated code are released; the method uses existing instruction datasets (X) and generates preference pairs dynamically rather than releasing a new static dataset.
 
 
 ## Notes

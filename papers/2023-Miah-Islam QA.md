@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +42,7 @@ last_author: "[[M. Miah]]"
 authors: "M. Miah"
 url: "https://www.kaggle.com/datasets/mamun18/islam-qa-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JJPDXDYI/Miah - 2023 - Islam QA Web-scraped Islamic Question-Answer Corpus.pdf"
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "Islam"
@@ -52,7 +54,7 @@ abstract: "This work introduces a comprehensive dataset of over 73,000 question-
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
-DATA_URL: "https://www.kaggle.com/datasets/abdullahalmamunn/islam-qa-dataset"
+DATA_URL: "https://www.kaggle.com/datasets/nazmul0087/al-quran-english-translation"
 pdf_extract: "PDF Extracts/2023/2023-Miah-Islam QA.md"
 local_pdf: "[[PDFs/2023/2023-Miah-Islam QA.pdf]]"
 CONFERENCE: "Unknown"
@@ -62,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "73,000 question; over 73,000 question"

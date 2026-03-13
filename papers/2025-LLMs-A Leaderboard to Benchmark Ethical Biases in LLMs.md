@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ local_pdf: "[[PDFs/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in L
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "English, Multilingual"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, GPT4, Llama-2"
-DATA_URL: "NA"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
+DATA_URL: "https://ai-sandbox.list.lu/"
 tags: 
 abstract: "This paper introduces a public leaderboard that comprehensively assesses and benchmarks Large Language Models (LLMs) according to a set of ethical biases and test metrics. The initiative aims to raise awareness about the status of the latest advances in development of ethical AI, and foster its alignment to recent regulations in order to guardrail its societal impacts."
 CONFERENCE: "Other Conference"

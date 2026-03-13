@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "American, British, Chinese, Russian/USSR"
+national_ethnic_cultural: "American, Russian, Chinese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "American, Russian, Chinese, Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o-mini, Qwen2.5-72B, Llama-4-Maverick, GigaChat-Max"
+LLM_assessed: "GPT-4o mini, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/AIRI-Institute/geopolitical_llm_bias"
 tags: 
 abstract: "This paper evaluates geopolitical biases in LLMs with respect to various countries though an analysis of their interpretation of historical events with conflicting national perspectives (USA, UK, USSR, and China). We introduce a novel dataset with neutral event descriptions and contrasting viewpoints from different countries. Our findings show significant geopolitical biases, with models favoring specific national narratives."
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,7 @@ Evaluates geopolitical biases in LLMs regarding historical events from conflicti
 
 ## Data Description
 
-The paper introduces a novel dataset of 109 historical events across 55 conflicts involving the USA, UK, USSR, and China, with neutral event descriptions and contrasting national viewpoints. Four LLMs are evaluated on their geopolitical biases by asking them to assess which country's perspective aligns with historical facts. The study reveals significant geopolitical biases with models favoring specific national narratives, and finds that simple debiasing prompts have limited effectiveness.
+Novel dataset of 109 historical events across 55 conflicts (USSR, USA, China, UK perspectives) with neutral descriptions and paired country-specific viewpoints for geopolitical bias evaluation. Dataset and code released publicly.
 
 
 ## Notes

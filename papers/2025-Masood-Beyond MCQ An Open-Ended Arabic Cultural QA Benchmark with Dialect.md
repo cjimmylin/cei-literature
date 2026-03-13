@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +50,12 @@ local_pdf: "[[PDFs/2025/2025-Masood-Beyond MCQ An Open-Ended Arabic Cultural QA 
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
-languages_list: Arabic
+languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Falcon3, GPT-4, Palm, Qwen, Qwen2, Qwen2.5, BERT"
+LLM_assessed: "Falcon, GPT-4, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly used to answer everyday questions, yet their performance on culturally grounded and dialectal content remains uneven across languages. We propose a comprehensive method that (i) translates Modern Standard Arabic (MSA) multiple-choice questions (MCQs) into English and several Arabic dialects, (ii) converts them into open-ended questions (OEQs), (iii) benchmarks a range of zero-shot and fine-tuned LLMs under both MCQ and OEQ settings, and (iv)..."
@@ -96,7 +100,8 @@ Large Language Models (LLMs) are increasingly used to answer everyday questions,
 
 ## Data Description
 
-Backfill summary: Models assessed include Falcon3, GPT-4, Palm, Qwen, Qwen2, Qwen2.5, BERT. No high-confidence repository-style data URL was identified.
+A multilingual and multidialectal Arabic cultural QA dataset extending an existing MCQ dataset into open-ended format across MSA and several Arabic dialects with chain-of-thought annotations; authors state the dataset will be publicly released, but no URL is provided in the paper.
+
 
 ## Notes
 

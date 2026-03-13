@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,11 +55,11 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 publication: "LREC 2022 (Thirteenth Language Resources and Evaluation Conference), pages 3861-3871, Marseille, France"
 CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Sanskrit"
-religious_values: "Buddhism"
-religious_values_list: "Buddhism"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 

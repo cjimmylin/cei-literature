@@ -1,23 +1,4 @@
----
-title: "JETHICS - PDF Extract"
-source_pdf: "2025-Takeshita-JETHICS.pdf"
-pages: 17
-extracted_at: "2026-01-24T16:38:36.805618"
----
-
-# PDF Extract: JETHICS
-
-**Source PDF:** 2025-Takeshita-JETHICS.pdf
-**Total Pages:** 17
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-arXiv:2506.16187v1  [cs.CL]  19 Jun 2025
+---\ntitle: "2025-Takeshita-JETHICS - PDF Extract"\nsource_pdf: "2025-Takeshita-JETHICS.pdf"\npages: 17\nextracted_at: "2026-02-14T02:17:35.879121"\n---\n\n# PDF Extract: 2025-Takeshita-JETHICS\n\n**Source PDF:** 2025-Takeshita-JETHICS.pdf\n**Total Pages:** 17\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\narXiv:2506.16187v1  [cs.CL]  19 Jun 2025
 JETHICS: Japanese Ethics Understanding Evaluation Dataset
 Masashi Takeshita
 Nagoya University
@@ -107,9 +88,7 @@ ontology, virtue ethics, and justice—and how each
 3https://github.com/Language-Media-Lab/
 jethics
 
---- Page 2 ---
-
-Category
+--- Page 2 ---\n\nCategory
 Sentence 1
 Sentence 2
 Label
@@ -229,9 +208,7 @@ refusal, and a model is required to judge whether
 the refusal appropriately overcomes the obligation
 implied by the request.
 
---- Page 3 ---
-
-Category
+--- Page 3 ---\n\nCategory
 # of Examples
 Kappa Score
 Deontology (Role)
@@ -350,9 +327,7 @@ els were used.
 gpt-4o
 8https://github.com/llm-jp/llm-jp-eval
 
---- Page 4 ---
-
-Model
+--- Page 4 ---\n\nModel
 Average
 Common-
 sense
@@ -509,9 +484,7 @@ Japanese dataset for evaluating moral understand-
 ing, following the construction methods of the ex-
 young children.
 
---- Page 5 ---
-
-isting English ETHICS (Hendrycks et al., 2021)
+--- Page 5 ---\n\nisting English ETHICS (Hendrycks et al., 2021)
 dataset. JETHICS is grounded in normative the-
 ories from ethics and political philosophy. Our
 evaluation experiments on non-proprietary LLMs
@@ -618,9 +591,7 @@ for Computational Linguistics: EMNLP 2020, pages
 3356–3369, Online. Association for Computational
 Linguistics.
 
---- Page 6 ---
-
-Jian Guan, Ziqi Liu, and Minlie Huang. 2022. A cor-
+--- Page 6 ---\n\nJian Guan, Ziqi Liu, and Minlie Huang. 2022. A cor-
 pus for understanding and generating moral stories.
 In Proceedings of the 2022 Conference of the North
 American Chapter of the Association for Computa-
@@ -729,9 +700,7 @@ Annotation Guidelines
 We show the annotation guidelines of JETHICS
 creation in Figures 1-7.
 
---- Page 7 ---
-
-以下は、タスクを説明する指示と、文脈のある入力の組み合わせです。要求を適切に満たす応答を書きなさ
+--- Page 7 ---\n\n以下は、タスクを説明する指示と、文脈のある入力の組み合わせです。要求を適切に満たす応答を書きなさ
 い。(Below is a combination of instructions describing the task and a context input. Write an appropriate response that meets
 the requirements.)
 ### 指示(Instruction):
@@ -813,9 +782,7 @@ Is there a label or target associated with
 each instance? If so, please provide a de-
 scription.
 
---- Page 8 ---
-
-Task
+--- Page 8 ---\n\nTask
 Instruction
 Deontology: Role
 ほとんどの人が次のように述べることを適切だと判断するかどうかを0か1で示してく
@@ -897,9 +864,7 @@ Is the dataset self-contained, or does it link
 to or otherwise rely on external resources
 (e.g., websites, tweets, other datasets)? If
 
---- Page 9 ---
-
-Model Name
+--- Page 9 ---\n\nModel Name
 Model Code
 Parameters
 Layers
@@ -1009,9 +974,7 @@ workers were hired via a platform (CrowdWorks)
 to create moral scenario examples in Japanese and
 to provide corresponding labels. Each example
 
---- Page 10 ---
-
-Figure 1: Original annotation guideline of the commonsense morality category (url redacted for anonymity)
+--- Page 10 ---\n\nFigure 1: Original annotation guideline of the commonsense morality category (url redacted for anonymity)
 was then validated by multiple annotators through
 a majority vote.
 What mechanisms or procedures were
@@ -1061,9 +1024,7 @@ als in question directly, or obtain it via third
 parties or other sources (e.g., websites)?
 N/A
 
---- Page 11 ---
-
-Figure 2: Original annotation guideline of the virtue category (url redacted for anonymity)
+--- Page 11 ---\n\nFigure 2: Original annotation guideline of the virtue category (url redacted for anonymity)
 Were the individuals in question notified
 about the data collection? If so, please de-
 scribe (or show with screenshots or other infor-
@@ -1112,9 +1073,7 @@ Yes. Instances with split evaluations were removed
 from the dataset, and typographical errors were
 corrected to ensure data quality.
 
---- Page 12 ---
-
-Figure 3: Original annotation guideline of the utilitarianism category (url redacted for anonymity)
+--- Page 12 ---\n\nFigure 3: Original annotation guideline of the utilitarianism category (url redacted for anonymity)
 Was the “raw” data saved in addition to the
 preprocessed/cleaned/labeled data (e.g., to
 support unanticipated future uses)? If so,
@@ -1167,9 +1126,7 @@ able harms (e.g., financial harms, legal risks) If
 so, please provide a description. Is there any-
 thing a future user could do to mitigate these
 
---- Page 13 ---
-
-Figure 4: Original annotation guideline of the justice: desert category (url redacted for anonymity)
+--- Page 13 ---\n\nFigure 4: Original annotation guideline of the justice: desert category (url redacted for anonymity)
 undesirable harms?
 Users should be aware that the dataset reflects
 Japanese cultural norms and moral perspectives,
@@ -1218,9 +1175,7 @@ access point to, or otherwise reproduce, any
 relevant licensing terms, as well as any fees
 associated with these restrictions.
 
---- Page 14 ---
-
-N/A
+--- Page 14 ---\n\nN/A
 Do any export controls or other regulatory
 restrictions apply to the dataset or to in-
 dividual instances? If so, please describe
@@ -1292,16 +1247,9 @@ shared independently within the community.
 Any other comments?
 No.
 
---- Page 15 ---
+--- Page 15 ---\n\nFigure 5: Original annotation guideline of the justice: impartiality category (url redacted for anonymity)
 
-Figure 5: Original annotation guideline of the justice: impartiality category (url redacted for anonymity)
+--- Page 16 ---\n\nFigure 6: Original annotation guideline of the deontology: request category (url redacted for anonymity)
 
---- Page 16 ---
-
-Figure 6: Original annotation guideline of the deontology: request category (url redacted for anonymity)
-
---- Page 17 ---
-
-Figure 7: Original annotation guideline of the deontology: role category (url redacted for anonymity)
-
-```
+--- Page 17 ---\n\nFigure 7: Original annotation guideline of the deontology: role category (url redacted for anonymity)
+\n```\n

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "78.5gb"
 ---
@@ -100,7 +104,8 @@ Pre-trained Thai language model (RoBERTa-based) on 78.5GB Thai text corpus. Eval
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. Verified dataset/resource link: https://huggingface.co/airesearch/wangchanberta-base-att-spm-uncased.
+WangchanBERTa: a pretrained Thai RoBERTa-base language model trained on 78.5GB Thai text, evaluated on sequence and token classification tasks against multilingual baselines (mBERT, XLM-R).
+
 
 ## Notes
 

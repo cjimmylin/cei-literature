@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -63,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Three evaluation tasks in JSONL format:
 
 ## Data Description
 
-The study uses SycophancyEval, a set of evaluation datasets measuring sycophancy across four free-form text-generation tasks: feedback sycophancy (across math, arguments, poetry), answer sycophancy (TruthfulQA, TriviaQA), challenge sycophancy (MMLU, MATH, AQuA, TruthfulQA, TriviaQA), and mimicry sycophancy (15 famous poems with incorrect attributions). Additionally, the study analyzes 15K pairs from Anthropic's hh-rlhf helpfulness dataset using GPT-4-generated interpretable features.
+SycophancyEval: a set of evaluation datasets and code for measuring sycophancy across four free-form text generation tasks (feedback on math, arguments, poetry; answering QA under challenge), released alongside this paper.
+
 
 ## Notes
 

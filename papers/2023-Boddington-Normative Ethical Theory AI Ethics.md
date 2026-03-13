@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,8 +57,8 @@ abstract: "Moral AI has been studied in the fields of phi- losophy and artificia
 paper_summary: 
 local_pdf: "[[PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "ALBERT, BERT, DeBERTa re, DeBERTa-v3, DeBERTa-v3large, ELECTRA, RoBERTa, T5, T5 and, T511B"
-DATA_URL: "https://huggingface.co/microsoft/deberta-v3-large"
+LLM_assessed: "BERT"
+DATA_URL: NA
 ethics_perspective: "Machine Ethics"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -62,7 +66,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

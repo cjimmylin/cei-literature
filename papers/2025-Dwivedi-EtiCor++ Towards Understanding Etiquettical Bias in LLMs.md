@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,23 +43,23 @@ local_pdf: "[[PDFs/2025/2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "In recent years, researchers have started analyzing the cultural sensitivity of LLMs. In this respect, Etiquettes have been an active area of research. Etiquettes are region-specific and are an essential part of the culture of a region; hence, it is imperative to make LLMs sensitive to etiquettes. However, there needs to be more resources in evaluating LLMs for their understanding and bias with regard to etiquettes. In this resource paper, we introduce EtiCor++, a corpus of etiquettes worldwide."
-LLM_assessed: "Llama-3, Phi, Gemma, Gemini, GPT-4"
+LLM_assessed: "Llama-3, Phi, Gemma, Gemini, GPT-4o"
 DATA_URL: "https://github.com/Exploration-Lab/Eticor-Plus-Plus"
 CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
@@ -91,7 +95,8 @@ Expanded from EtiCor with additional cultures and regions; cleaned noisy samples
 
 ## Data Description
 
-EtiCor++ is a corpus of 47,720 region-specific etiquette texts in English, covering five global regions (East Asia, Middle East and Africa, Indian Subcontinent, Latin America, North America and Europe) across four social activity categories (Dining, Travel, Business, Visits). The authors evaluate five LLMs (Llama3.1, Phi-3.5-mini, Gemma2, Gemini, GPT-4o) on three tasks: Etiquette Sensitivity, Region Identification, and Etiquette Generation, using seven novel bias metrics to measure etiquettical bias across cultures.
+EtiCor++ is a corpus of 47,720 region-specific etiquette texts in English covering five global regions, with positive/negative labels and four social activity categories; released with code for etiquettical bias metrics.
+
 
 ## Notes
 

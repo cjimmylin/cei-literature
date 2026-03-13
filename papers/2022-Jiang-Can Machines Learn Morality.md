@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +45,7 @@ doi: 10.48550/arXiv.2110.07574
 tags: 
 url: "http://arxiv.org/abs/2110.07574"
 external_pdf: "http://arxiv.org/pdf/2110.07574.pdf"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
@@ -64,9 +68,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ As AI systems become increasingly powerful and pervasive, there are growing conc
 
 ## Data Description
 
-The paper introduces the COMMONSENSE NORM BANK, a unified collection of 1.7 million examples of ethical judgments compiled from five source datasets covering free-form ethical situations, agreement/disagreement, and moral acceptability. Delphi, based on UNICORN (a T5-11B model), is trained on this data. GPT-3 is evaluated as a zero-shot, 3-shot, and 30-shot baseline for comparison.
+COMMONSENSE NORM BANK dataset unifying five ethical judgment datasets; Delphi moral reasoning demo
 
 
 ## Notes

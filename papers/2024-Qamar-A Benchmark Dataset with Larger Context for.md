@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +42,8 @@ last_author: "[[Rabia Latif]]"
 authors: "Faiza Qamar; Seemab Latif; Rabia Latif"
 url: "https://arxiv.org/abs/2409.09844"
 external_pdf: "https://arxiv.org/pdf/2409.09844.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Islamic"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -52,7 +56,7 @@ paper_summary: "Abstract: Accessing and comprehending religious texts, particula
 local_pdf: "[[PDFs/2024/2024-Qamar-A Benchmark Dataset with Larger Context for.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "T5, BART"
+LLM_assessed: "BART, T5"
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "No"
@@ -92,7 +96,7 @@ Accessing and comprehending religious texts, particularly the Quran (the sacred 
 
 ## Data Description
 
-The paper introduces a comprehensive dataset of over 73,000 question-answer pairs for non-factoid question-answering in the domain of Quranic Tafsir and Ahadith. The dataset includes questions, scholar-provided answers, and contextual excerpts from Quranic Tafsir and the six major Hadith books (Sahah-e-Sittah), organized into eight topics via LDA topic modeling. Four transformer-based models (T5, BART, LED, LongT5) were fine-tuned and evaluated using ROUGE, BERTScore, and human evaluation.
+A benchmark QA dataset of 73,000+ question-answer pairs over Quranic Tafsir and Ahadith texts, designed for non-factoid long-form question answering; baseline results provided using T5, BART, LED, and LongT5.
 
 
 ## Notes

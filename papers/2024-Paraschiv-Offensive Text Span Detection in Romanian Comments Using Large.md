@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,8 +54,8 @@ pdf_access_url: "https://doi.org/10.3390/info15010008"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Romanian"
-languages_list: Romanian
+cultures_nationalities_list: "N/A"
+languages_list: "Romanian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -70,7 +73,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -109,7 +112,7 @@ This paper conducts a comprehensive investigation into offensive text span detec
 
 ## Data Description
 
-Comprehensive investigation into detecting offensive text spans in Romanian using Transformer encoders and LLMs. Introduces 4,800 Romanian comments annotated with offensive text spans. BERT models show superior performance over few-shot LLM strategies for span detection.
+Collection of 4,800 Romanian comments annotated with offensive text spans for span-level offensive language detection. Supports evaluation of both encoder models and generative LLMs on Romanian offensive content identification.
 
 
 ## Notes

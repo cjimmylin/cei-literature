@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5-Turbo, GPT-4-Turbo, Claude-3-Haiku, Claude-3-Sonnet, Claude-3-Opus, Mistral-Small, Mistral-Medium, Mistral-Large, Llama-3-8B, Qwen-1.5-14B, Solar-10.7B, T3Q-ko-solar"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, GPT-3.5, GPT-4, Llama-3, Mistral, Qwen-1.5"
 DATA_URL: "NA"
 tags: 
 abstract: "To accurately understand the intention of an utterance is crucial in conversational communication. As conversational artificial intelligence models are rapidly being developed and applied in various fields, it is important to evaluate the LLMs’ capabilities of understanding the intentions of user’s utterance. Speech act is a linguistic concept in pragmatics, the study of human language use, and can be simply understood as referring to the intention of an utterance."
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Dialogue Systems"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,7 @@ Evaluates whether LLMs can understand utterance intention by considering convers
 
 ## Data Description
 
-Evaluates 12 LLMs (8 proprietary, 4 open-source) on understanding Korean indirect speech acts using 240 question units. Tests use both multiple-choice and open-ended question formats. Claude-3-Opus achieves the best performance at 71.94% MCQ and 65% OEQ accuracy.
+Creates a Korean indirect speech act evaluation dataset with MCQ and open-ended question formats to assess LLM understanding of utterance intention in conversational context.
 
 
 ## Notes

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ pdf_extract: PDF Extracts/2023/2023-Lima-A Call for a Research Agenda on Fair NL
 local_pdf: "[[PDFs/2023/2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Brazilian, Portuguese"
-languages_list: Portuguese
+cultures_nationalities_list: "Brazilian"
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "word2vec"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "Diverse areas widely apply artificial intelligence and natural language processing (NLP) tools to their contexts. However, these algorithms present ethical issues, such as biased and discriminatory decisions. For example, representation biases in NLP can result in discriminatory behavior towards race and gender. Works have been addressing this issue and seeking to build fair NLP solutions, however they mainly focus on Anglo-Saxon languages."

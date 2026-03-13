@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ research_topic: "Other"
 abstract: "Natural language processing (NLP) has witnessed a profound impact of large language models (LLMs) that excel in a multitude of tasks. However, the limitation of LLMs in multilingual settings, particularly in underrepresented languages, remains a significant hurdle. This thesis aims to bridge the gap in NLP research and development by focusing on underrepresented languages. A comprehensive evaluation of LLMs is conducted to assess their capabilities in these languages, revealing the challenges of multilingual and multicultural generalization. The proposed solutions cover cross-lingual continual instruction tuning, retrieval-based cross-lingual in-context learning, and in-context query alignment."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, Llama-3, BLOOM"
+LLM_assessed: "Aya-101, BLOOMZ, Command-R, GPT-3.5, Llama-3, mT0"
 DATA_URL: "https://github.com/IndoNLP/nusax"
 pdf_extract: "PDF Extracts/2024/2024-Cahyawijaya-LLM for everyone.md"
 local_pdf: "[[PDFs/2024/2024-Cahyawijaya-LLM for everyone.pdf]]"
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -141,7 +145,7 @@ The thesis concludes that current LLMs are not truly "for everyone" due to syste
 
 ## Data Description
 
-This PhD thesis evaluates LLMs on underrepresented languages spoken in Indonesia, covering tasks including NLU benchmarks, NLG benchmarks, cultural evaluation, and cross-lingual in-context learning. The evaluation uses datasets across Indonesian national and local indigenous languages, and also incorporates the UniVaR value representation framework evaluated on 15 LLMs across 25 languages with approximately 1 million QA pairs.
+PhD thesis developing evaluation suites and benchmarks for underrepresented languages, testing six LLMs on Indonesian and local indigenous language tasks including NLU and generation.
 
 
 ## Notes

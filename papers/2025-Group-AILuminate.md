@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +45,7 @@ url: "https://arxiv.org/abs/2503.05731"
 external_pdf: "https://arxiv.org/pdf/2503.05731.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: ""
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -55,7 +59,7 @@ paper_summary: "Abstract: The rapid advancement and deployment of AI systems hav
 local_pdf: "[[PDFs/2025/2025-Group-AILuminate.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, Mistral, Gemma"
+LLM_assessed: "Gemma, Llama-3, Mistral"
 DATA_URL: "https://github.com/mlcommons/ailuminate"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -95,7 +99,7 @@ The rapid advancement and deployment of AI systems have created an urgent need f
 
 ## Data Description
 
-AILuminate v1.0 is the first comprehensive industry-standard benchmark for AI-product risk and reliability, developed by the MLCommons Risk and Reliability Working Group. It evaluates AI systems' resistance to prompts across 12 hazard categories using 24,000 prompts (practice and official sets of 12,000 each), an ensemble-based LLM evaluator fine-tuned from models including Llama, Mistral, and guard models like LlamaGuard and ShieldGemma, and a five-tier grading scale from Poor to Excellent.
+AILuminate v1.0 provides practice and official prompt datasets across 12 hazard categories, with automated ensemble-based response evaluation infrastructure (ModelBench). A practice subset is publicly available at GitHub; full results are hosted at mlcommons.org/ailuminate.
 
 
 ## Notes

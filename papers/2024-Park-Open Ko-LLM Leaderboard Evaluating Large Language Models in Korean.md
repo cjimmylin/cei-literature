@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ CONF-CC: "ACL 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -102,7 +105,8 @@ Comprehensive Korean LLM evaluation ecosystem with Ko-H5 benchmark. Includes Ko-
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4. Verified dataset/resource link: https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard.
+Introduces Ko-H5 Benchmark comprising Ko-MMLU, Ko-HellaSwag, Ko-ARC, Ko-TruthfulQA, Ko-CommonSenseQA, and Ko-CommonGen v2, built from native Korean corpora for evaluating Korean LLMs.
+
 
 ## Notes
 

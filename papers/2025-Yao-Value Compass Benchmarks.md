@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ paper_summary: "Abstract: As large language models (LLMs) are gradu- ally integr
 local_pdf: "[[PDFs/2025/2025-Yao-Value Compass Benchmarks.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4o, GPT-3.5, o3, DeepSeek, Gemini, Claude, Llama-2, Llama-3"
+LLM_assessed: "Claude, DeepSeek, GPT-3.5, GPT-4o, Llama-3, Qwen, o3"
 DATA_URL: "https://valuecompass.github.io/#/leaderboard"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

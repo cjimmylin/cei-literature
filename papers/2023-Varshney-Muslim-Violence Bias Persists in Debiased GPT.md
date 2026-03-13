@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,13 +53,13 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "Islam"
-religious_values_list: "Islam"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Abid et al. (2021) showed a tendency in GPT-3 to generate mostly violent completions when prompted about Muslims, compared with other religions. Two pre-registered replication attempts found few violent completions and only a weak anti-Muslim bias in the more recent InstructGPT, fine-tuned to eliminate biased and toxic outputs. However, more pre-registered experiments showed that using common names associated with the religions in prompts increases several-fold the rate of violent completions,..."
-LLM_assessed: "ChatGPT, GPT-3, InstructGPT"
+LLM_assessed: "ChatGPT, GPT-3"
 DATA_URL: "NA"
 CONFERENCE: "NeurIPS 2023"
 ethics_overall: "Yes"
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

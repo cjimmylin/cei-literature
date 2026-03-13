@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +42,7 @@ authors: "Abinet Ayele; Seid Muhie Yimam; Yaregal Assabie Belay; Moges Asfaw; Ch
 url: "https://aclanthology.org/2023.ranlp-1.6/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UZ25W9FY/Ayele et al. - 2023 - Amharic Hate Speech Dataset.pdf"
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Ethiopian"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Amharic"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "15.1k tweets"
@@ -93,7 +96,7 @@ In this paper, we present a study of efficient data selection and annotation str
 
 ## Data Description
 
-The dataset consists of 15,100 Amharic tweets annotated for hate speech classification with four labels (hate, offensive, normal, unsure) by two independent native speakers plus a curator adjudicator, achieving a Cohen's kappa of 0.48. The tweets were sampled from a corpus of over 18 million Amharic tweets collected since 2014 via the Twitter API, with 3.8 million tweets from October 2020 to November 2021 filtered using hate and offensive lexicon entries and near-duplicate removal via Jaccard similarity.
+15.1k annotated Amharic tweets for hate speech classification with annotation guidelines, lexicon entries, and classification models including AmFLAIR and AmRoBERTa.
 
 
 ## Notes

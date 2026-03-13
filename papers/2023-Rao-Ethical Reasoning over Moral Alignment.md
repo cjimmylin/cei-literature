@@ -22,6 +22,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,7 @@ paper_summary: "Abstract: In this position paper, we argue that instead of moral
 pdf: "https://arxiv.org/pdf/2310.07251"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, GPT-3"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, ChatGPT"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "EMNLP 2023"
@@ -62,8 +67,8 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -86,7 +91,7 @@ In this position paper, we argue that instead of morally aligning LLMs to specif
 
 ## Data Description
 
-The paper presents a framework for specifying in-context ethical policies in LLM prompts and evaluates 5 GPT-x series models on 4 moral dilemmas with 18 ethical policies each. The dataset consists of hand-crafted moral dilemmas reflecting conflicts between interpersonal, professional, social, and cultural values, paired with ethical policies at three levels of abstraction across three branches of normative ethics (virtue, deontology, consequentialism). The dataset is shared in the paper's appendix.
+Dataset of 4 moral dilemmas with 18 ethical policies each (across 3 normative ethics branches at 3 abstraction levels), shared in the appendix for evaluating ethical reasoning in LLMs.
 
 
 ## Notes

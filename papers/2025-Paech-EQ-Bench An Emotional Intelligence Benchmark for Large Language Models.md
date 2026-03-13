@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We introduce EQ-Bench, a novel benchmark designed to evaluate aspects of emotional intelligence in Large Language Models (LLMs). We assess the ability of LLMs to understand complex emotions and social interactions by asking them to predict the intensity of emotional states of characters in a dialogue. The benchmark is able to discriminate effectively between a wide range of models. We find that EQ-Bench correlates strongly with comprehensive multi-domain benchmarks like MMLU (Hendrycks et al."
-LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, Llama-2, Mistral, Vicuna, Qwen"
+LLM_assessed: "Claude-2, GPT-3.5, GPT-4, Llama-2, Mistral, Qwen, Vicuna"
 DATA_URL: "https://github.com/EQ-bench/EQ-Bench"
 CONFERENCE: "Preprint"
 eleutherai: incorporated

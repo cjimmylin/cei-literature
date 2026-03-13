@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +40,8 @@ url: "https://aclanthology.org/2024.findings-acl.703/"
 pdf_extract: "PDF Extracts/2024/2024-Yu-CMoralEval.md"
 local_pdf: "[[PDFs/2024/2024-Yu-CMoralEval.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B24568AJ/Yu et al. - 2024 - CMoralEval A Moral Evaluation Benchmark for Chinese Large Language Models.pdf"
-national_ethnic_cultural: "Chinese, American"
-cultures_nationalities_list: "Chinese, American"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -50,7 +54,7 @@ abstract: "What a large language model (LLM) would respond in ethically relevant
 paper_summary: "Abstract: What a large language model (LLM) would re- spond in ethically relevant context? In this pa- per, we curate a large benchmark CMoralEval for morality evaluation of Chinese LLMs. The data sources of CM | Overview: Findings of the Association for Computational Linguistics: ACL 2024, pages 11817–11837 August 11-16, 2024 ©2024 Association for Computational Linguistics CMoralEval: A Moral Evaluation Benchmark for C | Conclusions: In this paper, we have presented CMoralEval, a dataset comprising over 30,000 entries that span five moral categories, two types of scenarios and two"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT, Llama-2, Qwen, Alpaca"
+LLM_assessed: "Alpaca, ChatGPT, Llama-2, Qwen, ChatGLM, InternLM, Yi, Baichuan"
 DATA_URL: "https://github.com/tjunlp-lab/CMoralEval"
 normative_ethics_benchmark: Yes
 CONFERENCE: "ACL 2024"
@@ -113,7 +117,7 @@ CMoralEval bridges the gap in culturally-specific moral evaluation for Chinese L
 
 ## Data Description
 
-CMoralEval is a moral evaluation benchmark for Chinese LLMs comprising 30,388 instances across explicit moral scenarios (14,964) and moral dilemma scenarios (15,424), curated from a Chinese TV program on morality and collected Chinese moral anomies. The benchmark features a five-category morality taxonomy (familial, social, professional, Internet, personal morality) grounded in Confucian moral principles. Twenty-six Chinese LLMs were evaluated, including Llama2-Chinese, Qwen, Chinese-Alpaca-2, Yi, Baichuan2, ChatGLM3, and InternLM2 variants, using ChatGPT-3.5 for annotation assistance.
+CMoralEval is a 30,388-instance multiple-choice QA benchmark for evaluating moral alignment of Chinese LLMs, covering explicit moral scenarios and moral dilemma scenarios derived from a Chinese TV ethics program and Chinese moral anomie collections, organized into five moral categories grounded in Confucian and contemporary Chinese norms.
 
 
 ## Notes

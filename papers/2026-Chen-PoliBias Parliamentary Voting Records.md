@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,8 @@ local_pdf: "[[PDFs/2026/2026-Chen-PoliBias Parliamentary Voting Records.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Spanish, Dutch"
-cultures_nationalities_list: "Spanish, Dutch"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Dutch, Norwegian, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,8 +58,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) become deeply embedded in digital platforms and decision-making systems, concerns about their political biases have grown. While substantial work has examined social biases such as gender and race, systematic studies of political bias remain limited—despite their direct societal impact. This paper introduces a general methodology for constructing political-bias benchmarks by aligning model-generated voting predictions with verified parliamentary voting records."
-LLM_assessed: "Mistral, Falcon, Gemma, DeepSeek, GPT-3.5, GPT-4, Llama-2, Llama-3"
-DATA_URL: "https://huggingface.co/projecte-aina/aguila-7b"
+LLM_assessed: "Mistral, Falcon, Gemma-2, DeepSeek, GPT-3.5, GPT-4o, Llama-2, Llama-3"
+DATA_URL: NA
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Three national benchmarks:
 
 ## Data Description
 
-The study introduces three cross-national political bias benchmarks: PoliBiasNL (2,701 Dutch parliamentary motions from 15 parties), PoliBiasNO (10,584 Norwegian motions from 9 parties), and PoliBiasES (2,480 Spanish motions from 10 parties). These datasets are derived from real legislative voting records collected via automated web scraping and are used to assess ideological tendencies and political entity bias in 8 LLMs by aligning model-generated voting predictions with verified party votes in a shared CHES ideological space.
+Three parliamentary voting benchmark datasets: PoliBiasNL (2,701 Dutch motions from 15 parties), PoliBiasNO (10,584 Norwegian motions from 9 parties), and PoliBiasES (2,480 Spanish motions from 10 parties), scraped from public parliamentary websites and used to evaluate political bias in LLMs. No public repository URL provided; data collected via custom scrapers described in the paper.
+
 
 ## Notes
 

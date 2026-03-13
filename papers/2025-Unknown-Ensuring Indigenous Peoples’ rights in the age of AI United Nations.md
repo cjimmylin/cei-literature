@@ -1,24 +1,5 @@
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,9 +18,9 @@ CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indigenous"
-languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -60,6 +41,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
+
 # Ensuring Indigenous Peoples’ rights in the age of AI | United Nations
 
 ## Authors

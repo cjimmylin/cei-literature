@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +51,7 @@ publication: "Springer (Language Resources and Evaluation)"
 CONF-CC: "Language Resources and Evaluation"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Myanmar"
+cultures_nationalities_list: "N/A"
 languages_list: "Myanmar"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Despite dramatic recent progress in NLP, it is still a major challenge to apply Large Language Models (LLM) to low-resource languages. This is made visible in benchmarks such as Cross-Lingual Natural Language Inference (XNLI), a key task that demonstrates cross-lingual capabilities of NLP systems across a set of 15 languages. In this paper, we extend the XNLI task for one additional low-resource language, Myanmar, as a proxy challenge for broader low-resource languages, and make three core..."
-LLM_assessed: "BERT, DeBERTa, DeBERTaV3, ELECTRA, GPT-3, RoBERTa"
-DATA_URL: "https://github.com/cdpierse/transformers-interpret"
+LLM_assessed: "DeBERTaV3, mDeBERTa, MyanBERTa, RoBERTa, XLM-R"
+DATA_URL: NA
 research_topic: "Machine Learning"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -102,7 +105,8 @@ Extends XNLI for Myanmar language using community crowd-sourced methods. Two-sta
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DeBERTa, DeBERTaV3, ELECTRA, GPT-3, RoBERTa. Verified dataset/resource link: https://github.com/cdpierse/transformers-interpret.
+Myanmar XNLI (myXNLI) dataset extending the XNLI benchmark for Myanmar language natural language inference, built via community crowd-sourcing with expert verification.
+
 
 ## Notes
 

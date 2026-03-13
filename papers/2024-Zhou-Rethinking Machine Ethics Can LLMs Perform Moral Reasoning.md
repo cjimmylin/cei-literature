@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ abstract: "Making moral judgments is an essential step toward developing ethical
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-2, GPT-4"
+LLM_assessed: "GPT-3, GPT-4, Llama-2"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ethics_perspective: "Moral Reasoning & Psychology"
@@ -62,7 +66,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
@@ -107,7 +111,7 @@ Making moral judgments is an essential step toward developing ethical AI systems
 
 ## Data Description
 
-The paper evaluates Llama-2-7b-chat and GPT-4 on moral reasoning using a theory-guided top-down prompting framework grounded in normative ethics (Justice, Deontology, Utilitarianism) and descriptive ethics (Theory of Dyadic Morality). Experiments use the ETHICS dataset's normative theory subsets, the ETHICS commonsense morality subset, and Social-Chem-101 for commonsense moral judgment evaluation.
+Theory-guided moral reasoning datasets derived from normative ethics theories (Justice, Deontology, Utilitarianism, TDM), used to evaluate LLM moral judgment under top-down theoretical guidance.
 
 
 ## Notes

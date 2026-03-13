@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "AACL 2020"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: Indonesian
+languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, RoBERTa"
-DATA_URL: "https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus"
+LLM_assessed: "ALBERT, BERT"
+DATA_URL: "https://github.com/indobenchmark/indonlu"
 tags: 
 abstract: "Although Indonesian is known to be the fourth most frequently used language over the internet, the research progress on this language in natural language processing (NLP) is slowmoving due to a lack of available resources. In response, we introduce the ﬁrst-ever vast resource for training, evaluation, and benchmarking on Indonesian natural language understanding (IndoNLU) tasks. IndoNLU includes twelve tasks, ranging from single sentence classiﬁcation to pair-sentences sequence labeling with..."
 CONFERENCE: "ACL 2020"
@@ -98,7 +102,8 @@ First vast NLU benchmark for Indonesian with 12 tasks including sentiment analys
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus.
+IndoNLU benchmark: 12 Indonesian NLU tasks (sentiment analysis, emotion classification, NER, QA, textual entailment, etc.) with IndoBERT/IndoBERT-lite pre-trained models and Indo4B training corpus (~23GB).
+
 
 ## Notes
 

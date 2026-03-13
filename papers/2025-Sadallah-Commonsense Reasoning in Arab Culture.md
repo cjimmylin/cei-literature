@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "ACL 2025"
 local_pdf: "[[PDFs/2025/2025-Sadallah-Commonsense Reasoning in Arab Culture.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sadallah-Commonsense Reasoning in Arab Culture.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Arabic, African/Ubuntu"
-cultures_nationalities_list: "13 Arab countries, Gulf, Levant, Nile Valley, North Africa"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, Llama-3.1-8B, Llama-3.1-70B, Llama-3.3-70B, Qwen2.5-7B, Qwen2.5-14B, Qwen2.5-32B, Qwen2.5-72B, Gemma-2, DeepSeek-R1, Jais-13B, Jais-v3-30B, AceGPT-v2, SILMA, Fanar, ALLAM"
+LLM_assessed: "BLOOM, DeepSeek, GPT-4o, Gemma-2, Llama-3, Qwen"
 DATA_URL: "https://huggingface.co/datasets/MBZUAI/ArabCulture"
 tags: 
 abstract: "Despite progress in Arabic large language models, such as Jais and AceGPT, their evaluation on commonsense reasoning has largely relied on machine-translated datasets, which lack cultural depth and may introduce Anglocentric biases. Commonsense reasoning is shaped by geographical and cultural contexts, and existing English datasets fail to capture the diversity of the Arab world. To address this, we introduce ArabCulture, a commonsense reasoning dataset in Modern Standard Arabic (MSA), covering..."
@@ -62,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -101,7 +105,7 @@ Commonsense reasoning dataset in MSA covering cultures of 13 countries across Gu
 
 ## Data Description
 
-The paper introduces ArabCulture, a commonsense reasoning dataset of 3,482 questions in Modern Standard Arabic, covering cultures from 13 countries across the Gulf, Levant, North Africa, and Nile Valley regions. Built from scratch by native speakers, the dataset spans 12 daily life domains with 54 fine-grained subtopics. Zero-shot evaluations of over 20 open-weight and closed-weight LLMs reveal that even models with up to 32B parameters struggle with culturally grounded commonsense reasoning.
+ArabCulture: a manually constructed commonsense reasoning dataset in Modern Standard Arabic with 3,482 instances covering 13 Arab countries across 4 regions and 12 daily-life domains with 54 subtopics, built and validated by native speakers.
 
 
 ## Notes

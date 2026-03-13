@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ publication: "arXiv / ACL Anthology (MRL 2025)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
-cultures_nationalities_list: "Indonesian, Javanese, Sundanese"
+cultures_nationalities_list: "Indonesian"
 languages_list: "Javanese, Sundanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Claude, Claude-3 Opus, GPT-4, GPT-4o, Gemma 2, Gemma-2, Llama, Llama 32.20, Llama 34.80, Llama 4.40, Llama 4.98, Llama 69.19, Llama 69.7, Llama 72.7, Llama 77.13, Llama 3.1, Qwen, Qwen 2.5, llama 3"
+LLM_assessed: "Claude-3, GPT-4o, Gemma-2, Llama-3, Mixtral"
 DATA_URL: "NA"
 tags: 
 abstract: "Culturally grounded commonsense reasoning is underexplored in low-resource languages due to scarce data and costly native annotation. We test whether large language models (LLMs) can generate culturally nuanced narratives for such settings. Focusing on Javanese and Sundanese, we compare three data creation strategies: (1) LLM-assisted stories prompted with cultural cues, (2) machine translation from Indonesian benchmarks, and (3) native-written stories."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ First benchmark for story-level commonsense reasoning in Javanese and Sundanese.
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Claude, Claude-3 Opus, GPT-4, GPT-4o, Gemma 2, Gemma-2, Llama, Llama 32.20, Llama 34.80, Llama 4.40, Llama 4.98, Llama 69.19, Llama 69.7, Llama 72.7, Llama 77.13, Llama 3.1, Qwen, Qwen 2.5, llama 3. No high-confidence repository-style data URL was identified.
+The paper releases the first benchmark for culturally grounded commonsense story reasoning in Javanese and Sundanese, comprising 3,300 high-quality stories (1,120 human-written, 1,000 human-reviewed machine-translated, 1,220 filtered LLM-generated) in StoryCloze format. No public URL found in the extract.
+
 
 ## Notes
 

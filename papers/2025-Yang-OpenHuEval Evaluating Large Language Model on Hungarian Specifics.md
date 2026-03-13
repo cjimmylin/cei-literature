@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2025/2025-Yang-OpenHuEval Evaluating Large Language Model on 
 pdf_extract: "PDF Extracts/2025/2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Hungarian"
+cultures_nationalities_list: "N/A"
 languages_list: "Hungarian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, GPT-4o-mini, DeepSeek-V3, Qwen2.5, Llama-3.1, o1-mini"
+LLM_assessed: "DeepSeek, GPT-4o, GPT-4o mini, Llama-3, Qwen, o1"
 DATA_URL: "https://github.com/opendatalab/OpenHuEval"
 tags: 
 abstract: "First LLM benchmark focused on Hungarian language and cultural specifics across eight Hungarian-specific dimensions with 3,953 questions, including morphology, pragmatics, cultural knowledge, and dialectal understanding."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "3,953 questions"
 ---
@@ -102,7 +106,7 @@ First LLM benchmark focused on Hungarian language and cultural specifics across 
 
 ## Data Description
 
-OpenHuEval is the first benchmark for LLMs focusing on Hungarian language and specifics, encompassing eight Hungarian-specific dimensions (language, history, life/culture/customs, education, geography, figure, politics/policy/law, business/finance) with five tasks and 3,953 questions. The benchmark incorporates real user queries, generative task evaluation, and LLM-as-judge methodology. The authors evaluate mainstream LLMs including traditional LLMs and Large Reasoning Models, revealing significant performance gaps in Hungarian compared to English.
+OpenHuEval is a Hungarian-specific LLM benchmark with 3,953 questions across 8 Hungarian cultural/linguistic dimensions and 5 task types (HuWildBench, HuSimpleQA, HuProverbRea, HuMatchingFIB, HuStandardFIB). The dataset is collected from Hungarian web forums, Wikipedia, proverbs, and official education websites.
 
 
 ## Notes

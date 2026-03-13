@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ publication: "IEEE Access"
 CONF-CC: "IEEE Access"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -61,7 +64,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Hybrid system for Turkish hate speech detection using ensemble deep learning with BERT and clustered-graph networks. Includes 2K dataset of Turkish tweets labeled for hate speech, aggressive expression, and neither. Achieves 87.81% F1-score. Novel Turkish hate speech detection system and dataset combining graph networks with transformers. Three-class annotation scheme provides nuanced categorization."
-LLM_assessed: "NA"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -70,7 +73,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -106,7 +109,7 @@ Hybrid system for Turkish hate speech detection using ensemble deep learning wit
 
 ## Data Description
 
-So-haTRed is a hybrid system for Turkish hate speech detection using ensemble deep learning with BERT and clustered-graph networks. The paper includes a dataset of approximately 2,000 Turkish tweets labeled across three classes: hate speech, aggressive expression, and neither. The system achieves 87.81% F1-score. No LLMs were tested; the approach relies on BERT-based transformers and graph neural networks rather than generative LLMs.
+A dataset of 2,000 Turkish tweets labeled for hate speech, aggressive expression, and neither, used to train and evaluate a hybrid BERT-based ensemble deep learning system for Turkish hate speech detection.
 
 
 ## Notes

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ publication: "Proceedings of the National Academy of Sciences (PNAS)"
 CONF-CC: "PNAS"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Indian, East Asian, Southeast Asian"
-languages_list: "Multilingual"
+cultures_nationalities_list: "Indian, Multicultural/Cross-cultural"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual, multicultural settings, yet their reliance on predominantly English-centric training data risks misalignment with the diverse cultural values of different societies. In this paper, we present a comprehensive, multilingual audit of alignment of contemporary LLMs including GPT-4o-Mini, Gemini2.5-Flash, Llama 3.2, Mistral and Gemma 3 across India, East Asia and Southeast Asia."
-LLM_assessed: "GPT-4, Gemini, Llama-3, Mistral, Gemma"
+LLM_assessed: "GPT-4o, Gemini, Llama-3, Mistral, Gemma"
 DATA_URL: "https://github.com/HariShankar08/LLMOpinions/"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -60,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

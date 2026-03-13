@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +46,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Spanish, American, Brazilian, Latin American"
-cultures_nationalities_list: "Mexican, pan-Latin American"
+national_ethnic_cultural: "Latin American"
+cultures_nationalities_list: "Latin American"
 languages_list: "English, Nahuatl, Portuguese, Quechua, Spanish"
-religious_values: "Indigenous Spirituality"
-religious_values_list: "Indigenous Spirituality"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Mistral-7B; Zephyr-7B; BLOOM-7B; Llama-2-7B; Grok; ChatGPT"
+LLM_assessed: "Mistral, Llama-2, BLOOM, ChatGPT, Grok, Zephyr"
 DATA_URL: "https://github.com/areyesan/Advancing-Equitable-AI"
 tags: 
 abstract: "Artificial intelligence (AI) systems often reflect biases from economically advanced regions, marginalizing contexts in economically developing regions like Latin America due to imbalanced datasets. This paper examines AI representations of diverse Latin American contexts, revealing disparities between data from economically advanced and developing regions. We highlight how the dominance of English over Spanish, Portuguese, and indigenous languages such as Quechua and Nahuatl perpetuates..."

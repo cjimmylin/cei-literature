@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +57,7 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -70,7 +73,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
@@ -109,7 +112,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-UIT-VSFC is a Vietnamese sentiment analysis corpus containing 16,000+ human-annotated Vietnamese sentences for sentiment-based and topic-based classification, with 91.20% inter-annotator agreement for the sentiment task. It has been used as a Vietnamese sentiment benchmark in evaluation frameworks including SEA-HELM. No LLMs were tested in the original paper.
+UIT-VSFC is a corpus of 16,000+ Vietnamese sentences annotated for sentiment and topic classification, with 91.20% inter-annotator agreement, serving as a benchmark for Vietnamese sentiment analysis (used in SEA-HELM).
 
 
 ## Notes

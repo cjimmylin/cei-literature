@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +60,7 @@ abstract: "Data scarcity has been a long standing issue in the field of open-dom
 paper_summary: "Abstract: Data scarcity has been a long standing issue in the field of open-domain social dialogue. To quench this thirst, we present SODA: the first publicly available, million-scale high-quality social dialog | Overview: SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization Hyunwoo Kim♡♠ Jack Hessel♡ Liwei Jiang♡♢ Peter West♢ Ximing Lu♢ Youngjae Yu♡ Pei Zhou♡♣ Ronan Le Bras♡ Malihe Alikha | Key Findings: shows that conversations in SODA are more consistent, specific, and (surprisingly) natural than those in prior human-authored datasets. Using SODA, we | Conclusions: We presented SODA, the first million-scale dia- logue dataset covering an exceptionally wide range of social interactions to alleviate the data scarci"
 local_pdf: "[[PDFs/2022/2022-Kim-SODA.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, ChatGPT, Llama, T5"
+LLM_assessed: "GPT-3.5, T5"
 DATA_URL: "https://hyunw.kim/sodaverse"
 CONFERENCE: "EMNLP 2022"
 ethics_overall: "No"
@@ -100,7 +105,7 @@ Data scarcity has been a long standing issue in the field of open-domain social 
 
 ## Data Description
 
-SODA (Social Dialogues) is a million-scale dialogue dataset containing 1.5 million social conversations distilled from GPT-3.5 (text-davinci-002), covering 385K unique social contexts grounded in common narratives. The COSMO model (T5-based) is trained on SODA and compared head-to-head with GPT-3.5, ChatGPT, Vicuna (LLaMA-based), Koala (LLaMA-based), BlenderBot, and GODEL in human evaluations.
+1.5M social dialogue dataset distilled from GPT-3.5 using commonsense contextualization; COSMO conversation model
 
 
 ## Notes

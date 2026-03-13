@@ -1,23 +1,4 @@
----
-title: "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist - PDF Extract"
-source_pdf: "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf"
-pages: 6
-extracted_at: "2026-02-13T17:43:26.078478"
----
-
-# PDF Extract: 2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist
-
-**Source PDF:** 2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf
-**Total Pages:** 6
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Abacus
+---\ntitle: "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist - PDF Extract"\nsource_pdf: "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf"\npages: 6\nextracted_at: "2026-02-14T02:17:37.034623"\n---\n\n# PDF Extract: 2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist\n\n**Source PDF:** 2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf\n**Total Pages:** 6\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nAbacus
 Abeland, Peter; ability grouping; academic; academic freedom; academy;
 access/admission; accomplishments; accountability; accountancy;
 accreditation of prior achievement/learning; action research
@@ -60,9 +41,7 @@ studies/classics; classroom; classroom management; coeducation; cognition
 Colet, John; college; college of advanced technology
 Comenius, Johann Amos; common school
 
---- Page 2 ---
-
-Commonwealth of Learning (COL); community college; community
+--- Page 2 ---\n\nCommonwealth of Learning (COL); community college; community
 education; comparative education; compensatory education;
 comprehension; comprehensive education; comprehensive school;
 compulsory education; computer assisted learning; computing
@@ -109,9 +88,7 @@ graduate; grammar; grammar school
 Greece
 Guizot, Francois
 
---- Page 3 ---
-
-Harris, William Torrey; head of department; health education
+--- Page 3 ---\n\nHarris, William Torrey; head of department; health education
 Herbart, J. F.; hidden curriculum; higher education
 Higher Education Funding Councils (HEFC) (UK)
 Hindu education; history; history of education; home economics;
@@ -154,9 +131,7 @@ Makarenko, Anton
 Malaysia; management
 Mann, Horace
 
---- Page 4 ---
-
-Mannheim, Karl; marketisation; marking; mass education; mass media;
+--- Page 4 ---\n\nMannheim, Karl; marketisation; marking; mass education; mass media;
 mathematics; matriculation; mature students
 McMillan, Margaret; mechanics' institute; media studies; medicine
 Mediterranean; mentor/mentoring; merit; meritocracy
@@ -196,9 +171,7 @@ Plato; playground; playgroup
 Poland; politics of education
 Polynesia; polytechnic
 
---- Page 5 ---
-
-Portugal; positive discrimination; post-compulsory education; postgraduate;
+--- Page 5 ---\n\nPortugal; positive discrimination; post-compulsory education; postgraduate;
 practical education; practitioner research; prefect; preparatory school;
 primary school; principal; prison; private school; privatisation; proctor;
 professor; programmed learning; progression; progressive education;
@@ -245,9 +218,7 @@ Steiner, Rudolf
 Stenhouse, Lawrence; streaming/tracking; student; student finance; subject
 teaching associations; subjects
 
---- Page 6 ---
-
-Sunday school; supply teaching
+--- Page 6 ---\n\nSunday school; supply teaching
 Sweden; swimming
 Switzerland; syllabus
 Tanzania
@@ -278,5 +249,4 @@ World Bank
 World Education Fellowship; wrangler; writing
 Young, Michael; youth club; zoning
 Table of Contents provided by Blackwell's Book Services and R.R. Bowker. Used with permission.
-
-```
+\n```\n

@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +46,8 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Rai-Social Norms in Cinema A Cross-Cultural Analysis of Shame Pride and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Rai-Social Norms in Cinema A Cross-Cultural Analysis of Shame Pride and.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
-cultures_nationalities_list: "American, Indian"
+national_ethnic_cultural: "Indian, American, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indian, American, Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -94,7 +97,7 @@ First cross-cultural dataset of 10K+ shame/pride-related expressions from 5.4K B
 
 ## Data Description
 
-Cross-cultural analysis of shame, pride, and social norms in cinema using GPT-4 for norm extraction from movie scripts across cultures. Dataset of social norms extracted from films spanning multiple cultural contexts. Released on GitHub.
+A cross-cultural dataset of 10,000+ shame/pride-related expressions extracted from 5.4K Bollywood and Hollywood movies, with GPT-4-identified social norms and norm violations released for LLM evaluation.
 
 
 ## Notes

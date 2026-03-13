@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ pdf_extract: "PDF Extracts/2020/2020-Hossu-UIC-NLP at SemEval-2020 Task 10.md"
 local_pdf: "[[PDFs/2020/2020-Hossu-UIC-NLP at SemEval-2020 Task 10.pdf]]"
 CONF-CC: "SemEval 2020"
 DATE_ADDED: 20260208
-LLM_assessed: "ELMo, GloVe, Word2Vec"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

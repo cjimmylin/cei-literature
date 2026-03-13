@@ -21,6 +21,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +45,7 @@ local_pdf: "[[PDFs/2024/2024-Han-MedSafetyBench.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2403.03744.pdf"
 publication: "Neural Information Processing Systems"
 CONF-CC: "NeurIPS 2024"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
@@ -52,7 +57,7 @@ significance: "First benchmark to operationalize medical ethics for LLMs, showin
 abstract: "As large language models (LLMs) develop increasingly sophisticated capabilities and find applications in medical settings, it becomes important to assess their medical safety due to their far-reaching implications for personal and public health, patient safety, and human rights. However, there is little to no understanding of the notion of medical safety in the context of LLMs, let alone how to evaluate and improve it."
 paper_summary: "Abstract: As large language models (LLMs) develop increasingly sophisticated capabil- ities and find applications in medical settings, it becomes important to assess their medical safety due to their far-reachi | Overview: MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models Tessa Han Harvard University Cambridge, MA than@g.harvard.edu Aounon Kumar Harvard University Cambridge, MA aokumar | Methodology: did not work with Llama-2-7b-chat, which declined to generate harmful medical requests. To circumvent this, with Llama-2-7b-chat, we employed a jailbr | Key Findings: was abnormal. | Conclusions: In this work, we study the medical safety of LLMs. We define the notion of medical safety for LLMs and leverage this definition to develop MedSafetyBe"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-2, Llama-3, Vicuna, Mistral, Mixtral, GPT-3.5, GPT-4"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Llama-2, Llama-3, Mistral, Mixtral, Vicuna"
 DATA_URL: "https://github.com/AI4LIFE-GROUP/med-safety-bench"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
@@ -84,7 +89,7 @@ As large language models (LLMs) develop increasingly sophisticated capabilities 
 
 ## Data Description
 
-MedSafetyBench is the first medical safety benchmark for LLMs, comprising 1,800 harmful medical requests and corresponding safe responses based on the AMA's nine Principles of Medical Ethics. The dataset was generated using GPT-4 and Llama-2-7b-chat (with jailbreaking via Greedy Coordinate Gradient), validated by 25 domain expert doctors, and split into MedSafety-Eval (900 demonstrations) and MedSafety-Improve (900 demonstrations) for evaluation and fine-tuning respectively.
+First medical safety benchmark with 1,800 harmful medical requests based on AMA Principles of Medical Ethics, used to evaluate and improve medical safety of general and medical LLMs.
 
 
 ## Notes

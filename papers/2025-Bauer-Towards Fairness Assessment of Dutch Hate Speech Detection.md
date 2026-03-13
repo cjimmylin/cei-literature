@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +50,12 @@ local_pdf: "[[PDFs/2025/2025-Bauer-Towards Fairness Assessment of Dutch Hate Spe
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Dutch"
 cultures_nationalities_list: "Dutch"
-languages_list: Dutch
+languages_list: "Dutch"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa, transformer-based models"
+LLM_assessed: "BERT, GPT-2"
 DATA_URL: "https://github.com/Juulba/Dutch-counterfactual-fairness"
 tags: 
 abstract: "Numerous studies have proposed computational methods to detect hate speech online, yet most focus on the English language and emphasize model development. In this study, we evaluate the counterfactual fairness of hate speech detection models in the Dutch language, specifically examining the performance and fairness of transformer-based models. We make the following key contributions. First, we curate a list of Dutch Social Group Terms that reflect social context."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,7 @@ This paper evaluates the counterfactual fairness of hate speech detection models
 
 ## Data Description
 
-Evaluates counterfactual fairness of Dutch hate speech detection models by creating a Dutch Social Group Terms list and generating counterfactual data using LLMs, then measuring fairness metrics (Counterfactual Token Fairness, equality of odds, demographic parity) on transformer-based models. Does not introduce a new dataset but proposes an evaluation methodology.
+Dutch Social Group Terms (SGT) list of 85 terms, plus counterfactual datasets generated via LLMdef (15,175 posts), LLMlist (21,562 posts), SLL (49,104 posts), and MGS (20,393 posts) methods; also includes Dutch counterfactual evaluation dataset of 2,890 template-based sentences.
 
 
 ## Detailed Summary

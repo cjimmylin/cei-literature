@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,8 +56,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, GPT-4, GPT4, Llama-3, Llama3, Qwen-72B, Vicuna, GPT-3, gpt-3.5-turbo, Llama, llama 3"
-DATA_URL: "https://github.com/lucadiliello/bleurt-pytorch"
+LLM_assessed: "ChatGPT, GPT-4, Llama-3, Qwen, Vicuna"
+DATA_URL: NA
 tags: 
 abstract: "Different from the traditional translation tasks, classical Chinese poetry translation requires both adequacy and fluency in translating culturally and historically significant content and linguistic poetic elegance. Large language models (LLMs) with impressive multilingual capabilities may bring a ray of hope to achieve this extreme translation demand. This paper first introduces a suitable benchmark (PoetMT) where each Chinese poetry has a recognized elegant translation."
 CONFERENCE: "Preprint"
@@ -63,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +101,8 @@ Different from the traditional translation tasks, classical Chinese poetry trans
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, GPT-4, GPT4, Llama-3, Llama3, Qwen-72B, Vicuna, GPT-3, gpt-3.5-turbo, Llama, llama 3. Verified dataset/resource link: https://github.com/lucadiliello/bleurt-pytorch.
+PoetMT benchmark: 608 classical Chinese poems (Tang, Song, Yuan) with professional English translations by Xu Yuanchong, plus a sentence-level adequacy test set of 758 sentences and a Knowledge Base of 30,000 poetry entries.
+
 
 ## Notes
 

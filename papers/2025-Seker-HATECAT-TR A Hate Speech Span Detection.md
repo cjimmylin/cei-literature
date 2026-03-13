@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: "EMNLP 2025 Findings"
 CONF-CC: "EMNLP 2025 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Hate speech on social media in Turkey remains a critical issue, frequently targeting minority groups. Effective moderation requires not only detecting hateful posts but also identifying the specific hateful expressions within them. To address this, we introduce HATECAT-TR, a span-annotated dataset of Turkish tweets, containing 4465 hateful spans across 2981 posts, each directed at one of eight minority groups."
-LLM_assessed: "BERT, GPT-4o, Gemma, Gemma 2, GPT-4, Llama, LLaMa-3.1, LLaMa-3.3"
-DATA_URL: "https://github.com/HumanSignal/label-studio"
+LLM_assessed: "BERT, Gemma-2, Llama-3"
+DATA_URL: "https://github.com/boun-tabi/hatecat-tr"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -99,7 +103,8 @@ Span-annotated dataset of Turkish tweets containing 4,465 hateful spans across 2
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4o, Gemma, Gemma 2, GPT-4, Llama, LLaMa-3.1, LLaMa-3.3. Verified dataset/resource link: https://github.com/HumanSignal/label-studio.
+HATECAT-TR is a span-annotated dataset of 2,981 Turkish tweets containing 4,465 hateful spans directed at 8 minority groups, with each span categorized into one of five discourse types. Annotations were created via a semi-automated approach combining GPT-4o-generated spans with human expert review.
+
 
 ## Notes
 

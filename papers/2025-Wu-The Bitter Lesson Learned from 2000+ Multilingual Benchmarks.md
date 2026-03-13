@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2025/2025-Wu-The Bitter Lesson Learned from 2000+ Multilingua
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese, Korean, Arabic, French, German, Spanish, Russian, Brazilian"
-cultures_nationalities_list: "Chinese, Japanese, Korean, Arabic, French, German, Spanish, Russian, Brazilian"
-languages_list: "Arabic, Chinese, English, French, German, Japanese, Korean, Portuguese, Russian, Spanish"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "DeepSeek-AI, GPT-4, Gemma, Qwen, Qwen1.5, Qwen2.5, ChatGPT, gemma-1.1"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "Meta-analysis of 2,000+ multilingual benchmarks. Spanish among top high-resource languages represented. Analyzes effectiveness gap between English and Spanish across model quality/size. Gap inversely correlated with model quality."
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ Meta-analysis of 2,000+ multilingual benchmarks. Spanish among top high-resource
 
 ## Data Description
 
-Backfill summary: Models assessed include DeepSeek-AI, GPT-4, Gemma, Qwen, Qwen1.5, Qwen2.5, ChatGPT, gemma-1.1. No high-confidence repository-style data URL was identified.
+A curated and annotated collection of 2,024 multilingual benchmark papers (from arXiv cs.CL, 2021–2024) with metadata including languages, tasks, translation methods, domains, and affiliations. The authors also compile an internal dataset of 30 LLMs' benchmark performance compared against Chatbot Arena Elo rankings to assess human alignment.
+
 
 ## Notes
 

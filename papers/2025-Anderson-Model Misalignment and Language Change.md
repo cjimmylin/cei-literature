@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -103,7 +106,7 @@ In recent years, written language, particularly in science and education, has un
 
 ## Data Description
 
-The paper constructs a dataset of 22.1 million words from unscripted spoken language drawn from conversational science and technology podcasts to analyze lexical trends before and after ChatGPT's release in 2022. No LLMs are directly tested or assessed; the study examines whether human lexical choices in unscripted spoken language are converging towards patterns characteristic of LLMs.
+A dataset of 22.1 million words from unscripted spoken language drawn from conversational science and technology podcasts (pre- and post-2022), used to analyze lexical trends associated with LLM-influenced language change.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
-languages_list: Russian
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT 4, GPT-4o, Gemma, Llama, Llama-3, Mistral, Phi-3, Qwen, Qwen-Audio, Qwen2, Qwen2.5, Qwen3, BERT, deepseek-vl2, gemma-3, llama3, mistral-7b, mistral-nemo, qwen-3"
-DATA_URL: "https://github.com/MERA-Evaluation/MERA_"
+LLM_assessed: "GPT-4o, Qwen-2, Phi-3, Llama-3"
+DATA_URL: "https://huggingface.co/collections/MERA-evaluation/mera-multimodality"
 tags: 
 abstract: "Multimodal large language models (MLLMs) are currently at the center of research attention, showing rapid progress in scale and capabilities, yet their intelligence, limitations, and risks remain insufficiently understood. To address these issues, particularly in the context of the Russian language, where no multimodal benchmarks currently exist, we introduce MERA Multi, an open multimodal evaluation framework for Russian-spoken architectures."
 research_topic: "Computer Vision & Multimodal"
@@ -62,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
@@ -99,7 +103,8 @@ Open multimodal evaluation framework for Russian-spoken architectures with 18 ta
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT 4, GPT-4o, Gemma, Llama, Llama-3, Mistral, Phi-3, Qwen, Qwen-Audio, Qwen2, Qwen2.5, Qwen3, BERT, deepseek-vl2, gemma-3, llama3, mistral-7b, mistral-nemo, qwen-3. Verified dataset/resource link: https://github.com/MERA-Evaluation/MERA_.
+MERA Multi introduces 18 novel evaluation datasets for multimodal assessment of Russian-language models across text, image, audio, and video modalities, incorporating Russian cultural and linguistic specificity; includes ruHHH-Image and ruHHH-Video ethical evaluation datasets measuring Honest, Helpful, Harmless + Empathy and Etiquette dimensions.
+
 
 ## Notes
 

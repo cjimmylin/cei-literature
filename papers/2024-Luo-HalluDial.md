@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ abstract: "Large Language Models (LLMs) have significantly advanced the field of
 paper_summary: "Abstract: Large Language Models (LLMs) have significantly advanced the field of Natural Language Processing (NLP), achieving remarkable performance across diverse tasks and enabling widespread real-world applic | Overview: HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation Wen Luo1,2∗ Tianshu Shen3 Wei Li2 Guangyue Peng2 Richeng Xuan1 Houfeng Wang2† Xi Yang1† 1Beijing Academy of Art | Key Findings: Wen Luo1,2∗ Tianshu Shen3 Wei Li2 Guangyue Peng2 Richeng Xuan1 Houfeng Wang2† Xi Yang1† 1Beijing Academy of Artificial Intelligence 2National Key Labo | Conclusions: In this paper, we introduced HalluDial, the first large-scale benchmark for dialogue-level halluci- nation evaluation, addressing critical gaps in exi"
 local_pdf: "[[PDFs/2024/2024-Luo-HalluDial.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Vicuna, Mistral"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Vicuna"
 DATA_URL: "https://github.com/FlagOpen/HalluDial"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -100,7 +104,7 @@ Large Language Models (LLMs) have significantly advanced the field of Natural La
 
 ## Data Description
 
-HalluDial is a large-scale benchmark for automatic dialogue-level hallucination evaluation, comprising 4,094 dialogues with 146,856 samples covering both factuality and faithfulness hallucinations. The dataset includes spontaneous hallucination scenarios (91,785 natural responses from LLMs annotated by GPT-4) and induced hallucination scenarios (55,071 GPT-4-generated hallucinated samples). Models evaluated for hallucination detection include Llama-2 (7B, 13B, 70B), Vicuna (7B, 13B, 33B), GPT-3.5-turbo, GPT-4 variants, and GPT-4o.
+HalluDial: the first large-scale benchmark for automatic dialogue-level hallucination evaluation, with 4,094 dialogues covering both spontaneous and induced hallucinations (factuality and faithfulness types), generated using GPT-4 with human-curated knowledge.
 
 
 ## Notes

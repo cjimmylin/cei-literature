@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ tags:
 abstract: "As AI systems increasingly navigate applications in healthcare, law, and governance, understanding how they handle ethically complex scenarios becomes critical. Previous work has mainly examined the moral judgments in large language models (LLMs), rather than their underlying moral reasoning process. In contrast, we focus on a large-scale analysis of the moral reasoning traces provided by LLMs. Furthermore, unlike prior work that attempted to draw inferences from only a handful of moral..."
 DATE_ADDED: 20260208
 research_topic: "LLM Moral Reasoning"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-3, Llama, Gemma, Qwen, Mistral, DeepSeek, Phi"
+LLM_assessed: "GPT-3.5, GPT-4o, Claude, Gemini, Gemma, Gemma-2, Llama-3, Mistral, Qwen, Qwen-2, DeepSeek"
 DATA_URL: "https://github.com/keenansamway/moral-lens"
 pdf_extract: "PDF Extracts/2025/2025-Samway-Are Language Models Consequentialist or Deontological.md"
 local_pdf: "[[PDFs/2025/2025-Samway-Are Language Models Consequentialist or Deontological.pdf]]"
@@ -61,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -134,7 +138,7 @@ The authors conclude that LLMs do not adopt a single moral perspective but dynam
 
 ## Data Description
 
-The study introduces MORALLENS, a framework with a taxonomy of 16 moral rationales grounded in consequentialism and deontology, applied to 640 trolley problem vignettes varying across gender, age, social status, fitness, and group size dimensions. Over 50 LLMs from families including GPT, Claude, Gemini, Llama, Gemma, Qwen, Mistral, DeepSeek, and Phi were evaluated in Reason-then-Decide and Decide-then-Reason scenarios, with Gemini 2.5 Flash serving as a judge model for rationale classification.
+640 trolley problem vignettes constructed across demographic dimensions (gender, age, social status, fitness) used to probe LLM moral reasoning; taxonomy of 16 moral rationales (MORALLENS framework) and associated code released on GitHub.
 
 
 ## Notes

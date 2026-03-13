@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ pdf_extract: "PDF Extracts/2024/2024-Aliti-Large Language Models LLMs Output Qua
 local_pdf: "[[PDFs/2024/2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Albanian"
+cultures_nationalities_list: "N/A"
 languages_list: "Albanian, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude.ai, GPT-4, Gemini"
+LLM_assessed: "Claude, Gemini, GPT-4"
 DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "Artificial intelligence is making spectacular progress, and one of the best examples is the development of large language models (LLMs) such as OpenAI’s GPT series. In these lectures, written for readers with a background in mathematics or physics, we give a brief history and survey of the state of the art, and describe the underlying transformer architecture in detail. We then explore some current ideas on how LLMs work and how models trained to predict the next word in a text are able to..."
@@ -99,7 +103,7 @@ This study evaluates and compares output quality of large language models (Claud
 
 ## Data Description
 
-Comparative evaluation of LLM output quality between English and Albanian across math problems, code generation, and sensitive questions. Finds Claude demonstrates more language-agnostic performance than competitors. No public evaluation dataset provided.
+Evaluation comparing LLM output quality between English and Albanian across math, code, and sensitive question tasks.
 
 
 ## Detailed Summary

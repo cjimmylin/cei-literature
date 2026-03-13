@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ publication: "arXiv / ACL Anthology"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Indonesian, Filipino, Thai, Vietnamese, Southeast Asian"
-languages_list: "Filipino, Filipino/Tagalog, Indonesian, Javanese, Malay, Sundanese, Tamil, Thai, Vietnamese"
+cultures_nationalities_list: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
+languages_list: "Filipino, Indonesian, Javanese, Malay, Sundanese, Tamil, Thai, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "DeepSeek-AI, DeepSeek-R1, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma2, Llama, Llama-3, Llama-3.1, Llama3.1, gemma-2, gpt-3.5-turbo"
+LLM_assessed: "DeepSeek, GPT-4o, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/aisingapore/SEA-HELM"
 tags: 
 abstract: "With the rapid emergence of novel capabilities in Large Language Models (LLMs), the need for rigorous multilingual and multicultural benchmarks that are integrated has become more pronounced. Though existing LLM benchmarks are capable of evaluating specific capabilities of LLMs in English as well as in various mid- to low-resource languages, including those in the Southeast Asian (SEA) region, a comprehensive and culturally representative evaluation suite for the SEA languages has not been..."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ Holistic Southeast Asian LLM evaluation with five pillars: NLP Classics, LLM-spe
 
 ## Data Description
 
-Backfill summary: Models assessed include DeepSeek-AI, DeepSeek-R1, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma2, Llama, Llama-3, Llama-3.1, Llama3.1, gemma-2, gpt-3.5-turbo. Verified dataset/resource link: https://github.com/aisingapore/SEA-HELM.
+SEA-HELM: a holistic benchmark suite for five SEA languages (Filipino, Indonesian, Tamil, Thai, Vietnamese) with five evaluation pillars (NLP Classics, LLM-specifics, SEA Linguistics, SEA Culture, Safety), including newly created datasets SEA-IFEval, SEA-MTBench, and LINDSEA.
+
 
 ## Notes
 

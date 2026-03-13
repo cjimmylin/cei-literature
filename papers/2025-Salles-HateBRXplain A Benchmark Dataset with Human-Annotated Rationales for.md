@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,8 +55,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "mBERT, BERTimbau, DistilBERTimbau, PTT5"
-DATA_URL: "NA"
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/isadorasalles/HateBRXplain"
 tags: 
 abstract: "First benchmark dataset for hate speech detection in Brazilian Portuguese with human-annotated text span rationales. Evaluated using mBERT, BERTimbau, DistilBERTimbau, and PTT5 models for explainability using LIME and SHAP."
 CONFERENCE: "COLING 2025"
@@ -97,7 +101,7 @@ First benchmark dataset for hate speech detection in Brazilian Portuguese with h
 
 ## Data Description
 
-HateBRXplain is the first benchmark dataset for explainable hate speech detection in Brazilian Portuguese, featuring human-annotated text span rationales. The dataset is evaluated using transformer-based models (mBERT, BERTimbau, DistilBERTimbau, PTT5) with explainability methods LIME and SHAP. It focuses on evaluating model alignment with human moral judgments about offensive content in Brazilian Portuguese.
+HateBRXplain: first benchmark dataset for explainable hate speech detection in Brazilian Portuguese with human-annotated text span rationales (token-level), enabling evaluation of explainability methods (LIME, SHAP) for hate speech classifiers.
 
 
 ## Notes

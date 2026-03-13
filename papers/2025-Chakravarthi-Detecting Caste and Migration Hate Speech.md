@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The Indian constitution categorizes its population into groups such as Scheduled Castes, Scheduled Tribes, Other Backward Classes, and Forward Castes, reflecting historical inequalities that influence social dynamics and discrimination. Migrants who are relocating within the country for better opportunities are often viewed as outsiders, leading to concerns about job security and crime, fostering hate and discrimination against them."
-LLM_assessed: "BERT, BLOOM, BLOOM-560, RoBERTa, Word2Vec"
-DATA_URL: "NA"
+LLM_assessed: "BLOOM, RoBERTa"
+DATA_URL: "https://codalab.lisn.upsaclay.fr/competitions/16089"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -96,7 +100,8 @@ Novel dataset of 7,875 annotated comments for detecting caste and migration hate
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, BLOOM-560, RoBERTa, Word2Vec. No high-confidence repository-style data URL was identified.
+Novel dataset of 7,875 annotated Tamil-language YouTube comments for detecting caste and migration hate speech, released via the LT-EDI shared task competition.
+
 
 ## Notes
 

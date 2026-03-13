@@ -1,23 +1,4 @@
----
-title: "MoCoP - PDF Extract"
-source_pdf: "2025-Jamshidi-MoCoP.pdf"
-pages: 8
-extracted_at: "2026-01-24T16:38:27.634822"
----
-
-# PDF Extract: MoCoP
-
-**Source PDF:** 2025-Jamshidi-MoCoP.pdf
-**Total Pages:** 8
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-The Moral Consistency Pipeline: Continuous Ethical Evaluation
+---\ntitle: "2025-Jamshidi-MoCoP - PDF Extract"\nsource_pdf: "2025-Jamshidi-MoCoP.pdf"\npages: 8\nextracted_at: "2026-02-14T02:17:34.491226"\n---\n\n# PDF Extract: 2025-Jamshidi-MoCoP\n\n**Source PDF:** 2025-Jamshidi-MoCoP.pdf\n**Total Pages:** 8\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nThe Moral Consistency Pipeline: Continuous Ethical Evaluation
 for Large Language Models
 Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh
 SWAT Laboratory, Polytechnique Montréal
@@ -116,9 +97,7 @@ Each layer contributes a distinct function: lexical integrity detects
 bias and linguistic degradation, semantic risk estimation quantifies
 arXiv:2512.03026v1  [cs.CL]  2 Dec 2025
 
---- Page 2 ---
-
-DSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
+--- Page 2 ---\n\nDSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
 Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh
 contextual harm such as toxicity or coercion, and reasoning-based
 judgment modeling evaluates the logical soundness and ethical
@@ -232,9 +211,7 @@ inconsistencies. Using lexical entropy, polarity variance, and bias-
 weighted sentiment, the system estimates how consistently models
 maintain neutral and coherent language across ethical contexts.
 
---- Page 3 ---
-
-The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models
+--- Page 3 ---\n\nThe Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models
 DSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
 Figure 1: Schematic of the Architecture of the MoCoP Frame-
 work. The pipeline integrates lexical integrity analysis, se-
@@ -335,9 +312,7 @@ cal layers defined in Section 3. The experimental objectives include
 assessing (i) cross-model moral coherence, (ii) temporal stability,
 and (iii) semantic safety across evolving ethical scenarios.
 
---- Page 4 ---
-
-DSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
+--- Page 4 ---\n\nDSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
 Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh
 4.1
 Environment Configuration
@@ -489,9 +464,7 @@ DeepSeek
 20 (3.92%)
 510
 
---- Page 5 ---
-
-The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models
+--- Page 5 ---\n\nThe Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models
 DSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
 Figure 2: Safety category distribution across GPT-4-Turbo
 and DeepSeek models.
@@ -600,9 +573,7 @@ where higher 𝑀𝑆𝐼𝑚values indicate greater ethical consistency
 across reasoning instances. Table 3 summarizes the descriptive sta-
 tistics reconstructed from Fig. 4. To statistically assess differences,
 
---- Page 6 ---
-
-DSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
+--- Page 6 ---\n\nDSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
 Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh
 Table 3: Descriptive statistics of ethical score stability.
 Model
@@ -713,9 +684,7 @@ Multivariate Behavioral
 The multivariate correlation analysis presented in Figure. 7 provides
 an overview of behavioral dependencies across three quantitative
 
---- Page 7 ---
-
-The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models
+--- Page 7 ---\n\nThe Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models
 DSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
 dimensions: ethical score (𝐸), toxicity score (𝑇), and response la-
 tency (𝐿). The joint distribution of these metrics was examined
@@ -840,9 +809,7 @@ at finer granularity. Collectively, these directions aim to evolve
 MoCoP into a scalable and autonomous benchmark for continuous
 ethical intelligence in next-generation AI systems.
 
---- Page 8 ---
-
-DSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
+--- Page 8 ---\n\nDSE 2026, April 12–18, 2026, Rio de Janeiro, Brazil
 Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh
 Figure 7: Correlation among ethical, toxicity, and latency scores across GPT-4-Turbo and DeepSeek models.
 References
@@ -929,5 +896,4 @@ Anders Wesslén. 2012. Experimentation in software engineering. Springer Science
 [27] Jie Zhang and Zong-ming Zhang. 2023. Ethics and governance of trustworthy
 medical artificial intelligence. BMC medical informatics and decision making 23,
 1 (2023), 7.
-
-```
+\n```\n

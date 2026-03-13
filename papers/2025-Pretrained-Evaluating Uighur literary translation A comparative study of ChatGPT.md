@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ pdf_extract: "PDF Extracts/2025/2025-Pretrained-Evaluating Uighur literary trans
 local_pdf: "[[PDFs/2025/2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese, Uyghur"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, DeepSeek, GPT-4o, Llama"
-DATA_URL: "NA"
+LLM_assessed: "ChatGPT"
+DATA_URL: "https://zenodo.org/doi/10.5281/zenodo.17072670"
 tags: 
 abstract: "Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag"
 CONFERENCE: "Other Conference"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ Based on the search results, I found relevant information about TarimGPT and Uyg
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT, DeepSeek, GPT-4o, Llama. No high-confidence repository-style data URL was identified.
+The study deposits a dataset of Uyghur literary source texts with reference translations, machine translation outputs from ChatGPT (two prompt strategies), Google Translate, and Bing Translator, along with automatic evaluation scores (BLEU, ROUGE, METEOR, BERT-based similarity), error counts, and expert human ratings, on Zenodo.
+
 
 ## Notes
 

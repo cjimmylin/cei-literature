@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,8 +42,8 @@ last_author: "[[Adelani, David Ifeoluwa]]"
 authors: "Ògúnrẹ̀mí, Tolúlọpẹ́; Túbọ̀sún, Kọ́lá; Aremu, Anuoluwapo; Orife, Iroro; Adelani, David Ifeoluwa"
 url: "https://aclanthology.org/2024.lrec-main.812/"
 external_pdf: "https://arxiv.org/pdf/2307.16071"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Nigerian"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -84,7 +87,7 @@ We introduce ÌròyìnSpeech corpus—a new dataset influenced by a desire to in
 
 ## Data Description
 
-Multi-purpose Yoruba speech corpus for TTS, ASR, and speech-to-speech translation. Not an LLM evaluation study; focuses on speech technology resources for Yoruba as a low-resource language.
+ÌròyìnSpeech: 42 hours of Yorùbá speech data (23,000 sentences) from news and creative writing domains, with baseline TTS and ASR evaluation establishing WER of 23.8.
 
 
 ## Notes

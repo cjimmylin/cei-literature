@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ last_author: "[[Aman Chadha]]"
 authors: Maithili Sabane; Onkar Litake; Aman Chadha
 url: "https://arxiv.org/abs/2308.09862"
 external_pdf: "https://arxiv.org/pdf/2308.09862.pdf"
-pdf_extract: "PDF Extracts/2023/2023-[[Sabane]]-Breaking Language Barriers A Question-Answering Dataset.md"
+pdf_extract: "PDF Extracts/2023/2023-Sabane-Breaking Language Barriers A Question-Answering Dataset.md"
 local_pdf: "[[PDFs/2023/2023-Sabane-Breaking Language Barriers A Question-Answering Dataset.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
@@ -93,7 +97,8 @@ QA dataset for Hindi and Marathi languages serving 714 million speakers combined
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
+Hindi and Marathi QA dataset of 28,000 samples each, translated from SQuAD 2.0 using a novel sliding window technique for answer index alignment.
+
 
 ## Notes
 

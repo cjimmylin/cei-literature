@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech.md"
 local_pdf: "[[PDFs/2025/2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish"
-cultures_nationalities_list: "Spanish, Pakistani"
-languages_list: Multilingual
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "English, Spanish, Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, DeepSeek 67B, ELECTRA, GPT 3, GPT 3.5 Turbo, GPT-3, GPT-3.5, GPT-3.5 Turbo, GloVe, LLaMA 3.3, Llama, Qwen, Qwen 2.5, Qwen2.5, RoBERTa"
+LLM_assessed: "GPT-3.5, Qwen-2, BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Social media platforms are critical spaces for public discourse, shaping opinions and community dynamics, yet their widespread use has amplified harmful content, particularly hate speech, threatening online safety and inclusivity. While hate speech detection has been extensively studied in languages like English and Spanish, Urdu remains underexplored, especially using translation-based approaches. To address this gap, we introduce a trilingual dataset of 10,193 tweets in English (3,834..."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset for hate speech detection"
 data_metrics: "17 languages"
@@ -95,7 +99,8 @@ Based on the search results, here are the key multilingual AI safety benchmarks 
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, DeepSeek 67B, ELECTRA, GPT 3, GPT 3.5 Turbo, GPT-3, GPT-3.5, GPT-3.5 Turbo, GloVe, LLaMA 3.3, Llama, Qwen, Qwen 2.5, Qwen2.5, RoBERTa. No high-confidence repository-style data URL was identified.
+A novel trilingual hate speech dataset of 10,193 tweets in English, Urdu, and Spanish, annotated with binary 'Hateful'/'Not-Hateful' labels by native-speaking expert annotators (Fleiss' Kappa = 0.821). The dataset addresses the scarcity of annotated resources for low-resource languages, particularly Urdu.
+
 
 ## Notes
 

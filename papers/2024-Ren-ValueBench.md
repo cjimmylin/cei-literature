@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -102,7 +105,7 @@ Large Language Models (LLMs) are transforming diverse fields and gaining increas
 
 ## Data Description
 
-ValueBench is a comprehensive psychometric benchmark for evaluating value orientations and understanding in LLMs, collecting data from 44 established psychometric inventories encompassing 453 multifaceted value dimensions. The benchmark evaluates six LLMs (GPT-3.5 Turbo, GPT-4 Turbo, Llama-2 7B, Llama-2 70B, Mistral 7B, Mixtral 8x7B) on value orientation probing through realistic human-AI interactions and novel value understanding tasks.
+ValueBench: a comprehensive psychometric benchmark for evaluating value orientations and value understanding in LLMs, collecting data from 44 established psychometric inventories encompassing 453 multifaceted value dimensions.
 
 
 ## Notes

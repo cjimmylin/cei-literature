@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have significantly advanced natural language processing, demonstrating exceptional reasoning, tool usage, and memory capabilities. As their applications expand into multi-agent environments, there arises a need for a comprehensive evaluation framework that captures LLMs’ reasoning, planning, collaboration, and other social abilities. This work introduces a novel competitionbased benchmark framework specifically designed to assess LLMs within multi-agent settings,..."
-LLM_assessed: "GPT-4, GPT-3.5, o1, Claude, PaLM-2, Llama-2"
+LLM_assessed: "Claude-2, Cohere, GPT-3.5, GPT-4, Llama-2, PaLM-2, o1"
 DATA_URL: "https://github.com/cathyxl/MAgIC"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
@@ -97,7 +101,8 @@ Social deduction games (Chameleon, Undercover) + game theory scenarios (Cost Sha
 
 ## Data Description
 
-MAgIC is a competition-based benchmark framework for evaluating LLMs in multi-agent settings using two social deduction games and three game-theory scenarios. It provides seven quantitative metrics measuring judgment, reasoning, deception, self-awareness, cooperation, coordination, and rationality, revealing a threefold capability gap between the strongest (GPT o1) and weakest (Llama-2-70B) models.
+Competition-based multi-agent benchmark using social deduction games and game-theory scenarios to evaluate LLM cognition, adaptability, rationality, and collaboration with 7 quantitative metrics.
+
 
 ## Notes
 

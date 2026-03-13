@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +44,7 @@ authors: "Fan, Yu; Ni, Jingwei; Merane, Jakob; Tian, Yang; Hermstrüwer, Yoan; H
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.12864"
 external_pdf: "https://arxiv.org/pdf/2505.12864.pdf"
-pdf_extract: "PDF Extracts/0000/2025-Fan-LEXam.md"
+pdf_extract: "PDF Extracts/2025/2025-Fan-LEXam.md"
 local_pdf: "[[PDFs/2025/2025-Fan-LEXam.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Long-form legal reasoning remains a key challenge for large language models (LLMs) in spite of recent advances in test-time scaling. To address this, we introduce LEXAM, a novel benchmark derived from 340 law exams spanning 116 law school courses across a range of subjects and degree levels. The dataset comprises 4,886 law exam questions in English and German, including 2,841 long-form, open-ended questions and 2,045 multiple-choice questions."
-LLM_assessed: "GPT-4, DeepSeek, Gemini, Claude, Qwen, Llama-3, Gemma, Phi, Mistral"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, GPT-4o mini, GPT-5, Gemini, Gemma, Gemma-2, Llama-3, Mistral, Phi, Qwen, Qwen-2, o1, o3-mini"
 DATA_URL: "https://lexam-benchmark.github.io/"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -99,7 +103,8 @@ Long-form legal reasoning remains a key challenge for large language models (LLM
 
 ## Data Description
 
-LEXAM is a multilingual legal reasoning benchmark derived from 340 law exams spanning 116 courses at the University of Zurich, comprising 4,886 questions (2,841 open-ended and 2,045 multiple-choice) in English and German. The authors evaluate 36 LLMs across reasoning, large, and small model categories, including GPT-4o/4.1, DeepSeek-R1/V3, Gemini-2.5-Pro, Claude-3.7/4.5-Sonnet, Qwen3, Llama-3/4, Gemma-2/3, Phi-4, and Ministral-8B, using an ensemble LLM-as-a-Judge evaluation framework validated against human expert assessments.
+LEXAM is a multilingual legal reasoning benchmark derived from 340 law exams spanning 116 courses at the University of Zurich, comprising 4,886 questions (2,841 long-form open-ended and 2,045 multiple-choice) in English and German, covering Swiss, European, and international law.
+
 
 ## Notes
 

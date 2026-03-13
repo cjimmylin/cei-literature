@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ pdf_extract: "PDF Extracts/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alig
 local_pdf: "[[PDFs/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Islamic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama, Llama-3.1, Llama., llama 3"
-DATA_URL: "https://huggingface.co/QCRI/Fanar-1-9B-Instruct"
+LLM_assessed: "Llama-3"
+DATA_URL: "https://huggingface.co/datasets/Abderraouf000/IslamTrust-benchmark"
 tags: 
 abstract: "The alignment of most Large Language Models (LLMs) to broad, often non-Islamic ethical principles creates a significant gap for users from specific cultural and religious backgrounds. LLMs used within Muslim communities for Islamic Q&A should be based on Islamic ethics, derived from scholarly consensus. A standardized benchmark that can evaluate this is currently absent; hence, this work introduces IslamTrust, a novel, multilingual benchmark that is designed to evaluate the alignment of LLMs..."
 CONFERENCE: "Other Conference"
@@ -98,7 +102,8 @@ Based on the web search results, here's what I found regarding Arabic NLP datase
 
 ## Data Description
 
-Backfill summary: Models assessed include Llama, Llama-3.1, Llama., llama 3. Verified dataset/resource link: https://huggingface.co/QCRI/Fanar-1-9B-Instruct.
+IslamTrust is a multilingual (Arabic and English) multiple-choice benchmark of 406 questions across six categories (misconceptions around Muslims, general Islamic knowledge, other faiths, extraordinary events, different Islamic opinions, Islamically discouraged topics), evaluating LLM alignment with consensus-based Sunni Islamic ethical principles.
+
 
 ## Notes
 

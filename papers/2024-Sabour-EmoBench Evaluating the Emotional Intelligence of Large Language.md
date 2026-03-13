@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Recent advances in Large Language Models (LLMs) have highlighted the need for robust, comprehensive, and challenging benchmarks. Yet, research on evaluating their Emotional Intelligence (EI) is considerably limited. Existing benchmarks have two major shortcomings: first, they mainly focus on emotion recognition, neglecting essential EI capabilities such as emotion regulation and thought facilitation through emotion understanding; second, they are primarily constructed from existing datasets,..."
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Qwen"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Qwen"
 DATA_URL: "https://github.com/Sahandfer/EmoBench"
 CONFERENCE: "ACL 2024"
 ethics_overall: "No"
@@ -97,7 +102,8 @@ Recent advances in Large Language Models (LLMs) have highlighted the need for ro
 
 ## Data Description
 
-EmoBench is a benchmark for evaluating the emotional intelligence of LLMs, consisting of 400 hand-crafted multiple-choice questions in English and Chinese. The benchmark covers two dimensions: Emotional Understanding (200 questions across complex emotions, emotional cues, personal beliefs, and perspective-taking) and Emotional Application (200 questions on identifying effective responses to emotional dilemmas). Scenarios are manually crafted to require deep reasoning beyond surface-level pattern recognition.
+EmoBench is a hand-crafted benchmark of 400 questions in English and Chinese covering Emotional Understanding and Emotional Application, grounded in psychological EI theories.
+
 
 ## Notes
 

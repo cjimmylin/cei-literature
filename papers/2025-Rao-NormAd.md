@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +45,8 @@ doi: 10.18653/v1/2025.naacl-long.120
 tags: 
 url: "http://arxiv.org/abs/2404.12464"
 external_pdf: "http://arxiv.org/pdf/2404.12464.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +60,7 @@ paper_summary: "Abstract: To be effectively and safely deployed to global user p
 local_pdf: "[[PDFs/2025/2025-Rao-NormAd.pdf]]"
 CONF-CC: "NAACL 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama, Llama-2, Mistral"
+LLM_assessed: "GPT-3.5, GPT-4, Mistral, Llama-2"
 DATA_URL: "https://github.com/Akhila-Yerukola/NormAd"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -103,7 +107,7 @@ To be effectively and safely deployed to global user populations, large language
 
 ## Data Description
 
-NormAd-ETI is a benchmark of 2,633 situational descriptions representing social etiquette-related cultural norms from 75 countries, sourced from the Cultural Atlas resource. Each situation includes a question-answer pair for evaluating social acceptability under three levels of cultural context specificity: Rule-of-Thumb, Country+Value, and Country alone. The dataset spans four subcategories (Basic Etiquette, Eating, Visiting, Gift-Giving) with three label types (Yes, No, Neutral).
+NORMAD-ETI: a benchmark dataset of 2,633 situational descriptions representing social-etiquette cultural norms from 75 countries, with Yes/No/Neutral labels at three levels of cultural specificity (Rule-of-Thumb, Country, Value+Country).
 
 
 ## Notes

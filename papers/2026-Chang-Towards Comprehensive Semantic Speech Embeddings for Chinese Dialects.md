@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +54,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: "Whisper"
 DATA_URL: "https://github.com/kalvinchang/yubao"
 tags: 
 abstract: "Despite having hundreds of millions of speakers, Chinese dialects lag behind Mandarin in speech and language technologies. Most varieties are primarily spoken, making dialectto-Mandarin speech-LLMs (large language models) more practical than dialect LLMs. Building dialect-to-Mandarin speechLLMs requires speech representations with cross-dialect semantic alignment between Chinese dialects and Mandarin."
@@ -64,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +100,8 @@ Despite having hundreds of millions of speakers, Chinese dialects lag behind Man
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/kalvinchang/yubao.
+A new benchmark of spoken Chinese varieties (YuBao) for speech-to-speech retrieval across Chinese dialects is introduced and released on GitHub, along with a speech encoder trained for cross-dialect semantic alignment.
+
 
 ## Notes
 

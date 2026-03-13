@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2024/2024-Charfi-A Web-Based Hate Speech Detection System for
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
-languages_list: "Arabic, Egyptian Arabic, Gulf Arabic, Levantine, Maghrebi"
+languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: "https://adhar.qatar.cmu.edu/hatespeech/"
 tags: 
 abstract: "A significant issue in today’s global society is hate speech, which is defined as any kind of expression that attempts to degrade an individual or a society based on attributes such as race, color, nationality, gender, or religion (Schmidt and Wiegand, 2017). In this paper, we present a Web-based hate speech detection system that focuses on the Arabic language and supports its various dialects. The system is designed to detect hate speech within a given sentence or within a file containing..."
 CONFERENCE: "Other Conference"
@@ -94,7 +98,8 @@ Based on the search results, here's what I found about the ADHAR multi-dialectal
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
+ADHAR corpus: a multi-dialectal Arabic hate speech corpus of 4,237 sentences covering Egyptian, Levantine, Gulf, Maghreb, and MSA dialects with hate/not-hate labels across nationality, religion, race, and ethnicity categories.
+
 
 ## Notes
 

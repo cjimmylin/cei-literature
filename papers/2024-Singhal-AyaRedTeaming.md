@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,8 +44,8 @@ last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"
 url: "https://arxiv.org/abs/2406.18682"
 external_pdf: "https://arxiv.org/pdf/2406.18682.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +60,7 @@ paper_summary: "Abstract: A key concern with the concept of alignment is the imp
 local_pdf: "[[PDFs/2024/2024-Singhal-AyaRedTeaming.pdf]]"
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "Bartolo, Command R, Command R+, Dolly, Dolly-200, GPT-4, GPT4, Gemma, Mistral, ChatGPT"
+LLM_assessed: "Aya, Command R+, GPT-4"
 DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -63,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety annotated dataset"
@@ -95,7 +100,7 @@ A key concern with the concept of "alignment" is the implicit question of "align
 
 ## Data Description
 
-The paper introduces the Aya Red-teaming dataset, a multilingual red-teaming dataset of 7,419 human-annotated harmful prompts across 8 languages (English, Hindi, French, Spanish, Russian, Arabic, Serbian, Filipino), distinguishing between global and local harms. The dataset includes synthetically expanded preference pairs for safety alignment training, along with a general-purpose multilingual preference dataset based on UltraFeedback Binarized translated into 6 target languages. Experiments evaluate SFT and DPO alignment techniques on an Aya 23 8B base model.
+Releases the Aya Red-teaming dataset: 7,419 human-annotated multilingual red-teaming prompts across 8 languages (English, Hindi, French, Spanish, Russian, Arabic, Serbian, Filipino) distinguishing global vs. local harms, used to study multilingual safety alignment.
 
 
 ## Notes

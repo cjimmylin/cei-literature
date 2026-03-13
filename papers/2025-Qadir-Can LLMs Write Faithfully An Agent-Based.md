@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +51,7 @@ publication: "NeurIPS 2025 Workshop on Muslims in Machine Learning / arXiv"
 CONF-CC: "NeurIPS 2025 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Islamic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -56,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models are increasingly used for Islamic guidance, but risk misquoting texts, misapplying jurisprudence, or producing culturally inconsistent responses. We pilot an evaluation of GPT-4o, Ansari AI, and Fanar on prompts from authentic Islamic blogs. Our dual-agent framework uses a quantitative agent for citation verification and six-dimensional scoring (e.g., Structure, Islamic Consistency, Citations) and a qualitative agent for five-dimensional side-by-side comparison (e.g."
-LLM_assessed: "BERT, ChatGPT, Claude, GPT-4, GPT-4o"
+LLM_assessed: "GPT-4o"
 DATA_URL: "NA"
 CONFERENCE: "NeurIPS 2025"
 ethics_overall: "No"

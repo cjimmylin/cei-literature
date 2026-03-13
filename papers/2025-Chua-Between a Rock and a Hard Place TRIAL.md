@@ -21,6 +21,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +51,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Warning: This paper contains potentially offensive and harmful text. Large Language Model safety alignment predominantly operates on a binary assumption that requests are either safe or unsafe. This classification proves insufficient when models encounter ethical dilemmas, where the capacity to reason through moral trade-offs creates a distinct attack surface. We formalize this vulnerability through TRIAL, a multi-turn red-teaming methodology that embeds harmful requests within ethical framings."
-LLM_assessed: "Llama-3, Mistral"
+LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Llama-3, Mistral, Vicuna"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"

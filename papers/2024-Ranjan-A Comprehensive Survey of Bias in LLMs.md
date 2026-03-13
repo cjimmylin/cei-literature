@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ paper_summary: "Abstract: Large Language Models(LLMs) have revolutionized variou
 local_pdf: "[[PDFs/2024/2024-Ranjan-A Comprehensive Survey of Bias in LLMs.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, GPT-2, GPT-3, GPT-4, LLaMA 2"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

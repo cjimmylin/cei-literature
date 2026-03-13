@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ publication: HuggingFace
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Azerbaijani"
+cultures_nationalities_list: "N/A"
 languages_list: "Azerbaijani"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -100,7 +103,7 @@ HuggingFace Space for browsing and filtering Azerbaijani LLM benchmark results, 
 
 ## Data Description
 
-A HuggingFace Space providing an active leaderboard for Azerbaijani LLM evaluation. It allows browsing and filtering benchmark results, viewing evaluation queues, and submitting models for evaluation. The leaderboard provides standardized comparison infrastructure for Azerbaijani language models.
+Active leaderboard infrastructure for standardized evaluation and comparison of Azerbaijani language models. Provides evaluation queue and submission system rather than a static dataset release.
 
 
 ## Notes

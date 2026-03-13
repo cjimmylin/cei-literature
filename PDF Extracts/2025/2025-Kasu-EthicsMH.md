@@ -1,23 +1,4 @@
----
-title: "2025-Kasu-EthicsMH - PDF Extract"
-source_pdf: "2025-Kasu-EthicsMH.pdf"
-pages: 14
-extracted_at: "2026-02-07T17:00:45.576121"
----
-
-# PDF Extract: 2025-Kasu-EthicsMH
-
-**Source PDF:** 2025-Kasu-EthicsMH.pdf
-**Total Pages:** 14
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-EthicsMH: A Pilot Benchmark for Ethical Reasoning in Mental Health AI
+---\ntitle: "2025-Kasu-EthicsMH - PDF Extract"\nsource_pdf: "2025-Kasu-EthicsMH.pdf"\npages: 14\nextracted_at: "2026-02-14T02:17:34.733304"\n---\n\n# PDF Extract: 2025-Kasu-EthicsMH\n\n**Source PDF:** 2025-Kasu-EthicsMH.pdf\n**Total Pages:** 14\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nEthicsMH: A Pilot Benchmark for Ethical Reasoning in Mental Health AI
 Sai Kartheek Reddy Kasu
 IIIT Dharwad, India
 saikartheekreddykasu@gmail.com
@@ -108,9 +89,7 @@ health contexts.
 Dataset on Hugging Face
 arXiv:2509.11648v1  [cs.CL]  15 Sep 2025
 
---- Page 2 ---
-
-To further illustrate these gaps, it is useful to
+--- Page 2 ---\n\nTo further illustrate these gaps, it is useful to
 examine existing benchmarks for ethical reasoning
 and mental health AI. Several datasets evaluate
 AI models, but they primarily address general
@@ -217,9 +196,7 @@ focus on tasks such as behavior annotation, trust or
 engagement modeling, or summarization of coun-
 seling interactions (Srivastava et al., 2025a, 2022).
 
---- Page 3 ---
-
-For example, BeCOPE captures behavioral traits
+--- Page 3 ---\n\nFor example, BeCOPE captures behavioral traits
 in peer counseling interactions, while ConSum and
 EmpRes target summarization and empathetic re-
 sponse generation, respectively. However, these
@@ -332,9 +309,7 @@ EthicsMH does. This positions EthicsMH as a com-
 plementary resource that fills a unique gap in the
 landscape of ethical reasoning datasets.
 
---- Page 4 ---
-
-Feature
+--- Page 4 ---\n\nFeature
 EthicsMH (ours)
 ETHICS
 MedEthicEval
@@ -454,9 +429,7 @@ view annotations so that models can be evaluated
 not only on decision selection but also on explana-
 tion quality and alignment with professional norms.
 
---- Page 5 ---
-
-Subcategory
+--- Page 5 ---\n\nSubcategory
 #Scenarios
 % of Total
 Ethical Dimension Captured
@@ -569,9 +542,7 @@ Cases where an adult’s right to auton-
 omy conflicts with the provider’s duty to
 act in the patient’s best interest.
 
---- Page 6 ---
-
-– Autonomy vs Beneficence (Minor):
+--- Page 6 ---\n\n– Autonomy vs Beneficence (Minor):
 Dilemmas involving minors,
 where
 parental/caregiver authority may over-
@@ -696,9 +667,7 @@ creates situations where automated systems must
 reason about competing ethical priorities (e.g.,
 respecting autonomy versus preventing harm).
 
---- Page 7 ---
-
-In practice, failures in ethical reasoning can
+--- Page 7 ---\n\nIn practice, failures in ethical reasoning can
 produce harms ranging from inappropriate clinical
 advice to breaches of confidentiality or unfair
 recommendations
@@ -809,9 +778,7 @@ spectives are ethically defensible.
 Identifying
 patterns such as repeated neglect of minority
 
---- Page 8 ---
-
-viewpoints, conflation of medical facts with
+--- Page 8 ---\n\nviewpoints, conflation of medical facts with
 normative prescriptions, or systematic preference
 for paternalistic solutions is crucial for targeted
 mitigation.
@@ -920,9 +887,7 @@ strating this approach, EthicsMH may inspire the
 development of larger, more diverse datasets that
 capture cultural, regional, and institutional varia-
 
---- Page 9 ---
-
-tions in ethical reasoning. Such expansions could
+--- Page 9 ---\n\ntions in ethical reasoning. Such expansions could
 ultimately inform the design of mental health AI
 systems that are more equitable, context-sensitive,
 and socially responsible. The broader impact of
@@ -998,9 +963,7 @@ cultural representation, and design metrics bet-
 ter aligned with professional standards in mental
 health practice.
 
---- Page 10 ---
-
-References
+--- Page 10 ---\n\nReferences
 Rajshekhar Bipeta. 2019. Legal and ethical aspects of
 mental health care.
 Charlotte Blease, Cosima Locher, Marisa Leon-Carlyle,
@@ -1081,9 +1044,7 @@ Empirical Methods in Natural Language Processing,
 pages 2968–2978, Copenhagen, Denmark. Associa-
 tion for Computational Linguistics.
 
---- Page 11 ---
-
-Appendix A: Example Scenarios from EthicsMH
+--- Page 11 ---\n\nAppendix A: Example Scenarios from EthicsMH
 To illustrate the richness and structure of EthicsMH, we include selected example scenarios with their
 associated components across different subcategories.
 Example 1: Confidentiality and Trust in Mental Health
@@ -1126,9 +1087,7 @@ Reasoning Task:
 Select the most ethically responsible approach and justify it based on fairness, transparency, and
 minimizing harm principles.
 
---- Page 12 ---
-
-Expected Reasoning:
+--- Page 12 ---\n\nExpected Reasoning:
 Option 2 is preferred as it addresses fairness by not deploying a biased tool, minimizing potential harm to
 underserved racial groups and maintaining ethical integrity.
 Model Behavior:
@@ -1169,9 +1128,7 @@ Viewpoints:
 • Cultural perspective: Societal gender roles heavily influence perceptions of mental health needs.
 • Legal perspective: Gender discrimination may carry regulatory penalties.
 
---- Page 13 ---
-
-Example 4: Autonomy vs. Beneficence (Adult)
+--- Page 13 ---\n\nExample 4: Autonomy vs. Beneficence (Adult)
 Scenario:
 An adult patient with severe bipolar disorder refuses medication despite repeated hospitalizations due
 to manic episodes that endanger their safety. The psychiatrist must decide whether to seek involuntary
@@ -1214,9 +1171,7 @@ Expected Reasoning:
 Option 3 is ethically preferable where feasible, respecting the minor’s growing autonomy while ensuring
 safety. If unsuccessful and risk remains extreme, option 2 is ethically required.
 
---- Page 14 ---
-
-Model Behavior:
+--- Page 14 ---\n\nModel Behavior:
 LLMs may either infantilize all minors (defaulting to force) or overly liberalize autonomy without
 considering clinical urgency.
 Real-World Impact:
@@ -1260,5 +1215,4 @@ Revise the following draft scenario to incorporate expert feedback. Specifically
 [Insert draft JSON for refinement]
 These templates illustrate the iterative pipeline generation, expert validation, and refinement, highlighting
 how human judgment was embedded to ensure both structural rigor and contextual fidelity in the dataset.
-
-```
+\n```\n

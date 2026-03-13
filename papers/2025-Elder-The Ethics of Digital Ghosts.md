@@ -20,6 +20,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Virtue ethics"
@@ -35,11 +37,11 @@ doi: 10.4324/9781003632658
 isbn: 9781041058410
 url: "https://www.taylorfrancis.com/books/mono/10.4324/9781003632658/ethics-digital-ghosts-alexis-elder"
 external_pdf: "http://liu.diva-portal.org/smash/get/diva2:918869/FULLTEXT01"
-national_ethnic_cultural: Chinese
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: ""
-religious_values: Confucianism
-religious_values_list: Confucianism
+religious_values: "Confucianism"
+religious_values_list: "Confucianism"
 moral_psychology: "N/A"
 newtags: "Chinese, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Explores the ethics of AI, specifically 'digital ghosts', through Chinese philosophical traditions (Confucianism, Mohism, Zhuangism), emphasizing virtues like ren and li"

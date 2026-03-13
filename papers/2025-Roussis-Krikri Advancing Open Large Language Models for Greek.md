@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +47,13 @@ pdf_extract: "PDF Extracts/2025/2025-Roussis-Krikri Advancing Open Large Languag
 local_pdf: "[[PDFs/2025/2025-Roussis-Krikri Advancing Open Large Language Models for Greek.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Greek"
-languages_list: "English, Greek"
+cultures_nationalities_list: "N/A"
+languages_list: "Greek, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-Krikri-8B, Llama-3.1-8B, Meltemi"
+LLM_assessed: "Llama-3"
 DATA_URL: "https://huggingface.co/ilsp/Llama-Krikri-8B-Base"
 tags: 
 abstract: "We introduce Llama-Krikri-8B, a cutting-edge Large Language Model tailored for the Greek language, built on Meta’s Llama 3.1-8B. LlamaKrikri-8B has been extensively trained on highquality Greek data to ensure superior adaptation to linguistic nuances. With 8 billion parameters, it offers advanced capabilities while maintaining efficient computational performance. Llama-Krikri-8B supports both Modern Greek and English, and is also equipped to handle polytonic text and Ancient Greek."
@@ -98,7 +102,7 @@ This paper introduces Llama-Krikri-8B, a state-of-the-art Greek LLM built on Lla
 
 ## Data Description
 
-Llama-Krikri-8B is a next-generation Greek LLM based on Llama 3.1-8B, trained on 56.7B Greek tokens. The paper proposes three novel public benchmarks for Greek evaluation and supports Modern Greek, English, polytonic text, and Ancient Greek. Shows notable improvements over comparable Greek and multilingual LLMs. Uses human and synthetic instruction/preference data for alignment.
+Three novel Greek evaluation benchmarks introduced: IFEval-Greek (instruction-following), MT-Bench-Greek (multi-turn chat), and m-ArenaHard-Greek (code/math). Available at https://huggingface.co/datasets/ilsp/ifeval_greek, https://huggingface.co/datasets/ilsp/mt-bench-greek, and https://huggingface.co/datasets/ilsp/m-ArenaHard_greek.
 
 
 ## Detailed Summary

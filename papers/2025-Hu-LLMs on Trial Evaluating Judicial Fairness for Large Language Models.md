@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly used in high-stakes fields where their decisions impact rights and equity. However, LLMs’ judicial fairness and implications for social justice remain underexplored. When LLMs act as judges, the ability to fairly resolve judicial issues is a prerequisite to ensure their trustworthiness. Based on theories of judicial fairness, we construct a comprehensive framework to measure LLM fairness, leading to a selection of 65 labels and 161 corresponding..."
-LLM_assessed: "Gemini, Mistral, Llama-3, Qwen, DeepSeek, Phi"
+LLM_assessed: "DeepSeek, GLM, Gemini, Llama-3, Mistral, Phi, Qwen, Qwen-2"
 DATA_URL: "https://github.com/THUYRan/LLM-Fairness"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
@@ -97,7 +101,8 @@ JudiFair dataset: 177,100 unique case facts
 
 ## Data Description
 
-JudiFair is a comprehensive judicial fairness evaluation dataset comprising 177,100 unique case facts across 65 labels and 161 label values, derived from 1,100 Chinese judicial documents. Sixteen LLMs were evaluated including Glm 4, Gemini Flash 1.5, Mistral Nemo, Llama 3.1 8B, Qwen2.5 72B/7B, DeepSeek V3, DeepSeek R1-32B, Phi 4, and Mistral Small 3, assessing inconsistency, bias, and imbalanced inaccuracy across three evaluation metrics.
+JudiFair is an evaluation benchmark comprising 177,100 unique counterfactual case facts derived from 1,100 Chinese judicial documents, annotated with 65 extra-legal labels and 161 label values for LLM judicial fairness evaluation.
+
 
 ## Notes
 

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, GPT-4, Gemini, HyperCLOVA X"
+LLM_assessed: "GPT-3.5, GPT-4, Gemini"
 DATA_URL: "https://github.com/DojunPark/pragmatic_eval_korean"
 tags: 
 abstract: "Benchmarks play a significant role in the current evaluation of Large Language Models (LLMs), yet they often overlook the models’ abilities to capture the nuances of human language, primarily focusing on evaluating embedded knowledge and technical skills. To address this gap, our study evaluates how well LLMs understand context-dependent expressions from a pragmatic standpoint, specifically in Korean."
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,7 @@ Systematic evaluation of LLMs' pragmatic competence for Korean through four Gric
 
 ## Data Description
 
-This study introduces the first dedicated resource for pragmatic evaluation of LLMs in Korean, based on Gricean maxims of conversational implicature (quantity, quality, relation, manner). Using both multiple-choice questions for automatic evaluation and open-ended questions assessed by human experts, the study evaluates GPT-3.5, GPT-4, Gemini-Pro, and HyperCLOVA X. GPT-4 leads with scores of 81.11 (MCQ) and 85.69 (OEQ).
+Introduces a 120-unit Korean pragmatic competence test set covering four Gricean maxims (quantity, quality, relation, manner), with both MCQ and OEQ formats, evaluated by human experts.
 
 
 ## Notes

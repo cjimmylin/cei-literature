@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -82,7 +85,7 @@ We introduce the Humanistic Buddhism Corpus (HBC), a dataset containing over 80,
 
 ## Data Description
 
-The Humanistic Buddhism Corpus (HBC) contains over 80,000 Chinese-English parallel phrases extracted from Buddhist publications, including classical and modern Chinese text. The authors establish performance benchmarks using a base Transformer model and compare against Argos Translate and Google Translate. The corpus is one of the largest free domain-specific Chinese-English NMT datasets, featuring challenging religious metaphors, symbolism, and multiple interpretations.
+Humanistic Buddhism Corpus (HBC): 80,000+ Chinese-English parallel phrases from Buddhist publications, with MT performance benchmarks established using Transformer models and transfer learning setups.
 
 
 ## Notes

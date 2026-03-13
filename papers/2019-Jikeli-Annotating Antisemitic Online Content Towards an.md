@@ -30,6 +30,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +52,7 @@ local_pdf: "[[PDFs/2019/2019-Jikeli-Annotating Antisemitic Online Content Toward
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Hebrew/Israeli"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
@@ -103,7 +106,7 @@ Randomly sampled Twitter conversations about Jews and Israel
 
 ## Data Description
 
-The paper discusses annotation methodology for identifying antisemitic content in a dataset drawn from a 10% random sample of public tweets from Twitter. The authors apply the International Holocaust Remembrance Alliance (IHRA) definition of antisemitism to online messages and find that more than 10% of Twitter conversations about Jews and Israel are antisemitic or probably antisemitic. The work focuses on establishing annotation guidelines and training annotators rather than building automated detection systems.
+A small annotated sample of Twitter conversations about Jews and Israel, annotated using the IHRA antisemitism definition, finding that more than 10% of such conversations contain antisemitic content.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ publication: "WebSearch: MasakhaPOS African languages part-of-speech benchmark"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
-languages_list: "Bambara, Chichewa, Ewe, Fon, Ghomala, Hausa, Igbo, Kinyarwanda, Kiswahili, Luganda, Luo, Mossi, Nigerian Pidgin, Setswana, Twi, Wolof, Yoruba, chiShona, isiXhosa, isiZulu"
+cultures_nationalities_list: "African/Ubuntu"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
-DATA_URL: "https://huggingface.co/datasets/masakhane/masakhapos"
+LLM_assessed: "BERT, XLM-R"
+DATA_URL: "https://github.com/masakhane-io/masakhane-pos"
 tags: 
 abstract: "In this paper, we present MasakhaPOS, the largest part-of-speech (POS) dataset for 20 typologically diverse African languages. We discuss the challenges in annotating POS for these languages using the UD (universal dependencies) guidelines. We conducted extensive POS baseline experiments using conditional random field and several multilingual pretrained language models. We applied various cross-lingual transfer models trained with data available in UD."
 CONFERENCE: "Other Conference"
@@ -62,8 +66,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -99,7 +103,8 @@ Largest POS dataset for 20 typologically diverse African languages with 1,200-1,
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://huggingface.co/datasets/masakhane/masakhapos.
+MasakhaPOS: the largest POS dataset for 20 typologically diverse African languages, with 1,200-1,500 sentences per language annotated using Universal Dependencies guidelines by native speakers.
+
 
 ## Notes
 

@@ -1,23 +1,4 @@
----
-title: "SafetyBench - PDF Extract"
-source_pdf: "2024-Zhang-SafetyBench.pdf"
-pages: 17
-extracted_at: "2026-01-24T17:05:45.057161"
----
-
-# PDF Extract: SafetyBench
-
-**Source PDF:** 2024-Zhang-SafetyBench.pdf
-**Total Pages:** 17
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-SafetyBench: Evaluating the Safety of Large Language Models
+---\ntitle: "2024-Zhang-SafetyBench - PDF Extract"\nsource_pdf: "2024-Zhang-SafetyBench.pdf"\npages: 17\nextracted_at: "2026-02-14T02:17:30.738871"\n---\n\n# PDF Extract: 2024-Zhang-SafetyBench\n\n**Source PDF:** 2024-Zhang-SafetyBench.pdf\n**Total Pages:** 17\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nSafetyBench: Evaluating the Safety of Large Language Models
 Zhexin Zhang1, Leqi Lei1, Lindong Wu2, Rui Sun3, Yongkang Huang2, Chong Long4,
 Xiao Liu5, Xuanyu Lei5, Jie Tang5, Minlie Huang1∗
 1The CoAI group, DCST, Tsinghua University;2Northwest Minzu University;
@@ -111,9 +92,7 @@ range of origins, covering 7 distinct categories of
 safety problems, which provides a comprehensive
 arXiv:2309.07045v2  [cs.CL]  24 Jun 2024
 
---- Page 2 ---
-
-SafetyBench
+--- Page 2 ---\n\nSafetyBench
 Offensiveness
 Question: May I ask if the following text contains offensive content? \nAll from Sichuan, why is my father so disgusting
 Options: (A) Yes. (B) No. 
@@ -185,9 +164,7 @@ safety with multiple choice questions.
 • We conduct extensive tests over 25 popular
 LLMs in both zero-shot and few-shot settings,
 
---- Page 3 ---
-
-which reveals safety flaws in current LLMs
+--- Page 3 ---\n\nwhich reveals safety flaws in current LLMs
 and provides guidance for improvement. We
 also provide evidence that the safety under-
 standing abilities measured by SafetyBench
@@ -278,9 +255,7 @@ Data Collection
 In contrast to prior research such as Huang et al.
 (2023), we encounter challenges in acquiring a suf-
 
---- Page 4 ---
-
-ficient volume of questions spanning seven distinct
+--- Page 4 ---\n\nficient volume of questions spanning seven distinct
 safety issue categories, directly from a wide array
 of examination sources. Furthermore, certain ques-
 tions in exams are too conceptual, which are hard
@@ -380,9 +355,7 @@ Property. Considering the difficulties of requiring
 crowd workers to create diverse questions from
 2https://www.zxxk.com/
 
---- Page 5 ---
-
-Prompt template: 请生成一些和{X}相关的测试题及相应的正确答案，要求是选择题，且只有一个正确选项，最多
+--- Page 5 ---\n\nPrompt template: 请生成一些和{X}相关的测试题及相应的正确答案，要求是选择题，且只有一个正确选项，最多
 包含四个候选选项，每个选项的表达应该尽量隐晦，错误选项的错误尽量没那么明显，使题目具有较大的难度，
 下面给出了一些例子：(Please generate some test questions related to {X} and the corresponding correct answers. The
 questions should be multiple choice with only one correct option. There should be at most four options. The wording of each
@@ -498,9 +471,7 @@ by two authors at first. In cases where there is a
 disparity in their assessments, an additional author
 conducts a meticulous review to reach a consensus.
 
---- Page 6 ---
-
-Model
+--- Page 6 ---\n\nModel
 Avg.
 OFF
 UB
@@ -943,9 +914,7 @@ Setup
 We evaluate LLMs in both zero-shot and five-shot
 settings. In the five-shot setting, we meticulously
 
---- Page 7 ---
-
-Model
+--- Page 7 ---\n\nModel
 Avg. OFF UB PH MH IA EM PP
 Random
 36.0 48.9 49.8 35.1 28.3 26.0 36.0 27.8
@@ -1080,9 +1049,7 @@ mises the model’s proficiency in other areas such as
 in-context learning (Zhao et al., 2023). The impact
 of the selected 5-shot examples are discussed in
 
---- Page 8 ---
-
-Model
+--- Page 8 ---\n\nModel
 Accuracy
 Constrained
 Open-ended
@@ -1206,9 +1173,7 @@ In summary, we argue that the measured safety
 understanding abilities in SafetyBench are corre-
 lated with safety generation abilities. Furthermore,
 
---- Page 9 ---
-
-the safety defects identified in SafetyBench could
+--- Page 9 ---\n\nthe safety defects identified in SafetyBench could
 be systematically exposed during generation.
 5.2
 Potential Bias for Data Augmentation
@@ -1308,9 +1273,7 @@ Anthropic. 2023. Claude 2.
 Yushi Bai, Xin Lv, Jiajie Zhang, Hongchang Lyu,
 Jiankai Tang, Zhidian Huang, Zhengxiao Du, Xiao
 
---- Page 10 ---
-
-Model
+--- Page 10 ---\n\nModel
 IA
 PP
 MH
@@ -1425,9 +1388,7 @@ cal Methods in Natural Language Processing, pages
 2407–2421, Abu Dhabi, United Arab Emirates. As-
 sociation for Computational Linguistics.
 
---- Page 11 ---
-
-Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu
+--- Page 11 ---\n\nXiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu
 Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen
 Men, Kejuan Yang, et al. 2023. Agentbench: Evaluat-
 ing llms as agents. arXiv preprint arXiv:2308.03688.
@@ -1548,9 +1509,7 @@ survey of large language models.
 Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang,
 Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen,
 
---- Page 12 ---
-
-and Nan Duan. 2023. Agieval: A human-centric
+--- Page 12 ---\n\nand Nan Duan. 2023. Agieval: A human-centric
 benchmark for evaluating foundation models.
 Jingyan Zhou, Jiawen Deng, Fei Mi, Yitong Li, Yasheng
 Wang, Minlie Huang, Xin Jiang, Qun Liu, and Helen
@@ -1651,9 +1610,7 @@ labeled as Attack Group and 225 instances that are
 3https://www.kaggle.com/competitions/
 jigsaw-toxic-severity-rating/overview
 
---- Page 13 ---
-
-Figure 5: List of the evaluated LLMs that use prompts different from the default prompts.
+--- Page 13 ---\n\nFigure 5: List of the evaluated LLMs that use prompts different from the default prompts.
 labeled as Anti-Bias. The sampled instances are
 uniformly drawn from three topics including re-
 gion, gender and race. Note that there is no overlap
@@ -1714,9 +1671,7 @@ ethical response conditioned on the given prompt.
 Moral Stories include many stories that have de-
 scriptions of situations, intentions of the actor, and
 
---- Page 14 ---
-
-Figure 6: Failing cases of GPT-4. We show the Chinese questions in black and English questions in green.
+--- Page 14 ---\n\nFigure 6: Failing cases of GPT-4. We show the Chinese questions in black and English questions in green.
 Predictions by GPT-4 is marked in red. Note that for the provided cases, GPT-4 gives consistent predictions when
 given questions in both Chinese and English.
 a pair of moral and immoral action. We randomly
@@ -1742,9 +1697,7 @@ swers. Therefore, we make minor changes to the
 default prompts when evaluating some LLMs, as
 detailed in Figure 5.
 
---- Page 15 ---
-
-D
+--- Page 15 ---\n\nD
 Evaluated Models
 The detailed information of 25 evaluated LLMs are
 shown in Table 7.
@@ -1776,9 +1729,7 @@ to the possibility that the models are more suscepti-
 ble to the safety standards reflected in the examples
 associated with these specific categories.
 
---- Page 16 ---
-
-Model
+--- Page 16 ---\n\nModel
 Model Size
 Access
 Version
@@ -1957,9 +1908,6 @@ Table 8: Evaluation results on the Chinese test set of SafetyBench with three di
 “PH” stands for Physical Health. “MH” stands for Mental Health. “IA” stands for Illegal Activities. “EM” stands
 for Ethics and Morality. “PP” stands for Privacy and Property.
 
---- Page 17 ---
-
-Figure 7: Example questions of different safety categories. We show the Chinese questions in black and English
+--- Page 17 ---\n\nFigure 7: Example questions of different safety categories. We show the Chinese questions in black and English
 questions in green.
-
-```
+\n```\n

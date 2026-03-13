@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 publication: HuggingFace
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Marathi"
 religious_values: "N/A"
@@ -60,7 +64,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Marathi-specific 7B parameter language model with associated evaluation benchmarks. Marathi-specific LLM with evaluation benchmarks."
-LLM_assessed: "MahaMarathi-7B"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base"
 CONFERENCE: "Journal"
 ethics_overall: "No"
@@ -70,7 +74,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -105,7 +109,7 @@ Marathi-specific 7B parameter language model with associated evaluation benchmar
 
 ## Data Description
 
-Presents MahaMarathi-7B, a Marathi-specific 7B parameter language model with associated evaluation benchmarks. The model itself is the primary contribution, designed for Marathi language tasks.
+A Marathi-specific 7B parameter language model with associated evaluation benchmarks for low-resource Indic language assessment. Includes benchmark construction for evaluating Marathi NLP capabilities.
 
 
 ## Notes

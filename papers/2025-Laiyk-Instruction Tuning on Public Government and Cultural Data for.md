@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ publication: "arxiv.org / ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kazakh"
-languages_list: Kazakh
+cultures_nationalities_list: "N/A"
+languages_list: "Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, Alpaca, Claude, Claude 3.74, Claude-3.5-Sonnet, Falcon 23, Falcon 24, Falcon 27, Falcon-3, GPT-4, GPT-4o, Gemma, Gemma 24.87, Gemma 29.26, Gemma 41.94, Gemma-2, LLaMA 3.1, LLaMA-3.1, Llama, Qwen, Qwen 26.63, Qwen 39.64, Qwen 40.58, Qwen-2.5, Qwen2.5, RoBERTa, BERT"
+LLM_assessed: "Falcon, Gemma-2, GPT-4o, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/AmanMussa"
 tags: 
 abstract: "Instruction tuning in low-resource languages remains underexplored due to limited text data, particularly in government and cultural domains. To address this, we introduce and open-source a large-scale (10,600 samples) instruction-following (IFT) dataset, covering key institutional and cultural knowledge relevant to Kazakhstan. Our dataset enhances LLMs’ understanding of procedural, legal, and structural governance topics."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -96,7 +100,8 @@ Introduces 10,600-sample instruction-following dataset covering institutional an
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, Alpaca, Claude, Claude 3.74, Claude-3.5-Sonnet, Falcon 23, Falcon 24, Falcon 27, Falcon-3, GPT-4, GPT-4o, Gemma, Gemma 24.87, Gemma 29.26, Gemma 41.94, Gemma-2, LLaMA 3.1, LLaMA-3.1, Llama, Qwen, Qwen 26.63, Qwen 39.64, Qwen 40.58, Qwen-2.5, Qwen2.5, RoBERTa, BERT. Verified dataset/resource link: https://huggingface.co/datasets/AmanMussa.
+10,600-sample Kazakh instruction-following dataset (GovSet + CultSet) covering Kazakhstan's institutional/government procedures and cultural knowledge, constructed via GPT-4o-assisted generation from gov.kz and Kazakh Wikipedia with full native-speaker human verification.
+
 
 ## Notes
 

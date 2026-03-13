@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -139,7 +142,7 @@ The paper successfully introduces Fatwaset as the first publicly available Arabi
 
 ## Data Description
 
-The paper presents FatwaSet, the first public Arabic dataset of Islamic fatwas collected from various trusted sources including agencies, religious scholars, and websites. The dataset includes fatwas along with rich metadata and is designed for NLP tasks such as language modeling, question answering, topic identification, and text classification. An Exploratory Data Analysis is performed but no models are benchmarked.
+Fatwaset: the first public Arabic dataset of Islamic fatwas containing 130,182 records from 13 trusted Arabic-language websites across Arab countries, with rich metadata suitable for NLP tasks including language modeling, QA, and text classification.
 
 
 ## Notes

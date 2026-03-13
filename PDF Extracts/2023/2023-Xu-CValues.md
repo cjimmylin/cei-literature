@@ -1,23 +1,4 @@
----
-title: "CValues - PDF Extract"
-source_pdf: "2023-Xu-CValues.pdf"
-pages: 15
-extracted_at: "2026-01-24T17:05:18.392103"
----
-
-# PDF Extract: CValues
-
-**Source PDF:** 2023-Xu-CValues.pdf
-**Total Pages:** 15
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-CVALUES: Measuring the Values of Chinese Large Language Models
+---\ntitle: "2023-Xu-CValues - PDF Extract"\nsource_pdf: "2023-Xu-CValues.pdf"\npages: 15\nextracted_at: "2026-02-14T02:17:28.536898"\n---\n\n# PDF Extract: 2023-Xu-CValues\n\n**Source PDF:** 2023-Xu-CValues.pdf\n**Total Pages:** 15\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nCVALUES: Measuring the Values of Chinese Large Language Models
 from Safety to Responsibility
 Guohai Xu1, Jiayi Liu1, Ming Yan1∗, Haotian Xu1, Jinghui Si1, Zhuoran Zhou1
 Peng Yi1, Xing Gao1, Jitao Sang2, Rong Zhang1, Ji Zhang1
@@ -113,9 +94,7 @@ sessing Chinese LLMs. To bridge this gap, sev-
 eral evaluation benchmark specifically targeted
 arXiv:2307.09705v1  [cs.CL]  19 Jul 2023
 
---- Page 2 ---
-
-Level-1. Safety
+--- Page 2 ---\n\nLevel-1. Safety
 Level-2.
 Responsibility
 
@@ -220,9 +199,7 @@ AI governance Chinese dataset including experts’ questions
 and answers. You cand find 100PoisonMpts on
 https://modelscope.cn/datasets/damo/100PoisonMpts/summary
 
---- Page 3 ---
-
-After conducting extensive experiments, we ob-
+--- Page 3 ---\n\nAfter conducting extensive experiments, we ob-
 serve that most of the current Chinese LLMs per-
 form well in terms of safety with help of instructing
 tuning or RLHF. However, there is still large room
@@ -325,9 +302,7 @@ best to attack the chatbot. If the input question
 successfully trigger safety issues, the question will
 be labeled its scenario and put into test prompts.
 
---- Page 4 ---
-
-Questions
+--- Page 4 ---\n\nQuestions
 Responses
 Safe
 Responses
@@ -431,9 +406,7 @@ comparisons over time. Thirdly, it could be costly,
 time-consuming approach, and there may be con-
 cerns related to privacy protection as discussed in
 
---- Page 5 ---
-
-PandaLM (Wang et al., 2023a).
+--- Page 5 ---\n\nPandaLM (Wang et al., 2023a).
 Following recently popular benchmark (Huang
 et al., 2023), we construct multi-choice format
 prompt to evaluate the models’ abilities of dis-
@@ -534,9 +507,7 @@ ion. Scores between 7-10 indicate agreement,
 with higher scores representing levels of sup-
 port.
 
---- Page 6 ---
-
-Model
+--- Page 6 ---\n\nModel
 Developers
 Parameters
 Pretrained
@@ -693,9 +664,7 @@ We also choose to assess the LLMs shown in Table
 and example is shown in Figure 3.
 6https://github.com/X-PLUG/CValues
 
---- Page 7 ---
-
-Values∗
+--- Page 7 ---\n\nValues∗
 Values
 Model
 Level-1∗
@@ -828,9 +797,7 @@ ways, one is through raw adversarial prompts eval-
 uated manually, and the other is through multiple-
 choice prompts evaluated automatically. These
 
---- Page 8 ---
-
-two methods assess different aspects of the model.
+--- Page 8 ---\n\ntwo methods assess different aspects of the model.
 Multiple-choice prompts tend to test the model’s
 understanding of unsafe or irresponsible behavior,
 which falls within the scope of comprehension. On
@@ -939,9 +906,7 @@ safety issue of Chinese LLMs. However, they use
 InstructGPT as the evaluator, which may not be
 familiar with Chinese culture and social values.
 
---- Page 9 ---
-
-In this paper, we provide a comprehensive evalua-
+--- Page 9 ---\n\nIn this paper, we provide a comprehensive evalua-
 tion on Chinese social values of LLMs in terms of
 both safety and responsibility. Besides, we provide
 both human evaluation and automatic evaluation
@@ -1055,9 +1020,7 @@ Yüksekgönül, Mirac Suzgun, Nathan Kim, Neel
 Guha, Niladri S. Chatterji, Omar Khattab, Peter
 Henderson, Qian Huang, Ryan Chi, Sang Michael
 
---- Page 10 ---
-
-Xie, Shibani Santurkar, Surya Ganguli, Tatsunori
+--- Page 10 ---\n\nXie, Shibani Santurkar, Surya Ganguli, Tatsunori
 Hashimoto, Thomas Icard, Tianyi Zhang, Vishrav
 Chaudhary, William Wang, Xuechen Li, Yifan Mai,
 Yuhui Zhang, and Yuta Koreeda. 2022. Holistic eval-
@@ -1183,9 +1146,7 @@ The Eleventh International Conference on Learning
 Representations, ICLR 2023, Kigali, Rwanda, May
 1-5, 2023. OpenReview.net.
 
---- Page 11 ---
-
-Hui Zeng. 2023. Measuring massive multitask chinese
+--- Page 11 ---\n\nHui Zeng. 2023. Measuring massive multitask chinese
 understanding. CoRR, abs/2304.12986.
 Wei Zeng, Xiaozhe Ren, Teng Su, Hui Wang, Yi Liao,
 Zhiwei Wang, Xin Jiang, ZhenZhang Yang, Kaisheng
@@ -1224,9 +1185,7 @@ and Nan Duan. 2023b. Agieval: A human-centric
 benchmark for evaluating foundation models. arXiv
 preprint arXiv:2304.06364.
 
---- Page 12 ---
-
-A
+--- Page 12 ---\n\nA
 Taxonomy and Examples
 We first introduce the definition of safety scenarios
 as following:
@@ -1369,9 +1328,7 @@ Instruct method (Wang et al., 2023b), we use
 the prompts from the pool to augment more
 prompts using ChatGPT (OpenAI, 2022).
 
---- Page 13 ---
-
-Prompt
+--- Page 13 ---\n\nPrompt
 Seed
 Responses
 Positive
@@ -1426,9 +1383,7 @@ used to get negative from positive response.
 Finally, we get 145k comparison samples which
 split into 116k for train set and 29k for test set.
 
---- Page 14 ---
-
-Domain
+--- Page 14 ---\n\nDomain
 Goal 
 Example Prompt (Chinese)
 Example Prompt (English)
@@ -1540,8 +1495,5 @@ directions for graduates of
 oracle bone inscription?
 Figure 5: The goal and example of each domain.
 
---- Page 15 ---
-
-Figure 6: A screenshot of our labeling tool for professional experts.
-
-```
+--- Page 15 ---\n\nFigure 6: A screenshot of our labeling tool for professional experts.
+\n```\n

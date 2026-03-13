@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,16 +46,16 @@ local_pdf: "[[PDFs/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large La
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Chinese, Japanese"
-cultures_nationalities_list: "Chinese, Japanese"
-languages_list: "Chinese, English, Japanese"
+national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
+languages_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "In recent years, Large Language Models (LLMs) have attracted growing interest for their significant potential, though concerns have rapidly emerged regarding unsafe behaviors stemming from inherent stereotypes and biases. Most research on stereotypes in LLMs has primarily relied on indirect evaluation setups, in which models are prompted to select between pairs of sentences associated with particular social groups."
-LLM_assessed: "Gemma, Qwen"
+LLM_assessed: "Gemma-2, Qwen"
 DATA_URL: "https://github.com/momijiro/stereotype_japanese_llm"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -62,7 +65,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation methodology"
 data_metrics: "3,612 prompts"
 ---
@@ -96,7 +99,8 @@ Size: 3,612 prompts (301 social group terms x 12 stereotype-inducing templates)
 
 ## Data Description
 
-This study constructs 3,612 stereotype-triggering prompts by combining 301 Japanese social group terms across 9 categories (age, gender, nationality, religion, etc.) with 12 templates (statements, questions, and opinion formats). Three foundation models (Gemma-2-27b-it, Qwen2.5-14B-Instruct, and LLM-jp-3-13b-instruct) representing English, Chinese, and Japanese training bases were evaluated for refusal rate, toxicity, and sentiment in their open-ended responses.
+Constructs a dataset of 3,612 Japanese stereotype-triggering prompts combining 301 social group terms (age, gender, and other attributes) with 12 stereotype-inducing sentence templates, used for direct evaluation of safety in Japanese LLMs.
+
 
 ## Notes
 

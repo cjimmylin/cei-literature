@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ pdf_extract: "PDF Extracts/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values
 local_pdf: "[[PDFs/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2504.01127.pdf"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "N/A"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -49,7 +53,7 @@ key_contribution: "Introduces CQ-Bench, a benchmark for evaluating LLMs' metacog
 significance: "Demonstrates that while LLMs can select explicit values, they struggle with granular attitude detection and open-ended cultural reasoning"
 abstract: "Cultural Intelligence (CQ) refers to the ability to understand unfamiliar cultural contexts—a crucial skill for large language models (LLMs) to effectively engage with globally diverse users. Existing studies often focus on explicitly stated cultural norms, but fail to capture the subtle, implicit values that are common in daily conversation. To address this gap, we introduce CQ-Bench, a benchmark specifically designed to assess LLMs’ capability to infer implicit cultural values from natural..."
 paper_summary: "Abstract: Cultural Intelligence (CQ) refers to the ability to understand unfamiliar cultural contexts—a crucial skill for large language models (LLMs) to effectively engage with globally diverse users. Existing | Overview: Can LLMs Grasp Implicit Cultural Values? Benchmarking LLMs' Cultural Intelligence with CQ-Bench Ziyi Liu1 Priyanka Dey1 Jen-tse Huang3 Zhenyu Zhao1 Bowen Jiang4 Rahul Gupta2 Yang Liu2 Yao Du1 Jieyu Zh | Methodology: for extracting social norms from conversations, em- phasizing norm mining rather than cultural value identification. In contrast, our work focuses on  | Key Findings: We construct three escalating tasks—attitude detection, value selection, and value extraction—to systemati- cally evaluate open-sourced and close-sour | Conclusions: We introduce CQ-Bench, a benchmark for evaluat- ing LLMs' ability to infer implicit cultural values in conversations. CQ-Bench assesses model's cul- t"
-LLM_assessed: "GPT-4o, o1, o3, Qwen, Llama-3, DeepSeek"
+LLM_assessed: "DeepSeek, GPT-4o, Llama-3, Qwen, Qwen-2, o1"
 DATA_URL: "https://github.com/uscnlp-lime/CQ-Bench"
 publication: arXiv
 CONF-CC: "Preprint"
@@ -60,7 +64,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
@@ -123,7 +127,7 @@ Implicit CQ is a distinct capability frontier that is not automatically captured
 
 ## Data Description
 
-CQ-Bench is a benchmark for assessing LLMs' cultural intelligence through their ability to infer implicit cultural values from conversational contexts. It consists of 1,000 multi-character conversation-based stories embedding values from the World Values Survey and GlobalOpinions across political, religious, social, and ethical topics. The benchmark includes three tasks of increasing complexity: attitude detection, value selection, and value extraction, evaluated on both open-source and closed-source models.
+CQ-Bench: synthetic multi-character conversation-based stories with implicit cultural values sourced from the World Values Survey and GlobalOpinions, evaluated on three tasks of increasing difficulty: attitude detection, value selection, and value extraction.
 
 
 ## Notes

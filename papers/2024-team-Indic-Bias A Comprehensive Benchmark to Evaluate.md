@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -100,7 +103,7 @@ Comprehensive benchmark by AI4Bharat to evaluate LLM fairness in Indian contexts
 
 ## Data Description
 
-GitHub repository for the Indic-Bias benchmark by AI4Bharat, designed to evaluate LLM fairness in Indian contexts across multiple Indic languages. Covers broad Indian identity-based fairness evaluation including Dravidian languages. Specific evaluated models not identified from available metadata.
+AI4Bharat's multi-language Indian fairness benchmark evaluating LLM cultural alignment across Indic languages, covering diverse identity groups and cultural contexts. The benchmark dataset is released on GitHub.
 
 
 ## Notes

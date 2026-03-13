@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +52,12 @@ CONF-CC: "ACL 2025 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: Indonesian
+languages_list: "Indonesian, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Gemma, Gemma 2, Llama, Llama 3, Llama 3.1, Mistral, Mistral 0.3 Instruct, Mistral 0.3 57, Mistral 0.3 68, Mistral 7B"
+LLM_assessed: "Gemma-2, LLaMA, Llama-3, Mistral"
 DATA_URL: "https://github.com/veranep/crosslingualdetoxdebias"
 tags: 
 abstract: "Recent generative large language models (LLMs) show remarkable performance in nonEnglish languages, but when prompted in those languages they tend to express higher harmful social biases and toxicity levels. Prior work has shown that finetuning on specialized datasets can mitigate this behavior, and doing so in English can transfer to other languages. In this work, we investigate the impact of different finetuning methods on the model’s bias and toxicity, but also on its ability to produce..."
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "20 languages"

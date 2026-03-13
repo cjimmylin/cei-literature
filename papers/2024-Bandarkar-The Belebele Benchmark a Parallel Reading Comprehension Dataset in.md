@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +50,15 @@ local_pdf: "[[PDFs/2024/2024-Bandarkar-The Belebele Benchmark a Parallel Reading
 publication: "arXiv / ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
-languages_list: "Assamese, Bengali, English, Sinhala"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOM, BLOOMZ, FALCON 40B, GPT3, GPT3.5, GPT3.5-TURBO, Llama, LLAMA 1, LLAMA 1., LLAMA 2, Llama-2, LLAMA-2-CHAT, RoBERTa"
-DATA_URL: "https://github.com/openai/tiktoken"
+LLM_assessed: "BERT, BLOOM, Falcon, GPT-3, GPT-3.5, LLaMA, Llama-2, RoBERTa"
+DATA_URL: "https://github.com/facebookresearch/belebele"
 tags: 
 abstract: "We present BELEBELE, a multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants. Significantly expanding the language coverage of natural language understanding (NLU) benchmarks, this dataset enables the evaluation of text models in high-, medium-, and low-resource languages. Each question is based on a short passage from the FLORES-200 dataset and has four multiplechoice answers."
 CONFERENCE: "ACL 2024"
@@ -98,7 +103,8 @@ Parallel MRC dataset in 122 languages including Bengali, Sinhala, and Assamese. 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, BLOOMZ, FALCON 40B, GPT3, GPT3.5, GPT3.5-TURBO, Llama, LLAMA 1, LLAMA 1., LLAMA 2, Llama-2, LLAMA-2-CHAT, RoBERTa. Verified dataset/resource link: https://github.com/openai/tiktoken.
+BELEBELE is a fully parallel multiple-choice machine reading comprehension dataset spanning 122 language variants, with 900 unique questions based on passages from FLORES-200. It enables evaluation of both multilingual masked language models (via fine-tuning) and LLMs (via in-context learning and zero-shot).
+
 
 ## Notes
 

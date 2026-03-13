@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "Value Pluralism / Schwartz, Moral Foundations Theory"
 newtags: 
 tags: 
 abstract: "Aligning Large Language Models (LLMs) with the diverse spectrum of human values remains a central challenge: preference-based methods often fail to capture deeper motivational principles. Value-based approaches offer a more principled path, yet three gaps persist– extraction often ignores hierarchical structure, evaluation detects presence but not calibrated intensity, and therefore, the steerability of LLMs at controlled intensities remains insufficiently understood."
-LLM_assessed: "GPT-4, Claude, Grok, Qwen, Mistral, Phi, Gemma"
+LLM_assessed: "ChatGLM, Claude, GPT-4, Gemini, Gemma, Grok, Mistral, Phi-3, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -98,7 +102,8 @@ See report
 
 ## Data Description
 
-VALUEFLOW introduces a unified framework for value-based alignment in LLMs comprising HIVES (a hierarchical value embedding space), VIDB (a large-scale Value Intensity Database with 10K texts per value scored via Plackett-Luce aggregation), and a ranking-based evaluator. The study evaluates steerability across ten models (Qwen3-32B, Mistral-3.1-Small-24B, Phi-4, GLM-4-32B, gpt-oss-20b, Gemma-3-27B-it, GPT-4.1, Claude-4-Sonnet, Grok-4, Gemini-2.5-Flash) on 500 prompts spanning four value theories (SVT, MFT, Rights, Duties) with 32 values.
+VIDB (Value Intensity DataBase): a large-scale resource of value-labeled texts with calibrated intensity scores derived from ranking-based aggregation across multiple value theories (SVT, MFT, Rights, Duties), used as anchor references for evaluating value intensity in LLM outputs.
+
 
 ## Notes
 

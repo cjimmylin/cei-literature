@@ -22,6 +22,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +42,7 @@ pdf_extract: "PDF Extracts/2024/2024-Khamassi-Strong and weak alignment of large
 local_pdf: "[[PDFs/2024/2024-Khamassi-Strong and weak alignment of large language models.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2408.04655.pdf"
 ethics_perspective: "AI Safety & Alignment"
-national_ethnic_cultural: "Chinese"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"

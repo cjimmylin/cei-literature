@@ -21,6 +21,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +60,7 @@ ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
@@ -98,7 +101,7 @@ Detecting online hate is a difficult task that even state-of-the-art models stru
 
 ## Data Description
 
-HateCheck is a suite of 3,728 functional test cases for hate speech detection models, covering 29 model functionalities grouped into 11 classes. The test cases include distinct expressions of hate and contrastive non-hateful content across seven protected groups (women, trans people, gay people, black people, disabled people, Muslims, immigrants). Two fine-tuned BERT-base models (trained on Davidson et al. and Founta et al. datasets) and two commercial models (Google Jigsaw's Perspective and Two Hat's SiftNinja) were evaluated on the test suite.
+HateCheck: suite of 3,728 functional test cases across 29 functionalities for diagnostic evaluation of hate speech detection models, with validated gold standard labels.
 
 
 ## Notes

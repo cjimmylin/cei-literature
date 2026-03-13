@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "EMNLP 2025 Findings"
 local_pdf: "[[PDFs/2025/2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Indonesian, Arabic, American, Multicultural/Cross-cultural"
-cultures_nationalities_list: "13 Arab countries, Pan-Arab"
+national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Arabic, Multicultural/Cross-cultural"
 languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Qwen-2.5-7B-Instruct, Gemma-2, ALLaM, SILMA-9B-Instruct"
+LLM_assessed: "Gemma-2, Qwen"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) often reflect Western-centric biases, limiting their effectiveness in diverse cultural contexts. Although some work has explored cultural alignment, the potential for cross-cultural transfer, using alignment in one culture to improve performance in others, remains underexplored. This paper investigates cross-cultural transfer of commonsense reasoning in the Arab world, where linguistic and historical similarities coexist with local cultural differences."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

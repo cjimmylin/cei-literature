@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ publication: "IEEE ICCIA 2024"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kazakh"
+cultures_nationalities_list: "N/A"
 languages_list: "Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -101,7 +104,7 @@ Dataset compiled from YouTube, Telegram, and VK using keyword-based crawling for
 
 ## Data Description
 
-A Kazakh-language hate speech detection dataset compiled from YouTube, Telegram, and VK using keyword-based crawling. The dataset covers culturally relevant categories including cyberbullying, racism, religious extremism, and nationalistic extremism specific to Kazakhstan. No specific LLMs were evaluated; the dataset addresses the gap in Kazakh-language content moderation resources.
+Kazakh hate speech dataset compiled from YouTube, Telegram, and VK using keyword-based crawling, covering cyberbullying, racism, religious extremism, and nationalistic extremism categories. Addresses culturally relevant harmful content categories specific to Kazakhstan.
 
 
 ## Notes

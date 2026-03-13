@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ paper_summary: "Abstract: Warning: May contain offensive statements! Stereotype 
 local_pdf: "[[PDFs/2025/2025-Narnaware-SB-Bench.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-3, Gemma, Qwen, Phi"
+LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Gemma, LLaMA, Llama-3, Phi-3, Qwen, Qwen-2"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -102,7 +106,7 @@ Stereotype biases in Large Multimodal Models (LMMs) perpetuate harmful societal 
 
 ## Data Description
 
-BBQ-Vision (BBQ-V) is a comprehensive multimodal benchmark containing 14,144 image-question pairs across 9 social bias categories and 50 sub-categories, designed to evaluate stereotype biases in Large Multimodal Models using real-world, multi-actor images. Nineteen state-of-the-art open-source and closed-source LMMs were benchmarked, including LLaMA-3.2-Vision, Qwen2.5-VL, Gemma-3, Phi-3.5/4-Vision, InternVL, GPT-4o/4o-mini, and Gemini models, revealing persistent biases with thinking models inducing more bias in reasoning chains.
+BBQ-V (BBQ-Vision) is a multimodal benchmark of 14,144 real-world, multi-actor image-question pairs spanning 9 social bias categories and 50 sub-categories, designed to evaluate stereotype biases in Large Multimodal Models. The dataset and evaluation code are stated as publicly available via a hyperlink in the PDF ('available here') but the URL was not captured in the extract text.
 
 
 ## Notes

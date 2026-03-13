@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: As AI agents surpass human capabilities, scalable over
 local_pdf: "[[PDFs/2025/2025-Saunders-A Scalable Oversight Benchmark.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Claude, GPT-4, DeepSeek"
+LLM_assessed: "Claude, GPT-4o"
 DATA_URL: "https://github.com/ArjunPanickssery/math_problems_debate"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +51,8 @@ local_pdf: "[[PDFs/2024/2024-SUTD-Sailor Open Language Models for South-East.pdf
 publication: "EMNLP 2024 Demo"
 CONF-CC: "EMNLP 2024 Demo"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Indonesian, Thai, Vietnamese"
-cultures_nationalities_list: "Chinese, Indonesian, Thai, Vietnamese, Southeast Asian"
+national_ethnic_cultural: "Indonesian, Thai, Vietnamese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indonesian, Thai, Vietnamese, Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,15 +60,15 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We present Sailor, a family of open language models ranging from 0.5B to 7B parameters, tailored for South-East Asian (SEA) languages. These models are continually pre-trained from Qwen1.5, a great language model for multilingual use cases. From Qwen1.5, Sailor models accept 200B to 400B tokens, primarily covering the languages of English, Chinese, Vietnamese, Thai, Indonesian, Malay, and Lao. The training leverages several techniques, including BPE dropout for improving the model robustness,..."
-LLM_assessed: "Llama, Llama 2, Llama-2, Mistral, Qwen1.5"
-DATA_URL: "https://github.com/sail-sg/sailor-llm"
+LLM_assessed: "Llama-2, Mistral, Qwen-1.5"
+DATA_URL: "https://huggingface.co/sail"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
@@ -100,7 +105,8 @@ Suite of open language models for SEA focusing on Indonesian, Thai, Vietnamese, 
 
 ## Data Description
 
-Backfill summary: Models assessed include Llama, Llama 2, Llama-2, Mistral, Qwen1.5. Verified dataset/resource link: https://github.com/sail-sg/sailor-llm.
+Sailor family of open language models (0.5B-7B) for SEA languages, continually pre-trained from Qwen1.5.
+
 
 ## Notes
 

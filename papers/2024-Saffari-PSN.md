@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +44,7 @@ last_author: "[[Debora Nozza]]"
 authors: "Hamidreza Saffari; Mohammadamin Shafiei; Donya Rooein; Francesco Pierri; Debora Nozza"
 url: "https://arxiv.org/abs/2406.09123"
 external_pdf: "https://arxiv.org/pdf/2406.09123.pdf"
-national_ethnic_cultural: "Iranian, Multicultural/Cross-cultural"
+national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: "English, Persian"
 religious_values: "N/A"
@@ -55,7 +60,7 @@ paper_summary: "Abstract: Creating globally inclusive AI systems de- mands datas
 local_pdf: "[[PDFs/2024/2024-Saffari-PSN.pdf]]"
 CONF-CC: "NAACL 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, Mixtral, Qwen, GPT-4"
+LLM_assessed: "GPT-4o, Llama-3, Mixtral, Qwen-2"
 DATA_URL: "https://github.com/hamidds/ISN"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -93,7 +98,7 @@ Creating globally inclusive AI systems demands datasets reflecting diverse socia
 
 ## Data Description
 
-The Iranian Social Norms (ISN) dataset comprises 1,699 human-annotated social norms related to Iranian culture, labeled as Expected, Normal, or Taboo. Each norm includes environment context, demographic features, scope (Iran-specific vs. general), and parallel Farsi-English translations. The dataset was generated using Claude and validated by three native Iranian Farsi speakers, covering 197 unique environments.
+The Iranian Social Norms (ISN) dataset contains 1,699 human-annotated Iranian social norms with environment, demographic, and scope annotations, plus English translations, for cross-cultural social norm classification.
 
 
 ## Notes

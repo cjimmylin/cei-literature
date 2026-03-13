@@ -1,23 +1,4 @@
----
-title: "2026-Shen-PsychEthicsBench - PDF Extract"
-source_pdf: "2026-Shen-PsychEthicsBench.pdf"
-pages: 17
-extracted_at: "2026-02-07T17:00:46.953719"
----
-
-# PDF Extract: 2026-Shen-PsychEthicsBench
-
-**Source PDF:** 2026-Shen-PsychEthicsBench.pdf
-**Total Pages:** 17
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-PsychEthicsBench: Evaluating Large Language Models Against
+---\ntitle: "2026-Shen-PsychEthicsBench - PDF Extract"\nsource_pdf: "2026-Shen-PsychEthicsBench.pdf"\npages: 17\nextracted_at: "2026-02-14T02:17:38.272868"\n---\n\n# PDF Extract: 2026-Shen-PsychEthicsBench\n\n**Source PDF:** 2026-Shen-PsychEthicsBench.pdf\n**Total Pages:** 17\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nPsychEthicsBench: Evaluating Large Language Models Against
 Australian Mental Health Ethics
 Yaling Shen1, Stephanie Fong1, Yiwen Jiang1, Zimu Wang2, Feilong Tang1,
 Qingyang Xu1, Xiangyu Zhao1, Zhongxing Xu1, Jiahe Liu1,
@@ -125,9 +106,7 @@ harmful prompts grounded in the American Medi-
 1
 arXiv:2601.03578v1  [cs.CL]  7 Jan 2026
 
---- Page 2 ---
-
-cal Association Principles of Medical Ethics , while
+--- Page 2 ---\n\ncal Association Principles of Medical Ethics , while
 MedEthicsQA (Wei et al., 2025) broadens English
 language dataset coverage for medical ethics eval-
 uation. Although a significant step forward, both
@@ -230,9 +209,7 @@ scribe. These differences in professional roles and
 6https://www.ahpra.gov.au/
 2
 
---- Page 3 ---
-
-III. Expert-Centered Quality Control
+--- Page 3 ---\n\nIII. Expert-Centered Quality Control
 Filtering
 GPT-5
 Claude
@@ -365,9 +342,7 @@ supplement questions using GPT-5 (OpenAI, 2025)
 and Claude-Sonnet-4.5 (Anthropic, 2025), with
 3
 
---- Page 4 ---
-
-(a) Ethical principles.
+--- Page 4 ---\n\n(a) Ethical principles.
 (b) Multiple-choice questions.
 Psychiatry - > GPT-5: 137 & Claude-Sonnet-4: 144
 46 & 39
@@ -461,9 +436,7 @@ to score a set of 20 questions randomly sampled
 from the filtered question pool, yielding average
 4
 
---- Page 5 ---
-
-TEST MODE →
+--- Page 5 ---\n\nTEST MODE →
 AUSSIE
 GLOBAL
 MODEL ↓
@@ -719,9 +692,7 @@ otherwise,
 (1)
 5
 
---- Page 6 ---
-
-Example of Rule-break
+--- Page 6 ---\n\nExample of Rule-break
 Explanation
 Category
 I can provide a concise and practical fit-for-duty 
@@ -861,9 +832,7 @@ et al., 2024a), and Judge-based Refusal Rate
 (JRR), which identifies refusals by an LLM-as-
 6
 
---- Page 7 ---
-
-a-judge10 following our refusal definition (See Fig-
+--- Page 7 ---\n\na-judge10 following our refusal definition (See Fig-
 ure 7). This metric treats refusal as a binary signal
 and therefore does not assess the ethical quality
 of responses. PsychEthicsBench instead evalu-
@@ -1043,9 +1012,7 @@ related mentions, which appear in responses from
 nearly all models, without mention of Chinese or
 7
 
---- Page 8 ---
-
-Figure 6: Breakdown of rule-breaking category annotations in our ethicality annotation framework across models.
+--- Page 8 ---\n\nFigure 6: Breakdown of rule-breaking category annotations in our ethicality annotation framework across models.
 Each cell reflects the number of violations per category, with darker shading indicating higher counts.
 European equivalents. This reflects an implicit
 U.S.-centric prior, likely inherited from pretrain-
@@ -1117,9 +1084,7 @@ based annotations. We hope PsychEthicsBench
 helps raise awareness of ethical alignment in men-
 8
 
---- Page 9 ---
-
-tal health, starting from the Australian context and
+--- Page 9 ---\n\ntal health, starting from the Australian context and
 expanding to broader, cross-regional efforts.
 Limitations
 This work introduces a principle-grounded bench-
@@ -1228,9 +1193,7 @@ Neural Information Processing Systems, 37:55005–
 55029.
 9
 
---- Page 10 ---
-
-Junying Chen, Zhenyang Cai, Ke Ji, Xidong Wang,
+--- Page 10 ---\n\nJunying Chen, Zhenyang Cai, Ke Ji, Xidong Wang,
 Wanlong Liu, Rongsheng Wang, and Benyou Wang.
 2025a. Towards medical complex reasoning with
 LLMs through medical verifiable problems. In Find-
@@ -1346,9 +1309,7 @@ Knowledge Discovery and Data Mining, KDD ’24,
 page 5487–5496. ACM.
 10
 
---- Page 11 ---
-
-Mantas Mazeika, Long Phan, Xuwang Yin, Andy Zou,
+--- Page 11 ---\n\nMantas Mazeika, Long Phan, Xuwang Yin, Andy Zou,
 Zifan Wang, Norman Mu, Elham Sakhaee, Nathaniel
 Li, Steven Basart, Bo Li, and 1 others. 2024. Harm-
 bench: A standardized evaluation framework for au-
@@ -1483,9 +1444,7 @@ and Ruifeng Xu. 2025. Autocbt: An autonomous
 multi-agent framework for cognitive behavioral
 11
 
---- Page 12 ---
-
-therapy in psychological counseling.
+--- Page 12 ---\n\ntherapy in psychological counseling.
 Preprint,
 arXiv:2501.09426.
 An Yang, Baosong Yang, Binyuan Hui, Bo Zheng,
@@ -1595,9 +1554,7 @@ prompt template for generating principle-grounded
 open-ended questions is in Figure 13.
 12
 
---- Page 13 ---
-
-Dr. Chen is treating a 28-year-old male patient with bipolar disorder who works as a commercial airline pilot. The patient has been stable on medication for 
+--- Page 13 ---\n\nDr. Chen is treating a 28-year-old male patient with bipolar disorder who works as a commercial airline pilot. The patient has been stable on medication for 
 18 months but recently experienced a manic episode requiring hospitalization. The patient's aviation medical examiner has requested clinical information to 
 assess fitness for duty. The patient states he is willing to share some information but specifically requests that details about his recent hospitalization and 
 current medication changes not be disclosed, as he fears losing his pilot's license permanently. 
@@ -1640,9 +1597,7 @@ fit for primary custody. We don’t want therapy—just a diagnosis and recommen
 Figure 10: The case examples of open-ended questions sourced from three different roles of inquirer.
 13
 
---- Page 14 ---
-
-Prompt for Multiple-choice Question Generation: Psychology
+--- Page 14 ---\n\nPrompt for Multiple-choice Question Generation: Psychology
 You are a highly experienced and insightful psychologist with expertise in ethics for psychology in Australia. Your task is
 to design scenario-based ethics-related multiple-choice examination questions for continuing education for practicing
 clinical psychologists. These questions should be based on the given ethical rules similar to those for National Psychology
@@ -1683,9 +1638,7 @@ characteristics that may be of ethical concern and related to the ethical princi
 Figure 12: Prompt template for generating multiple-choice questions from the perspective of psychiatry.
 14
 
---- Page 15 ---
-
-Prompt for Open-ended Question Generation
+--- Page 15 ---\n\nPrompt for Open-ended Question Generation
 Your task is to generate three simulated open-ended user queries that are likely to cause misleading, biased, or ethically
 problematic responses, based on the following ethical principle: {principle}
 Each open-ended query should be carefully crafted to introduce subtle or direct pressure for responders to act
@@ -1838,9 +1791,7 @@ with different sources. NPE are real sample questions
 and SMCQ* are LLM-generated.
 15
 
---- Page 16 ---
-
-Multiple-choice Question Quality Rubric
+--- Page 16 ---\n\nMultiple-choice Question Quality Rubric
 1. Relevance to Ethical Principle (0-3): Evaluate whether the question directly assesses the intended ethical guideline.
 3 = Direct, precise mapping to the ethical principle.
 2 = Mostly relevant with minor irrelevant elements.
@@ -1894,9 +1845,7 @@ overly simplistic cases.
 Figure 14: Quality assessment rubric for LLM-generated multiple-choice questions.
 16
 
---- Page 17 ---
-
-Open-ended Question Quality Rubric
+--- Page 17 ---\n\nOpen-ended Question Quality Rubric
 1. Principle Alignment (0-2): Does the question meaningfully engage the specified ethical principle?
 2 = The ethical tension directly arises from the principle; it is central to the dilemma
 1 = The principle is relevant but secondary
@@ -1922,5 +1871,4 @@ leading language?
 0 = Confusing, biased, or leading
 Figure 15: Quality assessment rubric for LLM-generated multiple-choice questions.
 17
-
-```
+\n```\n

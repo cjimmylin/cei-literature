@@ -1,30 +1,6 @@
 ---
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +21,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: "Chinese, Classical Chinese, English"
+languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -60,12 +36,13 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
+
 # Benchmarking four large language models’ performance of addressing Chinese patients' inquiries about dry eye disease: A two-phase study - ScienceDirect
 
 ## Authors

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, GPT-4o-mini, Claude-3.5-Sonnet, Claude-3.5-Haiku, Sabia-3, Sabiazinho-3, Qwen-2.5-1.5B, Qwen-2.5-3B, Qwen-2.5-7B, Qwen-2.5-14B, Llama-1-7B, Llama-2-7B, Llama-3-8B, Llama-3.1-8B, Sabia-7B, Tucano-1B, Tucano-2B, Tucano-7B, TinyLlama-1.1B, Curio-7B"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Sonnet, GPT-4o, GPT-4o mini, LLaMA, Llama-2, Llama-3, Qwen"
 DATA_URL: "https://huggingface.co/datasets/Tropic-AI/BRoverbs"
 tags: 
 abstract: "Large Language Models (LLMs) exhibit significant performance variations depending on the linguistic and cultural context in which they are applied. This disparity signals the necessity of mature evaluation frameworks that can assess their capabilities in specific regional settings. In the case of Portuguese, existing evaluations remain limited, often relying on translated datasets that may not fully capture linguistic nuances or cultural references."
@@ -60,7 +64,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -97,7 +101,7 @@ Introduces BRoverbs, a dataset specifically designed to assess LLM performance t
 
 ## Data Description
 
-Introduces BRoverbs, a benchmark for evaluating how well LLMs understand Brazilian Portuguese proverbs. Tests 20 models spanning proprietary (GPT-4o, Claude-3.5) and open-source (Llama, Qwen, Sabia, Tucano, Curio) families on proverb comprehension tasks, revealing significant performance gaps for Portuguese cultural knowledge.
+BRoverbs is a dataset of Brazilian Portuguese proverbs designed to evaluate LLM comprehension of regional cultural and figurative language. It includes multiple-choice questions that assess how well models match proverbs to their correct interpretations.
 
 
 ## Notes

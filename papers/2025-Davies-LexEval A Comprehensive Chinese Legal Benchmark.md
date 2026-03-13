@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchm
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: Chinese
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, Baichuan-13B, Baichuan-7B, ChatGLM-6B, ChatGLM2, ChatGLM3, ChatGPT, GPT-4, GPT-3, InternLM, InternLM-7B, Llama-2, LLAMA-2-Chat, Llama, Qwen, Qwen-14B, Qwen-7B"
-DATA_URL: "https://github.com/AndrewZhe/lawyer-llama"
+LLM_assessed: "Alpaca, Baichuan, ChatGLM, ChatGPT, GPT-4, InternLM, Llama-2, MPT, Qwen, Vicuna"
+DATA_URL: "https://github.com/CSHaitao/LexEval"
 tags: 
 abstract: "Large language models (LLMs) have made significant progress in natural language processing tasks and demonstrate considerable potential in the legal domain. However, legal applications demand high standards of accuracy, reliability, and fairness. Applying existing LLMs to legal systems without careful evaluation of their potential and limitations could pose significant risks in legal practice. To this end, we introduce a standardized comprehensive Chinese legal benchmark LexEval."
 research_topic: "Machine Learning"
@@ -98,7 +102,8 @@ Large language models (LLMs) have made significant progress in natural language 
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, Baichuan-13B, Baichuan-7B, ChatGLM-6B, ChatGLM2, ChatGLM3, ChatGPT, GPT-4, GPT-3, InternLM, InternLM-7B, Llama-2, LLAMA-2-Chat, Llama, Qwen, Qwen-14B, Qwen-7B. Verified dataset/resource link: https://github.com/AndrewZhe/lawyer-llama.
+Releases LexEval, the largest Chinese legal evaluation benchmark with 14,150 questions across 23 tasks organized by a Legal Cognitive Ability Taxonomy (6 levels), along with a continuously updated leaderboard at the GitHub repository.
+
 
 ## Notes
 

@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +50,15 @@ local_pdf: "[[PDFs/2024/2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
-languages_list: "Multiple including Kurdish"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Mistral-NEMO, Phi-3, Phi-3 49, Phi-3 Mini, Phi-3-mini"
-DATA_URL: "NA"
+LLM_assessed: "Aya-23, Mistral-NeMo, Phi-3"
+DATA_URL: "https://github.com/ffaisal93/dialect_toxicity_llm_judge"
 tags: 
 abstract: "There has been little systematic study on how dialectal differences affect toxicity detection by modern LLMs. Furthermore, although using LLMs as evaluators ('LLM-as-a-judge') is a growing research area, their sensitivity to dialectal nuances is still underexplored and requires more focused attention. In this paper, we address these gaps through a comprehensive toxicity evaluation of LLMs across diverse dialects."
 CONFERENCE: "Preprint"
@@ -64,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -96,7 +101,8 @@ Evaluates LLM-as-a-Judge for dialectal toxicity detection. Kurdish among the low
 
 ## Data Description
 
-Backfill summary: Models assessed include Mistral-NEMO, Phi-3, Phi-3 49, Phi-3 Mini, Phi-3-mini. No high-confidence repository-style data URL was identified.
+Multi-dialect toxicity dataset created through synthetic transformations and human-assisted translations covering 10 language clusters and 60 varieties, used to evaluate LLM-as-a-judge consistency.
+
 
 ## Notes
 

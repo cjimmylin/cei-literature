@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, GPT-4o, Gemma, Phi-3, Qwen2, claude-3"
+LLM_assessed: "Claude-3, Gemma-2, GPT-4o, Llama-3, Phi-3, Qwen-2"
 DATA_URL: "https://github.com/naver-ai/KoNET"
 tags: 
 abstract: "This paper presents the Korean National Educational Test Benchmark (KoNET), a new benchmark designed to evaluate Multimodal Generative AI Systems using Korean national educational tests. KoNET comprises four exams: the Korean Elementary General Educational Development Test (KoEGED), Middle (KoMGED), High (KoHGED), and College Scholastic Ability Test (KoCSAT). These exams are renowned for their rigorous standards and diverse questions, facilitating a comprehensive analysis of AI performance..."
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "897 items"
 ---
@@ -102,7 +106,8 @@ Evaluates multimodal AI using Korean national education tests: KoEGED, KoMGED, K
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-4, GPT-4o, Gemma, Phi-3, Qwen2, claude-3. Verified dataset/resource link: https://github.com/naver-ai/KoNET.
+KoNET is a multimodal benchmark built from four Korean national educational tests (KoEGED, KoMGED, KoHGED, KoCSAT) comprising 2,377 questions with images. The code and dataset builder are fully open-sourced.
+
 
 ## Notes
 

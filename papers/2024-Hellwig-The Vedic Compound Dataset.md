@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,11 +50,11 @@ local_pdf: "[[PDFs/2024/2024-Hellwig-The Vedic Compound Dataset.pdf]]"
 publication: "MWE-UD Workshop @ LREC-COLING 2024"
 CONF-CC: "COLING 2024 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Indian, Sanskrit"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Sanskrit"
-religious_values: "Hinduism"
-religious_values_list: "Hinduism"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
@@ -65,8 +67,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"

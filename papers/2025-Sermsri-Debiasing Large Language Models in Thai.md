@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Political stance detection in low-resource and culturally complex settings poses a critical challenge for large language models (LLMs). In the Thai political landscape—rich with indirect expressions, polarized figures, and sentimentstance entanglement—LLMs often exhibit systematic biases, including sentiment leakage and entity favoritism. These biases not only compromise model fairness but also degrade predictive reliability in real-world applications."
-LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-3"
+LLM_assessed: "GPT-3.5, GPT-4, LLaMA, Llama-3"
 DATA_URL: "NA"
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: "ACL 2025"
@@ -66,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -101,7 +105,8 @@ Introduces ThaiFACTUAL, a calibration framework for debiasing LLMs in Thai polit
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-3. No high-confidence repository-style data URL was identified.
+The paper introduces the first high-quality Thai political stance dataset of 270 tweets covering three prominent political figures, annotated with stance, sentiment, rationale, and bias markers. The dataset is used to evaluate and calibrate LLMs for Thai political stance detection.
+
 
 ## Notes
 

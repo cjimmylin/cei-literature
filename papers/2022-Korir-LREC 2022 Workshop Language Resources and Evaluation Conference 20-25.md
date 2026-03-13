@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +51,13 @@ pdf_extract: "PDF Extracts/2022/2022-Korir-LREC 2022 Workshop Language Resources
 local_pdf: "[[PDFs/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Celtic"
-languages_list: "Irish, Multilingual, Welsh"
+cultures_nationalities_list: "N/A"
+languages_list: "Irish, Welsh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BART, BERT, T5, word2vec"
+LLM_assessed: "T5"
 DATA_URL: "https://github.com/CorCenCC/CyTag"
 tags: 
 abstract: "Based on the search results, I found substantial information about Celtic language NLP benchmarks and evaluation efforts: Overview of Celtic Language NLP Research Celtic languages have historically lagged behind in the area of natural language processing (NLP) and machine translation (MT), but this has been changing in recent years. Key Benchmarking and Evaluation Efforts Multilingual AMR Parsing: Researchers have created a multilingual text-to-AMR model for three Celtic languages—W"
@@ -62,8 +67,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
@@ -98,7 +103,8 @@ Based on the search results, I found substantial information about Celtic langua
 
 ## Data Description
 
-Backfill summary: Models assessed include BART, BERT, T5, word2vec. Verified dataset/resource link: https://github.com/CorCenCC/CyTag.
+Proceedings of 4th Celtic Language Technology Workshop covering NLP resources for Celtic languages
+
 
 ## Notes
 

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -97,7 +100,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-The paper presents Pars-HaO, a 3-class dataset of 8,013 Persian tweets for hate and offensive language detection. The dataset was built by combining comments from hate-speech-prone pages with keyword-based collection approaches and labeled by three annotators. Machine learning and deep learning methods were used for classification, but no specific LLMs were tested.
+A 3-class dataset of 8,013 Persian tweets annotated for hate and offensive language detection by three annotators, combining comments from hate-speech-prone pages with a keyword-based collection approach.
 
 
 ## Notes

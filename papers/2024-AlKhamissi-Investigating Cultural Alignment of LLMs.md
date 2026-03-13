@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -94,7 +97,8 @@ Size: Replicated sociological surveys across regions
 
 ## Data Description
 
-The study simulates the World Values Survey (WVS-7) by prompting LLMs with 30 culturally diverse questions using personas derived from 303 matched participants each from Egypt and the United States. Four LLMs are evaluated: GPT-3.5 (gpt-3.5-turbo-1106), mT0-XXL, LLaMA-2-13B-Chat, and AceGPT-13B-Chat, measuring cultural alignment against actual survey responses using soft and hard similarity metrics.
+Code and data for evaluating cultural alignment of LLMs by simulating sociological surveys comparing model responses to actual survey participants in Egypt and the US.
+
 
 ## Notes
 

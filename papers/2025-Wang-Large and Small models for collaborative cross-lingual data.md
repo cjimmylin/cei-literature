@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +50,12 @@ local_pdf: "[[PDFs/2025/2025-Wang-Large and Small models for collaborative cross
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: "Mongolian, Multilingual"
+languages_list: "Chinese, Mongolian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, GPT-4o"
+LLM_assessed: "GPT-4o, BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "Entity relationship extraction tasks conducted in low-resource language domains (such as the medical and military domains) have long faced signiﬁcant challenges, and data augmentation (DA) is considered an effective solution for addressing this issue. Compared with monolingual DA methods, cross-lingual augmentation methods more effectively enhance the diversity of data in low-resource language settings by leveraging and extending data resources derived from other languages."
@@ -65,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Responsible AI"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 ---

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has highlighted the need for robust evaluation frameworks that assess their core capabilities, such as reasoning, knowledge, and commonsense, leading to the inception of certain widely-used benchmark suites such as the H6 benchmark. However, these benchmark suites are primarily built for the English language, and there exists a lack thereof for under-represented languages, in terms of LLM development, such as Thai."
-LLM_assessed: "Claude Sonnet, Claude-3, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o Mini, GPT-4, Llama, Llama-3, Llama-3.1, Qwen2"
+LLM_assessed: "Claude-3 Sonnet, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Gemini, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
 research_topic: "Machine Learning"
 CONFERENCE: "ACL 2025"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,8 @@ Proposes ThaiCLI (Thai Cultural and Linguistic Intelligence) benchmark to assess
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude Sonnet, Claude-3, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o Mini, GPT-4, Llama, Llama-3, Llama-3.1, Qwen2. Verified dataset/resource link: https://github.com/UpstageAI/ThaiCLI_H6.
+Introduces two Thai benchmarks: Thai-H6 (translations of ARC, HellaSwag, MMLU, TruthfulQA, GSM8K, Winogrande into Thai; ~29,272 samples) and ThaiCLI (1,890 samples assessing LLM alignment with Thai cultural norms, values, and ethical standards).
+
 
 ## Notes
 

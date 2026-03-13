@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,15 +47,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.md"
 local_pdf: "[[PDFs/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "French"
-cultures_nationalities_list: "French"
-languages_list: "44 languages including French, Albanian, Armenian, Georgian, Greek, Maltese, and 39 other languages"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, GPT-4, Gemini, Claude, Llama, Mistral, and other multilingual LLMs"
-DATA_URL: "https://huggingface.co/papers/2411.19799"
+LLM_assessed: "GPT-4o, Llama-3, Aya, Qwen-2, Mistral, Gemma"
+DATA_URL: "https://huggingface.co/datasets/CohereForAI/include-base-44"
 tags: 
 abstract: "The performance differential of large language models (LLM) between languages hinders their effective deployment in many regions, inhibiting the potential economic and societal value of generative AI tools in many communities. However, the development of functional LLMs in many languages (i.e., multilingual LLMs) is bottlenecked by the lack of high-quality evaluation resources in languages other than English."
 ethics_perspective: "Social & Cultural Values"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,7 @@ This paper introduces INCLUDE, a comprehensive multilingual knowledge and reason
 
 ## Data Description
 
-INCLUDE is a comprehensive multilingual benchmark across 44 written languages (including French, Albanian, Armenian, Georgian, Greek, Maltese) with 197,243 QA pairs from local exam sources. Evaluates regional and cultural knowledge rather than translated English content. Models struggle in Armenian, Greek, and Urdu especially on culturally grounded topics. GPT-4o achieves best overall performance at ~77% average accuracy.
+INCLUDE: a multilingual benchmark of 197,243 QA pairs from local exam sources across 44 written languages and 52 countries, evaluating regional and cultural knowledge in multilingual LLMs.
 
 
 ## Detailed Summary

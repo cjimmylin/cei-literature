@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +50,15 @@ local_pdf: "[[PDFs/2024/2024-Son-KMMLU Measuring Massive Multitask Language Unde
 publication: "arXiv / NAACL 2025"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Korean"
+national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-3.5 TURBO, GPT-3.5-TURBO, GPT-4, GPT-4-TURBO, Llama-2, Llama, Qwen, QWEN-14B, QWEN-72B, QWEN-7B"
-DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
+LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Llama-2, Qwen"
+DATA_URL: "https://huggingface.co/datasets/HAERAE-HUB/KMMLU"
 tags: 
 abstract: "We propose KMMLU, a new Korean benchmark with 35,030 expert-level multiple-choice questions across 45 subjects ranging from humanities to STEM. While prior Korean benchmarks are translated from existing English benchmarks, KMMLU is collected from original Korean exams, capturing linguistic and cultural aspects of the Korean language. We test 27 public and proprietary LLMs and observe the best public model to score 50.5%, leaving significant room for improvement."
 CONFERENCE: "NAACL 2025"
@@ -62,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -102,7 +107,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-3.5, GPT-3.5 TURBO, GPT-3.5-TURBO, GPT-4, GPT-4-TURBO, Llama-2, Llama, Qwen, QWEN-14B, QWEN-72B, QWEN-7B. Verified dataset/resource link: https://github.com/EleutherAI/lm-evaluation-harness.
+KMMLU: a 35,030-question Korean expert-level multiple-choice benchmark across 45 subjects sourced from original Korean exams (not translations), capturing linguistic and cultural aspects of Korean including regional, legal, and cultural knowledge.
+
 
 ## Notes
 

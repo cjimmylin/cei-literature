@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +46,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Barth-Multilingual European Language Models Benchmarking Approaches and.md"
 local_pdf: "[[PDFs/2025/2025-Barth-Multilingual European Language Models Benchmarking Approaches and.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "European"
-languages_list: "Multiple European languages"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "EuroLLM, Teuken-7B, Salamandra"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/openai/MMMLU"
 tags: 
 abstract: "The breakthrough of generative large language models (LLMs) that can solve different tasks through chat interaction has led to a significant increase in the use of general benchmarks to assess the quality or performance of these models beyond individual applications. There is also a need for better methods to evaluate and also to compare models due to the ever increasing number of new models published. However, most of the established benchmarks revolve around the English language."
@@ -63,7 +66,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

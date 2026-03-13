@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ pdf_extract: "PDF Extracts/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.md"
 local_pdf: "[[PDFs/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.pdf]]"
 CONF-CC: "SemEval 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "DeBERTa, RoBERTa, BERT"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Interpretability & Explainability"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

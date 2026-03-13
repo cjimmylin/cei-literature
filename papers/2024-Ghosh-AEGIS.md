@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +61,7 @@ paper_summary: "Abstract: As Large Language Models (LLMs) and generative AI beco
 local_pdf: "[[PDFs/2024/2024-Ghosh-AEGIS.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-2, GPT-4, Mistral"
+LLM_assessed: "GPT-4, Llama-2, Mistral"
 DATA_URL: "https://github.com/meta-llama/llama-recipes"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -65,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
@@ -94,7 +99,7 @@ As Large Language Models (LLMs) and generative AI become more widespread, the co
 
 ## Data Description
 
-AEGISSAFETYDATASET is a content safety dataset of approximately 26,000 human-LLM interaction instances with human annotations across 13 critical risk and 9 sparse risk categories. The dataset was generated using Mistral to produce responses to prompts from the Anthropic hh-rlhf dataset, annotated by 12 annotators with 86,736 total annotations and approximately 74% inter-annotator agreement. AEGISSAFETYEXPERTS models were instruction-tuned on Llama Guard (Llama-2-7B based) and NEMO43B, and evaluated against GPT-4 and other baselines across multiple safety benchmarks.
+AEGISSAFETYDATASET: ~26,000 human-LLM interaction instances with human annotations across a 13-category content safety risk taxonomy, used for training and benchmarking LLM safety models.
 
 
 ## Notes

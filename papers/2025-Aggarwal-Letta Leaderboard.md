@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +54,7 @@ tags:
 abstract: "The Letta Leaderboard is a comprehensive benchmark suite that evaluates how effectively LLMs manage agentic memory. It measures two foundational aspects of context management: core memory (in-context memory) and archival memory (external memory). The benchmark evaluates stateful agents' fundamental capabilities on reading, writing, and updating memories using fictional question-answering datasets with supporting facts to minimize prior knowledge from LLM training."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Claude, GPT-4"
+LLM_assessed: "Claude, GPT-4, GPT-4o, GPT-4o mini, Gemini"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Aggarwal-Letta Leaderboard.md"
 local_pdf: "[[PDFs/2025/2025-Aggarwal-Letta Leaderboard.pdf]]"
@@ -130,7 +133,7 @@ The authors conclude that agentic memory remains an underdeveloped capability re
 
 ## Data Description
 
-The Letta Leaderboard benchmarks LLMs on agentic memory management across three capabilities: reading, writing, and updating memory. It uses synthetic facts and questions for evaluation, with a prompted GPT-4.1 grading agent responses following the SimpleQA methodology. Top models tested include Claude 4 Sonnet, GPT-4.1, GPT-4o, GPT-4o-mini, and Gemini 2.5 Flash.
+The Letta Leaderboard evaluates LLMs on agentic memory management across core and archival memory tasks (read, write, update) using synthetic fictional question-answering datasets designed to isolate memory operations from prior training knowledge.
 
 
 ## Notes

@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +62,7 @@ abstract: "The rapid evolution of large language models (LLMs) has revolutionize
 paper_summary: "Abstract: The rapid evolution of large language models (LLMs) has revolutionized various fields, includ- ing the identification and discovery of human val- ues within text data. While traditional NLP mod- els,  | Overview: arXiv:2505.12792v1 [cs.CL] 19 May 2025 EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs Wenhao Zhu1 , Yuhang Xie1 , Guojie Song∗1 and Xin Zhang1 1National Key Laborator | Methodology: effectively reduces the number of values requiring explicit definition in the input context, thereby shortening the over- all context length. To enabl | Key Findings: Output Stage | Conclusions: This paper investigates the potential of LLMs for identify- ing human values from text data. Despite challenges, LLMs have demonstrated superior capab"
 local_pdf: "[[PDFs/2025/2025-Zhu-EAVIT.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-2, BERT"
+LLM_assessed: "BERT, GPT-2, GPT-4, GPT-4o, GPT-4o mini, Llama-2, RoBERTa"
 DATA_URL: "NA"
 CONFERENCE: "IJCAI 2025"
 ethics_overall: "Yes"
@@ -67,7 +72,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "2000 word"
 ---
@@ -132,7 +137,7 @@ Hybrid "Small-Big" model systems are the practical path forward for large-scale 
 
 ## Data Description
 
-EAVIT uses the Touché23-ValueEval dataset (approximately 9,000 human-annotated samples) and Webis-ArgValues-22 (5,000 samples) as primary datasets for human value identification from text data based on Schwartz's Theory of Basic Values. The framework generates approximately 8,000 additional training instances via GPT-4o-mini to address data scarcity and class imbalance. The task involves multi-label classification of 54 values across 20 value categories derived from social network argument data.
+EAVIT constructs an explanation-augmented training dataset for human value identification, using GPT-4o-mini to add natural-language explanations to value labels, then fine-tuning a Llama-2 value detector. No standalone public dataset URL is provided.
 
 
 ## Notes

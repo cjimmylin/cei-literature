@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +42,7 @@ local_pdf: "[[PDFs/2026/2026-Guey-BiasLab Multilingual Dual-Framing Framework.pd
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"

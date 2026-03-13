@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,13 +55,13 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Sanskrit"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Hinduism"
+religious_values_list: "Hinduism"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "> Introduces PouranicTopic dataset of 200K+ annotated verses from 7 major Hindu Puranas. Evaluates BERT, RoBERTa, and DistilBERT for topic classification. Creates additional similarity-based and log-likelihood-based datasets via sentence clustering. Major Hindu mythology AI resource."
-LLM_assessed: "BERT, RoBERTa, DistilBERT"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -102,7 +106,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Introduces PouranicTopic dataset of 200K+ annotated verses from 7 major Hindu Puranas. Evaluates BERT, RoBERTa, and DistilBERT for topic classification of Puranic texts. Creates additional similarity-based and log-likelihood-based datasets via sentence clustering.
+PouranicTopic dataset of 200,000+ annotated verses from 7 major Hindu Puranas for topic classification. Includes additional similarity-based and log-likelihood-based datasets derived via sentence clustering.
 
 
 ## Notes

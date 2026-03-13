@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +49,7 @@ pdf_extract: "PDF Extracts/2025/2025-Terziyan-Towards ethical evolution.md"
 local_pdf: "[[PDFs/2025/2025-Terziyan-Towards ethical evolution.pdf]]"
 publication: "AI and Ethics"
 CONF-CC: "AI and Ethics"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -56,7 +60,7 @@ key_contribution: "Proposes genetic responsibility model for ensuring ethical in
 significance: "Introduces immutable ethical principle framework ensuring derivative AI products inherit safety constraints"
 abstract: "The emergence of autonomous systems capable of designing subsequent generations of Artificial Intelligence (AI) intro­ duces profound challenges in ensuring ethical integrity and accountability. This article presents a novel framework com­ bining meta-responsibility, genetic algorithms, and time-travel-inspired abstractions to address these challenges. Central to this study is an immutable ethical principle: AI must not harm humanity or violate fundamental values, must monitor and mitigate..."
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Gemini"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

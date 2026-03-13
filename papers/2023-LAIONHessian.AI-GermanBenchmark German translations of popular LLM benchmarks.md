@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,12 +48,12 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, GPT-4, LLaMa-2, BLOOM, Mistral"
+LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Llama-2, Mistral"
 DATA_URL: "https://huggingface.co/datasets/LeoLM/German_benchmark"
 tags: 
 abstract: "Collection of popular English LLM benchmarks translated to German including MMLU-DE, hellaswag_de, arc_challenge_de, and truthful_qa_de. Developed as part of the LeoLM project by LAION and Hessian.AI."
@@ -60,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -100,7 +104,7 @@ This work presents GermanBenchmark, a collection of German translations of popul
 
 ## Data Description
 
-German translations of popular English LLM benchmarks including MMLU, HellaSwag, ARC, TruthfulQA, and GSM8K. Enables evaluation of multilingual and German-specific LLMs on reasoning, knowledge, and common-sense tasks in German language.
+German translations of popular English LLM benchmarks including MMLU-DE, HellaSwag-DE, ARC-Challenge-DE, and TruthfulQA-DE, developed as part of the LeoLM project.
 
 
 ## Notes

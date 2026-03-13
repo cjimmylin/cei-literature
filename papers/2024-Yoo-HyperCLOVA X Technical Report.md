@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "HyperCLOVA X, GPT-4, GPT-3.5, Llama-2, Falcon, SOLAR, Polyglot-ko"
+LLM_assessed: "GPT-4, GPT-3.5, LLaMA, Gemma, Falcon, Llama-2"
 DATA_URL: "NA"
 tags: 
 abstract: "We introduce HyperCLOVA X, a family of large language models (LLMs) tailored to the Korean language and culture, along with competitive capabilities in English, math, and coding. HyperCLOVA X was trained on a balanced mix of Korean, English, and code data, followed by instruction-tuning with high-quality human-annotated datasets while abiding by strict safety guidelines reflecting our commitment to responsible AI."

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +48,7 @@ local_pdf: "[[PDFs/2021/2021-Chakravarthi-Findings of the Sentiment Analysis of.
 publication: "WebSearch: FIRE shared task Dravidian"
 CONF-CC: "FIRE 2021"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Kannada, Malayalam, Tamil"
 religious_values: "N/A"
@@ -54,17 +57,17 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We present the results of the Dravidian-CodeMix shared task1 held at FIRE 2021, a track on sentiment analysis for Dravidian Languages in Code-Mixed Text. We describe the task, its organization, and the submitted systems. This shared task is the continuation of last year’s Dravidian-CodeMix shared task2 held at FIRE 2020. This year’s tasks included code-mixing at the intra-token and inter-token levels. Additionally, apart from Tamil and Malayalam, Kannada was also introduced."
-LLM_assessed: "BERT, DistilBERT, RoBERTa, Word2Vec"
-DATA_URL: "NA"
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://dravidian-codemix.github.io/2021/index.html"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -99,7 +102,8 @@ Overview of shared task on sentiment detection in Tamil, Malayalam, and Kannada 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DistilBERT, RoBERTa, Word2Vec. No high-confidence repository-style data URL was identified.
+Shared task datasets for sentiment analysis of code-mixed Tamil-English (44K), Malayalam-English (19K), and Kannada-English (7.6K) YouTube comments.
+
 
 ## Notes
 

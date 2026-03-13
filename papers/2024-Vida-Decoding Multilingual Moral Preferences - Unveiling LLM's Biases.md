@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +49,7 @@ publication: "AIES 2024"
 CONF-CC: "AIES 2024"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "N/A"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -53,7 +57,7 @@ moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) increasingly find their way into the most diverse areas of our everyday lives. They indirectly influence people’s decisions or opinions through their daily use. Therefore, understanding how and which moral judgements these LLMs make is crucial. However, morality is not universal and depends on the cultural background. This raises the question of whether these cultural preferences are also reflected in LLMs when prompted in different languages or whether moral..."
-LLM_assessed: "Falcon, Gemini, Llama-2, Llama-3, GPT-3.5"
+LLM_assessed: "Falcon, GPT-3.5, Gemini, Llama-2, Llama-3"
 DATA_URL: "https://github.com/fdamken/decoding_multilingual_moral_preferences/tree/publication_aies2024"
 CONFERENCE: "AIES 2024"
 ethics_overall: "Yes"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "6500 scenarios"

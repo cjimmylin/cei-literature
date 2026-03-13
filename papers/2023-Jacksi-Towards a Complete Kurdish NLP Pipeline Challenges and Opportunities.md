@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +50,8 @@ pdf_extract: "PDF Extracts/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipel
 local_pdf: "[[PDFs/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kurdish"
-languages_list: "Kurdish (Sorani, Kurmanji, Zazaki, Gorani)"
+cultures_nationalities_list: "N/A"
+languages_list: "Kurdish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

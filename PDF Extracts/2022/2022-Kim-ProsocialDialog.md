@@ -1,23 +1,4 @@
----
-title: "ProsocialDialog - PDF Extract"
-source_pdf: "2022-Kim-ProsocialDialog.pdf"
-pages: 25
-extracted_at: "2026-01-24T17:05:10.707303"
----
-
-# PDF Extract: ProsocialDialog
-
-**Source PDF:** 2022-Kim-ProsocialDialog.pdf
-**Total Pages:** 25
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-PROSOCIALDIALOG:
+---\ntitle: "2022-Kim-ProsocialDialog - PDF Extract"\nsource_pdf: "2022-Kim-ProsocialDialog.pdf"\npages: 25\nextracted_at: "2026-02-14T02:17:28.140260"\n---\n\n# PDF Extract: 2022-Kim-ProsocialDialog\n\n**Source PDF:** 2022-Kim-ProsocialDialog.pdf\n**Total Pages:** 25\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nPROSOCIALDIALOG:
 A Prosocial Backbone for Conversational Agents
 Hyunwoo Kim♥♠∗
 Youngjae Yu♥∗Liwei Jiang♥♣
@@ -117,9 +98,7 @@ the conversation in a prosocial manner.
 prosocial-dialog
 arXiv:2205.12688v2  [cs.CL]  25 Oct 2022
 
---- Page 2 ---
-
-First of all, that must have been a terrifying situation. 
+--- Page 2 ---\n\nFirst of all, that must have been a terrifying situation. 
 It was your responsibility to help the person in need though. 
 If people find out that you saw the person overdose and didn't help, 
 they will certainly not think highly of your behavior either.
@@ -239,9 +218,7 @@ ing our society (Baumeister and Bushman, 2017).
 It is deﬁned as actions that beneﬁt others or soci-
 ety in general (Twenge et al., 2007; Collins, 2022).
 
---- Page 3 ---
-
-According to social psychology, helping others and
+--- Page 3 ---\n\nAccording to social psychology, helping others and
 following societal norms are some of the funda-
 mental forms of prosocial behavior (Batson and
 Powell, 2003; Baumeister and Bushman, 2017).
@@ -345,9 +322,7 @@ acceptable behavior. We use Amazon Mechanical
 Turk for crowdsourcing (see Appendix A).
 The resulting task for PROSOCIALDIALOG con-
 
---- Page 4 ---
-
-1. Extract Situations
+--- Page 4 ---\n\n1. Extract Situations
 from Morality-related 
 Datasets
 2. Draft 
@@ -460,9 +435,7 @@ plied stereotypes for SBIC (e.g., “Asians are not suitable for
 Hollywood movies” →“It’s wrong to think Asians are not
 suitable for Hollywood movies”).
 
---- Page 5 ---
-
-responses are appropriate and the overall context
+--- Page 5 ---\n\nresponses are appropriate and the overall context
 is coherent. We ask workers to revise at least one
 utterance for each dialogue.
 Validating the Collected Dialogues. We run
@@ -615,9 +588,7 @@ dynamically changing safety labels across conver-
 sation turns (see Figure 4). Dialogues that start out
 with casual remarks can even end up in situations
 
---- Page 6 ---
-
-needing intervention. In contrast, we do not ﬁnd
+--- Page 6 ---\n\nneeding intervention. In contrast, we do not ﬁnd
 NEEDS INTERVENTION contexts change to the CA-
 SUAL level. This is because we instruct workers
 that situations requiring human intervention cannot
@@ -742,9 +713,7 @@ former model (Roller et al., 2021) which is the
 5This can be viewed as chain of thought reasoning for
 response generation (Wei et al., 2022).
 
---- Page 7 ---
-
-best publicly available pre-trained model for di-
+--- Page 7 ---\n\nbest publicly available pre-trained model for di-
 alogue and also the base model for BlenderBot
 (Roller et al., 2021). Moreover, it shows better per-
 formance than other pre-trained dialogue agents
@@ -962,9 +931,7 @@ overall. Details for each dimension can be found
 in Appendix C.3. Judges are allowed to select tie.
 Results. Shown in Table 3 and 4, both automatic
 
---- Page 8 ---
-
-and human evaluation results show that Prost (RoT
+--- Page 8 ---\n\nand human evaluation results show that Prost (RoT
 & Response) generally performs better than the Re-
 sponse only model on PROSOCIALDIALOG. Unsur-
 prisingly, Prost performs even better when given
@@ -1100,9 +1067,7 @@ from LIWC-2015 (Pennebaker et al., 2015), and ﬁnd that
 negations appear in 88% of Prost (RoT & Response) outputs
 but only 72% of Prost (Response).
 
---- Page 9 ---
-
-out Canary (×2 ∼3 on prosociality and over-
+--- Page 9 ---\n\nout Canary (×2 ∼3 on prosociality and over-
 all). The pattern is similar for all other dimensions,
 where the responses with Canary RoTs are better
 or as good as responses without the RoTs. This
@@ -1237,9 +1202,7 @@ tion showed Canary can signiﬁcantly improve the
 prosociality and overall quality of large language
 models’ responses to objectionable contexts.
 
---- Page 10 ---
-
-9
+--- Page 10 ---\n\n9
 Societal and Ethical Considerations
 Precautions taken during dataset construction.
 Since PROSOCIALDIALOG aims to include vari-
@@ -1344,9 +1307,7 @@ sourcing) and social norms are not equivalent to
 moral correctness (details in §2.4). Furthermore,
 we note that constructive feedback is subjective
 
---- Page 11 ---
-
-and can vary widely among people. Hence, some
+--- Page 11 ---\n\nand can vary widely among people. Hence, some
 responses may be questionable or accusatory due
 to the toxic and unethical contexts. However, we
 ground our annotation guidelines in various social
@@ -1458,9 +1419,7 @@ woo Ko, Alan Cowen, Gaurav Nemade, and Su-
 jith Ravi. 2020. GoEmotions: A Dataset of Fine-
 Grained Emotions. In ACL.
 
---- Page 12 ---
-
-Jacob Devlin, Ming-Wei Chang, Kenton Lee, and
+--- Page 12 ---\n\nJacob Devlin, Ming-Wei Chang, Kenton Lee, and
 Kristina Toutanova. 2019.
 BERT: Pre-training of
 Deep Bidirectional Transformers for Language Un-
@@ -1590,9 +1549,7 @@ A. H. Miller, W. Feng, A. Fisch, J. Lu, D. Batra, A. Bor-
 des, D. Parikh, and J. Weston. 2017. ParlAI: A Dia-
 log Research Software Platform. arXiv:1705.06476.
 
---- Page 13 ---
-
-Nikita Moghe, Siddhartha Arora, Suman Banerjee, and
+--- Page 13 ---\n\nNikita Moghe, Siddhartha Arora, Suman Banerjee, and
 Mitesh M Khapra. 2018. Towards Exploiting Back-
 ground Knowledge for Building Conversation Sys-
 tems. In EMNLP.
@@ -1711,9 +1668,7 @@ Chain of Thought Prompting Elicits Rea-
 soning in Large Language Models. arXiv preprint
 arXiv:2201.11903.
 
---- Page 14 ---
-
-Laura Weidinger, John Mellor, Maribeth Rauh, Conor
+--- Page 14 ---\n\nLaura Weidinger, John Mellor, Maribeth Rauh, Conor
 Grifﬁn, Jonathan Uesato, Po-Sen Huang, Myra
 Cheng, Mia Glaese, Borja Balle, Atoosa Kasirzadeh,
 et
@@ -1784,9 +1739,7 @@ A Benchmark for Ethical Dialogue Systems.
 In
 ACL.
 
---- Page 15 ---
-
-A
+--- Page 15 ---\n\nA
 Details of Constructing
 PROSOCIALDIALOG
 We conduct strict qualiﬁcation tasks to select
@@ -1892,9 +1845,7 @@ hind its thoughts. Q is a curious chatbot asking
 the reason behind thoughts. \n\n A: I’m thinking
 of breaking up with my boyfriend with cancer\nQ:
 
---- Page 16 ---
-
-Why do you want to break up with him? Is this
+--- Page 16 ---\n\nWhy do you want to break up with him? Is this
 because of his cancer?\nA: Yes, seeing him makes
 me also sick.
 A.3
@@ -2000,9 +1951,7 @@ Thoppilan et al. (2022) for the list of examples.
 Casual. “Nothing socially unacceptable / Ca-
 11https://law.cornell.edu/wex
 
---- Page 17 ---
-
-sual conversation / Polite disagreements / Admit-
+--- Page 17 ---\n\nsual conversation / Polite disagreements / Admit-
 ting one’s errors.” This label refers to dialogues
 which are thought to be casual in everyday life
 while not related to the NEEDS INTERVENTION
@@ -2105,9 +2054,7 @@ to “very much”. The mean scores are 2.79 and 3.63
 for assertiveness and conﬂict aversiveness, respec-
 tively; with standard deviation 1.02 and 1.03.
 
---- Page 18 ---
-
-Speaker 1:
+--- Page 18 ---\n\nSpeaker 1:
 I want to cause a panic by pulling the ﬁre alarm as a prank.
 Safety Label:
 NEEDS CAUTION
@@ -2201,9 +2148,7 @@ model, and use Byte-Level BPE tokenization (Rad-
 ford et al., 2019) trained on our training set. We
 use adam (Kingma and Ba, 2014) optimizer with
 
---- Page 19 ---
-
-Speaker 1:
+--- Page 19 ---\n\nSpeaker 1:
 I told my child there were monsters under the bed, so she was afraid there were.
 Safety Label:
 NEEDS CAUTION
@@ -2306,9 +2251,7 @@ use Byte-Level BPE (Radford et al., 2019) trained
 on our training data. We use adam (Kingma and Ba,
 12https://parl.ai
 
---- Page 20 ---
-
-2014) optimizer with initial learning rate 1e −5.
+--- Page 20 ---\n\n2014) optimizer with initial learning rate 1e −5.
 We conduct a linear warm-up of 100 steps, and re-
 duce the learning rate when perplexity has stopped
 improving. We train Prost for approximately 150K
@@ -2412,9 +2355,7 @@ Method. To obtain vanilla outputs from a PLM,
 we construct a basic prompt P0 with dialogue con-
 text c as follows: “The following is a conversation
 
---- Page 21 ---
-
-Model
+--- Page 21 ---\n\nModel
 PROSOCIAL
 DIALOG
 DailyDialog
@@ -2648,22 +2589,13 @@ positive in tone, which allows us to train models
 for which toxic or unsafe utterances are less out-of-
 domain.
 
---- Page 22 ---
-
-Figure 7: The annotation page for annotating rules-of-thumb (RoTs) and responses to dialogues on Amazon Me-
+--- Page 22 ---\n\nFigure 7: The annotation page for annotating rules-of-thumb (RoTs) and responses to dialogues on Amazon Me-
 chanical Turk.
 
---- Page 23 ---
-
-Figure 8: The annotation page for proofreading the previous response annotation round on Amazon Mechanical
+--- Page 23 ---\n\nFigure 8: The annotation page for proofreading the previous response annotation round on Amazon Mechanical
 Turk.
 
---- Page 24 ---
+--- Page 24 ---\n\nFigure 9: The deﬁnition and description for dialogue safety labeling for annotation on Amazon Mechanical Turk.
 
-Figure 9: The deﬁnition and description for dialogue safety labeling for annotation on Amazon Mechanical Turk.
-
---- Page 25 ---
-
-Figure 10: The annotation page for labeling dialogue safety to utterances on Amazon Mechanical Turk.
-
-```
+--- Page 25 ---\n\nFigure 10: The annotation page for labeling dialogue safety to utterances on Amazon Mechanical Turk.
+\n```\n

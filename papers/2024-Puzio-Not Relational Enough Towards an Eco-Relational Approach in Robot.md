@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "Philosophy & Technology"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Shinto, Japanese"
+national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: ""
-religious_values: Shinto
+religious_values: "Shinto"
 religious_values_list: "Shinto"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Proposes an eco-relational approach to robot ethics that draws on Shinto-inspired techno-animism, new animism, and deep ecology. Argues for recognizing the relationality with non-human entities like robots on a deeper level, disrupting traditional Western ethical concepts of autonomy, agency, and responsibility."
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"

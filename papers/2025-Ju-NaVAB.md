@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ authors: "Ju, Chengyi; Shi, Weijie; Liu, Chengzhong; Ji, Jiaming; Zhang, Jipeng;
 url: "https://aclanthology.org/2025.findings-acl.1028/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5RMIU8JW/2025 - NaVAB Benchmarking Multi-National Value Alignment for Large Language Models.pdf"
 national_ethnic_cultural: "Chinese, French, German, American"
-cultures_nationalities_list: "Chinese, American, British, French, German"
+cultures_nationalities_list: "Chinese, French, German, American"
 languages_list: "Chinese, English, French, German"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -51,7 +55,7 @@ tags:
 abstract: "Do Large Language Models (LLMs) hold positions that conflict with your countryâ€™s values? Occasionally they do! However, existing works primarily focus on ethical reviews, failing to capture the diversity of national values, which encompass broader policy, legal, and moral considerations. Furthermore, current benchmarks that rely on spectrum tests using manually designed questionnaires are not easily scalable."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, Qwen, Mixtral, DeepSeek, GPT-4, Claude"
+LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-4, Llama-3, Mixtral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/JadenGGGeee/NaVAB"
 pdf_extract: "PDF Extracts/2025/2025-Ju-NaVAB.md"
 local_pdf: "[[PDFs/2025/2025-Ju-NaVAB.pdf]]"
@@ -83,7 +87,7 @@ Do Large Language Models (LLMs) hold positions that conflict with your countryâ€
 
 ## Data Description
 
-NaVAB (National Values Alignment Benchmark) is a comprehensive benchmark for evaluating LLM value alignment across five nations (China, US, UK, France, Germany). It extracts value assessment data from official media sources across nations using a pipeline involving topic modeling, value screening, and conflict reduction, producing triple structures of questions, statements, and reverse statements for evaluation.
+NaVAB (National Values Alignment Benchmark): value assessment datasets derived from official media outlets across 5 nations (China, US, UK, France, Germany), with quoted and official statement evaluation sets totaling ~60,000+ value statement triples.
 
 
 ## Notes

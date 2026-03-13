@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ newtags:
 tags: 
 abstract: "Target-based hate speech detection dataset in Hindi using deep learning and transformer models for hate speech detection. Target-based hate speech detection for Hindi with cultural targeting annotations."
 LLM_assessed: "ALBERT, BERT, RoBERTa"
-DATA_URL: "https://github.com/intelligence-csd-auth-gr/Ethos-"
+DATA_URL: NA
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -100,7 +104,8 @@ Target-based hate speech detection dataset in Hindi using deep learning and tran
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://github.com/intelligence-csd-auth-gr/Ethos-.
+TABHATE: a manually annotated corpus of 2,020 Hindi tweets labelled for target-based hate speech (individual targeted, community targeted, none), the first dataset of its kind for Hindi with target-based classification.
+
 
 ## Notes
 

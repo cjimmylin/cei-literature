@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ tags:
 abstract: "In the rapidly evolving landscape of Large Language Models (LLMs), ensuring robust safety measures is paramount. To meet this crucial need, we propose SALAD-Bench, a safety benchmark specifically designed for evaluating LLMs, attack, and defense methods. Distinguished by its breadth, SALAD-Bench transcends conventional benchmarks through its large scale, rich diversity, intricate taxonomy spanning three levels, and versatile functionalities."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Qwen, Gemma, Vicuna"
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, Llama-3, Mistral, Mixtral, Qwen, Qwen-1.5, Gemma, Vicuna, ChatGLM"
 DATA_URL: "https://github.com/OpenSafetyLab/SALAD-BENCH"
 pdf_extract: "PDF Extracts/2024/2024-Li-SALAD-Bench.md"
 local_pdf: "[[PDFs/2024/2024-Li-SALAD-Bench.pdf]]"
@@ -58,7 +62,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -78,7 +82,7 @@ In the rapidly evolving landscape of Large Language Models (LLMs), ensuring robu
 
 ## Data Description
 
-SALAD-Bench is a hierarchical safety benchmark for LLMs comprising approximately 30,000 questions organized into a three-level taxonomy of 6 domains, 16 tasks, and 66 categories. The benchmark includes a base set of 21K questions, 5K attack-enhanced questions, 200 defense-enhanced questions, and 4K multiple-choice questions. Data sources include public safety datasets and self-instructed data generated via fine-tuned GPT-3.5-turbo, with automated labeling achieving 94.3% consistency with human annotations.
+SALAD-Bench: a hierarchical safety benchmark with 30,000 questions spanning 6 domains, 16 tasks, and 66 categories for evaluating LLM safety, attack methods, and defense methods; includes standard QA, multiple-choice, attack-enhanced, and defense-enhanced question variants.
 
 
 ## Notes

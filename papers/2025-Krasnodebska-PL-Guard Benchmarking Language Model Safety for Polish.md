@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Polish"
-languages_list: Polish
+cultures_nationalities_list: "N/A"
+languages_list: "Polish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-mini, Llama, LLaMA Guard, LLamaGuard, Llama- Guard, Llama-Guard, Qwen"
-DATA_URL: "https://huggingface.co/OPI-PG/Qra-1b"
+LLM_assessed: "BERT, GPT-4o, GPT-4o mini, Llama-3, Qwen"
+DATA_URL: "https://huggingface.co/collections/NASK-PIB/PL-Guard-684945df2cff1837f1bc6e95"
 tags: 
 abstract: "Despite increasing efforts to ensure the safety of large language models (LLMs), most existing safety assessments and moderation tools remain heavily biased toward English and other high-resource languages, leaving majority of global languages underexamined. To address this gap, we introduce a manually annotated benchmark dataset for language model safety classification in Polish. We also create adversarially perturbed variants of these samples designed to challenge model robustness."
 CONFERENCE: "Preprint"
@@ -62,8 +66,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ First manually verified Polish-language safety benchmark for LLM content classif
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-mini, Llama, LLaMA Guard, LLamaGuard, Llama- Guard, Llama-Guard, Qwen. Verified dataset/resource link: https://huggingface.co/OPI-PG/Qra-1b.
+PL-Guard is a manually annotated Polish-language safety benchmark of 7,000+ instances (900 balanced test set, adversarial extension PL-Guard-adv) for LLM safety classification across 15 hazard categories. Test datasets and best-performing HerBERT fine-tuned model are publicly released.
+
 
 ## Notes
 

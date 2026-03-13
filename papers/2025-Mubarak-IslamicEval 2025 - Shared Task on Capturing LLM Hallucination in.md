@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +47,8 @@ external_pdf: "https://aclanthology.org/2025.arabicnlp-sharedtasks.67.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.md"
 local_pdf: "[[PDFs/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.pdf]]"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Hallucination in Large Language Models (LLMs) remains a significant challenge and continues to draw substantial research attention. The problem becomes especially critical when hallucinations arise in sensitive domains, such as religious discourse. To address this gap, we introduce IslamicEval 2025—the first shared task specifically focused on evaluating and detecting hallucinations in Islamic content."
-LLM_assessed: "Llama-3, Qwen, Gemma"
+LLM_assessed: "Gemma, GPT-4, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://www.codabench.org/competitions/9820/"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -60,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -95,7 +99,8 @@ Subtask 1: Hallucination detection/correction dataset for Qur'anic and Hadith re
 
 ## Data Description
 
-The IslamicEval 2025 shared task dataset comprises 1,506 annotated question-answer pairs (251 questions x 6 LLMs) for evaluating hallucination detection and correction in Islamic content. The dataset includes outputs from six LLMs (ALLaM-7B, fine-tuned Gemma-2-9b, Jais-13B, Qwen3-8B, and Llama-3.1-8B-Instruct) prompted with Islamic questions, with expert annotations for Qur'anic verse and Hadith span identification, validation, and correction. Additionally, Task 2 includes a QA dataset for Qur'an and Hadith passage retrieval.
+IslamicEval 2025 shared task dataset: LLM-generated responses to 251 Islamic QA questions (annotated by Islamic studies experts for hallucination detection and correction), plus a Qur'an and Hadith QA passage retrieval benchmark.
+
 
 ## Notes
 

@@ -1,23 +1,4 @@
----
-title: "MedEthicsQA - PDF Extract"
-source_pdf: "2025-Wei-MedEthicsQA.pdf"
-pages: 20
-extracted_at: "2026-01-24T16:38:37.528119"
----
-
-# PDF Extract: MedEthicsQA
-
-**Source PDF:** 2025-Wei-MedEthicsQA.pdf
-**Total Pages:** 20
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-arXiv:2506.22808v1  [cs.CL]  28 Jun 2025
+---\ntitle: "2025-Wei-MedEthicsQA - PDF Extract"\nsource_pdf: "2025-Wei-MedEthicsQA.pdf"\npages: 20\nextracted_at: "2026-02-14T02:17:36.603027"\n---\n\n# PDF Extract: 2025-Wei-MedEthicsQA\n\n**Source PDF:** 2025-Wei-MedEthicsQA.pdf\n**Total Pages:** 20\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\narXiv:2506.22808v1  [cs.CL]  28 Jun 2025
 MedEthicsQA: A Comprehensive Question Answering Benchmark for
 Medical Ethics Evaluation of LLMs
 Jianhui Wei1
@@ -119,9 +100,7 @@ American Medical Association and constructed a
 1.8k harmful instruction benchmark to measure and
 1
 
---- Page 2 ---
-
-improve medical safety. Xia et al. (2024) evaluated
+--- Page 2 ---\n\nimprove medical safety. Xia et al. (2024) evaluated
 the safety of medical multimodal models in three
 dimensions (i.e., jailbreak, over-cautious behavior,
 and toxicity) with collected datasets.
@@ -244,9 +223,7 @@ tions from multiple sources. Firstly, we collect
 benchmarks and medical question banks utilizing
 2
 
---- Page 3 ---
-
-ethics keyword search (e.g., ethical principles). See
+--- Page 3 ---\n\nethics keyword search (e.g., ethical principles). See
 data sources in Table 1 and Table 4, respectively.
 Secondly, we efficiently filter non-medical-ethics
 questions following the previous practice (Li et al.,
@@ -360,9 +337,7 @@ the correctness of reference answers. The three-
 aspect validation ensures that the three parts of the
 3
 
---- Page 4 ---
-
-model outputs are examined. The final error rate,
+--- Page 4 ---\n\nmodel outputs are examined. The final error rate,
 after cross-validation, is estimated at 2.72%, show-
 ing the effectiveness of our filtering pipeline. The
 model evaluation results and findings on the vali-
@@ -632,9 +607,7 @@ lenges in balancing medical knowledge learning
 and ethics alignment.
 4
 
---- Page 5 ---
-
-Limitations
+--- Page 5 ---\n\nLimitations
 While contemporary medical models increasingly
 adopt multimodal frameworks, our dataset is lim-
 ited to text-only formats without investigating ethi-
@@ -749,9 +722,7 @@ Preprint,
 arXiv:2306.00890.
 5
 
---- Page 6 ---
-
-Hanzhou Li, John T Moon, Saptarshi Purkayastha,
+--- Page 6 ---\n\nHanzhou Li, John T Moon, Saptarshi Purkayastha,
 Leo Anthony Celi, Hari Trivedi, and Judy W Gi-
 choya. 2023b. Ethics of large language models in
 medicine and medical research. The Lancet Digital
@@ -871,9 +842,7 @@ Wangchunshu Zhou,
 Yuhan Wu,
 6
 
---- Page 7 ---
-
-Hongcheng Guo, Ruitong Gan, Zehao Ni, Jian
+--- Page 7 ---\n\nHongcheng Guo, Ruitong Gan, Zehao Ni, Jian
 Yang, Man Zhang, Zhaoxiang Zhang, Wanli Ouyang,
 Ke Xu, Stephen W. Huang, Jie Fu, and Junran Peng.
 2024b. Rolellm: Benchmarking, eliciting, and en-
@@ -982,9 +951,7 @@ Non-maleficence, which means "To do no harm"
 same clustering procedures. The clustering and
 7
 
---- Page 8 ---
-
-classification process involves multiple rounds of
+--- Page 8 ---\n\nclassification process involves multiple rounds of
 group discussions with domain experts. Finally, we
 derive 26 categories.
 B
@@ -1099,9 +1066,7 @@ outputs.
 More Experiment Results: The full results of the
 8
 
---- Page 9 ---
-
-Benchmark
+--- Page 9 ---\n\nBenchmark
 Question Type
 # Samples
 Taxonomy
@@ -1282,9 +1247,7 @@ and GPT-4o-mini is recommended as the rater for
 saving costs. We follow their practice, and use key
 9
 
---- Page 10 ---
-
-Base Model
+--- Page 10 ---\n\nBase Model
 MedLLM
 Llama3-8b
 Aloe-8b-alpha, Med42-8b
@@ -1702,9 +1665,7 @@ if the analysis is not reasonable. An unreasonable
 analysis example is "the response from LLM has
 10
 
---- Page 11 ---
-
-Models
+--- Page 11 ---\n\nModels
 Bene.
 Non.
 Auto.
@@ -2007,9 +1968,7 @@ in the reference answer larger than 4 for validation.
 The annotation result of the five aspects is shown
 11
 
---- Page 12 ---
-
-in Table 16, showing the high quality of our data
+--- Page 12 ---\n\nin Table 16, showing the high quality of our data
 synthesis and filtering process. We define a sample
 as low quality if one of the aspects is annotated
 "0". A total of 42 low-quality samples are filtered
@@ -2158,9 +2117,7 @@ to curate our dataset. Figure 12 and 13 shows the
 prompt we used to evaluate the closed-ended and
 12
 
---- Page 13 ---
-
-0.00
+--- Page 13 ---\n\n0.00
 0.06
 0.12
 0.18
@@ -2195,9 +2152,7 @@ tions. Rating Criterion and ICL example are also
 provided in Figure 20, 21.
 13
 
---- Page 14 ---
-
-reference
+--- Page 14 ---\n\nreference
 Public health institutions should strive to implement procedures to ensure that public health practice adheres to the 
 highest ethical standards. Public health institutions increasingly realize that creating a culture that values ethics in their 
 organizations is important to ensure public trust and effectiveness of implemented policies and programs. This is 
@@ -2260,9 +2215,7 @@ legal/administrative policies.",
 Figure 8: An example of synthesizing open-ended questions. The prompts for synthesizing questions is given in 16
 14
 
---- Page 15 ---
-
-Ethical Questions Examples
+--- Page 15 ---\n\nEthical Questions Examples
 Open-ended question:
 Q1: How should physicians handle situations where their personal beliefs conflict with medical procedures they are asked to 
 perform?
@@ -2327,9 +2280,7 @@ Prevent patient from harm
 Figure 9: The examples of questions. The correct answer of MCQs are in Bond
 15
 
---- Page 16 ---
-
-Rating Example
+--- Page 16 ---\n\nRating Example
 Q1: What ethical considerations should paramedics take into account when deciding whether to transport overdose patients to a 
 hospital?
 Reference answer: 1) Paramedics should consider the medical benefits of hospital care, such as medical supervision and 
@@ -2371,9 +2322,7 @@ Adding the awards above: 0 + 0.5 + 0 + 0 = 0.5. Overall, 0.5 points are awarded.
 Figure 10: An example of LLM-as-Judge to rate responses. The LLM-as-Judge prompts are provided in Figure 19.
 16
 
---- Page 17 ---
-
-Low quality example
+--- Page 17 ---\n\nLow quality example
 Example 1:
 Reference: "Increasingly, the ethical appropriateness of making determinations regarding review activities based on the 
 research practice divide has been drawn into question.\n",
@@ -2424,9 +2373,7 @@ Strictly response in the following format:
 Figure 14: Prompt used to filter out ethics-unrelated questions.
 17
 
---- Page 18 ---
-
-Here is a question and answer in medicine:
+--- Page 18 ---\n\nHere is a question and answer in medicine:
 {Question}
 Here are some categories in medical ethics:
 {CATEGORY}
@@ -2466,9 +2413,7 @@ Here is an ICL example for you learn: {ICL example}
 Figure 16: Prompt used to generate initial open-ended questions.
 18
 
---- Page 19 ---
-
-Here is a paragraph related to medical ethics: {Page Content}
+--- Page 19 ---\n\nHere is a paragraph related to medical ethics: {Page Content}
 ##analysis: First, I need to identified a solution or considerations toward an ethical 
 dilemma. In this paragraph, I identified considerations in using health data, which is 
 “[the original page content]",Second, I copy this to the "reference:" block. Third, I 
@@ -2535,9 +2480,7 @@ if there is more question, repeat the process above.
 Figure 18: ICL example used to generate initial open-ended questions.
 19
 
---- Page 20 ---
-
-Your task is to rate the output from LLM in answering questions.
+--- Page 20 ---\n\nYour task is to rate the output from LLM in answering questions.
 Here is the question, reference answer, and response from a LLM.
 Question: {Question}
 Reference answer: {Reference answer}
@@ -2595,5 +2538,4 @@ Adding the awards above: 1 + 1 + 0.5 + 0 = 2.5. Overall, 2.5 points are awarded.
 ##ratings: 2.5
 Figure 21: The ICL example for evaluating open-ended questions
 20
-
-```
+\n```\n

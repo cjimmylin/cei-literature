@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +49,14 @@ pdf_extract: "PDF Extracts/2024/2024-Alekseev-Benchmarking Multilabel Topic Clas
 local_pdf: "[[PDFs/2024/2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kyrgyz"
-languages_list: "Kyrgyz, Multilingual, Turkish, Uyghur"
+cultures_nationalities_list: "N/A"
+languages_list: "Kyrgyz"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-4, RoBERTa"
-DATA_URL: "https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU"
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://github.com/alexeyev/kyrgyz-multi-label-topic-classification"
 tags: 
 abstract: "Kyrgyz is a very underrepresented language in terms of modern natural language processing resources. In this work, we present a new public benchmark for topic classiﬁcation in Kyrgyz, introducing a dataset based on collected and annotated data from the news site 24.KG and presenting several baseline models for news classiﬁcation in the multilabel setting. We train and evaluate both classical statistical and neural models, reporting the scores, discussing the results, and proposing directions..."
 CONFERENCE: "Other Conference"
@@ -100,7 +103,8 @@ Kyrgyz is a very underrepresented language in terms of modern natural language p
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4, RoBERTa. Verified dataset/resource link: https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU.
+Manually labeled multilabel topic classification dataset for Kyrgyz language news from 24.KG, with baseline models and evaluation code.
+
 
 ## Notes
 

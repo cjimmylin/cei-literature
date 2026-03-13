@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,9 +47,9 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2022/2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician.md"
 local_pdf: "[[PDFs/2022/2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Galician"
-languages_list: Galician
+national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
+languages_list: "Galician"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

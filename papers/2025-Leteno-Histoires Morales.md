@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +45,7 @@ url: "http://arxiv.org/abs/2501.17117"
 external_pdf: "http://arxiv.org/pdf/2501.17117.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 CONF-CC: "NAACL 2025"
-national_ethnic_cultural: "Chinese, French"
+national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: "English, French"
 religious_values: "N/A"
@@ -56,8 +60,8 @@ abstract: "Aligning language models with human values is crucial, especially as 
 paper_summary: "Abstract: Aligning language models with human values is crucial, especially as they become more inte- grated into everyday life. While models are of- ten adapted to user preferences, it is equally im- portant t | Overview: HISTOIRESMORALES: A French Dataset for Assessing Moral Alignment Thibaud Leteno1∗, Irina Proskurina2∗, Antoine Gourru1, Julien Velcin2, Charlotte Laclau3, Guillaume Metzler2, and Christophe Gravier1 1 | Methodology: Inspired by recent works on fair- ness (Nangia et al., 2020; Manerba et al., 2023), we use the perplexity metric derived from the log- likelihood loss | Key Findings: 4.1 Translation Evaluation This section analyses the quality of the obtained HISTOIRESMORALES dataset. Grammatical Acceptability We use a rule- based  | Conclusions: This work introduces HISTOIRESMORALES, the first dataset for social reasoning informed by behavioural guidelines in the French language. The introduce"
 local_pdf: "[[PDFs/2025/2025-Leteno-Histoires Morales.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Mistral, Llama-3, GPT-3.5, T5"
-DATA_URL: "https://hf.co/datasets/LabHC/histoires_morales, https://github.com/upunaprosk/histoires-morales"
+LLM_assessed: "GPT-3.5, Mistral"
+DATA_URL: "https://hf.co/datasets/LabHC/histoires_morales"
 CONFERENCE: "NAACL 2025"
 eleutherai: incorporated
 ethics_overall: "Yes"
@@ -102,7 +106,7 @@ Aligning language models with human values is crucial, especially as they become
 
 ## Data Description
 
-HISTOIRESMORALES is a French dataset of 12,000 moral stories adapted from the English MORALSTORIES corpus, covering social situations with moral norms, intentions, moral and immoral actions, and consequences. The dataset was translated using GPT-3.5-turbo-16k with demonstration-based prompts and refined through multi-step manual annotations by native French speakers to ensure grammatical accuracy and cultural adaptation. Experiments evaluate LLM moral alignment using perplexity-based likelihood scoring and declarative action selection prompts, as well as robustness testing via Direct Preference Optimization.
+HISTOIRESMORALES: a French dataset of 12,000 moral stories adapted from MORALSTORIES via translation with native-speaker refinement, annotated for moral values aligned with French cultural norms, covering social situations involving tipping, honesty, and animal responsibilities.
 
 
 ## Notes

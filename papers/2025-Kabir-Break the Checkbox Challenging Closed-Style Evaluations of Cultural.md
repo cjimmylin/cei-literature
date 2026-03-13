@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style E
 publication: "arXiv / EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese, Korean, Indian, Arabic, French, German, Spanish, Russian"
-cultures_nationalities_list: "Chinese, Japanese, Korean, Indian, Arabic, French, German, Spanish, Russian"
-languages_list: "Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Russian, Spanish, multiple native languages"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, BLOOMz, ChatGPT, Claude Sonnet, Claude-haiku, CommandR, DeepSeek R1, DeepSeek-R1, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4o, Llama, Llama-3, Llama 3.3, Llama 2, Llama-3.3, Mistral L2, Mistral Large, Mistral-7B, Mixtral-8x7B, Vicuna"
+LLM_assessed: "DeepSeek, GPT-4, GPT-4o, Llama-3, Mistral"
 DATA_URL: "https://github.com/ariba-k/llm-cultural-alignment-evaluation"
 tags: 
 abstract: "A large number of studies rely on closed-style multiple-choice surveys to evaluate cultural alignment in Large Language Models (LLMs). In this work, we challenge this constrained evaluation paradigm and explore more realistic, unconstrained approaches. Using the World Values Survey (WVS) and Hofstede Cultural Dimensions as case studies, we demonstrate that LLMs exhibit stronger cultural alignment in less constrained settings, where responses are not forced."

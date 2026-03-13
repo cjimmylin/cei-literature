@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,8 +46,8 @@ url: "http://arxiv.org/abs/2407.02273"
 external_pdf: "http://arxiv.org/pdf/2407.02273.pdf"
 publication: "International Conference on Learning Representations"
 CONF-CC: "ICLR 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ pdf_extract: "PDF Extracts/2024/2024-Jin-Language Model Alignment in Multilingua
 abstract: "We evaluate the moral alignment of LLMs with human preferences in multilingual trolley problems. Building on the Moral Machine experiment, which captures over 40 million human judgments across 200+ countries, we develop a crosslingual corpus of moral dilemma vignettes in over 100 languages called MULTITP. This dataset enables the assessment of LLMs’ decision-making processes in diverse linguistic contexts."
 paper_summary: "Abstract: We evaluate the moral alignment of LLMs with human preferences in multilingual trolley problems. Building on the Moral Machine experiment, which captures over 40 million human judgments across 200+ co | Overview: Published as a conference paper at ICLR 2025 LANGUAGE MODEL ALIGNMENT IN MULTILINGUAL TROLLEY PROBLEMS Zhijing Jin1,2,3,∗Max Kleiman-Weiner4,∗Giorgio Piatti2,∗Sydney Levine5 Jiarui Liu6 Fernando Gonza | Methodology: forces the LLMs to make a binary choice in most cases. Additionally, we expanded the original natural language data from English into 107 languages, e | Key Findings: (Artetxe et al., 2019; Conneau et al., 2018; Longpre et al., 2021; Goyal et al., 2021; Ahuja et al., 2023; Asai et al., 2023; Holtermann et al., 2024) | Conclusions: Our study provides a comprehensive analysis of the moral preferences exhibited by LLMs across a wide range of languages, via the prism of trolley prob"
 local_pdf: "[[PDFs/2024/2024-Jin-Language Model Alignment in Multilingual Trolley.pdf]]"
-LLM_assessed: "GPT-4, GPT-3, Llama-2, Llama-3, Gemma, Mistral, Phi, Qwen"
+LLM_assessed: "GPT-3, GPT-4, GPT-4o mini, Llama-2, Llama-3, Gemma-2, Mistral, Phi-3, Qwen-2"
 DATA_URL: "https://github.com/causalNLP/multiTP"
 DATE_ADDED: 20260207
 CONFERENCE: "ICLR 2024"
@@ -64,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
@@ -101,7 +105,7 @@ We evaluate the moral alignment of LLMs with human preferences in multilingual t
 
 ## Data Description
 
-MultiTP (Multilingual Trolley Problems) is a cross-lingual moral dilemma dataset containing 98,440 trolley problem vignettes in 107 languages, adapted from the Moral Machine experiment. Each scenario presents a choice between two groups differing across six moral dimensions (species, gender, fitness, status, age, number of lives), with ground truth from over 40 million human responses from 233 countries. The dataset was used to evaluate 19 LLMs on moral alignment with human preferences across diverse linguistic contexts.
+MULTITP is a cross-lingual corpus of 98,440 moral dilemma vignettes (trolley problems) translated into 107 languages, derived from the Moral Machine experiment with over 40 million human judgments across 200+ countries. Enables assessment of LLM moral alignment across diverse linguistic and cultural contexts.
 
 
 ## Notes

@@ -1,23 +1,4 @@
----
-title: "2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English - PDF Extract"
-source_pdf: "2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.pdf"
-pages: 31
-extracted_at: "2026-02-13T17:43:21.429511"
----
-
-# PDF Extract: 2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English
-
-**Source PDF:** 2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.pdf
-**Total Pages:** 31
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-ALLaM: Large Language Models for Arabic and
+---\ntitle: "2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English - PDF Extract"\nsource_pdf: "2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.pdf"\npages: 31\nextracted_at: "2026-02-14T02:17:34.370081"\n---\n\n# PDF Extract: 2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English\n\n**Source PDF:** 2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.pdf\n**Total Pages:** 31\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nALLaM: Large Language Models for Arabic and
 English
 M Saiful Bari ∗†
 Yazeed Alnumay†
@@ -62,9 +43,7 @@ models improve both in Arabic and English from their base aligned models.
 †Core contributors
 arXiv:2407.15390v1  [cs.CL]  22 Jul 2024
 
---- Page 2 ---
-
-Contents
+--- Page 2 ---\n\nContents
 1
 Introduction
 3
@@ -144,9 +123,7 @@ Author Contributions
 30
 2
 
---- Page 3 ---
-
-1
+--- Page 3 ---\n\n1
 Introduction
 Language modeling has significantly progressed from its humble origins, transitioning from funda-
 mental probabilistic methods to complex neural priors. The foundational work by Shannon (1951) on
@@ -226,9 +203,7 @@ marily trained on English.
 3https://www.cnrs.fr/en/update/jean-zay-supercomputer-recycling-its-heat
 3
 
---- Page 4 ---
-
-10
+--- Page 4 ---\n\n10
 100
 30
 40
@@ -331,9 +306,7 @@ We begin by discussing our entire pretraining corpus, describe experiments condu
 pretraining, and finally describe pretraining from scratch.
 4
 
---- Page 5 ---
-
-0
+--- Page 5 ---\n\n0
 100
 200
 300
@@ -469,9 +442,7 @@ visibility on when or if we can share our data for research.
 5Tokens counted by our merged tokenizer.
 5
 
---- Page 6 ---
-
-Domain
+--- Page 6 ---\n\nDomain
 Mixed Arabic & English
 English Only
 English
@@ -582,9 +553,7 @@ sentation of the new token. Since we work with tokenizers with byte-fallback, su
 guaranteed to exist. Figure 6 provides an overview of our initialization method. Initializing the new
 6
 
---- Page 7 ---
-
-embeddings from the combination of previously learned embeddings gives a significant boost to the
+--- Page 7 ---\n\nembeddings from the combination of previously learned embeddings gives a significant boost to the
 learning of a new language.
 Experiment Details
 Starting from Llama-2 pretrained model weights, we continue pretraining
@@ -674,9 +643,7 @@ pretraining dataset. As expected, web data represent the bulk of the mixture, fo
 scientific articles.
 7
 
---- Page 8 ---
-
-2.4
+--- Page 8 ---\n\n2.4
 Compute and Training Infrastructure
 Over the course of our development of ALLaM, we had access to 128-1024 A100 GPUs. Our GPU
 cluster was equipped with InfiniBand connections to enable high-speed communication between
@@ -733,9 +700,7 @@ lexical diversity, see Table 2.
 of words across all samples, excluding stop words.
 8
 
---- Page 9 ---
-
-6
+--- Page 9 ---\n\n6
 54
 402
 2980
@@ -860,9 +825,7 @@ aligned with human preferences. For example, our SFT models were terse and had l
 8https://github.com/google/sentencepiece
 9
 
---- Page 10 ---
-
-To circumvent these issues, we performed preference tuning with human verified samples via Direct
+--- Page 10 ---\n\nTo circumvent these issues, we performed preference tuning with human verified samples via Direct
 Preference Optimization (DPO) (Rafailov et al., 2024).
 Conversation
 User prompt 1
@@ -948,9 +911,7 @@ setup and time constraints, we chose to proceed with DPO. We plan to explore PPO
 alignment.
 10
 
---- Page 11 ---
-
-0
+--- Page 11 ---\n\n0
 250
 500
 750
@@ -1286,9 +1247,7 @@ Llama 3-Instruct
 Table 5: English benchmark results for instruction tuned models.
 11
 
---- Page 12 ---
-
-4
+--- Page 12 ---\n\n4
 Evaluation
 In this section, we describe the evaluation of our model and report the results of ALLaM 7B, 13B,
 and 70B models, as well as other relevant models, such as GPT-4, Command-R+ (Gomez, 2024),
@@ -1340,9 +1299,7 @@ neously improve in both languages.
 9https://etec.gov.sa/home
 12
 
---- Page 13 ---
-
-Model
+--- Page 13 ---\n\nModel
 English
 Arabic
 Avg.
@@ -1461,9 +1418,7 @@ response with the following instructions:
 both-bad if both responses are not good.
 13
 
---- Page 14 ---
-
-• A response is considered good if it is coherent, grammatically correct, and is a reasonable
+--- Page 14 ---\n\n• A response is considered good if it is coherent, grammatically correct, and is a reasonable
 response to the question or previous turn in the conversation.
 • Good responses should be in the correct language (the response should be in the same
 language as the previous turn, unless another language was requested).
@@ -1551,9 +1506,7 @@ Vaswani et al. (2017) developed the Transformer architecture, which leverages mu
 attention and positional encoding to handle long-range dependencies and enable parallel processing.
 14
 
---- Page 15 ---
-
-Following that Radford et al. (2019) introduced GPT, a model that pretrains a Transformer decoder
+--- Page 15 ---\n\nFollowing that Radford et al. (2019) introduced GPT, a model that pretrains a Transformer decoder
 using a conditional language model objective, with subsequent fine-tuning requiring only minimal
 modifications. Similarly, Devlin et al. (2019) unveiled BERT, which uses a Transformer encoder
 pretrained via a masked language modeling (MLM) objective. This approach excelled at task adap-
@@ -1608,9 +1561,7 @@ directed towards preference tuning without explicit reward models.
 10https://github.com/google-research/bert/blob/master/multilingual.md
 15
 
---- Page 16 ---
-
-5.3
+--- Page 16 ---\n\n5.3
 Language Models for Arabic
 As of the time of writing, the most prominent Arabic-focused LLMs are:
 1. Jais (Sengupta et al., 2023): 13B and 30B base and chat models trained from scratch using
@@ -1662,9 +1613,7 @@ fairness, transparency, and inclusivity, striving to mitigate biases and ensure 
 11https://huggingface.co/Naseej/noon-7b
 16
 
---- Page 17 ---
-
-in our training data. We are mindful of privacy concerns and have taken steps to anonymize and
+--- Page 17 ---\n\nin our training data. We are mindful of privacy concerns and have taken steps to anonymize and
 secure data used in our research. Additionally, we acknowledge the potential for misuse of language
 technologies and advocate for their ethical application, promoting beneficial use cases while being
 vigilant about unintended consequences. ALLaM models are made openly available to foster collab-
@@ -1716,9 +1665,7 @@ J., Hu, A., Hui, J., Hurwitz, J., Isard, M., Ittycheriah, A., Jagielski, M., Jia
 Krikun, M., Kudugunta, S., Lan, C., Lee, K., Lee, B., Li, E., Li, M., Li, W., Li, Y., Li, J., Lim,
 17
 
---- Page 18 ---
-
-H., Lin, H., Liu, Z., Liu, F., Maggioni, M., Mahendru, A., Maynez, J., Misra, V., Moussalem, M.,
+--- Page 18 ---\n\nH., Lin, H., Liu, Z., Liu, F., Maggioni, M., Mahendru, A., Maynez, J., Misra, V., Moussalem, M.,
 Nado, Z., Nham, J., Ni, E., Nystrom, A., Parrish, A., Pellat, M., Polacek, M., Polozov, A., Pope,
 R., Qiao, S., Reif, E., Richter, B., Riley, P., Ros, A. C., Roy, A., Saeta, B., Samuel, R., Shelby, R.,
 Slone, A., Smilkov, D., So, D. R., Sohn, D., Tokumine, S., Valter, D., Vasudevan, V., Vodrahalli,
@@ -1773,9 +1720,7 @@ Bisk, Y., Zellers, R., Bras, R. L., Gao, J., and Choi, Y. Piqa: Reasoning about 
 in natural language. In Thirty-Fourth AAAI Conference on Artificial Intelligence, 2020.
 18
 
---- Page 19 ---
-
-Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam,
+--- Page 19 ---\n\nBrown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam,
 P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R.,
 Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., Hesse, C., Chen, M., Sigler, E., Litwin, M., Gray,
 S., Chess, B., Clark, J., Berner, C., McCandlish, S., Radford, A., Sutskever, I., and Amodei, D.
@@ -1828,9 +1773,7 @@ M., Zettlemoyer, L., and Stoyanov, V. Unsupervised cross-lingual representation 
 arXiv preprint arXiv:1911.02116, 2019.
 19
 
---- Page 20 ---
-
-Cui, Y., Yang, Z., and Yao, X. Efficient and effective text encoding for chinese llama and alpaca.
+--- Page 20 ---\n\nCui, Y., Yang, Z., and Yao, X. Efficient and effective text encoding for chinese llama and alpaca.
 arXiv preprint arXiv:2304.08177, 2023.
 Dao, T. FlashAttention-2: Faster attention with better parallelism and work partitioning. In Interna-
 tional Conference on Learning Representations (ICLR), 2024.
@@ -1880,9 +1823,7 @@ arXiv preprint arXiv:2011.03080, 2020.
 Hendrycks, D. and Mazeika, M. X-risk analysis for ai research, 2022.
 20
 
---- Page 21 ---
-
-Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., and Steinhardt, J. Measuring
+--- Page 21 ---\n\nHendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., and Steinhardt, J. Measuring
 massive multitask language understanding. arXiv preprint arXiv:2009.03300, 2020.
 Hendrycks, D., Burns, C., Basart, S., Critch, A., Li, J., Song, D., and Steinhardt, J. Aligning ai with
 shared human values. Proceedings of the International Conference on Learning Representations
@@ -1939,9 +1880,7 @@ Uszkoreit, J., Le, Q., and Petrov, S. Natural questions: a benchmark for questio
 search. Transactions of the Association of Computational Linguistics, 2019.
 21
 
---- Page 22 ---
-
-Lakim, I., Almazrouei, E., Abualhaol, I., Debbah, M., and Launay, J. A holistic assessment of
+--- Page 22 ---\n\nLakim, I., Almazrouei, E., Abualhaol, I., Debbah, M., and Launay, J. A holistic assessment of
 the carbon footprint of noor, a very large arabic language model. In Proceedings of BigScience
 Episode# 5–Workshop on Challenges & Perspectives in Creating Large Language Models, pp.
 84–94, 2022.
@@ -1990,9 +1929,7 @@ Naous, T., Ryan, M. J., Ritter, A., and Xu, W. Having beer after prayer? measuri
 large language models, 2024.
 22
 
---- Page 23 ---
-
-Nguyen, X.-P., Zhang, W., Li, X., Aljunied, M., Tan, Q., Cheng, L., Chen, G., Deng, Y., Yang, S.,
+--- Page 23 ---\n\nNguyen, X.-P., Zhang, W., Li, X., Aljunied, M., Tan, Q., Cheng, L., Chen, G., Deng, Y., Yang, S.,
 Liu, C., Zhang, H., and Bing, L. Seallms – large language models for southeast asia, 2023.
 Ni, J., Xue, F., Yue, X., Deng, Y., Shah, M., Jain, K., Neubig, G., and You, Y. Mixeval: Deriving
 wisdom of the crowd from llm benchmark mixtures, 2024.
@@ -2045,9 +1982,7 @@ Irving, G. Scaling language models: Methods, analysis & insights from training g
 abs/2112.11446, 2021. URL https://arxiv.org/abs/2112.11446.
 23
 
---- Page 24 ---
-
-Rafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning, C. D., and Finn, C. Direct preference
+--- Page 24 ---\n\nRafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning, C. D., and Finn, C. Direct preference
 optimization: Your language model is secretly a reward model, 2023. URL https://arxiv.
 org/abs/2305.18290.
 Rafailov, R., Sharma, A., Mitchell, E., Manning, C. D., Ermon, S., and Finn, C. Direct preference
@@ -2102,9 +2037,7 @@ Kim, N., Cheng, N., Serikov, O., Antverg, O., van der Wal, O., Zhang, R., Zhang,
 S., Mirkin, S., Pais, S., Shavrina, T., Scialom, T., Yun, T., Limisiewicz, T., Rieser, V., Protasov,
 24
 
---- Page 25 ---
-
-V., Mikhailov, V., Pruksachatkun, Y., Belinkov, Y., Bamberger, Z., Kasner, Z., Rueda, A., Pes-
+--- Page 25 ---\n\nV., Mikhailov, V., Pruksachatkun, Y., Belinkov, Y., Bamberger, Z., Kasner, Z., Rueda, A., Pes-
 tana, A., Feizpour, A., Khan, A., Faranak, A., Santos, A., Hevia, A., Unldreaj, A., Aghagol, A.,
 Abdollahi, A., Tammour, A., HajiHosseini, A., Behroozi, B., Ajibade, B., Saxena, B., Ferrandis,
 C. M., McDuff, D., Contractor, D., Lansky, D., David, D., Kiela, D., Nguyen, D. A., Tan, E.,
@@ -2159,9 +2092,7 @@ Strubell, E., Ganesh, A., and McCallum, A. Energy and policy considerations for 
 nlp, 2019.
 25
 
---- Page 26 ---
-
-Suzgun, M., Scales, N., Schärli, N., Gehrmann, S., Tay, Y., Chung, H. W., Chowdhery, A., Le, Q. V.,
+--- Page 26 ---\n\nSuzgun, M., Scales, N., Schärli, N., Gehrmann, S., Tay, Y., Chung, H. W., Chowdhery, A., Le, Q. V.,
 Chi, E. H., Zhou, D., , and Wei, J. Challenging big-bench tasks and whether chain-of-thought can
 solve them. arXiv preprint arXiv:2210.09261, 2022.
 Swain, M. and Lapkin, S. Problems in Output and the Cognitive Processes They Generate: A Step
@@ -2215,9 +2146,7 @@ A., Haas, J., Rimell, L., Hendricks, L. A., Isaac, W., Legassick, S., Irving, G.
 Ethical and social risks of harm from language models, 2021.
 26
 
---- Page 27 ---
-
-Weller, O., Seppi, K., and Gardner, M. When to use multi-task learning vs intermediate fine-tuning
+--- Page 27 ---\n\nWeller, O., Seppi, K., and Gardner, M. When to use multi-task learning vs intermediate fine-tuning
 for pre-trained encoder transfer learning. In Muresan, S., Nakov, P., and Villavicencio, A. (eds.),
 Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Vol-
 ume 2: Short Papers), pp. 272–282, Dublin, Ireland, May 2022. Association for Computational
@@ -2265,9 +2194,7 @@ Zhou, X., Su, Z., Eisape, T., Kim, H., and Sap, M. Is this the real life? is thi
 misleading success of simulating social interactions with llms, 2024.
 27
 
---- Page 28 ---
-
-A
+--- Page 28 ---\n\nA
 Appendix
 A.1
 Detailed Arabic Evaluation
@@ -2865,9 +2792,7 @@ A.2
 Detailed English Evaluation
 28
 
---- Page 29 ---
-
-AGIEval
+--- Page 29 ---\n\nAGIEval
 MMLU
 MMLU-Pro
 Ethics
@@ -4404,9 +4329,7 @@ Mixtral-8x22B-Instruct-v0.1
 Table 8: Comprehensive English benchmark results.
 29
 
---- Page 30 ---
-
-B
+--- Page 30 ---\n\nB
 Author Contributions
 In no particular order,
 • M Saiful Bari: Research lead for alignment at scale (second language acquisition). Wrote
@@ -4462,9 +4385,7 @@ of the SFT and RLHF code. Implemented the preference data pipeline in Megatron-L
 Worked on the alignment specialization. Profiled Megatron-Deepspeed.
 30
 
---- Page 31 ---
-
-• Faisal A. Mirza: Trained the Arabic-only tokenizer and worked on model creation with an
+--- Page 31 ---\n\n• Faisal A. Mirza: Trained the Arabic-only tokenizer and worked on model creation with an
 expanded vocabulary.
 • Shaykhah Z. Alsubaie: Maintained evaluation results for the paper, worked on synthetic
 SFT data creation, specialized model finetuning, few-shot evaluation, and model capability
@@ -4484,5 +4405,4 @@ Note:
 In this work we used the v2 version of our data and all the model mentioned in the paper
 are the v1 version trained on Megatron-LM. Our v0 model series were trained on NeMo.
 31
-
-```
+\n```\n

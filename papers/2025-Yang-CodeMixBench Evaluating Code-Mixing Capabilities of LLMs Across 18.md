@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.md"
 local_pdf: "[[PDFs/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: Code-switching
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Code-switching, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Turbo, GPT-4, GPT-4 Turbo, GPT-4-Turbo, GPT-4o, Llama, LLaMA2, LLaMA2-Chat, LLaMA2., LLaMA3, LLaMA3., Llama-2, Llama-3, Mistral, Mistral 7B, Mixtral 8x22B, Mixtral 8x7B, mistral-7b, mixtral-8x22b, mixtral-8x7b"
-DATA_URL: "https://github.com/fxsjy/jieba"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, LLaMA, Llama-2, Llama-3, Mistral, Mixtral"
+DATA_URL: "https://github.com/Jeromeyluck/CodeMixBench"
 tags: 
 abstract: "Code-mixing, the practice of switching between languages within a conversation, poses unique challenges for traditional NLP. Existing benchmarks are limited by their narrow language pairs and tasks, failing to adequately assess large language models’ (LLMs) codemixing abilities. Despite the recognized importance of code-mixing for multilingual users, research on LLMs in this context remains sparse. Additionally, current techniques for synthesizing code-mixed data are underdeveloped to generate..."
 CONFERENCE: "Preprint"
@@ -99,7 +103,8 @@ Code-mixing, the practice of switching between languages within a conversation, 
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Turbo, GPT-4, GPT-4 Turbo, GPT-4-Turbo, GPT-4o, Llama, LLaMA2, LLaMA2-Chat, LLaMA2., LLaMA3, LLaMA3., Llama-2, Llama-3, Mistral, Mistral 7B, Mixtral 8x22B, Mixtral 8x7B, mistral-7b, mixtral-8x22b, mixtral-8x7b. Verified dataset/resource link: https://github.com/fxsjy/jieba.
+CodeMixBench: a comprehensive code-mixing benchmark covering 8 tasks (3 LLM-specific: knowledge reasoning, math reasoning, truthfulness; 5 traditional NLP: LID, POS, NER, SA, MT) across 18 languages from 7 language families, with ~20,000+ synthesized code-mixed instances created via GPT-4-prompted word substitution.
+
 
 ## Notes
 

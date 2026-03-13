@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ paper_summary: "Abstract: Large language models (LLMs) can 'lie', which we defin
 local_pdf: "[[PDFs/2023/2023-Tan-How to Catch an AI Liar.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, GPT-3, Llama, Alpaca, Vicuna"
+LLM_assessed: "Alpaca, GPT-3, GPT-3.5, LLaMA, Vicuna"
 DATA_URL: "https://github.com/LoryPack/LLM-LieDetector"
 CONFERENCE: "Journal"
 ethics_overall: "No"
@@ -62,8 +66,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -93,7 +97,7 @@ Large language models (LLMs) can "lie", which we define as outputting false stat
 
 ## Data Description
 
-The paper develops a black-box lie detector for LLMs using a question-answering dataset of over 20,000 questions spanning general knowledge, mathematics, common sense reasoning, translations, and self-knowledge. The detector is trained on 2,560 lie/truth samples from prompted GPT-3.5 (text-davinci-003) and tested for generalization across GPT-3 (davinci), LLaMA-30B, LLaMA-7B, Alpaca-7B, and Vicuna-7B using various lie generation methods including prompting, chain-of-thought, and fine-tuning.
+Public datasets and resources for studying lie detection in LLMs, including a diverse question-answering dataset of 20,000+ questions and lie detection elicitation question sets.
 
 
 ## Notes

@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ local_pdf: "[[PDFs/2021/2021-Wuerzburg-German HateSpeech Corpus.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: BERT
-DATA_URL: "https://github.com/cophi-wue/German_HateSpeech_Corpus"
+DATA_URL: "https://ccwi.github.io/corpus-gmhp7k/"
 tags: 
 abstract: "We provide a German corpus consisting of 7,061 posts authored by users of social media platforms. A group of volunteers annotated each post according to hatespeech and misogynistic/misogynous hatespeech in a binary fashion. The interrater reliability over all annotators according to Fleiss’ Kappa is 0.6409 for hatespeech and 0.8258 for misogynistic hatespeech. Furthermore, baseline measurements with machine learning based text classification with BERT are presented."
 research_topic: "Machine Learning"
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "2,871 instances"
@@ -101,7 +105,7 @@ This paper presents the GMHP7k corpus containing 7,061 German social media posts
 
 ## Data Description
 
-GMHP7k corpus of 7,061 German social media posts annotated for general hate speech and misogynistic hate speech specifically. Tests BERT models achieving F1 scores up to 0.79 for hate speech and 0.75 for misogynistic hate speech detection.
+GMHP7k: German corpus of 7,061 social media posts annotated for hatespeech and misogynistic hatespeech, with BERT baseline classification achieving macro F1 up to 0.79.
 
 
 ## Detailed Summary

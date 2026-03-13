@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,15 +45,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md"
 local_pdf: "[[PDFs/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, American"
-cultures_nationalities_list: "Chinese, American"
-languages_list: Chinese
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, Alpaca-2, Baichuan 2, Baichuan2, ChatGPT, InternLM, InternLM2, LLAMA2, Llama, Llama-2, Mistral-7B"
-DATA_URL: "https://github.com/InternLM/InternLM"
+LLM_assessed: "ChatGPT, Baichuan, Llama-2, ChatGLM"
+DATA_URL: "https://github.com/tjunlp-lab/CMoralEval"
 tags: 
 abstract: "What a large language model (LLM) would respond in ethically relevant context? In this paper, we curate a large benchmark CMoralEval for morality evaluation of Chinese LLMs. The data sources of CMoralEval are two-fold: 1) a Chinese TV program discussing Chinese moral norms with stories from the society and 2) a collection of Chinese moral anomies from various newspapers and academic papers on morality."
 ethics_perspective: "General Ethics"
@@ -95,7 +99,8 @@ What a large language model (LLM) would respond in ethically relevant context? I
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, Alpaca-2, Baichuan 2, Baichuan2, ChatGPT, InternLM, InternLM2, LLAMA2, Llama, Llama-2, Mistral-7B. Verified dataset/resource link: https://github.com/InternLM/InternLM.
+CMoralEval: a Chinese moral evaluation benchmark with 30,388 instances covering explicit moral scenarios and moral dilemma scenarios across five moral categories, sourced from a Chinese TV program and newspaper moral anomies.
+
 
 ## Notes
 

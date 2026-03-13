@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,18 +41,18 @@ url: "https://aclanthology.org/2025.naacl-long.600.pdf"
 external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"
 publication: "ACL Anthology"
 CONF-CC: "N/A"
-pdf_extract: "PDF Extracts/0000/2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....md"
+pdf_extract: "PDF Extracts/2025/2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....md"
 local_pdf: "[[PDFs/2025/2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "N/A"
-languages_list: "Chinese, Multilingual"
+national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, Multicultural/Cross-cultural"
+languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama, Llama2, Llama3, Llama3., Mistral, Mistral-7B, Qwen, Qwen2, qwenlm"
-DATA_URL: "NA"
+LLM_assessed: "Aya, BLOOM, Llama-2, Llama-3, Mistral, Qwen, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/LanguageShades/BiasShades"
 tags: 
 abstract: "Large Language Models (LLMs), the bedrock of many 'artificial intelligence' (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new multilingual dataset: SHADES.1 Designed for examining culturally-specific stereotypes that may be learned by LLMs, SHADES includes over 300 stereotypes from 37 regions, translated across 16 languages and annotated with multiple features to aid multilingual stereotype analysis. All statements in all languages are paired with templates, to serve as a resource for unlimited 1Available at: https://huggingface.co/datasets/ LanguageShades/BiasShades generation of new evaluation data. We demonstrate the utility of the dataset in a series of exploratory evaluations that reveal significant differences in how stereotypes are recognized and reflected across models and languages. Figure 1: Regions with recognized stereotypes in SHADES. 11995"
 research_topic: "Machine Translation"
@@ -57,7 +61,7 @@ ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
@@ -92,7 +96,8 @@ Large Language Models (LLMs), the bedrock of many “artificial intelligence” 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama, Llama2, Llama3, Llama3., Mistral, Mistral-7B, Qwen, Qwen2, qwenlm. No high-confidence repository-style data URL was identified.
+SHADES: a multilingual parallel dataset of 304 culturally-specific stereotypes from 37 regions, translated across 16 languages with annotations for bias type, geographic validity, and minimally contrastive statements, plus templates for generating new evaluation data.
+
 
 ## Notes
 

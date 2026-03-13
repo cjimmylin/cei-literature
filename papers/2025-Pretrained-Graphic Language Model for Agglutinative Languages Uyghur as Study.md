@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +50,8 @@ pdf_extract: "PDF Extracts/2025/2025-Pretrained-Graphic Language Model for Agglu
 local_pdf: "[[PDFs/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese, Uyghur"
-languages_list: "Chinese, Uyghur"
+cultures_nationalities_list: "Chinese"
+languages_list: "Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

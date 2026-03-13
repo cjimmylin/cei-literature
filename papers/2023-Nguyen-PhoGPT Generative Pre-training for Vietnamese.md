@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +51,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3, GPT-3.5-turbo, GPT-4, Gemma, Llama, LLaMA2, Mistral, Qwen1.5"
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, Gemma, Llama-2, Mistral, Qwen"
 DATA_URL: "https://github.com/VinAIResearch/PhoGPT"
 tags: 
 abstract: "We open-source a state-of-the-art 4B-parameter generative model series for Vietnamese, which includes the base pre-trained monolingual model PhoGPT4B and its chat variant, PhoGPT-4B-Chat. The base model, PhoGPT-4B, with exactly 3.7B parameters, is pre-trained from scratch on a Vietnamese corpus of 102B tokens, with an 8192 context length, employing a vocabulary of 20480 token types. The chat variant, PhoGPT-4B-Chat, is the modeling output obtained by fine-tuning PhoGPT-4B on a dataset of 70K..."
@@ -61,8 +66,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
@@ -98,7 +103,8 @@ Open-source 4B-parameter generative model for Vietnamese pre-trained on 102B tok
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-3, GPT-3.5-turbo, GPT-4, Gemma, Llama, LLaMA2, Mistral, Qwen1.5. Verified dataset/resource link: https://github.com/VinAIResearch/PhoGPT.
+Open-source PhoGPT-4B and PhoGPT-4B-Chat models for Vietnamese, with evaluation on ViTruthfulQA benchmark.
+
 
 ## Notes
 

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +45,7 @@ doi: 10.1007/s10579-022-09580-w
 url: "https://link.springer.com/10.1007/s10579-022-09580-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-022-09580-w.pdf"
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Maori"
+cultures_nationalities_list: "N/A"
 languages_list: "Maori"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -103,7 +106,7 @@ Abstract                            Te reo Māori, the Indigenous language of Ao
 
 ## Data Description
 
-The paper documents the creation of the Reo Maori Twitter (RMT) Corpus, containing 79,018 original Maori-language tweets from 2,302 accounts spanning 2007-2020, totaling over one million words. The corpus serves as a resource for linguistic analysis and NLP tool development for te reo Maori. No models are tested or benchmarked in the paper itself.
+The Reo Maori Twitter (RMT) Corpus: 79,018 original Maori-language tweets from 2,302 accounts spanning 2007-2020, the largest publicly available collection of social media data in Maori, intended for linguistic analysis and NLP tool development for endangered languages.
 
 
 ## Notes

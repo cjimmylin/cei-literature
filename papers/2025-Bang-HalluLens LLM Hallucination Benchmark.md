@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ local_pdf: "[[PDFs/2025/2025-Bang-HalluLens LLM Hallucination Benchmark.pdf]]"
 abstract: "Large language models (LLMs) often generate responses that deviate from user input or training data, a phenomenon known as \"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, Mistral, Gemma, Qwen, Claude, GPT-4"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Sonnet, GPT-4o, Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/facebookresearch/HalluLens"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -93,7 +97,7 @@ Large language models (LLMs) often generate responses that deviate from user inp
 
 ## Data Description
 
-HalluLens is a comprehensive hallucination benchmark with three extrinsic hallucination tasks (PreciseWikiQA, LongWiki, NonExistentRefusal) using dynamically generated test sets from Wikipedia. It evaluates 13 instruction-tuned LLMs including Llama-3.1 (8B, 70B, 405B), Llama-3.3-70B, Qwen-2.5 (7B, 14B), Gemma-2 (9B, 27B), Mistral (7B, Nemo), Claude-3 (haiku, sonnet), and GPT-4o on hallucination rate, false refusal rate, and correct answer rate.
+HalluLens: a comprehensive hallucination benchmark with dynamically generated extrinsic hallucination tasks (PreciseWikiQA, LongWiki, NonExistentRefusal) and existing intrinsic tasks, covering 13 LLMs from open-source and commercial families.
 
 
 ## Notes

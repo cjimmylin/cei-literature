@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +50,8 @@ pdf_extract: "PDF Extracts/2025/2025-Gu-Linguistically informed ChatGPT prompts 
 local_pdf: "[[PDFs/2025/2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese"
-cultures_nationalities_list: "Japanese, Chinese"
-languages_list: "Chinese, English, Japanese, Uyghur"
+cultures_nationalities_list: "Chinese, Japanese"
+languages_list: "Chinese, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -64,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---

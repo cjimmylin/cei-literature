@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly deployed in human-centric applications, yet they often fail to provide substantive emotional support. While Reinforcement Learning (RL) has been utilized to enhance empathy of LLMs, existing reward models typically evaluate empathy from a single perspective, overlooking the inherently bidirectional interaction nature of empathy between the supporter and seeker as defined by Empathy Cycle theory."
-LLM_assessed: "GPT-4o, Qwen"
+LLM_assessed: "GPT-4o, Qwen, RoBERTa"
 DATA_URL: "https://github.com/ZhengWwwq/PERM"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -61,7 +64,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for conversational ai"
@@ -98,7 +101,8 @@ Training data built on EmpatheticDialogues, augmented with GPT-4o scenario expan
 
 ## Data Description
 
-This paper uses the EmpatheticDialogues dataset augmented with GPT-4o-generated scenario descriptions and user personas for training, comprising 3,000 samples. Evaluation is conducted on EQ-Bench3, a comprehensive emotional intelligence benchmark, as well as a daily conversation benchmark and a user study. The PERM reward modeling framework is applied to fine-tune Qwen2.5-7B-Instruct via GRPO reinforcement learning, using GPT-4o-mini as the judge LLM for multi-perspective empathy scoring.
+A psychology-grounded empathetic reward modeling dataset built upon EmpatheticDialogues, expanded with GPT-4o-generated responses. The dataset supports training reward models for empathy evaluation in LLMs using a bidirectional decomposition framework.
+
 
 ## Notes
 

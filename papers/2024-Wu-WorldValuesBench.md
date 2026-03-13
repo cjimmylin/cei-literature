@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,8 +43,8 @@ last_author: "[[Yuling Gu]]"
 authors: "Wenlong Zhao; Debanjan Mondal; Niket Tandon; Danica Dillion; Kurt Gray; Yuling Gu"
 url: "https://arxiv.org/abs/2404.16308"
 external_pdf: "https://arxiv.org/pdf/2404.16308.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ paper_summary: "Abstract: The awareness of multi-cultural human values is critic
 local_pdf: "[[PDFs/2024/2024-Wu-WorldValuesBench.pdf]]"
 CONF-CC: "Language Resources and Evaluation"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, Alpaca, Vicuna, Mixtral"
+LLM_assessed: "Alpaca, GPT-3.5, Mixtral, Vicuna"
 DATA_URL: "https://github.com/Demon702/WorldValuesBench"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
@@ -95,7 +99,7 @@ The awareness of multi-cultural human values is critical to the ability of langu
 
 ## Data Description
 
-WorldValuesBench is a globally diverse, large-scale benchmark dataset for multi-cultural value prediction, derived from the World Values Survey Wave 7 with over 20 million examples from 94,728 participants worldwide. The benchmark evaluates whether language models can generate culturally appropriate rating answers to value questions conditioned on demographic attributes across 64 countries.
+WorldValuesBench is a 21M-example benchmark derived from World Values Survey Wave 7 data (94,728 participants, 64 countries) for the multi-cultural value prediction task, requiring models to generate rating answers to value questions conditioned on demographic attributes.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2025/2025-Vallego-La Leaderboard A Large Language Model Leade
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Spanish, Latin American"
+national_ethnic_cultural: "Spanish, Latin American, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Spanish, Latin American, Multicultural/Cross-cultural"
 languages_list: "Basque, Catalan, Galician, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, Barth, DeepSeek, DeepSeek-AI, Gemma, Gemma-2, GPT-4, Llama, Llama 3, Llama-3.1, Mistral, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, RoBERTa, Llama-3, qwen2"
+LLM_assessed: "BERT, RoBERTa, LLaMA, Llama-2, Llama-3, Mistral, GPT-4, Gemma, Gemma-2, DeepSeek, Qwen, Qwen-2, ALBERT"
 DATA_URL: "https://zenodo.org/records/12571763"
 tags: 
 abstract: "Leaderboards showcase the current capabilities and limitations of Large Language Models (LLMs). To motivate the development of LLMs that represent the linguistic and cultural diversity of the Spanish-speaking community, we present LA LEADERBOARD 1, the first open-source leaderboard to evaluate generative LLMs in languages and language varieties of Spain and Latin America. LA LEADERBOARD is a communitydriven project that aims to establish an evaluation standard for everyone interested in..."
@@ -98,7 +102,8 @@ Community-driven initiative with 66 datasets in Spanish, Catalan, Basque, and Ga
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, Barth, DeepSeek, DeepSeek-AI, Gemma, Gemma-2, GPT-4, Llama, Llama 3, Llama-3.1, Mistral, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, RoBERTa, Llama-3, qwen2. Verified dataset/resource link: https://zenodo.org/records/12571763.
+La Leaderboard is a community-driven open-source benchmark combining 66 datasets in Spanish, Catalan, Basque, and Galician, evaluating 50 generative LLMs on tasks spanning domain knowledge, linguistic proficiency, and ethical aspects. It is the first open-source leaderboard covering languages and varieties of Spain and Latin America.
+
 
 ## Notes
 

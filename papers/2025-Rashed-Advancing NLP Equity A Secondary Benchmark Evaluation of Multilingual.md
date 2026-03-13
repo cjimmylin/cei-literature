@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.md"
 local_pdf: "[[PDFs/2025/2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish, American"
-cultures_nationalities_list: "Spanish, American, Indigenous American"
-languages_list: "Guarani, Kyrgyz, Multilingual, Quechua, Turkish"
+national_ethnic_cultural: "Latin American, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Latin American, Multicultural/Cross-cultural"
+languages_list: "Guarani, Kyrgyz, Quechua, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: "RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Recent multilingual language models promise support for “100+ languages,” yet speakers of Indigenous and other underrepresented languages still often do not see themselves in these advances. In this work, we take a deliberately simple, secondary-benchmark perspective: rather than proposing a new model or dataset, we re-evaluate an off-theshelf multilingual natural language inference (NLI) model on public benchmarks that explicitly include Indigenous languages of the Americas."

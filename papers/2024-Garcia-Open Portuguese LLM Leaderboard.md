@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
-languages_list: Portuguese
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -98,7 +101,7 @@ Community benchmark for evaluation of LLMs in Portuguese across a variety of tas
 
 ## Data Description
 
-The Open Portuguese LLM Leaderboard is a community-driven benchmark platform hosted on HuggingFace for evaluating LLMs in Portuguese across a variety of tasks and datasets. It provides a public leaderboard tracking model performance. While many LLMs are evaluated on the leaderboard, this is a platform/resource rather than a paper reporting specific experimental results, so no specific tested models can be attributed to the authors.
+A community benchmark leaderboard for evaluating LLMs in Portuguese across a variety of tasks and datasets, providing public tracking of model performance.
 
 
 ## Notes

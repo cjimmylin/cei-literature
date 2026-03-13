@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,7 @@ paper_summary: "Abstract: As large language models (LLMs) continue to evolve, en
 local_pdf: "[[PDFs/2025/2025-Liu-InstrumentalEval.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4o, o1, o3, Claude, DeepSeek, Gemini"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, o1, o3"
 DATA_URL: "https://github.com/yf-he/InstrumentalEval"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

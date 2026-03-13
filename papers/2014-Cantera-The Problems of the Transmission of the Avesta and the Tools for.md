@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,17 +45,17 @@ CONF-CC: "N/A"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Zoroastrian, Avestan"
+national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: "Avestan"
-religious_values: Zoroastrian
-religious_values_list: "Zoroastrian"
+religious_values: "Zoroastrianism"
+religious_values_list: "Zoroastrianism"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Proposes computational tools for text criticism of the Avesta (Zoroastrian sacred texts), combining philological analysis with computer-based methods to calculate pregenealogical coherence. Addresses the complex transmission of Avestan liturgical texts used in Zoroastrian ceremonies since the sixth century BC, producing computational stemmata."
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"

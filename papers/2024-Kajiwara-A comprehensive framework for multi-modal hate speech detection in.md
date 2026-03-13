@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +49,12 @@ local_pdf: "[[PDFs/2024/2024-Kajiwara-A comprehensive framework for multi-modal 
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
-languages_list: Japanese
+languages_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa, T5, Word2Vec"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"Validating Pseudo-label Dataset for Japanese Hate Speech Detection\" was published in 2024."
@@ -63,7 +66,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

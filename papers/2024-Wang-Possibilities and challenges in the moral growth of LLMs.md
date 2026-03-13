@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ key_contribution: "Analyzes LLM moral development through RLHF using Dewey's mor
 significance: "Argues LLMs cannot reach 'character stage' of moral development due to lack of self-consciousness, emphasizing need for external governance"
 abstract: "With the rapid expansion of parameters in large language models (LLMs) and the application of Reinforcement Learning with Human Feedback (RLHF), there has been a noticeable growth in the moral competence of LLMs. However, several questions warrant further exploration: Is it really possible for LLMs to fully align with human values through RLHF? How can the current moral growth be philosophically contextualized?"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-2, GPT-3, ChatGPT"
+LLM_assessed: "GPT-2, GPT-3, ChatGPT, ChatGLM"
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -59,7 +63,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

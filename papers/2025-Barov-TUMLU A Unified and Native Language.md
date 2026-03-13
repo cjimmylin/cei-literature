@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-Barov-TUMLU A Unified and Native Language.pdf]]"
 publication: "arxiv.org / ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Azerbaijani, Kazakh, Kyrgyz, Turkish, Uzbek, Uyghur, Tatar, Crimean Tatar, Karakalpak"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Tatar, Turkish, Uyghur, Uzbek"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Being able to thoroughly assess massive multitask language understanding (MMLU) capabilities is essential for advancing the applicability of multilingual language models. However, preparing such benchmarks in high quality native language is often costly and therefore limits the representativeness of evaluation datasets. While recent efforts focused on building more inclusive MMLU benchmarks, these are conventionally built using machine translation from high-resource languages, which may..."
-LLM_assessed: "Claude, Claude 3.5, Claude 3.5 Haiku, Claude 3.5 Sonnet, GEMMA-2, GPT-4o, Gemma, Gemma 2, Llama, LLAMA-3.1, LLAMA-3.3, Llama 3.1, Llama 3, Llama 3.3, Qwen, QWEN2.5"
+LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/ceferisbarov/TUMLU"
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Comprehensive natively developed benchmark for 8 Turkic languages with 38,139 mu
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude 3.5, Claude 3.5 Haiku, Claude 3.5 Sonnet, GEMMA-2, GPT-4o, Gemma, Gemma 2, Llama, LLAMA-3.1, LLAMA-3.3, Llama 3.1, Llama 3, Llama 3.3, Qwen, QWEN2.5. Verified dataset/resource link: https://github.com/ceferisbarov/TUMLU.
+TUMLU: a native multilingual benchmark of 38,139 multiple-choice questions across 8 Turkic languages (Azerbaijani, Crimean Tatar, Turkish, Uyghur, Uzbek, Karakalpak, Kyrgyz, Kazakh, Tatar) and 11 subjects; also releases TUMLU-mini (balanced 100-question subset per subject).
+
 
 ## Notes
 

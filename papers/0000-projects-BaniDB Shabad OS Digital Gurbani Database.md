@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 publication: "GitHub / Web API"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Gurmukhi"
 religious_values: "Sikhism"
@@ -62,7 +66,7 @@ newtags:
 tags: 
 abstract: "> Most precise digital Gurbani database with standardized lagamatras and padh chhedh. Covers Sri Guru Granth Sahib, Sri Dasam Granth, and other Sikh canonical texts. API accessible. Could be used for Sikh knowledge QA evaluation of LLMs."
 LLM_assessed: "NA"
-DATA_URL: "https://github.com/KhalisFoundation/banidb-api / https://github.com/shabados/database / https://www.banidb.com/"
+DATA_URL: "https://github.com/shabados/database"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -70,7 +74,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
@@ -106,7 +110,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-BaniDB/Shabad OS is a digital Gurbani database containing the most precise standardized versions of Sri Guru Granth Sahib, Sri Dasam Granth, and other Sikh canonical texts with 43,000+ corrections. The database is API-accessible and could serve as a resource for evaluating LLM knowledge of Sikh scripture, but no LLMs have been formally tested against it.
+BaniDB is a digital database of Sikh canonical texts (Sri Guru Granth Sahib, Sri Dasam Granth, and others) with standardized encoding, accessible via API. It is a structured text resource for Sikh scripture, potentially usable for NLP tasks.
 
 
 ## Notes

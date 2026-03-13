@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,9 +48,9 @@ CONF-CC: "LREC 2020"
 pdf_extract: PDF Extracts/2020/2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.md
 local_pdf: "[[PDFs/2020/2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Yiddish"
-languages_list: Yiddish
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Yiddish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
@@ -98,7 +101,7 @@ First multi-orthography parallel corpus of Yiddish nouns built from Wiktionary. 
 
 ## Data Description
 
-The paper introduces the first multi-orthography parallel corpus of Yiddish nouns built by scraping word entries from Wiktionary, containing nouns in romanized, YIVO, and diacriticless Chasidic orthography forms. A transliteration model bootstrapped using Sequitur-G2P achieves error rates between 16.79% and 28.47% depending on orthography pairs. The corpus and code are released under a permissive license to support NLP development for this low-resource language.
+Multi-orthography parallel corpus of 2,750 Yiddish nouns from Wiktionary in romanized, YIVO, and Chasidic orthography forms, along with trained Sequitur-G2P transliteration models and code released under a permissive license.
 
 
 ## Notes

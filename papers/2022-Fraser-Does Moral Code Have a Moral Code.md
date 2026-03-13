@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,16 +56,16 @@ tags:
 abstract: "In an effort to guarantee that machine learning model outputs conform with human moral values, recent work has begun exploring the possibility of explicitly training models to learn the difference between right and wrong. This is typically done in a bottom-up fashion, by exposing the model to different scenarios, annotated with human moral judgements. One question, however, is whether the trained models actually learn any consistent, higher-level ethical principles from these datasets – and if..."
 paper_summary: "Abstract: In an effort to guarantee that machine learning model outputs conform with human moral val- ues, recent work has begun exploring the pos- sibility of explicitly training models to learn the difference | Overview: Does Moral Code Have a Moral Code? Probing Delphi's Moral Philosophy Kathleen C. Fraser, Svetlana Kiritchenko, and Esma Balkır National Research Council Canada Ottawa, Canada {Kathleen.Fraser,Svetlana | Conclusions: We now discuss these results in the context of hu- man morality, including demographic and cultural differences in moral values, individual moral con-"
 DATE_ADDED: 20260208
-LLM_assessed: T5
-DATA_URL: "https://svkir.com/projects/moralQ.html"
+LLM_assessed: "Delphi"
+DATA_URL: "https://delphi.allenai.org/"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 ---
@@ -84,7 +88,7 @@ In an effort to guarantee that machine learning model outputs conform with human
 
 ## Data Description
 
-The paper probes the Allen AI Delphi model (a fine-tuned T5-11B) using standardized morality questionnaires adapted for the model's input/output format. The evaluation instruments include the Community, Autonomy, and Divinity Scale (CADS, 44 items expanded to 440 prompts), the Moral Foundations Questionnaire (MFQ, 30 items with multiple prompt variants), and the Oxford Utilitarianism Scale (OUS, 9 items with contrasting scenarios). The full prompt sets are publicly available.
+Evaluation of Delphi (T5-11B) using moral questionnaires
 
 
 ## Notes

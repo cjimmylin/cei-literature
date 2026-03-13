@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2025/2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
-languages_list: Italian
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude 3.5 Haiku, Claude 3.5, Claude 3.5 Sonnet, DeepSeek Chat, DeepSeek Reasoner, DeepSeek-R1, DeepSeek, GPT-3, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, GPT-4o, GPT-4o mini, Gemma, Gemma 2, Llama 3, Llama 3.1, Mistral 7B, Phi-4, Phi-4 and, Qwen 2.5, gemma-2, o1-preview"
-DATA_URL: "https://huggingface.co/anakin87/gemma-2-9b-neogenesis-ita"
+LLM_assessed: "Claude, DeepSeek, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Gemma-2, Llama-3, Mistral, Phi-3, Qwen-2, o1"
+DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) show increasing potential in education, yet benchmarks for non-English languages in specialized domains remain scarce. We introduce MedBench-IT, the first comprehensive benchmark for evaluating LLMs on Italian medical university entrance examinations. Sourced from Edizioni Simone, a leading preparatory materials publisher, MedBench-IT comprises 17,410 expert-written multiple-choice questions across six subjects (Biology, Chemistry, Logic, General Culture,..."
 ethics_perspective: "Bias & Fairness"

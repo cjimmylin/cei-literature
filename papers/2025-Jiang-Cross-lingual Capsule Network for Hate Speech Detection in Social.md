@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +48,15 @@ CONF-CC: "ACM Conference on Hypertext & Social Media"
 pdf_extract: "PDF Extracts/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md"
 local_pdf: "[[PDFs/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Italian, Spanish"
-cultures_nationalities_list: "Italian, Spanish"
-languages_list: "English, Multilingual"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/google-research/bert"
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: NA
 tags: 
 abstract: "Most hate speech detection research focuses on a single language, generally English, which limits their generalisability to other languages. In this paper we investigate the cross-lingual hate speech detection task, tackling the problem by adapting the hate speech resources from one language to another. We propose a cross-lingual capsule network learning model coupled with extra domain-specific lexical semantics for hate speech (CCNL-Ex)."
 CONFERENCE: "Other Conference"
@@ -62,9 +65,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

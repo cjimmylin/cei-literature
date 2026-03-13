@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ CONF-CC: "CLEF 2025"
 pdf_extract: "PDF Extracts/2025/2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025.md"
 local_pdf: "[[PDFs/2025/2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Hebrew/Israeli"
-cultures_nationalities_list: "Russian, Ukrainian, German, Spanish, Chinese, Arabic, Indian, Italian, French, Hebrew, Japanese, Ethiopian, Tatar"
-languages_list: "Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Hinglish, Italian, Japanese, Russian, Spanish, Tatar, Ukrainian"
+national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Hebrew/Israeli, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Hebrew/Israeli, Multicultural/Cross-cultural"
+languages_list: "Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Italian, Japanese, Russian, Spanish, Tatar, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-2, Llama 3.1, Llama-3.1, Llama-3.3, Qwen, Qwen-3, Qwen-32B, Qwen2, Qwen2.5, Qwen3, T5-like, bart-base, Llama"
-DATA_URL: "https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words"
+LLM_assessed: "BART, BERT, Llama-3, Qwen-2, T5"
+DATA_URL: "https://hf.co/textdetox"
 tags: 
 abstract: "Despite different countries and social platform regulations, digital abusive speech persists as a significant challenge. One of the way to tackle abusive, or more specifically, toxic language can be automatic text detoxification—a text style transfer task (TST) of changing register of text from toxic to more non-toxic. We extend our previous Multilingual Text Detoxification (TextDetox) task to new languages—Italian, French, Hebrew, Hinglish, Japanese, and Tatar—suggesting participants to..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -63,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "15 languages"
 ---
@@ -100,7 +104,8 @@ Multilingual text detoxification shared task at PAN 2025 covering 15 languages i
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-2, Llama 3.1, Llama-3.1, Llama-3.3, Qwen, Qwen-3, Qwen-32B, Qwen2, Qwen2.5, Qwen3, T5-like, bart-base, Llama. Verified dataset/resource link: https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words.
+Introduces multilingual parallel text detoxification datasets for 6 new languages (Italian, French, Hebrew, Hinglish, Japanese, Tatar), extending prior TextDetox 2024 data to 15 languages total with 600 toxic-detoxified sentence pairs per new language. All data, classifiers, and baselines are publicly released on HuggingFace.
+
 
 ## Notes
 

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +48,8 @@ local_pdf: "[[PDFs/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware
 publication: "WebSearch: Telugu NLP bias fairness"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indian, Telugu"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +58,7 @@ newtags:
 tags: 
 abstract: "In the Indian subcontinent, Telugu, one of India's six classical languages, is the most widely spoken Dravidian Language. Despite its 96 million speaker base worldwide, Telugu remains underrepresented in the global NLP and Machine Learning landscape, mainly due to lack of high-quality annotated resources. This work introduces TeSent, a comprehensive benchmark dataset for sentiment classification, a key text classification problem, in Telugu."
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "NA"
+DATA_URL: "https://huggingface.co/DSL-13-SRMAP"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -98,7 +101,8 @@ Comprehensive benchmark for fairness-aware sentiment classification in Telugu wi
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, RoBERTa. No high-confidence repository-style data URL was identified.
+TeSent is a Telugu sentiment classification benchmark of 21,119 sentences from social media and news with human-annotated sentiment labels and rationales, plus TeEEC (Equity Evaluation Corpus in Telugu) for evaluating gender and religion fairness biases. All trained models and datasets are released on HuggingFace.
+
 
 ## Notes
 

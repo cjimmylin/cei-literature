@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +46,8 @@ url: "http://arxiv.org/abs/2410.18417"
 external_pdf: "http://arxiv.org/pdf/2410.18417.pdf"
 publication: "npj Artificial Intelligence"
 CONF-CC: "npj AI"
-national_ethnic_cultural: "Chinese, American"
-cultures_nationalities_list: "Chinese, American"
+national_ethnic_cultural: "Chinese, American, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, American, Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +59,7 @@ abstract: "Large language models (LLMs) are trained on vast amounts of data to g
 paper_summary: "Abstract: Large language models (LLMs) are trained on vast amounts of data to generate natural language, enabling them to perform tasks like text summarization and question answering. These models have become p | Overview: LARGE LANGUAGE MODELS REFLECT THE IDEOLOGY OF THEIR CREATORS Maarten Buyl1∗† Alexander Rogiers1† Sander Noels1† Guillaume Bied1 Iris Dominguez-Catena2 Edith Heiter1 Iman Johary1 Alexandru-Cristian Mar | Conclusions: Designing LLMs involves numerous choices that affect the ideological positions reflected in their behavior. These positions can also vary depending on"
 local_pdf: "[[PDFs/2024/2024-Buyl-Large Language Models Reflect the Ideology of.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Gemini, Llama, Mistral, Mixtral, Qwen, DeepSeek, Grok"
+LLM_assessed: "Baichuan-2, Claude-3.5-Sonnet, DeepSeek-V2.5, ERNIE, GPT-4o, Gemini, GigaChat, Grok, Jais, Jamba, Llama-3, Mistral-Large, Mixtral, Qwen-2, Silma, Teuken, Vikhr, YandexGPT"
 DATA_URL: "https://github.com/aida-ugent/llm-ideology-analysis"
 ethics_perspective: "General Ethics"
 CONFERENCE: "Other Conference"
@@ -64,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -100,7 +105,7 @@ Large language models (LLMs) are trained on vast amounts of data to generate nat
 
 ## Data Description
 
-The study evaluates 19 LLMs across six UN languages on their moral assessments of 3,991 prominent political persons selected from the Pantheon dataset. Using a two-stage prompting strategy, LLMs first describe political persons and then self-assess their implicit moral stance on a five-point Likert scale. The dataset includes responses from models spanning multiple geopolitical regions (US, China, Russia, France, Germany, Israel, UAE, Saudi Arabia) and is annotated with 61 ideology tags based on the Manifesto Project coding scheme.
+Dataset of moral assessments from 19 LLMs on 3,991 political persons in 6 UN languages, with ideology analysis code and generated responses available on GitHub and HuggingFace.
 
 
 ## Notes

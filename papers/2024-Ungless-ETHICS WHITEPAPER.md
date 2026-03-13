@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +55,7 @@ tags:
 abstract: "There is a significant body of work looking at the ethical considerations of large language models (LLMs): critiquing tools to measure performance and harms; proposing toolkits to aid in ideation; discussing the risks to workers; considering legislation around privacy and security etc. As yet there is no work that integrates these resources into a single practical guide that focuses on LLMs; we attempt this ambitious goal."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT"
+LLM_assessed: NA
 DATA_URL: "https://github.com/MxEddie/Ethics-Whitepaper"
 pdf_extract: "PDF Extracts/2024/2024-Ungless-ETHICS WHITEPAPER.md"
 local_pdf: "[[PDFs/2024/2024-Ungless-ETHICS WHITEPAPER.pdf]]"

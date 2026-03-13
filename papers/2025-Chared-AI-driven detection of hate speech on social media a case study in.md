@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "Cluster Computing"
 pdf_extract: "PDF Extracts/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.md"
 local_pdf: "[[PDFs/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian, Arabic, French"
+national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
-languages_list: French
+languages_list: "French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "CamemBERT, DistilCamemBERT, DeHateBERT"
+LLM_assessed: "BART"
 DATA_URL: "NA"
 tags: 
 abstract: "In today’s digital age, the rise of online hate speech–fueled by user anonymity and widespread use of platforms like X– has become a serious issue. It is a challenge for both social media companies and authorities in their efforts to maintain a safe and respectful online environment. Hate speech (HS) is mostly seen as an intentional act of aggressive behavior towards anyone based on their personal traits."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
@@ -102,7 +106,7 @@ This paper addresses hate speech detection in French social media by compiling a
 
 ## Data Description
 
-This paper compiles and preprocesses a custom French hate speech dataset by merging and cleaning existing corpora. Develops and benchmarks binary-class ML (SVM, RF, NB, LR), DL (LSTM, Bi-LSTM, GRU), and Transformer models (CamemBERT, DistilCamemBERT, DeHateBert) for French hate speech detection. Provides state-of-the-art results for French hate speech detection.
+Custom French hate speech dataset of 12,397 tweets (merged and preprocessed from existing corpora plus AI-generated phrases), annotated with hate/non-hate labels and target group categories.
 
 
 ## Detailed Summary

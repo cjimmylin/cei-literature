@@ -30,6 +30,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,8 +52,8 @@ local_pdf: N/A
 publication: "Procedia Computer Science"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bengali"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -58,7 +61,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Introduces hatebnBERT, a BERT-based model tailored to Bangla for religious hate speech detection. Creates two datasets: binary (hate/not) and five-class categorization including Blasphemy and Ethnic Hatred. Achieves 98.8% accuracy (binary) and 98.6% (multiclass). Addresses Bangla-specific religious sensitivity challenges between Muslim and Hindu communities."
-LLM_assessed: "NA"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Preprint"
@@ -68,7 +71,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -104,7 +107,7 @@ Binary classification dataset + five-class dataset (Blasphemy, Ethnic Hatred, Et
 
 ## Data Description
 
-This paper introduces hatebnBERT, a BERT-based model tailored to Bangla for religious hate speech detection. It creates two datasets: a binary classification dataset (hate/not) and a five-class categorization dataset (Blasphemy, Ethnic Hatred, Ethnic Group Hatred, Undetermined, Non-Hatred). The model achieves 98.8% accuracy on binary classification and 98.6% on multiclass classification, addressing Bangla-specific religious sensitivity between Muslim and Hindu communities.
+Two Bangla religious hate speech datasets: a binary hate/not-hate dataset and a five-class dataset including Blasphemy and Ethnic Hatred categories, used to train and evaluate the hatebnBERT model.
 
 
 ## Notes

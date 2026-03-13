@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +52,8 @@ local_pdf: "[[PDFs/2024/2024-Xie-CultureLLM Incorporating Cultural Differences i
 publication: "arxiv.org / NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -57,7 +61,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) have been observed to exhibit bias towards certain cultures due to the predominance of training data obtained from English corpora. Considering that multilingual cultural data is often expensive to procure, existing methodologies address this challenge through prompt engineering or culture-specific pre-training. However, these strategies may neglect the knowledge deficiency of low-resource cultures and necessitate substantial computing resources."
-LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, Llama 0.4852, Llama-2, Llama-2., Llama2"
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2"
 DATA_URL: "https://github.com/Scarelette/CultureLLM"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
@@ -102,7 +106,8 @@ Creates culture-specific LLMs including CultureLLM-Tr for Turkish culture. Uses 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, Llama 0.4852, Llama-2, Llama-2., Llama2. Verified dataset/resource link: https://github.com/Scarelette/CultureLLM.
+CultureLLM releases culture-specific fine-tuned LLMs (9 cultures) and a unified model (CultureLLM-One), along with semantically augmented training data derived from 50 World Values Survey seed samples per culture; evaluated on 60 datasets (68,672 samples) across 8 culture-related classification tasks.
+
 
 ## Notes
 

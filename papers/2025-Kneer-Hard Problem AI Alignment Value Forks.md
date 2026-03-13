@@ -22,6 +22,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ abstract: "Complex moral trade-offs are a basic feature of human life: for examp
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Bloomsbury"
+LLM_assessed: NA
 DATA_URL: "https://osf.io/rqkcz"
 CONFERENCE: "FAccT 2025"
 ethics_overall: "Yes"

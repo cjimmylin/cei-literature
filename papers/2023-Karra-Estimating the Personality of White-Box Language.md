@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ paper_summary: "Abstract: Technology for open-ended language generation, a key a
 local_pdf: "[[PDFs/2023/2023-Karra-Estimating the Personality of White-Box Language.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-2, GPT-3, GPT-3.5, Llama, XLNet"
+LLM_assessed: "GPT-2, GPT-3, GPT-3.5, LLaMA, XLNet"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation methodology text corpus for conversational ai"
 data_metrics: "Not specified"
 ---

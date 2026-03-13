@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Tibetan"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English, Tibetan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Qwen2.5-7B, Qwen3-8B, Llama-3.1-8B, DeepSeek-R1-Distill-Llama-8B"
+LLM_assessed: "DeepSeek, LLaMA, Llama-3, Qwen, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models have achieved remarkable progress across many languages. However, Tibetan, as a representative low-resource language, is particularly underrepresented in existing models due to the scarcity of high-quality training corpora. To address this gap, we curate the largest Tibetan pre-training corpus to date, aggregating data from diverse sources and applying a dedicated data cleaning and processing pipeline tailored for Tibetan."
@@ -96,7 +100,7 @@ Builds the largest Tibetan pre-training corpus (72 GB cleaned text) and continue
 
 ## Data Description
 
-The paper curates the largest Tibetan pre-training corpus (72 GB) from public datasets, web crawling, synthetic data, and proprietary sources, and constructs four new Tibetan evaluation benchmarks (HellaSwag-bo, ARC-bo, Xcopa-bo, XStoryCloze-bo) by translating English benchmarks into Tibetan with native speaker verification. These benchmarks evaluate commonsense reasoning, causal reasoning, and reading comprehension in Tibetan. The continually pre-trained model based on Qwen2.5-7B is evaluated against open-source models and Tibetan-tailored models across these benchmarks plus TibetanQA and FLORES-200.
+The paper curates the largest Tibetan pre-training corpus to date (72 GB cleaned text) and creates new Tibetan evaluation benchmarks (Hellaswag-bo, ARC-bo, TibetanQA) via translation of existing benchmarks with native speaker proofreading.
 
 
 ## Notes

@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ pdf_extract: "PDF Extracts/2019/2019-Ousidhoum-Multilingual and Multi-Aspect Hat
 local_pdf: "[[PDFs/2019/2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, French"
-cultures_nationalities_list: "Arabic, French, English"
+cultures_nationalities_list: "Arabic, French"
 languages_list: "Arabic, English, French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: BiLSTM
+LLM_assessed: NA
 DATA_URL: "https://github.com/HKUST-KnowComp/MLMA_hate_speech"
 tags: 
 abstract: "Current research on hate speech analysis is typically oriented towards monolingual and single classiﬁcation tasks. In this paper, we present a new multilingual multi-aspect hate speech analysis dataset and use it to test the current state-of-the-art multilingual multitask learning approaches. We evaluate our dataset in various classiﬁcation settings, then we discuss how to leverage our annotations in order to improve hate speech detection and classiﬁcation in general."
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -98,7 +102,7 @@ This paper presents a multilingual multi-aspect hate speech dataset containing a
 
 ## Data Description
 
-Multilingual hate speech dataset comprising 13,000 tweets in English, French, and Arabic with five annotation aspects: directness, hostility type, target attribute, target group, and annotator sentiment. Tests BiLSTM models with Babylon multilingual embeddings using Sluice networks for multi-task learning.
+MLMA: A multilingual multi-aspect hate speech dataset of tweets in English, French, and Arabic with annotations for directness, hostility type, target group, and sentiment.
 
 
 ## Detailed Summary

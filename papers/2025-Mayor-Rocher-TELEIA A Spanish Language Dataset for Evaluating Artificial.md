@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
-languages_list: Spanish
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -97,7 +100,7 @@ Spanish language knowledge evaluation dataset for LLMs using expert-prepared mul
 
 ## Data Description
 
-TELEIA is a Spanish-language evaluation dataset containing 100 questions across multiple cognitive and linguistic tasks. No PDF extract is available and the abstract does not specify which LLMs were tested. No dataset or code repository URL was identified.
+TELEIA is a Spanish language knowledge evaluation dataset of 100 expert-prepared multiple-choice questions matching the Instituto Cervantes format, included in La Leaderboard for LLM evaluation.
 
 
 ## Notes

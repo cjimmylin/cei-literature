@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +48,8 @@ local_pdf: "[[PDFs/2025/2025-Pandey-Creating and Evaluating Code-Mixed Nepali-En
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Nepali, Telugu, Indian"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "English, Nepali, Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -94,7 +97,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/Ranveer098/Code-Mix-and-Code-Switch.
+Manually annotated code-mixed abusive language detection datasets: 5,000 Nepali-English comments and 2,000 Telugu-English comments, labeled binary (abusive/non-abusive), collected from social media platforms.
+
 
 ## Notes
 

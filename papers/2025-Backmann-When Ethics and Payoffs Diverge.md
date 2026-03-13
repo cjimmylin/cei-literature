@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ pdf_extract: "PDF Extracts/2025/2025-Backmann-When Ethics and Payoffs Diverge.md
 abstract: "Recent advances in large language models (LLMs) have enabled their use in complex agentic roles, involving decision-making with humans or other agents, making ethical alignment a key AI safety concern. While prior work has examined both LLMs’ moral judgment and strategic behavior in social dilemmas, there is limited understanding of how they act when moral imperatives directly conflict with rewards or incentives."
 paper_summary: "Abstract: Recent advances in large language models (LLMs) have enabled their use in complex agentic roles, involving decision-making with humans or other agents, making ethical alignment a key AI safety concern | Overview: When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas Steffen Backmann1 David Guzman Piedrahita2 Emanuel Tewolde3 Rada Mihalcea4 Bernhard Schölkopf5 Zhijing Jin5,6,7 1ETH Züri | Conclusions: We introduced MORALSIM, a framework for evaluating large language models in repeated game- theoretic scenarios enriched with strong moral contexts, al"
 local_pdf: "[[PDFs/2025/2025-Backmann-When Ethics and Payoffs Diverge.pdf]]"
-LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, DeepSeek, Qwen, o3"
+LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-4o, GPT-4o mini, Gemini, Llama-3, Qwen, o3-mini"
 DATA_URL: "https://github.com/sbackmann/moralsim"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
@@ -90,7 +94,7 @@ Recent advances in large language models (LLMs) have enabled their use in comple
 
 ## Data Description
 
-MORALSIM is a framework for evaluating how LLM agents navigate repeated social dilemmas (prisoner's dilemma and public goods game) where ethical norms conflict with payoff-maximizing strategies. Nine frontier models are tested across three moral contexts (contractual reporting, privacy protection, green production) with varying opponent behaviors and survival conditions, finding that no model exhibits consistently moral behavior, with morality scores ranging from 7.9% to 76.3%.
+Code repository for the MORALSIM simulation framework, which embeds repeated game-theoretic social dilemmas (prisoner's dilemma, public goods game) in morally charged contexts to evaluate LLM agent behavior. No new dataset released.
 
 
 ## Notes

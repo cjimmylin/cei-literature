@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Indonesian, Thai, Russian"
-cultures_nationalities_list: "Chinese, Indonesian, Thai, Russian"
-languages_list: Indonesian
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Chinese, Indonesian, Russian, Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Gemma, Gemma 3, Llama, LLaMA 3, LLaMA 3., Qwen, Qwen 2.5, Qwen2.5, RoBERTa, T5, gemma-3"
+LLM_assessed: "Gemma, Qwen-2, LLaMA, RoBERTa, BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "This paper addresses the identification of social harms—including stereotypes and bias—which may be upsetting to some readers. Social bias in language models can potentially exacerbate social inequalities. Despite it having garnered wide attention, most research focuses on English data. In a low-resource scenario, the models often perform worse due to insufficient training data. This study aims to leverage high-resource language corpora to evaluate bias and experiment with debiasing methods in..."
@@ -96,7 +100,8 @@ Multilingual bias evaluation dataset with Indonesian as a low-resource language.
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Gemma, Gemma 3, Llama, LLaMA 3, LLaMA 3., Qwen, Qwen 2.5, Qwen2.5, RoBERTa, T5, gemma-3. No high-confidence repository-style data URL was identified.
+Multilingual bias evaluation datasets constructed for five languages (English, Chinese, Russian, Indonesian, Thai) covering four bias dimensions (gender, race-color, nationality, religion), enabling cross-lingual debiasing comparison in a low-resource setting.
+
 
 ## Notes
 

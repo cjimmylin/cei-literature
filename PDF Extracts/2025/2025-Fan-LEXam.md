@@ -1,23 +1,4 @@
----
-title: "2025-Fan-LEXam - PDF Extract"
-source_pdf: "2025-Fan-LEXam.pdf"
-pages: 38
-extracted_at: "2026-02-07T17:00:48.098112"
----
-
-# PDF Extract: 2025-Fan-LEXam
-
-**Source PDF:** 2025-Fan-LEXam.pdf
-**Total Pages:** 38
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-LEXAM: Benchmarking Legal Reasoning
+---\ntitle: "2025-Fan-LEXam - PDF Extract"\nsource_pdf: "2025-Fan-LEXam.pdf"\npages: 38\nextracted_at: "2026-02-14T02:17:34.251132"\n---\n\n# PDF Extract: 2025-Fan-LEXam\n\n**Source PDF:** 2025-Fan-LEXam.pdf\n**Total Pages:** 38\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nLEXAM: Benchmarking Legal Reasoning
 on 340 Law Exams
 Yu FanE∗
 Jingwei NiE,Z∗
@@ -81,9 +62,7 @@ legal judgment prediction (Wang et al., 2024a; Shui et al., 2023; Jiang & Yang, 
 Preprint.
 arXiv:2505.12864v6  [cs.CL]  20 Jan 2026
 
---- Page 2 ---
-
-Raw Data
+--- Page 2 ---\n\nRaw Data
 Collection
 Dataset Curation
 Evaluation
@@ -169,9 +148,7 @@ Master’s levels taught by leading law professors at the University of Zurich F
 Europe’s largest and most prestigious law schools (see Section B for further details). As a result,
 2
 
---- Page 3 ---
-
-LEXAM spans a wide range of legal areas both in domestic and international law, thus providing a
+--- Page 3 ---\n\nLEXAM spans a wide range of legal areas both in domestic and international law, thus providing a
 robust benchmark for the evaluation of legal reasoning skills.
 Experimental results show that state-of-the-art (SOTA) models struggle with multi-step reasoning
 and applying legal rules and principles to novel scenarios. LLMs particularly struggle with open
@@ -226,9 +203,7 @@ MCQs that contain two to five statements extracted from the original MCQ. Each q
 one correct answer and three distractors, randomly selected from the set of all possible incorrect
 3
 
---- Page 4 ---
-
-Question:
+--- Page 4 ---\n\nQuestion:
 A (domiciled in Switzerland), B (domiciled in Switzerland) and C (domiciled in France) enter into a
 contract. The contract contains an arbitration clause:  “Any dispute [...] shall be resolved either by
 arbitration in Switzerland or by French courts.”  Is the PILA applicable to determine the validity of
@@ -308,9 +283,7 @@ Another feature, n_statements, specifies numerically how many statements each MC
 again relevant only for MCQs. furthermore, the binary label negative_question indicates whether
 4
 
---- Page 5 ---
-
-Figure 3: Distribution of open questions and MCQs by legal area, language, and jurisdiction across
+--- Page 5 ---\n\nFigure 3: Distribution of open questions and MCQs by legal area, language, and jurisdiction across
 development and test datasets. Open questions (solid) and MCQs (hatched).
 the question is phrased negatively (e.g. “Which of the following statements are incorrect?”), which
 is once again relevant only for MCQs. Lastly, the feature year specifies when the exam was
@@ -353,9 +326,7 @@ human judges. Our analyses further demonstrate that minimum-score ensembles of L
 consistently enhance evaluation performance.
 5
 
---- Page 6 ---
-
-In our evaluation, we adopt an minimum-score ensemble of GPT-4o, Qwen3-32B, and DeepSeek-V3
+--- Page 6 ---\n\nIn our evaluation, we adopt an minimum-score ensemble of GPT-4o, Qwen3-32B, and DeepSeek-V3
 to grade open questions. Practitioners may instead rely on any LLM judge or ensemble that passes
 the Alt-test.
 Importantly, our ensemble design avoids dependence on any single model, whether open or closed.
@@ -410,9 +381,7 @@ writing, so we follow the official recommended settings. We document detailed se
 1https://deepmind.google/models/gemini/pro/
 6
 
---- Page 7 ---
-
-4
+--- Page 7 ---\n\n4
 Results
 4.1
 Results on Open Questions
@@ -555,9 +524,7 @@ GPT-4.1-mini (48.49%) and GPT-4o-mini (40.96%) outperform the rest, while most o
 category, including Gemma-2-9B-it, EuroLLM-9B-it, and Llama-3.1-8B-it, score below 30%. Across
 7
 
---- Page 8 ---
-
-all groups, bootstrap standard errors are low (typically below 1.3%), indicating stable performance
+--- Page 8 ---\n\nall groups, bootstrap standard errors are low (typically below 1.3%), indicating stable performance
 estimates.
 Reasoning
 Large
@@ -750,9 +717,7 @@ law.
 To address this, we
 8
 
---- Page 9 ---
-
-introduce
+--- Page 9 ---\n\nintroduce
 an
 ensemble
 LLM judge (see Section 3.1 and Appendix G.4 for more details) based on GPT-4o, Qwen3-32B,
@@ -836,9 +801,7 @@ These results further motivate the use of an ensemble judge with minimum-score i
 details are available in Appendices H and I.
 9
 
---- Page 10 ---
-
-Table 4: Comparison of LEXAM to prior legal QA datasets. Answer type is either true-false
+--- Page 10 ---\n\nTable 4: Comparison of LEXAM to prior legal QA datasets. Answer type is either true-false
 (TF), multiple-choice (MC), or long-form (LF), where we specify the average answer length in
 whitespace-split words in brackets. CH is short for Switzerland. Int. is short for International.
 Benchmark
@@ -962,9 +925,7 @@ future research aimed at enhancing the reliability and robustness of LLMs on cha
 Plans for further data collection are detailed in Appendix J.
 10
 
---- Page 11 ---
-
-Ethics Statement
+--- Page 11 ---\n\nEthics Statement
 This work introduces a benchmark for evaluating LLMs on legal reasoning tasks using law school
 exam data. All exam questions and reference answers were obtained with permission from the
 University of Zurich Faculty of Law and are used exclusively for research purposes. The dataset
@@ -1024,9 +985,7 @@ enhancing public understanding of court opinions with legal summarizers. In Proc
 Symposium on Computer Science and Law, pp. 136–157, 2024.
 11
 
---- Page 12 ---
-
-Emmanuel Bauer, Dominik Stammbach, Nianlong Gu, and Elliott Ash. Legal extractive summariza-
+--- Page 12 ---\n\nEmmanuel Bauer, Dominik Stammbach, Nianlong Gu, and Elliott Ash. Legal extractive summariza-
 tion of us court opinions. arXiv preprint arXiv:2305.08428, 2023.
 Tobias Brugger, Matthias Stürmer, and Joel Niklaus. MultiLegalSBD: A Multilingual Legal Sentence
 Boundary Detection Dataset. In Proceedings of the Nineteenth International Conference on
@@ -1079,9 +1038,7 @@ Zongwen Shen, and Jidong Ge. Lawbench: Benchmarking legal knowledge of large lan
 models. arXiv preprint arXiv:2309.16289, 2023.
 12
 
---- Page 13 ---
-
-Kaiyue Feng, Yilun Zhao, Yixin Liu, Tianyu Yang, Chen Zhao, John Sous, and Arman Cohan.
+--- Page 13 ---\n\nKaiyue Feng, Yilun Zhao, Yixin Liu, Tianyu Yang, Chen Zhao, John Sous, and Arman Cohan.
 Physics: Benchmarking foundation models on university-level physics problem solving. arXiv
 preprint arXiv:2503.21821, 2025.
 Clémentine Fourrier, Nathan Habib, Hynek Kydlíˇcek, Thomas Wolf, and Lewis Tunstall. Lighteval:
@@ -1147,9 +1104,7 @@ dataset for automated theorem proving. CoRR, abs/2309.04295, 2023. doi: 10.48550
 2309.04295. URL https://doi.org/10.48550/arXiv.2309.04295.
 13
 
---- Page 14 ---
-
-Kangcheng Luo, Quzhe Huang, Cong Jiang, and Yansong Feng. Automating legal concept inter-
+--- Page 14 ---\n\nKangcheng Luo, Quzhe Huang, Cong Jiang, and Yansong Feng. Automating legal concept inter-
 pretation with llms: Retrieval, generation, and evaluation. arXiv preprint arXiv:2501.01743,
 2025.
 Shengjie Ma, Chong Chen, Qi Chu, and Jiaxin Mao. Leveraging large language models for relevance
@@ -1217,9 +1172,7 @@ guistics. doi: 10.18653/v1/2023.findings-emnlp.200. URL https://aclanthology.org
 findings-emnlp.200.
 14
 
---- Page 15 ---
-
-Joel Niklaus, Jakob Merane, Luka Nenadic, Sina Ahmadi, Yingqiang Gao, Cyrill A. H. Chevalley,
+--- Page 15 ---\n\nJoel Niklaus, Jakob Merane, Luka Nenadic, Sina Ahmadi, Yingqiang Gao, Cyrill A. H. Chevalley,
 Claude Humbel, Christophe Gösken, Lorenzo Tanzi, Thomas Lüthi, Stefan Palombo, Spencer
 Poff, Boling Yang, Nan Wu, Matthew Guillod, Robin Mamié, Daniel Brunner, Julio Pereyra, and
 Niko Grupen. SwiLTra-Bench: The Swiss Legal Translation Benchmark, March 2025. URL
@@ -1290,9 +1243,7 @@ Unlocking Legal Knowledge: A Multilingual Dataset for Judicial Summarization in 
 October 2024. URL http://arxiv.org/abs/2410.13456. arXiv:2410.13456 [cs].
 15
 
---- Page 16 ---
-
-Michael J. Ryan, William Held, and Diyi Yang. Unintended impacts of LLM alignment on global
+--- Page 16 ---\n\nMichael J. Ryan, William Held, and Diyi Yang. Unintended impacts of LLM alignment on global
 representation. In Lun-Wei Ku, Andre Martins, and Vivek Srikumar (eds.), Proceedings of
 the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long
 Papers), ACL 2024, Bangkok, Thailand, August 11-16, 2024, pp. 16121–16140. Association
@@ -1344,9 +1295,7 @@ Evaluating Text Generation with BERT. arXiv:1904.09675 [cs], February 2020. URL 
 //arxiv.org/abs/1904.09675. arXiv: 1904.09675.
 16
 
---- Page 17 ---
-
-Xinyu Zhang, Yuxuan Dong, Yanrui Wu, Jiaxing Huang, Chengyou Jia, Basura Fernando, Mike Zheng
+--- Page 17 ---\n\nXinyu Zhang, Yuxuan Dong, Yanrui Wu, Jiaxing Huang, Chengyou Jia, Basura Fernando, Mike Zheng
 Shou, Lingling Zhang, and Jun Liu. Physreason: A comprehensive benchmark towards physics-
 based reasoning.
 CoRR, abs/2502.12054, 2025.
@@ -1370,9 +1319,7 @@ Conference on Research and Development in Information Retrieval in the Asia Paci
 176–184, 2023.
 17
 
---- Page 18 ---
-
-A
+--- Page 18 ---\n\nA
 Use of AI Assistants
 We used AI assistants, including GPT-4o, GPT-4.5, and GPT-5, for coding, shortening texts and
 editing LaTeX more efficiently. The AI tools are not directly used in writing, but assisting human
@@ -1413,9 +1360,7 @@ similar to the main MCQs: 64.4% German; Public Law (27.5%), Criminal Law (34.8%)
 Interdisciplinary (35.6%), with most samples from 2019 and 2023.
 18
 
---- Page 19 ---
-
-Table 5: Number of questions by Jurisdiction, Area, and Language
+--- Page 19 ---\n\nTable 5: Number of questions by Jurisdiction, Area, and Language
 (a) Dev Dataset
 Criminal
 Interdisc.
@@ -1809,9 +1754,7 @@ Grand Total
 1660
 19
 
---- Page 20 ---
-
-Table 8: Number of records by Jurisdiction, Area, Course and Year on Open Questions (test)
+--- Page 20 ---\n\nTable 8: Number of records by Jurisdiction, Area, Course and Year on Open Questions (test)
 Jurisdiction
 Area
 Course
@@ -2609,9 +2552,7 @@ Total
 2541
 20
 
---- Page 21 ---
-
-Table 9: Number of records by Jurisdiction, Area, Course and Year on Open Questions (dev)
+--- Page 21 ---\n\nTable 9: Number of records by Jurisdiction, Area, Course and Year on Open Questions (dev)
 Jurisdiction
 Area
 Course
@@ -3248,9 +3189,7 @@ Grand Total
 300
 21
 
---- Page 22 ---
-
-Figure 6: Distribution of the number of words per question and answer in the open-ended question
+--- Page 22 ---\n\nFigure 6: Distribution of the number of words per question and answer in the open-ended question
 dataset.
 Figure 7: Yearly distribution of the number of question in the Open question test dataset, per legal
 area.
@@ -3272,9 +3211,7 @@ For Challenging Course (D) and Top vs. Bottom Courses (E), we observe a similar 
 main features, where reasoning models outperform large and small models. Additionally, accuracy
 22
 
---- Page 23 ---
-
-Figure 8: Yearly distribution of the number of question in the MCQs dataset, per legal area.
+--- Page 23 ---\n\nFigure 8: Yearly distribution of the number of question in the MCQs dataset, per legal area.
 Table 10: Number of the 385 MCQs with perturbations per course.
 Course
 # Questions
@@ -3320,9 +3257,7 @@ data in each case. We observe that model performance is relatively stable in all
 question length, with a slight upward trend as questions become longer. In contrast, performance
 23
 
---- Page 24 ---
-
-Reasoning
+--- Page 24 ---\n\nReasoning
 Large
 Small
 0
@@ -3428,9 +3363,7 @@ EuroLLM-9B-it
 23.31 (± 1.02)
 24
 
---- Page 25 ---
-
-Reasoning
+--- Page 25 ---\n\nReasoning
 Large
 Small
 0
@@ -3543,9 +3476,7 @@ relative decrease. Similar steep declines are observed in other models: Sonnet d
 33%, DeepSeek-R1 from 57.5% to 24.9%, and DeepSeek-V3 from 58.6% to 16%. The degradation
 25
 
---- Page 26 ---
-
-is most pronounced in DeepSeek-V3, which loses over 40 percentage points in accuracy, suggesting
+--- Page 26 ---\n\nis most pronounced in DeepSeek-V3, which loses over 40 percentage points in accuracy, suggesting
 significant difficulty with increased distractor complexity.
 Figure 11: Model accuracy across 4, 8, 16, and 32 choices tasks
 D.1
@@ -3560,9 +3491,7 @@ relatively well in foundational areas such as "(Introduction to) Swiss law", but
 ability in more specialized domains, e.g. "Steuerrecht (tax law)". DeepSeek-V3 displays a spike in
 26
 
---- Page 27 ---
-
-"Jugendstrafrecht und Sanktionenrecht (juvenile criminal law and sanctions law)", but is inconsistent
+--- Page 27 ---\n\n"Jugendstrafrecht und Sanktionenrecht (juvenile criminal law and sanctions law)", but is inconsistent
 in other areas. O3-mini ranks the lowest in almost all areas.
 As the choice count increases to 8, a noticeable drop in accuracy is observed across all models, indi-
 cating their sensitivity to simple perturbations. Courses such as "Strafrecht und Strafverfahrensrecht
@@ -3595,9 +3524,7 @@ We further analyzed model performance across legal areas, as illustrated in Figu
 consistently perform best on interdisciplinary law questions and worst on public law. This trend
 27
 
---- Page 28 ---
-
-persists across all difficulty levels. For example, at the 4-choice level, Gemini scores 75.2% in
+--- Page 28 ---\n\npersists across all difficulty levels. For example, at the 4-choice level, Gemini scores 75.2% in
 interdisciplinary, 72.4% in criminal, and just 55.2% in public law. At the most challenging 32-choice
 level, its performance drops to 49.6% in interdisciplinary, 39.6% in criminal, and only 12.4% in public
 law. The steady performance advantage in interdisciplinary questions may reflect model strengths in
@@ -3608,9 +3535,7 @@ domain-specific training enhancements.
 Figure 14: Model accuracy across 4, 8, 16, and 32 choices tasks, grouped by legal area
 28
 
---- Page 29 ---
-
-E
+--- Page 29 ---\n\nE
 Prompt Design
 E.1
 Prompt to Answer Open Questions
@@ -3666,9 +3591,7 @@ score should reflect the extent to which the response satisfies the reference an
 - strictly follow the format: ¨[[score]]¨, e.g., ¨The correctness score: [[0.5]]¨.
 29
 
---- Page 30 ---
-
-Warnings:
+--- Page 30 ---\n\nWarnings:
 - In some cases, the reference answer may include only keywords or factual elements to be examined, along
 with (+), (-) or (+/-). Respect these indications when determining correctness:
 - (+) means the element must be affirmed.
@@ -3721,9 +3644,7 @@ Result: PILA is not applicable (view of the SFT)
 in casu not pertinent
 30
 
---- Page 31 ---
-
-LLM Answer: (thinking tokens omitted)
+--- Page 31 ---\n\nLLM Answer: (thinking tokens omitted)
 Under Swiss law, the validity of an arbitration agreement is governed by the **PILA (Swiss Private
 International Law Act)**. Specifically, **Art. 193 PILA** stipulates that the validity of an arbitration
 agreement is determined by: 1. The law chosen by the parties for the arbitration agreement (if specified); or
@@ -3785,9 +3706,7 @@ Prompt to Answer MCQs
 We use the following prompt to answer MCQs in our experiments:
 31
 
---- Page 32 ---
-
-You are an expert in {course_name} and address legal issues in a structured, exam-style manner. You are
+--- Page 32 ---\n\nYou are an expert in {course_name} and address legal issues in a structured, exam-style manner. You are
 given a multiple-choice question, where only one choice (e.g., A, B, C, etc.) is correct. Assume Swiss
 law applies unless specifically stated otherwise. If the context of the course justifies it, consider legal
 frameworks beyond Swiss law as well.
@@ -3842,9 +3761,7 @@ Swiss law (n = 35), international law (n = 9), and generic law (n = 6). In addit
 therefore mirrors the overall structure of the dataset.
 32
 
---- Page 33 ---
-
-G.2
+--- Page 33 ---\n\nG.2
 Annotation Protocol
 All annotations were carried out by three legally trained coauthors, under the supervision of a fourth
 coauthor who is a law professor. Each expert annotated the same 50 question–answer pairs. The
@@ -3908,9 +3825,7 @@ should achieve performance comparable to that of human experts, verified through
 statistical methods. Second, it should be impartial, particularly when evaluating its own outputs
 33
 
---- Page 34 ---
-
-or those from the same model family. Third, its inference should be reasonably cost-efficient, for
+--- Page 34 ---\n\nor those from the same model family. Third, its inference should be reasonably cost-efficient, for
 example by using open-source models that can run at least partially locally.
 We present our experiment results using twelve settings, using both closed and open models of various
 sizes and evaluate the results with 50 examples labeled by domain experts and summarize the full
@@ -4032,9 +3947,7 @@ constant score (from 1 to 10) across all 50 items. Unlike normally distributed r
 highlight how well a system that “guesses” a fixed level of quality would fare.
 34
 
---- Page 35 ---
-
-Table 14: Alternative Annotator Test results for naive constant-score baselines.
+--- Page 35 ---\n\nTable 14: Alternative Annotator Test results for naive constant-score baselines.
 Baseline
 ε
 Winning Rate ω
@@ -4155,9 +4068,7 @@ are minimal and not statistically significant in our data. Overall, these quanti
 cross-linguistic robustness of the two models’ judging performance.
 35
 
---- Page 36 ---
-
-Table 15: Performance of models on long-form open questions with bootstrapped standard errors.
+--- Page 36 ---\n\nTable 15: Performance of models on long-form open questions with bootstrapped standard errors.
 Bold numbers indicate the best scores within each group, and underlined numbers indicate the
 second-best scores. Wavy underlined numbers mark the best score in a row that is assigned either by
 the same LLM or by a model from the same family, suggesting self-bias or family bias.
@@ -4385,9 +4296,7 @@ variably across models, rather than being tied to specific questions or topics. 
 failure mode (c) occurred mostly in smaller models, which often mixed languages and produced
 36
 
---- Page 37 ---
-
-Table 16: Cross-linguistic comparison of judge models
+--- Page 37 ---\n\nTable 16: Cross-linguistic comparison of judge models
 Model
 Pearson R (EN)
 P Value (EN)
@@ -4467,12 +4376,9 @@ jurisdictional datasets is resource-intensive. To safeguard quality, we prioriti
 in the current release.
 37
 
---- Page 38 ---
-
-In collaboration with leading research institutions, we are expanding the benchmark to include
+--- Page 38 ---\n\nIn collaboration with leading research institutions, we are expanding the benchmark to include
 materials from the United States, Germany, Mainland China, Hong Kong, Israel, and additional Swiss
 regions, with more jurisdictions planned. An open call for contributions will follow, and new data are
 expected in the coming months.
 38
-
-```
+\n```\n

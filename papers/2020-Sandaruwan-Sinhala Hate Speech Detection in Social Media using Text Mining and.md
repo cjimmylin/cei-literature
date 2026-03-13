@@ -22,6 +22,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +44,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Sinhala"
-languages_list: Sinhala
+cultures_nationalities_list: "N/A"
+languages_list: "Sinhala"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -58,7 +61,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -94,7 +97,7 @@ Hate speech detection in Sinhala social media using text mining and ML. MNB with
 
 ## Data Description
 
-The paper addresses hate speech detection in Sinhala social media using text mining and traditional machine learning approaches. A Multinomial Naive Bayes classifier with character tri-gram features achieves 92.33% accuracy. The authors create a Sinhala hate speech dataset from social media comments, representing an early resource for hate speech detection in this low-resource language.
+A Sinhala-language hate speech dataset collected from social media comments, used to train and evaluate classifiers (best result: MNB with character tri-grams at 92.33% accuracy).
 
 
 ## Notes

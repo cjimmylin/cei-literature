@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ pdf_extract: "PDF Extracts/2025/2025-Unknown-Evaluating LLMs' Language Confusion
 local_pdf: "[[PDFs/2025/2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Multilingual/Cross-cultural"
-languages_list: Code-switching
+cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, GPT-4o, Qwen, Qwen 2.5"
-DATA_URL: "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B"
+LLM_assessed: "Gemini, GPT-4o, Qwen-2"
+DATA_URL: NA
 tags: 
 abstract: "I've retrieved comprehensive search results on code-switching LLM benchmark evaluation. Here's a summary of the key findings: Recent Research and Benchmarks Current benchmarks for evaluating code-switching capabilities of language models primarily focus on surface-level tasks but largely overlook deeper reasoning and semantic understanding in mixed-language settings."
 CONFERENCE: "Other Conference"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -95,7 +99,8 @@ I've retrieved comprehensive search results on code-switching LLM benchmark eval
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, GPT-4o, Qwen, Qwen 2.5. Verified dataset/resource link: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B.
+A new English-Korean code-switching language confusion benchmark with a Simple setting (299 intra-sentential samples) and a Complex setting (600 inter-sentential prompts), designed to evaluate LLMs' ability to select the correct response language in mixed-language contexts.
+
 
 ## Notes
 

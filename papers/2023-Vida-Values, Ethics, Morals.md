@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +61,7 @@ abstract: "With language technology increasingly affecting individuals’ lives,
 paper_summary: "Abstract: With language technology increasingly affect- ing individuals' lives, many recent works have investigated the ethical aspects of NLP. Among other topics, researchers focused on the notion of morality, | Overview: Values, Ethics, Morals? On the Use of Moral Concepts in NLP Research Karina Vida Data Science Group University of Hamburg, Germany Judith Simon Ethics in Information Technology University of Hamburg,  | Methodology: METAETHICS Language and logic of moral discourses, moral argumentation methods, ethical theories' power Analytical NORMATIVE E. Principles and criteri | Key Findings: (LREC'16), pages 1593–1600, Portorož, Slovenia. European Language Resources Association (ELRA). Kathleen C. Fraser, Svetlana Kiritchenko, and Esma Bal | Conclusions: In reviewing 92 papers dealing with morality in NLP, we found that (a) the majority of the papers do not use ethical theories as a basis but predomi-"
 local_pdf: "[[PDFs/2023/2023-Vida-Values, Ethics, Morals.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "EMNLP 2023"
 ethics_overall: "Yes"

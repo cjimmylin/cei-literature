@@ -22,6 +22,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_FARINA2024
@@ -35,11 +37,11 @@ doi: 10.1007/s00146-022-01545-5
 url: "https://link.springer.com/article/10.1007/s00146-022-01545-5"
 pdf_extract: "PDF Extracts/2024/2024-Farina-AI and Society Virtue Ethics Approach.md"
 local_pdf: "[[PDFs/2024/2024-Farina-AI and Society Virtue Ethics Approach.pdf]]"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, Human Flourishing, AI Society, Social Goods, Friendship"
 key_contribution: "Applies virtue ethics framework to analyze how AI deployment affects social goods like identity, friendship, fairness, and privacy"

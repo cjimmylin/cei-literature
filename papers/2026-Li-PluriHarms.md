@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +44,7 @@ authors: "Li, Jing-Jing; Mire, Joel; Fleisig, Eve; Pyatkin, Valentina; Collins, 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08951"
 external_pdf: "https://arxiv.org/pdf/2601.08951.pdf"
-pdf_extract: "PDF Extracts/0000/2026-Li-PluriHarms.md"
+pdf_extract: "PDF Extracts/2026/2026-Li-PluriHarms.md"
 local_pdf: "[[PDFs/2026/2026-Li-PluriHarms.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Current AI safety frameworks, which often treat harmfulness as binary, lack the flexibility to handle borderline cases where humans meaningfully disagree. To build more pluralistic systems, it is essential to move beyond consensus and instead understand where and why disagreements arise. We introduce PLURIHARMS, a benchmark designed to systematically study human harm judgments across two key dimensions—the harm axis (benign to harmful) and the agreement axis (agreement to disagreement)."
-LLM_assessed: "GPT-4, Claude, Qwen, DeepSeek"
+LLM_assessed: "GPT-4, Claude, Qwen"
 DATA_URL: "https://jl3676.github.io/PluriHarms"
 research_topic: "Other"
 CONFERENCE: "Preprint"
@@ -64,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "150 prompts"
 ---
@@ -99,7 +103,8 @@ Current AI safety frameworks, which often treat harmfulness as binary, lack the 
 
 ## Data Description
 
-PLURIHARMS is a benchmark of 150 prompts calibrated across a harm spectrum, each annotated with 100 human ratings (15,000 total ratings from 100 annotators). The dataset includes comprehensive demographic and psychological traits of annotators, prompt-level features of harmful actions/effects/values, and was curated from 62,612 synthesized prompts using a genetic algorithm. AI safety models including GPT-4.1, Claude, Qwen3, WildGuard, and SafetyAnalyst were evaluated on the benchmark.
+PLURIHARMS is a benchmark of 150 prompts spanning the full harm spectrum, each rated by 100 human annotators, enriched with annotator demographics/psychological traits and prompt-level harm/value features. Also releases 15,000 human harmfulness ratings with individual-level annotation data.
+
 
 ## Notes
 

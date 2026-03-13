@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +47,7 @@ local_pdf: "[[PDFs/2025/2025-Hu-EmoBench-M Benchmarking Emotional Intelligence f
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English"
 religious_values: "N/A"
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "With the integration of multimodal large language models (MLLMs) into robotic systems and various AI applications, embedding emotional intelligence (EI) capabilities into these models is essential for enabling robots to effectively address human emotional needs and interact seamlessly in real-world scenarios. Existing static, text-based, or text-image benchmarks overlook the multimodal complexities of real-world interactions and fail to capture the dynamic, multimodal nature of emotional..."
-LLM_assessed: "GPT-4, Gemini, Qwen"
+LLM_assessed: "GLM, Gemini, Qwen"
 DATA_URL: "https://emo-gml.github.io/"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -96,7 +100,8 @@ With the integration of multimodal large language models (MLLMs) into robotic sy
 
 ## Data Description
 
-EmoBench-M is a multimodal emotional intelligence benchmark for MLLMs comprising 13 evaluation scenarios across three dimensions (Foundational Emotion Recognition, Conversational Emotion Understanding, Socially Complex Emotion Analysis) with video, audio, and text inputs. Both open-source models (InternVL2.5, Video-LLaMA2, Qwen2-Audio, Qwen2.5-VL) and closed-source models (GLM-4V series, Gemini series including Gemini-3.0-Pro, and GPT series including GPT-5.2) were evaluated in a zero-shot setting.
+EmoBench-M is a multimodal emotional intelligence benchmark evaluating MLLMs across 13 scenarios in three dimensions: foundational emotion recognition, conversational emotion understanding, and socially complex emotion analysis.
+
 
 ## Notes
 

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ local_pdf: "[[PDFs/2025/2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolk
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-Mini, GPT4o, LlamA-3.2, Llama, Llama-3, Llama-3.1, Llama-3.3, Llama3, Llama3.3, Qwen, Qwen 2.5, Qwen2.5"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, LLaMA, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/ZaloAI-Jaist/VMLU"
 tags: 
 abstract: "The evolution of Large Language Models (LLMs) has underscored the necessity for benchmarks designed for various languages and cultural contexts. To address this need for Vietnamese, we present the first Vietnamese Multitask Language Understanding (VMLU) Benchmarks. The VMLU benchmarks consist of four datasets that assess different capabilities of LLMs, including general knowledge, reading comprehension, reasoning, and conversational skills."
@@ -99,7 +103,8 @@ First Vietnamese Multitask Language Understanding Benchmarks with 10,880 multipl
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-Mini, GPT4o, LlamA-3.2, Llama, Llama-3, Llama-3.1, Llama-3.3, Llama3, Llama3.3, Qwen, Qwen 2.5, Qwen2.5. Verified dataset/resource link: https://github.com/ZaloAI-Jaist/VMLU.
+VMLU Benchmarks: first Vietnamese Multitask Language Understanding benchmark suite comprising four datasets (Vi-MQA with 10,880 multiple-choice questions across 58 subjects, Vi-SQuAD, Vi-DROP, Vi-Dialog) assessing general knowledge, reading comprehension, logical reasoning, and conversational ability.
+
 
 ## Notes
 

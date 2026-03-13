@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,9 +49,9 @@ local_pdf: "[[PDFs/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to De
 publication: "ACL Anthology (LREC 2022)"
 CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "1.47m comment"
@@ -101,7 +104,7 @@ data_metrics: "1.47m comment"
 
 ## Data Description
 
-The paper introduces BD-SHS, a benchmark dataset of 50,281 manually labeled Bangla hate speech comments from social media, annotated with a three-level hierarchical scheme (hate identification, target identification, and hate type categorization). Models evaluated include SVM and Bi-LSTM with various embeddings (BengFastText, multilingual FastText, informal text FastText), achieving best F1 of 91.0%. No LLMs were tested.
+BD-SHS: a benchmark dataset of 50,200+ manually labeled Bangla social media comments with hierarchical hate speech annotations across different social contexts, at least 60% larger than prior Bangla hate speech datasets, with 1.47M comment word embeddings.
 
 
 ## Notes

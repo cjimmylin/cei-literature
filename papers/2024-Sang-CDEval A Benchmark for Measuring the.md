@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +51,8 @@ local_pdf: "[[PDFs/2024/2024-Sang-CDEval A Benchmark for Measuring the.pdf]]"
 publication: "Proceedings of the 2nd Workshop on Cross-Cultural Considerations in NLP (C3NLP @ LREC-COLING 2024)"
 CONF-CC: "COLING 2024 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As the scaling of Large Language Models (LLMs) has dramatically enhanced their capabilities, there has been a growing focus on the alignment problem to ensure their responsible and ethical use. While existing alignment efforts predominantly concentrate on universal values such as the HHH (helpfulness, honesty, and harmlessness), the aspect of culture, which is inherently pluralistic and diverse, has not received adequate attention."
-LLM_assessed: "Alpaca, Alpaca2, Baichuan-13B, Baichuan2, ChatGLM, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama2, Llama2-Chat"
-DATA_URL: "https://huggingface.co/datasets/Rykeryuhang/CDEval | https://github.com/astrodrew/CDEval"
+LLM_assessed: "Alpaca, Baichuan, ChatGLM, ChatGPT, GPT-3, GPT-3.5, GPT-4, LLaMA, Llama-2"
+DATA_URL: "https://huggingface.co/datasets/Rykeryuhang/CDEval"
 CONFERENCE: "LREC-COLING 2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -65,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -105,7 +110,8 @@ CDEval measures cultural dimensions of LLMs using Hofstede's framework across si
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, Alpaca2, Baichuan-13B, Baichuan2, ChatGLM, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama2, Llama2-Chat. Verified dataset/resource link: https://huggingface.co/datasets/Rykeryuhang/CDEval | https://github.com/astrodrew/CDEval.
+CDEval is a benchmark measuring the cultural dimensions of LLMs using Hofstede's six-dimension framework across seven domains. Questions were generated via GPT-4 automation with human verification.
+
 
 ## Notes
 

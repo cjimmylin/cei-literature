@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ tags:
 abstract: "We present an ethical decision-making framework that refines a pre-trained reinforcement learning (RL) model using a task-agnostic ethical layer. Following initial training, the RL model undergoes ethical finetuning, where human feedback is replaced by feedback generated from a large language model (LLM). The LLM embodies consequentialist, deontological, virtue, social justice, and care ethics as moral principles to assign belief values to recommended actions during ethical decision-making."
 paper_summary: "Abstract: We present an ethical decision-making framework that refines a pre-trained reinforcement learning (RL) model using a task-agnostic ethical layer. Following initial training, the RL model undergoes eth | Overview: Addressing Moral Uncertainty using Large Language Models for Ethical Decision-Making Rohit K. Dubey†, Damian Dailisan† and Sachit Mahajan† *Computational Social Science, ETH Z¨urich, Zurich, Switzerla | Methodology: that makes use of a Belief Jensen–Shannon Divergence (BJSD) method to systematically measure the discrepancies and conflicts among BBAs, processes the | Key Findings: benchmarks are critical for equitable and robust outcomes. By integrating Belief Probability Assignment (BPA) into reinforcement learning, AMULED enab | Conclusions: We present two simple scenarios where an ethics-based shaping algorithm helps RL agents make ethi- cally sound decisions while still achieving their p"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Mistral, Llama-3"
+LLM_assessed: "GPT-4o, Mistral, Llama-3"
 DATA_URL: "https://github.com/xxxxx/moral"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -61,7 +65,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -127,7 +131,7 @@ AI should not be "aligned" to one ideology or ethical theory, but should be capa
 
 ## Data Description
 
-The paper introduces AMULED, an ethical decision-making framework that uses LLMs as moral agents to provide feedback for reinforcement learning. It tests GPT-4o-mini, Mistral-nemo, and Llama-3.1 (8B and 70B) as backbone moral agents across two RL environments: Finding Milk (route planning with ethical constraints involving babies) and Driving and Rescuing (autonomous driving with ethical dilemmas), using five moral clusters (consequentialist, deontological, virtue, care, and social justice ethics) aggregated via Belief Jensen-Shannon Divergence.
+Source code for the AMULED framework (RL + ethical layer using LLM feedback) will be made publicly available; URL is a placeholder in the preprint.
 
 
 ## Notes

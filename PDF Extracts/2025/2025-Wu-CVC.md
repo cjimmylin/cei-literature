@@ -1,23 +1,4 @@
----
-title: "CVC - PDF Extract"
-source_pdf: "2025-Wu-CVC.pdf"
-pages: 29
-extracted_at: "2026-01-24T16:38:37.718390"
----
-
-# PDF Extract: CVC
-
-**Source PDF:** 2025-Wu-CVC.pdf
-**Total Pages:** 29
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-C-VARC: A Large-Scale Chinese Value Rule Corpus
+---\ntitle: "2025-Wu-CVC - PDF Extract"\nsource_pdf: "2025-Wu-CVC.pdf"\npages: 29\nextracted_at: "2026-02-14T02:17:36.809276"\n---\n\n# PDF Extract: 2025-Wu-CVC\n\n**Source PDF:** 2025-Wu-CVC.pdf\n**Total Pages:** 29\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nC-VARC: A Large-Scale Chinese Value Rule Corpus
 for Value Alignment of Large Language Models
 Ping Wu1,4,†, Guobin Shen1,4,†, Dongcheng Zhao2,3,5,†, Yuwei Wang5,†
 Yiting Dong1,4, Yu Shi4, Enmeng Lu2,3,5, Feifei Zhao1,2,3,5,∗, Yi Zeng1,2,3,4,5,∗
@@ -62,9 +43,7 @@ Building on the growing need for ethical oversight, a variety of benchmark datas
 proposed, primarily evaluating model behavior along dimensions such as toxicity[8] and bias[9].
 arXiv:2506.01495v5  [cs.CL]  2 Jan 2026
 
---- Page 2 ---
-
-While these dimensions capture important technical concerns, moral decision-making is inherently
+--- Page 2 ---\n\nWhile these dimensions capture important technical concerns, moral decision-making is inherently
 more nuanced and context-dependent—shaped by cultural, historical, and institutional factors that
 influence how different communities interpret the same ethical scenario[10]. However, existing
 evaluations of moral reasoning are largely grounded in Moral Foundations Theory (MFT) [11], which
@@ -107,9 +86,7 @@ trade-offs between conflicting values.
 Specifically, the main contributions of this paper are as follows:
 2
 
---- Page 3 ---
-
-1. The first large-scale, curated Chinese Value Rule Corpus (C-VARC): Based on the
+--- Page 3 ---\n\n1. The first large-scale, curated Chinese Value Rule Corpus (C-VARC): Based on the
 core socialist values, we develop a localized value framework covering national, societal,
 and personal dimensions, with 12 core values and 50 derived values. Building upon this
 framework, we build the first large-scale Chinese value corpus, comprising over 250,000
@@ -167,9 +144,7 @@ such as benevolence and propriety, which, although culturally significant, fall 
 expression and practical relevance of contemporary core values. In terms of value coverage, as shown
 3
 
---- Page 4 ---
-
-in Figure 2, FLAMES[14] and CMoralEval[15] encompass only 20% and 28% of the derived values
+--- Page 4 ---\n\nin Figure 2, FLAMES[14] and CMoralEval[15] encompass only 20% and 28% of the derived values
 defined in our framework, respectively. CVALUES[21], although designed to evaluate Chinese LLMs
 from the perspectives of safety and responsibility, covers only 40% of the derived values defined in
 our framework. Furthermore, CMoralEval[15] leverages SC101[12] RoTs as prompts during option
@@ -207,9 +182,7 @@ To enhance the framework’s applicability, we extend the 12 core values into 50
 the abstract nature of the core values, such expansion is essential to enable finer-grained annotation
 4
 
---- Page 5 ---
-
-and more practical use in downstream tasks. The expansion process combines extensive literature
+--- Page 5 ---\n\nand more practical use in downstream tasks. The expansion process combines extensive literature
 review [31, 32, 33] with the Delphi method involving domain experts [34], ensuring both theoretical
 validity and empirical relevance. The resulting 3-12-50 structure offers a coherent and comprehensive
 value taxonomy that not only operationalizes core values in real-world contexts, but also provides
@@ -262,9 +235,7 @@ Web Crawling
 178,056
 5
 
---- Page 6 ---
-
-2.3
+--- Page 6 ---\n\n2.3
 Construction of the C-VARC
 Rules of Thumb
 RoTs are basic judgments about right and wrong behaviors. According to the
@@ -327,9 +298,7 @@ through LLM-based generation (which falls beyond the scope of this study). The c
 sufficiently supports value-alignment research in the Chinese context.
 6
 
---- Page 7 ---
-
-Figure 4: Distribution of data across the three value levels in the C-VARC.
+--- Page 7 ---\n\nFigure 4: Distribution of data across the three value levels in the C-VARC.
 3
 Data Records
 The dataset used in this study is available at
@@ -362,9 +331,7 @@ reduction and visualization, thereby offering insights into the alignment with c
 semantic diversity of the generated content. Details of the procedure can be found in Appendix B.
 7
 
---- Page 8 ---
-
-Theme Relevance
+--- Page 8 ---\n\nTheme Relevance
 To evaluate the thematic relevance of the generated scenes, we employed t-SNE
 [43] for dimensionality reduction and visualization, as shown in Figure 5. We found that rule-guided
 scenarios exhibit clearer semantic boundaries and broader distribution, with minimal overlap across
@@ -464,9 +431,7 @@ from the C-VARC, SC101, and MIC datasets. Comprehensive information on the selec
 pairs is presented in Table 13, Appendix C. For each value pair, five scenarios were generated, each
 8
 
---- Page 9 ---
-
-accompanied by a set of response options. The option set includes one option aligned with the C-
+--- Page 9 ---\n\naccompanied by a set of response options. The option set includes one option aligned with the C-
 VARC rule, one aligned with either SC101[12] or MIC[13], and one distractor. Using Qwen2.5-72B,
 we generated a small-scale test set containing 170 scenarios. The distribution of scenarios across
 different themes is also detailed in Table 3.
@@ -556,9 +521,7 @@ exhibited over 87.5% agreement with C-VARC across all themes, reinforcing that C
 accurately captures value norms within the Chinese sociocultural context.
 9
 
---- Page 10 ---
-
-4.3
+--- Page 10 ---\n\n4.3
 Task III: C-VARC Driven Moral Dilemma Generation and Evaluation
 In ethics and moral psychology, moral dilemmas entail decisions between competing obligations,
 each involving the compromise of certain values[46]. The classic trolley problem exemplifies this
@@ -664,9 +627,7 @@ Average
 -
 10
 
---- Page 11 ---
-
-Table 6: Similarity and collision values between pairs of moral rules
+--- Page 11 ---\n\nTable 6: Similarity and collision values between pairs of moral rules
 Rule 1
 Rule 2
 Similarity
@@ -707,9 +668,7 @@ Figure 7: Model performance under moral dilemmas. (a) Choice similarity matrix a
 probability distribution of 17 LLMs.
 11
 
---- Page 12 ---
-
-Data Availability
+--- Page 12 ---\n\nData Availability
 The Chinese Value Rule Corpus (C-VARC) is publicly available at https://huggingface.co/
 datasets/Beijing-AISI/C-VARC. The dataset contains over 250,000 value rules categorized
 across three dimensions, twelve core values, and fifty derived values. All data are provided in struc-
@@ -757,9 +716,7 @@ classification of distorted information in artificial intelligence-generated con
 Sciences Communications, 11(1):1–14, 2024.
 12
 
---- Page 13 ---
-
-[4] Lexin Zhou, Wout Schellaert, Fernando Martínez-Plumed, Yael Moros-Daval, Cèsar Ferri, and José
+--- Page 13 ---\n\n[4] Lexin Zhou, Wout Schellaert, Fernando Martínez-Plumed, Yael Moros-Daval, Cèsar Ferri, and José
 Hernández-Orallo.
 Larger and more instructable language models become less reliable.
 Nature,
@@ -814,9 +771,7 @@ foundations dictionary (emfd): Development and applications of a crowd-sourced a
 moral intuitions from text. Behavior research methods, 53:232–246, 2021.
 13
 
---- Page 14 ---
-
-[24] Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Jerry Li, Dawn Song, and Jacob Steinhardt.
+--- Page 14 ---\n\n[24] Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Jerry Li, Dawn Song, and Jacob Steinhardt.
 Aligning ai with shared human values. arXiv preprint arXiv:2008.02275, 2020.
 [25] Zhijing Jin, Sydney Levine, Fernando Gonzalez Adauto, Ojasv Kamal, Maarten Sap, Mrinmaya Sachan,
 Rada Mihalcea, Josh Tenenbaum, and Bernhard Schölkopf. When to make exceptions: Exploring language
@@ -870,9 +825,7 @@ of principles and challenges. In Proceedings of the 26th international conferenc
 assessment in software engineering, pages 383–392, 2022.
 14
 
---- Page 15 ---
-
-[43] Laurens Van der Maaten and Geoffrey Hinton. Visualizing data using t-sne. Journal of machine learning
+--- Page 15 ---\n\n[43] Laurens Van der Maaten and Geoffrey Hinton. Visualizing data using t-sne. Journal of machine learning
 research, 9(11), 2008.
 [44] Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, Ahmad Al-
 Dahle, Aiesha Letman, Akhil Mathur, Alan Schelten, Alex Vaughan, et al. The llama 3 herd of models.
@@ -903,9 +856,7 @@ Gong, Yang Shen, et al. A comprehensive capability analysis of gpt-3 and gpt-3.5
 preprint arXiv:2303.10420, 2023.
 15
 
---- Page 16 ---
-
-A
+--- Page 16 ---\n\nA
 Chinese Value Rule Corpus
 A.1
 Conceptual Interpretation
@@ -962,14 +913,10 @@ sleep."
 common-sense knowledge and reflect societal norms and expectations.
 16
 
---- Page 17 ---
-
-Figure 8: Prompt design for rule filtering.
+--- Page 17 ---\n\nFigure 8: Prompt design for rule filtering.
 17
 
---- Page 18 ---
-
-Table 8: Description of the meaning of core values in the value framework
+--- Page 18 ---\n\nTable 8: Description of the meaning of core values in the value framework
 Core Values
 Meaning
 Prosperity
@@ -1033,9 +980,7 @@ become overly scenario-specific.
 – Example: Wanting to remove a friend from my wedding guest list.
 18
 
---- Page 19 ---
-
-Figure 9: Prompt design for scene filtering.
+--- Page 19 ---\n\nFigure 9: Prompt design for scene filtering.
 – Violates: "It’s rude to point at strangers."
 – Follows: "Being excluded from a wedding invitation can be hurtful."
 – Why: Maintaining a connection to the original scenario helps ensure the Rule remains relevant and
@@ -1062,9 +1007,7 @@ patiently.
 as age."
 19
 
---- Page 20 ---
-
-– Follows: "We should remain tolerant of others, especially regarding things they cannot change."
+--- Page 20 ---\n\n– Follows: "We should remain tolerant of others, especially regarding things they cannot change."
 – Why: Rules should be kept concise and easy to remember.
 Figure 10 illustrates the prompt design used for rule extraction. In the system prompt, three examples are provided,
 each consisting of a scenario and the corresponding extracted rules.When selecting LLMs for extraction, we
@@ -1098,9 +1041,7 @@ Building on the comparison results in Appendix A.4, we continue to use Qwen2.5-7
 classification of the C-VARC. The complete prompt is shown in Figure 11.
 20
 
---- Page 21 ---
-
-Table 10: Value rule extraction example
+--- Page 21 ---\n\nTable 10: Value rule extraction example
 Basic scene
 Value rule
 Ancient tombs have been raided in a cornfield next to a local
@@ -1175,9 +1116,7 @@ Annotation format
 – If the Rule is unrelated to values, mark it as 0.
 21
 
---- Page 22 ---
-
-Figure 11: Prompt design for rule classification.
+--- Page 22 ---\n\nFigure 11: Prompt design for rule classification.
 – If the Rule violates the Chinese value system, mark it as -1 and provide a rewritten Rule in the
 "Rewrite" column that aligns with Chinese values.
 – If the Rule does not meet the definition or is semantically incomplete but is related to values, mark it
@@ -1202,9 +1141,7 @@ semantically complete, so it is directly marked as 1.
 Label: 1
 22
 
---- Page 23 ---
-
-Rewrite:
+--- Page 23 ---\n\nRewrite:
 Why: This rule is related to "consistency between words and actions" in the value system, meets the
 rule definition, and is semantically complete, so it is directly marked as 1.
 – Rule: Everyone’s life deserves respect.
@@ -1237,18 +1174,14 @@ In this section, we present value rules extracted from three different rule corp
 rules selected from C-VARC is equal to the total number of rules selected from SC101 and MIC combined. All
 23
 
---- Page 24 ---
-
-Figure 13: The prompt design for direct scenario generation includes one example in the system
+--- Page 24 ---\n\nFigure 13: The prompt design for direct scenario generation includes one example in the system
 prompt, consisting of a single theme and three directly generated scenarios.
 Figure 14: The prompt design for rule-guided scenario generation includes one in-context example in
 the system prompt, consisting of one theme, two rules, and three generated scenarios (identical to the
 example used for direct scenario generation).
 24
 
---- Page 25 ---
-
-Table 12: Extracted rules for the first four core values
+--- Page 25 ---\n\nTable 12: Extracted rules for the first four core values
 Value
 Rules
 Prosperity
@@ -1309,9 +1242,7 @@ also significantly reduces the generation time. Figure 6 presents a selection of
 Qwen2.5-72B.
 25
 
---- Page 26 ---
-
-Table 13: Rule pairs extracted from C-VARC and SC101/MIC
+--- Page 26 ---\n\nTable 13: Rule pairs extracted from C-VARC and SC101/MIC
 Theme
 Rule from C-VARC
 Rule from SC101/MIC
@@ -1413,9 +1344,7 @@ a will when you’re planning to kill your-
 self.
 26
 
---- Page 27 ---
-
-Figure 15: Prompt design for dilemma generation.
+--- Page 27 ---\n\nFigure 15: Prompt design for dilemma generation.
 Table 14: Time taken and average agreement rates for generating 100 moral dilemmas by the three
 models. During the evaluation process, three human judges assessed the 100 generated dilemmas,
 and the average agreement rate was calculated (rounded to two decimal places).
@@ -1442,9 +1371,7 @@ any bias caused by fixed preferences for specific options. This suggests that th
 and B are moral choices based on preferences for specific values, rather than biases related to form or position.
 27
 
---- Page 28 ---
-
-D.3
+--- Page 28 ---\n\nD.3
 Case Study
 Based on the analysis, a total of 7,191 dilemmas in the test set exhibited disagreement among models—that is, at
 least two models made different moral choices when presented with the same scenario. From these, we selected
@@ -1488,9 +1415,7 @@ First, beyond its current use as a generator of culturally grounded evaluation s
 significant potential as an independent evaluator of model alignment. Future work will explore methodologies for
 28
 
---- Page 29 ---
-
-leveraging the rule set to automatically assess LLM outputs, thereby extending its utility from task construction
+--- Page 29 ---\n\nleveraging the rule set to automatically assess LLM outputs, thereby extending its utility from task construction
 to alignment verification.
 Second, in the analysis of moral dilemmas, this work primarily adopted case-based examinations to showcase
 the discriminative capacity of the framework. Future research will aim to complement this with large-scale,
@@ -1567,5 +1492,4 @@ Mistral
 Codestral
 codestral-latest
 29
-
-```
+\n```\n

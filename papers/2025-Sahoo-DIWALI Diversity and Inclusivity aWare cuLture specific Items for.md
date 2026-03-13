@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
-languages_list: "Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Gemma, Gemma 2, Gemma-2, Llama, Llama 2, Llama 3.1, Llama 3.2, Llama-2, Llama-3.1, Llama-3.2, Mistral, Mistral 7B, Mistral 7BInstruct, Mistral-7B, llama 3"
-DATA_URL: "https://github.com/pramitsahoo/culture-"
+LLM_assessed: "Llama-2, Llama-3, Mistral, Gemma-2"
+DATA_URL: "https://huggingface.co/datasets/nlip/DIWALI"
 tags: 
 abstract: "Large language models (LLMs) are widely used in various tasks and applications. However, despite their wide capabilities, they are shown to lack cultural alignment (Ryan et al., 2024; AlKhamissi et al., 2024) and produce biased generations (Naous et al., 2024) due to a lack of cultural knowledge and competence. Evaluation of LLMs for cultural awareness and alignment is particularly challenging due to the lack of proper evaluation metrics and unavailability of culturally grounded datasets..."
 CONFERENCE: "EMNLP 2025"
@@ -99,7 +103,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include Gemma, Gemma 2, Gemma-2, Llama, Llama 2, Llama 3.1, Llama 3.2, Llama-2, Llama-3.1, Llama-3.2, Mistral, Mistral 7B, Mistral 7BInstruct, Mistral-7B, llama 3. Verified dataset/resource link: https://github.com/pramitsahoo/culture-.
+DIWALI dataset: 8,817 Culture Specific Items (CSIs) for Indian culture across 36 sub-regions and 17 cultural facets (food, dance, festivals, clothing, etc.), used to evaluate LLM cultural text adaptation quality.
+
 
 ## Notes
 

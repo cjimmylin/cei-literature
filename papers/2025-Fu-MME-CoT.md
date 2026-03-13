@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ paper_summary: "Abstract: Answering questions with Chain-of-Thought (CoT) has si
 local_pdf: "[[PDFs/2025/2025-Fu-MME-CoT.pdf]]"
 CONF-CC: "ICML 2025"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Qwen, DeepSeek"
+LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, InternLM, Qwen"
 DATA_URL: "https://mmecot.github.io/"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -93,7 +97,7 @@ Answering questions with Chain-of-Thought (CoT) has significantly enhanced the r
 
 ## Data Description
 
-MME-CoT is a benchmark containing 1,130 questions across six domains (math, science, OCR, logic, space-time, general scenes) with 3,865 key step annotations for evaluating Chain-of-Thought reasoning in Large Multimodal Models. The benchmark evaluates reasoning quality (precision, recall), robustness (stability, efficacy), and efficiency (relevance rate, reflection quality) across numerous open-source and closed-source LMMs including GPT-4o, Kimi k1.5, QVQ-72B, Qwen2-VL series, and InternVL2.5 variants.
+MME-CoT is a specialized benchmark evaluating Chain-of-Thought reasoning in Large Multimodal Models across six domains (math, science, OCR, logic, space-time, general scenes) with 1,130 questions and 3,865 key-step annotations. The benchmark and evaluation suite are released at mmecot.github.io.
 
 
 ## Notes

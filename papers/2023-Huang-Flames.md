@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ pdf_extract: "PDF Extracts/2023/2023-Huang-Flames.md"
 abstract: "The widespread adoption of large language models (LLMs) across various regions underscores the urgent need to evaluate their alignment with human values. Current benchmarks, however, fall short of effectively uncovering safety vulnerabilities in LLMs. Despite numerous models achieving high scores and ‘topping the chart’ in these evaluations, there is still a significant gap in LLMs’ deeper alignment with human values and achieving genuine harmlessness."
 paper_summary: "Abstract: The widespread adoption of large language models (LLMs) across various regions under- scores the urgent need to evaluate their align- ment with human values. Current benchmarks, however, fall short of | Overview: FLAMES: Benchmarking Value Alignment of LLMs in Chinese Warning: this paper contains content that may be offensive or upsetting. Kexin Huang*†1,2 Xiangyang Liu*†1,2 Qianyu Guo*†1,2 Tianxiang Sun†1,2 J | Key Findings: LLM N+1 ? Adversarial methods Complex scenarios Figure 1: Pipeline of the construction of FLAMES Benchmark. tailed and fine-grained evaluation. Notabl | Conclusions: This study proposes FLAMES - the first highly ad- versarial benchmark for evaluating the value align- ment of LLMs in Chinese. FLAMES Benchmark consis"
 local_pdf: "[[PDFs/2023/2023-Huang-Flames.pdf]]"
-LLM_assessed: "ChatGPT, GPT-4, Claude"
+LLM_assessed: "ChatGPT, GPT-4, Claude, ChatGLM, InternLM, Baichuan, Qwen"
 DATA_URL: "https://github.com/AIFlames/Flames"
 DATE_ADDED: 20260207
 CONFERENCE: "NAACL 2023"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ The widespread adoption of large language models (LLMs) across various regions u
 
 ## Data Description
 
-FLAMES is an adversarial benchmark for evaluating value alignment of LLMs in Chinese, comprising 2,251 manually crafted adversarial prompts across five dimensions (Fairness, Legality, Data protection, Morality, Safety). The dataset includes fine-grained human annotations of approximately 22,900 response-label pairs from 17 mainstream LLMs, along with a trained specified scorer achieving 79.5% accuracy.
+FLAMES benchmark: 2,251 adversarial prompts across 5 value dimensions (Fairness, Legality, Data protection, Morality, Safety) with ~22.9K fine-grained human-annotated responses from 17 LLMs, plus a trained specified scorer for automatic evaluation.
 
 
 ## Notes

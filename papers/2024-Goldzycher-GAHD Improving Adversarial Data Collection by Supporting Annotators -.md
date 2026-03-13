@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,12 +49,12 @@ local_pdf: "[[PDFs/2024/2024-Goldzycher-GAHD Improving Adversarial Data Collecti
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, GPT-4, LeoLM, gelectra-large"
+LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/jagol/gahd"
 tags: 
 abstract: "Hate speech detection models are only as good as the data they are trained on. Datasets sourced from social media suffer from systematic gaps and biases, leading to unreliable models with simplistic decision boundaries. Adversarial datasets, collected by exploiting model weaknesses, promise to fix this problem. However, adversarial data collection can be slow and costly, and individual annotators have limited creativity."
@@ -60,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "11,000 examples; ~11,000 examples"
@@ -100,7 +105,7 @@ This paper introduces GAHD, a German Adversarial Hate speech Dataset with approx
 
 ## Data Description
 
-GAHD (German Adversarial Hate speech Dataset) contains 11,000 German examples (42.4% hate speech) collected via dynamic adversarial data collection across 4 rounds. Training on GAHD improves model robustness, with 18-20 percentage point increases in macro F1 on in-domain and out-of-domain tests.
+German Adversarial Hate speech Dataset (GAHD) with ~11,000 examples (42.4% hate speech), collected via adversarial data collection with annotator support strategies.
 
 
 ## Detailed Summary

@@ -23,6 +23,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +41,8 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/744PDNTG/Laukkonen et al. -
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Buddhism"
+religious_values_list: "Buddhism"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Introduces 'Contemplative AI' principles (mindfulness, emptiness, non-duality, boundless care) to instill a resilient 'Wise World Model' in AI"
@@ -50,15 +53,15 @@ abstract: "As artificial intelligence (AI) improves, traditional alignment strat
 paper_summary: "Abstract: As artificial intelligence (AI) improves, traditional alignment strategies may falter in the face of unpredictable self-improvement, hidden subgoals, and the sheer complexity of intelligent systems. I | Overview: 1 Contemplative Artificial Intelligence Ruben E. Laukkonen1, Fionn Inglis2; Shamil Chandaria3; Lars Sandved-Smith4; Edmundo Lopez-Sola5; Jakob Hohwy4; Jonathan Gold6; Adam Elwood7 1Faculty of Health,  | Methodology: succeeds when technical sophistication meets genuine wisdom. To this end, interdisciplinary research is central. | Conclusions: We have argued that an AI endowed with a Wise World Model grounded in contemplative insights would not infer alignment as an external condition to be"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: GPT-4
-DATA_URL: "https://osf.io/az59t"
+LLM_assessed: "GPT-4o"
+DATA_URL: NA
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"

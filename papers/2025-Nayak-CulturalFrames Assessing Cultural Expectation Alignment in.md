@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ CONF-CC: "EMNLP 2025 Findings"
 local_pdf: "[[PDFs/2025/2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "10 countries, Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Flux-1.0-dev; Stable-Diffusion-3.5-Large; Imagen3; GPT-Image"
+LLM_assessed: "GPT-4o, Gemini"
 DATA_URL: "https://culturalframes.github.io"
 tags: 
 abstract: "The increasing ubiquity of text-to-image (T2I) models as tools for visual content generation raises concerns about their ability to accurately represent diverse cultural contexts – where missed cues can stereotype communities and undermine usability. In this work, we present the first study to systematically quantify the alignment of T2I models and evaluation metrics with respect to both explicit (stated) as well as implicit (unstated, implied by the prompt’s cultural context) cultural..."

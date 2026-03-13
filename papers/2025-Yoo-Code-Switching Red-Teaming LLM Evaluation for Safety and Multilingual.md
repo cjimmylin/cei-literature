@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,15 +47,15 @@ local_pdf: "[[PDFs/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for S
 publication: "arXiv / ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Korean, Thai, Vietnamese, Arabic, African/Ubuntu, Italian"
-cultures_nationalities_list: "Chinese, Korean, Thai, Vietnamese, Arabic, Italian, African"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Arabic, Bengali, Chinese, English, Italian, Javanese, Korean, Swahili, Thai, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude 3, Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, Claude 3., Claude-3-Sonnet, Claude., GPT-4, GPT-4o, Llama, Llama 3, Llama Guard, Llama-3, Mistral, Mistral-7B, Mixtral 7B, Mixtral-8x7B, Qwen 1.5, Qwen-1.5, BERT, GPT-3, gpt-3.5-turbo"
-DATA_URL: "https://huggingface.co/datasets/openai/MMMLU"
+LLM_assessed: "GPT-3.5, GPT-4o, Claude-3, Llama-3, Qwen-1.5, Mistral, Mixtral"
+DATA_URL: "https://github.com/haneul-yoo/csrt"
 tags: 
 abstract: "As large language models (LLMs) have advanced rapidly, concerns regarding their safety have become prominent. In this paper, we discover that code-switching in red-teaming queries can effectively elicit undesirable behaviors of LLMs, which are common practices in natural language. We introduce a simple yet effective framework, CSRT, to synthesize codeswitching red-teaming queries and investigate the safety and multilingual understanding of LLMs comprehensively."
 CONFERENCE: "ACL 2025"
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Code-switching red-teaming technique testing multilingual LLM safety. Vietnamese
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 3, Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, Claude 3., Claude-3-Sonnet, Claude., GPT-4, GPT-4o, Llama, Llama 3, Llama Guard, Llama-3, Mistral, Mistral-7B, Mixtral 7B, Mixtral-8x7B, Qwen 1.5, Qwen-1.5, BERT, GPT-3, gpt-3.5-turbo. Verified dataset/resource link: https://huggingface.co/datasets/openai/MMMLU.
+CSRT dataset of 315 code-switching red-teaming queries synthesized from the MultiJail dataset across 10 languages, used to evaluate LLM safety and multilingual understanding.
+
 
 ## Notes
 

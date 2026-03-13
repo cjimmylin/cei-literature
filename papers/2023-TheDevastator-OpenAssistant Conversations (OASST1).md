@@ -23,6 +23,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +59,7 @@ ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for conversational ai"

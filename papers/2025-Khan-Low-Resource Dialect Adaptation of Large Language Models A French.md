@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,12 +49,12 @@ local_pdf: "[[PDFs/2025/2025-Khan-Low-Resource Dialect Adaptation of Large Langu
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
-languages_list: "French, Quebecois French"
+languages_list: "French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "CroissantLLM, Llama-3.1, Llama-3.2"
+LLM_assessed: "Llama-3"
 DATA_URL: "https://github.com/CLaC-Lab/QuebecLLM-CPT"
 tags: 
 abstract: "Despite the widespread adoption of large language models (LLMs), their strongest capabilities remain largely confined to a small number of high-resource languages for which there is abundant training data. Recently, continual pretraining (CPT) has emerged as a means to fine-tune these models to low-resource regional dialects. In this paper, we study the use of CPT for dialect learning under tight data and compute budgets."
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -98,7 +102,7 @@ This paper explores continual pre-training for dialect adaptation in low-resourc
 
 ## Data Description
 
-Introduces the first Quebecois French LLMs by adapting three base models (CroissantLLM, Llama-3.2-1B, Llama-3.1-8B) using continual pre-training with LoRA on a small 86M token corpus, evaluated on the COLE benchmark suite for both Quebec French and prestige French tasks.
+Releases the first open-weight LLMs adapted to Québec French (CroissantLLMChat and Llama-3 variants) on HuggingFace, along with an 86M-token Québec French CPT corpus; models benchmarked on COLE suite tasks.
 
 
 ## Detailed Summary

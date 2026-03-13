@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ pdf_extract: "PDF Extracts/2024/2024-Onose-LLMs for Extremely Low-Resource Finno
 local_pdf: "[[PDFs/2024/2024-Onose-LLMs for Extremely Low-Resource Finno-Ugric Languages.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
-languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
+cultures_nationalities_list: "N/A"
+languages_list: "Komi, Livonian, Võro"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4-turbo, Llama-2, Llama, GPT-4o, gpt-4o-mini"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://github.com/TartuNLP/smugri-llm"
 tags: 
 abstract: "The advancement of large language models (LLMs) has predominantly focused on highresource languages, leaving low-resource languages, such as those in the Finno-Ugric family, significantly underrepresented. This paper addresses this gap by focusing on Võro, Livonian, and Komi. We cover almost the entire cycle of LLM creation, from data collection to instruction tuning and evaluation. Our contributions include developing multilingual base and instruction-tuned models; creating evaluation..."
@@ -97,7 +101,8 @@ The advancement of large language models (LLMs) has predominantly focused on hig
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4-turbo, Llama-2, Llama, GPT-4o, gpt-4o-mini. Verified dataset/resource link: https://github.com/TartuNLP/smugri-llm.
+Introduces SMUGRI-MT-BENCH, a multi-turn conversational benchmark for Võro, Livonian, and Komi languages, along with extended multilingual benchmark datasets for extremely low-resource Finno-Ugric languages.
+
 
 ## Notes
 

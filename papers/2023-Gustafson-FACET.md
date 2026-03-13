@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ tags:
 abstract: "Computer vision models have known performance disparities across attributes such as gender and skin tone. This means during tasks such as classification and detection, model performance differs for certain classes based on the demographics of the people in the image. These disparities have been shown to exist, but until now there has not been a unified approach to measure these differences for common use-cases of computer vision models."
 CONF-CC: "IEEE International Conference on Computer Vision"
 DATE_ADDED: 20260208
-LLM_assessed: "CLIP ViT-B/32, ViT-B/16, Faster R-CNN ResNet-50-FPN, Mask R-CNN ResNet-50-FPN"
+LLM_assessed: NA
 DATA_URL: "https://facet.metademolab.com"
 pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
 local_pdf: "[[PDFs/2023/2023-Gustafson-FACET.pdf]]"
@@ -171,7 +175,7 @@ FACET reveals that state-of-the-art computer vision models exhibit systematic pe
 
 ## Data Description
 
-The paper presents FACET (Fairness in Computer Vision Evaluation Benchmark), containing 32,000 images from SA-1B with exhaustive annotations for 13 person attributes and 52 person classes, annotated by expert reviewers. State-of-the-art vision models including CLIP ViT-B/32, ViT-B/16, Faster R-CNN, and Mask R-CNN are benchmarked for fairness across perceived skin tone, age, and gender presentation demographics, revealing performance disparities across demographic attributes.
+FACET (FAirness in Computer Vision EvaluaTion): a benchmark evaluation set of 32,000 images for image classification, object detection, and segmentation tasks, with expert annotations for perceived skin tone, gender presentation, age, and hair type, enabling intersectional fairness evaluation of computer vision models.
 
 
 ## Notes

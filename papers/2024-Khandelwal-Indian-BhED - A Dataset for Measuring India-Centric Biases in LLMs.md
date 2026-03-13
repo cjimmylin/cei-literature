@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs), now used daily by millions, can encode societal biases, exposing their users to representational harms. A large body of scholarship on LLM bias exists but it predominantly adopts a Western-centric frame and attends comparatively less to bias levels and potential harms in the Global South. In this paper, we quantify stereotypical bias in popular LLMs according to an Indian-centric frame through Indian-BhED, a first of its kind dataset, containing stereotypical and anti-stereotypical examples in the context of caste and religious stereotypes in India. We find that the majority of LLMs tested have a strong propensity to output stereotypes in the Indian context, especially when compared to axes of bias traditionally studied in the Western context, such as gender and race. Notably, we find that GPT-2, GPT-2 Large, and GPT 3.5 have a particularly high propensity for preferring stereotypical outputs as a percent of all sentences for the axes of caste (63-79%) and religion (69-72%). We finally investigate potential causes for such harmful behaviour in LLMs, and posit intervention techniques to reduce both stereotypical and anti-stereotypical biases. The findings of this work highlight the need for including more diverse voices when researching fairness in AI and evaluating LLMs."
-LLM_assessed: "BERT, RoBERTa, GPT-2, GPT-3.5, Falcon, Mistral, Llama-2"
+LLM_assessed: "BERT, Falcon, GPT-2, GPT-3.5, Llama-2, Mistral, RoBERTa"
 DATA_URL: "https://github.com/khyatikhandelwal/Indian-LLMs-Bias"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -62,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -101,7 +105,8 @@ Stereotypical and anti-stereotypical sentence pairs
 
 ## Data Description
 
-The paper introduces Indian-BhED, a novel dataset of 229 English-language sentence pairs containing stereotypical and anti-stereotypical examples covering caste-based discrimination and religious biases in the Indian context. It is paired with a filtered subset of CrowS-Pairs (386 racial bias and 159 gender bias sentences) for cross-cultural comparison. Ten LLMs (both encoder and decoder-based) are evaluated for stereotypical bias using All Unmasked Likelihood and Conditional Log-Likelihood metrics.
+Indian-BhED is a novel bias evaluation dataset containing stereotypical and anti-stereotypical sentence pairs covering caste and religious bias axes in the Indian context. Models tested include both encoder-based (BERT-base, multilingual BERT, XLM-RoBERTa) and decoder-based LLMs (GPT-2, GPT-2 Large, GPT-3.5, Falcon 7B, Mistral 7B, LLaMA-2 7B/13B).
+
 
 ## Notes
 

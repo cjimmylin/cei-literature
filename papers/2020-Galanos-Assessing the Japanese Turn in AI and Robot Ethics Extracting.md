@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +47,17 @@ CONF-CC: "IFIP advances in information and communication technology 2020"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Japanese, Shinto"
+national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: ""
-religious_values: Buddhism, Shinto
+religious_values: "Buddhism, Shinto"
 religious_values_list: "Buddhism, Shinto"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
-DATA_URL: "https://hal.science/hal-03525267/"
+DATA_URL: NA
 tags: 
-abstract:
+abstract: "Critically examines the Western scholarship pattern of importing Japanese ethics (including Shinto values) into AI/robot ethics without deeper examination. Uses ethnographic study of cross-cultural debate about AIBO robot to assess whether Shinto-derived values are practically relevant to human-robot interaction."
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -61,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

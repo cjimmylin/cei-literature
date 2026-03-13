@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ research_topic: Other
 abstract: "Text-to-SQL parsing, which aims at converting natural language questions into executable SQLs, has gained increasing attention in recent years. In particular, GPT-4 and Claude-2 have shown impressive results in this task. However, most of the prevalent benchmarks, i.e., Spider, and WikiSQL, focus on database schema with few rows of database values leaving the gap between academic study and real-world applications."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
+LLM_assessed: "ChatGPT, GPT-4, Claude, T5"
 DATA_URL: "https://bird-bench.github.io/"
 pdf_extract: "PDF Extracts/2023/2023-Li-BIRD.md"
 local_pdf: "[[PDFs/2023/2023-Li-BIRD.pdf]]"
@@ -160,7 +164,7 @@ BIRD demonstrates that current state-of-the-art text-to-SQL models, including GP
 
 ## Data Description
 
-BIRD is a large-scale text-to-SQL benchmark containing 12,751 text-to-SQL pairs across 95 databases with a total size of 33.4 GB spanning 37 professional domains. The benchmark emphasizes challenges of dirty and noisy database values, external knowledge grounding, and SQL execution efficiency. It includes a novel Valid Efficiency Score (VES) metric and databases sourced from Kaggle, CTU Prague Relational Learning Repository, and open tables.
+BIRD: 12,751 text-to-SQL pairs over 95 databases (33.4 GB total) spanning 37 professional domains, with external knowledge annotations and efficiency metrics.
 
 
 ## Notes

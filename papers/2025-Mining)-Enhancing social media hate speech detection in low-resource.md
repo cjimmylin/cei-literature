@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +49,13 @@ pdf_extract: "PDF Extracts/2025/2025-Mining)-Enhancing social media hate speech 
 local_pdf: "[[PDFs/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Albanian"
-languages_list: Albanian
+cultures_nationalities_list: "N/A"
+languages_list: "Albanian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: XLM-RoBERTa
+LLM_assessed: "RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Hate speech (HS) on social media exposes public discourse and community well-being. Despite its prevalence, majority of the research and technological advances have focused on rich-resourced languages. In contrast, Albanian, a language marked by dialects, limited NLP tools, and scarcity of annotated data, remains underexplored. To address this gap, this paper explores the enhancement of automatic hate speech detection in Albanian social media using advanced deep neural techniques."
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -103,7 +106,7 @@ This paper addresses hate speech detection in Albanian, a low-resource language 
 
 ## Data Description
 
-This paper enhances hate speech detection in Albanian social media using transformers and explainable AI. Creates a dataset of 20,860 Facebook comments with multi-annotator process. Fine-tuned XLM-RoBERTa achieves F1=86%, establishing new state-of-the-art for Albanian hate speech detection. Uses SHAP and LIME for explainability, addressing dialectal writing, implicit insults, and cultural context challenges in Albanian.
+A dataset of 20,860 Albanian Facebook comments manually annotated for hate speech using a multi-annotator majority-voting protocol; the largest Albanian hate speech dataset to date. Dataset is available only upon request.
 
 
 ## Detailed Summary

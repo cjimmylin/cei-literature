@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +46,8 @@ local_pdf: "[[PDFs/2024/2024-Levine-Religious Affiliation and Conceptions of the
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam, Christianity, Judaism, Hinduism"
+religious_values_list: "Islam, Christianity, Judaism, Hinduism"
 moral_psychology: "N/A"
 newtags: "Islam, Judaism, Hinduism, Social & Cultural Values"
 key_contribution: "Investigates how religious affiliation (Muslim, Mormon, Jewish, Hindu) influences the *scope* of the moral domain, finding that some groups moralize religious norms while others do not."

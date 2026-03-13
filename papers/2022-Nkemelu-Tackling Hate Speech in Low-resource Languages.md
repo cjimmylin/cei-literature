@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +51,7 @@ publication: "ACM Digital Library"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Burmese"
+cultures_nationalities_list: "N/A"
 languages_list: "Burmese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -101,7 +104,7 @@ Curated dataset of 226 Burmese hate speech posts from Facebook collected during 
 
 ## Data Description
 
-The paper presents a community-driven approach to hate speech detection in Myanmar (Burmese language), working with context experts to curate a dataset of 226 Burmese hate speech posts from Facebook via CrowdTangle. It develops a systematic process covering data collection, annotation, and model validation, and provides early classification results using classical and neural network-based ML models. No LLMs were tested.
+A dataset of 873 Burmese (Myanmar) social media posts annotated for hate speech toxicity, collected from Facebook during the 2020 Myanmar national elections, curated with assistance from context experts.
 
 
 ## Notes

@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,11 +54,11 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam, Christianity, Buddhism, Hinduism"
+religious_values_list: "Islam, Christianity, Buddhism, Hinduism"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4, GPT-4-Turbo, GPT-4o, Gemma, Gemma 2, Gemma2, InstructGPT, Llama-2, Llama, LLaMA 3, Llama-3, Llama2, Llama3, Mistral, Mistral 7B, Mistral-7B, Mixtral, Qwen, Qwen 3, Qwen3, Vicuna"
+LLM_assessed: "Gemini, Gemma, Llama-3, Mistral, Qwen"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, I found several recent 2025 studies on religious bias in LLMs with focus on Arabic and Islamic topics: Key Benchmarks and Studies IslamTrust Benchmark: LLMs struggle significantly with Islamic values, exhibiting biases and misconceptions, with the best-performing model achieving only 66.5% overall alignment, with better performance in Arabic (71.43%) than English (61.58%). PalmX 2025 Shared Task: A benchmarking effort focused on the cultural competence o"
@@ -64,9 +68,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Based on the search results, I found several recent 2025 studies on religious bi
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4, GPT-4-Turbo, GPT-4o, Gemma, Gemma 2, Gemma2, InstructGPT, Llama-2, Llama, LLaMA 3, Llama-3, Llama2, Llama3, Mistral, Mistral 7B, Mistral-7B, Mixtral, Qwen, Qwen 3, Qwen3, Vicuna. No high-confidence repository-style data URL was identified.
+This thesis introduces the BRAND dataset (2,000+ Bengali/English religious norms across four religions) as part of its empirical study of religious bias in LLMs. Same dataset as the BRAND paper above.
+
 
 ## Notes
 

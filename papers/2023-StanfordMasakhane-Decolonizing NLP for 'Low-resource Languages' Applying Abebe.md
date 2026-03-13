@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +49,8 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md"
 local_pdf: "[[PDFs/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "African"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"

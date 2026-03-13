@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2025/2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities 
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi, Indian"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Bengali, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, DeepSeek, DeepSeek-R1, Dolly, GPT-4o-mini, Llama, Mistral 7B, Mistral Small, Qwen, Qwen 2.5, Qwen 72B, GPT-4o, llama3.1, Mistral"
+LLM_assessed: "Alpaca, DeepSeek, Dolly, GPT-4o, GPT-4o mini, LLaMA, Llama-3, Mistral, Qwen, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Bengali is an underrepresented language in NLP research. However, it remains a challenge due to its unique linguistic structure and computational constraints. In this work, we systematically investigate the challenges that hinder Bengali NLP performance by focusing on the absence of standardized evaluation benchmarks. We then evaluated 10 recent open source Large Language Models (LLMs) in 8 of the translated datasets and performed a comprehensive error analysis to pinpoint their primary failure..."
@@ -96,7 +100,8 @@ Evaluates 10 open-source LLMs on 8 translated Bengali datasets with comprehensiv
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, DeepSeek, DeepSeek-R1, Dolly, GPT-4o-mini, Llama, Mistral 7B, Mistral Small, Qwen, Qwen 2.5, Qwen 72B, GPT-4o, llama3.1, Mistral. No high-confidence repository-style data URL was identified.
+A comprehensive suite of translated Bengali benchmark datasets across 8 tasks is released publicly along with translation pipeline code to support reproducible Bengali NLP evaluation research.
+
 
 ## Notes
 

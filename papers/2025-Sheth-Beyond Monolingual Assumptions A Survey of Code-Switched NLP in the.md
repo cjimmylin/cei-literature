@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Sheth-Beyond Monolingual Assumptions A Survey of Code-Switched NLP in the.md"
 local_pdf: "[[PDFs/2025/2025-Sheth-Beyond Monolingual Assumptions A Survey of Code-Switched NLP in the.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean"
-cultures_nationalities_list: "Korean"
-languages_list: "Code-switching, English, Korean, Multilingual"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, GPT-2, GPT-4, GPT-4o, GloVe, Llama, RoBERTa, T5"
+LLM_assessed: "BERT, GPT-2, GPT-3, LLaMA, RoBERTa, T5"
 DATA_URL: "NA"
 tags: 
 abstract: "Amidst the rapid advances of large language models (LLMs), most LLMs still struggle with mixed-language inputs, limited Codeswitching (CSW) datasets, and evaluation biases, which hinder their deployment in multilingual societies. This survey provides the first comprehensive analysis of CSW-aware LLM research, reviewing 324 studies spanning five research areas, 15+ NLP tasks, 30+ datasets, and 80+ languages."
@@ -63,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

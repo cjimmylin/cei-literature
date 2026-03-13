@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,15 +46,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Maatta-LinCE Benchmark.md"
 local_pdf: "[[PDFs/2025/2025-Maatta-LinCE Benchmark.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian, Arabic, Spanish"
-cultures_nationalities_list: "Spanish, Nepali, Indian, Arabic, Egyptian"
-languages_list: "English, Spanglish"
+national_ethnic_cultural: "Indian, Arabic, Spanish, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indian, Arabic, Spanish, Multicultural/Cross-cultural"
+languages_list: "English, Hindi, Nepali, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ELMo"
-DATA_URL: "NA"
+LLM_assessed: "BERT"
+DATA_URL: "http://ritual.uh.edu/lince"
 tags: 
 abstract: "Recent trends in NLP research have raised an interest in linguistic code-switching (CS); modern approaches have been proposed to solve a wide range of NLP tasks on multiple language pairs. Unfortunately, these proposed methods are hardly generalizable to different code-switched languages. In addition, it is unclear whether a model architecture is applicable for a different task while still being compatible with the code-switching setting."
 CONFERENCE: "Other Conference"
@@ -95,7 +98,8 @@ Recent trends in NLP research have raised an interest in linguistic code-switchi
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ELMo. No high-confidence repository-style data URL was identified.
+LinCE consolidates ten corpora covering four code-switched language pairs (Spanish-English, Nepali-English, Hindi-English, MSA-Egyptian Arabic) and four NLP tasks (language identification, NER, POS tagging, sentiment analysis) into a centralized benchmark with new stratified splits and an online leaderboard.
+
 
 ## Notes
 

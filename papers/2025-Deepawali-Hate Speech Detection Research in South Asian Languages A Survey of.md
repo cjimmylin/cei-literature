@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +49,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian, Tamil, Sri Lankan"
-languages_list: "Bengali, Hindi, Kannada, Malayalam, Sinhala, Tamil, Urdu, and other South Asian languages"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali, Hindi, Kannada, Malayalam, Sinhala, Tamil, Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -99,7 +102,7 @@ Comprehensive survey of hate speech detection tasks, available datasets, and com
 
 ## Data Description
 
-This is a comprehensive survey paper reviewing hate speech detection tasks, available datasets, and computational approaches for South Asian languages including Bengali, Hindi, Kannada, Malayalam, Sinhala, Tamil, and Urdu. Published in ACM TALLIP, it serves as a meta-survey covering the landscape of values-relevant datasets in Dravidian and other South Asian languages. No LLMs were directly tested.
+A comprehensive survey of hate speech detection datasets and computational approaches for South Asian languages including Tamil, Malayalam, Kannada, and other Dravidian languages, cataloguing available datasets and tasks.
 
 
 ## Notes

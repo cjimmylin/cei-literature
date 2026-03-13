@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,14 +44,14 @@ CONF-CC: "Nature Scientific Reports"
 local_pdf: "[[PDFs/2025/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory, Trolley / Dilemmas (Psych)"
 newtags: 
-LLM_assessed: "GPT-4o, Claude 3.7 Sonnet, DeepSeek-V3, Llama-3.1, Gemini 2.5 Pro"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Llama-3"
 DATA_URL: "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git"
 tags: 
 abstract: "Three-dimensional framework evaluating moral reasoning through foundational moral principles, reasoning robustness, and value consistency. Adapts Moral Foundations Questionnaire, World Values Survey, and standardized moral dilemmas. Claude and GPT-4 attain highest scores."
@@ -59,7 +63,7 @@ deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,7 @@ Three-dimensional framework evaluating moral reasoning through foundational mora
 
 ## Data Description
 
-This study establishes a three-dimensional framework for evaluating moral reasoning in LLMs through Moral Foundation Alignment, Reasoning Quality Index, and Value Consistency Assessment. It adapts three established moral psychology instruments (MFQ-30, World Values Survey, and standardized moral dilemmas) into benchmark datasets with 50 standardized scenarios. Claude 3.7 Sonnet achieved the highest composite score (90.9), followed by GPT-4o (90.0), with LLaMA 3.1 (70B) scoring lowest (75.8). Published in Scientific Reports.
+Releases benchmark datasets and evaluation codebase covering three dimensions of moral reasoning (MFQ-adapted, WVS-adapted, moral dilemmas), publicly available at the GitHub repository.
 
 
 ## Notes

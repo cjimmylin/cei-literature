@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Emotional intelligence in large language models (LLMs) is of great importance in Natural Language Processing. However, the previous research mainly focus on basic sentiment analysis tasks, such as emotion recognition, which is not enough to evaluate LLMs’ overall emotional intelligence. Therefore, this paper presents a novel framework named EmotionQueen for evaluating the emotional intelligence of LLMs."
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, BLOOM, Falcon, Vicuna"
+LLM_assessed: "BLOOM, Claude-2, Falcon, GPT-3.5, GPT-4, Llama-2, Vicuna"
 DATA_URL: "NA"
 CONFERENCE: "ACL 2024"
 ethics_overall: "No"
@@ -63,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +102,8 @@ Emotional intelligence in large language models (LLMs) is of great importance in
 
 ## Data Description
 
-The paper presents EmotionQueen, a benchmark for evaluating emotional intelligence of LLMs comprising 10,000 user statements across five life scenarios (achievements, family/friends, health, economic status, accidents). The benchmark includes four tasks: Key Event Recognition, Mixed Event Recognition, Implicit Emotional Recognition, and Intention Recognition, evaluated using PASS rate and WIN rate metrics with GPT-4 as the judge.
+EmotionQueen benchmark: 10,000 user statements across five life scenarios (achievements, family/friends, health, economics, accidents) with four evaluation tasks (Key Event Recognition, Mixed Event Recognition, Implicit Emotional Recognition, Intention Recognition).
+
 
 ## Notes
 

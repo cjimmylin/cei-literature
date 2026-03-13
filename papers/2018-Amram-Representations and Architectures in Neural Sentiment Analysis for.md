@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +50,8 @@ pdf_extract: "PDF Extracts/2018/2018-Amram-Representations and Architectures in 
 local_pdf: "[[PDFs/2018/2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
-languages_list: Hebrew
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -64,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +103,7 @@ First sentiment analysis benchmark for Modern Hebrew based on 12,804 social medi
 
 ## Data Description
 
-This paper develops the first sentiment analysis benchmark for Modern Hebrew, consisting of 12,000 social media comments. It studies the effects of representation choices (token-based vs. morpheme-based, string-based vs. character-based) on neural sentiment analysis across five architectures (linear baseline, fully-connected, convolutional, RNN, bidirectional RNN). The models tested are pre-LLM neural architectures, not large language models.
+First sentiment analysis benchmark for Modern Hebrew comprising 12,804 social media comments from the Israeli president's Facebook page, annotated for sentiment with token-based and morpheme-based settings.
 
 
 ## Notes

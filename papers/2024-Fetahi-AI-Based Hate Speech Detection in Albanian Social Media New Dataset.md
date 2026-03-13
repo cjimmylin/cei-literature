@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ pdf_extract: "PDF Extracts/2024/2024-Fetahi-AI-Based Hate Speech Detection in Al
 local_pdf: "[[PDFs/2024/2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Albanian"
-languages_list: Albanian
+cultures_nationalities_list: "N/A"
+languages_list: "Albanian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "mBERT, XLM-RoBERTa"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "This paper aims to advance AI-based hate speech (HS) detection in the Albanian language, which is resource-limited in natural language processing (NLP). Addressing the challenge of limited data, we developed a human-annotated dataset of over 11,000 comments, carefully curated from various Albanian social media platforms, containing a substantial number of HS instances. The dataset was annotated using a detailed two-layer taxonomy to capture the complex dimensions of HS."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -102,7 +106,7 @@ This paper develops a human-annotated dataset of over 11,000 comments from Alban
 
 ## Data Description
 
-Dataset of 11,000+ Albanian social media comments annotated for hate speech with two-layer taxonomy by 3 expert annotators (Fleiss kappa 0.62). Evaluates traditional ML (Naive Bayes, XGBoost) rather than modern LLMs. No public dataset URL provided.
+Human-annotated dataset of over 11,000 comments from Albanian social media platforms with a two-layer taxonomy for hate speech detection, annotated by three experts with Fleiss kappa of 0.62.
 
 
 ## Detailed Summary

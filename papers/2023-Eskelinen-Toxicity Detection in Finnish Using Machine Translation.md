@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ pdf_extract: "PDF Extracts/2023/2023-Eskelinen-Toxicity Detection in Finnish Usi
 local_pdf: "[[PDFs/2023/2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Finnish"
+cultures_nationalities_list: "N/A"
 languages_list: "English, Finnish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: FinBERT
+LLM_assessed: "XLM-R"
 DATA_URL: "https://github.com/TurkuNLP/toxicity-classifier"
 tags: 
 abstract: "Due to the popularity of social media platforms and the sheer amount of usergenerated content online, the automatic detection of toxic language has become crucial in the creation of a friendly and safe digital space. Previous work has been mostly focusing on English leaving many lower-resource languages behind. In this paper, we present novel resources for toxicity detection in Finnish by introducing two new datasets, a machine translated toxicity dataset for Finnish based on the widely used..."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -100,7 +104,7 @@ This paper introduces novel resources for toxicity detection in Finnish, a low-r
 
 ## Data Description
 
-Experiments using machine translation to create Finnish toxicity detection training data by translating English toxic text. Evaluates FinBERT on translated vs. native Finnish data. No public dataset URL provided.
+Two new Finnish toxicity detection datasets: a machine-translated version of the English Jigsaw toxicity dataset and a manually annotated test set of Suomi24 forum comments, the first publicly available toxicity datasets for Finnish.
 
 
 ## Notes

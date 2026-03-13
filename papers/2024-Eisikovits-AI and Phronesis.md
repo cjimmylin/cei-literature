@@ -22,6 +22,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +39,7 @@ doi: 10.1515/mopp-2021-0026
 url: "https://www.degruyter.com/document/doi/10.1515/mopp-2021-0026/html"
 publication: "Moral Philosophy and Politics"
 CONF-CC: "Moral Philosophy and Politics"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"

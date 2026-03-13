@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -102,7 +105,7 @@ We introduce HateBERT, a re-trained BERT model for abusive language detection in
 
 ## Data Description
 
-The paper introduces the RAL-E dataset comprising 1,492,740 Reddit comments from banned communities in English, spanning January 2012 to June 2015, totaling 43,820,621 tokens. HateBERT, a retrained BERT base-uncased model, is evaluated against generic BERT on three abusive language detection datasets (OffensEval 2019, AbusEval, HatEval) covering offensive language, abusive language, and hate speech detection tasks.
+RAL-E dataset of 1.49M Reddit comments from banned abusive communities, plus HateBERT re-trained BERT model for abusive language detection.
 
 
 ## Notes

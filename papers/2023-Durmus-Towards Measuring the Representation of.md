@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +44,8 @@ url: "http://arxiv.org/abs/2306.16388"
 external_pdf: "http://arxiv.org/pdf/2306.16388.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -99,7 +102,7 @@ Large language models (LLMs) may not equitably represent diverse global perspect
 
 ## Data Description
 
-The paper introduces GlobalOpinionQA, a dataset of 2,556 multiple-choice questions compiled from the Pew Global Attitudes Survey (2,203 questions) and World Values Survey Wave 7 (353 questions). The dataset captures diverse global opinions on societal issues across many countries and is used to measure the similarity between LLM-generated survey responses and human responses conditioned on country.
+GlobalOpinionQA dataset of 2,556 multiple-choice questions compiled from Pew Global Attitudes Survey and World Values Survey, used to measure whose opinions LLM responses most resemble.
 
 
 ## Notes

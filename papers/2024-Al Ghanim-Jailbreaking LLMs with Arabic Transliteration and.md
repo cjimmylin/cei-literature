@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ tags:
 abstract: "This study identifies the potential vulnerabilities of Large Language Models (LLMs) to ’jailbreak’ attacks, specifically focusing on the Arabic language and its various forms. While most research has concentrated on English-based prompt manipulation, our investigation broadens the scope to investigate the Arabic language. We initially tested the AdvBench benchmark in Standardized Arabic, finding that even with prompt manipulation techniques like prefix injection, it was insufficient to provoke..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude"
+LLM_assessed: "Claude-3, GPT-4"
 DATA_URL: "https://github.com/SecureDL/arabic_jailbreak"
 pdf_extract: "PDF Extracts/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md"
 local_pdf: "[[PDFs/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.pdf]]"
@@ -61,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
@@ -83,7 +87,7 @@ This study identifies the potential vulnerabilities of Large Language Models (LL
 
 ## Data Description
 
-The study uses the AdvBench benchmark containing 520 harmful prompts, which are translated into Arabic and converted into Arabic transliteration and chatspeak (Arabizi) forms. The prompts are tested against OpenAI GPT-4-0613 and Anthropic Claude-3-Sonnet-20240229 to evaluate jailbreak vulnerability through Arabic language variants. Manual evaluation categorizes LLM outputs into refusal and non-refusal categories including unsafe content generation.
+Code and evaluation framework for testing jailbreak attacks on LLMs using Arabic transliteration and chatspeak (Arabizi) forms.
 
 
 ## Notes

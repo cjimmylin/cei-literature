@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +50,7 @@ pdf_extract: "PDF Extracts/2022/2022-Mhlambi-The role of the African value of Ub
 local_pdf: "[[PDFs/2022/2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
 religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"

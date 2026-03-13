@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---
@@ -100,7 +103,7 @@ Comprehensive benchmark evaluating fairness of LLMs across 85 Indian identity gr
 
 ## Data Description
 
-Comprehensive benchmark by AI4Bharat evaluating fairness of LLMs across 85 Indian identity groups, focusing on bias and stereotypes through judgment and generation tasks across multiple Indic languages. Specific evaluated models not identified from available metadata.
+A comprehensive benchmark dataset evaluating LLM fairness across 85 Indian identity groups, covering bias and stereotypes through judgment and generation tasks across multiple Indic languages. The benchmark was constructed from scratch to assess both bias and stereotyping behaviors.
 
 
 ## Notes

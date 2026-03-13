@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,8 +57,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGLM-6B, ChatGPT, DeepSeek R1, LLaMA 2"
-DATA_URL: "NA"
+LLM_assessed: "BERT, ChatGPT, DeepSeek"
+DATA_URL: "https://github.com/jkxr58/Deep-Learning-Model-with-BERT-and-Graph-Attention-Networks"
 tags: 
 abstract: "Sentiment analysis has become a transformative technology in various contexts, particularly in Natural Language Processing (NLP), social media analytics, and liter­ ary analysis, as it can extract information from a wide range of texts. The advance­ ments in deep learning, particularly with transformer models such as BERT and graph-based models like GATs, have enabled faster progress in analyzing complex language structures."
 CONFERENCE: "Other Conference"

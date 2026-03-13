@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ local_pdf: "[[PDFs/2025/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Align
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "German, Spanish, Russian"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English, German, Russian, Spanish, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude 4, Claude 4., Claude4, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-V3, GPT-4, GPT-4-mini, Llama, LLaMA-3.2, ChatGPT, claude-sonnet, Llama-3"
+LLM_assessed: "Claude, DeepSeek, GPT-4, Llama-3"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed across high-impact domains, from clinical decision support and legal analysis to hiring and education, making fairness and bias evaluation before deployment critical. However, existing evaluations lack grounding in real-world scenarios and do not account for differences in harm severity, e.g., a biased decision in surgery should not be weighed the same as a stylistic bias in text summarization."
@@ -64,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"

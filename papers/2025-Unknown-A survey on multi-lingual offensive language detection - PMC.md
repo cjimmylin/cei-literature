@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Multilingual/Cross-cultural"
-languages_list: "English, Multilingual"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, DeBERTa, DeBERTa-based, GPT-3"
-DATA_URL: "https://github.com/KhouloudMN97/A-Survey-on-Multi-lingual-"
+LLM_assessed: "BERT, ChatGPT, GPT-3"
+DATA_URL: NA
 tags: 
 abstract: "Based on the web search results, here's what I found about multilingual hate speech detection datasets and cross-lingual benchmarks: Key Research Areas Recent research proposes novel methods for detecting hate speech in texts using Cross-Lingual Learning, which uses transfer learning from Pre-Trained Language Models with large corpora available to solve problems in languages with fewer resources for the specific task. Notable Datasets and Benchmarks The Hate Speech Dataset Catalogue inc"
 CONFERENCE: "Other Conference"
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Multilingual benchmark text corpus for hate speech detection"
 data_metrics: "Not specified"
 ---

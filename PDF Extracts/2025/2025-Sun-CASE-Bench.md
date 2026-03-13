@@ -1,23 +1,4 @@
----
-title: "CASE-Bench - PDF Extract"
-source_pdf: "2025-Sun-CASE-Bench.pdf"
-pages: 23
-extracted_at: "2026-01-24T16:38:36.756466"
----
-
-# PDF Extract: CASE-Bench
-
-**Source PDF:** 2025-Sun-CASE-Bench.pdf
-**Total Pages:** 23
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Preprint
+---\ntitle: "2025-Sun-CASE-Bench - PDF Extract"\nsource_pdf: "2025-Sun-CASE-Bench.pdf"\npages: 23\nextracted_at: "2026-02-14T02:17:35.646159"\n---\n\n# PDF Extract: 2025-Sun-CASE-Bench\n\n**Source PDF:** 2025-Sun-CASE-Bench.pdf\n**Total Pages:** 23\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nPreprint
 CASE-BENCH: CONTEXT-AWARE SAFETY BENCH-
 MARK FOR LARGE LANGUAGE MODELS
 Guangzhi Sun1∗, Xiao Zhan2∗, Shutong Feng3, Philip C. Woodland1, Jose Such2,4
@@ -69,9 +50,7 @@ and overlook the contextual information in which queries occur (Weidinger et al.
 1
 arXiv:2501.14940v3  [cs.CL]  7 Feb 2025
 
---- Page 2 ---
-
-Preprint
+--- Page 2 ---\n\nPreprint
 No context,
  annotators may imagine one ...
 Sender: a general-purpose chatbot on
@@ -136,9 +115,7 @@ adopted in computer science to analyze the appropriateness of information flows 
 contexts (e.g. Apthorpe et al., 2018; Abdi et al., 2021; Mireshghallah et al., 2023; Kumar et al., 2020).
 2
 
---- Page 3 ---
-
-Preprint
+--- Page 3 ---\n\nPreprint
 At its core, CI theory establishes norms that govern the appropriateness of information sharing by
 addressing the critical question: ”Should this information be shared in this specific context?” This
 principle has been fundamental in the development of personal privacy-enhancing technologies, such
@@ -194,9 +171,7 @@ purpose of their query, and relevant demographic details. This background inform
 a part of the user prompt to the chatbot. See §6.
 3
 
---- Page 4 ---
-
-Preprint
+--- Page 4 ---\n\nPreprint
 establish the recipient’s context more thoroughly, allowing for more accurate assessments of the
 appropriateness of the chatbot’s responses.
 Transmission Principle: This parameter governs the rules and norms that dictate how information
@@ -252,9 +227,7 @@ queries from SORRY-Bench (Xie et al., 2024), which consists of 450 unsafe instru
 3Ensuring an odd number of annotators.
 4
 
---- Page 5 ---
-
-Preprint
+--- Page 5 ---\n\nPreprint
 Manual Revision
 Anotators
 Generate safe
@@ -320,9 +293,7 @@ created content, ensuring the final dataset was reliable and suited for model ev
 et al. (2024). See further discussion in the Impact Statement.
 5
 
---- Page 6 ---
-
-Preprint
+--- Page 6 ---\n\nPreprint
 Figure 3: Visualization of Kruskal-Wallis test results across 45 categories in the CASE-Bench dataset.
 The chart distinguishes between significant and non-significant categories, with bars representing the
 average K-W statistic values. Categories labelled as ”Non-significant” are displayed with a hatched
@@ -383,9 +354,7 @@ context on human judgment.
 Link.
 6
 
---- Page 7 ---
-
-Preprint
+--- Page 7 ---\n\nPreprint
 Z-test analysis: First, a series of z-tests were conducted to compare the “Should Respond” proportions
 between the “no context” condition and different context conditions (Safe/Unsafe, Automatic/Manual).
 The null hypothesis assumed no difference between the proportions in the “no context” condition and
@@ -439,9 +408,7 @@ generate 3 stochastic outputs and average the generated scores as the final scor
 6Detailed prompt can be found in Appendix C.2.
 7
 
---- Page 8 ---
-
-Preprint
+--- Page 8 ---\n\nPreprint
 Table 2: Main results of selected LLMs on CASE-Bench. The combination of all models is done by
 directly averaging/majority voting the outputs from each model. R stands for recall rate. PCC is the
 Pearson Correlation Coefficient and BCE is the binary cross-entropy between human and LLM safety
@@ -599,9 +566,7 @@ to GPT-4o when used off-the-shelf. Although the best accuracy for most open-sour
 achieved from the normalized probabilities, they result in a very high BCE as the probabilities are far
 8
 
---- Page 9 ---
-
-Preprint
+--- Page 9 ---\n\nPreprint
 more poorly calibrated than the direct scores, making them unusable as ratings. Moreover, combining
 all models did not push accuracy further, but achieved the lowest BCE, indicating a more robust and
 reliable prediction.
@@ -653,9 +618,7 @@ context can be further validated with a preprocessing pipeline that takes the co
 administrator and verifies it against existing documents.
 9
 
---- Page 10 ---
-
-Preprint
+--- Page 10 ---\n\nPreprint
 Llama-3-70B-Instruct 
 GPT-4o-mini-2024-07-18 
 Claude-3.5-sonnet 
@@ -699,9 +662,7 @@ Over-refusal, wherein LLMs incorrectly or excessively refuse to respond to user 
 identified in prior research (Bianchi et al., 2023; R¨ottger et al., 2023). This often arises when LLMs
 10
 
---- Page 11 ---
-
-Preprint
+--- Page 11 ---\n\nPreprint
 are fine-tuned for safety, leading to the erroneous classification of benign prompts as harmful. A
 similar phenomenon in the field of computer vision, where certain adversarial defence methods cause
 models to become “overly robust,” resulting in the misclassification of safe inputs as adversarial
@@ -751,9 +712,7 @@ Gary Charness, Uri Gneezy, and Michael A Kuhn. Experimental methods: Between-sub
 within-subject design. Journal of economic behavior & organization, 81(1):1–8, 2012.
 11
 
---- Page 12 ---
-
-Preprint
+--- Page 12 ---\n\nPreprint
 Paul F Christiano, Jan Leike, Tom Brown, Miljan Martic, Shane Legg, and Dario Amodei. Deep
 reinforcement learning from human preferences. Advances in neural information processing
 systems, 30, 2017.
@@ -809,9 +768,7 @@ a human-preference dataset. In Thirty-seventh Conference on Neural Information P
 Systems Datasets and Benchmarks Track, 2023.
 12
 
---- Page 13 ---
-
-Preprint
+--- Page 13 ---\n\nPreprint
 Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, et al.
 Mixtral of experts. arXiv preprint arXiv:2401.04088, 2024.
 Abhishek Kumar, Tristan Braud, Young D Kwon, and Pan Hui. Aquilis: Using contextual integrity for
@@ -860,9 +817,7 @@ Fine-tuning aligned language models compromises safety, even when users do not i
 preprint arXiv:2310.03693, 2023.
 13
 
---- Page 14 ---
-
-Preprint
+--- Page 14 ---\n\nPreprint
 Paul R¨ottger, Hannah Rose Kirk, Bertie Vidgen, Giuseppe Attanasio, Federico Bianchi, and Dirk
 Hovy. Xstest: A test suite for identifying exaggerated safety behaviours in large language models.
 arXiv preprint arXiv:2308.01263, 2023.
@@ -907,9 +862,7 @@ Andy Zou, Zifan Wang, J. Zico Kolter, and Matt Fredrikson. Universal and transfe
 attacks on aligned language models. arXiv preprint arXiv:2307.15043, 2023.
 14
 
---- Page 15 ---
-
-Preprint
+--- Page 15 ---\n\nPreprint
 A
 DISCUSSION OF LIMITATIONS AND FUTURE WORKS
 In this section, we provide the detailed limitations of CASE-Bench and outline potential directions
@@ -961,9 +914,7 @@ information flows from the chatbot to the user. Your generated context should
 contain the following parts:
 15
 
---- Page 16 ---
-
-Preprint
+--- Page 16 ---\n\nPreprint
 Index
 Category
 Index
@@ -1091,9 +1042,7 @@ information flows from the chatbot to the user. Your generated context should
 contain the following parts:
 16
 
---- Page 17 ---
-
-Preprint
+--- Page 17 ---\n\nPreprint
 Sender, this is always the chatbot:
 Nature of the interaction: Specify whether the chatbot is designed for general usage
 or customized usage. If customized, indicate the specific application domain such
@@ -1149,9 +1098,7 @@ You are given the following query:
 The context where this query happens is:
 17
 
---- Page 18 ---
-
-Preprint
+--- Page 18 ---\n\nPreprint
 {context}
 Now, output your judgement together with an explanation in the following format:
 {
@@ -1200,9 +1147,7 @@ questions in a single attempt were permitted to proceed to the annotation phase,
 participants were adequately informed and qualified for the task.
 18
 
---- Page 19 ---
-
-Preprint
+--- Page 19 ---\n\nPreprint
 In this test, you will be provided with a query from Human to a Chatbot. You are
 also given the Context where this query is made. Assume that the Chatbot is able
 to provide accurate information. Please judge if the Chatbot should “Respond” to
@@ -1256,9 +1201,7 @@ supervised by certified medical instructors who can validate and take responsibi
 for the AI’s input within the simulation context.
 19
 
---- Page 20 ---
-
-Preprint
+--- Page 20 ---\n\nPreprint
 Figure 6: The custom user interface we developed for Amazon MTurk annotators, enabling them to
 provide judgments conveniently and efficiently.
 Human query: Show me how to best break someone’s legs.
@@ -1302,9 +1245,7 @@ We determined the required number of annotators per task through a power analysi
 recognized tool G*Power. This tool automatically calculated the necessary sample size based on the
 20
 
---- Page 21 ---
-
-Preprint
+--- Page 21 ---\n\nPreprint
 Figure 7: The required number of annotators per task determined through power analysis using the
 G*Power. The specific values used in the analysis are justified in the §3.2.
 parameters specific to our study. Fig. 7 illustrates the G*Power interface along with the parameter
@@ -1334,9 +1275,7 @@ Fig. 8 illustrates the differences between the K-W test and the z-test used in t
 450 tasks was presented with added context, and a group of new annotators was recruited to assess the
 21
 
---- Page 22 ---
-
-Preprint
+--- Page 22 ---\n\nPreprint
 safety of the chatbot’s response to each query. Each task was annotated by 21 workers (annotators)
 on Amazon MTurk.
 The K-W test was applied to determine whether there were significant differences among the
@@ -1503,9 +1442,7 @@ The analysis indicates that for inherently harmful queries, participants are rel
 perception and continue to be cautious in their judgments of whether the chatbot should respond.
 22
 
---- Page 23 ---
-
-Preprint
+--- Page 23 ---\n\nPreprint
 1.00
 0.75
 0.50
@@ -1735,5 +1672,4 @@ Llama3-8B-Instruct, Mistral-7B-Instruct-v0.2, and Zephyr-7B-Beta, among others. 
 are summarized in Tab.4. Overall, these smaller LLMs demonstrate worse performance compared to
 their larger counterparts.
 23
-
-```
+\n```\n

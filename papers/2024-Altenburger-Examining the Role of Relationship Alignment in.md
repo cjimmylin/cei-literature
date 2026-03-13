@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -67,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---
@@ -102,7 +105,7 @@ The rapid development and deployment of Generative AI in social settings raise i
 
 ## Data Description
 
-The study analyzes approximately 665,000 public Facebook post-comment pairs from active U.S. users, examining how social relationship variables (gender, age, friendship closeness) influence semantic tone across eight categories. Llama 3.0 (70B) is prompted to generate comments for 10,000 randomly selected posts under three conditions of social context information, and the LLM-generated comments are compared against human comments for semantic tone similarity.
+Uses a Facebook public post-comment dataset to evaluate Llama 3.0 (70B) on predicting semantic tones across social relationship categories.
 
 
 ## Notes

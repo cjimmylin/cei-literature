@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +57,7 @@ abstract: "We propose WHoW, an evaluation framework for analyzing the facilitati
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o"
-DATA_URL: "NA"
+DATA_URL: "https://github.com/mrknight21/conversation_moderation_analysis"
 pdf_extract: "PDF Extracts/2025/2025-Ali-Data Curation for Pluralistic Alignment.md"
 local_pdf: "[[PDFs/2025/2025-Ali-Data Curation for Pluralistic Alignment.pdf]]"
 CONFERENCE: "Other Conference"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -95,7 +98,7 @@ Human feedback datasets are central to AI alignment, yet the current data collec
 
 ## Data Description
 
-This paper introduces a pluralistic alignment dataset integrating dimensions of Toxicity, Emotional Awareness, Sensitivity and Openness, Helpfulness, and Stereotypical Bias. It focuses on curating human feedback data to capture diverse human values and examines how demographics and political ideologies shape preferences in alignment datasets.
+WHoW annotation dataset: 5,657 human-annotated and 15,494 GPT-4o-annotated moderation sentences from TV debates and radio panel discussions, annotated with moderator motives (Why), dialogue acts (How), and target speaker (Who).
 
 
 ## Notes

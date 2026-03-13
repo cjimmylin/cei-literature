@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.md"
 local_pdf: "[[PDFs/2025/2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese, Korean, Iranian, French"
-cultures_nationalities_list: "Chinese, Japanese, Korean, Iranian, French"
-languages_list: "Cantonese, English, Farsi, French, Japanese, Kiswahili, Korean, Malay, Mandarin Chinese, Telugu"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT4o, Gemma 2, Llama, Mistral Large"
+LLM_assessed: "Gemma-2, Mistral"
 DATA_URL: "NA"
 tags: 
 abstract: "Joint multilingual evaluation exercise by international AI safety institutes (Singapore, Japan, Australia, Canada, EU, France, Kenya, South Korea, UK). Tested 2 open-weight models across 10 languages with over 6,000 prompts across 5 harm categories. French INESIA (ANSSI, Inria, LNE, PEReN) participated. Finds jailbreaking is a common weakness for non-English languages."

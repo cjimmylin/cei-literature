@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +50,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Bloom, Claude Sonnet, GPT-4, GPT-4o, GPT-4o-mini, Llama, Llama-2, Llama-3.1, Qwen2.5, claude-sonnet, internlm-chat"
+LLM_assessed: "BLOOM, Claude-3, GPT-4o, GPT-4o mini, Gemini, Gemma-2, InternLM, Llama-2, Llama-3, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has enabled new possibilities for applying artificial intelligence within the legal domain. Nonetheless, the complexity, hierarchical organization, and frequent revisions of Vietnamese legislation pose considerable challenges for evaluating how well these models interpret and utilize legal knowledge. To address this gap, Vietnamese Legal Benchmark (VLegal-Bench) is introduced, the first comprehensive benchmark is designed to systematically..."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ First comprehensive benchmark for Vietnamese legal LLM evaluation with 10,450 ex
 
 ## Data Description
 
-Backfill summary: Models assessed include Bloom, Claude Sonnet, GPT-4, GPT-4o, GPT-4o-mini, Llama, Llama-2, Llama-3.1, Qwen2.5, claude-sonnet, internlm-chat. No high-confidence repository-style data URL was identified.
+VLegal-Bench is the first comprehensive Vietnamese legal reasoning benchmark, comprising 10,450 expert-verified samples across 22 tasks at 5 Bloom's taxonomy cognitive levels, evaluating LLMs on Vietnamese civil law comprehension, retrieval, reasoning, generation, and ethics/bias detection.
+
 
 ## Notes
 

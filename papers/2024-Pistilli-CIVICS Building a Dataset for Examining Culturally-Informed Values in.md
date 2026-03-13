@@ -20,6 +20,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,14 +42,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "5 languages, 9 national contexts, Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3-8B, Llama-3-70B, Qwen-1.5-72B, Yi-6B, Yi-34B, DeepSeek-67B, Aquila-2-34B, Qwen-1.5-32B-Chat, Command-R, Mistral-7B-Instruct-v0.2, Gemma-1.1-7B-it, Llama-3-8B-Instruct"
+LLM_assessed: "Command-R, DeepSeek, Gemma, Llama-3, Mistral, Qwen-1.5"
 DATA_URL: "https://huggingface.co/spaces/CIVICS-dataset/CIVICS-responses"
 tags: 
 abstract: "This paper introduces the “CIVICS: Culturally-Informed & Values-Inclusive Corpus for Societal impacts” dataset, designed to evaluate the social and cultural variation of Large Language Models (LLMs) across multiple languages and value-sensitive topics. We create a hand-crafted, multilingual dataset of value-laden prompts which address specific socially sensitive topics, including LGBTQI rights, social welfare, immigration, disability rights, and surrogacy."
@@ -91,7 +95,7 @@ Hand-crafted multilingual dataset of value-laden prompts addressing LGBTQI right
 
 ## Data Description
 
-CIVICS dataset of 699 culturally-informed value statements across 5 topics (LGBTQI rights, social welfare, immigration, disability rights, surrogacy) in 8 languages (English variants, French, Italian, German, Turkish). Evaluates open-weight LLMs using next-token log-probabilities on base models and long-form response generation on chat models. Includes human annotations with value labels grounded in international human rights frameworks.
+Releases the CIVICS (Culturally-Informed & Values-Inclusive Corpus for Societal impacts) dataset: a hand-crafted, multilingual collection of 699 value-laden prompts across five languages and nine national contexts, covering LGBTQI rights, social welfare, immigration, disability rights, and surrogacy.
 
 
 ## Notes

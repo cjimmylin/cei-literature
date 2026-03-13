@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) are deployed globally, creating pluralistic systems that can accommodate the diverse preferences and values of users worldwide becomes essential. We introduce EVALUESTEER, a benchmark to measure LLMs’ and reward models’ (RMs) steerability towards users’ value and stylistic preference profiles grounded in psychology and human-LLM interaction literature. To address the gap in existing datasets that do not support controlled evaluations of RM steering, we..."
-LLM_assessed: "GPT-4, Gemini, Llama-3, Qwen"
+LLM_assessed: "Gemini, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/kshitishghate/EVALUESTEER-benchmark"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -98,7 +102,8 @@ As large language models (LLMs) are deployed globally, creating pluralistic syst
 
 ## Data Description
 
-EVALUESTEER is a benchmark for measuring LLM and reward model steerability toward user values and stylistic preferences. It consists of 165,888 synthetically generated preference pairs varying along 4 value dimensions (traditional, secular-rational, survival, self-expression) and 4 style dimensions (verbosity, readability, confidence, warmth), grounded in the World Values Survey. Six open-source and proprietary LLMs and reward models were evaluated under 11 prompting conditions, including GPT-4.1-Mini, Gemini-2.5-Flash, Llama-3.1-8B, and Qwen-2.5-7B.
+EVALUESTEER benchmark with 165,888 synthetically generated preference pairs systematically varying 4 value dimensions and 4 style dimensions, grounded in World Values Survey data.
+
 
 ## Notes
 

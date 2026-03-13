@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +44,7 @@ last_author: "[[Mantas Mazeika]]"
 authors: "Dan Hendrycks; Mantas Mazeika"
 url: "https://arxiv.org/abs/2206.05862"
 external_pdf: "https://arxiv.org/pdf/2206.05862.pdf"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -57,7 +61,7 @@ paper_summary: "Abstract: Artiﬁcial intelligence (AI) has the potential to gre
 local_pdf: "[[PDFs/2022/2022-Hendrycks-X-Risk Analysis for AI Research.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-2"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -97,7 +101,7 @@ Artificial intelligence (AI) has the potential to greatly improve society, but a
 
 ## Data Description
 
-This is a conceptual analysis paper providing a comprehensive risk analysis framework for AI existential risk. It surveys four risk sources (robustness, monitoring, alignment, systemic safety) and does not introduce any dataset, benchmark, or empirical evaluation of language models.
+N/A
 
 
 ## Notes

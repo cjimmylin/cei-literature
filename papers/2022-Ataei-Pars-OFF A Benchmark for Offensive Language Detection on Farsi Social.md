@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +51,12 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "Three-layered annotated corpus of 10,563 Farsi data samples for offensive language detection. Uses similarity-based and keyword-based data selection. Best model BERT+fastText achieves F1-Macro of 89.57."
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
@@ -102,7 +105,7 @@ Three-layered annotated corpus of 10,563 Farsi data samples for offensive langua
 
 ## Data Description
 
-Pars-OFF is a three-layered annotated corpus of 10,563 Farsi data samples for offensive language detection on social media. It uses similarity-based and keyword-based data selection methods. The best performing model is BERT+fastText achieving F1-Macro of 89.57. No LLMs were tested; the models evaluated are BERT-based and traditional ML classifiers.
+Pars-OFF is a three-layered annotated corpus of 10,563 Farsi social media samples for offensive language detection, constructed using similarity-based and keyword-based data selection methods.
 
 
 ## Notes

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +44,7 @@ authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Coh
 url: "https://www.nature.com/articles/sdata201660"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/D4GRALMJ/Purzycki and others - 2016 - Religious Belief and the Moral Circle Cross-Cultural Dataset.pdf"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -65,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +56,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude-4-sonnet, DeepSeek, DeepSeek 29, DeepSeek-V3, GPT-4, GPT-4o, Llama, Qwen, Qwen2.5, Qwen3, claude-4"
-DATA_URL: "https://huggingface.co/ERC-ITEA/MuduoLLM"
+LLM_assessed: "GPT-4o, Gemini, Claude, Qwen, DeepSeek"
+DATA_URL: "https://mind-lab-ecnu.github.io/OmniEduBench/"
 tags: 
 abstract: "With the rapid development of large language models (LLMs), various LLMbased works have been widely applied in educational fields. However, most existing LLMs and their benchmarks focus primarily on the knowledge dimension, largely neglecting the evaluation of cultivation capabilities that are essential for real-world educational scenarios. Additionally, current benchmarks are often limited to a single subject or question type, lacking sufficient diversity."
 CONFERENCE: "Preprint"
@@ -99,7 +103,8 @@ With the rapid development of large language models (LLMs), various LLMbased wor
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude-4-sonnet, DeepSeek, DeepSeek 29, DeepSeek-V3, GPT-4, GPT-4o, Llama, Qwen, Qwen2.5, Qwen3, claude-4. Verified dataset/resource link: https://huggingface.co/ERC-ITEA/MuduoLLM.
+OmniEduBench: a comprehensive Chinese educational benchmark covering knowledge and cultivation capability dimensions across multiple subjects and question types, with ~1M+ data items (publicly available + private + LLM-generated). Dataset and code to be publicly released upon acceptance.
+
 
 ## Notes
 

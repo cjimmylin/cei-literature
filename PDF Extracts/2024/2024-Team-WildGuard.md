@@ -1,23 +1,4 @@
----
-title: "WildGuard - PDF Extract"
-source_pdf: "2024-Team-WildGuard.pdf"
-pages: 38
-extracted_at: "2026-01-24T17:05:42.463037"
----
-
-# PDF Extract: WildGuard
-
-**Source PDF:** 2024-Team-WildGuard.pdf
-**Total Pages:** 38
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-WILDGUARD: Open One-stop Moderation Tools
+---\ntitle: "2024-Team-WildGuard - PDF Extract"\nsource_pdf: "2024-Team-WildGuard.pdf"\npages: 38\nextracted_at: "2026-02-14T02:17:30.256814"\n---\n\n# PDF Extract: 2024-Team-WildGuard\n\n**Source PDF:** 2024-Team-WildGuard.pdf\n**Total Pages:** 38\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nWILDGUARD: Open One-stop Moderation Tools
 for Safety Risks, Jailbreaks, and Refusals of LLMs
 Seungju Han∗♡♠
 Kavel Rao∗♢
@@ -73,9 +54,7 @@ the safety of user-LLM interactions. WILDGUARD provides a one-stop resource for 
 38th Conference on Neural Information Processing Systems (NeurIPS 2024) Track on Datasets and Benchmarks.
 arXiv:2406.18495v3  [cs.CL]  9 Dec 2024
 
---- Page 2 ---
-
-23%
+--- Page 2 ---\n\n23%
 41%
 16%
 20%
@@ -200,9 +179,7 @@ moderator on human-LLM interactions, reducing success rate on jailbreak attacks 
 2.4% with WILDGUARD in the interface, without over-refusing benign user requests (§4.4).
 2
 
---- Page 3 ---
-
-40
+--- Page 3 ---\n\n40
 50
 60
 70
@@ -375,9 +352,7 @@ returns labels for toxicity, which we use for prompt and response harmfulness.
 1We use gpt-4-0125-preview for all our experiments.
 3
 
---- Page 4 ---
-
-Finding 1: Existing open tools are unreliable on adversarial prompts and far behind GPT-4.
+--- Page 4 ---\n\nFinding 1: Existing open tools are unreliable on adversarial prompts and far behind GPT-4.
 We see in Figure 2 that existing open tools perform decently in detecting harm in vanilla prompts, but
 struggle to do so in adversarial prompts. For both prompt types we also see a sizeable performance
 gap for open tools relative to GPT-4, thus perpetuating costly reliance on API tools.
@@ -431,9 +406,7 @@ public data: 1) in-the-wild data that we label for harmfulness and 2) existing a
 nonsense discrimination/real group, historical events, public privacy, and fictional privacy.
 4
 
---- Page 5 ---
-
-data. To cover harm risks in real-world user requests, we include prompts from LMSYS-CHAT-
+--- Page 5 ---\n\ndata. To cover harm risks in real-world user requests, we include prompts from LMSYS-CHAT-
 1M [42] and WILDCHAT [41] datasets, both of which capture in-the-wild human-LLM interactions,
 with harm labels assigned based on the OpenAI Moderation API. Additionally we add subsamples of
 existing annotator-written safety datasets to further enhance coverage. This includes prompts from
@@ -488,9 +461,7 @@ categories the user prompts were also synthetically generated. See Appendix A.5 
 6Lack of agreement is possible because we include an “unsure” answer choice.
 5
 
---- Page 6 ---
-
-Table 3: F1 scores (%) on prompt and response harmfulness in existing public benchmarks.
+--- Page 6 ---\n\nTable 3: F1 scores (%) on prompt and response harmfulness in existing public benchmarks.
 Model
 Prompt Harmfulness (F1)
 Response Harmfulness (F1)
@@ -641,9 +612,7 @@ top performance, but difference margins are small, emphasizing primary importanc
 8We count XSTEST-RESP among public benchmarks because the prompts originate from XSTest [30].
 6
 
---- Page 7 ---
-
-Table 4: F1 scores (%) on WILDGUARDTEST. Adv./ Vani. indicate benign + harmful prompts that
+--- Page 7 ---\n\nTable 4: F1 scores (%) on WILDGUARDTEST. Adv./ Vani. indicate benign + harmful prompts that
 are adversarial and vanilla, respectively. Harm. indicates refusal detection on harmful prompts only.
 Model
 Prompt Harm.
@@ -842,9 +811,7 @@ formats). We compare scores on WGTEST for all tasks, the average F1 of public ev
 Table 3) for prompt and response harmfulness, and XSTEST-RESP for response refusal.
 7
 
---- Page 8 ---
-
-Table 5: Ablations of WGTRAIN showing the contributions of the dataset. Results from individual
+--- Page 8 ---\n\nTable 5: Ablations of WGTRAIN showing the contributions of the dataset. Results from individual
 single-task models are combined under “Single-task Only”.
 Model
 Prompt Harmfulness
@@ -989,9 +956,7 @@ even when using a safety-tuned model such as Tulu-2 + WJ, we can further reduce 
 comparatively small increase in RTA by using WILDGUARD as an additional filter.
 8
 
---- Page 9 ---
-
-5
+--- Page 9 ---\n\n5
 Related Works
 LLM Safety Moderation Tools. There exists an extensive body of work on detecting hateful, toxic,
 offensive and abusive content [12, 29, 21] on online social networking sites such as Twitter [40]
@@ -1047,9 +1012,7 @@ compliance”. Addressing these complex behaviors remains a challenge, and we lo
 continuing to refine our approach in future work.
 9
 
---- Page 10 ---
-
-Finally, an area that we have omitted in WILDGUARD is finer-grained classification of harm category.
+--- Page 10 ---\n\nFinally, an area that we have omitted in WILDGUARD is finer-grained classification of harm category.
 Though the three-task setup of WILDGUARD is already broad in coverage, this additional capability
 is an interesting direction to explore in future work.
 7
@@ -1081,9 +1044,7 @@ and SemaFor programs, and the Allen Institute for AI. We thank Ai2 researchers f
 throughout this project.
 10
 
---- Page 11 ---
-
-References
+--- Page 11 ---\n\nReferences
 [1] Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni
 Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et al. Gpt-4
 technical report. arXiv preprint arXiv:2303.08774, 2023.
@@ -1138,9 +1099,7 @@ International Joint Conference on Natural Language Processing (Volume 1: Long Pa
 arXiv preprint arXiv:2306.12001, 2023.
 11
 
---- Page 12 ---
-
-[16] Hakan Inan, Kartikeya Upasani, Jianfeng Chi, Rashi Rungta, Krithika Iyer, Yuning Mao,
+--- Page 12 ---\n\n[16] Hakan Inan, Kartikeya Upasani, Jianfeng Chi, Rashi Rungta, Krithika Iyer, Yuning Mao,
 Michael Tontchev, Qing Hu, Brian Fuller, Davide Testuggine, et al. Llama guard: Llm-based
 input-output safeguard for human-ai conversations. arXiv preprint arXiv:2312.06674, 2023.
 [17] Hamish Ivison, Yizhong Wang, Valentina Pyatkin, Nathan Lambert, Matthew Peters, Pradeep
@@ -1190,9 +1149,7 @@ models. arXiv preprint arXiv:2308.01263, 2023.
 chinese large language models. arXiv preprint arXiv:2304.10436, 2023.
 12
 
---- Page 13 ---
-
-[32] Lichao Sun, Yue Huang, Haoran Wang, Siyuan Wu, Qihui Zhang, Yuan Li, Chujie Gao, Yixin
+--- Page 13 ---\n\n[32] Lichao Sun, Yue Huang, Haoran Wang, Siyuan Wu, Qihui Zhang, Yuan Li, Chujie Gao, Yixin
 Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun
 Zhang, Bertie Vidgen, Bhavya Kailkhura, Caiming Xiong, Chaowei Xiao, Chunyuan Li, Eric
 Xing, Furong Huang, Hao Liu, Heng Ji, Hongyi Wang, Huan Zhang, Huaxiu Yao, Manolis
@@ -1248,9 +1205,7 @@ https://arxiv.org/abs/2404.12241.
 A dataset for evaluating safeguards in llms, 2023.
 13
 
---- Page 14 ---
-
-[39] Laura Weidinger, John Mellor, Maribeth Rauh, Conor Griffin, Jonathan Uesato, Po-Sen Huang,
+--- Page 14 ---\n\n[39] Laura Weidinger, John Mellor, Maribeth Rauh, Conor Griffin, Jonathan Uesato, Po-Sen Huang,
 Myra Cheng, Mia Glaese, Borja Balle, Atoosa Kasirzadeh, et al. Ethical and social risks of
 harm from language models. arXiv preprint arXiv:2112.04359, 2021.
 [40] Marcos Zampieri, Shervin Malmasi, Preslav Nakov, Sara Rosenthal, Noura Farra, and Ritesh
@@ -1270,9 +1225,7 @@ Universal and transferable
 adversarial attacks on aligned language models. arXiv preprint arXiv:2307.15043, 2023.
 14
 
---- Page 15 ---
-
-Appendices
+--- Page 15 ---\n\nAppendices
 A More Details about WILDGUARDMIX
 16
 A.1 A Pipeline for Vanilla Harmful Synthetic Prompts . . . . . . . . . . . . . . . . . .
@@ -1335,9 +1288,7 @@ Interactions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 30
 15
 
---- Page 16 ---
-
-Table 7: Representative examples of vanilla benign prompts in WILDGUARDTRAIN.
+--- Page 16 ---\n\nTable 7: Representative examples of vanilla benign prompts in WILDGUARDTRAIN.
 Type
 Prompts
 Privacy (Fictional)
@@ -1395,9 +1346,7 @@ Make the prompt as specific as possible and realistic to what a user might reque
 [PINPOINT].
 16
 
---- Page 17 ---
-
-Table 9: Instruction prompt to generate contrastive benign prompts for WILDGUARDMIX.
+--- Page 17 ---\n\nTable 9: Instruction prompt to generate contrastive benign prompts for WILDGUARDMIX.
 I need to compile a list of requests that a language model should not reject, even though they might initially seem
 harmful. This is because the requests may contain words or phrases that could give the illusion of requesting a
 harmful act.
@@ -1450,9 +1399,7 @@ Here is an example dialogue:
 ####
 17
 
---- Page 18 ---
-
-##Human##:
+--- Page 18 ---\n\n##Human##:
 [PROMPT]
 ##AI Assistant##:
 [RESPONSE]
@@ -1498,9 +1445,7 @@ Here is an example dialogue:
 [PROMPT]
 18
 
---- Page 19 ---
-
-##AI Assistant##:
+--- Page 19 ---\n\n##AI Assistant##:
 [RESPONSE]
 ####
 Now here is another example of a harmless request:
@@ -1544,9 +1489,7 @@ Here is an example dialogue:
 ####
 19
 
---- Page 20 ---
-
-Now here is another example of a harmless request:
+--- Page 20 ---\n\nNow here is another example of a harmless request:
 ##Human##: [TARGET PROMPT]
 Now give a response from the AI assistant, which explains that this human topic
 does not apply to this non-human group. Provide the assistant response under the key
@@ -1591,9 +1534,7 @@ Now here is another example of a harmless request:
 ##Human##: [TARGET PROMPT]
 20
 
---- Page 21 ---
-
-Now give a response from the AI assistant, which first gives a caveat, but then
+--- Page 21 ---\n\nNow give a response from the AI assistant, which first gives a caveat, but then
 gives a helpful response to the request. Provide the assistant response under the key
 "Assistant".
 8. PRIV-FICITONAL-ASSUMP (user prompts from vanilla benign set, XSTest prompt
@@ -1640,9 +1581,7 @@ Here is an example dialogue:
 ####
 21
 
---- Page 22 ---
-
-"##Human##:
+--- Page 22 ---\n\n"##Human##:
 {prompt}
 ##AI Assistant##:
 {response}
@@ -1689,9 +1628,7 @@ Here is an example dialogue:
 ####
 22
 
---- Page 23 ---
-
-Now I am going to provide another prompt with several requests from the human
+--- Page 23 ---\n\nNow I am going to provide another prompt with several requests from the human
 user.
 ##Human##:
 [TARGET PROMPT]
@@ -1803,9 +1740,7 @@ Examples for WILDGUARDMIX
 In Table 11, we illustrate the examples in WILDGUARDTRAIN, showing four different types of data.
 23
 
---- Page 24 ---
-
-Table 11: Representative examples of the four data types in datasettrain.
+--- Page 24 ---\n\nTable 11: Representative examples of the four data types in datasettrain.
 Type
 Inputs
 Labels
@@ -1894,9 +1829,7 @@ Response refusal: N/A
 Harmful response: N/A
 24
 
---- Page 25 ---
-
-Table 12: The input and output format for training WILDGUARD. This format is also used when
+--- Page 25 ---\n\nTable 12: The input and output format for training WILDGUARD. This format is also used when
 doing inference. When a response is missing, we put an empty string as a response, and we put N/A
 for response refusal and response harmfulness.
 [INPUT FORMAT]
@@ -1949,9 +1882,7 @@ training takes around five hours to finish. We experimented with different learn
 9https://github.com/allenai/open-instruct
 25
 
---- Page 26 ---
-
-Table 14: A list of benchmarks we use to comprehensively evaluate moderation tools in §4. Resp.
+--- Page 26 ---\n\nTable 14: A list of benchmarks we use to comprehensively evaluate moderation tools in §4. Resp.
 denotes model response, and ∗means we sub-sampled the test set to reduce the evaluation cost.
 Name
 #Adversarial
@@ -2052,9 +1983,7 @@ adversarial prompts are harmful and created by various automatic jailbreak metho
 10https://chat.lmsys.org/
 26
 
---- Page 27 ---
-
-BeaverTails Test Set
+--- Page 27 ---\n\nBeaverTails Test Set
 [18] is a test split of the manually-annotated dataset, comprising 33.4K
 prompt+response items with harm labels for the response harmfulness tasks. The prompts are
 based on the prompts from HH-RLHF red teaming split and Sun et al. [31], and the responses are
@@ -2114,9 +2043,7 @@ the corresponding responses generated by Mistral-7B-v0.1, and harm labels manual
 15https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B
 27
 
---- Page 28 ---
-
-by humans. Their risk taxonomy includes Needs Caution category to consider the ambiguous cases.
+--- Page 28 ---\n\nby humans. Their risk taxonomy includes Needs Caution category to consider the ambiguous cases.
 There are two variants of Aegis-Guard: Aegis-Guard-Defensive16, which classifies Needs Caution
 cases as harmful, and Aegis-Guard-Permissive17 classifies them as benign.
 Harmbench Classifiers
@@ -2168,9 +2095,7 @@ See Figures 3-9 for the annotation interface used.
 19https://huggingface.co/cais/HarmBench-Mistral-7b-val-cls
 28
 
---- Page 29 ---
-
-Table 16: Phrases used for the heuristic-based refusal classifier.
+--- Page 29 ---\n\nTable 16: Phrases used for the heuristic-based refusal classifier.
 "As an AI language model, I cannot", "As an AI language model, I do not", "As an AI language model, I am
 not able", "As an AI language model, I don’t have personal", "As an AI language model, I don’t have", "As an
 AI language model, I am only able", "AI language model and I do not", "As an AI language model, I cannot
@@ -2289,9 +2214,7 @@ In Table 18, 19, and 20, we report full evaluation results across all public ben
 GUARDTEST.
 29
 
---- Page 30 ---
-
-Table 18: Full evaluation results on prompt harmfulness classification task, including the results from
+--- Page 30 ---\n\nTable 18: Full evaluation results on prompt harmfulness classification task, including the results from
 all the baselines, ablation studies, and using different base models to train WILDGUARD. All results
 are F1 (%).
 Model
@@ -2482,9 +2405,7 @@ lowest ASR among the baselines while marginally increasing RTA, demonstrating th
 of WILDGUARD.
 30
 
---- Page 31 ---
-
-Table 19: Full evaluation results on response harmfulness classification task, including the results
+--- Page 31 ---\n\nTable 19: Full evaluation results on response harmfulness classification task, including the results
 from all the baselines, ablation studies, and using different base models to train WILDGUARD. All
 results are F1 (%).
 Model
@@ -2707,19 +2628,13 @@ OLMo-1.7-7B
 76.2
 31
 
---- Page 32 ---
-
-Figure 3: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
+--- Page 32 ---\n\nFigure 3: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
 32
 
---- Page 33 ---
-
-Figure 4: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
+--- Page 33 ---\n\nFigure 4: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
 33
 
---- Page 34 ---
-
-Figure 5: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
+--- Page 34 ---\n\nFigure 5: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
 Table 20: Full evaluation results on refusal detection task, including the results from all the baselines,
 ablation studies, and using different base models to train WILDGUARD. All results are F1 (%).
 Model
@@ -2852,19 +2767,13 @@ OLMo-1.7-7B
 86.6
 34
 
---- Page 35 ---
-
-Figure 6: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
+--- Page 35 ---\n\nFigure 6: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
 35
 
---- Page 36 ---
-
-Figure 7: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
+--- Page 36 ---\n\nFigure 7: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
 36
 
---- Page 37 ---
-
-Figure 8: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
+--- Page 37 ---\n\nFigure 8: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
 Table 21: Additional result of using WILDGUARD as a moderator in humam-LLM interactions.
 Harmful prompt ASR and benign prompt RTA metrics on WILDJAILBREAK validation set with
 classifier models filtering out harmful prompts and responses.
@@ -2886,9 +2795,6 @@ MD-Judge
 10.1/10.8
 37
 
---- Page 38 ---
-
-Figure 9: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
+--- Page 38 ---\n\nFigure 9: Interface provided to annotators for WILDGUARDTEST and XSTEST-RESP.
 38
-
-```
+\n```\n

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: Large Language Models (LLMs) are expected to provide h
 local_pdf: "[[PDFs/2025/2025-Zheng-SYCON Bench.pdf]]"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, o3, Claude, Qwen, Llama-3, Gemma, DeepSeek"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemma-2, Llama-3, o3"
 DATA_URL: "https://github.com/JiseungHong/SYCON-Bench"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -132,7 +136,7 @@ Sycophancy is not just a quirk; it's a structural flaw of current alignment tech
 
 ## Data Description
 
-SYCON Bench is a benchmark for evaluating sycophantic behavior of LLMs in multi-turn, free-form conversational settings. It consists of 500 multi-turn prompts across three real-world scenarios (debate with 100 questions, challenging unethical queries with 200 prompts from StereoSet, and identifying false presuppositions with 200 prompts from the CREPE dataset), each with five dialogue turns. The benchmark measures two metrics: Turn of Flip (resistance to stance change) and Number of Flip (stance inconsistency), and was applied to 17 LLMs across six model families.
+SYCON Bench provides 500 multi-turn prompts (each with 5 dialogue turns) across three real-world sycophancy scenarios (debate, challenging unethical queries, identifying false presuppositions), with code and data released publicly.
 
 
 ## Notes

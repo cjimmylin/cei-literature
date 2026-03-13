@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +47,7 @@ url: "https://doi.org/10.3758/s13428-014-0551-2"
 external_pdf: "https://link.springer.com/content/pdf/10.3758%2Fs13428-014-0551-2.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: ""
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -100,7 +104,7 @@ Research on the emotional, cognitive, and social determinants of moral judgment 
 
 ## Data Description
 
-This paper develops and validates Moral Foundations Vignettes (MFVs), a standardized stimulus database of text scenarios based on Moral Foundations Theory. Each vignette depicts a behavior violating a particular moral foundation (Care, Fairness, Loyalty, Authority, Sanctity) and is controlled for syntactic structure and complexity. The vignettes were validated through human respondent classifications, factor analysis, and correspondence with existing MFT measures. No LLMs were tested.
+A standardized stimulus database of 672 moral vignettes based on Moral Foundations Theory, validated with human respondents for use in behavioral and neuroimaging research on moral cognition.
 
 
 ## Notes

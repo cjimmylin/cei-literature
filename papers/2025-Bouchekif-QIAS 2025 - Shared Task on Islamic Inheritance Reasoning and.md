@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,16 +46,16 @@ external_pdf: "https://aclanthology.org/2025.arabicnlp-sharedtasks.117.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md"
 local_pdf: "[[PDFs/2025/2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.pdf]]"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Arabic, Islamic"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This paper provides a comprehensive overview of the QIAS 2025 shared task, organized as part of the ArabicNLP 2025 conference and co­located with EMNLP 2025. The task was designed for the evaluation of large language models in the complex domains of religious and legal reasoning. It comprises two subtasks: (1) Islamic Inheritance Reasoning, requiring mod­ els to compute inheritance shares according to Islamic jurisprudence, and (2) Islamic Knowl­ edge Assessment, which covers a range of tradi­..."
-LLM_assessed: "GPT-4, Gemini, DeepSeek, Qwen, Claude, Llama-3, Mistral, Falcon, BERT"
+LLM_assessed: "Claude, DeepSeek, Falcon, GPT-4, GPT-4o, Gemini, Llama-3, Mistral, Qwen, o3"
 DATA_URL: "https://gitlab.com/islamgpt1/qias_shared_task_2025"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -59,7 +63,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -94,7 +98,8 @@ Subtask 1: 22,000 examples total (20,000 train / 1,000 val / 1,000 test)
 
 ## Data Description
 
-The QIAS 2025 shared task evaluates LLMs on Islamic inheritance reasoning (22,000 MCQs) and Islamic knowledge assessment (1,700 MCQs). Participating teams tested numerous models including GPT-4o, GPT-o3, Gemini 2.5 Flash/Pro, DeepSeek-R1, Qwen3-4B, Claude 4 Opus, Claude 3.7 Sonnet, LLaMA-3, Falcon3, Mistral, and MARBERT. The top system achieved 97.2% accuracy on inheritance reasoning using a fine-tuned Qwen3-4B model.
+QIAS 2025 shared task dataset comprising 22,000 MCQs for Islamic Inheritance Reasoning (Task 1) and 1,700 MCQs for Islamic Knowledge Assessment (Task 2), both curated and validated by Islamic studies experts.
+
 
 ## Notes
 

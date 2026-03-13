@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---
@@ -95,7 +98,7 @@ There has been concern about ideological basis and possible discrimination in te
 
 ## Data Description
 
-The study generates text from ChatGPT (gpt-3.5-turbo model) using prompts derived from Schwartz's basic value theory, including 57 items from the revised Portrait Value Questionnaire, 19 value type definitions, and 19 value names. The generated corpus comprises 475 ChatGPT responses (285 from PVQ items, 95 from definitions, 95 from value names, each run 5 times) of 300 tokens each, analyzed using a theory-driven value dictionary of 1,068 terms to detect value bias.
+Code and generated text corpus from ChatGPT prompting experiments using Schwartz value theory probes, available on OSF.
 
 
 ## Notes

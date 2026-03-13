@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude 312, GPT-4o, Gemma, Gemma2, LLaMA 3.116, LLaMA-3.1, Llama, Qwen, Qwen-14B, Qwen-14B14, Qwen-7B, Qwen2.5, claude-3, claude-3-haiku, gemma-2"
+LLM_assessed: "Claude-3 Haiku, Gemma-2, GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Although region-specific large language models (LLMs) are increasingly developed, their safety remains underexplored, particularly in culturally diverse settings like Indonesia, where sensitivity to local norms is essential and highly valued by the community. In this work, we present IndoSafety, the first high-quality, human-verified safety evaluation dataset tailored for the Indonesian context, covering five language varieties: formal and colloquial Indonesian, along with three major local..."
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
@@ -97,7 +101,8 @@ First culturally grounded safety evaluation dataset for Indonesian context. 2,50
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude 312, GPT-4o, Gemma, Gemma2, LLaMA 3.116, LLaMA-3.1, Llama, Qwen, Qwen-14B, Qwen-14B14, Qwen-7B, Qwen2.5, claude-3, claude-3-haiku, gemma-2. No high-confidence repository-style data URL was identified.
+Introduces IndoSafety, a human-verified safety evaluation dataset for Indonesian context covering 5 language varieties (formal Indonesian, colloquial Indonesian, Javanese, Sundanese, Minangkabau) with 2,514 eval prompts and 2,014 training examples across 19 culturally grounded harm categories.
+
 
 ## Notes
 

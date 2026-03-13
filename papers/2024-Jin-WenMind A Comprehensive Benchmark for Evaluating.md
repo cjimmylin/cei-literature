@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have made significant advancements across numerous domains, but their capabilities in Chinese Classical Literature and Language Arts (CCLLA) remain largely unexplored due to the limited scope and tasks of existing benchmarks. To fill this gap, we propose WenMind, a comprehensive benchmark dedicated for evaluating LLMs in CCLLA. WenMind covers the sub-domains of Ancient Prose, Ancient Poetry, and Ancient Literary Culture, comprising 4,875 question-answer pairs,..."
-LLM_assessed: "Baichuan, Baichuan2, Bloom, Bloom-7B, ChatGLM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, LLaMA2, LLaMA3, Qwen, Qwen-1.5, Qwen1.5, T5, T5 ROUGE, T5 T6, baichuan-inc"
-DATA_URL: "https://github.com/SCUT-DLVCLab/WenMind ; https://huggingface.co/datasets/SCUT-DLVCLab/WenMind"
+LLM_assessed: "GPT-3.5, GPT-4, Qwen-1.5, Baichuan, ChatGLM, LLaMA, Llama-2, Llama-3, Yi, Gemma, InternLM"
+DATA_URL: "https://github.com/SCUT-DLVCLab/WenMind"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,8 @@ WenMind is a comprehensive benchmark dedicated to evaluating LLMs in Chinese Cla
 
 ## Data Description
 
-Backfill summary: Models assessed include Baichuan, Baichuan2, Bloom, Bloom-7B, ChatGLM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, LLaMA2, LLaMA3, Qwen, Qwen-1.5, Qwen1.5, T5, T5 ROUGE, T5 T6, baichuan-inc. Verified dataset/resource link: https://github.com/SCUT-DLVCLab/WenMind ; https://huggingface.co/datasets/SCUT-DLVCLab/WenMind.
+WenMind is a comprehensive benchmark of 4,875 QA pairs spanning 42 fine-grained tasks across Chinese Classical Literature and Language Arts (Ancient Prose, Ancient Poetry, Ancient Literary Culture). Covers multiple question formats and 2 evaluation scenarios.
+
 
 ## Notes
 

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture 
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Malaysian"
-languages_list: Malay
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "DeepSeek, DeepSeek-V3, GPT-4o, GPT-4o mini, GPT-4, Llama, Llama 3.2, Llama 4, Qwen3, llama 3"
+LLM_assessed: "DeepSeek, GPT-4o, GPT-4o mini, LLaMA, Llama-3, Qwen"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) often exhibit cultural biases due to training data dominated by high-resource languages like English and Chinese. This poses challenges for accurately representing and evaluating diverse cultural contexts, particularly in low-resource language settings. To address this, we introduce MyCulture, a benchmark designed to comprehensively evaluate LLMs on Malaysian culture across six pillars: arts, attire, customs, entertainment, food, and religion presented in Bahasa..."
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "2,600 questions"
 ---
@@ -98,7 +102,8 @@ data_metrics: "2,600 questions"
 
 ## Data Description
 
-Backfill summary: Models assessed include DeepSeek, DeepSeek-V3, GPT-4o, GPT-4o mini, GPT-4, Llama, Llama 3.2, Llama 4, Qwen3, llama 3. No high-confidence repository-style data URL was identified.
+MyCulture is a 2,652-question benchmark dataset evaluating Malaysian cultural knowledge in Bahasa Malaysia, covering six pillars (arts, attire, customs, entertainment, food, religion) in both closed-form and novel open-ended MCQ formats.
+
 
 ## Notes
 

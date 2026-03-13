@@ -29,6 +29,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +51,8 @@ local_pdf: N/A
 publication: "Data in Brief (ScienceDirect)"
 CONF-CC: "Data in Brief"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -103,7 +106,7 @@ Comprehensive morphological and syntactic annotation of the entire Quran using v
 
 ## Data Description
 
-MASAQ is a comprehensive morphological and syntactic annotation dataset of the entire Quran, containing 131K+ morphological entries, 123K+ syntactic function instances, and 72 syntactic roles. Expert Arabic linguists annotated the text using traditional i'rab methodologies. Available in TSV, SQLite, CSV, and JSON formats, the dataset is designed for dependency parsing, grammar checking, machine translation, and text summarization of Classical Arabic.
+Comprehensive morphological and syntactic annotation of the entire Quran using verified Tanzil.net text, featuring 72 syntactic roles and expert Arabic linguistic analysis. Available in TSV, SQLite, CSV, and JSON formats for NLP tasks including dependency parsing and machine translation.
 
 
 ## Notes

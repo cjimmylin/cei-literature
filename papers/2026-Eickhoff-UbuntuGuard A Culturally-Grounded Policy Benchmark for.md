@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,14 +53,14 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Ubuntu Philosophy"
+religious_values_list: "Ubuntu Philosophy"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Current guardian models are predominantly Western-centric and optimized for highresource languages, leaving low-resource African languages vulnerable to evolving harms, cross-lingual safety failures, and cultural misalignment. Moreover, most guardian models rely on rigid, predefined safety categories that fail to generalize across diverse linguistic and sociocultural contexts. Robust safety, therefore, requires flexible, runtimeenforceable policies and benchmarks that reflect local norms, harm..."
-LLM_assessed: "DeepSeek, DeepSeek-AI, DeepSeek-V3, Deepseek-3, Llama, Llama Guard, Llama-3.1, LlamaGuard, Qwen, Qwen-3, Qwen-3.1, Qwen3"
-DATA_URL: "https://github.com/hemhemoh/UbuntuGuard (CC BY 4.0)"
+LLM_assessed: "DeepSeek, Llama-3, Qwen"
+DATA_URL: "https://github.com/hemhemoh/UbuntuGuard"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,8 @@ Adversarial queries from 155 domain experts; 10 African languages
 
 ## Data Description
 
-Backfill summary: Models assessed include DeepSeek, DeepSeek-AI, DeepSeek-V3, Deepseek-3, Llama, Llama Guard, Llama-3.1, LlamaGuard, Qwen, Qwen-3, Qwen-3.1, Qwen3. Verified dataset/resource link: https://github.com/hemhemoh/UbuntuGuard (CC BY 4.0).
+UbuntuGuard is a culturally grounded African-language safety benchmark comprising 2,307 policy-dialogue pairs across 10 low-resource African languages, built from adversarial queries by 155 domain experts and annotated for policy compliance; supports both static and dynamic guardian model evaluation.
+
 
 ## Notes
 

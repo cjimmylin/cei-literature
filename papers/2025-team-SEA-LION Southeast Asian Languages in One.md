@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-team-SEA-LION Southeast Asian Languages in One.pdf]
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Indonesian, Filipino, Thai, Vietnamese"
-cultures_nationalities_list: "Chinese, Indonesian, Filipino, Thai, Vietnamese, Southeast Asian"
+national_ethnic_cultural: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Recently, Large Language Models (LLMs) have dominated much of the artificial intelligence scene with their ability to process and generate natural languages. However, the majority of LLM research and development remains English-centric, leaving low-resource languages such as those in the Southeast Asian (SEA) region underrepresented. To address this representation gap, we introduce LlamaSEA-LION-8B-IT and Gemma-SEA-LION9B-IT, two cutting-edge multilingual LLMs designed for SEA languages."
-LLM_assessed: "BLOOM, Gemma, Gemma 2, Gemma 35.15, Gemma 35.31, Gemma 69.37, Gemma-2, Gemma2, Llama, Llama 3.1, Llama-3.1, Llama., Qwen, Qwen 2.5, Qwen2, Qwen2.5, llama 3"
+LLM_assessed: "BLOOM, Gemma, Gemma-2, LLaMA, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/aisingapore/sealion"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: "Preprint"
@@ -101,7 +105,8 @@ Family of LLMs for SEA languages achieving state-of-the-art performances on SEA-
 
 ## Data Description
 
-Backfill summary: Models assessed include BLOOM, Gemma, Gemma 2, Gemma 35.15, Gemma 35.31, Gemma 69.37, Gemma-2, Gemma2, Llama, Llama 3.1, Llama-3.1, Llama., Qwen, Qwen 2.5, Qwen2, Qwen2.5, llama 3. Verified dataset/resource link: https://github.com/aisingapore/sealion.
+SEA-LION family of LLMs (Llama-SEA-LION-8B-IT and Gemma-SEA-LION-9B-IT) for 11 Southeast Asian languages are released, along with pre-training and instruction-tuning datasets with community native-speaker participation. Benchmarked on SEA-HELM including cultural evaluation pillars.
+
 
 ## Notes
 

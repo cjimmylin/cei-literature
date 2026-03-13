@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,8 @@ local_pdf: "[[PDFs/2021/2021-Jiang-Pretrained Models and Evaluation Data for.pdf
 publication: "IEEE Xplore / Tsinghua Science and Technology"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "Khmer"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Trained on a large corpus, pretrained models (PTMs) can capture different levels of concepts in context and hence generate universal language representations, which greatly beneﬁt downstream natural language processing (NLP) tasks. In recent years, PTMs have been widely used in most NLP applications, especially for high-resource languages, such as English and Chinese. However, scarce resources have discouraged the progress of PTMs for low-resource languages."
-LLM_assessed: "BERT, ELECTRA, word2vec"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/SunYanCN/seqeval"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Preprint"
@@ -100,7 +104,8 @@ First transformer-based pretrained models for Khmer language. Evaluated on POS t
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ELECTRA, word2vec. Verified dataset/resource link: https://github.com/SunYanCN/seqeval.
+First BERT and ELECTRA pretrained models for Khmer language, with a self-constructed news categorization dataset of 7,166 Khmer news articles.
+
 
 ## Notes
 

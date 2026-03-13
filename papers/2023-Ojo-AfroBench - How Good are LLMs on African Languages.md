@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +50,7 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -53,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large-scale multilingual evaluations, such as MEGA, often include only a handful of African languages due to the scarcity of high-quality evaluation data and the limited discoverability of existing African datasets. This lack of representation hinders comprehensive LLM evaluation across a diverse range of languages and tasks. To address these challenges, we introduce AFROBENCH—a multi-task benchmark for evaluating the performance of LLMs across 64 African languages, 15 tasks and 22 datasets."
-LLM_assessed: "GPT-4, Llama-2, Llama-3, Gemma, Gemini"
+LLM_assessed: "Aya, Gemini, Gemma, Gemma-2, GPT-4o, Llama-2, Llama-3"
 DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -97,7 +102,8 @@ Large-scale multilingual evaluations, such as MEGA, often include only a handful
 
 ## Data Description
 
-AfroBench is a comprehensive multi-task benchmark for evaluating LLM performance across 64 African languages, 15 NLP tasks, and 22 datasets. It covers natural language understanding (sentiment analysis, topic classification, NER, POS tagging, NLI), text generation (machine translation, summarization, diacritics restoration), question answering, and mathematical reasoning, evaluating 12 LLMs including open models (LLaMa 2 7B, Gemma 1.1/2, LLaMa 3/3.1, Aya-101) and proprietary models (GPT-4o, Gemini 1.5 Pro).
+AfroBench multi-task benchmark evaluating LLMs across 64 African languages, 15 tasks, and 22 datasets, including new AfriADR diacritics restoration dataset for 5 African languages.
+
 
 ## Notes
 

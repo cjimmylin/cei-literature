@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The Spanish language is one of the top 5 spoken languages in the world. Nevertheless, ﬁnding resources to train or evaluate Spanish language models is not an easy task. In this paper we help bridge this gap by presenting a BERT-based language model pre-trained exclusively on Spanish data. As a second contribution, we also compiled several tasks speciﬁcally for the Spanish language in a single repository much in the spirit of the GLUE benchmark."
-LLM_assessed: "ALBERT, BERT, RoBERTa"
+LLM_assessed: "BERT"
 DATA_URL: "https://github.com/dccuchile/beto"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Journal"
@@ -63,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -100,7 +103,8 @@ First monolingual pre-trained models for Burmese based on BERT and ELECTRA archi
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, RoBERTa. Verified dataset/resource link: https://github.com/dccuchile/beto.
+Spanish BERT (BETO) pre-trained model plus GLUES benchmark compiling Spanish NLP tasks: XNLI, PAWS-X, NER, POS tagging, MLDoc, dependency parsing, and QA.
+
 
 ## Notes
 

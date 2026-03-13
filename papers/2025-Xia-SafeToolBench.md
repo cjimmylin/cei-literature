@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +42,7 @@ last_author: "[[Haifeng Wang]]"
 authors: Hongfei Xia; Hongru Wang; Zeming Liu; Qian Yu; Yuhang Guo; Haifeng Wang
 url: "https://arxiv.org/abs/2509.07315"
 external_pdf: "https://arxiv.org/pdf/2509.07315.pdf"
-pdf_extract: "PDF Extracts/0000/2025-Xia-SafeToolBench.md"
+pdf_extract: "PDF Extracts/2025/2025-Xia-SafeToolBench.md"
 local_pdf: "[[PDFs/2025/2025-Xia-SafeToolBench.pdf]]"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
@@ -53,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have exhibited great performance in autonomously calling various tools in external environments, leading to better problem solving and task automation capabilities. However, these external tools also amplify potential risks such as financial loss or privacy leakage with ambiguous or malicious user instructions. Compared to previous studies, which mainly assess the safety awareness of LLMs after obtaining the tool execution results (i.e."
-LLM_assessed: "GPT-4o, Llama-3, Qwen"
+LLM_assessed: "GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/BITHLP/SafeToolBench"
 research_topic: "Other"
 CONFERENCE: "EMNLP 2025"
@@ -64,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -98,7 +101,8 @@ Large Language Models (LLMs) have exhibited great performance in autonomously ca
 
 ## Data Description
 
-SafeToolBench is a benchmark of 1,200 adversarial user instructions spanning 16 real-world domains and four risk categories (Privacy Leak, Property Damage, Physical Injury, Bias & Offensiveness) for prospectively evaluating tool utilization safety in LLMs. The dataset includes both single-application and multi-application scenarios with corresponding tool planning calls. Four LLMs were evaluated: Qwen2.5-7B-Instruct, Qwen2.5-32B-Instruct, Llama3.1-8B-Instruct, and GPT-4o.
+SafeToolBench: 1,200 high-quality tool-use safety evaluation samples covering 4 risk categories (Privacy Leak, Property Damage, Physical Injury, Bias & Offensiveness) across 16 real-world application domains, with prospective risk assessment before tool execution.
+
 
 ## Notes
 

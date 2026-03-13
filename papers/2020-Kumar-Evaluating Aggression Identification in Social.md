@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ authors: "Kumar, Ritesh; Ojha, Atul Kr.; Malmasi, Shervin; Zampieri, Marcos"
 url: "https://aclanthology.org/2020.trac-1.1/"
 external_pdf: "https://aclanthology.org/2020.trac-1.1.pdf"
 national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian, Bengali, English"
+cultures_nationalities_list: "Indian"
 languages_list: "Bengali, English, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -51,7 +55,7 @@ pdf_extract: "PDF Extracts/2020/2020-Kumar-Evaluating Aggression Identification 
 local_pdf: "[[PDFs/2020/2020-Kumar-Evaluating Aggression Identification in Social.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: NA
 DATA_URL: "https://sites.google.com/view/trac2/shared-task"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -59,7 +63,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -81,7 +85,7 @@ In this paper, we present the report and findings of the Shared Task on Aggressi
 
 ## Data Description
 
-The TRAC-2 dataset consists of approximately 5,000 YouTube comments in each of three languages (Bengali, Hindi, and English) for training, with approximately 1,000 test instances per language per sub-task. Comments are annotated at three levels of aggression (Overtly Aggressive, Covertly Aggressive, Non-Aggressive) for sub-task A, and as gendered or non-gendered for sub-task B.
+TRAC-2 shared task dataset of approximately 5,000 YouTube comments per language (Bengali, Hindi, English) annotated for aggression identification (3-class: OAG/CAG/NAG) and gendered aggression (binary), with test sets of ~1,000 instances per language.
 
 
 ## Notes

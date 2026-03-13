@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2024/2024-Qian-CamelEval Advancing Culturally Aligned Arabic 
 pdf_extract: "PDF Extracts/2024/2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Pan-Arab"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Juhaina-9.24B, Silma-9B, Gemma-2-SimPO-9B, SauerkrautLM-Gemma-9B, Gemma-2-SPPO-9B"
+LLM_assessed: "GPT-4o, Gemma-2, Qwen-2"
 DATA_URL: "https://huggingface.co/elmrc"
 tags: 
 abstract: "Large Language Models (LLMs) are the cornerstones of modern artiﬁcial intelligence systems. This paper introduces Juhaina, a Arabic-English bilingual LLM speciﬁcally designed to align with the values and preferences of Arabic speakers. Juhaina inherently supports advanced functionalities such as instruction following, open-ended question answering, information provisioning, and text processing. Our model contains 9.24 billion parameters and is trained on a context window of up to 8,192 tokens."
@@ -101,7 +105,7 @@ Automated evaluation benchmark with three test suites assessing general instruct
 
 ## Data Description
 
-Introduces Juhaina, a 9.24B parameter Arabic-English LLM, and CamelEval, a culturally aligned Arabic evaluation benchmark. CamelEval covers linguistic understanding, cultural awareness, and ethical reasoning specific to Middle Eastern contexts. Evaluates multiple open-weight models on Arabic cultural alignment.
+CamelEval: a new Arabic LLM benchmark with two test sets (805 translated prompts + 805 curated culturally-aligned prompts) using an LLM-as-judge framework to assess instruction following, factuality, and cultural alignment in Arabic.
 
 
 ## Notes

@@ -1,23 +1,4 @@
----
-title: "SaGE - PDF Extract"
-source_pdf: "2024-Bonagiri-SaGE.pdf"
-pages: 13
-extracted_at: "2026-01-24T17:05:27.238494"
----
-
-# PDF Extract: SaGE
-
-**Source PDF:** 2024-Bonagiri-SaGE.pdf
-**Total Pages:** 13
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-SaGE: Evaluating Moral Consistency in Large Language
+---\ntitle: "2024-Bonagiri-SaGE - PDF Extract"\nsource_pdf: "2024-Bonagiri-SaGE.pdf"\npages: 13\nextracted_at: "2026-02-14T02:17:29.346568"\n---\n\n# PDF Extract: 2024-Bonagiri-SaGE\n\n**Source PDF:** 2024-Bonagiri-SaGE.pdf\n**Total Pages:** 13\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nSaGE: Evaluating Moral Consistency in Large Language
 Models
 Vamshi Krishna Bonagiri1,2, Sreeram Vennam1, Priyanshul Govil1,2
 Ponnurangam Kumaraguru1, Manas Gaur2
@@ -89,9 +70,7 @@ types of situations, and is often considered the hall-
 mark of ethics (University; Arvanitis and Kalliris,
 arXiv:2402.13709v2  [cs.CL]  8 Mar 2024
 
---- Page 2 ---
-
-2020; Marcus, 1980). However, LLMs are known
+--- Page 2 ---\n\n2020; Marcus, 1980). However, LLMs are known
 to yield inconsistent outputs even in semanti-
 cally equivalent contexts (see Figure 1) (Jang and
 Lukasiewicz, 2023). This inconsistent behavior, if
@@ -206,9 +185,7 @@ mated and generalizable approach which does not
 require additional human efforts, ensuring broader
 applicability.
 
---- Page 3 ---
-
-Figure 2: An illustration of our pipeline to evaluate moral consistency. Our five-step process includes
+--- Page 3 ---\n\nFigure 2: An illustration of our pipeline to evaluate moral consistency. Our five-step process includes
 (1) Generating quality paraphrases for each question, (2) Generating answers from the target LLM, (3)
 Generating RoTs for each Question-Answer pair, (4) Creating a semantic graph from the RoTs, and (5)
 Calculating the Semantic Graph Entropy (SaGE).
@@ -272,9 +249,7 @@ pairs between humans and chatbots, along with human-
 annotated RoTs. We randomly sample 10K of these
 data points for our experiments.
 
---- Page 4 ---
-
-and Okazaki, 2023). Many recent works have used
+--- Page 4 ---\n\nand Okazaki, 2023). Many recent works have used
 paraphrasing for tasks such as data augmentation
 (Abaskohi et al., 2023), adversarial attacks (Agar-
 wal et al., 2023; Morris et al., 2020), and improving
@@ -383,9 +358,7 @@ graph for q. Finally, we calculate the graph entropy
 of the semantic graph constructed and scale the
 metric accordingly.
 
---- Page 5 ---
-
-4.1.
+--- Page 5 ---\n\n4.1.
 Preliminary: Graph Entropy
 Graph entropy is a measure used to determine
 the structural information content of graphs (Ra-
@@ -535,9 +508,7 @@ the structural properties of the graph, we multiply it
 with the average of sentence similarity, to capture the
 sentence similarity properties as well.
 
---- Page 6 ---
-
-5.1.
+--- Page 6 ---\n\n5.1.
 Results on MCC
 For a question q, given n paraphrases X(q) =
 {x1, ..., xn}, with generated answers as A(q) =
@@ -660,9 +631,7 @@ is not a function of temperature and is an intrinsic
 property of LLMs. This shows that sampling-based
 extrinsic methods are not a fix for consistency, and
 
---- Page 7 ---
-
-Model
+--- Page 7 ---\n\nModel
 BLEU
 ROUGE
 BERTScore
@@ -891,9 +860,7 @@ tains 817 questions that some humans would
 falsely answer due to false beliefs or miscon-
 ceptions.
 
---- Page 8 ---
-
-0.3 0.4 0.5 0.6
+--- Page 8 ---\n\n0.3 0.4 0.5 0.6
 0.3
 0.4
 0.5
@@ -1019,9 +986,7 @@ evaluate consistency on their own task, ultimately
 leading to LLMs that can produce morally consis-
 tent and ethically sound responses.
 
---- Page 9 ---
-
-7.
+--- Page 9 ---\n\n7.
 Ethical Considerations
 Precautions taken during dataset construc-
 tion. Firstly, as MCC is a direct extension of MIC
@@ -1134,9 +1099,7 @@ derivation networks. Towards an Information
 Theory of Complex Networks: Statistical Methods
 and Applications, pages 321–346.
 
---- Page 10 ---
-
-Anmol Agarwal, Shrey Gupta, Vamshi Bonagiri,
+--- Page 10 ---\n\nAnmol Agarwal, Shrey Gupta, Vamshi Bonagiri,
 Manas Gaur, Joseph Reagle, and Ponnurangam
 Kumaraguru. 2023. Towards effective paraphras-
 ing for information disguise. In European Con-
@@ -1266,9 +1229,7 @@ foundation: A survey of obstacles in evaluation
 practices for generated text. Journal of Artificial
 Intelligence Research, 77:103–166.
 
---- Page 11 ---
-
-Anmol Goel, Charu Sharma, and Ponnurangam
+--- Page 11 ---\n\nAnmol Goel, Charu Sharma, and Ponnurangam
 Kumaraguru. 2022. An unsupervised, geometric
 and syntax-aware quantification of polysemy. In
 Proceedings of the 2022 Conference on Empirical
@@ -1389,9 +1350,7 @@ Ahmad Beirami,
 Alex Beutel, and Jilin Chen. 2023.
 Let’s do
 
---- Page 12 ---
-
-a thought experiment:
+--- Page 12 ---\n\na thought experiment:
 Using counterfactuals
 to improve moral reasoning.
 arXiv preprint
@@ -1504,9 +1463,7 @@ ceedings of the 57th Annual Meeting of the As-
 sociation for Computational Linguistics, pages
 4791–4800.
 
---- Page 13 ---
-
-Jianing Zhou and Suma Bhat. 2021. Paraphrase
+--- Page 13 ---\n\nJianing Zhou and Suma Bhat. 2021. Paraphrase
 generation: A survey of the state of the art. In
 Proceedings of the 2021 conference on empirical
 methods in natural language processing, pages
@@ -1515,5 +1472,4 @@ Caleb Ziems, Jane A. Yu, Yi-Chia Wang, Alon
 Halevy, and Diyi Yang. 2022. The Moral Integrity
 Corpus: A Benchmark for Ethical Dialogue Sys-
 tems. ArXiv:2204.03021 [cs].
-
-```
+\n```\n

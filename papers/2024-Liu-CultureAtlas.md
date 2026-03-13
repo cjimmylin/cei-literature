@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ authors: "Yi Fung; Ruining Zhao; Jae Doo; Chenkai Sun; Heng Ji"
 url: "https://arxiv.org/abs/2402.09369"
 external_pdf: "https://arxiv.org/pdf/2402.09369.pdf"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ paper_summary: "Abstract: Pretrained large language models have revolu- tionized
 local_pdf: "[[PDFs/2024/2024-Liu-CultureAtlas.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-2, Vicuna, ChatGPT"
+LLM_assessed: "ChatGPT, Llama-2, Vicuna"
 DATA_URL: "https://github.com/yrf1/LLM-MassiveMulticultureNormsKnowledge-NCLB"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -94,7 +98,7 @@ Pretrained large language models have revolutionized many applications but still
 
 ## Data Description
 
-CultureAtlas is a massively multicultural knowledge benchmark dataset constructed from Wikipedia documents covering 193 countries, 1,089 state/province-level regions, 10,436 city-level regions, and 2,557 ethnolinguistic groups. The dataset was built by collecting 41K document pages, parsing 907K sentences, filtering to 127K generalizable sociocultural knowledge assertions, and extracting 21K norm-violation-relevant frames with fine-grained cultural profile information. The benchmark includes both positive cultural knowledge assertions and adversarial negative samples, with a 10,000-sample test set evaluated on Llama-2, Vicuna, and ChatGPT models.
+CultureAtlas benchmark dataset covering 1,000+ sub-country regions and 2,000+ ethnolinguistic groups with cultural norms and knowledge assertions for evaluating LLM cultural awareness.
 
 
 ## Notes

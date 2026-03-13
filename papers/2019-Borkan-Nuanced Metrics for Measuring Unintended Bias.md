@@ -7,6 +7,10 @@
 
 
 
+
+
+
+
 key: HELM0003
 type: conferencePaper
 short_title: "Nuanced Metrics for Measuring Unintended Bias"
@@ -19,9 +23,11 @@ url: "https://doi.org/10.1145/3308560.3317593"
 external_pdf: "https://arxiv.org/pdf/1903.04561.pdf"
 publication: "WWW 2019"
 CONF-CC: "WWW 2019"
-national_ethnic_cultural: ""
-languages_list: ""
-religious_values: ""
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "English"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "bias metrics, fairness evaluation, unintended bias, text classification, demographic bias, AUC, toxicity detection, identity groups, threshold-agnostic, evaluation dataset"
 key_contribution: "Introduces a suite of five threshold-agnostic AUC-based metrics for measuring unintended demographic bias in text classifiers, paired with a large crowd-sourced dataset of online comments annotated for identity references."
@@ -43,3 +49,9 @@ is_dataset: "Yes"
 data_description: "Evaluation methodology with new human-annotated dataset of online comments with crowd-sourced identity annotations"
 data_metrics: "Not specified"
 ---
+
+
+
+## Data Description
+
+A large test set of online comments with crowd-sourced identity annotations for measuring unintended demographic bias in text classifiers, paired with a suite of threshold-agnostic bias metrics.

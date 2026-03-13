@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -103,7 +107,7 @@ A stereotype is an over-generalized belief about a particular group of people, e
 
 ## Data Description
 
-StereoSet is a large-scale English-language dataset containing 16,995 crowdsourced test instances (triplets) designed to measure stereotypical biases in pretrained language models across four domains: gender, profession, race, and religion. The dataset uses Context Association Tests (CATs) at both intrasentence and intersentence levels, with 321 target terms and options labeled as stereotype, anti-stereotype, or unrelated. BERT, GPT-2, RoBERTa, and XLNet (each in base and large variants) were evaluated on the dataset.
+StereoSet: a large-scale natural English dataset with 16,995 test instances across 321 target terms in four bias domains (gender, profession, race, religion) for measuring stereotypical bias in pretrained language models, with a public leaderboard.
 
 
 ## Notes

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +47,17 @@ CONF-CC: "Journal for Language Technology and Computational Linguistics (JLCL) 2
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Zoroastrian, Avestan"
+national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: "Avestan"
-religious_values: Zoroastrian
-religious_values_list: "Zoroastrian"
+religious_values: "Zoroastrianism"
+religious_values_list: "Zoroastrianism"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Discusses computational tools for creating a stemma of Avestan manuscripts including a letter similarity matrix, morphological expander, and co-occurrence networks. Proposes a comprehensive database for Avestan texts linking manuscripts, translations, and linguistic analyses. Covers over 300 known Avestan manuscripts classified into Pahlavi and Sade groups."
 CONFERENCE: "Journal"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,7 @@ Discusses computational tools for creating a stemma of Avestan manuscripts inclu
 
 ## Data Description
 
-This paper proposes a comprehensive database for Avestan texts linking manuscripts, translations, and linguistic analyses. It covers over 300 known Avestan manuscripts classified into Pahlavi and Sade groups, with computational tools including a letter similarity matrix, morphological expander, and co-occurrence networks.
+Proposes computational tools (letter similarity matrix, morphological expander, co-occurrence networks) for Avestan manuscript analysis covering 300+ manuscripts, but no released dataset URL found.
 
 
 ## Notes

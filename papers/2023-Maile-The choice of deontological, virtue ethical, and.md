@@ -21,6 +21,8 @@
 
 
 
+
+
 Human View: Yes
 Human View Date: 2026/1/24
 Human View note: "Police use of moral reasoning"
@@ -35,11 +37,11 @@ authors: "Maile, Andrew; Thompson, Aidan; McLoughlin, Shane; Kristjánsson, Kris
 doi: 10.1080/10508422.2022.2124995
 url: "https://www.tandfonline.com/doi/full/10.1080/10508422.2022.2124995"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/M4TD65P2/Maile et al. - 2023 - The choice of deontological, virtue ethical, and consequentialist moral reasoning strategies by pre-.pdf"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Empirically analyzes the moral reasoning strategies of UK police officers, finding a preference for deontological (rule-based) reasoning over virtue ethics"

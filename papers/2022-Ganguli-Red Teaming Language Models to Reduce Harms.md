@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +59,7 @@ paper_summary: "Abstract: We describe our early efforts to red team language mod
 local_pdf: "[[PDFs/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "Bartolo"
+LLM_assessed: NA
 DATA_URL: "https://github.com/anthropics/hh-rlhf"
 CONFERENCE: "Preprint"
 helm: "incorporated"

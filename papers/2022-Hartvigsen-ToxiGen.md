@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +60,7 @@ pdf_extract: "PDF Extracts/2022/2022-Hartvigsen-ToxiGen.md"
 local_pdf: "[[PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]"
 CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3, BERT, RoBERTa"
+LLM_assessed: "GPT-3, HateBERT, RoBERTa"
 DATA_URL: "https://github.com/microsoft/ToxiGen"
 CONFERENCE: "ACL 2022"
 eleutherai: incorporated
@@ -64,7 +69,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for hate speech detection"
@@ -103,7 +108,7 @@ Toxic language detection systems often falsely flag text that contains minority 
 
 ## Data Description
 
-ToxiGen is a large-scale machine-generated dataset of 274,186 toxic and benign statements about 13 minority groups, created using GPT-3 with demonstration-based prompting and an adversarial classifier-in-the-loop decoding method (ALICE). The dataset is 98.2% implicit (devoid of explicit profanity or slurs) and balanced between toxic and benign statements. Human evaluation on 792 sentences confirmed 90% could be mistaken for human-written text and 94.5% of toxic examples were labeled as hate speech by annotators.
+274k machine-generated toxic and benign statements about 13 minority groups for hate speech detection
 
 
 ## Notes

@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +50,14 @@ CONF-CC: "IberLEF 2024"
 pdf_extract: "PDF Extracts/2024/2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards.md"
 local_pdf: "[[PDFs/2024/2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Mexican, Spanish"
-languages_list: Spanish
+national_ethnic_cultural: "Spanish, Latin American"
+cultures_nationalities_list: "Spanish, Latin American"
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT2, GloVE, RoBERTa"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "Hate speech is a significant threat to social diversity and human rights. Detecting anti-LGBT hate speech on social media is a complex area of research that requires a multifaceted and adaptable approach. This work aims to present a review of recent efforts in the investigation of hate speech towards the LGBT population on social networks and explore the use of computational techniques for the detection and classification of these speeches."
@@ -62,9 +67,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -99,7 +104,8 @@ Shared task detecting and classifying LGBT+phobic content in Mexican Spanish dig
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT2, GloVE, RoBERTa. No high-confidence repository-style data URL was identified.
+Systematic literature review of computational methods for detecting LGBTphobic hate speech on social media (2019-2024); reviews 28 studies but does not test models or release datasets.
+
 
 ## Notes
 

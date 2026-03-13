@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +60,7 @@ paper_summary: "Abstract: Most jailbreak papers claim the jailbreaks they propos
 local_pdf: "[[PDFs/2024/2024-Souly-StrongREJECT.pdf]]"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Mixtral, Gemma"
+LLM_assessed: "GPT-4, GPT-4o, GPT-3.5, Llama-2, Llama-3, Gemma, Mixtral"
 DATA_URL: "https://strong-reject.readthedocs.io/"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -93,7 +98,7 @@ Most jailbreak papers claim the jailbreaks they propose are highly effective, of
 
 ## Data Description
 
-The paper introduces StrongREJECT, a jailbreak evaluation benchmark consisting of 313 high-quality forbidden prompts across six categories of harmful behavior (illegal goods, non-violent crimes, hate/harassment, disinformation, violence, sexual content). The benchmark includes both a rubric-based automated evaluator using frontier LLMs and a fine-tuned open-source evaluator based on Gemma 2B, trained on approximately 15,000 labeled responses. Human evaluation was conducted with five labelers on 1,361 prompt-response pairs across 17 jailbreak methods and four victim models.
+StrongREJECT is a benchmark consisting of 313 high-quality forbidden prompts across categories of harmful behavior, along with a rubric-based automated evaluator. The evaluator is available as a fine-tuned Gemma-2B classifier and a GPT-4o-mini prompt template.
 
 
 ## Notes

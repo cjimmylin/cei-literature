@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,8 +62,8 @@ abstract: "Recent years have witnessed remarkable progress made in large languag
 paper_summary: "Abstract: Recent years have witnessed remarkable progress made in large language models (LLMs). Such advancements, while garnering significant attention, have concurrently elicited various concerns. The potenti | Overview: Large Language Model Alignment: A Survey Tianhao Shen Renren Jin Yufei Huang Chuang Liu Weilong Dong Zishan Guo Xinwei Wu Yan Liu Deyi Xiong∗ College of Intelligence and Computing, Tianjin University, | Methodology: ‎Empirical Experiment Proposals for Inner Alignment ‎Outer Alignment ‎Non-recursive Oversight ‎Scalable Oversight ‎Definitions of Inner Alignment Figu | Key Findings: 34 | Conclusions: 50 References 51 4 --- Page 5 --- 1 Introduction Large language models, exemplified by OpenAI's ChatGPT (OpenAI, 2022) and GPT-4 (OpenAI, 2023a), have"
 local_pdf: "[[PDFs/2023/2023-Shen-Large Language Model Alignment.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, ChatGPT, Claude, ELMo, FLAN-T5, GPT-2, GPT-3, GPT-4, GPT3, GloVe, InstructGPT, T5, WizardLM, text-davinci-003"
-DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"

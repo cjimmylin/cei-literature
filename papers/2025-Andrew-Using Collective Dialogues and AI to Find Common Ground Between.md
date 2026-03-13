@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +46,8 @@ CONF-CC: "FAccT 2025"
 local_pdf: "[[PDFs/2025/2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli, Palestinian"
+national_ethnic_cultural: "Hebrew/Israeli, Arabic, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Hebrew/Israeli, Arabic, Multicultural/Cross-cultural"
 languages_list: "Arabic, English, Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models’ (LLMs) programming capabilities enable their participation in open-source games: a game-theoretic setting in which players submit computer programs in lieu of actions. These programs offer numerous advantages, including interpretability, inter-agent transparency, and formal verifiability; additionally, they enable program equilibria, solutions that leverage the transparency of code and are inaccessible within normal-form settings."
-LLM_assessed: "GPT-4, Mistral, Qwen, DeepSeek"
+LLM_assessed: "DeepSeek, GPT-4o, GPT-4o mini, Mistral, Qwen, o1"
 DATA_URL: "https://github.com/swadeshs/llm-osgt"
 CONFERENCE: "NeurIPS 2025"
 ethics_overall: "No"
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Interpretability & Explainability"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
@@ -98,7 +102,8 @@ Large Language Models’ (LLMs) programming capabilities enable their participat
 
 ## Data Description
 
-The SPARC benchmark consists of 239 Iterated Prisoner's Dilemma strategies sourced from the Axelrod Python library, used to evaluate LLMs' ability to understand and classify strategic code. The benchmark includes original, masked (class names removed), and obfuscated (all identifiers replaced) versions of the strategy programs. Additionally, the paper evaluates LLM agents in open-source games including the Iterated Prisoner's Dilemma and a spatial Coin Game across dyadic and evolutionary settings.
+SPARC (Strategic Program Analysis for Reciprocal Cooperation) benchmark of 239 Iterated Prisoner's Dilemma strategies sourced from the Axelrod Python library, used to evaluate LLMs' ability to classify cooperative behavior from Python code. Code and evaluation scripts released at the GitHub repo.
+
 
 ## Notes
 

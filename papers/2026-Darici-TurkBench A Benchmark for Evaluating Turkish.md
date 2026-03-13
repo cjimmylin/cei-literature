@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: arxiv.org
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "With the recent surge in the development of large language models, the need for comprehensive and language-specific evaluation benchmarks has become critical. While significant progress has been made in evaluating Englishlanguage models, benchmarks for other languages, particularly those with unique linguistic characteristics such as Turkish, remain less developed. Our study introduces TurkBench, a comprehensive benchmark designed to assess the capabilities of generative large language models..."
-LLM_assessed: "DeepSeek-R1, DeepSeek-V3, GPT-4o, Gemma, Gemma-2, Gemma-3, Qwen, Qwen-3, Qwen-32B, Qwen3, deepseek-ai"
-DATA_URL: "https://github.com/argilla-io/argilla"
+LLM_assessed: "DeepSeek, Gemma, Gemma-2, GPT-4o, Llama-3, Qwen, Qwen-2"
+DATA_URL: "https://huggingface.co/turkbench"
 research_topic: "Machine Learning"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "6 categories"
 ---
@@ -100,7 +104,8 @@ Comprehensive benchmark for evaluating Turkish LLMs with 8,151 data samples acro
 
 ## Data Description
 
-Backfill summary: Models assessed include DeepSeek-R1, DeepSeek-V3, GPT-4o, Gemma, Gemma-2, Gemma-3, Qwen, Qwen-3, Qwen-32B, Qwen3, deepseek-ai. Verified dataset/resource link: https://github.com/argilla-io/argilla.
+TurkBench is a comprehensive Turkish-language benchmark with 8,151 expert-curated data samples across 21 subtasks in 6 categories (Knowledge, Language Understanding, Reasoning, Content Moderation, Turkish Grammar and Vocabulary, Instruction Following), released with an online leaderboard for automated evaluation.
+
 
 ## Notes
 

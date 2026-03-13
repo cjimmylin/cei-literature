@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +47,13 @@ local_pdf: "[[PDFs/2025/2025-Mohammadi-Do Large Language Models Understand Moral
 pdf_extract: "PDF Extracts/2025/2025-Mohammadi-Do Large Language Models Understand Morality Across Cultures.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multiple cultures including African nations via international survey data, Sub-Saharan African"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-2-Medium; GPT-2-Large; OPT-125M; OPT-350M; BLOOM-560M; BLOOMZ-560M; Qwen-0.5B"
+LLM_assessed: "GPT-2, BLOOM, Qwen"
 DATA_URL: "NA"
 tags: 
 abstract: "Recent advancements in large language models (LLMs) have established them as powerful tools across numerous domains. However, persistent concerns about embedded biases, such as gender, racial, and cultural biases arising from their training data, raise significant questions about the ethical use and societal consequences of these technologies. This study investigates the extent to which LLMs capture cross-cultural differences and similarities in moral perspectives."
@@ -61,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

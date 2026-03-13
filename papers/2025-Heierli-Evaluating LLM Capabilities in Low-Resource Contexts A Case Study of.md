@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ pdf_extract: "PDF Extracts/2025/2025-Heierli-Evaluating LLM Capabilities in Low-
 "N/A"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian, Persian"
+cultures_nationalities_list: "Iranian"
 languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, Gemini, Llama, DeepSeek"
-DATA_URL: "NA"
+LLM_assessed: "DeepSeek, GPT-4o, Gemini, Llama-3"
+DATA_URL: "https://github.com/zhaw-iwi/LowResNLP-Evaluating-LLM-Capabilities-for-Persian"
 tags: 
 abstract: "Examines GPT-4o, Gemini, Llama, and DeepSeek across multiple Persian language tasks. Finds consistent performance deterioration and cultural misalignment. Role-based prompting shows only incremental improvements. Advocates for expanded Persian linguistic resources and evaluation methods addressing both language proficiency and cultural congruence."
 CONFERENCE: "ACL 2025"
@@ -95,7 +99,7 @@ Examines GPT-4o, Gemini, Llama, and DeepSeek across multiple Persian language ta
 
 ## Data Description
 
-This paper evaluates LLM capabilities across multiple Persian language tasks, finding consistent performance deterioration and cultural misalignment in GPT-4o, Gemini, Llama, and DeepSeek. Role-based prompting shows only incremental improvements. The paper advocates for expanded Persian linguistic resources and evaluation methods addressing both language proficiency and cultural congruence.
+Prompts and subsets of existing datasets (FAspell, ParsiNLU) used for Persian evaluation experiments are shared on GitHub for reproducibility. No new dataset is released.
 
 
 ## Notes

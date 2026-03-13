@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +50,12 @@ local_pdf: "[[PDFs/2024/2024-Bertram-Comparative Survey of German Hate Speech Da
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: NA
 DATA_URL: "https://github.com/MarkusBertram/Cross-Dataset-Generalization-of-German-Hate-Speech-Datasets"
 tags: 
 abstract: "The large fraction of hate speech and other offensive and objectionable content online poses a vast challenge to societies. Offensive language such as insulting, hurtful, derogatory, or obscene content directed from one person to another and open to others undermines objective discussions. Hate speech detection quality depends on the datasets available for training. Potential bias needs to be identified in order to increase the generalization performance of the trained classifiers."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,7 @@ This survey paper provides a systematic analysis of nine German hate speech data
 
 ## Data Description
 
-Overview of nine German hate speech datasets applying a bias analysis framework. Identifies topical biases across datasets and notes that German datasets predominantly focus on Twitter with limited exploration of other platforms. This is a survey paper, not a benchmark or model evaluation.
+Comparative survey analyzing nine existing German hate speech datasets using a bias framework; no new dataset is created, only analysis code is released.
 
 
 ## Detailed Summary

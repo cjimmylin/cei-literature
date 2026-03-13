@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ local_pdf: "[[PDFs/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multili
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African/Ubuntu, French, German, Italian, Spanish, Dutch, Russian, Brazilian, Hebrew/Israeli"
-cultures_nationalities_list: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African, French, German, Italian, Spanish, Dutch, Russian, Brazilian, Israeli"
-languages_list: "Arabic, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Thai, Turkish, Ukrainian, Vietnamese"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, GPT-4, GPT-4 Turbo, Gemma, Llama, Llama Guard, Llama 2, Llama 3, Llama-2, Llama-3, LlamaGuard, Mistral, Mistral-7B, Mistral-v2, Mistral-v3, MistralAI, gpt-4-turbo"
+LLM_assessed: "GPT-4, Gemma, Llama-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/microsoft/RTP-LX"
 tags: 
 abstract: "Warning: This paper contains and discusses content that may be offensive or upsetting. Large language models (LLMs) and small language models (SLMs) are being adopted at remarkable speed, although their safety still remains a serious concern. With the advent of multilingual S/LLMs, the question now becomes a matter of scale: can we expand multilingual safety evaluations of these models with the same velocity at which they are deployed?"
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for toxicity detection"
@@ -98,7 +102,8 @@ Multilingual toxicity evaluation corpus in 28 languages including Hebrew, with ~
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, GPT-4, GPT-4 Turbo, Gemma, Llama, Llama Guard, Llama 2, Llama 3, Llama-2, Llama-3, LlamaGuard, Mistral, Mistral-7B, Mistral-v2, Mistral-v3, MistralAI, gpt-4-turbo. Verified dataset/resource link: https://github.com/microsoft/RTP-LX.
+RTP-LX is a human-transcreated and human-annotated multilingual toxicity corpus in 28 languages with ~1,100 toxic prompts and outputs per language, including culturally-specific toxic content; 10 S/LLMs are evaluated on toxicity detection.
+
 
 ## Notes
 

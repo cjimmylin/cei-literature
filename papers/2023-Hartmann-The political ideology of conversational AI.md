@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +43,8 @@ authors: "Jochen Hartmann; Jasper Schwenzow; Maximilian Witte"
 doi: 10.2139/ssrn.4316084
 url: "https://www.ssrn.com/abstract=4316084"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/BFN6ITR4/Hartmann et al. - 2023 - The political ideology of conversational AI Converging evidence on ChatGPT's pro-environmental, lef.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Dutch, English, German, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

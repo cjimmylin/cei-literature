@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +44,7 @@ authors: "Zahra Pourbahman; Fatemeh Rajabi; Mohammadhossein Sadeghi; Omid Ghahro
 url: "https://arxiv.org/abs/2504.12553"
 external_pdf: "https://arxiv.org/pdf/2504.12553.pdf"
 national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian, Persian"
+cultures_nationalities_list: "Iranian"
 languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ paper_summary: "Abstract: This paper presents a comprehensive evalu- ation frame
 local_pdf: "[[PDFs/2025/2025-Pourbahman-ELAB.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "Mistral, Qwen, Gemma, Llama-3"
+LLM_assessed: "Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://huggingface.co/spaces/MCILAB/LLM_Alignment_Evaluation"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -95,7 +99,7 @@ This paper presents a comprehensive evaluation framework for aligning Persian La
 
 ## Data Description
 
-ELAB (Extensive LLM Alignment Benchmark) is a comprehensive Persian-language evaluation framework comprising 12,779 samples across safety (2,197), fairness (3,311), and social norms (7,271) dimensions. It includes four translated benchmarks (Anthropic Red Teaming, AdvBench, HarmBench, DecodingTrust into Persian) and five new Persian-specific datasets (ProhibiBench-fa, SafeBench-fa, FairBench-fa, SocialBench-fa, GuardBench-fa) covering culturally grounded alignment evaluation.
+ELAB releases five new Persian-language alignment datasets (ProhibiBench-fa, SafeBench-fa, FairBench-fa, SocialBench-fa, GuardBench-fa) plus Persian translations of Anthropic red-teaming data, AdvBench, HarmBench, and DecodingTrust, totaling ~12,779 samples across safety, fairness, and social norm categories.
 
 
 ## Notes

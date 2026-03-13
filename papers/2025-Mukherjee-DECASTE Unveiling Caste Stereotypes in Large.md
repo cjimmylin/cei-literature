@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Recent advancements in large language models (LLMs) have revolutionized natural language processing (NLP) and expanded their applications across diverse domains. However, despite their impressive capabilities, LLMs have been shown to reflect and perpetuate harmful societal biases, including those based on ethnicity, gender, and religion. A critical and underexplored issue is the reinforcement of caste-based biases, particularly towards India’s marginalized caste groups such as Dalits and Shudras."
-LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Llama, Llama-2, Llama-3, Mixtral, Mixtral-8x7b, Word2Vec"
+LLM_assessed: "GPT-3.5, GPT-4o, Llama-2, Llama-3, Mixtral"
 DATA_URL: "NA"
 CONFERENCE: "IJCAI 2025"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -105,7 +109,8 @@ Custom caste-stereotypical dataset across 4 dimensions (social, economic, educat
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Llama, Llama-2, Llama-3, Mixtral, Mixtral-8x7b, Word2Vec. No high-confidence repository-style data URL was identified.
+Constructs a caste-stereotypical dataset using SWAT (Stereotypical Word Association Test) and PSAT (Persona Scenario Answering Task) tasks, covering professional, socio-cultural, religious, and social dimensions. Scenarios generated with ChatGPT-4o and validated manually; no public release URL found in the paper.
+
 
 ## Notes
 

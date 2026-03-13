@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +60,7 @@ paper_summary: "Abstract: As a research community, we are still lacking a system
 CONF-CC: "NeurIPS Datasets and Benchmarks"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
-DATA_URL: "https://github.com/RobustBench/robustbench"
+DATA_URL: "https://robustbench.github.io"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"

@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +45,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Korean, American"
-cultures_nationalities_list: "African American community, US minority cultures"
+national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: "ChatGPT"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) have emerged as a powerful technology, and thus, we have seen widespread adoption and use on software engineering teams. Most often, LLMs are designed as “general purpose” technologies meant to represent the general population. Unfortunately, this often means alignment with predominantly Western Caucasian narratives and misalignment with other cultures and populations that engage in collaborative innovation."

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,9 +46,9 @@ CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu, French"
-cultures_nationalities_list: "African"
-languages_list: "64 African languages, French"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -101,7 +104,7 @@ AfroBench is a comprehensive multi-task benchmark designed to evaluate LLM perfo
 
 ## Data Description
 
-AfroBench is a comprehensive multi-task benchmark for evaluating LLM performance across 64 African languages including Francophone African languages. It covers 15 tasks and 22 datasets spanning natural language understanding, text generation, knowledge/QA, and mathematical reasoning. No PDF extract was available to confirm specific models tested.
+Multi-task benchmark spanning 64 African languages with 15 tasks and 22 datasets covering NLU, text generation, knowledge/QA, and mathematical reasoning. The benchmark constitutes a novel data collection effort across previously under-resourced languages.
 
 
 ## Notes

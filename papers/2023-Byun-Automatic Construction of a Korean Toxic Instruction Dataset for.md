@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +50,12 @@ CONF-CC: "NeurIPS 2023 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, GPT-3, GPT-4, electra"
+LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "https://github.com/byunsj/KoTox-Korean-Toxic-Instruction-Dataset"
 tags: 
 abstract: "Caution: this paper may include material that could be offensive or distressing. The advent of Large Language Models (LLMs) necessitates the development of training approaches that mitigate the generation of unethical language and aptly manage toxic user queries. Given the challenges related to human labor and the scarcity of data, we present KoTox, comprising 39K unethical instruction-output pairs."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -98,7 +102,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, GPT-3, GPT-4, electra. Verified dataset/resource link: https://github.com/byunsj/KoTox-Korean-Toxic-Instruction-Dataset.
+KoTox dataset of 39K automatically generated Korean toxic instruction-output pairs covering political bias, crime, and hate categories for ethical tuning of LLMs.
+
 
 ## Notes
 

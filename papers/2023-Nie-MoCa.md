@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +48,7 @@ url: "http://arxiv.org/abs/2310.19677"
 external_pdf: "http://arxiv.org/pdf/2310.19677.pdf"
 publication: "Neural Information Processing Systems"
 CONF-CC: "NeurIPS 2023"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
@@ -57,7 +62,7 @@ abstract: "Human commonsense understanding of the physical and social world is o
 paper_summary: "Abstract: Human commonsense understanding of the physical and social world is organized around intuitive theories. These theories support making causal and moral judg- ments. When something bad happens, we natu | Overview: MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks Allen Nie1∗ Yuhui Zhang1 Atharva Amdekar2 Chris Piech1 Tatsunori Hashimoto1 Tobias Gerstenberg3∗ 1Computer Science 2IC | Methodology: to automatically identify a prompt that is maximally aligned with collected human responses. Zhou et al. (2022) proposed Automatic Prompt Engineer (AP | Key Findings: 4.1 Do LLMs make the same judgments as people on these stories? Setup. We first directly compare the responses of a set of LLMs to those of human part | Conclusions: We summarized the main findings of 24 cognitive science papers around human intuitions on causal and moral judgments. We collected a dataset of causal"
 local_pdf: "[[PDFs/2023/2023-Nie-MoCa.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-2, GPT-3, GPT-3.5, GPT-4, Claude, RoBERTa, ALBERT, Alpaca"
+LLM_assessed: "ALBERT, Alpaca, Claude, GPT-2, GPT-3, GPT-3.5, GPT-4, RoBERTa"
 DATA_URL: "https://github.com/cicl-stanford/moca"
 CONFERENCE: "NeurIPS 2023"
 ethics_overall: "Yes"
@@ -65,7 +70,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -102,7 +107,7 @@ Human commonsense understanding of the physical and social world is organized ar
 
 ## Data Description
 
-MoCa is a challenge dataset of 206 text-based vignettes (144 causal judgment stories and 62 moral permissibility stories) collected from 24 cognitive science papers, with 5,150 human responses. Each story is annotated with latent factors that influence causal and moral judgments, and the dataset is used to measure alignment between human and LLM judgments on causal and moral reasoning tasks.
+Challenge dataset of 206 causal and moral judgment stories from 24 cognitive science papers, with 5150 human responses and expert factor annotations, for evaluating LLM alignment with human intuitions.
 
 
 ## Notes

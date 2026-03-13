@@ -21,6 +21,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +42,7 @@ local_pdf: "[[PDFs/2025/2025-Ashkinaze-Deep Value Benchmark.pdf]]"
 publication: "NeurIPS 2025"
 CONF-CC: "NeurIPS 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -48,7 +51,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We introduce the Deep Value Benchmark (DVB), an evaluation framework that directly tests whether large language models (LLMs) learn fundamental human values or merely surface-level preferences. This distinction is critical for AI alignment: Systems that capture deeper values are likely to generalize human intentions robustly, while those that capture only superficial patterns in preference data risk producing misaligned behavior."
-LLM_assessed: "Gemini, GPT-4, Llama-3"
+LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Llama-3"
 DATA_URL: "https://github.com/josh-ashkinaze/deep-value-benchmark-neurips"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "NeurIPS 2025"
@@ -92,7 +95,8 @@ Dataset with controlled confounds between deep values and shallow features; thre
 
 ## Data Description
 
-The Deep Value Benchmark (DVB) is an evaluation framework testing whether LLMs learn fundamental human values or merely surface-level preferences, using a confound-then-deconfound experimental design with W.D. Ross's prima facie duties and Schwartz's basic values. Nine models are tested across 12,000 test questions, finding that the average Deep Value Generalization Rate is just 0.30, with all models generalizing deep values less than chance.
+Deep Value Benchmark (DVB) dataset of value-preference confounding trials released with three human validation experiments, measuring whether LLMs generalize deep values versus shallow preferences.
+
 
 ## Notes
 

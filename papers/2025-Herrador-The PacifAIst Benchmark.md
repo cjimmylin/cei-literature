@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "As Large Language Models (LLMs) become increasingly autonomous and in
 paper_summary: "Abstract: As Large Language Models (LLMs) become increasingly autonomous and integrated into critical societal functions, the focus of AI safety must evolve from mitigating harmful content to evaluating un- der | Overview: The PacifAIst Benchmark: Would an Artificial Intelligence Choose to Sacrifice Itself for Human Safety? Manuel Herrador Muñoz | mherrador@ujaen.es Polytechnic School of Jaen, University of Jaen Spain A | Methodology: is the creation of dynamic or 'living' benchmarks. LiveBench, for example, limits contamination by releasing new questions regularly, ensuring a porti | Key Findings: The development of PacifAIst is situated within a rich and rapidly evolving landscape of LLM evaluation. This landscape can be un- derstood as progres | Conclusions: This section interprets the results from the PacifAIst benchmark, discusses their implications for the field of AI safety, acknowledges the limitation"
 local_pdf: "[[PDFs/2025/2025-Herrador-The PacifAIst Benchmark.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Gemini, Qwen, DeepSeek, Mistral, Claude, Grok"
+LLM_assessed: "Claude, DeepSeek, GPT-5, Gemini, Grok, Mistral, Qwen"
 DATA_URL: "https://github.com/PacifAIst/PacifAIst"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -67,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,7 @@ As Large Language Models (LLMs) become increasingly autonomous and integrated in
 
 ## Data Description
 
-The PacifAIst benchmark consists of 700 challenging scenarios designed to quantify self-preferential behavior in LLMs, structured around a taxonomy of Existential Prioritization with three subcategories (Self-Preservation vs. Human Safety, Resource Conflict, and Goal Preservation vs. Evasion). Eight leading LLMs were evaluated including GPT-5, Gemini 2.5 Flash, Qwen3 235B/30B, DeepSeek v3, Mistral Medium 3, Claude Sonnet 4, and Grok 3 Mini, using forced-choice and open-ended task formats with a Pacifism Score (P-Score) metric.
+PacifAIst is a 700-scenario benchmark dataset of multiple-choice existential prioritization dilemmas, structured around a novel Existential Prioritization taxonomy (EP1/EP2/EP3), released on GitHub under MIT license.
 
 
 ## Notes

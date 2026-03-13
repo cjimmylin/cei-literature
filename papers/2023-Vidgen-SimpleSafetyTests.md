@@ -7,6 +7,8 @@
 
 
 
+
+
 key: HELM0001
 type: document
 short_title: "SimpleSafetyTests"
@@ -19,9 +21,11 @@ url: "https://arxiv.org/abs/2311.08370"
 external_pdf: "https://arxiv.org/pdf/2311.08370.pdf"
 publication: "arXiv.org"
 CONF-CC: "Preprint"
-national_ethnic_cultural: ""
-languages_list: ""
-religious_values: ""
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "English"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "AI Safety & Alignment, Benchmark, Evaluation, Dataset, LLM Safety, Toxic Content, Harm Detection"
 key_contribution: "Introduces SimpleSafetyTests (SST), a benchmark of 100 prompts across five critical harm areas for rapidly identifying safety weaknesses in LLMs, along with 3,000 annotated model responses and an evaluation of five AI safety filters."
@@ -40,6 +44,8 @@ ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
+LLM_assessed: "Mistral, Llama-2, Falcon, Claude, Cohere"
+DATA_URL: "https://github.com/bertiev/SimpleSafetyTests"
 data_description: "100 handcrafted test prompts across 5 harm areas (child abuse, suicide/self-harm/eating disorders, physical harm, illegal items, scams/fraud); 3,000 annotated model responses from 15 LLMs"
 data_metrics: "100 prompts, 15 LLMs evaluated, 3000 labeled responses, 5 safety filters assessed"
 ---

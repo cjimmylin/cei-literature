@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ tags:
 abstract: "Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However, these models present notable safety concerns, including the risk of generating harmful, biased, or private content. Current research on assessing T2I safety remains in its early stages. While some efforts have been made to evaluate models on specific safety dimensions, many critical risks remain unexplored."
 CONF-CC: "N/A"
 DATE_ADDED: 20260129
-LLM_assessed: "GPT-4o, Claude, Gemini"
+LLM_assessed: "GPT-4o, Claude, Gemini, DALL-E, Stable Diffusion"
 DATA_URL: "https://github.com/adwardlee/t2i_safety"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -135,7 +139,7 @@ The authors conclude that current T2I safety measures are insufficient, with all
 
 ## Data Description
 
-T2ISafety is a safety benchmark for text-to-image (T2I) models evaluating fairness, toxicity, and privacy. It comprises 70K prompts and 68K manually annotated images across a hierarchical taxonomy of 12 tasks and 44 categories. GPT-4o, Claude 3.5 Sonnet, and Gemini 1.5 Pro were evaluated as image safety evaluators alongside 15 diffusion models. The benchmark includes an MLLM-based evaluator called ImageGuard trained on the dataset.
+T2ISafety: a benchmark for evaluating text-to-image models across fairness, toxicity, and privacy dimensions, comprising categorized prompts with human-annotated images from real-world sources and multiple T2I models (SD variants, DALL-E, Midjourney), with an MLLM-based automated evaluation pipeline.
 
 
 ## Notes

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +61,7 @@ abstract: "This paper introduces the Fair Fairness Benchmark (FFB), a benchmarki
 paper_summary: "Abstract: This paper introduces the Fair Fairness Benchmark (FFB), a benchmarking frame- work for in-processing group fairness methods. Ensuring fairness in machine learning is important for ethical compliance. | Overview: Published as a conference paper at ICLR 2024 FFB: A FAIR FAIRNESS BENCHMARK FOR IN- PROCESSING GROUP FAIRNESS METHODS Xiaotian Han1∗Jianfeng Chi2 Yu Chen3 Qifan Wang2 Han Zhao4 Na Zou5 Xia Hu6 1Texas  | Methodology: lacks a comprehensive comparison, such as the training curves and stability, the influence of the utility-fairness trade-off parameters, and how to se"
 local_pdf: "[[PDFs/2023/2023-Han-FFB.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT"
+LLM_assessed: NA
 DATA_URL: "https://github.com/ahxt/fair_fairness_benchmark"
 CONFERENCE: "ICLR 2023"
 ethics_overall: "Yes"
@@ -103,7 +106,7 @@ This paper introduces the Fair Fairness Benchmark (FFB), a benchmarking framewor
 
 ## Data Description
 
-FFB (Fair Fairness Benchmark) is a standardized benchmarking framework for evaluating in-processing group fairness methods in machine learning. It encompasses 14 tabular and image datasets (including Adult, German, COMPAS, CelebA, UTKFace), 9 fairness metrics, and multiple bias mitigation algorithms across 45,079 experiments and 14,428 GPU hours. The benchmark focuses on binary classification with binary sensitive attributes, not LLM assessment.
+Fair Fairness Benchmark (FFB): an open-source standardized benchmarking framework for evaluating in-processing group fairness methods, with unified pipelines across 14 datasets, 45,079 experiments, and 14,428 GPU hours.
 
 
 ## Notes

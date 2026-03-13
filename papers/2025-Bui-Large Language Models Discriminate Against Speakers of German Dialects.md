@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ local_pdf: "[[PDFs/2025/2025-Bui-Large Language Models Discriminate Against Spea
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
-languages_list: German
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3.1-70B, Llama-3.1-8B, Llama-3-70B, Llama-3-8B, Mistral-7B, Gemma-7B, GPT-4o-mini, GPT-4, Claude-3.5-Sonnet"
-DATA_URL: "NA"
+LLM_assessed: "Aya, GPT-4o, Llama-3, Qwen-2"
+DATA_URL: "https://github.com/UhhDS/German-Dialect-Bias"
 tags: 
 abstract: "Dialects represent a significant component of human culture and are found across all regions of the world. In Germany, more than 40% of the population speaks a regional dialect (Adler and Hansen, 2022). However, despite cultural importance, individuals speaking dialects often face negative societal stereotypes. We examine whether such stereotypes are mirrored by large language models (LLMs). We draw on the sociolinguistic literature on dialect perception to analyze traits commonly associated..."
 CONFERENCE: "EMNLP 2025"

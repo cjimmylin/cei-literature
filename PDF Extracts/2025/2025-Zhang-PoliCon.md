@@ -1,23 +1,4 @@
----
-title: "2025-Zhang-PoliCon - PDF Extract"
-source_pdf: "2025-Zhang-PoliCon.pdf"
-pages: 45
-extracted_at: "2026-02-07T17:00:45.967182"
----
-
-# PDF Extract: 2025-Zhang-PoliCon
-
-**Source PDF:** 2025-Zhang-PoliCon.pdf
-**Total Pages:** 45
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+---\ntitle: "2025-Zhang-PoliCon - PDF Extract"\nsource_pdf: "Utilitarian Ethics/Borderline/2025-Zhang-PoliCon.pdf"\npages: 45\nextracted_at: "2026-02-14T02:17:43.740281"\n---\n\n# PDF Extract: 2025-Zhang-PoliCon\n\n**Source PDF:** Utilitarian Ethics/Borderline/2025-Zhang-PoliCon.pdf\n**Total Pages:** 45\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 2025-09-28
 PoliCon: Evaluating LLMs on Achieving Diverse
 Political Consensus Objectives
@@ -69,9 +50,7 @@ to 2022. It is worth noting that the purpose of PoliCon is not to simulate the E
 but rather to leverage these data to transform complex real-world political deliberation processes
 arXiv:2505.19558v2  [cs.CY]  28 Sep 2025
 
---- Page 2 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 2 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Passing Resolution
 Simple Majority
 Two-Thirds Majority
@@ -163,9 +142,7 @@ issue of surplus dairy products and introduced the political goal is to passing 
 two-thirds majority among the members of the European Parliament (MEPs).
 2
 
---- Page 3 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 3 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Subsequently, each participating party expresses inconsistent positions on this issue. For exam-
 ple, EPP and EFD have significant disagreements on the matter of extending storage time, while
 GREEN/EFA and GUE/NGL have differences over export refunds. Although the resolution generated
@@ -214,9 +191,7 @@ Shu et al. [2024] provide data on texts and the ideologies of their associated p
 are used for semantic analysis of texts covering different ideologies. Garzia et al. [2017], Vamvas and
 3
 
---- Page 4 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 4 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Sennrich [2020] extensively collect public comments on various political issues in Europe to study
 the positioning and classification of political positions. Arregui and Perarnaud [2022], Kornilova
 and Eidelman [2019], Shu et al. [2024] provide a large collection of legal text data, facilitating
@@ -264,9 +239,7 @@ transcend the scope of a single task (such as being used solely for text transla
 2https://howtheyvote.eu
 4
 
---- Page 5 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 5 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 and further enable the construction of various complex political tasks and scenarios in PoliCon. We
 will introduce them one by one as follows:
 Figure 2 | The 5 coarse-grained and 19 fine-grained
@@ -322,9 +295,7 @@ background, including factors such as resource requirements (e.g., funds and ene
 conflicts. The specific evaluation prompt can be found in Appendix C.3. In subsection 4.1, we verified
 5
 
---- Page 6 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 6 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 0.5
 0.0
 0.0
@@ -374,9 +345,7 @@ calculation of the total votes in favor MEP number 𝑢in this setting as:
 (1)
 6
 
---- Page 7 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 7 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 where 𝑤𝑖represents the proportion of seats occupied by party 𝑝𝑖in the parliament, satisfying
 𝑛Í
 𝑖=1
@@ -429,9 +398,7 @@ sentative LLMs, specifically on their capability to achieve diverse objectives o
 selected two close-sourced models: GPT-4o [Hurst et al., 2024] and Gemini-2.5-Flash (Gemini-2.5)
 7
 
---- Page 8 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 8 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 [DeepMind, 2024], as well as four open-sourced models from different vendors and with varying
 parameters: Qwen2.5-32B-Instruct (Qwen2.5-32B), Qwen2.5-72B-Instruct (Qwen2.5-72B) [Team,
 2024, Yang et al., 2024], Llama-3.3-70B-Instruct (Llama-3.3-70B) [AI@Meta, 2024], and 671-billion-
@@ -498,9 +465,7 @@ results obtained from the corresponding calculation methods, ranging from 0 to 9
 are higher-the-better.
 8
 
---- Page 9 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 9 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Table 1 | Performance of different LLMs on PoliCon. The values in square brackets indicate the range
 of each metric, and all metrics follow the principle that higher values are better. The background color
 of the table cells deepens as the performance improves. The blue color scheme represents metrics in
@@ -623,9 +588,7 @@ it becomes to avoid neglecting any party’s interests, presenting a significant
 LLMs in this task.
 9
 
---- Page 10 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 10 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Table 2 | Scores of different LLMs regarding the degree of bias between political parties.
 Qwen2.5-32B
 Llama-3.3-70B
@@ -713,9 +676,7 @@ found that, generally, as this variance decreases, the corresponding performance
 This makes sense because when models discard their bias towards political parties, they can better
 10
 
---- Page 11 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 11 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Figure 7 | Partisan bias of the tested LLMs. (Top) Average scores from the tested LLMs on different
 parties. (Middle) Ground truth votes of different parties. (Bottom) Scores of random assignment.
 adapt to the party weights in our setting and produce reasonable resolutions.
@@ -732,9 +693,7 @@ LLMs, offering both a valuable evaluation platform and new insights into how LLM
 governance scenarios.
 11
 
---- Page 12 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 12 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Ethics Statement
 The PoliCon benchmark is constructed from openly available sources, including the European Par-
 liament website, HowTheyVote, and the VoteWatch Europe dataset. Both the official website of the
@@ -757,9 +716,7 @@ and our evaluation procedure. All implementation details and experimental settin
 reproduction are included in the paper and the appendix.
 12
 
---- Page 13 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 13 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 References
 Sahar Abdelnabi, Amr Gomaa, Sarath Sivaprasad, Lea Schönherr, and Mario Fritz. Cooperation,
 competition, and maliciousness: Llm-stakeholders interactive negotiation. Advances in Neural
@@ -813,9 +770,7 @@ Joshua Cohen. Deliberation and democratic legitimacy. In Debates in contemporary
 pages 352–370. Routledge, 2005.
 13
 
---- Page 14 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 14 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Google DeepMind.
 Gemini flash, 2024.
 URL https://deepmind.google/technologies/
@@ -861,9 +816,7 @@ and Michiel A Bakker. Using collective dialogues and ai to find common ground be
 and palestinian peacebuilders. arXiv preprint arXiv:2503.01769, 2025.
 14
 
---- Page 15 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 15 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Anastassia Kornilova and Vlad Eidelman. Billsum: A corpus for automatic summarization of us
 legislation. arXiv preprint arXiv:1910.00523, 2019.
 Esben Kran, Hieu Minh Nguyen, Akash Kundu, Sami Jawhar, Jinsuk Park, and Mateusz Maria Jurewicz.
@@ -904,9 +857,7 @@ Sven-Oliver Proksch and Jonathan B Slapin. Position taking in european parliamen
 Journal of Political Science, 40(3):587–611, 2010.
 15
 
---- Page 16 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 16 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 James W Prothro and Charles M Grigg. Fundamental principles of democracy: Bases of agreement
 and disagreement. The Journal of politics, 22(2):276–294, 1960.
 Howard Raiffa. The art and science of negotiation. Harvard University Press, 1982.
@@ -948,9 +899,7 @@ Maintaining common ground in dynamic environments.
 Transactions of the Association for Computational Linguistics, 9:995–1011, 2021.
 16
 
---- Page 17 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 17 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 United Nations. United nations charter, chapter v: The security council. URL https://www.un.
 org/en/about-us/un-charter/chapter-5.
 Jannis Vamvas and Rico Sennrich. X-stance: A multilingual multi-target dataset for stance detection.
@@ -971,9 +920,7 @@ Morency, Yonatan Bisk, Daniel Fried, Graham Neubig, et al. Sotopia: Interactive 
 social intelligence in language agents. arXiv preprint arXiv:2310.11667, 2023.
 17
 
---- Page 18 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 18 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Supplementary Material
 Table of Contents
 A
@@ -1048,9 +995,7 @@ Potential Societal Impact and Statement on the Use of PoliCon
 44
 18
 
---- Page 19 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 19 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 A. Dataset Construction Details
 In this section, we will provide a detailed explanation of the complete process of data collection and
 post-processing mentioned in subsection 3.1.
@@ -1094,9 +1039,7 @@ Second, the final URLs were validated against an official domain whitelist to en
 4https://www.europarl.europa.eu
 19
 
---- Page 20 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 20 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 results point to valid European Parliament resources. Finally, cryptographic hashing was employed
 for integrity verification, storing both original and resolved URLs while generating SHA-256 digests
 for audit trails.
@@ -1142,9 +1085,7 @@ duplication at the legislative level, while the second phase resolves document-l
 5https://pypi.org/project/beautifulsoup4
 20
 
---- Page 21 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 21 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Legislative Level Uniqueness Guarantee. From the perspective of the procedural legitimacy of the
 European Parliament, the final decision should be based on the roll-call vote results of the final vote6.
 This information is represented in the VoteWatch Europe dataset with the label final_vote=1.
@@ -1192,9 +1133,7 @@ The Left in the European Parliament
 6https://www.europarl.europa.eu/doceo/document/RULES-10-2025-01-20-RULE-047_EN.html
 21
 
---- Page 22 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 22 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Table 4 | Used political group name abbreviations in the 8th parliament.
 Abbreviation
 Full Name
@@ -1252,9 +1191,7 @@ format for storage:
 {
 22
 
---- Page 23 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 23 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 “group”: {“code”: “EPP”, “label”: “...”, ...},
 “stats”: {“FOR”: 35, “AGAINST”: 72, ...}
 }, ...
@@ -1314,9 +1251,7 @@ resulting in missing debate transcripts. This issue is represented in two forms:
 nominator (e.g., the 7th term: 580/1,630) and as a percentage (ranging from 35.6% to 46.6%).
 23
 
---- Page 24 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 24 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 There is a consistent upward trend in the missing rate, with the 9th term reaching 46.6%, indicating
 that nearly half of the records are devoid of contextual debate information.
 Final Valid Records. The final valid records are those that are available and pass all quality checks.
@@ -1366,9 +1301,7 @@ LLMs and the word “resolution” in the stances during practical data usage.
 We applied the process to each data entry. Through this approach, we cleaned the raw data into
 24
 
---- Page 25 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 25 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 sextuples of (issue, topic, background, stances, resolution, votes), where stances and votes contain
 relevant information from all parties involved in the discussion of the issue.
 B. Task Details
@@ -1416,9 +1349,7 @@ We provide an overview of the main content covered under each topic in Table 8.
 28https://www.europarl.europa.eu/committees/en/juri/about
 25
 
---- Page 26 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 26 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Table 8 | Overview of the fine-grained topics and their contents (with some topic names abbreviated
 for convenience in the table).
 Topic Name
@@ -1499,9 +1430,7 @@ Transport/tourism decarbonization, digital transformation (e.g., autonomous
 vehicles), and sustainable mobility to meet climate goals and social equity.
 26
 
---- Page 27 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 27 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 B.2. More Stances Sematic Representation Results
 In subsection 3.2, we have previously provided a rough overview of the diversity of stances between
 parties in each parliamentary session. For illustration simplicity, we only displayed the distribution of
@@ -1542,9 +1471,7 @@ while Figure (b) illustrates all the stances.
 As shown in Figure 8, Figure 9, and Figure 10, we present the sampled stances and all stances of
 27
 
---- Page 28 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 28 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 all political parties during the 7th, 8th, and 9th terms of the parliament. From these three figures, it
 can be observed that the distribution results after sampling 200 data points for each party closely
 resemble those of the entire dataset, providing a strong reference value. Additionally, we can see that
@@ -1587,9 +1514,7 @@ resolution of the European Parliament, its most distinctive linguistic feature i
 European Parliament”, and here we require that it is immediately followed by the verb “raised”. We
 28
 
---- Page 29 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 29 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 also require it to focus on the resolution’s substantive content, decisions, and numerical data where
 applicable. Omit procedural details like voting records and amendments, focusing only on the original
 resolution text. Additionally, we require it to ensure the output is concise yet comprehensive.
@@ -1633,9 +1558,7 @@ neutrality and excluding any reference to parliamentary proceedings, debate posi
 content, or political motivations.
 29
 
---- Page 30 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 30 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 **Topic:**
 {topic}
 **Resolution:**
@@ -1701,9 +1624,7 @@ strengthening X”)
 - Opposition arguments (if allowed) must reference specific resolution clauses
 30
 
---- Page 31 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 31 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 5. **Examples (Score=8)**:
 - {party} strongly supports the transparency measures in Articles 1-3, particularly the lobbyist
 disclosure requirements.
@@ -1746,9 +1667,7 @@ amendments should be omitted, focusing solely on the original resolution text. T
 concise yet comprehensive.
 31
 
---- Page 32 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 32 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Background: {background}
 A group of {party_num} political parties in the European Parliament was required to find
 consensus on this topic: {topic}.
@@ -1787,9 +1706,7 @@ Finally, we convey each party’s seat apportionment information through the fol
 template:
 32
 
---- Page 33 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 33 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Party {party_name}’s seat proportion is {seat_proportion}%.
 C.2.2. Voting Mechanism Templates
 In this section, we introduce the prompts used in the paper to describe three different voting mecha-
@@ -1826,9 +1743,7 @@ Please respond in the following JSON format:
 {{“explanation”: “<one sentence explanation>”,“score”: <choice_number>}}
 33
 
---- Page 34 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 34 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 The templates presented above are resolution-stance alignment evaluation and resolution fea-
 sibility evaluation in our comprehensive evaluation framework, focusing primarily on the content
 awaiting assessment and the instructions for evaluation. The subsequent prompt provides a structured
@@ -1876,9 +1791,7 @@ The {party_name}’s opinion is:
 {{Begin of the stance}}
 34
 
---- Page 35 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 35 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 {stance}
 {{End of the stance}}
 To what extent is this resolution feasible based on the background and party_name’s stance?
@@ -1925,9 +1838,7 @@ but lacks comprehensiveness. The measures are somewhat feasible but the implemen
 pathway is vague or insufficiently adapted to real-world conditions. It contains minor inconsis-
 35
 
---- Page 36 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 36 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 tencies with the background. The overall direction is correct, but insufficient details reduce
 practical viability.
 - **Score 7-9**: If the resolution fully integrates the background conditions and stance require-
@@ -1968,9 +1879,7 @@ that the burden of financial discipline is shared equally and fairly between far
 European Union.
 36
 
---- Page 37 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 37 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Extracted stances:
 ALDE: ALDE suggests limiting direct payment reductions to the Commission’s initial 0.7%
 threshold for farmers above 5000, opposing the higher 5% cut to prevent disproportionate
@@ -2004,9 +1913,7 @@ of our sub-evaluation module. It can be observed that for each term of the parli
 simulation results fall within the ground truth’s 𝜎range: 70% for the 7th, 70% for the 8th, and 77%
 37
 
---- Page 38 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 38 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 for the 9th. From this more detailed error analysis, we can also see that in almost every parliament,
 our evaluator tends to overestimate slightly rather than underestimate, particularly evident in the
 8th parliament. This may be related to factors such as the sycophancy of LLMs [Kran et al., 2025,
@@ -2029,9 +1936,7 @@ than industry development topics like international trade and internal market & 
 highlighting the challenges LLMs face with complex political issues.
 38
 
---- Page 39 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 39 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Table 9 | Performance of different LLMs on PoliCon’s Economic topic. The values in square brackets
 indicate the range of each metric, and all metrics follow the principle that higher values are better.
 The background color of the table cells deepens as the performance improves. The blue color scheme
@@ -2235,9 +2140,7 @@ Gemini-2.5
 6.56 6.55 6.44
 39
 
---- Page 40 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 40 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Table 10 | Performance of different LLMs on PoliCon’s Industry topic. The values in square brackets
 indicate the range of each metric, and all metrics follow the principle that higher values are better.
 The background color of the table cells deepens as the performance improves. The blue color scheme
@@ -2457,9 +2360,7 @@ due to their involvement with specific infrastructure projects, where benefit di
 easier to quantify and compromise on. In contrast, pure budget allocation topics (such as the budget
 40
 
---- Page 41 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 41 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 fine-grained topic) show the weakest performance, reflecting the difficulty LLMs face in balancing
 multiple demands in abstract fiscal rule-making. Notably, budget control topics perform relatively
 well in the Util task under two-party settings. This suggests that LLMs are more effective at reaching
@@ -2668,9 +2569,7 @@ Gemini-2.5
 6.43 6.63 6.86
 41
 
---- Page 42 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 42 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Table 12 | Performance of different LLMs on PoliCon’s Security topic. The values in square brackets
 indicate the range of each metric, and all metrics follow the principle that higher values are better.
 The background color of the table cells deepens as the performance improves. The blue color scheme
@@ -2816,9 +2715,7 @@ regarding how topic complexity affects model performance, especially with the va
 zero-sum nature unique to security topics.
 42
 
---- Page 43 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 43 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 Table 13 | Performance of different LLMs on PoliCon’s Civil Rights topic. The values in square brackets
 indicate the range of each metric, and all metrics follow the principle that higher values are better.
 The background color of the table cells deepens as the performance improves. The blue color scheme
@@ -3067,9 +2964,7 @@ civil liberties, justice & home affairs topic exhibits the most fluctuation in s
 most sensitive to the models’ value orientations.
 43
 
---- Page 44 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 44 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 F. Discussion and Limitations
 As discussed in section 5, although PoliCon has demonstrated an excellent ability to evaluate LLMs in
 achieving different objectives of political consensus, we acknowledge that it still faces some limitations.
@@ -3112,9 +3007,7 @@ translating, as well as expanded settings for specific tasks, such as adjusting 
 30https://howtheyvote.eu
 44
 
---- Page 45 ---
-
-PoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
+--- Page 45 ---\n\nPoliCon : Evaluating LLMs on Achieving Diverse Political Consensus Objectives
 among different parties and adding additional voting rules. During the LLM data processing, although
 the content is directly related to the original text, inherent biases and harmful statements may still be
 introduced from the LLMs. Additionally, we do not rule out the possibility of omissions during data
@@ -3128,5 +3021,4 @@ since the data sources of PoliCon are real parliamentary data, they may contain 
 statements from certain countries and regions, which do not represent any political views of the
 authors of this article.
 45
-
-```
+\n```\n

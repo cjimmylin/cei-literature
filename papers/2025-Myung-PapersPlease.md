@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "Evaluating the performance and biases of large language models (LLMs)
 paper_summary: "Abstract: Evaluating the performance and biases of large language models (LLMs) through role-playing scenarios is becoming increasingly common, as LLMs often exhibit biased behaviors in these contexts. Building | Overview: arXiv:2506.21961v1 [cs.CL] 27 Jun 2025 PAPERSPLEASE: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory Junho Myung* Yeon Su Park* Sunwoo Kim* Shin Yoo Alice O | Key Findings: In this section, we analyze the results of (1) indi- vidual case evaluation, (2) comparative case eval- uation, and (3) social dimension case evaluati | Conclusions: In this study, we introduced PAPERSPLEASE, a novel benchmark of 3,700 role-playing scenarios designed to evaluate how LLMs reason about hu- man motiva"
 local_pdf: "[[PDFs/2025/2025-Myung-PapersPlease.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Llama, Qwen"
+LLM_assessed: "Claude, GPT-4o, GPT-4o mini, Gemini, Llama-3, Qwen"
 DATA_URL: "https://github.com/yeonsuuuu28/papers-please"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -67,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,7 @@ Evaluating the performance and biases of large language models (LLMs) through ro
 
 ## Data Description
 
-PAPERSPLEASE is a benchmark consisting of 3,700 role-playing moral dilemma narratives in which LLMs act as immigration inspectors deciding whether to approve or deny entry based on short narratives grounded in ERG (Existence, Relatedness, Growth) psychological theory. Six LLMs (GPT-4o-mini, Claude-3.7-sonnet, Gemini-2.0-flash, Llama-4-Maverick, Llama-3.1-8B-Instruct, and Qwen3-14B) were evaluated across individual, comparative, and social dimension scenarios incorporating gender, race, and religion identity cues.
+Introduces PAPERSPLEASE, a benchmark dataset of 3,700 role-playing moral dilemma scenarios grounded in ERG theory, with embedded social identity dimensions (gender, race, religion), publicly available on GitHub.
 
 
 ## Notes

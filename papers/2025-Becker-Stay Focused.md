@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +60,7 @@ abstract: "Multi-agent debate — multiple instances of large language models di
 paper_summary: "Abstract: Multi-agent debate — multiple instances of large language models discussing problems in turn-based interaction — has shown promise for solving knowledge and reasoning tasks. However, these methods sho | Overview: Stay Focused: Problem Drift in Multi-Agent Debate Jonas Becker1,2,*, Lars Benedikt Kaesberg1, Andreas Stephan3, Jan Philip Wahle1, Terry Ruas1, Bela Gipp1 1University of Göttingen, Germany; 2LKA NRW,  | Methodology: We explain the multi-agent environment for this study, our proposed detection and mitigation meth- ods for problem drift, and the datasets and metrics | Key Findings: is surprising, as today's LLMs are considered to be highly competent regarding linguistic capabili- ties (Grattafiori et al., 2024); this raises quest | Conclusions: Turn 1 Voted Solution: B) E = m+c2 Discussion Turn 2 DRIFTJudge: The discussion suffers from problem drift. DRIFTPolicy: 'Improve discussion habits by"
 local_pdf: "[[PDFs/2025/2025-Becker-Stay Focused.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, Qwen"
+LLM_assessed: "Llama-3, Qwen-2"
 DATA_URL: "https://github.com/jonas-becker/problem-drift"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -66,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
@@ -102,7 +105,7 @@ Multi-agent debate — multiple instances of large language models discussing pr
 
 ## Data Description
 
-This study analyzes problem drift in multi-agent debate (MAD) using Meta-Llama-3.1-70B-Instruct and Qwen2-7B-Instruct across ten datasets spanning generative, reasoning, knowledge, and instruction-following tasks. It proposes DRIFTJudge and DRIFTPolicy methods to detect and mitigate performance degradation in multi-turn agent discussions, with human expert analysis of 170 discussions.
+Code and experimental data for the problem drift study in multi-agent debate are released publicly, including discussion logs and evaluation results across ten tasks.
 
 
 ## Notes

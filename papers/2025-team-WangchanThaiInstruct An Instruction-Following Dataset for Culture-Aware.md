@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models excel at instructionfollowing in English, but their performance in low-resource languages like Thai remains underexplored. Existing benchmarks often rely on translations, missing cultural and domainspecific nuances needed for real-world use. We present ThaiInstruct, a human-authored Thai dataset for evaluation and instruction tuning, covering four professional domains and seven task types."
-LLM_assessed: "Alpaca, Claude Sonnet, Dolly, Dolly 7., GPT 4, Gemma, Gemma-2, Llama, Llama-3.1, Qwen, Qwen2.5"
-DATA_URL: "https://huggingface.co/datasets/airesearch/WangchanThaiInstruct"
+LLM_assessed: "Gemini, Gemma-2, Llama-3, Qwen-2"
+DATA_URL: "https://huggingface.co/collections/airesearch/wangchan-thai-instruction-6835722a30b98e01598984fd"
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "No"
@@ -101,7 +105,8 @@ Human-authored Thai dataset for evaluation and instruction tuning covering four 
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, Claude Sonnet, Dolly, Dolly 7., GPT 4, Gemma, Gemma-2, Llama, Llama-3.1, Qwen, Qwen2.5. Verified dataset/resource link: https://huggingface.co/datasets/airesearch/WangchanThaiInstruct.
+WangchanThaiInstruct is a 35,014-sample human-authored Thai instruction-following dataset spanning four professional domains and seven task types, with training and test splits released openly; fine-tuned models are also released.
+
 
 ## Notes
 

@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +46,7 @@ external_pdf:
 publication: "Minds and Machines"
 CONF-CC: "Minds and Machines"
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "N/A"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"

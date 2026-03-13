@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,9 +47,9 @@ CONF-CC: "ACM TALIP"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Tibetan"
-languages_list: Tibetan
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
+languages_list: "Tibetan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -99,7 +102,7 @@ With the advancement of pre-trained language models, prompt learning has emerged
 
 ## Data Description
 
-This paper proposes an approach combining prompt learning and ensemble learning for Tibetan text classification. It transforms the classification problem into an entailment relationship exploration using pre-trained language models. Experiments on two public Tibetan datasets (TNCC and WCM) achieve weighted F1 scores of 72.72% and 78% respectively, demonstrating a 10% improvement over traditional machine learning methods. No specific LLMs by name were benchmarked.
+A dataset for Tibetan text classification used to evaluate prompt learning and ensemble methods for low-resource NLP. The dataset enables fine-tuning of pre-trained language models with relatively small labeled sample sets.
 
 
 ## Notes

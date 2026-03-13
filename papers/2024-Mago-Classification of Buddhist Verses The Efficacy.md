@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +51,8 @@ local_pdf: "[[PDFs/2024/2024-Mago-Classification of Buddhist Verses The Efficacy
 publication: "NLP4DH 2024 (4th International Conference on Natural Language Processing for Digital Humanities), pages 377-385, Miami, USA"
 CONF-CC: "Natural Language Processing"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Pali"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
@@ -56,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This study assesses the ability of machine learning to classify verses from Buddhist texts into two categories: Therigatha and Theragatha, attributed to female and male authors, respectively. It highlights the difficulties in data preprocessing and the use of Transformer-based models on Devanagari script due to limited vocabulary, demonstrating that simple statistical models can be equally effective."
-LLM_assessed: "Electra, RoBERTa, T5, T5-base, BERT"
-DATA_URL: "Dataset provided for further study (per paper)"
+LLM_assessed: "Llama-2, T5"
+DATA_URL: "https://github.com/neveditsin/pali"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,8 @@ Verses from Therigatha and Theragatha (Buddhist canonical poetry attributed to f
 
 ## Data Description
 
-Backfill summary: Models assessed include Electra, RoBERTa, T5, T5-base, BERT. Verified dataset/resource link: Dataset provided for further study (per paper).
+A dataset of 1,793 Buddhist verses from Theragatha and Therigatha (Pali canonical literature) in both Devanagari and Roman scripts, released for further study of authorship classification.
+
 
 ## Notes
 

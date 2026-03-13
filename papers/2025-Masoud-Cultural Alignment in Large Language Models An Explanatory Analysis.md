@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +47,13 @@ local_pdf: "[[PDFs/2025/2025-Masoud-Cultural Alignment in Large Language Models 
 pdf_extract: "PDF Extracts/2025/2025-Masoud-Cultural Alignment in Large Language Models An Explanatory Analysis.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese, Arabic, American, Multicultural/Cross-cultural"
-cultures_nationalities_list: "American, Arab, Arab countries, Austrian, British, China, Chinese, Cross-cultural, Dutch, Slovak, Slovakia, US, United States, pan-Latin American"
+cultures_nationalities_list: "Chinese, Arabic, American, Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5; GPT-4; Llama-2"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://github.com/reemim/Hofstedes_CAT"
 tags: 
 abstract: "The deployment of large language models (LLMs) raises concerns regarding their cultural misalignment and potential ramifications on individuals and societies with diverse cultural backgrounds. While the discourse has focused mainly on political and social biases, our research proposes a Cultural Alignment Test (Hoftede’s CAT) to quantify cultural alignment using Hofstede’s cultural dimension framework, which offers an explanatory cross-cultural comparison through the latent variable analysis."

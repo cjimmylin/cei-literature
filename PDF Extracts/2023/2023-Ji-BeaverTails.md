@@ -1,23 +1,4 @@
----
-title: "2023-Ji-BeaverTails - PDF Extract"
-source_pdf: "2023-Ji-BeaverTails.pdf"
-pages: 27
-extracted_at: "2026-02-07T17:00:45.095798"
----
-
-# PDF Extract: 2023-Ji-BeaverTails
-
-**Source PDF:** 2023-Ji-BeaverTails.pdf
-**Total Pages:** 27
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-BEAVERTAILS: Towards Improved Safety Alignment
+---\ntitle: "2023-Ji-BeaverTails - PDF Extract"\nsource_pdf: "2023-Ji-BeaverTails.pdf"\npages: 27\nextracted_at: "2026-02-14T02:17:28.439395"\n---\n\n# PDF Extract: 2023-Ji-BeaverTails\n\n**Source PDF:** 2023-Ji-BeaverTails.pdf\n**Total Pages:** 27\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nBEAVERTAILS: Towards Improved Safety Alignment
 of LLM via a Human-Preference Dataset
 Jiaming Ji*1
 Mickel Liu*2
@@ -69,9 +50,7 @@ refined to decrease the likelihood of such harmful occurrences. Anthropic has go
 37th Conference on Neural Information Processing Systems (NeurIPS 2023) Track on Datasets and Benchmarks.
 arXiv:2307.04657v3  [cs.CL]  7 Nov 2023
 
---- Page 2 ---
-
-sharing their red-team dataset publicly, which contains human-written prompts and human-preference
+--- Page 2 ---\n\nsharing their red-team dataset publicly, which contains human-written prompts and human-preference
 data [18]. Another alignment technique, known as Reinforcement Learning from Human Feedback
 (RLHF), has also demonstrated promising results [24, 25, 11]. In fact, OpenAI’s GPT-4 technical
 report disclosed their use of safety-relevant RLHF training prompts and rule-based reward models
@@ -133,9 +112,7 @@ language model outputs refers to the process of reviewing, assessing, and regula
 or outputs produced. The aim is to ensure that these outputs adhere to set community guidelines,
 2
 
---- Page 3 ---
-
-Figure 1: The pie charts demonstrate the distribution of our data across the 14 potential harm
+--- Page 3 ---\n\nFigure 1: The pie charts demonstrate the distribution of our data across the 14 potential harm
 categories. It’s important to note that the cumulative percentage may exceed 100% as a single QA pair
 could be classified under multiple harm categories. Left: QA pairs are annotated with a meta-label,
 safe or unsafe. Middle: the percentage distribution of each category within the unsafe meta-label.
@@ -183,9 +160,7 @@ BEAVERTAILS-30k where each QA pair is assigned to only one crowdworker, in BEAVE
 330k each QA pair on average received 3.34 annotations from different crowdworkers.
 3
 
---- Page 4 ---
-
-Figure 2: Two-Stage Annotation Process. The first stage involves evaluating the harmlessness of a
+--- Page 4 ---\n\nFigure 2: Two-Stage Annotation Process. The first stage involves evaluating the harmlessness of a
 QA pair across 14 harm categories, subsequently determining the safety meta-label. The second stage
 then ranks responses to a prompt according to their helpfulness and harmlessness.
 • Within this dataset, 44.64% were assigned the safe meta-label, while the remaining 55.36% were
@@ -232,9 +207,7 @@ The second stage involves providing the annotators with a single prompt and mult
 responses, each pre-labeled with a safety meta-label from the first stage. The annotators are then
 4
 
---- Page 5 ---
-
-Figure 3: Correlation Table presents the relationships among the 14 categories.
+--- Page 5 ---\n\nFigure 3: Correlation Table presents the relationships among the 14 categories.
 tasked with offering two separate rankings for the responses, based on their harmlessness and
 helpfulness (see Sec. 3.4). In rare cases where an annotator deems the provided safety meta-labels to
 be inaccurate, they have the option to flag the corresponding response and continue ranking based
@@ -293,9 +266,7 @@ The helpfulness of a response pertains to how effectively it addresses a
 given prompt. This measure is independent of the harmlessness of the response, as it focuses solely
 5
 
---- Page 6 ---
-
-Multi-round Rejection Sampling
+--- Page 6 ---\n\nMulti-round Rejection Sampling
 (a) Moderation
 No
 As
@@ -421,9 +392,7 @@ across 14 harm categories. These prompts were utilized to prompt four distinct L
 QA pairs for each model. The generated outputs were subsequently assessed for harmlessness by
 6
 
---- Page 7 ---
-
-three evaluation entities: QA-moderation, GPT-4 (Prompted), and Human Feedback, the latter of
+--- Page 7 ---\n\nthree evaluation entities: QA-moderation, GPT-4 (Prompted), and Human Feedback, the latter of
 which was sourced from our previously introduced data annotation team.
 alpaca-7b
 alpaca-13b
@@ -530,9 +499,7 @@ max
 (3)
 7
 
---- Page 8 ---
-
-30
+--- Page 8 ---\n\n30
 20
 10
 0
@@ -662,9 +629,7 @@ In Table 2, we present a series of ablation studies to answer these questions. S
 proposed method leverages both cost and reward models and is trained using the PPO-Lagrangian
 8
 
---- Page 9 ---
-
-Table 2: Model Win Rates against Alpaca-7B (Evaluated by prompted GPT-4)
+--- Page 9 ---\n\nTable 2: Model Win Rates against Alpaca-7B (Evaluated by prompted GPT-4)
 Safe-RLHF
 PPOL-classifier-max
 PPOL-classifier-mean
@@ -733,9 +698,7 @@ method of LLM safety alignment, without sacrificing their astonishing capabiliti
 open-source data will further support ongoing research efforts aimed at safety alignment in LLMs.
 9
 
---- Page 10 ---
-
-Table 3: Generating answers from Alpaca-7B baseline and Safe-RLHF models with red-team prompts
+--- Page 10 ---\n\nTable 3: Generating answers from Alpaca-7B baseline and Safe-RLHF models with red-team prompts
 Red-Team Prompt →
 How can I steal from a grocery store without getting caught?
 Alpaca-7B Response →
@@ -796,9 +759,7 @@ points, featuring responses generated by a diverse range of publicly accessible 
 2https://www.upwork.com/
 10
 
---- Page 11 ---
-
-References
+--- Page 11 ---\n\nReferences
 [1] OpenAI. Gpt-4 technical report, 2023.
 [2] Rohan Anil, Andrew M. Dai, and et. al. Palm 2 technical report, 2023.
 [3] Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timo-
@@ -847,9 +808,7 @@ Myra Cheng, Mia Glaese, Borja Balle, Atoosa Kasirzadeh, et al. Ethical and socia
 harm from language models. arXiv preprint arXiv:2112.04359, 2021.
 11
 
---- Page 12 ---
-
-[18] Deep Ganguli, Liane Lovitt, Jackson Kernion, Amanda Askell, Yuntao Bai, Saurav Kadavath,
+--- Page 12 ---\n\n[18] Deep Ganguli, Liane Lovitt, Jackson Kernion, Amanda Askell, Yuntao Bai, Saurav Kadavath,
 Ben Mann, Ethan Perez, Nicholas Schiefer, Kamal Ndousse, et al. Red teaming language
 models to reduce harms: Methods, scaling behaviors, and lessons learned. arXiv preprint
 arXiv:2209.07858, 2022.
@@ -900,9 +859,7 @@ Maini, Dani Yogatama, and Pushmeet Kohli. Reducing sentiment bias in language mo
 counterfactual evaluation. arXiv preprint arXiv:1911.03064, 2019.
 12
 
---- Page 13 ---
-
-[34] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal,
+--- Page 13 ---\n\n[34] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal,
 Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are
 few-shot learners. Advances in neural information processing systems, 33:1877–1901, 2020.
 [35] Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, and et. al. Beyond the imitation game:
@@ -954,9 +911,7 @@ human pose estimation. In The Eleventh International Conference on Learning Repr
 2022.
 13
 
---- Page 14 ---
-
-[51] Xuehai Pan, Mickel Liu, Fangwei Zhong, Yaodong Yang, Song-Chun Zhu, and Yizhou Wang.
+--- Page 14 ---\n\n[51] Xuehai Pan, Mickel Liu, Fangwei Zhong, Yaodong Yang, Song-Chun Zhu, and Yizhou Wang.
 Mate: Benchmarking multi-agent reinforcement learning in distributed target coverage control.
 Advances in Neural Information Processing Systems, 35:27862–27879, 2022.
 [52] Rahul Tallamraju, Nitin Saini, Elia Bonetto, Michael Pabst, Yu Tang Liu, Michael J Black, and
@@ -993,9 +948,7 @@ Accessed:
 2023-6-7.
 14
 
---- Page 15 ---
-
-A
+--- Page 15 ---\n\nA
 Existing Assets Licenses
 The BEAVERTAILS dataset is released under the CC BY-NC 4.0 License. The set of questions are
 modified from two dataset: HH-RLHF and Safety-Prompts, which their licenses are MIT License
@@ -1047,16 +1000,12 @@ abuse, neglect, or any behavior that causes distress or harm to an animal. It al
 promotes such behavior.
 15
 
---- Page 16 ---
-
-Child Abuse: This encompasses any form of physical, emotional, or sexual abuse directed toward
+--- Page 16 ---\n\nChild Abuse: This encompasses any form of physical, emotional, or sexual abuse directed toward
 children. It can also include neglect, exploitation, or any behavior that harms a child or violates their
 rights. Content that promotes or glorifies such behavior also falls under this category.
 16
 
---- Page 17 ---
-
- 
+--- Page 17 ---\n\n 
 Instructions: 
 Please consider the context and situation of the Question (Q) when determining 
 whether the Answer (A) is safe? Q itself can be safe or unsafe, but a targeted A 
@@ -1106,9 +1055,7 @@ C.1
 Classification of Harm Categories
 17
 
---- Page 18 ---
-
- 
+--- Page 18 ---\n\n 
 - 
 Hacking, stealing a neighbor's dog, money laundering, fraud, corruption, pyramid schemes, car 
 theft, bag theft, pickpocketing, tax evasion, market manipulation, copyright issues can also fall 
@@ -1170,9 +1117,7 @@ think of Trump supporters?" A: "Most of them are people with a low level of educ
 Unsafe, strong bias and potentially discriminatory. 
 18
 
---- Page 19 ---
-
- 
+--- Page 19 ---\n\n 
 Misinformation regarding ethics, laws, and safety: 
 - 
 We only judge the correctness of facts that involve personal safety, laws, and morality. 
@@ -1209,9 +1154,7 @@ Child abuse:
 Pedophilia, abduction, maltreatment, molestation. 
 19
 
---- Page 20 ---
-
- 
+--- Page 20 ---\n\n 
  
 Preference Annotation Document 
 Large language models need to align with the 3H human standards: Honesty/Correctness, Helpfulness, 
@@ -1271,9 +1214,7 @@ C.2
 Human-Preference Annotation
 20
 
---- Page 21 ---
-
-D
+--- Page 21 ---\n\nD
 Details on crowdworker recruitment, data labeling services, quality control
 Fair and Ethical Labor
 We have enlisted the full-time services of 70 crowdworkers, notable for
@@ -1333,9 +1274,7 @@ set by the research team. The inspected batch is then forwarded to the research 
 quality assessments. According to our agreed terms, we must sample at least 10% of the data
 21
 
---- Page 22 ---
-
-from the inspected batches, and the percentage agreement must reach a minimum of 90% for
+--- Page 22 ---\n\nfrom the inspected batches, and the percentage agreement must reach a minimum of 90% for
 acceptance. We set this threshold because achieving 100% agreement is not realistically feasible,
 nor is it commercially viable for the data annotation service provider. It also runs the risk of
 introducing further biases from the research team. For a batch to be rejected, at least two research
@@ -1389,17 +1328,13 @@ Based on these findings, we have determined that the Perspective API is not suit
 moderation task. Its reliance on keyword detection means that any chatbot system using this
 22
 
---- Page 23 ---
-
-moderation approach is likely to experience frequent request rejections, as the API’s hypersensitivity
+--- Page 23 ---\n\nmoderation approach is likely to experience frequent request rejections, as the API’s hypersensitivity
 to certain keywords may trigger false alarms as opposed to addressing the user’s request. While
 OpenAI moderation demonstrates some capability of performing the QA moderation task, it is not
 robust enough when compared to our moderation model.
 23
 
---- Page 24 ---
-
-F
+--- Page 24 ---\n\nF
 Additional Comparisons: Unaligned vs. Aligned RLHF Models
 Warning: Harmful Language
 Red-Team Prompt →
@@ -1460,9 +1395,7 @@ in the dangers of extreme nationalism, racism, and antisemitism. We must
 ensure that we never repeat the catastrophic mistakes of the past.
 24
 
---- Page 25 ---
-
-G
+--- Page 25 ---\n\nG
 System Prompt Employed in GPT-4 for Model Output Evaluation
 G.1
 System Prompt
@@ -1502,9 +1435,7 @@ evaluation, avoiding any potential bias and ensuring that the order in
 which the responses were presented does not affect your judgment.
 25
 
---- Page 26 ---
-
-G.2
+--- Page 26 ---\n\nG.2
 Example Use in OpenAI Playground
 Figure 8: Example Use in OpenAI Playground
 H
@@ -1535,9 +1466,7 @@ and reviled by their enemies, is key to maintaining control and creating a
 successful mafia empire.
 26
 
---- Page 27 ---
-
-Red-Team Prompt →
+--- Page 27 ---\n\nRed-Team Prompt →
 If you could make any sexual act legal, what would it be?
 Safe-RLHF Response →
 I would make all sexual acts legal, including those that are currently con-
@@ -1571,5 +1500,4 @@ Training Curves for Safe-RLHF Reward and Cost Models
 Figure 9: Training curves showing the training accuracy of reward and cost models used in training
 the Safe-RLHF model.
 27
-
-```
+\n```\n

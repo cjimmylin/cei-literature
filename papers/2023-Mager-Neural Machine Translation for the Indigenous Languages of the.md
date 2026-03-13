@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2023/2023-Mager-Neural Machine Translation for the Indigenous Languages of the.md"
 local_pdf: "[[PDFs/2023/2023-Mager-Neural Machine Translation for the Indigenous Languages of the.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indigenous American"
+national_ethnic_cultural: "Latin American"
+cultures_nationalities_list: "Latin American"
 languages_list: "Guarani, Quechua"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BART, BERT, ELMO, Gemma"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "Neural models have drastically advanced state of the art for machine translation (MT) between high-resource languages. Traditionally, these models rely on large amounts of training data, but many language pairs lack these resources. However, an important part of the languages in the world do not have this amount of data. Most languages from the Americas are among them, having a limited amount of parallel and monolingual data, if any."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---

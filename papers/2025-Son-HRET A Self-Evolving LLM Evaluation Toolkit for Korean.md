@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Gemma, Gemma2, Llama 3.2, Llama-3, Llama-3., Llama-3.2, Qwen, Qwen2, Qwen2.5, Qwen3, GPT-4o, Llama"
-DATA_URL: "https://huggingface.co/meta-llama/Llama-3"
+LLM_assessed: "GPT-4o, Qwen, Llama-3, Gemma-2"
+DATA_URL: NA
 tags: 
 abstract: "Recent advancements in Korean large language models (LLMs) have driven numerous benchmarks and evaluation methods, yet inconsistent protocols cause up to 10 pp performance gaps across institutions. Overcoming these reproducibility gaps does not mean enforcing a one-size-fits-all evaluation. Rather, effective benchmarking requires diverse experimental approaches and a framework robust enough to support them."
 CONFERENCE: "Preprint"

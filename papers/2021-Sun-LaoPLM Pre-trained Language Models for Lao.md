@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ publication: "ACL Anthology (LREC 2022)"
 CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Laotian"
+cultures_nationalities_list: "N/A"
 languages_list: "Lao"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Trained on the large corpus, pre-trained language models (PLMs) can capture different levels of concepts in context and hence generate universal language representations. They can benefit multiple downstream natural language processing (NLP) tasks. Although PTMs have been widely used in most NLP applications, especially for high-resource languages such as English, it is under-represented in Lao NLP research."
-LLM_assessed: "BERT, ELECTRA, RoBERTa"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/GKLMIP/Yunshan-Cup-2020"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2022"
@@ -99,7 +102,8 @@ First transformer-based pre-trained language models for Lao (BERT-Small, BERT-Ba
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ELECTRA, RoBERTa. Verified dataset/resource link: https://github.com/GKLMIP/Yunshan-Cup-2020.
+First transformer-based pre-trained language models for Lao (BERT-Small/Base, ELECTRA-Small/Base) plus a Lao news classification dataset (2,968 articles, 8 categories).
+
 
 ## Notes
 

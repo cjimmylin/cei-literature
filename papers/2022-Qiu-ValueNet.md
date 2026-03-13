@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,7 @@ paper_summary: "Abstract: Building a socially intelligent agent involves many ch
 local_pdf: "[[PDFs/2022/2022-Qiu-ValueNet.pdf]]"
 CONF-CC: "AAAI 2022"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, RoBERTa, BART"
+LLM_assessed: "BART, BERT, RoBERTa"
 DATA_URL: "https://liang-qiu.github.io/ValueNet/"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -59,7 +63,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
@@ -99,7 +103,7 @@ Building a socially intelligent agent involves many challenges, one of which is 
 
 ## Data Description
 
-VALUENET is a large-scale dataset containing human attitudes on 21,374 text scenarios organized across ten Schwartz basic human value dimensions (e.g., security, power, achievement, benevolence). Scenarios were curated from SOCIAL-CHEM-101 using value-related keywords and annotated by 443 qualified Amazon Mechanical Turk workers for positive, negative, or neutral attitudes. The dataset was used to train Transformer-based value regression models (BERT, RoBERTa, DistilBERT, BART) and applied to personalized dialogue generation and empathetic response generation tasks.
+VALUENET: 21,374 text scenarios annotated with human attitudes across 10 Schwartz value dimensions for dialogue systems.
 
 
 ## Notes

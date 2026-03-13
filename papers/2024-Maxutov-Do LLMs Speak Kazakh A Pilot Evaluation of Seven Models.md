@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2024/2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of 
 pdf_extract: "PDF Extracts/2024/2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kazakh"
+cultures_nationalities_list: "N/A"
 languages_list: "English, Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2, AYA, YandexGPT-2, YandexGPT-3"
+LLM_assessed: "Aya, Gemini, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://github.com/akylbekmaxutov/LLM-eval-using-Kazakh"
 tags: 
 abstract: "Systematic evaluation of seven LLMs on tasks in Kazakh across six datasets covering QA, causal reasoning, math problems, translation, and spelling correction. GPT-4 shows best results. LLM performance on Kazakh tasks is lower than on parallel English tasks."
@@ -96,7 +100,7 @@ Systematic evaluation of seven LLMs on tasks in Kazakh across six datasets cover
 
 ## Data Description
 
-This study evaluates seven LLMs on Kazakh language tasks using six datasets covering question answering, causal reasoning, middle school math, machine translation, and spelling correction. Three datasets were newly prepared for this study. GPT-4 achieved the best results overall, followed by Gemini and AYA, with all models performing significantly worse on Kazakh compared to parallel English tasks.
+Three datasets prepared for this study: a Kazakh spelling correction dataset (created from scratch), a machine-translated COPA dataset for causal reasoning, and Kazakh math school problems scraped and post-processed from online sources.
 
 
 ## Notes

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -84,7 +87,7 @@ Hallucinations pose a significant challenge to the reliability and alignment of 
 
 ## Data Description
 
-HypoTermQA is a benchmarking dataset of 19,508 questions designed to evaluate LLMs' hallucination tendencies using hypothetical terms. The dataset combines hypothetical phenomena paired with valid terms across 20 popular internet topics, with questions generated using three methods (LLM suggestion, title similarity, and text similarity). Each adversarial question is accompanied by control questions, and the framework includes LLM-based evaluator agents for automated hallucination detection with a 6% error rate.
+Introduces HypoTermQA, a hallucination benchmark dataset of questions about hypothetical non-existent terms across 20 topics, designed to benchmark LLMs' tendency to hallucinate content about fabricated concepts.
 
 
 ## Notes

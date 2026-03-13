@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ tags:
 abstract: "Moral foundations theory (MFT) is a social psychological theory that decomposes human moral reasoning into five factors, including care/harm, liberty/oppression, and sanctity/degradation (Graham et al., 2009). People vary in the weight they place on these dimensions when making moral decisions, in part due to their cultural upbringing and political ideology. As large language models (LLMs) are trained on datasets collected from the internet, they may reflect the biases that are present in such..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3, GPT-3.5, ChatGPT, PaLM"
+LLM_assessed: "ChatGPT, GPT-3, PaLM"
 DATA_URL: "https://github.com/abdulhaim/moral_foundations_llms"
 pdf_extract: "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md"
 local_pdf: "[[PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,7 @@ Moral foundations theory (MFT) is a psychological assessment tool that decompose
 
 ## Data Description
 
-The study applies the Moral Foundations Questionnaire (MFQ), a 30-item inventory measuring five moral dimensions, to evaluate moral foundations in GPT-3 (Babbage, Curie, DaVinci2, DaVinci3 engines) and PaLM (62B). Each question was administered 50 times with varied prompt configurations to assess consistency, political bias, susceptibility to adversarial moral prompting, and downstream behavioral effects on a charitable donation task.
+Code for applying the Moral Foundations Questionnaire to LLMs and analyzing their moral biases.
 
 
 ## Notes

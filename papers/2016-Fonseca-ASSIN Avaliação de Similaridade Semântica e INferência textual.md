@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +49,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Brazilian, Portuguese"
-languages_list: Portuguese
+cultures_nationalities_list: "Brazilian"
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,9 +65,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -99,7 +102,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-ASSIN is a Portuguese NLU benchmark consisting of 10,000 sentence pairs (5,000 Brazilian Portuguese + 5,000 European Portuguese) annotated for semantic similarity and textual entailment. ASSIN-2 extends this with 6,500 additional training pairs for Brazilian Portuguese. It serves as a foundational benchmark for Portuguese language understanding. No LLMs were evaluated in the original paper.
+ASSIN is a benchmark dataset of 10,000 sentence pairs (Brazilian and European Portuguese) annotated for semantic similarity and textual entailment; ASSIN-2 extends this with 6,500 additional training pairs for Brazilian Portuguese.
 
 
 ## Notes

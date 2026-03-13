@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +47,13 @@ pdf_extract: "PDF Extracts/2023/2023-Avetisyan-Large Language Models and Low-Res
 local_pdf: "[[PDFs/2023/2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Armenian"
-languages_list: Armenian
+cultures_nationalities_list: "N/A"
+languages_list: "Armenian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "This paper presents a comprehensive review of Natural Language Processing (NLP) research on Armenian, a language that, despite its rich history and unique linguistic characteristics, is currently low-resource in the field of NLP. We critically synthesize and evaluate various studies in Armenian NLP, highlighting key advancements, challenges, and areas for improvement. A notable aspect of our work is the underlined lack of application of Large Language Models (LLMs) in Armenian NLP, signifying..."
@@ -61,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

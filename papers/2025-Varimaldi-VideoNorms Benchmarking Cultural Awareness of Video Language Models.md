@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +47,8 @@ local_pdf: "[[PDFs/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural Awarenes
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Chinese, American"
-cultures_nationalities_list: "American, Chinese"
+national_ethnic_cultural: "Chinese, American, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, American, Multicultural/Cross-cultural"
 languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -53,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As Video Large Language Models (VideoLLMs) are deployed globally, they require understanding of and grounding in the relevant cultural background. To properly assess these models’ cultural awareness, adequate benchmarks are needed. We introduce VIDEONORMS, a benchmark of over 1000 (video clip, norm) pairs from US and Chinese cultures annotated with socio-cultural norms grounded in speech act theory, norm adherence and violations labels, and verbal and non-verbal evidence."
-LLM_assessed: "Gemini, Qwen"
+LLM_assessed: "Gemini, LLaVA"
 DATA_URL: "https://github.com/nikhilreddy3/VideoNorms"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
@@ -97,7 +100,8 @@ As Video Large Language Models (VideoLLMs) are deployed globally, they require u
 
 ## Data Description
 
-VIDEONORMS is a benchmark of over 1,000 (video clip, norm) pairs from US and Chinese cultures for evaluating cultural awareness of Video Language Models. The dataset contains 15-second clips from 8 TV shows (4 US, 4 Chinese) annotated with socio-cultural norms grounded in speech act theory, norm adherence/violation labels, and verbal/non-verbal evidence. The teacher model Gemini-2.0-Pro was used for initial annotation, with subsequent validation by 3 trained human annotators per instance. Seven open-weight VideoLLMs were benchmarked including LLaVA-Next-Video, LLaVA-OneVision, InternVL-3, InternVL-3.5, Qwen2-VL, Qwen2.5-VL, and VideoChatR1.
+VIDEONORMS is a benchmark of over 1,000 (video clip, norm) pairs from US and Chinese TV shows, annotated with socio-cultural norms, norm adherence/violation labels, and verbal/non-verbal evidence. It covers four US and four Chinese television shows in workplace and informal social settings.
+
 
 ## Notes
 

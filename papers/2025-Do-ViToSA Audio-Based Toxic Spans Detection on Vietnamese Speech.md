@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +48,13 @@ CONF-CC: "INTERSPEECH 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, DistilBERT"
-DATA_URL: "NA"
+LLM_assessed: "BERT"
+DATA_URL: "https://huggingface.co/datasets/ViToSAResearch/ViToSA_Dataset"
 tags: 
 abstract: "Toxic speech on online platforms is a growing concern, impacting user experience and online safety. While text-based toxicity detection is well-studied, audio-based approaches remain underexplored, especially for low-resource languages like Vietnamese. This paper introduces VITOSA (Vietnamese Toxic Spans Audio), the first dataset for toxic spans detection in Vietnamese speech, comprising 11,000 audio samples (25 hours) with accurate human-annotated transcripts."
 CONFERENCE: "Preprint"
@@ -61,8 +64,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +99,8 @@ First benchmark for toxic spans detection in Vietnamese speech. 11,000 audio sam
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DistilBERT. No high-confidence repository-style data URL was identified.
+Introduces VITOSA, the first dataset for toxic spans detection in Vietnamese speech, comprising 11,802 audio-transcript pairs (24.75 hours) with human-annotated toxic span labels. Released on HuggingFace for ASR and toxic spans detection research.
+
 
 ## Notes
 

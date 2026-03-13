@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "NAACL 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: Indonesian
+languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOMZ, ChatGPT, GPT-4, Llama-2"
-DATA_URL: "https://github.com/haryoa/COPAL-ID"
+LLM_assessed: "BLOOM, ChatGPT, GPT-4, Llama-2"
+DATA_URL: "https://huggingface.co/datasets/haryoaw/COPAL"
 tags: 
 abstract: "We present COPAL-ID, a novel, public Indonesian language common sense reasoning dataset. Unlike the previous Indonesian COPA dataset (XCOPA-ID), COPAL-ID incorporates Indonesian local and cultural nuances, and therefore, provides a more natural portrayal of day-to-day causal reasoning within the Indonesian cultural sphere. Professionally written by natives from scratch, COPAL-ID is more fluent and free from awkward phrases, unlike the translated XCOPA-ID."
 CONFERENCE: "NAACL 2024"
@@ -61,8 +65,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "559 instances"
@@ -98,7 +102,8 @@ Indonesian common sense reasoning dataset incorporating local and cultural nuanc
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOMZ, ChatGPT, GPT-4, Llama-2. Verified dataset/resource link: https://github.com/haryoa/COPAL-ID.
+COPAL-ID is a 559-instance Indonesian common-sense reasoning dataset (standard + Jakartan dialect) professionally written by native speakers to capture local cultural nuances. Also available via the GitHub repo https://github.com/haryoa/COPAL-ID.
+
 
 ## Notes
 

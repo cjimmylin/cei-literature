@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -66,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Machine Ethics"
 is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

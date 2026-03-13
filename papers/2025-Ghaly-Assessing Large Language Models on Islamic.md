@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,16 +51,16 @@ local_pdf: "[[PDFs/2025/2025-Ghaly-Assessing Large Language Models on Islamic.pd
 publication: "ArabicNLP 2025 (3rd Arabic NLP Conference) / arXiv"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Islamic"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This paper evaluates the knowledge and reasoning capabilities of Large Language Models in Islamic inheritance law, known as 'ilm al-maw¯ar¯ıth. We assess the performance of seven LLMs using a benchmark of 1,000 multiple-choice questions covering diverse inheritance scenarios, designed to test each model’s ability, from understanding the inheritance context to computing the distribution of shares prescribed by Islamic jurisprudence."
-LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama, LLaMA 3, Mistral, Mistral 44.5 58, Mistral-Saba"
+LLM_assessed: "Gemini, GPT-4, Llama-3, Mistral, o3"
 DATA_URL: "https://github.com/bouchekif/inheritance_evaluation"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -64,9 +68,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,8 @@ Evaluates 7 LLMs on Islamic inheritance law ('ilm al-mawarith). O3 and Gemini 2.
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-3, GPT-3.5, GPT-4, Llama, LLaMA 3, Mistral, Mistral 44.5 58, Mistral-Saba. Verified dataset/resource link: https://github.com/bouchekif/inheritance_evaluation.
+1,000 multiple-choice questions on Islamic inheritance law (ilm al-mawarith) at two difficulty levels (beginner/advanced), with expert-reviewed annotations and error categorization.
+
 
 ## Notes
 

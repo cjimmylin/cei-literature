@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-Yu-TLUE A Tibetan Language Understanding Evaluation
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Tibetan"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Tibetan"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models have made tremendous progress in recent years, but low-resource languages, like Tibetan, remain significantly underrepresented in their evaluation. Despite Tibetan being spoken by over seven million people, it has largely been neglected in the development and assessment of large language models. To address this gap, we present a Tibetan Language Understanding Evaluation Benchmark, TLUE, the first large-scale benchmark for measuring the proficiency of LLMs in the Tibetan..."
-LLM_assessed: "ChatGPT, Claude, Claude 3, Claude 3.5-Sonnet, Claude-3.5, Claude-3.5-Sonnet, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT 4O, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT4, GPT4O, Llama, LlaMA 3.1, LlaMA-3.1, Llama3.1, Qwen, Qwen 2.5, Qwen 3.5, Qwen-2.5, Qwen-chat, Qwen2.5, llama 3"
+LLM_assessed: "Claude-3, DeepSeek, GPT-3.5, GPT-4o, Gemini, LLaMA, Llama-3, Qwen-2, o1"
 DATA_URL: "https://github.com/Vicentvankor/TLUE"
 ethics_perspective: "AI Safety & Alignment"
 CONFERENCE: "Preprint"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, Claude, Claude 3, Claude 3.5-Sonnet, Claude-3.5, Claude-3.5-Sonnet, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT 4O, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT4, GPT4O, Llama, LlaMA 3.1, LlaMA-3.1, Llama3.1, Qwen, Qwen 2.5, Qwen 3.5, Qwen-2.5, Qwen-chat, Qwen2.5, llama 3. Verified dataset/resource link: https://github.com/Vicentvankor/TLUE.
+TLUE is the first large-scale Tibetan Language Understanding Evaluation benchmark, comprising 22,963 questions across Ti-MMLU (67 knowledge subdomains) and Ti-SafetyBench (7 safety categories), translated from CMMLU and SafetyBench and manually verified by Tibetan language experts.
+
 
 ## Notes
 

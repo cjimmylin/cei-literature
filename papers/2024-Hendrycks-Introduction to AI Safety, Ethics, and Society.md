@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -59,7 +62,7 @@ paper_summary: "Overview: Introduction to AI Safety, Ethics, and Society This is
 local_pdf: "[[PDFs/2024/2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.pdf]]"
 abstract: "Artificial Intelligence is rapidly embedding itself within militaries, economies, and societies, reshaping their very foundations. Given the depth and breadth of its consequences, it has never been more pressing to understand how to ensure that AI systems are safe, ethical, and have a positive societal impact. This book aims to provide a comprehensive approach to understanding AI risk. Our primary goals include consolidating fragmented knowledge on AI risk, increasing the precision of core ideas"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, ChatGPT, GPT-4, Llama-2"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -104,7 +107,7 @@ Artificial Intelligence is rapidly embedding itself within militaries, economies
 
 ## Data Description
 
-This paper is a comprehensive textbook manuscript covering AI safety, ethics, and society across 630 pages. It discusses topics including catastrophic AI risks, safety engineering, complex systems, beneficial AI, machine ethics, and fairness, but does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+Comprehensive textbook on AI safety, ethics, and society covering catastrophic risks, safety engineering, machine ethics, and governance; does not test models or release datasets.
 
 
 ## Notes

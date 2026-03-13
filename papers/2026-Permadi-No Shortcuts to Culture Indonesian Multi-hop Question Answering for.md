@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,8 +55,8 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude 3.7 sonnet, Claude-3.7, Claude-3.7-Sonnet, DeepSeek-AI, DeepSeek-V3, GPT-4o, Gemma, Gemma2, Llama3.1, Llama3.3, Qwen2.5, llama 3"
-DATA_URL: "NA"
+LLM_assessed: "Claude, Claude-3, DeepSeek, Gemma, Gemma-2, GPT-4o, Llama-3, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/vynsk/ID-MoCQA"
 tags: 
 abstract: "Understanding culture requires reasoning across context, tradition, and implicit social knowledge, far beyond recalling isolated facts. Yet most culturally focused question answering (QA) benchmarks rely on singlehop questions, which may allow models to exploit shallow cues rather than demonstrate genuine cultural reasoning. In this work, we introduce ID-MoCQA, the first large-scale multi-hop QA dataset for assessing the cultural understanding of large language models (LLMs), grounded in..."
 CONFERENCE: "Preprint"
@@ -61,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
@@ -97,7 +101,8 @@ First large-scale multi-hop QA dataset (15,590 questions) for assessing LLM cult
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude 3.7 sonnet, Claude-3.7, Claude-3.7-Sonnet, DeepSeek-AI, DeepSeek-V3, GPT-4o, Gemma, Gemma2, Llama3.1, Llama3.3, Qwen2.5, llama 3. No high-confidence repository-style data URL was identified.
+ID-MoCQA is the first large-scale multi-hop QA dataset (15,590 questions) for assessing LLM cultural understanding grounded in Indonesian traditions, available in both English and Indonesian. Questions are transformed from single-hop cultural questions into multi-hop reasoning chains spanning six clue types.
+
 
 ## Notes
 

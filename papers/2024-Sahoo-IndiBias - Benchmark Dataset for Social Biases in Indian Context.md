@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Warning: This paper contains examples and case studies that may be offensive. The pervasive influence of social biases in language data has sparked the need for benchmark datasets that capture and evaluate these biases in Large Language Models (LLMs). Existing efforts predominantly focus on English language and the Western context, leaving a void for a reliable dataset that encapsulates India’s unique socio-cultural nuances."
-LLM_assessed: "Llama-2, Mistral, BLOOM, T5"
+LLM_assessed: "Llama-2, Mistral, BLOOM"
 DATA_URL: "https://github.com/sahoonihar/IndiBias"
 CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
@@ -98,7 +103,8 @@ Warning: This paper contains examples and case studies that may be offensive. Th
 
 ## Data Description
 
-IndiBias is a benchmark dataset for measuring social biases in language models in the Indian context. It contains 800 sentence pairs in English and Hindi (adapted from CrowS-Pairs and augmented via LLMs), 300 stereotypical attribute tuples across seven bias dimensions (gender, religion, caste, age, region, physical appearance, occupation), and approximately 1,000 bleached sentences for evaluating intersectional biases along gender-religion, gender-caste, and gender-age axes.
+IndiBias is a benchmark dataset of 800 sentence pairs and 300 tuples in English and Hindi measuring social biases across seven dimensions (gender, religion, caste, age, region, physical appearance, occupation) and three intersectional axes in the Indian context.
+
 
 ## Notes
 

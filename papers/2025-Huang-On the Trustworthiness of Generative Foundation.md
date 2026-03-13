@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ paper_summary: "Overview: On the Trustworthiness of Generative Foundation Models
 local_pdf: "[[PDFs/2025/2025-Huang-On the Trustworthiness of Generative Foundation.pdf]]"
 abstract: "Generative Foundation Models (GenFMs) have emerged as transformative tools, driving advancements across diverse domains. However, their widespread adoption raises critical concerns regarding trustworthiness across dimensions such as truthfulness, safety, fairness, robustness, and privacy. In this paper, we present a comprehensive framework to address these challenges through three key contributions."
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-3, Llama, Mistral, Mixtral, Claude, Gemini, Gemma, Qwen, DeepSeek"
+LLM_assessed: "Claude, Claude-3 Haiku, GPT-3.5, GPT-4o, GPT-4o mini, Gemini, Gemma-2, Llama-3, Mistral, Mixtral, Qwen, Qwen-2, o1-mini, o1-preview"
 DATA_URL: "https://github.com/TrustGen/TrustEval-toolkit"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -96,7 +100,7 @@ Generative Foundation Models (GenFMs) have emerged as transformative tools, driv
 
 ## Data Description
 
-This paper presents TrustGen, a dynamic benchmarking platform for evaluating trustworthiness of Generative Foundation Models across multiple dimensions (truthfulness, safety, fairness, robustness, privacy, machine ethics, and advanced AI risks) for text-to-image, large language, and vision-language models. The comprehensive evaluation covers numerous state-of-the-art models including GPT-4o, Llama-3.2-70B, Claude 3.5 Sonnet, Gemini, Gemma 2, DALL-E-3, Stable Diffusion, and many others, revealing that while overall trustworthiness has improved, persistent challenges remain in areas like exaggerated safety and open-source system vulnerabilities.
+Releases the TrustEval evaluation toolkit with dynamic test case generation for assessing trustworthiness of generative foundation models across multiple dimensions; not a static dataset release.
 
 
 ## Notes

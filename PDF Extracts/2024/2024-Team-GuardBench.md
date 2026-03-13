@@ -1,23 +1,4 @@
----
-title: "2024-Team-GuardBench - PDF Extract"
-source_pdf: "2024-Team-GuardBench.pdf"
-pages: 17
-extracted_at: "2026-02-08T06:02:19.386186"
----
-
-# PDF Extract: 2024-Team-GuardBench
-
-**Source PDF:** 2024-Team-GuardBench.pdf
-**Total Pages:** 17
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 18393–18409
+---\ntitle: "2024-Team-GuardBench - PDF Extract"\nsource_pdf: "2024-Team-GuardBench.pdf"\npages: 17\nextracted_at: "2026-02-14T02:17:30.196456"\n---\n\n# PDF Extract: 2024-Team-GuardBench\n\n**Source PDF:** 2024-Team-GuardBench.pdf\n**Total Pages:** 17\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nProceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 18393–18409
 November 12-16, 2024 ©2024 Association for Computational Linguistics
 GuardBench: A Large-Scale Benchmark for Guardrail Models
 Elias Bassani
@@ -115,9 +96,7 @@ ding some light on the state-of-the-art and show
 a general-purpose instruction-following model of
 18393
 
---- Page 2 ---
-
-comparable size achieves competitive results with-
+--- Page 2 ---\n\ncomparable size achieves competitive results with-
 out the need for specific fine-tuning.
 Our contributions can be summarized as follows:
 • We introduce a large-scale benchmark for
@@ -221,9 +200,7 @@ safe responses to unsafe questions and instructions
 2https://safetyprompts.com
 18394
 
---- Page 3 ---
-
-from previous works to obtain a novel large-scale
+--- Page 3 ---\n\nfrom previous works to obtain a novel large-scale
 conversational dataset for our evaluation. The fi-
 nal list of datasets comprised in our benchmark is
 presented in Table 1.
@@ -326,9 +303,7 @@ of datasets used to derive our multi-lingual datasets
 is available in Appendix A.2.
 18395
 
---- Page 4 ---
-
-Dataset
+--- Page 4 ---\n\nDataset
 Category
 Sub-category
 Total
@@ -783,9 +758,7 @@ with the same name that we hope will facilitate
 the adoption of our benchmark as a standard for
 18396
 
---- Page 5 ---
-
-guardrail models evaluation. The main design prin-
+--- Page 5 ---\n\nguardrail models evaluation. The main design prin-
 ciples behind the implementation of our Python li-
 brary are as follows: 1) reproducibility, 2) usability,
 3) automation, and 4) extendability. As exemplified
@@ -887,9 +860,7 @@ fine-tuning Mistral 7B (Jiang et al., 2023)
 7https://ai.meta.com/blog/meta-llama-3
 18397
 
---- Page 6 ---
-
-on BeaverTails330K (Ji et al., 2023), Toxic
+--- Page 6 ---\n\non BeaverTails330K (Ji et al., 2023), Toxic
 Chat (Lin et al., 2023), and LMSYS-Chat-1M
 (Zheng et al., 2023) by Li et al. (2024).
 • Toxic Chat T5: guardrail model obtained by
@@ -995,9 +966,7 @@ sification, content moderation models often per-
 form closer to guardrail models when assessing
 18398
 
---- Page 7 ---
-
-Model
+--- Page 7 ---\n\nModel
 Alias
 Category
 Base Model
@@ -1739,9 +1708,7 @@ tral shows better performance than Llama Guard.
 Overall, MD-Judge achieves the best performance
 18399
 
---- Page 8 ---
-
-among all the considered models, outperforming
+--- Page 8 ---\n\namong all the considered models, outperforming
 the more recent Llama Guard 2, Llama Guard De-
 fensive, and Llama Guard Permissive. To answer
 RQ2, MD-Judge is the best-performing model at
@@ -1846,9 +1813,7 @@ prompts, while we register more pronounced dif-
 ferences when used to moderate conversations. Fi-
 18400
 
---- Page 9 ---
-
-nally, we showed general-purpose and instruction-
+--- Page 9 ---\n\nnally, we showed general-purpose and instruction-
 following models can achieve competitive results
 when correctly prompted for safety moderation. In
 the future, we plan to extend GuardBench with
@@ -1952,9 +1917,7 @@ mad, Cornelius Aschermann, Yaohui Chen, Dhaval
 Kapil, David Molnar, Spencer Whitman, and Joshua
 18401
 
---- Page 10 ---
-
-Saxe. 2024. Cyberseceval 2: A wide-ranging cyber-
+--- Page 10 ---\n\nSaxe. 2024. Cyberseceval 2: A wide-ranging cyber-
 security evaluation suite for large language models.
 CoRR, abs/2404.13161.
 Federico Bianchi, Mirac Suzgun, Giuseppe Attanasio,
@@ -2074,9 +2037,7 @@ Matt Gardner, Yoav Artzi, Victoria Basmova, Jonathan
 Berant, Ben Bogin, Sihao Chen, Pradeep Dasigi,
 18402
 
---- Page 11 ---
-
-Dheeru Dua, Yanai Elazar, Ananth Gottumukkala,
+--- Page 11 ---\n\nDheeru Dua, Yanai Elazar, Ananth Gottumukkala,
 Nitish Gupta, Hannaneh Hajishirzi, Gabriel Ilharco,
 Daniel Khashabi, Kevin Lin, Jiangming Liu, Nel-
 son F. Liu, Phoebe Mulcaire, Qiang Ning, Sameer
@@ -2207,9 +2168,7 @@ pages 1352–1368. Association for Computational
 Linguistics.
 18403
 
---- Page 12 ---
-
-Ian Kivlichan, Jeffrey Sorensen, Julia Elliott, Lucy
+--- Page 12 ---\n\nIan Kivlichan, Jeffrey Sorensen, Julia Elliott, Lucy
 Vasserman, Martin Görner, and Phil Culliton. 2020.
 Jigsaw multilingual toxic comment classification.
 Sneha Kudugunta, Isaac Caswell, Biao Zhang, Xavier
@@ -2333,9 +2292,7 @@ Conference on Empirical Methods in Natural Lan-
 guage Processing: EMNLP 2023 - Industry Track,
 18404
 
---- Page 13 ---
-
-Singapore, December 6-10, 2023, pages 380–395.
+--- Page 13 ---\n\nSingapore, December 6-10, 2023, pages 380–395.
 Association for Computational Linguistics.
 Colin Raffel, Noam Shazeer, Adam Roberts, Katherine
 Lee, Sharan Narang, Michael Matena, Yanqi Zhou,
@@ -2458,9 +2415,7 @@ Douwe Kiela. 2021. Learning from the worst: Dy-
 namically generated datasets to improve online hate
 18405
 
---- Page 14 ---
-
-detection. In Proceedings of the 59th Annual Meeting
+--- Page 14 ---\n\ndetection. In Proceedings of the 59th Annual Meeting
 of the Association for Computational Linguistics and
 the 11th International Joint Conference on Natural
 Language Processing, ACL/IJCNLP 2021, (Volume 1:
@@ -2574,9 +2529,7 @@ I-Physical-Safety: Samples are labelled as safe or
 unsafe. No conversion needed.
 18406
 
---- Page 15 ---
-
-MaliciousInstruct: Only unsafe samples. No con-
+--- Page 15 ---\n\nMaliciousInstruct: Only unsafe samples. No con-
 version needed.
 MITRE: Only unsafe samples. No conversion
 needed.
@@ -2685,9 +2638,7 @@ used as sources for deriving our datasets. In both
 cases, we excluded HEx-PHI (Qi et al., 2023) and
 18407
 
---- Page 16 ---
-
-DecodingTrust Stereotypes (Wang et al., 2023a)
+--- Page 16 ---\n\nDecodingTrust Stereotypes (Wang et al., 2023a)
 due to their license limitations.
 A.2.1
 Multi-lingual Datasets
@@ -2749,9 +2700,7 @@ We included mixed datasets as they mostly contain
 questions and instructions.
 18408
 
---- Page 17 ---
-
-Dataset
+--- Page 17 ---\n\nDataset
 Category
 Sub-category
 License
@@ -3113,5 +3062,4 @@ Kim et al. (2022)
 ✗
 Table 4: Datasets used to derive our multi-lingual datasets and Unsafe QA.
 18409
-
-```
+\n```\n

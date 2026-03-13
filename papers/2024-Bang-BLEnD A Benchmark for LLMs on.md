@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +51,8 @@ local_pdf: "[[PDFs/2024/2024-Bang-BLEnD A Benchmark for LLMs on.pdf]]"
 publication: "arxiv.org / NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) often lack culture-specific knowledge of daily life, especially across diverse regions and non-English languages. Existing benchmarks for evaluating LLMs’ cultural sensitivities are limited to a single language or collected from online sources such as Wikipedia, which do not reflect the mundane everyday lifestyles of diverse regions. That is, information about the food people eat for their birthday celebrations, spices they typically use, musical instruments..."
-LLM_assessed: "Claude-3, Claude-3-Haiku, Claude-3-Opus, Claude-3-Sonnet, Command-R, GPT-3, GPT-3.5, GPT-4, Qwen, Qwen1.5, gpt-3.5-turbo"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command-R, GPT-3, GPT-3.5, GPT-4, Qwen, Qwen-1.5"
 DATA_URL: "https://github.com/nlee0212/BLEnD"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "No"
@@ -100,7 +105,8 @@ data_metrics: "13 languages; 2024 datasets"
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude-3, Claude-3-Haiku, Claude-3-Opus, Claude-3-Sonnet, Command-R, GPT-3, GPT-3.5, GPT-4, Qwen, Qwen1.5, gpt-3.5-turbo. Verified dataset/resource link: https://github.com/nlee0212/BLEnD.
+BLEnD is a hand-crafted benchmark of 52,600 QA pairs covering everyday cultural knowledge from 16 countries/regions in 13 languages (including low-resource Amharic, Assamese, Azerbaijani, Hausa, and Sundanese), with both short-answer and multiple-choice formats.
+
 
 ## Notes
 

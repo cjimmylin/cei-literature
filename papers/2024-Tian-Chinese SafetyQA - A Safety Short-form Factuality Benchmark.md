@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "With the rapid advancement of Large Language Models (LLMs), significant safety concerns have emerged. Fundamentally, the safety of large language models is closely linked to the accuracy, comprehensiveness, and clarity of their understanding of safety knowledge, particularly in domains such as law, policy and ethics. This factuality ability is crucial in determining whether these models can be deployed and applied safely and compliantly within specific regions."
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Qwen, DeepSeek, Llama, Mistral"
+LLM_assessed: "Baichuan, ChatGLM, Claude-3 Sonnet, DeepSeek, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Gemini, InternLM, Llama-3, Mistral, Qwen-2, Yi, o1-mini, o1-preview"
 DATA_URL: "https://openstellarteam.github.io/ChineseSimpleQA/"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ With the rapid advancement of Large Language Models (LLMs), significant safety c
 
 ## Data Description
 
-Chinese SafetyQA is a safety-focused short-form factuality benchmark comprising 4,000 examples (2,000 question-answer pairs and 2,000 multiple-choice questions) across seven primary safety categories including ethical and moral issues, illegal and regulatory compliance, prejudice and discrimination, and more. The dataset is constructed within the Chinese linguistic context covering 27 secondary and 103 fine-grained topics, designed to evaluate LLMs' factual accuracy on safety-related knowledge such as Chinese laws, regulations, and ethical standards.
+Introduces Chinese SafetyQA, a 4,000-sample safety factuality benchmark (2,000 QA pairs + 2,000 MCQ) covering 7 primary safety categories across Chinese legal, ethical, and regulatory knowledge domains.
+
 
 ## Notes
 

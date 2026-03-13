@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -101,7 +104,7 @@ First benchmark hate speech corpus in Thai with four annotations: hate, sentimen
 
 ## Data Description
 
-The paper introduces Ex-ThaiHate, the first benchmark hate speech corpus in Thai with four annotation types: hate, sentiment, emotion, and rationales (explainability). It proposes GenX, a unified generative framework that redefines multi-task hate speech detection as text-to-text generation. No specific LLMs are identified as being tested in the available metadata.
+The first benchmark hate speech corpus in Thai with four annotation types: hate speech, sentiment, emotion, and rationales for explainability, enabling multi-task hate speech detection evaluation.
 
 
 ## Notes

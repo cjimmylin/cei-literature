@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -95,7 +99,7 @@ Warning: This paper has contents which may be offensive, or upsetting however th
 
 ## Data Description
 
-The ToxicBias dataset contains 5,409 instances curated from the Jigsaw Unintended Bias in Toxicity Classification Kaggle dataset (Wikipedia comments), annotated for five social bias categories (gender, race/ethnicity, religion, political, LGBTQ) with target groups and bias implications. The dataset includes 4,325 biased and 1,084 neutral instances with 120 distinct target terms.
+ToxicBias: 5,409 instances curated from Jigsaw toxicity dataset, annotated for social bias detection across 5 categories (gender, race/ethnicity, religion, political, LGBTQ) with targets and bias implications.
 
 
 ## Notes

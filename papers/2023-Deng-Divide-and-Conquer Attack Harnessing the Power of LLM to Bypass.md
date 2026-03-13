@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,15 +50,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.md"
 local_pdf: "[[PDFs/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Arabic, English, Multilingual"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGLM-turbo, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Qwen-14B, Qwen-Max"
-DATA_URL: "https://github.com/openai/CLIP"
+LLM_assessed: "GPT-4, GPT-3.5, Qwen"
+DATA_URL: "https://github.com/researchcode003/DACA"
 tags: 
 abstract: "To prevent Text-to-Image (T2I) models from generating unethical images, people deploy safety filters to block inappropriate drawing prompts. Previous works have employed token replacement to search adversarial prompts that attempt to bypass these filters, but they has become ineffective as nonsensical tokens fail semantic logic checks. In this paper, we approach adversarial prompts from a different perspective."
 CONFERENCE: "Preprint"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -100,7 +104,8 @@ To prevent Text-to-Image (T2I) models from generating unethical images, people d
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGLM-turbo, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Qwen-14B, Qwen-Max. Verified dataset/resource link: https://github.com/openai/CLIP.
+VBCDE dataset of 100 sensitive prompts across 5 categories (Violence, Bloody, Copyright, Discrimination, Erotic) for evaluating adversarial attacks against T2I model safety filters.
+
 
 ## Notes
 

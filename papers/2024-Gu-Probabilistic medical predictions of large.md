@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +57,7 @@ research_topic: Other
 abstract: "Large Language Models (LLMs) have shown promise in clinical applications through prompt engineering, allowing flexible clinical predictions. However, they struggle to produce reliable prediction probabilities, which are crucial for transparency and decision-making. While explicit prompts can lead LLMs to generate probability estimates, their numerical reasoning limitations raise concerns about reliability."
 CONF-CC: "npj Digital Medicine"
 DATE_ADDED: 20260208
-LLM_assessed: "Qwen, Llama-3, Gemma, Mistral, Phi"
+LLM_assessed: "Gemma-2, Llama-3, Mistral, Phi-3, Qwen-2, Yi-1.5"
 DATA_URL: "https://github.com/gubowen2/Probabilistic-Medical-Predictions-of-Large-Language-Models"
 pdf_extract: "PDF Extracts/2024/2024-Gu-Probabilistic medical predictions of large.md"
 local_pdf: "[[PDFs/2024/2024-Gu-Probabilistic medical predictions of large.pdf]]"
@@ -63,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Applied Ethics"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---
@@ -133,7 +138,7 @@ The study demonstrates that explicit probabilities from LLMs are less reliable t
 
 ## Data Description
 
-The study evaluates probabilistic predictions of LLMs on five medical datasets: MMLU-Clinical Knowledge (299 questions), MMLU-College Medicine (200 questions), USMLE (1,000-question subset), MCMLE (1,000-question subset), and a private MGB-SDoH dataset (200 patients, 9 SDoH aspects). Six large open-source LLMs (Qwen2-72B, Llama-3.1-70B, Gemma-2-27b, Mistral-Large, Yi-1.5-34B, Phi-3-medium) and six smaller counterparts were tested on binary classification tasks comparing explicit vs. implicit probability outputs.
+Evaluation framework comparing explicit vs implicit probability estimation methods across 6 open-source LLMs and 5 medical datasets for clinical prediction tasks.
 
 
 ## Notes

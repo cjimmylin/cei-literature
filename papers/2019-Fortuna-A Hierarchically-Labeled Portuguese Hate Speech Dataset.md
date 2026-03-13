@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +50,8 @@ pdf_extract: "PDF Extracts/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese
 local_pdf: "[[PDFs/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Portuguese"
-languages_list: Portuguese
+cultures_nationalities_list: "Brazilian"
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "81 categories"
@@ -100,7 +103,7 @@ data_metrics: "81 categories"
 
 ## Data Description
 
-The paper presents a Portuguese hate speech dataset of 5,668 tweets annotated with both binary labels (hate/no-hate) and a fine-grained hierarchical multi-label scheme with 81 hate speech categories. A baseline classification experiment using pre-trained GloVe word embeddings and LSTM combined with xgBoost achieves an F1 score of 0.78 on cross-validation. The hierarchical annotation schema models intersectionality of different hate speech subtypes across targets like sexism, racism, homophobia, and religion.
+A dataset of 5,668 Portuguese tweets annotated with a hierarchical hate speech scheme of 81 fine-grained categories, with both binary and expert multi-label annotations.
 
 
 ## Notes

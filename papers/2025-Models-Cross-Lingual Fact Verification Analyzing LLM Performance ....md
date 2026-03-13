@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....md"
 local_pdf: "[[PDFs/2025/2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Indonesian, German, Spanish"
-cultures_nationalities_list: "N/A"
-languages_list: "Chinese, English, Multilingual"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, GPT-4, Llama-2, Llama, Llama 3.1, Qwen 2.5, BERT, llama 3"
-DATA_URL: "https://github.com/Aniezka/cross-lingual-fact-"
+LLM_assessed: "Llama-3, Mistral, Qwen-2"
+DATA_URL: "https://github.com/Aniezka/cross-lingual-fact-verification"
 tags: 
 abstract: "Fact verification has emerged as a critical task in combating misinformation, yet most research remains focused on English-language applications. This paper presents a comprehensive analysis of multilingual fact verification capabilities across three state-of-the-art large language models: Llama 3.1, Qwen 2.5, and Mistral Nemo. We evaluate these models on the X-Fact dataset that includes 25 typologically diverse languages, examining both seen and unseen languages through various evaluation..."
 CONFERENCE: "ACL 2025"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

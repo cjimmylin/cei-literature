@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ pdf_extract: PDF Extracts/2023/2023-Maity-A Deep Learning Framework for the Dete
 local_pdf: "[[PDFs/2023/2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Malaysian"
-languages_list: Malay
+cultures_nationalities_list: "N/A"
+languages_list: "Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GloVe, RoBERTa, Word2Vec, XLNet"
+LLM_assessed: "XLNet"
 DATA_URL: "https://github.com/MaityKrishanu/Hate_Malay"
 tags: 
 abstract: "Although social media can efficiently disseminate information, they also facilitate the dissemination of online abuse, harassment, and hate speech. In 2019, United Nations Secretary-General introduced the United Nations Strategy and Plan of Action on Hate Speech in response to the alarming global trend of rising hate speech. It is crucial to prevent hate speech because it can have severe negative effects on both individuals and society."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -102,7 +106,8 @@ First benchmark dataset for detecting hate speech in Malay with 4,892 annotated 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GloVe, RoBERTa, Word2Vec, XLNet. Verified dataset/resource link: https://github.com/MaityKrishanu/Hate_Malay.
+First benchmark dataset of 4,892 annotated Malay tweets for hate speech detection, with multi-class labels, plus the XLCaps two-channel deep learning model combining XLNet/capsule network with FastText/Bi-GRU.
+
 
 ## Notes
 

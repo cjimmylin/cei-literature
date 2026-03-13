@@ -20,6 +20,9 @@
 
 
 
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Socratic guide, euthanasia"
@@ -34,11 +37,11 @@ authors: "Anne Gerdes; Peter Øhrstrøm"
 doi: 10.1080/14746700.2025.2514300
 url: "https://www.tandfonline.com/doi/full/10.1080/14746700.2025.2514300"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZWBBJPDD/Gerdes and Øhrstrøm - 2025 - Exploring LLM Chatbots as Potential Guides to Virtue Ethics Limits and Possibilities, with a Case S.pdf"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Christianity
-religious_values_list: Christianity
+religious_values: "Christianity"
+religious_values_list: "Christianity"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Explores the potential of LLM chatbots to act as Socratic guides for virtue ethics reflection, drawing on Kierkegaard's thought experiments and a case study on euthanasia"
@@ -57,7 +60,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

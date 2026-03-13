@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +58,7 @@ pdf_extract: "PDF Extracts/2021/2021-Wang-MedAI at SemEval-2021 Task 5.md"
 local_pdf: "[[PDFs/2021/2021-Wang-MedAI at SemEval-2021 Task 5.pdf]]"
 CONF-CC: "SemEval 2021"
 DATE_ADDED: 20260208
-LLM_assessed: RoBERTa
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"

@@ -21,6 +21,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +61,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for conversational ai"
 data_metrics: "Not specified"
@@ -81,7 +84,7 @@ We present the first English corpus study on abusive language towards three conv
 
 ## Data Description
 
-ConvAbuse is a corpus of 6,837 user utterances collected from three conversational AI systems (Alana v2, CarbonBot, and ELIZA), with 20,710 expert annotations covering abuse severity, type, target, and directness. The dataset captures nuanced abusive language directed at conversational agents, with more than half of abusive instances containing sexism or sexual harassment.
+ConvAbuse corpus of abusive language toward three conversational AI systems gathered in the wild, with fine-grained abuse annotations from multiple expert annotators.
 
 
 ## Notes

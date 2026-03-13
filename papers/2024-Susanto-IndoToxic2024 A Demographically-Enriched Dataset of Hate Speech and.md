@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +52,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: Indonesian
+languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-3, GPT-3.5-turbo, GPT-3.5"
+LLM_assessed: "BERT, GPT-3.5"
 DATA_URL: "https://github.com/izzako/IndoToxic2024"
 tags: 
 abstract: "Hate speech poses a significant threat to social harmony. Over the past two years, Indonesia has seen a ten-fold increase in the online hate speech ratio, underscoring the urgent need for effective detection mechanisms. However, progress is hindered by the limited availability of labeled data for Indonesian texts. The condition is even worse for marginalized minorities, such as Shia, LGBTQ, and other ethnic minorities because hate speech is underreported and less understood by detection tools."
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -100,7 +104,8 @@ Comprehensive Indonesian hate speech and toxicity classification dataset with 43
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5-turbo, GPT-3.5. Verified dataset/resource link: https://github.com/izzako/IndoToxic2024.
+IndoToxic2024 is a 43,692-entry Indonesian hate speech and toxicity classification dataset with demographic annotations, targeting marginalized groups including Shia, LGBTQ, and ethnic minorities. Provides baselines using IndoBERTweet fine-tuned models and zero-shot GPT-3.5-turbo.
+
 
 ## Notes
 

@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +51,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kurdish"
-languages_list: "Kurdish (Sorani)"
+cultures_nationalities_list: "N/A"
+languages_list: "Kurdish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -102,7 +105,7 @@ First Kurdish hate speech dataset of 6,882 Facebook comments divided into hate/n
 
 ## Data Description
 
-The paper presents the first Kurdish (Sorani) hate speech dataset of 6,882 Facebook comments divided into hate/not-hate classes, collected from TV channels, athletes, religions, and politicians pages. Traditional ML classifiers (SVM, Decision Tree, Naive Bayes) are evaluated on the dataset, but no LLMs are tested.
+The first Kurdish hate speech dataset of 6,882 Facebook comments annotated as hate/not-hate, sourced from TV channels, athletes, religions, and politicians pages.
 
 
 ## Notes

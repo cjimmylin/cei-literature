@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +52,8 @@ local_pdf: "[[PDFs/2025/2025-Zhang-CultureScope A Dimensional Lens for Probing.p
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -57,7 +61,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) are increasingly deployed in diverse cultural environments, evaluating their cultural understanding capability has become essential for ensuring trustworthy and culturally aligned applications. However, most existing benchmarks lack comprehensiveness and are challenging to scale and adapt across different cultural contexts, because their frameworks often lack guidance from well-established cultural theories and tend to rely on expert-driven manual annotations."
-LLM_assessed: "ChatGPT, DeepSeek-V3, Deepseek-R1, GPT-4o, Qwen-3, Qwen2.5, Qwen3, qwen-13b, qwen-7b"
+LLM_assessed: "ChatGPT, DeepSeek, GPT-4o, Qwen, Qwen-2"
 DATA_URL: "https://github.com/HoganZinger/Culture"
 research_topic: "Social & Cultural Analysis"
 CONFERENCE: "Preprint"
@@ -66,9 +70,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,8 @@ Most comprehensive evaluation framework for cultural understanding in LLMs. Nove
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, DeepSeek-V3, Deepseek-R1, GPT-4o, Qwen-3, Qwen2.5, Qwen3, qwen-13b, qwen-7b. Verified dataset/resource link: https://github.com/HoganZinger/Culture.
+CultureScope benchmark: a multi-dimensional cultural evaluation framework with 3 layers and 140 dimensions based on cultural iceberg theory, covering Southeast Asian cultures (Thai, Lao, Khmer, Burmese). Data and code released at GitHub.
+
 
 ## Notes
 

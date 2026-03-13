@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,8 +61,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Detecting hateful content is a challenging and important problem. Automated tools, like machine-learning models, can help, but they require continuous training to adapt to the everchanging landscape of social media. In this work, we evaluate eight open-source LLMs’ capability to detect antisemitic content, specifically leveraging in-context definition. We also study how LLMs understand and explain their decisions given a moderation policy as a guideline."
-LLM_assessed: "DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5, Gemma, Gemma-3, Gemma3, Llama, Llama 3.1, Llama 11, Llama 8, Llama-3, Llama-3., Llama-3.1, Mistral 8B, Mistral 2410 4, Mistral 24B, Mistral 2501 5, Mistral- 2410, Mistral-2501 24B, Qwen, qwenlm"
-DATA_URL: "https://huggingface.co/RedHatAI/Meta-Llama-3"
+LLM_assessed: "DeepSeek, Gemma, Llama-3, Mistral, Qwen"
+DATA_URL: "https://github.com/idramalab/quantify-llm-explanations"
 research_topic: "Interpretability & Explainability"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"

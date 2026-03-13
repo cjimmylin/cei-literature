@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-Togmanov-KazMMLU Evaluating Language Models on Kaza
 publication: "arxiv.org / ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Russian"
-cultures_nationalities_list: "Kazakh"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "Kazakh, Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Despite having a population of twenty million, Kazakhstan’s culture and language remain underrepresented in the field of natural language processing. Although large language models (LLMs) continue to advance worldwide, progress in Kazakh language has been limited, as seen in the scarcity of dedicated models and benchmark evaluations. To address this gap, we introduce KazMMLU, the first MMLU-style dataset specifically designed for Kazakh language."
-LLM_assessed: "ALBERT, BLOOM, BLOOMZ, DeepSeek, DeepSeek V3, DeepSeek-AI, GPT-4, GPT-4o, GPT4, Gemma, Gemma-2, Gemma-2., LLama-3.1, Llama, Llama., Llama3.1, Mistral, Mistral-7B, Qwen, Qwen-2.5"
-DATA_URL: "NA"
+LLM_assessed: "BLOOM, DeepSeek, GPT-4o, Llama-3, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/MBZUAI/KazMMLU"
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -99,7 +103,8 @@ First MMLU-style dataset for Kazakh with 23,000 questions across educational lev
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BLOOM, BLOOMZ, DeepSeek, DeepSeek V3, DeepSeek-AI, GPT-4, GPT-4o, GPT4, Gemma, Gemma-2, Gemma-2., LLama-3.1, Llama, Llama., Llama3.1, Mistral, Mistral-7B, Qwen, Qwen-2.5. No high-confidence repository-style data URL was identified.
+KazMMLU is the first MMLU-style benchmark for Kazakh, comprising 23,000 multiple-choice questions (10,969 Kazakh, 12,031 Russian) spanning STEM, humanities, and social sciences sourced from authentic Kazakhstani educational materials across high school and university levels.
+
 
 ## Notes
 

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2022/2022-Welbl-This is the way designing and compiling LEPIS
 publication: "arXiv / NeurIPS 2022"
 CONF-CC: "NeurIPS 2022"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Polish"
-languages_list: Polish
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
+languages_list: "Polish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, RoBERTa, XLNet, BERT"
+LLM_assessed: "HerBERT, XLM-R"
 DATA_URL: "https://github.com/CLARIN-PL/LEPISZCZE"
 tags: 
 abstract: "The availability of compute and data to train larger and larger language models increases the demand for robust methods of benchmarking the true progress of LM training. Recent years witnessed signiﬁcant progress in standardized benchmarking for English. Benchmarks such as GLUE, SuperGLUE, or KILT have become a de facto standard tools to compare large language models. Following the trend to replicate GLUE for other languages, the KLEJ benchmark1 has been released for Polish."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -99,7 +103,8 @@ Comprehensive open-source Polish NLP benchmark with continuous-submission leader
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, RoBERTa, XLNet, BERT. Verified dataset/resource link: https://github.com/CLARIN-PL/LEPISZCZE.
+LEPISZCZE: comprehensive open-source Polish NLP benchmark extending KLEJ with 8 novel datasets and 13 experiments, with continuous-submission leaderboard.
+
 
 ## Notes
 

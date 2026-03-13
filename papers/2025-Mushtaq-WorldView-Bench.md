@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +45,8 @@ last_author: "[[Junaid Qadir]]"
 authors: "Abdullah Mushtaq; Imran Taj; Rafay Naeem; Ibrahim Ghaznavi; Junaid Qadir"
 url: "https://arxiv.org/abs/2505.09595"
 external_pdf: "https://arxiv.org/pdf/2505.09595.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -57,7 +61,7 @@ paper_summary: "Abstract: Large Language Models (LLMs) are predominantly trained
 local_pdf: "[[PDFs/2025/2025-Mushtaq-WorldView-Bench.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, DeepSeek"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Llama-3, Mistral"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -67,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,7 @@ Large Language Models (LLMs) are predominantly trained and aligned in ways that 
 
 ## Data Description
 
-WorldView-Bench is a benchmark consisting of 175 culturally significant questions across seven knowledge domains (ethical/moral, religious, lifestyle, cultural norms, traditions, history, technology) designed to evaluate global cultural inclusivity in LLMs through free-form generative assessment. Eight frontier LLMs (GPT-4o, Claude Sonnet 3.5, Llama 3.1, Mistral 7B, Gemini 2.0 Flash, Command-R, DeepSeek R1, and Fanar) were evaluated using Perspectives Distribution Score entropy and cultural sentiment analysis.
+Introduces WorldView-Bench, a benchmark of 175 culturally significant free-form questions spanning 7 knowledge domains for evaluating Global Cultural Inclusivity (GCI) in LLMs, released along with evaluation framework code upon publication.
 
 
 ## Notes

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: Large Language Models (LLMs) have recently been shown 
 local_pdf: "[[PDFs/2023/2023-Guo-COBBLER.pdf]]"
 CONF-CC: "ACL 2023"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, ChatGPT, InstructGPT, Llama, Llama-2, Alpaca, Falcon, Vicuna, Mistral"
+LLM_assessed: "Alpaca, ChatGPT, Falcon, GPT-4, LLaMA, Llama-2, Mistral, MPT, Vicuna, WizardLM"
 DATA_URL: "https://github.com/minnesotanlp/cobbler"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---
@@ -95,7 +99,7 @@ Large Language Models are cognitively biased judges. Large Language Models (LLMs
 
 ## Data Description
 
-COBBLER (COgnitive Bias Benchmark for LLMs as EvaluatoRs) benchmarks 16 LLMs for six cognitive biases when used as automatic text quality evaluators. The benchmark uses 50 question-answering instructions from BigBench and ELI5 datasets, generating over 630,000 pairwise comparisons across all models. The six biases measured include order bias, compassion fade, egocentric bias, salience bias, bandwagon effect, and attentional bias, categorized into implicit and induced types.
+COBBLER: a cognitive bias benchmark for evaluating LLMs as automatic evaluators, measuring six cognitive biases across 630K+ pairwise comparisons from 16 models.
 
 
 ## Notes

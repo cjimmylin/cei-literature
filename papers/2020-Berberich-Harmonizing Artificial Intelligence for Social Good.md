@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "Philosophy & Technology"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Japanese, Shinto, Confucian, East Asian"
+national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: ""
-religious_values: Confucianism, Shinto
+religious_values: "Confucianism, Shinto"
 religious_values_list: "Confucianism, Shinto"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Proposes harmony as an additional core principle for AI ethics, drawing on its centrality in East Asian cultures. Discusses the Japanese concept of Wa — derived from Confucian harmony but shaped distinctly by contact with Shinto — and the concept of Takt as means to build harmonizing AI systems for social good."
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"

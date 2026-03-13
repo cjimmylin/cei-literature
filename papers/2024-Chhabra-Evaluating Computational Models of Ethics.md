@@ -22,6 +22,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -60,7 +62,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

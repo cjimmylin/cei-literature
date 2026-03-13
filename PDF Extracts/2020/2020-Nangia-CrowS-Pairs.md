@@ -1,23 +1,4 @@
----
-title: "CrowS-Pairs - PDF Extract"
-source_pdf: "2020-Nangia-CrowS-Pairs.pdf"
-pages: 15
-extracted_at: "2026-01-24T17:05:07.954171"
----
-
-# PDF Extract: CrowS-Pairs
-
-**Source PDF:** 2020-Nangia-CrowS-Pairs.pdf
-**Total Pages:** 15
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-CrowS-Pairs: A Challenge Dataset for Measuring Social Biases
+---\ntitle: "2020-Nangia-CrowS-Pairs - PDF Extract"\nsource_pdf: "2020-Nangia-CrowS-Pairs.pdf"\npages: 15\nextracted_at: "2026-02-14T02:17:27.831298"\n---\n\n# PDF Extract: 2020-Nangia-CrowS-Pairs\n\n**Source PDF:** 2020-Nangia-CrowS-Pairs.pdf\n**Total Pages:** 15\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nCrowS-Pairs: A Challenge Dataset for Measuring Social Biases
 in Masked Language Models
 Nikita Nangia∗
 Clara Vania∗
@@ -112,9 +93,7 @@ States. CrowS-Pairs covers a broad-coverage set of
 nine bias types: race, gender/gender identity, sex-
 arXiv:2010.00133v1  [cs.CL]  30 Sep 2020
 
---- Page 2 ---
-
-Bias Type
+--- Page 2 ---\n\nBias Type
 Example
 Race/Color
 You are just like all the other African American voodoo women, practicing with mumbo
@@ -200,9 +179,7 @@ samples from both datasets and ﬁnd that our data
 has a substantially higher validation rate at 80%,
 compared to 62% for StereoSet. Between this re-
 
---- Page 3 ---
-
-sult, and additional concerns about the viability
+--- Page 3 ---\n\nsult, and additional concerns about the viability
 of standard (masked) language modeling metrics
 on StereoSet (§3), we argue that CrowS-Pairs is
 a substantially more reliable benchmark for the
@@ -307,9 +284,7 @@ ple don’t agree on the bias type by majority vote,
 the example is ﬁltered out.
 Task interfaces are shown in Appendix B and C.
 
---- Page 4 ---
-
-Shane
+--- Page 4 ---\n\nShane
 [MASK]
 the
 lumber
@@ -445,9 +420,7 @@ tions that are relevant when measuring stereotypes.
 For a sentence S, let U = {u0, . . . , ul} be the un-
 modiﬁed tokens, and M = {m0, . . . , mn} be the
 
---- Page 5 ---
-
-n
+--- Page 5 ---\n\nn
 %
 BERT
 RoBERTa
@@ -621,9 +594,7 @@ corefer-
 ence decisions require world knowledge, and
 WinoBias-syntax (type-2) where answers can be
 
---- Page 6 ---
-
-Figure 2: The distributions of model conﬁdence for
+--- Page 6 ---\n\nFigure 2: The distributions of model conﬁdence for
 each MLM. The distributions above 0 are the conﬁ-
 dence distribution when the models gives a higher score
 to S1, and the below 0 are the distributions when the
@@ -715,9 +686,7 @@ stereotype subsets.
 We observe that all three models demon-
 strate less bias on the anti-stereotype examples.
 
---- Page 7 ---
-
-RoBERTa’s bias score is nearly perfect on the anti-
+--- Page 7 ---\n\nRoBERTa’s bias score is nearly perfect on the anti-
 stereotype examples with a score of 51.4, but only
 achieves a score of 66.3 on the stereotype examples.
 Similarly, BERT and ALBERT perform 4.2 and 4.4
@@ -826,9 +795,7 @@ Since the two datasets are similar in design, the
 HIT instructions change minimally between the
 two tasks. We randomly sample 100 examples from
 
---- Page 8 ---
-
-Dataset
+--- Page 8 ---\n\nDataset
 % valid
 Agreement
 StereoSet
@@ -935,9 +902,7 @@ CrowS-Pairs are speciﬁc to the United States, they
 are not exhaustive, and stereotypes that may be
 salient to other cultural contexts are not covered.
 
---- Page 9 ---
-
-8
+--- Page 9 ---\n\n8
 Conclusion
 We introduce the Crowdsourced Stereotype Pairs
 challenge dataset. This crowdsourced dataset cov-
@@ -1062,9 +1027,7 @@ Reducing
 sentiment bias in language models via counterfac-
 tual evaluation. ArXiv.
 
---- Page 10 ---
-
-Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang,
+--- Page 10 ---\n\nGuokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang,
 and Eduard Hovy. 2017. RACE: Large-scale ReAd-
 ing comprehension dataset from examinations. In
 Proceedings of the 2017 Conference on Empirical
@@ -1191,9 +1154,7 @@ Nikita Nangia,
 Amanpreet Singh, Julian Michael, Felix Hill, Omer
 Levy, and Samuel Bowman. 2019. SuperGLUE: A
 
---- Page 11 ---
-
-stickier benchmark for general-purpose language un-
+--- Page 11 ---\n\nstickier benchmark for general-purpose language un-
 derstanding systems. In H. Wallach, H. Larochelle,
 A. Beygelzimer, F. d ´Alch´e Buc, E. Fox, and R. Gar-
 nett, editors, Advances in Neural Information Pro-
@@ -1253,9 +1214,7 @@ movies and reading books. 2015 IEEE International
 Conference on Computer Vision (ICCV), pages 19–
 27.
 
---- Page 12 ---
-
-A
+--- Page 12 ---\n\nA
 Data Statement
 A.1
 Curation Rationale
@@ -1343,9 +1302,7 @@ A.9
 Provenance Appendix
 N/A
 
---- Page 13 ---
-
-B
+--- Page 13 ---\n\nB
 CrowS-Pairs Data Collection HIT Layout
 Please read the full instructions carefully before starting.
 An example (see full instructions for good/bad examples):
@@ -1376,9 +1333,7 @@ Socioeconomic status/Occupation
 HIT Layout 1: This is the design of the HIT used to collect data for CrowS-Pairs. Additionally, a warning
 message is displayed on the HIT if the Levenshtein distance between the two sentences is greater than 13.
 
---- Page 14 ---
-
-C
+--- Page 14 ---\n\nC
 CrowS-Pairs Data Validation HIT Layout
 Please read the full instructions carefully before starting. And optionally, to ensure that you get paid
 fairly, you can report your actual working time at the bottom of each HIT.
@@ -1415,9 +1370,7 @@ None of the above
 HIT Layout 2: This is the design of the HIT used to collect validation annotations for CrowS-Pairs. This
 same HIT design was used in both rounds of validation.
 
---- Page 15 ---
-
-D
+--- Page 15 ---\n\nD
 StereoSet Data Validation HIT Layout
 Please read the full instructions carefully before starting. And optionally, to ensure that you get paid
 fairly, you can report your actual working time at the bottom of each HIT.
@@ -1447,5 +1400,4 @@ Religion
 Profession
 None of the above
 HIT Layout 3: This is the design of the HIT used to collect validation annotations for StereoSet.
-
-```
+\n```\n

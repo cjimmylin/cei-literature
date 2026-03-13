@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +47,17 @@ CONF-CC: "Preprint"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Japanese, Shinto"
+national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: ""
-religious_values: Shinto
+religious_values: "Shinto"
 religious_values_list: "Shinto"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Uses Japanese Shinto narratives to defamiliarise voice assistants, drawing on the similarity between how assistants 'inhabit' objects and how kami inhabit natural and man-made entities. Describes an alternate future where assistant presences live inside objects, foregrounding phenomenological quirks of current voice assistant design patterns."
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"

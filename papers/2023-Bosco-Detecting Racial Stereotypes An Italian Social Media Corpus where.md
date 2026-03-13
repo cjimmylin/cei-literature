@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,12 +55,12 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
-languages_list: Italian
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "AlBERTo, BERT-Italian, UmBERTo, mBERT, XLM-RoBERTa"
+LLM_assessed: NA
 DATA_URL: "https://github.com/dhfbk/LiLaH"
 tags: 
 abstract: "An Italian social media corpus from Facebook for detecting racial stereotypes, built within a social psychology study. Annotation scheme makes stereotypes and discredit explicit. Focuses on racial hoaxes and hateful content against immigrants in Italian."
@@ -107,7 +111,7 @@ This paper presents an Italian social media corpus from Facebook designed to det
 
 ## Data Description
 
-LiLaH dataset of 4,661 Italian tweets annotated for racial stereotypes about immigration, refugees, and African/Muslim communities. Three-class annotation scheme (stereotype, no stereotype, unclear) developed for detecting and analyzing racial bias in Italian social media.
+An Italian social media corpus from Facebook for detecting racial stereotypes, built within a social psychology study. Annotation scheme makes stereotypes and discredit explicit, focusing on racial hoaxes and hateful content against immigrants.
 
 
 ## Notes

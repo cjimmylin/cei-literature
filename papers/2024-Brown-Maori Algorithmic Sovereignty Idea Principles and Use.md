@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,11 +46,11 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Maori"
+national_ethnic_cultural: "Australian/Aboriginal"
+cultures_nationalities_list: "Australian/Aboriginal"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"

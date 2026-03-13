@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +51,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.md"
 local_pdf: "[[PDFs/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "French"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "Multiple including French"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BART, BERT, Bartl, GPT-4"
+LLM_assessed: NA
 DATA_URL: "https://github.com/i-gallegos/Fair-LLM-Benchmark"
 tags: 
 abstract: "Comprehensive survey organizing LLM bias and fairness work into three categories: metrics, datasets, and techniques. Covers embedding-based, probability-based, and generated text-based bias evaluation approaches. Published in Computational Linguistics 2024."
@@ -64,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
@@ -102,7 +107,7 @@ This comprehensive survey published in Computational Linguistics 2024 systematic
 
 ## Data Description
 
-Comprehensive survey of bias and fairness research in LLMs. Reviews existing benchmarks and methods but does not test specific models. Provides taxonomy of bias types and mitigation strategies across the LLM lifecycle.
+Consolidation of publicly-available datasets for bias evaluation in LLMs, compiled as a resource for researchers and practitioners to access bias evaluation datasets.
 
 
 ## Detailed Summary

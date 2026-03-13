@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +41,8 @@ last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"
 url: "https://aclanthology.org/2024.emnlp-main.671/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/EMDAVPXV/2024 - The Multilingual Alignment Prism Aligning Global and Local Preferences to Reduce Harm.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -83,7 +86,7 @@ A key concern with the concept of *“alignment”* is the implicit question of 
 
 ## Data Description
 
-The paper introduces the Aya Red-teaming dataset, a first-of-its-kind multilingual red-teaming dataset with human-annotated harmful prompts across 8 languages (English, Hindi, French, Spanish, Russian, Arabic, Serbian, Filipino), distinguishing between global and local harms. The Aya 23 8B model was fine-tuned using SFT and DPO with safety and general-purpose preference data mixtures, and GPT-4 was used as an evaluator for preference labeling and safety classification.
+Aya Red-teaming dataset: first multilingual human-annotated red-teaming dataset across 8 languages with global vs. local harm distinctions, plus synthetic preference data for safety alignment.
 
 
 ## Notes

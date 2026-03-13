@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ local_pdf: N/A
 publication: "WebSearch: sentiment analysis Dravidian cultural"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Kannada, Malayalam, Tamil"
 religious_values: "N/A"
@@ -56,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Socio-pragmatic framework for sentiment analysis in Dravidian code-switched texts using XLM-RoBERTa with socio-pragmatic insights. Achieved 72.3% accuracy, 72.5% F1-score on Dravidian Code-Mixed Dataset. Culturally grounded sentiment analysis for Dravidian languages. Socio-pragmatic approach captures cultural nuances in code-switched text."
-LLM_assessed: "XLM-RoBERTa"
+LLM_assessed: "XLM-R"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -100,7 +103,7 @@ Socio-pragmatic framework for sentiment analysis in Dravidian code-switched text
 
 ## Data Description
 
-This paper presents a socio-pragmatic framework for sentiment analysis in Dravidian-English code-switched texts. It evaluates XLM-RoBERTa with socio-pragmatic insights on the Dravidian Code-Mixed Dataset, achieving 72.3% accuracy and 72.5% F1-score. The approach captures cultural nuances in code-switched text from Dravidian languages.
+The Dravidian Code-Mixed Dataset used for training and evaluating the socio-pragmatic sentiment analysis framework for Dravidian code-switched texts.
 
 
 ## Notes

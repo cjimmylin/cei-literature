@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +55,7 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3-70B, Llama-3-8B, Mistral-7B, Mixtral-8x7B, BLOOM-7B, Qwen-2-72B, CyberAgentLM2-7B, Swallow-7B, Swallow-13B, Swallow-70B, Sarashina2-7B, Sarashina2-13B, Yi-34B, Phi-3-small, Phi-3-medium"
+LLM_assessed: "BLOOM, Llama-3, Mistral, Mixtral, Phi-3, Qwen-2"
 DATA_URL: "https://doi.org/10.5281/zenodo.13160661"
 tags: 
 abstract: "Why do we build local large language models (LLMs)? What should a local LLM learn from the target language? Which abilities can be transferred from other languages? Do language-specific scaling laws exist? To explore these research questions, we evaluated 35 Japanese, English, and multilingual LLMs on 19 evaluation benchmarks for Japanese and English, taking Japanese as a local language. Adopting an observational approach, we analyzed correlations of benchmark scores, and conducted principal..."
@@ -60,7 +65,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "Yes"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
@@ -94,7 +99,7 @@ Analyzes 35 Japanese and multilingual LLMs across 19 benchmarks including JCommo
 
 ## Data Description
 
-Comprehensive evaluation of 35 Japanese, English, and multilingual LLMs across 19 task benchmarks covering academic subjects, reading comprehension, QA, code generation, and arithmetic reasoning in both Japanese and English. Uses PCA to identify ability factors and explores language-specific scaling laws. Evaluation framework (swallow-evaluation) and data released on GitHub and Zenodo.
+Evaluation scores for 35 Japanese, English, and multilingual LLMs across 19 benchmarks (Japanese and English) are publicly released on Zenodo under CC BY 4.0.
 
 
 ## Notes

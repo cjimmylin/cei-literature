@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,11 +45,11 @@ url: "https://sikher.com/projects/gurbanidb/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZNGV87C6/Project - GurbaniDB.pdf"
 pdf_extract: "PDF Extracts/2010/2010-Project-GurbaniDB.md"
 local_pdf: "[[PDFs/2010/2010-Project-GurbaniDB.pdf]]"
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Gurmukhi"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Sikhism"
+religious_values_list: "Sikhism"
 moral_psychology: "N/A"
 newtags: 
 tags: 
@@ -132,7 +136,7 @@ GurbaniDB represents a successful model for digitizing and democratizing access 
 
 ## Data Description
 
-GurbaniDB is a comprehensive digital database and search engine for Sikh scriptures (Guru Granth Sahib) maintained by The Sikher Project. It provides the text in Gurmukhi, English, and 52 other languages with a RESTful API. This is a digital humanities resource, not a research paper, and no LLMs are evaluated.
+GurbaniDB is a comprehensive digital database and API for Sikh scriptures (Guru Granth Sahib), providing multi-lingual search and access in 54 languages with collaborative translation support.
 
 
 ## Notes

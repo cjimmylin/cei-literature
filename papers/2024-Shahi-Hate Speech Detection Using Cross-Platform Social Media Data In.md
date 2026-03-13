@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -61,8 +65,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,7 @@ This study addresses the challenge of obtaining high-quality training data for b
 
 ## Data Description
 
-Detects bilingual hate speech in YouTube comments in English and German covering politics, LGBT rights, and immigration topics. Examines cross-platform data augmentation (YouTube, Twitter, Reddit) for improving classification model performance. Does not introduce a new benchmark but evaluates cross-platform transfer learning.
+A bilingual (English and German) hate speech dataset collected from YouTube comments covering political, LGBT rights, and immigration topics, used to study cross-platform data augmentation for improving hate speech classification performance.
 
 
 ## Detailed Summary

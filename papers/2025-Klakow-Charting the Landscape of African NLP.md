@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: "WebSearch: Charting the Landscape African NLP mapping progress"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,16 +59,16 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "With over 2,000 languages and potentially millions of speakers, Africa represents one of the richest linguistic regions in the world. Yet, this diversity is scarcely reflected in state-of-the-art natural language processing (NLP) systems and large language models (LLMs), which predominantly support a narrow set of high-resource languages. This exclusion not only limits the reach and utility of modern NLP technologies but also risks widening the digital divide across linguistic communities."
-LLM_assessed: "BERT, BLOOM, Claude, GPT-4o, Qwen3"
-DATA_URL: "https://github.com/glottolog/glottolog-cldf"
+LLM_assessed: "GPT-4o"
+DATA_URL: "https://github.com/uds-lsv/africanlp-survey"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: No
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
@@ -95,7 +99,8 @@ Comprehensive survey analyzing 884 research papers on NLP for African languages 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, Claude, GPT-4o, Qwen3. Verified dataset/resource link: https://github.com/glottolog/glottolog-cldf.
+Releases the curated survey database of 884 African NLP papers with annotations, alongside code for analysis at the linked GitHub repository.
+
 
 ## Notes
 

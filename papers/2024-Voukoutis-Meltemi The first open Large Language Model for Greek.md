@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +46,13 @@ pdf_extract: "PDF Extracts/2024/2024-Voukoutis-Meltemi The first open Large Lang
 local_pdf: "[[PDFs/2024/2024-Voukoutis-Meltemi The first open Large Language Model for Greek.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Greek"
-languages_list: Greek
+cultures_nationalities_list: "N/A"
+languages_list: "Greek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Meltemi-7B, Mistral-7B"
+LLM_assessed: "Mistral"
 DATA_URL: "https://huggingface.co/ilsp/Meltemi-7B-v1"
 tags: 
 abstract: "We describe the development and capabilities of Meltemi 7B, the ﬁrst open Large Language Model for the Greek language. Meltemi 7B has 7 billion parameters and is trained on a 40 billion token Greek corpus. For the development of Meltemi 7B, we adapt Mistral, by continuous pretraining on the Greek Corpus. Meltemi 7B contains upto-date information up to September 2023. Furthermore, we have translated and curated a Greek instruction corpus, which has been used for the instruction-tuning of a chat..."

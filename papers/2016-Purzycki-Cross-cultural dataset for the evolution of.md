@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +45,7 @@ doi: 10.1038/sdata.2016.99
 url: "https://www.nature.com/articles/sdata201699"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VQRCW8LB/Purzycki et al. - 2016 - Cross-cultural dataset for the evolution of religion and morality project.pdf"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
@@ -138,7 +142,7 @@ The authors present this as a data descriptor rather than drawing theoretical co
 
 ## Data Description
 
-This paper describes the cross-cultural dataset from the Evolution of Religion and Morality Project, containing data from 591 participants across 8 diverse field sites (Tanna Island, Tanzania, Fiji, Mauritius, Brazil, Tuva, Yasawa). The dataset includes behavioral economic experiments and surveys on demographics, religious beliefs and practices, material security, and intergroup perceptions. No LLMs are tested; this is a social science dataset.
+Cross-cultural dataset from the Evolution of Religion and Morality Project, including behavioral economic experiments and surveys of demographics, religious beliefs, and intergroup perceptions across diverse human populations.
 
 
 ## Notes

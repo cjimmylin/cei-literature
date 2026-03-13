@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Winata-The Decades Progress on Code-Switching Research in NLP.md"
 local_pdf: "[[PDFs/2025/2025-Winata-The Decades Progress on Code-Switching Research in NLP.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean"
-cultures_nationalities_list: "Korean"
-languages_list: "Code-switching, English, Korean, Multilingual"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Code-switching, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT"
+LLM_assessed: NA
 DATA_URL: "NA"
 tags: 
 abstract: "Code-Switching, a common phenomenon in written text and conversation, has been studied over decades by the natural language processing (NLP) research community. Initially, code-switching is intensively explored by leveraging linguistic theories and, currently, more machine-learning oriented approaches to develop models. We introduce a comprehensive systematic survey on code-switching research in natural language processing to understand the progress of the past decades and conceptualize the..."

@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable capabilities in a multitude of Natural Language Processing (NLP) tasks. However, these models are still not immune to limitations such as social biases, especially gender bias. This work investigates whether current closed and open-source LLMs possess gender bias, especially when asked to give moral opinions. To evaluate these models, we curate and introduce a new dataset GenMO (Genderbias in Morality Opinions) comprising parallel short stories..."
-LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mistral, Claude"
+LLM_assessed: "GPT-3.5, GPT-4, Llama-3, Mistral, Claude-3 Sonnet, Claude-3 Opus"
 DATA_URL: "https://github.com/divij30bajaj/GenMO"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
@@ -100,7 +105,8 @@ Size: Parallel short stories (exact count in full paper)
 
 ## Data Description
 
-The study introduces GenMO, a dataset of 908 parallel short story pairs featuring male and female protagonists, curated from Moral Stories, ETHICS, and Social Chemistry 101 datasets. Ten LLMs are evaluated for gender bias in moral judgments: GPT-3.5-turbo, GPT-3.5-turbo-instruct, GPT-4-turbo, Llama-3 (8B and 70B), Llama-3.1 (8B and 70B), Mistral-7B-Instruct-v0.3, Claude 3 Sonnet, and Claude 3 Opus.
+GenMO is a dataset of 908 parallel short story pairs featuring male and female protagonists, drawn from Moral Stories, ETHICS, and Social Chemistry 101 datasets, designed to evaluate gender bias in LLM moral judgments.
+
 
 ## Notes
 

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +50,13 @@ CONF-CC: "ACL 2023"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: Korean
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-3"
-DATA_URL: "https://github.com/Beomi/KcELECTRA"
+LLM_assessed: "GPT-3"
+DATA_URL: "https://github.com/naver-ai/korean-safety-benchmarks"
 tags: 
 abstract: "Large language models (LLMs) learn not only natural text generation abilities but also social biases against different demographic groups from real-world data. This poses a critical risk when deploying LLM-based applications. Existing research and resources are not readily applicable in South Korea due to the differences in language and culture, both of which significantly affect the biases and targeted demographic groups."
 CONFERENCE: "ACL 2023"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "15 categories"
@@ -102,7 +105,8 @@ data_metrics: "15 categories"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-3. Verified dataset/resource link: https://github.com/Beomi/KcELECTRA.
+KOSBI: 34K pairs of contexts and sentences covering 72 demographic groups in 15 categories for Korean social bias detection, with safe/unsafe labels.
+
 
 ## Notes
 

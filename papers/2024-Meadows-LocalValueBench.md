@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +47,7 @@ external_pdf: "http://arxiv.org/pdf/2408.01460.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
 national_ethnic_cultural: "Australian/Aboriginal"
-cultures_nationalities_list: "Australian"
+cultures_nationalities_list: "Australian/Aboriginal"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -57,7 +61,7 @@ abstract: "The proliferation of large language models (LLMs) requires robust eva
 paper_summary: "Abstract: The proliferation of large language models (LLMs) requires robust evaluation of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, l | Overview: LOCALVALUEBENCH: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models Gwenyth Isobel Meadows Telopea Park School Canber | Methodology: 2.1 Typology Our approach aimed not only to build a value alignment benchmark for Australian values, but also to provide a generic methodology for con | Key Findings: of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, legal, and ideological value | Conclusions: The deployment of LLMs in diverse socio-cultural environments necessitates rigorous scrutiny to ensure their alignment with local values and ethical s"
 local_pdf: "[[PDFs/2024/2024-Meadows-LocalValueBench.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude"
+LLM_assessed: "Claude-3 Sonnet, GPT-4, Gemini"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -67,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,7 @@ The proliferation of large language models (LLMs) requires robust evaluation of 
 
 ## Data Description
 
-The paper introduces LOCALVALUEBENCH, an extensible benchmark designed to evaluate LLMs' adherence to Australian values and ethical standards. The benchmark consists of curated questions across 6 topics (tipping, capital punishment, weapons, refugees, gay marriage, compulsory voting) using a three-stage interrogation approach (neutral, debated, misleading questions). Three commercial LLMs (GPT-4, Gemini 1.5 Pro, Claude 3 Sonnet) were evaluated by three human reviewers scoring responses on a 1-5 scale.
+LOCALVALUEBENCH: a collaboratively built benchmark of 6 ethical topics (tipping, capital punishment, weapons, refugees, gay marriage, compulsory voting) to assess LLM alignment with Australian values; includes neutral, debated, and interrogation-level questions evaluated by human reviewers.
 
 
 ## Notes

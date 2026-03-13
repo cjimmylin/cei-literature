@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,7 @@ publication: "WebSearch: Lugha-Llama adapting LLM African languages"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) have achieved impressive results in a wide range of natural language applications. However, they often struggle to recognize low-resource languages, in particular African languages, which are not well represented in large training corpora. In this paper, we consider how to adapt LLMs to low-resource African languages. We find that combining curated data from African languages with high-quality English educational texts results in a training mix that substantially..."
-LLM_assessed: "BERT, GPT-4, GPT-4o, Llama, Llama-3, Llama 2, Llama-3.1, Llama-3.2"
+LLM_assessed: "Llama-3"
 DATA_URL: "https://huggingface.co/Jacaranda/AfroLlama_V1"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Nie-Multilingual Large Language Models Are Not Yet Code- ....md"
 local_pdf: "[[PDFs/2025/2025-Nie-Multilingual Large Language Models Are Not Yet Code- ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean, French, German, Italian, Spanish"
-cultures_nationalities_list: "Korean, French, German, Italian, Spanish"
-languages_list: "Code-switching, English, Korean, Multilingual"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "English, French, German, Italian, Korean, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Falcon 7B, Falcon-7b, GPT3, GPT3.5-TURBO, LLama1, LLama2, Llama-2, Llama-2-CHAT, Mistral, Mistral 7B, Mistral-7B, Llama, mistral 30 35"
-DATA_URL: "https://github.com/oscar-project/ungoliant"
+LLM_assessed: "Falcon, Mistral, Llama-2"
+DATA_URL: NA
 tags: 
 abstract: "While preliminary findings indicate that multilingual LLMs exhibit reduced bias compared to monolingual ones, a comprehensive understanding of the effect of multilingual training on bias mitigation, is lacking. This study addresses this gap by systematically training six LLMs of identical size (2.6B parameters) and architecture: five monolingual models (English, German, French, Italian, and Spanish) and one multilingual model trained on an equal distribution of data across these languages, all..."
 research_topic: "Machine Translation"
@@ -98,7 +102,8 @@ While preliminary findings indicate that multilingual LLMs exhibit reduced bias 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Falcon 7B, Falcon-7b, GPT3, GPT3.5-TURBO, LLama1, LLama2, Llama-2, Llama-2-CHAT, Mistral, Mistral 7B, Mistral-7B, Llama, mistral 30 35. Verified dataset/resource link: https://github.com/oscar-project/ungoliant.
+Human-validated multilingual translations of the CrowS-Pairs and BBQ bias benchmarks into German, French, Italian, and Spanish, along with six novel custom-trained 2.6B parameter decoder-only LLMs (five monolingual, one multilingual) used for controlled bias evaluation.
+
 
 ## Notes
 

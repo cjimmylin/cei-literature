@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,14 +51,14 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
-languages_list: "English"
+languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "Value alignment is central to the development of safe and socially compatible artificial intelligence. However, how Large Language Models (LLMs) represent and enact human values in real-world decision contexts remains under-explored. We present VALACT-15K, a dataset of 3,000 adviceseeking scenarios derived from Reddit, designed to elicit ten values defined by Schwartz Theory of Basic Human Values. Using both the scenariobased questions and the traditional value questionnaire, we evaluate ten..."
-LLM_assessed: "GPT-4, Claude, Grok, Llama, Qwen, DeepSeek"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Grok, Llama-3, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -62,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -98,7 +102,8 @@ ValAct-15k: 3,000 advice-seeking scenarios derived from Reddit; 55 human partici
 
 ## Data Description
 
-The paper introduces VALACT-15K, a dataset of 15,000 four-choice items derived from 3,000 advice-seeking Reddit posts across five life domains (career, finance, education, relationships, ethics), designed to elicit Schwartz's ten basic human values. Ten frontier LLMs (GPT-4o, Gemini-2.5-Pro, Claude-4-Sonnet, Grok-4, LLaMA-4-Maverick, Qwen-2.5-72B, DeepSeek-V3, Kimi-K2, Seed-1.6, GLM-4.5) and 55 human participants are evaluated using both PVQ-40 and scenario-based measures to investigate the knowledge-action gap in value alignment.
+VALACT-15K: a dataset of 15,000 four-choice value-alignment questions derived from 3,000 Reddit advice-seeking posts across 5 domains, designed to elicit Schwartz's ten basic human values; released for non-commercial research with post URLs (not raw content) due to Reddit policy.
+
 
 ## Notes
 

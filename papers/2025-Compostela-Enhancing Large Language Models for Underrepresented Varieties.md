@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +49,15 @@ CONF-CC: "Journal of the Brazilian Computer Society 2025"
 pdf_extract: "PDF Extracts/2025/2025-Compostela-Enhancing Large Language Models for Underrepresented Varieties.md"
 local_pdf: "[[PDFs/2025/2025-Compostela-Enhancing Large Language Models for Underrepresented Varieties.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Portuguese, Galician"
+national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: "Galician, Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BLOOM, LLama-3.1, Llama, Llama 3.1"
-DATA_URL: "https://github.com/proxectonos/instruction_datasets"
+LLM_assessed: "BLOOM, LLaMA, Llama-3"
+DATA_URL: "https://huggingface.co/Nos-PT"
 tags: 
 abstract: "Systematic exploration of pretraining strategies for generative LLMs in the Galician-Portuguese diasystem. Investigates combining vs separating varieties and quality vs scale tradeoffs."
 CONFERENCE: "Journal"
@@ -63,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,8 @@ Systematic exploration of pretraining strategies for generative LLMs in the Gali
 
 ## Data Description
 
-Backfill summary: Models assessed include BLOOM, LLama-3.1, Llama, Llama 3.1. Verified dataset/resource link: https://github.com/proxectonos/instruction_datasets.
+High-quality Galician and European Portuguese corpora and instruction datasets created for continued pretraining, along with trained model variants released under free licenses.
+
 
 ## Notes
 

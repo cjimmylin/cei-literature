@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -99,7 +102,7 @@ Based on the web search results, here's what I found regarding Arabic NLP datase
 
 ## Data Description
 
-Meta-analysis applying Data Feminism principles to assess how well bias is addressed in English and Arabic NLP research. Finds most papers score near 1 on a 5-point scale for social bias reporting. Creates a prototype interactive form to improve bias reporting in NLP datasets.
+A prototype interactive form and evaluation framework applying data feminism principles to assess bias reporting in English and Arabic NLP datasets. The research creates a novel instrument for auditing bias in NLP dataset documentation.
 
 
 ## Notes

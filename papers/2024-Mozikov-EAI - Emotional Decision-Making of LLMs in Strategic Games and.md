@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "One of the urgent tasks of artificial intelligence is to assess the safety and alignment of large language models (LLMs) with human behavior. Conventional verification only in pure natural language processing benchmarks can be insufficient. Since emotions often influence human decisions, this paper examines LLM alignment in complex strategic and ethical environments, providing an in-depth analysis of the drawbacks of our psychology and the emotional impact on decision-making in humans and LLMs."
-LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Mixtral"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Claude-3 Haiku, Claude-3 Opus, Llama-2, Mixtral, Command R+"
 DATA_URL: "https://github.com/AIRI-Institute/EAI-Framework"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
@@ -98,7 +102,8 @@ Strategic game scenarios (bargaining, repeated games)
 
 ## Data Description
 
-The paper introduces the EAI framework for integrating emotion modeling into LLMs to examine emotional impact on ethical decision-making and strategic game play. The framework evaluates LLMs across three settings: implicit ethics (ETHICS dataset), explicit ethics (MoralChoice dataset), stereotype recognition (StereoSet), and game-theoretic scenarios (Dictator and Ultimatum games, Prisoner's Dilemma, Battle of the Sexes) using five basic emotions (anger, sadness, happiness, disgust, fear) in multiple languages.
+EAI (Emotional AI) is a framework for evaluating emotional decision-making of LLMs in strategic game-theoretic settings (Dictator, Ultimatum, Prisoner's Dilemma) and ethical benchmarks under five emotion states.
+
 
 ## Notes
 

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +53,7 @@ tags:
 abstract: "The rapid advancement of large language models (LLMs) has highlighted the need for robust evaluation frameworks that assess their core capabilities, such as reasoning, knowledge, and commonsense, leading to the inception of certain widely-used benchmark suites such as the H6 benchmark. However, these benchmark suites are primarily built for the English language, and there exists a lack thereof for under-represented languages, in terms of LLM development, such as Thai."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, Qwen, GPT-4, GPT-3.5, Claude, Gemini"
+LLM_assessed: "Claude, Gemini, GPT-3.5, GPT-4, Llama-3, Qwen"
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
 pdf_extract: "PDF Extracts/2025/2025-Kim-Cultural and Core Capability Benchmarks for.md"
 local_pdf: "[[PDFs/2025/2025-Kim-Cultural and Core Capability Benchmarks for.pdf]]"
@@ -81,7 +85,7 @@ The rapid advancement of large language models (LLMs) has highlighted the need f
 
 ## Data Description
 
-The paper introduces two benchmarks for evaluating Thai LLMs: Thai-H6 (a localized adaptation of six international benchmarks including ARC, HellaSwag, MMLU, TruthfulQA, GSM8K, and Winogrande, totaling ~29,000 samples) and ThaiCLI (1,890 question-chosen-rejected triplets across seven cultural themes). Thai-H6 assesses core LLM capabilities in Thai, while ThaiCLI evaluates cultural alignment with Thai societal norms. Multiple open-source models (Llama-3.1-8B/70B, Qwen2-72B, Typhoon-70B, Sailor-14B, SeaLLMs-7B) and closed APIs (GPT-4o, GPT-4 Turbo, GPT-4o mini, GPT-3.5 Turbo, Gemini Pro, Claude Sonnet) were evaluated.
+Introduces Thai-H6 (Thai localizations of 6 established English benchmarks: ARC, MMLU, TruthfulQA, HellaSwag, GSM8k, Winogrande) and ThaiCLI (Thai Cultural and Linguistic Intelligence Benchmark with culturally-grounded chosen/rejected response triplets), both publicly released.
 
 
 ## Notes

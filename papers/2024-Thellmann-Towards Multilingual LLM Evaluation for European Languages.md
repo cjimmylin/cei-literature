@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ local_pdf: "[[PDFs/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for E
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "European"
-languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and 15 other European languages"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Barth, Barth4, Bloom, Bloom-7b1, Bloomz, ChatGPT, Gemma, Gemma-1.1, Gemma-2, Llama-2, LLama-3.1, Llama, Llama-3, Mistral-7B, Mistral-NeMo, Mixtral, Mixtral-8x7B, Phi-3-medium, Phi-3-mini, Qwen, Qwen2, Vicuna, Vicuna-13, BERT, command-r, GPT-4, mistralai"
-DATA_URL: "https://github.com/vllm-project/vllm"
+LLM_assessed: "Gemma-2, Llama-3, Mistral, Mixtral, Phi-3, Qwen-2, Vicuna, Command-R"
+DATA_URL: "https://hf.co/collections/openGPT-X/eu20-benchmarks-67093b13db8ff192dc39312d"
 tags: 
 abstract: "The rise of Large Language Models (LLMs) has revolutionized natural language processing across numerous languages and tasks. However, evaluating LLM performance in a consistent and meaningful way across multiple European languages remains challenging, especially due to the scarcity of language-parallel multilingual benchmarks. We introduce a multilingual evaluation approach tailored for European languages."
 CONFERENCE: "Preprint"
@@ -61,9 +65,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Assesses 40 LLMs across 21 European languages using translated MMLU, HellaSwag, 
 
 ## Data Description
 
-Backfill summary: Models assessed include Barth, Barth4, Bloom, Bloom-7b1, Bloomz, ChatGPT, Gemma, Gemma-1.1, Gemma-2, Llama-2, LLama-3.1, Llama, Llama-3, Mistral-7B, Mistral-NeMo, Mixtral, Mixtral-8x7B, Phi-3-medium, Phi-3-mini, Qwen, Qwen2, Vicuna, Vicuna-13, BERT, command-r, GPT-4, mistralai. Verified dataset/resource link: https://github.com/vllm-project/vllm.
+Releases EU20/EU21 translated versions of MMLU, HellaSwag, ARC, TruthfulQA, and GSM8K across 20 European languages. Benchmarks 40 LLMs on these five multilingual evaluation datasets.
+
 
 ## Notes
 

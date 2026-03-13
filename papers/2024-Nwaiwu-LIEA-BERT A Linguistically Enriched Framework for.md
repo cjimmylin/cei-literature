@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +44,7 @@ authors: Steve Nwaiwu; Nipat Jongsawat; Anucha Tungkasthan
 authors_incomplete: false
 url: "https://datasciencehub.net/paper/liea-bert-linguistically-enriched-framework-hate-speech-detection-low-resource-thai"
 external_pdf: "https://datasciencehub.net/system/files/ds-paper-909.pdf"
-pdf_extract: "PDF Extracts/0000/2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.md"
+pdf_extract: "PDF Extracts/2024/2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.md"
 local_pdf: "[[PDFs/2024/2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.pdf]]"
 publication: "Data Science Hub"
 CONF-CC: "Preprint"
@@ -64,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
 ---
@@ -99,7 +102,8 @@ Proposes a weakly supervised learning framework for hate speech detection in Tha
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+Proposes LIEA-BERT, a weakly supervised framework for Thai hate speech detection using multilingual BERT fine-tuned with linguistically informed embedding alignment and Proto-MAML on the Wisesight Sentiment Corpus and a Thai toxicity lexicon.
+
 
 ## Notes
 

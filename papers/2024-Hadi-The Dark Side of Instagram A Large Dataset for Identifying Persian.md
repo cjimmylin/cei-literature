@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +48,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Persian, Iranian"
-languages_list: Persian
+cultures_nationalities_list: "Iranian"
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -99,7 +102,7 @@ Over 300,000 Farsi Instagram comments categorized into hate speech/offensive lan
 
 ## Data Description
 
-PHICAD (Persian Harmful Instagram Comments Annotated Dataset) contains over 300,000 Farsi Instagram comments categorized into hate speech/offensive language, obscenity, and spam. The dataset uses multi-stage labeling with high inter-annotator agreement and is designed for harmful content detection in Persian social media.
+A dataset of over 300,000 Farsi Instagram comments categorized into hate speech/offensive language, obscenity, and spam, with multi-stage labeling and high inter-annotator agreement.
 
 
 ## Notes

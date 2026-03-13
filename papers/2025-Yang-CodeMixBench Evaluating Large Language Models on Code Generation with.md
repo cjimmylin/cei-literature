@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Yang-CodeMixBench Evaluating Large Language Models on Code Generation with.md"
 local_pdf: "[[PDFs/2025/2025-Yang-CodeMixBench Evaluating Large Language Models on Code Generation with.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Indian, Spanish"
-cultures_nationalities_list: "Chinese, Indian, Spanish"
-languages_list: "Code-switching, English, Hindi"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Code-switching, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, CodeLLaMA, Codex, DeepSeek, DeepSeek-Coder, DeepSeek-R1, Gemma-3, Llama, LLaMA-3.1, LLaMA-3.2, LLaMA3, Llama-3, Phi-4, Phi-4-multimodal, Qwen, Qwen-1.5B, Qwen-14B, Qwen2.5"
+LLM_assessed: "CodeLlama, DeepSeek, Gemma, LLaMA, Llama-3, Phi-3, Qwen, StarCoder"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) have achieved remarkable success in code generation tasks, powering various applications like code completion, debugging, and programming assistance. However, existing benchmarks such as HumanEval, MBPP, and BigCodeBench primarily evaluate LLMs on English-only prompts, overlooking the real-world scenario where multilingual developers often use codemixed language while interacting with LLMs."
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Large Language Models (LLMs) have achieved remarkable success in code generation
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, CodeLLaMA, Codex, DeepSeek, DeepSeek-Coder, DeepSeek-R1, Gemma-3, Llama, LLaMA-3.1, LLaMA-3.2, LLaMA3, Llama-3, Phi-4, Phi-4-multimodal, Qwen, Qwen-1.5B, Qwen-14B, Qwen2.5. No high-confidence repository-style data URL was identified.
+CodeMixBench (code generation): 6,840 code-mixed prompts derived from BigCodeBench across 3 language mixes (Hinglish, Spanish-English, Chinese Pinyin-English) at 2 code-mixing degree levels (CMD 0.6 and 0.9), covering 1,140 unique programming tasks for evaluating code generation robustness to multilingual prompts.
+
 
 ## Notes
 

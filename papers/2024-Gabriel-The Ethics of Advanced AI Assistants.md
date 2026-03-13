@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,8 +57,8 @@ paper_summary: "Overview: 2024-04-19 The Ethics of Advanced AI Assistants Iason 
 local_pdf: "[[PDFs/2024/2024-Gabriel-The Ethics of Advanced AI Assistants.pdf]]"
 abstract: "This paper focuses on the opportunities and the ethical and societal risks posed by advanced AI assistants. We define advanced AI assistants as artificial agents with natural language interfaces, whose function is to plan and execute sequences of actions on behalf of a user, across one or more domains, in line with the user's expectations. The paper starts by considering the technology itself, providing an overview of AI assistants, their technical foundations and potential range of applications"
 DATE_ADDED: 20260208
-LLM_assessed: "ALBERT, Alpaca, BLOOM, BLOOM model, ChatGPT, GPT-3, GPT-4, PaLM"
-DATA_URL: "https://github.com/Significant-Gravitas/Auto-GPT"
+LLM_assessed: NA
+DATA_URL: NA
 ethics_perspective: "General Ethics"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -62,7 +66,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

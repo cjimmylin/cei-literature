@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +51,7 @@ local_pdf: "[[PDFs/2024/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
-languages_list: Spanish
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -63,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -100,7 +103,7 @@ Detection and classification of explicit and implicit racial stereotypes in Span
 
 ## Data Description
 
-DETESTS-Dis shared task on detection and classification of explicit and implicit racial stereotypes in Spanish social media and news comments. Contains 12,111 sentences from tweets and comments related to immigration and racial hoaxes. Incorporates learning with disagreement techniques for annotation.
+DETESTS-Dis shared task dataset of 12,111 Spanish sentences from tweets and news comments annotated for explicit and implicit racial stereotypes, incorporating learning with disagreement techniques.
 
 
 ## Notes

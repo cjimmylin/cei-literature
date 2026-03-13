@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "NAACL 2025 Findings"
 local_pdf: "[[PDFs/2025/2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Afan Oromo, Amharic, Ethiopian, Ge'ez, Tigrinya"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Afan Oromo, Amharic, English, Ge'ez, Tigrinya"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4o, Gemma-2-9B, Gemma-2-27B, Aya-101, Llama-3"
+LLM_assessed: "Aya, Gemma-2, GPT-4o, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/israel/ProverbEval"
 tags: 
 abstract: "With the rapid development of evaluation datasets to assess LLMs understanding across a wide range of subjects and domains, identifying a suitable language understanding benchmark has become increasingly challenging. In this work, we explore LLM evaluation challenges for low-resource language understanding and introduce ProverbEval, LLM evaluation benchmark for low-resource languages, focusing on low-resource language understanding in culture-specific scenarios."
@@ -62,7 +66,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +100,7 @@ LLM evaluation benchmark based on cultural proverbs across 4 Ethiopian languages
 
 ## Data Description
 
-Introduces ProverbEval, a benchmark for evaluating LLM understanding of proverbs in low-resource Ethiopian languages. Tests five models on proverb comprehension and cultural knowledge, revealing challenges in low-resource language evaluation. Code available at https://github.com/EthioNLP/EthioProverbEval.
+Releases ProverbEval, a benchmark dataset of cultural proverbs across 4 Ethiopian languages (Amharic, Tigrinya, Afaan Oromoo, Wolaytta) plus English, with three evaluation tasks: meaning multiple-choice, fill-in-the-blank, and proverb generation.
 
 
 ## Notes

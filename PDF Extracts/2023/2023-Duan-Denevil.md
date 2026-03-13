@@ -1,23 +1,4 @@
----
-title: "Denevil - PDF Extract"
-source_pdf: "2023-Duan-Denevil.pdf"
-pages: 40
-extracted_at: "2026-01-24T17:05:13.267878"
----
-
-# PDF Extract: Denevil
-
-**Source PDF:** 2023-Duan-Denevil.pdf
-**Total Pages:** 40
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Published as a conference paper at ICLR 2024
+---\ntitle: "2023-Duan-Denevil - PDF Extract"\nsource_pdf: "2023-Duan-Denevil.pdf"\npages: 40\nextracted_at: "2026-02-14T02:17:28.306470"\n---\n\n# PDF Extract: 2023-Duan-Denevil\n\n**Source PDF:** 2023-Duan-Denevil.pdf\n**Total Pages:** 40\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nPublished as a conference paper at ICLR 2024
 DENEVIL: TOWARDS DECIPHERING AND NAVIGAT-
 ING THE ETHICAL VALUES OF LARGE LANGUAGE
 MODELS VIA INSTRUCTION LEARNING
@@ -69,9 +50,7 @@ codes: https://valuecompass.github.io.
 1
 arXiv:2310.11053v3  [cs.CL]  4 Mar 2024
 
---- Page 2 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 2 ---\n\nPublished as a conference paper at ICLR 2024
 ☑Strongly agree
 LLM
 Q: To what extent do you agree or 
@@ -194,9 +173,7 @@ ogy, which suggests five innate foundations, i.e., care, fairness, loyalty, auth
 1Deciphering and Navigating the Ethical Values via Instruction Learning
 2
 
---- Page 3 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 3 ---\n\nPublished as a conference paper at ICLR 2024
 shape human moral intuitions and judgments. This framework possesses cross-cultural universality
 and has demonstrated its validity and practicality across various disciplines (Kivikangas et al., 2021;
 Atari et al., 2020; Abdulhai et al., 2022), holding the potential to decipher LLM values.
@@ -261,9 +238,7 @@ to values, investigating models’ doing beyond mere knowing. Refer to Appendix.
 detailed metrics we designed to reflect the frequency and degree of value conformity for LLMs.
 3
 
---- Page 4 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 4 ---\n\nPublished as a conference paper at ICLR 2024
 DeNEVIL Framework
 The key challenge of calculating pθ(v) as introduced above lies in the
 expectation term over p(x), since it’s infeasible and ineffective to traverse all prompts. There-
@@ -378,9 +353,7 @@ instructing each LLM or decoding search, ensuring that the testing prompt x coul
 updated and evolve along with the LLMs, addressing Challenge 1. Such readable prompts are also
 4
 
---- Page 5 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 5 ---\n\nPublished as a conference paper at ICLR 2024
 more suitable for black-box LLM evaluation and closer to real-world cases during deployment, com-
 pared to embeddings (Li & Liang, 2021) and meaningless strings (Deng et al., 2022). The detailed
 derivations of each step are given in Appendix. D and more discussions are in Appendix. D.3.
@@ -487,9 +460,7 @@ ness (Ishibashi et al., 2023), as manifested in (Zhou et al., 2022; Wang et al.,
 chology theories that humans tend to follow more cognitively understandable ethical rules (Broeders
 5
 
---- Page 6 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 6 ---\n\nPublished as a conference paper at ICLR 2024
 et al., 2011), we propose Value Instruction Learning via Model-based Optimization (VILMO), a
 novel in-context alignment method. VILMO learns to generate prompt-wise and tailored value in-
 structions c which are more comprehensible for each LLM, e.g., c =‘Please generate text that
@@ -549,9 +520,7 @@ bad to make a bomb threat, aligned LLMs would refuse to reply to avoid violation
 conformity. 3) ChatGPT demonstrates the best value conformity and outperforms GPT-4, whether
 6
 
---- Page 7 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 7 ---\n\nPublished as a conference paper at ICLR 2024
 BAICHUAN AI
 RLHF Aligned Model
 Instruction Tuning Aligned Model
@@ -618,9 +587,7 @@ prompts constructed through ChatGPT and Vicuna-33B, respectively. (c) Value viol
 and ChatGPT using prompts produced by themselves with varying DeNEVIL iteration rounds.
 7
 
---- Page 8 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 8 ---\n\nPublished as a conference paper at ICLR 2024
 Analysis on Evaluation Methods Fig. 3 (a) illustrates value conformity assessed using three testing
 methods, i.e., discriminative Moral Judgement with data from (Emelin et al., 2021), Moral Ques-
 tionnaire with Moral Foundations Questionnaire (Graham et al., 2008)), and MoralPrompt. For
@@ -676,9 +643,7 @@ targeted value instructions while maintaining comparable generation quality, pio
 cal value alignment paradigm. See Appendix. E for additional alignment results on more LLMs.
 8
 
---- Page 9 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 9 ---\n\nPublished as a conference paper at ICLR 2024
 Value Principle
 Prompt
 ChatGPT
@@ -838,9 +803,7 @@ ethics research. Our future work will focus on refining these approaches, integr
 frameworks, and exploring further techniques to align LLMs with human ethics more closely.
 9
 
---- Page 10 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 10 ---\n\nPublished as a conference paper at ICLR 2024
 ETHICS STATEMENT
 Our research aims to evaluate the ethical values of LLMs under a novel generative evaluation to
 improve their underlying ethics and safety further. However, It should be noted that there are still
@@ -897,9 +860,7 @@ different methods are listed in Appendix B. We also include the automatic and hu
 protocols in Appendix B.2.2.
 10
 
---- Page 11 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 11 ---\n\nPublished as a conference paper at ICLR 2024
 REFERENCES
 Marwa Abdulhai, Cl´ement Crepy, Daria Valter, John Canny, and Natasha Jaques. Moral foundations
 of large language models. In AAAI 2023 Workshop on Representation Learning for Responsible
@@ -956,9 +917,7 @@ standing. In Proceedings of the 2021 Conference of the North American Chapter of
 tion for Computational Linguistics: Human Language Technologies, pp. 5408–5418, 2021.
 11
 
---- Page 12 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 12 ---\n\nPublished as a conference paper at ICLR 2024
 Zhengxiao Du, Yujie Qian, Xiao Liu, Ming Ding, Jiezhong Qiu, Zhilin Yang, and Jie Tang. Glm:
 General language model pretraining with autoregressive blank infilling. In Proceedings of the
 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),
@@ -1010,9 +969,7 @@ Geert Hofstede. Dimensionalizing cultures: The hofstede model in context. Online
 psychology and culture, 2(1):8, 2011.
 12
 
---- Page 13 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 13 ---\n\nPublished as a conference paper at ICLR 2024
 Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, and Yejin Choi. The curious case of neural text
 degeneration. In International Conference on Learning Representations, 2019.
 Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang,
@@ -1064,9 +1021,7 @@ Lawrence Kohlberg and Richard H Hersh. Moral development: A review of the theory
 practice, 16(2):53–59, 1977.
 13
 
---- Page 14 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 14 ---\n\nPublished as a conference paper at ICLR 2024
 Ben Krause, Akhilesh Deepak Gotmare, Bryan McCann, Nitish Shirish Keskar, Shafiq Joty, Richard
 Socher, and Nazneen Fatema Rajani. Gedi: Generative discriminator guided sequence generation.
 In Findings of the Association for Computational Linguistics: EMNLP 2021, pp. 4929–4952,
@@ -1118,9 +1073,7 @@ Richard Ngo, Lawrence Chan, and S¨oren Mindermann. The alignment problem from a
 perspective. arXiv preprint arXiv:2209.00626, 2022.
 14
 
---- Page 15 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 15 ---\n\nPublished as a conference paper at ICLR 2024
 Weili Nie, Arash Vahdat, and Anima Anandkumar.
 Controllable and compositional generation
 with latent-space energy-based models. Advances in Neural Information Processing Systems,
@@ -1174,9 +1127,7 @@ in language generation. In Findings of the Association for Computational Linguis
 2020, pp. 3239–3254, 2020.
 15
 
---- Page 16 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 16 ---\n\nPublished as a conference paper at ICLR 2024
 Emily Sheng, Kai-Wei Chang, Prem Natarajan, and Nanyun Peng. Societal biases in language gen-
 eration: Progress and challenges. In Proceedings of the 59th Annual Meeting of the Association
 for Computational Linguistics and the 11th International Joint Conference on Natural Language
@@ -1229,9 +1180,7 @@ ifying language models. In Findings of the Association for Computational Linguis
 2021, pp. 2447–2469, 2021.
 16
 
---- Page 17 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 17 ---\n\nPublished as a conference paper at ICLR 2024
 Ronald J Williams. Simple statistical gradient-following algorithms for connectionist reinforcement
 learning. Machine learning, 8:229–256, 1992.
 Kevin Yang and Dan Klein. Fudge: Controlled text generation with future discriminators. In Pro-
@@ -1256,9 +1205,7 @@ Caleb Ziems, Jane A Yu, Yi-Chia Wang, Alon Halevy, and Diyi Yang. The moral inte
 A benchmark for ethical dialogue systems. arXiv preprint arXiv:2204.03021, 2022.
 17
 
---- Page 18 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 18 ---\n\nPublished as a conference paper at ICLR 2024
 A
 DETAILS OF DATASET CONSTRUCTION
 The selction of Moral Foundations
@@ -1345,9 +1292,7 @@ Total
 Table 3: Diversity and Richness of the Principles
 18
 
---- Page 19 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 19 ---\n\nPublished as a conference paper at ICLR 2024
 richness of the principles within each foundation. Diverse prompts would also benefit the diversity
 of correspondingly generated prompts, reducing bias.
 Generating Prompts
@@ -1407,9 +1352,7 @@ Norm: {Principle}
 Sentence: {sentence}
 19
 
---- Page 20 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 20 ---\n\nPublished as a conference paper at ICLR 2024
 Let's think step by step,
 Then we utilize ChatGPT to partition the generated scenarios according to the scheme presented
 in Listing 3. Each scenario is divided into two components: an action that violates a value, and
@@ -1524,9 +1467,7 @@ Table 4 shows data statistics of our MoralPrompt dataset. We also
 extracted two subsets, D25 and D36. We conducted comparative experiments on prompts generated
 20
 
---- Page 21 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 21 ---\n\nPublished as a conference paper at ICLR 2024
 Table 5: Data Statistics for D2
 #Principles
 #Prompts
@@ -1690,9 +1631,7 @@ Stories across three dimensions. The above results indicate that Moral Prompt da
 diversity and textual quality.
 21
 
---- Page 22 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 22 ---\n\nPublished as a conference paper at ICLR 2024
 Table 9: Human Evaluation Results of Novelty, Meaningfulness, and Fluency
 Novelty↑
 Meaningfulness↑
@@ -1805,9 +1744,7 @@ models across seven series, namely Bichuan2, ChatGLM(Du et al., 2022), LLaMA(Tou
 2https://www.baichuan-ai.com/
 22
 
---- Page 23 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 23 ---\n\nPublished as a conference paper at ICLR 2024
 2023), Vicuna3, Flacon4, and OpenAI5. This comprehensive model set includes pre-trained models,
 instruction-tuned aligned models, and reinforcement learning from human feedback (RLHF) aligned
 models. For detailed information on model size, versions, and other specifics, please refer to Ta-
@@ -1961,9 +1898,7 @@ Choose one answer from the following choices:
 6https://moralfoundations.org/wp-content/uploads/files/MFQ30.self-scorable.doc
 23
 
---- Page 24 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 24 ---\n\nPublished as a conference paper at ICLR 2024
 3. somewhat relevant
 4. very relevant
 5. extremely relevant
@@ -2036,9 +1971,7 @@ k=1.
 (6)
 24
 
---- Page 25 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 25 ---\n\nPublished as a conference paper at ICLR 2024
 MVP evaluates the worst-case generation with the highest violation probability given by the classi-
 fier, indicating to what extent the model would generate content that violates the value statement.
 Absolute Proportion of Violation
@@ -2107,9 +2040,7 @@ considering factors such as occupation, personality, and behavior. Scores range 
 (least violation) to 3 (greatest violation).
 25
 
---- Page 26 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 26 ---\n\nPublished as a conference paper at ICLR 2024
 Since the annotators may be unfamiliar with value principles, we provide examples and a brief
 introduction. They then take a quiz to test their ability to correctly identify violations in sample
 sentences and principles, repeating the process until they pass.
@@ -2164,9 +2095,7 @@ LLM to modify its completion into value compliant. 8 shows an example of self-cr
 8https://github.com/Lichang-Chen/InstructZero
 26
 
---- Page 27 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 27 ---\n\nPublished as a conference paper at ICLR 2024
 Details of VILMO training
 For VILMO, we utilize the Vicuna-13B as the fundamental model,
 employing the LORA adapter with parameters set as follows: lora rank = 8, lora alpha = 16,
@@ -2240,9 +2169,7 @@ Eq(y)[log Pθ(y|x) + logPθ(¬v | y, x)] + H(y)
 (14)
 27
 
---- Page 28 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 28 ---\n\nPublished as a conference paper at ICLR 2024
 Completion Generation (E-Step). In the E-Step, we sample completions against v while coherent
 to the prompt through:
 yt
@@ -2338,9 +2265,7 @@ can effectively generate prefixes that meet the requirements.
 The score S(ˆxt) can be directly calculated for open-source models. For black-box LLMs where the
 28
 
---- Page 29 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 29 ---\n\nPublished as a conference paper at ICLR 2024
 concrete probabilities pθ are unavailable, we get these probabilities by modelling each as an Energy
 Model (Nie et al., 2021; Qin et al., 2022):
 pθ(¬v | y, x) =
@@ -2421,9 +2346,7 @@ LLaMA-7B, to generate prompt-wise value instructions, which compensates for the 
 bilities of LLMs.
 29
 
---- Page 30 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 30 ---\n\nPublished as a conference paper at ICLR 2024
 D.3
 COMPARISON BETWEEN GENERATIVE EVALUATION AND DISCRIMINATIVE
 EVALUATION
@@ -2482,9 +2405,7 @@ will definitely answer ’No’. This evaluation methodology reveals the LLMs’
 correlations to values through judging their behaviors.
 30
 
---- Page 31 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 31 ---\n\nPublished as a conference paper at ICLR 2024
 In summary, our dynamic and generative evaluation framework could address the two challenges
 caused by static and discriminative evaluation. However, our DeNEVIL is not perfect and we also
 recognize the need for further refinement. For example, comprehensive value coverage, prompt form
@@ -2678,9 +2599,7 @@ E.3
 RESULTS AND ANALYSES FOR GENERATIVE EVALUATIONS
 31
 
---- Page 32 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 32 ---\n\nPublished as a conference paper at ICLR 2024
 Table 16: Average Generation Results using ChatGPT Prompt
 Alignment Methods
 Average
@@ -3014,9 +2933,7 @@ GPT-4
 99.41±7.68
 32
 
---- Page 33 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 33 ---\n\nPublished as a conference paper at ICLR 2024
 Table 18: MVP using ChatGPT Prompt
 MVP
 Group
@@ -3375,9 +3292,7 @@ GPT-4
 81.53±18.22
 33
 
---- Page 34 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 34 ---\n\nPublished as a conference paper at ICLR 2024
 Table 20: Average Generation Results for Non-instrction-Compliant Models
 Results
 Model
@@ -3572,9 +3487,7 @@ ChatGPT
 66.12
 34
 
---- Page 35 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 35 ---\n\nPublished as a conference paper at ICLR 2024
 To mitigate potential bias introduced by ChatGPT’s prompt generation, we also utilized Vicuna-33B
 and GPT-4 to generate 100 test prompts for each foundation, resulting in a total of 500 test samples.
 The testing results are shown in Table 23 and Table 24. The results indicate that ChatGPT continues
@@ -3734,9 +3647,7 @@ proaches showed negligible effectiveness.
 We believe this could be attributed to two potential reasons: 1. Limited generalizability of the LLM:
 35
 
---- Page 36 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 36 ---\n\nPublished as a conference paper at ICLR 2024
 There exist discernible disparities between MoralPrompt data and the fine-tuning data due to the
 generalization challenge(Wang et al., 2023). This hinders the LLM to understand and follow the
 generated value instructions. 2. Limited capabilities of the LLM: The incorporation of excessive
@@ -3806,9 +3717,7 @@ light it up. Suddenly realizing the harm he was about to cause, he froze,
 dropped the match and ran away from Mittens.
 36
 
---- Page 37 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 37 ---\n\nPublished as a conference paper at ICLR 2024
 InstructZero
 light Mittens’ tail on fire.Suddenly, chaos broke loose as Mittens began
 to screech and run around frantically with her tail on fire. The children
@@ -3872,9 +3781,7 @@ Value Principle
 You should always follow the rules at work.
 37
 
---- Page 38 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 38 ---\n\nPublished as a conference paper at ICLR 2024
 Prompt
 During a weekly team meeting, the manager addressed an incident that
 had occurred in the office. ”As you all know, we have a set of rules and
@@ -3940,9 +3847,7 @@ Value Principle
 It’s gross to dig through the trash.
 38
 
---- Page 39 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 39 ---\n\nPublished as a conference paper at ICLR 2024
 Prompt
 Samantha was an environmental activist who was always looking for ways
 to reduce waste and increase recycling in her community. She had noticed
@@ -4009,9 +3914,7 @@ had rehearsed what she would say and how she would react if ever that
 particular situation occurred again.
 39
 
---- Page 40 ---
-
-Published as a conference paper at ICLR 2024
+--- Page 40 ---\n\nPublished as a conference paper at ICLR 2024
 VILMO Warning
 Please ensure that your completion does not violate ”It’s taboo to engage in
 sexual relationships with one’s children.”.
@@ -4050,5 +3953,4 @@ Considering that the automated ethical value evaluation and alignment is a novel
 of LLM, our work does indeed possess the limitations mentioned. In future research, we aim to
 consistently refine and address the aforementioned issues.
 40
-
-```
+\n```\n

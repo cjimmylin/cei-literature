@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,14 @@ CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Irish"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English, Irish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4.1, o4-mini, Gemini-2.0-Flash, Llama-4-Scout, Aya-Vision-32B, Aya-Vision-8B"
+LLM_assessed: "o1, GPT-4, Gemini, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/ReliableAI/IRLBench"
 tags: 
 abstract: "Recent advances in Large Language Models (LLMs) have demonstrated promising knowledge and reasoning abilities, yet their performance in multilingual and low-resource settings remains underexplored. Existing benchmarks often exhibit cultural bias, restrict evaluation to text-only, rely on multiple-choice formats, and, more importantly, are limited for extremely low-resource languages. To address these gaps, we introduce IRLBench, presented in parallel English and Irish, which is considered..."
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,7 @@ First multilingual, culturally grounded, parallel benchmark for open-ended gener
 
 ## Data Description
 
-IRLBench is a multimodal, culturally grounded, parallel Irish-English benchmark derived from the 2024 Irish Leaving Certificate exams. It comprises 1,700 samples across 12 subjects in four domains (Science, Applied Science, Business Studies, Social Studies), with parallel English and Irish versions. The benchmark uses open-ended generation rather than multiple-choice, enabling evaluation of language fidelity and reasoning. Results reveal a persistent 10-20% accuracy gap between English and Irish across all tested models.
+IRLBench is a parallel Irish-English multimodal benchmark of 1,700 open-ended question-marking-scheme pairs derived from the 2024 Irish Leaving Certificate exams, covering 12 subjects across Science, Applied Science, Business Studies, and Social Studies.
 
 
 ## Notes

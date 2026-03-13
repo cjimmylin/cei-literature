@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +43,8 @@ authors: "Edmond Awad; Sohan Dsouza; Richard Kim; Jonathan Schulz; Joseph Henric
 doi: 10.1038/s41586-018-0637-6
 url: "https://www.nature.com/articles/s41586-018-0637-6"
 external_pdf: "https://ore.exeter.ac.uk/repository/bitstream/10871/39187/4/Moral%20Machine.pdf"
-national_ethnic_cultural: "American, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -65,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Machine Ethics"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -135,7 +138,7 @@ The authors conclude that while some moral preferences appear universal, substan
 
 ## Data Description
 
-The Moral Machine experiment is a large-scale Internet-based platform that collected 40 million ethical decisions from millions of people worldwide on trolley-problem-style dilemmas for autonomous vehicles. The paper maps global moral preferences, identifying universal trends and cultural variation clustered into Western, Eastern, and Southern groups. No LLMs are tested; this is a human behavioral experiment on moral preferences.
+40 million human ethical decisions collected through the Moral Machine online platform covering trolley-problem-style autonomous vehicle dilemmas, with cross-cultural preference data from millions of participants worldwide.
 
 
 ## Notes

@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Humanitarian organizations face a critical choice: invest in costly commercial APIs or rely on free open-weight models for multilingual human rights monitoring. While commercial systems offer reliability, open-weight alternatives lack empirical validation—especially for low-resource languages common in conflict zones. This paper presents the first systematic comparison of commercial and open-weight large language models (LLMs) for human-rights-violation detection across seven languages,..."
-LLM_assessed: "ALBERT, Claude, Claude Sonnet, Claude-Sonnet, DeepSeek, DeepSeek-V3, GPT-4, Llama, Llama-3, Mistral- 7B, Mistral-7B"
+LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4, LLaMA, Llama-3, Mistral"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +43,7 @@ last_author: "[[Haebin Seong]]"
 authors: Isack Lee; Haebin Seong
 url: "https://arxiv.org/abs/2410.13334"
 external_pdf: "https://arxiv.org/pdf/2410.13334.pdf"
-pdf_extract: "PDF Extracts/0000/2026-Lee-BiasJailbreak.md"
+pdf_extract: "PDF Extracts/2026/2026-Lee-BiasJailbreak.md"
 local_pdf: "[[PDFs/2026/2026-Lee-BiasJailbreak.pdf]]"
 publication: "AAAI 2026"
 CONF-CC: "AAAI 2026"
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Warning: This paper contains potentially offensive and harmful text. Although large language models (LLMs) demonstrate impressive proficiency in various tasks, they present potential safety risks, such as 'jailbreaks', where malicious inputs can coerce LLMs into generating harmful content bypassing safety alignments. In this paper, we delve into the ethical biases in LLMs and examine how those biases could be exploited for jailbreaks."
-LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, Claude, Llama-2, Llama-3, Qwen, Phi"
+LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, ChatGPT, Claude, Llama-2, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/Isaac-theori/BiasJailbreak"
 research_topic: "Other"
 CONFERENCE: "AAAI 2026"
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

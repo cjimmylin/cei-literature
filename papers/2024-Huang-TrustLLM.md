@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ significance: "Finds that while LLMs have basic moral understanding, they fall s
 abstract: "Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges, particularly in the realm of trustworthiness. Therefore, ensuring the trustworthiness of LLMs emerges as an important topic. This paper introduces TRUSTLLM, a comprehensive study of trustworthiness in LLMs, including principles for different dimensions of trustworthiness, established benchmark,..."
 paper_summary: "Abstract: Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges,  | Overview: TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS – A PRINCIPLE AND BENCHMARK Yue Huang1,2∗† ‡ Lichao Sun1∗† Haoran Wang3∗Siyuan Wu4∗‡ Qihui Zhang4∗‡ Yuan Li5 ‡ Chujie Gao4∗‡ Yixin Huang6∗Wenhan Lyu7 | Key Findings: provides a significant reference value for relevant open-weight developers. Both the model itself and trustworthiness-related technology should be tra | Conclusions: 79 17 Acknowledgement 79 4 --- Page 5 --- TRUSTLLM 1 Introduction The advent of large language models (LLMs) marks a significant milestone in natural"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, PaLM-2, Llama-2, Mistral, Vicuna"
+LLM_assessed: "Baichuan, ChatGLM2, ERNIE, GPT-3.5, GPT-4, Koala, Llama-2, Mistral, Oasst, PaLM-2, Vicuna, WizardLM"
 DATA_URL: "https://github.com/HowieHwong/TrustLLM"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -121,7 +125,7 @@ Large language models (LLMs), exemplified by ChatGPT, have gained considerable a
 
 ## Data Description
 
-TrustLLM is a comprehensive trustworthiness benchmark evaluating 16 mainstream LLMs across six dimensions: truthfulness, safety, fairness, robustness, privacy, and machine ethics. The benchmark consists of over 30 datasets covering tasks from classification to generation, including misinformation, hallucination, jailbreak, toxicity, stereotypes, adversarial robustness, privacy leakage, and moral reasoning assessments.
+TrustLLM benchmark comprising 30+ datasets across six trustworthiness dimensions (truthfulness, safety, fairness, robustness, privacy, machine ethics) for evaluating 16 mainstream LLMs.
 
 
 ## Notes

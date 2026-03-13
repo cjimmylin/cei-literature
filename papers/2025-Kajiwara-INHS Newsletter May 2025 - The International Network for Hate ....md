@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +50,7 @@ local_pdf: "[[PDFs/2025/2025-Kajiwara-INHS Newsletter May 2025 - The Internation
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
-languages_list: Japanese
+languages_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -65,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

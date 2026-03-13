@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,17 +46,17 @@ CONF-CC: "COLING 2025 Workshop"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Zoroastrian, Persian, Sassanian"
+national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: "Pahlavi"
-religious_values: Zoroastrian
-religious_values_list: "Zoroastrian"
+religious_values: "Zoroastrianism"
+religious_values_list: "Zoroastrianism"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "First known application of machine processing to Book Pahlavi texts, focusing on the jurisprudential Zoroastrian text Sayist ne sayist (Licit and Illicit). Compiles a Pahlavi corpus and applies word embedding techniques to uncover semantic relationships, using complex network analysis to extract information about Zoroastrian legal concepts from the late Sassanian period."
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -93,7 +97,7 @@ First known application of machine processing to Book Pahlavi texts, focusing on
 
 ## Data Description
 
-The paper compiles a Pahlavi corpus from the jurisprudential Zoroastrian text Sayist ne sayist (Licit and Illicit) and applies word embedding techniques with complex network analysis to extract semantic relationships about Zoroastrian legal concepts from the late Sassanian period. This is the first known application of machine processing to Book Pahlavi texts.
+First machine-processable Pahlavi corpus compiled from the Zoroastrian jurisprudential text Sayist ne sayist, used for word embedding and complex network analysis of late Sassanian legal concepts.
 
 
 ## Notes

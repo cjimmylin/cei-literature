@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Code-mixing (CM), where speakers blend languages within a single expression, is prevalent in multilingual societies but poses challenges for natural language processing due to its complexity and limited data. We propose using a large language model to generate synthetic CM data, which is then used to enhance the performance of task-specific models for CM sentiment analysis. Our results show that in SpanishEnglish, synthetic data improved the F1 score by 9."
-LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-4"
+LLM_assessed: "GPT-4, BERT"
 DATA_URL: "https://github.com/lindazeng979/LLM-CMSA"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -65,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +99,8 @@ Uses LLMs for code-mixed data augmentation in sentiment analysis, with Malayalam
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5, GPT-4. Verified dataset/resource link: https://github.com/lindazeng979/LLM-CMSA.
+Constructs synthetic code-mixed (Spanish-English and Malayalam-English) sentiment analysis datasets using GPT-4 few-shot prompting, then uses them to augment training for mBERT and XLM-T task-specific classifiers. Benchmark comparison across augmentation strategies is included.
+
 
 ## Notes
 

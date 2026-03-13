@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +44,8 @@ authors: "Katharina Kann; Abteen Ebrahimi; Manuel Mager; Arturo Oncevay; John E.
 doi: 10.3389/frai.2022.995667
 url: "https://www.frontiersin.org/articles/10.3389/frai.2022.995667/full"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/V529JKHQ/Kann et al. - 2022 - AmericasNLI Machine translation and natural language inference systems for Indigenous languages of.pdf"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "Indigenous American"
+national_ethnic_cultural: "Latin American"
+cultures_nationalities_list: "Latin American"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -54,7 +58,7 @@ pdf_extract: "PDF Extracts/2022/2022-Kann-AmericasNLI.md"
 local_pdf: "[[PDFs/2022/2022-Kann-AmericasNLI.pdf]]"
 CONF-CC: "Frontiers in Artificial Intelligence"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: "XLM-R"
 DATA_URL: "https://github.com/abteen/americasnli"
 CONFERENCE: "Journal"
 ethics_overall: "No"
@@ -101,7 +105,7 @@ Little attention has been paid to the development of human language technology f
 
 ## Data Description
 
-AmericasNLI is a natural language inference (NLI) evaluation dataset for 10 Indigenous languages of the Americas, created by translating a subset of XNLI. It includes development and test sets with 2,490 examples each per language. The paper evaluates XLM-R Base (a multilingual RoBERTa-based model) under zero-shot, translate-train, and translate-test settings.
+NLI benchmark for 10 Indigenous languages of the Americas extending XNLI
 
 
 ## Notes

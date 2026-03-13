@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: "English, Multilingual"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -64,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
 is_eval: "No"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +99,7 @@ Based on the search results, here's what I found about the multilingual toxicity
 
 ## Data Description
 
-This is a Kaggle competition by Google's Jigsaw team for multilingual toxic comment classification. The challenge focuses on building machine learning models that can identify toxicity in online conversations across multiple languages, where toxicity is defined as anything rude, disrespectful, or likely to make someone leave a discussion. The competition provides multilingual training and test datasets for participants.
+Multilingual toxic comment classification competition dataset from Jigsaw/Google, covering multiple languages for identifying toxicity in online conversations.
 
 
 ## Notes

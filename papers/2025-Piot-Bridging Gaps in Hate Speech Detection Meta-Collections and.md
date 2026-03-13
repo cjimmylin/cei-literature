@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish, Brazilian"
-cultures_nationalities_list: "Spanish, Portuguese, Brazilian"
-languages_list: "European Portuguese, European Spanish, Galician, Portuguese, Spanish"
+cultures_nationalities_list: "Spanish, Brazilian"
+languages_list: "Galician, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Gemma, Llama, Llama 3.1, Mistral 7B, RoBERTa, llama 3"
+LLM_assessed: "BERT, Llama-3, Mistral"
 DATA_URL: "NA"
 tags: 
 abstract: "Hate speech poses a serious threat to social cohesion and individual well-being, particularly on social media, where it spreads rapidly. While research on hate speech detection has progressed, it remains largely focused on English, resulting in limited resources and benchmarks for low-resource languages. Moreover, many of these languages have multiple linguistic varieties, a factor often overlooked in current approaches."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for hate speech detection"
 data_metrics: "Not specified"
@@ -96,7 +100,8 @@ Meta-collection of hate speech datasets for European Spanish, translated to Euro
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Gemma, Llama, Llama 3.1, Mistral 7B, RoBERTa, llama 3. No high-confidence repository-style data URL was identified.
+MetaHateES is a meta-collection of 82,233 hate speech samples from 10 European Spanish datasets with unified labels; extended via translation to create MetaHatePT (European Portuguese) and two Galician variants (MetaHateGL-es, MetaHateGL-pt). Data available upon request due to licensing constraints of constituent datasets.
+
 
 ## Notes
 

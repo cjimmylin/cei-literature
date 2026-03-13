@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,9 +48,9 @@ CONF-CC: "Philosophy & Technology"
 pdf_extract: "PDF Extracts/2025/2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.md"
 local_pdf: "[[PDFs/2025/2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Arabic, Multicultural/Cross-cultural"
-languages_list: "Arabic, English, Multilingual, Turkish"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

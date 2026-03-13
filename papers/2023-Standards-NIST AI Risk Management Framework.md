@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +43,8 @@ last_author: "[[National Institute of Standards and Technology (NIST)]]"
 authors: "National Institute of Standards and Technology (NIST)"
 url: "https://www.nist.gov/itl/ai-risk-management-framework"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/S3GSZDAU/Standards and Technology (NIST) - 2023 - NIST AI Risk Management Framework.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -53,7 +56,7 @@ abstract: "The NIST AI Risk Management Framework (AI RMF) offers a resource to o
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
-DATA_URL: "https://doi.org/10.6028/NIST.AI.100-1"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Standards-NIST AI Risk Management Framework.md"
 local_pdf: "[[PDFs/2023/2023-Standards-NIST AI Risk Management Framework.pdf]]"
 CONFERENCE: "Unknown"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

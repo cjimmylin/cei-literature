@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ local_pdf: "[[PDFs/2025/2025-Mohamed-Lost in the Mix Evaluating LLM Understandin
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
-languages_list: Code-switching
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, Claude, Claude 3.5 Sonnet, Claude., GPT-4o, Llama, LLaMA 3.1, LLaMA 3.2, Mistral, Mistral 7B, Mistral-7B, Qwen 2.5, Qwen 3B, Qwen 72B, Qwen 7B, Qwen-7B, llama 3"
+LLM_assessed: "Claude, GPT-4o, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/amr-mohamedd/Lost-in-the-Mix.git"
 tags: 
 abstract: "Code-switching (CSW) is the act of alternating between two or more languages within a single discourse. This phenomenon is widespread in multilingual communities, and increasingly prevalent in online content, where users naturally mix languages in everyday communication. As a result, Large Language Models (LLMs), now central to content processing and generation, are frequently exposed to code-switched inputs."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Code-switching (CSW) is the act of alternating between two or more languages wit
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, Claude, Claude 3.5 Sonnet, Claude., GPT-4o, Llama, LLaMA 3.1, LLaMA 3.2, Mistral, Mistral 7B, Mistral-7B, Qwen 2.5, Qwen 3B, Qwen 72B, Qwen 7B, Qwen-7B, llama 3. Verified dataset/resource link: https://github.com/amr-mohamedd/Lost-in-the-Mix.git.
+Code-switched variants of three established benchmarks (Belebele, MMLU, XNLI) generated using linguistically grounded noun-token and heuristic ratio-token methods across five language pairs (English, Arabic, German, French, Chinese) — released as evaluation data alongside code.
+
 
 ## Notes
 

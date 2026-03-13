@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2024/2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural
 pdf_extract: "PDF Extracts/2024/2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Egyptian, Gulf, Jordanian, Lebanese, Levantine, Palestinian, Syrian"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3, Mistral, Jais, AceGPT"
+LLM_assessed: "Llama-3, Mistral"
 DATA_URL: "https://huggingface.co/datasets/QCRI/AraDiCE"
 tags: 
 abstract: "Arabic, with its rich diversity of dialects, remains significantly underrepresented in Large Language Models, particularly in dialectal variations. We address this gap by introducing seven synthetic datasets in dialects alongside Modern Standard Arabic (MSA), created using Machine Translation (MT) combined with human post-editing. We present AraDiCE, a benchmark for Arabic Dialect and Cultural Evaluation."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "45k post"
 ---
@@ -102,7 +106,7 @@ Introduces AraDiCE-Culture, the first benchmark for region-wise cultural evaluat
 
 ## Data Description
 
-AraDiCE is a benchmark suite for evaluating Arabic dialect and cultural capabilities in LLMs. It includes approximately 45,000 post-edited dialectal samples across Modern Standard Arabic, Levantine, Egyptian, and Gulf dialects, plus AraDiCE-Culture, the first fine-grained benchmark for cultural awareness across Gulf, Egypt, and Levant regions. Llama-3, Mistral, Jais, and AceGPT are evaluated on dialect identification, generation, translation, world knowledge, commonsense reasoning, and cultural understanding.
+AraDiCE contributes ~45K human post-edited Arabic dialect samples (Levantine, Egyptian) across seven benchmarks and AraDiCE-Culture, the first region-wise cultural evaluation benchmark (180 MCQs) for Gulf, Egyptian, and Levant regions.
 
 
 ## Notes

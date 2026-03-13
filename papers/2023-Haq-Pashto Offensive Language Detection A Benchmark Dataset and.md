@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +49,13 @@ pdf_extract: "PDF Extracts/2023/2023-Haq-Pashto Offensive Language Detection A B
 local_pdf: "[[PDFs/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Pashtun"
-languages_list: Pashto
+cultures_nationalities_list: "N/A"
+languages_list: "Pashto"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GloVe, RoBERTa, Word2Vec"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://zenodo.org/record/8195797"
 tags: 
 abstract: "Social media platforms have become inundated with offensive language. This issue must be addressed for the growth of online social networks (OSNs) and a healthy online environment. While significant research has been devoted to identifying toxic content in major languages like English, this remains an open area of research in the low-resource Pashto language. This study aims to develop an AI model for the automatic detection of offensive textual content in Pashto."
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
@@ -99,7 +102,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GloVe, RoBERTa, Word2Vec. Verified dataset/resource link: https://zenodo.org/record/8195797.
+POLD (Pashto Offensive Language Dataset) comprising 34,400 Pashto tweets manually categorized as offensive/not-offensive, plus a monolingual Pashto BERT (Ps-BERT) model pre-trained from scratch.
+
 
 ## Notes
 

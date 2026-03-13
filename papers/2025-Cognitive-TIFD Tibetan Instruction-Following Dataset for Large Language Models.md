@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ pdf_extract: "PDF Extracts/2025/2025-Cognitive-TIFD Tibetan Instruction-Followin
 local_pdf: "[[PDFs/2025/2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Tibetan, Chinese"
-languages_list: Tibetan
+cultures_nationalities_list: "Chinese"
+languages_list: "Tibetan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, LLaMA2"
-DATA_URL: "https://github.com/tatsu-lab/stanford_alpaca"
+LLM_assessed: "GPT-4, Llama-2"
+DATA_URL: "https://doi.org/10.57760/sciencedb.j00104.00146"
 tags: 
 abstract: "In addressing challenges within the field of Natural Language Processing (NLP), supervised fine-tuning is an efficient technique that allows pre-trained Large Language Models to adapt to specific tasks. This is especially crucial for low-resource languages, such as Tibetan, where the demand for high-quality finetuning datasets is particularly pronounced. This paper introduces the Tibetan Instruction-Following Dataset (TIFD), comprising 11,535 JSON objects, each with four attributes: a unique..."
 CONFERENCE: "Other Conference"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
@@ -101,7 +105,8 @@ In addressing challenges within the field of Natural Language Processing (NLP), 
 
 ## Data Description
 
-Backfill summary: Models assessed include Alpaca, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, LLaMA2. Verified dataset/resource link: https://github.com/tatsu-lab/stanford_alpaca.
+TIFD: Tibetan Instruction-Following Dataset comprising 11,535 JSON instruction-response pairs generated via GPT-4 and manually proofread by Tibetan language professionals, used for supervised fine-tuning of the TiLamb model.
+
 
 ## Notes
 

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +48,7 @@ local_pdf: "[[PDFs/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span 
 publication: "WebSearch: DOSA Kannada hate speech"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Kannada, Tamil"
 religious_values: "N/A"
@@ -54,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This paper presents the Dravidian Offensive Span Identiﬁcation Dataset (DOSA) for under-resourced Tamil-English and KannadaEnglish code-mixed text. The dataset addresses the lack of code-mixed datasets with annotated offensive spans by extending annotations of existing code-mixed offensive language identiﬁcation datasets. It provides span annotations for Tamil-English and KannadaEnglish code-mixed comments posted by users on YouTube social media."
-LLM_assessed: "BERT, DistilBERT, RoBERTa"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/manikandan-ravikiran/dosa"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -99,7 +102,8 @@ Offensive span identification dataset for Tamil-English (4786 comments, 6202 spa
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DistilBERT, RoBERTa. Verified dataset/resource link: https://github.com/manikandan-ravikiran/dosa.
+DOSA dataset for offensive span identification in Tamil-English (4,786 comments, 6,202 spans) and Kannada-English (1,097 comments, 1,641 spans) code-mixed text from YouTube.
+
 
 ## Notes
 

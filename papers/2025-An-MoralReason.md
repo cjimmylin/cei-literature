@@ -21,6 +21,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -124,7 +127,7 @@ Training just the *answer* is brittle for moral agents as it leads to surface-le
 
 ## Data Description
 
-The paper introduces Moral-Reason-QA, a dataset of 2,040 entries extending 680 human-annotated high-ambiguity moral scenarios from MoralChoice with framework-specific reasoning traces across utilitarian, deontological, and virtue ethics. Qwen-3-4B is trained and evaluated using Group Relative Policy Optimization (GRPO) to test out-of-distribution moral decision alignment, with softmax-normalized alignment scores measuring generalization to unseen moral scenarios.
+Moral-Reason-QA is a dataset of 2,040 entries extending 680 high-ambiguity moral scenarios from MoralChoice with framework-specific reasoning traces across utilitarian, deontological, and virtue ethics frameworks, designed for reinforcement learning-based moral alignment of LLM agents.
 
 
 ## Notes

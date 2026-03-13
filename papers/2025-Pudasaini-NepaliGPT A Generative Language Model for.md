@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,17 +37,17 @@ key: EXSR0416
 type: preprint
 short_title: "NepaliGPT A Generative Language Model for"
 year: 2025
-first_author: "[[Pudasaini, Shushanta]]"
-last_author: "[[Palikhe, Sushmita]]"
-authors: "Pudasaini, Shushanta; Shakya, Aman; Shrestha, Siddhartha; Bhatta, Sahil; Thapa, Sunil; Palikhe, Sushmita"
+first_author: "[[Shushanta Pudasaini]]"
+last_author: "[[Sushmita Palikhe]]"
+authors: "Shushanta Pudasaini; Aman Shakya; Siddhartha Shrestha; Sahil Bhatta; Sunil Thapa; Sushmita Palikhe"
 url: "https://arxiv.org/abs/2506.16399"
 external_pdf: "https://arxiv.org/pdf/2506.16399.pdf"
-pdf_extract: "PDF Extracts/2025/2025-[[Pudasaini]]-NepaliGPT A Generative Language Model for.md"
+pdf_extract: "PDF Extracts/2025/2025-Pudasaini-NepaliGPT A Generative Language Model for.md"
 local_pdf: "[[PDFs/2025/2025-Pudasaini-NepaliGPT A Generative Language Model for.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Nepalese"
 cultures_nationalities_list: "Nepalese"
 languages_list: "Nepali"
 religious_values: "N/A"
@@ -62,20 +65,20 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
-data_description: "Benchmark dataset for question answering"
-data_metrics: "Not specified"
+data_description: "Generative language model for Nepali with benchmark QA dataset"
+data_metrics: "4,296 QA pairs, Perplexity: 26.32, ROUGE-1: 0.2604"
 ---
 # NepaliGPT: A Generative Language Model for the Nepali Language
 
 ## Authors
 
-[[Pudasaini, Shushanta]], [[Shakya, Aman]], [[Shrestha, Siddhartha]], [[Bhatta, Sahil]], [[Thapa, Sunil]], [[Palikhe, Sushmita]]
+[[Shushanta Pudasaini]], [[Aman Shakya]], [[Siddhartha Shrestha]], [[Sahil Bhatta]], [[Sunil Thapa]], [[Sushmita Palikhe]]
 
 ## Metadata
 
-**Authors:** Pudasaini, Shushanta, Shakya, Aman, Shrestha, Siddhartha, Bhatta, Sahil, Thapa, Sunil, Palikhe, Sushmita
+**Authors:** Shushanta Pudasaini, Aman Shakya, Siddhartha Shrestha, Sahil Bhatta, Sunil Thapa, Sushmita Palikhe
 
 **Year:** 2025
 
@@ -97,7 +100,8 @@ First NepaliGPT benchmark dataset with 4,296 QA pairs in Nepali. Achieves perple
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT-2. No high-confidence repository-style data URL was identified.
+NepaliGPT introduces the Devanagari Corpus (9.3 GB, 383M tokens) for pretraining and a 4,296 QA-pair Nepali benchmark dataset for fine-tuning and evaluation; no public repository URL is provided in the paper.
+
 
 ## Notes
 

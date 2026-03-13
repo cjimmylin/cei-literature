@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "Frontier AI systems, including large language models (LLMs), hold inc
 paper_summary: "Abstract: Frontier AI systems, including large language models (LLMs), hold increasing influence over the epistemology of human users. Such influence can reinforce prevailing societal values, potentially contri | Overview: ProgressGym: Alignment with a Millennium of Moral Progress Tianyi Qiu1∗† Yang Zhang1∗ Xuchuan Huang1 Jasmine Xinze Li2 Jiaming Ji1 Yaodong Yang1 1 Peking University 2 Cornell University Abstract Front | Methodology: to progress alignment is the emergence of novel concepts. While quantitative extrapolations of moral trends are relatively easy to learn from historic | Key Findings: 24 F Implementation Details of ProgressGym Challenges 25 F.1 The PG-Follow Challenge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26 F. | Conclusions: In this study, we introduce progress alignment as a solution to risks of value lock-in in human-AI interactions, and build the ProgressGym framework t"
 local_pdf: "[[PDFs/2024/2024-Qiu-ProgressGym.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, GPT-4"
+LLM_assessed: "GPT-4, Llama-3"
 DATA_URL: "https://github.com/PKU-Alignment/ProgressGym"
 CONFERENCE: "NeurIPS 2024"
 ethics_overall: "Yes"
@@ -66,8 +70,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -102,7 +106,7 @@ Frontier AI systems, including large language models (LLMs), hold increasing inf
 
 ## Data Description
 
-ProgressGym provides a large-scale experimental framework comprising 38GB of historical text data spanning 9 centuries (1221-2022 AD) from sources including Internet Archive, Project Gutenberg, EEBO, and Pile of Law (1.83 million documents). The framework includes 18 historical LLMs (Llama3-8B and Llama3-70B fine-tuned for each century) and a morality evaluation framework with 5,104 questions across 19 value dimensions. It benchmarks three progress alignment challenges: PG-Follow, PG-Predict, and PG-Coevolve.
+ProgressGym: a framework with 38GB of historical texts (13th–21st century) and 18 historical LLMs (Llama-3-8B and 70B fine-tuned per century), plus three codified progress alignment benchmarks (PG-Follow, PG-Predict, PG-Coevolve).
 
 
 ## Notes

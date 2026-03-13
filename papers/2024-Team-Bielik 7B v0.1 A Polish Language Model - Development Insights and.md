@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +48,13 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Polish"
-languages_list: Polish
+cultures_nationalities_list: "N/A"
+languages_list: "Polish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, Llama-2, Llama-3.1, Llama2, Mistral 7B, Mistral v0, Mistral-7B, Mistral-Nemo, Mixtral-8x7b, gemma 6.51, internlm, internlm2, Llama, Llama-3, llama., mistralai"
+LLM_assessed: "GPT-4, Llama-2, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://github.com/chrisociepa/allamo"
 tags: 
 abstract: "We introduce Bielik 7B v0.1, a 7-billion-parameter generative text model for Polish language processing. Trained on curated Polish corpora, this model addresses key challenges in language model development through innovative techniques. These include Weighted Instruction Cross-Entropy Loss, which balances the learning of different instruction types, and Adaptive Learning Rate, which dynamically adjusts the learning rate based on training progress."

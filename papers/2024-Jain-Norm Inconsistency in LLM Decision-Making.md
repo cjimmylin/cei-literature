@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2024/2024-Jain-Norm Inconsistency in LLM Decision-Making.pdf]
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "We investigate the phenomenon of norm inconsistency: where LLMs apply different norms in similar situations. Specifically, we focus on the high-risk application of deciding whether to call the police in Amazon Ring home surveillance videos. We evaluate the decisions of three state-of-theart LLMs – GPT-4, Gemini 1.0, and Claude 3 Sonnet – in relation to the activities portrayed in the videos, the subjects’ skin-tone and gender, and the characteristics of the neighborhoods where the videos were..."
-LLM_assessed: "GPT-4, Claude"
+LLM_assessed: "Claude-3-Sonnet, Gemini, GPT-4"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -102,7 +106,8 @@ Thousands of Amazon Ring home surveillance video descriptions; annotated for cri
 
 ## Data Description
 
-This paper evaluates norm inconsistency in LLM decision-making using 928 Amazon Ring home surveillance videos from the Calacci, Shen, and Pentland (2022) dataset. Videos are annotated for activity type (6 categories including theft, break-in, entryway interactions), subject skin-tone, gender, and setting, with neighborhood demographic data from Census tract ACS 5-year estimates. Each video is evaluated with crime and police prompts across three iterations per model.
+Evaluation of norm inconsistency in LLM decision-making using Amazon Ring home surveillance videos to assess police-calling recommendations across skin-tone, gender, and neighborhood demographics.
+
 
 ## Notes
 

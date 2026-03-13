@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +46,8 @@ url: "http://arxiv.org/abs/2312.10075"
 external_pdf: "http://arxiv.org/pdf/2312.10075.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -57,7 +60,7 @@ pdf_extract: "PDF Extracts/2023/2023-Benkler-Assessing LLMs for Moral Value Plur
 abstract: "Moral values are important indicators of socio-cultural norms and behavior and guide our moral judgment and identity. Decades of social science research have developed and refined some widely-accepted surveys, such as the World Values Survey (WVS), that elicit value judgments from direct questions, enabling social scientists to measure higher-level moral values and even cultural value distance. While WVS is accepted as an explicit assessment of values, we lack methods for assessing implicit..."
 paper_summary: "Abstract: Moral values are important indicators of socio-cultural norms and behavior and guide our moral judgment and identity. Decades of social science research have developed and refined some widely-accepted | Overview: Assessing LLMs for Moral Value Pluralism Noam Benkler Smart Information Flow Technologies 319 1st AVE Minneapolis, MN 55401 nbenkler@sift.net Drisana Mosaphir Smart Information Flow Technologies 319 1"
 local_pdf: "[[PDFs/2023/2023-Benkler-Assessing LLMs for Moral Value Pluralism.pdf]]"
-LLM_assessed: "RoBERTa"
+LLM_assessed: "GPT-3"
 DATA_URL: "NA"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"

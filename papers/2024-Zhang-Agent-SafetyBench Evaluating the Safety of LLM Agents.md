@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) are increasingly deployed as agents, their integration into interactive environments and tool use introduce new safety challenges beyond those associated with the models themselves. However, the absence of comprehensive benchmarks for evaluating agent safety presents a significant barrier to effective assessment and further improvement. In this paper, we introduce AGENTSAFETYBENCH, a comprehensive benchmark designed to evaluate the safety of LLM agents."
-LLM_assessed: "Claude, GPT-4, Gemini, Qwen, Llama-3, DeepSeek"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, DeepSeek, GPT-4, GPT-4o, Gemini, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/thu-coai/Agent-SafetyBench/"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -99,7 +103,8 @@ See report
 
 ## Data Description
 
-AGENT-SAFETYBENCH is a comprehensive benchmark for evaluating the safety of LLM agents, encompassing 349 interaction environments and 2,000 test cases across 8 categories of safety risks and 10 common failure modes. The benchmark evaluates 16 popular LLM agents including Claude-3-Opus, Claude-3.5-Sonnet, GPT-4o, GPT-4-Turbo, Gemini-1.5-Pro/Flash, Llama-3.1 variants, Qwen2.5 variants, and DeepSeek-V2.5, revealing that none achieves a safety score above 60%.
+AGENT-SAFETYBENCH is a comprehensive safety benchmark for LLM agents with 349 interaction environments and 2,000 test cases covering 8 categories of safety risks and 10 failure modes, evaluating 16 popular LLM agents.
+
 
 ## Notes
 

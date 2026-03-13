@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ significance: "Practical methodology for improving LLM moral reasoning through v
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in domains requiring moral understanding, yet their reasoning often remains shallow, and misaligned with human reasoning (Jiang et al., 2021). Unlike humans, whose moral reasoning integrates contextual trade-offs, value systems, and ethical theories, LLMs often rely on surface patterns, leading to biased decisions in morally and ethically complex scenarios."
 research_topic: "LLM Moral Reasoning"
-LLM_assessed: "Llama-3, Llama-2, Mistral, Qwen, Phi"
+LLM_assessed: "Llama-2, Llama-3, Mistral, Phi, Qwen"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Structured Moral Reasoning.md"
 local_pdf: "[[PDFs/2025/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
@@ -66,7 +70,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +44,7 @@ authors: "Ji, Jiaming; Liu, Mickel; Dai, Juntao; Pan, Xuehai; Zhang, Chi; Bian, 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2307.04657"
 external_pdf: "https://arxiv.org/pdf/2307.04657.pdf"
-pdf_extract: "PDF Extracts/0000/2023-Ji-BeaverTails.md"
+pdf_extract: "PDF Extracts/2023/2023-Ji-BeaverTails.md"
 local_pdf: "[[PDFs/2023/2023-Ji-BeaverTails.pdf]]"
 publication: "NeurIPS 2023"
 CONF-CC: "NeurIPS 2023"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "In this paper, we introduce the BEAVERTAILS dataset, aimed at fostering research on safety alignment in large language models (LLMs). This dataset uniquely separates annotations of helpfulness and harmlessness for question-answering pairs, thus offering distinct perspectives on these crucial attributes. In total, we have gathered safety meta-labels for 333,963 question-answer (QA) pairs and 361,903 pairs of expert comparison data for both the helpfulness and harmlessness metrics."
-LLM_assessed: "GPT-4, GPT-3.5, Alpaca, Vicuna"
+LLM_assessed: "Alpaca, GPT-4"
 DATA_URL: "https://sites.google.com/view/pku-beavertails"
 research_topic: "Other"
 CONFERENCE: "NeurIPS 2023"
@@ -100,7 +104,8 @@ Size: 333,963 QA pairs with safety meta-labels; 361,903 expert comparison pairs;
 
 ## Data Description
 
-BeaverTails is a safety alignment dataset for LLMs containing 333,963 question-answer pairs annotated across 14 harm categories with safety meta-labels, plus 361,903 pairs of expert comparison data for helpfulness and harmlessness metrics. The dataset was generated using red-team prompts from the Anthropic HH dataset with responses from Alpaca-7B, annotated by over 70 crowd-workers in a two-stage process.
+BEAVERTAILS dataset with 333,963 QA pairs annotated for safety across 14 harm categories, plus 361,903 pairs of human-preference comparison data for helpfulness and harmlessness metrics.
+
 
 ## Notes
 

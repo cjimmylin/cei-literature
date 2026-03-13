@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +47,13 @@ pdf_extract: "PDF Extracts/2022/2022-Névéol-French CrowS-Pairs Extending a cha
 local_pdf: "[[PDFs/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French, American"
-cultures_nationalities_list: "French"
-languages_list: French
+cultures_nationalities_list: "French, American"
+languages_list: "French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "CamemBERT, FlauBERT, FrALBERT, mBERT"
+LLM_assessed: "BERT, CamemBERT, FlauBERT, FrALBERT"
 DATA_URL: "https://github.com/masonreznov/French-CrowS-Pairs"
 tags: 
 abstract: "Warning: This paper contains explicit statements of offensive stereotypes which may be upsetting Much work on biases in natural language processing has addressed biases linked to the social and cultural experience of English speaking individuals in the United States. We seek to widen the scope of bias studies by creating material to measure social bias in language models (LMs) against speciﬁc demographic groups in France."
@@ -59,7 +63,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -100,7 +104,7 @@ This paper extends the US-centered CrowS-Pairs bias measurement dataset to Frenc
 
 ## Data Description
 
-French CrowS-Pairs dataset containing 1,677 sentence pairs in French covering 10 bias categories (gender, religion, age, nationality, sexual orientation, socioeconomic status, physical appearance, disability, race/ethnicity, other). Dataset extends the original English CrowS-Pairs to measure stereotypical biases in French masked language models.
+French adaptation of CrowS-Pairs with 1,677 sentence pairs measuring social bias in masked language models across 10 bias categories
 
 
 ## Detailed Summary

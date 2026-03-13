@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,12 +49,12 @@ local_pdf: "[[PDFs/2025/2025-Delaville-ToxiFrench Benchmarking and Enhancing Lan
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
-languages_list: French
+languages_list: "French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Qwen3-4B, GPT-4o, Gemini-2.5, DeepSeek-R1, CamemBERT, BLOOM, Mistral"
+LLM_assessed: "BERT, DeepSeek, GPT-4o, GPT-4o mini, Gemini, Mistral, Qwen, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/AxelDlv00/ToxiFrench"
 tags: 
 abstract: "Detecting toxic content using language models is crucial yet challenging. While substantial progress has been made in English, toxicity detection in French remains underdeveloped, primarily due to the lack of culturally relevant, human-annotated, large-scale datasets. In this work, we release TOXIFRENCH, a dataset of 53,622 French online comments together with a balanced benchmark split for systematic evaluation."
@@ -102,7 +106,7 @@ This paper releases ToxiFrench, a dataset of 53,622 native French online comment
 
 ## Data Description
 
-ToxiFrench is a dataset of 53,622 native French online comments with a balanced benchmark split for systematic toxicity detection evaluation. Constructed via semi-automated annotation pipeline reducing manual labeling to 10%. It is the largest high-quality public French toxicity dataset with Chain-of-Thought explanations for every label.
+Releases ToxiFrench, a dataset of 53,622 native French online comments with binary toxicity labels and Chain-of-Thought explanations, constructed via a semi-automated pipeline combining GPT-4o-mini pre-annotation and human verification, making it the largest high-quality public French toxicity dataset.
 
 
 ## Detailed Summary

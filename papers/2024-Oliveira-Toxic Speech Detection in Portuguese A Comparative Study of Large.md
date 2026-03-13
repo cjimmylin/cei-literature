@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ local_pdf: "[[PDFs/2024/2024-Oliveira-Toxic Speech Detection in Portuguese A Com
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
-languages_list: Portuguese
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, GPT 3, GPT 3.5, GPT-3, Llama, GPT-3.5, gpt-3.5-turbo"
-DATA_URL: "https://github.com/maritaca-ai/maritalk-api"
+LLM_assessed: "BERT, GPT-3.5"
+DATA_URL: "https://github.com/ufopcsilab/ToxicSpeech-Propor2024"
 tags: 
 abstract: "This research addresses the automatic detection of toxic speech in Portuguese. Utilizing the ToLD-Br dataset, which includes 21,000 annotated tweets, we examine the performance of Large Language Models (LLMs) such as OpenAI’s ChatGPT and the monolingual MariTalk from Maritaca AI. The study focuses on their effectiveness in identifying Toxic speech, the influence of few-shot learning, and the intricacies of annotating datasets, particularly regarding vulgar language (swear words)."
 CONFERENCE: "ACL 2024"
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

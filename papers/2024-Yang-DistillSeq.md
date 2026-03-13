@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,8 +61,8 @@ paper_summary: "Abstract: Large Language Models (LLMs) have showcased their rema
 local_pdf: "[[PDFs/2024/2024-Yang-DistillSeq.pdf]]"
 CONF-CC: "International Symposium on Software Testing and Analysis"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, GPT-4, Vicuna, Llama"
-DATA_URL: "https://github.com/facebookresearch/llama"
+LLM_assessed: "GPT-3.5, GPT-4, Vicuna, LLaMA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"

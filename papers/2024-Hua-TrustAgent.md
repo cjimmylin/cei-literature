@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "The rise of LLM-based agents shows great potential to revolutionize t
 paper_summary: "Abstract: The rise of LLM-based agents shows great po- tential to revolutionize task planning, capturing significant attention. Given that these agents will be integrated into high-stake domains, en- suring the | Overview: TrustAgent: Towards Safe and Trustworthy LLM-based Agents Wenyue Hua1 Xianjun Yang2 Mingyu Jin1 Zelong Li1 Wei Cheng3 Ruixiang Tang1 Yongfeng Zhang1 1Department of Computer Science, Rutgers University | Key Findings: Agent Consititution Pre-planning Learning Post-planning Learning In-planning Prompting Constitution Post-planning Learning Pre-planning Learning Actio"
 local_pdf: "[[PDFs/2024/2024-Hua-TrustAgent.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Mixtral"
+LLM_assessed: "Claude, GPT-3.5, GPT-4, Mixtral"
 DATA_URL: "https://github.com/agiresearch/TrustAgent"
 CONFERENCE: "EMNLP 2024"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

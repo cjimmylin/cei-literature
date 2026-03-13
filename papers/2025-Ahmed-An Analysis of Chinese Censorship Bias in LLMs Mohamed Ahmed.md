@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +52,12 @@ local_pdf: "[[PDFs/2025/2025-Ahmed-An Analysis of Chinese Censorship Bias in LLM
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: Chinese
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, Claude, Claude 3.5, Claude 3.5 Haiku, Claude 3.5 Sonnet, DeepSeek, DistilBERT, GPT 4o, GPT 4o Mini, GPT-4, Llama, Llama 3.2, Llama 3.2., Llama-3.2, RoBERTa, claude-3, GPT-4o, gpt-4o-mini"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Sonnet, GPT-4o, GPT-4o mini, Gemini, Llama-3"
 DATA_URL: "https://github.com/citizenlab/chat-censorship"
 tags: 
 abstract: "When a large language model (LLM) has been trained on text featuring social biases, those biases implicitly impact the outputs of the model. Training an LLM on sanitized content, i.e., those pieces of content which remain after being subjected to state censorship (including alterations, deletions, and self-imposed censorship), results in what we term censorship bias. A model impacted by censorship bias may be less likely to reflect views that are routinely prohibited and more likely to reflect..."
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

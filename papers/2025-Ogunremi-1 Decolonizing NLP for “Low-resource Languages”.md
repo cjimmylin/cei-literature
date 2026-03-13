@@ -25,6 +25,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,9 +46,9 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-1 Decolonizing NLP for 'Low-resource Languages'.md"
 local_pdf: "[[PDFs/2025/2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Indigenous"
-languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
+national_ethnic_cultural: "Western"
+cultures_nationalities_list: "Western"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,8 +64,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ local_pdf: "[[PDFs/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech D
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi"
-languages_list: Bengali
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Bengali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, CodeLlama, DeepSeekCoder, ELECTRA, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama2, RoBERTa"
+LLM_assessed: "BERT, CodeLlama, DeepSeek, GPT-3, GPT-3.5, GPT-4, Llama-2, RoBERTa"
 DATA_URL: "https://data.mendeley.com/datasets/bpkrvf882k/1"
 tags: 
 abstract: "Hate speech on digital platforms has become a growing concern globally, especially in linguistically diverse countries like Bangladesh, where regional dialects play a major role in everyday communication. Despite progress in hate speech detection for standard Bangla, Existing datasets and systems fail to address the informal and culturally rich expressions found in dialects such as Barishal, Noakhali, and Chittagong."
@@ -64,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -100,7 +104,8 @@ First benchmark for hate speech in Bangla regional dialects (Noakhali, Chittagon
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, CodeLlama, DeepSeekCoder, ELECTRA, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama2, RoBERTa. Verified dataset/resource link: https://data.mendeley.com/datasets/bpkrvf882k/1.
+BIDWESH: 9,183 manually annotated Bangla regional dialect hate speech instances covering Noakhali, Chittagong, and Barishal dialects, labeled for hate presence, type (slander, gender, religion, violence), and target group. First benchmark for Bangla regional dialect hate speech detection.
+
 
 ## Notes
 

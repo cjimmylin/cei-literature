@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +47,15 @@ local_pdf: "[[PDFs/2022/2022-Winata-NusaX Multilingual Parallel Sentiment Datase
 publication: "arXiv / ACL Anthology (EACL 2023, Outstanding Paper)"
 CONF-CC: "EACL 2023"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Indonesian"
+national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Javanese, Sundanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/explosion/spaCy"
+LLM_assessed: "BERT, IndoBERT, XLM-R"
+DATA_URL: "https://github.com/IndoNLP/nusax"
 tags: 
 abstract: "Natural language processing (NLP) has signiﬁcant impact on society via technologies such as machine translation and search engines. Despite its success, NLP technology is only widely available for high-resource languages such as English and Mandarin Chinese, and remains inaccessible to many languages due to the unavailability of data resources and benchmarks. In this work, we focus on developing resources for languages of Indonesia."
 CONFERENCE: "EACL 2023"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "12 languages"
@@ -98,7 +101,8 @@ First parallel resource for 10 Indonesian local languages including Javanese and
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/explosion/spaCy.
+NusaX: first high-quality multilingual parallel sentiment dataset for 10 Indonesian local languages plus Indonesian and English, with sentiment analysis and machine translation benchmarks.
+
 
 ## Notes
 

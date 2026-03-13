@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "ACL 2025"
 local_pdf: "[[PDFs/2025/2025-Feng-CulFiT A Fine-grained Cultural-aware LLM Training Paradigm via.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Feng-CulFiT A Fine-grained Cultural-aware LLM Training Paradigm via.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural, Multilingual, Multiple global cultures (multilingual), Various"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3.1, Qwen-2.5, GPT-4o"
+LLM_assessed: "Aya, GPT-4o, GPT-4o mini, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/MMadmax/CulFiT"
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, yet they often exhibit a specific cultural biases, neglecting the values and linguistic diversity of low-resource regions. This cultural bias not only undermines universal equality, but also risks reinforcing stereotypes and perpetuating discrimination. To address this, we propose CulFiT, a novel culturally-aware training paradigm that leverages multilingual data and fine-grained reward modeling to..."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
@@ -100,7 +104,7 @@ Novel training paradigm enhancing LLMs' cultural sensitivity via multilingual cr
 
 ## Data Description
 
-The paper proposes CulFiT, a culturally-aware training paradigm that leverages multilingual data and fine-grained reward modeling to enhance cultural sensitivity. It introduces GlobalCultureQA, a multilingual open-ended question-answering benchmark for evaluating culturally-aware responses in a global context. The paper fine-tunes Llama3.1-8B-Instruct and Qwen2.5-7B-Instruct models and evaluates them alongside GPT-4o on three existing cultural benchmarks plus GlobalCultureQA, measuring cultural precision and recall metrics.
+Introduces GlobalCultureQA, a multilingual open-ended cultural QA benchmark for evaluating LLM cultural sensitivity; also evaluates on CANDLE500, CulturalBench, and BLEnD. Synthetic multilingual critique data for fine-tuning is generated as part of the CulFiT training paradigm.
 
 
 ## Notes

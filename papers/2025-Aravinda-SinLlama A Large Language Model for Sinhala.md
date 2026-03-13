@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ local_pdf: "[[PDFs/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhal
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Sri Lankan"
-languages_list: Sinhala
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Sinhala"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BLOOMZ, GPT-4, Gemma, Llama, Llama-3, Mistral, Mistral 7B, Phi3, RoBERTa, BERT"
-DATA_URL: "https://github.com/openai/tiktoken"
+LLM_assessed: "Aya, BLOOM, Falcon, Llama-3, Mistral, Phi-3"
+DATA_URL: "https://huggingface.co/datasets/polyglots/MADLAD_CulturaX_cleaned"
 tags: 
 abstract: "Low-resource languages such as Sinhala are often overlooked by open-source Large Language Models (LLMs). Therefore, it is imperative that the existing LLMs are further trained to cover such languages. In this research, we extend an existing multilingual LLM (Llama-3-8B) to get a better coverage for Sinhala. We enhanced the LLM tokenizer with Sinhala specific vocabulary and performed continual pre-training on a 10 million sentence Sinhala corpus, resulting in the SinLlama model."
 CONFERENCE: "Preprint"
@@ -95,7 +99,8 @@ Extension of Llama-3-8B with enhanced Sinhala-specific tokenizer and continual p
 
 ## Data Description
 
-Backfill summary: Models assessed include BLOOMZ, GPT-4, Gemma, Llama, Llama-3, Mistral, Mistral 7B, Phi3, RoBERTa, BERT. Verified dataset/resource link: https://github.com/openai/tiktoken.
+10.7 million Sinhala sentences combined from MADLAD-400 and CulturaX with heuristic filtering, released as the SinLlama pre-training corpus; SinLlama model also released at https://huggingface.co/polyglots/SinLlama_v01.
+
 
 ## Notes
 

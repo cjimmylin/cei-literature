@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -59,7 +63,7 @@ abstract: "With advancements in self-supervised learning, the availability of tr
 paper_summary: "Abstract: With advancements in self-supervised learning, the availability of trillions tokens in a pre-training corpus, instruction fine-tuning, and the development of large Transformers with billions of parame | Overview: A COMPREHENSIVE SURVEY OF LLM ALIGNMENT TECHNIQUES: RLHF, RLAIF, PPO, DPO AND MORE Zhichao Wang*, Bin Bi*, Shiva Kumar Pentyala, Kiran Ramnath, Sougata Chaudhuri, Shubham Mehrotra, Zixu (James) Zhu, X | Methodology: encompassed two primary stages: 1. Supervised learning through Critiques and Revisions guided by a 'constitution' and 2. RLAIF. In the initial stage,  | Key Findings: results demonstrated that RSO surpassed previous methods including SLiC and DPO across multiple metrics, including human evaluation. RSO also showed b"
 local_pdf: "[[PDFs/2024/2024-Wang-A Comprehensive Survey of LLM Alignment Techniques.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude-3, GPT-2, GPT-3, GPT-4, GPT-4-Turbo, InstructGPT, Llama, LlaMA3, Llama 2, Llama-2, Llama-3, Mistral, Mistral 7b, Mistral Large, Mistral-7B, PaLM 2, Phi-2, T5-Large, T5-XXL"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -69,7 +73,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
+is_dataset: No
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

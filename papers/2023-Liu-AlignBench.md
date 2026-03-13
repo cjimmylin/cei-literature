@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +61,7 @@ abstract: "Alignment has become a critical step for instruction-tuned Large Lang
 paper_summary: "Abstract: Alignment has become a critical step for instruction-tuned Large Language Models (LLMs) to become helpful assistants. However, the effective evaluation of alignment for emerg- ing Chinese LLMs is stil | Overview: AlignBench: Benchmarking Chinese Alignment of Large Language Models Xiao Liu1,2,∗, Xuanyu Lei1,2,∗,†, Shengyuan Wang1,2,†, Yue Huang5,2,†, Zhuoer Feng4,2,†, Bosi Wen4,2,†, Jiale Cheng4,2,†, Pei Ke4, Y | Methodology: for grading. Human evaluations justified its ap- plicability compared to existing LLM-as-Judge methods (Zheng et al., 2023). • We systematically bench | Key Findings: Real-user Scenario LLM Judgment Logical Reasoning Task-Oriented Role Play Figure 1: Overall framework of ALIGNBENCH. 1) Data Curation: a human-in-the- | Conclusions: We introduce ALIGNBENCH, a comprehen- sive multi-dimensional benchmark for evaluating LLMs' alignment in Chinese. A sustainable human- in-the-loop dat"
 local_pdf: "[[PDFs/2023/2023-Liu-AlignBench.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Qwen, Llama-2"
+LLM_assessed: "Baichuan, ChatGLM, GPT-3.5, GPT-4, InternLM, Qwen"
 DATA_URL: "https://github.com/THUDM/AlignBench"
 CONFERENCE: "ACL 2023"
 ethics_overall: "Yes"
@@ -66,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -101,7 +106,7 @@ Alignment has become a critical step for instruction-tuned Large Language Models
 
 ## Data Description
 
-AlignBench is a comprehensive benchmark for evaluating Chinese alignment of LLMs, containing 683 real-scenario rooted queries across 8 categories (Fundamental Language Ability, Advanced Chinese Understanding, Open-ended Questions, Writing Ability, Logical Reasoning, Mathematics, Task-oriented Role Play, Professional Knowledge). It uses human-verified references with web-sourced evidence and employs a rule-calibrated multi-dimensional LLM-as-Judge evaluation method with GPT-4 across 17 LLMs.
+ALIGNBENCH, a comprehensive benchmark with 683 human-curated queries across 8 categories for evaluating Chinese alignment of LLMs, with human-verified reference answers and evidence-backed annotations for knowledge-intensive queries.
 
 
 ## Notes

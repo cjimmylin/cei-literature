@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The rapid progress in Large Language Models (LLMs) poses potential risks such as generating unethical content. Assessing LLMs’ values helps expose their misalignment, but relies on reference-free evaluators, e.g., fine-tuned LLMs or close-source ones like GPT-4, to identify values reflected in generated responses. Nevertheless, these evaluators face two challenges in open-ended value evaluation: they should align with changing human value definitions with minimal annotation, against their own..."
-LLM_assessed: "GPT-4, GPT-2, Phi, Mistral, Llama-2, Alpaca"
+LLM_assessed: "GPT-4, GPT-2, Mistral, Phi-3, Llama-2, Alpaca"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"
@@ -98,7 +102,8 @@ Size: 13,000+ (text, value, label) tuples
 
 ## Data Description
 
-CLAVE is a framework integrating complementary large and small LLMs for adaptive value evaluation of LLM-generated responses, using a large model (GPT-4) as a concept extractor and a smaller fine-tuned model as a value recognizer. The accompanying ValEval benchmark comprises 13,000+ annotated (text, value, label) tuples across three value systems (social risk taxonomy, Schwartz Theory of Basic Values, Moral Foundations Theory), with original, perturbation, and generalization test sets. Twelve or more LLM evaluators were benchmarked, including GPT-4, GPT-2-Large, Phi-3, Mistral-7B, and Llama-2-7b-chat.
+ValEval is a comprehensive value evaluation benchmark comprising 13,000+ annotated (text, value, label) tuples across 3 value systems (Social Risks, Schwartz Theory, Moral Foundation Theory), with original, perturbation, and generalization splits for benchmarking 12+ LLM evaluators.
+
 
 ## Notes
 

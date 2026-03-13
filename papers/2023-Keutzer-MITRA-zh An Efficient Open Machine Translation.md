@@ -28,6 +28,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +60,7 @@ religious_values_list: "Buddhism"
 moral_psychology: "N/A"
 newtags: 
 tags: 
-abstract: 
+abstract: "Buddhist Classical Chinese is a challenging low-resource language that has not yet received much dedicated attention in NLP research. Standard commercial machine translation software performs poorly on this idiom. In order to address this gap, we present a novel dataset of 209,454 bitext pairs for the training and 2,300 manually curated and corrected bitext pairs for the evaluation of machine translation models."
 LLM_assessed: "NA"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
@@ -65,9 +70,9 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 ---
 # MITRA-zh: An Efficient, Open Machine Translation Solution for Buddhist Chinese
@@ -93,7 +98,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-(Abstract not available)
+Buddhist Classical Chinese is a challenging low-resource language that has not yet received much dedicated attention in NLP research. Standard commercial machine translation software performs poorly on this idiom. In order to address this gap, we present a novel dataset of 209,454 bitext pairs for the training and 2,300 manually curated and corrected bitext pairs for the evaluation of machine translation models. We finetune a number of encoder-decoder models on this dataset and compare their performance against commercial models. We show that our best fine-tuned model outperforms the currently available commercial solutions by a considerable margin while being much more cost-efficient and faster in deployment. This is especially important for digital humanities, where large amounts of data need to be processed efficiently for corpus-level operations such as topic modeling or semantic search. We also show that the commercial chat system GPT4 is surprisingly strong on this task, at times reaching comparable performance to our finetuned model and clearly outperforming standard machine translation providers.
 
 ## Dataset Information
 
@@ -102,7 +107,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-This paper presents MITRA-zh, a machine translation solution for Buddhist Chinese as part of the Dharmamitra project. It uses 209,454 bitext pairs for training and 2,300 manually curated bitext pairs for evaluation. The paper focuses on translating classical Buddhist Chinese texts to English but does not test any LLMs as part of its evaluation.
+A novel dataset of 209,454 bitext pairs for training and 2,300 manually curated bitext pairs for evaluation of Buddhist Classical Chinese to English machine translation models.
 
 
 ## Notes

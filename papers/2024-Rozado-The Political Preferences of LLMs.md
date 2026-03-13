@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "I report here a comprehensive analysis about the political preferences embedded in Large Language Models (LLMs). Namely, I administer 11 political orientation tests, designed to identify the political preferences of the test taker, to 24 state-of-the-art conversational LLMs, both closed and open source. When probed with questions/statements with political connotations, most conversational LLMs tend to generate responses that are diagnosed by most political test instruments as manifesting..."
-LLM_assessed: "GPT-3.5, GPT-4, GPT-3, Gemini, Claude, Llama-2, Mistral, Qwen, Grok"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Gemini, Claude, Claude Instant, Grok, Llama-2, Mistral, Qwen"
 DATA_URL: "https://doi.org/10.5281/zenodo.10553530"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -63,8 +68,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: No
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -100,7 +105,8 @@ I report here a comprehensive analysis about the political preferences embedded 
 
 ## Data Description
 
-This study administers 11 political orientation tests to 24 conversational LLMs and 5 base models, totaling 2,640 test administrations. The dataset includes model responses to political test questions/statements, automated stance detection results, and political orientation scores across multiple political axes. Three additional fine-tuned models (LeftWingGPT, RightWingGPT, DepolarizingGPT) were created using politically aligned training data.
+Political orientation test responses from 24 LLMs across 11 political tests, with data and code archived on Zenodo.
+
 
 ## Notes
 

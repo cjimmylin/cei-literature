@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Comprehension of ancient texts plays an important role in archaeology and understanding of Chinese history and civilization. The rapid development of large language models needs benchmarks that can evaluate their comprehension of ancient characters. Existing Chinese benchmarks are mostly targeted at modern Chinese and transmitted documents in ancient Chinese, but the part of excavated documents in ancient Chinese is not covered."
-LLM_assessed: "Baichuan2, Llama-3, Llama3, Qwen, Qwen-14B, Qwen-7B, Qwen-Chat"
+LLM_assessed: "Llama-3, Qwen, Baichuan, ChatGLM"
 DATA_URL: "NA"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "No"
@@ -64,7 +68,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -101,7 +105,8 @@ AncientBench is novel in introducing excavated documents (e.g., oracle bone insc
 
 ## Data Description
 
-Backfill summary: Models assessed include Baichuan2, Llama-3, Llama3, Qwen, Qwen-14B, Qwen-7B, Qwen-Chat. No high-confidence repository-style data URL was identified.
+AncientBench: A comprehensive benchmark of 28,707 multiple-choice questions for evaluating LLM comprehension of ancient Chinese characters, covering 4 competency dimensions (glyph, pronunciation, meaning, contextual) and 10 tasks drawn from excavated documents (oracle bones, bamboo strips) and transmitted texts.
+
 
 ## Notes
 

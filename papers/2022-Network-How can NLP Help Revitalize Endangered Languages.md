@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,9 +47,9 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2022/2022-Network-How can NLP Help Revitalize Endangered Languages.md"
 local_pdf: "[[PDFs/2022/2022-Network-How can NLP Help Revitalize Endangered Languages.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "American, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Global Indigenous"
-languages_list: Maori
+national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
+languages_list: "Cherokee"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

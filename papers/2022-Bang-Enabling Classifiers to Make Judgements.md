@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,8 +63,8 @@ abstract: "Many NLP classiﬁcation tasks, such as sexism/racism detection or to
 paper_summary: "Abstract: Many NLP classiﬁcation tasks, such as sex- ism/racism detection or toxicity detection, are based on human values. Yet, human values can vary under diverse cultural conditions. There- fore, we introduc | Overview: Enabling Classiﬁers to Make Judgements Explicitly Aligned with Human Values Yejin Bang1∗Tiezheng Yu1∗ Andrea Madotto2 Zhaojiang Lin2 Mona Diab2 Pascale Fung1† 1The Hong Kong University of Science and  | Methodology: avoids costly human labeling or crowd sourcing of values, allowing easier extensions to other value- aligned tasks in different domains. We further in | Key Findings: LLMs are powerful few-shot learners, yet they are not perfect. Thus, we conduct human evaluation on two categories' data (Inter- nalized sexism and Pa"
 local_pdf: "[[PDFs/2022/2022-Bang-Enabling Classifiers to Make Judgements.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "OPT, ALBERT, RoBERTa, BART"
-DATA_URL: "https://github.com/makcedward/nlpaug"
+LLM_assessed: "ALBERT, BART, RoBERTa"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -67,7 +72,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -103,7 +108,7 @@ Many NLP classiﬁcation tasks, such as sexism/racism detection or toxicity dete
 
 ## Data Description
 
-The paper constructs a value-aligned sexism classification dataset using prompt-based data generation from OPT-175B. The training set contains 10,722 synthetic samples in triplet form (content, value, label) covering 19 sexism categories with 38 human values. The test set comprises 17,720 samples derived from existing multi-label sexism data, with value-aligned labels assigned based on explicit human values provided as instructions.
+Value-aligned training data generated from OPT-175B via few-shot prompting for fine-tuning smaller classifiers (VA-MODELs) on sexism/racism/toxicity detection tasks.
 
 
 ## Notes

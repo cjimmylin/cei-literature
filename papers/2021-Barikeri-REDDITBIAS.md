@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -86,7 +89,7 @@ Text representation models are prone to exhibit a range of societal biases, refl
 
 ## Data Description
 
-REDDITBIAS is a conversational dataset grounded in real Reddit conversations, designed for bias measurement and mitigation across four dimensions: gender, race, religion (two subtypes), and queerness. The dataset includes approximately 11,873 manually annotated comments and corresponding target phrases, split into training, development, and test sets. The evaluation framework benchmarks DialoGPT (a GPT-2 variant) using perplexity-based bias measures alongside dialog state tracking on MultiWoZ and conversational response generation on DSTC-7.
+RedditBias benchmark dataset for measuring and mitigating social biases in conversational language models across four dimensions (gender, race, religion, queerness).
 
 
 ## Notes

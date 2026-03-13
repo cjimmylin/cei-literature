@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +44,7 @@ authors: "Yin, Sheng; Pang, Xianghe; Ding, Yuanzhuo; Chen, Menglan; Bi, Yutong; 
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.13178"
 external_pdf: "https://arxiv.org/pdf/2412.13178.pdf"
-pdf_extract: "PDF Extracts/0000/2024-Yin-SafeAgentBench.md"
+pdf_extract: "PDF Extracts/2024/2024-Yin-SafeAgentBench.md"
 local_pdf: "[[PDFs/2024/2024-Yin-SafeAgentBench.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "With the integration of large language models (LLMs), embodied agents have strong capabilities to understand and plan complicated natural language instructions. However, a foreseeable issue is that those embodied agents can also flawlessly execute some hazardous tasks, potentially causing damages in the real world. Existing benchmarks predominantly overlook critical safety risks, focusing solely on planning performance, while a few evaluate LLMs' safety awareness only on non-interactive..."
-LLM_assessed: "GPT-4, Gemini, Llama-3, Qwen, DeepSeek"
+LLM_assessed: "DeepSeek, GPT-4, Gemini, Llama-3, Qwen"
 DATA_URL: "https://github.com/shengyin1224/SafeAgentBench"
 research_topic: "Other"
 CONFERENCE: "Preprint"
@@ -100,7 +104,8 @@ With the integration of large language models (LLMs), embodied agents have stron
 
 ## Data Description
 
-SafeAgentBench is the first comprehensive benchmark for safety-aware task planning of embodied LLM agents, featuring 750 executable tasks (450 hazardous, 300 safe) covering 10 potential hazards and 3 task types (detailed, abstract, long-horizon) in interactive simulation environments based on AI2-THOR. Nine representative embodied LLM agent baselines were evaluated, each driven by GPT-4, Gemini-2.5-Pro, Llama3-8B, Qwen2-7B, and DeepSeek-V2.5, with results showing that even the best baseline achieved only a 10% rejection rate for detailed hazardous tasks.
+SafeAgentBench is a benchmark dataset of 750 embodied tasks (450 hazardous, 300 safe) covering 10 hazard types and 3 task types (detailed, abstract, long-horizon) for safety-aware task planning of embodied LLM agents in an interactive simulation environment. Also available at https://huggingface.co/datasets/safeagentbench/SafeAgentBench.
+
 
 ## Notes
 

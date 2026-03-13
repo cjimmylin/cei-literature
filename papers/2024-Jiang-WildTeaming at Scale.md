@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +44,7 @@ authors: "Liwei Jiang; Kavel Rao; Seungju Han; Allyson Ettinger; Faeze Brahman; 
 doi: 10.48550/arXiv.2406.18510
 url: "https://arxiv.org/abs/2406.18510"
 external_pdf: "https://arxiv.org/pdf/2406.18510.pdf"
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
@@ -56,7 +60,7 @@ paper_summary: "Abstract: We introduce WILDTEAMING, an automatic red-teaming fra
 local_pdf: "[[PDFs/2024/2024-Jiang-WildTeaming at Scale.pdf]]"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Vicuna, Mistral, Mixtral, Llama-2, Llama-3"
+LLM_assessed: "GPT-4, Llama-2, Llama-3, Mistral, Mixtral, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/allenai/wildjailbreak"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -101,7 +105,7 @@ We introduce WildTeaming, an automatic LLM safety red-teaming framework that min
 
 ## Data Description
 
-WildJailbreak is a large-scale open-source synthetic safety dataset containing 262K prompt-response pairs organized into four contrastive components: vanilla harmful queries, vanilla benign queries, adversarial harmful queries, and adversarial benign queries. The dataset was created using the WildTeaming framework, which mines 5.7K unique clusters of jailbreak tactics from real-world user-chatbot interactions in LMSYS-Chat-1M and WildChat, then composes these tactics to generate diverse adversarial attacks for safety training.
+WildJailbreak is a large-scale synthetic safety dataset with 262K vanilla and adversarial prompt-response pairs, created via the WildTeaming red-teaming framework that mines 5.7K unique jailbreak tactic clusters from real user-chatbot interactions.
 
 
 ## Notes

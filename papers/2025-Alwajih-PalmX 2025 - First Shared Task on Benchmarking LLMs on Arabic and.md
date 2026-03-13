@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +48,8 @@ local_pdf: "[[PDFs/2025/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmark
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Arabic, American"
-cultures_nationalities_list: "Arabic, Islamic"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) inherently reflect the vast data distributions they encounter during their pre-training phase. As this data is predominantly sourced from the web, there is a high chance it will be skewed towards high-resourced languages and cultures, such as those of the West. Consequently, LLMs often exhibit a diminished understanding of certain communities, a gap that is particularly evident in their knowledge of Arabic and Islamic cultures."
-LLM_assessed: "GPT-3, GPT-3.5 Turbo, GPT-4o, Gemini, Palm, Qwen2.5, Qwen3"
+LLM_assessed: "Gemini, GPT-3, GPT-3.5, GPT-4o, PaLM, Qwen, Qwen-2"
 DATA_URL: "https://github.com/UBC-NLP/palmx_2025"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -62,8 +66,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Large Language Models (LLMs) inherently reflect the vast data distributions they
 
 ## Data Description
 
-PalmX 2025 is the first shared task benchmarking LLM cultural competence on Arabic and Islamic culture through two subtasks of multiple-choice questions in Modern Standard Arabic: General Arabic Culture (4,500 questions) and General Islamic Culture (1,900 questions). The task drew 26 registered teams, with participant-submitted fine-tuned models evaluated using likelihood-based MCQ scoring; the top systems achieved 72.15% on cultural questions and 84.22% on Islamic knowledge.
+PalmX 2025 provides MCQ datasets for two subtasks — General Arabic Culture and General Islamic Culture — covering 22 Arab countries, released with training, development, and test splits for benchmarking LLM cultural competence.
+
 
 ## Notes
 

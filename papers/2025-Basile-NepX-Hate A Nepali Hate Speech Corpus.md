@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2025/2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.pdf]]"
 publication: OpenReview
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Nepali, Indian"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Hindi, Nepali"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +59,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "10,000 annotated tweets labeled for hate speech presence, fine-grained category (casteism, xenophobia), offensiveness, target type, and sentiment. First publicly available Nepali hate speech dataset with multi-aspect sociocultural annotations. First comprehensive Nepali hate speech dataset with sociocultural annotations including casteism and xenophobia categories."
-LLM_assessed: "BERT, GPT-4o-mini, GPT-4, RoBERTa"
+LLM_assessed: "BERT, GPT-4o mini, Gemini"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -63,8 +67,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -99,7 +103,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4o-mini, GPT-4, RoBERTa. No high-confidence repository-style data URL was identified.
+NepX-Hate: 10,621 annotated Nepali (and Hindi) tweets labeled across six dimensions (hate speech, category, offensiveness, target type, sentiment, language); first publicly available Nepali hate speech dataset with multi-aspect sociocultural annotations including casteism and xenophobia.
+
 
 ## Notes
 

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +48,15 @@ local_pdf: "[[PDFs/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for 
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Sri Lankan, Sinhala"
-languages_list: Sinhala
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Sinhala"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "CLAUDE 3.5 SONNET, CLAUDE-3, CLAUDE-3 HAIKU, CLAUDE-3-HAIKU, Claude, Claude 3 Haiku, Claude 3.5, Claude 3.5-sonnet, Claude 3.7 Sonnet, Claude Haiku, Claude-sonnet, Claude., GPT-4, GPT-4o, GPT4O, Llama-3, LLAMA-3.1, LLAMA-3.2, LLAMA-3.3, LLaMA3.1, Llama, MISTRAL-7B, Mistral, Mistral 7B, QWEN-32B, QWEN-72B, QWEN2.5, Qwen"
-DATA_URL: "NA"
+LLM_assessed: "Claude-3, GPT-4o, LLaMA, Llama-3, Mistral, Qwen, Qwen-2, Command-R"
+DATA_URL: "https://huggingface.co/datasets/naist-nlp/SinhalaMMLU"
 tags: 
 abstract: "Large Language Models (LLMs) demonstrate impressive general knowledge and reasoning abilities, yet their evaluation has predominantly focused on global or anglocentric subjects, often neglecting low-resource languages and culturally specific content. While recent multilingual benchmarks attempt to bridge this gap, many rely on automatic translation, which can introduce errors and misrepresent the original cultural context."
 CONFERENCE: "Preprint"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ First MCQA benchmark for Sinhala with 7,000+ questions spanning secondary to col
 
 ## Data Description
 
-Backfill summary: Models assessed include CLAUDE 3.5 SONNET, CLAUDE-3, CLAUDE-3 HAIKU, CLAUDE-3-HAIKU, Claude, Claude 3 Haiku, Claude 3.5, Claude 3.5-sonnet, Claude 3.7 Sonnet, Claude Haiku, Claude-sonnet, Claude., GPT-4, GPT-4o, GPT4O, Llama-3, LLAMA-3.1, LLAMA-3.2, LLAMA-3.3, LLaMA3.1, Llama, MISTRAL-7B, Mistral, Mistral 7B, QWEN-32B, QWEN-72B, QWEN2.5, Qwen. No high-confidence repository-style data URL was identified.
+SinhalaMMLU is a Sinhala MCQA benchmark with 7,044 questions across 6 domains and 30 subjects aligned with the Sri Lankan national curriculum, covering secondary to collegiate education levels including culturally specific subjects; available on GitHub (https://github.com/naist-nlp/SinhalaMMLU) and HuggingFace.
+
 
 ## Notes
 

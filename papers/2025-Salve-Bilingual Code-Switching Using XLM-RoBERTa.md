@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,12 +55,12 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
-languages_list: "Code-switching, English, Korean, Multilingual"
+languages_list: "English, Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "XLM-RoBERTa"
+LLM_assessed: "XLM-R"
 DATA_URL: "NA"
 tags: 
 abstract: "The search results reveal significant research on code-switching bias, fairness, and NLP evaluation. Here are the key findings: Language Bias in Code-Switching Models consistently default to Korean when faced with mixed-language inputs, and their accuracy drops sharply when the expected response is English, according to recent LLM evaluations."

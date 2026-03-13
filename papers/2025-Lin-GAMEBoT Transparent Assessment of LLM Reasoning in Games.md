@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +48,7 @@ local_pdf: "[[PDFs/2025/2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "American"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly deployed in real-world applications that demand complex reasoning. To track progress, robust benchmarks are required to evaluate their capabilities beyond superficial pattern recognition. However, current LLM reasoning benchmarks often face challenges such as insufficient interpretability, performance saturation or data contamination. To address these challenges, we introduce GAMEBOT (GAME Battle of Tactics), a gaming arena designed for rigorous and..."
-LLM_assessed: "GPT-4o, GPT-4, Claude, Gemini, Llama-3, Mistral"
+LLM_assessed: "Claude, Claude-3, GPT-4, GPT-4o, GPT-4o mini, Gemini, Llama-3, Mistral"
 DATA_URL: "https://visual-ai.github.io/gamebot"
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"

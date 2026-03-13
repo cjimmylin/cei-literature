@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,11 +53,11 @@ newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Introduced CHiSafetyBench, a hierarchical Chinese safety benchmark with 31 categories (5 risk areas) for evaluating risky content identification and refusal capabilities."
 significance: "Fills a gap in Chinese-specific safety evaluation, showing that mainstream Chinese LLMs still vary significantly in their ability to handle culturally and linguistically specific risks."
 tags: 
-pdf_extract: "PDF Extracts/0000/2024-Zhang-CHiSafetyBench.md"
+pdf_extract: "PDF Extracts/2024/2024-Zhang-CHiSafetyBench.md"
 abstract: "With the profound development of large language mod- els(LLMs), their safety concerns have garnered increasing attention. However, there is a scarcity of Chinese safety benchmarks for LLMs, and the existing safety taxonomies are inadequate, lacking comprehensive safety detection ca- pabilities in authentic Chinese scenarios. In this work, we introduce CHiSafetyBench, a dedicated safety benchmark for evaluating LLMs' capabilities in identifying risky con- tent and refusing answering risky questio"
 paper_summary: "Abstract: With the profound development of large language mod- els(LLMs), their safety concerns have garnered increasing attention. However, there is a scarcity of Chinese safety benchmarks for LLMs, and the ex | Overview: CHiSafetyBench: A Chinese Hierarchical Safety Benchmark for Large Language Models Wenjing Zhang1,2, Xuejiao Lei1,2, Zhaoxiang Liu1,2*, Meijuan An1,2, Bikun Yang1,2, Kaikai Zhao1,2, Kai Wang1,2, Shiguo | Methodology: that rivals human assessment, facilitating cost-effective and efficient testing of model safety detection and de- fense capabilities, significantly re | Key Findings: not only focuses on overarching but also specific safety di- mensions. Notably, existing hierarchical safety benchmarks predominantly focus on English | Conclusions: We introduce CHiSafetyBench, a specialized and credible benchmark designed based on a Chinese hierarchical safety taxonomy. CHiSafetyBench encompasses"
 local_pdf: "[[PDFs/2024/2024-Zhang-CHiSafetyBench.pdf]]"
-LLM_assessed: "Baichuan, Baichuan2, ChatGLM, ChatGLM series, ChatGLM3, Qwen, Qwen and, Qwen se, Qwen series, Qwen-110B, Qwen-72B, Qwen1.5, Yi-34B, Yi-6B"
+LLM_assessed: "Baichuan, ChatGLM, Qwen-1.5, Yi"
 DATA_URL: "https://github.com/UnicomAI/UnicomBenchmark/tree/main/CHiSafetyBench"
 publication: arXiv
 CONF-CC: "Preprint"
@@ -94,7 +98,7 @@ With the profound development of large language models(LLMs), their safety conce
 
 ## Data Description
 
-CHiSafetyBench is a Chinese hierarchical safety benchmark for evaluating LLMs, featuring a dataset covering 5 risk areas and 31 categories based on Chinese government safety standards. It comprises 1,567 multiple-choice questions and 563 risky questions in question-answering format, with an LLM-based automatic evaluation method used to assess 10 mainstream Chinese LLMs on risk content identification and refusal-to-answer capabilities.
+CHiSafetyBench is a Chinese hierarchical safety benchmark with 1,567 multiple-choice questions and 563 risky QA pairs covering 5 risk areas and 31 categories, used to evaluate 10 Chinese LLMs from Baichuan, ChatGLM, Qwen, and Yi series.
 
 
 ## Notes

@@ -1,23 +1,4 @@
----
-title: "COIG-P - PDF Extract"
-source_pdf: "2025-Wu-COIG-P.pdf"
-pages: 26
-extracted_at: "2026-01-24T16:38:37.652183"
----
-
-# PDF Extract: COIG-P
-
-**Source PDF:** 2025-Wu-COIG-P.pdf
-**Total Pages:** 26
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-M-A-P
+---\ntitle: "2025-Wu-COIG-P - PDF Extract"\nsource_pdf: "2025-Wu-COIG-P.pdf"\npages: 26\nextracted_at: "2026-02-14T02:17:36.706024"\n---\n\n# PDF Extract: 2025-Wu-COIG-P\n\n**Source PDF:** 2025-Wu-COIG-P.pdf\n**Total Pages:** 26\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nM-A-P
 COIG-P: A High-Quality and Large-Scale Chinese Preference
 Dataset for Alignment with Human Values
 M-A-P, 2077AI
@@ -94,9 +75,7 @@ Figure 1. The results of different Chinese human preference datasets trained on
 Infinity-Instruct-3M-0625-Qwen2-7B.
 arXiv:2504.05535v1  [cs.CL]  7 Apr 2025
 
---- Page 2 ---
-
-Contents
+--- Page 2 ---\n\nContents
 1
 Introduction
 3
@@ -172,9 +151,7 @@ C Examples
 24
 2
 
---- Page 3 ---
-
-1. Introduction
+--- Page 3 ---\n\n1. Introduction
 Large Language Models (LLMs) [OpenAI, 2024, Yang et al., 2024b,a, Dubey et al., 2024] have
 achieved remarkable success in various Natural Language Processing (NLP) tasks [Wu et al.,
 2025, Team et al., 2025, Wu et al., 2024, Li et al., 2024b, Wang et al., 2023, Kalla et al., 2023, Ray,
@@ -265,9 +242,7 @@ score responses to form chosen and rejected response pairs. Based on it, we intr
 1https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k
 3
 
---- Page 4 ---
-
-(Chinese Open Instruction Generalist - Preference), a Chinese human value preference dataset
+--- Page 4 ---\n\n(Chinese Open Instruction Generalist - Preference), a Chinese human value preference dataset
 that contains 1,006k samples, and each sample consists of a query and a pair of chosen and
 rejected responses. To reduce the overhead of using LLMs for scoring, we also trained a Chinese
 Reward Model (CRM) and manually curated a Chinese Reward Benchmark (CRBench). The
@@ -314,9 +289,7 @@ construction [Zhu et al., 2023, Cui et al., 2023, Lambert et al., 2023, Preferen
 huggingface, 2024a, Chiang et al., 2024]. In addition to enhancing general alignment capabilities,
 4
 
---- Page 5 ---
-
-……
+--- Page 5 ---\n\n……
 Query Dataset
 Chat
 Math
@@ -403,9 +376,7 @@ Figure 2, we propose a LLM-based Chinese preference dataset annotation pipeline 
 the COIG-P, a human value preference dataset of Chinese corpus, without human intervention.
 5
 
---- Page 6 ---
-
-3.1. Query Collection
+--- Page 6 ---\n\n3.1. Query Collection
 Instruction tuning [Sanh et al., 2021, Wang et al., 2022a, Longpre et al., 2023, Ni et al., 2023]
 and RLHF [Schulman et al., 2017, Ziegler et al., 2019, Rafailov et al., 2023] play a crucial role in
 LLMs’ success. Despite Chinese being one of the most widely spoken languages in the world,
@@ -451,9 +422,7 @@ Gemini1.5-Pro10, GPT-Turbo/3.5/4/4o11, Qwen-Max, Qwen2-72B [Yang et al., 2024a],
 11https://chatgpt.com/
 6
 
---- Page 7 ---
-
-Yi-Large [AI et al., 2025], GLM-4 [GLM et al., 2024a], and Moonshot12) to generate a range of
+--- Page 7 ---\n\nYi-Large [AI et al., 2025], GLM-4 [GLM et al., 2024a], and Moonshot12) to generate a range of
 responses for each query.
 3.3. Scoring and Paring
 For each query, we selected 8 LLMs (i.e., Claude3.5, DeepSeekV2, Doubao-Pro, GLM-4, GPT-
@@ -513,9 +482,7 @@ For most domains, we generate around six response pairs per query. However, for 
 12https://moonshotteam.com/
 7
 
---- Page 8 ---
-
-domain, we curate approximately 20 response pairs per query, reflecting the relative simplicity
+--- Page 8 ---\n\ndomain, we curate approximately 20 response pairs per query, reflecting the relative simplicity
 of Chat-related queries.
 4. Experiments Setup
 In this study, we utilize AlignBench [Liu et al., 2024a] as our primary benchmark to assess the
@@ -556,9 +523,7 @@ ments by training LLMs (i.e., Qwen2/2.5-7B and Infinity-Instruct-3M-0625 series 
 14https://claude.ai/
 8
 
---- Page 9 ---
-
-Model
+--- Page 9 ---\n\nModel
 Overall
 Reasoning 中文推理
 Language 中文语言
@@ -850,9 +815,7 @@ abilities. However, it may cause a slight degradation in some fundamental langua
 subtasks, especially in Fundamental (基础任务).
 9
 
---- Page 10 ---
-
-The gap between open-source and closed-source models is small in Chinese preference
+--- Page 10 ---\n\nThe gap between open-source and closed-source models is small in Chinese preference
 alignment tasks.
 Compared to GPT-4o, Qwen2.5-72B-Inst shows only slight differences in
 scores across various tasks, and its overall score is even significantly higher than that of Claude-
@@ -1017,9 +980,7 @@ we define a threshold and discard any pair where the score difference between th
 rejected responses falls below this threshold.
 10
 
---- Page 11 ---
-
-To select a suitable threshold, we randomly selected 1,000 queries in COIG-P. For each
+--- Page 11 ---\n\nTo select a suitable threshold, we randomly selected 1,000 queries in COIG-P. For each
 query, we formed potential chosen–rejected pairs across all available responses and then applied
 varying thresholds to decide which pairs to keep based on the score judged by LLMs.
 0.0
@@ -1087,9 +1048,7 @@ is an urgent task. Therefore, we propose a Chinese Reward Model (in subsection 6
 Chinese Reward Benchmark (in subsection 6.2) to fill the gap in this field.
 11
 
---- Page 12 ---
-
-Dataset
+--- Page 12 ---\n\nDataset
 Overall
 Reasoning 中文推理
 Language 中文语言
@@ -1253,9 +1212,7 @@ As shown in Table 7, we evaluate the current mainstream LLMs and reward models i
 the CRBench. Our CRM achieves the best performance among the discriminative reward
 12
 
---- Page 13 ---
-
-Model
+--- Page 13 ---\n\nModel
 Conv.
 Logic.
 Math.
@@ -1369,9 +1326,7 @@ create COIG-P, a dataset containing 1,006k high-quality Chinese preference sampl
 strate on AlignBench that COIG-P brings a 2%–12% performance improvement to mainstream
 13
 
---- Page 14 ---
-
-Pro.
+--- Page 14 ---\n\nPro.
 Chi.
 Fund.
 Math.
@@ -1405,9 +1360,7 @@ benchmark. We also validate that our Chinese reward model achieves performance c
 to GPT-4o on downstream tasks involving real data annotation.
 14
 
---- Page 15 ---
-
-8. Contributions and Acknowledgments
+--- Page 15 ---\n\n8. Contributions and Acknowledgments
 Multimodal Art Projection (M-A-P) is a non-profit open-source AI research community, run
 by donations. The community members are working on research topics in a wide range of
 spectrum, including but not limited to the pre-training paradigm of foundation models, large-
@@ -1449,9 +1402,7 @@ Corresponding Authors
 • Chenghua Lin, UoM
 15
 
---- Page 16 ---
-
-References
+--- Page 16 ---\n\nReferences
 . AI, :, A. Young, B. Chen, C. Li, C. Huang, G. Zhang, G. Zhang, G. Wang, H. Li, J. Zhu, J. Chen,
 J. Chang, K. Yu, P. Liu, Q. Liu, S. Yue, S. Yang, S. Yang, W. Xie, W. Huang, X. Hu, X. Ren, X. Niu,
 P. Nie, Y. Li, Y. Xu, Y. Liu, Y. Wang, Y. Cai, Z. Gu, Z. Liu, and Z. Dai. Yi: Open foundation
@@ -1496,9 +1447,7 @@ Z. Gu, Z. Li, and Z. Xie. Deepseek-v2: A strong, economical, and efficient mixtu
 language model, 2024. URL https://arxiv.org/abs/2405.04434.
 16
 
---- Page 17 ---
-
-A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, A. Letman, A. Mathur, A. Schelten,
+--- Page 17 ---\n\nA. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, A. Letman, A. Mathur, A. Schelten,
 A. Yang, A. Fan, et al. The llama 3 herd of models. arXiv preprint arXiv:2407.21783, 2024.
 K. Ethayarajh, Y. Choi, and S. Swayamdipta. Understanding dataset difficulty with mathcal v-
 usable information. In K. Chaudhuri, S. Jegelka, L. Song, C. Szepesvari, G. Niu, and S. Sabato,
@@ -1541,9 +1490,7 @@ dataset, 2023. URL https://huggingface.co/datasets/HuggingFaceH4/stack-exc
 hange-preferences.
 17
 
---- Page 18 ---
-
-T. Li, W.-L. Chiang, E. Frick, L. Dunlap, T. Wu, B. Zhu, J. E. Gonzalez, and I. Stoica. From
+--- Page 18 ---\n\nT. Li, W.-L. Chiang, E. Frick, L. Dunlap, T. Wu, B. Zhu, J. E. Gonzalez, and I. Stoica. From
 crowdsourced data to high-quality benchmarks: Arena-hard and benchbuilder pipeline,
 2024a. URL https://arxiv.org/abs/2406.11939.
 Z. Li, Q. Zang, D. Ma, J. Guo, T. Zheng, M. Liu, X. Niu, Y. Wang, J. Yang, J. Liu, et al. Autok-
@@ -1585,9 +1532,7 @@ ethics, limitations and future scope. Internet of Things and Cyber-Physical Syst
 2023.
 18
 
---- Page 19 ---
-
-V. Sanh, A. Webson, C. Raffel, S. H. Bach, L. Sutawika, Z. Alyafeai, A. Chaffin, A. Stiegler, T. L.
+--- Page 19 ---\n\nV. Sanh, A. Webson, C. Raffel, S. H. Bach, L. Sutawika, Z. Alyafeai, A. Chaffin, A. Stiegler, T. L.
 Scao, A. Raja, et al. Multitask prompted training enables zero-shot task generalization. arXiv
 preprint arXiv:2110.08207, 2021.
 J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov. Proximal policy optimization
@@ -1629,9 +1574,7 @@ Q. Xie, Z. Wang, Y. Feng, and R. Xia. Ask again, then fail: Large language model
 judgment. arXiv preprint arXiv:2310.02174, 2023.
 19
 
---- Page 20 ---
-
-s. Xinlu Lai. The dpo dataset for chinese and english with emoji. https://huggingface.co
+--- Page 20 ---\n\ns. Xinlu Lai. The dpo dataset for chinese and english with emoji. https://huggingface.co
 /datasets/shareAI/DPO-zh-en-emoji, 2024.
 G. Xu, J. Liu, M. Yan, H. Xu, J. Si, Z. Zhou, P. Yi, X. Gao, J. Sang, R. Zhang, J. Zhang, C. Peng,
 F. Huang, and J. Zhou. Cvalues: Measuring the values of chinese large language models from
@@ -1661,9 +1604,7 @@ ing. Fine-tuning language models from human preferences. arXiv preprint arXiv:19
 2019. URL https://arxiv.org/abs/1909.08593.
 20
 
---- Page 21 ---
-
-Chat
+--- Page 21 ---\n\nChat
 你是一名专家，负责评估语言模型助手的回答表现。下面给出一个问题和对应的回答，你需要根据10分制对该回答进行评分，其中1分为最
 差，10分为最佳。
 你应考虑以下方面来评估回答：
@@ -1715,9 +1656,7 @@ As shown in Figure 5, Figure 6, Figure 7, Figure 8,Figure 9, and Figure 10, we h
 different prompts for each field to score the responses corresponding to the queries.
 21
 
---- Page 22 ---
-
-Code
+--- Page 22 ---\n\nCode
 你是一名专家，负责评估语言模型助手在代码生成任务中的回答表现。下面给出一个编程问题和对应的回答代码，你需要根据10分制对该回
 答进行评分，其中1分为最差，10分为最佳。
 你应从以下几个方面评估代码的质量：
@@ -1774,9 +1713,7 @@ by translating the query into Chinese: HotpotQA15, Online-IQ16, Ruozhiba17, olym
 17https://huggingface.co/datasets/LooksJuicy/ruozhiba
 22
 
---- Page 23 ---
-
-Logic
+--- Page 23 ---\n\nLogic
 你是一名专家，负责评估语言模型助手在逻辑推理类任务中的回答表现。下面给出一个逻辑推理类的问题和对应的回答，你需要根据10分制
 对该回答进行评分，其中1分为最差，10分为最佳。
 你应从以下四个方面来评估回答的质量：
@@ -1833,9 +1770,7 @@ Codex ["Teknium", 2024], TheatreLM-v2.1-Characters22.
 22https://huggingface.co/datasets/G-reen/TheatreLM-v2.1-Characters
 23
 
---- Page 24 ---
-
-Chat.
+--- Page 24 ---\n\nChat.
 Query:法律上，效力待定合同和可撤销合同的区别？
 Chosen Response:
 在法律上，效力待定合同和可撤销合同是两种不同类型
@@ -1895,9 +1830,7 @@ rejected response pair. We present the sample in Figure 11, Figure 12, Figure 13
 Figure 15, and Figure 16.
 24
 
---- Page 25 ---
-
-Math.
+--- Page 25 ---\n\nMath.
 $ \mathcal F$ 是集合$ X$ 的3-子集族。$ X$ 中的每两个不同的元素恰好在$ \mathcal F$ 的$ k$ 个元素中。已知$ 
 \mathcal F$ 可以划分为集合$ X_1,X_2$ ，使得$ \mathcal F$ 中的每个元素都与$ X_1,X_2$ 都有非空交集。证明$ 
 |X|\leq4$ 。
@@ -1971,9 +1904,7 @@ Rejected Response:
 Figure 14. The sample of Role. domain.
 25
 
---- Page 26 ---
-
-Novel.
+--- Page 26 ---\n\nNovel.
 * 那柔和的黄铜色光线在尖顶周围扫过时，发出了轻柔的不祥之兆*
 将这行诗意的散文融入到您所创作的恐怖场景中，并继续写大约5 段，约300 字左右。
 Chosen Response:
@@ -2047,5 +1978,4 @@ Rejected Response:
 因此，小郑最少有16道题未答。
 Figure 16. The sample of Logic. domain.
 26
-
-```
+\n```\n

@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,9 +48,9 @@ CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Uyghur"
-languages_list: "Arabic, Mongolian, Multilingual, Tibetan, Uyghur"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
+languages_list: "Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -96,7 +99,7 @@ Based on the web search results, here are the findings related to Uyghur sentime
 
 ## Data Description
 
-A structured sentiment analysis dataset based on public comments from various domains, relevant to low-resource languages including Uyghur, Mongolian, and Tibetan. The dataset appears to involve sentiment classification with multiple evaluation metrics (accuracy, precision, recall, F1-score). Exact dataset scale and construction details are not available from the metadata.
+Uyghur sentiment analysis dataset from public comments, with evaluation using Accuracy, Precision, Recall, and F1-score metrics. Includes experiments using Temporal Attention Capsule Networks for Uyghur sentiment classification.
 
 
 ## Notes

@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +50,13 @@ pdf_extract: "PDF Extracts/2024/2024-Jafri-RUHate-MM Identification of Hate Spee
 local_pdf: "[[PDFs/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
-cultures_nationalities_list: "Russian, Ukrainian"
-languages_list: "English, Russian, Ukrainian"
+cultures_nationalities_list: "Russian"
+languages_list: "Russian, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, DistilBERT, RoBERTa"
+LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://github.com/Farhan-jafri/Russia-Ukraine"
 tags: 
 abstract: "During the conflict between Ukraine and Russia, hate speech targeted toward specific groups was widespread on different social media platforms. With most social platforms allowing multimodal content, the use of multimodal content to express hate speech is widespread on the Internet. Although there has been considerable research in detecting hate speech within unimodal content, the investigation into multimodal content remains insufficient."
@@ -103,7 +106,8 @@ Comprehensive multimodal dataset of 20,675 posts from Russia-Ukraine crisis, ann
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, DistilBERT, RoBERTa. Verified dataset/resource link: https://github.com/Farhan-jafri/Russia-Ukraine.
+Multimodal dataset of 20,675 manually annotated tweets from the Russia-Ukraine crisis, labeled for hate speech detection and target identification (Individual, Organization, Community).
+
 
 ## Notes
 

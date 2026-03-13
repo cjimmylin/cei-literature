@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,8 +60,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "LLMs have revolutionized the landscape of information retrieval and knowledge dissemination. However, their application in specialized areas is often hindered by factual inaccuracies and hallucinations, especially in long-tail knowledge distributions. We explore the potential of retrieval-augmented generation (RAG) models for long-form question answering (LFQA) in a specialized knowledge domain. We present VedantaNY-10M, a dataset curated from extensive public discourses on the ancient Indian..."
-LLM_assessed: "BART, BART-large, BERT, ChatGPT, ELECTRA, GPT-2, GPT-4, GPT-4-turbo, GPT2, T5-XXL"
-DATA_URL: "https://github.com/priyankamandikal/vedantany-10m / https://sites.google.com/view/vedantany-10m"
+LLM_assessed: "GPT-4, Mixtral"
+DATA_URL: "https://github.com/priyankamandikal/vedantany-10m"
 CONFERENCE: "ACL 2024"
 ethics_overall: "No"
 virtue_ethics: "Yes"
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
@@ -106,7 +110,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BART, BART-large, BERT, ChatGPT, ELECTRA, GPT-2, GPT-4, GPT-4-turbo, GPT2, T5-XXL. Verified dataset/resource link: https://github.com/priyankamandikal/vedantany-10m / https://sites.google.com/view/vedantany-10m.
+VedantaNY-10M: a 10M-token dataset of transcribed public discourses on Advaita Vedanta philosophy (>750 hours from Vedanta Society of New York YouTube), curated for RAG and long-form QA evaluation.
+
 
 ## Notes
 

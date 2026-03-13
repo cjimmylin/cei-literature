@@ -29,6 +29,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +51,7 @@ local_pdf: "[[PDFs/2022/2022-Unknown-HOTTEST Hate and Offensive Content Identifi
 publication: "WebSearch: Tamil AI safety hate speech"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Tamil"
 religious_values: "N/A"
@@ -57,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Hate and offensive content identification in Tamil using transformer models (BERT, XLM-RoBERTa, IndicBERT, MuRIL) with enhanced stemming for Tamil's morphologically rich nature. Uses HASOC 2021 dataset of YouTube comments in Tamil script. Tamil-specific hate speech benchmark using HASOC shared task data. Tests multiple transformer models on culturally specific offensive content."
-LLM_assessed: "BERT, XLM-RoBERTa, IndicBERT, MuRIL"
+LLM_assessed: "BERT, IndicBERT, XLM-R"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

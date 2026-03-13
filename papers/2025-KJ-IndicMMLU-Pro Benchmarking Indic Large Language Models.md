@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,7 @@ local_pdf: "[[PDFs/2025/2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language 
 publication: "WebSearch: IndicMMLU-Pro benchmark"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
 religious_values: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Known by more than 1.5 billion people in the Indian subcontinent, Indic languages present unique challenges and opportunities for natural language processing (NLP) research due to their rich cultural heritage, linguistic diversity, and complex structures. IndicMMLU-Pro is a comprehensive benchmark designed to evaluate Large Language Models (LLMs) across Indic languages, building upon the MMLU Pro (Massive Multitask Language Understanding) framework."
-LLM_assessed: "BERT, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, Llama 3.1, Llama-3.1, RoBERTa"
-DATA_URL: "https://huggingface.co/datasets/LinguaLift/IndicMMLU-"
+LLM_assessed: "BERT, GPT-4o, GPT-4o mini, Llama-3, RoBERTa"
+DATA_URL: "https://huggingface.co/datasets/LinguaLift/IndicMMLU-Pro"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -99,7 +103,8 @@ Provides MMLU-Pro in nine Indic languages including Tamil, Telugu, and Kannada. 
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, Llama 3.1, Llama-3.1, RoBERTa. Verified dataset/resource link: https://huggingface.co/datasets/LinguaLift/IndicMMLU-.
+IndicMMLU-Pro is a translated and human-verified benchmark dataset covering 9 Indic languages (Hindi, Bengali, Gujarati, Marathi, Kannada, Punjabi, Tamil, Telugu, Urdu), built from the MMLU-Pro framework for multi-task language understanding evaluation.
+
 
 ## Notes
 

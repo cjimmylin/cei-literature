@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: Indonesian
+languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BLOOMZ, GPT-4o, Gemma, Gemma-2, LLaMA-3., LLaMA-3.1, LLaMA3.1, LLaMA3.1-chat, Llama-2, Llama, BERT, llama2, llama3"
-DATA_URL: "https://github.com/meta-llama/llama3"
+LLM_assessed: "BLOOM, Gemma-2, GPT-4o, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/indolem/IndoCareer"
 tags: 
 abstract: "While knowledge evaluation in large language models has predominantly focused on academic subjects like math and physics, these assessments often fail to capture the practical demands of real-world professions. In this paper, we introduce IndoCareer, a dataset comprising 8,834 multiple-choice questions designed to evaluate performance in vocational and professional certification exams across various fields."
 CONFERENCE: "NAACL 2025"
@@ -61,9 +65,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BLOOMZ, GPT-4o, Gemma, Gemma-2, LLaMA-3., LLaMA-3.1, LLaMA3.1, LLaMA3.1-chat, Llama-2, Llama, BERT, llama2, llama3. Verified dataset/resource link: https://github.com/meta-llama/llama3.
+IndoCareer: 8,834 multiple-choice questions from Indonesian professional and vocational certification exams across 22 professions in 6 sectors, designed to evaluate LLM performance on real-world professional knowledge with Indonesian local context.
+
 
 ## Notes
 

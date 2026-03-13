@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "LLMs exhibit promising Social Intelligence (SI) in modeling human behavior, raising the need to evaluate LLMs’ SI and their discrepancy with humans. SI equips humans with interpersonal abilities to behave wisely in navigating social interactions to achieve social goals. This presents an operational evaluation paradigm: outcome-oriented goal achievement evaluation and process-oriented interpersonal ability evaluation, which existing work fails to address."
-LLM_assessed: "GPT-4, o1, Claude, Llama-3, Qwen, Mistral, Mixtral, DeepSeek"
+LLM_assessed: "ChatGLM, Claude-3, DeepSeek, GPT-4, GPT-4o, Llama-3, Mistral, Mixtral, Qwen-2, o1"
 DATA_URL: "https://github.com/thu-coai/SocialEval"
 CONFERENCE: "ACL 2025"
 ethics_overall: "No"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Script-based bilingual benchmark; narrative scripts structured as world trees wi
 
 ## Data Description
 
-SOCIALEVAL is a script-based bilingual social intelligence benchmark consisting of 153 manually crafted world trees that produce 2,493 test samples covering 5 interpersonal ability aspects and 32 specific abilities. The benchmark integrates outcome-oriented goal achievement evaluation and process-oriented interpersonal ability evaluation through narrative scripts structured as world trees with interconnected episode sequences. It spans 7 social world orientations (cooperation, negotiation, assistance, altruism, competition, induction, conflict) across prosocial, proself, and antisocial categories.
+SOCIALEVAL is a script-based bilingual (Chinese/English) social intelligence benchmark comprising 153 manually crafted world trees producing 2,493 test samples, evaluating outcome-oriented goal achievement and process-oriented interpersonal ability across 7 social world orientations and 32 interpersonal abilities.
+
 
 ## Notes
 

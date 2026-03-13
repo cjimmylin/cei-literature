@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_KYRIACOU2024
@@ -34,11 +38,11 @@ doi: 10.1007/s43681-024-00543-1
 url: "https://link.springer.com/article/10.1007/s43681-024-00543-1"
 pdf_extract: "PDF Extracts/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.md"
 local_pdf: "[[PDFs/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.pdf]]"
-national_ethnic_cultural: N/A
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, Aristotelian Ethics, Computability, Moral Intelligence"
 key_contribution: "Argues human rational intelligence is not mechanically computable for four reasons: categorical normativity, autonomous reasons-responsiveness, affective experience, practical wisdom"
@@ -47,7 +51,7 @@ external_pdf: N/A
 abstract: "The paper argues that AI systems solve problems based on mechanically computational, means-end reasoning (called 'mechanical instrumental rationality'), while human intelligence, to the extent that it is rational, is not mechanically computable - not reducible to mechanical computations for at least four basic reasons. These include that human intelligence is categorically normative, AI lacks autonomous reasons-responsiveness, rational human intelligence necessarily involves indispensable affective experience, and practical wisdom (phronesis) requires genuine understanding."
 CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260208
-LLM_assessed: "Bloom, ChatGPT, GPT-4"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

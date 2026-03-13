@@ -1,0 +1,309 @@
+{
+  "audit_tier": "tier2",
+  "audit_date": "2026-03-12",
+  "decisions": [
+    {
+      "filename": "2018-Awad-The Moral Machine experiment.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: medium (3): well-being"
+    },
+    {
+      "filename": "2020-Gabriel-Artificial Intelligence Values and Alignment.md",
+      "changes": {
+        "deontological_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "D: medium (2): moral principles, universal law; U: strong: greatest happiness, utilitarian"
+    },
+    {
+      "filename": "2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.md",
+      "changes": {
+        "virtue_ethics": "Yes",
+        "deontological_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "V: strong: virtue ethics; D: strong: deontology; U: strong: utilitarianism"
+    },
+    {
+      "filename": "2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md",
+      "changes": {
+        "deontological_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "D: strong: deontological; U: strong: consequentialist, utilitarian"
+    },
+    {
+      "filename": "2023-Duan-Denevil.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2023-Hou-Foundational Moral Values for AI Alignment.md",
+      "changes": {
+        "virtue_ethics": "Yes"
+      },
+      "note": "V: medium (2): flourishing"
+    },
+    {
+      "filename": "2023-Roger-Towards ethical multimodal systems.md",
+      "changes": {
+        "deontological_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "D: strong: deontology; U: strong: utilitarianism"
+    },
+    {
+      "filename": "2023-Vida-Values, Ethics, Morals.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: consequentialism"
+    },
+    {
+      "filename": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2024-Hancox-Li-Is ETHICS about ethics.md",
+      "changes": {
+        "virtue_ethics": "Yes",
+        "deontological_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "V: strong: virtue ethicists, virtue ethics; D: strong: deontologists, deontology; U: strong: utilitarianism, consequentialists"
+    },
+    {
+      "filename": "2024-Hooker-Global MMLU Understanding and Addressing Cultural.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2024-Khandelwal-Multilingual Defining Issues Test.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2024-Ober-Lyceum Project AI Ethics Aristotle.md",
+      "changes": {
+        "virtue_ethics": "Yes"
+      },
+      "note": "V: strong: aristotelian ethics"
+    },
+    {
+      "filename": "2024-Ohashi-Extended Japanese Commonsense Morality Dataset.md",
+      "changes": {
+        "deontological_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "D: strong: deontology; U: strong: utilitarian"
+    },
+    {
+      "filename": "2024-So-AI Trained on Confucian Analects.md",
+      "changes": {
+        "virtue_ethics": "Yes",
+        "deontological_ethics": "Yes"
+      },
+      "note": "V: strong: moral character, virtue ethics; D: strong: deontology"
+    },
+    {
+      "filename": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md",
+      "changes": {
+        "virtue_ethics": "Yes"
+      },
+      "note": "V: strong: virtue ethics"
+    },
+    {
+      "filename": "2024-Stenseke-Computational Complexity of Ethics.md",
+      "changes": {
+        "virtue_ethics": "Yes",
+        "deontological_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "V: strong: virtue ethics; D: strong: deontological, deontology; U: strong: consequentialism, consequentialist"
+    },
+    {
+      "filename": "2024-Takemoto-The moral machine experiment on large language.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+      "changes": {
+        "deontological_ethics": "Yes"
+      },
+      "note": "D: strong: deontological"
+    },
+    {
+      "filename": "2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md",
+      "changes": {
+        "deontological_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "D: strong: deontology; U: strong: utilitarianism"
+    },
+    {
+      "filename": "2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md",
+      "changes": {
+        "virtue_ethics": "Yes"
+      },
+      "note": "V: strong: virtue ethics"
+    },
+    {
+      "filename": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2025-Borenstein-Investigating Human Values in Online Communities.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: medium (4): welfare, hedonism"
+    },
+    {
+      "filename": "2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md",
+      "changes": {
+        "deontological_ethics": "Yes"
+      },
+      "note": "D: strong: deontology"
+    },
+    {
+      "filename": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+      "changes": {
+        "virtue_ethics": "Yes"
+      },
+      "note": "V: strong: virtue ethics"
+    },
+    {
+      "filename": "2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md",
+      "changes": {
+        "virtue_ethics": "Yes"
+      },
+      "note": "V: strong: virtue ethics"
+    },
+    {
+      "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+      "changes": {
+        "deontological_ethics": "Yes"
+      },
+      "note": "D: strong: categorical imperative"
+    },
+    {
+      "filename": "2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.md",
+      "changes": {
+        "deontological_ethics": "Yes"
+      },
+      "note": "D: strong: deontological"
+    },
+    {
+      "filename": "2025-Oh-Robustness of Large Language Models in Moral Judgements.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2025-Priya-Deontic Temporal Logic for AI Ethics.md",
+      "changes": {
+        "deontological_ethics": "Yes"
+      },
+      "note": "D: strong: kantian ethics"
+    },
+    {
+      "filename": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+      "changes": {
+        "deontological_ethics": "Yes"
+      },
+      "note": "D: medium (2): moral principles"
+    },
+    {
+      "filename": "2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2025-Takeshita-JETHICS.md",
+      "changes": {
+        "virtue_ethics": "Yes",
+        "deontological_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "V: strong: virtue ethics; D: strong: deontology; U: strong: utilitarianism, utilitarian"
+    },
+    {
+      "filename": "2025-Waldner-AI Safety Alignment Ethics.md",
+      "changes": {
+        "virtue_ethics": "Yes"
+      },
+      "note": "V: strong: virtue ethics"
+    },
+    {
+      "filename": "2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md",
+      "changes": {
+        "deontological_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "D: strong: deontology; U: strong: utilitarianism"
+    },
+    {
+      "filename": "2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: greatest good, utilitarian"
+    },
+    {
+      "filename": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+      "changes": {
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "U: strong: utilitarian"
+    },
+    {
+      "filename": "2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+      "changes": {
+        "deontological_ethics": "Yes"
+      },
+      "note": "D: medium (2): moral principles, duty"
+    },
+    {
+      "filename": "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md",
+      "changes": {
+        "virtue_ethics": "Yes",
+        "utilitarian_ethics": "Yes"
+      },
+      "note": "V: medium (3): virtue; U: strong: utilitarian"
+    }
+  ]
+}

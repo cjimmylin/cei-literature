@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +42,7 @@ last_author: "[[Oliver Evans]]"
 authors: "Mike Laszkiewicz; Oliver Evans"
 url: "https://facctconference.org/static/papers24/facct24-36.pdf"
 external_pdf: "https://facctconference.org/static/papers24/facct24-36.pdf"
-national_ethnic_cultural: "Brazilian"
+national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
@@ -65,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"

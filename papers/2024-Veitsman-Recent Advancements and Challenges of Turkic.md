@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +50,7 @@ publication: "arxiv.org / ACL 2025 LoResLM Workshop"
 CONF-CC: "ACL 2025 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kazakh, Uzbek, Kyrgyz, Turkmen"
+cultures_nationalities_list: "N/A"
 languages_list: "Kazakh, Kyrgyz, Turkmen, Uzbek"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Research in NLP for Central Asian Turkic languages - Kazakh, Uzbek, Kyrgyz, and Turkmen - faces typical low-resource language challenges like data scarcity, limited linguistic resources and technology development. However, recent advancements have included the collection of language-specific datasets and the development of models for downstream tasks. Thus, this paper aims to summarize recent progress and identify future research directions."
-LLM_assessed: "BERT, GPT-4, Llama-2, RoBERTa"
+LLM_assessed: NA
 DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2025"
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

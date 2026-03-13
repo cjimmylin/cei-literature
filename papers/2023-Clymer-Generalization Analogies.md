@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ abstract: "As AI systems become more intelligent and their behavior becomes more
 paper_summary: "Abstract: As AI systems become more intelligent and their behavior becomes more challenging to assess, they may learn to game the flaws of human feed- back instead of genuinely striving to follow in- structions | Overview: Generalization Analogies (GENIES): A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains Joshua Clymer 1 Garrett Baker 2 Rohan Subramani 1 Sam Wang 1 Abstract As AI systems become more in"
 local_pdf: "[[PDFs/2023/2023-Clymer-Generalization Analogies.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: Llama
+LLM_assessed: "LLaMA, ChatGPT, GPT-4"
 DATA_URL: "https://github.com/Joshuaclymer/GENIES"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "8 categories"
 ---
@@ -100,7 +104,7 @@ As AI systems become more intelligent and their behavior becomes more challengin
 
 ## Data Description
 
-GENIES (GENeralization analogIES) is a benchmark consisting of 69 distribution shifts spanning 8 categories, consolidated into 15 curated challenging distribution shifts for evaluating reward model generalization. The datasets include a mix of fully generated data (24 using ChatGPT, filtered with GPT-4), repurposed existing datasets (11), and hybrid datasets (33). LLaMA-30B reward models are the primary models evaluated for instruction-following generalization.
+GENIES benchmark with 69 distribution shifts (15 curated) for testing reward model generalization, including datasets partly or fully generated with ChatGPT and filtered with GPT-4.
 
 
 ## Notes

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,14 +50,14 @@ pdf_extract: "PDF Extracts/2025/2025-Kravchenko-UAlign LLM Alignment Benchmark f
 local_pdf: "[[PDFs/2025/2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Ukrainian"
+cultures_nationalities_list: "N/A"
 languages_list: "English, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude 3.7, GPT-4, GPT-4o, Gemma 2, Llama, Llama 3.2, Llama-3.2, Qwen 2.5, Qwen2.5, dolly"
-DATA_URL: "https://github.com/andrian-kr/alignment"
+LLM_assessed: "Aya, GPT-4o, Gemma-2, Llama-3, Qwen-2"
+DATA_URL: "https://huggingface.co/datasets/Stereotypes-in-LLMs/UAlign"
 tags: 
 abstract: "This paper introduces UAlign, the comprehensive benchmark for evaluating the alignment of Large Language Models (LLMs) in the Ukrainian language. The benchmark consists of two complementary components: a moral judgment dataset with 3,682 scenarios of varying ethical complexities and a dataset with 1,700 ethical situations presenting clear normative distinctions. Each element provides parallel English-Ukrainian text pairs, enabling crosslingual comparison."
 CONFERENCE: "ACL 2025"
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ LLM alignment benchmark for Ukrainian with 3,682 moral judgment scenarios and 1,
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 3.7, GPT-4, GPT-4o, Gemma 2, Llama, Llama 3.2, Llama-3.2, Qwen 2.5, Qwen2.5, dolly. Verified dataset/resource link: https://github.com/andrian-kr/alignment.
+UAlign is a Ukrainian alignment benchmark comprising 3,682 moral judgment scenarios (adapted from Social Chemistry 101) and 1,700 ethical situations (adapted from ETHICS), each with parallel English-Ukrainian text pairs for cross-lingual evaluation. Released under MIT license on HuggingFace.
+
 
 ## Notes
 

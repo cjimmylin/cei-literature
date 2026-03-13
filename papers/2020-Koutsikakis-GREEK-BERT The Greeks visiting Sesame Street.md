@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +48,8 @@ pdf_extract: "PDF Extracts/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting 
 local_pdf: "[[PDFs/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Greek"
-languages_list: Greek
+cultures_nationalities_list: "N/A"
+languages_list: "Greek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -103,7 +107,7 @@ This paper introduces GREEK-BERT, a monolingual BERT-based language model for mo
 
 ## Data Description
 
-GREEK-BERT, a monolingual BERT model for modern Greek trained on 29GB of Greek text from various sources including Wikipedia, news, and legal documents. Evaluated on NER, POS tagging, and UD parsing tasks for Greek NLP.
+GREEK-BERT: monolingual BERT-based pre-trained language model for modern Greek, evaluated on POS tagging, NER, and NLI against M-BERT and XLM-R.
 
 
 ## Detailed Summary

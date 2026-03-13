@@ -29,6 +29,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +51,8 @@ local_pdf: N/A
 publication: "Presented at Vatican City; multi-institutional initiative"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -66,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Hallucination & Truthfulness"
 is_benchmark: "Yes"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"

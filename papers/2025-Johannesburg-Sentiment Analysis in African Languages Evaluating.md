@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +48,8 @@ local_pdf: "[[PDFs/2025/2025-Johannesburg-Sentiment Analysis in African Language
 publication: "SAICSIT 2025, Springer (LNCS, vol. 978-3-031-96262-2)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic, African/Ubuntu, Spanish"
-cultures_nationalities_list: "African, Arabic, Spanish"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"

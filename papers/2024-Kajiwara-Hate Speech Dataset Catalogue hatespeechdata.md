@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +47,15 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md"
 local_pdf: "[[PDFs/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Japanese"
-cultures_nationalities_list: "Japanese"
-languages_list: "English, Japanese, Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: "http://hatespeechdata.com"
 tags: 
 abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"Validating Pseudo-label Dataset for Japanese Hate Speech Detection\" was published in 2024."
 CONFERENCE: "Other Conference"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -95,7 +98,8 @@ I found search results related to Japanese hate speech detection and NLP evaluat
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+AbuseEval v1.0 dataset built on OLID/OffensEval with annotation guidelines distinguishing explicit and implicit abuse in English social media text.
+
 
 ## Notes
 

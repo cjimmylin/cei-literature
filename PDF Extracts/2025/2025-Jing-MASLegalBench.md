@@ -1,23 +1,4 @@
----
-title: "2025-Jing-MASLegalBench - PDF Extract"
-source_pdf: "2025-Jing-MASLegalBench.pdf"
-pages: 20
-extracted_at: "2026-02-07T17:00:45.556427"
----
-
-# PDF Extract: 2025-Jing-MASLegalBench
-
-**Source PDF:** 2025-Jing-MASLegalBench.pdf
-**Total Pages:** 20
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-MASLEGALBENCH: BENCHMARKING MULTI-AGENT
+---\ntitle: "2025-Jing-MASLegalBench - PDF Extract"\nsource_pdf: "2025-Jing-MASLegalBench.pdf"\npages: 20\nextracted_at: "2026-02-14T02:17:34.662070"\n---\n\n# PDF Extract: 2025-Jing-MASLegalBench\n\n**Source PDF:** 2025-Jing-MASLegalBench.pdf\n**Total Pages:** 20\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nMASLEGALBENCH: BENCHMARKING MULTI-AGENT
 SYSTEMS IN DEDUCTIVE LEGAL REASONING
 Huihao Jing ∗, Wenbin Hu ∗, Hongyu Luo , Jianhui Yang
 Wei Fan , Haoran Li †, Yangqiu Song
@@ -67,9 +48,7 @@ ties to the legal domain.
 1
 arXiv:2509.24922v2  [cs.AI]  30 Sep 2025
 
---- Page 2 ---
-
-To bridge this gap, we aim to develop a MAS-adapted legal benchmark that leverages the key
+--- Page 2 ---\n\nTo bridge this gap, we aim to develop a MAS-adapted legal benchmark that leverages the key
 strengths of MAS. Our benchmark reflects deductive logic and the legal intuition involved in ap-
 plying statutory provisions to specific factual scenarios. Our benchmark collects real court cases
 and proceduralizes their legal questions. Following a deductive reasoning paradigm with human
@@ -124,9 +103,7 @@ general-domain benchmarks fail to capture the full complexity and subtle nuances
 dicial cognition and decision-making. To address that, LawBench conducts evaluations from three
 2
 
---- Page 3 ---
-
-perspectives: how LLMs memorize, understand, and apply legal knowledge (Fei et al., 2023). Legal-
+--- Page 3 ---\n\nperspectives: how LLMs memorize, understand, and apply legal knowledge (Fei et al., 2023). Legal-
 Bench is a collaboratively built benchmark that encompasses a wider variety of tasks and legal do-
 mains. What’s more, the emergence of LLM agents has broadened the influence of LLMs within
 the law of agency. For example, Riedl & Desai (2025) discusses several under-theorized key issues,
@@ -178,9 +155,7 @@ of common-sense reasoning highlighted in Section 2.3, we extend IRAC by introduc
 Aspen Publishers, 2021) https://books.google.com.sg/books?id=4mVIzwEACAAJ.
 3
 
---- Page 4 ---
-
-Sense as a fifth component. Using this extended IRAC framework, any legal scenario can be system-
+--- Page 4 ---\n\nSense as a fifth component. Using this extended IRAC framework, any legal scenario can be system-
 atically decomposed into these five components. With facts mentioned in Section 2.4, our task can
 be described as a deductive reasoning process revolving around six elements: to resolve an Issue,
 the MAS leverages Facts and relevant Rules, applies them through Application, and incorporates
@@ -244,9 +219,7 @@ types of knowledge from these reports to generate our benchmark.
 3https://gdpr-info.eu/
 4
 
---- Page 5 ---
-
-Extended IRAC Reasoning
+--- Page 5 ---\n\nExtended IRAC Reasoning
 Facts
 Background of Birthlink 
 l Birthlink is a charity registered with…
@@ -328,9 +301,7 @@ the issues and the corresponding legal conclusion. From the collected reports, w
 4https://www.enforcementtracker.com/
 5
 
---- Page 6 ---
-
-Document Section
+--- Page 6 ---\n\nDocument Section
 Mapping Type
 Related legal framework
 Legal rules
@@ -410,9 +381,7 @@ produce a refusal response when the available context is insufficient. All promp
 the agents and the Meta-LLM are provided in Appendix C.
 6
 
---- Page 7 ---
-
-We examine the performance of activating different sub-agents. In the following results, we use the
+--- Page 7 ---\n\nWe examine the performance of activating different sub-agents. In the following results, we use the
 abbreviations LR, F, AR, and CS to denote the activation of agents managing Legal Rules, Facts,
 Alignment Relations (Application), and Common Sense, respectively. The “+” symbol indicates
 the simultaneous activation of multiple agents. For example, LR+F+AR+CS represents the full
@@ -468,9 +437,7 @@ and legal knowledge, highlighting the importance of carefully integrating MAS in
 tasks.
 7
 
---- Page 8 ---
-
-Meta-LLM
+--- Page 8 ---\n\nMeta-LLM
 Activated
 Acc. (%)
 Agents
@@ -831,9 +798,7 @@ rates, while F+LR+AR shows a lower refusal rate
 compared to F+LR. This indicates that activating AR
 8
 
---- Page 9 ---
-
-F
+--- Page 9 ---\n\nF
 LR
 AR
 RI+LR
@@ -998,9 +963,7 @@ Court Cases
 Table 5: Comparisons among existing benchmark on LLMs.
 9
 
---- Page 10 ---
-
-8
+--- Page 10 ---\n\n8
 CONCLUSION
 In this study, to better leverage MAS for legal applications, we constructed the first benchmark
 tailored to the unique strengths of MAS, grounded in the deductive reasoning commonly used in
@@ -1056,9 +1019,7 @@ https://arxiv.org/abs/2503.05397.
 5https://www.enforcementtracker.com/
 10
 
---- Page 11 ---
-
-Jie Huang and Kevin Chen-Chuan Chang. Towards reasoning in large language models: A survey.
+--- Page 11 ---\n\nJie Huang and Kevin Chen-Chuan Chang. Towards reasoning in large language models: A survey.
 arXiv preprint arXiv:2212.10403, 2022.
 Wanhong Huang, Yi Feng, Chuanyi Li, Honghan Wu, Jidong Ge, and Vincent Ng. Cmdl: A large-
 scale chinese multi-defendant legal judgment prediction dataset. In Findings of the Association
@@ -1106,9 +1067,7 @@ Language agents with verbal reinforcement learning. Advances in Neural Informati
 Systems, 36:8634–8652, 2023.
 11
 
---- Page 12 ---
-
-Francesco Sovrano, Monica Palmirani, Fabio Vitali, et al. Legal knowledge extraction for knowledge
+--- Page 12 ---\n\nFrancesco Sovrano, Monica Palmirani, Fabio Vitali, et al. Legal knowledge extraction for knowledge
 graph based question-answering. Frontiers in Artificial Intelligence and Applications, 334:143–
 153, 2020.
 Steven H. Wang, Maksim Zubkov, Kexin Fan, Sarah Harrell, Yuyang Sun, Wei Chen, Andreas
@@ -1138,9 +1097,7 @@ Yang Zhong and Diane Litman. Computing and exploiting document structure to impr
 vised extractive summarization of legal case decisions. arXiv preprint arXiv:2211.03229, 2022.
 12
 
---- Page 13 ---
-
-A
+--- Page 13 ---\n\nA
 SOURCE DATA DESCRIPTIONS
 A.1
 SOURCE DATA STATISTICS
@@ -1257,9 +1214,7 @@ C. Step 3 — Calculation of the starting point
 6The source link for Birthlink reports: https://ico.org.uk/media2/bvljtpy2/birthlink-mpn.pdf
 13
 
---- Page 14 ---
-
-–
+--- Page 14 ---\n\n–
 D. Step 4 — Adjustment to take into account any aggravating or mitigating factors
 193
 –
@@ -1397,9 +1352,7 @@ Here, we provide additional benchmark data in Figure 5 and Figure 6, distinguish
 two dimensions: (i) whether they are answered in a binary form (yes/no) or multiple choice (a–d),
 14
 
---- Page 15 ---
-
-and (ii) whether they involve a legal decision (as opposed to a legal opinion). Whether a question
+--- Page 15 ---\n\nand (ii) whether they involve a legal decision (as opposed to a legal opinion). Whether a question
 involves a legal decision was determined during the benchmark construction process. We consider
 that questions containing a legal decision tend to have more definitive answers, whereas questions
 without a decision typically reflect legal opinions, which may introduce some ambiguity.
@@ -1537,9 +1490,7 @@ Options:
 Correct Answer: Yes
 15
 
---- Page 16 ---
-
-Benchmark Sample Question
+--- Page 16 ---\n\nBenchmark Sample Question
 Legal Decision: Yes
 Question: Did Birthlink violate Article 33(1) UK GDPR by failing to notify the Commis-
 sioner of a personal data breach within 72 hours of becoming aware of it and failing to
@@ -1584,9 +1535,7 @@ The corresponding prompt templates used for guiding DeepSeek-v3.1 during this ex
 are provided in Table 7.
 16
 
---- Page 17 ---
-
-C.2
+--- Page 17 ---\n\nC.2
 PROMPT FOR AGENTS
 C.2.1
 PROMPT FOR APPLICATION AGENTS
@@ -1608,9 +1557,7 @@ sizing diverse sources of information to reach a reasoned judgment. The prompt u
 Meta-LLM in this reasoning process is presented in Table 10.
 17
 
---- Page 18 ---
-
-You are an GDPR Commissioner.
+--- Page 18 ---\n\nYou are an GDPR Commissioner.
 Your task is to **rewrite the text into a MCQ question**.
 Instructions:
 1. Rewrite the text into a MCQ question, you should mainly focus on the following aspects:
@@ -1665,9 +1612,7 @@ responding conclusions from legal case texts, and to convert them into a multipl
 string variable.
 18
 
---- Page 19 ---
-
-You are an expert in GDPR.
+--- Page 19 ---\n\nYou are an expert in GDPR.
 Your task is to extract **alignment relationships** between real entities or concepts (companies, organisations,
 charities, regulators, data, records, etc.) and their legal roles or definitions under the GDPR.
 Instructions:
@@ -1723,9 +1668,7 @@ Table 9: Prompt template for extracting inferred alignments by agents. Light blu
 “{}” block denotes a replaceable string variable.
 19
 
---- Page 20 ---
-
-You are an expert in law.
+--- Page 20 ---\n\nYou are an expert in law.
 Your task is to carefully read the given **context** and **question**, then provide the answer in JSON format.
 Requirements:
 1. The JSON must contain two fields:
@@ -1745,5 +1688,4 @@ Table 10: Prompt template for the Meta-LLM to generate conclusion answers based 
 and agents-provided context. Light blue text inside each “{}” block indicates a replaceable string
 variable.
 20
-
-```
+\n```\n

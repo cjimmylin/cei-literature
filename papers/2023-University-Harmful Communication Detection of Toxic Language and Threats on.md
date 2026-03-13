@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +48,13 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Swedish"
-languages_list: Swedish
+cultures_nationalities_list: "N/A"
+languages_list: "Swedish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "CroSloEngual BERT"
+LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "Uses transfer learning and BERT to train models for toxic language (F1>0.94) and threats (F1=0.86) in Swedish. Models' performance decreases significantly on unseen social media data. Finds 20% of social media threats are not toxic."
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

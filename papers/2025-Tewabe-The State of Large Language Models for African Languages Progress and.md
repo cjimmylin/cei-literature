@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ local_pdf: "[[PDFs/2025/2025-Tewabe-The State of Large Language Models for Afric
 publication: "WebSearch: decolonial AI African languages benchmark evaluation"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic, African/Ubuntu"
-cultures_nationalities_list: "African, Arabic"
-languages_list: "Survey covering African languages broadly"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BART, BERT, BLOOM, T5"
+LLM_assessed: "GPT-4, Gemini, PaLM, LLaMA, BLOOM, BERT, RoBERTa, T5, mT5"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) are transforming Natural Language Processing (NLP), but their benefits are largely absent for Africa’s 2,000 low-resource languages. This paper comparatively analyzes African language coverage across six LLMs, eight Small Language Models (SLMs), and six Specialized SLMs (SSLMs). The evaluation covers language coverage, training sets, technical limitations, script problems, and language modelling roadmaps."
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

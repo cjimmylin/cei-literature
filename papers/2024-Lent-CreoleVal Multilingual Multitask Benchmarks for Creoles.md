@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +48,7 @@ local_pdf:
 "N/A"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Caribbean (Haitian Creole), Creole"
+cultures_nationalities_list: "N/A"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
@@ -100,7 +103,7 @@ Collection of benchmark datasets spanning 8 NLP tasks covering up to 28 Creole l
 
 ## Data Description
 
-CreoleVal is a collection of benchmark datasets spanning 8 NLP tasks (machine translation, sentiment analysis, etc.) covering up to 28 Creole languages. It includes the MIT-Haiti Corpus for Haitian Creole with English/French/Spanish translations. The paper provides baseline zero-shot transfer learning experiments but does not test specific LLMs as its primary contribution. No PDF extract was available for deeper analysis.
+Collection of benchmark datasets spanning 8 NLP tasks across up to 28 Creole languages, including the MIT-Haiti Corpus with English/French/Spanish translations. First major NLP benchmark resource for Creole languages.
 
 
 ## Notes

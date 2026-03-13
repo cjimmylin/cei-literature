@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Despite the remarkable advances of Large Language Models (LLMs) across diverse cognitive tasks, the rapid enhancement of these capabilities also introduces emergent deception behaviors that may induce severe risks in high-stakes deployments. More critically, the characterization of deception across realistic real-world scenarios remains underexplored. To bridge this gap, we establish DeceptionBench, the first benchmark that systematically evaluates how deceptive tendencies manifest across..."
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Grok, DeepSeek, Qwen"
+LLM_assessed: "Claude, DeepSeek, GPT-3.5, GPT-4o, Gemini, Grok, Qwen, Qwen-2"
 DATA_URL: "https://github.com/Aries-iai/DeceptionBench"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "1,000 samples; over 1,000 samples"
 ---
@@ -98,7 +102,8 @@ Despite the remarkable advances of Large Language Models (LLMs) across diverse c
 
 ## Data Description
 
-DeceptionBench is a comprehensive benchmark evaluating AI deception behaviors across five societal domains (Economy, Healthcare, Education, Social Interaction, Entertainment) with 150 scenarios and over 1,000 samples. Fourteen LLMs were evaluated including GPT-4o, GPT-3.5, Claude-3.5-Sonnet, Claude-3.7-Sonnet, Grok-3, Gemini-1.5-Pro, Gemini-2.0-Flash, DeepSeek-R1, Qwen2.5-7B/14B, Qwen-Max, and QWQ-32B, using deception rate metrics across three progressive intensity levels.
+DeceptionBench provides 150 deception scenarios across 5 domains (Economy, Healthcare, Education, Social Interaction, Entertainment) with 1,000+ evaluation samples including multi-turn variants. The dataset is publicly available along with code.
+
 
 ## Notes
 

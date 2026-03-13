@@ -27,6 +27,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,9 +47,9 @@ CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Multilingual/Cross-cultural"
-languages_list: "Arabic, English, Multilingual, Turkish"
+national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Arabic, Multicultural/Cross-cultural"
+languages_list: "Arabic, English, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

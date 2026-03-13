@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ local_pdf: "[[PDFs/2025/2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-We
 pdf_extract: "PDF Extracts/2025/2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Estonian, Latvian, Lithuanian"
+cultures_nationalities_list: "N/A"
 languages_list: "Estonian, Latvian, Lithuanian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Llama-3, Llama-3.1, Llama-3.2, Gemma-2, Phi-3, GPT-3.5-Turbo, GPT-4o, Lt-Llama-2"
+LLM_assessed: "Gemma-2, GPT-3.5, GPT-4o, Llama-3, Phi-3"
 DATA_URL: "NA"
 tags: 
 abstract: "Although large language models (LLMs) have transformed our expectations of modern language technologies, concerns over data privacy often restrict the use of commercially available LLMs hosted outside of EU jurisdictions. This limits their application in governmental, defence, and other data-sensitive sectors. In this work, we evaluate the extent to which locally deployable open-weight LLMs support lesser-spoken languages such as Lithuanian, Latvian, and Estonian."

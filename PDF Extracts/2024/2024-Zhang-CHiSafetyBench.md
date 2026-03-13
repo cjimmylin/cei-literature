@@ -1,23 +1,4 @@
----
-title: "CHiSafetyBench - PDF Extract"
-source_pdf: "2024-Zhang-CHiSafetyBench.pdf"
-pages: 16
-extracted_at: "2026-01-24T17:05:44.897428"
----
-
-# PDF Extract: CHiSafetyBench
-
-**Source PDF:** 2024-Zhang-CHiSafetyBench.pdf
-**Total Pages:** 16
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-CHiSafetyBench: A Chinese Hierarchical Safety Benchmark
+---\ntitle: "2024-Zhang-CHiSafetyBench - PDF Extract"\nsource_pdf: "2024-Zhang-CHiSafetyBench.pdf"\npages: 16\nextracted_at: "2026-02-14T02:17:30.700718"\n---\n\n# PDF Extract: 2024-Zhang-CHiSafetyBench\n\n**Source PDF:** 2024-Zhang-CHiSafetyBench.pdf\n**Total Pages:** 16\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nCHiSafetyBench: A Chinese Hierarchical Safety Benchmark
 for Large Language Models
 Wenjing Zhang1,2, Xuejiao Lei1,2, Zhaoxiang Liu1,2*,
 Meijuan An1,2, Bikun Yang1,2, Kaikai Zhao1,2, Kai Wang1,2, Shiguo Lian1,2*
@@ -94,9 +75,7 @@ vice” standard issued by the Chinese government, we de-
 sign a Chinese hierarchical safety dataset that encompasses
 arXiv:2406.10311v2  [cs.CL]  2 Sep 2024
 
---- Page 2 ---
-
-a comprehensive range of unsafe types that need to be de-
+--- Page 2 ---\n\na comprehensive range of unsafe types that need to be de-
 tected within Chinese context. Furthermore, we propose an
 automatic evaluation method for assessing LLMs’ safety ca-
 pabilities. Utilizing this evaluation approach, we assess 10
@@ -211,9 +190,7 @@ Safety Evaluation of LLMs
 The evaluation method for multiple-choice questions task is
 straightforward, relying directly on the correctness of selec-
 
---- Page 3 ---
-
-Risk Areas
+--- Page 3 ---\n\nRisk Areas
 Categories
 MCQ
 Q
@@ -362,9 +339,7 @@ Violation of Values
 It can lead to moral decay, intensifi-
 cation of social conflicts, severely affecting the harmony and
 
---- Page 4 ---
-
-Figure 2: Examples of multiple choice questions and question-answering subset. Please note that the English translations are
+--- Page 4 ---\n\nFigure 2: Examples of multiple choice questions and question-answering subset. Please note that the English translations are
 only for illustrative purposes, while the original data only contains Chinese.
 development of individuals and society. The violation of val-
 ues is primarily categorized into 8 types: inciting subversion
@@ -436,9 +411,7 @@ low-quality data. As for questions with multi-turn dialogue
 history, we take harmfulQA (Bhardwaj and Poria 2023) as
 the baseline, translating and meticulously aligning it within
 
---- Page 5 ---
-
-Figure 3: The key components and processes of the ChiSafetyBench evaluation benchmark. The bold border boxes are the
+--- Page 5 ---\n\nFigure 3: The key components and processes of the ChiSafetyBench evaluation benchmark. The bold border boxes are the
 evaluation metrics. The evaluator’s prompt template and mapping table include both Chinese and English versions.
 our safety taxonomy. For categories with uneven data distri-
 bution, we also adopt a manual writing strategy to provide
@@ -516,9 +489,7 @@ of responsible refusals (degree 3) to the total data and the
 harmfulness rate(HR) by considering the proportion of non-
 refusal yet harmful responses (degree 0) to the total data.
 
---- Page 6 ---
-
-Figure 4: The overall accuracy(ACC −O) and accuracy in the i-th areas(ACCi) for MCQ to evaluate risk content identification
+--- Page 6 ---\n\nFigure 4: The overall accuracy(ACC −O) and accuracy in the i-th areas(ACCi) for MCQ to evaluate risk content identification
 capabilities.
 With regard to the QA subset, N d0, N d1, N d2, N d3 rep-
 resent the number of questions where the evaluated model
@@ -631,9 +602,7 @@ stronger abilities to refuse risky questions compared to other
 series, whereas the Yi series demonstrates notable deficien-
 cies in managing refusal risks.
 
---- Page 7 ---
-
-Overall
+--- Page 7 ---\n\nOverall
 Discrimination
 Violation of Values
 RR-1 ↑
@@ -859,9 +828,7 @@ automated assessment of 10 Chinese LLMs from four dis-
 tinct series, the results from CHiSafetyBench reveal vary-
 ing performances across different models, aiming to provide
 
---- Page 8 ---
-
-LLM developers with a safety reference for model usage and
+--- Page 8 ---\n\nLLM developers with a safety reference for model usage and
 advancing research on the safety and reliability of Chinese
 LLMs.
 References
@@ -987,49 +954,33 @@ models with multiple choice questions.
 arXiv preprint
 arXiv:2309.07045.
 
---- Page 9 ---
-
-Zou, A.; Wang, Z.; Kolter, J. Z.; and Fredrikson, M. 2023.
+--- Page 9 ---\n\nZou, A.; Wang, Z.; Kolter, J. Z.; and Fredrikson, M. 2023.
 Universal and Transferable Adversarial Attacks on Aligned
 Language Models. ArXiv, abs/2307.15043.
 
---- Page 10 ---
-
-A
+--- Page 10 ---\n\nA
 Appendix A. Search Keywords for Multiple Choice Questions
 Figure 5: Keyword examples for 31 category, with ’-’ indicating that the MCQ data for this category is sourced from Safety-
 Bench and does not require keywords to search engines. English version of these keywords are also provided.
 
---- Page 11 ---
-
-B
+--- Page 11 ---\n\nB
 Appendix B. Examples
 Figure 6: Entire examples of multiple choice questions and question-answering subset. Please note that the English translations
 are only for illustrative purposes, while the original data only contains Chinese.
 
---- Page 12 ---
-
-C
+--- Page 12 ---\n\nC
 Appendix C. Experiments Details
 C.1 ACC for MCQ across 31 Risk Categories
 Figure 7: ACC for 10 models across 31 risk categories on the MCQ subset.
 
---- Page 13 ---
-
-C.2 Detail Performance on Refusal of Answer Subset
+--- Page 13 ---\n\nC.2 Detail Performance on Refusal of Answer Subset
 Figure 8: RR-1 for 10 models across 17 risk categories on the refusal to answer subset.
 
---- Page 14 ---
+--- Page 14 ---\n\nFigure 9: RR-2 for 10 models across 17 risk categories on the refusal to answer subset.
 
-Figure 9: RR-2 for 10 models across 17 risk categories on the refusal to answer subset.
+--- Page 15 ---\n\nFigure 10: HR for 10 models across 17 risk categories on the refusal to answer subset.
 
---- Page 15 ---
-
-Figure 10: HR for 10 models across 17 risk categories on the refusal to answer subset.
-
---- Page 16 ---
-
-C.3 Evaluation Metrics of Risky Questions without and with Conversational History
+--- Page 16 ---\n\nC.3 Evaluation Metrics of Risky Questions without and with Conversational History
 Overall
 Discrimination
 Violation of Values
@@ -1256,5 +1207,4 @@ Yi-34B-Chat
 25.00%
 25.00%
 Table 5: RR-1, RR-2 and HR results of risky questions with conversational history on the refusal to answer subset.
-
-```
+\n```\n

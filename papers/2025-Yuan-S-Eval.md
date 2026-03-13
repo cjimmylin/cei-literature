@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +39,7 @@ authors: "Yuan, Xiaohan; Li, Jinfeng; Wang, Dongxia; Chen, Yuefeng; Mao, Xiaofen
 authors_incomplete: false
 url: "https://arxiv.org/abs/2405.14191"
 external_pdf: "https://arxiv.org/pdf/2405.14191.pdf"
-pdf_extract: "PDF Extracts/0000/2025-Yuan-S-Eval.md"
+pdf_extract: "PDF Extracts/2025/2025-Yuan-S-Eval.md"
 local_pdf: "[[PDFs/2025/2025-Yuan-S-Eval.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
@@ -49,7 +53,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Generative large language models (LLMs) have revolutionized natural language processing with their transformative and emergent capabilities. However, recent evidence indicates that LLMs can produce harmful content that violates social norms, raising significant concerns regarding the safety and ethical ramifications of deploying these advanced models. Thus, it is both critical and imperative to perform a rigorous and comprehensive safety evaluation of LLMs before deployment."
-LLM_assessed: "GPT-4, Qwen, Llama, Gemini, Gemma, Mistral, Vicuna"
+LLM_assessed: "GPT-4, Gemini, Gemma, LLaMA, Mistral, Qwen, Vicuna, ERNIE, ChatGLM, Baichuan, Yi"
 DATA_URL: "https://github.com/IS2Lab/S-Eval"
 research_topic: "Other"
 CONFERENCE: "Preprint"
@@ -59,7 +63,7 @@ deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "220,000 test cases"
 ---
@@ -94,7 +98,8 @@ Generative large language models (LLMs) have revolutionized natural language pro
 
 ## Data Description
 
-S-Eval is a comprehensive LLM safety evaluation benchmark consisting of 220,000 test cases across 102 subdivided risks organized into 8 risk dimensions with a four-level hierarchy. The benchmark includes 20,000 base risk prompts (10,000 Chinese, 10,000 English) and 200,000 corresponding attack prompts covering 10 jailbreak attacks. Safety evaluation was conducted on 21 representative LLMs with over 500,000 queries.
+S-Eval releases a comprehensive safety evaluation benchmark of 220,000 test cases (20,000 base risk prompts and 200,000 attack prompts) spanning 102 risk subcategories across 8 dimensions, in both Chinese and English. The benchmark is publicly available and designed for adaptive extension.
+
 
 ## Notes
 

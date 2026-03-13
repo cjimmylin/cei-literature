@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +56,7 @@ tags:
 abstract: "The AI Safety Index provides an independent assessment of leading AI companies' efforts to manage both immediate harms and catastrophic risks from advanced AI systems. Conducted with an expert review panel of distinguished AI researchers and governance specialists, this evaluation reveals an industry struggling to keep pace with its own rapid capability advances with critical gaps in risk management and safety planning. The index evaluates companies on indicators of responsible AI development and deployment practices spanning six critical domains."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "DeepSeek"
+LLM_assessed: NA
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Institute-2025 AI Safety Index.md"
 local_pdf: "[[PDFs/2025/2025-Institute-2025 AI Safety Index.pdf]]"
@@ -64,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

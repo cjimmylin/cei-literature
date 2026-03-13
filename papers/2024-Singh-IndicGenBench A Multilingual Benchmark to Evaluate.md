@@ -27,6 +27,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) see increasing adoption across the globe, it is imperative for LLMs to be representative of the linguistic diversity of the world. India is a linguistically diverse country of 1.4 Billion people. To facilitate research on multilingual LLM evaluation, we release INDICGENBENCH — the largest benchmark for evaluating LLMs on user-facing generation tasks across a diverse set 29 of Indic languages covering 13 scripts and 4 language families."
-LLM_assessed: "BLOOM, BLOOMZ, GPT-3, GPT-3.5, GPT-4, Gemma, Llama, PaLM, PaLM-2, llama 2, llama 2."
+LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Gemma, LLaMA, PaLM-2"
 DATA_URL: "https://github.com/google-research-datasets/indic-gen-bench"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -65,7 +70,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "4 language"
 ---
@@ -100,7 +105,8 @@ Largest benchmark for evaluating LLMs on generation tasks across 29 Indic langua
 
 ## Data Description
 
-Backfill summary: Models assessed include BLOOM, BLOOMZ, GPT-3, GPT-3.5, GPT-4, Gemma, Llama, PaLM, PaLM-2, llama 2, llama 2.. Verified dataset/resource link: https://github.com/google-research-datasets/indic-gen-bench.
+INDICGENBENCH: the largest generation benchmark for 29 Indic languages across 13 scripts and 4 language families, covering cross-lingual summarization, machine translation, and question answering tasks with human-curated multi-way parallel evaluation data.
+
 
 ## Notes
 

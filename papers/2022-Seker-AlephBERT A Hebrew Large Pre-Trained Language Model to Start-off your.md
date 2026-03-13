@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +47,8 @@ publication: "arXiv / ACL 2022"
 CONF-CC: "ACL 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew"
-languages_list: Hebrew
+cultures_nationalities_list: "Hebrew/Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -96,7 +99,8 @@ Hebrew pre-trained language model with evaluation suite covering Segmentation, P
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/OnlpLab/AlephBERT.
+AlephBERT: Hebrew pre-trained language model with evaluation suite covering segmentation, POS tagging, morphological tagging, NER, and sentiment analysis.
+
 
 ## Notes
 

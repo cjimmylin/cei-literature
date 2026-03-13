@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +49,13 @@ pdf_extract: "PDF Extracts/2024/2024-Etxaniz-Latxa An Open Language Model and Ev
 local_pdf: "[[PDFs/2024/2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Basque"
-languages_list: Basque
+cultures_nationalities_list: "N/A"
+languages_list: "Basque"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Latxa (LLaMa-based), Irati, Llama-2, Mistral"
+LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Llama-2, Mistral, Mixtral, Yi"
 DATA_URL: "https://github.com/hitz-zentroa/latxa"
 tags: 
 abstract: "We introduce Latxa, a family of large language models for Basque ranging from 7 to 70 billion parameters. Latxa is based on Llama 2, which we continue pretraining on a new Basque corpus comprising 4.3M documents and 4.2B tokens. Addressing the scarcity of high-quality benchmarks for Basque, we further introduce 4 multiple choice evaluation datasets: EusProficiency, comprising 5,169 questions from official language proficiency exams; EusReading, comprising 352 reading comprehension questions;..."
@@ -100,7 +105,7 @@ This paper introduces Latxa, a family of open large language models for Basque r
 
 ## Data Description
 
-Latxa language model family and evaluation suite for Basque, based on LLaMa-2 architecture with continued pre-training and instruction tuning on Basque text. Includes EusKaliBench evaluation benchmark testing question answering, sentiment analysis, named entity recognition, and linguistic tasks.
+Family of Basque LLMs (7B-70B) with 4 evaluation datasets: EusProficiency (5,169 questions), EusReading (352), EusTrivia (1,715), and EusExams (16,774) covering language proficiency, reading comprehension, trivia, and public exams.
 
 
 ## Detailed Summary

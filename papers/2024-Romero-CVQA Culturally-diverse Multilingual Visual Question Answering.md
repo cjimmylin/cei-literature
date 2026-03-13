@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +50,8 @@ local_pdf: "[[PDFs/2024/2024-Romero-CVQA Culturally-diverse Multilingual Visual 
 publication: "WebSearch: CVQA culturally diverse multilingual visual question answering"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Visual Question Answering (VQA) is an important task in multimodal AI, and it is often used to test the ability of vision-language models to understand and reason on knowledge present in both visual and textual data. However, most of the current VQA models use datasets that are primarily focused on English and a few major world languages, with images that are typically Western-centric. While recent efforts have tried to increase the number of languages covered on VQA ∗Equal Contribution 38th..."
-LLM_assessed: "BLOOMZ, GPT-4, GPT-4o, Llama-2, RoBERTa, ChatGPT, Llama"
-DATA_URL: "https://cvqa-benchmark.org/"
+LLM_assessed: "BLOOM, GPT-4o, Gemini, Llama-2"
+DATA_URL: "https://huggingface.co/datasets/afaji/cvqa"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "10k questions; 31 languages"
 ---
@@ -100,7 +104,8 @@ Culturally-diverse multilingual VQA benchmark with 10k questions across 31 langu
 
 ## Data Description
 
-Backfill summary: Models assessed include BLOOMZ, GPT-4, GPT-4o, Llama-2, RoBERTa, ChatGPT, Llama. Verified dataset/resource link: https://cvqa-benchmark.org/.
+CVQA: a culturally-diverse multilingual Visual Question Answering benchmark with 10,000 questions across 30 countries and 31 languages, covering 10 cultural categories, constructed with native speakers and cultural experts.
+
 
 ## Notes
 

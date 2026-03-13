@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ pdf_extract: "PDF Extracts/2024/2024-Holm-Danoliteracy of Generative Large Langu
 local_pdf: "[[PDFs/2024/2024-Holm-Danoliteracy of Generative Large Language Models.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Danish"
-languages_list: Danish
+cultures_nationalities_list: "N/A"
+languages_list: "Danish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT-4, Claude Opus, Gemini Pro, Command R+, Llama3, Mistral, and other Danish LLMs"
-DATA_URL: "https://github.com/chakki-works/seqeval"
+LLM_assessed: "Claude, Claude-3, GPT-3.5, GPT-4, GPT-4o, Gemini, Gemma, Gemma-2, Llama-3, Mistral, Mixtral, Qwen-1.5, o1"
+DATA_URL: "https://github.com/sorenmulli/danoliterate"
 tags: 
 abstract: "The language technology moonshot moment of Generative Large Language Models (GLLMs) was not limited to English: These models brought a surge of technological applications, investments, and hype to low-resource languages as well. However, the capabilities of these models in languages such as Danish were, until recently, difficult to verify beyond qualitative demonstrations due to a lack of applicable evaluation corpora."
 authors_incomplete: false
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "8 scenarios"
 ---
@@ -102,7 +106,7 @@ This paper presents the Danoliterate Benchmark, a comprehensive evaluation frame
 
 ## Data Description
 
-Danoliteracy is a GLLM benchmark evaluating Danish language and cultural competency across 8 scenarios including citizenship tests and social media QA. Produces robust ranking correlating to human feedback at rho ~0.8. GPT-4 and Claude Opus achieve highest rankings.
+Danish language benchmark evaluating Danoliteracy (Danish language and cultural competency) across 8 scenarios including citizenship tests, commonsense inference, and social media QA for 54 GLLMs.
 
 
 ## Detailed Summary

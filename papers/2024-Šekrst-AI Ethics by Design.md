@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ paper_summary:
 local_pdf: "[[PDFs/2024/2024-Šekrst-AI Ethics by Design.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "AI Ethics"
-LLM_assessed: "ChatGPT, Claude, Llama, Mixtral"
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

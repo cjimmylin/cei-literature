@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +53,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Navigating dilemmas involving conflicting values is challenging even for humans in high-stakes domains, let alone for AI, yet prior work has been limited to everyday scenarios. To close this gap, we introduce CLASH (Character perspectivebased LLM Assessments in Situations with High-stakes), a meticulously curated dataset consisting of 345 high-impact dilemmas along with 3,795 individual perspectives of diverse values."
-LLM_assessed: "GPT-4o, GPT-4o mini, GPT-5, Claude, Llama-3, Qwen, Mistral, DeepSeek"
+LLM_assessed: "Claude, DeepSeek, GPT-4o, GPT-4o mini, Llama-3, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/launch/CLASH"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"
@@ -93,7 +97,8 @@ Navigating dilemmas involving conflicting values is challenging even for humans 
 
 ## Data Description
 
-CLASH (Character perspective-based LLM Assessments in Situations with High-stakes) is a curated dataset of 345 high-impact human-written dilemmas with 3,795 individual perspectives representing diverse values. It evaluates LLMs on ambivalence understanding, psychological discomfort, and value shift reasoning. Fourteen non-thinking and thinking models were benchmarked, including GPT-5, Claude-4-Sonnet, Deepseek-3.1, and Qwen3-32B. The dataset includes static and dynamic character description categories to test nuanced value-based decision-making.
+CLASH: 345 human-written high-stakes dilemmas with 3,795 character perspectives covering value-based decision-making; enables study of ambivalence, psychological discomfort, and dynamic value shifts in LLM reasoning across medical, legal, and financial domains.
+
 
 ## Notes
 

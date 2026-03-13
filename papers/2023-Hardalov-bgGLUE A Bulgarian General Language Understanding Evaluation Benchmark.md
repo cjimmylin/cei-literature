@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +49,13 @@ publication: "arXiv / ACL 2023"
 CONF-CC: "ACL 2023"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bulgarian"
-languages_list: Bulgarian
+cultures_nationalities_list: "N/A"
+languages_list: "Bulgarian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, BLOOM, CodeX, DistilBERT"
+LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/bgGLUE/bgglue"
 tags: 
 abstract: "We present bgGLUE (Bulgarian General Language Understanding Evaluation), a benchmark for evaluating language models on Natural Language Understanding (NLU) tasks in Bulgarian. Our benchmark includes NLU tasks targeting a variety of NLP problems (e.g., natural language inference, fact-checking, named entity recognition, sentiment analysis, question answering, etc.) and machine learning tasks (sequence labeling, document-level classification, and regression)."
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Bulgarian NLU benchmark with nine tasks covering NLI, fact-checking, NER, sentim
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, BLOOM, CodeX, DistilBERT. Verified dataset/resource link: https://github.com/bgGLUE/bgglue.
+bgGLUE benchmark: nine Bulgarian NLU tasks (NLI, NER, fact-checking, sentiment, QA, etc.) with curated datasets, standard splits, and a public leaderboard. All datasets released via HuggingFace Hub.
+
 
 ## Notes
 

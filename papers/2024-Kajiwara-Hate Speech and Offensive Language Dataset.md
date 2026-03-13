@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +55,7 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
-languages_list: Japanese
+languages_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -101,7 +104,7 @@ I found search results related to Japanese hate speech detection and NLP evaluat
 
 ## Data Description
 
-A Kaggle-hosted hate speech and offensive language dataset relevant to Japanese hate speech detection research. The dataset appears to be associated with work by Kajiwara and Sakurai on validating pseudo-label datasets for Japanese hate speech detection. Limited metadata available as no PDF extract exists.
+A dataset for hate speech and offensive language detection; based on context appears related to Japanese hate speech detection using pseudo-label methodology.
 
 
 ## Notes

@@ -22,6 +22,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -60,7 +63,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
@@ -84,7 +87,7 @@ Allowing machines to choose whether to kill humans would be devastating for worl
 
 ## Data Description
 
-The paper introduces the Moral Choice Machine (MCM), which uses the Universal Sentence Encoder to extract deontological ethical reasoning about right and wrong conduct from human text corpora. The MCM calculates moral bias scores for actions using template prompts and responses. The authors retrain the USE model on various cultural text sources (books from 1510-2008, news, constitutions of 193 countries, the Bible) to demonstrate how moral biases can be extracted, tracked, and compared across cultures and over time.
+Template list of moral choice prompts and Universal Sentence Encoder models retrained on diverse text corpora (books by century, news archives, constitutions of 193 countries) to measure moral bias of actions across cultural and temporal contexts.
 
 
 ## Notes

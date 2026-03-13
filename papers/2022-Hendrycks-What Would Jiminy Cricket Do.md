@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,9 +68,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ When making everyday decisions, people are guided by their conscience, an intern
 
 ## Data Description
 
-The Jiminy Cricket environment suite consists of 25 text-based adventure games with over 400,000 lines of annotated source code containing morality annotations at multiple levels of granularity. GPT-2 is used as the CALM agent for action generation, while RoBERTa-large (fine-tuned on the ETHICS benchmark) serves as the morality scoring model (CMPS method). The benchmark evaluates moral behavior of language model agents in interactive text game environments.
+25 text-based adventure games with morality annotations for evaluating agent moral behavior
 
 
 ## Notes

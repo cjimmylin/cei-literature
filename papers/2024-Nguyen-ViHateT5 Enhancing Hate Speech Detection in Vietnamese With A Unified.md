@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,12 +51,12 @@ CONF-CC: "N/A"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
-languages_list: Vietnamese
+languages_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, DistilBERT, RoBERTa, T5, T5-base, T5-based"
+LLM_assessed: "BERT, RoBERTa, T5"
 DATA_URL: "https://github.com/tarudesu/ViHateT5"
 tags: 
 abstract: "Recent advancements in hate speech detection (HSD) in Vietnamese have made significant progress, primarily attributed to the emergence of transformer-based pre-trained language models, particularly those built on the BERT architecture. However, the necessity for specialized fine-tuned models has resulted in the complexity and fragmentation of developing a multitasking HSD system. Moreover, most current methodologies focus on fine-tuning general pre-trained models, primarily trained on formal..."
@@ -63,8 +67,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -103,7 +107,8 @@ T5-based model pre-trained on large-scale Vietnamese hate speech domain data (VO
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, DistilBERT, RoBERTa, T5, T5-base, T5-based. Verified dataset/resource link: https://github.com/tarudesu/ViHateT5.
+VOZ-HSD is a large-scale Vietnamese hate speech domain-specific dataset of 10M+ auto-labeled comments used to pre-train ViHateT5, a T5-based model achieving state-of-the-art on all Vietnamese HSD benchmarks.
+
 
 ## Notes
 

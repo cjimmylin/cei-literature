@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +43,8 @@ last_author: "[[R. Masood]]"
 authors: "R. Masood"
 url: "https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/C5KAAG92/Masood - 2024 - Hadith QA Pairs Dataset.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "English"
 religious_values: "Islam"
 religious_values_list: "Islam"
@@ -63,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish, Brazilian"
-cultures_nationalities_list: "Spanish, Portuguese, Catalan, Basque, Galician"
-languages_list: "Basque, Catalan, English, Galician, Portuguese, Spanish"
+cultures_nationalities_list: "Spanish, Brazilian"
+languages_list: "Basque, Catalan, Galician, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "GPT2, Gemma, Llama, Llama-3.1, Llama-3.2, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, gemma-2, phi-4"
+LLM_assessed: "GPT-2, Llama-3, Mistral, Phi, Qwen-2"
 DATA_URL: "https://github.com/IberBench/dataset-preparation"
 tags: 
 abstract: "Despite their remarkable success, Large Language Models (LLMs) remain difficult to evaluate comprehensively, particularly for languages other than English, where high-quality data is often limited. Existing benchmarks and leaderboards are predominantly English-centric, with only a few addressing other languages. These benchmarks fall short in several key areas: they overlook the diversity of language varieties, prioritize fundamental Natural Language Processing (NLP) capabilities over tasks of..."
@@ -99,7 +103,8 @@ Comprehensive benchmark assessing LLM performance on fundamental and industry-re
 
 ## Data Description
 
-Backfill summary: Models assessed include GPT2, Gemma, Llama, Llama-3.1, Llama-3.2, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, gemma-2, phi-4. Verified dataset/resource link: https://github.com/IberBench/dataset-preparation.
+IberBench: 101 datasets across 22 NLP task categories for Iberian languages (Spanish varieties, Portuguese, Catalan, Basque, Galician), standardizing 58 datasets from workshops and benchmarks into a unified evaluation framework with a public leaderboard.
+
 
 ## Notes
 

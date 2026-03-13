@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ publication: arxiv.org
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Turkish"
+cultures_nationalities_list: "N/A"
 languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,7 +58,7 @@ newtags:
 tags: 
 abstract: "Language models are trained mostly on Web data, which often contains social stereotypes and biases that the models can inherit. This has potentially negative consequences, as models can amplify these biases in downstream tasks or applications. However, prior research has primarily focused on the English language, especially in the context of gender bias. In particular, grammatically gender-neutral languages such as Turkish are underexplored despite representing different linguistic properties..."
 LLM_assessed: "BERT"
-DATA_URL: "https://github.com/W4ngatang/sent-bias"
+DATA_URL: NA
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -94,7 +97,8 @@ Investigates gender bias in Turkish language models by extending existing bias e
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. Verified dataset/resource link: https://github.com/W4ngatang/sent-bias.
+A Turkish gender bias dataset extending existing English bias evaluation frameworks to Turkish, including new tests designed for the Turkish cultural context and ethnic bias tests toward Kurdish people.
+
 
 ## Notes
 

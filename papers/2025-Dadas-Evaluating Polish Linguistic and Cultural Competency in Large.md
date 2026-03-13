@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Polish"
-languages_list: Polish
+cultures_nationalities_list: "N/A"
+languages_list: "Polish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude, Claude Sonnet, Command-R, DeepSeek-V3, GPT-4, GPT-4o, Llama 3, Llama 3.1, Llama-3, Mistral, Mistral-7b, Mistral-Large, Qwen-2.5, Qwen2"
-DATA_URL: "https://huggingface.co/spaces/sdadas"
+LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command R+, DeepSeek, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, Gemini, Gemma-2, Grok, Llama-3, Mistral, Mixtral, Qwen-2"
+DATA_URL: "https://huggingface.co/spaces/sdadas/plcc"
 tags: 
 abstract: "Large language models (LLMs) are becoming increasingly proficient in processing and generating multilingual texts, which allows them to address real-world problems more effectively. However, language understanding is a far more complex issue that goes beyond simple text analysis. It requires familiarity with cultural context, including references to everyday life, historical events, traditions, folklore, literature, and pop culture."
 CONFERENCE: "Preprint"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "6 categories"
 ---
@@ -98,7 +102,8 @@ Introduces a 600-question benchmark for Polish linguistic and cultural competenc
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude, Claude Sonnet, Command-R, DeepSeek-V3, GPT-4, GPT-4o, Llama 3, Llama 3.1, Llama-3, Mistral, Mistral-7b, Mistral-Large, Qwen-2.5, Qwen2. Verified dataset/resource link: https://huggingface.co/spaces/sdadas.
+Introduces a 600-question Polish linguistic and cultural competency benchmark divided into six categories (history, geography, culture & tradition, art & entertainment, grammar, vocabulary), with a live leaderboard and demo available on Hugging Face Spaces.
+
 
 ## Notes
 

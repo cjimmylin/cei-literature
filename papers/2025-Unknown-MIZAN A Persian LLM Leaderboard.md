@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +49,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian, Persian"
-languages_list: Persian
+cultures_nationalities_list: "Iranian"
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -99,7 +102,7 @@ Standard Persian LLM leaderboard evaluating models across general knowledge, log
 
 ## Data Description
 
-MIZAN is a Persian LLM leaderboard hosted on HuggingFace that evaluates models across general knowledge, logical reasoning, and language skills. It includes the PerCoR (Persian CommonSense Reasoning) benchmark. Without the full documentation, the specific models evaluated on the leaderboard cannot be confirmed from the available metadata.
+MIZAN Persian LLM leaderboard evaluating models across general knowledge, logical reasoning, and language skills, including the PerCoR (Persian CommonSense Reasoning) benchmark.
 
 
 ## Notes

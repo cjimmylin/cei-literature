@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -64,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus for toxicity detection"
@@ -86,7 +90,7 @@ Pretrained neural language models (LMs) are prone to generating racist, sexist, 
 
 ## Data Description
 
-RealToxicityPrompts is a dataset of 100K naturally occurring sentence-level prompts extracted from the OpenWebText Corpus, each paired with toxicity scores from Perspective API. The prompts are stratified across four toxicity ranges and used to evaluate neural language models' propensity for toxic text generation, with 25 generations sampled per prompt per model.
+RealToxicityPrompts: 100K naturally occurring sentence-level prompts paired with toxicity scores, designed as a testbed for evaluating toxic degeneration in language models.
 
 
 ## Notes

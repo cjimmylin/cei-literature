@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,11 +54,11 @@ newtags: "Japanese, General Ethics"
 key_contribution: "Proposed JETHICS, a Japanese ethics understanding benchmark constructed by mirroring the English ETHICS dataset, covering normative theories and commonsense morality."
 significance: "Evaluates the cross-lingual transfer of ethical concepts, finding that even state-of-the-art models like GPT-4o score lower in Japanese (0.7) than expected, indicating a gap in non-English ethical alignment."
 tags: 
-pdf_extract: "PDF Extracts/0000/2025-Takeshita-JETHICS.md"
+pdf_extract: "PDF Extracts/2025/2025-Takeshita-JETHICS.md"
 abstract: "In this work, we propose JETHICS, a Japanese dataset for evaluating ethics understanding of AI models. JETHICS contains 78K examples and is built by following the construction meth- ods of the existing English ETHICS dataset. It includes four categories based normative theo- ries and concepts from ethics and political phi- losophy; and one representing commonsense morality. Our evaluation experiments on non- proprietary large language models (LLMs) and on GPT-4o reveal that even GPT-4o achieves"
 paper_summary: "Abstract: In this work, we propose JETHICS, a Japanese dataset for evaluating ethics understanding of AI models. JETHICS contains 78K examples and is built by following the construction meth- ods of the existin | Overview: arXiv:2506.16187v1 [cs.CL] 19 Jun 2025 JETHICS: Japanese Ethics Understanding Evaluation Dataset Masashi Takeshita Nagoya University takeshita.masashi.68@gmail.com Rafal Rzepka Hokkaido University rze | Conclusions: We first analyze the dataset. The low kappa score (0.18) in the utilitarianism category likely stems from the fact that crowdworkers were asked to jud"
 local_pdf: "[[PDFs/2025/2025-Takeshita-JETHICS.pdf]]"
-LLM_assessed: "GPT-4, Llama-3"
+LLM_assessed: "GPT-4o, GPT-4o mini, Llama-3"
 DATA_URL: "https://github.com/Language-Media-Lab/jethics"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
@@ -65,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
@@ -102,7 +105,7 @@ In this work, we propose JETHICS, a Japanese dataset for evaluating ethics under
 
 ## Data Description
 
-JETHICS is a Japanese dataset for evaluating ethics understanding of AI models, comprising approximately 78K examples. It is built following the construction methods of the English ETHICS dataset and includes four categories based on normative theories (utilitarianism, deontology, virtue ethics, and justice) plus one category for commonsense morality. Examples were created by crowdworkers and validated through majority vote annotation.
+JETHICS is a Japanese ethics understanding evaluation dataset containing 78K examples across five categories derived from normative ethical theories (deontology, consequentialism, virtue ethics, contractualism) and commonsense morality, constructed following the methodology of the English ETHICS dataset.
 
 
 ## Notes

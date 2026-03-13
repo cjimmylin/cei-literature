@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This study introduces pluralism as a benchmark for evaluating generative AI chatbots’ ability to navigate and potentially endorse diverse values and perspectives. Pluralism—the recognition and valuing of multiple, distinct perspectives—is essential for contemporary democratic societies, making systematic assessment of how AI systems handle value pluralism crucial. Using the Magic Wand Survey (MWS), which presents diverse value conflicts, we empirically measured 2 dimensions of..."
-LLM_assessed: "ChatGPT, Claude, Claude 3.5, Claude 3.5 Sonnet, DeepSeek"
+LLM_assessed: "ChatGPT, GPT-o1, Gemini, Claude-3"
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +51,13 @@ local_pdf: "[[PDFs/2023/2023-Grotti-Italian Linguistic Features for Toxic Langua
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
-languages_list: Italian
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "PoliBERT, UmBERTo, bert-base-italian-xxl-uncased"
-DATA_URL: "https://github.com/musixmatchresearch/umberto"
+LLM_assessed: "BERT"
+DATA_URL: NA
 tags: 
 abstract: "Framework for analyzing toxic language on Italian Facebook pages. Assesses toxic vs. non-toxic comments via length, vocabulary diversity, and linguistic standardness. Fine-tunes PoliBERT, UmBERTo, and bert-base-italian-xxl-uncased models."
 CONFERENCE: "Journal"

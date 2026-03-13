@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,13 +52,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ELMo, word2vec"
-DATA_URL: "https://github.com/HIT-SCIR/ELMoForManyLangs"
+LLM_assessed: "BERT, ELMo"
+DATA_URL: "https://github.com/dml-qom/FarsTail"
 tags: 
 abstract: "Natural language inference (NLI) is known as one of the central tasks in natural language processing (NLP) which encapsulates many fundamental aspects of language understanding. With the considerable achievements of data-hungry deep learning methods in NLP tasks, a great amount of eﬀort has been devoted to develop more diverse datasets for diﬀerent languages. In this paper, we present a new dataset for the NLI task in the Persian language, also known as Farsi, which is one of the dominant..."
 CONFERENCE: "Journal"
@@ -62,8 +67,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -102,7 +107,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ELMo, word2vec. Verified dataset/resource link: https://github.com/HIT-SCIR/ELMoForManyLangs.
+FarsTail: 10,367 Persian NLI samples generated from 3,539 multiple-choice questions with entailment, contradiction, and neutral labels, providing baseline results with multiple embedding and modeling approaches.
+
 
 ## Notes
 

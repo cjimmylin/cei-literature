@@ -24,6 +24,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +47,13 @@ pdf_extract: "PDF Extracts/2021/2021-Center-The Catalan Language CLUB Catalan La
 local_pdf: "[[PDFs/2021/2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Catalan"
-languages_list: Catalan
+cultures_nationalities_list: "N/A"
+languages_list: "Catalan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, RoBERTa"
+LLM_assessed: "RoBERTa"
 DATA_URL: "https://github.com/TeMU-BSC/club"
 tags: 
 abstract: "The Catalan Language Understanding Benchmark (CLUB) encompasses various datasets representative of diﬀerent NLU tasks that enable accurate evaluations of language models, following the General Language Understanding Evaluation (GLUE) example. It is part of AINA and PlanTL, two public funding initiatives to empower the Catalan language in the Artiﬁcial Intelligence era."
@@ -61,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
@@ -101,7 +104,7 @@ This paper presents the Catalan Language Understanding Benchmark (CLUB), a compr
 
 ## Data Description
 
-Catalan Language Understanding Benchmark (CLUB) consisting of six tasks: text classification, paraphrase detection, semantic textual similarity, question answering, NER, and POS tagging. Tests Catalan BERT and RoBERTa models against multilingual baselines.
+CLUB (Catalan Language Understanding Benchmark) with datasets for POS tagging, NER, text classification, textual entailment, extractive QA, and semantic textual similarity.
 
 
 ## Detailed Summary

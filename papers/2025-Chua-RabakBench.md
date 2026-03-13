@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +45,8 @@ url: "http://arxiv.org/abs/2507.05980"
 external_pdf: "http://arxiv.org/pdf/2507.05980.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: "Chinese, Singaporean"
-cultures_nationalities_list: "Singaporean, Chinese, Malay, Tamil"
+national_ethnic_cultural: "Singaporean, Chinese"
+cultures_nationalities_list: "Singaporean, Chinese"
 languages_list: "Chinese, English, Malay, Singlish, Tamil"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +60,7 @@ abstract: "Large language models (LLMs) and their safety classifiers often perfo
 paper_summary: "Abstract: Large language models (LLMs) and their safety classifiers often perform poorly on low-resource languages due to limited training data and evaluation benchmarks. This paper introduces RABAKBENCH 2, a n | Overview: RabakBench: Scaling Human Annotations to Construct Localized Multilingual Safety Benchmarks for Low-Resource Languages Gabriel Chua1 ∗ Leanne Tan1 ∗ Ziyu Ge2 ∗ Roy Ka-Wei Lee1, 2 1GovTech, Singapore 2 | Methodology: for extending safety datasets to additional languages through carefully guided translation. Unlike prior approaches relying on direct translation, our | Key Findings: Models and Evaluation Metrics. We benchmarked 11 content safety models against RABAKBENCH, including 5 commercial services (AWS Bedrock Guardrails [47 | Conclusions: This paper introduced RABAKBENCH, a novel benchmark and scalable pipeline using LLMs to evaluate safety in low-resource languages, specifically within"
 local_pdf: "[[PDFs/2025/2025-Chua-RabakBench.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Gemini, DeepSeek, Llama-3, Mistral, o3"
+LLM_assessed: "Claude-3 Haiku, DeepSeek, GPT-4o, Gemini, Llama-3, Mistral, o3-mini"
 DATA_URL: "https://huggingface.co/datasets/govtech/RabakBench"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -101,7 +105,7 @@ Large language models (LLMs) and their safety classifiers often perform poorly o
 
 ## Data Description
 
-RabakBench is a multilingual safety benchmark localized to Singapore's linguistic context, covering Singlish, Chinese, Malay, and Tamil with over 5,000 safety-labeled examples across six fine-grained harm categories. The benchmark is constructed through a three-stage pipeline using GPT-4o, DeepSeek-R1, Gemini 2.0 Flash, Claude 3.5 Haiku, o3-mini, Llama 3.3 70B, and Mistral Small 3 for generation and annotation, and evaluates 11 guardrail classifiers revealing significant performance degradation on localized multilingual content.
+RABAKBENCH 2: a multilingual safety benchmark covering Singlish, Chinese, Malay, and Tamil with over 5,000 safety-labeled examples across six fine-grained harm categories with severity levels, localized to Singapore's linguistic context.
 
 
 ## Notes

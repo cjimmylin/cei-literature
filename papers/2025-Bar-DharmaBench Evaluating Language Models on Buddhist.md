@@ -29,6 +29,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,15 +53,15 @@ local_pdf: N/A
 publication: "IJCNLP-AACL 2025 (Proceedings of the 14th International Joint Conference on Natural Language Processing)"
 CONF-CC: "AACL 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
+languages_list: "Sanskrit, Tibetan"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
 newtags: 
 tags: 
-abstract: 
+abstract: "We assess the capabilities of large language models on tasks involving Buddhist texts written in Sanskrit and Classical Tibetan -- two typologically distinct, low-resource historical languages. To this end, we introduce DharmaBench, a benchmark suite comprising 13 classification and detection tasks grounded in Buddhist textual traditions: six in Sanskrit and seven in Tibetan, with four shared across both."
 LLM_assessed: "NA"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
@@ -64,11 +69,11 @@ ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "Other"
-is_benchmark: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---
 # DharmaBench: Evaluating Language Models on Buddhist Texts in Sanskrit and Tibetan
@@ -94,7 +99,7 @@ data_metrics: "Not specified"
 
 ## Abstract
 
-(Abstract not available)
+We assess the capabilities of large language models on tasks involving Buddhist texts written in Sanskrit and Classical Tibetan -- two typologically distinct, low-resource historical languages. To this end, we introduce DharmaBench, a benchmark suite comprising 13 classification and detection tasks grounded in Buddhist textual traditions: six in Sanskrit and seven in Tibetan, with four shared across both. The tasks are curated from scratch, tailored to the linguistic and cultural characteristics of each language. We evaluate a range of models, from proprietary systems like GPT-4o to smaller, domain-specific open-weight models, analyzing their performance across tasks and languages. All datasets and code are publicly released, under the CC-BY-4 License and the Apache-2.0 License respectively, to support research on historical language processing and the development of culturally inclusive NLP systems.
 
 ## Dataset Information
 
@@ -103,7 +108,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-DharmaBench presents 13 classification and detection tasks (6 Sanskrit, 7 Tibetan, 4 shared) for evaluating language models on Buddhist texts. Released under CC-BY-4 License with code under Apache-2.0. Specific evaluated models not identified from available metadata.
+DharmaBench is a benchmark suite comprising 13 classification and detection tasks grounded in Buddhist textual traditions, with tasks in Sanskrit (6) and Classical Tibetan (7) plus 4 shared tasks. All tasks are curated from scratch, tailored to the linguistic and cultural characteristics of these low-resource historical languages.
 
 
 ## Notes

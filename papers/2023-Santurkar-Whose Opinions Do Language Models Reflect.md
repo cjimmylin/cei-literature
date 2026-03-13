@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,7 @@ pdf_extract: "PDF Extracts/2023/2023-Santurkar-Whose Opinions Do Language Models
 abstract: "Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reﬂected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as well as shaping the views of society at large. In this work, we put forth a quantitative framework to investigate the opinions reﬂected by LMs – by leveraging high-quality public opinion polls and their associated human responses."
 paper_summary: "Abstract: Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reﬂected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as | Overview: Whose Opinions Do Language Models Reﬂect? Shibani Santurkar Stanford shibani@stanford.edu Esin Durmus Stanford esindurmus@cs.stanford.edu Faisal Ladhak Columbia University faisal@cs.columbia.edu Cinoo | Methodology: from the main paper), focusing on the 500 questions from Section 4.2 computational reasons—see Appendix Figure 14. We only include a subset of demogra | Conclusions: Our work puts forth a framework to examine the opinions reﬂected by LMs through the lens of public opinion polls. Using our OpinionQA dataset, we iden"
 local_pdf: "[[PDFs/2023/2023-Santurkar-Whose Opinions Do Language Models Reflect.pdf]]"
-LLM_assessed: "GPT-3, text-davinci, InstructGPT"
+LLM_assessed: "GPT-3"
 DATA_URL: "https://github.com/tatsu-lab/opinions_qa"
 publication: "ICML 2023"
 CONF-CC: "ICML 2023"
@@ -98,7 +103,7 @@ Language models (LMs) are increasingly being used in open-ended contexts, where 
 
 ## Data Description
 
-The paper introduces OpinionQA, a dataset of 1,498 multiple-choice questions from Pew Research's American Trends Panels spanning 23 topics (abortion, automation, climate change, guns, etc.) with human opinion distributions from 60 US demographic groups. Nine LMs were evaluated (350M to 178B parameters from OpenAI and AI21 Labs), including base models (ada, davinci, j1-grande, j1-jumbo) and human feedback-tuned models (text-davinci-001/002/003, j1-grande-v2-beta), measuring representativeness, steerability, and consistency of LM opinions against human survey responses.
+OpinionQA dataset with 1,498 multiple-choice questions from Pew Research American Trends Panels, spanning 23 topics, with responses from 9 LMs compared against 60 US demographic groups.
 
 
 ## Notes

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,12 +50,12 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
-languages_list: Persian
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ALBERT, BERT, Claude, GPT-4o, Llama, Llama-3, LLaMA-3.1, Llama3, Mistral, Mistral 7b, Mistral-7B, Qwen, Qwen-2.5, Qwen-3, Qwen2.5, Qwen3, GPT-4, llama-3."
+LLM_assessed: "GPT-4o, Llama-3, Mistral, Qwen, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "With the increasing adoption of large language models (LLMs), ensuring their alignment with social norms has become a critical concern. While prior research has examined bias detection in various languages, there remains a significant gap in resources addressing social biases within Persian cultural contexts. In this work, we introduce PBBQ, a comprehensive benchmark dataset designed to evaluate social biases in Persian LLMs."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
@@ -97,7 +101,8 @@ Persian adaptation of BBQ bias benchmark with 16 cultural categories and 37,000+
 
 ## Data Description
 
-Backfill summary: Models assessed include ALBERT, BERT, Claude, GPT-4o, Llama, Llama-3, LLaMA-3.1, Llama3, Mistral, Mistral 7b, Mistral-7B, Qwen, Qwen-2.5, Qwen-3, Qwen2.5, Qwen3, GPT-4, llama-3.. No high-confidence repository-style data URL was identified.
+PBBQ is the first Persian QA social bias benchmark dataset with 37,000+ questions across 16 cultural bias categories, developed through crowdsourcing with 250 diverse Persian speakers and validated by social science experts.
+
 
 ## Notes
 

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,15 +47,15 @@ CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....md"
 local_pdf: "[[PDFs/2025/2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Japanese, Korean, Indonesian"
-cultures_nationalities_list: "Japanese, Korean, Indonesian"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Code-switching, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, ChatGPT, GPT-4, GPT-4o, Gemma, Gemma 2, Llama, Llama 3.2, Phi 3, Qwen 2, Qwen MMMLU, Qwen 2.5, llama 3"
-DATA_URL: "https://huggingface.co/datasets/openai/MMMLU"
+LLM_assessed: "Qwen-2, Gemma-2, Phi-3"
+DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) now exhibit near human-level performance in various tasks, but their performance drops drastically after a handful of high-resource languages due to the imbalance in pre-training data. Inspired by the human process of second language acquisition, particularly code-switching—the practice of language alternation in a conversation— we propose code-switching curriculum learning (CSCL) to enhance cross-lingual transfer for LLMs."
 research_topic: "Machine Translation"
@@ -62,8 +66,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
 ---

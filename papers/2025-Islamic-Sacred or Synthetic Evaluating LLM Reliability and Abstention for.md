@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,13 +50,13 @@ pdf_extract: "PDF Extracts/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM 
 local_pdf: "[[PDFs/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic, Islamic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude 3.5 Haiku, Claude-3.5-Haiku, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma-2, BERT"
+LLM_assessed: "Claude-3 Haiku, GPT-4o, Gemini, Gemma-2"
 DATA_URL: "https://huggingface.co/datasets/MBZUAI/FiqhQA"
 tags: 
 abstract: "Despite the increasing usage of Large Language Models (LLMs) in answering questions in a variety of domains, their reliability and accuracy remain unexamined for a plethora of domains including the religious domains. In this paper, we introduce a novel benchmark FiqhQA 1 focused on the LLM generated Islamic rulings explicitly categorized by the four major Sunni schools of thought, in both Arabic and English."
@@ -64,7 +68,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -97,7 +101,8 @@ Despite the increasing usage of Large Language Models (LLMs) in answering questi
 
 ## Data Description
 
-Backfill summary: Models assessed include Claude 3.5 Haiku, Claude-3.5-Haiku, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma-2, BERT. Verified dataset/resource link: https://huggingface.co/datasets/MBZUAI/FiqhQA.
+FiqhQA is a benchmark dataset of Islamic rulings (fatawa) categorized by the four major Sunni schools of thought (Hanafi, Maliki, Shafi'i, Hanbali) in both Arabic and English, used to evaluate LLM accuracy and abstention behavior on religious questions.
+
 
 ## Notes
 

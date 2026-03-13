@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +47,8 @@ local_pdf: "[[PDFs/2025/2025-Adilazuarda-From Surveys to Narratives Rethinking C
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Arabic, Bengali, Chinese, German, Greek, Korean, Portuguese, Spanish, Turkish"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Arabic, Bengali, Chinese, English, German, Greek, Korean, Portuguese, Spanish, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Adapting cultural values in Large Language Models (LLMs) presents significant challenges, particularly due to biases and limited training data. Prior work primarily aligns LLMs with different cultural values using World Values Survey (WVS) data. However, it remains unclear whether this approach effectively captures cultural nuances or produces distinct cultural representations for various downstream tasks."
-LLM_assessed: "Llama-3, Gemma, Qwen"
+LLM_assessed: "Llama-3, Gemma-2, Qwen-2"
 DATA_URL: "https://github.com/faridlazuarda/from-surveys-to-narratives"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
@@ -61,8 +65,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_eval: Yes
+is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---

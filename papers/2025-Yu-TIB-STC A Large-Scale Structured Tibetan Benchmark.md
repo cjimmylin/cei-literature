@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +51,8 @@ local_pdf: "[[PDFs/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchma
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Tibetan"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Tibetan"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,7 +60,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Advancement of large language models (LLMs) has brought transformative capabilities to NLP, but such progress remains unevenly distributed, especially for low-resource and culturally rich languages like Tibetan. In this paper, we present TIB-STC, the first large-scale, expert-curated, and multidomain dataset specifically designed to support the development and evaluation of LLMs for the Tibetan language."
-LLM_assessed: "BERT, ChatGLM, ChatGPT, DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT-4o-mini, Llama, LLaMA 3, LLaMA 3.1, Llama-3, LLaMA-3., Qwen-2.5"
+LLM_assessed: "LLaMA"
 DATA_URL: "https://github.com/Vicentvankor/sun-shine"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -64,9 +68,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -106,7 +110,8 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, ChatGLM, ChatGPT, DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT-4o-mini, Llama, LLaMA 3, LLaMA 3.1, Llama-3, LLaMA-3., Qwen-2.5. Verified dataset/resource link: https://github.com/Vicentvankor/sun-shine.
+TIB-STC is a large-scale expert-curated Tibetan corpus dataset (11B+ tokens) covering literature, religion, medicine, law, and daily communication, along with four task-specific sub-datasets (Alpaca-Ti, Safety-Prompts-Ti, CValues-Ti, hh-rlhf-Ti). The paper also releases Sun-Shine, a reference Tibetan LLM (LLaMA-based) trained on TIB-STC and evaluated on the TLUE benchmark.
+
 
 ## Notes
 

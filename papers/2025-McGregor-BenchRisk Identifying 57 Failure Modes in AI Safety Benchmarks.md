@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language model (LLM) benchmarks inform LLM use decisions (e.g., “is this LLM safe to deploy for my use case and context?”). However, benchmarks may be rendered unreliable by various failure modes that impact benchmark bias, variance, coverage, or people’s capacity to understand benchmark evidence. Using the National Institute of Standards and Technology’s risk management process as a foundation, this research iteratively analyzed 26 popular benchmarks, identifying 57 potential failure..."
-LLM_assessed: "o3"
+LLM_assessed: NA
 DATA_URL: "https://github.com/BenchRisk"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

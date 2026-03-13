@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +55,7 @@ publication: "ResearchGate / IOS Press"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Nepali"
+cultures_nationalities_list: "N/A"
 languages_list: "Nepali"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -105,7 +108,7 @@ data_metrics: "Not specified"
 
 ## Data Description
 
-NEHATE is a large-scale dataset of 13,505 Nepali tweets annotated for hate speech with sub-categorization of targets including community, individual, and organization in local election discourse. The dataset is focused on political discourse and community targeting in the context of Nepali local elections. No LLMs were tested; the paper focuses on dataset construction and annotation for Nepali hate speech detection.
+A large-scale dataset of 13,505 Nepali tweets annotated for hate speech with sub-categorization of targets (community, individual, organization) in the context of local election discourse.
 
 
 ## Notes

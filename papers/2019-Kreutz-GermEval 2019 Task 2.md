@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ tags:
 abstract: "This paper presents an overview of the second edition of the GermEval Shared Task on the Identification of Offensive Language, dealing with the classification of German tweets from Twitter. Two subtasks were continued from the first edition, namely a coarse-grained binary classification task and a fine-grained multi-class classification task. As a novel subtask, the classification of offensive tweets as explicit or implicit was introduced. The shared task had 13 participating groups submitting runs across the three subtasks."
 CONF-CC: "N/A"
 DATE_ADDED: 20260129
-LLM_assessed: BERT
+LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -60,9 +64,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
 ---
@@ -138,7 +142,7 @@ The shared task demonstrates that offensive language detection in German, partic
 
 ## Data Description
 
-The GermEval 2019 Shared Task dataset consists of approximately 12,000 German tweets from Twitter annotated for offensive language detection across three subtasks: coarse-grained binary classification (OFFENSE vs OTHER), fine-grained 4-way classification (ABUSE, INSULT, PROFANITY, OTHER), and implicit vs explicit offensive language classification. The 2019 portion includes 3,994 training tweets and 3,031 test tweets with inter-annotator agreement of kappa = 0.59. BERT-based systems achieved the best results, with 13 participating teams submitting runs.
+GermEval 2019 Task 2 dataset of ~12,000 German tweets annotated for offensive language across three subtasks: coarse-grained binary, fine-grained 4-class, and implicit vs. explicit classification.
 
 
 ## Notes

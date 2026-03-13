@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +49,7 @@ pdf_extract: "PDF Extracts/2025/2025-approach-A Language model-based approach to
 local_pdf: "[[PDFs/2025/2025-approach-A Language model-based approach to sentiment classification of.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Kazakh, Kyrgyz, Central Asian"
+cultures_nationalities_list: "N/A"
 languages_list: "Kyrgyz, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -62,9 +65,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---
@@ -96,7 +99,8 @@ Based on the web search results, here's what I found about Central Asian languag
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT. No high-confidence repository-style data URL was identified.
+A Kazakh-language sentiment corpus built from Xinjiang News and Silk Road Asia-Europe News sources, along with an associated online retrieval platform; the dataset is not publicly released at a persistent URL.
+
 
 ## Notes
 

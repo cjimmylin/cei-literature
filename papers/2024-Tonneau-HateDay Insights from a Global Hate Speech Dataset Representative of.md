@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +48,14 @@ CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.md"
 local_pdf: "[[PDFs/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indonesian, Arabic, French, German, Spanish, Brazilian"
-cultures_nationalities_list: "Indonesian, Arabic, French, German, Spanish, Brazilian"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, Llama 3.1, Llama3.1, llama 3"
+LLM_assessed: "Aya, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/manueltonneau/hateday"
 tags: 
 abstract: "To address the global challenge of online hate speech, prior research has developed detection models to flag such content on social media. However, due to systematic biases in evaluation datasets, the real-world effectiveness of these models remains unclear, particularly across geographies. We introduce HATEDAY, the first global hate speech dataset representative of social media settings, constructed from a random sample of all tweets posted on September 21, 2022 and covering eight languages..."
@@ -62,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "540k tweets; 20k tweets; 8 languages"
@@ -102,7 +106,7 @@ This paper introduces HateDay, the first hate speech dataset representative of r
 
 ## Data Description
 
-HateDay is a global Twitter dataset of 540K tweets sampled from September 21, 2022, annotated for hate speech detection in 8 languages (Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish). Each language has 20K tweets with annotations by 3 human annotators per language (hateful, offensive, or neutral). Prescriptive annotation with detailed guidelines.
+Introduces HATEDAY, a global hate speech dataset of 240,000 annotated tweets (20,000 per language/country) sampled from all Twitter posts on September 21, 2022, covering 8 languages and 4 English-speaking countries.
 
 
 ## Detailed Summary

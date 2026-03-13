@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,13 +52,13 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: Indonesian
+languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "BERT, GPT-4o, GPT-4o-mini, Llama3.1"
-DATA_URL: "https://huggingface.co/datasets/Exqrch/IndoDiscourse"
+LLM_assessed: "BERT, GPT-4o, GPT-4o mini, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/Exqrch/IndoToxic2024"
 tags: 
 abstract: "Polarization is defined as divisive opinions held by two or more groups on substantive issues. As the world’s third-largest democracy, Indonesia faces growing concerns about the interplay between political polarization and online toxicity, which is often directed at vulnerable minority groups. Despite the importance of this issue, previous NLP research has not fully explored the relationship between toxicity and polarization."
 research_topic: "Bias & Fairness"
@@ -65,7 +69,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
@@ -101,7 +105,8 @@ Multi-label Indonesian dataset with 28,477 texts annotated for toxicity, polariz
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, GPT-4o, GPT-4o-mini, Llama3.1. Verified dataset/resource link: https://huggingface.co/datasets/Exqrch/IndoDiscourse.
+IndoToxic2024: a multi-labeled Indonesian dataset of 28,477 social media texts annotated for toxicity (with subtypes), political polarization, and annotator demographic information, collected from Twitter, Facebook, Instagram, and news sources during Indonesia's 2024 presidential election period.
+
 
 ## Notes
 

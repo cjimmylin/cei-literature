@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +47,7 @@ local_pdf: "[[PDFs/2022/2022-Yang-CINO A Chinese Minority Pre-trained Language M
 pdf_extract: "PDF Extracts/2022/2022-Yang-CINO A Chinese Minority Pre-trained Language Model.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Kazakh, Korean, Mongolian, Tibetan, Uyghur, Zhuang"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Kazakh, Korean, Mongolian, Tibetan, Uyghur, Zhuang"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -61,7 +64,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -96,7 +99,7 @@ Multilingual pre-trained language model for Chinese minority languages covering 
 
 ## Data Description
 
-The paper proposes CINO, a multilingual pre-trained language model for Chinese minority languages covering Standard Chinese, Yue Chinese, Tibetan, Mongolian, Uyghur, Kazakh, Zhuang, and Korean. Two text classification datasets are constructed: WCM (Wiki-Chinese-Minority) from Wikipedia and CMNews (Chinese-Minority-News) from news websites. CINO is compared against baselines including mBERT and XLM-R on cross-lingual classification tasks.
+WCM (Wiki-Chinese-Minority) and CMNews text classification datasets for Chinese minority languages including Tibetan, Mongolian, Uyghur, Kazakh, Zhuang, and Korean, constructed from Wikipedia and news websites for cross-lingual evaluation.
 
 
 ## Notes

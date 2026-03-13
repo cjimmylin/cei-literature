@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,7 +62,7 @@ abstract: "Big models, exemplified by Large Language Models (LLMs), are typicall
 paper_summary: "Abstract: Big models, exemplified by Large Language Models (LLMs), are typically models pre- trained on massive data and comprised of enor- mous parameters, which not only obtain signif- icantly improved perfor | Overview: From Instructions to Intrinsic Human Values —— A Survey of Alignment Goals for Big Models Jing Yao, Xiaoyuan Yi, Xiting Wang, Jindong Wang and Xing Xie Microsoft Research Asia {jingyao,xiaoyuanyi,xiti | Methodology: is employed in the evaluation of Alpaca (Taori et al., 2023; Li et al., 2023) and Vicuna (Chiang et al., 2023), where GPT-4 is prompted to compare two | Key Findings: (Sec. 3) Human Instructions Benchmarks Super-Natural Inst (Wang et al., 2022b); PromptSource (Sanh et al., 2021); OPT-IML (Iyer et al., 2022); Flan 20 | Conclusions: Aligning big models with humans has gained sig- nificant attention to make them better serve human- ity and minimize their potential risks. This paper"
 local_pdf: "[[PDFs/2023/2023-Yao-From Instructions to Intrinsic Human Values -- A.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Alpaca, Claude, GPT-3, GPT-4, InstructGPT, Llama, Llama2, Vicuna"
+LLM_assessed: NA
 DATA_URL: "https://github.com/ValueCompass/Alignment-Goal-Survey"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -67,8 +71,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_eval: No
+is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---
@@ -103,7 +107,7 @@ Big models, exemplified by Large Language Models (LLMs), are typically models pr
 
 ## Data Description
 
-This paper is a comprehensive survey of alignment goals for large language models, tracing the evolution from human instructions to human preferences to intrinsic human values. It does not introduce or utilize a specific dataset or benchmark for LLM assessment, but rather provides a taxonomy and collection of resources cataloging existing alignment work across three levels of goals. The GitHub repository contains the collected resources for future research on alignment.
+Curated collection of resources, benchmarks, and datasets referenced in the survey on alignment goals, organized by alignment level (instructions, preferences, values).
 
 
 ## Notes

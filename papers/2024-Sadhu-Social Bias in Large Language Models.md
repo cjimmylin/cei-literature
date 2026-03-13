@@ -28,6 +28,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +52,8 @@ local_pdf: "[[PDFs/2024/2024-Sadhu-Social Bias in Large Language Models.pdf]]"
 publication: "LoResLM Workshop (ACL 2025)"
 CONF-CC: "ACL 2025 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Bangladeshi"
+national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Bangla"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -56,8 +61,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The rapid growth of Large Language Models (LLMs) has put forward the study of biases as a crucial field. It is important to assess the influence of different types of biases embedded in LLMs to ensure fair use in sensitive fields. Although there have been extensive works on bias assessment in English, such efforts are rare and scarce for a major language like Bangla. In this work, we examine two types of social biases in LLM generated outputs for Bangla language."
-LLM_assessed: "BERT, Claude-3.5, Claude-3.5-Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4o, Llama, Llama-2, Llama-3, Llama3, Mistral-7B"
-DATA_URL: "Publicly available (code and resources)"
+LLM_assessed: "GPT-3.5, GPT-4o, Llama-3, Claude-3"
+DATA_URL: "https://github.com/csebuetnlp/BanglaSocialBias"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -66,7 +71,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---
@@ -102,7 +107,8 @@ Curated dataset for bias measurement benchmarking
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Claude-3.5, Claude-3.5-Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4o, Llama, Llama-2, Llama-3, Llama3, Mistral-7B. Verified dataset/resource link: Publicly available (code and resources).
+A curated Bangla dataset for gender and religious bias measurement, combining template-based and naturally sourced probing techniques for LLM bias evaluation.
+
 
 ## Notes
 

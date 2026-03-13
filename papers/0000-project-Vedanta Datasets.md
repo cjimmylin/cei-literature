@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,11 +52,11 @@ local_pdf: "[[PDFs/0000/0000-project-Vedanta Datasets.pdf]]"
 publication: GitHub
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
-languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+languages_list: "Sanskrit"
+religious_values: "Hinduism"
+religious_values_list: "Hinduism"
 moral_psychology: "N/A"
 newtags: 
 tags: 
@@ -66,7 +70,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Other"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
@@ -102,7 +106,7 @@ Datasets from various Vedantic texts
 
 ## Data Description
 
-A community-maintained GitHub repository of datasets derived from Vedantic Hindu philosophical texts, formatted for machine learning analysis. The datasets are intended for Hindu philosophical text classification and evaluation tasks. No LLMs are tested or benchmarked in this project.
+Repository of datasets from Vedantic Hindu philosophical texts formatted for ML analysis, intended for text classification and evaluation tasks.
 
 
 ## Notes

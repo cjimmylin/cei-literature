@@ -28,6 +28,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,7 +68,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -96,7 +99,7 @@ First attempt at detecting hate speech in Hindi-English code-mixed text with ~4,
 
 ## Data Description
 
-This paper creates the first dataset for hate speech detection in Hindi-English code-mixed social media text, consisting of tweets annotated at word-level for language and at sentence-level for hate speech vs. normal speech. A supervised classification system using character-level, word-level, and lexicon-based features is proposed. The models tested are traditional ML classifiers (SVM, Random Forest, etc.), not LLMs.
+A dataset of 4,575 Hindi-English code-mixed tweets annotated for hate speech detection at word and tweet level, achieving Cohen's Kappa of 0.982 between annotators.
 
 
 ## Notes

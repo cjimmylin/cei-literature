@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) exhibit advanced reasoning capabilities in different specialized domains, their application to legal reasoning tasks is actively being explored. The pursuit of justice in legal contexts demands not only correct outcomes but also reasoned elaboration, which necessitates deriving conclusions through logically justified and transparent argumentation. Current legal benchmarks, despite being cited as reasoning-focused, suffer from three critical limitations:..."
-LLM_assessed: "GPT-4, GPT-4o, Llama-3, Qwen, DeepSeek, o1, o3"
+LLM_assessed: "DeepSeek, GPT-4, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://github.com/yuwenhan07/MSLR-Bench"
 CONFERENCE: "AAAI 2026"
 ethics_overall: "Yes"
@@ -97,7 +101,8 @@ As large language models (LLMs) exhibit advanced reasoning capabilities in diffe
 
 ## Data Description
 
-MSLR is the first Chinese multi-step legal reasoning benchmark aligned with the IRAC (Issue-Rule-Application-Conclusion) framework, containing 1,389 official legal decisions from Chinese insider trading cases spanning 2005-2024 with 59,771 step-level annotations. The dataset averages 2,516 Chinese characters per document and 43 intermediate reasoning steps per legal decision, constructed via a Human-LLM collaborative annotation pipeline.
+MSLR: the first Chinese multi-step legal reasoning dataset centered on insider trading cases, with 1,389 legal documents annotated using the IRAC framework with 60K step-level labels.
+
 
 ## Notes
 

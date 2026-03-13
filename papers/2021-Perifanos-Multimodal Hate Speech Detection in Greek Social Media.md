@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +48,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Greek"
-languages_list: Greek
+cultures_nationalities_list: "N/A"
+languages_list: "Greek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
@@ -102,7 +105,7 @@ This paper presents a multimodal approach to hate speech detection in Greek soci
 
 ## Data Description
 
-Multimodal approach to Greek hate speech detection combining BERT for text and ResNet for images. Includes dataset of 4,004 memes for detecting hateful, xenophobic, and racist speech targeting refugees and migrants in Greek social media.
+Two Greek-language hate speech datasets: a dataset of 4,004 memes for multimodal hate speech detection targeting refugees and migrants, and a tweet classification dataset for Greek xenophobic and racist content.
 
 
 ## Notes

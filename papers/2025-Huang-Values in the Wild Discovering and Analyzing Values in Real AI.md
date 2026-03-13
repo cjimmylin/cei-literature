@@ -26,6 +26,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -63,7 +66,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---
@@ -97,7 +100,8 @@ AI assistants can impart value judgments that shape people’s decisions and wor
 
 ## Data Description
 
-This study analyzes AI values in real-world deployment by examining approximately 308,210 subjective conversations from a sample of 700K Claude.ai interactions (primarily Claude 3.5 Sonnet). Using privacy-preserving feature extraction, the researchers discovered and taxonomized 3,307 unique AI values and 2,483 human values into a hierarchical taxonomy with five top-level categories (Practical, Epistemic, Social, Protective, Personal).
+Releases a taxonomy of 3,307 AI values and 2,483 human values with frequency data extracted from 308,210 real-world Claude.ai conversations, publicly available on HuggingFace.
+
 
 ## Notes
 

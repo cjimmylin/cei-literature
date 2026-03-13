@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "Philosophy & Technology"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Japanese, Shinto, Confucian"
+national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: ""
-religious_values: Buddhism, Shinto
+religious_values: "Buddhism, Shinto"
 religious_values_list: "Buddhism, Shinto"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Examines Japanese philosophical thought from the Meiji Restoration onward (Fukuzawa, Nishida, Watsuji) and distills four ethical 'spices' — community, wholeness, sincerity, heart — for AI ethics. Discusses Shinto animism's influence on Japanese attitudes toward AI/robots and the concept of Wa (harmony) as shaped by Shinto and Confucian traditions."
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
 virtue_ethics: "No"

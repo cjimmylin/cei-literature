@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Before being deployed for user-facing applications, developers align Large Language Models (LLMs) to user preferences through a variety of procedures, such as Reinforcement Learning From Human Feedback (RLHF) and Direct Preference Optimization (DPO). Current evaluations of these procedures focus on benchmarks of instruction following, reasoning, and truthfulness. However, human preferences are not universal, and aligning to specific preference sets may have unintended effects."
-LLM_assessed: "Llama-2, Mistral"
+LLM_assessed: "Llama-2, Mistral, Zephyr"
 DATA_URL: "https://github.com/SALT-NLP/unintended-impacts-of-alignment"
 CONFERENCE: "ACL 2024"
 ethics_overall: "Yes"
@@ -62,9 +66,9 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
+is_benchmark: No
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Size: Multi-axis evaluation across dialects, languages, global opinions
 
 ## Data Description
 
-This paper evaluates 9 distinct LLMs from two model families (Llama 2 7B and Mistral v0.1 7B) across different alignment stages on three axes of global representation: English dialects, multilingualism, and global opinions. The study includes a new dataset of 554 opinionated questions about countries from r/AskReddit and uses existing benchmarks including MD3 for dialect evaluation and TyDiQA for multilingual question answering.
+Releases a new dataset of 554 opinionated questions about countries sourced from r/AskReddit, used to evaluate how LLM alignment affects global opinion representation.
+
 
 ## Notes
 

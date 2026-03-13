@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,14 +47,14 @@ local_pdf: "[[PDFs/2025/2025-Yong-The State of Multilingual LLM Safety Research 
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese, Indian, Arabic, French, German, Spanish, Russian"
-cultures_nationalities_list: "Chinese, Indian, Arabic, French, German, Spanish, Russian"
-languages_list: "Arabic, Chinese, English, French, German, Hindi, Russian, Spanish"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, Llama-2, Llama-3, PaLM-2, Vicuna"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/CohereLabsCommunity/multilingual_safety_surve"
 tags: 
 abstract: "This paper presents a comprehensive analysis of the linguistic diversity of LLM safety research, highlighting the English-centric nature of the field. Through a systematic review of nearly 300 publications from 2020–2024 across major NLP conferences and workshops at ∗ACL, we identify a significant and growing language gap in LLM safety research, with even high-resource non-English languages receiving minimal attention."
@@ -62,7 +65,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
@@ -95,7 +98,8 @@ Survey on multilingual LLM safety research. Spanish classified as high-resource 
 
 ## Data Description
 
-Backfill summary: Models assessed include ChatGPT, Llama-2, Llama-3, PaLM-2, Vicuna. Verified dataset/resource link: https://huggingface.co/CohereLabsCommunity/multilingual_safety_surve.
+Annotations from a systematic review of ~300 LLM safety publications (2020-2024) at *ACL, covering language coverage, safety subtopics, and documentation practices; released as a public dataset to support multilingual safety research.
+
 
 ## Notes
 

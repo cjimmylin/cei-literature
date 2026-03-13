@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,7 @@ publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Africa’s rich linguistic heritage remains underrepresented in NLP, largely due to historical policies that favor foreign languages and create significant data inequities. In this paper, we integrate theoretical insights on Africa’s language landscape with an empirical evaluation using SAHARA— a comprehensive benchmark we curate from large-scale, publicly accessible datasets capturing the continent’s linguistic diversity."
-LLM_assessed: "BERT, Claude, Claude-4, Claude-4-Sonnet, CommandR, GPT-4, Gemma, Gemma-2, Gemma-3, Gemma2, Gemma3, Llama, Llama-3.1, Llama3, Llama3.1, Llama3.2, Phi-3, Phi-4"
-DATA_URL: "https://africa.dlnlp.ai/sahara/ (public leaderboard)"
+LLM_assessed: "Phi-3, Gemma-2, Llama-3, Aya, Command-R, Command R+, GPT-4, Claude"
+DATA_URL: "https://github.com/UBC-NLP/sahara"
 research_topic: "Machine Learning"
 CONFERENCE: "ACL 2025"
 ethics_overall: "Yes"
@@ -106,7 +110,8 @@ The most extensive African language NLP benchmark, covering 517 languages across
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Claude, Claude-4, Claude-4-Sonnet, CommandR, GPT-4, Gemma, Gemma-2, Gemma-3, Gemma2, Gemma3, Llama, Llama-3.1, Llama3, Llama3.1, Llama3.2, Phi-3, Phi-4. Verified dataset/resource link: https://africa.dlnlp.ai/sahara/ (public leaderboard).
+SAHARA is a comprehensive African NLP benchmark compiled from 30 publicly accessible datasets, covering 517 languages across 16 tasks organized in 4 clusters (classification, generation, MCCR, token-level), with a public leaderboard hosted on Hugging Face Spaces.
+
 
 ## Notes
 

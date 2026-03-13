@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This research provides a unique assessment of how AI systems interpret Generation Alpha (Gen Alpha, born 2010-2024) digital communication patterns. As the first generation to grow up with AI as part of daily life, Gen Alpha faces unprecedented online vulnerability due to their immersive digital engagement and the growing disconnect between their communication patterns and traditional safety mechanisms."
-LLM_assessed: "GPT-4, Claude, Gemini, Llama-3"
+LLM_assessed: "Claude, GPT-4, Gemini, Llama-3"
 DATA_URL: "https://github.com/SystemTwoAI/GenAlphaSlang"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -101,7 +105,8 @@ This research provides a unique assessment of how AI systems interpret Generatio
 
 ## Data Description
 
-The study evaluates four leading AI systems (GPT-4, Claude, Gemini, and Llama 3) on their ability to understand and moderate Generation Alpha digital communication. The dataset comprises 100 contemporary Gen Alpha expressions collected from gaming platforms, social media, and video content, spanning context awareness (34.8%), safety awareness (21.8%), and evolution awareness (43.4%) dimensions.
+A dataset of Gen Alpha digital language expressions collected from gaming platforms, social media, and video content, with safety risk annotations used to evaluate AI content moderation systems' ability to detect masked harassment and manipulation.
+
 
 ## Notes
 

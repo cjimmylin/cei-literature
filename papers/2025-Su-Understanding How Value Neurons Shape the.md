@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,7 +61,7 @@ abstract: "Rapid integration of large language models (LLMs) into societal appli
 paper_summary: "Abstract: Rapid integration of large language models (LLMs) into societal applications has intensi- fied concerns about their alignment with univer- sal ethical principles, as their internal value rep- resentat | Overview: arXiv:2505.17712v1 [cs.CL] 23 May 2025 Understanding How Value Neurons Shape the Generation of Specified Values in LLMs Yi Su*,1,2, Jiayi Zhang*,1,3, Shu Yang†,1,2, Xinhai Wang1,2, Lijie Hu†,1,2, Di W | Methodology: cannot be applied to value-related neurons as deac- tivation will be meaningless. To address this issue, we propose a method that aims to manipulate a | Key Findings: value-related neurons. The details of the baselines are presented in Appendix D. • LPIP: Locating neurons using Log Probabil- ity and Inner Products ("
 local_pdf: "[[PDFs/2025/2025-Su-Understanding How Value Neurons Shape the.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Llama-3, Qwen, Gemma"
+LLM_assessed: "Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "NA"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: "Yes"
@@ -65,8 +69,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
@@ -102,7 +106,7 @@ Rapid integration of large language models (LLMs) into societal applications has
 
 ## Data Description
 
-The paper introduces ValueInsight, a dataset comprising 640 second-person value descriptions and 15,000 scenario-based open-ended questions grounded in the Schwartz Values Survey across four value dimensions (Openness to Change, Self-Transcendence, Conservation, Self-Enhancement). The dataset was constructed using GPT-4o and is used alongside PVQ40 and ValueBench for neuron identification and value manipulation experiments on LLama-3.1-8B, LLama-3.2-1B, Qwen2-0.5B, and Gemma-2-9B.
+ValueInsight: a dataset of 640 second-person value descriptions and 15,000 scenario-based open-ended questions operationalizing four Schwartz Values Survey dimensions, used for locating value-critical neurons in LLMs.
 
 
 ## Notes

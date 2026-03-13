@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +49,8 @@ pdf_extract:
 local_pdf: N/A
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Mongolian"
-languages_list: Mongolian
+cultures_nationalities_list: "N/A"
+languages_list: "Mongolian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -63,7 +66,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
@@ -98,7 +101,7 @@ I found several relevant resources related to Mongolian NLP and sentiment analys
 
 ## Data Description
 
-CC100-Mongolian is a monolingual Mongolian dataset from the CC-Net pipeline, part of the broader CC100 multilingual collection. It provides text data for training and evaluating NLP models in Mongolian, which is a low-resource language. The entry is a dataset catalog page rather than a research paper; no LLMs are directly evaluated.
+CC100-Mongolian is a web-crawled monolingual corpus for the Mongolian language extracted from the CC-100 dataset, used as a language resource for NLP and LLM training and evaluation.
 
 
 ## Notes

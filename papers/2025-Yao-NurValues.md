@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,9 +47,9 @@ url: "http://arxiv.org/abs/2505.08734"
 external_pdf: "http://arxiv.org/pdf/2505.08734.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
+national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: "Chinese, English"
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -57,7 +61,7 @@ abstract: "This work introduces the first benchmark for nursing value alignment,
 paper_summary: "Abstract: This work introduces the first benchmark for nursing value alignment, consisting of five core value dimensions distilled from international nursing codes: Altruism, Human Dignity, Integrity, Justice,  | Overview: arXiv:2505.08734v1 [cs.CL] 13 May 2025 NurValues: Real-World Nursing Values Evaluation for Large Language Models in Clinical Context Ben Yao1, Qiuchi Li2, Yazhou Zhang3∗, Siyu Yang4, Bohan Zhang1, Pra | Methodology: in 15, while the underline font indicates the second-best result. Dataset Model 0-Shot 2-Shot 6-Shot 10-Shot Acc. Ma-F1 Acc. Ma-F1 Acc. Ma-F1 Acc. Ma- | Key Findings: confirms that the rewritten dialogues retain high topical consistency with the original instances. Using three SoTA LLMs to score semantic similarity, | Conclusions: In this paper, we introduce NurValues, the first real-world healthcare benchmark for evaluating LLMs' nursing values. Built from 1,100 real-world nurs"
 local_pdf: "[[PDFs/2025/2025-Yao-NurValues.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4o, o1, Claude, Gemini, DeepSeek, Llama-3, Llama, Qwen"
+LLM_assessed: "Claude, Claude-3, DeepSeek, GPT-4o, Gemini, Llama-3, Qwen, o1"
 DATA_URL: "https://huggingface.co/datasets/Ben012345/NurValues"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -102,7 +106,7 @@ This work introduces the first benchmark for nursing value alignment, consisting
 
 ## Data Description
 
-NurValues is the first real-world nursing value alignment benchmark consisting of 4,400 instances across five core nursing value dimensions (Altruism, Human Dignity, Integrity, Justice, Professionalism). It includes 2,200 Easy-Level instances from a five-month longitudinal field study across three hospitals, paired with counterfactual augmented samples, and 2,200 Hard-Level dialogue-based instances with adversarial complexity. Twenty-three state-of-the-art LLMs were evaluated including 18 general LLMs (Claude 3.5/3.7 Sonnet, GPT-4o, o1, DeepSeek-V3/R1, Gemini-2.5-Pro, Llama-3/3.1/3.3/4 variants, Qwen 2.5 variants) and 5 medical LLMs.
+NurValues is the first nursing value alignment benchmark with 4,400 instances (2,200 Easy-Level + 2,200 Hard-Level) collected through a 5-month longitudinal field study across 3 hospitals. It covers 5 core nursing value dimensions and is released publicly on HuggingFace.
 
 
 ## Notes

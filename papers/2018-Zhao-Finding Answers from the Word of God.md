@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ abstract: "Question answering (QA) has signiﬁcantly beneﬁtted from deep lear
 paper_summary: "Abstract: Question answering (QA) has signiﬁcantly beneﬁtted from deep learning tech- niques in recent years. However, domain-speciﬁc QA remains a challenge due to the signiﬁcant amount of data required to trai | Overview: Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering Helen Jiahe Zhao, Jiamou Liu Department of Computer Science The University of Auckland New Ze | Methodology: is to pre-train the model on the source data and then ﬁne-tune the parameters on the data from the target domain [18, 30]. Overall, transfer learning"
 CONF-CC: "IEEE International Joint Conference on Neural Network"
 DATE_ADDED: 20260208
-LLM_assessed: "GloVe"
+LLM_assessed: NA
 DATA_URL: "https://github.com/helen-jiahe-zhao/BibleQA"
 CONFERENCE: "Other Conference"
 ethics_overall: "No"
@@ -102,7 +106,7 @@ Question answering (QA) has signiﬁcantly beneﬁtted from deep learning techni
 
 ## Data Description
 
-The paper introduces BibleQA, a sentence-level question answering dataset for the Bible domain containing 886 questions derived from Bible trivia, expanded to 3,544 question-answer pairs using four English Bible translations (KJV, ASV, YLT, WEB). Custom RNN (LSTM), CNN, and modified BiDAF neural network models are trained and evaluated using GloVe and Word2Vec embeddings, with transfer learning from the SQuAD dataset.
+BibleQA: 886 Bible trivia questions (3,544 QA pairs across 4 translations) for answer sentence selection from Bible verses, with custom-trained word vectors.
 
 
 ## Notes

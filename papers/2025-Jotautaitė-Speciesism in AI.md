@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ tags:
 abstract: "As large language models (LLMs) become more widely deployed, it is crucial to examine their ethical tendencies. Building on research on fairness and discrimination in AI, we investigate whether LLMs exhibit speciesist bias—discrimination based on species membership— and how they value non‑human animals. We systematically examine this issue across three paradigms: (1) SpeciesismBench, a 1,003‑item benchmark assessing recognition and moral evaluation of speciesist statements; (2) established..."
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, o1, o3, Claude, Llama-3, Gemini, DeepSeek, Grok, Qwen"
+LLM_assessed: "ChatGPT, Claude-3 Sonnet, DeepSeek, GPT-3.5, GPT-4o, Gemini, Grok, Llama-3, o1, o3-mini"
 DATA_URL: "https://osf.io/69epv"
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -127,7 +131,7 @@ The study demonstrates that LLMs reproduce entrenched cultural norms around anim
 
 ## Data Description
 
-The paper introduces SpeciesismBench, a 1,003-item benchmark of speciesist statements covering 8 types of speciesism and 44 animal species, designed to test LLM recognition and moral evaluation of speciesist content. Seventeen models across six families were evaluated: OpenAI (GPT-3.5, GPT-4o, GPT-4.1, o1, o3-mini), Gemini (1.5-flash, 2-flash, 2.5-flash), Claude (3.5, 3.7, Sonnet 4), Llama (3.1-405B, 3.3-70B, 4-Maverick), DeepSeek (V3, R1), and Grok 3. Additional studies used validated psychological measures (Speciesism Scale, sinking-boat dilemmas, disease-rescue dilemmas) on seven LLMs including Qwen3.
+SpeciesismBench: a 1,003-item benchmark of speciesist statements covering 8 speciesism types and 44 animal species, used to assess LLMs' ability to recognize speciesist content and morally evaluate it.
 
 
 ## Notes

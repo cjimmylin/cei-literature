@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: As large language models (LLMs) are increasingly deplo
 local_pdf: "[[PDFs/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Claude, Gemini"
+LLM_assessed: "Claude-3, GPT-4, Gemini"
 DATA_URL: "https://anonymous.4open.science/r/llm_deliberation_values-86E7/README.md"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"

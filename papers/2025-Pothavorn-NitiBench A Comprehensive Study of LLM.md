@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,8 +59,8 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The application of large language models (LLMs) in the legal domain holds significant potential for information retrieval and question answering, yet Thai legal QA systems face challenges due to a lack of standardized evaluation benchmarks and the complexity of Thai legal structures. This paper introduces NitiBench, a benchmark comprising two datasets: the NitiBench-CCL, covering general Thai financial law, and the NitiBench-Tax, which includes real-world tax law cases requiring advanced legal..."
-LLM_assessed: "BERT, Claude, Claude 3.5 Sonnet, GPT 4o, GPT-4o, GPT-4o mini, GPT4o, Llama3, claude 3, claude-3, claude-3.5-sonnet, gpt-4o-mini, llama 3, llama3.1"
-DATA_URL: "https://github.com/vistec-ai/nitibench"
+LLM_assessed: "BERT, Claude-3, GPT-4o"
+DATA_URL: "https://huggingface.co/datasets/VISAI-AI/nitibench"
 research_topic: "Question Answering"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -66,7 +70,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -100,7 +104,8 @@ Comprehensive study of LLM framework capabilities for Thai legal QA. Comprises N
 
 ## Data Description
 
-Backfill summary: Models assessed include BERT, Claude, Claude 3.5 Sonnet, GPT 4o, GPT-4o, GPT-4o mini, GPT4o, Llama3, claude 3, claude-3, claude-3.5-sonnet, gpt-4o-mini, llama 3, llama3.1. Verified dataset/resource link: https://github.com/vistec-ai/nitibench.
+NitiBench comprises two Thai legal QA datasets: NitiBench-CCL (general Thai financial law QA) and NitiBench-Tax (real-world tax law cases requiring advanced legal reasoning), both publicly released on HuggingFace with associated code on GitHub (https://github.com/vistec-ai/nitibench).
+
 
 ## Notes
 

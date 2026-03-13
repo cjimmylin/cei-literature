@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +46,17 @@ CONF-CC: "Canadian Journal of Public Health"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: 
-cultures_nationalities_list: "Indigenous, Mi'kmaw"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: Indigenous (North America)
-religious_values_list: "Indigenous (North America)"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Explores AI's potential to enhance healthcare for underserved rural, remote, and Indigenous communities through the Two-Eyed Seeing approach. Proposes a framework integrating AI with Indigenous knowledge systems for culturally safe and ethical healthcare implementation."
 CONFERENCE: "Journal"
 ethics_overall: "Yes"
 virtue_ethics: "No"

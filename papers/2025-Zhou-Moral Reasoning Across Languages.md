@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,8 +46,8 @@ url: "http://arxiv.org/abs/2504.19759"
 external_pdf: "http://arxiv.org/pdf/2504.19759.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
-national_ethnic_cultural: "Vietnamese, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Vietnamese"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Chinese, English, Indonesian, Russian, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -136,7 +140,7 @@ We cannot ignore low-resource languages in alignment. They are not just "edge ca
 
 ## Data Description
 
-The Multilingual Moral Reasoning Benchmark (MMRB) evaluates moral reasoning abilities of LLMs across five typologically diverse languages (English, Chinese, Russian, Vietnamese, Indonesian) and three levels of contextual complexity. It comprises 2,170 moral scenarios across three datasets: ETHICSBASE (sentence-level binary classification), ETHICSPRO (paragraph-level with LLM-generated moral reasoning), and ETHICSMAX (document-level structured moral dilemmas with three ethical branches). The datasets were translated using DeepSeek API with manual verification by bilingual annotators.
+MMRB (Multilingual Moral Reasoning Benchmark) contains 2,170 moral reasoning scenarios across three complexity levels (sentence, paragraph, document) translated into five typologically diverse languages (English, Chinese, Russian, Vietnamese, Indonesian).
 
 
 ## Notes

@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +43,7 @@ doi: 10.18653/v1/2021.mrqa-1.11
 url: "https://aclanthology.org/2021.mrqa-1.11/"
 external_pdf: "https://aclanthology.org/2021.mrqa-1.11.pdf"
 national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Israeli"
+cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -60,8 +63,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for question answering"
 data_metrics: "Not specified"
@@ -101,7 +104,7 @@ NLP research in Hebrew has largely focused on morphology and syntax, where rich 
 
 ## Data Description
 
-ParaShoot is the first question answering dataset in modern Hebrew, containing 3,038 annotated paragraph-question-answer triplets following the SQuAD format. Paragraphs are sampled from Hebrew Wikipedia articles covering diverse domains, with questions and answers crowd-sourced from native Hebrew speakers via the Prolific platform.
+ParaShoot: first Hebrew question answering dataset with ~3,000 annotated examples following SQuAD format, sourced from Hebrew Wikipedia.
 
 
 ## Notes

@@ -21,6 +21,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +42,8 @@ pdf_extract: "PDF Extracts/2025/2025-Neuman-PRIME Framework Convergent Ethics.md
 local_pdf: "[[PDFs/2025/2025-Neuman-PRIME Framework Convergent Ethics.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2504.19255.pdf"
 ethics_perspective: "Moral Foundations Analysis"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -49,7 +53,7 @@ key_contribution: "Introduces the PRIME framework to analyze moral foundation pr
 significance: "Reveals a convergence across models on care/harm and fairness while underweighting other foundations"
 abstract: "As large language models (LLMs) are increasingly deployed in consequential decision-making contexts, systematically assessing their ethical reasoning capabilities becomes a critical imperative. This paper introduces the Priorities in Reasoning and Intrinsic Moral Evaluation (PRIME) framework—a comprehensive methodology for analyzing moral priorities across foundational ethical dimensions including consequentialist-deontological reasoning, moral foundations theory, and Kohlberg's developmental..."
 paper_summary: "Abstract: As large language models (LLMs) are increasingly deployed in consequential decision-making contexts, systematically assessing their ethical reasoning capabilities becomes a critical imperative. This p | Overview: The Convergent Ethics of AI? Analyzing Moral Foundation Priorities in Large Language Models with a Multi-Framework Approach Chad Coleman W. Russell Neuman Ali Dasdan New York University New York Unive | Methodology: Chad Coleman W. Russell Neuman Ali Dasdan New York University New York University DropBox cjc652@nyu.edu wrn210@nyu.edu alidasdan@gmail.com Safinah Al | Key Findings: (PRIME) framework—a comprehensive methodology for analyzing moral priorities across foundational ethical dimensions including consequentialist-deontol | Conclusions: This comprehensive analysis of moral reasoning patterns in language models reveals significant insights into how artificial intelligence systems appro"
-LLM_assessed: "GPT-4, Llama, Claude, Mistral"
+LLM_assessed: "Claude, Gemini, GPT-4o, LLaMA, Llama-3, Mistral"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 publication: "arXiv preprint"

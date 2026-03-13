@@ -26,6 +26,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +42,7 @@ authors: "Chris Emezue; NaijaVoices Community; Busayo Awobade; Abraham Owodunni;
 url: "https://arxiv.org/abs/2505.20564"
 external_pdf: "https://arxiv.org/pdf/2505.20564.pdf"
 national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "Nigerian"
+cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Hausa, Igbo, Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -53,7 +55,7 @@ paper_summary: "Abstract: The development of high-performing, robust, and re- li
 local_pdf: "[[PDFs/2025/2025-Emezue-NaijaVoices.pdf]]"
 CONF-CC: "INTERSPEECH 2025"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: "Whisper"
 DATA_URL: "https://naijavoices.com/"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -61,8 +63,8 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: "Yes"
-is_eval: "No"
+is_benchmark: No
+is_eval: Yes
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"

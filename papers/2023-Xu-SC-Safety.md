@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,7 +60,7 @@ abstract: "Large language models (LLMs), like ChatGPT and GPT-4, have demonstrat
 paper_summary: "Abstract: Large language models (LLMs), like ChatGPT and GPT-4, have demonstrated remarkable abilities in natural language understanding and generation. However, alongside their posi- tive impact on our daily t | Overview: SC-Safety: A Multi-round Open-ended Question Adversarial Safety Benchmark for Large Language Models in Chinese Liang Xu, Kangkang Zhao, Lei Zhu, Hang Xue CLUE team clues@cluebenchmarks.com Abstract La | Methodology: Safety risks primarily arise from LLMs' open-ended gener- ative nature instead of close-ended recognition. Therefore, we design open-ended subjective  | Key Findings: We evaluated 13 major LLMs that support Chinese, includ- ing 7 commercial services, and 6 open-sourced models. In- formation on models is shown in Tab | Conclusions: The introduction of SuperCLUE-Safety(SC-Safety) pro- vides a comprehensive and challenging benchmark for eval- uating the safety of Chinese language m"
 local_pdf: "[[PDFs/2023/2023-Xu-SC-Safety.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Alpaca, Vicuna, Qwen, Falcon"
+LLM_assessed: "Baichuan, ChatGPT, GPT-3.5, GPT-4, Llama-2, Qwen"
 DATA_URL: "https://www.CLUEbenchmarks.com"
 CONFERENCE: "Other Conference"
 ethics_overall: "Yes"
@@ -65,8 +69,8 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---
@@ -101,7 +105,7 @@ Large language models (LLMs), like ChatGPT and GPT-4, have demonstrated remarkab
 
 ## Data Description
 
-SC-Safety (SuperCLUE-Safety) is a multi-round adversarial safety benchmark for Chinese LLMs containing 4,912 open-ended question pairs covering 20+ safety sub-dimensions. The benchmark encompasses three capabilities: Traditional Safety, Responsible AI, and Robustness Against Instruction Attacks. Thirteen major LLMs supporting Chinese were evaluated, including GPT-4, GPT-3.5-turbo, Llama-2-13B-Chat, Chinese-Alpaca-2-13B, Qwen-7B-Chat, Baichuan2-13B-Chat, ChatGLM2, and OpenBuddy-Llama2-70B.
+SC-Safety (SuperCLUE-Safety) multi-round adversarial benchmark with 4912 open-ended question pairs across 20+ safety sub-dimensions, evaluating traditional safety, responsible AI, and robustness against instruction attacks for Chinese LLMs.
 
 
 ## Notes

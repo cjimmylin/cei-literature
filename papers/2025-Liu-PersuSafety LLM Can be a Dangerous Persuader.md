@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Recent advancements in Large Language Models (LLMs) have enabled them to approach human-level persuasion capabilities. However, such potential also raises concerns about the safety risks of LLM-driven persuasion, particularly their potential for unethical influence through manipulation, deception, exploitation of vulnerabilities, and many other harmful tactics. In this work, we present a systematic investigation of LLM persuasion safety through two critical aspects: (1) whether LLMs..."
-LLM_assessed: "GPT-4, Mistral, Llama-3, Qwen, Claude"
+LLM_assessed: "Claude, GPT-4o, GPT-4o mini, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/PLUM-Lab/PersuSafety"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -63,7 +67,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---
@@ -98,7 +102,8 @@ Recent advancements in Large Language Models (LLMs) have enabled them to approac
 
 ## Data Description
 
-The PERSUSAFETY framework introduces 472 unethical and 100 ethically neutral persuasion tasks covering 6 topics and 15 unethical strategies. Eight LLMs are evaluated as persuaders including Mistral-7B, Llama-3.2-3B-Instruct, Llama-3.1-8B-Instruct, GPT-4o, GPT-4o-mini, Qwen2.5-7B-Instruct, Claude-3.5-Haiku, and Claude-3.5-Sonnet. Multi-turn persuasive conversations are simulated with GPT-4o as the default persuadee.
+Constructs and releases PERSUSAFETY, a dataset of 472 unethical and 100 ethically neutral persuasion tasks across 6 topics and 15 fine-grained unethical persuasion strategies, synthesized with OpenAI-o1 and validated via human-in-the-loop review.
+
 
 ## Notes
 

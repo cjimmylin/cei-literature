@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: Ensuring that Large Language Models (LLMs) align with 
 local_pdf: "[[PDFs/2025/2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.pdf]]"
 CONF-CC: "AIES 2025"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, Llama-3, DeepSeek, Qwen"
+LLM_assessed: "DeepSeek, GPT-4o, Llama-3, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: "Yes"
@@ -65,7 +69,7 @@ utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---
@@ -89,7 +93,7 @@ Ensuring that Large Language Models (LLMs) align with the diverse and evolving h
 
 ## Data Description
 
-The paper evaluates its ethical reasoning paradigm on the SafeWorld benchmark, a geo-diverse value alignment dataset containing 2,775 queries across 50 countries and 493 regions. Four LLMs were tested: GPT-4o, Qwen2.5-72B, Llama3.3-70B, and DeepSeek-R1, using norm identification and value alignment scores as evaluation metrics. The framework proposes a five-step ethical reasoning process inspired by established ethical decision-making models.
+A chain-of-thought fine-tuning dataset for ethical reasoning is constructed, used to post-train LLMs. Evaluation is performed on the SafeWorld benchmark (2,775 diverse scenarios covering legal and cultural value alignment).
 
 
 ## Notes

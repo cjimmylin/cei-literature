@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +49,14 @@ local_pdf: "[[PDFs/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Tr
 publication: "arXiv / AAAI/ACM AIES 2023"
 CONF-CC: "AIES 2023"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Filipino, Thai, Iranian, Multicultural/Cross-cultural"
-cultures_nationalities_list: "Bengali, Filipino, Thai, Iranian, Cross-cultural"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Bengali, Farsi, Malay, Tagalog, Thai, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "ChatGPT, BERT"
+LLM_assessed: "ChatGPT"
 DATA_URL: "NA"
 tags: 
 abstract: "In this multicultural age, language translation is one of the most performed tasks, and it is becoming increasingly AI-moderated and automated. As a novel AI system, ChatGPT claims to be proficient in such translation tasks and in this paper, we put that claim to the test. Specifically, we examine ChatGPT’s accuracy in translating between English and languages that exclusively use gender-neutral pronouns."
@@ -63,7 +67,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"

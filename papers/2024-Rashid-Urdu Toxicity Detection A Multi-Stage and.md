@@ -27,6 +27,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +55,7 @@ publication: MDPI
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Pakistani"
+cultures_nationalities_list: "N/A"
 languages_list: "Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -105,7 +108,7 @@ Comprehensive multilabel Urdu toxicity detection corpus with over 72,000 Roman U
 
 ## Data Description
 
-Introduces a comprehensive multilabel Urdu toxicity detection corpus with over 72,000 Roman Urdu comments from social media. Achieves 95% F1-score using data augmentation techniques with traditional ML classifiers, not LLMs.
+Multilabel Urdu toxicity detection corpus with over 72,000 Roman Urdu social media comments annotated for multiple toxicity categories. Includes data augmentation techniques achieving 95% F1-score, constituting a large-scale benchmark for Urdu safety evaluation.
 
 
 ## Notes

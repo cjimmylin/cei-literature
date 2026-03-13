@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ paper_summary: "Abstract: Because 'out-of-the-box' large language models are cap
 local_pdf: "[[PDFs/2023/2023-Zou-Universal and Transferable Adversarial Attacks on.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Llama-2, Vicuna, PaLM-2, Falcon"
+LLM_assessed: "ChatGPT, Claude, Falcon, GPT-3.5, GPT-4, Llama-2, PaLM, Pythia, Vicuna"
 DATA_URL: "https://github.com/llm-attacks/llm-attacks"
 CONFERENCE: "Preprint"
 ethics_overall: "No"
@@ -95,7 +99,7 @@ Because "out-of-the-box" large language models are capable of generating a great
 
 ## Data Description
 
-The paper introduces AdvBench, a benchmark for evaluating adversarial attacks against aligned language models, comprising two settings: 500 harmful strings reflecting toxic behavior and 500 harmful behavior instructions. The adversarial attack method (Greedy Coordinate Gradient) was optimized on Vicuna-7B/13B and evaluated for transferability across multiple open-source and proprietary LLMs including GPT-3.5, GPT-4, PaLM-2, Claude-2, LLaMA-2, Falcon, and Pythia.
+Code and adversarial attack methodology for generating universal transferable adversarial suffixes against aligned LLMs.
 
 
 ## Notes

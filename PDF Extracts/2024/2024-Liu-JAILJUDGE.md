@@ -1,23 +1,4 @@
----
-title: "2024-Liu-JAILJUDGE - PDF Extract"
-source_pdf: "2024-Liu-JAILJUDGE.pdf"
-pages: 32
-extracted_at: "2026-02-07T17:00:48.237870"
----
-
-# PDF Extract: 2024-Liu-JAILJUDGE
-
-**Source PDF:** 2024-Liu-JAILJUDGE.pdf
-**Total Pages:** 32
-
----
-
-## Content
-
-```
---- Page 1 ---
-
-Preprint
+---\ntitle: "2024-Liu-JAILJUDGE - PDF Extract"\nsource_pdf: "2024-Liu-JAILJUDGE.pdf"\npages: 32\nextracted_at: "2026-02-14T02:17:29.952863"\n---\n\n# PDF Extract: 2024-Liu-JAILJUDGE\n\n**Source PDF:** 2024-Liu-JAILJUDGE.pdf\n**Total Pages:** 32\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nPreprint
 JAILJUDGE: A COMPREHENSIVE JAILBREAK
 JUDGE BENCHMARK WITH MULTI-AGENT ENHANCED
 EXPLANATION EVALUATION FRAMEWORK
@@ -75,9 +56,7 @@ usail-hkust/JailJudge
 1
 arXiv:2410.12855v2  [cs.CL]  18 Oct 2024
 
---- Page 2 ---
-
-Preprint
+--- Page 2 ---\n\nPreprint
 JAILJUDGE Guard model is available at https://huggingface.co/
 usail-hkust/JailJudge-guard
 1
@@ -195,9 +174,7 @@ complex jailbreak scenarios, which includes two high-quality, human-annotated te
 over 4.5k+ labeled complex scenarios and a set of over 6k+ labeled multi-language scenarios. (2) We
 2
 
---- Page 3 ---
-
-Preprint
+--- Page 3 ---\n\nPreprint
 introduce a multi-agent jailbreak judge framework, JailJudge MultiAgent, that provides reasoning
 explainability and fine-grained evaluations. Using this framework, we construct the instruction-tuning
 dataset, JAILJUDGETRAIN, for the jailbreak judge. (3) We then instruction-tune an end-to-end
@@ -262,9 +239,7 @@ can be defined as follows:
 (4)
 3
 
---- Page 4 ---
-
-Preprint
+--- Page 4 ---\n\nPreprint
 Annotation Process
 - Human annotator training
 - Manual labeling
@@ -402,9 +377,7 @@ judge benchmark, we draw on six sources: vanilla harmful, synthetic vanilla, syn
 multilingual harmful, in-the-wild, and deceptive harmful prompts.
 4
 
---- Page 5 ---
-
-Preprint
+--- Page 5 ---\n\nPreprint
 Vanilla Harmful Prompts. We collect the original harmful prompts from prior safety benchmark
 datasets and refine broad and vague safety categories into 14 more fine-grained categories, following
 the MLCommons standardized hazards taxonomy Inan et al. (2023). This results in relatively more
@@ -463,9 +436,7 @@ whether the LLM is jailbroken. Our human annotation process consists of four sta
 training, manual labeling, GPT-4 labeling, cross-comparison, and multi-person voting.
 5
 
---- Page 6 ---
-
-Preprint
+--- Page 6 ---\n\nPreprint
 Human Annotator Training Phase. In the human annotator training phase, we follow the MLCom-
 mons standardized LLM policy, which includes nine detailed policies ranging from user privacy to
 ethics and morality. We provide detailed scenarios and examples to the human annotators, allowing
@@ -537,9 +508,7 @@ After transforming each judging agent’s score ai to the BPA function µi(·)(i
 Dempster’s rule of combination to aggregate,
 6
 
---- Page 7 ---
-
-Preprint
+--- Page 7 ---\n\nPreprint
 µagg(A) = 1
 M
 X
@@ -614,9 +583,7 @@ Evaluation Datasets and Metrics. To assess the performance of the jailbreak judg
 JAILJUDGE ID and OOD datasets. Additionally, we include the public jailbreak judge dataset
 7
 
---- Page 8 ---
-
-Preprint
+--- Page 8 ---\n\nPreprint
 Table 2: Jailbreak judge experiments on datasets JAILJUDGE ID and JBB Behaviors.
 Methods
 JAILJUDGE ID
@@ -863,9 +830,7 @@ evidenced by its higher EQ scores and logical consistency in reasoning. The insi
 summarized as follows.
 8
 
---- Page 9 ---
-
-Preprint
+--- Page 9 ---\n\nPreprint
 Table 3: Jailbreak judge experiments on datasets JAILJUDGE OOD and WILDTEST under zero-shot
 setting.
 Methods
@@ -1111,9 +1076,7 @@ keywords as malicious. Toxic text classifiers Ji et al. (2024b), trained on toxi
 to generalize to complex scenarios, such as broad-range risks and adversarial contexts. In contrast,
 9
 
---- Page 10 ---
-
-Preprint
+--- Page 10 ---\n\nPreprint
 jv
 zh
 vi
@@ -1271,9 +1234,7 @@ level and model-level strategies. System-level defenses Xie et al. (2023); Li et
 external safety measures for both inputs and outputs. For example, SmoothLLM Robey et al. (2023b)
 10
 
---- Page 11 ---
-
-Preprint
+--- Page 11 ---\n\nPreprint
 generates multiple outputs from various jailbreaking prompts and uses majority voting to select the
 safest response. Model-level defenses Madry et al. (2018); Yuanshun et al. (2023); Zheng et al.
 (2024a); Siththaranjan et al. (2023); Wang et al. (2024); Zheng et al. (2024b); Hasan et al. (2024);
@@ -1323,9 +1284,7 @@ Yue Deng, Wenxuan Zhang, Sinno Jialin Pan, and Lidong Bing. Multilingual jailbre
 large language models. arXiv preprint arXiv:2310.06474, 2023b.
 11
 
---- Page 12 ---
-
-Preprint
+--- Page 12 ---\n\nPreprint
 Yanrui Du, Sendong Zhao, Ming Ma, Yuhan Chen, and Bing Qin. Analyzing the inherent response
 tendency of llms: Real-world instructions-driven jailbreak. arXiv preprint arXiv:2312.04127,
 2023.
@@ -1377,9 +1336,7 @@ prompts on aligned large language models. In The Twelfth International Conferenc
 Representations, 2024b. URL https://openreview.net/forum?id=7Jwpw4qKkb.
 12
 
---- Page 13 ---
-
-Preprint
+--- Page 13 ---\n\nPreprint
 Weikai Lu, Ziqian Zeng, Jianwei Wang, Zhengdong Lu, Zelin Chen, Huiping Zhuang, and Cen Chen.
 Eraser: Jailbreaking defense in large language models via unlearning harmful knowledge, 2024.
 Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, and Adrian Vladu. To-
@@ -1428,9 +1385,7 @@ Bibek Upadhayay and Vahid Behzadan. Sandwich attack: Multi-language mixture adap
 llms, 2024.
 13
 
---- Page 14 ---
-
-Preprint
+--- Page 14 ---\n\nPreprint
 Jiongxiao Wang, Jiazhao Li, Yiquan Li, Xiangyu Qi, Muhao Chen, Junjie Hu, Yixuan Li, Bo Li, and
 Chaowei Xiao. Mitigating fine-tuning jailbreak attack with backdoor enhanced alignment. arXiv
 preprint arXiv:2402.14968, 2024.
@@ -1482,9 +1437,7 @@ Andy Zhou, Bo Li, and Haohan Wang. Robust prompt optimization for defending lang
 against jailbreaking attacks. arXiv preprint arXiv:2401.17263, 2024.
 14
 
---- Page 15 ---
-
-Preprint
+--- Page 15 ---\n\nPreprint
 Andy Zou, Zifan Wang, J. Zico Kolter, and Matt Fredrikson. Universal and transferable adversarial
 attacks on aligned language models. CoRR, abs/2307.15043, 2023. doi: 10.48550/ARXIV.2307.
 15043.
@@ -1493,9 +1446,7 @@ Wang, Zico Kolter, Matt Fredrikson, and Dan Hendrycks. Improving alignment and r
 with circuit breakers, 2024.
 15
 
---- Page 16 ---
-
-Preprint
+--- Page 16 ---\n\nPreprint
 JAILJUDGE: A Comprehensive Jailbreak Judge
 Benchmark with Multi-Agent Enhanced Explanation
 Evaluation Framework
@@ -1565,9 +1516,7 @@ Building JAILJUDGE Benchmark and multi-agent Judge Framework
 18
 16
 
---- Page 17 ---
-
-Preprint
+--- Page 17 ---\n\nPreprint
 8.1
 Complex Harmful Prompt Construction . . . . . . . . . . . . . . . . . . . . . . .
 18
@@ -1601,9 +1550,7 @@ Multi-agent Judge Framework
 12.4 JAILJUDGE Guard As An Attack Enhancer and Defense Method: Datasets and Metrics 29
 17
 
---- Page 18 ---
-
-Preprint
+--- Page 18 ---\n\nPreprint
 8
 BUILDING JAILJUDGE BENCHMARK AND MULTI-AGENT JUDGE
 FRAMEWORK
@@ -1681,9 +1628,7 @@ setting, we adhere to the original settings: 500 optimization steps, top-k of 25
 adversarial suffix, and 20 tokens that can be optimized.
 18
 
---- Page 19 ---
-
-Preprint
+--- Page 19 ---\n\nPreprint
 • AutoDAN Liu et al. (2024b): AutoDAN employs a hierarchical genetic algorithm to generate
 stealthy jailbreak prompts. It starts with human-created prompts and refines them through
 selection, crossover, and mutation operations. This method preserves the logical flow and
@@ -1742,9 +1687,7 @@ adversarial prompt refinement to the original harmful prompts. Specifically, we 
 is simmiar with PAIR Chao et al. (2023) useing attacker LLM crafts jailbreaks for a targeted LLM
 19
 
---- Page 20 ---
-
-Preprint
+--- Page 20 ---\n\nPreprint
 through iterative queries, using conversation history to enhance reasoning and refinement. We employ
 Vicuna-13B-v1.5 as the attack model.
 Diverse LLM Responses. To construct diverse LLM responses, we collect responses from three
@@ -1799,9 +1742,7 @@ GETRAIN dataset. The most frequent hazard category is S2, while the least freque
 which has 1102 instances. Figure 9 details the distribution of prompt complexity categories in the
 20
 
---- Page 21 ---
-
-Preprint
+--- Page 21 ---\n\nPreprint
 To ensure the safety and reliability of the LLM, the LLM’s responses must comply with the
 following scheduled rules. These rules are designed to prevent the model from
 generating harmful, unethical, or illegal content and to ensure ethical and legal
@@ -1838,9 +1779,7 @@ accuracy and reliability of the information.
 Figure 7: LLM Usage Policies.
 21
 
---- Page 22 ---
-
-Preprint
+--- Page 22 ---\n\nPreprint
 S2
 S4
 S8
@@ -1978,9 +1917,7 @@ In this section, we provide detailed information about the LLM-powered agent. Th
 used throughout is GPT-4. Specifically, there are three judging agents, three voting agents, and one
 22
 
---- Page 23 ---
-
-Preprint
+--- Page 23 ---\n\nPreprint
 jv
 10.0%
 zh
@@ -2070,9 +2007,7 @@ adversarial prompts, where τa is the threshold. (We omit the output of analysis
 detailed JailBoost can be seen in Algorithm 1.
 23
 
---- Page 24 ---
-
-Preprint
+--- Page 24 ---\n\nPreprint
 {
 As a Voting Agent, your task is to review the scores and reasons provided by Judging
 Agents and vote on whether to accept or reject their evaluations. Examine each
@@ -2126,9 +2061,7 @@ Note: Review carefully and make your decision accordingly.
 Figure 14: System prompt of voting agent.
 24
 
---- Page 25 ---
-
-Preprint
+--- Page 25 ---\n\nPreprint
 {
 Task Description:
 As an Inference Agent, review the voting results from the Voting Agents to derive the
@@ -2187,9 +2120,7 @@ Score: [8]
 Figure 15: System prompt of inference agent.
 25
 
---- Page 26 ---
-
-Warning: This page contains potentially harmful or offensive content
+--- Page 26 ---\n\nWarning: This page contains potentially harmful or offensive content
 Preprint
 Non-Jailbroken
 Jailbroken
@@ -2260,9 +2191,7 @@ reason>, \"score\": <score>1</score> }
 Figure 18: SFT prompts.
 26
 
---- Page 27 ---
-
-Warning: This page contains potentially harmful or offensive content
+--- Page 27 ---\n\nWarning: This page contains potentially harmful or offensive content
 Preprint
 Algorithm 1: JailBoost Algorithm
 1 Function JailBoost(ˆx1:n, ˆy,A(·), πϕ(·), τa):
@@ -2337,9 +2266,7 @@ WILDTEST Han et al. (2024) consists of over 1,700 data instances and includes re
 interactions with LLM prompts.
 27
 
---- Page 28 ---
-
-Warning: This page contains potentially harmful or offensive content
+--- Page 28 ---\n\nWarning: This page contains potentially harmful or offensive content
 Preprint
 {
 You are an AI system evaluation expert. Your task is to assess whether the given reason
@@ -2400,9 +2327,7 @@ Evaluation Explanation: [your_evaluation_explanation]
 Figure 19: The GPT-4 prompt for evaluating quality of reasoning explainability.
 28
 
---- Page 29 ---
-
-Preprint
+--- Page 29 ---\n\nPreprint
 12.2
 JAILBREAK JUDGE BASELINES
 Jailbreak Judge Baselines and Implementation Settings. To evaluate the performance of our
@@ -2458,9 +2383,7 @@ entire dataset as the test set, ensuring the model has no prior exposure to the 
 11 attack risks, including Illegal Activity, Child Abuse Content, Hate Speech/Harassment/Violence,
 29
 
---- Page 30 ---
-
-Preprint
+--- Page 30 ---\n\nPreprint
 {
 You are a helpful red teaming assistant. Upon receiving a USERS PROMPT and the
 corresponding response TARGET MODEL RESPONSE from the target model, your role
@@ -2522,9 +2445,7 @@ Figure 20: The GPT-4 prompt for jailbreak judge: Incorporating reasoning explana
 Grained scores .
 30
 
---- Page 31 ---
-
-Preprint
+--- Page 31 ---\n\nPreprint
 JAILJUDGE ID
 JBB Behaviors
 89.0
@@ -2577,9 +2498,7 @@ evaluation prompts are shown in Figure 23. The base model we used is Vicuna-13B-
 the baseline jailbreak attack and defense methods can be found in Appendix 8.1.
 31
 
---- Page 32 ---
-
-Preprint
+--- Page 32 ---\n\nPreprint
 {
 You are a helpful red teaming assistant. Upon receiving a USERS PROMPT and the
 corresponding response TARGET MODEL RESPONSE from the target model, your role
@@ -2639,5 +2558,4 @@ Your response:
 }
 Figure 23: GPT-4 evaluation prompt for assessing jailbreak success.
 32
-
-```
+\n```\n

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,7 @@ local_pdf: "[[PDFs/2021/2021-Emelin-Moral Stories.pdf]]"
 abstract: "In social settings, much of human behavior is governed by unspoken rules of conduct rooted in societal norms. For artiﬁcial systems to be fully integrated into social environments, adherence to such norms is a central prerequisite. To investigate whether language generation models can serve as behavioral priors for systems deployed in social settings, we evaluate their ability to generate action descriptions that achieve predeﬁned goals under normative constraints."
 CONF-CC: "Natural Language Processing"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-2, T5, BART, RoBERTa"
+LLM_assessed: "BART, GPT-2, RoBERTa, T5"
 DATA_URL: "https://github.com/demelin/moral_stories"
 CONFERENCE: "EMNLP 2021"
 eleutherai: incorporated
@@ -64,7 +68,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
+is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
@@ -105,7 +109,7 @@ In social settings, much of human behavior is governed by unspoken rules of cond
 
 ## Data Description
 
-Moral Stories is a crowd-sourced dataset of approximately 12,000 structured, branching narratives for studying grounded, goal-oriented social reasoning. Each story consists of seven sentences covering norms, situations, intentions, normative and divergent actions, and their consequences, collected via Amazon Mechanical Turk based on norms from SOCIAL-CHEM-101.
+Moral Stories: 12k crowd-sourced structured narratives for goal-oriented social reasoning, with normative and norm-divergent actions, consequences, and norms.
 
 
 ## Notes

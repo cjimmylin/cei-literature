@@ -25,6 +25,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,13 +48,13 @@ local_pdf: "[[PDFs/2025/2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation B
 pdf_extract: "PDF Extracts/2025/2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "Swiss"
+cultures_nationalities_list: "N/A"
 languages_list: "English, French, German, Italian, Romansh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-LLM_assessed: "Claude-3.5-Sonnet; Claude-3.5-Haiku; GPT-4o; GPT-4o-Mini; Gemini-1.5-Pro; Gemini-1.5-Flash; Llama-3.1-405B; Llama-3.3-70B; Gemma-2-2B; Gemma-2-9B; Llama-3.2-1B; Llama-3.2-3B; Llama-3.1-8B; Phi-3.5-Mini; Phi-3-Medium; Qwen-2.5-0.5B; Qwen-2.5-1.5B; Qwen-2.5-3B; Qwen-2.5-7B; Qwen-2.5-14B; Qwen-2.5-32B"
+LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Llama-3, Gemma-2, Phi-3, Qwen-2"
 DATA_URL: "NA"
 tags: 
 abstract: "In Switzerland legal translation is uniquely important due to the country’s four official languages and requirements for multilingual legal documentation. However, this process traditionally relies on professionals who must be both legal experts and skilled translators— creating bottlenecks and impacting effective access to justice. To address this challenge, we introduce SwiLTra-Bench, a comprehensive multilingual benchmark of over 180K aligned Swiss legal translation pairs comprising laws,..."
@@ -64,7 +67,7 @@ utilitarian_ethics: "No"
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
+is_dataset: Yes
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---

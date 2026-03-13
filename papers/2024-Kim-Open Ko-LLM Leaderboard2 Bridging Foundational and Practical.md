@@ -55,7 +55,7 @@ religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
-DATA_URL: "NA"
+DATA_URL: "https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard"
 tags: 
 abstract: "The Open Ko-LLM Leaderboard has been instrumental in benchmarking Korean Large Language Models (LLMs), yet it has certain limitations. Notably, the disconnect between quantitative improvements on the overly academic leaderboard benchmarks and the qualitative impact of the models should be addressed. Furthermore, the benchmark suite is largely composed of translated versions of their English counterparts, which may not fully capture the intricacies of the Korean language."
 research_topic: "Machine Learning"
@@ -68,7 +68,7 @@ ethics_perspective: "General Ethics"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Benchmark text corpus"
+data_description: "Open Ko-LLM Leaderboard2 introduces nine Korean-language benchmark tasks (Ko-GPQA, Ko-WinoGrande, Ko-GSM8K, Ko-EQ-Bench, Ko-IFEval, KorNAT-Knowledge, KorNAT-Social-Value, Ko-Harmlessness, Ko-Helpfulness) totalling ~25,000+ evaluation samples. Four tasks (KorNAT-Knowledge, KorNAT-Social-Value, Ko-Harmlessness, Ko-Helpfulness) are newly constructed native Korean corpora; datasets are kept private to prevent contamination."
 data_metrics: "Not specified"
 ---
 # Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs

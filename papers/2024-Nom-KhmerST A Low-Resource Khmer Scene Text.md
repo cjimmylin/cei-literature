@@ -70,7 +70,7 @@ research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Benchmark annotated dataset"
+data_description: "KhmerST is the first Khmer scene-text detection and recognition benchmark dataset, containing 1,544 expert-annotated real-world images (997 indoor, 547 outdoor) from Cambodia with polygon-level line-text annotations. Baseline evaluations use YOLO variants (v1/v5/v8/v10) for detection and TrOCR/Tesseract for recognition."
 data_metrics: "Not specified"
 ---
 # KhmerST: A Low-Resource Khmer Scene Text Detection and Recognition Benchmark

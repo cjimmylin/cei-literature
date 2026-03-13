@@ -69,7 +69,7 @@ research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-data_description: "Annotated dataset"
+data_description: "Crowdsourced Quranic audio dataset of ~7,000 recitations (11.5 hours) from 1,287 non-Arabic-speaking participants across 11+ countries, with 1,166 recitations annotated in six correctness categories via the Quran Voice platform. The paper references a paper webpage for dataset access but provides no direct URL."
 data_metrics: "Not specified"
 ---
 # Quranic Audio Dataset: Crowdsourced and Labeled Recitation from Non-Arabic Speakers

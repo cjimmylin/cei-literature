@@ -1,0 +1,19 @@
+---
+name: "Nuruzzaman Faruqui"
+affiliation: ""
+research_interests: []
+website: ""
+google_scholar: ""
+semantic_scholar: ""
+---
+
+# Nuruzzaman Faruqui
+
+## Affiliation
+
+
+## Research Interests
+
+
+## Publications
+(Auto-generated list of linked papers)

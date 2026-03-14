@@ -2,8 +2,11 @@
 """
 Audit papers for religious tradition keywords beyond title+abstract.
 
-Scans papers + PDF extracts against expanded RELIGIOUS_PATTERNS with
-weighted scoring to find misclassified papers tagged N/A.
+Scans papers + PDF extracts using rv_* confidence scores (0-100) from
+religious_scoring.py to find misclassified papers tagged N/A.
+
+Updated 2026-03-13: Uses rv_* integer score fields instead of flat
+RELIGIOUS_PATTERNS regex matching.
 """
 
 import re
@@ -23,13 +26,12 @@ LOGS_DIR = WS_ROOT / "logs"
 OUTPUT_FILE = LOGS_DIR / "20260215-religious_traditions_audit.json"
 
 sys.path.insert(0, str(SCRIPT_DIR))
-from classify_cultural_religious import RELIGIOUS_PATTERNS
 from yaml_frontmatter_utils import read_paper, parse_frontmatter
-
-# Compile patterns
-COMPILED_PATTERNS = {}
-for tradition, patterns in RELIGIOUS_PATTERNS.items():
-    COMPILED_PATTERNS[tradition] = [re.compile(p, re.IGNORECASE) for p in patterns]
+from religious_scoring import (
+    RV_FIELDS, FIELD_DISPLAY_NAMES,
+    compute_all_rv_scores, is_rv_detected, parse_rv_value,
+    DEFAULT_THRESHOLD,
+)
 
 
 def extract_title(body):
@@ -63,36 +65,20 @@ def load_extract(extract_path_value):
 
 
 def score_paper(title, abstract, extract_text):
-    """Score paper against all traditions. Returns {tradition: {score, matches}}."""
+    """Score paper against all traditions using rv_* confidence scores.
+
+    Returns {field: {score, display_name}} for fields with score > 0.
+    """
+    rv_scores = compute_all_rv_scores(title, abstract, extract_text)
     results = {}
-    for tradition, compiled in COMPILED_PATTERNS.items():
-        title_hits = sum(1 for p in compiled if p.search(title)) if title else 0
-        abstract_hits = sum(1 for p in compiled if p.search(abstract)) if abstract else 0
-        extract_hits = sum(1 for p in compiled if p.search(extract_text)) if extract_text else 0
-
-        score = title_hits * 3 + abstract_hits * 2 + extract_hits * 1
-
+    for field in RV_FIELDS:
+        score = rv_scores[field]
         if score > 0:
-            # Collect evidence snippets
-            evidence = []
-            for p in compiled:
-                for text, label in [(title, "title"), (abstract, "abstract"), (extract_text[:5000], "extract")]:
-                    if text:
-                        m = p.search(text)
-                        if m:
-                            start = max(0, m.start() - 30)
-                            end = min(len(text), m.end() + 30)
-                            snippet = text[start:end].replace("\n", " ").strip()
-                            evidence.append({"source": label, "pattern": p.pattern, "context": f"...{snippet}..."})
-
-            results[tradition] = {
+            results[field] = {
                 "score": score,
-                "title_hits": title_hits,
-                "abstract_hits": abstract_hits,
-                "extract_hits": extract_hits,
-                "evidence": evidence[:10]  # Limit evidence snippets
+                "display_name": FIELD_DISPLAY_NAMES[field],
+                "detected": score >= DEFAULT_THRESHOLD,
             }
-
     return results
 
 
@@ -112,7 +98,12 @@ def main():
             frontmatter, body = read_paper(paper)
             fields = parse_frontmatter(frontmatter)
 
-            current_religious = fields.get("religious_values", "N/A").strip('"')
+            # Check current rv_* scores — paper is "N/A" if no rv_* field is detected
+            current_detected = []
+            for rv_field in RV_FIELDS:
+                if is_rv_detected(fields.get(rv_field, 0)):
+                    current_detected.append(FIELD_DISPLAY_NAMES[rv_field])
+            current_religious = ", ".join(current_detected) if current_detected else "N/A"
 
             title = extract_title(body)
             abstract = extract_abstract(body)
@@ -123,24 +114,31 @@ def main():
             if not scores:
                 continue
 
+            max_score = max(s["score"] for s in scores.values())
+            top_field = max(scores, key=lambda f: scores[f]["score"])
+
             # Record all matches regardless of current tag
             entry = {
                 "filename": paper.name,
                 "current_religious_values": current_religious,
-                "traditions": scores,
-                "max_score": max(s["score"] for s in scores.values()),
-                "top_tradition": max(scores, key=lambda t: scores[t]["score"]),
+                "rv_scores": {f: s["score"] for f, s in scores.items()},
+                "traditions": {FIELD_DISPLAY_NAMES[f]: s for f, s in scores.items()},
+                "max_score": max_score,
+                "top_tradition": FIELD_DISPLAY_NAMES[top_field],
             }
             all_matches.append(entry)
 
-            # Candidates: currently N/A but scored >= 2
-            if current_religious == "N/A":
-                high_scoring = {t: s for t, s in scores.items() if s["score"] >= 2}
+            # Candidates: currently no rv_* detected but text scoring >= 50
+            if not current_detected:
+                high_scoring = {f: s for f, s in scores.items()
+                                if s["score"] >= DEFAULT_THRESHOLD}
                 if high_scoring:
-                    entry["candidate_traditions"] = {t: s for t, s in high_scoring.items()}
+                    entry["candidate_traditions"] = {
+                        FIELD_DISPLAY_NAMES[f]: s for f, s in high_scoring.items()
+                    }
                     candidates.append(entry)
-                    for t in high_scoring:
-                        tradition_counts[t] += 1
+                    for f in high_scoring:
+                        tradition_counts[FIELD_DISPLAY_NAMES[f]] += 1
 
         except Exception as e:
             print(f"  Error processing {paper.name}: {e}")
@@ -151,7 +149,7 @@ def main():
     print(f"{'='*60}")
     print(f"  Papers scanned:     {len(papers)}")
     print(f"  Papers with ANY religious keyword: {len(all_matches)}")
-    print(f"  Candidates (N/A, score>=2): {len(candidates)}")
+    print(f"  Candidates (undetected, score>={DEFAULT_THRESHOLD}): {len(candidates)}")
     print(f"\n  Tradition breakdown (candidates):")
     for trad, count in sorted(tradition_counts.items(), key=lambda x: -x[1]):
         print(f"    {trad}: {count}")
@@ -163,8 +161,8 @@ def main():
             "papers_scanned": len(papers),
             "total_with_keywords": len(all_matches),
             "candidate_count": len(candidates),
-            "threshold": 2,
-            "weights": {"title": 3, "abstract": 2, "extract": 1},
+            "threshold": DEFAULT_THRESHOLD,
+            "scoring": "rv_* confidence scores (0-100)",
         },
         "tradition_counts": dict(tradition_counts),
         "candidates": candidates,

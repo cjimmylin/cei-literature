@@ -17,6 +17,7 @@ from typing import Tuple, Optional
 # Import safe YAML utilities
 from yaml_frontmatter_utils import read_paper, write_paper, validate_frontmatter
 from vault_config import PAPERS_DIR
+from ethics_scoring import is_ethics_yes, parse_ethics_value
 
 
 # Ethics perspective categories with keywords
@@ -79,6 +80,22 @@ ETHICS_PERSPECTIVES = {
     ],
 }
 
+# False positive patterns that reduce perspective scores
+PERSPECTIVE_FP = {
+    'Hallucination & Truthfulness': [
+        r'\bground truth\b', r'\btruth table\b', r'\btruth value\b',
+        r'\btruth label\b', r'\btruth set\b',
+    ],
+    'AI Safety & Alignment': [
+        r'\bsequence alignment\b', r'\btext alignment\b', r'\bword alignment\b',
+        r'\bimage alignment\b',
+    ],
+    'Human Rights': [
+        r'\ball rights reserved\b', r'\bproperty rights\b',
+        r'\baccess rights\b', r'\badmin rights\b',
+    ],
+}
+
 
 # Note: extract_frontmatter_and_content replaced by yaml_frontmatter_utils.read_paper
 
@@ -102,7 +119,7 @@ def get_frontmatter_value(frontmatter: str, key: str) -> str:
 def classify_ethics_perspective(text: str) -> str:
     """Determine the best-fitting ethics perspective for a paper."""
     text_lower = text.lower()
-    
+
     # Count matches for each perspective
     scores = {}
     for perspective, patterns in ETHICS_PERSPECTIVES.items():
@@ -110,13 +127,17 @@ def classify_ethics_perspective(text: str) -> str:
         for pattern in patterns:
             matches = re.findall(pattern, text_lower)
             score += len(matches)
-        scores[perspective] = score
-    
+        # Subtract FP matches
+        for fp_pattern in PERSPECTIVE_FP.get(perspective, []):
+            fp_matches = re.findall(fp_pattern, text_lower)
+            score -= len(fp_matches)
+        scores[perspective] = max(0, score)
+
     # Get the perspective with highest score
     if not scores or max(scores.values()) == 0:
         return 'General Ethics'
-    
-    best_perspective = max(scores, key=scores.get)
+
+    best_perspective = max(sorted(scores.keys()), key=scores.get)
     return best_perspective
 
 
@@ -150,16 +171,20 @@ def process_paper(filepath: Path) -> Tuple[bool, Optional[str]]:
         deontological_ethics = get_frontmatter_value(frontmatter, 'deontological_ethics')
         utilitarian_ethics = get_frontmatter_value(frontmatter, 'utilitarian_ethics')
 
-        if ethics_overall != 'Yes':
+        if not is_ethics_yes(ethics_overall):
             return False, None
 
-        if virtue_ethics == 'Yes' or deontological_ethics == 'Yes' or utilitarian_ethics == 'Yes':
+        care_ethics = get_frontmatter_value(frontmatter, 'care_ethics')
+        contractarian_ethics = get_frontmatter_value(frontmatter, 'contractarian_ethics')
+
+        if (is_ethics_yes(virtue_ethics) or is_ethics_yes(deontological_ethics) or
+                is_ethics_yes(utilitarian_ethics) or is_ethics_yes(care_ethics) or
+                is_ethics_yes(contractarian_ethics)):
             return False, None
 
         # Extract title and abstract for classification
-        title_match = re.search(r'^# (.+)$', remaining, re.MULTILINE)
-        title = title_match.group(1) if title_match else ''
-        abstract = extract_abstract(remaining)
+        title = get_frontmatter_value(frontmatter, 'short_title')
+        abstract = get_frontmatter_value(frontmatter, 'abstract')
 
         # Classify the perspective
         text = f"{title} {abstract}".strip()

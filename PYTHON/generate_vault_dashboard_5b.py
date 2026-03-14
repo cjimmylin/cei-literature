@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate data.js for CEI Literature Vault Dashboard v7c.
+Generate data.js for CEI Literature Vault Dashboard v9.
 
 Scans paper YAML frontmatter, benchmark survey JSON, normative v2 JSON,
 and author map to produce a JavaScript data file consumed by the static
@@ -9,7 +9,7 @@ HTML/CSS/JS frontend.
 v7b additions: Authors & Collaboration tab data, fixed author KPI.
 v7c additions: Moral Psychology tab overhaul — 13 new analytical features, 5 subtabs.
 
-Output: STATISTICS/cei-dashboard-7c/data.js
+Output: DASHBOARDS/cei-dashboard-9/data.js
 
 Data sources:
   - papers/*.md YAML frontmatter (2,034 papers)
@@ -28,6 +28,20 @@ from collections import defaultdict, Counter
 from pathlib import Path
 from datetime import date
 
+from ethics_scoring import parse_ethics_value, is_ethics_yes
+from moral_psych_scoring import (
+    MP_FIELDS as MP_SCORE_FIELDS,
+    FIELD_DISPLAY_NAMES as MP_DISPLAY_NAMES,
+    is_mp_detected,
+    parse_mp_value,
+)
+from religious_scoring import (
+    RV_FIELDS as RV_SCORE_FIELDS,
+    FIELD_DISPLAY_NAMES as RV_DISPLAY_NAMES,
+    is_rv_detected,
+    parse_rv_value,
+)
+
 print = functools.partial(print, flush=True)
 
 # ── Paths ──────────────────────────────────────────────────────────────────
@@ -35,6 +49,7 @@ SCRIPT_DIR = Path(__file__).parent
 WS_ROOT = SCRIPT_DIR.parent
 LOGS_DIR = WS_ROOT / "logs"
 STATS_DIR = WS_ROOT / "STATISTICS"
+DASHBOARDS_DIR = WS_ROOT / "DASHBOARDS"
 PAPERS_DIR = WS_ROOT / "papers"
 
 CANDIDATES_FILE = LOGS_DIR / "20260216-benchmark_survey_candidates.json"
@@ -43,7 +58,7 @@ NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260220-author_paper_map.json"
 AUTHOR_PROFILES_DIR = WS_ROOT / "Authors"
 AI_LABS_DIR = WS_ROOT / "AI Labs"
-OUTPUT_DIR = STATS_DIR / "cei-dashboard-8"
+OUTPUT_DIR = DASHBOARDS_DIR / "cei-dashboard-9"
 OUTPUT_FILE = OUTPUT_DIR / "data.js"
 
 # ── Import from existing scripts ──────────────────────────────────────────
@@ -516,6 +531,57 @@ THEORY_META = [
     {"name": "Moral Identity", "abbrev": "MoralID", "color": "#14b8a6"},
 ]
 
+# Mapping: THEORY_META abbreviation → mp_* score field name
+ABBREV_TO_MP_FIELD = {
+    "MFT": "mp_mft",
+    "Schwartz": "mp_schwartz",
+    "Kohlberg": "mp_kohlberg",
+    "Trolley": "mp_trolley",
+    "DualProc": "mp_dual_process",
+    "SIM": "mp_intuitionist",
+    "Dyadic": "mp_dyadic",
+    "MoralID": "mp_identity",
+}
+# Reverse mapping: mp_* field → abbreviation
+MP_FIELD_TO_ABBREV = {v: k for k, v in ABBREV_TO_MP_FIELD.items()}
+
+
+def detect_theories_from_scores(fields):
+    """Detect moral psychology theories from mp_* score fields.
+
+    Returns list of THEORY_META abbreviations for detected theories.
+    Falls back to parsing moral_psychology string if no mp_* fields exist.
+    """
+    detected = []
+    has_any_mp_field = False
+    for abbrev, mp_field in ABBREV_TO_MP_FIELD.items():
+        raw = fields.get(mp_field)
+        if raw is not None and str(raw).strip() not in ('', 'N/A'):
+            has_any_mp_field = True
+            if is_mp_detected(raw):
+                detected.append(abbrev)
+
+    if has_any_mp_field:
+        return detected
+
+    # Fallback: parse legacy moral_psychology string
+    mp_val = fields.get('moral_psychology', '') or ''
+    if mp_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
+        return []
+    return classify_theories(f"{mp_val} {fields.get('abstract', '') or ''}")
+
+
+def has_moral_psych(fields):
+    """Check if a paper has any moral psychology theory detected (score-aware)."""
+    for mp_field in MP_SCORE_FIELDS:
+        raw = fields.get(mp_field)
+        if raw is not None and str(raw).strip() not in ('', 'N/A'):
+            if is_mp_detected(raw):
+                return True
+    # Fallback: legacy moral_psychology string
+    mp_val = fields.get('moral_psychology', '') or ''
+    return mp_val.lower() not in ('n/a', 'na', 'no', 'none', '', 'false')
+
 
 def classify_theories(text):
     if not text or text.lower() in ('n/a', 'na', 'no', 'none', ''):
@@ -608,6 +674,39 @@ def classify_relig_traditions(values_list, extra_text=""):
     if not combined.strip():
         return []
     return [name for name, pat in RELIG_TRAD_PATTERNS.items() if pat.search(combined)]
+
+
+# Mapping from rv_* display names to legacy TRADITION_META names used in dashboard
+_RV_DISPLAY_TO_LEGACY = {
+    "Islam": "Islam",
+    "Christianity": "Christianity",
+    "Buddhism": "Buddhism",
+    "Judaism": "Judaism",
+    "Hinduism": "Hinduism",
+    "Sikhism": "Sikhism",
+    "Confucianism": "Confucian",
+    "Taoism": "Taoism",
+    "Shinto": "Shinto",
+    "Jainism": "Jainism",
+    "Baha'i": "Baha'i",
+    "Zoroastrianism": "Zoroastrianism",
+    "Ubuntu Philosophy": "Ubuntu",
+    "Indigenous Spirituality": "Indigenous",
+}
+
+
+def detect_traditions_from_rv_scores(fields):
+    """Detect religious traditions from rv_* score fields (>= 50 threshold).
+
+    Returns list of legacy tradition names (matching TRADITION_META/RELIG_TRAD_PATTERNS keys).
+    """
+    detected = []
+    for rv_field in RV_SCORE_FIELDS:
+        if is_rv_detected(fields.get(rv_field, 0)):
+            display = RV_DISPLAY_NAMES[rv_field]
+            legacy = _RV_DISPLAY_TO_LEGACY.get(display, display)
+            detected.append(legacy)
+    return detected
 
 
 # ── Religious Tradition Extended Analysis Constants ──────────────────────
@@ -895,6 +994,14 @@ YAML_SCALAR_FIELDS = {
     'LLM_assessed', 'DATA_URL', 'ethics_overall', 'is_benchmark',
     'abstract', 'first_author', 'last_author', 'short_title',
     'url', 'doi', 'CONF-CC', 'year',
+    # mp_* score fields (0-100 integer scores)
+    'mp_mft', 'mp_schwartz', 'mp_trolley', 'mp_kohlberg',
+    'mp_dual_process', 'mp_intuitionist', 'mp_dyadic', 'mp_identity',
+    # rv_* score fields (0-100 integer scores)
+    'rv_islam', 'rv_christianity', 'rv_buddhism', 'rv_judaism',
+    'rv_hinduism', 'rv_sikhism', 'rv_confucianism', 'rv_taoism',
+    'rv_shinto', 'rv_jainism', 'rv_bahai', 'rv_zoroastrianism',
+    'rv_ubuntu', 'rv_indigenous',
 }
 YAML_LIST_FIELDS = {'cultures_nationalities_list', 'languages_list', 'religious_values_list'}
 
@@ -1045,11 +1152,15 @@ def build_papers_array(paper_yaml, candidates, normative_entries, entry_cats=Non
         venue_type = categorize_venue(conf_cc)
         conf_family = extract_conference_family(conf_cc)
 
-        # Ethics flags
-        eo = 1 if fields.get("ethics_overall", "").lower() in ("yes",) else 0
-        ve = 1 if fields.get("virtue_ethics", "").lower() in ("yes", "partial", "true") else 0
-        de = 1 if fields.get("deontological_ethics", "").lower() in ("yes", "partial", "true") else 0
-        ue = 1 if fields.get("utilitarian_ethics", "").lower() in ("yes", "partial", "true") else 0
+        # Ethics flags (integer score aware)
+        eo_score = parse_ethics_value(fields.get("ethics_overall", ""))
+        ve_score = parse_ethics_value(fields.get("virtue_ethics", ""))
+        de_score = parse_ethics_value(fields.get("deontological_ethics", ""))
+        ue_score = parse_ethics_value(fields.get("utilitarian_ethics", ""))
+        eo = 1 if eo_score >= 50 else 0
+        ve = 1 if ve_score >= 50 else 0
+        de = 1 if de_score >= 50 else 0
+        ue = 1 if ue_score >= 50 else 0
 
         # Benchmark flags
         is_bench = 1 if fn in cand_lookup else 0
@@ -1057,19 +1168,22 @@ def build_papers_array(paper_yaml, candidates, normative_entries, entry_cats=Non
         # Dataset: if candidate has benchmark, consider it a dataset
         is_dataset = 1 if cand.get("availability", "").lower().startswith("public") else 0
 
-        # Moral psychology
-        mp_val = fields.get("moral_psychology", "") or ""
-        mp = mp_val if mp_val.lower() not in ("n/a", "na", "no", "none", "", "false") else ""
+        # Moral psychology — use mp_* scores with legacy fallback
+        mp_detected = detect_theories_from_scores(fields)
+        mp = ", ".join(mp_detected) if mp_detected else ""
 
         # Cultures, regions, languages
         cultures = fields.get("cultures_nationalities_list", [])
         regions = list(set(classify_region(c) for c in cultures)) if cultures else []
         languages = fields.get("languages_list", [])
 
-        # Religious values
-        relig_list = fields.get("religious_values_list", [])
-        relig_val = fields.get("religious_values", "") or ""
-        rv = classify_relig_traditions(relig_list, relig_val)
+        # Religious values — use rv_* scores with legacy string fallback
+        rv = detect_traditions_from_rv_scores(fields)
+        if not rv:
+            # Fallback: try legacy string fields for papers not yet scored
+            relig_list = fields.get("religious_values_list", [])
+            relig_val = fields.get("religious_values", "") or ""
+            rv = classify_relig_traditions(relig_list, relig_val)
 
         # LLM models
         lm = parse_llm_models(fields)
@@ -1106,6 +1220,8 @@ def build_papers_array(paper_yaml, candidates, normative_entries, entry_cats=Non
             "vt": venue_type,
             "cf": conf_family,
             "eo": eo,
+            "eo_score": eo_score, "ve_score": ve_score,
+            "de_score": de_score, "ue_score": ue_score,
             "ve": ve, "de": de, "ue": ue,
             "ib": is_bench, "ie": is_eval, "id": is_dataset,
             "mp": mp[:60],
@@ -1450,18 +1566,18 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
     for fn, fields in paper_yaml.items():
         if fn in normative_papers_set:
             continue
-        ve_v = fields.get('virtue_ethics', '').lower()
-        de_v = fields.get('deontological_ethics', '').lower()
-        cu_v = fields.get('utilitarian_ethics', '').lower()
-        has_normative = any(v in ('yes', 'partial', 'true') for v in [ve_v, de_v, cu_v])
+        ve_yes = is_ethics_yes(fields.get('virtue_ethics', ''))
+        de_yes = is_ethics_yes(fields.get('deontological_ethics', ''))
+        cu_yes = is_ethics_yes(fields.get('utilitarian_ethics', ''))
+        has_normative = any([ve_yes, de_yes, cu_yes])
         if has_normative and fn in candidates_set:
             cand = cand_lookup.get(fn, {})
             paper_fws = []
-            if ve_v in ('yes', 'partial', 'true'):
+            if ve_yes:
                 paper_fws.append("VE")
-            if de_v in ('yes', 'partial', 'true'):
+            if de_yes:
                 paper_fws.append("DE")
-            if cu_v in ('yes', 'partial', 'true'):
+            if cu_yes:
                 paper_fws.append("CU")
             normative_papers_set.add(fn)
             normative_papers.append({
@@ -1487,8 +1603,7 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
         research_type_5 = Counter()
         bench_count = 0
         for fn, fields in paper_yaml.items():
-            val = fields.get(yaml_field, '').lower()
-            if val not in ('yes', 'partial', 'true'):
+            if not is_ethics_yes(fields.get(yaml_field, '')):
                 continue
             year = extract_year(fn)
             if year == 9999:
@@ -1539,7 +1654,7 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
             # Per-paper concept/virtue keywords (for click-to-filter)
             kw = []
             if scan_fn:
-                _title = fields.get("title", "") or fields.get("short_title", fn)
+                _title = fields.get("short_title", "") or fields.get("title", fn)
                 _abstract = abstract
                 kw = sorted(scan_fn(_title, _abstract))
 
@@ -2058,17 +2173,28 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
     weird_counter = Counter()
     sophistication_year = defaultdict(list)
 
-    for fn, fields in paper_yaml.items():
-        mp_val = fields.get('moral_psychology', '') or ''
-        abstract = fields.get('abstract', '') or ''
-        combined_text = f"{mp_val} {abstract}"
+    # Collect per-paper mp_* scores for score histograms
+    theory_scores = defaultdict(list)  # abbrev → [score, score, ...]
 
-        if mp_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
+    for fn, fields in paper_yaml.items():
+        abstract = fields.get('abstract', '') or ''
+
+        # Use mp_* score fields with legacy fallback
+        theories = detect_theories_from_scores(fields)
+        if not theories:
             continue
 
-        theories = classify_theories(combined_text)
-        if not theories:
-            theories = classify_theories(mp_val)
+        # Collect scores for detected theories (for histograms)
+        for abbrev in theories:
+            mp_field = ABBREV_TO_MP_FIELD.get(abbrev)
+            if mp_field:
+                score = parse_mp_value(fields.get(mp_field))
+                if score > 0:
+                    theory_scores[abbrev].append(score)
+
+        # Build combined_text for sub-analyses (instruments, alignment, etc.)
+        mp_val = fields.get('moral_psychology', '') or ''
+        combined_text = f"{mp_val} {abstract}"
 
         year = extract_year(fn)
         is_bench = fn in candidates_set
@@ -2210,8 +2336,7 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
     for fn in mft_fns:
         fields = paper_yaml.get(fn, {})
         abstract = fields.get('abstract', '') or ''
-        mp_val = fields.get('moral_psychology', '') or ''
-        combined = f"{mp_val} {abstract}"
+        combined = abstract
         for fnd_name, fnd_pat in MFT_FOUNDATION_PATTERNS.items():
             if fnd_pat.search(combined):
                 mft_foundation_counts[fnd_name] += 1
@@ -2229,8 +2354,7 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
     for fn in schwartz_fns:
         fields = paper_yaml.get(fn, {})
         abstract = fields.get('abstract', '') or ''
-        mp_val = fields.get('moral_psychology', '') or ''
-        combined = f"{mp_val} {abstract}"
+        combined = abstract
         for val_name, val_pat in SCHWARTZ_VALUE_PATTERNS.items():
             if val_pat.search(combined):
                 schwartz_value_counts[val_name] += 1
@@ -2242,8 +2366,7 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
         for fn in schwartz_fns:
             fields = paper_yaml.get(fn, {})
             abstract = fields.get('abstract', '') or ''
-            mp_val = fields.get('moral_psychology', '') or ''
-            combined = f"{mp_val} {abstract}"
+            combined = abstract
             for v in values:
                 if SCHWARTZ_VALUE_PATTERNS[v].search(combined):
                     papers_in_quad.add(fn)
@@ -2269,8 +2392,7 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
     for fn in trolley_fns:
         fields = paper_yaml.get(fn, {})
         abstract = fields.get('abstract', '') or ''
-        mp_val = fields.get('moral_psychology', '') or ''
-        combined = f"{mp_val} {abstract}"
+        combined = abstract
         matched_any = False
         for pg_name, pg_pat in PARADIGM_PATTERNS.items():
             if pg_pat.search(combined):
@@ -2343,8 +2465,7 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
             field_key = fw_fields[fw_name]
             count = 0
             for fn in theory_paper_sets.get(t, set()):
-                val = paper_yaml.get(fn, {}).get(field_key, "").lower()
-                if val in ("yes", "partial", "true"):
+                if is_ethics_yes(paper_yaml.get(fn, {}).get(field_key, "")):
                     count += 1
             row.append(count)
         normative_bridge_matrix.append(row)
@@ -2405,6 +2526,11 @@ def compute_moral_psych_data(paper_yaml, candidates, candidates_set):
         "instruments": [{"n": n, "c": c} for n, c in instrument_counter.most_common()],
         "normativeBridge": normative_bridge,
         "sophistication": sophistication,
+        # Score histograms: per-theory distribution of 0-100 scores
+        "scoreHistograms": {
+            abbrev: sorted(theory_scores.get(abbrev, []))
+            for abbrev in [m["abbrev"] for m in THEORY_META]
+        },
     }
 
 
@@ -2493,9 +2619,7 @@ def build_islamic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     co_fns = defaultdict(list)
     for fn in sub_fns:
         fields = paper_yaml.get(fn, {})
-        trads = classify_relig_traditions(
-            fields.get("religious_values_list", []),
-            fields.get("religious_values", "") or "")
+        trads = detect_traditions_from_rv_scores(fields)
         for t in trads:
             if t != "Islam":
                 co_fns[t].append(fn)
@@ -2583,7 +2707,7 @@ def build_christianity_extended(sub_fns, paper_yaml, cand_lookup, candidates_set
     normative_cross_fns = {}
     for fw_label, yaml_f in FW_FIELDS.items():
         matched_fns = [fn for fn in sub_fns
-                       if paper_yaml.get(fn, {}).get(yaml_f, "").lower() in ("yes", "partial", "true")]
+                       if is_ethics_yes(paper_yaml.get(fn, {}).get(yaml_f, ""))]
         normative_cross.append({"framework": fw_label, "count": len(matched_fns)})
         normative_cross_fns[fw_label] = sorted(set(matched_fns))
 
@@ -2591,8 +2715,7 @@ def build_christianity_extended(sub_fns, paper_yaml, cand_lookup, candidates_set
     co_fns = defaultdict(list)
     for fn in sub_fns:
         f = paper_yaml.get(fn, {})
-        trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        trads = set(detect_traditions_from_rv_scores(f))
         for t in trads:
             if t != "Christianity":
                 co_fns[t].append(fn)
@@ -2664,7 +2787,7 @@ def build_judaism_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     normative_cross_fns = {}
     for fw_label, yaml_f in FW_FIELDS.items():
         matched_fns = [fn for fn in sub_fns
-                       if paper_yaml.get(fn, {}).get(yaml_f, "").lower() in ("yes", "partial", "true")]
+                       if is_ethics_yes(paper_yaml.get(fn, {}).get(yaml_f, ""))]
         normative_cross.append({"framework": fw_label, "count": len(matched_fns)})
         normative_cross_fns[fw_label] = sorted(set(matched_fns))
 
@@ -2672,8 +2795,7 @@ def build_judaism_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     co_fns = defaultdict(list)
     for fn in sub_fns:
         f = paper_yaml.get(fn, {})
-        trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        trads = set(detect_traditions_from_rv_scores(f))
         for t in trads:
             if t != "Judaism":
                 co_fns[t].append(fn)
@@ -2776,8 +2898,7 @@ def build_buddhism_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     co_fns = defaultdict(list)
     for fn in sub_fns:
         f = paper_yaml.get(fn, {})
-        trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        trads = set(detect_traditions_from_rv_scores(f))
         for t in trads:
             if t != "Buddhism":
                 co_fns[t].append(fn)
@@ -2881,8 +3002,7 @@ def build_hinduism_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     co_fns = defaultdict(list)
     for fn in sub_fns:
         f = paper_yaml.get(fn, {})
-        trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        trads = set(detect_traditions_from_rv_scores(f))
         for t in trads:
             if t != "Hinduism":
                 co_fns[t].append(fn)
@@ -2911,7 +3031,7 @@ def _build_gap_comparison(sub_fns, paper_yaml, candidates_set, vault_total, vaul
                   if (paper_yaml.get(fn, {}).get("LLM_assessed", "") or "").lower()
                   not in ("", "na", "n/a", "none"))
     sub_eth = sum(1 for fn in sub_fns
-                  if paper_yaml.get(fn, {}).get("ethics_overall", "").lower() == "yes")
+                  if is_ethics_yes(paper_yaml.get(fn, {}).get("ethics_overall", "")))
     sub_data = sum(1 for fn in sub_fns
                    if (paper_yaml.get(fn, {}).get("DATA_URL", "") or "").lower()
                    not in ("", "na", "n/a", "none"))
@@ -2970,8 +3090,7 @@ def build_shinto_extended(sub_fns, paper_yaml, cand_lookup, candidates_set,
     co_fns = defaultdict(list)
     for fn in sub_fns:
         f = paper_yaml.get(fn, {})
-        trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        trads = set(detect_traditions_from_rv_scores(f))
         for t in trads:
             if t != "Shinto":
                 co_fns[t].append(fn)
@@ -3035,8 +3154,7 @@ def build_ubuntu_extended(sub_fns, paper_yaml, cand_lookup, candidates_set,
     co_fns = defaultdict(list)
     for fn in sub_fns:
         f = paper_yaml.get(fn, {})
-        trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        trads = set(detect_traditions_from_rv_scores(f))
         for t in trads:
             if t != "Ubuntu":
                 co_fns[t].append(fn)
@@ -3103,8 +3221,7 @@ def build_indigenous_extended(sub_fns, paper_yaml, cand_lookup, candidates_set,
     co_fns = defaultdict(list)
     for fn in sub_fns:
         f = paper_yaml.get(fn, {})
-        trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+        trads = set(detect_traditions_from_rv_scores(f))
         for t in trads:
             if t != "Indigenous":
                 co_fns[t].append(fn)
@@ -3124,16 +3241,30 @@ def build_indigenous_extended(sub_fns, paper_yaml, cand_lookup, candidates_set,
 def build_other_traditions_extended(paper_yaml, candidates_set, vault_total, vault_benchmark_count, vault_ethics_count):
     """Build extended 'Other Traditions' analysis data (Jainism, Sikhism, Taoism, Baha'i, Zoroastrianism)."""
 
-    # Collect papers per tradition
+    # Mapping from OTHER_TRADITIONS_CONCEPTS names to rv_* fields
+    _OTHER_TRAD_TO_RV = {
+        "Jainism": "rv_jainism",
+        "Sikhism": "rv_sikhism",
+        "Taoism": "rv_taoism",
+        "Baha'i": "rv_bahai",
+        "Zoroastrianism": "rv_zoroastrianism",
+    }
+
+    # Collect papers per tradition — use rv_* scores with pattern fallback
     trad_papers = {}
     all_fns = set()
     for trad_name, info in OTHER_TRADITIONS_CONCEPTS.items():
+        rv_field = _OTHER_TRAD_TO_RV.get(trad_name)
         matched = []
         for fn, fields in paper_yaml.items():
-            text = (fields.get("abstract", "") or "") + " " + \
-                   " ".join(fields.get("religious_values_list", []))
-            if info["pattern"].search(text):
+            # Primary: check rv_* score
+            if rv_field and is_rv_detected(fields.get(rv_field, 0)):
                 matched.append(fn)
+            else:
+                # Fallback: regex on abstract for papers not yet scored
+                abstract = (fields.get("abstract", "") or "")
+                if abstract and info["pattern"].search(abstract):
+                    matched.append(fn)
         trad_papers[trad_name] = sorted(set(matched))
         all_fns.update(matched)
 
@@ -3196,20 +3327,19 @@ def build_confucian_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     for fn in sub_fns:
         fields = paper_yaml.get(fn, {})
         abstract = fields.get("abstract", "") or ""
-        if fields.get("virtue_ethics", "").lower() in ("yes", "partial", "true") or VE_PAT.search(abstract):
+        if is_ethics_yes(fields.get("virtue_ethics", "")) or VE_PAT.search(abstract):
             fw_ctr["Virtue Ethics"] += 1
             fw_fns_map["Virtue Ethics"].append(fn)
-        if fields.get("deontological_ethics", "").lower() in ("yes", "partial", "true") or DE_PAT.search(abstract):
+        if is_ethics_yes(fields.get("deontological_ethics", "")) or DE_PAT.search(abstract):
             fw_ctr["Deontological"] += 1
             fw_fns_map["Deontological"].append(fn)
-        if fields.get("utilitarian_ethics", "").lower() in ("yes", "partial", "true") or CU_PAT.search(abstract):
+        if is_ethics_yes(fields.get("utilitarian_ethics", "")) or CU_PAT.search(abstract):
             fw_ctr["Utilitarian"] += 1
             fw_fns_map["Utilitarian"].append(fn)
         if CARE_PAT.search(abstract):
             fw_ctr["Care Ethics"] += 1
             fw_fns_map["Care Ethics"].append(fn)
-        mp = fields.get("moral_psychology", "") or ""
-        if mp.lower() not in ("", "n/a", "na", "no", "none", "false"):
+        if has_moral_psych(fields):
             fw_ctr["Moral Psychology"] += 1
             fw_fns_map["Moral Psychology"].append(fn)
         if MFT_PAT.search(abstract):
@@ -3308,15 +3438,20 @@ def compute_religious_data(paper_yaml, candidates, candidates_set):
     benchmark_count = 0
 
     for fn, fields in paper_yaml.items():
-        relig_list = fields.get('religious_values_list', [])
-        relig_val = fields.get('religious_values', '') or ''
+        # Primary: detect from rv_* scores
+        trads = detect_traditions_from_rv_scores(fields)
 
-        if not relig_list and relig_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
-            continue
+        if not trads:
+            # Fallback: legacy string fields for papers not yet scored
+            relig_list = fields.get('religious_values_list', [])
+            relig_val = fields.get('religious_values', '') or ''
 
-        trads = classify_relig_traditions(relig_list, relig_val)
-        if not trads and relig_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
-            continue
+            if not relig_list and relig_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
+                continue
+
+            trads = classify_relig_traditions(relig_list, relig_val)
+            if not trads:
+                continue
 
         year = extract_year(fn)
         is_bench = fn in candidates_set
@@ -3417,7 +3552,7 @@ def compute_religious_data(paper_yaml, candidates, candidates_set):
     vault_total = len(paper_yaml)
     vault_bench_ct = len(candidates_set)
     vault_ethics_ct = sum(1 for f in paper_yaml.values()
-                          if f.get("ethics_overall", "").lower() == "yes")
+                          if is_ethics_yes(f.get("ethics_overall", "")))
     shinto_data.update(build_shinto_extended(
         tradition_paper_sets.get("Shinto", set()), paper_yaml, cand_lookup, candidates_set,
         vault_total, vault_bench_ct, vault_ethics_ct))

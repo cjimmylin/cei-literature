@@ -85,7 +85,7 @@ DATA_URL: "NA"
 research_topic: "Other"
 CONFERENCE: "Preprint"
 ethics_overall: 0
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 10
 utilitarian_ethics: 0
 is_benchmark: "No"

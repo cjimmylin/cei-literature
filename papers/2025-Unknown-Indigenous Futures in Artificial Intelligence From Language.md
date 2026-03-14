@@ -86,7 +86,7 @@ tags:
 abstract: "I've completed the web search for \"indigenous languages AI ethics cultural values.\" Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation."
 research_topic: "Other"
 CONFERENCE: "Other Conference"
-ethics_overall: 15
+ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0

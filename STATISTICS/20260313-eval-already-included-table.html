@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TABLE 1 — Already Included in Eval Frameworks — CEI Vault</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; font-size: 13px; }
+
+/* ── Header ── */
+header { background: #1a1a2e; padding: 14px 20px; border-bottom: 2px solid #3a3a6a; }
+header h1 { font-size: 1.1rem; color: #a0b4e0; font-weight: 600; }
+header p  { font-size: 0.72rem; color: #5868a0; margin-top: 3px; }
+
+/* ── Summary cards ── */
+.summary { background: #141424; padding: 14px 20px; border-bottom: 1px solid #1e1e38; display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-start; }
+.stat-card { background: #1a1a2e; border: 1px solid #2a2a4a; border-radius: 5px; padding: 10px 14px; min-width: 110px; }
+.stat-card .val { font-size: 1.5rem; font-weight: 700; color: #a0b8e8; line-height: 1; }
+.stat-card .lbl { font-size: 0.65rem; color: #4858a0; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 4px; }
+
+/* framework stat colors */
+.stat-card.ea   .val { color: #b388ff; }
+.stat-card.lm   .val { color: #64b5f6; }
+.stat-card.ins  .val { color: #4db6ac; }
+.stat-card.helm .val { color: #ffb74d; }
+
+/* ── Overlap matrix ── */
+.overlap { background: #141424; padding: 0 20px 14px; border-bottom: 1px solid #1e1e38; }
+.overlap h3 { font-size: 0.7rem; color: #4858a0; text-transform: uppercase; letter-spacing: 0.05em; padding: 10px 0 6px; }
+.overlap table { border-collapse: collapse; font-size: 0.72rem; }
+.overlap th, .overlap td { padding: 5px 12px; border: 1px solid #1e1e38; text-align: center; color: #8090b8; }
+.overlap th { background: #1a1a2e; color: #6878a8; font-weight: 600; }
+.overlap td.self { color: #2a2a4a; }
+.overlap td.val { color: #a0b8e8; font-weight: 600; }
+
+/* ── Controls ── */
+.controls { background: #181828; padding: 9px 20px; border-bottom: 1px solid #252540; position: sticky; top: 0; z-index: 100; display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: flex-end; }
+.ctrl-group { display: flex; flex-direction: column; gap: 3px; }
+.ctrl-group label { font-size: 0.65rem; color: #6878a8; text-transform: uppercase; letter-spacing: 0.04em; }
+.controls input, .controls select { background: #242438; border: 1px solid #3a3a5a; color: #d0d8f0; padding: 5px 8px; border-radius: 3px; font-size: 0.75rem; }
+.controls input { width: 210px; }
+.controls button { background: #2e2e50; border: 1px solid #4a4a7a; color: #a0b0d8; padding: 5px 10px; border-radius: 3px; cursor: pointer; font-size: 0.72rem; align-self: flex-end; }
+.controls button:hover { background: #3a3a68; }
+
+/* ── Stats bar ── */
+.stats-bar { background: #111120; padding: 6px 20px; font-size: 0.7rem; color: #4858a0; border-bottom: 1px solid #1a1a34; display: flex; flex-wrap: wrap; gap: 0 18px; }
+.stats-bar .val { color: #7888c0; font-weight: 600; }
+
+/* ── Table ── */
+.table-wrap { overflow: auto; height: calc(100vh - 270px); }
+table.main { width: 100%; border-collapse: collapse; }
+table.main thead th { background: #1a1a2e; padding: 9px 8px; text-align: left; color: #6878a8; font-size: 0.67rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 2px solid #3a3a6a; position: sticky; top: 0; white-space: nowrap; }
+table.main thead th.fw-h { text-align: left; min-width: 90px; }
+table.main thead th.cov-h { text-align: center; width: 90px; }
+table.main thead th.na-h { color: #2e3858; }
+table.main tbody tr { border-bottom: 1px solid #161626; }
+table.main tbody tr:hover { background: #1a1a30; }
+table.main td { padding: 6px 8px; vertical-align: middle; }
+
+td.paper-col { max-width: 320px; }
+.paper-key { color: #b0c4e8; font-size: 0.72rem; line-height: 1.35; word-break: break-word; }
+.yr { color: #3a4870; font-size: 0.65rem; margin-left: 5px; }
+
+td.fw-col { vertical-align: middle; }
+td.na-col { opacity: 0.3; }
+.na-tracked { font-size: 0.62rem; color: #3a4060; font-style: italic; }
+
+/* ── Chips ── */
+.chip { display: inline-block; padding: 2px 6px; border-radius: 3px; font-size: 0.62rem; font-weight: 600; font-family: 'SF Mono', 'Fira Code', monospace; margin: 1px 1px 1px 0; white-space: nowrap; }
+.chip-ea   { background: #2d1b69; color: #ce93d8; border: 1px solid #4a1e8a; }
+.chip-lm   { background: #0d2a4a; color: #90caf9; border: 1px solid #1a4a7a; }
+.chip-ins  { background: #0d3a35; color: #80cbc4; border: 1px solid #1a5a52; }
+.chip-helm { background: #3e2300; color: #ffcc80; border: 1px solid #6a3a00; }
+.na { font-size: 0.65rem; color: #1e2445; }
+
+/* ── Coverage column ── */
+td.cov-col { text-align: center; white-space: nowrap; }
+.cov-badge { display: inline-block; padding: 2px 5px; border-radius: 3px; font-size: 0.65rem; font-weight: 700; margin-right: 5px; }
+.cov4 { background: #1b5e20; color: #a5d6a7; }
+.cov3 { background: #1a3a6a; color: #90caf9; }
+.cov2 { background: #2a2a50; color: #9090d8; }
+.cov1 { background: #1e1e32; color: #5060a0; }
+
+/* ── Coverage dots ── */
+.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin: 0 1px; vertical-align: middle; }
+.dot-ea   { background: #b388ff; }
+.dot-lm   { background: #64b5f6; }
+.dot-ins  { background: #4db6ac; }
+.dot-helm { background: #ffb74d; }
+.dot-off  { background: #1e1e30; border: 1px solid #2a2a44; }
+
+/* ── Framework legend in header ── */
+.fw-legend { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+.fw-legend span { font-size: 0.68rem; display: flex; align-items: center; gap: 5px; }
+.fw-legend .dot { width: 9px; height: 9px; }
+
+/* ── Footer ── */
+.footer { padding: 10px 20px; color: #2e3858; font-size: 0.67rem; border-top: 1px solid #1a1a34; line-height: 1.7; }
+
+/* ── Hidden rows ── */
+tr.hidden { display: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>TABLE 1 — Eval Framework Coverage: Already Included</h1>
+  <p>CEI Literature Vault &nbsp;·&nbsp; 107 papers already implemented in ≥1 framework &nbsp;·&nbsp; Generated 2026-03-13</p>
+  <div class="fw-legend">
+    <span><span class="dot dot-ea"></span>EleutherAI (22)</span>
+    <span><span class="dot dot-lm"></span>lm-eval (63)</span>
+    <span><span class="dot dot-ins"></span>Inspect (37)</span>
+    <span><span class="dot dot-helm"></span>HELM (19)</span>
+  </div>
+</header>
+
+<div class="summary">
+  <div class="stat-card">
+    <div class="val">107</div>
+    <div class="lbl">Total papers</div>
+  </div>
+  <div class="stat-card">
+    <div class="val">25</div>
+    <div class="lbl">In 2+ frameworks</div>
+  </div>
+  <div class="stat-card">
+    <div class="val">1</div>
+    <div class="lbl">In all 4</div>
+  </div>
+  <div class="stat-card ea">
+    <div class="val">22</div>
+    <div class="lbl">EleutherAI</div>
+  </div>
+  <div class="stat-card lm">
+    <div class="val">63</div>
+    <div class="lbl">lm-eval</div>
+  </div>
+  <div class="stat-card ins">
+    <div class="val">37</div>
+    <div class="lbl">Inspect</div>
+  </div>
+  <div class="stat-card helm">
+    <div class="val">19</div>
+    <div class="lbl">HELM</div>
+  </div>
+</div>
+
+<div class="overlap">
+  <h3>Pairwise Overlap</h3>
+  <table>
+    <thead><tr><th></th><th>EleutherAI (22)</th><th>lm-eval (63)</th><th>Inspect (37)</th><th>HELM (19)</th></tr></thead>
+    <tbody>
+      <tr><th>EleutherAI</th><td class="self">—</td><td class="val">9</td><td class="val">6</td><td class="val">4</td></tr>
+      <tr><th>lm-eval</th><td class="val">9</td><td class="self">—</td><td class="val">15</td><td class="val">6</td></tr>
+      <tr><th>Inspect</th><td class="val">6</td><td class="val">15</td><td class="self">—</td><td class="val">4</td></tr>
+      <tr><th>HELM</th><td class="val">4</td><td class="val">6</td><td class="val">4</td><td class="self">—</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="controls">
+  <div class="ctrl-group">
+    <label>Search paper</label>
+    <input type="text" id="search" placeholder="Filter by title…">
+  </div>
+  <div class="ctrl-group">
+    <label>Min frameworks</label>
+    <select id="minCov">
+      <option value="0">Any</option>
+      <option value="1">1+</option>
+      <option value="2">2+</option>
+      <option value="3">3+</option>
+      <option value="4">All 4</option>
+    </select>
+  </div>
+  <div class="ctrl-group">
+    <label>Year</label>
+    <select id="yearFilter">
+      <option value="">Any</option>
+      <option value="2016">2016</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+      <option value="2024">2024</option>
+      <option value="2025">2025</option>
+      <option value="2026">2026</option>
+    </select>
+  </div>
+  <div class="ctrl-group">
+    <label>Framework presence</label>
+    <select id="fwFilter">
+      <option value="">Any</option>
+      <option value="ea">EleutherAI</option>
+      <option value="lm">lm-eval</option>
+      <option value="ins">Inspect</option>
+      <option value="helm">HELM</option>
+    </select>
+  </div>
+  <button onclick="resetFilters()">Reset</button>
+</div>
+
+<div class="stats-bar">
+  <span>Showing <span class="val" id="showCount">107</span> of 107</span>
+  <span>lm-eval ∩ Inspect: <span class="val">15</span></span>
+  <span>EleutherAI ∩ lm-eval: <span class="val">9</span></span>
+</div>
+
+<div class="table-wrap">
+<table class="main" id="mainTable">
+<thead>
+<tr>
+  <th style="min-width:280px">Paper</th>
+  <th class="fw-h">EleutherAI</th>
+  <th class="fw-h">lm-eval</th>
+  <th class="fw-h">Inspect</th>
+  <th class="fw-h">HELM</th>
+  <th class="fw-h na-h">lighteval</th>
+  <th class="fw-h na-h">OpenAI Evals</th>
+  <th class="cov-h">Coverage</th>
+</tr>
+</thead>
+<tbody id="tableBody">
+<tr data-cov="4" data-year="2022" data-paper="2022-parrish-bbq bias benchmark for question answering">
+  <td class="paper-col"><span class="paper-key">2022-Parrish-BBQ Bias Benchmark for Question Answering</span><span class="yr">2022</span></td>
+  <td class="fw-col"><span class="chip chip-ea">bbq</span></td>
+  <td class="fw-col"><span class="chip chip-lm">bbq</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="chip chip-helm">BBQ</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov4">4/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="3" data-year="2025" data-paper="2025-ruiz-fernández-esbbq and cabbq">
+  <td class="paper-col"><span class="paper-key">2025-Ruiz-Fernández-EsBBQ and CaBBQ</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="chip chip-ea">esbbq</span> <span class="chip chip-ea">cabbq</span></td>
+  <td class="fw-col"><span class="chip chip-lm">bbq</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov3">3/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="3" data-year="2022" data-paper="2022-hartvigsen-toxigen">
+  <td class="paper-col"><span class="paper-key">2022-Hartvigsen-ToxiGen</span><span class="yr">2022</span></td>
+  <td class="fw-col"><span class="chip chip-ea">toxigen</span></td>
+  <td class="fw-col"><span class="chip chip-lm">toxigen</span></td>
+  <td class="fw-col"><span class="chip chip-ins">toxigen</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov3">3/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="3" data-year="2022" data-paper="2022-lin-truthfulqa">
+  <td class="paper-col"><span class="paper-key">2022-Lin-TruthfulQA</span><span class="yr">2022</span></td>
+  <td class="fw-col"><span class="chip chip-ea">truthfulqa</span></td>
+  <td class="fw-col"><span class="chip chip-lm">truthfulqa_mc1</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">TruthfulQA</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov3">3/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="3" data-year="2021" data-paper="2021-dhamala-bold">
+  <td class="paper-col"><span class="paper-key">2021-Dhamala-BOLD</span><span class="yr">2021</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">bold</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bold</span></td>
+  <td class="fw-col"><span class="chip chip-helm">BOLD</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov3">3/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="3" data-year="2021" data-paper="2021-hendrycks-aligning ai with shared human values">
+  <td class="paper-col"><span class="paper-key">2021-Hendrycks-Aligning AI with Shared Human Values</span><span class="yr">2021</span></td>
+  <td class="fw-col"><span class="chip chip-ea">hendrycks_ethics</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="chip chip-ins">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov3">3/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="3" data-year="2020" data-paper="2020-gehman-realtoxicityprompts">
+  <td class="paper-col"><span class="paper-key">2020-Gehman-RealToxicityPrompts</span><span class="yr">2020</span></td>
+  <td class="fw-col"><span class="chip chip-ea">realtoxicityprompts</span></td>
+  <td class="fw-col"><span class="chip chip-lm">realtoxicityprompts</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">RealToxicityPrompts</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov3">3/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="3" data-year="2020" data-paper="2020-nangia-crows-pairs">
+  <td class="paper-col"><span class="paper-key">2020-Nangia-CrowS-Pairs</span><span class="yr">2020</span></td>
+  <td class="fw-col"><span class="chip chip-ea">crows_pairs</span></td>
+  <td class="fw-col"><span class="chip chip-lm">crows_pairs</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">CrowS-Pairs</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov3">3/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2025" data-paper="2025-leteno-histoires morales">
+  <td class="paper-col"><span class="paper-key">2025-Leteno-Histoires Morales</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="chip chip-ea">histoires_morales</span></td>
+  <td class="fw-col"><span class="chip chip-lm">histoires_morales</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2025" data-paper="2025-zulaika-basqbbq basque bbq">
+  <td class="paper-col"><span class="paper-key">2025-Zulaika-BasqBBQ Basque BBQ</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">bbq</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-acikgoz-bridging the bosphorus advancing turkish large language models">
+  <td class="paper-col"><span class="paper-key">2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">truthfulqa</span></td>
+  <td class="fw-col"><span class="chip chip-ins">truthfulqa</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-adelani-uhura a benchmark for evaluating scientific">
+  <td class="paper-col"><span class="paper-key">2024-Adelani-Uhura A Benchmark for Evaluating Scientific</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">truthfulqa</span></td>
+  <td class="fw-col"><span class="chip chip-ins">truthfulqa</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-freire-uncovering latent human wellbeing in language">
+  <td class="paper-col"><span class="paper-key">2024-Freire-Uncovering Latent Human Wellbeing in Language</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="chip chip-ins">ethics_utilitarianism</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-gupta-walledeval">
+  <td class="paper-col"><span class="paper-key">2024-Gupta-WalledEval</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">xstest</span></td>
+  <td class="fw-col"><span class="chip chip-ins">xstest</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-huang-cbbq">
+  <td class="paper-col"><span class="paper-key">2024-Huang-CBBQ</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">bbq</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-jin-kobbq korean bias benchmark for question answering">
+  <td class="paper-col"><span class="paper-key">2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">bbq</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-li-the wmdp benchmark">
+  <td class="paper-col"><span class="paper-key">2024-Li-The WMDP Benchmark</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="chip chip-ea">wmdp</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">wmdp</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-liang-cross-language bias examination in large language models">
+  <td class="paper-col"><span class="paper-key">2024-Liang-Cross-Language Bias Examination in Large Language Models</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">bbq</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-röttger-xstest">
+  <td class="paper-col"><span class="paper-key">2024-Röttger-XSTest</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">xstest</span></td>
+  <td class="fw-col"><span class="chip chip-helm">XSTest</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-sharma-towards understanding sycophancy in language models">
+  <td class="paper-col"><span class="paper-key">2024-Sharma-Towards Understanding Sycophancy in Language Models</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="chip chip-ea">sycophancy</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">sycophancy</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-yanaka-jbbq">
+  <td class="paper-col"><span class="paper-key">2024-Yanaka-JBBQ</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">bbq</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2024" data-paper="2024-zeng-air-bench 2024">
+  <td class="paper-col"><span class="paper-key">2024-Zeng-AIR-Bench 2024</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">air_bench</span></td>
+  <td class="fw-col"><span class="chip chip-helm">AIR-Bench 2024</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2021" data-paper="2021-emelin-moral stories">
+  <td class="paper-col"><span class="paper-key">2021-Emelin-Moral Stories</span><span class="yr">2021</span></td>
+  <td class="fw-col"><span class="chip chip-ea">moral_stories</span></td>
+  <td class="fw-col"><span class="chip chip-lm">moral_stories</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2021" data-paper="2021-nadeem-stereoset">
+  <td class="paper-col"><span class="paper-key">2021-Nadeem-StereoSet</span><span class="yr">2021</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">stereoset</span></td>
+  <td class="fw-col"><span class="chip chip-ins">stereoset</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="2" data-year="2018" data-paper="2018-zhao-gender bias in coreference resolution">
+  <td class="paper-col"><span class="paper-key">2018-Zhao-Gender Bias in Coreference Resolution</span><span class="yr">2018</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">winobias</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">WinoBias</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov2">2/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2026" data-paper="2026-davies-when llms imagine people a human-centered persona brainstorm audit">
+  <td class="paper-col"><span class="paper-key">2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit</span><span class="yr">2026</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">persona</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2026" data-paper="2026-goel-building interpretable models for moral decision-making">
+  <td class="paper-col"><span class="paper-key">2026-Goel-Building Interpretable Models for Moral Decision-Making</span><span class="yr">2026</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">moral_machine</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2026" data-paper="2026-shen-psychethicsbench">
+  <td class="paper-col"><span class="paper-key">2026-Shen-PsychEthicsBench</span><span class="yr">2026</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-alghamdi-aratrust - an evaluation of trustworthiness for llms in arabic">
+  <td class="paper-col"><span class="paper-key">2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">AraTrust</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-andriushchenko-agentharm">
+  <td class="paper-col"><span class="paper-key">2025-Andriushchenko-AgentHarm</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">agentharm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-bian-healthcare ethics & safety qa china - healthy china 2030">
+  <td class="paper-col"><span class="paper-key">2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-castricato-persona pluralistic alignment testbed">
+  <td class="paper-col"><span class="paper-key">2025-Castricato-PERSONA Pluralistic Alignment Testbed</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">persona</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-cheng-elephant social sycophancy">
+  <td class="paper-col"><span class="paper-key">2025-Cheng-ELEPHANT Social Sycophancy</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="chip chip-ea">elephant</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-ebara-corpus-based medical ethics decision-making evaluation">
+  <td class="paper-col"><span class="paper-key">2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-farsi-pbbq a persian bias benchmark dataset curated with human-ai">
+  <td class="paper-col"><span class="paper-key">2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-flores-benchmoral">
+  <td class="paper-col"><span class="paper-key">2025-Flores-BenchMoral</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">moral_permissibility</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-galea-from measurement to mitigation exploring the transferability of">
+  <td class="paper-col"><span class="paper-key">2025-Galea-From Measurement to Mitigation Exploring the Transferability of</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">crows_pairs</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-gamboa-filipino benchmarks for measuring sexist and homophobic bias in">
+  <td class="paper-col"><span class="paper-key">2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">crows_pairs</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-jiao-llm ethics benchmark a three-dimensional assessment system for">
+  <td class="paper-col"><span class="paper-key">2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-kasu-ethicsmh">
+  <td class="paper-col"><span class="paper-key">2025-Kasu-EthicsMH</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-lindstrom-helpful harmless honest sociotechnical limits">
+  <td class="paper-col"><span class="paper-key">2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">hhh_alignment</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-liu-instrumentaleval">
+  <td class="paper-col"><span class="paper-key">2025-Liu-InstrumentalEval</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">instrumentaleval</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-ma-ethicssuite detecting behavioral inconsistency in llm ethics">
+  <td class="paper-col"><span class="paper-key">2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-menke-how effective is constitutional ai in small llms">
+  <td class="paper-col"><span class="paper-key">2025-Menke-How Effective Is Constitutional AI in Small LLMs</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-myung-papersplease">
+  <td class="paper-col"><span class="paper-key">2025-Myung-PapersPlease</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">ape</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-narnaware-sb-bench">
+  <td class="paper-col"><span class="paper-key">2025-Narnaware-SB-Bench</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">stereoset</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-oh-robustness of large language models in moral judgements">
+  <td class="paper-col"><span class="paper-key">2025-Oh-Robustness of Large Language Models in Moral Judgements</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">moral_machine</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-paech-eq-bench an emotional intelligence benchmark for large language models">
+  <td class="paper-col"><span class="paper-key">2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="chip chip-ea">eq_bench</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-sadallah-commonsense reasoning in arab culture">
+  <td class="paper-col"><span class="paper-key">2025-Sadallah-Commonsense Reasoning in Arab Culture</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="chip chip-ea">arab_culture_commonsense</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-satheesh-dutch crows-pairs adapting a challenge dataset for measuring social">
+  <td class="paper-col"><span class="paper-key">2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">crows_pairs</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-susanto-sea-helm southeast asian holistic evaluation of language models">
+  <td class="paper-col"><span class="paper-key">2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">SEA-HELM</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-takeshita-jethics">
+  <td class="paper-col"><span class="paper-key">2025-Takeshita-JETHICS</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-tomar-bharatbbq a multilingual bias benchmark for">
+  <td class="paper-col"><span class="paper-key">2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-wei-medethicsqa">
+  <td class="paper-col"><span class="paper-key">2025-Wei-MedEthicsQA</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-wu-chain-of-ethics defense framework wu et al.">
+  <td class="paper-col"><span class="paper-key">2025-Wu-Chain-of-Ethics Defense Framework Wu et al.</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-yanaka-intersectional bias in japanese large language models from a">
+  <td class="paper-col"><span class="paper-key">2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-yoo-moral judgment of llm using korean datasets and eastern ethical">
+  <td class="paper-col"><span class="paper-key">2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-zhang-llmeval-med medical safety & ethics component">
+  <td class="paper-col"><span class="paper-key">2025-Zhang-LLMEval-Med Medical Safety & Ethics Component</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-zohny-adept simulating ethics">
+  <td class="paper-col"><span class="paper-key">2025-Zohny-ADEPT Simulating Ethics</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-zulaika-basqbbq a qa benchmark for assessing social biases in llms for basque">
+  <td class="paper-col"><span class="paper-key">2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2025" data-paper="2025-collaboration-improving methodologies for llm evaluations across global languages">
+  <td class="paper-col"><span class="paper-key">2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages</span><span class="yr">2025</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">multilingual_safety</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-bhardwaj-language models are homer simpson! safety">
+  <td class="paper-col"><span class="paper-key">2024-Bhardwaj-Language Models are Homer Simpson! Safety</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">multilingual_safety</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-bignotti-legal minds, algorithmic decisions">
+  <td class="paper-col"><span class="paper-key">2024-Bignotti-Legal Minds, Algorithmic Decisions</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-chern-behonest">
+  <td class="paper-col"><span class="paper-key">2024-Chern-BeHonest</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">honest</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-fenogenova-mera a comprehensive llm evaluation in russian">
+  <td class="paper-col"><span class="paper-key">2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-hancox-li-is ethics about ethics">
+  <td class="paper-col"><span class="paper-key">2024-Hancox-Li-Is ETHICS about ethics</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-hooker-global mmlu understanding and addressing cultural">
+  <td class="paper-col"><span class="paper-key">2024-Hooker-Global MMLU Understanding and Addressing Cultural</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="chip chip-ea">global_mmlu</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-huang-moral persuasion in large language models">
+  <td class="paper-col"><span class="paper-key">2024-Huang-Moral Persuasion in Large Language Models</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">ape</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-jinnai-does cross-cultural alignment change the commonsense morality of">
+  <td class="paper-col"><span class="paper-key">2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-kaiyom-helm safety">
+  <td class="paper-col"><span class="paper-key">2024-Kaiyom-HELM Safety</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">HELM Safety</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-karpov-inducing human-like biases in moral reasoning">
+  <td class="paper-col"><span class="paper-key">2024-Karpov-Inducing Human-like Biases in Moral Reasoning</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-li-benchmarking ethics in text-to-image models">
+  <td class="paper-col"><span class="paper-key">2024-Li-Benchmarking Ethics in Text-to-Image Models</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-mazeika-harmbench">
+  <td class="paper-col"><span class="paper-key">2024-Mazeika-HarmBench</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">HarmBench</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-mousi-aradice benchmarks for dialectal and cultural capabilities in llms">
+  <td class="paper-col"><span class="paper-key">2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="chip chip-ea">aradice</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-neplenbroek-mbbq a dataset for cross-lingual comparison of stereotypes in">
+  <td class="paper-col"><span class="paper-key">2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bbq</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-ng-sghatecheck functional tests for detecting hate speech in">
+  <td class="paper-col"><span class="paper-key">2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">hatecheck</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-ohashi-extended japanese commonsense morality dataset">
+  <td class="paper-col"><span class="paper-key">2024-Ohashi-Extended Japanese Commonsense Morality Dataset</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-quang-vietnamese law and ethics multiple-choice questions vlemcq">
+  <td class="paper-col"><span class="paper-key">2024-Quang-Vietnamese Law and Ethics Multiple-Choice Questions VLEMCQ</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-souly-strongreject">
+  <td class="paper-col"><span class="paper-key">2024-Souly-StrongREJECT</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">strong_reject</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-takemoto-the moral machine experiment on large language">
+  <td class="paper-col"><span class="paper-key">2024-Takemoto-The moral machine experiment on large language</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">moral_machine</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2024" data-paper="2024-vida-decoding multilingual moral preferences - unveiling llm's biases">
+  <td class="paper-col"><span class="paper-key">2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases</span><span class="yr">2024</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">moral_machine</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2023" data-paper="2023-jiang-machiavelli">
+  <td class="paper-col"><span class="paper-key">2023-Jiang-MACHIAVELLI</span><span class="yr">2023</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">machiavelli</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2023" data-paper="2023-khodabakhsh-perbold a big dataset of persian offensive language on instagram">
+  <td class="paper-col"><span class="paper-key">2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram</span><span class="yr">2023</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">bold</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2023" data-paper="2023-mckenzie-inverse scaling can become u-shaped">
+  <td class="paper-col"><span class="paper-key">2023-McKenzie-Inverse Scaling Can Become U-Shaped</span><span class="yr">2023</span></td>
+  <td class="fw-col"><span class="chip chip-ea">✓</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2023" data-paper="2023-qian-understanding chinese moral stories with further">
+  <td class="paper-col"><span class="paper-key">2023-Qian-Understanding Chinese Moral Stories with Further</span><span class="yr">2023</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">moral_stories</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2023" data-paper="2023-roger-towards ethical multimodal systems">
+  <td class="paper-col"><span class="paper-key">2023-Roger-Towards ethical multimodal systems</span><span class="yr">2023</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2023" data-paper="2023-tamkin-evaluating and mitigating discrimination in language model decisions">
+  <td class="paper-col"><span class="paper-key">2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions</span><span class="yr">2023</span></td>
+  <td class="fw-col"><span class="chip chip-ea">✓</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2023" data-paper="2023-vidgen-simplesafetytests">
+  <td class="paper-col"><span class="paper-key">2023-Vidgen-SimpleSafetyTests</span><span class="yr">2023</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">✓</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2023" data-paper="2023-wang-decodingtrust">
+  <td class="paper-col"><span class="paper-key">2023-Wang-DecodingTrust</span><span class="yr">2023</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">DecodingTrust</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2022" data-paper="2022-das-hatecheckhin evaluating hindi hate speech detection">
+  <td class="paper-col"><span class="paper-key">2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection</span><span class="yr">2022</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">hatecheck</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2022" data-paper="2022-ganguli-red teaming language models to reduce harms">
+  <td class="paper-col"><span class="paper-key">2022-Ganguli-Red Teaming Language Models to Reduce Harms</span><span class="yr">2022</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">Anthropic Red Team</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2022" data-paper="2022-hendrycks-what would jiminy cricket do">
+  <td class="paper-col"><span class="paper-key">2022-Hendrycks-What Would Jiminy Cricket Do</span><span class="yr">2022</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">jiminy_cricket</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2022" data-paper="2022-liang-holistic evaluation of language models">
+  <td class="paper-col"><span class="paper-key">2022-Liang-Holistic Evaluation of Language Models</span><span class="yr">2022</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">HELM (framework)</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2022" data-paper="2022-perez-discovering language model behaviors with model-written evaluations">
+  <td class="paper-col"><span class="paper-key">2022-Perez-Discovering Language Model Behaviors with Model-Written Evaluations</span><span class="yr">2022</span></td>
+  <td class="fw-col"><span class="chip chip-ea">✓</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2022" data-paper="2022-taktasheva-tape assessing few-shot russian language understanding">
+  <td class="paper-col"><span class="paper-key">2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding</span><span class="yr">2022</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-ins">ape</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-ins" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2022" data-paper="2022-vishwanath-towards artificial virtuous agents - games and ml">
+  <td class="paper-col"><span class="paper-key">2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML</span><span class="yr">2022</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">ethics_cm</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2021" data-paper="2021-askell-a general language assistant as a laboratory for">
+  <td class="paper-col"><span class="paper-key">2021-Askell-A General Language Assistant as a Laboratory for</span><span class="yr">2021</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">HHH Alignment</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2021" data-paper="2021-hansson-the swedish winogender dataset swewinogender">
+  <td class="paper-col"><span class="paper-key">2021-Hansson-The Swedish Winogender Dataset SweWinogender</span><span class="yr">2021</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">winogender</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2021" data-paper="2021-nozza-honest measuring hurtful sentence completions in language models">
+  <td class="paper-col"><span class="paper-key">2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models</span><span class="yr">2021</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">✓</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2020" data-paper="2020-awad-universals and variations in moral decisions made">
+  <td class="paper-col"><span class="paper-key">2020-Awad-Universals and variations in moral decisions made</span><span class="yr">2020</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">moral_machine</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2020" data-paper="2020-brown-language models are few-shot learners">
+  <td class="paper-col"><span class="paper-key">2020-Brown-Language Models are Few-Shot Learners</span><span class="yr">2020</span></td>
+  <td class="fw-col"><span class="chip chip-ea">✓</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2019" data-paper="2019-borkan-nuanced metrics for measuring unintended bias">
+  <td class="paper-col"><span class="paper-key">2019-Borkan-Nuanced Metrics for Measuring Unintended Bias</span><span class="yr">2019</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-helm">✓</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-helm" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2019" data-paper="2019-sap-social iqa commonsense reasoning about social interactions">
+  <td class="paper-col"><span class="paper-key">2019-Sap-Social IQa Commonsense Reasoning about Social Interactions</span><span class="yr">2019</span></td>
+  <td class="fw-col"><span class="chip chip-ea">✓</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2018" data-paper="2018-awad-the moral machine experiment">
+  <td class="paper-col"><span class="paper-key">2018-Awad-The Moral Machine experiment</span><span class="yr">2018</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">moral_machine</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2018" data-paper="2018-kiritchenko-examining gender and race bias in two hundred">
+  <td class="paper-col"><span class="paper-key">2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred</span><span class="yr">2018</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">equity_evaluation_corpus</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2018" data-paper="2018-rudinger-gender bias in coreference resolution">
+  <td class="paper-col"><span class="paper-key">2018-Rudinger-Gender Bias in Coreference Resolution</span><span class="yr">2018</span></td>
+  <td class="fw-col"><span class="chip chip-ea">✓</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-ea" title="EA"></span><span class="dot dot-off" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+<tr data-cov="1" data-year="2016" data-paper="2016-bolukbasi-man is to computer programmer as woman is to">
+  <td class="paper-col"><span class="paper-key">2016-Bolukbasi-Man is to Computer Programmer as Woman is to</span><span class="yr">2016</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="chip chip-lm">weat</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col"><span class="na">—</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="fw-col na-col"><span class="na-tracked">not tracked</span></td>
+  <td class="cov-col"><span class="cov-badge cov1">1/4</span><span class="dot dot-off" title="EA"></span><span class="dot dot-lm" title="LM"></span><span class="dot dot-off" title="INS"></span><span class="dot dot-off" title="HELM"></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="footer">
+  <strong>Notes:</strong>
+  Cells show the framework's internal task/benchmark ID for papers it already implements.
+  ✓ = paper is tagged as incorporated but has no single mapped task ID.
+  lighteval and OpenAI Evals track implementability only — no "already included" data.
+  Coverage dots: <span class="dot dot-ea"></span> EA &nbsp; <span class="dot dot-lm"></span> lm-eval &nbsp; <span class="dot dot-ins"></span> Inspect &nbsp; <span class="dot dot-helm"></span> HELM &nbsp; <span class="dot dot-off"></span> absent.
+  <br>
+  <em>Sources: 20260312-eleutherai-eval-harness-integration.md, 20260312-helm-values-alignment-integration-report.md, 20260312-lm-eval-implementability-report.md, 20260312-inspect-eval-implementability-report.md</em>
+</div>
+
+<script>
+const rows = Array.from(document.querySelectorAll("#tableBody tr"));
+
+function applyFilters() {
+  const search  = document.getElementById("search").value.toLowerCase();
+  const minCov  = parseInt(document.getElementById("minCov").value) || 0;
+  const year    = document.getElementById("yearFilter").value;
+  const fw      = document.getElementById("fwFilter").value;
+
+  // fw presence check — need access to row data
+  const DATA = [{"paper": "2022-Parrish-BBQ Bias Benchmark for Question Answering", "year": "2022", "ea": "`bbq`", "lm": "`bbq`", "ins": "`bbq`", "helm": "BBQ", "le": "—", "oa": "—", "coverage": 4}, {"paper": "2025-Ruiz-Fernández-EsBBQ and CaBBQ", "year": "2025", "ea": "`esbbq`, `cabbq`", "lm": "`bbq`", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 3}, {"paper": "2022-Hartvigsen-ToxiGen", "year": "2022", "ea": "`toxigen`", "lm": "`toxigen`", "ins": "`toxigen`", "helm": "", "le": "—", "oa": "—", "coverage": 3}, {"paper": "2022-Lin-TruthfulQA", "year": "2022", "ea": "`truthfulqa`", "lm": "`truthfulqa_mc1`", "ins": "", "helm": "TruthfulQA", "le": "—", "oa": "—", "coverage": 3}, {"paper": "2021-Dhamala-BOLD", "year": "2021", "ea": "", "lm": "`bold`", "ins": "`bold`", "helm": "BOLD", "le": "—", "oa": "—", "coverage": 3}, {"paper": "2021-Hendrycks-Aligning AI with Shared Human Values", "year": "2021", "ea": "`hendrycks_ethics`", "lm": "`ethics_cm`", "ins": "`ethics_cm`", "helm": "", "le": "—", "oa": "—", "coverage": 3}, {"paper": "2020-Gehman-RealToxicityPrompts", "year": "2020", "ea": "`realtoxicityprompts`", "lm": "`realtoxicityprompts`", "ins": "", "helm": "RealToxicityPrompts", "le": "—", "oa": "—", "coverage": 3}, {"paper": "2020-Nangia-CrowS-Pairs", "year": "2020", "ea": "`crows_pairs`", "lm": "`crows_pairs`", "ins": "", "helm": "CrowS-Pairs", "le": "—", "oa": "—", "coverage": 3}, {"paper": "2025-Leteno-Histoires Morales", "year": "2025", "ea": "`histoires_morales`", "lm": "`histoires_morales`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2025-Zulaika-BasqBBQ Basque BBQ", "year": "2025", "ea": "", "lm": "`bbq`", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models", "year": "2024", "ea": "", "lm": "`truthfulqa`", "ins": "`truthfulqa`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Adelani-Uhura A Benchmark for Evaluating Scientific", "year": "2024", "ea": "", "lm": "`truthfulqa`", "ins": "`truthfulqa`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Freire-Uncovering Latent Human Wellbeing in Language", "year": "2024", "ea": "", "lm": "`ethics_cm`", "ins": "`ethics_utilitarianism`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Gupta-WalledEval", "year": "2024", "ea": "", "lm": "`xstest`", "ins": "`xstest`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Huang-CBBQ", "year": "2024", "ea": "", "lm": "`bbq`", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering", "year": "2024", "ea": "", "lm": "`bbq`", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Li-The WMDP Benchmark", "year": "2024", "ea": "`wmdp`", "lm": "", "ins": "`wmdp`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Liang-Cross-Language Bias Examination in Large Language Models", "year": "2024", "ea": "", "lm": "`bbq`", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Röttger-XSTest", "year": "2024", "ea": "", "lm": "", "ins": "`xstest`", "helm": "XSTest", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Sharma-Towards Understanding Sycophancy in Language Models", "year": "2024", "ea": "`sycophancy`", "lm": "", "ins": "`sycophancy`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Yanaka-JBBQ", "year": "2024", "ea": "", "lm": "`bbq`", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2024-Zeng-AIR-Bench 2024", "year": "2024", "ea": "", "lm": "", "ins": "`air_bench`", "helm": "AIR-Bench 2024", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2021-Emelin-Moral Stories", "year": "2021", "ea": "`moral_stories`", "lm": "`moral_stories`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2021-Nadeem-StereoSet", "year": "2021", "ea": "", "lm": "`stereoset`", "ins": "`stereoset`", "helm": "", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2018-Zhao-Gender Bias in Coreference Resolution", "year": "2018", "ea": "", "lm": "`winobias`", "ins": "", "helm": "WinoBias", "le": "—", "oa": "—", "coverage": 2}, {"paper": "2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit", "year": "2026", "ea": "", "lm": "", "ins": "`persona`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2026-Goel-Building Interpretable Models for Moral Decision-Making", "year": "2026", "ea": "", "lm": "`moral_machine`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2026-Shen-PsychEthicsBench", "year": "2026", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic", "year": "2025", "ea": "", "lm": "", "ins": "", "helm": "AraTrust", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Andriushchenko-AgentHarm", "year": "2025", "ea": "", "lm": "", "ins": "`agentharm`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Castricato-PERSONA Pluralistic Alignment Testbed", "year": "2025", "ea": "", "lm": "", "ins": "`persona`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Cheng-ELEPHANT Social Sycophancy", "year": "2025", "ea": "`elephant`", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI", "year": "2025", "ea": "", "lm": "", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Flores-BenchMoral", "year": "2025", "ea": "", "lm": "`moral_permissibility`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Galea-From Measurement to Mitigation Exploring the Transferability of", "year": "2025", "ea": "", "lm": "`crows_pairs`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in", "year": "2025", "ea": "", "lm": "`crows_pairs`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Kasu-EthicsMH", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits", "year": "2025", "ea": "", "lm": "`hhh_alignment`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Liu-InstrumentalEval", "year": "2025", "ea": "", "lm": "", "ins": "`instrumentaleval`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Menke-How Effective Is Constitutional AI in Small LLMs", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Myung-PapersPlease", "year": "2025", "ea": "", "lm": "", "ins": "`ape`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Narnaware-SB-Bench", "year": "2025", "ea": "", "lm": "", "ins": "`stereoset`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Oh-Robustness of Large Language Models in Moral Judgements", "year": "2025", "ea": "", "lm": "`moral_machine`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models", "year": "2025", "ea": "`eq_bench`", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Sadallah-Commonsense Reasoning in Arab Culture", "year": "2025", "ea": "`arab_culture_commonsense`", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social", "year": "2025", "ea": "", "lm": "`crows_pairs`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models", "year": "2025", "ea": "", "lm": "", "ins": "", "helm": "SEA-HELM", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Takeshita-JETHICS", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for", "year": "2025", "ea": "", "lm": "", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Wei-MedEthicsQA", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Wu-Chain-of-Ethics Defense Framework Wu et al.", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a", "year": "2025", "ea": "", "lm": "", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Zhang-LLMEval-Med Medical Safety & Ethics Component", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Zohny-ADEPT Simulating Ethics", "year": "2025", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque", "year": "2025", "ea": "", "lm": "", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages", "year": "2025", "ea": "", "lm": "", "ins": "`multilingual_safety`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Bhardwaj-Language Models are Homer Simpson! Safety", "year": "2024", "ea": "", "lm": "", "ins": "`multilingual_safety`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Bignotti-Legal Minds, Algorithmic Decisions", "year": "2024", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Chern-BeHonest", "year": "2024", "ea": "", "lm": "`honest`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian", "year": "2024", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Hancox-Li-Is ETHICS about ethics", "year": "2024", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Hooker-Global MMLU Understanding and Addressing Cultural", "year": "2024", "ea": "`global_mmlu`", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Huang-Moral Persuasion in Large Language Models", "year": "2024", "ea": "", "lm": "", "ins": "`ape`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of", "year": "2024", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Kaiyom-HELM Safety", "year": "2024", "ea": "", "lm": "", "ins": "", "helm": "HELM Safety", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Karpov-Inducing Human-like Biases in Moral Reasoning", "year": "2024", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Li-Benchmarking Ethics in Text-to-Image Models", "year": "2024", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Mazeika-HarmBench", "year": "2024", "ea": "", "lm": "", "ins": "", "helm": "HarmBench", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs", "year": "2024", "ea": "`aradice`", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in", "year": "2024", "ea": "", "lm": "", "ins": "`bbq`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in", "year": "2024", "ea": "", "lm": "`hatecheck`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Ohashi-Extended Japanese Commonsense Morality Dataset", "year": "2024", "ea": "", "lm": "", "ins": "`ethics_cm`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Quang-Vietnamese Law and Ethics Multiple-Choice Questions VLEMCQ", "year": "2024", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Souly-StrongREJECT", "year": "2024", "ea": "", "lm": "", "ins": "`strong_reject`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Takemoto-The moral machine experiment on large language", "year": "2024", "ea": "", "lm": "`moral_machine`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases", "year": "2024", "ea": "", "lm": "`moral_machine`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2023-Jiang-MACHIAVELLI", "year": "2023", "ea": "", "lm": "`machiavelli`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram", "year": "2023", "ea": "", "lm": "", "ins": "`bold`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2023-McKenzie-Inverse Scaling Can Become U-Shaped", "year": "2023", "ea": "✓", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2023-Qian-Understanding Chinese Moral Stories with Further", "year": "2023", "ea": "", "lm": "`moral_stories`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2023-Roger-Towards ethical multimodal systems", "year": "2023", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions", "year": "2023", "ea": "✓", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2023-Vidgen-SimpleSafetyTests", "year": "2023", "ea": "", "lm": "", "ins": "", "helm": "✓", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2023-Wang-DecodingTrust", "year": "2023", "ea": "", "lm": "", "ins": "", "helm": "DecodingTrust", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection", "year": "2022", "ea": "", "lm": "`hatecheck`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2022-Ganguli-Red Teaming Language Models to Reduce Harms", "year": "2022", "ea": "", "lm": "", "ins": "", "helm": "Anthropic Red Team", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2022-Hendrycks-What Would Jiminy Cricket Do", "year": "2022", "ea": "", "lm": "`jiminy_cricket`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2022-Liang-Holistic Evaluation of Language Models", "year": "2022", "ea": "", "lm": "", "ins": "", "helm": "HELM (framework)", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2022-Perez-Discovering Language Model Behaviors with Model-Written Evaluations", "year": "2022", "ea": "✓", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding", "year": "2022", "ea": "", "lm": "", "ins": "`ape`", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML", "year": "2022", "ea": "", "lm": "`ethics_cm`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2021-Askell-A General Language Assistant as a Laboratory for", "year": "2021", "ea": "", "lm": "", "ins": "", "helm": "HHH Alignment", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2021-Hansson-The Swedish Winogender Dataset SweWinogender", "year": "2021", "ea": "", "lm": "`winogender`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models", "year": "2021", "ea": "", "lm": "", "ins": "", "helm": "✓", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2020-Awad-Universals and variations in moral decisions made", "year": "2020", "ea": "", "lm": "`moral_machine`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2020-Brown-Language Models are Few-Shot Learners", "year": "2020", "ea": "✓", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2019-Borkan-Nuanced Metrics for Measuring Unintended Bias", "year": "2019", "ea": "", "lm": "", "ins": "", "helm": "✓", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2019-Sap-Social IQa Commonsense Reasoning about Social Interactions", "year": "2019", "ea": "✓", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2018-Awad-The Moral Machine experiment", "year": "2018", "ea": "", "lm": "`moral_machine`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred", "year": "2018", "ea": "", "lm": "`equity_evaluation_corpus`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2018-Rudinger-Gender Bias in Coreference Resolution", "year": "2018", "ea": "✓", "lm": "", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}, {"paper": "2016-Bolukbasi-Man is to Computer Programmer as Woman is to", "year": "2016", "ea": "", "lm": "`weat`", "ins": "", "helm": "", "le": "—", "oa": "—", "coverage": 1}];
+  const dataMap = {};
+  DATA.forEach(function(d) { dataMap[d.paper.toLowerCase()] = d; });
+
+  let count = 0;
+  rows.forEach(function(tr) {
+    const paper = tr.dataset.paper;
+    const cov   = parseInt(tr.dataset.cov);
+    const y     = tr.dataset.year;
+    const d     = dataMap[paper];
+
+    let show = true;
+    if (search && paper.indexOf(search) === -1) show = false;
+    if (cov < minCov) show = false;
+    if (year && y !== year) show = false;
+    if (fw && d) {
+      const val = d[fw];
+      if (!val || val === "—" || val === "") show = false;
+    }
+
+    if (show) { tr.classList.remove("hidden"); count++; }
+    else       { tr.classList.add("hidden"); }
+  });
+  document.getElementById("showCount").textContent = count;
+}
+
+function resetFilters() {
+  document.getElementById("search").value = "";
+  document.getElementById("minCov").value = "0";
+  document.getElementById("yearFilter").value = "";
+  document.getElementById("fwFilter").value = "";
+  applyFilters();
+}
+
+document.getElementById("search").addEventListener("input", applyFilters);
+["minCov","yearFilter","fwFilter"].forEach(function(id) {
+  document.getElementById(id).addEventListener("change", applyFilters);
+});
+</script>
+</body>
+</html>

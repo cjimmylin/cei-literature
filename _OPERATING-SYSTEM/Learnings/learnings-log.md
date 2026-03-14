@@ -34,6 +34,18 @@
 
 ---
 
+## 2026-03-13 (Session 120)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-13 | Author Management | **`authors_incomplete: true` YAML flag is orthogonal to the `authors` field content:** The audit classifies Cat D via two independent checks — `[[Unknown]]` in the `authors` field OR `authors_incomplete: true` flag. Fixing the `authors` text without also clearing this flag leaves papers in Cat D. Always set `authors_incomplete: false` in any script that repairs malformed author entries. |
+| 2026-03-13 | Author Management | **Two semicolon author patterns need different reversal logic:** `"Nozza; Debora"` (no comma, 2 parts) = reversed single author → swap. `"Zheng, Weihua; Chanpaisit, Nattapol"` (comma inside each part) = APA multi-author → split on `;`, then reverse each `Last, First`. Mixing them up produces garbage names. Pattern classifier in `fix_semicolon_authors.py` handles both. |
+| 2026-03-13 | Author Management | **"Al, Hamdan" is a fragmented Arabic surname — `≤2 char last-name` heuristic catches it:** Name parts from some NLP papers (SHADES benchmark) contain "Al" as a truncated version of "Al-Hamdan" etc. The fix script uses `len(last) ≤ 2` and `last ∉ SHORT_LEGIT_PARTS` (note: "al" removed from legit parts since it's commonly a fragment) to flag these as suspicious and skip auto-correction. |
+| 2026-03-13 | Data Quality | **Feb 20 audit's Cat E = 0 was a false negative:** GPT-3 (2020-Brown, 31 co-authors) and Anthropic Perez 2022 papers had full co-author lists in the `authors` field but no corresponding profile files. The current audit correctly detects all 39 missing profiles. Created stubs for all 39 via `apply_author_resolutions.py --categories E`. |
+| 2026-03-13 | API | **Cat A name-matching bug in `resolve_author_issues.py`: trailing comma in surname:** For abbreviated names like `"McCrae, John P."`, the surname extraction splits `"McCrae, John P.".split()` → `["McCrae,", "John", "P."]` → surname = `"mccrae,"` (with trailing comma). The API returns `"John P. McCrae"` which ends with `"mccrae"` (no comma) → match fails silently. The 0-of-n API resolution rate in Cat A is largely due to this pre-existing bug in the comma-last-name format. |
+
+---
+
 ## 2026-03-13 (Session 119)
 
 | Date | Category | Learning |

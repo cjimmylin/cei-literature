@@ -89,7 +89,7 @@ LLM_assessed: "Alpaca, ChatGPT, LLaMA, Vicuna"
 DATA_URL: "https://github.com/choosewhatulike/trainable-agents"
 CONFERENCE: "EMNLP 2023"
 ethics_overall: 0
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
 research_topic: "Other"

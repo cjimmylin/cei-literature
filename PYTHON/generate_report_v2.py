@@ -8,9 +8,21 @@ LEARNINGS / DESIGN DECISIONS:
 """
 
 import re
+import sys
 from pathlib import Path
 from collections import defaultdict
 from typing import Dict, List, Tuple
+
+sys.path.insert(0, str(Path(__file__).parent))
+from moral_psych_scoring import (
+    MP_FIELDS, FIELD_DISPLAY_NAMES, is_mp_detected, parse_mp_value,
+)
+from religious_scoring import (
+    RV_FIELDS,
+    FIELD_DISPLAY_NAMES as RV_DISPLAY_NAMES,
+    is_rv_detected,
+    parse_rv_value,
+)
 
 from vault_config import PAPERS_DIR, STATISTICS_DIR
 
@@ -76,7 +88,9 @@ def main():
     stats = {
         "National / Ethnic / Cultural Values": defaultdict(list),
         "Religious Values": defaultdict(list),
-        "Moral Psychology": defaultdict(list)
+        "Religious Values (Per-Tradition)": defaultdict(list),
+        "Moral Psychology": defaultdict(list),
+        "Moral Psychology (Per-Theory)": defaultdict(list),
     }
     
     total_tagged_papers = set()
@@ -97,15 +111,39 @@ def main():
                 stats["National / Ethnic / Cultural Values"][val].append(item)
                 total_tagged_papers.add(name)
                 
-            # Religious
-            for val in get_clean_values(fm, 'religious_values'):
-                stats["Religious Values"][val].append(item)
+            # Religious — prefer rv_* scores, fall back to religious_values string
+            rv_detected_any = False
+            for rv_field in RV_FIELDS:
+                rv_val = fm.get(rv_field, '')
+                if is_rv_detected(rv_val):
+                    tradition_name = RV_DISPLAY_NAMES[rv_field]
+                    stats["Religious Values (Per-Tradition)"][tradition_name].append(item)
+                    rv_detected_any = True
+            if rv_detected_any:
+                stats["Religious Values"]["Detected (from rv_* scores)"].append(item)
                 total_tagged_papers.add(name)
+            else:
+                # Fallback: read religious_values string (legacy)
+                for val in get_clean_values(fm, 'religious_values'):
+                    stats["Religious Values"][val].append(item)
+                    total_tagged_papers.add(name)
                 
-            # Psych
-            for val in get_clean_values(fm, 'moral_psychology'):
-                stats["Moral Psychology"][val].append(item)
+            # Psych — prefer mp_* scores, fall back to moral_psychology string
+            mp_detected_any = False
+            for mp_field in MP_FIELDS:
+                mp_val = fm.get(mp_field, '')
+                if is_mp_detected(mp_val):
+                    theory_name = FIELD_DISPLAY_NAMES[mp_field]
+                    stats["Moral Psychology (Per-Theory)"][theory_name].append(item)
+                    mp_detected_any = True
+            if mp_detected_any:
+                stats["Moral Psychology"]["Detected (from mp_* scores)"].append(item)
                 total_tagged_papers.add(name)
+            else:
+                # Fallback: read moral_psychology string (legacy)
+                for val in get_clean_values(fm, 'moral_psychology'):
+                    stats["Moral Psychology"][val].append(item)
+                    total_tagged_papers.add(name)
                 
         except Exception as e:
             print(f"Error processing {paper.name}: {e}")

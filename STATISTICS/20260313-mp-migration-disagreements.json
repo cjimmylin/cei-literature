@@ -1,0 +1,1006 @@
+{
+  "date": "2026-03-13",
+  "dry_run": false,
+  "total_disagreements": 111,
+  "disagreements": [
+    {
+      "field": "mp_dual_process",
+      "theory": "Dual Process Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2016-Holyoak-Deontological coherence.md",
+      "old_moral_psychology": "Dual Process Theory"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+      "old_moral_psychology": "Moral Identity, Dual Process Theory, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_dual_process",
+      "theory": "Dual Process Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+      "old_moral_psychology": "Moral Identity, Dual Process Theory, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2018-Behzadan-TrolleyMod v1.0.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2018-Berberich-The Virtuous Machine.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_dyadic",
+      "theory": "Dyadic Morality",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2019-Aliman-Requisite Variety Ethical Utility Functions.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2020-Serafimova-Whose Morality Which Rationality.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2021-Stenseke-Artificial Virtuous Agents.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_dual_process",
+      "theory": "Dual Process Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2022-Bago-Situational factors shape moral judgments in the.md",
+      "old_moral_psychology": "Dual Process Theory, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_intuitionist",
+      "theory": "Social Intuitionist Model",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2022-Fraser-Does Moral Code Have a Moral Code.md",
+      "old_moral_psychology": "Moral Foundations Theory, Social Intuitionist Model"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2022-Zhang-Artificial Intelligence and Moral Dilemmas.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2022-Ziems-The Moral Integrity Corpus.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2023-Bang-Towards Answering Open-ended Ethical Quandary.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 60,
+      "type": "absent->high",
+      "filename": "2023-Benkler-Assessing LLMs for Moral Value Pluralism.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2023-Davani-Disentangling Perceptions of Offensiveness.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2023-Deng-Probing the Moral Development of Large Language.md",
+      "old_moral_psychology": "Cognitive Developmental"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 15,
+      "type": "present->low",
+      "filename": "2023-Fischer-What does ChatGPT return about human values.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2023-Körner-Deontology and Utilitarianism in Real Life.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2023-Rao-Ethical Reasoning over Moral Alignment.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2023-Roger-Towards ethical multimodal systems.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2023-Vida-Values, Ethics, Morals.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2023-Wang-STREAM.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2023-Yao-From Instructions to Intrinsic Human Values -- A.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Adilazuarda-Towards Measuring and Modeling .md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Agarwal-Ethical Reasoning Depends on Language.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Bignotti-Legal Minds, Algorithmic Decisions.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 10,
+      "type": "present->low",
+      "filename": "2024-Cahyawijaya-High-Dimension Human Value Representation in.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Chiu-DailyDilemmas.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych), Dual Process Theory"
+    },
+    {
+      "field": "mp_dual_process",
+      "theory": "Dual Process Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych), Dual Process Theory"
+    },
+    {
+      "field": "mp_dual_process",
+      "theory": "Dual Process Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2024-Garcia-The Moral Turing Test.md",
+      "old_moral_psychology": "Dual Process Theory, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Hancox-Li-Is ETHICS about ethics.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_identity",
+      "theory": "Moral Identity",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Ji-MoralBench.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_intuitionist",
+      "theory": "Social Intuitionist Model",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Kirgis-Differences in Moral Foundations of LLMs.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Levine-Religious Affiliation and Conceptions of the.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_kohlberg",
+      "theory": "Cognitive Developmental",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Liu-Evaluating Moral Beliefs across LLMs through a.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Pistilli-CIVICS.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 5,
+      "type": "present->low",
+      "filename": "2024-Ren-ValueBench.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 75,
+      "type": "absent->high",
+      "filename": "2024-Sorensen-Value Kaleidoscope.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2024-Sorin-Ethical Alignment of LLMs in Healthcare.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_kohlberg",
+      "theory": "Cognitive Developmental",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2024-Stenseke-Computational Complexity of Ethics.md",
+      "old_moral_psychology": "Dual Process Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_dual_process",
+      "theory": "Dual Process Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2024-Stenseke-Computational Complexity of Ethics.md",
+      "old_moral_psychology": "Dual Process Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_identity",
+      "theory": "Moral Identity",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Yan-M$^3$oralBench.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2024-Ye-Measuring Human and AI Values Based on Generative.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2024-Yu-CMoralEval.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Aditya-Toward global ethical frameworks for AI.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_identity",
+      "theory": "Moral Identity",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-An-MoralReason.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_identity",
+      "theory": "Moral Identity",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Atf-Kantian-Utilitarian XAI.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Baum-Aggregation Problems in Machine Ethics.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Becker-The Moralization Corpus.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Bulla-Large Language Models meet moral values.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 5,
+      "type": "present->low",
+      "filename": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+      "old_moral_psychology": "Moral Foundations Theory, Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Cheung-LLMs Amplified Cognitive Biases Moral.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Chua-Between a Rock and a Hard Place TRIAL.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Drukker-Concerns and Values in Human-Robot Interactions.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_kohlberg",
+      "theory": "Cognitive Developmental",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-El Masri-Towards Attuned AI.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Han-Value Portrait.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Hui-Decoding Moral Responses in AI.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_kohlberg",
+      "theory": "Cognitive Developmental",
+      "old": "present",
+      "new_score": 10,
+      "type": "present->low",
+      "filename": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+      "old_moral_psychology": "Cognitive Developmental"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Jiang-Raising the Bar.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md",
+      "old_moral_psychology": "Moral Foundations Theory, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Jiao-LLM Ethics Benchmark.md",
+      "old_moral_psychology": "Moral Foundations Theory, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Keshmirian-Many LLMs Are More Utilitarian Than One.md",
+      "old_moral_psychology": "Dual Process Theory, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_dual_process",
+      "theory": "Dual Process Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Keshmirian-Many LLMs Are More Utilitarian Than One.md",
+      "old_moral_psychology": "Dual Process Theory, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Kneer-Hard Problem AI Alignment Value Forks.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_kohlberg",
+      "theory": "Cognitive Developmental",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Kumar-Are Rules Meant to be Broken.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Li-Analyzing Cognitive Differences Among Large.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Li-Analyzing Cognitive Differences Among Large.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Liu-Diagnosing Moral Reasoning Acquisition in.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Neuman-Auditing the Ethical Logic of Generative AI Models.md",
+      "old_moral_psychology": "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Neuman-Auditing the Ethical Logic of Generative AI Models.md",
+      "old_moral_psychology": "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_kohlberg",
+      "theory": "Cognitive Developmental",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Neuman-Auditing the Ethical Logic of Generative AI Models.md",
+      "old_moral_psychology": "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Russo-The Pluralistic Moral Gap.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-SOCIETY-How Much of a Pluralist is.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Salazar-Kaleidoscope.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_kohlberg",
+      "theory": "Cognitive Developmental",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Sameer-Insights into Moral Reasoning of AI.md",
+      "old_moral_psychology": "Moral Foundations Theory, Cognitive Developmental"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Samway-Are Language Models Consequentialist or Deontological.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych), Dual Process Theory"
+    },
+    {
+      "field": "mp_dual_process",
+      "theory": "Dual Process Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Samway-Are Language Models Consequentialist or Deontological.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych), Dual Process Theory"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Shen-Alignment and Safety in LLMs Survey.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Shen-ValueActionLens Mind the Value-Action Gap.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md",
+      "old_moral_psychology": "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md",
+      "old_moral_psychology": "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_kohlberg",
+      "theory": "Cognitive Developmental",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md",
+      "old_moral_psychology": "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Snoswell-Beyond Verdicts LLM Moral Competence.md",
+      "old_moral_psychology": "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Snoswell-Beyond Verdicts LLM Moral Competence.md",
+      "old_moral_psychology": "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_kohlberg",
+      "theory": "Cognitive Developmental",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Snoswell-Beyond Verdicts LLM Moral Competence.md",
+      "old_moral_psychology": "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Sorensen-Operationalizing Pluralistic Values.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 75,
+      "type": "absent->high",
+      "filename": "2025-Wu-CVC.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+      "old_moral_psychology": "Moral Foundations Theory, Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+      "old_moral_psychology": "Moral Foundations Theory, Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Xiang-Comparing Moral Values in Western.md",
+      "old_moral_psychology": "Moral Foundations Theory"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Yao-Value Compass Benchmarks.md",
+      "old_moral_psychology": "Moral Foundations Theory, Value Pluralism / Schwartz"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_kohlberg",
+      "theory": "Cognitive Developmental",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Zhu-EAVIT.md",
+      "old_moral_psychology": "N/A"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+      "old_moral_psychology": "Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+      "old_moral_psychology": "Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+      "old_moral_psychology": "Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Zhu-TrolleyBench.md",
+      "old_moral_psychology": "Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2025-Zhu-TrolleyBench.md",
+      "old_moral_psychology": "Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_trolley",
+      "theory": "Trolley / Dilemmas (Psych)",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2025-Zhu-TrolleyBench.md",
+      "old_moral_psychology": "Cognitive Developmental, Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "absent",
+      "new_score": 50,
+      "type": "absent->high",
+      "filename": "2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+      "old_moral_psychology": "Trolley / Dilemmas (Psych)"
+    },
+    {
+      "field": "mp_mft",
+      "theory": "Moral Foundations Theory",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz, Moral Foundations Theory"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 5,
+      "type": "present->low",
+      "filename": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz, Moral Foundations Theory"
+    },
+    {
+      "field": "mp_schwartz",
+      "theory": "Value Pluralism / Schwartz",
+      "old": "present",
+      "new_score": 0,
+      "type": "present->low",
+      "filename": "2026-Yun-VAPT Value-Alignment Perception Toolkit.md",
+      "old_moral_psychology": "Value Pluralism / Schwartz"
+    }
+  ]
+}

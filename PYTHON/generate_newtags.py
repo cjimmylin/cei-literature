@@ -10,8 +10,21 @@ LEARNINGS / DESIGN DECISIONS:
 """
 
 import re
+import sys
 from pathlib import Path
 from typing import Tuple, List, Dict
+
+sys.path.insert(0, str(Path(__file__).parent))
+from ethics_scoring import is_ethics_yes, parse_ethics_value
+from moral_psych_scoring import (
+    MP_FIELDS, FIELD_DISPLAY_NAMES, is_mp_detected, parse_mp_value,
+)
+from religious_scoring import (
+    RV_FIELDS,
+    FIELD_DISPLAY_NAMES as RV_DISPLAY_NAMES,
+    is_rv_detected,
+    parse_rv_value,
+)
 
 PAPERS_DIR = Path(__file__).parent / "papers"
 
@@ -55,28 +68,46 @@ def generate_tags(fm: Dict[str, str]) -> List[str]:
             v = v.strip()
             if v: tags.append(v)
             
-    # 2. Religious Values
-    val = fm.get('religious_values', 'N/A')
-    if val and val not in ['N/A', 'Unknown', 'None']:
-         for v in val.split(','):
-            v = v.strip()
-            if v: tags.append(v)
+    # 2. Religious Values — prefer rv_* scores, fall back to religious_values string
+    rv_tags = []
+    for rv_field in RV_FIELDS:
+        if is_rv_detected(fm.get(rv_field)):
+            rv_tags.append(RV_DISPLAY_NAMES[rv_field])
+    if not rv_tags:
+        # Fallback: read religious_values string (legacy)
+        val = fm.get('religious_values', 'N/A')
+        if val and val not in ['N/A', 'Unknown', 'None']:
+            for v in val.split(','):
+                v = v.strip()
+                if v: rv_tags.append(v)
+    tags.extend(rv_tags)
             
-    # 3. Moral Psychology
-    val = fm.get('moral_psychology', 'N/A')
-    if val and val not in ['N/A', 'Unknown', 'None']:
-         for v in val.split(','):
-            v = v.strip()
-            if v: tags.append(v)
+    # 3. Moral Psychology — prefer mp_* scores, fall back to moral_psychology string
+    mp_tags = []
+    for mp_field in MP_FIELDS:
+        if is_mp_detected(fm.get(mp_field)):
+            mp_tags.append(FIELD_DISPLAY_NAMES[mp_field])
+    if not mp_tags:
+        # Fallback: read moral_psychology string (legacy)
+        val = fm.get('moral_psychology', 'N/A')
+        if val and val not in ['N/A', 'Unknown', 'None']:
+            for v in val.split(','):
+                v = v.strip()
+                if v: mp_tags.append(v)
+    tags.extend(mp_tags)
             
     # 4. Ethical Frameworks
-    if fm.get('virtue_ethics') == 'Yes':
+    if is_ethics_yes(fm.get('virtue_ethics')):
         tags.append("Virtue Ethics")
-    if fm.get('deontological_ethics') == 'Yes':
+    if is_ethics_yes(fm.get('deontological_ethics')):
         tags.append("Deontology")
-    if fm.get('utilitarian_ethics') == 'Yes':
+    if is_ethics_yes(fm.get('utilitarian_ethics')):
         tags.append("Utilitarianism")
-        
+    if is_ethics_yes(fm.get('care_ethics')):
+        tags.append("Care Ethics")
+    if is_ethics_yes(fm.get('contractarian_ethics')):
+        tags.append("Contractarianism")
+
     # 5. Ethics Perspective (if exists)
     val = fm.get('ethics_perspective', '')
     if val and val not in ['N/A', 'Unknown', 'None']:

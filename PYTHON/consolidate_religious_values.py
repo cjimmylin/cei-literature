@@ -30,9 +30,17 @@ from pathlib import Path
 
 print = functools.partial(print, flush=True)
 
+sys.path.insert(0, str(Path(__file__).parent))
 sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
 from yaml_utils import extract_frontmatter, validate_frontmatter, parse_frontmatter
 from config import PAPERS_DIR, LOGS_DIR
+from ethics_scoring import safe_yaml_set_int
+from religious_scoring import (
+    RV_FIELDS, FIELD_DISPLAY_NAMES, DISPLAY_NAME_TO_FIELD,
+    TRADITION_ALIASES, parse_rv_value, is_rv_detected,
+    derive_religious_values_string, derive_religious_values_list_string,
+    update_existing_rv_fields,
+)
 
 DATE_PREFIX = datetime.now().strftime("%Y%m%d")
 
@@ -111,13 +119,17 @@ CATEGORY_ALIASES = {
 
 
 def normalize_religious_values(value):
-    """Normalize religious_values value to canonical category names."""
+    """Normalize religious_values value to canonical category names.
+
+    Uses both CATEGORY_ALIASES (local) and TRADITION_ALIASES (from religious_scoring).
+    """
     if not value or value.strip() in ("N/A", "NA", "None", "n/a", ""):
         return "N/A"
     categories = [c.strip() for c in value.split(",")]
     normalized = []
     for cat in categories:
-        canonical = CATEGORY_ALIASES.get(cat, cat)
+        # Try local aliases first, then religious_scoring aliases
+        canonical = CATEGORY_ALIASES.get(cat, TRADITION_ALIASES.get(cat, cat))
         if canonical not in normalized:
             normalized.append(canonical)
     return ", ".join(normalized)
@@ -236,11 +248,32 @@ def validate_results(all_results):
     return issues
 
 
+def _traditions_to_rv_scores(religious_values_list_str):
+    """Convert a comma-separated tradition list string to rv_* scores dict.
+
+    Detected traditions get score 75 (LLM-assessed, high confidence).
+    Non-detected traditions get score 0.
+    """
+    scores = {field: 0 for field in RV_FIELDS}
+    if not religious_values_list_str or religious_values_list_str.strip() in ("N/A", ""):
+        return scores
+
+    traditions = [t.strip() for t in religious_values_list_str.split(",")]
+    for trad in traditions:
+        # Normalize via aliases
+        canonical = TRADITION_ALIASES.get(trad, trad)
+        canonical = CATEGORY_ALIASES.get(canonical, canonical)
+        field = DISPLAY_NAME_TO_FIELD.get(canonical)
+        if field:
+            scores[field] = 75  # LLM-assessed confidence
+    return scores
+
+
 def apply_to_paper(paper_path, entry, dry_run=False):
     """
     Apply religious values reclassification to a single paper.
 
-    Updates BOTH religious_values and religious_values_list fields.
+    Updates religious_values, religious_values_list, AND rv_* integer score fields.
     Uses safe regex replacement -- NEVER parse->rebuild round-trip.
     """
     try:
@@ -256,6 +289,9 @@ def apply_to_paper(paper_path, entry, dry_run=False):
 
     new_rv = entry["religious_values"].strip()
     new_rvl = entry["religious_values_list"].strip()
+
+    # Compute rv_* scores from the LLM-assessed tradition list
+    rv_scores = _traditions_to_rv_scores(new_rvl)
 
     # Safe YAML values (replace internal double quotes with single)
     new_rv_safe = new_rv.replace('"', "'")
@@ -283,6 +319,20 @@ def apply_to_paper(paper_path, entry, dry_run=False):
         if n1 == 0:
             new_fm = new_fm.rstrip() + '\nreligious_values: "{}"'.format(new_rv_safe)
 
+    # Set rv_* integer score fields via safe regex
+    for rv_field in RV_FIELDS:
+        score_val = rv_scores.get(rv_field, 0)
+        new_fm, was_set = safe_yaml_set_int(new_fm, rv_field, score_val)
+        if not was_set:
+            # Field doesn't exist -- insert after religious_values:
+            new_fm, _ = re.subn(
+                r'^(religious_values:.*?)$',
+                r'\1\n{}: {}'.format(rv_field, int(score_val)),
+                new_fm,
+                count=1,
+                flags=re.MULTILINE,
+            )
+
     # Replace religious_values_list field via regex
     new_fm, n2 = re.subn(
         r'^religious_values_list:.*$',
@@ -292,16 +342,8 @@ def apply_to_paper(paper_path, entry, dry_run=False):
         flags=re.MULTILINE,
     )
     if n2 == 0:
-        # Field doesn't exist -- append after religious_values
-        new_fm, n2 = re.subn(
-            r'^(religious_values:.*?)$',
-            r'\1\nreligious_values_list: "{}"'.format(new_rvl_safe),
-            new_fm,
-            count=1,
-            flags=re.MULTILINE,
-        )
-        if n2 == 0:
-            new_fm = new_fm.rstrip() + '\nreligious_values_list: "{}"'.format(new_rvl_safe)
+        # Field doesn't exist -- append at end
+        new_fm = new_fm.rstrip() + '\nreligious_values_list: "{}"'.format(new_rvl_safe)
 
     # Validate YAML before writing
     is_valid, yaml_issues = validate_frontmatter(new_fm)

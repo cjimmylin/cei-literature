@@ -14,8 +14,21 @@ See LLM_CONTEXT.md for aggregation logic.
 """
 
 import re
+import sys
 from pathlib import Path
 from typing import Dict, List
+
+sys.path.insert(0, str(Path(__file__).parent))
+from ethics_scoring import is_ethics_yes, parse_ethics_value
+from moral_psych_scoring import (
+    MP_FIELDS, FIELD_DISPLAY_NAMES, is_mp_detected, parse_mp_value,
+)
+from religious_scoring import (
+    RV_FIELDS,
+    FIELD_DISPLAY_NAMES as RV_DISPLAY_NAMES,
+    is_rv_detected,
+    parse_rv_value,
+)
 
 from vault_config import PAPERS_DIR
 
@@ -55,11 +68,11 @@ def generate_tags(fields: Dict[str, str]) -> List[str]:
     tags = []
 
     # 1. Ethical Frameworks
-    if get_frontmatter_value(fields, 'virtue_ethics') == 'Yes':
+    if is_ethics_yes(get_frontmatter_value(fields, 'virtue_ethics')):
         tags.append('#VirtueEthics')
-    if get_frontmatter_value(fields, 'deontological_ethics') == 'Yes':
+    if is_ethics_yes(get_frontmatter_value(fields, 'deontological_ethics')):
         tags.append('#DeontologicalEthics')
-    if get_frontmatter_value(fields, 'utilitarian_ethics') == 'Yes':
+    if is_ethics_yes(get_frontmatter_value(fields, 'utilitarian_ethics')):
         tags.append('#UtilitarianEthics')
 
     # 2. Ethics Perspective
@@ -72,15 +85,22 @@ def generate_tags(fields: Dict[str, str]) -> List[str]:
     if topic and topic != 'N/A':
         tags.append(to_hashtag(topic))
 
-    # 4. Religious Values
-    religion = get_frontmatter_value(fields, 'religious_values')
-    if religion and religion != 'N/A':
-        # Handle multiple values if separated by comma or slash
-        parts = re.split(r'[,/]', religion)
-        for part in parts:
-            tag = to_hashtag(part.strip())
-            if tag:
-                tags.append(tag)
+    # 4. Religious Values — prefer rv_* scores, fall back to religious_values string
+    rv_tags = []
+    for rv_field in RV_FIELDS:
+        if is_rv_detected(get_frontmatter_value(fields, rv_field)):
+            rv_tags.append(to_hashtag(RV_DISPLAY_NAMES[rv_field]))
+    if not rv_tags:
+        # Fallback: read religious_values string (legacy)
+        religion = get_frontmatter_value(fields, 'religious_values')
+        if religion and religion != 'N/A':
+            # Handle multiple values if separated by comma or slash
+            parts = re.split(r'[,/]', religion)
+            for part in parts:
+                tag = to_hashtag(part.strip())
+                if tag:
+                    rv_tags.append(tag)
+    tags.extend(rv_tags)
 
     # 5. National/Ethnic/Cultural
     culture = get_frontmatter_value(fields, 'national_ethnic_cultural')
@@ -91,14 +111,21 @@ def generate_tags(fields: Dict[str, str]) -> List[str]:
             if tag:
                 tags.append(tag)
 
-    # 6. Moral Psychology
-    psych = get_frontmatter_value(fields, 'moral_psychology')
-    if psych and psych != 'N/A':
-        parts = re.split(r'[,/]', psych)
-        for part in parts:
-            tag = to_hashtag(part.strip())
-            if tag:
-                tags.append(tag)
+    # 6. Moral Psychology — prefer mp_* scores, fall back to moral_psychology string
+    mp_tags = []
+    for mp_field in MP_FIELDS:
+        if is_mp_detected(get_frontmatter_value(fields, mp_field)):
+            mp_tags.append(to_hashtag(FIELD_DISPLAY_NAMES[mp_field]))
+    if not mp_tags:
+        # Fallback: read moral_psychology string (legacy)
+        psych = get_frontmatter_value(fields, 'moral_psychology')
+        if psych and psych != 'N/A':
+            parts = re.split(r'[,/]', psych)
+            for part in parts:
+                tag = to_hashtag(part.strip())
+                if tag:
+                    mp_tags.append(tag)
+    tags.extend(mp_tags)
 
     return sorted(list(set(tags)))  # Deduplicate and sort
 

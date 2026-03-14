@@ -82,7 +82,7 @@ DATE_ADDED: 20260312
 LLM_assessed: ""
 DATA_URL: "https://github.com/rudinger/winogender-schemas"
 eleutherai: incorporated
-ethics_overall: 80
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 25
 utilitarian_ethics: 0

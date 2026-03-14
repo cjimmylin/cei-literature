@@ -88,7 +88,7 @@ DATA_URL: "https://visual-ai.github.io/gamebot"
 CONFERENCE: "ACL 2025"
 ethics_overall: 0
 virtue_ethics: 0
-deontological_ethics: 25
+deontological_ethics: 5
 utilitarian_ethics: 5
 research_topic: "Interpretability & Explainability"
 is_benchmark: "Yes"

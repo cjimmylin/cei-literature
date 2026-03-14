@@ -2,6 +2,14 @@
 
 This directory contains auto-generated markdown reports summarizing the classification and properties of papers in the CEI Literature Vault.
 
+## Archive Notice
+
+**`ARCHIVE/`** contains historical snapshots from **20260119–20260220** (57 files). These are read-only historical records and must not be modified or deleted.
+
+**Current (active) reports** are those dated **20260312+** in this directory.
+
+> Note: `consolidate_duplicates.py` uses `rglob("*.md")` and will automatically scan `ARCHIVE/` files — no code changes needed.
+
 ## Reports Overview
 
 ### 1. 20260119-paper-statistics-1.md
@@ -138,7 +146,9 @@ If you need to correct data, update the paper frontmatter instead, then regenera
 
 ## Statistics Summary
 
-**As of January 2026:**
+> ⚠️ **This summary is outdated** (reflects January 2026 state). For current vault statistics, see the **20260312-*** and **20260313-*** snapshots in this directory.
+
+**As of January 2026 (historical):**
 - **Total Papers**: 530+
 - **Benchmarks**: ~223 papers (42%)
 - **Evaluations**: ~329 papers (62%)
@@ -147,7 +157,7 @@ If you need to correct data, update the paper frontmatter instead, then regenera
 - **Ethics Papers**: ~150 papers
 - **Non-Ethics Papers**: ~380 papers
 
-See `20260119-paper-statistics-3.md` for detailed breakdown.
+See `ARCHIVE/20260119-paper-statistics-3.md` for the January 2026 detailed breakdown.
 
 ## Troubleshooting
 
@@ -178,5 +188,5 @@ All reports use standard Markdown with:
 
 ---
 
-**Last Updated:** January 2026
+**Last Updated:** March 2026
 For detailed classification logic, see `LLM_CONTEXT.md` Section 14

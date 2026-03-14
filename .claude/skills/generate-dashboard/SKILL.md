@@ -28,7 +28,7 @@ Step 2: Verify KPIs match expected values
   └─ Normative ethics (currently 45)
 
 Step 3: Open in browser for visual check
-  └─ open STATISTICS/20260216-vault-dashboard.html
+  └─ open DASHBOARDS/20260216-vault-dashboard.html
 
 Step 4: Validate papers untouched
   └─ ../.venv/bin/python PYTHON/validate_all_papers.py
@@ -51,7 +51,7 @@ Step 4: Validate papers untouched
 
 ## Output
 
-**File:** `STATISTICS/20260216-vault-dashboard.html` (~202 KB)
+**File:** `DASHBOARDS/20260216-vault-dashboard.html` (~202 KB)
 
 **Self-contained:** HTML + inline CSS + inline JS + embedded JSON data blob (~95 KB). Only external dependencies are CDN-loaded:
 - ECharts 5.5.1 (~300 KB, cached)
@@ -118,6 +118,7 @@ CSS custom properties are in `:root` at the top of the `<style>` block. Category
 | `PYTHON/generate_vault_overview_report.py` | Markdown report (same data, static tables) |
 | `PYTHON/generate_benchmark_survey_report.py` | CATEGORIES dict + classify_entry source |
 | `PYTHON/consolidate_benchmark_survey.py` | Creates the candidate JSON from agent batches |
+| `PYTHON/generate_vault_dashboard_5b.py` | Multi-file dashboard v9 (data.js + split files) |
 
 ---
 

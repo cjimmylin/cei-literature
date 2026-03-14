@@ -31,6 +31,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
 
 from yaml_utils import extract_frontmatter, parse_frontmatter
 from config import PAPERS_DIR, PDF_EXTRACTS_DIR, STATISTICS_DIR
+from ethics_scoring import is_ethics_yes, parse_ethics_value
 
 # ── Keyword lists (imported from classify_ethics.py) ───────────────────
 ETHICS_OVERALL_KEYWORDS = [
@@ -192,9 +193,9 @@ def filter_tier1(papers):
     """Tier 1: any framework = Yes."""
     result = []
     for p in papers:
-        if p["virtue_ethics"] == "Yes" or p["deontological_ethics"] == "Yes" or p["utilitarian_ethics"] == "Yes":
+        if is_ethics_yes(p["virtue_ethics"]) or is_ethics_yes(p["deontological_ethics"]) or is_ethics_yes(p["utilitarian_ethics"]):
             # Flag inconsistency: framework=Yes but ethics_overall=No
-            p["flagged"] = (p["ethics_overall"] != "Yes")
+            p["flagged"] = (not is_ethics_yes(p["ethics_overall"]))
             result.append(p)
     # Flagged first, then by year
     result.sort(key=lambda x: (not x["flagged"], x.get("year", ""), x["filename"]))
@@ -205,9 +206,9 @@ def filter_tier2(papers):
     """Tier 2: ethics_overall=Yes, all frameworks=No, keyword-filtered."""
     candidates = []
     for p in papers:
-        if p["ethics_overall"] != "Yes":
+        if not is_ethics_yes(p["ethics_overall"]):
             continue
-        if p["virtue_ethics"] == "Yes" or p["deontological_ethics"] == "Yes" or p["utilitarian_ethics"] == "Yes":
+        if is_ethics_yes(p["virtue_ethics"]) or is_ethics_yes(p["deontological_ethics"]) or is_ethics_yes(p["utilitarian_ethics"]):
             continue
         candidates.append(p)
 
@@ -228,7 +229,7 @@ def filter_tier2(papers):
 
 def filter_tier3(papers):
     """Tier 3: ethics_overall=No, keyword-filtered."""
-    candidates = [p for p in papers if p["ethics_overall"] == "No"]
+    candidates = [p for p in papers if not is_ethics_yes(p["ethics_overall"])]
 
     result = []
     for p in candidates:
@@ -713,12 +714,12 @@ def main():
         pool_size = len(filtered)
     elif args.tier == 2:
         # Count pool before filtering
-        pool = [p for p in papers if p["ethics_overall"] == "Yes" and
-                p["virtue_ethics"] != "Yes" and p["deontological_ethics"] != "Yes" and p["utilitarian_ethics"] != "Yes"]
+        pool = [p for p in papers if is_ethics_yes(p["ethics_overall"]) and
+                not is_ethics_yes(p["virtue_ethics"]) and not is_ethics_yes(p["deontological_ethics"]) and not is_ethics_yes(p["utilitarian_ethics"])]
         pool_size = len(pool)
         filtered = filter_tier2(papers)
     else:
-        pool = [p for p in papers if p["ethics_overall"] == "No"]
+        pool = [p for p in papers if not is_ethics_yes(p["ethics_overall"])]
         pool_size = len(pool)
         filtered = filter_tier3(papers)
 

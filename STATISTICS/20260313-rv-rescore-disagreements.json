@@ -1,0 +1,1400 @@
+{
+  "date": "2026-03-13",
+  "mode": "rescore",
+  "dry_run": false,
+  "total_disagreements": 174,
+  "disagreements": [
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2018-Mishra-Are They Our Brothers Analysis and.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification.md"
+    },
+    {
+      "field": "rv_indigenous",
+      "tradition": "Indigenous Spirituality",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2020-Carroll-The CARE Principles for Indigenous Data Governance.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2020-Gabriel-Artificial Intelligence Values and Alignment.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2020-Pitenis-Offensive Language Identification in Greek.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2021-Barikeri-REDDITBIAS.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2021-Röttger-HateCheck.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md"
+    },
+    {
+      "field": "rv_buddhism",
+      "tradition": "Buddhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2021-Stenseke-Artificial Virtuous Agents.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2021-Stenseke-Artificial Virtuous Agents.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Bago-Situational factors shape moral judgments in the.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Hartvigsen-ToxiGen.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md"
+    },
+    {
+      "field": "rv_buddhism",
+      "tradition": "Buddhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Parrish-BBQ Bias Benchmark for Question Answering.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Parrish-BBQ.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Rauh-Characteristics of Harmful Text.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Sahoo-Detecting Unintended Social Bias in Toxic.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Bang-Towards Answering Open-ended Ethical Quandary.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Huang-AceGPT Localizing Large Language Models in Arabic.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Ji-AI Alignment.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Kirk-SemEval-2023 Task 10.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Rao-Ethical Reasoning over Moral Alignment.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Rizqullah-QASiNa.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Rystrøm-Apolitical Intelligence.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-Soemer-Antisemitic Messages A Guide to High-Quality.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 100,
+      "type": "undetected->detected",
+      "filename": "2023-Trepczynski-Religion Theology and Philosophical Skills of.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2023-researchers-Transformer-Based Language Models for Bulgarian.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-AI-Religious Bias Benchmarks for ChatGPT.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Aakanksha-The Multilingual Alignment Prism.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Arzberger-Nothing Comes Without Its World.md"
+    },
+    {
+      "field": "rv_confucianism",
+      "tradition": "Confucianism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.md"
+    },
+    {
+      "field": "rv_confucianism",
+      "tradition": "Confucianism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Cahyawijaya-High-Dimension Human Value Representation in.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Cahyawijaya-High-Dimension Human Value Representation in.md"
+    },
+    {
+      "field": "rv_confucianism",
+      "tradition": "Confucianism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Cahyawijaya-High-Dimension Human Value Representation in.md"
+    },
+    {
+      "field": "rv_buddhism",
+      "tradition": "Buddhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Defrance-ABCFair.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Kaiyom-HELM Safety.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Kaiyom-HELM Safety.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Kaneko-Eagle.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Kaneko-Eagle.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Lazar-Frontier AI Ethics.md"
+    },
+    {
+      "field": "rv_buddhism",
+      "tradition": "Buddhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Mazeika-HarmBench.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Röttger-XSTest.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Saffari-PSN.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Singhal-AyaRedTeaming.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 60,
+      "type": "undetected->detected",
+      "filename": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md"
+    },
+    {
+      "field": "rv_buddhism",
+      "tradition": "Buddhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md"
+    },
+    {
+      "field": "rv_confucianism",
+      "tradition": "Confucianism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Tu-CharacterEval.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-University-Monitoring the Evolution of Antisemitic Discourse.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-University-Using LLMs to Discover Emerging Coded.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 60,
+      "type": "undetected->detected",
+      "filename": "2024-Wang-Fake Alignment FINE Framework.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-Zhi-Xuan-Beyond Preferences in AI Alignment.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-A.-Operationalizing Cultural Values in Language Models A Comparative.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Ajwad Abrar-Religious Bias Landscape in Language and.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md"
+    },
+    {
+      "field": "rv_sikhism",
+      "tradition": "Sikhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Asgari-I Am Aligned But With Whom.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Bai-Explicitly unbiased large language models still form biased.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Bai-Explicitly unbiased large language models still form biased.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Barman-RLHF Whose Culture Whose Values.md"
+    },
+    {
+      "field": "rv_confucianism",
+      "tradition": "Confucianism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Baum-Aggregation Problems in Machine Ethics.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Bryan-Virtue Ethics and Postponing Human Extinction.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Chiu-MoReBench.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Chua-Between a Rock and a Hard Place TRIAL.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md"
+    },
+    {
+      "field": "rv_ubuntu",
+      "tradition": "Ubuntu Philosophy",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-El Masri-Towards Attuned AI.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Fasching-Inconsistencies in Hate Speech Detection Across.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Ji-PKU-SafeRLHF.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Ju-NaVAB.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 5,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Lin-Machine translation of Chinese classical poetry a comparison among.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Mazeika-Utility Engineering.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Mohammadi-Do Large Language Models Understand Morality Across Cultures.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Mohammadi-Do Large Language Models Understand Morality Across Cultures.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Mohammadi-EvalMORAAL.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Mohammadi-EvalMORAAL.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.md"
+    },
+    {
+      "field": "rv_sikhism",
+      "tradition": "Sikhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.md"
+    },
+    {
+      "field": "rv_buddhism",
+      "tradition": "Buddhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Narnaware-SB-Bench.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Narnaware-SB-Bench.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 75,
+      "type": "undetected->detected",
+      "filename": "2025-Patel-Evaluating Large Language Models for Detecting.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Qadir-Can LLMs Write Faithfully An Agent-Based.md"
+    },
+    {
+      "field": "rv_confucianism",
+      "tradition": "Confucianism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Rao-NormAd.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 60,
+      "type": "undetected->detected",
+      "filename": "2025-Rinki-Measuring South Asian Biases in Large.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Rinki-Measuring South Asian Biases in Large.md"
+    },
+    {
+      "field": "rv_indigenous",
+      "tradition": "Indigenous Spirituality",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Russ-Smith-AI and Indigenous Data Sovereignty Knowing Engaging and Learning in.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Seker-HATECAT-TR A Hate Speech Span Detection.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Snoswell-Beyond Verdicts LLM Moral Competence.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md"
+    },
+    {
+      "field": "rv_buddhism",
+      "tradition": "Buddhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md"
+    },
+    {
+      "field": "rv_hinduism",
+      "tradition": "Hinduism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Trepczynski-AI as a Rational Theologian A.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md"
+    },
+    {
+      "field": "rv_confucianism",
+      "tradition": "Confucianism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.md"
+    },
+    {
+      "field": "rv_judaism",
+      "tradition": "Judaism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.md"
+    },
+    {
+      "field": "rv_buddhism",
+      "tradition": "Buddhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md"
+    },
+    {
+      "field": "rv_christianity",
+      "tradition": "Christianity",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of.md"
+    },
+    {
+      "field": "rv_islam",
+      "tradition": "Islam",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2025-search-DweshVaani An LLM for Detecting Religious.md"
+    },
+    {
+      "field": "rv_jainism",
+      "tradition": "Jainism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2026-Lee-BiasJailbreak.md"
+    },
+    {
+      "field": "rv_buddhism",
+      "tradition": "Buddhism",
+      "old_score": 0,
+      "new_score": 50,
+      "type": "undetected->detected",
+      "filename": "2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.md"
+    }
+  ]
+}

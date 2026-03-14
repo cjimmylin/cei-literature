@@ -12,8 +12,8 @@ Data sources:
   - logs/20260207-normative_v2_all_classifications.json (266 entries)
   - logs/20260208-author_paper_map.json (~9,800 entries)
 
-Template: STATISTICS/20260210-vault-dashboard-3.html (636KB)
-Output:   STATISTICS/20260216-vault-dashboard-3.html
+Template: DASHBOARDS/20260210-vault-dashboard-3.html (636KB)
+Output:   DASHBOARDS/20260216-vault-dashboard-3.html
 """
 
 import json
@@ -24,6 +24,9 @@ from collections import defaultdict, Counter
 from pathlib import Path
 from datetime import date
 
+sys.path.insert(0, str(Path(__file__).parent))
+from religious_scoring import RV_FIELDS, FIELD_DISPLAY_NAMES, is_rv_detected
+
 print = functools.partial(print, flush=True)
 
 # ── Paths ──────────────────────────────────────────────────────────────────
@@ -31,13 +34,14 @@ SCRIPT_DIR = Path(__file__).parent
 WS_ROOT = SCRIPT_DIR.parent
 LOGS_DIR = WS_ROOT / "logs"
 STATS_DIR = WS_ROOT / "STATISTICS"
+DASHBOARDS_DIR = WS_ROOT / "DASHBOARDS"
 PAPERS_DIR = WS_ROOT / "papers"
 
 CANDIDATES_FILE = LOGS_DIR / "20260216-benchmark_survey_candidates.json"
 NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260208-author_paper_map.json"
-TEMPLATE_FILE = STATS_DIR / "20260210-vault-dashboard-3.html"
-OUTPUT_FILE = STATS_DIR / "20260216-vault-dashboard-3.html"
+TEMPLATE_FILE = DASHBOARDS_DIR / "20260210-vault-dashboard-3.html"
+OUTPUT_FILE = DASHBOARDS_DIR / "20260216-vault-dashboard-3.html"
 
 # ── Import from existing scripts ──────────────────────────────────────────
 sys.path.insert(0, str(SCRIPT_DIR))
@@ -232,7 +236,7 @@ YAML_SCALAR_FIELDS = {
     'utilitarian_ethics', 'religious_values', 'national_ethnic_cultural',
     'LLM_assessed', 'DATA_URL', 'ethics_overall', 'is_benchmark',
     'abstract', 'first_author',
-}
+} | set(RV_FIELDS)
 YAML_LIST_FIELDS = {'cultures_nationalities_list', 'languages_list', 'religious_values_list'}
 
 
@@ -492,12 +496,35 @@ RELIG_TRAD_PATTERNS = {
 }
 
 
-def classify_relig_traditions(values_list, extra_text=""):
-    """Classify a list of religious values into tradition groups."""
+# Map rv_* field names → RELIG_TRAD_PATTERNS keys used by this dashboard
+_RV_FIELD_TO_TRAD = {
+    "rv_islam": "Islam", "rv_christianity": "Christianity", "rv_buddhism": "Buddhism",
+    "rv_judaism": "Judaism", "rv_hinduism": "Hinduism", "rv_confucianism": "Confucian",
+    "rv_ubuntu": "Ubuntu", "rv_indigenous": "Indigenous",
+    # Fields with no matching key in RELIG_TRAD_PATTERNS for v3 are ignored:
+    # rv_sikhism, rv_taoism, rv_shinto, rv_jainism, rv_bahai, rv_zoroastrianism
+}
+
+
+def _traditions_from_rv_scores(fields):
+    """Return set of tradition names detected from rv_* score fields (>= 50)."""
+    result = set()
+    for rv_field, trad_name in _RV_FIELD_TO_TRAD.items():
+        if is_rv_detected(fields.get(rv_field, 0)):
+            result.add(trad_name)
+    return result
+
+
+def classify_relig_traditions(values_list, extra_text="", fields=None):
+    """Classify religious traditions from legacy string fields + rv_* scores."""
     combined = " ".join(values_list) + " " + extra_text if values_list else extra_text
-    if not combined.strip():
-        return []
-    return [name for name, pat in RELIG_TRAD_PATTERNS.items() if pat.search(combined)]
+    result = set()
+    if combined.strip():
+        result = {name for name, pat in RELIG_TRAD_PATTERNS.items() if pat.search(combined)}
+    # Also check rv_* score fields if provided
+    if fields:
+        result |= _traditions_from_rv_scores(fields)
+    return list(result)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -894,13 +921,12 @@ def compute_cultural_data(paper_yaml, candidates, candidates_set):
             if year > 0:
                 region_year[r][year] += 1
 
-        # Count religion mentions
+        # Count religion mentions (legacy strings + rv_* scores)
         relig_val = fields.get('religious_values', '') or ''
         relig_list = fields.get('religious_values_list', [])
-        if relig_list or (relig_val and relig_val.lower() not in ('n/a', 'na', 'no', 'none', '')):
-            trads = classify_relig_traditions(relig_list, relig_val)
-            for t in trads:
-                religion_counter[t] += 1
+        trads = classify_relig_traditions(relig_list, relig_val, fields=fields)
+        for t in trads:
+            religion_counter[t] += 1
 
         # Count moral psychology frameworks used in cultural papers
         mp_val = fields.get('moral_psychology', '') or ''
@@ -976,7 +1002,7 @@ def compute_cultural_data(paper_yaml, candidates, candidates_set):
         primary_region = classify_region(cultures[0])
         relig_list = fields.get('religious_values_list', [])
         relig_val = fields.get('religious_values', '') or ''
-        trads = classify_relig_traditions(relig_list, relig_val)
+        trads = classify_relig_traditions(relig_list, relig_val, fields=fields)
         for t in trads:
             paper_trad_region.append((t, primary_region))
 
@@ -1451,11 +1477,13 @@ def compute_religious_data(paper_yaml, candidates, candidates_set):
         relig_list = fields.get('religious_values_list', [])
         relig_val = fields.get('religious_values', '') or ''
 
-        if not relig_list and relig_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
+        # Check both legacy strings and rv_* scores
+        has_rv_scores = any(is_rv_detected(fields.get(f, 0)) for f in RV_FIELDS)
+        if not relig_list and not has_rv_scores and relig_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
             continue
 
-        trads = classify_relig_traditions(relig_list, relig_val)
-        if not trads and relig_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
+        trads = classify_relig_traditions(relig_list, relig_val, fields=fields)
+        if not trads:
             continue
 
         year = extract_year(fn)

@@ -84,7 +84,7 @@ abstract: "Here are the web search results for \"transliterated text LLM evaluat
 research_topic: "Other"
 CONFERENCE: "Other Conference"
 ethics_overall: 15
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 5
 is_benchmark: "No"

@@ -22,103 +22,32 @@ from vault_config import PAPERS_DIR
 # Import safe YAML utilities
 from yaml_frontmatter_utils import read_paper, write_paper, validate_frontmatter
 
-
-# Keywords for each ethics category (case-insensitive matching)
-ETHICS_OVERALL_KEYWORDS = [
-    r'\bethics?\b', r'\bethical\b', r'\bmoral\b', r'\bmorality\b', r'\bvalues?\b',
-    r'\bnormative\b', r'\bfairness\b', r'\bjustice\b', r'\bbias\b', r'\bharm\b',
-    r'\bsafety\b', r'\balignment\b', r'\bresponsible\b', r'\baccountable\b',
-    r'\bhate speech\b', r'\btoxic\b', r'\boffensive\b', r'\babusive\b',
-    r'\bstereotype\b', r'\bdiscrimination\b', r'\bhuman rights\b',
-    r'\bprosocial\b', r'\bimmoral\b', r'\bunethical\b', r'\bwrongdoing\b',
-    r'\bmoral reasoning\b', r'\bmoral judgment\b', r'\bmoral decision\b',
-    r'\bmoral dilemma\b', r'\btrolley problem\b', r'\bmoral foundations\b',
-]
-
-VIRTUE_ETHICS_KEYWORDS = [
-    r'\bvirtue\b', r'\bvirtuous\b', r'\bvirtue ethics\b', r'\bcharacter\b',
-    r'\bexcellence\b', r'\bflourishing\b', r'\beudaimonia\b', r'\baristotel\w*\b',
-    r'\bprudence\b', r'\btemperance\b', r'\bcourage\b', r'\bwisdom\b',
-    r'\bphronesis\b', r'\barete\b', r'\bmoral character\b', r'\bmoral virtue\b',
-]
-
-DEONTOLOGICAL_KEYWORDS = [
-    r'\bdeontolog\w*\b', r'\bduty\b', r'\bduties\b', r'\bkantian\b', r'\bkant\b',
-    r'\bcategorical imperative\b', r'\bobligation\b', r'\brights-based\b',
-    r'\brule-based\b', r'\buniversal\w* law\b', r'\bmoral law\b',
-    r'\bmoral rules?\b', r'\bmoral principles?\b', r'\bmoral duty\b',
-    r'\bimperative\b', r'\bintrinsic\w* wrong\b', r'\bintrinsic\w* right\b',
-]
-
-UTILITARIAN_KEYWORDS = [
-    r'\butilitarian\w*\b', r'\bconsequential\w*\b', r'\butility\b',
-    r'\bmaximize?\b', r'\bmaximis\w*\b', r'\bgreatest good\b', r'\bwelfare\b',
-    r'\boutcome-based\b', r'\bcost-benefit\b', r'\bwell-being\b', r'\bwellbeing\b',
-    r'\bbeneficence\b', r'\bharm reduction\b', r'\bnet benefit\b',
-    r'\bgreatest happiness\b', r'\bgreatest number\b', r'\bmill\b', r'\bbentham\b',
-    r'\bhedonism\b', r'\bhedonistic\b',
-]
+from ethics_scoring import score_paper, safe_yaml_set_int, ETHICS_FIELDS
 
 
 # Note: extract_frontmatter_and_content replaced by yaml_frontmatter_utils.read_paper
+# Note: keyword lists and check_keywords() moved to ethics_scoring.py
 
 
-def extract_abstract(content: str) -> str:
-    """Extract abstract section from markdown content."""
-    # Look for ## Abstract section
-    abstract_match = re.search(r'## Abstract\s*\n\n?(.*?)(?=\n## |\Z)', content, re.DOTALL)
-    if abstract_match:
-        return abstract_match.group(1).strip()
-    return ''
-
-
-def check_keywords(text: str, keywords: list) -> bool:
-    """Check if any keyword pattern matches in the text."""
-    text_lower = text.lower()
-    for pattern in keywords:
-        if re.search(pattern, text_lower):
-            return True
-    return False
-
-
-def classify_paper(abstract: str, title: str = '') -> Dict[str, str]:
+def classify_paper(abstract: str, title: str = '') -> dict:
     """
     Classify a paper based on its abstract and title.
-    Returns dict with classification for each ethics category.
+    Returns dict with integer scores (0-100) for each ethics category.
     """
-    # Combine abstract and title for analysis
-    text = f"{title} {abstract}".strip()
-    
-    if not text:
-        return {
-            'ethics_overall': 'Unknown',
-            'virtue_ethics': 'Unknown',
-            'deontological_ethics': 'Unknown',
-            'utilitarian_ethics': 'Unknown',
-        }
-    
-    return {
-        'ethics_overall': 'Yes' if check_keywords(text, ETHICS_OVERALL_KEYWORDS) else 'No',
-        'virtue_ethics': 'Yes' if check_keywords(text, VIRTUE_ETHICS_KEYWORDS) else 'No',
-        'deontological_ethics': 'Yes' if check_keywords(text, DEONTOLOGICAL_KEYWORDS) else 'No',
-        'utilitarian_ethics': 'Yes' if check_keywords(text, UTILITARIAN_KEYWORDS) else 'No',
-    }
+    if not f"{title} {abstract}".strip():
+        return {f: 0 for f in ETHICS_FIELDS}
+    return compute_all_scores(title, abstract, "")
 
 
-def add_classifications_to_frontmatter(frontmatter: str, classifications: Dict[str, str]) -> str:
-    """Add classification properties to YAML frontmatter."""
-    lines = frontmatter.rstrip().split('\n')
-    
-    # Remove any existing classification properties
-    lines = [l for l in lines if not any(
-        l.strip().startswith(f'{key}:') for key in classifications.keys()
-    )]
-    
-    # Add new classification properties
+def add_classifications_to_frontmatter(frontmatter: str, classifications: dict) -> str:
+    """Add classification properties to YAML frontmatter as unquoted integers."""
+    fm = frontmatter
     for key, value in classifications.items():
-        lines.append(f'{key}: "{value}"')
-    
-    return '\n'.join(lines)
+        fm, replaced = safe_yaml_set_int(fm, key, value)
+        if not replaced:
+            # Field doesn't exist yet, append it
+            fm = fm.rstrip() + f'\n{key}: {int(value)}'
+    return fm
 
 
 def process_paper(filepath: Path) -> Tuple[bool, Dict[str, str]]:
@@ -133,15 +62,16 @@ def process_paper(filepath: Path) -> Tuple[bool, Dict[str, str]]:
             print(f"  Warning: No frontmatter found in {filepath.name}")
             return False, {}
 
-        # Extract title from the markdown content (first # heading)
-        title_match = re.search(r'^# (.+)$', remaining, re.MULTILINE)
-        title = title_match.group(1) if title_match else ''
+        # Extract title from YAML frontmatter short_title field
+        title_match = re.search(r'^short_title:\s*["\']?(.*?)["\']?\s*$', frontmatter, re.MULTILINE)
+        title = title_match.group(1).strip() if title_match else ''
 
-        # Extract abstract
-        abstract = extract_abstract(remaining)
+        # Extract abstract from YAML frontmatter abstract field
+        abstract_match = re.search(r'^abstract:\s*["\']?(.*?)["\']?\s*$', frontmatter, re.MULTILINE)
+        abstract = abstract_match.group(1).strip() if abstract_match else ''
 
-        # Classify the paper
-        classifications = classify_paper(abstract, title)
+        # Score using full pipeline (loads PDF extract, respects pins)
+        classifications = score_paper(str(filepath), title, abstract)
 
         # Update frontmatter with classifications
         new_frontmatter = add_classifications_to_frontmatter(frontmatter, classifications)
@@ -177,10 +107,7 @@ def main():
     stats = {
         'processed': 0,
         'failed': 0,
-        'ethics_overall': {'Yes': 0, 'No': 0, 'Unknown': 0},
-        'virtue_ethics': {'Yes': 0, 'No': 0, 'Unknown': 0},
-        'deontological_ethics': {'Yes': 0, 'No': 0, 'Unknown': 0},
-        'utilitarian_ethics': {'Yes': 0, 'No': 0, 'Unknown': 0},
+        'scores': {f: [] for f in ETHICS_FIELDS},
     }
     
     for i, filepath in enumerate(sorted(paper_files), 1):
@@ -192,7 +119,7 @@ def main():
         if success:
             stats['processed'] += 1
             for key, value in classifications.items():
-                stats[key][value] += 1
+                stats['scores'][key].append(value)
         else:
             stats['failed'] += 1
     
@@ -203,10 +130,12 @@ def main():
     print(f"\nTotal papers processed: {stats['processed']}")
     print(f"Failed to process: {stats['failed']}")
     
-    print(f"\n{'Ethics Overall':25} | Yes: {stats['ethics_overall']['Yes']:4} | No: {stats['ethics_overall']['No']:4} | Unknown: {stats['ethics_overall']['Unknown']:4}")
-    print(f"{'Virtue Ethics':25} | Yes: {stats['virtue_ethics']['Yes']:4} | No: {stats['virtue_ethics']['No']:4} | Unknown: {stats['virtue_ethics']['Unknown']:4}")
-    print(f"{'Deontological Ethics':25} | Yes: {stats['deontological_ethics']['Yes']:4} | No: {stats['deontological_ethics']['No']:4} | Unknown: {stats['deontological_ethics']['Unknown']:4}")
-    print(f"{'Utilitarian Ethics':25} | Yes: {stats['utilitarian_ethics']['Yes']:4} | No: {stats['utilitarian_ethics']['No']:4} | Unknown: {stats['utilitarian_ethics']['Unknown']:4}")
+    for field in ETHICS_FIELDS:
+        scores = stats['scores'][field]
+        above = sum(1 for s in scores if s >= 50)
+        below = sum(1 for s in scores if s < 50)
+        avg = sum(scores) / len(scores) if scores else 0
+        print(f"{field:25} | >=50: {above:4} | <50: {below:4} | avg: {avg:.1f}")
     print(f"\n{'='*60}")
 
 

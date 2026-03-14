@@ -4,6 +4,7 @@ Consolidate LLM-based moral psychology classification results and apply to paper
 
 Reads agent output JSON files, validates entries against allowed categories,
 and applies moral_psychology YAML field updates via safe regex replacement.
+Also writes mp_* score fields (0-100) corresponding to the LLM-reviewed categories.
 
 Usage:
     cd CEI-Lit-WS
@@ -13,8 +14,8 @@ Usage:
     ../.venv/bin/python PYTHON/consolidate_moral_psych.py --confidence-threshold medium
 
 Output:
-    logs/YYYYMMDD-moral_psych_consolidation.json  — full audit log
-    logs/YYYYMMDD-moral_psych_comparison.md       — human-readable before/after summary
+    logs/YYYYMMDD-moral_psych_consolidation.json  -- full audit log
+    logs/YYYYMMDD-moral_psych_comparison.md       -- human-readable before/after summary
 """
 
 import argparse
@@ -29,9 +30,18 @@ from pathlib import Path
 
 print = functools.partial(print, flush=True)
 
+sys.path.insert(0, str(Path(__file__).parent))
 sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
+
 from yaml_utils import extract_frontmatter, validate_frontmatter, parse_frontmatter
 from config import PAPERS_DIR, LOGS_DIR
+
+from moral_psych_scoring import (
+    MP_FIELDS, FIELD_DISPLAY_NAMES, DISPLAY_NAME_TO_FIELD,
+    DEFAULT_THRESHOLD, CATEGORY_ALIASES,
+    insert_mp_fields_before_moral_psychology,
+    update_existing_mp_fields,
+)
 
 DATE_PREFIX = datetime.now().strftime("%Y%m%d")
 
@@ -52,16 +62,7 @@ CONFIDENCE_LEVELS = {"high": 3, "medium": 2, "low": 1}
 
 REQUIRED_FIELDS = {"filename", "moral_psychology", "confidence", "reasoning"}
 
-# Normalize common agent output variations to canonical category names
-CATEGORY_ALIASES = {
-    "Dual Process Theory (Moral Cognition)": "Dual Process Theory",
-    "Social Intuitionist": "Social Intuitionist Model",
-    "Trolley / Dilemmas": "Trolley / Dilemmas (Psych)",
-    "Trolley/Dilemmas (Psych)": "Trolley / Dilemmas (Psych)",
-    "Value Pluralism/Schwartz": "Value Pluralism / Schwartz",
-    "Schwartz": "Value Pluralism / Schwartz",
-    "Kohlberg": "Cognitive Developmental",
-}
+# CATEGORY_ALIASES is now imported from moral_psych_scoring
 
 
 def normalize_moral_psychology(value):
@@ -181,11 +182,40 @@ def validate_results(all_results):
     return issues
 
 
+def _build_scores_from_categories(new_value):
+    """
+    Build mp_* scores dict from a moral_psychology category string.
+
+    LLM-reviewed classifications get score 80 (high confidence).
+    Theories not mentioned get score 0.
+
+    Args:
+        new_value: Comma-separated canonical category string, or "N/A".
+
+    Returns:
+        dict: {field: int} for all MP_FIELDS.
+    """
+    scores = {field: 0 for field in MP_FIELDS}
+
+    if not new_value or new_value.strip() == "N/A":
+        return scores
+
+    categories = [c.strip() for c in new_value.split(",")]
+    for cat in categories:
+        # Normalize via aliases first
+        canonical = CATEGORY_ALIASES.get(cat, cat)
+        field = DISPLAY_NAME_TO_FIELD.get(canonical)
+        if field:
+            scores[field] = 80  # High confidence for LLM-reviewed
+    return scores
+
+
 def apply_to_paper(paper_path, entry, dry_run=False):
     """
     Apply moral_psychology reclassification to a single paper.
 
-    Uses safe regex replacement — NEVER parse→rebuild round-trip.
+    Also writes mp_* score fields corresponding to the LLM-reviewed categories.
+    Uses safe regex replacement -- NEVER parse->rebuild round-trip.
     """
     try:
         content = paper_path.read_text(encoding="utf-8")
@@ -202,27 +232,58 @@ def apply_to_paper(paper_path, entry, dry_run=False):
     # Safe YAML value (replace internal double quotes with single)
     new_value_safe = new_value.replace('"', "'")
 
-    # Replace moral_psychology field via regex (safe — no parse→rebuild)
-    new_fm, count = re.subn(
-        r'^moral_psychology:.*$',
-        'moral_psychology: "{}"'.format(new_value_safe),
-        fm_text,
-        count=1,
-        flags=re.MULTILINE,
-    )
+    # Build mp_* scores from the LLM-reviewed categories
+    scores = _build_scores_from_categories(new_value)
 
-    if count == 0:
-        # Field doesn't exist — append after religious_values or at end
+    # Check if mp_* fields already exist in frontmatter
+    has_mp_fields = re.search(r'^mp_mft:', fm_text, re.MULTILINE) is not None
+
+    if has_mp_fields:
+        # Update existing mp_* fields and derived moral_psychology string
+        new_fm = update_existing_mp_fields(fm_text, scores)
+        # Overwrite moral_psychology with the LLM value (may differ from derived)
+        new_fm, _ = re.subn(
+            r'^moral_psychology:.*$',
+            'moral_psychology: "{}"'.format(new_value_safe),
+            new_fm,
+            count=1,
+            flags=re.MULTILINE,
+        )
+    else:
+        # First: update or insert moral_psychology line
         new_fm, count = re.subn(
-            r'^(religious_values_list:.*?)$',
-            r'\1\nmoral_psychology: "{}"'.format(new_value_safe),
+            r'^moral_psychology:.*$',
+            'moral_psychology: "{}"'.format(new_value_safe),
             fm_text,
             count=1,
             flags=re.MULTILINE,
         )
+
         if count == 0:
-            # Last resort: append to end of frontmatter
-            new_fm = fm_text.rstrip() + '\nmoral_psychology: "{}"'.format(new_value_safe)
+            # Field doesn't exist -- append after religious_values or at end
+            new_fm, count = re.subn(
+                r'^(religious_values_list:.*?)$',
+                r'\1\nmoral_psychology: "{}"'.format(new_value_safe),
+                fm_text,
+                count=1,
+                flags=re.MULTILINE,
+            )
+            if count == 0:
+                # Last resort: append to end of frontmatter
+                new_fm = fm_text.rstrip() + '\nmoral_psychology: "{}"'.format(new_value_safe)
+
+        # Now insert mp_* fields before moral_psychology: line
+        # We use insert_mp_fields_before_moral_psychology which also sets moral_psychology
+        new_fm, success = insert_mp_fields_before_moral_psychology(new_fm, scores)
+        if success:
+            # Override the derived moral_psychology with the LLM value
+            new_fm, _ = re.subn(
+                r'^moral_psychology:.*$',
+                'moral_psychology: "{}"'.format(new_value_safe),
+                new_fm,
+                count=1,
+                flags=re.MULTILINE,
+            )
 
     # Validate YAML before writing
     is_valid, yaml_issues = validate_frontmatter(new_fm)
@@ -247,7 +308,7 @@ def apply_to_paper(paper_path, entry, dry_run=False):
 def generate_comparison_report(log_entries, output_path):
     """Generate a human-readable before/after comparison report."""
     lines = [
-        "# Moral Psychology Reclassification — Comparison Report",
+        "# Moral Psychology Reclassification -- Comparison Report",
         "",
         "Generated: {}".format(datetime.now().strftime("%Y-%m-%d %H:%M")),
         "",
@@ -464,7 +525,7 @@ def main():
         log.append(log_entry)
 
         if status == "error":
-            print("  ERROR: {} — {}".format(entry["filename"], result.get("error", "")))
+            print("  ERROR: {} -- {}".format(entry["filename"], result.get("error", "")))
 
     if skipped_confidence > 0:
         print("\n  Skipped (below confidence threshold): {}".format(skipped_confidence))
@@ -499,7 +560,7 @@ def main():
     print("Comparison report: {}".format(comparison_path.name))
 
     if args.dry_run:
-        print("\n(Dry run — no paper files modified)")
+        print("\n(Dry run -- no paper files modified)")
 
     print("\n=== DONE ===")
 

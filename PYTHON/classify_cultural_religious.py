@@ -15,10 +15,16 @@ LEARNINGS / DESIGN DECISIONS:
 import re
 import logging
 from pathlib import Path
-from typing import Tuple
+from typing import Tuple, Dict
 
 # Import safe YAML utilities
 from yaml_frontmatter_utils import read_paper, write_paper, validate_frontmatter
+
+# Import religious scoring engine
+from religious_scoring import (
+    compute_all_rv_scores, derive_religious_values_string,
+    derive_religious_values_list_string, load_extract, RV_FIELDS,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -202,24 +208,6 @@ RELIGIOUS_PATTERNS = {
 # Note: extract_frontmatter_and_content replaced by yaml_frontmatter_utils.read_paper
 
 
-def extract_abstract(content: str) -> str:
-    """Extract abstract section from markdown content."""
-    # Look for ## Abstract section
-    match = re.search(r'## Abstract\s*\n\n(.*?)(?=\n## |\Z)', content, re.DOTALL)
-    if match:
-        return match.group(1).strip()
-    return ""
-
-
-def extract_title(content: str) -> str:
-    """Extract title from markdown content."""
-    # Look for # Title
-    match = re.search(r'^# (.+?)$', content, re.MULTILINE)
-    if match:
-        return match.group(1).strip()
-    return ""
-
-
 def classify_cultural(title: str, abstract: str, languages_list: str = "") -> str:
     """Classify paper by national/ethnic/cultural values.
 
@@ -251,70 +239,36 @@ def classify_cultural(title: str, abstract: str, languages_list: str = "") -> st
     return "N/A"
 
 
+def compute_religious_scores(title: str, abstract: str, stem: str = "") -> Dict[str, int]:
+    """Compute rv_* confidence scores for all 14 religious traditions.
+
+    Uses the canonical religious_scoring engine, loading PDF extract when available.
+    """
+    extract = load_extract(stem) if stem else ""
+    return compute_all_rv_scores(title, abstract, extract)
+
+
 def classify_religious(title: str, abstract: str) -> str:
-    """Classify paper by religious values (single-label or comma-separated)."""
-    original_text = f"{title} {abstract}"
+    """Classify paper by religious values using confidence scores.
 
-    matches = []
-    for religion, patterns in RELIGIOUS_PATTERNS.items():
-        for pattern in patterns:
-            if re.search(pattern, original_text, re.IGNORECASE):
-                matches.append(religion)
-                break
-
-    if matches:
-        # Remove duplicates while preserving order
-        seen = set()
-        unique_matches = []
-        for m in matches:
-            if m not in seen:
-                seen.add(m)
-                unique_matches.append(m)
-        return ", ".join(unique_matches)
-
-    return "N/A"
+    Returns: single tradition name, "Multiple Religions", or "N/A".
+    """
+    scores = compute_religious_scores(title, abstract)
+    return derive_religious_values_string(scores)
 
 
 def classify_religious_list(title: str, abstract: str) -> str:
     """Classify paper by ALL specific religions covered (for religious_values_list field).
 
-    Unlike classify_religious(), this:
-    - Excludes the catch-all 'Multiple Religions' from the result (keeps specific names only)
-    - Returns specific religion names even when 'Multiple Religions' pattern also matches
-    - Falls back to 'Multiple Religions' only if no specific religions were identified
+    Returns: comma-separated tradition names, or "N/A".
     """
-    original_text = f"{title} {abstract}"
-
-    specific_matches = []
-    has_multiple_generic = False
-
-    for religion, patterns in RELIGIOUS_PATTERNS.items():
-        for pattern in patterns:
-            if re.search(pattern, original_text, re.IGNORECASE):
-                if religion == "Multiple Religions":
-                    has_multiple_generic = True
-                else:
-                    specific_matches.append(religion)
-                break
-
-    if specific_matches:
-        # Deduplicate while preserving order
-        seen = set()
-        unique = []
-        for m in specific_matches:
-            if m not in seen:
-                seen.add(m)
-                unique.append(m)
-        return ", ".join(unique)
-
-    if has_multiple_generic:
-        return "Multiple Religions"
-
-    return "N/A"
+    scores = compute_religious_scores(title, abstract)
+    return derive_religious_values_list_string(scores)
 
 
 def update_frontmatter(frontmatter: str, cultural: str, religious: str,
-                       religious_list: str = None) -> str:
+                       religious_list: str = None,
+                       rv_scores: Dict[str, int] = None) -> str:
     """Add or update cultural and religious classification in frontmatter.
 
     Args:
@@ -322,6 +276,7 @@ def update_frontmatter(frontmatter: str, cultural: str, religious: str,
         cultural: national_ethnic_cultural value
         religious: religious_values value (single-label or comma-separated)
         religious_list: religious_values_list value (all specific religions); if None, uses religious
+        rv_scores: dict of rv_* field scores to insert between religious_values and religious_values_list
     """
     if religious_list is None:
         religious_list = religious
@@ -329,7 +284,7 @@ def update_frontmatter(frontmatter: str, cultural: str, religious: str,
     lines = frontmatter.split('\n')
     new_lines = []
 
-    # Remove existing properties if present, including stray dashes
+    # Remove existing properties if present, including stray dashes and rv_* fields
     skip_next = False
     for line in lines:
         if skip_next and line.startswith('  '):
@@ -339,6 +294,9 @@ def update_frontmatter(frontmatter: str, cultural: str, religious: str,
         if (line.startswith('national_ethnic_cultural:') or
                 line.startswith('religious_values:') or
                 line.startswith('religious_values_list:')):
+            continue
+        # Remove existing rv_* score fields
+        if any(line.startswith(f'{field}:') for field in RV_FIELDS):
             continue
         # Skip standalone dashes that might have been added erroneously
         if line.strip() == '-':
@@ -351,6 +309,12 @@ def update_frontmatter(frontmatter: str, cultural: str, religious: str,
 
     new_lines.append(f'national_ethnic_cultural: "{cultural}"')
     new_lines.append(f'religious_values: "{religious}"')
+
+    # Insert rv_* score fields between religious_values and religious_values_list
+    if rv_scores:
+        for field in RV_FIELDS:
+            new_lines.append(f'{field}: {int(rv_scores.get(field, 0))}')
+
     new_lines.append(f'religious_values_list: "{religious_list}"')
 
     return '\n'.join(new_lines)
@@ -361,20 +325,29 @@ def process_paper(filepath: Path) -> Tuple[str, str, str]:
     # Use safe YAML utilities
     frontmatter, body = read_paper(filepath)
 
-    title = extract_title(body)
-    abstract = extract_abstract(body)
+    # Extract title from YAML frontmatter short_title field
+    title_match = re.search(r'^short_title:\s*["\']?(.*?)["\']?\s*$', frontmatter, re.MULTILINE)
+    title = title_match.group(1).strip() if title_match else ''
+
+    # Extract abstract from YAML frontmatter abstract field
+    abstract_match = re.search(r'^abstract:\s*["\']?(.*?)["\']?\s*$', frontmatter, re.MULTILINE)
+    abstract = abstract_match.group(1).strip() if abstract_match else ''
 
     # Extract languages_list from YAML for cultural classification
     lang_match = re.search(r'^languages_list:\s*"?([^"\n]*)"?', frontmatter, re.MULTILINE)
     languages_list = lang_match.group(1).strip() if lang_match else ""
 
     cultural = classify_cultural(title, abstract, languages_list)
-    religious = classify_religious(title, abstract)
-    religious_list = classify_religious_list(title, abstract)
 
-    # Update the file
+    # Compute rv_* confidence scores using the scoring engine (with PDF extract)
+    rv_scores = compute_religious_scores(title, abstract, filepath.stem)
+    religious = derive_religious_values_string(rv_scores)
+    religious_list = derive_religious_values_list_string(rv_scores)
+
+    # Update the file with rv_* scores included
     new_frontmatter = update_frontmatter(frontmatter, cultural, religious,
-                                         religious_list=religious_list)
+                                         religious_list=religious_list,
+                                         rv_scores=rv_scores)
 
     # Validate and write back using safe utility
     is_valid, issues = validate_frontmatter(new_frontmatter)

@@ -24,8 +24,15 @@ from collections import Counter
 print = functools.partial(print, flush=True)
 
 sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
+sys.path.insert(0, str(Path(__file__).parent))
 from config import LOGS_DIR, PAPERS_DIR
 from yaml_utils import extract_frontmatter, validate_frontmatter
+from religious_scoring import (
+    RV_FIELDS, FIELD_DISPLAY_NAMES, DISPLAY_NAME_TO_FIELD, TRADITION_ALIASES,
+    parse_rv_value, is_rv_detected, DEFAULT_THRESHOLD,
+    derive_religious_values_string, derive_religious_values_list_string,
+)
+from ethics_scoring import safe_yaml_set_int
 
 BATCHES_DIR = LOGS_DIR / "religious_audit_batches"
 REQUIRED_FIELDS = {"filename", "decision", "religious_tradition", "confidence",
@@ -120,10 +127,35 @@ def validate_completeness(all_results, expected_filenames):
     return all_results
 
 
+def _resolve_tradition_field(tradition):
+    """Resolve a tradition name to its rv_* field name.
+
+    Handles canonical display names, aliases, and direct field names.
+    Returns (rv_field, display_name) or (None, None) if unresolvable.
+    """
+    # Direct field name
+    if tradition in FIELD_DISPLAY_NAMES:
+        return tradition, FIELD_DISPLAY_NAMES[tradition]
+
+    # Canonical display name
+    if tradition in DISPLAY_NAME_TO_FIELD:
+        return DISPLAY_NAME_TO_FIELD[tradition], tradition
+
+    # Alias
+    canonical = TRADITION_ALIASES.get(tradition)
+    if canonical and canonical in DISPLAY_NAME_TO_FIELD:
+        return DISPLAY_NAME_TO_FIELD[canonical], canonical
+
+    return None, None
+
+
 def apply_reclassifications(decisions, dry_run=False):
     """Apply Reclassify decisions to paper YAML using safe regex replacement.
 
-    YAML SAFETY: Uses line-level regex replacement — never parse→rebuild.
+    Sets the relevant rv_* score field to 75 (confident detection) and
+    updates derived religious_values + religious_values_list strings.
+
+    YAML SAFETY: Uses line-level regex replacement — never parse->rebuild.
     """
     applied = 0
     errors = 0
@@ -133,6 +165,13 @@ def apply_reclassifications(decisions, dry_run=False):
         tradition = entry.get("religious_tradition", "").strip()
         if not tradition or tradition == "N/A":
             print("  SKIP {}: no tradition specified".format(fname))
+            continue
+
+        # Resolve tradition to rv_* field
+        rv_field, display_name = _resolve_tradition_field(tradition)
+        if not rv_field:
+            print("  SKIP {}: unrecognized tradition '{}'".format(fname, tradition))
+            errors += 1
             continue
 
         paper_path = PAPERS_DIR / fname
@@ -150,28 +189,44 @@ def apply_reclassifications(decisions, dry_run=False):
             errors += 1
             continue
 
-        # Safe regex replacement for religious_values
-        new_val = tradition.replace('"', "'")
         new_fm = fm_text
 
-        # Replace religious_values
+        # Read existing rv_* scores
+        scores = {}
+        for f in RV_FIELDS:
+            # Parse existing value from frontmatter
+            m = re.search(r'^' + re.escape(f) + r':\s*(.*)$', new_fm, re.MULTILINE)
+            if m:
+                scores[f] = parse_rv_value(m.group(1).strip())
+            else:
+                scores[f] = 0
+
+        # Set the target tradition to 75 (confident agent-verified detection)
+        scores[rv_field] = max(scores[rv_field], 75)
+
+        # Update all rv_* fields using safe_yaml_set_int
+        for f in RV_FIELDS:
+            new_fm, _ = safe_yaml_set_int(new_fm, f, scores[f])
+
+        # Derive and update string fields
+        derived_rv = derive_religious_values_string(scores)
+        derived_list = derive_religious_values_list_string(scores)
+
         new_fm, n1 = re.subn(
             r'^religious_values:.*$',
-            'religious_values: "{}"'.format(new_val),
+            'religious_values: "{}"'.format(derived_rv),
             new_fm, count=1, flags=re.MULTILINE
         )
         if n1 == 0:
-            # Field doesn't exist — append it
-            new_fm = new_fm.rstrip() + '\nreligious_values: "{}"'.format(new_val)
+            new_fm = new_fm.rstrip() + '\nreligious_values: "{}"'.format(derived_rv)
 
-        # Replace religious_values_list
         new_fm, n2 = re.subn(
             r'^religious_values_list:.*$',
-            'religious_values_list: "{}"'.format(new_val),
+            'religious_values_list: "{}"'.format(derived_list),
             new_fm, count=1, flags=re.MULTILINE
         )
         if n2 == 0:
-            new_fm = new_fm.rstrip() + '\nreligious_values_list: "{}"'.format(new_val)
+            new_fm = new_fm.rstrip() + '\nreligious_values_list: "{}"'.format(derived_list)
 
         # Validate before writing
         is_valid, issues = validate_frontmatter(new_fm)
@@ -181,12 +236,14 @@ def apply_reclassifications(decisions, dry_run=False):
             continue
 
         if dry_run:
-            print("  DRY-RUN {}: {} → {}".format(fname, "N/A", tradition))
+            print("  DRY-RUN {}: {} → {} ({} = 75)".format(
+                fname, "N/A", display_name, rv_field))
         else:
             # Reconstruct and write
             new_content = "---\n{}\n---\n{}".format(new_fm.rstrip(), body)
             paper_path.write_text(new_content, encoding="utf-8")
-            print("  APPLIED {}: N/A → {}".format(fname, tradition))
+            print("  APPLIED {}: N/A → {} ({} = 75)".format(
+                fname, display_name, rv_field))
 
         applied += 1
 

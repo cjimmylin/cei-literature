@@ -2,6 +2,32 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 120 (Mar 13, 2026) - Author Quality: Fix Semicolon-Fragmented Cat D Entries
+
+### Overview
+Addressed two long-standing author quality gaps from the Feb 20 audit: 540 Cat-A abbreviated names and 48 Cat-D unknown/incomplete entries. Created `fix_semicolon_authors.py` to reformat malformed semicolon-separated author names (e.g., "Nozza; Debora" → "Debora Nozza"). Applied local profile matches for Cat A. Discovered and resolved 39 pre-existing Cat E missing profiles (GPT-3 co-authors). Also ran arXiv lookup for the single-surname Joshi paper (resolved to "Raviraj Joshi").
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Cat D papers fixed | 28 (27 semicolon + 1 arXiv lookup) |
+| Cat D remaining | 20 (14 permanently unresolvable, 6 other) |
+| Cat A local matches applied | 30 papers (89 items resolved) |
+| Cat E stubs created | 39 (pre-existing gap in GPT-3, Perez 2022 papers) |
+| New author profiles created | ~89 total (50 semicolon-fix stubs + 39 Cat E stubs) |
+| Validation | 2,043/2,043 valid, 0 errors |
+
+### Key Learnings
+- [Author Management] `authors_incomplete: true` YAML field must be cleared when fixing Cat D entries — audit checks both `[[Unknown]]` content AND this flag independently; forgetting the flag leaves papers in Cat D even after author names are corrected
+- [Author Management] Two semicolon patterns need different handling: `"Last; First"` (2-part, no comma = reversed single author) vs `"Last, First; Last2, First2"` (comma-inside = APA multi-author); both fixable without API
+- [Data Quality] Feb 20 audit's Cat E = 0 was a false negative — GPT-3 (2020-Brown) and Anthropic Perez 2022 papers had 39 co-authors with no profile files; the audit script correctly detects these now
+
+### Files Changed
+- `PYTHON/fix_semicolon_authors.py`: New script for semicolon-format Cat D fixes
+- `papers/`: ~58 papers modified (author fields corrected + `authors_incomplete` cleared)
+- `Authors/`: ~89 new stub profiles created
+- `logs/`: `20260313-semicolon_author_fixes.json`, `20260313-author_audit_report.json`, resolution plan files
+
 ## Session 119 (Mar 13, 2026) - Moral Psych Scorer: Bug Audit & Fix + Dashboard v12
 
 ### Overview

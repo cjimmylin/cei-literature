@@ -86,7 +86,7 @@ CONFERENCE: "Preprint"
 ethics_overall: 30
 virtue_ethics: 0
 deontological_ethics: 0
-utilitarian_ethics: 15
+utilitarian_ethics: 5
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"

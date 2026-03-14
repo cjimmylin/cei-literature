@@ -90,7 +90,7 @@ LLM_assessed: "GPT-4, Mixtral"
 DATA_URL: "https://github.com/priyankamandikal/vedantany-10m"
 CONFERENCE: "ACL 2024"
 ethics_overall: 0
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
 research_topic: "Question Answering"

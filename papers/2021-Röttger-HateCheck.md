@@ -87,7 +87,7 @@ CONFERENCE: "ACL 2021"
 ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
-utilitarian_ethics: 10
+utilitarian_ethics: 5
 is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"

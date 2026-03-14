@@ -1654,7 +1654,7 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
             # Per-paper concept/virtue keywords (for click-to-filter)
             kw = []
             if scan_fn:
-                _title = fields.get("title", "") or fields.get("short_title", fn)
+                _title = fields.get("short_title", "") or fields.get("title", fn)
                 _abstract = abstract
                 kw = sorted(scan_fn(_title, _abstract))
 

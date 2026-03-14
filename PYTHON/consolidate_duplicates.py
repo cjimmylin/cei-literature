@@ -47,6 +47,8 @@ from vault_config import (
     WORKSPACE_ROOT as WS_ROOT,
 )
 from lib.yaml_utils import extract_frontmatter, parse_frontmatter
+from ethics_scoring import is_ethics_yes, parse_ethics_value
+from religious_scoring import RV_FIELDS, parse_rv_value
 
 
 # ============================================================
@@ -113,7 +115,9 @@ def merge_yaml_fields(primary_content: str, dup_fields: dict) -> str:
         "doi", "publication", "key_contribution", "significance",
         "data_description", "data_metrics", "DATE_ADDED",
         "national_ethnic_cultural", "religious_values", "moral_psychology",
-    ]
+        "mp_mft", "mp_schwartz", "mp_trolley", "mp_kohlberg",
+        "mp_dual_process", "mp_intuitionist", "mp_dyadic", "mp_identity",
+    ] + list(RV_FIELDS)
 
     merged_count = 0
     for field in MERGE_FIELDS:
@@ -135,12 +139,41 @@ def merge_yaml_fields(primary_content: str, dup_fields: dict) -> str:
         frontmatter, _ = safe_replace_field(frontmatter, "abstract", dup_abstract.strip('"').strip("'"))
         merged_count += 1
 
-    # Special: prefer ethics_overall=Yes over No
-    dup_ethics = dup_fields.get("ethics_overall", "").strip('"').strip("'").strip()
-    primary_ethics = primary_fields.get("ethics_overall", "").strip('"').strip("'").strip()
-    if dup_ethics.lower() == "yes" and primary_ethics.lower() == "no":
-        frontmatter, _ = safe_replace_field(frontmatter, "ethics_overall", "Yes")
+    # Special: prefer higher ethics_overall score (supports both "Yes"/"No" and integer scores)
+    dup_ethics_raw = dup_fields.get("ethics_overall", "").strip('"').strip("'").strip()
+    primary_ethics_raw = primary_fields.get("ethics_overall", "").strip('"').strip("'").strip()
+    dup_ethics_score = parse_ethics_value(dup_ethics_raw)
+    primary_ethics_score = parse_ethics_value(primary_ethics_raw)
+    if dup_ethics_score > primary_ethics_score:
+        frontmatter, _ = safe_replace_field(frontmatter, "ethics_overall", str(dup_ethics_score))
         merged_count += 1
+
+    # Special: prefer higher mp_* scores (0-100 integer)
+    for mp_field in ("mp_mft", "mp_schwartz", "mp_trolley", "mp_kohlberg",
+                      "mp_dual_process", "mp_intuitionist", "mp_dyadic", "mp_identity"):
+        dup_val = dup_fields.get(mp_field, "").strip('"').strip("'").strip()
+        primary_val = primary_fields.get(mp_field, "").strip('"').strip("'").strip()
+        try:
+            dup_score = int(dup_val) if dup_val else 0
+        except ValueError:
+            dup_score = 0
+        try:
+            primary_score = int(primary_val) if primary_val else 0
+        except ValueError:
+            primary_score = 0
+        if dup_score > primary_score:
+            frontmatter, _ = safe_replace_field(frontmatter, mp_field, str(dup_score))
+            merged_count += 1
+
+    # Special: prefer higher rv_* scores (0-100 integer)
+    for rv_field in RV_FIELDS:
+        dup_val = dup_fields.get(rv_field, "").strip('"').strip("'").strip()
+        primary_val = primary_fields.get(rv_field, "").strip('"').strip("'").strip()
+        dup_score = parse_rv_value(dup_val)
+        primary_score = parse_rv_value(primary_val)
+        if dup_score > primary_score:
+            frontmatter, _ = safe_replace_field(frontmatter, rv_field, str(dup_score))
+            merged_count += 1
 
     # Special: merge is_benchmark/is_eval/is_dataset if dup says Yes and primary says No
     for bool_field in ("is_benchmark", "is_eval", "is_dataset"):

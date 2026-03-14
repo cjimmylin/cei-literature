@@ -87,7 +87,7 @@ LLM_assessed: "Baichuan, ChatGLM, GPT-3.5, GPT-4, InternLM, Qwen"
 DATA_URL: "https://github.com/morecry/CharacterEval"
 CONFERENCE: "Journal"
 ethics_overall: 0
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
 research_topic: "AI Safety & Alignment"

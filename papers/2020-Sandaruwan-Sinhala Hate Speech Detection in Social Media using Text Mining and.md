@@ -84,7 +84,7 @@ tags:
 abstract: "Hate speech detection in Sinhala social media using text mining and ML. MNB with character tri-gram achieves 92.33% accuracy. Creates Sinhala hate speech dataset from social media comments."
 CONFERENCE: "Other Conference"
 ethics_overall: 65
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
 is_benchmark: "No"

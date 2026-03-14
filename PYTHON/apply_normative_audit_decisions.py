@@ -41,12 +41,22 @@ sys.path.insert(0, str(Path(__file__).parent))
 sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
 
 from config import PAPERS_DIR, LOGS_DIR
+from ethics_scoring import parse_ethics_value, safe_yaml_set_int
 
 # Fields that this script is allowed to modify
 ALLOWED_FIELDS = {
     "ethics_overall", "virtue_ethics", "deontological_ethics", "utilitarian_ethics",
 }
 ALLOWED_VALUES = {"Yes", "No"}
+
+
+def _is_valid_value(v):
+    """Check if value is a valid ethics field value (Yes/No string or 0-100 int)."""
+    if isinstance(v, int) and 0 <= v <= 100:
+        return True
+    if isinstance(v, str) and v in ("Yes", "No"):
+        return True
+    return False
 
 
 def safe_yaml_replace(frontmatter_text, field, new_value):
@@ -56,6 +66,8 @@ def safe_yaml_replace(frontmatter_text, field, new_value):
 
     Per CLAUDE.md rule #2: re.subn() with count=1, re.MULTILINE.
     """
+    if isinstance(new_value, int):
+        return safe_yaml_set_int(frontmatter_text, field, new_value)
     pattern = rf'^{re.escape(field)}:.*$'
     replacement = f'{field}: "{new_value}"'
     new_fm, count = re.subn(pattern, replacement, frontmatter_text, count=1, flags=re.MULTILINE)
@@ -143,7 +155,7 @@ def apply_decisions(decisions_path, dry_run=False):
             log["errors"].append({"filename": filename, "error": f"Invalid fields: {invalid_fields}"})
             continue
 
-        invalid_values = [(f, v) for f, v in changes.items() if v not in ALLOWED_VALUES]
+        invalid_values = [(f, v) for f, v in changes.items() if not _is_valid_value(v)]
         if invalid_values:
             print(f"  ERROR: Invalid values {invalid_values} in {filename}")
             log["errors"].append({"filename": filename, "error": f"Invalid values: {invalid_values}"})
@@ -173,8 +185,8 @@ def apply_decisions(decisions_path, dry_run=False):
         actual_changes = {}
         for field, new_val in changes.items():
             # Check current value
-            match = re.search(rf'^{re.escape(field)}:\s*"?(\w+)"?', fm, re.MULTILINE)
-            old_val = match.group(1) if match else "(missing)"
+            match = re.search(rf'^{re.escape(field)}:\s*"?([^"\n]+)"?', fm, re.MULTILINE)
+            old_val = match.group(1).strip() if match else "(missing)"
 
             if old_val == new_val:
                 continue  # No change needed

@@ -33,6 +33,7 @@ PHASE_LOG = LOGS_DIR / "20260220-conference_classification_cc.json"
 
 # ── Import journal dictionaries from classification script ─────────────────
 sys.path.insert(0, str(SCRIPT_DIR))
+from ethics_scoring import is_ethics_yes, parse_ethics_value
 from add_conference_field_cc import JOURNAL_EXACT, JOURNAL_SUBSTRING
 
 # Build known journals set from classification script dictionaries
@@ -199,7 +200,8 @@ def scan_papers():
             return m.group(1).strip() if m else ""
 
         conf_cc = get('CONF-CC') or "N/A"
-        ethics = get('ethics_overall') or ""
+        ethics_raw = get('ethics_overall') or ""
+        ethics = "Yes" if is_ethics_yes(ethics_raw) else "No"
         year_str = get('year')
         year = int(year_str) if year_str and year_str.isdigit() else 0
         pub = get('publication')

@@ -90,7 +90,7 @@ LLM_assessed: "Llama-3, Qwen, Baichuan, ChatGLM"
 DATA_URL: "NA"
 CONFERENCE: "EMNLP 2025"
 ethics_overall: 0
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
 research_topic: "NLP & Representation Learning"

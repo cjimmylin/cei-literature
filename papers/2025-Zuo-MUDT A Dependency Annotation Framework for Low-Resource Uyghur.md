@@ -89,7 +89,7 @@ CONFERENCE: "Preprint"
 ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
-utilitarian_ethics: 10
+utilitarian_ethics: 5
 research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"

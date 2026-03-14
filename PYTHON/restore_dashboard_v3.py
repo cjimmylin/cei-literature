@@ -10,8 +10,8 @@ The browser "Save As Complete Web Page" operation introduces artifacts:
 
 This script strips all artifacts and produces a clean working dashboard.
 
-Input:  STATISTICS/CEI Literature Vault — LLM Ethics Dashboard.html
-Output: STATISTICS/20260210-vault-dashboard-3.html
+Input:  DASHBOARDS/CEI Literature Vault — LLM Ethics Dashboard.html
+Output: DASHBOARDS/20260210-vault-dashboard-3.html
 """
 
 import re
@@ -23,8 +23,8 @@ print = functools.partial(print, flush=True)
 
 SCRIPT_DIR = Path(__file__).parent
 WS_ROOT = SCRIPT_DIR.parent
-INPUT = WS_ROOT / "STATISTICS" / "CEI Literature Vault — LLM Ethics Dashboard.html"
-OUTPUT = WS_ROOT / "STATISTICS" / "20260210-vault-dashboard-3.html"
+INPUT = WS_ROOT / "DASHBOARDS" / "CEI Literature Vault — LLM Ethics Dashboard.html"
+OUTPUT = WS_ROOT / "DASHBOARDS" / "20260210-vault-dashboard-3.html"
 
 if not INPUT.exists():
     print(f"ERROR: Input file not found: {INPUT}")

@@ -14,6 +14,7 @@ import logging
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from PYTHON.yaml_frontmatter_utils import extract_frontmatter, parse_frontmatter
 from PYTHON.vault_config import PAPERS_DIR, PDFS_DIR
+from PYTHON.ethics_scoring import is_ethics_yes, parse_ethics_value
 
 logger = logging.getLogger(__name__)
 
@@ -110,15 +111,24 @@ def fix_type_value(frontmatter_text, frontmatter_dict):
 
 
 def fix_ethics_consistency(frontmatter_text, frontmatter_dict):
-    """Fix ethics_overall to be Yes if any specific ethics is Yes"""
+    """Fix ethics_overall to be Yes/high-score if any specific ethics is Yes/high-score"""
     ethics_overall = frontmatter_dict.get('ethics_overall', '')
     virtue = frontmatter_dict.get('virtue_ethics', '')
     deonto = frontmatter_dict.get('deontological_ethics', '')
     util = frontmatter_dict.get('utilitarian_ethics', '')
 
-    # If any specific ethics is Yes but overall is No, fix it
-    if ethics_overall == 'No' and (virtue == 'Yes' or deonto == 'Yes' or util == 'Yes'):
-        new_frontmatter = re.sub(r'ethics_overall:\s*["\']?No["\']?', 'ethics_overall: "Yes"', frontmatter_text)
+    # If any specific ethics is Yes/>=50 but overall is No/<50, fix it
+    overall_yes = is_ethics_yes(ethics_overall)
+    any_specific_yes = (is_ethics_yes(virtue) or is_ethics_yes(deonto) or is_ethics_yes(util))
+
+    if not overall_yes and any_specific_yes:
+        # Determine the new value: use max of specific scores if numeric, else "Yes"
+        specific_values = [parse_ethics_value(v) for v in [virtue, deonto, util]]
+        new_val = max(specific_values) if any(isinstance(v, int) for v in [parse_ethics_value(virtue), parse_ethics_value(deonto), parse_ethics_value(util)]) else '"Yes"'
+        if isinstance(new_val, int):
+            new_frontmatter = re.sub(r'ethics_overall:\s*["\']?[^"\'\n]+["\']?', f'ethics_overall: {new_val}', frontmatter_text)
+        else:
+            new_frontmatter = re.sub(r'ethics_overall:\s*["\']?[^"\'\n]+["\']?', f'ethics_overall: {new_val}', frontmatter_text)
         return new_frontmatter, new_frontmatter != frontmatter_text
 
     return frontmatter_text, False

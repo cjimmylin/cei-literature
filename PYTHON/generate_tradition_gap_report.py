@@ -26,9 +26,13 @@ OUTPUT_FILE = STATS_DIR / "20260216-religious-ethical-tradition-gap-analysis.md"
 CANDIDATES_FILE = LOGS_DIR / "20260208-benchmark_survey_candidates.json"
 AUDIT_FILE = LOGS_DIR / "20260215-religious_traditions_audit.json"
 
-# Import patterns
+# Import patterns (still needed for benchmark candidate scanning and pattern listing)
 sys.path.insert(0, str(SCRIPT_DIR))
 from classify_cultural_religious import RELIGIOUS_PATTERNS, CULTURAL_PATTERNS
+from religious_scoring import (
+    RV_FIELDS, FIELD_DISPLAY_NAMES, DISPLAY_NAME_TO_FIELD,
+    parse_rv_value, is_rv_detected, DEFAULT_THRESHOLD,
+)
 
 
 def extract_year(filename):
@@ -38,7 +42,11 @@ def extract_year(filename):
 
 
 def scan_all_papers():
-    """Scan all paper YAML frontmatter for religious/cultural/benchmark fields."""
+    """Scan all paper YAML frontmatter for religious/cultural/benchmark fields.
+
+    Uses rv_* integer score fields to derive religious_values and
+    religious_values_list instead of reading the string fields directly.
+    """
     papers = []
     for p in sorted(PAPERS_DIR.glob("*.md")):
         content = p.read_text(encoding="utf-8")
@@ -53,14 +61,41 @@ def scan_all_papers():
                 key, _, val = line.partition(":")
                 fields[key.strip()] = val.strip().strip('"')
 
+        # Derive religious values from rv_* scores
+        detected_traditions = []
+        rv_scores = {}
+        for rv_field in RV_FIELDS:
+            score = parse_rv_value(fields.get(rv_field, 0))
+            rv_scores[rv_field] = score
+            if score >= DEFAULT_THRESHOLD:
+                detected_traditions.append(FIELD_DISPLAY_NAMES[rv_field])
+
+        if len(detected_traditions) == 0:
+            religious_values = "N/A"
+        elif len(detected_traditions) == 1:
+            religious_values = detected_traditions[0]
+        else:
+            religious_values = "Multiple Religions"
+
+        religious_values_list = ", ".join(detected_traditions) if detected_traditions else "N/A"
+
+        # Parse ethics_overall as score (>= 50 means Yes)
+        ethics_raw = fields.get("ethics_overall", "0")
+        try:
+            ethics_score = int(ethics_raw)
+        except (ValueError, TypeError):
+            ethics_score = 0 if ethics_raw in ("No", "N/A", "") else 100
+
         papers.append({
             "filename": p.name,
             "year": extract_year(p.name),
-            "religious_values": fields.get("religious_values", "N/A"),
-            "religious_values_list": fields.get("religious_values_list", "N/A"),
+            "religious_values": religious_values,
+            "religious_values_list": religious_values_list,
+            "detected_traditions": detected_traditions,
+            "rv_scores": rv_scores,
             "national_ethnic_cultural": fields.get("national_ethnic_cultural", "N/A"),
             "is_benchmark": fields.get("is_benchmark", "No"),
-            "ethics": fields.get("ethics_overall", "No"),
+            "ethics": "Yes" if ethics_score >= 50 else "No",
             "ethics_type": fields.get("ethics_type", "N/A"),
         })
     return papers
@@ -131,21 +166,22 @@ def main():
 
     # ── Analysis ──────────────────────────────────────────────────────
 
-    # Religious values distribution
-    # Split on both ", " and "; " to handle inconsistent agent output
+    # Religious values distribution — derived from rv_* scores
     def split_traditions(val):
-        """Split comma-or-semicolon-separated tradition values."""
+        """Split comma-or-semicolon-separated tradition values (legacy helper)."""
         parts = re.split(r'[,;]\s*', val)
         return [p.strip() for p in parts if p.strip()]
 
     religious_counts = Counter()
     tradition_papers = defaultdict(list)  # tradition -> [paper filenames]
     for p in papers:
-        rv = p["religious_values"]
-        if rv and rv != "N/A":
-            for t in split_traditions(rv):
+        detected = p["detected_traditions"]
+        if detected:
+            for t in detected:
                 religious_counts[t] += 1
                 tradition_papers[t].append(p["filename"])
+            if len(detected) > 1:
+                religious_counts["Multiple Religions"] += 1
         else:
             religious_counts["N/A"] += 1
 
@@ -161,10 +197,8 @@ def main():
     benchmark_papers = [p for p in papers if p["is_benchmark"] == "Yes"]
     tradition_benchmarks = defaultdict(list)
     for p in benchmark_papers:
-        rv = p["religious_values"]
-        if rv and rv != "N/A":
-            for t in split_traditions(rv):
-                tradition_benchmarks[t].append(p["filename"])
+        for t in p["detected_traditions"]:
+            tradition_benchmarks[t].append(p["filename"])
 
     # Ethics papers per tradition
     ethics_papers = [p for p in papers if p["ethics"] == "Yes"]
@@ -172,11 +206,9 @@ def main():
     # Year distribution per tradition
     tradition_years = defaultdict(lambda: Counter())
     for p in papers:
-        rv = p["religious_values"]
-        if rv and rv != "N/A":
-            for t in split_traditions(rv):
-                if p["year"] != 9999:
-                    tradition_years[t][p["year"]] += 1
+        for t in p["detected_traditions"]:
+            if p["year"] != 9999:
+                tradition_years[t][p["year"]] += 1
 
     # Overall year distribution
     year_counts = Counter()
@@ -184,8 +216,8 @@ def main():
         if p["year"] != 9999:
             year_counts[p["year"]] += 1
 
-    # Coverage levels
-    ALL_TRADITIONS = list(RELIGIOUS_PATTERNS.keys())
+    # Coverage levels — use canonical display names from religious_scoring
+    ALL_TRADITIONS = list(FIELD_DISPLAY_NAMES.values()) + ["Multiple Religions"]
 
     def coverage_level(count, bench_count):
         if count == 0:
@@ -240,7 +272,7 @@ def main():
     WESTERN_PHILOSOPHICAL = {"Deontological", "Consequentialist", "Virtue Ethics"}
     NON_WESTERN = {"Islam", "Buddhism", "Hinduism", "Confucianism", "Taoism",
                    "Shinto", "Jainism", "Sikhism", "Baha'i", "Zoroastrianism",
-                   "Indigenous Spirituality", "Judaism"}
+                   "Indigenous Spirituality", "Judaism", "Ubuntu Philosophy"}
 
     western_count = sum(religious_counts.get(t, 0) for t in WESTERN)
     non_western_count = sum(religious_counts.get(t, 0) for t in NON_WESTERN)
@@ -374,7 +406,7 @@ def main():
         pc = religious_counts.get(t, 0)
         bc = len(tradition_benchmarks.get(t, []))
         # Count ethics papers for this tradition
-        ec = sum(1 for p in papers if p["ethics"] == "Yes" and t in p.get("religious_values", ""))
+        ec = sum(1 for p in papers if p["ethics"] == "Yes" and t in p.get("detected_traditions", []))
         level = coverage_level(pc, bc)
         level_fmt = f"**{level}**" if level in ("NONE", "MINIMAL") else level
         L.append(f"| {t} | {pc} | {bc} | {ec} | {level_fmt} |")
@@ -486,16 +518,17 @@ def main():
         "Judaism": ["Hebrew/Israeli"],
         "Christianity": ["American", "Western", "French", "German"],
         "Indigenous Spirituality": ["Australian/Aboriginal"],
+        "Ubuntu Philosophy": ["African"],
     }
 
     # Cross-reference: for each tradition, how many papers also have a cultural tag
     trad_lang_matrix = defaultdict(lambda: defaultdict(int))
     for p in papers:
-        rv = p["religious_values"]
+        detected = p["detected_traditions"]
         nc = p["national_ethnic_cultural"]
-        if rv == "N/A" or nc == "N/A":
+        if not detected or nc == "N/A":
             continue
-        for t in split_traditions(rv):
+        for t in detected:
             for c in nc.split(", "):
                 c = c.strip()
                 trad_lang_matrix[t][c] += 1
@@ -537,14 +570,14 @@ def main():
 
     for y in years:
         total_y = year_counts.get(y, 0)
-        tagged_y = sum(1 for p in papers if p["year"] == y and p["religious_values"] != "N/A")
+        tagged_y = sum(1 for p in papers if p["year"] == y and p["detected_traditions"])
         pct = f"{tagged_y * 100 // total_y}%" if total_y > 0 else "-"
 
         # Top tradition for this year
         year_trad_counts = Counter()
         for p in papers:
-            if p["year"] == y and p["religious_values"] != "N/A":
-                for t in split_traditions(p["religious_values"]):
+            if p["year"] == y and p["detected_traditions"]:
+                for t in p["detected_traditions"]:
                     year_trad_counts[t] += 1
         top = year_trad_counts.most_common(1)[0][0] if year_trad_counts else "-"
 
@@ -631,7 +664,7 @@ def main():
         L.append(f"| {fw} | Western philosophical | {count} | - | - |")
 
     # Non-Western religious
-    for t in ["Islam", "Buddhism", "Hinduism", "Confucianism", "Taoism", "Shinto", "Judaism", "Indigenous Spirituality"]:
+    for t in ["Islam", "Buddhism", "Hinduism", "Confucianism", "Taoism", "Shinto", "Judaism", "Indigenous Spirituality", "Ubuntu Philosophy"]:
         bc = len(tradition_benchmarks.get(t, []))
         pc = religious_counts.get(t, 0)
         L.append(f"| {t} | Non-Western religious | {bc} | {pc} | {'N/A' if pc == 0 else f'{bc}/{pc}'} |")

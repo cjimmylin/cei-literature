@@ -38,6 +38,15 @@ sys.path.insert(0, str(SCRIPT_DIR))
 
 from yaml_frontmatter_utils import read_paper, write_paper, validate_frontmatter
 from vault_config import PAPERS_DIR, PDF_EXTRACTS_DIR
+from ethics_scoring import is_ethics_yes, parse_ethics_value, safe_yaml_set_int
+from moral_psych_scoring import (
+    compute_all_mp_scores, derive_moral_psychology_string, MP_FIELDS,
+    insert_mp_fields_before_moral_psychology,
+)
+from religious_scoring import (
+    RV_FIELDS, compute_all_rv_scores,
+    derive_religious_values_string, derive_religious_values_list_string,
+)
 
 # Import classification modules (all in same PYTHON/ directory)
 import classify_ethics as ce
@@ -301,23 +310,24 @@ def process_paper(paper_path, dry_run=False):
     class_text = f"{title} {abstract or ''}".strip()
 
     # --- Step 2: Stage 1-2 - Ethics classification ---
-    # ce.classify_paper(abstract, title) → dict with 4 ethics fields
+    # ce.classify_paper(abstract, title) → dict with integer scores (0-100)
     ethics_result = ce.classify_paper(abstract or '', title)
     for key, value in ethics_result.items():
-        frontmatter = update_field(frontmatter, key, value)
+        frontmatter, _ = safe_yaml_set_int(frontmatter, key, value)
 
     # --- Step 3: Stage 3 - Ethics perspective (conditional) ---
     ethics_perspective = ''
-    if ethics_result.get('ethics_overall') == 'Yes' and all(
-        ethics_result.get(k) == 'No'
-        for k in ['virtue_ethics', 'deontological_ethics', 'utilitarian_ethics']
+    if ethics_result.get('ethics_overall', 0) >= 50 and all(
+        ethics_result.get(k, 0) < 50
+        for k in ['virtue_ethics', 'deontological_ethics', 'utilitarian_ethics',
+                   'care_ethics', 'contractarian_ethics']
     ):
         ethics_perspective = cep.classify_ethics_perspective(class_text)
         frontmatter = update_field(frontmatter, 'ethics_perspective', ethics_perspective)
 
     # --- Step 4: Stage 4 - Research topic (for non-ethics papers) ---
     research_topic = ''
-    if ethics_result.get('ethics_overall') == 'No':
+    if ethics_result.get('ethics_overall', 0) < 50:
         research_topic = cnt.classify_topic(class_text)
         frontmatter = update_field(frontmatter, 'research_topic', research_topic)
 
@@ -326,14 +336,23 @@ def process_paper(paper_path, dry_run=False):
     lang_match = re.search(r'^languages_list:\s*"?([^"\n]*)"?', frontmatter, re.MULTILINE)
     languages_list = lang_match.group(1).strip() if lang_match else ""
     cultural = ccr.classify_cultural(title, abstract or '', languages_list)
-    religious = ccr.classify_religious(title, abstract or '')
-    religious_list = ccr.classify_religious_list(title, abstract or '')
     frontmatter = update_field(frontmatter, 'national_ethnic_cultural', cultural)
+
+    # Compute rv_* scores (0-100) and derive religious_values/religious_values_list
+    rv_scores = compute_all_rv_scores(title, abstract or '', '')
+    for rv_field in RV_FIELDS:
+        frontmatter, _ = safe_yaml_set_int(frontmatter, rv_field, rv_scores[rv_field])
+    religious = derive_religious_values_string(rv_scores)
+    religious_list = derive_religious_values_list_string(rv_scores)
     frontmatter = update_field(frontmatter, 'religious_values', religious)
     frontmatter = update_field(frontmatter, 'religious_values_list', religious_list)
 
     # --- Step 6: Stage 6 - Moral psychology ---
-    moral_psych = cmp.classify_moral_psych(title, abstract or '')
+    # Compute individual mp_* scores (0-100) and derived display string
+    mp_scores = compute_all_mp_scores(title, abstract or '', '')
+    for mp_field in MP_FIELDS:
+        frontmatter, _ = safe_yaml_set_int(frontmatter, mp_field, mp_scores[mp_field])
+    moral_psych = derive_moral_psychology_string(mp_scores)
     frontmatter = update_field(frontmatter, 'moral_psychology', moral_psych)
 
     # --- Step 7: Stage 7 - Data nature ---
@@ -351,7 +370,7 @@ def process_paper(paper_path, dry_run=False):
 
     return {
         'abstract_found': abstract_found,
-        'ethics_overall': ethics_result.get('ethics_overall', 'Unknown'),
+        'ethics_overall': ethics_result.get('ethics_overall', 0),
         'ethics_perspective': ethics_perspective,
         'cultural': cultural,
         'religious': religious,
@@ -412,12 +431,13 @@ def main():
 
             if result['abstract_found']:
                 abstracts_found += 1
-            if result['ethics_overall'] == 'Yes':
+            if result['ethics_overall'] >= 50:
                 ethics_yes += 1
 
             abstract_flag = "ABS" if result['abstract_found'] else "---"
-            ethics_flag = result['ethics_overall'][:3]
-            print(f"  [{i:3d}] OK ({abstract_flag}, E={ethics_flag}): {name}")
+            ethics_score = result['ethics_overall']
+            ethics_flag = "Y" if ethics_score >= 50 else "N"
+            print(f"  [{i:3d}] OK ({abstract_flag}, E={ethics_flag}/{ethics_score}): {name}")
 
         except Exception as e:
             errors += 1

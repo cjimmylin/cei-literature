@@ -6,8 +6,21 @@ See LLM_CONTEXT.md for details.
 """
 
 import re
+import sys
 from pathlib import Path
 from collections import defaultdict
+
+sys.path.insert(0, str(Path(__file__).parent))
+from ethics_scoring import is_ethics_yes, parse_ethics_value
+from moral_psych_scoring import (
+    MP_FIELDS, FIELD_DISPLAY_NAMES, is_mp_detected, parse_mp_value,
+)
+from religious_scoring import (
+    RV_FIELDS,
+    FIELD_DISPLAY_NAMES as RV_DISPLAY_NAMES,
+    is_rv_detected,
+    parse_rv_value,
+)
 
 def get_frontmatter_value(frontmatter: str, key: str) -> str:
     """Get value of a key from frontmatter."""
@@ -49,6 +62,8 @@ def main():
     religious = defaultdict(list)
     cultural = defaultdict(list)
     moral_psych = defaultdict(list)
+    mp_theory_counts = defaultdict(list)  # per-theory counts from mp_* scores
+    rv_tradition_counts = defaultdict(list)  # per-tradition counts from rv_* scores
     
     for p in sorted(papers):
         try:
@@ -76,12 +91,12 @@ def main():
             
             item = (year, author_last, title, p.name)
 
-            # 1. Frameworks
-            if get_frontmatter_value(frontmatter, 'virtue_ethics') == 'Yes':
+            # 1. Frameworks (score >= 50 treated as Yes equivalent)
+            if is_ethics_yes(get_frontmatter_value(frontmatter, 'virtue_ethics')):
                 stats['Virtue Ethics'].append(item)
-            if get_frontmatter_value(frontmatter, 'deontological_ethics') == 'Yes':
+            if is_ethics_yes(get_frontmatter_value(frontmatter, 'deontological_ethics')):
                 stats['Deontological Ethics'].append(item)
-            if get_frontmatter_value(frontmatter, 'utilitarian_ethics') == 'Yes':
+            if is_ethics_yes(get_frontmatter_value(frontmatter, 'utilitarian_ethics')):
                 stats['Utilitarian Ethics'].append(item)
                 
             # 2. Perspective
@@ -94,20 +109,40 @@ def main():
             if topic and topic != 'N/A':
                 topics[topic].append(item)
                 
-            # 4. Religious
-            rel = get_frontmatter_value(frontmatter, 'religious_values')
-            if rel and rel != 'N/A':
-                religious[rel].append(item)
+            # 4. Religious — prefer rv_* scores, fall back to religious_values string
+            rv_detected_any = False
+            for rv_field in RV_FIELDS:
+                rv_val = get_frontmatter_value(frontmatter, rv_field)
+                if is_rv_detected(rv_val):
+                    rv_tradition_counts[RV_DISPLAY_NAMES[rv_field]].append(item)
+                    rv_detected_any = True
+            if rv_detected_any:
+                religious["Any Religious Values (from rv_* scores)"].append(item)
+            else:
+                # Fallback: read religious_values string (legacy)
+                rel = get_frontmatter_value(frontmatter, 'religious_values')
+                if rel and rel != 'N/A':
+                    religious[rel].append(item)
                 
             # 5. Cultural
             cult = get_frontmatter_value(frontmatter, 'national_ethnic_cultural')
             if cult and cult != 'N/A':
                 cultural[cult].append(item)
                 
-            # 6. Moral Psych
-            mps = get_frontmatter_value(frontmatter, 'moral_psychology')
-            if mps and mps != 'N/A':
-                moral_psych[mps].append(item)
+            # 6. Moral Psych — prefer mp_* scores, fall back to moral_psychology string
+            mp_detected_any = False
+            for mp_field in MP_FIELDS:
+                mp_val = get_frontmatter_value(frontmatter, mp_field)
+                if is_mp_detected(mp_val):
+                    mp_theory_counts[FIELD_DISPLAY_NAMES[mp_field]].append(item)
+                    mp_detected_any = True
+            if mp_detected_any:
+                moral_psych["Any Moral Psychology (from mp_* scores)"].append(item)
+            else:
+                # Fallback: read moral_psychology string (legacy)
+                mps = get_frontmatter_value(frontmatter, 'moral_psychology')
+                if mps and mps != 'N/A':
+                    moral_psych[mps].append(item)
                 
         except Exception as e:
             continue
@@ -145,9 +180,11 @@ def main():
     
     add_section("Ethical Perspectives (General Ethics)", perspectives)
     add_section("Research Topics (Non-Ethics)", topics)
-    add_section("Religious Values", religious)
+    add_section("Religious Values (Combined)", religious)
+    add_section("Religious Values (Per-Tradition from rv_* scores)", rv_tradition_counts)
     add_section("Cultural Values", cultural)
-    add_section("Moral Psychology", moral_psych)
+    add_section("Moral Psychology (Combined)", moral_psych)
+    add_section("Moral Psychology (Per-Theory from mp_* scores)", mp_theory_counts)
     
     # Ensure STATISTICS directory exists
     stats_dir = Path('./STATISTICS')

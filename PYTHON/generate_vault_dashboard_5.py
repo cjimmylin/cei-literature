@@ -6,7 +6,7 @@ Scans paper YAML frontmatter, benchmark survey JSON, normative v2 JSON,
 and author map to produce a JavaScript data file consumed by the static
 HTML/CSS/JS frontend.
 
-Output: STATISTICS/cei-dashboard-5/data.js
+Output: DASHBOARDS/cei-dashboard-5/data.js
 
 Data sources:
   - papers/*.md YAML frontmatter (2,034 papers)
@@ -25,6 +25,9 @@ from collections import defaultdict, Counter
 from pathlib import Path
 from datetime import date
 
+sys.path.insert(0, str(Path(__file__).parent))
+from religious_scoring import RV_FIELDS, FIELD_DISPLAY_NAMES, is_rv_detected
+
 print = functools.partial(print, flush=True)
 
 # ── Paths ──────────────────────────────────────────────────────────────────
@@ -32,13 +35,14 @@ SCRIPT_DIR = Path(__file__).parent
 WS_ROOT = SCRIPT_DIR.parent
 LOGS_DIR = WS_ROOT / "logs"
 STATS_DIR = WS_ROOT / "STATISTICS"
+DASHBOARDS_DIR = WS_ROOT / "DASHBOARDS"
 PAPERS_DIR = WS_ROOT / "papers"
 
 CANDIDATES_FILE = LOGS_DIR / "20260216-benchmark_survey_candidates.json"
 ALL_CLASSIFICATIONS_FILE = LOGS_DIR / "20260216-benchmark_survey_all_classifications.json"
 NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260208-author_paper_map.json"
-OUTPUT_DIR = STATS_DIR / "cei-dashboard-5"
+OUTPUT_DIR = DASHBOARDS_DIR / "cei-dashboard-5"
 OUTPUT_FILE = OUTPUT_DIR / "data.js"
 
 # ── Import from existing scripts ──────────────────────────────────────────
@@ -396,11 +400,34 @@ RELIG_TRAD_PATTERNS = {
 }
 
 
-def classify_relig_traditions(values_list, extra_text=""):
+# Map rv_* field names → RELIG_TRAD_PATTERNS keys used by this dashboard
+_RV_FIELD_TO_TRAD = {
+    "rv_islam": "Islam", "rv_christianity": "Christianity", "rv_buddhism": "Buddhism",
+    "rv_judaism": "Judaism", "rv_hinduism": "Hinduism", "rv_confucianism": "Confucian",
+    "rv_ubuntu": "Ubuntu", "rv_indigenous": "Indigenous",
+    # rv_sikhism, rv_taoism, rv_shinto, rv_jainism, rv_bahai, rv_zoroastrianism
+    # have no matching key in RELIG_TRAD_PATTERNS for this dashboard version
+}
+
+
+def _traditions_from_rv_scores(fields):
+    """Return set of tradition names detected from rv_* score fields (>= 50)."""
+    result = set()
+    for rv_field, trad_name in _RV_FIELD_TO_TRAD.items():
+        if is_rv_detected(fields.get(rv_field, 0)):
+            result.add(trad_name)
+    return result
+
+
+def classify_relig_traditions(values_list, extra_text="", fields=None):
+    """Classify religious traditions from legacy string fields + rv_* scores."""
     combined = " ".join(values_list) + " " + extra_text if values_list else extra_text
-    if not combined.strip():
-        return []
-    return [name for name, pat in RELIG_TRAD_PATTERNS.items() if pat.search(combined)]
+    result = set()
+    if combined.strip():
+        result = {name for name, pat in RELIG_TRAD_PATTERNS.items() if pat.search(combined)}
+    if fields:
+        result |= _traditions_from_rv_scores(fields)
+    return list(result)
 
 
 # ── Religious Tradition Extended Analysis Constants ──────────────────────
@@ -527,7 +554,7 @@ YAML_SCALAR_FIELDS = {
     'LLM_assessed', 'DATA_URL', 'ethics_overall', 'is_benchmark',
     'abstract', 'first_author', 'last_author', 'short_title',
     'url', 'doi', 'CONF-CC', 'year',
-}
+} | set(RV_FIELDS)
 YAML_LIST_FIELDS = {'cultures_nationalities_list', 'languages_list', 'religious_values_list'}
 
 
@@ -698,10 +725,10 @@ def build_papers_array(paper_yaml, candidates, normative_entries, entry_cats=Non
         regions = list(set(classify_region(c) for c in cultures)) if cultures else []
         languages = fields.get("languages_list", [])
 
-        # Religious values
+        # Religious values (legacy strings + rv_* scores)
         relig_list = fields.get("religious_values_list", [])
         relig_val = fields.get("religious_values", "") or ""
-        rv = classify_relig_traditions(relig_list, relig_val)
+        rv = classify_relig_traditions(relig_list, relig_val, fields=fields)
 
         # LLM models
         lm = parse_llm_models(fields)
@@ -1073,7 +1100,7 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
             # Per-paper concept/virtue keywords (for click-to-filter)
             kw = []
             if scan_fn:
-                _title = fields.get("title", "") or fields.get("short_title", fn)
+                _title = fields.get("short_title", "") or fields.get("title", fn)
                 _abstract = fields.get("abstract", "")
                 kw = sorted(scan_fn(_title, _abstract))
 
@@ -1612,7 +1639,7 @@ def build_islamic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
         fields = paper_yaml.get(fn, {})
         trads = classify_relig_traditions(
             fields.get("religious_values_list", []),
-            fields.get("religious_values", "") or "")
+            fields.get("religious_values", "") or "", fields=fields)
         for t in trads:
             if t != "Islam":
                 co_fns[t].append(fn)
@@ -1642,7 +1669,7 @@ def build_christian_jewish_extended(sub_fns, paper_yaml, cand_lookup, candidates
     def _has_trad(fn, name):
         f = paper_yaml.get(fn, {})
         return name in classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or "")
+            f.get("religious_values_list", []), f.get("religious_values", "") or "", fields=f)
 
     christian_fns = {fn for fn in sub_fns if _has_trad(fn, "Christianity")}
     jewish_fns = {fn for fn in sub_fns if _has_trad(fn, "Judaism")}
@@ -1652,7 +1679,7 @@ def build_christian_jewish_extended(sub_fns, paper_yaml, cand_lookup, candidates
     for fn in sub_fns:
         f = paper_yaml.get(fn, {})
         trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+            f.get("religious_values_list", []), f.get("religious_values", "") or "", fields=f))
         has_c, has_j = "Christianity" in trads, "Judaism" in trads
         other = trads - {"Christianity", "Judaism"}
         if has_c and has_j:
@@ -1763,7 +1790,7 @@ def build_dharmic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     def _is_trad(fn, name):
         f = paper_yaml.get(fn, {})
         return name in classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or "")
+            f.get("religious_values_list", []), f.get("religious_values", "") or "", fields=f)
 
     buddhism_fns = {fn for fn in sub_fns if _is_trad(fn, "Buddhism")}
     hinduism_fns = {fn for fn in sub_fns if _is_trad(fn, "Hinduism")}
@@ -1773,7 +1800,7 @@ def build_dharmic_extended(sub_fns, paper_yaml, cand_lookup, candidates_set):
     for fn in sub_fns:
         f = paper_yaml.get(fn, {})
         trads = set(classify_relig_traditions(
-            f.get("religious_values_list", []), f.get("religious_values", "") or ""))
+            f.get("religious_values_list", []), f.get("religious_values", "") or "", fields=f))
         has_b, has_h = "Buddhism" in trads, "Hinduism" in trads
         other = trads - {"Buddhism", "Hinduism"}
         if has_b and has_h:
@@ -2144,11 +2171,13 @@ def compute_religious_data(paper_yaml, candidates, candidates_set):
         relig_list = fields.get('religious_values_list', [])
         relig_val = fields.get('religious_values', '') or ''
 
-        if not relig_list and relig_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
+        # Check both legacy strings and rv_* scores
+        has_rv_scores = any(is_rv_detected(fields.get(f, 0)) for f in RV_FIELDS)
+        if not relig_list and not has_rv_scores and relig_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
             continue
 
-        trads = classify_relig_traditions(relig_list, relig_val)
-        if not trads and relig_val.lower() in ('n/a', 'na', 'no', 'none', '', 'false'):
+        trads = classify_relig_traditions(relig_list, relig_val, fields=fields)
+        if not trads:
             continue
 
         year = extract_year(fn)

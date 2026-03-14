@@ -35,6 +35,7 @@ from lib.config import (
     AUTHORS_DIR,
     AI_LABS_DIR,
     STATISTICS_DIR,
+    DASHBOARDS_DIR,
     LOGS_DIR,
     RECYCLE_BIN_DIR,
 
@@ -60,6 +61,7 @@ __all__ = [
     "AUTHORS_DIR",
     "AI_LABS_DIR",
     "STATISTICS_DIR",
+    "DASHBOARDS_DIR",
     "LOGS_DIR",
     "RECYCLE_BIN_DIR",
     "PDFS_DIR",

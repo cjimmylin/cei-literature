@@ -12,7 +12,7 @@ Data sources:
   - logs/20260208-author_paper_map.json
   - papers/*.md YAML frontmatter: LLM_assessed, DATA_URL fields
 
-Output: STATISTICS/20260215-vault-dashboard.html
+Output: DASHBOARDS/20260215-vault-dashboard.html
 """
 
 import json
@@ -29,12 +29,13 @@ SCRIPT_DIR = Path(__file__).parent
 WS_ROOT = SCRIPT_DIR.parent
 LOGS_DIR = WS_ROOT / "logs"
 STATS_DIR = WS_ROOT / "STATISTICS"
+DASHBOARDS_DIR = WS_ROOT / "DASHBOARDS"
 
 ALL_CLASSIFICATIONS_FILE = LOGS_DIR / "20260216-benchmark_survey_all_classifications.json"
 CANDIDATES_FILE = LOGS_DIR / "20260216-benchmark_survey_candidates.json"
 NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260208-author_paper_map.json"
-OUTPUT_FILE = STATS_DIR / "20260216-vault-dashboard.html"
+OUTPUT_FILE = DASHBOARDS_DIR / "20260216-vault-dashboard.html"
 
 # ── Paper YAML scanner (for LLM assessment data) ─────────────────────────
 PAPERS_DIR = WS_ROOT / "papers"
@@ -1669,7 +1670,7 @@ def main():
     print("\nBuilding HTML...")
     html = build_html(data_json)
 
-    STATS_DIR.mkdir(parents=True, exist_ok=True)
+    DASHBOARDS_DIR.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(html)
 

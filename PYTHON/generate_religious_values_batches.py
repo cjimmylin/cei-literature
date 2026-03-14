@@ -27,8 +27,13 @@ from pathlib import Path
 print = functools.partial(print, flush=True)
 
 sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
+sys.path.insert(0, str(Path(__file__).parent))
 from yaml_utils import extract_frontmatter, parse_frontmatter
 from config import PAPERS_DIR, PDF_EXTRACTS_DIR, LOGS_DIR
+from religious_scoring import (
+    RV_FIELDS, FIELD_DISPLAY_NAMES,
+    parse_rv_value, is_rv_detected, DEFAULT_THRESHOLD,
+)
 
 DATE_PREFIX = datetime.now().strftime("%Y%m%d")
 
@@ -88,6 +93,7 @@ def main():
     errors = 0
     rv_counts = {}
     rvl_counts = {}
+    tradition_score_counts = {}
 
     for paper_path in sorted(PAPERS_DIR.glob("*.md")):
         try:
@@ -108,11 +114,24 @@ def main():
         current_rv = fields.get("religious_values", "").strip("\"'")
         current_rvl = fields.get("religious_values_list", "").strip("\"'")
 
+        # Read rv_* scores
+        current_rv_scores = {}
+        detected_traditions = []
+        for rv_field in RV_FIELDS:
+            score = parse_rv_value(fields.get(rv_field, 0))
+            current_rv_scores[rv_field] = score
+            if score >= DEFAULT_THRESHOLD:
+                detected_traditions.append(FIELD_DISPLAY_NAMES[rv_field])
+
         # Track distribution of current values
         rv_key = current_rv if current_rv else "(empty)"
         rv_counts[rv_key] = rv_counts.get(rv_key, 0) + 1
         rvl_key = current_rvl if current_rvl else "(empty)"
         rvl_counts[rvl_key] = rvl_counts.get(rvl_key, 0) + 1
+
+        # Track per-tradition score distribution
+        for trad in detected_traditions:
+            tradition_score_counts[trad] = tradition_score_counts.get(trad, 0) + 1
 
         extract_ref = resolve_extract_path(paper_path, fm_text)
         abstract = get_abstract(fm_text, body)
@@ -124,6 +143,8 @@ def main():
             "has_abstract": len(abstract) > 50,
             "current_religious_values": current_rv,
             "current_religious_values_list": current_rvl,
+            "current_rv_scores": current_rv_scores,
+            "detected_traditions": detected_traditions,
         })
 
     print("=== RELIGIOUS VALUES BATCH GENERATION ===\n")
@@ -142,6 +163,10 @@ def main():
     print("\nCurrent religious_values_list distribution:")
     for cat, count in sorted(rvl_counts.items(), key=lambda x: -x[1]):
         print("  {}: {}".format(cat, count))
+
+    print("\nDetected traditions (rv_* score >= {}):".format(DEFAULT_THRESHOLD))
+    for trad, count in sorted(tradition_score_counts.items(), key=lambda x: -x[1]):
+        print("  {}: {}".format(trad, count))
 
     if not papers:
         print("\nNo papers found. Exiting.")
@@ -207,6 +232,7 @@ def main():
         "papers_without_extract": sum(1 for p in papers if not p["has_extract"]),
         "current_rv_distribution": rv_counts,
         "current_rvl_distribution": rvl_counts,
+        "tradition_score_distribution": tradition_score_counts,
     }
     manifest_path = LOGS_DIR / "{}-religious_values_manifest.json".format(DATE_PREFIX)
     with open(manifest_path, "w", encoding="utf-8") as f:

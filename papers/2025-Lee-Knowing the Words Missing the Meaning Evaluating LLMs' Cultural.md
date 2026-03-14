@@ -86,7 +86,7 @@ tags:
 abstract: "Benchmark evaluating LLMs' cultural understanding through Sino-Korean words and four-character idioms. Four question categories: idioms, synonyms, antonyms, homophones with 200 samples each. GPT-4o shows highest accuracy but relies on primary dictionary definitions and Chinese usages rather than Korean-specific meanings."
 CONFERENCE: "Journal"
 ethics_overall: 0
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
 research_topic: "Social & Cultural Analysis"

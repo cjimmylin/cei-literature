@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """
-Backfill religious_values_list field to all existing papers.
+Backfill rv_* confidence score fields to all existing papers.
 
-Uses the updated classify_religious_list() from classify_cultural_religious.py
-with expanded RELIGIOUS_PATTERNS (including Confucianism, Taoism, Shinto, etc.)
-to populate the new field.
+Uses the religious_scoring.py engine to compute 14 rv_* integer scores
+(0-100) for each paper, then inserts them into YAML frontmatter.
+Also updates the derived religious_values and religious_values_list strings.
 
 Reads title + abstract from each paper, optionally also scans PDF extract
-for deeper coverage. Inserts the field after existing religious_values: line
-using safe regex insertion (NOT parse/rebuild round-trip).
+for deeper coverage. Uses safe regex insertion (NOT parse/rebuild round-trip).
 
 Usage:
   ../.venv/bin/python PYTHON/backfill_religious_values_list.py [--dry-run]
 
 Run from CEI-Lit-WS/ directory.
+
+Updated 2026-03-13: Computes and sets rv_* integer score fields instead of
+just the religious_values_list string.
 """
 
 import sys
@@ -29,7 +31,13 @@ sys.path.insert(0, str(SCRIPT_DIR))
 
 from yaml_frontmatter_utils import read_paper, write_paper, validate_frontmatter
 from vault_config import PAPERS_DIR, PDF_EXTRACTS_DIR
-import classify_cultural_religious as ccr
+from religious_scoring import (
+    RV_FIELDS, FIELD_DISPLAY_NAMES,
+    compute_all_rv_scores, is_rv_detected,
+    derive_religious_values_string, derive_religious_values_list_string,
+    insert_rv_fields_between_religious_values, update_existing_rv_fields,
+    DEFAULT_THRESHOLD,
+)
 
 
 def get_pdf_extract_text(paper_path, frontmatter):
@@ -58,16 +66,12 @@ def get_pdf_extract_text(paper_path, frontmatter):
 
 
 def process_paper(paper_path, dry_run=False):
-    """Add religious_values_list field to a paper.
+    """Compute and set rv_* score fields for a paper.
 
-    Returns: (status, religious_list_value)
-      status: 'added', 'skipped' (already has field), 'error'
+    Returns: (status, detected_traditions)
+      status: 'added', 'updated', 'skipped' (scores unchanged), 'error'
     """
     frontmatter, body = read_paper(paper_path)
-
-    # Check if field already exists
-    if re.search(r'^religious_values_list:', frontmatter, re.MULTILINE):
-        return 'skipped', ''
 
     # Extract title + abstract from body
     title_match = re.search(r'^# (.+)$', body, re.MULTILINE)
@@ -79,41 +83,48 @@ def process_paper(paper_path, dry_run=False):
     # Also get PDF extract text for deeper coverage
     extract_text = get_pdf_extract_text(paper_path, frontmatter)
 
-    # Combine all text for classification
-    full_text = f"{title} {abstract} {extract_text}".strip()
+    # Compute rv_* scores using religious_scoring engine
+    rv_scores = compute_all_rv_scores(title, abstract, extract_text)
 
-    # Classify using expanded patterns
-    religious_list = ccr.classify_religious_list(title, full_text)
-
-    # Also re-classify religious_values with expanded patterns
-    religious = ccr.classify_religious(title, full_text)
+    # Determine detected traditions for reporting
+    detected = [FIELD_DISPLAY_NAMES[f] for f in RV_FIELDS
+                if rv_scores[f] >= DEFAULT_THRESHOLD]
 
     if dry_run:
-        return 'added', religious_list
+        return 'added', detected
 
-    # Safe regex insertion: insert religious_values_list after religious_values line
-    # Use the value with single quotes replacing double quotes (YAML safety)
-    safe_religious_list = religious_list.replace('"', "'")
-    safe_religious = religious.replace('"', "'")
+    # Check if rv_* fields already exist in frontmatter
+    has_rv_fields = re.search(r'^rv_islam:', frontmatter, re.MULTILINE)
 
-    # Update religious_values with expanded patterns too
-    new_fm, count = re.subn(
-        r'^(religious_values:).*$',
-        rf'\1 "{safe_religious}"',
-        frontmatter, count=1, flags=re.MULTILINE
-    )
-
-    if count == 0:
-        # No religious_values field found — append both at end
-        new_fm = frontmatter.rstrip() + f'\nreligious_values: "{safe_religious}"'
-        new_fm += f'\nreligious_values_list: "{safe_religious_list}"'
+    if has_rv_fields:
+        # Update existing rv_* fields
+        new_fm = update_existing_rv_fields(frontmatter, rv_scores)
+        status = 'updated'
     else:
-        # Insert religious_values_list after religious_values line
-        new_fm = re.sub(
-            r'^(religious_values: .*)$',
-            rf'\1\nreligious_values_list: "{safe_religious_list}"',
-            new_fm, count=1, flags=re.MULTILINE
-        )
+        # Insert rv_* fields between religious_values and religious_values_list
+        new_fm, success = insert_rv_fields_between_religious_values(frontmatter, rv_scores)
+        if not success:
+            # Fallback: try to add after religious_values line
+            derived_rv = derive_religious_values_string(rv_scores)
+            derived_list = derive_religious_values_list_string(rv_scores)
+
+            rv_block_lines = [f"{field}: {rv_scores[field]}" for field in RV_FIELDS]
+            rv_block = "\n".join(rv_block_lines)
+
+            # Try inserting after religious_values:
+            new_fm, n = re.subn(
+                r'^(religious_values:.*)$',
+                r'\1\n' + rv_block + f'\nreligious_values_list: "{derived_list}"',
+                frontmatter, count=1, flags=re.MULTILINE,
+            )
+            if n == 0:
+                # No religious_values field at all — append everything
+                new_fm = frontmatter.rstrip()
+                new_fm += f'\nreligious_values: "{derived_rv}"'
+                for field in RV_FIELDS:
+                    new_fm += f'\n{field}: {rv_scores[field]}'
+                new_fm += f'\nreligious_values_list: "{derived_list}"'
+        status = 'added'
 
     # Validate and write
     is_valid, issues = validate_frontmatter(new_fm)
@@ -122,7 +133,7 @@ def process_paper(paper_path, dry_run=False):
 
     write_paper(paper_path, new_fm, body, validate=True)
 
-    return 'added', religious_list
+    return status, detected
 
 
 def main():
@@ -136,26 +147,28 @@ def main():
     print()
 
     added = 0
+    updated = 0
     skipped = 0
     errors = 0
     religious_counts = {}
 
     for i, paper_path in enumerate(papers, 1):
         try:
-            status, religious_list = process_paper(paper_path, dry_run=dry_run)
+            status, detected = process_paper(paper_path, dry_run=dry_run)
 
             if status == 'added':
                 added += 1
-                # Count religions
-                for r in religious_list.split(', '):
-                    r = r.strip()
-                    if r:
-                        religious_counts[r] = religious_counts.get(r, 0) + 1
+            elif status == 'updated':
+                updated += 1
             elif status == 'skipped':
                 skipped += 1
 
+            # Count detected traditions
+            for t in detected:
+                religious_counts[t] = religious_counts.get(t, 0) + 1
+
             if i % 100 == 0:
-                print(f"  Progress: {i}/{total} (added={added}, skipped={skipped})")
+                print(f"  Progress: {i}/{total} (added={added}, updated={updated}, skipped={skipped})")
 
         except Exception as e:
             errors += 1
@@ -167,11 +180,12 @@ def main():
     print("BACKFILL SUMMARY")
     print("=" * 60)
     print(f"  Total papers:   {total}")
-    print(f"  Added field:    {added}")
-    print(f"  Already existed: {skipped}")
+    print(f"  Added rv_* fields:  {added}")
+    print(f"  Updated rv_* fields: {updated}")
+    print(f"  Skipped:        {skipped}")
     print(f"  Errors:         {errors}")
     print()
-    print("RELIGIOUS VALUES LIST DISTRIBUTION:")
+    print("DETECTED TRADITIONS (score >= {}):" .format(DEFAULT_THRESHOLD))
     for religion, count in sorted(religious_counts.items(), key=lambda x: -x[1]):
         print(f"  {religion}: {count}")
     print("=" * 60)

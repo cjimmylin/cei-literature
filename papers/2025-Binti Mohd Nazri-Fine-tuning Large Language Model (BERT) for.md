@@ -83,7 +83,7 @@ pdf_extract: "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language
 local_pdf: "[[PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 15
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
 is_benchmark: "No"

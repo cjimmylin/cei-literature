@@ -27,154 +27,19 @@ sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
 
 from yaml_utils import extract_frontmatter, parse_frontmatter
 from config import PAPERS_DIR, PDF_EXTRACTS_DIR, STATISTICS_DIR
+from ethics_scoring import (
+    VIRTUE_STRONG, VIRTUE_MEDIUM, VIRTUE_FP,
+    DEONT_STRONG, DEONT_MEDIUM, DEONT_FP,
+    UTIL_STRONG, UTIL_MEDIUM, UTIL_FP,
+    ETHICS_STRONG, ETHICS_FP,
+    count_matches, load_extract, is_ethics_yes,
+)
 
-# ── HIGH-CONFIDENCE normative framework indicators ─────────────────
-# These terms almost always indicate substantive discussion of the framework.
-# Single match is sufficient for tagging.
-VIRTUE_STRONG = [
-    r"\bvirtue ethics\b", r"\bvirtue-ethics\b", r"\bvirtue ethicist\w*\b",
-    r"\beudaimonia\b", r"\bphronesis\b", r"\barete\b",
-    r"\baristotelian ethics\b", r"\baristotelian virtue\b",
-    r"\bmoral character\b", r"\bmoral virtue\b",
-    r"\bvirtue-based\b", r"\bvirtue theory\b",
-    r"\bcharacter ethics\b",
-]
-
-DEONT_STRONG = [
-    r"\bdeontolog\w*\b", r"\bkantian ethics\b", r"\bkantian moral\b",
-    r"\bcategorical imperative\b", r"\bduty-based\b", r"\brights-based ethics\b",
-    r"\brossian\b", r"\bprima facie dut\w*\b",
-    r"\bmoral law\b", r"\bmoral rules?\b(?=.*(?:binding|absolute|universal))",
-    r"\bkant'?s?\s+(?:ethics|moral|categorical|theory|philosophy)\b",
-]
-
-UTIL_STRONG = [
-    r"\butilitarian\w*\b", r"\bconsequentialis\w*\b",
-    r"\bgreatest good\b", r"\bgreatest happiness\b", r"\bgreatest number\b",
-    r"\bhedonic calculus\b", r"\bbentham\b", r"\bsidgwick\b",
-    r"\bmill'?s?\s+(?:utilitarianism|ethics|moral|principle)\b",
-    r"\bharm reduction\b(?=.*(?:ethic|moral|utilitarian))",
-    r"\bcost-benefit\s+(?:analysis|framework)\b(?=.*(?:ethic|moral))",
-    r"\boutcome-based ethics\b",
-]
-
-# ── MEDIUM-CONFIDENCE indicators ──────────────────────────────────
-# Need multiple matches or ethics context to count.
-VIRTUE_MEDIUM = [
-    r"\bvirtue\b", r"\bvirtuous\b", r"\bflourishing\b",
-    r"\bexcellence\b", r"\baristotel\w*\b",
-    r"\bprudence\b", r"\btemperance\b",
-]
-
-DEONT_MEDIUM = [
-    r"\bkant\b", r"\bduty\b", r"\bduties\b", r"\bobligation\b",
-    r"\bmoral principles?\b", r"\bmoral duty\b",
-    r"\bimperative\b", r"\brule-based\b",
-    r"\buniversal\w* law\b", r"\bintrinsic\w* wrong\b",
-]
-
-UTIL_MEDIUM = [
-    r"\butility\b", r"\bmaximize?\b", r"\bwelfare\b",
-    r"\bwell-being\b", r"\bwellbeing\b", r"\bbeneficence\b",
-    r"\bnet benefit\b", r"\bcost-benefit\b", r"\bhedonism\b",
-    r"\bmill\b",
-]
-
-# ── FALSE-POSITIVE EXCLUSION patterns ─────────────────────────────
-# If these appear near the keyword, it's likely NOT about ethics
-VIRTUE_FP_CONTEXT = [
-    r"\bvirtual\b", r"\bcharacter recognition\b", r"\bcharacter encoding\b",
-    r"\bcharacter set\b", r"\bcharacter level\b", r"\bcharacter-level\b",
-    r"\bcharacter embed\w*\b", r"\bunicode character\b",
-    r"\bexcellence in\s+(?:research|teaching|service)\b",
-]
-
-DEONT_FP_CONTEXT = [
-    r"\brule-based\s+(?:system|model|approach|method|classifier|extraction|reasoning)\b",
-    r"\bduty\s+(?:cycle|officer|station|roster)\b",
-    r"\bobligation\s+(?:bond|debt|financial)\b",
-    r"\bimperative\s+(?:programming|mood|sentence|form)\b",
-    r"\bit is imperative\b", r"\bimperative to\b", r"\bimperative that\b",
-]
-
-UTIL_FP_CONTEXT = [
-    r"\butility\s+(?:function|value|score|measure|class|method|library|tool|software|computing)\b",
-    r"\bmaximize\s+(?:accuracy|performance|likelihood|profit|reward|return|score|f1|auc|precision|recall|throughput|efficiency)\b",
-    r"\bmaximise\s+(?:accuracy|performance|likelihood|profit|reward|return|score)\b",
-    r"\bmill\s+(?:creek|valley|river|road|street)\b",
-    r"\bpaper mill\b", r"\bsaw ?mill\b", r"\btextile mill\b",
-    r"\bwindmill\b", r"\bwatermill\b",
-]
-
-# ── ETHICS OVERALL indicators ─────────────────────────────────────
-# For Tier 3: strong signals that a paper IS about AI ethics
-ETHICS_STRONG = [
-    r"\bai ethics\b", r"\barthificial intelligence ethics\b",
-    r"\bmachine ethics\b", r"\brobot ethics\b", r"\broboethics\b",
-    r"\bethical ai\b", r"\bresponsible ai\b",
-    r"\balgorithmic fairness\b", r"\balgorithmic bias\b",
-    r"\balgorithmic discrimination\b", r"\balgorithmic justice\b",
-    r"\bethical\s+(?:implications?|considerations?|issues?|challenges?|concerns?|dilemmas?|frameworks?|guidelines?|principles?)\b",
-    r"\bmoral\s+(?:reasoning|judgment|decision|dilemma|status|agency|patient|consideration)\b",
-    r"\bhuman rights\b(?=.*(?:ai|algorithm|automat|digital|technolog))",
-    r"\btrolley problem\b", r"\bmoral foundations\b",
-    r"\bvalue alignment\b", r"\bai alignment\b", r"\bai safety\b",
-    r"\bfairness\b(?=.*(?:machine learning|algorithm|classif|predict|model|bias))",
-    r"\bbias\b(?=.*(?:fairness|discriminat|protected|demographic|racial|gender|ethic))",
-    r"\bhate speech\b", r"\btoxic\w*\b(?=.*(?:detect|classif|model|nlp|language))",
-    r"\boffensive\s+(?:language|speech|content|text)\b",
-    r"\bstereotype\w*\b(?=.*(?:bias|fairness|nlp|language model|gender|racial))",
-    r"\bdiscrimination\b(?=.*(?:algorithm|ai|automat|model|fairness))",
-    r"\baccountab\w*\b(?=.*(?:ai|algorithm|automat|system))",
-    r"\btransparency\b(?=.*(?:ai|algorithm|model|decision|automat))",
-    r"\bexplainab\w*\b(?=.*(?:ai|ethic|fairness|accountab|trust))",
-]
-
-# Words that make "bias" / "safety" / "values" NON-ethical
-ETHICS_FP_CONTEXT = [
-    r"\bselection bias\b", r"\binductive bias\b", r"\bsampling bias\b",
-    r"\bcognitive bias\b(?!.*(?:ethic|moral|fairness))",
-    r"\bconfirmation bias\b(?!.*(?:ethic|moral))",
-    r"\bstatistical bias\b", r"\bestimation bias\b", r"\bvariance.{0,20}bias\b",
-    r"\bbias-variance\b", r"\bregularization bias\b",
-    r"\bsafety\s+(?:critical|factor|margin|standard|protocol|test|requirement|system|analysis)\b(?!.*ethic)",
-    r"\bfunctional safety\b", r"\bindustrial safety\b",
-    r"\bparameter values?\b", r"\bnumerical values?\b", r"\bpixel values?\b",
-    r"\bfeature values?\b", r"\bdefault values?\b", r"\breturn values?\b",
-    r"\btext alignment\b", r"\bsequence alignment\b", r"\bword alignment\b",
-    r"\bimage alignment\b",
-]
-
-
-def load_extract(stem):
-    """Load extract body text for a paper."""
-    for year_dir in sorted(PDF_EXTRACTS_DIR.iterdir()):
-        if not year_dir.is_dir():
-            continue
-        candidate = year_dir / f"{stem}.md"
-        if candidate.exists():
-            try:
-                content = candidate.read_text(encoding="utf-8")
-                if content.startswith("---"):
-                    end = content.find("---", 3)
-                    if end != -1:
-                        content = content[end + 3:]
-                return content[:5000]  # First ~5000 chars
-            except Exception:
-                return ""
-    return ""
-
-
-def count_matches(text, patterns):
-    """Count total matches of patterns in text."""
-    text_lower = text.lower()
-    total = 0
-    matched_terms = []
-    for pat in patterns:
-        for m in re.finditer(pat, text_lower):
-            total += 1
-            matched_terms.append(m.group())
-    return total, matched_terms
+# Map old local names to imported names for backward compatibility
+VIRTUE_FP_CONTEXT = VIRTUE_FP
+DEONT_FP_CONTEXT = DEONT_FP
+UTIL_FP_CONTEXT = UTIL_FP
+ETHICS_FP_CONTEXT = ETHICS_FP
 
 
 def has_any_match(text, patterns):
@@ -354,10 +219,10 @@ def filter_tier2(papers):
     """Tier 2: ethics=Yes, all frameworks=No, keyword-filtered."""
     candidates = [
         p for p in papers
-        if p["ethics_overall"] == "Yes"
-        and p["virtue_ethics"] != "Yes"
-        and p["deontological_ethics"] != "Yes"
-        and p["utilitarian_ethics"] != "Yes"
+        if is_ethics_yes(p["ethics_overall"])
+        and not is_ethics_yes(p["virtue_ethics"])
+        and not is_ethics_yes(p["deontological_ethics"])
+        and not is_ethics_yes(p["utilitarian_ethics"])
     ]
     result = []
     for p in candidates:
@@ -373,7 +238,7 @@ def filter_tier2(papers):
 
 def filter_tier3(papers):
     """Tier 3: ethics=No, keyword-filtered."""
-    candidates = [p for p in papers if p["ethics_overall"] == "No"]
+    candidates = [p for p in papers if not is_ethics_yes(p["ethics_overall"])]
     result = []
     for p in candidates:
         extract = load_extract(p["stem"])
@@ -390,9 +255,9 @@ def filter_tier1(papers):
     """Tier 1: any framework = Yes."""
     return [
         p for p in papers
-        if p["virtue_ethics"] == "Yes"
-        or p["deontological_ethics"] == "Yes"
-        or p["utilitarian_ethics"] == "Yes"
+        if is_ethics_yes(p["virtue_ethics"])
+        or is_ethics_yes(p["deontological_ethics"])
+        or is_ethics_yes(p["utilitarian_ethics"])
     ]
 
 
@@ -498,21 +363,21 @@ def review_tier1(papers, verbose=False):
         changes = {}
         notes = []
 
-        if p["virtue_ethics"] == "Yes":
+        if is_ethics_yes(p["virtue_ethics"]):
             is_fp, reason = is_false_positive_virtue(title, abstract, extract)
             if is_fp:
                 changes["virtue_ethics"] = "No"
                 notes.append(f"V-FP: {reason}")
                 stats["virtue_fp"] += 1
 
-        if p["deontological_ethics"] == "Yes":
+        if is_ethics_yes(p["deontological_ethics"]):
             is_fp, reason = is_false_positive_deont(title, abstract, extract)
             if is_fp:
                 changes["deontological_ethics"] = "No"
                 notes.append(f"D-FP: {reason}")
                 stats["deont_fp"] += 1
 
-        if p["utilitarian_ethics"] == "Yes":
+        if is_ethics_yes(p["utilitarian_ethics"]):
             is_fp, reason = is_false_positive_util(title, abstract, extract)
             if is_fp:
                 changes["utilitarian_ethics"] = "No"

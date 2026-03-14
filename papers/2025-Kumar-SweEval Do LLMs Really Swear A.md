@@ -37,6 +37,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -94,12 +96,14 @@ ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "8 languages"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "Social & Cultural Values"
 ---
 # SweEval: Do LLMs Really Swear? A Safety Benchmark for Testing Limits for Enterprise Use
 

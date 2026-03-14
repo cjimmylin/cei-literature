@@ -36,6 +36,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,13 +94,15 @@ ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "Bias & Fairness"
 is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-ethics_perspective: "General Ethics"
+ethics_perspective: "Bias & Fairness"
 ---
 # EuroGEST: Investigating Gender Stereotypes in Multilingual Language Models
 

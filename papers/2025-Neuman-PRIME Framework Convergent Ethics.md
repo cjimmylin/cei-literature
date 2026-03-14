@@ -29,6 +29,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -87,9 +88,11 @@ CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 CONFERENCE: "Preprint"
 ethics_overall: 100
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 60
 utilitarian_ethics: 60
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"

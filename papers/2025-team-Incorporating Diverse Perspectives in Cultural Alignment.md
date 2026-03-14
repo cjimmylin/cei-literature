@@ -35,6 +35,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,12 +94,14 @@ ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: No
 is_eval: No
 is_dataset: No
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "Social & Cultural Values"
 ---
 # Incorporating Diverse Perspectives in Cultural Alignment: Survey of Evaluation Benchmarks Through A Three-Dimensional Framework
 

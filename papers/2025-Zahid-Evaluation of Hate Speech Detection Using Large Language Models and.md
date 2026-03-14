@@ -35,6 +35,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,12 +94,14 @@ ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: No
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Evaluation of Hate Speech Detection Using Large Language Models and Geographical Contextualization
 

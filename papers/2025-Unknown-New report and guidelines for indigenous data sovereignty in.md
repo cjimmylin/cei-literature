@@ -35,6 +35,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -87,16 +89,18 @@ DATA_URL: "NA"
 tags: 
 abstract: "I've completed the web search for \"indigenous languages AI ethics cultural values.\" Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation."
 CONFERENCE: "Other Conference"
-ethics_overall: 35
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-ethics_perspective: "Social & Cultural Values"
+ethics_perspective: "Machine Ethics"
 ---
 # New report and guidelines for indigenous data sovereignty in artificial intelligence developments | Global AI Ethics and Governance Observatory
 

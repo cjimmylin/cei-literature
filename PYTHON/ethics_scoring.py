@@ -264,9 +264,20 @@ FIELD_KEYWORDS = {
         "medium": UTIL_MEDIUM,
         "fp": UTIL_FP,
     },
+    "care_ethics": {
+        "strong": CARE_STRONG,
+        "medium": CARE_MEDIUM,
+        "fp": CARE_FP,
+    },
+    "contractarian_ethics": {
+        "strong": CONTRACT_STRONG,
+        "medium": CONTRACT_MEDIUM,
+        "fp": CONTRACT_FP,
+    },
 }
 
-ETHICS_FIELDS = ["ethics_overall", "virtue_ethics", "deontological_ethics", "utilitarian_ethics"]
+ETHICS_FIELDS = ["ethics_overall", "virtue_ethics", "deontological_ethics", "utilitarian_ethics",
+                 "care_ethics", "contractarian_ethics"]
 
 DEFAULT_THRESHOLD = 50
 
@@ -344,7 +355,7 @@ def compute_score(text, title, field):
 
 def compute_all_scores(title, abstract, extract):
     """
-    Compute scores for all 4 ethics fields.
+    Compute scores for all 6 ethics fields.
 
     Args:
         title: Paper title.
@@ -354,13 +365,17 @@ def compute_all_scores(title, abstract, extract):
     Returns:
         dict: {field: int} for all ETHICS_FIELDS.
     """
+    # NOTE: Title text is intentionally included in `text` so keywords in the title
+    # are counted as regular matches AND earn the title bonus (+20). This double-counting
+    # is by design: title keywords are stronger signals than body keywords.
     text = f"{title} {abstract} {extract}"
     scores = {field: compute_score(text, title, field) for field in ETHICS_FIELDS}
 
     # Co-occurrence boost: if 2+ normative ethics fields each have ≥1 strong match,
     # all matched fields should score ≥ 50. Targets multi-framework papers (surveys,
     # benchmarks, comparative studies) where keyword hits are diluted across frameworks.
-    ne_fields = ["virtue_ethics", "deontological_ethics", "utilitarian_ethics"]
+    ne_fields = ["virtue_ethics", "deontological_ethics", "utilitarian_ethics",
+                 "care_ethics", "contractarian_ethics"]
     ne_strong = []
     for field in ne_fields:
         kw = FIELD_KEYWORDS[field]
@@ -370,7 +385,8 @@ def compute_all_scores(title, abstract, extract):
 
     if len(ne_strong) >= 2:
         for field in ne_strong:
-            scores[field] = max(scores[field], 50)
+            if scores[field] > 0:  # respect FP suppression
+                scores[field] = max(scores[field], 50)
 
     return scores
 

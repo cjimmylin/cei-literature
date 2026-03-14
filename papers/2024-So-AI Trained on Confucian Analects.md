@@ -32,6 +32,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_SO2024
@@ -87,6 +88,8 @@ ethics_overall: 100
 virtue_ethics: 85
 deontological_ethics: 50
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 5
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

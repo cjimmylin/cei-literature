@@ -32,6 +32,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Role Playing Personas"
@@ -87,9 +88,11 @@ LLM_assessed: "Baichuan, ChatGLM, GPT-3.5, GPT-4, InternLM, Qwen"
 DATA_URL: "https://github.com/morecry/CharacterEval"
 CONFERENCE: "Journal"
 ethics_overall: 0
-virtue_ethics: 5
+virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"

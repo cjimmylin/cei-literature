@@ -26,6 +26,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Virtue ethics"
@@ -81,9 +82,11 @@ pdf_extract: "PDF Extracts/2025/2025-Elder-The Ethics of Digital Ghosts.md"
 local_pdf: "[[PDFs/2025/2025-Elder-The Ethics of Digital Ghosts.pdf]]"
 CONFERENCE: "Unknown"
 ethics_overall: 20
-virtue_ethics: 60
+virtue_ethics: 75
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 5
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

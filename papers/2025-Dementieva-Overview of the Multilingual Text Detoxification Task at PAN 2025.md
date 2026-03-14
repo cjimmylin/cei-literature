@@ -36,6 +36,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,13 +94,15 @@ ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "Machine Translation"
 is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "15 languages"
-ethics_perspective: "General Ethics"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Overview of the Multilingual Text Detoxification Task at PAN 2025
 

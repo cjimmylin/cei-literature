@@ -29,6 +29,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -85,9 +86,11 @@ LLM_assessed: "GPT-2, GPT-3, ChatGPT, ChatGLM"
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: 80
-virtue_ethics: 0
+virtue_ethics: 35
 deontological_ethics: 50
 utilitarian_ethics: 50
+contractarian_ethics: 50
+care_ethics: 5
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"

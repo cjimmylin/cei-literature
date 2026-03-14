@@ -34,6 +34,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,12 +94,14 @@ ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "Machine Ethics"
 ---
 # The Moral Foundations Weibo Corpus
 

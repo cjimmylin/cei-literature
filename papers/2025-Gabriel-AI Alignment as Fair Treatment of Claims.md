@@ -35,6 +35,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,7 +93,9 @@ CONFERENCE: "Journal"
 ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
-utilitarian_ethics: 15
+utilitarian_ethics: 50
+contractarian_ethics: 50
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

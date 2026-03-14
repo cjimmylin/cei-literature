@@ -32,6 +32,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -87,15 +89,17 @@ LLM_assessed: "Claude-3 Sonnet, Gemini, GPT-4, Llama-3, Mistral, Mixtral, Qwen"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
 ethics_overall: 100
-virtue_ethics: 5
+virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 25
+contractarian_ethics: 0
+care_ethics: 5
 is_benchmark: No
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "General Ethics"
 ---
  The Moral Mind(s) of Large Language Models
 

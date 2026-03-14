@@ -27,6 +27,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics robot inner speak with human"
@@ -83,6 +84,8 @@ ethics_overall: 90
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 25
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

@@ -36,6 +36,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -91,12 +93,14 @@ ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-ethics_perspective: "Toxicity & Hate Speech"
+ethics_perspective: "Responsible AI"
 ---
 # MUST: An Explainable AI-Based Framework for Multilingual Hate Speech Detection | IEEE Journals & Magazine | IEEE Xplore
 

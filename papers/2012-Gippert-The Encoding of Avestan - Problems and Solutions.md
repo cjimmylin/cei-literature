@@ -33,6 +33,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -86,9 +87,11 @@ tags:
 abstract: "Addresses the challenges of digital encoding of the Avestan script used for Zoroastrian sacred texts. Discusses the TITUS database as one of the first electronic corpus-building efforts for Avestan, and the problems of character encoding, right-to-left script processing, and Unicode representation for computational processing of Avestan texts."
 CONFERENCE: "Journal"
 ethics_overall: 0
-virtue_ethics: 5
+virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "Other"
 is_benchmark: "No"
 is_eval: "No"

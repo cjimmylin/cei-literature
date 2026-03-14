@@ -29,6 +29,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Flourishing AI Benchmark, virtue"
@@ -88,6 +89,8 @@ ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 35
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"

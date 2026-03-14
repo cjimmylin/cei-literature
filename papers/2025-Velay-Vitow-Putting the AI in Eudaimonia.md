@@ -27,6 +27,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Human flourishing in AI"
@@ -83,6 +84,8 @@ ethics_overall: 0
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 5
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

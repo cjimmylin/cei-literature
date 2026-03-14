@@ -28,6 +28,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -86,15 +88,17 @@ DATA_URL: "https://github.com/MuMu-Lily/Moral-Beliefs"
 normative_ethics_benchmark: Yes
 CONFERENCE: "EMNLP 2024"
 ethics_overall: 95
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 45
 utilitarian_ethics: 0
+contractarian_ethics: 5
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-ethics_perspective: "Bias & Fairness"
+ethics_perspective: "General Ethics"
 ---
  Evaluating Moral Beliefs across LLMs through a Pluralistic Framework
 

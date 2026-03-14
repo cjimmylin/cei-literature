@@ -34,6 +34,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -88,8 +89,10 @@ DATA_URL: "https://visual-ai.github.io/gamebot"
 CONFERENCE: "ACL 2025"
 ethics_overall: 0
 virtue_ethics: 0
-deontological_ethics: 5
+deontological_ethics: 25
 utilitarian_ethics: 5
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "Interpretability & Explainability"
 is_benchmark: "Yes"
 is_eval: "Yes"

@@ -37,6 +37,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -93,12 +95,14 @@ ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 5
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_perspective: "Bias & Fairness"
 ---
 # MIST: Moral Inference through Storytelling with Text and Images
 

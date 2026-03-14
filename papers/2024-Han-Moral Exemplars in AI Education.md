@@ -28,6 +28,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_HAN2024
@@ -80,9 +81,11 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 CONFERENCE: "Journal"
 ethics_overall: 100
-virtue_ethics: 0
+virtue_ethics: 70
 deontological_ethics: 5
 utilitarian_ethics: 10
+contractarian_ethics: 5
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

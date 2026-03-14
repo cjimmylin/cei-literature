@@ -34,6 +34,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -94,12 +96,14 @@ ethics_overall: 80
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations
 

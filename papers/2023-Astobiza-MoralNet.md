@@ -35,6 +35,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -93,6 +94,8 @@ ethics_overall: 100
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 ethics_perspective: "Machine Ethics"
 is_benchmark: "Yes"
 is_eval: No

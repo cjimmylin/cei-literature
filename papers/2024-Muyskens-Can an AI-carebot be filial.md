@@ -26,6 +26,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Confuscian Virtue Ethics"
@@ -82,6 +83,8 @@ ethics_overall: 30
 virtue_ethics: 60
 deontological_ethics: 5
 utilitarian_ethics: 5
+contractarian_ethics: 0
+care_ethics: 5
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

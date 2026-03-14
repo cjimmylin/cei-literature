@@ -14,6 +14,8 @@
 
 
 
+
+
 key: HELM0001
 type: document
 short_title: "SimpleSafetyTests"
@@ -67,6 +69,8 @@ ethics_overall: 60
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
@@ -74,5 +78,5 @@ LLM_assessed: "Mistral, Llama-2, Falcon, Claude, Cohere"
 DATA_URL: "https://github.com/bertiev/SimpleSafetyTests"
 data_description: "100 handcrafted test prompts across 5 harm areas (child abuse, suicide/self-harm/eating disorders, physical harm, illegal items, scams/fraud); 3,000 annotated model responses from 15 LLMs"
 data_metrics: "100 prompts, 15 LLMs evaluated, 3000 labeled responses, 5 safety filters assessed"
-ethics_perspective: "General Ethics"
+ethics_perspective: "AI Safety & Alignment"
 ---

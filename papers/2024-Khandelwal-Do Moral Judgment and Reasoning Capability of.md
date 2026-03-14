@@ -35,6 +35,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,9 +94,11 @@ LLM_assessed: "ChatGPT, GPT-4, Llama-2"
 DATA_URL: "NA"
 CONFERENCE: "EACL 2024"
 ethics_overall: 100
-virtue_ethics: 0
+virtue_ethics: 30
 deontological_ethics: 5
 utilitarian_ethics: 15
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"

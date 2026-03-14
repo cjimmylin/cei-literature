@@ -35,6 +35,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -93,12 +95,14 @@ ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "Social & Cultural Values"
 ---
 # ELAB: Extensive LLM Alignment Benchmark in Persian Language
 

@@ -34,6 +34,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_OBER2024
@@ -87,9 +88,11 @@ publication: Oxford Institute for Ethics in AI
 CONF-CC: "N/A"
 CONFERENCE: "Preprint"
 ethics_overall: 95
-virtue_ethics: 90
+virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 ethics_perspective: "Machine Ethics"
 is_benchmark: "No"
 is_eval: "No"

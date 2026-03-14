@@ -30,6 +30,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -84,9 +85,11 @@ abstract: "Here are the web search results for \"transliterated text LLM evaluat
 research_topic: "Other"
 CONFERENCE: "Other Conference"
 ethics_overall: 15
-virtue_ethics: 5
+virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"

@@ -29,6 +29,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Ethics up front, not post hoc"
@@ -87,12 +89,14 @@ ethics_overall: 95
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 5
+contractarian_ethics: 0
+care_ethics: 5
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "General Ethics"
 ---
  Morality in AI. A plea to embed morality in LLM architectures and frameworks
 

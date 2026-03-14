@@ -36,6 +36,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -94,12 +96,14 @@ ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
-ethics_perspective: "Toxicity & Hate Speech"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # Towards Safer AI Moderation: Evaluating LLM Moderators Through a Unified Benchmark Dataset and Advocating a Human-First Approach
 

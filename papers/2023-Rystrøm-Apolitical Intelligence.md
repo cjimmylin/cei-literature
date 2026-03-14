@@ -36,6 +36,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -96,12 +98,14 @@ ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 15
+care_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "Bias & Fairness"
 ---
 # Apolitical Intelligence? Auditing Delphi's responses on controversial political issues in the US
 

@@ -38,6 +38,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -95,13 +97,15 @@ ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "Machine Learning"
 is_benchmark: No
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-ethics_perspective: "General Ethics"
+ethics_perspective: "Bias & Fairness"
 ---
 # Antisemitic Messages? A Guide to High-Quality Annotation and a Labeled Dataset of Tweets
 

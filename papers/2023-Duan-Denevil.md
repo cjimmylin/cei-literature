@@ -36,6 +36,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -96,12 +98,14 @@ ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "2,397 prompts"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "Bias & Fairness"
 ---
 # Denevil: Towards Deciphering and Navigating the Ethical Values of Large Language Models via Instruction Learning
 

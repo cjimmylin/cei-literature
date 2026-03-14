@@ -36,6 +36,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -96,12 +98,14 @@ ethics_overall: 100
 virtue_ethics: 5
 deontological_ethics: 15
 utilitarian_ethics: 5
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "Machine Ethics"
 ---
 # STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models
 

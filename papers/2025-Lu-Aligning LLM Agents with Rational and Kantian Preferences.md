@@ -29,6 +29,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -88,8 +89,10 @@ normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"
 ethics_overall: 30
 virtue_ethics: 0
-deontological_ethics: 50
+deontological_ethics: 65
 utilitarian_ethics: 80
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: No

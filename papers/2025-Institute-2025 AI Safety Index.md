@@ -36,6 +36,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -90,9 +92,11 @@ pdf_extract: "PDF Extracts/2025/2025-Institute-2025 AI Safety Index.md"
 local_pdf: "[[PDFs/2025/2025-Institute-2025 AI Safety Index.pdf]]"
 CONFERENCE: "Unknown"
 ethics_overall: 100
-virtue_ethics: 5
+virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: No
 is_dataset: "No"

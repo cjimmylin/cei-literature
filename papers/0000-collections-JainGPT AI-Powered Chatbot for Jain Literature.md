@@ -31,6 +31,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -89,6 +90,8 @@ ethics_overall: 30
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: No
 is_eval: No
 is_dataset: No

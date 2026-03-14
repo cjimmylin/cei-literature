@@ -30,6 +30,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -87,9 +89,11 @@ DATA_URL: "https://github.com/baixianghuang/behavior-edit"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
 ethics_overall: 90
-virtue_ethics: 5
+virtue_ethics: 15
 deontological_ethics: 15
 utilitarian_ethics: 5
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"

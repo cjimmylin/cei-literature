@@ -33,6 +33,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -90,6 +91,8 @@ ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50
+contractarian_ethics: 0
+care_ethics: 0
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
 is_eval: Yes

@@ -34,6 +34,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,12 +94,14 @@ ethics_overall: 100
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-ethics_perspective: "Responsible AI"
+ethics_perspective: "Machine Ethics"
 ---
 # Ethics of AI in Africa: Interrogating the role of Ubuntu and AI governance initiatives
 

@@ -28,6 +28,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -83,9 +84,11 @@ pdf_extract: "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language
 local_pdf: "[[PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 15
-virtue_ethics: 5
+virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: No

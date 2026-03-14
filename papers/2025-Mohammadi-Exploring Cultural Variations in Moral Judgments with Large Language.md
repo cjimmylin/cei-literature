@@ -36,6 +36,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,12 +94,14 @@ ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
-ethics_perspective: "Social & Cultural Values"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Exploring Cultural Variations in Moral Judgments with Large Language Models
 

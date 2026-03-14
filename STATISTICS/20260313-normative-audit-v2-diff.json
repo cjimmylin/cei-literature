@@ -1,0 +1,256 @@
+{
+  "summary": {
+    "total_field_changes": 72,
+    "papers_with_changes": 70,
+    "newly_above_50": 7,
+    "newly_below_50": 0,
+    "large_changes_gt20": 10,
+    "care_ethics_detected": 14,
+    "contractarian_ethics_detected": 17
+  },
+  "newly_above_50": [
+    {
+      "filename": "2023-Deng-Probing the Moral Development of Large Language.md",
+      "field": "virtue_ethics",
+      "old": 0,
+      "new": 95
+    },
+    {
+      "filename": "2024-Han-Moral Exemplars in AI Education.md",
+      "field": "virtue_ethics",
+      "old": 0,
+      "new": 70
+    },
+    {
+      "filename": "2025-Gabriel-AI Alignment as Fair Treatment of Claims.md",
+      "field": "utilitarian_ethics",
+      "old": 15,
+      "new": 50
+    },
+    {
+      "filename": "2025-Laukkonen-Contemplative Artificial Intelligence.md",
+      "field": "virtue_ethics",
+      "old": 30,
+      "new": 60
+    },
+    {
+      "filename": "2025-Lim-How Do Users Identify and Perceive Stereotypes Understanding User.md",
+      "field": "ethics_overall",
+      "old": 35,
+      "new": 80
+    },
+    {
+      "filename": "2025-Unknown-New report and guidelines for indigenous data sovereignty in.md",
+      "field": "ethics_overall",
+      "old": 35,
+      "new": 50
+    },
+    {
+      "filename": "2025-Xiang-Diagnosing the bias iceberg in large language models A three-level.md",
+      "field": "ethics_overall",
+      "old": 35,
+      "new": 50
+    }
+  ],
+  "newly_below_50": [],
+  "large_changes": [
+    {
+      "filename": "2023-Deng-Probing the Moral Development of Large Language.md",
+      "field": "virtue_ethics",
+      "old": 0,
+      "new": 95,
+      "delta": 95
+    },
+    {
+      "filename": "2024-Han-Moral Exemplars in AI Education.md",
+      "field": "virtue_ethics",
+      "old": 0,
+      "new": 70,
+      "delta": 70
+    },
+    {
+      "filename": "2025-Lim-How Do Users Identify and Perceive Stereotypes Understanding User.md",
+      "field": "ethics_overall",
+      "old": 35,
+      "new": 80,
+      "delta": 45
+    },
+    {
+      "filename": "2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+      "field": "virtue_ethics",
+      "old": 0,
+      "new": 35,
+      "delta": 35
+    },
+    {
+      "filename": "2025-Gabriel-AI Alignment as Fair Treatment of Claims.md",
+      "field": "utilitarian_ethics",
+      "old": 15,
+      "new": 50,
+      "delta": 35
+    },
+    {
+      "filename": "2018-Rudinger-Gender Bias in Coreference Resolution.md",
+      "field": "ethics_overall",
+      "old": 50,
+      "new": 80,
+      "delta": 30
+    },
+    {
+      "filename": "2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md",
+      "field": "virtue_ethics",
+      "old": 0,
+      "new": 30,
+      "delta": 30
+    },
+    {
+      "filename": "2024-Khandelwal-Multilingual Defining Issues Test.md",
+      "field": "virtue_ethics",
+      "old": 0,
+      "new": 30,
+      "delta": 30
+    },
+    {
+      "filename": "2025-Flores-BenchMoral.md",
+      "field": "utilitarian_ethics",
+      "old": 0,
+      "new": 30,
+      "delta": 30
+    },
+    {
+      "filename": "2025-Laukkonen-Contemplative Artificial Intelligence.md",
+      "field": "virtue_ethics",
+      "old": 30,
+      "new": 60,
+      "delta": 30
+    }
+  ],
+  "care_ethics_detected": [
+    {
+      "filename": "2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md",
+      "score": 100
+    },
+    {
+      "filename": "2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md",
+      "score": 100
+    },
+    {
+      "filename": "2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal.md",
+      "score": 100
+    },
+    {
+      "filename": "2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without.md",
+      "score": 100
+    },
+    {
+      "filename": "2025-El Masri-Towards Attuned AI.md",
+      "score": 100
+    },
+    {
+      "filename": "2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+      "score": 100
+    },
+    {
+      "filename": "2025-Ogunremi-1 Decolonizing NLP for \u201cLow-resource Languages\u201d.md",
+      "score": 100
+    },
+    {
+      "filename": "2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.md",
+      "score": 100
+    },
+    {
+      "filename": "2025-Dubey-Addressing Moral Uncertainty using Large Language.md",
+      "score": 95
+    },
+    {
+      "filename": "2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.md",
+      "score": 95
+    },
+    {
+      "filename": "2025-Steen-Ethical aspects of ChatGPT.md",
+      "score": 70
+    },
+    {
+      "filename": "2025-Chakraborty-Structured Moral Reasoning.md",
+      "score": 60
+    },
+    {
+      "filename": "2025-Aditya-Toward global ethical frameworks for AI.md",
+      "score": 50
+    },
+    {
+      "filename": "2025-Atf-Kantian-Utilitarian XAI.md",
+      "score": 50
+    }
+  ],
+  "contractarian_ethics_detected": [
+    {
+      "filename": "2024-Moore-Intuitions of Compromise.md",
+      "score": 100
+    },
+    {
+      "filename": "2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.md",
+      "score": 100
+    },
+    {
+      "filename": "2025-Chiu-MoReBench.md",
+      "score": 60
+    },
+    {
+      "filename": "2023-Boddington-Normative Ethical Theory AI Ethics.md",
+      "score": 50
+    },
+    {
+      "filename": "2023-Ji-Commonsense Norm Bank.md",
+      "score": 50
+    },
+    {
+      "filename": "2023-Mougan-Kantian Deontology Meets AI Alignment.md",
+      "score": 50
+    },
+    {
+      "filename": "2024-DAlessandro-Deontology and Safe Artificial Intelligence.md",
+      "score": 50
+    },
+    {
+      "filename": "2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.md",
+      "score": 50
+    },
+    {
+      "filename": "2024-Jang-Cross-Linguistic Moral Preferences in Large Language Models Evidence.md",
+      "score": 50
+    },
+    {
+      "filename": "2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+      "score": 50
+    },
+    {
+      "filename": "2025-Chakraborty-Structured Moral Reasoning.md",
+      "score": 50
+    },
+    {
+      "filename": "2025-Gabriel-AI Alignment as Fair Treatment of Claims.md",
+      "score": 50
+    },
+    {
+      "filename": "2025-G\u00f6\u00e7en-Teachers vs. large language models ethical decision-making across.md",
+      "score": 50
+    },
+    {
+      "filename": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+      "score": 50
+    },
+    {
+      "filename": "2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md",
+      "score": 50
+    },
+    {
+      "filename": "2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md",
+      "score": 50
+    },
+    {
+      "filename": "2025-Sullins-Automated Ethical Practical Reasoning.md",
+      "score": 50
+    }
+  ]
+}

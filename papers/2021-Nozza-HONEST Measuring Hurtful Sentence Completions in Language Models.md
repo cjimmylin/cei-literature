@@ -14,6 +14,8 @@
 
 
 
+
+
 key: HELM0002
 type: conferencePaper
 short_title: "HONEST"
@@ -66,6 +68,8 @@ ethics_overall: 90
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
@@ -73,5 +77,5 @@ LLM_assessed: "BERT, GPT-2"
 DATA_URL: "https://github.com/MilaNLProc/honest"
 data_description: "Manually-created cloze sentence templates for six languages (English, Italian, French, Portuguese, Romanian, Spanish) paired with a hurtful-word lexicon to measure gendered stereotype bias in BERT and GPT-2 completions"
 data_metrics: "HONEST score (proportion of hurtful sentence completions per language model)"
-ethics_perspective: "General Ethics"
+ethics_perspective: "AI Safety & Alignment"
 ---

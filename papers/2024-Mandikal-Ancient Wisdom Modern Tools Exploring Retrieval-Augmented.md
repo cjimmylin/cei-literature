@@ -36,6 +36,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -90,9 +91,11 @@ LLM_assessed: "GPT-4, Mixtral"
 DATA_URL: "https://github.com/priyankamandikal/vedantany-10m"
 CONFERENCE: "ACL 2024"
 ethics_overall: 0
-virtue_ethics: 5
+virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "Question Answering"
 is_benchmark: "Yes"
 is_eval: Yes

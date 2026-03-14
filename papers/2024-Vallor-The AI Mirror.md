@@ -28,6 +28,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics book"
@@ -85,6 +86,8 @@ ethics_overall: 0
 virtue_ethics: 15
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 5
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

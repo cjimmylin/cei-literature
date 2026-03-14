@@ -35,6 +35,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -89,9 +90,11 @@ DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"
 ethics_overall: 65
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50
+contractarian_ethics: 0
+care_ethics: 0
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: No
 is_eval: "Yes"

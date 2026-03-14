@@ -34,6 +34,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -91,12 +93,14 @@ ethics_overall: 80
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_perspective: "General Ethics"
 ---
 # On the Pros and Cons of Active Learning for Moral Preference Elicitation
 

@@ -30,6 +30,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -83,9 +84,11 @@ LLM_assessed: "GPT-4o"
 DATA_URL: NA
 CONFERENCE: "Journal"
 ethics_overall: 15
-virtue_ethics: 30
+virtue_ethics: 60
 deontological_ethics: 0
 utilitarian_ethics: 10
+contractarian_ethics: 0
+care_ethics: 10
 is_benchmark: No
 is_eval: Yes
 is_dataset: "No"

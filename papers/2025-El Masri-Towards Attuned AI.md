@@ -28,6 +28,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -82,9 +83,11 @@ LLM_assessed: "NA"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: 100
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 65
+contractarian_ethics: 0
+care_ethics: 100
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

@@ -27,6 +27,7 @@
 
 
 
+
 Human View: Yes
 Human View Date: 2026/1/24
 Human View note: "Police use of moral reasoning"
@@ -85,6 +86,8 @@ ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 100
 utilitarian_ethics: 100
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

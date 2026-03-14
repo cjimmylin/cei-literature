@@ -33,6 +33,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -86,9 +87,11 @@ tags:
 abstract: "Large Language Models (LLMs) exhibit significant performance variations depending on the linguistic and cultural context in which they are applied. This disparity signals the necessity of mature evaluation frameworks that can assess their capabilities in specific regional settings. In the case of Portuguese, existing evaluations remain limited, often relying on translated datasets that may not fully capture linguistic nuances or cultural references."
 CONFERENCE: "Journal"
 ethics_overall: 15
-virtue_ethics: 5
+virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "Social & Cultural Analysis"
 is_benchmark: Yes
 is_eval: "Yes"

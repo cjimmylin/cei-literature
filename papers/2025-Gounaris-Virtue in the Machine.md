@@ -26,6 +26,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Virtue ethics certification"
@@ -83,6 +84,8 @@ ethics_overall: 75
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

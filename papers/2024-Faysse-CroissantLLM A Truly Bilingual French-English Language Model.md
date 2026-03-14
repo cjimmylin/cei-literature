@@ -34,6 +34,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,12 +94,14 @@ ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-ethics_perspective: "Social & Cultural Values"
+ethics_perspective: "General Ethics"
 ---
 # CroissantLLM: A Truly Bilingual French-English Language Model
 

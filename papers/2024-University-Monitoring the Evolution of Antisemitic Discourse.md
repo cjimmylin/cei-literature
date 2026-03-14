@@ -37,6 +37,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -94,13 +96,15 @@ ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-ethics_perspective: "General Ethics"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Monitoring the Evolution of Antisemitic Discourse on Extremist Social Media Using BERT
 

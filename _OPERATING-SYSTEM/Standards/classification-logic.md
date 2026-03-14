@@ -20,7 +20,7 @@ The optimal order minimizes re-processing - each stage filters input for the nex
 ```
 Stage 1: Ethics Overall (Broad filter)
     ↓
-Stage 2: Ethics Frameworks (Virtue/Deontological/Utilitarian)
+Stage 2: Ethics Frameworks (Virtue/Deontological/Utilitarian/Care/Contractarian)
     ↓
 Stage 3: Ethics Perspective (If overall=Yes BUT no framework)
     ↓
@@ -40,18 +40,33 @@ Stage 7: Data Nature (Benchmark/Eval/Dataset)
 ## Stage 1: Ethics Overall
 
 ### Field
-`ethics_overall`: Yes/No
+`ethics_overall`: Integer 0-100 (>= 50 = ethics-relevant)
 
 ### Purpose
-Broad filter to identify papers with any ethical dimension.
+Broad filter to identify papers with any ethical dimension, with confidence scoring.
 
 ### Script
-`PYTHON/classify_ethics.py`
+`PYTHON/classify_ethics.py` (calls `PYTHON/ethics_scoring.py`)
+
+### Scoring Algorithm
+
+The scoring system replaced the binary Yes/No with a weighted confidence score:
+
+```
+score = strong_matches x 15 + medium_matches x 5 - fp_context x 10 + title_bonus(20)
+```
+
+- **strong_matches**: High-confidence ethics keywords (e.g., "ethical", "morality", "deontological")
+- **medium_matches**: Moderate-confidence keywords (e.g., "fairness", "bias", "alignment")
+- **fp_context**: False-positive contextual penalties (e.g., "bias" in purely statistical context)
+- **title_bonus(20)**: +20 if ethics keywords appear in title (stronger signal than abstract)
+- **Threshold**: >= 50 classified as ethics-relevant (equivalent to old "Yes")
+- **Canonical keyword lists**: Defined in `PYTHON/ethics_scoring.py`
 
 ### Detection Logic
-Keyword matching on abstracts and titles.
+Weighted keyword matching on abstracts and titles.
 
-**Trigger Keywords:**
+**Trigger Keywords** (see `PYTHON/ethics_scoring.py` for canonical, weighted lists):
 - ethics, ethical, moral, morality, morally
 - value, values, fairness, unfairness
 - harm, harmful, harmlessness, safety (when combined with "AI" or "model")
@@ -90,12 +105,14 @@ Keyword matching on abstracts and titles.
 ## Stage 2: Ethics Frameworks
 
 ### Fields
-- `virtue_ethics`: Yes/No
-- `deontological_ethics`: Yes/No
-- `utilitarian_ethics`: Yes/No
+- `virtue_ethics`: Integer 0-100 (>= 50 = framework detected)
+- `deontological_ethics`: Integer 0-100 (>= 50 = framework detected)
+- `utilitarian_ethics`: Integer 0-100 (>= 50 = framework detected)
+- `care_ethics`: Integer 0-100 (>= 50 = framework detected)
+- `contractarian_ethics`: Integer 0-100 (>= 50 = framework detected)
 
 ### Purpose
-Identify papers grounded in specific philosophical frameworks.
+Identify papers grounded in specific philosophical frameworks (5 normative frameworks).
 
 ### Script
 `PYTHON/classify_ethics.py` (same script, multiple fields)
@@ -139,6 +156,32 @@ Identify papers grounded in specific philosophical frameworks.
 - "Consequentialist approaches to AI alignment"
 - "Maximizing welfare in multi-agent systems"
 
+#### Care Ethics
+**Keywords:**
+- care ethics, ethics of care
+- feminist ethics, relational ethics
+- gilligan, noddings, held, slote
+- empathy, caregiving, compassion
+- interdependence, vulnerability
+- caring relationship, care-based
+
+**Examples:**
+- "An ethics of care approach to AI caregiving robots"
+- "Gilligan's relational ethics in algorithmic decision-making"
+
+#### Contractarian Ethics
+**Keywords:**
+- social contract, contractarianism, contractualism
+- rawls, rawlsian, scanlon
+- veil of ignorance, original position
+- justice as fairness, distributive justice
+- maximin, difference principle
+- reasonable agreement, moral contract
+
+**Examples:**
+- "Rawlsian fairness in machine learning classifiers"
+- "A social contract theory for AI governance"
+
 ### Framework Disambiguation
 
 **When a paper mentions multiple frameworks:**
@@ -175,8 +218,8 @@ For papers with framework tags, add:
 
 ### Scope
 Applied **ONLY** to papers where:
-- `ethics_overall: "Yes"` AND
-- No specific framework detected (all three frameworks are "No")
+- `ethics_overall` >= 50 (ethics-relevant) AND
+- No specific framework detected (all five framework scores < 50)
 
 ### Purpose
 Categorize ethical papers that don't fit traditional philosophical frameworks.
@@ -232,7 +275,7 @@ Keyword matching on abstracts and titles, category-specific.
 `research_topic`: String (category name)
 
 ### Scope
-Applied **ONLY** to papers where `ethics_overall: "No"`
+Applied **ONLY** to papers where `ethics_overall` < 50 (not ethics-relevant)
 
 ### Purpose
 Categorize non-ethical papers by technical domain.
@@ -317,19 +360,56 @@ Applied to **ALL** papers (regardless of ethics_overall)
 
 ### Religious Values
 
-**Categories:**
-- Islam, Christianity, Buddhism, Judaism, Hinduism
-- Sikhism, Jainism, Confucianism, Taoism
-- And others...
+#### Fields
+- `rv_islam`: Integer 0-100 (Islam)
+- `rv_christianity`: Integer 0-100 (Christianity)
+- `rv_buddhism`: Integer 0-100 (Buddhism)
+- `rv_judaism`: Integer 0-100 (Judaism)
+- `rv_hinduism`: Integer 0-100 (Hinduism)
+- `rv_sikhism`: Integer 0-100 (Sikhism)
+- `rv_confucianism`: Integer 0-100 (Confucianism)
+- `rv_taoism`: Integer 0-100 (Taoism)
+- `rv_shinto`: Integer 0-100 (Shinto)
+- `rv_jainism`: Integer 0-100 (Jainism)
+- `rv_bahai`: Integer 0-100 (Baha'i Faith)
+- `rv_zoroastrianism`: Integer 0-100 (Zoroastrianism)
+- `rv_ubuntu`: Integer 0-100 (Ubuntu)
+- `rv_indigenous`: Integer 0-100 (Indigenous traditions)
+- `religious_values`: String/List (derived display — lists traditions with score >= 50)
+
+#### Scoring Algorithm
+
+Uses the same weighted formula as ethics and moral psychology scoring:
+
+```
+score = strong_matches x 15 + medium_matches x 5 - fp_context x 10 + title_bonus(20)
+```
+
+- **strong_matches**: High-confidence tradition-specific keywords (e.g., "Islamic ethics", "Quran", "Buddhist")
+- **medium_matches**: Moderate-confidence keywords (e.g., "halal", "dharma", "karma")
+- **fp_context**: False-positive contextual penalties for generic terms
+- **title_bonus(20)**: +20 if tradition keywords appear in title
+- **Strong-floor**: Any strong match guarantees minimum score of 50
+- **Threshold**: >= 50 classified as tradition detected
+- **Clamped**: [0, 100]
+- **Canonical keyword lists**: Defined in `PYTHON/religious_values_scoring.py`
+
+#### Derived `religious_values` Field
+
+The `religious_values` field is now **derived** from rv_* scores, not directly classified. After scoring all 14 traditions, any tradition with score >= 50 is included:
+
+- 0 traditions >= 50: `religious_values: N/A`
+- 1 tradition >= 50: `religious_values: "Islam"`
+- 2+ traditions >= 50: `religious_values:\n  - Buddhism\n  - Taoism`
 
 **Detection Logic:**
 - Keyword matching on titles and abstracts
 - Explicit mentions of religious texts, concepts, values
 
 **Examples:**
-- "Islamic ethics in AI governance" → Islam
-- "Christian virtue in autonomous systems" → Christianity
-- "GurbaniDB: Sikh scripture dataset" → Sikhism
+- "Islamic ethics in AI governance" → `rv_islam: 72`
+- "Christian virtue in autonomous systems" → `rv_christianity: 65`
+- "GurbaniDB: Sikh scripture dataset" → `rv_sikhism: 55`
 
 ### Format
 
@@ -337,6 +417,20 @@ Applied to **ALL** papers (regardless of ethics_overall)
 ```yaml
 national_ethnic_cultural: "Chinese"
 religious_values: "Islam"
+rv_islam: 72
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 ```
 
 **Multiple Values:**
@@ -347,59 +441,114 @@ national_ethnic_cultural:
 religious_values:
   - Buddhism
   - Taoism
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 65
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 55
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 ```
 
 ---
 
 ## Stage 6: Moral Psychology
 
-### Field
-`moral_psychology`: String/List
+### Fields
+- `mp_mft`: Integer 0-100 (Moral Foundations Theory)
+- `mp_schwartz`: Integer 0-100 (Value Pluralism / Schwartz)
+- `mp_trolley`: Integer 0-100 (Trolley / Dilemmas)
+- `mp_kohlberg`: Integer 0-100 (Cognitive Developmental)
+- `mp_dual_process`: Integer 0-100 (Dual Process Theory)
+- `mp_intuitionist`: Integer 0-100 (Social Intuitionist Model)
+- `mp_dyadic`: Integer 0-100 (Dyadic Morality)
+- `mp_identity`: Integer 0-100 (Moral Identity)
+- `moral_psychology`: String (derived display — lists theories with score >= 50)
 
 ### Script
-`PYTHON/classify_moral_psych.py`
+`PYTHON/classify_moral_psych.py` (calls `PYTHON/moral_psych_scoring.py`)
 
 ### Scope
 Applied to **ALL** papers
 
+### Scoring Algorithm
+
+Uses the same weighted formula as ethics scoring:
+
+```
+score = strong_matches x 15 + medium_matches x 5 - fp_context x 10 + title_bonus(20)
+```
+
+- **strong_matches**: High-confidence theory-specific keywords (e.g., "moral foundations", "Haidt", "trolley problem")
+- **medium_matches**: Moderate-confidence keywords (e.g., "care/harm", "moral dilemma")
+- **fp_context**: False-positive contextual penalties for generic terms
+- **title_bonus(20)**: +20 if theory keywords appear in title
+- **Threshold**: >= 50 classified as theory detected
+- **Canonical keyword lists**: Defined in `PYTHON/moral_psych_scoring.py`
+
+### Per-Theory Keyword Tiers (Summary)
+
+Full keyword lists are in `PYTHON/moral_psych_scoring.py`. Brief summary:
+
+| Theory | Strong Keywords | Medium Keywords | FP-Prone Terms |
+|--------|----------------|-----------------|----------------|
+| MFT (`mp_mft`) | moral foundations, MFT, Haidt | care/harm, loyalty/betrayal, sanctity | fairness (generic) |
+| Schwartz (`mp_schwartz`) | Schwartz values, value survey | Achievement, Power, Security | Achievement (generic), Power (generic), Security (generic) |
+| Trolley (`mp_trolley`) | trolley problem, trolley dilemma | moral dilemma, ethical dilemma | dilemma (generic) |
+| Kohlberg (`mp_kohlberg`) | Kohlberg, moral development stages | pre-conventional, post-conventional | development (generic) |
+| Dual Process (`mp_dual_process`) | dual process, Greene (moral context) | System 1, System 2 (moral context) | system (generic) |
+| Intuitionist (`mp_intuitionist`) | social intuitionist, moral intuition | gut feeling, automatic judgment | intuition (generic) |
+| Dyadic (`mp_dyadic`) | dyadic morality, moral dyad, Gray | agent-patient, harm-based | agent (generic) |
+| Identity (`mp_identity`) | moral identity, moral self | moral centrality, moral commitment | identity (generic) |
+
+### Why FP Handling Is Critical
+
+Many moral psychology terms are generic English words that appear frequently in non-psychology contexts:
+- **"Achievement"**, **"Power"**, **"Security"** (Schwartz values) appear in ML performance papers
+- **"Agent"** (Dyadic) appears in RL/multi-agent systems papers
+- **"Identity"** appears in NLP identity-related papers unrelated to moral identity
+- **"System"** appears ubiquitously in CS papers
+
+Without FP penalties, these generic terms would cause massive over-classification. The `fp_context` deduction ensures that papers using these words in non-psychological contexts receive lower scores.
+
+### Derived `moral_psychology` String
+
+The `moral_psychology` field is now **derived** from mp_* scores, not directly classified. After scoring all 8 theories, any theory with score >= 50 is included in the display string:
+
+- 0 theories >= 50: `moral_psychology: N/A`
+- 1 theory >= 50: `moral_psychology: "Moral Foundations Theory"`
+- 2+ theories >= 50: `moral_psychology: "Moral Foundations Theory, Dual Process Theory"`
+
 ### Categories (Psychological Schools/Theories)
 
-1. **Moral Foundations Theory** - Haidt/Graham (Care, Fairness, Loyalty, Authority, Sanctity)
-2. **Dual Process Theory** - Greene (emotional vs. rational moral judgment)
-3. **Value Pluralism / Schwartz Values** - Schwartz's 10 basic values
-4. **Cognitive Developmental** - Kohlberg/Piaget stages of moral development
-5. **Dyadic Morality** - Gray (moral dyad: agent & patient)
-6. **Trolley / Dilemmas** - Trolley problems as methodology
-
-### Detection Logic
-
-**Keyword Examples:**
-
-**Moral Foundations Theory:**
-- moral foundations, MFT, Haidt
-- care/harm, fairness/cheating, loyalty/betrayal
-- authority/subversion, sanctity/degradation
-
-**Dual Process Theory:**
-- dual process, Greene, emotional vs rational
-- system 1 vs system 2 (in moral context)
-
-**Trolley / Dilemmas:**
-- trolley problem, trolley dilemma
-- moral dilemma, ethical dilemma
+1. **Moral Foundations Theory** (`mp_mft`) - Haidt/Graham (Care, Fairness, Loyalty, Authority, Sanctity)
+2. **Value Pluralism / Schwartz** (`mp_schwartz`) - Schwartz's 10 basic values
+3. **Trolley / Dilemmas** (`mp_trolley`) - Trolley problems as methodology
+4. **Cognitive Developmental** (`mp_kohlberg`) - Kohlberg/Piaget stages of moral development
+5. **Dual Process Theory** (`mp_dual_process`) - Greene (emotional vs. rational moral judgment)
+6. **Social Intuitionist Model** (`mp_intuitionist`) - Haidt's intuitionist approach
+7. **Dyadic Morality** (`mp_dyadic`) - Gray (moral dyad: agent & patient)
+8. **Moral Identity** (`mp_identity`) - Moral self-concept and centrality
 
 ### Format
 
-**Single Theory:**
 ```yaml
+mp_mft: 72
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "Moral Foundations Theory"
-```
-
-**Multiple Theories:**
-```yaml
-moral_psychology:
-  - Moral Foundations Theory
-  - Dual Process Theory
 ```
 
 ---
@@ -522,7 +671,7 @@ data_metrics: "817 questions, 6 tasks, 38 categories"
 Aggregates all classification features into searchable tag string.
 
 ### Sources (Priority Order)
-1. Ethical Frameworks ("Virtue Ethics", "Deontology", "Utilitarianism")
+1. Ethical Frameworks ("Virtue Ethics", "Deontology", "Utilitarianism", "Care Ethics", "Contractarian Ethics")
 2. Ethics Perspective (e.g., "AI Safety & Alignment", "Bias & Fairness")
 3. Research Topic (e.g., "Machine Learning", "NLP")
 4. Cultural Values (e.g., "Chinese", "Ubuntu")
@@ -653,3 +802,7 @@ python3 PYTHON/validate_all_papers.py
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | 2026-02-02 | Initial standard (extracted from LLM_CONTEXT.md) |
+| 1.1 | 2026-03-13 | Ethics scoring: binary Yes/No replaced with 0-100 integer confidence scores |
+| 1.2 | 2026-03-13 | Moral psychology scoring: 8 mp_* fields (0-100) replace direct classification; moral_psychology now derived |
+| 1.3 | 2026-03-13 | Religious values scoring: 14 rv_* fields (0-100); religious_values now derived from scores |
+| 1.4 | 2026-03-13 | Normative ethics expanded from 3 to 5 frameworks: added care_ethics and contractarian_ethics |

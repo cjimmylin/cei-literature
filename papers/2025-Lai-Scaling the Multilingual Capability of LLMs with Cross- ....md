@@ -35,6 +35,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -90,8 +91,10 @@ abstract: "To democratize large language models (LLMs) to most natural languages
 CONFERENCE: "ACL 2025"
 ethics_overall: 0
 virtue_ethics: 0
-deontological_ethics: 5
+deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "Machine Translation"
 is_benchmark: No
 is_eval: "Yes"

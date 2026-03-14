@@ -33,6 +33,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -86,9 +87,11 @@ no_pdf_applicable: true
 local_pdf: N/A
 CONFERENCE: "Unknown"
 ethics_overall: 0
-virtue_ethics: 0
+virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 ethics_perspective: "Machine Ethics"
 is_benchmark: "No"
 is_eval: "No"

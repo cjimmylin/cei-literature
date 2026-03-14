@@ -34,6 +34,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -89,6 +90,8 @@ ethics_overall: 0
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"

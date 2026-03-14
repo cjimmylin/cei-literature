@@ -118,36 +118,58 @@ This document defines all YAML frontmatter fields used in CEI Literature Vault p
 ## 2. Classification Fields
 
 ### ethics_overall
-- **Type:** String
+- **Type:** Integer (0-100)
 - **Required:** Yes (after classification)
-- **Values:** `"Yes"` | `"No"`
-- **Example:** `ethics_overall: "Yes"`
-- **Notes:** Broad filter for ethical content
-- **Script:** `classify_ethics.py` (Stage 1)
+- **Values:** `0-100` (integer confidence score; >= 50 = Yes equivalent)
+- **Example:** `ethics_overall: 82`
+- **Notes:** Broad filter for ethical content. Score computed by weighted keyword matching.
+- **Backward Compatibility:** Legacy `"Yes"`/`"No"` strings accepted during transition. Use `parse_ethics_value()` from `ethics_scoring.py` to normalize.
+- **Script:** `classify_ethics.py` / `ethics_scoring.py` (Stage 1)
 
 ### virtue_ethics
-- **Type:** String
+- **Type:** Integer (0-100)
 - **Required:** Yes (after classification)
-- **Values:** `"Yes"` | `"No"`
-- **Example:** `virtue_ethics: "No"`
+- **Values:** `0-100` (integer confidence score; >= 50 = Yes equivalent)
+- **Example:** `virtue_ethics: 0`
 - **Notes:** Virtue ethics framework detected
-- **Script:** `classify_ethics.py` (Stage 2)
+- **Backward Compatibility:** Legacy `"Yes"`/`"No"` accepted. Use `parse_ethics_value()` to normalize.
+- **Script:** `classify_ethics.py` / `ethics_scoring.py` (Stage 2)
 
 ### deontological_ethics
-- **Type:** String
+- **Type:** Integer (0-100)
 - **Required:** Yes (after classification)
-- **Values:** `"Yes"` | `"No"`
-- **Example:** `deontological_ethics: "No"`
+- **Values:** `0-100` (integer confidence score; >= 50 = Yes equivalent)
+- **Example:** `deontological_ethics: 0`
 - **Notes:** Deontological ethics framework detected
-- **Script:** `classify_ethics.py` (Stage 2)
+- **Backward Compatibility:** Legacy `"Yes"`/`"No"` accepted. Use `parse_ethics_value()` to normalize.
+- **Script:** `classify_ethics.py` / `ethics_scoring.py` (Stage 2)
 
 ### utilitarian_ethics
-- **Type:** String
+- **Type:** Integer (0-100)
 - **Required:** Yes (after classification)
-- **Values:** `"Yes"` | `"No"`
-- **Example:** `utilitarian_ethics: "No"`
+- **Values:** `0-100` (integer confidence score; >= 50 = Yes equivalent)
+- **Example:** `utilitarian_ethics: 0`
 - **Notes:** Utilitarian ethics framework detected
-- **Script:** `classify_ethics.py` (Stage 2)
+- **Backward Compatibility:** Legacy `"Yes"`/`"No"` accepted. Use `parse_ethics_value()` to normalize.
+- **Script:** `classify_ethics.py` / `ethics_scoring.py` (Stage 2)
+
+### care_ethics
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = Yes equivalent)
+- **Example:** `care_ethics: 0`
+- **Notes:** Ethics of care score. Detects care ethics, feminist ethics, relational ethics, Gilligan, Noddings.
+- **Backward Compatibility:** Legacy `"Yes"`/`"No"` accepted. Use `parse_ethics_value()` to normalize.
+- **Script:** `classify_ethics.py` / `ethics_scoring.py` (Stage 2)
+
+### contractarian_ethics
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = Yes equivalent)
+- **Example:** `contractarian_ethics: 0`
+- **Notes:** Contractarian/social contract ethics score. Detects Rawls, social contract, veil of ignorance, distributive justice.
+- **Backward Compatibility:** Legacy `"Yes"`/`"No"` accepted. Use `parse_ethics_value()` to normalize.
+- **Script:** `classify_ethics.py` / `ethics_scoring.py` (Stage 2)
 
 ### ethics_perspective
 - **Type:** String
@@ -198,7 +220,7 @@ This document defines all YAML frontmatter fields used in CEI Literature Vault p
 
 ### religious_values
 - **Type:** String or List
-- **Required:** Optional
+- **Required:** Derived (auto-generated from rv_* scores)
 - **Values:** `"N/A"` | String | List
 - **Example (single):** `religious_values: "Islam"`
 - **Example (multiple):**
@@ -208,28 +230,92 @@ This document defines all YAML frontmatter fields used in CEI Literature Vault p
     - Taoism
   ```
 - **Example (none):** `religious_values: N/A`
-- **Notes:** Religious values detected
-- **Script:** `classify_cultural_religious.py` (Stage 5)
+- **Notes:** Derived display field listing all traditions with rv_* score >= 50. No longer directly classified; computed from the 14 rv_* score fields.
+- **Script:** `classify_cultural_religious.py` / `religious_values_scoring.py` (Stage 5)
+
+### rv_islam / rv_christianity / rv_buddhism / rv_judaism / rv_hinduism / rv_sikhism / rv_confucianism / rv_taoism / rv_shinto / rv_jainism / rv_bahai / rv_zoroastrianism / rv_ubuntu / rv_indigenous
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = tradition detected)
+- **Examples:**
+  - `rv_islam: 72` — Islam detected with high confidence
+  - `rv_christianity: 0` — Christianity not detected
+  - `rv_ubuntu: 55` — Ubuntu tradition marginally detected
+- **Notes:** Religious values confidence scores. Each field represents one tradition. Scores >= 50 mean the tradition is detected. Both `religious_values` and `religious_values_list` are derived from these scores.
+- **Insertion Order:** rv_* fields go between `religious_values:` and `religious_values_list:` in the YAML frontmatter.
+- **Script:** `classify_cultural_religious.py` / `religious_values_scoring.py` (Stage 5)
+
+### mp_mft
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = theory detected)
+- **Example:** `mp_mft: 72`
+- **Notes:** Moral Foundations Theory (Haidt/Graham) score
+- **Script:** `classify_moral_psych.py` / `moral_psych_scoring.py` (Stage 6)
+
+### mp_schwartz
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = theory detected)
+- **Example:** `mp_schwartz: 0`
+- **Notes:** Value Pluralism / Schwartz basic values score
+- **Script:** `classify_moral_psych.py` / `moral_psych_scoring.py` (Stage 6)
+
+### mp_trolley
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = theory detected)
+- **Example:** `mp_trolley: 0`
+- **Notes:** Trolley / Dilemmas methodology score
+- **Script:** `classify_moral_psych.py` / `moral_psych_scoring.py` (Stage 6)
+
+### mp_kohlberg
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = theory detected)
+- **Example:** `mp_kohlberg: 0`
+- **Notes:** Cognitive Developmental (Kohlberg/Piaget) score
+- **Script:** `classify_moral_psych.py` / `moral_psych_scoring.py` (Stage 6)
+
+### mp_dual_process
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = theory detected)
+- **Example:** `mp_dual_process: 0`
+- **Notes:** Dual Process Theory (Greene) score
+- **Script:** `classify_moral_psych.py` / `moral_psych_scoring.py` (Stage 6)
+
+### mp_intuitionist
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = theory detected)
+- **Example:** `mp_intuitionist: 0`
+- **Notes:** Social Intuitionist Model score
+- **Script:** `classify_moral_psych.py` / `moral_psych_scoring.py` (Stage 6)
+
+### mp_dyadic
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = theory detected)
+- **Example:** `mp_dyadic: 0`
+- **Notes:** Dyadic Morality (Gray) score
+- **Script:** `classify_moral_psych.py` / `moral_psych_scoring.py` (Stage 6)
+
+### mp_identity
+- **Type:** Integer (0-100)
+- **Required:** Yes (after classification)
+- **Values:** `0-100` (integer confidence score; >= 50 = theory detected)
+- **Example:** `mp_identity: 0`
+- **Notes:** Moral Identity score
+- **Script:** `classify_moral_psych.py` / `moral_psych_scoring.py` (Stage 6)
 
 ### moral_psychology
-- **Type:** String or List
-- **Required:** Optional
-- **Values:** `"N/A"` | String | List
-- **Common Values:**
-  - `"Moral Foundations Theory"`
-  - `"Dual Process Theory"`
-  - `"Value Pluralism"`
-  - `"Trolley / Dilemmas"`
-- **Example (single):** `moral_psychology: "Moral Foundations Theory"`
-- **Example (multiple):**
-  ```yaml
-  moral_psychology:
-    - Moral Foundations Theory
-    - Dual Process Theory
-  ```
-- **Example (none):** `moral_psychology: N/A`
-- **Notes:** Psychological theories detected
-- **Script:** `classify_moral_psych.py` (Stage 6)
+- **Type:** String
+- **Required:** Derived (auto-generated from mp_* scores)
+- **Values:** `"N/A"` | Comma-separated theory names
+- **Example:** `moral_psychology: "Moral Foundations Theory"`
+- **Notes:** Derived display string listing all theories with mp_* score >= 50. No longer directly classified; computed from the 8 mp_* score fields above.
+- **Script:** `classify_moral_psych.py` / `moral_psych_scoring.py` (Stage 6)
 
 ### is_benchmark
 - **Type:** String
@@ -420,13 +506,37 @@ external_pdf: "https://arxiv.org/pdf/1606.06565.pdf"
 abstract: "Rapid progress in machine learning and artificial intelligence..."
 
 # Classification Fields
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 82
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
+care_ethics: 0
+contractarian_ethics: 0
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: N/A
 religious_values: N/A
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: N/A
 is_benchmark: "No"
 is_eval: "Yes"
@@ -491,10 +601,15 @@ REQUIRED_FIELDS = ['key', 'type', 'year', 'first_author']
 
 ### Conditional Field Checks
 ```python
-if ethics_overall == "Yes" and all(framework == "No" for framework in [virtue, deont, util]):
+# Use parse_ethics_value() to normalize int scores and legacy strings
+from PYTHON.ethics_scoring import parse_ethics_value
+
+if parse_ethics_value(ethics_overall) >= 50 and all(
+    parse_ethics_value(fw) < 50 for fw in [virtue, deont, util, care, contract]
+):
     # ethics_perspective SHOULD be set
 
-if ethics_overall == "No":
+if parse_ethics_value(ethics_overall) < 50:
     # research_topic SHOULD be set
 
 if any(is_x == "Yes" for is_x in [is_benchmark, is_eval, is_dataset]):
@@ -558,3 +673,7 @@ assert isinstance(newtags, str)
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | 2026-02-02 | Initial schema documentation |
+| 1.1 | 2026-03-13 | Ethics fields changed from "Yes"/"No" strings to 0-100 integer confidence scores |
+| 1.2 | 2026-03-13 | Added 8 mp_* moral psychology score fields (0-100); moral_psychology now derived |
+| 1.3 | 2026-03-13 | Added 14 rv_* religious values score fields (0-100); religious_values now derived |
+| 1.4 | 2026-03-13 | Added care_ethics and contractarian_ethics fields (0-100); normative frameworks expanded from 3 to 5 |

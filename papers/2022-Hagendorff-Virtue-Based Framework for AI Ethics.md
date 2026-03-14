@@ -27,6 +27,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_HAGENDORFF2022
@@ -82,6 +83,8 @@ ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: No
 is_dataset: "No"

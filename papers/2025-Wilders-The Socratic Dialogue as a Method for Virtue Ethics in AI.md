@@ -27,6 +27,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics socratic dialogue"
@@ -84,6 +85,8 @@ ethics_overall: 100
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 10
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

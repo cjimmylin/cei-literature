@@ -35,6 +35,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -87,10 +89,12 @@ DATA_URL: "NA"
 tags: 
 abstract: "I found the research article you're looking for. Here are the key findings: Study Overview The article \"Exploring the occupational biases and stereotypes of Chinese large language models\" was published in Scientific Reports in 2025."
 CONFERENCE: "Journal"
-ethics_overall: 35
+ethics_overall: 50
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
+contractarian_ethics: 0
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"

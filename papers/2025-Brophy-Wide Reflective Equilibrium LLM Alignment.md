@@ -35,6 +35,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_BROPHY2025
@@ -90,6 +92,8 @@ ethics_overall: 75
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 0
+contractarian_ethics: 25
+care_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

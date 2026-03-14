@@ -65,7 +65,7 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "Jainism"
 rv_islam: 0
-rv_christianity: 0
+rv_christianity: 5
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0

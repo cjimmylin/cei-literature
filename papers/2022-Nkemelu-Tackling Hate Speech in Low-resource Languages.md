@@ -61,10 +61,10 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Burmese"
-religious_values: "Multiple Religions"
-rv_islam: 50
+religious_values: "N/A"
+rv_islam: 10
 rv_christianity: 0
-rv_buddhism: 50
+rv_buddhism: 10
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0
@@ -76,7 +76,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam, Buddhism"
+religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

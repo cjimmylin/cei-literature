@@ -55,9 +55,9 @@ national_ethnic_cultural: "Chinese, Arabic, French, Spanish, Multicultural/Cross
 cultures_nationalities_list: "Chinese, Arabic, French, Spanish, Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, English, French, Spanish"
 religious_values: "N/A"
-rv_islam: 0
+rv_islam: 10
 rv_christianity: 0
-rv_buddhism: 0
+rv_buddhism: 10
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0

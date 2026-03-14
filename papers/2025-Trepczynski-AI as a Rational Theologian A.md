@@ -63,7 +63,7 @@ cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "Multiple Religions"
 rv_islam: 50
-rv_christianity: 90
+rv_christianity: 100
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0

@@ -65,7 +65,7 @@ rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0
 rv_shinto: 0
-rv_jainism: 75
+rv_jainism: 90
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0

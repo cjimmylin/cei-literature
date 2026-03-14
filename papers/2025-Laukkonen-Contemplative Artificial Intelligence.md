@@ -46,9 +46,9 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/744PDNTG/Laukkonen et al. -
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "Buddhism"
+religious_values: "Multiple Religions"
 rv_islam: 0
-rv_christianity: 0
+rv_christianity: 50
 rv_buddhism: 100
 rv_judaism: 0
 rv_hinduism: 0
@@ -61,7 +61,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Buddhism"
+religious_values_list: "Christianity, Buddhism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

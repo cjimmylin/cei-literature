@@ -57,9 +57,9 @@ DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "Jainism"
+religious_values: "Multiple Religions"
 rv_islam: 0
-rv_christianity: 0
+rv_christianity: 50
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
@@ -72,7 +72,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: "Christianity, Jainism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

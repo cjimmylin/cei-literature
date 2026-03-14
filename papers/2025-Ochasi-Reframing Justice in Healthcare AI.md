@@ -60,7 +60,7 @@ rv_jainism: 0
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 100
-rv_indigenous: 0
+rv_indigenous: 5
 religious_values_list: "Ubuntu Philosophy"
 mp_mft: 0
 mp_schwartz: 0

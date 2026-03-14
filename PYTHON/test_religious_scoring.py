@@ -18,11 +18,13 @@ sys.path.insert(0, str(_SCRIPT_DIR.parent / ".agent" / "lib"))
 from religious_scoring import (
     compute_rv_score,
     compute_all_rv_scores,
+    score_paper_rv,
     derive_religious_values_string,
     derive_religious_values_list_string,
     parse_religious_values_string,
     parse_rv_value,
     is_rv_detected,
+    get_rv_pinned_score,
     insert_rv_fields_between_religious_values,
     update_existing_rv_fields,
     RV_FIELDS,
@@ -532,6 +534,211 @@ class TestCrossTraditionIsolation(unittest.TestCase):
         text = "Ubuntu philosophy and African ethics inform AI values."
         score = compute_rv_score(text, "", "rv_indigenous")
         self.assertLess(score, 50)
+
+
+# =====================================================================
+# 9. DEMOGRAPHICS FALSE-POSITIVE FILTER TESTS (Phase 1)
+# =====================================================================
+
+class TestDemographicsFPFilter(unittest.TestCase):
+    """Verify demographics context demotes identity keywords."""
+
+    def test_islamophobia_paper_does_not_trigger_islam(self):
+        """Bias/hate-speech study mentioning 'Muslim' should NOT trigger Islam."""
+        text = (
+            "We built a hate speech detection model for offensive language. "
+            "Muslim and Islamic stereotypes were among the protected attributes. "
+            "Bias detection in NLP models shows demographic bias against Muslim communities."
+        )
+        score = compute_rv_score(text, "Islamophobia Detection in NLP", "rv_islam")
+        self.assertLess(score, 50)
+
+    def test_antisemitism_nlp_does_not_trigger_judaism(self):
+        """Anti-semitism bias study should NOT trigger Judaism."""
+        text = (
+            "This study examines anti-semitic hate speech detection. "
+            "Jewish stereotypes appear as protected attributes in bias benchmarks. "
+            "Offensive language classification and toxicity detection models."
+        )
+        score = compute_rv_score(text, "Anti-Semitic Hate Speech Detection", "rv_judaism")
+        self.assertLess(score, 50)
+
+    def test_religious_bias_benchmark_does_not_trigger(self):
+        """Bias benchmark paper mentioning multiple religions should NOT trigger."""
+        text = (
+            "We evaluate stereotype bias across demographic groups: Muslim, Christian, "
+            "Hindu, Buddhist, and Jewish. Protected attributes include religion. "
+            "Toxicity detection and offensive content classification."
+        )
+        score_islam = compute_rv_score(text, "Bias in Language Models", "rv_islam")
+        score_chr = compute_rv_score(text, "Bias in Language Models", "rv_christianity")
+        self.assertLess(score_islam, 50)
+        self.assertLess(score_chr, 50)
+
+    def test_genuine_islamic_ethics_still_triggers(self):
+        """Paper with Quran/Hadith theological terms should still trigger Islam."""
+        text = (
+            "This paper examines Islamic ethics through the lens of the Quran and Hadith. "
+            "Muslim scholars have debated sharia implications for AI governance."
+        )
+        score = compute_rv_score(text, "Islamic Ethics in AI", "rv_islam")
+        self.assertGreaterEqual(score, 50)
+
+    def test_genuine_biblical_theology_still_triggers(self):
+        """Paper with Biblical theological terms should still trigger Christianity."""
+        text = (
+            "Christian ethics as found in Biblical teaching inform AI governance. "
+            "The Gospel message and Protestant theological tradition. "
+            "Hate speech is mentioned once in passing."
+        )
+        score = compute_rv_score(text, "Christian AI Ethics", "rv_christianity")
+        self.assertGreaterEqual(score, 50)
+
+    def test_demographics_without_enough_context_does_not_demote(self):
+        """Only 1 demographics pattern should NOT trigger demotion."""
+        text = (
+            "This study explores Islamic perspectives on technology. "
+            "Some stereotypes about AI exist."
+        )
+        score = compute_rv_score(text, "", "rv_islam")
+        self.assertGreaterEqual(score, 50)
+
+
+# =====================================================================
+# 10. INDIGENOUS SPIRITUALITY EXPANSION TESTS (Phase 2)
+# =====================================================================
+
+class TestIndigenousExpansion(unittest.TestCase):
+    """Verify expanded Indigenous keywords work correctly."""
+
+    def test_indigenous_knowledge_systems_triggers(self):
+        text = "This paper discusses indigenous knowledge systems and their role in AI governance."
+        score = compute_rv_score(text, "", "rv_indigenous")
+        self.assertGreaterEqual(score, 50)
+
+    def test_data_sovereignty_with_indigenous_triggers(self):
+        text = "Indigenous data sovereignty and data governance frameworks for ethical AI."
+        score = compute_rv_score(text, "", "rv_indigenous")
+        self.assertGreaterEqual(score, 50)
+
+    def test_tikanga_triggers(self):
+        text = "Tikanga principles guide the ethical design of AI systems in Aotearoa."
+        score = compute_rv_score(text, "", "rv_indigenous")
+        self.assertGreaterEqual(score, 50)
+
+    def test_kaitiakitanga_triggers(self):
+        text = "Kaitiakitanga as a framework for responsible data stewardship."
+        score = compute_rv_score(text, "", "rv_indigenous")
+        self.assertGreaterEqual(score, 50)
+
+    def test_maori_with_ai_context_triggers(self):
+        text = "Maori perspectives on data sovereignty and AI governance in New Zealand."
+        score = compute_rv_score(text, "Maori Data Sovereignty", "rv_indigenous")
+        self.assertGreaterEqual(score, 50)
+
+    def test_indigenous_plants_does_not_trigger(self):
+        """Biological use of 'indigenous' should be penalized."""
+        text = "Indigenous plant species were catalogued using machine learning."
+        score = compute_rv_score(text, "", "rv_indigenous")
+        self.assertLess(score, 50)
+
+    def test_indigenous_alone_without_context_no_longer_penalized(self):
+        """Generic 'indigenous' without biological context should not be FP-penalized."""
+        text = "This paper explores indigenous perspectives on community values."
+        score = compute_rv_score(text, "", "rv_indigenous")
+        # Should be low but not penalized — no strong/medium match, no FP
+        self.assertEqual(score, 0)
+
+    def test_inuit_with_knowledge_triggers(self):
+        text = "Inuit knowledge systems and ethical frameworks for AI in the Arctic."
+        score = compute_rv_score(text, "", "rv_indigenous")
+        self.assertGreater(score, 0)
+
+    def test_decolonize_with_ai_triggers(self):
+        text = "Decolonizing AI requires indigenous ethical frameworks and data sovereignty."
+        score = compute_rv_score(text, "", "rv_indigenous")
+        self.assertGreaterEqual(score, 50)
+
+
+# =====================================================================
+# 11. MINORITY TRADITION EXPANSION TESTS (Phase 3)
+# =====================================================================
+
+class TestMinorityTraditionExpansion(unittest.TestCase):
+    """Verify expanded keywords for Baha'i, Zoroastrianism, Shinto, Jainism."""
+
+    def test_bahai_bahaullah_triggers(self):
+        text = "Baha'u'llah's teachings on unity and justice inform AI ethics."
+        score = compute_rv_score(text, "", "rv_bahai")
+        self.assertGreater(score, 0)
+
+    def test_bahai_kitab_i_aqdas_triggers(self):
+        text = "The Kitab-i-Aqdas provides ethical principles for governance."
+        score = compute_rv_score(text, "", "rv_bahai")
+        self.assertGreater(score, 0)
+
+    def test_zoroastrianism_ahura_mazda_triggers(self):
+        text = "Ahura Mazda's principles of truth and righteousness in ethics."
+        score = compute_rv_score(text, "", "rv_zoroastrianism")
+        self.assertGreater(score, 0)
+
+    def test_zoroastrianism_gathas_triggers(self):
+        text = "The Gathas contain ethical teachings relevant to modern technology."
+        score = compute_rv_score(text, "", "rv_zoroastrianism")
+        self.assertGreater(score, 0)
+
+    def test_shinto_shintoism_triggers(self):
+        text = "Shintoism offers perspectives on technology and nature."
+        score = compute_rv_score(text, "", "rv_shinto")
+        self.assertGreaterEqual(score, 50)
+
+    def test_shinto_misogi_triggers(self):
+        text = "The practice of misogi and ritual purification in Japanese culture."
+        score = compute_rv_score(text, "", "rv_shinto")
+        self.assertGreater(score, 0)
+
+    def test_shinto_japanese_spirituality_triggers(self):
+        text = "Japanese spirituality and sacred spaces in the digital age."
+        score = compute_rv_score(text, "", "rv_shinto")
+        self.assertGreater(score, 0)
+
+    def test_jainism_aparigraha_triggers(self):
+        text = "The Jain principle of aparigraha (non-possessiveness) applied to data."
+        score = compute_rv_score(text, "", "rv_jainism")
+        self.assertGreaterEqual(score, 50)
+
+    def test_jainism_syadvada_triggers(self):
+        text = "Syadvada (the Jain theory of conditional predication) in AI reasoning."
+        score = compute_rv_score(text, "", "rv_jainism")
+        self.assertGreaterEqual(score, 50)
+
+
+# =====================================================================
+# 12. USER PINS TESTS (Phase 4)
+# =====================================================================
+
+class TestUserPins(unittest.TestCase):
+    """Verify user pins mechanism."""
+
+    def test_get_rv_pinned_score_returns_none_for_unknown(self):
+        """Unknown paper+field returns None."""
+        result = get_rv_pinned_score("nonexistent-paper.md", "rv_islam")
+        self.assertIsNone(result)
+
+    def test_score_paper_rv_returns_dict_for_all_fields(self):
+        """score_paper_rv returns scores for all 14 fields."""
+        scores = score_paper_rv("test.md", "Test Paper", "No religion here", "")
+        self.assertEqual(set(scores.keys()), set(RV_FIELDS))
+
+    def test_score_paper_rv_genuine_paper(self):
+        """score_paper_rv detects genuine Islamic content."""
+        scores = score_paper_rv(
+            "test.md",
+            "Islamic Ethics in AI",
+            "This paper examines Islamic perspectives and the Quran",
+            ""
+        )
+        self.assertGreaterEqual(scores["rv_islam"], 50)
 
 
 if __name__ == "__main__":

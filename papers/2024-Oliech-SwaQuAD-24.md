@@ -50,9 +50,9 @@ external_pdf: "https://arxiv.org/pdf/2410.14289.pdf"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Swahili"
-religious_values: "Multiple Religions"
-rv_islam: 50
-rv_christianity: 50
+religious_values: "N/A"
+rv_islam: 5
+rv_christianity: 5
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
@@ -65,7 +65,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam, Christianity"
+religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

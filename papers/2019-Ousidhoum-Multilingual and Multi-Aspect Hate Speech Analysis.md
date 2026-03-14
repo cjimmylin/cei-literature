@@ -59,11 +59,11 @@ national_ethnic_cultural: "Arabic, French"
 cultures_nationalities_list: "Arabic, French"
 languages_list: "Arabic, English, French"
 religious_values: "N/A"
-rv_islam: 0
-rv_christianity: 0
+rv_islam: 15
+rv_christianity: 5
 rv_buddhism: 0
-rv_judaism: 0
-rv_hinduism: 0
+rv_judaism: 5
+rv_hinduism: 5
 rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0

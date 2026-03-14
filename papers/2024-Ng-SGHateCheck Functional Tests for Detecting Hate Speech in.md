@@ -61,11 +61,11 @@ national_ethnic_cultural: "Singaporean"
 cultures_nationalities_list: "Singaporean"
 languages_list: "Multilingual"
 religious_values: "N/A"
-rv_islam: 0
+rv_islam: 5
 rv_christianity: 0
-rv_buddhism: 0
+rv_buddhism: 5
 rv_judaism: 0
-rv_hinduism: 0
+rv_hinduism: 5
 rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0

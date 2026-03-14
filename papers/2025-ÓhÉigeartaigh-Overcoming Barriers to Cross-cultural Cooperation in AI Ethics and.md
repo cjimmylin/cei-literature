@@ -59,8 +59,8 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
-religious_values: "N/A"
-rv_islam: 0
+religious_values: "Islam"
+rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0
@@ -74,7 +74,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: "Islam"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

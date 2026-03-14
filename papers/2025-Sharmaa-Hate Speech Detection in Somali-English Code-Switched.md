@@ -59,12 +59,12 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African/Ubuntu"
 languages_list: "English, Somali"
-religious_values: "Multiple Religions"
+religious_values: "Jainism"
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0
-rv_hinduism: 50
+rv_hinduism: 5
 rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0
@@ -74,7 +74,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Hinduism, Jainism"
+religious_values_list: "Jainism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

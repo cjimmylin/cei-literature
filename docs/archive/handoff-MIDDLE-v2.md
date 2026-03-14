@@ -36,8 +36,8 @@ This document captures the state of the CEI Literature Vault and provides action
 | Values Alignment | `STATISTICS/20260216-ethical-values-alignment-benchmarks-report.md` | STALE (pre-expansion) |
 | LLM Assessment | `STATISTICS/20260216-llm-assessment-data-availability-report.md` | FRESH (2,034 papers) |
 | Religious Traditions | `STATISTICS/20260216-religious-ethical-tradition-gap-analysis.md` | FRESH (2,034 papers) |
-| Dashboard (HTML) | `STATISTICS/20260216-vault-dashboard.html` | Deployed, 2,034 papers |
-| Dashboard v3 (HTML) | `STATISTICS/20260216-vault-dashboard-3.html` | Deployed, 2,034 papers, 767 KB |
+| Dashboard (HTML) | `DASHBOARDS/20260216-vault-dashboard.html` | Deployed, 2,034 papers |
+| Dashboard v3 (HTML) | `DASHBOARDS/20260216-vault-dashboard-3.html` | Deployed, 2,034 papers, 767 KB |
 
 ### GitHub Pages Dashboards (ALL DEPLOYED)
 
@@ -71,7 +71,7 @@ This document captures the state of the CEI Literature Vault and provides action
 - Created `PYTHON/generate_vault_dashboard_3.py` (1,903 lines)
   - Template injection architecture: reads old v3 HTML, replaces `const DATA` blob
   - Computes 20 data sections including Cultural Values, Moral Psychology, Religious Values, Normative Ethics
-- Generated `STATISTICS/20260216-vault-dashboard-3.html` (767 KB, 8 tabs, 55 charts)
+- Generated `DASHBOARDS/20260216-vault-dashboard-3.html` (767 KB, 8 tabs, 55 charts)
 - Deployed to `cjimmylin.github.io/cei-dashboard-3/`
 - Deployed `cei-dashboard` to GitHub Pages (2,034 papers)
 

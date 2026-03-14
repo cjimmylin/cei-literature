@@ -49,14 +49,14 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/B24568AJ/Yu et al. - 2024 -
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
-religious_values: "N/A"
+religious_values: "Confucianism"
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0
-rv_confucianism: 0
+rv_confucianism: 50
 rv_taoism: 0
 rv_shinto: 0
 rv_jainism: 0
@@ -64,7 +64,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: "Confucianism"
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0

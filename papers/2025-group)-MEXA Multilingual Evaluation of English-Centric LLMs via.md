@@ -57,7 +57,7 @@ cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "Christianity"
 rv_islam: 0
-rv_christianity: 50
+rv_christianity: 100
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0

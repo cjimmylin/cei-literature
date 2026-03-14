@@ -52,9 +52,9 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-022-09580-w.
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Maori"
-religious_values: "N/A"
+religious_values: "Multiple Religions"
 rv_islam: 0
-rv_christianity: 0
+rv_christianity: 90
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
@@ -66,8 +66,8 @@ rv_jainism: 0
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
-rv_indigenous: 0
-religious_values_list: "N/A"
+rv_indigenous: 100
+religious_values_list: "Christianity, Indigenous Spirituality"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

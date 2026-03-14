@@ -52,7 +52,7 @@ cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English"
 religious_values: "Multiple Religions"
 rv_islam: 0
-rv_christianity: 60
+rv_christianity: 100
 rv_buddhism: 100
 rv_judaism: 0
 rv_hinduism: 0

@@ -56,14 +56,14 @@ CONF-CC: "EACL 2024"
 national_ethnic_cultural: "Chinese, Indian, African/Ubuntu, Spanish, Russian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Indian, African/Ubuntu, Spanish, Russian, Multicultural/Cross-cultural"
 languages_list: "Chinese, English, Hindi, Russian, Spanish, Swahili"
-religious_values: "N/A"
+religious_values: "Multiple Religions"
 rv_islam: 0
-rv_christianity: 0
+rv_christianity: 50
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0
-rv_confucianism: 0
+rv_confucianism: 50
 rv_taoism: 0
 rv_shinto: 0
 rv_jainism: 0
@@ -71,7 +71,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: "Christianity, Confucianism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

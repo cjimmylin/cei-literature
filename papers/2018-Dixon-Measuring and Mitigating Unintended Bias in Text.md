@@ -56,7 +56,7 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
-rv_islam: 0
+rv_islam: 10
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0

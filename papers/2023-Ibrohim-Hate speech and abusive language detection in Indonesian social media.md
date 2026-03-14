@@ -60,10 +60,10 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian"
-religious_values: "N/A"
-rv_islam: 0
+religious_values: "Islam"
+rv_islam: 50
 rv_christianity: 0
-rv_buddhism: 0
+rv_buddhism: 35
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0
@@ -75,7 +75,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: "Islam"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

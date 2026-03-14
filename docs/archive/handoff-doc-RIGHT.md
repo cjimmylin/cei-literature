@@ -54,14 +54,14 @@ Two dashboards need deployment:
 - **LLM assessment dashboard:** `cjimmylin.github.io/cei-dashboard-llm/`
 
 ### Steps:
-1. Copy `STATISTICS/20260216-vault-dashboard.html` to the `cei-dashboard` repo as `index.html`
+1. Copy `DASHBOARDS/20260216-vault-dashboard.html` to the `cei-dashboard` repo as `index.html`
 2. Commit and push
 3. Copy `STATISTICS/20260216-llm-assessment-data-availability-report.md` or the LLM dashboard HTML (if separate) to the `cei-dashboard-llm` repo
 4. Commit and push
 5. Verify both GitHub Pages sites update
 
 **Local files:**
-- `STATISTICS/20260216-vault-dashboard.html` (202KB, interactive HTML)
+- `DASHBOARDS/20260216-vault-dashboard.html` (202KB, interactive HTML)
 - `STATISTICS/20260216-vault-overview-report.md` (106,741 chars)
 - `STATISTICS/20260216-ethical-values-alignment-benchmarks-report.md` (167,502 chars)
 - `STATISTICS/20260216-llm-ethics-benchmark-survey.md`

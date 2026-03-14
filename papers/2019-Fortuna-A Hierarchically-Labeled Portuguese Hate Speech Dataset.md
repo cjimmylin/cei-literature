@@ -61,7 +61,7 @@ national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
 languages_list: "Portuguese"
 religious_values: "N/A"
-rv_islam: 0
+rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0

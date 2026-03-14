@@ -16,6 +16,7 @@ Threshold: score >= 50 treated as detected.
 Reuses count_matches, load_extract, safe_yaml_set_int from ethics_scoring.py.
 """
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -26,6 +27,63 @@ sys.path.insert(0, str(_SCRIPT_DIR))
 sys.path.insert(0, str(_SCRIPT_DIR.parent / ".agent" / "lib"))
 
 from ethics_scoring import count_matches, load_extract, safe_yaml_set_int
+from config import STATISTICS_DIR
+
+# =====================================================================
+# USER-REVIEWED PINS
+# =====================================================================
+
+_RV_PINS = {}  # populated by _load_rv_pins()
+_RV_PINS_LOADED = False
+
+
+def _load_rv_pins():
+    """Load user-reviewed religious values pin data from JSON file."""
+    global _RV_PINS, _RV_PINS_LOADED
+    if _RV_PINS_LOADED:
+        return
+
+    # Search for the most recent rv-user-pins file
+    pins_files = sorted(STATISTICS_DIR.glob("*-rv-user-pins.json"), reverse=True)
+    if not pins_files:
+        _RV_PINS_LOADED = True
+        return
+
+    pins_path = pins_files[0]  # most recent by date prefix
+
+    try:
+        with open(pins_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        _RV_PINS_LOADED = True
+        return
+
+    for pin in data.get("pins", []):
+        filename = pin.get("filename", "")
+        if not filename:
+            continue
+
+        if filename not in _RV_PINS:
+            _RV_PINS[filename] = {}
+
+        for field in RV_FIELDS_LIST:
+            if field in pin:
+                _RV_PINS[filename][field] = int(pin[field])
+
+    _RV_PINS_LOADED = True
+
+
+def get_rv_pinned_score(filename, field):
+    """
+    Return pinned score if user reviewed this paper+field, else None.
+    """
+    _load_rv_pins()
+    pins = _RV_PINS.get(filename, {})
+    return pins.get(field)
+
+
+# Forward reference — RV_FIELDS_LIST is set after FIELD_KEYWORDS
+RV_FIELDS_LIST = []
 
 # =====================================================================
 # KEYWORD TIERS — Canonical source for religious values classification
@@ -153,12 +211,15 @@ TAOISM_FP = []  # Low risk
 # ── SHINTO ────────────────────────────────────────────────────────────
 
 SHINTO_STRONG = [
-    r"\bshinto\w*\b",
+    r"\bshinto\w*\b", r"\bshintoism\b",
 ]
 
 SHINTO_MEDIUM = [
     r"\bkami\b(?=.*(?:japan|shinto|spirit|sacred))",
     r"\btorii\b", r"\bbushido\b", r"\bpurification ritual\b",
+    r"\bmisogi\b", r"\bkotodama\b",
+    r"\bjapanese spiritualit\w*\b",
+    r"\bshrine\b(?=.*(?:japan|sacred|shinto))",
 ]
 
 SHINTO_FP = [
@@ -174,6 +235,8 @@ JAINISM_STRONG = [
 
 JAINISM_MEDIUM = [
     r"\bahimsa\b(?=.*\bjain\w*\b)",
+    r"\bsyadvada\b", r"\baparigraha\b",
+    r"\bdigambar\b", r"\bshvetambar\b",
 ]
 
 JAINISM_FP = []  # Low risk
@@ -184,7 +247,10 @@ BAHAI_STRONG = [
     r"\bbaha'i\b", r"\bbahai\b",
 ]
 
-BAHAI_MEDIUM = []
+BAHAI_MEDIUM = [
+    r"\bbaha'u'llah\b", r"\babdu'l[\s-]?baha\b", r"\bshoghi effendi\b",
+    r"\bkitab[\s-]?i[\s-]?aqdas\b", r"\buniversal house of justice\b",
+]
 
 BAHAI_FP = []
 
@@ -194,7 +260,11 @@ ZOROASTRIANISM_STRONG = [
     r"\bzoroastrian\w*\b", r"\bavesta\b", r"\bzarathustra\b",
 ]
 
-ZOROASTRIANISM_MEDIUM = []
+ZOROASTRIANISM_MEDIUM = [
+    r"\bahura mazda\b", r"\bgathas\b", r"\bzoroaster\b",
+    r"\bparsi\b(?=.*(?:ethic|religio|faith|moral|zoroast))",
+    r"\bfravashi\b", r"\bamesha spenta\b",
+]
 
 ZOROASTRIANISM_FP = []
 
@@ -220,6 +290,12 @@ INDIGENOUS_STRONG = [
     r"\baboriginal dreaming\b", r"\bdreamtime\b",
     r"\bdata sovereignty\b(?=.*\bindigenous\b)",
     r"\btwo[\s-]?eyed seeing\b",
+    r"\bindigenous knowledge system\w*\b",
+    r"\bindigenous data (?:sovereignty|governance)\b",
+    r"\bindigenous protocol\w*\b(?=.*(?:ai|tech|algorithm|digital|comput))",
+    r"\bindigenous governance\b(?=.*(?:ai|data|tech|digital|algorithm))",
+    r"\bm[a\u0101]ori\b(?=.*(?:data|sovereignty|ai|tikanga|digital|algorithm))",
+    r"\btikanga\b", r"\bkaitiakitanga\b",
 ]
 
 INDIGENOUS_MEDIUM = [
@@ -229,10 +305,17 @@ INDIGENOUS_MEDIUM = [
     r"\belder wisdom\b", r"\bsacred land\b",
     r"\bdecoloniz\w+\b(?=.*\bethic\b)",
     r"\bwhakapapa\b", r"\bmana\b(?=.*\btapu\b)",
+    r"\bindigenous communit\w*\b(?=.*(?:ai|data|tech|digital|algorithm))",
+    r"\bindigenous self[\s-]?determination\b",
+    r"\brelational\b(?=.*\bindigenous\b)",
+    r"\bfirst nations?\b(?=.*(?:data|ai|tech|sovereign))",
+    r"\bdecoloniz\w+\b(?=.*(?:ai|tech|data|digital|algorithm))",
+    r"\binuit\b(?=.*(?:knowledge|ethic|data|ai))",
 ]
 
 INDIGENOUS_FP = [
-    r"\bindigenous\b(?!.*(?:ethic\w*|moral|spiritual|knowledge|data sovereignty|elder|sacred|dreaming|oral tradition|decoloniz))",
+    # Targeted biological FP — only penalize when "indigenous" modifies biological terms
+    r"\bindigenous\s+(?:plant|species|fauna|flora|vegetation|crop|habitat|ecosystem)\b",
 ]
 
 
@@ -272,7 +355,7 @@ TITLE_PATTERNS = {
         re.IGNORECASE,
     ),
     "rv_shinto": re.compile(
-        r"\b(?:Shinto\w*)\b",
+        r"\b(?:Shinto\w*|Shintoism)\b",
         re.IGNORECASE,
     ),
     "rv_jainism": re.compile(
@@ -292,8 +375,9 @@ TITLE_PATTERNS = {
         re.IGNORECASE,
     ),
     "rv_indigenous": re.compile(
-        r"\b(?:Indigenous (?:spiritual\w*|ethic\w*|moral\w*)|Aboriginal dreaming|Dreamtime"
-        r"|data sovereignty|two[\s-]?eyed seeing)\b",
+        r"\b(?:Indigenous (?:spiritual\w*|ethic\w*|moral\w*|knowledge)|Aboriginal dreaming|Dreamtime"
+        r"|data sovereignty|two[\s-]?eyed seeing|M[a\u0101]ori|tikanga|kaitiakitanga"
+        r"|Indigenous.*data)\b",
         re.IGNORECASE,
     ),
 }
@@ -373,12 +457,58 @@ FIELD_KEYWORDS = {
     },
 }
 
+# ── DEMOGRAPHICS FALSE-POSITIVE FILTER ─────────────────────────────
+# Papers about hate speech, bias benchmarks, and identity-group fairness
+# use religion names as demographic categories, not theological content.
+# When >=2 of these patterns match AND only identity (not theological)
+# keywords fired, demote identity strong matches to medium weight.
+
+DEMOGRAPHICS_CONTEXT_PATTERNS = [
+    r"\bhate[\s.]?speech\b", r"\bhate[\s.]?speech detection\b",
+    r"\bislamophob\w*\b", r"\banti[\s.-]?muslim\b", r"\banti[\s.-]?semit\w*\b",
+    r"\bbias detection\b", r"\bbias in (?:nlp|language model|llm)\b",
+    r"\bstereotype\w*\b",
+    r"\bprotected[\s.](?:attribute|group|class|categor\w*)\b",
+    r"\bdemographic\w*\b(?=.*(?:bias|fairness|parity))",
+    r"\boffensive (?:language|speech|content)\b",
+    r"\btoxicity\b(?=.*(?:detect|classif|model))",
+    r"\bsentiment analysis\b(?=.*(?:muslim|christian|jewish|hindu|buddhist))",
+]
+
+# Traditions affected by demographics FP — identity vs theological keyword split
+DEMOGRAPHICS_AFFECTED = {"rv_islam", "rv_christianity", "rv_judaism", "rv_hinduism", "rv_buddhism"}
+
+# Identity keywords: religion name patterns used as demographic labels
+IDENTITY_KEYWORDS = {
+    "rv_islam": [r"\bislam\w*\b", r"\bmuslim\w*\b"],
+    "rv_christianity": [r"\bchristian\w*\b"],
+    "rv_judaism": [r"\bjewish\b"],
+    "rv_hinduism": [r"\bhindu\w*\b"],
+    "rv_buddhism": [r"\bbuddhis\w*\b"],
+}
+
+# Theological keywords: substantive terms that indicate genuine religious content
+THEOLOGICAL_KEYWORDS = {
+    "rv_islam": [r"\bquran\b", r"\bqur'an\b", r"\bhadith\b", r"\bsharia\b", r"\bfatwa\b",
+                 r"\bislamicpcqa\b", r"\bfatwaset\b", r"\bqasina\b"],
+    "rv_christianity": [r"\bbible\b", r"\bbiblical\b", r"\bgospel\b", r"\bprotestant\b",
+                        r"\bcatholic\b", r"\bevangelical\b"],
+    "rv_judaism": [r"\bjudaism\b", r"\btorah\b", r"\btalmud\w*\b", r"\brabbinical\b",
+                   r"\bhalakha\b", r"\bmitzvot\b"],
+    "rv_hinduism": [r"\bvedic\b", r"\bbhagavad gita\b", r"\bupanishad\b"],
+    "rv_buddhism": [r"\bdharmabench\b", r"\bbuddhismeval\b", r"\bbodhisattva\b",
+                    r"\bfour noble truths\b", r"\beightfold path\b"],
+}
+
 RV_FIELDS = [
     "rv_islam", "rv_christianity", "rv_buddhism", "rv_judaism",
     "rv_hinduism", "rv_sikhism", "rv_confucianism", "rv_taoism",
     "rv_shinto", "rv_jainism", "rv_bahai", "rv_zoroastrianism",
     "rv_ubuntu", "rv_indigenous",
 ]
+
+# Populate forward reference for pins loader
+RV_FIELDS_LIST[:] = RV_FIELDS
 
 # Display name mapping: field → human-readable tradition name
 FIELD_DISPLAY_NAMES = {
@@ -442,6 +572,11 @@ def compute_rv_score(text, title, field):
     true positive. Therefore, if any strong match is found, a minimum floor
     of 50 is applied before FP subtraction.
 
+    Demographics demotion (Phase 1): For Islam/Christianity/Judaism/Hinduism/
+    Buddhism, when >=2 demographics context patterns match AND only identity
+    keywords fired (no theological terms), identity strong matches are demoted
+    to medium weight (5pts instead of 15pts) and the strong-floor is skipped.
+
     Args:
         text: Combined title + abstract + extract text.
         title: Paper title (checked for bonus).
@@ -460,6 +595,21 @@ def compute_rv_score(text, title, field):
     title_bonus = 0
     if title and TITLE_PATTERNS[field].search(title):
         title_bonus = 20
+
+    # Demographics demotion for major traditions
+    if field in DEMOGRAPHICS_AFFECTED and strong_count > 0:
+        demo_count, _ = count_matches(text, DEMOGRAPHICS_CONTEXT_PATTERNS)
+        if demo_count >= 2:
+            theo_count, _ = count_matches(text, THEOLOGICAL_KEYWORDS.get(field, []))
+            if theo_count == 0:
+                # Only identity keywords matched in a demographics context —
+                # demote identity strong → medium weight, skip strong-floor
+                identity_count, _ = count_matches(text, IDENTITY_KEYWORDS.get(field, []))
+                non_identity_strong = strong_count - identity_count
+                raw = (non_identity_strong * 15
+                       + (medium_count + identity_count) * 5
+                       - fp_count * 10 + title_bonus)
+                return max(0, min(100, raw))
 
     raw = strong_count * 15 + medium_count * 5 - fp_count * 10 + title_bonus
 
@@ -489,10 +639,13 @@ def compute_all_rv_scores(title, abstract, extract):
 
 def score_paper_rv(filename, title, abstract, extract=""):
     """
-    Score a paper across all religious traditions.
+    Score a paper across all religious traditions, respecting user pins.
+
+    User pins override computed scores for specific paper+field combinations,
+    mirroring the ethics_scoring.py pin mechanism.
 
     Args:
-        filename: Paper filename for extract lookup.
+        filename: Paper filename for extract lookup and pin matching.
         title: Paper title.
         abstract: Paper abstract.
         extract: PDF extract text (loaded from disk if empty).
@@ -504,7 +657,15 @@ def score_paper_rv(filename, title, abstract, extract=""):
         stem = Path(filename).stem
         extract = load_extract(stem)
 
-    return compute_all_rv_scores(title, abstract, extract)
+    scores = compute_all_rv_scores(title, abstract, extract)
+
+    # Apply user pins (overrides computed scores)
+    for field in RV_FIELDS:
+        pinned = get_rv_pinned_score(filename, field)
+        if pinned is not None:
+            scores[field] = pinned
+
+    return scores
 
 
 # =====================================================================

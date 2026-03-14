@@ -57,7 +57,7 @@ national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
 religious_values: "Multiple Religions"
-rv_islam: 50
+rv_islam: 55
 rv_christianity: 50
 rv_buddhism: 0
 rv_judaism: 0

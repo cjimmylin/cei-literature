@@ -68,7 +68,7 @@ rv_jainism: 0
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
-rv_indigenous: 0
+rv_indigenous: 25
 religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 0

@@ -59,12 +59,12 @@ DATE_ADDED: 20260207
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Bengali, English"
-religious_values: "Multiple Religions"
+religious_values: "Islam"
 rv_islam: 100
-rv_christianity: 50
-rv_buddhism: 50
-rv_judaism: 0
-rv_hinduism: 50
+rv_christianity: 25
+rv_buddhism: 15
+rv_judaism: 5
+rv_hinduism: 45
 rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0
@@ -74,7 +74,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam, Christianity, Buddhism, Hinduism"
+religious_values_list: "Islam"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

@@ -53,9 +53,9 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/42WJ28G6/2025 - Measuring D
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English"
-religious_values: "Islam"
-rv_islam: 50
-rv_christianity: 0
+religious_values: "N/A"
+rv_islam: 10
+rv_christianity: 10
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
@@ -68,7 +68,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

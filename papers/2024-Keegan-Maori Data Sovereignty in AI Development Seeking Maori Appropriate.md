@@ -54,7 +54,7 @@ DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Maori"
-religious_values: "Christianity"
+religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -68,8 +68,8 @@ rv_jainism: 0
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
-rv_indigenous: 0
-religious_values_list: "Christianity"
+rv_indigenous: 100
+religious_values_list: "Christianity, Indigenous Spirituality"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

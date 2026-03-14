@@ -57,9 +57,9 @@ CONF-CC: "Preprint"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
-religious_values: "Multiple Religions"
+religious_values: "Jainism"
 rv_islam: 0
-rv_christianity: 50
+rv_christianity: 5
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
@@ -72,7 +72,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity, Jainism"
+religious_values_list: "Jainism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

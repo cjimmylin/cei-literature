@@ -1,0 +1,5 @@
+{
+  "description": "User-reviewed religious values score pins. Each entry overrides computed rv_* scores for a specific paper. Populate from disagreement analysis.",
+  "created": "2026-03-13",
+  "pins": []
+}

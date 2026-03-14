@@ -62,7 +62,7 @@ cultures_nationalities_list: "Indian"
 languages_list: "English, Sanskrit"
 religious_values: "Christianity"
 rv_islam: 0
-rv_christianity: 90
+rv_christianity: 100
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0

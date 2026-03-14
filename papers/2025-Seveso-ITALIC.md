@@ -50,9 +50,9 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/NNGKX8QR/2025 - ITALIC An I
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
 languages_list: "Italian"
-religious_values: "Christianity"
+religious_values: "N/A"
 rv_islam: 0
-rv_christianity: 50
+rv_christianity: 5
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
@@ -65,7 +65,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

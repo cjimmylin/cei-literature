@@ -55,7 +55,7 @@ national_ethnic_cultural: "Arabic, Indian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Arabic, Indian, Multicultural/Cross-cultural"
 languages_list: "Arabic, Multilingual"
 religious_values: "N/A"
-rv_islam: 0
+rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0

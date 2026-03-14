@@ -64,7 +64,7 @@ national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Bangla"
 religious_values: "Multiple Religions"
-rv_islam: 50
+rv_islam: 60
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0

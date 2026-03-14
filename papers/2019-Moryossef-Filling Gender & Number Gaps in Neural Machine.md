@@ -51,9 +51,9 @@ external_pdf: "https://arxiv.org/pdf/1903.03467v1.pdf"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "English, Hebrew"
-religious_values: "N/A"
+religious_values: "Christianity"
 rv_islam: 0
-rv_christianity: 0
+rv_christianity: 50
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
@@ -66,7 +66,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: "Christianity"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

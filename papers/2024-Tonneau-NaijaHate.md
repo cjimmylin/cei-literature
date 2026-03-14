@@ -59,8 +59,8 @@ national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African/Ubuntu"
 languages_list: "English, Nigerian Pidgin"
 religious_values: "N/A"
-rv_islam: 0
-rv_christianity: 0
+rv_islam: 25
+rv_christianity: 10
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0

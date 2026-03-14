@@ -99,7 +99,7 @@ All items below are **DONE**:
 - Informational only, not blocking
 
 #### Task H: Push Dashboards to GitHub Pages
-- Copy `STATISTICS/20260215-vault-dashboard.html` to `cjimmylin/cei-dashboard` repo
+- Copy `DASHBOARDS/20260215-vault-dashboard.html` to `cjimmylin/cei-dashboard` repo
 - Copy LLM assessment dashboard to `cjimmylin/cei-dashboard-llm` repo
 - Should run **AFTER** benchmark deep-read (Task D) for most complete data
 

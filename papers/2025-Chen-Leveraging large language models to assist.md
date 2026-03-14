@@ -52,22 +52,22 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/PYP5EUPP/Chen et al. - 2025
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "N/A"
+religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0
-rv_confucianism: 0
-rv_taoism: 0
+rv_confucianism: 50
+rv_taoism: 50
 rv_shinto: 0
 rv_jainism: 0
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: "Confucianism, Taoism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

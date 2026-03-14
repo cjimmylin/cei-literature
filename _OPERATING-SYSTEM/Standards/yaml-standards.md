@@ -304,11 +304,108 @@ python3 PYTHON/yaml_frontmatter_utils.py papers/2016-Amodei-Concrete.md
 | `pdf_extract` | Wikilink | Quoted | `pdf_extract: "[[PDF Extracts/2024-Smith.md]]"` |
 | `tags` | List | Proper list format | `tags:\n  - Ethics\n  - AI` |
 | `newtags` | String | Comma-separated | `newtags: "VirtueEthics, AIAlignment"` |
-| `ethics_overall` | String | Yes/No | `ethics_overall: "Yes"` |
+| `ethics_overall` | Integer | 0-100 score (unquoted) | `ethics_overall: 82` |
 | `ethics_perspective` | String | Category name | `ethics_perspective: "AI Safety & Alignment"` |
 | `research_topic` | String | Category name | `research_topic: "Machine Learning"` |
 | `national_ethnic_cultural` | List | Proper list | `national_ethnic_cultural:\n  - Chinese` |
-| `religious_values` | List | Proper list | `religious_values:\n  - Islam` |
+| `religious_values` | List | Proper list (derived) | `religious_values:\n  - Islam` |
+| `rv_islam` | Integer | 0-100 score (unquoted) | `rv_islam: 72` |
+| `rv_christianity` | Integer | 0-100 score (unquoted) | `rv_christianity: 0` |
+| `rv_buddhism` | Integer | 0-100 score (unquoted) | `rv_buddhism: 0` |
+| `rv_judaism` | Integer | 0-100 score (unquoted) | `rv_judaism: 0` |
+| `rv_hinduism` | Integer | 0-100 score (unquoted) | `rv_hinduism: 0` |
+| `rv_sikhism` | Integer | 0-100 score (unquoted) | `rv_sikhism: 0` |
+| `rv_confucianism` | Integer | 0-100 score (unquoted) | `rv_confucianism: 0` |
+| `rv_taoism` | Integer | 0-100 score (unquoted) | `rv_taoism: 0` |
+| `rv_shinto` | Integer | 0-100 score (unquoted) | `rv_shinto: 0` |
+| `rv_jainism` | Integer | 0-100 score (unquoted) | `rv_jainism: 0` |
+| `rv_bahai` | Integer | 0-100 score (unquoted) | `rv_bahai: 0` |
+| `rv_zoroastrianism` | Integer | 0-100 score (unquoted) | `rv_zoroastrianism: 0` |
+| `rv_ubuntu` | Integer | 0-100 score (unquoted) | `rv_ubuntu: 0` |
+| `rv_indigenous` | Integer | 0-100 score (unquoted) | `rv_indigenous: 0` |
+| `mp_mft` | Integer | 0-100 score (unquoted) | `mp_mft: 72` |
+| `mp_schwartz` | Integer | 0-100 score (unquoted) | `mp_schwartz: 0` |
+| `mp_trolley` | Integer | 0-100 score (unquoted) | `mp_trolley: 0` |
+| `mp_kohlberg` | Integer | 0-100 score (unquoted) | `mp_kohlberg: 0` |
+| `mp_dual_process` | Integer | 0-100 score (unquoted) | `mp_dual_process: 0` |
+| `mp_intuitionist` | Integer | 0-100 score (unquoted) | `mp_intuitionist: 0` |
+| `mp_dyadic` | Integer | 0-100 score (unquoted) | `mp_dyadic: 0` |
+| `mp_identity` | Integer | 0-100 score (unquoted) | `mp_identity: 0` |
+| `moral_psychology` | String | Derived display string | `moral_psychology: "Moral Foundations Theory"` |
+
+### Ethics Fields: Integer Scoring (since 2026-03-13)
+
+Ethics classification fields (`ethics_overall`, `virtue_ethics`, `deontological_ethics`, `utilitarian_ethics`) are now **unquoted integers** (0-100), not quoted strings.
+
+**Old format (legacy, still accepted during transition):**
+```yaml
+ethics_overall: "Yes"
+virtue_ethics: "No"
+```
+
+**New format:**
+```yaml
+ethics_overall: 82
+virtue_ethics: 0
+deontological_ethics: 65
+utilitarian_ethics: 0
+```
+
+**Writing:** Use `safe_yaml_set_int()` from `PYTHON/ethics_scoring.py` to write integer values safely.
+
+**Reading:** Use `parse_ethics_value()` from `PYTHON/ethics_scoring.py` to handle both legacy strings and new integers.
+
+### Moral Psychology Fields: Integer Scoring (since 2026-03-13)
+
+8 moral psychology score fields (`mp_mft`, `mp_schwartz`, `mp_trolley`, `mp_kohlberg`, `mp_dual_process`, `mp_intuitionist`, `mp_dyadic`, `mp_identity`) are **unquoted integers** (0-100). The `moral_psychology` field is now a **derived display string** computed from these scores.
+
+**Format:**
+```yaml
+mp_mft: 72
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory"
+```
+
+The mp_* fields appear immediately before `moral_psychology:` in the YAML frontmatter. Each is an integer 0-100; scores >= 50 indicate the theory is detected. The `moral_psychology` string is derived by listing all theories with score >= 50, or `N/A` if none qualify.
+
+**Writing:** Use `safe_yaml_set_int()` from `PYTHON/ethics_scoring.py` (same utility as ethics fields).
+
+**Validation:** `validate_all_papers.py` checks all 8 mp_* fields are integers 0-100 and warns if only some are present (pre-migration state).
+
+### Religious Values Fields: Integer Scoring (since 2026-03-13)
+
+14 religious values score fields (`rv_islam`, `rv_christianity`, `rv_buddhism`, `rv_judaism`, `rv_hinduism`, `rv_sikhism`, `rv_confucianism`, `rv_taoism`, `rv_shinto`, `rv_jainism`, `rv_bahai`, `rv_zoroastrianism`, `rv_ubuntu`, `rv_indigenous`) are **unquoted integers** (0-100). The `religious_values` field is now a **derived display field** computed from these scores.
+
+**Format:**
+```yaml
+religious_values: "Islam"
+rv_islam: 72
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+```
+
+The rv_* fields appear between `religious_values:` and `religious_values_list:` (or the next field) in the YAML frontmatter. Each is an integer 0-100; scores >= 50 indicate the tradition is detected. The `religious_values` field is derived by listing all traditions with score >= 50, or `N/A` if none qualify.
+
+**Writing:** Use `safe_yaml_set_int()` from `PYTHON/ethics_scoring.py` (same utility as ethics and mp_* fields).
+
+**Validation:** `validate_all_papers.py` checks all 14 rv_* fields are integers 0-100 and warns if only some are present (pre-migration state).
 
 ---
 
@@ -527,3 +624,6 @@ Before committing scripts that modify YAML:
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | 2026-02-02 | Initial standard (migrated from YAML_SAFEGUARDS.md) |
+| 1.1 | 2026-03-13 | Ethics fields now unquoted integers (0-100); added safe_yaml_set_int() guidance |
+| 1.2 | 2026-03-13 | Added 8 mp_* moral psychology score fields (0-100); moral_psychology now derived display string |
+| 1.3 | 2026-03-13 | Added 14 rv_* religious values score fields (0-100); religious_values now derived display field |

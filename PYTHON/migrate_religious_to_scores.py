@@ -35,6 +35,7 @@ from religious_scoring import (
     FIELD_DISPLAY_NAMES,
     DISPLAY_NAME_TO_FIELD,
     compute_all_rv_scores,
+    score_paper_rv,
     load_extract,
     derive_religious_values_string,
     derive_religious_values_list_string,
@@ -154,8 +155,8 @@ def migrate_paper(filepath, dry_run=False, force=False):
     # Load extract
     extract = load_extract(stem)
 
-    # Compute scores
-    scores = compute_all_rv_scores(title, abstract, extract)
+    # Compute scores (with user pin overrides)
+    scores = score_paper_rv(filename, title, abstract, extract)
 
     if already_migrated and force:
         # Re-scoring path: compare old rv_* scores with new ones

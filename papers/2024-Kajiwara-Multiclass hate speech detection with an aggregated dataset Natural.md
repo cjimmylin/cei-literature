@@ -58,7 +58,7 @@ national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: "Japanese"
 religious_values: "N/A"
-rv_islam: 0
+rv_islam: 15
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0

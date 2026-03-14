@@ -34,6 +34,27 @@
 
 ---
 
+## 2026-03-13 (Session 122)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-13 | Classification | **`classify_ethics_perspective.py` had same body-reading bug as `classify_ethics.py`:** `process_paper()` extracted title from `# heading` and abstract from `## Abstract` markdown sections (near-always empty). Fix: read `short_title:` and `abstract:` from YAML frontmatter via `get_frontmatter_value()`. When adding new classification scripts, always verify the text source is YAML frontmatter, not markdown body sections. |
+| 2026-03-13 | Classification | **Co-occurrence boost must respect FP suppression:** If a field's computed score is 0 (FP-suppressed), the co-occurrence boost was overriding it to 50 — defeating the FP system. Fix: only boost fields with pre-boost score > 0. Guard: `if scores[field] > 0: scores[field] = max(scores[field], 50)`. |
+| 2026-03-13 | Infrastructure | **Dashboard `YAML_SCALAR_FIELDS` whitelist silently ignores unlisted fields:** Adding `care_ethics` and `contractarian_ethics` YAML fields to all 2,043 papers but forgetting to add them to the dashboard scanner's `YAML_SCALAR_FIELDS` set caused CE=0/CO=0 in the generated data. The scanner returns `''` for unknown fields, `is_ethics_yes('')` returns False, and nothing errors — it just silently undercounts. Always update the scanner whitelist when adding new YAML fields. |
+| 2026-03-13 | Classification | **Author-surname FP patterns need citation-context matching:** `\bmill\b` as a utilitarian keyword matches author citations like "Mill et al. (2023)" — 8 citations = +40 from medium tier alone. Fix: add `\bmill\s+et\s+al\b`, `\bmill\s*[\(,]\s*\d{4}`, `\bmills\b` to FP list. Same pattern applies to any philosopher surname used as a keyword (avoided for Singer/Rawls by not using bare surname as keyword). |
+
+---
+
+## 2026-03-13 (Session 121)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-13 | Classification | **Demographics FP filter — identity vs theological keyword split:** Papers about hate speech, bias benchmarks, and fairness use religion names ("Muslim", "Christian", "Jewish") as demographic categories, not theological content. Splitting strong keywords into identity (religion name patterns) and theological (Quran, Hadith, Bible, etc.) sub-lists, then demoting identity-only matches when >=2 demographics context patterns fire, effectively suppresses 30-50% of Islam/Christianity false positives without losing genuine religious scholarship. Implemented in `religious_scoring.py`. |
+| 2026-03-13 | Classification | **Forward-only negative lookahead is wrong for FP gating on `\bindigenous\b`:** The old pattern `\bindigenous\b(?!.*context_words)` penalizes when context words appear *before* "indigenous" (because lookahead only checks forward text). Replacing with a targeted biological FP (`\bindigenous\s+(?:plant|species|flora...)`) is surgically precise and avoids the asymmetry problem. Same principle as the moral intuition lookbehind bug from Session 119. |
+| 2026-03-13 | Workflows | **`load_extract()` truncation is shared across all 3 scoring pipelines:** Changing `content[:10000]` → `content[:25000]` in `ethics_scoring.py` affects ethics, moral psych, AND religious scoring since all import `load_extract` from the same module. Must run all 3 test suites (284 total tests) and validate all 2,043 papers after this change. Performance impact is acceptable (~67s for full rescore). |
+
+---
+
 ## 2026-03-13 (Session 120)
 
 | Date | Category | Learning |

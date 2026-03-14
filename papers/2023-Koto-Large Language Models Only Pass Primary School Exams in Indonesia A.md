@@ -59,11 +59,11 @@ national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Javanese, Sundanese"
 religious_values: "N/A"
-rv_islam: 0
-rv_christianity: 0
+rv_islam: 10
+rv_christianity: 10
 rv_buddhism: 0
 rv_judaism: 0
-rv_hinduism: 0
+rv_hinduism: 5
 rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0

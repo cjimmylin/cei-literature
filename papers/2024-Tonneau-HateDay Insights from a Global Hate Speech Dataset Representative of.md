@@ -60,7 +60,7 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish"
 religious_values: "N/A"
-rv_islam: 0
+rv_islam: 10
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0

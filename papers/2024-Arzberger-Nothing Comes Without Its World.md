@@ -57,9 +57,9 @@ CONF-CC: "AIES 2024"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "Christianity"
+religious_values: "N/A"
 rv_islam: 0
-rv_christianity: 50
+rv_christianity: 5
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
@@ -72,7 +72,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

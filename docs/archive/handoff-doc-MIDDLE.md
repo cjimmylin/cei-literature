@@ -41,7 +41,7 @@ English (343), Multilingual (102), Chinese (99), Arabic (65), Hindi (34), Turkis
 | Values Alignment | `STATISTICS/20260216-ethical-values-alignment-benchmarks-report.md` |
 | LLM Assessment | `STATISTICS/20260216-llm-assessment-data-availability-report.md` |
 | Religious Traditions | `STATISTICS/20260216-religious-ethical-tradition-gap-analysis.md` |
-| Dashboard (HTML) | `STATISTICS/20260216-vault-dashboard.html` |
+| Dashboard (HTML) | `DASHBOARDS/20260216-vault-dashboard.html` |
 
 GitHub Pages dashboards (may need redeployment):
 - `cjimmylin.github.io/cei-dashboard/`

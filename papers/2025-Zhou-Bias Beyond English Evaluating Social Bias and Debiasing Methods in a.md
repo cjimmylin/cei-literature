@@ -61,9 +61,9 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Chinese, Indonesian, Russian, Thai"
 religious_values: "N/A"
-rv_islam: 0
+rv_islam: 5
 rv_christianity: 0
-rv_buddhism: 0
+rv_buddhism: 5
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0

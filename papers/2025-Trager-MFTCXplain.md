@@ -57,7 +57,7 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "English, Italian, Persian, Portuguese"
 religious_values: "N/A"
-rv_islam: 0
+rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0

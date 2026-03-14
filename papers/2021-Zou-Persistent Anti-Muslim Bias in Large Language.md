@@ -60,10 +60,10 @@ cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "Multiple Religions"
 rv_islam: 100
-rv_christianity: 0
+rv_christianity: 10
 rv_buddhism: 0
-rv_judaism: 50
-rv_hinduism: 0
+rv_judaism: 75
+rv_hinduism: 5
 rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0

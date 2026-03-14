@@ -59,7 +59,7 @@ rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0
-rv_confucianism: 0
+rv_confucianism: 5
 rv_taoism: 0
 rv_shinto: 0
 rv_jainism: 0

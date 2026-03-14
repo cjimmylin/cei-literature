@@ -53,11 +53,11 @@ external_pdf: "https://aclanthology.org/2022.findings-acl.165.pdf"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English"
-religious_values: "Multiple Religions"
-rv_islam: 60
+religious_values: "Christianity"
+rv_islam: 30
 rv_christianity: 90
 rv_buddhism: 0
-rv_judaism: 50
+rv_judaism: 15
 rv_hinduism: 0
 rv_sikhism: 0
 rv_confucianism: 0
@@ -68,7 +68,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam, Christianity, Judaism"
+religious_values_list: "Christianity"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

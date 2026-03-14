@@ -2,6 +2,80 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 122 (Mar 13, 2026) - Normative Ethics Scoring Audit & 5-Framework Expansion
+
+### Overview
+Multi-expert review of `ethics_scoring.py` — fixed 10 bugs/FP gaps, added 17 new keywords, expanded from 3 to 5 normative ethics frameworks by adding `care_ethics` and `contractarian_ethics` as new YAML fields across all 2,043 papers. Dashboard v12 regenerated with CE/CO support.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Bugs fixed | 10 (1 critical, 5 high, 3 medium, 1 low) |
+| New FP patterns | 15 (Mill citations, obligation, imperative, maximize, excellence) |
+| New strong keywords | 13 (across virtue/deont/util frameworks) |
+| New medium keywords | 4 (moral development/education) |
+| New YAML fields | 2 (care_ethics, contractarian_ethics) |
+| Papers migrated | 2,043 (new fields added at default 0) |
+| Field-level changes | 72 across 70 papers |
+| Newly above 50 | 7 papers |
+| Newly below 50 | 0 papers |
+| Care ethics detected | 14 papers |
+| Contractarian detected | 17 papers |
+| Tests | 117 passed (up from 59) |
+| Validation | 2,043/2,043 valid |
+| Dashboard | v12 regenerated with CE/CO filters, badges, data |
+| PDF extracts staged | 10 untracked files from prior sessions |
+
+### Key Learnings
+- [Classification] `classify_ethics_perspective.py` had same body-reading bug as `classify_ethics.py` — read from markdown `## Abstract` (near-always empty) instead of YAML `abstract:` field. Both now fixed.
+- [Classification] Co-occurrence boost must respect FP suppression — if FP reduces a field to 0, boosting it to 50 defeats the purpose of false-positive detection.
+- [Infrastructure] Dashboard `YAML_SCALAR_FIELDS` whitelist must be updated when adding new YAML fields — the scanner silently ignores unlisted fields, causing 0-counts until discovered.
+
+### Files Changed
+- papers/: 2,043 modified (care_ethics + contractarian_ethics fields added)
+- PYTHON/: 10 scripts modified/created (ethics_scoring, classify_ethics_perspective, test suite, dashboard generator, validators, migration/snapshot/diff utilities)
+- DASHBOARDS/: 3 files updated (data.js, app.js, style.css)
+- Standards/: 2 files updated (classification-logic.md, paper-metadata-schema.md)
+- PDF Extracts/: 10 new files staged
+
+## Session 121 (Mar 13, 2026) - Religious Values Scoring Accuracy Improvement
+
+### Overview
+Implemented 5-phase plan to improve religious values scoring accuracy: demographics FP filter, Indigenous keyword expansion, minority tradition keyword expansion, user pins mechanism, and extract truncation increase (10K→25K chars). All 2,043 papers rescored.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers rescored | 408 (threshold-crossing changes) |
+| Disagreements (threshold crossings) | 407 |
+| Islam FPs removed | 66 (bias/hate-speech papers) |
+| Christianity FPs removed | 31 |
+| Judaism FPs removed | 17 |
+| Hinduism FPs removed | 16 |
+| Buddhism FPs removed | 8 |
+| Indigenous new detections | +30 (7→37) |
+| Jainism new detections | +30 |
+| Christianity new detections | +80 (truncation recovery) |
+| New tests added | 27 (76→103 total) |
+| All test suites | 284 passed (103 religious + 117 ethics + 64 moral psych) |
+| Validation | 2,043/2,043 valid, 0 errors |
+
+### Key Learnings
+- [Classification] Demographics FP filter: split strong keywords into identity vs theological sub-lists; demote identity-only matches when >=2 demographics context patterns present — avoids false-triggering on bias/NLP papers
+- [Classification] Indigenous FP pattern: forward-only negative lookahead penalizes papers where context words appear before "indigenous" — replace with targeted biological FP for surgical precision
+- [Workflows] Extract truncation increase (10K→25K) is a shared `load_extract()` function affecting all 3 scoring pipelines — must verify ethics + moral psych + religious tests after change
+
+### Files Changed
+- `PYTHON/religious_scoring.py`: Demographics FP filter, keyword expansions (Indigenous, Baha'i, Zoroastrianism, Shinto, Jainism), user pins mechanism
+- `PYTHON/test_religious_scoring.py`: 27 new tests (demographics, Indigenous, minority traditions, pins)
+- `PYTHON/ethics_scoring.py`: `load_extract()` truncation 10K→25K
+- `PYTHON/migrate_religious_to_scores.py`: Use `score_paper_rv()` with pin support
+- `STATISTICS/20260313-rv-user-pins.json`: New empty pins file
+- `STATISTICS/20260313-rv-rescore-disagreements.json`: Rescore results
+- `papers/`: 408 papers modified (rv_* scores updated)
+
+---
+
 ## Session 120 (Mar 13, 2026) - Author Quality: Fix Semicolon-Fragmented Cat D Entries
 
 ### Overview

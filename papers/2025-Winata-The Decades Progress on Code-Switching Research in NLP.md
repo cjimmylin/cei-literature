@@ -55,7 +55,7 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Code-switching, Multilingual"
-religious_values: "N/A"
+religious_values: "Jainism"
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -65,12 +65,12 @@ rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0
 rv_shinto: 0
-rv_jainism: 0
+rv_jainism: 50
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: "Jainism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

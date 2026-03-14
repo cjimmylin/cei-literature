@@ -61,14 +61,14 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "Multiple Religions"
-rv_islam: 60
+rv_islam: 100
 rv_christianity: 100
 rv_buddhism: 50
-rv_judaism: 50
+rv_judaism: 60
 rv_hinduism: 50
 rv_sikhism: 0
 rv_confucianism: 0
-rv_taoism: 5
+rv_taoism: 10
 rv_shinto: 0
 rv_jainism: 0
 rv_bahai: 0

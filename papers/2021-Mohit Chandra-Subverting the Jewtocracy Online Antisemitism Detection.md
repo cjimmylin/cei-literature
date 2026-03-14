@@ -66,7 +66,7 @@ religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
-rv_judaism: 50
+rv_judaism: 100
 rv_hinduism: 0
 rv_sikhism: 0
 rv_confucianism: 0

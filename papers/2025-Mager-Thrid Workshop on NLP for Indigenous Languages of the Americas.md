@@ -57,7 +57,7 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
 languages_list: "Multilingual"
-religious_values: "N/A"
+religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,8 +71,8 @@ rv_jainism: 0
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
-rv_indigenous: 0
-religious_values_list: "N/A"
+rv_indigenous: 50
+religious_values_list: "Indigenous Spirituality"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

@@ -61,7 +61,7 @@ languages_list: "English"
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 0
-rv_buddhism: 55
+rv_buddhism: 65
 rv_judaism: 0
 rv_hinduism: 100
 rv_sikhism: 0

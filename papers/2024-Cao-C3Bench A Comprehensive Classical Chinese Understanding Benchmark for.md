@@ -57,22 +57,22 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Classical Chinese, English"
-religious_values: "Buddhism"
+religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 0
-rv_buddhism: 50
+rv_buddhism: 75
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0
-rv_confucianism: 0
-rv_taoism: 0
+rv_confucianism: 60
+rv_taoism: 50
 rv_shinto: 0
 rv_jainism: 0
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Buddhism"
+religious_values_list: "Buddhism, Confucianism, Taoism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

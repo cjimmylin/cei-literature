@@ -56,11 +56,11 @@ DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
-religious_values: "Christianity"
-rv_islam: 0
-rv_christianity: 50
+religious_values: "Multiple Religions"
+rv_islam: 100
+rv_christianity: 100
 rv_buddhism: 0
-rv_judaism: 0
+rv_judaism: 75
 rv_hinduism: 0
 rv_sikhism: 0
 rv_confucianism: 0
@@ -71,7 +71,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: "Islam, Christianity, Judaism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

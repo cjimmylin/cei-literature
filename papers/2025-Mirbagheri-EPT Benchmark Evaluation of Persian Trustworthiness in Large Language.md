@@ -58,7 +58,7 @@ national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: "Persian"
 religious_values: "N/A"
-rv_islam: 0
+rv_islam: 40
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0

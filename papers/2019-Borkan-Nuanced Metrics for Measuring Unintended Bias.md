@@ -33,8 +33,8 @@ CONF-CC: "WWW 2019"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "Islam"
-rv_islam: 50
+religious_values: "N/A"
+rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0
@@ -48,7 +48,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

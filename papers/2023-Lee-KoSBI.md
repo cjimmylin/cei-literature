@@ -53,11 +53,11 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/QM5QX7X7/2023 - KoSBI A Dat
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: "Korean"
-religious_values: "Judaism"
+religious_values: "N/A"
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
-rv_judaism: 50
+rv_judaism: 5
 rv_hinduism: 0
 rv_sikhism: 0
 rv_confucianism: 0
@@ -68,7 +68,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Judaism"
+religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

@@ -67,9 +67,9 @@ rv_shinto: 0
 rv_jainism: 0
 rv_bahai: 0
 rv_zoroastrianism: 0
-rv_ubuntu: 50
-rv_indigenous: 5
-religious_values_list: "Confucianism, Ubuntu Philosophy"
+rv_ubuntu: 100
+rv_indigenous: 50
+religious_values_list: "Confucianism, Ubuntu Philosophy, Indigenous Spirituality"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

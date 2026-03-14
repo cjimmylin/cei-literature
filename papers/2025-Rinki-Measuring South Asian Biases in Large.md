@@ -58,7 +58,7 @@ national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian, Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "Multiple Religions"
-rv_islam: 60
+rv_islam: 70
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0

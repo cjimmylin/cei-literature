@@ -59,7 +59,7 @@ languages_list: "Sinhala"
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
-rv_buddhism: 50
+rv_buddhism: 60
 rv_judaism: 0
 rv_hinduism: 0
 rv_sikhism: 0

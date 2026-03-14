@@ -61,22 +61,22 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Bengali, English, Hindi, Telugu"
-religious_values: "Jainism"
-rv_islam: 0
-rv_christianity: 0
-rv_buddhism: 0
+religious_values: "Multiple Religions"
+rv_islam: 25
+rv_christianity: 20
+rv_buddhism: 20
 rv_judaism: 0
-rv_hinduism: 0
-rv_sikhism: 0
+rv_hinduism: 15
+rv_sikhism: 50
 rv_confucianism: 0
 rv_taoism: 0
 rv_shinto: 0
-rv_jainism: 50
+rv_jainism: 75
 rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: "Sikhism, Jainism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

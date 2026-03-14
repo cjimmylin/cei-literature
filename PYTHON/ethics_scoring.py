@@ -311,7 +311,7 @@ def load_extract(stem):
                     end = content.find("---", 3)
                     if end != -1:
                         content = content[end + 3:]
-                return content[:10000]
+                return content[:25000]
             except Exception:
                 return ""
     return ""

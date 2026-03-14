@@ -60,13 +60,13 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Hindi"
-religious_values: "N/A"
-rv_islam: 0
+religious_values: "Sikhism"
+rv_islam: 15
 rv_christianity: 0
 rv_buddhism: 0
 rv_judaism: 0
-rv_hinduism: 0
-rv_sikhism: 0
+rv_hinduism: 10
+rv_sikhism: 50
 rv_confucianism: 0
 rv_taoism: 0
 rv_shinto: 0
@@ -75,7 +75,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: "Sikhism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

@@ -53,9 +53,9 @@ DATE_ADDED: 20260215
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English"
-religious_values: "N/A"
-rv_islam: 0
-rv_christianity: 0
+religious_values: "Multiple Religions"
+rv_islam: 50
+rv_christianity: 50
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0
@@ -68,7 +68,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: "Islam, Christianity"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0

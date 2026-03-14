@@ -59,11 +59,11 @@ national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Bengali"
 religious_values: "N/A"
-rv_islam: 0
-rv_christianity: 0
+rv_islam: 30
+rv_christianity: 5
 rv_buddhism: 0
 rv_judaism: 0
-rv_hinduism: 0
+rv_hinduism: 40
 rv_sikhism: 0
 rv_confucianism: 0
 rv_taoism: 0

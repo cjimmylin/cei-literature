@@ -473,6 +473,56 @@ def parse_openai():
 
 
 # ============================================================
+# 2b. PAPER BIBLIOGRAPHIC INFO
+# ============================================================
+
+def load_paper_info():
+    """Load bibliographic info from all paper YAML frontmatter.
+
+    Returns dict[paper_stem → {t, a, y, p, d, u, ab}] with short keys
+    to minimize JSON size (~400 chars per paper × 2,043 papers).
+    """
+    papers_dir = BASE / "papers"
+    info = {}
+    fields_re = {
+        't': re.compile(r'^short_title:\s*"?(.*?)"?\s*$', re.MULTILINE),
+        'a': re.compile(r'^authors:\s*"?(.*?)"?\s*$', re.MULTILINE),
+        'y': re.compile(r'^year:\s*(\S+)', re.MULTILINE),
+        'p': re.compile(r'^publication:\s*"?(.*?)"?\s*$', re.MULTILINE),
+        'd': re.compile(r'^doi:\s*(\S+)', re.MULTILINE),
+        'u': re.compile(r'^url:\s*"?(.*?)"?\s*$', re.MULTILINE),
+        'ab': re.compile(r'^abstract:\s*"(.*)"', re.MULTILINE),
+    }
+    for f in papers_dir.iterdir():
+        if not f.suffix == '.md':
+            continue
+        try:
+            text = f.read_text(encoding='utf-8')
+        except Exception:
+            continue
+        if not text.startswith('---'):
+            continue
+        # Extract frontmatter between first --- and next ---
+        parts = text[3:].split('\n---')
+        if not parts:
+            continue
+        fm = parts[0]
+        rec = {}
+        for key, pat in fields_re.items():
+            m = pat.search(fm)
+            if m:
+                val = m.group(1).strip()
+                if val:
+                    rec[key] = val
+        if 't' not in rec:
+            continue  # skip papers with no title
+        # Use stem (filename without .md) as key
+        info[f.stem] = rec
+    print(f"  Paper info loaded: {len(info)} papers")
+    return info
+
+
+# ============================================================
 # 3. IFRAME EXTRACTION
 # ============================================================
 
@@ -1094,12 +1144,34 @@ var FIELD_LABELS = {
     openai: [['s','Score'],['t','Tier'],['ty','Template'],['m','Missing Dimensions']]
 };
 
+// === Bibliographic info renderer ===
+function renderBiblio(info) {
+    var h = '';
+    if (info.t) h += '<div class="modal-field"><span class="modal-label">Title</span><span class="modal-value">' + esc(info.t) + '</span></div>';
+    if (info.a) h += '<div class="modal-field"><span class="modal-label">Authors</span><span class="modal-value">' + esc(info.a) + '</span></div>';
+    if (info.y) h += '<div class="modal-field"><span class="modal-label">Year</span><span class="modal-value">' + esc(info.y) + '</span></div>';
+    if (info.p) h += '<div class="modal-field"><span class="modal-label">Publication</span><span class="modal-value">' + esc(info.p) + '</span></div>';
+    if (info.d) h += '<div class="modal-field"><span class="modal-label">DOI</span><span class="modal-value"><a href="https://doi.org/' + esc(info.d) + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">' + esc(info.d) + '</a></span></div>';
+    if (info.u) h += '<div class="modal-field"><span class="modal-label">URL</span><span class="modal-value"><a href="' + esc(info.u) + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">' + esc(info.u) + '</a></span></div>';
+    if (info.ab) h += '<div class="modal-field" style="flex-direction:column"><span class="modal-label" style="margin-bottom:4px">Abstract</span><span class="modal-value" style="max-height:200px;overflow-y:auto;font-size:0.78rem;line-height:1.5">' + esc(info.ab) + '</span></div>';
+    return h;
+}
+
 function showPaperModal(tabId, idx) {
     var r = TAB_DATA[tabId][idx];
     if (!r) return;
     document.getElementById('paper-modal-title').textContent = r.k;
     var body = document.getElementById('paper-modal-body');
     var html = '';
+
+    // Bibliographic info first
+    var info = PAPER_INFO[r.k];
+    if (info) {
+        html += renderBiblio(info);
+        html += '<hr class="modal-divider">';
+        html += '<div class="modal-section-title">Framework Details</div>';
+    }
+
     var fields = FIELD_LABELS[tabId] || [];
     for (var i = 0; i < fields.length; i++) {
         var key = fields[i][0], label = fields[i][1];
@@ -1132,6 +1204,58 @@ function showPaperModal(tabId, idx) {
     }
     body.innerHTML = html;
     document.getElementById('paper-modal-overlay').classList.add('visible');
+}
+
+// === Modal for iframe-based tabs (biblio only) ===
+function showPaperModalByKey(paperKey) {
+    var info = PAPER_INFO[paperKey];
+    document.getElementById('paper-modal-title').textContent = paperKey;
+    var body = document.getElementById('paper-modal-body');
+    if (info) {
+        body.innerHTML = renderBiblio(info);
+    } else {
+        body.innerHTML = '<div class="modal-field"><span class="modal-value" style="color:#6a7490">Paper metadata not available</span></div>';
+    }
+    document.getElementById('paper-modal-overlay').classList.add('visible');
+}
+
+// === Setup click handlers for iframe rows ===
+function setupIframeClicks() {
+    var iframes = document.querySelectorAll('.tab-panel iframe');
+    for (var i = 0; i < iframes.length; i++) {
+        (function(iframe) {
+            function attach() {
+                try {
+                    var doc = iframe.contentDocument;
+                    if (!doc || !doc.body) return;
+                    // Inject cursor style
+                    var style = doc.createElement('style');
+                    style.textContent = 'tbody tr, #tableBody tr { cursor: pointer; } tbody tr:hover, #tableBody tr:hover { background: rgba(160,180,224,0.08) !important; }';
+                    doc.head.appendChild(style);
+                    // Find tbody — either #tableBody or first <tbody>
+                    var tbody = doc.getElementById('tableBody') || doc.querySelector('tbody');
+                    if (!tbody) return;
+                    tbody.addEventListener('click', function(e) {
+                        // Don't intercept link clicks
+                        if (e.target.tagName === 'A') return;
+                        var row = e.target.closest('tr');
+                        if (!row) return;
+                        // Extract paper key from .paper-key or .key span
+                        var keyEl = row.querySelector('.paper-key, .key');
+                        if (keyEl) {
+                            window.showPaperModalByKey(keyEl.textContent.trim());
+                        }
+                    });
+                } catch(ex) {
+                    // Cross-origin or not ready — silently skip
+                }
+            }
+            if (iframe.contentDocument && iframe.contentDocument.readyState === 'complete') {
+                attach();
+            }
+            iframe.addEventListener('load', attach);
+        })(iframes[i]);
+    }
 }
 
 function closePaperModal(event) {
@@ -1304,10 +1428,13 @@ function sortCol(tabId, col) {
     });
     doFilter(tabId);
 }
+
+// Init iframe click handlers on load
+setupIframeClicks();
 """
 
 
-def build_html(data, iframes):
+def build_html(data, iframes, paper_info):
     """Assemble the complete HTML file."""
     parts = []
 
@@ -1496,6 +1623,9 @@ def build_html(data, iframes):
     parts.append(f'TAB_DATA.lighteval = {json.dumps(data["lighteval"]["data"], ensure_ascii=False)};\n')
     parts.append(f'TAB_DATA.openai = {json.dumps(data["openai"]["data"], ensure_ascii=False)};\n')
 
+    # Paper bibliographic info for modals
+    parts.append(f'var PAPER_INFO = {json.dumps(paper_info, ensure_ascii=False)};\n')
+
     # JS rendering code
     parts.append(JS_CODE)
     parts.append('\n</script>\n')
@@ -1530,6 +1660,9 @@ def main():
     openai = parse_openai()
     print(f"  OpenAI Evals: {len(openai['data'])} rows")
 
+    print("Loading paper bibliographic info...")
+    paper_info = load_paper_info()
+
     print("Extracting existing dashboard iframes...")
     iframes = extract_iframes()
     print(f"  Found {len(iframes)} iframes")
@@ -1544,7 +1677,7 @@ def main():
     }
 
     print("Generating HTML...")
-    html = build_html(data, iframes)
+    html = build_html(data, iframes, paper_info)
 
     OUTPUT.write_text(html, encoding='utf-8')
     size_mb = len(html.encode('utf-8')) / (1024 * 1024)

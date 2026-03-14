@@ -59,7 +59,7 @@ cultures_nationalities_list: "Indian"
 languages_list: "Kannada, Malayalam, Tamil"
 religious_values: "N/A"
 rv_islam: 0
-rv_christianity: 0
+rv_christianity: 5
 rv_buddhism: 0
 rv_judaism: 0
 rv_hinduism: 0

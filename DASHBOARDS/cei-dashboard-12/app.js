@@ -33,6 +33,8 @@ const FILTER_DIMS = [
           { value: 'VE', label: 'Virtue Ethics (VE)' },
           { value: 'DE', label: 'Deontological (DE)' },
           { value: 'CU', label: 'Consequentialist (CU)' },
+          { value: 'CE', label: 'Care Ethics (CE)' },
+          { value: 'CO', label: 'Contractarian (CO)' },
       ],
       match: (p, v) => {
           switch (v) {
@@ -41,6 +43,8 @@ const FILTER_DIMS = [
               case 'VE': return !!p.ve;
               case 'DE': return !!p.de;
               case 'CU': return !!p.ue;
+              case 'CE': return !!p.ce;
+              case 'CO': return !!p.co;
               default: return false;
           }
       }},
@@ -607,6 +611,8 @@ function _ethicsBadges(p) {
     if (p.ve) tags.push('<span class="eth-badge eth-ve" title="Virtue Ethics">VE</span>');
     if (p.de) tags.push('<span class="eth-badge eth-de" title="Deontological">DE</span>');
     if (p.ue) tags.push('<span class="eth-badge eth-cu" title="Consequentialism">CU</span>');
+    if (p.ce) tags.push('<span class="eth-badge eth-ce" title="Care Ethics">CE</span>');
+    if (p.co) tags.push('<span class="eth-badge eth-co" title="Contractarian">CO</span>');
     return tags.length ? tags.join('') : '<span class="eth-badge eth-yes">Yes</span>';
 }
 
@@ -696,6 +702,8 @@ function renderPaperDetail(p) {
     if (p.ve) ethDetail.push('Virtue Ethics');
     if (p.de) ethDetail.push('Deontological');
     if (p.ue) ethDetail.push('Consequentialism/Utilitarianism');
+    if (p.ce) ethDetail.push('Care Ethics');
+    if (p.co) ethDetail.push('Contractarian Ethics');
     if (p.mp) ethDetail.push('Moral Psych: ' + p.mp);
     return `<tr class="detail-row"><td colspan="8">
         <div class="paper-detail">

@@ -990,7 +990,8 @@ ETHICS_FAMILIES = {"AIES", "FAccT"}
 
 YAML_SCALAR_FIELDS = {
     'moral_psychology', 'virtue_ethics', 'deontological_ethics',
-    'utilitarian_ethics', 'religious_values', 'national_ethnic_cultural',
+    'utilitarian_ethics', 'care_ethics', 'contractarian_ethics',
+    'religious_values', 'national_ethnic_cultural',
     'LLM_assessed', 'DATA_URL', 'ethics_overall', 'is_benchmark',
     'abstract', 'first_author', 'last_author', 'short_title',
     'url', 'doi', 'CONF-CC', 'year',
@@ -1157,10 +1158,14 @@ def build_papers_array(paper_yaml, candidates, normative_entries, entry_cats=Non
         ve_score = parse_ethics_value(fields.get("virtue_ethics", ""))
         de_score = parse_ethics_value(fields.get("deontological_ethics", ""))
         ue_score = parse_ethics_value(fields.get("utilitarian_ethics", ""))
+        ce_score = parse_ethics_value(fields.get("care_ethics", ""))
+        co_score = parse_ethics_value(fields.get("contractarian_ethics", ""))
         eo = 1 if eo_score >= 50 else 0
         ve = 1 if ve_score >= 50 else 0
         de = 1 if de_score >= 50 else 0
         ue = 1 if ue_score >= 50 else 0
+        ce = 1 if ce_score >= 50 else 0
+        co = 1 if co_score >= 50 else 0
 
         # Benchmark flags
         is_bench = 1 if fn in cand_lookup else 0
@@ -1222,7 +1227,8 @@ def build_papers_array(paper_yaml, candidates, normative_entries, entry_cats=Non
             "eo": eo,
             "eo_score": eo_score, "ve_score": ve_score,
             "de_score": de_score, "ue_score": ue_score,
-            "ve": ve, "de": de, "ue": ue,
+            "ce_score": ce_score, "co_score": co_score,
+            "ve": ve, "de": de, "ue": ue, "ce": ce, "co": co,
             "ib": is_bench, "ie": is_eval, "id": is_dataset,
             "mp": mp[:60],
             "cu": cultures[:5],  # cap at 5 cultures
@@ -1569,7 +1575,9 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
         ve_yes = is_ethics_yes(fields.get('virtue_ethics', ''))
         de_yes = is_ethics_yes(fields.get('deontological_ethics', ''))
         cu_yes = is_ethics_yes(fields.get('utilitarian_ethics', ''))
-        has_normative = any([ve_yes, de_yes, cu_yes])
+        ce_yes = is_ethics_yes(fields.get('care_ethics', ''))
+        co_yes = is_ethics_yes(fields.get('contractarian_ethics', ''))
+        has_normative = any([ve_yes, de_yes, cu_yes, ce_yes, co_yes])
         if has_normative and fn in candidates_set:
             cand = cand_lookup.get(fn, {})
             paper_fws = []
@@ -1579,6 +1587,10 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
                 paper_fws.append("DE")
             if cu_yes:
                 paper_fws.append("CU")
+            if ce_yes:
+                paper_fws.append("CE")
+            if co_yes:
+                paper_fws.append("CO")
             normative_papers_set.add(fn)
             normative_papers.append({
                 "fn": fn,
@@ -1740,10 +1752,20 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
     # Concept timeline
     cu_data["conceptTimeline"] = build_concept_timeline(cu_data["papers"], CU_CONCEPT_KEYWORDS)
 
+    ce_data = build_fw_subsection('care_ethics', 'CE', scan_fn=scan_care_keywords)
+    ce_data["concepts"] = [{"n": n, "c": c} for n, c in
+        Counter(k for sp in ce_data["papers"] for k in sp.get("kw", [])).most_common()]
+
+    co_data = build_fw_subsection('contractarian_ethics', 'CO', scan_fn=scan_contractualism_keywords)
+    co_data["concepts"] = [{"n": n, "c": c} for n, c in
+        Counter(k for sp in co_data["papers"] for k in sp.get("kw", [])).most_common()]
+
     # Overlap
     ve_fns = set(p["fn"] for p in ve_data["papers"])
     de_fns = set(p["fn"] for p in de_data["papers"])
     cu_fns = set(p["fn"] for p in cu_data["papers"])
+    ce_fns = set(p["fn"] for p in ce_data["papers"])
+    co_fns = set(p["fn"] for p in co_data["papers"])
 
     # 1a. Pairwise and triple overlap sets
     ve_de_set = ve_fns & de_fns
@@ -1837,13 +1859,17 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
     all_years = sorted(set(
         list(ve_data["yearDist"].keys()) +
         list(de_data["yearDist"].keys()) +
-        list(cu_data["yearDist"].keys())
+        list(cu_data["yearDist"].keys()) +
+        list(ce_data["yearDist"].keys()) +
+        list(co_data["yearDist"].keys())
     ))
     timeline_fw = {
         "years": [int(y) for y in all_years],
         "ve": [int(ve_data["yearDist"].get(y, 0)) for y in all_years],
         "de": [int(de_data["yearDist"].get(y, 0)) for y in all_years],
         "cu": [int(cu_data["yearDist"].get(y, 0)) for y in all_years],
+        "ce": [int(ce_data["yearDist"].get(y, 0)) for y in all_years],
+        "co": [int(co_data["yearDist"].get(y, 0)) for y in all_years],
     }
 
     # 1d. Overlap timeline by year
@@ -2060,7 +2086,7 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
 
     # ── Item 13: Full-Text Depth ─────────────────────────────────────
     EXTRACT_DIR = WS_ROOT / "PDF Extracts"
-    all_normative_fns = ve_fns | de_fns | cu_fns
+    all_normative_fns = ve_fns | de_fns | cu_fns | ce_fns | co_fns
     full_text_depth = []
     for fn in sorted(all_normative_fns):
         year_str = fn[:4] if fn[:4].isdigit() else "0000"
@@ -2126,6 +2152,10 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
                     citation_fws[philosopher]["DE"] += 1
                 if fn in cu_fns:
                     citation_fws[philosopher]["CU"] += 1
+                if fn in ce_fns:
+                    citation_fws[philosopher]["CE"] += 1
+                if fn in co_fns:
+                    citation_fws[philosopher]["CO"] += 1
 
     citations = [{"n": name, "c": count, "fws": dict(citation_fws.get(name, {}))}
                  for name, count in citation_counter.most_common()]
@@ -2139,6 +2169,8 @@ def compute_normative_data(normative_entries, candidates, paper_yaml, candidates
         "ve": ve_data,
         "de": de_data,
         "cu": cu_data,
+        "ceYaml": ce_data,
+        "coYaml": co_data,
         "overlap": overlap,
         "timelineFw": timeline_fw,
         "metaEthics": meta_ethics,
@@ -4626,7 +4658,8 @@ def main():
     normative = compute_normative_data(normative_entries, candidates, paper_yaml, candidates_set)
     print(f"  Normative: {len(normative['papers'])} papers, "
           f"VE={normative['ve']['count']}, DE={normative['de']['count']}, "
-          f"CU={normative['cu']['count']}")
+          f"CU={normative['cu']['count']}, CE={normative['ceYaml']['count']}, "
+          f"CO={normative['coYaml']['count']}")
 
     moral_psych = compute_moral_psych_data(paper_yaml, candidates, candidates_set)
     print(f"  Moral psych: {moral_psych['paperCount']} papers, "

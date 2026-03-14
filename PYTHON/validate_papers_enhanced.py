@@ -131,6 +131,19 @@ class EnhancedValidator:
         if year and not re.match(r'^(19|20)\d{2}$', str(year)):
             issues.append(f"Invalid year format: {year}")
 
+        # Check ethics score fields are present and valid
+        ethics_score_fields = ['ethics_overall', 'virtue_ethics', 'deontological_ethics',
+                               'utilitarian_ethics', 'care_ethics', 'contractarian_ethics']
+        for field in ethics_score_fields:
+            value = fm_dict.get(field)
+            if value is not None and str(value).strip() not in ('', 'Yes', 'No', 'Unknown'):
+                try:
+                    n = int(value)
+                    if not (0 <= n <= 100):
+                        issues.append(f"Ethics score out of range for '{field}': {value}")
+                except (ValueError, TypeError):
+                    issues.append(f"Invalid ethics score for '{field}': {value}")
+
         return issues
 
     def check_author_format(self, fm_dict: Dict) -> List[str]:

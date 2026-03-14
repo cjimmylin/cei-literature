@@ -417,6 +417,8 @@ button.chip-remove:hover { opacity: 1; }
 .eth-badge.eth-ve { color: #22c55e; }
 .eth-badge.eth-de { color: #6366f1; }
 .eth-badge.eth-cu { color: #f59e0b; }
+.eth-badge.eth-ce { color: #ec4899; }
+.eth-badge.eth-co { color: #14b8a6; }
 
 /* Flag badges */
 .flag-badges { display: flex; gap: 3px; flex-wrap: wrap; }

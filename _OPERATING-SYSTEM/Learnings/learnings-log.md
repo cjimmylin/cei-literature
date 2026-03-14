@@ -34,6 +34,16 @@
 
 ---
 
+## 2026-03-13 (Session 124)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-13 | Infrastructure | **`_deepDiveSubSection` makes framework promotion trivial:** `ceYaml`/`coYaml` data objects already contain all rich fields (topModels, venueTypeDist, regionDist, theoryVsEmpirical, depthHist, concepts). Promoting from accordion to full subtab only requires: (1) HTML containers with correct `id` pattern `chart-{prefix}-{key}-{chartType}`, (2) one `_deepDiveSubSection(prefix, key, data, extraCharts)` call. No data pipeline changes needed. |
+| 2026-03-13 | Infrastructure | **Sparse-data frameworks need manual rendering:** Principlism (2 papers) only has `count`, `yearDist`, `concepts` — passing it to `_deepDiveSubSection` would create empty chart containers for models/venue/regions/depth. Use manual `_yearBar` + `_horizontalBar` + `renderPaperList` for frameworks with <5 papers. |
+| 2026-03-13 | Infrastructure | **Dashboard GitHub Pages deployment pattern:** Create temp dir → `git init` → copy static files (excluding `data.js` monolith and `split_data.py`) → commit → `gh repo create --public --source=. --push` → `gh api repos/.../pages -X POST` with `source[branch]=main`. Build completes in ~30s. Each dashboard version gets its own repo for immutability. |
+
+---
+
 ## 2026-03-13 (Session 122)
 
 | Date | Category | Learning |

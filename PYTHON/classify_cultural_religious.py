@@ -13,6 +13,7 @@ LEARNINGS / DESIGN DECISIONS:
 """
 
 import re
+import sys
 import logging
 from pathlib import Path
 from typing import Tuple, Dict
@@ -25,6 +26,9 @@ from religious_scoring import (
     compute_all_rv_scores, derive_religious_values_string,
     derive_religious_values_list_string, load_extract, RV_FIELDS,
 )
+
+sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
+from insight_logger import InsightLogger
 
 logger = logging.getLogger(__name__)
 
@@ -320,10 +324,21 @@ def update_frontmatter(frontmatter: str, cultural: str, religious: str,
     return '\n'.join(new_lines)
 
 
-def process_paper(filepath: Path) -> Tuple[str, str, str]:
+def process_paper(filepath: Path, ilog: InsightLogger = None) -> Tuple[str, str, str]:
     """Process a single paper file and return classifications."""
     # Use safe YAML utilities
     frontmatter, body = read_paper(filepath)
+
+    # Capture old rv_* scores and religious_values before scoring
+    old_rv_scores = {}
+    old_religious = ""
+    if ilog:
+        for field in RV_FIELDS:
+            match = re.search(rf'^{re.escape(field)}:\s*(\d+)', frontmatter, re.MULTILINE)
+            if match:
+                old_rv_scores[field] = int(match.group(1))
+        rv_match = re.search(r'^religious_values:\s*"?([^"\n]*)"?', frontmatter, re.MULTILINE)
+        old_religious = rv_match.group(1).strip() if rv_match else ""
 
     # Extract title from YAML frontmatter short_title field
     title_match = re.search(r'^short_title:\s*["\']?(.*?)["\']?\s*$', frontmatter, re.MULTILINE)
@@ -344,6 +359,22 @@ def process_paper(filepath: Path) -> Tuple[str, str, str]:
     religious = derive_religious_values_string(rv_scores)
     religious_list = derive_religious_values_list_string(rv_scores)
 
+    # Log rv_* reclassifications and disagreements
+    if ilog:
+        for field in RV_FIELDS:
+            if field in old_rv_scores:
+                old_val = old_rv_scores[field]
+                new_val = rv_scores.get(field, 0)
+                if old_val < 50 <= new_val:
+                    ilog.reclassification(filepath.name, field, old_val, new_val)
+                elif new_val < 50 <= old_val:
+                    ilog.reclassification(filepath.name, field, old_val, new_val,
+                                          f"{field} dropped below threshold: {old_val} -> {new_val}")
+                elif abs(new_val - old_val) > 20:
+                    ilog.disagreement(filepath.name, field, old_val, new_val)
+        if old_religious and old_religious != religious:
+            ilog.reclassification(filepath.name, "religious_values", old_religious, religious)
+
     # Update the file with rv_* scores included
     new_frontmatter = update_frontmatter(frontmatter, cultural, religious,
                                          religious_list=religious_list,
@@ -361,16 +392,18 @@ def process_paper(filepath: Path) -> Tuple[str, str, str]:
 
 def main():
     """Process all papers and generate summary."""
+    ilog = InsightLogger("classify_cultural_religious")
+
     papers = list(PAPERS_DIR.glob("*.md"))
     logger.info(f"Found {len(papers)} papers to process\n")
-    
+
     cultural_counts = {}
     religious_counts = {}
     results = []
-    
+
     for paper in sorted(papers):
         try:
-            name, cultural, religious = process_paper(paper)
+            name, cultural, religious = process_paper(paper, ilog)
             results.append((name, cultural, religious))
             
             # Count cultural
@@ -422,6 +455,16 @@ def main():
     logger.info(f"\n\nTotal papers processed: {len(results)}")
     logger.info(f"Papers with cultural focus: {len(cultural_papers)}")
     logger.info(f"Papers with religious focus: {len(religious_papers)}")
+
+    # Log summary stats
+    ilog.stat(f"Processed {len(results)} papers")
+    ilog.stat(f"Papers with cultural focus: {len(cultural_papers)}")
+    ilog.stat(f"Papers with religious focus: {len(religious_papers)}")
+    for religion, count in sorted(religious_counts.items(), key=lambda x: -x[1]):
+        if religion != "N/A":
+            ilog.stat(f"Religious '{religion}': {count} papers")
+
+    ilog.finalize()
 
 
 if __name__ == "__main__":

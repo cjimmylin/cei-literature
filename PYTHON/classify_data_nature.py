@@ -39,6 +39,7 @@ This will modify all paper files in place by adding the 5 new metadata fields.
 """
 
 import re
+import sys
 from pathlib import Path
 from typing import Dict, Tuple, List
 
@@ -46,6 +47,9 @@ from vault_config import PAPERS_DIR
 
 # Import safe YAML utilities
 from yaml_frontmatter_utils import read_paper, write_paper, validate_frontmatter
+
+sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
+from insight_logger import InsightLogger
 
 
 # Keywords for each category (case-insensitive matching)
@@ -306,7 +310,7 @@ def add_classifications_to_frontmatter(frontmatter: str, classifications: Dict[s
     return '\n'.join(lines)
 
 
-def process_paper(filepath: Path) -> Tuple[bool, Dict[str, str]]:
+def process_paper(filepath: Path, ilog: InsightLogger = None) -> Tuple[bool, Dict[str, str]]:
     """
     Process a single paper file and add data nature classifications.
     Returns (success, classifications)
@@ -316,7 +320,17 @@ def process_paper(filepath: Path) -> Tuple[bool, Dict[str, str]]:
         frontmatter, remaining = read_paper(filepath)
         if not frontmatter:
             print(f"  Warning: No frontmatter found in {filepath.name}")
+            if ilog:
+                ilog.data_quality(filepath.name, "no_frontmatter", "No frontmatter found")
             return False, {}
+
+        # Capture old values for comparison
+        old_values = {}
+        if ilog:
+            for field in ("is_benchmark", "is_eval", "is_dataset"):
+                match = re.search(rf'^{field}:\s*"?([^"\n]*)"?', frontmatter, re.MULTILINE)
+                if match:
+                    old_values[field] = match.group(1).strip()
 
         # Extract title and abstract
         title = extract_title_from_content(remaining)
@@ -324,6 +338,15 @@ def process_paper(filepath: Path) -> Tuple[bool, Dict[str, str]]:
 
         # Classify the paper
         classifications = classify_paper(title, abstract)
+
+        # Log reclassifications (Yes<->No changes)
+        if ilog:
+            for field in ("is_benchmark", "is_eval", "is_dataset"):
+                if field in old_values:
+                    old_val = old_values[field]
+                    new_val = classifications.get(field, "Unknown")
+                    if old_val != new_val and old_val in ("Yes", "No") and new_val in ("Yes", "No"):
+                        ilog.reclassification(filepath.name, field, old_val, new_val)
 
         # Update frontmatter with classifications
         new_frontmatter = add_classifications_to_frontmatter(frontmatter, classifications)
@@ -349,11 +372,13 @@ def main():
     if not papers_dir.exists():
         print(f"Error: papers directory not found at {papers_dir}")
         return
-    
+
+    ilog = InsightLogger("classify_data_nature")
+
     # Get all markdown files
     paper_files = list(papers_dir.glob('*.md'))
     print(f"Found {len(paper_files)} paper files to process\n")
-    
+
     # Statistics
     stats = {
         'processed': 0,
@@ -364,12 +389,12 @@ def main():
         'has_metrics': 0,
         'no_metrics': 0,
     }
-    
+
     for i, filepath in enumerate(sorted(paper_files), 1):
         if i % 50 == 0 or i == len(paper_files):
             print(f"Processing paper {i}/{len(paper_files)}...")
-        
-        success, classifications = process_paper(filepath)
+
+        success, classifications = process_paper(filepath, ilog)
         
         if success:
             stats['processed'] += 1
@@ -398,8 +423,17 @@ def main():
     
     print(f"\n{'Papers with metrics':25} | {stats['has_metrics']:4}")
     print(f"{'Papers without metrics':25} | {stats['no_metrics']:4}")
-    
+
     print(f"\n{'='*70}")
+
+    # Log summary stats
+    ilog.stat(f"Processed {stats['processed']} papers, {stats['failed']} failed")
+    ilog.stat(f"is_benchmark: Yes={stats['is_benchmark']['Yes']}, No={stats['is_benchmark']['No']}")
+    ilog.stat(f"is_eval: Yes={stats['is_eval']['Yes']}, No={stats['is_eval']['No']}")
+    ilog.stat(f"is_dataset: Yes={stats['is_dataset']['Yes']}, No={stats['is_dataset']['No']}")
+    ilog.stat(f"Papers with metrics: {stats['has_metrics']}")
+
+    ilog.finalize()
 
 
 if __name__ == '__main__':

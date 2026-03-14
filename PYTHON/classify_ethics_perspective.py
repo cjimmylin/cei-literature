@@ -11,6 +11,7 @@ See LLM_CONTEXT.md for classification taxonomy.
 """
 
 import re
+import sys
 from pathlib import Path
 from typing import Tuple, Optional
 
@@ -18,6 +19,9 @@ from typing import Tuple, Optional
 from yaml_frontmatter_utils import read_paper, write_paper, validate_frontmatter
 from vault_config import PAPERS_DIR
 from ethics_scoring import is_ethics_yes, parse_ethics_value
+
+sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
+from insight_logger import InsightLogger
 
 
 # Ethics perspective categories with keywords
@@ -154,7 +158,7 @@ def update_frontmatter_with_perspective(frontmatter: str, perspective: str) -> s
     return '\n'.join(lines)
 
 
-def process_paper(filepath: Path) -> Tuple[bool, Optional[str]]:
+def process_paper(filepath: Path, ilog: InsightLogger = None) -> Tuple[bool, Optional[str]]:
     """
     Process a single paper file and add ethics_perspective if applicable.
     Returns (modified, perspective) - perspective is None if not applicable.
@@ -182,6 +186,9 @@ def process_paper(filepath: Path) -> Tuple[bool, Optional[str]]:
                 is_ethics_yes(contractarian_ethics)):
             return False, None
 
+        # Capture old perspective for comparison
+        old_perspective = get_frontmatter_value(frontmatter, 'ethics_perspective')
+
         # Extract title and abstract for classification
         title = get_frontmatter_value(frontmatter, 'short_title')
         abstract = get_frontmatter_value(frontmatter, 'abstract')
@@ -189,6 +196,11 @@ def process_paper(filepath: Path) -> Tuple[bool, Optional[str]]:
         # Classify the perspective
         text = f"{title} {abstract}".strip()
         perspective = classify_ethics_perspective(text)
+
+        # Log perspective changes
+        if ilog and old_perspective and old_perspective != perspective:
+            ilog.reclassification(filepath.name, "ethics_perspective",
+                                  old_perspective, perspective)
 
         # Update frontmatter
         new_frontmatter = update_frontmatter_with_perspective(frontmatter, perspective)
@@ -213,39 +225,49 @@ def main():
         print(f"Error: papers directory not found at {PAPERS_DIR}")
         return
 
+    ilog = InsightLogger("classify_ethics_perspective")
+
     paper_files = list(PAPERS_DIR.glob('*.md'))
     print(f"Found {len(paper_files)} paper files to process\n")
-    
+
     # Statistics
     perspective_counts = {}
     modified_count = 0
     skipped_count = 0
-    
+
     for i, filepath in enumerate(sorted(paper_files), 1):
         if i % 100 == 0 or i == len(paper_files):
             print(f"Processing paper {i}/{len(paper_files)}...")
-        
-        modified, perspective = process_paper(filepath)
-        
+
+        modified, perspective = process_paper(filepath, ilog)
+
         if modified and perspective:
             modified_count += 1
             perspective_counts[perspective] = perspective_counts.get(perspective, 0) + 1
         else:
             skipped_count += 1
-    
+
+    # Log stats
+    ilog.stat(f"Papers with ethics_perspective added: {modified_count}")
+    ilog.stat(f"Papers skipped: {skipped_count}")
+    for perspective, count in sorted(perspective_counts.items(), key=lambda x: -x[1]):
+        ilog.stat(f"Perspective '{perspective}': {count} papers")
+
     # Print summary
     print(f"\n{'='*70}")
     print("ETHICS PERSPECTIVE CLASSIFICATION SUMMARY")
     print(f"{'='*70}")
     print(f"\nPapers with ethics_perspective added: {modified_count}")
     print(f"Papers skipped (had specific framework or no ethics): {skipped_count}")
-    
+
     print(f"\n{'Perspective':<35} | {'Count':>6}")
     print('-' * 45)
     for perspective, count in sorted(perspective_counts.items(), key=lambda x: -x[1]):
         print(f"{perspective:<35} | {count:>6}")
-    
+
     print(f"\n{'='*70}")
+
+    ilog.finalize()
 
 
 if __name__ == '__main__':

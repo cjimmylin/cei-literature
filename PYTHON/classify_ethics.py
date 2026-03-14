@@ -14,6 +14,7 @@ See LLM_CONTEXT.md for classification taxonomy.
 """
 
 import re
+import sys
 from pathlib import Path
 from typing import Dict, Tuple
 
@@ -22,7 +23,10 @@ from vault_config import PAPERS_DIR
 # Import safe YAML utilities
 from yaml_frontmatter_utils import read_paper, write_paper, validate_frontmatter
 
-from ethics_scoring import score_paper, safe_yaml_set_int, ETHICS_FIELDS
+from ethics_scoring import score_paper, safe_yaml_set_int, ETHICS_FIELDS, parse_ethics_value
+
+sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
+from insight_logger import InsightLogger
 
 
 # Note: extract_frontmatter_and_content replaced by yaml_frontmatter_utils.read_paper
@@ -50,7 +54,7 @@ def add_classifications_to_frontmatter(frontmatter: str, classifications: dict) 
     return fm
 
 
-def process_paper(filepath: Path) -> Tuple[bool, Dict[str, str]]:
+def process_paper(filepath: Path, ilog: InsightLogger = None) -> Tuple[bool, Dict[str, str]]:
     """
     Process a single paper file and add ethics classifications.
     Returns (success, classifications)
@@ -60,7 +64,17 @@ def process_paper(filepath: Path) -> Tuple[bool, Dict[str, str]]:
         frontmatter, remaining = read_paper(filepath)
         if not frontmatter:
             print(f"  Warning: No frontmatter found in {filepath.name}")
+            if ilog:
+                ilog.data_quality(filepath.name, "no_frontmatter", "No frontmatter found")
             return False, {}
+
+        # Capture old values before scoring
+        old_values = {}
+        if ilog:
+            for f in ETHICS_FIELDS:
+                match = re.search(rf'^{re.escape(f)}:\s*(\S+)', frontmatter, re.MULTILINE)
+                if match:
+                    old_values[f] = parse_ethics_value(match.group(1))
 
         # Extract title from YAML frontmatter short_title field
         title_match = re.search(r'^short_title:\s*["\']?(.*?)["\']?\s*$', frontmatter, re.MULTILINE)
@@ -72,6 +86,20 @@ def process_paper(filepath: Path) -> Tuple[bool, Dict[str, str]]:
 
         # Score using full pipeline (loads PDF extract, respects pins)
         classifications = score_paper(str(filepath), title, abstract)
+
+        # Log reclassifications and disagreements
+        if ilog:
+            for field in ETHICS_FIELDS:
+                if field in old_values and old_values[field] is not None:
+                    new_val = classifications.get(field, 0)
+                    old_val = old_values[field]
+                    if old_val < 50 <= new_val:
+                        ilog.reclassification(filepath.name, field, old_val, new_val)
+                    elif new_val < 50 <= old_val:
+                        ilog.reclassification(filepath.name, field, old_val, new_val,
+                                              f"{field} dropped below threshold: {old_val} -> {new_val}")
+                    elif abs(new_val - old_val) > 20:
+                        ilog.disagreement(filepath.name, field, old_val, new_val)
 
         # Update frontmatter with classifications
         new_frontmatter = add_classifications_to_frontmatter(frontmatter, classifications)
@@ -98,38 +126,48 @@ def main():
     if not papers_dir.exists():
         print(f"Error: papers directory not found at {papers_dir}")
         return
-    
+
+    ilog = InsightLogger("classify_ethics")
+
     # Get all markdown files
     paper_files = list(papers_dir.glob('*.md'))
     print(f"Found {len(paper_files)} paper files to process\n")
-    
+
     # Statistics
     stats = {
         'processed': 0,
         'failed': 0,
         'scores': {f: [] for f in ETHICS_FIELDS},
     }
-    
+
     for i, filepath in enumerate(sorted(paper_files), 1):
         if i % 50 == 0 or i == len(paper_files):
             print(f"Processing paper {i}/{len(paper_files)}...")
-        
-        success, classifications = process_paper(filepath)
-        
+
+        success, classifications = process_paper(filepath, ilog)
+
         if success:
             stats['processed'] += 1
             for key, value in classifications.items():
                 stats['scores'][key].append(value)
         else:
             stats['failed'] += 1
-    
+
+    # Log summary stats
+    ilog.stat(f"Processed {stats['processed']} papers, {stats['failed']} failed")
+    for field in ETHICS_FIELDS:
+        scores = stats['scores'][field]
+        above = sum(1 for s in scores if s >= 50)
+        avg = sum(scores) / len(scores) if scores else 0
+        ilog.stat(f"{field}: {above} papers >= 50", {"avg": round(avg, 1), "total": len(scores)})
+
     # Print summary
     print(f"\n{'='*60}")
     print("CLASSIFICATION SUMMARY")
     print(f"{'='*60}")
     print(f"\nTotal papers processed: {stats['processed']}")
     print(f"Failed to process: {stats['failed']}")
-    
+
     for field in ETHICS_FIELDS:
         scores = stats['scores'][field]
         above = sum(1 for s in scores if s >= 50)
@@ -137,6 +175,8 @@ def main():
         avg = sum(scores) / len(scores) if scores else 0
         print(f"{field:25} | >=50: {above:4} | <50: {below:4} | avg: {avg:.1f}")
     print(f"\n{'='*60}")
+
+    ilog.finalize()
 
 
 if __name__ == '__main__':

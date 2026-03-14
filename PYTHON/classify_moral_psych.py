@@ -35,6 +35,7 @@ from moral_psych_scoring import (
 from ethics_scoring import safe_yaml_set_int, load_extract
 from yaml_utils import extract_frontmatter, parse_frontmatter, validate_frontmatter
 from config import PAPERS_DIR
+from insight_logger import InsightLogger
 
 # =====================================================================
 # LEGACY PATTERNS — kept for reference only. Scoring is now handled
@@ -116,7 +117,7 @@ def update_frontmatter_with_scores(fm_text: str, scores: Dict[str, int]) -> str:
         return fm_text.rstrip() + "\n" + "\n".join(mp_lines)
 
 
-def process_paper(filepath: Path) -> Tuple[str, str, Dict[str, int]]:
+def process_paper(filepath: Path, ilog: InsightLogger = None) -> Tuple[str, str, Dict[str, int]]:
     """
     Process a single paper file: compute mp_* scores and write them.
 
@@ -124,6 +125,14 @@ def process_paper(filepath: Path) -> Tuple[str, str, Dict[str, int]]:
     """
     content = filepath.read_text(encoding="utf-8")
     fm_text, body = extract_frontmatter(content)
+
+    # Capture old mp_* values before scoring
+    old_scores = {}
+    if ilog:
+        for field in MP_FIELDS:
+            match = re.search(rf'^{re.escape(field)}:\s*(\d+)', fm_text, re.MULTILINE)
+            if match:
+                old_scores[field] = int(match.group(1))
 
     title_match = re.search(r'^short_title:\s*["\']?(.*?)["\']?\s*$', fm_text, re.MULTILINE)
     title = title_match.group(1).strip() if title_match else ''
@@ -133,6 +142,20 @@ def process_paper(filepath: Path) -> Tuple[str, str, Dict[str, int]]:
 
     # Compute scores via scoring module
     scores = score_paper_mp(filepath.name, title, abstract)
+
+    # Log reclassifications and disagreements
+    if ilog:
+        for field in MP_FIELDS:
+            if field in old_scores:
+                old_val = old_scores[field]
+                new_val = scores.get(field, 0)
+                if old_val < DEFAULT_THRESHOLD <= new_val:
+                    ilog.reclassification(filepath.name, field, old_val, new_val)
+                elif new_val < DEFAULT_THRESHOLD <= old_val:
+                    ilog.reclassification(filepath.name, field, old_val, new_val,
+                                          "{} dropped below threshold: {} -> {}".format(field, old_val, new_val))
+                elif abs(new_val - old_val) > 20:
+                    ilog.disagreement(filepath.name, field, old_val, new_val)
 
     # Update frontmatter with mp_* fields + derived moral_psychology
     new_fm = update_frontmatter_with_scores(fm_text, scores)
@@ -154,6 +177,8 @@ def process_paper(filepath: Path) -> Tuple[str, str, Dict[str, int]]:
 
 def main():
     """Process all papers and generate summary."""
+    ilog = InsightLogger("classify_moral_psych")
+
     papers = list(PAPERS_DIR.glob("*.md"))
     print("Found {} papers to process\n".format(len(papers)))
 
@@ -165,7 +190,7 @@ def main():
 
     for paper in sorted(papers):
         try:
-            name, moral_psych, scores = process_paper(paper)
+            name, moral_psych, scores = process_paper(paper, ilog)
             results.append((name, moral_psych, scores))
 
             # Track per-theory bins
@@ -225,6 +250,18 @@ def main():
 
     print("\n\nTotal papers processed: {}".format(len(results)))
     print("Papers with identified psychology: {}".format(len(psych_papers)))
+
+    # Log summary stats
+    ilog.stat("Processed {} papers, {} with identified psychology".format(
+        len(results), len(psych_papers)))
+    for field in MP_FIELDS:
+        bins = theory_score_bins[field]
+        display = FIELD_DISPLAY_NAMES[field]
+        above = bins["50-79"] + bins["80-100"]
+        ilog.stat("{}: {} papers >= 50".format(display, above),
+                  {"bins": bins})
+
+    ilog.finalize()
 
 
 if __name__ == "__main__":

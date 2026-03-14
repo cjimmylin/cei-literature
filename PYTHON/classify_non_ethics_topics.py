@@ -10,6 +10,7 @@ See LLM_CONTEXT.md for classification taxonomy.
 """
 
 import re
+import sys
 from pathlib import Path
 from typing import Tuple, Optional
 
@@ -17,6 +18,9 @@ from vault_config import PAPERS_DIR
 
 # Import safe YAML utilities
 from yaml_frontmatter_utils import read_paper, write_paper, validate_frontmatter
+
+sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
+from insight_logger import InsightLogger
 
 
 # Research topic categories with keywords
@@ -142,7 +146,7 @@ def update_frontmatter_with_topic(frontmatter: str, topic: str) -> str:
     return '\n'.join(lines)
 
 
-def process_paper(filepath: Path) -> Tuple[bool, Optional[str]]:
+def process_paper(filepath: Path, ilog: InsightLogger = None) -> Tuple[bool, Optional[str]]:
     """
     Process a single paper file and add research_topic if applicable.
     Returns (modified, topic)
@@ -159,6 +163,9 @@ def process_paper(filepath: Path) -> Tuple[bool, Optional[str]]:
         if ethics_overall != 'No':
             return False, None
 
+        # Capture old topic
+        old_topic = get_frontmatter_value(frontmatter, 'research_topic')
+
         # Extract title and abstract for classification
         title_match = re.search(r'^# (.+)$', remaining, re.MULTILINE)
         title = title_match.group(1) if title_match else ''
@@ -167,6 +174,10 @@ def process_paper(filepath: Path) -> Tuple[bool, Optional[str]]:
         # Classify the topic
         text = f"{title} {abstract}".strip()
         topic = classify_topic(text)
+
+        # Log topic changes
+        if ilog and old_topic and old_topic != topic:
+            ilog.reclassification(filepath.name, "research_topic", old_topic, topic)
 
         # Update frontmatter
         new_frontmatter = update_frontmatter_with_topic(frontmatter, topic)
@@ -192,40 +203,50 @@ def main():
     if not papers_dir.exists():
         print(f"Error: papers directory not found at {papers_dir}")
         return
-    
+
+    ilog = InsightLogger("classify_non_ethics_topics")
+
     paper_files = list(papers_dir.glob('*.md'))
     print(f"Found {len(paper_files)} paper files to process\n")
-    
+
     # Statistics
     topic_counts = {}
     modified_count = 0
     skipped_count = 0
-    
+
     for i, filepath in enumerate(sorted(paper_files), 1):
         if i % 100 == 0:
             print(f"Processing paper {i}/{len(paper_files)}...")
-        
-        modified, topic = process_paper(filepath)
-        
+
+        modified, topic = process_paper(filepath, ilog)
+
         if modified and topic:
             modified_count += 1
             topic_counts[topic] = topic_counts.get(topic, 0) + 1
         else:
             skipped_count += 1
-    
+
+    # Log stats
+    ilog.stat(f"Papers with research_topic added: {modified_count}")
+    ilog.stat(f"Papers skipped: {skipped_count}")
+    for topic, count in sorted(topic_counts.items(), key=lambda x: -x[1]):
+        ilog.stat(f"Topic '{topic}': {count} papers")
+
     # Print summary
     print(f"\n{'='*70}")
     print("RESEARCH TOPIC CLASSIFICATION SUMMARY (Non-Ethics Papers)")
     print(f"{'='*70}")
     print(f"\nPapers with research_topic added: {modified_count}")
     print(f"Papers skipped (ethics_overall != No): {skipped_count}")
-    
+
     print(f"\n{'Topic':<35} | {'Count':>6}")
     print('-' * 45)
     for topic, count in sorted(topic_counts.items(), key=lambda x: -x[1]):
         print(f"{topic:<35} | {count:>6}")
-    
+
     print(f"\n{'='*70}")
+
+    ilog.finalize()
 
 
 if __name__ == '__main__':

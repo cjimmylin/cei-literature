@@ -37,5 +37,6 @@ __all__ = [
     "author_utils",
     "pdf_utils",
     "validation_utils",
+    "insight_logger",
     "__version__",
 ]

@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,29 @@ national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Indian, Social & Cultural Values"
 key_contribution: "Conducted a large-scale evaluation (Pariksha) of human vs. LLM-based evaluation across 10 Indic languages, building leaderboards for Indian NLP."
@@ -64,10 +90,10 @@ LLM_assessed: "GPT-4o, GPT-4, Llama-3, Llama-2, Mistral, Gemma, Aya"
 DATA_URL: "https://aka.ms/pariksha"
 research_topic: "Machine Translation"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 15
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"

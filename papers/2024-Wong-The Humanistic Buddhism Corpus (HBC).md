@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,30 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/6ATYMD6Y/2024 - The Humanis
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English"
-religious_values: "Buddhism"
-religious_values_list: "Buddhism"
+religious_values: "Multiple Religions"
+rv_islam: 0
+rv_christianity: 60
+rv_buddhism: 100
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Christianity, Buddhism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Chinese, Buddhism"
 tags: 
@@ -58,10 +84,10 @@ DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).md"
 local_pdf: "[[PDFs/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"

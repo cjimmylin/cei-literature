@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Can simulate historical characters"
@@ -48,8 +52,30 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/J3VV4C8K/2023 - Character-L
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Christianity"
+rv_islam: 0
+rv_christianity: 60
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Christianity"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "American, Virtue Ethics"
 key_contribution: "Introduces 'Character-LLM', a trainable agent framework that edits profiles as experiences to simulate specific human characters (simulacra)"
@@ -62,10 +88,10 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, ChatGPT, LLaMA, Vicuna"
 DATA_URL: "https://github.com/choosewhatulike/trainable-agents"
 CONFERENCE: "EMNLP 2023"
-ethics_overall: "No"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Other"
 is_benchmark: "No"
 is_eval: "Yes"

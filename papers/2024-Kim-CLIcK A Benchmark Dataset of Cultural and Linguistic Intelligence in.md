@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,29 @@ national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: "Korean"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "Claude-2, GPT-3.5, LLaMA, Llama-2"
@@ -61,10 +87,10 @@ tags:
 abstract: "Despite the rapid development of large language models (LLMs) for the Korean language, there remains an obvious lack of benchmark datasets that test the requisite Korean cultural and linguistic knowledge. Because many existing Korean benchmark datasets are derived from the English counterparts through translation, they often overlook the different cultural contexts. For the few benchmark datasets that are sourced from Korean data capturing cultural knowledge, only narrow tasks such as bias and..."
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 45
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: Yes

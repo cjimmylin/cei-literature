@@ -31,6 +31,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,29 @@ national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: "Vietnamese"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, LLaMA, Llama-3, Qwen, Qwen-2"
@@ -61,10 +87,10 @@ DATA_URL: "https://github.com/ZaloAI-Jaist/VMLU"
 tags: 
 abstract: "The evolution of Large Language Models (LLMs) has underscored the necessity for benchmarks designed for various languages and cultural contexts. To address this need for Vietnamese, we present the first Vietnamese Multitask Language Understanding (VMLU) Benchmarks. The VMLU benchmarks consist of four datasets that assess different capabilities of LLMs, including general knowledge, reading comprehension, reasoning, and conversational skills."
 CONFERENCE: "ACL 2025"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Question Answering"
 is_benchmark: "Yes"
 is_eval: "Yes"

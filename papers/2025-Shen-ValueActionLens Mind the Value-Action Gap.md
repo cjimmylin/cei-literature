@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,18 +55,40 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Existing research assesses LLMs’ values by analyzing their stated inclinations, overlooking potential discrepancies between stated values and actions—termed the “Value-Action Gap.” This study introduces ValueActionLens, a framework to evaluate the alignment between LLMs’ stated values and their value-informed actions. The framework includes a dataset of 14.8k value-informed actions across 12 cultures and 11 social topics, along with two tasks measuring alignment through three metrics."
 LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Gemma-2, Llama-3"
 DATA_URL: "https://github.com/huashen218/value_action_gap"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 30
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"

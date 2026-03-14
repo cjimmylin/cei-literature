@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,29 @@ national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
 languages_list: "German"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Llama-2, Mistral"
@@ -58,10 +84,10 @@ DATA_URL: "https://huggingface.co/datasets/LeoLM/German_benchmark"
 tags: 
 abstract: "Collection of popular English LLM benchmarks translated to German including MMLU-DE, hellaswag_de, arc_challenge_de, and truthful_qa_de. Developed as part of the LeoLM project by LAION and Hessian.AI."
 CONFERENCE: "Other Conference"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Other"
 is_benchmark: "Yes"
 is_eval: Yes

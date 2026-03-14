@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,29 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BLOOM, Llama-2, Qwen"
@@ -60,10 +86,10 @@ DATA_URL: NA
 tags: 
 abstract: "Prior research has revealed that certain abstract concepts are linearly represented as directions in the representation space of LLMs, predominantly centered around English. In this paper, we extend this investigation to a multilingual context, with a specific focus on human valuesrelated concepts (i.e., value concepts) due to their significance for AI safety. Through our comprehensive exploration covering 7 types of human values, 16 languages and 3 LLM series with distinct multilinguality (e.g."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 50
+utilitarian_ethics: 50
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
 is_eval: Yes

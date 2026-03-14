@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,8 +56,30 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese"
 cultures_nationalities_list: "Chinese, Japanese"
 languages_list: "Chinese, English, Japanese"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Multiple Religions"
+rv_islam: 50
+rv_christianity: 50
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam, Christianity"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "DeepSeek, GPT-4, Gemma-2, Llama-2, Qwen-2"
@@ -59,16 +87,16 @@ DATA_URL: "https://github.com/VelikayaScarlet/F2Bench"
 tags: 
 abstract: ". Warning: This paper contains content that may be offensive or harmful With the growing adoption of large language models (LLMs) in NLP tasks, concerns about their fairness have intensified. Yet, most existing fairness benchmarks rely on closed-ended evaluation formats, which diverge from realworld open-ended interactions. These formats are prone to position bias and introduce a 'minimum score' effect, where models can earn partial credit simply by guessing."
 CONFERENCE: "ACL 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 55
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # F2Bench: An Open-ended Fairness Evaluation Benchmark ...
 

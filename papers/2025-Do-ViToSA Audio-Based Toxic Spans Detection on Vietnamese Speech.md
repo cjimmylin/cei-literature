@@ -28,6 +28,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +56,29 @@ national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: "Vietnamese"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
@@ -58,16 +86,16 @@ DATA_URL: "https://huggingface.co/datasets/ViToSAResearch/ViToSA_Dataset"
 tags: 
 abstract: "Toxic speech on online platforms is a growing concern, impacting user experience and online safety. While text-based toxicity detection is well-studied, audio-based approaches remain underexplored, especially for low-resource languages like Vietnamese. This paper introduces VITOSA (Vietnamese Toxic Spans Audio), the first dataset for toxic spans detection in Vietnamese speech, comprising 11,000 audio samples (25 hours) with accurate human-annotated transcripts."
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Toxicity & Hate Speech"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 5
 is_benchmark: "Yes"
 is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark"
 data_metrics: "Not specified"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # ViToSA: Audio-Based Toxic Spans Detection on Vietnamese Speech Utterances
 

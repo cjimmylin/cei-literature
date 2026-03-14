@@ -30,6 +30,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +58,30 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Sikhism"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 50
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Sikhism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
@@ -61,16 +89,16 @@ DATA_URL: "https://data.mendeley.com/datasets/y3x569kk9t/2"
 tags: 
 abstract: "Gender bias continues to shape societal perceptions across both STEM (Science, Technology, Engineering, and Mathematics) and SHAPE (Social Sciences, Humanities, and the Arts for People and the Economy) domains. While existing studies have explored such biases in English language models, similar analyses in Bangla—spoken by over 240 million people—remain scarce. In this work, we investigate gender-profession associations in Bangla language models."
 CONFERENCE: "ACL 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 50
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # Assessing Gender Bias of Pretrained Bangla Language Models
 

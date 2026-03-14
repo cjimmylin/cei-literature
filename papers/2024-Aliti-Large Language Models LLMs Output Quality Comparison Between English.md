@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,10 +41,10 @@ key: LSRC0545
 type: conferencePaper
 short_title: "Large Language Models (LLMs) Output Quality: Comparison Between English and Albanian"
 year: 2024
-first_author: "[[Aliti]]"
-last_author: "[[Admirim]]"
-authors: Aliti; Admirim
-authors_incomplete: true
+first_author: "[[Admirim Aliti]]"
+last_author: "[[Admirim Aliti]]"
+authors: "Admirim Aliti"
+authors_incomplete: false
 url: "https://www.researchgate.net/publication/384927770_Large_Language_Models_LLMs_Output_Quality_Comparison_Between_English_and_Albanian"
 external_pdf: "https://arxiv.org/pdf/2307.05782v2.pdf"
 publication: ResearchGate
@@ -51,8 +55,30 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Albanian, English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Christianity"
+rv_islam: 0
+rv_christianity: 50
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Christianity"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "Claude, Gemini, GPT-4"
@@ -60,10 +86,10 @@ DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "Artificial intelligence is making spectacular progress, and one of the best examples is the development of large language models (LLMs) such as OpenAI’s GPT series. In these lectures, written for readers with a background in mathematics or physics, we give a brief history and survey of the state of the art, and describe the underlying transformer architecture in detail. We then explore some current ideas on how LLMs work and how models trained to predict the next word in a text are able to..."
 CONFERENCE: "Other Conference"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Other"
 is_benchmark: "No"
 is_eval: "Yes"

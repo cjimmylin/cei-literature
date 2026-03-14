@@ -30,6 +30,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +58,29 @@ national_ethnic_cultural: "French, German"
 cultures_nationalities_list: "French, German"
 languages_list: "French, German"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: NA
@@ -60,16 +88,16 @@ DATA_URL: "NA"
 tags: 
 abstract: "Smart applications often rely on training data in form of text. If there is a bias in that training data, the decision of the applications might not be fair. Common training data has been shown to be biased towards different groups of minorities. However, there is no generic algorithm to determine the fairness of training data. One existing approach is to measure gender bias using word embeddings. Most research in this ﬁeld has been dedicated to the English language."
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # Cultural Differences in Bias? Origin and Gender Bias in Pre-Trained German and French Word Embeddings
 

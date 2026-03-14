@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,29 @@ national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, XLM-R"
@@ -59,10 +85,10 @@ DATA_URL: "https://huggingface.co/datasets/hungnm/multilingual-amazon-review-sen
 tags: 
 abstract: "People communicate in more than 7,000 languages around the world, with around 780 languages spoken in India alone. Despite this linguistic diversity, research on Sentiment Analysis has predominantly focused on English text data, resulting in a disproportionate availability of sentiment resources for English. This paper examines the performance of transformer models in Sentiment Analysis tasks across multilingual datasets and text that has undergone machine translation."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "Yes"

@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +51,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "Trolley / Dilemmas (Psych)"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "N/A"
 newtags: "Healthcare Ethics, Utilitarianism, Deontology, Medical AI, Trolley Problem"
 key_contribution: "Evaluates 14 LLMs including GPT-o1 on medical versions of trolley dilemma, finding inconsistent utilitarian vs deontological alignment"
 significance: "Critical finding that some LLMs endorsed clearly unethical actions (e.g., amputation without consent) up to 80% of the time; raises serious concerns for clinical AI deployment"
@@ -62,10 +88,10 @@ LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Gemini, Gemma-2, Llama-3, Phi-3, Qwen-2"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 100
+utilitarian_ethics: 100
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"

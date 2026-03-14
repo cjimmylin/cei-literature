@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,29 @@ national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
 languages_list: "Basque, Spanish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "DeepSeek, o3"
@@ -61,10 +87,10 @@ DATA_URL: "https://zenodo.org/records/15014968"
 tags: 
 abstract: "The battle for AI leadership is on, with OpenAI in the United States and DeepSeek in China as key contenders. In response to these global trends, the Spanish government has proposed ALIA, a public and transparent AI infrastructure incorporating small language models designed to support Spanish and co-official languages such as Basque. This paper presents the results of Red Teaming sessions, where ten participants applied their expertise and creativity to manually test three of the latest models..."
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: Yes

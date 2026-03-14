@@ -23,6 +23,10 @@
 
 
 
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_BERBERICH2018
@@ -40,8 +44,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 50
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Virtue Ethics, AI Alignment, Imitation Learning, Value Alignment Problem"
 key_contribution: "Proposes imitation learning from moral exemplars (virtue ethics concept) can solve value alignment problem; argues virtuous AI with temperance would not pose control problem"
 significance: "Early influential work connecting Aristotelian virtue ethics with modern machine learning approaches"
@@ -53,10 +79,10 @@ DATA_URL: "NA"
 publication: arXiv
 CONF-CC: "Preprint"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 100
+virtue_ethics: 100
+deontological_ethics: 50
+utilitarian_ethics: 50
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

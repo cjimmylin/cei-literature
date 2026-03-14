@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,29 @@ national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "Claude-3, GPT-4o, GPT-4o mini, Gemini, Gemma, Llama-3, Qwen-2"
@@ -59,10 +85,10 @@ DATA_URL: "https://github.com/TMMMU-Benchmark/evaluation"
 tags: 
 abstract: "In this paper, we propose a comprehensive evaluation benchmark for Visual Language Models (VLM) in Traditional Chinese. Our evaluation suite, the first of its kind, contains two complementary components: (1) VisTWMCQ, a collection of manually curated exam multi-choice questions from 21 academic subjects designed to test the broad knowledge and reasoning capabilities of VLMs; and (2) VisTW-Dialogue, an open dialogue benchmark comprising 131 image-question pairs manually created to evaluate VLMs’..."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 5
 research_topic: "Dialogue Systems"
 is_benchmark: "Yes"
 is_eval: "Yes"

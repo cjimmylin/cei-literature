@@ -32,6 +32,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,8 +60,30 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Multiple Religions"
+rv_islam: 50
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 60
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam, Hinduism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -63,16 +91,16 @@ DATA_URL: "NA"
 tags: 
 abstract: "Critical studies found NLP systems to bias based on gender and racial identities. However, few studies focused on identities defined by cultural factors like religion and nationality. Compared to English, such research efforts are even further limited in major languages like Bengali due to the unavailability of labeled datasets. This paper describes a process for developing a bias evaluation dataset highlighting cultural influences on identity."
 CONFERENCE: "EACL 2023"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Social & Cultural Values"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: No
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+ethics_perspective: "Social & Cultural Values"
 ---
 # Toward Cultural Bias Evaluation Datasets: The Case of Bengali Gender, Religious, and National Identity (BIBED)
 

@@ -29,6 +29,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +50,30 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/5RMIU8JW/2025 - NaVAB Bench
 national_ethnic_cultural: "Chinese, French, German, American"
 cultures_nationalities_list: "Chinese, French, German, American"
 languages_list: "Chinese, English, French, German"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Jainism"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 50
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Jainism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Chinese, French, German, American, AI Safety & Alignment"
 key_contribution: "Introduced NaVAB, a benchmark for multi-national value alignment across 5 nations (CN, US, UK, FR, DE), extracting values from policy/legal documents."
@@ -60,16 +87,16 @@ DATA_URL: "https://huggingface.co/datasets/JadenGGGeee/NaVAB"
 pdf_extract: "PDF Extracts/2025/2025-Ju-NaVAB.md"
 local_pdf: "[[PDFs/2025/2025-Ju-NaVAB.pdf]]"
 CONFERENCE: "ACL 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: 60
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # NaVAB: Benchmarking Multi-National Value Alignment for Large Language Models
 

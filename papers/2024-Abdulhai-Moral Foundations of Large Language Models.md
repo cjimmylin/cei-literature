@@ -30,6 +30,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +54,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 100
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Analyzed LLMs using Moral Foundations Theory (MFT), finding they exhibit specific political/moral biases that can be adversarially steered."
@@ -62,16 +90,16 @@ DATA_URL: "https://github.com/abdulhaim/moral_foundations_llms"
 pdf_extract: "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md"
 local_pdf: "[[PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_overall: 100
+virtue_ethics: 5
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: No
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Moral Foundations of Large Language Models
 

@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +52,29 @@ national_ethnic_cultural: "Filipino"
 cultures_nationalities_list: "Filipino"
 languages_list: "English, Filipino"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Filipino, Moral Reasoning & Psychology"
 key_contribution: "Created EMoTES-3K, the first dataset for emotion-based morality in Tagalog (Filipino) and English, testing 'commonsense morality' in a low-resource language."
@@ -60,16 +88,16 @@ DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
 local_pdf: "[[PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 5
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # EMoTES-3K: Emotion-based Morality in Tagalog and English Scenarios
 

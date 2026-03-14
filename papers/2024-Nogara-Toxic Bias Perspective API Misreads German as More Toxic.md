@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,8 +56,30 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
 languages_list: "English, German"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+rv_islam: 50
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -59,16 +87,16 @@ DATA_URL: "NA"
 tags: 
 abstract: "Please check and cite the published version of this paper in the Proceedings of the 19th AAAI International Conference on Web and Social Media (ICWSM’25). Proprietary public APIs play a crucial and growing role as research tools among social scientists. Among such APIs, Google’s machine learning-based Perspective API is extensively utilized for assessing the toxicity of social media messages, providing both an important resource for researchers and automatic content moderation."
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Toxicity & Hate Speech"
+ethics_overall: 80
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Toxic Bias: Perspective API Misreads German as More Toxic
 

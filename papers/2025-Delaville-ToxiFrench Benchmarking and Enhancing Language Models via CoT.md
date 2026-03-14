@@ -28,6 +28,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,10 +42,10 @@ key: LSRC0429
 type: preprint
 short_title: "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection"
 year: 2025
-first_author: "[[Delaville]]"
-last_author: "[[Axel]]"
-authors: Delaville; Axel
-authors_incomplete: true
+first_author: "[[Axel Delaville]]"
+last_author: "[[Axel Delaville]]"
+authors: "Axel Delaville"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.11281"
 external_pdf: "https://arxiv.org/pdf/2508.11281.pdf"
 publication: arXiv
@@ -51,25 +57,47 @@ national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: "French"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, DeepSeek, GPT-4o, GPT-4o mini, Gemini, Mistral, Qwen, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/AxelDlv00/ToxiFrench"
 tags: 
 abstract: "Detecting toxic content using language models is crucial yet challenging. While substantial progress has been made in English, toxicity detection in French remains underdeveloped, primarily due to the lack of culturally relevant, human-annotated, large-scale datasets. In this work, we release TOXIFRENCH, a dataset of 53,622 French online comments together with a balanced benchmark split for systematic evaluation."
-ethics_perspective: "Toxicity & Hate Speech"
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "Not specified"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection
 

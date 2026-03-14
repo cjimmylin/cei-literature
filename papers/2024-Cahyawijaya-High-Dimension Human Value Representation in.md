@@ -31,6 +31,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,9 +55,31 @@ CONF-CC: "NAACL 2024"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Multilingual"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "Value Pluralism / Schwartz"
+religious_values: "Multiple Religions"
+rv_islam: 50
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 50
+rv_sikhism: 0
+rv_confucianism: 50
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam, Hinduism, Confucianism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "N/A"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed UniVaR, a method to represent human values in LLMs as a high-dimensional vector space, analyzing how 8 models prioritize different values across 25 languages."
 significance: "Looking beyond discrete value labels, this continuous representation enables the visualization and analysis of complex value distributions and cultural nuances encoded in language models."
@@ -65,16 +92,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "Mixtral, Aya-101, SeaLLM, BLOOMZ, ChatGLM-3, Nous-Hermes-Mixtral, SOLAR, Mistral, JAIS, Yi, Llama-2, MaralGPT, Command-R, Llama-3, ChatGPT"
 DATA_URL: "NA"
 CONFERENCE: "NAACL 2024"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_overall: 90
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "25 languages"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # High-Dimension Human Value Representation in Large Language Models
 

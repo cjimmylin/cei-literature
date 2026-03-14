@@ -31,6 +31,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,10 +45,10 @@ key: EXSR0357
 type: preprint
 short_title: "Detecting Caste and Migration Hate Speech"
 year: 2025
-first_author: "[[Chakravarthi]]"
-last_author: "[[Rajiakodi]]"
-authors: Chakravarthi; Rajiakodi
-authors_incomplete: true
+first_author: "[[Rajiakodi Chakravarthi]]"
+last_author: "[[Rajiakodi Chakravarthi]]"
+authors: "Rajiakodi Chakravarthi"
+authors_incomplete: false
 url: "https://link.springer.com/article/10.1007/s10579-025-09848-x"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-025-09848-x.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Chakravarthi-Detecting Caste and Migration Hate Speech.md"
@@ -54,7 +60,29 @@ national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Tamil"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 tags: 
@@ -62,16 +90,16 @@ abstract: "The Indian constitution categorizes its population into groups such a
 LLM_assessed: "BLOOM, RoBERTa"
 DATA_URL: "https://codalab.lisn.upsaclay.fr/competitions/16089"
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Toxicity & Hate Speech"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Detecting Caste and Migration Hate Speech in Low-Resource Tamil Language
 

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +51,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "Moral Foundations Theory, Social Intuitionist Model"
+mp_mft: 100
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory"
 newtags: Deontology
 key_contribution: "Probes the Delphi model with standardized morality questionnaires to check for consistent higher-level ethical principles"
 significance: "Finds Delphi mirrors annotator demographics rather than learning abstract ethics, questioning the viability of bottom-up moral learning"
@@ -59,10 +85,10 @@ DATE_ADDED: 20260208
 LLM_assessed: "Delphi"
 DATA_URL: "https://delphi.allenai.org/"
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
+ethics_overall: 100
+virtue_ethics: 50
+deontological_ethics: 55
+utilitarian_ethics: 50
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: No

@@ -31,6 +31,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,10 +43,10 @@ key: LSRC0320
 type: conferencePaper
 short_title: "BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian"
 year: 2025
-first_author: "[[Papadimitriou]]"
-last_author: "[[Maksim]]"
-authors: Papadimitriou; Maksim
-authors_incomplete: true
+first_author: "[[Maksim Papadimitriou]]"
+last_author: "[[Maksim Papadimitriou]]"
+authors: "Maksim Papadimitriou"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.acl-long.25/"
 external_pdf: "https://aclanthology.org/2025.acl-long.25.pdf"
 publication: "ACL Anthology (ACL 2025)"
@@ -54,7 +58,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Belarusian"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, Gemma-2, Llama-3, Mistral, Phi-3, Qwen-2"
@@ -62,10 +88,10 @@ DATA_URL: "https://hf.co/datasets/maaxap/BelarusianGLUE"
 tags: 
 abstract: "In the epoch of multilingual large language models (LLMs), it is still challenging to evaluate the models’ understanding of lowerresourced languages, which motivates further development of expert-crafted natural language understanding benchmarks. We introduce BelarusianGLUE — a natural language understanding benchmark for Belarusian, an East Slavic language, with ≈15K instances in five tasks: sentiment analysis, linguistic acceptability, word in context, Winograd schema challenge, textual..."
 CONFERENCE: "ACL 2025"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"

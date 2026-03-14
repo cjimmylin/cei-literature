@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +56,29 @@ national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: "French"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -58,16 +86,16 @@ DATA_URL: "https://github.com/Mik3M4n/help_dicrah"
 tags: 
 abstract: "ML-based hate speech detection tool for French Twitter developed in collaboration with DILCRAH (French government interministerial delegation against racism and anti-LGBTQ+ hatred). Uses translated Hatebase.org lexicon filtered for French context. Complete pipeline from data collection to online detection tool."
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Toxicity & Hate Speech"
+ethics_overall: 50
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # help_dicrah: A ML-based hate speech detection tool on Twitter (in French)
 

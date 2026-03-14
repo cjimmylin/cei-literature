@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +59,29 @@ national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "DeepSeek, Grok, Mistral, o3-mini"
@@ -62,16 +89,16 @@ DATA_URL: "https://osf.io/ubcye"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly used not only to generate text but also to evaluate it, raising urgent questions about whether their judgments are consistent, unbiased, and robust to framing effects. In this study, we systematically examine inter- and intra-model agreement across four state-of-the-art LLMs – OpenAI o3-mini, Deepseek Reasoner, xAI Grok 2, and Mistral – tasked with evaluating 4,800 narrative statements on 24 different topics of social, political, and public health..."
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 20
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # Source framing triggers systematic bias in large language models | Science Advances
 

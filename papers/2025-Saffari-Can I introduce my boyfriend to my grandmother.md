@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,30 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/MJ364QQ4/Saffari et al. - C
 national_ethnic_cultural: "Iranian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Iranian, Multicultural/Cross-cultural"
 languages_list: "English, Persian"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+rv_islam: 50
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Iranian, Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Created the 'Iranian Social Norms' (ISN) dataset (1,699 norms) to test LLMs on Iranian cultural etiquette (e.g., introducing a boyfriend to a grandmother is often taboo)."
@@ -60,10 +86,10 @@ DATA_URL: "https://github.com/hamidds/ISN"
 pdf_extract: "PDF Extracts/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
 local_pdf: "[[PDFs/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.pdf]]"
 CONFERENCE: "NAACL 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "Yes"

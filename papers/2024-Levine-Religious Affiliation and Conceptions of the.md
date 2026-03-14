@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,9 +50,31 @@ local_pdf: "[[PDFs/2024/2024-Levine-Religious Affiliation and Conceptions of the
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "Islam, Christianity, Judaism, Hinduism"
-religious_values_list: "Islam, Christianity, Judaism, Hinduism"
-moral_psychology: "N/A"
+religious_values: "Multiple Religions"
+rv_islam: 50
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 50
+rv_hinduism: 50
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam, Judaism, Hinduism"
+mp_mft: 50
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory"
 newtags: "Islam, Judaism, Hinduism, Social & Cultural Values"
 key_contribution: "Investigates how religious affiliation (Muslim, Mormon, Jewish, Hindu) influences the *scope* of the moral domain, finding that some groups moralize religious norms while others do not."
 significance: "Challenges the assumption of a universal boundary between 'moral' and 'conventional' domains, showing that AI alignment must account for deep disagreements about *what counts* as a moral issue across religions."
@@ -59,10 +85,10 @@ DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/sydneylevine/moral-domain"
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 30
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 10
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"

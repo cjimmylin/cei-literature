@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +49,30 @@ national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 50
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory"
 newtags: "Chinese, American, Deontology"
 key_contribution: "Creates a moral evaluation benchmark (CMoralEval) for Chinese LLMs based on explicit moral norms and anomies"
 significance: "Addresses the lack of culturally specific moral benchmarks, revealing Chinese LLMs' limitations in handling local ethical contexts"
@@ -58,15 +85,16 @@ LLM_assessed: "Alpaca, ChatGPT, Llama-2, Qwen, ChatGLM, InternLM, Yi, Baichuan"
 DATA_URL: "https://github.com/tjunlp-lab/CMoralEval"
 normative_ethics_benchmark: Yes
 CONFERENCE: "ACL 2024"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 95
+virtue_ethics: 50
+deontological_ethics: 50
+utilitarian_ethics: 50
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for toxicity detection"
 data_metrics: "Not specified"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
  CMoralEval: A Moral Evaluation Benchmark for Chinese Large Language Models
 

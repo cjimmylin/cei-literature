@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Elicit Human View from scratch: ValueLex"
@@ -46,8 +51,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
+mp_mft: 50
+mp_schwartz: 50
+mp_trolley: 0
+mp_kohlberg: 50
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz, Cognitive Developmental"
 newtags: "Virtue Ethics"
 key_contribution: "Introduces 'ValueLex', a framework that reconstructs LLMs' unique value systems from scratch, identifying three core non-human dimensions: Competence, Character, and Integrity"
 significance: "Reveals that LLMs possess a structured, distinct value system ('Character', 'Integrity') that differs from human personality models, necessitating bespoke metrics for 'virtuous' AI behavior"
@@ -58,15 +85,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-3, GPT-4, Llama-2, Mistral, Gemma, Baichuan, Tulu-2, GLM-3, GLM-4, Gemini"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 90
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 5
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
  Beyond Human Norms: Unveiling Unique Values of Large Language Models through Interdisciplinary Approaches
 

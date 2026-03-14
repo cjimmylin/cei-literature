@@ -29,6 +29,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,8 +55,30 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "French, German, Italian, Spanish"
 cultures_nationalities_list: "French, German, Italian, Spanish"
 languages_list: "English, French, German, Italian, Spanish"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Jainism"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 60
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Jainism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "Aya-23, Aya-Expanse, Command R, GPT-4o, Gemini, Gemma-2, Llama-3, Mistral-Small, QwQ-32B"
@@ -59,16 +86,16 @@ DATA_URL: "https://huggingface.co/datasets/felfri/M-ALERT"
 tags: 
 abstract: "Building safe Large Language Models (LLMs) across multiple languages is essential in ensuring both safe access and linguistic diversity. To this end, we conduct a large-scale, comprehensive safety evaluation of the current LLM landscape. For this purpose, we introduce M-ALERT, a multilingual benchmark that evaluates the safety of LLMs in five languages: English, French, German, Italian, and Spanish."
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: 70
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies
 

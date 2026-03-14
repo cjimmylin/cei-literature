@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +56,30 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Classical Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Confucianism"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 50
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Confucianism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
@@ -62,10 +88,10 @@ tags:
 abstract: "To fully evaluate the overall performance of different NLP models in a given domain, many evaluation benchmarks are proposed, such as GLUE, SuperGLUE and CLUE. The field of natural language understanding has traditionally focused on benchmarks for various tasks in languages such as Chinese, English, and multilingual, however, there has been a lack of attention given to the area of classical Chinese, also known as 'wen yan wen (文言文)', which has a rich history spanning thousands of years and..."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"

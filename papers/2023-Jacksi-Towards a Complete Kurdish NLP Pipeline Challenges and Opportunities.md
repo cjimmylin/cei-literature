@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,10 +42,10 @@ key: LSRC0158
 type: conferencePaper
 short_title: "Towards a Complete Kurdish NLP Pipeline: Challenges and Opportunities"
 year: 2023
-first_author: "[[Jacksi, Karwan]]"
-last_author: "[[Ali, Ismael]]"
-authors: "Jacksi, Karwan; Ali, Ismael"
-authors_incomplete: true
+first_author: "[[Karwan Jacksi]]"
+last_author: "[[Ismael Ali]]"
+authors: "Karwan Jacksi; Ismael Ali"
+authors_incomplete: false
 url: "https://journal.uad.ac.id/index.php/JIFO/article/view/26053"
 external_pdf: "https://journal.uad.ac.id/index.php/JIFO/article/download/26053/pdf_66"
 publication: "Jurnal Informatika"
@@ -53,7 +57,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Kurdish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -61,10 +87,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "Survey of Kurdish NLP pipeline covering all dialects. Identifies challenges in data scarcity, lack of standard orthography, and absence of NLP expertise for Kurdish."
 CONFERENCE: "Other Conference"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 10
+utilitarian_ethics: 0
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "No"

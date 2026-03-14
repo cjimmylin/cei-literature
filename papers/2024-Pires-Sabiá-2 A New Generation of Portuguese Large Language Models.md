@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,29 @@ national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
 languages_list: "Portuguese"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "Claude-3 Opus, Claude-3 Sonnet, GPT-3.5, GPT-4, Gemini, Mistral"
@@ -61,10 +87,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "We introduce Sabi´a-2, a family of large language models trained on Portuguese texts. The models are evaluated on a diverse range of exams, including entry-level tests for Brazilian universities, professional certification exams, and graduate-level exams for various disciplines such as accounting, economics, engineering, law and medicine. Our results reveal that our best model so far, Sabi´a-2 Medium, matches or surpasses GPT4’s performance in 23 out of 64 exams and outperforms GPT-3."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 15
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Other"
 is_benchmark: Yes
 is_eval: "Yes"

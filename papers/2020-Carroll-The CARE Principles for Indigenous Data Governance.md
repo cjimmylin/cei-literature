@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,36 @@ doi: 10.5334/dsj-2020-043
 url: "https://datascience.codata.org/articles/10.5334/dsj-2020-043"
 publication: Data Science Journal
 CONF-CC: "Data Science Journal"
-local_pdf: 
-"N/A"
+local_pdf: "[[PDFs/2020/2020-Carroll-The CARE Principles for Indigenous Data Governance.pdf]]"
+pdf_extract: "PDF Extracts/2020/2020-Carroll-The CARE Principles for Indigenous Data Governance.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "Indigenous Spirituality"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 50
 religious_values_list: "Indigenous Spirituality"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -59,10 +85,10 @@ tags:
 abstract: "Develops the CARE Principles for Indigenous Data Governance: Collective Benefit, Authority to Control, Responsibility, and Ethics. People and purpose-oriented principles reflecting the crucial role of data in advancing Indigenous innovation and self-determination. Complement FAIR principles by centering people and purpose. Developed at 2018 International Data Week workshop on Indigenous data sovereignty."
 research_topic: "Other"
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 5
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"

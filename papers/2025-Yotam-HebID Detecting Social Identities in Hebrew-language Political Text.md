@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,8 +54,30 @@ DATE_ADDED: 20260215
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "Hebrew"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Judaism"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 50
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Judaism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, Gemma-2"
@@ -59,10 +85,10 @@ DATA_URL: "https://github.com/guymorlan/hebid/"
 tags: 
 abstract: "Political language is deeply intertwined with social identities. While social identities are often shaped by specific cultural contexts, existing NLP datasets are predominantly Englishcentric and focus on coarse-grained identity categories. We introduce HEBID, the first multilabel Hebrew corpus for social identity detection. The corpus contains 5,536 sentences from Israeli politicians’ Facebook posts (Dec 2018– Apr 2021), with each sentence manually annotated for twelve nuanced social..."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
 is_eval: Yes

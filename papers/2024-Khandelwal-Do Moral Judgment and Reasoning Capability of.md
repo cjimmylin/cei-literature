@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +55,29 @@ national_ethnic_cultural: "Chinese, Indian, African/Ubuntu, Spanish, Russian, Mu
 cultures_nationalities_list: "Chinese, Indian, African/Ubuntu, Spanish, Russian, Multicultural/Cross-cultural"
 languages_list: "Chinese, English, Hindi, Russian, Spanish, Swahili"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 100
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "Cognitive Developmental"
 newtags: "Chinese, Indian, African/Ubuntu, Spanish, Russian, Cognitive Developmental, Moral Reasoning & Psychology"
 key_contribution: "Evaluated LLM moral reasoning using the Defining Issues Test (DIT) across 6 languages, finding significantly lower post-conventional reasoning scores in Hindi and Swahili compared to English/Chinese."
@@ -63,16 +91,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Llama-2"
 DATA_URL: "NA"
 CONFERENCE: "EACL 2024"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 5
+utilitarian_ethics: 15
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test
 

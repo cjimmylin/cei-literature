@@ -25,6 +25,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +51,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 5
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 90
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Cognitive Developmental"
 newtags: Utilitarianism
 key_contribution: "Frames agent behavior steering as a 'model editing' task (Behavior Editing) and introduces BEHAVIORBENCH to evaluate edits for beneficence or harm"
 significance: "Demonstrates that precise edits can globally shift an agent's moral alignment, highlighting both the capability for rapid safety patches and the dual-use risk of inducing malicious behavior"
@@ -59,15 +86,16 @@ LLM_assessed: "Claude, DeepSeek, GPT-4, GPT-4o, Gemini, Grok, Llama-2, Llama-3, 
 DATA_URL: "https://github.com/baixianghuang/behavior-edit"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: 90
+virtue_ethics: 5
+deontological_ethics: 15
+utilitarian_ethics: 5
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm
 

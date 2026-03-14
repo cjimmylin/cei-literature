@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,8 +55,30 @@ DATE_ADDED: 20260215
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Afan Oromo, Amharic, English, Ge'ez, Somali, Tigrinya"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Christianity"
+rv_islam: 0
+rv_christianity: 50
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Christianity"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "mT5"
@@ -60,10 +86,10 @@ DATA_URL: "https://github.com/EthioNLP/EthioLLM"
 tags: 
 abstract: "Large language models (LLMs) have gained popularity recently due to their outstanding performance in various downstream Natural Language Processing (NLP) tasks. However, low-resource languages are still lagging behind current state-of-the-art (SOTA) developments in the ﬁeld of NLP due to insuﬃcient resources to train LLMs. Ethiopian languages exhibit remarkable linguistic diversity, encompassing a wide array of scripts, and are imbued with profound religious and cultural signiﬁcance."
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Translation"
 is_benchmark: Yes
 is_eval: "Yes"

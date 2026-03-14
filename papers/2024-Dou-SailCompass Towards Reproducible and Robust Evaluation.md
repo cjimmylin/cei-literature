@@ -32,6 +32,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,7 +59,29 @@ national_ethnic_cultural: "Indonesian, Thai, Vietnamese"
 cultures_nationalities_list: "Indonesian, Thai, Vietnamese"
 languages_list: "Indonesian, Thai, Vietnamese"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 tags: 
@@ -63,10 +89,10 @@ abstract: "In this paper, we introduce SailCompass, a reproducible and robust ev
 LLM_assessed: "BLOOM, Gemma, GPT-3.5, Llama-2, Llama-3, Mistral, Qwen-1.5, Sea-Lion, SeaLLM, Sailor, Typhoon, VinaLLaMA"
 DATA_URL: "https://huggingface.co/datasets/sail/Sailcompass_data"
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Translation"
 is_benchmark: Yes
 is_eval: "Yes"

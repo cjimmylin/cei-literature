@@ -31,6 +31,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,10 +43,10 @@ key: LSRC0272
 type: conferencePaper
 short_title: "IberoBench: A Benchmark for LLM Evaluation in Iberian Languages"
 year: 2025
-first_author: "[[Simões, Guilherme]]"
-last_author: "[[Espinosa, Ferrando]]"
-authors: "Simões, Guilherme; Espinosa, Ferrando"
-authors_incomplete: true
+first_author: "[[Guilherme Simões]]"
+last_author: "[[Ferrando Espinosa]]"
+authors: "Guilherme Simões; Ferrando Espinosa"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.coling-main.699/"
 external_pdf: "https://aclanthology.org/2025.coling-main.699.pdf"
 publication: "ACL Anthology / COLING 2025"
@@ -54,7 +58,29 @@ national_ethnic_cultural: "Spanish, Brazilian"
 cultures_nationalities_list: "Spanish, Brazilian"
 languages_list: "Basque, Catalan, Galician, Portuguese, Spanish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, BLOOM, Falcon, Gemma, LLaMA, Llama-3, Mistral"
@@ -62,10 +88,10 @@ DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "The current best practice to measure the performance of base Large Language Models is to establish a multi-task benchmark that covers a range of capabilities of interest. Currently, however, such benchmarks are only available in a few high-resource languages. To address this situation, we present IberoBench, a multilingual, multi-task benchmark for Iberian languages (i.e., Basque, Catalan, Galician, European Spanish and European Portuguese) built on the LM Evaluation Harness framework."
 CONFERENCE: "ACL 2025"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"

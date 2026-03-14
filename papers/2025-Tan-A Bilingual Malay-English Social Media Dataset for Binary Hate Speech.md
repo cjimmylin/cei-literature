@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,10 +43,10 @@ key: LSRC0108
 type: journalArticle
 short_title: "A Bilingual Malay-English Social Media Dataset for Binary Hate Speech Detection"
 year: 2025
-first_author: "[[Tan, Jun-Chen]]"
-last_author: "[[Ong, Lee-Yeng]]"
-authors: "Tan, Jun-Chen; Leow, Meng-Chew; Ong, Lee-Yeng"
-authors_incomplete: true
+first_author: "[[Jun-Chen Tan]]"
+last_author: "[[Lee-Yeng Ong]]"
+authors: "Jun-Chen Tan; Meng-Chew Leow; Lee-Yeng Ong"
+authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925008741"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12557484/pdf/main.pdf"
 publication: "ScienceDirect (Data in Brief)"
@@ -52,7 +58,29 @@ national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "English, Malay"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
@@ -60,16 +88,16 @@ DATA_URL: "https://data.mendeley.com/datasets/mgv2n2vcb9/3"
 tags: 
 abstract: "26,985 bilingual Malay-English social media texts from five public sources for binary hate speech detection. 13,609 English and 13,376 Malay-language texts with human annotation and controlled pseudo-labelling."
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Toxicity & Hate Speech"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A Bilingual Malay-English Social Media Dataset for Binary Hate Speech Detection
 

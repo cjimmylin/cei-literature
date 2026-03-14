@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +48,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 75
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 50
+moral_psychology: "Moral Foundations Theory, Moral Identity"
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Proposes 'MoralReason', a framework using reasoning-level reinforcement learning to steer LLMs towards specific moral frameworks (utilitarian, deontological, virtue)"
 significance: "Demonstrates that LLMs can be trained to internalize and generalize consistent moral reasoning to out-of-distribution scenarios, enhancing AI safety"
@@ -57,10 +83,10 @@ LLM_assessed: Qwen
 DATA_URL: "https://huggingface.co/datasets/zankjhk/Moral-Reason-QA"
 normative_ethics_benchmark: Yes
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 100
+virtue_ethics: 50
+deontological_ethics: 50
+utilitarian_ethics: 60
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"

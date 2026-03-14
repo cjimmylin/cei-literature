@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 50
+mp_identity: 0
+moral_psychology: "Dyadic Morality"
 newtags: "Moral Reasoning, Deontology, Utilitarianism, Virtue Ethics, Top-Down Ethics"
 key_contribution: "Proposes flexible top-down framework steering LLMs to perform moral reasoning with established moral theories from interdisciplinary research"
 significance: "Demonstrates effectiveness of theory-guided approach over bottom-up crowd-sourced methods; shows all models perform best with deontological framework"
@@ -61,10 +87,10 @@ DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ethics_perspective: "Moral Reasoning & Psychology"
 CONFERENCE: "NAACL 2024"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 100
+virtue_ethics: 5
+deontological_ethics: 50
+utilitarian_ethics: 50
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "Yes"

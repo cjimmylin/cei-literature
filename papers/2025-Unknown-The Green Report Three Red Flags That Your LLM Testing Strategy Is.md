@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,29 @@ national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -59,10 +85,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "Part 1 The background to Green reporting: the implications of current trends in Green awareness for the accounting function - an introductory analysis. Part 2 The future of Green reporting: industry and commerce the trade union movement the accounting profession Green pressure groups the investor. Part 3 Green awareness - current trends: environmental disclosures in corporate annual reports in Western Europe current trends in the reporting of Green issues in the annual reports of United Kingdom companies environmental management in practice the social audit movement Green investment. Part 4 The further development of Green reporting: developing Green reporting systems - some practical implications."
 CONFERENCE: "Other Conference"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Other"
 is_benchmark: "No"
 is_eval: No

@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Danish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "Gemma, LLaMA, Llama-3, Mistral"
@@ -58,10 +84,10 @@ DATA_URL: "https://github.com/schneiderkamplab/SDU-Daisy"
 tags: 
 abstract: "We introduce a new benchmark for Danish culture via cultural heritage, Daisy, based on the curated topics from the Danish Culture Canon 2006. For each artifact in the culture canon, we query the corresponding Wikipedia page and have a language model generate random questions. This yields a sampling strategy within each work, with a mix of central of peripheral questions for each work, not only knowledge of mainstream information, but also in-depth cornerstones defining the heritage of Danish..."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 5
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"

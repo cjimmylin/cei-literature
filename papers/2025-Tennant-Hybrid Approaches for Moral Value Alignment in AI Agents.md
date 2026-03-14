@@ -23,6 +23,10 @@
 
 
 
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "combine ethics - deon, virtue, conseq"
@@ -42,8 +46,30 @@ external_pdf: "https://arxiv.org/pdf/2312.01818.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Christianity"
+rv_islam: 0
+rv_christianity: 50
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Christianity"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Systematizes moral alignment approaches into a continuum and advocates for hybrid solutions that combine rule-based (deontological) and learning-based (virtue/consequentialist) methods"
@@ -55,10 +81,10 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 100
+virtue_ethics: 50
+deontological_ethics: 50
+utilitarian_ethics: 50
 is_benchmark: "No"
 is_eval: No
 is_dataset: "No"

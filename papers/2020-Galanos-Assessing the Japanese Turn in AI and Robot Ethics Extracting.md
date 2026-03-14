@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,8 +56,30 @@ DATE_ADDED: 20260216
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: ""
-religious_values: "Buddhism, Shinto"
-religious_values_list: "Buddhism, Shinto"
+religious_values: "Shinto"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 50
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Shinto"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -59,16 +87,16 @@ DATA_URL: NA
 tags: 
 abstract: "Critically examines the Western scholarship pattern of importing Japanese ethics (including Shinto values) into AI/robot ethics without deeper examination. Uses ethnographic study of cross-cultural debate about AIBO robot to assess whether Shinto-derived values are practically relevant to human-robot interaction."
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Social & Cultural Values"
+ethics_overall: 50
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: No
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+ethics_perspective: "Social & Cultural Values"
 ---
 # Assessing the Japanese Turn in AI and Robot Ethics: Extracting Meaningful Principles Between Exoticism and Empiricism in the Case of AIBO
 

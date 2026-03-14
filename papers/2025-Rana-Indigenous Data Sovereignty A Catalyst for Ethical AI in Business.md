@@ -28,6 +28,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +56,29 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "Indigenous Spirituality"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 50
 religious_values_list: "Indigenous Spirituality"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -58,16 +86,16 @@ DATA_URL: "NA"
 tags: 
 abstract: "Addresses how digital colonialism poses a significant threat to Indigenous communities in the age of rapid AI advancement. Presents Indigenous data sovereignty as a powerful framework for resisting digital colonialism and promoting ethical AI development. Discusses OCAP principles and CARE framework as cornerstones of indigenous data governance for AI."
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Social & Cultural Values"
+ethics_overall: 50
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "Social & Cultural Values"
 ---
 # Indigenous Data Sovereignty: A Catalyst for Ethical AI in Business
 

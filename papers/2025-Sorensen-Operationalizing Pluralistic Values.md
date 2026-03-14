@@ -23,6 +23,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,13 +47,34 @@ local_pdf: "[[PDFs/2025/2025-Sorensen-Operationalizing Pluralistic Values.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.14476.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "German, American, Multicultural/Cross-cultural"
 cultures_nationalities_list: "German, American, Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 0
+mp_schwartz: 60
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Deontology, Value Pluralism, AI Alignment, Safety Trade-offs"
 key_contribution: "Reveals trade-offs between safety, inclusivity, and model behavior when aligning LLMs with pluralistic values"
 significance: "Demonstrates that single alignment objective cannot represent everyone; highlights whose voices shape AI safety"
@@ -58,15 +84,16 @@ LLM_assessed: "GPT-4o, Vicuna"
 DATA_URL: "https://github.com/DALIAALISIDDIG/AlignCure"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 60
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 15
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # Operationalizing Pluralistic Values in Large Language Model Alignment Reveals Trade-offs in Safety, Inclusivity, and Model Behavior
 

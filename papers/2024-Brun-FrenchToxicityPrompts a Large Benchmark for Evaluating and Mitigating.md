@@ -30,6 +30,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +58,29 @@ national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: "French"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BLOOM, BLOOMZ, LLaMA, Llama-2, XGLM"
@@ -61,16 +89,16 @@ tags:
 abstract: "Dataset of 50K naturally occurring French prompts and their continuations, annotated with toxicity scores from Perspective API. Evaluated 14 different LLMs from four open-source families (XGLM, BLOOM, LLaMa, LLaMa2). Found toxicity metrics grow with model size and are higher for toxic prompts. Published at TRAC Workshop @ LREC-COLING 2024."
 research_topic: "Machine Learning"
 CONFERENCE: "ACL 2024"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Toxicity & Hate Speech"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for toxicity detection"
 data_metrics: "Not specified"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitigating Toxicity in French Texts
 

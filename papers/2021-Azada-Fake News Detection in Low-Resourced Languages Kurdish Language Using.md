@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,10 +42,10 @@ key: LSRC0156
 type: journalArticle
 short_title: "Fake News Detection in Low-Resourced Languages: Kurdish Language Using Machine Learning Algorithms"
 year: 2021
-first_author: "[[Azada, Rania]]"
-last_author: "[[Sdiqa, Shajwan]]"
-authors: "Azada, Rania; Mohammeda, Bilal; Mahmuda, Rawaz; Zrara, Lanya; Sdiqa, Shajwan"
-authors_incomplete: true
+first_author: "[[Rania Azada]]"
+last_author: "[[Shajwan Sdiqa]]"
+authors: "Rania Azada; Bilal Mohammeda; Rawaz Mahmuda; Lanya Zrara; Shajwan Sdiqa"
+authors_incomplete: false
 url: "https://turcomat.org/index.php/turkbilmat/article/view/8393"
 external_pdf: "https://turcomat.org/index.php/turkbilmat/article/download/8393/6569"
 publication: "Turkish Journal of Computer and Mathematics Education"
@@ -53,7 +57,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Kurdish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -61,10 +87,10 @@ DATA_URL: "https://www.kaggle.com/datasets/azada/kurdfake"
 tags: 
 abstract: "Kurdish Fake News Detection Dataset (KDFND) of 100,962 news articles (50,751 real, 50,211 fake). Hybrid FastText-LSTM achieves 94.25% accuracy."
 CONFERENCE: "Journal"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: Yes

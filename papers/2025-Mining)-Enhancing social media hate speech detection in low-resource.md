@@ -28,6 +28,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +58,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Albanian"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "RoBERTa"
@@ -60,16 +88,16 @@ DATA_URL: "NA"
 tags: 
 abstract: "Hate speech (HS) on social media exposes public discourse and community well-being. Despite its prevalence, majority of the research and technological advances have focused on rich-resourced languages. In contrast, Albanian, a language marked by dialects, limited NLP tools, and scarcity of annotated data, remains underexplored. To address this gap, this paper explores the enhancement of automatic hate speech detection in Albanian social media using advanced deep neural techniques."
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Toxicity & Hate Speech"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 5
+utilitarian_ethics: 10
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Enhancing social media hate speech detection in low-resource languages using transformers and explainable AI
 

@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +50,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: Utilitarianism
 key_contribution: "Evaluated LLMs using psychological personality tests (Dark Triad, Big Five) to assess safety beyond simple toxicity metrics"
@@ -60,10 +86,10 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "NA"
 CONFERENCE: "EMNLP 2022"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 5
+utilitarian_ethics: 55
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: No

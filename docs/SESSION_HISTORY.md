@@ -2,6 +2,56 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 119 (Mar 13, 2026) - Moral Psych Scorer: Bug Audit & Fix + Dashboard v12
+
+### Overview
+Implemented a multi-perspective (SE, data pipeline, domain) bug audit plan against `moral_psych_scoring.py`. Fixed 2 confirmed bugs (INTUITIONIST_FP over-subtraction, bare `\bschwartz\b` FP) and 3 recall gaps (missing Shalom Schwartz, narrow dual_process vocabulary, removed `Rest`/DIT). Re-ran classifier on all 2,043 papers and generated Dashboard v12 using the updated scores.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Bugs fixed | 2 (INTUITIONIST_FP lookahead, SCHWARTZ_MEDIUM context gate) |
+| Recall gaps closed | 3 (Shalom Schwartz STRONG, System 1/2 STRONG, context-gated Rest MEDIUM) |
+| Papers rescored | 2,043 |
+| Papers with moral psych detected | 154 |
+| Validation | 2,043/2,043 valid, 0 errors |
+| Dashboard | v12 generated at `DASHBOARDS/cei-dashboard-12/` (2,571 KB, split into core+detail) |
+
+### Key Learnings
+- [Classification] `count_matches()` lowercases text before matching — uppercase abbreviation patterns like `\bSVS\b`, `\bPVQ\b` silently never match; must use lowercase versions
+- [Classification] Negative lookahead `(?!.*\bword\b)` checks forward-only — "moral intuition...statistical intuition" still triggers FP since "moral" precedes "intuition" and nothing after the first "intuition" matches; a lookbehind is needed for true context gating
+- [Workflows] Dashboard v12 re-run pattern: copy generator → change OUTPUT_DIR → run generator → copy static files from vN-1 → run `split_data.py` from inside the dashboard directory
+
+### Files Changed
+- `PYTHON/moral_psych_scoring.py`: 5 pattern fixes (INTUITIONIST_FP, SCHWARTZ_MEDIUM, SCHWARTZ_STRONG, DUAL_PROCESS_STRONG/MEDIUM, KOHLBERG_MEDIUM)
+- `PYTHON/generate_vault_dashboard_8.py`: New (copy of v7 targeting `cei-dashboard-12`)
+- `DASHBOARDS/cei-dashboard-12/`: New dashboard directory (data.js, data-core.js, data-detail.js + static files)
+- `papers/`: 2,043 mp_* fields updated
+
+---
+
+## Session 118 (Mar 13, 2026) - Eval Dashboard v2: Framework Card Redesign
+
+### Overview
+Matched the v2 eval dashboard's "Framework Profiles" cards to the v1 dashboard design. Replaced stacked `.fw-desc` divs with v1's CSS grid layout (`.framework-cards`, `.card`, `.fw-badge`, `.stats-row`, `.stat` pill badges). Caught and fixed a brace-escaping bug where the plan assumed f-string context but CSS was in a plain string.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| CSS rules replaced | 9 old → 21 new (grid, cards, badges, stats) |
+| HTML blocks replaced | 5 `.fw-desc` → 5 `.card` in `<div class="framework-cards">` grid |
+| Visual changes | 2-col responsive grid, colored fw-badges, rounded stat pills |
+| Bug caught | `{{` in plain string → literal `{{` in output CSS |
+
+### Key Learnings
+- [Workflows] CSS brace rules differ between plain strings and f-strings — always verify string type
+
+### Files Changed
+- `PYTHON/generate_eval_dashboard_v2.py`: CSS + HTML for Framework Profiles section
+- `STATISTICS/20260313-eval-framework-dashboard-v2.html`: Regenerated output
+
+---
+
 ## Session 117 (Feb 22, 2026) - Deploy Dashboard v8b to GitHub Pages
 
 ### Overview
@@ -53,10 +103,10 @@ Enriched the under-served Countries and Languages subtabs in Dashboard v8b with 
 
 ### Files Changed
 - PYTHON/generate_vault_dashboard_5b.py: +LANG_TO_FAMILY, +LANG_TO_REGION, +classify_lang_family(), +classify_lang_region(), extended compute_cultural_data() with 10 cross-tabs
-- STATISTICS/cei-dashboard-8b/index.html: +10 chart container divs in Countries & Languages subtabs
-- STATISTICS/cei-dashboard-8b/charts.js: extended _initCultural() with 10 new chart rendering calls
-- STATISTICS/cei-dashboard-8b/data.js, data-core.js, data-detail.js: regenerated
-- STATISTICS/cei-dashboard-8/data.js: regenerated (upstream)
+- DASHBOARDS/cei-dashboard-8b/index.html: +10 chart container divs in Countries & Languages subtabs
+- DASHBOARDS/cei-dashboard-8b/charts.js: extended _initCultural() with 10 new chart rendering calls
+- DASHBOARDS/cei-dashboard-8b/data.js, data-core.js, data-detail.js: regenerated
+- DASHBOARDS/cei-dashboard-8/data.js: regenerated (upstream)
 
 ---
 
@@ -79,7 +129,7 @@ Rewrote the opening narrative text for 4 Moral Psychology subtab sections in Das
 - [Workflows] `fw-accent` narrative containers use flexible height — expanding from 1-2 to 3 paragraphs requires zero CSS changes, confirmed by Normative Ethics precedent
 
 ### Files Changed
-- STATISTICS/cei-dashboard-8b/index.html: 4 narrative blocks expanded (lines ~735-812)
+- DASHBOARDS/cei-dashboard-8b/index.html: 4 narrative blocks expanded (lines ~735-812)
 
 ---
 
@@ -107,10 +157,10 @@ Redesigned the v8 dashboard overview page from a generic stats landing page into
 - [Data Quality] When moving KPI population from charts.js to app.js, must verify all element IDs still exist in the restructured HTML
 
 ### Files Changed
-- STATISTICS/cei-dashboard-8b/index.html: Overview section restructured (narrative + 8 KPIs + dim cards)
-- STATISTICS/cei-dashboard-8b/app.js: _populateOverviewDigest() replaces _computeKeyFindings()
-- STATISTICS/cei-dashboard-8b/charts.js: _initOverview() simplified (no KPIs, no top-authors chart)
-- STATISTICS/cei-dashboard-8b/style.css: ~140 lines of new overview CSS appended
+- DASHBOARDS/cei-dashboard-8b/index.html: Overview section restructured (narrative + 8 KPIs + dim cards)
+- DASHBOARDS/cei-dashboard-8b/app.js: _populateOverviewDigest() replaces _computeKeyFindings()
+- DASHBOARDS/cei-dashboard-8b/charts.js: _initOverview() simplified (no KPIs, no top-authors chart)
+- DASHBOARDS/cei-dashboard-8b/style.css: ~140 lines of new overview CSS appended
 
 ---
 
@@ -141,7 +191,7 @@ Consolidated three independently-enhanced dashboard versions into a unified v8: 
 
 ### Files Changed
 - `PYTHON/generate_vault_dashboard_5b.py`: OUTPUT_DIR→v8, +18 pattern dicts, 9 individual tradition builders, Shinto in TRADITION_META/RELIG_TRAD_PATTERNS, restructured `compute_religious_data()` return keys
-- `STATISTICS/cei-dashboard-8/` (NEW): index.html, charts.js, app.js, style.css, split_data.py, data.js, data-core.js, data-detail.js
+- `DASHBOARDS/cei-dashboard-8/` (NEW): index.html, charts.js, app.js, style.css, split_data.py, data.js, data-core.js, data-detail.js
 
 ---
 
@@ -171,11 +221,11 @@ Overhauled the Moral Psychology tab from 4 descriptive subtabs to 5 analytical s
 
 ### Files Changed
 - `PYTHON/generate_vault_dashboard_5b.py`: Output path → 7c, +6 pattern dicts, refactored `compute_moral_psych_data()` with 8 new data keys
-- `STATISTICS/cei-dashboard-7c/index.html`: 5-subtab restructure, 21 new chart containers, 6 KPIs, version badge → v7c
-- `STATISTICS/cei-dashboard-7c/charts.js`: Replaced `_initMoralPsych()` (~180 lines), updated Intersection + Model heatmaps
-- `STATISTICS/cei-dashboard-7c/app.js`: FILTER_DIMS Developmental → Reasoning + Dilemmas
-- `STATISTICS/cei-dashboard-7c/split_data.py`: Added `al`, `mt`, `ins` to SECTION_KEEP
-- `STATISTICS/cei-dashboard-7c/data.js`: Regenerated (2172 KB, 134 moral psych papers)
+- `DASHBOARDS/cei-dashboard-7c/index.html`: 5-subtab restructure, 21 new chart containers, 6 KPIs, version badge → v7c
+- `DASHBOARDS/cei-dashboard-7c/charts.js`: Replaced `_initMoralPsych()` (~180 lines), updated Intersection + Model heatmaps
+- `DASHBOARDS/cei-dashboard-7c/app.js`: FILTER_DIMS Developmental → Reasoning + Dilemmas
+- `DASHBOARDS/cei-dashboard-7c/split_data.py`: Added `al`, `mt`, `ins` to SECTION_KEEP
+- `DASHBOARDS/cei-dashboard-7c/data.js`: Regenerated (2172 KB, 134 moral psych papers)
 
 ---
 
@@ -226,12 +276,12 @@ Implemented all 14 planned improvements across 4 tiers for the Normative Ethics 
 
 ### Files Changed
 - `PYTHON/generate_vault_dashboard_5b.py`: +683 lines — 8 new helpers, 9 keyword dicts, bridge computation, all 14 items' data generation
-- `STATISTICS/cei-dashboard-7b2/index.html`: +95 lines — 29 chart containers, Norm × Psych subtab, Beyond Big Three accordion, Tier 3 section
-- `STATISTICS/cei-dashboard-7b2/charts.js`: +186 lines — `_normExtraCharts()`, `_normBridge()`, expanded `_initNormative()` and `_normOverlap()`
-- `STATISTICS/cei-dashboard-7b2/style.css`: +32 lines — 3 accent colors, accordion, depth KPI, typology badges, gap legend
-- `STATISTICS/cei-dashboard-7b2/data.js`: Regenerated (2,172 KB)
-- `STATISTICS/cei-dashboard-7b2/data-core.js`: Regenerated (1,100 KB)
-- `STATISTICS/cei-dashboard-7b2/data-detail.js`: Regenerated (861 KB)
+- `DASHBOARDS/cei-dashboard-7b2/index.html`: +95 lines — 29 chart containers, Norm × Psych subtab, Beyond Big Three accordion, Tier 3 section
+- `DASHBOARDS/cei-dashboard-7b2/charts.js`: +186 lines — `_normExtraCharts()`, `_normBridge()`, expanded `_initNormative()` and `_normOverlap()`
+- `DASHBOARDS/cei-dashboard-7b2/style.css`: +32 lines — 3 accent colors, accordion, depth KPI, typology badges, gap legend
+- `DASHBOARDS/cei-dashboard-7b2/data.js`: Regenerated (2,172 KB)
+- `DASHBOARDS/cei-dashboard-7b2/data-core.js`: Regenerated (1,100 KB)
+- `DASHBOARDS/cei-dashboard-7b2/data-detail.js`: Regenerated (861 KB)
 
 ---
 
@@ -257,7 +307,7 @@ Split the Religious Values tab from 6 grouped subtabs (Christian-Jewish, Dharmic
 
 ### Files Changed
 - `PYTHON/generate_vault_dashboard_4.py`: Added 18 regex pattern dicts, 8 individual builder functions, updated `compute_religious_data()`, added Shinto to TRADITION_META/RELIG_TRAD_PATTERNS
-- `STATISTICS/cei-dashboard-7e/` (new): Full v7e dashboard with split religious tabs
+- `DASHBOARDS/cei-dashboard-7e/` (new): Full v7e dashboard with split religious tabs
   - `index.html`: 11 subtab buttons, 8 new tradition panes with narratives
   - `style.css`: 7 new `.fw-accent-*` classes + mobile scroll
   - `charts.js`: 10 individual `_relExtendedConfigs` entries
@@ -277,7 +327,7 @@ Increased the collaboration network graph container height from 550px to 825px (
 | Change | Container height 550px → 825px |
 
 ### Files Changed
-- `STATISTICS/cei-dashboard-7b2/index.html`: Line 927 — chart container height increased to 825px
+- `DASHBOARDS/cei-dashboard-7b2/index.html`: Line 927 — chart container height increased to 825px
 
 ---
 
@@ -301,10 +351,10 @@ Added a 5-mode color selector to the collaboration network graph (80 nodes, 90 e
 
 ### Files Changed
 - `PYTHON/generate_vault_dashboard_5b.py`: Extended network node construction with 6 per-author aggregated fields
-- `STATISTICS/cei-dashboard-7b/charts.js`: Replaced static network graph with dynamic multi-mode coloring system (~250 lines)
-- `STATISTICS/cei-dashboard-7b/index.html`: Added 5-button color-mode selector bar in Collaboration subtab
-- `STATISTICS/cei-dashboard-7b/style.css`: Added `.net-color-bar` / `.net-color-btn` pill styles
-- `STATISTICS/cei-dashboard-7b/data.js`: Regenerated with enriched node data
+- `DASHBOARDS/cei-dashboard-7b/charts.js`: Replaced static network graph with dynamic multi-mode coloring system (~250 lines)
+- `DASHBOARDS/cei-dashboard-7b/index.html`: Added 5-button color-mode selector bar in Collaboration subtab
+- `DASHBOARDS/cei-dashboard-7b/style.css`: Added `.net-color-bar` / `.net-color-btn` pill styles
+- `DASHBOARDS/cei-dashboard-7b/data.js`: Regenerated with enriched node data
 
 ---
 
@@ -324,7 +374,7 @@ Fixed a filter/chart scope mismatch in the "Model Cultural Exposure" chart (Mode
 - [Dashboard] **Chart/filter scope parity:** When a chart computes data using predicate A∧B (e.g., `p.lm.includes(m) && p.cu`) but the `filterFn` only checks predicate A (e.g., `p.lm.includes(val)`), clicking a bar shows items the chart never counted. Always mirror the chart's data-selection logic in its `filterFn`.
 
 ### Files Changed
-- `STATISTICS/cei-dashboard-7/charts.js`: 1 line fix (added `&& p.cu && p.cu.length > 0` to `chart-md-model-culture` filterFn)
+- `DASHBOARDS/cei-dashboard-7/charts.js`: 1 line fix (added `&& p.cu && p.cu.length > 0` to `chart-md-model-culture` filterFn)
 
 ---
 
@@ -348,8 +398,8 @@ Extended the click-to-filter paper list pattern (built in Session 105) to all 4 
 - [Dashboard] `resolveName` priority must be `b.resolveName ? b.resolveName(params) : params.name` — the old `params.name || resolveName()` short-circuits because treemap group nodes DO set `params.name`.
 
 ### Files Changed
-- `STATISTICS/cei-dashboard-7/charts.js`: +25 lines (conference bindings), 1 line fix (`resolveName` priority)
-- `STATISTICS/cei-dashboard-7/index.html`: +8 lines (4 paper list containers)
+- `DASHBOARDS/cei-dashboard-7/charts.js`: +25 lines (conference bindings), 1 line fix (`resolveName` priority)
+- `DASHBOARDS/cei-dashboard-7/index.html`: +8 lines (4 paper list containers)
 
 ---
 
@@ -374,8 +424,8 @@ Added embedded, filterable paper tables to both Models & LLMs sub-tabs (Overview
 - [Dashboard] Removed old `onClick: FilterState.toggle('llmModel', ...)` from `chart-llm-models` bar to avoid dual filter behavior (main Paper Explorer vs local paper list).
 
 ### Files Changed
-- `STATISTICS/cei-dashboard-7/index.html`: +4 lines (paper list containers in both sub-tabs)
-- `STATISTICS/cei-dashboard-7/charts.js`: +97 lines (new method, Overview wiring, Model Depth wiring), -1 line (removed old onClick)
+- `DASHBOARDS/cei-dashboard-7/index.html`: +4 lines (paper list containers in both sub-tabs)
+- `DASHBOARDS/cei-dashboard-7/charts.js`: +97 lines (new method, Overview wiring, Model Depth wiring), -1 line (removed old onClick)
 
 ---
 
@@ -437,7 +487,7 @@ Implemented the full v7 dashboard upgrade from the expert assessment plan — ad
 - [ECharts] `chart.getDataURL({ type: 'png', pixelRatio: 2, backgroundColor })` enables client-side chart export with theme-aware backgrounds — no server-side rendering needed.
 
 ### Files Changed
-- `STATISTICS/cei-dashboard-7/`: New directory (copy of v6d + v7 features)
+- `DASHBOARDS/cei-dashboard-7/`: New directory (copy of v6d + v7 features)
   - `index.html`: +93 lines (Intersections tab, Benchmarks/Model Depth sub-tabs, Key Findings, Presets)
   - `charts.js`: +361 lines (6 new methods: _initIntersections, _initBenchmarks, _initModelDepth, _timelineYoYLabels, _injectExportBtn, _showIxDrilldown)
   - `app.js`: +137 lines (_computeKeyFindings, _initFilterPresets, OPEN_MODELS)
@@ -479,7 +529,7 @@ Audited and modernized all 42 vault skill definitions against Claude Code best p
 ## Session 101 (Feb 21, 2026) - Dashboard v6d: Column Reorder + Flags Rightmost
 
 ### Overview
-Created `STATISTICS/cei-dashboard-6d/` from v6c baseline. Moved the Flags column from position 5 (after Ethics) to position 8 (rightmost, after Model), reordering paper tables across all views: Explorer, sub-tab paper lists, and heatmap drilldown.
+Created `DASHBOARDS/cei-dashboard-6d/` from v6c baseline. Moved the Flags column from position 5 (after Ethics) to position 8 (rightmost, after Model), reordering paper tables across all views: Explorer, sub-tab paper lists, and heatmap drilldown.
 
 ### Results
 | Metric | Value |
@@ -493,15 +543,15 @@ Created `STATISTICS/cei-dashboard-6d/` from v6c baseline. Moved the Flags column
 - [Dashboard] CSS column widths are class-based (`.col-flags { width: 100px }`) and order-independent — no style changes needed for column moves
 
 ### Files Changed
-- `STATISTICS/cei-dashboard-6d/index.html`: Moved Flags `<th>` after Model in Explorer thead (line 122) and heatmap drilldown thead (line 176)
-- `STATISTICS/cei-dashboard-6d/app.js`: Moved Flags `<th>` after Model in `renderPaperList()` (line 563); moved Flags `<td>` after Model in `renderPaperRow()` (line 663)
+- `DASHBOARDS/cei-dashboard-6d/index.html`: Moved Flags `<th>` after Model in Explorer thead (line 122) and heatmap drilldown thead (line 176)
+- `DASHBOARDS/cei-dashboard-6d/app.js`: Moved Flags `<th>` after Model in `renderPaperList()` (line 563); moved Flags `<td>` after Model in `renderPaperRow()` (line 663)
 
 ---
 
 ## Session 100 (Feb 21, 2026) - Dashboard v6c: DRY Table Headers + New Columns
 
 ### Overview
-Created `STATISTICS/cei-dashboard-6c/` from v6b baseline. Implemented DRY table header architecture (`TABLE_COLS` single source of truth), added 3 new paper table columns (Moral Psych, Religion, Model), removed CSV export button, and unified all table header rendering across Explorer, heatmap drilldown, and sub-tab paper lists.
+Created `DASHBOARDS/cei-dashboard-6c/` from v6b baseline. Implemented DRY table header architecture (`TABLE_COLS` single source of truth), added 3 new paper table columns (Moral Psych, Religion, Model), removed CSV export button, and unified all table header rendering across Explorer, heatmap drilldown, and sub-tab paper lists.
 
 ### Results
 | Metric | Value |
@@ -519,15 +569,15 @@ Created `STATISTICS/cei-dashboard-6c/` from v6b baseline. Implemented DRY table 
 - [Dashboard] Compact cell rendering with `_compactArray()` uses "+N" overflow pattern (e.g. "GPT-4 +2") with full list in title tooltip — prevents wide columns from breaking table layout
 
 ### Files Changed
-- `STATISTICS/cei-dashboard-6c/app.js`: TABLE_COLS registry, _tableHeader(), _compactText(), _compactArray(), 3 new td columns in renderPaperRow(), dynamic colspan in renderPaperDetail(), dynamic header injection in init, removed CSV export block, version v6→v6c
-- `STATISTICS/cei-dashboard-6c/index.html`: Removed CSV button, simplified both `<thead>` to empty (JS populates), version v6→v6c in title/badge/footer
-- `STATISTICS/cei-dashboard-6c/style.css`: Added .col-moral-psych/.col-religion/.col-model widths, .cell-tag/.text-muted-cell styling, removed .btn-export rules + focus-visible ref
-- `STATISTICS/cei-dashboard-6c/charts.js`: Updated heatmap drilldown colspan 5→8
+- `DASHBOARDS/cei-dashboard-6c/app.js`: TABLE_COLS registry, _tableHeader(), _compactText(), _compactArray(), 3 new td columns in renderPaperRow(), dynamic colspan in renderPaperDetail(), dynamic header injection in init, removed CSV export block, version v6→v6c
+- `DASHBOARDS/cei-dashboard-6c/index.html`: Removed CSV button, simplified both `<thead>` to empty (JS populates), version v6→v6c in title/badge/footer
+- `DASHBOARDS/cei-dashboard-6c/style.css`: Added .col-moral-psych/.col-religion/.col-model widths, .cell-tag/.text-muted-cell styling, removed .btn-export rules + focus-visible ref
+- `DASHBOARDS/cei-dashboard-6c/charts.js`: Updated heatmap drilldown colspan 5→8
 
 ## Session 99 (Feb 21, 2026) - Dashboard v6b UX, Accessibility & Engineering Improvements
 
 ### Overview
-Implemented an 8-phase improvement plan on `STATISTICS/cei-dashboard-6b/` (copy of v6 baseline), adding loading UX, ARIA accessibility, responsive breakpoints, performance optimizations, dark/light theme toggle, URL state persistence, CSV export, back-to-top button, and z-index layer cleanup. All changes are plain HTML/CSS/JS for GitHub Pages — no build tools or frameworks.
+Implemented an 8-phase improvement plan on `DASHBOARDS/cei-dashboard-6b/` (copy of v6 baseline), adding loading UX, ARIA accessibility, responsive breakpoints, performance optimizations, dark/light theme toggle, URL state persistence, CSV export, back-to-top button, and z-index layer cleanup. All changes are plain HTML/CSS/JS for GitHub Pages — no build tools or frameworks.
 
 ### Results
 | Metric | Value |
@@ -549,15 +599,15 @@ Implemented an 8-phase improvement plan on `STATISTICS/cei-dashboard-6b/` (copy 
 - [Dashboard] Single-pass Map accumulator for MultiSelect counts reduces O(options × papers) to O(papers) — precompute counts in one loop instead of `.filter().length` per option
 
 ### Files Changed
-- `STATISTICS/cei-dashboard-6b/index.html`: Loading splash, skip link, ARIA roles on tabs/sections, theme toggle button, CSV export button, back-to-top button, ECharts error boundary, version v4→v6
-- `STATISTICS/cei-dashboard-6b/style.css`: Splash animation, focus-visible outlines, responsive breakpoints (600px/900px), light theme vars, theme toggle, export/back-to-top styles, z-index layer scale
-- `STATISTICS/cei-dashboard-6b/app.js`: ThemeManager, URLState, keyboard tab nav, ARIA updates, pagination delegation, MultiSelect count optimization, CSV export, back-to-top handler, version v4→v6
-- `STATISTICS/cei-dashboard-6b/charts.js`: `_resolveThemeColors()` CSS var reader, resize debounce, auto chart ARIA labels, ~30 hardcoded colors → `_tc.*` refs, version v4→v6
+- `DASHBOARDS/cei-dashboard-6b/index.html`: Loading splash, skip link, ARIA roles on tabs/sections, theme toggle button, CSV export button, back-to-top button, ECharts error boundary, version v4→v6
+- `DASHBOARDS/cei-dashboard-6b/style.css`: Splash animation, focus-visible outlines, responsive breakpoints (600px/900px), light theme vars, theme toggle, export/back-to-top styles, z-index layer scale
+- `DASHBOARDS/cei-dashboard-6b/app.js`: ThemeManager, URLState, keyboard tab nav, ARIA updates, pagination delegation, MultiSelect count optimization, CSV export, back-to-top handler, version v4→v6
+- `DASHBOARDS/cei-dashboard-6b/charts.js`: `_resolveThemeColors()` CSS var reader, resize debounce, auto chart ARIA labels, ~30 hardcoded colors → `_tc.*` refs, version v4→v6
 
 ## Session 98 (Feb 20, 2026) - Dashboard v5f "Patina" Redesign
 
 ### Overview
-Complete visual redesign of Dashboard v5f (`STATISTICS/cei-dashboard-5f/`), applying a "Patina" aesthetic inspired by museum vitrines and precision scientific instruments. Replaced generic indigo/Tailwind palette with verdigris teal + copper on warm charcoal, added 3-tier Google Fonts typography (Instrument Serif + Plus Jakarta Sans + JetBrains Mono), grain texture overlay, and staggered KPI card animations.
+Complete visual redesign of Dashboard v5f (`DASHBOARDS/cei-dashboard-5f/`), applying a "Patina" aesthetic inspired by museum vitrines and precision scientific instruments. Replaced generic indigo/Tailwind palette with verdigris teal + copper on warm charcoal, added 3-tier Google Fonts typography (Instrument Serif + Plus Jakarta Sans + JetBrains Mono), grain texture overlay, and staggered KPI card animations.
 
 ### Results
 | Metric | Value |
@@ -575,15 +625,15 @@ Complete visual redesign of Dashboard v5f (`STATISTICS/cei-dashboard-5f/`), appl
 - [Dashboard] SVG fractalNoise inline data URI at 2% opacity adds subtle material texture without network requests — key differentiator from flat digital dashboards
 
 ### Files Changed
-- `STATISTICS/cei-dashboard-5f/style.css`: Full Patina theme (27 CSS vars, 3 font families, grain overlay, KPI animations, hover glow, framework accent borders)
-- `STATISTICS/cei-dashboard-5f/index.html`: Google Fonts preconnect + links, v5f title/badge/footer
-- `STATISTICS/cei-dashboard-5f/charts.js`: Systematic color migration (27 hex, 11 RGBA, 2 treemap gradients, template literals)
-- `STATISTICS/cei-dashboard-5f/app.js`: v5f comment header, error color update
+- `DASHBOARDS/cei-dashboard-5f/style.css`: Full Patina theme (27 CSS vars, 3 font families, grain overlay, KPI animations, hover glow, framework accent borders)
+- `DASHBOARDS/cei-dashboard-5f/index.html`: Google Fonts preconnect + links, v5f title/badge/footer
+- `DASHBOARDS/cei-dashboard-5f/charts.js`: Systematic color migration (27 hex, 11 RGBA, 2 treemap gradients, template literals)
+- `DASHBOARDS/cei-dashboard-5f/app.js`: v5f comment header, error color update
 
 ## Session 97 (Feb 20, 2026) - Dashboard v5e "Archival Modernism" Redesign
 
 ### Overview
-Complete visual redesign of Dashboard v5e (`STATISTICS/cei-dashboard-5e/`), applying an "Archival Modernism" aesthetic inspired by museum exhibition design. Replaced the cold navy/indigo Tailwind palette with warm ink-and-parchment tones, added serif display typography, loading splash screen, and dark/light theme toggle.
+Complete visual redesign of Dashboard v5e (`DASHBOARDS/cei-dashboard-5e/`), applying an "Archival Modernism" aesthetic inspired by museum exhibition design. Replaced the cold navy/indigo Tailwind palette with warm ink-and-parchment tones, added serif display typography, loading splash screen, and dark/light theme toggle.
 
 ### Results
 | Metric | Value |
@@ -602,10 +652,10 @@ Complete visual redesign of Dashboard v5e (`STATISTICS/cei-dashboard-5e/`), appl
 - [Dashboard] Serif display + geometric sans body pairing (Newsreader + DM Sans) creates academic gravitas; Google Fonts `preconnect` prevents FOIT
 
 ### Files Changed
-- `STATISTICS/cei-dashboard-5e/style.css`: Complete redesign (new palette, typography, responsive, theme toggle)
-- `STATISTICS/cei-dashboard-5e/index.html`: Loading splash, theme toggle button, Google Fonts, v5e references
-- `STATISTICS/cei-dashboard-5e/charts.js`: 260+ color replacements, `_reTheme()` method added
-- `STATISTICS/cei-dashboard-5e/app.js`: ThemeManager singleton, loading splash dismissal
+- `DASHBOARDS/cei-dashboard-5e/style.css`: Complete redesign (new palette, typography, responsive, theme toggle)
+- `DASHBOARDS/cei-dashboard-5e/index.html`: Loading splash, theme toggle button, Google Fonts, v5e references
+- `DASHBOARDS/cei-dashboard-5e/charts.js`: 260+ color replacements, `_reTheme()` method added
+- `DASHBOARDS/cei-dashboard-5e/app.js`: ThemeManager singleton, loading splash dismissal
 
 ## Session 96 (Feb 20, 2026) - Author Entry Verification & Fix Pipeline
 
@@ -657,11 +707,11 @@ Reordered Paper Explorer filter dropdowns so Moral Psych and Religion sit right 
 | Pages commit | `ceff486` on `cei-dashboard-4` repo |
 
 ### Key Learnings
-- [Workflows] Dashboard dual-repo deploy: source of truth in `cei-literature` at `STATISTICS/cei-dashboard-4/`, deployed by copying changed files to the separate `cei-dashboard-4` GitHub Pages repo and pushing
+- [Workflows] Dashboard dual-repo deploy: source of truth in `cei-literature` at `DASHBOARDS/cei-dashboard-4/`, deployed by copying changed files to the separate `cei-dashboard-4` GitHub Pages repo and pushing
 - [Workflows] MultiSelect binds by element ID not DOM order — reordering `<div>` containers is a safe visual-only change
 
 ### Files Changed
-- STATISTICS/cei-dashboard-4/index.html: reordered 2 filter `<div>` elements
+- DASHBOARDS/cei-dashboard-4/index.html: reordered 2 filter `<div>` elements
 - (External) `cei-dashboard-4` GitHub Pages repo: app.js + index.html pushed
 
 ---
@@ -683,8 +733,8 @@ Extended the repeated subsection header pattern (already implemented for Normati
 - [Workflows] Null-guard forward-compatibility: `_attachSubSectionFilter()` already had generic `${prefix}-${key}-list-header` lookups; adding HTML IDs activated sync with zero shared-function changes
 
 ### Files Changed
-- STATISTICS/cei-dashboard-4/index.html: +8 `section-header-list` divs before paper-list containers
-- STATISTICS/cei-dashboard-4/charts.js: +`listCountEl` init in `_mpMFT()`, `_mpSubSection()`, `_relSubSection()`
+- DASHBOARDS/cei-dashboard-4/index.html: +8 `section-header-list` divs before paper-list containers
+- DASHBOARDS/cei-dashboard-4/charts.js: +`listCountEl` init in `_mpMFT()`, `_mpSubSection()`, `_relSubSection()`
 
 ## Session 93 (Feb 20, 2026) - Dashboard v4: Clickable Paradigm Breakdown Chart
 
@@ -706,8 +756,8 @@ Made the Paradigm Breakdown horizontal bar chart (Kohlberg vs Trolley) in the Mo
 
 ### Files Changed
 - PYTHON/generate_vault_dashboard_4.py: +`paper_sub_theories` collection, +`"st"` field in dev paper dict
-- STATISTICS/cei-dashboard-4/charts.js: +`subTheory` filter dimension in `applyFilter()`, +paradigm click handler in `_attachSubSectionFilter()`
-- STATISTICS/cei-dashboard-4/data.js: Regenerated with `st` field in Developmental papers
+- DASHBOARDS/cei-dashboard-4/charts.js: +`subTheory` filter dimension in `applyFilter()`, +paradigm click handler in `_attachSubSectionFilter()`
+- DASHBOARDS/cei-dashboard-4/data.js: Regenerated with `st` field in Developmental papers
 
 ## Session 92 (Feb 20, 2026) - Dashboard v4: DE & CU Subtab Enhancement
 
@@ -732,9 +782,9 @@ Enhanced Normative Ethics DE and CU subtabs with 4 new charts each (Research Typ
 
 ### Files Changed
 - PYTHON/generate_vault_dashboard_4.py: +2 keyword dicts, +2 scan functions, +2 scan blocks
-- STATISTICS/cei-dashboard-4/charts.js: +`_conceptBar()` method, +2 wiring calls, renamed section header
-- STATISTICS/cei-dashboard-4/index.html: +8 chart container divs (4 DE + 4 CU)
-- STATISTICS/cei-dashboard-4/data.js: Regenerated with DE/CU concept data
+- DASHBOARDS/cei-dashboard-4/charts.js: +`_conceptBar()` method, +2 wiring calls, renamed section header
+- DASHBOARDS/cei-dashboard-4/index.html: +8 chart container divs (4 DE + 4 CU)
+- DASHBOARDS/cei-dashboard-4/data.js: Regenerated with DE/CU concept data
 
 ---
 
@@ -755,8 +805,8 @@ Added missing narrative text block to the Ubuntu/Indigenous sub-tab in Dashboard
 - [Dashboard] CSS accent colors must match TRADITION_META JS colors for visual consistency
 
 ### Files Changed
-- STATISTICS/cei-dashboard-4/index.html: Added narrative block to Ubuntu/Indigenous sub-tab
-- STATISTICS/cei-dashboard-4/style.css: Added `.fw-accent-ubuntu` CSS rule
+- DASHBOARDS/cei-dashboard-4/index.html: Added narrative block to Ubuntu/Indigenous sub-tab
+- DASHBOARDS/cei-dashboard-4/style.css: Added `.fw-accent-ubuntu` CSS rule
 
 ---
 
@@ -804,7 +854,7 @@ Built a new Python script (`generate_vault_dashboard_3.py`, 1,903 lines) to rege
 | Metric | Value |
 |--------|-------|
 | Script created | `PYTHON/generate_vault_dashboard_3.py` (1,903 lines) |
-| Dashboard generated | `STATISTICS/20260216-vault-dashboard-3.html` (767 KB) |
+| Dashboard generated | `DASHBOARDS/20260216-vault-dashboard-3.html` (767 KB) |
 | Total papers | 2,034 (was 924 in old v3) |
 | Benchmark candidates | 986 (was 528) |
 | Cultural papers | 1,275 (was 207) |
@@ -822,7 +872,7 @@ Built a new Python script (`generate_vault_dashboard_3.py`, 1,903 lines) to rege
 
 ### Files Changed
 - PYTHON/: 1 new script (`generate_vault_dashboard_3.py`)
-- STATISTICS/: 1 new file (`20260216-vault-dashboard-3.html`, 767 KB)
+- DASHBOARDS/: 1 new file (`20260216-vault-dashboard-3.html`, 767 KB)
 - GitHub: 1 new repo (`cjimmylin/cei-dashboard-3`)
 
 ---
@@ -1809,7 +1859,8 @@ Updated `generate_vault_overview_report.py` and `generate_vault_dashboard.py` to
 
 ### Files Changed
 - PYTHON/: 2 scripts modified (generate_vault_overview_report.py, generate_vault_dashboard.py)
-- STATISTICS/: 2 new outputs (20260212-vault-overview-report.md, 20260212-vault-dashboard.html)
+- STATISTICS/: 1 new output (20260212-vault-overview-report.md)
+- DASHBOARDS/: 1 new output (20260212-vault-dashboard.html)
 
 ---
 
@@ -1902,7 +1953,7 @@ Deployed the LLM Ethics Dashboard (v3, 8-tab, 621KB self-contained HTML) to GitH
 | Metric | Value |
 |--------|-------|
 | New GitHub Repo | `cjimmylin/cei-dashboard` (PUBLIC) |
-| Deployed File | `STATISTICS/20260210-vault-dashboard-3.html` → `index.html` |
+| Deployed File | `DASHBOARDS/20260210-vault-dashboard-3.html` → `index.html` |
 | Live URL | https://cjimmylin.github.io/cei-dashboard/ |
 | Vault Files Modified | 0 |
 
@@ -1961,8 +2012,8 @@ Enhanced from 6 tabs → 8 tabs with deep sub-navigation:
 
 ### Files Created
 - `PYTHON/restore_dashboard_v3.py` (new — browser-saved HTML cleanup script)
-- `STATISTICS/20260210-vault-dashboard-3.html` (new — 8-tab enhanced dashboard)
-- `STATISTICS/20260210-vault-dashboard-2.html` (backup of previous version)
+- `DASHBOARDS/20260210-vault-dashboard-3.html` (new — 8-tab enhanced dashboard)
+- `DASHBOARDS/20260210-vault-dashboard-2.html` (backup of previous version)
 
 ---
 
@@ -2013,7 +2064,7 @@ Self-contained HTML file with ECharts 5.x visualizations, 6 tabs:
 - `PYTHON/generate_vault_dashboard.py` (new)
 - `STATISTICS/20260210-ethical-values-alignment-benchmarks-report.md` (new)
 - `STATISTICS/20260210-vault-overview-report.md` (new)
-- `STATISTICS/20260210-vault-dashboard.html` (new)
+- `DASHBOARDS/20260210-vault-dashboard.html` (new)
 - `.claude/skills/generate-dashboard/SKILL.md` (new skill)
 
 ---

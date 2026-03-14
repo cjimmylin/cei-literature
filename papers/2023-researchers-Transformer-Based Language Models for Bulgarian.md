@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,8 +55,30 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Bulgarian"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+rv_islam: 50
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, GPT-2"
@@ -61,10 +87,10 @@ tags:
 abstract: "This paper presents an approach for training lightweight and robust language models for Bulgarian that mitigate gender, political, racial, and other biases in the data. Our method involves scraping content from major Bulgarian online media providers using a specialized procedure for source filtering, topic selection, and lexicon-based removal of inappropriate language during the pre-training phase. We continuously improve the models by incorporating new data from various domains, including..."
 ethics_perspective: "Bias & Fairness"
 CONFERENCE: "ACL 2023"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 30
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "NLP & Representation Learning"
 is_benchmark: No
 is_eval: "Yes"

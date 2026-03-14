@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,29 @@ national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "Hebrew"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, ChatGPT"
@@ -59,10 +85,10 @@ DATA_URL: "https://huggingface.co/dicta-il/dictabert"
 tags: 
 abstract: "We present DictaBERT, a new state-of-theart pre-trained BERT model for modern Hebrew, outperforming existing models on most benchmarks. Additionally, we release three fine-tuned versions of the model, designed to perform three specific foundational tasks in the analysis of Hebrew texts: prefix segmentation, morphological tagging and question answering. These fine-tuned models allow any developer to perform prefix segmentation, morphological tagging and question answering of a Hebrew input with..."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 10
 research_topic: "NLP & Representation Learning"
 is_benchmark: No
 is_eval: Yes

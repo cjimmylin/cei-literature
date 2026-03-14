@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,8 +53,30 @@ DATE_ADDED: 20260215
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
-religious_values: "Ubuntu Philosophy"
-religious_values_list: "Ubuntu Philosophy"
+religious_values: "Multiple Religions"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 50
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 50
+rv_indigenous: 5
+religious_values_list: "Confucianism, Ubuntu Philosophy"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -58,10 +84,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "The shift towards pluralism in global data ethics acknowledges the importance of including perspectives from the Global Majority to develop responsible data science practices that mitigate systemic harms in the current data science ecosystem. Sub-Saharan African (SSA) practitioners, in particular, are disseminating progressive data ethics principles and best practices for identifying and navigating anti-blackness and data colonialism."
 CONFERENCE: "FAccT 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 50
+utilitarian_ethics: 50
 ethics_perspective: "General Ethics"
 is_benchmark: "No"
 is_eval: "No"

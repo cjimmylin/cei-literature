@@ -25,6 +25,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +54,29 @@ national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Multicultural/Cross-cultural"
 languages_list: "Chinese, English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "Aya, BLOOM, Llama-2, Llama-3, Mistral, Qwen, Qwen-2"
@@ -57,15 +85,16 @@ tags:
 abstract: "Large Language Models (LLMs), the bedrock of many 'artificial intelligence' (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new multilingual dataset: SHADES.1 Designed for examining culturally-specific stereotypes that may be learned by LLMs, SHADES includes over 300 stereotypes from 37 regions, translated across 16 languages and annotated with multiple features to aid multilingual stereotype analysis. All statements in all languages are paired with templates, to serve as a resource for unlimited 1Available at: https://huggingface.co/datasets/ LanguageShades/BiasShades generation of new evaluation data. We demonstrate the utility of the dataset in a series of exploratory evaluations that reveal significant differences in how stereotypes are recognized and reflected across models and languages. Figure 1: Regions with recognized stereotypes in SHADES. 11995"
 research_topic: "Machine Translation"
 CONFERENCE: "ACL 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 10
 is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "16 languages"
+ethics_perspective: "Bias & Fairness"
 ---
 # Towards a Multilingual Assessment of Stereotypes in Large ...
 

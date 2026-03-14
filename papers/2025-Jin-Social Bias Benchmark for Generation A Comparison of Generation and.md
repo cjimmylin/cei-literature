@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,29 @@ national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: "English, Korean"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "ChatGPT, Claude-3 Haiku, Claude-3 Sonnet, GPT-3.5, GPT-4, GPT-4o, Gemini, Llama-3, Qwen"
@@ -61,16 +88,16 @@ DATA_URL: "https://jinjh0123.github.io/BBG"
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. Measuring social bias in large language models (LLMs) is crucial, but existing bias evaluation methods struggle to assess bias in longform generation. We propose a Bias Benchmark for Generation (BBG), an adaptation of the Bias Benchmark for QA (BBQ), designed to evaluate social bias in long-form generation by having LLMs generate continuations of story prompts."
 CONFERENCE: "ACL 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 50
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # Social Bias Benchmark for Generation: A Comparison of Generation and QA-Based Evaluations
 

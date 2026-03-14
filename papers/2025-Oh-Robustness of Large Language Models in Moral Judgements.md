@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,9 +43,9 @@ key: EXSR0111
 type: conferencePaper
 short_title: "Robustness of Large Language Models in Moral Judgements"
 year: 2025
-first_author: "[[S. Oh]]"
+first_author: "[[Sunjin Oh]]"
 last_author: "[[V. Demberg]]"
-authors: "S. Oh; V. Demberg"
+authors: "Sunjin Oh; V. Demberg"
 doi: 10.1098/rsos.241229
 url: "https://doi.org/10.1098/rsos.241229"
 external_pdf: "https://link.springer.com/content/pdf/10.3758/s13428-023-02307-x.pdf"
@@ -52,7 +58,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 50
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "Moral Foundations Theory"
 newtags: 
 tags: 
@@ -61,16 +89,16 @@ LLM_assessed: GPT-3.5
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: 50
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 15
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # Robustness of Large Language Models in Moral Judgements
 

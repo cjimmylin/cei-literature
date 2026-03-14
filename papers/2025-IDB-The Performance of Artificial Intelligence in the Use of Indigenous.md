@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,29 @@ national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
 languages_list: "Multilingual"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -59,10 +85,10 @@ tags:
 abstract: "Evaluates AI/LLM performance across 7 indigenous Latin American languages (Quechua, Guarani, Aymara, Nahuatl, Quiche, Mapuche, Tupi-Guarani) using 5 language models. Uses MQM and MMLU methodologies. Finds significant performance gaps vs. Spanish/major languages. Presents 21 strategies for technological inclusion. Cultural bias toward Western hegemonic culture identified even when AI responds in indigenous languages."
 research_topic: "Other"
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "Yes"

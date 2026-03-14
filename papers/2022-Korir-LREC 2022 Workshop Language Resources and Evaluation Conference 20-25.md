@@ -32,6 +32,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Irish, Welsh"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "T5"
@@ -62,10 +88,10 @@ DATA_URL: "https://github.com/CorCenCC/CyTag"
 tags: 
 abstract: "Based on the search results, I found substantial information about Celtic language NLP benchmarks and evaluation efforts: Overview of Celtic Language NLP Research Celtic languages have historically lagged behind in the area of natural language processing (NLP) and machine translation (MT), but this has been changing in recent years. Key Benchmarking and Evaluation Efforts Multilingual AMR Parsing: Researchers have created a multilingual text-to-AMR model for three Celtic languages—W"
 CONFERENCE: "ACL 2022"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "NLP & Representation Learning"
 is_benchmark: No
 is_eval: No

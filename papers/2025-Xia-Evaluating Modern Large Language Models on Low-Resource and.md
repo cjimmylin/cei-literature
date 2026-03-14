@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +57,29 @@ national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: "Cantonese, Japanese, Turkish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "GPT-4, GPT-4o, Claude-3, Llama-2, Llama-3, Mistral"
@@ -61,10 +87,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) have achieved impressive results in high-resource languages like English, yet their effectiveness in low-resource and morphologically rich languages remains under-explored. In this paper, we present a comprehensive evaluation of seven cuttingedge LLMs — including GPT-4o, GPT-4, Claude 3.5 Sonnet, LLaMA 3.1, Mistral Large 2, LLaMA-2 Chat 13B, and Mistral 7B Instruct — on a new cross-lingual benchmark covering Cantonese, Japanese, and Turkish."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"

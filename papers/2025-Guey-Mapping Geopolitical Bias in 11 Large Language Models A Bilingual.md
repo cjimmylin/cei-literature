@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,29 @@ national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
 languages_list: "Chinese, English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "Claude-3, DeepSeek, GPT-4o, GPT-4o mini, Gemini, Grok, Mistral, Qwen"
@@ -59,10 +85,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "This study systematically analyzes geopolitical bias across 11 prominent Large Language Models (LLMs) by examining their responses to seven critical topics in U.S.–China relations. Utilizing a bilingual (English and Chinese) and dual-framing (affirmative and reverse) methodology, we generated 19,712 prompts designed to detect ideological leanings in model outputs. Responses were quantitatively assessed on a normalized scale from −2 (strongly ProChina) to +2 (strongly Pro-U.S."
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 20
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: Yes

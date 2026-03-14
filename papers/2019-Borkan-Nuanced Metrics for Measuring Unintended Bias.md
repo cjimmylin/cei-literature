@@ -11,6 +11,11 @@
 
 
 
+
+
+
+
+
 key: HELM0003
 type: conferencePaper
 short_title: "Nuanced Metrics for Measuring Unintended Bias"
@@ -26,8 +31,30 @@ CONF-CC: "WWW 2019"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+rv_islam: 50
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "bias metrics, fairness evaluation, unintended bias, text classification, demographic bias, AUC, toxicity detection, identity groups, threshold-agnostic, evaluation dataset"
 key_contribution: "Introduces a suite of five threshold-agnostic AUC-based metrics for measuring unintended demographic bias in text classifiers, paired with a large crowd-sourced dataset of online comments annotated for identity references."
@@ -38,16 +65,16 @@ abstract: "Unintended bias in Machine Learning can manifest as systemic differen
 local_pdf: "[[PDFs/2019/2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.pdf]]"
 DATE_ADDED: 20260312
 helm: "incorporated"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 5
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology with new human-annotated dataset of online comments with crowd-sourced identity annotations"
 data_metrics: "Not specified"
+ethics_perspective: "General Ethics"
 ---
 
 

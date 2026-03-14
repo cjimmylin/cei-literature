@@ -28,6 +28,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +55,29 @@ national_ethnic_cultural: "Chinese, American, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, American, Multicultural/Cross-cultural"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Chinese, Multicultural/Cross-cultural, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Investigates the 'cultural genes' of LLMs using a Cultural Probe Dataset (CPD), comparing the value orientations (Individualism vs. Collectivism) of Western (GPT-4) vs. Eastern (ERNIE) models."
@@ -62,16 +90,16 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Social & Cultural Values"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
+ethics_perspective: "Social & Cultural Values"
 ---
 # The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases
 

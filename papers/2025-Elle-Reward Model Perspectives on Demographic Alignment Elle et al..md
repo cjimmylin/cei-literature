@@ -28,6 +28,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,25 +55,47 @@ DATE_ADDED: 20260207
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: "Multiple Religions"
+rv_islam: 50
+rv_christianity: 50
+rv_buddhism: 50
+rv_judaism: 50
+rv_hinduism: 50
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam, Christianity, Buddhism, Judaism, Hinduism"
+mp_mft: 50
+mp_schwartz: 0
+mp_trolley: 50
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory, Trolley / Dilemmas (Psych)"
 newtags: 
 tags: 
 abstract: "Reward models (RMs) are central to the alignment of language models (LMs). An RM often serves as a proxy for human preferences to guide downstream LM behavior. However, our understanding of RM behavior is limited. Our work (i) formalizes a framework for measuring the alignment of opinions captured by RMs, (ii) investigates the extent to which RMs demonstrate sociodemographic biases, and (iii) explores the effects of prompting to steer rewards towards the preferences of a target group."
 LLM_assessed: BERT
 DATA_URL: "https://github.com/socialnlp/rmp"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: 75
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # Reward Model Perspectives on Demographic Alignment (Elle et al.)
 

@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,29 @@ national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Korean, Multicultural/Cross-cultural"
 languages_list: "English, Korean"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Korean, Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Analyzed cross-cultural online petitions to see how 'moral emotions' (other-suffering, other-condemning) drive political participation in Korea vs the West."
@@ -61,10 +87,10 @@ DATA_URL: "https://github.com/Paul-scpark/Moral-Emotion"
 pdf_extract: "PDF Extracts/2024/2024-Kim-How Do Moral Emotions Shape Political.md"
 local_pdf: "[[PDFs/2024/2024-Kim-How Do Moral Emotions Shape Political.pdf]]"
 CONFERENCE: "ACL 2024"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 20
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"

@@ -31,6 +31,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,8 +58,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "Cognitive Developmental, Trolley / Dilemmas (Psych)"
+mp_mft: 50
+mp_schwartz: 50
+mp_trolley: 0
+mp_kohlberg: 100
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz, Cognitive Developmental"
 newtags: 
 tags: 
 abstract: "Large language models demonstrate remarkable generalization across tasks, yet 1 their reliability in complex domains like moral reasoning remains uncertain. We 2 introduce the first open-source benchmark explicitly designed to evaluate ethical 3 consistency, providing a structured diagnostic of how models handle dilemmas with 4 clarifying and contradictory follow-ups. Our framework yields quantifiable yes/no 5 responses and introduces two novel metrics: the Ethical Consistency Index (ECI) 6 and..."
@@ -61,16 +89,16 @@ LLM_assessed: "DeepSeek, GPT-4o mini, Gemini, Mistral"
 DATA_URL: "https://anonymous.4open.science/r/TrolleyBench-FD46/README.md"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 20
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs
 

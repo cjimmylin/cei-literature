@@ -31,6 +31,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,8 +58,30 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Bengali"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Multiple Religions"
+rv_islam: 100
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 100
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam, Hinduism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "ChatGPT, Gemini"
@@ -63,16 +90,16 @@ tags:
 abstract: "Explores religious dialect bias in Bengali focusing on Hindu and Muslim-majority dialects. Tests ChatGPT, Gemini, Microsoft Copilot on 20 religious dialect sentences. Finds slight bias towards Muslim dialects across all three models."
 research_topic: "Other"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 50
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # Exploring Bengali Religious Dialect Biases in Large Language Models with Evaluation Perspectives
 

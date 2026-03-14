@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,29 @@ national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Tibetan"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -58,10 +84,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "Tibetan language processing is crucial for preserving its rich cultural heritage and reducing communication barriers between different languages. However, as a low-resource language, the development of Tibetan natural language processing has lagged behind. To address the unique and complex structural information of Tibetan, this article improves the embedding model based on fundamental Tibetan Component-and-Character-and-Word-based Embedding (TCCWE) to enhance the effectiveness of word vector representation. We incorporate position information into the training of Tibetan word vectors, developing models based on components, characters, and their integration. Furthermore, to evaluate the effectiveness of these word vectors, we propose an intrinsic evaluation set, wordsimT, based on             k             -means clustering. Experimental results demonstrate that the character-based positional vector integration model achieves a Spearman's rank correlation coefficient of 79.99% on the wordsimT benchmark, outperforming the baseline TCCWE model by 1.51%. Additionally, we validate the proposed models in downstream text classification tasks. These findings underscore the importance of incorporating positional information in Tibetan word vectors."
 CONFERENCE: "Other Conference"
-ethics_overall: "No"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"

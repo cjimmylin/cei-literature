@@ -31,6 +31,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "General Ethics"
 key_contribution: "Introduced statistical measures to quantify the consistency and uncertainty of LLM moral choices in high- vs low-ambiguity scenarios."
@@ -65,10 +91,10 @@ DATE_ADDED: 20260208
 LLM_assessed: "BLOOM, Claude, Flan-T5, GPT-3.5, GPT-4, PaLM"
 DATA_URL: "https://huggingface.co/datasets/ninoscherrer/moralchoice"
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 20
+virtue_ethics: 0
+deontological_ethics: 5
+utilitarian_ethics: 0
 ethics_perspective: "General Ethics"
 is_benchmark: No
 is_eval: "Yes"

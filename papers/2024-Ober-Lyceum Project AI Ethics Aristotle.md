@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_OBER2024
@@ -47,7 +51,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Virtue Ethics, Aristotelian Ethics, Human Flourishing, AI Ethics Framework"
 key_contribution: "Major Oxford/Stanford white paper arguing Aristotelian ethics offers most compelling framework for AI ethics, emphasizing human flourishing, virtues, and practical reason"
@@ -60,10 +86,10 @@ DATA_URL: "NA"
 publication: Oxford Institute for Ethics in AI
 CONF-CC: "N/A"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 95
+virtue_ethics: 90
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "Machine Ethics"
 is_benchmark: "No"
 is_eval: "No"

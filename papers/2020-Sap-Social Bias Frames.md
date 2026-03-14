@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +52,30 @@ external_pdf: "https://aclanthology.org/2020.acl-main.486.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+rv_islam: 75
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Bias & Fairness"
 key_contribution: "Introduced 'Social Bias Frames' (SBIC), a structured formalism to explain *why* something is biased (e.g., 'This implies [group] is [negative trait]'), moving beyond binary 'toxic/not toxic' labels."
@@ -62,16 +89,16 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-2
 DATA_URL: "http://tinyurl.com/social-bias-frames"
 CONFERENCE: "ACL 2020"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 50
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # Social Bias Frames: Reasoning about Social and Power Implications of Language
 

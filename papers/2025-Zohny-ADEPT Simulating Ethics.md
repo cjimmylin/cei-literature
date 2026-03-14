@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +51,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "Christianity"
+rv_islam: 0
+rv_christianity: 50
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "Christianity"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Christianity, Deontology, Utilitarianism, Multi-perspective Ethical Deliberation"
 key_contribution: "Develops a system of multi-agent debate panels with distinct ethical personas (deontologist, consequentialist)"
@@ -59,10 +85,10 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/hazemzohny/ADEPT/"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 80
+virtue_ethics: 0
+deontological_ethics: 50
+utilitarian_ethics: 50
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,8 +54,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 50
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory"
 newtags: "General Ethics"
 key_contribution: "Critiqued the popular ETHICS benchmark, arguing that it primarily tests for 'commonsense morality' or pattern matching rather than genuine ethical reasoning capability."
 significance: "Challenges the validity of current ethics benchmarks, urging the field to distinguish between models that merely mimic moral judgments and those that can robustly reason about ethical principles."
@@ -63,10 +89,10 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 65
+virtue_ethics: 100
+deontological_ethics: 100
+utilitarian_ethics: 100
 ethics_perspective: "General Ethics"
 is_benchmark: "Yes"
 is_eval: "Yes"

@@ -29,6 +29,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +56,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Polish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "RoBERTa"
@@ -59,16 +86,16 @@ DATA_URL: "https://github.com/ZILiAT-NASK/BAN-PL"
 tags: 
 abstract: "Since the Internet is flooded with hate, it is one of the main tasks for NLP experts to master automated online content moderation. However, advancements in this field require improved access to publicly available accurate and non-synthetic datasets of social media content. For the Polish language, such resources are very limited. In this paper, we address this gap by presenting a new open dataset of offensive social media content for the Polish language. The dataset comprises content from Wykop."
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # BAN-PL: a Novel Polish Dataset of Banned Harmful and Offensive Content from Wykop.pl web service
 

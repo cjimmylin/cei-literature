@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,8 +55,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "Moral Foundations Theory, Cognitive Developmental"
+mp_mft: 50
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Reasoning, Deontology, LLM Evaluation, Moral Foundations Theory"
 key_contribution: "Compares moral reasoning between humans and LLMs using Moral Competence Test (MCT) and Moral Foundations Questionnaire (MFQ)"
 significance: "Demonstrates humans consistently outperform LLMs on moral competence; LLMs overemphasize harm/care while under-representing loyalty, authority, purity"
@@ -61,16 +89,16 @@ DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"
 local_pdf: "[[PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Insights into Moral Reasoning of AI: A Comparative Study Between Humans and Large Language Models
 

@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,29 @@ national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew/Israeli"
 languages_list: "Hebrew"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
@@ -60,10 +86,10 @@ DATA_URL: "https://huggingface.co/avichr/heBERT_sentiment_analysis"
 tags: 
 abstract: "Sentiment analysis of user-generated content (UGC) can provide valuable information across numerous domains, including marketing, psychology, and public health. Currently, there are very few Hebrew models for natural language processing in general, and for sentiment analysis in particular; indeed, it is not straightforward to develop such models because Hebrew is a Morphologically Rich Language (MRL) with challenging characteristics."
 CONFERENCE: "Journal"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 10
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: Yes

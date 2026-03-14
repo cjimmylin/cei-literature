@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +57,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "GPT-2"
@@ -59,16 +87,16 @@ DATA_URL: "NA"
 tags: 
 abstract: "Model compression techniques are receiving increasing attention; however, the effect of compression on model fairness is still under explored. This is the first paper to examine the effect of distillation and pruning on the toxicity and bias of generative language models. We test Knowledge Distillation and Pruning methods on the GPT2 model and found a consistent pattern of toxicity and bias reduction after model distillation; this result can be potentially interpreted by existing line of research which describes model compression as a regularization technique; our work not only serves as a reference for safe deployment of compressed models, but also extends the discussion of 'compression as regularization' into the setting of neural LMs, and hints at the possibility of using compression to develop fairer models."
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 80
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # Nlp Fairness | ConceptNet blog
 

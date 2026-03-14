@@ -9,6 +9,11 @@
 
 
 
+
+
+
+
+
 key: HELM0001
 type: document
 short_title: "SimpleSafetyTests"
@@ -25,7 +30,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "AI Safety & Alignment, Benchmark, Evaluation, Dataset, LLM Safety, Toxic Content, Harm Detection"
 key_contribution: "Introduces SimpleSafetyTests (SST), a benchmark of 100 prompts across five critical harm areas for rapidly identifying safety weaknesses in LLMs, along with 3,000 annotated model responses and an evaluation of five AI safety filters."
@@ -36,11 +63,10 @@ abstract: "The past year has seen rapid acceleration in the development of large
 local_pdf: "[[PDFs/2023/2023-Vidgen-SimpleSafetyTests.pdf]]"
 DATE_ADDED: 20260312
 helm: "incorporated"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: 60
+virtue_ethics: 0
+deontological_ethics: 5
+utilitarian_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
@@ -48,4 +74,5 @@ LLM_assessed: "Mistral, Llama-2, Falcon, Claude, Cohere"
 DATA_URL: "https://github.com/bertiev/SimpleSafetyTests"
 data_description: "100 handcrafted test prompts across 5 harm areas (child abuse, suicide/self-harm/eating disorders, physical harm, illegal items, scams/fraud); 3,000 annotated model responses from 15 LLMs"
 data_metrics: "100 prompts, 15 LLMs evaluated, 3000 labeled responses, 5 safety filters assessed"
+ethics_perspective: "General Ethics"
 ---

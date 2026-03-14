@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,29 @@ national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: "Pahlavi"
 religious_values: "Zoroastrianism"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 50
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "Zoroastrianism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -60,10 +86,10 @@ DATA_URL: "https://github.com/openscilab/parsipy"
 tags: 
 abstract: "NLP toolkit for historical Persian languages offering modules for tokenization, lemmatization, POS tagging, phoneme-to-transliteration conversion, and word embedding. Demonstrates utility through processing of Parsig (Middle Persian/Pahlavi) texts. The majority of surviving Parsig texts are religious Zoroastrian writings composed in Book Pahlavi script."
 CONFERENCE: "ACL 2025"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 5
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "No"

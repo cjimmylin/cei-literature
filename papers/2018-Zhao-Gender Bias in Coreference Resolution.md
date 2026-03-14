@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +49,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: Deontology
 key_contribution: "Creates WinoBias, a coreference resolution benchmark specifically designed to detect gender bias (stereotypical vs anti-stereotypical occupations)"
@@ -56,18 +83,18 @@ CONF-CC: "NAACL 2018"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/rudinger/winogender-schemas"
-ethics_perspective: "Bias & Fairness"
 CONFERENCE: "Other Conference"
 helm: "incorporated"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
+ethics_overall: 80
+virtue_ethics: 0
+deontological_ethics: 25
+utilitarian_ethics: 0
 is_benchmark: "Yes"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
  Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods
 

@@ -29,6 +29,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,8 +54,30 @@ national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 0
+mp_schwartz: 50
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Italian, Applied Ethics"
 key_contribution: "Empirically analyzed GPT-4's interpretation of Italian Constitutional Court rulings on bioethics, comparing its arguments to those of the State, Court, and applicants."
 significance: "Finds that GPT-4 consistently aligns with progressive interpretations (mirroring applicants) rather than the Court's moderate or the State's conservative positions, highlighting a specific ideological bias in legal reasoning."
@@ -63,16 +90,16 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: "NA"
 CONFERENCE: "AAAI 2024"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Applied Ethics"
+ethics_overall: 60
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: No
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "Applied Ethics"
 ---
 # Legal Minds, Algorithmic Decisions: How LLMs Apply Constitutional Principles in Complex Scenarios
 

@@ -34,6 +34,24 @@
 
 ---
 
+## 2026-03-13 (Session 119)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-13 | Classification | **`count_matches()` lowercases all text before pattern matching:** Patterns like `\bSVS\b`, `\bPVQ\b`, `\bMFT\b`, `\bRest\b` silently never fire because the text is lowercased but the pattern is uppercase. To match abbreviations, patterns must be lowercase (e.g., `\bsvs\b`) or `re.IGNORECASE` must be passed. Pre-existing latent bug in `moral_psych_scoring.py` — affects all uppercase-only abbreviation patterns. |
+| 2026-03-13 | Classification | **Negative lookahead `(?!.*\bword\b)` is forward-only — cannot protect "moral intuition" when "moral" precedes "intuition":** The INTUITIONIST_FP pattern fires for ANY "intuition" occurrence where the lookahead words don't appear AFTER it in the remaining text. "moral intuition...statistical intuition" triggers the FP because after the first "intuition", "moral" is already consumed. The plan's fix (adding `judgment\|sentiment`) helps only when those terms appear *after* "intuition". A negative lookbehind (`(?<!moral )`) is needed to fully gate the pattern. |
+| 2026-03-13 | Workflows | **Dashboard regeneration after scoring update — run `split_data.py` from inside the dashboard dir:** `split_data.py` opens `data.js` with a relative path. Must `cd` to the dashboard directory before running, not from the workspace root or CEI-Lit-WS root. |
+
+---
+
+## 2026-03-13 (Session 118)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-13 | Workflows | **CSS in plain strings vs f-strings — brace rules differ:** The eval dashboard v2 generator stores CSS in a plain `CSS = """..."""` string, not an f-string. Writing `{{` in a plain string outputs literal `{{`, which is valid CSS but semantically wrong (empty block). The plan template assumed f-string context. Always verify string type before applying brace escaping. Contrast with the existing MEMORY.md rule about f-string HTML templates where doubled braces ARE correct. |
+
+---
+
 ## 2026-02-22 (Session 117)
 
 | Date | Category | Learning |
@@ -250,7 +268,7 @@
 
 | Date | Category | Learning |
 |------|----------|----------|
-| 2026-02-20 | Workflows | **Dashboard Dual-Repo Deploy Pattern:** Dashboard v4 source of truth lives in `cei-literature` repo at `STATISTICS/cei-dashboard-4/`. GitHub Pages is served from a separate `cei-dashboard-4` repo. Deployment = copy changed files to the Pages repo clone (at `/tmp/cei-dashboard-4`) and `git push`. Only the 5 static assets (index.html, app.js, charts.js, data.js, style.css) need syncing — no build step. |
+| 2026-02-20 | Workflows | **Dashboard Dual-Repo Deploy Pattern:** Dashboard v4 source of truth lives in `cei-literature` repo at `DASHBOARDS/cei-dashboard-4/`. GitHub Pages is served from a separate `cei-dashboard-4` repo. Deployment = copy changed files to the Pages repo clone (at `/tmp/cei-dashboard-4`) and `git push`. Only the 5 static assets (index.html, app.js, charts.js, data.js, style.css) need syncing — no build step. |
 | 2026-02-20 | Workflows | **MultiSelect ID-Binding:** Dashboard v4's MultiSelect widgets bind by element ID (e.g., `#msel-moral-psych`), not DOM position. Reordering filter `<div>` containers in HTML is a safe visual-only change — no JS modifications required. |
 
 ## 2026-02-20 (Session 94)

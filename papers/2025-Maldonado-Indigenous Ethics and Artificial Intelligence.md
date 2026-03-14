@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,8 +54,30 @@ DATE_ADDED: 20260215
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
 languages_list: ""
-religious_values: "Indigenous Spirituality"
-religious_values_list: "Indigenous Spirituality"
+religious_values: "Multiple Religions"
+rv_islam: 0
+rv_christianity: 50
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 70
+religious_values_list: "Christianity, Indigenous Spirituality"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -59,10 +85,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "Examines Indigenous ethics of reciprocity as a normative and epistemological framework that challenges Western linear conceptions of time, economy, and social relations. Drawing from Marcel Mauss's theory of the gift and Andean traditions, reciprocity is conceived as a vital principle of survival. Practices such as ayni, minka, and randi-randi embody this ethical system. Argues AI redefines truth as technical construction, suppressing subjectivity and plurality."
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 80
+virtue_ethics: 0
+deontological_ethics: 50
+utilitarian_ethics: 50
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"

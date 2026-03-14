@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,10 +41,10 @@ key: LSRC0281
 type: conferencePaper
 short_title: "Overview of EXIST 2022: sEXism Identification in Social neTworks"
 year: 2022
-first_author: "[[Rodríguez-Sánchez]]"
-last_author: "[[Francisco]]"
-authors: Rodríguez-Sánchez; Francisco
-authors_incomplete: true
+first_author: "[[Francisco Rodríguez-Sánchez]]"
+last_author: "[[Francisco Rodríguez-Sánchez]]"
+authors: "Francisco Rodríguez-Sánchez"
+authors_incomplete: false
 url: "https://nlp.uned.es/exist2022/"
 external_pdf: "https://rua.ua.es/dspace/bitstream/10045/117491/1/PLN_67_17.pdf"
 publication: "IberLEF / CLEF / SEPLN"
@@ -52,7 +56,29 @@ national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
 languages_list: "English, Spanish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
@@ -60,10 +86,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "The paper describes the organization, goals, and results of the sEXism Identiﬁcation in Social neTworks (EXIST) challenge, a shared task proposed for the ﬁrst time at IberLEF 2021. EXIST 2021 proposes two challenges: sexism identiﬁcation and sexism categorization of tweets and gabs, both in Spanish and English. We have received a total of 70 runs for the sexism identiﬁcation task and 61 for the sexism categorization challenge, submitted by 31 diﬀerent teams from 11 countries."
 CONFERENCE: "Other Conference"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Other"
 is_benchmark: Yes
 is_eval: Yes

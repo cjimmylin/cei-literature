@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +55,29 @@ national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "ChatGLM, Claude, Claude-2, Claude-3 Opus, GPT-3.5, GPT-4, Gemini, Qwen, Qwen-1.5"
@@ -59,10 +85,10 @@ DATA_URL: "https://huggingface.co/datasets/ikala/tmmluplus"
 tags: 
 abstract: "We present TMMLU+, a new benchmark designed for Traditional Chinese language understanding. TMMLU+ is a multi-choice question-answering dataset with 66 subjects from elementary to professional level. It is six times larger and boasts a more balanced subject distribution than its predecessor, Taiwan Massive Multitask Language Understanding (TMMLU). We also benchmark closed-source models and 23 open-weight Chinese large language models (LLMs) of parameters ranging from 1."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"

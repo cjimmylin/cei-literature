@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Role Playing Personas"
@@ -46,8 +50,30 @@ external_pdf: "https://arxiv.org/pdf/2401.01275.pdf"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Confucianism"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 50
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Confucianism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Chinese, Virtue Ethics"
 key_contribution: "Introduces CharacterEval, a comprehensive Chinese benchmark for evaluating Role-Playing Conversational Agents across four dimensions"
@@ -60,10 +86,10 @@ DATE_ADDED: 20260208
 LLM_assessed: "Baichuan, ChatGLM, GPT-3.5, GPT-4, InternLM, Qwen"
 DATA_URL: "https://github.com/morecry/CharacterEval"
 CONFERENCE: "Journal"
-ethics_overall: "No"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"

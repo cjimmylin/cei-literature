@@ -24,6 +24,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,13 +49,34 @@ local_pdf: "[[PDFs/2025/2025-Liu-Cross-cultural value alignment frameworks.pdf]]
 external_pdf: "https://arxiv.org/pdf/2511.17256.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-ethics_perspective: "Cross-Cultural Ethics"
 national_ethnic_cultural: "Chinese, American, Western, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, American, Western, Multicultural/Cross-cultural"
 languages_list: "Chinese, English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 50
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory"
 newtags: "Deontology, Cross-Cultural Ethics, Value Alignment, LLM Evaluation"
 key_contribution: "Develops Multi-Layered Auditing Platform comparing value alignment in China-origin and Western-origin LLMs"
 significance: "Shows larger LLMs favor deontological perspective; reveals cultural differences in ethical reasoning across 20+ models"
@@ -58,15 +85,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-3.5, GPT-4o, Llama-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 30
+utilitarian_ethics: 5
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
+ethics_perspective: "Responsible AI"
 ---
 # Cross-cultural value alignment frameworks for responsible AI governance: Evidence from China-West comparative analysis
 

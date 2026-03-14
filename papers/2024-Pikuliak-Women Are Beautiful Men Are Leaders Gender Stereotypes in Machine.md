@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +57,29 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "ALBERT, BERT, GPT-2, Llama-2, Mistral, Phi, Phi-2, RoBERTa"
@@ -60,16 +87,17 @@ DATA_URL: "https://github.com/kinit-sk/gest"
 tags: 
 abstract: "We present GEST – a new manually created dataset designed to measure genderstereotypical reasoning in language models and machine translation systems. GEST contains samples for 16 gender stereotypes about men and women (e.g., Women are beautiful, Men are leaders) that are compatible with the English language and 9 Slavic languages. The definition of said stereotypes was informed by gender experts. We used GEST to evaluate English and Slavic masked LMs, English generative LMs, and machine..."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 95
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Bias & Fairness"
 is_benchmark: Yes
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+ethics_perspective: "General Ethics"
 ---
 # Women Are Beautiful, Men Are Leaders: Gender Stereotypes in Machine Translation and Language Modeling
 

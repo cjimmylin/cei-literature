@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +48,30 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, English, Hindi, Russian, Spanish, Swahili"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 0
+mp_schwartz: 50
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Multilingual, Cross-Cultural, Deontology, Virtue-Ethics, Consequentialism, LLM-Evaluation"
 key_contribution: "Shows LLM ethical reasoning varies by prompt language; GPT-4 most consistent across 6 languages"
 significance: "Demonstrates cultural/linguistic bias in AI moral reasoning, crucial for global AI deployment"
@@ -59,10 +85,10 @@ local_pdf: "[[PDFs/2024/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 100
+virtue_ethics: 50
+deontological_ethics: 80
+utilitarian_ethics: 50
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"

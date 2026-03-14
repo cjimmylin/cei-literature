@@ -28,6 +28,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,8 +54,30 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, English, French, Japanese, Persian, Russian, Spanish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "Moral Foundations Theory"
+mp_mft: 100
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 50
+moral_psychology: "Moral Foundations Theory, Moral Identity"
 newtags: "Chinese, Japanese, Arabic, Iranian, French, Spanish, Russian, Multicultural/Cross-cultural, Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Analyzed multilingual LLMs using the Moral Foundations Questionnaire across 8 languages, finding that models mirror the moral norms of their training data languages (e.g., English = Western values)."
 significance: "Challenges the assumption of universal moral consistency in LLMs, showing that 'multilingual' models often impose dominant English-centric moral norms when prompted in other languages."
@@ -62,16 +90,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4o mini, Llama-3, Mistral"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: No
 data_description: "Dataset"
 data_metrics: "Not specified"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Whose Morality Do They Speak? Unraveling Cultural Bias in Multilingual Language Models
 

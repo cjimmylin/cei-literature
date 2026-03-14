@@ -29,6 +29,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +55,29 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Chinese, English, Indonesian, Russian, Vietnamese"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Vietnamese, Multicultural/Cross-cultural, Moral Reasoning & Psychology"
 key_contribution: "Introduced the Multilingual Moral Reasoning Benchmark (MMRB) across 5 languages (including Vietnamese) and 3 complexity levels, revealing a 'Complexity Gap' where performance degrades as context length increases."
@@ -63,16 +90,16 @@ LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mixtral"
 DATA_URL: "https://anonymous.4open.science/r/ethics_scenarios-913B"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_overall: 100
+virtue_ethics: 15
+deontological_ethics: 50
+utilitarian_ethics: 50
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
 data_metrics: "5 languages"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs
 

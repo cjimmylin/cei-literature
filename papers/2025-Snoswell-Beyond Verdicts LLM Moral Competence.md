@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_SNOSWELL2025
@@ -46,9 +51,31 @@ local_pdf: "[[PDFs/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.pdf]]
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
+religious_values: "Jainism"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 50
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Jainism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "N/A"
 newtags: "Moral Competence, LLM Evaluation, Moral Sensitivity, Virtue Ethics, AI Ethics Survey"
 key_contribution: "Comprehensive survey of 69 LLM ethical evaluation papers (2020-2025), identifies systematic limitations in moral reasoning assessment"
 significance: "Identifies three critical paradigm shifts needed: from curated scenarios to unfiltered streams, from verdict accuracy to reasoning quality, from ground truth to reasonableness assessment"
@@ -59,16 +86,16 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Beyond Verdicts: Evaluating Language Model Moral Competence
 

@@ -26,6 +26,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,13 +50,34 @@ pdf_extract: "PDF Extracts/2025/2025-Baum-Aggregation Problems in Machine Ethics
 local_pdf: "[[PDFs/2025/2025-Baum-Aggregation Problems in Machine Ethics.pdf]]"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 CONF-CC: "AIES 2025"
-ethics_perspective: "Value Pluralism"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: "Christianity"
+rv_islam: 0
+rv_christianity: 50
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Christianity"
+mp_mft: 0
+mp_schwartz: 50
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Deontology, Value Pluralism, Machine Ethics, AI Alignment"
 key_contribution: "Analyzes how moral and social aggregation procedures face fundamental challenges in machine ethics and AI alignment"
 significance: "Shows that aggregation strategies may shift rather than resolve foundational ethical challenges in AI systems"
@@ -59,15 +86,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 CONFERENCE: "AAAI 2025"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
+ethics_overall: 100
+virtue_ethics: 5
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # Aggregation Problems in Machine Ethics and AI Alignment
 

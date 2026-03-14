@@ -28,6 +28,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +55,29 @@ national_ethnic_cultural: "Chinese, Arabic, German, Multicultural/Cross-cultural
 cultures_nationalities_list: "Chinese, Arabic, German, Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, Czech, English, German"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 50
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "Moral Foundations Theory"
 newtags: 
 LLM_assessed: "BERT, XLNet"
@@ -58,16 +85,16 @@ DATA_URL: "https://github.com/kathyhaem/"
 tags: 
 abstract: "Pre-trained multilingual language models (PMLMs) are commonly used when dealing with data from multiple languages and crosslingual transfer. However, PMLMs are trained on varying amounts of data for each language. In practice this means their performance is often much better on English than many other languages. We explore to what extent this also applies to moral norms. Do the models capture moral norms from English and impose them on other languages?"
 CONFERENCE: "ACL 2023"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 80
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # Speaking Multiple Languages Affects the Moral Bias of Language Models
 

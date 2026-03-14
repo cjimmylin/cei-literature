@@ -27,6 +27,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,8 +53,30 @@ DATE_ADDED: 20260215
 national_ethnic_cultural: "Australian/Aboriginal"
 cultures_nationalities_list: "Australian/Aboriginal"
 languages_list: ""
-religious_values: "Indigenous Spirituality"
-religious_values_list: "Indigenous Spirituality"
+religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -58,10 +84,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "Due to the emergence of data-driven technologies in Aotearoa New Zealand that use Māori data, there is a need for values-based frameworks to guide thinking around balancing the tension between the opportunities these create, and the inherent risks that these technologies can impose. Algorithms can be framed as a particular use of data, therefore data frameworks that currently exist can be extended to include algorithms."
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 15
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "Responsible AI"
 is_benchmark: "No"
 is_eval: "No"

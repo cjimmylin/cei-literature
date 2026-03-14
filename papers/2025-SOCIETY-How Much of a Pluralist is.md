@@ -33,6 +33,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,18 +60,40 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "N/A"
+mp_mft: 50
+mp_schwartz: 65
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "This study introduces pluralism as a benchmark for evaluating generative AI chatbots’ ability to navigate and potentially endorse diverse values and perspectives. Pluralism—the recognition and valuing of multiple, distinct perspectives—is essential for contemporary democratic societies, making systematic assessment of how AI systems handle value pluralism crucial. Using the Magic Wand Survey (MWS), which presents diverse value conflicts, we empirically measured 2 dimensions of..."
 LLM_assessed: "ChatGPT, GPT-o1, Gemini, Claude-3"
 DATA_URL: "NA"
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 90
+virtue_ethics: 55
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "General Ethics"
 is_benchmark: "Yes"
 is_eval: "Yes"

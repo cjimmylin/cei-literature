@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,10 +42,10 @@ key: LSRC0823
 type: conferencePaper
 short_title: "Evaluating Code-Switching Translation with Large ..."
 year: 2025
-first_author: "[[Zheng, Weihua]]"
-last_author: "[[Chanpaisit, Nattapol]]"
-authors: "Zheng, Weihua; Chanpaisit, Nattapol"
-authors_incomplete: true
+first_author: "[[Weihua Zheng]]"
+last_author: "[[Nattapol Chanpaisit]]"
+authors: "Weihua Zheng; Nattapol Chanpaisit"
+authors_incomplete: false
 url: "https://aclanthology.org/2024.lrec-main.565.pdf"
 external_pdf: "https://aclanthology.org/2024.lrec-main.565.pdf"
 publication: "ACL Anthology"
@@ -53,7 +57,29 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Code-switching, Multilingual"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "GPT-4, GPT-3.5, PaLM-2, Llama-2, Falcon, BLOOM"
@@ -61,10 +87,10 @@ DATA_URL: "https://github.com/muhdhuz/CodeSwitch_Text_Generator"
 tags: 
 abstract: "Recent advances in large language models (LLMs) have shown they can match or surpass finetuned models on many natural language processing tasks. Currently, more studies are being carried out to assess whether this performance carries over across different languages. In this paper, we present a thorough evaluation of LLMs for the less well-researched code-switching translation setting, where inputs include a mixture of different languages."
 CONFERENCE: "ACL 2025"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"

@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,8 +52,30 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/FI4724Y6/Sahoo et al. - 202
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+rv_islam: 50
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Created the 'ToxicBias' dataset annotated for 5 bias categories from existing toxic language corpora to study *unintended* social bias (identity term bias) in toxicity detection."
@@ -61,16 +89,16 @@ DATA_URL: "https://github.com/sahoonihar/ToxicBias_CoNLL_2022"
 pdf_extract: "PDF Extracts/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.md"
 local_pdf: "[[PDFs/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # Detecting Unintended Social Bias in Toxic Language Datasets
 

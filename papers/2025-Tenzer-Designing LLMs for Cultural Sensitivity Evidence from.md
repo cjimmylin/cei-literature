@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +47,36 @@ url: "https://arxiv.org/abs/2509.11921"
 external_pdf: "https://arxiv.org/pdf/2509.11921.pdf"
 publication: arXiv (WITHDRAWN)
 CONF-CC: "Preprint"
-local_pdf: 
-"N/A"
+local_pdf: "[[PDFs/2025/2025-Tenzer-Designing LLMs for Cultural Sensitivity Evidence from.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Tenzer-Designing LLMs for Cultural Sensitivity Evidence from.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Japanese, Western, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Japanese, Western, Multicultural/Cross-cultural"
 languages_list: "English, Japanese"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "NA"
@@ -58,10 +84,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "Evaluates cultural sensitivity of LLMs in English-Japanese workplace email translation. Tests naive, audience-targeted, and instructional prompts. Assesses keigo (honorifics), politeness forms, and formality. Native Japanese speakers rate appropriateness. Culturally-tailored prompting improves cultural fit. NOTE: Paper was withdrawn by first author Dec 2025."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
 is_eval: "Yes"

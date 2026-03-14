@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,8 +52,30 @@ external_pdf: "https://aclanthology.org/2022.findings-acl.165.pdf"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Multiple Religions"
+rv_islam: 60
+rv_christianity: 90
+rv_buddhism: 0
+rv_judaism: 50
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam, Christianity, Judaism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "American, Bias & Fairness"
 key_contribution: "Introduced BBQ (Bias Benchmark for QA), a hand-built dataset highlighting social biases against protected classes in US English contexts, testing responses in under-informative vs. informative settings."
@@ -62,16 +89,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "DeBERTaV3, RoBERTa, UnifiedQA"
 DATA_URL: "https://github.com/nyu-mll/BBQ"
 CONFERENCE: "ACL 2022"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 15
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # BBQ: A hand-built bias benchmark for question answering
 

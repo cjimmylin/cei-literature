@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +52,29 @@ national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: "Persian"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Iranian, AI Safety & Alignment"
 key_contribution: "Created ELAB, a comprehensive benchmark for *Persian* LLM alignment, including safety, fairness (FairBench-fa), and social norms (SocialBench-fa) datasets, both translated and culturally specific."
@@ -62,16 +89,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "Gemma-2, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://huggingface.co/spaces/MCILAB/LLM_Alignment_Evaluation"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: 90
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # ELAB: Extensive LLM Alignment Benchmark in Persian Language
 

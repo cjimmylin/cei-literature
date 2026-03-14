@@ -25,6 +25,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,12 +45,33 @@ authors: "Muhammad Shahrul Zaim Bin Ahmad; Kazuhiro Takemoto"
 doi: 10.1371/journal.pone.0322776
 url: "https://dx.plos.org/10.1371/journal.pone.0322776"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/D7GUWN8N/Zaim Bin Ahmad and Takemoto - 2025 - Large-scale moral machine experiment on large language models.pdf"
-ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 100
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Trolley / Dilemmas (Psych), AI Safety & Alignment"
 key_contribution: "Replicated the Moral Machine Experiment on 52 LLMs using Conjoint Analysis, finding that larger models (10B+) align more closely with human utilitarian preferences."
@@ -58,15 +85,16 @@ pdf_extract: "PDF Extracts/2025/2025-Zaim Bin Ahmad-Large-scale moral machine ex
 local_pdf: "[[PDFs/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.pdf]]"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 35
 is_benchmark: No
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Large-scale moral machine experiment on large language models
 

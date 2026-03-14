@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +54,29 @@ national_ethnic_cultural: "Indian, American, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian, American, Multicultural/Cross-cultural"
 languages_list: "English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "GPT-4"
@@ -58,10 +84,10 @@ DATA_URL: "https://github.com/Khushangz/Cross-Cultural-Social-Norms-Dataset/"
 tags: 
 abstract: "Shame and pride are social emotions expressed across cultures to motivate and regulate people’s thoughts, feelings, and behaviors. In this paper, we introduce the first cross-cultural dataset of over 10k shame/pride-related expressions, with underlying social expectations from 5.4K Bollywood and Hollywood movies. We examine how and why shame and pride are expressed across cultures using a blend of psychology-informed language analysis combined with large language models."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
 is_eval: "Yes"

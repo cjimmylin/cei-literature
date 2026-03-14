@@ -31,6 +31,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,8 +53,30 @@ national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "Moral Foundations Theory"
+mp_mft: 85
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 50
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Moral Foundations Theory, Cognitive Developmental"
 newtags: "General Ethics"
 key_contribution: "Introduced 'Social Chemistry', a framework and dataset (Social-Chem-101) containing 292k 'rules-of-thumb' annotated with 12 dimensions of social and moral judgment."
 significance: "Formalizes 'rules-of-thumb' as a computational unit for social norms, enabling models to reason about the pragmatic and detailed social expectations that govern real-world behavior, beyond abstract ethical theories."
@@ -64,10 +90,10 @@ publication: "EMNLP 2020"
 CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260207
 CONFERENCE: "EMNLP 2020"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 30
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: Yes

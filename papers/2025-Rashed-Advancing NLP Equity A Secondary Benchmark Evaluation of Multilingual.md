@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,10 +40,10 @@ key: LSRC0598
 type: conferencePaper
 short_title: "Advancing NLP Equity: A Secondary Benchmark Evaluation of Multilingual Language Models for Underrepresented Languages"
 year: 2025
-first_author: "[[Rashed, Sheak]]"
-last_author: "[[Bhuiyan, Touhid]]"
-authors: "Rashed, Sheak; Billah, Md. Maruf; Rahman, Kazi Shakkhar; Islam, Tanvirul; Mahmud, Zarif; Faruqui, Nuruzzaman; Bhuiyan, Touhid"
-authors_incomplete: true
+first_author: "[[Sheak Rashed]]"
+last_author: "[[Touhid Bhuiyan]]"
+authors: "Sheak Rashed; Md. Maruf Billah; Kazi Shakkhar Rahman; Tanvirul Islam; Zarif Mahmud; Nuruzzaman Faruqui; Touhid Bhuiyan"
+authors_incomplete: false
 url: "https://openreview.net/forum?id=YlTVWukmJe"
 external_pdf: "https://openreview.net/pdf?id=YlTVWukmJe"
 publication: OpenReview
@@ -50,8 +54,30 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Latin American, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Latin American, Multicultural/Cross-cultural"
 languages_list: "Guarani, Kyrgyz, Quechua, Turkish"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+rv_islam: 50
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "RoBERTa"
@@ -59,10 +85,10 @@ DATA_URL: "NA"
 tags: 
 abstract: "Recent multilingual language models promise support for “100+ languages,” yet speakers of Indigenous and other underrepresented languages still often do not see themselves in these advances. In this work, we take a deliberately simple, secondary-benchmark perspective: rather than proposing a new model or dataset, we re-evaluate an off-theshelf multilingual natural language inference (NLI) model on public benchmarks that explicitly include Indigenous languages of the Americas."
 CONFERENCE: "Other Conference"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"

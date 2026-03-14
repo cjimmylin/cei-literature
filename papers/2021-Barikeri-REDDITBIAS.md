@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +51,30 @@ external_pdf: "https://aclanthology.org/2021.acl-long.151.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Multiple Religions"
+rv_islam: 100
+rv_christianity: 100
+rv_buddhism: 0
+rv_judaism: 50
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam, Christianity, Judaism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Created REDDITBIAS, the first conversational dataset from Reddit to measure bias (gender, race, religion, queerness) and tested debiasing methods on DialoGPT."
@@ -60,16 +88,16 @@ DATE_ADDED: 20260208
 LLM_assessed: GPT-2
 DATA_URL: "https://github.com/umanlp/RedditBias"
 CONFERENCE: "ACL 2021"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_overall: 80
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # REDDITBIAS: A Real-World Resource for Bias Evaluation and Debiasing in Conversational Language Models
 

@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,10 +43,10 @@ key: LSRC0277
 type: conferencePaper
 short_title: "Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish"
 year: 2021
-first_author: "[[Taulé]]"
-last_author: "[[Mariona]]"
-authors: Taulé; Mariona
-authors_incomplete: true
+first_author: "[[Mariona Taulé]]"
+last_author: "[[Mariona Taulé]]"
+authors: "Mariona Taulé"
+authors_incomplete: false
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6390/0"
 external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6390/3810"
 publication: "IberLEF / SEPLN"
@@ -52,7 +58,29 @@ national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
 languages_list: "Spanish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 10
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT"
@@ -60,16 +88,17 @@ DATA_URL: NA
 tags: 
 abstract: "In this paper we present the DETOXIS task, DEtection of TOxicity in comments In Spanish, which took place as part of the IberLEF 2021 Workshop on Iberian Languages Evaluation Forum at the SEPLN 2021 Conference. We describe the NewsCom-TOX dataset used for training and testing the systems, the metrics applied for their evaluation and the results obtained by the submitted approaches. We also provide an error analysis of the results of these systems."
 CONFERENCE: "Other Conference"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Learning"
 is_benchmark: Yes
 is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish
 

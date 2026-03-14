@@ -26,6 +26,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,8 +48,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "Moral Identity, Dual Process Theory, Trolley / Dilemmas (Psych)"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 50
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 100
+moral_psychology: "Cognitive Developmental, Moral Identity"
 newtags: "Moral Identity, Value Pluralism / Schwartz, Deontology, Utilitarianism"
 key_contribution: "Investigated the link between moral identity, deontological vs utilitarian preferences, and moral behavior"
 significance: "Found that deontological reasoning, when coupled with strong moral identity, most effectively predicts moral behavior, challenging the view of deontology as merely Error-prone intuition"
@@ -58,10 +84,10 @@ DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.md"
 local_pdf: "[[PDFs/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.pdf]]"
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 100
+virtue_ethics: 50
+deontological_ethics: 100
+utilitarian_ethics: 100
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

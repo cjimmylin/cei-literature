@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,7 +58,29 @@ national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
 languages_list: "Spanish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
@@ -61,16 +88,16 @@ DATA_URL: "https://competitions.codalab.org/competitions/28679"
 tags: 
 abstract: "This paper is an overview of MeOﬀendES 2021, organized at IberLEF 2021 and co-located with the 37th International Conference of the Spanish Society for Natural Language Processing (SEPLN 2021). The main purpose of MeOﬀendEs is to promote research on the detection of oﬀensive language in Spanish variants. The shared task involve four subtasks, the ﬁrst two correspond to the identiﬁcation of oﬀensive language categories in generic Spanish texts from diﬀerent social media platforms, while subtasks..."
 CONFERENCE: "Other Conference"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Toxicity & Hate Speech"
+ethics_overall: 60
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Overview of MeOffendEs at IberLEF 2021: Offensive Language Detection in Spanish Variants
 

@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,8 +49,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
-moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
+mp_mft: 0
+mp_schwartz: 50
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed 'Value Compass', a dynamic benchmarking platform using generative testing to assess LLMs on 27 value dimensions (expanded from Schwartz)."
 significance: "Addresses 'benchmark saturation' by generating new test items on the fly ('Generative Evolving Testing'), ensuring models can't just memorize fixed safety questions."
@@ -59,10 +85,10 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-3.5, GPT-4o, Llama-3, Qwen, o3"
 DATA_URL: "https://valuecompass.github.io/#/leaderboard"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 5
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"

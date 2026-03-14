@@ -30,6 +30,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,9 +53,31 @@ external_pdf: "http://arxiv.org/pdf/2205.05989.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
-religious_values: "N/A"
-religious_values_list: "N/A"
-moral_psychology: "N/A"
+religious_values: "Jainism"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 50
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Jainism"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 50
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Value Pluralism / Schwartz, Moral Reasoning & Psychology"
 key_contribution: "Proposed the task of 'Ethical Quandary Generative Question Answering', prompting LLMs to provide deliberative, multi-perspective answers (Socratic method) rather than single-oracle verdicts."
 significance: "Shifts the goal of ethical AI from 'giving the right answer' to 'facilitating moral deliberation', evaluating whether models can reason through conflicting principles (e.g., utilitarian vs. deontological) in open-ended scenarios."
@@ -63,16 +91,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT"
 DATA_URL: "NA"
 CONFERENCE: "Preprint"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 45
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Towards Answering Open-ended Ethical Quandary Questions
 

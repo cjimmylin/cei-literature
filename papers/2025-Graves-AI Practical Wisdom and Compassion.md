@@ -23,6 +23,10 @@
 
 
 
+
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_GRAVES2025
@@ -40,8 +44,30 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "Buddhism"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 60
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "Buddhism"
-moral_psychology: "N/A"
+mp_mft: 0
+mp_schwartz: 50
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Virtue Ethics, Phronesis, Practical Wisdom, Compassion, Healthcare AI"
 key_contribution: "Proposes artificial practical wisdom grounded in compassion as more achievable than AGI, integrating Aristotelian phronesis with Buddhist and utilitarian perspectives"
 significance: "Novel cross-cultural virtue ethics framework for AI with practical healthcare applications"
@@ -52,10 +78,10 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 100
+virtue_ethics: 100
+deontological_ethics: 50
+utilitarian_ethics: 75
 is_benchmark: "No"
 is_eval: No
 is_dataset: "No"

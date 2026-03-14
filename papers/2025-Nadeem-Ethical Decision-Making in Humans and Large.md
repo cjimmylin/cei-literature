@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +46,30 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/CTQZ79SQ/Nadeem and Afreen 
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
-religious_values: "N/A"
-religious_values_list: "N/A"
+religious_values: "Islam"
+rv_islam: 50
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
+religious_values_list: "Islam"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Deontology, Utilitarianism"
 key_contribution: "Benchmarks 5 major LLMs against human judgments across 5 moral domains, identifying distinct 'moral personalities' (e.g., Gemini=Util, Copilot=Deont)"
@@ -57,15 +84,16 @@ pdf_extract: "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans an
 local_pdf: "[[PDFs/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
 normative_ethics_benchmark: Yes
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+ethics_overall: 100
+virtue_ethics: 0
+deontological_ethics: 50
+utilitarian_ethics: 60
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # Ethical Decision-Making in Humans and Large Language Models: Insights from Five Moral Domains
 

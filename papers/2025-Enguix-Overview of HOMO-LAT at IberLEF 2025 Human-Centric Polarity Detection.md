@@ -30,6 +30,11 @@
 
 
 
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,10 +43,10 @@ key: LSRC0284
 type: conferencePaper
 short_title: "Overview of HOMO-LAT at IberLEF 2025: Human-Centric Polarity Detection in Online Messages Oriented to the Latin American-speaking LGBTQ+ Population"
 year: 2025
-first_author: "[[Enguix, Gemma Bel]]"
-last_author: "[[Ojeda-Trueba, Sergio Luís]]"
-authors: "Enguix, Gemma Bel; Adorno, Helena Gómez; Ojeda-Trueba, Sergio Luís"
-authors_incomplete: true
+first_author: "[[Gemma Bel Enguix]]"
+last_author: "[[Sergio Luís Ojeda-Trueba]]"
+authors: "Gemma Bel Enguix; Helena Gómez Adorno; Sergio Luís Ojeda-Trueba"
+authors_incomplete: false
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6764/4136"
 external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6764/4136"
 publication: "IberLEF / SEPLN 2025"
@@ -53,7 +58,29 @@ national_ethnic_cultural: "Spanish, Latin American"
 cultures_nationalities_list: "Spanish, Latin American"
 languages_list: "Spanish"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, RoBERTa, GPT-4o mini, Mistral, Falcon"
@@ -61,16 +88,17 @@ DATA_URL: "NA"
 tags: 
 abstract: "This paper presents the HOMO-LAT shared task organized at IberLEF 2025, as part of the 41st International Conference of the Spanish Society for Natural Language Processing (SEPLN 2025). Our goal is to foster the design of algorithms capable of capturing the polarity of Reddit comments on keywords referring to the LGBTQ+ community. HOMO-LAT is a continuation of the past tasks HOMO-MEX 2023 and 2024, with the particularity of including posts from 19 Spanish-speaking Latin American countries."
 CONFERENCE: "Other Conference"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 60
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Other"
 is_benchmark: Yes
 is_eval: Yes
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
+ethics_perspective: "General Ethics"
 ---
 # Overview of HOMO-LAT at IberLEF 2025: Human-Centric Polarity Detection in Online Messages Oriented to the Latin American-speaking LGBTQ+ Population
 

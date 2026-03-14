@@ -31,6 +31,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,10 +43,10 @@ key: EXSR0440
 type: preprint
 short_title: "TUMLU A Unified and Native Language"
 year: 2025
-first_author: "[[Ibrohimov, Jamshid]]"
-last_author: "[[Barov, Ceferis]]"
-authors: "Ibrohimov, Jamshid; Mirzakhalov, Jamoliddin; Abdullayev, Sardor; Barov, Ceferis"
-authors_incomplete: true
+first_author: "[[Jamshid Ibrohimov]]"
+last_author: "[[Ceferis Barov]]"
+authors: "Jamshid Ibrohimov; Jamoliddin Mirzakhalov; Sardor Abdullayev; Ceferis Barov"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2502.11020"
 external_pdf: "https://arxiv.org/pdf/2502.11020.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Barov-TUMLU A Unified and Native Language.md"
@@ -54,7 +58,29 @@ national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Tatar, Turkish, Uyghur, Uzbek"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 tags: 
@@ -62,10 +88,10 @@ abstract: "Being able to thoroughly assess massive multitask language understand
 LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/ceferisbarov/TUMLU"
 CONFERENCE: "ACL 2025"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"

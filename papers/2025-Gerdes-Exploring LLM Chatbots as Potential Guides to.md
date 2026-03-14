@@ -23,6 +23,10 @@
 
 
 
+
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Socratic guide, euthanasia"
@@ -41,7 +45,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "Christianity"
+rv_islam: 0
+rv_christianity: 50
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "Christianity"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 5
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 25
 moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Explores the potential of LLM chatbots to act as Socratic guides for virtue ethics reflection, drawing on Kierkegaard's thought experiments and a case study on euthanasia"
@@ -55,10 +81,10 @@ DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md"
 local_pdf: "[[PDFs/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.pdf]]"
 CONFERENCE: "Journal"
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 30
+virtue_ethics: 100
+deontological_ethics: 0
+utilitarian_ethics: 0
 is_benchmark: "No"
 is_eval: Yes
 is_dataset: "No"

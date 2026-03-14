@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,7 +58,29 @@ national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: "Persian"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "BERT, ELMo"
@@ -62,10 +88,10 @@ DATA_URL: "https://github.com/dml-qom/FarsTail"
 tags: 
 abstract: "Natural language inference (NLI) is known as one of the central tasks in natural language processing (NLP) which encapsulates many fundamental aspects of language understanding. With the considerable achievements of data-hungry deep learning methods in NLP tasks, a great amount of eﬀort has been devoted to develop more diverse datasets for diﬀerent languages. In this paper, we present a new dataset for the NLI task in the Persian language, also known as Farsi, which is one of the dominant..."
 CONFERENCE: "Journal"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "Machine Learning"
 is_benchmark: Yes
 is_eval: Yes

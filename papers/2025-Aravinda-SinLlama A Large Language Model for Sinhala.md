@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +56,29 @@ national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Sinhala"
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 LLM_assessed: "Aya, BLOOM, Falcon, Llama-3, Mistral, Phi-3"
@@ -60,10 +86,10 @@ DATA_URL: "https://huggingface.co/datasets/polyglots/MADLAD_CulturaX_cleaned"
 tags: 
 abstract: "Low-resource languages such as Sinhala are often overlooked by open-source Large Language Models (LLMs). Therefore, it is imperative that the existing LLMs are further trained to cover such languages. In this research, we extend an existing multilingual LLM (Llama-3-8B) to get a better coverage for Sinhala. We enhanced the LLM tokenizer with Sinhala specific vocabulary and performed continual pre-training on a 10 million sentence Sinhala corpus, resulting in the SinLlama model."
 CONFERENCE: "Preprint"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+ethics_overall: 0
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 0
 research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "Yes"

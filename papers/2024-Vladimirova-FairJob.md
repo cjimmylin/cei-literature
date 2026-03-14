@@ -25,6 +25,12 @@
 
 
 
+
+
+
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +51,29 @@ national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
 religious_values: "N/A"
+rv_islam: 0
+rv_christianity: 0
+rv_buddhism: 0
+rv_judaism: 0
+rv_hinduism: 0
+rv_sikhism: 0
+rv_confucianism: 0
+rv_taoism: 0
+rv_shinto: 0
+rv_jainism: 0
+rv_bahai: 0
+rv_zoroastrianism: 0
+rv_ubuntu: 0
+rv_indigenous: 0
 religious_values_list: "N/A"
+mp_mft: 0
+mp_schwartz: 0
+mp_trolley: 0
+mp_kohlberg: 0
+mp_dual_process: 0
+mp_intuitionist: 0
+mp_dyadic: 0
+mp_identity: 0
 moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, Utilitarianism"
 key_contribution: "Releases FairJob, a real-world fairness dataset for job recommendation, including proxy estimates for sensitive attributes like gender"
@@ -59,15 +87,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/criteo/FairJob"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+ethics_overall: 75
+virtue_ethics: 0
+deontological_ethics: 0
+utilitarian_ethics: 25
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+ethics_perspective: "Bias & Fairness"
 ---
 # FairJob: A Real-World Dataset for Fairness in Online Systems
 

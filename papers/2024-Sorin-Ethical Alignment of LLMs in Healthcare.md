@@ -40,9 +40,9 @@ key: SORIN2024MEDRXIV
 type: preprint
 short_title: "Ethical Alignment of LLMs in Healthcare"
 year: 2024
-first_author: "[[V. Sorin]]"
-last_author: "[[E. Klang]]"
-authors: "V. Sorin; B.S. Glicksberg; P. Korfiatis; G.N. Nadkarni; E. Klang"
+first_author: "[[Vera Sorin]]"
+last_author: "[[Eyal Klang]]"
+authors: "Vera Sorin; B.S. Glicksberg; Panagiotis Korfiatis; G.N. Nadkarni; Eyal Klang"
 doi: 10.1101/2024.09.18.24313931
 url: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1"
 external_pdf: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1.full.pdf"

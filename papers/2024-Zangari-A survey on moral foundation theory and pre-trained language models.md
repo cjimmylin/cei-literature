@@ -46,7 +46,7 @@ short_title: "A survey on moral foundation theory and pre-trained language model
 year: 2024
 first_author: "[[Zangari, Lorenzo]]"
 last_author: "[[Andrea Tagarelli]]"
-authors: "Zangari, Lorenzo; Greco, C. M.; Picca, Davide; Andrea Tagarelli"
+authors: "Zangari, Lorenzo; Candida Maria Greco; Picca, Davide; Andrea Tagarelli"
 authors_incomplete: false
 doi: 10.1007/s00146-025-02225-w
 url: "https://link.springer.com/article/10.1007/s00146-025-02225-w"

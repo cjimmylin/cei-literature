@@ -38,8 +38,8 @@ type: journalArticle
 short_title: "Towards Artificial Virtuous Agents - Games and ML"
 year: 2022
 first_author: "[[Ajay Vishwanath]]"
-last_author: "[[C. Omlin]]"
-authors: "Ajay Vishwanath; E. Bøhn; Ole-Christoffer Granmo; Charl Maree; C. Omlin"
+last_author: "[[Christian Omlin]]"
+authors: "Ajay Vishwanath; Einar Duenger Bøhn; Ole-Christoffer Granmo; Charl Maree; Christian Omlin"
 doi: 10.1007/s43681-022-00251-8
 url: "https://link.springer.com/article/10.1007/s43681-022-00251-8"
 publication: "AI and Ethics"

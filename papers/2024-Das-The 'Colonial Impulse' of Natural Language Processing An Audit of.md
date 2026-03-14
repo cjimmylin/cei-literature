@@ -46,7 +46,7 @@ short_title: "The 'Colonial Impulse' of Natural Language Processing: An Audit of
 year: 2024
 first_author: "[[Dipankar Das]]"
 last_author: "[[Bryan C. Semaan]]"
-authors: Dipankar Das; S. Guha; J. Brubaker; Bryan C. Semaan
+authors: Dipankar Das; Shion Guha; Jed R. Brubaker; Bryan C. Semaan
 doi: 10.1145/3613904.3642669
 url: "https://arxiv.org/abs/2401.10535"
 external_pdf: "https://arxiv.org/pdf/2401.10535.pdf"

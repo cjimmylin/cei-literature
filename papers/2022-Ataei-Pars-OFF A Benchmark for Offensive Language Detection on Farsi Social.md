@@ -45,7 +45,7 @@ short_title: "Pars-OFF: A Benchmark for Offensive Language Detection on Farsi So
 year: 2022
 first_author: "[[Ataei, Taha Shangipour]]"
 last_author: "[[Pilehvar, Mohammad Taher]]"
-authors: "Ataei, Taha Shangipour; Darvishi, Kamyar; Javdan, Soroush; Pourdabiri, Amin; Minaei-Bidgoli, B.; Pilehvar, Mohammad Taher"
+authors: "Ataei, Taha Shangipour; Darvishi, Kamyar; Javdan, Soroush; Pourdabiri, Amin; Behrouz Minaei-Bidgoli; Pilehvar, Mohammad Taher"
 authors_incomplete: false
 doi: 10.1109/taffc.2022.3219229
 url: "https://ieeexplore.ieee.org/document/9936700"

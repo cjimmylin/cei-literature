@@ -43,7 +43,7 @@ short_title: "Artificial intelligence ethics in authoritarian Vietnam: governanc
 year: 2025
 first_author: "[[Tran, Huong T.]]"
 last_author: "[[P. V. Nguyen]]"
-authors: Huong T. Tran; B. H. Dang; Mai T. T. Nguyen; Q. Pham; P. V. Nguyen
+authors: Huong T. Tran; B. H. Dang; Mai T. T. Nguyen; Quynh T. T. Pham; P. V. Nguyen
 doi: 10.1080/25741292.2025.2529625
 url: "https://www.tandfonline.com/doi/full/10.1080/25741292.2025.2529625"
 publication: "Taylor & Francis"

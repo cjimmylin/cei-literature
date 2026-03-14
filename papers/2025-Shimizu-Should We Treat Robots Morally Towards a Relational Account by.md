@@ -42,9 +42,9 @@ key: ZERO0003
 type: conferencePaper
 short_title: Should We Treat Robots Morally? Towards a Relational Account by Mind-Infusing Animism
 year: 2025
-first_author: "[[H. Shimizu]]"
-last_author: "[[H. Shimizu]]"
-authors: H. Shimizu
+first_author: "[[Hayate Shimizu]]"
+last_author: "[[Hayate Shimizu]]"
+authors: Hayate Shimizu
 doi: 10.1007/s43681-025-00771-z
 url: "https://link.springer.com/article/10.1007/s43681-025-00771-z"
 publication: Springer AI and Ethics

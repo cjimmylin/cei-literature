@@ -33,9 +33,9 @@ key: AUTO_ANGLE2021
 type: bookSection
 short_title: "Can AI Lead to Genuine Virtue Confucian"
 year: 2021
-first_author: "[[Angle]]"
-last_author: "[[Stephen C.]]"
-authors: Angle; Stephen C.
+first_author: [[Stephen C. Angle]]
+last_author: [[Stephen C. Angle]]
+authors: Stephen C. Angle
 doi: 10.1007/978-981-16-2309-7_4
 url: "https://link.springer.com/chapter/10.1007/978-981-16-2309-7_4"
 pdf_extract: "PDF Extracts/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.md"

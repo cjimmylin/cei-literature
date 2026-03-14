@@ -180,8 +180,8 @@ def extract_arxiv_id(url: str) -> Optional[str]:
     return match.group(1) if match else None
 
 
-def fetch_arxiv_authors(arxiv_id: str) -> list:
-    """Fetch complete author list from arXiv API."""
+def fetch_arxiv_authors(arxiv_id: str, retry: int = 0) -> list:
+    """Fetch complete author list from arXiv API with 429 backoff."""
     try:
         url = f"{ARXIV_API_BASE}id_list={arxiv_id}"
         req = urllib.request.Request(url, headers={"User-Agent": "CEI-Literature-Vault/1.0"})
@@ -195,6 +195,14 @@ def fetch_arxiv_authors(arxiv_id: str) -> list:
                     if name_elem is not None and name_elem.text:
                         authors.append(name_elem.text.strip())
             return authors
+    except urllib.error.HTTPError as e:
+        if e.code == 429 and retry < 3:
+            wait = 10 * (retry + 1)
+            print(f"    arXiv 429 for {arxiv_id}, backing off {wait}s (retry {retry+1}/3)")
+            time.sleep(wait)
+            return fetch_arxiv_authors(arxiv_id, retry + 1)
+        print(f"    arXiv HTTP {e.code} for {arxiv_id}: {e}")
+        return []
     except Exception as e:
         print(f"    arXiv error for {arxiv_id}: {e}")
         return []
@@ -295,7 +303,7 @@ def resolve_name(abbreviated: str, paper_entries: list, paper_cache: dict,
             continue
 
         if arxiv_id not in arxiv_cache:
-            time.sleep(3)  # Rate limit
+            time.sleep(5)  # Rate limit (arXiv needs 3s+, use 5s for safety)
             arxiv_cache[arxiv_id] = fetch_arxiv_authors(arxiv_id)
 
         arxiv_authors = arxiv_cache[arxiv_id]

@@ -197,19 +197,19 @@ INITIAL_PATTERN = re.compile(r'^[A-Z]\.$')
 
 
 def is_abbreviated_name(name: str) -> bool:
-    """Check if a name contains abbreviated/initials-only parts.
+    """Check if a name has fewer than 2 non-initial parts.
+    A name like 'Noah A. Smith' (2 non-initial parts) is NOT abbreviated.
+    A name like 'A. Smith' (1 non-initial part) IS abbreviated.
     Mononyms (single-word names without periods) are NOT flagged."""
     parts = name.split()
     if len(parts) < 2:
         # Single word with no period — mononym, not abbreviated
         return False
 
-    # Check if any part is an initial (e.g., "M.", "J.")
-    for part in parts:
-        if INITIAL_PATTERN.match(part):
-            return True
-
-    return False
+    # Count parts that are NOT single-letter initials (e.g., "A.", "J.")
+    non_initial_parts = [p for p in parts if not INITIAL_PATTERN.match(p)]
+    # Abbreviated if fewer than 2 non-initial parts
+    return len(non_initial_parts) < 2
 
 
 def get_abbreviated_parts(name: str) -> List[str]:

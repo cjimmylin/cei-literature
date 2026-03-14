@@ -45,9 +45,9 @@ key: EXSR0366
 type: preprint
 short_title: "Faith Respect and Moral Compass in"
 year: 2025
-first_author: "[[Gong]]"
-last_author: "[[Gerrit W.]]"
-authors: Gong; Gerrit W.
+first_author: [[Gerrit W. Gong]]
+last_author: [[Gerrit W. Gong]]
+authors: Gerrit W. Gong
 authors_incomplete: false
 url: 
 external_pdf: 

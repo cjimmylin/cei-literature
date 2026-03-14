@@ -35,9 +35,9 @@ key: AUTO_ELDER2025
 type: book
 short_title: "The Ethics of Digital Ghosts"
 year: 2025
-first_author: "[[Elder]]"
-last_author: "[[Alexis M.]]"
-authors: Elder; Alexis M.
+first_author: [[Alexis M. Elder]]
+last_author: [[Alexis M. Elder]]
+authors: Alexis M. Elder
 doi: 10.4324/9781003632658
 isbn: 9781041058410
 url: "https://www.taylorfrancis.com/books/mono/10.4324/9781003632658/ethics-digital-ghosts-alexis-elder"

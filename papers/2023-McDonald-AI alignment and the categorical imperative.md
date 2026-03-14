@@ -37,9 +37,9 @@ key: DOI_S43681_022_00160_W
 type: journalArticle
 short_title: "AI, alignment, and the categorical imperative"
 year: 2023
-first_author: "[[McDonald]]"
-last_author: "[[Fritz J.]]"
-authors: McDonald; Fritz J.
+first_author: [[Fritz J. McDonald]]
+last_author: [[Fritz J. McDonald]]
+authors: Fritz J. McDonald
 doi: 10.1007/s43681-022-00160-w
 tags: "Philosophy - AI Ethics"
 url: "https://doi.org/10.1007/s43681-022-00160-w"

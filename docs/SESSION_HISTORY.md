@@ -2,6 +2,57 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 124 (Mar 13, 2026) - Dashboard v13: Normative Ethics Subtab Expansion
+
+### Overview
+Promoted Care Ethics, Contractualism, and Principlism from a `<details>` accordion in the Normative Ethics Overview subtab to dedicated first-class subtabs with full chart analytics. Dashboard v13 published to GitHub Pages.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| New subtabs | 3 (Care Ethics, Contractualism, Principlism) |
+| Total Normative Ethics subtabs | 9 (was 6) |
+| CE charts | 7 (year, models, research type, venue, regions, concepts, depth) |
+| CO charts | 7 (same set) |
+| Principlism charts | 2 (year, concepts — sparse data: only 2 papers) |
+| Accordion removed | "Beyond the Big Three" block deleted from Overview |
+| JS console errors | 0 |
+| Files modified | 2 (index.html, charts.js) |
+| GitHub Pages | `cjimmylin.github.io/cei-dashboard-13/` |
+
+### Key Learnings
+- [Infrastructure] `_deepDiveSubSection` unified method makes framework promotion trivial — rich data already exists in `ceYaml`/`coYaml`; only HTML containers + one JS call needed per framework.
+- [Infrastructure] `app.js` subtab switching is fully generic (`querySelectorAll('.sub-btn')`) — adding new subtabs requires zero JS wiring.
+- [Infrastructure] Sparse-data frameworks (Principlism, 2 papers) should use manual rendering rather than `_deepDiveSubSection` to avoid empty chart containers.
+
+### Files Changed
+- `DASHBOARDS/cei-dashboard-13/index.html`: +3 subtab buttons, +3 subtab panes, -1 accordion block
+- `DASHBOARDS/cei-dashboard-13/charts.js`: Replaced "Beyond Big Three" loop with `_deepDiveSubSection` calls for CE/CO + manual Principlism render
+- GitHub: New repo `cjimmylin/cei-dashboard-13` with Pages enabled
+
+---
+
+## Session 123 (Mar 13, 2026) - Eval Dashboard Regeneration & GitHub Pages Deployment
+
+### Overview
+Regenerated the eval framework dashboard pipeline (Table 3 ethics implementability + wrapper + v3) to reflect updated 0-100 ethics scores. Published the eval dashboard v3 to GitHub Pages as a new deployment.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Pipeline scripts re-run | 3 (table v2, wrapper, v3) |
+| Papers processed | 2,043 |
+| Ethics papers (score > 0) | 1,148 |
+| GitHub Pages deployment | cei-eval-dashboard (new repo) |
+
+### Key Learnings
+- Pipeline regeneration produced byte-identical output — confirms idempotency of generator scripts when YAML is unchanged
+- Eval dashboard is a single self-contained HTML (4.8MB) — simpler deployment than split-data vault dashboards
+
+### Files Changed
+- No changes to main repo (output was identical to committed versions)
+- New GitHub repo: `cjimmylin/cei-eval-dashboard` → `cjimmylin.github.io/cei-eval-dashboard/`
+
 ## Session 122 (Mar 13, 2026) - Normative Ethics Scoring Audit & 5-Framework Expansion
 
 ### Overview

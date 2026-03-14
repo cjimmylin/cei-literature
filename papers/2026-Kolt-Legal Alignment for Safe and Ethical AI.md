@@ -48,9 +48,9 @@ key: ARXIV_2601_04175
 type: preprint
 short_title: "Legal Alignment for Safe and Ethical AI"
 year: 2026
-first_author: "[[Kolt]]"
-last_author: "[[Jonathan]]"
-authors: "Kolt; Noam; Caputo; Nicholas; Boeglin; Jack; O'Keefe; Cullen; Bommasani; Rishi; Casper; Stephen; Cuéllar; Mariano-Florentino; Feldman; Noah; Gabriel; Iason; Hadfield; Gillian K.; Hammond; Lewis; Henderson; Peter; Kasirzadeh; Atoosa; Lazar; Seth; Reuel; Anka; Wei; Kevin L.; Zittrain; Jonathan"
+first_author: "[[Noam Kolt]]"
+last_author: "[[Jonathan Zittrain]]"
+authors: "Noam Kolt; Nicholas Caputo; Jack Boeglin; Cullen O'Keefe; Rishi Bommasani; Stephen Casper; Mariano-Florentino Cuéllar; Noah Feldman; Iason Gabriel; Gillian K. Hadfield; Lewis Hammond; Peter Henderson; Atoosa Kasirzadeh; Seth Lazar; Anka Reuel; Kevin L. Wei; Jonathan Zittrain"
 doi: 10.48550/arXiv.2601.04175
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2601.04175"

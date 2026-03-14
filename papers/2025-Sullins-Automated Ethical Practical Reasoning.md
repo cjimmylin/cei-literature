@@ -36,9 +36,9 @@ key: AUTO_SULLINS2025
 type: bookSection
 short_title: "Automated Ethical Practical Reasoning"
 year: 2025
-first_author: "[[Sullins]]"
-last_author: "[[John P.]]"
-authors: Sullins; John P.
+first_author: [[John P. Sullins]]
+last_author: [[John P. Sullins]]
+authors: John P. Sullins
 doi: N/A
 url: "https://mitpress.mit.edu/9780262549721/robophilosophy/"
 pdf_extract: "PDF Extracts/2025/2025-Sullins-Automated Ethical Practical Reasoning.md"

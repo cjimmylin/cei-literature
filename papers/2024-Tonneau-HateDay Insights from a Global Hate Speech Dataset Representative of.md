@@ -47,7 +47,7 @@ short_title: "HateDay: Insights from a Global Hate Speech Dataset Representative
 year: 2024
 first_author: "[[Tonneau, Manuel]]"
 last_author: "[[Röttger, Paul]]"
-authors: "Tonneau, Manuel; Liu, Diyi; Malhotra, Niyati; Hale, Scott A.; Fraiberger, Samuel P.; Orozco-Olvera, Victor; Röttger, Paul"
+authors: "Tonneau, Manuel; Liu, Diyi; Malhotra, Niyati; Scott A. Hale; Samuel P. Fraiberger; Orozco-Olvera, Victor; Röttger, Paul"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.15462"
 external_pdf: "https://arxiv.org/pdf/2411.15462.pdf"

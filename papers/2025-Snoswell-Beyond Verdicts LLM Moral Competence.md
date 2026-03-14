@@ -45,7 +45,7 @@ short_title: "Beyond Verdicts LLM Moral Competence"
 year: 2025
 first_author: "[[Aaron J. Snoswell]]"
 last_author: "[[Lazar, Seth]]"
-authors: "Snoswell, Aaron J.; Kilov, Daniel; Lazar, Seth"
+authors: "Aaron J. Snoswell; Kilov, Daniel; Lazar, Seth"
 doi: N/A
 url: "https://philarchive.org/rec/SNOBVE"
 pdf_extract: "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.md"

@@ -47,7 +47,7 @@ short_title: "Measuring Desired Group Discrimination in LLMs"
 year: 2025
 first_author: "[[Angelina Wang]]"
 last_author: "[[Koyejo, Sanmi]]"
-authors: "Wang, Angelina; Phan, Michelle; Ho, Daniel E.; Koyejo, Sanmi"
+authors: "Wang, Angelina; Phan, Michelle; Daniel E. Ho; Koyejo, Sanmi"
 url: "https://aclanthology.org/2025.acl-long.341/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/42WJ28G6/2025 - Measuring Desired Group Discrimination in LLMs (DiffAware Benchmark Suite).pdf"
 national_ethnic_cultural: "American"

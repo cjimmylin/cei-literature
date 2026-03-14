@@ -38,7 +38,7 @@ short_title: "Unlocking practical wisdom"
 year: 2025
 first_author: "[[Arianna Pipitone]]"
 last_author: "[[Chella, Antonio]]"
-authors: "Pipitone, Arianna; Seidita, Irene; Sullins, John P.; Chella, Antonio"
+authors: "Pipitone, Arianna; Seidita, Irene; John P. Sullins; Chella, Antonio"
 doi: 10.1038/s41598-025-86193-7
 url: "https://pubmed.ncbi.nlm.nih.gov/39837932/"
 national_ethnic_cultural: "N/A"

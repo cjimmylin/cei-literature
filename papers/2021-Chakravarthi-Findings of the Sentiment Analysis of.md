@@ -44,7 +44,7 @@ short_title: "Findings of the Sentiment Analysis of"
 year: 2021
 first_author: "[[Chakravarthi, Bharathi Raja]]"
 last_author: "[[Vasantharajan, Charangan]]"
-authors: "Chakravarthi, Bharathi Raja; Priyadharshini, Ruba; Thavareesan, Sajeetha; Chinnappa, Dhivya; Thenmozhi, Durairaj; Sherly, Elizabeth; McCrae, John P.; Hande, Adeep; Ponnusamy, Rahul; Banerjee, Shubhanker; Vasantharajan, Charangan"
+authors: "Chakravarthi, Bharathi Raja; Priyadharshini, Ruba; Thavareesan, Sajeetha; Chinnappa, Dhivya; Thenmozhi, Durairaj; Sherly, Elizabeth; John P. McCrae; Hande, Adeep; Ponnusamy, Rahul; Banerjee, Shubhanker; Vasantharajan, Charangan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2111.09811"
 external_pdf: "https://arxiv.org/pdf/2111.09811.pdf"

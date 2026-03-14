@@ -49,7 +49,7 @@ short_title: "From Languages to Geographies: Towards Evaluating Cultural Bias in
 year: 2024
 first_author: "[[Tonneau, Manuel]]"
 last_author: "[[Röttger, Paul]]"
-authors: "Tonneau, Manuel; Liu, Diyi; Fraiberger, Samuel; Schroeder, Ralph; Hale, Scott A.; Röttger, Paul"
+authors: "Tonneau, Manuel; Liu, Diyi; Fraiberger, Samuel; Schroeder, Ralph; Scott A. Hale; Röttger, Paul"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.17874"
 external_pdf: "https://arxiv.org/pdf/2404.17874.pdf"

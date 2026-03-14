@@ -42,8 +42,8 @@ type: conferencePaper
 short_title: "GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF"
 year: 2025
 first_author: "[[Khanuja, Simran]]"
-last_author: "[[Choudhury, M.]]"
-authors: "Khanuja, Simran; Dandapat, Sandipan; Srinivasan, A.; Sitaram, Sunayana; Choudhury, M."
+last_author: "[[Monojit Choudhury]]"
+authors: "Khanuja, Simran; Dandapat, Sandipan; Srinivasan, A.; Sitaram, Sunayana; Monojit Choudhury"
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/343300735_GLUECoS_An_Evaluation_Benchmark_for_Code-Switched_NLP"
 external_pdf: "https://www.aclweb.org/anthology/2020.acl-main.329.pdf"

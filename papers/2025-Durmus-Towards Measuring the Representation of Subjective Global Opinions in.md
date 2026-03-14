@@ -46,7 +46,7 @@ short_title: "Towards Measuring the Representation of Subjective Global Opinions
 year: 2025
 first_author: "[[Durmus, Esin]]"
 last_author: "[[Ganguli, Deep]]"
-authors: "Durmus, Esin; Nguyen, Karina; Liao, Thomas I.; Schiefer, Nicholas; Askell, Amanda; Bakhtin, Anton; Chen, Carol; Hatfield-Dodds, Zac; Hernandez, Danny; Joseph, Nicholas; Lovitt, Liane; McCandlish, Sam; Sikder, Orowa; Tamkin, Alex; Thamkul, Janel; Kaplan, Jared; Clark, Jack; Ganguli, Deep"
+authors: "Durmus, Esin; Nguyen, Karina; Thomas I. Liao; Schiefer, Nicholas; Askell, Amanda; Bakhtin, Anton; Chen, Carol; Hatfield-Dodds, Zac; Hernandez, Danny; Joseph, Nicholas; Lovitt, Liane; McCandlish, Sam; Sikder, Orowa; Tamkin, Alex; Thamkul, Janel; Kaplan, Jared; Clark, Jack; Ganguli, Deep"
 authors_incomplete: false
 url: "https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models"
 publication: Web

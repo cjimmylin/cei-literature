@@ -47,8 +47,8 @@ type: conferencePaper
 short_title: "RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora"
 year: 2022
 first_author: "[[Dementieva, Daryna]]"
-last_author: "[[Panchenko, A.]]"
-authors: "Dementieva, Daryna; Logacheva, V.; Nikishina, Irina; Fenogenova, Alena; Dale, David; Krotova, I.; Semenov, Nikita; Shavrina, Tatiana; Panchenko, A."
+last_author: "[[Alexander Panchenko]]"
+authors: "Dementieva, Daryna; Varvara Logacheva; Nikishina, Irina; Fenogenova, Alena; Dale, David; Krotova, I.; Semenov, Nikita; Shavrina, Tatiana; Alexander Panchenko"
 authors_incomplete: false
 url: "https://russe.nlpub.org/2022/tox/"
 external_pdf: "https://web.archive.org/web/20240817172642if_/https://www.dialog-21.ru/media/5755/dementievadplusetal105.pdf"

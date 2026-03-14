@@ -44,7 +44,7 @@ short_title: "The Humanistic Buddhism Corpus (HBC)"
 year: 2024
 first_author: "[[Youheng W. Wong]]"
 last_author: "[[Koyuncu, Erdem]]"
-authors: "Wong, Youheng W.; Parde, Natalie; Koyuncu, Erdem"
+authors: "Youheng W. Wong; Parde, Natalie; Koyuncu, Erdem"
 url: "https://aclanthology.org/2024.lrec-main.737/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6ATYMD6Y/2024 - The Humanistic Buddhism Corpus (HBC).pdf"
 national_ethnic_cultural: "Chinese"

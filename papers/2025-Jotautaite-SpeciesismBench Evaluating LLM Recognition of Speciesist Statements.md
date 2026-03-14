@@ -48,7 +48,7 @@ short_title: "SpeciesismBench: Evaluating LLM Recognition of Speciesist Statemen
 year: 2025
 first_author: "[[Jotautaitė, Monika]]"
 last_author: "[[Hagendorff, Thilo]]"
-authors: "Jotautaitė, Monika; Caviola, Lucius; Brewster, David A.; Hagendorff, Thilo"
+authors: "Jotautaitė, Monika; Caviola, Lucius; David A. Brewster; Hagendorff, Thilo"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.11534"
 external_pdf: "https://arxiv.org/pdf/2508.11534.pdf"

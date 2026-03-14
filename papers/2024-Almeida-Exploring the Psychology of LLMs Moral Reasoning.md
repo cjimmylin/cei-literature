@@ -47,7 +47,7 @@ short_title: "Psychology of LLMs Moral Reasoning"
 year: 2024
 first_author: "[[Guilherme F. C. F. Almeida]]"
 last_author: "[[Gubert, Renato]]"
-authors: "Almeida, Guilherme F. C. F.; Nunes, José Luiz; Pontes, Neele; Brinhosa, Markus; Gubert, Renato"
+authors: "Guilherme F. C. F. Almeida; Nunes, José Luiz; Pontes, Neele; Brinhosa, Markus; Gubert, Renato"
 doi: 10.1016/j.artint.2024.104081
 url: "https://www.sciencedirect.com/science/article/abs/pii/S000437022400081X"
 external_pdf: "https://arxiv.org/pdf/2308.01264.pdf"

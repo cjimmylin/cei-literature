@@ -45,7 +45,7 @@ short_title: "Introducing Bode: A Fine-Tuned Large Language Model for Portuguese
 year: 2024
 first_author: "[[Garcia, Gabriel Lino]]"
 last_author: "[[Papa, João Paulo]]"
-authors: "Garcia, Gabriel Lino; Paiola, Pedro Henrique; Morelli, Luis Henrique; Candido, Giovani; Júnior, Arnaldo Cândido; Jodas, Danilo Samuel; Afonso, Luis C. S.; Guilherme, Ivan Rizzo; Penteado, Bruno Elias; Papa, João Paulo"
+authors: "Garcia, Gabriel Lino; Paiola, Pedro Henrique; Morelli, Luis Henrique; Candido, Giovani; Júnior, Arnaldo Cândido; Jodas, Danilo Samuel; Luis C. S. Afonso; Guilherme, Ivan Rizzo; Penteado, Bruno Elias; Papa, João Paulo"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2401.02909"
 external_pdf: "https://arxiv.org/pdf/2401.02909.pdf"

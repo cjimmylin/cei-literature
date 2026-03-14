@@ -44,9 +44,9 @@ key: LSRC0773
 type: conferencePaper
 short_title: "Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and Governance | Philosophy & Technology | Springer Nature Link"
 year: 2025
-first_author: "[[ÓhÉigeartaigh, Seán S.]]"
+first_author: "[[Seán S. ÓhÉigeartaigh]]"
 last_author: "[[Liu, Zhe]]"
-authors: "ÓhÉigeartaigh, Seán S.; Whittlestone, Jess; Liu, Yang; Zeng, Yi; Liu, Zhe"
+authors: "Seán S. ÓhÉigeartaigh; Whittlestone, Jess; Liu, Yang; Zeng, Yi; Liu, Zhe"
 authors_incomplete: false
 doi: 10.1007/s13347-020-00402-x
 url: "https://link.springer.com/article/10.1007/s13347-020-00402-x"

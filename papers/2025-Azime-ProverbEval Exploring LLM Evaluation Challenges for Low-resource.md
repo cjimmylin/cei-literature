@@ -44,7 +44,7 @@ short_title: "ProverbEval: Exploring LLM Evaluation Challenges for Low-resource 
 year: 2025
 first_author: "[[Israel Abebe Azime]]"
 last_author: "[[Dietrich Klakow]]"
-authors: "Israel Abebe Azime; A. Tonja; Tadesse Destaw Belay; Yonas Chanie; Bontu Fufa Balcha; Negasi Haile Abadi; Henok Biadglign Ademtew; Mulubrhan Abebe Nerea; Debela Desalegn Yadeta; Derartu Dagne Geremew; Assefa Atsbiha tesfau; Philipp Slusallek; Thamar Solorio; Dietrich Klakow"
+authors: "Israel Abebe Azime; Atnafu Tonja; Tadesse Destaw Belay; Yonas Chanie; Bontu Fufa Balcha; Negasi Haile Abadi; Henok Biadglign Ademtew; Mulubrhan Abebe Nerea; Debela Desalegn Yadeta; Derartu Dagne Geremew; Assefa Atsbiha tesfau; Philipp Slusallek; Thamar Solorio; Dietrich Klakow"
 url: "https://arxiv.org/abs/2411.05049"
 external_pdf: "https://arxiv.org/pdf/2411.05049.pdf"
 publication: arXiv / NAACL 2025 Findings

@@ -45,7 +45,7 @@ short_title: "Red Teaming Contemporary AI Models: Insights from Spanish and Basq
 year: 2025
 first_author: "[[Romero-Arjona, Miguel]]"
 last_author: "[[Segura, Sergio]]"
-authors: "Romero-Arjona, Miguel; Valle, Pablo; Alonso, Juan C.; Sánchez, Ana B.; Ugarte, Miriam; Cazalilla, Antonia; Cambrón, Vicente; Parejo, José A.; Arrieta, Aitor; Segura, Sergio"
+authors: "Romero-Arjona, Miguel; Valle, Pablo; Juan C. Alonso; Ana B. Sánchez; Ugarte, Miriam; Cazalilla, Antonia; Cambrón, Vicente; José A. Parejo; Arrieta, Aitor; Segura, Sergio"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.10192"
 external_pdf: "https://arxiv.org/pdf/2503.10192.pdf"

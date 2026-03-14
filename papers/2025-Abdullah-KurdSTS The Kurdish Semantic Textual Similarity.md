@@ -42,8 +42,8 @@ type: preprint
 short_title: "KurdSTS: The Kurdish Semantic Textual Similarity"
 year: 2025
 first_author: "[[Abdullah, Abdulhady Abas]]"
-last_author: "[[Al, Hussein M.]]"
-authors: "Abdullah, Abdulhady Abas; Veisi, Hadi; Al, Hussein M."
+last_author: "[[Hussein M. Al]]"
+authors: "Abdullah, Abdulhady Abas; Veisi, Hadi; Hussein M. Al"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.02336"
 external_pdf: "https://arxiv.org/pdf/2510.02336.pdf"

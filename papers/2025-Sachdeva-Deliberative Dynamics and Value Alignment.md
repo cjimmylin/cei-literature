@@ -48,7 +48,7 @@ short_title: "Deliberative Dynamics and Value Alignment"
 year: 2025
 first_author: "[[Pratik S. Sachdeva]]"
 last_author: "[[van Nuenen, Tom]]"
-authors: "Sachdeva, Pratik S.; van Nuenen, Tom"
+authors: "Pratik S. Sachdeva; van Nuenen, Tom"
 doi: 10.48550/arXiv.2510.10002
 url: "https://arxiv.org/abs/2510.10002"
 external_pdf: "https://arxiv.org/pdf/2510.10002.pdf"

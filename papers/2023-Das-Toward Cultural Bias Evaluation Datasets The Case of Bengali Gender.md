@@ -49,8 +49,8 @@ type: conferencePaper
 short_title: "Toward Cultural Bias Evaluation Datasets: The Case of Bengali Gender, Religious, and National Identity (BIBED)"
 year: 2023
 first_author: "[[Das, Dipto]]"
-last_author: "[[Semaan, Bryan C.]]"
-authors: "Das, Dipto; Guha, Shion; Semaan, Bryan C."
+last_author: "[[Bryan C. Semaan]]"
+authors: "Das, Dipto; Guha, Shion; Bryan C. Semaan"
 authors_incomplete: false
 url: "https://aclanthology.org/2023.c3nlp-1.8/"
 external_pdf: "https://aclanthology.org/2023.c3nlp-1.8.pdf"

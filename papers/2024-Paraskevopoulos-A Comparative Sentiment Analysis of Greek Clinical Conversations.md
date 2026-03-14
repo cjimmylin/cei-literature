@@ -44,7 +44,7 @@ short_title: "A Comparative Sentiment Analysis of Greek Clinical Conversations U
 year: 2024
 first_author: "[[Chatzimina, Maria Evangelia]]"
 last_author: "[[Tsiknakis, Manolis]]"
-authors: "Chatzimina, Maria Evangelia; Papadaki, Helen A.; Pontikoglou, Charalampos; Tsiknakis, Manolis"
+authors: "Chatzimina, Maria Evangelia; Helen A. Papadaki; Pontikoglou, Charalampos; Tsiknakis, Manolis"
 authors_incomplete: false
 doi: 10.3390/bioengineering11060521
 url: "https://www.mdpi.com/2306-5354/11/6/521"

@@ -43,7 +43,7 @@ short_title: "Benchmarking Multilabel Topic Classification in the Kyrgyz Languag
 year: 2024
 first_author: "[[Alekseev, Anton]]"
 last_author: "[[Kabaeva, Gulnara]]"
-authors: "Alekseev, Anton; Nikolenko, Sergey I.; Kabaeva, Gulnara"
+authors: "Alekseev, Anton; Sergey I. Nikolenko; Kabaeva, Gulnara"
 authors_incomplete: false
 doi: 10.1007/978-3-031-54534-4_2
 url: "https://link.springer.com/chapter/10.1007/978-3-031-54534-4_2"

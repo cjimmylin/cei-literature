@@ -47,7 +47,7 @@ short_title: "COMETH: Contextual Organization of Moral Evaluation from Textual H
 year: 2025
 first_author: "[[Morlat, Geoffroy]]"
 last_author: "[[Khamassi, Mehdi]]"
-authors: "Morlat, Geoffroy; Nahon, Marceau; Chartouny, Augustin; Chatila, Raja; Freire, Ismael T.; Khamassi, Mehdi"
+authors: "Morlat, Geoffroy; Nahon, Marceau; Chartouny, Augustin; Chatila, Raja; Ismael T. Freire; Khamassi, Mehdi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.21439"
 external_pdf: "https://arxiv.org/pdf/2512.21439.pdf"

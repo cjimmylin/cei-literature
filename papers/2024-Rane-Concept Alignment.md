@@ -42,8 +42,8 @@ type: conferencePaper
 short_title: "Concept Alignment"
 year: 2024
 first_author: "[[Sunayana Rane]]"
-last_author: "[[Griffiths, Thomas L.]]"
-authors: "Rane, Sunayana; Bruna, Polyphony J.; Sucholutsky, Ilia; Kello, Christopher; Griffiths, Thomas L."
+last_author: "[[Thomas L. Griffiths]]"
+authors: "Rane, Sunayana; Polyphony J. Bruna; Sucholutsky, Ilia; Kello, Christopher; Thomas L. Griffiths"
 doi: 10.48550/arXiv.2401.08672
 url: "http://arxiv.org/abs/2401.08672"
 pdf_extract: "PDF Extracts/2024/2024-Rane-Concept Alignment.md"

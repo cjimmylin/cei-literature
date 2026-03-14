@@ -46,7 +46,7 @@ short_title: "MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Langua
 year: 2024
 first_author: "[[Poh, Soon Chang]]"
 last_author: "[[Chan, Chee Seng]]"
-authors: "Poh, Soon Chang; Yang, Sze Jue; Tan, Jeraelyn; Chieng, Lawrence; Tan, J.; Yu, Zhenyu; Mun, Foong; Chan, Chee Seng"
+authors: "Poh, Soon Chang; Yang, Sze Jue; Tan, Jeraelyn; Chieng, Lawrence; Jeffrey Ziwei Tan; Yu, Zhenyu; Mun, Foong; Chan, Chee Seng"
 authors_incomplete: false
 url: "https://aclanthology.org/2024.findings-emnlp.36/"
 external_pdf: "https://aclanthology.org/2024.findings-emnlp.36.pdf"

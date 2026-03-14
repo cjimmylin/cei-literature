@@ -45,7 +45,7 @@ short_title: "VM14K: First Vietnamese Medical Benchmark"
 year: 2025
 first_author: "[[Nguyen, Thong]]"
 last_author: "[[Tran, Minh]]"
-authors: "Nguyen, Thong; Nguyen, Duc; Dang, Minh; Dao, Thai; Nguyen, Long; Nguyen, Quan H.; Nguyen, Dat; Tran, Kien; Tran, Minh"
+authors: "Nguyen, Thong; Nguyen, Duc; Dang, Minh; Dao, Thai; Nguyen, Long; Quan H. Nguyen; Nguyen, Dat; Tran, Kien; Tran, Minh"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.01305"
 external_pdf: "https://arxiv.org/pdf/2506.01305.pdf"

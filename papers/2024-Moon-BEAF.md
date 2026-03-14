@@ -44,8 +44,8 @@ type: document
 short_title: BEAF
 year: 2024
 first_author: "[[Y. Moon]]"
-last_author: "[[Oh, T.]]"
-authors: "Moon, Y.; Nam, H.; Choi, W.; Oh, T."
+last_author: "[[Taehwan Oh]]"
+authors: "Moon, Y.; Nam, H.; Wonseok Choi; Taehwan Oh"
 url: "https://arxiv.org/abs/2407.13442"
 pdf_extract: "PDF Extracts/2024/2024-Moon-BEAF.md"
 local_pdf: "[[PDFs/2024/2024-Moon-BEAF.pdf]]"

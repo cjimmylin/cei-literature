@@ -40,7 +40,7 @@ short_title: "Deontological coherence"
 year: 2016
 first_author: "[[Keith J. Holyoak]]"
 last_author: "[[Powell, Derek]]"
-authors: "Holyoak, Keith J.; Powell, Derek"
+authors: "Keith J. Holyoak; Powell, Derek"
 doi: 10.1037/bul0000075
 url: "https://doi.apa.org/doi/10.1037/bul0000075"
 pdf_extract: "PDF Extracts/2016/2016-Holyoak-Deontological coherence.md"

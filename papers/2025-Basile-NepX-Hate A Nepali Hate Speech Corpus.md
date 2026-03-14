@@ -49,7 +49,7 @@ short_title: "NepX-Hate A Nepali Hate Speech Corpus"
 year: 2025
 first_author: "[[Basile, Valerio]]"
 last_author: "[[Goyal, Naman]]"
-authors: "Basile, Valerio; Bosco, Cristina; Fersini, Elisabetta; Nozza, Debora; Patti, Viviana; Manuel, Francisco; Pardo, Rangel; Rosso, Paolo; Sanguinetti, M.; Bohra, Aditya; Vijay, Deepanshu; Singh, Vinay; Akhtar, Syed Sar-644 faraz; Shrivastava, Manish; Conneau, Alexis; Khandelwal, Kartikay; Goyal, Naman"
+authors: "Basile, Valerio; Bosco, Cristina; Fersini, Elisabetta; Nozza, Debora; Patti, Viviana; Manuel, Francisco; Pardo, Rangel; Rosso, Paolo; Manuela Sanguinetti; Bohra, Aditya; Vijay, Deepanshu; Singh, Vinay; Akhtar, Syed Sar-644 faraz; Shrivastava, Manish; Conneau, Alexis; Khandelwal, Kartikay; Goyal, Naman"
 authors_incomplete: false
 url: "https://openreview.net/forum?id=PChNLEcv3V"
 external_pdf: "https://openreview.net/pdf?id=PChNLEcv3V"

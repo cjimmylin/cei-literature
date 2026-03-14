@@ -47,7 +47,7 @@ short_title: "OffTheRails: Procedural Dilemma Generation for Moral Reasoning"
 year: 2024
 first_author: "[[Fränken, Jan-Philipp]]"
 last_author: "[[Gerstenberg, Tobias]]"
-authors: "Fränken, Jan-Philipp; Gandhi, Kanishk; Qiu, Tori; Khawaja, Ayesha; Goodman, Noah D.; Gerstenberg, Tobias"
+authors: "Fränken, Jan-Philipp; Gandhi, Kanishk; Qiu, Tori; Khawaja, Ayesha; Noah D. Goodman; Gerstenberg, Tobias"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.10975"
 external_pdf: "https://arxiv.org/pdf/2404.10975.pdf"

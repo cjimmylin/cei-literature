@@ -44,7 +44,7 @@ short_title: "Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment"
 year: 2025
 first_author: "[[Divyansh Agarwal]]"
 last_author: "[[A & Vashistha]]"
-authors: "Divyansh Agarwal; A. Shukla; Sunayana Sitaram; A & Vashistha"
+authors: "Divyansh Agarwal; Amit K. Shukla; Sunayana Sitaram; A & Vashistha"
 url: "https://arxiv.org/abs/2505.21548"
 external_pdf: "https://arxiv.org/pdf/2505.21548.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md"

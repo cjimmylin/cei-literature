@@ -44,8 +44,8 @@ type: preprint
 short_title: "Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language"
 year: 2024
 first_author: "[[Paul, Ronny]]"
-last_author: "[[Prasad, Dilip K.]]"
-authors: "Paul, Ronny; Buckchash, Himanshu; Parida, Shantipriya; Prasad, Dilip K."
+last_author: "[[Dilip K. Prasad]]"
+authors: "Paul, Ronny; Buckchash, Himanshu; Parida, Shantipriya; Dilip K. Prasad"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2405.05777"
 external_pdf: "https://arxiv.org/pdf/2405.05777.pdf"

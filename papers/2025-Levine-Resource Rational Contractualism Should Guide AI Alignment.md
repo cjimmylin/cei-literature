@@ -41,7 +41,7 @@ short_title: "Resource Rational Contractualism Should Guide AI Alignment"
 year: 2025
 first_author: "[[Sydney Levine]]"
 last_author: "[[Gabriel, Iason]]"
-authors: "Levine, Sydney; Franklin, Matija; Zhi-Xuan, Tan; Guyot, Secil Yanik; Wong, Lionel; Kilov, Daniel; Choi, Yejin; Tenenbaum, Joshua B.; Goodman, Noah; Lazar, Seth; Gabriel, Iason"
+authors: "Levine, Sydney; Franklin, Matija; Zhi-Xuan, Tan; Guyot, Secil Yanik; Wong, Lionel; Kilov, Daniel; Choi, Yejin; Joshua B. Tenenbaum; Goodman, Noah; Lazar, Seth; Gabriel, Iason"
 doi: 10.48550/arXiv.2506.17434
 tags: "Computer Science - Artificial Intelligence"
 url: "https://arxiv.org/abs/2506.17434"

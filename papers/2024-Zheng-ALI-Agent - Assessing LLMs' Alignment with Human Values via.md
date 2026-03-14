@@ -45,7 +45,7 @@ short_title: "ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent
 year: 2024
 first_author: "[[Zheng, Jingnan]]"
 last_author: "[[Chua, Tat-Seng]]"
-authors: "Zheng, Jingnan; Wang, Han; Zhang, An; Nguyen, Tai D.; Sun, Jun; Chua, Tat-Seng"
+authors: "Zheng, Jingnan; Wang, Han; Zhang, An; Tai D. Nguyen; Sun, Jun; Chua, Tat-Seng"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2405.14125"
 external_pdf: "https://arxiv.org/pdf/2405.14125.pdf"

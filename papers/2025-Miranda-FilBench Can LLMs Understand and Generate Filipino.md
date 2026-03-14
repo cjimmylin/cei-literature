@@ -43,9 +43,9 @@ key: LSRC0110
 type: conferencePaper
 short_title: "FilBench: Can LLMs Understand and Generate Filipino?"
 year: 2025
-first_author: "[[Miranda, Lester James V.]]"
+first_author: "[[Lester James V. Miranda]]"
 last_author: "[[Imperial, Joseph Marvin]]"
-authors: "Miranda, Lester James V.; Aco, Elyanah; Manuel, Conner; Cruz, Jan Christian Blaise; Imperial, Joseph Marvin"
+authors: "Lester James V. Miranda; Aco, Elyanah; Manuel, Conner; Cruz, Jan Christian Blaise; Imperial, Joseph Marvin"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.emnlp-main.127/"
 external_pdf: "https://arxiv.org/pdf/2508.03523.pdf"

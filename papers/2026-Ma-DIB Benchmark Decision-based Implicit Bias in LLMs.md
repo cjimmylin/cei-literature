@@ -48,7 +48,7 @@ short_title: "DIB Benchmark: Decision-based Implicit Bias in LLMs"
 year: 2026
 first_author: "[[Ma, Yiming]]"
 last_author: "[[Dong, Wei]]"
-authors: "Ma, Yiming; Wang, Lixu; Wang, Lionel Z.; Yang, Hongkun; Sun, Haoming; Xu, Xin; Wu, Jiaqi; Chen, Bin; Dong, Wei"
+authors: "Ma, Yiming; Wang, Lixu; Lionel Z. Wang; Yang, Hongkun; Sun, Haoming; Xu, Xin; Wu, Jiaqi; Chen, Bin; Dong, Wei"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.01558"
 external_pdf: "https://arxiv.org/pdf/2602.01558.pdf"

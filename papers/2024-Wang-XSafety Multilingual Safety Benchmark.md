@@ -43,8 +43,8 @@ type: conferencePaper
 short_title: "XSafety: Multilingual Safety Benchmark"
 year: 2024
 first_author: "[[Wang, Wenxuan]]"
-last_author: "[[Lyu, Michael R.]]"
-authors: "Wang, Wenxuan; Tu, Zhaopeng; Chen, Chang; Yuan, Youliang; Huang, Jen-Tse; Jiao, Wenxiang; Lyu, Michael R."
+last_author: "[[Michael R. Lyu]]"
+authors: "Wang, Wenxuan; Tu, Zhaopeng; Chen, Chang; Yuan, Youliang; Huang, Jen-Tse; Jiao, Wenxiang; Michael R. Lyu"
 authors_incomplete: false
 url: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 publication: GitHub

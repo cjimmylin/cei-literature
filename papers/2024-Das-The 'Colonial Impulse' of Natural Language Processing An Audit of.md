@@ -45,8 +45,8 @@ type: preprint
 short_title: "The 'Colonial Impulse' of Natural Language Processing: An Audit of Bengali Sentiment Analysis Tools and Their Identity-based Biases"
 year: 2024
 first_author: "[[Dipankar Das]]"
-last_author: "[[B. Semaan]]"
-authors: Dipankar Das; S. Guha; J. Brubaker; B. Semaan
+last_author: "[[Bryan C. Semaan]]"
+authors: Dipankar Das; S. Guha; J. Brubaker; Bryan C. Semaan
 doi: 10.1145/3613904.3642669
 url: "https://arxiv.org/abs/2401.10535"
 external_pdf: "https://arxiv.org/pdf/2401.10535.pdf"

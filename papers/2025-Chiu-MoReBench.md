@@ -40,7 +40,7 @@ short_title: MoReBench
 year: 2025
 first_author: "[[Yu Ying Chiu]]"
 last_author: "[[Levine, Sydney]]"
-authors: "Chiu, Yu Ying; Lee, Michael S.; Calcott, Rachel; Handoko, Brandon; Font-Reaulx, Paul de; Rodriguez, Paula; Zhang, Chen Bo Calvin; Han, Ziwen; Sehwag, Udari Madhushani; Maurya, Yash; Knight, Christina Q.; Lloyd, Harry R.; Bacus, Florence; Mazeika, Mantas; Liu, Bing; Choi, Yejin; Gordon, Mitchell L.; Levine, Sydney"
+authors: "Chiu, Yu Ying; Michael S. Lee; Calcott, Rachel; Handoko, Brandon; Font-Reaulx, Paul de; Rodriguez, Paula; Zhang, Chen Bo Calvin; Han, Ziwen; Sehwag, Udari Madhushani; Maurya, Yash; Christina Q. Knight; Harry R. Lloyd; Bacus, Florence; Mazeika, Mantas; Liu, Bing; Choi, Yejin; Mitchell L. Gordon; Levine, Sydney"
 doi: 10.48550/arXiv.2510.16380
 url: "http://arxiv.org/abs/2510.16380"
 pdf_extract: "PDF Extracts/2025/2025-Chiu-MoReBench.md"

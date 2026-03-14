@@ -46,8 +46,8 @@ type: conferencePaper
 short_title: "Robustness of Large Language Models in Moral Judgements"
 year: 2025
 first_author: "[[Sunjin Oh]]"
-last_author: "[[V. Demberg]]"
-authors: "Sunjin Oh; V. Demberg"
+last_author: "[[Vera Demberg]]"
+authors: "Sunjin Oh; Vera Demberg"
 doi: 10.1098/rsos.241229
 url: "https://doi.org/10.1098/rsos.241229"
 external_pdf: "https://link.springer.com/content/pdf/10.3758/s13428-023-02307-x.pdf"

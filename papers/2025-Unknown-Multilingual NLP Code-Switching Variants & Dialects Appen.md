@@ -44,7 +44,7 @@ short_title: "Multilingual NLP: Code-Switching, Variants & Dialects | Appen"
 year: 2025
 first_author: "[[Hamed, Injy]]"
 last_author: "[[Habash, Nizar]]"
-authors: "Hamed, Injy; Sabty, Caroline; Abdennadher, Slim; Vu, Ngoc Thang; Solorio, T.; Habash, Nizar"
+authors: "Hamed, Injy; Sabty, Caroline; Abdennadher, Slim; Vu, Ngoc Thang; Thamar Solorio; Habash, Nizar"
 authors_incomplete: false
 url: "https://www.appen.com/blog/emnlp-2025-multilingual-nlp"
 publication: Web

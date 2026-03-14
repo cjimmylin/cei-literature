@@ -45,7 +45,7 @@ short_title: "EVALUESTEER: Measuring Reward Model Steerability Across Value Dime
 year: 2025
 first_author: "[[Ghate, Kshitish]]"
 last_author: "[[Sap, Maarten]]"
-authors: "Ghate, Kshitish; Liu, Andy; Jain, Devansh; Sorensen, Taylor; Kasirzadeh, Atoosa; Caliskan, Aylin; Diab, Mona T.; Sap, Maarten"
+authors: "Ghate, Kshitish; Liu, Andy; Jain, Devansh; Sorensen, Taylor; Kasirzadeh, Atoosa; Caliskan, Aylin; Mona T. Diab; Sap, Maarten"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.06370"
 external_pdf: "https://arxiv.org/pdf/2510.06370.pdf"

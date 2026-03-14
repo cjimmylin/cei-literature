@@ -43,9 +43,9 @@ key: LSRC0087
 type: conferencePaper
 short_title: "MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages"
 year: 2023
-first_author: "[[Dione, Cheikh M. Bamba]]"
+first_author: "[[Cheikh M. Bamba Dione]]"
 last_author: "[[Klakow, Dietrich]]"
-authors: "Dione, Cheikh M. Bamba; Adelani, David; Nabende, Peter; Alabi, Jesujoba; Sindane, Thapelo; Buzaaba, Happy; Muhammad, Shamsuddeen Hassan; Emezue, Chris Chinenye; Ogayo, Perez; Aremu, Anuoluwapo; Gitau, Catherine; Mbaye, Derguene; Mukiibi, Jonathan; Sibanda, Blessing; Dossou, Bonaventure F. P.; Bukula, Andiswa; Mabuya, Rooweither; Tapo, Allahsera Auguste; Munkoh-Buabeng, Edwin; Koagne, victoire Memdjokam; Kabore, Fatoumata Ouoba; Taylor, Amelia; Kalipe, Godson; Macucwa, Tebogo; Marivate, Vukosi; Gwadabe, Tajuddeen; Elvis, Mboning Tchiaze; Onyenwe, Ikechukwu; Atindogbe, Gratien; Adelani, Tolulope; Akinade, Idris; Samuel, Olanrewaju; Nahimana, Marien; Musabeyezu, Théogène; Niyomutabazi, Emile; Chimhenga, Ester; Gotosa, Kudzai; Mizha, Patrick; Agbolo, Apelete; Traore, Seydou; Uchechukwu, Chinedu; Yusuf, Aliyu; Abdullahi, Muhammad; Klakow, Dietrich"
+authors: "Cheikh M. Bamba Dione; Adelani, David; Nabende, Peter; Alabi, Jesujoba; Sindane, Thapelo; Buzaaba, Happy; Muhammad, Shamsuddeen Hassan; Emezue, Chris Chinenye; Ogayo, Perez; Aremu, Anuoluwapo; Gitau, Catherine; Mbaye, Derguene; Mukiibi, Jonathan; Sibanda, Blessing; Bonaventure F. P. Dossou; Bukula, Andiswa; Mabuya, Rooweither; Tapo, Allahsera Auguste; Munkoh-Buabeng, Edwin; Koagne, victoire Memdjokam; Kabore, Fatoumata Ouoba; Taylor, Amelia; Kalipe, Godson; Macucwa, Tebogo; Marivate, Vukosi; Gwadabe, Tajuddeen; Elvis, Mboning Tchiaze; Onyenwe, Ikechukwu; Atindogbe, Gratien; Adelani, Tolulope; Akinade, Idris; Samuel, Olanrewaju; Nahimana, Marien; Musabeyezu, Théogène; Niyomutabazi, Emile; Chimhenga, Ester; Gotosa, Kudzai; Mizha, Patrick; Agbolo, Apelete; Traore, Seydou; Uchechukwu, Chinedu; Yusuf, Aliyu; Abdullahi, Muhammad; Klakow, Dietrich"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2305.13989"
 external_pdf: "https://arxiv.org/pdf/2305.13989.pdf"

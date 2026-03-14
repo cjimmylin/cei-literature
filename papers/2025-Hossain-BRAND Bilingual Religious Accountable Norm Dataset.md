@@ -46,8 +46,8 @@ type: preprint
 short_title: "BRAND: Bilingual Religious Accountable Norm Dataset"
 year: 2025
 first_author: "[[Hossain, Kazi Abrab]]"
-last_author: "[[Sadeque, Farig Y.]]"
-authors: "Hossain, Kazi Abrab; Mahmud, Jannatul Somiya; Tuli, Maria Hossain; Mitra, Anik; Haque, S. M. Taiabul; Sadeque, Farig Y."
+last_author: "[[Farig Y. Sadeque]]"
+authors: "Hossain, Kazi Abrab; Mahmud, Jannatul Somiya; Tuli, Maria Hossain; Mitra, Anik; S. M. Taiabul Haque; Farig Y. Sadeque"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.03943"
 external_pdf: "https://arxiv.org/pdf/2512.03943.pdf"

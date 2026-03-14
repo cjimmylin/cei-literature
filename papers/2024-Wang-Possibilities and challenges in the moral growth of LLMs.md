@@ -40,7 +40,7 @@ short_title: "Possibilities and challenges in the moral growth of LLMs"
 year: 2024
 first_author: "[[G. Y. Wang]]"
 last_author: "[[Y. C. Wang]]"
-authors: G. Y. Wang; W. Wang; Y. Q. Cao; H. F. Wang; Y. T. Guo; Q. Y. Guo; J. J. Ma; Junling Liu; J. Y. Lin; Y. C. Wang
+authors: G. Y. Wang; Wei Wang; Y. Q. Cao; H. F. Wang; Y. T. Guo; Q. Y. Guo; J. J. Ma; Junling Liu; J. Y. Lin; Y. C. Wang
 doi: 10.1007/s10676-024-09818-x
 tags: "Philosophy - AI Ethics"
 url: "https://doi.org/10.1007/s10676-024-09818-x"

@@ -37,8 +37,8 @@ type: conferencePaper
 short_title: "Design Patterns for the Common Good"
 year: 2025
 first_author: "[[Louisa Conwill]]"
-last_author: "[[Scheirer, Walter J.]]"
-authors: "Conwill, Louisa; Levis, Megan K.; Badillo-Urquiola, Karla; Scheirer, Walter J."
+last_author: "[[Walter J. Scheirer]]"
+authors: "Conwill, Louisa; Megan K. Levis; Badillo-Urquiola, Karla; Walter J. Scheirer"
 doi: 10.1145/3706598.3713546
 url: "https://arxiv.org/abs/2501.10288"
 pdf_extract: "PDF Extracts/2025/2025-Conwill-Design Patterns for the Common Good.md"

@@ -47,8 +47,8 @@ type: document
 short_title: RealToxicityPrompts
 year: 2020
 first_author: "[[Samuel Gehman]]"
-last_author: "[[Smith, Noah A.]]"
-authors: "Gehman, Samuel; Gururangan, Suchin; Sap, Maarten; Choi, Yejin; Smith, Noah A."
+last_author: "[[Noah A. Smith]]"
+authors: "Gehman, Samuel; Gururangan, Suchin; Sap, Maarten; Choi, Yejin; Noah A. Smith"
 url: "https://aclanthology.org/2020.findings-emnlp.301/"
 external_pdf: "https://arxiv.org/pdf/2009.11462v2.pdf"
 national_ethnic_cultural: "N/A"

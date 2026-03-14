@@ -43,7 +43,7 @@ short_title: "Discerning What Matters"
 year: 2025
 first_author: "[[Daniel Kilov]]"
 last_author: "[[Lazar, Seth]]"
-authors: "Kilov, Daniel; Hendy, Caroline; Guyot, Secil Yanik; Snoswell, Aaron J.; Lazar, Seth"
+authors: "Kilov, Daniel; Hendy, Caroline; Guyot, Secil Yanik; Aaron J. Snoswell; Lazar, Seth"
 doi: 10.48550/arXiv.2506.13082
 tags: 
 url: "http://arxiv.org/abs/2506.13082"

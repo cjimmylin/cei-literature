@@ -1,0 +1,501 @@
+{
+  "metadata": {
+    "generated": "2026-03-15",
+    "vault_snapshot": {
+      "total_papers": 2043,
+      "benchmark_candidates": 989,
+      "cross_framework_papers": 107,
+      "in_all_4_frameworks": 1
+    },
+    "companion_report": "20260315-values-alignment-benchmark-competitive-analysis.md"
+  },
+  "compendia": [
+    {
+      "name": "HELM",
+      "organization": "Stanford CRFM",
+      "year": 2022,
+      "tier": 1,
+      "dimensions": 7,
+      "scenarios_tasks": 42,
+      "languages": 1,
+      "cultural_coverage": "Minimal",
+      "harness": "HELM",
+      "public_data": "Partial",
+      "values_focus": "Low",
+      "notes": "Pioneered multi-metric evaluation; explicitly rejects single aggregate scores"
+    },
+    {
+      "name": "HELM Safety v1.0",
+      "organization": "Stanford CRFM",
+      "year": 2024,
+      "tier": 1,
+      "dimensions": "Safety taxonomy",
+      "scenarios_tasks": "BBQ, HarmBench, XSTest, etc.",
+      "languages": 1,
+      "cultural_coverage": "Minimal",
+      "harness": "HELM",
+      "public_data": true,
+      "values_focus": "Medium",
+      "notes": "Expanding into values territory; competitive risk"
+    },
+    {
+      "name": "DecodingTrust",
+      "organization": "UIUC + various",
+      "year": 2023,
+      "tier": 1,
+      "dimensions": 8,
+      "scenarios_tasks": "Per-dimension protocols",
+      "languages": 1,
+      "cultural_coverage": "None",
+      "harness": "Standalone",
+      "public_data": true,
+      "values_focus": "Medium",
+      "notes": "[0,100] normalized scores per dimension"
+    },
+    {
+      "name": "TrustLLM",
+      "organization": "Various",
+      "year": 2024,
+      "tier": 1,
+      "dimensions": 8,
+      "scenarios_tasks": "30+",
+      "languages": 1,
+      "cultural_coverage": "None",
+      "harness": "Standalone",
+      "public_data": true,
+      "values_focus": "Medium",
+      "notes": "16 LLMs evaluated"
+    },
+    {
+      "name": "BIG-Bench",
+      "organization": "Google + community",
+      "year": 2022,
+      "tier": 1,
+      "dimensions": "Flat",
+      "scenarios_tasks": "200+",
+      "languages": 1,
+      "cultural_coverage": "Minimal",
+      "harness": "BIG-Bench",
+      "public_data": true,
+      "values_focus": "Low",
+      "notes": "Community-contributed; flat task collection"
+    },
+    {
+      "name": "ETHICS",
+      "organization": "Hendrycks et al.",
+      "year": 2021,
+      "tier": 2,
+      "dimensions": 5,
+      "scenarios_tasks": "130K+ examples",
+      "languages": 1,
+      "cultural_coverage": "Western",
+      "harness": "lm-eval",
+      "public_data": true,
+      "values_focus": "High",
+      "notes": "Justice, well-being, duties, virtues, commonsense"
+    },
+    {
+      "name": "ValueBench",
+      "organization": "Ren et al.",
+      "year": 2024,
+      "tier": 2,
+      "dimensions": 453,
+      "scenarios_tasks": "44 inventories",
+      "languages": 1,
+      "cultural_coverage": "Western psych",
+      "harness": "Standalone",
+      "public_data": true,
+      "values_focus": "High",
+      "notes": "Strongest psychometric grounding; Schwartz, MFT, etc."
+    },
+    {
+      "name": "SafetyBench",
+      "organization": "Various",
+      "year": 2024,
+      "tier": 2,
+      "dimensions": 7,
+      "scenarios_tasks": "11,435 MCQ",
+      "languages": 2,
+      "cultural_coverage": "Chinese + English",
+      "harness": "Standalone",
+      "public_data": true,
+      "values_focus": "Medium",
+      "notes": "Rare bilingual benchmark"
+    },
+    {
+      "name": "MoReBench",
+      "organization": "Chiu et al.",
+      "year": 2025,
+      "tier": 2,
+      "dimensions": "Multi-framework",
+      "scenarios_tasks": "1,000 scenarios, 23K+ criteria",
+      "languages": 1,
+      "cultural_coverage": "Western",
+      "harness": "Standalone",
+      "public_data": true,
+      "values_focus": "High",
+      "notes": "Moral reasoning depth evaluation"
+    },
+    {
+      "name": "UniMoral",
+      "organization": "Various",
+      "year": 2025,
+      "tier": 2,
+      "dimensions": "Psychologically grounded",
+      "scenarios_tasks": "8,784 instances",
+      "languages": 6,
+      "cultural_coverage": "South Asian",
+      "harness": "Standalone",
+      "public_data": true,
+      "values_focus": "High",
+      "notes": "ACL Best Resource; Bengali-grounded multilingual"
+    }
+  ],
+  "gap_analysis": {
+    "normative_ethics_gaps": {
+      "care_ethics": {
+        "vault_papers_gte_50": 14,
+        "vault_percentage": 0.7,
+        "dedicated_benchmarks": 0,
+        "gap_severity": "CRITICAL",
+        "notes": "No dedicated benchmark exists for care ethics evaluation"
+      },
+      "contractarian_ethics": {
+        "vault_papers_gte_50": 17,
+        "vault_percentage": 0.8,
+        "dedicated_benchmarks": 0,
+        "gap_severity": "CRITICAL",
+        "notes": "No Rawlsian/Scanlonian benchmark exists"
+      },
+      "virtue_ethics": {
+        "vault_papers_gte_50": 82,
+        "vault_percentage": 4.0,
+        "dedicated_benchmarks": 3,
+        "gap_severity": "MODERATE",
+        "notes": "ADEPT, Jiminy Cricket, EudAImonia — mostly theoretical"
+      },
+      "deontological_ethics": {
+        "vault_papers_gte_50": 96,
+        "vault_percentage": 4.7,
+        "dedicated_benchmarks": 3,
+        "gap_severity": "MODERATE",
+        "notes": "ETHICS deontology subset, CLASH, MoReBench"
+      },
+      "utilitarian_ethics": {
+        "vault_papers_gte_50": 102,
+        "vault_percentage": 5.0,
+        "dedicated_benchmarks": 5,
+        "gap_severity": "LOW",
+        "notes": "Best covered — trolley variants, ETHICS subset, MACHIAVELLI"
+      }
+    },
+    "cultural_gaps": {
+      "sub_saharan_africa": {
+        "vault_papers": 11,
+        "tradition": "Ubuntu",
+        "benchmarks": 0,
+        "gap_severity": "HIGH",
+        "notes": "No Ubuntu/palaver/elder-council moral reasoning benchmarks"
+      },
+      "indigenous_worldviews": {
+        "vault_papers": 30,
+        "tradition": "Indigenous Spirituality",
+        "benchmarks": 0,
+        "gap_severity": "HIGH",
+        "notes": "No tikanga Maori, data sovereignty benchmarks"
+      },
+      "latin_america": {
+        "vault_papers": "Limited",
+        "tradition": "Liberation theology, communitarian",
+        "benchmarks": 1,
+        "gap_severity": "HIGH",
+        "notes": "Only BenchMoral (Spanish MFQ-30)"
+      },
+      "south_southeast_asia": {
+        "vault_papers": "Limited",
+        "tradition": "Thai, Vietnamese, Myanmar, Filipino",
+        "benchmarks": 0,
+        "gap_severity": "HIGH",
+        "notes": "Entirely unrepresented despite AI deployment"
+      },
+      "middle_east_north_africa": {
+        "vault_papers": 83,
+        "tradition": "Islamic jurisprudence",
+        "benchmarks": 1,
+        "gap_severity": "HIGH",
+        "notes": "Only 1 BERT-based classifier; no fiqh/maqasid benchmark"
+      }
+    },
+    "methodological_gaps": [
+      "No moral reasoning process evaluation (only judgment testing)",
+      "No moral uncertainty expression testing",
+      "No value pluralism competence evaluation",
+      "No cross-cultural normalization in any framework",
+      "No temporal tracking of value alignment across model versions",
+      "No ecological validity (real deployment conditions) benchmarks"
+    ]
+  },
+  "vault_coverage": {
+    "total_papers": 2043,
+    "benchmark_candidates": 989,
+    "multi_categorized_papers": 825,
+    "multi_categorized_percentage": 83.4,
+    "categories": {
+      "cultural_cross_cultural_ethics": 497,
+      "fairness_bias_social_norms": 448,
+      "helpfulness_honesty_rlhf": 442,
+      "toxicity_hate_speech_harmful": 291,
+      "moral_reasoning_ethical_judgment": 248,
+      "safety_red_teaming": 242,
+      "value_alignment_value_pluralism": 197,
+      "domain_specific_ethics": 161,
+      "moral_psychology_applied_to_ai": 58,
+      "normative_ethics_benchmarks": 57
+    },
+    "normative_ethics_scores_gte_50": {
+      "utilitarian_ethics": 102,
+      "deontological_ethics": 96,
+      "virtue_ethics": 82,
+      "contractarian_ethics": 17,
+      "care_ethics": 14
+    },
+    "moral_psychology": {
+      "total_papers": 155,
+      "moral_foundations_theory": 59,
+      "value_pluralism_schwartz": 54,
+      "trolley_dilemmas": 37,
+      "cognitive_developmental": 18,
+      "moral_identity": 8,
+      "dyadic_morality": 2,
+      "social_intuitionist": 1
+    },
+    "religious_values": {
+      "total_papers": 499,
+      "christianity": 127,
+      "multiple_religions": 114,
+      "islam": 83,
+      "jainism": 56,
+      "indigenous_spirituality": 30,
+      "confucianism": 19,
+      "hinduism": 12,
+      "ubuntu_philosophy": 11,
+      "buddhism": 10,
+      "judaism": 10,
+      "sikhism": 9,
+      "shinto": 7,
+      "zoroastrianism": 5,
+      "taoism": 3,
+      "bahai": 1
+    },
+    "unique_culture_nationality_values": 98,
+    "pluralistic_relevance": {
+      "yes": 475,
+      "partial": 177,
+      "no": 107,
+      "na": 230
+    },
+    "data_availability": {
+      "public": 468,
+      "code_available": 18,
+      "not_stated": 197,
+      "na": 230,
+      "unknown": 71,
+      "restricted": 5
+    }
+  },
+  "implementability": {
+    "lm_eval": {
+      "already_in": 65,
+      "ready_to_implement": 178,
+      "needs_dataset_hosting": 413,
+      "needs_more_info": 580,
+      "not_implementable": 754,
+      "total_viable": 656,
+      "total_scored": 1990,
+      "top_ready": [
+        "FrenchBench (100)", "DecodingTrust (100)", "SEACrowd (100)",
+        "AraDiCE (100)", "AfriMed-QA (100)", "INCLUDE (100)",
+        "TMMLU+ (100)", "Social Norms Dataset (100)"
+      ]
+    },
+    "inspect": {
+      "already_in": 38,
+      "ready_to_implement": 23,
+      "model_graded_candidates": 29,
+      "needs_dataset_work": 483,
+      "needs_more_info": 695,
+      "not_implementable": 775,
+      "total_viable": 90,
+      "total_scored": 2043,
+      "top_ready": [
+        "2024-Yuan-Social (80)", "AfriMed-QA (69)", "WenMind (68)", "TMLU (67)"
+      ]
+    },
+    "helm": {
+      "already_in": 19,
+      "notes": "Tagged papers only; no implementability scoring performed"
+    },
+    "eleutherai": {
+      "already_in": 22,
+      "notes": "Tracked in cross-framework comparison"
+    },
+    "lighteval": {
+      "already_in": 0,
+      "ready_estimated": 99,
+      "needs_dataset_estimated": 771,
+      "total_viable_estimated": 870
+    },
+    "openai_evals": {
+      "already_in": 0,
+      "ready_estimated": 783,
+      "needs_dataset_estimated": 872,
+      "total_viable_estimated": 1655
+    },
+    "cross_framework_overlap": {
+      "in_gte_1_framework": 107,
+      "in_all_4_trackable": 1,
+      "lm_eval_plus_inspect": 15,
+      "lm_eval_plus_helm": 6,
+      "eleutherai_plus_lm_eval": 9,
+      "inspect_plus_helm": 4,
+      "eleutherai_plus_inspect": 6,
+      "eleutherai_plus_helm": 4
+    },
+    "realistic_timeline": {
+      "6_months": {"count_range": "120-150", "percentage_range": "12-15%", "criteria": "MCQ, public data, clear metrics"},
+      "12_months": {"count_range": "250-300", "percentage_range": "25-30%", "criteria": "Format conversion needed"},
+      "18_months": {"count_range": "200-250", "percentage_range": "20-25%", "criteria": "Custom scorer development"},
+      "fundamental_barriers": {"count_range": "300-350", "percentage_range": "30-35%", "criteria": "No public data, human-in-loop, proprietary"}
+    }
+  },
+  "competitive_matrix": [
+    {
+      "dimension": "Benchmark breadth",
+      "helm": "42 scenarios",
+      "decoding_trust": "8 dimensions",
+      "trust_llm": "30+ tasks",
+      "value_bench": "44 inventories",
+      "ethics": "5 domains",
+      "cei_proposed": "989 candidates"
+    },
+    {
+      "dimension": "Cultural coverage",
+      "helm": "Minimal",
+      "decoding_trust": "None",
+      "trust_llm": "None",
+      "value_bench": "Western",
+      "ethics": "Western",
+      "cei_proposed": "98 culture values, 40+ languages"
+    },
+    {
+      "dimension": "Normative depth",
+      "helm": "Low",
+      "decoding_trust": "Low",
+      "trust_llm": "Low",
+      "value_bench": "Medium",
+      "ethics": "Medium",
+      "cei_proposed": "High (5+8+14 dimensions)"
+    },
+    {
+      "dimension": "Psychometric validity",
+      "helm": "Medium",
+      "decoding_trust": "Medium",
+      "trust_llm": "Low",
+      "value_bench": "High",
+      "ethics": "Low",
+      "cei_proposed": "Medium (inherited)"
+    },
+    {
+      "dimension": "Harness compatibility",
+      "helm": "HELM only",
+      "decoding_trust": "Standalone",
+      "trust_llm": "Standalone",
+      "value_bench": "Standalone",
+      "ethics": "lm-eval",
+      "cei_proposed": "5 harnesses mapped"
+    },
+    {
+      "dimension": "Regulatory mapping",
+      "helm": "None",
+      "decoding_trust": "None",
+      "trust_llm": "None",
+      "value_bench": "None",
+      "ethics": "None",
+      "cei_proposed": "EU AI Act + NIST + national"
+    },
+    {
+      "dimension": "Governance connection",
+      "helm": "None",
+      "decoding_trust": "None",
+      "trust_llm": "None",
+      "value_bench": "None",
+      "ethics": "None",
+      "cei_proposed": "Tapestry (1,405 statements)"
+    }
+  ],
+  "roadmap": [
+    {
+      "phase": 1,
+      "name": "Registry & Taxonomy",
+      "months": "1-3",
+      "deliverables": [
+        "Benchmark Registry Website (989 candidates, searchable)",
+        "Implementability Matrix (cross-framework viability)",
+        "Taxonomy Specification (formal metadata schema)",
+        "Gap Analysis Report (publication of competitive analysis)"
+      ],
+      "resources": "1-2 researchers, 1 web developer",
+      "risk": "Low"
+    },
+    {
+      "phase": 2,
+      "name": "Core Evaluation Suite",
+      "months": "4-8",
+      "deliverables": [
+        "CEI VAC v1.0 (50-80 runnable benchmarks in lm-eval + Inspect)",
+        "Gap-filling benchmarks (10-15 new for care/contractarian/non-Western)",
+        "Cross-harness converter tool"
+      ],
+      "resources": "2-3 researchers, 2 ML engineers",
+      "risk": "Medium"
+    },
+    {
+      "phase": 3,
+      "name": "Cross-Cultural Expansion",
+      "months": "9-14",
+      "deliverables": [
+        "CEI VAC v2.0 (culturally-native benchmarks for 5 regions)",
+        "Culture-relative scoring (WVS-based baselines)",
+        "Partnership network (10+ institutional partners)"
+      ],
+      "resources": "5-7 researchers (including cultural experts), 2 ML engineers",
+      "risk": "High"
+    },
+    {
+      "phase": 4,
+      "name": "Regulatory Compliance Layer",
+      "months": "15-20",
+      "deliverables": [
+        "Compliance Scoring Profiles (6 jurisdictions)",
+        "Benchmark-to-Regulation Mapping (EU AI Act, NIST, national)",
+        "CEI Compliance Evaluation Toolkit"
+      ],
+      "resources": "2-3 policy researchers, 1-2 ML engineers",
+      "risk": "Medium"
+    }
+  ],
+  "proposed_name": "CEI Values Alignment Compass (VAC)",
+  "white_space": [
+    "Cross-cultural values alignment (not just cross-lingual capability)",
+    "Normative philosophical depth (beyond commonsense morality)",
+    "Multi-harness implementability (not locked to one framework)",
+    "Governance-to-benchmark bridge (regulatory norms → technical evaluation)"
+  ],
+  "tapestry_assets": {
+    "statements": 1405,
+    "organizations": 1735,
+    "documents": 1147,
+    "document_languages": "13+",
+    "governance_to_benchmark_bridge": true
+  }
+}

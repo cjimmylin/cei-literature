@@ -34,6 +34,15 @@
 
 ---
 
+## 2026-03-19 (Session 128)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-19 | Workflows | **Table renumbering across manuscript revisions requires regeneration, not patching:** When table numbering changes between manuscript versions (e.g., "Table 3." → "Table 2."), the title is baked into the matplotlib figure as `ax.set_title()`. Must regenerate the table, not edit the PDF. Keep `render_table()` and data as separate functions for easy re-rendering. |
+| 2026-03-19 | Workflows | **`render_table()` multiline cell text works via `\n` in strings:** For tables with long content (factor loadings, institutional profiles), embedding `\n` in cell strings produces clean wrapping. The row height auto-adjusts via `table.scale(1.0, 1.45)`. Good for summary-format tables replacing full matrices. |
+
+---
+
 ## 2026-03-13 (Session 124)
 
 | Date | Category | Learning |

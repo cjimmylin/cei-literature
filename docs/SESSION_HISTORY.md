@@ -2,6 +2,33 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 128 (Mar 19, 2026) - D-6 Figures & Tables PDF Generation
+
+### Overview
+Generated the complete figures and tables PDF for the D-6 manuscript revision ("Tapestry: Mapping Global AI Governance Across 1,405 Institutional Statements"). Created 6 renumbered/restructured tables, copied 8 unchanged display items from D-version, and assembled a 15-page combined PDF.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Tables generated | 6 (Tables 2–7) |
+| Items copied from D-version | 8 (Table 1, Table 8, Figures 1–6) |
+| Total display items | 14 PDFs in `FIGURES/20260319-version-D6/` |
+| Combined PDF pages | 15 (1 cover + 8 tables + 6 figures) |
+| Combined PDF size | 371 KB |
+| Scripts created | 2 (`generate_d6_figures.py`, `assemble_d6_combined_pdf.py`) |
+
+### Key Learnings
+- [Workflows] Table 6 underwent the most structural change: from a full 22×5 factor loading matrix to a compact 3-column summary format — the `render_table()` function handles multiline cell text gracefully.
+- [Workflows] Reusing `render_table()` + `_save()` from F-1 figures as template — the abstraction covers bold_rows, bold_cells, italic_rows, highlight_rows, footnotes, and configurable column widths.
+
+### Files Changed
+- `PYTHON/paper_analyses/generate_d6_figures.py`: New — generates 6 tables (2–7) with correct D-6 numbering
+- `PYTHON/paper_analyses/assemble_d6_combined_pdf.py`: New — assembles 15-page combined PDF
+- `FIGURES/20260319-version-D6/`: New directory with 14 PDFs + 6 PNGs
+- `METHODS/20260319-tapestry-paper-d6-figures-tables.pdf`: Combined output
+
+---
+
 ## Session 124 (Mar 13, 2026) - Dashboard v13: Normative Ethics Subtab Expansion
 
 ### Overview

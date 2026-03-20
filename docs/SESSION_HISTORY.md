@@ -2,6 +2,36 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 129 (Mar 19, 2026) - C-1 Publication Figures & Tables (Session Closure)
+
+### Overview
+Session closure for C-1 publication figures & tables work done in a prior conversation context (ran out of context before end-session). Generated all 8 tables + 4 figures for §2.1 of the *Nature Machine Intelligence* submission (`CEI-AI-Statements`). This session confirmed git state and ran remember-thread/end-session documentation.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Output files | 24 (12 PNG @ 300 DPI + 12 PDF with TrueType embedding) |
+| Tables | 8 (T0–T6 + CCI convergence table) |
+| Figures | 4 (F1 cumulative adoption, F2 silence treemap, F3 choropleth, F4 CCI trajectory) |
+| Output dir | `FIGURES/20260317-version-C/C1/` |
+| Generator script | `PYTHON/paper_analyses/generate_c1_figures.py` |
+| Updated analysis | `METHODS/20260317-tapestry-paper-results-c-1-analysis-updated.md` (§7 added) |
+| Updated narrative | `METHODS/20260317-tapestry-paper-results-c-1-narrative-updated.md` |
+| Commits | `75f1f66` (figures + scripts + docs), `9272ef2` (validation logs) |
+
+### Key Learnings
+- [Workflows] Helvetica Glyph 8595 (↓↑) not available — substitute with ASCII equivalents or spelled-out descriptions; document in rendering decisions section.
+- [Workflows] `~` tilde is ambiguous at 7.5pt in narrow matplotlib table cells — use `≈` (U+2248) which is unambiguous at publication scale; widen column before falling back to glyph substitution.
+- [Workflows] kaleido does not embed DPI metadata in exported PNG — post-process with Pillow `im.save(path, dpi=(300,300))` to restore correct DPI tag; effective resolution was already ≥300 DPI from pixel dimensions.
+
+### Files Changed
+- `CEI-AI-Statements/PYTHON/paper_analyses/generate_c1_figures.py`: New — generates all 12 publication items (8 tables + 4 figures) as PNG + PDF
+- `CEI-AI-Statements/FIGURES/20260317-version-C/C1/`: New — 24 output files
+- `CEI-AI-Statements/METHODS/20260317-tapestry-paper-results-c-1-analysis-updated.md`: New — §7 rendering inventory added
+- `CEI-AI-Statements/METHODS/20260317-tapestry-paper-results-c-1-narrative-updated.md`: New — figure placeholders resolved to image embeds
+
+---
+
 ## Session 128 (Mar 19, 2026) - D-6 Figures & Tables PDF Generation
 
 ### Overview

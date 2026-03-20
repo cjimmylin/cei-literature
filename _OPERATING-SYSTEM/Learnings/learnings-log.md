@@ -34,6 +34,18 @@
 
 ---
 
+## 2026-03-19 (Session 129 — C-1 Figures Closure)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-19 | Workflows | **Helvetica is missing `↓↑` and other Unicode arrows in matplotlib:** Glyph 8595 (↓↑) produces a warning and renders as a box. Always use ASCII equivalents (`non-monotonic`, `decreasing then increasing`) or substitute with Unicode math symbols that ARE in Helvetica (e.g., `≈` U+2248). Document the substitution in a "rendering decisions" section of the analysis file. |
+| 2026-03-19 | Workflows | **`~` tilde is ambiguous vs `-` minus in narrow matplotlib table cells at 7.5pt:** At publication scale the glyphs are visually identical in condensed table columns. Fix: use `≈` (U+2248 approximately equal) which is unambiguous. Progressive fix order: (1) widen figure, (2) increase cell padding, (3) substitute glyph. |
+| 2026-03-19 | Workflows | **kaleido choropleth PNG omits DPI metadata — post-process with Pillow:** kaleido exports at correct pixel count (e.g., 2976×1485 ≈ 420 effective DPI at 7.09in) but `PIL.Image.info['dpi']` returns `('?', '?')`. Fix: `im.save(path, dpi=(300, 300))` after export. Journals check DPI metadata, not just pixel count. |
+| 2026-03-19 | Workflows | **Publication figure inventory pattern — `§7 Rendered Outputs` section:** When generating figures for a manuscript, add a §7 to the analysis companion with: (1) rendering specs table (DPI/font/format), (2) output inventory with RENDERED/PENDING status per item, (3) data accuracy cross-check, (4) rendering decisions log. This creates an auditable record for co-authors and reviewers. |
+| 2026-03-19 | Workflows | **`squarify` + matplotlib treemap for silence analysis:** For two-level treemaps (sector → subtype), pass top-level areas to `squarify.plot()`, then recursively subdivide each sector rect. Set `value` as absolute counts, color by sector using `ORG_COLORS`, add labels only where area allows (threshold ~50). Prefer `squarify` over manual rectangles for correct aspect-ratio normalization. |
+
+---
+
 ## 2026-03-19 (Session 128)
 
 | Date | Category | Learning |

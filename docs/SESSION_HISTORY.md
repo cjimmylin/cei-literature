@@ -2,6 +2,125 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 132 (2026-03-21) — NAICS Statement Pipeline (8 New Files)
+
+### Overview
+Processed 8 newly acquired HTML documents from `CEI-AI-Statements-v2/industry/NAICS-APPROACH/STATEMENTS/` through the text-extraction → MD-conversion → YAML-enrichment pipeline. All 8 source files were SPA shells or bot-protected pages; a custom Playwright script was written to re-fetch rendered content.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Target files | 8 new NAICS statements |
+| Successfully extracted | 6/8 (FAO, EPRI×3, IFR, UNESCO-EDU) |
+| Permanently blocked | 2/8 (RICS=Incapsula WAF, DOL=404 page removed) |
+| New .txt files | 6 (via playwright_extract_8.py) |
+| New .md files | 6 (via convert_text_to_md.py + enrich_md_frontmatter.py) |
+| Final vault totals | 488 .txt / 488 .md out of 490 source files |
+| New reusable script | `playwright_extract_8.py` |
+
+### Key Learnings
+- [Workflows] SPA pages (Angular `<ds-app>`, React `<noscript>`) return 0 chars from BeautifulSoup. Use Playwright with `waitForLoadState("networkidle")` + 3s sleep.
+- [Workflows] Biden-era DOL AI Principles page (dol.gov/general/AI-Principles) is 404 as of 2026-03-21 — removed after administration change. Wayback Machine has snapshot but it's iframe-sandboxed.
+- [Workflows] Incapsula WAF (RICS rics.org) returns 212-byte challenge shell — unretrievable even with Playwright.
+- [Workflows] Recycle files must go to `STATEMENTS/RECYCLE-BIN/`, not inside `STATEMENTS-TEXT/` — `TEXT_DIR.rglob("*.txt")` picks up all subdirs including RECYCLE-BIN.
+
+### Files Changed
+- `CEI-AI-Statements-v2/industry/NAICS-APPROACH/playwright_extract_8.py`: New — reusable Playwright fallback for SPA/bot-protected pages
+- `CEI-AI-Statements-v2/industry/NAICS-APPROACH/STATEMENTS-TEXT/{11,22,31-33,61}/`: 6 new .txt files
+- `CEI-AI-Statements-v2/industry/NAICS-APPROACH/STATEMENTS-MD/{11,22,31-33,61}/`: 6 new .md files with full Tapestry-schema YAML
+- `CEI-AI-Statements-v2/industry/NAICS-APPROACH/STATEMENTS/RECYCLE-BIN/`: DOL 404 content archived here
+
+---
+
+## Session 132 (2026-03-21) — ISIC: Extract + Enrich 57 Newly Recovered Statements
+
+### Overview
+Extracted text from 57 newly recovered ISIC source files (583 total, up from 526 in STATEMENTS-MD), re-enriched all 583 files so ISIC-NNNN keys remain contiguous in sorted order. Fixed a latent bug in `batch_extract_statements.py` that silently skipped files nested in org subdirectories (3-level layout).
+
+### Results
+| Metric | Value |
+|--------|-------|
+| New STATEMENTS-MD files created | 57 (583 total) |
+| Enrichment errors | 0 / 583 |
+| Key assignment gaps | 0 |
+| Bug fixed | `scan_source_files()` 2-level → 3-level discovery |
+| New log created | `20260321-enrichment-results.json` |
+| Historical log preserved | `20260320-enrichment-results.json` ✓ |
+
+### Key Learnings
+- [Workflows] **3-level STATEMENTS layout silently omitted by 2-level `iterdir()` scan** — `scan_source_files()` only traversed `STATEMENTS/section/file`; org subdirs (`STATEMENTS/section/org-subdir/file`) were never discovered. Fix: check if `item` in section dir is itself a dir and descend one more level.
+- [Workflows] **`source_path.parent.name` breaks for nested files** — when a file is 3 levels deep, `.parent.name` returns the org subdir name. Fix: `source_path.relative_to(STATEMENTS_DIR).parts[0]` is always the section regardless of depth.
+- [Scripts] **Idempotent batch scripts + date-stamped logs = safe re-runs** — the `if out_path.exists(): return` guard allows running extraction over all 583 slots without risk.
+
+### Files Changed
+- `CEI-AI-Statements-v2/industry/ISIC-APPROACH/PYTHON/batch_extract_statements.py`: Date bump (20→21), 3-level discovery fix, section-from-root fix
+- `CEI-AI-Statements-v2/industry/ISIC-APPROACH/PYTHON/enrich_statements_md.py`: Log path → 20260321
+- `CEI-AI-Statements-v2/industry/ISIC-APPROACH/STATEMENTS-MD/`: 57 new files; all 583 re-enriched
+- `CEI-AI-Statements-v2/industry/ISIC-APPROACH/logs/`: New extract logs + `20260321-enrichment-results.json`
+
+## Session 131 (2026-03-21) — CENSUS-APPROACH/BACKGROUND: PDF Extract & Enrich Pipeline
+
+### Overview
+Built `extract_and_enrich.py`, the third and final script in the CENSUS-APPROACH/BACKGROUND PDF acquisition pipeline. The script merges two download JSON result files (primary + recovery), parses bibliography annotations from the bibliography markdown, extracts text from 54 PDFs using PyMuPDF, and creates two output directories: STATEMENTS-TEXT/ (raw extracts) and STATEMENTS-MD/ (YAML-frontmatter enriched files). All 54/54 PDFs extracted successfully with 54/54 bibliography annotations matched.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| PDFs processed | 54/54 |
+| STATEMENTS-TEXT created | 54 |
+| STATEMENTS-MD created | 54 |
+| Extractable text | 54/54 (100%) |
+| Annotations matched | 54/54 (100%) |
+| bg_key range | BKGD-001 – BKGD-054 |
+| Script created | `CENSUS-APPROACH/BACKGROUND/PYTHON/extract_and_enrich.py` |
+| Report | `CENSUS-APPROACH/BACKGROUND/20260321-extract-enrich-report.md` |
+
+### Key Learnings
+- [Workflows] Two-JSON override merge pattern: load primary JSON into dict keyed by `pdf_filename`, then override with recovery JSON entries where `success=True`. Clean and robust to cross-day recovery runs.
+- [PDF Processing] 80% word-overlap `titles_match()` (dividing by shorter title's word count — the fixed version from `recover_bibliography_pdfs.py`) handles subtle differences between structured JSON and free-form bibliography markdown — 54/54 matched without manual intervention.
+- [Workflows] CENSUS-APPROACH lives at the vault root and is **not** inside any of the three git repos (`CEI-Lit-WS/`, `CEI-AI-Statements/`, `CEI-AI-Statements-v2/`). New sub-projects at vault root need explicit `git init` if tracking is desired.
+
+### Files Changed
+- `CENSUS-APPROACH/BACKGROUND/PYTHON/extract_and_enrich.py`: New
+- `CENSUS-APPROACH/BACKGROUND/STATEMENTS-TEXT/`: New — 54 plain-text extract .md files
+- `CENSUS-APPROACH/BACKGROUND/STATEMENTS-MD/`: New — 54 enriched YAML+markdown files
+- `CENSUS-APPROACH/BACKGROUND/20260321-extract-enrich-report.md`: New
+
+---
+
+## Session 130 (Mar 21, 2026) - Religion Survey: Merge Pipeline Bug Fix & Dashboard Rebuild
+
+### Overview
+Fixed two bugs in `merge_phase1_results.py` (Religion Global Org Analysis pipeline) that left 21 organizations as "pending" despite all batch data being present. Rebuilt `global_data.json` and regenerated dashboards with 0 pending orgs (up from 144/144 resolved).
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Pending orgs resolved | 21 → 0 |
+| Orgs fully resolved | 144 / 144 (100%) |
+| Merge iterations | 4 (progressive bug fixes) |
+| Dashboards regenerated | 2 (v1: 230 KB, v2: 324 KB, 11 tabs) |
+| Batch files archived | 2 (batch_12a.json, batch_12b.json → archive/) |
+| New dashboard files | `20260321-global-analysis-dashboard.html` + `-v2.html` |
+
+### Key Learnings
+- [Workflows] **Fuzzy string matching FP: `abbrev in name` fires inside words** — e.g., `"ra" in "integral"` is `True`. Always use word-boundary regex `(?<![a-zA-Z])abbrev(?![a-zA-Z])` for abbreviation matching in lookup pipelines.
+- [Workflows] **Sort-order collision from `_` < `a` in ASCII** — `batch_12_13_relaunch.json` sorted before `batch_12a.json`, so the relaunch's updated data was overwritten by stale data. When a superseding file uses `_`-based naming, archive the old files before re-running.
+- [Workflows] **Directional substring matching must be bidirectional** — `a in b` only catches cases where the result name is shorter than the registry name. When batch agents produce more-specific names (e.g., "Sangha Supreme Council of Thailand (Mahatherasamakhom)"), need `reg_name in result_name` as well.
+- [Workflows] **Slug-in-name matching needs length guard** — 2-char slugs like `"pa"` (org_id='PA') match inside thousands of words. Guard with `len(slug) > 3` to prevent false matches derailing the lookup cascade.
+
+### Files Changed
+- `CEI-AI-Statements-v2/religion/GLOBAL-ORG-APPROACH/merge_phase1_results.py`: Fixed abbreviation substring FP, slug length guard, added `org_by_stripped_name` + `org_by_prefix` indices, bidirectional name check
+- `CEI-AI-Statements-v2/religion/GLOBAL-ORG-APPROACH/global_data.json`: Rebuilt — 0 pending, found=80, not_found=50
+- `CEI-AI-Statements-v2/religion/GLOBAL-ORG-APPROACH/20260320-org-registry-v2.json`: Updated — all 144 orgs resolved
+- `CEI-AI-Statements-v2/religion/GLOBAL-ORG-APPROACH/generate_global_dashboard.py`: Updated OUTPUT_PATH → 20260321 prefix
+- `CEI-AI-Statements-v2/religion/GLOBAL-ORG-APPROACH/generate_dashboard_v2.py`: Updated V1/V2 paths → 20260321 prefix
+- `CEI-AI-Statements-v2/religion/GLOBAL-ORG-APPROACH/20260321-global-analysis-dashboard.html`: New (230 KB, 10 tabs)
+- `CEI-AI-Statements-v2/religion/GLOBAL-ORG-APPROACH/20260321-global-analysis-dashboard-v2.html`: New (324 KB, 11 tabs)
+- `phase1_results/archive/batch_12a.json`, `batch_12b.json`: Archived (superseded by relaunch)
+
+---
+
 ## Session 129 (Mar 19, 2026) - C-1 Publication Figures & Tables (Session Closure)
 
 ### Overview

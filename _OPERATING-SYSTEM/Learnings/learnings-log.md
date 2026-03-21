@@ -34,6 +34,38 @@
 
 ---
 
+## 2026-03-21 (Session 132 — ISIC Extract + Enrich 57 Recovered Statements)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-21 | Workflows | **3-level STATEMENTS layout silently omitted by 2-level `iterdir()` scan** — `scan_source_files()` only traversed `STATEMENTS/section/file`; org subdirs (`STATEMENTS/section/org-subdir/file`) were never discovered. Fixed by checking `if item.is_dir()` inside the section loop and descending one more level. Symptom: script reports 575 total files when `find` shows 583. |
+| 2026-03-21 | Workflows | **`source_path.parent.name` breaks for nested source files** — when a file is 3 levels deep, `.parent.name` returns the org subdir name (e.g., `C-IIC`), not the ISIC section letter (`C`). Safe pattern: `source_path.relative_to(STATEMENTS_DIR).parts[0]` always resolves to the correct section regardless of nesting depth. |
+| 2026-03-21 | Scripts | **Idempotent extraction + date-stamped logs enable safe parallel re-runs** — the `if out_path.exists(): return` guard means running 8 parallel agents over all 583 slots is safe; only missing files are created. Combined with PID-scoped log output, this pattern is zero-risk for mop-up passes. |
+
+---
+
+## 2026-03-21 (Session 131 — CENSUS-APPROACH/BACKGROUND Pipeline)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-21 | Workflows | **Two-JSON override merge for multi-run acquisition pipelines:** Load primary JSON into `dict[pdf_filename → entry]`, then override with recovery entries where `success=True`. Cleaner than title-matching — filenames are canonical after first successful download. Handles cross-day recovery runs naturally. |
+| 2026-03-21 | PDF Processing | **`titles_match()` 80% word-overlap (shorter set as denominator) handles JSON→bibliography title drift:** Matched 54/54 entries without manual review despite punctuation/capitalization/subtitle differences. Always use the **shorter** title as the divisor — the bug-fixed version in `recover_bibliography_pdfs.py`, not the original `download_bibliography_pdfs.py`. |
+| 2026-03-21 | Workflows | **New sub-projects at vault root are not git-tracked:** `CENSUS-APPROACH/` is a sibling of `CEI-Lit-WS/` and outside all three tracked repos. Any new vault-root sub-project needs explicit `git init` if tracking is desired. |
+
+---
+
+## 2026-03-21 (Session 130 — Religion Merge Pipeline Bug Fix)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-21 | Workflows | **Fuzzy abbreviation matching FP: `abbrev in name` fires inside words** — `"ra" in "integral"` is `True` in Python. Always use word-boundary regex `re.search(r'(?<![a-zA-Z])' + re.escape(abbrev) + r'(?![a-zA-Z])', name)` for abbreviation lookups. This fixed 12 of 21 pending orgs in the religion merge pipeline (e.g., "ra" for Rabbinical Assembly matching inside "DicasteRy for Promoting IntegRAl Human Development"). |
+| 2026-03-21 | Workflows | **Sort-order collision: `_` < `a` in ASCII means underscored files sort first** — `batch_12_13_relaunch.json` sorted before `batch_12a.json` alphabetically. The relaunch's corrected data was being overwritten by the older stale batch. Fix: archive the superseded files before re-running any merge pipeline. Always use date-prefixed filenames (`20260321_`) for superseding files so sort order matches chronology. |
+| 2026-03-21 | Workflows | **Directional substring check must be bidirectional** — `result_name in registry_name` only catches short result names. When agents produce *longer* names than the registry (e.g., "Sangha Supreme Council of Thailand (Mahatherasamakhom)"), `registry_name in result_name` is the correct check. Add both directions to any fuzzy name matcher. |
+| 2026-03-21 | Workflows | **Slug-in-name matching needs a length guard** — Using `slug in registry_org_name` to match org_id slugs (e.g., "PA" for Patriarchate of Antioch) causes 2-char slugs to match inside thousands of words ("papal", "participation"). Guard: only run slug-in-name when `len(slug) > 3`. |
+| 2026-03-21 | Workflows | **Build stripped-name and prefix lookup indices at parse time** — For org name matching with parenthetical variants ("Tibetan Buddhist Leadership (Karmapa/Kagyu)" vs "(Karmapa / OHHDL proximate)"), stripping the parenthetical at both index-build time and query time enables O(1) dict lookups instead of O(n) fuzzy loops. Same pattern applies to compound names with "/" separators (use prefix-before-slash as index key). |
+
+---
+
 ## 2026-03-19 (Session 129 — C-1 Figures Closure)
 
 | Date | Category | Learning |

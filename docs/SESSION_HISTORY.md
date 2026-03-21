@@ -2,7 +2,7 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
-## Session 132 (2026-03-21) — NAICS Statement Pipeline (8 New Files)
+## Session 133 (2026-03-21) — NAICS Statement Pipeline (8 New Files)
 
 ### Overview
 Processed 8 newly acquired HTML documents from `CEI-AI-Statements-v2/industry/NAICS-APPROACH/STATEMENTS/` through the text-extraction → MD-conversion → YAML-enrichment pipeline. All 8 source files were SPA shells or bot-protected pages; a custom Playwright script was written to re-fetch rendered content.

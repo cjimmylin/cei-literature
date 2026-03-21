@@ -34,6 +34,17 @@
 
 ---
 
+## 2026-03-21 (Session 133 — NAICS Statement Pipeline)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-21 | Workflows | **SPA pages (Angular/React) require Playwright — BeautifulSoup returns 0 chars:** Framework shells like `<ds-app>` (Angular) and `<noscript>You need JavaScript</noscript>` (React) have no static text. Use `page.goto(url, wait_until="domcontentloaded")` → `page.wait_for_load_state("networkidle", timeout=15000)` → `time.sleep(3)`. The extra sleep handles slow SPA data fetches after networkidle fires. |
+| 2026-03-21 | Workflows | **Biden-era DOL AI Principles page (dol.gov/general/AI-Principles) is 404 as of 2026-03-21:** Removed after January 2025 administration change. Wayback Machine has Nov 2025 snapshot but it's iframe-sandboxed — Playwright only extracts the 105-char header. Accept as permanently unavailable. |
+| 2026-03-21 | Workflows | **Incapsula WAF returns 212-byte challenge shell — completely unretrievable even with Playwright:** RICS rics.org profession-standards pages serve an Incapsula challenge (`robots: noindex,nofollow`, `<body>` empty). Playwright renders 0 chars. Only manual browser copy works; flag as failed_download in manifest. |
+| 2026-03-21 | Workflows | **Recycle files inside STATEMENTS-TEXT/ are still picked up by rglob("*.txt"):** convert_text_to_md.py uses `TEXT_DIR.rglob("*.txt")` which recursively traverses all subdirectories. Moving garbage files to `STATEMENTS-TEXT/RECYCLE-BIN/` is NOT safe — they still enter the MD pipeline. Always move to `STATEMENTS/RECYCLE-BIN/` (outside the TEXT dir). |
+
+---
+
 ## 2026-03-21 (Session 132 — ISIC Extract + Enrich 57 Recovered Statements)
 
 | Date | Category | Learning |

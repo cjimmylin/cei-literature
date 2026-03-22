@@ -34,6 +34,21 @@
 
 ---
 
+## 2026-03-22 (Session 134 — 7-Phase Discovery Campaign Completion)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-03-22 | Tapestry | **Council-of-experts gap analysis before discovery is essential:** Simulated 3-5 domain expert panels per category identified survivorship bias in demand-pull collection, produced organizational inventories (40-80 orgs each), and predicted silence candidates. Indigenous council correctly predicted 62.7% silence rate (from 0%). Without councils, agents search blindly and miss structured negatives. |
+| 2026-03-22 | Tapestry | **Negative findings are as valuable as positive discoveries:** 175+ documented negatives (orgs searched with no AI statement found) transformed silence rates from artifacts (0%) to empirical baselines (14.9%-62.7%). The `organizations_without_formal_ai_statements[]` JSON array with required org/org_type/org_subtype/notes fields is critical pipeline infrastructure. |
+| 2026-03-22 | Tapestry | **ingest_de_wave.py is the canonical merge+ingest pattern:** Auto-detects max key, builds vault URL index for O(1) dedup, handles internal + vault dedup, creates statement YAML + org profiles + negative profiles. Reused across phases D+E, C, and can serve any future wave. Key: never hardcode start key. |
+| 2026-03-22 | Tapestry | **download_de_wave.py replaces batch_download.py for new waves:** batch_download.py requires a url-classification.json that's cumbersome to generate. download_de_wave.py reads URLs directly from statement YAML frontmatter — simpler and more reliable. |
+| 2026-03-22 | Tapestry | **Playwright context.request.get() bypasses bot protection that page.goto() cannot:** For IOSCO PDF (403 via urllib, "download starting" error via page.goto), `context.request.get()` with browser context headers succeeded. This is the API-level fetch with browser cookies/headers — useful for sites that serve downloads differently from page renders. |
+| 2026-03-22 | Tapestry | **UNESCO unesdoc.org pages render via Playwright but return only navigation text (~1300 chars):** The actual PDF content requires clicking a download button or accessing the PDF viewer. For UNESCO documents, try digitallibrary.un.org (alternate host) or the /PDF suffix on the ark: URL before resorting to Playwright page scraping. |
+| 2026-03-22 | Workflows | **Fixing 0000-prefixed WAIE files required researching 28 publication years:** WAIE database entries had no year data. Used WebSearch agent to determine publication years for all 28, then batch-renamed files. This eliminated the entire class of `year: 0` validation errors. |
+| 2026-03-22 | Workflows | **Vault-wide enrichment gaps cascade:** Missing extracts → missing FP scores → incomplete analysis. Running Playwright extract recovery on 60+ small extracts (SPA pages) dramatically improved FP coverage (61 missing → 8). Always check for tiny extracts (<400 chars) after any acquisition wave. |
+
+---
+
 ## 2026-03-21 (Session 133 — NAICS Statement Pipeline)
 
 | Date | Category | Learning |

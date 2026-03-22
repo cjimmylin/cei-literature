@@ -2,6 +2,45 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 134 (2026-03-22) — 7-Phase Discovery Campaign Completion
+
+### Summary
+Completed all 7 phases of the systematic gap-fill discovery campaign for Tapestry. ~50 agents across 7 categories produced ~215 new statements and ~175 documented negatives, expanding the vault from ~2,040 to 3,044 statements.
+
+### Phases Executed
+- **Phase A (NEB):** 13 agents, 67 new statements, STMT-2369–2527
+- **Phase B (Industry):** 5 waves, 45 new statements, 18 negatives, STMT-2433–2477
+- **Phase C (Government):** 8 agents, 37 new statements, 20 negatives, STMT-2896–2950
+- **Phase D (Indigenous):** 6 agents, 13 new statements, 37 negatives, STMT-2528–2573
+- **Phase E (Multistakeholder):** 7 agents, 28 new statements, 72 negatives, STMT-2528–2573
+- **Phase F+G (Academic + Labor):** 7 agents, 26 new statements, 27 negatives, STMT-2574–2599
+
+### Enrichment Pipeline
+- 208 LLM summaries generated vault-wide (agent-based, no API)
+- 120 extracts recovered via Playwright (SPA pages that returned empty via urllib)
+- Ontology scores: 100%, Taxonomy: 100%, FP: 99.6%, Summaries: 98.1%
+
+### Housekeeping
+- 28 WAIE `0000-*` files renamed with researched publication years
+- 770→56 validation errors (93% reduction)
+- 86 missing org profiles created
+- 7 duplicate STMT key collisions fixed
+
+### Documentation
+- `METHODS/20260322-discovery-campaign-methods.md` — Journal article methods section
+- `METHODS/20260322-discovery-campaign-llm-playbook.md` — LLM session playbook
+
+### Key Silence Rate Corrections
+- Indigenous: 0% → 62.7% (+62.7pp)
+- Multistakeholder: 0% → 14.9% (+14.9pp)
+- Industry: 5.8% → 10.9% (+5.1pp)
+
+### Final Vault State
+- 3,044 statements, 3,031 org profiles, 813 negatives
+- All pushed to GitHub (cei-ai-statements)
+
+---
+
 ## Session 133 (2026-03-21) — NAICS Statement Pipeline (8 New Files)
 
 ### Overview

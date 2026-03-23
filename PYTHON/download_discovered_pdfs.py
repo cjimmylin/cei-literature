@@ -311,7 +311,7 @@ def main():
 
         pdf_dest = PDFS_DIR / year / f"{stem}.pdf"
         extract_dest = PDF_EXTRACTS_DIR / year / f"{stem}.md"
-        pdf_wikilink = f"[[PDFs/{year}/{stem}.pdf]]"
+        pdf_wikilink = f"[[Lit-WS-PDFs/{year}/{stem}.pdf]]"
         extract_rel = f"PDF Extracts/{year}/{stem}.md"
 
         # Check if PDF already exists

@@ -50,7 +50,7 @@ external_pdf: "https://arxiv.org/pdf/2409.20288v4.pdf"
 publication: Web
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md"
-local_pdf: "[[PDFs/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

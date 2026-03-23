@@ -50,7 +50,7 @@ external_pdf: "https://arxiv.org/pdf/2502.02289.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.md"
-local_pdf: "[[PDFs/2025/2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"

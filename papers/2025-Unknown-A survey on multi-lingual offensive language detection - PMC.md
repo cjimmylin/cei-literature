@@ -55,7 +55,7 @@ external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11042037&
 publication: PubMed
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.md"
-local_pdf: "[[PDFs/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

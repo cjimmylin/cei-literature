@@ -54,7 +54,7 @@ external_pdf: "https://arxiv.org/pdf/2506.12502.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md"
-local_pdf: "[[PDFs/2025/2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Dutch"
 cultures_nationalities_list: "Dutch"

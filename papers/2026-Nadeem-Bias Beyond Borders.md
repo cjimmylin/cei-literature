@@ -50,7 +50,7 @@ authors: Afrozah Nadeem; Agrima; Mehwish Nasim; Usman Naseem
 url: "https://arxiv.org/abs/2601.23001"
 external_pdf: "https://arxiv.org/pdf/2601.23001.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Nadeem-Bias Beyond Borders.md"
-local_pdf: "[[PDFs/2026/2026-Nadeem-Bias Beyond Borders.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Nadeem-Bias Beyond Borders.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

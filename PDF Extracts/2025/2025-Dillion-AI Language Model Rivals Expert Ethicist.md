@@ -1,6 +1,6 @@
 ---
 title: "2025-Dillion-AI Language Model Rivals Expert Ethicist"
-source_pdf: "[[PDFs/2025-Dillion-AI Language Model Rivals Expert Ethicist.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2025-Dillion-AI Language Model Rivals Expert Ethicist.pdf]]"
 extracted_date: "2026-01-28"
 extraction_method: "PyMuPDF"
 ---

@@ -54,7 +54,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.15260"
 external_pdf: "https://arxiv.org/pdf/2509.15260.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md"
-local_pdf: "[[PDFs/2025/2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.pdf]]"
 publication: "WebSearch: SGToxicGuard Tamil safety"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

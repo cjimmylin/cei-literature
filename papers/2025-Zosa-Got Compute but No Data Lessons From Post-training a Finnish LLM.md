@@ -48,7 +48,7 @@ external_pdf: "https://arxiv.org/pdf/2503.09407.pdf"
 publication: "arXiv / NoDaLiDa 2025"
 CONF-CC: "NoDaLiDa 2025"
 pdf_extract: "PDF Extracts/2025/2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.md"
-local_pdf: "[[PDFs/2025/2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

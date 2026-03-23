@@ -50,7 +50,7 @@ authors: Van-Phu Quang Do; Duc-Ung To; Son T. Luu; Kiet Van Nguyen
 url: "https://arxiv.org/abs/2506.00636"
 external_pdf: "https://arxiv.org/pdf/2506.00636.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.md"
-local_pdf: "[[PDFs/2025/2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.pdf]]"
 publication: "arXiv / INTERSPEECH 2025"
 CONF-CC: "INTERSPEECH 2025"
 DATE_ADDED: 20260213

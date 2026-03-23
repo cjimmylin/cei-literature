@@ -79,7 +79,7 @@ key_contribution: "Introduces HateCheck, a suite of functional tests for hate sp
 significance: "Enables targeted diagnosis of model weaknesses (e.g., reclaiming slurs, counter-speech), a precursor to nuanced consequentialist evaluation of harm"
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Röttger-HateCheck.md"
-local_pdf: "[[PDFs/2021/2021-Röttger-HateCheck.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Röttger-HateCheck.pdf]]"
 abstract: "Detecting online hate is a difﬁcult task that even state-of-the-art models struggle with. Typically, hate speech detection models are evaluated by measuring their performance on held-out test data using metrics such as accuracy and F1 score. However, this approach makes it difﬁcult to identify speciﬁc model weak points. It also risks overestimating generalisable model performance due to increasingly well-evidenced systematic gaps and biases in hate speech datasets."
 CONF-CC: "ACL 2020"
 DATE_ADDED: 20260208
@@ -119,7 +119,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2021/2021-Röttger-HateCheck.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2021/2021-Röttger-HateCheck.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2021.acl-long.4
 - **DOI:** https://doi.org/10.18653/v1/2021.acl-long.4

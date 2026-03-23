@@ -55,7 +55,7 @@ external_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/conten
 publication: "Cambridge NLP Journal 2025"
 CONF-CC: "Cambridge NLP Journal 2025"
 pdf_extract: PDF Extracts/2025/2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md
-local_pdf: "[[PDFs/2025/2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"

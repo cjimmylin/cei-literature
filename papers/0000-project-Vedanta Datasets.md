@@ -53,7 +53,7 @@ authors_incomplete: false
 url: 
 external_pdf: 
 pdf_extract: "PDF Extracts/0000/0000-project-Vedanta Datasets.md"
-local_pdf: "[[PDFs/0000/0000-project-Vedanta Datasets.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/0000/0000-project-Vedanta Datasets.pdf]]"
 publication: GitHub
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

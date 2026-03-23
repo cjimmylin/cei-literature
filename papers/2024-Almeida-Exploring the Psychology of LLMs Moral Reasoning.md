@@ -52,7 +52,7 @@ doi: 10.1016/j.artint.2024.104081
 url: "https://www.sciencedirect.com/science/article/abs/pii/S000437022400081X"
 external_pdf: "https://arxiv.org/pdf/2308.01264.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.md"
-local_pdf: "[[PDFs/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.pdf]]"
 publication: "Artificial Intelligence"
 CONF-CC: "Artificial Intelligence"
 national_ethnic_cultural: "N/A"

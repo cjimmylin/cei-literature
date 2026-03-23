@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2510.00857"
 external_pdf: "https://arxiv.org/pdf/2510.00857.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.md"
-local_pdf: "[[PDFs/2025/2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

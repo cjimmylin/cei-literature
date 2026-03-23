@@ -163,7 +163,7 @@ class BatchPDFDownloader:
 
             # Update fields
             fields['pdf'] = pdf_url
-            fields['local_pdf'] = f"PDFs/{pdf_filename}"
+            fields['local_pdf'] = f"Lit-WS-PDFs/{pdf_filename}"
 
             # Rebuild and write
             new_fm = rebuild_frontmatter(fields)

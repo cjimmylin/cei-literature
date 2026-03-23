@@ -161,9 +161,9 @@ def set_or_add_field(frontmatter: str, key: str, value: str) -> str:
 
 
 def resolve_pdf_path(local_pdf_rel: str) -> Optional[Path]:
-    if not local_pdf_rel.startswith("PDFs/"):
+    if not local_pdf_rel.startswith("Lit-WS-PDFs/"):
         return None
-    suffix = local_pdf_rel[len("PDFs/") :]
+    suffix = local_pdf_rel[len("Lit-WS-PDFs/") :]
     return PDFS_DIR / suffix
 
 
@@ -174,7 +174,7 @@ def resolve_extract_path(extract_rel: str) -> Optional[Path]:
 
 
 def rel_pdf_from_path(pdf_path: Path) -> str:
-    return f"PDFs/{pdf_path.relative_to(PDFS_DIR).as_posix()}"
+    return f"Lit-WS-PDFs/{pdf_path.relative_to(PDFS_DIR).as_posix()}"
 
 
 def rel_extract_from_path(extract_path: Path) -> str:
@@ -237,7 +237,7 @@ def build_candidate(paper_filename: str) -> Tuple[Optional[Candidate], str]:
 
     old_pdf_rel = parse_link_or_plain(local_pdf_value)
     old_extract_rel = parse_link_or_plain(extract_value)
-    if not old_pdf_rel.startswith("PDFs/") or not old_extract_rel.startswith("PDF Extracts/"):
+    if not old_pdf_rel.startswith("Lit-WS-PDFs/") or not old_extract_rel.startswith("PDF Extracts/"):
         return None, "nonlocal_or_blank_links"
 
     old_pdf_path = resolve_pdf_path(old_pdf_rel)
@@ -556,7 +556,7 @@ def default_report_paths(date_str: str) -> Tuple[Path, Path]:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Sync updated author names in papers/PDFs/PDF extracts.")
+    parser = argparse.ArgumentParser(description="Sync updated author names in papers/Lit-WS-PDFs/PDF extracts.")
     parser.add_argument(
         "--input-log",
         type=Path,

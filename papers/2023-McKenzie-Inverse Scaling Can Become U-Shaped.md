@@ -69,7 +69,7 @@ moral_psychology: "N/A"
 newtags: ""
 tags:
 pdf_extract: "PDF Extracts/2023/2023-McKenzie-Inverse Scaling Can Become U-Shaped.md"
-local_pdf: "[[PDFs/2023/2023-McKenzie-Inverse Scaling Can Become U-Shaped.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-McKenzie-Inverse Scaling Can Become U-Shaped.pdf]]"
 abstract: "Scaling up language models has been empirically shown to improve performance on a wide range of downstream tasks. However, if we were to observe worse performance as a function of scale (\"inverse scaling\") on certain tasks, this would indicate that scaling can also encourage behaviors that are misaligned with human preferences. The Inverse Scaling Prize (McKenzie et al. 2022) identified eleven such inverse scaling tasks, evaluated on models of up to 280B parameters and up to 500 zettaFLOPs of training compute. This paper takes a closer look at these inverse scaling tasks. We evaluate models of up to 540B parameters, trained on five times more compute than those evaluated in the Inverse Scaling Prize. With this increased range of model sizes and training compute, only four out of the eleven tasks remain inverse scaling. Six out of the eleven tasks exhibit \"U-shaped scaling\", where performance decreases up to a certain size, and then increases again up to the largest model evaluated (the one remaining task displays positive scaling). In addition, we find that 1-shot examples and chain-of-thought can help mitigate undesirable scaling patterns even further. U-shaped scaling suggests that the inverse scaling trend observed in McKenzie et al. (2022) may not continue to hold for larger models, which we attribute to the presence of distractor tasks that only sufficiently large models can avoid."
 CONF-CC: "EMNLP"
 DATE_ADDED: 20260312

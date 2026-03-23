@@ -49,7 +49,7 @@ url: "https://journals.uran.ua/eejet/article/view/309972"
 external_pdf: "https://journals.uran.ua/eejet/article/download/309972/301978"
 publication: Eastern-European Journal of Enterprise Technologies
 CONF-CC: "Eastern-European Journal of Enterprise Technologies"
-local_pdf: "[[PDFs/2024/2024-Lyu-Large language model LLM comparison between GPT-3 and PaLM-2 to.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Lyu-Large language model LLM comparison between GPT-3 and PaLM-2 to.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Lyu-Large language model LLM comparison between GPT-3 and PaLM-2 to.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Indonesian"

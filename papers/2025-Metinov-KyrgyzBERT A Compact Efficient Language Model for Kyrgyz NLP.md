@@ -50,7 +50,7 @@ external_pdf: "https://arxiv.org/pdf/2511.20182.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.md"
-local_pdf: "[[PDFs/2025/2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

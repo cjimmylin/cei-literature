@@ -87,7 +87,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2016/2016-Purzycki-Religious Belief and the Moral Circle.md"
-local_pdf: "[[PDFs/2016/2016-Purzycki-Religious Belief and the Moral Circle.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2016/2016-Purzycki-Religious Belief and the Moral Circle.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 10
 virtue_ethics: 0

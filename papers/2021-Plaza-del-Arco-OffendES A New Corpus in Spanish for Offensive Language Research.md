@@ -54,7 +54,7 @@ external_pdf: "https://doi.org/10.26615/978-954-452-072-4_123"
 publication: "ACL Anthology / RANLP 2021"
 CONF-CC: "RANLP 2021"
 pdf_extract: "PDF Extracts/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.md"
-local_pdf: "[[PDFs/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"

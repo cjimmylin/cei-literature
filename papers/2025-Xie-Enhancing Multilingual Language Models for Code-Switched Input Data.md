@@ -50,7 +50,7 @@ external_pdf: "https://arxiv.org/pdf/2503.07990.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Xie-Enhancing Multilingual Language Models for Code-Switched Input Data.md"
-local_pdf: "[[PDFs/2025/2025-Xie-Enhancing Multilingual Language Models for Code-Switched Input Data.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xie-Enhancing Multilingual Language Models for Code-Switched Input Data.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

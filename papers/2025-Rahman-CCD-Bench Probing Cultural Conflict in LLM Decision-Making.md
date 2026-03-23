@@ -50,7 +50,7 @@ authors: Hasibur Rahman; Hanan Salam
 url: "https://arxiv.org/abs/2510.03553"
 external_pdf: "https://arxiv.org/pdf/2510.03553.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md"
-local_pdf: "[[PDFs/2025/2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

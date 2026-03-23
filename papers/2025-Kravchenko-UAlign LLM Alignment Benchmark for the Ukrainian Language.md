@@ -52,7 +52,7 @@ external_pdf: "https://aclanthology.org/2025.unlp-1.4.pdf"
 publication: "ACL Anthology (UNLP 2025)"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.md"
-local_pdf: "[[PDFs/2025/2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

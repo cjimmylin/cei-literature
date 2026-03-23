@@ -1,0 +1,83 @@
+table,rank,label,count,pct_total,total_files,notes
+coverage,1,total_files,2034,100.0,2034,Files in CEI-Lit-WS/papers
+coverage,2,with_frontmatter,2034,100.0,2034,YAML frontmatter parsed
+coverage,3,with_conference,2034,100.0,2034,CONFERENCE key present
+coverage,4,with_nonempty_conference,2034,100.0,2034,CONFERENCE value non-empty
+coverage,5,missing_conference,0,0.0,2034,No CONFERENCE key
+coverage,6,parse_errors,0,0.0,2034,No parseable frontmatter
+distribution_all_labels,1,Preprint,688,33.825,2034,Exact CONFERENCE value
+distribution_all_labels,2,Other Conference,496,24.3854,2034,Exact CONFERENCE value
+distribution_all_labels,3,Journal,266,13.0777,2034,Exact CONFERENCE value
+distribution_all_labels,4,ACL 2025,115,5.6539,2034,Exact CONFERENCE value
+distribution_all_labels,5,ACL 2024,58,2.8515,2034,Exact CONFERENCE value
+distribution_all_labels,6,EMNLP 2025,42,2.0649,2034,Exact CONFERENCE value
+distribution_all_labels,7,EMNLP 2024,34,1.6716,2034,Exact CONFERENCE value
+distribution_all_labels,8,NAACL 2025,29,1.4258,2034,Exact CONFERENCE value
+distribution_all_labels,9,NeurIPS 2024,28,1.3766,2034,Exact CONFERENCE value
+distribution_all_labels,10,Unknown,27,1.3274,2034,Exact CONFERENCE value
+distribution_all_labels,11,ACL 2022,24,1.1799,2034,Exact CONFERENCE value
+distribution_all_labels,12,ACL 2023,19,0.9341,2034,Exact CONFERENCE value
+distribution_all_labels,13,EMNLP 2023,17,0.8358,2034,Exact CONFERENCE value
+distribution_all_labels,14,NAACL 2024,12,0.59,2034,Exact CONFERENCE value
+distribution_all_labels,15,ACL 2020,11,0.5408,2034,Exact CONFERENCE value
+distribution_all_labels,16,NeurIPS 2025,11,0.5408,2034,Exact CONFERENCE value
+distribution_all_labels,17,NeurIPS 2023,10,0.4916,2034,Exact CONFERENCE value
+distribution_all_labels,18,COLING 2025,9,0.4425,2034,Exact CONFERENCE value
+distribution_all_labels,19,LREC-COLING 2024,9,0.4425,2034,Exact CONFERENCE value
+distribution_all_labels,20,AAAI 2024,8,0.3933,2034,Exact CONFERENCE value
+distribution_all_labels,21,AAAI 2025,7,0.3441,2034,Exact CONFERENCE value
+distribution_all_labels,22,EMNLP 2022,7,0.3441,2034,Exact CONFERENCE value
+distribution_all_labels,23,FAccT 2025,7,0.3441,2034,Exact CONFERENCE value
+distribution_all_labels,24,ACL 2021,6,0.295,2034,Exact CONFERENCE value
+distribution_all_labels,25,ACL 2019,5,0.2458,2034,Exact CONFERENCE value
+distribution_all_labels,26,AIES 2024,5,0.2458,2034,Exact CONFERENCE value
+distribution_all_labels,27,AIES 2025,5,0.2458,2034,Exact CONFERENCE value
+distribution_all_labels,28,EMNLP 2020,5,0.2458,2034,Exact CONFERENCE value
+distribution_all_labels,29,ICLR 2025,5,0.2458,2034,Exact CONFERENCE value
+distribution_all_labels,30,ICML 2024,5,0.2458,2034,Exact CONFERENCE value
+distribution_all_labels,31,EMNLP 2021,4,0.1967,2034,Exact CONFERENCE value
+distribution_all_labels,32,ICLR 2023,4,0.1967,2034,Exact CONFERENCE value
+distribution_all_labels,33,ICML 2025,4,0.1967,2034,Exact CONFERENCE value
+distribution_all_labels,34,NAACL 2023,4,0.1967,2034,Exact CONFERENCE value
+distribution_all_labels,35,AAAI 2018,3,0.1475,2034,Exact CONFERENCE value
+distribution_all_labels,36,AAAI 2020,3,0.1475,2034,Exact CONFERENCE value
+distribution_all_labels,37,AAAI 2021,3,0.1475,2034,Exact CONFERENCE value
+distribution_all_labels,38,AAAI 2026,3,0.1475,2034,Exact CONFERENCE value
+distribution_all_labels,39,ACL 2018,3,0.1475,2034,Exact CONFERENCE value
+distribution_all_labels,40,EACL 2023,3,0.1475,2034,Exact CONFERENCE value
+distribution_all_labels,41,EACL 2024,3,0.1475,2034,Exact CONFERENCE value
+distribution_all_labels,42,ICLR 2024,3,0.1475,2034,Exact CONFERENCE value
+distribution_all_labels,43,IJCAI 2025,3,0.1475,2034,Exact CONFERENCE value
+distribution_all_labels,44,NAACL 2022,3,0.1475,2034,Exact CONFERENCE value
+distribution_all_labels,45,ICML 2023,2,0.0983,2034,Exact CONFERENCE value
+distribution_all_labels,46,NeurIPS 2022,2,0.0983,2034,Exact CONFERENCE value
+distribution_all_labels,47,AAAI 2023,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,48,COLING 2022,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,49,CVPR 2024,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,50,FAccT 2022,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,51,FAccT 2026,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,52,ICLR 2021,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,53,ICLR 2022,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,54,ICLR 2026,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,55,KDD 2018,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,56,KDD 2024,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,57,NAACL 2021,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,58,NeurIPS 2016,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,59,NeurIPS 2021,1,0.0492,2034,Exact CONFERENCE value
+distribution_all_labels,60,WWW 2024,1,0.0492,2034,Exact CONFERENCE value
+distribution_major_venues,1,ACL,241,11.8486,2034,Major venue aggregated across years
+distribution_major_venues,2,EMNLP,109,5.3589,2034,Major venue aggregated across years
+distribution_major_venues,3,NeurIPS,53,2.6057,2034,Major venue aggregated across years
+distribution_major_venues,4,NAACL,49,2.409,2034,Major venue aggregated across years
+distribution_major_venues,5,AAAI,28,1.3766,2034,Major venue aggregated across years
+distribution_major_venues,6,ICLR,15,0.7375,2034,Major venue aggregated across years
+distribution_major_venues,7,ICML,11,0.5408,2034,Major venue aggregated across years
+distribution_major_venues,8,AIES,10,0.4916,2034,Major venue aggregated across years
+distribution_major_venues,9,COLING,10,0.4916,2034,Major venue aggregated across years
+distribution_major_venues,10,FAccT,9,0.4425,2034,Major venue aggregated across years
+distribution_major_venues,11,LREC-COLING,9,0.4425,2034,Major venue aggregated across years
+distribution_major_venues,12,EACL,6,0.295,2034,Major venue aggregated across years
+distribution_major_venues,13,IJCAI,3,0.1475,2034,Major venue aggregated across years
+distribution_major_venues,14,KDD,2,0.0983,2034,Major venue aggregated across years
+distribution_major_venues,15,CVPR,1,0.0492,2034,Major venue aggregated across years
+distribution_major_venues,16,WWW,1,0.0492,2034,Major venue aggregated across years

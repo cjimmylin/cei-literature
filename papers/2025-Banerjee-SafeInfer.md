@@ -49,7 +49,7 @@ authors: "Somnath Banerjee; Sayan Layek; Soham Tripathy; Shanu Kumar; Animesh Mu
 url: "https://ojs.aaai.org/index.php/AAAI/article/view/34927"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KV9GGDEF/Jain and others - 2025 - SafeInfer Context Adaptive Decoding Time Safety Alignment for Large Language Models.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Banerjee-SafeInfer.md"
-local_pdf: "[[PDFs/2025/2025-Banerjee-SafeInfer.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Banerjee-SafeInfer.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

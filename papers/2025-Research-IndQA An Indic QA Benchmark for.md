@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://www.ibm.com/think/news/indqa-llm-benchmark"
 external_pdf: 
 pdf_extract: "PDF Extracts/2025/2025-Research-IndQA An Indic QA Benchmark for.md"
-local_pdf: "[[PDFs/2025/2025-Research-IndQA An Indic QA Benchmark for.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Research-IndQA An Indic QA Benchmark for.pdf]]"
 publication: "IBM Research"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

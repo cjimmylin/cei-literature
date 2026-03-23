@@ -55,7 +55,7 @@ external_pdf: "https://web.archive.org/web/20240817172642if_/https://www.dialog-
 publication: "RUSSE / Dialogue Conference"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.md"
-local_pdf: "[[PDFs/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"

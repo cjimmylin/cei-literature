@@ -84,7 +84,7 @@ significance: "Demonstrates that domain-adaptive pretraining on abusive language
 tags: 
 abstract: "We introduce HateBERT, a re-trained BERT model for abusive language detection in English. The model was trained on RAL-E, a large-scale dataset of Reddit comments in English from communities banned for being offensive, abusive, or hateful that we have curated and made available to the public. We present the results of a detailed comparison between a general pre-trained language model and the retrained version on three English datasets for offensive, abusive language and hate speech detection..."
 pdf_extract: "PDF Extracts/2021/2021-Caselli-HateBERT.md"
-local_pdf: "[[PDFs/2021/2021-Caselli-HateBERT.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Caselli-HateBERT.pdf]]"
 CONF-CC: "WOAH"
 DATE_ADDED: 20260208
 LLM_assessed: BERT

@@ -53,7 +53,7 @@ def update_paper(paper_name: str):
     fields = parse_frontmatter(fm)
 
     # Update local_pdf field
-    fields['local_pdf'] = f"[[PDFs/{pdf_name}]]"
+    fields['local_pdf'] = f"[[Lit-WS-PDFs/{pdf_name}]]"
 
     # Also set pdf_extract path
     extract_name = paper_name.replace('.md', '.md')

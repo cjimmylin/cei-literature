@@ -55,7 +55,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s10994-023-06370-5.
 publication: "Machine Learning (Springer)"
 CONF-CC: "Machine Learning"
 pdf_extract: "PDF Extracts/2023/2023-Dehghani-Persian Offensive Language Detection Dehghani et al..md"
-local_pdf: "[[PDFs/2023/2023-Dehghani-Persian Offensive Language Detection Dehghani et al..pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Dehghani-Persian Offensive Language Detection Dehghani et al..pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"

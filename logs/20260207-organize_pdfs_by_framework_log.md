@@ -2,7 +2,7 @@
 
 **Date:** 2026-02-08
 **Source papers:** 73 (from V3 normative ethics classification)
-**Target:** `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/` subfolders
+**Target:** `/Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/` subfolders
 
 ## Summary
 

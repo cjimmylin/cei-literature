@@ -40,7 +40,7 @@ authors: "Smith, Nicholas; Vickers, Darby"
 doi: 10.1177/14778785241231561
 url: "https://journals.sagepub.com/doi/10.1177/14778785241231561"
 pdf_extract: "PDF Extracts/2024/2024-Smith-Living Well with AI.md"
-local_pdf: "[[PDFs/2024/2024-Smith-Living Well with AI.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Smith-Living Well with AI.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

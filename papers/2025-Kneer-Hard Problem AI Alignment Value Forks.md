@@ -83,7 +83,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.md"
 abstract: "Complex moral trade-offs are a basic feature of human life: for example, confronted with scarce medical resources, doctors must frequently choose who amongst equally deserving candidates receives medical treatment. But choosing what to do in moral trade-offs is no longer a ‘humans-only’ task, but often falls to AI agents. In this article, we report findings from a series of experiments (N=1029) intended to establish whether agent-type (Human vs."
 paper_summary: 
-local_pdf: "[[PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://osf.io/rqkcz"
@@ -117,7 +117,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf|Open PDF]]
 
 - **URL:** https://dl.acm.org/doi/10.1145/3715275.3732174
 - **DOI:** https://doi.org/10.1145/3715275.3732174

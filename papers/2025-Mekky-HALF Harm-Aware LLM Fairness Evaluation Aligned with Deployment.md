@@ -53,7 +53,7 @@ authors: Ali Mekky; Omar El Herraoui; Preslav Nakov; Yuxia Wang
 url: "https://arxiv.org/abs/2510.12217"
 external_pdf: "https://arxiv.org/pdf/2510.12217.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.md"
-local_pdf: "[[PDFs/2025/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

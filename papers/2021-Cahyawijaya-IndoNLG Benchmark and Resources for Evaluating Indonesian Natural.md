@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2104.08200"
 external_pdf: "https://arxiv.org/pdf/2104.08200.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md"
-local_pdf: "[[PDFs/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2021)"
 CONF-CC: "EMNLP 2021"
 DATE_ADDED: 20260213

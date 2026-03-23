@@ -52,7 +52,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2406.09948"
 external_pdf: "https://arxiv.org/pdf/2406.09948.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Bang-BLEnD A Benchmark for LLMs on.md"
-local_pdf: "[[PDFs/2024/2024-Bang-BLEnD A Benchmark for LLMs on.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Bang-BLEnD A Benchmark for LLMs on.pdf]]"
 publication: "arxiv.org / NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260213

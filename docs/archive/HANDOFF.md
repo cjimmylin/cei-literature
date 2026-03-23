@@ -174,9 +174,9 @@ cd /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS
 ```
 
 ### PDF Directory Layout
-- PDFs go in `PDFs/YYYY/filename.pdf` (year-based subdirectories)
+- PDFs go in `Lit-WS-PDFs/YYYY/filename.pdf` (year-based subdirectories)
 - Extracts go in `PDF Extracts/YYYY/filename.md`
-- YAML refs: `local_pdf: "[[PDFs/2025/2025-Author-Title.pdf]]"`
+- YAML refs: `local_pdf: "[[Lit-WS-PDFs/2025/2025-Author-Title.pdf]]"`
 - Use `rglob("*.pdf")` not `glob("*.pdf")` when scanning PDFs
 
 ### Known Limitations
@@ -356,7 +356,7 @@ cd /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS
 | Path | Contents |
 |------|----------|
 | `papers/` | 2,008 paper markdown files with YAML frontmatter |
-| `PDFs/YYYY/` | PDF files in year-based subdirectories |
+| `Lit-WS-PDFs/YYYY/` | PDF files in year-based subdirectories |
 | `PDF Extracts/YYYY/` | Extracted text from PDFs in year-based subdirectories |
 | `Authors/` | 4,869 author profile pages |
 | `PYTHON/` | All processing scripts |
@@ -409,7 +409,7 @@ cd /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS
 ### File Safety
 
 1. **NEVER use `rm`** — always `mv` to `RECYCLE-BIN/`. (Session 7 deleted 422 PDFs.)
-2. **PDF paths use year subdirs:** `PDFs/YYYY/filename.pdf`, extracts at `PDF Extracts/YYYY/filename.md`
+2. **PDF paths use year subdirs:** `Lit-WS-PDFs/YYYY/filename.pdf`, extracts at `PDF Extracts/YYYY/filename.md`
 3. **Use `rglob("*.pdf")`** not `glob("*.pdf")` when scanning all PDFs (year subdirs).
 
 ### API Rate Limits
@@ -450,7 +450,7 @@ These items from the outstanding task list are still relevant but lower priority
 
 1. **Ochasi PDF** — Manual browser download from Wiley (OA but bot-blocked):
    - URL: `https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007`
-   - Save to: `PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
+   - Save to: `Lit-WS-PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
    - Then update `local_pdf` and re-extract
 
 2. **Deduplication check** — 161 CULT papers haven't been checked against existing vault:

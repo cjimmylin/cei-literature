@@ -46,7 +46,7 @@ grep -l "contraction.*depth\|matroid\|einstein-podolsky-rosen" papers/*.md
 - Manual edits forgetting quotes
 
 **Affected Fields**:
-- `local_pdf: [[PDFs/file.pdf]]` → should be `"[[PDFs/file.pdf]]"`
+- `local_pdf: [[Lit-WS-PDFs/file.pdf]]` → should be `"[[Lit-WS-PDFs/file.pdf]]"`
 - `first_author: [[Name]]` → should be `"[[Name]]"`
 - `pdf_extract: [[PDF Extracts/file.md]]` → should be `"[[...]]"`
 
@@ -373,7 +373,7 @@ for paper in papers:
 find PDFs -name "*.pdf" -size 0
 
 # Verify PDF format
-file PDFs/*.pdf | grep -v "PDF document"
+file Lit-WS-PDFs/*.pdf | grep -v "PDF document"
 ```
 
 ### Unpaywall API 422 Errors

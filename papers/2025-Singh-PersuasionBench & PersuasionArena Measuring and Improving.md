@@ -49,7 +49,7 @@ authors: "Somesh Singh; Yaman K Singla; Harini SI; Balaji Krishnamurthy"
 url: "https://arxiv.org/abs/2410.02653"
 external_pdf: "https://arxiv.org/pdf/2410.02653.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving.md"
-local_pdf: "[[PDFs/2025/2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving.pdf]]"
 publication: "ICLR 2025"
 CONF-CC: "ICLR 2025"
 DATE_ADDED: 20260207

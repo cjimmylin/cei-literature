@@ -89,7 +89,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Dognin-Contextual Moral Value Alignment Through.md"
 abstract: "Developing value-aligned AI agents is a complex undertaking and an ongoing challenge in the field of AI. Specifically within the domain of Large Language Models (LLMs), the capability to consolidate multiple independently trained dialogue agents, each aligned with a distinct moral value, into a unified system that can adapt to and be aligned with multiple moral values is of paramount importance. In this paper, we propose a system that does contextual moral value alignment based on contextual..."
 paper_summary: "Abstract: Developing value-aligned AI agents is a com- plex undertaking and an ongoing challenge in the field of AI. Specifically within the domain of Large Language Models (LLMs), the ca- pability to consolida | Overview: Contextual Moral Value Alignment Through Context-Based Aggregation Pierre Dognin, Jesus Rios, Ronny Luss, Inkit Padhi, Matthew D Riemer, Miao Liu, Prasanna Sattigeri, Manish Nagireddy, Kush R. Varshne | Methodology: is proposed. The method automatically adjusts the learning gradients across different preference data sources. Jang et al. (2023) study the Reinforce- | Key Findings: We present results on the Moral Integrity Cor- pus (MIC) (Ziems et al., 2022). MIC provides moral annotations on prompt-reply pairs. It was built up f"
-local_pdf: "[[PDFs/2024/2024-Dognin-Contextual Moral Value Alignment Through.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Dognin-Contextual Moral Value Alignment Through.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "OpenAssistant-12B, Llama-2-13B, Llama-2-7B"
 DATA_URL: "NA"
@@ -123,7 +123,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Dognin-Contextual Moral Value Alignment Through.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Dognin-Contextual Moral Value Alignment Through.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2403.12805
 - **DOI:** https://doi.org/10.48550/arXiv.2403.12805

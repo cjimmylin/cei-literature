@@ -88,7 +88,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://moralmachine.mit.edu"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md"
-local_pdf: "[[PDFs/2020/2020-Awad-Crowdsourcing moral machines.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Awad-Crowdsourcing moral machines.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 80
 virtue_ethics: 0

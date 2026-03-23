@@ -49,7 +49,7 @@ authors: Krzysztof Wrobel; Jan Maria Kowalski; Jerzy Surma; Igor Ciuciura; Macie
 url: "https://arxiv.org/abs/2602.07954"
 external_pdf: "https://arxiv.org/pdf/2602.07954.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.md"
-local_pdf: "[[PDFs/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

@@ -84,7 +84,7 @@ key_contribution: "Critiqued the popular ETHICS benchmark, arguing that it prima
 significance: "Challenges the validity of current ethics benchmarks, urging the field to distinguish between models that merely mimic moral judgments and those that can robustly reason about ethical principles."
 pdf_extract: "PDF Extracts/2024/2024-Hancox-Li-Is ETHICS about ethics.md"
 paper_summary: "Overview: arXiv:2410.13009v2 [cs.CY] 26 Nov 2024 Is ETHICS about ethics? Evaluating the ETHICS benchmark Leif Hancox-Li∗ vijil leif@vijil.ai Borhane Blili-Hamelin∗ AI Risk and Vulnerability Alliance borhane@avi"
-local_pdf: "[[PDFs/2024/2024-Hancox-Li-Is ETHICS about ethics.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hancox-Li-Is ETHICS about ethics.pdf]]"
 abstract: "ETHICS is probably the most-cited dataset for testing the ethical capabilities of language models. Drawing on moral theory, psychology, and prompt evaluation, we interrogate the validity of the ETHICS benchmark. Adding to prior work, our findings suggest that having a clear understanding of ethics and how it relates to empirical phenomena is key to the validity of ethics evaluations for AI."
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
@@ -119,7 +119,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Hancox-Li-Is ETHICS about ethics.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Hancox-Li-Is ETHICS about ethics.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.13009
 - **DOI:** https://doi.org/10.48550/arXiv.2410.13009

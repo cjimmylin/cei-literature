@@ -85,7 +85,7 @@ significance: "Transforming hate speech detection into *explanation*, helping us
 tags: 
 abstract: "Warning: this paper contains content that may be offensive or upsetting. Language has the power to reinforce stereotypes and project social biases onto others. At the core of the challenge is that it is rarely what is stated explicitly, but rather the implied meanings, that frame people’s judgments about others. For example, given a statement that “we shouldn’t lower our standards to hire more women,” most listeners will infer the implicature intended by the speaker — that “women (candidates)..."
 pdf_extract: "PDF Extracts/2020/2020-Sap-Social Bias Frames.md"
-local_pdf: "[[PDFs/2020/2020-Sap-Social Bias Frames.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Sap-Social Bias Frames.pdf]]"
 CONF-CC: "ACL 2019"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-2

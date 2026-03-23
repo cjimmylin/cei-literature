@@ -55,7 +55,7 @@ external_pdf: "https://journals.uhd.edu.iq/index.php/juhd/article/download/1006/
 publication: "Journal of University of Human Development"
 CONF-CC: "Journal of University of Human Development"
 pdf_extract: "PDF Extracts/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.md"
-local_pdf: "[[PDFs/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -49,7 +49,7 @@ authors: "Jen-tse Huang; Man Ho Lam; Eric John Li; Shujie Ren; Wenxuan Wang; Wen
 url: "https://arxiv.org/abs/2308.03656"
 external_pdf: "https://arxiv.org/pdf/2308.03656.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.md"
-local_pdf: "[[PDFs/2024/2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.pdf]]"
 publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207

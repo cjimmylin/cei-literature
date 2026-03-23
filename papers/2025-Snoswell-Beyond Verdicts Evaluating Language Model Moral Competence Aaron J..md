@@ -55,7 +55,7 @@ external_pdf: "https://philarchive.org/archive/SNOBVE"
 publication: PhilArchive
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md"
-local_pdf: "[[PDFs/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

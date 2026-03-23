@@ -78,8 +78,8 @@ def main():
         content = new_paper.read_text(encoding='utf-8')
 
         # Update local_pdf
-        old_pdf_wikilink = f"[[PDFs/{year}/{old_stem}.pdf]]"
-        new_pdf_wikilink = f"[[PDFs/{year}/{new_stem}.pdf]]"
+        old_pdf_wikilink = f"[[Lit-WS-PDFs/{year}/{old_stem}.pdf]]"
+        new_pdf_wikilink = f"[[Lit-WS-PDFs/{year}/{new_stem}.pdf]]"
         content = update_yaml_field(content, "local_pdf", old_stem, new_pdf_wikilink)
 
         # Update pdf_extract

@@ -43,7 +43,7 @@ authors: "Hähnel, Martin; Müller, Regina (eds.)"
 doi: 10.1002/9781119809449
 url: "https://www.wiley.com/en-us/A+Companion+to+Applied+Philosophy+of+AI-p-9781119809"
 pdf_extract: "PDF Extracts/2025/2025-Hähnel-A Companion to Applied Philosophy of AI.md"
-local_pdf: "[[PDFs/2025/2025-Hähnel-A Companion to Applied Philosophy of AI.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hähnel-A Companion to Applied Philosophy of AI.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

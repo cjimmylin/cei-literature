@@ -25,8 +25,8 @@ Successfully migrated all AI Labs PDFs from the workspace to a new root-level di
 │   ├── AI Labs/                   # Now contains only markdown/README files
 │   │   └── [4 stub PDFs remain - known corrupted files]
 │   └── ...
-├── PDFs/                          # Existing papers PDFs (652 files)
-└── AI-Lab-PDFs/                   # NEW: All AI Labs PDFs (392 files)
+├── Lit-WS-PDFs/                          # Existing papers PDFs (652 files)
+└── AI-Lab-Lit-WS-PDFs/                   # NEW: All AI Labs PDFs (392 files)
     ├── 01.AI/
     ├── Alibaba (Qwen)/
     ├── Anthropic/
@@ -115,7 +115,7 @@ Added new constant `AI_LAB_PDFS_DIR` with fallback logic:
 
 1. **Separation of concerns**: Binary PDFs separated from tracked code/documentation
 2. **Workspace size reduction**: ~500MB of PDFs moved out of Git-tracked workspace
-3. **Consistent structure**: Parallels existing `PDFs/` directory pattern
+3. **Consistent structure**: Parallels existing `Lit-WS-PDFs/` directory pattern
 4. **Backward compatible**: Scripts handle both old and new path structures
 5. **Clean organization**: Clear distinction between workspace and external resources
 
@@ -126,13 +126,13 @@ If rollback is ever needed:
 ../.venv/bin/python PYTHON/migrate_ai_labs_pdfs.py --rollback
 ```
 
-This will move all PDFs back from `AI-Lab-PDFs/` to `CEI-Lit-WS/AI Labs/`.
+This will move all PDFs back from `AI-Lab-Lit-WS-PDFs/` to `CEI-Lit-WS/AI Labs/`.
 
 ## Future Considerations
 
-1. **Backup**: Ensure `AI-Lab-PDFs/` directory is included in backup systems
+1. **Backup**: Ensure `AI-Lab-Lit-WS-PDFs/` directory is included in backup systems
 2. **Documentation**: Update relevant docs to reference new location
-3. **Git ignore**: Consider adding `AI-Lab-PDFs/` to root `.gitignore` if needed
+3. **Git ignore**: Consider adding `AI-Lab-Lit-WS-PDFs/` to root `.gitignore` if needed
 4. **Cleanup**: Optionally remove stub PDFs from workspace (currently left for reference)
 
 ---

@@ -48,7 +48,7 @@ authors: "PORTULAN/CLUL team"
 url: "https://arxiv.org/abs/2305.06721"
 external_pdf: "https://arxiv.org/pdf/2305.06721.pdf"
 pdf_extract: "PDF Extracts/2023/2023-team-Albertina Advancing Neural Encoding of Portuguese.md"
-local_pdf: "[[PDFs/2023/2023-team-Albertina Advancing Neural Encoding of Portuguese.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-team-Albertina Advancing Neural Encoding of Portuguese.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

@@ -85,7 +85,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Standards-NIST AI Risk Management Framework.md"
-local_pdf: "[[PDFs/2023/2023-Standards-NIST AI Risk Management Framework.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Standards-NIST AI Risk Management Framework.pdf]]"
 CONFERENCE: "Unknown"
 ethics_overall: 45
 virtue_ethics: 0

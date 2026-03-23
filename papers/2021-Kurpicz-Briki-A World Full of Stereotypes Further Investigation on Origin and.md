@@ -55,7 +55,7 @@ external_pdf: "https://europepmc.org/articles/PMC8209512?pdf=render"
 publication: "Frontiers in Big Data"
 CONF-CC: "Frontiers in Big Data"
 pdf_extract: "PDF Extracts/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.md"
-local_pdf: "[[PDFs/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French, German, Italian"
 cultures_nationalities_list: "French, German, Italian"

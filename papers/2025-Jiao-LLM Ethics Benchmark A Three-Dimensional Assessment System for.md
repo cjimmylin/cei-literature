@@ -49,7 +49,7 @@ url: "https://www.nature.com/articles/s41598-025-18489-7"
 external_pdf: "https://www.nature.com/articles/s41598-025-18489-7.pdf"
 publication: Nature Scientific Reports
 CONF-CC: "Nature Scientific Reports"
-local_pdf: "[[PDFs/2025/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

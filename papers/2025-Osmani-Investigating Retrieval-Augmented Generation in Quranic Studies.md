@@ -53,7 +53,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2503.16581"
 external_pdf: "https://arxiv.org/pdf/2503.16581.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.md"
-local_pdf: "[[PDFs/2025/2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.pdf]]"
 publication: "IJACSA / arXiv"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

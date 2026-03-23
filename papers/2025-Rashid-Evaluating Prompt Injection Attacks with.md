@@ -51,7 +51,7 @@ doi: 10.3390/make7030077
 url: "https://www.mdpi.com/2504-4990/7/3/77"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/L5X24WSS/Rashid et al. - 2025 - Evaluating Prompt Injection Attacks with LSTM-Based Generative Adversarial Networks A Lightweight A.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rashid-Evaluating Prompt Injection Attacks with.md"
-local_pdf: "[[PDFs/2025/2025-Rashid-Evaluating Prompt Injection Attacks with.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rashid-Evaluating Prompt Injection Attacks with.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

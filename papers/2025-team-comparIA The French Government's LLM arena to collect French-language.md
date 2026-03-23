@@ -48,7 +48,7 @@ external_pdf: "https://arxiv.org/pdf/2602.06669.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-team-comparIA The French Government's LLM arena to collect French-language.md"
-local_pdf: "[[PDFs/2025/2025-team-comparIA The French Government's LLM arena to collect French-language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-team-comparIA The French Government's LLM arena to collect French-language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"

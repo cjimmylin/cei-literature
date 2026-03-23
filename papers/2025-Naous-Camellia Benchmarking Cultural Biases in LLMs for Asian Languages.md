@@ -48,7 +48,7 @@ url: "https://arxiv.org/abs/2510.05291"
 external_pdf: "https://arxiv.org/pdf/2510.05291.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2025/2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

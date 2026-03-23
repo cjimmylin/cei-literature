@@ -46,7 +46,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2506.02372"
 external_pdf: "https://arxiv.org/pdf/2506.02372.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sekine-AnswerCarefully A Dataset for Improving the.md"
-local_pdf: "[[PDFs/2025/2025-Sekine-AnswerCarefully A Dataset for Improving the.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sekine-AnswerCarefully A Dataset for Improving the.pdf]]"
 publication: "arXiv preprint (NII LLM-jp project)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

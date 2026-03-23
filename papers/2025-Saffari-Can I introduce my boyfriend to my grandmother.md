@@ -85,7 +85,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Llama-3, Mixtral, Qwen"
 DATA_URL: "https://github.com/hamidds/ISN"
 pdf_extract: "PDF Extracts/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
-local_pdf: "[[PDFs/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.pdf]]"
 CONFERENCE: "NAACL 2025"
 ethics_overall: 0
 virtue_ethics: 0

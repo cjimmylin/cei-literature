@@ -55,7 +55,7 @@ url: "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-datas
 publication: HuggingFace
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md"
-local_pdf: "[[PDFs/2024/2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.pdf]]"
 external_pdf: "https://aclanthology.org/2025.gebnlp-1.10.pdf"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"

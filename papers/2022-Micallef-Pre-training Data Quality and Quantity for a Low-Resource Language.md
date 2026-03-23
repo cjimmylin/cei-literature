@@ -50,7 +50,7 @@ external_pdf: "https://arxiv.org/pdf/2205.10517.pdf"
 publication: "ACL Anthology / DeepLo 2022"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2022/2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.md"
-local_pdf: "[[PDFs/2022/2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

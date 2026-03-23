@@ -44,7 +44,7 @@ authors: Antonio-Gabriel Chacón Menke; Phan Xuan Tan
 doi: 10.48550/arXiv.2503.17365
 url: "http://arxiv.org/abs/2503.17365"
 pdf_extract: "PDF Extracts/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.md"
-local_pdf: "[[PDFs/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2503.17365.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
@@ -106,7 +106,7 @@ data_metrics: "90 prompts"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2503.17365
 - **DOI:** https://doi.org/10.48550/arXiv.2503.17365

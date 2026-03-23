@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2211.13112"
 external_pdf: "https://arxiv.org/pdf/2211.13112.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP.md"
-local_pdf: "[[PDFs/2022/2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP.pdf]]"
 publication: "arXiv / NeurIPS 2022"
 CONF-CC: "NeurIPS 2022"
 DATE_ADDED: 20260213

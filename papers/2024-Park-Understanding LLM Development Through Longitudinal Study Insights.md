@@ -47,7 +47,7 @@ authors: Chanjun Park; Hyeonwoo Kim
 url: "https://arxiv.org/abs/2409.03257"
 external_pdf: "https://arxiv.org/pdf/2409.03257.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Park-Understanding LLM Development Through Longitudinal Study Insights.md"
-local_pdf: "[[PDFs/2024/2024-Park-Understanding LLM Development Through Longitudinal Study Insights.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Park-Understanding LLM Development Through Longitudinal Study Insights.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

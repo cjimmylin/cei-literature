@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2507.04329.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language.md"
-local_pdf: "[[PDFs/2025/2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese, Korean"
 cultures_nationalities_list: "Chinese, Japanese, Korean"

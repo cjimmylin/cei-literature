@@ -99,15 +99,15 @@
 ### local_pdf issue (19 papers)
 
 - [[2021-Angle-Can AI Lead to Genuine Virtue Confucian]] Invalid wikilink format (N/A)
-- [[2022-Kann-AmericasNLI]] Invalid wikilink format (PDFs/2022-Kann-AmericasNLI.pdf)
+- [[2022-Kann-AmericasNLI]] Invalid wikilink format (Lit-WS-PDFs/2022-Kann-AmericasNLI.pdf)
 - [[2022-Zhang-Artificial Intelligence and Moral Dilemmas]] Invalid wikilink format (PENDING - paywall restricted)
-- [[2022-Ziems-The Moral Integrity Corpus]] Invalid wikilink format (PDFs/2022-Ziems-The Moral Integrity Corpus.pdf)
-- [[2023-Boddington-Normative Ethical Theory AI Ethics]] PDF file not found (PDFs/2023-Boddington-Normative Ethical Theory AI Ethics.pdf)
-- [[2023-Chang-niceNLP at SemEval-2023 Task 10]] Invalid wikilink format (PDFs/2023-Chang-niceNLP at SemEval-2023 Task 10.pdf)
-- [[2023-Harrington-I'm Fully Who I Am]] Invalid wikilink format (PDFs/2023-Harrington-I'm Fully Who I Am.pdf)
-- [[2023-Hartmann-The political ideology of conversational AI]] Invalid wikilink format (PDFs/2023-Hartmann-The political ideology of conversational AI.pdf)
-- [[2023-Kim-KOME]] Invalid wikilink format (PDFs/2023-Kim-KOME.pdf)
-- [[2023-Lee-KoSBI]] Invalid wikilink format (PDFs/2023-Lee-KoSBI.pdf)
+- [[2022-Ziems-The Moral Integrity Corpus]] Invalid wikilink format (Lit-WS-PDFs/2022-Ziems-The Moral Integrity Corpus.pdf)
+- [[2023-Boddington-Normative Ethical Theory AI Ethics]] PDF file not found (Lit-WS-PDFs/2023-Boddington-Normative Ethical Theory AI Ethics.pdf)
+- [[2023-Chang-niceNLP at SemEval-2023 Task 10]] Invalid wikilink format (Lit-WS-PDFs/2023-Chang-niceNLP at SemEval-2023 Task 10.pdf)
+- [[2023-Harrington-I'm Fully Who I Am]] Invalid wikilink format (Lit-WS-PDFs/2023-Harrington-I'm Fully Who I Am.pdf)
+- [[2023-Hartmann-The political ideology of conversational AI]] Invalid wikilink format (Lit-WS-PDFs/2023-Hartmann-The political ideology of conversational AI.pdf)
+- [[2023-Kim-KOME]] Invalid wikilink format (Lit-WS-PDFs/2023-Kim-KOME.pdf)
+- [[2023-Lee-KoSBI]] Invalid wikilink format (Lit-WS-PDFs/2023-Lee-KoSBI.pdf)
 - *... and 9 more*
 
 ### ethics_overall is 'No' but specific ethics field is 'Yes' (7 papers)
@@ -385,7 +385,7 @@
 ### [[2022-Kann-AmericasNLI]]
 
 **Warnings:**
-- ⚠️ local_pdf issue: Invalid wikilink format (PDFs/2022-Kann-AmericasNLI.pdf)
+- ⚠️ local_pdf issue: Invalid wikilink format (Lit-WS-PDFs/2022-Kann-AmericasNLI.pdf)
 - ⚠️ Duplicate citation info in body (3 entries)
 
 ### [[2022-Kim-ProsocialDialog]]

@@ -499,7 +499,7 @@ These papers have DOIs pointing to freely accessible sources:
 
 | Paper | DOI | Action |
 |-------|-----|--------|
-| 2020-Akrout-Machine Ethics | arXiv:2002.00213 | `curl -L https://arxiv.org/pdf/2002.00213.pdf -o "PDFs/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf"` |
+| 2020-Akrout-Machine Ethics | arXiv:2002.00213 | `curl -L https://arxiv.org/pdf/2002.00213.pdf -o "Lit-WS-PDFs/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf"` |
 | 2025-Okamoto-AI-based medical ethics education | 10.1186/s12909-025-06801-y | Download from BMC Open Access |
 | 2025-Pipitone-Unlocking practical wisdom | 10.1038/s41598-025-86193-7 | Download from Scientific Reports (Open Access) |
 | 2025-Bryan-Virtue Ethics and Postponing Human Extinction | 10.1001/amajethics.2025.611 | Download from AMA Journal of Ethics (often open access) |

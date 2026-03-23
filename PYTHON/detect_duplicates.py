@@ -343,7 +343,7 @@ def main():
 
             # Check if PDF and extract exist on disk
             local_pdf = fields.get("local_pdf", "")
-            pdf_filename = local_pdf.strip('"').strip("[]").replace("PDFs/", "")
+            pdf_filename = local_pdf.strip('"').strip("[]").replace("Lit-WS-PDFs/", "")
             if pdf_filename:
                 pdf_path = PDFS_DIR / pdf_filename
                 has_pdf = pdf_path.exists()

@@ -55,7 +55,7 @@ external_pdf: "https://doras.dcu.ie/30830/1/Gender-Bias-in-Natural-Language-Proc
 publication: ACM
 CONF-CC: "ACM Computing Surveys"
 pdf_extract: "PDF Extracts/2025/2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.md"
-local_pdf: "[[PDFs/2025/2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

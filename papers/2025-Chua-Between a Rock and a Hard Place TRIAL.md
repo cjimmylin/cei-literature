@@ -43,7 +43,7 @@ authors: Shei Pern Chua; Zhen Leng Thai; Kai Jun Teh; Xiao Li; Qibing Ren; Xiaol
 url: "https://arxiv.org/abs/2509.05367"
 external_pdf: "https://arxiv.org/pdf/2509.05367.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Chua-Between a Rock and a Hard Place TRIAL.md"
-local_pdf: "[[PDFs/2025/2025-Chua-Between a Rock and a Hard Place TRIAL.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chua-Between a Rock and a Hard Place TRIAL.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

@@ -51,7 +51,7 @@ url: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3
 publication: Frontiers
 CONF-CC: "Frontiers"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.md"
-local_pdf: "[[PDFs/2025/2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"

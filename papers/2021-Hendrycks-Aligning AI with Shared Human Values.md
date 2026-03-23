@@ -42,7 +42,7 @@ last_author: "[[Jacob Steinhardt]]"
 authors: "Dan Hendrycks; Collin Burns; Steven Basart; Andrew Critch; Jerry Li; Dawn Song; Jacob Steinhardt"
 url: "https://arxiv.org/abs/2008.02275"
 pdf_extract: "PDF Extracts/2021/2021-Hendrycks-Aligning AI with Shared Human Values.md"
-local_pdf: "[[PDFs/2021/2021-Hendrycks-Aligning AI with Shared Human Values.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Hendrycks-Aligning AI with Shared Human Values.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2008.02275.pdf"
 publication: "International Conference on Learning Representations (ICLR 2021)"
 CONF-CC: "ICLR 2021"
@@ -111,7 +111,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2021/2021-Hendrycks-Aligning AI with Shared Human Values.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2021/2021-Hendrycks-Aligning AI with Shared Human Values.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2008.02275
 

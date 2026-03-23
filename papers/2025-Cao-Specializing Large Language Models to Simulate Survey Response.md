@@ -50,7 +50,7 @@ url: "https://aclanthology.org/2025.naacl-long.162/"
 external_pdf: "https://arxiv.org/pdf/2502.07068v2.pdf"
 publication: NAACL 2025
 CONF-CC: "NAACL 2025"
-local_pdf: "[[PDFs/2025/2025-Cao-Specializing Large Language Models to Simulate Survey Response.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Cao-Specializing Large Language Models to Simulate Survey Response.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Cao-Specializing Large Language Models to Simulate Survey Response.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

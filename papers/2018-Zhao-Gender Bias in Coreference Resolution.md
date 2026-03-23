@@ -45,7 +45,7 @@ authors: "Zhao, Jieyu; Wang, Tianlu; Yatskar, Mark; Ordonez, Vicente; Chang, Kai
 doi: 10.18653/v1/N18-2003
 url: "https://arxiv.org/abs/1804.06876"
 pdf_extract: "PDF Extracts/2018/2018-Zhao-Gender Bias in Coreference Resolution.md"
-local_pdf: "[[PDFs/2018/2018-Zhao-Gender Bias in Coreference Resolution.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Zhao-Gender Bias in Coreference Resolution.pdf]]"
 external_pdf: "https://arxiv.org/pdf/1804.06876.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
@@ -108,7 +108,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2018/2018-Zhao-Gender Bias in Coreference Resolution.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2018/2018-Zhao-Gender Bias in Coreference Resolution.pdf|Open PDF]]
 
 - **URL:** http://aclweb.org/anthology/N18-2003
 - **DOI:** https://doi.org/10.18653/v1/N18-2003

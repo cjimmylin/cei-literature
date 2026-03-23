@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2510.12807"
 external_pdf: "https://arxiv.org/pdf/2510.12807.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in.md"
-local_pdf: "[[PDFs/2025/2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

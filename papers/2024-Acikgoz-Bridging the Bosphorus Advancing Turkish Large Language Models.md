@@ -49,7 +49,7 @@ url: "https://arxiv.org/abs/2405.04685"
 external_pdf: "https://arxiv.org/pdf/2405.04685.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2024/2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

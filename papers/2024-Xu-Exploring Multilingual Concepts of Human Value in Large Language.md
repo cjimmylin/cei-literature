@@ -49,7 +49,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2402.18120"
 external_pdf: "https://arxiv.org/pdf/2402.18120.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md"
-local_pdf: "[[PDFs/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.pdf]]"
 publication: "Findings of EMNLP 2024"
 CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213

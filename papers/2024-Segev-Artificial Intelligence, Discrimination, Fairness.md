@@ -86,7 +86,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.md"
 abstract: "Should the input data of artificial intelligence (AI) systems include factors such as race or sex when these factors may be indicative of morally significant facts? More importantly, is it wrong to rely on the output of AI tools whose input includes fac­ tors such as race or sex? And is it wrong to rely on the output of AI systems when it is correlated with factors such as race or sex (whether or not its input includes such factors)? The answers to these questions are controversial."
 paper_summary: 
-local_pdf: "[[PDFs/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "AI Ethics"
 LLM_assessed: "NA"
@@ -121,7 +121,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf|Open PDF]]
 
 - **DOI:** https://doi.org/10.1007/s11023-024-09702-z
 

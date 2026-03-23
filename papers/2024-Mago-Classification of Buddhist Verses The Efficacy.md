@@ -52,7 +52,7 @@ authors_incomplete: false
 url: 
 external_pdf: "https://aclanthology.org/2024.nlp4dh-1.37.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Mago-Classification of Buddhist Verses The Efficacy.md"
-local_pdf: "[[PDFs/2024/2024-Mago-Classification of Buddhist Verses The Efficacy.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Mago-Classification of Buddhist Verses The Efficacy.pdf]]"
 publication: "NLP4DH 2024 (4th International Conference on Natural Language Processing for Digital Humanities), pages 377-385, Miami, USA"
 CONF-CC: "Natural Language Processing"
 DATE_ADDED: 20260213

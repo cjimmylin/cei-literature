@@ -50,7 +50,7 @@ external_pdf: "https://arxiv.org/pdf/2411.19799.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.md"
-local_pdf: "[[PDFs/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

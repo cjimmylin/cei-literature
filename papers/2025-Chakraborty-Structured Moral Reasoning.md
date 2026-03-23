@@ -89,7 +89,7 @@ research_topic: "LLM Moral Reasoning"
 LLM_assessed: "Llama-2, Llama-3, Mistral, Phi, Qwen"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Structured Moral Reasoning.md"
-local_pdf: "[[PDFs/2025/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260213
 CONFERENCE: "Preprint"

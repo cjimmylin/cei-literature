@@ -3,7 +3,7 @@
 
 IMPORTANT: This script creates new paper files from Zotero export.
 It includes validation to prevent common YAML issues discovered in Session 8:
-- Wikilinks must be quoted: local_pdf: "[[PDFs/file.pdf]]"
+- Wikilinks must be quoted: local_pdf: "[[Lit-WS-PDFs/file.pdf]]"
 - Abstract truncation detection
 - Proper YAML structure validation
 """

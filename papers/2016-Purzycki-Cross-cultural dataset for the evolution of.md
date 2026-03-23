@@ -87,7 +87,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://doi.org/10.7910/DVN/ERKCLS"
 pdf_extract: "PDF Extracts/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.md"
-local_pdf: "[[PDFs/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 0
 virtue_ethics: 0

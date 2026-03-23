@@ -346,10 +346,10 @@ python3 .agent/skills/download_pdf/scripts/download.py \
 python3 PYTHON/comprehensive_pdf_manager.py --discover
 
 # Count current PDFs
-ls -1 PDFs/*.pdf | wc -l
+ls -1 Lit-WS-PDFs/*.pdf | wc -l
 
 # Check total size
-du -sh PDFs/
+du -sh Lit-WS-PDFs/
 ```
 
 ---
@@ -369,7 +369,7 @@ du -sh PDFs/
 ### What This Means
 
 You now have:
-- ✅ **375 PDF files** (64.7% of vault) in your local PDFs/ directory
+- ✅ **375 PDF files** (64.7% of vault) in your local Lit-WS-PDFs/ directory
 - ✅ **Complete infrastructure** for downloading and managing PDFs
 - ✅ **Full documentation** for future use and maintenance
 - ✅ **Production-ready code** for adding new papers

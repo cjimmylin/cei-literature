@@ -6,7 +6,7 @@ Workflow:
 1. Read candidate rows from logs/20260214-alt-method-direct-pdf-candidates.csv
 2. Download each candidate PDF
 3. Verify match against paper title/DOI using PDF metadata + first-page text
-4. On verified match: place into PDFs/<year>/ and update paper frontmatter
+4. On verified match: place into Lit-WS-PDFs/<year>/ and update paper frontmatter
 5. On failed/uncertain match: move file to recycle for manual review
 
 This script is intentionally conservative: it will skip rather than force-link.
@@ -423,7 +423,7 @@ def file_has_valid_local_pdf(paper: PaperMeta, pdfs_dir: Path) -> bool:
     if not m:
         return False
     rel = m.group(1).split("|")[0].strip()
-    path = (WORKSPACE.parent / rel).resolve() if rel.startswith("PDFs/") else (pdfs_dir / rel).resolve()
+    path = (WORKSPACE.parent / rel).resolve() if rel.startswith("Lit-WS-PDFs/") else (pdfs_dir / rel).resolve()
     return path.exists() and path.stat().st_size > 1024
 
 
@@ -481,7 +481,7 @@ def main() -> None:
 
         year = compute_year(meta)
         pdf_name = f"{meta.path.stem}.pdf"
-        rel_pdf = f"PDFs/{year}/{pdf_name}"
+        rel_pdf = f"Lit-WS-PDFs/{year}/{pdf_name}"
         dest_pdf = pdfs_dir / year / pdf_name
 
         with tempfile.NamedTemporaryFile(prefix="altcand_", suffix=".pdf", delete=False) as tf:

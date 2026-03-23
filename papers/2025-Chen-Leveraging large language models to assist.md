@@ -87,7 +87,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Chen-Leveraging large language models to assist.md"
-local_pdf: "[[PDFs/2025/2025-Chen-Leveraging large language models to assist.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chen-Leveraging large language models to assist.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 0
 virtue_ethics: 0

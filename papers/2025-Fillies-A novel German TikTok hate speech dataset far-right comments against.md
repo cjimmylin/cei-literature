@@ -54,7 +54,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s44248-025-00020-y.
 publication: "Springer (Discover Data)"
 CONF-CC: "Discover Data"
 pdf_extract: "PDF Extracts/2025/2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md"
-local_pdf: "[[PDFs/2025/2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"

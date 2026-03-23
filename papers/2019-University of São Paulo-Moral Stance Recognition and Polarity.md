@@ -48,7 +48,7 @@ authors: "Brazil University of São Paulo; Wesley Ramos Dos Santos; Ivandré Par
 doi: 10.26615/978-954-452-056-4_123
 url: "https://acl-bg.org/proceedings/2019/RANLP 2019/pdf/RANLP123.pdf"
 pdf_extract: "PDF Extracts/2019/2019-University of São Paulo-Moral Stance Recognition and Polarity.md"
-local_pdf: "[[PDFs/2019/2019-University of São Paulo-Moral Stance Recognition and Polarity.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-University of São Paulo-Moral Stance Recognition and Polarity.pdf]]"
 external_pdf: "https://acl-bg.org/proceedings/2019/RANLP 2019/pdf/RANLP123.pdf"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"

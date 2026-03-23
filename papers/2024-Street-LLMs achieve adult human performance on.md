@@ -81,7 +81,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Street-LLMs achieve adult human performance on.md"
 abstract: "This paper examines the extent to which large language models (LLMs) have developed higher-order theory of mind (ToM); the human ability to reason about multiple mental and emotional states in a recursive manner (e.g. I think that you believe that she knows). This paper builds on prior work by introducing a handwritten test suite – Multi-Order Theory of Mind Q&A – and using it to compare the performance of five LLMs to a newly gathered adult human benchmark."
 paper_summary: "Abstract: This paper examines the extent to which large language models (LLMs) have developed higher-order theory of mind (ToM); the human ability to reason about multiple mental and emotional states in a recur | Overview: LLMs achieve adult human performance on higher-order theory of mind tasks Winnie Street1∗ John Oliver Siy1 Geoff Keeling1 Adrien Baranes2 Benjamin Barnett1 Michael Mckibben3 Tatenda Kanyere4 Alison Le | Methodology: We introduce a new benchmark, Multi-Order Theory of Mind Question & Answer (MoToMQA), to assess human and LLM ToM abilities at increasing orders, base | Conclusions: GPT-4 and Flan-PaLM performed strongly on MoToMQA compared to humans. At all levels besides 5, the performance of these models was not significantly d"
-local_pdf: "[[PDFs/2024/2024-Street-LLMs achieve adult human performance on.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Street-LLMs achieve adult human performance on.pdf]]"
 CONF-CC: "Frontiers in Human Neuroscience"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, LaMDA, PaLM"
@@ -112,7 +112,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Street-LLMs achieve adult human performance on.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Street-LLMs achieve adult human performance on.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2405.18870
 

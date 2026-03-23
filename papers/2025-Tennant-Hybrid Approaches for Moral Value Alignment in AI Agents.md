@@ -42,7 +42,7 @@ authors: "Tennant, Elizaveta; Hailes, Stephen; Musolesi, Mirco"
 doi: 10.48550/arXiv.2312.01818
 url: "https://arxiv.org/abs/2312.01818"
 pdf_extract: "PDF Extracts/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.md"
-local_pdf: "[[PDFs/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2312.01818.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
@@ -102,7 +102,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2312.01818
 - **DOI:** https://doi.org/10.48550/arXiv.2312.01818

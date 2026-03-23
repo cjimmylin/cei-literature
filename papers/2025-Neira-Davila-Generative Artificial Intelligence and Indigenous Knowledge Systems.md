@@ -48,7 +48,7 @@ url: "https://lettersinhighenergyphysics.com/index.php/LHEP/article/view/1602"
 external_pdf: "https://lettersinhighenergyphysics.com/index.php/LHEP/article/download/1602/1221"
 publication: Letters in High Energy Physics
 CONF-CC: "N/A"
-local_pdf: "[[PDFs/2025/2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Latin American, Multicultural/Cross-cultural"

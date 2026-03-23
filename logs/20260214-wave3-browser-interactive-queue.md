@@ -21,7 +21,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=Overview+of+MeOffendEs+at+IberLEF+2021%3A+Offensive+Language+Detection+in+Spanish+Variants
   Tactic: Open article page and click native PDF/download button; if blocked, try /article/download URL variants.
   Resolved source: http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6388/3808
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.pdf
   Recent failed attempts: http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6388 [not_pdf_header]
 
 - [x] `LSRC0277` `2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md`
@@ -37,7 +37,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=Overview+of+DETOXIS+at+IberLEF+2021%3A+DEtection+of+TOXicity+in+comments+In+Spanish
   Tactic: Open article page and click native PDF/download button; if blocked, try /article/download URL variants.
   Resolved source: http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6390/3810
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2021/2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/2021/2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.pdf
   Recent failed attempts: http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6390/0 [not_pdf_header]
 
 - [x] `LSRC0091` `2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md`
@@ -51,7 +51,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=Decolonizing+NLP+for+%27Low-resource+Languages%27%3A+Applying+Abebe+Birhane%27s+Relational+Ethics
   Tactic: Open article page and click native PDF/download button; if blocked, try /article/download URL variants.
   Resolved source: https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.pdf
   Recent failed attempts: https://ojs.stanford.edu/ojs/index.php/grace/article/view/2584 [not_pdf_header] | https://ojs.stanford.edu/ojs/index.php/grace/article/view/2584#pkp_content_main [not_pdf_header] | https://ojs.stanford.edu/ojs/index.php/grace/article/view/2584#siteNav [not_pdf_header]
 
 ## P1 · PREPRINT_AUTHOREA (1)
@@ -105,7 +105,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=Fake+News+Detection+in+Low-Resourced+Languages%3A+Kurdish+Language+Using+Machine+Learning+Algorithms
   Tactic: Open source URL, inspect for PDF link targets, then use DOI/OpenAlex/Scholar fallback searches.
   Resolved source: https://turcomat.org/index.php/turkbilmat/article/download/8393/6569
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2021/2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/2021/2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.pdf
   Recent failed attempts: https://turcomat.org/index.php/turkbilmat/article/view/8393 [not_pdf_header] | https://turcomat.org/index.php/turkbilmat/article/download/8393 [HTTP 404] | https://turcomat.org/index.php/turkbilmat/article/download/8393/0 [HTTP 404] | https://turcomat.org/index.php/turkbilmat/article/download/8393/6569 [ok_manual_auth]
 
 - [ ] `LSRC0139` `2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md`
@@ -129,7 +129,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=Towards+a+Complete+Kurdish+NLP+Pipeline%3A+Challenges+and+Opportunities
   Tactic: Open source URL, inspect for PDF link targets, then use DOI/OpenAlex/Scholar fallback searches.
   Resolved source: https://journal.uad.ac.id/index.php/JIFO/article/download/26053/pdf_66
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.pdf
   Recent failed attempts: https://journal.uad.ac.id/index.php/JIFO/article/view/26053 [not_pdf_header] | https://journal.uad.ac.id/index.php/JIFO/article/download/26053 [HTTP 404] | https://journal.uad.ac.id/index.php/JIFO/article/download/26053/0 [HTTP 404] | https://journal.uad.ac.id/index.php/JIFO/article/download/26053/pdf_66 [ok_manual_auth]
 
 - [ ] `LSRC0127` `2024-Miranda-Desiderata for Filipino NLP in the Age of LLMs.md`
@@ -153,7 +153,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=PerGOLD%3A+Identification+of+Offensive+Language+in+Persian+Tweets%3A+Leveraging+Crowdsourcing
   Tactic: Open source URL, inspect for PDF link targets, then use DOI/OpenAlex/Scholar fallback searches.
   Resolved source: https://cke.um.ac.ir/article_46412_dc00307da37c32ca327cb54c47db3a32.pdf
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.pdf
   Recent failed attempts: https://cke.um.ac.ir/article_46412.html [not_pdf_header] | https://cke.um.ac.ir/article_46412.html [not_pdf_header] | https://doi.org/10.22067/cke.2025.90088.1132 [not_pdf_header] | https://cke.um.ac.ir/article_46412_dc00307da37c32ca327cb54c47db3a32.pdf [ok_handoff]
 
 - [ ] `LSRC0274` `2025-Unknown-BenchMoral A Benchmarking to Assess the Moral Sensitivity of Large.md`
@@ -226,7 +226,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=ParsOffensive%3A+Persian+Offensive+Comments+Dataset
   Tactic: Open IEEE page in full browser session; try stamp.jsp arnumber URL and institutional access.
   Resolved source: https://arxiv.org/pdf/2404.05540
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.pdf
   Recent failed attempts: https://ieeexplore.ieee.org/document/11006224 [not_pdf_header] | https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11006224 [not_pdf_header]
 
 ## P2 · PAYWALL_SPRINGER (5)
@@ -490,7 +490,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=Kannada+Code-Mixed+Abusive+Speech+Detection+%28MuRIL-based%29
   Tactic: This is usually a resource/benchmark page. Look for cited paper DOI and fetch that PDF instead.
   Resolved source: https://arxiv.org/pdf/2204.12543
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.pdf
   Recent failed attempts: https://huggingface.co/Hate-speech-CNERG/kannada-codemixed-abusive-MuRIL [not_pdf_header] | https://huggingface.co/Hate-speech-CNERG/kannada-codemixed-abusive-MuRIL [not_pdf_header] | https://arxiv.org/abs/2204.12543 [not_pdf_header] | https://arxiv.org/pdf/2204.12543.pdf [ok_handoff]
 
 - [x] `LSRC0221` `2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md`
@@ -504,7 +504,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=Napolab%3A+The+Natural+Portuguese+Language+Benchmark
   Tactic: This is usually a resource/benchmark page. Look for cited paper DOI and fetch that PDF instead.
   Resolved source: https://arxiv.org/pdf/2401.16640
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.pdf
   Recent failed attempts: https://github.com/ruanchaves/napolab [not_pdf_header] | https://github.com/ruanchaves/napolab [not_pdf_header] | https://arxiv.org/abs/2401.16640 [not_pdf_header] | https://arxiv.org/pdf/2401.16640.pdf [ok_handoff]
 
 - [ ] `LSRC0222` `2024-Garcia-Open Portuguese LLM Leaderboard.md`
@@ -554,7 +554,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Scholar: https://scholar.google.com/scholar?q=ParsBench%3A+Toolkits+for+Benchmarking+LLMs+Based+on+the+Persian+Language+Tasks
   Tactic: This is usually a resource/benchmark page. Look for cited paper DOI and fetch that PDF instead.
   Resolved source: https://arxiv.org/pdf/2404.02403
-  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.pdf
+  Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.pdf
   Recent failed attempts: https://github.com/ParsBench/ParsBench [not_pdf_header] | https://github.com/ParsBench/ParsBench [not_pdf_header] | https://arxiv.org/abs/2404.02403 [not_pdf_header] | https://arxiv.org/pdf/2404.02403.pdf [ok_handoff]
 
 - [ ] `LSRC0200` `2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md`

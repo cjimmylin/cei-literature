@@ -53,7 +53,7 @@ external_pdf: "https://europepmc.org/articles/PMC12456827?pdf=render"
 publication: Web
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.md"
-local_pdf: "[[PDFs/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

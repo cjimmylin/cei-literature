@@ -283,7 +283,7 @@ python3 PYTHON/smart_pdf_downloader.py --download --limit 50
 7. **Rate limiting is essential** - Respect API limits to avoid blocking
 8. **Script field names matter** - The `smart_pdf_downloader.py` needed updating to use `external_pdf` instead of `pdf`
 9. **arXiv fallback is valuable** - Many ACL Anthology papers have arXiv preprints that download successfully
-10. **Wikilink format in metadata** - `local_pdf` field uses `[[PDFs/name.pdf]]` format requiring bracket stripping
+10. **Wikilink format in metadata** - `local_pdf` field uses `[[Lit-WS-PDFs/name.pdf]]` format requiring bracket stripping
 
 ---
 

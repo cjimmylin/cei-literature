@@ -50,7 +50,7 @@ doi: 10.2196/55988
 url: "https://mental.jmir.org/2024/1/e55988"
 publication: JMIR Mental Health
 CONF-CC: "JMIR Mental Health"
-local_pdf: "[[PDFs/2024/2024-Hadar-Shoval-Assessing the Alignment of Large Language Models With Human Values.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hadar-Shoval-Assessing the Alignment of Large Language Models With Human Values.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Hadar-Shoval-Assessing the Alignment of Large Language Models With Human Values.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

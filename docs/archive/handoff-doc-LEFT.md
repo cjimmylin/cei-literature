@@ -101,13 +101,13 @@ cd CEI-Lit-WS
 | Other | 19 | Mixed publishers |
 
 ### After manual download:
-1. Save PDFs to `PDFs/YYYY/` (year-based subdirectory)
+1. Save PDFs to `Lit-WS-PDFs/YYYY/` (year-based subdirectory)
 2. Extract text: `/extract-pdf-text` skill or `PYTHON/extract_pdf_text.py`
 3. Update YAML: set `local_pdf` wikilink and `pdf_extract` path
 
 ### Also pending:
 - **Ochasi PDF** (1 paper): `https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007`
-  Save to: `PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
+  Save to: `Lit-WS-PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
 
 ---
 

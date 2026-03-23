@@ -86,7 +86,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.md"
 abstract: "The recent rapid adoption of large language models (LLMs) highlights the critical need for benchmarking their fairness. Conventional fairness metrics, which focus on discrete accuracy-based evaluations (i.e., prediction correctness), fail to capture the implicit impact of model uncertainty (e.g., higher model confidence about one group over another despite similar accuracy). To address this limitation, we propose an uncertainty-aware fairness metric, UCerF, to enable a fine-grained evaluation..."
 paper_summary: "Abstract: The recent rapid adoption of large language mod- els (LLMs) highlights the critical need for bench- marking their fairness. Conventional fairness met- rics, which focus on discrete accuracy-based eval | Overview: arXiv:2505.23996v1 [cs.CL] 29 May 2025 Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs Yinong Oliver Wang* 1 Nivedha Sivakumar 2 Falaah Arif Khan* 3 Rin Metcalf Susa 2 Ada | Key Findings: dataset X = {xi}N i=1, an uncertainty estimator fu(x; G), we first derive the model's certainty c by converting the uncertainty estimator. For simplic | Conclusions: Per-occupation fairness analysis. To better understand fairness composition, we break down fairness scores per occupation in Fig. 7. The x-axis labels"
-local_pdf: "[[PDFs/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.pdf]]"
 CONF-CC: "ICML 2025"
 DATE_ADDED: 20260208
 LLM_assessed: "Mistral, Mixtral, Falcon, Llama-3, Qwen, DeepSeek"
@@ -117,7 +117,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2505.23996
 

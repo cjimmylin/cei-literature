@@ -86,7 +86,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Dai-Safe RLHF.md"
 abstract: "With the development of large language models (LLMs), striking a balance between the performance and safety of AI systems has never been more critical. However, the inherent tension between the objectives of helpfulness and harmlessness presents a significant challenge during LLM training. To address this issue, we propose Safe Reinforcement Learning from Human Feedback (Safe RLHF), a novel algorithm for human value alignment."
 paper_summary: 
-local_pdf: "[[PDFs/2023/2023-Dai-Safe RLHF.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Dai-Safe RLHF.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, LLaMA"
 DATA_URL: "https://github.com/PKU-Alignment/safe-rlhf"
@@ -120,7 +120,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Dai-Safe RLHF.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Dai-Safe RLHF.pdf|Open PDF]]
 
 - **URL:** https://arxiv.org/abs/2310.12773
 - **DOI:** https://doi.org/10.48550/arXiv.2310.12773

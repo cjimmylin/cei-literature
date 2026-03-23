@@ -52,7 +52,7 @@ url: "https://arxiv.org/abs/2503.22115"
 external_pdf: "https://arxiv.org/pdf/2503.22115.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2025/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"

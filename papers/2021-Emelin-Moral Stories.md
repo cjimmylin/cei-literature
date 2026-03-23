@@ -82,7 +82,7 @@ key_contribution: "Introduced Moral Stories, a dataset of branching narratives f
 significance: "Enabled the study of 'situated reasoning', testing whether models can understand social norms in context and generate actions (and explanations) that adhere to them."
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Emelin-Moral Stories.md"
-local_pdf: "[[PDFs/2021/2021-Emelin-Moral Stories.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Emelin-Moral Stories.pdf]]"
 abstract: "In social settings, much of human behavior is governed by unspoken rules of conduct rooted in societal norms. For artiﬁcial systems to be fully integrated into social environments, adherence to such norms is a central prerequisite. To investigate whether language generation models can serve as behavioral priors for systems deployed in social settings, we evaluate their ability to generate action descriptions that achieve predeﬁned goals under normative constraints."
 CONF-CC: "Natural Language Processing"
 DATE_ADDED: 20260208
@@ -123,7 +123,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2021/2021-Emelin-Moral Stories.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2021/2021-Emelin-Moral Stories.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2021.emnlp-main.54/
 - **DOI:** https://doi.org/10.18653/v1/2021.emnlp-main.54

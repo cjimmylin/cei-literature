@@ -49,7 +49,7 @@ url: "https://aclanthology.org/2025.findings-emnlp.1043/"
 external_pdf: "https://aclanthology.org/2025.findings-emnlp.1043.pdf"
 publication: Findings of EMNLP 2025
 CONF-CC: "EMNLP 2025 Findings"
-local_pdf: "[[PDFs/2025/2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

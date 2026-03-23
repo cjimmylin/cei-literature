@@ -48,7 +48,7 @@ authors: Ye Yuan; Kexin Tang; Jianhao Shen; Ming Zhang; Chenguang Wang
 url: "https://arxiv.org/abs/2404.02491"
 external_pdf: "https://arxiv.org/pdf/2404.02491.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yuan-Social Measuring Social Norms of LLMs.md"
-local_pdf: "[[PDFs/2024/2024-Yuan-Social Measuring Social Norms of LLMs.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yuan-Social Measuring Social Norms of LLMs.pdf]]"
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207

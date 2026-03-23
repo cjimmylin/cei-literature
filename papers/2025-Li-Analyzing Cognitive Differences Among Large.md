@@ -89,7 +89,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Li-Analyzing Cognitive Differences Among Large.md"
 abstract: "Large Language Models significantly influence social interactions, decision-making, and information dissemination, underscoring the need to understand the implicit socio-cognitive attitudes, referred to as “worldviews”, encoded within these systems. Unlike previous studies predominantly addressing demographic and ethical biases as fixed attributes, our study explores deeper cognitive orientations toward authority, equality, autonomy, and fate, emphasizing their adaptability in dynamic social..."
 paper_summary: "Abstract: Large Language Models significantly influence so- cial interactions, decision-making, and information dissemination, underscoring the need to understand the implicit socio-cognitive attitudes, referre | Overview: Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview Jiatao Li1,2 , Yanheng Li3 , Xiaojun Wan1 1Wangxuan Institute of Computer Technology, Peking University | Methodology: Inter-Agent Validation Accuracy The inter-agent validation accuracy is calculated by comparing automated categorization | Key Findings: of socio-cognitive biases in large language models. Leverag- ing our novel Automated Multi-Agent Prompting Framework, we operationalized and assessed  | Conclusions: We introduced the Social Worldview Taxonomy (SWT), grounded in Cultural Theory, enabling systematic evaluation of socio-cognitive biases in large lang"
-local_pdf: "[[PDFs/2025/2025-Li-Analyzing Cognitive Differences Among Large.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Li-Analyzing Cognitive Differences Among Large.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGLM, DeepSeek, GPT-4o, Gemini, Gemma, InternLM, Llama-3, Phi-3, Qwen"
 DATA_URL: "NA"
@@ -123,7 +123,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Li-Analyzing Cognitive Differences Among Large.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Li-Analyzing Cognitive Differences Among Large.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.01967
 - **DOI:** https://doi.org/10.48550/arXiv.2505.01967

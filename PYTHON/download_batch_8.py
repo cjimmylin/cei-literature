@@ -40,13 +40,13 @@ def update_metadata_only(filename, url):
     for line in lines:
         if line.startswith('url: "'): 
             new_lines.append(f'url: "{url}"')
-            new_lines.append(f'local_pdf: "PDFs/{filename.replace(".md", ".pdf")}"')
+            new_lines.append(f'local_pdf: "Lit-WS-PDFs/{filename.replace(".md", ".pdf")}"')
             found_url = True
         elif line.startswith('local_pdf: "') or line.startswith('- **Local PDF:**'): continue 
         else: new_lines.append(line)
         
     processed_content = "\n".join(new_lines) + "\n"
-    link_line = f"- **Local PDF:** [[PDFs/{filename.replace('.md', '.pdf')}|Open PDF]]"
+    link_line = f"- **Local PDF:** [[Lit-WS-PDFs/{filename.replace('.md', '.pdf')}|Open PDF]]"
     if "## Links" in processed_content:
         if "- **Local PDF:**" not in processed_content:
              processed_content = processed_content.replace("## Links", f"## Links\n\n{link_line}")
@@ -77,11 +77,11 @@ def download_and_update(filename, pdf_url, new_abs_url=None):
     for line in lines:
         if line.startswith('url: "'): 
             new_lines.append(f'url: "{new_abs_url or pdf_url}"')
-            new_lines.append(f'local_pdf: "PDFs/{pdf_filename}"')
+            new_lines.append(f'local_pdf: "Lit-WS-PDFs/{pdf_filename}"')
         elif line.startswith('local_pdf: "'): continue 
         else: new_lines.append(line)
     processed_content = "\n".join(new_lines) + "\n"
-    link_line = f"- **Local PDF:** [[PDFs/{pdf_filename}|Open PDF]]"
+    link_line = f"- **Local PDF:** [[Lit-WS-PDFs/{pdf_filename}|Open PDF]]"
     if "## Links" in processed_content:
         if "- **Local PDF:**" not in processed_content:
              processed_content = processed_content.replace("## Links", f"## Links\n\n{link_line}")

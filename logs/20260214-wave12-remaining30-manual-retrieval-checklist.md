@@ -131,6 +131,6 @@ Papers:
 ### repozitorij.ffzg.unizg.hr (1)
 Tactics:
 - Open repository landing page and locate direct bitstream download link.
-- If anti-bot or tokenized URL, download manually in browser and place into PDFs/YYYY/.
+- If anti-bot or tokenized URL, download manually in browser and place into Lit-WS-PDFs/YYYY/.
 Papers:
 - `2020-Karan-Detecting Hate Speech Online A Case of Croatian.md` | `http_418 HTTP 418` | https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0

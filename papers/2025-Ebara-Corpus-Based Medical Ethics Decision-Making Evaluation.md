@@ -51,7 +51,7 @@ authors: "Memi Ebara; Yoshimasa Kawazoe; Tomohisa Seki; Emiko Shinohara; Eisuke 
 doi: 10.3233/SHTI250854
 url: "https://doi.org/10.3233/SHTI250854"
 pdf_extract: "PDF Extracts/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md"
-local_pdf: "[[PDFs/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.pdf]]"
 publication: Unknown
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

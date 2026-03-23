@@ -52,7 +52,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2601.10257"
 external_pdf: "https://arxiv.org/pdf/2601.10257.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md"
-local_pdf: "[[PDFs/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

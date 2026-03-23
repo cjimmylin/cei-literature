@@ -85,7 +85,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Chen-ToMBench.md"
 abstract: "Theory of Mind (ToM) is the cognitive capability to perceive and ascribe mental states to oneself and others. Recent research has sparked a debate over whether large language models (LLMs) exhibit a form of ToM. However, existing ToM evaluations are hindered by challenges such as constrained scope, subjective judgment, and unintended contamination, yielding inadequate assessments. To address this gap, we introduce T MBENCH with three key characteristics: a systematic evaluation framework..."
 paper_summary: "Abstract: Theory of Mind (ToM) is the cognitive capa- bility to perceive and ascribe mental states to oneself and others. Recent research has sparked a debate over whether large language models (LLMs) exhibit a | Overview: T MBENCH: Benchmarking Theory of Mind in Large Language Models Zhuang Chen1∗ Jincenzi Wu2∗ Jinfeng Zhou1∗ Bosi Wen1∗ Guanqun Bi1,3 Gongyao Jiang4 Yaru Cao1,5 Mengting Hu6 Yunghwei Lai7 Zexuan Xiong1 M | Methodology: In T MBENCH, we organize the test samples in two perspectives: the task view groups them into 8 theory-of-mind tasks, and the ability view cate- goriz | Key Findings: ✔ Original Inventory Bilingual Corpus Systematic Framework ✔ ✔ Question1: What emotion does Mike likely show? A. Proud B. Guilty C. Ashamed D. Disappo"
-local_pdf: "[[PDFs/2024/2024-Chen-ToMBench.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Chen-ToMBench.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/zhchen18/ToMBench"
@@ -119,7 +119,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Chen-ToMBench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Chen-ToMBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2402.15052
 - **DOI:** https://doi.org/10.48550/arXiv.2402.15052

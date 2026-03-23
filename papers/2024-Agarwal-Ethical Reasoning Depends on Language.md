@@ -82,7 +82,7 @@ research_topic: "LLM Moral Reasoning"
 LLM_assessed: "ChatGPT, GPT-4, Llama-2"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning Depends on Language.md"
-local_pdf: "[[PDFs/2024/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
 CONFERENCE: "LREC-COLING 2024"

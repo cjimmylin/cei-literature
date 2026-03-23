@@ -92,7 +92,7 @@ research_topic: "LLM Moral Reasoning"
 LLM_assessed: "GPT-3.5, GPT-4, Claude, PaLM-2, Llama-2, Mistral, Gemma"
 DATA_URL: "https://github.com/dlab-projects/normative_evaluation_llms_everyday_dilemmas"
 pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md"
-local_pdf: "[[PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
 CONFERENCE: "FAccT 2025"
 ethics_overall: 100
 virtue_ethics: 0

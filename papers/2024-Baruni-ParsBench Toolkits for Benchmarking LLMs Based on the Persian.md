@@ -53,7 +53,7 @@ external_pdf: "https://arxiv.org/pdf/2404.02403"
 publication: "GitHub / HuggingFace"
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.md"
-local_pdf: "[[PDFs/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"

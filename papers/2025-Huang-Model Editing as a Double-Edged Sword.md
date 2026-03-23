@@ -83,7 +83,7 @@ significance: "Demonstrates that precise edits can globally shift an agent's mor
 pdf_extract: "PDF Extracts/2025/2025-Huang-Model Editing as a Double-Edged Sword.md"
 abstract: "Agents based on Large Language Models (LLMs) have demonstrated strong capabilities across a wide range of tasks. However, deploying LLM-based agents in high-stakes domains comes with significant safety and ethical risks. Unethical behavior by these agents can directly result in serious real-world consequences, including physical harm and financial loss. To efficiently steer the ethical behavior of agents, we frame agent behavior steering as a model editing task, which we term Behavior Editing."
 paper_summary: "Abstract: Agents based on Large Language Models (LLMs) have demonstrated strong capabilities across a wide range of tasks. However, deploying LLM-based agents in high-stakes do- mains comes with significant saf | Overview: Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm Baixiang Huang1, Zhen Tan2, Haoran Wang1, Zijie Liu3, Dawei Li2, Ali Payani4, Huan Liu2, Tianlong Chen | Methodology: shows strong potential for promoting benevolent behav- ior, it also introduces significant safety risks. Parameter- modifying techniques generally out | Key Findings: After constructing the benchmark, we propose a holistic evaluation framework to assess the effectiveness of model editing methods in steering agent be | Conclusions: By conceptualizing behavior steering as a model edit- ing task, we demonstrate that Behavior Editing supports both fine-grained, scenario-specific adj"
-local_pdf: "[[PDFs/2025/2025-Huang-Model Editing as a Double-Edged Sword.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Huang-Model Editing as a Double-Edged Sword.pdf]]"
 LLM_assessed: "Claude, DeepSeek, GPT-4, GPT-4o, Gemini, Grok, Llama-2, Llama-3, Mistral, Qwen, o1, o3"
 DATA_URL: "https://github.com/baixianghuang/behavior-edit"
 DATE_ADDED: 20260207
@@ -117,7 +117,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Huang-Model Editing as a Double-Edged Sword.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Huang-Model Editing as a Double-Edged Sword.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2506.20606
 - **DOI:** https://doi.org/10.48550/arXiv.2506.20606

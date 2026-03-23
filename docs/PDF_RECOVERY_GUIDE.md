@@ -144,12 +144,12 @@ url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id
 **Detection**:
 ```bash
 # Check file type - CRITICAL after every download
-file "PDFs/downloaded-paper.pdf"
+file "Lit-WS-PDFs/downloaded-paper.pdf"
 # Valid: "PDF document, version 1.4"
 # Invalid: "HTML document text, ASCII text"
 
 # Batch check for small/invalid files
-for f in PDFs/*.pdf; do
+for f in Lit-WS-PDFs/*.pdf; do
   size=$(stat -f%z "$f")
   if [ "$size" -lt 10000 ]; then
     filetype=$(file "$f" | grep -c "PDF document")
@@ -162,7 +162,7 @@ done
 **Cleanup**:
 ```bash
 # NEVER use rm - always move to RECYCLE-BIN
-mv "PDFs/invalid-file.pdf" RECYCLE-BIN/
+mv "Lit-WS-PDFs/invalid-file.pdf" RECYCLE-BIN/
 ```
 **Prevention**: Always verify downloads immediately:
 ```bash
@@ -490,7 +490,7 @@ print(f"Missing: {len(missing)} PDFs")
 import shutil
 
 for paper_name, zotero_path in matches:
-    dest = f"PDFs/{paper_name}.pdf"
+    dest = f"Lit-WS-PDFs/{paper_name}.pdf"
     shutil.copy2(zotero_path, dest)
 ```
 
@@ -505,7 +505,7 @@ for paper_name, zotero_path in matches:
 ```python
 from yaml_frontmatter_utils import write_paper, parse_frontmatter
 
-fields['local_pdf'] = f'"[[PDFs/{paper_name}.pdf]]"'
+fields['local_pdf'] = f'"[[Lit-WS-PDFs/{paper_name}.pdf]]"'
 fields['pdf_extract'] = f"PDF Extracts/{paper_name}.md"
 ```
 
@@ -536,13 +536,13 @@ find PDFs -name "*.pdf" -size -100c  # Files under 100 bytes
 
 **Check content of small files:**
 ```bash
-cat "PDFs/suspect-file.pdf"  # May show "error code: 1020"
+cat "Lit-WS-PDFs/suspect-file.pdf"  # May show "error code: 1020"
 ```
 
 **Clean up:**
 ```bash
 # NEVER use rm - move to RECYCLE-BIN
-mv "PDFs/corrupt-file.pdf" RECYCLE-BIN/
+mv "Lit-WS-PDFs/corrupt-file.pdf" RECYCLE-BIN/
 mv "papers/duplicate-paper.md" RECYCLE-BIN/
 ```
 

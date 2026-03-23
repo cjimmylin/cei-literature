@@ -86,7 +86,7 @@ research_topic: Other
 abstract: "Warning: This paper contains examples of gender non-affirmative language which could be offensive, upsetting, and/or triggering. Transgender and non-binary (TGNB) individuals disproportionately experience discrimination and exclusion from daily life. Given the recent popularity and adoption of language generation technologies, the potential to further marginalize this population only grows. Although a multitude of NLP fairness literature focuses on illuminating and addressing gender biases,..."
 pdf: "https://arxiv.org/pdf/2305.09941"
 pdf_extract: "PDF Extracts/2023/2023-Harrington-I'm Fully Who I Am.md"
-local_pdf: "[[PDFs/2023/2023-Harrington-I'm Fully Who I Am.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Harrington-I'm Fully Who I Am.pdf]]"
 CONF-CC: "FAccT 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-2"

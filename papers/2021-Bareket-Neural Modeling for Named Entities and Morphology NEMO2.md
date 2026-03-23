@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2007.15620"
 publication: TACL
 CONF-CC: "TACL 2021"
 pdf_extract: "PDF Extracts/2021/2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md"
-local_pdf: "[[PDFs/2021/2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew/Israeli"

@@ -49,7 +49,7 @@ doi: 10.1145/3628797.3628921
 url: "https://arxiv.org/abs/2312.07831"
 external_pdf: "https://arxiv.org/pdf/2312.07831.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.md"
-local_pdf: "[[PDFs/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.pdf]]"
 publication: "arXiv / ACM SOICT 2023"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

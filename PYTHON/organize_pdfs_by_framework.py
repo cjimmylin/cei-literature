@@ -7,7 +7,7 @@ classifies each by ethical framework using keyword matching, then
 copies PDFs (or PDF extracts as fallback) into framework subfolders.
 
 Target structure:
-  PDFs/
+  Lit-WS-PDFs/
   ├── Deontological Ethics/
   │   ├── Confirmed/
   │   └── Borderline/

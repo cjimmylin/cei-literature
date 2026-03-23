@@ -53,7 +53,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2404.14740"
 external_pdf: "https://arxiv.org/pdf/2404.14740.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Hutchinson-Modeling the Sacred Considerations when Using.md"
-local_pdf: "[[PDFs/2024/2024-Hutchinson-Modeling the Sacred Considerations when Using.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hutchinson-Modeling the Sacred Considerations when Using.pdf]]"
 publication: "Findings of NAACL 2024"
 CONF-CC: "NAACL 2024 Findings"
 DATE_ADDED: 20260213

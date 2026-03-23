@@ -86,7 +86,7 @@ significance: "Addresses the English-centric bias in current agent research, pro
 pdf_extract: "PDF Extracts/2025/2025-Wang-X-WebAgentBench.md"
 abstract: "Recently, large language model (LLM)-based agents have achieved significant success in interactive environments, attracting significant academic and industrial attention. Despite these advancements, current research predominantly focuses on English scenarios. In reality, there are over 7,000 languages worldwide, all of which demand access to comparable agentic services. Nevertheless, the development of language agents remains inadequate for meeting the diverse requirements of multilingual..."
 paper_summary: "Abstract: Recently, large language model (LLM)-based agents have achieved significant success in in- teractive environments, attracting significant academic and industrial attention. Despite these advancements, | Overview: arXiv:2505.15372v1 [cs.CL] 21 May 2025 X-WebAgentBench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System Peng Wang1, 2, ∗Ruihan Tao1,* Qiguang Chen1 Mengkang Hu3 Libo Qin1 | Methodology: zh fr es de el bg ru tr ar vi th hi sw ur AVG Mistral-7B-Instruct (Jiang et al., 2023) BaseAgent 10.80 | Conclusions: To address the multilingual evaluation of lan- guage agents, we introduce X-WebAgentBench, a benchmark comprising 14 languages, 2,800 text instruction"
-local_pdf: "[[PDFs/2025/2025-Wang-X-WebAgentBench.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wang-X-WebAgentBench.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, GPT-3.5, GPT-4o, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/WPENGxs/X-WebAgentBench"
@@ -120,7 +120,7 @@ data_metrics: "7,000 languages"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Wang-X-WebAgentBench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Wang-X-WebAgentBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.15372
 - **DOI:** https://doi.org/10.48550/arXiv.2505.15372

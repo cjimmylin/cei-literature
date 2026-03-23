@@ -83,7 +83,7 @@ newtags:
 pdf_extract: "PDF Extracts/2022/2022-Caron-Identifying and Manipulating the Personality.md"
 abstract: "Psychology research has long explored aspects of human personality such as extroversion, agreeableness and emotional stability. Categorizations like the ‘Big Five’ personality traits are commonly used to assess and diagnose personality types. In this work, we explore the question of whether the perceived personality in language models is exhibited consistently in their language generation. For example, is a language model such as GPT2 likely to respond in a consistent way if asked to go out to..."
 paper_summary: "Abstract: Psychology research has long explored aspects of human personality such as extroversion, agreeableness and emotional stability. Catego- rizations like the 'Big Five' personality traits are commonly us | Overview: Identifying and Manipulating the Personality Traits of Language Models Graham Caron and Shashank Srivastava UNC Chapel Hill carongraham29@gmail.com, ssrivastava@cs.unc.edu Abstract Psychology research | Methodology: for controlling the personality traits of language models. Further, we show that such models could also be used with language-based question answer- i | Key Findings: Table 1 shows the results of the base personality assessment for GPT2 and BERT for each of the ﬁve traits in terms of numeric values and correspond- i | Conclusions: We have presented a simple and effective approach for controlling the personality traits of language models. Further, we show that such models could a"
-local_pdf: "[[PDFs/2022/2022-Caron-Identifying and Manipulating the Personality.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Caron-Identifying and Manipulating the Personality.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-2"
 DATA_URL: "NA"
@@ -117,7 +117,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2022/2022-Caron-Identifying and Manipulating the Personality.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Caron-Identifying and Manipulating the Personality.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2212.10276
 - **DOI:** https://doi.org/10.48550/arXiv.2212.10276

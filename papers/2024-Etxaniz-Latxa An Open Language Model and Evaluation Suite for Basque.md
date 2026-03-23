@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2403.20266.pdf"
 publication: "arXiv / ACL 2024"
 CONF-CC: "ACL 2024"
 pdf_extract: "PDF Extracts/2024/2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque.md"
-local_pdf: "[[PDFs/2024/2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

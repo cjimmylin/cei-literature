@@ -54,7 +54,7 @@ external_pdf: "https://ceur-ws.org/Vol-4112/55_main_long.pdf"
 publication: "ACL Anthology (CLiC-it 2025)"
 CONF-CC: "N/A"
 pdf_extract: PDF Extracts/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md
-local_pdf: "[[PDFs/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"

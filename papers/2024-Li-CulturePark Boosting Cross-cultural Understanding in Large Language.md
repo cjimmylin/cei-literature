@@ -49,7 +49,7 @@ url: "https://arxiv.org/abs/2405.15145"
 external_pdf: "https://arxiv.org/pdf/2405.15145.pdf"
 publication: HuggingFace/PapersWithCode
 CONF-CC: "NeurIPS 2024"
-local_pdf: "[[PDFs/2024/2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

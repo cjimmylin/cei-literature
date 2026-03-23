@@ -181,7 +181,7 @@ def update_yaml_frontmatter(content: str, paper_info: Dict) -> str:
 
     # 5. Update local_pdf and pdf_extract references (if filename changed)
     #    Use stem replacement — stems like "2022-Unknown-Addressing Religious..." are unique
-    #    This handles year-based paths (PDFs/YYYY/stem.pdf) correctly
+    #    This handles year-based paths (Lit-WS-PDFs/YYYY/stem.pdf) correctly
     if old_stem != new_stem:
         frontmatter = frontmatter.replace(old_stem, new_stem)
 
@@ -404,7 +404,7 @@ def propagate_wikilinks(rename_map: Dict[str, str], dry_run: bool) -> int:
                 content
             )
 
-            # Replace bare references in paths (e.g., in PDF Extracts/, PDFs/)
+            # Replace bare references in paths (e.g., in PDF Extracts/, Lit-WS-PDFs/)
             content = content.replace(old_stem, new_stem)
 
         if content != original:

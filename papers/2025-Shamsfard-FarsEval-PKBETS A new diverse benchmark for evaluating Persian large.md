@@ -49,7 +49,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2504.14690"
 external_pdf: "https://arxiv.org/pdf/2504.14690.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.md"
-local_pdf: "[[PDFs/2025/2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

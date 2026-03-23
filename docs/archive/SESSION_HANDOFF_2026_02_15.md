@@ -66,7 +66,7 @@ All items below are **DONE**:
 #### Task C: Ochasi PDF — 1 paper (Manual)
 - **Paper:** `papers/2025-Ochasi-Reframing Justice in Healthcare AI.md`
 - **URL:** `https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007`
-- **Save to:** `PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
+- **Save to:** `Lit-WS-PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
 - Then update `local_pdf`, extract with pdftotext
 
 ---

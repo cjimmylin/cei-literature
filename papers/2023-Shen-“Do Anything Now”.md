@@ -84,7 +84,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Vicuna"
 DATA_URL: "https://github.com/verazuo/jailbreak_llms"
 pdf_extract: "PDF Extracts/2023/2023-Shen-'Do Anything Now'.md"
-local_pdf: "[[PDFs/2023/2023-Shen-“Do Anything Now”.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Shen-“Do Anything Now”.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 15
 virtue_ethics: 0

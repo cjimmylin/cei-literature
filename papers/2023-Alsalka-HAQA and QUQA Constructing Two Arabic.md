@@ -52,7 +52,7 @@ authors_incomplete: false
 url: 
 external_pdf: "https://doi.org/10.26615/978-954-452-092-2_010"
 pdf_extract: "PDF Extracts/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arabic.md"
-local_pdf: "[[PDFs/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arabic.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arabic.pdf]]"
 publication: "RANLP 2023 / ACL Anthology"
 CONF-CC: "RANLP 2023"
 DATE_ADDED: 20260213

@@ -53,7 +53,7 @@ authors_incomplete: false
 url: 
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-025-02450-3.pdf"
 pdf_extract: "PDF Extracts/2025/2025-SOCIETY-How Much of a Pluralist is.md"
-local_pdf: "[[PDFs/2025/2025-SOCIETY-How Much of a Pluralist is.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-SOCIETY-How Much of a Pluralist is.pdf]]"
 publication: "AI & SOCIETY (Springer)"
 CONF-CC: "AI & Society"
 DATE_ADDED: 20260213

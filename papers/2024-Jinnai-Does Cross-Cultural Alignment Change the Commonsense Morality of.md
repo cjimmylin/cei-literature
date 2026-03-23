@@ -48,7 +48,7 @@ publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 external_pdf: "https://arxiv.org/pdf/2406.16316v1.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of.md"
-local_pdf: "[[PDFs/2024/2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Japanese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Japanese, Multicultural/Cross-cultural"

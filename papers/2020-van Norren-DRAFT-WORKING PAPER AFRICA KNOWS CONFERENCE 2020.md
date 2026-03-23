@@ -85,7 +85,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md"
-local_pdf: "[[PDFs/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 5

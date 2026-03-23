@@ -86,7 +86,7 @@ osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2025/2025-Jamshidi-MoCoP.md"
 abstract: "The rapid advancement and adaptability of Large Language Mod- els (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existing alignment frameworks, structured approaches designed to align model behavior with human ethical and social norms, often rely on static datasets and post-hoc evaluations, offering limited insight into how ethical reasoning may evolve across different con- texts or temporal scales. This study presen"
 paper_summary: "Abstract: The rapid advancement and adaptability of Large Language Mod- els (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existin | Overview: The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh SWAT Laboratory, Polytec | Methodology: Building upon the conceptual foundation established in Section 1, the proposed Moral Consistency Pipeline (MoCoP) operationalizes continuous ethical e | Key Findings: for Large Language Models Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh SWAT Laboratory, Polytechnique Montr | Conclusions: The evaluation of the MoCoP demonstrates a mathematically grounded mechanism for continuous moral auditing in LLMs. The strong in- verse relation betw"
-local_pdf: "[[PDFs/2025/2025-Jamshidi-MoCoP.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jamshidi-MoCoP.pdf]]"
 LLM_assessed: "DeepSeek, GPT-4"
 DATA_URL: "NA"
 publication: "arXiv preprint"
@@ -114,7 +114,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Jamshidi-MoCoP.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Jamshidi-MoCoP.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2512.03026
 - **DOI:** https://doi.org/10.48550/arXiv.2512.03026

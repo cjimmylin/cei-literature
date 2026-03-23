@@ -82,7 +82,7 @@ significance: "Provides a rigorous economic method to test if LLMs exhibit consi
 pdf_extract: "PDF Extracts/2024/2024-Seror-The Moral Mind(s) of Large Language Models.md"
 abstract: "As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question arises: do they exhibit an emergent “moral mind”—a consistent structure of moral preferences guiding their decisions—and to what extent is this structure shared across models? To investigate this, we applied tools from revealed preference theory to nearly 40 leading LLMs, presenting each with many structured moral dilemmas spanning five foundational dimensions of ethical..."
 paper_summary: "Abstract: As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question arises: do they exhibit an emergent 'moral mind'—a consistent structure of moral | Overview: The Moral Mind(s) of Large Language Models Avner Seror∗ April, 2025 Abstract As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question ari | Methodology: is not constrained by violations of rationality. We applied this non-parametric approach to our dataset, generating 500 synthetic datasets in which ea | Conclusions: In this study, we investigated whether large language models (LLMs) exhibit an emergent 'moral mind'—a structured set of moral principles guiding thei"
-local_pdf: "[[PDFs/2024/2024-Seror-The Moral Mind(s) of Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Seror-The Moral Mind(s) of Large Language Models.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Sonnet, Gemini, GPT-4, Llama-3, Mistral, Mixtral, Qwen"
@@ -109,7 +109,7 @@ ethics_perspective: "General Ethics"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Seror-The Moral Mind(s) of Large Language Models.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Seror-The Moral Mind(s) of Large Language Models.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2412.04476
 - **DOI:** https://doi.org/10.48550/arXiv.2412.04476

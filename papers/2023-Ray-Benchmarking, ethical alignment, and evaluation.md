@@ -91,7 +91,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md"
-local_pdf: "[[PDFs/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 100
 virtue_ethics: 0

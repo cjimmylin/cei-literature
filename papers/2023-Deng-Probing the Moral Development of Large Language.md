@@ -88,7 +88,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Deng-Probing the Moral Development of Large Language.md"
 abstract: "In this study, we measure the moral reasoning ability of LLMs using the Defining Issues Test [1]- a psychometric instrument developed for measuring the moral development stage of a person according to the Kohlberg’s Cognitive Moral Development Model [2]. DIT uses moral dilemmas followed by a set of ethical considerations that the respondent has to judge for importance in resolving the dilemma, and then rank-order them by importance."
 paper_summary: "Abstract: In this study, we measure the moral reasoning ability of LLMs using the Defining Issues Test [1]- a psychometric instrument developed for measuring the moral development stage of a person according to | Overview: Probing the Moral Development of Large Language Models through Defining Issues Test Kumar Tanmay∗ Microsoft t-ktanmay@microsoft.com Aditi Khandelwal∗ Microsoft t-aditikh@microsoft.com Utkarsh Agarwal∗ | Methodology: In this section, we describe our experimental setup, the datasets, LLMs tested, prompt structure and metrics. We present the LLMs with a prompt that c | Key Findings: of chatgpt on reasoning, hallucination, and interactivity. arXiv preprint arXiv:2302.04023, 2023. [10] Yue Zhang, Yafu Li, Leyang Cui, Deng Cai, Lemao | Conclusions: In this study, we propose an effective evaluation framework to measure the ethical reasoning capability of LLMs based on Kohlberg's Cognitive Moral De"
-local_pdf: "[[PDFs/2023/2023-Deng-Probing the Moral Development of Large Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Deng-Probing the Moral Development of Large Language.pdf]]"
 LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama-2, PaLM"
 DATA_URL: "NA"
 DATE_ADDED: 20260207
@@ -118,7 +118,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Deng-Probing the Moral Development of Large Language.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Deng-Probing the Moral Development of Large Language.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2309.13356
 

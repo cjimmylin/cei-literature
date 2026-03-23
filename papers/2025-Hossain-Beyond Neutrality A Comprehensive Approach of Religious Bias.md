@@ -54,7 +54,7 @@ external_pdf: "https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/27421/212
 publication: Web
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Hossain-Beyond Neutrality A Comprehensive Approach of Religious Bias.md"
-local_pdf: "[[PDFs/2025/2025-Hossain-Beyond Neutrality A Comprehensive Approach of Religious Bias.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hossain-Beyond Neutrality A Comprehensive Approach of Religious Bias.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"

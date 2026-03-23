@@ -45,7 +45,7 @@ authors: Zohny; Hazem
 doi: 10.48550/arXiv.2505.21112
 url: "https://arxiv.org/abs/2505.21112"
 pdf_extract: "PDF Extracts/2025/2025-Zohny-ADEPT Simulating Ethics.md"
-local_pdf: "[[PDFs/2025/2025-Zohny-ADEPT Simulating Ethics.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zohny-ADEPT Simulating Ethics.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2505.21112.pdf"
 ethics_perspective: "Multi-perspective Ethical Deliberation"
 national_ethnic_cultural: "N/A"
@@ -106,7 +106,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Zohny-ADEPT Simulating Ethics.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Zohny-ADEPT Simulating Ethics.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2505.21112
 - **DOI:** https://doi.org/10.48550/arXiv.2505.21112

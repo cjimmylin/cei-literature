@@ -1,6 +1,6 @@
 ---
 title: "2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study"
-source_pdf: "[[PDFs/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2025/2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study.pdf]]"
 extracted_date: "2026-02-14"
 extraction_method: "PyMuPDF"
 ---

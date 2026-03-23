@@ -52,7 +52,7 @@ doi: 10.48550/arXiv.2507.11552
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2507.11552"
 pdf_extract: "PDF Extracts/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md"
-local_pdf: "[[PDFs/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.11552.pdf"
 publication: arXiv
 CONF-CC: "Preprint"

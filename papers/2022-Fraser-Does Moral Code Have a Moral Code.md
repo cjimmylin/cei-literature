@@ -44,7 +44,7 @@ authors: "Kathleen C. Fraser; Kiritchenko, Svetlana; Balkir, Esma"
 doi: 10.48550/arXiv.2205.12771
 url: "http://arxiv.org/abs/2205.12771"
 pdf_extract: "PDF Extracts/2022/2022-Fraser-Does Moral Code Have a Moral Code.md"
-local_pdf: "[[PDFs/2022/2022-Fraser-Does Moral Code Have a Moral Code.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Fraser-Does Moral Code Have a Moral Code.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2205.12771.pdf"
 publication: TRUSTNLP
 CONF-CC: "TRUSTNLP"
@@ -106,7 +106,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2022/2022-Fraser-Does Moral Code Have a Moral Code.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Fraser-Does Moral Code Have a Moral Code.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2205.12771
 - **DOI:** https://doi.org/10.48550/arXiv.2205.12771

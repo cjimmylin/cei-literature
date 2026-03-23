@@ -55,7 +55,7 @@ external_pdf: "https://aclanthology.org/S19-2077.pdf"
 publication: "ACL Anthology / SemEval 2019"
 CONF-CC: "SemEval 2019"
 pdf_extract: "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.md"
-local_pdf: "[[PDFs/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"

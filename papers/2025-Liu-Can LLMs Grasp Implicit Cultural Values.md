@@ -45,7 +45,7 @@ doi: 10.48550/arXiv.2504.01127
 tags: 
 url: "http://arxiv.org/abs/2504.01127"
 pdf_extract: "PDF Extracts/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values.md"
-local_pdf: "[[PDFs/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2504.01127.pdf"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
@@ -106,7 +106,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-Can LLMs Grasp Implicit Cultural Values.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2504.01127
 - **DOI:** https://doi.org/10.48550/arXiv.2504.01127

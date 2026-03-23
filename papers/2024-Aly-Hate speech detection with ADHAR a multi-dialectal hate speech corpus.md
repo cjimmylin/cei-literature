@@ -53,7 +53,7 @@ external_pdf: "https://public-pages-files-2025.frontiersin.org/journals/artifici
 publication: PubMed
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2024/2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus.md"
-local_pdf: "[[PDFs/2024/2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"

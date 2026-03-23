@@ -52,7 +52,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2403.06574"
 external_pdf: "https://arxiv.org/pdf/2403.06574.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md"
-local_pdf: "[[PDFs/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.pdf]]"
 publication: "Findings of EMNLP 2024"
 CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213

@@ -53,7 +53,7 @@ external_pdf: "https://aclanthology.org/2025.emnlp-main.1219.pdf"
 publication: "ACL Anthology / EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 pdf_extract: "PDF Extracts/2025/2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model.md"
-local_pdf: "[[PDFs/2025/2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

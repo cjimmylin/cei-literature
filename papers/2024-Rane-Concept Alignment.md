@@ -47,7 +47,7 @@ authors: "Rane, Sunayana; Polyphony J. Bruna; Sucholutsky, Ilia; Kello, Christop
 doi: 10.48550/arXiv.2401.08672
 url: "http://arxiv.org/abs/2401.08672"
 pdf_extract: "PDF Extracts/2024/2024-Rane-Concept Alignment.md"
-local_pdf: "[[PDFs/2024/2024-Rane-Concept Alignment.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rane-Concept Alignment.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.08672.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
@@ -110,7 +110,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Rane-Concept Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Rane-Concept Alignment.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2401.08672
 - **DOI:** https://doi.org/10.48550/arXiv.2401.08672

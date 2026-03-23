@@ -50,7 +50,7 @@ authors: "Jinhao Duan; Renming Zhang; James Diffenderfer; Bhavya Kailkhura; Lich
 url: "https://arxiv.org/abs/2402.12348"
 external_pdf: "https://arxiv.org/pdf/2402.12348.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via.md"
-local_pdf: "[[PDFs/2024/2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via.pdf]]"
 publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207

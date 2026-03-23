@@ -118,7 +118,7 @@ Based on gaps identified:
 ## Technical Notes
 
 - All papers saved to `papers/` with full YAML frontmatter
-- PDFs downloaded to `PDFs/` (13/14 successful, 1 paywalled)
+- PDFs downloaded to `Lit-WS-PDFs/` (13/14 successful, 1 paywalled)
 - PDF extracts created in `PDF Extracts/`
 - Papers tagged with `deontological_ethics: "Yes"` in frontmatter
 - `newtags` field includes "Deontology" for easy filtering

@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2502.16534"
 external_pdf: "https://arxiv.org/pdf/2502.16534.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rystrøm-Multilingual Multicultural Evaluating Gaps Between Multilingual.md"
-local_pdf: "[[PDFs/2025/2025-Rystrøm-Multilingual Multicultural Evaluating Gaps Between Multilingual.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rystrøm-Multilingual Multicultural Evaluating Gaps Between Multilingual.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

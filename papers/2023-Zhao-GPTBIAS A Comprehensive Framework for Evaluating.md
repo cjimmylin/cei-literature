@@ -55,7 +55,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2312.06315"
 external_pdf: "https://arxiv.org/pdf/2312.06315.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.md"
-local_pdf: "[[PDFs/2023/2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

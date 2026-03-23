@@ -52,7 +52,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.24468"
 external_pdf: "https://arxiv.org/pdf/2509.24468.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.md"
-local_pdf: "[[PDFs/2025/2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.pdf]]"
 publication: "EMNLP 2025 (Main Conference)"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213

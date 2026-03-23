@@ -266,7 +266,7 @@ def main():
 
         if success:
             # Update metadata
-            if update_paper_metadata(paper_path, pdf_url, f"PDFs/{pdf_filename}"):
+            if update_paper_metadata(paper_path, pdf_url, f"Lit-WS-PDFs/{pdf_filename}"):
                 logger.info(f"    SUCCESS: {message}")
                 downloaded += 1
             else:

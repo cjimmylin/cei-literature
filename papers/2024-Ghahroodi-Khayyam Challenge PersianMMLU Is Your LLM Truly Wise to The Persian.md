@@ -51,7 +51,7 @@ url: "https://arxiv.org/abs/2404.06644"
 external_pdf: "https://arxiv.org/pdf/2404.06644.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2024/2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Iranian"

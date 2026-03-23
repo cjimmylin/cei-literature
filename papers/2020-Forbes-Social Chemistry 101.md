@@ -84,7 +84,7 @@ significance: "Formalizes 'rules-of-thumb' as a computational unit for social no
 tags: 
 abstract: "Social norms—the unspoken commonsense rules about acceptable social behavior—are crucial in understanding the underlying causes and intents of people’s actions in narratives. For example, underlying an action such as “wanting to call cops on my neighbor” are social norms that inform our conduct, such as “It is expected that you report crimes.” We present SOCIAL CHEMISTRY, a new conceptual formalism to study people’s everyday social norms and moral judgments over a rich spectrum of real life..."
 pdf_extract: "PDF Extracts/2020/2020-Forbes-Social Chemistry 101.md"
-local_pdf: "[[PDFs/2020/2020-Forbes-Social Chemistry 101.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Forbes-Social Chemistry 101.pdf]]"
 LLM_assessed: "GPT-2, BART, T5"
 DATA_URL: "https://maxwellforbes.com/social-chemistry"
 publication: "EMNLP 2020"

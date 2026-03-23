@@ -2,6 +2,48 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 9 (2026-03-23) — Vault Root Cleanup & PDFs Rename
+
+### Overview
+Consolidated misplaced files at the vault root and renamed `PDFs/` → `Lit-WS-PDFs/` to clarify ownership. Five categories of misplaced items addressed, comprehensive rename across 1,944 files.
+
+### Changes
+
+**Directory moves:**
+- `CENSUS-APPROACH/BACKGROUND/` → `CEI-AI-Statements-v2/religion/CENSUS-APPROACH/BACKGROUND/` (54 PDFs, 54 extracts, 3 scripts)
+- `BACKGROUND/20260320-religion-ai-literature-council.md` → `CEI-AI-Statements-v2/religion/`
+- `METHODS/20260317-...-B2-ontology-critique.md` → `CEI-AI-Statements/METHODS/`
+- `Agent1_Citation_Graph_Findings.md` → `CEI-Lit-WS/STATISTICS/` (renamed with date prefix)
+- `logs/20260220-...csv` → `CEI-Lit-WS/STATISTICS/`
+- 14 dashboard `.png` screenshots → `RECYCLE-BIN/`
+
+**PDFs/ → Lit-WS-PDFs/ rename:**
+- Physical directory renamed at vault root
+- `.vault-config.json` updated
+- `config.py` legacy fallback updated
+- `pdf_utils.py` wikilink generator updated (all 6 string references)
+- 1,820 paper YAML `local_pdf` wikilinks updated
+- 41 Python scripts updated
+- ~150 documentation, skills, standards, test files updated
+- 2 binary-encoded paper files fixed via Python bytes replacement
+- Stale `.pyc` cache deleted
+- `.gitignore` updated
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 1,944 |
+| Papers validated | 2,043/2,043 (0 errors) |
+| PDF links verified | 18/18 random sample (0 broken) |
+| Other projects impacted | 0 (CEI-AI-Statements, CENSUS-APPROACH PDFs/ untouched) |
+
+### Key Learnings
+- [Architecture] `.vault-config.json` → `config.py` → `PDFS_DIR` centralization means filesystem path changes only need 1 config update; the wikilink prefix layer (`"[[PDFs/..."`) is a separate concern requiring bulk text replacement
+- [Safety] `sed` skips binary-flagged `.md` files (null bytes from non-UTF-8 content) — use Python `read_bytes()`/`write_bytes()` as fallback
+- [Workflows] New memory rule (`feedback_vault_root_placement.md`) prevents future misplacement — routing guide for all file types
+
+---
+
 ## Session 134 (2026-03-22) — 7-Phase Discovery Campaign Completion
 
 ### Summary
@@ -117,10 +159,10 @@ Built `extract_and_enrich.py`, the third and final script in the CENSUS-APPROACH
 ### Key Learnings
 - [Workflows] Two-JSON override merge pattern: load primary JSON into dict keyed by `pdf_filename`, then override with recovery JSON entries where `success=True`. Clean and robust to cross-day recovery runs.
 - [PDF Processing] 80% word-overlap `titles_match()` (dividing by shorter title's word count — the fixed version from `recover_bibliography_pdfs.py`) handles subtle differences between structured JSON and free-form bibliography markdown — 54/54 matched without manual intervention.
-- [Workflows] CENSUS-APPROACH lives at the vault root and is **not** inside any of the three git repos (`CEI-Lit-WS/`, `CEI-AI-Statements/`, `CEI-AI-Statements-v2/`). New sub-projects at vault root need explicit `git init` if tracking is desired.
+- [Workflows] CENSUS-APPROACH lives at the vault root and is **not** inside any of the three git repos (`CEI-Lit-WS/`, `CEI-AI-Statements/`, `CEI-AI-Statements-v2/`). New sub-projects at vault root need explicit `git init` if tracking is desired. *(NOTE: Relocated 2026-03-23 to `CEI-AI-Statements-v2/religion/CENSUS-APPROACH/BACKGROUND/` — all census work now consolidated under religion track.)*
 
 ### Files Changed
-- `CENSUS-APPROACH/BACKGROUND/PYTHON/extract_and_enrich.py`: New
+- `CENSUS-APPROACH/BACKGROUND/PYTHON/extract_and_enrich.py`: New *(relocated 2026-03-23 to `CEI-AI-Statements-v2/religion/CENSUS-APPROACH/BACKGROUND/`)*
 - `CENSUS-APPROACH/BACKGROUND/STATEMENTS-TEXT/`: New — 54 plain-text extract .md files
 - `CENSUS-APPROACH/BACKGROUND/STATEMENTS-MD/`: New — 54 enriched YAML+markdown files
 - `CENSUS-APPROACH/BACKGROUND/20260321-extract-enrich-report.md`: New
@@ -1278,7 +1320,7 @@ Three-pronged vault cleanup: sorted 128 misplaced root-level PDFs into year subd
 ### Results
 | Metric | Value |
 |--------|-------|
-| Root PDFs sorted | 128 → `PDFs/YYYY/` (79×2025, 32×2024, 11×2026, 5×2023, 1×2022) |
+| Root PDFs sorted | 128 → `Lit-WS-PDFs/YYYY/` (79×2025, 32×2024, 11×2026, 5×2023, 1×2022) |
 | Paper YAML updated (local_pdf) | 128 |
 | Legacy ethics dirs recycled | 3 dirs, 84 files → `RECYCLE-BIN/20260216-legacy-ethics-pdfs/` |
 | ZERO papers LLM-assessed | 32/32 (1 GPT-4, 31 NA) |
@@ -1498,7 +1540,7 @@ Ran full deduplication pipeline on the 2,008-paper vault after the culture searc
 
 ### Files Changed
 - papers/: 577 modified (574 LLM assessment + 3 dedup field merges), 6 deleted (recycled dupes)
-- PDFs/: 2 recycled (dedup)
+- Lit-WS-PDFs/: 2 recycled (dedup)
 - PDF Extracts/: 2 recycled (dedup)
 - STATISTICS/: 3 modified/created (2 xref updates, 1 dedup report)
 - logs/: 22 new files (20 agent outputs + manifest + consolidation log)
@@ -2008,7 +2050,7 @@ Downloaded missing PDFs for the 20260213 import batch using `comprehensive_pdf_f
 
 ### Key Learnings
 - [PDF Processing] Comprehensive finder yield drops to ~3-5% on the "long tail" of papers (regional, paywalled, datasets)
-- [PDF Processing] Script writes flat PDF paths — need post-run migration to `PDFs/YYYY/`
+- [PDF Processing] Script writes flat PDF paths — need post-run migration to `Lit-WS-PDFs/YYYY/`
 - [Workflows] Dry-run mode is redundant for API-heavy scripts (same API calls, just skips download)
 
 ### Outstanding Tasks Documented
@@ -2059,7 +2101,7 @@ Processed the 10 unprocessed language search agent reports (A6-A10 from Wave 2, 
 
 - papers/: 345 new LSRC papers + 497 modified (PDF path migration)
 - PYTHON/: 2 scripts bugfixed (`consolidate_language_search.py`, `import_language_search_papers.py`)
-- PDFs/: 261 new + 497 migrated to year subdirs
+- Lit-WS-PDFs/: 261 new + 497 migrated to year subdirs
 - PDF Extracts/: 261 new + 497 migrated to year subdirs
 - logs/: 15+ new files (download/extract/classify/finder batch logs, updated master list)
 
@@ -2482,7 +2524,7 @@ Built comprehensive bidirectional author-paper mapping with first/last author po
 
 ### Overview
 
-Executed a systematic deduplication of the vault. The EXSR exhaustive search import (266 papers) and AUTO enrichment passes introduced ~77 duplicates that weren't caught by the 80% word-overlap threshold. Built a detection pipeline using Union-Find on DOI, arXiv ID, and canonical URL identifiers, with richness scoring to select the best paper as primary. After manual review of flagged groups (catching 1 false positive — Shankar URL data error), consolidated all 73 duplicate groups: merged valuable YAML fields into primaries, recycled duplicate papers/PDFs/extracts, and updated 89 cross-reference files.
+Executed a systematic deduplication of the vault. The EXSR exhaustive search import (266 papers) and AUTO enrichment passes introduced ~77 duplicates that weren't caught by the 80% word-overlap threshold. Built a detection pipeline using Union-Find on DOI, arXiv ID, and canonical URL identifiers, with richness scoring to select the best paper as primary. After manual review of flagged groups (catching 1 false positive — Shankar URL data error), consolidated all 73 duplicate groups: merged valuable YAML fields into primaries, recycled duplicate papers/Lit-WS-PDFs/extracts, and updated 89 cross-reference files.
 
 ### Results
 
@@ -2749,7 +2791,7 @@ Closed the last remaining main-vault PDF-to-extract gap by extracting text from 
 
 ### Overview
 
-Migrated 921 PDFs and 931 extracts from flat directories into year-based subdirectories (`PDFs/YYYY/`, `PDF Extracts/YYYY/`). Updated all YAML references (local_pdf, pdf_extract) and body wikilinks across 890 papers. Added year-aware helper functions to `pdf_utils.py` and updated 3 active scripts for the new layout.
+Migrated 921 PDFs and 931 extracts from flat directories into year-based subdirectories (`Lit-WS-PDFs/YYYY/`, `PDF Extracts/YYYY/`). Updated all YAML references (local_pdf, pdf_extract) and body wikilinks across 890 papers. Added year-aware helper functions to `pdf_utils.py` and updated 3 active scripts for the new layout.
 
 ### Results
 
@@ -2784,7 +2826,7 @@ Migrated 921 PDFs and 931 extracts from flat directories into year-based subdire
 
 ### Key Learnings
 - [Architecture] `validate_pdf_link()` survived unchanged because `Path / "2024/file.pdf"` resolves correctly — Python's Path joining absorbs relative subpaths
-- [Migration] Regex idempotency: matching `PDFs/(\d{4})-` only catches flat paths; once migrated, re-runs are safe
+- [Migration] Regex idempotency: matching `Lit-WS-PDFs/(\d{4})-` only catches flat paths; once migrated, re-runs are safe
 - [Scripts] Any script using `glob("*.pdf")` must be updated to `rglob("*.pdf")` after year-based reorganization
 - [Safety] Existing ethics-framework subdirs (Deontological/Virtue/Utilitarian Ethics/) are left untouched — separate org purpose
 
@@ -2803,7 +2845,7 @@ Migrated 921 PDFs and 931 extracts from flat directories into year-based subdire
 
 ### Overview
 
-Processed 6 manually-downloaded PDFs from `PDFs/INBOX/` into the vault. 5 papers received new PDFs (Gao, Hähnel, Sullins, Jörs, Ebara) with local_pdf + pdf_extract YAML fields and text extracts created. 1 duplicate (Ohlhorst) moved to RECYCLE-BIN. Created reusable `/process-pdf-inbox` skill for future manual PDF intake.
+Processed 6 manually-downloaded PDFs from `Lit-WS-PDFs/INBOX/` into the vault. 5 papers received new PDFs (Gao, Hähnel, Sullins, Jörs, Ebara) with local_pdf + pdf_extract YAML fields and text extracts created. 1 duplicate (Ohlhorst) moved to RECYCLE-BIN. Created reusable `/process-pdf-inbox` skill for future manual PDF intake.
 
 ### Results
 
@@ -2827,7 +2869,7 @@ Processed 6 manually-downloaded PDFs from `PDFs/INBOX/` into the vault. 5 papers
 | 2025-Ebara — Corpus-Based Medical Ethics | 5 | IOS Press (manual) |
 
 ### Key Learnings
-- [Workflows] PDFs directory is at vault root (one level above CEI-Lit-WS/) — scripts must use `../PDFs/` relative path
+- [Workflows] PDFs directory is at vault root (one level above CEI-Lit-WS/) — scripts must use `../Lit-WS-PDFs/` relative path
 - [Skills] Created reusable skill for future INBOX processing with confirmation-before-action pattern
 - [PDF Processing] Hähnel book at 456 pages is the largest single extract in the vault
 
@@ -3805,7 +3847,7 @@ Conducted comprehensive audit of all AI Labs PDFs to ensure extraction coverage.
 **Parallel Agent Strategy:**
 - 10 background Bash agents processing ~30 PDFs each
 - Processing time: ~10-15 minutes total
-- Throughput: ~27-54 PDFs/minute across all agents
+- Throughput: ~27-54 Lit-WS-PDFs/minute across all agents
 - 100% agent completion rate
 
 **Scripts Used:**
@@ -4067,7 +4109,7 @@ Imported 2 new papers found in Zotero that weren't in the vault, attempted bulk 
 
 3. **Critical Learning: PDF Validation**
    - Many downloads returned HTML error pages saved as .pdf files
-   - Implemented validation: `file "PDFs/paper.pdf" | grep -q "PDF document"`
+   - Implemented validation: `file "Lit-WS-PDFs/paper.pdf" | grep -q "PDF document"`
    - Files <10KB that aren't PDFs are error pages → moved 13 invalid files to RECYCLE-BIN
 
 4. **PDF Text Extraction** - Created 15 new PDF extracts for successfully downloaded papers
@@ -4092,7 +4134,7 @@ Imported 2 new papers found in Zotero that weren't in the vault, attempted bulk 
 ### Files Modified
 
 - `papers/` - 2 new papers added (Segev, Šekrst)
-- `PDFs/` - 15 new PDFs downloaded
+- `Lit-WS-PDFs/` - 15 new PDFs downloaded
 - `PDF Extracts/` - 16 new extracts created
 - `RECYCLE-BIN/` - 13 invalid HTML files moved
 - `CLAUDE.md` - Updated stats
@@ -4190,7 +4232,7 @@ curl "https://api.unpaywall.org/v2/{doi}?email=test@example.com"
 
 - `papers/` - 9 profiles updated with pdf_extract links
 - `PDF Extracts/` - 9 new extracts created (5 PDF + 4 web)
-- `PDFs/` - 5 new PDFs downloaded
+- `Lit-WS-PDFs/` - 5 new PDFs downloaded
 - `RECYCLE-BIN/` - 2 files moved (duplicate Farina, Techne notes)
 
 ---
@@ -4307,7 +4349,7 @@ Integrated local Zotero storage (`~/Zotero`) as a reference source for PDF recov
    - Used PyMuPDF (fitz) for text extraction
 
 4. **Paper Profile Updates** - Updated 75 paper profiles:
-   - Added `local_pdf` links: `[[PDFs/YYYY-Author-Title.pdf]]`
+   - Added `local_pdf` links: `[[Lit-WS-PDFs/YYYY-Author-Title.pdf]]`
    - Added `pdf_extract` links: `PDF Extracts/YYYY-Author-Title.md`
    - Used yaml_frontmatter_utils.py for safe YAML modifications
 
@@ -4760,7 +4802,7 @@ write_paper(filepath, frontmatter, body, validate=True)
 python3 PYTHON/download_virtue_ethics_pdfs.py
 
 # Or manual curl for specific sources
-curl -L -o "PDFs/YYYY-Author-Title.pdf" "https://arxiv.org/pdf/XXXX.pdf"
+curl -L -o "Lit-WS-PDFs/YYYY-Author-Title.pdf" "https://arxiv.org/pdf/XXXX.pdf"
 ```
 
 **Step 4: Extract text**
@@ -5040,9 +5082,9 @@ Expanded vault coverage of **virtue ethics for AI values alignment, moral reason
 - `papers/2025-Snoswell-Beyond Verdicts LLM Moral Competence.md`
 
 **PDFs** (3 this phase):
-- `PDFs/2024-Hayes-Virtue and Narrative in AI Practices.pdf`
-- `PDFs/2024-So-AI Trained on Confucian Analects.pdf`
-- `PDFs/2025-Snoswell-Beyond Verdicts LLM Moral Competence.pdf`
+- `Lit-WS-PDFs/2024-Hayes-Virtue and Narrative in AI Practices.pdf`
+- `Lit-WS-PDFs/2024-So-AI Trained on Confucian Analects.pdf`
+- `Lit-WS-PDFs/2025-Snoswell-Beyond Verdicts LLM Moral Competence.pdf`
 
 **PDF Extracts** (3): Corresponding `.md` files in `PDF Extracts/`
 
@@ -5159,19 +5201,19 @@ Found **4+ additional relevant papers** already present:
 - `papers/2025-Sorensen-Operationalizing Pluralistic Values.md`
 
 **PDFs** (13):
-- `PDFs/2023-McDonald-AI alignment and the categorical imperative.pdf`
-- `PDFs/2024-Wang-Possibilities and challenges in the moral growth of LLMs.pdf`
-- `PDFs/2025-Terziyan-Towards ethical evolution.pdf`
-- `PDFs/2025-Baum-Aggregation Problems in Machine Ethics.pdf`
-- `PDFs/2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.pdf`
-- `PDFs/2025-Mahajan-Mapping Moral Reasoning in LLMs.pdf`
-- `PDFs/2025-Liu-Cross-cultural value alignment frameworks.pdf`
-- `PDFs/2026-Kolt-Legal Alignment for Safe and Ethical AI.pdf`
-- `PDFs/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.pdf`
-- `PDFs/2025-Mohammadi-EvalMORAAL.pdf`
-- `PDFs/2025-Atf-Kantian-Utilitarian XAI.pdf`
-- `PDFs/2025-Shen-Alignment and Safety in LLMs Survey.pdf`
-- `PDFs/2025-Sorensen-Operationalizing Pluralistic Values.pdf`
+- `Lit-WS-PDFs/2023-McDonald-AI alignment and the categorical imperative.pdf`
+- `Lit-WS-PDFs/2024-Wang-Possibilities and challenges in the moral growth of LLMs.pdf`
+- `Lit-WS-PDFs/2025-Terziyan-Towards ethical evolution.pdf`
+- `Lit-WS-PDFs/2025-Baum-Aggregation Problems in Machine Ethics.pdf`
+- `Lit-WS-PDFs/2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.pdf`
+- `Lit-WS-PDFs/2025-Mahajan-Mapping Moral Reasoning in LLMs.pdf`
+- `Lit-WS-PDFs/2025-Liu-Cross-cultural value alignment frameworks.pdf`
+- `Lit-WS-PDFs/2026-Kolt-Legal Alignment for Safe and Ethical AI.pdf`
+- `Lit-WS-PDFs/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.pdf`
+- `Lit-WS-PDFs/2025-Mohammadi-EvalMORAAL.pdf`
+- `Lit-WS-PDFs/2025-Atf-Kantian-Utilitarian XAI.pdf`
+- `Lit-WS-PDFs/2025-Shen-Alignment and Safety in LLMs Survey.pdf`
+- `Lit-WS-PDFs/2025-Sorensen-Operationalizing Pluralistic Values.pdf`
 
 **PDF Extracts** (13): Corresponding `.md` files in `PDF Extracts/`
 
@@ -5289,12 +5331,12 @@ Found **12+ additional relevant papers** already present:
 - `papers/2024-Sorin-Ethical Alignment of LLMs in Healthcare.md`
 
 **PDFs** (7):
-- `PDFs/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment.pdf`
-- `PDFs/2020-Serafimova-Whose Morality Which Rationality.pdf`
-- `PDFs/2025-Tennant-Moral Alignment for LLM Agents.pdf`
-- `PDFs/2024-Ji-MoralBench Moral Evaluation of LLMs.pdf`
-- `PDFs/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf`
-- `PDFs/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf`
+- `Lit-WS-PDFs/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment.pdf`
+- `Lit-WS-PDFs/2020-Serafimova-Whose Morality Which Rationality.pdf`
+- `Lit-WS-PDFs/2025-Tennant-Moral Alignment for LLM Agents.pdf`
+- `Lit-WS-PDFs/2024-Ji-MoralBench Moral Evaluation of LLMs.pdf`
+- `Lit-WS-PDFs/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf`
+- `Lit-WS-PDFs/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf`
 
 **PDF Extracts** (7): Corresponding `.md` files in `PDF Extracts/`
 
@@ -5810,10 +5852,10 @@ Papers where metadata pointed to wrong content:
 Unquoted `local_pdf` fields caused YAML parsing issues:
 ```yaml
 # WRONG - unquoted [[]] is interpreted as YAML flow sequence
-local_pdf: [[PDFs/filename.pdf]]
+local_pdf: [[Lit-WS-PDFs/filename.pdf]]
 
 # CORRECT - quoted
-local_pdf: "[[PDFs/filename.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/filename.pdf]]"
 ```
 
 #### 3. Extraction Artifacts (360 papers)
@@ -5886,7 +5928,7 @@ Reviewed all handover documents and found inconsistencies:
 - PDF extract count was 419, not 422
 
 ### Issues Identified
-1. **PDFs Directory Empty**: The `PDFs/` directory is empty and needs restoration
+1. **PDFs Directory Empty**: The `Lit-WS-PDFs/` directory is empty and needs restoration
 2. **3 Duplicate PDFs Found**: Before loss, found 3 pairs of duplicate PDFs with truncated names
 3. **Documentation Inconsistencies**: Multiple handover docs had different counts
 

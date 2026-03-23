@@ -53,7 +53,7 @@ authors_incomplete: false
 url: "https://datasciencehub.net/paper/liea-bert-linguistically-enriched-framework-hate-speech-detection-low-resource-thai"
 external_pdf: "https://datasciencehub.net/system/files/ds-paper-909.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.md"
-local_pdf: "[[PDFs/2024/2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.pdf]]"
 publication: "Data Science Hub"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

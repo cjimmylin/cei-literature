@@ -44,7 +44,7 @@ authors: "Liu, Xuelin; Zhu, Yanfei; Zhu, Shucheng; Liu, Pengyuan; Liu, Ying; Yu,
 doi: 10.48550/arXiv.2411.03665
 url: "http://arxiv.org/abs/2411.03665"
 pdf_extract: "PDF Extracts/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.md"
-local_pdf: "[[PDFs/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2411.03665.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2024"
@@ -108,7 +108,7 @@ ethics_perspective: "General Ethics"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2411.03665
 - **DOI:** https://doi.org/10.48550/arXiv.2411.03665

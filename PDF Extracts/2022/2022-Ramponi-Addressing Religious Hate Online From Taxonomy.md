@@ -1,6 +1,6 @@
 ---
 title: "2022-Ramponi-Addressing Religious Hate Online From Taxonomy"
-source_pdf: "[[PDFs/2022/2022-Ramponi-Addressing Religious Hate Online From Taxonomy.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2022/2022-Ramponi-Addressing Religious Hate Online From Taxonomy.pdf]]"
 extracted_date: "2026-02-14"
 extraction_method: "PyMuPDF"
 ---

@@ -89,7 +89,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"
-local_pdf: "[[PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 100
 virtue_ethics: 0

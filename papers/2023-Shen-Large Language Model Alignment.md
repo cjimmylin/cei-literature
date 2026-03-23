@@ -89,7 +89,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Shen-Large Language Model Alignment.md"
 abstract: "Recent years have witnessed remarkable progress made in large language models (LLMs). Such advancements, while garnering significant attention, have concurrently elicited various concerns. The potential of these models is undeniably vast; however, they may yield texts that are imprecise, misleading, or even detrimental. Consequently, it becomes paramount to employ alignment techniques to ensure these models to exhibit behaviors consistent with human values."
 paper_summary: "Abstract: Recent years have witnessed remarkable progress made in large language models (LLMs). Such advancements, while garnering significant attention, have concurrently elicited various concerns. The potenti | Overview: Large Language Model Alignment: A Survey Tianhao Shen Renren Jin Yufei Huang Chuang Liu Weilong Dong Zishan Guo Xinwei Wu Yan Liu Deyi Xiong∗ College of Intelligence and Computing, Tianjin University, | Methodology: ‎Empirical Experiment Proposals for Inner Alignment ‎Outer Alignment ‎Non-recursive Oversight ‎Scalable Oversight ‎Definitions of Inner Alignment Figu | Key Findings: 34 | Conclusions: 50 References 51 4 --- Page 5 --- 1 Introduction Large language models, exemplified by OpenAI's ChatGPT (OpenAI, 2022) and GPT-4 (OpenAI, 2023a), have"
-local_pdf: "[[PDFs/2023/2023-Shen-Large Language Model Alignment.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Shen-Large Language Model Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -123,7 +123,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Shen-Large Language Model Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Shen-Large Language Model Alignment.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2309.15025
 - **DOI:** https://doi.org/10.48550/arXiv.2309.15025

@@ -97,9 +97,9 @@ Expanded the vault's coverage of virtue ethics for AI, adding 28+ papers across 
 - `papers/2025-Snoswell-Beyond Verdicts LLM Moral Competence.md`
 
 ### PDFs Downloaded
-- `PDFs/2024-Hayes-Virtue and Narrative in AI Practices.pdf` (14 pages)
-- `PDFs/2024-So-AI Trained on Confucian Analects.pdf` (8 pages)
-- `PDFs/2025-Snoswell-Beyond Verdicts LLM Moral Competence.pdf`
+- `Lit-WS-PDFs/2024-Hayes-Virtue and Narrative in AI Practices.pdf` (14 pages)
+- `Lit-WS-PDFs/2024-So-AI Trained on Confucian Analects.pdf` (8 pages)
+- `Lit-WS-PDFs/2025-Snoswell-Beyond Verdicts LLM Moral Competence.pdf`
 
 ### PDF Extracts Created
 - `PDF Extracts/2024-Hayes-Virtue and Narrative in AI Practices.md`

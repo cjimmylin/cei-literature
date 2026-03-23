@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2410.04795"
 external_pdf: "https://arxiv.org/pdf/2410.04795.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Porkaew-Representing the Under-Represented Cultural and Core.md"
-local_pdf: "[[PDFs/2024/2024-Porkaew-Representing the Under-Represented Cultural and Core.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Porkaew-Representing the Under-Represented Cultural and Core.pdf]]"
 publication: "ACL Anthology (COLING 2025)"
 CONF-CC: "COLING 2025"
 DATE_ADDED: 20260213

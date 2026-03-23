@@ -45,7 +45,7 @@ authors: "Prabhumoye, Shrimai; Boldt, Brendon; Salakhutdinov, Ruslan; Black, Ala
 doi: 10.18653/v1/2021.naacl-main.297
 url: "https://aclanthology.org/2021.naacl-main.297/"
 pdf_extract: "PDF Extracts/2021/2021-Prabhumoye-Case Study.md"
-local_pdf: "[[PDFs/2021/2021-Prabhumoye-Case Study.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Prabhumoye-Case Study.pdf]]"
 external_pdf: "https://aclanthology.org/2021.naacl-main.297.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
@@ -107,7 +107,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2021/2021-Prabhumoye-Case Study.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2021/2021-Prabhumoye-Case Study.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2021.naacl-main.297
 - **DOI:** https://doi.org/10.18653/v1/2021.naacl-main.297

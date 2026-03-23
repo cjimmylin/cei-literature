@@ -77,7 +77,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Chhabra-Evaluating Computational Models of Ethics.md"
 abstract: "Computational models for ethical autonomy, are crucial for building trustworthy autonomous systems. While different paradigms of ethical autonomy are pursued, comparing and contrasting these paradigms remains a challenge. In this work, we present SPECTRA (Strategic Protocol Evaluation and Configuration Testbed for Responsible Autonomy) a general purpose multi-agent, message-passing framework on top of which, different models of computational ethics can be implemented."
 paper_summary: 
-local_pdf: "[[PDFs/2024/2024-Chhabra-Evaluating Computational Models of Ethics.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Chhabra-Evaluating Computational Models of Ethics.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "SPECTRA Ethical Framework"
 LLM_assessed: "NA"

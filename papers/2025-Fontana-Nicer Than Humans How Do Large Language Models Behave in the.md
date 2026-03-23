@@ -50,7 +50,7 @@ authors: "Nicoló Fontana; Francesco Pierri; Luca Maria Aiello"
 url: "https://arxiv.org/abs/2406.13605"
 external_pdf: "https://arxiv.org/pdf/2406.13605.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the.md"
-local_pdf: "[[PDFs/2025/2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fontana-Nicer Than Humans How Do Large Language Models Behave in the.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2506.05991.pdf"
 publication: "arXiv / RANLP 2025"
 CONF-CC: "RANLP 2025"
 pdf_extract: "PDF Extracts/2025/2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.md"
-local_pdf: "[[PDFs/2025/2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

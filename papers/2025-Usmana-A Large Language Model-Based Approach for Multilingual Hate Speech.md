@@ -54,7 +54,7 @@ external_pdf: "https://arxiv.org/pdf/2506.08147"
 publication: MDPI
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech.md"
-local_pdf: "[[PDFs/2025/2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

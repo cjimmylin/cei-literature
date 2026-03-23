@@ -52,7 +52,7 @@ external_pdf: "https://arxiv.org/pdf/2410.15037v2.pdf"
 publication: "ACL Anthology"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Raihan-A Multilingual Benchmark to Evaluate Large Language.md"
-local_pdf: "[[PDFs/2025/2025-Raihan-A Multilingual Benchmark to Evaluate Large Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Raihan-A Multilingual Benchmark to Evaluate Large Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese, Arabic, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Japanese, Arabic, Multicultural/Cross-cultural"

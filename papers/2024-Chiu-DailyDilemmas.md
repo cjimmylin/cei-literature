@@ -89,7 +89,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Chiu-DailyDilemmas.md"
 abstract: "As users increasingly seek guidance from LLMs for decision-making in daily life, many of these decisions are not clear-cut and depend significantly on the personal values and ethical standards of people. We present DAILYDILEMMAS, a dataset of 1,360 moral dilemmas encountered in everyday life. Each dilemma presents two possible actions, along with affected parties and relevant human values for each action."
 paper_summary: "Abstract: As users increasingly seek guidance from LLMs for decision-making in daily life, many of these decisions are not clear-cut and depend significantly on the personal values and ethical standards of peop | Overview: Published as a conference paper at ICLR 2025 DAILYDILEMMAS: REVEALING VALUE PREFERENCES OF LLMS WITH QUANDARIES OF DAILY LIFE Yu Ying Chiu♡, Liwei Jiang♡, Yejin Choi♡ ♡University of Washington kellycy | Methodology: (Park et al., 2023; Shao et al., 2023) and our study lies in applying such a methodology to moral value judgments. Human Verification. We used the Ope | Key Findings: Have ≥1 similar dilemma 1st: similar 2nd: no 3rd: no Result: Have ≥1 similar dilemma Table 5: Annotated examples on our reddit validation dataset. 1st | Conclusions: We introduce DAILYDILEMMAS, a dataset for evaluating how LLMs navigate value conflicts in daily life. Grounded in theories from psychology, philosophy"
-local_pdf: "[[PDFs/2024/2024-Chiu-DailyDilemmas.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Chiu-DailyDilemmas.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, GPT-3.5, GPT-4, Llama-2, Llama-3, Mixtral"
 DATA_URL: "https://hf.co/datasets/kellycyy/daily_dilemmas, https://github.com/kellycyy/daily_dilemmas"
@@ -123,7 +123,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Chiu-DailyDilemmas.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Chiu-DailyDilemmas.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.02683
 - **DOI:** https://doi.org/10.48550/arXiv.2410.02683

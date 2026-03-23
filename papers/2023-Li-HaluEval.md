@@ -84,7 +84,7 @@ newtags:
 pdf_extract: "PDF Extracts/2023/2023-Li-HaluEval.md"
 abstract: "Large language models (LLMs), such as ChatGPT, are prone to generate hallucinations, i.e., content that conflicts with the source or cannot be verified by the factual knowledge. To understand what types of content and to which extent LLMs are apt to hallucinate, we introduce the Hallucination Evaluation benchmark for Large Language Models (HaluEval), a large collection of generated and human-annotated hallucinated samples for evaluating the performance of LLMs in recognizing hallucination."
 paper_summary: "Abstract: Large language models (LLMs), such as Chat- GPT, are prone to generate hallucinations, i.e., content that conflicts with the source or cannot be verified by the factual knowledge. To un- derstand what | Overview: HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models Junyi Li1,3,4∗, Xiaoxue Cheng1∗, Wayne Xin Zhao1,4†, Jian-Yun Nie3 and Ji-Rong Wen1,2,4 1Gaoling School of Artifici | Conclusions: We introduce HaluEval, a large-scale collection of generated and human-annotated hallucinated sam- ples for evaluating the performance of LLMs in reco"
-local_pdf: "[[PDFs/2023/2023-Li-HaluEval.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Li-HaluEval.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, ChatGPT, Claude, Falcon, GPT-3, Llama-2, Vicuna"
 DATA_URL: "https://github.com/RUCAIBox/HaluEval"
@@ -118,7 +118,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Li-HaluEval.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Li-HaluEval.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2305.11747
 - **DOI:** https://doi.org/10.48550/arXiv.2305.11747

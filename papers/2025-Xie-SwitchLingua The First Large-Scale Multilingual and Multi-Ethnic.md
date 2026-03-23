@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2506.00087.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.md"
-local_pdf: "[[PDFs/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian, Multicultural/Cross-cultural"

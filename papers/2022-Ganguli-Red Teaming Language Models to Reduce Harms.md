@@ -83,7 +83,7 @@ tags:
 pdf_extract: "PDF Extracts/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.md"
 abstract: "We describe our early efforts to red team language models in order to simultaneously discover, measure, and attempt to reduce their potentially harmful outputs. We make three main contributions. First, we investigate scaling behaviors for red teaming across 3 model sizes (2.7B, 13B, and 52B parameters) and 4 model types: a plain language model (LM); an LM prompted to be helpful, honest, and harmless; an LM with rejection sampling; and a model trained to be helpful and harmless using..."
 paper_summary: "Abstract: We describe our early efforts to red team language models in order to simultaneously dis- cover, measure, and attempt to reduce their potentially harmful outputs. We make three main contributions. Fir | Overview: Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned Deep Ganguli∗, Liane Lovitt∗, Jackson Kernion∗, Amanda Askell, Yuntao Bai, Saurav Kadavath, Ben Mann, Ethan | Conclusions: 5.1 Limitations and Future Work We red team language models in the form of an AI assistant, which has the beneﬁt of allowing the red team to probe the"
-local_pdf: "[[PDFs/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: NA
@@ -115,7 +115,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2209.07858
 

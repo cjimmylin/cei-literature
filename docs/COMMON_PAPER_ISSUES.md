@@ -58,11 +58,11 @@ duplicates = {k: v for k, v in papers_by_doi.items() if len(v) > 1}
 
 ```yaml
 # WRONG
-local_pdf: PDFs/2020-Sap-Social Bias Frames.pdf
+local_pdf: Lit-WS-PDFs/2020-Sap-Social Bias Frames.pdf
 local_pdf: N/A
 
 # CORRECT
-local_pdf: "[[PDFs/2020-Sap-Social Bias Frames.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2020-Sap-Social Bias Frames.pdf]]"
 local_pdf:  # Empty if no local PDF
 ```
 
@@ -71,7 +71,7 @@ local_pdf:  # Empty if no local PDF
 ```python
 if local_pdf and local_pdf != 'N/A':
     if not (local_pdf.startswith('[[') and local_pdf.endswith(']]')):
-        new_value = f'[[PDFs/{local_pdf}]]' if not local_pdf.startswith('PDFs/') else f'[[{local_pdf}]]'
+        new_value = f'[[Lit-WS-PDFs/{local_pdf}]]' if not local_pdf.startswith('Lit-WS-PDFs/') else f'[[{local_pdf}]]'
 else:
     # Remove N/A, leave empty
     remove_field('local_pdf')

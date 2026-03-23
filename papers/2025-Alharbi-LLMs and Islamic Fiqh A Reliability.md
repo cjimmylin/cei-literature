@@ -52,7 +52,7 @@ authors_incomplete: false
 url: 
 external_pdf: 
 pdf_extract: "PDF Extracts/2025/2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md"
-local_pdf: "[[PDFs/2025/2025-Alharbi-LLMs and Islamic Fiqh A Reliability.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Alharbi-LLMs and Islamic Fiqh A Reliability.pdf]]"
 publication: "OpenReview (workshop paper)"
 CONF-CC: "Workshop (2025)"
 DATE_ADDED: 20260213

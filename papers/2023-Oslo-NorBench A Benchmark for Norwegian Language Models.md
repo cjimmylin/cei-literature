@@ -50,7 +50,7 @@ external_pdf: "https://arxiv.org/pdf/2305.03880.pdf"
 publication: "arXiv / NoDaLiDa 2023"
 CONF-CC: "NoDaLiDa 2023"
 pdf_extract: "PDF Extracts/2023/2023-Oslo-NorBench A Benchmark for Norwegian Language Models.md"
-local_pdf: "[[PDFs/2023/2023-Oslo-NorBench A Benchmark for Norwegian Language Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Oslo-NorBench A Benchmark for Norwegian Language Models.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

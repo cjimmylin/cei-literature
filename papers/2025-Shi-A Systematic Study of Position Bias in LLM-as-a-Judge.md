@@ -55,7 +55,7 @@ external_pdf: "https://arxiv.org/pdf/2406.07791v9.pdf"
 publication: "ACL Anthology"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge.md"
-local_pdf: "[[PDFs/2025/2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -283,7 +283,7 @@ A paper is **Borderline** if it meets most criteria but has a notable gap (e.g.,
 
 ## PDF Organization by Framework
 
-PDFs are organized into `PDFs/{Framework}/{Confirmed|Borderline}/` subfolders.
+PDFs are organized into `Lit-WS-PDFs/{Framework}/{Confirmed|Borderline}/` subfolders.
 
 | Framework | Confirmed | Borderline | Total |
 |-----------|----------:|-----------:|------:|

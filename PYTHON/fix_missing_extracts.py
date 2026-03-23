@@ -95,7 +95,7 @@ def resolve_pdf_for_paper(paper_path, pdfs_dir):
     content = paper_path.read_text(encoding='utf-8')
 
     # Extract PDF filename from local_pdf wikilink
-    m = re.search(r'local_pdf:\s*"?\[\[PDFs/([^\]]+)\]\]', content)
+    m = re.search(r'local_pdf:\s*"?\[\[Lit-WS-PDFs/([^\]]+)\]\]', content)
     if not m:
         return None
 
@@ -326,7 +326,7 @@ def gap_check():
         if 'local_pdf:' not in content:
             continue
 
-        pdf_m = re.search(r'local_pdf:\s*"?\[\[PDFs/', content)
+        pdf_m = re.search(r'local_pdf:\s*"?\[\[Lit-WS-PDFs/', content)
         if not pdf_m:
             continue
 

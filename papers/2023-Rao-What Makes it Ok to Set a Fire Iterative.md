@@ -90,7 +90,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Flan-T5, GPT-3"
 DATA_URL: "https://huggingface.co/datasets/kavelrao/d-Rules-of-Thumb"
 pdf_extract: "PDF Extracts/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.md"
-local_pdf: "[[PDFs/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.pdf]]"
 CONFERENCE: "EMNLP 2023"
 ethics_overall: 100
 virtue_ethics: 0

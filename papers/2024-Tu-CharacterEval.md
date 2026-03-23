@@ -46,7 +46,7 @@ last_author: "[[Rui Yan]]"
 authors: "Quan Tu; Shilong Fan; Zihang Tian; Rui Yan"
 url: "https://arxiv.org/abs/2401.01275"
 pdf_extract: "PDF Extracts/2024/2024-Tu-CharacterEval.md"
-local_pdf: "[[PDFs/2024/2024-Tu-CharacterEval.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Tu-CharacterEval.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2401.01275.pdf"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
@@ -116,7 +116,7 @@ data_metrics: "23,020 examples"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Tu-CharacterEval.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Tu-CharacterEval.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2401.01275
 

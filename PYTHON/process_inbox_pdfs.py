@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Process manually-downloaded PDFs from PDFs/INBOX/ into the vault.
+"""Process manually-downloaded PDFs from Lit-WS-PDFs/INBOX/ into the vault.
 
 For each PDF:
-1. Rename & move from INBOX to PDFs/
+1. Rename & move from INBOX to Lit-WS-PDFs/
 2. Add local_pdf field to paper YAML (safe regex insertion)
 3. Create PDF extract in PDF Extracts/
 4. Add pdf_extract field to paper YAML (safe regex insertion)
@@ -72,12 +72,12 @@ def add_local_pdf_field(paper_path: Path, pdf_filename: str) -> bool:
         print(f"  ⚠ local_pdf already exists, skipping")
         return False
 
-    # Year-aware path: PDFs/YYYY/filename.pdf
+    # Year-aware path: Lit-WS-PDFs/YYYY/filename.pdf
     year_match = re.match(r'^(\d{4})-', pdf_filename)
     if year_match:
-        pdf_rel = f"PDFs/{year_match.group(1)}/{pdf_filename}"
+        pdf_rel = f"Lit-WS-PDFs/{year_match.group(1)}/{pdf_filename}"
     else:
-        pdf_rel = f"PDFs/{pdf_filename}"
+        pdf_rel = f"Lit-WS-PDFs/{pdf_filename}"
     local_pdf_line = f'local_pdf: "[[{pdf_rel}]]"'
 
     if "external_pdf:" in content:
@@ -224,7 +224,7 @@ def main():
         inbox_path = INBOX_DIR / inbox_file
         paper_path = PAPERS_DIR / f"{paper_stem}.md"
 
-        # Year-aware destination: PDFs/YYYY/ and PDF Extracts/YYYY/
+        # Year-aware destination: Lit-WS-PDFs/YYYY/ and PDF Extracts/YYYY/
         year_match = re.match(r'^(\d{4})-', pdf_name)
         if year_match:
             pdf_year_dir = PDFS_DIR / year_match.group(1)

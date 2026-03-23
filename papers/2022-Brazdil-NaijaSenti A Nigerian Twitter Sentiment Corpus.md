@@ -49,7 +49,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2022.lrec-1.63/"
 external_pdf: "https://arxiv.org/pdf/2201.08277.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.md"
-local_pdf: "[[PDFs/2022/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.pdf]]"
 publication: "WebSearch: NaijaSenti Nigerian sentiment Hausa Yoruba Igbo dataset"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

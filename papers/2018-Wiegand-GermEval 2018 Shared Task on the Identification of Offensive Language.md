@@ -53,7 +53,7 @@ external_pdf: "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germ
 publication: "GermEval Workshop"
 CONF-CC: "Workshop (2018)"
 pdf_extract: "PDF Extracts/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md"
-local_pdf: "[[PDFs/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"

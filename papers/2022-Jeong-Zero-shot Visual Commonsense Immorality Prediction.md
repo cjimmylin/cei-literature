@@ -87,7 +87,7 @@ tags:
 pdf_extract: "PDF Extracts/2022/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.md"
 abstract: "Artiﬁcial intelligence is currently powering diverse real-world applications. These applications have shown promising performance, but raise complicated ethical issues, i.e. how to embed ethics to make AI applications behave morally. One way toward moral AI systems is by imitating human prosocial behavior and encouraging some form of good behavior in systems. However, learning such normative ethics (especially from images) is challenging mainly due to a lack of data and labeling complexity."
 paper_summary: "Abstract: Artiﬁcial intelligence is currently powering diverse real-world applications. These applications have shown promising performance, but raise complicated ethical issues, i.e. how to embed ethics to mak | Overview: arXiv:2211.05521v1 [cs.CV] 10 Nov 2022 JEONG ET AL.: ZERO-SHOT VISUAL COMMONSENSE IMMORALITY 1 Zero-shot Visual Commonsense Immorality Prediction Yujin Jeong1 eugene6923@korea.ac.kr Seongbeom Park1 ps | Conclusions: Predicting immorality from images is of paramount importance regarding social safety. In this work, we ﬁrst utilized CLIP-based text-image joint embed"
-local_pdf: "[[PDFs/2022/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "CLIP"
 DATA_URL: "https://github.com/ku-vai/Zero-shot-Visual-Commonsense-Immorality-Prediction"
@@ -121,7 +121,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2022/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2211.05521
 - **DOI:** https://doi.org/10.48550/arXiv.2211.05521

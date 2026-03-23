@@ -81,7 +81,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Tan-How to Catch an AI Liar.md"
 abstract: "Large language models (LLMs) can “lie”, which we define as outputting false statements despite “knowing” the truth in a demonstrable sense. LLMs might “lie”, for example, when instructed to output misinformation. Here, we develop a simple lie detector that requires neither access to the LLM’s activations (black-box) nor ground-truth knowledge of the fact in question. The detector works by asking a predefined set of unrelated follow-up questions after a suspected lie, and feeding the LLM’s..."
 paper_summary: "Abstract: Large language models (LLMs) can 'lie', which we define as outputting false statements despite 'knowing' the truth in a demonstrable sense. LLMs might 'lie', for example, when instructed to output mis | Overview: HOW TO CATCH AN AI LIAR: LIE DETECTION IN BLACK-BOX LLMS BY ASKING UNRELATED QUESTIONS Lorenzo Pacchiardi∗ University of Oxford Alex J. Chan∗ University of Cambridge Sören Mindermann University of Oxf | Methodology: (fine-tuning). We create several versions of each model by varying the fine-tuning setup (Ap- pendix B.1). The lie detector effectively sep- arates tr | Key Findings: also raises interesting questions about yet-to-be-understood inductive biases in LLMs. 2 MOTIVATION: WHY AND HOW TO STUDY LIE DETECTION IN LLMS? Lying | Conclusions: Our simple elicitation question method generalises to unseen topics, models, and lie-generation techniques. Combined with the many promising direction"
-local_pdf: "[[PDFs/2023/2023-Tan-How to Catch an AI Liar.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Tan-How to Catch an AI Liar.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, GPT-3, GPT-3.5, LLaMA, Vicuna"
@@ -112,7 +112,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Tan-How to Catch an AI Liar.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Tan-How to Catch an AI Liar.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2309.15840
 

@@ -89,7 +89,7 @@ def check_pdf_link(local_pdf, paper_name):
     pdf_path = PDFS_DIR / Path(target).name
     if not pdf_path.exists():
         # Also try just the filename
-        if target.startswith("PDFs/"):
+        if target.startswith("Lit-WS-PDFs/"):
             pdf_path = PDFS_DIR / target[5:]
         if not pdf_path.exists():
             return "PDF file not found", target

@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2410.18277"
 external_pdf: "https://arxiv.org/pdf/2410.18277.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nom-KhmerST A Low-Resource Khmer Scene Text.md"
-local_pdf: "[[PDFs/2024/2024-Nom-KhmerST A Low-Resource Khmer Scene Text.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Nom-KhmerST A Low-Resource Khmer Scene Text.pdf]]"
 publication: "ACCV 2024"
 CONF-CC: "ACCV 2024"
 DATE_ADDED: 20260213

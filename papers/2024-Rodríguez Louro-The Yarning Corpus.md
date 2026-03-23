@@ -48,7 +48,7 @@ doi: 10.1080/07268602.2024.2380661
 url: "https://doi.org/10.1080/07268602.2024.2380661"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/G3WM3XWB/Rodríguez Louro and Collard - 2024 - The Yarning Corpus Aboriginal English in Southwest Western Australia.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Rodríguez Louro-The Yarning Corpus.md"
-local_pdf: "[[PDFs/2024/2024-Rodríguez Louro-The Yarning Corpus.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rodríguez Louro-The Yarning Corpus.pdf]]"
 national_ethnic_cultural: "Australian/Aboriginal"
 cultures_nationalities_list: "Australian/Aboriginal"
 languages_list: "English"

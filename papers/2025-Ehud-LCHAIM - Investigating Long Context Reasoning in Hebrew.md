@@ -50,7 +50,7 @@ url: "https://aclanthology.org/2025.findings-acl.413/"
 external_pdf: "https://aclanthology.org/2025.findings-acl.413.pdf"
 publication: ACL Anthology (Findings of ACL 2025)
 CONF-CC: "ACL 2025 Findings"
-local_pdf: "[[PDFs/2025/2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Hebrew/Israeli"

@@ -401,8 +401,8 @@ This document defines all YAML frontmatter fields used in CEI Literature Vault p
 ### local_pdf
 - **Type:** Wikilink (String)
 - **Required:** Recommended
-- **Format:** Quoted wikilink `"[[PDFs/filename.pdf]]"`
-- **Example:** `local_pdf: "[[PDFs/2016-Amodei-Concrete Problems in AI Safety.pdf]]"`
+- **Format:** Quoted wikilink `"[[Lit-WS-PDFs/filename.pdf]]"`
+- **Example:** `local_pdf: "[[Lit-WS-PDFs/2016-Amodei-Concrete Problems in AI Safety.pdf]]"`
 - **Notes:** MUST be quoted (see `yaml-standards.md`)
 - **Links to:** External PDF directory (configured in `.vault-config.json`)
 
@@ -479,7 +479,7 @@ data_metrics: "Not specified"   # No metrics in abstract
 ### Quoting Rules
 
 **MUST quote:**
-- Wikilinks: `"[[Author Name]]"`, `"[[PDFs/file.pdf]]"`
+- Wikilinks: `"[[Author Name]]"`, `"[[Lit-WS-PDFs/file.pdf]]"`
 - Strings with special chars: `title: "Ethics: A Survey"`
 - Values with colons, brackets, hashes
 
@@ -551,7 +551,7 @@ significance: "Transformed AI Safety into rigorous engineering discipline."
 paper_summary: "Abstract: ... | Overview: ... | Methodology: ... | Conclusions: ..."
 
 # File Links
-local_pdf: "[[PDFs/2016-Amodei-Concrete Problems in AI Safety.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2016-Amodei-Concrete Problems in AI Safety.pdf]]"
 pdf_extract: "PDF Extracts/2016-Amodei-Concrete Problems in AI Safety.md"
 
 # Metadata

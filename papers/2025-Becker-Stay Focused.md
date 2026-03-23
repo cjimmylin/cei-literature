@@ -85,7 +85,7 @@ significance: "Addresses a key failure mode in agentic AI systems, providing too
 pdf_extract: "PDF Extracts/2025/2025-Becker-Stay Focused.md"
 abstract: "Multi-agent debate — multiple instances of large language models discussing problems in turn-based interaction — has shown promise for solving knowledge and reasoning tasks. However, these methods show limitations when solving complex problems that require longer reasoning chains. We analyze how multi-agent debate over multiple turns drifts away from the initial problem, thus harming task performance. We define this phenomenon as problem drift and quantify its presence across ten tasks (i.e."
 paper_summary: "Abstract: Multi-agent debate — multiple instances of large language models discussing problems in turn-based interaction — has shown promise for solving knowledge and reasoning tasks. However, these methods sho | Overview: Stay Focused: Problem Drift in Multi-Agent Debate Jonas Becker1,2,*, Lars Benedikt Kaesberg1, Andreas Stephan3, Jan Philip Wahle1, Terry Ruas1, Bela Gipp1 1University of Göttingen, Germany; 2LKA NRW,  | Methodology: We explain the multi-agent environment for this study, our proposed detection and mitigation meth- ods for problem drift, and the datasets and metrics | Key Findings: is surprising, as today's LLMs are considered to be highly competent regarding linguistic capabili- ties (Grattafiori et al., 2024); this raises quest | Conclusions: Turn 1 Voted Solution: B) E = m+c2 Discussion Turn 2 DRIFTJudge: The discussion suffers from problem drift. DRIFTPolicy: 'Improve discussion habits by"
-local_pdf: "[[PDFs/2025/2025-Becker-Stay Focused.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Becker-Stay Focused.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Qwen-2"
 DATA_URL: "https://github.com/jonas-becker/problem-drift"
@@ -119,7 +119,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Becker-Stay Focused.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Becker-Stay Focused.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2502.19559
 - **DOI:** https://doi.org/10.48550/arXiv.2502.19559

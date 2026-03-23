@@ -48,7 +48,7 @@ authors: "The Bielik LLM Team"
 url: "https://arxiv.org/abs/2410.18565"
 external_pdf: "https://arxiv.org/pdf/2410.18565.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Team-Bielik 7B v0.1 A Polish Language Model - Development Insights and.md"
-local_pdf: "[[PDFs/2024/2024-Team-Bielik 7B v0.1 A Polish Language Model - Development Insights and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Team-Bielik 7B v0.1 A Polish Language Model - Development Insights and.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

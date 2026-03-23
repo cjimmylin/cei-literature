@@ -51,7 +51,7 @@ external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12452362/pdf/main.pdf"
 publication: "Data in Brief (ScienceDirect)"
 CONF-CC: "Data in Brief"
 pdf_extract: PDF Extracts/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.md
-local_pdf: "[[PDFs/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

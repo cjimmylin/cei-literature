@@ -509,7 +509,7 @@ def safe_update_external_pdf(paper_path: Path, pdf_url: str):
 def safe_update_local_pdf(paper_path: Path, pdf_filename: str):
     """Add or update local_pdf field using safe regex insertion."""
     content = paper_path.read_text(encoding="utf-8")
-    new_line = f'local_pdf: "[[PDFs/{pdf_filename}]]"'
+    new_line = f'local_pdf: "[[Lit-WS-PDFs/{pdf_filename}]]"'
 
     if re.search(r'^local_pdf:\s*$', content, re.MULTILINE):
         content = re.sub(

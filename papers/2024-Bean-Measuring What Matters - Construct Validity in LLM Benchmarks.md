@@ -51,7 +51,7 @@ publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 external_pdf: "https://openreview.net/pdf?id=mdA5lVvNcU"
 pdf_extract: "PDF Extracts/2024/2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.md"
-local_pdf: "[[PDFs/2024/2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

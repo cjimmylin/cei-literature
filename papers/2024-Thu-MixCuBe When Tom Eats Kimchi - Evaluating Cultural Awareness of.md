@@ -48,7 +48,7 @@ authors: "Jun Seong Kim; Kyaw Ye Thu; Javad Ismayilzada; Junyeong Park; Eunsu Ki
 url: "https://huggingface.co/datasets/kyawyethu/MixCuBe"
 publication: HuggingFace
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2024/2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

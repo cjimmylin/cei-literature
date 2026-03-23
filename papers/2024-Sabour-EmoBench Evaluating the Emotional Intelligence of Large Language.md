@@ -49,7 +49,7 @@ authors: "Sahand Sabour; Siyang Liu; Zheyuan Zhang; June M. Liu; Jinfeng Zhou; A
 url: "https://arxiv.org/abs/2402.12071"
 external_pdf: "https://arxiv.org/pdf/2402.12071.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language.md"
-local_pdf: "[[PDFs/2024/2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language.pdf]]"
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207

@@ -54,7 +54,7 @@ authors: M. Goel; A Das
 url: "https://arxiv.org/abs/2602.03351"
 external_pdf: "https://arxiv.org/pdf/2602.03351.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Goel-Building Interpretable Models for Moral Decision-Making.md"
-local_pdf: "[[PDFs/2026/2026-Goel-Building Interpretable Models for Moral Decision-Making.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Goel-Building Interpretable Models for Moral Decision-Making.pdf]]"
 publication: "NeurIPS 2025"
 CONF-CC: "NeurIPS 2025"
 DATE_ADDED: 20260207

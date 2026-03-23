@@ -50,7 +50,7 @@ doi: 10.1109/ICSEE61636.2024.10479258
 url: "https://arxiv.org/abs/2309.02724"
 external_pdf: "https://arxiv.org/pdf/2309.02724.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md"
-local_pdf: "[[PDFs/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

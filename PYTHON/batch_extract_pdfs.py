@@ -54,7 +54,7 @@ def get_papers_needing_extraction(date_added="20260207"):
             continue
 
         # Must have local_pdf
-        local_match = re.search(r'local_pdf:\s*"?\[\[PDFs/([^\]]+)\]\]', content)
+        local_match = re.search(r'local_pdf:\s*"?\[\[Lit-WS-PDFs/([^\]]+)\]\]', content)
         if not local_match:
             continue
 

@@ -52,7 +52,7 @@ external_pdf: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/258
 publication: "WebSearch: Decolonizing NLP low-resource languages relational ethics Birhane"
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md"
-local_pdf: "[[PDFs/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African/Ubuntu"

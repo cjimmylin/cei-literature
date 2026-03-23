@@ -82,7 +82,7 @@ tags:
 abstract: "Pretrained multilingual models are able to perform cross-lingual transfer in a zero-shot setting, even for languages unseen during pretraining. However, prior work evaluating performance on unseen languages has largely been limited to low-level, syntactic tasks, and it remains unclear if zero-shot learning of high-level, semantic tasks is possible for unseen languages. To explore this question, we present AmericasNLI, an extension of XNLI (Conneau et al."
 pdf: "https://aclanthology.org/2022.acl-long.435.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Kann-AmericasNLI.md"
-local_pdf: "[[PDFs/2022/2022-Kann-AmericasNLI.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Kann-AmericasNLI.pdf]]"
 CONF-CC: "Frontiers in Artificial Intelligence"
 DATE_ADDED: 20260208
 LLM_assessed: "XLM-R"

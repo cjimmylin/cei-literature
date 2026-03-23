@@ -48,7 +48,7 @@ doi: 10.5334/dsj-2020-043
 url: "https://datascience.codata.org/articles/10.5334/dsj-2020-043"
 publication: Data Science Journal
 CONF-CC: "Data Science Journal"
-local_pdf: "[[PDFs/2020/2020-Carroll-The CARE Principles for Indigenous Data Governance.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Carroll-The CARE Principles for Indigenous Data Governance.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Carroll-The CARE Principles for Indigenous Data Governance.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

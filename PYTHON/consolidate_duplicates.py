@@ -222,7 +222,7 @@ def find_pdf_on_disk(fields: dict) -> Optional[Path]:
         return None
 
     pdf_ref = local_pdf.strip('"').strip("'").strip("[]").replace("[[", "").replace("]]", "")
-    pdf_ref = pdf_ref.replace("PDFs/", "")
+    pdf_ref = pdf_ref.replace("Lit-WS-PDFs/", "")
     pdf_path = PDFS_DIR / pdf_ref
     if pdf_path.exists():
         return pdf_path
@@ -254,7 +254,7 @@ def transfer_pdf_to_primary(primary_content: str, primary_fields: dict,
 
     # Build wikilink for the duplicate's PDF (it stays in place)
     pdf_rel = dup_pdf_path.relative_to(PDFS_DIR)
-    wikilink = f'"[[PDFs/{pdf_rel}]]"'
+    wikilink = f'"[[Lit-WS-PDFs/{pdf_rel}]]"'
 
     fm_match = re.match(r"---\n(.*?)\n---\n", primary_content, re.DOTALL)
     if not fm_match:
@@ -263,9 +263,9 @@ def transfer_pdf_to_primary(primary_content: str, primary_fields: dict,
     frontmatter = fm_match.group(1)
     body = primary_content[fm_match.end():]
 
-    frontmatter, count = safe_replace_field(frontmatter, "local_pdf", f"[[PDFs/{pdf_rel}]]")
+    frontmatter, count = safe_replace_field(frontmatter, "local_pdf", f"[[Lit-WS-PDFs/{pdf_rel}]]")
     if count == 0:
-        frontmatter = safe_add_field(frontmatter, "local_pdf", f"[[PDFs/{pdf_rel}]]")
+        frontmatter = safe_add_field(frontmatter, "local_pdf", f"[[Lit-WS-PDFs/{pdf_rel}]]")
 
     if not dry_run:
         print(f"    Transferred PDF reference: {dup_pdf_path.name}")

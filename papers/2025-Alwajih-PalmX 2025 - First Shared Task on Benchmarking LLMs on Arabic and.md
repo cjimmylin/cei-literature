@@ -49,7 +49,7 @@ authors: "Fakhraddin Alwajih; Abdellah El Mekki; Hamdy Mubarak; Majd Hawasly; Ab
 url: "https://arxiv.org/abs/2509.02550"
 external_pdf: "https://arxiv.org/pdf/2509.02550.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md"
-local_pdf: "[[PDFs/2025/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

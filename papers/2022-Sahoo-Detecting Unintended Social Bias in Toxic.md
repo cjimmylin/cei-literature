@@ -89,7 +89,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-2"
 DATA_URL: "https://github.com/sahoonihar/ToxicBias_CoNLL_2022"
 pdf_extract: "PDF Extracts/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.md"
-local_pdf: "[[PDFs/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 0

@@ -52,7 +52,7 @@ external_pdf: "https://arxiv.org/pdf/2601.15706.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.md"
-local_pdf: "[[PDFs/2025/2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

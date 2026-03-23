@@ -39,7 +39,7 @@ Non-obvious patterns discovered during PDF acquisition campaigns:
 
 ```bash
 # ✅ CORRECT
-curl -o "PDFs/2016-Amodei-Concrete.pdf" https://arxiv.org/pdf/1606.06565.pdf
+curl -o "Lit-WS-PDFs/2016-Amodei-Concrete.pdf" https://arxiv.org/pdf/1606.06565.pdf
 
 # ❌ WRONG - WebFetch causes API errors for binary PDFs
 # Don't use WebFetch for PDF downloads
@@ -123,7 +123,7 @@ def download_pdf(arxiv_id: str, output_filename: str) -> bool:
 
 ```yaml
 ---
-source_pdf: "[[PDFs/2016-Amodei-Concrete Problems in AI Safety.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2016-Amodei-Concrete Problems in AI Safety.pdf]]"
 extracted_date: "2026-02-02"
 pages: 27
 extractor: "PyMuPDF"
@@ -158,7 +158,7 @@ def extract_pdf_text(pdf_path: Path, output_path: Path) -> None:
 
         # Build frontmatter
         frontmatter = f"""---
-source_pdf: "[[PDFs/{pdf_path.name}]]"
+source_pdf: "[[Lit-WS-PDFs/{pdf_path.name}]]"
 extracted_date: "{datetime.now().strftime('%Y-%m-%d')}"
 pages: {len(doc)}
 extractor: "PyMuPDF"
@@ -209,7 +209,7 @@ def find_missing_extracts() -> List[str]:
 
 **Paper → PDF:**
 ```yaml
-local_pdf: "[[PDFs/2016-Amodei-Concrete.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/2016-Amodei-Concrete.pdf]]"
 ```
 
 **Paper → Extract:**
@@ -219,7 +219,7 @@ pdf_extract: "PDF Extracts/2016-Amodei-Concrete.md"
 
 **Extract → PDF:**
 ```yaml
-source_pdf: "[[PDFs/2016-Amodei-Concrete.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2016-Amodei-Concrete.pdf]]"
 ```
 
 ### Updating Links After Download
@@ -230,7 +230,7 @@ def update_pdf_links(paper_path: Path, pdf_filename: str) -> None:
     fm, body = extract_frontmatter(paper_path.read_text())
 
     # Add PDF link
-    fm['local_pdf'] = f'"[[PDFs/{pdf_filename}]]"'  # MUST quote
+    fm['local_pdf'] = f'"[[Lit-WS-PDFs/{pdf_filename}]]"'  # MUST quote
 
     # Write back
     write_paper(paper_path, rebuild_frontmatter(fm), body, validate=True)
@@ -259,7 +259,7 @@ def recover_pdf_from_zotero(paper_key: str) -> bool:
         pdf_files = list(item_dir.glob("*.pdf"))
         if pdf_files:
             # Check if matches paper (by title/author in filename)
-            # Copy to PDFs/ directory
+            # Copy to Lit-WS-PDFs/ directory
             # Update paper metadata
             pass
 
@@ -335,7 +335,7 @@ find "PDF Extracts" -name "*.md" | wc -l  # Should match PDF count
 find "PDF Extracts" -name "*.md" -size 0
 
 # Verify PDF file integrity
-find PDFs/ -name "*.pdf" -size 0  # Empty PDFs
+find Lit-WS-PDFs/ -name "*.pdf" -size 0  # Empty PDFs
 
 # Check for orphaned PDFs (no matching paper)
 python3 PYTHON/find_orphaned_pdfs.py

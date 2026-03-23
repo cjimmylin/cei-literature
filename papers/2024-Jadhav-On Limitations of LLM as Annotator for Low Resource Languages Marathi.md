@@ -52,7 +52,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2411.17637"
 external_pdf: "https://arxiv.org/pdf/2411.17637.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi.md"
-local_pdf: "[[PDFs/2024/2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

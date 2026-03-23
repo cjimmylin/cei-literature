@@ -80,7 +80,7 @@ key_contribution: "Presented STORAL-ZH, a Chinese dataset of human-written moral
 significance: "Addresses the lack of non-English resources for moral narrative understanding, ensuring that AI moral reasoning evaluations extend to Chinese cultural contexts and storytelling traditions."
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Qian-Understanding Chinese Moral Stories with Further.md"
-local_pdf: "[[PDFs/2023/2023-Qian-Understanding Chinese Moral Stories with Further.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Qian-Understanding Chinese Moral Stories with Further.pdf]]"
 abstract: "The goal of moral understanding is to grasp the theoretical concepts embedded in a narrative by delving beyond the concrete occurrences and dynamic personas. Specifically, the narrative is compacted into a single statement without involving any characters within the original text, necessitating a more astute language model that can comprehend connotative morality and exhibit commonsense reasoning. The “pretraining + fine-tuning” paradigm is widely embraced in neural language models."
 CONF-CC: "International Journal on Natural Language Computing"
 DATE_ADDED: 20260208
@@ -116,7 +116,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Qian-Understanding Chinese Moral Stories with Further.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Qian-Understanding Chinese Moral Stories with Further.pdf|Open PDF]]
 
 - **DOI:** https://doi.org/10.5121/ijnlc.2023.12201
 

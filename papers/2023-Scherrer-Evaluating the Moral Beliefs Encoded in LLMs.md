@@ -87,7 +87,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.md"
 abstract: "This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for eliciting beliefs encoded in LLMs. We introduce statistical measures and evaluation metrics that quantify the probability of an LLM 'making a choice', the associated uncertainty, and the consistency of that choice."
 paper_summary: "Abstract: This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for el | Overview: Evaluating the Moral Beliefs Encoded in LLMs Warning: This paper contains moral scenarios which are controversial and offensive in nature. Nino Scherrer ∗1, Claudia Shi ∗1,2, Amir Feder 2, and David M"
-local_pdf: "[[PDFs/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BLOOM, Claude, Flan-T5, GPT-3.5, GPT-4, PaLM"
 DATA_URL: "https://huggingface.co/datasets/ninoscherrer/moralchoice"
@@ -121,7 +121,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2307.14324
 - **DOI:** https://doi.org/10.48550/arXiv.2307.14324

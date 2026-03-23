@@ -53,7 +53,7 @@ authors_incomplete: false
 url: "https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0053"
 external_pdf: "https://www.sciengine.com/parse/pdf/2096-7004/D74782CFAA4A4B1A9E29A12EC0FEA64B.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate.md"
-local_pdf: "[[PDFs/2025/2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate.pdf]]"
 publication: "WebSearch: Swahili hate speech toxicity dataset NLP"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

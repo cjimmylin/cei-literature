@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2510.06370"
 external_pdf: "https://arxiv.org/pdf/2510.06370.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md"
-local_pdf: "[[PDFs/2025/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

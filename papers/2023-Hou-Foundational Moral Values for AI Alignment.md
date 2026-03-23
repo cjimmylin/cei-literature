@@ -88,7 +88,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Hou-Foundational Moral Values for AI Alignment.md"
 abstract: "Solving the AI alignment problem requires having clear, defensible values towards which AI systems can align. Currently, targets for alignment remain underspecified and do not seem to be built from a philosophically robust structure. We begin the discussion of this problem by presenting five core, foundational values, drawn from moral philosophy and built on the requisites for human existence: survival, sustainable intergenerational existence, society, education, and truth."
 paper_summary: "Abstract: Solving the AI alignment problem requires having clear, defensible values towards which AI systems can align. Currently, targets for alignment remain underspecified and do not seem to be built from a  | Overview: Foundational Moral Values for AI Alignment Betty Li Hou New York University blh9134@nyu.edu Brian Patrick Green Markkula Center for Applied Ethics bpgreen@scu.edu Abstract Solving the AI alignment pro | Conclusions: In this work we emphasize the need for foundational values in answering the question of 'To what values do we align?' and suggest these five foundatio"
-local_pdf: "[[PDFs/2023/2023-Hou-Foundational Moral Values for AI Alignment.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hou-Foundational Moral Values for AI Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
@@ -122,7 +122,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Hou-Foundational Moral Values for AI Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Hou-Foundational Moral Values for AI Alignment.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2311.17017
 - **DOI:** https://doi.org/10.48550/arXiv.2311.17017

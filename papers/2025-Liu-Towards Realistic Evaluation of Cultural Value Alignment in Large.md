@@ -53,7 +53,7 @@ url: "https://www.sciencedirect.com/science/article/abs/pii/S030645732500041X"
 publication: "Technological Forecasting and Social Change (ScienceDirect)"
 CONF-CC: "Technological Forecasting and Social Change (ScienceDirect)"
 pdf_extract: "PDF Extracts/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.md"
-local_pdf: "[[PDFs/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

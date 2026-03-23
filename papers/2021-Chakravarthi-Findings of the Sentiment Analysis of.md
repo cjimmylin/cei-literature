@@ -49,7 +49,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2111.09811"
 external_pdf: "https://arxiv.org/pdf/2111.09811.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Chakravarthi-Findings of the Sentiment Analysis of.md"
-local_pdf: "[[PDFs/2021/2021-Chakravarthi-Findings of the Sentiment Analysis of.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Chakravarthi-Findings of the Sentiment Analysis of.pdf]]"
 publication: "WebSearch: FIRE shared task Dravidian"
 CONF-CC: "FIRE 2021"
 DATE_ADDED: 20260213

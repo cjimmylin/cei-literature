@@ -54,7 +54,7 @@ doi: 10.1007/s43681-025-00759-9
 tags: "Computer Science - AI Ethics"
 url: "https://doi.org/10.1007/s43681-025-00759-9"
 pdf_extract: "PDF Extracts/2025/2025-Terziyan-Towards ethical evolution.md"
-local_pdf: "[[PDFs/2025/2025-Terziyan-Towards ethical evolution.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Terziyan-Towards ethical evolution.pdf]]"
 publication: "AI and Ethics"
 CONF-CC: "AI and Ethics"
 national_ethnic_cultural: "N/A"

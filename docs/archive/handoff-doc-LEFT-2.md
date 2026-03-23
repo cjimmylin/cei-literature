@@ -44,7 +44,7 @@
 - All 6 reports regenerated with 2,034-paper data
 
 ### Session 87
-- 128 root PDFs sorted into `PDFs/YYYY/` + YAML wikilinks updated
+- 128 root PDFs sorted into `Lit-WS-PDFs/YYYY/` + YAML wikilinks updated
 - 3 legacy ethics directories recycled (84 PDFs → `RECYCLE-BIN/20260216-legacy-ethics-pdfs/`)
 - 32 ZERO papers LLM-assessed (1 GPT-4 classification, 31 NA)
 
@@ -95,7 +95,7 @@ cd CEI-Lit-WS
 | Other | 19 | Mixed publishers |
 
 **After manual download:**
-1. Save PDFs to `PDFs/YYYY/` (year-based subdirectory)
+1. Save PDFs to `Lit-WS-PDFs/YYYY/` (year-based subdirectory)
 2. Extract text: `PYTHON/extract_pdf_text.py` or `/extract-pdf-text` skill
 3. Update YAML: set `local_pdf` wikilink and `pdf_extract` path
 
@@ -103,7 +103,7 @@ cd CEI-Lit-WS
 
 **Paper:** `papers/2025-Ochasi-Reframing Justice in Healthcare AI.md`
 **URL:** `https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007`
-**Save to:** `PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
+**Save to:** `Lit-WS-PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
 
 Manual browser download only.
 

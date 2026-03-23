@@ -51,7 +51,7 @@ external_pdf: "https://aclanthology.org/2022.acl-long.583.pdf"
 publication: "ACL Anthology"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.md"
-local_pdf: "[[PDFs/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French, American"
 cultures_nationalities_list: "French, American"

@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2505.18951"
 external_pdf: "https://arxiv.org/pdf/2505.18951.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.md"
-local_pdf: "[[PDFs/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

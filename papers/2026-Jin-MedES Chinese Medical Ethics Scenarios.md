@@ -50,7 +50,7 @@ authors: Haoan Jin; Han Ying; Jiacheng Ji; Hanhui Xu; Mengyue Wu
 url: "https://arxiv.org/abs/2601.07954"
 external_pdf: "https://arxiv.org/pdf/2601.07954.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Jin-MedES Chinese Medical Ethics Scenarios.md"
-local_pdf: "[[PDFs/2026/2026-Jin-MedES Chinese Medical Ethics Scenarios.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Jin-MedES Chinese Medical Ethics Scenarios.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

@@ -6,7 +6,7 @@ The issue: field: [[value]] should be field: "[[value]]"
 Unquoted [[...]] is interpreted as a YAML flow sequence.
 
 Fields checked:
-- local_pdf: [[PDFs/file.pdf]]
+- local_pdf: [[Lit-WS-PDFs/file.pdf]]
 - first_author: [[Author Name]]
 - pdf_extract: [[PDF Extracts/file.md]]
 """
@@ -26,8 +26,8 @@ def fix_unquoted_wikilinks(paper_path: Path) -> int:
     # Patterns to match unquoted wikilinks in various fields
     # Format: (field_pattern, replacement_format)
     patterns = [
-        # local_pdf: [[PDFs/...]]
-        (r'^(local_pdf:\s*)(\[\[PDFs/[^\]]+\]\])(\s*)$', r'\1"\2"\3'),
+        # local_pdf: [[Lit-WS-PDFs/...]]
+        (r'^(local_pdf:\s*)(\[\[Lit-WS-PDFs/[^\]]+\]\])(\s*)$', r'\1"\2"\3'),
         # first_author: [[Author Name]]
         (r'^(first_author:\s*)(\[\[[^\]]+\]\])(\s*)$', r'\1"\2"\3'),
         # pdf_extract: [[PDF Extracts/...]]

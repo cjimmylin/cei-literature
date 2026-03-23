@@ -52,7 +52,7 @@ url: "https://arxiv.org/abs/2505.04851"
 external_pdf: "https://arxiv.org/pdf/2505.04851.pdf"
 publication: Doklady Mathematics / arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2024/2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Russian"

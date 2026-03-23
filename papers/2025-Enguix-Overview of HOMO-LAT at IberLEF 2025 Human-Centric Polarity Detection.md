@@ -54,7 +54,7 @@ external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/down
 publication: "IberLEF / SEPLN 2025"
 CONF-CC: "IberLEF 2025"
 pdf_extract: "PDF Extracts/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md"
-local_pdf: "[[PDFs/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish, Latin American"
 cultures_nationalities_list: "Spanish, Latin American"

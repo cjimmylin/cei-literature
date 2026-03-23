@@ -88,7 +88,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Šekrst-AI Ethics by Design.md"
 abstract: "This paper explores the development of an ethical guardrail framework for AI systems, emphasizing the importance of customizable guardrails that align with diverse user values and underlying ethics. We address the challenges of AI ethics by proposing a structure that integrates rules, policies, and AI assistants to ensure responsible AI behavior, while comparing the proposed framework to the existing state-of-the-art guardrails."
 paper_summary: 
-local_pdf: "[[PDFs/2024/2024-Šekrst-AI Ethics by Design.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Šekrst-AI Ethics by Design.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "AI Ethics"
 LLM_assessed: NA
@@ -123,7 +123,7 @@ ethics_perspective: "Machine Ethics"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Šekrst-AI Ethics by Design.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Šekrst-AI Ethics by Design.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2411.14442
 - **DOI:** https://doi.org/10.48550/arXiv.2411.14442

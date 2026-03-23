@@ -51,7 +51,7 @@ doi: 10.18653/v1/2022.emnlp-main.744
 url: "https://arxiv.org/abs/2205.11315"
 external_pdf: "https://arxiv.org/pdf/2205.11315.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.md"
-local_pdf: "[[PDFs/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.pdf]]"
 publication: "arXiv / EMNLP 2022"
 CONF-CC: "EMNLP 2022"
 DATE_ADDED: 20260213

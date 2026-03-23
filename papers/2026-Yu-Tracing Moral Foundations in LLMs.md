@@ -48,7 +48,7 @@ authors: "Yu, Chenxiao; Yi, Bowen; Karimi-Malekabadi, Farzan; Abdurahman, Suhaib
 doi: N/A
 url: "https://arxiv.org/abs/2601.05437"
 pdf_extract: "PDF Extracts/2026/2026-Yu-Tracing Moral Foundations in LLMs.md"
-local_pdf: "[[PDFs/2026/2026-Yu-Tracing Moral Foundations in LLMs.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Yu-Tracing Moral Foundations in LLMs.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

@@ -50,7 +50,7 @@ external_pdf: "https://aclanthology.org/2022.woah-1.14.pdf"
 publication: "ACL Anthology"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2022/2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.md"
-local_pdf: "[[PDFs/2022/2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"

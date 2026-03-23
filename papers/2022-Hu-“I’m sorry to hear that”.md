@@ -83,7 +83,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, T5"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2022/2022-Hu-'I'm sorry to hear that'.md"
-local_pdf: "[[PDFs/2022/2022-Hu-“I’m sorry to hear that”.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Hu-“I’m sorry to hear that”.pdf]]"
 CONFERENCE: "EMNLP 2022"
 ethics_overall: 0
 virtue_ethics: 0

@@ -48,7 +48,7 @@ doi: 10.48550/arXiv.2506.13082
 tags: 
 url: "http://arxiv.org/abs/2506.13082"
 pdf_extract: "PDF Extracts/2025/2025-Kilov-Discerning What Matters.md"
-local_pdf: "[[PDFs/2025/2025-Kilov-Discerning What Matters.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kilov-Discerning What Matters.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.13082.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
@@ -110,7 +110,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Kilov-Discerning What Matters.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Kilov-Discerning What Matters.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2506.13082
 - **DOI:** https://doi.org/10.48550/arXiv.2506.13082

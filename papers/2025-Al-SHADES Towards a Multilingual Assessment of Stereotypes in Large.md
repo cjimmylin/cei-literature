@@ -50,7 +50,7 @@ external_pdf: "https://aclanthology.org/2025.naacl-long.600.pdf"
 publication: Web
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.md"
-local_pdf: "[[PDFs/2025/2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Arabic, Multicultural/Cross-cultural"

@@ -86,7 +86,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, ChatGPT, Claude, Vicuna, Llama-2, ChatGLM"
 DATA_URL: "https://github.com/Libr-AI/do-not-answer"
 pdf_extract: "PDF Extracts/2024/2024-Wang-Do-Not-Answer.md"
-local_pdf: "[[PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]"
 CONFERENCE: "EACL 2024"
 ethics_overall: 30
 virtue_ethics: 0

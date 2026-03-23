@@ -1,6 +1,6 @@
 ---
 title: "2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus"
-source_pdf: "[[PDFs/2024/2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2024/2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus.pdf]]"
 extracted_date: "2026-02-14"
 extraction_method: "PyMuPDF"
 ---

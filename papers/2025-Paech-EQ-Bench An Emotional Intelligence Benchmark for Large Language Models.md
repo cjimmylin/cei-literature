@@ -49,7 +49,7 @@ authors: "Samuel J. Paech"
 url: "https://arxiv.org/abs/2312.06281"
 external_pdf: "https://arxiv.org/pdf/2312.06281.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.md"
-local_pdf: "[[PDFs/2025/2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Paech-EQ-Bench An Emotional Intelligence Benchmark for Large Language Models.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

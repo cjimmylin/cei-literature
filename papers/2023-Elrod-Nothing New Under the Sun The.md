@@ -53,7 +53,7 @@ authors_incomplete: false
 url: 
 external_pdf: "https://arxiv.org/pdf/1307.6941v1.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Elrod-Nothing New Under the Sun The.md"
-local_pdf: "[[PDFs/2023/2023-Elrod-Nothing New Under the Sun The.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Elrod-Nothing New Under the Sun The.pdf]]"
 publication: "HIPHIL Novum, 8(2), 1--32"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

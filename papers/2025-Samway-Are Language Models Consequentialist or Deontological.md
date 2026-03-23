@@ -84,7 +84,7 @@ research_topic: "LLM Moral Reasoning"
 LLM_assessed: "GPT-3.5, GPT-4o, Claude, Gemini, Gemma, Gemma-2, Llama-3, Mistral, Qwen, Qwen-2, DeepSeek"
 DATA_URL: "https://github.com/keenansamway/moral-lens"
 pdf_extract: "PDF Extracts/2025/2025-Samway-Are Language Models Consequentialist or Deontological.md"
-local_pdf: "[[PDFs/2025/2025-Samway-Are Language Models Consequentialist or Deontological.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Samway-Are Language Models Consequentialist or Deontological.pdf]]"
 normative_ethics_benchmark: Yes
 CONFERENCE: "EMNLP 2025"
 ethics_overall: 100

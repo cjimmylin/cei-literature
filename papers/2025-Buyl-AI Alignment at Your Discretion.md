@@ -54,7 +54,7 @@ doi: 10.1145/3715275.3732194
 url: "https://arxiv.org/abs/2502.10441"
 external_pdf: "https://arxiv.org/pdf/2502.10441.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Buyl-AI Alignment at Your Discretion.md"
-local_pdf: "[[PDFs/2025/2025-Buyl-AI Alignment at Your Discretion.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Buyl-AI Alignment at Your Discretion.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

@@ -2,7 +2,7 @@
 """Migrate PDFs and Extracts into year-based subdirectories.
 
 Moves files from flat layout to YYYY/ subdirectories:
-  PDFs/2024-Author-Title.pdf        → PDFs/2024/2024-Author-Title.pdf
+  Lit-WS-PDFs/2024-Author-Title.pdf        → Lit-WS-PDFs/2024/2024-Author-Title.pdf
   PDF Extracts/2024-Author-Title.md → PDF Extracts/2024/2024-Author-Title.md
 
 Then updates all YAML references (local_pdf, pdf_extract) and body wikilinks
@@ -89,11 +89,11 @@ def update_paper_references(dry_run: bool) -> dict:
         original = content
 
         # ── 1C: Update local_pdf field ──
-        # Matches: local_pdf: "[[PDFs/2024-Author-Title.pdf]]"
-        # Also:    local_pdf: [[PDFs/2024-Author-Title.pdf]]
+        # Matches: local_pdf: "[[Lit-WS-PDFs/2024-Author-Title.pdf]]"
+        # Also:    local_pdf: [[Lit-WS-PDFs/2024-Author-Title.pdf]]
         # Captures the year-prefixed filename at root level (no / before filename)
         content, n = re.subn(
-            r'^(local_pdf:\s*"?\[\[PDFs/)(\d{4})(-[^\]/]+\.pdf\]\]"?)$',
+            r'^(local_pdf:\s*"?\[\[Lit-WS-PDFs/)(\d{4})(-[^\]/]+\.pdf\]\]"?)$',
             r"\g<1>\2/\2\3",
             content,
             flags=re.MULTILINE,
@@ -112,10 +112,10 @@ def update_paper_references(dry_run: bool) -> dict:
         stats["pdf_extract"] += n
 
         # ── 1E: Update body wikilinks ──
-        # Matches: [[PDFs/2024-Author-Title.pdf|Open PDF]] or [[PDFs/2024-Author-Title.pdf]]
+        # Matches: [[Lit-WS-PDFs/2024-Author-Title.pdf|Open PDF]] or [[Lit-WS-PDFs/2024-Author-Title.pdf]]
         content, n = re.subn(
-            r"\[\[PDFs/(\d{4})(-[^\]/]+\.pdf)",
-            r"[[PDFs/\1/\1\2",
+            r"\[\[Lit-WS-PDFs/(\d{4})(-[^\]/]+\.pdf)",
+            r"[[Lit-WS-PDFs/\1/\1\2",
             content,
         )
         stats["body_links"] += n
@@ -126,11 +126,11 @@ def update_paper_references(dry_run: bool) -> dict:
                 # Show first change for this file
                 paper_name = paper.name
                 changes = []
-                if re.subn(r'^(local_pdf:\s*"?\[\[PDFs/)(\d{4})(-[^\]/]+\.pdf\]\]"?)$', '', original, flags=re.MULTILINE)[1]:
+                if re.subn(r'^(local_pdf:\s*"?\[\[Lit-WS-PDFs/)(\d{4})(-[^\]/]+\.pdf\]\]"?)$', '', original, flags=re.MULTILINE)[1]:
                     changes.append("local_pdf")
                 if re.subn(r'^(pdf_extract:\s*"?PDF Extracts/)(\d{4})(-[^"\n]+\.md"?)$', '', original, flags=re.MULTILINE)[1]:
                     changes.append("pdf_extract")
-                if re.subn(r"\[\[PDFs/(\d{4})(-[^\]/]+\.pdf)", '', original)[1]:
+                if re.subn(r"\[\[Lit-WS-PDFs/(\d{4})(-[^\]/]+\.pdf)", '', original)[1]:
                     changes.append("body_links")
                 print(f"  [DRY] {paper_name}: {', '.join(changes)}")
             else:
@@ -142,7 +142,7 @@ def update_paper_references(dry_run: bool) -> dict:
 # ── Main ───────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="Migrate PDFs/Extracts to year-based subdirectories")
+    parser = argparse.ArgumentParser(description="Migrate Lit-WS-PDFs/Extracts to year-based subdirectories")
     parser.add_argument("--dry-run", action="store_true", help="Preview changes without applying them")
     args = parser.parse_args()
 

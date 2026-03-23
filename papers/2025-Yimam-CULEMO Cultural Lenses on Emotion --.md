@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2503.10688"
 external_pdf: "https://arxiv.org/pdf/2503.10688.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yimam-CULEMO Cultural Lenses on Emotion --.md"
-local_pdf: "[[PDFs/2025/2025-Yimam-CULEMO Cultural Lenses on Emotion --.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yimam-CULEMO Cultural Lenses on Emotion --.pdf]]"
 publication: "WebSearch: CuLEmo cultural lenses emotion benchmarking"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

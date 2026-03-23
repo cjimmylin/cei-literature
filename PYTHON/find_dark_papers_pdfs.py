@@ -284,7 +284,7 @@ def pdf_name_from_paper_path(paper_file: str) -> str:
 
 
 def make_pdf_wikilink(year: int, pdf_name: str) -> str:
-    return f"[[PDFs/{year}/{pdf_name}]]"
+    return f"[[Lit-WS-PDFs/{year}/{pdf_name}]]"
 
 
 def make_extract_rel(year: int, extract_name: str) -> str:

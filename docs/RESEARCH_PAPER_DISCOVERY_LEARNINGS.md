@@ -83,14 +83,14 @@ data_metrics: "Metrics used for evaluation"
 ### Phase 5: PDF Download
 ```bash
 # Download PDF
-curl -L -o "PDFs/<filename>.pdf" "<pdf_url>"
+curl -L -o "Lit-WS-PDFs/<filename>.pdf" "<pdf_url>"
 
 # Verify it's actually a PDF (not HTML error page)
-file "PDFs/<filename>.pdf"
-ls -lh "PDFs/<filename>.pdf"
+file "Lit-WS-PDFs/<filename>.pdf"
+ls -lh "Lit-WS-PDFs/<filename>.pdf"
 
 # If HTML instead of PDF, move to recycle bin
-mv "PDFs/<filename>.pdf" "RECYCLE-BIN/"
+mv "Lit-WS-PDFs/<filename>.pdf" "RECYCLE-BIN/"
 ```
 
 ### Phase 6: PDF Extraction
@@ -133,8 +133,8 @@ ls papers/*AuthorLastName*.md
 **Symptoms:** PDF file exists but extraction fails
 **Detection:**
 ```bash
-file "PDFs/filename.pdf"  # Should say "PDF document"
-head -c 100 "PDFs/filename.pdf"  # Should start with %PDF
+file "Lit-WS-PDFs/filename.pdf"  # Should say "PDF document"
+head -c 100 "Lit-WS-PDFs/filename.pdf"  # Should start with %PDF
 ```
 **Solution:** Delete fake PDF and mark as PENDING
 

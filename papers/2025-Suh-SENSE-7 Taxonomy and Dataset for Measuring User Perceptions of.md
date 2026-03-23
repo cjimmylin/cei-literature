@@ -49,7 +49,7 @@ authors: "Jina Suh; Lindy Le; Erfan Shayegani; Gonzalo Ramos; Judith Amores; Des
 url: "https://arxiv.org/abs/2509.16437"
 external_pdf: "https://arxiv.org/pdf/2509.16437.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.md"
-local_pdf: "[[PDFs/2025/2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

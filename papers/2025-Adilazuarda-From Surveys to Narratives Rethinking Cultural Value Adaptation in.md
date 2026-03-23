@@ -48,7 +48,7 @@ authors: "Muhammad Farid Adilazuarda; Chen Cecilia Liu; Iryna Gurevych; Alham Fi
 url: "https://arxiv.org/abs/2505.16408"
 external_pdf: "https://arxiv.org/pdf/2505.16408.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in.md"
-local_pdf: "[[PDFs/2025/2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in.pdf]]"
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207

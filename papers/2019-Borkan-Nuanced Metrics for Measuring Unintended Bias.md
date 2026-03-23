@@ -64,7 +64,7 @@ significance: "Provides the field with robust, threshold-independent tools for a
 tags: []
 pdf_extract: "PDF Extracts/2019/2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.md"
 abstract: "Unintended bias in Machine Learning can manifest as systemic differences in performance for different demographic groups, potentially compounding existing challenges to fairness in society at large. In this paper, we introduce a suite of threshold-agnostic metrics that provide a nuanced view of this unintended bias, by considering the various ways that a classifier's score distribution can vary across designated groups. We also introduce a large new test set of online comments with crowd-sourced annotations for identity references. We use this to show how our metrics can be used to find new and potentially subtle unintended bias in existing public models."
-local_pdf: "[[PDFs/2019/2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.pdf]]"
 DATE_ADDED: 20260312
 helm: "incorporated"
 ethics_overall: 100

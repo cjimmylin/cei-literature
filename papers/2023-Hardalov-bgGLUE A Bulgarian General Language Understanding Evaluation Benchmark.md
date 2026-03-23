@@ -49,7 +49,7 @@ authors: Momchil Hardalov; Pepa Atanasova; Todor Mihaylov; Galia Angelova; Kiril
 url: "https://arxiv.org/abs/2306.02349"
 external_pdf: "https://arxiv.org/pdf/2306.02349.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark.md"
-local_pdf: "[[PDFs/2023/2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark.pdf]]"
 publication: "arXiv / ACL 2023"
 CONF-CC: "ACL 2023"
 DATE_ADDED: 20260213

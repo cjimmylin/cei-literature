@@ -1,6 +1,6 @@
 ---
 title: "2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of"
-source_pdf: "[[PDFs/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.pdf]]"
 extracted_date: "2026-02-14"
 extraction_method: "PyMuPDF"
 ---

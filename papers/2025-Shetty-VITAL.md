@@ -83,7 +83,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Shetty-VITAL.md"
 abstract: "Alignment techniques have become central to ensuring that Large Language Models (LLMs) generate outputs consistent with human val- ues. However, existing alignment paradigms often model an averaged or monolithic prefer- ence, failing to account for the diversity of per- spectives across cultures, demographics, and communities. This limitation is particularly critical in health-related scenarios, where plu- rality is essential due to the influence of culture, religion, personal values, and confli"
 paper_summary: "Abstract: Alignment techniques have become central to ensuring that Large Language Models (LLMs) generate outputs consistent with human val- ues. However, existing alignment paradigms often model an averaged or | Overview: arXiv:2502.13775v2 [cs.CL] 31 May 2025 VITAL: A New Dataset for Benchmarking Pluralistic Alignment in Healthcare Anudeex Shetty♢♣, Amin Beheshti♣, Mark Dras♣, Usman Naseem♣ ♢School of Computing and In | Key Findings: of eight LLMs of varying sizes, we demonstrate that existing pluralistic alignment techniques fall short in effectively accommodating diverse healthca | Conclusions: In this work, we investigate the LLM's potential to reflect diverse values and opinions (a.k.a pluralistic alignment), specifically within the health"
-local_pdf: "[[PDFs/2025/2025-Shetty-VITAL.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shetty-VITAL.pdf]]"
 LLM_assessed: "ChatGPT, Gemma, Llama-2, Llama-3, Qwen"
 DATA_URL: "https://github.com/anudeex/VITAL.git"
 publication: "ACL 2025"
@@ -115,7 +115,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Shetty-VITAL.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Shetty-VITAL.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2502.13775
 

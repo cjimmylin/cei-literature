@@ -52,7 +52,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2502.19612"
 external_pdf: "https://arxiv.org/pdf/2502.19612.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.md"
-local_pdf: "[[PDFs/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

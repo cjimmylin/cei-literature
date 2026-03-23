@@ -38,7 +38,7 @@ The [EleutherAI lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluati
 | 15 | 2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs | AraDiCE | `aradice` |
 | 16 | 2024-Hooker-Global MMLU Understanding and Addressing Cultural | Global MMLU | `global_mmlu` |
 
-All 16 were already classified and had existing PDFs/extracts. Only the `eleutherai: incorporated` tag was added.
+All 16 were already classified and had existing Lit-WS-PDFs/extracts. Only the `eleutherai: incorporated` tag was added.
 
 ---
 

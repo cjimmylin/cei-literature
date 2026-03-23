@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2407.02337"
 external_pdf: "https://arxiv.org/pdf/2407.02337.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Isbarov-Open foundation models for Azerbaijani language.md"
-local_pdf: "[[PDFs/2024/2024-Isbarov-Open foundation models for Azerbaijani language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Isbarov-Open foundation models for Azerbaijani language.pdf]]"
 publication: "SIGTURK 2024"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

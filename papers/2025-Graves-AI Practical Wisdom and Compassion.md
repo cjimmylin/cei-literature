@@ -40,7 +40,7 @@ authors: Graves; Mark
 doi: 10.1007/s43681-025-00877-4
 url: "https://link.springer.com/article/10.1007/s43681-025-00877-4"
 pdf_extract: "PDF Extracts/2025/2025-Graves-AI Practical Wisdom and Compassion.md"
-local_pdf: "[[PDFs/2025/2025-Graves-AI Practical Wisdom and Compassion.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Graves-AI Practical Wisdom and Compassion.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

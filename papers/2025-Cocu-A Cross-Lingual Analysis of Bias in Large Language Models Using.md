@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2510.02362.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using.md"
-local_pdf: "[[PDFs/2025/2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

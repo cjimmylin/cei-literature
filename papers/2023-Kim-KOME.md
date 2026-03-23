@@ -81,7 +81,7 @@ tags:
 abstract: "In order to determine the status of malaria among schoolchildren on Kome Island (Lake Victoria), near Mwanza, Tanzania, a total of 244 schoolchildren in 10 primary schools were subjected to a blood survey using the fingerprick method. The subjected schoolchildren were 123 boys and 121 girls who were 6-8 years of age. Only 1 blood smear was prepared for each child. The overall prevalence of malaria was 38.1% (93 positives), and sex difference was not remark­ able."
 pdf: "https://www.parahostdis.org/upload/pdf/kjp-53-5-571.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kim-KOME.md"
-local_pdf: "[[PDFs/2023/2023-Kim-KOME.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Kim-KOME.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"

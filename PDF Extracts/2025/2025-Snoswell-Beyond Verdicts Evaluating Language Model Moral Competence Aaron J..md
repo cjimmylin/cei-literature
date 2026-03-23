@@ -1,6 +1,6 @@
 ---
 title: "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J."
-source_pdf: "[[PDFs/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..pdf]]"
 extracted_date: "2026-02-14"
 extraction_method: "PyMuPDF"
 ---

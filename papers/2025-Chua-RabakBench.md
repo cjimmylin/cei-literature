@@ -85,7 +85,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Chua-RabakBench.md"
 abstract: "Large language models (LLMs) and their safety classifiers often perform poorly on low-resource languages due to limited training data and evaluation benchmarks. This paper introduces RABAKBENCH 2, a new multilingual safety benchmark localized to Singapore’s unique linguistic context, covering Singlish, Chinese, Malay, and Tamil. RABAKBENCH is constructed through a scalable three-stage pipeline: (i) Generate - adversarial example generation by augmenting real Singlish web content with LLM-driven..."
 paper_summary: "Abstract: Large language models (LLMs) and their safety classifiers often perform poorly on low-resource languages due to limited training data and evaluation benchmarks. This paper introduces RABAKBENCH 2, a n | Overview: RabakBench: Scaling Human Annotations to Construct Localized Multilingual Safety Benchmarks for Low-Resource Languages Gabriel Chua1 ∗ Leanne Tan1 ∗ Ziyu Ge2 ∗ Roy Ka-Wei Lee1, 2 1GovTech, Singapore 2 | Methodology: for extending safety datasets to additional languages through carefully guided translation. Unlike prior approaches relying on direct translation, our | Key Findings: Models and Evaluation Metrics. We benchmarked 11 content safety models against RABAKBENCH, including 5 commercial services (AWS Bedrock Guardrails [47 | Conclusions: This paper introduced RABAKBENCH, a novel benchmark and scalable pipeline using LLMs to evaluate safety in low-resource languages, specifically within"
-local_pdf: "[[PDFs/2025/2025-Chua-RabakBench.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chua-RabakBench.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, DeepSeek, GPT-4o, Gemini, Llama-3, Mistral, o3-mini"
 DATA_URL: "https://huggingface.co/datasets/govtech/RabakBench"
@@ -119,7 +119,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Chua-RabakBench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Chua-RabakBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2507.05980
 - **DOI:** https://doi.org/10.48550/arXiv.2507.05980

@@ -41,7 +41,7 @@ authors: "Cheung, Vanessa; Maier, Maximilian; Lieder, Falk"
 doi: 10.1073/pnas.2412015122
 url: "https://www.pnas.org/doi/10.1073/pnas.2412015122"
 pdf_extract: "PDF Extracts/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.md"
-local_pdf: "[[PDFs/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.pdf]]"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: ""

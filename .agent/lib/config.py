@@ -90,7 +90,7 @@ if 'pdf_path' in _config:
     PDFS_DIR = _expand_path(_config['pdf_path'])
 else:
     # Fallback: check if PDFs exist at old location (for backward compatibility)
-    _legacy_pdfs = WORKSPACE_ROOT.parent / "PDFs"
+    _legacy_pdfs = WORKSPACE_ROOT.parent / "Lit-WS-PDFs"
     if _legacy_pdfs.exists():
         PDFS_DIR = _legacy_pdfs
     else:

@@ -55,7 +55,7 @@ external_pdf: "https://arxiv.org/pdf/2202.11176"
 publication: ACM
 CONF-CC: "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2025"
 pdf_extract: "PDF Extracts/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....md"
-local_pdf: "[[PDFs/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

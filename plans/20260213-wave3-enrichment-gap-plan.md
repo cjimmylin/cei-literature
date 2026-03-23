@@ -38,7 +38,7 @@ Use existing `comprehensive_pdf_finder.py` (13-strategy waterfall) targeting the
 **Script:** `PYTHON/comprehensive_pdf_finder.py` (existing)
 **Expected yield:** ~50-60% (35-43 papers) — many are regional/paywalled journals (Korean, Hebrew, CLARIN repositories)
 **Rate limits:** arXiv 3s, Semantic Scholar 10s, standard backoff
-**Output:** PDFs to `PDFs/YYYY/`, update `local_pdf` YAML field
+**Output:** PDFs to `Lit-WS-PDFs/YYYY/`, update `local_pdf` YAML field
 
 ### Step 3: Extract PDF Text (for newly downloaded PDFs)
 

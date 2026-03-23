@@ -52,7 +52,7 @@ external_pdf: "https://doi.org/10.26615/978-954-452-098-4-131"
 publication: Web
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....md"
-local_pdf: "[[PDFs/2025/2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

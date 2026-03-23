@@ -54,7 +54,7 @@ external_pdf: "https://europepmc.org/articles/PMC11288409?pdf=render"
 publication: Web
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md"
-local_pdf: "[[PDFs/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

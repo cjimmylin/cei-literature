@@ -85,7 +85,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Zhu-Steering Risk Preferences in Large Language.md"
 abstract: "Changing the behavior of large language models (LLMs) can be as straightforward as editing the Transformer’s residual streams using appropriately constructed “steering vectors.” These modifications to internal neural activations, a form of representation engineering, offer an effective and targeted means of influencing model behavior without retraining or fine-tuning the model. But how can such steering vectors be systematically identified?"
 paper_summary: "Abstract: Changing the behavior of large language models (LLMs) can be as straightforward as editing the Transformer's residual streams using appropriately constructed 'steering vectors.' These modifications to | Overview: arXiv:2505.11615v1 [cs.CL] 16 May 2025 Steering Risk Preferences in Large Language Models by Aligning Behavioral and Neural Representations Jian-Qiao Zhu∗ Department of Computer Science Princeton Univ | Methodology: for uncovering steering vectors by aligning latent representations elicited through behavioral methods (specifically, Markov chain Monte Carlo with LL | Conclusions: We investigated the use of aligned behavioral and neural representations of risk to steer LLM behavior across three risk-related domains: risky decisi"
-local_pdf: "[[PDFs/2025/2025-Zhu-Steering Risk Preferences in Large Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhu-Steering Risk Preferences in Large Language.pdf]]"
 key_contribution: "Proposes a principled approach for steering risk preferences in LLMs by aligning behavioral representations (elicited via MCMC) with neural representations (activations)."
 significance: "Bridges the gap between behavioral psychometrics and mechanistic interpretability, providing a lightweight, training-free way to control model risk-taking behavior for safer alignment."
 DATE_ADDED: 20260208
@@ -121,7 +121,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Zhu-Steering Risk Preferences in Large Language.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Zhu-Steering Risk Preferences in Large Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.11615
 - **DOI:** https://doi.org/10.48550/arXiv.2505.11615

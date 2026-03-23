@@ -48,7 +48,7 @@ authors: Luan Thanh Nguyen; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen
 url: "https://aclanthology.org/2022.paclic-1.31/"
 external_pdf: "https://arxiv.org/pdf/2209.10482.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.md"
-local_pdf: "[[PDFs/2022/2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.pdf]]"
 publication: "ACL Anthology / PACLIC 2022"
 CONF-CC: "N/A"
 DATE_ADDED: 20260213

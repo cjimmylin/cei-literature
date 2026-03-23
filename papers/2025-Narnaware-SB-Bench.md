@@ -88,7 +88,7 @@ significance: "Addresses the gap in *multimodal* bias evaluation, showing that L
 pdf_extract: "PDF Extracts/2025/2025-Narnaware-SB-Bench.md"
 abstract: "Warning: May contain offensive statements! Stereotype biases in Large Multimodal Models (LMMs) perpetuate harmful societal prejudices, undermining the fairness and equity of AI applications. As LMMs grow increasingly influential, addressing and mitigating inherent biases related to stereotypes, harmful generations, and ambiguous assumptions in real-world scenarios has become essential. However, existing datasets evaluating stereotype biases in LMMs often lack diversity, rely on synthetic..."
 paper_summary: "Abstract: Warning: May contain offensive statements! Stereotype biases in Large Multimodal Models (LMMs) per- petuate harmful societal prejudices, undermining the fair- ness and equity of AI applications. As LM | Overview: BBQ-V: Benchmarking Visual Stereotype Bias in Large Multimodal Models Vishal Narnaware* Ashmal Vayani* Rohit Gupta† Swetha Sirnam† Mubarak Shah Institute of Artificial Intelligence, University of Cent | Key Findings: and concluding that base LLM size has less effect on toxicity. Other approaches, like ModSCAN [42], evaluate biases through spatial location generatio | Conclusions: In this paper, we introduce BBQ-V, a benchmark for evaluat- ing stereotype biases in Large Multimodal Models (LMMs) through visually grounded contexts"
-local_pdf: "[[PDFs/2025/2025-Narnaware-SB-Bench.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Narnaware-SB-Bench.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Gemma, LLaMA, Llama-3, Phi-3, Qwen, Qwen-2"
@@ -123,7 +123,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Narnaware-SB-Bench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Narnaware-SB-Bench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2502.08779
 - **DOI:** https://doi.org/10.48550/arXiv.2502.08779

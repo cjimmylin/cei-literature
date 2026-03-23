@@ -49,7 +49,7 @@ authors: "Jing Yao; Xu, Tianyi; X & Xie"
 url: "https://arxiv.org/abs/2407.10725"
 external_pdf: "https://arxiv.org/pdf/2407.10725.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yao-CLAVE ValEval.md"
-local_pdf: "[[PDFs/2024/2024-Yao-CLAVE ValEval.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yao-CLAVE ValEval.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

@@ -84,7 +84,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Clymer-Generalization Analogies.md"
 abstract: "As AI systems become more intelligent and their behavior becomes more challenging to assess, they may learn to game the flaws of human feedback instead of genuinely striving to follow instructions; however, this risk can be mitigated by controlling how LLMs generalize human feedback to situations where it is unreliable. To better understand how reward models generalize, we craft 69 distribution shifts spanning 8 categories."
 paper_summary: "Abstract: As AI systems become more intelligent and their behavior becomes more challenging to assess, they may learn to game the flaws of human feed- back instead of genuinely striving to follow in- structions | Overview: Generalization Analogies (GENIES): A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains Joshua Clymer 1 Garrett Baker 2 Rohan Subramani 1 Sam Wang 1 Abstract As AI systems become more in"
-local_pdf: "[[PDFs/2023/2023-Clymer-Generalization Analogies.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Clymer-Generalization Analogies.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "LLaMA, ChatGPT, GPT-4"
 DATA_URL: "https://github.com/Joshuaclymer/GENIES"
@@ -118,7 +118,7 @@ data_metrics: "8 categories"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Clymer-Generalization Analogies.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Clymer-Generalization Analogies.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2311.07723
 - **DOI:** https://doi.org/10.48550/arXiv.2311.07723

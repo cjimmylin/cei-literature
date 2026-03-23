@@ -51,7 +51,7 @@ external_pdf: "https://aclanthology.org/2021.germeval-1.1.pdf"
 publication: "ACL Anthology"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2021/2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md"
-local_pdf: "[[PDFs/2021/2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"

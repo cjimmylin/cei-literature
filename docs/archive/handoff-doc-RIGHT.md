@@ -87,8 +87,8 @@ Two dashboards need deployment:
 ### Approach:
 These require **manual browser download**. For each:
 1. Open the URL in a browser
-2. Save the PDF to `PDFs/YYYY/` with the correct filename
-3. Run text extraction: `../.venv/bin/python PYTHON/extract_pdf_text.py "PDFs/YYYY/filename.pdf"`
+2. Save the PDF to `Lit-WS-PDFs/YYYY/` with the correct filename
+3. Run text extraction: `../.venv/bin/python PYTHON/extract_pdf_text.py "Lit-WS-PDFs/YYYY/filename.pdf"`
 4. Update the paper YAML: `local_pdf` and `pdf_extract` fields
 
 **Script for updating YAML after manual download:**
@@ -128,7 +128,7 @@ cd CEI-Lit-WS
 
 | Item | Count | Status | Notes |
 |------|-------|--------|-------|
-| Ochasi PDF | 1 | Pending | Manual browser download from `https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007`, save to `PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf` |
+| Ochasi PDF | 1 | Pending | Manual browser download from `https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007`, save to `Lit-WS-PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf` |
 | Unknown authors | 16 | Closed | All are institutional/non-academic (legit no individual author) |
 | Garbage author profiles | ~18 est. | Low priority | 8 already cleaned in Session 84; may be more suspicious profiles remaining |
 | `authors_incomplete: true` | ~66 est. | Low priority | Papers flagged during import; need API lookups for full author lists |
@@ -185,7 +185,7 @@ All current reports have `20260216-` prefix. Prior reports with `20260208-` and 
 3. **File deletion:** NEVER use `rm`. Always `mv` to `RECYCLE-BIN/`.
 4. **Validation:** Always run `validate_all_papers.py` after any batch YAML modifications.
 5. **Parallel agents:** Always verify result file freshness before consolidating. Rate-limited agents leave stale data.
-6. **PDF paths:** Use `rglob("*.pdf")` not `glob("*.pdf")` — PDFs are in year-based subdirs (`PDFs/YYYY/`).
+6. **PDF paths:** Use `rglob("*.pdf")` not `glob("*.pdf")` — PDFs are in year-based subdirs (`Lit-WS-PDFs/YYYY/`).
 7. **Glob metacharacters:** Filenames with `[[` and `]]` break `rglob()` — use `iterdir()` + explicit path construction instead.
 
 ---

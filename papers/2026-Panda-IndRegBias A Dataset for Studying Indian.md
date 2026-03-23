@@ -52,7 +52,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06477"
 external_pdf: "https://arxiv.org/pdf/2601.06477.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Panda-IndRegBias A Dataset for Studying Indian.md"
-local_pdf: "[[PDFs/2026/2026-Panda-IndRegBias A Dataset for Studying Indian.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Panda-IndRegBias A Dataset for Studying Indian.pdf]]"
 publication: "WebSearch: IndRegBias regional biases"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

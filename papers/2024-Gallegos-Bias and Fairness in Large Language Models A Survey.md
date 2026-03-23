@@ -57,7 +57,7 @@ external_pdf: "https://arxiv.org/pdf/2309.00770.pdf"
 publication: "arXiv / ACL Anthology"
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.md"
-local_pdf: "[[PDFs/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

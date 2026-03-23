@@ -1,6 +1,6 @@
 ---
 title: "2023-Shen-"Do Anything Now""
-source_pdf: "[[PDFs/2023-Shen-"Do Anything Now".pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2023-Shen-"Do Anything Now".pdf]]"
 extracted_date: "2026-01-28"
 extraction_method: "PyMuPDF"
 ---

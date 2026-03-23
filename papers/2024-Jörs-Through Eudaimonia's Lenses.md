@@ -48,7 +48,7 @@ authors: "Jörs, Julian Marvin; De Luca, Ernesto William"
 doi: N/A
 url: "https://www.researchgate.net/publication/380938771_Through_Eudaimonia's_Lenses_EudAImonic_Well-Being_Variables_As_Guiding_Principles_For_AI_Design"
 pdf_extract: "PDF Extracts/2024/2024-Jörs-Through Eudaimonia's Lenses.md"
-local_pdf: "[[PDFs/2024/2024-Jörs-Through Eudaimonia's Lenses.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Jörs-Through Eudaimonia's Lenses.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

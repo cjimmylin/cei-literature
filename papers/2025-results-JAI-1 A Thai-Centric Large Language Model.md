@@ -49,7 +49,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2510.08620"
 external_pdf: "https://arxiv.org/pdf/2510.08620.pdf"
 pdf_extract: "PDF Extracts/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.md"
-local_pdf: "[[PDFs/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

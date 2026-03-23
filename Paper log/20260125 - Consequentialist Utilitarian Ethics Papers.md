@@ -175,12 +175,12 @@ papers/2024-Sorin-Ethical Alignment of LLMs in Healthcare.md
 
 ### PDFs (7)
 ```
-PDFs/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment.pdf
-PDFs/2020-Serafimova-Whose Morality Which Rationality.pdf
-PDFs/2025-Tennant-Moral Alignment for LLM Agents.pdf
-PDFs/2024-Ji-MoralBench Moral Evaluation of LLMs.pdf
-PDFs/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf
-PDFs/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf
+Lit-WS-PDFs/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment.pdf
+Lit-WS-PDFs/2020-Serafimova-Whose Morality Which Rationality.pdf
+Lit-WS-PDFs/2025-Tennant-Moral Alignment for LLM Agents.pdf
+Lit-WS-PDFs/2024-Ji-MoralBench Moral Evaluation of LLMs.pdf
+Lit-WS-PDFs/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf
+Lit-WS-PDFs/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf
 ```
 
 ### PDF Extracts (7)

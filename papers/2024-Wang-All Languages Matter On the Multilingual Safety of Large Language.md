@@ -51,7 +51,7 @@ doi: 10.18653/v1/2024.findings-acl.349
 url: "https://arxiv.org/abs/2310.00905"
 external_pdf: "https://arxiv.org/pdf/2310.00905.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.md"
-local_pdf: "[[PDFs/2024/2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.pdf]]"
 publication: "arXiv / ACL Findings 2024"
 CONF-CC: "ACL 2024 Findings"
 DATE_ADDED: 20260213

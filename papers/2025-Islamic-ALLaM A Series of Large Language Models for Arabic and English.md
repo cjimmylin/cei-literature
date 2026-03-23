@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2407.15390.pdf"
 publication: OpenReview
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.md"
-local_pdf: "[[PDFs/2025/2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"

@@ -82,7 +82,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Boddington-Normative Ethical Theory AI Ethics.md"
 abstract: "Moral AI has been studied in the fields of phi- losophy and artificial intelligence. Although most existing studies are only theoretical, recent devel- opments in AI have made it increasingly neces- sary to implement AI with morality. On the other hand, humans are under the moral uncertainty of not knowing what is morally right. In this paper, we implement the Maximizing Expected Choicewor- thiness (MEC) algorithm, which aggregates out- puts of models based on three normative theories of normati"
 paper_summary: 
-local_pdf: "[[PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT"
 DATA_URL: NA
@@ -116,7 +116,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf|Open PDF]]
 
 - **URL:** https://link.springer.com/chapter/10.1007/978-981-19-9382-4_6
 - **DOI:** https://doi.org/10.1007/978-981-19-9382-4_6

@@ -39,7 +39,7 @@ def check_warning_boxes(content: str) -> List[str]:
 
 def check_unquoted_local_pdf(frontmatter: str) -> bool:
     """Check if local_pdf field has unquoted [[...]] syntax"""
-    pattern = r'^local_pdf:\s*\[\[PDFs/'
+    pattern = r'^local_pdf:\s*\[\[Lit-WS-PDFs/'
     return bool(re.search(pattern, frontmatter, re.MULTILINE))
 
 

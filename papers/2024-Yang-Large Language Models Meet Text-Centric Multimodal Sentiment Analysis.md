@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2406.08068.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.md"
-local_pdf: "[[PDFs/2024/2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

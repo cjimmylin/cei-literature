@@ -85,7 +85,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Kaddour-Challenges and Applications of Large Language.md"
 abstract: "Large Language Models (LLMs) went from non-existent to ubiquitous in the machine learning discourse within a few years. Due to the fast pace of the field, it is difficult to identify the remaining challenges and already fruitful application areas. In this paper, we aim to establish a systematic set of open problems and application successes so that ML researchers can comprehend the field’s current state more quickly and become productive."
 paper_summary: "Abstract: Large Language Models (LLMs) went from non-existent to ubiquitous in the machine learn- ing discourse within a few years. Due to the fast pace of the field, it is difficult to identify the remaining c | Overview: Challenges and Applications of Large Language Models Jean Kaddourα, †, ∗, Joshua Harrisβ, ∗, Maximilian Mozesα, Herbie Bradleyγ, δ, ϵ, Roberta Raileanuζ, and Robert McHardyη, ∗ αUniversity College Lon | Methodology: that extends the XLA [468] compiler. While SG- MoE selects the top-k experts with k > 1, the Switch Transformer (ST) [145] architecture uses k = 1 exp | Key Findings: Single-Turn Prompting Multi-Turn Prompting Input Output Self-Consistency Q: Lisa has 5 easy peelers. She buys 2 more nets with 6 each. How many easy p | Conclusions: 49 1 Introduction Given the quickly growing plethora of LLM re- search papers, we aim to address two questions: (1) Challenges: What problems remain u"
-local_pdf: "[[PDFs/2023/2023-Kaddour-Challenges and Applications of Large Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Kaddour-Challenges and Applications of Large Language.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -119,7 +119,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Kaddour-Challenges and Applications of Large Language.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Kaddour-Challenges and Applications of Large Language.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2307.10169
 - **DOI:** https://doi.org/10.48550/arXiv.2307.10169

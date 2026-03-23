@@ -88,7 +88,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.md"
 abstract: "Empirical human–AI alignment aims to make AI systems act in line with observed human behavior. While noble in its goals, we argue that empirical alignment can inadvertently introduce statistical biases that warrant caution. This position paper thus advocates against naive empirical alignment, offering prescriptive alignment and a posteriori empirical alignment as alternatives. We substantiate our principled argument by tangible examples like humancentric decoding of language models."
 paper_summary: "Abstract: Empirical human–AI alignment aims to make AI systems act in line with observed human behavior. While noble in its goals, we argue that empirical alignment can in- advertently introduce statistical bia | Overview: A Statistical Case Against Empirical Human–AI Alignment Julian Rodemann 1 Esteban Garcés Arias 1 2 Christoph Luther 3 4 Christoph Jansen 5 Thomas Augustin 1 Abstract Empirical human–AI alignment aims  | Methodology: Score CS = #(CS is better ) + 0.5 × #( tie ) #(CS is better ) + #( tie ) + #( DoubleExp is better ) Score DoubleExp = 100 −Score CS. 15 --- Page 16 -- | Key Findings: ˆθ ∈Θ through empirical risk minimization, see def- inition 2.1, as is often the case. If data is sampled anew from a different population for alignme | Conclusions: AI alignment is a double-edged sword. Done well, it makes AI safer. Done poorly, it biases models and limits their potential for discovery. This paper"
-local_pdf: "[[PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2"
 DATA_URL: "NA"
@@ -122,7 +122,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2502.14581
 - **DOI:** https://doi.org/10.48550/arXiv.2502.14581

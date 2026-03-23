@@ -52,7 +52,7 @@ external_pdf: "https://arxiv.org/pdf/2412.15035.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md"
-local_pdf: "[[PDFs/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French, German, Italian, Spanish"
 cultures_nationalities_list: "French, German, Italian, Spanish"

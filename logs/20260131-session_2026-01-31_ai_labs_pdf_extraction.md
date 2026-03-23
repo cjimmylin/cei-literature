@@ -52,7 +52,7 @@ Successfully launched 10 background agents processing ~30 PDFs each:
 
 ### Performance Metrics
 - **Total Processing Time:** ~5-10 minutes (parallel execution)
-- **Throughput:** ~27-54 PDFs/minute across all agents
+- **Throughput:** ~27-54 Lit-WS-PDFs/minute across all agents
 - **Success Rate:** 100% agent completion
 - **New Extractions:** 23 files (8.5% of total)
 

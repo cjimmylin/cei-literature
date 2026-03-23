@@ -56,7 +56,7 @@ external_pdf: "https://reference-global.com/2/v2/download/article/10.2478/jazcas
 publication: "Jazykovedny casopis"
 CONF-CC: "Journal of Linguistics/Jazykovedný casopis"
 pdf_extract: "PDF Extracts/2025/2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment.md"
-local_pdf: "[[PDFs/2025/2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

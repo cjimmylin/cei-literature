@@ -661,7 +661,7 @@ Search these sources:
    - LibGen: https://libgen.is
 3. **Download the PDF**
 4. **Rename to the exact filename** shown above
-5. **Place in the `PDFs/` folder**
+5. **Place in the `Lit-WS-PDFs/` folder**
 
 ## Batch Processing Tips
 

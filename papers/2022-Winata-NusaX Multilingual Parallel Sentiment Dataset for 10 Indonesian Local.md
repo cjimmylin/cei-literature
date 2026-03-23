@@ -48,7 +48,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2205.15960"
 external_pdf: "https://arxiv.org/pdf/2205.15960.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.md"
-local_pdf: "[[PDFs/2022/2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.pdf]]"
 publication: "arXiv / ACL Anthology (EACL 2023, Outstanding Paper)"
 CONF-CC: "EACL 2023"
 DATE_ADDED: 20260213

@@ -43,7 +43,7 @@ authors: "Odero, Brenda; Nderitu, David; Samuel, Gabrielle"
 doi: 10.12688/wellcomeopenres.23021.1
 url: "https://wellcomeopenresearch.org/articles/9-625"
 pdf_extract: "PDF Extracts/2024/2024-Odero-The Ubuntu Way.md"
-local_pdf: "[[PDFs/2024/2024-Odero-The Ubuntu Way.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Odero-The Ubuntu Way.pdf]]"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African/Ubuntu"
 languages_list: ""
@@ -102,7 +102,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Odero-The Ubuntu Way.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Odero-The Ubuntu Way.pdf|Open PDF]]
 
 - **PubMed:** https://pubmed.ncbi.nlm.nih.gov/
 

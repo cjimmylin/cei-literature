@@ -52,7 +52,7 @@ authors: Yejin Lee; Su-Hyeon Kim; Hyundong Jin; Dayoung Kim; Yeonsoo Kim; Yo-Sub
 url: "https://arxiv.org/abs/2510.10961"
 external_pdf: "https://arxiv.org/pdf/2510.10961.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.md"
-local_pdf: "[[PDFs/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

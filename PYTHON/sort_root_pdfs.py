@@ -2,7 +2,7 @@
 """
 Sort root-level PDFs into year-based subdirectories and update paper YAML.
 
-Moves PDFs directly in PDFs/ (not in year subdirs) into PDFs/YYYY/ based on
+Moves PDFs directly in Lit-WS-PDFs/ (not in year subdirs) into Lit-WS-PDFs/YYYY/ based on
 the filename prefix, and updates the corresponding paper's local_pdf wikilink.
 
 Usage:
@@ -92,9 +92,9 @@ def main():
         if paper_path.exists():
             content = paper_path.read_text(encoding="utf-8")
 
-            # Match local_pdf pointing to root: "[[PDFs/filename.pdf]]"
-            old_wikilink = '"[[PDFs/{}]]"'.format(filename)
-            new_wikilink = '"[[PDFs/{}/{}]]"'.format(year, filename)
+            # Match local_pdf pointing to root: "[[Lit-WS-PDFs/filename.pdf]]"
+            old_wikilink = '"[[Lit-WS-PDFs/{}]]"'.format(filename)
+            new_wikilink = '"[[Lit-WS-PDFs/{}/{}]]"'.format(year, filename)
 
             # Safe regex: replace the local_pdf line
             new_content, n = re.subn(

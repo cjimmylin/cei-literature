@@ -48,7 +48,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2510.02336"
 external_pdf: "https://arxiv.org/pdf/2510.02336.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.md"
-local_pdf: "[[PDFs/2025/2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

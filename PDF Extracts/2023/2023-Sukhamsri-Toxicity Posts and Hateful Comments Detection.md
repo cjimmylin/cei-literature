@@ -1,6 +1,6 @@
 ---
 title: "2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection"
-source_pdf: "[[PDFs/2023/2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2023/2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.pdf]]"
 extracted_date: "2026-02-14"
 extraction_method: "PyMuPDF"
 ---

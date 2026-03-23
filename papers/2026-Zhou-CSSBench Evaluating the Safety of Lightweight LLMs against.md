@@ -49,7 +49,7 @@ url: "https://arxiv.org/abs/2601.00588"
 external_pdf: "https://arxiv.org/pdf/2601.00588.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2026/2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"

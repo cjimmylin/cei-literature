@@ -49,7 +49,7 @@ url: "https://link.springer.com/article/10.1007/s43681-025-00879-2"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00879-2.pdf"
 publication: AI and Ethics (Springer)
 CONF-CC: "AI and Ethics"
-local_pdf: "[[PDFs/2025/2025-Maldonado-Indigenous Ethics and Artificial Intelligence.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Maldonado-Indigenous Ethics and Artificial Intelligence.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Latin American"

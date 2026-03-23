@@ -19,7 +19,7 @@ CEI-Literature-Vault/
 ├── classify_ethics_perspective.py
 ├── ... (28 more .py files scattered in root)
 ├── papers/
-├── PDFs/
+├── Lit-WS-PDFs/
 └── ...
 ```
 
@@ -33,7 +33,7 @@ CEI-Literature-Vault/
 │   ├── ... (29 total scripts)
 │   └── populate_authors.py
 ├── papers/
-├── PDFs/
+├── Lit-WS-PDFs/
 └── ...
 ```
 

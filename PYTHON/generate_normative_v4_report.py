@@ -277,7 +277,7 @@ def generate_report(papers: list[dict], r2_raw_yes: int, r2_raw_bl: int) -> str:
     # ===== PDF ORGANIZATION BY FRAMEWORK (NEW IN V4) =====
     L("## PDF Organization by Framework")
     L()
-    L("PDFs are organized into `PDFs/{Framework}/{Confirmed|Borderline}/` subfolders.")
+    L("PDFs are organized into `Lit-WS-PDFs/{Framework}/{Confirmed|Borderline}/` subfolders.")
     L()
 
     # Count files actually on disk in each framework subfolder

@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2409.08706"
 external_pdf: "https://arxiv.org/pdf/2409.08706.pdf"
 pdf_extract: "PDF Extracts/2024/2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.md"
-local_pdf: "[[PDFs/2024/2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

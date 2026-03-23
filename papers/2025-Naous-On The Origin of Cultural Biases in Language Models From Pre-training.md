@@ -50,7 +50,7 @@ url: "https://aclanthology.org/2025.naacl-long.326/"
 external_pdf: "https://aclanthology.org/2025.naacl-long.326.pdf"
 publication: NAACL 2025
 CONF-CC: "NAACL 2025"
-local_pdf: "[[PDFs/2025/2025-Naous-On The Origin of Cultural Biases in Language Models From Pre-training.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Naous-On The Origin of Cultural Biases in Language Models From Pre-training.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Naous-On The Origin of Cultural Biases in Language Models From Pre-training.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic, Western, Multicultural/Cross-cultural"

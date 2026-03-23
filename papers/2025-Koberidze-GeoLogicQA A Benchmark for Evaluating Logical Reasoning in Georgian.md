@@ -50,7 +50,7 @@ external_pdf: "https://aclanthology.org/2025.lowresnlp-1.13.pdf"
 publication: "ACL Anthology / LowResNLP 2025"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.md"
-local_pdf: "[[PDFs/2025/2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

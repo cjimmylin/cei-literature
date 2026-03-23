@@ -86,7 +86,7 @@ tags:
 abstract: "' Content Warning: some examples in this paper may be offensive or upsetting. Conversational agents have come increasingly closer to human competence in open-domain dialogue settings; however, such models can reﬂect insensitive, hurtful, or entirely incoherent viewpoints that erode a user’s trust in the moral integrity of the system. Moral deviations are difﬁcult to mitigate because moral judgments are not universal, and there may be multiple competing judgments that apply to a situation..."
 pdf: "http://arxiv.org/pdf/2204.03021"
 pdf_extract: "PDF Extracts/2022/2022-Ziems-The Moral Integrity Corpus.md"
-local_pdf: "[[PDFs/2022/2022-Ziems-The Moral Integrity Corpus.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Ziems-The Moral Integrity Corpus.pdf]]"
 publication: "ACL 2022"
 CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208

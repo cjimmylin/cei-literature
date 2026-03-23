@@ -48,7 +48,7 @@ url: "https://arxiv.org/abs/2503.01769"
 external_pdf: "https://arxiv.org/pdf/2503.01769.pdf"
 publication: arXiv / ACM FAccT 2025
 CONF-CC: "FAccT 2025"
-local_pdf: "[[PDFs/2025/2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Hebrew/Israeli, Arabic, Multicultural/Cross-cultural"

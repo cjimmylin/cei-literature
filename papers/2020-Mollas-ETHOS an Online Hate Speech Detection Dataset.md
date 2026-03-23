@@ -54,7 +54,7 @@ external_pdf: "https://arxiv.org/pdf/2006.08328.pdf"
 publication: "arXiv / Complex & Intelligent Systems"
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.md"
-local_pdf: "[[PDFs/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

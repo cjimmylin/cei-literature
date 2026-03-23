@@ -44,7 +44,7 @@ doi: 10.1093/oso/9780197759080.001.0001
 isbn: 9780197759066
 url: "https://global.oup.com/academic/product/the-ai-mirror-9780197759066"
 pdf_extract: "PDF Extracts/2024/2024-Vallor-The AI Mirror.md"
-local_pdf: "[[PDFs/2024/2024-Vallor-The AI Mirror.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Vallor-The AI Mirror.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

@@ -54,7 +54,7 @@ authors_incomplete: false
 url: 
 external_pdf: "https://core.ac.uk/download/213021265.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.md"
-local_pdf: "[[PDFs/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.pdf]]"
 publication: "Journal of Intelligent and Fuzzy Systems"
 CONF-CC: "Journal of Intelligent and Fuzzy Systems"
 DATE_ADDED: 20260213

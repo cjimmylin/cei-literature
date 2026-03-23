@@ -1,6 +1,6 @@
 ---
 title: "Overview of GermEval Task 2, 2019 Shared Task on the Identification of Offensive Language"
-source_pdf: "[[PDFs/2019-Kreutz-GermEval 2019 Task 2.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2019-Kreutz-GermEval 2019 Task 2.pdf]]"
 pages: 12
 extracted_at: 2025-01-29
 ---

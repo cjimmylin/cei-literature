@@ -85,7 +85,7 @@ significance: "Moves beyond binary classification (Toxic/Not Toxic) to 'explaina
 tags: 
 abstract: "This paper describes the system submitted to SemEval 2021 Task 5: Toxic Spans Detection. The task concerns evaluating systems that detect the spans that make a text toxic when detecting such spans are possible. To address the possibly multi-span detection problem, we develop a start-to-end tagging framework on the top of RoBERTa based language model. Besides, we design a custom loss function which take distance into account. In comparison to other participating teams, our system has achieved 69."
 pdf_extract: "PDF Extracts/2021/2021-Wang-MedAI at SemEval-2021 Task 5.md"
-local_pdf: "[[PDFs/2021/2021-Wang-MedAI at SemEval-2021 Task 5.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Wang-MedAI at SemEval-2021 Task 5.pdf]]"
 CONF-CC: "SemEval 2021"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"

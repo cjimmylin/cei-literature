@@ -54,7 +54,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2411.10954"
 external_pdf: "https://arxiv.org/pdf/2411.10954.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency.md"
-local_pdf: "[[PDFs/2024/2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

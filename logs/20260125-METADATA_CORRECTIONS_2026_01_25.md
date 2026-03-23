@@ -75,7 +75,7 @@ authors: "Yutao Mou; Shikun Zhang; Wei Ye"
 1. `/papers/2024-Mou-SG-Bench.md` - Updated first_author and authors fields
 2. Moved to RECYCLE-BIN:
    - `/papers/2024-Zhang-MIRAGE-Bench.md`
-   - `/PDFs/2024-Zhang-MIRAGE-Bench.pdf`
+   - `/Lit-WS-PDFs/2024-Zhang-MIRAGE-Bench.pdf`
    - `/PDF Extracts/2024-Zhang-MIRAGE-Bench.md`
 
 ---

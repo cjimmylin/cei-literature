@@ -50,7 +50,7 @@ url: "https://arxiv.org/abs/2509.19265"
 external_pdf: "https://arxiv.org/pdf/2509.19265.pdf"
 publication: arXiv / EMNLP 2025 Findings
 CONF-CC: "EMNLP 2025 Findings"
-local_pdf: "[[PDFs/2025/2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"

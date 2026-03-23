@@ -84,7 +84,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Kirgis-Differences in Moral Foundations of LLMs.md"
 abstract: "Large language models are increasingly being used in critical domains of politics, business, and education, but the nature of their normative ethical judgment remains opaque. Alignment research has, to date, not sufficiently utilized perspectives and insights from the field of moral psychology to inform training and evaluation of frontier models. I perform a synthetic experiment on a wide range of models from most major model providers using Jonathan Haidt’s influential moral foundations theory..."
 paper_summary: 
-local_pdf: "[[PDFs/2024/2024-Kirgis-Differences in Moral Foundations of LLMs.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kirgis-Differences in Moral Foundations of LLMs.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "LLM Moral Foundations"
 LLM_assessed: "Claude-3 Opus, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Gemini, Grok, Llama-3, o3-mini"

@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2502.12932"
 external_pdf: "https://arxiv.org/pdf/2502.12932.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.md"
-local_pdf: "[[PDFs/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.pdf]]"
 publication: "arXiv / ACL Anthology (MRL 2025)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

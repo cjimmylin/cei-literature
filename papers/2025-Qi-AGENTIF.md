@@ -84,7 +84,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Qi-AGENTIF.md"
 abstract: "Large Language Models (LLMs) have demonstrated advanced capabilities in realworld agentic applications. Growing research efforts aim to develop LLM-based agents to address practical demands, introducing a new challenge: agentic scenarios often involve lengthy instructions with complex constraints, such as extended system prompts and detailed tool specifications. While adherence to such instructions is crucial for agentic applications, whether LLMs can reliably follow them remains underexplored."
 paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated advanced capabilities in real- world agentic applications. Growing research efforts aim to develop LLM-based agents to address practical demands, introdu | Overview: arXiv:2505.16944v1 [cs.AI] 22 May 2025 AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios Yunjia Qi1∗, Hao Peng1∗, Xiaozhi Wang1, Amy Xin1, Youfeng Liu2, Bin Xu1 | Methodology: Evaluation Generation Evaluation Method Figure 3: The data construction process and evaluation workflow of AGENTIF. The detailed descrip- tions of dif | Key Findings: protocol (§ 3.4). Figure 3 illustrates the dataset construction and evaluation workflow of AGENTIF. 3 --- Page 4 --- STEP1: Instruction Collection STE | Conclusions: topics, prioritize maintaining the time-boxed structure."
-local_pdf: "[[PDFs/2025/2025-Qi-AGENTIF.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Qi-AGENTIF.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Llama-3, Mistral, Qwen, o1"
 DATA_URL: "https://github.com/THU-KEG/AgentIF"
@@ -118,7 +118,7 @@ data_metrics: "723 words; 630 words"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Qi-AGENTIF.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Qi-AGENTIF.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.16944
 - **DOI:** https://doi.org/10.48550/arXiv.2505.16944

@@ -49,7 +49,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2508.09115"
 external_pdf: "https://arxiv.org/pdf/2508.09115.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.md"
-local_pdf: "[[PDFs/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

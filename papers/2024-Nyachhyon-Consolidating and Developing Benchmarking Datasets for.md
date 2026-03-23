@@ -51,7 +51,7 @@ authors: Jinu Nyachhyon; Mridul Sharma; Prajwal Thapa; Bal Krishna Bal
 url: "https://arxiv.org/abs/2411.19244"
 external_pdf: "https://arxiv.org/pdf/2411.19244.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nyachhyon-Consolidating and Developing Benchmarking Datasets for.md"
-local_pdf: "[[PDFs/2024/2024-Nyachhyon-Consolidating and Developing Benchmarking Datasets for.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Nyachhyon-Consolidating and Developing Benchmarking Datasets for.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

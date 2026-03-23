@@ -62,11 +62,11 @@ Obsidian wikilinks MUST be quoted in YAML:
 
 ```yaml
 # WRONG - breaks YAML parsing
-local_pdf: [[PDFs/file.pdf]]
+local_pdf: [[Lit-WS-PDFs/file.pdf]]
 first_author: [[Author Name]]
 
 # CORRECT - quoted
-local_pdf: "[[PDFs/file.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/file.pdf]]"
 first_author: "[[Author Name]]"
 ```
 

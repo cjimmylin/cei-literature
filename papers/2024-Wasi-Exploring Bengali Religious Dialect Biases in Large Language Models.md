@@ -53,7 +53,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2407.18376"
 external_pdf: "https://arxiv.org/pdf/2407.18376.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md"
-local_pdf: "[[PDFs/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

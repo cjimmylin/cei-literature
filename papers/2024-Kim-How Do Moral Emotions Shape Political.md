@@ -86,7 +86,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-3.5"
 DATA_URL: "https://github.com/Paul-scpark/Moral-Emotion"
 pdf_extract: "PDF Extracts/2024/2024-Kim-How Do Moral Emotions Shape Political.md"
-local_pdf: "[[PDFs/2024/2024-Kim-How Do Moral Emotions Shape Political.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kim-How Do Moral Emotions Shape Political.pdf]]"
 CONFERENCE: "ACL 2024"
 ethics_overall: 20
 virtue_ethics: 0

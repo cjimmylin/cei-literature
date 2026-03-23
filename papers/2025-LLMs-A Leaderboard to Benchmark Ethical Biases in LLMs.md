@@ -54,7 +54,7 @@ external_pdf: "https://ceur-ws.org/Vol-3744/paper1.pdf"
 publication: CEUR-WS
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.md"
-local_pdf: "[[PDFs/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

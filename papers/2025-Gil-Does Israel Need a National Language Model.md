@@ -47,7 +47,7 @@ authors: Baram, Gil; Lavi, Hadas; Shapira, Noa
 url: "https://www.inss.org.il/publication/israel-ai/"
 publication: INSS (Institute for National Security Studies)
 CONF-CC: "N/A"
-local_pdf: "[[PDFs/2025/2025-Gil-Does Israel Need a National Language Model.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gil-Does Israel Need a National Language Model.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Gil-Does Israel Need a National Language Model.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Hebrew/Israeli"

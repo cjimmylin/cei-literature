@@ -50,7 +50,7 @@ external_pdf: "https://arxiv.org/pdf/2602.02182.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2026/2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across.md"
-local_pdf: "[[PDFs/2026/2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

@@ -44,7 +44,7 @@ authors: "Keith J. Holyoak; Powell, Derek"
 doi: 10.1037/bul0000075
 url: "https://doi.apa.org/doi/10.1037/bul0000075"
 pdf_extract: "PDF Extracts/2016/2016-Holyoak-Deontological coherence.md"
-local_pdf: "[[PDFs/2016/2016-Holyoak-Deontological coherence.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2016/2016-Holyoak-Deontological coherence.pdf]]"
 external_pdf: "https://reasoninglab.psych.ucla.edu/wp-content/uploads/sites/273/2021/04/Holyoak_Powell.2016.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

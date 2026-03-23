@@ -54,7 +54,7 @@ external_pdf: "https://www.koreascience.kr/article/JAKO202530450459760.pdf"
 publication: "Korea Science (Informatization Policy)"
 CONF-CC: "Korea Science (Informatization Policy)"
 pdf_extract: "PDF Extracts/2025/2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using.md"
-local_pdf: "[[PDFs/2025/2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"

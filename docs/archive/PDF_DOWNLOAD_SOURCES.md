@@ -117,16 +117,16 @@ When automated downloads fail (typically 15-20% of papers):
 
 ```bash
 # Check if file is actually PDF
-head -c 4 "PDFs/file.pdf"  # Should show "%PDF"
+head -c 4 "Lit-WS-PDFs/file.pdf"  # Should show "%PDF"
 
 # Find 0-byte files
 find PDFs -name "*.pdf" -size 0
 
 # Verify all PDFs are valid
-file PDFs/*.pdf | grep -v "PDF document"
+file Lit-WS-PDFs/*.pdf | grep -v "PDF document"
 
 # Count PDFs
-ls PDFs/*.pdf 2>/dev/null | wc -l
+ls Lit-WS-PDFs/*.pdf 2>/dev/null | wc -l
 ```
 
 ## curl Examples
@@ -136,13 +136,13 @@ ls PDFs/*.pdf 2>/dev/null | wc -l
 curl -L -H "User-Agent: Mozilla/5.0" -o "output.pdf" "URL"
 
 # arXiv
-curl -L -o "PDFs/2024-Author-Title.pdf" "https://arxiv.org/pdf/2404.18460.pdf"
+curl -L -o "Lit-WS-PDFs/2024-Author-Title.pdf" "https://arxiv.org/pdf/2404.18460.pdf"
 
 # Springer OA
-curl -L -o "PDFs/2024-Author-Title.pdf" "https://link.springer.com/content/pdf/10.1007/s00146-022-01545-5.pdf"
+curl -L -o "Lit-WS-PDFs/2024-Author-Title.pdf" "https://link.springer.com/content/pdf/10.1007/s00146-022-01545-5.pdf"
 
 # ACL Anthology
-curl -L -o "PDFs/2024-Author-Title.pdf" "https://aclanthology.org/2024.acl-long.123.pdf"
+curl -L -o "Lit-WS-PDFs/2024-Author-Title.pdf" "https://aclanthology.org/2024.acl-long.123.pdf"
 ```
 
 ## Python Download Function

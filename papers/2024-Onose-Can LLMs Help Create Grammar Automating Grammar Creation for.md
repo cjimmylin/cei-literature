@@ -52,7 +52,7 @@ external_pdf: "https://arxiv.org/pdf/2412.10960.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Onose-Can LLMs Help Create Grammar Automating Grammar Creation for.md"
-local_pdf: "[[PDFs/2024/2024-Onose-Can LLMs Help Create Grammar Automating Grammar Creation for.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Onose-Can LLMs Help Create Grammar Automating Grammar Creation for.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -4,7 +4,7 @@ This module provides utilities for validating PDF links,
 finding orphaned or missing PDFs, and checking extract file integrity.
 
 PDF/extract files are organized in year-based subdirectories:
-  PDFs/2024/2024-Author-Title.pdf
+  Lit-WS-PDFs/2024/2024-Author-Title.pdf
   PDF Extracts/2024/2024-Author-Title.md
 """
 
@@ -20,7 +20,7 @@ from lib.yaml_utils import extract_frontmatter, parse_frontmatter
 def resolve_pdf_path(pdf_filename: str) -> Path:
     """Resolve a PDF filename to its year-based subdirectory path.
 
-    Checks PDFs/YYYY/filename first, falls back to PDFs/filename.
+    Checks Lit-WS-PDFs/YYYY/filename first, falls back to Lit-WS-PDFs/filename.
     """
     year_match = re.match(r'^(\d{4})-', pdf_filename)
     if year_match:
@@ -33,12 +33,12 @@ def resolve_pdf_path(pdf_filename: str) -> Path:
 def make_pdf_wikilink(pdf_filename: str) -> str:
     """Construct local_pdf YAML value with year subdirectory.
 
-    Example: '"[[PDFs/2024/2024-Author-Title.pdf]]"'
+    Example: '"[[Lit-WS-PDFs/2024/2024-Author-Title.pdf]]"'
     """
     year_match = re.match(r'^(\d{4})-', pdf_filename)
     if year_match:
-        return f'"[[PDFs/{year_match.group(1)}/{pdf_filename}]]"'
-    return f'"[[PDFs/{pdf_filename}]]"'
+        return f'"[[Lit-WS-PDFs/{year_match.group(1)}/{pdf_filename}]]"'
+    return f'"[[Lit-WS-PDFs/{pdf_filename}]]"'
 
 
 def make_extract_path(extract_filename: str) -> str:
@@ -71,14 +71,14 @@ def validate_pdf_link(local_pdf: str, paper_name: str) -> Dict[str, any]:
         "path": None,
     }
 
-    # Extract filename from wikilink: "[[PDFs/file.pdf]]"
+    # Extract filename from wikilink: "[[Lit-WS-PDFs/file.pdf]]"
     if not local_pdf:
         result["valid"] = False
         result["errors"].append("No PDF link")
         return result
 
     # Remove wikilink markers and quotes
-    pdf_filename = local_pdf.strip('"').strip('[]').replace("PDFs/", "")
+    pdf_filename = local_pdf.strip('"').strip('[]').replace("Lit-WS-PDFs/", "")
     pdf_path = PDFS_DIR / pdf_filename
 
     if not pdf_path.exists():
@@ -130,7 +130,7 @@ def validate_extract_link(pdf_extract: str, paper_name: str) -> Dict[str, any]:
 def find_orphaned_pdfs() -> List[Path]:
     """Find PDFs not referenced by any paper.
 
-    Searches all year subdirectories (PDFs/YYYY/*.pdf) and root.
+    Searches all year subdirectories (Lit-WS-PDFs/YYYY/*.pdf) and root.
 
     Returns:
         List of Path objects for orphaned PDF files
@@ -147,7 +147,7 @@ def find_orphaned_pdfs() -> List[Path]:
         fields = parse_frontmatter(fm)
 
         if "local_pdf" in fields:
-            pdf = fields["local_pdf"].strip('"').strip('[]').replace("PDFs/", "")
+            pdf = fields["local_pdf"].strip('"').strip('[]').replace("Lit-WS-PDFs/", "")
             # After migration, pdf may be "2024/filename.pdf" — extract basename
             referenced.add(Path(pdf).name)
 

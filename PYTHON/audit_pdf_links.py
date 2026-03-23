@@ -8,7 +8,7 @@ categorizing them by link status:
 Categories:
 - Valid: Properly formatted link pointing to existing PDF
 - N/A: Explicitly marked as not available
-- Missing Prefix: PDF exists but path missing "PDFs/" prefix
+- Missing Prefix: PDF exists but path missing "Lit-WS-PDFs/" prefix
 - File Not Found: Link points to non-existent PDF file
 - Malformed: Link format is invalid
 - Missing Field: No local_pdf field in frontmatter
@@ -79,8 +79,8 @@ def audit_links():
         else:
             link_path = link_val
             
-        if link_path.startswith("PDFs/"):
-            # After year migration, link_path may be "PDFs/2024/file.pdf"
+        if link_path.startswith("Lit-WS-PDFs/"):
+            # After year migration, link_path may be "Lit-WS-PDFs/2024/file.pdf"
             # Extract basename for set lookup
             clean_name = Path(link_path).name
             if clean_name in pdf_files:

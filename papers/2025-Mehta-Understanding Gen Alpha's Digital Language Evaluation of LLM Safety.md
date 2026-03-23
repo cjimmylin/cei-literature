@@ -50,7 +50,7 @@ doi: 10.1145/3715275.3732184
 url: "https://arxiv.org/abs/2505.10588"
 external_pdf: "https://arxiv.org/pdf/2505.10588.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.md"
-local_pdf: "[[PDFs/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

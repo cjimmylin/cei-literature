@@ -50,7 +50,7 @@ doi: 10.1162/tacl_a_00726
 url: "https://arxiv.org/abs/2404.01854"
 external_pdf: "https://arxiv.org/pdf/2404.01854.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.md"
-local_pdf: "[[PDFs/2024/2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.pdf]]"
 publication: "arXiv / ACL Anthology"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

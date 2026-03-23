@@ -52,7 +52,7 @@ publication: Unknown
 CONF-CC: "Preprint"
 external_pdf: "https://arxiv.org/pdf/2601.16513v1.pdf"
 pdf_extract: "PDF Extracts/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md"
-local_pdf: "[[PDFs/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

@@ -53,7 +53,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2501.08284"
 external_pdf: "https://arxiv.org/pdf/2501.08284.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ousidhoum-AfriHate A Multilingual Collection of Hate.md"
-local_pdf: "[[PDFs/2025/2025-Ousidhoum-AfriHate A Multilingual Collection of Hate.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ousidhoum-AfriHate A Multilingual Collection of Hate.pdf]]"
 publication: "WebSearch: AfriHate African hate speech dataset benchmark"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

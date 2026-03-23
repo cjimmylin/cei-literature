@@ -54,7 +54,7 @@ external_pdf: "https://arxiv.org/pdf/2411.15594.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Gu-A Survey on LLM-as-a-Judge.md"
-local_pdf: "[[PDFs/2024/2024-Gu-A Survey on LLM-as-a-Judge.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Gu-A Survey on LLM-as-a-Judge.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -55,7 +55,7 @@ external_pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/30237/32202"
 publication: AAAI
 CONF-CC: "AAAI 2024"
 pdf_extract: "PDF Extracts/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md"
-local_pdf: "[[PDFs/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

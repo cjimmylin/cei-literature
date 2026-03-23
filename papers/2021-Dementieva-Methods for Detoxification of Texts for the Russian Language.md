@@ -50,7 +50,7 @@ doi: 10.3390/mti5090054
 url: "https://www.mdpi.com/2414-4088/5/9/54"
 external_pdf: "https://arxiv.org/pdf/2105.09052.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.md"
-local_pdf: "[[PDFs/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.pdf]]"
 publication: "MDPI / arXiv"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

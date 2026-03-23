@@ -226,7 +226,7 @@ For each paper:
   2. Validate it's HTTP(S) and not a local file:// URL
   3. Attempt download with 30-second timeout
   4. Verify PDF header (must start with %PDF)
-  5. Save to PDFs/ directory
+  5. Save to Lit-WS-PDFs/ directory
   6. Update metadata with local_pdf field
   7. Log success/failure with reason
   8. Continue to next paper
@@ -367,7 +367,7 @@ python3 PYTHON/comprehensive_pdf_manager.py --discover
 - ✅ `20260124-pdf_sources_log.json` - Source tracking (auto-created by Phase 2)
 
 ### PDFs Directory
-- ✅ `PDFs/` - Now contains 375 papers (was 56)
+- ✅ `Lit-WS-PDFs/` - Now contains 375 papers (was 56)
 
 ---
 
@@ -432,7 +432,7 @@ python3 PYTHON/download_all_pdfs.py --phase 2
 python3 PYTHON/find_public_pdfs.py --download-all
 
 # Count PDFs
-ls -1 PDFs/*.pdf | wc -l
+ls -1 Lit-WS-PDFs/*.pdf | wc -l
 
 # Analyze remaining
 python3 PYTHON/comprehensive_pdf_manager.py --discover

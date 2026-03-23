@@ -82,7 +82,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Claude-3 Haiku, Claude-3 Opus, Falcon, GPT-4, Gemini, Gemma, Llama-3, Mistral, Mixtral, Yi"
 DATA_URL: "https://github.com/noehsueh/greatest-good-benchmark"
 pdf_extract: "PDF Extracts/2024/2024-Marraffini-The Greatest Good Benchmark.md"
-local_pdf: "[[PDFs/2024/2024-Marraffini-The Greatest Good Benchmark.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Marraffini-The Greatest Good Benchmark.pdf]]"
 normative_ethics_benchmark: Yes
 CONFERENCE: "EMNLP 2024"
 ethics_overall: 15

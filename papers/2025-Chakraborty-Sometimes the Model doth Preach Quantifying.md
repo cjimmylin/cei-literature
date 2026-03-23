@@ -52,7 +52,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2503.07510"
 external_pdf: "https://arxiv.org/pdf/2503.07510.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.md"
-local_pdf: "[[PDFs/2025/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.pdf]]"
 publication: "arXiv (preprint)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

@@ -52,7 +52,7 @@ url: "https://arxiv.org/abs/2505.22645"
 external_pdf: "https://arxiv.org/pdf/2505.22645.pdf"
 publication: ACM FAccT 2025
 CONF-CC: "FAccT 2025"
-local_pdf: "[[PDFs/2025/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"

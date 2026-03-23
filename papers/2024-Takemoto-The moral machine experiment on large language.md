@@ -89,7 +89,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, PaLM-2"
 DATA_URL: "https://doi.org/10.5061/dryad.d7wm37q6v"
 pdf_extract: "PDF Extracts/2024/2024-Takemoto-The moral machine experiment on large language.md"
-local_pdf: "[[PDFs/2024/2024-Takemoto-The moral machine experiment on large language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Takemoto-The moral machine experiment on large language.pdf]]"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Journal"
 ethics_overall: 100

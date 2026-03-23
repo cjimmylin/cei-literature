@@ -46,7 +46,7 @@ doi: 10.1609/aies.v8i2.36665
 tags: "Computer Science - AI Ethics"
 url: "https://ojs.aaai.org/index.php/AIES/article/view/36665"
 pdf_extract: "PDF Extracts/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.md"
-local_pdf: "[[PDFs/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.pdf]]"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 CONF-CC: "AIES 2025"
 national_ethnic_cultural: "N/A"

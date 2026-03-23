@@ -54,7 +54,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2511.22016"
 external_pdf: "https://arxiv.org/pdf/2511.22016.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ezeani-AfriStereo A Culturally Grounded Dataset for.md"
-local_pdf: "[[PDFs/2025/2025-Ezeani-AfriStereo A Culturally Grounded Dataset for.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ezeani-AfriStereo A Culturally Grounded Dataset for.pdf]]"
 publication: "arXiv (NeurIPS 2025)"
 CONF-CC: "NeurIPS 2025"
 DATE_ADDED: 20260213

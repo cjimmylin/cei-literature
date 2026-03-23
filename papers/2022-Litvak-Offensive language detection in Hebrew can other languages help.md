@@ -53,7 +53,7 @@ external_pdf: "https://aclanthology.org/2022.lrec-1.396.pdf"
 publication: "ACL Anthology (LREC 2022)"
 CONF-CC: "LREC 2022"
 pdf_extract: "PDF Extracts/2022/2022-Litvak-Offensive language detection in Hebrew can other languages help.md"
-local_pdf: "[[PDFs/2022/2022-Litvak-Offensive language detection in Hebrew can other languages help.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Litvak-Offensive language detection in Hebrew can other languages help.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, Hebrew/Israeli"
 cultures_nationalities_list: "Arabic, Hebrew/Israeli"

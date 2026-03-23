@@ -52,7 +52,7 @@ publication: Unknown
 CONF-CC: "Preprint"
 external_pdf: "https://arxiv.org/pdf/2510.10339v1.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.md"
-local_pdf: "[[PDFs/2025/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

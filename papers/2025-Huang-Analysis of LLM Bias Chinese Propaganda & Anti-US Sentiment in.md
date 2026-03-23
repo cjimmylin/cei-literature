@@ -52,7 +52,7 @@ external_pdf: "https://arxiv.org/pdf/2506.01814.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.md"
-local_pdf: "[[PDFs/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"

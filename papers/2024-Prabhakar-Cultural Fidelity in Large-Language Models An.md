@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2410.10489"
 external_pdf: "https://arxiv.org/pdf/2410.10489.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md"
-local_pdf: "[[PDFs/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.pdf]]"
 publication: "WebSearch: Cultural Fidelity LLM African languages values"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

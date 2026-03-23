@@ -75,7 +75,7 @@ newtags: "Virtue Ethics"
 key_contribution: "Introduces 'Contemplative AI' principles (mindfulness, emptiness, non-duality, boundless care) to instill a resilient 'Wise World Model' in AI"
 significance: "Demonstrates that contemplative principles can improve AI performance on ethical benchmarks and boost cooperation in social dilemmas by reducing goal fixation and self-other boundaries"
 pdf_extract: "PDF Extracts/2025/2025-Laukkonen-Contemplative Artificial Intelligence.md"
-local_pdf: "[[PDFs/2025/2025-Laukkonen-Contemplative Artificial Intelligence.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Laukkonen-Contemplative Artificial Intelligence.pdf]]"
 abstract: "As artificial intelligence (AI) improves, traditional alignment strategies may falter in the face of unpredictable self-improvement, hidden subgoals, and the sheer complexity of intelligent systems. Inspired by contemplative wisdom traditions, we show how four axiomatic principles can instil a resilient ‘Wise World Model’ in AI systems. First, mindfulness enables selfmonitoring and recalibration of emergent subgoals. Second, emptiness forestalls dogmatic goal fixation and relaxes rigid priors."
 paper_summary: "Abstract: As artificial intelligence (AI) improves, traditional alignment strategies may falter in the face of unpredictable self-improvement, hidden subgoals, and the sheer complexity of intelligent systems. I | Overview: 1 Contemplative Artificial Intelligence Ruben E. Laukkonen1, Fionn Inglis2; Shamil Chandaria3; Lars Sandved-Smith4; Edmundo Lopez-Sola5; Jakob Hohwy4; Jonathan Gold6; Adam Elwood7 1Faculty of Health,  | Methodology: succeeds when technical sophistication meets genuine wisdom. To this end, interdisciplinary research is central. | Conclusions: We have argued that an AI endowed with a Wise World Model grounded in contemplative insights would not infer alignment as an external condition to be"
 CONF-CC: "N/A"
@@ -103,7 +103,7 @@ Contemplative Artificial Intelligence
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Laukkonen-Contemplative Artificial Intelligence.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Laukkonen-Contemplative Artificial Intelligence.pdf|Open PDF]]
 
 - **Arxiv:** https://arxiv.org/abs/2504.15125
 

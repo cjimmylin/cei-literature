@@ -2,12 +2,12 @@
 """
 Find Unlinked PDFs - Orphan Detection Tool
 
-This script identifies PDFs in the PDFs/ directory that exist but are not
+This script identifies PDFs in the Lit-WS-PDFs/ directory that exist but are not
 properly linked in their corresponding paper markdown files.
 
 It detects papers where:
 - The local_pdf field is missing or set to N/A
-- BUT a PDF file with the same stem name exists in PDFs/
+- BUT a PDF file with the same stem name exists in Lit-WS-PDFs/
 
 This helps find orphaned PDFs that should be linked to their papers.
 

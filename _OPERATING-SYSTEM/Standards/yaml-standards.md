@@ -113,7 +113,7 @@ list_parent:
   - item1
   - item2
 newtags: "Tag1, Tag2, Tag3"    # String, not list
-local_pdf: "[[PDFs/file.pdf]]"  # Quoted wikilink
+local_pdf: "[[Lit-WS-PDFs/file.pdf]]"  # Quoted wikilink
 first_author: "[[Author Name]]" # Quoted wikilink
 ---
 
@@ -139,7 +139,7 @@ Paper content starts here.
 **WRONG:**
 ```yaml
 ---
-local_pdf: "[[PDFs/file.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/file.pdf]]"
   - "#VirtueEthics"    # Orphaned - no parent key
   - "#AIAlignment"
 ---
@@ -148,7 +148,7 @@ local_pdf: "[[PDFs/file.pdf]]"
 **CORRECT:**
 ```yaml
 ---
-local_pdf: "[[PDFs/file.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/file.pdf]]"
 tags:
   - VirtueEthics
   - AIAlignment
@@ -183,7 +183,7 @@ key: "value"
 **WRONG:**
 ```yaml
 ---
-local_pdf: [[PDFs/file.pdf]]
+local_pdf: [[Lit-WS-PDFs/file.pdf]]
 first_author: [[John Smith]]
 ---
 ```
@@ -191,7 +191,7 @@ first_author: [[John Smith]]
 **CORRECT:**
 ```yaml
 ---
-local_pdf: "[[PDFs/file.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/file.pdf]]"
 first_author: "[[John Smith]]"
 ---
 ```
@@ -300,7 +300,7 @@ python3 PYTHON/yaml_frontmatter_utils.py papers/2016-Amodei-Concrete.md
 | `type` | String | Zotero item type | `type: "journalArticle"` |
 | `title` | String | Quoted if special chars | `title: "Ethics in AI: A Survey"` |
 | `first_author` | Wikilink | Quoted | `first_author: "[[John Smith]]"` |
-| `local_pdf` | Wikilink | Quoted | `local_pdf: "[[PDFs/2024-Smith.pdf]]"` |
+| `local_pdf` | Wikilink | Quoted | `local_pdf: "[[Lit-WS-PDFs/2024-Smith.pdf]]"` |
 | `pdf_extract` | Wikilink | Quoted | `pdf_extract: "[[PDF Extracts/2024-Smith.md]]"` |
 | `tags` | List | Proper list format | `tags:\n  - Ethics\n  - AI` |
 | `newtags` | String | Comma-separated | `newtags: "VirtueEthics, AIAlignment"` |

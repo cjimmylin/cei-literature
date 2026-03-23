@@ -49,7 +49,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2302.14494"
 external_pdf: "https://arxiv.org/pdf/2302.14494.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kuriyozov-Text classification dataset and analysis for.md"
-local_pdf: "[[PDFs/2023/2023-Kuriyozov-Text classification dataset and analysis for.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Kuriyozov-Text classification dataset and analysis for.pdf]]"
 publication: arxiv.org
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

@@ -44,7 +44,7 @@ authors: "Krzanowski, Roman; Polak, Paweł"
 doi: N/A
 url: "https://www.researchgate.net/publication/381504958_Phronesis_for_AI_Systems_Conceptual_Foundations_Current_Research_and_Prospects"
 pdf_extract: "PDF Extracts/2025/2025-Krzanowski-Phronesis for AI Systems.md"
-local_pdf: "[[PDFs/2025/2025-Krzanowski-Phronesis for AI Systems.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Krzanowski-Phronesis for AI Systems.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

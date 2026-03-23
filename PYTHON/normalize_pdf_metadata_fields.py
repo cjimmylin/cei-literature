@@ -61,7 +61,7 @@ def normalize_local_path(raw_value: str, pdf_set: set[str]) -> Tuple[str, str, O
     normalized_line_value:
       - canonical local_pdf value to write when needed (without key prefix)
     resolved_pdf_path:
-      - repo-relative PDF path (e.g., PDFs/2025/x.pdf) if valid, else None
+      - repo-relative PDF path (e.g., Lit-WS-PDFs/2025/x.pdf) if valid, else None
     """
     raw = raw_value.strip().strip('"').strip("'")
     if raw == "":
@@ -74,8 +74,8 @@ def normalize_local_path(raw_value: str, pdf_set: set[str]) -> Tuple[str, str, O
     if not path.lower().endswith(".pdf"):
         return "unresolved", raw_value.strip(), None
 
-    if not path.startswith("PDFs/"):
-        path = "PDFs/" + path.lstrip("/")
+    if not path.startswith("Lit-WS-PDFs/"):
+        path = "Lit-WS-PDFs/" + path.lstrip("/")
 
     if path in pdf_set:
         return "valid", f'"[[{path}]]"', path

@@ -50,7 +50,7 @@ url: "https://arxiv.org/abs/2502.10995"
 external_pdf: "https://arxiv.org/pdf/2502.10995.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2025/2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Korean"

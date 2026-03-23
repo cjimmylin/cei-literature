@@ -47,7 +47,7 @@ authors: Hsin-Yi Hsieh; Shang Wei Liu; Chang Chih Meng; Shuo-Yueh Lin; Chen Chie
 url: "https://aclanthology.org/2025.evalmg-1.6/"
 publication: ACL Anthology
 CONF-CC: "N/A"
-local_pdf: "[[PDFs/2025/2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese.md"
 "N/A"
 DATE_ADDED: 20260215

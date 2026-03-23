@@ -49,7 +49,7 @@ authors: Sang Truong; Duc Nguyen; Toan Nguyen; Dong Le; Nhi Truong; Tho Quan; Sa
 url: "https://aclanthology.org/2024.findings-naacl.182/"
 external_pdf: "https://arxiv.org/pdf/2403.02715.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.md"
-local_pdf: "[[PDFs/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.pdf]]"
 publication: "ACL Anthology / arXiv"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

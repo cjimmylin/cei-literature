@@ -86,7 +86,7 @@ significance: "Provides reliable, context-specific stimuli for moral psychology 
 tags: 
 abstract: "Moral judgments are shaped by socialization and cultural heritage. Understanding how moral considerations vary across the globe requires the systematic development of moral stimuli for use in different cultures and languages. Focusing on Dutch populations, we adapted and validated two recent instruments for examining moral judgments: (1) the Moral Foundations Vignettes (MFVs) and (2) the Socio-Moral Image Database (SMID)."
 pdf_extract: "PDF Extracts/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.md"
-local_pdf: "[[PDFs/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.pdf]]"
 CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: NA

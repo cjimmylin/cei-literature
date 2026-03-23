@@ -45,7 +45,7 @@ authors: "Sorensen, Taylor; Jiang, Liwei; Hwang, Jena; Levine, Sydney; Pyatkin, 
 doi: 10.1609/aaai.v38i18.29970
 url: "http://arxiv.org/abs/2309.00779"
 pdf_extract: "PDF Extracts/2024/2024-Sorensen-Value Kaleidoscope.md"
-local_pdf: "[[PDFs/2024/2024-Sorensen-Value Kaleidoscope.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Sorensen-Value Kaleidoscope.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2309.00779.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
@@ -107,7 +107,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Sorensen-Value Kaleidoscope.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Sorensen-Value Kaleidoscope.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2309.00779
 - **DOI:** https://doi.org/10.1609/aaai.v38i18.29970

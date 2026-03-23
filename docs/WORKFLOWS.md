@@ -59,7 +59,7 @@ When processing PDFs (individual or batch), the system follows this automatic pi
 ```
 PDF Download → Text Extraction → Summary Generation
      ↓              ↓                    ↓
-  PDFs/         PDF Extracts/      papers/*.md
+  Lit-WS-PDFs/         PDF Extracts/      papers/*.md
                                    (summary sections)
 ```
 
@@ -155,7 +155,7 @@ def update_paper_profile(paper_name):
 
     # Update links
     fields['pdf_extract'] = f"PDF Extracts/{paper_name}.md"
-    fields['local_pdf'] = f'"[[PDFs/{paper_name}.pdf]]"'
+    fields['local_pdf'] = f'"[[Lit-WS-PDFs/{paper_name}.pdf]]"'
 
     new_frontmatter = rebuild_frontmatter(fields)
     is_valid, issues = validate_frontmatter(new_frontmatter)
@@ -406,7 +406,7 @@ If the user has a local Zotero installation, check `~/Zotero/storage` first - it
 find ~/Zotero/storage -name "*.pdf" | wc -l
 
 # Compare to vault
-ls PDFs/*.pdf | wc -l
+ls Lit-WS-PDFs/*.pdf | wc -l
 ```
 
 **Recovery Process:**
@@ -514,13 +514,13 @@ See [docs/PDF_RECOVERY_GUIDE.md](PDF_RECOVERY_GUIDE.md) for complete guide.
 
 ```bash
 # Count PDFs
-ls PDFs/*.pdf | wc -l
+ls Lit-WS-PDFs/*.pdf | wc -l
 
 # Check for 0-byte files
 find PDFs -name "*.pdf" -size 0
 
 # Verify PDF format
-file PDFs/*.pdf | grep -v "PDF document"
+file Lit-WS-PDFs/*.pdf | grep -v "PDF document"
 ```
 
 ### Recovery Statistics
@@ -580,7 +580,7 @@ Use YAML frontmatter template from existing papers:
 **Step 5: Download PDFs & Extract**
 ```bash
 # After creating entries
-curl -L -o "PDFs/YYYY-Author-Title.pdf" "URL"
+curl -L -o "Lit-WS-PDFs/YYYY-Author-Title.pdf" "URL"
 
 # Run extraction
 .venv/bin/python .agent/skills/extract_pdf_text/scripts/extract.py
@@ -699,8 +699,8 @@ elif 'openreview.net/forum' in url:
 
 **Option B: Manual curl for specific sources**
 ```bash
-curl -L -o "PDFs/YYYY-Author-Title.pdf" "https://arxiv.org/pdf/XXXX.pdf"
-curl -L -o "PDFs/YYYY-Author-Title.pdf" "https://link.springer.com/content/pdf/DOI.pdf"
+curl -L -o "Lit-WS-PDFs/YYYY-Author-Title.pdf" "https://arxiv.org/pdf/XXXX.pdf"
+curl -L -o "Lit-WS-PDFs/YYYY-Author-Title.pdf" "https://link.springer.com/content/pdf/DOI.pdf"
 ```
 
 **Option C: Semantic Scholar API (rate-limited)**
@@ -722,7 +722,7 @@ url = f"https://api.semanticscholar.org/graph/v1/paper/search?query={title}&fiel
 Update paper profiles with local_pdf and pdf_extract paths:
 
 ```python
-fields['local_pdf'] = f"[[PDFs/{pdf_filename}]]"
+fields['local_pdf'] = f"[[Lit-WS-PDFs/{pdf_filename}]]"
 fields['pdf_extract'] = f"PDF Extracts/{paper_name}"
 write_paper(paper_path, new_frontmatter, body, validate=True)
 ```

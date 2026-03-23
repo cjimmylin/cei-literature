@@ -1,6 +1,6 @@
 ---
 title: "2025-available-Swahili and Code-Switched English-Swahili Political Hate"
-source_pdf: "[[PDFs/2025/2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2025/2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate.pdf]]"
 extracted_date: "2026-02-14"
 extraction_method: "PyMuPDF"
 ---

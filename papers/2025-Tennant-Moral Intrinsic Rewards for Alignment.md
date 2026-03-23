@@ -80,7 +80,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.md"
 abstract: "Decision-making agents based on pre-trained Large Language Models (LLMs) are increasingly being deployed across various domains of human activity. While their applications are currently rather specialized, several research efforts are under way to develop more generalist agents. As LLM-based systems become more agentic, their influence on human activity will grow and their transparency will decrease. Consequently, developing effective methods for aligning them to human values is vital."
 paper_summary: 
-local_pdf: "[[PDFs/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma-2"
 DATA_URL: "https://github.com/liza-tennant/LLM_morality"
@@ -113,7 +113,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf|Open PDF]]
 
 - **URL:** https://openreview.net/forum?id=ZFk4eh0WcL
 - **DOI:** https://doi.org/N/A

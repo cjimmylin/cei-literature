@@ -51,7 +51,7 @@ authors: "Prabhakaran, Vinodkumar; Mitchell, Margaret; Gebru, Timnit; Gabriel, I
 doi: 10.48550/arXiv.2210.02667
 url: "http://arxiv.org/abs/2210.02667"
 pdf_extract: "PDF Extracts/2022/2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.md"
-local_pdf: "[[PDFs/2022/2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2210.02667.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
@@ -114,7 +114,7 @@ ethics_perspective: "Responsible AI"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2022/2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2210.02667
 - **DOI:** https://doi.org/10.48550/arXiv.2210.02667

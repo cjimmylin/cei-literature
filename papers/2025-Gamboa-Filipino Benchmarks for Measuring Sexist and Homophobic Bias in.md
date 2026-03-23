@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2412.07303"
 external_pdf: "https://arxiv.org/pdf/2412.07303.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.md"
-local_pdf: "[[PDFs/2025/2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.pdf]]"
 publication: "arXiv / ACL Anthology (LoResLM @ COLING 2025)"
 CONF-CC: "COLING 2025"
 DATE_ADDED: 20260213

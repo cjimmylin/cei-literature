@@ -51,7 +51,7 @@ doi: 10.1016/j.neucom.2025.130170
 url: "https://doi.org/10.1016/j.neucom.2025.130170"
 external_pdf: "https://arxiv.org/pdf/2501.11770.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Wang-Multimodal Understanding of Human Values in Videos.md"
-local_pdf: "[[PDFs/2025/2025-Wang-Multimodal Understanding of Human Values in Videos.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wang-Multimodal Understanding of Human Values in Videos.pdf]]"
 publication: Neurocomputing
 CONF-CC: "Neurocomputing"
 DATE_ADDED: 20260207

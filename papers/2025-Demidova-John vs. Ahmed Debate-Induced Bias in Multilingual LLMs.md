@@ -54,7 +54,7 @@ external_pdf: "https://aclanthology.org/2024.arabicnlp-1.18.pdf"
 publication: "ACL Anthology"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.md"
-local_pdf: "[[PDFs/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, Russian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Arabic, Russian, Multicultural/Cross-cultural"

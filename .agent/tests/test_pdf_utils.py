@@ -17,7 +17,7 @@ def test_validate_pdf_link_valid(tmp_vault):
 
         config.PDFS_DIR = pdfs_dir
 
-        result = pdf_utils.validate_pdf_link('"[[PDFs/test.pdf]]"', "TestPaper")
+        result = pdf_utils.validate_pdf_link('"[[Lit-WS-PDFs/test.pdf]]"', "TestPaper")
 
         assert result["valid"] is True
         assert len(result["errors"]) == 0
@@ -30,7 +30,7 @@ def test_validate_pdf_link_missing():
     """Test validating a missing PDF link."""
     from lib import config
 
-    result = pdf_utils.validate_pdf_link('"[[PDFs/nonexistent.pdf]]"', "TestPaper")
+    result = pdf_utils.validate_pdf_link('"[[Lit-WS-PDFs/nonexistent.pdf]]"', "TestPaper")
 
     assert result["valid"] is False
     assert len(result["errors"]) > 0
@@ -110,7 +110,7 @@ key: test
 type: journalArticle
 year: 2024
 first_author: "[[Test]]"
-local_pdf: "[[PDFs/missing.pdf]]"
+local_pdf: "[[Lit-WS-PDFs/missing.pdf]]"
 ---
 Test"""
         fm, body = extract_frontmatter(content)

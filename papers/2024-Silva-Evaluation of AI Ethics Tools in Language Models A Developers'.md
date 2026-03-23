@@ -53,7 +53,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2512.15791"
 external_pdf: "https://arxiv.org/pdf/2512.15791.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.md"
-local_pdf: "[[PDFs/2024/2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

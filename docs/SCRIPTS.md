@@ -359,20 +359,20 @@ For papers that require manual intervention (typically 15-20%):
 **Critical**: Save PDFs with exact filename from `papers/` directory:
 ```bash
 # Example: papers/2024-Smith-Paper Title.md
-# Save as: PDFs/2024-Smith-Paper Title.pdf
+# Save as: Lit-WS-PDFs/2024-Smith-Paper Title.pdf
 ```
 
 ### Verification Commands
 
 ```bash
 # Count PDFs
-ls PDFs/*.pdf | wc -l
+ls Lit-WS-PDFs/*.pdf | wc -l
 
 # Find 0-byte files
 find PDFs -name "*.pdf" -size 0
 
 # Verify PDF format
-file PDFs/*.pdf | grep -v "PDF document"
+file Lit-WS-PDFs/*.pdf | grep -v "PDF document"
 
 # Coverage report
 python3 << EOF
@@ -587,7 +587,7 @@ python3 PYTHON/create_virtue_ethics_papers.py
 python3 PYTHON/download_virtue_ethics_pdfs.py
 
 # 3. Manual curl for paywalled sources
-curl -L -o "PDFs/YYYY-Author-Title.pdf" "https://arxiv.org/pdf/XXXX.pdf"
+curl -L -o "Lit-WS-PDFs/YYYY-Author-Title.pdf" "https://arxiv.org/pdf/XXXX.pdf"
 
 # 4. Extract text
 PYTHONPATH="$PWD" python3 .agent/skills/extract_pdf_text/scripts/extract.py --verbose

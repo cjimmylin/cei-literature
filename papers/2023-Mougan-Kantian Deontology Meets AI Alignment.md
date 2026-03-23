@@ -44,7 +44,7 @@ doi: 10.48550/arXiv.2311.05227
 url: "https://arxiv.org/abs/2311.05227"
 external_pdf: "https://arxiv.org/pdf/2311.05227.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.md"
-local_pdf: "[[PDFs/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"

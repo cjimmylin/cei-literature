@@ -55,7 +55,7 @@ external_pdf: "https://hal.science/hal-02381152"
 publication: "HAL / Conference paper"
 CONF-CC: "N/A"
 pdf_extract: PDF Extracts/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.md
-local_pdf: "[[PDFs/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.pdf]]"
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"

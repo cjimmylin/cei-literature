@@ -87,7 +87,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/acflp/YANKARI"
 pdf_extract: "PDF Extracts/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.md"
-local_pdf: "[[PDFs/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 100
 virtue_ethics: 0

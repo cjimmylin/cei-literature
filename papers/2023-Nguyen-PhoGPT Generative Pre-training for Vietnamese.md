@@ -50,7 +50,7 @@ authors: Dat Quoc Nguyen; Linh The Nguyen; Chi Tran; Dung Ngoc Nguyen; Dinh Phun
 url: "https://arxiv.org/abs/2311.02945"
 external_pdf: "https://arxiv.org/pdf/2311.02945.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.md"
-local_pdf: "[[PDFs/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

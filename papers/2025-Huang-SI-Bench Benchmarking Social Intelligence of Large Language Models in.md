@@ -48,7 +48,7 @@ authors: "Shuai Huang; Wenxuan Zhao; Jun Gao"
 url: "https://arxiv.org/abs/2510.23182"
 external_pdf: "https://arxiv.org/pdf/2510.23182.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in.md"
-local_pdf: "[[PDFs/2025/2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in.pdf]]"
 publication: "arXiv preprint"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

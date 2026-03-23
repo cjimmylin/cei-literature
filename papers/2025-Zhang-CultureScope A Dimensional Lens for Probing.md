@@ -53,7 +53,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2509.16188"
 external_pdf: "https://arxiv.org/pdf/2509.16188.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-CultureScope A Dimensional Lens for Probing.md"
-local_pdf: "[[PDFs/2025/2025-Zhang-CultureScope A Dimensional Lens for Probing.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-CultureScope A Dimensional Lens for Probing.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

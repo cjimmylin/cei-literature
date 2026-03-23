@@ -50,7 +50,7 @@ url: "https://arxiv.org/abs/2601.22396"
 external_pdf: "https://arxiv.org/pdf/2601.22396.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2026/2026-Tagarelli-Culturally Grounded Personas in Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Tagarelli-Culturally Grounded Personas in Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Tagarelli-Culturally Grounded Personas in Large Language Models.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

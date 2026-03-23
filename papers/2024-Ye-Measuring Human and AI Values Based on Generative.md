@@ -86,7 +86,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Ye-Measuring Human and AI Values Based on Generative.md"
 abstract: "Human values and their measurement are long-standing interdisciplinary inquiry. Recent advances in AI have sparked renewed interest in this area, with large language models (LLMs) emerging as both tools and subjects of value measurement. This work introduces Generative Psychometrics for Values (GPV), an LLM-based, data-driven value measurement paradigm, theoretically grounded in text-revealed selective perceptions."
 paper_summary: "Abstract: Human values and their measurement are long-standing interdisciplinary inquiry. Recent advances in AI have sparked renewed interest in this area, with large lan- guage models (LLMs) emerging as both t | Overview: Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models Haoran Ye∗,1, Yuhang Xie∗,2, Yuanyi Ren∗,1, Hanjun Fang3, Xin Zhang4, Guojie Song†,1,5 1State Key Laboratory  | Methodology: studies. Journal of personality and social psychology, 89(6):1010, 2005. [82] S. H. Schwartz, G. Melech, A. Lehmann, S. Burgess, M. Harris, and V. Owe | Key Findings: methods [43, 69, 100], which this work aims to address. 3 --- Page 4 --- 3 Generative Psychometrics for Values (GPV) | Conclusions: Relation to Self-Reports. The items organized in self-report inventories are essentially perceptions that support or oppose specific values [78]. Comp"
-local_pdf: "[[PDFs/2024/2024-Ye-Measuring Human and AI Values Based on Generative.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ye-Measuring Human and AI Values Based on Generative.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Gemma, InternLM, Llama-2, Mistral, Qwen-1.5, Vicuna, Yi"
 DATA_URL: "https://github.com/Value4AI/gpv"
@@ -120,7 +120,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Ye-Measuring Human and AI Values Based on Generative.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Ye-Measuring Human and AI Values Based on Generative.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2409.12106
 - **DOI:** https://doi.org/10.48550/arXiv.2409.12106

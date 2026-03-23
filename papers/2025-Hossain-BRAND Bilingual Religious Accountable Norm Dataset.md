@@ -52,7 +52,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2512.03943"
 external_pdf: "https://arxiv.org/pdf/2512.03943.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md"
-local_pdf: "[[PDFs/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

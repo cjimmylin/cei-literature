@@ -86,7 +86,7 @@ significance: "Demonstrates that the format of deliberation (synchronous vs sequ
 pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.md"
 abstract: "As large language models (LLMs) are increasingly deployed in sensitive everyday contexts – offering personal advice, mental health support, and moral guidance – understanding their elicited values in navigating complex moral reasoning is essential. Most evaluations study this sociotechnical alignment through single-turn prompts, but it is unclear if these findings extend to multi-turn settings where values emerge through dialogue, revision, and consensus."
 paper_summary: "Abstract: As large language models (LLMs) are increasingly deployed in sensitive everyday contexts – offering personal advice, mental health support, and moral guidance – understanding their elicited values in  | Overview: Preprint. DELIBERATIVE DYNAMICS AND VALUE ALIGNMENT IN LLM DEBATES Pratik S. Sachdeva & Tom van Nuenen D-Lab University of California, Berkeley Berkeley, CA 94709, USA {pratik.sachdeva,tomvannuenen}@b | Key Findings: settings and adapt their behavior accordingly (Needham et al., 2025; Nguyen et al., 2025; Abdelnabi & Salem, 2025). Collectively, these findings sugge | Conclusions: In this work, we used multi-turn deliberation of everyday dilemmas as a lens for understanding deliberation dynamics, value alignment, and order effec"
-local_pdf: "[[PDFs/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, GPT-4, Gemini"
@@ -113,7 +113,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2510.10002
 - **DOI:** https://doi.org/10.48550/arXiv.2510.10002

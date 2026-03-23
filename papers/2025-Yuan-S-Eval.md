@@ -45,7 +45,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2405.14191"
 external_pdf: "https://arxiv.org/pdf/2405.14191.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yuan-S-Eval.md"
-local_pdf: "[[PDFs/2025/2025-Yuan-S-Eval.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yuan-S-Eval.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

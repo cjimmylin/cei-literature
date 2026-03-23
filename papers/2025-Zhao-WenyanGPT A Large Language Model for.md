@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2504.20609"
 external_pdf: "https://arxiv.org/pdf/2504.20609.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zhao-WenyanGPT A Large Language Model for.md"
-local_pdf: "[[PDFs/2025/2025-Zhao-WenyanGPT A Large Language Model for.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhao-WenyanGPT A Large Language Model for.pdf]]"
 publication: "IJCAI 2025"
 CONF-CC: "IJCAI 2025"
 DATE_ADDED: 20260213

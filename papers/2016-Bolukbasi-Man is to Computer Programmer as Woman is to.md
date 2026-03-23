@@ -85,7 +85,7 @@ key_contribution: "The seminal paper identifying gender bias in word embeddings 
 significance: "Founded the field of fairness in NLP embeddings, demonstrating that AI models inherit and amplify societal stereotypes from training data and offering the first mathematical fixes."
 tags: 
 pdf_extract: "PDF Extracts/2016/2016-Bolukbasi-Man is to Computer Programmer as Woman is to.md"
-local_pdf: "[[PDFs/2016/2016-Bolukbasi-Man is to Computer Programmer as Woman is to.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2016/2016-Bolukbasi-Man is to Computer Programmer as Woman is to.pdf]]"
 abstract: "The blind application of machine learning runs the risk of amplifying biases present in data. Such a danger is facing us with word embedding, a popular framework to represent text data as vectors which has been used in many machine learning and natural language processing tasks. We show that even word embeddings trained on Google News articles exhibit female/male gender stereotypes to a disturbing extent."
 paper_summary: "Abstract: The blind application of machine learning runs the risk of amplifying biases present in data. Such a danger is facing us with word embedding, a popular framework to represent text data as vectors whic | Overview: Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings Tolga Bolukbasi1, Kai-Wei Chang2, James Zou2, Venkatesh Saligrama1,2, Adam Kalai2 1Boston University, 8 Saint Mary's S | Conclusions: Word embeddings help us further our understanding of bias in language. We ﬁnd a single direction that largely captures gender, that helps us capture a"
 DATE_ADDED: 20260208
@@ -121,7 +121,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2016/2016-Bolukbasi-Man is to Computer Programmer as Woman is to.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2016/2016-Bolukbasi-Man is to Computer Programmer as Woman is to.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/1607.06520
 - **DOI:** https://doi.org/10.48550/arXiv.1607.06520

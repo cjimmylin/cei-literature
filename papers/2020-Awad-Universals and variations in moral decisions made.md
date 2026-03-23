@@ -88,7 +88,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://bit.ly/2Y7Brr9"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"
-local_pdf: "[[PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 65
 virtue_ethics: 0

@@ -77,7 +77,7 @@ tags:
 pdf_extract: "PDF Extracts/2022/2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML.md"
 abstract: "We consider a non-linear heat equation ∂tu = ∆u + B(u, Du) + P(u) posed on the d-dimensional torus, where P is a polynomial of degree at most 3 and B is a bilinear map that is not a total derivative. We show that, if the initial condition u0 is taken from a sequence of smooth Gaussian ﬁelds with a speciﬁed covariance, then u exhibits norm inﬂation with high probability. A consequence of this result is that there exists no Banach space of distributions which carries the Gaussian free ﬁeld on the..."
 paper_summary: 
-local_pdf: "[[PDFs/2022/2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "Other"
 LLM_assessed: "NA"

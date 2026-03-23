@@ -13,7 +13,7 @@ Scope:
 
 Apply behavior:
 - Rename paper file stem author token
-- Rename matching PDFs/**/{old_stem}.pdf
+- Rename matching Lit-WS-PDFs/**/{old_stem}.pdf
 - Rename matching PDF Extracts/**/{old_stem}.md
 - Update paper frontmatter: authors/first_author/last_author/authors_incomplete/local_pdf/pdf_extract
 - Update paper body: ## Authors section and **Authors:** metadata line
@@ -338,7 +338,7 @@ def parse_link_or_plain(raw_value: str) -> str:
 
 
 def path_to_pdf_rel(path: Path) -> str:
-    return f"PDFs/{path.relative_to(PDFS_DIR).as_posix()}"
+    return f"Lit-WS-PDFs/{path.relative_to(PDFS_DIR).as_posix()}"
 
 
 def path_to_extract_rel(path: Path) -> str:
@@ -567,7 +567,7 @@ def choose_new_local_pdf_rel(plan: RenamePlan) -> str:
     renamed_pdf_rels = [path_to_pdf_rel(new) for _old, new in plan.pdf_rename_pairs]
     if plan.old_local_pdf_rel:
         replaced = plan.old_local_pdf_rel.replace(plan.old_stem, plan.new_stem)
-        if replaced.startswith("PDFs/"):
+        if replaced.startswith("Lit-WS-PDFs/"):
             return replaced
     if renamed_pdf_rels:
         return renamed_pdf_rels[0]
@@ -919,7 +919,7 @@ def validate_local_pdf_wikilinks(plans: Iterable[RenamePlan]) -> List[str]:
         if "]]" in inner:
             issues.append(f"{paper_path.name}: local_pdf_contains_double_bracket:{value}")
             continue
-        if not inner.startswith("PDFs/"):
+        if not inner.startswith("Lit-WS-PDFs/"):
             issues.append(f"{paper_path.name}: local_pdf_not_pdfs_path:{value}")
     return issues
 

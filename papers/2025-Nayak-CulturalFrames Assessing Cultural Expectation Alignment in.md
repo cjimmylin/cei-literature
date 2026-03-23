@@ -49,7 +49,7 @@ url: "https://aclanthology.org/2025.findings-emnlp.1141/"
 external_pdf: "https://arxiv.org/pdf/2506.08835.pdf"
 publication: Findings of EMNLP 2025
 CONF-CC: "EMNLP 2025 Findings"
-local_pdf: "[[PDFs/2025/2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

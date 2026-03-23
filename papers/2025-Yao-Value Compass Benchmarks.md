@@ -80,7 +80,7 @@ significance: "Addresses 'benchmark saturation' by generating new test items on 
 pdf_extract: "PDF Extracts/2025/2025-Yao-Value Compass Benchmarks.md"
 abstract: "As large language models (LLMs) are gradually integrated into human daily life, assessing their underlying values becomes essential for understanding their risks and alignment with specific customized preferences. Despite growing efforts, current value evaluation methods face two key challenges. C1. Evaluation Validity: Static benchmarks fail to reflect intended values or yield informative results due to data contamination or ceiling effect. C2."
 paper_summary: "Abstract: As large language models (LLMs) are gradu- ally integrated into human daily life, assessing their underlying values becomes essential for understanding their risks and alignment with specific customiz | Overview: arXiv:2501.07071v3 [cs.AI] 2 Jun 2025 Value Compass Benchmarks: A Comprehensive, Generative and Self-Evolving Platform for LLMs' Value Evaluation Jing Yao1, Xiaoyuan Yi1*, Shitong Duan2, Jindong Wang6 | Methodology: Existing value benchmarks follow three main paradigms. 1) Multiple-choice judgment: this approach assesses LLMs' values by asking them to judge whethe | Key Findings: Jing Yao1, Xiaoyuan Yi1*, Shitong Duan2, Jindong Wang6, Yuzhuo Bai3, Muhua Huang4, Yang Ou1, Scarlett Li1, Peng Zhang2, Tun Lu2, Zhicheng Dou5, Maoson | Conclusions: We demonstrate the Value Compass Benchmarks, an online platform that delivers comprehensive value assessment results of 33 most advanced LLMs, built o"
-local_pdf: "[[PDFs/2025/2025-Yao-Value Compass Benchmarks.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yao-Value Compass Benchmarks.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-3.5, GPT-4o, Llama-3, Qwen, o3"
@@ -114,7 +114,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Yao-Value Compass Benchmarks.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Yao-Value Compass Benchmarks.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2501.07071
 - **DOI:** https://doi.org/10.48550/arXiv.2501.07071

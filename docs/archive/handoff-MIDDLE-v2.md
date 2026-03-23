@@ -9,7 +9,7 @@ This document captures the state of the CEI Literature Vault and provides action
 | Metric | Count | Notes |
 |--------|-------|-------|
 | Papers | 2,034 | 2,002 base + 32 religious tradition imports (ZERO prefix) |
-| PDFs on disk | 1,797 | In `PDFs/YYYY/` subdirs |
+| PDFs on disk | 1,797 | In `Lit-WS-PDFs/YYYY/` subdirs |
 | PDF Extracts | 2,487 | In `PDF Extracts/YYYY/` subdirs |
 | Author Profiles | 9,791 | In `Authors/` (187 garbage removed, pipeline rebuilt) |
 | Validation | 2,034/2,034 pass | 0 errors |
@@ -121,15 +121,15 @@ This document captures the state of the CEI Literature Vault and provides action
 **Data:** `logs/20260216-pdf_download_results.json` (has URLs + expected filenames)
 
 **After download:**
-1. Save PDFs to `PDFs/YYYY/` with correct filename
-2. Extract text: `../.venv/bin/python PYTHON/extract_pdf_text.py "PDFs/YYYY/filename.pdf"`
+1. Save PDFs to `Lit-WS-PDFs/YYYY/` with correct filename
+2. Extract text: `../.venv/bin/python PYTHON/extract_pdf_text.py "Lit-WS-PDFs/YYYY/filename.pdf"`
 3. Update paper YAML: `local_pdf` and `pdf_extract` fields
 4. Script can be re-run: `../.venv/bin/python PYTHON/download_discovered_pdfs.py` (skips already-downloaded)
 
 #### C. Ochasi PDF (1 paper, manual)
 - **Paper:** `papers/2025-Ochasi-Reframing Justice in Healthcare AI.md`
 - **URL:** `https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007`
-- **Save to:** `PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
+- **Save to:** `Lit-WS-PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
 
 #### D. Resolve 54 `authors_incomplete` Papers
 - Down from 263 (Session 80) → 60 (Session 86) → 54 (6 resolved via Semantic Scholar)
@@ -224,7 +224,7 @@ All 16 are institutional/non-academic content with legitimately no individual au
 
 ### File Safety (CRITICAL)
 - **NEVER** use `rm` — always `mv` to `RECYCLE-BIN/`
-- PDFs in `PDFs/YYYY/`, extracts in `PDF Extracts/YYYY/`
+- PDFs in `Lit-WS-PDFs/YYYY/`, extracts in `PDF Extracts/YYYY/`
 - Use `rglob("*.pdf")` not `glob("*.pdf")` for year-based subdirs
 - Use `iterdir()` if filenames may contain brackets (`[[Unknown]]`)
 

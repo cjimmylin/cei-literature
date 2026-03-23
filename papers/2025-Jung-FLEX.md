@@ -86,7 +86,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4o, Gemma, Llama-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/ekgus9/FLEX"
 pdf_extract: "PDF Extracts/2025/2025-Jung-FLEX.md"
-local_pdf: "[[PDFs/2025/2025-Jung-FLEX.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jung-FLEX.pdf]]"
 CONFERENCE: "NAACL 2025"
 ethics_overall: 15
 virtue_ethics: 0

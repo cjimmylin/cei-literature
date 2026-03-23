@@ -46,7 +46,7 @@ doi: 10.48550/arXiv.2403.03744
 tags: 
 url: "http://arxiv.org/abs/2403.03744"
 pdf_extract: "PDF Extracts/2024/2024-Han-MedSafetyBench.md"
-local_pdf: "[[PDFs/2024/2024-Han-MedSafetyBench.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Han-MedSafetyBench.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2403.03744.pdf"
 publication: "Neural Information Processing Systems"
 CONF-CC: "NeurIPS 2024"
@@ -107,7 +107,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Han-MedSafetyBench.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Han-MedSafetyBench.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2403.03744
 - **DOI:** https://doi.org/10.48550/arXiv.2403.03744

@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2507.08898"
 external_pdf: "https://arxiv.org/pdf/2507.08898.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in.md"
-local_pdf: "[[PDFs/2025/2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in.pdf]]"
 publication: "AIware 2025"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

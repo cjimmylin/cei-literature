@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2404.05399"
 external_pdf: "https://arxiv.org/pdf/2404.05399.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.md"
-local_pdf: "[[PDFs/2024/2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.pdf]]"
 publication: AAAI
 CONF-CC: "AAAI 2024"
 DATE_ADDED: 20260207

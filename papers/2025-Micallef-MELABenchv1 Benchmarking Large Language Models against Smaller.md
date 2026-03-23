@@ -49,7 +49,7 @@ external_pdf: "https://arxiv.org/pdf/2506.04385.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Micallef-MELABenchv1 Benchmarking Large Language Models against Smaller.md"
-local_pdf: "[[PDFs/2025/2025-Micallef-MELABenchv1 Benchmarking Large Language Models against Smaller.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Micallef-MELABenchv1 Benchmarking Large Language Models against Smaller.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -52,7 +52,7 @@ authors: Isadora Salles; Francielle Vargas; Fabrício Benevenuto
 url: "https://aclanthology.org/2025.coling-main.446/"
 publication: COLING 2025
 CONF-CC: "COLING 2025"
-local_pdf: "[[PDFs/2025/2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for.md"
 "N/A"
 DATE_ADDED: 20260215

@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.bhasha-1.6/"
 external_pdf: "https://aclanthology.org/2025.bhasha-1.6.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Paul-Aligning Large Language Models to Low-Resource.md"
-local_pdf: "[[PDFs/2025/2025-Paul-Aligning Large Language Models to Low-Resource.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Paul-Aligning Large Language Models to Low-Resource.pdf]]"
 publication: "ACL Anthology (BHASHA 2025)"
 CONF-CC: "N/A"
 DATE_ADDED: 20260213

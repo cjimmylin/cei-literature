@@ -86,7 +86,7 @@ key_contribution: "Created the Equity Evaluation Corpus (EEC) and audited 219 se
 significance: "A landmark systematic audit that proved bias was not an isolated incident but a pervasive issue across the entire sentiment analysis field, spurring widespread adoption of fairness testing."
 abstract: "Automatic machine learning systems can inadvertently accentuate and perpetuate inappropriate human biases. Past work on examining inappropriate biases has largely focused on just individual systems. Further, there is no benchmark dataset for examining inappropriate biases in systems. Here for the ﬁrst time, we present the Equity Evaluation Corpus (EEC), which consists of 8,640 English sentences carefully chosen to tease out biases towards certain races and genders."
 pdf_extract: "PDF Extracts/2018/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.md"
-local_pdf: "[[PDFs/2018/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.pdf]]"
 CONF-CC: "SemEval 2018"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"

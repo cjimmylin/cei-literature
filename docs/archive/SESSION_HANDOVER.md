@@ -205,7 +205,7 @@ Uses: OpenAlex API, CrossRef API, arXiv API, body content extraction
 | Content | Location |
 |---------|----------|
 | Papers | `papers/*.md` |
-| PDFs | `PDFs/*.pdf` |
+| PDFs | `Lit-WS-PDFs/*.pdf` |
 | PDF Extracts | `PDF Extracts/*.md` |
 | Authors | `Authors/*.md` |
 | Statistics | `STATISTICS/*.md` |
@@ -361,7 +361,7 @@ This is the only major incomplete task remaining.
 
 1. **YAML Field Names**
    - Paper metadata uses `external_pdf` for online PDF URLs, not `pdf`
-   - `local_pdf` field uses wikilink format `[[PDFs/name.pdf]]` requiring bracket stripping
+   - `local_pdf` field uses wikilink format `[[Lit-WS-PDFs/name.pdf]]` requiring bracket stripping
    - Script was looking for wrong field, causing 0 downloads until fixed
 
 2. **ArXiv Fallback Strategy**

@@ -63,7 +63,7 @@ Key research areas include:
 - LAMBADA: 66.51% accuracy (SOTA at the time)
 - RACE: 90.9% accuracy (SOTA at the time)
 
-**Source PDF**: [Megatron-LM_Training_Multi-Billion_Parameter_Language_Models.pdf](../../PDFs/AI%20Labs/NVIDIA/Megatron-LM/Megatron-LM_Training_Multi-Billion_Parameter_Language_Models.pdf)
+**Source PDF**: [Megatron-LM_Training_Multi-Billion_Parameter_Language_Models.pdf](../../Lit-WS-PDFs/AI%20Labs/NVIDIA/Megatron-LM/Megatron-LM_Training_Multi-Billion_Parameter_Language_Models.pdf)
 
 ---
 
@@ -90,7 +90,7 @@ Key research areas include:
 - Performance: 113-126 TeraFLOPs per GPU
 - Batch size: 1920 (with gradient accumulation)
 
-**Source PDF**: [Megatron-Turing_NLG_530B.pdf](../../PDFs/AI%20Labs/NVIDIA/Megatron-Turing%20NLG/Megatron-Turing_NLG_530B.pdf)
+**Source PDF**: [Megatron-Turing_NLG_530B.pdf](../../Lit-WS-PDFs/AI%20Labs/NVIDIA/Megatron-Turing%20NLG/Megatron-Turing_NLG_530B.pdf)
 
 ---
 
@@ -122,7 +122,7 @@ Key research areas include:
 - 8-way tensor parallelism, 12-way pipeline parallelism
 - MFU: ~41-42%
 
-**Source PDF**: [Nemotron-4_340B_Technical_Report.pdf](../../PDFs/AI%20Labs/NVIDIA/Nemotron-4/Nemotron-4_340B_Technical_Report.pdf)
+**Source PDF**: [Nemotron-4_340B_Technical_Report.pdf](../../Lit-WS-PDFs/AI%20Labs/NVIDIA/Nemotron-4/Nemotron-4_340B_Technical_Report.pdf)
 
 ---
 
@@ -158,7 +158,7 @@ Key research areas include:
 - AI2D: 94.2%
 - DocVQA: 92.6%
 
-**Source PDF**: [NVLM_1.0_Multimodal_Model.pdf](../../PDFs/AI%20Labs/NVIDIA/NVLM%201.0/NVLM_1.0_Multimodal_Model.pdf)
+**Source PDF**: [NVLM_1.0_Multimodal_Model.pdf](../../Lit-WS-PDFs/AI%20Labs/NVIDIA/NVLM%201.0/NVLM_1.0_Multimodal_Model.pdf)
 
 ---
 
@@ -196,7 +196,7 @@ Key research areas include:
 - Table Extraction (TEDS): 86.2%
 - Inference: ~4-5 pages/second on H100
 
-**Source PDF**: [Nemotron-Parse_Document_Parsing.pdf](../../PDFs/AI%20Labs/NVIDIA/Nemotron-Parse/Nemotron-Parse_Document_Parsing.pdf)
+**Source PDF**: [Nemotron-Parse_Document_Parsing.pdf](../../Lit-WS-PDFs/AI%20Labs/NVIDIA/Nemotron-Parse/Nemotron-Parse_Document_Parsing.pdf)
 
 ---
 
@@ -249,7 +249,7 @@ Key research areas include:
 - SWE-Bench: 47.7%
 - RULER @ 1M: 68.2%
 
-**Source PDF**: [Nemotron_3_Hybrid_Mamba_Transformer_MoE.pdf](../../PDFs/AI%20Labs/NVIDIA/Nemotron%203/Nemotron_3_Hybrid_Mamba_Transformer_MoE.pdf)
+**Source PDF**: [Nemotron_3_Hybrid_Mamba_Transformer_MoE.pdf](../../Lit-WS-PDFs/AI%20Labs/NVIDIA/Nemotron%203/Nemotron_3_Hybrid_Mamba_Transformer_MoE.pdf)
 
 ---
 
@@ -290,9 +290,9 @@ Key research areas include:
 ## References
 
 All source PDFs are available in the vault at:
-- `PDFs/AI Labs/NVIDIA/Megatron-LM/`
-- `PDFs/AI Labs/NVIDIA/Megatron-Turing NLG/`
-- `PDFs/AI Labs/NVIDIA/Nemotron-4/`
-- `PDFs/AI Labs/NVIDIA/NVLM 1.0/`
-- `PDFs/AI Labs/NVIDIA/Nemotron-Parse/`
-- `PDFs/AI Labs/NVIDIA/Nemotron 3/`
+- `Lit-WS-PDFs/AI Labs/NVIDIA/Megatron-LM/`
+- `Lit-WS-PDFs/AI Labs/NVIDIA/Megatron-Turing NLG/`
+- `Lit-WS-PDFs/AI Labs/NVIDIA/Nemotron-4/`
+- `Lit-WS-PDFs/AI Labs/NVIDIA/NVLM 1.0/`
+- `Lit-WS-PDFs/AI Labs/NVIDIA/Nemotron-Parse/`
+- `Lit-WS-PDFs/AI Labs/NVIDIA/Nemotron 3/`

@@ -263,7 +263,7 @@ Miscellaneous utility scripts.
 
 - **`download_batch_8.py`** - Download PDFs in batch
   - Downloads papers from URLs
-  - Places PDFs in `PDFs/` directory
+  - Places PDFs in `Lit-WS-PDFs/` directory
   - Updates metadata links
   - Batch processing of multiple papers
 
@@ -330,7 +330,7 @@ source .venv/bin/activate  # On macOS/Linux
 
 ### Processing PDFs
 ```bash
-# 1. Place PDFs in PDFs/ directory
+# 1. Place PDFs in Lit-WS-PDFs/ directory
 # 2. Extract text
 python3 .agent/skills/extract_pdf_text/scripts/extract.py
 
@@ -373,7 +373,7 @@ cd PYTHON && python3 classify_ethics.py
 
 Scripts use `vault_config.py` to locate:
 - `papers/` directory (in workspace)
-- `PDFs/` directory (external, from `.vault-config.json`)
+- `Lit-WS-PDFs/` directory (external, from `.vault-config.json`)
 - `PDF Extracts/` directory (in workspace)
 - `Authors/` and `AI Labs/` directories (in workspace)
 

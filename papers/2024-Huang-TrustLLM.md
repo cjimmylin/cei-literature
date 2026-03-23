@@ -47,7 +47,7 @@ doi: 10.48550/arXiv.2401.05561
 tags: 
 url: "http://arxiv.org/abs/2401.05561"
 pdf_extract: "PDF Extracts/2024/2024-Huang-TrustLLM.md"
-local_pdf: "[[PDFs/2024/2024-Huang-TrustLLM.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Huang-TrustLLM.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.05561.pdf"
 publication: arXiv.org
 CONF-CC: "Preprint"
@@ -109,7 +109,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Huang-TrustLLM.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Huang-TrustLLM.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2401.05561
 - **DOI:** https://doi.org/10.48550/arXiv.2401.05561

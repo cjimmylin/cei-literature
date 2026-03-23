@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2311.07978"
 external_pdf: "https://arxiv.org/pdf/2311.07978.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Ojo-AfroBench - How Good are LLMs on African Languages.md"
-local_pdf: "[[PDFs/2023/2023-Ojo-AfroBench - How Good are LLMs on African Languages.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ojo-AfroBench - How Good are LLMs on African Languages.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

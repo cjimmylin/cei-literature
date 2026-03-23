@@ -51,7 +51,7 @@ doi: 10.1038/s41562-025-02172-y
 url: "https://arxiv.org/abs/2305.16867"
 external_pdf: "https://arxiv.org/pdf/2305.16867.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Akata-Playing Repeated Games with Large Language Models.md"
-local_pdf: "[[PDFs/2025/2025-Akata-Playing Repeated Games with Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Akata-Playing Repeated Games with Large Language Models.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

@@ -82,7 +82,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Wu-COIG-P.md"
 abstract: "Aligning large language models (LLMs) with human preferences has achieved remarkable success. However, existing Chinese preference datasets are limited by small scale, narrow domain coverage, and lack of rigorous data validation. Additionally, the reliance on human annotators for instruction and response labeling significantly constrains the scalability of human preference datasets. To address these challenges, we design an LLM-based Chinese preference dataset annotation pipeline with no human i"
 paper_summary: "Abstract: Aligning large language models (LLMs) with human preferences has achieved remarkable success. However, existing Chinese preference datasets are limited by small scale, narrow domain coverage, and lack | Overview: M-A-P COIG-P: A High-Quality and Large-Scale Chinese Preference Dataset for Alignment with Human Values M-A-P, 2077AI Abstract Aligning large language models (LLMs) with human preferences has achieved | Key Findings: models may favor responses that resemble their own outputs [Li et al., 2024a, Liu et al., 2024b]. Furthermore, even in LLM-driven pipelines, certain s | Conclusions: 13 8 Contributions and Acknowledgments 15 A Prompts 21 B Open-source datasets 22 C Examples 24 2 --- Page 3 ---"
-local_pdf: "[[PDFs/2025/2025-Wu-COIG-P.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-COIG-P.pdf]]"
 LLM_assessed: "Claude, DeepSeek, Gemini, GPT-3.5, GPT-4o, Qwen"
 DATA_URL: "https://github.com/multimodal-art-projection/COIG-P"
 publication: arXiv
@@ -114,7 +114,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Wu-COIG-P.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-COIG-P.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2504.05535
 

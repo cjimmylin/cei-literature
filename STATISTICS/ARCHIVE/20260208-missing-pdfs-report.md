@@ -29,13 +29,13 @@ Old `Unknown`-prefixed PDFs from before the author discovery batch. The paper an
 
 | # | Orphan PDF | Matched Paper (has PDF ✓) |
 |---|-----------|--------------------------|
-| 1 | `[[PDFs/2020/2020-Unknown-Machine Ethics - Creation of a Virtuous Machine.pdf]]` | `[[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine]]` |
-| 2 | `[[PDFs/2022/2022-Unknown-A Virtue-Based Framework for AI Ethics in Practice.pdf]]` | `[[2022-Hagendorff-Virtue-Based Framework for AI Ethics]]` |
-| 3 | `[[PDFs/2022/2022-Unknown-Automated Ethical Practical Reasoning.pdf]]` | `[[2025-Sullins-Automated Ethical Practical Reasoning]]` |
-| 4 | `[[PDFs/2022/2022-Unknown-Can Robotic AI Systems Be Virtuous.pdf]]` | `[[2022-Constantinescu-Can Robotic AI Be Virtuous]]` |
-| 5 | `[[PDFs/2024/2024-Unknown-Computational Complexity of Ethics.pdf]]` | `[[2024-Stenseke-Computational Complexity of Ethics]]` |
-| 6 | `[[PDFs/2025/2025-Unknown-AI Practical Wisdom and Compassion.pdf]]` | `[[2025-Graves-AI Practical Wisdom and Compassion]]` |
-| 7 | `[[PDFs/2025/2025-Unknown-Virtue in the Machine.pdf]]` | `[[2025-Gounaris-Virtue in the Machine]]` |
+| 1 | `[[Lit-WS-PDFs/2020/2020-Unknown-Machine Ethics - Creation of a Virtuous Machine.pdf]]` | `[[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine]]` |
+| 2 | `[[Lit-WS-PDFs/2022/2022-Unknown-A Virtue-Based Framework for AI Ethics in Practice.pdf]]` | `[[2022-Hagendorff-Virtue-Based Framework for AI Ethics]]` |
+| 3 | `[[Lit-WS-PDFs/2022/2022-Unknown-Automated Ethical Practical Reasoning.pdf]]` | `[[2025-Sullins-Automated Ethical Practical Reasoning]]` |
+| 4 | `[[Lit-WS-PDFs/2022/2022-Unknown-Can Robotic AI Systems Be Virtuous.pdf]]` | `[[2022-Constantinescu-Can Robotic AI Be Virtuous]]` |
+| 5 | `[[Lit-WS-PDFs/2024/2024-Unknown-Computational Complexity of Ethics.pdf]]` | `[[2024-Stenseke-Computational Complexity of Ethics]]` |
+| 6 | `[[Lit-WS-PDFs/2025/2025-Unknown-AI Practical Wisdom and Compassion.pdf]]` | `[[2025-Graves-AI Practical Wisdom and Compassion]]` |
+| 7 | `[[Lit-WS-PDFs/2025/2025-Unknown-Virtue in the Machine.pdf]]` | `[[2025-Gounaris-Virtue in the Machine]]` |
 
 ### 1b. Title Drift / Truncation Leftovers (8)
 
@@ -43,14 +43,14 @@ Old PDF names from before papers were renamed to shorter or corrected titles. Th
 
 | # | Orphan PDF | Matched Paper (has PDF ✓) |
 |---|-----------|--------------------------|
-| 8 | `[[PDFs/2024/2024-Agarwal-Ethical Reasoning and Moral Value Alignment of.pdf]]` | `[[2024-Agarwal-Ethical Reasoning Depends on Language]]` (trailing "of" trimmed) |
-| 9 | `[[PDFs/2024/2024-Ji-MoralBench Moral Evaluation of LLMs.pdf]]` | `[[2024-Ji-MoralBench]]` (long-form → short title) |
-| 10 | `[[PDFs/2025/2025-Baum-Aggregation Problems Machine Ethics.pdf]]` | `[[2025-Baum-Aggregation Problems in Machine Ethics]]` |
-| 11 | `[[PDFs/2025/2025-Chakraborty-Structured Moral Reasoning in Language Models.pdf]]` | `[[2025-Chakraborty-Structured Moral Reasoning]]` |
-| 12 | `[[PDFs/2025/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment.pdf]]` | `[[2025-Jiao-LLM Ethics Benchmark]]` |
-| 13 | `[[PDFs/2025/2025-Sachdeva-Normative Evaluation of Large Language Models.pdf]]` | `[[2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas]]` |
-| 14 | `[[PDFs/2025/2025-Samway-Are Language Models Consequentialist or.pdf]]` | `[[2025-Samway-Are Language Models Consequentialist or Deontological]]` |
-| 15 | `[[PDFs/2025/2025-Unknown-Large Language Models Meet Moral Values.pdf]]` | `[[2025-Bulla-Large Language Models meet moral values]]` |
+| 8 | `[[Lit-WS-PDFs/2024/2024-Agarwal-Ethical Reasoning and Moral Value Alignment of.pdf]]` | `[[2024-Agarwal-Ethical Reasoning Depends on Language]]` (trailing "of" trimmed) |
+| 9 | `[[Lit-WS-PDFs/2024/2024-Ji-MoralBench Moral Evaluation of LLMs.pdf]]` | `[[2024-Ji-MoralBench]]` (long-form → short title) |
+| 10 | `[[Lit-WS-PDFs/2025/2025-Baum-Aggregation Problems Machine Ethics.pdf]]` | `[[2025-Baum-Aggregation Problems in Machine Ethics]]` |
+| 11 | `[[Lit-WS-PDFs/2025/2025-Chakraborty-Structured Moral Reasoning in Language Models.pdf]]` | `[[2025-Chakraborty-Structured Moral Reasoning]]` |
+| 12 | `[[Lit-WS-PDFs/2025/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment.pdf]]` | `[[2025-Jiao-LLM Ethics Benchmark]]` |
+| 13 | `[[Lit-WS-PDFs/2025/2025-Sachdeva-Normative Evaluation of Large Language Models.pdf]]` | `[[2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas]]` |
+| 14 | `[[Lit-WS-PDFs/2025/2025-Samway-Are Language Models Consequentialist or.pdf]]` | `[[2025-Samway-Are Language Models Consequentialist or Deontological]]` |
+| 15 | `[[Lit-WS-PDFs/2025/2025-Unknown-Large Language Models Meet Moral Values.pdf]]` | `[[2025-Bulla-Large Language Models meet moral values]]` |
 
 ### 1c. Year-Change or Punctuation Leftovers (5)
 
@@ -58,11 +58,11 @@ Old PDFs where the year was corrected or special characters changed. The paper a
 
 | # | Orphan PDF | Matched Paper (has PDF ✓) |
 |---|-----------|--------------------------|
-| 16 | `[[PDFs/2024/2024-Mougan-Kantian Deontology Meets AI Alignment.pdf]]` | `[[2023-Mougan-Kantian Deontology Meets AI Alignment]]` (year corrected to 2023) |
-| 17 | `[[PDFs/2024/2024-Tennant-Moral Alignment for LLM Agents.pdf]]` | `[[2025-Tennant-Moral Alignment for LLM Agents]]` (year corrected to 2025) |
-| 18 | `[[PDFs/2024/2024-D'Alessandro-Deontology and safe artificial intelligence.pdf]]` | `[[2024-DAlessandro-Deontology and Safe Artificial Intelligence]]` (apostrophe removed in paper name) |
-| 19 | `[[PDFs/2023/2023-Shen-"Do Anything Now".pdf]]` | `[[2023-Shen-"Do Anything Now"]]` (straight quotes → curly quotes) |
-| 20 | `[[PDFs/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.pdf]]` | `[[2025-LaCroix-Metaethical perspectives on 'benchmarking' AI]]` (straight quotes → curly quotes) |
+| 16 | `[[Lit-WS-PDFs/2024/2024-Mougan-Kantian Deontology Meets AI Alignment.pdf]]` | `[[2023-Mougan-Kantian Deontology Meets AI Alignment]]` (year corrected to 2023) |
+| 17 | `[[Lit-WS-PDFs/2024/2024-Tennant-Moral Alignment for LLM Agents.pdf]]` | `[[2025-Tennant-Moral Alignment for LLM Agents]]` (year corrected to 2025) |
+| 18 | `[[Lit-WS-PDFs/2024/2024-D'Alessandro-Deontology and safe artificial intelligence.pdf]]` | `[[2024-DAlessandro-Deontology and Safe Artificial Intelligence]]` (apostrophe removed in paper name) |
+| 19 | `[[Lit-WS-PDFs/2023/2023-Shen-"Do Anything Now".pdf]]` | `[[2023-Shen-"Do Anything Now"]]` (straight quotes → curly quotes) |
+| 20 | `[[Lit-WS-PDFs/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.pdf]]` | `[[2025-LaCroix-Metaethical perspectives on 'benchmarking' AI]]` (straight quotes → curly quotes) |
 
 > **Recommended action:** `mv` all 20 orphan PDFs to `RECYCLE-BIN/`. They are duplicates of PDFs the paper already links to.
 
@@ -141,8 +141,8 @@ These orphans map to papers that currently have **no PDF**. Renaming (or moving)
 
 | # | Orphan PDF | Matching Paper (missing PDF) | Action |
 |---|-----------|------------------------------|--------|
-| 1 | `[[PDFs/INBOX/The AI Mirror _ How to Reclaim Our Humanity in an Age of -- Shannon Vallor -- Oxford University Press USA, New York, NY, 2024.pdf]]` | `[[2024-Vallor-The AI Mirror]]` | Rename to `PDFs/2024/2024-Vallor-The AI Mirror.pdf` and set `local_pdf` |
-| 2 | `[[PDFs/2024/2024-Farina-AI and Society - A Virtue Ethics Approach.pdf]]` | `[[2024-Farina-AI and Society Virtue Ethics Approach]]` | Rename PDF to `2024-Farina-AI and Society Virtue Ethics Approach.pdf` and set `local_pdf` |
+| 1 | `[[Lit-WS-PDFs/INBOX/The AI Mirror _ How to Reclaim Our Humanity in an Age of -- Shannon Vallor -- Oxford University Press USA, New York, NY, 2024.pdf]]` | `[[2024-Vallor-The AI Mirror]]` | Rename to `Lit-WS-PDFs/2024/2024-Vallor-The AI Mirror.pdf` and set `local_pdf` |
+| 2 | `[[Lit-WS-PDFs/2024/2024-Farina-AI and Society - A Virtue Ethics Approach.pdf]]` | `[[2024-Farina-AI and Society Virtue Ethics Approach]]` | Rename PDF to `2024-Farina-AI and Society Virtue Ethics Approach.pdf` and set `local_pdf` |
 
 ### 3b. Stenseke 2023 Orphans — Unmatched Publications (2)
 
@@ -150,14 +150,14 @@ These appear to be copies of the 2021 Stenseke paper or a different publication.
 
 | # | Orphan PDF | Notes |
 |---|-----------|-------|
-| 3 | `[[PDFs/2023/2023-Stenseke-Artificial Virtuous Agents.pdf]]` | May be a 2023 version/reprint of `[[2021-Stenseke-Artificial Virtuous Agents]]` — duplicate, safe for RECYCLE-BIN |
-| 4 | `[[PDFs/2023/2023-Stenseke-Artificial Virtuous Agents - Theory to.pdf]]` | Likely truncated filename of a Stenseke thesis/book chapter — investigate or RECYCLE-BIN |
+| 3 | `[[Lit-WS-PDFs/2023/2023-Stenseke-Artificial Virtuous Agents.pdf]]` | May be a 2023 version/reprint of `[[2021-Stenseke-Artificial Virtuous Agents]]` — duplicate, safe for RECYCLE-BIN |
+| 4 | `[[Lit-WS-PDFs/2023/2023-Stenseke-Artificial Virtuous Agents - Theory to.pdf]]` | Likely truncated filename of a Stenseke thesis/book chapter — investigate or RECYCLE-BIN |
 
 ### 3c. No Matching Paper (1)
 
 | # | Orphan PDF | Notes |
 |---|-----------|-------|
-| 5 | `[[PDFs/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.pdf]]` | No matching paper in vault. May need a new paper entry or investigation. Same author has `[[2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas]]` (different work) |
+| 5 | `[[Lit-WS-PDFs/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.pdf]]` | No matching paper in vault. May need a new paper entry or investigation. Same author has `[[2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas]]` (different work) |
 
 ---
 
@@ -165,31 +165,31 @@ These appear to be copies of the 2021 Stenseke paper or a different publication.
 
 ### 4a. Wrong Path Format — PDF Exists but Link Missing Year Directory (19)
 
-These papers have a `local_pdf` wikilink that omits the `PDFs/YYYY/` prefix (uses bare filename or old path). The PDF exists on disk at the correct year-based path.
+These papers have a `local_pdf` wikilink that omits the `Lit-WS-PDFs/YYYY/` prefix (uses bare filename or old path). The PDF exists on disk at the correct year-based path.
 
-**Fix:** Update `local_pdf` to include the `PDFs/YYYY/` prefix.
+**Fix:** Update `local_pdf` to include the `Lit-WS-PDFs/YYYY/` prefix.
 
 | # | Paper | Current (broken) link | Correct path |
 |---|-------|-----------------------|-------------|
-| 1 | `[[2010-Project-GurbaniDB]]` | `[[2010-Project-GurbaniDB.pdf]]` | `[[PDFs/2010/2010-Project-GurbaniDB.pdf]]` |
-| 2 | `[[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine]]` | `[[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]` | `[[PDFs/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]` |
-| 3 | `[[2022-Bago-Situational factors shape moral judgments in the]]` | `[[2022-Bago-Situational factors shape moral judgments in the.pdf]]` | `[[PDFs/2022/2022-Bago-Situational factors shape moral judgments in the.pdf]]` |
-| 4 | `[[2023-Lee-VisAlign]]` | `[[2023-Lee-VisAlign.pdf]]` | `[[PDFs/2023/2023-Lee-VisAlign.pdf]]` |
-| 5 | `[[2024-Akhtar-The Ethicsophical Landscape of Large Language]]` | `[[2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]` | `[[PDFs/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]` |
-| 6 | `[[2024-Kaiyom-HELM Safety]]` | `[[2024-Kaiyom-HELM Safety.pdf]]` | `[[PDFs/2024/2024-Kaiyom-HELM Safety.pdf]]` |
-| 7 | `[[2024-Leech-Ten Hard Problems in Artificial Intelligence We]]` | `[[2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]` | `[[PDFs/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]` |
-| 8 | `[[2024-Levine-Religious Affiliation and Conceptions of the]]` | `[[2024-Levine-Religious Affiliation and Conceptions of the.pdf]]` | `[[PDFs/2024/2024-Levine-Religious Affiliation and Conceptions of the.pdf]]` |
-| 9 | `[[2024-Mou-SGBench]]` | `[[2024-Mou-SG-Bench.pdf]]` | `[[PDFs/2024/2024-Mou-SG-Bench.pdf]]` |
-| 10 | `[[2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI]]` | `[[2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf]]` | `[[PDFs/2024/2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf]]` |
-| 11 | `[[2025-Banerjee-SafeInfer]]` | `[[2025-Banerjee-SafeInfer.pdf]]` | `[[PDFs/2025/2025-Banerjee-SafeInfer.pdf]]` |
-| 12 | `[[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons]]` | `[[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]` | `[[PDFs/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]` |
-| 13 | `[[2025-Hatemo-Revisiting the Trolley Problem for AI]]` | `[[2025-Hatemo-Revisiting the Trolley Problem for AI.pdf]]` | `[[PDFs/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.pdf]]` |
-| 14 | `[[2025-Jacovi-The FACTS Grounding Leaderboard]]` | `[[2025-Jacovi-The FACTS Grounding Leaderboard.pdf]]` | `[[PDFs/2025/2025-Jacovi-The FACTS Grounding Leaderboard.pdf]]` |
-| 15 | `[[2025-Laukkonen-Contemplative Artificial Intelligence]]` | `[[2025-Laukkonen-Contemplative Artificial Intelligence.pdf]]` | `[[PDFs/2025/2025-Laukkonen-Contemplative Artificial Intelligence.pdf]]` |
-| 16 | `[[2025-Li-T2ISafety]]` | `[[2025-Li-T2ISafety.pdf]]` | `[[PDFs/2025/2025-Li-T2ISafety.pdf]]` |
-| 17 | `[[2025-Okamoto-AI-based medical ethics education]]` | `[[2025-Okamoto-AI-based medical ethics education.pdf]]` | `[[PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]` |
-| 18 | `[[2025-Pipitone-Unlocking practical wisdom]]` | `[[2025-Pipitone-Unlocking practical wisdom.pdf]]` | `[[PDFs/2025/2025-Pipitone-Unlocking practical wisdom.pdf]]` |
-| 19 | `[[2025-Steen-Ethical aspects of ChatGPT]]` | `[[2025-Steen-Ethical aspects of ChatGPT.pdf]]` | `[[PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]` |
+| 1 | `[[2010-Project-GurbaniDB]]` | `[[2010-Project-GurbaniDB.pdf]]` | `[[Lit-WS-PDFs/2010/2010-Project-GurbaniDB.pdf]]` |
+| 2 | `[[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine]]` | `[[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]` | `[[Lit-WS-PDFs/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]` |
+| 3 | `[[2022-Bago-Situational factors shape moral judgments in the]]` | `[[2022-Bago-Situational factors shape moral judgments in the.pdf]]` | `[[Lit-WS-PDFs/2022/2022-Bago-Situational factors shape moral judgments in the.pdf]]` |
+| 4 | `[[2023-Lee-VisAlign]]` | `[[2023-Lee-VisAlign.pdf]]` | `[[Lit-WS-PDFs/2023/2023-Lee-VisAlign.pdf]]` |
+| 5 | `[[2024-Akhtar-The Ethicsophical Landscape of Large Language]]` | `[[2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]` | `[[Lit-WS-PDFs/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]` |
+| 6 | `[[2024-Kaiyom-HELM Safety]]` | `[[2024-Kaiyom-HELM Safety.pdf]]` | `[[Lit-WS-PDFs/2024/2024-Kaiyom-HELM Safety.pdf]]` |
+| 7 | `[[2024-Leech-Ten Hard Problems in Artificial Intelligence We]]` | `[[2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]` | `[[Lit-WS-PDFs/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]` |
+| 8 | `[[2024-Levine-Religious Affiliation and Conceptions of the]]` | `[[2024-Levine-Religious Affiliation and Conceptions of the.pdf]]` | `[[Lit-WS-PDFs/2024/2024-Levine-Religious Affiliation and Conceptions of the.pdf]]` |
+| 9 | `[[2024-Mou-SGBench]]` | `[[2024-Mou-SG-Bench.pdf]]` | `[[Lit-WS-PDFs/2024/2024-Mou-SG-Bench.pdf]]` |
+| 10 | `[[2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI]]` | `[[2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf]]` | `[[Lit-WS-PDFs/2024/2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf]]` |
+| 11 | `[[2025-Banerjee-SafeInfer]]` | `[[2025-Banerjee-SafeInfer.pdf]]` | `[[Lit-WS-PDFs/2025/2025-Banerjee-SafeInfer.pdf]]` |
+| 12 | `[[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons]]` | `[[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]` | `[[Lit-WS-PDFs/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]` |
+| 13 | `[[2025-Hatemo-Revisiting the Trolley Problem for AI]]` | `[[2025-Hatemo-Revisiting the Trolley Problem for AI.pdf]]` | `[[Lit-WS-PDFs/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.pdf]]` |
+| 14 | `[[2025-Jacovi-The FACTS Grounding Leaderboard]]` | `[[2025-Jacovi-The FACTS Grounding Leaderboard.pdf]]` | `[[Lit-WS-PDFs/2025/2025-Jacovi-The FACTS Grounding Leaderboard.pdf]]` |
+| 15 | `[[2025-Laukkonen-Contemplative Artificial Intelligence]]` | `[[2025-Laukkonen-Contemplative Artificial Intelligence.pdf]]` | `[[Lit-WS-PDFs/2025/2025-Laukkonen-Contemplative Artificial Intelligence.pdf]]` |
+| 16 | `[[2025-Li-T2ISafety]]` | `[[2025-Li-T2ISafety.pdf]]` | `[[Lit-WS-PDFs/2025/2025-Li-T2ISafety.pdf]]` |
+| 17 | `[[2025-Okamoto-AI-based medical ethics education]]` | `[[2025-Okamoto-AI-based medical ethics education.pdf]]` | `[[Lit-WS-PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]` |
+| 18 | `[[2025-Pipitone-Unlocking practical wisdom]]` | `[[2025-Pipitone-Unlocking practical wisdom.pdf]]` | `[[Lit-WS-PDFs/2025/2025-Pipitone-Unlocking practical wisdom.pdf]]` |
+| 19 | `[[2025-Steen-Ethical aspects of ChatGPT]]` | `[[2025-Steen-Ethical aspects of ChatGPT.pdf]]` | `[[Lit-WS-PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]` |
 
 ### 4b. Truly Broken — No PDF on Disk (5)
 
@@ -197,11 +197,11 @@ These papers have `local_pdf` links pointing to files that don't exist, and no P
 
 | # | Paper | Broken link |
 |---|-------|-------------|
-| 1 | `[[2023-Boddington-Normative Ethical Theory AI Ethics]]` | `[[PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]` |
-| 2 | `[[2023-Stenseke-Use and Abuse Normative Ethics Moral Machines]]` | `[[PDFs/2023/2023-Stenseke-Use and Abuse Normative Ethics Moral Machines.pdf]]` |
-| 3 | `[[2024-Ribeiro-Machine Ethics Architecture of Virtue]]` | `[[PDFs/2024/2024-Ribeiro-Machine Ethics Architecture of Virtue.pdf]]` |
-| 4 | `[[2025-Cheung-LLMs Amplified Cognitive Biases Moral]]` | `[[PDFs/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.pdf]]` |
-| 5 | `[[2025-Ochasi-Reframing Justice in Healthcare AI]]` | `[[PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf]]` |
+| 1 | `[[2023-Boddington-Normative Ethical Theory AI Ethics]]` | `[[Lit-WS-PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]` |
+| 2 | `[[2023-Stenseke-Use and Abuse Normative Ethics Moral Machines]]` | `[[Lit-WS-PDFs/2023/2023-Stenseke-Use and Abuse Normative Ethics Moral Machines.pdf]]` |
+| 3 | `[[2024-Ribeiro-Machine Ethics Architecture of Virtue]]` | `[[Lit-WS-PDFs/2024/2024-Ribeiro-Machine Ethics Architecture of Virtue.pdf]]` |
+| 4 | `[[2025-Cheung-LLMs Amplified Cognitive Biases Moral]]` | `[[Lit-WS-PDFs/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.pdf]]` |
+| 5 | `[[2025-Ochasi-Reframing Justice in Healthcare AI]]` | `[[Lit-WS-PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf]]` |
 
 > These 5 papers also appear in Section 2 (Truly Missing PDFs). The `local_pdf` field was set optimistically during import but the download failed.
 
@@ -210,12 +210,12 @@ These papers have `local_pdf` links pointing to files that don't exist, and no P
 ## Recommended Actions
 
 ### Quick Wins (automated)
-1. **Fix 19 broken `local_pdf` paths** — add `PDFs/YYYY/` prefix (batch regex script)
+1. **Fix 19 broken `local_pdf` paths** — add `Lit-WS-PDFs/YYYY/` prefix (batch regex script)
 2. **Move 20 duplicate orphan PDFs to RECYCLE-BIN** — Section 1 items are confirmed duplicates
 
 ### Manual Actions
 3. **Rename Farina PDF** — `2024-Farina-AI and Society - A Virtue Ethics Approach.pdf` → `2024-Farina-AI and Society Virtue Ethics Approach.pdf` and set `local_pdf`
-4. **Rename + move Vallor PDF** — from INBOX to `PDFs/2024/2024-Vallor-The AI Mirror.pdf` and set `local_pdf`
+4. **Rename + move Vallor PDF** — from INBOX to `Lit-WS-PDFs/2024/2024-Vallor-The AI Mirror.pdf` and set `local_pdf`
 5. **Investigate 3 remaining orphans** — Sachdeva "Deliberative Dynamics" (new paper entry?), 2× Stenseke 2023 (RECYCLE-BIN?)
 6. **Attempt manual download** of 5 open-access missing PDFs (Section 2c)
 7. **Clear 5 broken `local_pdf` fields** (Section 4b) — set to `N/A` or remove field

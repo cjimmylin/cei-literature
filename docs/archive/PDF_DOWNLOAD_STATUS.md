@@ -228,7 +228,7 @@ cat 20260124-pdf_download_all_log.json | grep -o '"phase1_success"' | wc -l
 python3 -c "import json; log = json.load(open('20260124-pdf_download_all_log.json')); print([k for k in log.get('phase1_failed', {})])"
 
 # Check file sizes
-ls -lh PDFs/ | awk '{print $5}' | tail -n +2 | awk '{sum+=$1} END {print "Total: " sum}'
+ls -lh Lit-WS-PDFs/ | awk '{print $5}' | tail -n +2 | awk '{sum+=$1} END {print "Total: " sum}'
 ```
 
 ---
@@ -291,7 +291,7 @@ python3 PYTHON/download_all_pdfs.py --status
 tail -f 20260124-pdf_download_all_log.json
 
 # Count PDFs
-ls -1 PDFs/*.pdf | wc -l
+ls -1 Lit-WS-PDFs/*.pdf | wc -l
 
 # Find failed papers
 grep -l "phase1_failed" 20260124-pdf_download_all_log.json && \

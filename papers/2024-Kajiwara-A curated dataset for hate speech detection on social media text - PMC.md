@@ -54,7 +54,7 @@ external_pdf: "http://arxiv.org/abs/2212.12799"
 publication: PubMed
 CONF-CC: "NAACL 2022"
 pdf_extract: "PDF Extracts/2024/2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.md"
-local_pdf: "[[PDFs/2024/2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.pdf]]"
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"

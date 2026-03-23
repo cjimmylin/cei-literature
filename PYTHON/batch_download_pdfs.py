@@ -145,7 +145,7 @@ def update_local_pdf_field(paper_path, pdf_filename):
     """
     content = paper_path.read_text(encoding='utf-8')
 
-    local_pdf_line = f'local_pdf: "[[PDFs/{pdf_filename}]]"'
+    local_pdf_line = f'local_pdf: "[[Lit-WS-PDFs/{pdf_filename}]]"'
 
     # Strategy 1: Replace existing blank local_pdf: line
     new_content, n = re.subn(

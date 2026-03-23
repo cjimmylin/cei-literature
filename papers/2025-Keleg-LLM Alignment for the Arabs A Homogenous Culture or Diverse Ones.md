@@ -48,7 +48,7 @@ url: "https://arxiv.org/abs/2503.15003"
 external_pdf: "https://arxiv.org/pdf/2503.15003.pdf"
 publication: arXiv / C3NLP 2025 Workshop
 CONF-CC: "Workshop (2025)"
-local_pdf: "[[PDFs/2025/2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"

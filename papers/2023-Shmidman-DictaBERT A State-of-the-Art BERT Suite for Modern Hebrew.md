@@ -48,7 +48,7 @@ authors: Shaltiel Shmidman; Avi Shmidman; Amir DN Cohen; Moshe Koppel
 url: "https://arxiv.org/abs/2308.16687"
 external_pdf: "https://arxiv.org/pdf/2308.16687.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.md"
-local_pdf: "[[PDFs/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

@@ -1,6 +1,6 @@
 ---
 title: "2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”"
-source_pdf: "[[PDFs/2025/2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2025/2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.pdf]]"
 extracted_date: "2026-02-14"
 extraction_method: "PyMuPDF"
 ---

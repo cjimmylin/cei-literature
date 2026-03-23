@@ -49,7 +49,7 @@ external_pdf: "https://aclanthology.org/2022.findings-naacl.49.pdf"
 publication: ResearchGate
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.md"
-local_pdf: "[[PDFs/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

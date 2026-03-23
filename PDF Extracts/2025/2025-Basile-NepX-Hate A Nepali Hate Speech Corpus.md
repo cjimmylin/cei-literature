@@ -1,6 +1,6 @@
 ---
 title: "2025-Basile-NepX-Hate A Nepali Hate Speech Corpus"
-source_pdf: "[[PDFs/2025/2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2025/2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.pdf]]"
 extracted_date: "2026-02-14"
 extraction_method: "PyMuPDF"
 ---

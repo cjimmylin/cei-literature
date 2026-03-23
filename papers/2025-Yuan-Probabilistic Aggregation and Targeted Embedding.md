@@ -81,7 +81,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.md"
 abstract: "Large Language Models (LLMs) have shown impressive moral reasoning abilities. Yet they often diverge when confronted with complex, multi-factor moral dilemmas. To address these discrepancies, we propose a framework that synthesizes multiple LLMs' moral judgments into a collectively formulated moral judgment, realigning models that deviate significantly from this consensus. Our aggregation mech- anism fuses continuous moral acceptability scores (beyond binary labels) into a collective probability"
 paper_summary: "Abstract: Large Language Models (LLMs) have shown impressive moral reasoning abilities. Yet they often diverge when confronted with complex, multi-factor moral dilemmas. To address these discrepancies, we propo | Overview: arXiv:2506.14625v2 [cs.CL] 18 Jun 2025 Probabilistic Aggregation and Targeted Embedding Optimization for Collective Moral Reasoning in Large Language Models Chenchen Yuan†, Zheyu Zhang†, Shuo Yang†, B | Methodology: that fuses continuous moral scores from multiple LLMs into a collective moral reference by model- ing annotator reliability. (2) We introduce a token- | Key Findings: Two key questions are examined: (1) Does the truncated-normal EM approach produce a coher- ent collective opinion across LLMs? (2) Can tar- geted embe | Conclusions: We propose a truncated-normal EM framework to synthesize moral judgments from multiple LLMs and introduce targeted embedding optimization to reduce mi"
-local_pdf: "[[PDFs/2025/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4o, Claude-3, Llama-2, Llama-3"
 DATA_URL: "https://github.com/yuanchencn/Collective-Moral-Reasoning"
@@ -115,7 +115,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2506.14625
 - **DOI:** https://doi.org/10.48550/arXiv.2506.14625

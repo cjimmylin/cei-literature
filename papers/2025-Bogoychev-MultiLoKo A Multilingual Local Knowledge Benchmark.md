@@ -52,7 +52,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2504.10356"
 external_pdf: "https://arxiv.org/pdf/2504.10356.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.md"
-local_pdf: "[[PDFs/2025/2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.pdf]]"
 publication: "Meta Research"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

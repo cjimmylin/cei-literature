@@ -52,7 +52,7 @@ external_pdf: "https://arxiv.org/pdf/1908.04531.pdf"
 publication: "ACL Anthology / LREC 2020"
 CONF-CC: "LREC 2020"
 pdf_extract: "PDF Extracts/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md"
-local_pdf: "[[PDFs/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

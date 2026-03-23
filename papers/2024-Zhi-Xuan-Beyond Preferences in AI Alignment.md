@@ -82,7 +82,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.md"
 abstract: "The dominant practice of AI alignment assumes (1) that preferences are an adequate representation of human values, (2) that human rationality can be understood in terms of maximizing the satisfaction of preferences, and (3) that AI systems should be aligned with the preferences of one or more humans to ensure that they behave safely and in accordance with our values. Whether implicitly followed or explicitly endorsed, these commitments constitute what we term a preferentist approach to AI..."
 paper_summary: 
-local_pdf: "[[PDFs/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "NA"
@@ -115,7 +115,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf|Open PDF]]
 
 - **URL:** https://link.springer.com/article/10.1007/s11098-024-02249-w
 - **DOI:** https://doi.org/10.1007/s11098-024-02249-w

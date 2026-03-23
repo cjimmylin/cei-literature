@@ -54,7 +54,7 @@ external_pdf: "https://sol.sbc.org.br/index.php/stil/article/download/25450/2527
 publication: "STIL 2023"
 CONF-CC: "STIL 2023"
 pdf_extract: PDF Extracts/2023/2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese.md
-local_pdf: "[[PDFs/2023/2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"

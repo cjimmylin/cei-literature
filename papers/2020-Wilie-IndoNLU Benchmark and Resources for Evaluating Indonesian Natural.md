@@ -49,7 +49,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2009.05387"
 external_pdf: "https://arxiv.org/pdf/2009.05387.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.md"
-local_pdf: "[[PDFs/2020/2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.pdf]]"
 publication: "arXiv / ACL Anthology (AACL-IJCNLP 2020)"
 CONF-CC: "AACL 2020"
 DATE_ADDED: 20260213

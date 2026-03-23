@@ -179,7 +179,7 @@ def load_papers() -> List[PaperRecord]:
         local_pdf = fields.get("local_pdf", "")
         if local_pdf and "[[" in local_pdf and "]]" in local_pdf:
             ref = local_pdf.replace("[[", "").replace("]]", "").split("|")[0].strip()
-            ref = ref.replace("PDFs/", "")
+            ref = ref.replace("Lit-WS-PDFs/", "")
             pdf_path = PDFS_DIR / ref
             has_pdf = pdf_path.exists()
 

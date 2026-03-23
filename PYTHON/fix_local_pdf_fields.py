@@ -39,7 +39,7 @@ def make_wikilink(pdf_path):
         rel = pdf_path.relative_to(PDFS_DIR)
     except ValueError:
         rel = pdf_path.name
-    return f'"[[PDFs/{rel}]]"'
+    return f'"[[Lit-WS-PDFs/{rel}]]"'
 
 
 def safe_set_local_pdf(paper_path, new_value):

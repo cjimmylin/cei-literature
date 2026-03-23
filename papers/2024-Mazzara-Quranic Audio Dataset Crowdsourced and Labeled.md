@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2405.02675"
 external_pdf: "https://arxiv.org/pdf/2405.02675.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled.md"
-local_pdf: "[[PDFs/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled.pdf]]"
 publication: ScienceDirect
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

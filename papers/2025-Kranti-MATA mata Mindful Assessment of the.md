@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2508.13526"
 external_pdf: "https://arxiv.org/pdf/2508.13526.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kranti-MATA mata Mindful Assessment of the.md"
-local_pdf: "[[PDFs/2025/2025-Kranti-MATA mata Mindful Assessment of the.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kranti-MATA mata Mindful Assessment of the.pdf]]"
 publication: "WebSearch: MATA Telugu benchmark"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

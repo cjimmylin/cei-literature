@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2511.14295.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.md"
-local_pdf: "[[PDFs/2025/2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"

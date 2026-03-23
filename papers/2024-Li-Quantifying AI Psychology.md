@@ -85,7 +85,7 @@ significance: "Applies established psychological testing frameworks to 'profile'
 pdf_extract: "PDF Extracts/2024/2024-Li-Quantifying AI Psychology.md"
 abstract: "Large Language Models (LLMs) have demonstrated exceptional capabilities in solving various tasks, progressively evolving into general-purpose assistants. The increasing integration of LLMs into society has sparked interest in whether they exhibit psychological patterns, and whether these patterns remain consistent across different contexts—questions that could deepen the understanding of their behaviors."
 paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated exceptional capabilities in solving various tasks, progressively evolving into general-purpose assistants. The increasing integration of LLMs into societ | Overview: Evaluating Large Language Models with Psychometrics Yuan Li University of Cambridge Yue Huang University of Notre Dame Hongyi Wang Carnegie Mellon University Ying Cheng University of Notre Dame Xiangl | Methodology: named Emotional Chain-of-Thought, which aligns LLM outputs with human emotional intelligence, thereby refining emotional gen- eration capabilities. Co | Key Findings: on imposing memory task. This task includes alternative-choice items with statements about the intentionality of characters in the scenario, and LLMs  | Conclusions: In this paper, we present a comprehensive psychometric benchmark for LLMs, covering the evaluation of five psychological dimensions and thirteen datas"
-local_pdf: "[[PDFs/2024/2024-Li-Quantifying AI Psychology.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-Quantifying AI Psychology.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Mistral, Mixtral, Qwen, Llama-3"
@@ -120,7 +120,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Li-Quantifying AI Psychology.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Li-Quantifying AI Psychology.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2406.17675
 - **DOI:** https://doi.org/10.48550/arXiv.2406.17675

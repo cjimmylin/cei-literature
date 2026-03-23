@@ -54,7 +54,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2505.17332"
 external_pdf: "https://arxiv.org/pdf/2505.17332.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-SweEval Do LLMs Really Swear A.md"
-local_pdf: "[[PDFs/2025/2025-Kumar-SweEval Do LLMs Really Swear A.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kumar-SweEval Do LLMs Really Swear A.pdf]]"
 publication: "NAACL 2025"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213

@@ -78,7 +78,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Aina-Virtue Ethics by Design.md"
-local_pdf: "[[PDFs/2025/2025-Aina-Virtue Ethics by Design.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aina-Virtue Ethics by Design.pdf]]"
 CONFERENCE: "Unknown"
 ethics_overall: 100
 virtue_ethics: 100

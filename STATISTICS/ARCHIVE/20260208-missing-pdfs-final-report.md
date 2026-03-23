@@ -59,7 +59,7 @@ Phase 2 resolved **76 papers** with PDF-related issues discovered in a systemati
   - Elder, Rourke → `local_pdf: N/A`
 - **2 corrupted `external_pdf`** fields cleaned (Zhang, Myers had `publication:` text in field)
 - **1 `pdf_extract`** field added (Kreutz)
-- **9 broken old-style paths** fixed — `PDFs/filename.pdf` → `"[[PDFs/YYYY/filename.pdf]]"`
+- **9 broken old-style paths** fixed — `Lit-WS-PDFs/filename.pdf` → `"[[Lit-WS-PDFs/YYYY/filename.pdf]]"`
 
 ### Track B: High-Probability PDF Downloads
 | Paper | Source | Result |
@@ -94,11 +94,11 @@ Phase 2 resolved **76 papers** with PDF-related issues discovered in a systemati
 
 ### Post-Plan: INBOX Processing (manual browser downloads)
 - **Bryan** — User manually downloaded from AMA Journal of Ethics (anti-bot site), placed in INBOX
-  - Moved to `PDFs/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.pdf`
+  - Moved to `Lit-WS-PDFs/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.pdf`
   - Updated `local_pdf` from N/A → wikilink
   - Created PDF extract (8 pages, ~24K chars)
 - **McGee** — User manually downloaded from SSRN (JS-gated site), placed in INBOX
-  - Moved to `PDFs/2024/2024-McGee-How Ethical Is Utilitarian Ethics.pdf`
+  - Moved to `Lit-WS-PDFs/2024/2024-McGee-How Ethical Is Utilitarian Ethics.pdf`
   - Updated `local_pdf` from N/A → wikilink
   - Created PDF extract (28 pages, ~70K chars)
 - Both verified with `%PDF-` magic bytes, validation: 923/923 pass

@@ -53,7 +53,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2506.19468"
 external_pdf: "https://arxiv.org/pdf/2506.19468.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Han-MuBench Assessment of Multilingual Capabilities of.md"
-local_pdf: "[[PDFs/2025/2025-Han-MuBench Assessment of Multilingual Capabilities of.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Han-MuBench Assessment of Multilingual Capabilities of.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

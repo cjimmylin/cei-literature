@@ -44,7 +44,7 @@ authors: "W. Russell Neuman; Coleman, Chad; Shah, Manan"
 doi: 10.48550/arXiv.2504.19255
 url: "https://arxiv.org/abs/2504.19255"
 pdf_extract: "PDF Extracts/2025/2025-Neuman-PRIME Framework Convergent Ethics.md"
-local_pdf: "[[PDFs/2025/2025-Neuman-PRIME Framework Convergent Ethics.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Neuman-PRIME Framework Convergent Ethics.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2504.19255.pdf"
 ethics_perspective: "Moral Foundations Analysis"
 national_ethnic_cultural: "N/A"
@@ -107,7 +107,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Neuman-PRIME Framework Convergent Ethics.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Neuman-PRIME Framework Convergent Ethics.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2504.19255
 - **DOI:** https://doi.org/10.48550/arXiv.2504.19255

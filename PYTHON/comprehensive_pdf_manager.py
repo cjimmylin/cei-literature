@@ -4,7 +4,7 @@ Comprehensive PDF Manager for CEI Literature Vault
 
 Ensures every paper has:
 1. An online PDF link (`pdf` field)
-2. A downloaded local PDF in PDFs/
+2. A downloaded local PDF in Lit-WS-PDFs/
 
 Features:
 - Discovers PDFs from multiple sources (arXiv, ACL, Semantic Scholar, DOI)
@@ -225,7 +225,7 @@ class PDFManager:
 
             # Update fields
             fields['pdf'] = pdf_url
-            fields['local_pdf'] = f"PDFs/{pdf_filename}"
+            fields['local_pdf'] = f"Lit-WS-PDFs/{pdf_filename}"
 
             # Rebuild and write
             new_fm = rebuild_frontmatter(fields)

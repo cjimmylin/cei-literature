@@ -52,7 +52,7 @@ external_pdf: "https://cke.um.ac.ir/article_46412_dc00307da37c32ca327cb54c47db3a
 publication: "Computer and Knowledge Engineering (CKE)"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.md"
-local_pdf: "[[PDFs/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"

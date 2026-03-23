@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2312.12624"
 external_pdf: "https://arxiv.org/pdf/2312.12624.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.md"
-local_pdf: "[[PDFs/2023/2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

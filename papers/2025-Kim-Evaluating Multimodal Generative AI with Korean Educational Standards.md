@@ -50,7 +50,7 @@ doi: 10.18653/v1/2025.naacl-short.56
 url: "https://arxiv.org/abs/2502.15422"
 external_pdf: "https://arxiv.org/pdf/2502.15422.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.md"
-local_pdf: "[[PDFs/2025/2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.pdf]]"
 publication: "arXiv / NAACL 2025"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213

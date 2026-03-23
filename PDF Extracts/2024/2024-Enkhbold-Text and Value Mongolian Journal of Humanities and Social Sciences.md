@@ -1,6 +1,6 @@
 ---
 title: "2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences"
-source_pdf: "[[PDFs/2024/2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.pdf]]"
+source_pdf: "[[Lit-WS-PDFs/2024/2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.pdf]]"
 extracted_date: "2026-02-14"
 extraction_method: "PyMuPDF"
 ---

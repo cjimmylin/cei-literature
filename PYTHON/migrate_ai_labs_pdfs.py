@@ -375,7 +375,7 @@ def main():
     # Execute mode
     if args.execute:
         # Confirm execution
-        print(f"\n⚠️  WARNING: This will move {len(mappings)} PDFs from workspace to AI-Lab-PDFs/")
+        print(f"\n⚠️  WARNING: This will move {len(mappings)} PDFs from workspace to AI-Lab-Lit-WS-PDFs/")
         response = input("Continue? [y/N]: ")
 
         if response.lower() != 'y':

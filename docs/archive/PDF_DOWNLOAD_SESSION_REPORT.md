@@ -18,7 +18,7 @@
 
 ### 1. Script Fix
 - Updated `smart_pdf_downloader.py` to use correct field name `external_pdf` (was looking for `pdf`)
-- Added wikilink format handling for `local_pdf` field (`[[PDFs/name.pdf]]`)
+- Added wikilink format handling for `local_pdf` field (`[[Lit-WS-PDFs/name.pdf]]`)
 
 ### 2. Batch Downloads
 - Downloaded 18 PDFs from papers with proper URLs

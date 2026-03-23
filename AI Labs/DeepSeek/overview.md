@@ -378,7 +378,7 @@ DeepSeekMoE introduces architectural innovations for achieving ultimate expert s
 ## Source PDFs
 
 All technical reports are available in:
-- `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/AI Labs/DeepSeek/Papers/`
+- `/Users/jimmy.lin/Documents/CEI-Literature-Vault/Lit-WS-PDFs/AI Labs/DeepSeek/Papers/`
 
 Extracted text versions:
 - `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDF Extracts/AI Labs/`

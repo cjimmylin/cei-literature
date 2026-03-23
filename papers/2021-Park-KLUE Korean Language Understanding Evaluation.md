@@ -48,7 +48,7 @@ authors: Sungjoon Park; Jihyung Moon; Sungdong Kim; Won Ik Cho; Jiyoon Han; Jang
 url: "https://arxiv.org/abs/2105.09680"
 external_pdf: "https://arxiv.org/pdf/2105.09680.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Park-KLUE Korean Language Understanding Evaluation.md"
-local_pdf: "[[PDFs/2021/2021-Park-KLUE Korean Language Understanding Evaluation.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Park-KLUE Korean Language Understanding Evaluation.pdf]]"
 publication: "arXiv / NeurIPS 2021 Datasets Track"
 CONF-CC: "NeurIPS 2021"
 DATE_ADDED: 20260213

@@ -48,7 +48,7 @@ url: "https://datascience.codata.org/articles/10.5334/dsj-2024-015"
 external_pdf: "https://arxiv.org/pdf/2311.15473.pdf"
 publication: Data Science Journal / arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2024/2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Australian/Aboriginal"

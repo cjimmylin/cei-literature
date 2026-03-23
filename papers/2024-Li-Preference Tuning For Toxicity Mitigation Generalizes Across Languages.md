@@ -52,7 +52,7 @@ external_pdf: "https://arxiv.org/pdf/2406.16235.pdf"
 publication: "arXiv / ACL Anthology"
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.md"
-local_pdf: "[[PDFs/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

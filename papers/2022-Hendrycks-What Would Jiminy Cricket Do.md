@@ -84,7 +84,7 @@ tags:
 pdf_extract: "PDF Extracts/2022/2022-Hendrycks-What Would Jiminy Cricket Do.md"
 abstract: "When making everyday decisions, people are guided by their conscience, an internal sense of right and wrong. By contrast, artiﬁcial agents are not currently endowed with a moral sense. As a consequence, they may unknowingly act immorally, especially when trained on environments that disregard moral concerns such as violent video games. With the advent of generally capable agents that pretrain on many environments, it will become necessary to mitigate inherited biases from such environments that..."
 paper_summary: "Abstract: When making everyday decisions, people are guided by their conscience, an internal sense of right and wrong. By contrast, artiﬁcial agents are not currently endowed with a moral sense. As a consequenc | Overview: What Would Jiminy Cricket Do? Towards Agents That Behave Morally Dan Hendrycks∗ UC Berkeley Mantas Mazeika* UIUC Andy Zou UC Berkeley Sahil Patel UC Berkeley Christine Zhu UC Berkeley Jesus Navarro UC | Methodology: Utility Shaping and show results in Table 3. Although Utility Shaping reaches a higher Percent Completion than CMPS, its Immorality metric is higher.  | Conclusions: We introduced Jiminy Cricket, a suite of environments for evaluating the moral behavior of arti- ﬁcial agents in the complex, semantically rich enviro"
-local_pdf: "[[PDFs/2022/2022-Hendrycks-What Would Jiminy Cricket Do.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Hendrycks-What Would Jiminy Cricket Do.pdf]]"
 CONF-CC: "NeurIPS Datasets and Benchmarks"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, RoBERTa"
@@ -119,7 +119,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2022/2022-Hendrycks-What Would Jiminy Cricket Do.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2022/2022-Hendrycks-What Would Jiminy Cricket Do.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2110.13136
 - **DOI:** https://doi.org/10.48550/arXiv.2110.13136

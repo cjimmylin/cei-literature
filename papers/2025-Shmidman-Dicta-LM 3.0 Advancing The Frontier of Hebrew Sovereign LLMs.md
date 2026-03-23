@@ -52,7 +52,7 @@ external_pdf: "https://arxiv.org/pdf/2602.02104.pdf"
 publication: "Dicta Technical Report"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Shmidman-Dicta-LM 3.0 Advancing The Frontier of Hebrew Sovereign LLMs.md"
-local_pdf: "[[PDFs/2025/2025-Shmidman-Dicta-LM 3.0 Advancing The Frontier of Hebrew Sovereign LLMs.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shmidman-Dicta-LM 3.0 Advancing The Frontier of Hebrew Sovereign LLMs.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew/Israeli"

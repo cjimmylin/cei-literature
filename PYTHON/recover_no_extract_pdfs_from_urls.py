@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Recover missing PDFs/extracts for unresolved no-extract papers by probing URL fields.
+Recover missing Lit-WS-PDFs/extracts for unresolved no-extract papers by probing URL fields.
 
 Input:
   - logs/YYYYMMDD-llm-data-fix-unresolved.csv
@@ -13,7 +13,7 @@ Behavior:
   - Save PDF under configured PDFS_DIR/<year>/<paper-stem>.pdf
   - Create extract under PDF Extracts/<year>/<paper-stem>.md
   - Update paper YAML fields:
-      local_pdf: "[[PDFs/<year>/<paper-stem>.pdf]]"
+      local_pdf: "[[Lit-WS-PDFs/<year>/<paper-stem>.pdf]]"
       pdf_extract: "PDF Extracts/<year>/<paper-stem>.md"
 
 Output:
@@ -234,7 +234,7 @@ def set_yaml_scalar(frontmatter: str, key: str, value: str, anchors: list[str]) 
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Recover missing PDFs/extracts for unresolved no-extract rows")
+    parser = argparse.ArgumentParser(description="Recover missing Lit-WS-PDFs/extracts for unresolved no-extract rows")
     parser.add_argument("--date-prefix", default=date.today().strftime("%Y%m%d"))
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--max-papers", type=int, default=0, help="Optional cap for testing")
@@ -379,7 +379,7 @@ def main() -> None:
             new_fm, _ = set_yaml_scalar(
                 fm_text,
                 "local_pdf",
-                f"[[PDFs/{year}/{paper_path.stem}.pdf]]",
+                f"[[Lit-WS-PDFs/{year}/{paper_path.stem}.pdf]]",
                 anchors=["external_pdf", "url", "pdf_extract"],
             )
             new_fm, _ = set_yaml_scalar(

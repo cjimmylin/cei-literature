@@ -87,7 +87,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Anwar-Foundational Challenges in Assuring Alignment and.md"
 abstract: "This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific understanding of LLMs, development and deployment methods, and sociotechnical challenges. Based on the identified challenges, we pose 200+ concrete research questions. Corresponding author: Usman Anwar «usmananwar391@gmail.com» 1 arXiv:2404.09932v2 [cs.LG] 6 Sep"
 paper_summary: "Abstract: This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific underst | Overview: Published in Transactions on Machine Learning Research (09/2024) Foundational Challenges in Assuring Alignment and Safety of Large Language Models Usman Anwar1 Abulhair Saparov∗2, Javier Rando∗3, Dani | Methodology: also runs the risk of missing backup or secondary computational nodes from the identified circuits, which only becomes active when the primary computa | Key Findings: . . . . . . . . . . . . . . . . . . . . . . 55 | Conclusions: 110"
-local_pdf: "[[PDFs/2024/2024-Anwar-Foundational Challenges in Assuring Alignment and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Anwar-Foundational Challenges in Assuring Alignment and.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
@@ -121,7 +121,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Anwar-Foundational Challenges in Assuring Alignment and.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Anwar-Foundational Challenges in Assuring Alignment and.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2404.09932
 - **DOI:** https://doi.org/10.48550/arXiv.2404.09932

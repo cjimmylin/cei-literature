@@ -80,7 +80,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, DeepSeek"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md"
-local_pdf: "[[PDFs/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.pdf]]"
 CONFERENCE: "Journal"
 ethics_overall: 30
 virtue_ethics: 100

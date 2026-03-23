@@ -90,7 +90,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, GPT-4o, Gemini"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.md"
-local_pdf: "[[PDFs/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.pdf]]"
 CONFERENCE: "Other Conference"
 ethics_overall: 70
 virtue_ethics: 0

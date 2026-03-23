@@ -52,7 +52,7 @@ external_pdf: "https://doi.org/10.26615/978-954-452-056-4_010"
 publication: "ACL Anthology / RANLP 2019"
 CONF-CC: "RANLP 2019"
 pdf_extract: "PDF Extracts/2019/2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.md"
-local_pdf: "[[PDFs/2019/2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

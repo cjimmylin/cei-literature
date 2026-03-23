@@ -54,7 +54,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s13347-020-00402-x.
 publication: Springer
 CONF-CC: "Philosophy & Technology"
 pdf_extract: "PDF Extracts/2025/2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.md"
-local_pdf: "[[PDFs/2025/2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

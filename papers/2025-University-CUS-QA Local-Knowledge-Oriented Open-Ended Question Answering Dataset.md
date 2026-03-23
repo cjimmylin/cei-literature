@@ -49,7 +49,7 @@ authors: "CUS-QA Team (Charles University)"
 url: "https://arxiv.org/abs/2507.22752"
 external_pdf: "https://arxiv.org/pdf/2507.22752.pdf"
 pdf_extract: "PDF Extracts/2025/2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset.md"
-local_pdf: "[[PDFs/2025/2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset.pdf]]"
 publication: "arXiv / Hugging Face"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

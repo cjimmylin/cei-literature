@@ -48,7 +48,7 @@ All 16 papers received `helm: "incorporated"` via safe regex append (no YAML par
 | Authors | Bertie Vidgen; Tristan Thrush; Zeerak Waseem; Douwe Kiela |
 | Year | 2023 |
 | Source | arXiv: 2311.08370 |
-| PDF | `PDFs/2023/2023-Vidgen-SimpleSafetyTests.pdf` (2.0 MB, %PDF- verified) |
+| PDF | `Lit-WS-PDFs/2023/2023-Vidgen-SimpleSafetyTests.pdf` (2.0 MB, %PDF- verified) |
 | Extract | `PDF Extracts/2023/2023-Vidgen-SimpleSafetyTests.md` (59,070 bytes, 973 lines) |
 | New authors | Tristan Thrush, Douwe Kiela (stub files created) |
 
@@ -60,7 +60,7 @@ All 16 papers received `helm: "incorporated"` via safe regex append (no YAML par
 | Authors | Debora Nozza; Federico Bianchi; Dirk Hovy |
 | Year | 2021 |
 | Source | ACL: 2021.naacl-main.191 |
-| PDF | `PDFs/2021/2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.pdf` (297 KB, %PDF- verified) |
+| PDF | `Lit-WS-PDFs/2021/2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.pdf` (297 KB, %PDF- verified) |
 | Extract | `PDF Extracts/2021/2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.md` (38,506 bytes, 1,266 lines) |
 | New authors | None (all 3 already in vault) |
 
@@ -72,7 +72,7 @@ All 16 papers received `helm: "incorporated"` via safe regex append (no YAML par
 | Authors | Daniel Borkan; Lucas Dixon; Jeffrey Sorensen; Nithum Thain; Lucy Vasserman |
 | Year | 2019 |
 | Source | DOI: 10.1145/3308560.3317593 |
-| PDF | `PDFs/2019/2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.pdf` (1.3 MB, %PDF- verified) |
+| PDF | `Lit-WS-PDFs/2019/2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.pdf` (1.3 MB, %PDF- verified) |
 | Extract | `PDF Extracts/2019/2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.md` (46,766 bytes, 954 lines) |
 | New authors | Daniel Borkan (stub file created) |
 

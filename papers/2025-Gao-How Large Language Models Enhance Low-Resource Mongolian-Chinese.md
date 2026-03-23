@@ -52,7 +52,7 @@ external_pdf: "https://www.sciengine.com/doi/pdf/6A0FFAF926684232A3BB85AA8F6C02D
 publication: Web
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.md"
-local_pdf: "[[PDFs/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

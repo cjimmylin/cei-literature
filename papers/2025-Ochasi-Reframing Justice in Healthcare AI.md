@@ -102,7 +102,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf|Open PDF]]
 - **DOI:** https://doi.org/10.1111/dewb.70007
 - **Semantic Scholar:** https://www.semanticscholar.org/paper/f69149d1876c2a3721874fc2b9072ff7b2a60988
 - **PMC (Open Access):** https://pmc.ncbi.nlm.nih.gov/articles/PMC11641042/

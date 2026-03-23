@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2502.02444"
 external_pdf: "https://arxiv.org/pdf/2502.02444.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md"
-local_pdf: "[[PDFs/2025/2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.pdf]]"
 publication: ACL
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207

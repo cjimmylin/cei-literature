@@ -34,8 +34,8 @@ Move all AI Labs PDFs from workspace to external root-level directory, separatin
 ```
 /Users/jimmy.lin/Documents/CEI-Literature-Vault/
 ├── CEI-Lit-WS/          # Workspace (GitHub tracked)
-├── PDFs/                # Papers PDFs (652 files, external)
-└── AI-Lab-PDFs/         # NEW: AI Labs PDFs (392 files, external)
+├── Lit-WS-PDFs/                # Papers PDFs (652 files, external)
+└── AI-Lab-Lit-WS-PDFs/         # NEW: AI Labs PDFs (392 files, external)
     ├── 01.AI/
     ├── Alibaba (Qwen)/
     ├── Anthropic/
@@ -92,7 +92,7 @@ Initialize Git repository in workspace and establish GitHub remote.
 ### Files Modified
 
 1. `.gitignore` (workspace) - Added `AI Labs/**/*.pdf` and `RECYCLE-BIN/`
-2. `.gitignore` (vault root) - Created to protect `PDFs/`, `AI-Lab-PDFs/`, `.venv/`, `.agent/`
+2. `.gitignore` (vault root) - Created to protect `Lit-WS-PDFs/`, `AI-Lab-Lit-WS-PDFs/`, `.venv/`, `.agent/`
 
 ---
 
@@ -124,8 +124,8 @@ Push workspace to GitHub for the first time, excluding all PDFs.
 ### What Was NOT Pushed
 
 ❌ **Protected from Git**:
-- 652 PDFs in `PDFs/`
-- 392 PDFs in `AI-Lab-PDFs/`
+- 652 PDFs in `Lit-WS-PDFs/`
+- 392 PDFs in `AI-Lab-Lit-WS-PDFs/`
 - 57 archived files in `RECYCLE-BIN/`
 - 4 stub PDFs in workspace
 - User configuration (`.vault-config.json`)

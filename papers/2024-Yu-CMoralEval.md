@@ -44,7 +44,7 @@ authors: "Yu, Linhao; Leng, Yongqi; Huang, Yufei; Wu, Shang; Liu, Haixin; Ji, Xi
 doi: 10.18653/v1/2024.findings-acl.703
 url: "https://aclanthology.org/2024.findings-acl.703/"
 pdf_extract: "PDF Extracts/2024/2024-Yu-CMoralEval.md"
-local_pdf: "[[PDFs/2024/2024-Yu-CMoralEval.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yu-CMoralEval.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B24568AJ/Yu et al. - 2024 - CMoralEval A Moral Evaluation Benchmark for Chinese Large Language Models.pdf"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
@@ -107,7 +107,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Yu-CMoralEval.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Yu-CMoralEval.pdf|Open PDF]]
 
 - **ACL Anthology:** https://aclanthology.org/2024.findings-acl.703
 - **DOI:** https://doi.org/10.18653/v1/2024.findings-acl.703

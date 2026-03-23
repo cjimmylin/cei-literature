@@ -87,7 +87,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Jiang-Raising the Bar.md"
 abstract: "Warning: Contains harmful model outputs. Despite significant advancements, the propensity of Large Language Models (LLMs) to generate harmful and unethical content poses critical challenges. Measuring value alignment of LLMs becomes crucial for their regulation and responsible deployment. Although numerous benchmarks have been constructed to assess social bias, toxicity, and ethical issues in LLMs, those static benchmarks suffer from evaluation chronoeffect, in which, as models rapidly evolve,..."
 paper_summary: "Abstract: Warning: Contains harmful model outputs. Despite significant advancements, the propensity of Large Language Models (LLMs) to generate harmful and unethical content poses critical chal- lenges. Measuri | Overview: arXiv:2406.14230v5 [cs.CL] 11 Jun 2025 Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing Han Jiang 1 Xiaoyuan Yi* 2 Zhihua Wei* 1 Ziang Xiao 3 Shu Wang | Methodology: 3.1. Formalization and Preliminaries Formalization Given a group of m examinee LLMs E = {ei}m i=1 and a static dataset containing n test items X = {xj | Key Findings: CAT GETA 2 3 2 1 3 Figure 2. An illustration of Static Evaluation, CAT, and GETA: (1) The static evaluation method directly applies existing benchmark | Conclusions: The rapid development of LLMs poses a unique challenge for accurately assessing their underlying value and ethical alignment, referred to as the evalu"
-local_pdf: "[[PDFs/2025/2025-Jiang-Raising the Bar.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jiang-Raising the Bar.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2, Mistral"
@@ -122,7 +122,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Jiang-Raising the Bar.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Jiang-Raising the Bar.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2406.14230
 - **DOI:** https://doi.org/10.48550/arXiv.2406.14230

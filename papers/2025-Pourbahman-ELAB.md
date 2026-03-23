@@ -85,7 +85,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Pourbahman-ELAB.md"
 abstract: "This paper presents a comprehensive evaluation framework for aligning Persian Large Language Models (LLMs) with critical ethical dimensions, including safety, fairness, and social norms. It addresses the gaps in existing LLM evaluation frameworks by adapting them to Persian linguistic and cultural contexts. This benchmark creates three types of Persian-language benchmarks: (i) translated data, (ii) new data generated synthetically, and (iii) new naturally collected data."
 paper_summary: "Abstract: This paper presents a comprehensive evalu- ation framework for aligning Persian Large Language Models (LLMs) with critical eth- ical dimensions, including safety, fairness, and social norms. It addres | Overview: ELAB: Extensive LLM Alignment Benchmark in Persian Language Zahra Pourbahman‡§, Fatemeh Rajabi‡, Mohammadhossein Sadeghi‡§, Omid Ghahroodi, Somaye Bakhshaei‡, Arash Amini‡§ , Reza Kazemi‡§ , Mahdieh S | Methodology: to culturally grounded alignment evaluation. A systematic evaluation of Persian LLMs is performed across the three alignment aspects: safety (avoiding | Key Findings: of Persian LLMs across key alignment di- mensions (All Persian texts were (a) back- translated to verify meaning preservation, then (b) evaluated by n | Conclusions: This work develops a unified framework for evaluat- ing Persian LLMs, integrating safety, fairness, and social norms, and adapting existing benchmarks"
-local_pdf: "[[PDFs/2025/2025-Pourbahman-ELAB.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Pourbahman-ELAB.pdf]]"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma-2, Llama-3, Mistral, Qwen-2"
@@ -116,7 +116,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Pourbahman-ELAB.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Pourbahman-ELAB.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2504.12553
 

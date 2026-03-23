@@ -66,7 +66,7 @@ CEI-Literature-Vault/              # Repository root
     └── RECYCLE-BIN/               # Deleted files go here
 
 External (configurable via .vault-config.json):
-└── /path/to/PDFs/                 # PDF files (user-configured location)
+└── /path/to/Lit-WS-PDFs/                 # PDF files (user-configured location)
 ```
 
 ## Setup (New Clone)

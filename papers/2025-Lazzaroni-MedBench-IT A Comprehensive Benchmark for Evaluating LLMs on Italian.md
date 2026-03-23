@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2509.07135.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.md"
-local_pdf: "[[PDFs/2025/2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"

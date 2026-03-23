@@ -50,7 +50,7 @@ external_pdf: "https://arxiv.org/pdf/2510.27543.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and.md"
-local_pdf: "[[PDFs/2025/2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"

@@ -86,7 +86,7 @@ significance: "Highlight that LLMs act 'too certain' in gray areas; true alignme
 pdf_extract: "PDF Extracts/2024/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.md"
 abstract: "Language models often misinterpret human intentions due to their handling of ambiguity, a limitation well-recognized in NLP research. While morally clear scenarios are more discernible to LLMs, greater difficulty is encountered in morally ambiguous contexts. In this investigation, we explored LLM calibration to show that human and LLM judgments are poorly aligned in such scenarios. We used two curated datasets from the Scruples project for evaluation: DILEMMAS, which involves pairs of distinct..."
 paper_summary: "Abstract: Language models often misinterpret human intentions due to their handling of ambiguity, a limitation well-recognized in NLP research. While morally clear scenarios are more discernible to LLMs, greate | Overview: Fine-Tuning Language Models for Ethical Ambiguity: A Comparative Study of Alignment with Human Responses Pranav Senthilkumar Visshwa Balasubramanian Prisha Jain Aneesa Maity Jonathan Lu Kevin Zhu Algo | Methodology: 3.1 Model Calibration Approach To measure the calibration of LLM responses with respect to human ethical judgments, we extracted token probabilities f | Conclusions: In summary, fine-tuning led to different outcomes based on the datasets: notable progress on the Dilemmas dataset but stronger performance on Anecdote"
-local_pdf: "[[PDFs/2024/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Llama-3, Mistral"
 DATA_URL: "NA"
@@ -120,7 +120,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2410.07826
 - **DOI:** https://doi.org/10.48550/arXiv.2410.07826

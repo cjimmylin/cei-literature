@@ -55,7 +55,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/1910.01214"
 external_pdf: "https://arxiv.org/pdf/1910.01214.pdf"
 pdf_extract: "PDF Extracts/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.md"
-local_pdf: "[[PDFs/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

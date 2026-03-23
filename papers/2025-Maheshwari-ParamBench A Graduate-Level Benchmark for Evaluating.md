@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2508.16185"
 external_pdf: "https://arxiv.org/pdf/2508.16185.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Maheshwari-ParamBench A Graduate-Level Benchmark for Evaluating.md"
-local_pdf: "[[PDFs/2025/2025-Maheshwari-ParamBench A Graduate-Level Benchmark for Evaluating.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Maheshwari-ParamBench A Graduate-Level Benchmark for Evaluating.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

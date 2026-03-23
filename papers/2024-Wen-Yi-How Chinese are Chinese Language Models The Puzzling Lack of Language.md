@@ -48,7 +48,7 @@ url: "https://arxiv.org/abs/2407.09652"
 external_pdf: "https://arxiv.org/pdf/2407.09652.pdf"
 publication: arXiv (withdrawn)
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2024/2024-Wen-Yi-How Chinese are Chinese Language Models The Puzzling Lack of Language.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wen-Yi-How Chinese are Chinese Language Models The Puzzling Lack of Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Wen-Yi-How Chinese are Chinese Language Models The Puzzling Lack of Language.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"

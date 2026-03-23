@@ -47,7 +47,7 @@ authors: "Ober, Josiah; Tasioulas, John"
 doi: N/A
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4879572"
 pdf_extract: "PDF Extracts/2024/2024-Ober-Lyceum Project AI Ethics Aristotle.md"
-local_pdf: "[[PDFs/2024/2024-Ober-Lyceum Project AI Ethics Aristotle.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ober-Lyceum Project AI Ethics Aristotle.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

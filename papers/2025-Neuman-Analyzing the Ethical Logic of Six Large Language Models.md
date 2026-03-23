@@ -46,7 +46,7 @@ doi: 10.48550/arXiv.2501.08951
 tags: "Computer Science - Computation and Language"
 url: "https://arxiv.org/abs/2501.08951"
 pdf_extract: "PDF Extracts/2025/2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md"
-local_pdf: "[[PDFs/2025/2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2501.08951.pdf"
 ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: "N/A"
@@ -108,7 +108,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2501.08951
 - **PDF:** https://arxiv.org/pdf/2501.08951.pdf

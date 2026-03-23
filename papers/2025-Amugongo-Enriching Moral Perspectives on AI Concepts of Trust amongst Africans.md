@@ -50,7 +50,7 @@ url: "https://arxiv.org/abs/2508.14116"
 external_pdf: "https://arxiv.org/pdf/2508.14116.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "African/Ubuntu"

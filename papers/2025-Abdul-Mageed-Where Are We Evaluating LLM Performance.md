@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2502.19582"
 external_pdf: "https://arxiv.org/pdf/2502.19582.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Abdul-Mageed-Where Are We Evaluating LLM Performance.md"
-local_pdf: "[[PDFs/2025/2025-Abdul-Mageed-Where Are We Evaluating LLM Performance.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Abdul-Mageed-Where Are We Evaluating LLM Performance.pdf]]"
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213

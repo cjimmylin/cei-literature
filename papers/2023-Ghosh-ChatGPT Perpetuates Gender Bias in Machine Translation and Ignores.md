@@ -53,7 +53,7 @@ doi: 10.1145/3600211.3604672
 url: "https://arxiv.org/abs/2305.10510"
 external_pdf: "https://arxiv.org/pdf/2305.10510.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md"
-local_pdf: "[[PDFs/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.pdf]]"
 publication: "arXiv / AAAI/ACM AIES 2023"
 CONF-CC: "AIES 2023"
 DATE_ADDED: 20260213

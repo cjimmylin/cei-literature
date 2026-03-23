@@ -426,7 +426,7 @@ class SmartPDFDownloader:
             pdf_url = self.get_pdf_url(fm)
             local_pdf = self.extract_field(fm, 'local_pdf')
 
-            # Skip if already has local PDF (handle wikilink format [[PDFs/name.pdf]])
+            # Skip if already has local PDF (handle wikilink format [[Lit-WS-PDFs/name.pdf]])
             if local_pdf:
                 # Strip wikilink brackets if present
                 local_pdf_clean = local_pdf.strip('[]').replace('[[', '').replace(']]', '')
@@ -470,7 +470,7 @@ class SmartPDFDownloader:
                     content = paper_file.read_text(encoding='utf-8', errors='ignore')
                     fm, body = extract_frontmatter(content)
                     fields = parse_frontmatter(fm)
-                    fields['local_pdf'] = f"PDFs/{pdf_filename}"
+                    fields['local_pdf'] = f"Lit-WS-PDFs/{pdf_filename}"
                     new_fm = rebuild_frontmatter(fields)
                     write_paper(paper_file, new_fm, body, validate=True)
 

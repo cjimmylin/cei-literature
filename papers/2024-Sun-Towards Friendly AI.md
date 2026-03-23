@@ -47,7 +47,7 @@ authors: "Sun, Qiyang; Li, Yupei; Alturki, Emran; Murthy, Sunil Munthumoduku Kri
 doi: N/A
 url: "https://arxiv.org/abs/2412.15114"
 pdf_extract: "PDF Extracts/2024/2024-Sun-Towards Friendly AI.md"
-local_pdf: "[[PDFs/2024/2024-Sun-Towards Friendly AI.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Sun-Towards Friendly AI.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

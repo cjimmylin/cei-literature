@@ -49,7 +49,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2512.01419"
 external_pdf: "https://arxiv.org/pdf/2512.01419.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.md"
-local_pdf: "[[PDFs/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

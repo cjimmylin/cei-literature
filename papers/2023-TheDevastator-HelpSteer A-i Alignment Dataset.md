@@ -88,7 +88,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/nvidia/HelpSteer"
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md"
-local_pdf: "[[PDFs/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.pdf]]"
 CONFERENCE: "Unknown"
 ethics_overall: 60
 virtue_ethics: 0

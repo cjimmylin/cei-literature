@@ -50,7 +50,7 @@ authors_incomplete: false
 url: 
 external_pdf: "https://arxiv.org/pdf/2502.11014.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.md"
-local_pdf: "[[PDFs/2025/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf]]"
 publication: "Journal of King Saud University Computer and Information Sciences"
 CONF-CC: "Journal of King Saud University Computer and Information Sciences"
 DATE_ADDED: 20260213

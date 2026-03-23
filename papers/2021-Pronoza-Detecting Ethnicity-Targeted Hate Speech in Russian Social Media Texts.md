@@ -56,7 +56,7 @@ external_pdf: "https://riunet.upv.es/bitstream/10251/183078/3/PronozaPanichevaKo
 publication: "Information Processing and Management (Elsevier)"
 CONF-CC: "Information Processing and Management"
 pdf_extract: "PDF Extracts/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.md"
-local_pdf: "[[PDFs/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.pdf]]"
 DATE_ADDED: 20260214
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"

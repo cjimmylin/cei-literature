@@ -26,17 +26,17 @@ PAPERS_DIR = Path("papers")
 PDFS_DIR = Path("../PDFs")  # Relative from CEI-Lit-WS/
 
 # ── Build PDF stem → path map ──────────────────────────────────────────
-pdf_map = {}  # stem → relative path from repo root (e.g., "PDFs/2024/file.pdf")
+pdf_map = {}  # stem → relative path from repo root (e.g., "Lit-WS-PDFs/2024/file.pdf")
 for pdf_path in PDFS_DIR.rglob("*.pdf"):
     stem = pdf_path.stem
     # Convert to repo-relative path for wikilinks
-    rel = str(pdf_path).replace("../", "")  # "PDFs/2024/file.pdf"
+    rel = str(pdf_path).replace("../", "")  # "Lit-WS-PDFs/2024/file.pdf"
     if stem not in pdf_map:
         pdf_map[stem] = rel
     else:
         # Prefer year-subdir paths over ethics-framework paths
         existing = pdf_map[stem]
-        year_match = re.match(r'^PDFs/\d{4}/', rel)
+        year_match = re.match(r'^Lit-WS-PDFs/\d{4}/', rel)
         if year_match:
             pdf_map[stem] = rel
 

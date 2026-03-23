@@ -49,7 +49,7 @@ doi: 10.1145/3701716.3715518
 url: "https://arxiv.org/abs/2409.12739"
 external_pdf: "https://arxiv.org/pdf/2409.12739.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.md"
-local_pdf: "[[PDFs/2024/2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260207

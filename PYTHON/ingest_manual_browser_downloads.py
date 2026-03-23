@@ -3,7 +3,7 @@
 Ingest manually downloaded PDFs for queue papers and sync paper metadata.
 
 This script checks queue papers for expected local PDF paths:
-  PDFs/<year>/<paper_stem>.pdf
+  Lit-WS-PDFs/<year>/<paper_stem>.pdf
 
 If the PDF exists and is valid, it will:
 1) Ensure `local_pdf` points to the expected PDF.
@@ -170,7 +170,7 @@ def run(queue_csv: Path, apply: bool) -> Dict[str, object]:
 
         stem = paper_path.stem
         year = parse_year(stem)
-        rel_pdf = f"PDFs/{year}/{stem}.pdf"
+        rel_pdf = f"Lit-WS-PDFs/{year}/{stem}.pdf"
         abs_pdf = pdf_root / year / f"{stem}.pdf"
         rel_extract = f"PDF Extracts/{year}/{stem}.md"
         abs_extract = ROOT / rel_extract

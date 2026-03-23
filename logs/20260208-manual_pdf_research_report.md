@@ -12,7 +12,7 @@ The remaining 5 are commercially published books or paywalled journal articles.
 ## SECTION A: Anti-Bot Blocked Papers (PDF exists, needs browser download)
 
 For these papers, open the URL in a browser, download the PDF, and save it to the
-`PDFs/` directory with the filename shown below.
+`Lit-WS-PDFs/` directory with the filename shown below.
 
 ---
 
@@ -22,7 +22,7 @@ For these papers, open the URL in a browser, download the PDF, and save it to th
 - **Type:** journalArticle (AMA Journal of Ethics, 100% Open Access)
 - **DOI:** `10.1001/amajethics.2025.611`
 - **Browser URL:** [https://journalofethics.ama-assn.org/article/virtue-ethics-and-postponing-human-extinction/2025-08](https://journalofethics.ama-assn.org/article/virtue-ethics-and-postponing-human-extinction/2025-08)
-- **Save as:** `PDFs/2025-Bryan-Virtue Ethics and Postponing Human Extinction.pdf`
+- **Save as:** `Lit-WS-PDFs/2025-Bryan-Virtue Ethics and Postponing Human Extinction.pdf`
 - **Vault file:** `papers/2025-Bryan-Virtue Ethics and Postponing Human Extinction.md`
 
 ### Instructions
@@ -37,7 +37,7 @@ For these papers, open the URL in a browser, download the PDF, and save it to th
 - **Author:** John P. Sullins
 - **Type:** bookSection (in "Robophilosophy", IOS Press / MIT Press)
 - **Browser URL:** [https://www.academia.edu/125895602/Automated_Ethical_Practical_Reasoning_The_Problem_of_Artificial_Phronesis](https://www.academia.edu/125895602/Automated_Ethical_Practical_Reasoning_The_Problem_of_Artificial_Phronesis)
-- **Save as:** `PDFs/2025-Sullins-Automated Ethical Practical Reasoning.pdf`
+- **Save as:** `Lit-WS-PDFs/2025-Sullins-Automated Ethical Practical Reasoning.pdf`
 - **Vault file:** `papers/2025-Sullins-Automated Ethical Practical Reasoning.md`
 
 ### Instructions
@@ -52,7 +52,7 @@ For these papers, open the URL in a browser, download the PDF, and save it to th
 - **Author:** Julian Marvin Jörs
 - **Type:** conferencePaper (CHI 2024 workshop)
 - **Browser URL:** [https://www.researchgate.net/publication/380938771](https://www.researchgate.net/publication/380938771_Through_Eudaimonia%27s_Lenses_EudAImonic_Well-Being_Variables_As_Guiding_Principles_For_AI_Design)
-- **Save as:** `PDFs/2024-Jörs-Through Eudaimonia's Lenses.pdf`
+- **Save as:** `Lit-WS-PDFs/2024-Jörs-Through Eudaimonia's Lenses.pdf`
 - **Vault file:** `papers/2024-Jörs-Through Eudaimonia's Lenses.md`
 
 ### Instructions
@@ -68,7 +68,7 @@ For these papers, open the URL in a browser, download the PDF, and save it to th
 - **Type:** conferencePaper (CIKM 2025)
 - **DOI:** `10.1145/3746252.3760884`
 - **Browser URL:** [https://dl.acm.org/doi/10.1145/3746252.3760884](https://dl.acm.org/doi/10.1145/3746252.3760884)
-- **Save as:** `PDFs/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.pdf`
+- **Save as:** `Lit-WS-PDFs/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.pdf`
 - **Vault file:** `papers/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.md`
 
 ### Instructions
@@ -89,7 +89,7 @@ For these papers, open the URL in a browser, download the PDF, and save it to th
 - **Type:** conferencePaper
 - **DOI:** None
 - **Notes:** No DOI, no known URL. Author affiliated with UTRGV.
-- **Save as:** `PDFs/2025-Muntean-Moral Coherentism Theoretical Framework Muntean.pdf`
+- **Save as:** `Lit-WS-PDFs/2025-Muntean-Moral Coherentism Theoretical Framework Muntean.pdf`
 - **Vault file:** `papers/2025-Muntean-Moral Coherentism Theoretical Framework Muntean.md`
 
 ### Research Links
@@ -112,7 +112,7 @@ For these papers, open the URL in a browser, download the PDF, and save it to th
 - **Type:** conferencePaper
 - **DOI:** `10.3233/SHTI250854`
 - **Notes:** IOS Press (SHTI series) — paywalled, no PMC/EuropePMC copy
-- **Save as:** `PDFs/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.pdf`
+- **Save as:** `Lit-WS-PDFs/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.pdf`
 - **Vault file:** `papers/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md`
 
 ### Research Links
@@ -133,7 +133,7 @@ For these papers, open the URL in a browser, download the PDF, and save it to th
 - **Type:** journalArticle (Nursing Ethics)
 - **DOI:** `10.1177/09697330241238332`
 - **Notes:** Sage journals — paywalled. PMID: 38472138.
-- **Save as:** `PDFs/2024-Muyskens-Can an AI-carebot be filial.pdf`
+- **Save as:** `Lit-WS-PDFs/2024-Muyskens-Can an AI-carebot be filial.pdf`
 - **Vault file:** `papers/2024-Muyskens-Can an AI-carebot be filial.md`
 
 ### Research Links

@@ -52,7 +52,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s10462-023-10668-0.
 publication: Springer
 CONF-CC: "Artificial Intelligence Review"
 pdf_extract: "PDF Extracts/2025/2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial.md"
-local_pdf: "[[PDFs/2025/2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

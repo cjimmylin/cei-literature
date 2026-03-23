@@ -224,7 +224,7 @@ fi
 
 **Critical Insight:** Not all "issues" are equal priority:
 1. **Blocking:** YAML corruption (none found!)
-2. **High:** Missing PDFs/extracts (fixable)
+2. **High:** Missing Lit-WS-PDFs/extracts (fixable)
 3. **Medium:** Classification inconsistencies (review)
 4. **Low:** Orphaned files (cleanup when time permits)
 5. **Informational:** Unquoted wikilinks (functional, ignore)

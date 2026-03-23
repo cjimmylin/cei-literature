@@ -49,7 +49,7 @@ authors: Krzysztof Jassem; Michal Ciesiolka; Filip Gralinski; Piotr Jablonski; J
 url: "https://arxiv.org/abs/2501.02266"
 external_pdf: "https://arxiv.org/pdf/2501.02266.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.md"
-local_pdf: "[[PDFs/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

@@ -51,7 +51,7 @@ external_pdf: "https://arxiv.org/pdf/2509.13835.pdf"
 publication: "arXiv / EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 pdf_extract: "PDF Extracts/2025/2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects.md"
-local_pdf: "[[PDFs/2025/2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"

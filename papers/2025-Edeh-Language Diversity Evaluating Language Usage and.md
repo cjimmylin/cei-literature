@@ -49,7 +49,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2512.01557"
 external_pdf: "https://arxiv.org/pdf/2512.01557.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Edeh-Language Diversity Evaluating Language Usage and.md"
-local_pdf: "[[PDFs/2025/2025-Edeh-Language Diversity Evaluating Language Usage and.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Edeh-Language Diversity Evaluating Language Usage and.pdf]]"
 publication: "WebSearch: language diversity evaluating AI performance African languages"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

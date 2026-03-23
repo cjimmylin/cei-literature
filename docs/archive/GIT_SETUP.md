@@ -8,8 +8,8 @@
 ```
 /Users/jimmy.lin/Documents/CEI-Literature-Vault/
 ├── .gitignore                 # ROOT: Protects PDF directories
-├── PDFs/                      # ✅ NOT TRACKED (652 files, external)
-├── AI-Lab-PDFs/               # ✅ NOT TRACKED (392 files, external)
+├── Lit-WS-PDFs/                      # ✅ NOT TRACKED (652 files, external)
+├── AI-Lab-Lit-WS-PDFs/               # ✅ NOT TRACKED (392 files, external)
 └── CEI-Lit-WS/                # ✅ TRACKED (Git repository)
     ├── .git/                  # Git repository (initialized)
     ├── .gitignore             # WORKSPACE: Ignores stub PDFs, logs, config
@@ -28,8 +28,8 @@
 **Repository location**: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/`
 
 Git only tracks files **within** the repository directory. The PDF directories are outside:
-- `PDFs/` is at `../PDFs/` (parent directory)
-- `AI-Lab-PDFs/` is at `../AI-Lab-PDFs/` (parent directory)
+- `Lit-WS-PDFs/` is at `../Lit-WS-PDFs/` (parent directory)
+- `AI-Lab-Lit-WS-PDFs/` is at `../AI-Lab-Lit-WS-PDFs/` (parent directory)
 
 Git cannot see or track files outside its repository boundary.
 
@@ -49,8 +49,8 @@ AI Labs/**/*.pdf
 
 If someone accidentally initializes a Git repo at the vault root, this protects:
 ```gitignore
-PDFs/
-AI-Lab-PDFs/
+Lit-WS-PDFs/
+AI-Lab-Lit-WS-PDFs/
 .venv/
 .agent/
 ```
@@ -69,8 +69,8 @@ AI-Lab-PDFs/
 2. **PDF directories not visible to Git**:
    ```bash
    cd CEI-Lit-WS
-   git status | grep "PDFs/"         # ✅ Not listed
-   git status | grep "AI-Lab-PDFs/"  # ✅ Not listed
+   git status | grep "Lit-WS-PDFs/"         # ✅ Not listed
+   git status | grep "AI-Lab-Lit-WS-PDFs/"  # ✅ Not listed
    ```
 
 3. **Stub PDFs ignored**:
@@ -96,8 +96,8 @@ When you push to GitHub:
    - AI Labs markdown files
 
 2. **Never synced**:
-   - 652 PDFs in `PDFs/`
-   - 392 PDFs in `AI-Lab-PDFs/`
+   - 652 PDFs in `Lit-WS-PDFs/`
+   - 392 PDFs in `AI-Lab-Lit-WS-PDFs/`
    - 4 stub PDFs in workspace
    - Local config (`.vault-config.json`)
    - Log files
@@ -152,8 +152,8 @@ Since PDFs are not in GitHub:
 
 1. **Workspace (GitHub)**: Automatically backed up via Git
 2. **PDFs**: Require separate backup solution
-   - `PDFs/` - 652 files (~800 MB)
-   - `AI-Lab-PDFs/` - 392 files (~500 MB)
+   - `Lit-WS-PDFs/` - 652 files (~800 MB)
+   - `AI-Lab-Lit-WS-PDFs/` - 392 files (~500 MB)
    
 Recommended: Use Time Machine, cloud storage, or external drive for PDF directories.
 
@@ -176,7 +176,7 @@ git check-ignore -v "AI Labs/Anthropic/Papers/somefile.pdf"
 
 # Force Git to respect .gitignore
 git rm --cached "AI Labs/**/*.pdf"
-git rm --cached -r PDFs/ AI-Lab-PDFs/  # If accidentally tracked
+git rm --cached -r Lit-WS-PDFs/ AI-Lab-Lit-WS-PDFs/  # If accidentally tracked
 ```
 
 **If repository is at wrong level**:

@@ -51,7 +51,7 @@ external_pdf: "https://www.sciengine.com/doi/pdfView/B770E370D32D49CDA44D77D17C2
 publication: Web
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.md"
-local_pdf: "[[PDFs/2025/2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

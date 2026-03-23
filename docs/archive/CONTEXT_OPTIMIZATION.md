@@ -38,7 +38,7 @@
 | Commands | `.claude/commands/` | Slash command definitions |
 | Agent skills | `.agent/skills/` | Antigravity/agent skills |
 | Paper files | `papers/` | Individual paper metadata |
-| PDF files | `PDFs/` | Downloaded PDFs |
+| PDF files | `Lit-WS-PDFs/` | Downloaded PDFs |
 | PDF extracts | `PDF Extracts/` | Extracted text as markdown |
 | Author profiles | `Authors/` | Author profile files |
 | Statistics | `STATISTICS/` | Generated reports |

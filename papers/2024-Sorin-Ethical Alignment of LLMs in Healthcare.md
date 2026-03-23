@@ -83,7 +83,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.md"
 abstract: "In moral philosophy, two foundational approaches shape ethical decisions: deontology and utilitarianism, often exemplified by the “Trolley” dilemma. We conducted an experiment evaluating multiple LLMs, including OpenAI’s GPT-o1, across five medical versions of this dilemma. While some models adhered to established ethical standards, others inconsistently favored utilitarian outcomes, raising concerns about their alignment with human medical ethics."
 paper_summary: 
-local_pdf: "[[PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Gemini, Gemma-2, Llama-3, Phi-3, Qwen-2"
 DATA_URL: "NA"
@@ -124,7 +124,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf|Open PDF]]
 
 - **medRxiv:** https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1
 - **PDF:** https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1.full.pdf

@@ -210,7 +210,7 @@ for paper in papers:
 
 1. **Check current status**:
    ```bash
-   ls PDFs/*.pdf | wc -l
+   ls Lit-WS-PDFs/*.pdf | wc -l
    ```
 
 2. **Generate missing list**:
@@ -281,13 +281,13 @@ python3 PYTHON/pdf_downloader_enhanced.py --resume
 python3 PYTHON/doi_discovery.py
 
 # Check PDF count
-ls PDFs/*.pdf | wc -l
+ls Lit-WS-PDFs/*.pdf | wc -l
 
 # Find 0-byte PDFs
 find PDFs -name "*.pdf" -size 0
 
 # Verify PDF format
-file PDFs/*.pdf | grep -v "PDF document"
+file Lit-WS-PDFs/*.pdf | grep -v "PDF document"
 ```
 
 ## Anti-Patterns to Avoid
@@ -327,7 +327,7 @@ file PDFs/*.pdf | grep -v "PDF document"
 - **Automated Recovery Rate**: 82.3%
 - **DOI Discovery Rate**: 14.6% (7 of 48 papers without DOIs)
 - **Download Success from New DOIs**: 28.6% (2 of 7)
-- **Time Efficiency**: 237 PDFs/hour
+- **Time Efficiency**: 237 Lit-WS-PDFs/hour
 - **Manual Effort Remaining**: 102 papers (17.7%)
 
 ## What Makes This Session Valuable

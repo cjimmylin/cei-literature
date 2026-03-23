@@ -87,7 +87,7 @@ significance: "Demonstrates a more robust method for moral auditing than direct 
 pdf_extract: "PDF Extracts/2025/2025-Xiang-Comparing Moral Values in Western.md"
 abstract: "As the impact of large language models increases, understanding the moral values they reflect becomes ever more important. Assessing the nature of moral values as understood by these models via direct prompting is challenging due to potential leakage of human norms into model training data, and their sensitivity to prompt formulation. Instead, we propose to use word associations, which have been shown to reflect moral reasoning in humans, as lowlevel underlying representations to obtain a more..."
 paper_summary: "Abstract: As the impact of large language models in- creases, understanding the moral values they reflect becomes ever more important. Assess- ing the nature of moral values as understood by these models via di | Overview: arXiv:2505.19674v2 [cs.CL] 28 May 2025 Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations Chaoyi Xiang1 Chunhua Liu1 Simon De Deyne2 Lea Frermann1 1School of  | Methodology: to understanding moral alignment. • A framework to effectively extract multidi- mensional moral values from global word as- sociation networks, allowi | Key Findings: Following the propagation process, we obtain moral scores across five dimensions for each of the 12,000 cues in both GMN-L and GMN-H. To assess the al"
-local_pdf: "[[PDFs/2025/2025-Xiang-Comparing Moral Values in Western.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xiang-Comparing Moral Values in Western.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: Llama-3
 DATA_URL: "https://github.com/ChunhuaLiu596/Word_Association_Generation"
@@ -121,7 +121,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Xiang-Comparing Moral Values in Western.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Xiang-Comparing Moral Values in Western.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.19674
 - **DOI:** https://doi.org/10.48550/arXiv.2505.19674

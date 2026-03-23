@@ -48,7 +48,7 @@ external_pdf: "https://aclanthology.org/2022.clib-1.5.pdf"
 publication: "ACL Anthology (CLIB 2022)"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2022/2022-researchers-Hate Speech Classification in Bulgarian.md"
-local_pdf: "[[PDFs/2022/2022-researchers-Hate Speech Classification in Bulgarian.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-researchers-Hate Speech Classification in Bulgarian.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

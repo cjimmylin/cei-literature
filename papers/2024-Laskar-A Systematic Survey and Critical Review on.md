@@ -84,7 +84,7 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Laskar-A Systematic Survey and Critical Review on.md"
 abstract: "Large Language Models (LLMs) have recently gained significant attention due to their remarkable capabilities in performing diverse tasks across various domains. However, a thorough evaluation of these models is crucial before deploying them in realworld applications to ensure they produce reliable performance. Despite the wellestablished importance of evaluating LLMs in the community, the complexity of the evaluation process has led to varied evaluation setups, causing inconsistencies in..."
 paper_summary: "Abstract: Large Language Models (LLMs) have re- cently gained significant attention due to their remarkable capabilities in performing diverse tasks across various domains. How- ever, a thorough evaluation of t | Overview: A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations Md Tahmid Rahman Laskar†,||,∗, Sawsan Alqahtani§, M Saiful Bari¶,∗ Mizanur Rah | Methodology: Parsing Script Design: Evaluating LLM- generated responses is difficult because they often produce verbose outputs (see Table 6 for some examples). Th | Key Findings: of LLMs often focus only on benchmark tasks, datasets, and evaluation criteria, neglecting the broader complexities. This oversight can under- mine th"
-local_pdf: "[[PDFs/2024/2024-Laskar-A Systematic Survey and Critical Review on.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Laskar-A Systematic Survey and Critical Review on.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/ntunlp/Critical-Review-of-LLM-Eval"
@@ -118,7 +118,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2024/2024-Laskar-A Systematic Survey and Critical Review on.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2024/2024-Laskar-A Systematic Survey and Critical Review on.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2407.04069
 - **DOI:** https://doi.org/10.48550/arXiv.2407.04069

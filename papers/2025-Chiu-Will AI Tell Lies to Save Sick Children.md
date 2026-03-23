@@ -86,7 +86,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Chiu-Will AI Tell Lies to Save Sick Children.md"
 abstract: "Detecting AI risks becomes more challenging as stronger models emerge and find novel methods such as Alignment Faking to circumvent these detection attempts. Inspired by how risky behaviors in humans (i.e., illegal activities that may hurt others) are sometimes guided by strongly-held values, we believe that identifying values within AI models can be an early warning system for AI’s risky behaviors."
 paper_summary: "Abstract: Detecting AI risks becomes more challenging as stronger models emerge and find novel methods such as Alignment Faking to circumvent these detection attempts. Inspired by how risky behaviors in humans  | Overview: Will AI Tell Lies to Save Sick Children? Litmus-Testing AI Values Prioritization with AIRISKDILEMMAS Yu Ying Chiu1, Zhilin Wang2, Sharan Maiya3, Yejin Choi4, Kyle Fish7, Sydney Levine5,6, Evan Hubinge | Methodology: 2.1 Identifying Shared AI Values Figure 2: 16 Shared Value Classes drawing from Anthropic Claude's Constitution [2] and OpenAI ModelSpec (2025-02-12)  | Key Findings: framework for automated red teaming and robust refusal. arXiv preprint arXiv:2402.04249, 2024. 12 --- Page 13 --- [32] Mantas Mazeika, Xuwang Yin, Ris | Conclusions: We present LITMUSVALUES, which contains 16 shared AI value classes that are important to AI models, inspired by AI-centric behavior guides (specifical"
-local_pdf: "[[PDFs/2025/2025-Chiu-Will AI Tell Lies to Save Sick Children.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chiu-Will AI Tell Lies to Save Sick Children.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Llama-3, Mistral, Mixtral, Qwen, o1, o3-mini"
 DATA_URL: "https://hf.co/datasets/kellycyy/AIRiskDilemmas"
@@ -120,7 +120,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Chiu-Will AI Tell Lies to Save Sick Children.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Chiu-Will AI Tell Lies to Save Sick Children.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2505.14633
 - **DOI:** https://doi.org/10.48550/arXiv.2505.14633

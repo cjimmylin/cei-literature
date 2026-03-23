@@ -78,10 +78,10 @@ def fix_local_pdf_format(frontmatter_text, frontmatter_dict):
         return frontmatter_text, False
 
     # Convert to wikilink format
-    if local_pdf.startswith('PDFs/'):
+    if local_pdf.startswith('Lit-WS-PDFs/'):
         new_value = f'[[{local_pdf}]]'
     else:
-        new_value = f'[[PDFs/{local_pdf}]]'
+        new_value = f'[[Lit-WS-PDFs/{local_pdf}]]'
 
     # Replace in frontmatter
     pattern = rf'(local_pdf:\s*)["\']?{re.escape(local_pdf)}["\']?'

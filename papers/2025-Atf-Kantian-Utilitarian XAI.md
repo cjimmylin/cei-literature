@@ -44,7 +44,7 @@ doi: 10.48550/arXiv.2510.03892
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2510.03892"
 pdf_extract: "PDF Extracts/2025/2025-Atf-Kantian-Utilitarian XAI.md"
-local_pdf: "[[PDFs/2025/2025-Atf-Kantian-Utilitarian XAI.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Atf-Kantian-Utilitarian XAI.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2510.03892.pdf"
 publication: arXiv
 CONF-CC: "Preprint"

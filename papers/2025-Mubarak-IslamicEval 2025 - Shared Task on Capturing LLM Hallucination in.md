@@ -50,7 +50,7 @@ publication: Unknown
 CONF-CC: "Preprint"
 external_pdf: "https://aclanthology.org/2025.arabicnlp-sharedtasks.67.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.md"
-local_pdf: "[[PDFs/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"

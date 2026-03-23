@@ -88,7 +88,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Russo-The Pluralistic Moral Gap.md"
 abstract: "People increasingly rely on Large Language Models (LLMs) for moral advice, which may influence humans’ decisions. Yet, little is known about how closely LLMs align with human moral judgments. To address this, we introduce the Moral Dilemma Dataset, a benchmark of 1,618 real-world moral dilemmas paired with a distribution of human moral judgments consisting of a binary evaluation and a free-text rationale."
 paper_summary: "Abstract: People increasingly rely on Large Language Models (LLMs) for moral advice, which may influence humans' decisions. Yet, little is known about how closely LLMs align with human moral judgments. To addre | Overview: The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models Giuseppe Russo EPFL giuseppe.russo@epfl.ch Debora Nozza Bocconi University debora.nozza | Methodology: is Overton-style synthesis (Sorensen et al., 2024b), where multiple moral perspectives are integrated into a single, transparent response. Ethical Con | Key Findings: LLM Evaluation wrong right wrong Judgment: You're in the right Rationale: You have a greater obligation towards your kids … Judgment: You're in the wr | Conclusions: We analyze the moral evaluations and values ex- pressed of LLMs when providing moral advice. To enable this analysis, we introduced a novel dataset of"
-local_pdf: "[[PDFs/2025/2025-Russo-The Pluralistic Moral Gap.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Russo-The Pluralistic Moral Gap.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, GPT-4o mini, Llama-3, Mistral, Qwen, o1, o3"
 DATA_URL: "NA"
@@ -122,7 +122,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Russo-The Pluralistic Moral Gap.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Russo-The Pluralistic Moral Gap.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2507.17216
 - **DOI:** https://doi.org/10.48550/arXiv.2507.17216

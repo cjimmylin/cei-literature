@@ -315,7 +315,7 @@ tags:
 pdf_extract: "PDF Extracts/{paper["filename"].replace(".md", "")}.md"
 abstract: "{paper["abstract"][:500]}..."
 paper_summary:
-local_pdf: "[[PDFs/{paper["filename"].replace(".md", ".pdf")}]]"
+local_pdf: "[[Lit-WS-PDFs/{paper["filename"].replace(".md", ".pdf")}]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -349,7 +349,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/{paper["filename"].replace(".md", ".pdf")}|Open PDF]]
+- **Local PDF:** [[Lit-WS-PDFs/{paper["filename"].replace(".md", ".pdf")}|Open PDF]]
 
 - **URL:** {paper["url"]}
 - **DOI:** https://doi.org/{paper["doi"]}

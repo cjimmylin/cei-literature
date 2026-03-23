@@ -53,7 +53,7 @@ external_pdf: "https://arxiv.org/pdf/2310.04928"
 publication: "ACL Anthology"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2023/2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.md"
-local_pdf: "[[PDFs/2023/2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

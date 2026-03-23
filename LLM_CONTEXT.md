@@ -433,9 +433,9 @@ We have implemented a multi-stage classification system to enrich paper metadata
         - **Paywalls**: Papers from major journals (Springer, Taylor & Francis, Nature) often lack open-access versions.
     - **ArXiv Discovery**: For paywalled papers, searching ArXiv by title is a highly effective fallback (found ~7% additional open versions).
     - **Vault Structure**:
-        - **Directory**: `PDFs/` folder at vault root.
-        - **Metadata**: `local_pdf` frontmatter field (relative path: `PDFs/filename.pdf`).
-        - **Links**: `**Local PDF:** [[PDFs/filename.pdf|Open PDF]]` added to `## Links` section.
+        - **Directory**: `Lit-WS-PDFs/` folder at vault root.
+        - **Metadata**: `local_pdf` frontmatter field (relative path: `Lit-WS-PDFs/filename.pdf`).
+        - **Links**: `**Local PDF:** [[Lit-WS-PDFs/filename.pdf|Open PDF]]` added to `## Links` section.
     - **Skill**: `download_pdfs` skill created to automate this process (direct download + ArXiv search).
     - **Advanced Discovery (OSINT)**:
         - **Methods**: Using specific search queries like `"[Title]" filetype:pdf` or `site:[university_domain]` (e.g., `site:aau.dk`) can reveal preprints or institutional copies that are missed by standard academic databases.
@@ -1486,7 +1486,7 @@ The vault is production-ready. All critical data quality issues have been resolv
 
 1. **YAML Field Names in Paper Metadata**
    - Online PDF URLs are in `external_pdf` field, NOT `pdf`
-   - Local PDF paths use wikilink format: `local_pdf: "[[PDFs/name.pdf]]"`
+   - Local PDF paths use wikilink format: `local_pdf: "[[Lit-WS-PDFs/name.pdf]]"`
    - Must strip brackets when checking file existence
 
 2. **PDF Download Script Fix**
@@ -1504,7 +1504,7 @@ The vault is production-ready. All critical data quality issues have been resolv
 
 3. **Wikilink Format Handling**
    ```python
-   # local_pdf field contains: "[[PDFs/2024-Author-Title.pdf]]"
+   # local_pdf field contains: "[[Lit-WS-PDFs/2024-Author-Title.pdf]]"
    local_pdf_clean = local_pdf.strip('[]').replace('[[', '').replace(']]', '')
    local_path = REPO_ROOT / local_pdf_clean
    ```
@@ -1745,8 +1745,8 @@ if len(citations) > 2:  # More than reasonable number
 
 **Problem:** `local_pdf` field not in wikilink format:
 ```yaml
-local_pdf: PDFs/2020-Sap-Social Bias Frames.pdf  # Wrong
-local_pdf: "[[PDFs/2020-Sap-Social Bias Frames.pdf]]"  # Correct
+local_pdf: Lit-WS-PDFs/2020-Sap-Social Bias Frames.pdf  # Wrong
+local_pdf: "[[Lit-WS-PDFs/2020-Sap-Social Bias Frames.pdf]]"  # Correct
 ```
 
 **Detection:**
@@ -1758,7 +1758,7 @@ if local_pdf and not (local_pdf.startswith('[[') and local_pdf.endswith(']]')):
 
 **Resolution:**
 ```python
-new_value = f'[[PDFs/{local_pdf}]]' if not local_pdf.startswith('PDFs/') else f'[[{local_pdf}]]'
+new_value = f'[[Lit-WS-PDFs/{local_pdf}]]' if not local_pdf.startswith('Lit-WS-PDFs/') else f'[[{local_pdf}]]'
 ```
 
 #### 4. N/A Values in Optional Fields
@@ -2081,7 +2081,7 @@ Some flagged entries are actually valid:
 - **Result**: Successfully extracted 51 missing PDFs without compromising metadata integrity.
 
 ### Corrupted PDF Discovery
-- **File**: `PDFs/2024-Pistilli-CIVICS.pdf`
+- **File**: `Lit-WS-PDFs/2024-Pistilli-CIVICS.pdf`
 - **Issue**: File size is ~22 bytes (likely an empty/placeholder file).
 - **Status**: Tagged for re-download. The extraction script correctly flagged this error.
 

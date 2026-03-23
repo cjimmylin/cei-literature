@@ -9,7 +9,7 @@ This document captures the state of the CEI Literature Vault at the midpoint of 
 | Metric | Count | Notes |
 |--------|-------|-------|
 | Papers | 2,002 | Stable since Session 81 dedup |
-| PDFs on disk | 1,886 | In `PDFs/YYYY/` subdirs |
+| PDFs on disk | 1,886 | In `Lit-WS-PDFs/YYYY/` subdirs |
 | PDF Extracts | 2,487 | In `PDF Extracts/YYYY/` subdirs |
 | Author Profiles | 9,882 | In `Authors/` |
 | Validation | 2,002/2,002 pass | 0 errors |
@@ -98,7 +98,7 @@ GitHub Pages dashboards (may need redeployment):
 #### B. Ochasi PDF (1 paper, manual)
 - **Paper:** `papers/2025-Ochasi-Reframing Justice in Healthcare AI.md`
 - **URL:** `https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007`
-- **Save to:** `PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
+- **Save to:** `Lit-WS-PDFs/2025/2025-Ochasi-Reframing Justice in Healthcare AI.pdf`
 - Then: extract text, update `local_pdf` and `pdf_extract`
 
 ---
@@ -181,7 +181,7 @@ cd CEI-Lit-WS && ../.venv/bin/python PYTHON/validate_all_papers.py
 
 ### File Safety (CRITICAL)
 - **NEVER** use `rm` — always `mv` to `RECYCLE-BIN/`
-- PDFs in `PDFs/YYYY/`, extracts in `PDF Extracts/YYYY/`
+- PDFs in `Lit-WS-PDFs/YYYY/`, extracts in `PDF Extracts/YYYY/`
 - Use `rglob("*.pdf")` not `glob("*.pdf")` for year-based subdirs
 
 ### Report Immutability (CRITICAL)

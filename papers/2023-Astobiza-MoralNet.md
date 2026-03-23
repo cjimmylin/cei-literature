@@ -88,7 +88,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Astobiza-MoralNet.md"
-local_pdf: "[[PDFs/2023/2023-Astobiza-MoralNet.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Astobiza-MoralNet.pdf]]"
 CONFERENCE: "Preprint"
 ethics_overall: 100
 virtue_ethics: 50

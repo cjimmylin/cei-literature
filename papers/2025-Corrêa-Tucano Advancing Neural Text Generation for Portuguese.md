@@ -50,7 +50,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2411.07854"
 external_pdf: "https://arxiv.org/pdf/2411.07854.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.md"
-local_pdf: "[[PDFs/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.pdf]]"
 publication: "arXiv / Patterns (Cell Press)"
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

@@ -50,7 +50,7 @@ external_pdf: "https://arxiv.org/pdf/2410.05873.pdf"
 publication: "arXiv / ACL Anthology"
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.md"
-local_pdf: "[[PDFs/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

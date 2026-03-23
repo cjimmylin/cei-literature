@@ -82,7 +82,7 @@ significance: "Addresses the critical safety flaw of medical AI (fabricating tum
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Zhang-MedHallTune.md"
 paper_summary: "Overview: MedHallTune: An Instruction-Tuning Benchmark for Mitigating Medical Hallucination in Vision-Language Models Qiao Yan1, Yuchen Yuan1, Xiaowei Hu3, Yihan Wang1, Jiaqi Xu1, Jinpeng Li1*, Chi-Wing Fu1,2,  | Methodology: goes beyond traditional hallucination detection metrics, aiming to improve the --- Page 3 --- MedHallTune 3 Fig. 2. Overview of the pipeline, demonstr | Conclusions: In this study, we introduce MedHallTune, a comprehensive dataset specifically designed to address hallucinations of vision-language models within the"
-local_pdf: "[[PDFs/2025/2025-Zhang-MedHallTune.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-MedHallTune.pdf]]"
 abstract: "The increasing use of vision-language models (VLMs) in healthcare applications presents great challenges related to hallucinations, in which the models may generate seemingly plausible results that are in fact incorrect. Such hallucinations can jeopardize clinical decision making, potentially harming the diagnosis and treatments. In this work, we propose MedHallTune, a large-scale benchmark designed specifically to evaluate and mitigate hallucinations in medical VLMs."
 CONF-CC: "Preprint"
 DATE_ADDED: 20260208
@@ -114,7 +114,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Zhang-MedHallTune.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-MedHallTune.pdf|Open PDF]]
 
 - **arXiv:** https://arxiv.org/abs/2502.20780
 

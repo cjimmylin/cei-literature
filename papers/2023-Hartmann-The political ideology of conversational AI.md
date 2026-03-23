@@ -81,7 +81,7 @@ tags:
 abstract: "Conversational artificial intelligence (AI) disrupts how humans interact with technology. Recently, OpenAI introduced ChatGPT, a state-of-the-art dialogue model that can converse with its human counterparts with unprecedented capabilities. ChatGPT has witnessed tremendous attention from the media, academia, industry, and the general public, attracting more than a million users within days of its release. However, its explosive adoption for information search and as an automated decision aid underscores the importance to understand its limitations and biases. This paper focuses on one of democratic society's most important decision-making processes: political elections. Prompting ChatGPT with 630 political statements from two leading voting advice applications and the nation-agnostic political compass test in three pre-registered experiments, we uncover ChatGPT's pro-environmental, left-libertarian ideology. We discuss the implications of politically biased conversational AI on society."
 pdf: "http://arxiv.org/pdf/2301.01768"
 pdf_extract: "PDF Extracts/2023/2023-Hartmann-The political ideology of conversational AI.md"
-local_pdf: "[[PDFs/2023/2023-Hartmann-The political ideology of conversational AI.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hartmann-The political ideology of conversational AI.pdf]]"
 CONF-CC: "SSRN Electronic Journal 2023"
 DATE_ADDED: 20260208
 LLM_assessed: ChatGPT

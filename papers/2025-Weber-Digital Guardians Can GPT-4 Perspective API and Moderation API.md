@@ -52,7 +52,7 @@ external_pdf: "https://arxiv.org/pdf/2501.01256.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.md"
-local_pdf: "[[PDFs/2025/2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"

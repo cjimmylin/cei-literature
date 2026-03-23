@@ -48,7 +48,7 @@ authors: "Assaf Urieli"
 url: "https://arxiv.org/abs/2501.08442"
 external_pdf: "https://arxiv.org/pdf/2501.08442.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Urieli-Jochre 3 and the Yiddish OCR corpus.md"
-local_pdf: "[[PDFs/2025/2025-Urieli-Jochre 3 and the Yiddish OCR corpus.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Urieli-Jochre 3 and the Yiddish OCR corpus.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

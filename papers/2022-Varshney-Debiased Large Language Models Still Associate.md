@@ -51,7 +51,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2208.04417"
 external_pdf: "https://arxiv.org/pdf/2208.04417.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Varshney-Debiased Large Language Models Still Associate.md"
-local_pdf: "[[PDFs/2022/2022-Varshney-Debiased Large Language Models Still Associate.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Varshney-Debiased Large Language Models Still Associate.pdf]]"
 publication: arXiv
 CONF-CC: "Preprint"
 DATE_ADDED: 20260213

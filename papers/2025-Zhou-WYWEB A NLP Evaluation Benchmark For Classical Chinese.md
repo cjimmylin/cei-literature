@@ -52,7 +52,7 @@ external_pdf: "https://arxiv.org/pdf/2305.14150v1.pdf"
 publication: "ACL Anthology"
 CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md"
-local_pdf: "[[PDFs/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

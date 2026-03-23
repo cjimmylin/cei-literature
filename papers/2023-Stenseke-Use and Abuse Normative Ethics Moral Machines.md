@@ -114,7 +114,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Stenseke-Use and Abuse Normative Ethics Moral Machines.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Stenseke-Use and Abuse Normative Ethics Moral Machines.pdf|Open PDF]]
 
 - **URL:** https://ebooks.iospress.nl/doi/10.3233/FAIA220614
 - **DOI:** https://doi.org/10.3233/FAIA220614

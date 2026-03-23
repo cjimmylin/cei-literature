@@ -255,8 +255,8 @@ git log --author="jimmylin" -10
 ### ❌ NOT Tracked (Ignored by Git)
 
 - **PDFs** (1,048 files)
-  - External `PDFs/` directory
-  - External `AI-Lab-PDFs/` directory
+  - External `Lit-WS-PDFs/` directory
+  - External `AI-Lab-Lit-WS-PDFs/` directory
   - Stub PDFs in workspace
 
 - **User configuration**

@@ -85,7 +85,7 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Sel-Backtracking for Safety.md"
 abstract: "Large language models (LLMs) have demonstrated remarkable capabilities across various tasks, but ensuring their safety and alignment with human values remains crucial. Current safety alignment methods, such as supervised fine-tuning and reinforcement learning-based approaches, can exhibit vulnerabilities to adversarial attacks and often result in shallow safety alignment, primarily focusing on preventing harmful content in the initial tokens of the generated output."
 paper_summary: "Abstract: Large language models (LLMs) have demon- strated remarkable capabilities across various tasks, but ensuring their safety and alignment with human values remains crucial. Current safety alignment metho | Overview: BSAFE: (B)acktracking for (SAFE)ty Bilgehan Sel Google, Virginia Tech Dingcheng Li Google Phillip Wallis Google Vaishakh Keshava Google Ming Jin † Virginia Tech Siddhartha Reddy Jonnalagadda † Google  | Methodology: enables targeted correction of problematic seg- ments without discarding the entire generated text, thereby preserving efficiency. We demon- strate th | Conclusions: We introduced BSAFE, a novel backtracking method that enhances large language model safety. BSAFE overcomes limitations of current tech- niques by ena"
-local_pdf: "[[PDFs/2025/2025-Sel-Backtracking for Safety.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sel-Backtracking for Safety.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Llama-3"
 DATA_URL: "NA"
@@ -119,7 +119,7 @@ data_metrics: "Not specified"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2025/2025-Sel-Backtracking for Safety.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2025/2025-Sel-Backtracking for Safety.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2503.08919
 - **DOI:** https://doi.org/10.48550/arXiv.2503.08919

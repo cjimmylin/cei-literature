@@ -53,7 +53,7 @@ publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 external_pdf: "https://arxiv.org/pdf/2510.05703.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wang-Fake Alignment FINE Framework.md"
-local_pdf: "[[PDFs/2024/2024-Wang-Fake Alignment FINE Framework.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-Fake Alignment FINE Framework.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

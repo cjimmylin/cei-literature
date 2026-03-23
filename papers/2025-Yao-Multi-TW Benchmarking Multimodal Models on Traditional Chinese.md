@@ -49,7 +49,7 @@ url: "https://arxiv.org/abs/2508.01274"
 external_pdf: "https://arxiv.org/pdf/2508.01274.pdf"
 publication: arXiv
 CONF-CC: "Preprint"
-local_pdf: "[[PDFs/2025/2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"

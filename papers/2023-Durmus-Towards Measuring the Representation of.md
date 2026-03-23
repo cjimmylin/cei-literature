@@ -84,7 +84,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Durmus-Towards Measuring the Representation of.md"
 abstract: "Large language models (LLMs) may not equitably represent diverse global perspectives on societal issues. In this paper, we develop a quantitative framework to evaluate whose opinions model-generated responses are more similar to. We first build a dataset, GlobalOpinionQA, comprised of questions and answers from cross-national surveys designed to capture diverse opinions on global issues across different countries."
 paper_summary: "Abstract: Large language models (LLMs) may not equitably represent diverse global per- spectives on societal issues. In this paper, we develop a quantitative framework to evaluate whose opinions model-generated | Overview: Towards Measuring the Representation of Subjective Global Opinions in Language Models Esin Durmus∗ Karina Nguyen Thomas I. Liao Nicholas Schiefer Amanda Askell Anton Bakhtin Carol Chen Zac Hatfield-Do | Conclusions: Our study relies on two established global surveys and social science literature to analyze broad societal values. However, we acknowledge several lim"
-local_pdf: "[[PDFs/2023/2023-Durmus-Towards Measuring the Representation of.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Durmus-Towards Measuring the Representation of.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: Claude
 DATA_URL: "https://huggingface.co/datasets/Anthropic/llm_global_opinions"
@@ -119,7 +119,7 @@ ethics_perspective: "General Ethics"
 
 ## Links
 
-- **Local PDF:** [[PDFs/2023/2023-Durmus-Towards Measuring the Representation of.pdf|Open PDF]]
+- **Local PDF:** [[Lit-WS-Lit-WS-PDFs/2023/2023-Durmus-Towards Measuring the Representation of.pdf|Open PDF]]
 
 - **arXiv:** http://arxiv.org/abs/2306.16388
 - **DOI:** https://doi.org/10.48550/arXiv.2306.16388

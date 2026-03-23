@@ -17,7 +17,7 @@ This rule is **absolute** and has **NO EXCEPTIONS**.
 
 ## Why This Rule Exists
 
-**Session 7 (January 2026):** Accidental deletion destroyed **422 PDF files** using `rm -rf PDFs/`.
+**Session 7 (January 2026):** Accidental deletion destroyed **422 PDF files** using `rm -rf Lit-WS-PDFs/`.
 
 **Impact:**
 - 8 hours of recovery work

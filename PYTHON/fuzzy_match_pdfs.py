@@ -53,7 +53,7 @@ def find_fuzzy_matches():
         else:
             link_path = link_val
             
-        if link_path.startswith("PDFs/"):
+        if link_path.startswith("Lit-WS-PDFs/"):
             clean_name = link_path[5:]
             if clean_name in unlinked_pdfs:
                 unlinked_pdfs.remove(clean_name)

@@ -49,7 +49,7 @@ authors: Katharina Hämmerl; Björn Deiseroth; Patrick Schramowski
 url: "https://aclanthology.org/2023.findings-acl.134/"
 external_pdf: "https://arxiv.org/pdf/2211.07733.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.md"
-local_pdf: "[[PDFs/2023/2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.pdf]]"
+local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.pdf]]"
 publication: "ACL Anthology / ACL 2023 Findings"
 CONF-CC: "ACL 2023 Findings"
 DATE_ADDED: 20260213

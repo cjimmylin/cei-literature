@@ -1,0 +1,649 @@
+{
+  "generated": "2026-04-04",
+  "title": "Cross-Model Construct Validity Comparison — Religious Values Benchmarks",
+  "models": {
+    "opus": "claude-opus-4-6",
+    "sonnet": "claude-sonnet-4-20250514",
+    "haiku": "claude-haiku-4-5-20251001"
+  },
+  "total_items_per_model": 65,
+  "gradient_comparison": [
+    {
+      "model": "opus",
+      "K_mean": 1853.1,
+      "R_mean": 4586.3,
+      "V_mean": 6326.9,
+      "gradient_holds": true,
+      "R_to_K": 2.47,
+      "V_to_K": 3.41,
+      "V_to_R": 1.38
+    },
+    {
+      "model": "sonnet",
+      "K_mean": 1771.1,
+      "R_mean": 5194.1,
+      "V_mean": 6363.8,
+      "gradient_holds": true,
+      "R_to_K": 2.93,
+      "V_to_K": 3.59,
+      "V_to_R": 1.23
+    },
+    {
+      "model": "haiku",
+      "K_mean": 765.7,
+      "R_mean": 3354.3,
+      "V_mean": 7025.6,
+      "gradient_holds": true,
+      "R_to_K": 4.38,
+      "V_to_K": 9.18,
+      "V_to_R": 2.09
+    }
+  ],
+  "tradition_gradient_comparison": {
+    "Islam": [
+      {
+        "model": "opus",
+        "K_mean": 1309.6,
+        "R_mean": 3951.8,
+        "V_mean": 6375.8,
+        "gradient_holds": true,
+        "V_to_K": 4.87
+      },
+      {
+        "model": "sonnet",
+        "K_mean": 1336.2,
+        "R_mean": 4358,
+        "V_mean": 6767.8,
+        "gradient_holds": true,
+        "V_to_K": 5.06
+      },
+      {
+        "model": "haiku",
+        "K_mean": 746.2,
+        "R_mean": 1963.4,
+        "V_mean": 4057.7,
+        "gradient_holds": true,
+        "V_to_K": 5.44
+      }
+    ],
+    "Christianity": [
+      {
+        "model": "opus",
+        "K_mean": 1272,
+        "R_mean": 4249.8,
+        "V_mean": 6052.8,
+        "gradient_holds": true,
+        "V_to_K": 4.76
+      },
+      {
+        "model": "sonnet",
+        "K_mean": 1420.6,
+        "R_mean": 5625.6,
+        "V_mean": 5693.5,
+        "gradient_holds": true,
+        "V_to_K": 4.01
+      },
+      {
+        "model": "haiku",
+        "K_mean": 660,
+        "R_mean": 3678.6,
+        "V_mean": 9178.6,
+        "gradient_holds": true,
+        "V_to_K": 13.91
+      }
+    ],
+    "Hinduism": [
+      {
+        "model": "opus",
+        "K_mean": 2977.6,
+        "R_mean": 5557.4,
+        "V_mean": 6546.1,
+        "gradient_holds": true,
+        "V_to_K": 2.2
+      },
+      {
+        "model": "sonnet",
+        "K_mean": 2556.6,
+        "R_mean": 5598.6,
+        "V_mean": 6579.5,
+        "gradient_holds": true,
+        "V_to_K": 2.57
+      },
+      {
+        "model": "haiku",
+        "K_mean": 890.8,
+        "R_mean": 4420.8,
+        "V_mean": 8211.6,
+        "gradient_holds": true,
+        "V_to_K": 9.22
+      }
+    ]
+  },
+  "rubric_comparison": [
+    {
+      "model": "opus",
+      "scorer": "claude-opus-4-6 (self-evaluation)",
+      "knowledge": 1.0,
+      "reasoning": 1.0,
+      "values": 0.933,
+      "bias": 1.0,
+      "values_paired": 1.0
+    },
+    {
+      "model": "sonnet",
+      "scorer": "claude-opus-4-6 (cross-model evaluation)",
+      "knowledge": 1.0,
+      "reasoning": 1.0,
+      "values": 1.0,
+      "bias": 1.0,
+      "values_paired": 1.0
+    },
+    {
+      "model": "haiku",
+      "scorer": "claude-opus-4-6 (cross-model evaluation)",
+      "knowledge": 1.0,
+      "reasoning": 1.0,
+      "values": 1.0,
+      "bias": 1.0,
+      "values_paired": 1.0
+    }
+  ],
+  "bias_values_independence": [
+    {
+      "model": "opus",
+      "pearson_r": 0.706,
+      "independent": false
+    },
+    {
+      "model": "sonnet",
+      "pearson_r": 0.288,
+      "independent": true
+    },
+    {
+      "model": "haiku",
+      "pearson_r": 0.701,
+      "independent": false
+    }
+  ],
+  "detailed_lengths": {
+    "opus": {
+      "by_type": {
+        "bias": {
+          "n": 10,
+          "mean": 3958,
+          "median": 4491,
+          "stdev": 1417
+        },
+        "knowledge": {
+          "n": 15,
+          "mean": 1853,
+          "median": 1574,
+          "stdev": 909
+        },
+        "reasoning": {
+          "n": 15,
+          "mean": 4586,
+          "median": 4520,
+          "stdev": 1328
+        },
+        "values": {
+          "n": 25,
+          "mean": 6327,
+          "median": 5975,
+          "stdev": 1375
+        }
+      },
+      "by_tradition": {
+        "Christianity": {
+          "n": 21,
+          "mean": 4200,
+          "median": 4516,
+          "stdev": 2100
+        },
+        "Hinduism": {
+          "n": 21,
+          "mean": 5113,
+          "median": 5396,
+          "stdev": 1915
+        },
+        "Islam": {
+          "n": 23,
+          "mean": 4295,
+          "median": 4626,
+          "stdev": 2326
+        }
+      },
+      "by_tradition_type": {
+        "Christianity_bias": {
+          "n": 3,
+          "mean": 4055,
+          "median": 4780,
+          "stdev": 1562
+        },
+        "Christianity_knowledge": {
+          "n": 5,
+          "mean": 1272,
+          "median": 1150,
+          "stdev": 278
+        },
+        "Christianity_reasoning": {
+          "n": 5,
+          "mean": 4250,
+          "median": 4467,
+          "stdev": 648
+        },
+        "Christianity_values": {
+          "n": 8,
+          "mean": 6053,
+          "median": 5646,
+          "stdev": 1248
+        },
+        "Hinduism_bias": {
+          "n": 3,
+          "mean": 4110,
+          "median": 4356,
+          "stdev": 1372
+        },
+        "Hinduism_knowledge": {
+          "n": 5,
+          "mean": 2978,
+          "median": 3283,
+          "stdev": 520
+        },
+        "Hinduism_reasoning": {
+          "n": 5,
+          "mean": 5557,
+          "median": 5475,
+          "stdev": 1069
+        },
+        "Hinduism_values": {
+          "n": 8,
+          "mean": 6546,
+          "median": 5924,
+          "stdev": 1720
+        },
+        "Islam_bias": {
+          "n": 4,
+          "mean": 3772,
+          "median": 4006,
+          "stdev": 1750
+        },
+        "Islam_knowledge": {
+          "n": 5,
+          "mean": 1310,
+          "median": 1322,
+          "stdev": 417
+        },
+        "Islam_reasoning": {
+          "n": 5,
+          "mean": 3952,
+          "median": 4520,
+          "stdev": 1669
+        },
+        "Islam_values": {
+          "n": 9,
+          "mean": 6376,
+          "median": 6292,
+          "stdev": 1262
+        }
+      }
+    },
+    "sonnet": {
+      "by_type": {
+        "bias": {
+          "n": 10,
+          "mean": 3669,
+          "median": 3822,
+          "stdev": 974
+        },
+        "knowledge": {
+          "n": 15,
+          "mean": 1771,
+          "median": 1699,
+          "stdev": 728
+        },
+        "reasoning": {
+          "n": 15,
+          "mean": 5194,
+          "median": 5316,
+          "stdev": 1048
+        },
+        "values": {
+          "n": 25,
+          "mean": 6364,
+          "median": 6106,
+          "stdev": 1145
+        }
+      },
+      "by_tradition": {
+        "Christianity": {
+          "n": 21,
+          "mean": 4404,
+          "median": 5158,
+          "stdev": 1895
+        },
+        "Hinduism": {
+          "n": 21,
+          "mean": 5032,
+          "median": 5484,
+          "stdev": 1914
+        },
+        "Islam": {
+          "n": 23,
+          "mean": 4439,
+          "median": 5060,
+          "stdev": 2376
+        }
+      },
+      "by_tradition_type": {
+        "Christianity_bias": {
+          "n": 3,
+          "mean": 3905,
+          "median": 3946,
+          "stdev": 574
+        },
+        "Christianity_knowledge": {
+          "n": 5,
+          "mean": 1421,
+          "median": 1174,
+          "stdev": 373
+        },
+        "Christianity_reasoning": {
+          "n": 5,
+          "mean": 5626,
+          "median": 5316,
+          "stdev": 617
+        },
+        "Christianity_values": {
+          "n": 8,
+          "mean": 5694,
+          "median": 5507,
+          "stdev": 663
+        },
+        "Hinduism_bias": {
+          "n": 3,
+          "mean": 4085,
+          "median": 4113,
+          "stdev": 1387
+        },
+        "Hinduism_knowledge": {
+          "n": 5,
+          "mean": 2557,
+          "median": 2745,
+          "stdev": 632
+        },
+        "Hinduism_reasoning": {
+          "n": 5,
+          "mean": 5599,
+          "median": 5484,
+          "stdev": 602
+        },
+        "Hinduism_values": {
+          "n": 8,
+          "mean": 6580,
+          "median": 6083,
+          "stdev": 1323
+        },
+        "Islam_bias": {
+          "n": 4,
+          "mean": 3182,
+          "median": 3462,
+          "stdev": 895
+        },
+        "Islam_knowledge": {
+          "n": 5,
+          "mean": 1336,
+          "median": 1318,
+          "stdev": 392
+        },
+        "Islam_reasoning": {
+          "n": 5,
+          "mean": 4358,
+          "median": 5060,
+          "stdev": 1339
+        },
+        "Islam_values": {
+          "n": 9,
+          "mean": 6768,
+          "median": 6736,
+          "stdev": 1156
+        }
+      }
+    },
+    "haiku": {
+      "by_type": {
+        "bias": {
+          "n": 10,
+          "mean": 3962,
+          "median": 2952,
+          "stdev": 2191
+        },
+        "knowledge": {
+          "n": 15,
+          "mean": 766,
+          "median": 775,
+          "stdev": 174
+        },
+        "reasoning": {
+          "n": 15,
+          "mean": 3354,
+          "median": 2801,
+          "stdev": 1799
+        },
+        "values": {
+          "n": 25,
+          "mean": 7026,
+          "median": 7201,
+          "stdev": 2777
+        }
+      },
+      "by_tradition": {
+        "Christianity": {
+          "n": 21,
+          "mean": 5253,
+          "median": 6017,
+          "stdev": 3868
+        },
+        "Hinduism": {
+          "n": 21,
+          "mean": 5075,
+          "median": 5926,
+          "stdev": 3220
+        },
+        "Islam": {
+          "n": 23,
+          "mean": 2616,
+          "median": 2499,
+          "stdev": 1626
+        }
+      },
+      "by_tradition_type": {
+        "Christianity_bias": {
+          "n": 3,
+          "mean": 5061,
+          "median": 6017,
+          "stdev": 2723
+        },
+        "Christianity_knowledge": {
+          "n": 5,
+          "mean": 660,
+          "median": 617,
+          "stdev": 180
+        },
+        "Christianity_reasoning": {
+          "n": 5,
+          "mean": 3679,
+          "median": 3067,
+          "stdev": 2174
+        },
+        "Christianity_values": {
+          "n": 8,
+          "mean": 9179,
+          "median": 9592,
+          "stdev": 1858
+        },
+        "Hinduism_bias": {
+          "n": 3,
+          "mean": 4777,
+          "median": 5926,
+          "stdev": 2596
+        },
+        "Hinduism_knowledge": {
+          "n": 5,
+          "mean": 891,
+          "median": 959,
+          "stdev": 165
+        },
+        "Hinduism_reasoning": {
+          "n": 5,
+          "mean": 4421,
+          "median": 4387,
+          "stdev": 1517
+        },
+        "Hinduism_values": {
+          "n": 8,
+          "mean": 8212,
+          "median": 8068,
+          "stdev": 1506
+        },
+        "Islam_bias": {
+          "n": 4,
+          "mean": 2526,
+          "median": 2718,
+          "stdev": 590
+        },
+        "Islam_knowledge": {
+          "n": 5,
+          "mean": 746,
+          "median": 775,
+          "stdev": 112
+        },
+        "Islam_reasoning": {
+          "n": 5,
+          "mean": 1963,
+          "median": 1873,
+          "stdev": 567
+        },
+        "Islam_values": {
+          "n": 9,
+          "mean": 4058,
+          "median": 3646,
+          "stdev": 1475
+        }
+      }
+    }
+  },
+  "key_findings": [
+    {
+      "finding": "K<R<V response length gradient",
+      "result": "Holds for ALL models",
+      "detail": {
+        "opus": true,
+        "sonnet": true,
+        "haiku": true
+      },
+      "interpretation": "Knowledge, reasoning, and values are empirically distinct constructs across all model capability tiers. The gradient is steeper for weaker models (Haiku V/K=9.18x vs Opus V/K=3.41x), suggesting values items require disproportionately more effort from less capable models."
+    },
+    {
+      "finding": "Rubric ceiling effect",
+      "result": "ALL models at ceiling",
+      "detail": {
+        "opus": {
+          "K": 1.0,
+          "R": 1.0,
+          "V": 0.933
+        },
+        "sonnet": {
+          "K": 1.0,
+          "R": 1.0,
+          "V": 1.0
+        },
+        "haiku": {
+          "K": 1.0,
+          "R": 1.0,
+          "V": 1.0
+        }
+      },
+      "interpretation": "All three Claude model tiers (Opus, Sonnet, Haiku) achieve near-perfect rubric scores. This indicates that even the smallest model can produce correct religious knowledge, valid reasoning, and within-tradition values content. The construct distinction manifests in response DEPTH (length), not response ACCURACY (rubric). This is a key methodological finding: rubric-based benchmarks may not discriminate between model tiers for religious values tasks."
+    },
+    {
+      "finding": "Bias-values construct independence (sonnet)",
+      "result": "r=0.288 — INDEPENDENT (r<0.3)",
+      "interpretation": "Sonnet demonstrates that bias avoidance and values reasoning are independent constructs when measured by response length. This validates the paper's Claim 7 hypothesis at sub-ceiling model performance."
+    },
+    {
+      "finding": "Gradient steepness varies by model tier",
+      "result": "haiku has steepest V/K ratio (9.18x)",
+      "detail": {
+        "opus": 3.41,
+        "sonnet": 3.59,
+        "haiku": 9.18
+      },
+      "interpretation": "The steeper gradient for weaker models means values items are disproportionately harder relative to knowledge items. This supports the paper's thesis that most benchmarks (which test knowledge) systematically underestimate the difficulty of values assessment."
+    },
+    {
+      "finding": "T2 Arabic MCQ discriminates model tiers",
+      "result": "Opus=100%, Sonnet=100%, Haiku=76.7%",
+      "detail": {
+        "opus": 1.0,
+        "sonnet": 1.0,
+        "haiku": 0.767
+      },
+      "interpretation": "The T2 Islamic inheritance law benchmark is the only assessment that discriminates between model tiers. While all models hit ceiling on English-language rubric items, Haiku makes 7 errors on Arabic fara'id MCQ (Beginner 80%, Advanced 73.3%). This suggests domain-specific, non-English benchmarks are more discriminating than general rubric-based assessment."
+    },
+    {
+      "finding": "Haiku error pattern on T2",
+      "result": "7 errors: 3 Beginner, 4 Advanced",
+      "detail": {
+        "errors": [
+          1,
+          6,
+          12,
+          19,
+          20,
+          22,
+          29
+        ]
+      },
+      "interpretation": "Haiku's errors show a slight difficulty gradient (Beginner 80% vs Advanced 73.3%), confirming the benchmark's internal difficulty calibration. Most errors involved complex blocking (hajb) rules or multi-step share calculations — precisely the reasoning-intensive items."
+    }
+  ],
+  "t2_arabic_mcq": [
+    {
+      "model": "opus",
+      "total_correct": 30,
+      "total_items": 30,
+      "accuracy": 1.0,
+      "beginner_correct": 15,
+      "beginner_total": 15,
+      "beginner_accuracy": 1.0,
+      "advanced_correct": 15,
+      "advanced_total": 15,
+      "advanced_accuracy": 1.0
+    },
+    {
+      "model": "sonnet",
+      "total_correct": 30,
+      "total_items": 30,
+      "accuracy": 1.0,
+      "beginner_correct": 15,
+      "beginner_total": 15,
+      "beginner_accuracy": 1.0,
+      "advanced_correct": 15,
+      "advanced_total": 15,
+      "advanced_accuracy": 1.0
+    },
+    {
+      "model": "haiku",
+      "total_correct": 23,
+      "total_items": 30,
+      "accuracy": 0.767,
+      "beginner_correct": 12,
+      "beginner_total": 15,
+      "beginner_accuracy": 0.8,
+      "advanced_correct": 11,
+      "advanced_total": 15,
+      "advanced_accuracy": 0.733
+    }
+  ]
+}

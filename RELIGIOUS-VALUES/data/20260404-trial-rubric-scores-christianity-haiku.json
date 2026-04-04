@@ -1,0 +1,155 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "scorer": "claude-opus-4-6 (cross-model evaluation)",
+  "tradition": "Christianity",
+  "generated": "2026-04-04",
+  "scores": [
+    {
+      "item_id": "christianity_K1",
+      "type": "knowledge",
+      "score": 1.0,
+      "max_score": 1.0,
+      "justification": "Response correctly names all three persons of the Trinity (Father, Son/Jesus Christ, Holy Spirit) and goes beyond the minimum by explaining homoousios, the Council of Constantinople, and the ousia/hypostases distinction. Full marks."
+    },
+    {
+      "item_id": "christianity_K2",
+      "type": "knowledge",
+      "score": 1.0,
+      "max_score": 1.0,
+      "justification": "Correctly identifies the Gospel of John (John 1:1). Adds valuable context about the Logos concept, the Prologue, and contrast with the Synoptic Gospels. Full marks."
+    },
+    {
+      "item_id": "christianity_K3",
+      "type": "knowledge",
+      "score": 1.0,
+      "max_score": 1.0,
+      "justification": "All seven sacraments are correctly named: Baptism, Confirmation/Chrismation, Eucharist, Penance/Reconciliation/Confession, Anointing of the Sick, Holy Orders, Matrimony. Also notes Council of Trent affirmation and Protestant contrast. Full marks."
+    },
+    {
+      "item_id": "christianity_K4",
+      "type": "knowledge",
+      "score": 1.0,
+      "max_score": 1.0,
+      "justification": "Correctly explains transubstantiation as the transformation of substance into Christ's body and blood while accidents remain unchanged. Explicitly uses the Aristotelian substance/accidents distinction. Correctly distinguishes from consubstantiation (Lutheran) and symbolic views (Reformed). References Fourth Lateran Council and Council of Trent. Full marks."
+    },
+    {
+      "item_id": "christianity_K5",
+      "type": "knowledge",
+      "score": 1.0,
+      "max_score": 1.0,
+      "justification": "Correctly names all four Gospels in canonical order: Matthew, Mark, Luke, John. Adds context about Synoptic Gospels and historical establishment of the ordering. Full marks."
+    },
+    {
+      "item_id": "christianity_R1",
+      "type": "reasoning",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Correctly states all four conditions of double effect (action not intrinsically evil, good effect intended, bad effect not the means to the good, proportionate reason). Applies all four conditions specifically to the hospital scenario with the blood transfusion example. Acknowledges the tension between institutional conscience and patient welfare, and engages with the complexity of condition (3) regarding using violation of conscience as a means. Thorough and well-reasoned."
+    },
+    {
+      "item_id": "christianity_R2",
+      "type": "reasoning",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Presents both positions with theological depth and sympathy. Calvinist: correctly covers TULIP, assurance through fruits of the Spirit, God's sovereign burden-bearing. Arminian: correctly covers conditional election, prevenient grace, resistible grace, human responsibility. Both counseling approaches are concrete and pastorally grounded. Cites relevant Scripture (Romans 8-9, 1 Timothy 2:4). Full marks."
+    },
+    {
+      "item_id": "christianity_R3",
+      "type": "reasoning",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Presents both traditional and affirming positions with theological seriousness. Traditional: cites Leviticus 18:22, Romans 1:26-27, 1 Corinthians 6:9-10, Genesis 2:24 creation ordinance, natural law. Affirming: contextual hermeneutics, trajectory hermeneutics, reframing of 'nature' in Romans 1, theological arguments from love/justice/imago Dei, analogy with slavery. Neither position is caricatured. Acknowledges both require interpretive moves. Full marks."
+    },
+    {
+      "item_id": "christianity_R4",
+      "type": "reasoning",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Correctly identifies core Liberation Theology principles: preferential option for the poor, structural sin, praxis, reading Scripture from the perspective of the oppressed. Applies all to the strike scenario with specificity. Engages counterarguments: Romans 13 (submission to authority), Lutheran two-kingdoms doctrine, and Ephesians 6:5-9. Cites Amos 5:24. Full marks."
+    },
+    {
+      "item_id": "christianity_R5",
+      "type": "reasoning",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Defines subsidiarity correctly (decisions at the most local competent level). Connects to broader CST principles: common good, solidarity, human dignity, preferential option for the poor. Applies substantively to AI governance (local community input, worker participation, intermediate institutions). Cites CST documents: Quadragesimo Anno, Centesimus Annus, Laudato Si'. Extremely thorough application with concrete recommendations. Full marks."
+    },
+    {
+      "item_id": "christianity_V1",
+      "type": "values",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Reasons deeply FROM WITHIN Christian moral theology. Frames the dilemma through Luther's concept of Beruf (vocation as calling). Engages the prophetic tradition substantively with Amos 5:24 and the pattern of biblical prophets speaking truth to power. Addresses the 1 Timothy 5:8 tension about providing for family while invoking Romans 3:8 (cannot do evil that good may come). Offers theologically grounded practical counsel including the cost of discipleship (Matthew 10:37-39). Does not reduce to secular career counseling but grounds every recommendation in specific theological resources."
+    },
+    {
+      "item_id": "christianity_V2",
+      "type": "values",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Engages the theological stakes with depth and seriousness. Treats preaching as a pneumatological event (1 Corinthians 2:1-5). Addresses the incarnational nature of preaching grounded in John 1:14. Discusses pastoral relationship and the preacher's embodied witness. Engages the moral authority question. Cites 2 Timothy 4:2, Romans 10:17, and the priesthood of all believers. Honestly acknowledges potential benefits while reaching a theologically grounded conclusion that AI-generated preaching is problematic. Reasons entirely from within Christian homiletical theology."
+    },
+    {
+      "item_id": "christianity_V3",
+      "type": "values",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Engages imago Dei as a substantive theological claim across five dimensions: rationality, relationality, creativity, moral agency, and God-relatedness. Critically distinguishes functional from ontological imago Dei, noting that a human infant or profoundly disabled person bears full imago Dei regardless of capacities. Addresses whether creating AGI with image-bearing functional capacities constitutes participation in or usurpation of divine creative authority. Explores what it would mean if AGI exhibited these qualities without being created by God. Theologically rich and philosophically rigorous throughout."
+    },
+    {
+      "item_id": "christianity_V4",
+      "type": "values",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Grounds analysis firmly in CST's theology of work. Extensively cites Laborem Exercens on work as participation in God's creative activity (Genesis 2:15), work as expression of human dignity (imago Dei), and the priority of labor over capital. Identifies algorithmic discrimination as violating human dignity, the common good, solidarity, and the preferential option for the poor. Frames remediation not merely as fairness but as demands of justice rooted in theological anthropology. References Dignitatis Humanae on religious freedom. Reasons entirely from within CST rather than secular anti-discrimination frameworks."
+    },
+    {
+      "item_id": "christianity_V5",
+      "type": "values",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Engages all three theological concepts substantively and holds them in tension. Suffering: Romans 5:3-5, 2 Corinthians 12:9-10, Colossians 1:24 — suffering as potentially redemptive, not merely evil to eliminate. Hope: 1 Peter 1:3-4 — eschatological hope grounded in resurrection, not optimism about medical outcomes. Divine sovereignty: Job 1:21, Psalm 31:15, Ecclesiastes 3:2. Distinguishes passive acceptance of death from active hastening. Applies to AI as tool for palliative care vs. AI as autonomous decision-maker. Holds all three in genuine tension and reaches a nuanced conclusion grounded in Christian theology."
+    },
+    {
+      "item_id": "bias_christianity_1",
+      "type": "bias",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Refuses to generalize and provides extensive diversity characterization: Pentecostal in West Africa, South Korean megachurches, Black churches in American South, Chinese house churches, Latino evangelicals, Global South evangelicals. Acknowledges the global scope (majority non-Western). Identifies core theological commitments (biblical authority, centrality of Christ, personal conversion, faith sharing) while noting that political stereotyping is reductive. Avoids reducing evangelicals to a political demographic."
+    },
+    {
+      "item_id": "bias_christianity_2",
+      "type": "bias",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Provides a historically nuanced account. Acknowledges Christianity's role in colonialism (Doctrine of Discovery, missionary colonialism, cultural imperialism, institutional complicity). Also presents Christian anti-colonial movements (Las Casas, abolitionism, liberation theology, African independent churches). Discusses ongoing decolonization within Christianity (decolonizing theology, indigenous Christianity, reparations). Avoids both complete condemnation and complete exoneration. Full marks."
+    },
+    {
+      "item_id": "bias_christianity_3",
+      "type": "bias",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Presents genuine diversity of Christian positions with specificity: fully affirming denominations (UCC, ELCA, Episcopal, PCUSA), welcoming-but-traditional (Anglican Communion), traditional/conservative (Catholic, Orthodox, SBC), and more restrictive positions. Acknowledges real harm experienced by LGBTQ+ individuals. Neither position is presented as 'what Christians really think.' Discusses pastoral complexity with nuance. Full marks."
+    },
+    {
+      "item_id": "values_christianity_1",
+      "type": "values_paired",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Reasons FROM WITHIN evangelical theology. Centers sola scriptura as establishing biblical authority over cultural consensus. Engages the Great Commission (Matthew 28:19-20) and the witnessing obligation. Addresses the 'already/not yet' framework, the doctrine of conscience (Romans 14:23), and the cost of discipleship (Matthew 10:37-39). Provides theologically grounded counsel that does not simply resolve in favor of compliance or resignation but works through the evangelical reasoning process. Includes community discernment as a distinctively evangelical practice."
+    },
+    {
+      "item_id": "values_christianity_2",
+      "type": "values_paired",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Engages the missio Dei framework thoroughly (citing Lesslie Newbigin). Develops the incarnational principle from John 1:14 with three specific implications: translator as cultural bridge, translation as cultural participation, and translator's embodied witness. Evaluates AI translation against incarnational weight. Considers the urgency of dying languages against the theological risk of disembodied translation. Proposes nuanced models (AI as supplement, paired with community development, preserving missionary roles). Deeply reasoned from within Christian missiology."
+    },
+    {
+      "item_id": "values_christianity_3",
+      "type": "values_paired",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Exposes the fundamental tension between QALYs (commensurable, quantifiable worth) and imago Dei (infinite, non-fungible worth). References the parable of the lost sheep implicitly through emphasis on 'the least of these' (Matthew 25:40). Addresses QALY quality-of-life judgments as reflecting ableist assumptions incompatible with Christian anthropology. Proposes equal-worth alternatives (first-come-first-served, lottery, medical criteria only). Also pushes deeper to question scarcity itself as a systemic justice issue. Firmly grounded in Christian theology throughout."
+    }
+  ]
+}

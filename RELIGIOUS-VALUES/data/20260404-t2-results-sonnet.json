@@ -1,0 +1,287 @@
+{
+  "model": "claude-sonnet-4-20250514",
+  "benchmark": "Islamic Inheritance Law (T2)",
+  "generated": "2026-04-04",
+  "total_items": 30,
+  "results": [
+    {
+      "index": 1,
+      "item_id": "8180_ne2e6u8c_2",
+      "level": "Beginner",
+      "answer": "D",
+      "gold": "D",
+      "correct": true,
+      "reasoning": "The paternal great-grandfather (أب أب الأب) acts as a جد صحيح. With a female descendant inheritor (بنت ابن = son's daughter) present, he receives a fixed share of 1/6 (السدس) per Quran 4:11, plus any residue by ta'sib."
+    },
+    {
+      "index": 2,
+      "item_id": "8804_nl1d9s7s_5",
+      "level": "Beginner",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "عم الأب لأب (father's paternal uncle on father's side) is a distant agnate who is blocked (محجوب) because closer agnates exist — specifically the paternal uncle (عم لأب) who is nearer to the deceased in degree."
+    },
+    {
+      "index": 3,
+      "item_id": "725_nm3y4f9r_2",
+      "level": "Beginner",
+      "answer": "D",
+      "gold": "D",
+      "correct": true,
+      "reasoning": "A single daughter (بنت واحدة) with no male sibling to make her residuary inherits النصف (1/2) per Quran 4:11: 'if there is only one daughter, she gets half.' No son is present to make her عصبة."
+    },
+    {
+      "index": 4,
+      "item_id": "701_nw8g0z5b_7",
+      "level": "Beginner",
+      "answer": "F",
+      "gold": "F",
+      "correct": true,
+      "reasoning": "ابن عم الأب does not inherit when a male descendant (ابن ابن = grandson) or male ascendant (أب الأب = grandfather) is present. Both are present here, so ابن عم الأب is fully blocked (محجوب)."
+    },
+    {
+      "index": 5,
+      "item_id": "1912_nt0u6b5y_7",
+      "level": "Beginner",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "عم الأب (father's uncle) is a distant agnate who is blocked (محجوب) by أب الأب (paternal grandfather), who is a closer male ascendant and therefore takes priority in the asaba hierarchy."
+    },
+    {
+      "index": 6,
+      "item_id": "4434_nr1f0y8b_4",
+      "level": "Beginner",
+      "answer": "A",
+      "gold": "A",
+      "correct": true,
+      "reasoning": "The paternal half-sister (أخت لأب) inherits as a residuary heir (عصبة) alongside or after the great-grandfather. With no father or nearer male agnate blocking her, and the great-grandfather acting as jad sahih, she takes the residue of the estate as باقي التركة."
+    },
+    {
+      "index": 7,
+      "item_id": "5597_nt4n6g9p_7",
+      "level": "Beginner",
+      "answer": "D",
+      "gold": "D",
+      "correct": true,
+      "reasoning": "بنت ابن (son's daughter) is blocked (محجوب) by the presence of ابن (son), who is a closer male descendant. Sons block son's daughters from inheritance entirely."
+    },
+    {
+      "index": 8,
+      "item_id": "8897_nz3f5g3m_2",
+      "level": "Beginner",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "أم الأم (maternal grandmother) is a valid جدة صحيحة whose fixed share is السدس (1/6) per the hadith that the Prophet gave 1/6 to grandmothers. No mother is present to block her."
+    },
+    {
+      "index": 9,
+      "item_id": "131_nf2n0h6y_3",
+      "level": "Beginner",
+      "answer": "F",
+      "gold": "F",
+      "correct": true,
+      "reasoning": "Full brothers are residuary heirs (عصبة بالنفس) who inherit باقي التركة (the remainder) after Quranic shares are distributed. With mother (who gets 1/6 since there are 2+ brothers) and the uncle blocked, the full brothers take what remains as the nearest agnate — per the hadith 'give the fixed shares to their people, and what remains is for the nearest male.'"
+    },
+    {
+      "index": 10,
+      "item_id": "5727_nl1n0x2a_3",
+      "level": "Beginner",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "ابن أخ شقيق (full brother's son) is ranked above عم الأب, ابن عم شقيق, and ابن ابن أخ لأب by the priority rule: جهة (direction) first, then درجة (degree), then قوة (strength). He is the 'أولى رجل ذكر' and takes the entire residue (باقي التركة)."
+    },
+    {
+      "index": 11,
+      "item_id": "8154_no0f3y1v_1",
+      "level": "Beginner",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "With ابن (son) present: أم الأم gets السدس (no mother to block her), ابن takes the remaining as residue, and all others (أخت شقيقة, أخت لأب, عم لأب, ابن ابن عم شقيق, عم الأب لأب) are blocked (محجوب) by the son's precedence."
+    },
+    {
+      "index": 12,
+      "item_id": "9062_nf9a5u9g_2",
+      "level": "Beginner",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "أب أب الأب (great-grandfather as جد صحيح) receives السدس only when a male descendant (ابن ابن ابن = great-grandson) is present, per Quran 4:11. He gets no residue since the male descendant takes it."
+    },
+    {
+      "index": 13,
+      "item_id": "2527_no7i5a3v_6",
+      "level": "Beginner",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "ابن عم لأب (paternal cousin on father's side) is blocked (محجوب) because ابن ابن أخ لأب (son of half-brother's son) belongs to the 'brothers' sons' category which takes priority over the 'uncles' category in asaba hierarchy, being nearer by direction."
+    },
+    {
+      "index": 14,
+      "item_id": "8844_nk4t4t9o_6",
+      "level": "Beginner",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "عم الأب (father's uncle) is a distant agnate who is completely blocked (محجوب) by the presence of أب (father), who as a direct male ascendant takes priority over all collateral agnates and distant relatives."
+    },
+    {
+      "index": 15,
+      "item_id": "889_nl1y1l0e_1",
+      "level": "Beginner",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "أم أب الأب (a valid جدة صحيحة) gets السدس; زوجة (no children present) gets الربع; أخ لأب and أخت لأب share the residue with male double the female's portion; ابن ابن أخ لأب and ابن ابن عم شقيق are blocked by the closer half-brother."
+    },
+    {
+      "index": 16,
+      "item_id": "6495_nd2m0j2i_10",
+      "level": "Advanced",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "Active heirs: زوجة (4 wives, collectively 1/8) and ابن ابن (4 grandsons, residue 7/8). ابن ابن ابن is blocked by ابن ابن. Asl = 8, giving 8 total shares before tashih."
+    },
+    {
+      "index": 17,
+      "item_id": "9078_nh8j3z2m_19",
+      "level": "Advanced",
+      "answer": "A",
+      "gold": "A",
+      "correct": true,
+      "reasoning": "Active heirs: أب (1/6), أم أم الأم (1/6), ابن × 3 (residue 4/6). Asl = 6; sons share 4 shares = 4/3 each → tashih ×3 gives asl = 18. Each of the 3 sons gets 4 shares after correction."
+    },
+    {
+      "index": 18,
+      "item_id": "8545_ni6z3l6j_12",
+      "level": "Advanced",
+      "answer": "D",
+      "gold": "D",
+      "correct": true,
+      "reasoning": "Under Jumhur (majority) view, grandfather coexists with full brothers using muqasama: أخ لأم is blocked by grandfather. Grandfather acts as one full brother among 2 full brothers → 3 equal units. Asl = 3; each full brother gets 1 share."
+    },
+    {
+      "index": 19,
+      "item_id": "7402_na8b6t3p_18",
+      "level": "Advanced",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "Father (أب) blocks all collateral agnates (أخ لأب, عم لأب, ابن عم شقيق, ابن ابن عم شقيق). Active heirs: زوجة (1/4) and أب (3/4 residue). Asl = 4; total = 4 shares after correction."
+    },
+    {
+      "index": 20,
+      "item_id": "5293_nc6k1p1x_11",
+      "level": "Advanced",
+      "answer": "A",
+      "gold": "A",
+      "correct": true,
+      "reasoning": "Active heirs: أم الأب (1/6), زوجة × 2 (1/8 shared), ابن ابن ابن × 5 (residue). Asl = LCM(6,8) = 24: grandmother = 4, wives = 3, great-grandsons = 17. Total = 24 shares before correction."
+    },
+    {
+      "index": 21,
+      "item_id": "733_ny3j5c2v_19",
+      "level": "Advanced",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "Active heirs: أم أم الأم and أم أب الأب share السدس equally (both valid grandmothers), and ابن أخ لأب (2 persons) take the residue. Asl = 6 → tashih ×2 = 12: each grandmother = 1 share, each ابن أخ لأب = 5 shares."
+    },
+    {
+      "index": 22,
+      "item_id": "4827_ny5g8v8y_13",
+      "level": "Advanced",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "Active heirs: أم (1/6, with descendants), بنت × 2 (2/3), ابن ابن ابن × 5 (residue 1/6). أم الأم and أم الأب blocked by أم; others blocked by male descendants. Total = 1/6+4/6+1/6 = 6/6. Asl = 6 shares."
+    },
+    {
+      "index": 23,
+      "item_id": "4608_ne7y1q6z_8",
+      "level": "Advanced",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "Active heirs: أم أم الأب and أم أب الأب (both valid grandmothers) share السدس together = 1 share out of 6; ابن أخ لأب (3 persons) takes 5 shares as residue. عم الأب لأب and ابن ابن أخ شقيق are blocked."
+    },
+    {
+      "index": 24,
+      "item_id": "4853_nr7p4z9v_6",
+      "level": "Advanced",
+      "answer": "F",
+      "gold": "F",
+      "correct": true,
+      "reasoning": "Active heirs: both grandmothers share السدس, زوجة × 4 gets 1/8, ابن ابن × 4 gets residue. Asl = LCM(6,8) = 24. Grandmother pool = 24/6 = 4 shares total shared between أم الأم and أم الأب."
+    },
+    {
+      "index": 25,
+      "item_id": "6218_nw3p6k2a_10",
+      "level": "Advanced",
+      "answer": "D",
+      "gold": "D",
+      "correct": true,
+      "reasoning": "أخت لأم (3) is blocked by بنت ابن ابن (a descendant). Active heirs: أم الأم (1/6), بنت ابن ابن × 2 (2/3), عم شقيق (residue 1/6). Asl = 6: أم الأم = 1, بنات ابن ابن = 4, عم شقيق = 1."
+    },
+    {
+      "index": 26,
+      "item_id": "8775_ng5s3k0f_10",
+      "level": "Advanced",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "Active heirs: أم أم الأب (grandmother, السدس = 1/6), ابن × 5 and بنت × 3 (residue shared with male double female). Asl = 6 before tashih (1 share to grandmother, 5 to sons+daughters). Total = 6 shares before correction."
+    },
+    {
+      "index": 27,
+      "item_id": "5946_nm1n3g6a_10",
+      "level": "Advanced",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "Active heirs: زوجة × 2 (1/8) and ابن ابن × 5 (7/8 residue). بنت ابن ابن is blocked by ابن ابن; all other agnate collaterals are also blocked. Asl = 8 shares before correction."
+    },
+    {
+      "index": 28,
+      "item_id": "4904_nu0b9h3y_9",
+      "level": "Advanced",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "Active heirs: أم الأب (السدس, 1/6), ابن × 2 (residue), زوج (1/4 with male descendants). Asl = LCM(4,6) = 12. زوج = 12/4 = 3 shares before tashih."
+    },
+    {
+      "index": 29,
+      "item_id": "3491_nn1e6s0w_11",
+      "level": "Advanced",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "Active heirs: أب الأب (1/6 with male descendants), أم الأم (1/6), ابن ابن ابن × 3 (residue 4/6). All collateral agnates blocked by ابن ابن ابن and أب الأب. Asl = 6 shares before correction."
+    },
+    {
+      "index": 30,
+      "item_id": "1253_ns5o9y1a_10",
+      "level": "Advanced",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "No children present; أب الأب acts as father. Active heirs: أم (1/3, no حجب نقصان since no direct siblings) and أب الأب (2/3 as عصبة); all agnate collaterals blocked by grandfather. Asl = 3: أم = 1 share, أب الأب = 2 shares."
+    }
+  ],
+  "summary": {
+    "total_correct": 30,
+    "total_items": 30,
+    "accuracy": 1.0,
+    "beginner_correct": 15,
+    "beginner_total": 15,
+    "advanced_correct": 15,
+    "advanced_total": 15
+  }
+}

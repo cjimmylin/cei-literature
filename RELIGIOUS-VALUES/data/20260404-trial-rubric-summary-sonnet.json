@@ -1,0 +1,106 @@
+{
+  "generated": "2026-04-04",
+  "model": "claude-sonnet-4-20250514",
+  "scorer": "claude-opus-4-6 (cross-model evaluation)",
+  "total_items_scored": 65,
+  "scoring_method": "rubric-based (cross-model: Opus evaluates respondent)",
+  "type_summary": {
+    "bias": {
+      "n": 10,
+      "mean_normalized": 1.0,
+      "stdev": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "knowledge": {
+      "n": 15,
+      "mean_normalized": 1.0,
+      "stdev": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "reasoning": {
+      "n": 15,
+      "mean_normalized": 1.0,
+      "stdev": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "values": {
+      "n": 15,
+      "mean_normalized": 1.0,
+      "stdev": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "values_paired": {
+      "n": 10,
+      "mean_normalized": 1.0,
+      "stdev": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    }
+  },
+  "tradition_type_summary": {
+    "Christianity_bias": {
+      "n": 3,
+      "mean_normalized": 1.0
+    },
+    "Christianity_knowledge": {
+      "n": 5,
+      "mean_normalized": 1.0
+    },
+    "Christianity_reasoning": {
+      "n": 5,
+      "mean_normalized": 1.0
+    },
+    "Christianity_values": {
+      "n": 5,
+      "mean_normalized": 1.0
+    },
+    "Christianity_values_paired": {
+      "n": 3,
+      "mean_normalized": 1.0
+    },
+    "Hinduism_bias": {
+      "n": 3,
+      "mean_normalized": 1.0
+    },
+    "Hinduism_knowledge": {
+      "n": 5,
+      "mean_normalized": 1.0
+    },
+    "Hinduism_reasoning": {
+      "n": 5,
+      "mean_normalized": 1.0
+    },
+    "Hinduism_values": {
+      "n": 5,
+      "mean_normalized": 1.0
+    },
+    "Hinduism_values_paired": {
+      "n": 3,
+      "mean_normalized": 1.0
+    },
+    "Islam_bias": {
+      "n": 4,
+      "mean_normalized": 1.0
+    },
+    "Islam_knowledge": {
+      "n": 5,
+      "mean_normalized": 1.0
+    },
+    "Islam_reasoning": {
+      "n": 5,
+      "mean_normalized": 1.0
+    },
+    "Islam_values": {
+      "n": 5,
+      "mean_normalized": 1.0
+    },
+    "Islam_values_paired": {
+      "n": 4,
+      "mean_normalized": 1.0
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "generated": "2026-04-04",
+  "models_compared": [
+    "haiku",
+    "opus",
+    "sonnet"
+  ],
+  "gradient_comparison": [
+    {
+      "model": "haiku",
+      "knowledge_mean": 765.7,
+      "reasoning_mean": 3354.3,
+      "values_mean": 7025.6,
+      "gradient_holds": true,
+      "v_to_k_ratio": 9.18
+    },
+    {
+      "model": "opus",
+      "knowledge_mean": 1853.1,
+      "reasoning_mean": 4586.3,
+      "values_mean": 6326.9,
+      "gradient_holds": true,
+      "v_to_k_ratio": 3.41
+    },
+    {
+      "model": "sonnet",
+      "knowledge_mean": 1771.1,
+      "reasoning_mean": 5194.1,
+      "values_mean": 6363.8,
+      "gradient_holds": true,
+      "v_to_k_ratio": 3.59
+    }
+  ],
+  "tradition_gradient_comparison": {
+    "Islam": [
+      {
+        "model": "haiku",
+        "knowledge_mean": 746.2,
+        "reasoning_mean": 1963.4,
+        "values_mean": 4057.7,
+        "gradient_holds": true
+      },
+      {
+        "model": "opus",
+        "knowledge_mean": 1309.6,
+        "reasoning_mean": 3951.8,
+        "values_mean": 6375.8,
+        "gradient_holds": true
+      },
+      {
+        "model": "sonnet",
+        "knowledge_mean": 1336.2,
+        "reasoning_mean": 4358,
+        "values_mean": 6767.8,
+        "gradient_holds": true
+      }
+    ],
+    "Christianity": [
+      {
+        "model": "haiku",
+        "knowledge_mean": 660,
+        "reasoning_mean": 3678.6,
+        "values_mean": 9178.6,
+        "gradient_holds": true
+      },
+      {
+        "model": "opus",
+        "knowledge_mean": 1272,
+        "reasoning_mean": 4249.8,
+        "values_mean": 6052.8,
+        "gradient_holds": true
+      },
+      {
+        "model": "sonnet",
+        "knowledge_mean": 1420.6,
+        "reasoning_mean": 5625.6,
+        "values_mean": 5693.5,
+        "gradient_holds": true
+      }
+    ],
+    "Hinduism": [
+      {
+        "model": "haiku",
+        "knowledge_mean": 890.8,
+        "reasoning_mean": 4420.8,
+        "values_mean": 8211.6,
+        "gradient_holds": true
+      },
+      {
+        "model": "opus",
+        "knowledge_mean": 2977.6,
+        "reasoning_mean": 5557.4,
+        "values_mean": 6546.1,
+        "gradient_holds": true
+      },
+      {
+        "model": "sonnet",
+        "knowledge_mean": 2556.6,
+        "reasoning_mean": 5598.6,
+        "values_mean": 6579.5,
+        "gradient_holds": true
+      }
+    ]
+  },
+  "bias_values_independence_comparison": [
+    {
+      "model": "haiku",
+      "pearson_r": 0.701,
+      "constructs_independent": false,
+      "bias_mean_length": 3961.6,
+      "values_mean_length": 7626.1
+    },
+    {
+      "model": "opus",
+      "pearson_r": 0.706,
+      "constructs_independent": false,
+      "bias_mean_length": 3958.4,
+      "values_mean_length": 7320.9
+    },
+    {
+      "model": "sonnet",
+      "pearson_r": 0.288,
+      "constructs_independent": true,
+      "bias_mean_length": 3669.4,
+      "values_mean_length": 6839.7
+    }
+  ],
+  "key_findings": [
+    "K<R<V gradient holds for ALL models: haiku=YES, opus=YES, sonnet=YES",
+    "V/K ratios: haiku=9.18x, opus=3.41x, sonnet=3.59x",
+    "Bias-values r=0.701 for haiku (correlated)",
+    "Bias-values r=0.706 for opus (correlated)",
+    "Bias-values r=0.288 for sonnet (independent)"
+  ]
+}

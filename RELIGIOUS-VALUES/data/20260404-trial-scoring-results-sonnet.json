@@ -1,0 +1,151 @@
+{
+  "generated": "2026-04-04",
+  "model": "sonnet",
+  "total_items": 65,
+  "response_length_by_type": {
+    "bias": {
+      "n": 10,
+      "mean": 3669.4,
+      "median": 3822.0,
+      "stdev": 974.2,
+      "min": 1927,
+      "max": 5457
+    },
+    "knowledge": {
+      "n": 15,
+      "mean": 1771.1,
+      "median": 1699,
+      "stdev": 727.6,
+      "min": 868,
+      "max": 3255
+    },
+    "reasoning": {
+      "n": 15,
+      "mean": 5194.1,
+      "median": 5316,
+      "stdev": 1048.3,
+      "min": 2472,
+      "max": 6398
+    },
+    "values": {
+      "n": 25,
+      "mean": 6363.8,
+      "median": 6106,
+      "stdev": 1144.9,
+      "min": 4905,
+      "max": 9709
+    }
+  },
+  "response_length_by_tradition_type": {
+    "Christianity_bias": {
+      "n": 3,
+      "mean": 3904.7,
+      "median": 3946
+    },
+    "Christianity_knowledge": {
+      "n": 5,
+      "mean": 1420.6,
+      "median": 1174
+    },
+    "Christianity_reasoning": {
+      "n": 5,
+      "mean": 5625.6,
+      "median": 5316
+    },
+    "Christianity_values": {
+      "n": 8,
+      "mean": 5693.5,
+      "median": 5507.0
+    },
+    "Hinduism_bias": {
+      "n": 3,
+      "mean": 4084.7,
+      "median": 4113
+    },
+    "Hinduism_knowledge": {
+      "n": 5,
+      "mean": 2556.6,
+      "median": 2745
+    },
+    "Hinduism_reasoning": {
+      "n": 5,
+      "mean": 5598.6,
+      "median": 5484
+    },
+    "Hinduism_values": {
+      "n": 8,
+      "mean": 6579.5,
+      "median": 6083.0
+    },
+    "Islam_bias": {
+      "n": 4,
+      "mean": 3181.5,
+      "median": 3462.0
+    },
+    "Islam_knowledge": {
+      "n": 5,
+      "mean": 1336.2,
+      "median": 1318
+    },
+    "Islam_reasoning": {
+      "n": 5,
+      "mean": 4358,
+      "median": 5060
+    },
+    "Islam_values": {
+      "n": 9,
+      "mean": 6767.8,
+      "median": 6736
+    }
+  },
+  "gradient_test": {
+    "hypothesis": "Knowledge < Reasoning < Values response length",
+    "knowledge_mean": 1771.1,
+    "reasoning_mean": 5194.1,
+    "values_mean": 6363.8,
+    "gradient_holds": true,
+    "reasoning_to_knowledge_ratio": 2.93,
+    "values_to_knowledge_ratio": 3.59,
+    "values_to_reasoning_ratio": 1.23
+  },
+  "tradition_specific_gradients": {
+    "Islam": {
+      "hypothesis": "Knowledge < Reasoning < Values response length",
+      "knowledge_mean": 1336.2,
+      "reasoning_mean": 4358,
+      "values_mean": 6767.8,
+      "gradient_holds": true,
+      "reasoning_to_knowledge_ratio": 3.26,
+      "values_to_knowledge_ratio": 5.06,
+      "values_to_reasoning_ratio": 1.55
+    },
+    "Christianity": {
+      "hypothesis": "Knowledge < Reasoning < Values response length",
+      "knowledge_mean": 1420.6,
+      "reasoning_mean": 5625.6,
+      "values_mean": 5693.5,
+      "gradient_holds": true,
+      "reasoning_to_knowledge_ratio": 3.96,
+      "values_to_knowledge_ratio": 4.01,
+      "values_to_reasoning_ratio": 1.01
+    },
+    "Hinduism": {
+      "hypothesis": "Knowledge < Reasoning < Values response length",
+      "knowledge_mean": 2556.6,
+      "reasoning_mean": 5598.6,
+      "values_mean": 6579.5,
+      "gradient_holds": true,
+      "reasoning_to_knowledge_ratio": 2.19,
+      "values_to_knowledge_ratio": 2.57,
+      "values_to_reasoning_ratio": 1.18
+    }
+  },
+  "bias_values_independence": {
+    "hypothesis": "Bias avoidance and values reasoning are independent (r < 0.3)",
+    "n_pairs": 10,
+    "bias_mean_length": 3669.4,
+    "values_mean_length": 6839.7,
+    "pearson_r": 0.288,
+    "constructs_independent": true
+  }
+}

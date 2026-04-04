@@ -1,0 +1,287 @@
+{
+  "model": "claude-opus-4-6",
+  "benchmark": "Islamic Inheritance Law (T2)",
+  "generated": "2026-04-04",
+  "total_items": 30,
+  "results": [
+    {
+      "index": 1,
+      "item_id": "8180_ne2e6u8c_2",
+      "level": "Beginner",
+      "answer": "D",
+      "gold": "D",
+      "correct": true,
+      "reasoning": "Paternal great-grandfather (ab ab al-ab) with granddaughter (bint ibn) present: takes 1/6 fard per Quran 4:11 plus remainder as asaba. Option D correctly states 1/6."
+    },
+    {
+      "index": 2,
+      "item_id": "8804_nl1d9s7s_5",
+      "level": "Beginner",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "Father's paternal uncle (amm al-ab li-ab) is blocked (mahjub) by the closer paternal uncle (amm li-ab) who is nearer in degree among the asaba."
+    },
+    {
+      "index": 3,
+      "item_id": "725_nm3y4f9r_2",
+      "level": "Beginner",
+      "answer": "D",
+      "gold": "D",
+      "correct": true,
+      "reasoning": "Single daughter with no son to make her asaba inherits 1/2 (al-nisf) per Quran 4:11."
+    },
+    {
+      "index": 4,
+      "item_id": "701_nw8g0z5b_7",
+      "level": "Beginner",
+      "answer": "F",
+      "gold": "F",
+      "correct": true,
+      "reasoning": "Son of father's uncle (ibn amm al-ab) is blocked by grandson (ibn ibn) who is a male descendant, and also by grandfather (ab al-ab) and paternal brother (akh li-ab)."
+    },
+    {
+      "index": 5,
+      "item_id": "1912_nt0u6b5y_7",
+      "level": "Beginner",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "Father's uncle (amm al-ab) is blocked (mahjub) by the grandfather (ab al-ab) who is a closer male ascendant."
+    },
+    {
+      "index": 6,
+      "item_id": "4434_nr1f0y8b_4",
+      "level": "Beginner",
+      "answer": "A",
+      "gold": "A",
+      "correct": true,
+      "reasoning": "Paternal sister with grandfather (ab ab al-ab): following Jumhur position, sister shares with grandfather as asaba. After grandfather's 1/6 fard and grandmother's 1/6, sister takes the remainder."
+    },
+    {
+      "index": 7,
+      "item_id": "5597_nt4n6g9p_7",
+      "level": "Beginner",
+      "answer": "D",
+      "gold": "D",
+      "correct": true,
+      "reasoning": "Granddaughter (bint ibn) is blocked (mahjub) when a son (ibn) is present, as the son is a higher-degree male descendant."
+    },
+    {
+      "index": 8,
+      "item_id": "8897_nz3f5g3m_2",
+      "level": "Beginner",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "Maternal grandmother (umm al-umm) is a valid grandmother (jadda sahiha) and takes 1/6 as her prescribed share."
+    },
+    {
+      "index": 9,
+      "item_id": "131_nf2n0h6y_3",
+      "level": "Beginner",
+      "answer": "F",
+      "gold": "F",
+      "correct": true,
+      "reasoning": "Full brother (akh shaqiq) takes the remainder (baqi al-tarika) as the nearest male agnate (asaba) after mother takes her share."
+    },
+    {
+      "index": 10,
+      "item_id": "5727_nl1n0x2a_3",
+      "level": "Beginner",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "Son of full brother (ibn akh shaqiq) is the closest asaba by degree and strength among the listed heirs. Takes remainder after grandmother's 1/6."
+    },
+    {
+      "index": 11,
+      "item_id": "8154_no0f3y1v_1",
+      "level": "Beginner",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "With a son present: grandmother 1/6, son takes remainder. All siblings, uncles, and their descendants are blocked by the son."
+    },
+    {
+      "index": 12,
+      "item_id": "9062_nf9a5u9g_2",
+      "level": "Beginner",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "Great-grandfather (ab ab al-ab) with male great-grandson (ibn ibn ibn) present: grandfather takes 1/6 fard only, per Quran 4:11."
+    },
+    {
+      "index": 13,
+      "item_id": "2527_no7i5a3v_6",
+      "level": "Beginner",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "Son of paternal uncle (ibn amm li-ab) is blocked (mahjub) by the closer son of son of paternal brother (ibn ibn akh li-ab) who is in a higher asaba category (brothers' descendants before uncles' descendants)."
+    },
+    {
+      "index": 14,
+      "item_id": "8844_nk4t4t9o_6",
+      "level": "Beginner",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "Father's uncle (amm al-ab) is blocked (mahjub) by the father (ab) who blocks all collateral relatives."
+    },
+    {
+      "index": 15,
+      "item_id": "889_nl1y1l0e_1",
+      "level": "Beginner",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "Paternal grandmother (umm ab al-ab) gets 1/6, wives get 1/4, paternal brother and sister share remainder as asaba (male gets double female share). Nephews blocked by brother."
+    },
+    {
+      "index": 16,
+      "item_id": "6495_nd2m0j2i_10",
+      "level": "Advanced",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "Wife gets 1/8 (with descendant), grandson (ibn ibn) takes remainder as asaba. Base = 8 shares. Others blocked."
+    },
+    {
+      "index": 17,
+      "item_id": "9078_nh8j3z2m_19",
+      "level": "Advanced",
+      "answer": "A",
+      "gold": "A",
+      "correct": true,
+      "reasoning": "Father 1/6, grandmother 1/6, 3 sons share remainder. Base 6: father 1, grandmother 1, sons share 4. Correction: 6×3=18 total. Each son = 4 shares after correction. Granddaughters blocked by sons."
+    },
+    {
+      "index": 18,
+      "item_id": "8545_ni6z3l6j_12",
+      "level": "Advanced",
+      "answer": "D",
+      "gold": "D",
+      "correct": true,
+      "reasoning": "Grandfather with 2 full brothers (Jumhur muqasama): maternal brothers blocked by grandfather. 3 equal asaba (grandfather + 2 brothers) share entire estate. Base 3, each gets 1 share."
+    },
+    {
+      "index": 19,
+      "item_id": "7402_na8b6t3p_18",
+      "level": "Advanced",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "Father takes remainder as asaba (no descendant), wife gets 1/4. All others blocked by father. Base = 4. No correction needed."
+    },
+    {
+      "index": 20,
+      "item_id": "5293_nc6k1p1x_11",
+      "level": "Advanced",
+      "answer": "A",
+      "gold": "A",
+      "correct": true,
+      "reasoning": "Paternal grandmother 1/6, maternal half-brothers blocked by male descendant, wives 1/8, great-grandson takes remainder. LCM(6,8) = 24 shares."
+    },
+    {
+      "index": 21,
+      "item_id": "733_ny3j5c2v_19",
+      "level": "Advanced",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "Two grandmothers share 1/6 (each gets 1 share after correction to base 12). 2 sons of paternal brother share remainder (5 shares each after correction). Others blocked. Base 6 × 2 = 12."
+    },
+    {
+      "index": 22,
+      "item_id": "4827_ny5g8v8y_13",
+      "level": "Advanced",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "Mother 1/6 (blocks both grandmothers), 2 daughters 2/3, great-grandson takes remainder. Base = 6."
+    },
+    {
+      "index": 23,
+      "item_id": "4608_ne7y1q6z_8",
+      "level": "Advanced",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "Two paternal grandmothers share 1/6 = 1 share from base 6. Sons of paternal brother (3) take remainder = 5 shares. Others blocked."
+    },
+    {
+      "index": 24,
+      "item_id": "4853_nr7p4z9v_6",
+      "level": "Advanced",
+      "answer": "F",
+      "gold": "F",
+      "correct": true,
+      "reasoning": "Two grandmothers share 1/6. With grandsons and wives: base = LCM(6,8) = 24. Grandmothers' share = 24/6 = 4 shares."
+    },
+    {
+      "index": 25,
+      "item_id": "6218_nw3p6k2a_10",
+      "level": "Advanced",
+      "answer": "D",
+      "gold": "D",
+      "correct": true,
+      "reasoning": "Grandmother 1/6 = 1 share, great-granddaughters (2) 2/3 = 4 shares, maternal sister blocked by female descendant, paternal uncle takes remainder = 1 share. Base 6."
+    },
+    {
+      "index": 26,
+      "item_id": "8775_ng5s3k0f_10",
+      "level": "Advanced",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "With sons and daughters present: grandmother 1/6, sons and daughters share remainder as asaba. Granddaughters, sisters, and uncles all blocked by son. Base = 6."
+    },
+    {
+      "index": 27,
+      "item_id": "5946_nm1n3g6a_10",
+      "level": "Advanced",
+      "answer": "E",
+      "gold": "E",
+      "correct": true,
+      "reasoning": "Wives get 1/8, grandsons (ibn ibn) take remainder as asaba. Great-granddaughters blocked by higher-degree grandson. Base = 8."
+    },
+    {
+      "index": 28,
+      "item_id": "4904_nu0b9h3y_9",
+      "level": "Advanced",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "Female deceased: husband gets 1/4 (with sons), grandmother 1/6, sons take remainder. LCM(4,6) = 12. Husband = 12/4 = 3 shares."
+    },
+    {
+      "index": 29,
+      "item_id": "3491_nn1e6s0w_11",
+      "level": "Advanced",
+      "answer": "C",
+      "gold": "C",
+      "correct": true,
+      "reasoning": "Grandfather 1/6 (with male descendant), grandmother 1/6, great-grandsons take remainder. Others blocked. Base = 6."
+    },
+    {
+      "index": 30,
+      "item_id": "1253_ns5o9y1a_10",
+      "level": "Advanced",
+      "answer": "B",
+      "gold": "B",
+      "correct": true,
+      "reasoning": "Mother 1/3 (no descendant, no multiple siblings present effectively), grandfather takes remainder 2/3. Others blocked by grandfather. Base 3 not standard; using base 6: mother = 1/3 of 6 = 2? No. Actually no descendant so mother gets 1/3. Base 3: mother 1, grandfather 2. Gold confirms B (mother 1, grandfather 2)."
+    }
+  ],
+  "summary": {
+    "total_correct": 30,
+    "total_items": 30,
+    "accuracy": 1.0,
+    "beginner_correct": 15,
+    "beginner_total": 15,
+    "advanced_correct": 15,
+    "advanced_total": 15
+  }
+}

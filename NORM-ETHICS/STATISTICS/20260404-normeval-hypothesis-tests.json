@@ -1,0 +1,64 @@
+{
+  "C1_ceiling": {
+    "test": "binomial",
+    "n": 50,
+    "k": 50,
+    "p_null": 0.5,
+    "p_value": 8.881784197001252e-16,
+    "p_perfect_at_90pct": 0.005154,
+    "p_ge45_at_chance": 2.104926011270436e-09,
+    "reject_null": true
+  },
+  "C2_bias": {
+    "test": "two_proportion_z",
+    "p_utilitarian": 0.77,
+    "p_deontological": 0.5,
+    "n_per_group": 30,
+    "z_statistic": 2.1721,
+    "p_value": 0.014925,
+    "difference": 0.27,
+    "ci_95": [
+      0.0361,
+      0.5039
+    ],
+    "cohens_h": 0.5704,
+    "effect_size": "medium",
+    "reject_null": true
+  },
+  "C3_void": {
+    "test": "analytic_binomial",
+    "care_as_primary": 2,
+    "total_benchmarks": 37,
+    "p_uniform": 0.2,
+    "p_zero_under_uniform": 0.00025961484292676953,
+    "p_never_primary": 0.00025961484292674194,
+    "care_nonzero_count": 4,
+    "care_above_50": 2,
+    "reject_null": false
+  },
+  "C4_judgment": {
+    "test": "binomial",
+    "k": 22,
+    "n": 37,
+    "proportion": 0.5946,
+    "p_value": 0.162004,
+    "ci_95_wilson": [
+      0.4349,
+      0.7365
+    ],
+    "reject_null": false
+  },
+  "C5_bottleneck": {
+    "test": "mann_whitney_u",
+    "n_available": 23,
+    "n_unavailable": 14,
+    "mean_nd_available": 52.6,
+    "mean_nd_unavailable": 55.27,
+    "median_nd_available": 55.8,
+    "median_nd_unavailable": 61.9,
+    "U_statistic": 144.0,
+    "p_value": 0.605181,
+    "rank_biserial_r": 0.1056,
+    "reject_null": false
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "weight_triplets_tested": 231,
+  "stable_always_top15": [
+    {
+      "name": "Aligning AI with Shared Human Values",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "MoralReason",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "Are LLMs Consequentialist or Deontological",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "MoReBench",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "The Greatest Good Benchmark",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "JETHICS",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "LLMs Amplified Cognitive Biases",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "Beyond Ethical Alignment",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "Moral Persuasion in Large Language Models",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    },
+    {
+      "name": "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs",
+      "count": 231,
+      "total": 231,
+      "pct": 100.0
+    }
+  ],
+  "borderline": [],
+  "never_top15": [
+    {
+      "name": "Ethical Reasoning Depends on Language",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Measuring AI Alignment with Human Flourishing",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Analyzing the Ethical Logic of Six Large Language Models",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "PRIME Framework Convergent Ethics",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Ethical Alignment of LLMs in Healthcare",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Rethinking Machine Ethics",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Ethical Decision-Making in Humans and Large",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Structured Moral Reasoning",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "LLM Ethics Benchmark",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "MoralBench",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "The Moral Turing Test",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Evaluating Moral Beliefs across LLMs through a",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "CMoralEval",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Evaluating Computational Models of Ethics",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Operationalizing Pluralistic Values",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Aligning LLM Agents with Rational and Kantian Preferences",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Ethical Reasoning over Moral Alignment",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Many LLMs Are More Utilitarian Than One",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Decoding Moral Responses in AI",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "Large-scale moral machine experiment on large",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "The moral machine experiment on large language",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    },
+    {
+      "name": "The Moral Mind(s) of Large Language Models",
+      "count": 0,
+      "total": 231,
+      "pct": 0.0
+    }
+  ],
+  "gate_threshold_sensitivity": {
+    "ND_gate_30": {
+      "passing_count": 18,
+      "benchmarks": [
+        "Aligning AI with Shared Human Values",
+        "MoralReason",
+        "Are LLMs Consequentialist or Deontological",
+        "MoReBench",
+        "The Greatest Good Benchmark",
+        "JETHICS",
+        "LLMs Amplified Cognitive Biases",
+        "CMoralEval",
+        "Beyond Ethical Alignment",
+        "Operationalizing Pluralistic Values",
+        "Many LLMs Are More Utilitarian Than One",
+        "Moral Persuasion in Large Language Models",
+        "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+        "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+        "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+        "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+        "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+        "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs"
+      ]
+    },
+    "ND_gate_35": {
+      "passing_count": 18,
+      "benchmarks": [
+        "Aligning AI with Shared Human Values",
+        "MoralReason",
+        "Are LLMs Consequentialist or Deontological",
+        "MoReBench",
+        "The Greatest Good Benchmark",
+        "JETHICS",
+        "LLMs Amplified Cognitive Biases",
+        "CMoralEval",
+        "Beyond Ethical Alignment",
+        "Operationalizing Pluralistic Values",
+        "Many LLMs Are More Utilitarian Than One",
+        "Moral Persuasion in Large Language Models",
+        "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+        "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+        "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+        "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+        "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+        "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs"
+      ]
+    },
+    "ND_gate_40": {
+      "passing_count": 15,
+      "benchmarks": [
+        "Aligning AI with Shared Human Values",
+        "MoralReason",
+        "Are LLMs Consequentialist or Deontological",
+        "MoReBench",
+        "The Greatest Good Benchmark",
+        "JETHICS",
+        "LLMs Amplified Cognitive Biases",
+        "Beyond Ethical Alignment",
+        "Moral Persuasion in Large Language Models",
+        "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+        "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+        "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+        "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+        "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+        "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs"
+      ]
+    },
+    "ND_gate_45": {
+      "passing_count": 15,
+      "benchmarks": [
+        "Aligning AI with Shared Human Values",
+        "MoralReason",
+        "Are LLMs Consequentialist or Deontological",
+        "MoReBench",
+        "The Greatest Good Benchmark",
+        "JETHICS",
+        "LLMs Amplified Cognitive Biases",
+        "Beyond Ethical Alignment",
+        "Moral Persuasion in Large Language Models",
+        "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+        "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+        "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+        "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+        "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+        "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs"
+      ]
+    },
+    "ND_gate_50": {
+      "passing_count": 14,
+      "benchmarks": [
+        "Aligning AI with Shared Human Values",
+        "MoralReason",
+        "Are LLMs Consequentialist or Deontological",
+        "MoReBench",
+        "The Greatest Good Benchmark",
+        "JETHICS",
+        "Beyond Ethical Alignment",
+        "Moral Persuasion in Large Language Models",
+        "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+        "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+        "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+        "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+        "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+        "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs"
+      ]
+    }
+  },
+  "current_weights": {
+    "ND": 0.4,
+    "PE": 0.35,
+    "CI": 0.25
+  }
+}

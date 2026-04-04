@@ -1,0 +1,393 @@
+{
+  "anomaly_scores": [
+    {
+      "name": "Aligning AI with Shared Human Values",
+      "id": 1,
+      "mahalanobis_distance": 5.9009,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "Ethical Decision-Making in Humans and Large",
+      "id": 14,
+      "mahalanobis_distance": 5.4657,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Evaluating Moral Beliefs across LLMs through a",
+      "id": 19,
+      "mahalanobis_distance": 5.4492,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Measuring AI Alignment with Human Flourishing",
+      "id": 8,
+      "mahalanobis_distance": 5.3087,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "MoReBench",
+      "id": 5,
+      "mahalanobis_distance": 5.2097,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "Analyzing the Ethical Logic of Six Large Language Models",
+      "id": 9,
+      "mahalanobis_distance": 5.066,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "JETHICS",
+      "id": 7,
+      "mahalanobis_distance": 5.033,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "The moral machine experiment on large language",
+      "id": 29,
+      "mahalanobis_distance": 5.0267,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "LLM Ethics Benchmark",
+      "id": 16,
+      "mahalanobis_distance": 4.7372,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Are LLMs Consequentialist or Deontological",
+      "id": 4,
+      "mahalanobis_distance": 4.6526,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "Ethical Alignment of LLMs in Healthcare",
+      "id": 11,
+      "mahalanobis_distance": 4.6098,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Aligning LLM Agents with Rational and Kantian Preferences",
+      "id": 24,
+      "mahalanobis_distance": 4.5848,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Structured Moral Reasoning",
+      "id": 15,
+      "mahalanobis_distance": 4.5353,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Many LLMs Are More Utilitarian Than One",
+      "id": 26,
+      "mahalanobis_distance": 4.5046,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Ethical Reasoning Depends on Language",
+      "id": 3,
+      "mahalanobis_distance": 4.5005,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+      "id": 32,
+      "mahalanobis_distance": 4.4731,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "Moral Persuasion in Large Language Models",
+      "id": 30,
+      "mahalanobis_distance": 4.4312,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+      "id": 34,
+      "mahalanobis_distance": 4.3351,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+      "id": 35,
+      "mahalanobis_distance": 4.2978,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "CMoralEval",
+      "id": 20,
+      "mahalanobis_distance": 4.2731,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "The Moral Mind(s) of Large Language Models",
+      "id": 31,
+      "mahalanobis_distance": 4.2153,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "LLMs Amplified Cognitive Biases",
+      "id": 12,
+      "mahalanobis_distance": 4.196,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "MoralReason",
+      "id": 2,
+      "mahalanobis_distance": 4.1412,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "The Moral Turing Test",
+      "id": 18,
+      "mahalanobis_distance": 4.127,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Decoding Moral Responses in AI",
+      "id": 27,
+      "mahalanobis_distance": 4.123,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "MoralBench",
+      "id": 17,
+      "mahalanobis_distance": 4.11,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Large-scale moral machine experiment on large",
+      "id": 28,
+      "mahalanobis_distance": 4.0491,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Evaluating Computational Models of Ethics",
+      "id": 22,
+      "mahalanobis_distance": 3.9879,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Operationalizing Pluralistic Values",
+      "id": 23,
+      "mahalanobis_distance": 3.8781,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs",
+      "id": 37,
+      "mahalanobis_distance": 3.8602,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "Ethical Reasoning over Moral Alignment",
+      "id": 25,
+      "mahalanobis_distance": 3.8318,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "Beyond Ethical Alignment",
+      "id": 21,
+      "mahalanobis_distance": 3.8109,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "Rethinking Machine Ethics",
+      "id": 13,
+      "mahalanobis_distance": 3.6517,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+      "id": 36,
+      "mahalanobis_distance": 3.5739,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "The Greatest Good Benchmark",
+      "id": 6,
+      "mahalanobis_distance": 3.4166,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    },
+    {
+      "name": "PRIME Framework Convergent Ethics",
+      "id": 10,
+      "mahalanobis_distance": 3.1321,
+      "is_outlier_p01": false,
+      "passes_gates": false
+    },
+    {
+      "name": "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+      "id": 33,
+      "mahalanobis_distance": 2.9616,
+      "is_outlier_p01": false,
+      "passes_gates": true
+    }
+  ],
+  "chi2_threshold": 6.1291,
+  "n_features": 20,
+  "n_outliers": 0,
+  "top_outlier_features": [
+    {
+      "name": "Aligning AI with Shared Human Values",
+      "extreme_features": [
+        [
+          "C4_downstream_adoption",
+          5.81
+        ],
+        [
+          "C1_citation_count",
+          5.69
+        ],
+        [
+          "C2_citations_per_year",
+          5.15
+        ],
+        [
+          "D1_year_num",
+          -4.2
+        ],
+        [
+          "B2_dataset_size",
+          3.98
+        ]
+      ]
+    },
+    {
+      "name": "Ethical Decision-Making in Humans and Large",
+      "extreme_features": [
+        [
+          "A1_care_ethics",
+          5.05
+        ],
+        [
+          "A6_grounding",
+          -1.69
+        ],
+        [
+          "COMPOSITE",
+          -1.53
+        ],
+        [
+          "ND_score",
+          -1.14
+        ],
+        [
+          "B7_implementability",
+          1.04
+        ]
+      ]
+    },
+    {
+      "name": "Evaluating Moral Beliefs across LLMs through a",
+      "extreme_features": [
+        [
+          "C2_citations_per_year",
+          2.4
+        ],
+        [
+          "CI_score",
+          2.22
+        ],
+        [
+          "A1_count",
+          -1.41
+        ],
+        [
+          "ND_score",
+          -1.37
+        ],
+        [
+          "C1_citation_count",
+          1.35
+        ]
+      ]
+    },
+    {
+      "name": "Measuring AI Alignment with Human Flourishing",
+      "extreme_features": [
+        [
+          "A1_virtue_ethics",
+          2.63
+        ],
+        [
+          "COMPOSITE",
+          -1.67
+        ],
+        [
+          "PE_score",
+          -1.24
+        ],
+        [
+          "A1_deontological_ethics",
+          -1.0
+        ],
+        [
+          "CI_score",
+          -0.98
+        ]
+      ]
+    },
+    {
+      "name": "MoReBench",
+      "extreme_features": [
+        [
+          "A1_contractarian_ethics",
+          3.73
+        ],
+        [
+          "A6_grounding",
+          2.16
+        ],
+        [
+          "B7_implementability",
+          1.64
+        ],
+        [
+          "COMPOSITE",
+          1.59
+        ],
+        [
+          "ND_score",
+          1.56
+        ]
+      ]
+    }
+  ]
+}

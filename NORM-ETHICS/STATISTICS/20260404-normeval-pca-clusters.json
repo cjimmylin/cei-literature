@@ -1,0 +1,427 @@
+{
+  "pca_benchmarks": [
+    {
+      "name": "Aligning AI with Shared Human Values",
+      "id": 1,
+      "pc1": 12.458,
+      "pc2": -2.4668,
+      "pc3": -1.6225,
+      "passes_gates": true,
+      "COMPOSITE": 77.2
+    },
+    {
+      "name": "MoralReason",
+      "id": 2,
+      "pc1": 0.6454,
+      "pc2": 2.3574,
+      "pc3": 2.1303,
+      "passes_gates": true,
+      "COMPOSITE": 65.5
+    },
+    {
+      "name": "Ethical Reasoning Depends on Language",
+      "id": 3,
+      "pc1": 0.6426,
+      "pc2": 0.489,
+      "pc3": -1.6806,
+      "passes_gates": false,
+      "COMPOSITE": 48.9
+    },
+    {
+      "name": "Are LLMs Consequentialist or Deontological",
+      "id": 4,
+      "pc1": 0.4156,
+      "pc2": 1.4514,
+      "pc3": 1.3818,
+      "passes_gates": true,
+      "COMPOSITE": 63.5
+    },
+    {
+      "name": "MoReBench",
+      "id": 5,
+      "pc1": 1.2359,
+      "pc2": 5.1857,
+      "pc3": 1.265,
+      "passes_gates": true,
+      "COMPOSITE": 70.2
+    },
+    {
+      "name": "The Greatest Good Benchmark",
+      "id": 6,
+      "pc1": -0.099,
+      "pc2": 0.4406,
+      "pc3": -0.0316,
+      "passes_gates": true,
+      "COMPOSITE": 54.2
+    },
+    {
+      "name": "JETHICS",
+      "id": 7,
+      "pc1": 2.1847,
+      "pc2": 1.7728,
+      "pc3": 1.7741,
+      "passes_gates": true,
+      "COMPOSITE": 59.4
+    },
+    {
+      "name": "Measuring AI Alignment with Human Flourishing",
+      "id": 8,
+      "pc1": -1.7292,
+      "pc2": -0.7859,
+      "pc3": -1.2565,
+      "passes_gates": false,
+      "COMPOSITE": 31.4
+    },
+    {
+      "name": "Analyzing the Ethical Logic of Six Large Language Models",
+      "id": 9,
+      "pc1": 0.2065,
+      "pc2": 2.866,
+      "pc3": -1.7243,
+      "passes_gates": false,
+      "COMPOSITE": 45.2
+    },
+    {
+      "name": "PRIME Framework Convergent Ethics",
+      "id": 10,
+      "pc1": -1.4423,
+      "pc2": 0.6987,
+      "pc3": -1.4183,
+      "passes_gates": false,
+      "COMPOSITE": 42.8
+    },
+    {
+      "name": "Ethical Alignment of LLMs in Healthcare",
+      "id": 11,
+      "pc1": -0.5675,
+      "pc2": -0.0943,
+      "pc3": -2.6148,
+      "passes_gates": false,
+      "COMPOSITE": 37.3
+    },
+    {
+      "name": "LLMs Amplified Cognitive Biases",
+      "id": 12,
+      "pc1": 0.1865,
+      "pc2": 0.4574,
+      "pc3": -1.2368,
+      "passes_gates": true,
+      "COMPOSITE": 52.8
+    },
+    {
+      "name": "Rethinking Machine Ethics",
+      "id": 13,
+      "pc1": 0.0977,
+      "pc2": 0.7187,
+      "pc3": -1.7941,
+      "passes_gates": false,
+      "COMPOSITE": 50.8
+    },
+    {
+      "name": "Ethical Decision-Making in Humans and Large",
+      "id": 14,
+      "pc1": -1.9047,
+      "pc2": -0.1104,
+      "pc3": -1.4436,
+      "passes_gates": false,
+      "COMPOSITE": 33.1
+    },
+    {
+      "name": "Structured Moral Reasoning",
+      "id": 15,
+      "pc1": 0.0208,
+      "pc2": 3.5194,
+      "pc3": -0.7593,
+      "passes_gates": false,
+      "COMPOSITE": 58.6
+    },
+    {
+      "name": "LLM Ethics Benchmark",
+      "id": 16,
+      "pc1": -0.2072,
+      "pc2": -2.0962,
+      "pc3": 2.7063,
+      "passes_gates": false,
+      "COMPOSITE": 50.4
+    },
+    {
+      "name": "MoralBench",
+      "id": 17,
+      "pc1": -0.2465,
+      "pc2": -2.4126,
+      "pc3": 1.4463,
+      "passes_gates": false,
+      "COMPOSITE": 49.3
+    },
+    {
+      "name": "The Moral Turing Test",
+      "id": 18,
+      "pc1": -1.9483,
+      "pc2": -1.6098,
+      "pc3": -1.8449,
+      "passes_gates": false,
+      "COMPOSITE": 28.2
+    },
+    {
+      "name": "Evaluating Moral Beliefs across LLMs through a",
+      "id": 19,
+      "pc1": 2.1041,
+      "pc2": -3.268,
+      "pc3": -0.3479,
+      "passes_gates": false,
+      "COMPOSITE": 52.3
+    },
+    {
+      "name": "CMoralEval",
+      "id": 20,
+      "pc1": 1.5427,
+      "pc2": 0.1665,
+      "pc3": 2.6603,
+      "passes_gates": false,
+      "COMPOSITE": 57.2
+    },
+    {
+      "name": "Beyond Ethical Alignment",
+      "id": 21,
+      "pc1": -1.0249,
+      "pc2": -0.1335,
+      "pc3": 1.3288,
+      "passes_gates": true,
+      "COMPOSITE": 61.7
+    },
+    {
+      "name": "Evaluating Computational Models of Ethics",
+      "id": 22,
+      "pc1": -0.5653,
+      "pc2": 1.6486,
+      "pc3": -2.1439,
+      "passes_gates": false,
+      "COMPOSITE": 42.8
+    },
+    {
+      "name": "Operationalizing Pluralistic Values",
+      "id": 23,
+      "pc1": -1.142,
+      "pc2": -1.6755,
+      "pc3": 1.7188,
+      "passes_gates": false,
+      "COMPOSITE": 50.1
+    },
+    {
+      "name": "Aligning LLM Agents with Rational and Kantian Preferences",
+      "id": 24,
+      "pc1": -0.8371,
+      "pc2": 1.0085,
+      "pc3": -0.94,
+      "passes_gates": false,
+      "COMPOSITE": 45.5
+    },
+    {
+      "name": "Ethical Reasoning over Moral Alignment",
+      "id": 25,
+      "pc1": 1.0747,
+      "pc2": 1.2615,
+      "pc3": -2.0101,
+      "passes_gates": false,
+      "COMPOSITE": 54.4
+    },
+    {
+      "name": "Many LLMs Are More Utilitarian Than One",
+      "id": 26,
+      "pc1": -1.385,
+      "pc2": -0.7607,
+      "pc3": -0.0833,
+      "passes_gates": false,
+      "COMPOSITE": 48.8
+    },
+    {
+      "name": "Decoding Moral Responses in AI",
+      "id": 27,
+      "pc1": -2.9837,
+      "pc2": -2.7265,
+      "pc3": -1.5031,
+      "passes_gates": false,
+      "COMPOSITE": 22.8
+    },
+    {
+      "name": "Large-scale moral machine experiment on large",
+      "id": 28,
+      "pc1": -0.9151,
+      "pc2": -2.6565,
+      "pc3": 0.559,
+      "passes_gates": false,
+      "COMPOSITE": 42.4
+    },
+    {
+      "name": "The moral machine experiment on large language",
+      "id": 29,
+      "pc1": -0.2124,
+      "pc2": -3.2751,
+      "pc3": 0.7173,
+      "passes_gates": false,
+      "COMPOSITE": 44.8
+    },
+    {
+      "name": "Moral Persuasion in Large Language Models",
+      "id": 30,
+      "pc1": 1.1678,
+      "pc2": 1.5699,
+      "pc3": 2.1245,
+      "passes_gates": true,
+      "COMPOSITE": 67.6
+    },
+    {
+      "name": "The Moral Mind(s) of Large Language Models",
+      "id": 31,
+      "pc1": -1.7877,
+      "pc2": -0.8905,
+      "pc3": -1.1027,
+      "passes_gates": false,
+      "COMPOSITE": 40.1
+    },
+    {
+      "name": "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+      "id": 32,
+      "pc1": -0.5141,
+      "pc2": -0.3909,
+      "pc3": 0.9045,
+      "passes_gates": true,
+      "COMPOSITE": 59.0
+    },
+    {
+      "name": "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+      "id": 33,
+      "pc1": -0.394,
+      "pc2": 1.0012,
+      "pc3": 1.3263,
+      "passes_gates": true,
+      "COMPOSITE": 67.9
+    },
+    {
+      "name": "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+      "id": 34,
+      "pc1": -0.7699,
+      "pc2": 0.8279,
+      "pc3": 0.5329,
+      "passes_gates": true,
+      "COMPOSITE": 59.3
+    },
+    {
+      "name": "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+      "id": 35,
+      "pc1": -0.9721,
+      "pc2": -1.0923,
+      "pc3": 1.1026,
+      "passes_gates": true,
+      "COMPOSITE": 54.6
+    },
+    {
+      "name": "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+      "id": 36,
+      "pc1": -0.7892,
+      "pc2": -0.0897,
+      "pc3": 0.8597,
+      "passes_gates": true,
+      "COMPOSITE": 56.1
+    },
+    {
+      "name": "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs",
+      "id": 37,
+      "pc1": -1.5459,
+      "pc2": -0.9058,
+      "pc3": 1.0198,
+      "passes_gates": true,
+      "COMPOSITE": 51.6
+    }
+  ],
+  "loadings": [
+    {
+      "component": "PC1",
+      "variance_explained": 0.2812,
+      "top_features": [
+        {
+          "feature": "C1_citation_count",
+          "loading": 0.3797
+        },
+        {
+          "feature": "C4_downstream_adoption",
+          "loading": 0.3788
+        },
+        {
+          "feature": "C2_citations_per_year",
+          "loading": 0.3686
+        },
+        {
+          "feature": "D1_year_num",
+          "loading": -0.3092
+        },
+        {
+          "feature": "CI_score",
+          "loading": 0.302
+        }
+      ]
+    },
+    {
+      "component": "PC2",
+      "variance_explained": 0.1774,
+      "top_features": [
+        {
+          "feature": "ND_score",
+          "loading": 0.4292
+        },
+        {
+          "feature": "A1_count",
+          "loading": 0.421
+        },
+        {
+          "feature": "A6_grounding",
+          "loading": 0.3843
+        },
+        {
+          "feature": "A1_contractarian_ethics",
+          "loading": 0.3291
+        },
+        {
+          "feature": "A1_deontological_ethics",
+          "loading": 0.2798
+        }
+      ]
+    },
+    {
+      "component": "PC3",
+      "variance_explained": 0.1168,
+      "top_features": [
+        {
+          "feature": "PE_score",
+          "loading": 0.5466
+        },
+        {
+          "feature": "B6_total_accessible",
+          "loading": 0.4256
+        },
+        {
+          "feature": "B7_implementability",
+          "loading": 0.4196
+        },
+        {
+          "feature": "COMPOSITE",
+          "loading": 0.3494
+        },
+        {
+          "feature": "A1_utilitarian_ethics",
+          "loading": -0.2276
+        }
+      ]
+    }
+  ],
+  "cumulative_variance": 0.5753,
+  "centroid_distance_top15_bottom22": 2.2801,
+  "nd_pe_regression": {
+    "slope": -0.0697,
+    "intercept": 57.8923,
+    "r_squared": 0.0057,
+    "p_value": 0.656242,
+    "std_err": 0.1553,
+    "outliers": []
+  }
+}

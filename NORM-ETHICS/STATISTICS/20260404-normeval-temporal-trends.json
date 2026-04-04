@@ -1,0 +1,308 @@
+{
+  "trend_correlations": {
+    "ND": {
+      "spearman_r": 0.0306,
+      "spearman_p": 0.857347,
+      "linear_slope": -0.5548,
+      "linear_intercept": 1176.85,
+      "linear_r_squared": 0.0005
+    },
+    "PE": {
+      "spearman_r": 0.0427,
+      "spearman_p": 0.801652,
+      "linear_slope": -0.5963,
+      "linear_intercept": 1268.52,
+      "linear_r_squared": 0.0005
+    },
+    "CI": {
+      "spearman_r": -0.3331,
+      "spearman_p": 0.04398,
+      "linear_slope": -10.205,
+      "linear_intercept": 20693.64,
+      "linear_r_squared": 0.4123
+    }
+  },
+  "year_distribution": [
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 13
+    },
+    {
+      "year": 2025,
+      "count": 21
+    },
+    {
+      "year": 2026,
+      "count": 1
+    }
+  ],
+  "benchmarks": [
+    {
+      "name": "Aligning AI with Shared Human Values",
+      "year": 2021,
+      "ND": 59.8,
+      "PE": 95.0,
+      "CI": 80.0
+    },
+    {
+      "name": "MoralReason",
+      "year": 2025,
+      "ND": 80.0,
+      "PE": 78.0,
+      "CI": 24.7
+    },
+    {
+      "name": "Ethical Reasoning Depends on Language",
+      "year": 2024,
+      "ND": 64.8,
+      "PE": 31.9,
+      "CI": 47.2
+    },
+    {
+      "name": "Are LLMs Consequentialist or Deontological",
+      "year": 2025,
+      "ND": 58.0,
+      "PE": 87.5,
+      "CI": 38.6
+    },
+    {
+      "name": "MoReBench",
+      "year": 2025,
+      "ND": 87.0,
+      "PE": 82.5,
+      "CI": 26.3
+    },
+    {
+      "name": "The Greatest Good Benchmark",
+      "year": 2024,
+      "ND": 53.0,
+      "PE": 75.3,
+      "CI": 26.4
+    },
+    {
+      "name": "JETHICS",
+      "year": 2025,
+      "ND": 55.8,
+      "PE": 87.5,
+      "CI": 25.7
+    },
+    {
+      "name": "Measuring AI Alignment with Human Flourishing",
+      "year": 2025,
+      "ND": 37.2,
+      "PE": 32.6,
+      "CI": 20.4
+    },
+    {
+      "name": "Analyzing the Ethical Logic of Six Large Language Models",
+      "year": 2025,
+      "ND": 67.8,
+      "PE": 34.1,
+      "CI": 24.7
+    },
+    {
+      "name": "PRIME Framework Convergent Ethics",
+      "year": 2025,
+      "ND": 61.8,
+      "PE": 34.1,
+      "CI": 24.7
+    },
+    {
+      "name": "Ethical Alignment of LLMs in Healthcare",
+      "year": 2024,
+      "ND": 42.8,
+      "PE": 28.8,
+      "CI": 40.5
+    },
+    {
+      "name": "LLMs Amplified Cognitive Biases",
+      "year": 2025,
+      "ND": 46.8,
+      "PE": 63.1,
+      "CI": 48.1
+    },
+    {
+      "name": "Rethinking Machine Ethics",
+      "year": 2024,
+      "ND": 72.0,
+      "PE": 27.5,
+      "CI": 49.6
+    },
+    {
+      "name": "Ethical Decision-Making in Humans and Large",
+      "year": 2025,
+      "ND": 29.2,
+      "PE": 43.0,
+      "CI": 25.4
+    },
+    {
+      "name": "Structured Moral Reasoning",
+      "year": 2025,
+      "ND": 83.0,
+      "PE": 43.0,
+      "CI": 41.5
+    },
+    {
+      "name": "LLM Ethics Benchmark",
+      "year": 2025,
+      "ND": 24.2,
+      "PE": 85.5,
+      "CI": 43.0
+    },
+    {
+      "name": "MoralBench",
+      "year": 2024,
+      "ND": 24.2,
+      "PE": 80.5,
+      "CI": 45.9
+    },
+    {
+      "name": "The Moral Turing Test",
+      "year": 2024,
+      "ND": 27.2,
+      "PE": 34.1,
+      "CI": 21.6
+    },
+    {
+      "name": "Evaluating Moral Beliefs across LLMs through a",
+      "year": 2024,
+      "ND": 24.2,
+      "PE": 76.9,
+      "CI": 62.9
+    },
+    {
+      "name": "CMoralEval",
+      "year": 2024,
+      "ND": 38.2,
+      "PE": 92.5,
+      "CI": 38.3
+    },
+    {
+      "name": "Beyond Ethical Alignment",
+      "year": 2025,
+      "ND": 71.0,
+      "PE": 76.9,
+      "CI": 25.4
+    },
+    {
+      "name": "Evaluating Computational Models of Ethics",
+      "year": 2024,
+      "ND": 70.0,
+      "PE": 27.4,
+      "CI": 20.7
+    },
+    {
+      "name": "Operationalizing Pluralistic Values",
+      "year": 2025,
+      "ND": 39.2,
+      "PE": 75.5,
+      "CI": 31.8
+    },
+    {
+      "name": "Aligning LLM Agents with Rational and Kantian Preferences",
+      "year": 2025,
+      "ND": 62.0,
+      "PE": 41.0,
+      "CI": 25.4
+    },
+    {
+      "name": "Ethical Reasoning over Moral Alignment",
+      "year": 2023,
+      "ND": 80.0,
+      "PE": 30.4,
+      "CI": 47.2
+    },
+    {
+      "name": "Many LLMs Are More Utilitarian Than One",
+      "year": 2025,
+      "ND": 39.8,
+      "PE": 76.2,
+      "CI": 24.7
+    },
+    {
+      "name": "Decoding Moral Responses in AI",
+      "year": 2025,
+      "ND": 20.2,
+      "PE": 28.1,
+      "CI": 19.7
+    },
+    {
+      "name": "Large-scale moral machine experiment on large",
+      "year": 2025,
+      "ND": 15.2,
+      "PE": 75.4,
+      "CI": 39.6
+    },
+    {
+      "name": "The moral machine experiment on large language",
+      "year": 2024,
+      "ND": 15.2,
+      "PE": 78.0,
+      "CI": 45.5
+    },
+    {
+      "name": "Moral Persuasion in Large Language Models",
+      "year": 2024,
+      "ND": 79.8,
+      "PE": 85.5,
+      "CI": 22.9
+    },
+    {
+      "name": "The Moral Mind(s) of Large Language Models",
+      "year": 2024,
+      "ND": 55.8,
+      "PE": 34.1,
+      "CI": 23.2
+    },
+    {
+      "name": "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+      "year": 2024,
+      "ND": 62.8,
+      "PE": 78.5,
+      "CI": 25.8
+    },
+    {
+      "name": "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+      "year": 2025,
+      "ND": 85.0,
+      "PE": 78.5,
+      "CI": 25.8
+    },
+    {
+      "name": "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+      "year": 2025,
+      "ND": 82.8,
+      "PE": 56.5,
+      "CI": 25.8
+    },
+    {
+      "name": "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+      "year": 2025,
+      "ND": 57.8,
+      "PE": 71.5,
+      "CI": 25.8
+    },
+    {
+      "name": "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+      "year": 2025,
+      "ND": 59.8,
+      "PE": 73.5,
+      "CI": 25.8
+    },
+    {
+      "name": "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs",
+      "year": 2026,
+      "ND": 50.2,
+      "PE": 71.5,
+      "CI": 25.8
+    }
+  ]
+}

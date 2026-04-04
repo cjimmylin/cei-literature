@@ -1,0 +1,785 @@
+[
+  {
+    "filename": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S2-Ethics-Score",
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 95,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 50,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 50,
+    "contractarian_ethics": 50,
+    "recommendation": "INCLUDE",
+    "reason": "EMNLP at EMNLP 2025. Framework explicitly builds 88 teacher-specific moral dilemmas with Kohlberg moral development stages. High scores across 4 of 5 normative frameworks (VE/DE/UE/CO all 50). Has DATA_URL. Strong normative ethics benchmark."
+  },
+  {
+    "filename": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S5-Benchmark-Cross",
+      "S6-Keyword"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 50,
+    "contractarian_ethics": 0,
+    "recommendation": "INCLUDE",
+    "reason": "OffTheRails: Procedural dilemma generation using causal graphs. DE=50, UE=50. Explicitly tests deontological vs utilitarian reasoning. GitHub code available. Stanford group (Gerstenberg lab). Strong normative content."
+  },
+  {
+    "filename": "2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 15,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "INCLUDE",
+    "reason": "COMETH: 300 scenarios across 6 core deontological rules (Do not kill, Do not deceive, etc.) with context-modulated moral evaluations. Tests contextual moral reasoning with empirical human data. Framework bridges normative theory and empirical moral psychology."
+  },
+  {
+    "filename": "2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 40,
+    "utilitarian_ethics": 5,
+    "contractarian_ethics": 5,
+    "recommendation": "INCLUDE",
+    "reason": "50 clinical case scenarios scored on 4 ethical principles (principlism). DE=40. Japanese medical ethics corpus with professional annotations. Directly tests normative principle application."
+  },
+  {
+    "filename": "2026-Jin-MedES Chinese Medical Ethics Scenarios.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 5,
+    "contractarian_ethics": 0,
+    "recommendation": "INCLUDE",
+    "reason": "MedES: 260 authoritative Chinese medical/ethical/legal sources for clinical decision-making scenarios. Dynamic benchmark with DATA_URL. Chinese-language medical ethics — normative frameworks embedded in clinical scenarios."
+  },
+  {
+    "filename": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 65,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 5,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 50,
+    "contractarian_ethics": 0,
+    "recommendation": "INCLUDE",
+    "reason": "Multilingual moral evaluation across 6 languages (Arabic, Chinese, English, Hindi, Spanish, Swahili). DE=50, UE=50. Tests deontological/utilitarian reasoning across low and high-resource languages. Rare multilingual normative coverage."
+  },
+  {
+    "filename": "2025-Wu-CVC.md",
+    "strategy": [
+      "S4-Non-Western",
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 50,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 50,
+    "contractarian_ethics": 0,
+    "recommendation": "INCLUDE",
+    "reason": "CVC (Chinese Values Corpus): 250K value rules. VE=DE=UE=50. Confucian ethics (nw_confucian=100). Explicitly addresses Western bias in ethics benchmarks with Chinese value framework. HuggingFace dataset. ICLR-quality."
+  },
+  {
+    "filename": "2025-Farid-One Model, Many Morals.md",
+    "strategy": [
+      "S5-Benchmark-Cross",
+      "S6-Keyword"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 5,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 50,
+    "contractarian_ethics": 0,
+    "recommendation": "INCLUDE",
+    "reason": "ICLR 2026. Multilingual moral reasoning across 6 typologically diverse languages. DE=50, UE=50. Translates existing ethics benchmarks and evaluates cross-linguistic normative reasoning inconsistency. GitHub code."
+  },
+  {
+    "filename": "2025-Zhou-Moral Reasoning Across Languages.md",
+    "strategy": [
+      "S5-Benchmark-Cross",
+      "S6-Keyword"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 15,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 50,
+    "contractarian_ethics": 0,
+    "recommendation": "INCLUDE",
+    "reason": "Moral reasoning benchmark in 5 languages (Chinese, English, Indonesian, Russian, Vietnamese). DE=50, UE=50. Evaluates cross-lingual normative ethics consistency."
+  },
+  {
+    "filename": "2024-Hancox-Li-Is ETHICS about ethics.md",
+    "strategy": [
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 65,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 100,
+    "deontological_ethics": 100,
+    "utilitarian_ethics": 100,
+    "contractarian_ethics": 0,
+    "recommendation": "INCLUDE",
+    "reason": "Critical evaluation of the ETHICS benchmark (Hendrycks). VE=100, DE=100, UE=100. Directly interrogates validity of the most-cited normative ethics benchmark. Essential meta-analysis for NormEval paper."
+  },
+  {
+    "filename": "2024-Kirch-TRIAGE.md",
+    "strategy": [
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 90,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 0,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 50,
+    "contractarian_ethics": 0,
+    "recommendation": "INCLUDE",
+    "reason": "TRIAGE: Mass casualty triage scenarios with real-world ethical dilemmas. DE=50, UE=50. Professional medical design. GitHub code. Tests deontological vs utilitarian resource allocation."
+  },
+  {
+    "filename": "2023-Astobiza-MoralNet.md",
+    "strategy": [
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 50,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "REVIEW",
+    "reason": "MoralNet: Conceptual 'ImageNet for ethics' benchmarking protocol. VE=50, DE=50. Strong philosophical grounding but may be a conceptual proposal rather than implemented benchmark. Needs closer reading to confirm dataset availability."
+  },
+  {
+    "filename": "2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md",
+    "strategy": [
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 0,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 50,
+    "contractarian_ethics": 0,
+    "recommendation": "REVIEW",
+    "reason": "Ethical reasoning paradigm with 5-step process. DE=50, UE=50. AIES 2025. Uses SafeWorld benchmark but proposes methodology rather than new benchmark dataset. Review to determine if it introduces evaluation instrument."
+  },
+  {
+    "filename": "2025-SOCIETY-How Much of a Pluralist is.md",
+    "strategy": [
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 90,
+    "care_ethics": 5,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 55,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 5,
+    "recommendation": "REVIEW",
+    "reason": "Pluralism benchmark using Magic Wand Survey. VE=55. Tests value pluralism in AI chatbots. AI & SOCIETY journal. May be more value-alignment than normative ethics, but virtue ethics relevance is notable."
+  },
+  {
+    "filename": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+    "strategy": [
+      "S6-Keyword"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 0,
+    "deontological_ethics": 20,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "INCLUDE",
+    "reason": "FAccT 2025. 'Normative evaluation' is in the title. 10K+ AITA Reddit moral dilemmas. 7 LLMs evaluated. Rich dataset with real-world everyday moral reasoning. GitHub code available. High ecological validity."
+  },
+  {
+    "filename": "2025-Kumar-BengaliMoralBench.md",
+    "strategy": [
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 50,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "REVIEW",
+    "reason": "BengaliMoralBench: First large-scale ethics benchmark for Bengali. VE=50. ACL 2025. Addresses non-Western ethics gap. Review to determine depth of normative framework engagement vs general moral judgment."
+  },
+  {
+    "filename": "2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.md",
+    "strategy": [
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 50,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 5,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 50,
+    "contractarian_ethics": 0,
+    "recommendation": "REVIEW",
+    "reason": "Fine-tuning for ethical ambiguity. DE=50, UE=50. Tests normative reasoning under ambiguity. Review to determine if it introduces a novel benchmark instrument."
+  },
+  {
+    "filename": "2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.md",
+    "strategy": [
+      "S5-Benchmark-Cross",
+      "S6-Keyword"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 15,
+    "contractarian_ethics": 0,
+    "recommendation": "REVIEW",
+    "reason": "MORABLES: Abstract moral reasoning via fables. EMNLP 2025. Low framework scores but explicitly tests abstract moral reasoning. Review for normative depth."
+  },
+  {
+    "filename": "2025-El Masri-Towards Attuned AI.md",
+    "strategy": [
+      "S3-Care-Ethics"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 100,
+    "is_benchmark": "No",
+    "is_eval": "No",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 5,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 65,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "Theoretical paper on care ethics for LLM alignment. care_ethics=100 but no benchmark/dataset/evaluation instrument. Proposes 'Attuned AI' framework but does not contain evaluation data."
+  },
+  {
+    "filename": "2025-Dubey-Addressing Moral Uncertainty using Large Language.md",
+    "strategy": [
+      "S3-Care-Ethics"
+    ],
+    "ethics_overall": 80,
+    "care_ethics": 95,
+    "is_benchmark": "No",
+    "is_eval": "No",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 100,
+    "deontological_ethics": 100,
+    "utilitarian_ethics": 100,
+    "contractarian_ethics": 35,
+    "recommendation": "REVIEW",
+    "reason": "Ethical-RL framework using LLM feedback across 5 ethical traditions (consequentialist, deontological, virtue, social justice, care). VE=100, DE=100, UE=100, CE=95. Extremely strong normative engagement but is an RL method paper, not a benchmark per se. Review if evaluation scenarios could constitute a benchmark."
+  },
+  {
+    "filename": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S5-Benchmark-Cross",
+      "S6-Keyword"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 10,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 10,
+    "contractarian_ethics": 0,
+    "recommendation": "REVIEW",
+    "reason": "TrolleyBench: Novel ECI metric for ethical consistency. NeurIPS 2025. But low normative framework scores (VE=10, UE=10). Tests consistency more than framework engagement. Has DATA_URL. Review for normative depth."
+  },
+  {
+    "filename": "2025-Zhu-TrolleyBench.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 10,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 10,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "DUPLICATE of 2025-Zhu-TrolleyBench - Evaluating Emergent... (duplicate_of field confirmed). Skip."
+  },
+  {
+    "filename": "2025-Chua-Between a Rock and a Hard Place TRIAL.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "No",
+    "is_eval": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 50,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "TRIAL: Red-teaming methodology for LLM safety. UE=50 but this is an attack method, not a normative ethics benchmark. Tests jailbreaking through ethical framings."
+  },
+  {
+    "filename": "2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 15,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "SpeciesismBench: Tests speciesism recognition, not normative ethical framework engagement. Low framework scores. Applied ethics (animal ethics) rather than normative framework benchmarking."
+  },
+  {
+    "filename": "2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 95,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 5,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "12K-item Q&A on healthcare ethics and safety in Chinese context. But near-zero normative framework scores. Tests clinical safety compliance, not normative reasoning."
+  },
+  {
+    "filename": "2026-Liu-JMedEthicBench.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 0,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "JMedEthicBench: Japanese medical safety benchmark. Multi-turn conversational. ethics_overall=0, all framework scores=0. Safety benchmark, not normative ethics."
+  },
+  {
+    "filename": "2026-Shen-PsychEthicsBench.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 60,
+    "care_ethics": 5,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "PsychEthicsBench: Mental health professional safety alignment. Zero normative framework scores. Tests clinical refusal behavior, not normative ethics."
+  },
+  {
+    "filename": "2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "No",
+    "is_eval": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 30,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "Uses MFQ (Moral Foundations Questionnaire) not normative frameworks. Tests moral hypocrisy via MFT, not normative ethical reasoning. VE=30 only."
+  },
+  {
+    "filename": "2025-Oh-Robustness of Large Language Models in Moral Judgements.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 50,
+    "care_ethics": 0,
+    "is_benchmark": "No",
+    "is_eval": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 15,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "Many Labs 2 replication with GPT-3.5. Not a normative ethics benchmark -- tests general social science replicability."
+  },
+  {
+    "filename": "2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 35,
+    "care_ethics": 0,
+    "is_benchmark": "No",
+    "is_eval": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 15,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "News response forecasting using MFT. ethics_overall=35. Not a normative ethics benchmark."
+  },
+  {
+    "filename": "2024-Yao-CLAVE ValEval.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 15,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "CLAVE/ValEval: Value evaluation framework. ethics_overall=15, all framework scores=0. Tests general value alignment, not normative ethics."
+  },
+  {
+    "filename": "2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 0,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 20,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "ALI-Agent: Agent-based alignment evaluation. NeurIPS 2024. ethics_overall=0, framework scores near 0. Tests general value alignment via dynamic scenarios, not normative ethics."
+  },
+  {
+    "filename": "2025-Ashkinaze-Deep Value Benchmark.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 45,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 5,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "Deep Value Benchmark: Tests deep vs surface values. NeurIPS 2025. But near-zero framework scores. Tests value depth, not normative framework engagement."
+  },
+  {
+    "filename": "2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 65,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 5,
+    "utilitarian_ethics": 5,
+    "contractarian_ethics": 50,
+    "recommendation": "REVIEW",
+    "reason": "Delphi experiment at Nature Machine Intelligence. CO=50. Tests commonsense morality via Delphi system. Review: contractarian ethics score is interesting but may be FP from 'social contract' language."
+  },
+  {
+    "filename": "2025-Kasu-EthicsMH.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 20,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "EthicsMH: Mental health ethical reasoning benchmark. HuggingFace dataset. But low framework scores. Applied ethics domain (mental health), not normative framework benchmarking."
+  },
+  {
+    "filename": "2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 20,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "ConflictScope: Value conflict generation pipeline. Tests value prioritization, not normative ethical framework engagement. Near-zero framework scores."
+  },
+  {
+    "filename": "2025-Zhang-PoliCon.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 0,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 35,
+    "contractarian_ethics": 5,
+    "recommendation": "EXCLUDE",
+    "reason": "PoliCon: Political consensus benchmark from European Parliament. ethics_overall=0. Tests political deliberation, not normative ethics."
+  },
+  {
+    "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S4-Non-Western"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "No",
+    "is_eval": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 15,
+    "utilitarian_ethics": 5,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "Decolonial AI alignment theory paper. AIES 2024. Important for Hindu philosophical perspective but no benchmark/dataset. Theoretical framework for decolonialized alignment."
+  },
+  {
+    "filename": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S4-Non-Western"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "No",
+    "is_eval": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 20,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 10,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "OpenAI case study on ethical AI discourse. Despite the Confucian title, the abstract/data appear to be about OpenAI's framing of ethics. Not a normative ethics benchmark."
+  },
+  {
+    "filename": "2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+    "strategy": [
+      "S1-NEB-Audit",
+      "S6-Keyword"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "virtue_ethics": 0,
+    "deontological_ethics": 10,
+    "utilitarian_ethics": 25,
+    "contractarian_ethics": 5,
+    "recommendation": "EXCLUDE",
+    "reason": "DUPLICATE of 2025-Hong-PrinciplismQA.md which is already in the matrix. This is the longer-title variant."
+  },
+  {
+    "filename": "2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md",
+    "strategy": [
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "No",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 10,
+    "deontological_ethics": 50,
+    "utilitarian_ethics": 60,
+    "contractarian_ethics": 0,
+    "recommendation": "REVIEW",
+    "reason": "Pro-social rule breaking as ethical intelligence benchmark. DE=50, UE=60. Tests scenarios where breaking deontological rules produces utilitarian benefit. Review for normative depth."
+  },
+  {
+    "filename": "2025-Tennant-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM.md",
+    "strategy": [
+      "S6-Keyword"
+    ],
+    "ethics_overall": 35,
+    "care_ethics": 0,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "REVIEW",
+    "reason": "ICLR 2025 paper on moral alignment for LLM agents. Keywords: deontological, utilitarian. Review: the low ethics scores may undercount -- ICLR venue is prestigious and title is highly relevant."
+  },
+  {
+    "filename": "2025-Flores-BenchMoral.md",
+    "strategy": [
+      "S5-Benchmark-Cross"
+    ],
+    "ethics_overall": 100,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "N/A",
+    "virtue_ethics": 0,
+    "deontological_ethics": 10,
+    "utilitarian_ethics": 30,
+    "contractarian_ethics": 0,
+    "recommendation": "REVIEW",
+    "reason": "BenchMoral: Spanish-language moral sensitivity benchmark using MFQ-30 (5 moral domains). Tests MFT foundations rather than normative traditions directly. Review for framework depth."
+  },
+  {
+    "filename": "2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 35,
+    "care_ethics": 5,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 0,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 15,
+    "contractarian_ethics": 0,
+    "recommendation": "EXCLUDE",
+    "reason": "EthicsSuite: Tests behavioral inconsistency. Uses reflective equilibrium concept but low ethics scores. Tests consistency not normative frameworks."
+  },
+  {
+    "filename": "2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from.md",
+    "strategy": [
+      "S1-NEB-Audit"
+    ],
+    "ethics_overall": 30,
+    "care_ethics": 0,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "virtue_ethics": 20,
+    "deontological_ethics": 0,
+    "utilitarian_ethics": 0,
+    "contractarian_ethics": 0,
+    "recommendation": "REVIEW",
+    "reason": "CLASH: 345 high-impact dilemmas with 3,795 diverse value perspectives. HuggingFace dataset. Tests perspective pluralism. Low framework scores but rich value conflict data. Review for normative framework grounding."
+  }
+]

@@ -1,1719 +1,2281 @@
----\ntitle: "2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting - PDF Extract"\nsource_pdf: "2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf"\npages: 15\nextracted_at: "2026-02-14T02:17:35.161827"\n---\n\n# PDF Extract: 2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting\n\n**Source PDF:** 2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf\n**Total Pages:** 15\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nLeveraging Large Language Models for
-Cybersecurity: Enhancing SMS Spam Detection
-with Robust and Context-Aware Text Classification
-1st Mohsen Ahmadi
-Dept. Electrical Engineering and Computer Science
-Florida Atlantic University
-FL, USA
-mahmadi2021@fau.edu
-Corresponding author
-2nd Matin Khajavi
-Foster School of Businesses
-University of Washington
-Washington, USA
-3nd Abbas Varmaghani
-Dept. Computer Engineering
-Islamic Azad University of Hamadan
-Hamedan, Iran
-4rd Ali Ala
-Dept. Mechanical Engineering
-University College Dublin
-Dublin, Ireland
-5nd Kasra Danesh
-Dept.Electrical and Computer Science
-Florida Atlantic University
-FL, USA
-6th Danial Javaheri
-Dept. Electrical and Computer Science
-Korea University
-Seoul 02841, Republic of Korea
-Abstract—This study evaluates the effectiveness of different
-feature extraction techniques and classification algorithms in
-detecting spam messages within SMS data. We analyzed six
-classifiers—Naive Bayes, K-Nearest Neighbors, Support Vector
-Machines, Linear Discriminant Analysis, Decision Trees, and
-Deep Neural Networks—using two feature extraction methods:
-bag-of-words and TF-IDF. The primary objective was to deter-
-mine the most effective classifier-feature combination for SMS
-spam detection. Our research offers two main contributions:
-first, by systematically examining various classifier and feature
-extraction pairings, and second, by empirically evaluating their
-ability to distinguish spam messages. Our results demonstrate
-that the TF-IDF method consistently outperforms the bag-of-
-words approach across all six classifiers. Specifically, Naive Bayes
-with TF-IDF achieved the highest accuracy of 96.2%, with a
-precision of 0.976 for non-spam and 0.754 for spam messages.
-Similarly, Support Vector Machines with TF-IDF exhibited an
-accuracy of 94.5%, with a precision of 0.926 for non-spam and
-0.891 for spam. Deep Neural Networks using TF-IDF yielded an
-accuracy of 91.0%, with a recall of 0.991 for non-spam and 0.415
-for spam messages. In contrast, classifiers such as K-Nearest
-Neighbors, Linear Discriminant Analysis, and Decision Trees
-showed weaker performance, regardless of the feature extraction
-method employed. Furthermore, we observed substantial vari-
-ability in classifier effectiveness depending on the chosen feature
-extraction technique. Our findings emphasize the significance of
-feature selection in SMS spam detection and suggest that TF-
-IDF, when paired with Naive Bayes, Support Vector Machines, or
-Deep Neural Networks, provides the most reliable performance.
-These insights offer a foundation for improving SMS spam
-detection through optimized feature extraction and classification
-approaches, particularly in the context of large language models
-(LLMs), subversive security threats, and traditional machine
-learning methodologies.
-Index Terms—Feature Extraction, Machine Learning, Spam
-Detection, Large Language Models (LLM), Subversive Security,
-Traditional Modeling, Support Vector Machines, Deep Neural
-Networks, Natural Language Processing.
-I. INTRODUCTION
-Natural language processing (NLP) has traditionally con-
-centrated on text classification, where various text elements
-like phrases, questions, paragraphs, and entire documents are
-categorized or labeled. Text classification serves a plethora of
-purposes, from spam detection to sentiment analysis, across
-different sectors, including email filtering, automated question
-answering, content categorization, and more [1-3]. Textual data
-is derived from numerous platforms such as websites, emails,
-messaging apps, social networks, support tickets, and customer
-feedback, among others. Despite being a rich resource, the
-inherent unstructured format of text presents challenges for
-efficient data mining and insight extraction. Text classification
-can be manual or automated, but with the growing bulk of the
-text in commercial use, the latter is gaining more importance.
-Automatic text classification can be broadly categorized into
-rule-based systems and machine-learning approaches. Rule-
-based systems operate on fixed criteria and require extensive
-domain knowledge, while machine learning models learn from
-examples to determine patterns for classification [4,5].
-Supervised machine learning has been widely examined
-within text classification and information retrieval, aiding in
-the distinction and comprehension of various concepts. Tradi-
-tional models employ a two-step process involving feature ex-
-traction (e.g., BoW, TfidfVectorizer) followed by classification
-using algorithms like Naive Bayes, SVMs, DNNs, Decision
-Trees, KNN, and LDA. While manual text categorization is
-expertise-dependent and scales poorly, the two-step machine-
-learning process can struggle with generalization and is often
-restricted by the need for extensive feature engineering [6].
-However, while predefined features limit model performance,
-supervised machine learning and neural networks have proven
-arXiv:2502.11014v1  [cs.CR]  16 Feb 2025
+---
+title: "2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting - PDF Extract"
+source_pdf: "2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf"
+pages: 23
+extracted_at: "2026-04-04T10:22:22.612022"
+---
 
---- Page 2 ---\n\ncapable of achieving high accuracy, provided they are trained
-with sufficient labeled data. On the other hand, unsupervised
-methods like hierarchical clustering and K-means, which do
-not rely on labeled data, are less accurate and more challenging
-to apply to large and imbalanced datasets [7,8]. Addressing the
-classification of underrepresented classes remains a significant
-hurdle due to dataset imbalances, which is a common real-
-world issue. There is ongoing research to develop sophisticated
-classifiers and enhance text representation. Text categorization
-streamlines the differentiation and systematic arrangement of
-text based on thematic content, which in turn improves search
-outcomes and user interactions with key datasets. Our research
-marks a significant progression from the traditional BoW
-approach to adopting the TF-IDF method, moving the field
-forward in terms of accuracy and efficiency.
-The TF-IDF technique is an advanced feature extraction
-tool that computes values for each term within a document,
-elevating the significance of terms that are unique to a specific
-document while diminishing the importance of terms com-
-mon across various documents. This approach enhances the
-representation of text data, making it both more informative
-and discriminating for analysis purposes. Additionally, we
-utilized principal component analysis (PCA) to streamline the
-feature set. PCA is a statistical procedure in data analysis and
-machine learning that concentrates on reducing dimensionality
-while retaining as much of the data’s variability as possible.
-It is particularly beneficial for processing high-dimensional
-datasets, which can be cumbersome due to their vast number
-of features. By condensing the feature space, PCA not only
-eases computational demands but also potentially boosts the
-efficacy of certain machine learning models.
-This study also delves into several prevalent supervised
-machine learning techniques in current research circles, in-
-cluding Naive Bayes (NB), Support Vector Machines (SVM),
-k-nearest Neighbors (KNN), Deep Neural Networks (DNN),
-Decision Trees (DT), and Latent Dirichlet Allocation (LDA).
-We evaluate the impact that each of these algorithms has on
-the task of text classification. Given the critical role that text
-classification plays in a wide array of applications, the quest
-to refine these algorithms remains a vibrant field of research.
-II. RELATED WORK
-In recent times, there has been a surge of comprehensive
-reviews and analytical studies in the field of text classification
-within NLP. These reviews span a gamut of methodologies,
-from conventional linguistic approaches to the latest deep
-learning techniques. For instance, Roy et al. [10] have effec-
-tively applied LSTM and CNN models to the challenge of
-filtering spam in SMS messages, although their models were
-primarily optimized for texts in English. Another study [11]
-advocates for the adoption of various supervised machine-
-learning models for differentiating between spam and legit-
-imate messages. In this study, a comparative analysis among
-Naive Bayes, maximum entropy, and SVM classifiers revealed
-that SVMs outperformed the others with an accuracy of 97.4%
-on datasets in real-time environments, albeit at the cost of
-higher memory usage.
-Further developments in the domain have been marked
-by [12, 13], who introduced new approaches for spam SMS
-filtering utilizing LSTMs and RNNs within the frameworks
-of Keras and TensorFlow. This resulted in an impressive
-accuracy rate of 98% when tested on the UCI dataset, yet
-the complexity of these models was considerably high due
-to their intricate architectures. Lee and Kang [14] developed
-an SMS spam filtering method that utilizes a feed-forward
-neural network in combination with CBOW word embeddings.
-Their study revealed that simply increasing the number of
-hidden layers—such as from 27 onward—did not significantly
-enhance the accuracy of the model. This emphasizes the
-importance of layer quality over sheer quantity. The research
-landscape has been further advanced by computer scientists
-concentrating on machine learning and deep learning-based
-models. For instance, Xu et al. [15] introduced a novel
-technique to extract textual features from email image at-
-tributes and employed SVM for classification to optimize spam
-filtering. However, this approach was limited to image-based
-spam detection. Moreover, Almeida et al. [16] investigated the
-integration of lexicographical resources, semantic dictionaries,
-and diverse semantic analysis techniques to refine and improve
-text messages, ultimately strengthening the effectiveness of the
-classification process.
-This evolution in text classification reflects the dynamic
-and ever-expanding scope of NLP as it continues to explore
-new horizons in both theory and application.The realm of
-text classification, particularly in identifying spam content,
-has witnessed notable advances, with several researchers con-
-tributing novel techniques and methodologies that showcase
-the progress in machine learning and NLP. Almeida et al.
-[17] provided evidence that SVM classifiers had an edge
-over others within a new public SMS spam collection, re-
-inforcing the relevance of SVM in text classification tasks.
-The traditional machine learning approaches they discussed
-necessitated procedures for dimensionality reduction, detailed
-feature engineering, and an extensive exploratory data analysis
-before application. Jain and Gupta [18] introduced a feature-
-based methodology aimed at identifying smishing attacks,
-focusing on distinguishing between genuine and malicious
-communications. Their approach underscores the evolving
-sophistication in detecting fraudulent content. Ghourabi et al.
-[19] managed to achieve an impressive 98.37% accuracy by
-harnessing the combined strengths of CNN and LSTM models,
-surpassing the performance of previous models. This demon-
-strates the effectiveness of hybrid deep learning models in
-handling complex pattern recognition tasks in text. Meanwhile,
-Bassiouni et al. [20] conducted experiments with different
-classifiers for the purpose of email filtering, testing against the
-Spambase dataset from UCI. The Random Forest (RF) algo-
-rithm stood out with a 95.45% accuracy, while other classifiers
-showed competitive, albeit slightly lower, performance met-
-rics.Abbasalizadeh et al. [57] developed PriLink, a secure link
-scheduling framework designed to enhance privacy in wireless
+# PDF Extract: 2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting
 
---- Page 3 ---\n\nTABLE I
-SUMMARY OF RECENT RESEARCH ON SPAM DETECTION AND RELATED AREAS
-Author
-Year
-Aim
-Method
-Result
-Shen et al. [45]
-2025
-Leverage BERT and GCN to improve SMS
-spam detection.
-BERT-G3CN
-Achieved high accuracy (99.28%
-and
-93.78%)
-in
-benchmark
-datasets.
-Haider Rizvi et al. [46]
-2025
-Provide a comprehensive review of GCN-
-based text classification methods.
-GCN-based Text Classification
-Summarized key strengths, chal-
-lenges, and research gaps in GCN
-approaches.
-Tusher et al. [47]
-2025
-Analyze deep learning methods for filtering
-email spam.
-Deep Learning
-Outlined
-various
-deep
-learning
-methods, their effectiveness, and
-future research needs.
-Gong et al. [48]
-2025
-Survey existing research on language mod-
-els for code optimization.
-Systematic Literature Review
-Identified research gaps and chal-
-lenges in LM-based code optimiza-
-tion.
-Liu et al. [49]
-2024
-Review applications of PLMs in cybersecu-
-rity.
-PLM Analysis
-Explored various cybersecurity ap-
-plications of PLMs and future re-
-search directions.
-Chen et al. [50]
-2024
-Investigate how LLMs enhance threat detec-
-tion in cybersecurity.
-LLM-based Threat Detection
-Reviewed use cases, limitations,
-and
-potential
-improvements
-for
-LLM-based threat detection.
-Alshatnawi et al. [51]
-2024
-Utilize contextual word embeddings to re-
-fine social media spam detection.
-BERT, ELMo
-Achieved superior accuracy using
-ELMo embeddings in detecting so-
-cial media spam.
-Chataut et al. [52]
-2024
-Compare the effectiveness of ML models
-and LLMs in spam detection.
-Traditional ML vs. LLMs
-LLMs demonstrated better perfor-
-mance in spam detection compared
-to traditional ML models.
-Raja Abdul et al. [58]
-2024
-Identify smishing attacks using ML and
-NLP techniques.
-SMSecure
-Showed
-improved
-accuracy
-in
-identifying smishing attacks.
-Raja Abdul Samad et al.
-[54]
-2024
-Propose an advanced model integrating pho-
-netic and textual embeddings for detecting
-Chinese spam.
-BiGRU-TextCNN
-Enhanced Chinese spam detection
-by incorporating phonetic embed-
-dings.
-Shrestha [55]
-2023
-Introduce a refined approach to detecting
-smishing attacks with machine learning.
-Random Forest, Extreme Gra-
-dient Boosting
-Machine learning models exhibited
-high accuracy in detecting smish-
-ing attempts.
-Yao et al. [56]
-2022
-Develop a high-performance spam email
-detection model.
-XLNet
-XLNet-based model outperformed
-existing methods with high preci-
-sion and recall.
-networks by restricting unnecessary topology exposure while
-ensuring efficient resource allocation. Their approach demon-
-strated superior privacy preservation and faster execution
-compared to conventional scheduling methods. Saeed et al.
-[21] discussed the application of supervised machine learning
-algorithms such as J48 and KNN to segregate spam from
-non-spam messages, indicating that traditional classifiers still
-hold value in the ever-evolving landscape of spam detection.
-Srinivasarao et al. [22] broke new ground by developing a
-hybrid classifier that combines KNN and SVM. They inno-
-vated further by integrating Word2vec for feature extraction
-and Rat Swarm Optimization for tuning the model parameters,
-aiming to create a robust system for SMS spam classification.
-Lastly, Dharani et al. [23] proposed a model leveraging
-Naive Bayes coupled with TF-IDF vectorization, achieving
-a notable 95% accuracy and a perfect precision score. This
-result exemplifies the continued relevance of Naive Bayes in
-text classification when paired with powerful feature extraction
-techniques. These varied studies and their results underscore
-the dynamic nature of spam detection research, where both
-traditional algorithms and newer, more complex models find
-their niches. They reflect ongoing efforts to improve accuracy,
-precision, and overall efficiency in text classification within
-the broader context of NLP. Rayavaram et al. [55] introduced
-CryptoEL, a cryptography education tool for K-12 students
-that employs interactive simulations, AI-driven dialogues, and
-coding exercises to reinforce learning. Their study reported
-high student engagement and improved comprehension of core
-cryptographic concepts. The referenced studies underscore the
-wide-ranging applications of machine learning in categorizing
-spam and non-spam messages. Gautam [24] carried out a com-
-prehensive evaluation of various machine learning classifiers
-for spam detection, emphasizing the distinction between spam
-and legitimate messages. The examined classifiers included
-K-Nearest Neighbors (KNN), Linear Support Vector Machine
-(SVM), Radial Basis Function-SVM (RBF-SVM), Random
-Forest, and Decision Trees, with performance metrics such
-as accuracy, precision, recall, and F1-score utilized for com-
-parison. The study revealed that classifiers generally perform
-better on balanced datasets, as they prevent bias toward the
-majority class. However, KNN was found to be an exception
-to this trend. Notably, the Linear SVM classifier demonstrated
-the highest accuracy across both balanced and imbalanced
-datasets, highlighting its robustness and effectiveness in text
-classification.
-Prasad et al. [36], in a 2022 study, sought to improve the
-accuracy of spam detection by leveraging machine learning
-methods, with a specific emphasis on the Multinomial Naive
+**Source PDF:** 2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf
+**Total Pages:** 23
 
---- Page 4 ---\n\nBayes and Decision Tree classifiers. To ensure statistical valid-
-ity, they employed GPower to determine an appropriate sample
-size, maintaining a power of 0.8 and an alpha threshold of
-0.05. Their results revealed that the Multinomial Naive Bayes
-classifier attained a superior accuracy of 96.50% compared to
-the Decision Tree model. Moreover, their analysis indicated
-no statistically significant difference in performance and loss
-rate between the two models, as demonstrated by a p-value
-exceeding 0.536. This suggests that the observed performance
-enhancement did not lead to additional computational burdens
-or overfitting
-III. METHOD AND MATERIALS
-A. Text classification
-Text classification is a process that entails the automatic
-grouping of textual materials into predefined categories, uti-
-lizing the methodologies underpinned by natural language
-processing (NLP) [27]. It operates on a dataset of documents
-D = d1, ..., dn and is driven by a set of predetermined classes
-C = c1, ..., cq, with the aim of ascertaining the class to
-which a new, unclassified document belongs. The utility of
-text classification spans a variety of applications. It facilitates
-the identification of documents with shared characteristics,
-enables the systematic organization of documents by topic,
-and aids in the retrieval of documents relevant to a specific
-subject matter. The overarching goal of text classification is
-to automate the process of allocating relevant categories to
-documents based on their content, thereby streamlining tasks
-such as document management, information retrieval, and
-content sorting. Beyond the scope of NLP, text classification
-(TC) finds relevance in myriad domains. It can be instrumental
-in academic research for literature reviews, in legal settings
-for case law categorization, in digital libraries for indexing,
-and in the business sphere for sentiment analysis of customer
-feedback. Traditional approaches to TC have underscored the
-significance of comprehensive dictionaries, structured sets of
-knowledge rules, and specialized tree kernels [28]. These
-methods often involve rule-based classification, where texts are
-categorized according to the presence or absence of specific
-features that have been determined by expert domain knowl-
-edge. They may also use statistical measures that consider
-word frequencies and distributions to assign documents to
-categories. While effective, traditional TC methods can be
-limited by their reliance on expert-crafted rules and features,
-which can make them labor-intensive and less adaptable to
-new, unseen data. With the advent of machine learning and
-deep learning, TC approaches have evolved significantly, with
-algorithms now able to learn from data, recognize complex
-patterns, and make predictions without explicit rule-based
-instructions, thereby enhancing the accuracy and scalability
-of text classification systems.
-B. NB Classification
-The Naive Bayes (NB) classifier is based on Bayes’ theo-
-rem and employs a probabilistic framework, operating under
-the naive assumption that all features within a dataset are
-conditionally independent of each other. Surprisingly, the
-NB classifier tends to show robust performance despite this
-simplification, which is often violated in real-world data [29].
-Particularly for smaller datasets, NB classifiers can outperform
-more complex models [30]. Their reliability, straightforward-
-ness, efficiency, and accuracy contribute to their widespread
-usage across numerous disciplines. These models find utility
-in various scenarios ranging from making medical treatment
-decisions [31], to classifying RNA sequences in taxonomic
-studies [45], and to sifting through and categorizing spam in
-email applications [46]. Nevertheless, there can be limitations
-to the effectiveness of NB classifiers, especially when the
-assumption of independence is significantly breached and
-when faced with problems that require nonlinear classification
-approaches. The choice of a classification model should be
-mindful of the data characteristics and the specific challenges
-of the task at hand. It is advisable to compare multiple classifi-
-cation models, considering both computational efficiency and
-predictive accuracy for the dataset in question. Subsequent
-sections will delve into the probabilistic model of the NB
-classifier and its application to a straightforward example.
-Furthermore, we will demonstrate the training of a classifier
-using a publicly accessible SMS dataset, with the aim to
-accurately classify new, unseen messages as either spam or
-non-spam (ham) using Python.
-C. Posterior Probabilities
-To comprehend the function of Naive Bayes (NB) classi-
-fiers, one must first be acquainted with Bayes’ rule. This rule
-is a straightforward yet potent probabilistic model conceived
-by Thomas Bayes. The rule is articulated as such:
-P( posterior ) = P( conditional ) · P( prior )
-evidence
-(1)
-A sphere symbolizes a randomly chosen subset, and dotted
-lines signify the decision limits set by classification methods.
-In scenarios where classes are not linearly separable, non-
-linear classifiers like nearest neighbor algorithms are better
-suited than linear ones like Naive Bayes.
-D. Class-Conditional Probabilities
-Bayes classifiers are used to determine whether samples
-follow an independent and identically distributed (i.i.d.) as-
-sumption. This indicates that each variable is independent
-of the others and follows the same probability distribution.
-A common example of an i.i.d. variable is the outcome of
-a coin toss, where the result of one toss has no impact
-on the next. Moreover, it is important to note that Naive
-Bayes classifiers operate under the assumption that features
-are conditionally independent [32]. Rather than considering
-all possible combinations of x, class-conditional probabilities
-are estimated from the training data. Given a d-dimensional
-feature vector x, the class-conditional probability is computed
+---
+
+## Content
+
+```
+--- Page 1 ---
+
+Journal of King Saud University Computer and Information Sciences (2025) 37:271
+https://doi.org/10.1007/s44443-025-00269-y
+ORIGINAL PAPER
+Leveraging large language models for detecting and preserving
+emotions in quran translations
+Arwa Almarzoqi1 · Mohammed Alsuhaibani1
+Received: 11 April 2025 / Accepted: 4 September 2025 / Published online: 22 October 2025
+© The Author(s) 2025
+Abstract
+Over the years, translations of the Quran have served as a vital tool for conveying its message to non-Arabic speaking audiences.
+This research proposes a computational quantitative approach to investigate emotion preservation in English translations of
+the Quran using Large Language Models (LLMs). The proposed approach implements emotion analysis using the state-of-
+the-art models and evaluates the agreement levels through a human validation process, using a parallel corpus of the Quran
+with seven English translations. This research yields the Emotionally-Labeled Quran Verses (ELQV) dataset, a collection of
+2100 Quran verses annotated by specialists, designed to advance Arabic Natural Language Processing (NLP), particularly
+NLP-based Quranic research. The analysis demonstrates that the investigated translations preserved the emotional semantics
+at a fair level. Compared to the Quran, neither of the translations reached substantial agreement with Arabic readers, with
+Cohen’s Kappa (κ) scores ranging from 0.29 to 0.35. Despite the challenges associated with Classical Arabic scripts, the
+LLMs adopted in this research proved their ability to capture the emotional semantics of the Quran, indicating their aptitude
+to comprehend complex scripts with cultural and theological signiﬁcance.
+Keywords Emotion preservation · Emotion analysis · Sentiment analysis · Large language models (LLMs) · Text classiﬁcation
+1 Introduction
+The pragmatic indication of sentiment (i.e., positive, neg-
+ative, or neutral) or emotion (i.e., anger, fear, happiness,
+sadness, etc.) is not purely conveyed in translations (Almar-
+zoqi and Alsuhaibani 2025). This important element may be
+omitted in the translation process of a source texts (Moham-
+mad et al. 2016; Barhoumi et al. 2018; Kumari et al. 2021). As
+such, preserving the overall traits of the source text during the
+translation process is essential, as the translations must accu-
+rately convey the syntactic, semantic, and pragmatic aspects
+of the source texts. This is particularly crucial with the sacred
+scriptures, as even a slight emotional shift can signiﬁcantly
+affect their major implications.
+Islam is the ﬁnal religion for all humanity, with over two
+billion adherents globally1. It has two fundamental sources
+B Arwa Almarzoqi
+a.almarzoqi@qu.edu.sa
+Mohammed Alsuhaibani
+m.suhibani@qu.edu.sa
+1
+Department of Computer Science, College of Computer,
+Qassim University, 51452 Buraydah, Saudi Arabia
+1 https://worldpopulationreview.com/country-rankings/muslim-
+population-by-country
+of principles, the Holy Quran and the Hadith. The Quran
+has been revealed to the Prophet Mohammed, Peace Be
+Upon Him (PBUH), in clear Arabic language. It is consid-
+ered the word of Allah and serves as the principal source for
+all Islamic tenets. Given the global expansion of Islam into
+non-Arabic countries, comprehending the meanings of the
+Islamic scriptures is therefore crucial for non-Arabic Mus-
+lims. Translations have emerged as the principal means for
+non-Arabic Muslims to read, comprehend, and contemplate
+the Quran. Therefore, conveying the emotional semantics
+in the Quran translations is especially important due to the
+sacred signiﬁcance of the Quran.
+The examination of emotion preservation involves the
+analysis of textual data, which is implicitly associated with
+Natural Language Processing (NLP). This includes the appli-
+cation of emotion analysis to assess the preservation level
+of emotion of the target text after the translation pro-
+cess. Recently, the domain of NLP has had a breakthrough
+advancement with the development of the Transformer archi-
+tecture (Vaswani et al. 2017) that, in turn, contributed to the
+creation of Large Language Models (LLMs), like Bidirec-
+tional Encoder Representations from Transformers (BERT)
+(Devlin et al. 2019), Robustly Optimized BERT Approach
+(RoBERTa) (Liu et al. 2019), and Decoding-enhanced BERT
+123
+
+--- Page 2 ---
+
+271
+Page 2 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+with Disentangled Attention (DeBERTa) (He et al. 2021),
+to name a few. The LLMs are trained on extensive textual
+data to acquire contextual word representations, meaning
+each word possesses different representations according to
+its contextual usage, thereby capturing the different uses of
+words across various contexts (Jurafsky and Martin 2025).
+This attribute resulted in remarkable performance gains com-
+pared to traditional approaches, as these models exhibited
+substantial performance capability for nearly all NLP tasks
+(Raiaan et al. 2024).
+Research into sentiment preservation in translations has
+broadened in various directions (Zhang et al. 2017; Lohar
+et al. 2017, 2018; Si et al. 2019; Saadany and Orasan
+2020; Troiano et al. 2020; Kumari et al. 2021; Saadany
+et al. 2022; Banik 2023; Miao et al. 2024). These direc-
+tions included traditional models, such as mixed linear
+regression (Zhang et al. 2017), both manual and automatic
+sentiment classiﬁcation (Lohar et al. 2017), and Bidirectional
+Long Short-Term Memory (BiLSTM) (Troiano et al. 2020),
+which progressively evolved into state-of-the-art models,
+Transformer-based models (Si et al. 2019; Saadany et al.
+2022; Miao et al. 2024). Another avenue explored emotion
+preservation in translations through annotation projection,
+focusing on English and Finnish, French, and Italian lan-
+guage pairs (Kajava et al. 2020). In spite of these extensive
+scholarly investigations, there is a notable research gap in
+the analysis of emotions, particularly within the Arabic
+and English language pairs (Saadany and Orasan 2020). To
+further clarify this gap, a body of existing research has pre-
+dominantly concentrated on English and other languages,
+such as German (Zhang et al. 2017; Lohar et al. 2017, 2018;
+Troiano et al. 2020), Hindi (Kumari et al. 2021; Banik 2023),
+and Chinese (Si et al. 2019). Nevertheless, these studies and
+their proposed models may insufﬁciently capture the emo-
+tional semantics of Arabic sacred scriptures, particularly the
+Quran. This research, therefore, aims to investigate emotion
+preservation in Arabic-to-English translations of the Quran,
+leveraging emotion analysis and LLMs, extending the ﬁnd-
+ings of a previous study focused on sentiment (Gaanoun and
+Alsuhaibani 2025). This research introduced several contri-
+butions to the domain of Arabic NLP, which can be outlined
 as follows:
+• Investigating the abilities of LLMs to comprehend the
+Arabic sacred scripture, the Quran, and its inherent emo-
+tional semantics.
+• Offering an analysis of the preserved emotional seman-
+tics in seven English translations of the Quran.
+• Providing evidence of how the LLMs can capture the
+different emotional semantics in certain languages, Ara-
+bic and English, particularly with anger, fear, joy, and
+sadness classes.
+• Establishing a framework for assessing the quality of
+emotional translation in the Quran and its English trans-
+lations.
+• Development of the Emotionally-Labeled Quran Verses
+(ELQV), a dataset annotated by experts in the Arabic lin-
+guistics and Islamic law, with the objective of enhancing
+Arabic NLP and NLP-based Quran studies.
+The structure of this research is embodied in nine sec-
+tions, including this introductory one. It is organized in the
+following manner: Section 2 deﬁnes the research questions
+and objectives, and Section 3 reviews the existing research on
+sentiment preservation. Section 4 explains the methodologi-
+cal design of this research, whereas Section 5 describes the
+experimental design. Section 6 then outlines the results, suc-
+ceeded by a discussion in Section 7 and a qualitative analysis
+in Section 8. Section 9 lastly concludes the research.
+2 Research questions and objectives
+The central question that this research seeks to answer is:
+“Do the non-Arabic Muslims who read English translations
+of the Quran perceive the same emotions as the original Ara-
+bic readers?” In addition, this research seeks to address the
+following questions:
+1. To what degree do English translations of the Quran
+convey the emotions experienced by the original Arabic
+reader?
+2. TowhatextentcanLLMsaccuratelycapturetheemotions
+conveyed in sacred scriptures, speciﬁcally the Quran?
+3. What is the variation in emotion preservation levels
+among English translations of the Quran?
+Based on the given research questions, this research aims to
+achieve the following objectives:
+1. To examine the emotion preservation in English transla-
+tions of the Quran using LLMs.
+2. To investigate the potential of LLMs in capturing the
+emotions conveyed in the Quran and its English transla-
+tions.
+3. To develop a framework for assessing the quality of
+emotional translation in the Quran and its English trans-
+lations, adjusted for LLMs.
+123
 
---- Page 5 ---\n\nE. Class-Conditional Probabilities
-Bayes classifiers are employed to assess whether samples
-conform to the assumption of independence and identical
-distribution (i.i.d.). This means that each variable does not
-influence others and follows the same probability distribution.
-A common example of an i.i.d. variable is a coin toss, where
-the outcome of one toss does not impact subsequent tosses.
-Furthermore, it is important to note that Naive Bayes classifiers
-rely on the assumption that features are conditionally indepen-
-dent [32]. Instead of evaluating all possible combinations of
-x, class-conditional probabilities are estimated using training
-data. Given a d-dimensional feature vector x, the class-
-conditional probability is computed as follows:
-P (x | ωj) = P (x1 | ωj) · P (x2 | ωj) · . . . · P (xd | ωj) =
-d
-Y
-k=1
-P (xk | ωj)
-(2)
-For categorical data, the likelihood of each attribute in
-the feature vector can be approximated using the maximum
-likelihood estimate, which essentially counts the number of
-occurrences:
-ˆP (xi | ωj) = Nxi,ωj
-Nωj
-,
-i = 1, . . . , d
-(3)
-where: - Nxi,ωj represents the number of instances in which
-feature xi appears in samples belonging to class ωj. - Nωj
-denotes the total count of all features within class ωj.
-Imagine a dataset of 500 documents, where 100 are identi-
-fied as spam. Each document is examined based on the pres-
-ence of two specific features: ”hello” and ”world.” To estimate
-the probability of a new message containing ”Hello World”
-being classified as spam, one must consider the frequency of
-these features within spam messages. This involves computing
-the conditional probability of encountering the word ”world”
-in a known spam message and multiplying it by the conditional
-probability of the word ”hello” appearing in a spam message:
-P(x = [hello, world] | ω = spam) =
-P(hello | spam) · P(world | spam)
-(4)
-Although the assumption of conditional independence is
-often violated—such as in cases where words like ”peanut”
-and ”butter” frequently co-occur in a document—Naive Bayes
-classifiers have nonetheless demonstrated effectiveness in a
-variety of applications.
-F. Prior Probabilities
-A prior probability is introduced as a contrast to the
-frequentist approach, incorporating prior knowledge or beliefs
-[33]:
-P(posterior) = P(conditional) · P(prior)
-evidence
-(5)
-where: - P(spam) represents the probability of any given
-message being spam. - P(normal) denotes the probability of
-a message being non-spam [48].
-When priors are equally likely, the probability of each class
-is computed based on observed data, factoring in both class
-conditions and evidence (i.e., words within a message). This
-differs from a frequentist or maximum likelihood approach,
-which considers only probabilities conditioned on the class.
-The probability of a sample belonging to a specific class can
-be estimated using prior knowledge from domain experts or
-inferred from training data. This estimation assumes that the
-dataset is independent, uniformly distributed, and representa-
-tive of the overall population. The maximum-likelihood esti-
-mation (MLE) method is employed to derive class-conditional
-probabilities, applying the formula:
-ˆP(ωj) = Nωj
-Nc
-(6)
-where Nωj denotes the number of samples in class ωj, and
-Nc represents the total number of samples in the dataset.
-In the context of spam classification, the probability of a
-message being classified as spam can be computed as:
-ˆP(spam) = Number of spam messages (train)
-Total training samples
-(7)
-Using MLE, class-conditional probabilities are derived
-based on training samples, facilitating the classification pro-
-cess in spam detection systems[33].
-G. KNN Algorithm for Text Classification
-The k-Nearest Neighbors (KNN) algorithm is a widely used
-non-parametric method in pattern recognition and is a form
-of supervised learning employed for predictive classification.
-KNN operates by directly deriving classification rules from
-training data without requiring an explicit model. A test sample
-is classified based on the k most similar training samples,
-assigning it to the category that is most frequent among its
-k-nearest neighbors [34].
-To
-classify
-a
-document
-X
-using
-KNN,
-consider
-a
-dataset with N training samples categorized into classes
-C1, C2, ..., Cj. After preprocessing, each document is repre-
-sented as an m-dimensional feature vector. The document X
-is then represented by the feature vector (X1, X2, ..., Xm).
-To classify X, we compute its similarity with each training
-document di, where di is the feature vector representation of
-the i-th training document:
-SIM(X, di) =
-Pm
-j=1(xj −dij)
-qPm
-j=1 x2
-j ·
-qPm
-j=1 d2
-ij
-(8)
-To determine the probability that X belongs to a category,
-we select the k training samples that exhibit the highest
-similarity values, using:
-P(X, Cj) =
-X
-di∈KNN
-SIM(X, di) · y(di, Cj)
-(9)
+--- Page 3 ---
 
---- Page 6 ---\n\nwhere y(di, Cj) is a category attribute function, defined as:
-y(di, Cj) =
-(
-1,
-di ∈Cj
-0,
-di /∈Cj
-Traditional KNN classification faces three key challenges:
-1. The high dimensionality of text vectors increases com-
-putational complexity. 2. The classification process depends
-heavily on the dataset’s structure. 3. Optimizations such as
-dimensionality reduction, dataset balancing, and algorithm
-fine-tuning are necessary to enhance efficiency.
-The high dimensionality of text vectors leads to significant
-computational complexity. To mitigate this, strategies such
-as dimensionality reduction, dataset downsizing, and algo-
-rithm optimization can be employed. The method’s heavy
-dependence on the training set for generating classification
-rules means that even small changes in the dataset necessitate
-recalculating the entire model. There is an inherent assumption
-that all training samples are equal in weight, which does not
-account for the potentially uneven distribution of the training
-data [35].
-H. Support Vector Machine (SVM) for Text Classification
-Support Vector Machines (SVMs) are robust supervised
-learning models rooted in the principle of structured risk
-minimization within computational learning theory. They are
-widely recognized for their efficiency in various classifica-
-tion tasks [52]. Due to their superior performance in text
-categorization benchmarks, SVMs have become the preferred
-classification method for managing high-dimensional datasets,
-which are prevalent in text-related applications. The classifi-
-cation process of a Support Vector Machine (SVM) is defined
-by a decision function:
-ggn : ((w · x) + b).
-(10)
-For a given dataset of instances (x1, y1), . . . , (xl, yl), where
-x ∈RN and yi ∈{−1, +1} for i = 1, . . . , l, the objective is
-to determine a decision function f(w, b) such that:
-yi((w · x) + b) ≥1.
-(11)
-In scenarios where a perfectly separable hyperplane is not
-feasible, slack variables ξi are introduced to account for
-misclassification, formulated as follows:
-yi((w · x) + b) ≥1 −ξi,
-i = 1, . . . , l.
-(12)
-Here, ξi represents the slack variables, C is the penalty
-parameter that regulates misclassification tolerance, and b
-denotes the bias term. The support vectors, defined as data
-points xi with non-zero Lagrange multipliers αi, are critical
-in defining the SVM decision boundary.
-IV. LINEAR DISCRIMINANT ANALYSIS (LDA)
-Linear Discriminant Analysis (LDA) is a widely recognized
-method for both dimensionality reduction and classification.
-It is particularly advantageous when dealing with imbalanced
-class distributions. Typically, the performance of the model
-is assessed using randomly chosen test samples. LDA clas-
-sification is grounded in variance ratio comparisons, where
-the total variance is contrasted with the within-class variance
-for dependent transformations, and the between-class variance
-is examined against the within-class variance for independent
-transformations. To determine the number of samples per
-category, the process follows these steps: Given xi ∈Rd as
-d-dimensional input samples and yi ∈{1, 2, . . . , c} as the
-corresponding target labels, where n signifies the document
-count and c represents the number of classes [37].
-sW =
-c
-X
-l=1
-sl
-(13)
-The between-class scatter matrix is mathematically defined
-as:
-SB =
-C
-X
-i=1
-Ni (µi −µ) (µi −µ)T
-(14)
-where:
-µ = 1
-N
-X
-∀x
-x
-(15)
-To obtain the projection of the c −1 vectors wi into the
-matrix W, the transformation is conducted as follows:
-W = [w1 |w2| · · · | wc−1]
-yi = wT
-i x
-(16)
-As a result, the scatter and mean matrices are determined
-using the following expressions [37]:
-˜SW =
-c
-X
-i=1
-X
-y∈wi
-(y −˜µi) (y −˜µi)T
-˜SB =
-c
-X
-i=1
-(˜µi −˜µ) (˜µi −˜µ)T
-(17)
-For cases where projections exceed scalar values in (c −1)
-dimensions, the determinant of the scatter matrix is calculated
-as:
-J(W) = |SB|
-|SW |
-(18)
-This formulation can be restructured using the Fisher Dis-
-criminant Analysis (FDA) framework as:
-J(W) =
-W T SBW
-
-|W T SW W|
-(19)
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 3 of 23
+271
+3 Literature review
+Studies on the utilization of the translation process in NLP
+applications have demonstrated its impact on sentiment
+polarity (Aﬂi et al. 2017). This impact on sentiment polar-
+ity led to an alteration of the original sentiment class of the
+source text (Gangula and Mamidi 2018; Poncelas et al. 2020;
+Qian et al. 2023). The extent of alteration was assessed by the
+drop in the accuracy of sentiment analysis models (Moham-
+mad et al. 2016; Barhoumi et al. 2018; Poncelas et al. 2020;
+Sazzed 2020). Despite signiﬁcant ﬂaws in maintaining sen-
+timent polarity during translation, some sentiment analysis
+models can, however, derive sentiment information from the
+translations (Mohammad et al. 2016; Barhoumi et al. 2018;
+Poncelas et al. 2020; Saadany et al. 2023). Nevertheless, the
+translation processes must ensure that the knowledge con-
+tained in the source text, including the emotional traits, is
+accurately conveyed to the target text. As many translations
+often fail to maintain sentiment information from the source
+text (Kumari and Ekbal 2024), several studies addressed this
+concern, proposing different methodologies (Zhang et al.
+2017; Lohar et al. 2017, 2018; Si et al. 2019; Saadany
+and Orasan 2020; Troiano et al. 2020; Kumari et al. 2021;
+Saadany et al. 2022; Banik 2023; Gaanoun and Alsuhaibani
+2025).
+Zhang et al. (2017) investigated whether translation, either
+manual or automatic, preserves the sentiment of the original
+text. Research results indicated that there was no statistically
+signiﬁcant difference in sentiment between an English gold
+standard corpus and human translations. Therefore, human
+translation can preserve the sentiment class of the original
+texts, while machine translation systems tend to lose or mis-
+represent sentiment.
+To address the premise that machine translation systems
+fail to preserve the sentiment of the original text, Lohar et al.
+(2017) developed three sentiment-speciﬁc models to trans-
+late textual data associated with a speciﬁc sentiment class,
+including positive, neutral, or negative. The models inte-
+grated sentiment classiﬁcation with the machine translation
+system to produce the translations. The ﬁndings showed that
+this integration effectively preserved sentiment information.
+Lohar et al. (2018) built upon their prior research by
+introducing an approach termed nearest sentiment class to
+enhance the sentiment-speciﬁc machine translation mod-
+els. The proposed approach entailed including training data
+from the nearest sentiment class during the training process.
+The nearest sentiment class approach, using the sentiment-
+speciﬁc models, attained the highest sentiment preservation
+score of 60.33% while ensuring a balance between the quality
+of translation and the preservation of sentiment.
+By the same token, Si et al. (2019) enhanced the ability of
+neural machine translation systems to maintain the sentiment
+in the produced translations. They introduced a sentiment-
+aware neural machine translation system that incorporates
+a neural machine translation model with a sentiment anal-
+ysis model to produce sentiment-aware translations. The
+researchers reported that including contextual information
+in neural machine translation systems enhanced the transla-
+tion of subtle contextual traits. They concluded that neural
+machine translation systems can maintain the sentiment con-
+veyed in the source texts.
+SaadanyandOrasan(2020)developedsentiment-sensitive
+neural machine translation systems that handle sentiment
+polarity.Theresearchersincludedsentimentinformationdur-
+ing the encoding phase and then ﬁne-tuned neural machine
+translation models based on sentiment polarity. The results
+showed that sentiment-sensitive neural machine translation
+models can rectify sentiment errors in online translation of
+Arabic User-generated Content (UGC).
+Similarly,Troianoetal.(2020)examinedemotionpreservation
+in neural machine translation systems. The study presented
+an emotion-driven translation candidate re-ranking proce-
+dure as a post-processing phase for the translations produced
+by neural machine translation systems. The re-ranking pro-
+cedure utilizes an emotion classiﬁcation model that lever-
+ages probabilistic outputs to select a candidate translation
+that aligns closely with the emotional traits of the source
+emotion. The results showed that the proposed procedure
+enhanced emotion preservation without compromising trans-
+lation accuracy.
+In an in-depth investigation, Kumari et al. (2021) intro-
+duced a reinforcement learning-based framework to examine
+sentiment preservation in review translations. The proposed
+approach used an actor-critic approach with a novel harmonic
+reward module to ﬁne-tune a neural machine translation
+model to generate sentimentally and semantically preserved
+translations. The research revealed that the proposed method,
+with the novel harmonic reward, preserved the overall traits
+of the original text during the translation process.
+Saadany et al. (2022) presented a semi-supervised neu-
+ral machine translation model to improve the translation of
+sentiment in dialectical Arabic UGC. The proposed model
+was developed by training a Transformer model to translate
+dialectical Arabic into English. The evaluation of sentiment
+preservation showed that the semi-supervised machine trans-
+lation system preserved the sentiment effectively.
+Banik (2023) proposed a statistical machine translation
+model that generates sentiment-based translations. The pro-
+posedmodelcombinesasentimentmodelintoaphrase-based
+statistical machine translation model by incorporating sen-
+timent scores in the phrase table. Thus, the proposed model
+prioritizes phrases exhibiting a slight difference in sentiment
+score between the source phrase and the target phrase. The
+researcher demonstrated that the sentiment-phrase-based
+model preserved the sentiment successfully.
+123
 
---- Page 7 ---\n\nA. DT Classifier
-Decision Trees (DT) function by recursively partitioning
-data into subgroups through logical conditions. During the
-training process, the dataset is successively divided into two
-branches at each node based on a specific decision rule. The
-selection of an appropriate partitioning criterion is fundamen-
-tal for constructing an optimal Decision Tree. In this study, the
-Gini index is employed as the primary metric for determining
-the structure of the decision tree, following the Classification
-and Regression Tree (CART) methodology [38].
-B. DNN Classifier
-A Deep Neural Network (DNN) is an architecture composed
-of multiple sequentially connected layers, where each layer
-receives input from the preceding layer and transmits output
-to the next. Connections are established across all hierarchical
-levels. In the output layer, each node represents a classification
-category, while for binary classification, a single node is
-sufficient. The input layer, on the other hand, consists of nodes
-that correspond to textual features. This structured approach
-forms the foundation of DNN architectures, with further details
-elaborated upon in subsequent sections.
-C. Input Layer
-The input layer, represented by x, consists of n elements.
-Each component of x is formulated as a d-dimensional dense
-matrix, effectively defining x as a feature representation of
-size d × n.
-D. Hidden Layers
-In neural networks, hidden layers play a fundamental
-role in feature extraction. Consider three input elements
-x1, x2, . . . , xn, where the vector ci
-∈Rwd signifies the
-combined embedding of w successive inputs xi−ˆw+1, . . . , xi.
-Here, w represents the filter width, and the condition 0 < i <
-w applies. When i < 1 or i > n, embeddings are zero-padded
-to ensure uniformity.
-Consequently, the model representation Rd×wd is con-
-structed for the W-gram xi when i < 1 or i > n, employing
-the respective convolution weights Rd×wd assigned to the W-
-gram. This transformation is mathematically defined as:
-pi = tanh( ˆW · ci + b)
-(20)
-E. Principal Component Analysis (PCA)
-Principal Component Analysis (PCA) is a widely used
-technique for reducing the dimensionality of large datasets
-before conducting analysis, visualization, feature selection, or
-data compression. Once all attributes are normalized, PCA
-transforms the data matrix by decomposing it into singular
-values or by deriving eigenvalues from the covariance matrix
-[40]. Typically, to improve both computational efficiency and
-accuracy, the data is mean-centered at the initial stage of the
-process.
-F. Feature Extraction
-Feature extraction (FE) focuses on converting textual data
-into a structured format, such as a keyword vector, making
-it more suitable for supervised learning algorithms. This
-technique enhances the representation of textual information
-by capturing important aspects, such as the frequency of key
-terms in a document. Identifying and encoding relevant key-
-words is one of the fundamental steps in supervised machine
-learning, as it significantly improves the classification model’s
-ability to recognize the most informative patterns.
-G. Bag-of-Words (BoW) Model for Feature Extraction
-The Bag-of-Words (BoW) method represents textual data
-as a set of word occurrences, disregarding grammar and the
-sequential order of words. For a given training pair (x, y) ∈D,
-where x is a BoW vector x ∈Rnvocab and y is a categorical
-label y ∈Y , the goal is to establish a function ˆy = f (BoW)
-θ
-(x)
-with parameters θ, ensuring that ˆy approximates the actual
-label y. When applying the BoW model with a single hidden
-layer, it is crucial to conduct comparative evaluations using
-both BoW and TF-IDF representations [41]. In multi-label
-classification tasks, where an instance may belong to multiple
-categories, binary cross-entropy is favored over categorical
-cross-entropy. This preference arises because class labels are
-treated independently, with a binary Sigmoid activation func-
-tion determining the presence or absence of each label. Within
-the BoW framework, words are encoded as one-hot vectors.
-For a vocabulary of size | P |, each word is depicted as a
-sparse vector, where only the position corresponding to that
-word is set to 1, while all other elements remain 0.
-However, the scalability of the BoW model is limited due
-to the complexity and size of vocabularies. For example,
-phrases such as ”This is good” and ”Is this good” are assigned
-identical vector representations, despite differences in word
-arrangement, leading to a loss of syntactic information. This
-limitation presents challenges in computational linguistics and
-data science. While simple frequency-based techniques such
-as Term Frequency (TF) and BoW are effective for text
-feature extraction, they do not capture contextual relationships
-between words or their relative importance within a document
-[42].
-H. Evaluation of Text Classification
-When assessing the performance of document classifiers
-in text retrieval systems, experimental validation is generally
-preferred over purely analytical evaluation. This preference
-arises from the necessity of defining a formal problem frame-
-work to verify system accuracy and completeness. Due to the
-inherently subjective nature of text classification—where de-
-termining whether a document has been correctly categorized
-can be ambiguous—establishing a standardized evaluation
-criterion is challenging. Experimental assessments primarily
-focus on measuring classifier effectiveness in terms of predic-
-tion accuracy rather than computational efficiency.
+--- Page 4 ---
 
---- Page 8 ---\n\nI. Performance Metrics for Classification
-The performance of a classification algorithm is assessed
-using several key metrics, including accuracy, recall, precision,
-and the F1 score. Accuracy (Acci) is determined by computing
-the ratio of correctly classified instances to the total number
-of instances:
-Acci = Number of correctly classified texts
-Total number of texts
-Recall (Ri), also referred to as sensitivity, represents the
-fraction of actual relevant instances that have been successfully
-retrieved:
-Ri =
-TPi
-TPi + FNi
-Precision (Pi) quantifies the proportion of retrieved in-
-stances that are actually relevant:
-Pi =
-TPi
-TPi + FPi
-The F1 score serves as a harmonic mean of precision and
-recall, ensuring a balanced evaluation of the two metrics:
-F1 = 2 · Pi · Ri
-Pi + Ri
-These performance metrics are best assessed using a confu-
-sion matrix for each class ci within a test dataset. True posi-
-tives (TPi) represent the number of texts accurately classified
-as belonging to a given category, while true negatives (TNi)
-correspond to texts correctly identified as not belonging to that
-category. False positives (FPi) occur when a text is incorrectly
-assigned to a category, whereas false negatives (FNi) occur
-when a text that should belong to a category is misclassified
-as not belonging.
-J. Text preprocessing
-The text preparation process typically consists of four
-stages: tokenization, stop word removal, stemming, and vector
-space modeling. Tokenization involves removing special char-
-acters and white spaces. Removing stop words is a critical step
-for discarding information that does not carry meaningful se-
-mantic content. According to information retrieval specialists
-[43], common words like ”the,” ”a,” ”and,” and ”that,” though
-grammatically necessary, offer little in terms of content-related
-significance due to their ubiquitous presence in English texts
-and consequently hold low discriminative value. Afterword
-extraction, a final check is conducted to ensure all stop words
-have been removed from the dataset. Stemming is a technique
-that simplifies words to their root forms by trimming prefixes
-and suffixes. This process not only reduces the keyword space
-but also potentially enhances text classification performance by
-merging variations of a word into a single representative term.
-Stemming is often employed in knowledge retrieval to improve
-efficiency and produce more pertinent search results. In vector
-space modeling, each term in the dataset is represented as
-a vector denoted by (x, td), where ’x’ stands for the vector
-dimensions, ’R’ for the terms, and ’n’ for the total count of
-terms. The dimension of a keyword within the vector space is
-determined either by its frequency within the document or by
-its relevance to the text classification task.
-K. Text classification process
-The text classification process, as illustrated in Figure 1,
-consists of six key stages: data acquisition, text preprocessing,
-feature extraction, dimensionality reduction, model training,
-and performance assessment.
-Fig. 1.
-Linear situations are characterized by direct proportionality between
-variables – as one variable changes, the other does so in a predictable, constant
-way. These relationships can be visually represented by a straight line on a
-graph.
-Figure 2 presents a structured methodology for evaluating
-the effectiveness of various classification techniques in SMS
-spam detection. The process begins with data preprocessing,
-which entails the removal of stop words, followed by stem-
-ming and tokenization. The dataset is subsequently divided
-into training and test sets. Feature extraction is applied to
-the training data using two distinct approaches: Bag-of-Words
-(BoW) and Term Frequency-Inverse Document Frequency
-(TF-IDF). For features obtained via TF-IDF, Principal Com-
-ponent Analysis (PCA) is employed to reduce dimensionality
-to 10 principal components.
-Following feature extraction, six classification models are
-trained on both feature sets: Naive Bayes (NB), K-Nearest
-Neighbors (KNN), Support Vector Machines (SVM), Linear
-Discriminant Analysis (LDA), Decision Trees (DT), and Deep
-Neural Networks (DNN). The classifiers’ performance on the
-test set is assessed using various evaluation metrics, including
-precision, recall, F1-score, accuracy, and Area Under the
-Curve (AUC). Additionally, Receiver Operating Characteristic
-(ROC) curves and confusion matrices are generated for each
-classifier-feature combination.
-This study utilizes these evaluation metrics to conduct a
-comparative analysis, aiming to determine which classifier
-exhibits the highest performance based on the obtained re-
-sults. Ultimately, the study concludes with a comprehensive
-discussion of the findings and their broader implications.
-L. Data collection
-For our SMS spam detection project, we utilized a dataset of
-SMS messages available in CSV format from Kaggle. Kaggle
+271
+Page 4 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+In a seminal work to preserve the sentiment of the
+Quran, which is the closest study for this research, is the
+study conducted by Gaanoun and Alsuhaibani (2025). The
+study, particularly, investigated sentiment preservation in
+the English translations of the Quran using Transformer
+Language Models (TLMs) alongside a human validation
+approach. The researchers used the TLMs to predict the
+sentiment class for each verse of the Quran and its asso-
+ciated translations. These predictions were then validated by
+humans, as this approach enabled the researchers to assess
+the agreement levels between the Quran and the translations
+about sentiment.
+Considering the above-mentioned literature, most studies
+have focused on sentiment preservation in translations rather
+than on emotion. This gap is particularly noteworthy because
+sentiment addresses the overall polarity, whereas emotion
+explores the subtleties conveyed in the scripts, providing a
+detailed analysis. Additionally, a signiﬁcant number of stud-
+ies were centered on investigating the preservation level of
+the translations produced by machine translation systems,
+speciﬁcally in the context of UGC. These gaps are partic-
+ularly signiﬁcant considering the contextual nature of the
+Islamic scripts, where little shifts in tone or meaning can
+lead to substantial differences in interpretation.
+Furthermore, although the scholarly investigation into senti-
+ment preservation expanded in various directions, merely a
+single study, the closest work to our proposed approach, has
+investigated sentiment preservation in English translations
+of the Quran (Gaanoun and Alsuhaibani 2025). One of the
+pronounced gaps in this study is the dominance of the neutral
+sentiment class in their Quranic dataset. Statistically, the neu-
+tral class constituted between 58% and 74%, which served
+as the primary impetus for this research. Further, despite the
+commendable human veriﬁcation approach, its focus on a
+non-expert population of Arabic readers could potentially
+lead to incomplete understanding of the sentiment embed-
+ded in the Quran verses, resulting in the above-mentioned
+issue, the dominance of the neutral class. Additional gap is
+that the study focused primarily on the CAMeLBERT models
+(Inoue et al. 2021), which did not utilize pre-segmentation,
+lightweight, or disentangled attention techniques during the
+training process. CAMeLBERT models, while promising,
+are tailored for sentiment analysis, raising questions about
+their applicability in capturing subtleties in Arabic emotion
+analysis. Last gap is that the study lacks an assessment of
+the concordance between the predictions of the TLMs and
+those of the annotators, which this research seeks to address.
+Therefore, this research aims to bridge the above-mentioned
+gaps by investigating emotion preservation in English trans-
+lations of the Quran using LLMs. In particular, the research
+seeks to enhance the human veriﬁcation approach and expand
+the array of the models to examine the efﬁcacy of different
+models trained using multiple methodologies and architec-
+tures.
+4 Methodology
+To successfully achieve the primary objectives of this
+research, we utilize diverse methodological strategies. The
+proposed methodology includes two fundamental modules:
+emotion analysis and emotion agreement evaluation, as illus-
+trated in Fig. 1.
+The primary objective of the methodology is to identify
+the emotional class for each verse of the Quran and its cor-
+Fig. 1 High-level overview of the proposed methodology
+123
 
---- Page 9 ---\n\nFig. 2. Conceptual diagram and workflow
-is a well-known platform that hosts data science competitions
-and offers a variety of datasets [44]. The dataset comprises
-5,572 records, with each entry representing an individual
-message. Each message in the dataset is characterized by two
-attributes: ’category’, which specifies whether the message is
-spam or not, and ’message’, which contains the actual text
-content of the SMS.. The ’message’ attribute contains the text
-content of the SMS, while the ’category’ attribute classifies
-each message as either ’spam’ or ’ham’ (the latter indicating
-a non-spam message).
-In the preprocessing phase, the ’category’ attribute was
-converted into a factor variable, which is essential for cat-
-egorical analysis in many statistical and machine learning
-frameworks. The dataset exhibits an imbalance with a majority
-of ’ham’ messages, totaling 4,825, in contrast to 750 messages
-labeled as ’spam’. For the purposes of training and evaluating
-machine learning models, the data is arranged into a matrix
-of dimensions 5,572 × 2, representing the observations and
-variables, respectively.
-V. RESULTS AND DISCUSSION
-The primary objective of this experimental study was to
-design and evaluate a range of algorithms for detecting
-spam in SMS messages. The implementation of these al-
-gorithms was conducted using Python, PyTorch, and scikit-
-learn. For benchmarking purposes, we utilized well-established
-classification models, including Naive Bayes (NB), Support
-Vector Machines (SVM), k-Nearest Neighbors (KNN), Deep
-Neural Networks (DNN), Decision Trees (DT), and Linear
-Discriminant Analysis (LDA), alongside a proprietary DNN
-model. The performance of each classifier was assessed using
-multiple evaluation metrics, including precision, recall, F1-
-score, accuracy, and the Area Under the Receiver Operating
-Characteristic Curve (AUC).
-Feature extraction was performed using two distinct ap-
-proaches: Bag-of-Words (BoW) and Term Frequency-Inverse
-Document Frequency (TF-IDF). Furthermore, Principal Com-
-ponent Analysis (PCA) was applied to reduce the dimension-
-ality of the TF-IDF feature space, enhancing computational
-efficiency. Our research also involved the deployment of a
-deep neural network (DNN) to classify SMS messages as
-either spam or non-spam. The DNN architecture consisted
-of six fully connected layers, with input and output dimen-
-sions corresponding to the number of features and classes,
-respectively. To prevent overfitting, a non-linear activation
-function (Tanh) was incorporated at each layer, combined with
-dropout regularization. The output layer of the DNN model
-generated the predicted class label by processing input features
-through the network layers. The performance of the model was
-evaluated on a test dataset using the same metrics as the other
-classifiers, namely precision, recall, F1-score, accuracy, and
-AUC.
-A widely adopted approach for measuring classification
-performance is the confusion matrix, which visually represents
-the differences between actual and predicted class labels. In
-our study, confusion matrices were used to assess the effective-
-ness of different feature extraction methods and classification
-models for SMS spam detection. The confusion matrix consists
-of four key components:
-• True Positives (TP): Spam messages correctly classified
-as spam.
-• False Positives (FP): Non-spam messages mistakenly
-classified as spam.
-• False Negatives (FN): Spam messages incorrectly identi-
-fied as non-spam.
-• True Negatives (TN): Non-spam messages correctly iden-
-tified as non-spam.
-These elements were utilized to compute essential classifi-
-cation metrics, including accuracy, precision, recall, and the
-F1-score.
-These components were employed to derive key classi-
-fication performance metrics, including accuracy, precision,
-recall, and the F1-score. In this study, we assessed the
-effectiveness of six classification models trained using two
-feature extraction approaches, namely Bag-of-Words (BoW)
-and Term Frequency-Inverse Document Frequency (TF-IDF).
-The evaluation was conducted through an analysis of confu-
-sion matrices and Receiver Operating Characteristic (ROC)
-curves. The obtained results highlight the relative strengths
-and limitations of these models. The findings, along with the
-corresponding confusion matrices, are depicted in Figures 3
-and 6.
-The Receiver Operating Characteristic (ROC) curve is a fun-
-damental tool for evaluating the performance of classification
-models. It visually illustrates the trade-off between the True
-Positive Rate (TPR) and the False Positive Rate (FPR) across
-varying threshold levels. The TPR indicates the proportion of
+--- Page 5 ---
 
---- Page 10 ---\n\nFig. 3. The confusion matrices for various machine learning models utilizing the Bag-of-Words (BoW) feature extraction technique
-correctly classified positive instances, while the FPR repre-
-sents the fraction of negative instances incorrectly classified
-as positives. The ROC curve is generated by systematically
-adjusting the classification threshold and plotting the resulting
-TPR and FPR values. Figure 4, in this study, provides a
-comparative evaluation of different classifiers employing the
-Bag-of-Words (BoW) method for feature extraction.
-Referring to Figure 4, the Area Under the Curve (AUC)
-values for the six classifiers employing the Bag-of-Words
-(BoW) feature extraction method are analyzed. As illustrated
-in the figure, the Naive Bayes (NB) classifier attains the
-highest AUC score with BoW, achieving values of 0.96 for
-non-spam messages and 0.95 for spam messages. In contrast,
-the k-Nearest Neighbors (KNN) classifier records the lowest
-AUC values for the BoW approach, with 0.87 for non-spam
-and 0.59 for spam messages. The overall range of AUC values
-for non-spam messages using BoW spans from 0.87 to 0.96,
-whereas for spam messages, the values vary between 0.59
-and 0.95. Among the evaluated classifiers, the NB model
-consistently outperforms others when utilizing this particular
-feature extraction technique.
-The Scree plot in Figure 4 depicts the proportion of variance
-in the dataset explained by each principal component obtained
-from the Principal Component Analysis (PCA) applied to the
-TF-IDF features. The plot demonstrates a declining trend, in-
-dicating that as the number of principal components increases,
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 5 of 23
+271
+responding English translations. Following that, it seeks to
+evaluate the extent to which the English translations of the
+Quran preserve the original emotional essence by statistical
+metrics. As mentioned earlier, this objective will be achieved
+through two primary modules, namely the emotion analysis
+module and the emotion agreement evaluation module.
+The emotion analysis module involves a two-step process
+that integrates the functionalities of advanced approaches,
+speciﬁcally LLMs, with human proﬁciency. It involves two
+major stages, namely the emotion prediction and emotion
+veriﬁcation. The emotion prediction stage involves using a
+collection of LLMs to identify the emotional class for each
+verse of the Quran and its corresponding English translations.
+The emotional classes employed in this research consist of
+four class labels: anger, fear, joy, and sadness. To predict the
+emotional class, the LLMs underwent ﬁne-tuning, the speci-
+ﬁcations of the ﬁne-tuning settings provided in Appendix A,
+which includes adding a fully connected linear layer on
+top of a pre-trained model. Consequently, the LLMs were
+employed exclusively for the task of emotion analysis using
+the above-mentioned emotional classes. As for the emotion
+veriﬁcation stage, it entails sampling the automatic emotion
+annotations generated by the LLMs and annotating and val-
+idating them by specialist human annotators. This two-step
+process enables a comprehensive understanding of emotional
+consistency between the Quran and the English translations.
+The emotion agreement evaluation module seeks to eval-
+uate the compatibility of emotional classiﬁcations between
+the verses of the Quran and their associated English transla-
+tions. To achieve that, this module utilizes certain statistical
+techniques, namely the inter-rater reliability measures, to
+quantify the level of agreement between the emotion class
+assigned to each verse and its respective English translations.
+Thismoduleprimarilydemonstratestheextenttowhichemo-
+tional semantics is preserved in English translations of the
+Quran following the translation process.
+5 Experiment
+This section describes the experimental settings employed
+for training and analysis. It is structured as follows: Sec-
+tion 5.1 commences with a description of the experimental
+setup. Section 5.2 then provides a thorough explanation of the
+parallel corpus utilized for the analysis. Section 5.3 clariﬁes
+the emotion analysis process.
+5.1 Experimental setup
+For the experimental setup, we utilized Google Colab2, a
+hosted Jupyter Notebook service that demands no setup and
+offers complimentary access to computational resources.
+2 https://colab.google/
+All experiments were conducted using the Colab Pro+
+version with GPUs and using the Hugging Face Transform-
+ers library3. The experimental conﬁguration comprised an
+NVIDIA A100-SXM4-40GB GPU utilizing CUDA version
+12.2 and a 10-core Apple M2 GPU with 8GB of RAM to
+guarantee efﬁcient and reliable execution.
+5.2 Data
+This research primarily investigates whether English trans-
+lations preserve the emotional essence of the Quran. To
+this end, we used a high-quality parallel corpus, compiled
+via web scraping, that integrates all 6236 Quran verses
+together with seven different English translations (Gaanoun
+and Alsuhaibani 2025). A detailed description of the included
+English translations is highlighted below, accompanied by a
+sample from the dataset in Table 1.
+• The Koran Interpreted. It is an English translation of
+the Holy Quran, published in 1955 by Arberry (1996).
+The author is a non-Muslim British academic interested
+in Arabic literature, Persian studies, and Islamic studies.
+Despite being non-Muslim, he agreed with the Islamic
+perspective that the Quran cannot be translated but can
+only be interpreted. This translation is among the most
+notable produced by a non-Muslim expert.
+• The Holy Quran, The Arabic Text and English Trans-
+lation. This translation was published in 1981 by scholar
+Muhammad (Sarwar 1981). He is a Muslim who con-
+tributed to the translation of the meanings of the Quran
+from Arabic to English, resulting in this Shi’a translation.
+• Interpretation of the Meanings of the Noble Quran.
+This translation has been written by Al-Hilali and Khan
+(1998), where both are Islamic scholars who interpreted
+the meaning of the Quran according to their under-
+standing. This translation has received approval from the
+University of Medina and the Saudi Dar al-Ifta. It was
+published in 1998 and printed at the King Fahd Complex
+for the Printing of the Holy Quran in Madinah, Saudi
+Arabia. This translation is the most extensively circulated
+translation in most of the English-speaking globe.
+• The Meaning of the Glorious Koran. It is an English
+translation of the Quran, along with a brief introduction
+to the chapters (surahs), released in 1930 by Muham-
+mad Marmaduke Pickthall (1953). He is a British Muslim
+who embraced Islam in 1917 and was an English Islamic
+scholarinterestedinreligiousaffairs.Thistranslationwas
+the ﬁrst translation by a Muslim whose native language
+is English and continues to be among the most popular
+translations.
+3 https://huggingface.co/
+123
 
---- Page 11 ---\n\nFig. 4.
-The ROC curve comparing different machine learning models
-employing the Bag-of-Words (BoW) feature extraction method
-Fig. 5. The scree plot illustrating the feature reduction of TF-IDF features
-using Principal Component Analysis (PCA)
-the amount of variance they capture diminishes. This suggests
-that the first few principal components retain the most crucial
-information necessary for the classification process. In this
-study, the top 10 principal components, which collectively
-accounted for a significant portion of the total variance, were
-chosen as the feature set for the classification models.
-For the Naive Bayes classifier, the Term Frequency-Inverse
-Document Frequency (TF-IDF) feature extraction method ex-
-hibited the highest performance, achieving an accuracy of 0.97
-and a recall of 0.75 for spam messages. The model maintained
-a high overall accuracy of 0.97, with an F1-score of 0.84.
-Furthermore, the Area Under the Curve (AUC) value of 0.96
-highlighted the classifier’s robust ability to distinguish between
-spam and non-spam messages.
-In contrast, the Bag-of-Words (BoW) feature extraction
-method yielded the best results with the k-Nearest Neighbors
-(KNN) classifier, attaining an accuracy of 0.87 and a perfect
-recall of 1 for non-spam messages. However, its capability
-in detecting spam messages was significantly lower, with an
-accuracy of only 0.04. The corresponding F1-score of 0.59
-and an AUC of 0.59 indicated suboptimal overall performance.
-For the Support Vector Machine (SVM) classifier, the TF-IDF
-feature extraction method demonstrated strong effectiveness,
-with an accuracy of 0.92 and a recall of 0.88 for spam
-messages. The model’s overall accuracy was recorded at 0.95,
-while the F1-score reached 0.42. Additionally, an AUC of 0.96
-further validated the classifier’s reliability in spam detection.
-Regarding Figure 6, the Area Under the Curve (AUC) values
-for the six classifiers employing the Term Frequency-Inverse
-Document Frequency (TF-IDF) feature extraction technique
-exhibited variations across different models. The Deep Neural
-Network (DNN) classifier achieved the highest AUC score of
-0.95, demonstrating its capability in effectively distinguish-
-ing between spam and non-spam messages. Similarly, the
-Naive Bayes (NB) and Linear Discriminant Analysis (LDA)
-classifiers reported strong AUC values of 0.94 and 0.96,
-respectively. Furthermore, the Support Vector Machine (SVM)
-classifier attained the second-highest AUC value, as detailed
-in Table 2.
-According to Table 2, the Term Frequency-Inverse Docu-
-ment Frequency (TF-IDF) feature extraction method achieved
-the best classification performance when combined with Lin-
-ear Discriminant Analysis (LDA). Specifically, for spam de-
-tection, the model recorded a precision of 0.81 and a recall
-of 0.97, reflecting strong classification capability. The model
-attained an overall accuracy of 0.97, with an F1-score of 0.72.
-Additionally, an Area Under the Curve (AUC) value of 0.94
-confirmed its effectiveness in distinguishing between spam and
-non-spam messages. On the other hand, using the Bag-of-
-Words (BoW) feature extraction method alongside Decision
-Trees (DT) led to relatively lower classification performance.
-For spam classification, this approach yielded a precision of
-0.65 and a recall of 0.95. However, the overall accuracy
-was only 0.65, with an F1-score of 0.64. The corresponding
-AUC score for this combination was 0.80, indicating moderate
-performance. Despite these results, the BoW method produced
-the best outcomes when applied to the Deep Neural Network
-(DNN) classifier, achieving a precision of 0.89 and a recall of
-0.99 for spam messages. The model maintained an accuracy
-of 0.95, although the F1-score was relatively lower at 0.41.
-With an AUC of 0.92, the overall classification performance
-of this model was deemed satisfactory.
-Overall, the findings suggest that the TF-IDF feature ex-
-traction technique consistently surpasses the BoW method
-across all six classification models assessed. In particular, TF-
-IDF demonstrated significant effectiveness when paired with
-Naive Bayes (NB), Support Vector Machines (SVM), and
-Deep Neural Networks (DNN). In contrast, classifiers such
-as k-Nearest Neighbors (KNN), Linear Discriminant Analysis
-(LDA), and Decision Trees (DT) exhibited lower effectiveness,
-regardless of the feature extraction technique used.
-VI. CONCLUSION
-The findings of this study reveal that among the six
-classification models examined, the Term Frequency-Inverse
+--- Page 6 ---
 
---- Page 12 ---\n\nFig. 6. The confusion matrices for various machine learning models utilizing the Term Frequency-Inverse Document Frequency (TF-IDF) feature extraction
-technique
-Document Frequency (TF-IDF) feature extraction method con-
-sistently outperforms the Bag-of-Words (BoW) approach for
-detecting spam in SMS messages. The evaluation was carried
-out using various performance metrics, including precision,
-recall, F1-score, accuracy, and the Area Under the Curve
-(AUC), to assess the effectiveness of each classification model.
-The TF-IDF technique demonstrated the highest perfor-
-mance when paired with the Naive Bayes (NB) classifier,
-achieving a precision of 0.97 and a recall of 0.75 for spam
-messages. Likewise, the Support Vector Machine (SVM) clas-
-sifier exhibited strong performance with TF-IDF, recording an
-accuracy of 0.92 and a recall of 0.88 for spam classification.
-In contrast, classifiers such as Linear Discriminant Analysis
-(LDA) and Decision Trees (DT) showed comparatively lower
-effectiveness, regardless of the feature extraction method ap-
-plied. When employing the BoW technique, the k-Nearest
-Neighbors (KNN) classifier performed well in recognizing
-non-spam messages but faced challenges in accurately iden-
-tifying spam content. These findings suggest that integrating
-the TF-IDF feature extraction approach with classifiers such
-as NB, SVM, or Deep Neural Networks (DNN) presents a
-reliable strategy for spam detection in SMS messages.
-The Deep Neural Network (DNN) model showed solid
-performance overall, with BoW providing the most favorable
-
---- Page 13 ---\n\nTABLE II
-COMPARISON OF MACHINE LEARNING METHODS BASED ON PERFORMANCE METRICS
-Classification Model
-Feature Extraction
-Precision (N)
-Precision (S)
-Recall (N)
-Recall (S)
-F1-score (N)
-F1-score (S)
-Overall Accuracy
-AUC
-Naive Bayes
-Bag-of-Words
-0.971
-0.939
-0.994
-0.781
-0.985
-0.861
-0.965
-0.953
-TF-IDF
-0.976
-0.754
-0.968
-0.849
-0.970
-0.796
-0.946
-0.962
-K-Nearest Neighbors
-Bag-of-Words
-0.874
-1.002
-1.004
-0.048
-0.931
-0.101
-0.872
-0.594
-TF-IDF
-0.962
-0.865
-0.985
-0.741
-0.973
-0.808
-0.953
-0.931
-Support Vector Machines
-Bag-of-Words
-0.923
-0.995
-1.000
-0.459
-0.961
-0.627
-0.926
-0.952
-TF-IDF
-0.926
-0.891
-0.990
-0.429
-0.953
-0.571
-0.914
-0.961
-Linear Discriminant Analysis
-Bag-of-Words
-0.924
-0.423
-0.884
-0.538
-0.909
-0.474
-0.845
-0.769
-TF-IDF
-0.965
-0.811
-0.972
-0.728
-0.976
-0.765
-0.945
-0.963
-Decision Trees
-Bag-of-Words
-0.948
-0.798
-0.987
-0.578
-0.968
-0.663
-0.924
-0.770
-TF-IDF
-0.943
-0.656
-0.953
-0.642
-0.653
-0.643
-0.899
-0.803
-Deep Neural Network
-Bag-of-Words
-0.943
-0.997
-1.003
-0.612
-0.973
-0.764
-0.954
-0.923
-TF-IDF
-0.928
-0.890
-0.991
-0.415
-0.952
-0.567
-0.910
-0.954
-Fig. 7.
-The ROC curve comparing the performance of different machine
-learning models using the TF-IDF feature extraction technique
-results for this classifier. In conclusion, the study suggests
-that integrating the TF-IDF feature extraction method with
-NB, SVM, or DNN classifiers is an effective strategy for
-identifying spam in user SMS messages. Caution is advised
-when considering KNN, LDA, and DT for this task. The
-use of confusion matrices and ROC curves can guide future
-researchers in selecting the most effective feature extraction
-and classification techniques for SMS spam detection. Further
-research might explore the performance of other feature ex-
-traction methods, like word embedding or character n-grams.
-It could also investigate the potential benefits of employing
-ensemble methods and active learning strategies to enhance
-SMS spam detection capabilities.
-VII. LIMITATIONS
-Despite the promising results obtained in this study, there
-are several limitations that should be acknowledged:
-• The dataset used in this study contained a disproportion-
-ate number of non-spam messages compared to spam
-messages. This imbalance could affect the generalizabil-
-ity of the results, potentially leading to biased classifier
-performance.
-• Feature Representation Constraints: While TF-IDF out-
-performed BoW, both methods primarily rely on word
-frequency and do not fully capture the semantic meaning
-or contextual relationships between words.
-• Some models, such as KNN and DT, exhibited lower
-performance for spam detection. These models may not
-be well-suited for handling large-scale text classification
-problems and require further optimization.
-• The study was conducted using a single publicly available
-dataset. The results may vary when applied to different
-datasets with varying linguistic structures, requiring fur-
-ther validation.
-• The study did not explore modern deep learning-based
-language models, such as word embeddings (Word2Vec,
-GloVe) or transformer-based models (BERT), which
-could potentially enhance classification accuracy.
-VIII. FUTURE WORK
-While this study has demonstrated the effectiveness of the
-TF-IDF feature extraction method in conjunction with various
-classifiers, there remain several avenues for future research.
-One potential direction is the integration of contextual word
-embeddings, such as BERT, Word2Vec, or fastText, to bet-
-ter capture semantic relationships and improve classification
-accuracy. Additionally, addressing the dataset imbalance issue
-through techniques like data augmentation, synthetic data gen-
-eration, or resampling methods (e.g., SMOTE) could enhance
-the robustness of spam detection models. Future studies may
-also explore hybrid approaches by combining multiple feature
-extraction techniques, such as TF-IDF with deep learning-
-based embeddings, to improve classification performance.
-Moreover, expanding the dataset to include multilingual SMS
-messages could provide insights into the effectiveness of
-classifiers across different languages and linguistic structures.
-Another important consideration is the implementation of real-
-time spam filtering systems and evaluating their computational
-efficiency in production environments.
-IX. REFERENCES
-1. Annamoradnejad I, Habibi J, Fazli M. Multi-view
-approach
-to
-suggest
-moderation
-actions
-in
-community
-question answering sites. Information Sciences. 2022 Jul
-1;600:144-54.
-
---- Page 14 ---\n\n2. Abkenar SB, Kashani MH, Akbari M, Mahdipour E.
-Twitter spam detection: a systematic review. arXiv preprint
-arXiv:2011.14754. 2020 Nov 30.
-3. Saeidnia HR, Hosseini E, Lund B, Tehrani MA, Zaker
-S, Molaei S. Artificial intelligence in the battle against
-disinformation and misinformation: a systematic review of
-challenges and approaches. Knowledge and Information
-Systems. 2025 Jan 27:1-20.
-4. Sharma R, Singh B, Khamparia A. Machine Learning
-and Generative AI Techniques for Sentiment Analysis with
-Applications. Generative Artificial Intelligence for Biomedical
-and Smart Health Informatics. 2025 Jan 9:183-208.
-5. Kowsari K, Jafari Meimandi K, Heidarysafa M, Mendu S,
-Barnes L, Brown D. Text classification algorithms: A survey.
-Information. 2019 Apr 23;10(4):150.
-6. Kahl S, Wood CM, Eibl M, Klinck H. BirdNET: A deep
-learning solution for avian diversity monitoring. Ecological
-Informatics. 2021 Mar 1;61:101236.
-7. Thielmann A, Weisser C, Krenz A, S¨afken B. Unsupervised
-document classification integrating web scraping, one-class
-SVM and LDA topic modelling. Journal of Applied Statistics.
-2023 Feb 17;50(3):574-91.
-8. Alodadi N. Characterization, Extraction, and Impact
-Assessment
-of
-Semantic
-Aspects
-in
-Online
-Physician
-Reviews (Doctoral dissertation, University of Maryland,
-Baltimore County).
-9. Jang J, Kim Y, Choi K, Suh S. Sequential targeting:
-a continual learning approach for data imbalance in text
-classification. Expert Systems with Applications. 2021 Oct
-1;179:115067.
-10. P.K. Roy, J.P. Singh and S. Banerjee, ”Deep learning to
-filter SMS Spam”, Future Gener. Comput. Syst, vol. 102, pp.
-524-533, 2020.
-11. J.W. Joo, S.Y. Moon, S. Singh and J.H. Park, ”S-Detector:
-an enhanced security model for detecting Smishing attack for
-mobile computing”, Telecommun. Syst, vol. 66, pp. 29-38,
-2017.
-12. Chandra A, Khatri SK (2019a) Spam SMS filtering using
-recurrent neural network and long short term memory. In
-2019 4th international conference on information systems and
-computer networks (ISCON) (pp. 118-122).
-13. Chandra A, Khatri SK (2019b) Spam SMS filtering using
-recurrent neural network and long short term memory. In
-2019 4th international conference on information systems and
-computer networks (ISCON) (pp. 118-122).
-14. Lee HY, Kang SS (2019) Word embedding method of
-sms messages for spam message filtering. In 2019 IEEE.
-international conference on big data and smart computing
-(BigComp) (pp. 1-4). IEEE.
-15. Q. Xu, E. W. Xiang, Q. Yang, J. Du, and J. Zhong,
-”SMS Spam Detection Using Noncontent Features,” IEEE
-Intell. Syst., vol. 27, no. 6, pp. 44– 51, Nov. 2012, doi:
-10.1109/MIS.2012.3 16. T. A. Almeida, J. M. G. Hidalgo,
-and A. Yamakami. ”Contributions to the study of SMS spam
-filtering: new collection and results,” in Proc. of the 11th
-ACM symposium on Document engineering, pp. 259-262,
-2011, doi: 10.1145/2034691.2034742.
-17. T. A. Almeida, J. M. G. Hidalgo, and A. Yamakami.
-”Contributions
-to
+271
+Page 6 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Table 1 Sample of the data
+Sourah_number
+1
+26
+31
+Verse_number
+6
+195
+3
+VerseDiac
+Verse
+Sourah_Ar
+Sourah_En
+l-fatihah
+l-shu’ara
+luq’man
+Sahih_int
+Guide us to the straight
+path
+In a clear Arabic lan-
+guage
+As guidance and mercy
+for the doers of good
+Pickthall
+Show
+us
 the
-study
-of
-SMS
-spam
-filtering:
-new collection and results,” in Proc. of the 11th ACM
-symposium on Document engineering, pp. 259-262, 2011,
-doi: 10.1145/2034691.2034742.
-18. Jain, A. K., & Gupta, B. B. (2019). Feature-based
-approach for detection of smishing messages in the mobile
-environment.Journal of Information Technology Research
-(JITR),12(2), 17-3.
-19. Ghourabi, A., Mahmood, M. A., & Alzubi, Q. M. (2020).
-A hybrid CNN-LSTM model for SMS spam detection in
-Arabic and english messages.Future Internet,12(9), 156.
-20. Bassiouni, M., Ali, M., & El-Dahshan, E. A. (2018).
-Ham and spam e-mails classification using machine learning
-techniques.Journal
-of
-Applied
-Security
-Research,13(3),
-315-33.
-21. Saeed VA. A Method for SMS Spam Message Detection
-Using Machine Learning.
-22. Srinivasarao U, Sharaff A. Machine intelligence based
-hybrid classifier for spam detection and sentiment analysis
-of SMS messages. Multimedia Tools and Applications. 2023
-Feb 23:1-31.
-23. Dharani V, Hegde D. Spam SMS (or) Email Detection
-and Classification using Machine Learning. In2023 5th
-International Conference on Smart Systems and Inventive
-Technology (ICSSIT) 2023 Jan 23 (pp. 1104-1108). IEEE.
-24.
-Gautam
-S.
-Comparison
-of
-Feature
-Representation
-Schemes to Classify SMS Text using Data Balancing.
-25. Raga S, BL MC. Machine Learning and Deep Learning
-Techniques for SMS Spam Detection, Accuracy Check and
-Comparative Study. Journal homepage: www. ijrpr. com
-ISSN.;2582:7421.
-26. Prasad JK, Christy S. SMS Spam Detection Using
-Multinational
-Naive
-Bayes
-Algorithm
-Compared
-with
-Decision Tree Algorithm. Baltic Journal of Law & Politics.
-2022 Dec 13;15(4):349-56.
-27. Kadhim AI. Survey on supervised machine learning
-techniques
-for
-automatic
-text
-classification.
-Artificial
-Intelligence Review. 2019 Jun 1;52(1):273-92.
-28.
-Sebastiani
-F.
-Machine
-learning
-in
-automated
-text
-categorization. ACM computing surveys (CSUR). 2002 Mar
-1;34(1):1-47.
-29. Al-Aidaroos KM, Bakar AA, Othman Z. Naive Bayes
-variants
-in
-classification
-learning.
-In2010
-international
-conference on information retrieval & knowledge management
-(CAMP) 2010 Mar 17 (pp. 276-281). IEEE.
-30. Hasan N, Choudhary S, Naaz N, Sharma N, Laskar
-RA.
-Recent
-advancements
-in
-molecular
-marker-assisted
-selection and applications in plant breeding programmes.
-Journal of Genetic Engineering and Biotechnology. 2021
-Dec;19(1):1-26.
-31. Sanz EP, Hidalgo JM, P´erez JC. Email spam filtering.
-Advances in computers. 2008 Jan 1;74:45-114.
-32. Nechyba MC, Xu Y. Stochastic similarity for validating
-human
-control
-strategy
-models.
-IEEE
-Transactions
-on
+straight
+path
+In plain Arabic speech
+A guidance and a mercy
+for the good
+YA
+Show
+us
+the
+straight
+way
+In the perspicuous Ara-
+bic tongue
+A Guide and a Mercy to
+the Doers of Good
+Shakir
+Keep us on the right
+path
+In
+plain
+Arabic
+lan-
+guage
+A guidance and a mercy
+for the doers of good-
+ness
+MS
+(Lord), guide us to the
+right path
+It has been revealed in
+plain Arabic
+A guidance and mercy
+for the righteous
+MK
+Guide us to the Straight
+Way
+In the plain Arabic lan-
+guage
+A guide and a mercy for
+the Muhsinun (gooddo-
+ers)
+Arberry
+Guide us in the straight
+path
+In
+a
+clear,
+Arabic
+tongue
+For a guidance and a
+mercy to the good-doers
+• The Holy Quran (Saheeh International). Three Ameri-
+canMuslimwomentranslatedtheQuranincontemporary
+language translation (International 1997). They metic-
+ulously used English terminology that is contextually
+appropriate for the Quran; for instance, they utilize Allah
+rather than God.
+• The Quran. The provenance of this translation remains
+uncertain. The translation, initially published by Shakir
+(1999) in 1968, is predominantly attributed to him, while
+the initial author is purported to be Mohammed Ali Habib
+Shakir, the son of Habib Esmail. This translation is one
+of the most widely recognized Quran translations among
+Shi’a Muslims.
+• TheHolyQuran,Text,Translation,andCommentary.
+This translation was initially published in 1934 by Abdul-
+lah Yusuf Ali (2001), who is a British Indian Muslim
+scholar. This translation is notable for its clear explana-
+tions through the extensive use of footnotes. It received
+ﬁnancial support from Saudi Arabian benefactors in the
+late twentieth century. These attributes have made it one
+ofthemostwell-knownEnglishtranslationsoftheQuran.
+This parallel corpus constitutes the foundational material
+to fulﬁll the primary objective of this research. It facilitates
+a systematic investigation of the heterogeneity in emotional
+preservation in the English translations of the Quran.
+5.3 Emotion analysis
+This section provides a detailed explanation of emotion anal-
+ysis. It begins with Section 5.3.1, which outlines the adopted
+models. Section 5.3.2 then describes the emotion veriﬁcation
+process, followed by an explanation of the evaluation metrics
+in Section 5.3.3.
+5.3.1 Models
+This research employs multiple pre-trained Transformer-
+based models for the emotion analysis. Given the nature
+of the Quran, we have prioritized Arabic LLMs trained in
+Classical Arabic, followed by those trained in Modern Stan-
+dardArabic(MSA),totalingfourteenmodels.Thedecisionto
+select fourteen models was based on practical considerations.
+The resource limitations required the selection of models
+that optimize performance and practicality. Additionally, the
+selected models were publicly available, allowing us to take
+advantage of their pre-training for utilization in the proposed
+framework. These considerations collectively informed the
+selection of fourteen models, ensuring a thorough yet prac-
+tical evaluation within our resource limitations.
+Considering that English is a high-resource language, the
+English LLMs employed in this research are fewer than the
+Arabic models. Table 2 presents the models utilized in this
+123
 
---- Page 15 ---\n\nRobotics and Automation. 1998 Jun;14(3):437-51.
-33. Raschka S. Naive bayes and text classification i-
-introduction and theory. arXiv preprint arXiv:1410.5329.
-2014 Oct 16.
-34. Sethi R, Kaushik I. Hand written digit recognition using
-machine learning. In2020 IEEE 9th International Conference
-on Communication Systems and Net
-work Technologies (CSNT) 2020 Apr 10 (pp. 49-54). IEEE.
-35. Diao R, Shen Q. Feature selection with harmony search.
-IEEE Transactions on Systems, Man, and Cybernetics, Part
-B (Cybernetics). 2012 May 23;42(6):1509-23.
-36. Christmann A, Steinwart I. On robustness properties of
-convex risk minimization methods for pattern recognition.
-The Journal of Machine Learning Research. 2004 Dec
-1;5:1007-34.
-37. Sugiyama, M. Dimensionality reduction of multimodal
-labeled data by local fisher discriminant analysis. J. Mach.
-Learn. Res. 2007, 8, 1027–1061.
-38.
-Sebastiani
-F.
-Machine
-learning
-in
-automated
-text
-categorization. ACM computing surveys (CSUR). 2002 Mar
-1;34(1):1-47.
-39. Liang B, Li H, Su M, Bian P, Li X, Shi W. Deep text
-classification can be fooled. arXiv preprint arXiv:1704.08006.
-2017 Apr 26.
-40. Bro R, Smilde AK. Principal component analysis.
-Analytical methods. 2014;6(9):2812-31.
-41. Uysal AK, Gunal S, Ergin S, Gunal ES. The impact
-of feature extraction and selection on SMS spam filtering.
-Elektronika ir Elektrotechnika. 2013 May 1;19(5):67-72.
-42. Zheng H, Cheng G, Li Y, Liu C. A new fault diagnosis
-method for planetary gear based on image feature extraction
-and bag-of-words model. Measurement. 2019 Oct 1;145:1-3.
-43.
-Tijani
-OD,
-Akinwale
-AT,
-Onashoga
-A,
-Adeleke
-EO.
-AN
-IMPROVED
-AGGREGATED
-METHOD
-FOR
-GENERATION OF YORUBA LANGUAGE STOP WORDS
-(Doctoral dissertation, Department of Computer Science,
-College
-of
-Physical
-Sciences,
-Federal
-University
-of
-Agriculture, Abeokuta).
-44. Spam Text Message Classification. (n.d.). Spam Text
-Message
-Classification
-—
-Kaggle.
-https:///datasets/team-
-ai/spam-text-message-classification
-45. Shen, Linjie, Yanbin Wang, Zhao Li, and Wenrui
-Ma. ”SMS Spam Detection Using BERT and Multi-Graph
-Convolutional Networks.” Available at SSRN 5078344.
-46.Haider Rizvi, Syed Mustafa, Ramsha Imran, and Arif
-Mahmood. ”Text Classification Using Graph Convolutional
-Networks: A Comprehensive Survey.” ACM Computing
-Surveys (2025).
-47.Tusher,
-E.H.,
-Ismail,
-M.A.
-and
-Mat
-Raffei,
-A.F.,
-2025. Email Spam Classification Based on Deep Learning
-Methods: A Review. Iraqi Journal for Computer Science and
-Mathematics, 6(1), p.2.
-48.Gong, Jingzhi, Vardan Voskanyan, Paul Brookes, Fan
-Wu, Wei Jie, Jie Xu, Rafail Giavrimis, Mike Basios, Leslie
-Kanthan, and Zheng Wang. ”Language models for code
-optimization: Survey, challenges and future directions.” arXiv
-preprint arXiv:2501.01277 (2025).
-49.Liu, Z., 2024, April. A review of advancements and
-applications of pre-trained language models in cybersecurity.
-In 2024 12th International Symposium on Digital Forensics
-and Security (ISDFS) (pp. 1-10). IEEE.
-50.Chen, Yiren, Mengjiao Cui, Ding Wang, Yiyang Cao,
-Peian Yang, Bo Jiang, Zhigang Lu, and Baoxu Liu. ”A
-survey of large language models for cyber threat detection.”
-Computers & Security (2024): 104016.
-51.Alshattnawi,
-Sawsan,
-Amani
-Shatnawi,
-Anas
-MR
-AlSobeh, and Aws A. Magableh. ”Beyond Word-Based
-Model
-Embeddings:
-Contextualized
-Representations
-for
-Enhanced Social Media Spam Detection.” Applied Sciences
-14, no. 6 (2024): 2254.
-52.Chataut, Robin, Aadesh Upadhyay, Yusuf Usman, Mary
-Nankya, and Prashnna K. Gyawali. ”Spam No More: A
-Cross-Model Analysis of
-Machine Learning Techniques
-and Large Language Model Efficacies.” In 2024 8th Cyber
-Security in Networking Conference (CSNet), pp. 116-122.
-IEEE, 2024.
-53.Samad, Saleem Raja Abdul, Pradeepa Ganesan, Justin
-Rajasekaran,
-Madhubala
-Radhakrishnan,
-Hariraman
-Ammaippan,
-and
-Vinodhini
-Ramamurthy.
-”SmishGuard:
-Leveraging
-Machine
-Learning
-and
-Natural
+--- Page 7 ---
+
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 7 of 23
+271
+research. It details the language of models, their names, and
+their architectural characteristics, including the number of
+hidden layers, hidden size, and the parameters.
+The Arabic models used in this research share several
+commonalities. The majority of them built upon the same
+model type, BERT. This is based on a study that demon-
+strated that BERT-based models achieved good outcomes in
+Arabic emotion analysis (Al-Twairesh 2021). Most of these
+models are of the base version, featuring 12 hidden layers
+and a hidden size of 768, while two of them are of the BERT
+large type, comprising 24 hidden layers and a hidden size of
+1024. Here is a detailed explanation of the Arabic models:
+• CAMeLBERT models. A collection of BERT base mod-
+els pre-trained on Arabic texts was proposed by Inoue
+et al. (2021). CAMeLBERT models vary in training
+sizes and the form of Arabic. CAMeLBERT-CA was
+trained on Classical Arabic texts obtained from various
+sources, totaling 6GB in size. CAMeLBERT-MIX was
+trained on Classical Arabic, MSA, and dialectal Arabic
+texts using multiple corpora, comprising 167GB in size.
+CAMeLBERT-MSAwastrainedonacorpusofMSAtex-
+tual data with a size of 107GB. All formerly described
+models of CAMeLBERT possess the same parameter
+count of 110M.
+• MARBERT and ARBERT models. A set of Arabic
+BERT base models was introduced by Abdul-Mageed
+et al. (2021). MARBERT and ARBERT vary in the
+type and size of training data. MARBERT concentrated
+on both MSA and dialectal Arabic and was trained on
+128GB of textual data. On the other hand, ARBERT
+focused exclusively on MSA and had been trained on
+61GB of textual data. The models were then enhanced
+withfurthertextualmaterial,resultinginthedevelopment
+of a second version, MARBERTv2 and ARBERTv2. We
+experimented with all the versions of MARBERT and
+ARBERT, each with 163M parameters.
+• QARiB model. An Arabic model built upon the base
+version of BERT, introduced by Abdelali et al. (2021).
+The model was trained on 600M of textual data, gath-
+ered from news articles and tweets. The QARiB model
+contains 135M parameters.
+• ArabicBERT models. A set of BERT-based versions
+presented by Safaya et al. (2020) for Arabic. We only
+experimented with two versions, the base and large ver-
+sions, that weretrainedon95GBof texts sourcedfromthe
+Arabic version of the Open Super-large Crawled Aggre-
+gated coRpus (OSCAR) and Wikipedia. The base version
+consists of 110M parameters, whereas the large version
+contains 336M parameters.
+• AraBERT models. A collection of BERT-based Ara-
+bic models introduced by Antoun et al. (2020), with
+several versions. We only experimented with a single ver-
+sion, AraBERTv2, which was trained on 77GB of texts.
+AraBERTv2 is differentiated from the other versions by
+Table 2 Adopted LLMs
 Language
-Processing for Smishing Detection.” International Journal
-of Advanced Computer Science & Applications 14, no. 11
-(2023).
-54.Shrestha,
-Neeraj.
-”A
-Novel
-Spam
-Email
-Detection
-Mechanism Based on XLNet.” Master’s thesis, University of
-Toledo, 2023.
-55.Rayavaram, Pranathi, Ukaegbu Onyinyechukwu, Maryam
-Abbasalizadeh, Krishnaa Vellamchetty, and Sashank Narain.
-”CryptoEL:
+Model
+HL
+HS
+Parameters
+Arabic
+CAMeLBERT-CA Inoue et al. (2021)
+12
+768
+110M
+CAMeLBERT-MIX Inoue et al. (2021)
+CAMeLBERT-MSA Inoue et al. (2021)
+MARBERT Abdul-Mageed et al. (2021)
+163M
+MARBERTv2 Elmadany et al. (2023)
+MARBERT-Sentimenta
+ARBERT Abdul-Mageed et al. (2021)
+ARBERTv2 Elmadany et al. (2023)
+QARiB Abdelali et al. (2021)
+135M
+ArabicBERT base Safaya et al. (2020)
+110M
+AraBERTv2 base Antoun et al. (2020)
+135M
+Arabic ALBERT Safaya (2020)
+11M
+ArabicBERT large Safaya et al. (2020)
+24
+1024
+336M
+AraBERTv2 large Antoun et al. (2020)
+371M
+English
+XLM-RoBERTa Conneau et al. (2020)
+12
+768
+278M
+BERT Devlin et al. (2019)
+110M
+ALBERT Lan et al. (2019)
+11M
+DistilBERT Sanh et al. (2019)
+6
+66M
+DeBERTa He et al. (2021)
+24
+1024
+405M
+HL:
+Hidden
+Layers;
+HS:
+Hidden
+Size
+ahttps://huggingface.co/Ammar-alhaj-ali/arabic-MARBERT-sentiment
+123
+
+--- Page 8 ---
+
+271
+Page 8 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+using a pre-segmentation approach on the textual data.
+The base version contains 135M parameters, whereas the
+large version comprises 371M parameters.
+• Arabic ALBERT. A collection of ALBERT-based mod-
+els introduced by Safaya (2020) for Arabic. It includes
+several versions: base, large, and x-large, which differ
+based on the number of parameters. We conducted exper-
+iments only with one version, the base, which had been
+trained on 4.4B words collected from the Arabic version
+of the OSCAR and Wikipedia. The Arabic ALBERT base
+version contains 11M parameters.
+As for the English models, the majority of them were
+constructedusingthebaseversion, but onewas built usingthe
+largeversion. Themodels differ inthequantityof parameters,
+spanning from 11M to 405M. Below is a detailed explanation
+of each model:
+• XLM-RoBERTa model. It is a multilingual version of
+the RoBERTa base model introduced by Conneau et al.
+(2020). We exclusively used the base version, which was
+pre-trained on 2.5TB of textual material obtained from
+the Common Crawl dataset that covers 100 languages.
+The XLM-RoBERTa model consists of 278M parame-
+ters.
+• BERT model. A collection of BERT-based models intro-
+duced by Devlin et al. (2019) for the English language. It
+includes several versions that differ based on the number
+of parameters. We use only the base version, which was
+trained using the BooksCorpus datasets and the English
+Wikipedia. The BERT base model consists of 110M
+parameters.
+• ALBERT model. A compilation of ALBERT-based
+models introduced by Lan et al. (2019) for the English
+language. It comprises two main versions, version one
+and version two; each version contains multiple models
+that vary based on the number of parameters. We use only
+one version, the second version, using the base model that
+had been pre-trained on a corpus of unpublished books
+and English Wikipedia. The ALBERT base version con-
+tains 11M parameters.
+• DistilBERT model. A distilled version of the BERT
+model tailored for the English language was introduced
+by Sanh et al. (2019). The model was pre-trained in a
+manner analogous to the BERT model. Yet, it features
+a reduced number of hidden layers, decreasing from 12
+in BERT base to 6, which yields a lightweight model
+comprising approximately 66M parameters.
+• DeBERTa model. A set of DeBERTa-based models
+presented by He et al. (2021) for the English lan-
+guage. It improves the BERT and RoBERTa models
+with the implementation of disentangled attention and
+an enhanced mask decoder. The DeBERTa comprises
+multiple versions that vary in terms of the number of
+parameters. We use the large version, which was pre-
+trained on 80GB of textual data and consists of 405M
+parameters.
+The aforementioned LLMs were used to classify each
+verse of the Quran and its associated English translations
+into either anger, fear, joy, or sadness. Thus, all the verses
+were assigned a predicted emotion class coupled with a pre-
+diction score. These predictions undergo further evaluation
+in a subsequent step, known as the emotion veriﬁcation pro-
+cess, that will be detailed in the following section.
+5.3.2 Emotion veriﬁcation process
+This section details the process for emotion veriﬁcation of the
+predictions assigned to each verse of the Quran and its corre-
+sponding English translations through ensemble approaches,
+organized into two subsequent sections.
+Arabic validation process Human annotation and veriﬁca-
+tion techniques, guided by a Quran expert, validate the
+emotion predictions of the Arabic LLMs. This procedure
+entails distributing a sample of Quranic verses to annotators
+for annotation and veriﬁcation, as illustrated in Algorithm 1.
+The subsequent sections comprehensively describe the anno-
+tation and veriﬁcation process, including the scheme, dataset,
+and procedure.
+Annotation and veriﬁcation scheme Emotions have been
+classiﬁed into several models that analyze human emotions
+from different perspectives. The emotion models are struc-
+tured frameworks that classify different human emotions
+based on speciﬁc classiﬁcations or dimensions (Sailunaz and
+Alhajj 2019). They are divided into two major classiﬁcations:
+dimensional models and categorical models (Saffar et al.
+2023), both of which are utilized in NLP research (Nand-
+wani and Verma 2021). The annotation scheme established
+four categorical emotions, derived from a recognized psy-
+chological paradigm. Here is the list of emotions, including
+the original Arabic terms in parentheses alongside their cor-
+responding English translations:
+• Anger
+.
+• Fear
+.
+• Joy
+.
+• Sadness
+.
+The rationale behind selecting these emotion classes is
+quite justiﬁable for three reasons. First, we considered the
+holiness of Quranic scripture during the selection of emotion
+categories. Second, the chosen emotion classes are derived
+123
+
+--- Page 9 ---
+
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 9 of 23
+271
+from the Ekman emotional model (Ekman 1992), which
+is commonly used in NLP research to identify emotions
+in textual data (Saffar et al. 2023; Tafreshi et al. 2024).
+Third, this model is frequently employed in most annotation
+schemes (Plaza-del-Arco et al. 2024). Given these grounds,
+the deﬁnitive annotation scheme for emotions comprises the
+previously mentioned four categories.
+Annotation and veriﬁcation dataset The construction of a
+dataset is a fundamental step for the annotation and veri-
+ﬁcation. To compile a comprehensive dataset suitable for
+emotion annotation, a meticulous verse selection process was
+conducted to ensure diversity and class relevance. The initial
+step to construct the dataset is the compilation of instances
+through the verse selection process. This was carried out by a
+Quranic expert who oversaw the overall annotation and ver-
+iﬁcation procedure. The verse selection process is grounded
+in multiple scientiﬁc principles. Initially, it started with a
+review of the classiﬁcations of the Quran verses and their
+main concepts, using several trustworthy scientiﬁc sources
+that address the objective interpretation of the Holy Quran.
+Accordingly, several Quran verses were selected based on
+their overall exegesis (tafseer) from tafseer as-Sa’di4. The
+selected verses are then evaluated according to an established
+scientiﬁc classiﬁcation, accomplished by referring to the
+Encyclopedia of Thematic Interpretation of Quranic Stud-
+ies5, the ﬁrst peer-reviewed scientiﬁc encyclopedia to study
+the topics of the Holy Quran. The verses are also assessed
+based on the following inclusion and exclusion criteria:
+Inclusion criteria
+• The verse is imbued with emotion, according to the
+expert analysis.
+• The verse is categorized in accordance with the sci-
+entiﬁc classiﬁcations presented in the Encyclopedia.
+• The verse can be categorized within one of the clas-
+siﬁcations of our scheme (i.e., anger, fear, joy, or
+sadness).
+Exclusion criteria:
+• The verse lacks emotional depth, according to the
+expert opinion.
+• The verse is not categorized within the scientiﬁc clas-
+siﬁcations of the Encyclopedia.
+• Theverseiscategorizedasmixed,ambiguous,orneu-
+tral.
+The inclusion and exclusion criteria guided the verse
+selection process, assessed by a Quran expert, culminating in
+4 https://shamela.ws/book/42
+5 https://modoee.com/
+theselectionof2100versesincludingdiversethemesrelevant
+to human existence for human veriﬁcation and annotation.
+Annotation and veriﬁcation process The human annotation
+and veriﬁcation phase constitutes a key component of the
+proposed methodology. The selected Quran verses, the con-
+structed dataset, have been annotated by specialists, all of
+whom possess PhDs in either Arabic linguistics or Islamic
+law (i.e., Hadith, the Holy Quran, and its associated sci-
+ences). The selected verses constitute approximately 34% of
+the verses of the Quran and have been distributed to the anno-
+tators via Google Forms. Each form consists of 300 verses
+organized into several sets of forms for validation. The verses
+are written without referencing the chapter (surah) name to
+reduce potential bias in the annotator. The annotators were
+familiarized with the annotation guidelines by a Quran expert
+over multiple training sessions. The guidelines provided to
+the annotators include several essential elements to guarantee
+clarity and consistency during the annotation and veriﬁca-
+tion process. The Quran expert explained the objectives of
+the annotation process to guide the annotators regarding
+the intended results. Additionally, the deﬁnition for each
+class label was comprehensively deﬁned to the annotators
+to eliminate any doubt. Throughout the annotation process,
+the annotators possessed the annotation guidelines document
+that included the annotation objectives, scheme description,
+the deﬁnitions of the emotion classes, and a set of represen-
+tative examples. Table 3 presents a selection of exemplary
+instances that guided the annotation process; the ﬁrst line
+contains the Arabic Quran verses, whereas the second line
+provides their English translation. The verses are annotated
+with the respective emotion class in the ﬁrst column.
+In addition, the annotators were instructed to assign emo-
+tions, as deﬁned in our scheme (i.e., anger, fear, joy, or
+sadness), for each verse of the Quran to determine their
+impression or the emotion acquired when reading a particular
+verse, informed by the following deﬁnitions of the emotional
+classes:
+• Anger. These are the verses that detail the actions and
+behaviors that displease Allah and lead to His wrath and
+punishment. This category includes verses that mention
+theactionsortypesofdisbelieverswhoincurredthewrath
+of Allah as they rejected the truth and arrogantly turned
+away from it.
+• Fear. These are the verses that encompass the themes
+of fear and awe of Allah’s majesty. They contain warn-
+ings and descriptions of the punishment for those who
+arrogantly reject the truth in this worldly life, as well as
+verses that describe the torment of Jahannam (Hell) for
+those who are wretched. These verses also serve to instill
+fear and reverence for Allah.
+123
+
+--- Page 10 ---
+
+271
+Page 10 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Table 3 Exemplary instances for the annotation process
+Emotion Class
+Verses
+Anger
+Say, (O Muhammad SAW to the polytheists, etc.):
+“Do you order me to worship other than Allah, O you
+fools?”
+Can We ignore sending you the Quran just because you
+are a transgressing people?
+Who set up another ilah (god) with Allah, then (both
+of you) cast him in the severe torment.
+Fear
+So, when the sight shall be dazed.
+Do they not then think deeply in the Quran, or are
+their hearts locked up (from understanding it)?
+And whosoever strives, he strives only for himself.
+Verily, Allah is free of all wants from the ’Alamin
+(mankind, jinns, and all that exists).
+Joy
+Then what do you think about the Lord of the ’Alamin
+(mankind, jinns, and all that exists)?
+And in the heaven is your provision, and that which
+you are promised.
+Verily! The Muttaqun (pious—see V.2:2) will be in
+place of Security (Paradise).
+Sadness
+Indeed, We know that your breast is straitened at what
+they say.
+And my breast straitens, and my tongue expresses not
+well. So send for Harun (Aaron) (to come along with
+me).
+And the Messenger (Muhammad SAW) will say, “O
+my Lord! Verily, my people deserted this Quran (nei-
+ther listened to it, nor acted on its laws and orders)”.
+123
+
+--- Page 11 ---
+
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 11 of 23
+271
+2100
+Verses for validation
+115
+Verses for validation
+Disagreement verses subdivision for annotators
+Verses subdivision for annotators
+Fig. 2 Human annotation and validation process
+• Joy. These are the verses that encompass the themes of
+joy, bliss, and happiness. This includes verses of mercy,
+descriptions of Jannah (Paradise), and the joys that await
+its dwellers (i.e., those who have done righteous good
+deeds). These verses bring comfort, hope, and reas-
+surance to believers, ﬁlling their hearts and souls with
+happiness and tranquility.
+• Sadness. These are verses that encompass sorrow, includ-
+ing verses about trials, hardships, and tribulations faced
+by the prophets and the believers from previous nations, as
+well as all verses that evoke sadness and grief in the heart.
+The annotation and veriﬁcation process adopts a two-
+phasehumanvalidationtechniquetoguaranteeahigh-quality
+annotation and veriﬁcation procedure, as illustrated in Fig. 2.
+This methodology comprises two principal phases, which
+will be explained in the parts that follow.
+First Phase.
+• The 2100 verses were divided into seven sets, each
+containing 300 verses.
+• Each set was assigned to three annotators for a total
+of 21.
+• At the stage of class label assignments, when the
+annotatorsexhibitedcompleteagreementontheverse
+classiﬁcation, the corresponding emotion class was
+assigned. In instances of partial agreement among
+annotators, the emotion class was established through
+majority voting among the three annotators.
+The ﬁrst phase was completed with 1050 verses demon-
+strating complete agreement in the emotional class labels
+and 935 verses exhibiting partial agreements, totaling 1985
+verses, which constitutes 94.52% of the dataset. The remain-
+ing 115 verses exhibited discrepancies in the emotional class
+labels among the three annotators; hence, these verses pro-
+ceeded to the second phase.
+Second Phase.
+In this phase, 115 verses, approximately 5.48% were
+assigned to three additional annotators.
+• The verses were divided into three sets, each contain-
+ing 38 verses, and one set consisted of 39 verses.
+• The emotional class labels were determined through
+majority voting by all annotators in the ﬁrst and sec-
+ond phases.
+This meticulous, expert-driven annotation and veriﬁcation
+approach yielded a contribution derived from this research.
+We introduced a publicly accessible dataset, the ELQV6,
+featuring 2100 instances of systematically curated Quran
+verses annotated by experts holding PhDs in Arabic linguis-
+tics or Islamic law. The ELQV dataset seeks to contribute
+to the ﬁeld of Arabic NLP, particularly in emotion analysis,
+which presently faces a scarcity of annotated data in Clas-
+6 https://github.com/Arwaalmrzoqi/ELQV
+123
+
+--- Page 12 ---
+
+271
+Page 12 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+sical Arabic, by supporting various research directions in
+emotion-based Quranic studies.
+English validation process The emotion predictions of the
+English models for the Quran translations are validated by
+ensemble methodologies, as illustrated in Algorithm 2. In the
+initial instance, wevalidatedthetranslations throughamajor-
+ity vote of the LLMs. In the absence of a label in majority
+voting, we assign the label with the highest average predic-
+tion score.
+5.3.3 Evaluation measures
+The evaluation metrics are essential indicators used to assess
+the results of the analysis. This research utilizes various
+inter-rater reliability metrics to quantitatively assess the con-
+cordance of several raters.
+1. Cohen’s Kappa (κ). Cohen’s Kappa (κ) (Landis and
+Koch 1977) is a statistical metric employed to assess
+inter-rater reliability between two raters or annotators
+about nominal data (Litvinenko 2021). Cohen’s Kappa
+is the most well-known chance-corrected metric (Moons
+and Vandervieren 2023). This indicates that this metric
+considers the probability of agreement among anno-
+tators occurring by random chance. The κ coefﬁcient
+accounts for the difﬁculty of the classiﬁcation problem
+by integrating the element of random chance (Moons and
+Vandervieren 2023). The κ coefﬁcient is computed using
+the following formula:
+κ = Po −Pe
+1 −Pe
+(1)
+where:
+Po denotes the observed agreement among annotators,
+Pe denotes the expected agreement by chance.
+In particular, the Po signiﬁes the ratio of instances
+where both raters agree. It is calculated by dividing the
+frequency of agreement among raters by the total num-
+ber of rated instances. Whereas Pe represents the ratio
+of instances where agreement is expected to occur by
+chance. It is calculated based on the marginal probabili-
+ties associated with each category selected by the raters.
+The κ coefﬁcient scores range between -1 and 1, with κ
+= 1 signifying full agreement, whereas κ = 0 indicates
+an agreement comparable to that expected by random
+chance. Landis and Koch (1977) introduced an interpre-
+tive scale for κ score, shown in Table 4.
+2. Fleiss Kappa (κ). Fleiss Kappa (κ) (Fleiss 1971) was
+established to broaden the concept of agreement mea-
+Table 4 Interpretive scale of κ scores (Landis and Koch 1977)
+Kappa κ
+Level of Agreement
+<0
+Poor
+0.00-0.20
+Slight
+0.21-0.40
+Fair
+0.41-0.60
+Moderate
+0.61-0.80
+Substantial
+0.81-1.00
+Almost Perfect
+surement to include more than two raters or annotators
+for nominal variables. It assesses dependability by con-
+sidering both the consistency of the evaluators and the
+degree to which their concordance exceeds what would
+be expected by chance. According to Eq. (1), Fleiss
+Kappa κ describes Po and Pe in distinct manners detailed
+below.
+Assume I denotes the total number of instances, R
+denotes the ﬁxed total number of raters, and C denotes
+the total number of classes. The quantity of raters who
+classiﬁed the ith instance into the cth class is represented
+by xir. Since the classes are mutually exclusive, it fol-
+lows that each instance i will have received exactly R
+classiﬁcations, therefore 
+c xi c = R. The observed
+agreement Po, representing the degree of agreement
+among R raters, for instance, i, can be computed as the
+ratio of concordant rater pairs
+xic
+2
+
+to the total potential
+rater pairs
+R
+2
+
+. The proportion Pi for a given instance i
+can therefore be calculated as:
+Pi =
+
+c
+xic
+2
+
+R
+2
+
+(2)
+The overall observed fraction of agreement Po can be
+quantiﬁed by the average of all Pi values as follows:
+Po = 1
+I
+
+i
+Pi
+(3)
+The Pe is the expected agreement by chance. All raters
+R select exactly one class for each instance; therefore,
+in total we will have I R classiﬁcations. Thus, the ratio
+of all assignments to the cth class can be expressed as
+
+i x2
+ic
+I R , which is the probability of assigning an instance i
+to a class c by chance. Additionally, the probability that
+any pair of raters classiﬁes an instance i into a class is c
+given by (
+
+i x2
+ic
+I R )2. Consequently, if the raters conducted
+their classiﬁcations entirely at random, the probability
+123
+
+--- Page 13 ---
+
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 13 of 23
+271
+Table 5 Interpretive scale of α scores (Hughes 2021)
+Alpha α
+Level of Agreement
+α ≤0.2
+Slight
+0.2 < α ≤0.4
+Fair
+0.4 < α ≤0.6
+Moderate
+0.6 < α ≤0.8
+Substantial
+α > 0.8
+Near-Perfect
+that two raters agree on all categories by chance is given
+by Eq. (4):
+Pe =
+
+c
+(
+
+i xic
+I R
+)2
+(4)
+Substituting the equations into the κ coefﬁcient in (1)
+returns Fleiss’ Kappa κ.
+3. Krippendorff’s Alpha (α). Krippendorff’s Alpha (α)
+(Krippendorff 2004) it is a statistical metric used to
+evaluate inter-rater reliability between multiple raters or
+annotators for a versatile type of data, including nomi-
+nal, ordinal, interval, and ratio scales. The α coefﬁcient
+is computed given Eq. (5).
+α = 1 −Do
+De
+(5)
+where:
+Do denotes the observed disagreement among annota-
+tors,
+De denotes the expected disagreement by chance.
+The Do quantiﬁes the actual agreement observed among
+the raters. It is computed using a coincidence matrix that
+cross-references the data with compatible values. De denotes
+the ratio of instances in which agreement is expected to occur
+Table 6 Agreement scores among the annotators
+Set
+κ Value
+α Value
+1st
+0.58
+0.51
+2nd
+0.56
+0.39
+3rd
+0.17
+0.15
+4th
+0.36
+0.28
+5th
+0.56
+0.55
+6th
+0.69
+0.67
+7th
+0.68
+0.64
+by chance. It modiﬁes the agreement score by considering the
+probability of a chance agreement. The α coefﬁcient values
+span from 0 to 1, with α = 1 indicating perfect reliability,
+while α = 0 denotes an absence of reliability. Table 5 presents
+an interpretation for the α score.
+6 Results
+Thissectionpresentstheresultsofourinvestigationintoemo-
+tion preservation in English translations of the Quran using
+LLMs. Beginning with the human annotation and veriﬁcation
+outcomes, Fig. 3 shows the distribution of emotional classes
+of the ELQV dataset, which represents approximately 34% of
+the Quran verses. Table 6 shows the agreement levels among
+the seven sets of annotators, indicated by the Fleiss Kappa κ
+and Krippendorff’s Alpha α values.
+The distributions of emotion in the Quran and its English
+translations are analyzed with Fig. 4 and Table 7, respec-
+tively. Figure 4 illustrates the comparative bar graph showing
+the distributions of emotion across the Quran and the
+seven English translations. Table 7 presents comprehensive
+statistics on the discovered emotion of the Quran and the
+translations.
+Fig. 3 Distribution of emotional classes of the ELQV
+123
+
+--- Page 14 ---
+
+271
+Page 14 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Fig. 4 Distribution of emotion in the Quran and the translations
+Table 7 Statistics of emotions in the Quran and the translations
+Scripts
+Anger
+Fear
+Joy
+Sadness
+The Quran
+973
+2483
+2237
+543
+Arberry (Arberry, 1996)
+624
+3189
+2155
+268
+Muhammad Sarwar (Sarwar, 1981)
+957
+2598
+2307
+374
+Mohsin Khan and AlHilali (Al-Hilali and Khan, 1998)
+733
+2870
+2343
+290
+Pickthall (Pickthall, 1953)
+603
+3065
+2304
+264
+Sahih International (International, 1997)
+785
+2936
+2211
+304
+Shakir (Shakir, 1999)
+737
+2997
+2166
+336
+Yusuf Ali (Ali, 2001)
+694
+3024
+2272
+246
+Fig. 5 κ agreement scores between the annotators and Arabic LLMs
+123
+
+--- Page 15 ---
+
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 15 of 23
+271
+Table 8 Detailed κ agreement scores between the annotators and Ara-
+bic LLMs
+Model
+κ Value
+CAMeLBERT-CA (Inoue et al., 2021)
+0.36
+CAMeLBERT-MIX (Inoue et al., 2021)
+0.35
+CAMeLBERT-MSA (Inoue et al., 2021)
+0.32
+MARBERT (Abdul-Mageed et al., 2021)
+0.89
+MARBERTv2 (Elmadany et al., 2023)
+0.37
+MARBERT-Sentiment
+0.36
+ARBERT (Abdul-Mageed et al., 2021)
+0.37
+ARBERTv2 (Elmadany et al., 2023)
+0.37
+QARiB (Abdelali et al., 2021)
+0.36
+ArabicBERT base (Safaya et al., 2020)
+0.32
+AraBERTv2 base (Antoun et al., 2020)
+0.31
+Arabic ALBERT (Safaya, 2020)
+0.27
+ArabicBERT large (Safaya et al., 2020)
+0.36
+AraBERTv2 large (Antoun et al., 2020)
+0.23
+The degree of emotional agreement between annotators
+and the Arabic LLMs is quantiﬁed using Cohen’s Kappa κ,
+considering there are just two raters: the emotions assigned
+by annotators and those assigned by Arabic LLMs. Fig-
+ure 5 visualizes the agreement level between annotators and
+LLMs, while Table 8 presents the detailed κ score values.
+As for the level of emotional concordance between the
+Quran and its English translations, the central goal of this
+research, it was assessed using Cohen’s Kappa κ. Figure 6
+illustrates the extent of emotional alignment between the
+Quran and the English translations, whereas Table 9 presents
+a breakdown of these degrees.
+Table 9 Detailed κ agreement scores between the Quran and the trans-
+lations
+Translation
+κ Value
+Arberry (Arberry, 1996)
+0.290
+Muhammad Sarwar (Sarwar, 1981)
+0.355
+Mohsin Khan and AlHilali (Al-Hilali and
+Khan, 1998)
+0.351
+Pickthall (Pickthall, 1953)
+0.322
+Sahih International (International, 1997)
+0.344
+Shakir (Shakir, 1999)
+0.350
+Yusuf Ali (Ali, 2001)
+0.317
+In terms of testing the hypothesis that claims there is a sig-
+niﬁcant difference in the agreement scores of the translations
+with the Quran, a bootstrapping technique is used. It illus-
+trates the sampling distribution of the Cohen Kappa κ scores
+of a sample derived from the original dataset by repeatedly
+sampling with replacement. The experiment then includes
+calculating the difference between κ values for translation
+pairs, the conﬁdence interval, and p-values related to that
+sample to assess the statistical signiﬁcance of the variation
+in κ-values among the translations presented in Table 9.
+Accordingly, the analytical experiments indicated that the
+translation of Arberry demonstrated a statistically signiﬁ-
+cant outcome to all translations, excluding the translations
+of Pickthall and Yusuf Ali, indicating that the conﬁdence
+interval consistently does not intersect 0 and the p-value was
+less than 0.001.
+Although the primary goal of this research is to measure
+the emotion preservation in the Quran translations, it also
+Fig. 6 κ agreement scores between the Quran and the translations
+123
+
+--- Page 16 ---
+
+271
+Page 16 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+contributes to measuring the consistency of emotional levels
+among English translations of the Quran. Figure 7 depicts
+the agreement Cohen Kappa κ score among the translation
+pairs.
+7 Discussion
+According to Fig. 3, the results obtained from from the
+ELQV, which was annotated by PhD holders in Arabic lin-
+guistics or Islamic law, demonstrate that 675 of the verses are
+classiﬁed as fear verses, accounting for around 32.14% of the
+total human veriﬁcation sample. Additionally, approximately
+28.05% of the Quran verses are classiﬁed as joy verses. Con-
+versely, the verses classiﬁed as anger or sadness are less
+than other emotions, representing approximately 23.57% and
+16.24%, respectively. Given the fact that the annotators are
+divided among several sets and each set contains different
+verses, the agreement levels among annotators vary accord-
+ingly, based on Table 6. The agreement scores of the third
+set are slight depending on both κ and α interpretations.
+This indicates difﬁculties in reaching consensus among the
+annotators, potentially due to several factors, including the
+complexity of the annotation process or the ambiguous deci-
+sion boundary. The complexity of the annotation process may
+arise from annotators encountering difﬁculties with a verse
+being analyzed, leading to discrepancies in their annotations.
+The ambiguous decision boundary may further justify the
+low κ score; possibly the annotator encountered challenges
+in classifying the verses due to the similarities among the
+classes. A potential technique to resolve these challenges
+entails conducting a pilot test on a limited sample to pinpoint
+sources of discrepancy and thereafter modifying deﬁnitions
+or samples as required.
+Figure 4 illustrates the emotion of the Quran and the
+translations. Precisely, the Quran verses classiﬁed as the fear
+versesconstituteapproximately39.82%,whiletheversesthat
+are classiﬁed as the joy verses are about 35.87%. As for the
+percentage of the Quran verses classiﬁed as anger verses,
+it amounts to 15.6%, while the verses that are classiﬁed as
+sadness verses are around 8.71%. By the same token, the
+distribution of emotions in all English translations resembles
+the emotions in the Quran. This suggests that the emotions
+conveyed by the English translations under examination gen-
+erally align with emotions expressed in the Quran. Table 7
+demonstrates that the verses in the Quran and its transla-
+tions conveying fear and joy exceed those verses with other
+emotions. In comparison, the quantity of verses classiﬁed as
+conveying anger or sadness is relatively lower than the other
+emotions. This is aligned with the results acquired from the
+human annotation and validation process that were illustrated
+Fig. 7 κ agreement score among English translations
+123
+
+--- Page 17 ---
+
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 17 of 23
+271
+in Fig. 3. This can be attributed to the fact that the verses of
+the Quran and the Quranic principles are purely rooted in
+the emotion of fear. This was apparent from the annotation
+process conducted by professionals with a PhD in Islamic
+law, who likely considered traits that would elude the typical
+Quran reader.
+Figure 5 shows that all the models exhibited similar levels
+of agreement with human annotations, with the exception of
+the MARBERT model. The predictions of the majority of
+Arabic LLMs align with human annotators at a fair level of
+agreement, with κ scores between 0.23 and 0.37. This indi-
+cates that while there is some agreement, a considerable level
+of disagreement remains. Thus, these models may necessitate
+improvement to enhance prediction accuracy and improve
+consistency with human annotations. Conversely, the pre-
+dictions of the MARBERT model exhibited almost perfect
+agreement with human annotations, with a κ value of 0.89.
+This level of agreement demonstrates that the MARBERT
+proﬁciently captures the emotional subtleties of the Quran,
+highlighting its value as an Arabic LLM.
+Remarkably, all the translations under investigation pre-
+served the emotion of the Quran at a fair level. Speciﬁcally,
+theemotionagreementlevelbetweentheQuranandthetrans-
+lations, as determined by human annotations, ranges from a
+κ score of 0.29 to 0.35. As demonstrated in Table 9, the trans-
+lations by Muhammad Sarwar, Mohsin Khan and AlHilali,
+and Shakir preserved the emotional essence of the Quran
+with a κ score of 0.35. The translation of Sahih Interna-
+tional maintained the emotional semantics at a level of κ =
+0.34. Comparatively, the translations of Pickthall and Yusuf
+Ali preserved the emotions conveyed in the Quran with a
+κ scores of 0.32 and 0.31, respectively. The translation of
+Arberry showed a marginally lower level of emotion preser-
+vation, reﬂected by a κ score of 0.29. The relatively fair κ
+scores suggest a signiﬁcant amount of emotion in the Quran is
+not fully conveyed in the English translations. This may arise
+from the inherent challenges of translating the Quran, which
+frequently relies on cultural and contextual aspects that may
+lack their counterparts in English. On top of that, each trans-
+lation reﬂects the translator’s interpretation of the Quran,
+shaped by their subjective reading and sectarian orientation
+(Elewa 2016); therefore, the theological interpretation and
+the translator’s sectarian background can profoundly impact
+emotion preservation by altering the emotional semantics of
+the source scripts, leading to these low κ scores. However, the
+varied levels indicate that the analyzed English translations
+adequately capture the emotional semantics of the Quran at
+a fair level. Yet, this level remains relatively low, indicating
+that non-Arabic readers perceive between 29% and 35% of
+the emotions conveyed in the Quran.
+For the agreement levels among the translations, Fig. 7
+indicates that the emotions in the pairs of English transla-
+tions are generally consistent. All English translations exhibit
+a substantial degree of agreement. Notably, the translation by
+Mohsin Khan and AlHilali, along with Sahih International,
+achieved the highest agreement κ score of 0.74. Conversely,
+the translations by Muhammad Sarwar and Arberry exhib-
+ited the lowest agreement κ score of 0.61. The remaining
+translation pairs exhibited agreement κ scores ranging from
+0.63 to 0.73, as detailed in Fig. 7.
+8 Qualitative analysis
+This section offers a qualitative analysis of the differences in
+emotional classiﬁcation between the verses of the Quran and
+their English translations. It provides multiple examples with
+distinct emotional categories and analyzes the causes behind
+thevariationsusingtwoEnglishdictionaries:theCambridge7
+and Merriam-Webster8.
+Example 1
+ِ
+ِ
+ِﻭﺡِ
+[Fear]
+• Mohsin Khan and AlHilali: And they ask you (O
+Muhammad SAW) concerning the Ruh (the Spirit); Say:
+“The Ruh (the Spirit): it is one of the things, the knowl-
+edge of which is only with my Lord. And of knowledge,
+you (mankind) have been given only a little.” [Sadness]
+• Pickthall: They are asking thee concerning the Spirit.
+Say: The Spirit is by command of my Lord, and of knowl-
+edge ye have been vouchsafed but little. [Joy]
+• Sahih International: And they ask you, [O Muhammad],
+about the soul. Say, “The soul is of the affair of my Lord.
+And mankind have not been given of knowledge except a
+little.” [Anger]
+The verse was disclosed to the Prophet Mohammed,
+PBUH, in response to the disbelievers who inquired about
+the spirit using confrontational language. The answer to the
+inquiry was that the spirit is a creation of Allah Almighty, the
+knowledge of which He has retained for Himself. The verse
+also asserts the reality of humanity’s constrained knowledge.
+The wordﻭﺡُwas translated as “the spirit” in most trans-
+lations of the Quran and has a broader meaning in the Quran
+and Arabic language. In the Quran, the termﻭﺡُencom-
+passes several aspects, one of which pertains to the spirit
+asked about by the disbelievers in the verse under analy-
+sis9. To determine the intended meaning of the word under
+investigation, we shall use Arabic dictionaries to uncover its
+7 https://dictionary.cambridge.org/dictionary/english/
+8 https://www.merriam-webster.com/
+9 https://shamela.ws/book/6462
+123
+
+--- Page 18 ---
+
+271
+Page 18 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+original interpretation. The meanings of the word were exam-
+ined in two Arabic dictionaries: Al-Qamus Al-Muhit10 and
+Lisan Al-Arab11.
+• Al-Qamus Al-Muhit:
+ِ
+What constitutes the existence of souls.
+• Lisan Al-Arab:
+ﻭﺡِﺃ
+The interpretation of the soul is that it represents what
+gives life to the soul.
+In light of these senses derived from the Quran and the
+Arabic dictionaries, it can be concluded that the wordﻭﺡُ
+signiﬁes anything that embodies life, including meaning or
+signiﬁcance, such as the Holy Quran, which is termed a spirit
+for its ability to revive spirits via knowledge and faith. There-
+fore, the meaning of
+in this verse refers to the spirit that
+animates human bodies.
+The translation by Mohsin Khan and AlHilali used the
+word “the Ruh,” a transcription of
+, to preserve its
+original meaning and document the word in English, accom-
+panied by its equivalent English translation, “the spirit,”
+and Pickthall’s translation used the same word. Conversely,
+the translation of Sahih International rendered
+as “the
+soul,” which may signify distinct meanings based on theo-
+logical perspectives in archaic English. The translations of
+Mohsin Khan and Al-Hilali and Pickthall utilized the word
+“concerning” to capture the nature of the inquiry. It is clear
+from the meaning of the verse that the question of the disbe-
+lievers was framed as a challenge to the Prophet Mohammed,
+PBUH, driven not by a desire for knowledge or comprehen-
+sion but rather by an intent to confront him. While Mohsin
+Khan and AlHilali’s translation offered a straight response
+that included the knowledge Allah has reserved for Him-
+self, the translations of Pickthall and Sahih International
+addressed the same meaning using the words “command”
+and “affair.” The translation of Pickthall differed from the
+other two by using the word “vouchsafe” instead of “given”
+for the word
+. Both convey the meaning of the verse;
+yet, linguistic discrepancies may directly contribute to the
+variation in the classiﬁcation.
+Example 2
+[Anger]
+10 https://shamela.ws/book/7283
+11 https://shamela.ws/book/1687
+• Muhammad Sarwar: He continued, “Remember, this
+one whom you have honored more than me I shall bring
+him and most of his offspring under my sway if you will
+give me respite until the Day of Judgment.” [Fear]
+• Arberry: He said, “What thinkest Thou? This whom
+Thou hast honoured above me—if Thou deferrest me to
+the Day of Resurrection I shall assuredly master his seed,
+save a few.” [Joy]
+The whole context of the two translations suggests that
+theydidnotadequatelyconveythetoneofdisbeliefexpressed
+by Satan in dialogue with Allah Almighty. Both translations
+insteadconveyedhisthreatsandpledgestomisleadhumanity.
+The term
+was rendered as “sway” in the translation
+of Muhammad Sarwar. According to the Cambridge English
+dictionary, “sway” is the act of causing an object to move
+slowly from side to side. This could partly fail to fully convey
+the primary objective of Satan, which is persistent misleading
+of humanity, resulting in ambiguity on the extent or nature
+of sway, which contributed to the classiﬁcation of the fear
+emotional class. Conversely, the translation of Arberry used
+the term “master,” which introduced a positive sense to the
+overall context of the translation, so inadequately conveying
+the intended meaning associated with the word
+,
+resulting in its classiﬁcation under the joy class.
+Example 3
+[Sadness]
+• Pickthall: And every small and great thing is recorded.
+[Joy]
+• Yusuf Ali: Every matter, small and great, is on record.
+[Fear]
+The Arabic term
+was rendered as “record” in
+the English translations by Pickthall and Yusuf Ali. The
+translations differ in their interpretation of
+, in which
+the translation of Pickthall used “every...thing,” and Yusuf
+Ali translated it as “every matter.” Both terms convey the
+intended meaning of the verse; however, they differ in
+their linguistic characteristics. The term “thing” has broader
+implications that denote unspeciﬁed entities, whereas “mat-
+ter” speciﬁcally refers to the content of a physical entity,
+leaving an unanswered concern of what will be recorded,
+where the actual meaning of the verse includes all human
+deeds.
+Example 4
+[Sadness]
+123
+
+--- Page 19 ---
+
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 19 of 23
+271
+• Pickthall: Whatever of misfortune striketh you, it is what
+your right hands have earned. And He forgiveth much.
+[Joy]
+• Shakir: And whatever afﬂiction befalls you, it is on
+account of what your hands have wrought, and (yet) He
+pardons most (of your faults). [Fear]
+The term
+was rendered as “misfortune” in the
+translation of Pickthall, whereas Shakir preferred the term
+“afﬂiction.” Both terms denote challenging or distressing
+events; however, they differ fundamentally. The Cambridge
+English Dictionary deﬁnes “misfortune” as an adverse event
+or circumstance, whereas “afﬂiction” denotes a more endur-
+ing condition of suffering, typically associated with pain or
+distress. The two translations translated the term
+with
+two different words. Pickthall translated it as “earned,” while
+Shakir used “wrought,” with each term possessing unique
+implications. “Earned” generally denotes acquiring some-
+thing via labor or merit, whereas “wrought,” on the other
+hand, is an adjective used to characterize something created
+or completed with meticulousness or artistry. The Arabic
+term
+was translated as “forgiveth” and “pardons.”
+The Merriam-Webster English dictionary indicates that the
+two terms exhibit distinctions. “Forgive” denotes the end of
+wrath towards an offender, while “pardon” signiﬁes the deci-
+sion not to hold an individual accountable for wrongdoing.
+The variance in usage of terms might not faithfully convey
+the intended meaning of the Quran, leading to different levels
+of emotional preservation.
+Example 5
+[Sadness]
+• Muhammad Sarwar: All that is in the heavens and the
+earth will return to the Beneﬁcent God as His submissive
+servants. [Joy]
+• MohsinKhanandAlHilali:Thereisnoneintheheavens
+and the earth but comes unto the Most Beneﬁcent (Allah)
+as a slave. [Fear]
+The word
+was translated into “come” in most English
+translations of the Quran except the translation of Muham-
+mad Sarwar, which used the word “return.” Both “come”
+and “return” signify movement toward a particular desti-
+nation. The word “come” implies the action of moving to
+a location, outcome, or conclusion. Conversely, the word
+“return” describes a return to something, revealing the
+intended meaning of the text, wherein all of humanity would
+revert to the Creator, Allah Almighty. The word
+was
+translated into English as “slave” and “servant.” Based on
+the English dictionaries, the two words denote the condi-
+tion of human slavery, although the intended meaning of the
+verse refers to the slaves of Allah Almighty, who worship
+Him exclusively. The signiﬁcant differences between the two
+meanings may impact the classiﬁcation of emotions in the
+present translations.
+Example 6
+[Fear]
+• Pickthall: Lo! there are above you guardians. [Joy]
+• Shakir:Andmostsurelytherearekeepersoveryou.[Sad-
+ness]
+The verse clariﬁed the accounting of Allah for His wor-
+shipers, where He assigned over them vigilant angels who
+document all their deeds, whether good or evil, for which
+they would be held accountable in the afterlife. The word
+was rendered as “guardians” in Pickthall’s transla-
+tion and as “keepers” in Shakir’s translation. Although these
+two words failed to fully explain the angelic nature of the
+guards and do not highlight their signiﬁcance, they could
+lead the reader to infer that they are human beings. However,
+the word
+refers to the watching angels, as this discrep-
+ancy signiﬁcantly inﬂuenced the differences in the classes of
+emotions for the translations.
+Example 7
+[Sadness]
+• Sahih International: And preferred the life of the world.
+[Joy]
+• Yusuf Ali: And had preferred the life of this world. [Fear]
+The term
+has been translated as “preferred” in the
+majority of Quran translations. This interpretation conveys
+that the individual favored and chose earthly life rather than
+the Hereafter. The Sahih International translation was classi-
+ﬁed as conveying emotions of joy, a label that may partially
+lack the intended meaning within the context of the verse.
+Conversely, Yusuf Ali’s translation was categorized as fear,
+reﬂecting the concern about the repercussions of prioritizing
+worldly matters above the Hereafter, as this temporal world
+is ﬂeeting and mortal, while the afterlife is permanent.
+Example 8
+[Sadness]
+• Muhammad Sarwar: Father, do not worship satan; he
+has disobeyed the Beneﬁcent God. [Anger]
+123
+
+--- Page 20 ---
+
+271
+Page 20 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+• Mohsin Khan and AlHilali: O my father! Worship not
+Shaitan (Satan). Verily! Shaitan (Satan) has been a rebel
+against the Most Beneﬁcent (Allah). [Fear]
+• Yusuf Ali: “O my father! serve not Satan: for Satan is a
+rebel against (Allah) Most Gracious. [Joy]
+ThisverseoutlinedthedifﬁcultsituationofIbrahim(Abra-
+ham) with his father, Azar, highlighting his prayer for his
+father to refrain from worshipping Satan, which, in this con-
+text, refers to the disobedience of Satan in the worship of
+idols. In the Quran, the ones who worship entities other than
+Allah are deemed as disbelievers, akin to Satan. The verse
+was characterized by a tone of sadness that was attributed
+to the situation of Ibrahim, whereas the translations were
+differently classiﬁed as anger, fear, and joy. The term
+signiﬁes a tone of kindness and gentleness that Ibrahim used
+when speaking to his father. Both the translations of Mohsin
+Khan and AlHilali, as well as Yusuf Ali, expressed this
+tone by rendering
+as “o my father.” The translation
+by Muhammad Sarwar employed a formal tone, which may
+imperfectly convey the deep sympathy in the verse, partic-
+ularly in the usage of the term “father.” The term
+was
+rendered as “worship” in the translations by Muhammad
+Sarwar, Mohsin Khan, and AlHilali, whereas Yusuf Ali trans-
+lated it as “serve.” The term “worship” accurately reﬂects
+the intended meaning of the verse; however, the term “serve”
+denotes loyalty and service to Satan, failing to highlight
+the meaning of servitude, which may introduce an unin-
+tended sense of the verse. Mohsin Khan and AlHilali, along
+with Yusuf Ali, translated the term
+as “rebel,” while
+Muhammad Sarwar interpreted it as “disobeyed.” The term
+“rebel” denotes a scenario in which an individual exhibits
+opposition or deﬁance, whereas “disobey” indicates the con-
+dition in which an individual neglects to comply. Notably, the
+translations, except for Muhammad Sarwar, used the term
+“Allah” instead of “God,” highlighting cultural-linguistic
+distinctions that may inﬂuence emotion preservation in the
+translations.
+9 Conclusion
+This research introduces a computational quantitative app-
+roach to investigate emotion preservation in English trans-
+lations of the Quran using LLMs. The research enriches the
+Arabic NLP ﬁeld within the context of emotion analysis by
+theintroductionoftheELQVdatasetandrevealsthepotential
+of leveraging LLMs in the Islamic context. This research had
+two limitations, including the scarcity of emotionally labeled
+Classical Arabic textual materials and insufﬁcient computa-
+tional resources, which signiﬁcantly constrained the scope of
+the research. Future research may entail exploring additional
+LLMs and assessing their efﬁcacy for detecting emotional
+semantics within religious contexts. Additionally, forthcom-
+ing research will likely include an expansion of the ELQV
+dataset to cover nearly all of the Quran verses.
+A Fine-tuning settings
+The models in this work underwent ﬁne-tuning across mul-
+tiple epochs (e) utilizing various learning rates (η), with a
+Table 10 Hyperparameter setting
+Model
+Hyperparameters
+CAMeLBERT-CA
+e = 3
+CAMeLBERT-MIX
+b = 16
+CAMeLBERT-MSA
+η = 3e −5
+MARBERT
+MARBERTv2
+e = 3
+MARBERT-Sentiment
+b = 16
+ARBERT
+η = 5e −5
+ARBERTv2
+QARiB
+e = 5
+b = 16
+η = 5e −5
+ArabicBERT base
+e = 3
+b = 16
+η = 5e −5
+AraBERTv2 base
+e = 3
+b = 8
+η = 5e −5
+Arabic ALBERT
+e = 3
+ArabicBERT large
+b = 16
+η = 5e −5
+AraBERTv2 large
+e = 3
+b = 16
+η = 1e −5
+XLM-RoBERTa
+e = 5
+b = 16
+η = 5e −5
+BERT
+e = 3
+DistillBERT
+b = 16
+η = 5e −5
+ALBERT
+e = 3
+DeBERTa
+b = 16
+η = 1e −5
+123
+
+--- Page 21 ---
+
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 21 of 23
+271
+weight decay of 0.01 used for regularization. A batch size
+(b) of 16 or 8 sequences per device was employed for both
+training and evaluation. This appendix outlines the hyper-
+parameter conﬁgurations for the ﬁne-tuning of the models
+outlined in Table 2.
+B. Validation algorithms
+This appendix describes the validation algorithms employed
+to validate the emotion predictions of the Quran verses and
+the English translations. Algorithm 1 describes the process
+for validating Arabic emotion predictions within the Quran
+verses. All Quran verses V are used as input, each accom-
+panied by predictions from various LLMs M, along with a
+subset of verses HV S that undergo a human annotation and
+veriﬁcation process. For each verse, the algorithm receives
+both hard and soft predictions from all models, as enumer-
+ated in lines 9 to 11. For lines 12 to 15, if a majority vote
+exists among the models, the prediction is assigned accord-
+ingly; if not, the prediction with the greatest average score
+across labels is selected. Additionally, verses in the human
+veriﬁcation sample HV S undergo a human validation step
+to verify the label assigned by the LLMs. The output is the
+aggregate set of predictions P for all the Quran verses. Algo-
+rithm 2 differs from Algorithm 1 in that, in the absence of a
+majority vote, the label with the highest average prediction
+score is selected.
+Algorithm 1 Validation of Arabic Emotion Prediction.
+1: Input: V = {v1, v2, . . . , v6236} Sum of the Quran verses
+2: Output: P = {Pv1, Pv2, . . . , Pv6236} Sum of LLMs predictions
+3: HumanV eri f icationSample:
+HV S
+=
+{hvs1, hvs2, . . . , hvs2100}
+4: M = {m1, m2, . . . , m14} Sum of Arabic LLMs
+5: Pv,m: Hard prediction of model m for verse v
+6: Sv,m: Soft prediction score of model m for verse v
+7: ModelsMajorityV ote: Label predicted by the majority of Arabic
+LLMs
+8: Highest AverageScore(): Highest average score among the aver-
+age scores of each label
+9: for vi ∈V do
+10:
+for mi ∈M do
+11:
+Get soft and hard predictions {Pv,m, Sv,m}
+12:
+if ∃ModelsMajorityV ote then
+13:
+Pvi ←ModelsMajorityV ote
+14:
+else
+15:
+Pvi ←Argmax(Highest AverageScore())
+16:
+end if
+17:
+end for
+18:
+if vi ∈HumanV eri f icationSample then
+19:
+HumanVeriﬁcation()
+20:
+else
+21:
+Pvi ←ModelsMajorityV ote
+22:
+end if
+23: end for
+Algorithm 2 Validation of English Emotion Prediction.
+1: Input: V = {v1, v2, . . . , v6236} Sum of the verses in the translations
+2: Output: P = {Pv1, Pv2, . . . , Pv6236} Sum of LLMs predictions
+3: M = {m1, m2, . . . , m5} Sum of English LLMs
+4: Pv,m: Hard prediction of model m for verse v
+5: Sv,m: Soft prediction score of model m for verse v
+6: ModelsMajorityV ote: Label predicted by the majority of English
+LLMs
+7: LabelHighest AverageScore(): Returns the label with the highest
+average score
+8: for vi ∈V do
+9:
+for mi ∈M do
+10:
+Get soft and hard predictions {Pv,m, Sv,m}
+11:
+if ∃ModelsMajorityV ote then
+12:
+Pvi ←ModelsMajorityV ote
+13:
+else
+14:
+Pvi ←LabelHighest AverageScore()
+15:
+end if
+16:
+end for
+17: end for
+Acknowledgements The authors gratefully acknowledge Qassim Uni-
+versity, represented by the Deanship of Graduate Studies and Scientiﬁc
+Research, on the ﬁnancial support for this research under the number
+(QU-J-PG-2-2025-53285) during the academic year 1446 AH / 2024
+AD.
+Funding This work was supported by the Deanship of Graduate Studies
+and Scientiﬁc Research at Qassim University under Grant QU-J-PG-2-
+2025-53285.
+Data Availability Data is accessible here: https://github.com/Arwaalmr
+zoqi/ELQV (accessed on 20 February 2025).
+Declarations
+Competing Interests The authors report there are no competing inter-
+ests to declare regarding this research.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and repro-
+duction in any medium or format, as long as you give appropriate credit
+to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if you modiﬁed the licensed mate-
+rial. You do not have permission under this licence to share adapted
+material derived from this article or parts of it. The images or other
+third party material in this article are included in the article’s Creative
+Commons licence, unless indicated otherwise in a credit line to the
+material. If material is not included in the article’s Creative Commons
+licence and your intended use is not permitted by statutory regula-
+tion or exceeds the permitted use, you will need to obtain permission
+directly from the copyright holder. To view a copy of this licence, visit
+http://creativecommons.org/licenses/by-nc-nd/4.0/.
+References
+Abdelali A, Hassan S, Mubarak H, Darwish K, Samih Y (2021)
+Pre-training bert on arabic tweets: Practical considerations.
+https://arxiv.org/abs/2102.10684
+123
+
+--- Page 22 ---
+
+271
+Page 22 of 23
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Abdul-Mageed M, Elmadany A, Nagoudi EMB (2021) ARBERT &
+MARBERT: Deep bidirectional transformers for Arabic. Pro-
+ceedings of the 59th annual meeting of the association for
+computational linguistics and the 11th international joint confer-
+ence on natural language processing (volume 1: Long papers), pp
+7088–7105. https://doi.org/10.18653/v1/2021.acl-long.551
+Aﬂi H, Maguire S, Way A (2017) Sentiment translation for low
+resourced languages: Experiments on irish general election tweets.
+Int J Comput Linguist Appl
+Al-Hilali MTD, Khan MM (1998) The noble qur’an: The english trans-
+lation of the meanings and commentary. King Fahd Complex,
+Madinah
+Ali Y (2001) The holy quran: Translation and commentary. Islamic
+Vision, Birmingham UK
+Almarzoqi A, Alsuhaibani M (2025) Sentiment analysis-based review
+of sentiment polarity in translations. Proceedings of the 2024 8th
+international conference on computer science and artiﬁcial intel-
+ligence, pp 382–391. https://doi.org/10.1145/3709026.3709092
+Al-Twairesh N (2021) The evolution of language models applied to
+emotion analysis of arabic tweets. Inf 12(2):84. https://doi.org/10.
+3390/info12020084
+Antoun W, Baly F, Hajj H (2020) AraBERT: Transformer-based model
+for Arabic language understanding. In Al-Khalifa HW, Magdy K,
+Elsayed DT, Mubarak H (eds) Proceedings of the 4th workshop on
+open-source arabic corpora and processing tools with a shared task
+on offensive language detection, European Language Resource
+Association, pp 9–15. https://aclanthology.org/2020.osact-1.2/
+ArberryAJ(1996)Thekoraninterpreted:Atranslation.Schuster,Simon
+Banik D (2023) Sentiment induced phrase-based machine translation:
+Robustness analysis of pbsmt with senti-module. Eng Appl Artif
+Intell 126:106977
+Barhoumi A, Aloulou C, Camelin N, Esteve Y, Belguith L (2018) Arabic
+sentiment analysis: An empirical study of machine translation’s
+impact. Lang Process Knowl Manag Int Conf (LPKM2018)
+Conneau A, Khandelwal K, Goyal N, Chaudhary V, Wenzek G, Guzmán
+F, Grave E, Ott M, Zettlemoyer L, Stoyanov V (2020) Unsuper-
+vised crosslingual representation learning at scale. In Jurafsky D,
+Chai J, Schluter N, Tetreault J (eds) Proceedings of the 58th annual
+meeting of the association for computational linguistics, Associ-
+ation for Computational Linguistics, pp 8440–8451. https://doi.
+org/10.18653/v1/2020.acl-main.747
+Devlin J, Chang MW, Lee K, Toutanova K (2019) BERT: Pre-training
+of deep bidirectional transformers for language understanding.
+https://doi.org/10.48550/arXiv.1810.04805
+Ekman P (1992) An argument for basic emotions. Cognit Emot 6(3–
+4):169–200. https://doi.org/10.1080/02699939208411068
+Elewa A (2016) Translating the sacred text: A polysystem approach. J
+Transl 12(1):13–27. https://doi.org/10.54395/jot-v5pkk
+Elmadany A, Nagoudi EB, Abdul-Mageed M (2023) ORCA: A chal-
+lenging benchmark for Arabic language understanding. In Rogers
+A, Boyd-Graber J, Okazaki N (eds) Findings of the association
+for computational linguistics: Acl 2023, Association for Compu-
+tational Linguistics, pp 9559–9586. https://doi.org/10.18653/v1/
+2023.ﬁndings-acl.609
+Fleiss JL (1971) Measuring nominal scale agreement among many
+raters. Psychol Bull 76(5):378
+Gaanoun K, Alsuhaibani M (2025) Sentiment preservation in Quran
+translation with artiﬁcial intelligence approach: Study in rep-
+utable English translation of the Quran. Humanit Soc Sci Commun
+12(1):222. https://doi.org/10.1057/s41599-024-04181-0
+Gangula RRR, Mamidi R (2018) Impact of translation on sentiment
+analysis: A case-study on telugu reviews. 19th international con-
+ference on computational linguistics and intelligent text processing
+He P, Liu X, Gao J, Chen W (2021) Deberta: Decoding-enhanced bert
+with disentangled attention. https://arxiv.org/abs/2006.03654
+Hughes J (2021) Krippendorffsalpha: An r package for measuring
+agreement using krippendorff’s alpha coefﬁcient. arXiv preprint
+arXiv:2103.12170
+Inoue G, Alhafni B, Baimukan N, Bouamor H, Habash N (2021) The
+interplay of variant size and task type in Arabic pre-trained lan-
+guage models. In Habash N, Bouamor H, Hajj H, Magdy W,
+Zaghouani W, Bougares F, Tomeh N, Abu Farha I, Touileb S
+(eds) Proceedings of the 6th arabic natural language processing
+workshop, Association for Computational Linguistics, pp 92–104.
+https://aclanthology.org/2021.wanlp-1.10/
+International S (1997) The qur’an: Arabic text with corresponding
+english meanings
+Jurafsky D, Martin JH (2025) Speech and language processing: An
+introduction to natural language processing computational linguis-
+tics and speech recognition with language models (3rd) [Online
+manuscript released January 12 2025]. https://web.stanford.edu/
+~jurafsky/slp3/
+Kajava K, Öhman E, Hui P, Tiedemann J (2020) Emotion preservation
+in translation: Evaluating datasets for annotation projection. Digit
+Human Nordic Countries 38–50
+Krippendorff K (2004) Measuring the reliability of qualitative text anal-
+ysis data. Qual Quant 38:787–800
+Kumari D, Ekbal A (2024) Enhancing sentiment and emotion transla-
+tion of review text through mlm knowledge integration in nmt. J
+Intell Inf Syst 62(5):1213–1237. https://doi.org/10.1007/s10844-
+024-00843-2
+Kumari D, Ekbal A, Haque R, Bhattacharyya P, Way A (2021)
+Reinforced NMT for sentiment and content preservation in low-
+resource scenario. ACM Trans Asian Low-Resour Lang Inf
+Process 20(4) .https://doi.org/10.1145/3450970
+Lan Z, Chen M, Goodman S, Gimpel K, Sharma P, Sori-
+cut R (2019) ALBERT: A lite BERT for self-supervised
+learning of language representations. CoRR abs/1909.11942.
+http://arxiv.org/abs/1909.11942
+Landis JR, Koch GG (1977) The measurement of observer agreement
+for categorical data. Biometrics 159–174
+Litvinenko A (2021) Youtube as alternative television in russia: Political
+videos during the presidential election campaign 2018. Soc Media
+Soc 7(1). https://doi.org/10.1177/2056305120984455
+Liu Y, Ott M, Goyal N, Du J, Joshi M, Chen D, Levy O, Lewis M,
+Zettlemoyer L, Stoyanov V (2019) Roberta: A robustly optimized
+bert pretraining approach. arXiv:1907.11692
+Lohar P, Aﬂi H, Way A (2017) Maintaining sentiment polarity in
+translation of user-generated content. Prague Bull Math Linguist
+108:73–84
+Lohar P, Aﬂi H, Way A (2018) Balancing translation quality and sen-
+timent preservation (non-archival extended abstract) In Cherry C,
+Neubig G (eds) Proceedings of the 13th conference of the associa-
+tion for machine translation in the Americas (volume 1: Research
+track), Association for Machine Translation in the Americas, pp
+81–88. https://aclanthology.org/W18-1808
+Miao J, Zhang Y, Jiang N, Wen J, Pei K, Wan Y, Wan T, Chen H (2024)
+Towards unifying pre-trained language models for semantic text
+exchange. Wirel Netw 30(7):6385–6398. https://doi.org/10.1007/
+s11276-023-03439-w
+Mohammad SM, Salameh M, Kiritchenko S (2016) How translation
+alters sentiment. J Artif Intell Res 55:95–130. https://doi.org/10.
+1613/jair.4787
+Moons F, Vandervieren E (2023) Measuring agreement among several
+raters classifying subjects into one-or-more (hierarchical) nomi-
+nal categories. A generalisation of ﬂeiss’ kappa. arXiv preprint
+arXiv:2303.12502
+Nandwani P, Verma R (2021) A review on sentiment analysis and emo-
+tion detection from text. Soc Netw Anal Min 11(1):81. https://doi.
+org/10.1007/s13278-021-00776-6
+123
+
+--- Page 23 ---
+
+Journal of King Saud University Computer and Information Sciences (2025) 37 :271
+Page 23 of 23
+271
+Pickthall MW (1953) The meaning of the glorious koran: An explana-
+tory translation by mohammed marmaduke pickthall. New Amer-
+ican Library
+Plaza-del-Arco FM, Cercas Curry AA, Cercas Curry A, Hovy D (2024)
+Emotion analysis in NLP: Trends gaps and roadmap for future
+directions. In Calzolari N, Kan MY, Hoste V, Lenci A, Sakti S, Xue
+N (eds) Proceedings of the 2024 joint international conference on
+computational linguistics language resources and evaluation (lrec-
+coling 2024), ELRA; ICCL, pp 5696–5710. https://aclanthology.
+org/2024.lrec-main.506/
+Poncelas A, Lohar P, Hadley J, Way A (2020) The impact of indirect
+machine translation on sentiment classiﬁcation. In Denkowski M,
+Federmann C (eds) Proceedings of the 14th conference of the asso-
+ciationformachinetranslationintheamericas(volume1:Research
+track), Association for Machine Translation in the Americas, pp
+78–88. https://aclanthology.org/2020.amta-research.7/
+Qian S, Orasan C, Carmo FD, Li Q, Kanojia D (2023) Evalua-
+tion of Chinese-English machine translation of emotion-loaded
+microblog texts: A human annotated dataset for the quality assess-
+ment of emotion translation. In Nurminen M, Brenner J, Koponen
+M, Latomaa S, Mikhailov M, Schierl F, Ranasinghe T, Vanmassen-
+hove E, Vidal SA, Aranberri N, Nunziatini M, Escartín CP, Forcada
+M, Popovic M, Scarton C, Moniz H (eds) Proceedings of the 24th
+annual conference of the european association for machine transla-
+tion, European Association for Machine Translation, pp 125–135.
+https://aclanthology.org/2023.eamt1.13/
+Raiaan MAK, Mukta MSH, Fatema K, Fahad NM, Sakib S, Mim
+MMJ, Ahmad J, Ali ME, Azam S (2024) A review on large lan-
+guage models: Architectures applications taxonomies open issues
+and challenges. IEEE Access 12:26839–26874. https://doi.org/10.
+1109/ACCESS.2024.3365742
+Saadany H, Orasan C (2020) Is it great or terrible? preserving senti-
+ment in neural machine translation of Arabic reviews. In Zitouni I,
+Abdul-Mageed M, Bouamor H, Bougares F, El-Haj M, Tomeh N,
+Zaghouani W (eds) Proceedings of the ﬁfth arabic natural language
+processing workshop, Association for Computational Linguistics,
+pp 24–37. https://aclanthology.org/2020.wanlp-1.3/
+Saadany H, Orasan C, Quintana RC, Carmo FD, Zilio L (2023)
+Analysing mistranslation of emotions in multilingual tweets by
+online MT tools. In Nurminen M, Brenner J, Koponen M, Latomaa
+S, Mikhailov M, Schierl F, Ranasinghe T, Vanmassenhove E,
+Vidal SA, Aranberri N, Nunziatini M, Escartín CP, Forcada M,
+Popovic M, Scarton C, Moniz H (eds) Proceedings of the 24th
+annual conference of the european association for machine transla-
+tion, European Association for Machine Translation, pp 275–284.
+https://aclanthology.org/2023.eamt-1.27/
+Saadany H, Or˘asan C, Mohamed E, Tantawy A (2022) A semisuper-
+vised approach for a better translation of sentiment in dialectical
+Arabic UGT. In Bouamor H, Al-Khalifa H, Darwish K, Rambow
+O, Bougares F, Abdelali A, Tomeh N, Khalifa S, Zaghouani W
+(eds) Proceedings of the 7th arabic natural language processing
+workshop (wanlp,) Association for Computational Linguistics, pp
+214–224. https://doi.org/10.18653/v1/2022.wanlp-1.20
+Safaya
 A
-Novel
-Experiential
-Learning
-Tool
-for
-Enhancing K-12 Cryptography Education.” arXiv preprint
-arXiv:2411.02143 (2024).
-56.Yao, Jinliang, Chenrui Wang, Chuang Hu, and Xiaoxi
-Huang. ”Chinese spam detection using a hybrid BiGRU-
-CNN network with joint textual and phonetic embedding.”
-Electronics 11, no. 15 (2022): 2418.
-57-
-Abbasalizadeh,
-Maryam,
-Jeffrey
-Chan,
-Pranathi
-Rayavaram, Yimin Chen, and Sashank Narain. ”Privacy-
-preserving link scheduling for wireless networks.” IEEE
-Access (2024).
-58-amad,
-Saleem
-Raja
-Abdul,
-Sundaravadivazhagan
-Balasubramaniyan,
-Pradeepa
-Ganesan,
-Amna
-Salim
-Al-
-Kaabi, Hariraman Ammaippan, and Jeyakumar Manickam
-Sam. ”SMSecure: Leveraging Machine Learning for Smishing
-Detection.” In International Conference on Data Engineering
-and Machine Intelligence, pp. 257-271. Singapore: Springer
-Nature Singapore, 2023.
-\n```\n
+(2020).
+Arabic-albert.
+https://doi.org/10.5281/zenodo.
+4718724
+Safaya A, Abdullatif M, Yuret D (2020) KUISAIL at SemEval-2020
+task 12: BERT-CNN for offensive speech identiﬁcation in social
+media. In Herbelot A, Zhu X, Palmer A, Schneider N, May J,
+Shutova E (eds) Proceedings of the 14th workshop on semantic
+evaluation, International Committee for Computational Linguis-
+tics, pp 2054–2059. https://doi.org/10.18653/v1/2020. semeval-
+1.271
+Saffar AH, Mann TK, Ofoghi B (2023) Textual emotion detection
+in health: Advances and applications. J Biomed Inf 137:104258.
+https://doi.org/10.1016/j.jbi.2022.104258
+Sailunaz K, Alhajj R (2019) Emotion and sentiment analysis from twit-
+ter text. J Comput Sci 36:101003
+Sanh V, Debut L, Chaumond J, Wolf T (2019) Distilbert a dis-
+tilled version of bert: Smaller faster cheaper and lighter. ArXiv
+abs/1910.01108
+Sarwar M (1981) The holy quran: Arabic text and english translation.
+Tahrike Tarsile Quran, Elmhurst NY, USA
+Sazzed S (2020) Cross-lingual sentiment classiﬁcation in low-resource
+Bengali language. In Xu W, Ritter A, Baldwin T, Rahimi A (eds)
+Proceedings of the 6th workshop on noisy user-generated text (w-
+nut 2020), Association for Computational Linguistics, pp 50–60.
+https://doi.org/10.18653/v1/2020.wnut-1.8
+Shakir MH (1999) The holy quran translated. Tahrike Tarsile Quran,
+Elmhurst NY USA
+Si C, Wu K, Aw AT, Kan MY (2019) Sentiment aware neural machine
+translation.InNakazawaT,DingC,DabreR,KunchukuttanA,Doi
+N, Oda Y, Bojar O, Parida S, Goto I, Mino H (eds) Proceedings of
+the 6th workshop on asian translation, Association for Computa-
+tional Linguistics, pp 200–206. https://doi.org/10.18653/v1/D19-
+5227
+Tafreshi S, Vatsal S, Diab M (2024) Emotion classiﬁcation in low and
+moderate resource languages. https://arxiv.org/abs/2402.18424
+Troiano E, Klinger R, Padó S (2020) Lost in back-translation: Emo-
+tion preservation in neural machine translation. In Scott D, Bel
+N, Zong C (eds) Proceedings of the 28th international conference
+on computational linguistics, International Committee on Compu-
+tational Linguistics, pp 4340–4354. https://doi.org/10.18653/v1/
+2020.coling-main.384
+Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN,
+Kaiser, Ł, Polosukhin I (2017) Attention is all you need. Proceed-
+ings of the 31st international conference on neural information
+processing systems 6000–6010
+Zhang C, Capelletti M, Poulis A, Stemann T, Nemcova J (2017) A case
+study of machine translation in ﬁnancial sentiment analysis. In
+Yamada M, Seligman M (eds) Proceedings of machine translation
+summit xvi: Commercial mt users and translators track, pp 49–58.
+https://aclanthology.org/2017.mtsummitcommercial.7/
+Publisher’s Note Springer Nature remains neutral with regard to juris-
+dictional claims in published maps and institutional afﬁliations.
+123
+
+```

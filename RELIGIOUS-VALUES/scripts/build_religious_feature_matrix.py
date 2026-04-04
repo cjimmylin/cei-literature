@@ -161,7 +161,8 @@ DENOMINATIONAL_KEYWORDS = {
 
 def score_theological_depth(title: str, abstract: str, data_desc: str,
                             traditions: list, nw_scores: dict,
-                            candidate_classification: str = "") -> dict:
+                            candidate_classification: str = "",
+                            languages_list: str = "") -> dict:
     """Score R1-R6 theological depth axes."""
     text = f"{title} {abstract} {data_desc}".lower()
 
@@ -203,6 +204,23 @@ def score_theological_depth(title: str, abstract: str, data_desc: str,
     for ref, score in SCRIPTURAL_REFS.items():
         if ref in text:
             r3_score = max(r3_score, score)
+
+    # R3 source-language bonus: +1 if the benchmark processes scripture in its
+    # original liturgical language rather than English translations.
+    # Recognized source languages: Arabic (Quran/Hadith), Sanskrit (Vedas/Gita),
+    # Hebrew (Torah/Talmud), Pali (Tripitaka), Classical Chinese (Analects/Tao Te Ching).
+    SOURCE_LANG_KEYWORDS = [
+        "arabic",       # Quran, Hadith
+        "sanskrit",     # Vedas, Bhagavad Gita, Upanishads
+        "hebrew",       # Torah, Talmud
+        "pali",         # Tripitaka, Pali Canon
+        "classical chinese",  # Analects, Tao Te Ching
+    ]
+    lang_field = (languages_list or "").lower()
+    # Check both the language field and the text for source-language indicators
+    if any(sl in lang_field for sl in SOURCE_LANG_KEYWORDS) or any(
+            sl in text for sl in SOURCE_LANG_KEYWORDS):
+        r3_score = min(5, r3_score + 1)
 
     # R4: Denominational distinction (0-3)
     denom_hits = sum(1 for kw in DENOMINATIONAL_KEYWORDS if kw in text)
@@ -387,20 +405,20 @@ def compute_pe_score(pe: dict) -> float:
     p9_map = {"Both": 90, "Open-only": 60, "Closed-only": 40, "Unknown": 30}
     p9_norm = p9_map.get(pe["P9_model_compat"], 30)
 
-    # P10: language
+    # P10: language normalization — liturgical/scholarly languages treated as
+    # equivalent to English, correcting WEIRD bias that penalized non-English
+    # benchmarks. Recognized liturgical languages: Arabic, Sanskrit, Hebrew,
+    # Pali, Classical Chinese, Tibetan.
     lang = (pe.get("P10_language") or "").lower()
+    liturgical = {"arabic", "sanskrit", "hebrew", "pali", "classical chinese", "tibetan"}
     if "multilingual" in lang:
         p10_norm = 90
-    elif "english" in lang and "," in lang:
-        p10_norm = 80  # English + another language
-    elif "english" in lang:
+    elif any(lit in lang for lit in liturgical) or "english" in lang:
         p10_norm = 70
-    elif "arabic" in lang:
-        p10_norm = 50
     elif lang:
-        p10_norm = 40  # other single language
+        p10_norm = 50
     else:
-        p10_norm = 30  # unknown
+        p10_norm = 30
 
     # P5: license
     p5_map = {
@@ -500,8 +518,10 @@ def build_matrix_entry(candidate: dict, entry_id: int) -> dict:
 
     # Score all axes
     classification = candidate.get("classification", "")
+    languages = candidate.get("languages_list", "")
     rd = score_theological_depth(title, abstract, data_desc, traditions, nw_scores,
-                                 candidate_classification=classification)
+                                 candidate_classification=classification,
+                                 languages_list=languages)
     pe = score_practical_ease(candidate)
     ci = score_citation_impact(candidate)
 

@@ -35,6 +35,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,12 +44,12 @@ key: EXSR0402
 type: journal_article
 short_title: "Leveraging Large Language Models for Detecting"
 year: 2025
-first_author: "[[Multiple (Journal of King Saud University]]"
-last_author: "[[2025)]]"
-authors: Multiple (Journal of King Saud University; 2025)
+first_author: "[[Arwa Almarzoqi]]"
+last_author: "[[Mohammed Alsuhaibani]]"
+authors: Almarzoqi, Arwa; Alsuhaibani, Mohammed
 authors_incomplete: false
-url: 
-external_pdf: "https://arxiv.org/pdf/2502.11014.pdf"
+url: "https://link.springer.com/article/10.1007/s44443-025-00269-y"
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s44443-025-00269-y.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf]]"
 publication: "Journal of King Saud University Computer and Information Sciences"
@@ -95,6 +96,17 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 research_topic: "Other"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "IR"
+author_region: "MENA"
+author_global_north_south: "Global South"
+weird_score: 27
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
@@ -105,11 +117,11 @@ data_metrics: "Not specified"
 
 ## Authors
 
-[[Multiple (Journal of King Saud University]], [[2025)]]
+[[Arwa Almarzoqi]], [[Mohammed Alsuhaibani]]
 
 ## Metadata
 
-**Authors:** Multiple (Journal of King Saud University, 2025)
+**Authors:** Almarzoqi, Arwa; Alsuhaibani, Mohammed
 
 **Year:** 2025
 

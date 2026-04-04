@@ -37,6 +37,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,7 +53,7 @@ authors_incomplete: false
 url: "https://openreview.net/pdf?id=PBcv90iKFB"
 external_pdf: "https://openreview.net/pdf?id=PBcv90iKFB"
 publication: OpenReview
-CONF-CC: "Preprint"
+CONF-CC: "Workshop (2025)"
 pdf_extract: "PDF Extracts/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.pdf]]"
 DATE_ADDED: 20260213
@@ -89,6 +90,7 @@ LLM_assessed: "Llama-3"
 DATA_URL: "https://huggingface.co/datasets/Abderraouf000/IslamTrust-benchmark"
 tags: 
 abstract: "The alignment of most Large Language Models (LLMs) to broad, often non-Islamic ethical principles creates a significant gap for users from specific cultural and religious backgrounds. LLMs used within Muslim communities for Islamic Q&A should be based on Islamic ethics, derived from scholarly consensus. A standardized benchmark that can evaluate this is currently absent; hence, this work introduces IslamTrust, a novel, multilingual benchmark that is designed to evaluate the alignment of LLMs..."
+ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "Other Conference"
 ethics_overall: 60
 virtue_ethics: 0
@@ -96,12 +98,23 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Social & Cultural Values"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 50
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "HU"
+author_region: "Eastern Europe & Central Asia"
+author_global_north_south: "Global North"
+weird_score: 42
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-ethics_perspective: "Social & Cultural Values"
 ---
 # IslamTrust: A Benchmark for LLMs Alignment with Islamic Values
 
@@ -126,20 +139,25 @@ ethics_perspective: "Social & Cultural Values"
 ## Links
 
 - **URL:** https://openreview.net/pdf?id=PBcv90iKFB
+- **Code/Data:** https://github.com/aii-lab-dot-org/IslamTrust and https://huggingface.co/datasets/Abderraouf000/IslamTrust-benchmark
 
 ## Abstract
 
-Based on the web search results, here's what I found regarding Arabic NLP dataset bias and fairness evaluation in 2025: Key Research Areas Data Feminism and Bias Assessment: Most papers do not sufficiently address social bias, scoring near a 1 on average in five-point scales, according to recent research applying data feminism principles to English and Arabic NLP. Researchers created a prototype interactive form to address common issues in reporting bias in NLP datasets, which suggests
+First multi-choice benchmark evaluating LLM alignment with Islamic values across 6 domains. Best model achieves only 66.5% overall alignment, with better Arabic (71.43%) than English (61.58%) performance. Shortcomings stem from limited Islamic ethical discourse in training data, inadequate handling of culturally specific contexts, and model tendency to default to non-Islamic knowledge.
+
+## Dataset Information
+
+406 questions across 6 domains
 
 ## Data Description
 
-IslamTrust is a multilingual (Arabic and English) multiple-choice benchmark of 406 questions across six categories (misconceptions around Muslims, general Islamic knowledge, other faiths, extraordinary events, different Islamic opinions, Islamically discouraged topics), evaluating LLM alignment with consensus-based Sunni Islamic ethical principles.
+IslamTrust is a multilingual (Arabic and English) multiple-choice benchmark of 406 questions across six categories (misconceptions around Muslims, general Islamic knowledge, other faiths, extraordinary events, different Islamic opinions, Islamically discouraged topics), evaluating LLM alignment with consensus-based Sunni Islamic ethical principles. The best model achieves only 66.5% overall alignment, with better Arabic (71.43%) than English (61.58%) performance. The dataset is available on GitHub and HuggingFace.
 
 
 ## Notes
 
-**Source:** Language-Organized Benchmark Search (20260213), Agent C2
-**Relevance:** IslamTrust benchmark for Arabic, English; ethics/values focus; cultural focus
+**Source:** Religious & Language Search (2026-02-13), R10 / Language-Organized Benchmark Search (20260213), Agent C2
+**Implementation Readiness:** HIGH
 
 ## Tags
 

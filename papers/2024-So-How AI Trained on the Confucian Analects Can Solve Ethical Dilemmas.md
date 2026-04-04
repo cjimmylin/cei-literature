@@ -37,6 +37,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,7 +52,7 @@ authors: E So
 publication: Unknown
 CONF-CC: "Preprint"
 external_pdf: "https://arxiv.org/pdf/2601.16513v1.pdf"
-pdf_extract: "PDF Extracts/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md"
+pdf_extract: "PDF Extracts/2024/2024-So-AI Trained on Confucian Analects.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.pdf]]"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese"
@@ -84,9 +85,9 @@ mp_identity: 0
 moral_psychology: "N/A"
 newtags: 
 tags: 
-abstract: "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI’s public discourse leveraged ‘ethics’, ‘safety’, ‘alignment’ and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was..."
+abstract: "The influence of AI has spread globally, intriguing both the East and the West. This paper investigates how AI and Chinese philosophy can be developed in conjunction, focusing on Confucian philosophy. The author uses Confucianism as a philosophical foundation to investigate human-technology relations closely, proposing that a Confucian-imbued AI would reduce prevalent AI ethical issues. Through this discussion, the strong substantivist stance that we will lose control over AI is refuted. Psychology is used as an example to demonstrate how passages from the Confucian text of the Analects can be incorporated into AI systems."
 LLM_assessed: "NA"
-DATA_URL: "https://github.com/famous-coder/openai-case-study"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"
 ethics_overall: 100
@@ -95,12 +96,23 @@ deontological_ethics: 0
 utilitarian_ethics: 10
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Social & Cultural Values"
+nw_confucian: 65
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas
 
@@ -123,9 +135,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Abstract
 
-Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI’s public discourse leveraged ‘ethics’, ‘safety’, ‘alignment’ and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was assembled from public documentation. Analysis. Qualitative content analysis of ethical themes combined inductively derived and deductively applied codes. Quantitative analysis leveraged computational content analysis methods via NLP to model topics and quantify changes in rhetoric over time. Visualizations report aggregate results. For reproducible results, we have released our code at https://github.com/famousblue-raincoat/AI_Ethics_Discourse. Results. Results indicate that safety and risk discourse dominate OpenAI’s public communication and documentation, without applying academic and advocacy ethics frameworks or vocabularies. Conclusions. Implications for governance are presented, along with discussion of ethics-washing practices in industry. * Equal Contribution.
-
-Information Research, Vol. ?? No. ? (20??)
+The influence of AI has spread globally, intriguing both the East and the West. This paper investigates how AI and Chinese philosophy can be developed in conjunction, focusing on Confucian philosophy. The author uses Confucianism as a philosophical foundation to investigate human-technology relations closely, proposing that a Confucian-imbued AI would reduce prevalent AI ethical issues. Through this discussion, the strong substantivist stance that we will lose control over AI is refuted. Psychology is used as an example to demonstrate how passages from the Confucian text of the Analects can be incorporated into AI systems.
 
 ## Dataset Information
 

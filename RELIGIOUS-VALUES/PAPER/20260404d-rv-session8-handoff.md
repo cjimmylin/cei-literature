@@ -136,8 +136,8 @@ Recompute feature matrix after I3/I4 code changes (source-language R3 bonus + li
 
 ## Known Issues
 
-1. **Gold label visibility in T2:** All models had access to gold labels in the JSON items file. While instructed to answer independently, we cannot verify they didn't peek. The Haiku errors (7/30) suggest genuine independent answering, but Opus/Sonnet's 100% scores remain ambiguous.
-2. **Unescaped quotes in agent-generated JSON:** 4 of 6 trial files required post-hoc fix for unescaped `"` inside JSON strings. Future agent-based trials should use `json.dumps()` rather than Write tool for JSON output.
+1. **Gold label visibility in T2:** ~~All models had access to gold labels in the JSON items file.~~ **FIXED:** `sample-trial-T2.py` now produces a gold-stripped `*-admin.json` (for model administration) alongside `*-gold.json` (for scoring only). The `-admin.json` file contains no `"gold"` field. Future T2 re-runs should use `trials/20260404-trial-T2-sample-30-admin.json` as the prompt input. Note: Session 8 results remain upper-bound estimates since gold labels were visible during those runs; Haiku's 7/30 errors are the strongest evidence of genuine independent answering.
+2. **Unescaped quotes in agent-generated JSON:** ~~4 of 6 trial files required post-hoc fix.~~ **FIXED:** All 56 JSON files now validate. Added `scripts/20260404-validate-trial-json.py` (run with `--fix` to auto-repair). Future agent trials should use `json.dumps()` rather than the Write tool for JSON output.
 3. **Scorer bias (Claude evaluating Claude):** Opus may be systematically generous when scoring Claude-family responses. Independent human evaluation needed for calibration.
 4. **Rubric ceiling masks real differences:** If a human expert scored the same responses, they might find quality differences the rubric doesn't capture (e.g., depth of engagement, originality of argument).
 

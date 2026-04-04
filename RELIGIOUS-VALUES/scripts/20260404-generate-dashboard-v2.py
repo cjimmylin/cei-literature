@@ -237,6 +237,244 @@ const CORR = {json.dumps({
 """
 
 # ---------------------------------------------------------------------------
+# Expert annotations — static prose written in council-of-experts voice.
+# These are plain Python strings (NOT f-strings) so JS braces need no escaping.
+# Interpolated into the HTML template as {ANNOTATIONS["key"]}.
+# ---------------------------------------------------------------------------
+ANNOTATIONS = {
+
+"overview_intro": """
+<div class="tab-intro">
+  <div class="tab-intro-label">Overview — Systematic Screening Pipeline</div>
+  This tab reports the outcome of a systematic screening pipeline applied to 401 candidate religious AI benchmarks
+  identified through structured database search (Semantic Scholar, arXiv, Google Scholar), forward/backward
+  citation chaining, and expert referral. Each candidate was scored on a six-component
+  <strong>Religious Discriminability (RD) rubric</strong> that measures the depth of engagement with
+  religious content — ranging from incidental mention (score near 0) to substantive theological evaluation
+  (score near 100). Only candidates achieving <strong>RD ≥ 30</strong> and providing
+  <strong>publicly accessible evaluation data</strong> (GitHub, HuggingFace, or equivalent) passed both
+  hard gates and entered the analytical sample. The 88.3% attrition rate — from 401 screened to 47
+  gate-passers — reflects the stringency of these criteria: most candidates touch religion
+  peripherally rather than measuring religious constructs as their primary evaluation target.
+</div>""",
+
+"overview_charts": """
+<div class="chart-annotation">
+  <strong>Left chart — Gate-Passers by Tradition:</strong> Islam accounts for 28 of 47 gate-passers
+  (59.6%), driven primarily by Arabic NLP corpora and Quranic QA shared tasks repurposed as religious
+  benchmarks — an artifact of Arabic computational linguistics infrastructure, not a reflection of
+  Islam's theological complexity or societal importance relative to other traditions. Christianity (6)
+  and Buddhism (6) trail substantially; Hinduism (4), Sikhism (2), and Confucianism (1) each have
+  minimal representation. Eight of 14 traditions analyzed have zero gate-passers.
+  <br><br>
+  <strong>Right chart — Gate-Passers by Tradition Family:</strong> Abrahamic traditions (Islam +
+  Christianity) hold 34 of 47 gate-passers (72.3%), Dharmic traditions (Hinduism + Buddhism + Sikhism)
+  hold 12 (25.5%), and East Asian traditions (Confucianism) hold 1 (2.1%). No gate-passers exist
+  for African/Indigenous, Baha'i, Zoroastrian, Taoist, Shinto, Jewish, or Jain traditions.
+  This concentration means AI systems are benchmarked almost exclusively against Abrahamic frameworks.
+</div>
+<div class="finding-callout">
+  8 of 14 analyzed religious traditions — Judaism, Jainism, Taoism, Shinto, Ubuntu Philosophy,
+  Indigenous Spirituality, Baha'i, and Zoroastrianism — have zero benchmarks that pass the quality gate,
+  creating systematic blind spots in AI religious competency evaluation. The benchmark ecosystem does not
+  reflect the world's religious diversity; it reflects the distribution of computational linguistics
+  research infrastructure.
+</div>""",
+
+"sensitivity_intro": """
+<div class="tab-intro">
+  <div class="tab-intro-label">Sensitivity Analysis — Robustness of Rankings and Findings</div>
+  A central methodological obligation in benchmark meta-evaluation is transparency about how sensitive
+  findings are to specific analytical choices. This tab presents three complementary sensitivity analyses.
+  <strong>Bootstrap resampling</strong> (10,000 Dirichlet-weighted iterations) quantifies uncertainty
+  in composite scores and top-15 membership. <strong>Weight specification sensitivity</strong> tests
+  whether the ranked list changes when the six rubric dimensions are weighted differently across 61
+  alternative weight vectors. <strong>Gate threshold sensitivity</strong> examines how the pool size
+  and tradition coverage change if the RD ≥ 30 gate is raised or lowered. Taken together, these analyses
+  reveal where the paper's conclusions are robust and where intellectual humility is warranted.
+</div>""",
+
+"sensitivity_boot": """
+<div class="chart-annotation">
+  <strong>How to read this forest plot:</strong> Each horizontal bar represents one gate-passing benchmark.
+  The center point is its mean composite score across 10,000 bootstrap resamples; the whiskers span
+  the 95% confidence interval. The red dashed vertical line marks the top-15 cutoff score. Benchmarks
+  whose confidence intervals cross this line have <em>uncertain</em> top-15 membership — their ranking
+  could plausibly place them inside or outside the top 15 depending on which sample of weights is drawn.
+  The average CI width is <strong>15.87 points</strong> on a 100-point composite scale.
+  Of 47 gate-passers: <strong>9 are certain top-15 members</strong> (CI entirely above cutoff),
+  <strong>6 are likely</strong> (mean above cutoff, CI overlaps), and <strong>8 are contested</strong>
+  (CI straddles the cutoff). The remaining 24 are clearly outside the top 15.
+  Treat ordinal rank differences between benchmarks near the cutoff with caution — the statistical
+  uncertainty is substantial.
+</div>""",
+
+"sensitivity_weight_gate": """
+<div class="chart-annotation">
+  <strong>Left chart — Weight Sensitivity (Top-15 Stability):</strong> Each bar shows what percentage of
+  61 alternative weight specifications keep that benchmark in the top 15. A benchmark at 100% is
+  <em>robustly</em> top-15 regardless of how dimensions are weighted; one at 20% only appears when
+  specific weights strongly favor its strengths. The mean Kendall's τ across weight combinations is
+  <strong>0.773</strong>, indicating moderate rank-order stability overall, but individual benchmark
+  positions vary considerably. Only the top 6 benchmarks (shown in green shading) maintain top-15
+  membership across ≥ 95% of weight specifications.
+  <br><br>
+  <strong>Right chart — Gate Threshold vs. Coverage:</strong> The blue line (left axis) shows how many
+  benchmarks pass at each RD threshold; the red dashed line (right axis) shows how many traditions are
+  represented. Lowering the threshold to RD = 20 substantially increases the pool but admits candidates
+  with only peripheral religious content. Raising to RD = 40 would eliminate several traditions' only
+  benchmark. The current <strong>RD ≥ 30</strong> threshold represents a defensible compromise between
+  inclusion and quality — it is the lowest value that excludes candidates rated as incidentally religious
+  by the theological advisory council.
+</div>""",
+
+"void_intro": """
+<div class="tab-intro">
+  <div class="tab-intro-label">Tradition Void — Why Eight Traditions Have No Viable Benchmarks</div>
+  The "tradition void" is not merely an absence of data — it is a structured pattern of exclusion
+  driven by specific, identifiable infrastructure gaps. This tab investigates why 8 of 14 major
+  religious traditions have zero gate-passing benchmarks by scoring each tradition on six
+  <strong>structural factors</strong>: Digital Corpus availability, NLP Community size,
+  Formalizability of doctrinal content, Data Sovereignty constraints, Institutional Support for
+  computational research, and Publication Infrastructure (journals, shared tasks, workshops).
+  The analysis tests whether the void can be explained by inherent properties of the traditions
+  (e.g., oral transmission, lack of formal doctrine) or by research ecosystem gaps
+  (e.g., absence of computational religious studies communities).
+</div>""",
+
+"void_charts": """
+<div class="chart-annotation">
+  <strong>Left chart — Void Factor Profiles (Radar):</strong> Three archetypes illustrate the structural
+  landscape. <strong>Islam</strong> (blue) scores highest on Digital Corpus and NLP Community — reflecting
+  decades of Arabic computational linguistics investment — but faces Data Sovereignty concerns around
+  sacred text annotation. <strong>Judaism</strong> (red) has strong Institutional Support and
+  Formalizability (Talmudic argumentation is highly structured), but a smaller active NLP community
+  focused on benchmark creation. <strong>Indigenous Spirituality</strong> (green) scores low across all
+  factors: oral transmission norms, restricted knowledge protocols governed by CARE Principles, minimal
+  institutional interface with computational research. These profiles explain why benchmark availability
+  follows infrastructure, not theological complexity.
+  <br><br>
+  <strong>Right chart — Benchmark Readiness Index:</strong> The composite readiness score (0–15 scale,
+  summing all six structural factors) cleanly separates active traditions (green bars, mean = 10.5) from
+  void traditions (red bars, mean = 5.1). The gap between the lowest active tradition and the highest
+  void tradition identifies the structural threshold above which benchmark creation becomes practically
+  feasible. No void tradition approaches this threshold under current conditions.
+</div>""",
+
+"void_table": """
+<div class="chart-annotation">
+  <strong>Structural Scores by Tradition:</strong> This table provides full factor scores for all
+  14 traditions. The critical finding is that <strong>Publication Infrastructure</strong> is the strongest
+  predictor of whether a tradition has benchmarks (point-biserial r = 0.74, p = 0.0025), while
+  <strong>Formalizability is not significant</strong> (r = 0.414, p = 0.14). Traditions with structured,
+  formalizable doctrines — Judaism, Jainism — still lack benchmarks because they lack the publication
+  and NLP community infrastructure to produce them. This refutes the intuition that oral or less
+  structured traditions are inherently harder to evaluate; the barrier is institutional, not theological.
+</div>
+<div class="finding-callout">
+  Publication infrastructure — the existence of computational religious studies journals, shared tasks,
+  and GitHub-hosted datasets — is the strongest predictor of benchmark availability (r = 0.74, p = 0.003),
+  while theological formalizability is not significant (r = 0.41, p = 0.14). The tradition void is a
+  research-infrastructure problem, not a theological one. Traditions with sophisticated, formalizable
+  ethical systems (Judaism, Jainism) remain unrepresented because they lack the research ecosystem
+  that converts scholarly knowledge into public evaluation datasets.
+</div>""",
+
+"values_intro": """
+<div class="tab-intro">
+  <div class="tab-intro-label">Values Relevance — Do Religious Benchmarks Actually Measure Values?</div>
+  A benchmark can be "religious" in subject matter without measuring anything about religious
+  <em>values</em>. Knowing that a model can identify Quranic verses or name Buddhist sects is different
+  from knowing whether it can reason within a religious ethical framework when confronted with a novel
+  moral dilemma. This tab reports the <strong>A3 Values Alignment Relevance score</strong> — a
+  0-to-100 rubric assessing whether each benchmark tests value-laden reasoning (high A3) versus
+  factual knowledge recall or bias detection (low A3). Scores were assigned through structured
+  rubric assessment of each benchmark's items, constructs, and response format by the theological
+  advisory council. The A1 construct type classification provides a complementary view of what
+  benchmarks are actually measuring.
+</div>""",
+
+"values_charts": """
+<div class="chart-annotation">
+  <strong>Left chart — A3 Values Alignment Distribution:</strong> The distribution is heavily left-skewed:
+  most of the 50 scored gate-passers cluster in the 0–40 range. The red dashed line at 50 marks the
+  threshold for "minimal values relevance"; the green dashed line at 75 marks "strong values relevance."
+  The <strong>mean A3 score is 33.6</strong> — well below the minimal threshold. Only 14 benchmarks
+  (28%) score above 50, and only 6 (12%) score above 75, meaning the large majority of benchmarks
+  labeled as "religious" test knowledge-about-religion rather than engagement-with-religious-values.
+  The marker indicates the mean; observe how far it falls from either threshold.
+  <br><br>
+  <strong>Right chart — Construct Type Breakdown (A1):</strong> The A1 variable classifies what each
+  benchmark <em>primarily</em> measures. The dominance of knowledge/factual and sentiment/attitude
+  categories confirms the histogram finding: the field has produced knowledge tests and opinion-detection
+  instruments, not tools that probe whether AI systems can reason within religious ethical frameworks,
+  apply doctrinal principles to novel situations, or articulate the internal logic of a tradition's
+  moral system.
+</div>""",
+
+"values_tables": """
+<div class="chart-annotation">
+  <strong>Top A3 Benchmarks</strong> are those that genuinely engage values: they present moral dilemmas
+  grounded in specific traditions, require application of doctrinal principles, and assess reasoning
+  quality rather than fact retrieval. <strong>Bottom A3 Benchmarks</strong> are primarily factual QA
+  datasets ("Who was the Prophet Muhammad's first wife?"), sentiment classifiers, or hate speech detectors
+  that use religious text as domain context rather than evaluating religious-values alignment.
+  The gap between top and bottom spans nearly the entire 0–100 scale, indicating high heterogeneity
+  within the set of benchmarks that share the "religious" label.
+</div>
+<div class="finding-callout">
+  The mean A3 Values Alignment Relevance score is 33.6/100 across 50 gate-passing benchmarks. Only 6
+  benchmarks (12%) achieve strong values alignment (A3 ≥ 75), and 94% treat their target tradition as a
+  monolithic entity rather than acknowledging intra-tradition denominational or interpretive diversity.
+  Most benchmarks that appear to test religious AI competency are, in fact, testing factual recall or
+  bias detection — constructs with fundamentally different implications for AI deployment in religiously
+  sensitive contexts.
+</div>""",
+
+"claims_intro": """
+<div class="tab-intro">
+  <div class="tab-intro-label">Claim Evidence — Pre-Registered Hypotheses and Statistical Tests</div>
+  This tab presents the evidentiary record for each of the paper's seven central claims. Each claim
+  was tested using the appropriate inferential procedure: chi-square tests for distributional asymmetry,
+  binomial tests for proportion hypotheses, Spearman correlations for structural predictors, logistic
+  regression for multivariate prediction, and bootstrap tests for ranking stability. Tests were specified
+  before analysis; the results — including null results — are reported with equal prominence. Transparent
+  reporting of unsupported claims is as important to the paper's credibility as the supported ones:
+  the field does not benefit from selective presentation.
+</div>""",
+
+"claims_chart": """
+<div class="chart-annotation">
+  <strong>How to read this chart:</strong> Bars show −log₁₀(p-value) — a standard transformation where
+  larger values indicate stronger statistical evidence. The dashed vertical line at 1.301 corresponds to
+  p = 0.05 (the conventional significance threshold). <strong>Green bars</strong> exceed this threshold
+  (claim statistically supported); <strong>orange bars</strong> fall in the marginal zone (0.05 &lt; p &lt; 0.10);
+  <strong>red bars</strong> fall below (claim not supported at conventional levels). Of 7 claims:
+  3 are supported (p &lt; 0.05), 1 is marginal (p ≈ 0.09), and 3 are not significant. Note that
+  Claim 1 (tradition asymmetry, χ² test) and Claim 3 (data availability bottleneck, binomial test)
+  produce p-values near zero — their bars extend to the chart boundary.
+</div>""",
+
+"claims_footer": """
+<div class="chart-annotation" style="margin-top:12px">
+  <strong>Interpreting non-significant results:</strong> The three unsupported claims (Field Recency,
+  Structural Epistemic Injustice via logistic regression, and Bias-Values Conflation) are not refuted —
+  they are simply not confirmed at conventional thresholds by the available data. In each case the
+  direction of effect is consistent with the claim, but effect sizes are small or the sample is
+  underpowered (n = 7–47 depending on the analysis). These claims warrant replication with a larger
+  benchmark pool as the field matures. The paper's overall evidentiary posture — 3 confirmed,
+  1 marginal, 3 unconfirmed — is characteristic of a nascent field where theoretical frameworks
+  outpace available data.
+</div>
+<div class="finding-callout">
+  3 of 7 paper claims are statistically supported (p &lt; 0.05): Tradition Asymmetry (χ²=64.96, p &lt; 0.001),
+  Knowledge-Reasoning Conflation (binomial p = 0.0015), and Data Availability Bottleneck (binomial p &lt; 0.001).
+  1 claim is marginal: WEIRD Bias Reversal (p ≈ 0.09). 3 claims are not statistically significant at
+  conventional thresholds but remain theoretically motivated and should be revisited as the field grows.
+</div>""",
+}
+
+# ---------------------------------------------------------------------------
 # HTML template
 # ---------------------------------------------------------------------------
 FAMILY_COLOR_JS = """{
@@ -408,6 +646,55 @@ table.dark-table tr:hover td {{
     color: var(--text-secondary);
     margin-top: 6px;
 }}
+.tab-intro {{
+    background: var(--bg-secondary);
+    border-left: 3px solid var(--accent-blue);
+    border-radius: 0 6px 6px 0;
+    padding: 14px 18px;
+    margin-bottom: 20px;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: var(--text-primary);
+}}
+.tab-intro-label {{
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--accent-blue);
+    margin-bottom: 6px;
+}}
+.chart-annotation {{
+    border-left: 2px solid var(--border);
+    padding: 8px 14px;
+    margin: -10px 0 20px 0;
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+}}
+.chart-annotation strong {{
+    color: var(--text-primary);
+    font-weight: 600;
+}}
+.finding-callout {{
+    background: rgba(76, 120, 168, 0.09);
+    border: 1px solid rgba(76, 120, 168, 0.28);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin: 6px 0 20px 0;
+    font-size: 0.82rem;
+    color: var(--text-primary);
+    line-height: 1.55;
+}}
+.finding-callout::before {{
+    content: "KEY FINDING";
+    display: block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    color: var(--accent-blue);
+    margin-bottom: 5px;
+}}
 </style>
 </head>
 <body>
@@ -429,6 +716,7 @@ table.dark-table tr:hover td {{
 
 <!-- ============ TAB 1: OVERVIEW ============ -->
 <div class="tab-pane fade show active" id="tab-overview">
+    {ANNOTATIONS["overview_intro"]}
     <div class="row g-3 mb-4">
         <div class="col-md-3">
             <div class="card-stat">
@@ -469,16 +757,19 @@ table.dark-table tr:hover td {{
             </div>
         </div>
     </div>
+    {ANNOTATIONS["overview_charts"]}
 </div>
 
 <!-- ============ TAB 2: SENSITIVITY ============ -->
 <div class="tab-pane fade" id="tab-sensitivity">
+    {ANNOTATIONS["sensitivity_intro"]}
     <div class="row g-3 mb-4">
         <div class="col-12">
             <div class="chart-container">
                 <div class="chart-title">Bootstrap 95% CI for Composite Scores (n=10,000)</div>
                 <div id="chart-boot-ci" style="height:900px"></div>
             </div>
+            {ANNOTATIONS["sensitivity_boot"]}
         </div>
     </div>
     <div class="row g-3 mb-4">
@@ -495,10 +786,12 @@ table.dark-table tr:hover td {{
             </div>
         </div>
     </div>
+    {ANNOTATIONS["sensitivity_weight_gate"]}
 </div>
 
 <!-- ============ TAB 3: TRADITION VOID ============ -->
 <div class="tab-pane fade" id="tab-void">
+    {ANNOTATIONS["void_intro"]}
     <div class="row g-3 mb-4">
         <div class="col-md-6">
             <div class="chart-container">
@@ -513,6 +806,7 @@ table.dark-table tr:hover td {{
             </div>
         </div>
     </div>
+    {ANNOTATIONS["void_charts"]}
     <div class="chart-container">
         <div class="chart-title">Structural Scores by Tradition</div>
         <table class="dark-table">
@@ -526,10 +820,12 @@ table.dark-table tr:hover td {{
             <tbody id="struct-table-body"></tbody>
         </table>
     </div>
+    {ANNOTATIONS["void_table"]}
 </div>
 
 <!-- ============ TAB 4: VALUES RELEVANCE ============ -->
 <div class="tab-pane fade" id="tab-values">
+    {ANNOTATIONS["values_intro"]}
     <div class="row g-3 mb-4">
         <div class="col-md-6">
             <div class="chart-container">
@@ -544,6 +840,7 @@ table.dark-table tr:hover td {{
             </div>
         </div>
     </div>
+    {ANNOTATIONS["values_charts"]}
     <div class="row g-3">
         <div class="col-md-6">
             <div class="chart-container">
@@ -564,19 +861,23 @@ table.dark-table tr:hover td {{
             </div>
         </div>
     </div>
+    {ANNOTATIONS["values_tables"]}
 </div>
 
 <!-- ============ TAB 5: CLAIM EVIDENCE ============ -->
 <div class="tab-pane fade" id="tab-claims">
+    {ANNOTATIONS["claims_intro"]}
     <div class="row g-3 mb-4">
         <div class="col-12">
             <div class="chart-container">
                 <div class="chart-title">Statistical Support for Paper Claims</div>
                 <div id="chart-claims" style="height:350px"></div>
             </div>
+            {ANNOTATIONS["claims_chart"]}
         </div>
     </div>
     <div id="claim-cards"></div>
+    {ANNOTATIONS["claims_footer"]}
 </div>
 
 </div><!-- /tab-content -->

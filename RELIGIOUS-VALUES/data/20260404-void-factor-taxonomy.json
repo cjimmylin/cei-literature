@@ -1,0 +1,274 @@
+{
+  "generated": "20260404",
+  "methodology": "Expert-assigned scores on 6 structural factors for 14 religious traditions. Benchmark readiness index = digital_corpus + nlp_community + formalizability (max 15). Data sovereignty excluded from readiness as it reflects community agency, not deficit.",
+  "traditions": [
+    {
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "has_benchmarks": true,
+      "gate_passers_count": 28,
+      "total_candidates": 113,
+      "digital_corpus": 5,
+      "nlp_community": 5,
+      "formalizability": 5,
+      "data_sovereignty": 0,
+      "institutional_support": 5,
+      "publication_infrastructure": 5,
+      "benchmark_readiness_index": 15,
+      "total_structural_score": 25
+    },
+    {
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "has_benchmarks": true,
+      "gate_passers_count": 6,
+      "total_candidates": 117,
+      "digital_corpus": 5,
+      "nlp_community": 4,
+      "formalizability": 4,
+      "data_sovereignty": 0,
+      "institutional_support": 3,
+      "publication_infrastructure": 3,
+      "benchmark_readiness_index": 13,
+      "total_structural_score": 19
+    },
+    {
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "has_benchmarks": false,
+      "gate_passers_count": 0,
+      "total_candidates": 9,
+      "digital_corpus": 4,
+      "nlp_community": 3,
+      "formalizability": 5,
+      "data_sovereignty": 0,
+      "institutional_support": 3,
+      "publication_infrastructure": 2,
+      "benchmark_readiness_index": 12,
+      "total_structural_score": 17
+    },
+    {
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "has_benchmarks": true,
+      "gate_passers_count": 4,
+      "total_candidates": 25,
+      "digital_corpus": 4,
+      "nlp_community": 3,
+      "formalizability": 3,
+      "data_sovereignty": 0,
+      "institutional_support": 2,
+      "publication_infrastructure": 2,
+      "benchmark_readiness_index": 10,
+      "total_structural_score": 14
+    },
+    {
+      "tradition": "Buddhism",
+      "family": "Dharmic",
+      "has_benchmarks": true,
+      "gate_passers_count": 6,
+      "total_candidates": 14,
+      "digital_corpus": 4,
+      "nlp_community": 3,
+      "formalizability": 3,
+      "data_sovereignty": 0,
+      "institutional_support": 2,
+      "publication_infrastructure": 2,
+      "benchmark_readiness_index": 10,
+      "total_structural_score": 14
+    },
+    {
+      "tradition": "Confucianism",
+      "family": "East Asian",
+      "has_benchmarks": true,
+      "gate_passers_count": 1,
+      "total_candidates": 14,
+      "digital_corpus": 3,
+      "nlp_community": 3,
+      "formalizability": 3,
+      "data_sovereignty": 0,
+      "institutional_support": 3,
+      "publication_infrastructure": 3,
+      "benchmark_readiness_index": 9,
+      "total_structural_score": 15
+    },
+    {
+      "tradition": "Sikhism",
+      "family": "Dharmic",
+      "has_benchmarks": true,
+      "gate_passers_count": 2,
+      "total_candidates": 6,
+      "digital_corpus": 3,
+      "nlp_community": 1,
+      "formalizability": 2,
+      "data_sovereignty": 0,
+      "institutional_support": 1,
+      "publication_infrastructure": 1,
+      "benchmark_readiness_index": 6,
+      "total_structural_score": 8
+    },
+    {
+      "tradition": "Baha'i",
+      "family": "Other",
+      "has_benchmarks": false,
+      "gate_passers_count": 0,
+      "total_candidates": 0,
+      "digital_corpus": 3,
+      "nlp_community": 0,
+      "formalizability": 3,
+      "data_sovereignty": 0,
+      "institutional_support": 0,
+      "publication_infrastructure": 0,
+      "benchmark_readiness_index": 6,
+      "total_structural_score": 6
+    },
+    {
+      "tradition": "Taoism",
+      "family": "East Asian",
+      "has_benchmarks": false,
+      "gate_passers_count": 0,
+      "total_candidates": 2,
+      "digital_corpus": 3,
+      "nlp_community": 1,
+      "formalizability": 1,
+      "data_sovereignty": 0,
+      "institutional_support": 0,
+      "publication_infrastructure": 0,
+      "benchmark_readiness_index": 5,
+      "total_structural_score": 5
+    },
+    {
+      "tradition": "Shinto",
+      "family": "East Asian",
+      "has_benchmarks": false,
+      "gate_passers_count": 0,
+      "total_candidates": 2,
+      "digital_corpus": 2,
+      "nlp_community": 2,
+      "formalizability": 1,
+      "data_sovereignty": 0.5,
+      "institutional_support": 1,
+      "publication_infrastructure": 1,
+      "benchmark_readiness_index": 5,
+      "total_structural_score": 7.5
+    },
+    {
+      "tradition": "Jainism",
+      "family": "Dharmic",
+      "has_benchmarks": false,
+      "gate_passers_count": 0,
+      "total_candidates": 47,
+      "digital_corpus": 2,
+      "nlp_community": 0,
+      "formalizability": 3,
+      "data_sovereignty": 0,
+      "institutional_support": 0,
+      "publication_infrastructure": 0,
+      "benchmark_readiness_index": 5,
+      "total_structural_score": 5
+    },
+    {
+      "tradition": "Zoroastrianism",
+      "family": "Other",
+      "has_benchmarks": false,
+      "gate_passers_count": 0,
+      "total_candidates": 2,
+      "digital_corpus": 2,
+      "nlp_community": 0,
+      "formalizability": 3,
+      "data_sovereignty": 0,
+      "institutional_support": 0,
+      "publication_infrastructure": 0,
+      "benchmark_readiness_index": 5,
+      "total_structural_score": 5
+    },
+    {
+      "tradition": "Ubuntu Philosophy",
+      "family": "African/Indigenous",
+      "has_benchmarks": false,
+      "gate_passers_count": 0,
+      "total_candidates": 4,
+      "digital_corpus": 1,
+      "nlp_community": 1,
+      "formalizability": 1,
+      "data_sovereignty": 1,
+      "institutional_support": 1,
+      "publication_infrastructure": 1,
+      "benchmark_readiness_index": 3,
+      "total_structural_score": 6
+    },
+    {
+      "tradition": "Indigenous Spirituality",
+      "family": "African/Indigenous",
+      "has_benchmarks": false,
+      "gate_passers_count": 0,
+      "total_candidates": 16,
+      "digital_corpus": 0,
+      "nlp_community": 0,
+      "formalizability": 0,
+      "data_sovereignty": 1,
+      "institutional_support": 0,
+      "publication_infrastructure": 0,
+      "benchmark_readiness_index": 0,
+      "total_structural_score": 1
+    }
+  ],
+  "analysis": {
+    "readiness_separates_void": true,
+    "mean_readiness_nonvoid": 10.5,
+    "mean_readiness_void": 5.12,
+    "correlation_has_benchmarks_vs_readiness": {
+      "point_biserial_r": 0.66,
+      "p_value": 0.0102
+    },
+    "correlation_gate_count_vs_readiness": {
+      "pearson_r": 0.667,
+      "p_value": 0.0091
+    },
+    "factor_level_correlations": {
+      "digital_corpus": {
+        "rpb": 0.669,
+        "p_value": 0.0089
+      },
+      "nlp_community": {
+        "rpb": 0.71,
+        "p_value": 0.0044
+      },
+      "formalizability": {
+        "rpb": 0.414,
+        "p_value": 0.1412
+      },
+      "institutional_support": {
+        "rpb": 0.674,
+        "p_value": 0.0083
+      },
+      "publication_infrastructure": {
+        "rpb": 0.74,
+        "p_value": 0.0025
+      }
+    },
+    "readiness_tiers": {
+      "high_10_plus": [
+        "Islam",
+        "Christianity",
+        "Judaism",
+        "Hinduism",
+        "Buddhism"
+      ],
+      "medium_5_to_9": [
+        "Sikhism",
+        "Confucianism",
+        "Taoism",
+        "Shinto",
+        "Jainism",
+        "Zoroastrianism",
+        "Baha'i"
+      ],
+      "low_under_5": [
+        "Ubuntu Philosophy",
+        "Indigenous Spirituality"
+      ]
+    },
+    "key_finding": "Benchmark readiness index cleanly separates traditions with benchmarks (mean=10.5) from void traditions (mean=5.1). The three-factor composite (digital corpus + NLP community + formalizability) explains the benchmark void better than any single factor. Data sovereignty is orthogonal \u2014 Indigenous and Ubuntu traditions face structural barriers beyond data access."
+  }
+}

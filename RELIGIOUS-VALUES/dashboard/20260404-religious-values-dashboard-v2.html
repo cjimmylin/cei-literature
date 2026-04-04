@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Religious Values Benchmark Meta-Evaluation Dashboard</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<style>
+:root {
+    --bg-primary: #0d1117;
+    --bg-secondary: #161b22;
+    --bg-card: #1c2128;
+    --text-primary: #e6edf3;
+    --text-secondary: #8b949e;
+    --accent-blue: #4C78A8;
+    --accent-green: #54A24B;
+    --accent-red: #E45756;
+    --accent-orange: #F58518;
+    --border: #30363d;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+}
+.header {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+}
+.header h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+.header .subtitle {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+.nav-tabs {
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-secondary);
+    padding: 0 24px;
+}
+.nav-tabs .nav-link {
+    color: var(--text-secondary);
+    border: none;
+    padding: 10px 18px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+}
+.nav-tabs .nav-link:hover {
+    color: var(--text-primary);
+    border-bottom-color: var(--accent-blue);
+}
+.nav-tabs .nav-link.active {
+    color: var(--accent-blue);
+    background: transparent;
+    border-bottom: 2px solid var(--accent-blue);
+}
+.tab-content {
+    padding: 20px 24px;
+}
+.card-stat {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+.card-stat .number {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--accent-blue);
+}
+.card-stat .label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 4px;
+}
+.chart-container {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+.chart-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--text-primary);
+}
+table.dark-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+table.dark-table th {
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    padding: 8px 10px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border);
+}
+table.dark-table td {
+    padding: 7px 10px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-primary);
+}
+table.dark-table tr:hover td {
+    background: rgba(76, 120, 168, 0.08);
+}
+.badge-void {
+    background: var(--accent-red);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.badge-active {
+    background: var(--accent-green);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.claim-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+}
+.claim-card .claim-num {
+    font-weight: 700;
+    color: var(--accent-blue);
+}
+.claim-card .claim-text {
+    color: var(--text-primary);
+    font-size: 0.9rem;
+}
+.claim-card .claim-pval {
+    font-size: 0.8rem;
+    margin-top: 4px;
+}
+.claim-card .claim-interp {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 6px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Religious Values Benchmark Meta-Evaluation</h1>
+    <div class="subtitle">What Do Religious AI Benchmarks Actually Measure?  |  Dashboard v2  |  2026-04-04</div>
+</div>
+
+<ul class="nav nav-tabs" id="mainTabs" role="tablist">
+    <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#tab-overview">Overview</a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-sensitivity">Sensitivity</a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-void">Tradition Void</a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-values">Values Relevance</a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-claims">Claim Evidence</a></li>
+</ul>
+
+<div class="tab-content">
+
+<!-- ============ TAB 1: OVERVIEW ============ -->
+<div class="tab-pane fade show active" id="tab-overview">
+    <div class="row g-3 mb-4">
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="number">401</div>
+                <div class="label">Total Candidates Screened</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="number" style="color:var(--accent-green)">47</div>
+                <div class="label">Gate-Passers (RD &ge; 30)</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="number">14</div>
+                <div class="label">Religious Traditions Analyzed</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="number" style="color:var(--accent-red)">8</div>
+                <div class="label">Void Traditions (0 Gate-Passers)</div>
+            </div>
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Gate-Passers by Tradition</div>
+                <div id="chart-tradition-bar" style="height:350px"></div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Gate-Passers by Tradition Family</div>
+                <div id="chart-family-pie" style="height:350px"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============ TAB 2: SENSITIVITY ============ -->
+<div class="tab-pane fade" id="tab-sensitivity">
+    <div class="row g-3 mb-4">
+        <div class="col-12">
+            <div class="chart-container">
+                <div class="chart-title">Bootstrap 95% CI for Composite Scores (n=10,000)</div>
+                <div id="chart-boot-ci" style="height:900px"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row g-3 mb-4">
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Weight Sensitivity: Top-15 Stability (%)</div>
+                <div id="chart-weight-sens" style="height:450px"></div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Gate Threshold vs Coverage</div>
+                <div id="chart-gate-threshold" style="height:450px"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============ TAB 3: TRADITION VOID ============ -->
+<div class="tab-pane fade" id="tab-void">
+    <div class="row g-3 mb-4">
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Void Factor Profiles: Three Tradition Archetypes</div>
+                <div id="chart-radar" style="height:450px"></div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Benchmark Readiness Index by Tradition</div>
+                <div id="chart-readiness" style="height:450px"></div>
+            </div>
+        </div>
+    </div>
+    <div class="chart-container">
+        <div class="chart-title">Structural Scores by Tradition</div>
+        <table class="dark-table">
+            <thead>
+                <tr>
+                    <th>Tradition</th><th>Family</th><th>Status</th><th>Gate-Passers</th>
+                    <th>Digital</th><th>NLP</th><th>Formalizability</th>
+                    <th>Readiness</th><th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="struct-table-body"></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- ============ TAB 4: VALUES RELEVANCE ============ -->
+<div class="tab-pane fade" id="tab-values">
+    <div class="row g-3 mb-4">
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">A3 Values Alignment Relevance Distribution</div>
+                <div id="chart-a3-hist" style="height:380px"></div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Construct Type Breakdown (A1)</div>
+                <div id="chart-a1-pie" style="height:380px"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Top A3 Benchmarks (Values-Aligned)</div>
+                <table class="dark-table">
+                    <thead><tr><th>Benchmark</th><th>Tradition</th><th>A3 Score</th></tr></thead>
+                    <tbody id="a3-top-table"></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Bottom A3 Benchmarks (Knowledge-Oriented)</div>
+                <table class="dark-table">
+                    <thead><tr><th>Benchmark</th><th>Tradition</th><th>A3 Score</th></tr></thead>
+                    <tbody id="a3-bottom-table"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============ TAB 5: CLAIM EVIDENCE ============ -->
+<div class="tab-pane fade" id="tab-claims">
+    <div class="row g-3 mb-4">
+        <div class="col-12">
+            <div class="chart-container">
+                <div class="chart-title">Statistical Support for Paper Claims</div>
+                <div id="chart-claims" style="height:350px"></div>
+            </div>
+        </div>
+    </div>
+    <div id="claim-cards"></div>
+</div>
+
+</div><!-- /tab-content -->
+
+<script>
+
+// === Pre-computed data constants ===
+const OVERVIEW = {"total_candidates": 401, "gate_passers": 47, "n_traditions": 14, "n_void": 8, "tradition_counts": {"Islam": 28, "Hinduism": 4, "Christianity": 6, "Buddhism": 6, "Sikhism": 2, "Confucianism": 1}, "family_counts": {"Abrahamic": 34, "Dharmic": 12, "East Asian": 1}};
+
+const BOOT_CI = {"labels": ["Leveraging Large Language Models for Detectin", "Building Domain-Specific LLMs Faithful To The", "Break the Checkbox: Challenging Closed-Style ", "AceGPT, Localizing Large Language Models in A", "Semantic and Sentiment Analysis of Selected", "Addressing Religious Hate Online From Taxonom", "Challenging the Transformer-based Models with", "PapersPlease", "The PRISM Alignment Project", "HAQA and QUQA Constructing Two Arabic", "Sometimes the Model doth Preach Quantifying", "Subverting the Jewtocracy Online Antisemitism", "Ancient Wisdom Modern Tools Exploring Retriev", "WYWEB: A NLP Evaluation Benchmark For Classic", "C3Bench: A Comprehensive Classical Chinese Un", "Quran-MD A Fine-Grained Multilingual Multimod", "SinhalaMMLU: A Comprehensive Benchmark for Ev", "IslamTrust A Benchmark for LLMs Alignment", "FaithBench AI Benchmark for Christian Theolog", "MITRA A Large-Scale Parallel Corpus and", "Optimized Quran Passage Retrieval Using an", "One Model is All You Need", "SEA-Guard Culturally Grounded Multilingual Sa", "The Gospel Coalition AI Christian Benchmark", "The eBible Corpus Data and Model", "BuddhismEval A Bilingual Benchmark for Buddhi", "Fabricated Hadith Detection A Novel Matn-Base", "REDDITBIAS", "DharmicData Comprehensive Open-Source Collect", "GurbaniDB", "BaniDB Shabad OS Digital Gurbani Database", "Islam QA", "The Vedic Compound Dataset", "IslamTrust: A Benchmark for LLMs Alignment wi", "How AI Trained on the Confucian Analects Can ", "ValueNet", "Finding Answers from the Word of God", "Exploring Similarity Measures and Intertextua", "Multi-IsnadSet MIS for Sahih Muslim Hadith", "MASAQ Morphologically-Analyzed and Syntactica", "Benchmarking Vision Language Models for Cultu", "QASiNa", "Cross-cultural dataset for the evolution of", "A Data-Driven Exploration of a New Islamic Fa", "FatwaSet", "Sanadset 650K Data on Hadith Narrators", "CatholicBench"], "means": [51.96, 50.42, 47.81, 47.37, 47.12, 46.84, 46.26, 45.37, 45.01, 44.66, 44.2, 44.09, 43.95, 43.04, 42.86, 42.2, 42.09, 41.94, 41.56, 41.55, 41.52, 41.47, 41.43, 41.18, 41.09, 40.56, 40.22, 40.02, 39.93, 39.93, 39.93, 39.89, 39.8, 39.61, 39.58, 39.06, 38.97, 37.93, 37.26, 37.02, 36.97, 36.57, 35.95, 35.47, 35.47, 35.26, 29.66], "lowers": [44.5, 41.94, 38.27, 39.27, 35.53, 39.02, 40.16, 36.0, 36.87, 38.78, 35.43, 36.19, 37.12, 35.66, 33.15, 36.72, 32.77, 32.49, 31.94, 33.14, 31.17, 34.93, 31.98, 32.0, 33.14, 34.32, 30.07, 30.31, 30.77, 30.77, 30.77, 31.09, 32.39, 29.24, 30.55, 29.13, 29.71, 29.08, 33.49, 33.57, 33.45, 27.6, 28.19, 26.84, 26.84, 31.44, 23.38], "uppers": [57.97, 59.13, 58.45, 55.99, 57.45, 55.12, 51.49, 54.46, 53.96, 50.1, 52.35, 52.83, 51.19, 51.14, 53.03, 47.7, 51.81, 51.87, 50.05, 49.92, 51.33, 48.63, 51.42, 48.48, 48.68, 47.41, 50.14, 49.01, 47.57, 47.57, 47.57, 46.93, 46.67, 50.09, 47.05, 48.91, 47.36, 45.73, 40.9, 39.97, 40.14, 45.36, 42.13, 43.93, 43.93, 39.35, 34.9], "families": ["Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Dharmic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Dharmic", "Dharmic", "Dharmic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Dharmic", "Abrahamic", "Dharmic", "Abrahamic", "Abrahamic", "Abrahamic", "Dharmic", "Abrahamic", "Abrahamic", "Dharmic", "Dharmic", "Dharmic", "Abrahamic", "Dharmic", "Abrahamic", "East Asian", "Abrahamic", "Abrahamic", "Dharmic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic", "Abrahamic"], "top15_cutoff": 42.86};
+
+const WEIGHT_SENSITIVITY = {"labels": ["Leveraging Large Language Models for Det", "Building Domain-Specific LLMs Faithful T", "Break the Checkbox: Challenging Closed-S", "AceGPT, Localizing Large Language Models", "Addressing Religious Hate Online From Ta", "PapersPlease", "Semantic and Sentiment Analysis of Selec", "Challenging the Transformer-based Models", "The PRISM Alignment Project", "Sometimes the Model doth Preach Quantify", "HAQA and QUQA Constructing Two Arabic", "Ancient Wisdom Modern Tools Exploring Re", "Subverting the Jewtocracy Online Antisem", "WYWEB: A NLP Evaluation Benchmark For Cl", "C3Bench: A Comprehensive Classical Chine", "FaithBench AI Benchmark for Christian Th", "Quran-MD A Fine-Grained Multilingual Mul", "The Gospel Coalition AI Christian Benchm", "IslamTrust A Benchmark for LLMs Alignmen", "Optimized Quran Passage Retrieval Using "], "pct_top15": [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 95.08, 95.08, 93.44, 86.89, 81.97, 81.97, 78.69, 49.18, 49.18, 39.34, 34.43, 26.229999999999997, 19.67, 19.67], "rank_range": [[1, 4], [1, 3], [1, 13], [3, 7], [5, 9], [4, 14], [2, 17], [3, 17], [6, 19], [8, 18], [4, 22], [8, 21], [7, 27], [9, 33], [9, 32], [2, 45], [10, 34], [9, 34], [11, 37], [10, 37]]};
+
+const GATE_THRESHOLD = {"thresholds": [15, 20, 25, 30, 35, 40, 45, 50], "passers": [215, 92, 70, 47, 30, 15, 7, 2], "traditions": [12, 8, 6, 6, 6, 5, 3, 2], "void_gained": {"15": ["Indigenous Spirituality", "Jainism", "Judaism", "Taoism", "Ubuntu Philosophy"], "20": ["Jainism", "Judaism"], "25": [], "30": [], "35": [], "40": [], "45": [], "50": []}};
+
+const RADAR = {"factors": ["Digital Corpus", "NLP Community", "Formalizability", "Data Sovereignty", "Institutional Support", "Publication Infra."], "series": {"Islam": [5, 5, 5, 0, 5, 5], "Judaism": [4, 3, 5, 0, 3, 2], "Indigenous Spirituality": [0, 0, 0, 1, 0, 0]}};
+
+const STRUCT_TABLE = [{"tradition": "Islam", "family": "Abrahamic", "has_bm": true, "gp_count": 28, "readiness": 15, "total": 25, "digital": 5, "nlp": 5, "formal": 5}, {"tradition": "Christianity", "family": "Abrahamic", "has_bm": true, "gp_count": 6, "readiness": 13, "total": 19, "digital": 5, "nlp": 4, "formal": 4}, {"tradition": "Judaism", "family": "Abrahamic", "has_bm": false, "gp_count": 0, "readiness": 12, "total": 17, "digital": 4, "nlp": 3, "formal": 5}, {"tradition": "Hinduism", "family": "Dharmic", "has_bm": true, "gp_count": 4, "readiness": 10, "total": 14, "digital": 4, "nlp": 3, "formal": 3}, {"tradition": "Buddhism", "family": "Dharmic", "has_bm": true, "gp_count": 6, "readiness": 10, "total": 14, "digital": 4, "nlp": 3, "formal": 3}, {"tradition": "Confucianism", "family": "East Asian", "has_bm": true, "gp_count": 1, "readiness": 9, "total": 15, "digital": 3, "nlp": 3, "formal": 3}, {"tradition": "Sikhism", "family": "Dharmic", "has_bm": true, "gp_count": 2, "readiness": 6, "total": 8, "digital": 3, "nlp": 1, "formal": 2}, {"tradition": "Baha'i", "family": "Other", "has_bm": false, "gp_count": 0, "readiness": 6, "total": 6, "digital": 3, "nlp": 0, "formal": 3}, {"tradition": "Taoism", "family": "East Asian", "has_bm": false, "gp_count": 0, "readiness": 5, "total": 5, "digital": 3, "nlp": 1, "formal": 1}, {"tradition": "Shinto", "family": "East Asian", "has_bm": false, "gp_count": 0, "readiness": 5, "total": 7.5, "digital": 2, "nlp": 2, "formal": 1}, {"tradition": "Jainism", "family": "Dharmic", "has_bm": false, "gp_count": 0, "readiness": 5, "total": 5, "digital": 2, "nlp": 0, "formal": 3}, {"tradition": "Zoroastrianism", "family": "Other", "has_bm": false, "gp_count": 0, "readiness": 5, "total": 5, "digital": 2, "nlp": 0, "formal": 3}, {"tradition": "Ubuntu Philosophy", "family": "African/Indigenous", "has_bm": false, "gp_count": 0, "readiness": 3, "total": 6, "digital": 1, "nlp": 1, "formal": 1}, {"tradition": "Indigenous Spirituality", "family": "African/Indigenous", "has_bm": false, "gp_count": 0, "readiness": 0, "total": 1, "digital": 0, "nlp": 0, "formal": 0}];
+
+const READINESS = {"labels": ["Islam", "Christianity", "Judaism", "Hinduism", "Buddhism", "Confucianism", "Sikhism", "Baha'i", "Taoism", "Shinto", "Jainism", "Zoroastrianism", "Ubuntu Philosophy", "Indigenous Spirituality"], "values": [15, 13, 12, 10, 10, 9, 6, 6, 5, 5, 5, 5, 3, 0], "colors": ["#54A24B", "#54A24B", "#E45756", "#54A24B", "#54A24B", "#54A24B", "#54A24B", "#E45756", "#E45756", "#E45756", "#E45756", "#E45756", "#E45756", "#E45756"]};
+
+const A3_DATA = {"scores": [25, 65, 30, 50, 30, 15, 35, 20, 25, 40, 35, 5, 55, 15, 15, 20, 5, 8, 20, 25, 90, 15, 10, 5, 75, 30, 80, 15, 85, 35, 20, 15, 15, 20, 50, 3, 60, 90, 25, 30, 5, 25, 10, 20, 40, 55, 60, 60, 20, 80], "mean": 33.6, "benchmarks": [{"name": "IslamTrust: LLM Alignment with Islamic Values", "score": 90, "tradition": "Islam"}, {"name": "IslamTrust: Benchmark for LLM Alignment with ", "score": 90, "tradition": "Islam"}, {"name": "BuddhismEval: Bilingual Buddhist Benchmark", "score": 85, "tradition": "Buddhism"}, {"name": "Gospel Coalition AI Christian Benchmark", "score": 80, "tradition": "Christianity"}, {"name": "CatholicBench: Catholic Theological Competenc", "score": 80, "tradition": "Christianity"}, {"name": "FaithBench: AI Benchmark for Christian Theolo", "score": 75, "tradition": "Christianity"}, {"name": "Building Domain-Specific LLMs Faithful to the", "score": 65, "tradition": "Islam"}, {"name": "AI Trained on Confucian Analects for Ethical ", "score": 60, "tradition": "Confucianism"}, {"name": "FatwaSet: Islamic Fatwas Dataset (description", "score": 60, "tradition": "Islam"}, {"name": "FatwaSet: Islamic Fatwas Dataset", "score": 60, "tradition": "Islam"}, {"name": "VedantaNY-10M: RAG for Advaita Vedanta", "score": 55, "tradition": "Hinduism"}, {"name": "Cross-cultural Dataset: Evolution of Religion", "score": 55, "tradition": "Islam"}, {"name": "AceGPT: Localizing LLMs in Arabic", "score": 50, "tradition": "Islam"}, {"name": "Islam QA: Islamic Question-Answer Corpus", "score": 50, "tradition": "Islam"}, {"name": "HAQA and QUQA: Arabic QA Corpora for Quran an", "score": 40, "tradition": "Islam"}, {"name": "QASiNa: Islamic QA on Sirah Nabawiyah", "score": 40, "tradition": "Islam"}, {"name": "Quran-Hadith Relatedness Dataset", "score": 35, "tradition": "Islam"}, {"name": "Quantifying Religious Bias in Open LLMs (Asia", "score": 35, "tradition": "Islam"}, {"name": "MAHADDAT: Fabricated Hadith Detection", "score": 35, "tradition": "Islam"}, {"name": "Break the Checkbox: Cultural Alignment Evalua", "score": 30, "tradition": "Islam"}, {"name": "Semantic and Sentiment Analysis of Bhagavad G", "score": 30, "tradition": "Hinduism"}, {"name": "SEA-Guard: Multilingual Safeguard for Southea", "score": 30, "tradition": "Islam"}, {"name": "BibleQA: Biblical Question Answering", "score": 30, "tradition": "Christianity"}, {"name": "ELQV (Emotionally-Labeled Quran Verses)", "score": 25, "tradition": "Islam"}, {"name": "PRISM: Participatory Alignment Dataset", "score": 25, "tradition": "Islam"}, {"name": "SinhalaMMLU: Multitask Language Understanding", "score": 25, "tradition": "Buddhism"}, {"name": "ValueNet: Human Value Driven Dialogue", "score": 25, "tradition": "Islam"}, {"name": "Multi-IsnadSet: Sahih Muslim Hadith Graph Dat", "score": 25, "tradition": "Islam"}, {"name": "PapersPlease: Moral Dilemmas via ERG Theory", "score": 20, "tradition": "Islam"}, {"name": "QURAN-MD: Multimodal Quranic Dataset", "score": 20, "tradition": "Islam"}, {"name": "Quran-MD: Multilingual Multimodal Quran Datas", "score": 20, "tradition": "Islam"}, {"name": "BaniDB: Digital Gurbani Database", "score": 20, "tradition": "Sikhism"}, {"name": "DharmicData: Hindu Sacred Texts Collection", "score": 20, "tradition": "Hinduism"}, {"name": "CulturalVQA: Cultural Understanding Benchmark", "score": 20, "tradition": "Islam"}, {"name": "Sanadset 650K: Hadith Narrator Data", "score": 20, "tradition": "Islam"}, {"name": "Religious Hate Speech Detection Dataset", "score": 15, "tradition": "Islam"}, {"name": "WYWEB: Classical Chinese NLP Benchmark", "score": 15, "tradition": "Buddhism"}, {"name": "C3Bench: Classical Chinese Understanding Benc", "score": 15, "tradition": "Buddhism"}, {"name": "Optimized Quran Passage Retrieval", "score": 15, "tradition": "Islam"}, {"name": "eBible Corpus: Bible Translation for Low-Reso", "score": 15, "tradition": "Christianity"}, {"name": "GurbaniDB: Sikh Scripture Search Engine", "score": 15, "tradition": "Sikhism"}, {"name": "REDDITBIAS: Real-World Bias Evaluation", "score": 15, "tradition": "Islam"}, {"name": "MITRA: Parallel Corpus for Buddhist NLP", "score": 10, "tradition": "Buddhism"}, {"name": "MASAQ: Annotated Quran Dataset", "score": 10, "tradition": "Islam"}, {"name": "C3Bench: Classical Chinese Understanding Benc", "score": 8, "tradition": "Buddhism"}, {"name": "Online Antisemitism Detection (Multimodal)", "score": 5, "tradition": "Judaism"}, {"name": "WYWEB: NLP Evaluation Benchmark for Classical", "score": 5, "tradition": "Buddhism"}, {"name": "ByT5-Sanskrit: Unified Model for Sanskrit NLP", "score": 5, "tradition": "Hinduism"}, {"name": "Similarity Measures in Vedic Sanskrit Literat", "score": 5, "tradition": "Hinduism"}, {"name": "Vedic Compound Dataset (VCD)", "score": 3, "tradition": "Hinduism"}]};
+
+const A1_COUNTS = {"sentiment-classification": 2, "mixed": 2, "cultural-alignment": 8, "bias-detection": 5, "text-comprehension": 16, "ethical-reasoning": 3, "knowledge-recall": 11, "doctrinal-evaluation": 3};
+
+const CLAIMS = [{"claim": "C1", "text": "Tradition asymmetry: Islam dominates gate-passers", "p_value": 1e-15, "neg_log_p": 15.0, "significant": true, "marginal": false, "interpretation": "Gate-passer tradition distribution is significantly different from uniform (chi2=64.96, p=1.144e-12, V=0.526) and significantly different from corpus proportions (chi2=21.84, p=0.0005618, V=0.305)."}, {"claim": "C2", "text": "Knowledge-reasoning conflation: most benchmarks test knowledge, not reasoning", "p_value": 0.001544, "neg_log_p": 2.811352704000283, "significant": true, "marginal": false, "interpretation": "Only 13/47 (27.7%) gate-passers test genuine theological reasoning. Binomial test confirms this is significantly below 50% (p=0.001544). 95% CI for reasoning proportion: [0.000, 0.403]."}, {"claim": "C3", "text": "Data availability bottleneck: many benchmarks have unavailable data", "p_value": 1e-15, "neg_log_p": 15.0, "significant": true, "marginal": false, "interpretation": "Overall, 231/401 (57.6%) entries have available data. Among gate-passers, 47/47 (100.0%) are accessible (p=7.105e-15, 95% CI [0.938, 1.000]). The 170 unavailable entries confirm a substantial data bottleneck."}, {"claim": "C4", "text": "Structural epistemic injustice: gate-passage correlates with Western proximity", "p_value": 1.0, "neg_log_p": -0.0, "significant": false, "marginal": false, "interpretation": "Logistic regression (pseudo R\u00b2=0.068). family_African/Indigenous: OR=None, p=1.0 (not significant); family_Dharmic: OR=0.938471, p=0.861619 (not significant); family_East Asian: OR=0.398405, p=0.381292 (not significant); family_Other: OR=None, p=0.999998 (not significant); family_Unknown: OR=None, p=1.0 (not significant); P10_english: OR=1.758547, p=0.097163 (not significant); venue_tier: OR=1.339822, p=0.147558 (not significant)."}, {"claim": "C5", "text": "Field recency: most benchmarks from 2024-2026", "p_value": 0.12148, "neg_log_p": 0.9154952167537724, "significant": false, "marginal": false, "interpretation": "28/47 (59.6%) gate-passers are from 2024+. This is significantly above 50% (p=0.1215). Median year: 2024 (95% bootstrap CI: [2023, 2024])."}, {"claim": "C6", "text": "WEIRD bias: benchmarks from WEIRD contexts disproportionately pass gates", "p_value": 0.090362, "neg_log_p": 1.0440141653197201, "significant": false, "marginal": true, "interpretation": "WEIRD (English-language) pass rate: 17/192 (8.9%); non-WEIRD: 30/209 (14.4%). Fisher's exact OR=0.580, p=0.09036. Not significant difference in gate-passage by WEIRD status."}, {"claim": "C7", "text": "Bias-values conflation: many benchmarks detect bias rather than measure values alignment", "p_value": 0.677639, "neg_log_p": 0.16900160710859904, "significant": false, "marginal": false, "interpretation": "Among gate-passers: 10 bias-adjacent, 13 values-focused, 24 mixed. Among pure classifications (23 total), bias proportion = 10/23 (p=0.6776). The majority (24/47) are mixed theological-values, suggesting the field has not cleanly separated bias detection from values alignment."}];
+
+const CORR = {"features": ["R2_depth", "R3_scriptural", "R4_denominational", "R5_pluralism", "R6_grounding", "P7_implementability", "PE_score", "RD_score", "CI_score", "COMPOSITE"], "matrix": [[1.0, 0.5192, 0.1686, 0.1625, 0.3325, -0.1283, -0.1399, 0.7283, -0.1491, 0.2128], [0.5192, 1.0, 0.0075, -0.0476, 0.0907, -0.1562, -0.1663, 0.5408, -0.0937, 0.172], [0.1686, 0.0075, 1.0, 0.0129, 0.022, 0.0263, 0.0078, 0.1334, -0.04, 0.0784], [0.1625, -0.0476, 0.0129, 1.0, 0.0372, -0.099, -0.0907, 0.6797, 0.0335, 0.1918], [0.3325, 0.0907, 0.022, 0.0372, 1.0, -0.0244, -0.0305, 0.3143, -0.1121, 0.1077], [-0.1283, -0.1562, 0.0263, -0.099, -0.0244, 1.0, 0.9418, -0.1711, 0.2869, 0.8038], [-0.1399, -0.1663, 0.0078, -0.0907, -0.0305, 0.9418, 1.0, -0.175, 0.2919, 0.8364], [0.7283, 0.5408, 0.1334, 0.6797, 0.3143, -0.1711, -0.175, 1.0, -0.1021, 0.2797], [-0.1491, -0.0937, -0.04, 0.0335, -0.1121, 0.2869, 0.2919, -0.1021, 1.0, 0.4125], [0.2128, 0.172, 0.0784, 0.1918, 0.1077, 0.8038, 0.8364, 0.2797, 0.4125, 1.0]]};
+
+
+const FAMILY_COLORS = {
+    "Abrahamic": "#4C78A8",
+    "Dharmic": "#54A24B",
+    "East Asian": "#E45756",
+    "African/Indigenous": "#9D9D9D",
+    "Other": "#9D9D9D"
+};
+
+function familyColor(f) {
+    return FAMILY_COLORS[f] || "#9D9D9D";
+}
+
+// ===== TAB 1: Overview Charts =====
+function renderOverview() {
+    // Tradition bar
+    var trads = Object.entries(OVERVIEW.tradition_counts).sort((a,b) => b[1]-a[1]);
+    var tradChart = echarts.init(document.getElementById('chart-tradition-bar'));
+    tradChart.setOption({
+        tooltip: { trigger: 'axis' },
+        xAxis: { type: 'category', data: trads.map(t=>t[0]), axisLabel: { rotate: 30, color: '#8b949e' }, axisLine: { lineStyle: { color: '#30363d' } } },
+        yAxis: { type: 'value', axisLabel: { color: '#8b949e' }, splitLine: { lineStyle: { color: '#21262d' } } },
+        series: [{ type: 'bar', data: trads.map(t => ({ value: t[1], itemStyle: { color: '#4C78A8' } })), barMaxWidth: 40 }],
+        grid: { left: 50, right: 20, bottom: 60, top: 20 },
+        backgroundColor: 'transparent'
+    });
+
+    // Family pie
+    var fams = Object.entries(OVERVIEW.family_counts).map(f => ({ name: f[0], value: f[1] }));
+    var famChart = echarts.init(document.getElementById('chart-family-pie'));
+    famChart.setOption({
+        tooltip: { trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+        series: [{
+            type: 'pie', radius: ['35%','65%'],
+            data: fams.map(f => ({ ...f, itemStyle: { color: familyColor(f.name) } })),
+            label: { color: '#e6edf3', fontSize: 12 },
+            emphasis: { itemStyle: { shadowBlur: 10 } }
+        }],
+        backgroundColor: 'transparent'
+    });
+}
+
+// ===== TAB 2: Sensitivity Charts =====
+function renderSensitivity() {
+    // Bootstrap CI forest plot (horizontal)
+    var bc = echarts.init(document.getElementById('chart-boot-ci'));
+    var n = BOOT_CI.labels.length;
+    var errData = [];
+    for (var i = 0; i < n; i++) {
+        errData.push([BOOT_CI.lowers[i], n - 1 - i]);
+        errData.push([BOOT_CI.uppers[i], n - 1 - i]);
+    }
+    bc.setOption({
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: { type: 'shadow' },
+            formatter: function(p) {
+                var idx = n - 1 - p[0].dataIndex;
+                return BOOT_CI.labels[idx] + '<br>Mean: ' + BOOT_CI.means[idx].toFixed(1) +
+                    '<br>95% CI: [' + BOOT_CI.lowers[idx].toFixed(1) + ', ' + BOOT_CI.uppers[idx].toFixed(1) + ']';
+            }
+        },
+        xAxis: {
+            type: 'value',
+            name: 'Composite Score',
+            nameLocation: 'middle',
+            nameGap: 30,
+            axisLabel: { color: '#8b949e' },
+            splitLine: { lineStyle: { color: '#21262d' } }
+        },
+        yAxis: {
+            type: 'category',
+            data: BOOT_CI.labels.slice().reverse(),
+            axisLabel: { color: '#8b949e', fontSize: 9 },
+            axisLine: { lineStyle: { color: '#30363d' } }
+        },
+        series: [
+            {
+                type: 'bar',
+                data: BOOT_CI.means.slice().reverse().map(function(v, i) {
+                    var origIdx = n - 1 - i;
+                    return { value: v, itemStyle: { color: familyColor(BOOT_CI.families[origIdx]) } };
+                }),
+                barMaxWidth: 14
+            },
+            {
+                type: 'custom',
+                renderItem: function(params, api) {
+                    var catIdx = api.value(1);
+                    var origIdx = n - 1 - catIdx;
+                    var lo = api.coord([BOOT_CI.lowers[origIdx], catIdx]);
+                    var hi = api.coord([BOOT_CI.uppers[origIdx], catIdx]);
+                    var halfH = 4;
+                    return {
+                        type: 'group',
+                        children: [
+                            { type: 'line', shape: { x1: lo[0], y1: lo[1], x2: hi[0], y2: hi[1] }, style: { stroke: '#aaa', lineWidth: 1.2 } },
+                            { type: 'line', shape: { x1: lo[0], y1: lo[1]-halfH, x2: lo[0], y2: lo[1]+halfH }, style: { stroke: '#aaa', lineWidth: 1.2 } },
+                            { type: 'line', shape: { x1: hi[0], y1: hi[1]-halfH, x2: hi[0], y2: hi[1]+halfH }, style: { stroke: '#aaa', lineWidth: 1.2 } }
+                        ]
+                    };
+                },
+                encode: { x: 0, y: 1 },
+                data: (function() {
+                    var d = [];
+                    for (var i = 0; i < n; i++) {
+                        d.push([BOOT_CI.means[i], n - 1 - i]);
+                    }
+                    return d;
+                })(),
+                z: 10
+            }
+        ],
+        markLine: { data: [{ xAxis: BOOT_CI.top15_cutoff }] },
+        grid: { left: 260, right: 30, top: 10, bottom: 40 },
+        backgroundColor: 'transparent'
+    });
+
+    // Top-15 cutoff line
+    bc.setOption({
+        series: [{
+            markLine: {
+                silent: true,
+                lineStyle: { color: '#E45756', type: 'dashed', width: 1.5 },
+                label: { formatter: 'Top-15 cutoff', color: '#E45756', fontSize: 10 },
+                data: [{ xAxis: BOOT_CI.top15_cutoff }]
+            }
+        }]
+    });
+
+    // Weight sensitivity bar
+    var ws = echarts.init(document.getElementById('chart-weight-sens'));
+    ws.setOption({
+        tooltip: { trigger: 'axis' },
+        xAxis: { type: 'value', max: 100, name: '% in Top-15', axisLabel: { color: '#8b949e' }, splitLine: { lineStyle: { color: '#21262d' } } },
+        yAxis: { type: 'category', data: WEIGHT_SENSITIVITY.labels.slice().reverse(), axisLabel: { color: '#8b949e', fontSize: 9 }, axisLine: { lineStyle: { color: '#30363d' } } },
+        series: [{
+            type: 'bar', data: WEIGHT_SENSITIVITY.pct_top15.slice().reverse().map(function(v) {
+                var color = v >= 90 ? '#54A24B' : v >= 50 ? '#F58518' : '#E45756';
+                return { value: v, itemStyle: { color: color } };
+            }),
+            barMaxWidth: 16
+        }],
+        grid: { left: 240, right: 30, top: 10, bottom: 30 },
+        backgroundColor: 'transparent'
+    });
+
+    // Gate threshold
+    var gt = echarts.init(document.getElementById('chart-gate-threshold'));
+    gt.setOption({
+        tooltip: { trigger: 'axis' },
+        legend: { data: ['Gate-Passers', 'Traditions'], textStyle: { color: '#8b949e' }, top: 0 },
+        xAxis: { type: 'category', data: GATE_THRESHOLD.thresholds, name: 'RD Threshold', nameLocation: 'middle', nameGap: 30, axisLabel: { color: '#8b949e' }, axisLine: { lineStyle: { color: '#30363d' } } },
+        yAxis: [
+            { type: 'value', name: 'Gate-Passers', axisLabel: { color: '#4C78A8' }, splitLine: { lineStyle: { color: '#21262d' } } },
+            { type: 'value', name: 'Traditions', axisLabel: { color: '#E45756' }, splitLine: { show: false } }
+        ],
+        series: [
+            { name: 'Gate-Passers', type: 'line', data: GATE_THRESHOLD.passers, itemStyle: { color: '#4C78A8' }, lineStyle: { width: 2 }, symbol: 'circle', symbolSize: 8 },
+            { name: 'Traditions', type: 'line', yAxisIndex: 1, data: GATE_THRESHOLD.traditions, itemStyle: { color: '#E45756' }, lineStyle: { width: 2, type: 'dashed' }, symbol: 'rect', symbolSize: 8 }
+        ],
+        grid: { left: 60, right: 60, top: 40, bottom: 40 },
+        backgroundColor: 'transparent'
+    });
+    // Add threshold markers
+    gt.setOption({
+        series: [{
+            markLine: {
+                silent: true,
+                lineStyle: { color: '#54A24B', type: 'dotted', width: 2 },
+                label: { formatter: 'Current (30)', color: '#54A24B', fontSize: 10 },
+                data: [{ xAxis: '30' }]
+            }
+        }, {
+            markLine: {
+                silent: true,
+                lineStyle: { color: '#F58518', type: 'dotted', width: 2 },
+                label: { formatter: 'NormEval (40)', color: '#F58518', fontSize: 10 },
+                data: [{ xAxis: '40' }]
+            }
+        }]
+    });
+}
+
+// ===== TAB 3: Tradition Void =====
+function renderVoid() {
+    // Radar
+    var radarChart = echarts.init(document.getElementById('chart-radar'));
+    var indicators = RADAR.factors.map(function(f) { return { name: f, max: 5 }; });
+    var radarColors = { "Islam": "#4C78A8", "Judaism": "#E45756", "Indigenous Spirituality": "#54A24B" };
+    var seriesData = Object.entries(RADAR.series).map(function(entry) {
+        return { value: entry[1], name: entry[0], lineStyle: { width: 2 }, areaStyle: { opacity: 0.15 }, itemStyle: { color: radarColors[entry[0]] || '#9D9D9D' } };
+    });
+    radarChart.setOption({
+        tooltip: {},
+        legend: { data: Object.keys(RADAR.series), textStyle: { color: '#8b949e' }, bottom: 0 },
+        radar: { indicator: indicators, shape: 'polygon', axisName: { color: '#8b949e', fontSize: 11 }, splitArea: { areaStyle: { color: ['#161b22','#1c2128','#161b22','#1c2128','#161b22'] } }, splitLine: { lineStyle: { color: '#30363d' } }, axisLine: { lineStyle: { color: '#30363d' } } },
+        series: [{ type: 'radar', data: seriesData }],
+        backgroundColor: 'transparent'
+    });
+
+    // Readiness bar
+    var rb = echarts.init(document.getElementById('chart-readiness'));
+    rb.setOption({
+        tooltip: { trigger: 'axis' },
+        xAxis: { type: 'category', data: READINESS.labels, axisLabel: { rotate: 35, color: '#8b949e', fontSize: 9 }, axisLine: { lineStyle: { color: '#30363d' } } },
+        yAxis: { type: 'value', name: 'Readiness Index', max: 15, axisLabel: { color: '#8b949e' }, splitLine: { lineStyle: { color: '#21262d' } } },
+        series: [{
+            type: 'bar',
+            data: READINESS.values.map(function(v, i) {
+                return { value: v, itemStyle: { color: READINESS.colors[i] } };
+            }),
+            barMaxWidth: 30
+        }],
+        grid: { left: 50, right: 20, bottom: 80, top: 30 },
+        backgroundColor: 'transparent'
+    });
+
+    // Structural table
+    var tbody = document.getElementById('struct-table-body');
+    STRUCT_TABLE.forEach(function(t) {
+        var statusBadge = t.has_bm ? '<span class="badge-active">Active</span>' : '<span class="badge-void">Void</span>';
+        tbody.innerHTML += '<tr>' +
+            '<td>' + t.tradition + '</td>' +
+            '<td>' + t.family + '</td>' +
+            '<td>' + statusBadge + '</td>' +
+            '<td>' + t.gp_count + '</td>' +
+            '<td>' + t.digital + '</td>' +
+            '<td>' + t.nlp + '</td>' +
+            '<td>' + t.formal + '</td>' +
+            '<td><strong>' + t.readiness + '</strong></td>' +
+            '<td>' + t.total + '</td>' +
+            '</tr>';
+    });
+}
+
+// ===== TAB 4: Values Relevance =====
+function renderValues() {
+    // A3 histogram
+    var a3hist = echarts.init(document.getElementById('chart-a3-hist'));
+    // Bin the scores into 10-wide bins
+    var bins = [0,10,20,30,40,50,60,70,80,90,100];
+    var counts = new Array(bins.length - 1).fill(0);
+    A3_DATA.scores.forEach(function(s) {
+        var idx = Math.min(Math.floor(s / 10), counts.length - 1);
+        counts[idx]++;
+    });
+    var binLabels = [];
+    for (var i = 0; i < bins.length - 1; i++) {
+        binLabels.push(bins[i] + '-' + (bins[i+1]-1));
+    }
+    a3hist.setOption({
+        tooltip: { trigger: 'axis' },
+        xAxis: { type: 'category', data: binLabels, name: 'A3 Score Range', nameLocation: 'middle', nameGap: 30, axisLabel: { color: '#8b949e' }, axisLine: { lineStyle: { color: '#30363d' } } },
+        yAxis: { type: 'value', name: 'Count', axisLabel: { color: '#8b949e' }, splitLine: { lineStyle: { color: '#21262d' } } },
+        series: [{
+            type: 'bar', data: counts.map(function(v) { return { value: v, itemStyle: { color: '#4C78A8' } }; }), barMaxWidth: 35
+        }],
+        grid: { left: 50, right: 20, bottom: 50, top: 20 },
+        backgroundColor: 'transparent'
+    });
+    // Add mean line and threshold lines
+    a3hist.setOption({
+        series: [{
+            markLine: {
+                silent: true,
+                data: [
+                    { xAxis: 4, lineStyle: { color: '#E45756', type: 'dashed' }, label: { formatter: 'Minimal (50)', color: '#E45756' } },
+                    { xAxis: 7, lineStyle: { color: '#54A24B', type: 'dashed' }, label: { formatter: 'Strong (75)', color: '#54A24B' } }
+                ]
+            },
+            markPoint: {
+                data: [{ coord: [Math.floor(A3_DATA.mean / 10), 0], value: 'Mean=' + A3_DATA.mean, symbolSize: 0, label: { show: true, color: '#F58518', fontSize: 11, position: 'top', offset: [0, -30] } }]
+            }
+        }]
+    });
+
+    // A1 pie
+    var a1pie = echarts.init(document.getElementById('chart-a1-pie'));
+    var a1data = Object.entries(A1_COUNTS).map(function(e) { return { name: e[0], value: e[1] }; });
+    a1pie.setOption({
+        tooltip: { trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+        series: [{
+            type: 'pie', radius: ['30%','60%'],
+            data: a1data,
+            label: { color: '#e6edf3', fontSize: 10, formatter: '{b}\n{d}%' },
+            emphasis: { itemStyle: { shadowBlur: 10 } }
+        }],
+        backgroundColor: 'transparent'
+    });
+
+    // Top A3 table
+    var topTbody = document.getElementById('a3-top-table');
+    A3_DATA.benchmarks.slice(0, 10).forEach(function(b) {
+        topTbody.innerHTML += '<tr><td>' + b.name + '</td><td>' + b.tradition + '</td><td><strong>' + b.score + '</strong></td></tr>';
+    });
+
+    // Bottom A3 table
+    var botTbody = document.getElementById('a3-bottom-table');
+    A3_DATA.benchmarks.slice(-10).reverse().forEach(function(b) {
+        botTbody.innerHTML += '<tr><td>' + b.name + '</td><td>' + b.tradition + '</td><td>' + b.score + '</td></tr>';
+    });
+}
+
+// ===== TAB 5: Claim Evidence =====
+function renderClaims() {
+    // Chart
+    var cc = echarts.init(document.getElementById('chart-claims'));
+    var claimLabels = CLAIMS.map(function(c) { return c.claim + ': ' + c.text.substring(0, 50); });
+    var claimVals = CLAIMS.map(function(c) {
+        var color = c.significant ? '#54A24B' : c.marginal ? '#F58518' : '#E45756';
+        return { value: c.neg_log_p, itemStyle: { color: color } };
+    });
+    cc.setOption({
+        tooltip: {
+            trigger: 'axis',
+            formatter: function(p) {
+                var c = CLAIMS[CLAIMS.length - 1 - p[0].dataIndex];
+                var pstr = c.p_value < 0.001 ? 'p < 0.001' : 'p = ' + c.p_value.toFixed(4);
+                return c.claim + ': ' + c.text.substring(0,60) + '<br>' + pstr;
+            }
+        },
+        xAxis: { type: 'value', name: '-log10(p)', nameLocation: 'middle', nameGap: 30, axisLabel: { color: '#8b949e' }, splitLine: { lineStyle: { color: '#21262d' } } },
+        yAxis: { type: 'category', data: claimLabels.slice().reverse(), axisLabel: { color: '#8b949e', fontSize: 9 }, axisLine: { lineStyle: { color: '#30363d' } } },
+        series: [{
+            type: 'bar', data: claimVals.slice().reverse(), barMaxWidth: 24,
+            markLine: {
+                silent: true,
+                lineStyle: { color: '#aaa', type: 'dashed', width: 1.2 },
+                label: { formatter: 'p = 0.05', color: '#aaa', fontSize: 10 },
+                data: [{ xAxis: 1.301 }]
+            }
+        }],
+        grid: { left: 300, right: 30, top: 10, bottom: 40 },
+        backgroundColor: 'transparent'
+    });
+
+    // Claim cards
+    var cardsDiv = document.getElementById('claim-cards');
+    CLAIMS.forEach(function(c) {
+        var color = c.significant ? '#54A24B' : c.marginal ? '#F58518' : '#E45756';
+        var status = c.significant ? 'SUPPORTED' : c.marginal ? 'MARGINAL' : 'NOT SUPPORTED';
+        var pstr = c.p_value < 0.001 ? 'p < 0.001' : 'p = ' + c.p_value.toFixed(4);
+        cardsDiv.innerHTML += '<div class="claim-card">' +
+            '<span class="claim-num">' + c.claim + '</span> ' +
+            '<span class="claim-text">' + c.text + '</span>' +
+            '<div class="claim-pval" style="color:' + color + '"><strong>' + status + '</strong> (' + pstr + ')</div>' +
+            '<div class="claim-interp">' + c.interpretation + '</div>' +
+            '</div>';
+    });
+}
+
+// ===== Initialize =====
+document.addEventListener('DOMContentLoaded', function() {
+    renderOverview();
+
+    // Lazy-render tabs on first show
+    var rendered = { overview: true };
+    document.querySelectorAll('#mainTabs .nav-link').forEach(function(tab) {
+        tab.addEventListener('shown.bs.tab', function(e) {
+            var target = e.target.getAttribute('href').replace('#tab-', '');
+            if (!rendered[target]) {
+                rendered[target] = true;
+                if (target === 'sensitivity') renderSensitivity();
+                else if (target === 'void') renderVoid();
+                else if (target === 'values') renderValues();
+                else if (target === 'claims') renderClaims();
+            }
+            // Resize charts on tab show (ECharts needs this)
+            setTimeout(function() {
+                document.querySelectorAll('.tab-pane.active [id^="chart-"]').forEach(function(el) {
+                    var chart = echarts.getInstanceByDom(el);
+                    if (chart) chart.resize();
+                });
+            }, 100);
+        });
+    });
+
+    // Window resize
+    window.addEventListener('resize', function() {
+        document.querySelectorAll('[id^="chart-"]').forEach(function(el) {
+            var chart = echarts.getInstanceByDom(el);
+            if (chart) chart.resize();
+        });
+    });
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

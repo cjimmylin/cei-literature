@@ -1,0 +1,209 @@
+{
+  "generated": "20260404",
+  "model": "statsmodels Logit (MLE)",
+  "n_observations": 401,
+  "n_positive": 47,
+  "prevalence": 0.1172,
+  "reference_categories": {
+    "tradition_family": "Abrahamic",
+    "format": "MIX/other (non-MCQ, non-SCN)"
+  },
+  "year_centering": 2023.8,
+  "coefficients": [
+    {
+      "feature": "const",
+      "coefficient": -2.6607,
+      "std_error": 0.593,
+      "z_value": -4.487,
+      "p_value": 7e-06,
+      "odds_ratio": 0.0699,
+      "or_95ci_lower": 0.0219,
+      "or_95ci_upper": 0.2235,
+      "significant_05": true
+    },
+    {
+      "feature": "Dharmic",
+      "coefficient": 0.3676,
+      "std_error": 0.3957,
+      "z_value": 0.929,
+      "p_value": 0.352876,
+      "odds_ratio": 1.4443,
+      "or_95ci_lower": 0.665,
+      "or_95ci_upper": 3.1369,
+      "significant_05": false
+    },
+    {
+      "feature": "East_Asian",
+      "coefficient": -0.5302,
+      "std_error": 1.0665,
+      "z_value": -0.497,
+      "p_value": 0.619115,
+      "odds_ratio": 0.5885,
+      "or_95ci_lower": 0.0728,
+      "or_95ci_upper": 4.7597,
+      "significant_05": false
+    },
+    {
+      "feature": "African_Indigenous",
+      "coefficient": -9.6072,
+      "std_error": 105.4116,
+      "z_value": -0.091,
+      "p_value": 0.927382,
+      "odds_ratio": 0.0001,
+      "or_95ci_lower": 0.0,
+      "or_95ci_upper": 3.582169918493472e+85,
+      "significant_05": false
+    },
+    {
+      "feature": "Other_Unknown",
+      "coefficient": -11.1898,
+      "std_error": 194.8952,
+      "z_value": -0.057,
+      "p_value": 0.954215,
+      "odds_ratio": 0.0,
+      "or_95ci_lower": 0.0,
+      "or_95ci_upper": 1.0850693876397014e+161,
+      "significant_05": false
+    },
+    {
+      "feature": "fmt_MCQ",
+      "coefficient": -0.0845,
+      "std_error": 1.1171,
+      "z_value": -0.076,
+      "p_value": 0.939686,
+      "odds_ratio": 0.9189,
+      "or_95ci_lower": 0.1029,
+      "or_95ci_upper": 8.2068,
+      "significant_05": false
+    },
+    {
+      "feature": "fmt_SCN",
+      "coefficient": -0.7539,
+      "std_error": 0.7626,
+      "z_value": -0.989,
+      "p_value": 0.322857,
+      "odds_ratio": 0.4705,
+      "or_95ci_lower": 0.1056,
+      "or_95ci_upper": 2.0974,
+      "significant_05": false
+    },
+    {
+      "feature": "lang_English",
+      "coefficient": 0.0677,
+      "std_error": 0.4425,
+      "z_value": 0.153,
+      "p_value": 0.878448,
+      "odds_ratio": 1.07,
+      "or_95ci_lower": 0.4495,
+      "or_95ci_upper": 2.5474,
+      "significant_05": false
+    },
+    {
+      "feature": "year_centered",
+      "coefficient": -0.0361,
+      "std_error": 0.0364,
+      "z_value": -0.993,
+      "p_value": 0.320793,
+      "odds_ratio": 0.9645,
+      "or_95ci_lower": 0.8982,
+      "or_95ci_upper": 1.0358,
+      "significant_05": false
+    },
+    {
+      "feature": "venue_tier",
+      "coefficient": 0.2899,
+      "std_error": 0.2182,
+      "z_value": 1.329,
+      "p_value": 0.183941,
+      "odds_ratio": 1.3362,
+      "or_95ci_lower": 0.8714,
+      "or_95ci_upper": 2.0492,
+      "significant_05": false
+    },
+    {
+      "feature": "is_benchmark",
+      "coefficient": -0.4912,
+      "std_error": 0.3551,
+      "z_value": -1.383,
+      "p_value": 0.166611,
+      "odds_ratio": 0.6119,
+      "or_95ci_lower": 0.305,
+      "or_95ci_upper": 1.2273,
+      "significant_05": false
+    },
+    {
+      "feature": "is_eval",
+      "coefficient": -0.9048,
+      "std_error": 0.3475,
+      "z_value": -2.604,
+      "p_value": 0.009215,
+      "odds_ratio": 0.4046,
+      "or_95ci_lower": 0.2048,
+      "or_95ci_upper": 0.7995,
+      "significant_05": true
+    },
+    {
+      "feature": "R1_count",
+      "coefficient": 0.6669,
+      "std_error": 0.1631,
+      "z_value": 4.089,
+      "p_value": 4.3e-05,
+      "odds_ratio": 1.9482,
+      "or_95ci_lower": 1.4152,
+      "or_95ci_upper": 2.682,
+      "significant_05": true
+    }
+  ],
+  "strongest_predictors": [
+    {
+      "rank": 1,
+      "feature": "R1_count",
+      "odds_ratio": 1.9482,
+      "p_value": 4.3e-05
+    },
+    {
+      "rank": 2,
+      "feature": "is_eval",
+      "odds_ratio": 0.4046,
+      "p_value": 0.009215
+    },
+    {
+      "rank": 3,
+      "feature": "is_benchmark",
+      "odds_ratio": 0.6119,
+      "p_value": 0.166611
+    },
+    {
+      "rank": 4,
+      "feature": "venue_tier",
+      "odds_ratio": 1.3362,
+      "p_value": 0.183941
+    },
+    {
+      "rank": 5,
+      "feature": "year_centered",
+      "odds_ratio": 0.9645,
+      "p_value": 0.320793
+    }
+  ],
+  "model_performance": {
+    "mcfadden_pseudo_r2": 0.1593,
+    "log_likelihood_full": -121.81,
+    "log_likelihood_null": -144.89,
+    "accuracy": 0.8828,
+    "precision": 0.5,
+    "recall": 0.1064,
+    "f1_score": 0.1754
+  },
+  "tradition_family_joint_test": {
+    "test": "Likelihood Ratio Test",
+    "lr_statistic": 7.499,
+    "df": 4,
+    "p_value": 0.111761,
+    "significant_05": false,
+    "interpretation": "No - tradition family does NOT significantly predict gate-passage after controlling for format and venue"
+  },
+  "key_question": "Does tradition family predict gate-passage independent of format and venue?",
+  "answer": "No - tradition family does NOT significantly predict gate-passage after controlling for format and venue",
+  "narrative": "Logistic regression on 401 candidates (47 gate-passers, 11.7% prevalence). McFadden pseudo-R2 = 0.159; accuracy = 88.3%. Strongest predictor: is_eval (OR=0.40, p=0.0092). Tradition family joint LR test: chi2=7.50, df=4, p=0.1118. Tradition family is NOT an independent predictor at alpha=0.05."
+}

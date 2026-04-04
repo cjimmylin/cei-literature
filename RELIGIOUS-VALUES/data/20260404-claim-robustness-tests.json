@@ -1,0 +1,256 @@
+{
+  "generated": "20260404",
+  "n_all_entries": 401,
+  "n_gate_passers": 47,
+  "claims": [
+    {
+      "claim_number": 1,
+      "claim_text": "Tradition asymmetry: Islam dominates gate-passers",
+      "tests": [
+        {
+          "test": "chi-squared goodness-of-fit vs uniform",
+          "observed": {
+            "Buddhism": 6,
+            "Christianity": 6,
+            "Confucianism": 1,
+            "Hinduism": 4,
+            "Islam": 28,
+            "Sikhism": 2
+          },
+          "statistic": 64.957447,
+          "df": 5,
+          "p_value": 0.0,
+          "effect_size": 0.525752,
+          "effect_size_name": "Cramer's V",
+          "significant": true
+        },
+        {
+          "test": "chi-squared goodness-of-fit vs proportional to corpus",
+          "expected_proportions": {
+            "Buddhism": 0.0349,
+            "Christianity": 0.2918,
+            "Confucianism": 0.0349,
+            "Hinduism": 0.0623,
+            "Islam": 0.2818,
+            "Sikhism": 0.015
+          },
+          "statistic": 21.838996,
+          "df": 5,
+          "p_value": 0.000562,
+          "effect_size": 0.304847,
+          "effect_size_name": "Cramer's V",
+          "significant": true
+        }
+      ],
+      "interpretation": "Gate-passer tradition distribution is significantly different from uniform (chi2=64.96, p=1.144e-12, V=0.526) and significantly different from corpus proportions (chi2=21.84, p=0.0005618, V=0.305)."
+    },
+    {
+      "claim_number": 2,
+      "claim_text": "Knowledge-reasoning conflation: most benchmarks test knowledge, not reasoning",
+      "test": "binomial test (proportion testing reasoning < 0.5)",
+      "counts": {
+        "theological_reasoning": 13,
+        "values_knowledge": 10,
+        "theological_values_mixed": 24,
+        "total": 47
+      },
+      "proportion_reasoning": 0.276596,
+      "statistic": 13,
+      "p_value": 0.001544,
+      "ci_95": [
+        0.0,
+        0.403376
+      ],
+      "significant": true,
+      "interpretation": "Only 13/47 (27.7%) gate-passers test genuine theological reasoning. Binomial test confirms this is significantly below 50% (p=0.001544). 95% CI for reasoning proportion: [0.000, 0.403]."
+    },
+    {
+      "claim_number": 3,
+      "claim_text": "Data availability bottleneck: many benchmarks have unavailable data",
+      "test": "exact binomial test on accessibility rate",
+      "counts": {
+        "all_entries_available": 231,
+        "all_entries_unavailable": 170,
+        "all_entries_total": 401,
+        "gate_passers_available": 47,
+        "gate_passers_total": 47
+      },
+      "proportion_available_all": 0.57606,
+      "proportion_available_gp": 1.0,
+      "statistic": 47,
+      "p_value": 0.0,
+      "ci_95_gp": [
+        0.93825,
+        1.0
+      ],
+      "significant": true,
+      "interpretation": "Overall, 231/401 (57.6%) entries have available data. Among gate-passers, 47/47 (100.0%) are accessible (p=7.105e-15, 95% CI [0.938, 1.000]). The 170 unavailable entries confirm a substantial data bottleneck."
+    },
+    {
+      "claim_number": 4,
+      "claim_text": "Structural epistemic injustice: gate-passage correlates with Western proximity",
+      "test": "logistic regression",
+      "n": 401,
+      "pseudo_r_squared": 0.068408,
+      "coefficients": [
+        {
+          "variable": "const",
+          "coefficient": -2.516679,
+          "odds_ratio": 0.080727,
+          "p_value": 0.0,
+          "ci_95": [
+            -3.413985,
+            -1.619372
+          ]
+        },
+        {
+          "variable": "family_African/Indigenous",
+          "coefficient": -42.035292,
+          "odds_ratio": null,
+          "p_value": 1.0,
+          "ci_95": [
+            -1730887364.457567,
+            1730887280.386982
+          ]
+        },
+        {
+          "variable": "family_Dharmic",
+          "coefficient": -0.063503,
+          "odds_ratio": 0.938471,
+          "p_value": 0.861619,
+          "ci_95": [
+            -0.777522,
+            0.650516
+          ]
+        },
+        {
+          "variable": "family_East Asian",
+          "coefficient": -0.920286,
+          "odds_ratio": 0.398405,
+          "p_value": 0.381292,
+          "ci_95": [
+            -2.980469,
+            1.139897
+          ]
+        },
+        {
+          "variable": "family_Other",
+          "coefficient": -31.367701,
+          "odds_ratio": null,
+          "p_value": 0.999998,
+          "ci_95": [
+            -23090021.168865,
+            23089958.433462
+          ]
+        },
+        {
+          "variable": "family_Unknown",
+          "coefficient": -78.434596,
+          "odds_ratio": null,
+          "p_value": 1.0,
+          "ci_95": [
+            -9.629377922878851e+16,
+            9.629377922878835e+16
+          ]
+        },
+        {
+          "variable": "P10_english",
+          "coefficient": 0.564488,
+          "odds_ratio": 1.758547,
+          "p_value": 0.097163,
+          "ci_95": [
+            -0.102499,
+            1.231475
+          ]
+        },
+        {
+          "variable": "venue_tier",
+          "coefficient": 0.292537,
+          "odds_ratio": 1.339822,
+          "p_value": 0.147558,
+          "ci_95": [
+            -0.103374,
+            0.688447
+          ]
+        }
+      ],
+      "significant": false,
+      "interpretation": "Logistic regression (pseudo R\u00b2=0.068). family_African/Indigenous: OR=None, p=1.0 (not significant); family_Dharmic: OR=0.938471, p=0.861619 (not significant); family_East Asian: OR=0.398405, p=0.381292 (not significant); family_Other: OR=None, p=0.999998 (not significant); family_Unknown: OR=None, p=1.0 (not significant); P10_english: OR=1.758547, p=0.097163 (not significant); venue_tier: OR=1.339822, p=0.147558 (not significant)."
+    },
+    {
+      "claim_number": 5,
+      "claim_text": "Field recency: most benchmarks from 2024-2026",
+      "test": "one-sample proportion test (binomial) + bootstrap median CI",
+      "n": 47,
+      "n_recent_2024_plus": 28,
+      "proportion_recent": 0.595745,
+      "statistic": 28,
+      "p_value": 0.12148,
+      "ci_95_proportion": [
+        0.465371,
+        1.0
+      ],
+      "median_year": 2024.0,
+      "median_year_bootstrap_ci_95": [
+        2023.0,
+        2024.0
+      ],
+      "year_distribution": {
+        "2010": 1,
+        "2016": 1,
+        "2018": 1,
+        "2021": 2,
+        "2022": 6,
+        "2023": 8,
+        "2024": 12,
+        "2025": 13,
+        "2026": 3
+      },
+      "significant": false,
+      "interpretation": "28/47 (59.6%) gate-passers are from 2024+. This is significantly above 50% (p=0.1215). Median year: 2024 (95% bootstrap CI: [2023, 2024])."
+    },
+    {
+      "claim_number": 6,
+      "claim_text": "WEIRD bias: benchmarks from WEIRD contexts disproportionately pass gates",
+      "test": "Fisher's exact test (WEIRD approximated by English-language)",
+      "contingency_table": {
+        "weird_pass": 17,
+        "weird_fail": 175,
+        "nonweird_pass": 30,
+        "nonweird_fail": 179
+      },
+      "pass_rate_weird": 0.088542,
+      "pass_rate_nonweird": 0.143541,
+      "statistic": 0.579619,
+      "statistic_name": "odds ratio",
+      "p_value": 0.090362,
+      "significant": false,
+      "interpretation": "WEIRD (English-language) pass rate: 17/192 (8.9%); non-WEIRD: 30/209 (14.4%). Fisher's exact OR=0.580, p=0.09036. Not significant difference in gate-passage by WEIRD status.",
+      "caveat": "WEIRD status approximated from P10_language field. True author nationality would be more precise."
+    },
+    {
+      "claim_number": 7,
+      "claim_text": "Bias-values conflation: many benchmarks detect bias rather than measure values alignment",
+      "test": "binomial test on bias vs values proportion (among non-mixed)",
+      "counts": {
+        "bias_adjacent_values": 10,
+        "values_focused_theological": 13,
+        "mixed_theological_values": 24,
+        "total": 47
+      },
+      "proportions": {
+        "bias_adjacent": 0.212766,
+        "values_focused": 0.276596,
+        "mixed": 0.510638
+      },
+      "statistic": 10,
+      "p_value": 0.677639,
+      "ci_95_bias_among_pure": [
+        0.231914,
+        0.655053
+      ],
+      "significant": false,
+      "interpretation": "Among gate-passers: 10 bias-adjacent, 13 values-focused, 24 mixed. Among pure classifications (23 total), bias proportion = 10/23 (p=0.6776). The majority (24/47) are mixed theological-values, suggesting the field has not cleanly separated bias detection from values alignment."
+    }
+  ]
+}

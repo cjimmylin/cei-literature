@@ -1,0 +1,330 @@
+{
+  "generated": "20260404",
+  "spearman_correlations": {
+    "features": [
+      "R2_depth",
+      "R3_scriptural",
+      "R4_denominational",
+      "R5_pluralism",
+      "R6_grounding",
+      "P7_implementability",
+      "PE_score",
+      "RD_score",
+      "CI_score",
+      "COMPOSITE"
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.5192,
+        0.1686,
+        0.1625,
+        0.3325,
+        -0.1283,
+        -0.1399,
+        0.7283,
+        -0.1491,
+        0.2128
+      ],
+      [
+        0.5192,
+        1.0,
+        0.0075,
+        -0.0476,
+        0.0907,
+        -0.1562,
+        -0.1663,
+        0.5408,
+        -0.0937,
+        0.172
+      ],
+      [
+        0.1686,
+        0.0075,
+        1.0,
+        0.0129,
+        0.022,
+        0.0263,
+        0.0078,
+        0.1334,
+        -0.04,
+        0.0784
+      ],
+      [
+        0.1625,
+        -0.0476,
+        0.0129,
+        1.0,
+        0.0372,
+        -0.099,
+        -0.0907,
+        0.6797,
+        0.0335,
+        0.1918
+      ],
+      [
+        0.3325,
+        0.0907,
+        0.022,
+        0.0372,
+        1.0,
+        -0.0244,
+        -0.0305,
+        0.3143,
+        -0.1121,
+        0.1077
+      ],
+      [
+        -0.1283,
+        -0.1562,
+        0.0263,
+        -0.099,
+        -0.0244,
+        1.0,
+        0.9418,
+        -0.1711,
+        0.2869,
+        0.8038
+      ],
+      [
+        -0.1399,
+        -0.1663,
+        0.0078,
+        -0.0907,
+        -0.0305,
+        0.9418,
+        1.0,
+        -0.175,
+        0.2919,
+        0.8364
+      ],
+      [
+        0.7283,
+        0.5408,
+        0.1334,
+        0.6797,
+        0.3143,
+        -0.1711,
+        -0.175,
+        1.0,
+        -0.1021,
+        0.2797
+      ],
+      [
+        -0.1491,
+        -0.0937,
+        -0.04,
+        0.0335,
+        -0.1121,
+        0.2869,
+        0.2919,
+        -0.1021,
+        1.0,
+        0.4125
+      ],
+      [
+        0.2128,
+        0.172,
+        0.0784,
+        0.1918,
+        0.1077,
+        0.8038,
+        0.8364,
+        0.2797,
+        0.4125,
+        1.0
+      ]
+    ],
+    "high_correlation_pairs": [
+      {
+        "f1": "P7_implementability",
+        "f2": "PE_score",
+        "r": 0.9418,
+        "p": 5.68261e-191
+      },
+      {
+        "f1": "PE_score",
+        "f2": "COMPOSITE",
+        "r": 0.8364,
+        "p": 3.24118e-106
+      },
+      {
+        "f1": "P7_implementability",
+        "f2": "COMPOSITE",
+        "r": 0.8038,
+        "p": 4.9374e-92
+      },
+      {
+        "f1": "R2_depth",
+        "f2": "RD_score",
+        "r": 0.7283,
+        "p": 1.7863e-67
+      }
+    ],
+    "low_correlation_pairs": [
+      {
+        "f1": "R3_scriptural",
+        "f2": "R4_denominational",
+        "r": 0.0075,
+        "p": 0.881711
+      },
+      {
+        "f1": "R4_denominational",
+        "f2": "PE_score",
+        "r": 0.0078,
+        "p": 0.875575
+      },
+      {
+        "f1": "R4_denominational",
+        "f2": "R5_pluralism",
+        "r": 0.0129,
+        "p": 0.796286
+      },
+      {
+        "f1": "R4_denominational",
+        "f2": "R6_grounding",
+        "r": 0.022,
+        "p": 0.660652
+      },
+      {
+        "f1": "R6_grounding",
+        "f2": "P7_implementability",
+        "r": -0.0244,
+        "p": 0.626102
+      },
+      {
+        "f1": "R4_denominational",
+        "f2": "P7_implementability",
+        "r": 0.0263,
+        "p": 0.599325
+      },
+      {
+        "f1": "R6_grounding",
+        "f2": "PE_score",
+        "r": -0.0305,
+        "p": 0.542625
+      },
+      {
+        "f1": "R5_pluralism",
+        "f2": "CI_score",
+        "r": 0.0335,
+        "p": 0.503987
+      },
+      {
+        "f1": "R5_pluralism",
+        "f2": "R6_grounding",
+        "r": 0.0372,
+        "p": 0.45739
+      },
+      {
+        "f1": "R4_denominational",
+        "f2": "CI_score",
+        "r": -0.04,
+        "p": 0.424213
+      },
+      {
+        "f1": "R3_scriptural",
+        "f2": "R5_pluralism",
+        "r": -0.0476,
+        "p": 0.342006
+      },
+      {
+        "f1": "R4_denominational",
+        "f2": "COMPOSITE",
+        "r": 0.0784,
+        "p": 0.116882
+      },
+      {
+        "f1": "R3_scriptural",
+        "f2": "R6_grounding",
+        "r": 0.0907,
+        "p": 0.0696313
+      },
+      {
+        "f1": "R5_pluralism",
+        "f2": "PE_score",
+        "r": -0.0907,
+        "p": 0.0697336
+      },
+      {
+        "f1": "R3_scriptural",
+        "f2": "CI_score",
+        "r": -0.0937,
+        "p": 0.0608574
+      },
+      {
+        "f1": "R5_pluralism",
+        "f2": "P7_implementability",
+        "r": -0.099,
+        "p": 0.0475862
+      }
+    ]
+  },
+  "clustering": {
+    "features_used": [
+      "R2_depth",
+      "R3_scriptural",
+      "R4_denominational",
+      "R5_pluralism",
+      "R6_grounding",
+      "PE_score",
+      "CI_score"
+    ],
+    "n_gate_passers": 47,
+    "k_values_tested": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "results": [
+      {
+        "k": 3,
+        "ari_vs_tradition": -0.0155,
+        "ari_vs_format": -0.0149,
+        "cluster_sizes": [
+          21,
+          3,
+          23
+        ]
+      },
+      {
+        "k": 4,
+        "ari_vs_tradition": -0.0302,
+        "ari_vs_format": -0.0763,
+        "cluster_sizes": [
+          21,
+          3,
+          3,
+          20
+        ]
+      },
+      {
+        "k": 5,
+        "ari_vs_tradition": 0.0249,
+        "ari_vs_format": -0.0776,
+        "cluster_sizes": [
+          21,
+          3,
+          3,
+          12,
+          8
+        ]
+      },
+      {
+        "k": 6,
+        "ari_vs_tradition": 0.0042,
+        "ari_vs_format": -0.0547,
+        "cluster_sizes": [
+          2,
+          19,
+          3,
+          3,
+          12,
+          8
+        ]
+      }
+    ],
+    "interpretation": "Benchmarks cluster more by tradition family (best ARI=0.025 at k=5) than by format (best ARI=-0.015 at k=3). Religious tradition is the stronger organizing dimension."
+  }
+}

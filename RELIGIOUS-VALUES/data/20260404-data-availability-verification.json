@@ -1,0 +1,596 @@
+{
+  "generated": "20260404",
+  "total_checked": 47,
+  "summary": {
+    "VERIFIED_ACCESSIBLE": 43,
+    "REDIRECT_ACCESSIBLE": 0,
+    "AUTH_REQUIRED": 1,
+    "NOT_FOUND": 3,
+    "SERVER_ERROR": 0,
+    "TIMEOUT": 0,
+    "NO_URL": 0,
+    "INVALID_URL": 0
+  },
+  "results": [
+    {
+      "id": 1,
+      "short_title": "Leveraging Large Language Models for Detecting",
+      "data_url": "https://github.com/Arwaalmrzoqi/ELQV",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 2,
+      "short_title": "Building Domain-Specific LLMs Faithful To The",
+      "data_url": "https://github.com/shabazpatel/domain-specific-llm",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 3,
+      "short_title": "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs",
+      "data_url": "https://github.com/ariba-k/llm-cultural-alignment-evaluation",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 4,
+      "short_title": "AceGPT, Localizing Large Language Models in Arabic",
+      "data_url": "https://github.com/FreedomIntelligence/AceGPT",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 5,
+      "short_title": "Semantic and Sentiment Analysis of Selected",
+      "data_url": "https://github.com/sydney-machine-learning/sentimentanalysis_bhagavadgita",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 6,
+      "short_title": "Addressing Religious Hate Online From Taxonomy",
+      "data_url": "https://github.com/dhfbk/religious-hate-speech",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 7,
+      "short_title": "Challenging the Transformer-based Models with a",
+      "data_url": "https://github.com/ShathaTm/Quran_Hadith_Datasets",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 8,
+      "short_title": "PapersPlease",
+      "data_url": "https://github.com/yeonsuuuu28/papers-please",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 10,
+      "short_title": "The PRISM Alignment Project",
+      "data_url": "https://github.com/HannahKirk/prism-alignment, https://huggingface.co/datasets/HannahRoseKirk/prism-alignment",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html",
+      "all_url_checks": [
+        {
+          "url": "https://github.com/HannahKirk/prism-alignment",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "content_length": null,
+          "accessibility": "VERIFIED_ACCESSIBLE",
+          "notes": "GitHub repo \u2014 text/html"
+        },
+        {
+          "url": "https://huggingface.co/datasets/HannahRoseKirk/prism-alignment",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "content_length": "940546",
+          "accessibility": "VERIFIED_ACCESSIBLE",
+          "notes": "HuggingFace dataset \u2014 text/html"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "short_title": "HAQA and QUQA Constructing Two Arabic",
+      "data_url": "http://github.com/scsaln/HAQA-and-QUQA",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 13,
+      "short_title": "Sometimes the Model doth Preach Quantifying",
+      "data_url": "https://github.com/HariShankar08/LLMOpinions",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 15,
+      "short_title": "Subverting the Jewtocracy Online Antisemitism Detection",
+      "data_url": "https://github.com/mohit3011/Online-Antisemitism-Detection-Using-MultimodalDeep-Learning",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 16,
+      "short_title": "Ancient Wisdom Modern Tools Exploring Retrieval-Augmented",
+      "data_url": "https://github.com/priyankamandikal/vedantany-10m",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 17,
+      "short_title": "WYWEB: A NLP Evaluation Benchmark For Classical Chinese",
+      "data_url": "https://github.com/baudzhou/WYWEB",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 18,
+      "short_title": "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models",
+      "data_url": "https://github.com/SCUT-DLVCLab/C3bench",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 19,
+      "short_title": "Quran-MD A Fine-Grained Multilingual Multimodal Dataset",
+      "data_url": "https://huggingface.co/datasets/Buraaq/quran-audio-text-dataset",
+      "p3_availability": "HuggingFace",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "HuggingFace dataset \u2014 text/html"
+    },
+    {
+      "id": 20,
+      "short_title": "SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala",
+      "data_url": "https://huggingface.co/datasets/naist-nlp/SinhalaMMLU",
+      "p3_availability": "HuggingFace",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "HuggingFace dataset \u2014 text/html"
+    },
+    {
+      "id": 21,
+      "short_title": "IslamTrust A Benchmark for LLMs Alignment",
+      "data_url": "https://github.com/aii-lab-dot-org/IslamTrust",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 22,
+      "short_title": "Optimized Quran Passage Retrieval Using an",
+      "data_url": "https://huggingface.co/datasets/ImruQays",
+      "p3_availability": "HuggingFace",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "HuggingFace dataset \u2014 text/html"
+    },
+    {
+      "id": 23,
+      "short_title": "MITRA A Large-Scale Parallel Corpus and",
+      "data_url": "https://huggingface.co/buddhist-nlp",
+      "p3_availability": "HuggingFace",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "HuggingFace model/org page \u2014 text/html"
+    },
+    {
+      "id": 24,
+      "short_title": "One Model is All You Need",
+      "data_url": "https://github.com/sebastian-nehrdich/byt5-sanskrit-analyzers ; https://huggingface.co/buddhist-nlp/byt5-sanskrit",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html",
+      "all_url_checks": [
+        {
+          "url": "https://github.com/sebastian-nehrdich/byt5-sanskrit-analyzers",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "content_length": null,
+          "accessibility": "VERIFIED_ACCESSIBLE",
+          "notes": "GitHub repo \u2014 text/html"
+        },
+        {
+          "url": "https://huggingface.co/buddhist-nlp/byt5-sanskrit",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "content_length": "72146",
+          "accessibility": "VERIFIED_ACCESSIBLE",
+          "notes": "HuggingFace model/org page \u2014 text/html"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "short_title": "FaithBench AI Benchmark for Christian Theology",
+      "data_url": "https://faithbench.com/",
+      "p3_availability": "Website",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "Website (faithbench.com) \u2014 text/html"
+    },
+    {
+      "id": 27,
+      "short_title": "SEA-Guard Culturally Grounded Multilingual Safeguard for",
+      "data_url": "https://huggingface.co/aisingapore/Qwen-SEA-Guard-8B-2602",
+      "p3_availability": "HuggingFace",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "HuggingFace model/org page \u2014 text/html"
+    },
+    {
+      "id": 29,
+      "short_title": "The Gospel Coalition AI Christian Benchmark",
+      "data_url": "https://www.thegospelcoalition.org/ai-christian-benchmark/",
+      "p3_availability": "Website",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "Website (www.thegospelcoalition.org) \u2014 text/html"
+    },
+    {
+      "id": 31,
+      "short_title": "The eBible Corpus Data and Model",
+      "data_url": "https://huggingface.co/datasets/bible-nlp/biblenlp-corpus",
+      "p3_availability": "HuggingFace",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "HuggingFace dataset \u2014 text/html"
+    },
+    {
+      "id": 35,
+      "short_title": "BuddhismEval A Bilingual Benchmark for Buddhist",
+      "data_url": "https://huggingface.co/datasets/Nethmi14/BuddhismEval",
+      "p3_availability": "HuggingFace",
+      "http_status": 401,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "AUTH_REQUIRED",
+      "O1_accessible": false,
+      "notes": "HuggingFace dataset \u2014 HTTP 401 \u2014 text/html"
+    },
+    {
+      "id": 38,
+      "short_title": "Fabricated Hadith Detection A Novel Matn-Based",
+      "data_url": "https://github.com/kamelgaanoun/mhdetection",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 40,
+      "short_title": "BaniDB Shabad OS Digital Gurbani Database",
+      "data_url": "https://github.com/shabados/database",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 41,
+      "short_title": "GurbaniDB",
+      "data_url": "https://github.com/sikher/gurbanidb",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 42,
+      "short_title": "REDDITBIAS",
+      "data_url": "https://github.com/umanlp/RedditBias",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 43,
+      "short_title": "DharmicData Comprehensive Open-Source Collection of Hindu",
+      "data_url": "https://github.com/bhavykhatri/DharmicData",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 44,
+      "short_title": "Islam QA",
+      "data_url": "https://www.kaggle.com/datasets/nazmul0087/al-quran-english-translation",
+      "p3_availability": "Kaggle",
+      "http_status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "accessibility": "NOT_FOUND",
+      "O1_accessible": false,
+      "notes": "Kaggle dataset \u2014 HTTP 404 \u2014 text/html"
+    },
+    {
+      "id": 46,
+      "short_title": "The Vedic Compound Dataset",
+      "data_url": "https://github.com/SvenSellmer/VedicCompoundDataset",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 55,
+      "short_title": "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+      "data_url": "https://github.com/famous-coder/openai-case-study",
+      "p3_availability": "GitHub",
+      "http_status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "NOT_FOUND",
+      "O1_accessible": false,
+      "notes": "GitHub repo \u2014 HTTP 404 \u2014 text/html"
+    },
+    {
+      "id": 56,
+      "short_title": "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values",
+      "data_url": "https://huggingface.co/datasets/Abderraouf000/IslamTrust-benchmark",
+      "p3_availability": "HuggingFace",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "HuggingFace dataset \u2014 text/html"
+    },
+    {
+      "id": 60,
+      "short_title": "ValueNet",
+      "data_url": "https://liang-qiu.github.io/ValueNet/",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "Website (liang-qiu.github.io) \u2014 text/html"
+    },
+    {
+      "id": 62,
+      "short_title": "Finding Answers from the Word of God",
+      "data_url": "https://github.com/helen-jiahe-zhao/BibleQA",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 82,
+      "short_title": "Exploring Similarity Measures and Intertextuality in",
+      "data_url": "https://github.com/somiyagawa/VedicSanskrit",
+      "p3_availability": "GitHub",
+      "http_status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "NOT_FOUND",
+      "O1_accessible": false,
+      "notes": "GitHub repo \u2014 HTTP 404 \u2014 text/html"
+    },
+    {
+      "id": 99,
+      "short_title": "Multi-IsnadSet MIS for Sahih Muslim Hadith",
+      "data_url": "https://data.mendeley.com/datasets/gzprcr93zn/2",
+      "p3_availability": "Website",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "Mendeley Data repository \u2014 text/html"
+    },
+    {
+      "id": 105,
+      "short_title": "MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset",
+      "data_url": "https://data.mendeley.com/datasets/9yvrzxktmr",
+      "p3_availability": "Website",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "Mendeley Data repository \u2014 text/html"
+    },
+    {
+      "id": 106,
+      "short_title": "Benchmarking Vision Language Models for Cultural Understanding",
+      "data_url": "https://culturalvqa.org",
+      "p3_availability": "Website",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "Website (culturalvqa.org) \u2014 text/html"
+    },
+    {
+      "id": 111,
+      "short_title": "QASiNa",
+      "data_url": "https://github.com/rizquuula/QASiNa",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 131,
+      "short_title": "Cross-cultural dataset for the evolution of",
+      "data_url": "https://doi.org/10.7910/DVN/ERKCLS",
+      "p3_availability": "Website",
+      "http_status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "DOI redirect \u2014 Harvard Dataverse (HTTP 202 = Accepted, content accessible)"
+    },
+    {
+      "id": 143,
+      "short_title": "A Data-Driven Exploration of a New Islamic Fatwas",
+      "data_url": "https://github.com/ohoud/Fatwaset.git",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 144,
+      "short_title": "FatwaSet",
+      "data_url": "https://github.com/ohoud/Fatwaset.git",
+      "p3_availability": "GitHub",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "GitHub repo \u2014 text/html"
+    },
+    {
+      "id": 150,
+      "short_title": "Sanadset 650K Data on Hadith Narrators",
+      "data_url": "https://data.mendeley.com/datasets/5xth87zwb5/4",
+      "p3_availability": "Website",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "Mendeley Data repository \u2014 text/html"
+    },
+    {
+      "id": 234,
+      "short_title": "CatholicBench",
+      "data_url": "https://www.catholicbench.com/",
+      "p3_availability": "Website",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accessibility": "VERIFIED_ACCESSIBLE",
+      "O1_accessible": true,
+      "notes": "Website (www.catholicbench.com) \u2014 text/html"
+    }
+  ],
+  "gate_impact": {
+    "current_gate_passers": 47,
+    "verified_accessible": 43,
+    "would_fail_data_gate_after_verification": 4,
+    "affected_entries": [
+      {
+        "id": 35,
+        "short_title": "BuddhismEval A Bilingual Benchmark for Buddhist",
+        "accessibility": "AUTH_REQUIRED"
+      },
+      {
+        "id": 44,
+        "short_title": "Islam QA",
+        "accessibility": "NOT_FOUND"
+      },
+      {
+        "id": 55,
+        "short_title": "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+        "accessibility": "NOT_FOUND"
+      },
+      {
+        "id": 82,
+        "short_title": "Exploring Similarity Measures and Intertextuality in",
+        "accessibility": "NOT_FOUND"
+      }
+    ]
+  }
+}

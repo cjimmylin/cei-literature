@@ -1,0 +1,993 @@
+{
+  "generated": "20260404",
+  "total_papers_scanned": 2329,
+  "papers_with_rv_fields": 2110,
+  "papers_without_rv_fields": 219,
+  "rv_distributions": {
+    "rv_islam": {
+      "count": 2110,
+      "mean": 5.96,
+      "median": 0.0,
+      "max": 100,
+      "std": 19.84,
+      "count_gte_50": 154,
+      "pct_gte_50": 7.3
+    },
+    "rv_christianity": {
+      "count": 2110,
+      "mean": 6.21,
+      "median": 0.0,
+      "max": 100,
+      "std": 18.42,
+      "count_gte_50": 214,
+      "pct_gte_50": 10.14
+    },
+    "rv_buddhism": {
+      "count": 2110,
+      "mean": 1.54,
+      "median": 0.0,
+      "max": 100,
+      "std": 9.57,
+      "count_gte_50": 47,
+      "pct_gte_50": 2.23
+    },
+    "rv_judaism": {
+      "count": 2110,
+      "mean": 1.55,
+      "median": 0.0,
+      "max": 100,
+      "std": 9.39,
+      "count_gte_50": 48,
+      "pct_gte_50": 2.27
+    },
+    "rv_hinduism": {
+      "count": 2110,
+      "mean": 2.36,
+      "median": 0.0,
+      "max": 100,
+      "std": 12.53,
+      "count_gte_50": 65,
+      "pct_gte_50": 3.08
+    },
+    "rv_sikhism": {
+      "count": 2110,
+      "mean": 0.42,
+      "median": 0.0,
+      "max": 100,
+      "std": 5.04,
+      "count_gte_50": 16,
+      "pct_gte_50": 0.76
+    },
+    "rv_confucianism": {
+      "count": 2110,
+      "mean": 1.2,
+      "median": 0.0,
+      "max": 100,
+      "std": 8.53,
+      "count_gte_50": 44,
+      "pct_gte_50": 2.09
+    },
+    "rv_taoism": {
+      "count": 2110,
+      "mean": 0.17,
+      "median": 0.0,
+      "max": 50,
+      "std": 2.88,
+      "count_gte_50": 7,
+      "pct_gte_50": 0.33
+    },
+    "rv_shinto": {
+      "count": 2110,
+      "mean": 0.25,
+      "median": 0.0,
+      "max": 80,
+      "std": 3.69,
+      "count_gte_50": 10,
+      "pct_gte_50": 0.47
+    },
+    "rv_jainism": {
+      "count": 2110,
+      "mean": 1.93,
+      "median": 0.0,
+      "max": 95,
+      "std": 9.95,
+      "count_gte_50": 78,
+      "pct_gte_50": 3.7
+    },
+    "rv_bahai": {
+      "count": 2110,
+      "mean": 0.02,
+      "median": 0.0,
+      "max": 50,
+      "std": 1.09,
+      "count_gte_50": 1,
+      "pct_gte_50": 0.05
+    },
+    "rv_zoroastrianism": {
+      "count": 2110,
+      "mean": 0.24,
+      "median": 0.0,
+      "max": 100,
+      "std": 3.98,
+      "count_gte_50": 8,
+      "pct_gte_50": 0.38
+    },
+    "rv_ubuntu": {
+      "count": 2110,
+      "mean": 0.77,
+      "median": 0.0,
+      "max": 100,
+      "std": 7.83,
+      "count_gte_50": 22,
+      "pct_gte_50": 1.04
+    },
+    "rv_indigenous": {
+      "count": 2110,
+      "mean": 1.54,
+      "median": 0.0,
+      "max": 100,
+      "std": 10.57,
+      "count_gte_50": 44,
+      "pct_gte_50": 2.09
+    }
+  },
+  "co_occurrence": {
+    "multi_tradition_paper_count": 120,
+    "matrix": {
+      "rv_islam": {
+        "rv_islam": 154,
+        "rv_christianity": 48,
+        "rv_buddhism": 18,
+        "rv_judaism": 24,
+        "rv_hinduism": 27,
+        "rv_sikhism": 3,
+        "rv_confucianism": 8,
+        "rv_taoism": 0,
+        "rv_shinto": 0,
+        "rv_jainism": 8,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 1,
+        "rv_ubuntu": 0,
+        "rv_indigenous": 0
+      },
+      "rv_christianity": {
+        "rv_islam": 48,
+        "rv_christianity": 214,
+        "rv_buddhism": 23,
+        "rv_judaism": 23,
+        "rv_hinduism": 19,
+        "rv_sikhism": 1,
+        "rv_confucianism": 13,
+        "rv_taoism": 0,
+        "rv_shinto": 0,
+        "rv_jainism": 11,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 2,
+        "rv_ubuntu": 5,
+        "rv_indigenous": 5
+      },
+      "rv_buddhism": {
+        "rv_islam": 18,
+        "rv_christianity": 23,
+        "rv_buddhism": 47,
+        "rv_judaism": 10,
+        "rv_hinduism": 21,
+        "rv_sikhism": 1,
+        "rv_confucianism": 6,
+        "rv_taoism": 2,
+        "rv_shinto": 1,
+        "rv_jainism": 3,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 1,
+        "rv_ubuntu": 3,
+        "rv_indigenous": 2
+      },
+      "rv_judaism": {
+        "rv_islam": 24,
+        "rv_christianity": 23,
+        "rv_buddhism": 10,
+        "rv_judaism": 48,
+        "rv_hinduism": 13,
+        "rv_sikhism": 1,
+        "rv_confucianism": 1,
+        "rv_taoism": 0,
+        "rv_shinto": 0,
+        "rv_jainism": 1,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 0,
+        "rv_ubuntu": 0,
+        "rv_indigenous": 0
+      },
+      "rv_hinduism": {
+        "rv_islam": 27,
+        "rv_christianity": 19,
+        "rv_buddhism": 21,
+        "rv_judaism": 13,
+        "rv_hinduism": 65,
+        "rv_sikhism": 3,
+        "rv_confucianism": 4,
+        "rv_taoism": 0,
+        "rv_shinto": 0,
+        "rv_jainism": 6,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 0,
+        "rv_ubuntu": 1,
+        "rv_indigenous": 1
+      },
+      "rv_sikhism": {
+        "rv_islam": 3,
+        "rv_christianity": 1,
+        "rv_buddhism": 1,
+        "rv_judaism": 1,
+        "rv_hinduism": 3,
+        "rv_sikhism": 16,
+        "rv_confucianism": 1,
+        "rv_taoism": 0,
+        "rv_shinto": 0,
+        "rv_jainism": 5,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 0,
+        "rv_ubuntu": 0,
+        "rv_indigenous": 0
+      },
+      "rv_confucianism": {
+        "rv_islam": 8,
+        "rv_christianity": 13,
+        "rv_buddhism": 6,
+        "rv_judaism": 1,
+        "rv_hinduism": 4,
+        "rv_sikhism": 1,
+        "rv_confucianism": 44,
+        "rv_taoism": 2,
+        "rv_shinto": 2,
+        "rv_jainism": 3,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 0,
+        "rv_ubuntu": 3,
+        "rv_indigenous": 2
+      },
+      "rv_taoism": {
+        "rv_islam": 0,
+        "rv_christianity": 0,
+        "rv_buddhism": 2,
+        "rv_judaism": 0,
+        "rv_hinduism": 0,
+        "rv_sikhism": 0,
+        "rv_confucianism": 2,
+        "rv_taoism": 7,
+        "rv_shinto": 0,
+        "rv_jainism": 0,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 0,
+        "rv_ubuntu": 2,
+        "rv_indigenous": 1
+      },
+      "rv_shinto": {
+        "rv_islam": 0,
+        "rv_christianity": 0,
+        "rv_buddhism": 1,
+        "rv_judaism": 0,
+        "rv_hinduism": 0,
+        "rv_sikhism": 0,
+        "rv_confucianism": 2,
+        "rv_taoism": 0,
+        "rv_shinto": 10,
+        "rv_jainism": 0,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 0,
+        "rv_ubuntu": 0,
+        "rv_indigenous": 0
+      },
+      "rv_jainism": {
+        "rv_islam": 8,
+        "rv_christianity": 11,
+        "rv_buddhism": 3,
+        "rv_judaism": 1,
+        "rv_hinduism": 6,
+        "rv_sikhism": 5,
+        "rv_confucianism": 3,
+        "rv_taoism": 0,
+        "rv_shinto": 0,
+        "rv_jainism": 78,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 1,
+        "rv_ubuntu": 0,
+        "rv_indigenous": 0
+      },
+      "rv_bahai": {
+        "rv_islam": 0,
+        "rv_christianity": 0,
+        "rv_buddhism": 0,
+        "rv_judaism": 0,
+        "rv_hinduism": 0,
+        "rv_sikhism": 0,
+        "rv_confucianism": 0,
+        "rv_taoism": 0,
+        "rv_shinto": 0,
+        "rv_jainism": 0,
+        "rv_bahai": 1,
+        "rv_zoroastrianism": 0,
+        "rv_ubuntu": 0,
+        "rv_indigenous": 0
+      },
+      "rv_zoroastrianism": {
+        "rv_islam": 1,
+        "rv_christianity": 2,
+        "rv_buddhism": 1,
+        "rv_judaism": 0,
+        "rv_hinduism": 0,
+        "rv_sikhism": 0,
+        "rv_confucianism": 0,
+        "rv_taoism": 0,
+        "rv_shinto": 0,
+        "rv_jainism": 1,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 8,
+        "rv_ubuntu": 0,
+        "rv_indigenous": 0
+      },
+      "rv_ubuntu": {
+        "rv_islam": 0,
+        "rv_christianity": 5,
+        "rv_buddhism": 3,
+        "rv_judaism": 0,
+        "rv_hinduism": 1,
+        "rv_sikhism": 0,
+        "rv_confucianism": 3,
+        "rv_taoism": 2,
+        "rv_shinto": 0,
+        "rv_jainism": 0,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 0,
+        "rv_ubuntu": 22,
+        "rv_indigenous": 4
+      },
+      "rv_indigenous": {
+        "rv_islam": 0,
+        "rv_christianity": 5,
+        "rv_buddhism": 2,
+        "rv_judaism": 0,
+        "rv_hinduism": 1,
+        "rv_sikhism": 0,
+        "rv_confucianism": 2,
+        "rv_taoism": 1,
+        "rv_shinto": 0,
+        "rv_jainism": 0,
+        "rv_bahai": 0,
+        "rv_zoroastrianism": 0,
+        "rv_ubuntu": 4,
+        "rv_indigenous": 44
+      }
+    },
+    "jaccard_similarity": {
+      "rv_islam": {
+        "rv_islam": 1.0,
+        "rv_christianity": 0.15,
+        "rv_buddhism": 0.0984,
+        "rv_judaism": 0.1348,
+        "rv_hinduism": 0.1406,
+        "rv_sikhism": 0.018,
+        "rv_confucianism": 0.0421,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0357,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0062,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0
+      },
+      "rv_christianity": {
+        "rv_islam": 0.15,
+        "rv_christianity": 1.0,
+        "rv_buddhism": 0.0966,
+        "rv_judaism": 0.0962,
+        "rv_hinduism": 0.0731,
+        "rv_sikhism": 0.0044,
+        "rv_confucianism": 0.0531,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0391,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0091,
+        "rv_ubuntu": 0.0216,
+        "rv_indigenous": 0.0198
+      },
+      "rv_buddhism": {
+        "rv_islam": 0.0984,
+        "rv_christianity": 0.0966,
+        "rv_buddhism": 1.0,
+        "rv_judaism": 0.1176,
+        "rv_hinduism": 0.2308,
+        "rv_sikhism": 0.0161,
+        "rv_confucianism": 0.0706,
+        "rv_taoism": 0.0385,
+        "rv_shinto": 0.0179,
+        "rv_jainism": 0.0246,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0185,
+        "rv_ubuntu": 0.0455,
+        "rv_indigenous": 0.0225
+      },
+      "rv_judaism": {
+        "rv_islam": 0.1348,
+        "rv_christianity": 0.0962,
+        "rv_buddhism": 0.1176,
+        "rv_judaism": 1.0,
+        "rv_hinduism": 0.13,
+        "rv_sikhism": 0.0159,
+        "rv_confucianism": 0.011,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.008,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0
+      },
+      "rv_hinduism": {
+        "rv_islam": 0.1406,
+        "rv_christianity": 0.0731,
+        "rv_buddhism": 0.2308,
+        "rv_judaism": 0.13,
+        "rv_hinduism": 1.0,
+        "rv_sikhism": 0.0385,
+        "rv_confucianism": 0.0381,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0438,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0116,
+        "rv_indigenous": 0.0093
+      },
+      "rv_sikhism": {
+        "rv_islam": 0.018,
+        "rv_christianity": 0.0044,
+        "rv_buddhism": 0.0161,
+        "rv_judaism": 0.0159,
+        "rv_hinduism": 0.0385,
+        "rv_sikhism": 1.0,
+        "rv_confucianism": 0.0169,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0562,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0
+      },
+      "rv_confucianism": {
+        "rv_islam": 0.0421,
+        "rv_christianity": 0.0531,
+        "rv_buddhism": 0.0706,
+        "rv_judaism": 0.011,
+        "rv_hinduism": 0.0381,
+        "rv_sikhism": 0.0169,
+        "rv_confucianism": 1.0,
+        "rv_taoism": 0.0408,
+        "rv_shinto": 0.0385,
+        "rv_jainism": 0.0252,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0476,
+        "rv_indigenous": 0.0233
+      },
+      "rv_taoism": {
+        "rv_islam": 0.0,
+        "rv_christianity": 0.0,
+        "rv_buddhism": 0.0385,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 0.0,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0408,
+        "rv_taoism": 1.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0741,
+        "rv_indigenous": 0.02
+      },
+      "rv_shinto": {
+        "rv_islam": 0.0,
+        "rv_christianity": 0.0,
+        "rv_buddhism": 0.0179,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 0.0,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0385,
+        "rv_taoism": 0.0,
+        "rv_shinto": 1.0,
+        "rv_jainism": 0.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0
+      },
+      "rv_jainism": {
+        "rv_islam": 0.0357,
+        "rv_christianity": 0.0391,
+        "rv_buddhism": 0.0246,
+        "rv_judaism": 0.008,
+        "rv_hinduism": 0.0438,
+        "rv_sikhism": 0.0562,
+        "rv_confucianism": 0.0252,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 1.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0118,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0
+      },
+      "rv_bahai": {
+        "rv_islam": 0.0,
+        "rv_christianity": 0.0,
+        "rv_buddhism": 0.0,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 0.0,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0,
+        "rv_bahai": 1.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0
+      },
+      "rv_zoroastrianism": {
+        "rv_islam": 0.0062,
+        "rv_christianity": 0.0091,
+        "rv_buddhism": 0.0185,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 0.0,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0118,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 1.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0
+      },
+      "rv_ubuntu": {
+        "rv_islam": 0.0,
+        "rv_christianity": 0.0216,
+        "rv_buddhism": 0.0455,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 0.0116,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0476,
+        "rv_taoism": 0.0741,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 1.0,
+        "rv_indigenous": 0.0645
+      },
+      "rv_indigenous": {
+        "rv_islam": 0.0,
+        "rv_christianity": 0.0198,
+        "rv_buddhism": 0.0225,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 0.0093,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0233,
+        "rv_taoism": 0.02,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0645,
+        "rv_indigenous": 1.0
+      }
+    },
+    "top_pairs": [
+      {
+        "tradition_1": "rv_islam",
+        "tradition_2": "rv_christianity",
+        "count": 48,
+        "jaccard": 0.15
+      },
+      {
+        "tradition_1": "rv_islam",
+        "tradition_2": "rv_hinduism",
+        "count": 27,
+        "jaccard": 0.1406
+      },
+      {
+        "tradition_1": "rv_islam",
+        "tradition_2": "rv_judaism",
+        "count": 24,
+        "jaccard": 0.1348
+      },
+      {
+        "tradition_1": "rv_christianity",
+        "tradition_2": "rv_buddhism",
+        "count": 23,
+        "jaccard": 0.0966
+      },
+      {
+        "tradition_1": "rv_christianity",
+        "tradition_2": "rv_judaism",
+        "count": 23,
+        "jaccard": 0.0962
+      },
+      {
+        "tradition_1": "rv_buddhism",
+        "tradition_2": "rv_hinduism",
+        "count": 21,
+        "jaccard": 0.2308
+      },
+      {
+        "tradition_1": "rv_christianity",
+        "tradition_2": "rv_hinduism",
+        "count": 19,
+        "jaccard": 0.0731
+      },
+      {
+        "tradition_1": "rv_islam",
+        "tradition_2": "rv_buddhism",
+        "count": 18,
+        "jaccard": 0.0984
+      },
+      {
+        "tradition_1": "rv_christianity",
+        "tradition_2": "rv_confucianism",
+        "count": 13,
+        "jaccard": 0.0531
+      },
+      {
+        "tradition_1": "rv_judaism",
+        "tradition_2": "rv_hinduism",
+        "count": 13,
+        "jaccard": 0.13
+      },
+      {
+        "tradition_1": "rv_christianity",
+        "tradition_2": "rv_jainism",
+        "count": 11,
+        "jaccard": 0.0391
+      },
+      {
+        "tradition_1": "rv_buddhism",
+        "tradition_2": "rv_judaism",
+        "count": 10,
+        "jaccard": 0.1176
+      },
+      {
+        "tradition_1": "rv_islam",
+        "tradition_2": "rv_confucianism",
+        "count": 8,
+        "jaccard": 0.0421
+      },
+      {
+        "tradition_1": "rv_islam",
+        "tradition_2": "rv_jainism",
+        "count": 8,
+        "jaccard": 0.0357
+      },
+      {
+        "tradition_1": "rv_buddhism",
+        "tradition_2": "rv_confucianism",
+        "count": 6,
+        "jaccard": 0.0706
+      },
+      {
+        "tradition_1": "rv_hinduism",
+        "tradition_2": "rv_jainism",
+        "count": 6,
+        "jaccard": 0.0438
+      },
+      {
+        "tradition_1": "rv_christianity",
+        "tradition_2": "rv_ubuntu",
+        "count": 5,
+        "jaccard": 0.0216
+      },
+      {
+        "tradition_1": "rv_christianity",
+        "tradition_2": "rv_indigenous",
+        "count": 5,
+        "jaccard": 0.0198
+      },
+      {
+        "tradition_1": "rv_sikhism",
+        "tradition_2": "rv_jainism",
+        "count": 5,
+        "jaccard": 0.0562
+      },
+      {
+        "tradition_1": "rv_hinduism",
+        "tradition_2": "rv_confucianism",
+        "count": 4,
+        "jaccard": 0.0381
+      }
+    ]
+  },
+  "temporal_trends": {
+    "year_totals": {
+      "1970": 1,
+      "2010": 1,
+      "2012": 1,
+      "2013": 1,
+      "2014": 2,
+      "2016": 4,
+      "2018": 5,
+      "2019": 7,
+      "2020": 15,
+      "2021": 18,
+      "2022": 35,
+      "2023": 52,
+      "2024": 134,
+      "2025": 256,
+      "2026": 20
+    },
+    "year_over_year_growth_pct": {
+      "1970": null,
+      "2010": 0.0,
+      "2012": 0.0,
+      "2013": 0.0,
+      "2014": 100.0,
+      "2016": 100.0,
+      "2018": 25.0,
+      "2019": 40.0,
+      "2020": 114.3,
+      "2021": 20.0,
+      "2022": 94.4,
+      "2023": 48.6,
+      "2024": 157.7,
+      "2025": 91.0,
+      "2026": -92.2
+    },
+    "tradition_by_year": {
+      "rv_islam": {
+        "2014": 1,
+        "2016": 1,
+        "2018": 2,
+        "2019": 2,
+        "2020": 2,
+        "2021": 6,
+        "2022": 10,
+        "2023": 19,
+        "2024": 34,
+        "2025": 73,
+        "2026": 4
+      },
+      "rv_christianity": {
+        "2016": 4,
+        "2018": 3,
+        "2019": 5,
+        "2020": 4,
+        "2021": 6,
+        "2022": 17,
+        "2023": 20,
+        "2024": 55,
+        "2025": 96,
+        "2026": 4
+      },
+      "rv_buddhism": {
+        "2016": 1,
+        "2021": 2,
+        "2022": 5,
+        "2023": 3,
+        "2024": 10,
+        "2025": 23,
+        "2026": 3
+      },
+      "rv_judaism": {
+        "1970": 1,
+        "2018": 1,
+        "2020": 1,
+        "2021": 4,
+        "2022": 3,
+        "2023": 7,
+        "2024": 10,
+        "2025": 21
+      },
+      "rv_hinduism": {
+        "2016": 1,
+        "2021": 2,
+        "2022": 3,
+        "2023": 3,
+        "2024": 17,
+        "2025": 33,
+        "2026": 6
+      },
+      "rv_sikhism": {
+        "2010": 1,
+        "2016": 1,
+        "2021": 1,
+        "2022": 1,
+        "2024": 1,
+        "2025": 11
+      },
+      "rv_confucianism": {
+        "2018": 1,
+        "2020": 2,
+        "2021": 2,
+        "2022": 2,
+        "2023": 3,
+        "2024": 14,
+        "2025": 19,
+        "2026": 1
+      },
+      "rv_taoism": {
+        "2024": 3,
+        "2025": 4
+      },
+      "rv_shinto": {
+        "2013": 1,
+        "2020": 3,
+        "2021": 1,
+        "2023": 1,
+        "2024": 1,
+        "2025": 3
+      },
+      "rv_jainism": {
+        "2020": 2,
+        "2021": 1,
+        "2022": 3,
+        "2023": 3,
+        "2024": 27,
+        "2025": 38,
+        "2026": 4
+      },
+      "rv_bahai": {
+        "2023": 1
+      },
+      "rv_zoroastrianism": {
+        "2012": 1,
+        "2014": 1,
+        "2024": 1,
+        "2025": 5
+      },
+      "rv_ubuntu": {
+        "2020": 1,
+        "2022": 2,
+        "2023": 1,
+        "2024": 4,
+        "2025": 12,
+        "2026": 2
+      },
+      "rv_indigenous": {
+        "2018": 1,
+        "2020": 2,
+        "2021": 1,
+        "2022": 2,
+        "2023": 3,
+        "2024": 13,
+        "2025": 22
+      }
+    },
+    "per_year_detail": {
+      "1970": {
+        "rv_judaism": 1
+      },
+      "2010": {
+        "rv_sikhism": 1
+      },
+      "2012": {
+        "rv_zoroastrianism": 1
+      },
+      "2013": {
+        "rv_shinto": 1
+      },
+      "2014": {
+        "rv_islam": 1,
+        "rv_zoroastrianism": 1
+      },
+      "2016": {
+        "rv_christianity": 4,
+        "rv_buddhism": 1,
+        "rv_sikhism": 1,
+        "rv_hinduism": 1,
+        "rv_islam": 1
+      },
+      "2018": {
+        "rv_islam": 2,
+        "rv_judaism": 1,
+        "rv_christianity": 3,
+        "rv_confucianism": 1,
+        "rv_indigenous": 1
+      },
+      "2019": {
+        "rv_christianity": 5,
+        "rv_islam": 2
+      },
+      "2020": {
+        "rv_confucianism": 2,
+        "rv_islam": 2,
+        "rv_shinto": 3,
+        "rv_indigenous": 2,
+        "rv_christianity": 4,
+        "rv_jainism": 2,
+        "rv_judaism": 1,
+        "rv_ubuntu": 1
+      },
+      "2021": {
+        "rv_confucianism": 2,
+        "rv_islam": 6,
+        "rv_christianity": 6,
+        "rv_judaism": 4,
+        "rv_indigenous": 1,
+        "rv_sikhism": 1,
+        "rv_shinto": 1,
+        "rv_jainism": 1,
+        "rv_hinduism": 2,
+        "rv_buddhism": 2
+      },
+      "2022": {
+        "rv_islam": 10,
+        "rv_christianity": 17,
+        "rv_jainism": 3,
+        "rv_judaism": 3,
+        "rv_ubuntu": 2,
+        "rv_buddhism": 5,
+        "rv_confucianism": 2,
+        "rv_hinduism": 3,
+        "rv_sikhism": 1,
+        "rv_indigenous": 2
+      },
+      "2023": {
+        "rv_islam": 19,
+        "rv_judaism": 7,
+        "rv_christianity": 20,
+        "rv_jainism": 3,
+        "rv_hinduism": 3,
+        "rv_buddhism": 3,
+        "rv_confucianism": 3,
+        "rv_shinto": 1,
+        "rv_ubuntu": 1,
+        "rv_indigenous": 3,
+        "rv_bahai": 1
+      },
+      "2024": {
+        "rv_islam": 34,
+        "rv_christianity": 55,
+        "rv_judaism": 10,
+        "rv_jainism": 27,
+        "rv_hinduism": 17,
+        "rv_confucianism": 14,
+        "rv_indigenous": 13,
+        "rv_taoism": 3,
+        "rv_buddhism": 10,
+        "rv_sikhism": 1,
+        "rv_zoroastrianism": 1,
+        "rv_ubuntu": 4,
+        "rv_shinto": 1
+      },
+      "2025": {
+        "rv_jainism": 38,
+        "rv_sikhism": 11,
+        "rv_hinduism": 33,
+        "rv_islam": 73,
+        "rv_confucianism": 19,
+        "rv_christianity": 96,
+        "rv_ubuntu": 12,
+        "rv_buddhism": 23,
+        "rv_judaism": 21,
+        "rv_indigenous": 22,
+        "rv_taoism": 4,
+        "rv_zoroastrianism": 5,
+        "rv_shinto": 3
+      },
+      "2026": {
+        "rv_hinduism": 6,
+        "rv_islam": 4,
+        "rv_christianity": 4,
+        "rv_ubuntu": 2,
+        "rv_buddhism": 3,
+        "rv_jainism": 4,
+        "rv_confucianism": 1
+      }
+    }
+  },
+  "benchmark_intersection": {
+    "count": 0,
+    "papers": []
+  }
+}

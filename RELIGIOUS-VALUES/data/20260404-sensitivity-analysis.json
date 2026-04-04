@@ -1,0 +1,1886 @@
+{
+  "generated": "20260404",
+  "input_matrix": "20260404-religious-benchmark-feature-matrix-v2.json",
+  "baseline": {
+    "weights": {
+      "w_rd": 0.4,
+      "w_pe": 0.35,
+      "w_ci": 0.25
+    },
+    "rd_gate": 30,
+    "gate_passers": 47,
+    "composite_spread": 22.3
+  },
+  "weight_sensitivity": {
+    "combinations_tested": 61,
+    "baseline_weights": {
+      "w_rd": 0.4,
+      "w_pe": 0.35,
+      "w_ci": 0.25
+    },
+    "benchmark_robustness": [
+      {
+        "id": 1,
+        "short_title": "Leveraging Large Language Models for Detecting",
+        "pct_in_top15": 1.0,
+        "rank_range": [
+          1,
+          4
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 2,
+        "short_title": "Building Domain-Specific LLMs Faithful To The",
+        "pct_in_top15": 1.0,
+        "rank_range": [
+          1,
+          3
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 3,
+        "short_title": "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs",
+        "pct_in_top15": 1.0,
+        "rank_range": [
+          1,
+          13
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 4,
+        "short_title": "AceGPT, Localizing Large Language Models in Arabic",
+        "pct_in_top15": 1.0,
+        "rank_range": [
+          3,
+          7
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 6,
+        "short_title": "Addressing Religious Hate Online From Taxonomy",
+        "pct_in_top15": 1.0,
+        "rank_range": [
+          5,
+          9
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 8,
+        "short_title": "PapersPlease",
+        "pct_in_top15": 1.0,
+        "rank_range": [
+          4,
+          14
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 5,
+        "short_title": "Semantic and Sentiment Analysis of Selected",
+        "pct_in_top15": 0.9508,
+        "rank_range": [
+          2,
+          17
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 7,
+        "short_title": "Challenging the Transformer-based Models with a",
+        "pct_in_top15": 0.9508,
+        "rank_range": [
+          3,
+          17
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 10,
+        "short_title": "The PRISM Alignment Project",
+        "pct_in_top15": 0.9344,
+        "rank_range": [
+          6,
+          19
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 13,
+        "short_title": "Sometimes the Model doth Preach Quantifying",
+        "pct_in_top15": 0.8689,
+        "rank_range": [
+          8,
+          18
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 11,
+        "short_title": "HAQA and QUQA Constructing Two Arabic",
+        "pct_in_top15": 0.8197,
+        "rank_range": [
+          4,
+          22
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 16,
+        "short_title": "Ancient Wisdom Modern Tools Exploring Retrieval-Augmented",
+        "pct_in_top15": 0.8197,
+        "rank_range": [
+          8,
+          21
+        ],
+        "category": "robust"
+      },
+      {
+        "id": 15,
+        "short_title": "Subverting the Jewtocracy Online Antisemitism Detection",
+        "pct_in_top15": 0.7869,
+        "rank_range": [
+          7,
+          27
+        ],
+        "category": "moderate"
+      },
+      {
+        "id": 17,
+        "short_title": "WYWEB: A NLP Evaluation Benchmark For Classical Chinese",
+        "pct_in_top15": 0.4918,
+        "rank_range": [
+          9,
+          33
+        ],
+        "category": "moderate"
+      },
+      {
+        "id": 18,
+        "short_title": "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models",
+        "pct_in_top15": 0.4918,
+        "rank_range": [
+          9,
+          32
+        ],
+        "category": "moderate"
+      },
+      {
+        "id": 26,
+        "short_title": "FaithBench AI Benchmark for Christian Theology",
+        "pct_in_top15": 0.3934,
+        "rank_range": [
+          2,
+          45
+        ],
+        "category": "moderate"
+      },
+      {
+        "id": 19,
+        "short_title": "Quran-MD A Fine-Grained Multilingual Multimodal Dataset",
+        "pct_in_top15": 0.3443,
+        "rank_range": [
+          10,
+          34
+        ],
+        "category": "moderate"
+      },
+      {
+        "id": 29,
+        "short_title": "The Gospel Coalition AI Christian Benchmark",
+        "pct_in_top15": 0.2623,
+        "rank_range": [
+          9,
+          34
+        ],
+        "category": "fragile"
+      },
+      {
+        "id": 21,
+        "short_title": "IslamTrust A Benchmark for LLMs Alignment",
+        "pct_in_top15": 0.1967,
+        "rank_range": [
+          11,
+          37
+        ],
+        "category": "fragile"
+      },
+      {
+        "id": 22,
+        "short_title": "Optimized Quran Passage Retrieval Using an",
+        "pct_in_top15": 0.1967,
+        "rank_range": [
+          10,
+          37
+        ],
+        "category": "fragile"
+      },
+      {
+        "id": 20,
+        "short_title": "SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala",
+        "pct_in_top15": 0.1803,
+        "rank_range": [
+          12,
+          35
+        ],
+        "category": "fragile"
+      },
+      {
+        "id": 44,
+        "short_title": "Islam QA",
+        "pct_in_top15": 0.1311,
+        "rank_range": [
+          12,
+          42
+        ],
+        "category": "fragile"
+      },
+      {
+        "id": 24,
+        "short_title": "One Model is All You Need",
+        "pct_in_top15": 0.0984,
+        "rank_range": [
+          13,
+          38
+        ],
+        "category": "fragile"
+      },
+      {
+        "id": 27,
+        "short_title": "SEA-Guard Culturally Grounded Multilingual Safeguard for",
+        "pct_in_top15": 0.0328,
+        "rank_range": [
+          14,
+          40
+        ],
+        "category": "fragile"
+      },
+      {
+        "id": 40,
+        "short_title": "BaniDB Shabad OS Digital Gurbani Database",
+        "pct_in_top15": 0.0328,
+        "rank_range": [
+          15,
+          36
+        ],
+        "category": "fragile"
+      },
+      {
+        "id": 35,
+        "short_title": "BuddhismEval A Bilingual Benchmark for Buddhist",
+        "pct_in_top15": 0.0164,
+        "rank_range": [
+          15,
+          39
+        ],
+        "category": "fragile"
+      },
+      {
+        "id": 23,
+        "short_title": "MITRA A Large-Scale Parallel Corpus and",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          19,
+          28
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 31,
+        "short_title": "The eBible Corpus Data and Model",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          19,
+          30
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 38,
+        "short_title": "Fabricated Hadith Detection A Novel Matn-Based",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          16,
+          40
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 41,
+        "short_title": "GurbaniDB",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          16,
+          37
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 42,
+        "short_title": "REDDITBIAS",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          21,
+          38
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 43,
+        "short_title": "DharmicData Comprehensive Open-Source Collection of Hindu",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          17,
+          38
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 46,
+        "short_title": "The Vedic Compound Dataset",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          25,
+          37
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 55,
+        "short_title": "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          18,
+          39
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 56,
+        "short_title": "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          18,
+          43
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 60,
+        "short_title": "ValueNet",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          23,
+          43
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 62,
+        "short_title": "Finding Answers from the Word of God",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          29,
+          41
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 82,
+        "short_title": "Exploring Similarity Measures and Intertextuality in",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          35,
+          42
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 99,
+        "short_title": "Multi-IsnadSet MIS for Sahih Muslim Hadith",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          20,
+          44
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 105,
+        "short_title": "MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          18,
+          45
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 106,
+        "short_title": "Benchmarking Vision Language Models for Cultural Understanding",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          20,
+          45
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 111,
+        "short_title": "QASiNa",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          36,
+          44
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 131,
+        "short_title": "Cross-cultural dataset for the evolution of",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          20,
+          46
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 143,
+        "short_title": "A Data-Driven Exploration of a New Islamic Fatwas",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          39,
+          45
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 144,
+        "short_title": "FatwaSet",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          40,
+          46
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 150,
+        "short_title": "Sanadset 650K Data on Hadith Narrators",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          28,
+          46
+        ],
+        "category": "never_top15"
+      },
+      {
+        "id": 234,
+        "short_title": "CatholicBench",
+        "pct_in_top15": 0.0,
+        "rank_range": [
+          47,
+          47
+        ],
+        "category": "never_top15"
+      }
+    ],
+    "kendall_tau_distribution": {
+      "mean": 0.7732,
+      "std": 0.0934,
+      "min": 0.5578,
+      "max": 1.0,
+      "median": 0.7743
+    }
+  },
+  "gate_threshold": {
+    "thresholds_tested": [
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "results": [
+      {
+        "threshold": 15,
+        "gate_passers": 215,
+        "traditions_represented": 12,
+        "void_traditions_gained": [
+          "Indigenous Spirituality",
+          "Jainism",
+          "Judaism",
+          "Taoism",
+          "Ubuntu Philosophy"
+        ],
+        "tradition_detail": {
+          "Buddhism": 11,
+          "Christianity": 72,
+          "Confucianism": 10,
+          "Hinduism": 9,
+          "Indigenous Spirituality": 1,
+          "Islam": 62,
+          "Jainism": 33,
+          "Judaism": 5,
+          "Sikhism": 3,
+          "Taoism": 2,
+          "Ubuntu Philosophy": 3,
+          "Unknown": 4
+        }
+      },
+      {
+        "threshold": 20,
+        "gate_passers": 92,
+        "traditions_represented": 8,
+        "void_traditions_gained": [
+          "Jainism",
+          "Judaism"
+        ],
+        "tradition_detail": {
+          "Buddhism": 8,
+          "Christianity": 21,
+          "Confucianism": 7,
+          "Hinduism": 5,
+          "Islam": 46,
+          "Jainism": 2,
+          "Judaism": 1,
+          "Sikhism": 2
+        }
+      },
+      {
+        "threshold": 25,
+        "gate_passers": 70,
+        "traditions_represented": 6,
+        "void_traditions_gained": [],
+        "tradition_detail": {
+          "Buddhism": 7,
+          "Christianity": 14,
+          "Confucianism": 6,
+          "Hinduism": 4,
+          "Islam": 37,
+          "Sikhism": 2
+        }
+      },
+      {
+        "threshold": 30,
+        "gate_passers": 47,
+        "traditions_represented": 6,
+        "void_traditions_gained": [],
+        "tradition_detail": {
+          "Buddhism": 6,
+          "Christianity": 6,
+          "Confucianism": 1,
+          "Hinduism": 4,
+          "Islam": 28,
+          "Sikhism": 2
+        }
+      },
+      {
+        "threshold": 35,
+        "gate_passers": 30,
+        "traditions_represented": 6,
+        "void_traditions_gained": [],
+        "tradition_detail": {
+          "Buddhism": 2,
+          "Christianity": 4,
+          "Confucianism": 1,
+          "Hinduism": 4,
+          "Islam": 17,
+          "Sikhism": 2
+        }
+      },
+      {
+        "threshold": 40,
+        "gate_passers": 15,
+        "traditions_represented": 5,
+        "void_traditions_gained": [],
+        "tradition_detail": {
+          "Christianity": 2,
+          "Confucianism": 1,
+          "Hinduism": 2,
+          "Islam": 8,
+          "Sikhism": 2
+        }
+      },
+      {
+        "threshold": 45,
+        "gate_passers": 7,
+        "traditions_represented": 3,
+        "void_traditions_gained": [],
+        "tradition_detail": {
+          "Christianity": 2,
+          "Hinduism": 1,
+          "Islam": 4
+        }
+      },
+      {
+        "threshold": 50,
+        "gate_passers": 2,
+        "traditions_represented": 2,
+        "void_traditions_gained": [],
+        "tradition_detail": {
+          "Christianity": 1,
+          "Islam": 1
+        }
+      }
+    ]
+  },
+  "bootstrap": {
+    "n_iterations": 10000,
+    "concentration_alpha": 20.0,
+    "weight_sample_stats": {
+      "RD_mean": 0.4008,
+      "RD_std": 0.1073,
+      "PE_mean": 0.3491,
+      "PE_std": 0.1048,
+      "CI_mean": 0.2502,
+      "CI_std": 0.0941
+    },
+    "summary": {
+      "certain_top15": 9,
+      "likely_top15": 6,
+      "contested_top15": 8,
+      "never_top15": 24,
+      "avg_composite_ci_width": 15.87,
+      "median_composite_ci_width": 16.78
+    },
+    "benchmark_cis": [
+      {
+        "id": 1,
+        "short_title": "Leveraging Large Language Models for Detecting",
+        "composite_mean": 51.96,
+        "composite_ci_lower": 44.5,
+        "composite_ci_upper": 57.97,
+        "composite_ci_width": 13.47,
+        "rank_mean": 1.4,
+        "rank_ci_lower": 1,
+        "rank_ci_upper": 4,
+        "prob_in_top15": 1.0
+      },
+      {
+        "id": 2,
+        "short_title": "Building Domain-Specific LLMs Faithful To The",
+        "composite_mean": 50.42,
+        "composite_ci_lower": 41.94,
+        "composite_ci_upper": 59.13,
+        "composite_ci_width": 17.19,
+        "rank_mean": 1.8,
+        "rank_ci_lower": 1,
+        "rank_ci_upper": 3,
+        "prob_in_top15": 1.0
+      },
+      {
+        "id": 4,
+        "short_title": "AceGPT, Localizing Large Language Models in Arabic",
+        "composite_mean": 47.37,
+        "composite_ci_lower": 39.27,
+        "composite_ci_upper": 55.99,
+        "composite_ci_width": 16.71,
+        "rank_mean": 4.7,
+        "rank_ci_lower": 3,
+        "rank_ci_upper": 7,
+        "prob_in_top15": 0.9994
+      },
+      {
+        "id": 6,
+        "short_title": "Addressing Religious Hate Online From Taxonomy",
+        "composite_mean": 46.84,
+        "composite_ci_lower": 39.02,
+        "composite_ci_upper": 55.12,
+        "composite_ci_width": 16.1,
+        "rank_mean": 6.1,
+        "rank_ci_lower": 5,
+        "rank_ci_upper": 9,
+        "prob_in_top15": 0.9993
+      },
+      {
+        "id": 8,
+        "short_title": "PapersPlease",
+        "composite_mean": 45.37,
+        "composite_ci_lower": 36.0,
+        "composite_ci_upper": 54.46,
+        "composite_ci_width": 18.46,
+        "rank_mean": 9.0,
+        "rank_ci_lower": 6,
+        "rank_ci_upper": 13,
+        "prob_in_top15": 0.997
+      },
+      {
+        "id": 3,
+        "short_title": "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs",
+        "composite_mean": 47.81,
+        "composite_ci_lower": 38.27,
+        "composite_ci_upper": 58.45,
+        "composite_ci_width": 20.19,
+        "rank_mean": 4.8,
+        "rank_ci_lower": 2,
+        "rank_ci_upper": 13,
+        "prob_in_top15": 0.9899
+      },
+      {
+        "id": 5,
+        "short_title": "Semantic and Sentiment Analysis of Selected",
+        "composite_mean": 47.12,
+        "composite_ci_lower": 35.53,
+        "composite_ci_upper": 57.45,
+        "composite_ci_width": 21.92,
+        "rank_mean": 6.0,
+        "rank_ci_lower": 3,
+        "rank_ci_upper": 16,
+        "prob_in_top15": 0.9727
+      },
+      {
+        "id": 7,
+        "short_title": "Challenging the Transformer-based Models with a",
+        "composite_mean": 46.26,
+        "composite_ci_lower": 40.16,
+        "composite_ci_upper": 51.49,
+        "composite_ci_width": 11.33,
+        "rank_mean": 7.1,
+        "rank_ci_lower": 3,
+        "rank_ci_upper": 17,
+        "prob_in_top15": 0.9528
+      },
+      {
+        "id": 10,
+        "short_title": "The PRISM Alignment Project",
+        "composite_mean": 45.01,
+        "composite_ci_lower": 36.87,
+        "composite_ci_upper": 53.96,
+        "composite_ci_width": 17.09,
+        "rank_mean": 9.7,
+        "rank_ci_lower": 6,
+        "rank_ci_upper": 19,
+        "prob_in_top15": 0.9525
+      },
+      {
+        "id": 13,
+        "short_title": "Sometimes the Model doth Preach Quantifying",
+        "composite_mean": 44.2,
+        "composite_ci_lower": 35.43,
+        "composite_ci_upper": 52.35,
+        "composite_ci_width": 16.93,
+        "rank_mean": 12.1,
+        "rank_ci_lower": 9,
+        "rank_ci_upper": 17,
+        "prob_in_top15": 0.9116
+      },
+      {
+        "id": 16,
+        "short_title": "Ancient Wisdom Modern Tools Exploring Retrieval-Augmented",
+        "composite_mean": 43.95,
+        "composite_ci_lower": 37.12,
+        "composite_ci_upper": 51.19,
+        "composite_ci_width": 14.07,
+        "rank_mean": 12.6,
+        "rank_ci_lower": 9,
+        "rank_ci_upper": 19,
+        "prob_in_top15": 0.9007
+      },
+      {
+        "id": 11,
+        "short_title": "HAQA and QUQA Constructing Two Arabic",
+        "composite_mean": 44.66,
+        "composite_ci_lower": 38.78,
+        "composite_ci_upper": 50.1,
+        "composite_ci_width": 11.33,
+        "rank_mean": 11.0,
+        "rank_ci_lower": 5,
+        "rank_ci_upper": 21,
+        "prob_in_top15": 0.8652
+      },
+      {
+        "id": 15,
+        "short_title": "Subverting the Jewtocracy Online Antisemitism Detection",
+        "composite_mean": 44.09,
+        "composite_ci_lower": 36.19,
+        "composite_ci_upper": 52.83,
+        "composite_ci_width": 16.64,
+        "rank_mean": 12.5,
+        "rank_ci_lower": 7,
+        "rank_ci_upper": 24,
+        "prob_in_top15": 0.8401
+      },
+      {
+        "id": 17,
+        "short_title": "WYWEB: A NLP Evaluation Benchmark For Classical Chinese",
+        "composite_mean": 43.04,
+        "composite_ci_lower": 35.66,
+        "composite_ci_upper": 51.14,
+        "composite_ci_width": 15.48,
+        "rank_mean": 16.5,
+        "rank_ci_lower": 10,
+        "rank_ci_upper": 30,
+        "prob_in_top15": 0.5355
+      },
+      {
+        "id": 18,
+        "short_title": "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models",
+        "composite_mean": 42.86,
+        "composite_ci_lower": 33.15,
+        "composite_ci_upper": 53.03,
+        "composite_ci_width": 19.88,
+        "rank_mean": 16.2,
+        "rank_ci_lower": 9,
+        "rank_ci_upper": 29,
+        "prob_in_top15": 0.5182
+      },
+      {
+        "id": 26,
+        "short_title": "FaithBench AI Benchmark for Christian Theology",
+        "composite_mean": 41.56,
+        "composite_ci_lower": 31.94,
+        "composite_ci_upper": 50.05,
+        "composite_ci_width": 18.11,
+        "rank_mean": 22.3,
+        "rank_ci_lower": 2,
+        "rank_ci_upper": 45,
+        "prob_in_top15": 0.3862
+      },
+      {
+        "id": 19,
+        "short_title": "Quran-MD A Fine-Grained Multilingual Multimodal Dataset",
+        "composite_mean": 42.2,
+        "composite_ci_lower": 36.72,
+        "composite_ci_upper": 47.7,
+        "composite_ci_width": 10.98,
+        "rank_mean": 19.3,
+        "rank_ci_lower": 11,
+        "rank_ci_upper": 32,
+        "prob_in_top15": 0.2921
+      },
+      {
+        "id": 29,
+        "short_title": "The Gospel Coalition AI Christian Benchmark",
+        "composite_mean": 41.18,
+        "composite_ci_lower": 32.0,
+        "composite_ci_upper": 48.48,
+        "composite_ci_width": 16.48,
+        "rank_mean": 22.1,
+        "rank_ci_lower": 8,
+        "rank_ci_upper": 34,
+        "prob_in_top15": 0.2295
+      },
+      {
+        "id": 21,
+        "short_title": "IslamTrust A Benchmark for LLMs Alignment",
+        "composite_mean": 41.94,
+        "composite_ci_lower": 32.49,
+        "composite_ci_upper": 51.87,
+        "composite_ci_width": 19.38,
+        "rank_mean": 21.0,
+        "rank_ci_lower": 12,
+        "rank_ci_upper": 35,
+        "prob_in_top15": 0.1365
+      },
+      {
+        "id": 20,
+        "short_title": "SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala",
+        "composite_mean": 42.09,
+        "composite_ci_lower": 32.77,
+        "composite_ci_upper": 51.81,
+        "composite_ci_width": 19.04,
+        "rank_mean": 19.6,
+        "rank_ci_lower": 13,
+        "rank_ci_upper": 32,
+        "prob_in_top15": 0.1304
+      },
+      {
+        "id": 22,
+        "short_title": "Optimized Quran Passage Retrieval Using an",
+        "composite_mean": 41.52,
+        "composite_ci_lower": 31.17,
+        "composite_ci_upper": 51.33,
+        "composite_ci_width": 20.17,
+        "rank_mean": 21.6,
+        "rank_ci_lower": 13,
+        "rank_ci_upper": 34,
+        "prob_in_top15": 0.1011
+      },
+      {
+        "id": 44,
+        "short_title": "Islam QA",
+        "composite_mean": 39.89,
+        "composite_ci_lower": 31.09,
+        "composite_ci_upper": 46.93,
+        "composite_ci_width": 15.84,
+        "rank_mean": 28.9,
+        "rank_ci_lower": 13,
+        "rank_ci_upper": 40,
+        "prob_in_top15": 0.098
+      },
+      {
+        "id": 24,
+        "short_title": "One Model is All You Need",
+        "composite_mean": 41.47,
+        "composite_ci_lower": 34.93,
+        "composite_ci_upper": 48.63,
+        "composite_ci_width": 13.7,
+        "rank_mean": 23.2,
+        "rank_ci_lower": 13,
+        "rank_ci_upper": 36,
+        "prob_in_top15": 0.0619
+      },
+      {
+        "id": 27,
+        "short_title": "SEA-Guard Culturally Grounded Multilingual Safeguard for",
+        "composite_mean": 41.43,
+        "composite_ci_lower": 31.98,
+        "composite_ci_upper": 51.42,
+        "composite_ci_width": 19.44,
+        "rank_mean": 24.0,
+        "rank_ci_lower": 15,
+        "rank_ci_upper": 38,
+        "prob_in_top15": 0.0398
+      },
+      {
+        "id": 35,
+        "short_title": "BuddhismEval A Bilingual Benchmark for Buddhist",
+        "composite_mean": 40.56,
+        "composite_ci_lower": 34.32,
+        "composite_ci_upper": 47.41,
+        "composite_ci_width": 13.09,
+        "rank_mean": 27.7,
+        "rank_ci_lower": 16,
+        "rank_ci_upper": 39,
+        "prob_in_top15": 0.0218
+      },
+      {
+        "id": 43,
+        "short_title": "DharmicData Comprehensive Open-Source Collection of Hindu",
+        "composite_mean": 39.93,
+        "composite_ci_lower": 30.77,
+        "composite_ci_upper": 47.57,
+        "composite_ci_width": 16.8,
+        "rank_mean": 29.1,
+        "rank_ci_lower": 16,
+        "rank_ci_upper": 35,
+        "prob_in_top15": 0.0212
+      },
+      {
+        "id": 41,
+        "short_title": "GurbaniDB",
+        "composite_mean": 39.93,
+        "composite_ci_lower": 30.77,
+        "composite_ci_upper": 47.57,
+        "composite_ci_width": 16.8,
+        "rank_mean": 28.7,
+        "rank_ci_lower": 16,
+        "rank_ci_upper": 36,
+        "prob_in_top15": 0.0183
+      },
+      {
+        "id": 40,
+        "short_title": "BaniDB Shabad OS Digital Gurbani Database",
+        "composite_mean": 39.93,
+        "composite_ci_lower": 30.77,
+        "composite_ci_upper": 47.57,
+        "composite_ci_width": 16.8,
+        "rank_mean": 28.4,
+        "rank_ci_lower": 16,
+        "rank_ci_upper": 36,
+        "prob_in_top15": 0.018
+      },
+      {
+        "id": 131,
+        "short_title": "Cross-cultural dataset for the evolution of",
+        "composite_mean": 35.95,
+        "composite_ci_lower": 28.19,
+        "composite_ci_upper": 42.13,
+        "composite_ci_width": 13.94,
+        "rank_mean": 41.1,
+        "rank_ci_lower": 21,
+        "rank_ci_upper": 46,
+        "prob_in_top15": 0.0058
+      },
+      {
+        "id": 105,
+        "short_title": "MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset",
+        "composite_mean": 37.02,
+        "composite_ci_lower": 33.57,
+        "composite_ci_upper": 39.97,
+        "composite_ci_width": 6.4,
+        "rank_mean": 38.4,
+        "rank_ci_lower": 19,
+        "rank_ci_upper": 45,
+        "prob_in_top15": 0.0025
+      },
+      {
+        "id": 99,
+        "short_title": "Multi-IsnadSet MIS for Sahih Muslim Hadith",
+        "composite_mean": 37.26,
+        "composite_ci_lower": 33.49,
+        "composite_ci_upper": 40.9,
+        "composite_ci_width": 7.41,
+        "rank_mean": 37.6,
+        "rank_ci_lower": 21,
+        "rank_ci_upper": 43,
+        "prob_in_top15": 0.0008
+      },
+      {
+        "id": 55,
+        "short_title": "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+        "composite_mean": 39.58,
+        "composite_ci_lower": 30.55,
+        "composite_ci_upper": 47.05,
+        "composite_ci_width": 16.5,
+        "rank_mean": 32.1,
+        "rank_ci_lower": 19,
+        "rank_ci_upper": 39,
+        "prob_in_top15": 0.0006
+      },
+      {
+        "id": 106,
+        "short_title": "Benchmarking Vision Language Models for Cultural Understanding",
+        "composite_mean": 36.97,
+        "composite_ci_lower": 33.45,
+        "composite_ci_upper": 40.14,
+        "composite_ci_width": 6.7,
+        "rank_mean": 39.0,
+        "rank_ci_lower": 21,
+        "rank_ci_upper": 45,
+        "prob_in_top15": 0.0005
+      },
+      {
+        "id": 56,
+        "short_title": "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values",
+        "composite_mean": 39.61,
+        "composite_ci_lower": 29.24,
+        "composite_ci_upper": 50.09,
+        "composite_ci_width": 20.85,
+        "rank_mean": 31.8,
+        "rank_ci_lower": 19,
+        "rank_ci_upper": 42,
+        "prob_in_top15": 0.0001
+      },
+      {
+        "id": 23,
+        "short_title": "MITRA A Large-Scale Parallel Corpus and",
+        "composite_mean": 41.55,
+        "composite_ci_lower": 33.14,
+        "composite_ci_upper": 49.92,
+        "composite_ci_width": 16.78,
+        "rank_mean": 21.7,
+        "rank_ci_lower": 20,
+        "rank_ci_upper": 26,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 31,
+        "short_title": "The eBible Corpus Data and Model",
+        "composite_mean": 41.09,
+        "composite_ci_lower": 33.14,
+        "composite_ci_upper": 48.68,
+        "composite_ci_width": 15.54,
+        "rank_mean": 23.6,
+        "rank_ci_lower": 20,
+        "rank_ci_upper": 27,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 38,
+        "short_title": "Fabricated Hadith Detection A Novel Matn-Based",
+        "composite_mean": 40.22,
+        "composite_ci_lower": 30.07,
+        "composite_ci_upper": 50.14,
+        "composite_ci_width": 20.07,
+        "rank_mean": 28.7,
+        "rank_ci_lower": 20,
+        "rank_ci_upper": 39,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 42,
+        "short_title": "REDDITBIAS",
+        "composite_mean": 40.02,
+        "composite_ci_lower": 30.31,
+        "composite_ci_upper": 49.01,
+        "composite_ci_width": 18.71,
+        "rank_mean": 29.4,
+        "rank_ci_lower": 23,
+        "rank_ci_upper": 37,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 46,
+        "short_title": "The Vedic Compound Dataset",
+        "composite_mean": 39.8,
+        "composite_ci_lower": 32.39,
+        "composite_ci_upper": 46.67,
+        "composite_ci_width": 14.28,
+        "rank_mean": 30.4,
+        "rank_ci_lower": 25,
+        "rank_ci_upper": 36,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 60,
+        "short_title": "ValueNet",
+        "composite_mean": 39.06,
+        "composite_ci_lower": 29.13,
+        "composite_ci_upper": 48.91,
+        "composite_ci_width": 19.79,
+        "rank_mean": 34.7,
+        "rank_ci_lower": 24,
+        "rank_ci_upper": 43,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 62,
+        "short_title": "Finding Answers from the Word of God",
+        "composite_mean": 38.97,
+        "composite_ci_lower": 29.71,
+        "composite_ci_upper": 47.36,
+        "composite_ci_width": 17.65,
+        "rank_mean": 35.1,
+        "rank_ci_lower": 29,
+        "rank_ci_upper": 40,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 82,
+        "short_title": "Exploring Similarity Measures and Intertextuality in",
+        "composite_mean": 37.93,
+        "composite_ci_lower": 29.08,
+        "composite_ci_upper": 45.73,
+        "composite_ci_width": 16.65,
+        "rank_mean": 38.6,
+        "rank_ci_lower": 35,
+        "rank_ci_upper": 42,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 111,
+        "short_title": "QASiNa",
+        "composite_mean": 36.57,
+        "composite_ci_lower": 27.6,
+        "composite_ci_upper": 45.36,
+        "composite_ci_width": 17.76,
+        "rank_mean": 41.2,
+        "rank_ci_lower": 36,
+        "rank_ci_upper": 44,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 143,
+        "short_title": "A Data-Driven Exploration of a New Islamic Fatwas",
+        "composite_mean": 35.47,
+        "composite_ci_lower": 26.84,
+        "composite_ci_upper": 43.93,
+        "composite_ci_width": 17.1,
+        "rank_mean": 43.1,
+        "rank_ci_lower": 39,
+        "rank_ci_upper": 45,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 144,
+        "short_title": "FatwaSet",
+        "composite_mean": 35.47,
+        "composite_ci_lower": 26.84,
+        "composite_ci_upper": 43.93,
+        "composite_ci_width": 17.1,
+        "rank_mean": 44.1,
+        "rank_ci_lower": 40,
+        "rank_ci_upper": 46,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 150,
+        "short_title": "Sanadset 650K Data on Hadith Narrators",
+        "composite_mean": 35.26,
+        "composite_ci_lower": 31.44,
+        "composite_ci_upper": 39.35,
+        "composite_ci_width": 7.92,
+        "rank_mean": 43.2,
+        "rank_ci_lower": 29,
+        "rank_ci_upper": 46,
+        "prob_in_top15": 0.0
+      },
+      {
+        "id": 234,
+        "short_title": "CatholicBench",
+        "composite_mean": 29.66,
+        "composite_ci_lower": 23.38,
+        "composite_ci_upper": 34.9,
+        "composite_ci_width": 11.52,
+        "rank_mean": 47.0,
+        "rank_ci_lower": 47,
+        "rank_ci_upper": 47,
+        "prob_in_top15": 0.0
+      }
+    ]
+  },
+  "feature_loo": {
+    "features_tested": [
+      "R1_count",
+      "R2_depth",
+      "R3_scriptural",
+      "R4_denominational",
+      "R5_pluralism",
+      "R6_grounding",
+      "P7_implementability",
+      "P3_data_availability",
+      "P9_model_compat",
+      "P10_language",
+      "P5_license",
+      "P4_code_availability",
+      "C1_citation_count",
+      "C2_citations_per_year",
+      "C3_venue_tier",
+      "C6_community"
+    ],
+    "results": [
+      {
+        "feature_removed": "R1_count",
+        "axis": "RD",
+        "max_rank_displacement": 23,
+        "kendall_tau": 0.7021,
+        "top15_changes": 4,
+        "entries_displaced": 44,
+        "top_displacements": [
+          {
+            "id": 13,
+            "old_rank": 11,
+            "new_rank": 34,
+            "displacement": 23
+          },
+          {
+            "id": 20,
+            "old_rank": 17,
+            "new_rank": 33,
+            "displacement": 16
+          },
+          {
+            "id": 18,
+            "old_rank": 15,
+            "new_rank": 29,
+            "displacement": 14
+          },
+          {
+            "id": 44,
+            "old_rank": 32,
+            "new_rank": 19,
+            "displacement": 13
+          },
+          {
+            "id": 26,
+            "old_rank": 21,
+            "new_rank": 9,
+            "displacement": 12
+          }
+        ]
+      },
+      {
+        "feature_removed": "R2_depth",
+        "axis": "RD",
+        "max_rank_displacement": 22,
+        "kendall_tau": 0.7576,
+        "top15_changes": 2,
+        "entries_displaced": 42,
+        "top_displacements": [
+          {
+            "id": 26,
+            "old_rank": 21,
+            "new_rank": 43,
+            "displacement": 22
+          },
+          {
+            "id": 35,
+            "old_rank": 26,
+            "new_rank": 40,
+            "displacement": 14
+          },
+          {
+            "id": 60,
+            "old_rank": 36,
+            "new_rank": 23,
+            "displacement": 13
+          },
+          {
+            "id": 105,
+            "old_rank": 40,
+            "new_rank": 29,
+            "displacement": 11
+          },
+          {
+            "id": 106,
+            "old_rank": 41,
+            "new_rank": 30,
+            "displacement": 11
+          }
+        ]
+      },
+      {
+        "feature_removed": "C3_venue_tier",
+        "axis": "CI",
+        "max_rank_displacement": 20,
+        "kendall_tau": 0.6966,
+        "top15_changes": 3,
+        "entries_displaced": 43,
+        "top_displacements": [
+          {
+            "id": 19,
+            "old_rank": 16,
+            "new_rank": 36,
+            "displacement": 20
+          },
+          {
+            "id": 17,
+            "old_rank": 14,
+            "new_rank": 33,
+            "displacement": 19
+          },
+          {
+            "id": 16,
+            "old_rank": 13,
+            "new_rank": 28,
+            "displacement": 15
+          },
+          {
+            "id": 24,
+            "old_rank": 22,
+            "new_rank": 37,
+            "displacement": 15
+          },
+          {
+            "id": 35,
+            "old_rank": 26,
+            "new_rank": 39,
+            "displacement": 13
+          }
+        ]
+      },
+      {
+        "feature_removed": "R5_pluralism",
+        "axis": "RD",
+        "max_rank_displacement": 18,
+        "kendall_tau": 0.6392,
+        "top15_changes": 5,
+        "entries_displaced": 46,
+        "top_displacements": [
+          {
+            "id": 20,
+            "old_rank": 17,
+            "new_rank": 35,
+            "displacement": 18
+          },
+          {
+            "id": 13,
+            "old_rank": 11,
+            "new_rank": 28,
+            "displacement": 17
+          },
+          {
+            "id": 18,
+            "old_rank": 15,
+            "new_rank": 31,
+            "displacement": 16
+          },
+          {
+            "id": 44,
+            "old_rank": 32,
+            "new_rank": 17,
+            "displacement": 15
+          },
+          {
+            "id": 26,
+            "old_rank": 21,
+            "new_rank": 8,
+            "displacement": 13
+          }
+        ]
+      },
+      {
+        "feature_removed": "R3_scriptural",
+        "axis": "RD",
+        "max_rank_displacement": 16,
+        "kendall_tau": 0.6688,
+        "top15_changes": 3,
+        "entries_displaced": 47,
+        "top_displacements": [
+          {
+            "id": 131,
+            "old_rank": 43,
+            "new_rank": 27,
+            "displacement": 16
+          },
+          {
+            "id": 106,
+            "old_rank": 41,
+            "new_rank": 26,
+            "displacement": 15
+          },
+          {
+            "id": 7,
+            "old_rank": 7,
+            "new_rank": 21,
+            "displacement": 14
+          },
+          {
+            "id": 11,
+            "old_rank": 10,
+            "new_rank": 24,
+            "displacement": 14
+          },
+          {
+            "id": 19,
+            "old_rank": 16,
+            "new_rank": 30,
+            "displacement": 14
+          }
+        ]
+      },
+      {
+        "feature_removed": "P9_model_compat",
+        "axis": "PE",
+        "max_rank_displacement": 16,
+        "kendall_tau": 0.8242,
+        "top15_changes": 2,
+        "entries_displaced": 39,
+        "top_displacements": [
+          {
+            "id": 20,
+            "old_rank": 17,
+            "new_rank": 33,
+            "displacement": 16
+          },
+          {
+            "id": 29,
+            "old_rank": 24,
+            "new_rank": 38,
+            "displacement": 14
+          },
+          {
+            "id": 18,
+            "old_rank": 15,
+            "new_rank": 24,
+            "displacement": 9
+          },
+          {
+            "id": 31,
+            "old_rank": 25,
+            "new_rank": 18,
+            "displacement": 7
+          },
+          {
+            "id": 38,
+            "old_rank": 27,
+            "new_rank": 34,
+            "displacement": 7
+          }
+        ]
+      },
+      {
+        "feature_removed": "P3_data_availability",
+        "axis": "PE",
+        "max_rank_displacement": 14,
+        "kendall_tau": 0.8464,
+        "top15_changes": 1,
+        "entries_displaced": 39,
+        "top_displacements": [
+          {
+            "id": 29,
+            "old_rank": 24,
+            "new_rank": 10,
+            "displacement": 14
+          },
+          {
+            "id": 56,
+            "old_rank": 34,
+            "new_rank": 26,
+            "displacement": 8
+          },
+          {
+            "id": 99,
+            "old_rank": 39,
+            "new_rank": 31,
+            "displacement": 8
+          },
+          {
+            "id": 106,
+            "old_rank": 41,
+            "new_rank": 33,
+            "displacement": 8
+          },
+          {
+            "id": 19,
+            "old_rank": 16,
+            "new_rank": 23,
+            "displacement": 7
+          }
+        ]
+      },
+      {
+        "feature_removed": "R6_grounding",
+        "axis": "RD",
+        "max_rank_displacement": 13,
+        "kendall_tau": 0.8427,
+        "top15_changes": 1,
+        "entries_displaced": 36,
+        "top_displacements": [
+          {
+            "id": 29,
+            "old_rank": 24,
+            "new_rank": 37,
+            "displacement": 13
+          },
+          {
+            "id": 23,
+            "old_rank": 19,
+            "new_rank": 31,
+            "displacement": 12
+          },
+          {
+            "id": 27,
+            "old_rank": 23,
+            "new_rank": 35,
+            "displacement": 12
+          },
+          {
+            "id": 55,
+            "old_rank": 35,
+            "new_rank": 25,
+            "displacement": 10
+          },
+          {
+            "id": 26,
+            "old_rank": 21,
+            "new_rank": 29,
+            "displacement": 8
+          }
+        ]
+      },
+      {
+        "feature_removed": "R4_denominational",
+        "axis": "RD",
+        "max_rank_displacement": 11,
+        "kendall_tau": 0.9334,
+        "top15_changes": 0,
+        "entries_displaced": 22,
+        "top_displacements": [
+          {
+            "id": 35,
+            "old_rank": 26,
+            "new_rank": 37,
+            "displacement": 11
+          },
+          {
+            "id": 44,
+            "old_rank": 32,
+            "new_rank": 25,
+            "displacement": 7
+          },
+          {
+            "id": 26,
+            "old_rank": 21,
+            "new_rank": 16,
+            "displacement": 5
+          },
+          {
+            "id": 38,
+            "old_rank": 27,
+            "new_rank": 30,
+            "displacement": 3
+          },
+          {
+            "id": 42,
+            "old_rank": 28,
+            "new_rank": 31,
+            "displacement": 3
+          }
+        ]
+      },
+      {
+        "feature_removed": "P7_implementability",
+        "axis": "PE",
+        "max_rank_displacement": 10,
+        "kendall_tau": 0.8723,
+        "top15_changes": 1,
+        "entries_displaced": 39,
+        "top_displacements": [
+          {
+            "id": 44,
+            "old_rank": 32,
+            "new_rank": 22,
+            "displacement": 10
+          },
+          {
+            "id": 24,
+            "old_rank": 22,
+            "new_rank": 31,
+            "displacement": 9
+          },
+          {
+            "id": 31,
+            "old_rank": 25,
+            "new_rank": 17,
+            "displacement": 8
+          },
+          {
+            "id": 38,
+            "old_rank": 27,
+            "new_rank": 34,
+            "displacement": 7
+          },
+          {
+            "id": 22,
+            "old_rank": 20,
+            "new_rank": 26,
+            "displacement": 6
+          }
+        ]
+      },
+      {
+        "feature_removed": "P10_language",
+        "axis": "PE",
+        "max_rank_displacement": 6,
+        "kendall_tau": 0.8982,
+        "top15_changes": 1,
+        "entries_displaced": 35,
+        "top_displacements": [
+          {
+            "id": 19,
+            "old_rank": 16,
+            "new_rank": 22,
+            "displacement": 6
+          },
+          {
+            "id": 31,
+            "old_rank": 25,
+            "new_rank": 31,
+            "displacement": 6
+          },
+          {
+            "id": 35,
+            "old_rank": 26,
+            "new_rank": 32,
+            "displacement": 6
+          },
+          {
+            "id": 55,
+            "old_rank": 35,
+            "new_rank": 29,
+            "displacement": 6
+          },
+          {
+            "id": 24,
+            "old_rank": 22,
+            "new_rank": 17,
+            "displacement": 5
+          }
+        ]
+      },
+      {
+        "feature_removed": "C1_citation_count",
+        "axis": "CI",
+        "max_rank_displacement": 6,
+        "kendall_tau": 0.913,
+        "top15_changes": 1,
+        "entries_displaced": 42,
+        "top_displacements": [
+          {
+            "id": 35,
+            "old_rank": 26,
+            "new_rank": 20,
+            "displacement": 6
+          },
+          {
+            "id": 46,
+            "old_rank": 33,
+            "new_rank": 27,
+            "displacement": 6
+          },
+          {
+            "id": 24,
+            "old_rank": 22,
+            "new_rank": 17,
+            "displacement": 5
+          },
+          {
+            "id": 99,
+            "old_rank": 39,
+            "new_rank": 34,
+            "displacement": 5
+          },
+          {
+            "id": 22,
+            "old_rank": 20,
+            "new_rank": 24,
+            "displacement": 4
+          }
+        ]
+      },
+      {
+        "feature_removed": "C2_citations_per_year",
+        "axis": "CI",
+        "max_rank_displacement": 6,
+        "kendall_tau": 0.9297,
+        "top15_changes": 1,
+        "entries_displaced": 39,
+        "top_displacements": [
+          {
+            "id": 35,
+            "old_rank": 26,
+            "new_rank": 20,
+            "displacement": 6
+          },
+          {
+            "id": 46,
+            "old_rank": 33,
+            "new_rank": 27,
+            "displacement": 6
+          },
+          {
+            "id": 24,
+            "old_rank": 22,
+            "new_rank": 17,
+            "displacement": 5
+          },
+          {
+            "id": 22,
+            "old_rank": 20,
+            "new_rank": 24,
+            "displacement": 4
+          },
+          {
+            "id": 26,
+            "old_rank": 21,
+            "new_rank": 25,
+            "displacement": 4
+          }
+        ]
+      },
+      {
+        "feature_removed": "P4_code_availability",
+        "axis": "PE",
+        "max_rank_displacement": 5,
+        "kendall_tau": 0.9574,
+        "top15_changes": 0,
+        "entries_displaced": 22,
+        "top_displacements": [
+          {
+            "id": 56,
+            "old_rank": 34,
+            "new_rank": 29,
+            "displacement": 5
+          },
+          {
+            "id": 26,
+            "old_rank": 21,
+            "new_rank": 25,
+            "displacement": 4
+          },
+          {
+            "id": 27,
+            "old_rank": 23,
+            "new_rank": 19,
+            "displacement": 4
+          },
+          {
+            "id": 19,
+            "old_rank": 16,
+            "new_rank": 18,
+            "displacement": 2
+          },
+          {
+            "id": 23,
+            "old_rank": 19,
+            "new_rank": 21,
+            "displacement": 2
+          }
+        ]
+      },
+      {
+        "feature_removed": "P5_license",
+        "axis": "PE",
+        "max_rank_displacement": 4,
+        "kendall_tau": 0.9593,
+        "top15_changes": 0,
+        "entries_displaced": 22,
+        "top_displacements": [
+          {
+            "id": 27,
+            "old_rank": 23,
+            "new_rank": 19,
+            "displacement": 4
+          },
+          {
+            "id": 44,
+            "old_rank": 32,
+            "new_rank": 28,
+            "displacement": 4
+          },
+          {
+            "id": 56,
+            "old_rank": 34,
+            "new_rank": 30,
+            "displacement": 4
+          },
+          {
+            "id": 23,
+            "old_rank": 19,
+            "new_rank": 22,
+            "displacement": 3
+          },
+          {
+            "id": 29,
+            "old_rank": 24,
+            "new_rank": 21,
+            "displacement": 3
+          }
+        ]
+      },
+      {
+        "feature_removed": "C6_community",
+        "axis": "CI",
+        "max_rank_displacement": 4,
+        "kendall_tau": 0.9722,
+        "top15_changes": 0,
+        "entries_displaced": 20,
+        "top_displacements": [
+          {
+            "id": 46,
+            "old_rank": 33,
+            "new_rank": 29,
+            "displacement": 4
+          },
+          {
+            "id": 24,
+            "old_rank": 22,
+            "new_rank": 19,
+            "displacement": 3
+          },
+          {
+            "id": 13,
+            "old_rank": 11,
+            "new_rank": 13,
+            "displacement": 2
+          },
+          {
+            "id": 22,
+            "old_rank": 20,
+            "new_rank": 22,
+            "displacement": 2
+          },
+          {
+            "id": 26,
+            "old_rank": 21,
+            "new_rank": 23,
+            "displacement": 2
+          }
+        ]
+      }
+    ],
+    "most_influential_by_displacement": "R1_count",
+    "most_influential_by_tau": "R5_pluralism"
+  }
+}

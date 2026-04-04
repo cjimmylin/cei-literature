@@ -1,0 +1,465 @@
+{
+  "hypothesis_tests": {
+    "C1_ceiling": {
+      "test": "binomial",
+      "note": "Unchanged from n=37 \u2014 based on trial accuracy, not benchmark count",
+      "n": 50,
+      "k": 50,
+      "p_value": 8.88e-16,
+      "reject_null": true
+    },
+    "C2_bias": {
+      "test": "two_proportion_z",
+      "note": "Unchanged from n=37 \u2014 based on trial accuracy data",
+      "p_utilitarian": 0.77,
+      "p_deontological": 0.5,
+      "p_value": 0.014925,
+      "reject_null": true
+    },
+    "C3_void": {
+      "test": "analytic_binomial",
+      "n_benchmarks": 54,
+      "care_above_50": 2,
+      "care_nonzero": 13,
+      "contractarian_above_50": 4,
+      "note": "Care: 2/54 above 50; Contractarian: 4/54 above 50"
+    },
+    "C4_judgment_strict": {
+      "test": "binomial",
+      "k": 31,
+      "n": 54,
+      "proportion": 0.5741,
+      "p_value": 0.170445,
+      "reject_null": false
+    },
+    "C4_judgment_broad": {
+      "test": "binomial",
+      "k": 39,
+      "n": 54,
+      "proportion": 0.7222,
+      "p_value": 0.000748,
+      "reject_null": true
+    },
+    "C4_reasoning_deficit": {
+      "test": "binomial",
+      "k": 10,
+      "n": 54,
+      "proportion": 0.1852,
+      "p_value": 2e-06,
+      "reject_null": true
+    },
+    "C5_bottleneck": {
+      "test": "mann_whitney_u",
+      "n_available": 36,
+      "n_unavailable": 18,
+      "mean_nd_available": 52.33,
+      "mean_nd_unavailable": 54.32,
+      "U_statistic": 348.5,
+      "p_value": 0.329783,
+      "reject_null": false
+    }
+  },
+  "correlations": {
+    "ND_score_vs_PE_score": {
+      "rho": -0.0462,
+      "p_value": 0.739823,
+      "n": 54
+    },
+    "ND_score_vs_CI_score": {
+      "rho": -0.0204,
+      "p_value": 0.883789,
+      "n": 54
+    },
+    "ND_score_vs_COMPOSITE": {
+      "rho": 0.5761,
+      "p_value": 5e-06,
+      "n": 54
+    },
+    "ND_score_vs_A6_grounding": {
+      "rho": 0.699,
+      "p_value": 0.0,
+      "n": 54
+    },
+    "ND_score_vs_A1_count": {
+      "rho": 0.683,
+      "p_value": 0.0,
+      "n": 54
+    },
+    "ND_score_vs_B2_dataset_size": {
+      "rho": 0.1133,
+      "p_value": 0.438102,
+      "n": 49
+    },
+    "ND_score_vs_B7_implementability": {
+      "rho": -0.0305,
+      "p_value": 0.826614,
+      "n": 54
+    },
+    "PE_score_vs_CI_score": {
+      "rho": 0.4433,
+      "p_value": 0.000787,
+      "n": 54
+    },
+    "PE_score_vs_COMPOSITE": {
+      "rho": 0.7237,
+      "p_value": 0.0,
+      "n": 54
+    },
+    "PE_score_vs_A6_grounding": {
+      "rho": -0.1523,
+      "p_value": 0.271607,
+      "n": 54
+    },
+    "PE_score_vs_A1_count": {
+      "rho": -0.0925,
+      "p_value": 0.506106,
+      "n": 54
+    },
+    "PE_score_vs_B2_dataset_size": {
+      "rho": 0.2702,
+      "p_value": 0.060448,
+      "n": 49
+    },
+    "PE_score_vs_B7_implementability": {
+      "rho": 0.7649,
+      "p_value": 0.0,
+      "n": 54
+    },
+    "CI_score_vs_COMPOSITE": {
+      "rho": 0.507,
+      "p_value": 9.1e-05,
+      "n": 54
+    },
+    "CI_score_vs_A6_grounding": {
+      "rho": -0.1098,
+      "p_value": 0.429508,
+      "n": 54
+    },
+    "CI_score_vs_A1_count": {
+      "rho": -0.0169,
+      "p_value": 0.90322,
+      "n": 54
+    },
+    "CI_score_vs_B2_dataset_size": {
+      "rho": -0.011,
+      "p_value": 0.940266,
+      "n": 49
+    },
+    "CI_score_vs_B7_implementability": {
+      "rho": 0.4911,
+      "p_value": 0.000163,
+      "n": 54
+    },
+    "COMPOSITE_vs_A6_grounding": {
+      "rho": 0.2738,
+      "p_value": 0.04517,
+      "n": 54
+    },
+    "COMPOSITE_vs_A1_count": {
+      "rho": 0.3825,
+      "p_value": 0.004308,
+      "n": 54
+    },
+    "COMPOSITE_vs_B2_dataset_size": {
+      "rho": 0.2534,
+      "p_value": 0.078927,
+      "n": 49
+    },
+    "COMPOSITE_vs_B7_implementability": {
+      "rho": 0.555,
+      "p_value": 1.3e-05,
+      "n": 54
+    },
+    "A6_grounding_vs_A1_count": {
+      "rho": 0.3365,
+      "p_value": 0.012856,
+      "n": 54
+    },
+    "A6_grounding_vs_B2_dataset_size": {
+      "rho": 0.0071,
+      "p_value": 0.961185,
+      "n": 49
+    },
+    "A6_grounding_vs_B7_implementability": {
+      "rho": -0.2238,
+      "p_value": 0.103752,
+      "n": 54
+    },
+    "A1_count_vs_B2_dataset_size": {
+      "rho": 0.1943,
+      "p_value": 0.181054,
+      "n": 49
+    },
+    "A1_count_vs_B7_implementability": {
+      "rho": 0.0011,
+      "p_value": 0.993687,
+      "n": 54
+    },
+    "B2_dataset_size_vs_B7_implementability": {
+      "rho": 0.1311,
+      "p_value": 0.369165,
+      "n": 49
+    }
+  },
+  "sensitivity": {
+    "total_triplets_tested": 18,
+    "top15_perfectly_stable": 1,
+    "stability_ratio": 0.0556,
+    "note": "Top 15 unchanged in 1/18 weight combinations (n=54)",
+    "gate_passing_benchmarks": 24
+  },
+  "temporal_trends": {
+    "nd_vs_year": {
+      "rho": -0.1119,
+      "p_value": 0.420361,
+      "n": 54,
+      "interpretation": "ND decreases with year"
+    }
+  },
+  "summary_statistics": {
+    "n_benchmarks": 54,
+    "n_gate_passing": 24,
+    "ND": {
+      "mean": 52.99,
+      "median": 55.4,
+      "std": 18.66
+    },
+    "PE": {
+      "mean": 57.83,
+      "median": 66.5,
+      "std": 23.13
+    },
+    "CI": {
+      "mean": 30.01,
+      "median": 25.8,
+      "std": 12.62
+    },
+    "COMPOSITE": {
+      "mean": 48.84,
+      "median": 49.35,
+      "std": 11.64
+    }
+  },
+  "top_rankings": [
+    {
+      "rank": 1,
+      "id": 1,
+      "short_title": "Aligning AI with Shared Human Values",
+      "year": "2021",
+      "ND_score": 59.8,
+      "PE_score": 95.0,
+      "CI_score": 80.0,
+      "COMPOSITE": 77.2,
+      "new": false
+    },
+    {
+      "rank": 2,
+      "id": 5,
+      "short_title": "MoReBench",
+      "year": "2025",
+      "ND_score": 87.0,
+      "PE_score": 82.5,
+      "CI_score": 26.3,
+      "COMPOSITE": 70.2,
+      "new": false
+    },
+    {
+      "rank": 3,
+      "id": 33,
+      "short_title": "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+      "year": "2025",
+      "ND_score": 85.0,
+      "PE_score": 78.5,
+      "CI_score": 25.8,
+      "COMPOSITE": 67.9,
+      "new": false
+    },
+    {
+      "rank": 4,
+      "id": 30,
+      "short_title": "Moral Persuasion in Large Language Models",
+      "year": "2024",
+      "ND_score": 79.8,
+      "PE_score": 85.5,
+      "CI_score": 22.9,
+      "COMPOSITE": 67.6,
+      "new": false
+    },
+    {
+      "rank": 5,
+      "id": 2,
+      "short_title": "MoralReason",
+      "year": "2025",
+      "ND_score": 80.0,
+      "PE_score": 78.0,
+      "CI_score": 24.7,
+      "COMPOSITE": 65.5,
+      "new": false
+    },
+    {
+      "rank": 6,
+      "id": 4,
+      "short_title": "Are LLMs Consequentialist or Deontological",
+      "year": "2025",
+      "ND_score": 58.0,
+      "PE_score": 87.5,
+      "CI_score": 38.6,
+      "COMPOSITE": 63.5,
+      "new": false
+    },
+    {
+      "rank": 7,
+      "id": 21,
+      "short_title": "Beyond Ethical Alignment",
+      "year": "2025",
+      "ND_score": 71.0,
+      "PE_score": 76.9,
+      "CI_score": 25.4,
+      "COMPOSITE": 61.7,
+      "new": false
+    },
+    {
+      "rank": 8,
+      "id": 45,
+      "short_title": "One Model Many Morals",
+      "year": "2025",
+      "ND_score": 68.0,
+      "PE_score": 72.0,
+      "CI_score": 30.0,
+      "COMPOSITE": 59.7,
+      "new": true
+    },
+    {
+      "rank": 9,
+      "id": 7,
+      "short_title": "JETHICS",
+      "year": "2025",
+      "ND_score": 55.8,
+      "PE_score": 87.5,
+      "CI_score": 25.7,
+      "COMPOSITE": 59.4,
+      "new": false
+    },
+    {
+      "rank": 10,
+      "id": 34,
+      "short_title": "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+      "year": "2025",
+      "ND_score": 82.8,
+      "PE_score": 56.5,
+      "CI_score": 25.8,
+      "COMPOSITE": 59.3,
+      "new": false
+    },
+    {
+      "rank": 11,
+      "id": 32,
+      "short_title": "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+      "year": "2024",
+      "ND_score": 62.8,
+      "PE_score": 78.5,
+      "CI_score": 25.8,
+      "COMPOSITE": 59.0,
+      "new": false
+    },
+    {
+      "rank": 12,
+      "id": 36,
+      "short_title": "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+      "year": "2025",
+      "ND_score": 59.8,
+      "PE_score": 73.5,
+      "CI_score": 25.8,
+      "COMPOSITE": 56.1,
+      "new": false
+    },
+    {
+      "rank": 13,
+      "id": 39,
+      "short_title": "EMNLP Framework",
+      "year": "2025",
+      "ND_score": 68.0,
+      "PE_score": 60.0,
+      "CI_score": 28.0,
+      "COMPOSITE": 55.2,
+      "new": true
+    },
+    {
+      "rank": 14,
+      "id": 35,
+      "short_title": "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+      "year": "2025",
+      "ND_score": 57.8,
+      "PE_score": 71.5,
+      "CI_score": 25.8,
+      "COMPOSITE": 54.6,
+      "new": false
+    },
+    {
+      "rank": 15,
+      "id": 48,
+      "short_title": "TRIAGE",
+      "year": "2024",
+      "ND_score": 52.0,
+      "PE_score": 76.0,
+      "CI_score": 28.0,
+      "COMPOSITE": 54.4,
+      "new": true
+    },
+    {
+      "rank": 16,
+      "id": 6,
+      "short_title": "The Greatest Good Benchmark",
+      "year": "2024",
+      "ND_score": 53.0,
+      "PE_score": 75.3,
+      "CI_score": 26.4,
+      "COMPOSITE": 54.2,
+      "new": false
+    },
+    {
+      "rank": 17,
+      "id": 44,
+      "short_title": "CVC Chinese Values",
+      "year": "2025",
+      "ND_score": 62.0,
+      "PE_score": 68.0,
+      "CI_score": 22.0,
+      "COMPOSITE": 54.1,
+      "new": true
+    },
+    {
+      "rank": 18,
+      "id": 12,
+      "short_title": "LLMs Amplified Cognitive Biases",
+      "year": "2025",
+      "ND_score": 46.8,
+      "PE_score": 63.1,
+      "CI_score": 48.1,
+      "COMPOSITE": 52.8,
+      "new": false
+    },
+    {
+      "rank": 19,
+      "id": 37,
+      "short_title": "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs",
+      "year": "2026",
+      "ND_score": 50.2,
+      "PE_score": 71.5,
+      "CI_score": 25.8,
+      "COMPOSITE": 51.6,
+      "new": false
+    },
+    {
+      "rank": 20,
+      "id": 46,
+      "short_title": "Moral Reasoning Across Languages (MMRB)",
+      "year": "2025",
+      "ND_score": 57.0,
+      "PE_score": 58.0,
+      "CI_score": 25.0,
+      "COMPOSITE": 49.4,
+      "new": true
+    }
+  ]
+}

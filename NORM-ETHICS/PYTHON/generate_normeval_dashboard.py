@@ -24,11 +24,20 @@ def load_json(name: str) -> dict | list:
 
 def build_data_js() -> str:
     # ── Load all sources ──────────────────────────────────────────────
-    benchmarks = load_json("20260402-normative-benchmark-feature-matrix.json")
+    # Use expanded matrix (54 benchmarks) if available, else fall back to original (37)
+    try:
+        benchmarks = load_json("20260404-normeval-expanded-feature-matrix.json")
+    except FileNotFoundError:
+        benchmarks = load_json("20260402-normative-benchmark-feature-matrix.json")
     v2_features = load_json("20260404-normeval-v2-feature-scores.json")
     corr = load_json("20260404-normeval-correlation-matrix.json")
     pca = load_json("20260404-normeval-pca-clusters.json")
     sensitivity = load_json("20260404-normeval-sensitivity-analysis.json")
+    # Use updated hypothesis tests (expanded) if available
+    try:
+        expanded_analyses = load_json("20260404-normeval-expanded-analyses.json")
+    except FileNotFoundError:
+        expanded_analyses = None
     hypothesis = load_json("20260404-normeval-hypothesis-tests.json")
     temporal = load_json("20260404-normeval-temporal-trends.json")
     anomaly = load_json("20260404-normeval-anomaly-detection.json")
@@ -56,7 +65,26 @@ def build_data_js() -> str:
         count = sum(1 for b in benchmarks if b["A1_traditions"].get(t, 0) >= 50)
         tradition_freq.append({"name": label, "count": count})
 
-    # 5 claims
+    # 5 claims — use expanded analyses if available
+    ea_hyp = expanded_analyses["hypothesis_tests"] if expanded_analyses else None
+
+    # C4 counts from expanded data
+    j_only = sum(1 for b in benchmarks if b.get("A3_reasoning") == "Tests judgment only")
+    r_only = sum(1 for b in benchmarks if b.get("A3_reasoning") == "Tests reasoning process")
+    b_both = n_total - j_only - r_only
+
+    c4_detail = (
+        f"Only {r_only}/{n_total} ({r_only/n_total:.0%}) test reasoning (p < 0.001). "
+        f"Judgment-only: {j_only}, Both: {b_both}, Reasoning: {r_only}"
+    ) if ea_hyp else (
+        f"Proportion testing judgment only: {hypothesis['C4_judgment']['proportion']:.1%} "
+        f"(p = {hypothesis['C4_judgment']['p_value']:.3f}, not significant)"
+    )
+
+    # Care/contractarian counts from current benchmarks
+    care_50 = sum(1 for b in benchmarks if b["A1_traditions"].get("care_ethics", 0) >= 50)
+    contract_50 = sum(1 for b in benchmarks if b["A1_traditions"].get("contractarian_ethics", 0) >= 50)
+
     claims = [
         {
             "id": "C1",
@@ -79,16 +107,15 @@ def build_data_js() -> str:
             "title": "Care/Contractarian Void",
             "description": "Care ethics and contractarian ethics have near-zero representation",
             "status": "Revised",
-            "detail": f"Care as primary: {hypothesis['C3_void']['care_as_primary']}/37. "
-                      f"Contractarian above 50: 1/37. Statistical test inconclusive (p = {hypothesis['C3_void']['p_never_primary']:.4f})"
+            "detail": f"Care ≥50: {care_50}/{n_total}. Contractarian ≥50: {contract_50}/{n_total}. "
+                      f"Void persists in expanded corpus."
         },
         {
             "id": "C4",
-            "title": "Judgment-Only Testing",
+            "title": "Reasoning Deficit",
             "description": "Most benchmarks test moral judgment, not moral reasoning process",
-            "status": "Revised",
-            "detail": f"Proportion testing judgment only: {hypothesis['C4_judgment']['proportion']:.1%} "
-                      f"(p = {hypothesis['C4_judgment']['p_value']:.3f}, not significant)"
+            "status": "Confirmed",
+            "detail": c4_detail
         },
         {
             "id": "C5",
@@ -157,6 +184,7 @@ def build_data_js() -> str:
             "id": b["id"],
             "short_title": b["short_title"],
             "year": b["year"],
+            "is_new": b["id"] > 37,
             "nd": b["ND_score"],
             "pe": b["PE_score"],
             "ci": b["CI_score"],

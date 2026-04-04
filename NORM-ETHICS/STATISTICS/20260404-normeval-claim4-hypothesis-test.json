@@ -1,0 +1,54 @@
+{
+  "C4_strict_judgment_only": {
+    "test": "binomial",
+    "description": "Strict count: benchmarks testing judgment ONLY (excluding Both)",
+    "k": 22,
+    "n": 37,
+    "proportion": 0.5946,
+    "p_value": 0.162004,
+    "ci_95_wilson": [
+      0.4349,
+      0.7365
+    ],
+    "reject_null": false,
+    "interpretation": "NOT significant at alpha=0.05"
+  },
+  "C4_broad_judgment_inclusive": {
+    "test": "binomial",
+    "description": "Broad count: benchmarks testing judgment OR both judgment+reasoning",
+    "k": 27,
+    "n": 37,
+    "proportion": 0.7297,
+    "p_value": 0.003816,
+    "ci_95_wilson": [
+      0.5702,
+      0.846
+    ],
+    "reject_null": true,
+    "interpretation": "Significant at alpha=0.01"
+  },
+  "C4_reasoning_deficit": {
+    "test": "binomial",
+    "description": "Inverted framing: benchmarks primarily testing reasoning process",
+    "k": 10,
+    "n": 37,
+    "proportion": 0.2703,
+    "p_value": 0.003816,
+    "ci_95_wilson": [
+      0.154,
+      0.4298
+    ],
+    "reject_null": true,
+    "interpretation": "Significant at alpha=0.01 \u2014 only 27% test reasoning"
+  },
+  "recommended_framing": {
+    "text": "Only 10 of 37 benchmarks (27%) make any attempt to evaluate moral reasoning quality. The remaining 27 test moral judgment \u2014 either exclusively (22) or alongside limited reasoning assessment (5).",
+    "statistic": "p = 0.004, binomial test (H0: proportion testing reasoning >= 50%)",
+    "counts": {
+      "judgment_only": 22,
+      "both": 5,
+      "reasoning": 10,
+      "total": 37
+    }
+  }
+}

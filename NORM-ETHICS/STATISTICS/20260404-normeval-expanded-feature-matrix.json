@@ -1,0 +1,5853 @@
+[
+  {
+    "id": 1,
+    "filename": "2021-Hendrycks-Aligning AI with Shared Human Values.md",
+    "tier": "Yes",
+    "short_title": "Aligning AI with Shared Human Values",
+    "year": "2021",
+    "A1_traditions": {
+      "virtue_ethics": 80,
+      "deontological_ethics": 70,
+      "utilitarian_ethics": 100,
+      "care_ethics": 5,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 130000,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/hendrycks/ethics",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "MIT",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "IMPLEMENTED",
+        "score": null
+      },
+      "inspect": {
+        "tier": "IMPLEMENTED",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 5.5
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 9.05
+      },
+      "eleutherai": {
+        "tier": "IMPLEMENTED",
+        "score": null
+      },
+      "implemented_count": 3,
+      "ready_count": 1,
+      "total_accessible": 4
+    },
+    "B7_implementability": 10.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 843,
+    "C2_citations_per_year": 129.69,
+    "C3_venue": "International Conference on Learning Representations",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 122,
+    "C5_leaderboard": null,
+    "D1_year": "2021",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Phi",
+        "command",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 5
+    },
+    "D4_annotators": "Crowdworkers",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "65906e6027246ae9e4ecd18d6e019a24505c842e",
+    "s2_matched_title": "Aligning AI With Shared Human Values",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "CALIBRATION ANCHOR. Creates separate test categories for utilitarianism, deontology, virtue ethics, and justice, but operationalizes them as classification tasks rather than deeply engaging philosophical theories.",
+    "ND_score": 59.8,
+    "PE_score": 95.0,
+    "CI_score": 80.0,
+    "COMPOSITE": 77.2,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 2,
+    "filename": "2025-An-MoralReason.md",
+    "tier": "Yes",
+    "short_title": "MoralReason",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 60,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [],
+      "count": 0
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 2040,
+    "B3_data_availability": "HuggingFace",
+    "B3_url": "https://huggingface.co/datasets/zankjhk/Moral-Reason-QA",
+    "B4_code_availability": "Partial code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "READY",
+        "score": 70
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": 53
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 6.5
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 8.8
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 2,
+      "total_accessible": 2
+    },
+    "B7_implementability": 70,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 1,
+    "C2_citations_per_year": 0.67,
+    "C3_venue": "AAAI Conference on Artificial Intelligence",
+    "C3_venue_tier": "Tier 1 (top conf)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Claude",
+        "Deepseekmath",
+        "GPT-4",
+        "Opt",
+        "Qwen",
+        "Qwen3",
+        "claude",
+        "command",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 11
+    },
+    "D4_annotators": "Authors only",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "d137c7ad3adb9b78a4f1caa4e02e7bc0e31c3e98",
+    "s2_matched_title": "MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests reasoning process",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Generates framework-specific reasoning traces across utilitarian, deontological, and virtue ethics for 680 high-ambiguity moral scenarios. Trains models to internalize and apply specific moral frameworks via GRPO with composite rewards optimizing both decision alignment and reasoning process. Strong operationalization but primarily an ML contribution, not a philosophy paper.",
+    "ND_score": 80.0,
+    "PE_score": 78.0,
+    "CI_score": 24.7,
+    "COMPOSITE": 65.5,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 3,
+    "filename": "2024-Agarwal-Ethical Reasoning Depends on Language.md",
+    "tier": "Yes",
+    "short_title": "Ethical Reasoning Depends on Language",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 80,
+      "utilitarian_ethics": 50,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Translated",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Chinese",
+        "Spanish",
+        "Arabic",
+        "Hindi",
+        "Russian",
+        "Swahili"
+      ],
+      "count": 7
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 432,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 3.5
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 6.3
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 6.3,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 45,
+    "C2_citations_per_year": 18.0,
+    "C3_venue": "International Conference on Language Resources and Evaluation",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "GPT-3.5",
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "Llama 2",
+        "Llama-2",
+        "Llama2",
+        "Llama2-",
+        "Llama2-70",
+        "Opt",
+        "Palm",
+        "Phi",
+        "Yi",
+        "chatgpt",
+        "gpt-4",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 18
+    },
+    "D4_annotators": "Expert philosophers",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "af8b26c3f10acfe86aa0a07d11ce4653e1dbf1cc",
+    "s2_matched_title": "Ethical Reasoning and Moral Value Alignment of LLMs Depend on the Language We Prompt Them in",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Extends Rao et al.'s framework probing LLMs with dilemmas from deontology, virtue ethics, and consequentialism across 6 languages. Names normative traditions and uses framework-informed scenarios, but primary contribution is the cross-lingual analysis rather than philosophical depth. Value pluralism is a central motivation.",
+    "ND_score": 64.8,
+    "PE_score": 31.9,
+    "CI_score": 47.2,
+    "COMPOSITE": 48.9,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 4,
+    "filename": "2025-Samway-Are Language Models Consequentialist or Deontological.md",
+    "tier": "Yes",
+    "short_title": "Are LLMs Consequentialist or Deontological",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 100,
+      "utilitarian_ethics": 100,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "German",
+        "Thai"
+      ],
+      "count": 3
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 640,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/keenansamway/moral-lens",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "MIT",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": 50
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": 49
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 6.5
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 8.75
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 1,
+      "total_accessible": 1
+    },
+    "B7_implementability": 50,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 7,
+    "C2_citations_per_year": 4.67,
+    "C3_venue": "Conference on Empirical Methods in Natural Language Processing",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "Chatgpt",
+        "Claude",
+        "Claude 3.5",
+        "DeepSeek",
+        "DeepSeek\nGoogle",
+        "DeepSeek R1",
+        "DeepSeek V3",
+        "Deepseek-r1",
+        "GPT-3.5",
+        "GPT-4",
+        "GPT-4o",
+        "Gemini",
+        "Gemini 1.5 Flash",
+        "Gemini 2 Flash",
+        "Gemini 2.5 Flash",
+        "Gemini Pro",
+        "Gemma",
+        "Gemma 2",
+        "Gemma 3",
+        "Llama",
+        "Llama 3",
+        "Llama 3.1",
+        "Llama 3.2",
+        "Llama 3.3",
+        "Llama 4",
+        "Llama 70",
+        "Llama 8",
+        "Llama-3",
+        "Llama-3.1-",
+        "Llama-3.1-70",
+        "Mistral",
+        "Mistral 7",
+        "Mistral Large",
+        "Mistral Nemo",
+        "Mistral Small",
+        "Phi",
+        "Phi-4",
+        "Qwen",
+        "Qwen 1.5",
+        "Qwen 2",
+        "Qwen 2.5",
+        "Qwen 3",
+        "Qwen.",
+        "Qwen1.5",
+        "Qwen2.5",
+        "Tulu",
+        "Yi",
+        "chatgpt",
+        "claude",
+        "deepseek",
+        "deepseek-chat",
+        "deepseek-chat-v3-0324",
+        "deepseek-r1",
+        "deepseek-r1-distill-llama-70b",
+        "deepseek-r1-distill-llama-8b",
+        "gemini",
+        "gemma",
+        "gpt-3.5-turbo",
+        "gpt-4",
+        "gpt-4o",
+        "gpt-4o-mini",
+        "llama",
+        "llama-3-70",
+        "llama-3-8",
+        "llama-3.1-70",
+        "llama-3.1-8",
+        "llama-3.3-70",
+        "llama-4-",
+        "llama-70",
+        "llama-8",
+        "mistral",
+        "o1",
+        "opt",
+        "phi",
+        "phi-4",
+        "qwen",
+        "qwen3",
+        "yi"
+      ],
+      "count": 79
+    },
+    "D4_annotators": "Authors only",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "e0f7694ce4b7f82608d2408668bc4679e546dd6f",
+    "s2_matched_title": "Are Language Models Consequentialist or Deontological Moral Reasoners?",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests reasoning process",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Introduces a taxonomy of moral rationales to systematically classify LLM reasoning traces as consequentialist or deontological using 600+ trolley problems. Analyzes chain-of-thought vs post-hoc explanations. Strong reasoning analysis but limited to a binary consequentialism/deontology distinction with no uncertainty or pluralism beyond those two.",
+    "ND_score": 58.0,
+    "PE_score": 87.5,
+    "CI_score": 38.6,
+    "COMPOSITE": 63.5,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 5,
+    "filename": "2025-Chiu-MoReBench.md",
+    "tier": "Yes",
+    "short_title": "MoReBench",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 60,
+      "deontological_ethics": 75,
+      "utilitarian_ethics": 100,
+      "care_ethics": 0,
+      "contractarian_ethics": 60
+    },
+    "A1_count": 4,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "Thai"
+      ],
+      "count": 1
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 1000,
+    "B3_data_availability": "HuggingFace",
+    "B3_url": "https://hf.co/datasets/morebench/morebench",
+    "B4_code_availability": "Partial code",
+    "B5_license": "MIT",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": 60
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 7.25
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 9.0
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 1,
+      "total_accessible": 1
+    },
+    "B7_implementability": 60,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 4,
+    "C2_citations_per_year": 2.67,
+    "C3_venue": "arXiv.org",
+    "C3_venue_tier": "Tier 3 (workshop/preprint)",
+    "C4_downstream_adoption": 2,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Bloom",
+        "ChatGPT",
+        "Claude",
+        "Claude 4",
+        "Claude 4.1",
+        "Command",
+        "DeepSeek",
+        "DeepSeek\nDeepSeek-V3.1",
+        "DeepSeek\nQwen3",
+        "DeepSeek\nR1-0528",
+        "DeepSeek Qwen3",
+        "DeepSeek R1",
+        "DeepSeek R1-0528",
+        "DeepSeek V3.1",
+        "DeepSeek models",
+        "DeepSeek-V3.1",
+        "Deepseek R1",
+        "Deepseek R1.",
+        "Deepseek-R1-0528",
+        "Deepseek-r1-0528",
+        "GPT-4",
+        "Gemini",
+        "Gemini 2.5",
+        "Gemini 2.5 Pro",
+        "Gemini 2.5 pro",
+        "Llama",
+        "Llama 4",
+        "Llama-3",
+        "Opt",
+        "Phi",
+        "Qwen",
+        "Qwen3",
+        "Solar",
+        "YI",
+        "Yi",
+        "alpaca",
+        "cohere",
+        "command",
+        "gemini",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 42
+    },
+    "D4_annotators": "Expert philosophers",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "10bb18d5fa851968e525d8cf9eab94207881f39c",
+    "s2_matched_title": "MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests reasoning process",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 5,
+    "normative_depth_rationale": "CALIBRATION ANCHOR. Expert-designed scenarios deeply grounded in specific normative theories with nuanced operationalization; evaluates moral reasoning processes across multiple frameworks with genuine philosophical sophistication.",
+    "ND_score": 87.0,
+    "PE_score": 82.5,
+    "CI_score": 26.3,
+    "COMPOSITE": 70.2,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 6,
+    "filename": "2024-Marraffini-The Greatest Good Benchmark.md",
+    "tier": "Yes",
+    "short_title": "The Greatest Good Benchmark",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 5,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 100,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "count": 2
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 90,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/noehsueh/greatest-good-benchmark",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 4.75
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 8.28
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 1,
+      "total_accessible": 1
+    },
+    "B7_implementability": 8.28,
+    "B8_scorer_type": "Human judgment",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 4,
+    "C2_citations_per_year": 1.6,
+    "C3_venue": "Conference on Empirical Methods in Natural Language Processing",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Falcon",
+        "GPT-3.5",
+        "GPT-4",
+        "GPT3.5",
+        "Gemini",
+        "Gemma",
+        "Llama-3",
+        "Llama-3-70",
+        "Llama-3-8",
+        "Mistral",
+        "Mixtral",
+        "Palm",
+        "Phi",
+        "Yi",
+        "Yi-34",
+        "Yi-6",
+        "chatgpt",
+        "claude",
+        "falcon",
+        "falcon40",
+        "falcon7",
+        "gemini",
+        "gemma",
+        "gemma1.1",
+        "gpt4",
+        "llama",
+        "llama-3-70",
+        "llama-3-8",
+        "llama3",
+        "mistral",
+        "mistral7",
+        "mixtral8x7",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 37
+    },
+    "D4_annotators": "Expert philosophers",
+    "ethics_overall": 15,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "dceec8b4cfc29c7c9be2df8c413c4a0a7355b97b",
+    "s2_matched_title": "The Greatest Good Benchmark: Measuring LLMs\u2019 Alignment with Utilitarian Moral Dilemmas",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Operationalizes utilitarianism through the validated Oxford Utilitarianism Scale (Kahane et al. 2018) with impartial beneficence and instrumental harm subscales. References Bentham, Mill, and Singer. Meaningful operationalization of one tradition but single-framework scope and judgment-only evaluation limit philosophical breadth.",
+    "ND_score": 53.0,
+    "PE_score": 75.3,
+    "CI_score": 26.4,
+    "COMPOSITE": 54.2,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 7,
+    "filename": "2025-Takeshita-JETHICS.md",
+    "tier": "Yes",
+    "short_title": "JETHICS",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 100,
+      "deontological_ethics": 100,
+      "utilitarian_ethics": 100,
+      "care_ethics": 0,
+      "contractarian_ethics": 5
+    },
+    "A1_count": 3,
+    "A7_cultural": "Culturally native",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Japanese"
+      ],
+      "count": 2
+    },
+    "B1_format": "Binary",
+    "B2_dataset_size": 78000,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/Language-Media-Lab/jethics",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "CC-BY",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "IMPLEMENTED",
+        "score": null
+      },
+      "inspect": {
+        "tier": "BARRIERS",
+        "score": 55
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 5.75
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 9.03
+      },
+      "eleutherai": {
+        "tier": "IMPLEMENTED",
+        "score": null
+      },
+      "implemented_count": 2,
+      "ready_count": 1,
+      "total_accessible": 3
+    },
+    "B7_implementability": 55,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Open models only",
+    "C1_citation_count": 4,
+    "C2_citations_per_year": 2.67,
+    "C3_venue": "arXiv.org",
+    "C3_venue_tier": "Tier 3 (workshop/preprint)",
+    "C4_downstream_adoption": 1,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4o",
+        "Llama",
+        "Llama 3",
+        "Llama-",
+        "Llama-3",
+        "Llama-3-",
+        "Llama-3-8",
+        "Llama8",
+        "Phi",
+        "Yi",
+        "gpt-4o",
+        "gpt-4o-mini",
+        "llama",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 16
+    },
+    "D4_annotators": "Crowdworkers",
+    "ethics_overall": 15,
+    "ethics_perspective": "General Ethics",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "1e87feaeb3584de6c365cc59d243ed95e56e7d61",
+    "s2_matched_title": "JETHICS: Japanese Ethics Understanding Evaluation Dataset",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "Adapts Hendrycks ETHICS dataset construction to Japanese (78K examples across utilitarianism, deontology, virtue ethics, justice, commonsense). Derivative methodology adds cultural context but no new philosophical depth beyond the original ETHICS benchmark.",
+    "ND_score": 55.8,
+    "PE_score": 87.5,
+    "CI_score": 25.7,
+    "COMPOSITE": 59.4,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 8,
+    "filename": "2025-Hilliard-Measuring AI Alignment with Human Flourishing.md",
+    "tier": "Yes",
+    "short_title": "Measuring AI Alignment with Human Flourishing",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 100,
+      "deontological_ethics": 0,
+      "utilitarian_ethics": 35,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 1,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 1229,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 4.75
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 6.53
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 6.53,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 2,
+    "C2_citations_per_year": 1.33,
+    "C3_venue": "arXiv.org",
+    "C3_venue_tier": "Tier 3 (workshop/preprint)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "Cross-domain",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Claude 3",
+        "Claude 3.5",
+        "Claude 3.7",
+        "DeepSeek-R1",
+        "DeepSeek-V3",
+        "GPT-3.5",
+        "GPT-4",
+        "GPT-4o",
+        "Gemini",
+        "Gemini 1.5 Flash",
+        "Gemini 1.5 Pro",
+        "Gemini 2.0 Flash",
+        "Gemini 2.5 Flash",
+        "Llama 3.2",
+        "Llama 3.3",
+        "Llama 4",
+        "Mistral Small",
+        "Phi",
+        "Qwen 2",
+        "cohere",
+        "o1",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 26
+    },
+    "D4_annotators": "Expert philosophers",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "502f37ca5f3790639660f41d87add3e89573f828",
+    "s2_matched_title": "Measuring AI Alignment with Human Flourishing",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests both",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "Uses flourishing vocabulary (Character and Virtue, Meaning and Purpose) grounded in VanderWeele's positive psychology model rather than normative ethics traditions. 1,229 questions across 7 dimensions operationalize well-being measurement, not philosophical frameworks. Faith/Spirituality dimension reflects a particular value orientation assumed as ground truth.",
+    "ND_score": 37.2,
+    "PE_score": 32.6,
+    "CI_score": 20.4,
+    "COMPOSITE": 31.4,
+    "gate_ND": false,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 9,
+    "filename": "2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md",
+    "tier": "Yes",
+    "short_title": "Analyzing the Ethical Logic of Six Large Language Models",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 60,
+      "care_ethics": 0,
+      "contractarian_ethics": 50
+    },
+    "A1_count": 4,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [],
+      "count": 0
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 100000,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 5.75
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 7.05
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 7.05,
+    "B8_scorer_type": "Log-likelihood",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 1,
+    "C2_citations_per_year": 0.67,
+    "C3_venue": "AAAI Conference on Artificial Intelligence",
+    "C3_venue_tier": "Tier 1 (top conf)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Bard",
+        "ChatGPT",
+        "Claude",
+        "Claude 3",
+        "Claude 3.5",
+        "Claude3",
+        "Command",
+        "GPT-4",
+        "GPT-4o",
+        "GPT4",
+        "GPT4o",
+        "Gemini",
+        "Gemini \n2",
+        "Gemini 1.5",
+        "Gemini 2.0.",
+        "Gpt-4",
+        "LLaMA",
+        "LLaMA 3.1",
+        "LlaMA",
+        "Llama",
+        "Llama 3",
+        "Llama 3.1",
+        "Llama-3",
+        "Mistral",
+        "Mistral \n2",
+        "Mistral 2024",
+        "Mistral 7",
+        "Mistral.",
+        "Opt",
+        "Perplexity",
+        "Phi",
+        "Yi",
+        "mistral.",
+        "opt",
+        "perplexity",
+        "phi",
+        "yi"
+      ],
+      "count": 37
+    },
+    "D4_annotators": "Expert philosophers",
+    "ethics_overall": 100,
+    "ethics_perspective": "Moral Reasoning & Psychology",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "d137c7ad3adb9b78a4f1caa4e02e7bc0e31c3e98",
+    "s2_matched_title": "MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests reasoning process",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Analyzes 6 LLMs through three ethical typologies (consequentialist-deontological, MFT, Kohlberg) using classic dilemmas (Trolley Problem, Heinz Dilemma) with an explainability-transparency approach. Cites Beauchamp, Haidt, Kohlberg. Systematic multi-framework analysis but operationalization relies on classic dilemmas rather than novel philosophy-grounded scenarios.",
+    "ND_score": 67.8,
+    "PE_score": 34.1,
+    "CI_score": 24.7,
+    "COMPOSITE": 45.2,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 10,
+    "filename": "2025-Neuman-PRIME Framework Convergent Ethics.md",
+    "tier": "Yes",
+    "short_title": "PRIME Framework Convergent Ethics",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 5,
+      "deontological_ethics": 60,
+      "utilitarian_ethics": 60,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [],
+      "count": 0
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 200,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 4.0
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 7.05
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 7.05,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 1,
+    "C2_citations_per_year": 0.67,
+    "C3_venue": "AAAI Conference on Artificial Intelligence",
+    "C3_venue_tier": "Tier 1 (top conf)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Claude \n \n1.64",
+        "Claude \n3.944",
+        "Claude 3.5",
+        "GPT-4o",
+        "GPT4o",
+        "Gemini",
+        "Gemini \n \n1.88",
+        "Gemini \n11.1111",
+        "Gemini \n14.4444",
+        "Gemini \n3.889",
+        "LLaMA",
+        "LLaMA \n \n2.83",
+        "LLaMA \n-7.2222",
+        "LLaMA \n3.611",
+        "LLaMA \n3.8889",
+        "LLaMA \n7.2222",
+        "LLaMA 3.1",
+        "Llama",
+        "Llama-3",
+        "Mistral",
+        "Mistral \n \n3.5",
+        "Mistral \n3.0556",
+        "Mistral \n3.889",
+        "Mistral \n6.3889",
+        "Mistral 7",
+        "Perplexity",
+        "Phi",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 32
+    },
+    "D4_annotators": "Not reported",
+    "ethics_overall": 100,
+    "ethics_perspective": "Moral Foundations Analysis",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "d137c7ad3adb9b78a4f1caa4e02e7bc0e31c3e98",
+    "s2_matched_title": "MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests reasoning process",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Formalizes the PRIME methodology for analyzing moral priorities across consequentialist-deontological reasoning, MFT, and Kohlberg stages. Dual-protocol approach (direct questioning + dilemma response) with confidence metrics. Scalable methodology but same philosophical depth as companion paper \u2014 framework-aware without deep operationalization.",
+    "ND_score": 61.8,
+    "PE_score": 34.1,
+    "CI_score": 24.7,
+    "COMPOSITE": 42.8,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 11,
+    "filename": "2024-Sorin-Ethical Alignment of LLMs in Healthcare.md",
+    "tier": "Yes",
+    "short_title": "Ethical Alignment of LLMs in Healthcare",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 100,
+      "utilitarian_ethics": 100,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [],
+      "count": 0
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 5,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 2.75
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 5.28
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 5.28,
+    "B8_scorer_type": "Human judgment",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 10,
+    "C2_citations_per_year": 6.67,
+    "C3_venue": "Frontiers Digit. Health",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "Healthcare",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-3.5",
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "GPT-4-turbo",
+        "GPT-4o",
+        "GPT4",
+        "Gemini",
+        "Gemma",
+        "Llama \n3.1-70",
+        "Llama \n3.1-8",
+        "Llama 3.1",
+        "Llama 3.1-70",
+        "Llama 3.1-8",
+        "Llama-3",
+        "Phi",
+        "Phi-3",
+        "Phi-3.5",
+        "Qwen",
+        "o1",
+        "o1-preview",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 23
+    },
+    "D4_annotators": "Not reported",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "149be64f509bd14cfbeecb3291b7cda5bc091e04",
+    "s2_matched_title": "A systematic review of ethical considerations of large language models in healthcare and medicine",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "Creates 5 medical trolley dilemma variants testing deontological vs utilitarian positions. Provides etymology and brief definitions of both traditions but operationalization is shallow \u2014 binary classification of model responses with only 5 scenarios. Short paper with limited philosophical engagement.",
+    "ND_score": 42.8,
+    "PE_score": 28.8,
+    "CI_score": 40.5,
+    "COMPOSITE": 37.3,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 12,
+    "filename": "2025-Cheung-LLMs Amplified Cognitive Biases Moral.md",
+    "tier": "Yes",
+    "short_title": "LLMs Amplified Cognitive Biases",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 100,
+      "utilitarian_ethics": 100,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [],
+      "count": 0
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 22,
+    "B3_data_availability": "Public download",
+    "B3_url": "https://osf.io/3ahrb",
+    "B4_code_availability": "Partial code",
+    "B5_license": "CC-BY-NC",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 3.5
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 6.03
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 6.03,
+    "B8_scorer_type": "Human judgment",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 29,
+    "C2_citations_per_year": 19.33,
+    "C3_venue": "Proceedings of the National Academy of Sciences of the United States of America",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Claude\n3.5",
+        "Claude 3",
+        "Claude 3.5",
+        "Claude 3.5.",
+        "GPT-4",
+        "GPT-4-turbo",
+        "GPT-4o",
+        "Llama",
+        "Llama\n3.1-",
+        "Llama 3",
+        "Llama 3-",
+        "Llama 3.1",
+        "Llama 3.1-",
+        "Llama-3",
+        "Phi",
+        "chatgpt",
+        "llama",
+        "llama3.",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 23
+    },
+    "D4_annotators": "Expert philosophers",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "ae0ec4bd8faea95dcde10b238d6d21415a1340b0",
+    "s2_matched_title": "Large language models show amplified cognitive biases in moral decision-making",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Names utilitarianism vs deontology in dilemma design, but real focus is cognitive biases. Psychology study using moral dilemmas as vehicle.",
+    "ND_score": 46.8,
+    "PE_score": 63.1,
+    "CI_score": 48.1,
+    "COMPOSITE": 52.8,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 13,
+    "filename": "2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md",
+    "tier": "Yes",
+    "short_title": "Rethinking Machine Ethics",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 5,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 50,
+      "care_ethics": 0,
+      "contractarian_ethics": 10
+    },
+    "A1_count": 2,
+    "A7_cultural": "Culturally mixed",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Chinese"
+      ],
+      "count": 2
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 200,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 3.5
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 6.5
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 6.5,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Open models only",
+    "C1_citation_count": 42,
+    "C2_citations_per_year": 12.0,
+    "C3_venue": "NAACL-HLT",
+    "C3_venue_tier": "Tier 1 (top conf)",
+    "C4_downstream_adoption": 2,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4",
+        "GPT4",
+        "Gpt-4",
+        "LLAMA",
+        "LLAMA-2-",
+        "LLAMA2",
+        "LLAMA2-",
+        "Llama",
+        "Llama 2",
+        "Llama-2",
+        "Llama-2-7",
+        "Phi",
+        "T5",
+        "Yi",
+        "gpt-4",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 18
+    },
+    "D4_annotators": "Expert philosophers",
+    "ethics_overall": 100,
+    "ethics_perspective": "Moral Reasoning & Psychology",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "c608fb120ff2de5b2ed25b02731ec092882d7cf8",
+    "s2_matched_title": "Rethinking Machine Ethics - Can LLMs Perform Moral Reasoning through the Lens of Moral Theories?",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests reasoning process",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Operationalizes 4 moral theories (justice, deontology, utilitarianism, TDM) as top-down prompting scaffolds. Tests reasoning, not just verdicts.",
+    "ND_score": 72.0,
+    "PE_score": 27.5,
+    "CI_score": 49.6,
+    "COMPOSITE": 50.8,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 14,
+    "filename": "2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+    "tier": "Yes",
+    "short_title": "Ethical Decision-Making in Humans and Large",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 60,
+      "care_ethics": 100,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [],
+      "count": 0
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 150,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": 46
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 3.25
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 6.53
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 46,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 2,
+    "C2_citations_per_year": 1.33,
+    "C3_venue": "International Conference on Artificial Intelligence Testing",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "Cross-domain",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "Copilot",
+        "DeepSeek",
+        "DeepSeek \n60.0",
+        "DeepSeek \nGPT-",
+        "DeepSeek \nGPT-4.0.",
+        "DeepSeek AI.",
+        "DeepSeek and",
+        "DeepSeek by",
+        "DeepSeek produced",
+        "DeepSeek recorded",
+        "DeepSeek showed",
+        "DeepSeek were",
+        "Deepseek\nChatGPT",
+        "GPT-4",
+        "Gemini",
+        "Gemini \n56.6",
+        "Gemini 1.5",
+        "Opt",
+        "Perplexity",
+        "cohere",
+        "o1",
+        "opt",
+        "perplexity",
+        "phi",
+        "yi"
+      ],
+      "count": 26
+    },
+    "D4_annotators": "Authors only",
+    "ethics_overall": 100,
+    "ethics_perspective": "Bias & Fairness",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "2c77a8e32943d1af2b752e88c71097a02478a21d",
+    "s2_matched_title": "Evaluation of Ethical Decision Making in Large Language Models Across Classical Moral Frameworks",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 1,
+    "normative_depth_rationale": "Ad hoc ethical domains (moral reasoning, fairness, relational ethics, accountability, privacy) with no connection to normative theory. Binary agreement study.",
+    "ND_score": 29.2,
+    "PE_score": 43.0,
+    "CI_score": 25.4,
+    "COMPOSITE": 33.1,
+    "gate_ND": false,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 15,
+    "filename": "2025-Chakraborty-Structured Moral Reasoning.md",
+    "tier": "Yes",
+    "short_title": "Structured Moral Reasoning",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 50,
+      "care_ethics": 60,
+      "contractarian_ethics": 50
+    },
+    "A1_count": 4,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 18164,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": 45
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 4.75
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 6.3
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 45,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 11,
+    "C2_citations_per_year": 7.33,
+    "C3_venue": "Conference on Empirical Methods in Natural Language Processing",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Cohere",
+        "GPT-4",
+        "LLAMA 3.2",
+        "LLAMA 3.3",
+        "LLaMA",
+        "LLaMA 3.2",
+        "LLaMA 3.3",
+        "LLaMA 4",
+        "LLaMA-",
+        "LLaMA-2",
+        "LLaMA-3.1",
+        "LLaMA-3.2",
+        "LLaMA-3.3",
+        "Llama-2",
+        "Llama-3",
+        "Mistral",
+        "Mistral\nLarge",
+        "Mistral 123",
+        "Mistral 7",
+        "Mistral Large",
+        "Opt",
+        "Phi",
+        "Phi-4",
+        "Qwen",
+        "Qwen\n2.5",
+        "Qwen 2.5",
+        "Qwen2.5",
+        "Yi",
+        "cohere",
+        "gpt-4",
+        "llama 3",
+        "llama-4",
+        "llama.",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 36
+    },
+    "D4_annotators": "Not reported",
+    "ethics_overall": 100,
+    "ethics_perspective": "Moral Reasoning & Psychology",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "813aad5e59199362f6e1ef47722ded137ddd1cd3",
+    "s2_matched_title": "Structured Moral Reasoning in Language Models: A Value-Grounded Evaluation Framework",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests reasoning process",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Value-grounded framework using Schwartz values + care ethics + ethical theories. Cites Haidt, Greene, Cushman. Tests structured reasoning with prompting taxonomy.",
+    "ND_score": 83.0,
+    "PE_score": 43.0,
+    "CI_score": 41.5,
+    "COMPOSITE": 58.6,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 16,
+    "filename": "2025-Jiao-LLM Ethics Benchmark.md",
+    "tier": "Yes-Tier2",
+    "short_title": "LLM Ethics Benchmark",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 5,
+      "deontological_ethics": 5,
+      "utilitarian_ethics": 15,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "Chinese"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": null,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "IMPLEMENTED",
+        "score": null
+      },
+      "inspect": {
+        "tier": "READY",
+        "score": 60
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 5.5
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 9.55
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 1,
+      "ready_count": 2,
+      "total_accessible": 3
+    },
+    "B7_implementability": 60,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 12,
+    "C2_citations_per_year": 8.0,
+    "C3_venue": "Scientific Reports",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 1,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Claude",
+        "Claude 3.7",
+        "DeepSeek",
+        "Deepseek\nLLaMA",
+        "Deepseek-V3",
+        "GPT-4",
+        "GPT-4o",
+        "Gemini",
+        "Gemini\n70",
+        "Gemini 2.5 Pro",
+        "Gpt-4",
+        "LLaMA",
+        "LLaMA 3.1",
+        "Llama 2",
+        "Llama-3",
+        "Phi",
+        "Yi",
+        "claude",
+        "cohere",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 22
+    },
+    "D4_annotators": "Crowdworkers",
+    "ethics_overall": 100,
+    "ethics_perspective": "AI Safety & Alignment",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "27c53381af4d06fc3327dd8d138a0b9e0acdf27e",
+    "s2_matched_title": "LLM ethics benchmark: a three-dimensional assessment system for evaluating moral reasoning in large language models",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "Names moral foundations + reasoning dimensions but vague on philosophical operationalization.",
+    "ND_score": 24.2,
+    "PE_score": 85.5,
+    "CI_score": 43.0,
+    "COMPOSITE": 50.4,
+    "gate_ND": false,
+    "gate_data": true,
+    "passes_gates": false
+  },
+  {
+    "id": 17,
+    "filename": "2024-Ji-MoralBench.md",
+    "tier": "Yes-Tier2",
+    "short_title": "MoralBench",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 0,
+      "utilitarian_ethics": 0,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "MCQ",
+    "B2_dataset_size": 132,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/agiresearch/MoralBench",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": 55
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 6.5
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 10.0
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 1,
+      "total_accessible": 1
+    },
+    "B7_implementability": 55,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 44,
+    "C2_citations_per_year": 17.6,
+    "C3_venue": "SIGKDD Explorations",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 1,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "Chatgpt",
+        "GPT-3.5",
+        "GPT-4",
+        "Gemma",
+        "Gpt-4",
+        "LLaMA",
+        "LLaMA-2",
+        "LLaMA-2.",
+        "Llama",
+        "Llama 2",
+        "Llama-2",
+        "Opt",
+        "Phi",
+        "Yi",
+        "Zephyr",
+        "Zephyr\n1.0",
+        "Zephyr\n1.4",
+        "Zephyr\n7.6",
+        "Zephyr\n9.9",
+        "Zephyr 3.6.0",
+        "bard",
+        "chatgpt",
+        "command",
+        "gemini",
+        "gpt-3.5-turbo",
+        "gpt-4",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 30
+    },
+    "D4_annotators": "Not reported",
+    "ethics_overall": 100,
+    "ethics_perspective": "AI Safety & Alignment",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "a9ebf9ce1e644ff2a49fdd6ef0d9efe91071b453",
+    "s2_matched_title": "MoralBench: Moral Evaluation of LLMs",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "Well-executed MFT-based benchmark, but MFT is descriptive psychology not normative philosophy.",
+    "ND_score": 24.2,
+    "PE_score": 80.5,
+    "CI_score": 45.9,
+    "COMPOSITE": 49.3,
+    "gate_ND": false,
+    "gate_data": true,
+    "passes_gates": false
+  },
+  {
+    "id": 18,
+    "filename": "2024-Garcia-The Moral Turing Test.md",
+    "tier": "Yes-Tier2",
+    "short_title": "The Moral Turing Test",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 0,
+      "utilitarian_ethics": 80,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 1,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Open-ended",
+    "B2_dataset_size": 60,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 4.0
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 7.05
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 7.05,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 3,
+    "C2_citations_per_year": 1.2,
+    "C3_venue": "Philosophy & Technology",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "GPT-3.5",
+        "GPT-4",
+        "Palm",
+        "Phi",
+        "Yi",
+        "opt",
+        "palm",
+        "phi",
+        "solar",
+        "text-davinci-002",
+        "text-davinci-003",
+        "yi"
+      ],
+      "count": 13
+    },
+    "D4_annotators": "LLM-generated",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "1a5e862d5e65df762bb550536cedc1c4b943d5fa",
+    "s2_matched_title": "The Moral Turing Test: a defense",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "Trolley-style utilitarian dilemmas (Greene framing) but focus is on human detection/agreement, not normative evaluation.",
+    "ND_score": 27.2,
+    "PE_score": 34.1,
+    "CI_score": 21.6,
+    "COMPOSITE": 28.2,
+    "gate_ND": false,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 19,
+    "filename": "2024-Liu-Evaluating Moral Beliefs across LLMs through a.md",
+    "tier": "Yes-Tier2",
+    "short_title": "Evaluating Moral Beliefs across LLMs through a",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 5,
+      "deontological_ethics": 45,
+      "utilitarian_ethics": 0,
+      "care_ethics": 0,
+      "contractarian_ethics": 5
+    },
+    "A1_count": 0,
+    "A7_cultural": "Culturally native",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Chinese"
+      ],
+      "count": 2
+    },
+    "B1_format": "Pairwise comparison",
+    "B2_dataset_size": 472,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/MuMu-Lily/Moral-Beliefs",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 5.25
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 8.8
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 1,
+      "total_accessible": 1
+    },
+    "B7_implementability": 8.8,
+    "B8_scorer_type": "Custom metric",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 230,
+    "C2_citations_per_year": 65.71,
+    "C3_venue": "Neural Information Processing Systems",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 23,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "Chatgpt",
+        "GPT-3.5-turbo",
+        "Gemini",
+        "Gemini\n0.85",
+        "Gemini pro",
+        "Gemini.",
+        "Opt",
+        "Phi",
+        "Yi",
+        "chatgpt",
+        "gpt-3.5-turbo",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 15
+    },
+    "D4_annotators": "Authors only",
+    "ethics_overall": 95,
+    "ethics_perspective": "General Ethics",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "12acdfc7e32e9d603dc108008bb15e65439e7c79",
+    "s2_matched_title": "Evaluating the Moral Beliefs Encoded in LLMs",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "Cultural moral pluralism (individualist vs collectivist) without grounding in normative traditions.",
+    "ND_score": 24.2,
+    "PE_score": 76.9,
+    "CI_score": 62.9,
+    "COMPOSITE": 52.3,
+    "gate_ND": false,
+    "gate_data": true,
+    "passes_gates": false
+  },
+  {
+    "id": 20,
+    "filename": "2024-Yu-CMoralEval.md",
+    "tier": "Yes-Tier2",
+    "short_title": "CMoralEval",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 50,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Culturally native",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Chinese"
+      ],
+      "count": 2
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 30388,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/tjunlp-lab/CMoralEval",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "MIT",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "READY",
+        "score": 80
+      },
+      "inspect": {
+        "tier": "READY",
+        "score": 60
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 6.0
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 9.55
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 3,
+      "total_accessible": 3
+    },
+    "B7_implementability": 80,
+    "B8_scorer_type": "Exact match",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 10,
+    "C2_citations_per_year": 4.0,
+    "C3_venue": "Annual Meeting of the Association for Computational Linguistics",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 1,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Alpaca",
+        "ChatGPT",
+        "GPT-3.5",
+        "InternLM",
+        "InternLM.",
+        "InternLM2",
+        "Internlm",
+        "Internlm2",
+        "LLAMA2",
+        "LLaMA",
+        "LLaMA-2",
+        "Llama",
+        "Llama-2",
+        "Llama-2-13",
+        "Llama-2-7",
+        "Llama2",
+        "Llama2-",
+        "Mistral",
+        "Opt",
+        "Phi",
+        "Qwen",
+        "Yi",
+        "Yi-13",
+        "Yi-34",
+        "Yi-6",
+        "Yi-7",
+        "alpaca",
+        "cohere",
+        "internlm2",
+        "llama",
+        "llama-2-",
+        "o1",
+        "opt",
+        "yi"
+      ],
+      "count": 34
+    },
+    "D4_annotators": "Authors only",
+    "ethics_overall": 95,
+    "ethics_perspective": "Moral Reasoning & Psychology",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": "b70062cd24b30cc0c7698d65da8c155ef7109f46",
+    "s2_matched_title": "CMoralEval: A Moral Evaluation Benchmark for Chinese Large Language Models",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "MFT + Chinese moral norms taxonomy. Separates dilemma vs explicit moral scenarios but grounding is in cultural norms, not normative philosophy.",
+    "ND_score": 38.2,
+    "PE_score": 92.5,
+    "CI_score": 38.3,
+    "COMPOSITE": 57.2,
+    "gate_ND": false,
+    "gate_data": true,
+    "passes_gates": false
+  },
+  {
+    "id": 21,
+    "filename": "2025-Galatolo-Beyond Ethical Alignment.md",
+    "tier": "Borderline",
+    "short_title": "Beyond Ethical Alignment",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 0,
+      "utilitarian_ethics": 0,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [],
+      "count": 0
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 1090,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/alessioGalatolo/AMAeval",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 5.0
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 8.8
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 1,
+      "total_accessible": 1
+    },
+    "B7_implementability": 8.8,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 2,
+    "C2_citations_per_year": 1.33,
+    "C3_venue": "European Conference on Artificial Intelligence",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Chatgpt",
+        "GPT-4o",
+        "Gemma",
+        "Gemma 3",
+        "Llama",
+        "Llama 3.1",
+        "Llama 3.1-3.3",
+        "Llama 3.1-8",
+        "Llama 3.2",
+        "Llama 3.3",
+        "Llama-3",
+        "Phi",
+        "Phi-3",
+        "Phi-4",
+        "Qwen",
+        "Qwen\n2.5",
+        "Qwen 2.",
+        "Qwen 2.5",
+        "Qwen2.5",
+        "Yi",
+        "cohere",
+        "gpt-4o",
+        "gpt-4o-mini",
+        "llama 3",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 27
+    },
+    "D4_annotators": "Authors only",
+    "ethics_overall": 100,
+    "ethics_perspective": "AI Safety & Alignment",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": null,
+    "s2_paper_id": "5af743fecd1ed3d224aeb94d0653c693f2556762",
+    "s2_matched_title": "Beyond Ethical Alignment: Evaluating LLMs as Artificial Moral Assistants",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests reasoning process",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Formal AMA framework from philosophical literature. Tests deductive AND abductive moral reasoning explicitly. Connects AI evaluation to philosophy of ethics.",
+    "ND_score": 71.0,
+    "PE_score": 76.9,
+    "CI_score": 25.4,
+    "COMPOSITE": 61.7,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 22,
+    "filename": "2024-Chhabra-Evaluating Computational Models of Ethics.md",
+    "tier": "Borderline",
+    "short_title": "Evaluating Computational Models of Ethics",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 85,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [],
+      "count": 0
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": null,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 3.75
+      },
+      "openai_evals": {
+        "tier": "BARRIERS",
+        "score": 4.8
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 4.8,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 2,
+    "C2_citations_per_year": 0.8,
+    "C3_venue": "AI and Ethics",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Cohere",
+        "Phi",
+        "cohere",
+        "command r",
+        "yi"
+      ],
+      "count": 5
+    },
+    "D4_annotators": "Not reported",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "No",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": "d909c1609a470e6c7a40eaed6c67c49cd5c734b1",
+    "s2_matched_title": "Evaluating computational models of ethics for autonomous decision making",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Implements four named normative paradigms (deontology, utilitarianism, virtue ethics, computational transcendence) as computational agents in SPECTRA framework. Meaningful operationalization of each tradition, though extract is paywalled so depth beyond abstract is uncertain.",
+    "ND_score": 70.0,
+    "PE_score": 27.4,
+    "CI_score": 20.7,
+    "COMPOSITE": 42.8,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 23,
+    "filename": "2025-Sorensen-Operationalizing Pluralistic Values.md",
+    "tier": "Borderline",
+    "short_title": "Operationalizing Pluralistic Values",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 0,
+      "utilitarian_ethics": 15,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Chinese",
+        "German"
+      ],
+      "count": 3
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": null,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/DALIAALISIDDIG/AlignCure",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": 50
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 5.25
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 8.75
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 1,
+      "total_accessible": 1
+    },
+    "B7_implementability": 50,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Open models only",
+    "C1_citation_count": 5,
+    "C2_citations_per_year": 3.33,
+    "C3_venue": "arXiv.org",
+    "C3_venue_tier": "Tier 3 (workshop/preprint)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Deepseekmath",
+        "GPT-4",
+        "GPT-4o",
+        "GPT-4o-mini",
+        "Llama",
+        "Llama-3-",
+        "Llama-3-8",
+        "Llama-3.2",
+        "Llama-3.2-",
+        "Llama3.2-1",
+        "Opt",
+        "Phi",
+        "Qwen3",
+        "Vicuna",
+        "Yi",
+        "llama3.2-1",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 19
+    },
+    "D4_annotators": "Crowdworkers",
+    "ethics_overall": 60,
+    "ethics_perspective": "AI Safety & Alignment",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": "f8467b8a6c4a8aa65f7ef1c478505236b238a3cd",
+    "s2_matched_title": "The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "Engages with value pluralism philosophically (cites Gabriel, Kasirzadeh) but the actual evaluation dimensions are toxicity, emotional awareness, bias, and helpfulness \u2014 not normative ethics frameworks. The pluralism is demographic/political, not normative-theoretic.",
+    "ND_score": 39.2,
+    "PE_score": 75.5,
+    "CI_score": 31.8,
+    "COMPOSITE": 50.1,
+    "gate_ND": false,
+    "gate_data": true,
+    "passes_gates": false
+  },
+  {
+    "id": 24,
+    "filename": "2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.md",
+    "tier": "Borderline",
+    "short_title": "Aligning LLM Agents with Rational and Kantian Preferences",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 65,
+      "utilitarian_ethics": 80,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "German"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 18,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 3.5
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 8.5
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 1,
+      "total_accessible": 1
+    },
+    "B7_implementability": 8.5,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 2,
+    "C2_citations_per_year": 1.33,
+    "C3_venue": "AI and Ethics",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "GPT-3.5",
+        "GPT-4",
+        "GPT-4o",
+        "Llama 2",
+        "Opt",
+        "Phi",
+        "Yi",
+        "chatgpt",
+        "cohere",
+        "gpt-4o",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 14
+    },
+    "D4_annotators": "LLM-generated",
+    "ethics_overall": 30,
+    "ethics_perspective": "Kantian Ethics",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": "3c9e50014b2af5d02079e33eaccd5b27ec5c2e2e",
+    "s2_matched_title": "Kantian deontology for AI: alignment without moral agency",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests reasoning process",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Deeply operationalizes Kantian universalizability (homo moralis) grounded in behavioral economics literature (Alger & Weibull 2013). Uses economic game theory to formalize moral preferences via utility functions. Strong but limited to one normative tradition.",
+    "ND_score": 62.0,
+    "PE_score": 41.0,
+    "CI_score": 25.4,
+    "COMPOSITE": 45.5,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 25,
+    "filename": "2023-Rao-Ethical Reasoning over Moral Alignment.md",
+    "tier": "Borderline",
+    "short_title": "Ethical Reasoning over Moral Alignment",
+    "year": "2023",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 65,
+      "utilitarian_ethics": 50,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Italian"
+      ],
+      "count": 2
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 72,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 3.25
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 5.8
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 5.8,
+    "B8_scorer_type": "Exact match",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 45,
+    "C2_citations_per_year": 18.0,
+    "C3_venue": "International Conference on Language Resources and Evaluation",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2023",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Alpaca",
+        "ChatGPT",
+        "GPT-3.5",
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "LLaMA",
+        "LLaMa",
+        "O1",
+        "Opt",
+        "Phi",
+        "Vicuna",
+        "Yi",
+        "alpaca",
+        "cohere",
+        "gpt-4",
+        "opt",
+        "phi",
+        "text-davinci-002",
+        "text-davinci-003",
+        "yi"
+      ],
+      "count": 20
+    },
+    "D4_annotators": "Expert philosophers",
+    "ethics_overall": 95,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": "af8b26c3f10acfe86aa0a07d11ce4653e1dbf1cc",
+    "s2_matched_title": "Ethical Reasoning and Moral Value Alignment of LLMs Depend on the Language We Prompt Them in",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests reasoning process",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Develops framework integrating moral dilemmas with multiple normative formalisms at different abstraction levels. Explicitly argues for ethical reasoning over alignment, tests with different ethical policies as in-context prompts. Engages seriously with value pluralism and normative traditions.",
+    "ND_score": 80.0,
+    "PE_score": 30.4,
+    "CI_score": 47.2,
+    "COMPOSITE": 54.4,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 26,
+    "filename": "2025-Keshmirian-Many LLMs Are More Utilitarian Than One.md",
+    "tier": "Borderline",
+    "short_title": "Many LLMs Are More Utilitarian Than One",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 5,
+      "utilitarian_ethics": 100,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 1,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 60,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/baltaci-r/MoralAgents",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "CC-BY",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 4.5
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 7.05
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 7.05,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 1,
+    "C2_citations_per_year": 0.67,
+    "C3_venue": "AAAI Conference on Artificial Intelligence",
+    "C3_venue_tier": "Tier 1 (top conf)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4",
+        "GPT4",
+        "Gemma",
+        "Gemma 3",
+        "Gemma2",
+        "Gemma3",
+        "Gpt-4",
+        "Llama-3",
+        "Llama-3.3",
+        "Llama3.3",
+        "Phi",
+        "Qwen",
+        "Qwen2.5",
+        "Qwen3",
+        "Qwen3.",
+        "Qwen3.5",
+        "Yi",
+        "cohere",
+        "command",
+        "gpt-4",
+        "llama",
+        "llama 3",
+        "opt",
+        "phi",
+        "qwen",
+        "qwen2.5",
+        "qwen3",
+        "yi"
+      ],
+      "count": 28
+    },
+    "D4_annotators": "Crowdworkers",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": "d137c7ad3adb9b78a4f1caa4e02e7bc0e31c3e98",
+    "s2_matched_title": "MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "Uses established moral dilemmas from Greene's dual-process tradition to test utilitarian boost in multi-agent LLMs. Names utilitarian/deontological framing but the dilemmas are standard trolley-type scenarios without deep operationalization of normative theories.",
+    "ND_score": 39.8,
+    "PE_score": 76.2,
+    "CI_score": 24.7,
+    "COMPOSITE": 48.8,
+    "gate_ND": false,
+    "gate_data": true,
+    "passes_gates": false
+  },
+  {
+    "id": 27,
+    "filename": "2025-Hui-Decoding Moral Responses in AI.md",
+    "tier": "Borderline",
+    "short_title": "Decoding Moral Responses in AI",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 0,
+      "utilitarian_ethics": 15,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [],
+      "count": 0
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": null,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 3.5
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 5.05
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 5.05,
+    "B8_scorer_type": "Human judgment",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 1,
+    "C2_citations_per_year": 0.67,
+    "C3_venue": "Computers in Human Behavior Reports",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Claude",
+        "Claude 3.7",
+        "GPT-3.5",
+        "GPT-4",
+        "Gemini 2.5 Pro",
+        "phi",
+        "yi"
+      ],
+      "count": 7
+    },
+    "D4_annotators": "Not reported",
+    "ethics_overall": 35,
+    "ethics_perspective": "General Ethics",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": "4ff8e832c442f525bc98c0866757c927e39af9b4",
+    "s2_matched_title": "Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 1,
+    "normative_depth_rationale": "Presents moral dilemmas under deontological and utilitarian rule conditions but engagement is minimal \u2014 frameworks are used as simple prompting conditions. No deep operationalization or philosophical grounding. Calibration anchor per instructions.",
+    "ND_score": 20.2,
+    "PE_score": 28.1,
+    "CI_score": 19.7,
+    "COMPOSITE": 22.8,
+    "gate_ND": false,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 28,
+    "filename": "2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md",
+    "tier": "Borderline",
+    "short_title": "Large-scale moral machine experiment on large",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 0,
+      "utilitarian_ethics": 35,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Culturally mixed",
+    "A8_multilingual": {
+      "languages": [
+        "German",
+        "Bengali"
+      ],
+      "count": 2
+    },
+    "B1_format": "Pairwise comparison",
+    "B2_dataset_size": 50000,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/kztakemoto/mmllm",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 8.3
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 1,
+      "total_accessible": 1
+    },
+    "B7_implementability": 8.3,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 14,
+    "C2_citations_per_year": 5.6,
+    "C3_venue": "PLoS ONE",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Claude 3",
+        "Claude 3.5",
+        "Cohere",
+        "Command",
+        "Command\nR+",
+        "Command R+",
+        "GPT-3.5",
+        "GPT-4",
+        "GPT-4o",
+        "GPT-4o-mini",
+        "Gemini",
+        "Gemini 1.0\nPro",
+        "Gemini 1.0 Pro",
+        "Gemini 1.5",
+        "Gemini 1.5 Flash",
+        "Gemini 1.5 Pro",
+        "Gemini Pro",
+        "Gemma",
+        "Gemma\n7",
+        "Gemma 1.1",
+        "Gemma 2",
+        "Llama",
+        "Llama 2",
+        "Llama 3",
+        "Llama 3.1",
+        "Llama 3.2",
+        "Llama 3.3",
+        "Llama 70",
+        "Llama-3",
+        "Llama-70",
+        "Mistral",
+        "Mistral 7",
+        "Mistral NeMo",
+        "PaLM 2",
+        "Phi",
+        "Phi-3",
+        "Phi-3.5",
+        "Vicuna",
+        "Vicuna 13",
+        "Vicuna 7",
+        "Vicuna v1.5",
+        "chatgpt",
+        "cohere",
+        "command",
+        "command R+",
+        "gemini",
+        "gpt-3.5-turbo",
+        "gpt-4",
+        "gpt-4o",
+        "llama 3",
+        "mistral",
+        "mistral.",
+        "o1",
+        "o1-mini",
+        "opt",
+        "phi",
+        "vicuna",
+        "yi"
+      ],
+      "count": 60
+    },
+    "D4_annotators": "Not reported",
+    "ethics_overall": 100,
+    "ethics_perspective": "Machine Ethics",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": "6a74399b87e0dc93e584866c87d6dd960a066ef0",
+    "s2_matched_title": "Large-scale moral machine experiment on large language models",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "N/A",
+    "A6_grounding": 1,
+    "normative_depth_rationale": "Applies Moral Machine framework to 52 LLMs. Tests alignment with human preferences in trolley-style autonomous driving dilemmas. No engagement with normative ethics frameworks \u2014 ethics vocabulary without philosophical substance.",
+    "ND_score": 15.2,
+    "PE_score": 75.4,
+    "CI_score": 39.6,
+    "COMPOSITE": 42.4,
+    "gate_ND": false,
+    "gate_data": true,
+    "passes_gates": false
+  },
+  {
+    "id": 29,
+    "filename": "2024-Takemoto-The moral machine experiment on large language.md",
+    "tier": "Borderline",
+    "short_title": "The moral machine experiment on large language",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 0,
+      "utilitarian_ethics": 30,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Culturally mixed",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "German"
+      ],
+      "count": 2
+    },
+    "B1_format": "Pairwise comparison",
+    "B2_dataset_size": null,
+    "B3_data_availability": "Public download",
+    "B3_url": "https://doi.org/10.5061/dryad.d7wm37q6v",
+    "B4_code_availability": "Partial code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "IMPLEMENTED",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 4.25
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 5.78
+      },
+      "eleutherai": {
+        "tier": "IMPLEMENTED",
+        "score": null
+      },
+      "implemented_count": 2,
+      "ready_count": 0,
+      "total_accessible": 2
+    },
+    "B7_implementability": 10.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 51,
+    "C2_citations_per_year": 14.57,
+    "C3_venue": "Royal Society Open Science",
+    "C3_venue_tier": "Tier 2 (good conf/journal)",
+    "C4_downstream_adoption": 2,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Bard",
+        "ChatGPT",
+        "GPT-3.5",
+        "GPT-4",
+        "Llama",
+        "Llama 2",
+        "Llama 2.",
+        "Llama-2",
+        "Llama2",
+        "Llama2-",
+        "Llama2.",
+        "PaLM",
+        "PaLM\n2",
+        "PaLM 2",
+        "PaLM2",
+        "Phi",
+        "Vicuna",
+        "bard",
+        "chatgpt",
+        "gpt-3.5-turbo",
+        "gpt-4",
+        "llama2-7",
+        "opt",
+        "phi",
+        "vicuna",
+        "yi"
+      ],
+      "count": 26
+    },
+    "D4_annotators": "LLM-generated",
+    "ethics_overall": 100,
+    "ethics_perspective": "Machine Ethics",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": "429cda56b73b956ab032b551761a6c9308c13131",
+    "s2_matched_title": "The moral machine experiment on large language models",
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "N/A",
+    "A6_grounding": 1,
+    "normative_depth_rationale": "Earlier, smaller Moral Machine study on 4 LLMs. Same approach as Zaim Bin Ahmad \u2014 compares LLM preferences with human preferences in trolley scenarios. Mentions 'ethical frameworks of LLMs' in abstract but no actual normative theory engagement.",
+    "ND_score": 15.2,
+    "PE_score": 78.0,
+    "CI_score": 45.5,
+    "COMPOSITE": 44.8,
+    "gate_ND": false,
+    "gate_data": true,
+    "passes_gates": false
+  },
+  {
+    "id": 30,
+    "filename": "2024-Huang-Moral Persuasion in Large Language Models.md",
+    "tier": "Borderline",
+    "short_title": "Moral Persuasion in Large Language Models",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 50,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [],
+      "count": 0
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 108,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/acyhuang/moral-persuasion",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "BARRIERS",
+        "score": 43
+      },
+      "inspect": {
+        "tier": "IMPLEMENTED",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 5.0
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 8.5
+      },
+      "eleutherai": {
+        "tier": "IMPLEMENTED",
+        "score": null
+      },
+      "implemented_count": 2,
+      "ready_count": 1,
+      "total_accessible": 3
+    },
+    "B7_implementability": 43,
+    "B8_scorer_type": "Custom metric",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 5,
+    "C2_citations_per_year": 2.0,
+    "C3_venue": "arXiv.org",
+    "C3_venue_tier": "Tier 3 (workshop/preprint)",
+    "C4_downstream_adoption": 1,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Claude",
+        "GPT-4o",
+        "Llama-3",
+        "Mistral",
+        "Mixtral",
+        "Phi",
+        "claude",
+        "gpt-4o",
+        "gpt-4o-mini",
+        "llama-3.1-70",
+        "llama-3.1-8",
+        "mistral",
+        "mixtral",
+        "opt",
+        "phi",
+        "yi"
+      ],
+      "count": 16
+    },
+    "D4_annotators": "LLM-generated",
+    "ethics_overall": 100,
+    "ethics_perspective": "General Ethics",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": "48a35b4f29da41740c8ed503f453cd98763e5c0a",
+    "s2_matched_title": "Moral Persuasion in Large Language Models: Evaluating Susceptibility and Ethical Alignment",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests both",
+    "A4_uncertainty": "Explicitly tested",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Tests LLM persuasion using Gert's common morality rules and prompts LLMs to adopt specific philosophical frameworks, measured via MFT. Engages with both normative (classical moral philosophies) and descriptive (MFT) approaches. Morally ambiguous scenarios explicitly tested. Operationalization somewhat shallow.",
+    "ND_score": 79.8,
+    "PE_score": 85.5,
+    "CI_score": 22.9,
+    "COMPOSITE": 67.6,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 31,
+    "filename": "2024-Seror-The Moral Mind(s) of Large Language Models.md",
+    "tier": "Borderline",
+    "short_title": "The Moral Mind(s) of Large Language Models",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 5,
+      "utilitarian_ethics": 25,
+      "care_ethics": 5,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Culturally mixed",
+    "A8_multilingual": {
+      "languages": [
+        "French"
+      ],
+      "count": 1
+    },
+    "B1_format": "Pairwise comparison",
+    "B2_dataset_size": 680,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "NA",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "NOT_FEASIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "BARRIERS",
+        "score": 4.25
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 7.05
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 7.05,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 6,
+    "C2_citations_per_year": 2.4,
+    "C3_venue": "arXiv.org",
+    "C3_venue_tier": "Tier 3 (workshop/preprint)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "GPT-4",
+        "Gemini",
+        "Gemini 1.5",
+        "Llama",
+        "Llama-",
+        "Llama-3",
+        "Llama-3-70",
+        "Llama-3.2-1",
+        "Llama3-70",
+        "Llama3.2-1",
+        "Mistral",
+        "Mistral.",
+        "Mixtral",
+        "Opt",
+        "Qwen",
+        "Qwen1.5",
+        "Qwen2",
+        "claude",
+        "cohere",
+        "gemini",
+        "gemini 1.5",
+        "gemma2",
+        "gpt-3.5-turbo",
+        "gpt-4",
+        "gpt-4-turbo",
+        "gpt-4o",
+        "gpt-4o-mini",
+        "llama3",
+        "llama3-2-1",
+        "llama3-70",
+        "llama3.1-405",
+        "llama3.1-8",
+        "llama3.2",
+        "llama3.2-1",
+        "llama3.2-3",
+        "llama3.2-90",
+        "mistral",
+        "mixtral",
+        "mixtral\n0.35",
+        "opt",
+        "yi"
+      ],
+      "count": 43
+    },
+    "D4_annotators": "LLM-generated",
+    "ethics_overall": 100,
+    "ethics_perspective": "General Ethics",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": null,
+    "s2_paper_id": "4bdb0db8ca281303a3a0caec85c388bbf264e9d7",
+    "s2_matched_title": "The Moral Mind(s) of Large Language Models",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Novel revealed preference methodology from economics applied to ~40 LLMs across 5 ethical dimensions. Methodologically rigorous but normative engagement is at scenario level \u2014 structured dilemmas spanning ethical dimensions rather than deep framework operationalization. The economics framing (utility functions, rationality tests) is sophisticated but ethics content is moderate.",
+    "ND_score": 55.8,
+    "PE_score": 34.1,
+    "CI_score": 23.2,
+    "COMPOSITE": 40.1,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 32,
+    "filename": "2024-Chiu-DailyDilemmas.md",
+    "tier": "External-New",
+    "short_title": "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+    "year": "2024",
+    "A1_traditions": {},
+    "A1_count": 1,
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Binary",
+    "B2_dataset_size": 1360,
+    "B3_data_availability": "HuggingFace",
+    "B3_url": "",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "CC-BY",
+    "B6_harness": {
+      "total_accessible": 1
+    },
+    "B7_implementability": 7.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 5,
+    "C2_citations_per_year": 3.0,
+    "C3_venue": "",
+    "C3_venue_tier": "Tier 4 (arXiv/unknown)",
+    "C4_downstream_adoption": 0,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4-turbo",
+        "GPT-3.5-turbo",
+        "Llama-2-70B",
+        "Llama-3-70B",
+        "Mixtral-8x7B",
+        "Claude-3-Haiku"
+      ],
+      "count": 6
+    },
+    "D4_annotators": "Authors only",
+    "ethics_overall": null,
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": null,
+    "ND_score": 62.8,
+    "PE_score": 78.5,
+    "CI_score": 25.8,
+    "COMPOSITE": 59.0,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 33,
+    "filename": "2025-Hong-PrinciplismQA.md",
+    "tier": "External-New",
+    "short_title": "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+    "year": "2025",
+    "A1_traditions": {},
+    "A1_count": 3,
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests both",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 3648,
+    "B3_data_availability": "GitHub",
+    "B3_url": "",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "CC-BY",
+    "B6_harness": {
+      "total_accessible": 1
+    },
+    "B7_implementability": 7.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 5,
+    "C2_citations_per_year": 3.0,
+    "C3_venue": "",
+    "C3_venue_tier": "Tier 4 (arXiv/unknown)",
+    "C4_downstream_adoption": 0,
+    "D1_year": "2025",
+    "D2_domain": "Healthcare",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4.1",
+        "o3",
+        "Claude Sonnet 4",
+        "Gemini 2.5 Flash",
+        "DeepSeek-V3",
+        "Qwen-2.5",
+        "Llama-3"
+      ],
+      "count": 7
+    },
+    "D4_annotators": "Expert philosophers",
+    "ethics_overall": null,
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": null,
+    "ND_score": 85.0,
+    "PE_score": 78.5,
+    "CI_score": 25.8,
+    "COMPOSITE": 67.9,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 34,
+    "filename": "2025-Russo-The Pluralistic Moral Gap.md",
+    "tier": "External-New",
+    "short_title": "The Pluralistic Moral Gap: Understanding Judgment and Value Alignment in Moral Pluralism",
+    "year": "2025",
+    "A1_traditions": {},
+    "A1_count": 4,
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests both",
+    "A4_uncertainty": "Explicitly tested",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 3,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 1618,
+    "B3_data_availability": "GitHub",
+    "B3_url": "",
+    "B4_code_availability": "No code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "total_accessible": 1
+    },
+    "B7_implementability": 7.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 5,
+    "C2_citations_per_year": 3.0,
+    "C3_venue": "",
+    "C3_venue_tier": "Tier 4 (arXiv/unknown)",
+    "C4_downstream_adoption": 0,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4o-mini",
+        "o1",
+        "o3-mini",
+        "Claude-3-Haiku",
+        "Claude-3-Opus",
+        "Claude-3-Sonnet",
+        "Mistral-Large",
+        "Llama-3",
+        "DBRX",
+        "Qwen"
+      ],
+      "count": 10
+    },
+    "D4_annotators": "Mixed",
+    "ethics_overall": null,
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": null,
+    "ND_score": 82.8,
+    "PE_score": 56.5,
+    "CI_score": 25.8,
+    "COMPOSITE": 59.3,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 35,
+    "filename": "2025-Kumar-UniMoral.md",
+    "tier": "External-New",
+    "short_title": "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+    "year": "2025",
+    "A1_traditions": {},
+    "A1_count": 2,
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "Arabic",
+        "Chinese",
+        "English",
+        "Hindi",
+        "Russian",
+        "Spanish"
+      ],
+      "count": 6
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 5000,
+    "B3_data_availability": "HuggingFace",
+    "B3_url": "",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "total_accessible": 1
+    },
+    "B7_implementability": 7.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 5,
+    "C2_citations_per_year": 3.0,
+    "C3_venue": "",
+    "C3_venue_tier": "Tier 4 (arXiv/unknown)",
+    "C4_downstream_adoption": 0,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4",
+        "Claude-3",
+        "Llama-3",
+        "Mistral"
+      ],
+      "count": 4
+    },
+    "D4_annotators": "Mixed",
+    "ethics_overall": null,
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": null,
+    "ND_score": 57.8,
+    "PE_score": 71.5,
+    "CI_score": 25.8,
+    "COMPOSITE": 54.6,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 36,
+    "filename": "2025-Wei-MedEthicsQA.md",
+    "tier": "External-New",
+    "short_title": "MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics",
+    "year": "2025",
+    "A1_traditions": {},
+    "A1_count": 3,
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 3,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 10974,
+    "B3_data_availability": "GitHub",
+    "B3_url": "",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "CC-BY-NC",
+    "B6_harness": {
+      "total_accessible": 1
+    },
+    "B7_implementability": 7.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 5,
+    "C2_citations_per_year": 3.0,
+    "C3_venue": "",
+    "C3_venue_tier": "Tier 4 (arXiv/unknown)",
+    "C4_downstream_adoption": 0,
+    "D1_year": "2025",
+    "D2_domain": "Healthcare",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4",
+        "Claude-3",
+        "DeepSeek-V3",
+        "Qwen-2.5",
+        "Llama-3"
+      ],
+      "count": 5
+    },
+    "D4_annotators": "Authors only",
+    "ethics_overall": null,
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": null,
+    "ND_score": 59.8,
+    "PE_score": 73.5,
+    "CI_score": 25.8,
+    "COMPOSITE": 56.1,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 37,
+    "filename": "2026-Thomas-ProMoral-Bench.md",
+    "tier": "External-New",
+    "short_title": "ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs",
+    "year": "2026",
+    "A1_traditions": {},
+    "A1_count": 2,
+    "A2_depth": "Implicit/surface",
+    "A3_reasoning": "Tests both",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 5000,
+    "B3_data_availability": "GitHub",
+    "B3_url": "",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "total_accessible": 1
+    },
+    "B7_implementability": 7.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 5,
+    "C2_citations_per_year": 3.0,
+    "C3_venue": "",
+    "C3_venue_tier": "Tier 4 (arXiv/unknown)",
+    "C4_downstream_adoption": 0,
+    "D1_year": "2026",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4.1",
+        "Claude Sonnet-4",
+        "Gemini 2.5 Pro",
+        "DeepSeek-V3"
+      ],
+      "count": 4
+    },
+    "D4_annotators": "Authors only",
+    "ethics_overall": null,
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": null,
+    "ND_score": 50.2,
+    "PE_score": 71.5,
+    "CI_score": 25.8,
+    "COMPOSITE": 51.6,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 38,
+    "filename": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+    "tier": "Borderline",
+    "short_title": "OffTheRails",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 65,
+      "utilitarian_ethics": 65,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 400,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/cicl-stanford/moral-evals",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 4
+    },
+    "B7_implementability": 7.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 18,
+    "C2_citations_per_year": 9.0,
+    "C3_venue": "arXiv preprint",
+    "C3_venue_tier": "arXiv preprint",
+    "C4_downstream_adoption": 2,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4",
+        "Claude-2"
+      ],
+      "count": 2
+    },
+    "D4_annotators": "Crowdworkers",
+    "ethics_overall": 100,
+    "ethics_perspective": "Moral Reasoning & Psychology",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multiple-perspective",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Procedurally generates dilemmas from causal graphs encoding deontological vs utilitarian distinctions (means/side-effect, evitability, commission/omission). Strong structural grounding in moral philosophy factors but tests only permissibility/intention judgments without requiring explicit framework reasoning from models.",
+    "ND_score": 58.0,
+    "PE_score": 72.0,
+    "CI_score": 22.0,
+    "COMPOSITE": 48.6,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 39,
+    "filename": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+    "tier": "Borderline",
+    "short_title": "EMNLP Framework",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 55,
+      "deontological_ethics": 55,
+      "utilitarian_ethics": 55,
+      "care_ethics": 35,
+      "contractarian_ethics": 50
+    },
+    "A1_count": 4,
+    "A7_cultural": "Cross-cultural",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Chinese"
+      ],
+      "count": 2
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 88,
+    "B3_data_availability": "Other",
+    "B3_url": "https://e-m-n-l-p.github.io/",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 4
+    },
+    "B7_implementability": 5.5,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 3,
+    "C2_citations_per_year": 3.0,
+    "C3_venue": "EMNLP 2025",
+    "C3_venue_tier": "Tier 1 (top conf/journal)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "Educational ethics",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4.1",
+        "Claude-3.7",
+        "DeepSeek-R1",
+        "DeepSeek-V3",
+        "Qwen2.5-72B",
+        "Qwen2.5-32B",
+        "Qwen2.5-7B",
+        "QwQ-32B",
+        "R1-Distill-70B",
+        "R1-Distill-8B",
+        "GLM-Z1-9B",
+        "Baichuan2-7B",
+        "Qwen3-235B-C",
+        "Qwen3-235B-R"
+      ],
+      "count": 14
+    },
+    "D4_annotators": "Experts",
+    "ethics_overall": 95,
+    "ethics_perspective": "AI Safety & Alignment",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Borderline",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests both judgment and reasoning process",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Three-tier framework grounded in Kohlberg's moral development stages, with explicit references to utilitarianism, deontology, virtue ethics, and social contract theory. Dilemmas are classified into Kohlberg stages by 9 expert annotators. Tests open-ended moral reasoning, not just judgment. However, domain-specific to education context limits general normative ethics coverage.",
+    "ND_score": 68.0,
+    "PE_score": 60.0,
+    "CI_score": 28.0,
+    "COMPOSITE": 55.2,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 40,
+    "filename": "2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.md",
+    "tier": "Borderline",
+    "short_title": "COMETH",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 40,
+      "utilitarian_ethics": 20,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "French"
+      ],
+      "count": 2
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 300,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "",
+    "B4_code_availability": "N/A",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 2
+    },
+    "B7_implementability": 3.5,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 2,
+    "C2_citations_per_year": 2.0,
+    "C3_venue": "arXiv preprint",
+    "C3_venue_tier": "arXiv preprint",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4",
+        "Mistral-7B",
+        "Llama-3.1-8B",
+        "Qwen-3-Next-80B"
+      ],
+      "count": 4
+    },
+    "D4_annotators": "Crowdworkers",
+    "ethics_overall": 100,
+    "ethics_perspective": "General Ethics",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "A2_depth": "Surface-level engagement",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Tested",
+    "A5_pluralism": "Multiple-perspective",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Grounded in Gert's common morality framework with 3 rules (Do not kill, Do not deceive, Do not break the law) and 6 core actions. Collects ternary human judgments (Blame/Neutral/Support) from 101 participants. Focuses on context-sensitivity of moral evaluation rather than deep framework engagement. Probabilistic clustering approach is novel but does not test explicit normative reasoning in models.",
+    "ND_score": 42.0,
+    "PE_score": 32.0,
+    "CI_score": 18.0,
+    "COMPOSITE": 32.5,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 41,
+    "filename": "2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md",
+    "tier": "Borderline",
+    "short_title": "Ebara Medical Ethics",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 70,
+      "utilitarian_ethics": 25,
+      "care_ethics": 10,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 1,
+    "A7_cultural": "Culture-specific",
+    "A8_multilingual": {
+      "languages": [
+        "Japanese"
+      ],
+      "count": 1
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 50,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "",
+    "B4_code_availability": "N/A",
+    "B5_license": "CC-BY-NC",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 2
+    },
+    "B7_implementability": 3.0,
+    "B8_scorer_type": "Rubric",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 0,
+    "C2_citations_per_year": 0.0,
+    "C3_venue": "MEDINFO 2025",
+    "C3_venue_tier": "Tier 3 (specialized)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "Medical ethics",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4o",
+        "Gemini-1.5-Pro"
+      ],
+      "count": 2
+    },
+    "D4_annotators": "Experts",
+    "ethics_overall": 100,
+    "ethics_perspective": "Applied Ethics",
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Explicitly grounds evaluation in Beauchamp & Childress's four principles of biomedical ethics (Respect for Autonomy, Beneficence/Non-maleficence, Justice, Common Morality via Kant's deontology). Each option scored on 4 ethical principles with annotation criteria developed by medical ethics experts. Strong philosophical grounding but narrow to deontological perspective as authors note. Small scale (50 scenarios) and Japanese-only limits reach.",
+    "ND_score": 55.0,
+    "PE_score": 25.0,
+    "CI_score": 12.0,
+    "COMPOSITE": 33.8,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 42,
+    "filename": "2026-Jin-MedES Chinese Medical Ethics Scenarios.md",
+    "tier": "Borderline",
+    "short_title": "MedES",
+    "year": "2026",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 30,
+      "utilitarian_ethics": 20,
+      "care_ethics": 15,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Culture-specific",
+    "A8_multilingual": {
+      "languages": [
+        "Chinese"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 10388,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/X-LANCE/MedEthicAlign",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 4
+    },
+    "B7_implementability": 5.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 0,
+    "C2_citations_per_year": 0.0,
+    "C3_venue": "arXiv preprint",
+    "C3_venue_tier": "arXiv preprint",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2026",
+    "D2_domain": "Medical ethics",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-3.5",
+        "GPT-4-turbo",
+        "GPT-4",
+        "DeepSeek-R1-7B",
+        "DeepSeek-R1-671B",
+        "DeepSeek-V3-671B",
+        "QWQ-32B",
+        "Qwen3-235B",
+        "ERNIE-4",
+        "Doubao"
+      ],
+      "count": 10
+    },
+    "D4_annotators": "Experts",
+    "ethics_overall": 100,
+    "ethics_perspective": "Applied Ethics",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests both judgment and reasoning process",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Comprehensive medical ethics benchmark built from 260 authoritative Chinese legal/ethical documents with 1,278 extracted normative rules across 12 high-risk clinical scenarios. Evaluates both subjective ethical reasoning and objective ethical knowledge. Guardian-in-the-loop alignment pipeline is innovative. However, normative framework engagement is implicit through legal/regulatory norms rather than explicit philosophical traditions. Culture-specific to Chinese medical ethics context.",
+    "ND_score": 45.0,
+    "PE_score": 68.0,
+    "CI_score": 15.0,
+    "COMPOSITE": 45.6,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 43,
+    "filename": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md",
+    "tier": "Borderline",
+    "short_title": "Basu Multilingual",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 10,
+      "deontological_ethics": 45,
+      "utilitarian_ethics": 40,
+      "care_ethics": 15,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Cross-cultural",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Spanish",
+        "Chinese",
+        "Arabic",
+        "Hindi",
+        "Swahili"
+      ],
+      "count": 6
+    },
+    "B1_format": "Open-ended",
+    "B2_dataset_size": 3000,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "",
+    "B4_code_availability": "N/A",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 2
+    },
+    "B7_implementability": 4.0,
+    "B8_scorer_type": "LLM-as-judge",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 1,
+    "C2_citations_per_year": 1.0,
+    "C3_venue": "arXiv preprint",
+    "C3_venue_tier": "arXiv preprint",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-5",
+        "Claude-Sonnet-4",
+        "Gemini-2.5-Pro",
+        "Llama-4-Scout",
+        "Qwen3-235B"
+      ],
+      "count": 5
+    },
+    "D4_annotators": "Authors",
+    "ethics_overall": 65,
+    "ethics_perspective": "AI Safety & Alignment",
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "A2_depth": "Surface-level engagement",
+    "A3_reasoning": "Tests both judgment and reasoning process",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multiple-perspective",
+    "A6_grounding": 2,
+    "normative_depth_rationale": "Tests LLM responses across 5 categories (Biases & Stereotypes, Consent & Autonomy, Harm Prevention & Safety, Legality, Moral Judgment) in 6 languages. References MFT six moral foundations and mentions deontology vs utilitarianism in related work, but the benchmark itself does not test explicit normative framework application. Evaluation uses a 5-point rubric scored by LLM-as-judge. Primary contribution is multilingual safety testing rather than normative ethics depth. Dataset not publicly released.",
+    "ND_score": 35.0,
+    "PE_score": 38.0,
+    "CI_score": 16.0,
+    "COMPOSITE": 31.3,
+    "gate_ND": false,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 44,
+    "filename": "2025-Wu-CVC.md",
+    "tier": "Yes",
+    "short_title": "CVC Chinese Values",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 50,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Culture-specific",
+    "A8_multilingual": {
+      "languages": [
+        "Chinese",
+        "English"
+      ],
+      "count": 2
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 257609,
+    "B3_data_availability": "HuggingFace",
+    "B3_url": "https://huggingface.co/datasets/Beijing-AISI/C-VARC",
+    "B4_code_availability": "Partial code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 6.5,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 1,
+    "C2_citations_per_year": 1.0,
+    "C3_venue": "arXiv preprint",
+    "C3_venue_tier": "arXiv preprint",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "Claude",
+        "DeepSeek",
+        "Gemini",
+        "GPT-4o",
+        "Llama-3",
+        "Qwen"
+      ],
+      "count": 17
+    },
+    "D4_annotators": "Mixed",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Tested",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Hierarchical Chinese value framework with 3 dimensions, 12 core values, and 50 derived values grounding 250K+ rules. Tests moral dilemma resolution across conflicting value priorities. Framework-aware with explicit virtue/deontological/consequentialist branches in ETHICSMAX-style scenarios, but primary contribution is cultural localization rather than normative depth.",
+    "ND_score": 62.0,
+    "PE_score": 68.0,
+    "CI_score": 22.0,
+    "COMPOSITE": 54.1,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 45,
+    "filename": "2025-Farid-One Model, Many Morals.md",
+    "tier": "Yes",
+    "short_title": "One Model Many Morals",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 60,
+      "utilitarian_ethics": 60,
+      "care_ethics": 30,
+      "contractarian_ethics": 20
+    },
+    "A1_count": 3,
+    "A7_cultural": "Cross-cultural",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Chinese",
+        "German",
+        "Hindi",
+        "Spanish",
+        "Urdu"
+      ],
+      "count": 6
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 130148,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/sualehafarid/moral-project",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 7.5,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 0,
+    "C2_citations_per_year": 0.0,
+    "C3_venue": "ICLR 2026",
+    "C3_venue_tier": "Tier 1 (top)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "DeepSeek-R1",
+        "Llama-3.1",
+        "Llama-3.2",
+        "Mistral",
+        "OLMo2",
+        "Phi-4",
+        "Qwen-2.5"
+      ],
+      "count": 7
+    },
+    "D4_annotators": "Authors",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "Yes",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests both judgment and reasoning process",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Translates MoralExceptQA and ETHICS (covering deontology, utilitarianism, virtue, justice, commonsense) into 6 languages with LLM-as-judge analysis of 10 ethical frameworks and 15 reasoning phases. Strong cross-linguistic moral reasoning analysis but relies on existing benchmark designs rather than creating new normative operationalizations.",
+    "ND_score": 68.0,
+    "PE_score": 72.0,
+    "CI_score": 30.0,
+    "COMPOSITE": 59.7,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 46,
+    "filename": "2025-Zhou-Moral Reasoning Across Languages.md",
+    "tier": "Yes",
+    "short_title": "Moral Reasoning Across Languages (MMRB)",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 50,
+      "utilitarian_ethics": 50,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Cross-cultural",
+    "A8_multilingual": {
+      "languages": [
+        "English",
+        "Chinese",
+        "Russian",
+        "Vietnamese",
+        "Indonesian"
+      ],
+      "count": 5
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 2170,
+    "B3_data_availability": "Other",
+    "B3_url": "https://anonymous.4open.science/r/ethics_scenarios-913B",
+    "B4_code_availability": "Partial code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 6.0,
+    "B8_scorer_type": "Binary",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 8,
+    "C2_citations_per_year": 8.0,
+    "C3_venue": "arXiv preprint",
+    "C3_venue_tier": "arXiv preprint",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4",
+        "GPT-3.5",
+        "Llama-3-70B",
+        "Llama-3-8B",
+        "Mixtral"
+      ],
+      "count": 5
+    },
+    "D4_annotators": "Mixed",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "MMRB covers three complexity levels (sentence/paragraph/document) across 5 languages, with ETHICSMAX explicitly testing virtue, deontological, and consequentialist branches. However, the framework engagement is inherited from ETHICS rather than independently designed, and primary contribution is the multilingual analysis rather than normative depth.",
+    "ND_score": 57.0,
+    "PE_score": 58.0,
+    "CI_score": 25.0,
+    "COMPOSITE": 49.4,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 47,
+    "filename": "2024-Hancox-Li-Is ETHICS about ethics.md",
+    "tier": "Borderline",
+    "short_title": "Is ETHICS About Ethics?",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 100,
+      "deontological_ethics": 100,
+      "utilitarian_ethics": 100,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 300,
+    "B3_data_availability": "Unavailable",
+    "B3_url": "",
+    "B4_code_availability": "N/A",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "N_A",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 2.0,
+    "B8_scorer_type": "Binary",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 0,
+    "C2_citations_per_year": 0.0,
+    "C3_venue": "NeurIPS 2024 EvalEval Workshop",
+    "C3_venue_tier": "Tier 3 (specialized)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [],
+      "count": 0
+    },
+    "D4_annotators": "Experts",
+    "ethics_overall": 65,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "A2_depth": "Explicit framework application",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 5,
+    "normative_depth_rationale": "Critique paper evaluating the ETHICS benchmark from a moral philosophy standpoint. Demonstrates deep understanding of virtue ethics, deontology, utilitarianism, and their distinctions. Expert philosophers re-labeled 300 prompts. However, this is a meta-evaluation of a benchmark rather than a benchmark itself -- no new dataset or evaluation protocol is released, and no LLMs are tested.",
+    "ND_score": 72.0,
+    "PE_score": 12.0,
+    "CI_score": 18.0,
+    "COMPOSITE": 37.5,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 48,
+    "filename": "2024-Kirch-TRIAGE.md",
+    "tier": "Yes",
+    "short_title": "TRIAGE",
+    "year": "2024",
+    "A1_traditions": {
+      "virtue_ethics": 0,
+      "deontological_ethics": 60,
+      "utilitarian_ethics": 70,
+      "care_ethics": 40,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "MCQ",
+    "B2_dataset_size": 87,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/NLie2/Triage",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 1,
+      "total_accessible": 1
+    },
+    "B7_implementability": 8.0,
+    "B8_scorer_type": "Multiple",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 4,
+    "C2_citations_per_year": 2.0,
+    "C3_venue": "NeurIPS 2024",
+    "C3_venue_tier": "Tier 1 (top)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2024",
+    "D2_domain": "Medical ethics",
+    "D3_llms_tested": {
+      "models": [
+        "Claude-3-Haiku",
+        "Claude-3-Opus",
+        "GPT-3.5",
+        "GPT-4",
+        "Mistral",
+        "Mixtral"
+      ],
+      "count": 6
+    },
+    "D4_annotators": "Experts",
+    "ethics_overall": 90,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "A2_depth": "Framework-aware scenarios",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Absent",
+    "A5_pluralism": "Single-perspective",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Medical triage benchmark with 87 patient descriptions from START/jumpSTART protocols. Tests utilitarian prioritization (greatest good) and deontological duty, with explicit ethics prompts varying deontological vs utilitarian framing. Gold-standard solutions from medical professionals provide clear ground truth. High domain specificity and realism, but narrow scope (single domain) and single correct answer with no pluralistic evaluation.",
+    "ND_score": 52.0,
+    "PE_score": 76.0,
+    "CI_score": 28.0,
+    "COMPOSITE": 54.4,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 49,
+    "filename": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+    "tier": "Yes",
+    "short_title": "Normative Evaluation (AITA)",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 15,
+      "deontological_ethics": 20,
+      "utilitarian_ethics": 15,
+      "care_ethics": 30,
+      "contractarian_ethics": 10
+    },
+    "A1_count": 0,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Open-ended",
+    "B2_dataset_size": 10826,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/dlab-projects/normative_evaluation_llms_everyday_dilemmas",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 6.0,
+    "B8_scorer_type": "LLM-as-judge",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 0,
+    "C2_citations_per_year": 0.0,
+    "C3_venue": "ACM FAccT 2025",
+    "C3_venue_tier": "Tier 1 (top)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "General moral reasoning",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-3.5",
+        "GPT-4",
+        "Claude-Haiku",
+        "PaLM-2",
+        "Llama-2",
+        "Mistral",
+        "Gemma"
+      ],
+      "count": 7
+    },
+    "D4_annotators": "Crowdworkers",
+    "ethics_overall": 100,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "A2_depth": "Surface-level engagement",
+    "A3_reasoning": "Tests both judgment and reasoning process",
+    "A4_uncertainty": "Tested",
+    "A5_pluralism": "Multiple-perspective",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Uses 10,826 real-world Reddit AITA moral dilemmas with Yudkin et al.'s 6-theme moral framework (Fairness, Harm, Honesty, etc.) for classification. Tests both verdicts and reasoning explanations. High ecological validity from naturalistic data, but does not explicitly operationalize normative ethical traditions -- moral themes are descriptive (psychology-derived) rather than prescriptive (philosophy-derived). Multiple verdicts per scenario capture genuine moral disagreement.",
+    "ND_score": 44.0,
+    "PE_score": 65.0,
+    "CI_score": 30.0,
+    "COMPOSITE": 47.9,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  },
+  {
+    "id": 50,
+    "filename": "2026-Xu-Probing Ethical Framework Representations.md",
+    "tier": "Borderline",
+    "short_title": "Probing Ethical Framework Representations",
+    "year": "2026",
+    "A1_traditions": {
+      "virtue_ethics": 70,
+      "deontological_ethics": 80,
+      "utilitarian_ethics": 80,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 3,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 130000,
+    "B3_data_availability": "Other",
+    "B3_url": "",
+    "B4_code_availability": "N/A",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "N_A",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 2.0,
+    "B8_scorer_type": "Probing accuracy",
+    "B9_model_compat": "Open-weight only",
+    "C1_citation_count": 0,
+    "C2_citations_per_year": 0.0,
+    "C3_venue": "arXiv preprint",
+    "C3_venue_tier": "Tier 4 (preprint)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2026",
+    "D2_domain": "Normative ethics internal representations",
+    "D3_llms_tested": {
+      "models": [
+        "Mistral-7B-Instruct",
+        "Qwen-2.5-7B",
+        "Qwen-2.5-72B",
+        "DeepSeek-R1-Distill-7B",
+        "Gemma-3-4B",
+        "Llama-3.3-70B-Instruct"
+      ],
+      "count": 6
+    },
+    "D4_annotators": "Benchmark labels (ETHICS dataset)",
+    "ethics_overall": 0,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "No",
+    "s2_paper_id": null,
+    "s2_matched_title": null,
+    "A2_depth": "Framework-aware probing",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Tested",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 4,
+    "normative_depth_rationale": "Not a benchmark itself but a methodological contribution probing LLM internal representations across 5 ethical frameworks (deontology, utilitarianism, virtue, justice, commonsense) from the ETHICS dataset. Reveals differentiated ethical subspaces with asymmetric transfer patterns and conflict-entropy correlations. Strong normative engagement but not independently scorable as a benchmark.",
+    "ND_score": 55.0,
+    "PE_score": 18.0,
+    "CI_score": 15.0,
+    "COMPOSITE": 32.05,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 51,
+    "filename": "2026-Zhang-LLM Alignment Diversity.md",
+    "tier": "Borderline",
+    "short_title": "RLVR Moral Reasoning",
+    "year": "2026",
+    "A1_traditions": {
+      "virtue_ethics": 50,
+      "deontological_ethics": 60,
+      "utilitarian_ethics": 70,
+      "care_ethics": 40,
+      "contractarian_ethics": 40
+    },
+    "A1_count": 5,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 1000,
+    "B3_data_availability": "Other",
+    "B3_url": "",
+    "B4_code_availability": "N/A",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "inspect": {
+        "tier": "N_A",
+        "score": null
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "N_A",
+        "score": null
+      },
+      "openai_evals": {
+        "tier": "N_A",
+        "score": null
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 0
+    },
+    "B7_implementability": 3.0,
+    "B8_scorer_type": "Rubric-grounded judge (Qwen3-1.7B)",
+    "B9_model_compat": "Open-weight only",
+    "C1_citation_count": 0,
+    "C2_citations_per_year": 0.0,
+    "C3_venue": "arXiv preprint",
+    "C3_venue_tier": "Tier 4 (preprint)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2026",
+    "D2_domain": "Moral reasoning RLVR training",
+    "D3_llms_tested": {
+      "models": [
+        "Qwen2.5-7B-Base",
+        "Llama3.1-8B-Instruct"
+      ],
+      "count": 2
+    },
+    "D4_annotators": "Expert-written rubrics (MoReBench) + GPT-5 judge",
+    "ethics_overall": 0,
+    "ethics_perspective": null,
+    "is_benchmark": "No",
+    "is_eval": "Yes",
+    "is_dataset": "No",
+    "normative_ethics_benchmark": "No",
+    "s2_paper_id": null,
+    "s2_matched_title": null,
+    "A2_depth": "Framework-specific reasoning evaluation",
+    "A3_reasoning": "Tests both judgment and reasoning process",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Multi-perspective tested",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "Training study using MoReBench as evaluation target; not a new benchmark. Compares reward-maximizing vs distribution-matching RL paradigms on moral reasoning across 5 philosophical frameworks (utilitarianism, deontology, virtue, care, justice as fairness). Uses MoReBench rubric-grounded scoring with trained Qwen3-1.7B judge. Substantive normative engagement through MoReBench but no independent dataset contribution.",
+    "ND_score": 48.0,
+    "PE_score": 15.0,
+    "CI_score": 15.0,
+    "COMPOSITE": 28.2,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 52,
+    "filename": "2026-Abdelaal-IslamicMMLU.md",
+    "tier": "Borderline",
+    "short_title": "IslamicMMLU",
+    "year": "2026",
+    "A1_traditions": {
+      "virtue_ethics": 5,
+      "deontological_ethics": 20,
+      "utilitarian_ethics": 0,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Culture-specific",
+    "A8_multilingual": {
+      "languages": [
+        "Arabic"
+      ],
+      "count": 1
+    },
+    "B1_format": "MCQ",
+    "B2_dataset_size": 10013,
+    "B3_data_availability": "HuggingFace",
+    "B3_url": "https://huggingface.co/spaces/islamicmmlu/leaderboard",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "READY",
+        "score": 75
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": 50
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 6.0
+      },
+      "openai_evals": {
+        "tier": "READY",
+        "score": 8.5
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 2,
+      "total_accessible": 4
+    },
+    "B7_implementability": 8.5,
+    "B8_scorer_type": "Exact match (MCQ)",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 0,
+    "C2_citations_per_year": 0.0,
+    "C3_venue": "arXiv preprint",
+    "C3_venue_tier": "Tier 4 (preprint)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": true,
+    "D1_year": "2026",
+    "D2_domain": "Islamic knowledge (Quran, Hadith, Fiqh)",
+    "D3_llms_tested": {
+      "models": [
+        "Gemini-3-Flash",
+        "Gemini-3-Pro",
+        "Gemini-2.5-Pro",
+        "GPT-5",
+        "GPT-5.2",
+        "GPT-5.1",
+        "Claude-Sonnet-4.5",
+        "Claude-Opus-4.5",
+        "Gemini-2.5-Flash",
+        "Claude-3.7-Sonnet",
+        "Fanar-Sadiq",
+        "GPT-4o",
+        "GPT-4.1",
+        "Grok-4.1-Fast",
+        "DeepSeek-v3.2",
+        "Llama-4-Maverick",
+        "Fanar",
+        "Claude-Haiku-4.5",
+        "DeepSeek-v3.1",
+        "Jais-2-70B",
+        "Llama-4-Scout",
+        "GPT-4",
+        "ALLaM-7B",
+        "Claude-3.5-Haiku",
+        "Fanar-C-2-27B",
+        "GPT-3.5-turbo"
+      ],
+      "count": 26
+    },
+    "D4_annotators": "Programmatic generation + domain expert review (Al-Azhar professor)",
+    "ethics_overall": 0,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": null,
+    "s2_matched_title": null,
+    "A2_depth": "Knowledge recall with jurisprudential pluralism",
+    "A3_reasoning": "Tests judgment only",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Tradition-internal pluralism (madhab bias detection)",
+    "A6_grounding": 5,
+    "normative_depth_rationale": "Major Islamic knowledge benchmark (10,013 MCQ) covering Quran, Hadith, and Fiqh. The Fiqh track (4,000 items) evaluates jurisprudential knowledge including madhab bias detection \u2014 a novel pluralism task where all 4 Sunni school answers are equally valid. Primarily tests factual Islamic knowledge rather than normative ethical reasoning per se, but the madhab bias detection task has genuine normative relevance (intra-tradition pluralism). Non-Western tradition grounding is exceptional (Arabic-only, Islamic scholarly sources). Low direct normative ethics overlap but high value for NormEval's cultural coverage analysis.",
+    "ND_score": 30.0,
+    "PE_score": 72.0,
+    "CI_score": 40.0,
+    "COMPOSITE": 47.2,
+    "gate_ND": false,
+    "gate_data": true,
+    "passes_gates": false
+  },
+  {
+    "id": 53,
+    "filename": "2026-Elmahjub-IslamicLegalBench.md",
+    "tier": "Borderline",
+    "short_title": "IslamicLegalBench",
+    "year": "2026",
+    "A1_traditions": {
+      "virtue_ethics": 5,
+      "deontological_ethics": 40,
+      "utilitarian_ethics": 0,
+      "care_ethics": 0,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 0,
+    "A7_cultural": "Culture-specific",
+    "A8_multilingual": {
+      "languages": [
+        "Arabic",
+        "English"
+      ],
+      "count": 2
+    },
+    "B1_format": "Mixed",
+    "B2_dataset_size": 718,
+    "B3_data_availability": "Other",
+    "B3_url": "",
+    "B4_code_availability": "Partial code",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": 40
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": 35
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 4.0
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 5.0
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 4
+    },
+    "B7_implementability": 5.0,
+    "B8_scorer_type": "LLM-as-judge (o3) + human expert",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 0,
+    "C2_citations_per_year": 0.0,
+    "C3_venue": "arXiv preprint (submitted to AI & Law)",
+    "C3_venue_tier": "Tier 4 (preprint)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2026",
+    "D2_domain": "Islamic jurisprudence (fiqh)",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4o",
+        "GPT-4-turbo",
+        "Claude-3.5-Sonnet",
+        "Gemini-1.5-Pro",
+        "Llama-3.1-70B",
+        "Mistral-Large",
+        "DeepSeek-v3",
+        "Qwen-2.5-72B",
+        "Jais-30B"
+      ],
+      "count": 9
+    },
+    "D4_annotators": "Islamic law expert (associate professor) + LLM-as-judge",
+    "ethics_overall": 0,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Borderline",
+    "s2_paper_id": null,
+    "s2_matched_title": null,
+    "A2_depth": "Multi-tiered legal reasoning (recall to analogical reasoning)",
+    "A3_reasoning": "Tests both judgment and reasoning process",
+    "A4_uncertainty": "Tested",
+    "A5_pluralism": "Multi-school pluralism (7 schools of jurisprudence)",
+    "A6_grounding": 5,
+    "normative_depth_rationale": "First multi-school Islamic jurisprudence benchmark spanning 7 schools across 1,200 years and 38 foundational texts. 718 instances across 13 tasks from basic recall to sophisticated reasoning (legal rationale identification, qiyas analogical application, cross-school synthesis). Tests false premise detection (sycophancy) revealing 40%+ acceptance rates. Remarkable normative depth for Islamic legal tradition \u2014 tests not just knowledge but legal reasoning including identification of underlying rationales ('illah) and analogical extension. Not purely normative ethics in the Western philosophical sense, but tests a distinct normative legal-ethical tradition with genuine reasoning depth. 80% held-out for evaluation integrity.",
+    "ND_score": 45.0,
+    "PE_score": 48.0,
+    "CI_score": 25.0,
+    "COMPOSITE": 41.05,
+    "gate_ND": true,
+    "gate_data": false,
+    "passes_gates": false
+  },
+  {
+    "id": 54,
+    "filename": "2025-Du-LLMs Ethical Dilemma Analyzers.md",
+    "tier": "Yes",
+    "short_title": "Ethical Dilemma Analyzers",
+    "year": "2025",
+    "A1_traditions": {
+      "virtue_ethics": 30,
+      "deontological_ethics": 40,
+      "utilitarian_ethics": 40,
+      "care_ethics": 10,
+      "contractarian_ethics": 0
+    },
+    "A1_count": 2,
+    "A7_cultural": "Western-universal",
+    "A8_multilingual": {
+      "languages": [
+        "English"
+      ],
+      "count": 1
+    },
+    "B1_format": "Scenario-based",
+    "B2_dataset_size": 196,
+    "B3_data_availability": "GitHub",
+    "B3_url": "https://github.com/ALT-JS/ethicaLLM",
+    "B4_code_availability": "Full code + scripts",
+    "B5_license": "Unspecified",
+    "B6_harness": {
+      "lm_eval": {
+        "tier": "POSSIBLE",
+        "score": 30
+      },
+      "inspect": {
+        "tier": "POSSIBLE",
+        "score": 25
+      },
+      "helm": {
+        "tier": "N_A",
+        "score": null
+      },
+      "lighteval": {
+        "tier": "POSSIBLE",
+        "score": 3.0
+      },
+      "openai_evals": {
+        "tier": "POSSIBLE",
+        "score": 4.5
+      },
+      "eleutherai": {
+        "tier": "N_A",
+        "score": null
+      },
+      "implemented_count": 0,
+      "ready_count": 0,
+      "total_accessible": 4
+    },
+    "B7_implementability": 5.5,
+    "B8_scorer_type": "Composite metric (BLEU + DL + TF-IDF + USE)",
+    "B9_model_compat": "Both",
+    "C1_citation_count": 0,
+    "C2_citations_per_year": 0.0,
+    "C3_venue": "arXiv preprint",
+    "C3_venue_tier": "Tier 4 (preprint)",
+    "C4_downstream_adoption": 0,
+    "C5_leaderboard": null,
+    "D1_year": "2025",
+    "D2_domain": "Research ethics dilemmas",
+    "D3_llms_tested": {
+      "models": [
+        "GPT-4o-mini",
+        "Claude-3.5-Sonnet",
+        "DeepSeek-V3",
+        "Gemini-1.5-Flash"
+      ],
+      "count": 4
+    },
+    "D4_annotators": "Domain experts (Georgia CTSA) + 4 non-expert humans",
+    "ethics_overall": 0,
+    "ethics_perspective": null,
+    "is_benchmark": "Yes",
+    "is_eval": "Yes",
+    "is_dataset": "Yes",
+    "normative_ethics_benchmark": "Yes",
+    "s2_paper_id": null,
+    "s2_matched_title": null,
+    "A2_depth": "Open-ended ethical analysis",
+    "A3_reasoning": "Tests both judgment and reasoning process",
+    "A4_uncertainty": "Acknowledged",
+    "A5_pluralism": "Implicit (multi-perspective expert opinions)",
+    "A6_grounding": 3,
+    "normative_depth_rationale": "196 complex ethical dilemmas from the Georgia CTSA (Clinical & Translational Science Alliance) covering research ethics including authorship, informed consent, data management, conflict of interest, animal use, misconduct, etc. Expert opinions decomposed into 5 structured sections (Introduction, Key Factors, Historical & Theoretical Perspectives, Resolution Strategies, Key Takeaways). Tests open-ended ethical reasoning rather than classification. Composite evaluation metric with human baseline comparison. Moderate normative depth \u2014 engages historical/theoretical perspectives as a scoring component but does not explicitly organize around normative traditions. Small dataset (196 cases) limits statistical power but expert curation and structured evaluation add value.",
+    "ND_score": 42.0,
+    "PE_score": 52.0,
+    "CI_score": 25.0,
+    "COMPOSITE": 41.25,
+    "gate_ND": true,
+    "gate_data": true,
+    "passes_gates": true
+  }
+]

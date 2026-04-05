@@ -655,6 +655,378 @@ function renderGapsCharts() {
   renderCarePrototypeDims();
 }
 
+// ============================================================
+// Tab 8: Cross-Model Charts
+// ============================================================
+function renderCMIHChart() {
+  var cm = DATA_CROSS_MODEL;
+  if (!cm.key_charts || !cm.key_charts.ih_scaling) return;
+  var kc = cm.key_charts.ih_scaling;
+  var el = document.getElementById('chart-cm-ih');
+  if (!el) return;
+  var chart = echarts.init(el);
+  chartInstances['cm-ih'] = chart;
+  var opt = baseTheme();
+  opt.xAxis = { type: 'category', data: kc.models, axisLabel: { color: COLORS.textSecondary } };
+  opt.yAxis = { type: 'value', min: 0, max: 7, name: 'OUS Score (1-7)', nameTextStyle: { color: COLORS.textMuted, fontSize: 11 }, axisLabel: { color: COLORS.textSecondary } };
+  opt.series = [
+    { name: 'IB (Impartial Beneficence)', type: 'bar', data: kc.IB_means, itemStyle: { color: COLORS.green }, barWidth: '30%' },
+    { name: 'IH (Instrumental Harm)', type: 'bar', data: kc.IH_means, itemStyle: { color: COLORS.red }, barWidth: '30%' },
+    { name: 'Util. Philosophers IH', type: 'line', data: [kc.philosopher_IH, kc.philosopher_IH, kc.philosopher_IH], lineStyle: { type: 'dashed', color: COLORS.orange }, symbol: 'none', itemStyle: { color: COLORS.orange } },
+    { name: 'Lay Population IH', type: 'line', data: [kc.lay_IH, kc.lay_IH, kc.lay_IH], lineStyle: { type: 'dashed', color: COLORS.textMuted }, symbol: 'none', itemStyle: { color: COLORS.textMuted } },
+  ];
+  opt.legend = { data: ['IB (Impartial Beneficence)', 'IH (Instrumental Harm)', 'Util. Philosophers IH', 'Lay Population IH'], textStyle: { color: COLORS.textSecondary, fontSize: 10 }, bottom: 0 };
+  opt.tooltip = Object.assign({}, opt.tooltip, { trigger: 'axis' });
+  opt.grid = { top: 30, bottom: 80, left: 50, right: 20 };
+  chart.setOption(opt);
+}
+
+function renderCMCBRChart() {
+  var cm = DATA_CROSS_MODEL;
+  if (!cm.key_charts || !cm.key_charts.cbr_rate) return;
+  var kc = cm.key_charts.cbr_rate;
+  var el = document.getElementById('chart-cm-cbr');
+  if (!el) return;
+  var chart = echarts.init(el);
+  chartInstances['cm-cbr'] = chart;
+  var opt = baseTheme();
+  opt.xAxis = { type: 'category', data: kc.models, axisLabel: { color: COLORS.textSecondary } };
+  opt.yAxis = { type: 'value', min: 0, max: 100, name: 'CBR Rate (%)', nameTextStyle: { color: COLORS.textMuted, fontSize: 11 }, axisLabel: { color: COLORS.textSecondary } };
+  opt.series = [
+    { name: 'CBR (Consequentialist)', type: 'bar', data: kc.cbr_percent, itemStyle: { color: function(p) { return [COLORS.blue, COLORS.green, COLORS.orange][p.dataIndex]; } }, barWidth: '40%', label: { show: true, position: 'top', formatter: '{c}%', color: COLORS.text, fontSize: 12 } },
+  ];
+  opt.tooltip = Object.assign({}, opt.tooltip, { trigger: 'axis', formatter: function(p) { return p[0].name + ': ' + p[0].value + '% consequentialist'; } });
+  opt.grid = { top: 30, bottom: 30, left: 50, right: 20 };
+  chart.setOption(opt);
+}
+
+function renderCMKJChart() {
+  var cm = DATA_CROSS_MODEL;
+  if (!cm.key_charts || !cm.key_charts.knowledge_vs_judgment) return;
+  var kc = cm.key_charts.knowledge_vs_judgment;
+  var el = document.getElementById('chart-cm-kj');
+  if (!el) return;
+  var chart = echarts.init(el);
+  chartInstances['cm-kj'] = chart;
+  var opt = baseTheme();
+  var cats = kc.categories;
+  var vals = kc.three_way_agreement.map(function(v) { return v === 'variable' ? 73 : v; });
+  opt.xAxis = { type: 'category', data: cats, axisLabel: { color: COLORS.textSecondary, fontSize: 10, rotate: 15 } };
+  opt.yAxis = { type: 'value', min: 0, max: 100, name: 'Three-Way Agreement (%)', nameTextStyle: { color: COLORS.textMuted, fontSize: 11 }, axisLabel: { color: COLORS.textSecondary } };
+  opt.series = [{
+    type: 'bar', data: vals,
+    itemStyle: { color: function(p) { return p.value >= 95 ? COLORS.green : p.value >= 70 ? COLORS.orange : COLORS.red; } },
+    barWidth: '50%',
+    label: { show: true, position: 'top', formatter: '{c}%', color: COLORS.text, fontSize: 11 }
+  }];
+  opt.grid = { top: 30, bottom: 50, left: 50, right: 20 };
+  chart.setOption(opt);
+}
+
+function renderCMPersuasionChart() {
+  var cm = DATA_CROSS_MODEL;
+  if (!cm.key_charts || !cm.key_charts.persuasion_resistance) return;
+  var kc = cm.key_charts.persuasion_resistance;
+  var el = document.getElementById('chart-cm-persuasion');
+  if (!el) return;
+  var chart = echarts.init(el);
+  chartInstances['cm-persuasion'] = chart;
+  var opt = baseTheme();
+  opt.xAxis = { type: 'category', data: kc.models, axisLabel: { color: COLORS.textSecondary } };
+  opt.yAxis = { type: 'value', min: 0, max: 100, name: 'Decision Change Rate (%)', nameTextStyle: { color: COLORS.textMuted, fontSize: 11 }, axisLabel: { color: COLORS.textSecondary } };
+  opt.series = [{
+    type: 'bar', data: kc.dcr_percent,
+    itemStyle: { color: function(p) { return p.value === 0 ? COLORS.green : p.value <= 35 ? COLORS.orange : COLORS.red; } },
+    barWidth: '40%',
+    label: { show: true, position: 'top', formatter: '{c}%', color: COLORS.text, fontSize: 12 }
+  }];
+  opt.grid = { top: 30, bottom: 30, left: 50, right: 20 };
+  chart.setOption(opt);
+}
+
+function renderCrossModelCharts() {
+  renderCMIHChart();
+  renderCMCBRChart();
+  renderCMKJChart();
+  renderCMPersuasionChart();
+}
+
+// ============================================================
+// Tab 10: Cross-Vendor Charts
+// ============================================================
+var CV_PROVIDER_COLORS = { 'Anthropic': '#a78bfa', 'OpenAI': '#4ecb71', 'Google': '#5b8def' };
+
+function renderCVHeatmapChart() {
+  var cv = DATA_CROSS_VENDOR;
+  if (!cv || !cv.heatmap) return;
+  var chart = getChart('chart-cv-heatmap');
+  if (!chart) return;
+  var hm = cv.heatmap;
+  var heatData = [];
+  for (var r = 0; r < hm.matrix.length; r++) {
+    for (var c = 0; c < hm.matrix[r].length; c++) {
+      heatData.push([c, r, hm.matrix[r][c]]);
+    }
+  }
+  chart.setOption(Object.assign(baseTheme(), {
+    tooltip: {
+      backgroundColor: '#1c1f2e', borderColor: '#2a2d42',
+      textStyle: { color: COLORS.text, fontSize: 11 },
+      formatter: function(p) {
+        return '<b>' + hm.labels[p.value[1]] + ' ↔ ' + hm.labels[p.value[0]] + '</b>: ' + p.value[2].toFixed(1) + '%';
+      }
+    },
+    grid: { left: 90, right: 40, top: 10, bottom: 90 },
+    xAxis: {
+      type: 'category',
+      data: hm.labels,
+      axisLabel: { color: COLORS.textSecondary, fontSize: 10, rotate: 45 },
+      axisLine: { lineStyle: { color: COLORS.border } },
+    },
+    yAxis: {
+      type: 'category',
+      data: hm.labels,
+      axisLabel: { color: COLORS.textSecondary, fontSize: 10 },
+      axisLine: { lineStyle: { color: COLORS.border } },
+    },
+    visualMap: {
+      min: 70, max: 100, calculable: false, show: true,
+      orient: 'horizontal', left: 'center', bottom: 0,
+      textStyle: { color: COLORS.textMuted },
+      inRange: { color: ['#ef5b5b', '#f0983e', '#4ecb71'] }
+    },
+    graphic: [
+      { type: 'text', left: '8%', bottom: '6%', style: { text: 'Anthropic', fill: '#a78bfa', fontSize: 10, fontWeight: 'bold' } },
+      { type: 'text', left: '30%', bottom: '6%', style: { text: 'Google', fill: '#5b8def', fontSize: 10, fontWeight: 'bold' } },
+      { type: 'text', left: '62%', bottom: '6%', style: { text: 'OpenAI', fill: '#4ecb71', fontSize: 10, fontWeight: 'bold' } }
+    ],
+    series: [{
+      type: 'heatmap',
+      data: heatData,
+      itemStyle: { borderColor: '#0f1117', borderWidth: 1, borderRadius: 2 },
+      emphasis: { itemStyle: { borderColor: '#fff', borderWidth: 1 } },
+    }]
+  }));
+}
+
+function renderCVIHChart() {
+  var cv = DATA_CROSS_VENDOR;
+  if (!cv || !cv.ih_scaling) return;
+  var chart = getChart('chart-cv-ih');
+  if (!chart) return;
+  var ih = cv.ih_scaling;
+  // Build sorted indices by IH_means ascending
+  var indices = [];
+  for (var i = 0; i < ih.models.length; i++) indices.push(i);
+  indices.sort(function(a, b) { return ih.IH_means[a] - ih.IH_means[b]; });
+  var sortedModels = indices.map(function(i) { return ih.models[i]; });
+  var sortedIH = indices.map(function(i) { return ih.IH_means[i]; });
+  var sortedProviders = indices.map(function(i) { return ih.providers[i]; });
+  chart.setOption(Object.assign(baseTheme(), {
+    tooltip: Object.assign(baseTheme().tooltip, { trigger: 'axis' }),
+    grid: { left: 80, right: 40, top: 20, bottom: 30 },
+    xAxis: {
+      type: 'value', min: 0, max: 7,
+      name: 'IH Score (1-7)',
+      nameTextStyle: { color: COLORS.textMuted },
+      axisLabel: { color: COLORS.textMuted },
+      splitLine: { lineStyle: { color: COLORS.border } },
+    },
+    yAxis: {
+      type: 'category',
+      data: sortedModels,
+      axisLabel: { color: COLORS.textSecondary, fontSize: 11 },
+      axisLine: { lineStyle: { color: COLORS.border } },
+    },
+    series: [{
+      type: 'bar',
+      data: sortedIH.map(function(v, i) {
+        return {
+          value: v,
+          itemStyle: { color: CV_PROVIDER_COLORS[sortedProviders[i]] || COLORS.blue, borderRadius: [0, 4, 4, 0] }
+        };
+      }),
+      label: { show: true, position: 'right', color: COLORS.text, fontSize: 12, fontWeight: 600 },
+      markLine: {
+        silent: true,
+        data: [
+          { xAxis: 4.5, lineStyle: { color: COLORS.orange, type: 'dashed' }, label: { formatter: 'Philosopher IH', color: COLORS.orange, fontSize: 10 } },
+          { xAxis: 3.1, lineStyle: { color: COLORS.textMuted, type: 'dashed' }, label: { formatter: 'Lay IH', color: COLORS.textMuted, fontSize: 10 } }
+        ]
+      }
+    }]
+  }));
+}
+
+function renderCVCBRChart() {
+  var cv = DATA_CROSS_VENDOR;
+  if (!cv || !cv.cbr_rate) return;
+  var chart = getChart('chart-cv-cbr');
+  if (!chart) return;
+  var cbr = cv.cbr_rate;
+  // Sort by CBR ascending
+  var paired = [];
+  for (var i = 0; i < cbr.models.length; i++) {
+    paired.push({ model: cbr.models[i], cbr: cbr.cbr_percent[i], provider: cbr.providers[i] });
+  }
+  paired.sort(function(a, b) { return a.cbr - b.cbr; });
+  var sortedModels = paired.map(function(p) { return p.model; });
+  var sortedCBR = paired.map(function(p) { return p.cbr; });
+  var sortedProviders = paired.map(function(p) { return p.provider; });
+  chart.setOption(Object.assign(baseTheme(), {
+    tooltip: Object.assign(baseTheme().tooltip, { trigger: 'axis' }),
+    grid: { left: 50, right: 20, top: 30, bottom: 80 },
+    xAxis: {
+      type: 'category',
+      data: sortedModels,
+      axisLabel: { color: COLORS.textSecondary, fontSize: 11, rotate: 30 },
+      axisLine: { lineStyle: { color: COLORS.border } },
+    },
+    yAxis: {
+      type: 'value', name: 'CBR Rate (%)',
+      nameTextStyle: { color: COLORS.textMuted },
+      axisLabel: { color: COLORS.textMuted },
+      splitLine: { lineStyle: { color: COLORS.border } },
+    },
+    series: [{
+      type: 'bar',
+      data: sortedCBR.map(function(v, i) {
+        return {
+          value: v,
+          itemStyle: { color: CV_PROVIDER_COLORS[sortedProviders[i]] || COLORS.blue, borderRadius: [4, 4, 0, 0] }
+        };
+      }),
+      barWidth: '50%',
+      label: { show: true, position: 'top', color: COLORS.text, fontSize: 12, fontWeight: 600, formatter: '{c}%' }
+    }]
+  }));
+}
+
+function renderCVKJChart() {
+  var cv = DATA_CROSS_VENDOR;
+  if (!cv || !cv.knowledge_judgment || !cv.knowledge_judgment.trials) return;
+  var chart = getChart('chart-cv-kj');
+  if (!chart) return;
+  var trials = cv.knowledge_judgment.trials;
+  var typeColors = { knowledge: '#4ecb71', judgment: '#ef5b5b', mixed: '#f0983e' };
+  var names = trials.map(function(t) { return t.name; });
+  var baseData = trials.map(function(t) { return t.min_agreement; });
+  var rangeData = trials.map(function(t) {
+    return {
+      value: t.max_agreement - t.min_agreement,
+      min_val: t.min_agreement,
+      max_val: t.max_agreement,
+      trial_type: t.type
+    };
+  });
+  chart.setOption(Object.assign(baseTheme(), {
+    tooltip: {
+      backgroundColor: '#1c1f2e', borderColor: '#2a2d42',
+      textStyle: { color: COLORS.text, fontSize: 11 },
+      trigger: 'axis',
+      formatter: function(params) {
+        if (params.length < 2) return '';
+        var p = params[1];
+        var d = p.data;
+        return '<b>' + names[p.dataIndex] + '</b><br/>' +
+               'Range: ' + d.min_val + '% – ' + d.max_val + '%<br/>' +
+               'Type: ' + d.trial_type;
+      }
+    },
+    grid: { left: 50, right: 20, top: 20, bottom: 80 },
+    xAxis: {
+      type: 'category',
+      data: names,
+      axisLabel: { color: COLORS.textSecondary, fontSize: 10, rotate: 30 },
+      axisLine: { lineStyle: { color: COLORS.border } },
+    },
+    yAxis: {
+      type: 'value', min: 0, max: 100, name: 'Agreement (%)',
+      nameTextStyle: { color: COLORS.textMuted },
+      axisLabel: { color: COLORS.textMuted },
+      splitLine: { lineStyle: { color: COLORS.border } },
+    },
+    series: [
+      {
+        name: 'Base',
+        type: 'bar',
+        stack: 'range',
+        data: baseData,
+        itemStyle: { color: 'transparent' },
+        emphasis: { itemStyle: { color: 'transparent' } },
+      },
+      {
+        name: 'Range',
+        type: 'bar',
+        stack: 'range',
+        data: rangeData,
+        itemStyle: {
+          color: function(p) { return typeColors[p.data.trial_type] || COLORS.blue; },
+          borderRadius: [4, 4, 0, 0]
+        },
+        label: {
+          show: true, position: 'top', color: COLORS.text, fontSize: 10,
+          formatter: function(p) { return p.data.min_val + '–' + p.data.max_val + '%'; }
+        }
+      }
+    ]
+  }));
+}
+
+function renderCVRadarChart() {
+  var cv = DATA_CROSS_VENDOR;
+  if (!cv || !cv.provider_profiles) return;
+  var chart = getChart('chart-cv-radar');
+  if (!chart) return;
+  var pp = cv.provider_profiles;
+  var indicators = pp.dimensions.map(function(d) { return { name: d, max: 100 }; });
+  var seriesData = [];
+  var providerNames = Object.keys(pp.profiles);
+  for (var i = 0; i < providerNames.length; i++) {
+    var name = providerNames[i];
+    var color = CV_PROVIDER_COLORS[name] || COLORS.blue;
+    seriesData.push({
+      value: pp.profiles[name],
+      name: name,
+      lineStyle: { color: color, width: 2 },
+      itemStyle: { color: color },
+      areaStyle: { color: color + '33' }
+    });
+  }
+  chart.setOption(Object.assign(baseTheme(), {
+    tooltip: {
+      backgroundColor: '#1c1f2e', borderColor: '#2a2d42',
+      textStyle: { color: COLORS.text, fontSize: 11 },
+    },
+    legend: {
+      data: providerNames,
+      textStyle: { color: COLORS.textSecondary },
+      bottom: 0
+    },
+    radar: {
+      indicator: indicators,
+      shape: 'polygon',
+      splitNumber: 4,
+      axisName: { color: COLORS.textSecondary, fontSize: 10 },
+      splitLine: { lineStyle: { color: COLORS.border } },
+      splitArea: { areaStyle: { color: ['transparent'] } },
+      axisLine: { lineStyle: { color: COLORS.border } },
+    },
+    series: [{
+      type: 'radar',
+      data: seriesData,
+    }]
+  }));
+}
+
+function renderCrossVendorCharts() {
+  renderCVHeatmapChart();
+  renderCVIHChart();
+  renderCVCBRChart();
+  renderCVKJChart();
+  renderCVRadarChart();
+}
+
 // Resize handler
 window.addEventListener('resize', function() {
   Object.values(chartInstances).forEach(function(c) { c.resize(); });

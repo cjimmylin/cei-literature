@@ -42,19 +42,42 @@ def sanitize(text: str) -> str:
 
 def strip_latex(text: str) -> str:
     """Convert LaTeX math notation to readable plain text."""
+    # Specific common patterns first
     text = re.sub(r'\$\\chi\^2\$', 'chi-sq', text)
     text = re.sub(r'\$\\geq?\$', '>=', text)
     text = re.sub(r'\$\\leq?\$', '<=', text)
     text = re.sub(r'\$\\times\$', 'x', text)
     text = re.sub(r'\$\\rightarrow\$', '->', text)
+    # LaTeX commands in braces
     text = re.sub(r'\\texttt\{([^}]*)\}', r'\1', text)
     text = re.sub(r'\\textit\{([^}]*)\}', r'\1', text)
     text = re.sub(r'\\textbf\{([^}]*)\}', r'\1', text)
     text = re.sub(r'\\cite\{([^}]*)\}', r'[\1]', text)
-    text = re.sub(r'\$([^$]+)\$', r'\1', text)  # strip remaining $ delimiters
+    # Strip $ delimiters (keep content inside)
+    text = re.sub(r'\$([^$]+)\$', r'\1', text)
+    # Post-dollar cleanup: remaining backslash commands
+    text = text.replace('\\chi^2', 'chi-sq')
+    text = text.replace('\\chi', 'chi')
+    text = text.replace('\\tau', 'tau')
+    text = text.replace('\\geq', '>=')
+    text = text.replace('\\leq', '<=')
+    text = text.replace('\\times', 'x')
+    text = text.replace('\\rightarrow', '->')
+    text = text.replace('\\approx', '~')
+    text = text.replace('\\infty', 'inf')
+    text = text.replace('\\alpha', 'alpha')
+    text = text.replace('\\beta', 'beta')
+    text = text.replace('\\mu', 'mu')
+    text = text.replace('\\sigma', 'sigma')
+    text = text.replace('\\lambda', 'lambda')
+    text = re.sub(r'\^(\d)', r'^\1', text)  # keep superscripts readable
+    text = re.sub(r'\^{([^}]*)}', r'^\1', text)
+    text = re.sub(r'_\{([^}]*)\}', r'_\1', text)
     text = text.replace('\\%', '%')
     text = text.replace('\\&', '&')
     text = text.replace('\\#', '#')
+    text = text.replace('\\\\', ' ')
+    text = text.replace('\\ ', ' ')
     return text
 
 
@@ -107,6 +130,7 @@ class CombinedPDF(FPDF):
             if self.get_y() > 240:
                 self.add_page()
             self.ln(4)
+            self._current_section = text[:60]
             self.set_font("Helvetica", "B", 13)
             self.set_text_color(40, 40, 60)
         elif level == 3:
@@ -152,11 +176,17 @@ class CombinedPDF(FPDF):
         headers = [c.strip() for c in header_line.strip().strip("|").split("|")]
         n_cols = len(headers)
         avail = self.w - 20
-        col_w = avail / n_cols
-        col_widths = [col_w] * n_cols
+
+        # Smart column widths: give first column 1.5x share for names
+        if n_cols <= 3:
+            col_widths = [avail / n_cols] * n_cols
+        else:
+            first_w = avail * 1.5 / (n_cols + 0.5)
+            rest_w = avail / (n_cols + 0.5)
+            col_widths = [first_w] + [rest_w] * (n_cols - 1)
 
         # Try to fit: if too many columns, use smaller font
-        font_size = 7 if n_cols > 6 else 8
+        font_size = 6 if n_cols > 8 else (7 if n_cols > 6 else 8)
         row_h = 4.5
 
         # Check if we need new page
@@ -170,8 +200,8 @@ class CombinedPDF(FPDF):
         self.set_text_color(255, 255, 255)
         for i, h in enumerate(headers):
             h = sanitize(clean_line(h))
-            if len(h) > 18:
-                h = h[:17] + "."
+            if len(h) > 24:
+                h = h[:23] + "."
             self.cell(col_widths[i], row_h, h, border=1, fill=True, align="C")
         self.ln()
 
@@ -192,8 +222,9 @@ class CombinedPDF(FPDF):
 
             for i, cell in enumerate(cells):
                 cell = sanitize(clean_line(cell))
-                if len(cell) > 22:
-                    cell = cell[:21] + "."
+                max_len = 32 if i == 0 else 24
+                if len(cell) > max_len:
+                    cell = cell[:max_len - 1] + "."
                 align = "L" if i == 0 else "C"
                 self.cell(col_widths[i], row_h, cell, border=1, fill=True, align=align)
             self.ln()

@@ -176,6 +176,68 @@
       <br><br>
       <strong>How to use this:</strong> If you are building a new benchmark, look at the darkest columns &mdash; those are the dimensions where the field has the most room to improve. If you are selecting benchmarks to evaluate your model, look at rows with the most consistently bright cells.
     </div>
+
+    <!-- Feature Reference Table -->
+    <div class="chart-container" style="margin-top: 1.5rem;">
+      <h3>Complete Feature Reference (44 features across 5 axes)</h3>
+      <p style="color:var(--text-secondary);font-size:0.82rem;margin-bottom:1rem;">
+        Every feature used in the NormEval framework. Features marked with a composite weight contribute to the scoring formula; others provide descriptive metadata or empirical context.
+        <span class="version-badge v1">v1</span> = original 26 features &nbsp;
+        <span class="version-badge v2">v2</span> = 18 extended features added for cross-vendor analysis
+      </p>
+      <div class="feature-toolbar">
+        <select id="filter-feature-axis">
+          <option value="all">All Axes</option>
+          <option value="ND">Normative Depth (A)</option>
+          <option value="PE">Practical Ease (B)</option>
+          <option value="CI">Community Impact (C)</option>
+          <option value="META">Metadata (D)</option>
+          <option value="EQ">Empirical Quality (E)</option>
+        </select>
+        <select id="filter-feature-version">
+          <option value="all">All Versions</option>
+          <option value="v1">v1 Only</option>
+          <option value="v2">v2 Only</option>
+        </select>
+        <label class="feature-toggle-label">
+          <input type="checkbox" id="filter-feature-composite"> Composite only
+        </label>
+      </div>
+      <div class="papers-table-wrap">
+        <table class="papers-table feature-ref-table" id="feature-ref-table">
+          <thead>
+            <tr>
+              <th style="width:55px;">ID</th>
+              <th style="width:180px;">Feature</th>
+              <th style="width:90px;">Axis</th>
+              <th style="width:140px;">Scale</th>
+              <th>Description</th>
+              <th style="width:70px;">Weight</th>
+              <th style="width:220px;">Corpus Distribution</th>
+              <th style="width:38px;">Ver.</th>
+            </tr>
+          </thead>
+          <tbody id="feature-ref-tbody"></tbody>
+        </table>
+      </div>
+      <div class="feature-ref-summary" id="feature-ref-summary"></div>
+    </div>
+
+    <!-- Expert Analysis: Feature Reference Table (Council-Designed) -->
+    <div class="expert-analysis" style="border-left:3px solid #a78bfa;">
+      <strong>&#x1f50d; Expert Analysis &mdash; Reading the Feature Framework</strong><br>
+      <em style="color:var(--text-muted);font-size:0.78rem;">&mdash; 12-member council: Psychometrics, Philosophy of Science, ML Evaluation, Normative Ethics, Information Science, and Cross-Cultural Ethics perspectives</em>
+      <br><br>
+      <strong>Why 44 features?</strong> From a psychometrics perspective: &ldquo;The 26 v1 features characterized benchmarks <em>as designed</em> &mdash; their philosophical ambition, data accessibility, and scholarly impact. But our cross-vendor trials revealed that design quality does not predict empirical performance. A benchmark can be philosophically sophisticated (high ND) yet produce zero variance across models (E2=1). The 18 v2 features capture how benchmarks <em>actually behave</em> when administered to frontier models. This design-vs-performance gap is the central insight of the expanded framework.&rdquo;
+      <br><br>
+      <strong>The five axes serve different audiences.</strong> From a philosophy of science perspective: &ldquo;Axis A (Normative Depth) answers: <em>does this benchmark engage genuine ethical reasoning?</em> This matters to ethicists and alignment researchers. Axis B (Practical Ease) answers: <em>can I actually run this benchmark?</em> This matters to ML engineers. Axis C (Community Impact) answers: <em>has this benchmark earned scholarly trust?</em> This matters to reviewers and program committees. Axis D (Metadata) provides provenance. Axis E (Empirical Quality) answers the question no other axis addresses: <em>does this benchmark still work on frontier models?</em>&rdquo;
+      <br><br>
+      <strong>Which features matter most?</strong> From a normative ethics perspective: &ldquo;Only 16 of 44 features enter the composite formula, and only 6 carry weights &ge; 15%. A6 (Philosophical Grounding) and B7 (Implementability) together account for 25% + 30% = 55% of their respective axis scores. This means the composite is dominated by two expert judgments: <em>how philosophically rigorous is this benchmark?</em> and <em>how easy is it to implement?</em> The remaining features provide context and nuance, but the ranking is driven by these two pillars.&rdquo;
+      <br><br>
+      <strong>The v2 features reveal hidden structure.</strong> From an ML evaluation perspective: &ldquo;Three v2 features are particularly diagnostic. A9 (Metaethical Stance) shows that 76% of benchmarks assume moral realism &mdash; items have &lsquo;correct&rsquo; answers. This is fine for knowledge questions but problematic for judgment dilemmas. B10 (Contamination Risk) shows that 52% of benchmarks have full item sets publicly available, meaning ceiling effects may reflect memorization rather than reasoning. E5 (Reasoning vs. Judgment Balance) confirms at the item level what A3 shows at the benchmark level: the field overwhelmingly tests <em>what</em> models conclude, not <em>how</em> they reason.&rdquo;
+      <br><br>
+      <strong>What the distributions reveal.</strong> From a cross-cultural ethics perspective: &ldquo;Filter by Axis A and read the distribution column top-to-bottom. You will see a portrait of the field&rsquo;s blind spots: 76% Western-only (A7), 72% monolingual (A8), 89% secular-only (A13), 76% moral-realist (A9). The benchmarks we have are not just philosophically shallow (Claim C4) &mdash; they are culturally, linguistically, and metaethically narrow. The feature table makes these gaps quantifiable and therefore actionable.&rdquo;
+    </div>
   </div>
 
   <!-- ====== Tab 4: Tradition Coverage ====== -->
@@ -228,6 +290,102 @@
       <br><br>
       <strong>How to read it:</strong> In the scatter plot, benchmarks in the upper-right quadrant score high on both ND and PE &mdash; these are the strongest candidates. Benchmarks that are high-ND but low-PE (upper-left) are philosophically rich but practically inaccessible (often due to missing data). The gate mechanism filters these out: you need BOTH normative depth AND data availability to pass. The sensitivity analysis tests every weight triplet from (10,10,80) to (80,10,10) in increments of 10. With 24 gate-passing benchmarks, composite weights now matter at the margin &mdash; only 1 of 18 tested triplets preserves the exact same Top 15. However, all core benchmarks remain stable.
     </div>
+
+    <!-- Scoring Equation & Rationale -->
+    <div class="scoring-equation-section">
+      <div class="row g-3">
+        <div class="col-lg-7">
+          <div class="scoring-equation-box">
+            <h3>Composite Scoring Formula</h3>
+
+            <!-- Main Equation -->
+            <div class="equation-main">
+              <span class="eq-label">Composite</span>
+              <span class="eq-equals">=</span>
+              <span class="eq-term nd-term">ND <span class="eq-weight">&times; 0.40</span></span>
+              <span class="eq-plus">+</span>
+              <span class="eq-term pe-term">PE <span class="eq-weight">&times; 0.35</span></span>
+              <span class="eq-plus">+</span>
+              <span class="eq-term ci-term">CI <span class="eq-weight">&times; 0.25</span></span>
+            </div>
+
+            <!-- Sub-axis formulas -->
+            <div class="equation-sub-group">
+              <div class="equation-sub">
+                <span class="eq-sub-label" style="color:var(--nd-color);">ND</span>
+                <span class="eq-sub-eq">=</span>
+                <span class="eq-sub-terms">A2&times;25 + A6&times;20 + A1&times;15 + A3&times;15 + A5&times;15 + A4&times;10</span>
+              </div>
+              <div class="equation-sub">
+                <span class="eq-sub-label" style="color:var(--pe-color);">PE</span>
+                <span class="eq-sub-eq">=</span>
+                <span class="eq-sub-terms">B7&times;30 + B3&times;20 + B4&times;15 + B6&times;15 + B9&times;10 + B5&times;10</span>
+              </div>
+              <div class="equation-sub">
+                <span class="eq-sub-label" style="color:var(--ci-color);">CI</span>
+                <span class="eq-sub-eq">=</span>
+                <span class="eq-sub-terms">C2&times;35 + C4&times;30 + C3&times;20 + C5&times;15</span>
+              </div>
+            </div>
+
+            <!-- Gates -->
+            <div class="equation-gates">
+              <h4>Hard Gates (must pass both)</h4>
+              <div class="gate-row">
+                <span class="gate-icon pass">&#x2713;</span>
+                <span class="gate-text"><strong>Gate 1:</strong> ND &ge; 40 &mdash; minimum normative depth threshold</span>
+              </div>
+              <div class="gate-row">
+                <span class="gate-icon pass">&#x2713;</span>
+                <span class="gate-text"><strong>Gate 2:</strong> Data publicly available &mdash; B3 &ge; 50 (GitHub, HuggingFace, or equivalent)</span>
+              </div>
+              <div class="gate-note">Benchmarks failing either gate are excluded from the recommended suite regardless of composite score.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="scoring-rationale-box">
+            <h3>Design Rationale</h3>
+
+            <div class="rationale-item">
+              <strong style="color:var(--nd-color);">Why ND is weighted highest (40%)</strong>
+              <p>Normative Depth measures what <em>makes an ethics benchmark an ethics benchmark</em> &mdash; whether it genuinely engages moral reasoning rather than surface-level sentiment classification. Without philosophical substance, high PE and CI merely indicate a widely-used dataset that happens to have moral-sounding labels. The 40% weight ensures that philosophical rigor is the primary differentiator.</p>
+            </div>
+
+            <div class="rationale-item">
+              <strong style="color:var(--pe-color);">Why PE is weighted second (35%)</strong>
+              <p>Practical Ecosystem measures whether a benchmark can actually be <em>used</em>. A philosophically brilliant benchmark locked behind a paywall with no code and no harness integration has zero real-world impact. PE rewards benchmarks that lower the barrier to adoption: public data, clear documentation, evaluation harness support.</p>
+            </div>
+
+            <div class="rationale-item">
+              <strong style="color:var(--ci-color);">Why CI is weighted lowest (25%)</strong>
+              <p>Community Impact captures scholarly influence, but it introduces recency bias (new benchmarks start at 0 citations) and venue prestige bias (workshops penalized regardless of quality). The 25% weight ensures that CI contributes but does not dominate &mdash; a new, high-quality benchmark should not be penalized for being recent.</p>
+            </div>
+
+            <div class="rationale-item">
+              <strong>Why hard gates instead of soft thresholds</strong>
+              <p>The dual-gate mechanism enforces two non-negotiable minimums: <em>the benchmark must engage ethics substantively</em> (ND &ge; 40) and <em>the benchmark must be replicable</em> (data available). Without hard gates, a benchmark with ND = 5 but extremely high CI (e.g., a widely-cited non-ethics dataset) could rank above philosophically rigorous alternatives. The sensitivity analysis confirms these gates are the primary ranking determinant &mdash; not the continuous weights.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Expert Analysis: Scoring Design Council -->
+      <div class="expert-analysis" style="border-left:3px solid var(--accent-purple);margin-top:1.5rem;">
+        <strong>&#x1f50d; Expert Analysis &mdash; Scoring System Design</strong><br>
+        <em style="color:var(--text-muted);font-size:0.78rem;">&mdash; 12-member council: Decision Science, Educational Measurement, Biostatistics, Philosophy of Science, Normative Ethics, and RLHF/Alignment perspectives</em>
+        <br><br>
+        <strong>The weights encode a value judgment.</strong> From a decision science perspective: &ldquo;Any multi-criteria scoring system embeds the designer&rsquo;s priorities. We chose 40:35:25 because we believe philosophical rigor (ND) matters most, practical usability (PE) matters nearly as much, and scholarly prestige (CI) is important but should not dominate. These weights are debatable &mdash; and that is precisely why we provide the sensitivity analysis below. If you believe community adoption matters more, increase CI&rsquo;s weight. The key insight is that the Top 15 barely changes across 231 weight combinations, because the dual-gate mechanism does the heavy lifting.&rdquo;
+        <br><br>
+        <strong>Within-axis weights reflect construct priorities.</strong> From an educational measurement perspective: &ldquo;The ND formula gives 25% weight to A2 (depth of engagement) and 20% to A6 (philosophical grounding) &mdash; these two features alone account for 45% of the ND score. This is deliberate: a benchmark that deeply applies an ethical framework (A2 = 100) with expert-validated philosophical grounding (A6 = 5) will dominate a benchmark that merely mentions multiple traditions (A1 = 5) without engaging any of them deeply. The PE formula similarly prioritizes B7 (implementability, 30%) and B3 (data availability, 20%) because a benchmark you cannot access or run has zero practical value regardless of its licensing or harness coverage.&rdquo;
+        <br><br>
+        <strong>The gate mechanism has empirical support.</strong> From a biostatistics perspective: &ldquo;We tested every weight triplet from (10,10,80) to (80,10,10) in increments of 10 &mdash; 231 combinations total. Across all of them, the set of gate-passing benchmarks dominates the Top 15. This means the gates are the binding constraint, not the weights. From a statistical perspective, this is reassuring: it means the framework is robust to subjective weighting choices. The continuous scoring within the gate-passing set provides fine-grained ranking, but the coarse pass/fail determination is what matters most for practical recommendations.&rdquo;
+        <br><br>
+        <strong>Why not include v2 features in the composite?</strong> From a philosophy of science perspective: &ldquo;The 18 v2 features (A9&ndash;A13, B10&ndash;B12, D5&ndash;D6, E1&ndash;E5) are deliberately excluded from the composite formula. The v1 features describe benchmarks as <em>designed</em>; the v2 features describe how they <em>performed</em>. Mixing design features with empirical performance features would create a circular dependency: a benchmark&rsquo;s composite score would depend on how well it discriminated between models, which itself depends on which models were tested. The v2 features provide diagnostic context &mdash; they help users understand <em>why</em> a benchmark ranks where it does &mdash; but they should not influence the ranking itself.&rdquo;
+      </div>
+    </div>
+
     <div class="row g-3">
       <div class="col-lg-6">
         <div class="chart-container">

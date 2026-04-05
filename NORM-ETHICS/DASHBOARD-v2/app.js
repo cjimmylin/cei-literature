@@ -870,6 +870,119 @@ function renderGapsTab() {
 }
 
 // ============================================================
+// Feature Reference Table (Tab 3)
+// ============================================================
+function renderFeatureRefTable() {
+  var tbody = document.getElementById('feature-ref-tbody');
+  if (!tbody || typeof DATA_FEATURE_DEFINITIONS === 'undefined') return;
+  tbody.textContent = '';
+
+  var axisSelect = document.getElementById('filter-feature-axis');
+  var versionSelect = document.getElementById('filter-feature-version');
+  var compositeCheck = document.getElementById('filter-feature-composite');
+  var summaryEl = document.getElementById('feature-ref-summary');
+
+  var axisClassMap = { ND: 'axis-nd', PE: 'axis-pe', CI: 'axis-ci', META: 'axis-meta', EQ: 'axis-eq' };
+  var axisColorMap = { ND: 'var(--nd-color)', PE: 'var(--pe-color)', CI: 'var(--ci-color)', META: 'var(--accent-purple)', EQ: 'var(--accent-cyan)' };
+
+  function render() {
+    tbody.textContent = '';
+    var axisFilter = axisSelect.value;
+    var versionFilter = versionSelect.value;
+    var compositeOnly = compositeCheck.checked;
+
+    var shown = 0;
+    var totalComposite = 0;
+
+    DATA_FEATURE_DEFINITIONS.forEach(function(f) {
+      if (axisFilter !== 'all' && f.axis !== axisFilter) return;
+      if (versionFilter !== 'all' && f.version !== versionFilter) return;
+      if (compositeOnly && !f.inComposite) return;
+
+      shown++;
+      if (f.inComposite) totalComposite++;
+
+      var tr = document.createElement('tr');
+
+      // ID cell
+      var tdId = document.createElement('td');
+      tdId.className = 'id-cell';
+      tdId.style.color = axisColorMap[f.axis] || 'var(--text-primary)';
+      tdId.textContent = f.id;
+      tr.appendChild(tdId);
+
+      // Name cell
+      var tdName = document.createElement('td');
+      tdName.style.fontWeight = '600';
+      tdName.style.fontSize = '0.78rem';
+      tdName.textContent = f.name;
+      tr.appendChild(tdName);
+
+      // Axis badge
+      var tdAxis = document.createElement('td');
+      var badge = document.createElement('span');
+      badge.className = 'axis-badge ' + (axisClassMap[f.axis] || '');
+      badge.textContent = f.axisLabel;
+      tdAxis.appendChild(badge);
+      tr.appendChild(tdAxis);
+
+      // Scale cell
+      var tdScale = document.createElement('td');
+      tdScale.style.fontFamily = 'var(--font-mono)';
+      tdScale.style.fontSize = '0.72rem';
+      tdScale.style.color = 'var(--text-secondary)';
+      tdScale.textContent = f.scale;
+      tr.appendChild(tdScale);
+
+      // Description cell
+      var tdDesc = document.createElement('td');
+      tdDesc.style.fontSize = '0.75rem';
+      tdDesc.style.lineHeight = '1.5';
+      tdDesc.textContent = f.description;
+      tr.appendChild(tdDesc);
+
+      // Weight cell
+      var tdWeight = document.createElement('td');
+      tdWeight.className = f.inComposite ? 'weight-cell' : 'weight-cell no-weight';
+      tdWeight.textContent = f.compositeWeight;
+      tr.appendChild(tdWeight);
+
+      // Distribution cell
+      var tdDist = document.createElement('td');
+      tdDist.className = 'dist-cell';
+      tdDist.textContent = f.distribution;
+      tr.appendChild(tdDist);
+
+      // Version badge
+      var tdVer = document.createElement('td');
+      var vBadge = document.createElement('span');
+      vBadge.className = 'version-badge ' + f.version;
+      vBadge.textContent = f.version;
+      tdVer.appendChild(vBadge);
+      tr.appendChild(tdVer);
+
+      tbody.appendChild(tr);
+    });
+
+    if (summaryEl) {
+      summaryEl.textContent = 'Showing ' + shown + ' of ' + DATA_FEATURE_DEFINITIONS.length + ' features' +
+        (compositeOnly ? ' (composite only)' : '') +
+        ' | ' + totalComposite + ' contribute to composite scoring';
+    }
+  }
+
+  render();
+  axisSelect.addEventListener('change', render);
+  versionSelect.addEventListener('change', render);
+  compositeCheck.addEventListener('change', render);
+}
+
+// Call renderFeatureRefTable on DOMContentLoaded (static, no lazy load needed)
+document.addEventListener('DOMContentLoaded', function() {
+  renderFeatureRefTable();
+});
+
+// ============================================================
 // Print Capture: ECharts → static PNG images for @media print
 // ============================================================
 function setupPrintCapture() {

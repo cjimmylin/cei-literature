@@ -627,4 +627,242 @@ table.papers-table tr.expanded-row {
   }
   /* Per-trial filter buttons */
   .trial-filter-bar { display: none !important; }
+  /* Feature reference table in print */
+  .feature-ref-table td, .feature-ref-table th { color: #000 !important; font-size: 0.65rem !important; }
+  .feature-toolbar { display: none !important; }
+  .scoring-equation-box, .scoring-rationale-box { background: #f5f5f5 !important; color: #000 !important; border: 1px solid #ccc !important; }
+  .scoring-equation-box h3, .scoring-rationale-box h3 { color: #000 !important; }
+  .equation-main, .equation-sub, .rationale-item p, .gate-text { color: #333 !important; }
+}
+
+/* ── Feature Reference Table ───────────────────────────────────── */
+.feature-ref-table td {
+  font-size: 0.75rem;
+  line-height: 1.45;
+}
+
+.feature-ref-table .axis-badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.axis-badge.axis-nd { background: rgba(91, 141, 239, 0.15); color: var(--nd-color); border: 1px solid rgba(91, 141, 239, 0.3); }
+.axis-badge.axis-pe { background: rgba(78, 203, 113, 0.15); color: var(--pe-color); border: 1px solid rgba(78, 203, 113, 0.3); }
+.axis-badge.axis-ci { background: rgba(240, 152, 62, 0.15); color: var(--ci-color); border: 1px solid rgba(240, 152, 62, 0.3); }
+.axis-badge.axis-meta { background: rgba(167, 139, 250, 0.15); color: var(--accent-purple); border: 1px solid rgba(167, 139, 250, 0.3); }
+.axis-badge.axis-eq { background: rgba(34, 211, 238, 0.15); color: var(--accent-cyan); border: 1px solid rgba(34, 211, 238, 0.3); }
+
+.version-badge {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.version-badge.v1 { background: rgba(91, 141, 239, 0.15); color: var(--accent-blue); }
+.version-badge.v2 { background: rgba(167, 139, 250, 0.15); color: var(--accent-purple); }
+
+.feature-ref-table .weight-cell {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent-green);
+  text-align: center;
+}
+.feature-ref-table .weight-cell.no-weight {
+  color: var(--text-muted);
+  font-size: 0.68rem;
+}
+
+.feature-ref-table .dist-cell {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.feature-ref-table .id-cell {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.78rem;
+}
+
+.feature-toolbar {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+.feature-toolbar select {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-family: var(--font-sans);
+}
+.feature-toggle-label {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+}
+.feature-toggle-label input[type="checkbox"] {
+  accent-color: var(--accent-blue);
+}
+
+.feature-ref-summary {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  padding-left: 0.25rem;
+}
+
+/* ── Scoring Equation Section ──────────────────────────────────── */
+.scoring-equation-section {
+  margin-bottom: 1.5rem;
+}
+
+.scoring-equation-box,
+.scoring-rationale-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  height: 100%;
+}
+.scoring-equation-box h3,
+.scoring-rationale-box h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+/* Prevent figure counter from applying to these headings */
+.scoring-equation-box h3::before,
+.scoring-rationale-box h3::before {
+  content: none !important;
+  counter-increment: none !important;
+}
+
+.equation-main {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 1rem;
+  font-family: var(--font-mono);
+  font-size: 1.05rem;
+}
+.eq-label {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.eq-equals { color: var(--text-muted); }
+.eq-plus { color: var(--text-muted); font-size: 0.9rem; }
+.eq-term {
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.eq-weight {
+  font-weight: 400;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+.nd-term { background: rgba(91, 141, 239, 0.15); color: var(--nd-color); border: 1px solid rgba(91, 141, 239, 0.3); }
+.pe-term { background: rgba(78, 203, 113, 0.15); color: var(--pe-color); border: 1px solid rgba(78, 203, 113, 0.3); }
+.ci-term { background: rgba(240, 152, 62, 0.15); color: var(--ci-color); border: 1px solid rgba(240, 152, 62, 0.3); }
+
+.equation-sub-group {
+  margin-bottom: 1rem;
+}
+.equation-sub {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.3rem 0;
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+}
+.eq-sub-label {
+  font-weight: 700;
+  min-width: 28px;
+}
+.eq-sub-eq { color: var(--text-muted); }
+.eq-sub-terms { color: var(--text-secondary); }
+
+.equation-gates {
+  background: rgba(255,255,255,0.02);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  padding: 0.75rem 1rem;
+}
+.equation-gates h4 {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.gate-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+  font-size: 0.82rem;
+}
+.gate-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.gate-icon.pass { background: rgba(22, 163, 74, 0.2); color: var(--accent-green); }
+.gate-text { color: var(--text-secondary); }
+.gate-note {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.4rem;
+  padding-left: 28px;
+}
+
+/* Rationale items */
+.rationale-item {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+.rationale-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.rationale-item strong {
+  display: block;
+  font-size: 0.82rem;
+  margin-bottom: 0.25rem;
+}
+.rationale-item p {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.55;
 }

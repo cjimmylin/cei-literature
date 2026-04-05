@@ -70,6 +70,11 @@ def strip_latex(text: str) -> str:
     text = text.replace('\\mu', 'mu')
     text = text.replace('\\sigma', 'sigma')
     text = text.replace('\\lambda', 'lambda')
+    text = text.replace('\\Delta', 'Delta')
+    text = text.replace('\\delta', 'delta')
+    text = text.replace('\\pi', 'pi')
+    text = text.replace('\\kappa', 'kappa')
+    text = re.sub(r'\\text\{([^}]*)\}', r'\1', text)  # \text{adj} -> adj
     text = re.sub(r'\^(\d)', r'^\1', text)  # keep superscripts readable
     text = re.sub(r'\^{([^}]*)}', r'^\1', text)
     text = re.sub(r'_\{([^}]*)\}', r'_\1', text)
@@ -177,8 +182,11 @@ class CombinedPDF(FPDF):
         n_cols = len(headers)
         avail = self.w - 20
 
-        # Smart column widths: give first column 1.5x share for names
-        if n_cols <= 3:
+        # Smart column widths
+        if n_cols == 2:
+            # Score|Criterion pattern: narrow first, wide second
+            col_widths = [avail * 0.2, avail * 0.8]
+        elif n_cols <= 3:
             col_widths = [avail / n_cols] * n_cols
         else:
             first_w = avail * 1.5 / (n_cols + 0.5)
@@ -222,7 +230,10 @@ class CombinedPDF(FPDF):
 
             for i, cell in enumerate(cells):
                 cell = sanitize(clean_line(cell))
-                max_len = 32 if i == 0 else 24
+                if n_cols == 2:
+                    max_len = 15 if i == 0 else 80
+                else:
+                    max_len = 32 if i == 0 else 24
                 if len(cell) > max_len:
                     cell = cell[:max_len - 1] + "."
                 align = "L" if i == 0 else "C"

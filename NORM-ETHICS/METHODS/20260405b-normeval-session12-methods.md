@@ -5,7 +5,7 @@
 
 ## Data and Materials
 
-The NormEval Dashboard v2 comprises 4 source files (index.html, style.css, app.js, charts.js) plus 2 pre-computed data files (data.js at 183KB, data_cross_vendor.js at 17KB). The dashboard visualizes 54 normative ethics benchmarks scored across 46 features, with cross-model (3 Claude tiers) and cross-vendor (9 models, 3 providers) replication data.
+The NormEval Dashboard v2 comprises 4 source files (index.html, style.css, app.js, charts.js) plus 2 pre-computed data files (data.js at 183KB, data_cross_vendor.js at 17KB). The dashboard visualizes 54 normative ethics benchmarks scored across 41 features, with cross-model (3 Claude tiers) and cross-vendor (9 models, 3 providers) replication data.
 
 Font assets were obtained from Google Fonts API v20: Inter (variable font, weights 300–700) and JetBrains Mono (weights 400–500), both in woff2 format with latin and latin-ext unicode subsets.
 

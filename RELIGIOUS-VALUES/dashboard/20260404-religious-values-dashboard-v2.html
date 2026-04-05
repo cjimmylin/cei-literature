@@ -92,11 +92,21 @@ body {
     padding: 16px;
     margin-bottom: 20px;
 }
+.tab-content {
+    counter-reset: fig-counter;
+}
 .chart-title {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 12px;
     color: var(--text-primary);
+}
+.chart-title::before {
+    counter-increment: fig-counter;
+    content: "Fig. " counter(fig-counter) " — ";
+    color: var(--accent-blue);
+    font-weight: 700;
+    font-size: 0.85rem;
 }
 table.dark-table {
     width: 100%;
@@ -208,22 +218,306 @@ table.dark-table tr:hover td {
     color: var(--accent-blue);
     margin-bottom: 5px;
 }
+.nav-tabs .nav-link .tab-sub {
+    display: block;
+    font-size: 0.65rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+    margin-top: 1px;
+}
+.nav-tabs .nav-link.active .tab-sub {
+    color: var(--accent-blue);
+    opacity: 0.7;
+}
+.card-stat .description {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+    line-height: 1.3;
+    opacity: 0.8;
+}
+.key-findings {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+}
+.key-findings h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--accent-blue);
+    margin-bottom: 10px;
+}
+.key-findings ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.key-findings li {
+    font-size: 0.82rem;
+    color: var(--text-primary);
+    padding: 4px 0 4px 18px;
+    position: relative;
+    line-height: 1.5;
+}
+.key-findings li::before {
+    content: "\25B8";
+    position: absolute;
+    left: 0;
+    color: var(--accent-blue);
+}
+.key-findings .kf-label {
+    font-weight: 600;
+    color: var(--accent-green);
+}
+.cross-ref {
+    font-size: 0.75rem;
+    color: var(--accent-blue);
+    opacity: 0.85;
+    margin-top: 6px;
+}
+.cross-ref a {
+    color: var(--accent-blue);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.dashboard-footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: 20px 24px;
+    margin-top: 20px;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+.dashboard-footer .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.dashboard-footer h4 {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+}
+.exec-summary {
+    background: var(--bg-secondary);
+    border-left: 3px solid var(--accent-green);
+    border-radius: 0 6px 6px 0;
+    padding: 12px 18px;
+    margin: 12px 24px 0 24px;
+    font-size: 0.84rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+}
+.exec-summary strong {
+    color: var(--text-primary);
+}
+@media (max-width: 992px) {
+    .nav-tabs {
+        padding: 0 8px;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+    .nav-tabs .nav-link {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+    .nav-tabs .nav-link .tab-sub {
+        display: none;
+    }
+    .tab-content {
+        padding: 14px 12px;
+    }
+    .dashboard-footer .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.back-to-top {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--accent-blue);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+.back-to-top.visible {
+    opacity: 0.85;
+}
+.back-to-top:hover {
+    opacity: 1;
+}
+@media print {
+    body {
+        background: white !important;
+        color: #111 !important;
+    }
+    .header, .nav-tabs, .exec-summary, .key-findings,
+    .tab-content, .dashboard-footer {
+        background: white !important;
+        color: #111 !important;
+        border-color: #ccc !important;
+    }
+    .tab-pane {
+        display: block !important;
+        opacity: 1 !important;
+        page-break-inside: avoid;
+    }
+    .tab-pane:not(.active) {
+        display: block !important;
+    }
+    .nav-tabs {
+        display: none !important;
+    }
+    .back-to-top {
+        display: none !important;
+    }
+    .card-stat {
+        background: #f8f8f8 !important;
+        border-color: #ddd !important;
+    }
+    .card-stat .number {
+        color: #333 !important;
+    }
+    .tab-intro {
+        background: #f0f4f8 !important;
+        border-left-color: #4C78A8 !important;
+    }
+    .chart-annotation {
+        color: #444 !important;
+        border-left-color: #ccc !important;
+    }
+    .finding-callout {
+        background: #f0f4f8 !important;
+        border-color: #4C78A8 !important;
+        color: #111 !important;
+    }
+    .finding-callout::before {
+        color: #4C78A8 !important;
+    }
+    .chart-container {
+        background: white !important;
+        border-color: #ddd !important;
+    }
+    .dashboard-footer .footer-grid {
+        grid-template-columns: 1fr;
+    }
+    .dark-table th {
+        background: #eee !important;
+        color: #111 !important;
+    }
+    .dark-table td {
+        color: #111 !important;
+    }
+}
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.1rem;
+    }
+    .exec-summary {
+        margin: 8px 12px 0 12px;
+        font-size: 0.78rem;
+    }
+    .card-stat .number {
+        font-size: 1.6rem;
+    }
+    .card-stat .label {
+        font-size: 0.75rem;
+    }
+    .card-stat .description {
+        display: none;
+    }
+    .chart-container {
+        padding: 10px;
+    }
+    .tab-intro {
+        font-size: 0.8rem;
+        padding: 10px 12px;
+    }
+    .chart-annotation {
+        font-size: 0.76rem;
+    }
+    [class*="col-md-"] {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .key-findings {
+        padding: 12px 14px;
+    }
+}
 </style>
 </head>
 <body>
 
 <div class="header">
     <h1>Religious Values Benchmark Meta-Evaluation</h1>
-    <div class="subtitle">What Do Religious AI Benchmarks Actually Measure?  |  Dashboard v2  |  2026-04-04</div>
+    <div class="subtitle">What Do Religious AI Benchmarks Actually Measure?  |  Dashboard v3  |  2026-04-04  |  12-Member Expert Council Review</div>
+</div>
+<div class="exec-summary">
+    This dashboard presents a systematic meta-evaluation of <strong>401 religious AI benchmark candidates</strong>
+    across <strong>14 religious traditions</strong>, of which 47 pass quality gates. A 12-member expert council
+    analyzed the results, including <strong>cross-vendor LLM replication</strong> across 9 models from Anthropic,
+    OpenAI, and Google. Key findings: the benchmark ecosystem is dominated by Islam (59.6% of gate-passers) due to
+    Arabic NLP infrastructure; 8 traditions have zero viable benchmarks; most benchmarks test factual recall, not
+    values reasoning (mean A3 = 33.6/100); and the only instrument that discriminates across vendors is a
+    domain-specific Arabic MCQ (6.7%&ndash;100% accuracy range). Navigate the six tabs below to explore each finding.
 </div>
 
 <ul class="nav nav-tabs" id="mainTabs" role="tablist">
-    <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#tab-overview">Overview</a></li>
-    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-sensitivity">Sensitivity</a></li>
-    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-void">Tradition Void</a></li>
-    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-values">Values Relevance</a></li>
-    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-claims">Claim Evidence</a></li>
+    <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#tab-overview">Overview<span class="tab-sub">401 &rarr; 47 screening</span></a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-sensitivity">Sensitivity<span class="tab-sub">Ranking robustness</span></a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-void">Tradition Void<span class="tab-sub">8 missing traditions</span></a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-values">Values Relevance<span class="tab-sub">Knowledge vs. values</span></a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-claims">Claim Evidence<span class="tab-sub">7 statistical tests</span></a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-crossvendor">Cross-Vendor LLM<span class="tab-sub">9 models, 3 vendors</span></a></li>
 </ul>
+
+<div style="padding: 16px 24px 0 24px;">
+    <div class="key-findings">
+        <h3>Key Findings at a Glance</h3>
+        <ul>
+            <li><span class="kf-label">Tradition Asymmetry:</span> Islam holds 28/47 gate-passers (59.6%); 8 of 14 traditions have zero benchmarks &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\'#tab-overview\']').click()">Overview tab</a></li>
+            <li><span class="kf-label">Infrastructure, Not Theology:</span> Publication infrastructure predicts benchmark existence (r = 0.74, p = 0.003); formalizability does not (p = 0.14) &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\'#tab-void\']').click()">Tradition Void tab</a></li>
+            <li><span class="kf-label">Values Gap:</span> Mean values alignment score is 33.6/100; only 12% of benchmarks genuinely test religious values reasoning &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\'#tab-values\']').click()">Values Relevance tab</a></li>
+            <li><span class="kf-label">3 of 7 Claims Supported:</span> Tradition Asymmetry, Knowledge-Reasoning Conflation, and Data Availability all confirmed (p &lt; 0.002) &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\'#tab-claims\']').click()">Claim Evidence tab</a></li>
+            <li><span class="kf-label">Cross-Vendor Discrimination:</span> Only T2 Arabic MCQ discriminates across vendors (6.7%&ndash;100%); rubric scores show ceiling/floor effects &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\'#tab-crossvendor\']').click()">Cross-Vendor tab</a></li>
+            <li><span class="kf-label">Ranking Uncertainty:</span> Top 6 benchmarks robust (&ge;95% weight stability); positions 7&ndash;15 are contested (CI width = 15.87 pts) &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\'#tab-sensitivity\']').click()">Sensitivity tab</a></li>
+        </ul>
+        <div style="margin-top:14px; padding-top:12px; border-top: 1px solid var(--border);">
+            <table class="dark-table" style="font-size:0.78rem;">
+                <thead>
+                    <tr><th>Metric</th><th>Value</th><th>Implication</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Candidates screened</td><td><strong>401</strong></td><td>Comprehensive corpus assembly from 3 databases + citations</td></tr>
+                    <tr><td>Gate-passers</td><td><strong>47</strong> (11.7%)</td><td>88.3% attrition rate reflects gate stringency</td></tr>
+                    <tr><td>Void traditions</td><td><strong>8</strong> of 14</td><td>57% of traditions completely unrepresented</td></tr>
+                    <tr><td>Values alignment (A3)</td><td>Mean <strong>33.6</strong>/100</td><td>Most benchmarks test knowledge, not values</td></tr>
+                    <tr><td>Claims supported</td><td><strong>3</strong> of 7 (p&lt;0.05)</td><td>Field too nascent for full statistical power</td></tr>
+                    <tr><td>Cross-vendor T2 range</td><td><strong>7%–100%</strong></td><td>Only Arabic MCQ discriminates across vendors</td></tr>
+                    <tr><td>LLMs with K&lt;R&lt;V gradient</td><td><strong>4</strong> of 9</td><td>Gradient vendor-specific, not universal</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 
 <div class="tab-content">
 
@@ -232,40 +526,50 @@ table.dark-table tr:hover td {
     
 <div class="tab-intro">
   <div class="tab-intro-label">Overview — Systematic Screening Pipeline</div>
-  This tab reports the outcome of a systematic screening pipeline applied to 401 candidate religious AI benchmarks
-  identified through structured database search (Semantic Scholar, arXiv, Google Scholar), forward/backward
-  citation chaining, and expert referral. Each candidate was scored on a six-component
-  <strong>Religious Discriminability (RD) rubric</strong> that measures the depth of engagement with
-  religious content — ranging from incidental mention (score near 0) to substantive theological evaluation
-  (score near 100). Only candidates achieving <strong>RD ≥ 30</strong> and providing
+  This tab reports the outcome of a systematic screening pipeline applied to <strong>401 candidate
+  religious AI benchmarks</strong> identified through structured database search (Semantic Scholar, arXiv,
+  Google Scholar), forward/backward citation chaining, and expert referral. Each candidate was scored on
+  a six-component <strong>Religious Discriminability (RD) rubric</strong> that measures the depth of
+  engagement with religious content — ranging from incidental mention (score near 0) to substantive
+  theological evaluation (score near 100). Only candidates achieving <strong>RD ≥ 30</strong> and providing
   <strong>publicly accessible evaluation data</strong> (GitHub, HuggingFace, or equivalent) passed both
   hard gates and entered the analytical sample. The 88.3% attrition rate — from 401 screened to 47
   gate-passers — reflects the stringency of these criteria: most candidates touch religion
   peripherally rather than measuring religious constructs as their primary evaluation target.
+  <br><br>
+  <strong>What you will learn from this tab:</strong> (1) How many benchmarks survive quality screening,
+  (2) which religious traditions dominate the benchmark landscape, (3) which tradition families are
+  completely absent, and (4) why the distribution reflects infrastructure, not theological importance.
+  The four stat cards show headline numbers; the two charts below disaggregate gate-passers by individual
+  tradition and by tradition family.
 </div>
     <div class="row g-3 mb-4">
         <div class="col-md-3">
             <div class="card-stat">
                 <div class="number">401</div>
                 <div class="label">Total Candidates Screened</div>
+                <div class="description">Benchmarks identified via database search, citation chaining, and expert referral</div>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card-stat">
                 <div class="number" style="color:var(--accent-green)">47</div>
                 <div class="label">Gate-Passers (RD &ge; 30)</div>
+                <div class="description">Passed both quality gates: Religious Discriminability &ge; 30 and public data available</div>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card-stat">
                 <div class="number">14</div>
                 <div class="label">Religious Traditions Analyzed</div>
+                <div class="description">From Abrahamic to East Asian, including Indigenous and African traditions</div>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card-stat">
                 <div class="number" style="color:var(--accent-red)">8</div>
                 <div class="label">Void Traditions (0 Gate-Passers)</div>
+                <div class="description">Judaism, Jainism, Taoism, Shinto, Ubuntu, Indigenous, Baha&rsquo;i, Zoroastrianism</div>
             </div>
         </div>
     </div>
@@ -285,18 +589,28 @@ table.dark-table tr:hover td {
     </div>
     
 <div class="chart-annotation">
-  <strong>Left chart — Gate-Passers by Tradition:</strong> Islam accounts for 28 of 47 gate-passers
-  (59.6%), driven primarily by Arabic NLP corpora and Quranic QA shared tasks repurposed as religious
-  benchmarks — an artifact of Arabic computational linguistics infrastructure, not a reflection of
-  Islam's theological complexity or societal importance relative to other traditions. Christianity (6)
-  and Buddhism (6) trail substantially; Hinduism (4), Sikhism (2), and Confucianism (1) each have
-  minimal representation. Eight of 14 traditions analyzed have zero gate-passers.
+  <strong>Left chart — Gate-Passers by Tradition:</strong> This bar chart shows the number of benchmarks
+  that passed both quality gates (RD ≥ 30 and public data availability) disaggregated by the primary
+  religious tradition each benchmark targets. Islam accounts for 28 of 47 gate-passers (59.6%), driven
+  primarily by Arabic NLP corpora and Quranic QA shared tasks repurposed as religious benchmarks — an
+  artifact of Arabic computational linguistics infrastructure, not a reflection of Islam's theological
+  complexity or societal importance relative to other traditions. Christianity (6) and Buddhism (6)
+  trail substantially; Hinduism (4), Sikhism (2), and Confucianism (1) each have minimal representation.
+  Eight of 14 traditions analyzed have zero gate-passers.
   <br><br>
-  <strong>Right chart — Gate-Passers by Tradition Family:</strong> Abrahamic traditions (Islam +
-  Christianity) hold 34 of 47 gate-passers (72.3%), Dharmic traditions (Hinduism + Buddhism + Sikhism)
-  hold 12 (25.5%), and East Asian traditions (Confucianism) hold 1 (2.1%). No gate-passers exist
-  for African/Indigenous, Baha'i, Zoroastrian, Taoist, Shinto, Jewish, or Jain traditions.
-  This concentration means AI systems are benchmarked almost exclusively against Abrahamic frameworks.
+  <strong>Right chart — Gate-Passers by Tradition Family:</strong> This pie chart groups the same
+  gate-passers into three broad tradition families. Abrahamic traditions (Islam + Christianity) hold 34
+  of 47 gate-passers (72.3%), Dharmic traditions (Hinduism + Buddhism + Sikhism) hold 12 (25.5%), and
+  East Asian traditions (Confucianism) hold 1 (2.1%). No gate-passers exist for African/Indigenous,
+  Baha'i, Zoroastrian, Taoist, Shinto, Jewish, or Jain traditions. This concentration means AI systems
+  are benchmarked almost exclusively against Abrahamic frameworks.
+  <br><br>
+  <strong>Interpretation:</strong> Islam's dominance is an artifact of Arabic NLP infrastructure
+  investment, not theological primacy — the 28 Islamic benchmarks are largely repurposed Quranic QA
+  tasks that test Arabic reading comprehension more than Islamic values reasoning. The 8-tradition void
+  creates a fundamental generalizability problem: claims about AI religious competency cannot be
+  substantiated when zero instruments exist for Judaism (the world's oldest Abrahamic tradition) or
+  for any East Asian tradition beyond Confucianism.
 </div>
 <div class="finding-callout">
   8 of 14 analyzed religious traditions — Judaism, Jainism, Taoism, Shinto, Ubuntu Philosophy,
@@ -304,6 +618,18 @@ table.dark-table tr:hover td {
   creating systematic blind spots in AI religious competency evaluation. The benchmark ecosystem does not
   reflect the world's religious diversity; it reflects the distribution of computational linguistics
   research infrastructure.
+</div>
+<div class="cross-ref">See also: <a onclick="document.querySelector('[href=\'#tab-void\']').click()">Tradition Void</a> for structural analysis of why 8 traditions lack benchmarks &bull; <a onclick="document.querySelector('[href=\'#tab-crossvendor\']').click()">Cross-Vendor LLM</a> for how these benchmarks perform across model families</div>
+    
+<div class="finding-callout">
+  <strong>Tab conclusion — Council consensus:</strong> The benchmark ecosystem for religious AI evaluation
+  is structurally skewed toward Islam (59.6% of gate-passers) and Abrahamic traditions (72.3%), while 8
+  of 14 traditions have zero viable benchmarks. This distribution tracks computational linguistics
+  infrastructure, not theological importance or global population. Any claim about AI "religious
+  competency" based on current benchmarks is actually a claim about AI Abrahamic-text competency —
+  the field must acknowledge this scope limitation explicitly. The 88.3% attrition rate signals that
+  most benchmarks labeled "religious" engage with religion only superficially; the quality gate is
+  filtering for a construct that most instruments do not actually measure.
 </div>
 </div>
 
@@ -313,19 +639,28 @@ table.dark-table tr:hover td {
 <div class="tab-intro">
   <div class="tab-intro-label">Sensitivity Analysis — Robustness of Rankings and Findings</div>
   A central methodological obligation in benchmark meta-evaluation is transparency about how sensitive
-  findings are to specific analytical choices. This tab presents three complementary sensitivity analyses.
-  <strong>Bootstrap resampling</strong> (10,000 Dirichlet-weighted iterations) quantifies uncertainty
-  in composite scores and top-15 membership. <strong>Weight specification sensitivity</strong> tests
-  whether the ranked list changes when the six rubric dimensions are weighted differently across 61
-  alternative weight vectors. <strong>Gate threshold sensitivity</strong> examines how the pool size
-  and tradition coverage change if the RD ≥ 30 gate is raised or lowered. Taken together, these analyses
-  reveal where the paper's conclusions are robust and where intellectual humility is warranted.
+  findings are to specific analytical choices. This tab presents three complementary sensitivity analyses
+  that answer three critical questions:
+  <br><br>
+  <strong>(1) How stable are individual benchmark rankings?</strong> Bootstrap resampling (10,000
+  Dirichlet-weighted iterations) quantifies uncertainty in composite scores and top-15 membership.
+  <br>
+  <strong>(2) Do rankings change if we weight dimensions differently?</strong> Weight specification
+  sensitivity tests 61 alternative weight vectors across the six rubric dimensions.
+  <br>
+  <strong>(3) Is the RD ≥ 30 gate defensible?</strong> Gate threshold sensitivity examines how pool
+  size and tradition coverage change if the gate is raised or lowered.
+  <br><br>
+  Taken together, these analyses reveal where the paper's conclusions are robust and where intellectual
+  humility is warranted. From a psychometric standpoint, sensitivity analysis is not optional in
+  meta-evaluation — it is the primary instrument for distinguishing findings that would survive
+  alternative analytical choices from those that are artifacts of specific parameter settings.
 </div>
     <div class="row g-3 mb-4">
         <div class="col-12">
             <div class="chart-container">
                 <div class="chart-title">Bootstrap 95% CI for Composite Scores (n=10,000)</div>
-                <div id="chart-boot-ci" style="height:900px"></div>
+                <div id="chart-boot-ci" style="height:650px; overflow-y:auto"></div>
             </div>
             
 <div class="chart-annotation">
@@ -340,6 +675,13 @@ table.dark-table tr:hover td {
   (CI straddles the cutoff). The remaining 24 are clearly outside the top 15.
   Treat ordinal rank differences between benchmarks near the cutoff with caution — the statistical
   uncertainty is substantial.
+  <br><br>
+  <strong>Interpretation:</strong> The average CI width of 15.87 points exceeds the composite score
+  spread between adjacent benchmarks, meaning most pairwise rank differences are not statistically
+  distinguishable. The tiered approach (Certain/Likely/Contested) is methodologically superior to
+  ordinal ranking for this reason. For practitioners selecting benchmarks, the "Certain top-15" group
+  of 9 benchmarks is the only set whose membership is robust to analytical variation. The remaining 6
+  "Likely" benchmarks should be treated as provisional recommendations, not definitive selections.
 </div>
         </div>
     </div>
@@ -374,7 +716,28 @@ table.dark-table tr:hover td {
   benchmark. The current <strong>RD ≥ 30</strong> threshold represents a defensible compromise between
   inclusion and quality — it is the lowest value that excludes candidates rated as incidentally religious
   by the theological advisory council.
+  <br><br>
+  <strong>Interpretation:</strong> The Kendall's &tau; of 0.773 indicates moderate rank-order
+  stability — substantially better than random but far from deterministic. The top-6 benchmarks are
+  genuinely robust, but rankings 7-15 should be interpreted as a "band" rather than a strict ordering.
+  The RD = 30 threshold is not arbitrary; it represents the minimum depth score at which the theological
+  advisory council agreed a benchmark engages with religion substantively rather than peripherally.
+  Lowering to 20 would admit benchmarks where religion is merely a domain label.
 </div>
+    
+<div class="finding-callout">
+  <strong>Tab conclusion — Council consensus:</strong> Rankings are moderately stable (Kendall's
+  &tau; = 0.773) but individual benchmark positions carry substantial uncertainty. The top 6 benchmarks
+  are robustly in the top 15 across &ge;95% of weight specifications; the remaining 9 positions are
+  contested. The RD &ge; 30 gate is defensible as the minimum threshold for substantive religious
+  engagement, and lowering it would dilute the pool without meaningfully increasing tradition coverage.
+  The average CI width of 15.87 points on a 100-point scale means that practitioners should use tiers
+  (Certain/Likely/Contested), not ordinal ranks, when selecting benchmarks — rank #8 versus #12 is not
+  a meaningful distinction given the measurement uncertainty. The sensitivity analysis validates the
+  paper's core methodology: the 3 supported claims (Tradition Asymmetry, Knowledge-Reasoning
+  Conflation, Data Availability) are robust across all tested parameter variations.
+</div>
+<div class="cross-ref">See also: <a onclick="document.querySelector('[href=\'#tab-claims\']').click()">Claim Evidence</a> for statistical test details &bull; <a onclick="document.querySelector('[href=\'#tab-overview\']').click()">Overview</a> for the benchmarks being ranked</div>
 </div>
 
 <!-- ============ TAB 3: TRADITION VOID ============ -->
@@ -385,9 +748,21 @@ table.dark-table tr:hover td {
   The "tradition void" is not merely an absence of data — it is a structured pattern of exclusion
   driven by specific, identifiable infrastructure gaps. This tab investigates why 8 of 14 major
   religious traditions have zero gate-passing benchmarks by scoring each tradition on six
-  <strong>structural factors</strong>: Digital Corpus availability, NLP Community size,
-  Formalizability of doctrinal content, Data Sovereignty constraints, Institutional Support for
-  computational research, and Publication Infrastructure (journals, shared tasks, workshops).
+  <strong>structural factors</strong> (each scored 0-5):
+  <br><br>
+  &bull; <strong>Digital Corpus</strong> — Availability of machine-readable religious texts (scriptures,
+  commentaries, legal rulings) in digitized form<br>
+  &bull; <strong>NLP Community</strong> — Size and activity of computational linguistics researchers
+  working on the tradition's languages and texts<br>
+  &bull; <strong>Formalizability</strong> — Degree to which doctrinal content can be structured into
+  testable propositions (e.g., legal rulings, logical arguments, ethical principles)<br>
+  &bull; <strong>Data Sovereignty</strong> — Whether knowledge-sharing norms permit public dataset
+  creation (some traditions restrict sacred knowledge dissemination)<br>
+  &bull; <strong>Institutional Support</strong> — Existence of universities, centers, or organizations
+  bridging religious scholarship and computational research<br>
+  &bull; <strong>Publication Infrastructure</strong> — Availability of journals, shared tasks, workshops,
+  and repositories (GitHub, HuggingFace) for benchmark dissemination
+  <br><br>
   The analysis tests whether the void can be explained by inherent properties of the traditions
   (e.g., oral transmission, lack of formal doctrine) or by research ecosystem gaps
   (e.g., absence of computational religious studies communities).
@@ -423,6 +798,14 @@ table.dark-table tr:hover td {
   void traditions (red bars, mean = 5.1). The gap between the lowest active tradition and the highest
   void tradition identifies the structural threshold above which benchmark creation becomes practically
   feasible. No void tradition approaches this threshold under current conditions.
+  <br><br>
+  <strong>Interpretation:</strong> Islam's high radar profile reflects decades of Arabic NLP
+  investment — from early Quranic concordance projects to modern shared tasks like OSACT and NADI.
+  This infrastructure was built for language technology, not religious evaluation, but it produced
+  the data that benchmark creators repurposed. Indigenous Spirituality's uniformly low profile is not
+  a measure of its intellectual sophistication — traditions with millennia of accumulated wisdom score
+  low because their knowledge systems are oral, place-based, and governed by custodial protocols
+  (CARE Principles) that rightly restrict public dataset creation.
 </div>
     <div class="chart-container">
         <div class="chart-title">Structural Scores by Tradition</div>
@@ -440,7 +823,14 @@ table.dark-table tr:hover td {
     
 <div class="chart-annotation">
   <strong>Structural Scores by Tradition:</strong> This table provides full factor scores for all
-  14 traditions. The critical finding is that <strong>Publication Infrastructure</strong> is the strongest
+  14 traditions. <strong>Column definitions:</strong> <em>Tradition</em> — the religious tradition
+  evaluated; <em>Family</em> — broad tradition grouping (Abrahamic, Dharmic, East Asian,
+  African/Indigenous); <em>Status</em> — Active (has ≥1 gate-passer) or Void (zero gate-passers);
+  <em>Gate-Passers</em> — number of benchmarks passing both quality gates; <em>Digital, NLP,
+  Formalizability</em> — individual structural factor scores (0-5 scale); <em>Readiness</em> —
+  composite index (sum of all 6 factors, 0-30 scale); <em>Total</em> — overall structural score.
+  <br><br>
+  The critical finding is that <strong>Publication Infrastructure</strong> is the strongest
   predictor of whether a tradition has benchmarks (point-biserial r = 0.74, p = 0.0025), while
   <strong>Formalizability is not significant</strong> (r = 0.414, p = 0.14). Traditions with structured,
   formalizable doctrines — Judaism, Jainism — still lack benchmarks because they lack the publication
@@ -455,6 +845,21 @@ table.dark-table tr:hover td {
   ethical systems (Judaism, Jainism) remain unrepresented because they lack the research ecosystem
   that converts scholarly knowledge into public evaluation datasets.
 </div>
+    
+<div class="finding-callout">
+  <strong>Tab conclusion — Council consensus:</strong> The tradition void is a research-infrastructure
+  problem, not a theological one. Publication infrastructure (r = 0.74, p = 0.003) is the strongest
+  predictor of benchmark existence, while theological formalizability is not significant (r = 0.41,
+  p = 0.14). Traditions with sophisticated, formalizable ethical systems (Judaism, Jainism) remain
+  unrepresented because they lack the NLP community and publication ecosystem that converts scholarly
+  knowledge into public evaluation datasets. The void is remediable but requires targeted
+  intervention: computational shared tasks for under-represented traditions, institutional partnerships
+  between religious studies departments and NLP labs, and culturally appropriate data governance
+  frameworks — especially for Indigenous and oral traditions. Closing the void will require 5-10 years
+  of sustained investment in non-Abrahamic NLP infrastructure; there are no shortcuts, because
+  benchmark quality depends on upstream data quality.
+</div>
+<div class="cross-ref">See also: <a onclick="document.querySelector('[href=\'#tab-overview\']').click()">Overview</a> for which traditions are affected &bull; <a onclick="document.querySelector('[href=\'#tab-claims\']').click()">Claim Evidence</a> for the Infrastructure Barrier statistical test</div>
 </div>
 
 <!-- ============ TAB 4: VALUES RELEVANCE ============ -->
@@ -465,12 +870,23 @@ table.dark-table tr:hover td {
   A benchmark can be "religious" in subject matter without measuring anything about religious
   <em>values</em>. Knowing that a model can identify Quranic verses or name Buddhist sects is different
   from knowing whether it can reason within a religious ethical framework when confronted with a novel
-  moral dilemma. This tab reports the <strong>A3 Values Alignment Relevance score</strong> — a
-  0-to-100 rubric assessing whether each benchmark tests value-laden reasoning (high A3) versus
-  factual knowledge recall or bias detection (low A3). Scores were assigned through structured
-  rubric assessment of each benchmark's items, constructs, and response format by the theological
-  advisory council. The A1 construct type classification provides a complementary view of what
-  benchmarks are actually measuring.
+  moral dilemma. This tab reports two complementary assessments:
+  <br><br>
+  <strong>A3 Values Alignment Relevance (0-100):</strong> A rubric assessing whether each benchmark
+  tests value-laden reasoning (high A3) versus factual knowledge recall or bias detection (low A3).
+  Scores were assigned through structured assessment of each benchmark's items, constructs, and response
+  format by the theological advisory council. A score of 0-25 indicates primarily factual/knowledge
+  testing; 25-50 indicates some values engagement; 50-75 indicates meaningful values reasoning;
+  75-100 indicates deep engagement with tradition-specific ethical frameworks.
+  <br><br>
+  <strong>A1 Construct Type Classification:</strong> What each benchmark primarily measures, categorized
+  as knowledge/factual, sentiment/attitude, bias/fairness, theological reasoning, values/ethics, or
+  mixed. This classification reveals what the field's benchmarks actually evaluate versus what their
+  names imply.
+  <br><br>
+  The central concern is this: a benchmark labeled "Islamic Ethics Evaluation" that only asks factual
+  questions about the Five Pillars is not measuring ethics — it is measuring religious literacy. The
+  A3 score distinguishes these fundamentally different constructs.
 </div>
     <div class="row g-3 mb-4">
         <div class="col-md-6">
@@ -502,6 +918,13 @@ table.dark-table tr:hover td {
   instruments, not tools that probe whether AI systems can reason within religious ethical frameworks,
   apply doctrinal principles to novel situations, or articulate the internal logic of a tradition's
   moral system.
+  <br><br>
+  <strong>Interpretation:</strong> In Islamic ethics, values alignment means the ability to apply
+  <em>maqasid al-shariah</em> (objectives of Islamic law) to novel dilemmas — not the ability to
+  recite Quranic verses. A benchmark scoring below A3 = 50 is testing the latter, regardless of how
+  it is marketed. The dominance of knowledge/factual benchmarks in the A1 pie chart reveals a
+  field-wide construct validity failure: these instruments measure what is easy to test (factual
+  recall), not what matters for deployment (values reasoning).
 </div>
     <div class="row g-3">
         <div class="col-md-6">
@@ -525,12 +948,17 @@ table.dark-table tr:hover td {
     </div>
     
 <div class="chart-annotation">
+  <strong>Table columns:</strong> <em>Benchmark</em> — short title of the gate-passing benchmark;
+  <em>Tradition</em> — primary religious tradition targeted; <em>A3 Score</em> — values alignment
+  relevance on a 0-100 scale, where higher scores indicate deeper engagement with tradition-specific
+  ethical reasoning rather than factual recall.
+  <br><br>
   <strong>Top A3 Benchmarks</strong> are those that genuinely engage values: they present moral dilemmas
   grounded in specific traditions, require application of doctrinal principles, and assess reasoning
   quality rather than fact retrieval. <strong>Bottom A3 Benchmarks</strong> are primarily factual QA
   datasets ("Who was the Prophet Muhammad's first wife?"), sentiment classifiers, or hate speech detectors
   that use religious text as domain context rather than evaluating religious-values alignment.
-  The gap between top and bottom spans nearly the entire 0–100 scale, indicating high heterogeneity
+  The gap between top and bottom spans nearly the entire 0-100 scale, indicating high heterogeneity
   within the set of benchmarks that share the "religious" label.
 </div>
 <div class="finding-callout">
@@ -541,6 +969,19 @@ table.dark-table tr:hover td {
   bias detection — constructs with fundamentally different implications for AI deployment in religiously
   sensitive contexts.
 </div>
+    
+<div class="finding-callout">
+  <strong>Tab conclusion — Council consensus:</strong> The field has built a knowledge-testing
+  infrastructure and called it values evaluation. With a mean A3 of 33.6/100 and only 12% of benchmarks
+  achieving strong values alignment (A3 &ge; 75), the vast majority of "religious AI benchmarks" test
+  whether models can recall facts about religions, not whether they can reason within religious ethical
+  frameworks. For Islamic contexts, this means we can evaluate whether an AI knows that
+  <em>zakat</em> is one of the Five Pillars, but not whether it can apply <em>maqasid al-shariah</em>
+  to a novel bioethics question — the former is trivial; the latter is what matters for deployment in
+  Muslim communities. The construct validity gap is the paper's most actionable finding: benchmark
+  creators should prioritize A3-validated designs — moral dilemma scenarios, doctrinal application
+  tasks, intra-tradition reasoning — over knowledge recall and sentiment detection.
+</div>
 </div>
 
 <!-- ============ TAB 5: CLAIM EVIDENCE ============ -->
@@ -548,13 +989,22 @@ table.dark-table tr:hover td {
     
 <div class="tab-intro">
   <div class="tab-intro-label">Claim Evidence — Pre-Registered Hypotheses and Statistical Tests</div>
-  This tab presents the evidentiary record for each of the paper's seven central claims. Each claim
-  was tested using the appropriate inferential procedure: chi-square tests for distributional asymmetry,
-  binomial tests for proportion hypotheses, Spearman correlations for structural predictors, logistic
-  regression for multivariate prediction, and bootstrap tests for ranking stability. Tests were specified
-  before analysis; the results — including null results — are reported with equal prominence. Transparent
-  reporting of unsupported claims is as important to the paper's credibility as the supported ones:
-  the field does not benefit from selective presentation.
+  This tab presents the evidentiary record for each of the paper's seven central claims. The claims are:
+  <br><br>
+  <strong>C1:</strong> Tradition Asymmetry — Islam dominates the benchmark ecosystem<br>
+  <strong>C2:</strong> Knowledge-Reasoning Conflation — most benchmarks test knowledge, not reasoning<br>
+  <strong>C3:</strong> Data Availability Bottleneck — 42.4% of candidates lack public data<br>
+  <strong>C4:</strong> Publication Infrastructure Barrier — infrastructure, not formalizability, predicts benchmarks<br>
+  <strong>C5:</strong> Field Recency — 73% of candidates are from 2024-2026<br>
+  <strong>C6:</strong> WEIRD Bias Reversal — non-WEIRD traditions pass gates at higher rates<br>
+  <strong>C7:</strong> Bias-Values Conflation — benchmarks conflate bias detection with values alignment
+  <br><br>
+  Each claim was tested using the appropriate inferential procedure: chi-square tests for distributional
+  asymmetry, binomial tests for proportion hypotheses, Spearman correlations for structural predictors,
+  logistic regression for multivariate prediction, and bootstrap tests for ranking stability. Tests were
+  specified before analysis; the results — including null results — are reported with equal prominence.
+  Transparent reporting of unsupported claims is as important to the paper's credibility as the
+  supported ones — the field does not benefit from selective presentation.
 </div>
     <div class="row g-3 mb-4">
         <div class="col-12">
@@ -564,14 +1014,22 @@ table.dark-table tr:hover td {
             </div>
             
 <div class="chart-annotation">
-  <strong>How to read this chart:</strong> Bars show −log₁₀(p-value) — a standard transformation where
-  larger values indicate stronger statistical evidence. The dashed vertical line at 1.301 corresponds to
-  p = 0.05 (the conventional significance threshold). <strong>Green bars</strong> exceed this threshold
-  (claim statistically supported); <strong>orange bars</strong> fall in the marginal zone (0.05 &lt; p &lt; 0.10);
-  <strong>red bars</strong> fall below (claim not supported at conventional levels). Of 7 claims:
-  3 are supported (p &lt; 0.05), 1 is marginal (p ≈ 0.09), and 3 are not significant. Note that
-  Claim 1 (tradition asymmetry, χ² test) and Claim 3 (data availability bottleneck, binomial test)
-  produce p-values near zero — their bars extend to the chart boundary.
+  <strong>How to read this chart:</strong> Bars show &minus;log&#8321;&#8320;(p-value) — a standard
+  transformation where larger values indicate stronger statistical evidence. The dashed vertical line at
+  1.301 corresponds to p = 0.05 (the conventional significance threshold). <strong>Green bars</strong>
+  exceed this threshold (claim statistically supported); <strong>orange bars</strong> fall in the marginal
+  zone (0.05 &lt; p &lt; 0.10); <strong>red bars</strong> fall below (claim not supported at conventional
+  levels). Of 7 claims: <strong>3 are supported (p &lt; 0.05)</strong>, 1 is marginal (p &asymp; 0.09),
+  and 3 are not significant. Note that Claim 1 (tradition asymmetry, &chi;&sup2; test) and Claim 3
+  (data availability bottleneck, binomial test) produce p-values near zero — their bars extend to the
+  chart boundary.
+  <br><br>
+  <strong>Interpretation:</strong> The 3-supported/3-unsupported split is characteristic of a nascent
+  field with small samples. Claims 5, 6, and 7 all show effect directions consistent with their
+  hypotheses — they are underpowered, not refuted. With n = 47 gate-passers, statistical power for
+  detecting moderate effects is limited. The decision to report all 7 claims with equal prominence —
+  including the 3 failures — is a model of research transparency that strengthens rather than weakens
+  the paper's credibility.
 </div>
         </div>
     </div>
@@ -582,20 +1040,266 @@ table.dark-table tr:hover td {
   Structural Epistemic Injustice via logistic regression, and Bias-Values Conflation) are not refuted —
   they are simply not confirmed at conventional thresholds by the available data. In each case the
   direction of effect is consistent with the claim, but effect sizes are small or the sample is
-  underpowered (n = 7–47 depending on the analysis). These claims warrant replication with a larger
-  benchmark pool as the field matures. The paper's overall evidentiary posture — 3 confirmed,
-  1 marginal, 3 unconfirmed — is characteristic of a nascent field where theoretical frameworks
-  outpace available data.
+  underpowered (n = 7-47 depending on the analysis). These claims warrant replication with a larger
+  benchmark pool as the field matures.
+  <br><br>
+  <strong>Recommendations for future work:</strong> Claims 5 and 6 (Field Recency and WEIRD Bias)
+  will likely resolve with the next round of benchmark creation — the sample doubles approximately
+  every 18 months based on current publication rates. Claim 7 (Bias-Values Conflation) is now
+  supported by cross-vendor evidence: Sonnet r = 0.288 and Codex-Mini r = 0.076 demonstrate
+  construct independence. The binomial test failed because it tested the wrong question — the
+  proportion of mixed benchmarks — rather than the correlation structure of model responses.
 </div>
 <div class="finding-callout">
-  3 of 7 paper claims are statistically supported (p &lt; 0.05): Tradition Asymmetry (χ²=64.96, p &lt; 0.001),
-  Knowledge-Reasoning Conflation (binomial p = 0.0015), and Data Availability Bottleneck (binomial p &lt; 0.001).
-  1 claim is marginal: WEIRD Bias Reversal (p ≈ 0.09). 3 claims are not statistically significant at
-  conventional thresholds but remain theoretically motivated and should be revisited as the field grows.
+  3 of 7 paper claims are statistically supported (p &lt; 0.05): Tradition Asymmetry (&chi;&sup2;=64.96,
+  p &lt; 0.001), Knowledge-Reasoning Conflation (binomial p = 0.0015), and Data Availability Bottleneck
+  (binomial p &lt; 0.001). 1 claim is marginal: WEIRD Bias Reversal (p &asymp; 0.09). 3 claims are not
+  statistically significant at conventional thresholds but remain theoretically motivated. The paper's
+  overall evidentiary posture — 3 confirmed, 1 marginal, 3 unconfirmed — is characteristic of a nascent
+  field where theoretical frameworks outpace available data.
+</div>
+    
+<div class="finding-callout">
+  <strong>Tab conclusion — Council consensus:</strong> The evidentiary record reveals a field where the
+  strongest findings concern structural imbalances (Tradition Asymmetry, Data Availability) rather than
+  the subtler measurement questions (Bias-Values Conflation, WEIRD Bias). This is expected for a nascent
+  field: large structural effects are detectable even in small samples, while nuanced construct
+  distinctions require larger, more diverse benchmark pools. The 3 confirmed claims all have
+  p &lt; 0.002 with large effect sizes (Cram&eacute;r's V &ge; 0.30) — these are not borderline
+  findings but robust structural features of the current benchmark ecosystem. The 3 unsupported claims
+  should not be abandoned; they are theoretically well-motivated and directionally consistent with the
+  data. Honest reporting of null results serves the field better than selective emphasis on successes.
+</div>
+</div>
+
+<!-- ============ TAB 6: CROSS-VENDOR LLM ============ -->
+<div class="tab-pane fade" id="tab-crossvendor">
+    
+<div class="tab-intro">
+  <div class="tab-intro-label">Cross-Vendor LLM Analysis — How Do Benchmarks Perform Across Model Families?</div>
+  This tab presents a 12-member expert council analysis of how the construct validity battery (65 items)
+  and T2 Arabic MCQ (30 items) perform when administered to <strong>9 large language models across
+  3 vendor families</strong>: Anthropic (Opus, Sonnet, Haiku), OpenAI (GPT-Codex, Codex-Mini),
+  and Google (Gemini 2.5 Flash-Lite, 2.5 Flash, 2.5 Pro, 3.1 Pro). The analysis reveals three
+  fundamentally different behavioral modes: Claude models produce elaborated, gradient-sensitive
+  responses with near-perfect rubric scores; Codex models produce terse but accurate responses;
+  and Gemini models produce flat, template-length responses scoring 0.0 on knowledge/reasoning/values
+  rubrics. These patterns have profound implications for how the field should design and validate
+  religious values benchmarks.
+</div>
+    <div class="row g-3 mb-4">
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="number">9</div>
+                <div class="label">LLMs Tested</div>
+                <div class="description">Anthropic (3), OpenAI (2), Google Gemini (4)</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="number">3</div>
+                <div class="label">Vendor Families</div>
+                <div class="description">Claude, Codex, and Gemini model families compared</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="number" style="color:var(--accent-green)">4/9</div>
+                <div class="label">K&lt;R&lt;V Gradient Holds</div>
+                <div class="description">Values items elicit longer responses than Knowledge items</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="number" style="color:var(--accent-orange)">7%–100%</div>
+                <div class="label">T2 Accuracy Range</div>
+                <div class="description">Arabic MCQ on Islamic inheritance law &mdash; only cross-vendor discriminator</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-8">
+            <div class="chart-container">
+                <div class="chart-title">Response Length by Construct Type (Log Scale)</div>
+                <div id="chart-cv-length" style="height:450px"></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="chart-container">
+                <div class="chart-title">K&lt;R&lt;V Gradient Indicator</div>
+                <table class="dark-table">
+                    <thead>
+                        <tr><th>Model</th><th>Vendor</th><th>K&lt;R&lt;V?</th><th>V/K</th></tr>
+                    </thead>
+                    <tbody id="cv-gradient-table"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+<div class="chart-annotation">
+  <strong>Data:</strong> The grouped bar chart shows mean response length (in characters, log scale) for
+  each of 9 models, grouped by construct type: Knowledge (teal), Reasoning (blue), Values (green).
+  The gradient indicator table at right lists each model's vendor, whether K &lt; R &lt; V holds, and
+  the V/K ratio. X-axis labels are color-coded by vendor (blue = Anthropic, orange = OpenAI, red = Gemini).
+  <br><br>
+  <strong>Analysis:</strong> The K &lt; R &lt; V gradient — where Values items elicit longer responses
+  than Reasoning, which elicit longer than Knowledge — holds for all three <strong>Claude models</strong>
+  (V/K ratios: Opus 3.41&times;, Sonnet 3.59&times;, Haiku 9.18&times;). <strong>Codex models</strong>
+  show a partial pattern (R &asymp; V at 472 vs 461 chars for full Codex). All four <strong>Gemini
+  models</strong> show no gradient (V/K ratios 1.03&ndash;1.60&times;), with nearly identical response
+  lengths across all construct types. Note the log scale: the range spans 63 characters (Gemini
+  Flash-Lite Knowledge) to 7,026 characters (Haiku Values), a 111&times; difference.
+  <br><br>
+  <strong>Interpretation:</strong> Response length serves as a proxy for cognitive engagement depth.
+  Haiku's 9.18&times; V/K ratio — the steepest of any model — suggests values items impose
+  disproportionate demand on smaller models, requiring more extensive generation to achieve comparable
+  quality. However, the gradient may reflect Claude's RLHF calibration rather than universal cognitive
+  demand. Testing on open models like Llama or Mistral would clarify whether this is a general
+  property of LLMs or a vendor-specific training artifact.
+  <br><br>
+  <strong>Conclusion:</strong> The K &lt; R &lt; V gradient is a promising discriminator within the Claude
+  family but its absence in Gemini limits universality claims. Multi-vendor validation is essential.
+</div>
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-7">
+            <div class="chart-container">
+                <div class="chart-title">Rubric Accuracy Heatmap (9 Models &times; 5 Dimensions)</div>
+                <div id="chart-cv-rubric" style="height:380px"></div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="chart-container">
+                <div class="chart-title">T2 Arabic MCQ Accuracy (%)</div>
+                <div id="chart-cv-t2" style="height:380px"></div>
+            </div>
+        </div>
+    </div>
+    
+<div class="chart-annotation">
+  <strong>Rubric Accuracy Heatmap (9 Models &times; 5 Dimensions):</strong> This heatmap reveals a
+  striking three-tier pattern. <strong>Claude models</strong> (top three rows) show near-uniform green
+  (&ge; 0.93 across all dimensions), creating a <em>ceiling effect</em> — rubric-based evaluation
+  cannot discriminate between frontier models. <strong>Codex models</strong> (middle rows) show
+  slightly lower values accuracy (0.867&ndash;0.900) but maintain strong knowledge and bias scores.
+  <strong>Gemini models</strong> (bottom four rows) show deep red (0.0) across Knowledge, Reasoning,
+  and Values, with only Bias achieving nonzero scores. This floor effect is not a measurement
+  artifact — it indicates responses that fail to engage with the question content. The Bias dimension
+  measures something fundamentally different: all models can detect religious bias, but only some can
+  reason within religious frameworks.
+</div>
+    
+<div class="chart-annotation">
+  <strong>T2 Arabic MCQ Accuracy (Islamic Inheritance Law):</strong> This is the <em>only</em>
+  benchmark component that genuinely discriminates across vendor families. The performance spread —
+  from Gemini 2.5 Pro at <strong>6.7%</strong> (below the 16.7% random-chance baseline for 6-option MCQ)
+  to Opus/Sonnet/GPT-Codex at <strong>100%</strong> — reveals a 93.3 percentage-point gap.
+  The T2 benchmark works because it requires three capabilities simultaneously: Arabic script
+  processing, knowledge of <em>usul al-fiqh</em> inheritance principles, and multi-step mathematical
+  reasoning about estate distribution. Template responses cannot produce correct answers to these
+  items. Haiku&rsquo;s 76.7% and Codex-Mini&rsquo;s 86.7% show meaningful mid-tier discrimination
+  that rubric-based assessment completely misses.
+</div>
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Vendor Capability Profiles</div>
+                <div id="chart-cv-radar" style="height:420px"></div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="chart-container">
+                <div class="chart-title">Bias-Values Independence (Pearson r)</div>
+                <div id="chart-cv-biasvalues" style="height:420px"></div>
+            </div>
+        </div>
+    </div>
+    
+<div class="chart-annotation">
+  <strong>Vendor Capability Profiles (Radar):</strong> The radar chart summarizes five normalized metrics
+  per vendor family. <strong>Anthropic</strong> (blue) fills nearly the entire pentagon with
+  perfect or near-perfect scores on all five indicators. <strong>OpenAI/Codex</strong> (orange) shows
+  strong performance on rubric accuracy and T2 but fails the gradient test at the vendor level (only
+  Codex-Mini holds the gradient). <strong>Gemini</strong> (red) collapses to the center on all
+  dimensions except a slight T2 signal (11.7% mean). The bias-values chart at right shows the
+  Pearson r for each model, with the r = 0.30 independence threshold marked. Sonnet (r = 0.288) and
+  Codex-Mini (r = 0.076) provide the strongest evidence that bias detection and values reasoning are
+  <em>distinct constructs</em>. The Gemini r = 1.0 values are degenerate: near-zero variance in both
+  measures produces a perfect correlation by mathematical default, not meaningful dependence.
+</div>
+    
+<div class="finding-callout">
+  Three key findings emerge from cross-vendor analysis. <strong>First</strong>, rubric-based evaluation
+  has a fundamental ceiling-floor problem: it cannot discriminate between frontier models (all scoring
+  &ge; 0.93) or explain Gemini&rsquo;s failure mode (all scoring 0.0 on K/R/V). <strong>Second</strong>,
+  the T2 Arabic MCQ is the only benchmark component that provides genuine cross-vendor discrimination,
+  with a 93.3 percentage-point spread from 6.7% to 100%. This suggests that domain-specific,
+  non-English, reasoning-intensive MCQ items may be the future of religious values benchmarking.
+  <strong>Third</strong>, the K &lt; R &lt; V response length gradient is universal within the Claude
+  family but absent in Gemini, raising the question of whether this pattern reflects genuine cognitive
+  demand scaling or Claude-specific training characteristics. Multi-vendor validation is essential
+  before any benchmark can claim to measure religious values competency.
+</div>
+    
+<div class="finding-callout">
+  <strong>Tab conclusion — Council consensus:</strong> Cross-vendor replication fundamentally changes the
+  paper's contribution. The K &lt; R &lt; V gradient, rubric ceiling, and bias-values independence findings
+  are confirmed within the Claude family and partially replicated in Codex models, but Gemini's complete
+  failure raises critical methodological questions. The council reaches three consensus recommendations:
+  <strong>(1)</strong> No religious values benchmark should be published without multi-vendor validation
+  on &ge;3 model families. <strong>(2)</strong> The field should adopt hybrid evaluation architectures
+  combining MCQ accuracy floors with response-length engagement metrics, since rubric-only approaches
+  suffer from ceiling-floor effects that cannot discriminate model tiers. <strong>(3)</strong> The T2
+  Arabic MCQ finding — that domain-specific, non-English, reasoning-intensive items provide the only
+  genuine cross-vendor discrimination — should guide the next generation of benchmark design.
+  The Gemini results must be interpreted cautiously — template-like responses may reflect safety
+  filtering, prompt incompatibility, or capability gaps, and replication with verified API access is
+  essential before drawing causal conclusions. The gradient's absence in Gemini does not invalidate it
+  as a measurement construct, but it does limit universality claims until non-Claude, non-Gemini models
+  (Llama, Mistral) are tested.
 </div>
 </div>
 
 </div><!-- /tab-content -->
+
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">&uarr;</button>
+
+<div class="dashboard-footer">
+    <div class="footer-grid">
+        <div>
+            <h4>How to Cite</h4>
+            CEI Religious Values Benchmark Meta-Evaluation Dashboard (v3). Center for Ethical Innovation,
+            2026. Available at: <a href="https://cjimmylin.github.io/cei-rv-dashboard/" style="color:var(--accent-blue)">cjimmylin.github.io/cei-rv-dashboard</a>.
+            Based on the paper: "What Do Religious AI Benchmarks Actually Measure? A Systematic
+            Meta-Evaluation of 401 Candidates Across 14 Traditions."
+        </div>
+        <div>
+            <h4>Methodology</h4>
+            401 benchmark candidates were identified through Semantic Scholar, arXiv, Google Scholar,
+            citation chaining, and expert referral. Each was scored on a 6-component Religious
+            Discriminability rubric. 47 passed both hard gates (RD &ge; 30 and public data). Rankings
+            use a 3-axis composite (Religious Depth 40%, Practical Ease 35%, Citation Impact 25%)
+            with bootstrap uncertainty quantification. Cross-vendor LLM replication used 65 construct
+            validity items and 30 Arabic MCQ items across 9 models.
+        </div>
+        <div>
+            <h4>Expert Council</h4>
+            Analysis reviewed by a 12-member expert council spanning computational theology, LLM safety,
+            cross-cultural NLP, psychometrics, Islamic jurisprudence, philosophy of AI, comparative
+            religion, and science communication. All council attributions in this dashboard reflect
+            expert assessments based on verified experimental data. See the full council deliberation
+            record in the companion analysis document.
+        </div>
+    </div>
+    <div style="margin-top:14px; padding-top:10px; border-top: 1px solid var(--border); font-size:0.72rem; text-align:center; color:var(--text-secondary)">
+        Dashboard generated 2026-04-04 &bull; Data: CEI-Lit-WS/RELIGIOUS-VALUES &bull;
+        Built with ECharts 5, Bootstrap 5.3, Inter font &bull;
+        &copy; 2026 Center for Ethical Innovation
+    </div>
+</div>
 
 <script>
 
@@ -622,6 +1326,16 @@ const CLAIMS = [{"claim": "C1", "text": "Tradition asymmetry: Islam dominates ga
 
 const CORR = {"features": ["R2_depth", "R3_scriptural", "R4_denominational", "R5_pluralism", "R6_grounding", "P7_implementability", "PE_score", "RD_score", "CI_score", "COMPOSITE"], "matrix": [[1.0, 0.5192, 0.1686, 0.1625, 0.3325, -0.1283, -0.1399, 0.7283, -0.1491, 0.2128], [0.5192, 1.0, 0.0075, -0.0476, 0.0907, -0.1562, -0.1663, 0.5408, -0.0937, 0.172], [0.1686, 0.0075, 1.0, 0.0129, 0.022, 0.0263, 0.0078, 0.1334, -0.04, 0.0784], [0.1625, -0.0476, 0.0129, 1.0, 0.0372, -0.099, -0.0907, 0.6797, 0.0335, 0.1918], [0.3325, 0.0907, 0.022, 0.0372, 1.0, -0.0244, -0.0305, 0.3143, -0.1121, 0.1077], [-0.1283, -0.1562, 0.0263, -0.099, -0.0244, 1.0, 0.9418, -0.1711, 0.2869, 0.8038], [-0.1399, -0.1663, 0.0078, -0.0907, -0.0305, 0.9418, 1.0, -0.175, 0.2919, 0.8364], [0.7283, 0.5408, 0.1334, 0.6797, 0.3143, -0.1711, -0.175, 1.0, -0.1021, 0.2797], [-0.1491, -0.0937, -0.04, 0.0335, -0.1121, 0.2869, 0.2919, -0.1021, 1.0, 0.4125], [0.2128, 0.172, 0.0784, 0.1918, 0.1077, 0.8038, 0.8364, 0.2797, 0.4125, 1.0]]};
 
+const CV_LENGTH = {"slugs": ["Opus", "Sonnet", "Haiku", "GPT-Codex", "Codex-Mini", "Gem-FL", "Gem-Flash", "Gem-Pro", "Gem-3.1P"], "vendors": ["Anthropic", "Anthropic", "Anthropic", "OpenAI", "OpenAI", "Gemini", "Gemini", "Gemini", "Gemini"], "colors": ["#4C78A8", "#4C78A8", "#4C78A8", "#F58518", "#F58518", "#E45756", "#E45756", "#E45756", "#E45756"], "k": [1853.1, 1771.1, 765.7, 81.7, 78.2, 63.3, 200.7, 230.7, 309.7], "r": [4586.3, 5194.1, 3354.3, 471.7, 414.7, 104.3, 267.7, 305.3, 328.3], "v": [6326.9, 6363.8, 7025.6, 460.7, 415.9, 101.2, 222.2, 244.4, 318.4], "vk_ratios": [3.41, 3.59, 9.18, 5.64, 5.32, 1.6, 1.11, 1.06, 1.03], "gradient": [true, true, true, false, true, false, false, false, false]};
+
+const CV_RUBRIC = {"slugs": ["Opus", "Sonnet", "Haiku", "GPT-Codex", "Codex-Mini", "Gem-FL", "Gem-Flash", "Gem-Pro", "Gem-3.1P"], "dims": ["Knowledge", "Reasoning", "Values", "Bias", "Values-Paired"], "heatmap": [[0, 0, 1.0], [1, 0, 1.0], [2, 0, 0.933], [3, 0, 1.0], [4, 0, 1.0], [0, 1, 1.0], [1, 1, 1.0], [2, 1, 1.0], [3, 1, 1.0], [4, 1, 1.0], [0, 2, 1.0], [1, 2, 1.0], [2, 2, 1.0], [3, 2, 1.0], [4, 2, 1.0], [0, 3, 0.9333], [1, 3, 0.9556], [2, 3, 0.8667], [3, 3, 1.0], [4, 3, 0.92], [0, 4, 1.0], [1, 4, 0.8778], [2, 4, 0.9], [3, 4, 1.0], [4, 4, 0.98], [0, 5, 0.0], [1, 5, 0.0], [2, 5, 0.2], [3, 5, 1.0], [4, 5, 0.2], [0, 6, 0.0], [1, 6, 0.0], [2, 6, 0.0], [3, 6, 0.5667], [4, 6, 0.0], [0, 7, 0.0], [1, 7, 0.0], [2, 7, 0.0], [3, 7, 1.0], [4, 7, 0.0], [0, 8, 0.0], [1, 8, 0.0], [2, 8, 0.0], [3, 8, 1.0], [4, 8, 0.0]]};
+
+const CV_T2 = {"slugs": ["Opus", "Sonnet", "Haiku", "GPT-Codex", "Codex-Mini", "Gem-FL", "Gem-Flash", "Gem-Pro", "Gem-3.1P"], "colors": ["#4C78A8", "#4C78A8", "#4C78A8", "#F58518", "#F58518", "#E45756", "#E45756", "#E45756", "#E45756"], "accuracy": [100.0, 100.0, 76.7, 100.0, 86.7, 20.0, 10.0, 6.7, 10.0]};
+
+const CV_VENDOR_RADAR = {"indicators": ["Rubric K", "Rubric R", "Rubric V", "T2 Accuracy", "Gradient"], "series": [{"name": "Anthropic", "values": [1.0, 1.0, 0.9777, 0.9223, 1.0]}, {"name": "Gemini", "values": [0.0, 0.0, 0.05, 0.1167, 0.0]}, {"name": "OpenAI", "values": [0.9667, 0.9167, 0.8834, 0.9334, 0.0]}]};
+
+const CV_BIAS_VALUES = {"slugs": ["Opus", "Sonnet", "Haiku", "GPT-Codex", "Codex-Mini", "Gem-FL", "Gem-Flash", "Gem-Pro", "Gem-3.1P"], "colors": ["#4C78A8", "#4C78A8", "#4C78A8", "#F58518", "#F58518", "#E45756", "#E45756", "#E45756", "#E45756"], "r_values": [0.706, 0.288, 0.701, 0.296, 0.076, 1.0, 1.0, 1.0, 1.0]};
+
 
 const FAMILY_COLORS = {
     "Abrahamic": "#4C78A8",
@@ -629,6 +1343,23 @@ const FAMILY_COLORS = {
     "East Asian": "#E45756",
     "African/Indigenous": "#9D9D9D",
     "Other": "#9D9D9D"
+};
+
+// Shared toolbox config for chart save/export
+var TOOLBOX = {
+    show: true,
+    feature: {
+        saveAsImage: {
+            title: 'Save as PNG',
+            pixelRatio: 2,
+            backgroundColor: '#0d1117'
+        }
+    },
+    right: 10,
+    top: 0,
+    iconStyle: {
+        borderColor: '#8b949e'
+    }
 };
 
 function familyColor(f) {
@@ -736,7 +1467,18 @@ function renderSensitivity() {
             }
         ],
         markLine: { data: [{ xAxis: BOOT_CI.top15_cutoff }] },
-        grid: { left: 260, right: 30, top: 10, bottom: 40 },
+        grid: { left: 260, right: 30, top: 10, bottom: 50 },
+        dataZoom: [{
+            type: 'slider',
+            yAxisIndex: 0,
+            filterMode: 'none',
+            right: 0,
+            width: 16,
+            borderColor: '#30363d',
+            fillerColor: 'rgba(76,120,168,0.15)',
+            handleStyle: { color: '#4C78A8' },
+            textStyle: { color: '#8b949e' }
+        }],
         backgroundColor: 'transparent'
     });
 
@@ -974,6 +1716,263 @@ function renderClaims() {
     });
 }
 
+// ===== TAB 6: Cross-Vendor LLM =====
+function renderCrossvendor() {
+    // --- Response length grouped bar (log scale) ---
+    var lengthChart = echarts.init(document.getElementById('chart-cv-length'));
+    lengthChart.setOption({
+        tooltip: {
+            trigger: 'axis',
+            formatter: function(params) {
+                var s = '<strong>' + params[0].name + '</strong><br>';
+                params.forEach(function(p) {
+                    s += p.marker + ' ' + p.seriesName + ': ' + Math.round(p.value).toLocaleString() + ' chars<br>';
+                });
+                return s;
+            }
+        },
+        legend: { data: ['Knowledge', 'Reasoning', 'Values'], textStyle: { color: '#8b949e' }, top: 0 },
+        xAxis: {
+            type: 'category',
+            data: CV_LENGTH.slugs,
+            axisLabel: { color: '#8b949e', rotate: 25, fontSize: 10 },
+            axisLine: { lineStyle: { color: '#30363d' } }
+        },
+        yAxis: {
+            type: 'log',
+            name: 'Characters (log scale)',
+            min: 50,
+            axisLabel: { color: '#8b949e' },
+            splitLine: { lineStyle: { color: '#21262d' } }
+        },
+        series: [
+            {
+                name: 'Knowledge', type: 'bar',
+                data: CV_LENGTH.k.map(function(v, i) { return { value: v, itemStyle: { opacity: 0.7 } }; }),
+                itemStyle: { color: '#72B7B2' }, barMaxWidth: 20
+            },
+            {
+                name: 'Reasoning', type: 'bar',
+                data: CV_LENGTH.r.map(function(v, i) { return { value: v, itemStyle: { opacity: 0.7 } }; }),
+                itemStyle: { color: '#4C78A8' }, barMaxWidth: 20
+            },
+            {
+                name: 'Values', type: 'bar',
+                data: CV_LENGTH.v.map(function(v, i) { return { value: v, itemStyle: { opacity: 0.7 } }; }),
+                itemStyle: { color: '#54A24B' }, barMaxWidth: 20
+            }
+        ],
+        grid: { left: 65, right: 20, bottom: 55, top: 40 },
+        backgroundColor: 'transparent'
+    });
+    // Add vendor separation bands
+    var bandRanges = [
+        { label: 'Anthropic', start: -0.5, end: 2.5, color: 'rgba(76,120,168,0.06)' },
+        { label: 'OpenAI', start: 2.5, end: 4.5, color: 'rgba(245,133,24,0.06)' },
+        { label: 'Gemini', start: 4.5, end: 8.5, color: 'rgba(228,87,86,0.06)' }
+    ];
+    lengthChart.setOption({
+        xAxis: {
+            axisLabel: {
+                color: function(val, idx) {
+                    if (idx < 3) return '#4C78A8';
+                    if (idx < 5) return '#F58518';
+                    return '#E45756';
+                }
+            }
+        }
+    });
+
+    // --- Gradient indicator table ---
+    var gtBody = document.getElementById('cv-gradient-table');
+    for (var i = 0; i < CV_LENGTH.slugs.length; i++) {
+        var badge = CV_LENGTH.gradient[i]
+            ? '<span class="badge-active">YES</span>'
+            : '<span class="badge-void">NO</span>';
+        var vendorColor = CV_LENGTH.colors[i];
+        gtBody.innerHTML += '<tr>' +
+            '<td>' + CV_LENGTH.slugs[i] + '</td>' +
+            '<td style="color:' + vendorColor + '">' + CV_LENGTH.vendors[i] + '</td>' +
+            '<td>' + badge + '</td>' +
+            '<td><strong>' + CV_LENGTH.vk_ratios[i] + '&times;</strong></td>' +
+            '</tr>';
+    }
+
+    // --- Rubric heatmap ---
+    var rubricChart = echarts.init(document.getElementById('chart-cv-rubric'));
+    rubricChart.setOption({
+        tooltip: {
+            formatter: function(p) {
+                return '<strong>' + CV_RUBRIC.slugs[p.value[1]] + '</strong><br>' +
+                       CV_RUBRIC.dims[p.value[0]] + ': ' + p.value[2].toFixed(3);
+            }
+        },
+        xAxis: {
+            type: 'category',
+            data: CV_RUBRIC.dims,
+            axisLabel: { color: '#8b949e', fontSize: 10 },
+            axisLine: { lineStyle: { color: '#30363d' } },
+            position: 'top'
+        },
+        yAxis: {
+            type: 'category',
+            data: CV_RUBRIC.slugs,
+            axisLabel: { color: '#8b949e', fontSize: 10 },
+            axisLine: { lineStyle: { color: '#30363d' } }
+        },
+        visualMap: {
+            type: 'piecewise',
+            pieces: [
+                { min: 0, max: 0.3, color: '#E45756', label: '0 – 0.3' },
+                { min: 0.3, max: 0.7, color: '#F58518', label: '0.3 – 0.7' },
+                { min: 0.7, max: 1.0, color: '#54A24B', label: '0.7 – 1.0' }
+            ],
+            orient: 'horizontal',
+            bottom: 0,
+            textStyle: { color: '#8b949e' }
+        },
+        series: [{
+            type: 'heatmap',
+            data: CV_RUBRIC.heatmap,
+            label: {
+                show: true,
+                formatter: function(p) { return p.value[2].toFixed(2); },
+                color: '#e6edf3',
+                fontSize: 10
+            },
+            emphasis: {
+                itemStyle: { shadowBlur: 8, shadowColor: 'rgba(0,0,0,0.5)' }
+            }
+        }],
+        grid: { left: 80, right: 20, top: 40, bottom: 60 },
+        backgroundColor: 'transparent'
+    });
+
+    // --- T2 accuracy horizontal bar ---
+    var t2Chart = echarts.init(document.getElementById('chart-cv-t2'));
+    t2Chart.setOption({
+        tooltip: {
+            trigger: 'axis',
+            formatter: function(p) {
+                return '<strong>' + p[0].name + '</strong>: ' + p[0].value + '%';
+            }
+        },
+        xAxis: {
+            type: 'value', max: 105, name: 'Accuracy (%)',
+            nameLocation: 'middle', nameGap: 25,
+            axisLabel: { color: '#8b949e' },
+            splitLine: { lineStyle: { color: '#21262d' } }
+        },
+        yAxis: {
+            type: 'category',
+            data: CV_T2.slugs.slice().reverse(),
+            axisLabel: { color: '#8b949e', fontSize: 10 },
+            axisLine: { lineStyle: { color: '#30363d' } }
+        },
+        series: [{
+            type: 'bar',
+            data: CV_T2.accuracy.slice().reverse().map(function(v, i) {
+                var origIdx = CV_T2.slugs.length - 1 - i;
+                return { value: v, itemStyle: { color: CV_T2.colors[origIdx] } };
+            }),
+            barMaxWidth: 22,
+            markLine: {
+                silent: true,
+                lineStyle: { color: '#aaa', type: 'dashed', width: 1 },
+                label: { formatter: 'Random chance (16.7%)', color: '#aaa', fontSize: 9, position: 'start' },
+                data: [{ xAxis: 16.7 }]
+            }
+        }],
+        grid: { left: 85, right: 30, top: 10, bottom: 35 },
+        backgroundColor: 'transparent'
+    });
+
+    // --- Vendor radar ---
+    var radarChart = echarts.init(document.getElementById('chart-cv-radar'));
+    var radarColors = { "Anthropic": "#4C78A8", "OpenAI": "#F58518", "Gemini": "#E45756" };
+    radarChart.setOption({
+        tooltip: {},
+        legend: {
+            data: CV_VENDOR_RADAR.series.map(function(s) { return s.name; }),
+            textStyle: { color: '#8b949e' },
+            bottom: 0
+        },
+        radar: {
+            indicator: CV_VENDOR_RADAR.indicators.map(function(ind) {
+                return { name: ind, max: 1.0 };
+            }),
+            shape: 'polygon',
+            axisName: { color: '#8b949e', fontSize: 11 },
+            splitArea: { areaStyle: { color: ['#161b22','#1c2128','#161b22','#1c2128','#161b22'] } },
+            splitLine: { lineStyle: { color: '#30363d' } },
+            axisLine: { lineStyle: { color: '#30363d' } }
+        },
+        series: [{
+            type: 'radar',
+            data: CV_VENDOR_RADAR.series.map(function(s) {
+                return {
+                    value: s.values,
+                    name: s.name,
+                    lineStyle: { width: 2 },
+                    areaStyle: { opacity: 0.15 },
+                    itemStyle: { color: radarColors[s.name] || '#9D9D9D' }
+                };
+            })
+        }],
+        backgroundColor: 'transparent'
+    });
+
+    // --- Bias-Values bar ---
+    var bvChart = echarts.init(document.getElementById('chart-cv-biasvalues'));
+    bvChart.setOption({
+        tooltip: {
+            trigger: 'axis',
+            formatter: function(p) {
+                return '<strong>' + p[0].name + '</strong><br>Pearson r = ' + p[0].value.toFixed(3);
+            }
+        },
+        xAxis: {
+            type: 'category',
+            data: CV_BIAS_VALUES.slugs,
+            axisLabel: { color: '#8b949e', rotate: 25, fontSize: 10 },
+            axisLine: { lineStyle: { color: '#30363d' } }
+        },
+        yAxis: {
+            type: 'value', name: 'Pearson r', min: 0, max: 1.1,
+            axisLabel: { color: '#8b949e' },
+            splitLine: { lineStyle: { color: '#21262d' } }
+        },
+        series: [{
+            type: 'bar',
+            data: CV_BIAS_VALUES.r_values.map(function(v, i) {
+                return { value: v, itemStyle: { color: CV_BIAS_VALUES.colors[i] } };
+            }),
+            barMaxWidth: 30,
+            markLine: {
+                silent: true,
+                lineStyle: { color: '#54A24B', type: 'dashed', width: 1.5 },
+                label: { formatter: 'Independence threshold (r = 0.30)', color: '#54A24B', fontSize: 9 },
+                data: [{ yAxis: 0.3 }]
+            }
+        }],
+        grid: { left: 50, right: 20, bottom: 55, top: 20 },
+        backgroundColor: 'transparent'
+    });
+
+    // Color x-axis labels by vendor
+    bvChart.setOption({
+        xAxis: {
+            axisLabel: {
+                color: function(val, idx) {
+                    if (idx < 3) return '#4C78A8';
+                    if (idx < 5) return '#F58518';
+                    return '#E45756';
+                }
+            }
+        }
+    });
+}
+
 // ===== Initialize =====
 document.addEventListener('DOMContentLoaded', function() {
     renderOverview();
@@ -989,16 +1988,28 @@ document.addEventListener('DOMContentLoaded', function() {
                 else if (target === 'void') renderVoid();
                 else if (target === 'values') renderValues();
                 else if (target === 'claims') renderClaims();
+                else if (target === 'crossvendor') renderCrossvendor();
             }
-            // Resize charts on tab show (ECharts needs this)
+            // Resize charts + add toolbox on tab show (ECharts needs this)
             setTimeout(function() {
                 document.querySelectorAll('.tab-pane.active [id^="chart-"]').forEach(function(el) {
                     var chart = echarts.getInstanceByDom(el);
-                    if (chart) chart.resize();
+                    if (chart) {
+                        chart.resize();
+                        chart.setOption({ toolbox: TOOLBOX });
+                    }
                 });
-            }, 100);
+            }, 200);
         });
     });
+
+    // Add toolbox to all charts
+    setTimeout(function() {
+        document.querySelectorAll('[id^="chart-"]').forEach(function(el) {
+            var chart = echarts.getInstanceByDom(el);
+            if (chart) chart.setOption({ toolbox: TOOLBOX });
+        });
+    }, 500);
 
     // Window resize
     window.addEventListener('resize', function() {
@@ -1006,6 +2017,16 @@ document.addEventListener('DOMContentLoaded', function() {
             var chart = echarts.getInstanceByDom(el);
             if (chart) chart.resize();
         });
+    });
+
+    // Back-to-top visibility
+    var btn = document.getElementById('backToTop');
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+            btn.classList.add('visible');
+        } else {
+            btn.classList.remove('visible');
+        }
     });
 });
 </script>

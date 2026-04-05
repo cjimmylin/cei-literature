@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NormEval Dashboard — What Do Normative Ethics Benchmarks Actually Test?</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="style.css?v=20260405" rel="stylesheet">
+  <link href="style.css?v=20260405b" rel="stylesheet">
 </head>
 <body>
 <a href="#mainTabContent" class="skip-link">Skip to content</a>
@@ -52,13 +52,13 @@
 
     <!-- Claims + Donut -->
     <div class="row g-3">
-      <div class="col-lg-5">
+      <div class="col-lg-6">
         <div class="chart-container">
           <h3>Gate Pass/Fail Breakdown</h3>
           <div id="chart-gates-donut" class="echarts-box-sm"></div>
         </div>
       </div>
-      <div class="col-lg-7">
+      <div class="col-lg-6">
         <div class="chart-container">
           <h3>Five Claims</h3>
           <div id="claims-list"></div>
@@ -188,13 +188,13 @@
       <strong>How to read it:</strong> In the heatmap, look for the columns with the most bright cells (utilitarian and deontological dominate) versus the darkest columns (care ethics and contractarian are near-empty). A benchmark with high entropy engages multiple traditions; a benchmark with zero entropy tests only one. The bar chart makes the imbalance unmistakable: utilitarian and deontological traditions appear in 20+ benchmarks each, while care ethics appears in only 2 and contractarian in 4.
     </div>
     <div class="row g-3">
-      <div class="col-lg-7">
+      <div class="col-lg-6">
         <div class="chart-container">
           <h3>Tradition Heatmap (37 benchmarks x 5 traditions)</h3>
           <div id="chart-tradition-heatmap" class="echarts-box-lg"></div>
         </div>
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-6">
         <div class="chart-container">
           <h3>Tradition Engagement (count >= 50)</h3>
           <div id="chart-tradition-bar" class="echarts-box-sm"></div>
@@ -278,13 +278,13 @@
       <strong>How to read it:</strong> The bar chart shows accuracy (green) alongside discriminative power (blue) for each trial. High accuracy + low discriminative power (like T1/ETHICS at 100% accuracy, 0 discriminative) means the benchmark is too easy for frontier models &mdash; a ceiling effect. Low accuracy + high discriminative power (like T8/AMAeval at 73%, 75 discriminative) means the benchmark genuinely challenges the model and reveals meaningful performance variation. The framework difficulty pie shows whether items were rated Easy, Medium, or Hard.
     </div>
     <div class="row g-3">
-      <div class="col-lg-7">
+      <div class="col-lg-6">
         <div class="chart-container">
           <h3>Trial Accuracy &amp; Discriminative Power</h3>
           <div id="chart-trials-bar" class="echarts-box"></div>
         </div>
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-6">
         <div class="chart-container">
           <h3>Framework Difficulty</h3>
           <div id="chart-difficulty-pie" class="echarts-box-sm"></div>
@@ -492,13 +492,13 @@
 
     <!-- Care Ethics Prototype -->
     <div class="row g-3 mb-3">
-      <div class="col-lg-7">
+      <div class="col-lg-6">
         <div class="chart-container">
           <h3>Care Ethics Prototype: Proof of Concept</h3>
           <div id="care-prototype-card"></div>
         </div>
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-6">
         <div class="chart-container">
           <h3>Tronto Dimensions: Competence Gap</h3>
           <div id="chart-care-dims" class="echarts-box-sm"></div>
@@ -644,14 +644,14 @@
 
     <!-- Row 3: Radar + Findings -->
     <div class="row g-3 mb-3">
-      <div class="col-lg-5">
+      <div class="col-lg-6">
         <div class="chart-container">
           <h3>Provider Ethical Profiles</h3>
           <p style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.5rem;">Radar comparing representative models from each vendor across 6 ethical dimensions (normalized 0&ndash;100). Anthropic = Sonnet, OpenAI = GPT-5, Google = Gemini 2.5 Flash.</p>
           <div id="chart-cv-radar" class="echarts-box-sm"></div>
         </div>
       </div>
-      <div class="col-lg-7">
+      <div class="col-lg-6">
         <div class="chart-container">
           <h3>Seven Cross-Vendor Findings</h3>
           <div id="cv-findings-list"></div>
@@ -718,9 +718,9 @@
 <!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
-<script src="data.js?v=20260405"></script>
-<script src="data_cross_vendor.js?v=20260405"></script>
-<script src="charts.js?v=20260405"></script>
-<script src="app.js?v=20260405"></script>
+<script src="data.js?v=20260405b"></script>
+<script src="data_cross_vendor.js?v=20260405b"></script>
+<script src="charts.js?v=20260405b"></script>
+<script src="app.js?v=20260405b"></script>
 </body>
 </html>

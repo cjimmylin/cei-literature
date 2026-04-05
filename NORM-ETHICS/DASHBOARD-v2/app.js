@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Render overview charts on load
   setTimeout(renderOverviewCharts, 100);
+
+  // Print capture: convert ECharts canvases to static images for printing
+  setupPrintCapture();
 });
 
 // Global tab activation for cross-tab links
@@ -630,6 +633,7 @@ function renderCrossModelTab() {
     });
     tbl.appendChild(tbody);
     ptContainer.appendChild(tbl);
+    addTrialFilterBar(ptContainer, tbl, Object.keys(cm.per_trial));
   }
 }
 
@@ -745,6 +749,7 @@ function renderCrossVendorTab() {
     });
     tbl.appendChild(tbody);
     ptContainer.appendChild(tbl);
+    addTrialFilterBar(ptContainer, tbl, cv.per_trial.trials);
   }
 }
 
@@ -862,4 +867,119 @@ function renderGapsTab() {
   eContainer.appendChild(eScroll);
   eContainer.appendChild(createEl('p', { style: 'font-size:0.75rem;color:var(--text-muted);margin-top:0.5rem;' },
     'Total external: ' + gaps.external_search.total + ' | Add: ' + gaps.external_search.add + ' | Monitor: ' + gaps.external_search.monitor));
+}
+
+// ============================================================
+// Print Capture: ECharts → static PNG images for @media print
+// ============================================================
+function setupPrintCapture() {
+  var printImages = [];
+
+  window.addEventListener('beforeprint', function() {
+    // Make all tab panes visible so charts have layout dimensions
+    var panes = document.querySelectorAll('.tab-pane');
+    panes.forEach(function(p) {
+      p.dataset.origDisplay = p.style.display;
+      p.dataset.origOpacity = p.style.opacity;
+      p.dataset.origVisibility = p.style.visibility;
+      p.style.display = 'block';
+      p.style.opacity = '1';
+      p.style.visibility = 'visible';
+    });
+
+    // Force-render all chart groups synchronously
+    try { renderOverviewCharts(); } catch(e) {}
+    try { renderFeatureCharts(); } catch(e) {}
+    try { renderTraditionCharts(); } catch(e) {}
+    try { renderCompositeCharts(); } catch(e) {}
+    try { renderTrialCharts(); } catch(e) {}
+    try { renderDataCharts(); } catch(e) {}
+    try { renderGapsCharts(); } catch(e) {}
+    try { renderCrossModelCharts(); } catch(e) {}
+    try { renderCrossVendorCharts(); } catch(e) {}
+
+    // Resize all charts so they get proper dimensions
+    Object.keys(chartInstances).forEach(function(id) {
+      var chart = chartInstances[id];
+      if (chart && !chart.isDisposed()) chart.resize();
+    });
+
+    // Capture each chart as a static image
+    Object.keys(chartInstances).forEach(function(id) {
+      var chart = chartInstances[id];
+      if (!chart || chart.isDisposed()) return;
+      var dom = chart.getDom();
+      if (!dom || dom.clientWidth === 0) return;
+      try {
+        var dataUrl = chart.getDataURL({ type: 'png', pixelRatio: 2, backgroundColor: '#1c1f2e' });
+        var img = document.createElement('img');
+        img.src = dataUrl;
+        img.className = 'print-chart-img';
+        img.alt = 'Chart: ' + id;
+        dom.appendChild(img);
+        printImages.push(img);
+      } catch (e) {
+        // Chart can't be captured; the CSS fallback text will show
+      }
+    });
+  });
+
+  window.addEventListener('afterprint', function() {
+    printImages.forEach(function(img) {
+      if (img.parentNode) img.parentNode.removeChild(img);
+    });
+    printImages = [];
+
+    // Restore tab pane visibility
+    var panes = document.querySelectorAll('.tab-pane');
+    panes.forEach(function(p) {
+      if (p.dataset.origDisplay !== undefined) {
+        p.style.display = p.dataset.origDisplay;
+        p.style.opacity = p.dataset.origOpacity;
+        p.style.visibility = p.dataset.origVisibility;
+        delete p.dataset.origDisplay;
+        delete p.dataset.origOpacity;
+        delete p.dataset.origVisibility;
+      }
+    });
+  });
+}
+
+// ============================================================
+// Per-Trial Filter: Knowledge / Judgment / Mixed / All
+// ============================================================
+var TRIAL_TYPE_MAP = {};
+(function buildTrialTypeMap() {
+  if (typeof DATA_CROSS_VENDOR !== 'undefined' && DATA_CROSS_VENDOR.knowledge_judgment) {
+    DATA_CROSS_VENDOR.knowledge_judgment.trials.forEach(function(t) {
+      TRIAL_TYPE_MAP[t.id] = t.type;
+    });
+  }
+})();
+
+function addTrialFilterBar(container, tableEl, trialIds) {
+  var bar = createEl('div', { className: 'trial-filter-bar' });
+  var filters = ['all', 'knowledge', 'judgment', 'mixed'];
+  var labels = { all: 'All', knowledge: 'Knowledge', judgment: 'Judgment', mixed: 'Mixed' };
+
+  filters.forEach(function(f) {
+    // Skip filter if no trials match this type
+    if (f !== 'all' && !trialIds.some(function(tid) { return TRIAL_TYPE_MAP[tid] === f; })) return;
+    var btn = createEl('button', { className: 'filter-btn' + (f === 'all' ? ' active' : '') }, labels[f]);
+    btn.addEventListener('click', function() {
+      bar.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var rows = tableEl.querySelectorAll('tbody tr');
+      rows.forEach(function(row) {
+        var tid = row.querySelector('td') ? row.querySelector('td').textContent.trim() : '';
+        if (f === 'all') {
+          row.style.display = '';
+        } else {
+          row.style.display = TRIAL_TYPE_MAP[tid] === f ? '' : 'none';
+        }
+      });
+    });
+    bar.appendChild(btn);
+  });
+  container.insertBefore(bar, container.firstChild);
 }

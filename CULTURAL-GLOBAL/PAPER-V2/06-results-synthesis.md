@@ -1,0 +1,55 @@
+# 6. Results --- Synthesis: The Triple Bind
+
+The preceding three studies diagnosed separate layers of the same problem. Study 1 established that the scholarly base of AI ethics is overwhelmingly WEIRD: 60.1% of 2,329 papers originate from North America and Western Europe, the mean WEIRD score is 64.5, and only 6.9% of papers engage any non-Western normative framework at the detection threshold. Study 2 demonstrated that the evaluation infrastructure built atop this scholarship is structurally incapable of detecting cross-cultural alignment: zero of 218 benchmarks report measurement invariance, only 6.8% of non-Western moral concepts have any operational measure, and five entire ethical traditions have zero measured concepts. Study 3 revealed that the models evaluated against these benchmarks embed the same monocultural default: Claude clusters with fewer than 15% of surveyed countries on cross-cultural values, achieves 100% Western-default resolution in value conflict scenarios, and exhibits a 92.5% gap between knowledge-about and reasoning-within non-Western traditions.
+
+This section synthesizes the three diagnoses into a unified account of how they interact, compound, and sustain one another.
+
+## 6.1 Three Converging Diagnoses
+
+The three studies were designed as a progressive escalation---from the literature, through the evaluation instruments, to the models themselves---but their findings converge on a single structural condition rather than three independent problems.
+
+The convergence is visible in the numbers. The scholarly base produces AI ethics from a utilitarian-analytical orientation grounded in 10% of the world's population (Section 3.1). The evaluation infrastructure operationalizes this orientation into benchmarks that measure 3 of 44 non-Western moral concepts, leaving 93.2% of the moral vocabulary of the global majority invisible to the instruments that determine whether alignment has been achieved (Section 4.3). The models, optimized against these benchmarks through RLHF, internalize the monocultural default and reproduce it as if it were universal: when asked to adjudicate between competing moral frameworks, Claude resolves every conflict in favor of the Western liberal position---not because it was instructed to, but because the optimization target was constructed within a normative universe where that position is the unmarked default (Section 5).
+
+Each layer depends on the others. Without the WEIRD scholarship base, the evaluation infrastructure would not default to Western constructs. Without the Western-defaulting evaluation infrastructure, models would not be optimized toward a monocultural alignment target. Without the models reproducing Western normative assumptions as if they were universal, the scholarly conversation about "aligned AI" would not proceed as though alignment were a culturally neutral technical problem. The three layers do not merely co-occur; they are constitutive of one another.
+
+## 6.2 The Self-Reinforcing Cycle
+
+The relationship among the three layers is not static. It is a self-reinforcing cycle in which each layer's outputs become the next layer's inputs (Fig. 10).
+
+The cycle operates as follows. WEIRD scholarship establishes the normative vocabulary of AI ethics: utilitarian welfare, individual autonomy, rights-based fairness, procedural justice. This vocabulary informs which evaluation instruments get built: benchmarks operationalize moral reasoning as individual outcome-optimization (CC1, CC3), operationalize fairness as equal treatment regardless of relational context (CC5), and operationalize values as scalar preferences on Likert scales (CC1--CC5). These benchmarks form the evaluation targets against which RLHF fine-tuning optimizes model behavior: the model learns to produce outputs that score well on instruments designed within the utilitarian-analytical framework. The resulting model---fluent in the language of Western normative ethics, capable of describing non-Western traditions but structurally unable to reason within them (Section 5.4)---then generates outputs that enter the scholarly conversation, reinforcing the impression that the utilitarian-analytical vocabulary is adequate for discussing AI values alignment. The cycle completes, and the next iteration begins from a higher baseline of embedded Western normativity.
+
+A concrete illustration makes the mechanism legible. Study 1 documented that utilitarian ethics is the dominant Western framework in 8 of 10 macro-regions, with a corpus-wide mean exceeding all other frameworks (Section 3.2). Study 2 showed that the benchmarks most used for LLM evaluation---those in Cluster 2, the "LLM-Ready" category---frame moral reasoning as individual welfare calculation: GlobalOpinionQA asks about policy preferences, MFQ decomposes morality into individual-level foundations, NormAd frames social norms as adherence profiles (Section 4.1). Study 3 demonstrated that Claude's moral reasoning profile is consequentialist by default: in CC10's value conflict scenarios, the model consistently privileges outcome-based reasoning over relational obligation, communal deliberation, or jurisprudential derivation (Section 5.5). When the model's outputs are cited in subsequent AI ethics papers---as they increasingly are, given the growing use of LLMs as research tools---the utilitarian framing propagates further. This is not a conspiracy. It is the predictable consequence of a field that built its evaluative infrastructure on a monocultural foundation and then scaled it globally without testing whether the foundation held.
+
+## 6.3 Where the Gaps Compound
+
+The three studies independently identified coverage gaps for each non-Western tradition. When these gaps are examined together, a compounding pattern emerges: traditions that are marginal in the scholarly corpus are also marginal in the evaluation infrastructure and also produce the weakest model engagement. The marginality is not incidental at each stage---it is inherited from the stage before (Table 10).
+
+**Table 10.** Gap compounding across the three studies.
+
+| Tradition | Corpus (precision-adj.) | Benchmark concepts measured | Model engagement (mean) |
+|-----------|------------------------|-----------------------------|------------------------|
+| Buen Vivir | ~1 paper | 0 of 5 concepts | Floor (1.0) |
+| Dharmic | ~4 papers | 0 of 6 concepts | Haiku 4.0 (anomaly) |
+| Buddhist | ~7 papers | 0 of 6 concepts | Floor (1.0) |
+| Indigenous | ~33 papers | 0 of 6 concepts | Floor (1.0) |
+| Ubuntu | ~13 papers | 1 of 5 concepts | Sonnet 4.0 (anomaly) |
+| Islamic | ~23 papers | 0 of 7 concepts | Selective engagement |
+| Confucian | ~14 papers | 2 of 9 concepts | Floor (1.0) |
+
+The compounding is not merely additive. A tradition absent from the corpus has no pathway into the benchmark literature: benchmark developers draw on the scholarly base for the constructs they operationalize, and a tradition with one precision-adjusted paper (Buen Vivir) generates no constructs to operationalize. A tradition absent from the benchmark literature has no pathway into model behavior: RLHF optimizes against evaluation targets, and a tradition with zero measured concepts provides no signal to the optimization process. A tradition absent from model behavior has diminished visibility in the scholarly conversation: as models increasingly mediate access to normative content, traditions the model cannot engage are less likely to appear in the AI ethics literature that references model outputs.
+
+The anomalous cases---Haiku scoring 4.0 on Dharmic engagement, Sonnet scoring 4.0 on Ubuntu---do not disrupt the compounding pattern; they illuminate it. These isolated deviations suggest that individual model variants may retain traces of non-Western normative content from pre-training corpora even when no benchmark reinforces that content. But without evaluation instruments to detect, measure, and reward such engagement, these traces remain stochastic rather than systematic. They are noise in the absence of a signal pathway.
+
+## 6.4 The Effective Sample Size Problem
+
+The nominal scale of the evidence base conceals its actual diversity. Each study independently revealed that the apparent breadth of the data masks underlying monoculture.
+
+In Study 1, 2,329 papers span 10 macro-regions, but 60.1% originate from two regions representing approximately 10% of the global population, and only 95 papers (precision-adjusted) engage any non-Western framework with genuine philosophical depth. In Study 2, 218 benchmarks span 13 evaluation dimensions, but 78.1% belong to the LLM-Ready cluster with near-zero non-Western content, and the intersection of culturally substantive and practically usable instruments contains approximately 15 benchmarks. In Study 3, 10 models from 3 providers were administered 380 items, but provenance analysis reduced the effective independent sample to approximately 5 models, and the authentic Tier 1 data comes from a single provider.
+
+The effective diversity of the alignment infrastructure can be summarized starkly. For scholarship: approximately 95 papers with genuine non-Western engagement, drawn from a corpus of 2,329. For evaluation: approximately 15 benchmarks at the intersection of cultural substance and LLM administrability, drawn from 218. For models: approximately 5 independent observations, drawn from 10 nominal models across 3 providers.
+
+These numbers reveal what the nominal counts obscure. The field presents itself as operating at scale---thousands of papers, hundreds of benchmarks, billions of parameters---but the operative diversity of its normative foundations is closer to double digits. The appearance of scale masks a monoculture so pervasive that it has become invisible to those operating within it. Pluralistic alignment cannot be built on a foundation that is pluralistic in appearance and monocultural in substance.
+
+---
+
+The triple bind is the central finding of this paper. AI ethics scholarship, evaluation infrastructure, and model behavior are not independently WEIRD; they are interdependently WEIRD, each layer inheriting and reinforcing the monoculture of the layer that precedes it. The cycle operates without intention or coordination---it requires only that each stage draw on the outputs of the previous stage, which it inevitably does. Breaking the cycle requires intervention at all three levels simultaneously: diversifying the scholarship base without diversifying the evaluation infrastructure will produce richer theoretical accounts that no benchmark can measure; diversifying the benchmarks without diversifying the models will produce instruments that remain unadministered; diversifying the models without diversifying the scholarship will optimize for targets whose normative content is unknown. The discussion that follows considers what such a coordinated intervention might look like.

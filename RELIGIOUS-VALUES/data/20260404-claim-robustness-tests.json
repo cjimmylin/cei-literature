@@ -251,6 +251,48 @@
       ],
       "significant": false,
       "interpretation": "Among gate-passers: 10 bias-adjacent, 13 values-focused, 24 mixed. Among pure classifications (23 total), bias proportion = 10/23 (p=0.6776). The majority (24/47) are mixed theological-values, suggesting the field has not cleanly separated bias detection from values alignment."
+    },
+    {
+      "claim_number": 8,
+      "claim_text": "Values relevance failure: most benchmarks do not actually test religious values",
+      "tests": [
+        {
+          "test": "one-sample t-test (H0: mean A3 = 50)",
+          "n": 16,
+          "mean_a3": 30.0,
+          "median_a3": 27.5,
+          "sd_a3": 16.2,
+          "statistic": -4.93,
+          "p_value": 0.000181,
+          "effect_size": -1.232,
+          "effect_size_name": "Cohen's d",
+          "significant": true
+        },
+        {
+          "test": "Wilcoxon signed-rank (H0: median A3 = 50)",
+          "statistic": 5.0,
+          "p_value": 0.00061,
+          "significant": true
+        },
+        {
+          "test": "binomial (H0: P(A3 >= 50) >= 0.5)",
+          "n_above_50": 3,
+          "n_total": 16,
+          "proportion_above_50": 0.1875,
+          "p_value": 0.010635,
+          "significant": true
+        },
+        {
+          "test": "binomial (H0: P(A3 >= 75) >= 0.5)",
+          "n_above_75": 0,
+          "n_total": 16,
+          "proportion_above_75": 0.0,
+          "p_value": 0.000015,
+          "significant": true
+        }
+      ],
+      "interpretation": "Values relevance assessment (A3 scores) across 16 assessed gate-passers yields a mean of 30.0/100 (sd=16.2), significantly below the midpoint (t=-4.93, p=0.000181, d=-1.23). Only 3/16 (18.8%) achieve A3 >= 50, and 0/16 achieve A3 >= 75. The field's benchmarks overwhelmingly test religious knowledge or bias detection rather than genuine religious values alignment.",
+      "note": "A3 scores from Claude-assessed feature matrix (batches 1-2). The paper's earlier figure of 33.6 includes additional assessments; the formal test uses the 16 entries with complete A3 scoring."
     }
   ]
 }

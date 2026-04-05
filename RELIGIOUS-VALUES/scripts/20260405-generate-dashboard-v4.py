@@ -17,7 +17,7 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 BASE = Path(__file__).resolve().parent.parent   # RELIGIOUS-VALUES/
 DATA = BASE / "data"
-OUT  = BASE / "dashboard" / "20260405-religious-values-dashboard-v5.html"
+OUT  = BASE / "dashboard" / "20260405-religious-values-dashboard-v6.html"
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------------------
@@ -272,6 +272,10 @@ for c in claim_chart:
         cv_status = f"Supported: {len(indep_models)}/{len(cv_models) - len(degen_models)} non-degenerate models show r < 0.30"
         cv_color = "#54A24B"
         cv_note = "; ".join(f"{MODEL_SLUGS.get(m['model'], m['model'][:10])} r={m['bias_values_r']:.3f}" for m in indep_models)
+    elif num == "C8":
+        cv_status = "Strongest result (d = −1.23)"
+        cv_color = "#54A24B"
+        cv_note = "Mean A3 = 30.0/100; only 18.8% achieve A3 ≥ 50"
     else:
         cv_status = "Model-agnostic (benchmark property)"
         cv_color = "#8b949e"
@@ -620,6 +624,8 @@ ANNOTATIONS = {
   <div class="annotation-summary">The construct validity battery (65 items) and T2 Arabic MCQ (30 items) were administered to 9 LLMs across 3 vendors, revealing three distinct behavioral modes.</div>
   <div class="annotation-detail">
   A 12-member expert council analyzed how these instruments perform across <strong>9 models in 3 vendor families</strong>: Anthropic (Opus, Sonnet, Haiku), OpenAI (GPT-Codex, Codex-Mini), and Google (Gemini 2.5 Flash-Lite, 2.5 Flash, 2.5 Pro, 3.1 Pro). Three behavioral modes emerged. <strong>Anthropic models</strong> produce elaborated, gradient-sensitive responses with near-perfect rubric scores. <strong>OpenAI models</strong> produce terse but accurate responses. <strong>Gemini models</strong> produce flat, template-length responses scoring 0.0 on knowledge/reasoning/values rubrics. These divergent patterns challenge whether religious values benchmarks can claim cross-vendor validity.
+  <br><br>
+  <span class="caveat-badge">&#9888; Gemini data provenance</span> Gemini results were collected using a backfilled protocol with template-based response extraction, not the interactive API administration used for Claude and OpenAI. Gemini's uniformly low rubric scores and template-like responses may partly reflect this methodological difference. Cross-vendor comparisons involving Gemini should be treated as preliminary until replicated with matched administration protocols.
   </div>
   <button class="read-more-btn" onclick="toggleAnnotation(this)">Read more &#9660;</button>
 </div>""",
@@ -644,6 +650,8 @@ ANNOTATIONS = {
   <div class="annotation-summary">Rubric accuracy shows a three-tier pattern: ceiling (Anthropic &ge;0.93), near-ceiling (OpenAI ~0.9), and floor (Gemini 0.0 on K/R/V). This limits rubric-based cross-vendor discrimination.</div>
   <div class="annotation-detail">
   <strong>Rubric Accuracy Heatmap (9 Models &times; 5 Dimensions):</strong> <strong>Claude models</strong> (top three rows) show near-uniform green (&ge; 0.93 across all dimensions), creating a <em>ceiling effect</em>. <strong>Codex models</strong> (middle rows) show slightly lower values accuracy (0.867-0.900) but maintain strong knowledge and bias scores. <strong>Gemini models</strong> (bottom four rows) show deep red (0.0) across Knowledge, Reasoning, and Values. Only Bias achieves nonzero scores. This floor effect reflects responses that fail to engage with question content. All models can detect religious bias, but only some can reason within religious frameworks.
+  <br><br>
+  <span class="caveat-badge">&#9888; Scorer bias</span> All rubric scoring was performed by Claude Opus 4.6, including for other Claude-family models. Same-vendor scoring may introduce systematic inflation of rubric scores for Claude-family responses relative to other vendors, as RLHF-trained models within the same family may share latent evaluative preferences. Cross-vendor relative comparisons remain valid; absolute rubric values for Claude models should be interpreted with this caveat.
   </div>
   <button class="read-more-btn" onclick="toggleAnnotation(this)">Read more &#9660;</button>
 </div>""",
@@ -653,6 +661,8 @@ ANNOTATIONS = {
   <div class="annotation-summary">The T2 Arabic MCQ is the single cross-vendor discriminator, with a 93.3-point spread from Gemini Pro at 6.7% to Opus/Sonnet/GPT-Codex at 100%.</div>
   <div class="annotation-detail">
   <strong>T2 Arabic MCQ Accuracy (Islamic Inheritance Law):</strong> The T2 MCQ provides the widest performance spread of any benchmark component. Gemini 2.5 Pro scores <strong>6.7%</strong> — below the 16.7% random-chance baseline for 6-option MCQ. Opus/Sonnet/GPT-Codex score <strong>100%</strong>. The 93.3 percentage-point gap exists because T2 requires three simultaneous capabilities: Arabic script processing, knowledge of <em>usul al-fiqh</em> inheritance principles, and multi-step mathematical reasoning about estate distribution. Template responses cannot produce correct answers. Haiku's 76.7% and Codex-Mini's 86.7% show meaningful mid-tier separation that rubric-based assessment misses entirely.
+  <br><br>
+  <span class="caveat-badge">&#9888; Methodological caveat</span> The original T2 trials for the three Claude models (Opus, Sonnet, Haiku) were administered with gold-standard answer labels visible during self-evaluation, making their accuracy figures <strong>upper-bound estimates</strong>. Cross-vendor trials (OpenAI, Gemini) used a blind protocol. Comparisons between Claude T2 scores and later cross-vendor scores should account for this asymmetry.
   </div>
   <button class="read-more-btn" onclick="toggleAnnotation(this)">Read more &#9660;</button>
 </div>""",
@@ -682,18 +692,20 @@ ANNOTATIONS = {
 
 "claims_chart": """
 <div class="chart-annotation">
-  <div class="annotation-summary">Three of 7 claims are supported (p &lt; 0.05): Tradition Asymmetry, Knowledge-Reasoning Conflation, and Data Availability. One is marginal; three are not significant.</div>
+  <div class="annotation-summary">Four of 8 claims are supported (p &lt; 0.05): Tradition Asymmetry, Knowledge-Reasoning Conflation, Data Availability, and Values Relevance Failure. One is marginal; three are not significant.</div>
   <div class="annotation-detail">
-  <strong>How to read this chart:</strong> Bars show &minus;log&#8321;&#8320;(p-value), where larger values indicate stronger evidence. The dashed line at 1.301 corresponds to p = 0.05. <strong>Green bars</strong> exceed this threshold (supported); <strong>orange bars</strong> are marginal (0.05 &lt; p &lt; 0.10); <strong>red bars</strong> are not significant. Of 7 claims: <strong>3 supported</strong>, 1 marginal (p &asymp; 0.09), 3 not significant. Claims 1 and 3 produce p-values near zero — their bars extend to the chart boundary.
+  <strong>How to read this chart:</strong> Bars show &minus;log&#8321;&#8320;(p-value), where larger values indicate stronger evidence. The dashed line at 1.301 corresponds to p = 0.05. <strong>Green bars</strong> exceed this threshold (supported); <strong>orange bars</strong> are marginal (0.05 &lt; p &lt; 0.10); <strong>red bars</strong> are not significant. Of 8 claims: <strong>4 supported</strong>, 1 marginal (p &asymp; 0.09), 3 not significant. Claims 1, 3, and 8 produce p-values near zero — their bars extend to the chart boundary.
   <br><br>
-  <strong>Interpretation:</strong> The 3/3 split is characteristic of a nascent field with small samples. Claims 5, 6, and 7 show effect directions consistent with their hypotheses — they are underpowered, not refuted. With n = 47, statistical power for moderate effects is limited. Reporting all 7 claims with equal prominence — including the 3 failures — strengthens the paper's credibility.
+  <strong>Claim 8 (Values Relevance Failure)</strong> is the strongest result: among 16 assessed gate-passers, the mean A3 values relevance score is 30.0/100 (sd=16.2), significantly below the midpoint (t=&minus;4.93, p&lt;0.001, Cohen's d=&minus;1.23). Only 18.8% achieve A3 &ge; 50. Most benchmarks test religious knowledge or bias, not values.
+  <br><br>
+  <strong>Interpretation:</strong> The 4/3 split (4 supported, 3 not significant) is characteristic of a nascent field with small samples. Claims 5, 6, and 7 show effect directions consistent with their hypotheses — they are underpowered, not refuted. With n = 47, statistical power for moderate effects is limited. Reporting all 8 claims with equal prominence — including the 3 failures — strengthens the paper's credibility.
   </div>
   <button class="read-more-btn" onclick="toggleAnnotation(this)">Read more &#9660;</button>
 </div>""",
 
 "claims_footer": """
 <div class="chart-annotation" style="margin-top:12px">
-  <div class="annotation-summary">The three unsupported claims are underpowered, not refuted. Cross-vendor evidence now supports Claim 7 (Bias-Values Conflation) through correlation analysis rather than binomial proportion testing.</div>
+  <div class="annotation-summary">The three unsupported claims are underpowered, not refuted. Cross-vendor evidence supports Claim 7 (Bias-Values Conflation); Claim 8 (Values Relevance Failure) is the strongest result in the battery (p&lt;0.001, d=&minus;1.23).</div>
   <div class="annotation-detail">
   <strong>Interpreting non-significant results:</strong> The three unsupported claims (Field Recency, Structural Epistemic Injustice, and Bias-Values Conflation) are not confirmed at conventional thresholds. In each case, the effect direction is consistent with the claim, but effect sizes are small or the sample is underpowered (n = 7-47). These claims warrant replication with a larger benchmark pool.
   <br><br>
@@ -702,12 +714,13 @@ ANNOTATIONS = {
   <button class="read-more-btn" onclick="toggleAnnotation(this)">Read more &#9660;</button>
 </div>
 <div class="finding-callout">
-  3 of 7 paper claims are statistically supported (p &lt; 0.05): Tradition Asymmetry (&chi;&sup2;=64.96,
-  p &lt; 0.001), Knowledge-Reasoning Conflation (binomial p = 0.0015), and Data Availability Bottleneck
-  (binomial p &lt; 0.001). 1 claim is marginal: WEIRD Bias Reversal (p &asymp; 0.09). 3 claims are not
+  4 of 8 paper claims are statistically supported (p &lt; 0.05): Tradition Asymmetry (&chi;&sup2;=64.96,
+  p &lt; 0.001), Knowledge-Reasoning Conflation (binomial p = 0.0015), Data Availability Bottleneck
+  (binomial p &lt; 0.001), and Values Relevance Failure (t=&minus;4.93, p &lt; 0.001, d=&minus;1.23).
+  1 claim is marginal: WEIRD Bias Reversal (p &asymp; 0.09). 3 claims are not
   statistically significant at conventional thresholds but remain theoretically motivated. The paper's
-  overall evidentiary posture — 3 confirmed, 1 marginal, 3 unconfirmed — is characteristic of a nascent
-  field where theoretical frameworks outpace available data.
+  overall evidentiary posture — 4 confirmed, 1 marginal, 3 unconfirmed — reflects a nascent field
+  where some findings are robust while others await larger samples.
 </div>""",
 
 "overview_conclusion": """
@@ -807,7 +820,7 @@ ANNOTATIONS = {
 
 "claims_crossvendor": """
 <div class="chart-annotation">
-  <strong>Cross-vendor claim validation:</strong> Six of seven claims concern benchmark properties
+  <strong>Cross-vendor claim validation:</strong> Seven of eight claims concern benchmark properties
   (tradition distribution, construct composition, data availability) that hold regardless of which
   LLM is used for evaluation. These are marked "Model-agnostic" — their evidence comes from the
   benchmark screening pipeline, not from model responses. Claim 7 (Bias-Values Conflation) is the
@@ -872,7 +885,7 @@ html = f"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Religious Values Benchmark: Cross-Vendor Meta-Evaluation Dashboard (v5)</title>
+<title>Religious Values Benchmark: Cross-Vendor Meta-Evaluation Dashboard (v6)</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -1362,6 +1375,29 @@ table.dark-table tr:hover td {{
 .read-more-btn:hover {{
     background: rgba(76,120,168,0.1);
 }}
+.annotation-sidebar {{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 8px;
+}}
+.annotation-sidebar .chart-annotation,
+.annotation-sidebar .tab-intro,
+.annotation-sidebar .finding-callout {{
+    position: sticky;
+    top: 70px;
+}}
+.caveat-badge {{
+    display: inline-block;
+    background: rgba(210, 153, 34, 0.15);
+    color: #d29922;
+    border: 1px solid rgba(210, 153, 34, 0.4);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    margin-bottom: 4px;
+}}
 .section-divider {{
     font-size: 0.72rem;
     text-transform: uppercase;
@@ -1382,7 +1418,7 @@ table.dark-table tr:hover td {{
 
 <div class="header">
     <h1>Religious Values Benchmark: Cross-Vendor Meta-Evaluation</h1>
-    <div class="subtitle">9 Models &times; 3 Vendors  |  Dashboard v5  |  2026-04-05  |  12-Member Expert Council Review</div>
+    <div class="subtitle">9 Models &times; 3 Vendors  |  Dashboard v6  |  2026-04-05  |  12-Member Expert Council Review</div>
 </div>
 <div class="exec-summary">
     Systematic meta-evaluation of <strong>401 religious AI benchmark candidates</strong> across
@@ -1396,7 +1432,7 @@ table.dark-table tr:hover td {{
     <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-sensitivity">Sensitivity<span class="tab-sub">Ranking robustness</span></a></li>
     <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-void">Tradition Void<span class="tab-sub">8 missing traditions</span></a></li>
     <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-values">Values Relevance<span class="tab-sub">Knowledge vs. values</span></a></li>
-    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-claims">Claim Evidence<span class="tab-sub">7 statistical tests</span></a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-claims">Claim Evidence<span class="tab-sub">8 statistical tests</span></a></li>
     <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-crossvendor">Cross-Vendor LLM<span class="tab-sub">9 models, 3 vendors</span></a></li>
 </ul>
 
@@ -1408,7 +1444,7 @@ table.dark-table tr:hover td {{
             <li><span class="kf-label">Tradition Asymmetry:</span> Islam holds 28/47 gate-passers (59.6%); 8 of 14 traditions have zero benchmarks &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\\'#tab-overview\\']').click()">Overview tab</a></li>
             <li><span class="kf-label">Infrastructure, Not Theology:</span> Publication infrastructure predicts benchmark existence (r = 0.74, p = 0.003); formalizability does not (p = 0.14) &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\\'#tab-void\\']').click()">Tradition Void tab</a></li>
             <li><span class="kf-label">Values Gap:</span> Mean values alignment score is 33.6/100; only 12% of benchmarks genuinely test religious values reasoning &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\\'#tab-values\\']').click()">Values Relevance tab</a></li>
-            <li><span class="kf-label">3 of 7 Claims Supported:</span> Tradition Asymmetry, Knowledge-Reasoning Conflation, and Data Availability all confirmed (p &lt; 0.002) &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\\'#tab-claims\\']').click()">Claim Evidence tab</a></li>
+            <li><span class="kf-label">4 of 8 Claims Supported:</span> Tradition Asymmetry, Knowledge-Reasoning Conflation, Data Availability, and Values Relevance Failure all confirmed (p &lt; 0.002) &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\\'#tab-claims\\']').click()">Claim Evidence tab</a></li>
             <li><span class="kf-label">Cross-Vendor Discrimination:</span> Only T2 Arabic MCQ discriminates across vendors (6.7%&ndash;100%); rubric scores show ceiling/floor effects &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\\'#tab-crossvendor\\']').click()">Cross-Vendor tab</a></li>
             <li><span class="kf-label">Ranking Uncertainty:</span> Top 6 benchmarks robust (&ge;95% weight stability); positions 7&ndash;15 are contested (CI width = 15.87 pts) &mdash; <a class="cross-ref" onclick="document.querySelector('[href=\\'#tab-sensitivity\\']').click()">Sensitivity tab</a></li>
         </ul>
@@ -1422,7 +1458,7 @@ table.dark-table tr:hover td {{
                     <tr><td>Gate-passers</td><td><strong>{gate_passers}</strong> (11.7%)</td><td>88.3% attrition rate reflects gate stringency</td></tr>
                     <tr><td>Void traditions</td><td><strong>{n_void}</strong> of 14</td><td>57% of traditions completely unrepresented</td></tr>
                     <tr><td>Values alignment (A3)</td><td>Mean <strong>33.6</strong>/100</td><td>Most benchmarks test knowledge, not values</td></tr>
-                    <tr><td>Claims supported</td><td><strong>3</strong> of 7 (p&lt;0.05)</td><td>Field too nascent for full statistical power</td></tr>
+                    <tr><td>Claims supported</td><td><strong>4</strong> of 8 (p&lt;0.05)</td><td>Values Relevance Failure is the strongest result (d=&minus;1.23)</td></tr>
                     <tr><td>Cross-vendor T2 range</td><td><strong>{t2_range_str}</strong></td><td>Only Arabic MCQ discriminates across vendors</td></tr>
                     <tr><td>LLMs with K&lt;R&lt;V gradient</td><td><strong>{n_gradient_holds}</strong> of 9</td><td>Gradient vendor-specific, not universal</td></tr>
                 </tbody>
@@ -1536,29 +1572,37 @@ table.dark-table tr:hover td {{
 <div class="tab-pane fade" id="tab-sensitivity">
     {ANNOTATIONS["sensitivity_intro"]}
     <div class="row g-3 mb-4">
-        <div class="col-12">
+        <div class="col-md-7">
             <div class="chart-container">
                 <div class="chart-title">Fig. {FIG["boot_ci"]} &mdash; Bootstrap 95% CI for Composite Scores</div>
                 <div id="chart-boot-ci" style="height:650px; overflow-y:auto"></div>
             </div>
+        </div>
+        <div class="col-md-5 annotation-sidebar">
             {ANNOTATIONS["sensitivity_boot"]}
         </div>
     </div>
     <div class="row g-3 mb-4">
-        <div class="col-md-6">
-            <div class="chart-container">
-                <div class="chart-title">Fig. {FIG["weight_sens"]} &mdash; Weight Sensitivity: Top-15 Stability (%)</div>
-                <div id="chart-weight-sens" style="height:450px"></div>
+        <div class="col-md-7">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="chart-container">
+                        <div class="chart-title">Fig. {FIG["weight_sens"]} &mdash; Weight Sensitivity: Top-15 Stability (%)</div>
+                        <div id="chart-weight-sens" style="height:450px"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="chart-container">
+                        <div class="chart-title">Fig. {FIG["gate_threshold"]} &mdash; Gate Threshold vs Coverage</div>
+                        <div id="chart-gate-threshold" style="height:450px"></div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="chart-container">
-                <div class="chart-title">Fig. {FIG["gate_threshold"]} &mdash; Gate Threshold vs Coverage</div>
-                <div id="chart-gate-threshold" style="height:450px"></div>
-            </div>
+        <div class="col-md-5 annotation-sidebar">
+            {ANNOTATIONS["sensitivity_weight_gate"]}
         </div>
     </div>
-    {ANNOTATIONS["sensitivity_weight_gate"]}
     {ANNOTATIONS["sensitivity_conclusion"]}
 </div>
 
@@ -1566,20 +1610,26 @@ table.dark-table tr:hover td {{
 <div class="tab-pane fade" id="tab-void">
     {ANNOTATIONS["void_intro"]}
     <div class="row g-3 mb-4">
-        <div class="col-md-6">
-            <div class="chart-container">
-                <div class="chart-title">Fig. {FIG["radar"]} &mdash; Void Factor Profiles</div>
-                <div id="chart-radar" style="height:450px"></div>
+        <div class="col-md-7">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="chart-container">
+                        <div class="chart-title">Fig. {FIG["radar"]} &mdash; Void Factor Profiles</div>
+                        <div id="chart-radar" style="height:450px"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="chart-container">
+                        <div class="chart-title">Fig. {FIG["readiness"]} &mdash; Benchmark Readiness Index</div>
+                        <div id="chart-readiness" style="height:450px"></div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="chart-container">
-                <div class="chart-title">Fig. {FIG["readiness"]} &mdash; Benchmark Readiness Index</div>
-                <div id="chart-readiness" style="height:450px"></div>
-            </div>
+        <div class="col-md-5 annotation-sidebar">
+            {ANNOTATIONS["void_charts"]}
         </div>
     </div>
-    {ANNOTATIONS["void_charts"]}
     <div class="chart-container">
         <div class="chart-title">Structural Scores by Tradition</div>
         <table class="dark-table">
@@ -1601,20 +1651,26 @@ table.dark-table tr:hover td {{
 <div class="tab-pane fade" id="tab-values">
     {ANNOTATIONS["values_intro"]}
     <div class="row g-3 mb-4">
-        <div class="col-md-6">
-            <div class="chart-container">
-                <div class="chart-title">Fig. {FIG["a3_hist"]} &mdash; A3 Values Alignment Distribution</div>
-                <div id="chart-a3-hist" style="height:380px"></div>
+        <div class="col-md-7">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="chart-container">
+                        <div class="chart-title">Fig. {FIG["a3_hist"]} &mdash; A3 Values Alignment Distribution</div>
+                        <div id="chart-a3-hist" style="height:380px"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="chart-container">
+                        <div class="chart-title">Fig. {FIG["a1_bar"]} &mdash; Primary Construct Breakdown</div>
+                        <div id="chart-a1-bar" style="height:380px"></div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="chart-container">
-                <div class="chart-title">Fig. {FIG["a1_bar"]} &mdash; Primary Construct Breakdown</div>
-                <div id="chart-a1-bar" style="height:380px"></div>
-            </div>
+        <div class="col-md-5 annotation-sidebar">
+            {ANNOTATIONS["values_charts"]}
         </div>
     </div>
-    {ANNOTATIONS["values_charts"]}
     <div class="row g-3">
         <div class="col-12">
             <div class="chart-container">
@@ -1643,11 +1699,13 @@ table.dark-table tr:hover td {{
 <div class="tab-pane fade" id="tab-claims">
     {ANNOTATIONS["claims_intro"]}
     <div class="row g-3 mb-4">
-        <div class="col-12">
+        <div class="col-md-7">
             <div class="chart-container">
                 <div class="chart-title">Fig. {FIG["claims"]} &mdash; Statistical Support for Paper Claims</div>
-                <div id="chart-claims" style="height:350px"></div>
+                <div id="chart-claims" style="height:380px"></div>
             </div>
+        </div>
+        <div class="col-md-5 annotation-sidebar">
             {ANNOTATIONS["claims_chart"]}
         </div>
     </div>
@@ -1767,7 +1825,7 @@ table.dark-table tr:hover td {{
     <div class="footer-grid">
         <div>
             <h4>How to Cite</h4>
-            CEI Religious Values Benchmark Meta-Evaluation Dashboard (v5). Center for Ethical Innovation,
+            CEI Religious Values Benchmark Meta-Evaluation Dashboard (v6). Center for Ethical Innovation,
             2026. Available at: <a href="https://cjimmylin.github.io/cei-rv-dashboard/" style="color:var(--accent-blue)">cjimmylin.github.io/cei-rv-dashboard</a>.
             Based on the paper: "What Do Religious AI Benchmarks Actually Measure? A Systematic
             Meta-Evaluation of 401 Candidates Across 14 Traditions."

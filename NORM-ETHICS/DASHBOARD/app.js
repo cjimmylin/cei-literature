@@ -636,18 +636,32 @@ function renderCrossVendorTab() {
     kpiContainer.appendChild(col);
   });
 
-  // Findings cards
+  // Findings cards (expandable on click)
   var findingsContainer = document.getElementById('cv-findings-list');
   if (findingsContainer && cv.findings) {
     findingsContainer.textContent = '';
     cv.findings.forEach(function(f) {
-      var card = createEl('div', { className: 'claim-card', style: 'margin-bottom:0.75rem;' });
+      var card = createEl('div', { className: 'claim-card', style: 'margin-bottom:0.75rem;cursor:pointer;transition:border-color 0.2s;' });
       var header = createEl('div', { style: 'display:flex;justify-content:space-between;align-items:center;margin-bottom:0.4rem;' });
-      header.appendChild(createEl('strong', { style: 'font-size:0.85rem;' }, f.id + ': ' + f.title));
+      var titleWrap = createEl('div', { style: 'display:flex;align-items:center;gap:0.4rem;' });
+      var chevron = createEl('span', { style: 'font-size:0.7rem;color:var(--text-muted);transition:transform 0.2s;display:inline-block;' }, '\u25B6');
+      titleWrap.appendChild(chevron);
+      titleWrap.appendChild(createEl('strong', { style: 'font-size:0.85rem;' }, f.id + ': ' + f.title));
+      header.appendChild(titleWrap);
       var badge = createEl('span', { className: 'gate-badge', style: 'font-size:0.65rem;padding:0.15rem 0.5rem;background:var(--accent-purple);color:#fff;border-radius:3px;' }, f.badge);
       header.appendChild(badge);
       card.appendChild(header);
       card.appendChild(createEl('p', { style: 'font-size:0.8rem;color:var(--text-secondary);margin-bottom:0;' }, f.subtitle));
+      if (f.detail) {
+        var detailEl = createEl('div', { style: 'font-size:0.78rem;color:var(--text-secondary);line-height:1.5;margin-top:0.6rem;padding-top:0.6rem;border-top:1px solid var(--border);display:none;' }, f.detail);
+        card.appendChild(detailEl);
+        card.addEventListener('click', function() {
+          var isOpen = detailEl.style.display !== 'none';
+          detailEl.style.display = isOpen ? 'none' : 'block';
+          chevron.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(90deg)';
+          card.style.borderColor = isOpen ? '' : 'var(--accent-purple)';
+        });
+      }
       findingsContainer.appendChild(card);
     });
   }
@@ -705,15 +719,32 @@ function renderGapsTab() {
   // Peer review concerns
   var prContainer = document.getElementById('peer-review-list');
   prContainer.textContent = '';
+  var statusColors = { resolved: '#4ecb71', mitigated: '#f0983e', acknowledged: '#9498b3', pending: '#ef5b5b' };
+  var statusCounts = {};
   gaps.peer_review_concerns.forEach(function(c) {
-    var card = createEl('div', { className: 'claim-card', style: 'padding:0.75rem;' });
+    statusCounts[c.status] = (statusCounts[c.status] || 0) + 1;
+    var borderColor = statusColors[c.status] || '#9498b3';
+    var card = createEl('div', { className: 'claim-card', style: 'padding:0.75rem;border-left:3px solid ' + borderColor + ';' });
     var header = createEl('div', { style: 'display:flex;justify-content:space-between;align-items:center;' });
     header.appendChild(createEl('span', { style: 'font-size:0.82rem;' }, c.concern));
-    header.appendChild(createEl('span', { className: 'severity-badge ' + c.severity }, c.severity));
+    var badge = createEl('span', { className: 'severity-badge ' + c.severity, style: 'background:' + borderColor + '22;color:' + borderColor + ';border:1px solid ' + borderColor + '44;' });
+    badge.textContent = c.status;
+    header.appendChild(badge);
     card.appendChild(header);
-    card.appendChild(createEl('div', { style: 'font-size:0.72rem;color:var(--text-muted);margin-top:0.3rem;' }, 'Status: ' + c.status));
+    if (c.resolution) {
+      card.appendChild(createEl('div', { style: 'font-size:0.75rem;color:var(--text-secondary);margin-top:0.4rem;line-height:1.4;' }, c.resolution));
+    }
     prContainer.appendChild(card);
   });
+  // Progress summary
+  var summaryParts = [];
+  if (statusCounts.resolved) summaryParts.push(statusCounts.resolved + ' resolved');
+  if (statusCounts.mitigated) summaryParts.push(statusCounts.mitigated + ' mitigated');
+  if (statusCounts.acknowledged) summaryParts.push(statusCounts.acknowledged + ' acknowledged');
+  if (statusCounts.pending) summaryParts.push(statusCounts.pending + ' pending');
+  var summaryEl = createEl('div', { style: 'font-size:0.72rem;color:var(--text-muted);margin-top:0.5rem;text-align:center;' },
+    summaryParts.join(' \u2022 ') + ' \u2014 ' + gaps.peer_review_concerns.length + ' total');
+  prContainer.appendChild(summaryEl);
 
   // Care ethics prototype
   var careContainer = document.getElementById('care-prototype-card');

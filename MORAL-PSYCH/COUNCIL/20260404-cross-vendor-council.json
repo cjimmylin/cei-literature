@@ -1,0 +1,114 @@
+{
+  "date": "2026-04-04",
+  "phase": "Cross-Vendor Analysis",
+  "council_size": 12,
+  "scope": {
+    "models": 9,
+    "vendors": 3,
+    "benchmarks": 23,
+    "trial_files": 207,
+    "vendor_families": {
+      "Anthropic": ["claude-opus-4-6", "claude-sonnet-4-6", "claude-haiku-4-5-20251001"],
+      "Gemini": ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.5-pro", "gemini-3.1-pro"],
+      "OpenAI": ["gpt-5-codex", "gpt-mini"]
+    }
+  },
+  "members": [
+    {
+      "member": 1,
+      "name": "Dr. Yilin Chen",
+      "affiliation": "Stanford Moral Cognition Lab",
+      "domain": "Psychometrics / Measurement Validity",
+      "analytical_lens": "Whether cross-vendor score differences reflect genuine construct differences or measurement artifacts (scale sensitivity, ceiling effects, response format confounds). Focus on which benchmarks actually discriminate between models and which produce uninformative ceiling effects.",
+      "assigned_sections": ["benchmark_discrimination", "psychometric_validity", "scale_sensitivity"]
+    },
+    {
+      "member": 2,
+      "name": "Dr. Amara Okafor",
+      "affiliation": "Oxford Uehiro Centre for Practical Ethics",
+      "domain": "Moral Philosophy / Normative Ethics",
+      "analytical_lens": "Whether vendor-specific moral profiles map onto recognizable normative-ethical positions (deontological, consequentialist, virtue-based) or constitute novel moral stances that resist classification within existing moral philosophy. Attend to the distinction between having a moral view and reproducing moral language.",
+      "assigned_sections": ["vendor_signatures", "theory_specific_findings"]
+    },
+    {
+      "member": 3,
+      "name": "Dr. Rebecca Torres",
+      "affiliation": "Center for AI Safety",
+      "domain": "AI Safety / Alignment",
+      "analytical_lens": "What cross-vendor convergence reveals about RLHF as a moral homogenization force — whether convergence represents successful alignment to shared human values or dangerous moral monoculture. Whether divergence points represent alignment failures or desirable pluralism.",
+      "assigned_sections": ["rlhf_fingerprinting", "convergence_divergence", "implications"]
+    },
+    {
+      "member": 4,
+      "name": "Dr. Kenji Watanabe",
+      "affiliation": "Kyoto University, Culture and Mind Lab",
+      "domain": "Cross-Cultural Psychology",
+      "analytical_lens": "Whether the WEIRD-liberal moral profile is a universal RLHF artifact or varies meaningfully by vendor. Whether cultural persona adoption (MP18) and non-Western perspective-taking (MP-CC) differ across vendor families, and what this reveals about training data diversity.",
+      "assigned_sections": ["theory_specific_findings", "vendor_signatures"]
+    },
+    {
+      "member": 5,
+      "name": "Dr. Fatima Al-Rashid",
+      "affiliation": "Georgetown Computational Linguistics",
+      "domain": "Computational Linguistics / NLP",
+      "analytical_lens": "Whether observed response pattern differences reflect genuine moral reasoning differences or surface-level stylistic, tokenization, or prompt-sensitivity artifacts. Analyze whether identical scores across vendors indicate shared reasoning or convergent surface behavior.",
+      "assigned_sections": ["benchmark_discrimination", "methodological_limitations"]
+    },
+    {
+      "member": 6,
+      "name": "Dr. Marcus Lindqvist",
+      "affiliation": "MIT Brain and Cognitive Sciences, Dual Process Lab",
+      "domain": "Cognitive Science / Dual-Process Theory",
+      "analytical_lens": "Whether the personal/impersonal moral judgment dissociation and chain-of-thought effects (MP-DP) vary systematically across vendors and model sizes, and what this reveals about architectural differences in deliberative vs. automatic moral processing.",
+      "assigned_sections": ["scale_sensitivity", "theory_specific_findings"]
+    },
+    {
+      "member": 7,
+      "name": "Dr. Sarah Goldstein",
+      "affiliation": "Princeton Center for the Study of Religion",
+      "domain": "Religious Studies / Comparative Theology",
+      "analytical_lens": "How vendor families differ on purity reasoning (MFT purity foundation), sacred/profane distinctions, and non-Western religious moral frameworks. Whether the universal low purity scores across vendors reflect genuine moral architecture or systematic training bias against religious moral reasoning.",
+      "assigned_sections": ["theory_specific_findings", "vendor_signatures"]
+    },
+    {
+      "member": 8,
+      "name": "Dr. Raj Krishnamurthy",
+      "affiliation": "University of Chicago, Causal Inference Group",
+      "domain": "Statistical Methodology",
+      "analytical_lens": "Whether observed cross-vendor differences are statistically meaningful given single-administration design. Effect sizes, power analysis, multiple-comparison corrections. Whether the high proportion of tied scores (ceiling effects) renders cross-vendor comparisons underpowered for most benchmarks.",
+      "assigned_sections": ["convergence_divergence", "psychometric_validity", "methodological_limitations"]
+    },
+    {
+      "member": 9,
+      "name": "Dr. Elena Volkov",
+      "affiliation": "Independent AI Safety Researcher (former Anthropic/Google)",
+      "domain": "AI Industry / Vendor Perspective",
+      "analytical_lens": "What vendor-specific patterns reveal about each company's alignment approach, training data curation, and safety policy choices. Whether Anthropic's Constitutional AI, Google's instruction tuning, and OpenAI's RLHF produce detectable moral signature differences.",
+      "assigned_sections": ["vendor_signatures", "rlhf_fingerprinting"]
+    },
+    {
+      "member": 10,
+      "name": "Dr. Jean-Pierre Moreau",
+      "affiliation": "UNESCO AI Ethics / EU AI Act Advisory",
+      "domain": "Policy / Governance",
+      "analytical_lens": "How cross-vendor moral profile divergence (or convergence) affects regulatory frameworks, certification standards, and cross-jurisdictional deployment. Whether moral benchmarking should be part of AI auditing standards and what the observed vendor similarities mean for regulation.",
+      "assigned_sections": ["implications", "convergence_divergence"]
+    },
+    {
+      "member": 11,
+      "name": "Dr. Isabella Ruiz",
+      "affiliation": "UCSD Developmental Moral Cognition Lab",
+      "domain": "Developmental Psychology",
+      "analytical_lens": "Whether within-vendor scale gradients (small-to-large models) parallel human developmental patterns (child-to-adult moral reasoning) or represent fundamentally different scaling phenomena. The DIT P-score gradient (Haiku 60 → Opus 75 → Sonnet 85) as a test case for developmental analogies.",
+      "assigned_sections": ["scale_sensitivity", "theory_specific_findings"]
+    },
+    {
+      "member": 12,
+      "name": "Dr. David Chalmers-Park",
+      "affiliation": "NYU Center for Mind, Brain, and Consciousness",
+      "domain": "Philosophy of Mind / Consciousness",
+      "analytical_lens": "Whether consistent moral profiles across 9 models from 3 vendors constitute evidence for or against genuine moral understanding vs. sophisticated pattern matching. The hard problem of AI moral cognition: can cross-vendor convergence tell us anything about whether these systems understand morality or merely reproduce moral language?",
+      "assigned_sections": ["implications", "methodological_limitations"]
+    }
+  ]
+}

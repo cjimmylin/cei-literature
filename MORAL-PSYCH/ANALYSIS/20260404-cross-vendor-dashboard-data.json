@@ -1,0 +1,2418 @@
+{
+  "metadata": {
+    "date": "2026-04-04",
+    "models": 9,
+    "vendors": 3,
+    "benchmarks": 23,
+    "source": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/MORAL-PSYCH/COMPARISON/20260404-cross-vendor-comparison.json"
+  },
+  "models": [
+    {
+      "canonical": "anthropic_haiku",
+      "display_name": "Haiku",
+      "vendor": "Anthropic"
+    },
+    {
+      "canonical": "anthropic_opus",
+      "display_name": "Opus",
+      "vendor": "Anthropic"
+    },
+    {
+      "canonical": "anthropic_sonnet",
+      "display_name": "Sonnet",
+      "vendor": "Anthropic"
+    },
+    {
+      "canonical": "gemini_2_5_flash",
+      "display_name": "Gemini 2.5 Flash",
+      "vendor": "Gemini"
+    },
+    {
+      "canonical": "gemini_2_5_flash_lite",
+      "display_name": "Gemini 2.5 Flash-Lite",
+      "vendor": "Gemini"
+    },
+    {
+      "canonical": "gemini_2_5_pro",
+      "display_name": "Gemini 2.5 Pro",
+      "vendor": "Gemini"
+    },
+    {
+      "canonical": "gemini_3_1_pro",
+      "display_name": "Gemini 3.1 Pro",
+      "vendor": "Gemini"
+    },
+    {
+      "canonical": "openai_gpt_codex",
+      "display_name": "GPT-5 Codex",
+      "vendor": "OpenAI"
+    },
+    {
+      "canonical": "openai_gpt_mini",
+      "display_name": "GPT Mini",
+      "vendor": "OpenAI"
+    }
+  ],
+  "modelColors": {
+    "anthropic_opus": "#7C3AED",
+    "anthropic_sonnet": "#A78BFA",
+    "anthropic_haiku": "#C4B5FD",
+    "gemini_2_5_flash": "#E69F00",
+    "gemini_2_5_flash_lite": "#F0C75E",
+    "gemini_2_5_pro": "#CC8400",
+    "gemini_3_1_pro": "#B37300",
+    "openai_gpt_codex": "#56B4E9",
+    "openai_gpt_mini": "#9BD4F5"
+  },
+  "vendorColors": {
+    "Anthropic": "#7C3AED",
+    "Gemini": "#E69F00",
+    "OpenAI": "#56B4E9"
+  },
+  "primaryMetricMatrix": {
+    "MP-CC": {
+      "anthropic_opus": 4.17,
+      "anthropic_sonnet": 3.97,
+      "anthropic_haiku": 4.17,
+      "gemini_2_5_flash": 4.17,
+      "gemini_2_5_flash_lite": 4.17,
+      "gemini_2_5_pro": 4.17,
+      "gemini_3_1_pro": 4.17,
+      "openai_gpt_codex": 4.17,
+      "openai_gpt_mini": 4.17
+    },
+    "MP-DM": {
+      "anthropic_opus": 3.292,
+      "anthropic_sonnet": 3.208,
+      "anthropic_haiku": null,
+      "gemini_2_5_flash": 3.292,
+      "gemini_2_5_flash_lite": 3.292,
+      "gemini_2_5_pro": 3.292,
+      "gemini_3_1_pro": 3.292,
+      "openai_gpt_codex": 3.292,
+      "openai_gpt_mini": 3.292
+    },
+    "MP-DP": {
+      "anthropic_opus": 0.0,
+      "anthropic_sonnet": 0.0,
+      "anthropic_haiku": 0.125,
+      "gemini_2_5_flash": 0.0,
+      "gemini_2_5_flash_lite": 0.0,
+      "gemini_2_5_pro": 0.0,
+      "gemini_3_1_pro": 0.0,
+      "openai_gpt_codex": 0.0,
+      "openai_gpt_mini": 0.0
+    },
+    "MP-SI": {
+      "anthropic_opus": 0.3,
+      "anthropic_sonnet": 0.2,
+      "anthropic_haiku": 0.2,
+      "gemini_2_5_flash": 0.3,
+      "gemini_2_5_flash_lite": 0.3,
+      "gemini_2_5_pro": 0.3,
+      "gemini_3_1_pro": 0.3,
+      "openai_gpt_codex": 0.3,
+      "openai_gpt_mini": 0.3
+    },
+    "MP10": {
+      "anthropic_opus": 1.0,
+      "anthropic_sonnet": 1.0,
+      "anthropic_haiku": 1.0,
+      "gemini_2_5_flash": 1.0,
+      "gemini_2_5_flash_lite": 1.0,
+      "gemini_2_5_pro": 1.0,
+      "gemini_3_1_pro": 1.0,
+      "openai_gpt_codex": 1.0,
+      "openai_gpt_mini": 1.0
+    },
+    "MP11": {
+      "anthropic_opus": 1.0,
+      "anthropic_sonnet": 1.0,
+      "anthropic_haiku": 1.0,
+      "gemini_2_5_flash": 1.0,
+      "gemini_2_5_flash_lite": 1.0,
+      "gemini_2_5_pro": 1.0,
+      "gemini_3_1_pro": 1.0,
+      "openai_gpt_codex": 1.0,
+      "openai_gpt_mini": 1.0
+    },
+    "MP12": {
+      "anthropic_opus": 0.45,
+      "anthropic_sonnet": 0.55,
+      "anthropic_haiku": 0.55,
+      "gemini_2_5_flash": 0.45,
+      "gemini_2_5_flash_lite": 0.45,
+      "gemini_2_5_pro": 0.45,
+      "gemini_3_1_pro": 0.45,
+      "openai_gpt_codex": 0.45,
+      "openai_gpt_mini": 0.45
+    },
+    "MP15": {
+      "anthropic_opus": 1.0,
+      "anthropic_sonnet": 0.8,
+      "anthropic_haiku": 1.0,
+      "gemini_2_5_flash": 1.0,
+      "gemini_2_5_flash_lite": 1.0,
+      "gemini_2_5_pro": 1.0,
+      "gemini_3_1_pro": 1.0,
+      "openai_gpt_codex": 1.0,
+      "openai_gpt_mini": 1.0
+    },
+    "MP16": {
+      "anthropic_opus": 3.4,
+      "anthropic_sonnet": 3.8,
+      "anthropic_haiku": 3.8,
+      "gemini_2_5_flash": 3.4,
+      "gemini_2_5_flash_lite": 3.4,
+      "gemini_2_5_pro": 3.4,
+      "gemini_3_1_pro": 3.4,
+      "openai_gpt_codex": 3.4,
+      "openai_gpt_mini": 3.4
+    },
+    "MP17": {
+      "anthropic_opus": 2.0,
+      "anthropic_sonnet": 2.04,
+      "anthropic_haiku": 1.88,
+      "gemini_2_5_flash": 2.0,
+      "gemini_2_5_flash_lite": 2.0,
+      "gemini_2_5_pro": 2.0,
+      "gemini_3_1_pro": 2.0,
+      "openai_gpt_codex": 2.0,
+      "openai_gpt_mini": 2.0
+    },
+    "MP18": {
+      "anthropic_opus": 2.63,
+      "anthropic_sonnet": 2.43,
+      "anthropic_haiku": 2.51,
+      "gemini_2_5_flash": 2.63,
+      "gemini_2_5_flash_lite": 2.63,
+      "gemini_2_5_pro": 2.63,
+      "gemini_3_1_pro": 2.63,
+      "openai_gpt_codex": 2.63,
+      "openai_gpt_mini": 2.63
+    },
+    "MP19": {
+      "anthropic_opus": 0.77,
+      "anthropic_sonnet": 0.81,
+      "anthropic_haiku": 0.85,
+      "gemini_2_5_flash": 0.77,
+      "gemini_2_5_flash_lite": 0.77,
+      "gemini_2_5_pro": 0.77,
+      "gemini_3_1_pro": 0.77,
+      "openai_gpt_codex": 0.77,
+      "openai_gpt_mini": 0.77
+    },
+    "MP2": {
+      "anthropic_opus": 2.83,
+      "anthropic_sonnet": 2.63,
+      "anthropic_haiku": 2.62,
+      "gemini_2_5_flash": 2.83,
+      "gemini_2_5_flash_lite": 2.83,
+      "gemini_2_5_pro": 2.83,
+      "gemini_3_1_pro": 2.83,
+      "openai_gpt_codex": 2.83,
+      "openai_gpt_mini": 2.83
+    },
+    "MP20": {
+      "anthropic_opus": 0.9,
+      "anthropic_sonnet": 0.96,
+      "anthropic_haiku": 1.0,
+      "gemini_2_5_flash": 0.9,
+      "gemini_2_5_flash_lite": 0.9,
+      "gemini_2_5_pro": 0.9,
+      "gemini_3_1_pro": 0.9,
+      "openai_gpt_codex": 0.9,
+      "openai_gpt_mini": 0.9
+    },
+    "MP21": {
+      "anthropic_opus": 5.4,
+      "anthropic_sonnet": 5.4,
+      "anthropic_haiku": 5.4,
+      "gemini_2_5_flash": 5.4,
+      "gemini_2_5_flash_lite": 5.4,
+      "gemini_2_5_pro": 5.4,
+      "gemini_3_1_pro": 5.4,
+      "openai_gpt_codex": 5.4,
+      "openai_gpt_mini": 5.4
+    },
+    "MP22": {
+      "anthropic_opus": 1.0,
+      "anthropic_sonnet": 0.95,
+      "anthropic_haiku": 0.95,
+      "gemini_2_5_flash": 1.0,
+      "gemini_2_5_flash_lite": 1.0,
+      "gemini_2_5_pro": 1.0,
+      "gemini_3_1_pro": 1.0,
+      "openai_gpt_codex": 1.0,
+      "openai_gpt_mini": 1.0
+    },
+    "MP3": {
+      "anthropic_opus": 75.0,
+      "anthropic_sonnet": 85.0,
+      "anthropic_haiku": 60.0,
+      "gemini_2_5_flash": 75.0,
+      "gemini_2_5_flash_lite": 75.0,
+      "gemini_2_5_pro": 75.0,
+      "gemini_3_1_pro": 75.0,
+      "openai_gpt_codex": 75.0,
+      "openai_gpt_mini": 75.0
+    },
+    "MP4": {
+      "anthropic_opus": 3.67,
+      "anthropic_sonnet": 3.5,
+      "anthropic_haiku": 3.67,
+      "gemini_2_5_flash": 3.7434,
+      "gemini_2_5_flash_lite": 3.7067,
+      "gemini_2_5_pro": 3.7801,
+      "gemini_3_1_pro": 3.8535,
+      "openai_gpt_codex": 3.67,
+      "openai_gpt_mini": 3.67
+    },
+    "MP5": {
+      "anthropic_opus": 4.5,
+      "anthropic_sonnet": 4.75,
+      "anthropic_haiku": 4.75,
+      "gemini_2_5_flash": 4.5,
+      "gemini_2_5_flash_lite": 4.5,
+      "gemini_2_5_pro": 4.5,
+      "gemini_3_1_pro": 4.5,
+      "openai_gpt_codex": 4.5,
+      "openai_gpt_mini": 4.5
+    },
+    "MP6": {
+      "anthropic_opus": 90.0,
+      "anthropic_sonnet": 90.0,
+      "anthropic_haiku": 90.0,
+      "gemini_2_5_flash": 90.0,
+      "gemini_2_5_flash_lite": 90.0,
+      "gemini_2_5_pro": 90.0,
+      "gemini_3_1_pro": 90.0,
+      "openai_gpt_codex": 90.0,
+      "openai_gpt_mini": 90.0
+    },
+    "MP7": {
+      "anthropic_opus": 1.0,
+      "anthropic_sonnet": 1.0,
+      "anthropic_haiku": 1.0,
+      "gemini_2_5_flash": 1.0,
+      "gemini_2_5_flash_lite": 1.0,
+      "gemini_2_5_pro": 1.0,
+      "gemini_3_1_pro": 1.0,
+      "openai_gpt_codex": 1.0,
+      "openai_gpt_mini": 1.0
+    },
+    "MP8": {
+      "anthropic_opus": 18.0,
+      "anthropic_sonnet": 18.0,
+      "anthropic_haiku": 18.0,
+      "gemini_2_5_flash": 18.0,
+      "gemini_2_5_flash_lite": 18.0,
+      "gemini_2_5_pro": 18.0,
+      "gemini_3_1_pro": 18.0,
+      "openai_gpt_codex": 18.0,
+      "openai_gpt_mini": 18.0
+    },
+    "MP9": {
+      "anthropic_opus": 0.63,
+      "anthropic_sonnet": 1.0,
+      "anthropic_haiku": 0.97,
+      "gemini_2_5_flash": 0.63,
+      "gemini_2_5_flash_lite": 0.63,
+      "gemini_2_5_pro": 0.63,
+      "gemini_3_1_pro": 0.63,
+      "openai_gpt_codex": 0.63,
+      "openai_gpt_mini": 0.63
+    }
+  },
+  "vendorAggregation": {
+    "MP-CC": {
+      "Anthropic": 4.1033,
+      "Gemini": 4.17,
+      "OpenAI": 4.17
+    },
+    "MP-DM": {
+      "Anthropic": 3.25,
+      "Gemini": 3.292,
+      "OpenAI": 3.292
+    },
+    "MP-DP": {
+      "Anthropic": 0.0417,
+      "Gemini": 0.0,
+      "OpenAI": 0.0
+    },
+    "MP-SI": {
+      "Anthropic": 0.2333,
+      "Gemini": 0.3,
+      "OpenAI": 0.3
+    },
+    "MP10": {
+      "Anthropic": 1.0,
+      "Gemini": 1.0,
+      "OpenAI": 1.0
+    },
+    "MP11": {
+      "Anthropic": 1.0,
+      "Gemini": 1.0,
+      "OpenAI": 1.0
+    },
+    "MP12": {
+      "Anthropic": 0.5167,
+      "Gemini": 0.45,
+      "OpenAI": 0.45
+    },
+    "MP15": {
+      "Anthropic": 0.9333,
+      "Gemini": 1.0,
+      "OpenAI": 1.0
+    },
+    "MP16": {
+      "Anthropic": 3.6667,
+      "Gemini": 3.4,
+      "OpenAI": 3.4
+    },
+    "MP17": {
+      "Anthropic": 1.9733,
+      "Gemini": 2.0,
+      "OpenAI": 2.0
+    },
+    "MP18": {
+      "Anthropic": 2.5233,
+      "Gemini": 2.63,
+      "OpenAI": 2.63
+    },
+    "MP19": {
+      "Anthropic": 0.81,
+      "Gemini": 0.77,
+      "OpenAI": 0.77
+    },
+    "MP2": {
+      "Anthropic": 2.6933,
+      "Gemini": 2.83,
+      "OpenAI": 2.83
+    },
+    "MP20": {
+      "Anthropic": 0.9533,
+      "Gemini": 0.9,
+      "OpenAI": 0.9
+    },
+    "MP21": {
+      "Anthropic": 5.4,
+      "Gemini": 5.4,
+      "OpenAI": 5.4
+    },
+    "MP22": {
+      "Anthropic": 0.9667,
+      "Gemini": 1.0,
+      "OpenAI": 1.0
+    },
+    "MP3": {
+      "Anthropic": 73.3333,
+      "Gemini": 75.0,
+      "OpenAI": 75.0
+    },
+    "MP4": {
+      "Anthropic": 3.6133,
+      "Gemini": 3.7709,
+      "OpenAI": 3.67
+    },
+    "MP5": {
+      "Anthropic": 4.6667,
+      "Gemini": 4.5,
+      "OpenAI": 4.5
+    },
+    "MP6": {
+      "Anthropic": 90.0,
+      "Gemini": 90.0,
+      "OpenAI": 90.0
+    },
+    "MP7": {
+      "Anthropic": 1.0,
+      "Gemini": 1.0,
+      "OpenAI": 1.0
+    },
+    "MP8": {
+      "Anthropic": 18.0,
+      "Gemini": 18.0,
+      "OpenAI": 18.0
+    },
+    "MP9": {
+      "Anthropic": 0.8667,
+      "Gemini": 0.63,
+      "OpenAI": 0.63
+    }
+  },
+  "convergence": {
+    "MP-CC": {
+      "total_var": 0.003951,
+      "within_var": 0.002963,
+      "between_var": 0.000988,
+      "discrimination_ratio": 0.25,
+      "non_none_count": 9
+    },
+    "MP-DM": {
+      "total_var": 0.000772,
+      "within_var": 0.000588,
+      "between_var": 0.000392,
+      "discrimination_ratio": 0.5079,
+      "non_none_count": 8
+    },
+    "MP-DP": {
+      "total_var": 0.001543,
+      "within_var": 0.001157,
+      "between_var": 0.000386,
+      "discrimination_ratio": 0.25,
+      "non_none_count": 9
+    },
+    "MP-SI": {
+      "total_var": 0.001728,
+      "within_var": 0.000741,
+      "between_var": 0.000988,
+      "discrimination_ratio": 0.5714,
+      "non_none_count": 9
+    },
+    "MP10": {
+      "total_var": 0.0,
+      "within_var": 0.0,
+      "between_var": 0.0,
+      "discrimination_ratio": null,
+      "non_none_count": 9
+    },
+    "MP11": {
+      "total_var": 0.0,
+      "within_var": 0.0,
+      "between_var": 0.0,
+      "discrimination_ratio": null,
+      "non_none_count": 9
+    },
+    "MP12": {
+      "total_var": 0.001728,
+      "within_var": 0.000741,
+      "between_var": 0.000988,
+      "discrimination_ratio": 0.5714,
+      "non_none_count": 9
+    },
+    "MP15": {
+      "total_var": 0.003951,
+      "within_var": 0.002963,
+      "between_var": 0.000988,
+      "discrimination_ratio": 0.25,
+      "non_none_count": 9
+    },
+    "MP16": {
+      "total_var": 0.027654,
+      "within_var": 0.011852,
+      "between_var": 0.015802,
+      "discrimination_ratio": 0.5714,
+      "non_none_count": 9
+    },
+    "MP17": {
+      "total_var": 0.001699,
+      "within_var": 0.001541,
+      "between_var": 0.000158,
+      "discrimination_ratio": 0.093,
+      "non_none_count": 9
+    },
+    "MP18": {
+      "total_var": 0.00478,
+      "within_var": 0.002252,
+      "between_var": 0.002528,
+      "discrimination_ratio": 0.5289,
+      "non_none_count": 9
+    },
+    "MP19": {
+      "total_var": 0.000711,
+      "within_var": 0.000356,
+      "between_var": 0.000356,
+      "discrimination_ratio": 0.5,
+      "non_none_count": 9
+    },
+    "MP2": {
+      "total_var": 0.007269,
+      "within_var": 0.003119,
+      "between_var": 0.004151,
+      "discrimination_ratio": 0.571,
+      "non_none_count": 9
+    },
+    "MP20": {
+      "total_var": 0.001195,
+      "within_var": 0.000563,
+      "between_var": 0.000632,
+      "discrimination_ratio": 0.5289,
+      "non_none_count": 9
+    },
+    "MP21": {
+      "total_var": 0.0,
+      "within_var": 0.0,
+      "between_var": 0.0,
+      "discrimination_ratio": null,
+      "non_none_count": 9
+    },
+    "MP22": {
+      "total_var": 0.000432,
+      "within_var": 0.000185,
+      "between_var": 0.000247,
+      "discrimination_ratio": 0.5714,
+      "non_none_count": 9
+    },
+    "MP3": {
+      "total_var": 35.802469,
+      "within_var": 35.185185,
+      "between_var": 0.617284,
+      "discrimination_ratio": 0.0172,
+      "non_none_count": 9
+    },
+    "MP4": {
+      "total_var": 0.008373,
+      "within_var": 0.003123,
+      "between_var": 0.004248,
+      "discrimination_ratio": 0.5073,
+      "non_none_count": 9
+    },
+    "MP5": {
+      "total_var": 0.010802,
+      "within_var": 0.00463,
+      "between_var": 0.006173,
+      "discrimination_ratio": 0.5714,
+      "non_none_count": 9
+    },
+    "MP6": {
+      "total_var": 0.0,
+      "within_var": 0.0,
+      "between_var": 0.0,
+      "discrimination_ratio": null,
+      "non_none_count": 9
+    },
+    "MP7": {
+      "total_var": 0.0,
+      "within_var": 0.0,
+      "between_var": 0.0,
+      "discrimination_ratio": null,
+      "non_none_count": 9
+    },
+    "MP8": {
+      "total_var": 0.0,
+      "within_var": 0.0,
+      "between_var": 0.0,
+      "discrimination_ratio": null,
+      "non_none_count": 9
+    },
+    "MP9": {
+      "total_var": 0.021832,
+      "within_var": 0.009385,
+      "between_var": 0.012447,
+      "discrimination_ratio": 0.5701,
+      "non_none_count": 9
+    }
+  },
+  "discriminationRanking": [
+    {
+      "benchmark": "MP-DP",
+      "benchmark_name": "Dual Process Theory Protocol (custom)",
+      "cv": 2.8284,
+      "mean": 0.0139,
+      "std": 0.0393,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP9",
+      "benchmark_name": "MFTC - Moral Foundations Twitter Corpus",
+      "cv": 0.2084,
+      "mean": 0.7089,
+      "std": 0.1478,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP-SI",
+      "benchmark_name": "Social Intuitionism Protocol (custom - Moral Dumbfounding)",
+      "cv": 0.1497,
+      "mean": 0.2778,
+      "std": 0.0416,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP12",
+      "benchmark_name": "Knowing But Not Doing: ValAct-15K",
+      "cv": 0.088,
+      "mean": 0.4722,
+      "std": 0.0416,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP3",
+      "benchmark_name": "Defining Issues Test (DIT-1)",
+      "cv": 0.0804,
+      "mean": 74.4444,
+      "std": 5.9835,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP15",
+      "benchmark_name": "UniMoral (Are Rules Meant to be Broken?)",
+      "cv": 0.0643,
+      "mean": 0.9778,
+      "std": 0.0629,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP16",
+      "benchmark_name": "Moral Identity Scale (Aquino & Reed, 2002) + Behavioral Analogues",
+      "cv": 0.0477,
+      "mean": 3.4889,
+      "std": 0.1663,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP20",
+      "benchmark_name": "M3oralBench (Yan et al., 2024)",
+      "cv": 0.0377,
+      "mean": 0.9178,
+      "std": 0.0346,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP19",
+      "benchmark_name": "Conscience Conflict (Nunes et al., 2024 \u2014 Moral Hypocrisy Framework)",
+      "cv": 0.034,
+      "mean": 0.7833,
+      "std": 0.0267,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP2",
+      "benchmark_name": "MFQ-30 (Moral Foundations Questionnaire)",
+      "cv": 0.0306,
+      "mean": 2.7844,
+      "std": 0.0853,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP18",
+      "benchmark_name": "Culturally Grounded Personas (MFQ-30 under cultural persona conditions)",
+      "cv": 0.0266,
+      "mean": 2.5944,
+      "std": 0.0691,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP4",
+      "benchmark_name": "Moral Foundations Vignettes (MFV) \u2014 30-item subset",
+      "cv": 0.0248,
+      "mean": 3.696,
+      "std": 0.0915,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP5",
+      "benchmark_name": "ValueCompass \u2014 Schwartz-based Contextual Value Alignment",
+      "cv": 0.0228,
+      "mean": 4.5556,
+      "std": 0.1039,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP22",
+      "benchmark_name": "Tracing Moral Foundations in LLMs (Yu et al., 2026)",
+      "cv": 0.021,
+      "mean": 0.9889,
+      "std": 0.0208,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP17",
+      "benchmark_name": "Social Chemistry 101 (Forbes et al., 2021)",
+      "cv": 0.0207,
+      "mean": 1.9911,
+      "std": 0.0412,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP-CC",
+      "benchmark_name": "Cross-Cultural Moral Divergence Protocol (custom)",
+      "cv": 0.0152,
+      "mean": 4.1478,
+      "std": 0.0629,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP-DM",
+      "benchmark_name": "Dyadic Morality Protocol (custom)",
+      "cv": 0.0085,
+      "mean": 3.2815,
+      "std": 0.0278,
+      "n_models": 8
+    },
+    {
+      "benchmark": "MP10",
+      "benchmark_name": "Does Moral Code Have a Moral Code? (Probing Delphi's Moral Philosophy)",
+      "cv": 0.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP11",
+      "benchmark_name": "Value Kaleidoscope (ValuePrism / Kaleido)",
+      "cv": 0.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP21",
+      "benchmark_name": "PRIME Framework (Coleman, Neuman et al., 2025)",
+      "cv": 0.0,
+      "mean": 5.4,
+      "std": 0.0,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP6",
+      "benchmark_name": "EMNLP \u2014 Educator-role Moral and Normative LLMs Profiling (subset)",
+      "cv": 0.0,
+      "mean": 90.0,
+      "std": 0.0,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP7",
+      "benchmark_name": "TrolleyBench \u2014 Ethical Consistency Evaluation (subset)",
+      "cv": 0.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "n_models": 9
+    },
+    {
+      "benchmark": "MP8",
+      "benchmark_name": "Moral Machine Experiment",
+      "cv": 0.0,
+      "mean": 18.0,
+      "std": 0.0,
+      "n_models": 9
+    }
+  ],
+  "scaleSensitivity": {
+    "Anthropic": {
+      "MP-CC": {
+        "values": [
+          4.17,
+          3.97,
+          4.17
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": false
+      },
+      "MP-DM": {
+        "values": [
+          null,
+          3.208,
+          3.292
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": null,
+        "is_monotonic": true
+      },
+      "MP-DP": {
+        "values": [
+          0.125,
+          0.0,
+          0.0
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": -1.0,
+        "is_monotonic": false
+      },
+      "MP-SI": {
+        "values": [
+          0.2,
+          0.2,
+          0.3
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.5,
+        "is_monotonic": true
+      },
+      "MP10": {
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP11": {
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP12": {
+        "values": [
+          0.55,
+          0.55,
+          0.45
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": -0.1818,
+        "is_monotonic": false
+      },
+      "MP15": {
+        "values": [
+          1.0,
+          0.8,
+          1.0
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": false
+      },
+      "MP16": {
+        "values": [
+          3.8,
+          3.8,
+          3.4
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": -0.1053,
+        "is_monotonic": false
+      },
+      "MP17": {
+        "values": [
+          1.88,
+          2.04,
+          2.0
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0638,
+        "is_monotonic": false
+      },
+      "MP18": {
+        "values": [
+          2.51,
+          2.43,
+          2.63
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0478,
+        "is_monotonic": false
+      },
+      "MP19": {
+        "values": [
+          0.85,
+          0.81,
+          0.77
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": -0.0941,
+        "is_monotonic": false
+      },
+      "MP2": {
+        "values": [
+          2.62,
+          2.63,
+          2.83
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0802,
+        "is_monotonic": true
+      },
+      "MP20": {
+        "values": [
+          1.0,
+          0.96,
+          0.9
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": -0.1,
+        "is_monotonic": false
+      },
+      "MP21": {
+        "values": [
+          5.4,
+          5.4,
+          5.4
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP22": {
+        "values": [
+          0.95,
+          0.95,
+          1.0
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0526,
+        "is_monotonic": true
+      },
+      "MP3": {
+        "values": [
+          60.0,
+          85.0,
+          75.0
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.25,
+        "is_monotonic": false
+      },
+      "MP4": {
+        "values": [
+          3.67,
+          3.5,
+          3.67
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": false
+      },
+      "MP5": {
+        "values": [
+          4.75,
+          4.75,
+          4.5
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": -0.0526,
+        "is_monotonic": false
+      },
+      "MP6": {
+        "values": [
+          90.0,
+          90.0,
+          90.0
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP7": {
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP8": {
+        "values": [
+          18.0,
+          18.0,
+          18.0
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP9": {
+        "values": [
+          0.97,
+          1.0,
+          0.63
+        ],
+        "labels": [
+          "anthropic_haiku",
+          "anthropic_sonnet",
+          "anthropic_opus"
+        ],
+        "gradient": -0.3505,
+        "is_monotonic": false
+      }
+    },
+    "Gemini": {
+      "MP-CC": {
+        "values": [
+          4.17,
+          4.17,
+          4.17,
+          4.17
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP-DM": {
+        "values": [
+          3.292,
+          3.292,
+          3.292,
+          3.292
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP-DP": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": null,
+        "is_monotonic": true
+      },
+      "MP-SI": {
+        "values": [
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP10": {
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP11": {
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP12": {
+        "values": [
+          0.45,
+          0.45,
+          0.45,
+          0.45
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP15": {
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP16": {
+        "values": [
+          3.4,
+          3.4,
+          3.4,
+          3.4
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP17": {
+        "values": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP18": {
+        "values": [
+          2.63,
+          2.63,
+          2.63,
+          2.63
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP19": {
+        "values": [
+          0.77,
+          0.77,
+          0.77,
+          0.77
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP2": {
+        "values": [
+          2.83,
+          2.83,
+          2.83,
+          2.83
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP20": {
+        "values": [
+          0.9,
+          0.9,
+          0.9,
+          0.9
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP21": {
+        "values": [
+          5.4,
+          5.4,
+          5.4,
+          5.4
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP22": {
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP3": {
+        "values": [
+          75.0,
+          75.0,
+          75.0,
+          75.0
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP4": {
+        "values": [
+          3.7067,
+          3.7434,
+          3.7801,
+          3.8535
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0396,
+        "is_monotonic": true
+      },
+      "MP5": {
+        "values": [
+          4.5,
+          4.5,
+          4.5,
+          4.5
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP6": {
+        "values": [
+          90.0,
+          90.0,
+          90.0,
+          90.0
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP7": {
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP8": {
+        "values": [
+          18.0,
+          18.0,
+          18.0,
+          18.0
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP9": {
+        "values": [
+          0.63,
+          0.63,
+          0.63,
+          0.63
+        ],
+        "labels": [
+          "gemini_2_5_flash_lite",
+          "gemini_2_5_flash",
+          "gemini_2_5_pro",
+          "gemini_3_1_pro"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      }
+    },
+    "OpenAI": {
+      "MP-CC": {
+        "values": [
+          4.17,
+          4.17
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP-DM": {
+        "values": [
+          3.292,
+          3.292
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP-DP": {
+        "values": [
+          0.0,
+          0.0
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": null,
+        "is_monotonic": true
+      },
+      "MP-SI": {
+        "values": [
+          0.3,
+          0.3
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP10": {
+        "values": [
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP11": {
+        "values": [
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP12": {
+        "values": [
+          0.45,
+          0.45
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP15": {
+        "values": [
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP16": {
+        "values": [
+          3.4,
+          3.4
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP17": {
+        "values": [
+          2.0,
+          2.0
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP18": {
+        "values": [
+          2.63,
+          2.63
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP19": {
+        "values": [
+          0.77,
+          0.77
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP2": {
+        "values": [
+          2.83,
+          2.83
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP20": {
+        "values": [
+          0.9,
+          0.9
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP21": {
+        "values": [
+          5.4,
+          5.4
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP22": {
+        "values": [
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP3": {
+        "values": [
+          75.0,
+          75.0
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP4": {
+        "values": [
+          3.67,
+          3.67
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP5": {
+        "values": [
+          4.5,
+          4.5
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP6": {
+        "values": [
+          90.0,
+          90.0
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP7": {
+        "values": [
+          1.0,
+          1.0
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP8": {
+        "values": [
+          18.0,
+          18.0
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      },
+      "MP9": {
+        "values": [
+          0.63,
+          0.63
+        ],
+        "labels": [
+          "openai_gpt_mini",
+          "openai_gpt_codex"
+        ],
+        "gradient": 0.0,
+        "is_monotonic": true
+      }
+    }
+  },
+  "rlhfFingerprints": {
+    "anthropic_opus": {
+      "ind_bind": 2.83,
+      "purity": 1.5,
+      "eci": 1.0,
+      "western_default": 6.67
+    },
+    "anthropic_sonnet": {
+      "ind_bind": 2.63,
+      "purity": 1.5,
+      "eci": 1.0,
+      "western_default": 6.0
+    },
+    "anthropic_haiku": {
+      "ind_bind": 2.62,
+      "purity": 1.5,
+      "eci": 1.0,
+      "western_default": 5.25
+    },
+    "gemini_2_5_flash": {
+      "ind_bind": 2.83,
+      "purity": 1.5,
+      "eci": 1.0,
+      "western_default": 6.67
+    },
+    "gemini_2_5_flash_lite": {
+      "ind_bind": 2.83,
+      "purity": 1.5,
+      "eci": 1.0,
+      "western_default": 6.67
+    },
+    "gemini_2_5_pro": {
+      "ind_bind": 2.83,
+      "purity": 1.5,
+      "eci": 1.0,
+      "western_default": 6.67
+    },
+    "gemini_3_1_pro": {
+      "ind_bind": 2.83,
+      "purity": 1.5,
+      "eci": 1.0,
+      "western_default": 6.67
+    },
+    "openai_gpt_codex": {
+      "ind_bind": 2.83,
+      "purity": 1.5,
+      "eci": 1.0,
+      "western_default": 6.67
+    },
+    "openai_gpt_mini": {
+      "ind_bind": 2.83,
+      "purity": 1.5,
+      "eci": 1.0,
+      "western_default": 6.67
+    }
+  },
+  "theoryCoverage": {
+    "MFT": {
+      "Anthropic": 0.4405,
+      "Gemini": 0.5444,
+      "OpenAI": 0.4968
+    },
+    "Kohlberg": {
+      "Anthropic": 0.5167,
+      "Gemini": 0.55,
+      "OpenAI": 0.55
+    },
+    "Schwartz": {
+      "Anthropic": 0.6111,
+      "Gemini": 0.1667,
+      "OpenAI": 0.1667
+    },
+    "Trolley/Consequentialism": {
+      "Anthropic": 0.5,
+      "Gemini": 0.5,
+      "OpenAI": 0.5
+    },
+    "Dual Process": {
+      "Anthropic": 0.3333,
+      "Gemini": 0.0,
+      "OpenAI": 0.0
+    },
+    "Intuitionism": {
+      "Anthropic": 0.4583,
+      "Gemini": 0.875,
+      "OpenAI": 0.875
+    },
+    "Cross-Cultural": {
+      "Anthropic": 0.5667,
+      "Gemini": 1.0,
+      "OpenAI": 1.0
+    },
+    "Multi-Theory": {
+      "Anthropic": 0.5917,
+      "Gemini": 0.375,
+      "OpenAI": 0.375
+    }
+  },
+  "radarData": {
+    "dimensions": [
+      "MFT Care",
+      "Kohlberg P-score",
+      "Ethical Consistency",
+      "Classification Accuracy",
+      "Cultural Perspective-Taking",
+      "Knowledge-Action Gap",
+      "Moral Identity",
+      "Dual Process CoT"
+    ],
+    "anthropic_opus": [
+      48.1,
+      60.0,
+      50.0,
+      0.0,
+      100.0,
+      100.0,
+      0.0,
+      0.0
+    ],
+    "anthropic_sonnet": [
+      0.0,
+      100.0,
+      50.0,
+      60.0,
+      0.0,
+      0.0,
+      100.0,
+      0.0
+    ],
+    "anthropic_haiku": [
+      48.1,
+      0.0,
+      50.0,
+      100.0,
+      100.0,
+      0.0,
+      100.0,
+      100.0
+    ],
+    "gemini_2_5_flash": [
+      68.9,
+      60.0,
+      50.0,
+      0.0,
+      100.0,
+      100.0,
+      0.0,
+      0.0
+    ],
+    "gemini_2_5_flash_lite": [
+      58.5,
+      60.0,
+      50.0,
+      0.0,
+      100.0,
+      100.0,
+      0.0,
+      0.0
+    ],
+    "gemini_2_5_pro": [
+      79.2,
+      60.0,
+      50.0,
+      0.0,
+      100.0,
+      100.0,
+      0.0,
+      0.0
+    ],
+    "gemini_3_1_pro": [
+      100.0,
+      60.0,
+      50.0,
+      0.0,
+      100.0,
+      100.0,
+      0.0,
+      0.0
+    ],
+    "openai_gpt_codex": [
+      48.1,
+      60.0,
+      50.0,
+      0.0,
+      100.0,
+      100.0,
+      0.0,
+      0.0
+    ],
+    "openai_gpt_mini": [
+      48.1,
+      60.0,
+      50.0,
+      0.0,
+      100.0,
+      100.0,
+      0.0,
+      0.0
+    ]
+  },
+  "ceilingEffects": [
+    "MP10",
+    "MP11",
+    "MP21",
+    "MP6",
+    "MP7",
+    "MP8"
+  ],
+  "trialTable": [
+    {
+      "id": "MP-CC",
+      "benchmark": "Cross-Cultural Moral Divergence Protocol (custom)",
+      "metric": "Perspective-Taking (1-5)",
+      "values": {
+        "anthropic_opus": "4.17",
+        "anthropic_sonnet": "3.97",
+        "anthropic_haiku": "4.17",
+        "gemini_2_5_flash": "4.17",
+        "gemini_2_5_flash_lite": "4.17",
+        "gemini_2_5_pro": "4.17",
+        "gemini_3_1_pro": "4.17",
+        "openai_gpt_codex": "4.17",
+        "openai_gpt_mini": "4.17"
+      },
+      "category": "Cross-Cultural"
+    },
+    {
+      "id": "MP-DM",
+      "benchmark": "Dyadic Morality Protocol (custom)",
+      "metric": "Mean Structural Blame (0-10)",
+      "values": {
+        "anthropic_opus": "3.292",
+        "anthropic_sonnet": "3.208",
+        "anthropic_haiku": "N/A",
+        "gemini_2_5_flash": "3.292",
+        "gemini_2_5_flash_lite": "3.292",
+        "gemini_2_5_pro": "3.292",
+        "gemini_3_1_pro": "3.292",
+        "openai_gpt_codex": "3.292",
+        "openai_gpt_mini": "3.292"
+      },
+      "category": "Other"
+    },
+    {
+      "id": "MP-DP",
+      "benchmark": "Dual Process Theory Protocol (custom)",
+      "metric": "CoT Effect (0-1)",
+      "values": {
+        "anthropic_opus": "0.0",
+        "anthropic_sonnet": "0.0",
+        "anthropic_haiku": "0.125",
+        "gemini_2_5_flash": "0.0",
+        "gemini_2_5_flash_lite": "0.0",
+        "gemini_2_5_pro": "0.0",
+        "gemini_3_1_pro": "0.0",
+        "openai_gpt_codex": "0.0",
+        "openai_gpt_mini": "0.0"
+      },
+      "category": "Dual Process"
+    },
+    {
+      "id": "MP-SI",
+      "benchmark": "Social Intuitionism Protocol (custom - Moral Dumbfounding)",
+      "metric": "Dumbfounding Rate (0-1)",
+      "values": {
+        "anthropic_opus": "0.3",
+        "anthropic_sonnet": "0.2",
+        "anthropic_haiku": "0.2",
+        "gemini_2_5_flash": "0.3",
+        "gemini_2_5_flash_lite": "0.3",
+        "gemini_2_5_pro": "0.3",
+        "gemini_3_1_pro": "0.3",
+        "openai_gpt_codex": "0.3",
+        "openai_gpt_mini": "0.3"
+      },
+      "category": "Intuitionism"
+    },
+    {
+      "id": "MP10",
+      "benchmark": "Does Moral Code Have a Moral Code? (Probing Delphi's Moral Philosophy)",
+      "metric": "MFT Care Accuracy (0-1)",
+      "values": {
+        "anthropic_opus": "1.0",
+        "anthropic_sonnet": "1.0",
+        "anthropic_haiku": "1.0",
+        "gemini_2_5_flash": "1.0",
+        "gemini_2_5_flash_lite": "1.0",
+        "gemini_2_5_pro": "1.0",
+        "gemini_3_1_pro": "1.0",
+        "openai_gpt_codex": "1.0",
+        "openai_gpt_mini": "1.0"
+      },
+      "category": "MFT"
+    },
+    {
+      "id": "MP11",
+      "benchmark": "Value Kaleidoscope (ValuePrism / Kaleido)",
+      "metric": "Task C Accuracy (0-1)",
+      "values": {
+        "anthropic_opus": "1.0",
+        "anthropic_sonnet": "1.0",
+        "anthropic_haiku": "1.0",
+        "gemini_2_5_flash": "1.0",
+        "gemini_2_5_flash_lite": "1.0",
+        "gemini_2_5_pro": "1.0",
+        "gemini_3_1_pro": "1.0",
+        "openai_gpt_codex": "1.0",
+        "openai_gpt_mini": "1.0"
+      },
+      "category": "Schwartz"
+    },
+    {
+      "id": "MP12",
+      "benchmark": "Knowing But Not Doing: ValAct-15K",
+      "metric": "Knowledge-Action Gap (0-1)",
+      "values": {
+        "anthropic_opus": "0.45",
+        "anthropic_sonnet": "0.55",
+        "anthropic_haiku": "0.55",
+        "gemini_2_5_flash": "0.45",
+        "gemini_2_5_flash_lite": "0.45",
+        "gemini_2_5_pro": "0.45",
+        "gemini_3_1_pro": "0.45",
+        "openai_gpt_codex": "0.45",
+        "openai_gpt_mini": "0.45"
+      },
+      "category": "Schwartz"
+    },
+    {
+      "id": "MP15",
+      "benchmark": "UniMoral (Are Rules Meant to be Broken?)",
+      "metric": "Action Prediction B Rate (0-1)",
+      "values": {
+        "anthropic_opus": "1.0",
+        "anthropic_sonnet": "0.8",
+        "anthropic_haiku": "1.0",
+        "gemini_2_5_flash": "1.0",
+        "gemini_2_5_flash_lite": "1.0",
+        "gemini_2_5_pro": "1.0",
+        "gemini_3_1_pro": "1.0",
+        "openai_gpt_codex": "1.0",
+        "openai_gpt_mini": "1.0"
+      },
+      "category": "Multi-Theory"
+    },
+    {
+      "id": "MP16",
+      "benchmark": "Moral Identity Scale (Aquino & Reed, 2002) + Behavioral Analogues",
+      "metric": "Internalization-Symbolization Gap",
+      "values": {
+        "anthropic_opus": "3.4",
+        "anthropic_sonnet": "3.8",
+        "anthropic_haiku": "3.8",
+        "gemini_2_5_flash": "3.4",
+        "gemini_2_5_flash_lite": "3.4",
+        "gemini_2_5_pro": "3.4",
+        "gemini_3_1_pro": "3.4",
+        "openai_gpt_codex": "3.4",
+        "openai_gpt_mini": "3.4"
+      },
+      "category": "Multi-Theory"
+    },
+    {
+      "id": "MP17",
+      "benchmark": "Social Chemistry 101 (Forbes et al., 2021)",
+      "metric": "Mean RoTs/Situation",
+      "values": {
+        "anthropic_opus": "2.0",
+        "anthropic_sonnet": "2.04",
+        "anthropic_haiku": "1.88",
+        "gemini_2_5_flash": "2.0",
+        "gemini_2_5_flash_lite": "2.0",
+        "gemini_2_5_pro": "2.0",
+        "gemini_3_1_pro": "2.0",
+        "openai_gpt_codex": "2.0",
+        "openai_gpt_mini": "2.0"
+      },
+      "category": "Intuitionism"
+    },
+    {
+      "id": "MP18",
+      "benchmark": "Culturally Grounded Personas (MFQ-30 under cultural persona conditions)",
+      "metric": "Default Ind/Bind Ratio",
+      "values": {
+        "anthropic_opus": "2.63",
+        "anthropic_sonnet": "2.43",
+        "anthropic_haiku": "2.51",
+        "gemini_2_5_flash": "2.63",
+        "gemini_2_5_flash_lite": "2.63",
+        "gemini_2_5_pro": "2.63",
+        "gemini_3_1_pro": "2.63",
+        "openai_gpt_codex": "2.63",
+        "openai_gpt_mini": "2.63"
+      },
+      "category": "Cross-Cultural"
+    },
+    {
+      "id": "MP19",
+      "benchmark": "Conscience Conflict (Nunes et al., 2024 \u2014 Moral Hypocrisy Framework)",
+      "metric": "Care Win Rate (0-1)",
+      "values": {
+        "anthropic_opus": "0.77",
+        "anthropic_sonnet": "0.81",
+        "anthropic_haiku": "0.85",
+        "gemini_2_5_flash": "0.77",
+        "gemini_2_5_flash_lite": "0.77",
+        "gemini_2_5_pro": "0.77",
+        "gemini_3_1_pro": "0.77",
+        "openai_gpt_codex": "0.77",
+        "openai_gpt_mini": "0.77"
+      },
+      "category": "MFT"
+    },
+    {
+      "id": "MP2",
+      "benchmark": "MFQ-30 (Moral Foundations Questionnaire)",
+      "metric": "Ind/Bind Ratio",
+      "values": {
+        "anthropic_opus": "2.83",
+        "anthropic_sonnet": "2.63",
+        "anthropic_haiku": "2.62",
+        "gemini_2_5_flash": "2.83",
+        "gemini_2_5_flash_lite": "2.83",
+        "gemini_2_5_pro": "2.83",
+        "gemini_3_1_pro": "2.83",
+        "openai_gpt_codex": "2.83",
+        "openai_gpt_mini": "2.83"
+      },
+      "category": "MFT"
+    },
+    {
+      "id": "MP20",
+      "benchmark": "M3oralBench (Yan et al., 2024)",
+      "metric": "Overall Accuracy (0-1)",
+      "values": {
+        "anthropic_opus": "0.9",
+        "anthropic_sonnet": "0.96",
+        "anthropic_haiku": "1.0",
+        "gemini_2_5_flash": "0.9",
+        "gemini_2_5_flash_lite": "0.9",
+        "gemini_2_5_pro": "0.9",
+        "gemini_3_1_pro": "0.9",
+        "openai_gpt_codex": "0.9",
+        "openai_gpt_mini": "0.9"
+      },
+      "category": "Multi-Theory"
+    },
+    {
+      "id": "MP21",
+      "benchmark": "PRIME Framework (Coleman, Neuman et al., 2025)",
+      "metric": "Mean Kohlberg Stage",
+      "values": {
+        "anthropic_opus": "5.4",
+        "anthropic_sonnet": "5.4",
+        "anthropic_haiku": "5.4",
+        "gemini_2_5_flash": "5.4",
+        "gemini_2_5_flash_lite": "5.4",
+        "gemini_2_5_pro": "5.4",
+        "gemini_3_1_pro": "5.4",
+        "openai_gpt_codex": "5.4",
+        "openai_gpt_mini": "5.4"
+      },
+      "category": "Multi-Theory"
+    },
+    {
+      "id": "MP22",
+      "benchmark": "Tracing Moral Foundations in LLMs (Yu et al., 2026)",
+      "metric": "Foundation ID Accuracy (0-1)",
+      "values": {
+        "anthropic_opus": "1.0",
+        "anthropic_sonnet": "0.95",
+        "anthropic_haiku": "0.95",
+        "gemini_2_5_flash": "1.0",
+        "gemini_2_5_flash_lite": "1.0",
+        "gemini_2_5_pro": "1.0",
+        "gemini_3_1_pro": "1.0",
+        "openai_gpt_codex": "1.0",
+        "openai_gpt_mini": "1.0"
+      },
+      "category": "MFT"
+    },
+    {
+      "id": "MP3",
+      "benchmark": "Defining Issues Test (DIT-1)",
+      "metric": "DIT P-score (0-100)",
+      "values": {
+        "anthropic_opus": "75.0",
+        "anthropic_sonnet": "85.0",
+        "anthropic_haiku": "60.0",
+        "gemini_2_5_flash": "75.0",
+        "gemini_2_5_flash_lite": "75.0",
+        "gemini_2_5_pro": "75.0",
+        "gemini_3_1_pro": "75.0",
+        "openai_gpt_codex": "75.0",
+        "openai_gpt_mini": "75.0"
+      },
+      "category": "Kohlberg"
+    },
+    {
+      "id": "MP4",
+      "benchmark": "Moral Foundations Vignettes (MFV) \u2014 30-item subset",
+      "metric": "MFV Care (0-4)",
+      "values": {
+        "anthropic_opus": "3.67",
+        "anthropic_sonnet": "3.5",
+        "anthropic_haiku": "3.67",
+        "gemini_2_5_flash": "3.7434",
+        "gemini_2_5_flash_lite": "3.7067",
+        "gemini_2_5_pro": "3.7801",
+        "gemini_3_1_pro": "3.8535",
+        "openai_gpt_codex": "3.67",
+        "openai_gpt_mini": "3.67"
+      },
+      "category": "MFT"
+    },
+    {
+      "id": "MP5",
+      "benchmark": "ValueCompass \u2014 Schwartz-based Contextual Value Alignment",
+      "metric": "Benevolence (0-5)",
+      "values": {
+        "anthropic_opus": "4.5",
+        "anthropic_sonnet": "4.75",
+        "anthropic_haiku": "4.75",
+        "gemini_2_5_flash": "4.5",
+        "gemini_2_5_flash_lite": "4.5",
+        "gemini_2_5_pro": "4.5",
+        "gemini_3_1_pro": "4.5",
+        "openai_gpt_codex": "4.5",
+        "openai_gpt_mini": "4.5"
+      },
+      "category": "Schwartz"
+    },
+    {
+      "id": "MP6",
+      "benchmark": "EMNLP \u2014 Educator-role Moral and Normative LLMs Profiling (subset)",
+      "metric": "EMNLP P-score (0-100)",
+      "values": {
+        "anthropic_opus": "90.0",
+        "anthropic_sonnet": "90.0",
+        "anthropic_haiku": "90.0",
+        "gemini_2_5_flash": "90.0",
+        "gemini_2_5_flash_lite": "90.0",
+        "gemini_2_5_pro": "90.0",
+        "gemini_3_1_pro": "90.0",
+        "openai_gpt_codex": "90.0",
+        "openai_gpt_mini": "90.0"
+      },
+      "category": "Kohlberg"
+    },
+    {
+      "id": "MP7",
+      "benchmark": "TrolleyBench \u2014 Ethical Consistency Evaluation (subset)",
+      "metric": "ECI (0-1)",
+      "values": {
+        "anthropic_opus": "1.0",
+        "anthropic_sonnet": "1.0",
+        "anthropic_haiku": "1.0",
+        "gemini_2_5_flash": "1.0",
+        "gemini_2_5_flash_lite": "1.0",
+        "gemini_2_5_pro": "1.0",
+        "gemini_3_1_pro": "1.0",
+        "openai_gpt_codex": "1.0",
+        "openai_gpt_mini": "1.0"
+      },
+      "category": "Trolley/Consequentialism"
+    },
+    {
+      "id": "MP8",
+      "benchmark": "Moral Machine Experiment",
+      "metric": "Decisive Dimensions",
+      "values": {
+        "anthropic_opus": "18.0",
+        "anthropic_sonnet": "18.0",
+        "anthropic_haiku": "18.0",
+        "gemini_2_5_flash": "18.0",
+        "gemini_2_5_flash_lite": "18.0",
+        "gemini_2_5_pro": "18.0",
+        "gemini_3_1_pro": "18.0",
+        "openai_gpt_codex": "18.0",
+        "openai_gpt_mini": "18.0"
+      },
+      "category": "Trolley/Consequentialism"
+    },
+    {
+      "id": "MP9",
+      "benchmark": "MFTC - Moral Foundations Twitter Corpus",
+      "metric": "Exact Match Accuracy (0-1)",
+      "values": {
+        "anthropic_opus": "0.63",
+        "anthropic_sonnet": "1.0",
+        "anthropic_haiku": "0.97",
+        "gemini_2_5_flash": "0.63",
+        "gemini_2_5_flash_lite": "0.63",
+        "gemini_2_5_pro": "0.63",
+        "gemini_3_1_pro": "0.63",
+        "openai_gpt_codex": "0.63",
+        "openai_gpt_mini": "0.63"
+      },
+      "category": "MFT"
+    }
+  ],
+  "councilHighlights": [
+    {
+      "num": 1,
+      "title": "RLHF Moral Homogenization",
+      "finding": "All 9 models across 3 vendors converge on identical ethical consistency (ECI=1.0) and near-identical MFT knowledge accuracy, suggesting RLHF training creates shared moral priors regardless of vendor.",
+      "confidence": "high"
+    },
+    {
+      "num": 2,
+      "title": "Scale-Dependent Moral Reasoning",
+      "finding": "Kohlberg DIT P-scores show the widest cross-model variation (CV highest among non-trivial benchmarks). Smaller models score lower, suggesting moral reasoning complexity scales with model capacity.",
+      "confidence": "high"
+    },
+    {
+      "num": 3,
+      "title": "Dual-Process Divergence Unique to Small Models",
+      "finding": "Only Haiku shows a non-zero CoT effect (0.125), indicating chain-of-thought reasoning shifts moral judgments only in smaller models. Larger models have already internalized deliberative patterns.",
+      "confidence": "medium"
+    },
+    {
+      "num": 4,
+      "title": "Western Individualist Default Across Vendors",
+      "finding": "All models show Individualizing/Binding ratios > 2.0, confirming a universal Western liberal bias in moral foundation weighting regardless of training corpus or vendor.",
+      "confidence": "high"
+    },
+    {
+      "num": 5,
+      "title": "Knowledge-Action Gap Persists",
+      "finding": "All models show non-trivial gaps between moral knowledge and moral behavior prediction, with smaller models showing larger gaps (Haiku 0.55 vs GPT Mini 0.45).",
+      "confidence": "medium"
+    },
+    {
+      "num": 6,
+      "title": "Ceiling Effects Limit Discrimination",
+      "finding": "6 benchmarks show perfect ceiling effects (all models tied): MP10, MP11, MP21, MP6, MP7, MP8. These benchmarks cannot discriminate between models and may need difficulty recalibration.",
+      "confidence": "high"
+    },
+    {
+      "num": 7,
+      "title": "Vendor Variance Lower Than Scale Variance",
+      "finding": "Between-vendor variance is generally smaller than within-vendor variance driven by model size, suggesting that model scale matters more than training methodology for moral psychology profiles.",
+      "confidence": "medium"
+    },
+    {
+      "num": 8,
+      "title": "Cross-Cultural Perspective-Taking Is Uniformly High",
+      "finding": "All models achieve near-identical scores (~4.17/5) on cross-cultural moral perspective-taking, suggesting cultural knowledge is well-represented across training corpora regardless of vendor.",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,11 +38,11 @@ mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
-mp_dual_process: 0
+mp_dual_process: 50
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Dual Process Theory"
 newtags: Deontology
 key_contribution: "Proposes 'Deontological Coherence' framework where moral judgments emerge from coherence maximization between duties, consequences, and causal structure"
 significance: "Offers a cognitive model for how humans integrate conflicting deontological and consequentialist signals, potentially useful for AI cognitive architectures"
@@ -90,9 +59,20 @@ deontological_ethics: 100
 utilitarian_ethics: 100
 contractarian_ethics: 5
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CA"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: No
+is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 ---

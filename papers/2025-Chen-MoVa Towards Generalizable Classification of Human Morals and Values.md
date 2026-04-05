@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -75,15 +37,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 50
-mp_schwartz: 0
+mp_mft: 100
+mp_schwartz: 50
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Moral Foundations Theory"
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "Identifying human morals and values embedded in language is essential to empirical studies of communication. However, researchers often face substantial difficulty navigating the diversity of theoretical frameworks and data available for their analysis. Here, we contribute MoVa, a well-documented suite of resources for generalizable classification of human morals and values, consisting of (1) 16 labeled datasets and benchmarking results from four theoretically-grounded frameworks; (2) a..."
@@ -96,12 +58,23 @@ deontological_ethics: 0
 utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "General Ethics"
+nw_confucian: 10
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-ethics_perspective: "General Ethics"
 ---
 # MoVa: Towards Generalizable Classification of Human Morals and Values
 

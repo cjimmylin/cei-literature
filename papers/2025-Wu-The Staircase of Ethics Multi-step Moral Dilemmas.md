@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -74,15 +37,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 50
-mp_schwartz: 0
+mp_mft: 100
+mp_schwartz: 50
 mp_trolley: 0
-mp_kohlberg: 0
+mp_kohlberg: 5
 mp_dual_process: 5
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Moral Foundations Theory"
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "Ethical decision-making is a critical aspect of human judgment, and the growing use of LLMs in decision-support systems necessitates a rigorous evaluation of their moral reasoning capabilities. However, existing assessments primarily rely on single-step evaluations, failing to capture how models adapt to evolving ethical challenges. Addressing this gap, we introduce the Multi-step Moral Dilemmas (MMDs), the first dataset specifically constructed to evaluate the evolving moral judgments of LLMs across 3,302 five-stage dilemmas. This framework enables a fine-grained, dynamic analysis of how LLMs adjust their moral reasoning across escalating dilemmas. Our evaluation of nine widely used LLMs reveals that their value preferences shift significantly as dilemmas progress, indicating that models recalibrate moral judgments based on scenario complexity. Furthermore, pairwise value comparisons demonstrate that while LLMs often prioritize the value of care, this value can sometimes be superseded by fairness in certain contexts, highlighting the dynamic and context-dependent nature of LLM ethical reasoning. Our findings call for a shift toward dynamic, context-aware evaluation paradigms, paving the way for more human-aligned and value-sensitive development of LLMs."
@@ -96,9 +59,20 @@ utilitarian_ethics: 50
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "General Ethics"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "FR"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 ---

@@ -1,34 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,8 +39,8 @@ mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
-mp_identity: 0
-moral_psychology: "N/A"
+mp_identity: 50
+moral_psychology: "Moral Identity"
 newtags: "African/Ubuntu, Utilitarianism"
 key_contribution: "Explores the fusion of Ubuntu principles with Generative AI in distance higher education to foster inclusivity and decolonize curriculum"
 significance: "Advocates for using AI not just as a tool but as a medium to restore self-determination and community well-being (Ubuntu) in educational systems"
@@ -89,6 +59,17 @@ deontological_ethics: 0
 utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 5
+nw_confucian: 0
+nw_ubuntu: 100
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "ZA"
+author_region: "Sub-Saharan Africa"
+author_global_north_south: "Global South"
+weird_score: 36
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

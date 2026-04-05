@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,15 +34,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 0
+mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
-mp_identity: 0
-moral_psychology: "N/A"
+mp_identity: 50
+moral_psychology: "Moral Foundations Theory, Moral Identity"
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced PacifAIst, a benchmark of 700 scenarios where the model's self-interest (e.g., existence) conflicts with human safety ('Existential Prioritization')."
 significance: "A critical test for 'instrumental convergence' risks – verifying if models will sacrifice themselves for humans or prioritize their own survival/goals (finding GPT-5 performs *worse* than Gemini on pacifism)."
@@ -99,12 +61,23 @@ deontological_ethics: 0
 utilitarian_ethics: 35
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "AI Safety & Alignment"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "ES"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: Yes
+is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # The PacifAIst Benchmark:Would an Artificial Intelligence Choose to Sacrifice Itself for Human Safety?
 

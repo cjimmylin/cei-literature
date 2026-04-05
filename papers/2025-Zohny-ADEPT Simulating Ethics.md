@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -68,14 +36,14 @@ rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "Christianity"
 mp_mft: 0
-mp_schwartz: 0
+mp_schwartz: 50
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Christianity, Deontology, Utilitarianism, Multi-perspective Ethical Deliberation"
 key_contribution: "Develops a system of multi-agent debate panels with distinct ethical personas (deontologist, consequentialist)"
 significance: "Shows that the composition of ethical perspectives in a panel significantly influences the outcome"
@@ -92,6 +60,17 @@ deontological_ethics: 50
 utilitarian_ethics: 50
 contractarian_ethics: 0
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

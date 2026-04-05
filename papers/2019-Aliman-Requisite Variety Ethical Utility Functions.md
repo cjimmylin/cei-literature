@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -71,7 +40,7 @@ mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
-mp_dyadic: 50
+mp_dyadic: 95
 mp_identity: 0
 moral_psychology: "Dyadic Morality"
 newtags: "Utilitarianism, Utility Functions, Value Alignment"
@@ -92,12 +61,23 @@ deontological_ethics: 0
 utilitarian_ethics: 70
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "AI Safety & Alignment"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "NL"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Requisite Variety Ethical Utility Functions
 

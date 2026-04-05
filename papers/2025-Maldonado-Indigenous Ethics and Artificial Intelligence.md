@@ -33,6 +33,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -93,6 +94,17 @@ utilitarian_ethics: 50
 contractarian_ethics: 0
 care_ethics: 10
 ethics_perspective: "Social & Cultural Values"
+nw_confucian: 5
+nw_ubuntu: 5
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 100
+nw_buen_vivir: 90
+author_country: "ES"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

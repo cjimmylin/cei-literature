@@ -37,6 +37,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -98,12 +99,24 @@ deontological_ethics: 0
 utilitarian_ethics: 15
 contractarian_ethics: 0
 care_ethics: 0
+normative_ethics_benchmark: "Yes"
+ethics_perspective: "Applied Ethics"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "FR"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "Not specified"
-ethics_perspective: "Applied Ethics"
 ---
 # MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics Evaluation of LLMs
 

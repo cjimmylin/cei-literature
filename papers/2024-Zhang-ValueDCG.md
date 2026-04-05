@@ -1,38 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -66,15 +32,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 0
-mp_schwartz: 0
+mp_mft: 50
+mp_schwartz: 50
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Developed ValueDCG, a metric to distinguish between an LLM's 'know what' (superficial knowledge) and 'know why' (deep understanding) of human values."
 significance: "Shows that while larger models improve at 'knowing what', their ability to 'understand why' often stagnates or declines, suggesting they may act as 'stochastic parrots' of values without true alignment."
@@ -95,6 +61,17 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CN"
+author_region: "East Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 36
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"

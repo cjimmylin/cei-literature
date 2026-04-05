@@ -87,6 +87,17 @@ significance: "Offers a blueprint for comprehensive safety evaluation in frontie
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.md"
 paper_summary: "Overview: 2024-4-23 Holistic Safety and Responsibility Evaluations of Advanced AI Models Laura Weidingera,1, Joslyn Barnharta,1, Jenny Brennana,1, Christina Butterfield1, Susie Young1, Will Hawkins1, Lisa Anne  | Key Findings: must dynamically adapt to AI system capability, application contexts and governance needs. However, evaluations also shape these environments: evaluat | Conclusions: 10 2 --- Page 3 --- Holistic Safety and Responsibility Evaluations of Advanced AI Models Introduction Generative artificial intelligence (AI) systems"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf]]"
 abstract: "Safety and responsibility evaluations of advanced AI models are a critical but developing field of research and practice. In the development of Google DeepMind's advanced AI models, we innovated on and applied a broad set of approaches to safety evaluation. In this report, we summarise and share elements of our evolving approach as well as lessons learned for a broad audience. Key lessons learned include: First, theoretical underpinnings and frameworks are invaluable to organise the breadth of r"
 DATE_ADDED: 20260208

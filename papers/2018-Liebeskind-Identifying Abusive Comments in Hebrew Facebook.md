@@ -30,6 +30,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -89,8 +90,19 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "FR"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
 is_benchmark: "No"
-is_eval: Yes
+is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"

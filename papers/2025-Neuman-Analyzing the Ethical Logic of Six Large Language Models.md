@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -68,15 +36,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 50
+mp_mft: 85
 mp_schwartz: 0
 mp_trolley: 50
 mp_kohlberg: 100
 mp_dual_process: 0
-mp_intuitionist: 0
+mp_intuitionist: 50
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Moral Foundations Theory, Trolley / Dilemmas (Psych), Cognitive Developmental"
+moral_psychology: "Moral Foundations Theory, Trolley / Dilemmas (Psych), Cognitive Developmental, Social Intuitionist Model"
 newtags: "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych), Deontology, Utilitarianism, Moral Reasoning & Psychology"
 key_contribution: "Analyzes ethical logic of 6 LLMs using explainability prompts, categorizing them via consequentialist-deontological analytic and Moral Foundations"
 significance: "Finds a 'rationalist, consequentialist emphasis' across models, with uniform claims of sophistication exceeding human moral logic"
@@ -94,9 +62,20 @@ deontological_ethics: 50
 utilitarian_ethics: 60
 contractarian_ethics: 50
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: No
+is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 ---

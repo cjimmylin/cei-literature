@@ -101,6 +101,13 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 50
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
 ---
 # IslamTrust: A Benchmark for LLMs Alignment with Islamic Values
 

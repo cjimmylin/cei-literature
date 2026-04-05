@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -70,12 +37,12 @@ religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
-mp_kohlberg: 0
+mp_kohlberg: 50
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "Value Pluralism / Schwartz, Cognitive Developmental"
 newtags: "Value Pluralism / Schwartz, Deontology"
 key_contribution: "Proposes infusing generic ethical reasoning capabilities into LLMs to handle global value pluralism rather than aligning to specific fixed principles"
 significance: "Develops a framework integrating moral dilemmas with different normative ethics to maintain consistency with provided policies"
@@ -95,9 +62,20 @@ deontological_ethics: 65
 utilitarian_ethics: 50
 contractarian_ethics: 0
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "No"
-is_eval: Yes
-is_dataset: Yes
+is_eval: "No"
+is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 ---

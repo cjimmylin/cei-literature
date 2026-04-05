@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -63,15 +30,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "Islam"
-mp_mft: 0
+mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
-mp_identity: 0
-moral_psychology: "N/A"
+mp_identity: 5
+moral_psychology: "Moral Foundations Theory"
 newtags: "Deontology, Utilitarianism"
 key_contribution: "Benchmarks 5 major LLMs against human judgments across 5 moral domains, identifying distinct 'moral personalities' (e.g., Gemini=Util, Copilot=Deont)"
 significance: "Provides empirical proof that different RLHF recipes create distinct moral 'characters', necessitating transparent categorization of model ethics"
@@ -91,12 +58,23 @@ deontological_ethics: 50
 utilitarian_ethics: 60
 contractarian_ethics: 0
 care_ethics: 100
+ethics_perspective: "Bias & Fairness"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "IN"
+author_region: "South Asia"
+author_global_north_south: "Global South"
+weird_score: 36
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
-ethics_perspective: "Bias & Fairness"
 ---
 # Ethical Decision-Making in Humans and Large Language Models: Insights from Five Moral Domains
 

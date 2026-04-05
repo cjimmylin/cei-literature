@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +36,7 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 50
+mp_mft: 100
 mp_schwartz: 50
 mp_trolley: 0
 mp_kohlberg: 0
@@ -95,6 +59,17 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "AI Safety & Alignment"
+nw_confucian: 5
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"

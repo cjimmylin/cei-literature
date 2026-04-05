@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -68,12 +37,12 @@ religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
-mp_kohlberg: 0
+mp_kohlberg: 50
 mp_dual_process: 0
-mp_intuitionist: 0
-mp_dyadic: 50
+mp_intuitionist: 50
+mp_dyadic: 95
 mp_identity: 0
-moral_psychology: "Dyadic Morality"
+moral_psychology: "Cognitive Developmental, Social Intuitionist Model, Dyadic Morality"
 newtags: "Moral Reasoning, Deontology, Utilitarianism, Virtue Ethics, Top-Down Ethics"
 key_contribution: "Proposes flexible top-down framework steering LLMs to perform moral reasoning with established moral theories from interdisciplinary research"
 significance: "Demonstrates effectiveness of theory-guided approach over bottom-up crowd-sourced methods; shows all models perform best with deontological framework"
@@ -94,8 +63,19 @@ deontological_ethics: 50
 utilitarian_ethics: 50
 contractarian_ethics: 10
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "HK"
+author_region: "East Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 55
 is_benchmark: "No"
-is_eval: Yes
+is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"

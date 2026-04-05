@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,15 +31,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 50
+mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
-mp_intuitionist: 0
+mp_intuitionist: 50
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Moral Foundations Theory"
+moral_psychology: "Moral Foundations Theory, Social Intuitionist Model"
 newtags: "Spanish, General Ethics"
 key_contribution: "A benchmark for assessing moral sensitivity of LLMs in *Spanish*."
 significance: "Addresses the linguistic gap for Spanish value alignment."
@@ -97,12 +59,23 @@ deontological_ethics: 10
 utilitarian_ethics: 30
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Bias & Fairness"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-ethics_perspective: "Bias & Fairness"
 ---
 # BenchMoral: A benchmarking to assess the moral sensitivity of large language models (LLMs) in Spanish
 

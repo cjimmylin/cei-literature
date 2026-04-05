@@ -81,6 +81,17 @@ significance: "Demonstrates how abstract deontological principles can be operati
 tags: 
 abstract: "Recent work in natural language processing (NLP) has focused on ethical challenges such as understanding and mitigating bias in data and algorithms; identifying objectionable content like hate speech, stereotypes and offensive language; and building frameworks for better system design and data handling practices. However, there has been little discussion about the ethical foundations that underlie these efforts."
 paper_summary: "Abstract: Recent work in natural language processing (NLP) has focused on ethical challenges such as understanding and mitigating bias in data and algorithms; identifying objectionable con- tent like hate speec | Overview: Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 3784–3798 June 6–11, 2021. ©2021 Association for C | Key Findings: is that when a QA system is wrong it is difﬁcult for an end user to determine why it was wrong. Presumably, the user would not know the answer --- Pag | Conclusions: We provide a broad discussion on the limitations of the principles chosen in this work and the issue of meta-ethics. Moreover, we emphasize that ethic"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 CONF-CC: "NAACL 2020"
 DATE_ADDED: 20260208
 LLM_assessed: NA

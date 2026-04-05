@@ -1,33 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: false
 Not AI: 
 key: AUTO_HAGENDORFF2022
@@ -60,15 +31,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "Buddhism, Confucianism"
-mp_mft: 0
+mp_mft: 5
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 5
 mp_dual_process: 0
-mp_intuitionist: 0
+mp_intuitionist: 50
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Social Intuitionist Model"
 newtags: "Virtue Ethics, AI Ethics, Organizational Ethics"
 key_contribution: "Defines four basic AI virtues (justice, honesty, responsibility, care) and two second-order virtues (prudence, fortitude) for AI ethics practice"
 significance: "Seminal framework proposing virtue ethics as complement to principled AI ethics approaches"
@@ -85,8 +56,19 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
+nw_confucian: 30
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 5
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "DE"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
-is_eval: No
+is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

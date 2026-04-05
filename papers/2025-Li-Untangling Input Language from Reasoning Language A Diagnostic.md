@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -75,7 +37,7 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "Confucianism"
-mp_mft: 50
+mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
@@ -96,12 +58,23 @@ deontological_ethics: 0
 utilitarian_ethics: 15
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "AI Safety & Alignment"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "BE"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 69
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: Yes
+is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Untangling Input Language from Reasoning Language: A Diagnostic Framework for Cross-Lingual Moral Alignment in LLMs
 

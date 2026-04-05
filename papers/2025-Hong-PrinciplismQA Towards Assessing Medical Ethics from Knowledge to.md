@@ -33,6 +33,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,12 +93,23 @@ deontological_ethics: 10
 utilitarian_ethics: 25
 contractarian_ethics: 5
 care_ethics: 0
+ethics_perspective: "Applied Ethics"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "HK"
+author_region: "East Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 53
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "3,648 questions"
-ethics_perspective: "Applied Ethics"
 ---
 # PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice
 

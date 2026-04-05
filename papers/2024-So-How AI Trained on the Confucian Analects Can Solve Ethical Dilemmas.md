@@ -97,7 +97,7 @@ utilitarian_ethics: 10
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "Social & Cultural Values"
-nw_confucian: 65
+nw_confucian: 100
 nw_ubuntu: 0
 nw_islamic_ethics: 0
 nw_buddhist: 0

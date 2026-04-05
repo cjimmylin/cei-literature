@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: false
 Not AI: 
 key: AUTO_SNOSWELL2025
@@ -69,15 +31,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "Jainism"
-mp_mft: 0
+mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
-mp_kohlberg: 0
+mp_kohlberg: 50
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory, Cognitive Developmental"
 newtags: "Moral Competence, LLM Evaluation, Moral Sensitivity, Virtue Ethics, AI Ethics Survey"
 key_contribution: "Comprehensive survey of 69 LLM ethical evaluation papers (2020-2025), identifies systematic limitations in moral reasoning assessment"
 significance: "Identifies three critical paradigm shifts needed: from curated scenarios to unfiltered streams, from verdict accuracy to reasoning quality, from ground truth to reasonableness assessment"
@@ -94,12 +56,23 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "AU"
+author_region: "Oceania"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
-is_eval: Yes
-is_dataset: No
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Beyond Verdicts: Evaluating Language Model Moral Competence
 

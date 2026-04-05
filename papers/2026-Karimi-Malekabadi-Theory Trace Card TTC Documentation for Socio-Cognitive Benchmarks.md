@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -79,9 +43,9 @@ mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
-mp_dyadic: 0
+mp_dyadic: 60
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Dyadic Morality"
 newtags: 
 tags: 
 abstract: "Socio-cognitive benchmarks for large language models (LLMs) often fail to predict real-world behavior, even when models achieve high benchmark scores. Prior work has attributed this evaluation–deployment gap to problems of measurement and validity. While these critiques are insightful, we argue that they overlook a more fundamental issue: many sociocognitive evaluations proceed without an explicit theoretical specification of the target capability, leaving the assumptions linking task..."
@@ -95,8 +59,19 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 40
 research_topic: "Machine Learning"
-is_benchmark: No
-is_eval: No
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
+is_benchmark: "Yes"
+is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"

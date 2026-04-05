@@ -34,6 +34,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -93,9 +94,20 @@ utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 0
 research_topic: "Computer Vision & Multimodal"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "TW"
+author_region: "East Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 63
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: Yes
+is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
 ---

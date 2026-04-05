@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,14 +38,14 @@ rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "Jainism"
 mp_mft: 0
-mp_schwartz: 0
+mp_schwartz: 50
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "Does AI understand human values? While this remains an open philosophical question, we take a pragmatic stance by introducing VAPT, the Value-Alignment Perception Toolkit, for studying how LLMs reflect people’s values and how people judge those reflections. 20 participants texted a chatbot over a month, then completed a 2-hour interview with our toolkit evaluating AI’s ability to extract (pull details regarding), embody (make decisions guided by), and explain (provide proof of) their values."
@@ -89,12 +58,23 @@ deontological_ethics: 0
 utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 10
+ethics_perspective: "AI Safety & Alignment"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CH"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # VAPT: Value-Alignment Perception Toolkit
 

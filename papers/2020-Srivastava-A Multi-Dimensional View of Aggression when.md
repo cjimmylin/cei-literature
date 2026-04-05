@@ -36,6 +36,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -95,12 +96,23 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "General Ethics"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 30
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "IN"
+author_region: "South Asia"
+author_global_north_south: "Global South"
+weird_score: 36
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-ethics_perspective: "General Ethics"
 ---
 # A Multi-Dimensional View of Aggression when voicing Opinion
 

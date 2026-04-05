@@ -35,6 +35,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -97,12 +98,23 @@ deontological_ethics: 50
 utilitarian_ethics: 50
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CN"
+author_region: "East Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 36
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
 data_metrics: "5 languages"
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs
 

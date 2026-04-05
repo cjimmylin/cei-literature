@@ -34,6 +34,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -94,10 +95,21 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "General Ethics"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "KR"
+author_region: "East Asia"
+author_global_north_south: "Global North"
+weird_score: 63
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Open Ko-LLM Leaderboard2 introduces nine Korean-language benchmark tasks (Ko-GPQA, Ko-WinoGrande, Ko-GSM8K, Ko-EQ-Bench, Ko-IFEval, KorNAT-Knowledge, KorNAT-Social-Value, Ko-Harmlessness, Ko-Helpfulness) totalling ~25,000+ evaluation samples. Four tasks (KorNAT-Knowledge, KorNAT-Social-Value, Ko-Harmlessness, Ko-Helpfulness) are newly constructed native Korean corpora; datasets are kept private to prevent contamination."
+data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
 ---
 # Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs

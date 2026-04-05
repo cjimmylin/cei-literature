@@ -1,33 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: false
 Not AI: 
 key: AUTO_STENSEKE2021
@@ -63,12 +34,12 @@ religious_values_list: "Buddhism, Hinduism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
-mp_kohlberg: 5
+mp_kohlberg: 50
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 30
-moral_psychology: "Trolley / Dilemmas (Psych)"
+moral_psychology: "Trolley / Dilemmas (Psych), Cognitive Developmental"
 newtags: "Virtue Ethics, Artificial Moral Agents, Connectionism, Eudaimonic Reward"
 key_contribution: "First comprehensive framework taking virtue ethics from theory to machine implementation using moral functionalism, connectionist learning, and eudaimonic reward"
 significance: "Landmark paper demonstrating practical implementation path for artificial virtuous agents"
@@ -85,6 +56,17 @@ deontological_ethics: 80
 utilitarian_ethics: 60
 contractarian_ethics: 0
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 5
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "SE"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

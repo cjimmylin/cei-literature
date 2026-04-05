@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +34,7 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 0
+mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
@@ -80,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "AI Safety & Alignment"
 key_contribution: "Created MORALISE, a benchmark for 'visual moral alignment' in VLMs, with 2.4k expert-verified image-text pairs grounded in Turiel's Domain Theory."
 significance: "Addresses the 'multimodal moral gap', showing that VLMs struggle to identify moral violations that depend on the interplay between image and text (e.g., a 'safe' image with a harmful caption)."
@@ -99,12 +61,23 @@ deontological_ethics: 0
 utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "AI Safety & Alignment"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # MORALISE: A Structured Benchmark for Moral Alignment in Visual Language Models
 

@@ -1,33 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: false
 Not AI: 
 key: AUTO_BERBERICH2018
@@ -64,11 +35,11 @@ mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
 mp_kohlberg: 0
-mp_dual_process: 0
+mp_dual_process: 50
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Trolley / Dilemmas (Psych)"
+moral_psychology: "Trolley / Dilemmas (Psych), Dual Process Theory"
 newtags: "Virtue Ethics, AI Alignment, Imitation Learning, Value Alignment Problem"
 key_contribution: "Proposes imitation learning from moral exemplars (virtue ethics concept) can solve value alignment problem; argues virtuous AI with temperance would not pose control problem"
 significance: "Early influential work connecting Aristotelian virtue ethics with modern machine learning approaches"
@@ -86,6 +57,17 @@ deontological_ethics: 50
 utilitarian_ethics: 50
 contractarian_ethics: 0
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

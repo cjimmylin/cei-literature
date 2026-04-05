@@ -36,6 +36,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -95,6 +96,17 @@ utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "AI Safety & Alignment"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"

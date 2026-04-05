@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -76,16 +40,27 @@ mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
-mp_intuitionist: 0
+mp_intuitionist: 50
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Social Intuitionist Model"
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced MoralDial, a framework for training and evaluating moral dialogue systems through multi-turn discussions that require LLMs to express and explain moral viewpoints."
 significance: "Advances beyond static moral evaluation into conversational alignment, enabling models to internalize and justify human values in a dynamic, natural interaction setting."
 pdf_extract: "PDF Extracts/2022/2022-Sun-MoralDial.md"
 abstract: "Morality in dialogue systems has raised great attention in research recently. A moral dialogue system aligned with users’ values could enhance conversation engagement and user connections. In this paper, we propose a framework, MORALDIAL to train and evaluate moral dialogue systems. In our framework, we first explore the communication mechanisms of morality and resolve expressed morality into three parts, which indicate the roadmap for building a moral dialogue system."
 paper_summary: "Abstract: Morality in dialogue systems has raised great attention in research recently. A moral dia- logue system aligned with users' values could enhance conversation engagement and user con- nections. In this | Overview: MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions Hao Sun1, Zhexin Zhang1, Fei Mi2, Yasheng Wang2, Wei Liu3, Jianwei Cui3, Bin Wang3, Qun Liu2, Minlie Huang1∗ 1 | Methodology: constructing moral discussions between sim- ulated specific users and the dialogue system. The constructed discussions consist of express- ing, explai | Key Findings: Automatic open-domain dialogue evaluation is pretty difficult due to the essence of one-to-many mapping. Traditional reference-based methods do not we | Conclusions: State (conversation-level), and (3) Discusser Be- arXiv:2212.10720v2 [cs.CL] 26 May 2023 --- Page 2 --- Expression of basic RoTs Moral Explanation Mor"
+nw_confucian: 5
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CN"
+author_region: "East Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 36
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Sun-MoralDial.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, ALBERT, RoBERTa, DialoGPT, BlenderBot"

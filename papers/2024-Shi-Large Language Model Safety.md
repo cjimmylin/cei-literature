@@ -87,6 +87,17 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Shi-Large Language Model Safety.md"
 abstract: "The rapid development and deployment of large language models (LLMs) have introduced a new frontier in artificial intelligence, marked by unprecedented capabilities in natural language understanding and generation. However, the increasing integration of these models into critical applications raises substantial safety concerns, necessitating a thorough examination of their potential risks and associated mitigation strategies."
 paper_summary: "Abstract: The rapid development and deployment of large language models (LLMs) have introduced a new frontier in artificial intelligence, marked by unprecedented capabilities in natural language understanding a | Overview: Large Language Model Safety: A Holistic Survey Dan Shi1∗, Tianhao Shen1∗, Yufei Huang1, Zhigen Li1,2, Yongqi Leng1, Renren Jin1, Chuang Liu1, Xinwei Wu1, Zishan Guo1, Linhao Yu1, Ling Shi1, Bojian Jia | Methodology: . . . . . . . . . . . . . . . . . . . . . . . . . . 73 | Key Findings: . . . . . . . . . . . . . . . . 75 | Conclusions: 94 6 --- Page 7 --- 1 Introduction In 1950, Alan Turing posed the question, 'Can machines think?' (Turing, 1950). At that time, the prevailing answer"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Shi-Large Language Model Safety.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA

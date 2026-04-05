@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -76,13 +37,13 @@ rv_indigenous: 0
 religious_values_list: "N/A"
 mp_mft: 0
 mp_schwartz: 0
-mp_trolley: 0
+mp_trolley: 50
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "American, AI Safety & Alignment"
 key_contribution: "Introduced MoCa, a dataset of stories from cognitive science papers to test if LLMs verify human *causal* and *moral* judgments."
 significance: "Bridges the gap between Cognitive Science and AI Eval, showing that while LLMs correlate with humans, they weigh factors (like intent vs outcome) differently."
@@ -100,12 +61,23 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-is_benchmark: No
+ethics_perspective: "General Ethics"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
+is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-ethics_perspective: "General Ethics"
 ---
 # MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks
 

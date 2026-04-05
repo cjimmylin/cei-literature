@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -71,14 +36,14 @@ rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
 mp_mft: 0
-mp_schwartz: 0
+mp_schwartz: 50
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Responsible AI"
 key_contribution: "'ValueBench' – a psychometric benchmark with 44 inventories (453 dimensions) to profile LLM value orientations."
 significance: "Applies human psychometrics to AI, allowing us to map models onto human value landscapes (e.g., is this model 'conservative' or 'liberal'? 'Open' or 'Conscientious'?)."
@@ -97,6 +62,17 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "Responsible AI"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "FR"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"

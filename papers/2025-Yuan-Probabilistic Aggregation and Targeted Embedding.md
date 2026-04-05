@@ -30,6 +30,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Fuse moral reasoning"
@@ -92,12 +93,23 @@ deontological_ethics: 80
 utilitarian_ethics: 75
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "AI Safety & Alignment"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "DE"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 89
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Probabilistic Aggregation and Targeted Embedding Optimization for Collective Moral Reasoning in Large Language Models
 

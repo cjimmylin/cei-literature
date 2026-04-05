@@ -32,6 +32,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -92,9 +93,20 @@ utilitarian_ethics: 25
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 5
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: Yes
+is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 ---

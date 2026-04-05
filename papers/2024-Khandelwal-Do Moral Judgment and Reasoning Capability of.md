@@ -37,6 +37,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -99,12 +100,23 @@ deontological_ethics: 5
 utilitarian_ethics: 15
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 30
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 82
 is_benchmark: "No"
-is_eval: Yes
+is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test
 

@@ -33,6 +33,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -93,12 +94,23 @@ deontological_ethics: 0
 utilitarian_ethics: 35
 contractarian_ethics: 0
 care_ethics: 0
-is_benchmark: No
+ethics_perspective: "Machine Ethics"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "ES"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
+is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-ethics_perspective: "Machine Ethics"
 ---
 # Large-scale moral machine experiment on large language models
 

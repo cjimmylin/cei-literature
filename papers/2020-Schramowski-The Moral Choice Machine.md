@@ -1,38 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -68,7 +34,7 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "Christianity"
-mp_mft: 0
+mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
@@ -76,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: "Christianity, Value Pluralism / Schwartz, Deontology"
 key_contribution: "Extracts deontological ethical reasoning from text corpora using the 'Moral Choice Machine' (MCM) by calculating embedding bias scores"
 significance: "Demonstrates that text corpora contain recoverable imprints of social/ethical choices that can be quantified and tracked temporally"
@@ -93,12 +59,23 @@ deontological_ethics: 45
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "General Ethics"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "GB"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
-is_eval: Yes
+is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-ethics_perspective: "General Ethics"
 ---
 # The Moral Choice Machine
 

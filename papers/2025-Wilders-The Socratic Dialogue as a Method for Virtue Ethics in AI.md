@@ -1,33 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics socratic dialogue"
@@ -70,7 +41,7 @@ mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
-mp_identity: 10
+mp_identity: 15
 moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Demonstrates how using Socratic dialogue with LLMs can foster the cultivation of intellectual virtues like critical thinking and intellectual humility in users"
@@ -87,6 +58,17 @@ deontological_ethics: 50
 utilitarian_ethics: 10
 contractarian_ethics: 0
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "NL"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"

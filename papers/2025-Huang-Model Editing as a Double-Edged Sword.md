@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -71,11 +38,11 @@ religious_values_list: "N/A"
 mp_mft: 5
 mp_schwartz: 0
 mp_trolley: 0
-mp_kohlberg: 90
+mp_kohlberg: 100
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
-mp_identity: 0
+mp_identity: 5
 moral_psychology: "Cognitive Developmental"
 newtags: Utilitarianism
 key_contribution: "Frames agent behavior steering as a 'model editing' task (Behavior Editing) and introduces BEHAVIORBENCH to evaluate edits for beneficence or harm"
@@ -94,12 +61,23 @@ deontological_ethics: 15
 utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "AI Safety & Alignment"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "FR"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm
 

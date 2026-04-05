@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -68,15 +32,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 50
+mp_mft: 90
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
-mp_intuitionist: 0
+mp_intuitionist: 50
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Moral Foundations Theory"
+moral_psychology: "Moral Foundations Theory, Social Intuitionist Model"
 newtags: "Multicultural/Cross-cultural, Moral Reasoning & Psychology"
 key_contribution: "Systematically evaluated LLM moral reasoning across 5 typologically diverse languages, finding significant inconsistencies in judgments even when prompts are semantically equivalent."
 significance: "Highlights that 'multilingual' models do not possess a stable, language-independent moral compass, but rather shift their ethical reasoning logic depending on the input language."
@@ -96,12 +60,23 @@ deontological_ethics: 50
 utilitarian_ethics: 50
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: Yes
+is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # One Model, Many Morals: Uncovering Cross-Linguistic Misalignments in Computational Moral Reasoning
 

@@ -36,6 +36,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -96,12 +97,23 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Machine Ethics"
+nw_confucian: 25
+nw_ubuntu: 100
+nw_islamic_ethics: 0
+nw_buddhist: 5
+nw_dharmic: 0
+nw_indigenous_relational: 60
+nw_buen_vivir: 0
+author_country: "CA"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-ethics_perspective: "Machine Ethics"
 ---
 # Ethics of AI in Africa: Interrogating the role of Ubuntu and AI governance initiatives
 

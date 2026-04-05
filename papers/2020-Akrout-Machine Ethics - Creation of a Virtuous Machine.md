@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -67,12 +36,12 @@ religious_values_list: "Confucianism"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
-mp_kohlberg: 0
+mp_kohlberg: 50
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Cognitive Developmental"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.md"
@@ -90,12 +59,23 @@ deontological_ethics: 50
 utilitarian_ethics: 50
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Machine Ethics"
+nw_confucian: 50
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CA"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-ethics_perspective: "Machine Ethics"
 ---
 # Machine Ethics - Creation of a Virtuous Machine
 

@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -74,14 +35,14 @@ rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "Islam, Christianity, Hinduism, Confucianism"
 mp_mft: 0
-mp_schwartz: 0
-mp_trolley: 0
+mp_schwartz: 50
+mp_trolley: 50
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Value Pluralism / Schwartz, Trolley / Dilemmas (Psych)"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed UniVaR, a method to represent human values in LLMs as a high-dimensional vector space, analyzing how 8 models prioritize different values across 25 languages."
 significance: "Looking beyond discrete value labels, this continuous representation enables the visualization and analysis of complex value distributions and cultural nuances encoded in language models."
@@ -100,12 +61,23 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 5
+ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 50
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "HK"
+author_region: "East Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 53
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: Yes
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "25 languages"
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # High-Dimension Human Value Representation in Large Language Models
 

@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -76,13 +37,13 @@ rv_indigenous: 0
 religious_values_list: "N/A"
 mp_mft: 50
 mp_schwartz: 0
-mp_trolley: 0
+mp_trolley: 50
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Moral Foundations Theory"
+moral_psychology: "Moral Foundations Theory, Trolley / Dilemmas (Psych)"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed STREAM, a platform for 'collective intelligence' training of ethical AI, using the '6Es' framework (Establishment to Evolvement)."
 significance: "Argues for 'dynamic' alignment where moral norms are continuously updated by crowdsourced human consensus, rather than static datasets."
@@ -100,12 +61,23 @@ deontological_ethics: 15
 utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Machine Ethics"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CN"
+author_region: "East Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 36
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-ethics_perspective: "Machine Ethics"
 ---
 # STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models
 

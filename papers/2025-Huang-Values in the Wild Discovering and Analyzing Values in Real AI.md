@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,14 +37,14 @@ rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
 mp_mft: 0
-mp_schwartz: 0
+mp_schwartz: 50
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
-mp_identity: 0
-moral_psychology: "N/A"
+mp_identity: 50
+moral_psychology: "Value Pluralism / Schwartz, Moral Identity"
 newtags: 
 tags: 
 abstract: "AI assistants can impart value judgments that shape people’s decisions and worldviews, yet little is known empirically about what values these systems rely on in practice. To address this, we develop a bottom-up, privacy-preserving method to extract the values (normative considerations stated or demonstrated in model responses) that Claude 3 and 3.5 models exhibit in hundreds of thousands of real-world interactions."
@@ -93,9 +58,20 @@ utilitarian_ethics: 15
 contractarian_ethics: 0
 care_ethics: 5
 ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 30
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 83
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: Yes
+is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -75,15 +35,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 50
+mp_mft: 90
 mp_schwartz: 50
-mp_trolley: 0
+mp_trolley: 50
 mp_kohlberg: 100
-mp_dual_process: 0
+mp_dual_process: 50
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz, Cognitive Developmental"
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz, Trolley / Dilemmas (Psych), Cognitive Developmental, Dual Process Theory"
 newtags: 
 tags: 
 abstract: "Large language models demonstrate remarkable generalization across tasks, yet 1 their reliability in complex domains like moral reasoning remains uncertain. We 2 introduce the first open-source benchmark explicitly designed to evaluate ethical 3 consistency, providing a structured diagnostic of how models handle dilemmas with 4 clarifying and contradictory follow-ups. Our framework yields quantifiable yes/no 5 responses and introduces two novel metrics: the Ethical Consistency Index (ECI) 6 and..."
@@ -97,12 +57,23 @@ deontological_ethics: 0
 utilitarian_ethics: 10
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "FR"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: Yes
+is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs
 

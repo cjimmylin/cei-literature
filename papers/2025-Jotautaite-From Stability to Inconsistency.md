@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -75,10 +36,10 @@ mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
-mp_intuitionist: 0
+mp_intuitionist: 60
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Moral Foundations Theory"
+moral_psychology: "Moral Foundations Theory, Social Intuitionist Model"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Introduced the MFD-LLM dataset grounded in Moral Foundations Theory to evaluate the consistency/stability of LLM moral preferences across varied dilemmas."
 significance: "Found that while LLMs exhibit homogeneous Western-liberal preferences, they are 'unstable' and inconsistent when answering variations of the same moral dilemma, revealing a lack of robust moral reasoning."
@@ -98,12 +59,23 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "GB"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # From Stability to Inconsistency: A Study of Moral Preferences in LLMs (MFD-LLM Dataset)
 

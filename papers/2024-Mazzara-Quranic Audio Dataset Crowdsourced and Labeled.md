@@ -35,6 +35,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -95,10 +96,21 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 research_topic: "Machine Learning"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "RU"
+author_region: "Eastern Europe & Central Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 47
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-data_description: "Crowdsourced Quranic audio dataset of ~7,000 recitations (11.5 hours) from 1,287 non-Arabic-speaking participants across 11+ countries, with 1,166 recitations annotated in six correctness categories via the Quran Voice platform. The paper references a paper webpage for dataset access but provides no direct URL."
+data_description: "Annotated dataset"
 data_metrics: "Not specified"
 ---
 # Quranic Audio Dataset: Crowdsourced and Labeled Recitation from Non-Arabic Speakers

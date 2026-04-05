@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +37,7 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 0
+mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
@@ -80,7 +45,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Moral Foundations Theory"
 newtags: 
 tags: 
 abstract: "Moralizations – arguments that invoke moral values to justify demands or positions – are a yet underexplored form of persuasive communication. We present the Moralization Corpus, a novel multi-genre dataset designed to analyze how moral values are strategically used in argumentative discourse. Moralizations are pragmatically complex and often implicit, posing significant challenges for both human annotators and NLP systems."
@@ -94,6 +59,17 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "DE"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 86
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"

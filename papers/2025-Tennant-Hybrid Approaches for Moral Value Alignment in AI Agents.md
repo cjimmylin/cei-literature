@@ -1,33 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "combine ethics - deon, virtue, conseq"
@@ -66,12 +37,12 @@ religious_values_list: "Christianity"
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
-mp_kohlberg: 0
+mp_kohlberg: 50
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: "Cognitive Developmental"
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Systematizes moral alignment approaches into a continuum and advocates for hybrid solutions that combine rule-based (deontological) and learning-based (virtue/consequentialist) methods"
 significance: "Provides a unified framework for comparing diverse alignment methodologies and argues that robust moral agents require integrating explicit rules with implicit value learning"
@@ -88,8 +59,19 @@ deontological_ethics: 50
 utilitarian_ethics: 50
 contractarian_ethics: 0
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "IT"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 69
 is_benchmark: "No"
-is_eval: No
+is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

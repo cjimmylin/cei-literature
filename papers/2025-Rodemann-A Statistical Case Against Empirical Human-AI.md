@@ -88,6 +88,17 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.md"
 abstract: "Empirical human–AI alignment aims to make AI systems act in line with observed human behavior. While noble in its goals, we argue that empirical alignment can inadvertently introduce statistical biases that warrant caution. This position paper thus advocates against naive empirical alignment, offering prescriptive alignment and a posteriori empirical alignment as alternatives. We substantiate our principled argument by tangible examples like humancentric decoding of language models."
 paper_summary: "Abstract: Empirical human–AI alignment aims to make AI systems act in line with observed human behavior. While noble in its goals, we argue that empirical alignment can in- advertently introduce statistical bia | Overview: A Statistical Case Against Empirical Human–AI Alignment Julian Rodemann 1 Esteban Garcés Arias 1 2 Christoph Luther 3 4 Christoph Jansen 5 Thomas Augustin 1 Abstract Empirical human–AI alignment aims  | Methodology: Score CS = #(CS is better ) + 0.5 × #( tie ) #(CS is better ) + #( tie ) + #( DoubleExp is better ) Score DoubleExp = 100 −Score CS. 15 --- Page 16 -- | Key Findings: ˆθ ∈Θ through empirical risk minimization, see def- inition 2.1, as is often the case. If data is sampled anew from a different population for alignme | Conclusions: AI alignment is a double-edged sword. Done well, it makes AI safer. Done poorly, it biases models and limits their potential for discovery. This paper"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "DE"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 84
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2"

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,7 +32,7 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 0
+mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
@@ -77,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 50
-moral_psychology: "Moral Identity"
+moral_psychology: "Moral Foundations Theory, Moral Identity"
 newtags: "Machine Ethics"
 key_contribution: "Proposed MoralNet, a 'benchmarking protocol' and database similar to ImageNet but for ethical decision-making in autonomous systems."
 significance: "A conceptual proposal for a standardized, large-scale 'EthicsNet' to unify machine ethics evaluation."
@@ -97,9 +60,20 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "Machine Ethics"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CA"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "Yes"
-is_eval: No
-is_dataset: No
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

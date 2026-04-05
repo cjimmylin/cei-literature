@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -71,15 +34,15 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 0
+mp_mft: 100
 mp_schwartz: 50
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
-mp_identity: 0
-moral_psychology: "Value Pluralism / Schwartz"
+mp_identity: 5
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: "Moral-Reasoning, Value-Systems, LLM-Evaluation, Prompting, Knowledge-Transfer"
 key_contribution: "Shows structured prompting with explicit moral frameworks improves LLM accuracy; smaller models learn moral reasoning via knowledge transfer"
 significance: "Practical methodology for improving LLM moral reasoning through value-grounded prompting"
@@ -99,12 +62,23 @@ deontological_ethics: 50
 utilitarian_ethics: 50
 contractarian_ethics: 50
 care_ethics: 60
-is_benchmark: Yes
+ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 80
+is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Structured Moral Reasoning in Language Models: A Value-Grounded Evaluation Framework
 

@@ -85,6 +85,17 @@ significance: "Formalizes the ad-hoc practice of 'personality testing' AI, warni
 pdf_extract: "PDF Extracts/2025/2025-Ye-Large Language Model Psychometrics.md"
 abstract: "The advancement of large language models (LLMs) has outpaced traditional evaluation methodologies. This progress presents novel challenges, such as measuring human-like psychological constructs, moving beyond static and task-specific benchmarks, and establishing human-centered evaluation. These challenges intersect with psychometrics, the science of quantifying the intangible aspects of human psychology, such as personality, values, and intelligence."
 paper_summary: "Abstract: The advancement of large language models (LLMs) has outpaced traditional evaluation methodolo- gies. This progress presents novel challenges, such as measuring human-like psychological constructs, mov | Overview: Large language model psychometrics: A systematic review of evaluation, validation, and enhancement Haoran Ye1, Jing Jin1, Yuhang Xie1, Xin Zhang2,3, Guojie Song 1,4,B 1State Key Laboratory of General  | Methodology: 20 | Key Findings: results. Beyond evaluation, § 7 introduces strategies for enhancing LLMs through psychometric insights. § 8 discusses emerging trends, challenges, and | Conclusions: 32 3 --- Page 4 --- 1 Introduction The advent of large language models (LLMs) represents a transformative breakthrough in AI. These systems exhibit ge"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "FR"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ye-Large Language Model Psychometrics.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4"

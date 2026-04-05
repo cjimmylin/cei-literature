@@ -36,6 +36,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -94,8 +95,19 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 research_topic: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "JO"
+author_region: "MENA"
+author_global_north_south: "Global South"
+weird_score: 35
+is_benchmark: "No"
+is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"

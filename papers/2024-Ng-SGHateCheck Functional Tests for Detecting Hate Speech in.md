@@ -38,6 +38,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -97,12 +98,23 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+ethics_perspective: "Toxicity & Hate Speech"
+nw_confucian: 5
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 5
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "SG"
+author_region: "Southeast Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 59
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 data_description: "N/A"
 data_metrics: "21,152 test cases"
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Resource Languages of Singapore
 

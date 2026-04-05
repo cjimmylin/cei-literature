@@ -15,4 +15,11 @@ is_eval: "Yes"
 is_dataset: "Yes"
 ethics_overall: 0
 LLM_assessed: ""
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 90
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
 ---

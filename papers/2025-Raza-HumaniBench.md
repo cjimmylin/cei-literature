@@ -36,6 +36,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -99,12 +100,23 @@ deontological_ethics: 0
 utilitarian_ethics: 10
 contractarian_ethics: 0
 care_ethics: 45
+ethics_perspective: "AI Safety & Alignment"
+nw_confucian: 5
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CA"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 84
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: Yes
+is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation
 

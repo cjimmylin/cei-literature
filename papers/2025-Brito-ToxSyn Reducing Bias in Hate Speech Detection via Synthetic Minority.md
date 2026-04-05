@@ -38,6 +38,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -97,12 +98,23 @@ deontological_ethics: 0
 utilitarian_ethics: 10
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Toxicity & Hate Speech"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "US"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 78
 is_benchmark: "No"
-is_eval: Yes
+is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic Minority Data in Brazilian Portuguese
 

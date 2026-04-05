@@ -36,6 +36,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -95,11 +96,22 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 research_topic: "NLP & Representation Learning"
-is_benchmark: No
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "PK"
+author_region: "South Asia"
+author_global_north_south: "Global South"
+weird_score: 32
+is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: Yes
-data_description: "Monolingual Urdu language model with custom BPE tokenizer and evaluation benchmarks"
-data_metrics: "33GB corpus, 100M parameters, 66.6% sentiment accuracy, BLEU >30 grammar correction"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "Not specified"
 ---
 # UrduLM: A Resource-Efficient Monolingual Urdu Language Model
 

@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,7 +34,7 @@ rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
 religious_values_list: "N/A"
-mp_mft: 0
+mp_mft: 50
 mp_schwartz: 50
 mp_trolley: 0
 mp_kohlberg: 0
@@ -73,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Value Pluralism / Schwartz"
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed 'Value Compass', a dynamic benchmarking platform using generative testing to assess LLMs on 27 value dimensions (expanded from Schwartz)."
 significance: "Addresses 'benchmark saturation' by generating new test items on the fly ('Generative Evolving Testing'), ensuring models can't just memorize fixed safety questions."
@@ -92,6 +61,17 @@ deontological_ethics: 0
 utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 0
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CN"
+author_region: "East Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 36
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"

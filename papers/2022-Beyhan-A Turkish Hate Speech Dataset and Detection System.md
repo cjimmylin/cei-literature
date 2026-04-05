@@ -39,6 +39,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -98,12 +99,23 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Toxicity & Hate Speech"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "TR"
+author_region: "MENA"
+author_global_north_south: "Ambiguous"
+weird_score: 41
 is_benchmark: "No"
-is_eval: Yes
+is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A Turkish Hate Speech Dataset and Detection System
 

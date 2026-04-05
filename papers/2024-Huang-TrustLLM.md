@@ -84,6 +84,17 @@ key_contribution: "Establishes a comprehensive benchmark (TRUSTLLM) across 8 dim
 significance: "Finds that while LLMs have basic moral understanding, they fall short in complex scenarios and proprietary models outperform open-source ones"
 abstract: "Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges, particularly in the realm of trustworthiness. Therefore, ensuring the trustworthiness of LLMs emerges as an important topic. This paper introduces TRUSTLLM, a comprehensive study of trustworthiness in LLMs, including principles for different dimensions of trustworthiness, established benchmark,..."
 paper_summary: "Abstract: Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges,  | Overview: TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS – A PRINCIPLE AND BENCHMARK Yue Huang1,2∗† ‡ Lichao Sun1∗† Haoran Wang3∗Siyuan Wu4∗‡ Qihui Zhang4∗‡ Yuan Li5 ‡ Chujie Gao4∗‡ Yixin Huang6∗Wenhan Lyu7 | Key Findings: provides a significant reference value for relevant open-weight developers. Both the model itself and trustworthiness-related technology should be tra | Conclusions: 79 17 Acknowledgement 79 4 --- Page 5 --- TRUSTLLM 1 Introduction The advent of large language models (LLMs) marks a significant milestone in natural"
+nw_confucian: 30
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "GE"
+author_region: "Eastern Europe & Central Asia"
+author_global_north_south: "Ambiguous"
+weird_score: 38
 DATE_ADDED: 20260208
 LLM_assessed: "Baichuan, ChatGLM2, ERNIE, GPT-3.5, GPT-4, Koala, Llama-2, Mistral, Oasst, PaLM-2, Vicuna, WizardLM"
 DATA_URL: "https://github.com/HowieHwong/TrustLLM"

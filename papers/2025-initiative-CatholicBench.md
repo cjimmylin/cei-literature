@@ -38,6 +38,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -99,7 +100,18 @@ utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 5
 ethics_perspective: "Bias & Fairness"
-is_benchmark: Yes
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "Unknown"
+author_region: "Unknown"
+author_global_north_south: "Unknown"
+weird_score: 50
+is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"

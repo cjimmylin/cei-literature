@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,10 +41,10 @@ mp_schwartz: 0
 mp_trolley: 0
 mp_kohlberg: 0
 mp_dual_process: 0
-mp_intuitionist: 0
+mp_intuitionist: 50
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "Moral Foundations Theory"
+moral_psychology: "Moral Foundations Theory, Social Intuitionist Model"
 newtags: Deontology
 key_contribution: "Probes the Delphi model with standardized morality questionnaires to check for consistent higher-level ethical principles"
 significance: "Finds Delphi mirrors annotator demographics rather than learning abstract ethics, questioning the viability of bottom-up moral learning"
@@ -92,9 +61,20 @@ deontological_ethics: 55
 utilitarian_ethics: 50
 contractarian_ethics: 0
 care_ethics: 5
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "CA"
+author_region: "North America"
+author_global_north_south: "Global North"
+weird_score: 86
 is_benchmark: "No"
-is_eval: Yes
-is_dataset: No
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 ---

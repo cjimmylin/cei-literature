@@ -39,6 +39,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -98,12 +99,23 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
+ethics_perspective: "Responsible AI"
+nw_confucian: 0
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "IN"
+author_region: "South Asia"
+author_global_north_south: "Global South"
+weird_score: 38
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-ethics_perspective: "Responsible AI"
 ---
 # X-MuTeST: A Multilingual Benchmark for Explainable Hate Speech Detection and A Novel LLM-consulted Explanation Framework
 

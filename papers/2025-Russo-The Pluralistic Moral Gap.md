@@ -37,6 +37,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -94,17 +95,29 @@ LLM_assessed: "Claude-3, GPT-4o mini, Llama-3, Mistral, Qwen, o1, o3"
 DATA_URL: "NA"
 CONFERENCE: "Other Conference"
 ethics_overall: 100
-virtue_ethics: 0
-deontological_ethics: 5
-utilitarian_ethics: 5
+virtue_ethics: 55
+deontological_ethics: 50
+utilitarian_ethics: 55
 contractarian_ethics: 0
-care_ethics: 5
+care_ethics: 45
+normative_ethics_benchmark: "Yes"
+ethics_perspective: "Moral Reasoning & Psychology"
+nw_confucian: 10
+nw_ubuntu: 0
+nw_islamic_ethics: 0
+nw_buddhist: 0
+nw_dharmic: 0
+nw_indigenous_relational: 0
+nw_buen_vivir: 0
+author_country: "FR"
+author_region: "Western Europe"
+author_global_north_south: "Global North"
+weird_score: 75
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models
 

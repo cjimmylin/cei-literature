@@ -28,15 +28,15 @@ The geographic concentration is stark (Table 1). North America contributes 39.5%
 | North America | 809 | 39.5% | Global North |
 | Western Europe | 421 | 20.6% | Global North |
 | East Asia | 260 | 12.7% | Ambiguous |
-| MENA | 113 | 5.5% | Global South |
+| MENA | 113 | 5.5% | Ambiguous |
 | South Asia | 103 | 5.0% | Global South |
-| Southeast Asia | 102 | 5.0% | Global South |
+| Southeast Asia | 102 | 5.0% | Ambiguous |
 | Latin America & Caribbean | 90 | 4.4% | Global South |
 | Eastern Europe & Central Asia | 59 | 2.9% | Ambiguous |
 | Oceania | 38 | 1.9% | Global North |
 | Sub-Saharan Africa | 22 | 1.1% | Global South |
 
-Mapped onto the North/South binary, 66.6% of papers originate from Global North institutions, 15.9% from the Global South, 16.1% from regions that do not map cleanly onto this dichotomy (primarily East Asia and Eastern Europe), and 1.4% from institutions whose classification could not be determined. The "Ambiguous" category is analytically significant: it captures regions that combine high industrialization with non-Western philosophical traditions, complicating the assumption that WEIRD bias is simply a proxy for economic development.
+Mapped onto the North/South binary defined in Section 2.2.6, 62.0% of papers originate from Global North institutions (North America, Western Europe, Oceania), 10.5% from the Global South (South Asia, Latin America and Caribbean, Sub-Saharan Africa), 26.1% from regions that do not map cleanly onto this dichotomy (East Asia, MENA, Southeast Asia, Eastern Europe and Central Asia), and 1.4% from institutions whose classification could not be determined. The "Ambiguous" category is analytically significant: it captures regions that combine high industrialization or substantial AI research capacity with non-Western philosophical traditions, complicating the assumption that WEIRD bias is simply a proxy for economic development.
 
 ## 3.2 Regional Ethical Fingerprints
 

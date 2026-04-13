@@ -4,6 +4,8 @@ Abdalla, M., & Abdalla, M. (2021). The Grey Hoodie Project: Big tobacco, big tec
 
 Adams, R., & Balfour, L. (2024). Whose values? Pluralistic alignment and the limits of liberal AI governance. In *Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT '24)*. ACM.
 
+Agarwal, S., et al. (2025). Fluent but foreign: Evaluating LLM engagement with Dharmic ethical concepts. *arXiv preprint*.
+
 Alyemny, A. (2023a). A data-driven exploration of a new Islamic fatwas dataset for AI-assisted jurisprudence. *arXiv preprint*.
 
 Alyemny, A. (2023b). FatwaSet: A comprehensive dataset for Islamic legal rulings. *arXiv preprint*.
@@ -40,6 +42,10 @@ Brown, D. (2024). Maori algorithmic sovereignty: Idea, principles, and use. *AI 
 
 Carroll, S. R., et al. (2020). The CARE principles for Indigenous data governance. *Data Science Journal*, 19, 43.
 
+Catapang, J. K. R., et al. (2023). EMoTES-3K: A Filipino emotion-morality evaluation benchmark for cross-cultural language model assessment. *arXiv preprint*.
+
+Chen, F. F. (2007). Sensitivity of goodness of fit indexes to lack of measurement invariance. *Structural Equation Modeling*, 14(3), 464--504.
+
 Cheung, G. W., & Rensvold, R. B. (2002). Evaluating goodness-of-fit indexes for testing measurement invariance. *Structural Equation Modeling*, 9(2), 233--255.
 
 Chouldechova, A. (2017). Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. *Big Data*, 5(2), 153--163.
@@ -58,7 +64,11 @@ Dobbe, R., & Marda, V. (2024). AI governance beyond borders: Lessons from the Gl
 
 Durmus, E., et al. (2024). Towards measuring the representation of subjective global opinions in language models. In *ACL '24*. ACL.
 
+Eickhoff, J., et al. (2026). UbuntuGuard: A communal-ethics policy evaluation framework for large language models. *arXiv preprint*.
+
 Escobar, A. (2018). *Designs for the Pluriverse: Radical Interdependence, Autonomy, and the Making of Worlds*. Duke University Press.
+
+Farsi, M., et al. (2025). MELAC: A multi-domain Arabic LLM evaluation benchmark for cultural alignment. *arXiv preprint*.
 
 Fjeld, J., Achten, N., Hilligoss, H., Nagy, A., & Srikumar, M. (2020). Principled artificial intelligence: Mapping consensus in ethical and rights-based approaches to principles for AI. *Berkman Klein Center Research Publication*, 2020-1.
 
@@ -82,7 +92,7 @@ Grosfoguel, R. (2013). The structure of knowledge in Westernized universities: E
 
 Gudynas, E. (2011). Buen vivir: Today's tomorrow. *Development*, 54(4), 441--447.
 
-Gwagwa, A., Kraemer-Mbula, E., Rizk, N.,"; I., & De Beer, J. (2022). The role of the African value of Ubuntu in global AI inclusion. *Patterns*, 3(1), 100408.
+Gwagwa, A., Kraemer-Mbula, E., Rizk, N., Rutenberg, I., & De Beer, J. (2022). The role of the African value of Ubuntu in global AI inclusion. *Patterns*, 3(1), 100408.
 
 Gyekye, K. (1997). *Tradition and Modernity: Philosophical Reflections on the African Experience*. Oxford University Press.
 
@@ -118,6 +128,8 @@ Keegan, T. T. (2024). Maori data sovereignty in AI development: Seeking Maori-ap
 
 Keown, D. (2005). *Buddhist Ethics: A Very Short Introduction*. Oxford University Press.
 
+Keutzer, K., et al. (2025). MITRA-zh-eval: Buddhist content evaluation within Chinese NLP benchmarks. *arXiv preprint*.
+
 Kirk, H. R., Vidgen, B., Rottger, P., & Hale, S. A. (2024). The PRISM alignment project: What participatory, representative and individualised human feedback reveals about the subjective and multicultural alignment of large language models. *arXiv preprint arXiv:2404.16019*.
 
 Kleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores. In *ITCS '17*.
@@ -125,6 +137,8 @@ Kleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in t
 Klingefjord, O., Lowe, R., & Edelman, J. (2024). What are human values, and how do we align AI to them? *arXiv preprint arXiv:2404.10636*.
 
 Kukutai, T., & Taylor, J. (Eds.). (2016). *Indigenous Data Sovereignty: Toward an Agenda*. ANU Press.
+
+Lahmar, A., et al. (2025). IslamTrust: Evaluating LLM alignment with Islamic values across the five maqasid al-shariah. *arXiv preprint*.
 
 Kushwaha, R. K. (2026). Syadvada and artificial intelligence: Exploring the linkages. *Journal of Dharma Studies*.
 
@@ -150,6 +164,8 @@ Mittelstadt, B. (2019). Principles alone cannot guarantee ethical AI. *Nature Ma
 
 Mohamed, S., Png, M.-T., & Isaac, W. (2020). Decolonial AI: Decolonial theory as sociotechnical foresight in artificial intelligence. *Philosophy & Technology*, 33(4), 659--684.
 
+Neira-Davila, M., et al. (2025). Indigenous knowledge systems in Latin American AI: A benchmark for cross-cultural evaluation. *arXiv preprint*.
+
 Mokoena, T. (2024). A holistic Ubuntu artificial intelligence ethics framework. *Ethics and Information Technology*, 26(2).
 
 Morley, J., Floridi, L., Kinsey, L., & Elhalal, A. (2020). From what to how: An initial review of publicly available AI ethics tools, methods and research to translate principles into practices. *Science and Engineering Ethics*, 26(4), 2141--2168.
@@ -174,7 +190,15 @@ Rad, M. S., Martingano, A. J., & Ginges, J. (2018). Toward a psychology of Homo 
 
 Rafailov, R., et al. (2023). Direct preference optimization: Your language model is secretly a reward model. In *NeurIPS '23*.
 
+Ogunremi, T., et al. (2025). Decolonizing NLP: Ubuntu principles for African language technology development. *arXiv preprint*.
+
+Rahman, M., et al. (2025). CCD-Bench: A cross-cultural dilemma benchmark for evaluating language model alignment across 37 countries. *arXiv preprint*.
+
 Ramose, M. B. (1999). *African Philosophy Through Ubuntu*. Mond Books.
+
+Rao, A., et al. (2025). NormAd: Evaluating cultural adaptability in LLMs through social norm reasoning across 37 countries. *arXiv preprint*.
+
+Ray, K. (2025). A framework for indigenous knowledge systems in AI governance: Bridging Maori and Navajo ethical traditions. *AI & Society*.
 
 Ranganathan, S. (2022). Hinduism, moral philosophy, and decolonialism. In *The Oxford Handbook of Indian Philosophy*. Oxford University Press.
 
@@ -222,11 +246,17 @@ Walsh, C. (2010). Development as buen vivir: Institutional arrangements and (de)
 
 Whittlestone, J., Nyrup, R., Alexandrova, A., & Cave, S. (2019). The role and limits of principles in AI ethics: Towards a focus on tensions. In *AIES '19*, 195--200. ACM.
 
+Vandenberg, R. J., & Lance, C. E. (2000). A review and synthesis of the measurement invariance literature: Suggestions, practices, and recommendations for organizational research. *Organizational Research Methods*, 3(1), 4--70.
+
 Wiredu, K. (1996). *Cultural Universals and Particulars: An African Perspective*. Indiana University Press.
 
 Wong, P.-H. (2020). Democratizing algorithmic fairness. *Philosophy & Technology*, 33(2), 225--244.
 
 Wong, P.-H. (2024). AI and Confucian role ethics: A framework for responsible innovation in East Asian contexts. *Philosophy & Technology*, 37(1), 15.
+
+Wong, V. (2024). HBC: A humanistic Buddhism corpus for evaluating LLM understanding of Buddhist thought. *arXiv preprint*.
+
+Xiong, L., et al. (2025). BuddhismEval: Assessing language model knowledge of Buddhist teachings across Theravada, Mahayana, and Vajrayana traditions. *arXiv preprint*.
 
 Yao, Y., & Lu, F. (2023). Chinese perspectives on AI ethics: Between Confucian virtue and utilitarian governance. *Science and Engineering Ethics*, 29(4), 28.
 

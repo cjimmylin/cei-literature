@@ -121,6 +121,24 @@ See Supplementary Table S3 for the full ranking of all 218 benchmarks by TOPSIS 
 - MFQ Individualizing:Binding = 3.22
 - Response length: 254.4 chars mean
 
-### Gemini (all 5 models, Tier 3: Template-Derived)
-- All metrics identical: MFQ 3.75, RLHF 277, response length 389.9
-- Treated as single observation for all analyses
+### Gemini (all 5 models, Tier 3: Aggregate-Convergent)
+- Item-level differentiation confirmed: 29--31 of 50 CC1 items differ between any two Gemini variants
+- Inter-Gemini Pearson correlations range from $r$ = 0.593 (Flash vs. Pro) to $r$ = 0.909 (Flash-Lite vs. Pro)
+- Aggregate metrics converge across variants: MFQ I:B $\approx$ 3.75, RLHF conflict total $\approx$ 277, response length $\approx$ 389.9 chars
+- Effective N for the five Gemini models: $\approx$ 1.21 (DEFF = 4.12, mean within-tier $\rho$ = 0.78)
+- Interpretation: pre-training corpora across Gemini variants share substantial overlap, producing convergent macro-level cultural profiles; item-level diversity reflects sampling and architectural differences, not deeply different alignment regimes
+
+## S2.7 Power Sensitivity Analysis
+
+The cross-model effective sample size formalized in Section 5.6.4 is $N_\text{eff} \approx 3.4$ (range 3.1--4.8). The following table reports the minimum detectable effect size (MDES) at conventional power (0.80) and significance ($\alpha = 0.05$, two-sided) for the primary statistical tests used in Study 3, computed via standard formulas (G*Power 3.1; Faul et al., 2007).
+
+| Test | $N_\text{eff}$ | $df$ | MDES (Cohen's $d$ or $r$) | Interpretation |
+|------|---------------|------|---------------------------|----------------|
+| Two-sample $t$-test (between providers) | 3.4 / 3.4 | 4.8 | $d = 2.50$ | Detectable: only "huge" effects ($d \geq 2$) |
+| Pearson correlation (across pairs) | 6 pairs | 4 | $r = 0.811$ | Detectable: only near-perfect correlations |
+| One-way ANOVA (3 providers) | 3.4 per group | 2, 7.2 | $f = 0.95$ | Detectable: only "very large" effects |
+| Kruskal-Wallis (3 providers) | 3.4 per group | 2 | $\eta^2 \approx 0.50$ | Detectable: only effects explaining $\geq$ 50% variance |
+
+For comparison, the conventional "large effect" benchmarks (Cohen, 1988) are $d = 0.8$, $r = 0.5$, $f = 0.4$, $\eta^2 = 0.14$. The MDES values in the table are 2--3 times larger than "large effects," meaning that the cross-model analyses in Study 3 can detect only differences that are not merely large but extreme. Cross-provider patterns reported in the paper should therefore be interpreted as descriptive observations rather than confirmatory inferences. The within-Claude pairwise correlations ($r$ = 0.885--0.952), the I:B ratio differences (3.23--4.82, range 1.59 = $d \approx 2.7$ within Claude), and the Gemini item-level differentiation ($r$ = 0.593--0.909) are all detectable at this $N_\text{eff}$, but the absence of a detectable cross-provider effect is uninformative given the power constraint.
+
+This power constraint is structural rather than incidental: any cross-model study of LLMs is limited by the small number of independent model families released by major providers. Resolving it requires either a longitudinal design (multiple checkpoints from each provider) or a coordinated cross-provider replication initiative analogous to the Many Labs efforts in psychology.

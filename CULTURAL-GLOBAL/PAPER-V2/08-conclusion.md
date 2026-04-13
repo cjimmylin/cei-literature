@@ -28,7 +28,7 @@ The WEIRD problem in psychology catalyzed a decade of reform in research practic
 
 Several extensions of this analysis are planned or underway:
 
-1. **Real API trials across providers.** Administering all 10 benchmarks directly to GPT, Gemini, and open-weight models (Llama, Qwen, Mistral) through their native APIs, eliminating the Codex-authored and template-derived confounds that currently limit cross-provider inference.
+1. **Real API trials across providers.** Administering all 10 benchmarks directly to GPT, Gemini, and open-weight models (Llama, Qwen, Mistral) through their native APIs, eliminating the Codex-authored and aggregate-convergence confounds that currently limit cross-provider inference (Sections 5.6.2--5.6.3).
 
 2. **Expanded corpus with non-English scholarship.** A targeted multilingual literature search across databases in Mandarin (CNKI, Wanfang), Arabic (Shamaa), Spanish (SciELO, Redalyc), and Hindi (INFLIBNET) to expand the corpus beyond its current English-language bias.
 

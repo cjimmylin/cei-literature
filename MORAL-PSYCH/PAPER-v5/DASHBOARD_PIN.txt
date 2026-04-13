@@ -1,0 +1,6 @@
+Dashboard v5 commit pinned for Paper v5
+Repo: https://github.com/cjimmylin/cei-moral-psych-dashboard-v5
+Commit: 946eff6
+Tag: v5.0-s24
+URL: https://cjimmylin.github.io/cei-moral-psych-dashboard-v5/
+Pinned: 2026-04-13

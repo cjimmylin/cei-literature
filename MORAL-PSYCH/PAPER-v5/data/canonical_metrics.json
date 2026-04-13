@@ -1,0 +1,85 @@
+{
+  "_comment": "Canonical metrics for MPBench Paper v5 — single source of truth for both paper and dashboard",
+  "_source": "Extracted from PAPER-v4/sections/20260405-conclusion-v4.md Claims 1-7",
+  "_version": "v5.0-s24",
+  "landscape": {
+    "total_candidates": 292,
+    "evaluation_features": 162,
+    "composite_determining_features": 17,
+    "sub_dimensions": 3,
+    "theories_covered": 13,
+    "jenks_breakpoints": [27.8, 43.0, 56.6],
+    "jenks_gvf": 0.83,
+    "tier_counts": {
+      "top": 48,
+      "high": 89,
+      "medium": 72,
+      "low": 83
+    },
+    "tier_percentages": {
+      "top": 16.4,
+      "high": 30.5,
+      "medium": 24.7,
+      "low": 28.4
+    }
+  },
+  "empirical": {
+    "benchmarks_administered": 23,
+    "items_per_model": 750,
+    "models_tested": 9,
+    "vendors": 3,
+    "vendor_names": ["Anthropic", "Google", "OpenAI"],
+    "trial_files": 69
+  },
+  "claim_1_mft_dominance": {
+    "mft_candidates": 67,
+    "mft_pct_of_total": 23,
+    "mft_quality_rate_pct": 73,
+    "non_western_quality_rate_pct": 0,
+    "quality_rate_ratio": "undefined (73% vs 0%)"
+  },
+  "claim_2_validity_crisis": {
+    "l1_l2_pct": 58,
+    "median_validity_level": "face validity (Level 2)",
+    "l5_multi_study_pct": 4,
+    "prior_subsample_l5_pct": 11
+  },
+  "claim_3_theoretical_absence": {
+    "dual_process_benchmarks": 0,
+    "moral_identity_benchmarks": 0,
+    "dual_process_citations": 15000,
+    "moral_identity_citations": 10000,
+    "combined_citations": 25000
+  },
+  "claim_4_cultural_cliff": {
+    "non_western_traditions": ["Ubuntu", "Confucian", "Indigenous", "Moral Identity (non-Western)"],
+    "non_western_candidates": 32,
+    "non_western_quality_rate_pct": 0,
+    "western_quality_rate_pct_range": "55-73"
+  },
+  "claim_5_baseline_deficit": {
+    "no_human_baseline_pct": 34,
+    "prior_subsample_pct": 18,
+    "doubling_factor": 1.89
+  },
+  "claim_6_temporal_stagnation": {
+    "pre_2020_quality_rate_pct": 75,
+    "2020_2022_quality_rate_pct": 48,
+    "2023_2026_quality_rate_pct": 46,
+    "volume_increase_fold": 9.5
+  },
+  "claim_7_rlhf_fingerprint": {
+    "zero_cv_benchmarks_pct": 43,
+    "universal_signatures": 6,
+    "signatures": [
+      "WEIRD-liberal moral foundation bias (Individualizing/Binding ratio 2.43-2.83)",
+      "Purity floor (functionally zero Sanctity/Degradation)",
+      "Authority deference suppression (win rate exactly 0.29 across all 9 models)",
+      "Ethical consistency ceiling (ECI = 1.0 on trolley dilemmas)",
+      "Post-conventional reasoning default (DIT P-scores 60-90)",
+      "Deontological refusal asymmetry (personal harm refusal exceeding human baselines)"
+    ],
+    "quality_discrimination_correlation_r": -0.83,
+    "haiku_cot_shift_pct": 25
+  }
+}

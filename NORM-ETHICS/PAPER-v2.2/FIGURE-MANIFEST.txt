@@ -1,0 +1,20 @@
+# NormEval v2.2-preliminary Figure Manifest
+# Generated: 2026-04-13, Session 19 Phase 0
+# All figures are symlinked from PAPER-v2/figures/ (originals frozen per Rule 3)
+
+fc0871e726eb5b633921af08021036fdb6b474ffbb295690c0879ee5dbea95c2  fig1-tradition-heatmap.png
+bf5a588f0d1d59c0042cd203d10fa2a5b871a6e559d77f25ebe1c7ad7ef645b5  fig2-framework-difficulty.png
+3d9cdb697c9ee7ba10b2a0e932745d18790f02fb699ae8c0a9748af210313466  fig3-nd-vs-pe-scatter.png
+70198c0a7f9c03cf582588833c7c6b9114f49f6513506a01830a6ab4280387ba  fig4-data-availability.png
+368edf5bbf627704e82bc8837670b20bff4f039c0cb8649b857cc2cd2dcd713e  fig5-trial-accuracy-discriminative.png
+ab646a238265a0bc09a82d6b8e1fc87758d70e9e3f03ea378ad54257aa59051d  fig6-ih-ib-scaling.png
+7df7b906f02102e5e5509c83b446986d97d3226b8f645650221b91112e5251fe  fig7-cross-vendor-heatmap.png
+94c8f7a69e377bdcd01850757211d5eaa7af0614c53cbc4cee86552977fdcfd9  fig8-knowledge-judgment-divergence.png
+ee35f35ef5b569c565627e8fe7cd22f702a6d012c5817ddc6b97a63eed4a4530  figS1-pca-clusters.png
+e240fd5c7b7cfe6237d4af87cbcc4cd0a833cf5480434ef43205dfc49a57ace6  figS2-temporal-trends.png
+14d53cc8c7f59b542aeaade1da0b4aaf3d4ebfe90a439df041b4b4394ba70da1  figS5-provider-radar.png
+797da2c71e6603d8d451b1b05428b34a65e14be41f92bec6124e9816c1836634  figS6-cbr-by-model.png
+
+# Symlink targets (absolute):
+# PAPER-v2.2/figures/<name>.png -> PAPER-v2/figures/<name>.png
+# 12 figures total (8 main + 4 supplementary)

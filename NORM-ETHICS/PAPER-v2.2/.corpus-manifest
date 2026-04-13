@@ -1,0 +1,10 @@
+# NormEval v2.2-preliminary corpus manifest
+# Generated: 2026-04-13, Session 19 Phase 0
+# Purpose: version-pin data.js so dashboard v4 and paper v2.2 claim identical corpus snapshot
+
+data.js       sha256:a1df57369fb9a3f8360696c81858381d0fd4fa13877411f6838a1664cddf8112
+data_cross_vendor.js  sha256:4bfbdea648be934d404bd5d255df70da7d9e4307c569c951d2ade4259431457b
+
+# Source: CEI-Lit-WS/NORM-ETHICS/DASHBOARD-v2/
+# Verified: 54 benchmarks x 41 features (26 v1 core + 15 v2 extended)
+# Cross-vendor: 9 models, 3 vendors (note: non-Anthropic results are simulated — see limitations §6.1)

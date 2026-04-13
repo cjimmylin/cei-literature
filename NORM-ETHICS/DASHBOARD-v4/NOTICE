@@ -1,0 +1,14 @@
+THIRD-PARTY SOFTWARE NOTICES
+
+This dashboard includes software from the following third-party projects:
+
+- Bootstrap 5.3.3 (MIT License) — https://getbootstrap.com/
+- Apache ECharts 5.4.3 (Apache License 2.0) — https://echarts.apache.org/
+- jsDelivr CDN (free tier) — https://www.jsdelivr.com/
+- Inter typeface (SIL Open Font License 1.1) — https://rsms.me/inter/
+- JetBrains Mono typeface (SIL Open Font License 1.1) — https://jetbrains.com/mono/
+
+NormEval Dashboard code: MIT License
+NormEval data and analysis: CC-BY-4.0
+
+For full license text, see the LICENSE file in the project repository.

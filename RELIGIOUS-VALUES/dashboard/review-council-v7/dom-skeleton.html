@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Religious Values Benchmark Dashboard v7</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Theme and layout styles will be injected by the CSS agent */
+  </style>
+</head>
+<body>
+
+  <!-- Caveat Ribbon: always visible above all tab content -->
+  <aside id="caveat-ribbon" class="caveat-ribbon" role="complementary" aria-label="Methodological caveats">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-rv card-rv--caveat" id="caveat-cav1">
+            <!-- CAV-1: T2 Blinding Asymmetry -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-rv card-rv--caveat" id="caveat-cav2">
+            <!-- CAV-2: Same-Vendor Scorer Bias -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-rv card-rv--caveat" id="caveat-cav3">
+            <!-- CAV-3: Gemini Data Provenance -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Dashboard Container -->
+  <div class="container-fluid px-3 py-2">
+
+    <!-- Tab Navigation -->
+    <ul class="nav nav-tabs" id="mainTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="nav-overview" data-bs-toggle="tab" href="#tab-overview" role="tab" aria-controls="tab-overview" aria-selected="true">
+          Overview<span class="tab-sub">401 &rarr; 47 screening</span>
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="nav-landscape" data-bs-toggle="tab" href="#tab-landscape" role="tab" aria-controls="tab-landscape" aria-selected="false">
+          Landscape<span class="tab-sub">Ranking robustness</span>
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="nav-ranking" data-bs-toggle="tab" href="#tab-ranking" role="tab" aria-controls="tab-ranking" aria-selected="false">
+          Ranking<span class="tab-sub">Tiered benchmarks</span>
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="nav-traditions" data-bs-toggle="tab" href="#tab-traditions" role="tab" aria-controls="tab-traditions" aria-selected="false">
+          Tradition Coverage<span class="tab-sub">8 missing traditions</span>
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="nav-claims" data-bs-toggle="tab" href="#tab-claims" role="tab" aria-controls="tab-claims" aria-selected="false">
+          Claims &amp; Robustness<span class="tab-sub">8 statistical tests</span>
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="nav-crossvendor" data-bs-toggle="tab" href="#tab-crossvendor" role="tab" aria-controls="tab-crossvendor" aria-selected="false">
+          Simulated Scorer Study<span class="tab-sub">9 models, 3 vendors (simulated)</span>
+        </a>
+      </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content" id="mainTabContent">
+
+      <!-- ============================================================ -->
+      <!-- TAB 1: Overview -->
+      <!-- ============================================================ -->
+      <div class="tab-pane fade show active" id="tab-overview" role="tabpanel" aria-labelledby="nav-overview">
+        <div class="row mt-3">
+          <div class="col-lg-4">
+            <div class="card-rv">
+              <div id="chart-funnel" class="chart-container" style="height:400px"></div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-rv">
+              <div id="chart-tradition-bar" class="chart-container" style="height:350px"></div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-rv">
+              <div id="chart-family-pie" class="chart-container" style="height:350px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- TAB 2: Landscape (Sensitivity) -->
+      <!-- ============================================================ -->
+      <div class="tab-pane fade" id="tab-landscape" role="tabpanel" aria-labelledby="nav-landscape">
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="card-rv">
+              <div id="chart-boot-ci" class="chart-container" style="height:650px; overflow-y:auto"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-6">
+            <div class="card-rv">
+              <div id="chart-weight-sens" class="chart-container" style="height:450px"></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card-rv">
+              <div id="chart-gate-threshold" class="chart-container" style="height:450px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- TAB 3: Ranking -->
+      <!-- ============================================================ -->
+      <div class="tab-pane fade" id="tab-ranking" role="tabpanel" aria-labelledby="nav-ranking">
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="card-rv">
+              <div id="chart-tier-table" class="chart-container" style="min-height:500px"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="card-rv">
+              <div id="chart-composite-bar" class="chart-container" style="height:400px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- TAB 4: Tradition Coverage -->
+      <!-- ============================================================ -->
+      <div class="tab-pane fade" id="tab-traditions" role="tabpanel" aria-labelledby="nav-traditions">
+        <div class="row mt-3">
+          <div class="col-lg-6">
+            <div class="card-rv">
+              <div id="chart-radar" class="chart-container" style="height:450px"></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card-rv">
+              <div id="chart-readiness" class="chart-container" style="height:450px"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="card-rv">
+              <div id="chart-void-grid" class="chart-container" style="height:350px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- TAB 5: Claims & Robustness -->
+      <!-- ============================================================ -->
+      <div class="tab-pane fade" id="tab-claims" role="tabpanel" aria-labelledby="nav-claims">
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="card-rv">
+              <div id="chart-claims" class="chart-container" style="height:380px"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-6">
+            <div class="card-rv card-rv--claim">
+              <div id="chart-claim1-forest" class="chart-container" style="height:300px"></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card-rv card-rv--claim">
+              <div id="chart-claim8-forest" class="chart-container" style="height:350px"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="card-rv">
+              <div id="chart-pvalue-strip" class="chart-container" style="height:300px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- TAB 6: Simulated Scorer Study (Cross-Vendor) -->
+      <!-- ============================================================ -->
+      <div class="tab-pane fade" id="tab-crossvendor" role="tabpanel" aria-labelledby="nav-crossvendor">
+
+        <!-- Vendor Typology Grid (NEW) -->
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="card-rv card-rv--typology">
+              <div id="chart-vendor-typology-grid">
+                <!-- 3 mode cards rendered by JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- K < R < V Gradient + Rubric Heatmap -->
+        <div class="row mt-3">
+          <div class="col-lg-6">
+            <div class="card-rv">
+              <div id="chart-cv-length" class="chart-container" style="height:450px"></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card-rv">
+              <div id="chart-cv-rubric" class="chart-container" style="height:380px"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- T2 Accuracy + T2 Span Strip (NEW) -->
+        <div class="row mt-3">
+          <div class="col-lg-6">
+            <div class="card-rv">
+              <div id="chart-cv-t2" class="chart-container" style="height:420px"></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card-rv">
+              <div id="chart-t2-span-strip" class="chart-container" style="height:420px"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rubric Ceiling Heatmap (NEW) + Radar -->
+        <div class="row mt-3">
+          <div class="col-lg-6">
+            <div class="card-rv">
+              <div id="chart-rubric-ceiling-heatmap" class="chart-container" style="height:420px"></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card-rv">
+              <div id="chart-cv-radar" class="chart-container" style="height:420px"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bias-Values Independence -->
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="card-rv">
+              <div id="chart-cv-biasvalues" class="chart-container" style="height:420px"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- /tab-content -->
+  </div><!-- /container-fluid -->
+
+  <!-- Scripts: loaded last -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

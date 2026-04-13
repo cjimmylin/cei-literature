@@ -1,0 +1,566 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_number": 1,
+      "title": "Tradition asymmetry: Islam dominates gate-passers",
+      "tests": [
+        {
+          "test_name": "Chi-squared goodness-of-fit vs uniform",
+          "statistic": 64.957447,
+          "statistic_name": "chi-squared",
+          "p_value": 0.0,
+          "effect_size": 0.525752,
+          "effect_size_name": "Cramer's V",
+          "df": 5,
+          "ci_low": null,
+          "ci_high": null,
+          "n": 47,
+          "significant": true,
+          "observed": {
+            "Buddhism": 6,
+            "Christianity": 6,
+            "Confucianism": 1,
+            "Hinduism": 4,
+            "Islam": 28,
+            "Sikhism": 2
+          }
+        },
+        {
+          "test_name": "Chi-squared goodness-of-fit vs proportional to corpus",
+          "statistic": 21.838996,
+          "statistic_name": "chi-squared",
+          "p_value": 0.000562,
+          "effect_size": 0.304847,
+          "effect_size_name": "Cramer's V",
+          "df": 5,
+          "ci_low": null,
+          "ci_high": null,
+          "n": 47,
+          "significant": true,
+          "expected_proportions": {
+            "Buddhism": 0.0349,
+            "Christianity": 0.2918,
+            "Confucianism": 0.0349,
+            "Hinduism": 0.0623,
+            "Islam": 0.2818,
+            "Sikhism": 0.015
+          }
+        }
+      ],
+      "verdict": "supported",
+      "plain_english": "Islam dominates the benchmark ecosystem with 28 of 47 gate-passers and 9 of 12 Tier 1 benchmarks, while 8 of 14 traditions have zero viable benchmarks."
+    },
+    {
+      "claim_id": "C2",
+      "claim_number": 2,
+      "title": "Knowledge-reasoning conflation: most benchmarks test knowledge, not reasoning",
+      "tests": [
+        {
+          "test_name": "Binomial test (proportion testing reasoning < 0.5)",
+          "statistic": 13,
+          "statistic_name": "binomial count",
+          "p_value": 0.001544,
+          "effect_size": null,
+          "effect_size_name": null,
+          "ci_low": 0.0,
+          "ci_high": 0.403376,
+          "n": 47,
+          "significant": true,
+          "counts": {
+            "theological_reasoning": 13,
+            "values_knowledge": 10,
+            "theological_values_mixed": 24
+          },
+          "proportion_reasoning": 0.276596
+        }
+      ],
+      "verdict": "supported",
+      "plain_english": "Only 27.7% of gate-passing benchmarks test genuine theological reasoning rather than factual recall."
+    },
+    {
+      "claim_id": "C3",
+      "claim_number": 3,
+      "title": "Data availability bottleneck: many benchmarks have unavailable data",
+      "tests": [
+        {
+          "test_name": "Exact binomial test on accessibility rate",
+          "statistic": 47,
+          "statistic_name": "binomial count",
+          "p_value": 0.0,
+          "effect_size": null,
+          "effect_size_name": null,
+          "ci_low": 0.93825,
+          "ci_high": 1.0,
+          "n": 401,
+          "significant": true,
+          "counts": {
+            "all_entries_available": 231,
+            "all_entries_unavailable": 170,
+            "all_entries_total": 401,
+            "gate_passers_available": 47,
+            "gate_passers_total": 47
+          },
+          "proportion_available_all": 0.57606,
+          "proportion_available_gp": 1.0
+        }
+      ],
+      "verdict": "supported",
+      "plain_english": "170 of 401 candidates have unavailable evaluation data; data accessibility is the strongest predictor of gate passage."
+    },
+    {
+      "claim_id": "C4",
+      "claim_number": 4,
+      "title": "Structural epistemic injustice: gate-passage correlates with Western proximity",
+      "tests": [
+        {
+          "test_name": "Logistic regression",
+          "statistic": null,
+          "statistic_name": "pseudo R-squared",
+          "p_value": null,
+          "effect_size": 0.068408,
+          "effect_size_name": "pseudo R-squared",
+          "ci_low": null,
+          "ci_high": null,
+          "n": 401,
+          "significant": false,
+          "pseudo_r_squared": 0.068408,
+          "coefficients": [
+            {
+              "variable": "P10_english",
+              "odds_ratio": 1.758547,
+              "p_value": 0.097163
+            },
+            {
+              "variable": "venue_tier",
+              "odds_ratio": 1.339822,
+              "p_value": 0.147558
+            }
+          ]
+        }
+      ],
+      "verdict": "revised",
+      "plain_english": "Structural epistemic injustice operates through publication infrastructure (r=0.74) rather than the scoring framework itself; no individual predictor reaches significance."
+    },
+    {
+      "claim_id": "C5",
+      "claim_number": 5,
+      "title": "Field recency: most benchmarks from 2024-2026",
+      "tests": [
+        {
+          "test_name": "One-sample proportion test (binomial) + bootstrap median CI",
+          "statistic": 28,
+          "statistic_name": "binomial count",
+          "p_value": 0.12148,
+          "effect_size": null,
+          "effect_size_name": null,
+          "ci_low": 0.465371,
+          "ci_high": 1.0,
+          "n": 47,
+          "significant": false,
+          "n_recent_2024_plus": 28,
+          "proportion_recent": 0.595745,
+          "median_year": 2024,
+          "median_year_bootstrap_ci": [2023, 2024],
+          "year_distribution": {
+            "2010": 1, "2016": 1, "2018": 1, "2021": 2,
+            "2022": 6, "2023": 8, "2024": 12, "2025": 13, "2026": 3
+          }
+        }
+      ],
+      "verdict": "not_significant",
+      "plain_english": "59.6% of gate-passers are from 2024+, but this does not reach significance (p=0.12). Median year is 2024."
+    },
+    {
+      "claim_id": "C6",
+      "claim_number": 6,
+      "title": "WEIRD bias: benchmarks from WEIRD contexts disproportionately pass gates",
+      "tests": [
+        {
+          "test_name": "Fisher's exact test",
+          "statistic": 0.579619,
+          "statistic_name": "odds ratio",
+          "p_value": 0.090362,
+          "effect_size": 0.579619,
+          "effect_size_name": "odds ratio",
+          "ci_low": null,
+          "ci_high": null,
+          "n": 401,
+          "significant": false,
+          "contingency_table": {
+            "weird_pass": 17,
+            "weird_fail": 175,
+            "nonweird_pass": 30,
+            "nonweird_fail": 179
+          },
+          "pass_rate_weird": 0.088542,
+          "pass_rate_nonweird": 0.143541
+        }
+      ],
+      "verdict": "revised",
+      "plain_english": "The expected WEIRD bias is reversed: non-WEIRD traditions pass at 14.4% vs WEIRD at 8.9%, driven by Islamic infrastructure dominance."
+    },
+    {
+      "claim_id": "C7",
+      "claim_number": 7,
+      "title": "Bias-values conflation: many benchmarks detect bias rather than measure values alignment",
+      "tests": [
+        {
+          "test_name": "Binomial test on bias vs values proportion (among non-mixed)",
+          "statistic": 10,
+          "statistic_name": "binomial count",
+          "p_value": 0.677639,
+          "effect_size": null,
+          "effect_size_name": null,
+          "ci_low": 0.231914,
+          "ci_high": 0.655053,
+          "n": 47,
+          "significant": false,
+          "counts": {
+            "bias_adjacent_values": 10,
+            "values_focused_theological": 13,
+            "mixed_theological_values": 24
+          },
+          "proportions": {
+            "bias_adjacent": 0.212766,
+            "values_focused": 0.276596,
+            "mixed": 0.510638
+          }
+        }
+      ],
+      "verdict": "not_significant",
+      "plain_english": "Bias-values conflation is conceptually supported (Sonnet r=0.288 shows construct independence) but does not reach significance in the cross-sectional survey (p=0.68)."
+    },
+    {
+      "claim_id": "C8",
+      "claim_number": 8,
+      "title": "Values relevance failure: most benchmarks do not actually test religious values",
+      "tests": [
+        {
+          "test_name": "One-sample t-test (H0: mean A3 = 50)",
+          "statistic": -4.93,
+          "statistic_name": "t-statistic",
+          "p_value": 0.000181,
+          "effect_size": -1.232,
+          "effect_size_name": "Cohen's d",
+          "ci_low": null,
+          "ci_high": null,
+          "n": 16,
+          "significant": true,
+          "mean_a3": 30.0,
+          "median_a3": 27.5,
+          "sd_a3": 16.2
+        },
+        {
+          "test_name": "Wilcoxon signed-rank (H0: median A3 = 50)",
+          "statistic": 5.0,
+          "statistic_name": "W",
+          "p_value": 0.00061,
+          "effect_size": null,
+          "effect_size_name": null,
+          "ci_low": null,
+          "ci_high": null,
+          "n": 16,
+          "significant": true
+        },
+        {
+          "test_name": "Binomial (H0: P(A3 >= 50) >= 0.5)",
+          "statistic": 3,
+          "statistic_name": "count above 50",
+          "p_value": 0.010635,
+          "effect_size": null,
+          "effect_size_name": null,
+          "ci_low": null,
+          "ci_high": null,
+          "n": 16,
+          "significant": true,
+          "n_above_50": 3,
+          "proportion_above_50": 0.1875
+        },
+        {
+          "test_name": "Binomial (H0: P(A3 >= 75) >= 0.5)",
+          "statistic": 0,
+          "statistic_name": "count above 75",
+          "p_value": 0.000015,
+          "effect_size": null,
+          "effect_size_name": null,
+          "ci_low": null,
+          "ci_high": null,
+          "n": 16,
+          "significant": true,
+          "n_above_75": 0,
+          "proportion_above_75": 0.0
+        }
+      ],
+      "verdict": "supported",
+      "plain_english": "Mean values relevance score is 30.0/100 (d=-1.23), significantly below the midpoint. Only 3/16 benchmarks score above 50; none reach 75."
+    }
+  ],
+  "cross_vendor_typology": {
+    "differentiated_engagement": {
+      "label": "Differentiated Engagement",
+      "simulated_label": "Claude family (Opus, Sonnet, Haiku) -- original vendor, not simulated",
+      "vendor": "Anthropic",
+      "simulated": false,
+      "description": "All three Claude models produce responses whose length and complexity scale with construct complexity. Knowledge items receive concise responses; reasoning items are longer with explicit inferential structure; values items are longest with multiple perspectives and tradition-specific qualifications. The K < R < V gradient is consistent across all model-tradition combinations.",
+      "key_metrics": {
+        "mean_rubric_knowledge": 1.0,
+        "mean_rubric_reasoning": 1.0,
+        "mean_rubric_values": 0.9777,
+        "mean_knowledge_length": 1463.3,
+        "mean_reasoning_length": 4378.2,
+        "mean_values_length": 6572.1,
+        "gradient_holds_all": true,
+        "mean_t2_accuracy": 0.9223
+      }
+    },
+    "compressed_accuracy": {
+      "label": "Compressed Accuracy",
+      "simulated_label": "Claude-roleplaying-OpenAI-scorer (Codex, Codex-Mini simulated by Sonnet/Haiku)",
+      "vendor": "OpenAI (simulated)",
+      "simulated": true,
+      "description": "GPT-Codex and Codex-Mini achieve near-ceiling rubric scores (0.87-1.0) through concise, targeted output -- responses that are 5-80x shorter than Claude yet receive comparable quality assessments. Demonstrates that the rubric quality floor is remarkably low.",
+      "key_metrics": {
+        "mean_rubric_knowledge": 0.9667,
+        "mean_rubric_reasoning": 0.9167,
+        "mean_rubric_values": 0.8834,
+        "mean_knowledge_length": 79.95,
+        "mean_reasoning_length": 443.2,
+        "mean_values_length": 438.3,
+        "gradient_holds_all": false,
+        "mean_t2_accuracy": 0.9334
+      }
+    },
+    "template_refusal": {
+      "label": "Template Refusal",
+      "simulated_label": "Claude-roleplaying-Gemini-scorer (4 Gemini models, backfilled template extraction)",
+      "vendor": "Gemini (simulated)",
+      "simulated": true,
+      "description": "All four Gemini models produce near-uniform responses regardless of item type, scoring 0.0 on Knowledge, Reasoning, and Values rubrics while achieving 0.57-1.0 on Bias detection. Three possible explanations: over-aggressive safety filtering, training data gap for religious reasoning, or methodological artifact of the backfilled protocol. The evidence is underdetermined.",
+      "key_metrics": {
+        "mean_rubric_knowledge": 0.0,
+        "mean_rubric_reasoning": 0.0,
+        "mean_rubric_values": 0.05,
+        "mean_knowledge_length": 201.1,
+        "mean_reasoning_length": 251.4,
+        "mean_values_length": 221.55,
+        "bias_score_range": [0.5667, 1.0],
+        "gradient_holds_all": false,
+        "mean_t2_accuracy": 0.1167
+      }
+    }
+  },
+  "t2_span": {
+    "instrument": "T2 Arabic MCQ (fara'id -- Islamic inheritance law)",
+    "n_items": 30,
+    "min_accuracy": 0.0667,
+    "max_accuracy": 1.0,
+    "span_pp": 93.3,
+    "min_model": "gemini-2.5-pro",
+    "min_model_vendor": "Gemini (simulated)",
+    "max_models_at_ceiling": ["claude-opus-4-6", "claude-sonnet-4-20250514", "gpt-codex"],
+    "per_model": [
+      {
+        "model": "claude-opus-4-6",
+        "vendor": "Anthropic",
+        "simulated": false,
+        "t2_overall": 1.0,
+        "t2_beginner": 1.0,
+        "t2_advanced": 1.0
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
+        "vendor": "Anthropic",
+        "simulated": false,
+        "t2_overall": 1.0,
+        "t2_beginner": 1.0,
+        "t2_advanced": 1.0
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "vendor": "Anthropic",
+        "simulated": false,
+        "t2_overall": 0.767,
+        "t2_beginner": 0.8,
+        "t2_advanced": 0.7333
+      },
+      {
+        "model": "gpt-codex",
+        "vendor": "OpenAI (simulated)",
+        "simulated": true,
+        "t2_overall": 1.0,
+        "t2_beginner": 1.0,
+        "t2_advanced": 1.0
+      },
+      {
+        "model": "gpt-codex-mini",
+        "vendor": "OpenAI (simulated)",
+        "simulated": true,
+        "t2_overall": 0.8667,
+        "t2_beginner": 0.8,
+        "t2_advanced": 0.9333
+      },
+      {
+        "model": "gemini-2.5-flash-lite",
+        "vendor": "Gemini (simulated)",
+        "simulated": true,
+        "t2_overall": 0.2,
+        "t2_beginner": 0.2,
+        "t2_advanced": 0.2
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "vendor": "Gemini (simulated)",
+        "simulated": true,
+        "t2_overall": 0.1,
+        "t2_beginner": 0.0667,
+        "t2_advanced": 0.1333
+      },
+      {
+        "model": "gemini-2.5-pro",
+        "vendor": "Gemini (simulated)",
+        "simulated": true,
+        "t2_overall": 0.0667,
+        "t2_beginner": 0.0,
+        "t2_advanced": 0.1333
+      },
+      {
+        "model": "gemini-3.1-pro",
+        "vendor": "Gemini (simulated)",
+        "simulated": true,
+        "t2_overall": 0.1,
+        "t2_beginner": 0.1333,
+        "t2_advanced": 0.0667
+      }
+    ]
+  },
+  "rubric_ceiling": {
+    "threshold": 0.93,
+    "note": "All Claude models achieve >= 0.93 on K, R, V rubrics. Rubric scoring performed by Claude Opus 4.6 (same-vendor bias caveat applies).",
+    "matrix": [
+      {
+        "model": "claude-opus-4-6",
+        "vendor": "Anthropic",
+        "simulated": false,
+        "rubric_knowledge": 1.0,
+        "rubric_reasoning": 1.0,
+        "rubric_values": 0.933,
+        "rubric_bias": 1.0,
+        "at_ceiling": true
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
+        "vendor": "Anthropic",
+        "simulated": false,
+        "rubric_knowledge": 1.0,
+        "rubric_reasoning": 1.0,
+        "rubric_values": 1.0,
+        "rubric_bias": 1.0,
+        "at_ceiling": true
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "vendor": "Anthropic",
+        "simulated": false,
+        "rubric_knowledge": 1.0,
+        "rubric_reasoning": 1.0,
+        "rubric_values": 1.0,
+        "rubric_bias": 1.0,
+        "at_ceiling": true
+      },
+      {
+        "model": "gpt-codex",
+        "vendor": "OpenAI (simulated)",
+        "simulated": true,
+        "rubric_knowledge": 0.9333,
+        "rubric_reasoning": 0.9556,
+        "rubric_values": 0.8667,
+        "rubric_bias": 1.0,
+        "at_ceiling": false
+      },
+      {
+        "model": "gpt-codex-mini",
+        "vendor": "OpenAI (simulated)",
+        "simulated": true,
+        "rubric_knowledge": 1.0,
+        "rubric_reasoning": 0.8778,
+        "rubric_values": 0.9,
+        "rubric_bias": 1.0,
+        "at_ceiling": false
+      },
+      {
+        "model": "gemini-2.5-flash-lite",
+        "vendor": "Gemini (simulated)",
+        "simulated": true,
+        "rubric_knowledge": 0.0,
+        "rubric_reasoning": 0.0,
+        "rubric_values": 0.2,
+        "rubric_bias": 1.0,
+        "at_ceiling": false
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "vendor": "Gemini (simulated)",
+        "simulated": true,
+        "rubric_knowledge": 0.0,
+        "rubric_reasoning": 0.0,
+        "rubric_values": 0.0,
+        "rubric_bias": 0.5667,
+        "at_ceiling": false
+      },
+      {
+        "model": "gemini-2.5-pro",
+        "vendor": "Gemini (simulated)",
+        "simulated": true,
+        "rubric_knowledge": 0.0,
+        "rubric_reasoning": 0.0,
+        "rubric_values": 0.0,
+        "rubric_bias": 1.0,
+        "at_ceiling": false
+      },
+      {
+        "model": "gemini-3.1-pro",
+        "vendor": "Gemini (simulated)",
+        "simulated": true,
+        "rubric_knowledge": 0.0,
+        "rubric_reasoning": 0.0,
+        "rubric_values": 0.0,
+        "rubric_bias": 1.0,
+        "at_ceiling": false
+      }
+    ]
+  },
+  "caveats": [
+    {
+      "id": "CAV-1",
+      "title": "T2 Blinding Asymmetry",
+      "short_description": "Original Claude T2 trials had gold-standard answer labels visible; cross-vendor trials used a blind protocol.",
+      "full_description": "The original T2 Arabic MCQ trials for the three Claude models were conducted with gold-standard answer labels visible to the evaluating system, making the reported 100% accuracy figures upper-bound estimates. Subsequent cross-vendor trials used a blind protocol where gold labels were withheld. This asymmetry means Claude T2 scores may be inflated relative to other vendors."
+    },
+    {
+      "id": "CAV-2",
+      "title": "Same-Vendor Scorer Bias",
+      "short_description": "All rubric scoring was performed by Claude Opus 4.6, including scoring of Claude-family responses.",
+      "full_description": "All rubric-based scoring was performed by Claude Opus 4.6, including scoring of Claude-family responses. RLHF-trained models within the same family may share latent evaluative preferences, potentially inflating rubric scores for same-vendor outputs. This creates a systematic asymmetry favoring Claude-family results in rubric-based comparisons."
+    },
+    {
+      "id": "CAV-3",
+      "title": "Gemini Data Provenance",
+      "short_description": "Gemini results used backfilled template extraction rather than interactive API administration.",
+      "full_description": "Gemini model results were collected through a backfilled protocol with template-based response extraction rather than the interactive API administration used for Claude and OpenAI models. Uniformly low rubric scores (0.0 on Knowledge, Reasoning, Values) may partly reflect this methodological artifact rather than genuine capability gaps. The evidence is underdetermined among three explanations: safety filtering, training data gaps, or protocol artifact."
+    }
+  ],
+  "metadata": {
+    "source_files": [
+      "data/20260404-claim-robustness-tests.json",
+      "COMPARISON/results/vendor-comparison.json",
+      "COMPARISON/results/model-comparison.json",
+      "PAPER-V2/03-discussion.md",
+      "PAPER-V2/02-results.md",
+      "PAPER-V2/00-abstract.md"
+    ],
+    "generated_date": "2026-04-13",
+    "version": "7.0",
+    "note": "All cross-vendor data is Claude-simulated (Sonnet/Haiku roleplay), not real GPT/Gemini API calls"
+  }
+}

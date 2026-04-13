@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "NormEval: A Meta-Evaluation of Normative Ethics Benchmarks for Large Language Models"
+message: "If you use this dataset, please cite it using the metadata from this file."
+type: dataset
+date-released: "2026-04-13"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/cjimmylin/cei-literature"
+url: "https://cjimmylin.github.io/cei-normeval-dashboard-v3/"
+keywords:
+  - normative ethics
+  - LLM evaluation
+  - benchmark meta-evaluation
+  - AI ethics
+  - moral reasoning
+  - care ethics
+  - knowledge-judgment divergence
+abstract: >-
+  A systematic meta-evaluation of 54 normative ethics benchmarks for
+  large language models, characterizing each along 26 features organized
+  into four axes (Normative Depth, Practical Ease, Citation Impact,
+  Metadata) with composite scoring and 15 implementation trials.

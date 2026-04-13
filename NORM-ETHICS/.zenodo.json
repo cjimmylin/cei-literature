@@ -1,0 +1,41 @@
+{
+  "title": "NormEval: A Meta-Evaluation of Normative Ethics Benchmarks for Large Language Models",
+  "description": "Complete replication package for the NormEval meta-evaluation: 54-benchmark feature matrix (26 features, 4 axes), composite scoring with hard gates, 15 implementation trials across Claude Opus/Sonnet/Haiku, interactive dashboards (3 versions), and analysis scripts. Cross-vendor extension data (GPT, Gemini) will be deposited separately upon completion of external replication.",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": {
+    "id": "CC-BY-4.0"
+  },
+  "keywords": [
+    "normative ethics",
+    "LLM evaluation",
+    "benchmark meta-evaluation",
+    "AI ethics",
+    "moral reasoning",
+    "care ethics",
+    "knowledge-judgment divergence",
+    "Claude",
+    "replication package"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://cjimmylin.github.io/cei-normeval-dashboard/",
+      "relation": "isSupplementedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://cjimmylin.github.io/cei-normeval-dashboard-v2/",
+      "relation": "isSupplementedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://cjimmylin.github.io/cei-normeval-dashboard-v3/",
+      "relation": "isSupplementedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    }
+  ],
+  "notes": "SKELETON — Author metadata, version, DOI, and file manifest to be finalized before upload. Cross-vendor (GPT-5, Gemini) data is not included in this deposit; it will be deposited in a separate version upon completion of external model runs."
+}

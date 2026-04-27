@@ -62,6 +62,8 @@ Deng, B. (2024). AI governance with Chinese characteristics: Confucian relationa
 
 Dobbe, R., & Marda, V. (2024). AI governance beyond borders: Lessons from the Global South. *Nature Machine Intelligence*, 6(1), 12--15.
 
+Donthu, N., Kumar, S., Mukherjee, D., Pandey, N., & Lim, W. M. (2021). How to conduct a bibliometric analysis: An overview and guidelines. *Journal of Business Research*, 133, 285--296.
+
 Durmus, E., et al. (2024). Towards measuring the representation of subjective global opinions in language models. In *ACL '24*. ACL.
 
 Eickhoff, J., et al. (2026). UbuntuGuard: A communal-ethics policy evaluation framework for large language models. *arXiv preprint*.
@@ -178,6 +180,8 @@ Ouyang, L., et al. (2022). Training language models to follow instructions with 
 
 Perrigo, B. (2023, January 18). OpenAI used Kenyan workers on less than $2 per hour to make ChatGPT less toxic. *TIME*.
 
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, 372, n71.
+
 Prabhakaran, V., Qadri, R., & Hutchinson, B. (2022). Cultural incongruencies in artificial intelligence. *arXiv preprint arXiv:2211.13069*.
 
 Praeg, L. (2014). *A Report on Ubuntu*. University of KwaZulu-Natal Press.
@@ -265,3 +269,5 @@ Zhang, B., & Dafoe, A. (2019). Artificial intelligence: American attitudes and t
 Zimerman, A., & Tomsett, R. (2023). How fair is fairness? Cross-cultural perspectives on algorithmic justice. In *FAccT '23*. ACM.
 
 Zuboff, S. (2019). *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*. PublicAffairs.
+
+Zupic, I., & Čater, T. (2015). Bibliometric methods in management and organization. *Organizational Research Methods*, 18(3), 429--472.

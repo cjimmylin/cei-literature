@@ -2,16 +2,18 @@
 
 Meaningful evaluation of LLM moral cognition requires comparison against human benchmarks. Without population-level norms, a statement like "GPT-4 shows utilitarian moral reasoning" is empirically unmoored---utilitarian relative to whom? The interpretive power of any psychometric instrument derives not from the raw scores it produces but from the normative framework that gives those scores meaning: developmental trajectories, cross-cultural variation, demographic correlates, and population distributions accumulated over decades of human administration. We assessed A5 (human baseline availability) across all 55 characterized benchmarks and found that this interpretive infrastructure is unevenly distributed.
 
-**Table 8: Human Baseline Availability (A5 Distribution)**
+**Table 8: Human Baseline Availability — Full 292-Candidate Landscape**
 
-| Baseline Level | Description | Count | Percentage |
-|----------------|-------------|-------|------------|
-| Published norms | Population-level data, often cross-cultural, from instrument validation studies | 23 | 42% |
-| Paper-specific | Human comparison data from the benchmark's own study, typically single-sample | 18 | 33% |
-| Partial | Baselines for some dimensions or conditions only | 4 | 7% |
-| None | No human comparison data of any kind | 10 | 18% |
+| Baseline Level | Description | v2.1 (n=55) | v3.0 (n=292) |
+|----------------|-------------|-------------|--------------|
+| Population norms | Cross-cultural norms from validation studies | 23 (42%) | 43 (15%) |
+| Paper-specific | Human comparison sample from benchmark study | 18 (33%) | 68 (23%) |
+| Partial | Baselines for some dimensions only | 4 (7%) | 81 (28%) |
+| None | No human comparison data | 10 (18%) | 100 (34%) |
 
 ![Figure 5: Human baseline availability (A5) across 55 assessed benchmarks](figures/fig6-human-baselines.png)
+
+The full-coverage baseline landscape is considerably more deficient than the pre-selected sample suggested. The fraction of benchmarks with no human data nearly doubles, from 18% (10/55) to 34% (100/292), while the fraction with population-level norms---the gold standard enabling anchored interpretation---falls from 42% to 15%. This divergence reflects the composition of the 292-candidate pool: the 237 candidates not included in the original assessment are predominantly theory-inspired or NLP-origin benchmarks that were designed as classification tasks rather than psychological instruments and were therefore never developed with human comparison data. The original 18% figure should be understood as characteristic of established benchmarks; 34% is characteristic of the full field.
 
 The distribution reveals a baseline landscape stratified into three tiers of interpretive power.
 

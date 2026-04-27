@@ -4,9 +4,9 @@ Studies 1 and 2 established that the scholarly base and evaluation infrastructur
 
 ## 5.1 Claude's Cultural Map Position
 
-CC1 (GlobalOpinionQA, 50 items with human baselines from eight countries) provides the most precise mapping of Claude Opus 4.6's cultural position (Table 7). Mean absolute distances between Claude's responses and country-level human baselines follow the Inglehart--Welzel cultural map almost exactly:
+CC1 (GlobalOpinionQA, 50 items with human baselines from eight countries) provides the most precise mapping of Claude Opus 4.6's cultural position (Table 11). Mean absolute distances between Claude's responses and country-level human baselines follow the Inglehart--Welzel cultural map almost exactly:
 
-**Table 7.** Cultural distance profile for Claude Opus 4.6 (CC1, n = 50 items).
+**Table 11.** Cultural distance profile for Claude Opus 4.6 (CC1, n = 50 items).
 
 | Rank | Country | Mean Absolute Distance | Inglehart--Welzel Quadrant |
 |------|---------|------------------------|---------------------------|
@@ -36,9 +36,9 @@ CC2 (Moral Foundations Questionnaire, 50 items including 30 standard MFQ-30 item
 | **Binding mean** | **1.27** | **2.50** | **3.50** | **3.50** |
 | **Individualizing:Binding ratio** | **3.75**^a^ | **1.40** | **0.86** | **0.86** |
 
-^a^ Computed from pre-rounded foundation summary scores; raw item-level computation yields 3.82. All I:B ratios in this paper use the summary-score derivation for consistency with the comparison pipeline.
+^a^ Computed from pre-rounded foundation summary scores; raw item-level computation yields 3.82 (Opus), 3.14 (Sonnet), and 3.75 (Haiku) — discrepancies of 0.07, 0.09, and 1.07 respectively. The Haiku discrepancy is materially larger than Opus or Sonnet, reflecting the cascading effect of rounding five independent foundation values before aggregation. All I:B ratios in this paper use the summary-score derivation for consistency with the comparison pipeline; raw item-level alternatives are reported parenthetically throughout and verified by the supplementary `verify_mfq.py` reproducibility script.
 
-The individualizing-to-binding ratio (hereafter "I:B ratio") is defined as the mean of the two individualizing foundations (Care/Harm and Fairness/Cheating) divided by the mean of the three binding foundations (Loyalty/Betrayal, Authority/Subversion, and Sanctity/Degradation). The most liberal documented human populations produce an I:B ratio of approximately 1.4 (Graham, Haidt, & Nosek, 2009). Non-WEIRD populations typically show ratios near 0.86, reflecting roughly equal weighting across all five foundations. Claude's ratio of 3.75 is 2.7 times more extreme than the most liberal human population in the MFQ literature and 4.4 times more extreme than the non-WEIRD baseline (Fig. 8).
+The individualizing-to-binding ratio (hereafter "I:B ratio") is defined as the mean of the two individualizing foundations (Care/Harm and Fairness/Cheating) divided by the mean of the three binding foundations (Loyalty/Betrayal, Authority/Subversion, and Sanctity/Degradation). The most liberal documented human populations produce an I:B ratio of approximately 1.4 (Graham, Haidt, & Nosek, 2009). Non-WEIRD populations typically show ratios near 0.86, reflecting roughly equal weighting across all five foundations. Claude's ratio of 3.75 (pre-rounded summary; 3.82 from raw item-level computation, yielding 2.73 times more extreme by the same comparison) is 2.7 times more extreme than the most liberal human population in the MFQ literature and 4.4 times more extreme than the non-WEIRD baseline (Fig. 8).
 
 The binding foundations are not merely underweighted. In its reasoning, Claude treats authority as "inherently suspect," sanctity as "potentially covering for prejudice," and loyalty as "potentially tribalistic." This means that the moral universe inhabited by the majority of humanity---where loyalty, authority, and sanctity are core moral considerations (Haidt, 2012; Atari et al., 2023)---is not simply deprioritized but actively delegitimized in the model's reasoning process.
 
@@ -64,9 +64,9 @@ This gap is not informational: Claude possesses accurate knowledge of all seven 
 
 ## 5.4 RLHF Conflict Taxonomy
 
-Across all ten trials (380 items) administered to three Tier 1 (authentic) Claude models, 703 RLHF conflict instances were identified---moments where the model's alignment training visibly constrained its engagement with cross-cultural moral content (Opus 277, Sonnet 210, Haiku 216). Thematic coding produced six systematic categories (Table 8). Because the theme classifier assigns multiple categories to some conflicts, per-theme counts sum to more than the unique total.
+Across all ten trials (380 items) administered to three Tier 1 (authentic) Claude models, 703 RLHF conflict instances were identified---moments where the model's alignment training visibly constrained its engagement with cross-cultural moral content (Opus 277, Sonnet 210, Haiku 216). Thematic coding produced six systematic categories (Table 12). Because the theme classifier assigns multiple categories to some conflicts, per-theme counts sum to more than the unique total.
 
-**Table 8.** RLHF conflict taxonomy (n = 703 instances across 3 Claude models, CC1--CC10; theme categories are non-exclusive).
+**Table 12.** RLHF conflict taxonomy (n = 703 instances across 3 Claude models, CC1--CC10; theme categories are non-exclusive).
 
 | Conflict Zone | Count | Core Mechanism |
 |---------------|-------|----------------|
@@ -112,7 +112,7 @@ To assess whether these findings are specific to Claude Opus 4.6 or reflect broa
 
 The three Claude models---Opus 4.6, Sonnet 4.6, and Haiku 4.5---were administered all benchmarks through direct API interaction, producing the only fully authentic cross-model comparison in the dataset.
 
-MFQ individualizing-to-binding ratios reveal a non-monotonic pattern with respect to model capability: Haiku (4.82) > Opus (3.75) > Sonnet (3.23). If WEIRD bias tracked model size monotonically, one would expect consistently increasing or decreasing ratios. Instead, the smallest model (Haiku) shows the strongest individualizing skew and the mid-tier model (Sonnet) shows the weakest. This non-monotonic gradient suggests that RLHF calibration varies by model tier in ways that do not simply track capability: Haiku may receive less nuanced RLHF tuning, defaulting more strongly to individualizing heuristics, while Sonnet's lower ratio may reflect more extensive alignment work on balancing moral foundations.
+MFQ individualizing-to-binding ratios reveal a non-monotonic pattern with respect to model capability: Haiku (4.82 pre-rounded summary; **3.75 from raw items, a 1.07-point discrepancy reflecting rounding-order non-commutativity**) > Opus (3.75 pre-rounded; 3.82 raw) > Sonnet (3.23 pre-rounded; 3.14 raw). If WEIRD bias tracked model size monotonically, one would expect consistently increasing or decreasing ratios. Instead, the smallest model (Haiku) shows the strongest individualizing skew under the pre-rounded derivation and the mid-tier model (Sonnet) shows the weakest. This non-monotonic gradient persists under both derivations and suggests that RLHF calibration varies by model tier in ways that do not simply track capability: Haiku may receive less nuanced RLHF tuning, defaulting more strongly to individualizing heuristics, while Sonnet's lower ratio may reflect more extensive alignment work on balancing moral foundations.
 
 Pairwise correlations are high but not uniform: Opus--Sonnet r = 0.952, Opus--Haiku r = 0.915, Sonnet--Haiku r = 0.885. All three models identify Germany as their closest country and Saudi Arabia as their farthest. RLHF conflict counts vary: Opus 277, Haiku 216, Sonnet 210.
 
@@ -120,13 +120,13 @@ Two engagement anomalies merit attention. Sonnet achieved 4.0 on Ubuntu items---
 
 ### 5.6.2 GPT Cross-Model Comparison (Tier 2: Codex-Authored)
 
-GPT-5.4 and GPT-5.4-Mini trial data was generated by Codex rather than by the target models themselves, introducing a systematic confound: the data reflects Codex's prediction of how GPT models would respond, not the models' actual responses (Table 9).
+GPT-5.4 and GPT-5.4-Mini trial data was generated by Codex rather than by the target models themselves, introducing a systematic confound: the data reflects Codex's prediction of how GPT models would respond, not the models' actual responses (Table 13).
 
-**Table 9.** Provenance tier summary and effective sample size estimation.
+**Table 13.** Provenance tier summary and effective sample size estimation.
 
 | Tier | Models | I:B Ratio Range | Pairwise r | Effective N |
 |------|--------|----------------|------------|-------------|
-| 1: Authentic (Claude) | 3 | 3.23--4.82 | 0.885--0.952 | 3.0 |
+| 1: Authentic (Claude) | 3 | 3.14--4.82 (raw items) / 3.23--4.82 (pre-rounded) | 0.885--0.952 | 3.0 |
 | 2: Codex-Authored (GPT) | 2 | 2.48--3.22 | 0.842 | ~1.5 |
 | 3: Aggregate-Convergent (Gemini) | 5 | 3.75 (all identical) | 0.593--0.909 | 1.21 |
 | **Total** | **10** | | | **3.4 (range 3.1--4.8)** |

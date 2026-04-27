@@ -33,7 +33,7 @@ from ethics_scoring import count_matches, load_extract, safe_yaml_set_int
 # ── MFT (Moral Foundations Theory) ──────────────────────────────────
 
 MFT_STRONG = [
-    r"\bmoral foundations\b", r"\bMFT\b", r"\bMFQ\b", r"\bMFTC\b",
+    r"\bmoral foundations\b", r"\bmft\b", r"\bmfq\b", r"\bmftc\b",
     r"\bcare/harm\b", r"\bcare[\s/]harm\b",
     r"\bsanctity/degradation\b", r"\bsanctity[\s/]degradation\b",
     r"\bloyalty/betrayal\b", r"\bloyalty[\s/]betrayal\b",
@@ -60,12 +60,12 @@ MFT_FP = [
 SCHWARTZ_STRONG = [
     r"\bschwartz(?:'s)? theory\b", r"\bschwartz(?:'s)? values?\b",
     r"\bbasic human values\b", r"\bvalue pluralism\b",
-    r"\bSVS\b", r"\bPVQ\b", r"\bportrait values questionnaire\b",
+    r"\bsvs\b", r"\bpvq\b", r"\bportrait values questionnaire\b",
     r"\bshalom schwartz\b",
 ]
 
 SCHWARTZ_MEDIUM = [
-    r"\bschwartz\b(?=.*\b(?:theor|value|pluralism|SVS|PVQ)\b)",
+    r"\bschwartz\b(?=.*\b(?:theor|value|pluralism|svs|pvq)\b)",
     r"\buniversalism\b(?=.*\bvalue\b)",
     r"\bbenevolence\b(?=.*\bvalue\b)",
     r"\bself-direction\b(?=.*\bvalue\b)",
@@ -113,7 +113,7 @@ KOHLBERG_MEDIUM = [
 KOHLBERG_FP = [
     # "Rest" removed — too common a word (FP magnet)
     # "DIT" needs context — acronym collision
-    r"\bDIT\b(?!.*\b(?:kohlberg|moral development|defining issues)\b)",
+    r"\bdit\b(?!.*\b(?:kohlberg|moral development|defining issues)\b)",
     r"\bconventional\b(?!.*\b(?:kohlberg|moral|pre-conventional|post-conventional)\b)",
 ]
 
@@ -125,17 +125,33 @@ DUAL_PROCESS_STRONG = [
     r"\butilitarian vs deontological processing\b",
     r"\bsystem 1.*system 2\b",
     r"\bsystem 2.*system 1\b",
+    # Expanded: Greene's key constructs
+    r"\butilitarian vs\.? deontological\b(?=.*\b(?:judg|reason|dilemma|moral)\b)",
+    r"\bcognitive load\b(?=.*\bmoral\b)",
+    r"\bpersonal force\b(?=.*\b(?:moral|dilemma)\b)",
+    r"\bpersonal vs\.? impersonal\b(?=.*\bdilemma\b)",
+    r"\bgreene\b(?=.*\bmoral\b)",
+    r"\baffect\b(?=.*\bcognition\b)(?=.*\bmoral\b)",
+    r"\bresponse time\b(?=.*\bmoral\b)",
 ]
 
 DUAL_PROCESS_MEDIUM = [
     r"\bdual process\b",
     r"\bfast and slow\b(?=.*\bmoral\b)",
     r"\bautomatic.*deliberat\w*\b(?=.*\bmoral\b)",
+    # Expanded: broader indicators
+    r"\bautomatic\b(?=.*\bmoral\b)(?=.*\b(?:judg|reason|process)\b)",
+    r"\bdeliberat\w+\b(?=.*\bmoral\b)(?=.*\b(?:judg|reason|process)\b)",
+    r"\bsystem 1\b(?=.*\b(?:moral|intuiti|dilemma)\b)",
+    r"\bsystem 2\b(?=.*\b(?:moral|deliberat|dilemma)\b)",
+    r"\beffortful\b(?=.*\bmoral\b)",
+    r"\bemotional response\b(?=.*\b(?:utilitarian|deontological)\b)",
 ]
 
 DUAL_PROCESS_FP = [
     r"\bdual process\b(?=.*\b(?:cognitive science|memory|attention|perception)\b)(?!.*\bmoral\b)",
     r"\bfast and slow\b(?!.*\bmoral\b)",
+    r"\bautomatic\b(?!.*\b(?:moral|ethic|dilemma|utilitarian|deontological)\b)",
 ]
 
 # ── SOCIAL INTUITIONIST MODEL ───────────────────────────────────────
@@ -144,16 +160,30 @@ INTUITIONIST_STRONG = [
     r"\bsocial intuitionist\b",
     r"\bmoral dumbfounding\b",
     r"\breasoning comes second\b",
+    # Expanded: Haidt + context, emotion-first framing
+    r"\bhaidt\b(?=.*\b(?:intuit|moral|foundation|dumbfound)\b)",
+    r"\bpost[- ]hoc rationali[sz]\w+\b(?=.*\bmoral\b)",
+    r"\bgut feeling\b(?=.*\bmoral\b)",
+    r"\bemotion[- ]first\b(?=.*\bmoral\b)",
+    r"\bmoral heuristic\b",
+    r"\bmoral sentiment\b(?=.*\b(?:judgment|intuiti|reason)\b)",
 ]
 
 INTUITIONIST_MEDIUM = [
     r"\bmoral intuition\b",
     r"\bintuitive judgment\b(?=.*\bmoral\b)",
+    # Expanded: broader intuitionist indicators
+    r"\bmoral sentiment\b",
+    r"\bhumean\b(?=.*\bmoral\b)",
+    r"\bsentimentalism\b(?=.*\b(?:moral|ethic)\b)",
+    r"\bintuitive\b(?=.*\bmoral\b)(?=.*\b(?:judg|reason|response)\b)",
+    r"\baffect\b(?=.*\breason\w*\b)(?=.*\bmoral\b)",
 ]
 
 INTUITIONIST_FP = [
     # "SIM" removed entirely — SIM cards, simulations, too many FPs
-    r"\bintuition\b(?!.*\b(?:moral|intuitionist|dumbfounding|judgment|sentiment)\b)",
+    r"\bintuition\b(?!.*\b(?:moral|intuitionist|dumbfounding|judgment|sentiment|ethic)\b)",
+    r"\bsentiment\b(?!.*\b(?:moral|ethic|intuitionist|humean)\b)",
 ]
 
 # ── DYADIC MORALITY ─────────────────────────────────────────────────
@@ -162,15 +192,27 @@ DYADIC_STRONG = [
     r"\bdyadic morality\b",
     r"\bkurt gray\b",
     r"\bmoral typecasting\b",
+    # Expanded: Gray & Schein constructs
+    r"\bharm perception\b(?=.*\b(?:moral|agent|patient)\b)",
+    r"\bschein\b(?=.*\b(?:moral|dyadic|gray|typecasting)\b)",
+    r"\bagent[- ]patient\b(?=.*\bharm\b)",
+    r"\btheory of dyadic morality\b",
 ]
 
 DYADIC_MEDIUM = [
     r"\bmoral dyad\b",
     r"\bagent and patient\b(?=.*\bmoral\b)",
+    # Expanded: broader dyadic indicators
+    r"\bmoral patient\b",
+    r"\bmoral agent\b(?=.*\bpatient\b)",
+    r"\bcomplete moral dyad\b",
+    r"\bharm[- ]based moral\w*\b",
+    r"\bgray\b(?=.*\bschein\b)(?=.*\bmoral\b)",
 ]
 
 DYADIC_FP = [
-    r"\bdyad\b(?!.*\b(?:moral|typecasting|kurt gray)\b)",
+    r"\bdyad\b(?!.*\b(?:moral|typecasting|kurt gray|harm|agent|patient)\b)",
+    r"\bpatient\b(?!.*\b(?:moral|agent|dyad|typecasting|harm)\b)",
 ]
 
 # ── MORAL IDENTITY ──────────────────────────────────────────────────
@@ -213,15 +255,18 @@ TITLE_PATTERNS = {
         re.IGNORECASE,
     ),
     "mp_dual_process": re.compile(
-        r"\bdual process\b|joshua greene|utilitarian vs deontological",
+        r"\bdual process\b|joshua greene|utilitarian vs\.? deontological"
+        r"|cognitive load.*moral|personal force.*dilemma|system 1.*system 2",
         re.IGNORECASE,
     ),
     "mp_intuitionist": re.compile(
-        r"\bsocial intuitionist\b|moral dumbfounding|reasoning comes second",
+        r"\bsocial intuitionist\b|moral dumbfounding|reasoning comes second"
+        r"|moral intuition|moral sentiment|moral heuristic|haidt.*intuit",
         re.IGNORECASE,
     ),
     "mp_dyadic": re.compile(
-        r"\bdyadic morality\b|kurt gray|moral typecasting",
+        r"\bdyadic morality\b|kurt gray|moral typecasting"
+        r"|harm perception.*moral|agent.*patient.*harm|moral dyad",
         re.IGNORECASE,
     ),
     "mp_identity": re.compile(

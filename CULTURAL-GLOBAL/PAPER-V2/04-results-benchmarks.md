@@ -61,7 +61,7 @@ To assess the substantive scope of the evaluation infrastructure, we mapped 44 m
 
 The result: 3 of 44 concepts (6.8%) have any operational measure. The three measured concepts are *ren* (仁, Confucian humaneness/benevolence), *li* (禮, Confucian ritual propriety), and *ubuntu* (communal personhood). The remaining 41 concepts---spanning the moral vocabularies of traditions adhered to by the majority of humanity---are invisible to the evaluation infrastructure.
 
-**Table 4** presents the full concept coverage matrix:
+**Table 8** presents the full concept coverage matrix:
 
 | Tradition | Total Concepts | Measured | Unmeasured | Coverage |
 |-----------|---------------|----------|------------|----------|
@@ -80,7 +80,7 @@ Four entire traditions---Islamic ethics, Dharmic ethics, Buddhist ethics, and In
 
 ### Confucian Ethics
 
-Confucian ethics is the best-represented non-Western tradition, with 30 dedicated benchmarks---a number driven substantially by the growth of Chinese NLP research producing instruments grounded in Chinese moral philosophy. Key instruments include CVC (Chinese Value Corpus), CMoralEval, WYWEB (Classical Chinese evaluation), and C3Bench. However, the coverage is paradoxically shallow. Only 2 of 9 mapped Confucian moral concepts (*ren* and *li*) have operational measures. Filial piety (*xiao*)---arguably the concept most consequential for AI advisory systems serving East Asian users---remains unmeasured, along with harmony (*he*), face (*mianzi*), relational networks (*guanxi*), righteousness (*yi*), wisdom (*zhi*), and trustworthiness (*xin*). Instruments such as CVC and CMoralEval measure cultural knowledge and moral judgment in Chinese contexts, but they do not operationalize the relational ontology that distinguishes Confucian ethics from Western moral philosophy. They test whether a model knows what Confucian concepts mean, not whether it can reason within the relational framework those concepts presuppose (Table 4).
+Confucian ethics is the best-represented non-Western tradition, with 30 dedicated benchmarks---a number driven substantially by the growth of Chinese NLP research producing instruments grounded in Chinese moral philosophy. Key instruments include CVC (Chinese Value Corpus), CMoralEval, WYWEB (Classical Chinese evaluation), and C3Bench. However, the coverage is paradoxically shallow. Only 2 of 9 mapped Confucian moral concepts (*ren* and *li*) have operational measures. Filial piety (*xiao*)---arguably the concept most consequential for AI advisory systems serving East Asian users---remains unmeasured, along with harmony (*he*), face (*mianzi*), relational networks (*guanxi*), righteousness (*yi*), wisdom (*zhi*), and trustworthiness (*xin*). Instruments such as CVC and CMoralEval measure cultural knowledge and moral judgment in Chinese contexts, but they do not operationalize the relational ontology that distinguishes Confucian ethics from Western moral philosophy. They test whether a model knows what Confucian concepts mean, not whether it can reason within the relational framework those concepts presuppose (Table 8).
 
 ### Islamic Ethics
 
@@ -110,7 +110,7 @@ Two benchmarks---Ray (2025) and Neira-Davila (2025)---reference Buen Vivir (*Sum
 
 The geographic distribution of benchmark creators reveals a concentration of evaluative power that mirrors---and in some respects exceeds---the geographic skew documented in Study 1:
 
-**Table 6.** Geographic distribution of benchmark creation.
+**Table 9.** Geographic distribution of benchmark creation.
 
 | Region | Count | % of Total |
 |--------|-------|-----------|
@@ -157,7 +157,7 @@ Most benchmarks test norm recognition---whether the model can identify which cul
 
 TOPSIS ranking with ELECTRE III concordance/discordance veto thresholds, using weights reflecting alignment relevance (0.20), cross-cultural scope (0.20), non-Western coverage (0.15), LLM administrability (0.12), psychometric quality (0.10), evaluation depth (0.10), data availability (0.08), and epistemic provenance (0.05), yielded the following top 10:
 
-**Table 5.** Top 10 benchmarks by TOPSIS score.
+**Table 10.** Top 10 benchmarks by TOPSIS score.
 
 | Rank | Benchmark | TOPSIS | Key Strength |
 |------|-----------|--------|-------------|

@@ -121,7 +121,7 @@ One additional duplicate of an existing vault entry was excluded from the ingest
 
 ### Table S5: Meta-Evaluation Criteria
 
-Seven meta-evaluation criteria were developed to assess benchmark quality along dimensions that numerical scoring cannot fully capture (Section 3.4). These criteria were applied to all gate-passing benchmarks and informed the qualitative assessments reported in Section 4.
+Seven meta-evaluation criteria were developed to assess benchmark quality along dimensions that numerical scoring cannot fully capture (Section 3.4). These criteria were applied to all gate-passing benchmarks and informed the qualitative assessments reported in Sections 4.1--4.4.
 
 **Table S5. Meta-Evaluation Criteria Specification**
 
@@ -141,7 +141,7 @@ Criteria 1--3 and 7 involve categorical judgments made by a single scorer withou
 
 ### Table S6: Cross-Model Response Length Gradient
 
-Response length (mean characters per response) serves as a proxy for cognitive effort across construct types (Section 3.5). The monotonic gradient hypothesis predicts strict K < R < V ordering, reflecting progressively greater cognitive demand as items shift from factual recall (Knowledge) to tradition-internal reasoning (Reasoning) to within-tradition normative engagement (Values). This table reports the full cross-vendor data.
+Response length (mean characters per response) serves as a proxy for cognitive effort across construct types (Section 3.5). The monotonic gradient hypothesis predicts strict K < R < V ordering, reflecting progressively more elaborate responses as items shift from factual recall (Knowledge) to tradition-internal reasoning (Reasoning) to within-tradition normative engagement (Values). This table reports the full cross-vendor data.
 
 **Table S6. Mean Response Length by Model, Construct Type, and Vendor**
 
@@ -223,7 +223,7 @@ The difficulty gradient ($\Delta$) is inconsistent across models. Haiku performs
 
 ### Table S9: Claim Robustness Battery --- Full Statistical Details
 
-Eight empirical claims were pre-registered and subjected to formal statistical testing (Section 3.6). This table presents the complete test specifications, statistics, and outcomes. The Bonferroni-corrected significance threshold is $\alpha_{\text{adj}} = 0.05 / 8 = 0.00625$.
+Eight empirical claims were pre-registered and subjected to formal statistical testing (Section 3.6). This table presents the complete test specifications, statistics, and outcomes. The Bonferroni-corrected significance threshold is $\alpha_{\text{adj}} = 0.05 / 8 = 0.00625$. Values are reported to three decimal places; the main text reports two decimal places for readability.
 
 **Table S9. Statistical Test Results for All Eight Claims**
 
@@ -240,7 +240,7 @@ Eight empirical claims were pre-registered and subjected to formal statistical t
 | C8a | One-sample t | 16 | t = $-$4.93 | 15 | 0.0002 | d = $-$1.232 | --- | PASS | SUPPORTED |
 | C8b | Wilcoxon | 16 | W = 5.0 | --- | 0.0006 | --- | --- | PASS | SUPPORTED |
 | C8c | Binomial ($\geq$ 50) | 16 | k = 3 | --- | 0.011 | --- | --- | FAIL | SUPPORTED ($\alpha$ = 0.05) |
-| C8d | Binomial ($\geq$ 75) | 16 | k = 0 | --- | 0.00002 | --- | --- | PASS | SUPPORTED |
+| C8d | Binomial ($\geq$ 75) | 16 | k = 0 | --- | 0.000015 | --- | --- | PASS | SUPPORTED |
 
 **Claim descriptions.** C1: Tradition asymmetry --- Islam dominates the gate-passing distribution. C1a tests against uniform expectation; C1b tests against corpus-proportional expectation. C2: Knowledge--reasoning conflation --- fewer than expected benchmarks test genuine theological reasoning. C3: Data availability bottleneck --- data accessibility predicts gate passage. C4: Structural epistemic injustice --- tradition family predicts gate passage through logistic regression. C5: WEIRD bias --- non-WEIRD traditions are disadvantaged. C6: WEIRD bias (Fisher's exact) --- WEIRD/non-WEIRD classification is associated with gate passage. C7: Bias--values conflation --- bias and values items are not independently measured. C8: Values relevance failure --- the mean values relevance score among gate-passers is significantly below the scale midpoint.
 

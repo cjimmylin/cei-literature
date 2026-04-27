@@ -1,23 +1,27 @@
 # 4. Results Part I: The Benchmark Landscape
 
-Our five-signal extraction pipeline identified 222 benchmark candidates from a vault of 2,099 AI ethics papers. Of these, 55 received full 28-feature characterization by the twelve-perspective expert council, yielding the first systematic map of how moral psychology theory is represented---and misrepresented---in the LLM evaluation landscape. We present Claims 1--3 here (theoretical distribution, construct validity, and missing theories); Claims 4--5 (human baselines and format mismatch) follow in Section 4.4--4.5.
+Our multi-signal extraction pipeline identified 292 benchmark candidates from a vault of 2,099 AI ethics papers. All 292 received full 158-feature characterization using the batch-calibrated protocol (Section 3.2), yielding the first comprehensive map of how moral psychology theory is represented---and misrepresented---at every quality level in the LLM evaluation landscape. We present Claims 1--3 here (theoretical distribution, construct validity, and missing theories); Claims 4--5 (human baselines and format mismatch) follow in Sections 4.4--4.5.
 
 ## 4.1 MFT Dominance (Claim 1)
 
-Moral Foundations Theory dominates the LLM moral evaluation landscape by every quantitative measure we examined. Of 222 benchmark candidates extracted through multi-signal detection, 101 (45%) engage MFT as a primary or substantial secondary framework---nearly 50% more than the next most represented theory (Schwartz values, 69 papers) and nearly double the third (trolley problems, 58 papers). At every stage of the pipeline---initial vault detection, candidate extraction, depth assessment, and final selection---MFT maintains its plurality (Table 5). This pattern persists despite an explicit theory cap designed to limit over-representation: in the top-15 selection, MFT still occupies 5 slots against a cap of 4, because one benchmark (Fraser et al. [2022]) engages both MFT and Schwartz and counts toward both.
+Moral Foundations Theory dominates the LLM moral evaluation landscape by every quantitative measure we examined. Of 292 benchmark candidates extracted through multi-signal detection, 67 engage MFT as a primary or substantial secondary framework---nearly 50% more than the next most represented theory (Schwartz values, 44 candidates) and more than double the third (trolley problems, 29 candidates). At every quality tier---top, high, medium, and low---MFT maintains its plurality (Table 5). This pattern persists despite an explicit theory cap designed to limit over-representation: in the top-tier selection, MFT still occupies the plurality of slots because its benchmark infrastructure (MFQ-30, MFTC, MFRC) enables the kind of psychometric grounding that no other theory currently matches.
 
-**Table 5: Theory Representation Across the Pipeline**
+**Table 5: Theory Representation and Quality Across the Full 292-Candidate Landscape**
 
-| Theory | Vault Detection (mp_* >= 50) | Candidates (of 222) | Top-15 |
-|--------|------------------------------|---------------------|--------|
-| Moral Foundations Theory | 101 | 28 (MFT-primary) | 5 |
-| Schwartz Values | 69 | 11 | 4 |
-| Trolley Problems | 58 | 13 | 5 |
-| Kohlberg Stages | 35 | 11 | 4 |
-| Social Intuitionism | 18 | 3 | 0 |
-| Moral Identity | 12 | 1 | 0 |
-| Dual Process Theory | 9 | 3 | 0 |
-| Dyadic Morality | 7 | 1 | 1 |
+| Theory | Total Candidates | Top | High | Med | Low | Quality Rate |
+|--------|-----------------|-----|------|-----|-----|-------------|
+| MFT | 67 | 18 | 31 | 13 | 5 | **73%** |
+| Schwartz | 44 | 4 | 21 | 14 | 5 | 57% |
+| Trolley | 29 | 10 | 4 | 10 | 5 | 48% |
+| Kohlberg | 9 | 3 | 2 | 2 | 2 | 56% |
+| Islamic | 22 | 3 | 5 | 5 | 9 | 36% |
+| Social Intuitionism | 3 | 1 | 2 | 0 | 0 | 100% |
+| Buddhist | 16 | 1 | 1 | 3 | 11 | 12% |
+| Ubuntu | 13 | 0 | 0 | 2 | 11 | 0% |
+| Confucian | 13 | 0 | 0 | 0 | 13 | 0% |
+| Dyadic Morality | 2 | 0 | 1 | 0 | 1 | 50% |
+| Indigenous | 4 | 0 | 0 | 0 | 4 | 0% |
+| Identity | 2 | 0 | 0 | 0 | 2 | 0% |
 
 ![Figure 1: Top-15 benchmarks by composite score (PD/PE/CI), with theory affiliation indicated by color. MFT-affiliated benchmarks (red) occupy the highest composite positions, reflecting both genuine psychometric quality and the infrastructure advantages described below.](figures/fig1-composite-scores.png)
 
@@ -37,6 +41,8 @@ The consequences of this skew are threefold. First, an evaluation landscape domi
 
 Second, MFT is a theory of moral *content*---it describes what people care about (harm, fairness, loyalty, authority, purity) but not *how* moral judgments form in the moment. The field's reliance on content-level evaluation means that fundamental questions about LLM moral *processing*---Does chain-of-thought prompting shift judgments in the direction that dual-process theory predicts? Do LLMs exhibit anything analogous to the intuition-first, reasoning-second pattern that social intuitionism documents in humans? Is moral cognition in LLMs organized around the agent-patient dyad?---remain entirely unaddressed by the existing benchmark landscape.
 
+**The cultural quality cliff.** The tier analysis reveals a second dimension of the monoculture problem that extends beyond the Western psychological theories addressed in Claims 1--3. Four moral traditions with ancient philosophical roots---Ubuntu ethics, Confucian moral philosophy, Indigenous ethical frameworks, and moral identity theory---collectively account for 32 candidates yet achieve zero representation in the top or high quality tiers. Every Ubuntu, Confucian, Indigenous, and moral identity benchmark in the landscape scores in the med or low tier, meaning none meets the minimum threshold for research-grade LLM moral evaluation. This is not primarily a problem of effort: researchers have attempted to build these benchmarks (32 candidates exist). It is a problem of infrastructure: unlike MFT's MFQ-30 and MFTC, these traditions lack standardized validated instruments, large annotated corpora, and established psychometric norms. The consequence is that the question "does this LLM align with Confucian moral values?" cannot currently be answered at a publication-ready standard using any existing benchmark.
+
 Third, MFT was developed primarily through studies of American and Western European populations [Haidt and Joseph, 2004; Graham et al., 2013]. While subsequent work has explored MFT cross-culturally [Atari et al., 2023], the five-foundation taxonomy may not capture moral concerns central to non-Western contexts---Confucian filial piety, Ubuntu's relational ethics, Indigenous conceptions of reciprocity with the natural world. An evaluation landscape built on MFT thus risks encoding a culturally specific moral ontology as the universal standard for LLM alignment.
 
 As we demonstrate in Section 5, this theoretical monoculture is compounded by a measurement monoculture: when we administered 23 benchmarks to 9 models from 3 independent vendors, all models produced indistinguishable moral response profiles on MFT instruments (profile correlations r > 0.98), making the field's reliance on MFT not merely narrow in theoretical coverage but redundant in discriminative power.
@@ -47,17 +53,17 @@ Construct validity---the degree to which an instrument measures the theoretical 
 
 ### The Distribution
 
-Across 55 assessed benchmarks, the median A6 (construct validity) score was **3 out of 5**, corresponding to "adapts validated instrument without revalidation for LLMs." The distribution is concentrated in the middle range, with thin tails at both extremes (Table 6; Figure 3).
+The full-coverage distribution reveals a landscape substantially weaker than the pre-selected 55-benchmark sample suggested. The median validity level across all 292 candidates is Level 2 (face validity only)---a full level below the Level 3 median reported in v2.1. More strikingly, 58% of all candidates fall in Level 1 or 2, having either keyword-level engagement with moral psychology (27%) or face validity only (31%). Only 4% achieve multi-study validation, down from 11% when the sample was limited to established benchmarks.
 
-**Table 6: Construct Validity Distribution (A6 Scores)**
+**Table 6: Construct Validity Distribution (A6) — Full 292-Candidate Landscape**
 
-| A6 Score | Interpretation | Count | Percentage |
-|----------|---------------|-------|------------|
-| 5 | Multi-study validated for target population | 6 | 11% |
-| 4 | Single-study validated (or strong indirect evidence) | 20 | 36% |
-| 3 | Adapts validated instrument without revalidation | 20 | 36% |
-| 2 | Theory-inspired, no formal validation | 7 | 13% |
-| 1 | Keyword-level engagement only | 2 | 4% |
+| A6 Score | Interpretation | v2.1 (n=55) | v3.0 (n=292) |
+|----------|---------------|-------------|--------------|
+| 5 (multi-study) | 100 pts | 6 (11%) | 13 (4%) |
+| 4 (single-study) | 75 pts | 20 (36%) | 61 (21%) |
+| 3 (adapts w/o LLM revalidation) | 50 pts | 20 (36%) | 49 (17%) |
+| 2 (face validity only) | 30 pts | 7 (13%) | 91 (31%) |
+| 1 (keyword-level) | 10 pts | 2 (4%) | 78 (27%) |
 
 ![Figure 3: Construct validity (A6) score distribution across 55 assessed benchmarks. The modal score of 3 ("adapts without revalidation") characterizes over a third of the landscape. The 6 benchmarks at A6=5 are labeled individually. The gap between the A6=5 cluster and the A6<=3 majority represents the central validity threat documented in this section.](figures/fig5-construct-validity.png)
 

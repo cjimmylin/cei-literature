@@ -4,7 +4,7 @@ This supplement provides the granular data tables, extended breakdowns, and sens
 
 ### SR1. Per-Tradition x Per-Model Response Length Tables
 
-Table SR1 presents the full 9-cell response length breakdown across 3 Claude models and 3 traditions, decomposed by construct type. Response lengths are reported in characters. The V/K Ratio column reports the ratio of mean Values response length to mean Knowledge response length for each model-tradition pair.
+This section presents the detailed response length data underlying the cross-model construct validity analysis (see Section 4.5). Table SR1 presents the full 9-cell response length breakdown across 3 Claude models and 3 traditions, decomposed by construct type. Response lengths are reported in characters. The V/K Ratio column reports the ratio of mean Values response length to mean Knowledge response length for each model-tradition pair.
 
 **Table SR1.** Mean response length (characters) by model, tradition, and construct type.
 
@@ -34,7 +34,7 @@ The K < R < V response length gradient holds in all 9 cells without exception. T
 
 ### SR2. Per-Tradition Rubric Score Breakdown
 
-Table SR2 presents rubric scores for all Claude model-tradition combinations. Rubric scores are aggregated by construct type using the scales defined in Section 3.5.3 (Knowledge: 0--1.0; Reasoning: 0--3; Values: 0--5; Bias: 0--3), normalized to proportions of maximum for comparability.
+This section extends the rubric ceiling analysis reported in Section 4.5. Table SR2 presents rubric scores for all Claude model-tradition combinations. Rubric scores are aggregated by construct type using the scales defined in Section 3.5.3 (Knowledge: 0--1.0; Reasoning: 0--3; Values: 0--5; Bias: 0--3), normalized to proportions of maximum for comparability.
 
 **Table SR2.** Mean rubric scores (proportion of maximum) by model, tradition, and construct type.
 
@@ -56,7 +56,7 @@ The near-universal ceiling has two implications. First, rubric-based evaluation 
 
 ### SR3. T2 Beginner vs. Advanced Per-Model Breakdown
 
-Table SR3 presents the T2 Arabic MCQ results disaggregated by difficulty level (Beginner and Advanced) and model. The T2 assessment comprises 30 items from the Islamic inheritance law (*fara'id*) evaluation dataset: 15 Beginner items testing basic share allocation rules and 15 Advanced items testing complex multi-heir scenarios with *'awl* (proportional reduction) and *radd* (redistribution).
+This section provides the per-model T2 difficulty breakdown underlying the cross-vendor discrimination analysis (see Sections 4.5--4.6). Table SR3 presents the T2 Arabic MCQ results disaggregated by difficulty level (Beginner and Advanced) and model. The T2 assessment comprises 30 items from the Islamic inheritance law (*fara'id*) evaluation dataset: 15 Beginner items testing basic share allocation rules and 15 Advanced items testing complex multi-heir scenarios with *'awl* (proportional reduction) and *radd* (redistribution).
 
 **Table SR3.** T2 Arabic MCQ accuracy by difficulty level and model. Percentages reflect correct answers out of 15 items per difficulty level and 30 items overall.
 
@@ -86,7 +86,7 @@ Several patterns warrant detailed comment:
 
 ### SR4. Bias-Values Correlation Matrices
 
-Table SR4 presents Pearson correlations between bias and values response lengths for each model, computed across all 10 bias-values item pairs. The independence threshold is set at r < 0.30, following conventional standards for weak-to-negligible correlation.
+This section provides the full correlation data underlying the bias--values independence analysis (see Sections 4.5--4.6). Table SR4 presents Pearson correlations between bias and values response lengths for each model, computed across all 10 bias-values item pairs. The independence threshold is set at r < 0.30, following conventional standards for weak-to-negligible correlation.
 
 **Table SR4.** Bias-values response length Pearson correlations by model.
 
@@ -170,7 +170,7 @@ The community coordination category represents the most tractable gap: Judaism (
 
 ### SR6. Feature Leave-One-Out Analysis
 
-To assess the influence of individual features on the composite ranking, we conducted a leave-one-out analysis in which each of the 16 active scoring features (6 RD, 6 PE, 4 CI weighted features) was removed individually, weights were renormalized within the affected axis, and composite scores and ranks were recomputed.
+To assess the influence of individual features on the composite ranking, we conducted a leave-one-out analysis in which each of the 16 active scoring features (6 RD + 6 PE + 4 CI weighted features) was removed individually, weights were renormalized within the affected axis, and composite scores and ranks were recomputed. Note: C6 (Community Engagement, weight 15) is excluded from the LOO analysis because it has zero variance among gate-passers --- no gate-passing benchmark has an active community engagement campaign --- making its removal trivially equivalent to weight renormalization with no rank impact. The CI axis thus contributes 4 of the 16 LOO features rather than all 5 weighted CI features.
 
 **Table SR6.** Feature leave-one-out impact on the tiered ranking. "Tier shifts" indicates the number of benchmarks whose tier assignment changes; "Max rank displacement" is the largest rank change for any single benchmark; Kendall's tau measures rank-order agreement with the baseline ranking.
 
@@ -207,7 +207,7 @@ The baseline composite weights (RD = 40%, PE = 35%, CI = 25%) embed implicit ass
 
 **Rationale:** This configuration prioritizes theological depth over citation-based influence, shifting the evaluation emphasis from "which benchmarks are well-cited?" to "which benchmarks engage most deeply with tradition-specific reasoning?"
 
-**Table SR7.** Tier 1 membership under baseline vs. WEIRD-neutral weighting (benchmarks appearing in top 11 under each regime).
+**Table SR7.** Tier 1 membership under baseline vs. WEIRD-neutral weighting (benchmarks appearing in top 12 under baseline and top 11 under WEIRD-neutral regime).
 
 | Benchmark | Baseline Tier | WEIRD-Neutral Tier | Shift |
 |-----------|--------------|-------------------|-------|
@@ -227,7 +227,7 @@ Three non-Islamic benchmarks shift into Tier 1 under WEIRD-neutral weighting: Fa
 
 However, Islam still provides the majority of Tier 1 entries (4 of 11) because the increased RD weight rewards theological depth --- and Islamic benchmarks possess high theological depth scores as well as high citation impact. The *maqasid al-shari'ah* framework, *usul al-fiqh* reasoning tests, and *madhab*-aware evaluation designs that generate high RD scores are not artifacts of infrastructure advantage but genuine properties of these benchmarks' theological engagement. Reducing CI weight thus partially decenters Islamic dominance but does not eliminate it, because the dominance has both infrastructural and substantive components.
 
-This finding demonstrates that the current baseline weighting partially reproduces the infrastructure advantages that the main paper diagnoses (Section 4.3). A reviewer concerned that the tiered ranking reflects Western academic prestige rather than theological quality can verify that the top tier is moderately sensitive to CI weight reduction but that Islamic dominance persists under all tested weight configurations --- a robustness finding that actually strengthens the paper's central claim about tradition asymmetry.
+This finding demonstrates that the current baseline weighting partially reproduces the infrastructure advantages that the main paper diagnoses (Sections 4.3 and 5.6). A reviewer concerned that the tiered ranking reflects Western academic prestige rather than theological quality can verify that the top tier is moderately sensitive to CI weight reduction but that Islamic dominance persists under all tested weight configurations --- a robustness finding that actually strengthens the paper's central claim about tradition asymmetry.
 
 ### SR8. Sensitivity Analysis Extended Results
 
@@ -261,6 +261,8 @@ The mean Kendall's tau of 0.773 indicates that approximately 77% of pairwise ran
 | Moderate | 0.30 <= p < 0.80 | 5 | WYWEB [9--33], C3Bench [9--32], FaithBench [2--45], Quran-MD [10--34] |
 | Fragile | 0.01 <= p < 0.30 | 8 | Gospel Coalition [9--34], IslamTrust [11--37], BaniDB [15--36], BuddhismEval [15--39] |
 | Never Top 15 | p = 0.00 | 21 | MITRA [19--28], eBible [19--30], CatholicBench [47--47] |
+
+*Note:* The counts in Table SR8a reflect the pre-removal sample of 47 gate-passers. After post-review removal of Break the Checkbox and BuddhismEval (see Section 4.2), the main text reports 12 Tier 1 benchmarks ($p \geq 0.80$) among the 45 retained gate-passers. Break the Checkbox (listed as Robust above) was removed for zero religious content; BuddhismEval (listed as Fragile above) was removed for data inaccessibility.
 
 **Most robust benchmarks.** Six benchmarks appear in the top 15 under all 61 tested weight configurations (p = 1.000): ELQV, IslamicMMLU, Break the Checkbox, AceGPT, Addressing Religious Hate Online, and PapersPlease. These benchmarks combine high scores across all three axes (RD, PE, CI), making them insensitive to weight perturbation. ELQV is the single most stable benchmark, with a rank range of [1, 4] --- it never drops below rank 4 regardless of weighting.
 

@@ -400,16 +400,55 @@ def build_data_js() -> str:
         ]
     }
 
-    # ── Tab 8: Cross-Model (placeholder) ──────────────────────────────
-    cross_model = {
-        "status": "pending",
-        "message": "Cross-model replication pending. Requires GPT-4o, Llama-3, DeepSeek API keys.",
-        "baseline": {
-            "model": "Claude Opus 4.6",
-            "trials_completed": 15,
-            "avg_accuracy": trial_data["avg_accuracy"]
+    # ── Tab 8: Cross-Model Comparison ───────────────────────────────
+    cross_model_file = STATS_DIR / "20260404-normeval-cross-model-comparison.json"
+    if cross_model_file.exists():
+        with open(cross_model_file) as f:
+            cm_data = json.load(f)
+        cross_model = {
+            "status": "complete",
+            "models": cm_data["meta"]["models"],
+            "trials_completed": cm_data["meta"]["trials_completed"],
+            "total_items": cm_data["meta"]["total_items_compared"],
+            "findings": cm_data["cross_cutting_findings"],
+            "agreement_matrix": cm_data["pairwise_agreement_matrix"],
+            "per_trial": cm_data["per_trial_summary"],
+            "key_charts": {
+                "ih_scaling": {
+                    "title": "Instrumental Harm Acceptance by Model Size",
+                    "models": ["Opus 4.6", "Sonnet 4.6", "Haiku 4.5"],
+                    "IH_means": [3.0, 3.2, 4.47],
+                    "IB_means": [4.7, 5.0, 4.87],
+                    "philosopher_IH": 4.5,
+                    "lay_IH": 2.8
+                },
+                "cbr_rate": {
+                    "title": "Cost-Benefit Reasoning Rate on Moral Dilemmas (T14)",
+                    "models": ["Opus 4.6", "Sonnet 4.6", "Haiku 4.5"],
+                    "cbr_percent": [46.2, 53.8, 69.2]
+                },
+                "knowledge_vs_judgment": {
+                    "title": "Knowledge Items vs Judgment Items Agreement",
+                    "categories": ["Medical Ethics (T6,T11)", "Commonsense (T9)", "Moral Dilemmas (T14)", "Utilitarian Scale (T13)"],
+                    "three_way_agreement": [100, 100, 59.1, "variable"]
+                },
+                "persuasion_resistance": {
+                    "title": "Decision Change Rate Under Persuasion (T7)",
+                    "models": ["Opus 4.6", "Sonnet 4.6", "Haiku 4.5"],
+                    "dcr_percent": [66.7, 0.0, 33.3]
+                }
+            }
         }
-    }
+    else:
+        cross_model = {
+            "status": "pending",
+            "message": "Cross-model comparison file not found.",
+            "baseline": {
+                "model": "Claude Opus 4.6",
+                "trials_completed": 15,
+                "avg_accuracy": trial_data["avg_accuracy"]
+            }
+        }
 
     # ── Tab 9: Gaps & Recommendations ─────────────────────────────────
     mining_include = [m for m in vault_mining if m.get("recommendation") == "INCLUDE"]

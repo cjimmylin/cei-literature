@@ -23,3 +23,7 @@ AI Labs/**/*.pdf
 
 # RECYCLE-BIN directory (deleted/archived files - should not be synced)
 RECYCLE-BIN/
+
+# BACKGROUND original PDFs (large binary files - text extracts are tracked instead)
+CULTURAL-GLOBAL/BACKGROUND/ORIG/
+CULTURAL-GLOBAL/BACKGROUND/Documents/

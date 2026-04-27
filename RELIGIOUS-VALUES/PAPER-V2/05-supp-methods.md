@@ -245,8 +245,8 @@ The bootstrap procedure uses Dirichlet-weighted resampling:
 | Mean bootstrap CI width | 15.87 points |
 | Total composite score spread | 22.3 points |
 | CI coverage of spread | 71.2% |
-| Robust benchmarks ($p \geq 0.80$) | 11 |
-| Likely benchmarks ($0.30 \leq p < 0.80$) | 4 |
+| Robust benchmarks ($p \geq 0.80$) | 12 |
+| Likely benchmarks ($0.30 \leq p < 0.80$) | 3 |
 | Contested benchmarks ($0.01 \leq p < 0.30$) | 10 |
 
 #### S5.5 Gate Threshold Sensitivity
@@ -258,7 +258,7 @@ The gate threshold analysis (`gate_threshold_sensitivity()` in `scripts/20260404
 
 #### S5.6 Feature Leave-One-Out
 
-The leave-one-out analysis removes each of the 16 active scoring features (6 RD + 6 PE + 4 CI) individually, renormalizes the remaining within-axis weights to sum to 1.0, recomputes axis and composite scores for all gate-passers using baseline inter-axis weights, and measures:
+The leave-one-out analysis removes each of the 16 active scoring features (6 RD + 6 PE + 4 CI; C6 excluded due to zero variance among gate-passers) individually, renormalizes the remaining within-axis weights to sum to 1.0, recomputes axis and composite scores for all gate-passers using baseline inter-axis weights, and measures:
 - Maximum rank displacement for any single benchmark
 - Kendall's $\tau$ between the modified and baseline rankings
 - Number of top-15 membership changes (entries swapped in or out)

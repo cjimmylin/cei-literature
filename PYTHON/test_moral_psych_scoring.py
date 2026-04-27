@@ -459,5 +459,140 @@ class TestParseMoralPsychologyString(unittest.TestCase):
         self.assertEqual(result, ["Value Pluralism / Schwartz"])
 
 
+# =====================================================================
+# 8. EXPANDED TRUE POSITIVE TESTS (underrepresented theories)
+# =====================================================================
+
+class TestExpandedTruePositives(unittest.TestCase):
+    """Verify expanded patterns detect underrepresented theories."""
+
+    # ── Dual Process ──
+    def test_utilitarian_vs_deontological_judgment_triggers_dual_process(self):
+        text = "We examine the utilitarian vs deontological judgment patterns in moral dilemmas."
+        score = compute_mp_score(text, "", "mp_dual_process")
+        self.assertGreaterEqual(score, 50)
+
+    def test_cognitive_load_moral_triggers_dual_process(self):
+        text = "Under cognitive load, participants shifted from deontological to utilitarian moral judgments."
+        score = compute_mp_score(text, "", "mp_dual_process")
+        self.assertGreaterEqual(score, 50)
+
+    def test_response_time_moral_triggers_dual_process(self):
+        text = "Response time analysis showed that moral judgments favoring utilitarian outcomes took longer."
+        score = compute_mp_score(text, "", "mp_dual_process")
+        self.assertGreaterEqual(score, 50)
+
+    def test_greene_moral_triggers_dual_process(self):
+        text = "Building on Greene's work on moral cognition, we tested dual-process predictions."
+        score = compute_mp_score(text, "", "mp_dual_process")
+        self.assertGreaterEqual(score, 50)
+
+    def test_personal_force_dilemma_triggers_dual_process(self):
+        text = "Personal force scenarios in moral dilemma experiments elicit stronger deontological responses."
+        score = compute_mp_score(text, "", "mp_dual_process")
+        self.assertGreaterEqual(score, 50)
+
+    def test_affect_cognition_moral_triggers_dual_process(self):
+        text = "The tension between affect and cognition in moral decision-making."
+        score = compute_mp_score(text, "", "mp_dual_process")
+        self.assertGreaterEqual(score, 50)
+
+    # ── Intuitionist ──
+    def test_post_hoc_rationalization_moral_triggers_intuitionist(self):
+        text = "Post-hoc rationalization of moral judgments suggests reasoning follows intuition."
+        score = compute_mp_score(text, "", "mp_intuitionist")
+        self.assertGreaterEqual(score, 50)
+
+    def test_gut_feeling_moral_triggers_intuitionist(self):
+        text = "A gut feeling drives the initial moral assessment before deliberation."
+        score = compute_mp_score(text, "", "mp_intuitionist")
+        self.assertGreaterEqual(score, 50)
+
+    def test_moral_sentiment_judgment_triggers_intuitionist(self):
+        text = "Moral sentiment guides judgment before any explicit reasoning occurs."
+        score = compute_mp_score(text, "", "mp_intuitionist")
+        self.assertGreaterEqual(score, 50)
+
+    def test_haidt_intuitionist_triggers_intuitionist(self):
+        text = "Following Haidt's intuitionist framework, we examine how moral intuitions shape responses."
+        score = compute_mp_score(text, "", "mp_intuitionist")
+        self.assertGreaterEqual(score, 50)
+
+    def test_moral_heuristic_triggers_intuitionist(self):
+        text = "The moral heuristic account proposes fast-and-frugal moral judgments."
+        score = compute_mp_score(text, "", "mp_intuitionist")
+        self.assertGreaterEqual(score, 50)
+
+    def test_emotion_first_moral_triggers_intuitionist(self):
+        text = "An emotion-first account of moral cognition where affect precedes reasoning."
+        score = compute_mp_score(text, "", "mp_intuitionist")
+        self.assertGreaterEqual(score, 50)
+
+    # ── Dyadic ──
+    def test_harm_perception_moral_triggers_dyadic(self):
+        text = "Harm perception between a moral agent and patient drives moral judgment."
+        score = compute_mp_score(text, "", "mp_dyadic")
+        self.assertGreaterEqual(score, 50)
+
+    def test_schein_moral_triggers_dyadic(self):
+        text = "Schein and Gray's theory of dyadic morality posits that moral cognition requires agent and patient."
+        score = compute_mp_score(text, "", "mp_dyadic")
+        self.assertGreaterEqual(score, 50)
+
+    def test_agent_patient_harm_triggers_dyadic(self):
+        text = "The agent-patient dyad where intentional harm defines the moral violation."
+        score = compute_mp_score(text, "", "mp_dyadic")
+        self.assertGreaterEqual(score, 50)
+
+    # ── Abbreviation case fix verification ──
+    def test_mft_abbreviation_lowercase_triggers(self):
+        text = "We applied the MFT and MFQ instruments to evaluate LLM moral reasoning."
+        score = compute_mp_score(text, "", "mp_mft")
+        self.assertGreaterEqual(score, 50)
+
+    def test_pvq_abbreviation_lowercase_triggers(self):
+        text = "We administered the PVQ and SVS to 10 language models."
+        score = compute_mp_score(text, "", "mp_schwartz")
+        self.assertGreaterEqual(score, 50)
+
+
+# =====================================================================
+# 9. EXPANDED FALSE POSITIVE TESTS
+# =====================================================================
+
+class TestExpandedFalsePositives(unittest.TestCase):
+    """Verify expanded patterns do NOT trigger on non-moral contexts."""
+
+    def test_automatic_without_moral_no_dual_process(self):
+        text = "Automatic speech recognition systems process audio in real time."
+        score = compute_mp_score(text, "", "mp_dual_process")
+        self.assertLess(score, 50)
+
+    def test_gut_without_moral_no_intuitionist(self):
+        text = "Gut microbiome analysis reveals dietary patterns in populations."
+        score = compute_mp_score(text, "", "mp_intuitionist")
+        self.assertLess(score, 50)
+
+    def test_harm_without_dyadic_context_no_dyadic(self):
+        text = "Harm reduction in drug policy has shown positive outcomes."
+        score = compute_mp_score(text, "", "mp_dyadic")
+        self.assertLess(score, 50)
+
+    def test_sentiment_analysis_no_intuitionist(self):
+        text = "Sentiment analysis of movie reviews showed positive trends."
+        score = compute_mp_score(text, "", "mp_intuitionist")
+        self.assertLess(score, 50)
+
+    def test_patient_doctor_no_dyadic(self):
+        text = "Patient care in hospital settings requires empathetic communication."
+        score = compute_mp_score(text, "", "mp_dyadic")
+        self.assertLess(score, 50)
+
+    def test_greene_without_moral_no_dual_process(self):
+        text = "Greene published a study on bacterial genetics and antibiotic resistance."
+        score = compute_mp_score(text, "", "mp_dual_process")
+        self.assertLess(score, 50)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -6,9 +6,9 @@ This section presents the findings of Study 1, which maps the cultural topograph
 
 The 2,329 papers span sixteen years of AI ethics scholarship, though the temporal distribution is heavily right-skewed: 2025 alone accounts for 943 papers (40.5%), followed by 2024 (562, 24.1%), 2023 (207, 8.9%), and all years prior to 2022 combined (334, 14.3%). This concentration reflects the exponential growth of the field following the release of ChatGPT in late 2022 and the subsequent surge in alignment-focused research.
 
-The WEIRD score distribution across the corpus (Fig. 1) confirms the central diagnostic of this paper. The mean WEIRD score is 64.5 (SD = 17.3), placing the average paper firmly in the upper half of the 0--100 scale. The distribution is right-skewed, with its peak in the 70--80 range, indicating that the modal paper in AI ethics is produced from an institutional context that is markedly Western, educated, industrialized, rich, and democratic. The tier breakdown makes the skew explicit (Table 2): 1,221 papers (59.7%) fall in the High-WEIRD tier (scores 70--100), 255 (12.5%) in the Moderate-WEIRD tier (50--69), 520 (25.4%) in the Low-WEIRD tier (30--49), and only 50 (2.4%) in the Non-WEIRD tier (0--29). Nearly six in ten AI ethics papers originate from the most WEIRD institutional contexts.
+The WEIRD score distribution across the corpus (Fig. 1) confirms the central diagnostic of this paper. The mean WEIRD score is 64.5 (SD = 17.3), placing the average paper firmly in the upper half of the 0--100 scale. The distribution is right-skewed, with its peak in the 70--80 range, indicating that the modal paper in AI ethics is produced from an institutional context that is markedly Western, educated, industrialized, rich, and democratic. The tier breakdown makes the skew explicit (Table 5): 1,221 papers (59.7%) fall in the High-WEIRD tier (scores 70--100), 255 (12.5%) in the Moderate-WEIRD tier (50--69), 520 (25.4%) in the Low-WEIRD tier (30--49), and only 50 (2.4%) in the Non-WEIRD tier (0--29). Nearly six in ten AI ethics papers originate from the most WEIRD institutional contexts.
 
-**Table 2.** WEIRD tier distribution across the corpus.
+**Table 5.** WEIRD tier distribution across the corpus.
 
 | Tier | Score Range | Count | % of Corpus |
 |------|------------|-------|-------------|
@@ -19,9 +19,9 @@ The WEIRD score distribution across the corpus (Fig. 1) confirms the central dia
 
 Disaggregating the composite score reveals which WEIRD dimensions are most pronounced. Each sub-dimension is scored 0--20; the means are: Western (W) 15.6, Industrialized (I) 13.4, Rich (R) 13.1, Democratic (D) 12.2, and Educated (E) 10.2. The Western sub-dimension's dominance---scoring nearly four times higher than the theoretical midpoint of 10---confirms that the geographic concentration of AI ethics research in Western institutions, rather than socioeconomic factors alone, is the primary driver of the WEIRD bias. The Educated sub-dimension scores lowest, reflecting the relatively broad educational contexts represented beyond elite university populations.
 
-The geographic concentration is stark (Table 1). North America contributes 39.5% of the corpus (809 papers), followed by Western Europe at 20.6% (421). Together, these two regions produce 60.1% of all AI ethics papers. East Asia is the largest non-Western contributor at 12.7% (260), followed by MENA at 5.5% (113), South Asia at 5.0% (103), Southeast Asia at 5.0% (102), Latin America and the Caribbean at 4.4% (90), Eastern Europe and Central Asia at 2.9% (59), Oceania at 1.9% (38), and Sub-Saharan Africa at 1.1% (22).
+The geographic concentration is stark (Table 6). North America contributes 39.5% of the corpus (809 papers), followed by Western Europe at 20.6% (421). Together, these two regions produce 60.1% of all AI ethics papers. East Asia is the largest non-Western contributor at 12.7% (260), followed by MENA at 5.5% (113), South Asia at 5.0% (103), Southeast Asia at 5.0% (102), Latin America and the Caribbean at 4.4% (90), Eastern Europe and Central Asia at 2.9% (59), Oceania at 1.9% (38), and Sub-Saharan Africa at 1.1% (22).
 
-**Table 1.** Geographic distribution of the corpus by macro-region.
+**Table 6.** Geographic distribution of the corpus by macro-region.
 
 | Region | n | % of Corpus | Global Classification |
 |--------|---|-------------|----------------------|
@@ -108,9 +108,9 @@ The regional and framework analyses converge on a set of critical coverage gaps 
 
 ### Geographic Gaps
 
-The representation index (Table 3)---defined as each region's share of the corpus divided by its share of the world population---quantifies the geographic imbalance.
+The representation index (Table 7)---defined as each region's share of the corpus divided by its share of the world population---quantifies the geographic imbalance.
 
-**Table 3.** Regional representation index (corpus share / population share).
+**Table 7.** Regional representation index (corpus share / population share).
 
 | Region | Corpus % | World Pop. % (approx.) | Representation Index |
 |--------|----------|------------------------|----------------------|

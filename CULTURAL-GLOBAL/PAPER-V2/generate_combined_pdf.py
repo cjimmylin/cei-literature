@@ -11,8 +11,8 @@ import textwrap
 from fpdf import FPDF
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-VERSION = "v2.0"
-DATE_PREFIX = "20260405"
+VERSION = "v2.1"
+DATE_PREFIX = "20260412"
 
 # ── Output path ──────────────────────────────────────────────
 OUT_FILE = os.path.join(BASE, f"{DATE_PREFIX}-cross-cultural-ai-values-alignment-{VERSION}.pdf")
@@ -73,10 +73,10 @@ class PaperPDF(FPDF):
         self.ln(10)
         self.set_font("ArialUni", "", 9)
         self.multi_cell(0, 5,
-            "This document contains all paper sections except the Introduction & Literature Review.\n"
-            "Includes: Abstract, Methods, Results (Studies 1-3 + Synthesis), Discussion, Conclusion,\n"
-            "References, 10 Main Figures, 10 Main Tables, and Supplementary Materials\n"
-            "(5 supplementary text sections, 7 supplementary figures, 8 supplementary tables).",
+            "Complete paper: Introduction, Abstract, Methods, Results (Studies 1-3 + Synthesis),\n"
+            "Discussion, Conclusion, References, Endmatter, 10 Main Figures, 14 Tables,\n"
+            "and Supplementary Materials (5 text sections, 14 supplementary figures,\n"
+            "including 2 corpus assembly flowcharts and 5 regenerated at 600 DPI).",
             align="C")
         self.ln(15)
 
@@ -305,6 +305,11 @@ def build_combined_pdf():
     pdf.section_break("Abstract")
     pdf.render_markdown(os.path.join(BASE, "00-abstract.md"))
 
+    # ── INTRODUCTION ────────────────────────────────────────
+    pdf.section_break("1. Introduction")
+    pdf._is_first_table_row = True
+    pdf.render_markdown(os.path.join(BASE, "01-introduction.md"))
+
     # ── METHODS ──────────────────────────────────────────────
     pdf.section_break("2. Methods")
     pdf._is_first_table_row = True
@@ -344,6 +349,11 @@ def build_combined_pdf():
     pdf.section_break("9. References")
     pdf._is_first_table_row = True
     pdf.render_markdown(os.path.join(BASE, "09-references.md"))
+
+    # ── ENDMATTER ───────────────────────────────────────────
+    pdf.section_break("10. Endmatter")
+    pdf._is_first_table_row = True
+    pdf.render_markdown(os.path.join(BASE, "10-endmatter.md"))
 
     # ── MAIN FIGURES ─────────────────────────────────────────
     pdf.section_break("Main Figures")

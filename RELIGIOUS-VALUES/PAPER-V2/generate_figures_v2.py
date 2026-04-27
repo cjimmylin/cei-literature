@@ -390,6 +390,219 @@ def figs5_cross_vendor_length():
     print("  figS5 done")
 
 
+# ── Figure S2: Gate Threshold Sensitivity Curves ─────────────────────
+
+def figs2_gate_threshold_sensitivity():
+    """Joint-gate sensitivity sweep with tradition coverage on secondary axis.
+
+    Loads real sensitivity data from data/20260404-sensitivity-analysis.json.
+    Shows how the joint (RD AND data availability) gate count changes across
+    RD thresholds, plus tradition-family coverage as a secondary y-axis. The
+    baseline (RD=30) is marked, and the void-traditions-gained annotations
+    document which traditions enter the gate-passing set at lower thresholds.
+    """
+    sens_path = os.path.join(DATA_DIR, "20260404-sensitivity-analysis.json")
+    with open(sens_path) as f:
+        sens = json.load(f)
+    gt_results = sens["gate_threshold"]["results"]
+
+    thresholds = [r["threshold"] for r in gt_results]
+    joint = [r["gate_passers"] for r in gt_results]
+    traditions = [r["traditions_represented"] for r in gt_results]
+    voids_gained = [len(r.get("void_traditions_gained", [])) for r in gt_results]
+
+    fig, ax1 = plt.subplots(figsize=(9.5, 5.8))
+
+    # Primary axis: joint gate count
+    line1 = ax1.plot(thresholds, joint, "o-", linewidth=2.5, markersize=9,
+                     color=OI_BLUE, label="Joint gate-passers (RD \u2227 data availability)")
+    ax1.set_xlabel("RD (Religious/Theological Depth) Threshold")
+    ax1.set_ylabel("Number of Gate-Passing Candidates", color=OI_BLUE)
+    ax1.tick_params(axis="y", labelcolor=OI_BLUE)
+    ax1.set_yscale("log")
+    ax1.set_xticks(thresholds)
+    ax1.grid(True, alpha=0.3, linestyle=":")
+
+    # Annotate gate count at each point
+    for t, j in zip(thresholds, joint):
+        ax1.annotate(f"{j}", (t, j), textcoords="offset points",
+                     xytext=(8, 4), ha="left", fontsize=9, color=OI_BLUE,
+                     fontweight="bold")
+
+    # Secondary axis: traditions represented
+    ax2 = ax1.twinx()
+    line2 = ax2.plot(thresholds, traditions, "s--", linewidth=2, markersize=8,
+                     color=OI_ORANGE, label="Tradition families represented",
+                     alpha=0.9)
+    ax2.set_ylabel("Tradition Families with $\\geq$1 Gate-Passer",
+                   color=OI_ORANGE)
+    ax2.tick_params(axis="y", labelcolor=OI_ORANGE)
+    ax2.set_ylim(0, 14)
+    ax2.set_yticks(range(0, 15, 2))
+
+    # Annotate tradition counts
+    for t, n in zip(thresholds, traditions):
+        ax2.annotate(f"{n}", (t, n), textcoords="offset points",
+                     xytext=(8, -12), ha="left", fontsize=9, color=OI_RED,
+                     fontstyle="italic")
+
+    # Mark baseline at RD=30
+    ax1.axvline(30, color=OI_BLACK, linestyle="-", linewidth=1.2, alpha=0.5)
+    ax1.text(30.3, ax1.get_ylim()[1] * 0.5, "Baseline\n(RD=30)",
+             fontsize=9, va="center", ha="left", alpha=0.75, fontweight="bold")
+
+    # Footnote box: void traditions gained at low thresholds
+    void_note = (
+        "Void traditions gained at lower RD thresholds:\n"
+        "RD=15: +5 (Indigenous, Jainism, Judaism, Taoism, Ubuntu)\n"
+        "RD=20: +2 (Jainism, Judaism)\n"
+        "RD=25 to 50: no additional traditions"
+    )
+    ax1.text(0.98, 0.02, void_note, transform=ax1.transAxes,
+             fontsize=8, va="bottom", ha="right",
+             bbox=dict(boxstyle="round,pad=0.4", facecolor="white",
+                       edgecolor="gray", alpha=0.95))
+
+    # Combined legend
+    lines = line1 + line2
+    labels = [l.get_label() for l in lines]
+    ax1.legend(lines, labels, loc="upper right", framealpha=0.95,
+               bbox_to_anchor=(1.0, 1.0))
+
+    ax1.set_title("Figure S2: Gate Threshold Sensitivity (Joint Gate Sweep)")
+    sns.despine(right=False)
+    fig.tight_layout()
+    fig.savefig(os.path.join(FIGURES_DIR, "fig-s2-gate-threshold-sensitivity.png"))
+    plt.close(fig)
+    print("  figS2 done")
+
+
+# ── Figure S6: Bias-Values Scatter Plots Per Model ───────────────────
+
+def figs6_bias_values_scatter():
+    """Scatter plots of bias-item vs values-item response lengths per Claude model.
+
+    Loads real trial data from data/20260404-trial-{tradition}-{model}.json.
+    Each point pairs a bias item with the matched values item from the same
+    tradition. Pearson r is computed and annotated per panel.
+    """
+    import glob
+    from scipy.stats import pearsonr
+
+    models = ["opus", "sonnet", "haiku"]
+    traditions = ["islam", "christianity", "hinduism"]
+    trad_colors = {"islam": OI_BLUE, "christianity": OI_ORANGE, "hinduism": OI_GREEN}
+
+    fig, axes = plt.subplots(1, 3, figsize=(13, 4.5))
+    fig.suptitle("Figure S6: Bias vs Values Response Length (Per Model)", fontsize=14)
+
+    for col, model in enumerate(models):
+        ax = axes[col]
+        all_x, all_y = [], []
+        all_colors = []
+
+        for trad in traditions:
+            trial_path = os.path.join(DATA_DIR, f"20260404-trial-{trad}-{model}.json")
+            if not os.path.exists(trial_path):
+                continue
+            with open(trial_path) as fp:
+                trial = json.load(fp)
+
+            # Build maps: numeric index -> response length
+            # Prefer values_paired items (Sonnet, Haiku); fall back to regular
+            # values items paired by index (Opus, which lacks values_paired).
+            bias_by_idx = {}
+            values_paired_by_idx = {}
+            values_by_idx = {}
+            for r in trial["results"]:
+                if r["type"] == "bias":
+                    # item_id like "bias_christianity_1"
+                    parts = r["item_id"].rsplit("_", 1)
+                    if len(parts) == 2 and parts[1].isdigit():
+                        bias_by_idx[int(parts[1])] = len(r["response"])
+                elif r["type"] == "values_paired":
+                    # item_id like "values_christianity_1"
+                    parts = r["item_id"].rsplit("_", 1)
+                    if len(parts) == 2 and parts[1].isdigit():
+                        values_paired_by_idx[int(parts[1])] = len(r["response"])
+                elif r["type"] == "values":
+                    # item_id like "christianity_V1"
+                    suffix = r["item_id"].split("_")[-1]
+                    if suffix.startswith("V") and suffix[1:].isdigit():
+                        values_by_idx[int(suffix[1:])] = len(r["response"])
+
+            # Use values_paired if available, else fall back to regular values
+            if values_paired_by_idx:
+                values_source = values_paired_by_idx
+            else:
+                values_source = values_by_idx
+
+            # Pair by index
+            common = sorted(set(bias_by_idx) & set(values_source))
+            for idx in common:
+                all_x.append(bias_by_idx[idx])
+                all_y.append(values_source[idx])
+                all_colors.append(trad_colors[trad])
+
+        if len(all_x) < 2:
+            ax.text(0.5, 0.5, "Insufficient\npaired data",
+                    transform=ax.transAxes, ha="center", va="center",
+                    fontsize=11, color="gray")
+            ax.set_title(model.capitalize())
+            continue
+
+        x_arr = np.array(all_x)
+        y_arr = np.array(all_y)
+        r, p = pearsonr(x_arr, y_arr)
+
+        ax.scatter(x_arr, y_arr, c=all_colors, s=70, alpha=0.75,
+                   edgecolor="white", linewidth=0.8)
+
+        # Diagonal y=x reference line
+        lim = max(x_arr.max(), y_arr.max()) * 1.1
+        ax.plot([0, lim], [0, lim], "--", color="gray", linewidth=1, alpha=0.6)
+
+        # Linear regression line
+        if len(x_arr) >= 2:
+            coeffs = np.polyfit(x_arr, y_arr, 1)
+            x_line = np.array([x_arr.min(), x_arr.max()])
+            y_line = coeffs[0] * x_line + coeffs[1]
+            ax.plot(x_line, y_line, "-", color=OI_BLACK, linewidth=1.5, alpha=0.8)
+
+        # Annotate r with independence verdict
+        independent = "independent" if r < 0.30 else "conflated"
+        verdict_color = OI_GREEN if r < 0.30 else OI_RED
+        ax.text(0.05, 0.95, f"r = {r:.3f}\n({independent})",
+                transform=ax.transAxes, fontsize=10, va="top",
+                fontweight="bold", color=verdict_color,
+                bbox=dict(boxstyle="round,pad=0.3", facecolor="white",
+                          edgecolor=verdict_color, alpha=0.9))
+
+        ax.set_title(f"{model.capitalize()} (n={len(x_arr)} pairs)")
+        ax.set_xlabel("Bias item response length (chars)")
+        if col == 0:
+            ax.set_ylabel("Values item response length (chars)")
+        ax.set_xlim(0, lim)
+        ax.set_ylim(0, lim)
+        ax.grid(True, alpha=0.3, linestyle=":")
+
+    # Tradition legend (shared)
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor=trad_colors["islam"], label="Islam"),
+        Patch(facecolor=trad_colors["christianity"], label="Christianity"),
+        Patch(facecolor=trad_colors["hinduism"], label="Hinduism"),
+    ]
+    fig.legend(handles=legend_elements, loc="lower center", ncol=3,
+               bbox_to_anchor=(0.5, -0.02), frameon=False)
+
+    sns.despine()
+    fig.tight_layout(rect=[0, 0.03, 1, 0.95])
+    fig.savefig(os.path.join(FIGURES_DIR, "fig-s6-bias-values-scatter.png"))
+    plt.close(fig)
+    print("  figS6 done")
+
+
 # ── Figure S7: T2 Beginner vs. Advanced ──────────────────────────────
 
 def figs7_t2_beginner_advanced():
@@ -470,8 +683,10 @@ if __name__ == "__main__":
     fig13_vendor_radar()
 
     print("\nSupplementary figures:")
+    figs2_gate_threshold_sensitivity()
     figs4_tradition_gradient()
     figs5_cross_vendor_length()
+    figs6_bias_values_scatter()
     figs7_t2_beginner_advanced()
     figs8_year_distribution()
 

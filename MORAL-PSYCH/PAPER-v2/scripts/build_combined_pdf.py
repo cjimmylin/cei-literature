@@ -23,7 +23,7 @@ PAPER_DIR = SCRIPT_DIR.parent
 SECTIONS_DIR = PAPER_DIR / "sections"
 SUPP_DIR = PAPER_DIR / "supplementary"
 FIGURES_DIR = PAPER_DIR / "figures"
-OUTPUT = PAPER_DIR / "20260405-mpbench-v2.1-combined.pdf"
+OUTPUT = PAPER_DIR / "20260405-mpbench-v3-combined.pdf"
 
 # Main paper sections IN ORDER (excluding introduction and related work)
 MAIN_SECTIONS = [
@@ -53,8 +53,8 @@ SUBTITLE = (
     "Empirical Replication Across Nine Models"
 )
 AUTHOR = "Jimmy Lin --- Center for Ethical Intelligence"
-DATE = "April 2026 --- DRAFT v2.1"
-VERSION = "v2.1"
+DATE = "April 2026 --- DRAFT v3.0"
+VERSION = "v3.0"
 
 
 def preprocess(text: str, base_dir: Path) -> str:

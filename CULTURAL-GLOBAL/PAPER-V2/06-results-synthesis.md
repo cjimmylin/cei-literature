@@ -24,9 +24,9 @@ A concrete illustration of the dominant-tradition mechanism makes the mirror-ima
 
 ## 6.3 Where the Gaps Compound
 
-The three studies independently identified coverage gaps for each non-Western tradition. When these gaps are examined together, a compounding pattern emerges: traditions that are marginal in the scholarly corpus are also marginal in the evaluation infrastructure and also produce the weakest model engagement. The marginality is not incidental at each stage---it is inherited from the stage before (Table 10).
+The three studies independently identified coverage gaps for each non-Western tradition. When these gaps are examined together, a compounding pattern emerges: traditions that are marginal in the scholarly corpus are also marginal in the evaluation infrastructure and also produce the weakest model engagement. The marginality is not incidental at each stage---it is inherited from the stage before (Table 14).
 
-**Table 10.** Gap compounding across the three studies.
+**Table 14.** Gap compounding across the three studies.
 
 | Tradition | Corpus (precision-adj.) | Benchmark concepts measured | Model engagement (mean) |
 |-----------|------------------------|-----------------------------|------------------------|

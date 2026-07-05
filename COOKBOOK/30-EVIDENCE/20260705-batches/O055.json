@@ -1,0 +1,27 @@
+{
+ "id": "O055",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs",
+   "extract_path": "PDF Extracts/2026/2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.md",
+   "extract_lines": 1792
+  },
+  {
+   "stem": "2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable",
+   "extract_path": "PDF Extracts/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.md",
+   "extract_lines": 1254
+  },
+  {
+   "stem": "2026-Shen-PsychEthicsBench",
+   "extract_path": "PDF Extracts/2026/2026-Shen-PsychEthicsBench.md",
+   "extract_lines": 1874
+  },
+  {
+   "stem": "2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales",
+   "extract_path": "PDF Extracts/2026/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md",
+   "extract_lines": 2343
+  }
+ ]
+}

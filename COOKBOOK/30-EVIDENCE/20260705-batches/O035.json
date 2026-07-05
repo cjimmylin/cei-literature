@@ -1,0 +1,32 @@
+{
+ "id": "O035",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware",
+   "extract_path": "PDF Extracts/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md",
+   "extract_lines": 2205
+  },
+  {
+   "stem": "2025-Kumar-UniMoral ACL 2025 Best Resource Paper",
+   "extract_path": "PDF Extracts/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md",
+   "extract_lines": 2983
+  },
+  {
+   "stem": "2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs",
+   "extract_path": "PDF Extracts/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.md",
+   "extract_lines": 295
+  },
+  {
+   "stem": "2025-LaCroix-Metaethical perspectives on \u2018benchmarking\u2019 AI",
+   "extract_path": "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.md",
+   "extract_lines": 2143
+  },
+  {
+   "stem": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values",
+   "extract_path": "PDF Extracts/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+   "extract_lines": 945
+  }
+ ]
+}

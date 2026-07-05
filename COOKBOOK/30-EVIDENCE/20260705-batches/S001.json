@@ -1,0 +1,17 @@
+{
+ "id": "S001",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2015-Clifford-Moral Foundations Vignettes",
+   "extract_path": "PDF Extracts/2015/2015-Clifford-Moral Foundations Vignettes.md",
+   "extract_lines": 4768
+  },
+  {
+   "stem": "2016-Amodei-Concrete Problems in AI Safety",
+   "extract_path": "PDF Extracts/2016/2016-Amodei-Concrete Problems in AI Safety.md",
+   "extract_lines": 1666
+  }
+ ]
+}

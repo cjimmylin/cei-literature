@@ -1,0 +1,42 @@
+{
+ "id": "S088",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API",
+   "extract_path": "PDF Extracts/2025/2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.md",
+   "extract_lines": 1349
+  },
+  {
+   "stem": "2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI",
+   "extract_path": "PDF Extracts/2025/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.md",
+   "extract_lines": 1390
+  },
+  {
+   "stem": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas",
+   "extract_path": "PDF Extracts/2025/2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+   "extract_lines": 1345
+  },
+  {
+   "stem": "2025-Xiang-Comparing Moral Values in Western",
+   "extract_path": "PDF Extracts/2025/2025-Xiang-Comparing Moral Values in Western.md",
+   "extract_lines": 1815
+  },
+  {
+   "stem": "2025-Yaacov-Normative Moral Pluralism for AI",
+   "extract_path": "PDF Extracts/2025/2025-Yaacov-Normative Moral Pluralism for AI.md",
+   "extract_lines": 1260
+  },
+  {
+   "stem": "2025-Yilma-Ethics of AI in Africa",
+   "extract_path": "PDF Extracts/2025/2025-Yilma-Ethics of AI in Africa.md",
+   "extract_lines": 1461
+  },
+  {
+   "stem": "2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical",
+   "extract_path": "PDF Extracts/2025/2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md",
+   "extract_lines": 198
+  }
+ ]
+}

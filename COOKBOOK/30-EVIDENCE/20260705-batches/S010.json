@@ -1,0 +1,37 @@
+{
+ "id": "S010",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2020-Pitenis-Offensive Language Identification in Greek",
+   "extract_path": "PDF Extracts/2020/2020-Pitenis-Offensive Language Identification in Greek.md",
+   "extract_lines": 1079
+  },
+  {
+   "stem": "2020-Sap-Social Bias Frames",
+   "extract_path": "PDF Extracts/2020/2020-Sap-Social Bias Frames.md",
+   "extract_lines": 1723
+  },
+  {
+   "stem": "2020-Schramowski-The Moral Choice Machine",
+   "extract_path": "PDF Extracts/2020/2020-Schramowski-The Moral Choice Machine.md",
+   "extract_lines": 2191
+  },
+  {
+   "stem": "2020-Serafimova-Whose Morality Which Rationality",
+   "extract_path": "PDF Extracts/2020/2020-Serafimova-Whose Morality Which Rationality.md",
+   "extract_lines": 1386
+  },
+  {
+   "stem": "2020-Srivastava-A Multi-Dimensional View of Aggression when",
+   "extract_path": "PDF Extracts/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.md",
+   "extract_lines": 973
+  },
+  {
+   "stem": "2020-Yasseri-Detecting Weak and Strong Islamophobic Hate",
+   "extract_path": "PDF Extracts/2020/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md",
+   "extract_lines": 866
+  }
+ ]
+}

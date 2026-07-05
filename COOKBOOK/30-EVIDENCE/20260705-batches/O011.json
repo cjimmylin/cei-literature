@@ -1,0 +1,22 @@
+{
+ "id": "O011",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Group-The AI Safety Benchmark",
+   "extract_path": "PDF Extracts/2024/2024-Group-The AI Safety Benchmark.md",
+   "extract_lines": 4097
+  },
+  {
+   "stem": "2024-Guldimann-COMPL-AI EU AI Act Compliance",
+   "extract_path": "PDF Extracts/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.md",
+   "extract_lines": 2933
+  },
+  {
+   "stem": "2024-Hancox-Li-Is ETHICS about ethics",
+   "extract_path": "PDF Extracts/2024/2024-Hancox-Li-Is ETHICS about ethics.md",
+   "extract_lines": 348
+  }
+ ]
+}

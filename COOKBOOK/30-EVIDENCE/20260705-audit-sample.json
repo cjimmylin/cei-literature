@@ -1,0 +1,130 @@
+[
+ {
+  "stem": "2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety",
+  "extract_path": "PDF Extracts/2025/2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md"
+ },
+ {
+  "stem": "2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT",
+  "extract_path": "PDF Extracts/2025/2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.md"
+ },
+ {
+  "stem": "2025-Trager-MFTCXplain",
+  "extract_path": "PDF Extracts/2025/2025-Trager-MFTCXplain.md"
+ },
+ {
+  "stem": "2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity",
+  "extract_path": "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md"
+ },
+ {
+  "stem": "2024-Jain-PolygloToxicityPrompts",
+  "extract_path": "PDF Extracts/2024/2024-Jain-PolygloToxicityPrompts.md"
+ },
+ {
+  "stem": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities",
+  "extract_path": "PDF Extracts/2025/2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md"
+ },
+ {
+  "stem": "2025-Jotautait\u0117-Speciesism in AI",
+  "extract_path": "PDF Extracts/2025/2025-Jotautait\u0117-Speciesism in AI.md"
+ },
+ {
+  "stem": "2023-Aroyo-DICES Dataset",
+  "extract_path": "PDF Extracts/2023/2023-Aroyo-DICES Dataset.md"
+ },
+ {
+  "stem": "2024-Qiu-ProgressGym",
+  "extract_path": "PDF Extracts/2024/2024-Qiu-ProgressGym.md"
+ },
+ {
+  "stem": "2023-Ray-Benchmarking, ethical alignment, and evaluation",
+  "extract_path": "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md"
+ },
+ {
+  "stem": "2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts",
+  "extract_path": "PDF Extracts/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md"
+ },
+ {
+  "stem": "2025-Huang-Model Editing as a Double-Edged Sword",
+  "extract_path": "PDF Extracts/2025/2025-Huang-Model Editing as a Double-Edged Sword.md"
+ },
+ {
+  "stem": "2024-Hancox-Li-Is ETHICS about ethics",
+  "extract_path": "PDF Extracts/2024/2024-Hancox-Li-Is ETHICS about ethics.md"
+ },
+ {
+  "stem": "2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales",
+  "extract_path": "PDF Extracts/2026/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md"
+ },
+ {
+  "stem": "2024-Kirch-TRIAGE",
+  "extract_path": "PDF Extracts/2024/2024-Kirch-TRIAGE.md"
+ },
+ {
+  "stem": "2026-Shen-PsychEthicsBench",
+  "extract_path": "PDF Extracts/2026/2026-Shen-PsychEthicsBench.md"
+ },
+ {
+  "stem": "2023-Han-FFB",
+  "extract_path": "PDF Extracts/2023/2023-Han-FFB.md"
+ },
+ {
+  "stem": "2025-Wang-Measuring Desired Group Discrimination in LLMs",
+  "extract_path": "PDF Extracts/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.md"
+ },
+ {
+  "stem": "2025-Narnaware-SB-Bench",
+  "extract_path": "PDF Extracts/2025/2025-Narnaware-SB-Bench.md"
+ },
+ {
+  "stem": "2020-Mathew-HateXplain",
+  "extract_path": "PDF Extracts/2020/2020-Mathew-HateXplain.md"
+ },
+ {
+  "stem": "2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal",
+  "extract_path": "PDF Extracts/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.md"
+ },
+ {
+  "stem": "2023-Hou-A Multi-Level Framework for the AI Alignment",
+  "extract_path": "PDF Extracts/2023/2023-Hou-A Multi-Level Framework for the AI Alignment.md"
+ },
+ {
+  "stem": "2018-Awad-The Moral Machine experiment",
+  "extract_path": "PDF Extracts/2018/2018-Awad-The Moral Machine experiment.md"
+ },
+ {
+  "stem": "2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine",
+  "extract_path": "PDF Extracts/2024/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.md"
+ },
+ {
+  "stem": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of",
+  "extract_path": "PDF Extracts/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md"
+ },
+ {
+  "stem": "2025-Gounaris-Virtue in the Machine",
+  "extract_path": "PDF Extracts/2025/2025-Gounaris-Virtue in the Machine.md"
+ },
+ {
+  "stem": "2022-Bang-Enabling Classifiers to Make Judgements",
+  "extract_path": "PDF Extracts/2022/2022-Bang-Enabling Classifiers to Make Judgements.md"
+ },
+ {
+  "stem": "2024-University-Using LLMs to Discover Emerging Coded",
+  "extract_path": "PDF Extracts/2024/2024-University-Using LLMs to Discover Emerging Coded.md"
+ },
+ {
+  "stem": "2024-Kyriacou-Artificial Moral Intelligence Aristotelian",
+  "extract_path": "PDF Extracts/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.md"
+ },
+ {
+  "stem": "2020-Pitenis-Offensive Language Identification in Greek",
+  "extract_path": "PDF Extracts/2020/2020-Pitenis-Offensive Language Identification in Greek.md"
+ },
+ {
+  "stem": "2025-Seker-HATECAT-TR A Hate Speech Span Detection",
+  "extract_path": "PDF Extracts/2025/2025-Seker-HATECAT-TR A Hate Speech Span Detection.md"
+ },
+ {
+  "stem": "2021-R\u00f6ttger-HateCheck",
+  "extract_path": "PDF Extracts/2021/2021-R\u00f6ttger-HateCheck.md"
+ }
+]

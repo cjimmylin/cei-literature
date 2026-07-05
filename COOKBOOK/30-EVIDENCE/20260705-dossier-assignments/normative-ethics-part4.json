@@ -1,0 +1,298 @@
+{
+ "theme": "normative-ethics",
+ "part": 4,
+ "of": 6,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Sap-Social Bias Frames",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Sap-Social Bias Frames.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Jeong-KOLD Korean Offensive Language Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Jeong-KOLD Korean Offensive Language Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Catapang-EMoTES-3K",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Catapang-EMoTES-3K.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Rao-What Makes it Ok to Set a Fire Iterative",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Rao-What Makes it Ok to Set a Fire Iterative.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Bajaj-GenMO Gender-bias in Morality Opinions",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Bajaj-GenMO Gender-bias in Morality Opinions.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Jin-Language Model Alignment in Multilingual Trolley",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Jin-Language Model Alignment in Multilingual Trolley.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kirgis-Differences in Moral Foundations of LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kirgis-Differences in Moral Foundations of LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ohashi-Extended Japanese Commonsense Morality Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Sorin-Ethical Alignment of LLMs in Healthcare",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Sorin-Ethical Alignment of LLMs in Healthcare.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jin-MedEthicEval",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jin-MedEthicEval.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kumar-Are Rules Meant to be Broken",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kumar-Are Rules Meant to be Broken.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Su-Understanding How Value Neurons Shape the",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Su-Understanding How Value Neurons Shape the.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Yao-NurValues",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Yao-NurValues.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Hong-PrinciplismQA",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hong-PrinciplismQA.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-PKU-Visual Distraction Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-PKU-Visual Distraction Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2018-Kim-Toward Non-Intuition-Based Machine Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Kim-Toward Non-Intuition-Based Machine Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Ramponi-Addressing Religious Hate Online From Taxonomy",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Ramponi-Addressing Religious Hate Online From Taxonomy.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Hou-A Multi-Level Framework for the AI Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Hou-A Multi-Level Framework for the AI Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Mougan-Kantian Deontology Meets AI Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Mougan-Kantian Deontology Meets AI Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Agarwal-Ethical Reasoning Depends on Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Agarwal-Ethical Reasoning Depends on Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Chua-AI Safety in Generative AI Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Chua-AI Safety in Generative AI Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Han-Moral Exemplars in AI Education",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Han-Moral Exemplars in AI Education.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ranjan-A Comprehensive Survey of Bias in LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ranjan-A Comprehensive Survey of Bias in LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Sun-Towards Friendly AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Sun-Towards Friendly AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Wilders-Socratic Dialogue for Virtue Ethics in AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Aditya-Toward global ethical frameworks for AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Aditya-Toward global ethical frameworks for AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-De Montis-Morality in AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-De Montis-Morality in AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-El Masri-Towards Attuned AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-El Masri-Towards Attuned AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Nay-Aligning AI Agents with Humans through Law as Information",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Nay-Aligning AI Agents with Humans through Law as Information.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Rodemann-A Statistical Case Against Empirical Human-AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Rodemann-A Statistical Case Against Empirical Human-AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Yaacov-Normative Moral Pluralism for AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Yaacov-Normative Moral Pluralism for AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Goel-Building Interpretable Models for Moral Decision-Making",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Goel-Building Interpretable Models for Moral Decision-Making.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Anthropic-Claude_4_Opus_Sonnet_System_Card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Claude_4_Opus_Sonnet_System_Card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-5-system-card-arxiv-2601.03267",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-5-system-card-arxiv-2601.03267.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Ty-Impact of AI-Powered Technology on Religious Practices and Ethics The",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Ty-Impact of AI-Powered Technology on Religious Practices and Ethics The.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Ali-Islamic Ethics Trusteeship",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Ali-Islamic Ethics Trusteeship.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Muntean-Moral Coherentism Theoretical Framework Muntean",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Muntean-Moral Coherentism Theoretical Framework Muntean.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Schacht-Mapping Moral Reasoning Circuits",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Schacht-Mapping Moral Reasoning Circuits.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.card.md",
+   "kind": "paper"
+  }
+ ]
+}

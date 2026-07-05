@@ -1,0 +1,37 @@
+{
+ "id": "S046",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset",
+   "extract_path": "PDF Extracts/2024/2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.md",
+   "extract_lines": 3025
+  },
+  {
+   "stem": "2024-Rane-Concept Alignment",
+   "extract_path": "PDF Extracts/2024/2024-Rane-Concept Alignment.md",
+   "extract_lines": 651
+  },
+  {
+   "stem": "2024-Ranjan-A Comprehensive Survey of Bias in LLMs",
+   "extract_path": "PDF Extracts/2024/2024-Ranjan-A Comprehensive Survey of Bias in LLMs.md",
+   "extract_lines": 749
+  },
+  {
+   "stem": "2024-Sadhu-Social Bias in Large Language Models",
+   "extract_path": "PDF Extracts/2024/2024-Sadhu-Social Bias in Large Language Models.md",
+   "extract_lines": 1667
+  },
+  {
+   "stem": "2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian",
+   "extract_path": "PDF Extracts/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md",
+   "extract_lines": 987
+  },
+  {
+   "stem": "2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In",
+   "extract_path": "PDF Extracts/2024/2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md",
+   "extract_lines": 1306
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "S023",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-Nie-MoCa",
+   "extract_path": "PDF Extracts/2023/2023-Nie-MoCa.md",
+   "extract_lines": 2437
+  },
+  {
+   "stem": "2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language",
+   "extract_path": "PDF Extracts/2023/2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language.md",
+   "extract_lines": 1892
+  },
+  {
+   "stem": "2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models",
+   "extract_path": "PDF Extracts/2023/2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.md",
+   "extract_lines": 1530
+  },
+  {
+   "stem": "2023-Rao-Ethical Reasoning over Moral Alignment",
+   "extract_path": "PDF Extracts/2023/2023-Rao-Ethical Reasoning over Moral Alignment.md",
+   "extract_lines": 1863
+  }
+ ]
+}

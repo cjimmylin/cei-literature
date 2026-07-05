@@ -1,0 +1,37 @@
+{
+ "id": "S025",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions",
+   "extract_path": "PDF Extracts/2023/2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions.md",
+   "extract_lines": 1696
+  },
+  {
+   "stem": "2023-Vida-Values, Ethics, Morals",
+   "extract_path": "PDF Extracts/2023/2023-Vida-Values, Ethics, Morals.md",
+   "extract_lines": 2090
+  },
+  {
+   "stem": "2023-Vidgen-SimpleSafetyTests",
+   "extract_path": "PDF Extracts/2023/2023-Vidgen-SimpleSafetyTests.md",
+   "extract_lines": 973
+  },
+  {
+   "stem": "2023-Wang-STREAM",
+   "extract_path": "PDF Extracts/2023/2023-Wang-STREAM.md",
+   "extract_lines": 441
+  },
+  {
+   "stem": "2023-Yao-Value FULCRA",
+   "extract_path": "PDF Extracts/2023/2023-Yao-Value FULCRA.md",
+   "extract_lines": 2344
+  },
+  {
+   "stem": "2023-Zhang-Heterogeneous Value Alignment Evaluation for",
+   "extract_path": "PDF Extracts/2023/2023-Zhang-Heterogeneous Value Alignment Evaluation for.md",
+   "extract_lines": 1086
+  }
+ ]
+}

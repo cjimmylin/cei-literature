@@ -1,0 +1,22 @@
+{
+ "id": "O010",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model",
+   "extract_path": "PDF Extracts/2024/2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model.md",
+   "extract_lines": 3301
+  },
+  {
+   "stem": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning",
+   "extract_path": "PDF Extracts/2024/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+   "extract_lines": 811
+  },
+  {
+   "stem": "2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic",
+   "extract_path": "PDF Extracts/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md",
+   "extract_lines": 2176
+  }
+ ]
+}

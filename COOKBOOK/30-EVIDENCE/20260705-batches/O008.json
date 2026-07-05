@@ -1,0 +1,12 @@
+{
+ "id": "O008",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-Wang-DecodingTrust",
+   "extract_path": "PDF Extracts/2023/2023-Wang-DecodingTrust.md",
+   "extract_lines": 10127
+  }
+ ]
+}

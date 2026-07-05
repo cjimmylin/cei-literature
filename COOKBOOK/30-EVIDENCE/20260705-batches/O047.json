@@ -1,0 +1,22 @@
+{
+ "id": "O047",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched",
+   "extract_path": "PDF Extracts/2025/2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.md",
+   "extract_lines": 2647
+  },
+  {
+   "stem": "2025-Shen-HateBench",
+   "extract_path": "PDF Extracts/2025/2025-Shen-HateBench.md",
+   "extract_lines": 3644
+  },
+  {
+   "stem": "2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace",
+   "extract_path": "PDF Extracts/2025/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.md",
+   "extract_lines": 874
+  }
+ ]
+}

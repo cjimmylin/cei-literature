@@ -1,0 +1,288 @@
+{
+ "theme": "ai-lab-practices",
+ "part": 2,
+ "of": 3,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Chiu-DailyDilemmas",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Chiu-DailyDilemmas.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Jiang-WildTeaming at Scale",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Jiang-WildTeaming at Scale.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kirgis-Differences in Moral Foundations of LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kirgis-Differences in Moral Foundations of LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Zeng-AIR-Bench 2024",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Zeng-AIR-Bench 2024.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2016-Amodei-Concrete Problems in AI Safety",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2016-Amodei-Concrete Problems in AI Safety.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Akrout-Machine Ethics - Creation of a Virtuous Machine",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Serafimova-Whose Morality Which Rationality",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Serafimova-Whose Morality Which Rationality.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Feng-Case Repositories",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Feng-Case Repositories.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Ji-AI Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Ji-AI Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Arzberger-Nothing Comes Without Its World",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Arzberger-Nothing Comes Without Its World.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Han-Moral Exemplars in AI Education",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Han-Moral Exemplars in AI Education.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Huang-Collective Constitutional AI Aligning a Language Model with Public",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Rane-Concept Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Rane-Concept Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Stenseke-Computational Complexity of Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Stenseke-Computational Complexity of Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ungless-ETHICS WHITEPAPER",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ungless-ETHICS WHITEPAPER.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Yoo-HyperCLOVA X Technical Report",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Yoo-HyperCLOVA X Technical Report.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Aditya-Toward global ethical frameworks for AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Aditya-Toward global ethical frameworks for AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Benavoli-AI Safety Uncertainty Incomplete Preferences",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Cheung-LLMs Amplified Cognitive Biases Moral",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Cheung-LLMs Amplified Cognitive Biases Moral.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-El Masri-Towards Attuned AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-El Masri-Towards Attuned AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kneer-Hard Problem AI Alignment Value Forks",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kneer-Hard Problem AI Alignment Value Forks.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Nay-Aligning AI Agents with Humans through Law as Information",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Nay-Aligning AI Agents with Humans through Law as Information.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Steen-Ethical aspects of ChatGPT",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Steen-Ethical aspects of ChatGPT.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-\u00d3h\u00c9igeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-\u00d3h\u00c9igeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Yun-VAPT Value-Alignment Perception Toolkit",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Yun-VAPT Value-Alignment Perception Toolkit.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Claude_4.1_Opus_System_Card_August_2025",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Claude_4.1_Opus_System_Card_August_2025.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Claude_Sonnet_4.5_System_Card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Claude_Sonnet_4.5_System_Card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Constitutional_Classifiers_2501.18837",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Constitutional_Classifiers_2501.18837.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Many-shot_Jailbreaking_2401.05566",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Many-shot_Jailbreaking_2401.05566.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Responsible_Scaling_Policy_1.0",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Responsible_Scaling_Policy_1.0.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Technical_Report",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Google DeepMind-Gemini_2.5_Technical_Report.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Meta AI-Llama_2_2307.09288",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Meta AI-Llama_2_2307.09288.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Microsoft Research-Phi-3_Safety_Post-Training",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Microsoft Research-Phi-3_Safety_Post-Training.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "NVIDIA-SteerLM_Attribute_Conditioned_SFT",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/NVIDIA-SteerLM_Attribute_Conditioned_SFT.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-dpo-direct-preference-optimization",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-dpo-direct-preference-optimization.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-4o-system-card-arxiv-2410.21276",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-4o-system-card-arxiv-2410.21276.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-5.2-system-card-december-2025",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-5.2-system-card-december-2025.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-instructgpt-training-language-models-to-follow-instructions",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-instructgpt-training-language-models-to-follow-instructions.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-o3-and-o4-mini-system-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-o3-and-o4-mini-system-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Zhipu AI-AgentBench_2308.03688",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Zhipu AI-AgentBench_2308.03688.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "xAI-2025-08-20-grok-4-model-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/xAI-2025-08-20-grok-4-model-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "2023-Lu-The Chai Platform's AI Safety Framework",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Lu-The Chai Platform's AI Safety Framework.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kyriacou-Artificial Moral Intelligence Aristotelian",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Waldner-AI Safety Alignment Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Waldner-AI Safety Alignment Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Anthropic-In-context_Reward_Hacking_2402.09656",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-In-context_Reward_Hacking_2402.09656.card.md",
+   "kind": "lab"
+  }
+ ]
+}

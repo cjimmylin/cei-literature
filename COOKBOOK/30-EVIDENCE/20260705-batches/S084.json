@@ -1,0 +1,27 @@
+{
+ "id": "S084",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Sorensen-Operationalizing Pluralistic Values",
+   "extract_path": "PDF Extracts/2025/2025-Sorensen-Operationalizing Pluralistic Values.md",
+   "extract_lines": 2499
+  },
+  {
+   "stem": "2025-Steen-Ethical aspects of ChatGPT",
+   "extract_path": "PDF Extracts/2025/2025-Steen-Ethical aspects of ChatGPT.md",
+   "extract_lines": 1539
+  },
+  {
+   "stem": "2025-Su-Understanding How Value Neurons Shape the",
+   "extract_path": "PDF Extracts/2025/2025-Su-Understanding How Value Neurons Shape the.md",
+   "extract_lines": 2028
+  },
+  {
+   "stem": "2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM",
+   "extract_path": "PDF Extracts/2025/2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.md",
+   "extract_lines": 1200
+  }
+ ]
+}

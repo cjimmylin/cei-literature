@@ -1,0 +1,32 @@
+{
+ "id": "S034",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Garcia-The Moral Turing Test",
+   "extract_path": "PDF Extracts/2024/2024-Garcia-The Moral Turing Test.md",
+   "extract_lines": 1434
+  },
+  {
+   "stem": "2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive",
+   "extract_path": "PDF Extracts/2024/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.md",
+   "extract_lines": 1397
+  },
+  {
+   "stem": "2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -",
+   "extract_path": "PDF Extracts/2024/2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -.md",
+   "extract_lines": 2167
+  },
+  {
+   "stem": "2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset",
+   "extract_path": "PDF Extracts/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.md",
+   "extract_lines": 1636
+  },
+  {
+   "stem": "2024-Han-Moral Exemplars in AI Education",
+   "extract_path": "PDF Extracts/2024/2024-Han-Moral Exemplars in AI Education.md",
+   "extract_lines": 1093
+  }
+ ]
+}

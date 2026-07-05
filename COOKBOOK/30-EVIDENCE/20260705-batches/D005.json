@@ -1,0 +1,12 @@
+{
+ "id": "D005",
+ "tier": "sonnet",
+ "mode": "degraded",
+ "papers": [
+  {
+   "stem": "2026-vanNuenen-Fragility of Moral Judgment",
+   "paper_path": "papers/2026-vanNuenen-Fragility of Moral Judgment.md",
+   "extract_quality": "missing"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "id": "S085",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity",
+   "extract_path": "PDF Extracts/2025/2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md",
+   "extract_lines": 3655
+  },
+  {
+   "stem": "2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language",
+   "extract_path": "PDF Extracts/2025/2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.md",
+   "extract_lines": 4022
+  }
+ ]
+}

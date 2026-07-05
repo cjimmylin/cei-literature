@@ -1,0 +1,27 @@
+{
+ "id": "S016",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2022-Ramponi-Addressing Religious Hate Online From Taxonomy",
+   "extract_path": "PDF Extracts/2022/2022-Ramponi-Addressing Religious Hate Online From Taxonomy.md",
+   "extract_lines": 2095
+  },
+  {
+   "stem": "2022-R\u00f6ttger-Multilingual HateCheck",
+   "extract_path": "PDF Extracts/2022/2022-R\u00f6ttger-Multilingual HateCheck.md",
+   "extract_lines": 2327
+  },
+  {
+   "stem": "2022-Sahoo-Detecting Unintended Social Bias in Toxic",
+   "extract_path": "PDF Extracts/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.md",
+   "extract_lines": 1404
+  },
+  {
+   "stem": "2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case",
+   "extract_path": "PDF Extracts/2022/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md",
+   "extract_lines": 1482
+  }
+ ]
+}

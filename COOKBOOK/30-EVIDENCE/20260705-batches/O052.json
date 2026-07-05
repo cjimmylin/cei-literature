@@ -1,0 +1,27 @@
+{
+ "id": "O052",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks",
+   "extract_path": "PDF Extracts/2025/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md",
+   "extract_lines": 1499
+  },
+  {
+   "stem": "2025-Zhou-Moral Reasoning Across Languages",
+   "extract_path": "PDF Extracts/2025/2025-Zhou-Moral Reasoning Across Languages.md",
+   "extract_lines": 855
+  },
+  {
+   "stem": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in",
+   "extract_path": "PDF Extracts/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+   "extract_lines": 870
+  },
+  {
+   "stem": "2025-search-DweshVaani An LLM for Detecting Religious",
+   "extract_path": "PDF Extracts/2025/2025-search-DweshVaani An LLM for Detecting Religious.md",
+   "extract_lines": 1871
+  }
+ ]
+}

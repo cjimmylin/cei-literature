@@ -1,0 +1,12 @@
+{
+ "id": "S009",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification",
+   "extract_path": "PDF Extracts/2020/2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md",
+   "extract_lines": 55987
+  }
+ ]
+}

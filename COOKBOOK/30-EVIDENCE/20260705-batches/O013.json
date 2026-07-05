@@ -1,0 +1,32 @@
+{
+ "id": "O013",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Jain-PolygloToxicityPrompts",
+   "extract_path": "PDF Extracts/2024/2024-Jain-PolygloToxicityPrompts.md",
+   "extract_lines": 2566
+  },
+  {
+   "stem": "2024-Ji-MoralBench",
+   "extract_path": "PDF Extracts/2024/2024-Ji-MoralBench.md",
+   "extract_lines": 1261
+  },
+  {
+   "stem": "2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering",
+   "extract_path": "PDF Extracts/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md",
+   "extract_lines": 2285
+  },
+  {
+   "stem": "2024-Karpov-Inducing Human-like Biases in Moral Reasoning",
+   "extract_path": "PDF Extracts/2024/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.md",
+   "extract_lines": 614
+  },
+  {
+   "stem": "2024-Kirch-TRIAGE",
+   "extract_path": "PDF Extracts/2024/2024-Kirch-TRIAGE.md",
+   "extract_lines": 1451
+  }
+ ]
+}

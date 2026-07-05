@@ -1,0 +1,27 @@
+{
+ "id": "L017",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Meta AI-Llama_3_2407.21783",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_3_2407.21783.md",
+   "extract_lines": 6542,
+   "company": "Meta AI",
+   "title": "Llama 3 2407.21783"
+  },
+  {
+   "stem": "Meta AI-Llama_Guard_2312.06674",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_Guard_2312.06674.md",
+   "extract_lines": 813,
+   "company": "Meta AI",
+   "title": "Llama Guard 2312.06674"
+  },
+  {
+   "stem": "Microsoft Research-Phi-3_Safety_Post-Training",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Phi-3_Safety_Post-Training.md",
+   "extract_lines": 952,
+   "company": "Microsoft Research",
+   "title": "Phi 3 Safety Post Training"
+  }
+ ]
+}

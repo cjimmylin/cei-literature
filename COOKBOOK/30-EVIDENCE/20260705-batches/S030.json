@@ -1,0 +1,12 @@
+{
+ "id": "S030",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Chiu-DailyDilemmas",
+   "extract_path": "PDF Extracts/2024/2024-Chiu-DailyDilemmas.md",
+   "extract_lines": 6578
+  }
+ ]
+}

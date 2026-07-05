@@ -1,0 +1,32 @@
+{
+ "id": "O026",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Derner-Leveraging Large Language Models to Measure Gender Representation",
+   "extract_path": "PDF Extracts/2025/2025-Derner-Leveraging Large Language Models to Measure Gender Representation.md",
+   "extract_lines": 1905
+  },
+  {
+   "stem": "2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech",
+   "extract_path": "PDF Extracts/2025/2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.md",
+   "extract_lines": 638
+  },
+  {
+   "stem": "2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review",
+   "extract_path": "PDF Extracts/2025/2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md",
+   "extract_lines": 1237
+  },
+  {
+   "stem": "2025-Fan-FAIRMT-BENCH",
+   "extract_path": "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md",
+   "extract_lines": 2435
+  },
+  {
+   "stem": "2025-Farid-One Model, Many Morals",
+   "extract_path": "PDF Extracts/2025/2025-Farid-One Model, Many Morals.md",
+   "extract_lines": 2336
+  }
+ ]
+}

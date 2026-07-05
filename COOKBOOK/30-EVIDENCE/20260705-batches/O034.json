@@ -1,0 +1,12 @@
+{
+ "id": "O034",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Kumar-SweEval Do LLMs Really Swear A",
+   "extract_path": "PDF Extracts/2025/2025-Kumar-SweEval Do LLMs Really Swear A.md",
+   "extract_lines": 7712
+  }
+ ]
+}

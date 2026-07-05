@@ -1,0 +1,32 @@
+{
+ "id": "O004",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2022-Ziems-The Moral Integrity Corpus",
+   "extract_path": "PDF Extracts/2022/2022-Ziems-The Moral Integrity Corpus.md",
+   "extract_lines": 2266
+  },
+  {
+   "stem": "2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text",
+   "extract_path": "PDF Extracts/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.md",
+   "extract_lines": 985
+  },
+  {
+   "stem": "2023-Aroyo-DICES Dataset",
+   "extract_path": "PDF Extracts/2023/2023-Aroyo-DICES Dataset.md",
+   "extract_lines": 1019
+  },
+  {
+   "stem": "2023-Astobiza-MoralNet",
+   "extract_path": "PDF Extracts/2023/2023-Astobiza-MoralNet.md",
+   "extract_lines": 528
+  },
+  {
+   "stem": "2023-Duan-Denevil",
+   "extract_path": "PDF Extracts/2023/2023-Duan-Denevil.md",
+   "extract_lines": 3956
+  }
+ ]
+}

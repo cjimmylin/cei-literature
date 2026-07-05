@@ -1,0 +1,22 @@
+{
+ "id": "S083",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.",
+   "extract_path": "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md",
+   "extract_lines": 1969
+  },
+  {
+   "stem": "2025-Snoswell-Beyond Verdicts LLM Moral Competence",
+   "extract_path": "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.md",
+   "extract_lines": 1976
+  },
+  {
+   "stem": "2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using",
+   "extract_path": "PDF Extracts/2025/2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using.md",
+   "extract_lines": 2575
+  }
+ ]
+}

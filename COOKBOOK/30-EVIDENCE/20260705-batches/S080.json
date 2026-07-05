@@ -1,0 +1,42 @@
+{
+ "id": "S080",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Okamoto-AI-based medical ethics education",
+   "extract_path": "PDF Extracts/2025/2025-Okamoto-AI-based medical ethics education.md",
+   "extract_lines": 817
+  },
+  {
+   "stem": "2025-Osei Mensah-Where are the missing values an exploration of the need to",
+   "extract_path": "PDF Extracts/2025/2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+   "extract_lines": 1142
+  },
+  {
+   "stem": "2025-Pipitone-Unlocking practical wisdom",
+   "extract_path": "PDF Extracts/2025/2025-Pipitone-Unlocking practical wisdom.md",
+   "extract_lines": 958
+  },
+  {
+   "stem": "2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic",
+   "extract_path": "PDF Extracts/2025/2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.md",
+   "extract_lines": 1693
+  },
+  {
+   "stem": "2025-Priya-Deontic Temporal Logic for AI Ethics",
+   "extract_path": "PDF Extracts/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.md",
+   "extract_lines": 1519
+  },
+  {
+   "stem": "2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and",
+   "extract_path": "PDF Extracts/2025/2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.md",
+   "extract_lines": 433
+  },
+  {
+   "stem": "2025-Ray-Incorporating indigenous knowledge systems into AI governance",
+   "extract_path": "PDF Extracts/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+   "extract_lines": 1671
+  }
+ ]
+}

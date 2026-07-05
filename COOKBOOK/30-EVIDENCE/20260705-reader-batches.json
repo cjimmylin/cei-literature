@@ -1,0 +1,4762 @@
+{
+ "generated_at": "2026-07-05T06:07:10",
+ "params": {
+  "max_lines": 9000,
+  "max_papers": 8
+ },
+ "counts": {
+  "reader_batches": 153,
+  "opus_batches": 55,
+  "sonnet_batches": 93,
+  "degraded_batches": 5,
+  "papers_total": 620,
+  "lab_batches": 24,
+  "lab_reports": 61
+ },
+ "reader_batches": [
+  {
+   "id": "O001",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred",
+     "extract_path": "PDF Extracts/2018/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.md",
+     "extract_lines": 1482
+    },
+    {
+     "stem": "2018-Zhao-Gender Bias in Coreference Resolution",
+     "extract_path": "PDF Extracts/2018/2018-Zhao-Gender Bias in Coreference Resolution.md",
+     "extract_lines": 746
+    },
+    {
+     "stem": "2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection",
+     "extract_path": "PDF Extracts/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.md",
+     "extract_lines": 787
+    },
+    {
+     "stem": "2020-Mathew-HateXplain",
+     "extract_path": "PDF Extracts/2020/2020-Mathew-HateXplain.md",
+     "extract_lines": 1432
+    },
+    {
+     "stem": "2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection",
+     "extract_path": "PDF Extracts/2020/2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.md",
+     "extract_lines": 728
+    },
+    {
+     "stem": "2020-Shekhar-Automating News Comment Moderation with Limited Resources",
+     "extract_path": "PDF Extracts/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.md",
+     "extract_lines": 2537
+    },
+    {
+     "stem": "2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate",
+     "extract_path": "PDF Extracts/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md",
+     "extract_lines": 872
+    }
+   ]
+  },
+  {
+   "id": "O002",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2021-Barikeri-REDDITBIAS",
+     "extract_path": "PDF Extracts/2021/2021-Barikeri-REDDITBIAS.md",
+     "extract_lines": 1994
+    },
+    {
+     "stem": "2021-Cercas Curry-ConvAbuse",
+     "extract_path": "PDF Extracts/2021/2021-Cercas Curry-ConvAbuse.md",
+     "extract_lines": 2221
+    },
+    {
+     "stem": "2021-Hendrycks-Aligning AI with Shared Human Values",
+     "extract_path": "PDF Extracts/2021/2021-Hendrycks-Aligning AI with Shared Human Values.md",
+     "extract_lines": 1385
+    },
+    {
+     "stem": "2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social",
+     "extract_path": "PDF Extracts/2021/2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.md",
+     "extract_lines": 702
+    },
+    {
+     "stem": "2022-Chalkidis-FairLex",
+     "extract_path": "PDF Extracts/2022/2022-Chalkidis-FairLex.md",
+     "extract_lines": 2454
+    }
+   ]
+  },
+  {
+   "id": "O003",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection",
+     "extract_path": "PDF Extracts/2022/2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.md",
+     "extract_lines": 1312
+    },
+    {
+     "stem": "2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction",
+     "extract_path": "PDF Extracts/2022/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.md",
+     "extract_lines": 1165
+    },
+    {
+     "stem": "2022-Parrish-BBQ Bias Benchmark for Question Answering",
+     "extract_path": "PDF Extracts/2022/2022-Parrish-BBQ Bias Benchmark for Question Answering.md",
+     "extract_lines": 2947
+    },
+    {
+     "stem": "2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of",
+     "extract_path": "PDF Extracts/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md",
+     "extract_lines": 283
+    },
+    {
+     "stem": "2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate",
+     "extract_path": "PDF Extracts/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md",
+     "extract_lines": 1466
+    }
+   ]
+  },
+  {
+   "id": "O004",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2022-Ziems-The Moral Integrity Corpus",
+     "extract_path": "PDF Extracts/2022/2022-Ziems-The Moral Integrity Corpus.md",
+     "extract_lines": 2266
+    },
+    {
+     "stem": "2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text",
+     "extract_path": "PDF Extracts/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.md",
+     "extract_lines": 985
+    },
+    {
+     "stem": "2023-Aroyo-DICES Dataset",
+     "extract_path": "PDF Extracts/2023/2023-Aroyo-DICES Dataset.md",
+     "extract_lines": 1019
+    },
+    {
+     "stem": "2023-Astobiza-MoralNet",
+     "extract_path": "PDF Extracts/2023/2023-Astobiza-MoralNet.md",
+     "extract_lines": 528
+    },
+    {
+     "stem": "2023-Duan-Denevil",
+     "extract_path": "PDF Extracts/2023/2023-Duan-Denevil.md",
+     "extract_lines": 3956
+    }
+   ]
+  },
+  {
+   "id": "O005",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Han-FFB",
+     "extract_path": "PDF Extracts/2023/2023-Han-FFB.md",
+     "extract_lines": 3335
+    },
+    {
+     "stem": "2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language",
+     "extract_path": "PDF Extracts/2023/2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language.md",
+     "extract_lines": 1328
+    },
+    {
+     "stem": "2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and",
+     "extract_path": "PDF Extracts/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md",
+     "extract_lines": 1466
+    }
+   ]
+  },
+  {
+   "id": "O006",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Huang-Flames",
+     "extract_path": "PDF Extracts/2023/2023-Huang-Flames.md",
+     "extract_lines": 3864
+    },
+    {
+     "stem": "2023-Lin-ToxicChat",
+     "extract_path": "PDF Extracts/2023/2023-Lin-ToxicChat.md",
+     "extract_lines": 923
+    },
+    {
+     "stem": "2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech",
+     "extract_path": "PDF Extracts/2023/2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech.md",
+     "extract_lines": 1183
+    },
+    {
+     "stem": "2023-Ray-Benchmarking, ethical alignment, and evaluation",
+     "extract_path": "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md",
+     "extract_lines": 2527
+    }
+   ]
+  },
+  {
+   "id": "O007",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Soemer-Antisemitic Messages A Guide to High-Quality",
+     "extract_path": "PDF Extracts/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.md",
+     "extract_lines": 784
+    },
+    {
+     "stem": "2023-TheDevastator-HelpSteer A-i Alignment Dataset",
+     "extract_path": "PDF Extracts/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md",
+     "extract_lines": 75
+    }
+   ]
+  },
+  {
+   "id": "O008",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Wang-DecodingTrust",
+     "extract_path": "PDF Extracts/2023/2023-Wang-DecodingTrust.md",
+     "extract_lines": 10127
+    }
+   ]
+  },
+  {
+   "id": "O009",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-AI-Religious Bias Benchmarks for ChatGPT",
+     "extract_path": "PDF Extracts/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+     "extract_lines": 1811
+    },
+    {
+     "stem": "2024-Arshad-Understanding hate speech",
+     "extract_path": "PDF Extracts/2024/2024-Arshad-Understanding hate speech.md",
+     "extract_lines": 1102
+    },
+    {
+     "stem": "2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said",
+     "extract_path": "PDF Extracts/2024/2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.md",
+     "extract_lines": 1605
+    },
+    {
+     "stem": "2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating",
+     "extract_path": "PDF Extracts/2024/2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating.md",
+     "extract_lines": 967
+    },
+    {
+     "stem": "2024-Defrance-ABCFair",
+     "extract_path": "PDF Extracts/2024/2024-Defrance-ABCFair.md",
+     "extract_lines": 1424
+    }
+   ]
+  },
+  {
+   "id": "O010",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model",
+     "extract_path": "PDF Extracts/2024/2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model.md",
+     "extract_lines": 3301
+    },
+    {
+     "stem": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning",
+     "extract_path": "PDF Extracts/2024/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+     "extract_lines": 811
+    },
+    {
+     "stem": "2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic",
+     "extract_path": "PDF Extracts/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md",
+     "extract_lines": 2176
+    }
+   ]
+  },
+  {
+   "id": "O011",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Group-The AI Safety Benchmark",
+     "extract_path": "PDF Extracts/2024/2024-Group-The AI Safety Benchmark.md",
+     "extract_lines": 4097
+    },
+    {
+     "stem": "2024-Guldimann-COMPL-AI EU AI Act Compliance",
+     "extract_path": "PDF Extracts/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.md",
+     "extract_lines": 2933
+    },
+    {
+     "stem": "2024-Hancox-Li-Is ETHICS about ethics",
+     "extract_path": "PDF Extracts/2024/2024-Hancox-Li-Is ETHICS about ethics.md",
+     "extract_lines": 348
+    }
+   ]
+  },
+  {
+   "id": "O012",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Huang-TrustLLM",
+     "extract_path": "PDF Extracts/2024/2024-Huang-TrustLLM.md",
+     "extract_lines": 10442
+    }
+   ]
+  },
+  {
+   "id": "O013",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Jain-PolygloToxicityPrompts",
+     "extract_path": "PDF Extracts/2024/2024-Jain-PolygloToxicityPrompts.md",
+     "extract_lines": 2566
+    },
+    {
+     "stem": "2024-Ji-MoralBench",
+     "extract_path": "PDF Extracts/2024/2024-Ji-MoralBench.md",
+     "extract_lines": 1261
+    },
+    {
+     "stem": "2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering",
+     "extract_path": "PDF Extracts/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md",
+     "extract_lines": 2285
+    },
+    {
+     "stem": "2024-Karpov-Inducing Human-like Biases in Moral Reasoning",
+     "extract_path": "PDF Extracts/2024/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.md",
+     "extract_lines": 614
+    },
+    {
+     "stem": "2024-Kirch-TRIAGE",
+     "extract_path": "PDF Extracts/2024/2024-Kirch-TRIAGE.md",
+     "extract_lines": 1451
+    }
+   ]
+  },
+  {
+   "id": "O014",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling",
+     "extract_path": "PDF Extracts/2024/2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling.md",
+     "extract_lines": 2333
+    },
+    {
+     "stem": "2024-Lee-KorNAT",
+     "extract_path": "PDF Extracts/2024/2024-Lee-KorNAT.md",
+     "extract_lines": 4959
+    }
+   ]
+  },
+  {
+   "id": "O015",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Li-Benchmarking Ethics in Text-to-Image Models",
+     "extract_path": "PDF Extracts/2024/2024-Li-Benchmarking Ethics in Text-to-Image Models.md",
+     "extract_lines": 3329
+    }
+   ]
+  },
+  {
+   "id": "O016",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Lin-AI-Face",
+     "extract_path": "PDF Extracts/2024/2024-Lin-AI-Face.md",
+     "extract_lines": 6629
+    }
+   ]
+  },
+  {
+   "id": "O017",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Liu-JAILJUDGE",
+     "extract_path": "PDF Extracts/2024/2024-Liu-JAILJUDGE.md",
+     "extract_lines": 2561
+    },
+    {
+     "stem": "2024-Luong-Realistic Evaluation of Toxicity in Large",
+     "extract_path": "PDF Extracts/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.md",
+     "extract_lines": 1092
+    },
+    {
+     "stem": "2024-Meadows-LocalValueBench",
+     "extract_path": "PDF Extracts/2024/2024-Meadows-LocalValueBench.md",
+     "extract_lines": 851
+    },
+    {
+     "stem": "2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and",
+     "extract_path": "PDF Extracts/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.md",
+     "extract_lines": 2749
+    }
+   ]
+  },
+  {
+   "id": "O018",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in",
+     "extract_path": "PDF Extracts/2024/2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.md",
+     "extract_lines": 1863
+    },
+    {
+     "stem": "2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified",
+     "extract_path": "PDF Extracts/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.md",
+     "extract_lines": 1659
+    },
+    {
+     "stem": "2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark",
+     "extract_path": "PDF Extracts/2024/2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark.md",
+     "extract_lines": 2366
+    },
+    {
+     "stem": "2024-Qiu-ProgressGym",
+     "extract_path": "PDF Extracts/2024/2024-Qiu-ProgressGym.md",
+     "extract_lines": 2335
+    }
+   ]
+  },
+  {
+   "id": "O019",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Ren-Safetywashing",
+     "extract_path": "PDF Extracts/2024/2024-Ren-Safetywashing.md",
+     "extract_lines": 3103
+    },
+    {
+     "stem": "2024-R\u00f6ttger-XSTest",
+     "extract_path": "PDF Extracts/2024/2024-R\u00f6ttger-XSTest.md",
+     "extract_lines": 2480
+    },
+    {
+     "stem": "2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context",
+     "extract_path": "PDF Extracts/2024/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md",
+     "extract_lines": 2627
+    },
+    {
+     "stem": "2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity",
+     "extract_path": "PDF Extracts/2024/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.md",
+     "extract_lines": 417
+    }
+   ]
+  },
+  {
+   "id": "O020",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Seror-The Moral Mind(s) of Large Language Models",
+     "extract_path": "PDF Extracts/2024/2024-Seror-The Moral Mind(s) of Large Language Models.md",
+     "extract_lines": 1795
+    },
+    {
+     "stem": "2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna",
+     "extract_path": "PDF Extracts/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md",
+     "extract_lines": 1169
+    },
+    {
+     "stem": "2024-Simpson-Parity Benchmark for Measuring Bias in",
+     "extract_path": "PDF Extracts/2024/2024-Simpson-Parity Benchmark for Measuring Bias in.md",
+     "extract_lines": 1559
+    },
+    {
+     "stem": "2024-Team-FABLE Fairness and Bias in LLM Evaluation",
+     "extract_path": "PDF Extracts/2024/2024-Team-FABLE Fairness and Bias in LLM Evaluation.md",
+     "extract_lines": 2733
+    }
+   ]
+  },
+  {
+   "id": "O021",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Vladimirova-FairJob",
+     "extract_path": "PDF Extracts/2024/2024-Vladimirova-FairJob.md",
+     "extract_lines": 1980
+    },
+    {
+     "stem": "2024-Yan-M$^3$oralBench",
+     "extract_path": "PDF Extracts/2024/2024-Yan-M$^3$oralBench.md",
+     "extract_lines": 1632
+    },
+    {
+     "stem": "2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity",
+     "extract_path": "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md",
+     "extract_lines": 815
+    },
+    {
+     "stem": "2024-Yoo-HyperCLOVA X Technical Report",
+     "extract_path": "PDF Extracts/2024/2024-Yoo-HyperCLOVA X Technical Report.md",
+     "extract_lines": 3785
+    }
+   ]
+  },
+  {
+   "id": "O022",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Yu-CMoralEval",
+     "extract_path": "PDF Extracts/2024/2024-Yu-CMoralEval.md",
+     "extract_lines": 2929
+    },
+    {
+     "stem": "2024-Zeng-AIR-Bench 2024",
+     "extract_path": "PDF Extracts/2024/2024-Zeng-AIR-Bench 2024.md",
+     "extract_lines": 2198
+    },
+    {
+     "stem": "2024-Zhang-SafetyBench",
+     "extract_path": "PDF Extracts/2024/2024-Zhang-SafetyBench.md",
+     "extract_lines": 1913
+    }
+   ]
+  },
+  {
+   "id": "O023",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large",
+     "extract_path": "PDF Extracts/2025/2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.md",
+     "extract_lines": 3740
+    },
+    {
+     "stem": "2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic",
+     "extract_path": "PDF Extracts/2025/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md",
+     "extract_lines": 1209
+    },
+    {
+     "stem": "2025-Anonymous-BEATS",
+     "extract_path": "PDF Extracts/2025/2025-Anonymous-BEATS.md",
+     "extract_lines": 1832
+    },
+    {
+     "stem": "2025-Bai-Explicitly unbiased large language models still form biased",
+     "extract_path": "PDF Extracts/2025/2025-Bai-Explicitly unbiased large language models still form biased.md",
+     "extract_lines": 985
+    },
+    {
+     "stem": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities",
+     "extract_path": "PDF Extracts/2025/2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md",
+     "extract_lines": 688
+    },
+    {
+     "stem": "2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030",
+     "extract_path": "PDF Extracts/2025/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md",
+     "extract_lines": 310
+    }
+   ]
+  },
+  {
+   "id": "O024",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values",
+     "extract_path": "PDF Extracts/2025/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+     "extract_lines": 5980
+    }
+   ]
+  },
+  {
+   "id": "O025",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Chiu-MoReBench",
+     "extract_path": "PDF Extracts/2025/2025-Chiu-MoReBench.md",
+     "extract_lines": 3715
+    },
+    {
+     "stem": "2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ...",
+     "extract_path": "PDF Extracts/2025/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md",
+     "extract_lines": 1971
+    },
+    {
+     "stem": "2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT",
+     "extract_path": "PDF Extracts/2025/2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.md",
+     "extract_lines": 2642
+    }
+   ]
+  },
+  {
+   "id": "O026",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Derner-Leveraging Large Language Models to Measure Gender Representation",
+     "extract_path": "PDF Extracts/2025/2025-Derner-Leveraging Large Language Models to Measure Gender Representation.md",
+     "extract_lines": 1905
+    },
+    {
+     "stem": "2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech",
+     "extract_path": "PDF Extracts/2025/2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.md",
+     "extract_lines": 638
+    },
+    {
+     "stem": "2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review",
+     "extract_path": "PDF Extracts/2025/2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md",
+     "extract_lines": 1237
+    },
+    {
+     "stem": "2025-Fan-FAIRMT-BENCH",
+     "extract_path": "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md",
+     "extract_lines": 2435
+    },
+    {
+     "stem": "2025-Farid-One Model, Many Morals",
+     "extract_path": "PDF Extracts/2025/2025-Farid-One Model, Many Morals.md",
+     "extract_lines": 2336
+    }
+   ]
+  },
+  {
+   "id": "O027",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset",
+     "extract_path": "PDF Extracts/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.md",
+     "extract_lines": 1011
+    },
+    {
+     "stem": "2025-Flores-BenchMoral",
+     "extract_path": "PDF Extracts/2025/2025-Flores-BenchMoral.md",
+     "extract_lines": 649
+    },
+    {
+     "stem": "2025-Galatolo-Beyond Ethical Alignment",
+     "extract_path": "PDF Extracts/2025/2025-Galatolo-Beyond Ethical Alignment.md",
+     "extract_lines": 1836
+    },
+    {
+     "stem": "2025-Galea-From Measurement to Mitigation Exploring the Transferability of",
+     "extract_path": "PDF Extracts/2025/2025-Galea-From Measurement to Mitigation Exploring the Transferability of.md",
+     "extract_lines": 1278
+    },
+    {
+     "stem": "2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in",
+     "extract_path": "PDF Extracts/2025/2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.md",
+     "extract_lines": 1451
+    }
+   ]
+  },
+  {
+   "id": "O028",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in",
+     "extract_path": "PDF Extracts/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.md",
+     "extract_lines": 3244
+    },
+    {
+     "stem": "2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment",
+     "extract_path": "PDF Extracts/2025/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md",
+     "extract_lines": 1794
+    },
+    {
+     "stem": "2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong",
+     "extract_path": "PDF Extracts/2025/2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong.md",
+     "extract_lines": 1872
+    },
+    {
+     "stem": "2025-Herrador-The PacifAIst Benchmark",
+     "extract_path": "PDF Extracts/2025/2025-Herrador-The PacifAIst Benchmark.md",
+     "extract_lines": 1162
+    }
+   ]
+  },
+  {
+   "id": "O029",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Hilliard-Measuring AI Alignment with Human Flourishing",
+     "extract_path": "PDF Extracts/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.md",
+     "extract_lines": 2313
+    },
+    {
+     "stem": "2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to",
+     "extract_path": "PDF Extracts/2025/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+     "extract_lines": 1316
+    },
+    {
+     "stem": "2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset",
+     "extract_path": "PDF Extracts/2025/2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.md",
+     "extract_lines": 1890
+    },
+    {
+     "stem": "2025-Huang-Model Editing as a Double-Edged Sword",
+     "extract_path": "PDF Extracts/2025/2025-Huang-Model Editing as a Double-Edged Sword.md",
+     "extract_lines": 1602
+    },
+    {
+     "stem": "2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social",
+     "extract_path": "PDF Extracts/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md",
+     "extract_lines": 907
+    }
+   ]
+  },
+  {
+   "id": "O030",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling",
+     "extract_path": "PDF Extracts/2025/2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+     "extract_lines": 6991
+    }
+   ]
+  },
+  {
+   "id": "O031",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Jiang-Raising the Bar",
+     "extract_path": "PDF Extracts/2025/2025-Jiang-Raising the Bar.md",
+     "extract_lines": 5119
+    },
+    {
+     "stem": "2025-Jiao-LLM Ethics Benchmark",
+     "extract_path": "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark.md",
+     "extract_lines": 1153
+    },
+    {
+     "stem": "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for",
+     "extract_path": "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md",
+     "extract_lines": 955
+    },
+    {
+     "stem": "2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ...",
+     "extract_path": "PDF Extracts/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....md",
+     "extract_lines": 1454
+    }
+   ]
+  },
+  {
+   "id": "O032",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Jin-MedEthicEval",
+     "extract_path": "PDF Extracts/2025/2025-Jin-MedEthicEval.md",
+     "extract_lines": 1228
+    },
+    {
+     "stem": "2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and",
+     "extract_path": "PDF Extracts/2025/2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.md",
+     "extract_lines": 2109
+    },
+    {
+     "stem": "2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements",
+     "extract_path": "PDF Extracts/2025/2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.md",
+     "extract_lines": 1589
+    },
+    {
+     "stem": "2025-Jotautait\u0117-Speciesism in AI",
+     "extract_path": "PDF Extracts/2025/2025-Jotautait\u0117-Speciesism in AI.md",
+     "extract_lines": 1589
+    },
+    {
+     "stem": "2025-Ju-NaVAB",
+     "extract_path": "PDF Extracts/2025/2025-Ju-NaVAB.md",
+     "extract_lines": 1679
+    }
+   ]
+  },
+  {
+   "id": "O033",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Kasu-EthicsMH",
+     "extract_path": "PDF Extracts/2025/2025-Kasu-EthicsMH.md",
+     "extract_lines": 1218
+    },
+    {
+     "stem": "2025-Kumar-Are Rules Meant to be Broken",
+     "extract_path": "PDF Extracts/2025/2025-Kumar-Are Rules Meant to be Broken.md",
+     "extract_lines": 2653
+    },
+    {
+     "stem": "2025-Kumar-BengaliMoralBench",
+     "extract_path": "PDF Extracts/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md",
+     "extract_lines": 2983
+    }
+   ]
+  },
+  {
+   "id": "O034",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Kumar-SweEval Do LLMs Really Swear A",
+     "extract_path": "PDF Extracts/2025/2025-Kumar-SweEval Do LLMs Really Swear A.md",
+     "extract_lines": 7712
+    }
+   ]
+  },
+  {
+   "id": "O035",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware",
+     "extract_path": "PDF Extracts/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md",
+     "extract_lines": 2205
+    },
+    {
+     "stem": "2025-Kumar-UniMoral ACL 2025 Best Resource Paper",
+     "extract_path": "PDF Extracts/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md",
+     "extract_lines": 2983
+    },
+    {
+     "stem": "2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs",
+     "extract_path": "PDF Extracts/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.md",
+     "extract_lines": 295
+    },
+    {
+     "stem": "2025-LaCroix-Metaethical perspectives on \u2018benchmarking\u2019 AI",
+     "extract_path": "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.md",
+     "extract_lines": 2143
+    },
+    {
+     "stem": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values",
+     "extract_path": "PDF Extracts/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+     "extract_lines": 945
+    }
+   ]
+  },
+  {
+   "id": "O036",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Lan-McBE",
+     "extract_path": "PDF Extracts/2025/2025-Lan-McBE.md",
+     "extract_lines": 3048
+    },
+    {
+     "stem": "2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large",
+     "extract_path": "PDF Extracts/2025/2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.md",
+     "extract_lines": 3023
+    },
+    {
+     "stem": "2025-Li-SafetyAnalyst",
+     "extract_path": "PDF Extracts/2025/2025-Li-SafetyAnalyst.md",
+     "extract_lines": 2097
+    }
+   ]
+  },
+  {
+   "id": "O037",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety",
+     "extract_path": "PDF Extracts/2025/2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety.md",
+     "extract_lines": 2156
+    },
+    {
+     "stem": "2025-Lin-MORALISE",
+     "extract_path": "PDF Extracts/2025/2025-Lin-MORALISE.md",
+     "extract_lines": 3888
+    }
+   ]
+  },
+  {
+   "id": "O038",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Liu-The Scales of Justitia",
+     "extract_path": "PDF Extracts/2025/2025-Liu-The Scales of Justitia.md",
+     "extract_lines": 3250
+    }
+   ]
+  },
+  {
+   "id": "O039",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified",
+     "extract_path": "PDF Extracts/2025/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.md",
+     "extract_lines": 7416
+    },
+    {
+     "stem": "2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a",
+     "extract_path": "PDF Extracts/2025/2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.md",
+     "extract_lines": 1086
+    }
+   ]
+  },
+  {
+   "id": "O040",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs",
+     "extract_path": "PDF Extracts/2025/2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.md",
+     "extract_lines": 2469
+    },
+    {
+     "stem": "2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks",
+     "extract_path": "PDF Extracts/2025/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.md",
+     "extract_lines": 1225
+    },
+    {
+     "stem": "2025-Monnar-Cross-lingual hate speech detection using domain-specific word",
+     "extract_path": "PDF Extracts/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md",
+     "extract_lines": 1367
+    }
+   ]
+  },
+  {
+   "id": "O041",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Narnaware-SB-Bench",
+     "extract_path": "PDF Extracts/2025/2025-Narnaware-SB-Bench.md",
+     "extract_lines": 5318
+    },
+    {
+     "stem": "2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative",
+     "extract_path": "PDF Extracts/2025/2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative.md",
+     "extract_lines": 1673
+    }
+   ]
+  },
+  {
+   "id": "O042",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts",
+     "extract_path": "PDF Extracts/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md",
+     "extract_lines": 14929
+    }
+   ]
+  },
+  {
+   "id": "O043",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Neuman-Auditing the Ethical Logic of Generative AI Models",
+     "extract_path": "PDF Extracts/2025/2025-Neuman-Auditing the Ethical Logic of Generative AI Models.md",
+     "extract_lines": 1886
+    },
+    {
+     "stem": "2025-Neuman-PRIME Framework Convergent Ethics",
+     "extract_path": "PDF Extracts/2025/2025-Neuman-PRIME Framework Convergent Ethics.md",
+     "extract_lines": 1187
+    }
+   ]
+  },
+  {
+   "id": "O044",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA",
+     "extract_path": "PDF Extracts/2025/2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.md",
+     "extract_lines": 9385
+    }
+   ]
+  },
+  {
+   "id": "O045",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in",
+     "extract_path": "PDF Extracts/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.md",
+     "extract_lines": 796
+    },
+    {
+     "stem": "2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and",
+     "extract_path": "PDF Extracts/2025/2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and.md",
+     "extract_lines": 2067
+    },
+    {
+     "stem": "2025-Pourbahman-ELAB",
+     "extract_path": "PDF Extracts/2025/2025-Pourbahman-ELAB.md",
+     "extract_lines": 1245
+    },
+    {
+     "stem": "2025-Russo-The Pluralistic Moral Gap",
+     "extract_path": "PDF Extracts/2025/2025-Russo-The Pluralistic Moral Gap.md",
+     "extract_lines": 1565
+    },
+    {
+     "stem": "2025-SOCIETY-How Much of a Pluralist is",
+     "extract_path": "PDF Extracts/2025/2025-SOCIETY-How Much of a Pluralist is.md",
+     "extract_lines": 1820
+    }
+   ]
+  },
+  {
+   "id": "O046",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Sah-FairEval Evaluating Fairness in LLM-Based ...",
+     "extract_path": "PDF Extracts/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....md",
+     "extract_lines": 2485
+    },
+    {
+     "stem": "2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for",
+     "extract_path": "PDF Extracts/2025/2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for.md",
+     "extract_lines": 1377
+    },
+    {
+     "stem": "2025-Satheesh-GG-BBQ",
+     "extract_path": "PDF Extracts/2025/2025-Satheesh-GG-BBQ.md",
+     "extract_lines": 1256
+    },
+    {
+     "stem": "2025-Saunders-A Scalable Oversight Benchmark",
+     "extract_path": "PDF Extracts/2025/2025-Saunders-A Scalable Oversight Benchmark.md",
+     "extract_lines": 778
+    },
+    {
+     "stem": "2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety",
+     "extract_path": "PDF Extracts/2025/2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md",
+     "extract_lines": 2493
+    }
+   ]
+  },
+  {
+   "id": "O047",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched",
+     "extract_path": "PDF Extracts/2025/2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.md",
+     "extract_lines": 2647
+    },
+    {
+     "stem": "2025-Shen-HateBench",
+     "extract_path": "PDF Extracts/2025/2025-Shen-HateBench.md",
+     "extract_lines": 3644
+    },
+    {
+     "stem": "2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace",
+     "extract_path": "PDF Extracts/2025/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.md",
+     "extract_lines": 874
+    }
+   ]
+  },
+  {
+   "id": "O048",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for",
+     "extract_path": "PDF Extracts/2025/2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.md",
+     "extract_lines": 2693
+    },
+    {
+     "stem": "2025-Trager-MFTCXplain",
+     "extract_path": "PDF Extracts/2025/2025-Trager-MFTCXplain.md",
+     "extract_lines": 3168
+    },
+    {
+     "stem": "2025-Unknown-A survey on multi-lingual offensive language detection - PMC",
+     "extract_path": "PDF Extracts/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.md",
+     "extract_lines": 2952
+    }
+   ]
+  },
+  {
+   "id": "O049",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech",
+     "extract_path": "PDF Extracts/2025/2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech.md",
+     "extract_lines": 2018
+    },
+    {
+     "stem": "2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning",
+     "extract_path": "PDF Extracts/2025/2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md",
+     "extract_lines": 1433
+    },
+    {
+     "stem": "2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware",
+     "extract_path": "PDF Extracts/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.md",
+     "extract_lines": 2265
+    },
+    {
+     "stem": "2025-Wang-Measuring Desired Group Discrimination in LLMs",
+     "extract_path": "PDF Extracts/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.md",
+     "extract_lines": 2683
+    }
+   ]
+  },
+  {
+   "id": "O050",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Wei-MedEthicsQA",
+     "extract_path": "PDF Extracts/2025/2025-Wei-MedEthicsQA.md",
+     "extract_lines": 2541
+    },
+    {
+     "stem": "2025-Wen-Evaluating Implicit Bias in Large Language Models",
+     "extract_path": "PDF Extracts/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.md",
+     "extract_lines": 2113
+    },
+    {
+     "stem": "2025-Wu-CVC",
+     "extract_path": "PDF Extracts/2025/2025-Wu-CVC.md",
+     "extract_lines": 1495
+    }
+   ]
+  },
+  {
+   "id": "O051",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Yao-NurValues",
+     "extract_path": "PDF Extracts/2025/2025-Yao-NurValues.md",
+     "extract_lines": 3717
+    },
+    {
+     "stem": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...",
+     "extract_path": "PDF Extracts/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+     "extract_lines": 2907
+    },
+    {
+     "stem": "2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large",
+     "extract_path": "PDF Extracts/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md",
+     "extract_lines": 1049
+    }
+   ]
+  },
+  {
+   "id": "O052",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks",
+     "extract_path": "PDF Extracts/2025/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md",
+     "extract_lines": 1499
+    },
+    {
+     "stem": "2025-Zhou-Moral Reasoning Across Languages",
+     "extract_path": "PDF Extracts/2025/2025-Zhou-Moral Reasoning Across Languages.md",
+     "extract_lines": 855
+    },
+    {
+     "stem": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in",
+     "extract_path": "PDF Extracts/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+     "extract_lines": 870
+    },
+    {
+     "stem": "2025-search-DweshVaani An LLM for Detecting Religious",
+     "extract_path": "PDF Extracts/2025/2025-search-DweshVaani An LLM for Detecting Religious.md",
+     "extract_lines": 1871
+    }
+   ]
+  },
+  {
+   "id": "O053",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-team-Incorporating Diverse Perspectives in Cultural Alignment",
+     "extract_path": "PDF Extracts/2025/2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md",
+     "extract_lines": 4633
+    },
+    {
+     "stem": "2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit",
+     "extract_path": "PDF Extracts/2026/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.md",
+     "extract_lines": 3780
+    }
+   ]
+  },
+  {
+   "id": "O054",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale",
+     "extract_path": "PDF Extracts/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+     "extract_lines": 3204
+    },
+    {
+     "stem": "2026-Jin-MedES Chinese Medical Ethics Scenarios",
+     "extract_path": "PDF Extracts/2026/2026-Jin-MedES Chinese Medical Ethics Scenarios.md",
+     "extract_lines": 1331
+    },
+    {
+     "stem": "2026-Li-PluriHarms",
+     "extract_path": "PDF Extracts/2026/2026-Li-PluriHarms.md",
+     "extract_lines": 2877
+    }
+   ]
+  },
+  {
+   "id": "O055",
+   "tier": "opus",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs",
+     "extract_path": "PDF Extracts/2026/2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.md",
+     "extract_lines": 1792
+    },
+    {
+     "stem": "2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable",
+     "extract_path": "PDF Extracts/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.md",
+     "extract_lines": 1254
+    },
+    {
+     "stem": "2026-Shen-PsychEthicsBench",
+     "extract_path": "PDF Extracts/2026/2026-Shen-PsychEthicsBench.md",
+     "extract_lines": 1874
+    },
+    {
+     "stem": "2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales",
+     "extract_path": "PDF Extracts/2026/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md",
+     "extract_lines": 2343
+    }
+   ]
+  },
+  {
+   "id": "S001",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2015-Clifford-Moral Foundations Vignettes",
+     "extract_path": "PDF Extracts/2015/2015-Clifford-Moral Foundations Vignettes.md",
+     "extract_lines": 4768
+    },
+    {
+     "stem": "2016-Amodei-Concrete Problems in AI Safety",
+     "extract_path": "PDF Extracts/2016/2016-Amodei-Concrete Problems in AI Safety.md",
+     "extract_lines": 1666
+    }
+   ]
+  },
+  {
+   "id": "S002",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2016-Holyoak-Deontological coherence",
+     "extract_path": "PDF Extracts/2016/2016-Holyoak-Deontological coherence.md",
+     "extract_lines": 2843
+    },
+    {
+     "stem": "2016-Xu-How Can a Deontological Decision Lead to Moral",
+     "extract_path": "PDF Extracts/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+     "extract_lines": 1470
+    }
+   ]
+  },
+  {
+   "id": "S003",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2018-Awad-The Moral Machine experiment",
+     "extract_path": "PDF Extracts/2018/2018-Awad-The Moral Machine experiment.md",
+     "extract_lines": 5636
+    },
+    {
+     "stem": "2018-Behzadan-TrolleyMod v1.0",
+     "extract_path": "PDF Extracts/2018/2018-Behzadan-TrolleyMod v1.0.md",
+     "extract_lines": 337
+    },
+    {
+     "stem": "2018-Berberich-The Virtuous Machine",
+     "extract_path": "PDF Extracts/2018/2018-Berberich-The Virtuous Machine.md",
+     "extract_lines": 1026
+    }
+   ]
+  },
+  {
+   "id": "S004",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2018-Crone-The Socio-Moral Image Database (SMID)",
+     "extract_path": "PDF Extracts/2018/2018-Crone-The Socio-Moral Image Database (SMID).md",
+     "extract_lines": 2147
+    },
+    {
+     "stem": "2018-Dixon-Measuring and Mitigating Unintended Bias in Text",
+     "extract_path": "PDF Extracts/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md",
+     "extract_lines": 725
+    },
+    {
+     "stem": "2018-Kim-Toward Non-Intuition-Based Machine Ethics",
+     "extract_path": "PDF Extracts/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.md",
+     "extract_lines": 867
+    },
+    {
+     "stem": "2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments",
+     "extract_path": "PDF Extracts/2018/2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments.md",
+     "extract_lines": 879
+    },
+    {
+     "stem": "2018-Noothigattu-A Voting-Based System for Ethical Decision Making",
+     "extract_path": "PDF Extracts/2018/2018-Noothigattu-A Voting-Based System for Ethical Decision Making.md",
+     "extract_lines": 1519
+    },
+    {
+     "stem": "2018-Rudinger-Gender Bias in Coreference Resolution",
+     "extract_path": "PDF Extracts/2018/2018-Rudinger-Gender Bias in Coreference Resolution.md",
+     "extract_lines": 717
+    },
+    {
+     "stem": "2019-Aliman-Requisite Variety Ethical Utility Functions",
+     "extract_path": "PDF Extracts/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.md",
+     "extract_lines": 874
+    },
+    {
+     "stem": "2019-Basile-SemEval-2019 Task 5",
+     "extract_path": "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5.md",
+     "extract_lines": 1230
+    }
+   ]
+  },
+  {
+   "id": "S005",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2019-Borkan-Nuanced Metrics for Measuring Unintended Bias",
+     "extract_path": "PDF Extracts/2019/2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.md",
+     "extract_lines": 954
+    },
+    {
+     "stem": "2019-De-Arteaga-Bias in Bios",
+     "extract_path": "PDF Extracts/2019/2019-De-Arteaga-Bias in Bios.md",
+     "extract_lines": 1452
+    },
+    {
+     "stem": "2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset",
+     "extract_path": "PDF Extracts/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.md",
+     "extract_lines": 1513
+    },
+    {
+     "stem": "2019-Ibrohim-Multi-label Hate Speech and Abusive Language",
+     "extract_path": "PDF Extracts/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md",
+     "extract_lines": 1366
+    },
+    {
+     "stem": "2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification",
+     "extract_path": "PDF Extracts/2019/2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification.md",
+     "extract_lines": 1432
+    }
+   ]
+  },
+  {
+   "id": "S006",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2019-Jikeli-Annotating Antisemitic Online Content Towards an",
+     "extract_path": "PDF Extracts/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.md",
+     "extract_lines": 2686
+    },
+    {
+     "stem": "2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis",
+     "extract_path": "PDF Extracts/2019/2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.md",
+     "extract_lines": 1386
+    },
+    {
+     "stem": "2020-Akrout-Machine Ethics - Creation of a Virtuous Machine",
+     "extract_path": "PDF Extracts/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.md",
+     "extract_lines": 1535
+    },
+    {
+     "stem": "2020-Awad-Crowdsourcing moral machines",
+     "extract_path": "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md",
+     "extract_lines": 1190
+    },
+    {
+     "stem": "2020-Awad-Universals and variations in moral decisions made",
+     "extract_path": "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md",
+     "extract_lines": 675
+    },
+    {
+     "stem": "2020-Della Foresta-Consequentialism Machine Ethics",
+     "extract_path": "PDF Extracts/2020/2020-Della Foresta-Consequentialism Machine Ethics.md",
+     "extract_lines": 429
+    }
+   ]
+  },
+  {
+   "id": "S007",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2020-Gabriel-Artificial Intelligence Values and Alignment",
+     "extract_path": "PDF Extracts/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.md",
+     "extract_lines": 1389
+    },
+    {
+     "stem": "2020-Gehman-RealToxicityPrompts",
+     "extract_path": "PDF Extracts/2020/2020-Gehman-RealToxicityPrompts.md",
+     "extract_lines": 2716
+    },
+    {
+     "stem": "2020-Hoover-Moral Foundations Twitter Corpus",
+     "extract_path": "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md",
+     "extract_lines": 2606
+    },
+    {
+     "stem": "2020-Kumar-Evaluating Aggression Identification in Social",
+     "extract_path": "PDF Extracts/2020/2020-Kumar-Evaluating Aggression Identification in Social.md",
+     "extract_lines": 786
+    },
+    {
+     "stem": "2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained",
+     "extract_path": "PDF Extracts/2020/2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.md",
+     "extract_lines": 1409
+    }
+   ]
+  },
+  {
+   "id": "S008",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2020-Mainali-Automated Classification of Modes of Moral",
+     "extract_path": "PDF Extracts/2020/2020-Mainali-Automated Classification of Modes of Moral.md",
+     "extract_lines": 580
+    },
+    {
+     "stem": "2020-Mollas-ETHOS an Online Hate Speech Detection Dataset",
+     "extract_path": "PDF Extracts/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.md",
+     "extract_lines": 1245
+    },
+    {
+     "stem": "2020-Nangia-CrowS-Pairs",
+     "extract_path": "PDF Extracts/2020/2020-Nangia-CrowS-Pairs.md",
+     "extract_lines": 1403
+    }
+   ]
+  },
+  {
+   "id": "S009",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification",
+     "extract_path": "PDF Extracts/2020/2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md",
+     "extract_lines": 55987
+    }
+   ]
+  },
+  {
+   "id": "S010",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2020-Pitenis-Offensive Language Identification in Greek",
+     "extract_path": "PDF Extracts/2020/2020-Pitenis-Offensive Language Identification in Greek.md",
+     "extract_lines": 1079
+    },
+    {
+     "stem": "2020-Sap-Social Bias Frames",
+     "extract_path": "PDF Extracts/2020/2020-Sap-Social Bias Frames.md",
+     "extract_lines": 1723
+    },
+    {
+     "stem": "2020-Schramowski-The Moral Choice Machine",
+     "extract_path": "PDF Extracts/2020/2020-Schramowski-The Moral Choice Machine.md",
+     "extract_lines": 2191
+    },
+    {
+     "stem": "2020-Serafimova-Whose Morality Which Rationality",
+     "extract_path": "PDF Extracts/2020/2020-Serafimova-Whose Morality Which Rationality.md",
+     "extract_lines": 1386
+    },
+    {
+     "stem": "2020-Srivastava-A Multi-Dimensional View of Aggression when",
+     "extract_path": "PDF Extracts/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.md",
+     "extract_lines": 973
+    },
+    {
+     "stem": "2020-Yasseri-Detecting Weak and Strong Islamophobic Hate",
+     "extract_path": "PDF Extracts/2020/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md",
+     "extract_lines": 866
+    }
+   ]
+  },
+  {
+   "id": "S011",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020",
+     "extract_path": "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
+     "extract_lines": 931
+    },
+    {
+     "stem": "2021-Lourie-Scruples",
+     "extract_path": "PDF Extracts/2021/2021-Lourie-Scruples.md",
+     "extract_lines": 2407
+    },
+    {
+     "stem": "2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection",
+     "extract_path": "PDF Extracts/2021/2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md",
+     "extract_lines": 1229
+    },
+    {
+     "stem": "2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models",
+     "extract_path": "PDF Extracts/2021/2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.md",
+     "extract_lines": 1266
+    },
+    {
+     "stem": "2021-Nurce-Detecting Abusive Albanian",
+     "extract_path": "PDF Extracts/2021/2021-Nurce-Detecting Abusive Albanian.md",
+     "extract_lines": 1093
+    },
+    {
+     "stem": "2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research",
+     "extract_path": "PDF Extracts/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.md",
+     "extract_lines": 1581
+    }
+   ]
+  },
+  {
+   "id": "S012",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2021-Prabhumoye-Case Study",
+     "extract_path": "PDF Extracts/2021/2021-Prabhumoye-Case Study.md",
+     "extract_lines": 1624
+    },
+    {
+     "stem": "2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification",
+     "extract_path": "PDF Extracts/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.md",
+     "extract_lines": 1158
+    },
+    {
+     "stem": "2021-R\u00f6ttger-HateCheck",
+     "extract_path": "PDF Extracts/2021/2021-R\u00f6ttger-HateCheck.md",
+     "extract_lines": 2208
+    },
+    {
+     "stem": "2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for",
+     "extract_path": "PDF Extracts/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md",
+     "extract_lines": 836
+    },
+    {
+     "stem": "2021-Stenseke-Artificial Virtuous Agents",
+     "extract_path": "PDF Extracts/2021/2021-Stenseke-Artificial Virtuous Agents.md",
+     "extract_lines": 2138
+    }
+   ]
+  },
+  {
+   "id": "S013",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2021-Taul\u00e9-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments",
+     "extract_path": "PDF Extracts/2021/2021-Taul\u00e9-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md",
+     "extract_lines": 1766
+    },
+    {
+     "stem": "2021-Wang-MedAI at SemEval-2021 Task 5",
+     "extract_path": "PDF Extracts/2021/2021-Wang-MedAI at SemEval-2021 Task 5.md",
+     "extract_lines": 502
+    },
+    {
+     "stem": "2022-Abbasi-Deep Learning for Religious and Continent-Based",
+     "extract_path": "PDF Extracts/2022/2022-Abbasi-Deep Learning for Religious and Continent-Based.md",
+     "extract_lines": 1102
+    },
+    {
+     "stem": "2022-Bang-Enabling Classifiers to Make Judgements",
+     "extract_path": "PDF Extracts/2022/2022-Bang-Enabling Classifiers to Make Judgements.md",
+     "extract_lines": 1518
+    },
+    {
+     "stem": "2022-Beyhan-A Turkish Hate Speech Dataset and Detection System",
+     "extract_path": "PDF Extracts/2022/2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md",
+     "extract_lines": 1160
+    },
+    {
+     "stem": "2022-Constantinescu-Can Robotic AI Be Virtuous",
+     "extract_path": "PDF Extracts/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.md",
+     "extract_lines": 580
+    },
+    {
+     "stem": "2022-Das-Hate Speech and Offensive Language Detection",
+     "extract_path": "PDF Extracts/2022/2022-Das-Hate Speech and Offensive Language Detection.md",
+     "extract_lines": 1438
+    },
+    {
+     "stem": "2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media",
+     "extract_path": "PDF Extracts/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.md",
+     "extract_lines": 776
+    }
+   ]
+  },
+  {
+   "id": "S014",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2022-Fraser-Does Moral Code Have a Moral Code",
+     "extract_path": "PDF Extracts/2022/2022-Fraser-Does Moral Code Have a Moral Code.md",
+     "extract_lines": 1697
+    },
+    {
+     "stem": "2022-Gwagwa-The role of the African value of Ubuntu in global",
+     "extract_path": "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+     "extract_lines": 806
+    },
+    {
+     "stem": "2022-Hagendorff-Virtue-Based Framework for AI Ethics",
+     "extract_path": "PDF Extracts/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+     "extract_lines": 1241
+    },
+    {
+     "stem": "2022-Hartvigsen-ToxiGen",
+     "extract_path": "PDF Extracts/2022/2022-Hartvigsen-ToxiGen.md",
+     "extract_lines": 2170
+    },
+    {
+     "stem": "2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media",
+     "extract_path": "PDF Extracts/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.md",
+     "extract_lines": 633
+    },
+    {
+     "stem": "2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT",
+     "extract_path": "PDF Extracts/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md",
+     "extract_lines": 770
+    }
+   ]
+  },
+  {
+   "id": "S015",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2022-Jeong-KOLD Korean Offensive Language Dataset",
+     "extract_path": "PDF Extracts/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.md",
+     "extract_lines": 1769
+    },
+    {
+     "stem": "2022-Jiang-Can Machines Learn Morality",
+     "extract_path": "PDF Extracts/2022/2022-Jiang-Can Machines Learn Morality.md",
+     "extract_lines": 3987
+    },
+    {
+     "stem": "2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets",
+     "extract_path": "PDF Extracts/2022/2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.md",
+     "extract_lines": 274
+    },
+    {
+     "stem": "2022-Nkemelu-Tackling Hate Speech in Low-resource Languages",
+     "extract_path": "PDF Extracts/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md",
+     "extract_lines": 1350
+    },
+    {
+     "stem": "2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI",
+     "extract_path": "PDF Extracts/2022/2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.md",
+     "extract_lines": 861
+    }
+   ]
+  },
+  {
+   "id": "S016",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2022-Ramponi-Addressing Religious Hate Online From Taxonomy",
+     "extract_path": "PDF Extracts/2022/2022-Ramponi-Addressing Religious Hate Online From Taxonomy.md",
+     "extract_lines": 2095
+    },
+    {
+     "stem": "2022-R\u00f6ttger-Multilingual HateCheck",
+     "extract_path": "PDF Extracts/2022/2022-R\u00f6ttger-Multilingual HateCheck.md",
+     "extract_lines": 2327
+    },
+    {
+     "stem": "2022-Sahoo-Detecting Unintended Social Bias in Toxic",
+     "extract_path": "PDF Extracts/2022/2022-Sahoo-Detecting Unintended Social Bias in Toxic.md",
+     "extract_lines": 1404
+    },
+    {
+     "stem": "2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case",
+     "extract_path": "PDF Extracts/2022/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md",
+     "extract_lines": 1482
+    }
+   ]
+  },
+  {
+   "id": "S017",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2022-Trager-The Moral Foundations Reddit Corpus",
+     "extract_path": "PDF Extracts/2022/2022-Trager-The Moral Foundations Reddit Corpus.md",
+     "extract_lines": 1714
+    },
+    {
+     "stem": "2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram",
+     "extract_path": "PDF Extracts/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.md",
+     "extract_lines": 1418
+    },
+    {
+     "stem": "2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain",
+     "extract_path": "PDF Extracts/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md",
+     "extract_lines": 1692
+    },
+    {
+     "stem": "2022-researchers-Hate Speech Classification in Bulgarian",
+     "extract_path": "PDF Extracts/2022/2022-researchers-Hate Speech Classification in Bulgarian.md",
+     "extract_lines": 983
+    },
+    {
+     "stem": "2023-Bang-Towards Answering Open-ended Ethical Quandary",
+     "extract_path": "PDF Extracts/2023/2023-Bang-Towards Answering Open-ended Ethical Quandary.md",
+     "extract_lines": 1423
+    },
+    {
+     "stem": "2023-Benkler-Assessing LLMs for Moral Value Pluralism",
+     "extract_path": "PDF Extracts/2023/2023-Benkler-Assessing LLMs for Moral Value Pluralism.md",
+     "extract_lines": 685
+    },
+    {
+     "stem": "2023-Boddington-Normative Ethical Theory AI Ethics",
+     "extract_path": "PDF Extracts/2023/2023-Boddington-Normative Ethical Theory AI Ethics.md",
+     "extract_lines": 973
+    }
+   ]
+  },
+  {
+   "id": "S018",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Catapang-EMoTES-3K",
+     "extract_path": "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md",
+     "extract_lines": 620
+    },
+    {
+     "stem": "2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender",
+     "extract_path": "PDF Extracts/2023/2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.md",
+     "extract_lines": 1910
+    },
+    {
+     "stem": "2023-Davani-Disentangling Perceptions of Offensiveness",
+     "extract_path": "PDF Extracts/2023/2023-Davani-Disentangling Perceptions of Offensiveness.md",
+     "extract_lines": 1622
+    },
+    {
+     "stem": "2023-Deng-Probing the Moral Development of Large Language",
+     "extract_path": "PDF Extracts/2023/2023-Deng-Probing the Moral Development of Large Language.md",
+     "extract_lines": 655
+    },
+    {
+     "stem": "2023-Durmus-Towards Measuring the Representation of",
+     "extract_path": "PDF Extracts/2023/2023-Durmus-Towards Measuring the Representation of.md",
+     "extract_lines": 1542
+    },
+    {
+     "stem": "2023-Feng-Case Repositories",
+     "extract_path": "PDF Extracts/2023/2023-Feng-Case Repositories.md",
+     "extract_lines": 515
+    },
+    {
+     "stem": "2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores",
+     "extract_path": "PDF Extracts/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md",
+     "extract_lines": 1277
+    }
+   ]
+  },
+  {
+   "id": "S019",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Hamad-Offensive Hebrew Corpus and Detection using BERT",
+     "extract_path": "PDF Extracts/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md",
+     "extract_lines": 1145
+    },
+    {
+     "stem": "2023-Hopp-The Dutch Moral Foundations Stimulus Database",
+     "extract_path": "PDF Extracts/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.md",
+     "extract_lines": 1655
+    },
+    {
+     "stem": "2023-Hou-A Multi-Level Framework for the AI Alignment",
+     "extract_path": "PDF Extracts/2023/2023-Hou-A Multi-Level Framework for the AI Alignment.md",
+     "extract_lines": 379
+    },
+    {
+     "stem": "2023-Hou-Foundational Moral Values for AI Alignment",
+     "extract_path": "PDF Extracts/2023/2023-Hou-Foundational Moral Values for AI Alignment.md",
+     "extract_lines": 811
+    },
+    {
+     "stem": "2023-H\u00e4mmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models",
+     "extract_path": "PDF Extracts/2023/2023-H\u00e4mmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.md",
+     "extract_lines": 2123
+    },
+    {
+     "stem": "2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media",
+     "extract_path": "PDF Extracts/2023/2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.md",
+     "extract_lines": 1618
+    }
+   ]
+  },
+  {
+   "id": "S020",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Ji-AI Alignment",
+     "extract_path": "PDF Extracts/2023/2023-Ji-AI Alignment.md",
+     "extract_lines": 6891
+    }
+   ]
+  },
+  {
+   "id": "S021",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-K\u00f6rner-Deontology and Utilitarianism in Real Life",
+     "extract_path": "PDF Extracts/2023/2023-K\u00f6rner-Deontology and Utilitarianism in Real Life.md",
+     "extract_lines": 3310
+    },
+    {
+     "stem": "2023-Lee-KoSBI",
+     "extract_path": "PDF Extracts/2023/2023-Lee-KoSBI.md",
+     "extract_lines": 2811
+    },
+    {
+     "stem": "2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large",
+     "extract_path": "PDF Extracts/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.md",
+     "extract_lines": 2811
+    }
+   ]
+  },
+  {
+   "id": "S022",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Lee-VisAlign",
+     "extract_path": "PDF Extracts/2023/2023-Lee-VisAlign.md",
+     "extract_lines": 4096
+    },
+    {
+     "stem": "2023-Lu-The Chai Platform's AI Safety Framework",
+     "extract_path": "PDF Extracts/2023/2023-Lu-The Chai Platform's AI Safety Framework.md",
+     "extract_lines": 563
+    },
+    {
+     "stem": "2023-Maile-The choice of deontological, virtue ethical, and",
+     "extract_path": "PDF Extracts/2023/2023-Maile-The choice of deontological, virtue ethical, and.md",
+     "extract_lines": 1256
+    },
+    {
+     "stem": "2023-McDonald-AI alignment and the categorical imperative",
+     "extract_path": "PDF Extracts/2023/2023-McDonald-AI alignment and the categorical imperative.md",
+     "extract_lines": 791
+    },
+    {
+     "stem": "2023-Mougan-Kantian Deontology Meets AI Alignment",
+     "extract_path": "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.md",
+     "extract_lines": 939
+    },
+    {
+     "stem": "2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in",
+     "extract_path": "PDF Extracts/2023/2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.md",
+     "extract_lines": 615
+    }
+   ]
+  },
+  {
+   "id": "S023",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Nie-MoCa",
+     "extract_path": "PDF Extracts/2023/2023-Nie-MoCa.md",
+     "extract_lines": 2437
+    },
+    {
+     "stem": "2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language",
+     "extract_path": "PDF Extracts/2023/2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language.md",
+     "extract_lines": 1892
+    },
+    {
+     "stem": "2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models",
+     "extract_path": "PDF Extracts/2023/2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.md",
+     "extract_lines": 1530
+    },
+    {
+     "stem": "2023-Rao-Ethical Reasoning over Moral Alignment",
+     "extract_path": "PDF Extracts/2023/2023-Rao-Ethical Reasoning over Moral Alignment.md",
+     "extract_lines": 1863
+    }
+   ]
+  },
+  {
+   "id": "S024",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Rao-What Makes it Ok to Set a Fire Iterative",
+     "extract_path": "PDF Extracts/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.md",
+     "extract_lines": 2140
+    },
+    {
+     "stem": "2023-Roger-Towards ethical multimodal systems",
+     "extract_path": "PDF Extracts/2023/2023-Roger-Towards ethical multimodal systems.md",
+     "extract_lines": 398
+    },
+    {
+     "stem": "2023-Rystr\u00f8m-Apolitical Intelligence",
+     "extract_path": "PDF Extracts/2023/2023-Rystr\u00f8m-Apolitical Intelligence.md",
+     "extract_lines": 1456
+    },
+    {
+     "stem": "2023-Shen-Large Language Model Alignment",
+     "extract_path": "PDF Extracts/2023/2023-Shen-Large Language Model Alignment.md",
+     "extract_lines": 3584
+    },
+    {
+     "stem": "2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection",
+     "extract_path": "PDF Extracts/2023/2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.md",
+     "extract_lines": 900
+    }
+   ]
+  },
+  {
+   "id": "S025",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions",
+     "extract_path": "PDF Extracts/2023/2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions.md",
+     "extract_lines": 1696
+    },
+    {
+     "stem": "2023-Vida-Values, Ethics, Morals",
+     "extract_path": "PDF Extracts/2023/2023-Vida-Values, Ethics, Morals.md",
+     "extract_lines": 2090
+    },
+    {
+     "stem": "2023-Vidgen-SimpleSafetyTests",
+     "extract_path": "PDF Extracts/2023/2023-Vidgen-SimpleSafetyTests.md",
+     "extract_lines": 973
+    },
+    {
+     "stem": "2023-Wang-STREAM",
+     "extract_path": "PDF Extracts/2023/2023-Wang-STREAM.md",
+     "extract_lines": 441
+    },
+    {
+     "stem": "2023-Yao-Value FULCRA",
+     "extract_path": "PDF Extracts/2023/2023-Yao-Value FULCRA.md",
+     "extract_lines": 2344
+    },
+    {
+     "stem": "2023-Zhang-Heterogeneous Value Alignment Evaluation for",
+     "extract_path": "PDF Extracts/2023/2023-Zhang-Heterogeneous Value Alignment Evaluation for.md",
+     "extract_lines": 1086
+    }
+   ]
+  },
+  {
+   "id": "S026",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Abdulhai-Moral Foundations of Large Language Models",
+     "extract_path": "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md",
+     "extract_lines": 1578
+    },
+    {
+     "stem": "2024-Agarwal-Ethical Reasoning Depends on Language",
+     "extract_path": "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning Depends on Language.md",
+     "extract_lines": 1330
+    },
+    {
+     "stem": "2024-Aksoy-Whose Morality Do They Speak",
+     "extract_path": "PDF Extracts/2024/2024-Aksoy-Whose Morality Do They Speak.md",
+     "extract_lines": 2348
+    },
+    {
+     "stem": "2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning",
+     "extract_path": "PDF Extracts/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.md",
+     "extract_lines": 2457
+    }
+   ]
+  },
+  {
+   "id": "S027",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Altinok-Gender Bias in Turkish Word Embeddings",
+     "extract_path": "PDF Extracts/2024/2024-Altinok-Gender Bias in Turkish Word Embeddings.md",
+     "extract_lines": 1571
+    },
+    {
+     "stem": "2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus",
+     "extract_path": "PDF Extracts/2024/2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus.md",
+     "extract_lines": 1439
+    },
+    {
+     "stem": "2024-Arzberger-Nothing Comes Without Its World",
+     "extract_path": "PDF Extracts/2024/2024-Arzberger-Nothing Comes Without Its World.md",
+     "extract_lines": 1540
+    },
+    {
+     "stem": "2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation",
+     "extract_path": "PDF Extracts/2024/2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.md",
+     "extract_lines": 2436
+    },
+    {
+     "stem": "2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset",
+     "extract_path": "PDF Extracts/2024/2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md",
+     "extract_lines": 648
+    }
+   ]
+  },
+  {
+   "id": "S028",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Bajaj-GenMO Gender-bias in Morality Opinions",
+     "extract_path": "PDF Extracts/2024/2024-Bajaj-GenMO Gender-bias in Morality Opinions.md",
+     "extract_lines": 1625
+    },
+    {
+     "stem": "2024-Bertram-Comparative Survey of German Hate Speech Datasets Background",
+     "extract_path": "PDF Extracts/2024/2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.md",
+     "extract_lines": 667
+    },
+    {
+     "stem": "2024-Biedma-Beyond Human Norms",
+     "extract_path": "PDF Extracts/2024/2024-Biedma-Beyond Human Norms.md",
+     "extract_lines": 1134
+    },
+    {
+     "stem": "2024-Bignotti-Legal Minds, Algorithmic Decisions",
+     "extract_path": "PDF Extracts/2024/2024-Bignotti-Legal Minds, Algorithmic Decisions.md",
+     "extract_lines": 1606
+    },
+    {
+     "stem": "2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational",
+     "extract_path": "PDF Extracts/2024/2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational.md",
+     "extract_lines": 1515
+    },
+    {
+     "stem": "2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text",
+     "extract_path": "PDF Extracts/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.md",
+     "extract_lines": 724
+    }
+   ]
+  },
+  {
+   "id": "S029",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Cahyawijaya-High-Dimension Human Value Representation in",
+     "extract_path": "PDF Extracts/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.md",
+     "extract_lines": 2935
+    },
+    {
+     "stem": "2024-Cao-The Moral Foundations Weibo Corpus",
+     "extract_path": "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md",
+     "extract_lines": 1547
+    },
+    {
+     "stem": "2024-Chakravarthi-Findings of the Shared Task on",
+     "extract_path": "PDF Extracts/2024/2024-Chakravarthi-Findings of the Shared Task on.md",
+     "extract_lines": 839
+    },
+    {
+     "stem": "2024-Chhabra-Evaluating Computational Models of Ethics",
+     "extract_path": "PDF Extracts/2024/2024-Chhabra-Evaluating Computational Models of Ethics.md",
+     "extract_lines": 467
+    }
+   ]
+  },
+  {
+   "id": "S030",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Chiu-DailyDilemmas",
+     "extract_path": "PDF Extracts/2024/2024-Chiu-DailyDilemmas.md",
+     "extract_lines": 6578
+    }
+   ]
+  },
+  {
+   "id": "S031",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Chua-AI Safety in Generative AI Large Language Models",
+     "extract_path": "PDF Extracts/2024/2024-Chua-AI Safety in Generative AI Large Language Models.md",
+     "extract_lines": 4236
+    },
+    {
+     "stem": "2024-DAlessandro-Deontology and Safe Artificial Intelligence",
+     "extract_path": "PDF Extracts/2024/2024-DAlessandro-Deontology and Safe Artificial Intelligence.md",
+     "extract_lines": 1423
+    },
+    {
+     "stem": "2024-Dognin-Contextual Moral Value Alignment Through",
+     "extract_path": "PDF Extracts/2024/2024-Dognin-Contextual Moral Value Alignment Through.md",
+     "extract_lines": 584
+    },
+    {
+     "stem": "2024-Elrod-Uncovering Theological and Ethical Biases in",
+     "extract_path": "PDF Extracts/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.md",
+     "extract_lines": 2594
+    }
+   ]
+  },
+  {
+   "id": "S032",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Farina-AI and Society Virtue Ethics Approach",
+     "extract_path": "PDF Extracts/2024/2024-Farina-AI and Society Virtue Ethics Approach.md",
+     "extract_lines": 834
+    },
+    {
+     "stem": "2024-Fitzgerald-Some Issues in Predictive Ethics Modeling",
+     "extract_path": "PDF Extracts/2024/2024-Fitzgerald-Some Issues in Predictive Ethics Modeling.md",
+     "extract_lines": 927
+    },
+    {
+     "stem": "2024-Freire-Uncovering Latent Human Wellbeing in Language",
+     "extract_path": "PDF Extracts/2024/2024-Freire-Uncovering Latent Human Wellbeing in Language.md",
+     "extract_lines": 601
+    }
+   ]
+  },
+  {
+   "id": "S033",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Gabriel-The Ethics of Advanced AI Assistants",
+     "extract_path": "PDF Extracts/2024/2024-Gabriel-The Ethics of Advanced AI Assistants.md",
+     "extract_lines": 13459
+    }
+   ]
+  },
+  {
+   "id": "S034",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Garcia-The Moral Turing Test",
+     "extract_path": "PDF Extracts/2024/2024-Garcia-The Moral Turing Test.md",
+     "extract_lines": 1434
+    },
+    {
+     "stem": "2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive",
+     "extract_path": "PDF Extracts/2024/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.md",
+     "extract_lines": 1397
+    },
+    {
+     "stem": "2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -",
+     "extract_path": "PDF Extracts/2024/2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -.md",
+     "extract_lines": 2167
+    },
+    {
+     "stem": "2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset",
+     "extract_path": "PDF Extracts/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.md",
+     "extract_lines": 1636
+    },
+    {
+     "stem": "2024-Han-Moral Exemplars in AI Education",
+     "extract_path": "PDF Extracts/2024/2024-Han-Moral Exemplars in AI Education.md",
+     "extract_lines": 1093
+    }
+   ]
+  },
+  {
+   "id": "S035",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Hayes-Virtue and Narrative in AI Practices",
+     "extract_path": "PDF Extracts/2024/2024-Hayes-Virtue and Narrative in AI Practices.md",
+     "extract_lines": 2505
+    }
+   ]
+  },
+  {
+   "id": "S036",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Hendrycks-Introduction to AI Safety, Ethics, and Society",
+     "extract_path": "PDF Extracts/2024/2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.md",
+     "extract_lines": 29118
+    }
+   ]
+  },
+  {
+   "id": "S037",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Hossein-ParsOffensive Persian Offensive Comments Dataset",
+     "extract_path": "PDF Extracts/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.md",
+     "extract_lines": 910
+    },
+    {
+     "stem": "2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and",
+     "extract_path": "PDF Extracts/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.md",
+     "extract_lines": 4706
+    },
+    {
+     "stem": "2024-Huang-Collective Constitutional AI Aligning a Language Model with Public",
+     "extract_path": "PDF Extracts/2024/2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.md",
+     "extract_lines": 2117
+    },
+    {
+     "stem": "2024-Huang-Moral Persuasion in Large Language Models",
+     "extract_path": "PDF Extracts/2024/2024-Huang-Moral Persuasion in Large Language Models.md",
+     "extract_lines": 822
+    }
+   ]
+  },
+  {
+   "id": "S038",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-J. K. Lee-Detecting Bias in Large Language Models Fine-tuned KcBERT",
+     "extract_path": "PDF Extracts/2024/2024-J. K. Lee-Detecting Bias in Large Language Models Fine-tuned KcBERT.md",
+     "extract_lines": 691
+    },
+    {
+     "stem": "2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal",
+     "extract_path": "PDF Extracts/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.md",
+     "extract_lines": 1351
+    },
+    {
+     "stem": "2024-Jiang-WildTeaming at Scale",
+     "extract_path": "PDF Extracts/2024/2024-Jiang-WildTeaming at Scale.md",
+     "extract_lines": 5386
+    }
+   ]
+  },
+  {
+   "id": "S039",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Jin-Language Model Alignment in Multilingual Trolley",
+     "extract_path": "PDF Extracts/2024/2024-Jin-Language Model Alignment in Multilingual Trolley.md",
+     "extract_lines": 2600
+    },
+    {
+     "stem": "2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks",
+     "extract_path": "PDF Extracts/2024/2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.md",
+     "extract_lines": 1567
+    },
+    {
+     "stem": "2024-Kaiyom-HELM Safety",
+     "extract_path": "PDF Extracts/2024/2024-Kaiyom-HELM Safety.md",
+     "extract_lines": 804
+    },
+    {
+     "stem": "2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in",
+     "extract_path": "PDF Extracts/2024/2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.md",
+     "extract_lines": 1360
+    },
+    {
+     "stem": "2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata",
+     "extract_path": "PDF Extracts/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md",
+     "extract_lines": 1304
+    },
+    {
+     "stem": "2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural",
+     "extract_path": "PDF Extracts/2024/2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.md",
+     "extract_lines": 955
+    }
+   ]
+  },
+  {
+   "id": "S040",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Kaneko-Eagle",
+     "extract_path": "PDF Extracts/2024/2024-Kaneko-Eagle.md",
+     "extract_lines": 1504
+    },
+    {
+     "stem": "2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference",
+     "extract_path": "PDF Extracts/2024/2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference.md",
+     "extract_lines": 1845
+    },
+    {
+     "stem": "2024-Khamassi-Strong and weak alignment of large language models",
+     "extract_path": "PDF Extracts/2024/2024-Khamassi-Strong and weak alignment of large language models.md",
+     "extract_lines": 1849
+    },
+    {
+     "stem": "2024-Khandelwal-Do Moral Judgment and Reasoning Capability of",
+     "extract_path": "PDF Extracts/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md",
+     "extract_lines": 1300
+    },
+    {
+     "stem": "2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs",
+     "extract_path": "PDF Extracts/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md",
+     "extract_lines": 763
+    },
+    {
+     "stem": "2024-Khandelwal-Multilingual Defining Issues Test",
+     "extract_path": "PDF Extracts/2024/2024-Khandelwal-Multilingual Defining Issues Test.md",
+     "extract_lines": 1315
+    }
+   ]
+  },
+  {
+   "id": "S041",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Kirgis-Differences in Moral Foundations of LLMs",
+     "extract_path": "PDF Extracts/2024/2024-Kirgis-Differences in Moral Foundations of LLMs.md",
+     "extract_lines": 471
+    },
+    {
+     "stem": "2024-Kyriacou-Artificial Moral Intelligence Aristotelian",
+     "extract_path": "PDF Extracts/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.md",
+     "extract_lines": 1152
+    },
+    {
+     "stem": "2024-Lazar-Frontier AI Ethics",
+     "extract_path": "PDF Extracts/2024/2024-Lazar-Frontier AI Ethics.md",
+     "extract_lines": 725
+    },
+    {
+     "stem": "2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A",
+     "extract_path": "PDF Extracts/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.md",
+     "extract_lines": 1226
+    },
+    {
+     "stem": "2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages",
+     "extract_path": "PDF Extracts/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.md",
+     "extract_lines": 2437
+    },
+    {
+     "stem": "2024-Liu-Detecting Anti-Semitic Hate Speech Using Transformer-Based",
+     "extract_path": "PDF Extracts/2024/2024-Liu-Detecting Anti-Semitic Hate Speech Using Transformer-Based.md",
+     "extract_lines": 923
+    }
+   ]
+  },
+  {
+   "id": "S042",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Liu-Evaluating Moral Beliefs across LLMs through a",
+     "extract_path": "PDF Extracts/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.md",
+     "extract_lines": 2691
+    },
+    {
+     "stem": "2024-Luu-ViTHSD Exploiting Hatred by Targets for Hate Speech Detection on",
+     "extract_path": "PDF Extracts/2024/2024-Luu-ViTHSD Exploiting Hatred by Targets for Hate Speech Detection on.md",
+     "extract_lines": 1629
+    },
+    {
+     "stem": "2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge",
+     "extract_path": "PDF Extracts/2024/2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.md",
+     "extract_lines": 844
+    },
+    {
+     "stem": "2024-Meijer-LLMs as mirrors of societal moral standards reflection of cultural",
+     "extract_path": "PDF Extracts/2024/2024-Meijer-LLMs as mirrors of societal moral standards reflection of cultural.md",
+     "extract_lines": 2470
+    },
+    {
+     "stem": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics",
+     "extract_path": "PDF Extracts/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+     "extract_lines": 1000
+    }
+   ]
+  },
+  {
+   "id": "S043",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Nahian-The Goofus & Gallant Story Corpus for Practical",
+     "extract_path": "PDF Extracts/2024/2024-Nahian-The Goofus & Gallant Story Corpus for Practical.md",
+     "extract_lines": 1035
+    },
+    {
+     "stem": "2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in",
+     "extract_path": "PDF Extracts/2024/2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in.md",
+     "extract_lines": 2815
+    },
+    {
+     "stem": "2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic",
+     "extract_path": "PDF Extracts/2024/2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.md",
+     "extract_lines": 1024
+    },
+    {
+     "stem": "2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding",
+     "extract_path": "PDF Extracts/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md",
+     "extract_lines": 1681
+    }
+   ]
+  },
+  {
+   "id": "S044",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Ober-Lyceum Project AI Ethics Aristotle",
+     "extract_path": "PDF Extracts/2024/2024-Ober-Lyceum Project AI Ethics Aristotle.md",
+     "extract_lines": 2753
+    },
+    {
+     "stem": "2024-Ohashi-Extended Japanese Commonsense Morality Dataset",
+     "extract_path": "PDF Extracts/2024/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.md",
+     "extract_lines": 557
+    },
+    {
+     "stem": "2024-Park-Morality is Non-Binary",
+     "extract_path": "PDF Extracts/2024/2024-Park-Morality is Non-Binary.md",
+     "extract_lines": 2421
+    }
+   ]
+  },
+  {
+   "id": "S045",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine",
+     "extract_path": "PDF Extracts/2024/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.md",
+     "extract_lines": 5741
+    },
+    {
+     "stem": "2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language",
+     "extract_path": "PDF Extracts/2024/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.md",
+     "extract_lines": 2487
+    }
+   ]
+  },
+  {
+   "id": "S046",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset",
+     "extract_path": "PDF Extracts/2024/2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.md",
+     "extract_lines": 3025
+    },
+    {
+     "stem": "2024-Rane-Concept Alignment",
+     "extract_path": "PDF Extracts/2024/2024-Rane-Concept Alignment.md",
+     "extract_lines": 651
+    },
+    {
+     "stem": "2024-Ranjan-A Comprehensive Survey of Bias in LLMs",
+     "extract_path": "PDF Extracts/2024/2024-Ranjan-A Comprehensive Survey of Bias in LLMs.md",
+     "extract_lines": 749
+    },
+    {
+     "stem": "2024-Sadhu-Social Bias in Large Language Models",
+     "extract_path": "PDF Extracts/2024/2024-Sadhu-Social Bias in Large Language Models.md",
+     "extract_lines": 1667
+    },
+    {
+     "stem": "2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian",
+     "extract_path": "PDF Extracts/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md",
+     "extract_lines": 987
+    },
+    {
+     "stem": "2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In",
+     "extract_path": "PDF Extracts/2024/2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md",
+     "extract_lines": 1306
+    }
+   ]
+  },
+  {
+   "id": "S047",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Sharma-TABHATE A Target-based Hate Speech Detection",
+     "extract_path": "PDF Extracts/2024/2024-Sharma-TABHATE A Target-based Hate Speech Detection.md",
+     "extract_lines": 807
+    },
+    {
+     "stem": "2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'",
+     "extract_path": "PDF Extracts/2024/2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.md",
+     "extract_lines": 4037
+    },
+    {
+     "stem": "2024-So-AI Trained on Confucian Analects",
+     "extract_path": "PDF Extracts/2024/2024-So-AI Trained on Confucian Analects.md",
+     "extract_lines": 542
+    },
+    {
+     "stem": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+     "extract_path": "PDF Extracts/2024/2024-So-AI Trained on Confucian Analects.md",
+     "extract_lines": 542
+    },
+    {
+     "stem": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of",
+     "extract_path": "PDF Extracts/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md",
+     "extract_lines": 1029
+    },
+    {
+     "stem": "2024-Sorin-Ethical Alignment of LLMs in Healthcare",
+     "extract_path": "PDF Extracts/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.md",
+     "extract_lines": 971
+    }
+   ]
+  },
+  {
+   "id": "S048",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Stenseke-Computational Complexity of Ethics",
+     "extract_path": "PDF Extracts/2024/2024-Stenseke-Computational Complexity of Ethics.md",
+     "extract_lines": 4732
+    },
+    {
+     "stem": "2024-Sun-Towards Friendly AI",
+     "extract_path": "PDF Extracts/2024/2024-Sun-Towards Friendly AI.md",
+     "extract_lines": 1707
+    },
+    {
+     "stem": "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and",
+     "extract_path": "PDF Extracts/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md",
+     "extract_lines": 1499
+    },
+    {
+     "stem": "2024-Takemoto-The moral machine experiment on large language",
+     "extract_path": "PDF Extracts/2024/2024-Takemoto-The moral machine experiment on large language.md",
+     "extract_lines": 855
+    }
+   ]
+  },
+  {
+   "id": "S049",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations",
+     "extract_path": "PDF Extracts/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.md",
+     "extract_lines": 2305
+    },
+    {
+     "stem": "2024-Tlaie-Exploring and steering the moral compass of Large",
+     "extract_path": "PDF Extracts/2024/2024-Tlaie-Exploring and steering the moral compass of Large.md",
+     "extract_lines": 1237
+    },
+    {
+     "stem": "2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in",
+     "extract_path": "PDF Extracts/2024/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.md",
+     "extract_lines": 3141
+    }
+   ]
+  },
+  {
+   "id": "S050",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of",
+     "extract_path": "PDF Extracts/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.md",
+     "extract_lines": 2694
+    },
+    {
+     "stem": "2024-Tonneau-NaijaHate",
+     "extract_path": "PDF Extracts/2024/2024-Tonneau-NaijaHate.md",
+     "extract_lines": 2564
+    },
+    {
+     "stem": "2024-Tonneau-Turkish Hate Speech Superset Dataset",
+     "extract_path": "PDF Extracts/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.md",
+     "extract_lines": 1160
+    },
+    {
+     "stem": "2024-Toygar-Turkish Offensive Language Detection Dataset",
+     "extract_path": "PDF Extracts/2024/2024-Toygar-Turkish Offensive Language Detection Dataset.md",
+     "extract_lines": 730
+    },
+    {
+     "stem": "2024-Ungless-ETHICS WHITEPAPER",
+     "extract_path": "PDF Extracts/2024/2024-Ungless-ETHICS WHITEPAPER.md",
+     "extract_lines": 1536
+    }
+   ]
+  },
+  {
+   "id": "S051",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-University-Monitoring the Evolution of Antisemitic Discourse",
+     "extract_path": "PDF Extracts/2024/2024-University-Monitoring the Evolution of Antisemitic Discourse.md",
+     "extract_lines": 1458
+    },
+    {
+     "stem": "2024-University-Using LLMs to Discover Emerging Coded",
+     "extract_path": "PDF Extracts/2024/2024-University-Using LLMs to Discover Emerging Coded.md",
+     "extract_lines": 1112
+    },
+    {
+     "stem": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including",
+     "extract_path": "PDF Extracts/2024/2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+     "extract_lines": 1019
+    },
+    {
+     "stem": "2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused",
+     "extract_path": "PDF Extracts/2024/2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused.md",
+     "extract_lines": 687
+    },
+    {
+     "stem": "2024-Velankar-SamPar A Marathi Hate Speech Dataset",
+     "extract_path": "PDF Extracts/2024/2024-Velankar-SamPar A Marathi Hate Speech Dataset.md",
+     "extract_lines": 554
+    },
+    {
+     "stem": "2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases",
+     "extract_path": "PDF Extracts/2024/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md",
+     "extract_lines": 2157
+    },
+    {
+     "stem": "2024-Wang-Possibilities and challenges in the moral growth of LLMs",
+     "extract_path": "PDF Extracts/2024/2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+     "extract_lines": 1177
+    },
+    {
+     "stem": "2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models",
+     "extract_path": "PDF Extracts/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md",
+     "extract_lines": 516
+    }
+   ]
+  },
+  {
+   "id": "S052",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of",
+     "extract_path": "PDF Extracts/2024/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md",
+     "extract_lines": 921
+    },
+    {
+     "stem": "2024-Wilders-Socratic Dialogue for Virtue Ethics in AI",
+     "extract_path": "PDF Extracts/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.md",
+     "extract_lines": 1394
+    },
+    {
+     "stem": "2024-Woodgate-Macro Ethics Principles for Responsible AI Systems",
+     "extract_path": "PDF Extracts/2024/2024-Woodgate-Macro Ethics Principles for Responsible AI Systems.md",
+     "extract_lines": 2731
+    },
+    {
+     "stem": "2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios",
+     "extract_path": "PDF Extracts/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.md",
+     "extract_lines": 1562
+    }
+   ]
+  },
+  {
+   "id": "S053",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Xie-CultureLLM Incorporating Cultural Differences into Large",
+     "extract_path": "PDF Extracts/2024/2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md",
+     "extract_lines": 3101
+    },
+    {
+     "stem": "2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language",
+     "extract_path": "PDF Extracts/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md",
+     "extract_lines": 3757
+    },
+    {
+     "stem": "2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate",
+     "extract_path": "PDF Extracts/2024/2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate.md",
+     "extract_lines": 1150
+    }
+   ]
+  },
+  {
+   "id": "S054",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-Zangari-A survey on moral foundation theory and pre-trained language models",
+     "extract_path": "PDF Extracts/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.md",
+     "extract_lines": 2692
+    },
+    {
+     "stem": "2024-Zhi-Xuan-Beyond Preferences in AI Alignment",
+     "extract_path": "PDF Extracts/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.md",
+     "extract_lines": 2563
+    },
+    {
+     "stem": "2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning",
+     "extract_path": "PDF Extracts/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md",
+     "extract_lines": 1938
+    },
+    {
+     "stem": "2024-with.pdf-Hate Speech Detection in Low-Resource Bodo and Assamese Texts with",
+     "extract_path": "PDF Extracts/2024/2024-with.pdf-Hate Speech Detection in Low-Resource Bodo and Assamese Texts with.md",
+     "extract_lines": 1268
+    }
+   ]
+  },
+  {
+   "id": "S055",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2024-\u0160ekrst-AI Ethics by Design",
+     "extract_path": "PDF Extracts/2024/2024-\u0160ekrst-AI Ethics by Design.md",
+     "extract_lines": 966
+    },
+    {
+     "stem": "2025-Aditya-Toward global ethical frameworks for AI",
+     "extract_path": "PDF Extracts/2025/2025-Aditya-Toward global ethical frameworks for AI.md",
+     "extract_lines": 612
+    },
+    {
+     "stem": "2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed",
+     "extract_path": "PDF Extracts/2025/2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.md",
+     "extract_lines": 2322
+    },
+    {
+     "stem": "2025-Aina-Virtue Ethics by Design",
+     "extract_path": "PDF Extracts/2025/2025-Aina-Virtue Ethics by Design.md",
+     "extract_lines": 411
+    },
+    {
+     "stem": "2025-Ajwad Abrar-Religious Bias Landscape in Language and",
+     "extract_path": "PDF Extracts/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.md",
+     "extract_lines": 1893
+    },
+    {
+     "stem": "2025-Akpobi-Yankari Monolingual Yoruba Dataset",
+     "extract_path": "PDF Extracts/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.md",
+     "extract_lines": 619
+    }
+   ]
+  },
+  {
+   "id": "S056",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large",
+     "extract_path": "PDF Extracts/2025/2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.md",
+     "extract_lines": 3629
+    },
+    {
+     "stem": "2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...",
+     "extract_path": "PDF Extracts/2025/2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....md",
+     "extract_lines": 3629
+    },
+    {
+     "stem": "2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans",
+     "extract_path": "PDF Extracts/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md",
+     "extract_lines": 1433
+    }
+   ]
+  },
+  {
+   "id": "S057",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-An-MoralReason",
+     "extract_path": "PDF Extracts/2025/2025-An-MoralReason.md",
+     "extract_lines": 1018
+    },
+    {
+     "stem": "2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework",
+     "extract_path": "PDF Extracts/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md",
+     "extract_lines": 1096
+    },
+    {
+     "stem": "2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models",
+     "extract_path": "PDF Extracts/2025/2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models.md",
+     "extract_lines": 1512
+    },
+    {
+     "stem": "2025-Backmann-When Ethics and Payoffs Diverge",
+     "extract_path": "PDF Extracts/2025/2025-Backmann-When Ethics and Payoffs Diverge.md",
+     "extract_lines": 2792
+    },
+    {
+     "stem": "2025-Bae-CharMoral",
+     "extract_path": "PDF Extracts/2025/2025-Bae-CharMoral.md",
+     "extract_lines": 1396
+    }
+   ]
+  },
+  {
+   "id": "S058",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Bali-How Deep Is Representational Bias in",
+     "extract_path": "PDF Extracts/2025/2025-Bali-How Deep Is Representational Bias in.md",
+     "extract_lines": 2469
+    },
+    {
+     "stem": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI",
+     "extract_path": "PDF Extracts/2025/2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md",
+     "extract_lines": 1835
+    },
+    {
+     "stem": "2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection",
+     "extract_path": "PDF Extracts/2025/2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md",
+     "extract_lines": 1775
+    },
+    {
+     "stem": "2025-Baum-Aggregation Problems in Machine Ethics",
+     "extract_path": "PDF Extracts/2025/2025-Baum-Aggregation Problems in Machine Ethics.md",
+     "extract_lines": 1386
+    }
+   ]
+  },
+  {
+   "id": "S059",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Benavoli-AI Safety Uncertainty Incomplete Preferences",
+     "extract_path": "PDF Extracts/2025/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.md",
+     "extract_lines": 4276
+    },
+    {
+     "stem": "2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP",
+     "extract_path": "PDF Extracts/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.md",
+     "extract_lines": 792
+    },
+    {
+     "stem": "2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate",
+     "extract_path": "PDF Extracts/2025/2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.md",
+     "extract_lines": 1283
+    },
+    {
+     "stem": "2025-Bolatbek-Detection of offensive content in the",
+     "extract_path": "PDF Extracts/2025/2025-Bolatbek-Detection of offensive content in the.md",
+     "extract_lines": 1490
+    }
+   ]
+  },
+  {
+   "id": "S060",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority",
+     "extract_path": "PDF Extracts/2025/2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md",
+     "extract_lines": 1287
+    },
+    {
+     "stem": "2025-Brophy-Wide Reflective Equilibrium LLM Alignment",
+     "extract_path": "PDF Extracts/2025/2025-Brophy-Wide Reflective Equilibrium LLM Alignment.md",
+     "extract_lines": 1226
+    },
+    {
+     "stem": "2025-Bryan-Virtue Ethics and Postponing Human Extinction",
+     "extract_path": "PDF Extracts/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.md",
+     "extract_lines": 448
+    },
+    {
+     "stem": "2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects",
+     "extract_path": "PDF Extracts/2025/2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects.md",
+     "extract_lines": 4293
+    }
+   ]
+  },
+  {
+   "id": "S061",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Bulla-Large Language Models meet moral values",
+     "extract_path": "PDF Extracts/2025/2025-Bulla-Large Language Models meet moral values.md",
+     "extract_lines": 3568
+    },
+    {
+     "stem": "2025-Buyl-AI Alignment at Your Discretion",
+     "extract_path": "PDF Extracts/2025/2025-Buyl-AI Alignment at Your Discretion.md",
+     "extract_lines": 4174
+    }
+   ]
+  },
+  {
+   "id": "S062",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Chakraborty-Structured Moral Reasoning",
+     "extract_path": "PDF Extracts/2025/2025-Chakraborty-Structured Moral Reasoning.md",
+     "extract_lines": 4639
+    },
+    {
+     "stem": "2025-Chakravarthi-Detecting Caste and Migration Hate Speech",
+     "extract_path": "PDF Extracts/2025/2025-Chakravarthi-Detecting Caste and Migration Hate Speech.md",
+     "extract_lines": 1758
+    },
+    {
+     "stem": "2025-Chared-AI-driven detection of hate speech on social media a case study in",
+     "extract_path": "PDF Extracts/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.md",
+     "extract_lines": 1766
+    }
+   ]
+  },
+  {
+   "id": "S063",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Cheung-LLMs Amplified Cognitive Biases Moral",
+     "extract_path": "PDF Extracts/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.md",
+     "extract_lines": 1860
+    },
+    {
+     "stem": "2025-Chua-Between a Rock and a Hard Place TRIAL",
+     "extract_path": "PDF Extracts/2025/2025-Chua-Between a Rock and a Hard Place TRIAL.md",
+     "extract_lines": 3517
+    },
+    {
+     "stem": "2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons",
+     "extract_path": "PDF Extracts/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.md",
+     "extract_lines": 500
+    },
+    {
+     "stem": "2025-Davies-Fairness identification of large language models in recommendation",
+     "extract_path": "PDF Extracts/2025/2025-Davies-Fairness identification of large language models in recommendation.md",
+     "extract_lines": 986
+    },
+    {
+     "stem": "2025-De Montis-Morality in AI",
+     "extract_path": "PDF Extracts/2025/2025-De Montis-Morality in AI.md",
+     "extract_lines": 1583
+    }
+   ]
+  },
+  {
+   "id": "S064",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs",
+     "extract_path": "PDF Extracts/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.md",
+     "extract_lines": 2228
+    },
+    {
+     "stem": "2025-Dickerson-Who Gets the Kidney",
+     "extract_path": "PDF Extracts/2025/2025-Dickerson-Who Gets the Kidney.md",
+     "extract_lines": 4145
+    },
+    {
+     "stem": "2025-Dillion-AI Language Model Rivals Expert Ethicist",
+     "extract_path": "PDF Extracts/2025/2025-Dillion-AI Language Model Rivals Expert Ethicist.md",
+     "extract_lines": 1015
+    }
+   ]
+  },
+  {
+   "id": "S065",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Drukker-Concerns and Values in Human-Robot Interactions",
+     "extract_path": "PDF Extracts/2025/2025-Drukker-Concerns and Values in Human-Robot Interactions.md",
+     "extract_lines": 3187
+    },
+    {
+     "stem": "2025-Dubey-Addressing Moral Uncertainty using Large Language",
+     "extract_path": "PDF Extracts/2025/2025-Dubey-Addressing Moral Uncertainty using Large Language.md",
+     "extract_lines": 1537
+    },
+    {
+     "stem": "2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in",
+     "extract_path": "PDF Extracts/2025/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.md",
+     "extract_lines": 1542
+    },
+    {
+     "stem": "2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation",
+     "extract_path": "PDF Extracts/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md",
+     "extract_lines": 393
+    },
+    {
+     "stem": "2025-El Masri-Towards Attuned AI",
+     "extract_path": "PDF Extracts/2025/2025-El Masri-Towards Attuned AI.md",
+     "extract_lines": 412
+    }
+   ]
+  },
+  {
+   "id": "S066",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.",
+     "extract_path": "PDF Extracts/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md",
+     "extract_lines": 3421
+    },
+    {
+     "stem": "2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection",
+     "extract_path": "PDF Extracts/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md",
+     "extract_lines": 1601
+    },
+    {
+     "stem": "2025-Fasching-Inconsistencies in Hate Speech Detection Across",
+     "extract_path": "PDF Extracts/2025/2025-Fasching-Inconsistencies in Hate Speech Detection Across.md",
+     "extract_lines": 1340
+    },
+    {
+     "stem": "2025-Fenech-Borg-The Cultural Gene of Large Language Models",
+     "extract_path": "PDF Extracts/2025/2025-Fenech-Borg-The Cultural Gene of Large Language Models.md",
+     "extract_lines": 1016
+    },
+    {
+     "stem": "2025-Fillies-A novel German TikTok hate speech dataset far-right comments against",
+     "extract_path": "PDF Extracts/2025/2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md",
+     "extract_lines": 1324
+    }
+   ]
+  },
+  {
+   "id": "S067",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Gabriel-AI Alignment as Fair Treatment of Claims",
+     "extract_path": "PDF Extracts/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.md",
+     "extract_lines": 1175
+    },
+    {
+     "stem": "2025-Gao-MIST Moral Inference through Storytelling with Text and Images",
+     "extract_path": "PDF Extracts/2025/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.md",
+     "extract_lines": 913
+    },
+    {
+     "stem": "2025-Gounaris-Virtue in the Machine",
+     "extract_path": "PDF Extracts/2025/2025-Gounaris-Virtue in the Machine.md",
+     "extract_lines": 1374
+    },
+    {
+     "stem": "2025-Graves-AI Practical Wisdom and Compassion",
+     "extract_path": "PDF Extracts/2025/2025-Graves-AI Practical Wisdom and Compassion.md",
+     "extract_lines": 2216
+    },
+    {
+     "stem": "2025-Griffiths-Explicitly Unbiased Large Language Models Still",
+     "extract_path": "PDF Extracts/2025/2025-Griffiths-Explicitly Unbiased Large Language Models Still.md",
+     "extract_lines": 2849
+    }
+   ]
+  },
+  {
+   "id": "S068",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs",
+     "extract_path": "PDF Extracts/2025/2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs.md",
+     "extract_lines": 1287
+    },
+    {
+     "stem": "2025-Hatemo-Revisiting the Trolley Problem for AI",
+     "extract_path": "PDF Extracts/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.md",
+     "extract_lines": 1049
+    },
+    {
+     "stem": "2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset",
+     "extract_path": "PDF Extracts/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md",
+     "extract_lines": 2658
+    }
+   ]
+  },
+  {
+   "id": "S069",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models",
+     "extract_path": "PDF Extracts/2025/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md",
+     "extract_lines": 10008
+    }
+   ]
+  },
+  {
+   "id": "S070",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice",
+     "extract_path": "PDF Extracts/2025/2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice.md",
+     "extract_lines": 1524
+    },
+    {
+     "stem": "2025-Institute-2025 AI Safety Index",
+     "extract_path": "PDF Extracts/2025/2025-Institute-2025 AI Safety Index.md",
+     "extract_lines": 115
+    },
+    {
+     "stem": "2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated",
+     "extract_path": "PDF Extracts/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+     "extract_lines": 2493
+    },
+    {
+     "stem": "2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets",
+     "extract_path": "PDF Extracts/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.md",
+     "extract_lines": 1047
+    },
+    {
+     "stem": "2025-Jamshidi-MoCoP",
+     "extract_path": "PDF Extracts/2025/2025-Jamshidi-MoCoP.md",
+     "extract_lines": 899
+    },
+    {
+     "stem": "2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment",
+     "extract_path": "PDF Extracts/2025/2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md",
+     "extract_lines": 2449
+    }
+   ]
+  },
+  {
+   "id": "S071",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ...",
+     "extract_path": "PDF Extracts/2025/2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....md",
+     "extract_lines": 2004
+    },
+    {
+     "stem": "2025-Jotautaite-From Stability to Inconsistency",
+     "extract_path": "PDF Extracts/2025/2025-Jotautaite-From Stability to Inconsistency.md",
+     "extract_lines": 842
+    },
+    {
+     "stem": "2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the",
+     "extract_path": "PDF Extracts/2025/2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.md",
+     "extract_lines": 394
+    },
+    {
+     "stem": "2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ...",
+     "extract_path": "PDF Extracts/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md",
+     "extract_lines": 595
+    },
+    {
+     "stem": "2025-Kasirzadeh-Characterizing AI Agents for Alignment and",
+     "extract_path": "PDF Extracts/2025/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.md",
+     "extract_lines": 1409
+    },
+    {
+     "stem": "2025-Keshmirian-Many LLMs Are More Utilitarian Than One",
+     "extract_path": "PDF Extracts/2025/2025-Keshmirian-Many LLMs Are More Utilitarian Than One.md",
+     "extract_lines": 2657
+    }
+   ]
+  },
+  {
+   "id": "S072",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Kilov-Discerning What Matters",
+     "extract_path": "PDF Extracts/2025/2025-Kilov-Discerning What Matters.md",
+     "extract_lines": 1103
+    },
+    {
+     "stem": "2025-Kneer-Hard Problem AI Alignment Value Forks",
+     "extract_path": "PDF Extracts/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.md",
+     "extract_lines": 1284
+    },
+    {
+     "stem": "2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification",
+     "extract_path": "PDF Extracts/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.md",
+     "extract_lines": 2756
+    },
+    {
+     "stem": "2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate",
+     "extract_path": "PDF Extracts/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md",
+     "extract_lines": 1446
+    },
+    {
+     "stem": "2025-Leteno-Histoires Morales",
+     "extract_path": "PDF Extracts/2025/2025-Leteno-Histoires Morales.md",
+     "extract_lines": 2241
+    }
+   ]
+  },
+  {
+   "id": "S073",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Levine-Resource Rational Contractualism Should Guide AI Alignment",
+     "extract_path": "PDF Extracts/2025/2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.md",
+     "extract_lines": 1230
+    },
+    {
+     "stem": "2025-Li-Analyzing Cognitive Differences Among Large",
+     "extract_path": "PDF Extracts/2025/2025-Li-Analyzing Cognitive Differences Among Large.md",
+     "extract_lines": 2481
+    },
+    {
+     "stem": "2025-Li-Untangling Input Language from Reasoning Language A Diagnostic",
+     "extract_path": "PDF Extracts/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md",
+     "extract_lines": 2826
+    },
+    {
+     "stem": "2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits",
+     "extract_path": "PDF Extracts/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.md",
+     "extract_lines": 1435
+    }
+   ]
+  },
+  {
+   "id": "S074",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI",
+     "extract_path": "PDF Extracts/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.md",
+     "extract_lines": 1054
+    },
+    {
+     "stem": "2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities",
+     "extract_path": "PDF Extracts/2025/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md",
+     "extract_lines": 3091
+    },
+    {
+     "stem": "2025-Liu-Cross-cultural value alignment frameworks",
+     "extract_path": "PDF Extracts/2025/2025-Liu-Cross-cultural value alignment frameworks.md",
+     "extract_lines": 2695
+    }
+   ]
+  },
+  {
+   "id": "S075",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models",
+     "extract_path": "PDF Extracts/2025/2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models.md",
+     "extract_lines": 2439
+    },
+    {
+     "stem": "2025-Liu-Diagnosing Moral Reasoning Acquisition in",
+     "extract_path": "PDF Extracts/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in.md",
+     "extract_lines": 1552
+    },
+    {
+     "stem": "2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large",
+     "extract_path": "PDF Extracts/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.md",
+     "extract_lines": 1308
+    },
+    {
+     "stem": "2025-Machlovi-GuardEval",
+     "extract_path": "PDF Extracts/2025/2025-Machlovi-GuardEval.md",
+     "extract_lines": 1534
+    }
+   ]
+  },
+  {
+   "id": "S076",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code",
+     "extract_path": "PDF Extracts/2025/2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+     "extract_lines": 4154
+    },
+    {
+     "stem": "2025-Mahajan-Mapping Moral Reasoning in LLMs",
+     "extract_path": "PDF Extracts/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.md",
+     "extract_lines": 1204
+    },
+    {
+     "stem": "2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion",
+     "extract_path": "PDF Extracts/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md",
+     "extract_lines": 764
+    },
+    {
+     "stem": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence",
+     "extract_path": "PDF Extracts/2025/2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+     "extract_lines": 1228
+    }
+   ]
+  },
+  {
+   "id": "S077",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment",
+     "extract_path": "PDF Extracts/2025/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.md",
+     "extract_lines": 3990
+    },
+    {
+     "stem": "2025-Mining)-Enhancing social media hate speech detection in low-resource",
+     "extract_path": "PDF Extracts/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.md",
+     "extract_lines": 3443
+    }
+   ]
+  },
+  {
+   "id": "S078",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Mohammadi-EvalMORAAL",
+     "extract_path": "PDF Extracts/2025/2025-Mohammadi-EvalMORAAL.md",
+     "extract_lines": 2522
+    },
+    {
+     "stem": "2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language",
+     "extract_path": "PDF Extracts/2025/2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md",
+     "extract_lines": 1170
+    },
+    {
+     "stem": "2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human",
+     "extract_path": "PDF Extracts/2025/2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.md",
+     "extract_lines": 2922
+    },
+    {
+     "stem": "2025-Nadeem-Ethical Decision-Making in Humans and Large",
+     "extract_path": "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+     "extract_lines": 1251
+    },
+    {
+     "stem": "2025-Nay-Aligning AI Agents with Humans through Law as Information",
+     "extract_path": "PDF Extracts/2025/2025-Nay-Aligning AI Agents with Humans through Law as Information.md",
+     "extract_lines": 1110
+    }
+   ]
+  },
+  {
+   "id": "S079",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in",
+     "extract_path": "PDF Extracts/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.md",
+     "extract_lines": 3399
+    },
+    {
+     "stem": "2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models",
+     "extract_path": "PDF Extracts/2025/2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md",
+     "extract_lines": 1620
+    },
+    {
+     "stem": "2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias",
+     "extract_path": "PDF Extracts/2025/2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.md",
+     "extract_lines": 1686
+    },
+    {
+     "stem": "2025-Oh-Robustness of Large Language Models in Moral Judgements",
+     "extract_path": "PDF Extracts/2025/2025-Oh-Robustness of Large Language Models in Moral Judgements.md",
+     "extract_lines": 1841
+    }
+   ]
+  },
+  {
+   "id": "S080",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Okamoto-AI-based medical ethics education",
+     "extract_path": "PDF Extracts/2025/2025-Okamoto-AI-based medical ethics education.md",
+     "extract_lines": 817
+    },
+    {
+     "stem": "2025-Osei Mensah-Where are the missing values an exploration of the need to",
+     "extract_path": "PDF Extracts/2025/2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+     "extract_lines": 1142
+    },
+    {
+     "stem": "2025-Pipitone-Unlocking practical wisdom",
+     "extract_path": "PDF Extracts/2025/2025-Pipitone-Unlocking practical wisdom.md",
+     "extract_lines": 958
+    },
+    {
+     "stem": "2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic",
+     "extract_path": "PDF Extracts/2025/2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.md",
+     "extract_lines": 1693
+    },
+    {
+     "stem": "2025-Priya-Deontic Temporal Logic for AI Ethics",
+     "extract_path": "PDF Extracts/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.md",
+     "extract_lines": 1519
+    },
+    {
+     "stem": "2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and",
+     "extract_path": "PDF Extracts/2025/2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.md",
+     "extract_lines": 433
+    },
+    {
+     "stem": "2025-Ray-Incorporating indigenous knowledge systems into AI governance",
+     "extract_path": "PDF Extracts/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+     "extract_lines": 1671
+    }
+   ]
+  },
+  {
+   "id": "S081",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System",
+     "extract_path": "PDF Extracts/2025/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.md",
+     "extract_lines": 1589
+    },
+    {
+     "stem": "2025-Rodemann-A Statistical Case Against Empirical Human-AI",
+     "extract_path": "PDF Extracts/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.md",
+     "extract_lines": 1964
+    },
+    {
+     "stem": "2025-Sachdeva-Deliberative Dynamics and Value Alignment",
+     "extract_path": "PDF Extracts/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.md",
+     "extract_lines": 2251
+    },
+    {
+     "stem": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas",
+     "extract_path": "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+     "extract_lines": 1531
+    },
+    {
+     "stem": "2025-Sameer-Insights into Moral Reasoning of AI",
+     "extract_path": "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md",
+     "extract_lines": 631
+    }
+   ]
+  },
+  {
+   "id": "S082",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Samway-Are Language Models Consequentialist or Deontological",
+     "extract_path": "PDF Extracts/2025/2025-Samway-Are Language Models Consequentialist or Deontological.md",
+     "extract_lines": 4207
+    },
+    {
+     "stem": "2025-Sanwoolu-Kantian deontology for AI",
+     "extract_path": "PDF Extracts/2025/2025-Sanwoolu-Kantian deontology for AI.md",
+     "extract_lines": 487
+    },
+    {
+     "stem": "2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social",
+     "extract_path": "PDF Extracts/2025/2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.md",
+     "extract_lines": 1191
+    },
+    {
+     "stem": "2025-Schacht-Mapping Moral Reasoning Circuits",
+     "extract_path": "PDF Extracts/2025/2025-Schacht-Mapping Moral Reasoning Circuits.md",
+     "extract_lines": 484
+    },
+    {
+     "stem": "2025-Seker-HATECAT-TR A Hate Speech Span Detection",
+     "extract_path": "PDF Extracts/2025/2025-Seker-HATECAT-TR A Hate Speech Span Detection.md",
+     "extract_lines": 1250
+    },
+    {
+     "stem": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment",
+     "extract_path": "PDF Extracts/2025/2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+     "extract_lines": 1195
+    }
+   ]
+  },
+  {
+   "id": "S083",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.",
+     "extract_path": "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md",
+     "extract_lines": 1969
+    },
+    {
+     "stem": "2025-Snoswell-Beyond Verdicts LLM Moral Competence",
+     "extract_path": "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.md",
+     "extract_lines": 1976
+    },
+    {
+     "stem": "2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using",
+     "extract_path": "PDF Extracts/2025/2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using.md",
+     "extract_lines": 2575
+    }
+   ]
+  },
+  {
+   "id": "S084",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Sorensen-Operationalizing Pluralistic Values",
+     "extract_path": "PDF Extracts/2025/2025-Sorensen-Operationalizing Pluralistic Values.md",
+     "extract_lines": 2499
+    },
+    {
+     "stem": "2025-Steen-Ethical aspects of ChatGPT",
+     "extract_path": "PDF Extracts/2025/2025-Steen-Ethical aspects of ChatGPT.md",
+     "extract_lines": 1539
+    },
+    {
+     "stem": "2025-Su-Understanding How Value Neurons Shape the",
+     "extract_path": "PDF Extracts/2025/2025-Su-Understanding How Value Neurons Shape the.md",
+     "extract_lines": 2028
+    },
+    {
+     "stem": "2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM",
+     "extract_path": "PDF Extracts/2025/2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM.md",
+     "extract_lines": 1200
+    }
+   ]
+  },
+  {
+   "id": "S085",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity",
+     "extract_path": "PDF Extracts/2025/2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md",
+     "extract_lines": 3655
+    },
+    {
+     "stem": "2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language",
+     "extract_path": "PDF Extracts/2025/2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.md",
+     "extract_lines": 4022
+    }
+   ]
+  },
+  {
+   "id": "S086",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents",
+     "extract_path": "PDF Extracts/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.md",
+     "extract_lines": 2087
+    },
+    {
+     "stem": "2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps",
+     "extract_path": "PDF Extracts/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.md",
+     "extract_lines": 1439
+    },
+    {
+     "stem": "2025-Terziyan-Towards ethical evolution",
+     "extract_path": "PDF Extracts/2025/2025-Terziyan-Towards ethical evolution.md",
+     "extract_lines": 2862
+    },
+    {
+     "stem": "2025-Umer-Sacred or Secular Religious Bias in",
+     "extract_path": "PDF Extracts/2025/2025-Umer-Sacred or Secular Religious Bias in.md",
+     "extract_lines": 1272
+    }
+   ]
+  },
+  {
+   "id": "S087",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs",
+     "extract_path": "PDF Extracts/2025/2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.md",
+     "extract_lines": 2322
+    },
+    {
+     "stem": "2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and",
+     "extract_path": "PDF Extracts/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.md",
+     "extract_lines": 1088
+    },
+    {
+     "stem": "2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate",
+     "extract_path": "PDF Extracts/2025/2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md",
+     "extract_lines": 1460
+    },
+    {
+     "stem": "2025-Vishwanath-Machine Ethics or AI Alignment",
+     "extract_path": "PDF Extracts/2025/2025-Vishwanath-Machine Ethics or AI Alignment.md",
+     "extract_lines": 494
+    },
+    {
+     "stem": "2025-Waldner-AI Safety Alignment Ethics",
+     "extract_path": "PDF Extracts/2025/2025-Waldner-AI Safety Alignment Ethics.md",
+     "extract_lines": 2680
+    }
+   ]
+  },
+  {
+   "id": "S088",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API",
+     "extract_path": "PDF Extracts/2025/2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.md",
+     "extract_lines": 1349
+    },
+    {
+     "stem": "2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI",
+     "extract_path": "PDF Extracts/2025/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.md",
+     "extract_lines": 1390
+    },
+    {
+     "stem": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas",
+     "extract_path": "PDF Extracts/2025/2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+     "extract_lines": 1345
+    },
+    {
+     "stem": "2025-Xiang-Comparing Moral Values in Western",
+     "extract_path": "PDF Extracts/2025/2025-Xiang-Comparing Moral Values in Western.md",
+     "extract_lines": 1815
+    },
+    {
+     "stem": "2025-Yaacov-Normative Moral Pluralism for AI",
+     "extract_path": "PDF Extracts/2025/2025-Yaacov-Normative Moral Pluralism for AI.md",
+     "extract_lines": 1260
+    },
+    {
+     "stem": "2025-Yilma-Ethics of AI in Africa",
+     "extract_path": "PDF Extracts/2025/2025-Yilma-Ethics of AI in Africa.md",
+     "extract_lines": 1461
+    },
+    {
+     "stem": "2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical",
+     "extract_path": "PDF Extracts/2025/2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md",
+     "extract_lines": 198
+    }
+   ]
+  },
+  {
+   "id": "S089",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Yuan-Probabilistic Aggregation and Targeted Embedding",
+     "extract_path": "PDF Extracts/2025/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.md",
+     "extract_lines": 2269
+    },
+    {
+     "stem": "2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis",
+     "extract_path": "PDF Extracts/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md",
+     "extract_lines": 2551
+    },
+    {
+     "stem": "2025-Zhang-AISafetyLab",
+     "extract_path": "PDF Extracts/2025/2025-Zhang-AISafetyLab.md",
+     "extract_lines": 1471
+    },
+    {
+     "stem": "2025-Zhang-Cognitive Bias in Generative AI Influences",
+     "extract_path": "PDF Extracts/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.md",
+     "extract_lines": 1166
+    }
+   ]
+  },
+  {
+   "id": "S090",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a",
+     "extract_path": "PDF Extracts/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md",
+     "extract_lines": 1833
+    },
+    {
+     "stem": "2025-Zhu-TrolleyBench",
+     "extract_path": "PDF Extracts/2025/2025-Zhu-TrolleyBench.md",
+     "extract_lines": 834
+    },
+    {
+     "stem": "2025-Zohny-ADEPT Simulating Ethics",
+     "extract_path": "PDF Extracts/2025/2025-Zohny-ADEPT Simulating Ethics.md",
+     "extract_lines": 1827
+    },
+    {
+     "stem": "2025-\u00d3h\u00c9igeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and",
+     "extract_path": "PDF Extracts/2025/2025-\u00d3h\u00c9igeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.md",
+     "extract_lines": 1200
+    },
+    {
+     "stem": "2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language",
+     "extract_path": "PDF Extracts/2026/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.md",
+     "extract_lines": 1369
+    },
+    {
+     "stem": "2026-Goel-Building Interpretable Models for Moral Decision-Making",
+     "extract_path": "PDF Extracts/2026/2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+     "extract_lines": 401
+    }
+   ]
+  },
+  {
+   "id": "S091",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path",
+     "extract_path": "PDF Extracts/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md",
+     "extract_lines": 2115
+    },
+    {
+     "stem": "2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in",
+     "extract_path": "PDF Extracts/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md",
+     "extract_lines": 2106
+    },
+    {
+     "stem": "2026-Kolt-Legal Alignment for Safe and Ethical AI",
+     "extract_path": "PDF Extracts/2026/2026-Kolt-Legal Alignment for Safe and Ethical AI.md",
+     "extract_lines": 2175
+    },
+    {
+     "stem": "2026-Nadeem-Bias Beyond Borders",
+     "extract_path": "PDF Extracts/2026/2026-Nadeem-Bias Beyond Borders.md",
+     "extract_lines": 1666
+    },
+    {
+     "stem": "2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias",
+     "extract_path": "PDF Extracts/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.md",
+     "extract_lines": 837
+    }
+   ]
+  },
+  {
+   "id": "S092",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2026-Tagarelli-Culturally Grounded Personas in Large Language Models",
+     "extract_path": "PDF Extracts/2026/2026-Tagarelli-Culturally Grounded Personas in Large Language Models.md",
+     "extract_lines": 2063
+    },
+    {
+     "stem": "2026-Yu-Tracing Moral Foundations in LLMs",
+     "extract_path": "PDF Extracts/2026/2026-Yu-Tracing Moral Foundations in LLMs.md",
+     "extract_lines": 3092
+    }
+   ]
+  },
+  {
+   "id": "S093",
+   "tier": "sonnet",
+   "mode": "full",
+   "papers": [
+    {
+     "stem": "2026-Yun-VAPT Value-Alignment Perception Toolkit",
+     "extract_path": "PDF Extracts/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.md",
+     "extract_lines": 3872
+    }
+   ]
+  },
+  {
+   "id": "D001",
+   "tier": "sonnet",
+   "mode": "degraded",
+   "papers": [
+    {
+     "stem": "2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting",
+     "paper_path": "papers/2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2021-DaoistAI-Can a Machine Flow Like Dao",
+     "paper_path": "papers/2021-DaoistAI-Can a Machine Flow Like Dao.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2022-IslamicVirtue-Islamic Virtue-Based Ethics for AI",
+     "paper_path": "papers/2022-IslamicVirtue-Islamic Virtue-Based Ethics for AI.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2022-Unknown-HOTTEST Hate and Offensive Content Identification",
+     "paper_path": "papers/2022-Unknown-HOTTEST Hate and Offensive Content Identification.md",
+     "extract_quality": "thin"
+    },
+    {
+     "stem": "2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for",
+     "paper_path": "papers/2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2023-Ty-Impact of AI-Powered Technology on Religious Practices and Ethics The",
+     "paper_path": "papers/2023-Ty-Impact of AI-Powered Technology on Religious Practices and Ethics The.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2024-Khanduja-Telugu Language Hate Speech Detection Using",
+     "paper_path": "papers/2024-Khanduja-Telugu Language Hate Speech Detection Using.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2024-Maity-HateThaiSent Sentiment-Aided Hate Speech Detection in",
+     "paper_path": "papers/2024-Maity-HateThaiSent Sentiment-Aided Hate Speech Detection in.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2024-MaqasidAI-Maqasid Al-Shariah Age of AI",
+     "paper_path": "papers/2024-MaqasidAI-Maqasid Al-Shariah Age of AI.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot",
+     "paper_path": "papers/2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot.md",
+     "extract_quality": "missing"
+    }
+   ]
+  },
+  {
+   "id": "D002",
+   "tier": "sonnet",
+   "mode": "degraded",
+   "papers": [
+    {
+     "stem": "2024-Rashid-Urdu Toxicity Detection A Multi-Stage and",
+     "paper_path": "papers/2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2024-Ribeiro-Machine Ethics Architecture of Virtue",
+     "paper_path": "papers/2024-Ribeiro-Machine Ethics Architecture of Virtue.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification",
+     "paper_path": "papers/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.md",
+     "extract_quality": "thin"
+    },
+    {
+     "stem": "2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach",
+     "paper_path": "papers/2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2024-team-Indic-Bias A Comprehensive Benchmark for Fairness",
+     "paper_path": "papers/2024-team-Indic-Bias A Comprehensive Benchmark for Fairness.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-AbuMusab-Virtue of Artificiality Islamic AI",
+     "paper_path": "papers/2025-AbuMusab-Virtue of Artificiality Islamic AI.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-AlGhazali-Amanah Framework Ethical AI",
+     "paper_path": "papers/2025-AlGhazali-Amanah Framework Ethical AI.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Ali-Islamic Ethics Trusteeship",
+     "paper_path": "papers/2025-Ali-Islamic Ethics Trusteeship.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-DharmaDigital-Dharma in the Digital Age Buddhism AI",
+     "paper_path": "papers/2025-DharmaDigital-Dharma in the Digital Age Buddhism AI.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -",
+     "paper_path": "papers/2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -.md",
+     "extract_quality": "missing"
+    }
+   ]
+  },
+  {
+   "id": "D003",
+   "tier": "sonnet",
+   "mode": "degraded",
+   "papers": [
+    {
+     "stem": "2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to",
+     "paper_path": "papers/2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Hashmi-Enhancing Multilingual Hate Speech Detection From Language-Specific",
+     "paper_path": "papers/2025-Hashmi-Enhancing Multilingual Hate Speech Detection From Language-Specific.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Hendra-Decoding Moral Responses in AI",
+     "paper_path": "papers/2025-Hendra-Decoding Moral Responses in AI.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Hong-PrinciplismQA",
+     "paper_path": "papers/2025-Hong-PrinciplismQA.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-IndigenousEthics-Indigenous Ethics and AI",
+     "paper_path": "papers/2025-IndigenousEthics-Indigenous Ethics and AI.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Insights-Moral Reasoning Humans and LLMs",
+     "paper_path": "papers/2025-Insights-Moral Reasoning Humans and LLMs.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification",
+     "paper_path": "papers/2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Kumar-UniMoral",
+     "paper_path": "papers/2025-Kumar-UniMoral.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-MultiFaith-Faith Ethics Human Dignity AI",
+     "paper_path": "papers/2025-MultiFaith-Faith Ethics Human Dignity AI.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Muntean-Moral Coherentism Theoretical Framework Muntean",
+     "paper_path": "papers/2025-Muntean-Moral Coherentism Theoretical Framework Muntean.md",
+     "extract_quality": "missing"
+    }
+   ]
+  },
+  {
+   "id": "D004",
+   "tier": "sonnet",
+   "mode": "degraded",
+   "papers": [
+    {
+     "stem": "2025-Mu\u00f1oz-Garc\u00eda-Leading and Non-Leading Prompts Quantifying Gender Bias in Large",
+     "paper_path": "papers/2025-Mu\u00f1oz-Garc\u00eda-Leading and Non-Leading Prompts Quantifying Gender Bias in Large.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Perera-Indigenous Peoples and AI Systematic Review",
+     "paper_path": "papers/2025-Perera-Indigenous Peoples and AI Systematic Review.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Rana-Indigenous Data Sovereignty A Catalyst for Ethical AI in Business",
+     "paper_path": "papers/2025-Rana-Indigenous Data Sovereignty A Catalyst for Ethical AI in Business.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Sun-Axiology AI Ethics MCDA",
+     "paper_path": "papers/2025-Sun-Axiology AI Ethics MCDA.md",
+     "extract_quality": "thin"
+    },
+    {
+     "stem": "2025-UbuntuAI-AI Ethics Meets Ubuntu Governance",
+     "paper_path": "papers/2025-UbuntuAI-AI Ethics Meets Ubuntu Governance.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ...",
+     "paper_path": "papers/2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ....md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2025-Unknown-New report and guidelines for indigenous data sovereignty in",
+     "paper_path": "papers/2025-Unknown-New report and guidelines for indigenous data sovereignty in.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2026-Hendricks-LLMs Fuel Extremist Attitudes Moral Framings",
+     "paper_path": "papers/2026-Hendricks-LLMs Fuel Extremist Attitudes Moral Framings.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2026-MoralSycophancy-Moral Sycophancy in VLMs",
+     "paper_path": "papers/2026-MoralSycophancy-Moral Sycophancy in VLMs.md",
+     "extract_quality": "missing"
+    },
+    {
+     "stem": "2026-PKU-Visual Distraction Moral Reasoning",
+     "paper_path": "papers/2026-PKU-Visual Distraction Moral Reasoning.md",
+     "extract_quality": "missing"
+    }
+   ]
+  },
+  {
+   "id": "D005",
+   "tier": "sonnet",
+   "mode": "degraded",
+   "papers": [
+    {
+     "stem": "2026-vanNuenen-Fragility of Moral Judgment",
+     "paper_path": "papers/2026-vanNuenen-Fragility of Moral Judgment.md",
+     "extract_quality": "missing"
+    }
+   ]
+  }
+ ],
+ "lab_batches": [
+  {
+   "id": "L001",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388",
+     "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388.md",
+     "extract_lines": 5881,
+     "company": "Alibaba (Qwen)",
+     "title": "Qwen3 Technical Report 2505.09388"
+    }
+   ]
+  },
+  {
+   "id": "L002",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-A_General_Language_Assistant_as_a_Laboratory_for_Alignment_2112.00861",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-A_General_Language_Assistant_as_a_Laboratory_for_Alignment_2112.00861.md",
+     "extract_lines": 3543,
+     "company": "Anthropic",
+     "title": "A General Language Assistant as a Laboratory for Alignment 2112.00861"
+    }
+   ]
+  },
+  {
+   "id": "L003",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093.md",
+     "extract_lines": 9900,
+     "company": "Anthropic",
+     "title": "Alignment Faking in Large Language Models 2412.14093"
+    }
+   ]
+  },
+  {
+   "id": "L004",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-Anthropic_Model_Spec_2025",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Anthropic_Model_Spec_2025.md",
+     "extract_lines": 1027,
+     "company": "Anthropic",
+     "title": "Anthropic Model Spec 2025"
+    },
+    {
+     "stem": "Anthropic-Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315.md",
+     "extract_lines": 2735,
+     "company": "Anthropic",
+     "title": "Challenges of Automated Red Teaming for LLMs 2401.03315"
+    },
+    {
+     "stem": "Anthropic-Claude_3.7_Sonnet_System_Card",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_3.7_Sonnet_System_Card.md",
+     "extract_lines": 1936,
+     "company": "Anthropic",
+     "title": "Claude 3.7 Sonnet System Card"
+    },
+    {
+     "stem": "Anthropic-Claude_4.1_Opus_System_Card_August_2025",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_4.1_Opus_System_Card_August_2025.md",
+     "extract_lines": 836,
+     "company": "Anthropic",
+     "title": "Claude 4.1 Opus System Card August 2025"
+    }
+   ]
+  },
+  {
+   "id": "L005",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-Claude_4_Opus_Sonnet_System_Card",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_4_Opus_Sonnet_System_Card.md",
+     "extract_lines": 4988,
+     "company": "Anthropic",
+     "title": "Claude 4 Opus Sonnet System Card"
+    }
+   ]
+  },
+  {
+   "id": "L006",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-Claude_Opus_4.5_System_Card",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_Opus_4.5_System_Card.md",
+     "extract_lines": 5710,
+     "company": "Anthropic",
+     "title": "Claude Opus 4.5 System Card"
+    }
+   ]
+  },
+  {
+   "id": "L007",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-Claude_Sonnet_4.5_System_Card",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_Sonnet_4.5_System_Card.md",
+     "extract_lines": 5347,
+     "company": "Anthropic",
+     "title": "Claude Sonnet 4.5 System Card"
+    },
+    {
+     "stem": "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548.md",
+     "extract_lines": 2735,
+     "company": "Anthropic",
+     "title": "Collective Constitutional AI Democratizing AI Alignment 2310.13548"
+    }
+   ]
+  },
+  {
+   "id": "L008",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073.md",
+     "extract_lines": 2048,
+     "company": "Anthropic",
+     "title": "Constitutional AI Harmlessness from AI Feedback 2212.08073"
+    },
+    {
+     "stem": "Anthropic-Constitutional_Classifiers_2501.18837",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_Classifiers_2501.18837.md",
+     "extract_lines": 4046,
+     "company": "Anthropic",
+     "title": "Constitutional Classifiers 2501.18837"
+    },
+    {
+     "stem": "Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603.md",
+     "extract_lines": 1174,
+     "company": "Anthropic",
+     "title": "Constitutional Classifiers Plus Plus 2601.04603"
+    }
+   ]
+  },
+  {
+   "id": "L009",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-In-context_Reward_Hacking_2402.09656",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-In-context_Reward_Hacking_2402.09656.md",
+     "extract_lines": 2333,
+     "company": "Anthropic",
+     "title": "In context Reward Hacking 2402.09656"
+    },
+    {
+     "stem": "Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388.md",
+     "extract_lines": 4048,
+     "company": "Anthropic",
+     "title": "Language Models Dont Always Say What They Think 2305.04388"
+    }
+   ]
+  },
+  {
+   "id": "L010",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-Many-shot_Jailbreaking_2401.05566",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Many-shot_Jailbreaking_2401.05566.md",
+     "extract_lines": 4600,
+     "company": "Anthropic",
+     "title": "Many shot Jailbreaking 2401.05566"
+    },
+    {
+     "stem": "Anthropic-Measuring_Faithfulness_in_CoT_Reasoning_2307.13702",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Measuring_Faithfulness_in_CoT_Reasoning_2307.13702.md",
+     "extract_lines": 1455,
+     "company": "Anthropic",
+     "title": "Measuring Faithfulness in CoT Reasoning 2307.13702"
+    },
+    {
+     "stem": "Anthropic-Reasoning_Models_Dont_Always_Say_What_They_Think",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Reasoning_Models_Dont_Always_Say_What_They_Think.md",
+     "extract_lines": 966,
+     "company": "Anthropic",
+     "title": "Reasoning Models Dont Always Say What They Think"
+    },
+    {
+     "stem": "Anthropic-Responsible_Scaling_Policy_1.0",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Responsible_Scaling_Policy_1.0.md",
+     "extract_lines": 1215,
+     "company": "Anthropic",
+     "title": "Responsible Scaling Policy 1.0"
+    }
+   ]
+  },
+  {
+   "id": "L011",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-Sabotage_Evaluations_for_Frontier_Models_2410.13161",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Sabotage_Evaluations_for_Frontier_Models_2410.13161.md",
+     "extract_lines": 1838,
+     "company": "Anthropic",
+     "title": "Sabotage Evaluations for Frontier Models 2410.13161"
+    },
+    {
+     "stem": "Anthropic-Simple_Probes_Detect_Sycophancy_2406.09569",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Simple_Probes_Detect_Sycophancy_2406.09569.md",
+     "extract_lines": 736,
+     "company": "Anthropic",
+     "title": "Simple Probes Detect Sycophancy 2406.09569"
+    },
+    {
+     "stem": "Anthropic-Sleeper_Agents_Training_Deceptive_LLMs_2312.00752",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Sleeper_Agents_Training_Deceptive_LLMs_2312.00752.md",
+     "extract_lines": 2940,
+     "company": "Anthropic",
+     "title": "Sleeper Agents Training Deceptive LLMs 2312.00752"
+    },
+    {
+     "stem": "Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report.md",
+     "extract_lines": 3097,
+     "company": "Anthropic",
+     "title": "Summer 2025 Pilot Sabotage Risk Report"
+    }
+   ]
+  },
+  {
+   "id": "L012",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459.md",
+     "extract_lines": 1541,
+     "company": "Anthropic",
+     "title": "The Capacity for Moral Self Correction in LLMs 2302.07459"
+    },
+    {
+     "stem": "Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862",
+     "extract_path": "PDF Extracts/AI Labs/Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862.md",
+     "extract_lines": 4810,
+     "company": "Anthropic",
+     "title": "Training a Helpful and Harmless Assistant with RLHF 2204.05862"
+    }
+   ]
+  },
+  {
+   "id": "L013",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "DeepSeek-DeepSeek-R1_arxiv_2501.12948",
+     "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-R1_arxiv_2501.12948.md",
+     "extract_lines": 5373,
+     "company": "DeepSeek",
+     "title": "DeepSeek R1 arxiv 2501.12948"
+    },
+    {
+     "stem": "Google DeepMind-Gemini_2.5_Pro_Model_Card",
+     "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_2.5_Pro_Model_Card.md",
+     "extract_lines": 1361,
+     "company": "Google DeepMind",
+     "title": "Gemini 2.5 Pro Model Card"
+    }
+   ]
+  },
+  {
+   "id": "L014",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Google DeepMind-Gemini_2.5_Technical_Report",
+     "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_2.5_Technical_Report.md",
+     "extract_lines": 6986,
+     "company": "Google DeepMind",
+     "title": "Gemini 2.5 Technical Report"
+    },
+    {
+     "stem": "Google DeepMind-Gemini_Safety_arxiv_2403.04312",
+     "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_Safety_arxiv_2403.04312.md",
+     "extract_lines": 1143,
+     "company": "Google DeepMind",
+     "title": "Gemini Safety arxiv 2403.04312"
+    }
+   ]
+  },
+  {
+   "id": "L015",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Google DeepMind-ShieldGemma_arxiv_2407.21772",
+     "extract_path": "PDF Extracts/AI Labs/Google DeepMind-ShieldGemma_arxiv_2407.21772.md",
+     "extract_lines": 936,
+     "company": "Google DeepMind",
+     "title": "ShieldGemma arxiv 2407.21772"
+    },
+    {
+     "stem": "Meta AI-CyberSecEval_3_2408.01605",
+     "extract_path": "PDF Extracts/AI Labs/Meta AI-CyberSecEval_3_2408.01605.md",
+     "extract_lines": 2764,
+     "company": "Meta AI",
+     "title": "CyberSecEval 3 2408.01605"
+    }
+   ]
+  },
+  {
+   "id": "L016",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Meta AI-Llama_2_2307.09288",
+     "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_2_2307.09288.md",
+     "extract_lines": 7242,
+     "company": "Meta AI",
+     "title": "Llama 2 2307.09288"
+    }
+   ]
+  },
+  {
+   "id": "L017",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Meta AI-Llama_3_2407.21783",
+     "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_3_2407.21783.md",
+     "extract_lines": 6542,
+     "company": "Meta AI",
+     "title": "Llama 3 2407.21783"
+    },
+    {
+     "stem": "Meta AI-Llama_Guard_2312.06674",
+     "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_Guard_2312.06674.md",
+     "extract_lines": 813,
+     "company": "Meta AI",
+     "title": "Llama Guard 2312.06674"
+    },
+    {
+     "stem": "Microsoft Research-Phi-3_Safety_Post-Training",
+     "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Phi-3_Safety_Post-Training.md",
+     "extract_lines": 952,
+     "company": "Microsoft Research",
+     "title": "Phi 3 Safety Post Training"
+    }
+   ]
+  },
+  {
+   "id": "L018",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "NVIDIA-HelpSteer2-Preference_Complementing_Ratings",
+     "extract_path": "PDF Extracts/AI Labs/NVIDIA-HelpSteer2-Preference_Complementing_Ratings.md",
+     "extract_lines": 2125,
+     "company": "NVIDIA",
+     "title": "HelpSteer2 Preference Complementing Ratings"
+    },
+    {
+     "stem": "NVIDIA-HelpSteer_Multi-attribute_Helpfulness_Dataset",
+     "extract_path": "PDF Extracts/AI Labs/NVIDIA-HelpSteer_Multi-attribute_Helpfulness_Dataset.md",
+     "extract_lines": 1532,
+     "company": "NVIDIA",
+     "title": "HelpSteer Multi attribute Helpfulness Dataset"
+    },
+    {
+     "stem": "NVIDIA-SteerLM_Attribute_Conditioned_SFT",
+     "extract_path": "PDF Extracts/AI Labs/NVIDIA-SteerLM_Attribute_Conditioned_SFT.md",
+     "extract_lines": 1510,
+     "company": "NVIDIA",
+     "title": "SteerLM Attribute Conditioned SFT"
+    },
+    {
+     "stem": "OpenAI-deep-research-system-card-february-2025",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-deep-research-system-card-february-2025.md",
+     "extract_lines": 1609,
+     "company": "OpenAI",
+     "title": "deep research system card february 2025"
+    }
+   ]
+  },
+  {
+   "id": "L019",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "OpenAI-deliberative-alignment-arxiv-2412.16720",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-deliberative-alignment-arxiv-2412.16720.md",
+     "extract_lines": 2586,
+     "company": "OpenAI",
+     "title": "deliberative alignment arxiv 2412.16720"
+    },
+    {
+     "stem": "OpenAI-dpo-direct-preference-optimization",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-dpo-direct-preference-optimization.md",
+     "extract_lines": 2023,
+     "company": "OpenAI",
+     "title": "dpo direct preference optimization"
+    },
+    {
+     "stem": "OpenAI-gpt-4-5-system-card",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-5-system-card.md",
+     "extract_lines": 1527,
+     "company": "OpenAI",
+     "title": "gpt 4 5 system card"
+    },
+    {
+     "stem": "OpenAI-gpt-4-system-card",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-system-card.md",
+     "extract_lines": 2788,
+     "company": "OpenAI",
+     "title": "gpt 4 system card"
+    }
+   ]
+  },
+  {
+   "id": "L020",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "OpenAI-gpt-4o-system-card-arxiv-2410.21276",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4o-system-card-arxiv-2410.21276.md",
+     "extract_lines": 1599,
+     "company": "OpenAI",
+     "title": "gpt 4o system card arxiv 2410.21276"
+    },
+    {
+     "stem": "OpenAI-gpt-5-system-card",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5-system-card.md",
+     "extract_lines": 3103,
+     "company": "OpenAI",
+     "title": "gpt 5 system card"
+    },
+    {
+     "stem": "OpenAI-gpt-5-system-card-arxiv-2601.03267",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5-system-card-arxiv-2601.03267.md",
+     "extract_lines": 3104,
+     "company": "OpenAI",
+     "title": "gpt 5 system card arxiv 2601.03267"
+    },
+    {
+     "stem": "OpenAI-gpt-5.2-system-card-december-2025",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5.2-system-card-december-2025.md",
+     "extract_lines": 1139,
+     "company": "OpenAI",
+     "title": "gpt 5.2 system card december 2025"
+    }
+   ]
+  },
+  {
+   "id": "L021",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "OpenAI-gpt-oss-model-card",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-model-card.md",
+     "extract_lines": 2062,
+     "company": "OpenAI",
+     "title": "gpt oss model card"
+    },
+    {
+     "stem": "OpenAI-gpt-oss-model-card-arxiv-2508.10925",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-model-card-arxiv-2508.10925.md",
+     "extract_lines": 2061,
+     "company": "OpenAI",
+     "title": "gpt oss model card arxiv 2508.10925"
+    },
+    {
+     "stem": "OpenAI-instructgpt-training-language-models-to-follow-instructions",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-instructgpt-training-language-models-to-follow-instructions.md",
+     "extract_lines": 4547,
+     "company": "OpenAI",
+     "title": "instructgpt training language models to follow instructions"
+    }
+   ]
+  },
+  {
+   "id": "L022",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "OpenAI-learning-to-summarize-rlhf",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-learning-to-summarize-rlhf.md",
+     "extract_lines": 3564,
+     "company": "OpenAI",
+     "title": "learning to summarize rlhf"
+    },
+    {
+     "stem": "OpenAI-o1-system-card",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-o1-system-card.md",
+     "extract_lines": 2585,
+     "company": "OpenAI",
+     "title": "o1 system card"
+    },
+    {
+     "stem": "OpenAI-o3-and-o4-mini-system-card",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-o3-and-o4-mini-system-card.md",
+     "extract_lines": 1448,
+     "company": "OpenAI",
+     "title": "o3 and o4 mini system card"
+    },
+    {
+     "stem": "OpenAI-o3-mini-vs-deepseek-r1-safety-arxiv-2501.18438",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-o3-mini-vs-deepseek-r1-safety-arxiv-2501.18438.md",
+     "extract_lines": 844,
+     "company": "OpenAI",
+     "title": "o3 mini vs deepseek r1 safety arxiv 2501.18438"
+    }
+   ]
+  },
+  {
+   "id": "L023",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "OpenAI-operator-system-card-january-2025",
+     "extract_path": "PDF Extracts/AI Labs/OpenAI-operator-system-card-january-2025.md",
+     "extract_lines": 800,
+     "company": "OpenAI",
+     "title": "operator system card january 2025"
+    },
+    {
+     "stem": "Zhipu AI-AgentBench_2308.03688",
+     "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AgentBench_2308.03688.md",
+     "extract_lines": 4089,
+     "company": "Zhipu AI",
+     "title": "AgentBench 2308.03688"
+    },
+    {
+     "stem": "Zhipu AI-AlignBench_2311.18743",
+     "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AlignBench_2311.18743.md",
+     "extract_lines": 2815,
+     "company": "Zhipu AI",
+     "title": "AlignBench 2311.18743"
+    }
+   ]
+  },
+  {
+   "id": "L024",
+   "tier": "sonnet",
+   "papers": [
+    {
+     "stem": "Zhipu AI-AlignMMBench_2406.09295",
+     "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AlignMMBench_2406.09295.md",
+     "extract_lines": 2237,
+     "company": "Zhipu AI",
+     "title": "AlignMMBench 2406.09295"
+    },
+    {
+     "stem": "xAI-2025-08-20-grok-4-model-card",
+     "extract_path": "PDF Extracts/AI Labs/xAI-2025-08-20-grok-4-model-card.md",
+     "extract_lines": 448,
+     "company": "xAI",
+     "title": "2025 08 20 grok 4 model card"
+    },
+    {
+     "stem": "xAI-2025-11-17-grok-4-1-model-card",
+     "extract_path": "PDF Extracts/AI Labs/xAI-2025-11-17-grok-4-1-model-card.md",
+     "extract_lines": 372,
+     "company": "xAI",
+     "title": "2025 11 17 grok 4 1 model card"
+    }
+   ]
+  }
+ ]
+}

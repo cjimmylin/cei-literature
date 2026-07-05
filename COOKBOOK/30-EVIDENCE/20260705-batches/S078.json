@@ -1,0 +1,32 @@
+{
+ "id": "S078",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Mohammadi-EvalMORAAL",
+   "extract_path": "PDF Extracts/2025/2025-Mohammadi-EvalMORAAL.md",
+   "extract_lines": 2522
+  },
+  {
+   "stem": "2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language",
+   "extract_path": "PDF Extracts/2025/2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md",
+   "extract_lines": 1170
+  },
+  {
+   "stem": "2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human",
+   "extract_path": "PDF Extracts/2025/2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.md",
+   "extract_lines": 2922
+  },
+  {
+   "stem": "2025-Nadeem-Ethical Decision-Making in Humans and Large",
+   "extract_path": "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+   "extract_lines": 1251
+  },
+  {
+   "stem": "2025-Nay-Aligning AI Agents with Humans through Law as Information",
+   "extract_path": "PDF Extracts/2025/2025-Nay-Aligning AI Agents with Humans through Law as Information.md",
+   "extract_lines": 1110
+  }
+ ]
+}

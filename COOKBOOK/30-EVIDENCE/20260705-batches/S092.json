@@ -1,0 +1,17 @@
+{
+ "id": "S092",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2026-Tagarelli-Culturally Grounded Personas in Large Language Models",
+   "extract_path": "PDF Extracts/2026/2026-Tagarelli-Culturally Grounded Personas in Large Language Models.md",
+   "extract_lines": 2063
+  },
+  {
+   "stem": "2026-Yu-Tracing Moral Foundations in LLMs",
+   "extract_path": "PDF Extracts/2026/2026-Yu-Tracing Moral Foundations in LLMs.md",
+   "extract_lines": 3092
+  }
+ ]
+}

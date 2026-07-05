@@ -1,0 +1,27 @@
+{
+ "id": "O031",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Jiang-Raising the Bar",
+   "extract_path": "PDF Extracts/2025/2025-Jiang-Raising the Bar.md",
+   "extract_lines": 5119
+  },
+  {
+   "stem": "2025-Jiao-LLM Ethics Benchmark",
+   "extract_path": "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark.md",
+   "extract_lines": 1153
+  },
+  {
+   "stem": "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for",
+   "extract_path": "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md",
+   "extract_lines": 955
+  },
+  {
+   "stem": "2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ...",
+   "extract_path": "PDF Extracts/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....md",
+   "extract_lines": 1454
+  }
+ ]
+}

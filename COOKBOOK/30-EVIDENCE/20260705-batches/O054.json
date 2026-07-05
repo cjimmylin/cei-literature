@@ -1,0 +1,22 @@
+{
+ "id": "O054",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale",
+   "extract_path": "PDF Extracts/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+   "extract_lines": 3204
+  },
+  {
+   "stem": "2026-Jin-MedES Chinese Medical Ethics Scenarios",
+   "extract_path": "PDF Extracts/2026/2026-Jin-MedES Chinese Medical Ethics Scenarios.md",
+   "extract_lines": 1331
+  },
+  {
+   "stem": "2026-Li-PluriHarms",
+   "extract_path": "PDF Extracts/2026/2026-Li-PluriHarms.md",
+   "extract_lines": 2877
+  }
+ ]
+}

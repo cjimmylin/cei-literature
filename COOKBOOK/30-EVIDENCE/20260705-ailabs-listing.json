@@ -1,0 +1,3093 @@
+{
+ "generated_at": "2026-07-05T05:59:51",
+ "count": 343,
+ "reports": [
+  {
+   "stem": "01.AI-Yi-Lightning_Technical_Report_2412.01253",
+   "extract_path": "PDF Extracts/AI Labs/01.AI-Yi-Lightning_Technical_Report_2412.01253.md",
+   "company": "01.AI",
+   "title": "Yi Lightning Technical Report 2412.01253",
+   "pages": 17,
+   "arxiv_year": 2024,
+   "extract_lines": 1130
+  },
+  {
+   "stem": "01.AI-Yi_Technical_Report_2403.04652",
+   "extract_path": "PDF Extracts/AI Labs/01.AI-Yi_Technical_Report_2403.04652.md",
+   "company": "01.AI",
+   "title": "Yi Technical Report 2403.04652",
+   "pages": 26,
+   "arxiv_year": 2024,
+   "extract_lines": 1987
+  },
+  {
+   "stem": "01.AI-Yi_Technical_Report_2403.04652_v3",
+   "extract_path": "PDF Extracts/AI Labs/01.AI-Yi_Technical_Report_2403.04652_v3.md",
+   "company": "01.AI",
+   "title": "Yi Technical Report 2403.04652 v3",
+   "pages": 26,
+   "arxiv_year": null,
+   "extract_lines": 1987
+  },
+  {
+   "stem": "Alibaba (Qwen)-Marco-o1_2411.14405",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Marco-o1_2411.14405.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Marco o1 2411.14405",
+   "pages": 14,
+   "arxiv_year": 2024,
+   "extract_lines": 436
+  },
+  {
+   "stem": "Alibaba (Qwen)-Marco-o1_v2_2503.01461",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Marco-o1_v2_2503.01461.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Marco o1 v2 2503.01461",
+   "pages": 11,
+   "arxiv_year": 2025,
+   "extract_lines": 1343
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen-Audio_Technical_Report_2311.07919",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen-Audio_Technical_Report_2311.07919.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen Audio Technical Report 2311.07919",
+   "pages": 18,
+   "arxiv_year": 2023,
+   "extract_lines": 1312
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen-VL_2308.12966",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen-VL_2308.12966.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen VL 2308.12966",
+   "pages": 24,
+   "arxiv_year": 2023,
+   "extract_lines": 1609
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen2-Audio_Technical_Report_2407.10759",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen2-Audio_Technical_Report_2407.10759.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen2 Audio Technical Report 2407.10759",
+   "pages": 16,
+   "arxiv_year": 2024,
+   "extract_lines": 853
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen2-VL_2410.00520",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen2-VL_2410.00520.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen2 VL 2410.00520",
+   "pages": 57,
+   "arxiv_year": 2024,
+   "extract_lines": 6432
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen2.5-1M_Technical_Report_2501.15383",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen2.5-1M_Technical_Report_2501.15383.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen2.5 1M Technical Report 2501.15383",
+   "pages": 19,
+   "arxiv_year": 2025,
+   "extract_lines": 2165
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen2.5-Coder_Technical_Report_2409.12186",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen2.5-Coder_Technical_Report_2409.12186.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen2.5 Coder Technical Report 2409.12186",
+   "pages": 32,
+   "arxiv_year": 2024,
+   "extract_lines": 4094
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen2.5-Math_Technical_Report_2409.12122",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen2.5-Math_Technical_Report_2409.12122.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen2.5 Math Technical Report 2409.12122",
+   "pages": 39,
+   "arxiv_year": 2024,
+   "extract_lines": 2605
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen2.5-Omni_Technical_Report_2503.20215",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen2.5-Omni_Technical_Report_2503.20215.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen2.5 Omni Technical Report 2503.20215",
+   "pages": 20,
+   "arxiv_year": 2025,
+   "extract_lines": 1438
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen2.5-VL_Technical_Report_2502.13923",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen2.5-VL_Technical_Report_2502.13923.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen2.5 VL Technical Report 2502.13923",
+   "pages": 23,
+   "arxiv_year": 2025,
+   "extract_lines": 1862
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen2.5_Technical_Report_2412.15115",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen2.5_Technical_Report_2412.15115.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen2.5 Technical Report 2412.15115",
+   "pages": 26,
+   "arxiv_year": 2024,
+   "extract_lines": 2952
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen2_Technical_Report_2407.10671",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen2_Technical_Report_2407.10671.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen2 Technical Report 2407.10671",
+   "pages": 26,
+   "arxiv_year": 2024,
+   "extract_lines": 2617
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen3-ASR_Technical_Report_2601.21337",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen3-ASR_Technical_Report_2601.21337.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen3 ASR Technical Report 2601.21337",
+   "pages": 16,
+   "arxiv_year": 2026,
+   "extract_lines": 1821
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen3-Omni_Technical_Report_2509.17765",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen3-Omni_Technical_Report_2509.17765.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen3 Omni Technical Report 2509.17765",
+   "pages": 25,
+   "arxiv_year": 2025,
+   "extract_lines": 2516
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen3-TTS_Technical_Report_2601.15621",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen3-TTS_Technical_Report_2601.15621.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen3 TTS Technical Report 2601.15621",
+   "pages": 14,
+   "arxiv_year": 2026,
+   "extract_lines": 1275
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen3-VL_Technical_Report_2511.21631",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen3-VL_Technical_Report_2511.21631.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen3 VL Technical Report 2511.21631",
+   "pages": 42,
+   "arxiv_year": 2025,
+   "extract_lines": 4836
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen3 Technical Report 2505.09388",
+   "pages": 35,
+   "arxiv_year": 2025,
+   "extract_lines": 5881
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen_Technical_Report_2309.16609",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen_Technical_Report_2309.16609.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen Technical Report 2309.16609",
+   "pages": 59,
+   "arxiv_year": 2023,
+   "extract_lines": 4622
+  },
+  {
+   "stem": "Anthropic-A_General_Language_Assistant_as_a_Laboratory_for_Alignment_2112.00861",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-A_General_Language_Assistant_as_a_Laboratory_for_Alignment_2112.00861.md",
+   "company": "Anthropic",
+   "title": "A General Language Assistant as a Laboratory for Alignment 2112.00861",
+   "pages": 48,
+   "arxiv_year": 2021,
+   "extract_lines": 3543
+  },
+  {
+   "stem": "Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093.md",
+   "company": "Anthropic",
+   "title": "Alignment Faking in Large Language Models 2412.14093",
+   "pages": 137,
+   "arxiv_year": 2024,
+   "extract_lines": 9900
+  },
+  {
+   "stem": "Anthropic-Anthropic_Model_Spec_2025",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Anthropic_Model_Spec_2025.md",
+   "company": "Anthropic",
+   "title": "Anthropic Model Spec 2025",
+   "pages": 22,
+   "arxiv_year": null,
+   "extract_lines": 1027
+  },
+  {
+   "stem": "Anthropic-Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315.md",
+   "company": "Anthropic",
+   "title": "Challenges of Automated Red Teaming for LLMs 2401.03315",
+   "pages": 22,
+   "arxiv_year": 2024,
+   "extract_lines": 2735
+  },
+  {
+   "stem": "Anthropic-Claude_2_Model_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_2_Model_Card.md",
+   "company": "Anthropic",
+   "title": "Claude 2 Model Card",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 699
+  },
+  {
+   "stem": "Anthropic-Claude_3.5_Haiku_October_Addendum",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_3.5_Haiku_October_Addendum.md",
+   "company": "Anthropic",
+   "title": "Claude 3.5 Haiku October Addendum",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 1095
+  },
+  {
+   "stem": "Anthropic-Claude_3.5_Sonnet_Model_Card_Addendum",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_3.5_Sonnet_Model_Card_Addendum.md",
+   "company": "Anthropic",
+   "title": "Claude 3.5 Sonnet Model Card Addendum",
+   "pages": 8,
+   "arxiv_year": null,
+   "extract_lines": 719
+  },
+  {
+   "stem": "Anthropic-Claude_3.7_Sonnet_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_3.7_Sonnet_System_Card.md",
+   "company": "Anthropic",
+   "title": "Claude 3.7 Sonnet System Card",
+   "pages": 43,
+   "arxiv_year": null,
+   "extract_lines": 1936
+  },
+  {
+   "stem": "Anthropic-Claude_3_Model_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_3_Model_Card.md",
+   "company": "Anthropic",
+   "title": "Claude 3 Model Card",
+   "pages": 64,
+   "arxiv_year": null,
+   "extract_lines": 3573
+  },
+  {
+   "stem": "Anthropic-Claude_4.1_Opus_System_Card_August_2025",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_4.1_Opus_System_Card_August_2025.md",
+   "company": "Anthropic",
+   "title": "Claude 4.1 Opus System Card August 2025",
+   "pages": 23,
+   "arxiv_year": null,
+   "extract_lines": 836
+  },
+  {
+   "stem": "Anthropic-Claude_4_Opus_Sonnet_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_4_Opus_Sonnet_System_Card.md",
+   "company": "Anthropic",
+   "title": "Claude 4 Opus Sonnet System Card",
+   "pages": 120,
+   "arxiv_year": null,
+   "extract_lines": 4988
+  },
+  {
+   "stem": "Anthropic-Claude_4_Opus_Sonnet_System_Card_May_2025",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_4_Opus_Sonnet_System_Card_May_2025.md",
+   "company": "Anthropic",
+   "title": "Claude 4 Opus Sonnet System Card May 2025",
+   "pages": 120,
+   "arxiv_year": null,
+   "extract_lines": 4988
+  },
+  {
+   "stem": "Anthropic-Claude_Haiku_4.5_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_Haiku_4.5_System_Card.md",
+   "company": "Anthropic",
+   "title": "Claude Haiku 4.5 System Card",
+   "pages": 39,
+   "arxiv_year": null,
+   "extract_lines": 1521
+  },
+  {
+   "stem": "Anthropic-Claude_Haiku_4.5_System_Card_October_2025",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_Haiku_4.5_System_Card_October_2025.md",
+   "company": "Anthropic",
+   "title": "Claude Haiku 4.5 System Card October 2025",
+   "pages": 39,
+   "arxiv_year": null,
+   "extract_lines": 1521
+  },
+  {
+   "stem": "Anthropic-Claude_Opus_4.5_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_Opus_4.5_System_Card.md",
+   "company": "Anthropic",
+   "title": "Claude Opus 4.5 System Card",
+   "pages": 153,
+   "arxiv_year": null,
+   "extract_lines": 5710
+  },
+  {
+   "stem": "Anthropic-Claude_Sonnet_4.5_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_Sonnet_4.5_System_Card.md",
+   "company": "Anthropic",
+   "title": "Claude Sonnet 4.5 System Card",
+   "pages": 149,
+   "arxiv_year": null,
+   "extract_lines": 5347
+  },
+  {
+   "stem": "Anthropic-Claude_Sonnet_4.5_System_Card_September_2025",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_Sonnet_4.5_System_Card_September_2025.md",
+   "company": "Anthropic",
+   "title": "Claude Sonnet 4.5 System Card September 2025",
+   "pages": 149,
+   "arxiv_year": null,
+   "extract_lines": 5347
+  },
+  {
+   "stem": "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548.md",
+   "company": "Anthropic",
+   "title": "Collective Constitutional AI Democratizing AI Alignment 2310.13548",
+   "pages": 35,
+   "arxiv_year": 2023,
+   "extract_lines": 2735
+  },
+  {
+   "stem": "Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073.md",
+   "company": "Anthropic",
+   "title": "Constitutional AI Harmlessness from AI Feedback 2212.08073",
+   "pages": 34,
+   "arxiv_year": 2022,
+   "extract_lines": 2048
+  },
+  {
+   "stem": "Anthropic-Constitutional_Classifiers_2501.18837",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_Classifiers_2501.18837.md",
+   "company": "Anthropic",
+   "title": "Constitutional Classifiers 2501.18837",
+   "pages": 54,
+   "arxiv_year": 2025,
+   "extract_lines": 4046
+  },
+  {
+   "stem": "Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603.md",
+   "company": "Anthropic",
+   "title": "Constitutional Classifiers Plus Plus 2601.04603",
+   "pages": 17,
+   "arxiv_year": 2026,
+   "extract_lines": 1174
+  },
+  {
+   "stem": "Anthropic-Discovering_Latent_Knowledge_in_Language_Models_2212.03827",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Discovering_Latent_Knowledge_in_Language_Models_2212.03827.md",
+   "company": "Anthropic",
+   "title": "Discovering Latent Knowledge in Language Models 2212.03827",
+   "pages": 28,
+   "arxiv_year": 2022,
+   "extract_lines": 2173
+  },
+  {
+   "stem": "Anthropic-In-context_Reward_Hacking_2402.09656",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-In-context_Reward_Hacking_2402.09656.md",
+   "company": "Anthropic",
+   "title": "In context Reward Hacking 2402.09656",
+   "pages": 19,
+   "arxiv_year": 2024,
+   "extract_lines": 2333
+  },
+  {
+   "stem": "Anthropic-Influence_Functions_Scaled_to_Language_Models_2308.03296",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Influence_Functions_Scaled_to_Language_Models_2308.03296.md",
+   "company": "Anthropic",
+   "title": "Influence Functions Scaled to Language Models 2308.03296",
+   "pages": 119,
+   "arxiv_year": 2023,
+   "extract_lines": 7324
+  },
+  {
+   "stem": "Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388.md",
+   "company": "Anthropic",
+   "title": "Language Models Dont Always Say What They Think 2305.04388",
+   "pages": 32,
+   "arxiv_year": 2023,
+   "extract_lines": 4048
+  },
+  {
+   "stem": "Anthropic-Llama_2_Open_Foundation_and_Fine-Tuned_Chat_Models_2307.09288",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Llama_2_Open_Foundation_and_Fine-Tuned_Chat_Models_2307.09288.md",
+   "company": "Anthropic",
+   "title": "Llama 2 Open Foundation and Fine Tuned Chat Models 2307.09288",
+   "pages": 77,
+   "arxiv_year": 2023,
+   "extract_lines": 7241
+  },
+  {
+   "stem": "Anthropic-Many-shot_Jailbreaking_2401.05566",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Many-shot_Jailbreaking_2401.05566.md",
+   "company": "Anthropic",
+   "title": "Many shot Jailbreaking 2401.05566",
+   "pages": 71,
+   "arxiv_year": 2024,
+   "extract_lines": 4600
+  },
+  {
+   "stem": "Anthropic-Measuring_Faithfulness_in_CoT_Reasoning_2307.13702",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Measuring_Faithfulness_in_CoT_Reasoning_2307.13702.md",
+   "company": "Anthropic",
+   "title": "Measuring Faithfulness in CoT Reasoning 2307.13702",
+   "pages": 14,
+   "arxiv_year": 2023,
+   "extract_lines": 1455
+  },
+  {
+   "stem": "Anthropic-Reasoning_Models_Dont_Always_Say_What_They_Think",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Reasoning_Models_Dont_Always_Say_What_They_Think.md",
+   "company": "Anthropic",
+   "title": "Reasoning Models Dont Always Say What They Think",
+   "pages": 18,
+   "arxiv_year": null,
+   "extract_lines": 966
+  },
+  {
+   "stem": "Anthropic-Representation_Engineering_2310.01405",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Representation_Engineering_2310.01405.md",
+   "company": "Anthropic",
+   "title": "Representation Engineering 2310.01405",
+   "pages": 56,
+   "arxiv_year": 2023,
+   "extract_lines": 3992
+  },
+  {
+   "stem": "Anthropic-Responsible_Scaling_Policy_1.0",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Responsible_Scaling_Policy_1.0.md",
+   "company": "Anthropic",
+   "title": "Responsible Scaling Policy 1.0",
+   "pages": 22,
+   "arxiv_year": null,
+   "extract_lines": 1215
+  },
+  {
+   "stem": "Anthropic-Sabotage_Evaluations_for_Frontier_Models_2410.13161",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Sabotage_Evaluations_for_Frontier_Models_2410.13161.md",
+   "company": "Anthropic",
+   "title": "Sabotage Evaluations for Frontier Models 2410.13161",
+   "pages": 14,
+   "arxiv_year": 2024,
+   "extract_lines": 1838
+  },
+  {
+   "stem": "Anthropic-Simple_Probes_Detect_Sycophancy_2406.09569",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Simple_Probes_Detect_Sycophancy_2406.09569.md",
+   "company": "Anthropic",
+   "title": "Simple Probes Detect Sycophancy 2406.09569",
+   "pages": 5,
+   "arxiv_year": 2024,
+   "extract_lines": 736
+  },
+  {
+   "stem": "Anthropic-Sleeper_Agents_Training_Deceptive_LLMs_2312.00752",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Sleeper_Agents_Training_Deceptive_LLMs_2312.00752.md",
+   "company": "Anthropic",
+   "title": "Sleeper Agents Training Deceptive LLMs 2312.00752",
+   "pages": 36,
+   "arxiv_year": 2023,
+   "extract_lines": 2940
+  },
+  {
+   "stem": "Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report.md",
+   "company": "Anthropic",
+   "title": "Summer 2025 Pilot Sabotage Risk Report",
+   "pages": 67,
+   "arxiv_year": null,
+   "extract_lines": 3097
+  },
+  {
+   "stem": "Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459.md",
+   "company": "Anthropic",
+   "title": "The Capacity for Moral Self Correction in LLMs 2302.07459",
+   "pages": 20,
+   "arxiv_year": 2023,
+   "extract_lines": 1541
+  },
+  {
+   "stem": "Anthropic-Towards_Monosemanticity_Decomposing_LMs_Autoencoders",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Towards_Monosemanticity_Decomposing_LMs_Autoencoders.md",
+   "company": "Anthropic",
+   "title": "Towards Monosemanticity Decomposing LMs Autoencoders",
+   "pages": 20,
+   "arxiv_year": null,
+   "extract_lines": 802
+  },
+  {
+   "stem": "Anthropic-Towards_Understanding_Sycophancy_in_LMs_2310.13548v2",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Towards_Understanding_Sycophancy_in_LMs_2310.13548v2.md",
+   "company": "Anthropic",
+   "title": "Towards Understanding Sycophancy in LMs 2310.13548v2",
+   "pages": 15,
+   "arxiv_year": 2023,
+   "extract_lines": 1483
+  },
+  {
+   "stem": "Anthropic-Toy_Models_of_Superposition_2022",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Toy_Models_of_Superposition_2022.md",
+   "company": "Anthropic",
+   "title": "Toy Models of Superposition 2022",
+   "pages": 62,
+   "arxiv_year": null,
+   "extract_lines": 3121
+  },
+  {
+   "stem": "Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862.md",
+   "company": "Anthropic",
+   "title": "Training a Helpful and Harmless Assistant with RLHF 2204.05862",
+   "pages": 74,
+   "arxiv_year": 2022,
+   "extract_lines": 4810
+  },
+  {
+   "stem": "Baidu-ERNIE-GeoL_arXiv_2203.09127",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE-GeoL_arXiv_2203.09127.md",
+   "company": "Baidu",
+   "title": "ERNIE GeoL arXiv 2203.09127",
+   "pages": 11,
+   "arxiv_year": 2022,
+   "extract_lines": 1569
+  },
+  {
+   "stem": "Baidu-ERNIE-ViLG_2.0_arXiv_2210.15257",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE-ViLG_2.0_arXiv_2210.15257.md",
+   "company": "Baidu",
+   "title": "ERNIE ViLG 2.0 arXiv 2210.15257",
+   "pages": 19,
+   "arxiv_year": 2022,
+   "extract_lines": 1856
+  },
+  {
+   "stem": "Baidu-ERNIE-ViLG_arXiv_2112.15283",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE-ViLG_arXiv_2112.15283.md",
+   "company": "Baidu",
+   "title": "ERNIE ViLG arXiv 2112.15283",
+   "pages": 15,
+   "arxiv_year": 2021,
+   "extract_lines": 904
+  },
+  {
+   "stem": "Baidu-ERNIE-ViL_2.0_arXiv_2209.15270",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE-ViL_2.0_arXiv_2209.15270.md",
+   "company": "Baidu",
+   "title": "ERNIE ViL 2.0 arXiv 2209.15270",
+   "pages": 14,
+   "arxiv_year": 2022,
+   "extract_lines": 1198
+  },
+  {
+   "stem": "Baidu-ERNIE-ViL_arXiv_2006.16934",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE-ViL_arXiv_2006.16934.md",
+   "company": "Baidu",
+   "title": "ERNIE ViL arXiv 2006.16934",
+   "pages": 9,
+   "arxiv_year": 2020,
+   "extract_lines": 1144
+  },
+  {
+   "stem": "Baidu-ERNIE_1.0_Enhanced_Representation_through_Knowledge_Integration",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE_1.0_Enhanced_Representation_through_Knowledge_Integration.md",
+   "company": "Baidu",
+   "title": "ERNIE 1.0 Enhanced Representation through Knowledge Integration",
+   "pages": 8,
+   "arxiv_year": null,
+   "extract_lines": 960
+  },
+  {
+   "stem": "Baidu-ERNIE_1.0_arXiv_1904.09223",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE_1.0_arXiv_1904.09223.md",
+   "company": "Baidu",
+   "title": "ERNIE 1.0 arXiv 1904.09223",
+   "pages": 8,
+   "arxiv_year": 2019,
+   "extract_lines": 960
+  },
+  {
+   "stem": "Baidu-ERNIE_2.0_Continual_Pre-training_Framework",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE_2.0_Continual_Pre-training_Framework.md",
+   "company": "Baidu",
+   "title": "ERNIE 2.0 Continual Pre training Framework",
+   "pages": 8,
+   "arxiv_year": null,
+   "extract_lines": 1380
+  },
+  {
+   "stem": "Baidu-ERNIE_2.0_arXiv_1907.12412",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE_2.0_arXiv_1907.12412.md",
+   "company": "Baidu",
+   "title": "ERNIE 2.0 arXiv 1907.12412",
+   "pages": 8,
+   "arxiv_year": 2019,
+   "extract_lines": 1380
+  },
+  {
+   "stem": "Baidu-ERNIE_3.0_Large-scale_Knowledge_Enhanced_Pre-training",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE_3.0_Large-scale_Knowledge_Enhanced_Pre-training.md",
+   "company": "Baidu",
+   "title": "ERNIE 3.0 Large scale Knowledge Enhanced Pre training",
+   "pages": 22,
+   "arxiv_year": null,
+   "extract_lines": 1945
+  },
+  {
+   "stem": "Baidu-ERNIE_3.0_Titan_Exploring_Larger-scale_Knowledge_Enhanced_Pre-training",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE_3.0_Titan_Exploring_Larger-scale_Knowledge_Enhanced_Pre-training.md",
+   "company": "Baidu",
+   "title": "ERNIE 3.0 Titan Exploring Larger scale Knowledge Enhanced Pre training",
+   "pages": 28,
+   "arxiv_year": null,
+   "extract_lines": 2937
+  },
+  {
+   "stem": "Baidu-ERNIE_3.0_Titan_arXiv_2112.12731",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE_3.0_Titan_arXiv_2112.12731.md",
+   "company": "Baidu",
+   "title": "ERNIE 3.0 Titan arXiv 2112.12731",
+   "pages": 28,
+   "arxiv_year": 2021,
+   "extract_lines": 2937
+  },
+  {
+   "stem": "Baidu-ERNIE_3.0_arXiv_2107.02137",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE_3.0_arXiv_2107.02137.md",
+   "company": "Baidu",
+   "title": "ERNIE 3.0 arXiv 2107.02137",
+   "pages": 22,
+   "arxiv_year": 2021,
+   "extract_lines": 1945
+  },
+  {
+   "stem": "Baidu-ERNIE_4.5_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Baidu-ERNIE_4.5_Technical_Report.md",
+   "company": "Baidu",
+   "title": "ERNIE 4.5 Technical Report",
+   "pages": 72,
+   "arxiv_year": null,
+   "extract_lines": 6126
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-Coder-V2_arxiv_2406.11931",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-Coder-V2_arxiv_2406.11931.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek Coder V2 arxiv 2406.11931",
+   "pages": 19,
+   "arxiv_year": 2024,
+   "extract_lines": 1747
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-Coder_arxiv_2401.14196",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-Coder_arxiv_2401.14196.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek Coder arxiv 2401.14196",
+   "pages": 23,
+   "arxiv_year": 2024,
+   "extract_lines": 2246
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-MoE_arxiv_2401.06066",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-MoE_arxiv_2401.06066.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek MoE arxiv 2401.06066",
+   "pages": 33,
+   "arxiv_year": 2024,
+   "extract_lines": 2767
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-Prover-V1.5_arxiv_2408.08152",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-Prover-V1.5_arxiv_2408.08152.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek Prover V1.5 arxiv 2408.08152",
+   "pages": 28,
+   "arxiv_year": 2024,
+   "extract_lines": 1801
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-Prover-V2_arxiv_2504.21801",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-Prover-V2_arxiv_2504.21801.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek Prover V2 arxiv 2504.21801",
+   "pages": 39,
+   "arxiv_year": 2025,
+   "extract_lines": 2519
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-Prover_arxiv_2405.14333",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-Prover_arxiv_2405.14333.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek Prover arxiv 2405.14333",
+   "pages": 17,
+   "arxiv_year": 2024,
+   "extract_lines": 1042
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-R1_arxiv_2501.12948",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-R1_arxiv_2501.12948.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek R1 arxiv 2501.12948",
+   "pages": 86,
+   "arxiv_year": 2025,
+   "extract_lines": 5373
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-V2_arxiv_2405.04434",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-V2_arxiv_2405.04434.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek V2 arxiv 2405.04434",
+   "pages": 52,
+   "arxiv_year": 2024,
+   "extract_lines": 3758
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-V3.2_arxiv_2512.02556",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-V3.2_arxiv_2512.02556.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek V3.2 arxiv 2512.02556",
+   "pages": 23,
+   "arxiv_year": 2025,
+   "extract_lines": 1612
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-V3_arxiv_2412.19437",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-V3_arxiv_2412.19437.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek V3 arxiv 2412.19437",
+   "pages": 53,
+   "arxiv_year": 2024,
+   "extract_lines": 3923
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-VL2_arxiv_2412.10302",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-VL2_arxiv_2412.10302.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek VL2 arxiv 2412.10302",
+   "pages": 28,
+   "arxiv_year": 2024,
+   "extract_lines": 2233
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-VL_arxiv_2403.05525",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-VL_arxiv_2403.05525.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek VL arxiv 2403.05525",
+   "pages": 33,
+   "arxiv_year": 2024,
+   "extract_lines": 2391
+  },
+  {
+   "stem": "DeepSeek-DeepSeekMath-V2_arxiv_2511.22570",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeekMath-V2_arxiv_2511.22570.md",
+   "company": "DeepSeek",
+   "title": "DeepSeekMath V2 arxiv 2511.22570",
+   "pages": 19,
+   "arxiv_year": 2025,
+   "extract_lines": 1578
+  },
+  {
+   "stem": "DeepSeek-DeepSeekMath_arxiv_2402.03300",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeekMath_arxiv_2402.03300.md",
+   "company": "DeepSeek",
+   "title": "DeepSeekMath arxiv 2402.03300",
+   "pages": 30,
+   "arxiv_year": 2024,
+   "extract_lines": 2161
+  },
+  {
+   "stem": "DeepSeek-DeepSeek_LLM_arxiv_2401.02954",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek_LLM_arxiv_2401.02954.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek LLM arxiv 2401.02954",
+   "pages": 48,
+   "arxiv_year": 2024,
+   "extract_lines": 2981
+  },
+  {
+   "stem": "DeepSeek-Janus-Pro_arxiv_2501.17811",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-Janus-Pro_arxiv_2501.17811.md",
+   "company": "DeepSeek",
+   "title": "Janus Pro arxiv 2501.17811",
+   "pages": 13,
+   "arxiv_year": 2025,
+   "extract_lines": 1215
+  },
+  {
+   "stem": "DeepSeek-JanusFlow_arxiv_2411.07975",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-JanusFlow_arxiv_2411.07975.md",
+   "company": "DeepSeek",
+   "title": "JanusFlow arxiv 2411.07975",
+   "pages": 25,
+   "arxiv_year": 2024,
+   "extract_lines": 2005
+  },
+  {
+   "stem": "DeepSeek-Janus_arxiv_2410.13848",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-Janus_arxiv_2410.13848.md",
+   "company": "DeepSeek",
+   "title": "Janus arxiv 2410.13848",
+   "pages": 24,
+   "arxiv_year": 2024,
+   "extract_lines": 1734
+  },
+  {
+   "stem": "DeepSeek-Native_Sparse_Attention_arxiv_2502.11089",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-Native_Sparse_Attention_arxiv_2502.11089.md",
+   "company": "DeepSeek",
+   "title": "Native Sparse Attention arxiv 2502.11089",
+   "pages": 25,
+   "arxiv_year": 2025,
+   "extract_lines": 1560
+  },
+  {
+   "stem": "DeepSeek-mHC_Manifold_Constrained_Hyper_Connections_arxiv_2512.24880",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-mHC_Manifold_Constrained_Hyper_Connections_arxiv_2512.24880.md",
+   "company": "DeepSeek",
+   "title": "mHC Manifold Constrained Hyper Connections arxiv 2512.24880",
+   "pages": 19,
+   "arxiv_year": 2025,
+   "extract_lines": 1936
+  },
+  {
+   "stem": "Google DeepMind-Advancing_Multimodal_Medical_Capabilities_of_Gemini_arxiv_2405.03162",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Advancing_Multimodal_Medical_Capabilities_of_Gemini_arxiv_2405.03162.md",
+   "company": "Google DeepMind",
+   "title": "Advancing Multimodal Medical Capabilities of Gemini arxiv 2405.03162",
+   "pages": 62,
+   "arxiv_year": 2024,
+   "extract_lines": 4460
+  },
+  {
+   "stem": "Google DeepMind-AlphaCode2_Tech_Report",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-AlphaCode2_Tech_Report.md",
+   "company": "Google DeepMind",
+   "title": "AlphaCode2 Tech Report",
+   "pages": 7,
+   "arxiv_year": null,
+   "extract_lines": 353
+  },
+  {
+   "stem": "Google DeepMind-AlphaCode2_arxiv_2401.14196",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-AlphaCode2_arxiv_2401.14196.md",
+   "company": "Google DeepMind",
+   "title": "AlphaCode2 arxiv 2401.14196",
+   "pages": 23,
+   "arxiv_year": 2024,
+   "extract_lines": 2245
+  },
+  {
+   "stem": "Google DeepMind-AlphaCode_arxiv_2203.07814",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-AlphaCode_arxiv_2203.07814.md",
+   "company": "Google DeepMind",
+   "title": "AlphaCode arxiv 2203.07814",
+   "pages": 74,
+   "arxiv_year": 2022,
+   "extract_lines": 6706
+  },
+  {
+   "stem": "Google DeepMind-Capabilities_of_Gemini_Models_in_Medicine_arxiv_2404.18416",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Capabilities_of_Gemini_Models_in_Medicine_arxiv_2404.18416.md",
+   "company": "Google DeepMind",
+   "title": "Capabilities of Gemini Models in Medicine arxiv 2404.18416",
+   "pages": 58,
+   "arxiv_year": 2024,
+   "extract_lines": 3948
+  },
+  {
+   "stem": "Google DeepMind-Chinchilla_2203.15556",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Chinchilla_2203.15556.md",
+   "company": "Google DeepMind",
+   "title": "Chinchilla 2203.15556",
+   "pages": 36,
+   "arxiv_year": 2022,
+   "extract_lines": 3169
+  },
+  {
+   "stem": "Google DeepMind-CodeGemma_arxiv_2406.11409",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-CodeGemma_arxiv_2406.11409.md",
+   "company": "Google DeepMind",
+   "title": "CodeGemma arxiv 2406.11409",
+   "pages": 11,
+   "arxiv_year": 2024,
+   "extract_lines": 1011
+  },
+  {
+   "stem": "Google DeepMind-Flamingo_2204.14198",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Flamingo_2204.14198.md",
+   "company": "Google DeepMind",
+   "title": "Flamingo 2204.14198",
+   "pages": 54,
+   "arxiv_year": 2022,
+   "extract_lines": 4742
+  },
+  {
+   "stem": "Google DeepMind-Gato_2205.06175",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gato_2205.06175.md",
+   "company": "Google DeepMind",
+   "title": "Gato 2205.06175",
+   "pages": 42,
+   "arxiv_year": 2022,
+   "extract_lines": 2113
+  },
+  {
+   "stem": "Google DeepMind-Gemini_1.0_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_1.0_Technical_Report.md",
+   "company": "Google DeepMind",
+   "title": "Gemini 1.0 Technical Report",
+   "pages": 90,
+   "arxiv_year": null,
+   "extract_lines": 5412
+  },
+  {
+   "stem": "Google DeepMind-Gemini_1.0_arxiv_2312.11805",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_1.0_arxiv_2312.11805.md",
+   "company": "Google DeepMind",
+   "title": "Gemini 1.0 arxiv 2312.11805",
+   "pages": 90,
+   "arxiv_year": 2023,
+   "extract_lines": 5414
+  },
+  {
+   "stem": "Google DeepMind-Gemini_1.5_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_1.5_Technical_Report.md",
+   "company": "Google DeepMind",
+   "title": "Gemini 1.5 Technical Report",
+   "pages": 154,
+   "arxiv_year": null,
+   "extract_lines": 10231
+  },
+  {
+   "stem": "Google DeepMind-Gemini_1.5_arxiv_2403.05530",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_1.5_arxiv_2403.05530.md",
+   "company": "Google DeepMind",
+   "title": "Gemini 1.5 arxiv 2403.05530",
+   "pages": 154,
+   "arxiv_year": 2024,
+   "extract_lines": 10232
+  },
+  {
+   "stem": "Google DeepMind-Gemini_1.5_arxiv_2403.05530v5",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_1.5_arxiv_2403.05530v5.md",
+   "company": "Google DeepMind",
+   "title": "Gemini 1.5 arxiv 2403.05530v5",
+   "pages": 154,
+   "arxiv_year": 2024,
+   "extract_lines": 10232
+  },
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Flash_Model_Card",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_2.5_Flash_Model_Card.md",
+   "company": "Google DeepMind",
+   "title": "Gemini 2.5 Flash Model Card",
+   "pages": 11,
+   "arxiv_year": null,
+   "extract_lines": 895
+  },
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Pro_Model_Card",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_2.5_Pro_Model_Card.md",
+   "company": "Google DeepMind",
+   "title": "Gemini 2.5 Pro Model Card",
+   "pages": 21,
+   "arxiv_year": null,
+   "extract_lines": 1361
+  },
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_2.5_Technical_Report.md",
+   "company": "Google DeepMind",
+   "title": "Gemini 2.5 Technical Report",
+   "pages": 73,
+   "arxiv_year": null,
+   "extract_lines": 6986
+  },
+  {
+   "stem": "Google DeepMind-Gemini_Goes_to_Med_School_arxiv_2402.07023",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_Goes_to_Med_School_arxiv_2402.07023.md",
+   "company": "Google DeepMind",
+   "title": "Gemini Goes to Med School arxiv 2402.07023",
+   "pages": 25,
+   "arxiv_year": 2024,
+   "extract_lines": 2452
+  },
+  {
+   "stem": "Google DeepMind-Gemini_Robotics_1.5_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_Robotics_1.5_Technical_Report.md",
+   "company": "Google DeepMind",
+   "title": "Gemini Robotics 1.5 Technical Report",
+   "pages": 62,
+   "arxiv_year": null,
+   "extract_lines": 4178
+  },
+  {
+   "stem": "Google DeepMind-Gemini_Robotics_Bringing_AI_into_Physical_World_arxiv_2503.20020",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_Robotics_Bringing_AI_into_Physical_World_arxiv_2503.20020.md",
+   "company": "Google DeepMind",
+   "title": "Gemini Robotics Bringing AI into Physical World arxiv 2503.20020",
+   "pages": 64,
+   "arxiv_year": 2025,
+   "extract_lines": 3620
+  },
+  {
+   "stem": "Google DeepMind-Gemini_Safety_arxiv_2403.04312",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_Safety_arxiv_2403.04312.md",
+   "company": "Google DeepMind",
+   "title": "Gemini Safety arxiv 2403.04312",
+   "pages": 16,
+   "arxiv_year": 2024,
+   "extract_lines": 1143
+  },
+  {
+   "stem": "Google DeepMind-Gemma2_Official_Report",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemma2_Official_Report.md",
+   "company": "Google DeepMind",
+   "title": "Gemma2 Official Report",
+   "pages": 21,
+   "arxiv_year": null,
+   "extract_lines": 2480
+  },
+  {
+   "stem": "Google DeepMind-Gemma2_Technical_Report_2408.00118",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemma2_Technical_Report_2408.00118.md",
+   "company": "Google DeepMind",
+   "title": "Gemma2 Technical Report 2408.00118",
+   "pages": 21,
+   "arxiv_year": 2024,
+   "extract_lines": 2481
+  },
+  {
+   "stem": "Google DeepMind-Gemma3_Technical_Report_arxiv_2503.19786",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemma3_Technical_Report_arxiv_2503.19786.md",
+   "company": "Google DeepMind",
+   "title": "Gemma3 Technical Report arxiv 2503.19786",
+   "pages": 25,
+   "arxiv_year": 2025,
+   "extract_lines": 2947
+  },
+  {
+   "stem": "Google DeepMind-Gemma_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemma_Technical_Report.md",
+   "company": "Google DeepMind",
+   "title": "Gemma Technical Report",
+   "pages": 17,
+   "arxiv_year": null,
+   "extract_lines": 1750
+  },
+  {
+   "stem": "Google DeepMind-Gopher_2112.11446",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gopher_2112.11446.md",
+   "company": "Google DeepMind",
+   "title": "Gopher 2112.11446",
+   "pages": 120,
+   "arxiv_year": 2021,
+   "extract_lines": 9966
+  },
+  {
+   "stem": "Google DeepMind-ImagenVideo_arxiv_2210.02303",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-ImagenVideo_arxiv_2210.02303.md",
+   "company": "Google DeepMind",
+   "title": "ImagenVideo arxiv 2210.02303",
+   "pages": 18,
+   "arxiv_year": 2022,
+   "extract_lines": 853
+  },
+  {
+   "stem": "Google DeepMind-Imagen_arxiv_2205.11487",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Imagen_arxiv_2205.11487.md",
+   "company": "Google DeepMind",
+   "title": "Imagen arxiv 2205.11487",
+   "pages": 46,
+   "arxiv_year": 2022,
+   "extract_lines": 1929
+  },
+  {
+   "stem": "Google DeepMind-Med-PaLM2_2305.09617",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Med-PaLM2_2305.09617.md",
+   "company": "Google DeepMind",
+   "title": "Med PaLM2 2305.09617",
+   "pages": 30,
+   "arxiv_year": 2023,
+   "extract_lines": 2411
+  },
+  {
+   "stem": "Google DeepMind-Minerva_arxiv_2206.14858",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Minerva_arxiv_2206.14858.md",
+   "company": "Google DeepMind",
+   "title": "Minerva arxiv 2206.14858",
+   "pages": 54,
+   "arxiv_year": 2022,
+   "extract_lines": 3622
+  },
+  {
+   "stem": "Google DeepMind-PaLM2_arxiv_2305.10403",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-PaLM2_arxiv_2305.10403.md",
+   "company": "Google DeepMind",
+   "title": "PaLM2 arxiv 2305.10403",
+   "pages": 93,
+   "arxiv_year": 2023,
+   "extract_lines": 6057
+  },
+  {
+   "stem": "Google DeepMind-PaLM_arxiv_2204.02311",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-PaLM_arxiv_2204.02311.md",
+   "company": "Google DeepMind",
+   "title": "PaLM arxiv 2204.02311",
+   "pages": 87,
+   "arxiv_year": 2022,
+   "extract_lines": 7660
+  },
+  {
+   "stem": "Google DeepMind-PaliGemma_arxiv_2407.07726",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-PaliGemma_arxiv_2407.07726.md",
+   "company": "Google DeepMind",
+   "title": "PaliGemma arxiv 2407.07726",
+   "pages": 59,
+   "arxiv_year": 2024,
+   "extract_lines": 5436
+  },
+  {
+   "stem": "Google DeepMind-RecurrentGemma_arxiv_2404.07839",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-RecurrentGemma_arxiv_2404.07839.md",
+   "company": "Google DeepMind",
+   "title": "RecurrentGemma arxiv 2404.07839",
+   "pages": 5,
+   "arxiv_year": 2024,
+   "extract_lines": 634
+  },
+  {
+   "stem": "Google DeepMind-ShieldGemma_arxiv_2407.21772",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-ShieldGemma_arxiv_2407.21772.md",
+   "company": "Google DeepMind",
+   "title": "ShieldGemma arxiv 2407.21772",
+   "pages": 11,
+   "arxiv_year": 2024,
+   "extract_lines": 936
+  },
+  {
+   "stem": "Meta AI-Code_Llama_2308.12950",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Code_Llama_2308.12950.md",
+   "company": "Meta AI",
+   "title": "Code Llama 2308.12950",
+   "pages": 48,
+   "arxiv_year": 2023,
+   "extract_lines": 5189
+  },
+  {
+   "stem": "Meta AI-CyberSecEval_2_2404.13161",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-CyberSecEval_2_2404.13161.md",
+   "company": "Meta AI",
+   "title": "CyberSecEval 2 2404.13161",
+   "pages": 21,
+   "arxiv_year": 2024,
+   "extract_lines": 954
+  },
+  {
+   "stem": "Meta AI-CyberSecEval_3_2408.01605",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-CyberSecEval_3_2408.01605.md",
+   "company": "Meta AI",
+   "title": "CyberSecEval 3 2408.01605",
+   "pages": 36,
+   "arxiv_year": 2024,
+   "extract_lines": 2764
+  },
+  {
+   "stem": "Meta AI-LLaMA_2302.13971",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-LLaMA_2302.13971.md",
+   "company": "Meta AI",
+   "title": "LLaMA 2302.13971",
+   "pages": 27,
+   "arxiv_year": 2023,
+   "extract_lines": 3045
+  },
+  {
+   "stem": "Meta AI-Llama_2_2307.09288",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_2_2307.09288.md",
+   "company": "Meta AI",
+   "title": "Llama 2 2307.09288",
+   "pages": 77,
+   "arxiv_year": 2023,
+   "extract_lines": 7242
+  },
+  {
+   "stem": "Meta AI-Llama_3_2407.21783",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_3_2407.21783.md",
+   "company": "Meta AI",
+   "title": "Llama 3 2407.21783",
+   "pages": 92,
+   "arxiv_year": 2024,
+   "extract_lines": 6542
+  },
+  {
+   "stem": "Meta AI-Llama_3_Herd_2407.21783",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_3_Herd_2407.21783.md",
+   "company": "Meta AI",
+   "title": "Llama 3 Herd 2407.21783",
+   "pages": 92,
+   "arxiv_year": 2024,
+   "extract_lines": 6542
+  },
+  {
+   "stem": "Meta AI-Llama_Guard_2312.06674",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_Guard_2312.06674.md",
+   "company": "Meta AI",
+   "title": "Llama Guard 2312.06674",
+   "pages": 15,
+   "arxiv_year": 2023,
+   "extract_lines": 813
+  },
+  {
+   "stem": "Meta AI-Llama_Guard_3_1B_INT4_2411.17713",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_Guard_3_1B_INT4_2411.17713.md",
+   "company": "Meta AI",
+   "title": "Llama Guard 3 1B INT4 2411.17713",
+   "pages": 9,
+   "arxiv_year": 2024,
+   "extract_lines": 446
+  },
+  {
+   "stem": "Meta AI-Llama_Guard_3_Vision_2411.10414",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_Guard_3_Vision_2411.10414.md",
+   "company": "Meta AI",
+   "title": "Llama Guard 3 Vision 2411.10414",
+   "pages": 10,
+   "arxiv_year": 2024,
+   "extract_lines": 555
+  },
+  {
+   "stem": "Meta AI-Purple_Llama_CyberSecEval_2312.04724",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Purple_Llama_CyberSecEval_2312.04724.md",
+   "company": "Meta AI",
+   "title": "Purple Llama CyberSecEval 2312.04724",
+   "pages": 13,
+   "arxiv_year": 2023,
+   "extract_lines": 547
+  },
+  {
+   "stem": "Meta AI-SAM_2_2408.00714",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-SAM_2_2408.00714.md",
+   "company": "Meta AI",
+   "title": "SAM 2 2408.00714",
+   "pages": 42,
+   "arxiv_year": 2024,
+   "extract_lines": 3906
+  },
+  {
+   "stem": "Meta AI-SAM_Segment_Anything_2304.02643",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-SAM_Segment_Anything_2304.02643.md",
+   "company": "Meta AI",
+   "title": "SAM Segment Anything 2304.02643",
+   "pages": 30,
+   "arxiv_year": 2023,
+   "extract_lines": 3985
+  },
+  {
+   "stem": "Microsoft Research-AgentInstruct_Generative_Teaching_Agentic_Flows",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-AgentInstruct_Generative_Teaching_Agentic_Flows.md",
+   "company": "Microsoft Research",
+   "title": "AgentInstruct Generative Teaching Agentic Flows",
+   "pages": 32,
+   "arxiv_year": null,
+   "extract_lines": 2096
+  },
+  {
+   "stem": "Microsoft Research-Megatron-Turing_NLG_530B",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Megatron-Turing_NLG_530B.md",
+   "company": "Microsoft Research",
+   "title": "Megatron Turing NLG 530B",
+   "pages": 44,
+   "arxiv_year": null,
+   "extract_lines": 2530
+  },
+  {
+   "stem": "Microsoft Research-Orca-Math_Unlocking_SLMs_Grade_School_Math",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Orca-Math_Unlocking_SLMs_Grade_School_Math.md",
+   "company": "Microsoft Research",
+   "title": "Orca Math Unlocking SLMs Grade School Math",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 862
+  },
+  {
+   "stem": "Microsoft Research-Orca_2_Teaching_Small_Language_Models_How_to_Reason",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Orca_2_Teaching_Small_Language_Models_How_to_Reason.md",
+   "company": "Microsoft Research",
+   "title": "Orca 2 Teaching Small Language Models How to Reason",
+   "pages": 53,
+   "arxiv_year": null,
+   "extract_lines": 3823
+  },
+  {
+   "stem": "Microsoft Research-Orca_Progressive_Learning_from_Complex_Explanation_Traces",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Orca_Progressive_Learning_from_Complex_Explanation_Traces.md",
+   "company": "Microsoft Research",
+   "title": "Orca Progressive Learning from Complex Explanation Traces",
+   "pages": 51,
+   "arxiv_year": null,
+   "extract_lines": 3519
+  },
+  {
+   "stem": "Microsoft Research-Phi-3_Safety_Post-Training",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Phi-3_Safety_Post-Training.md",
+   "company": "Microsoft Research",
+   "title": "Phi 3 Safety Post Training",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 952
+  },
+  {
+   "stem": "Microsoft Research-Phi-3_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Phi-3_Technical_Report.md",
+   "company": "Microsoft Research",
+   "title": "Phi 3 Technical Report",
+   "pages": 24,
+   "arxiv_year": null,
+   "extract_lines": 1882
+  },
+  {
+   "stem": "Microsoft Research-Phi-4-Mini_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Phi-4-Mini_Technical_Report.md",
+   "company": "Microsoft Research",
+   "title": "Phi 4 Mini Technical Report",
+   "pages": 39,
+   "arxiv_year": null,
+   "extract_lines": 3654
+  },
+  {
+   "stem": "Microsoft Research-Phi-4-Multimodal_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Phi-4-Multimodal_Technical_Report.md",
+   "company": "Microsoft Research",
+   "title": "Phi 4 Multimodal Technical Report",
+   "pages": 39,
+   "arxiv_year": null,
+   "extract_lines": 3654
+  },
+  {
+   "stem": "Microsoft Research-Phi-4-Reasoning_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Phi-4-Reasoning_Technical_Report.md",
+   "company": "Microsoft Research",
+   "title": "Phi 4 Reasoning Technical Report",
+   "pages": 33,
+   "arxiv_year": null,
+   "extract_lines": 3285
+  },
+  {
+   "stem": "Microsoft Research-Phi-4_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Phi-4_Technical_Report.md",
+   "company": "Microsoft Research",
+   "title": "Phi 4 Technical Report",
+   "pages": 36,
+   "arxiv_year": null,
+   "extract_lines": 2501
+  },
+  {
+   "stem": "Microsoft Research-Textbooks_Are_All_You_Need",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Textbooks_Are_All_You_Need.md",
+   "company": "Microsoft Research",
+   "title": "Textbooks Are All You Need",
+   "pages": 26,
+   "arxiv_year": null,
+   "extract_lines": 2041
+  },
+  {
+   "stem": "Microsoft Research-Textbooks_Are_All_You_Need_II",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Textbooks_Are_All_You_Need_II.md",
+   "company": "Microsoft Research",
+   "title": "Textbooks Are All You Need II",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 1230
+  },
+  {
+   "stem": "Microsoft Research-WizardCoder_Evol-Instruct",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-WizardCoder_Evol-Instruct.md",
+   "company": "Microsoft Research",
+   "title": "WizardCoder Evol Instruct",
+   "pages": 18,
+   "arxiv_year": null,
+   "extract_lines": 1373
+  },
+  {
+   "stem": "Microsoft Research-WizardLM_Empowering_Complex_Instructions",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-WizardLM_Empowering_Complex_Instructions.md",
+   "company": "Microsoft Research",
+   "title": "WizardLM Empowering Complex Instructions",
+   "pages": 22,
+   "arxiv_year": null,
+   "extract_lines": 1481
+  },
+  {
+   "stem": "Microsoft Research-WizardMath_Reinforced_Evol-Instruct",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-WizardMath_Reinforced_Evol-Instruct.md",
+   "company": "Microsoft Research",
+   "title": "WizardMath Reinforced Evol Instruct",
+   "pages": 37,
+   "arxiv_year": null,
+   "extract_lines": 3899
+  },
+  {
+   "stem": "Mistral AI-Magistral_arxiv_2506.10910",
+   "extract_path": "PDF Extracts/AI Labs/Mistral AI-Magistral_arxiv_2506.10910.md",
+   "company": "Mistral AI",
+   "title": "Magistral arxiv 2506.10910",
+   "pages": 23,
+   "arxiv_year": 2025,
+   "extract_lines": 1233
+  },
+  {
+   "stem": "Mistral AI-Ministral_3_arxiv_2601.08584",
+   "extract_path": "PDF Extracts/AI Labs/Mistral AI-Ministral_3_arxiv_2601.08584.md",
+   "company": "Mistral AI",
+   "title": "Ministral 3 arxiv 2601.08584",
+   "pages": 14,
+   "arxiv_year": 2026,
+   "extract_lines": 1001
+  },
+  {
+   "stem": "Mistral AI-Mistral_7B_arxiv_2310.06825",
+   "extract_path": "PDF Extracts/AI Labs/Mistral AI-Mistral_7B_arxiv_2310.06825.md",
+   "company": "Mistral AI",
+   "title": "Mistral 7B arxiv 2310.06825",
+   "pages": 9,
+   "arxiv_year": 2023,
+   "extract_lines": 547
+  },
+  {
+   "stem": "Mistral AI-Mixtral_8x7B_arxiv_2401.04088",
+   "extract_path": "PDF Extracts/AI Labs/Mistral AI-Mixtral_8x7B_arxiv_2401.04088.md",
+   "company": "Mistral AI",
+   "title": "Mixtral 8x7B arxiv 2401.04088",
+   "pages": 13,
+   "arxiv_year": 2024,
+   "extract_lines": 884
+  },
+  {
+   "stem": "Mistral AI-Pixtral_12B_arxiv_2410.07073",
+   "extract_path": "PDF Extracts/AI Labs/Mistral AI-Pixtral_12B_arxiv_2410.07073.md",
+   "company": "Mistral AI",
+   "title": "Pixtral 12B arxiv 2410.07073",
+   "pages": 24,
+   "arxiv_year": 2024,
+   "extract_lines": 1899
+  },
+  {
+   "stem": "NVIDIA-BroRL-Scaling-via-Broadened-Exploration",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-BroRL-Scaling-via-Broadened-Exploration.md",
+   "company": "NVIDIA",
+   "title": "BroRL Scaling via Broadened Exploration",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 1553
+  },
+  {
+   "stem": "NVIDIA-Cosmos-World-Foundation-Model-Platform",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Cosmos-World-Foundation-Model-Platform.md",
+   "company": "NVIDIA",
+   "title": "Cosmos World Foundation Model Platform",
+   "pages": 75,
+   "arxiv_year": null,
+   "extract_lines": 4541
+  },
+  {
+   "stem": "NVIDIA-HelpSteer2-Preference_Complementing_Ratings",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-HelpSteer2-Preference_Complementing_Ratings.md",
+   "company": "NVIDIA",
+   "title": "HelpSteer2 Preference Complementing Ratings",
+   "pages": 28,
+   "arxiv_year": null,
+   "extract_lines": 2125
+  },
+  {
+   "stem": "NVIDIA-HelpSteer2_Open_Source_Dataset",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-HelpSteer2_Open_Source_Dataset.md",
+   "company": "NVIDIA",
+   "title": "HelpSteer2 Open Source Dataset",
+   "pages": 27,
+   "arxiv_year": null,
+   "extract_lines": 1975
+  },
+  {
+   "stem": "NVIDIA-HelpSteer_Multi-attribute_Helpfulness_Dataset",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-HelpSteer_Multi-attribute_Helpfulness_Dataset.md",
+   "company": "NVIDIA",
+   "title": "HelpSteer Multi attribute Helpfulness Dataset",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 1532
+  },
+  {
+   "stem": "NVIDIA-Llama-Nemotron-Efficient-Reasoning-Models",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Llama-Nemotron-Efficient-Reasoning-Models.md",
+   "company": "NVIDIA",
+   "title": "Llama Nemotron Efficient Reasoning Models",
+   "pages": 24,
+   "arxiv_year": null,
+   "extract_lines": 1474
+  },
+  {
+   "stem": "NVIDIA-Megatron-LM_Training_Multi-Billion_Parameter_Language_Models",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Megatron-LM_Training_Multi-Billion_Parameter_Language_Models.md",
+   "company": "NVIDIA",
+   "title": "Megatron LM Training Multi Billion Parameter Language Models",
+   "pages": 15,
+   "arxiv_year": null,
+   "extract_lines": 1644
+  },
+  {
+   "stem": "NVIDIA-Megatron-Turing_NLG_530B",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Megatron-Turing_NLG_530B.md",
+   "company": "NVIDIA",
+   "title": "Megatron Turing NLG 530B",
+   "pages": 44,
+   "arxiv_year": null,
+   "extract_lines": 2530
+  },
+  {
+   "stem": "NVIDIA-NVLM_1.0_Multimodal_Model",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-NVLM_1.0_Multimodal_Model.md",
+   "company": "NVIDIA",
+   "title": "NVLM 1.0 Multimodal Model",
+   "pages": 33,
+   "arxiv_year": null,
+   "extract_lines": 2824
+  },
+  {
+   "stem": "NVIDIA-Nemotron-3-Efficient-Open-Intelligence",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Nemotron-3-Efficient-Open-Intelligence.md",
+   "company": "NVIDIA",
+   "title": "Nemotron 3 Efficient Open Intelligence",
+   "pages": 13,
+   "arxiv_year": null,
+   "extract_lines": 883
+  },
+  {
+   "stem": "NVIDIA-Nemotron-3-Nano-Technical-Report",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Nemotron-3-Nano-Technical-Report.md",
+   "company": "NVIDIA",
+   "title": "Nemotron 3 Nano Technical Report",
+   "pages": 40,
+   "arxiv_year": null,
+   "extract_lines": 2561
+  },
+  {
+   "stem": "NVIDIA-Nemotron-3-Nano-arXiv",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Nemotron-3-Nano-arXiv.md",
+   "company": "NVIDIA",
+   "title": "Nemotron 3 Nano arXiv",
+   "pages": 40,
+   "arxiv_year": null,
+   "extract_lines": 2562
+  },
+  {
+   "stem": "NVIDIA-Nemotron-3-White-Paper",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Nemotron-3-White-Paper.md",
+   "company": "NVIDIA",
+   "title": "Nemotron 3 White Paper",
+   "pages": 13,
+   "arxiv_year": null,
+   "extract_lines": 882
+  },
+  {
+   "stem": "NVIDIA-Nemotron-4_340B_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Nemotron-4_340B_Technical_Report.md",
+   "company": "NVIDIA",
+   "title": "Nemotron 4 340B Technical Report",
+   "pages": 34,
+   "arxiv_year": null,
+   "extract_lines": 1893
+  },
+  {
+   "stem": "NVIDIA-Nemotron-Cascade-Scaling-Cascaded-RL",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Nemotron-Cascade-Scaling-Cascaded-RL.md",
+   "company": "NVIDIA",
+   "title": "Nemotron Cascade Scaling Cascaded RL",
+   "pages": 60,
+   "arxiv_year": null,
+   "extract_lines": 6375
+  },
+  {
+   "stem": "NVIDIA-Nemotron-H-Accurate-Efficient-Models",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Nemotron-H-Accurate-Efficient-Models.md",
+   "company": "NVIDIA",
+   "title": "Nemotron H Accurate Efficient Models",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 2253
+  },
+  {
+   "stem": "NVIDIA-Nemotron-Parse_Document_Parsing",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Nemotron-Parse_Document_Parsing.md",
+   "company": "NVIDIA",
+   "title": "Nemotron Parse Document Parsing",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 902
+  },
+  {
+   "stem": "NVIDIA-Nemotron_3_Hybrid_Mamba_Transformer_MoE",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-Nemotron_3_Hybrid_Mamba_Transformer_MoE.md",
+   "company": "NVIDIA",
+   "title": "Nemotron 3 Hybrid Mamba Transformer MoE",
+   "pages": 13,
+   "arxiv_year": null,
+   "extract_lines": 883
+  },
+  {
+   "stem": "NVIDIA-ProRL-Prolonged-Reinforcement-Learning",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-ProRL-Prolonged-Reinforcement-Learning.md",
+   "company": "NVIDIA",
+   "title": "ProRL Prolonged Reinforcement Learning",
+   "pages": 26,
+   "arxiv_year": null,
+   "extract_lines": 5101
+  },
+  {
+   "stem": "NVIDIA-RLP-Reinforcement-Pretraining-Objective",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-RLP-Reinforcement-Pretraining-Objective.md",
+   "company": "NVIDIA",
+   "title": "RLP Reinforcement Pretraining Objective",
+   "pages": 18,
+   "arxiv_year": null,
+   "extract_lines": 1748
+  },
+  {
+   "stem": "NVIDIA-SteerLM_Attribute_Conditioned_SFT",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-SteerLM_Attribute_Conditioned_SFT.md",
+   "company": "NVIDIA",
+   "title": "SteerLM Attribute Conditioned SFT",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 1510
+  },
+  {
+   "stem": "NVIDIA-World-Simulation-Video-Foundation-Models",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-World-Simulation-Video-Foundation-Models.md",
+   "company": "NVIDIA",
+   "title": "World Simulation Video Foundation Models",
+   "pages": 44,
+   "arxiv_year": null,
+   "extract_lines": 2713
+  },
+  {
+   "stem": "OpenAI-clip-learning-transferable-visual-models",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-clip-learning-transferable-visual-models.md",
+   "company": "OpenAI",
+   "title": "clip learning transferable visual models",
+   "pages": 48,
+   "arxiv_year": null,
+   "extract_lines": 6692
+  },
+  {
+   "stem": "OpenAI-codex-evaluating-large-language-models-on-code",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-codex-evaluating-large-language-models-on-code.md",
+   "company": "OpenAI",
+   "title": "codex evaluating large language models on code",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 3653
+  },
+  {
+   "stem": "OpenAI-competitive-programming-large-reasoning-models-arxiv-2502.06807",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-competitive-programming-large-reasoning-models-arxiv-2502.06807.md",
+   "company": "OpenAI",
+   "title": "competitive programming large reasoning models arxiv 2502.06807",
+   "pages": 48,
+   "arxiv_year": null,
+   "extract_lines": 3302
+  },
+  {
+   "stem": "OpenAI-constitutional-ai-harmlessness",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-constitutional-ai-harmlessness.md",
+   "company": "OpenAI",
+   "title": "constitutional ai harmlessness",
+   "pages": 34,
+   "arxiv_year": null,
+   "extract_lines": 2048
+  },
+  {
+   "stem": "OpenAI-dall-e-2-hierarchical-text-conditional-arxiv-2204.06125",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dall-e-2-hierarchical-text-conditional-arxiv-2204.06125.md",
+   "company": "OpenAI",
+   "title": "dall e 2 hierarchical text conditional arxiv 2204.06125",
+   "pages": 27,
+   "arxiv_year": null,
+   "extract_lines": 1125
+  },
+  {
+   "stem": "OpenAI-dall-e-2-hierarchical-text-conditional",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dall-e-2-hierarchical-text-conditional.md",
+   "company": "OpenAI",
+   "title": "dall e 2 hierarchical text conditional",
+   "pages": 27,
+   "arxiv_year": null,
+   "extract_lines": 1125
+  },
+  {
+   "stem": "OpenAI-dall-e-3-arabic-script-arxiv-2502.20459",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dall-e-3-arabic-script-arxiv-2502.20459.md",
+   "company": "OpenAI",
+   "title": "dall e 3 arabic script arxiv 2502.20459",
+   "pages": 8,
+   "arxiv_year": null,
+   "extract_lines": 912
+  },
+  {
+   "stem": "OpenAI-dall-e-3-arxiv-2309.16609",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dall-e-3-arxiv-2309.16609.md",
+   "company": "OpenAI",
+   "title": "dall e 3 arxiv 2309.16609",
+   "pages": 59,
+   "arxiv_year": null,
+   "extract_lines": 4623
+  },
+  {
+   "stem": "OpenAI-dall-e-3-designbench-arxiv-2310.15144",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dall-e-3-designbench-arxiv-2310.15144.md",
+   "company": "OpenAI",
+   "title": "dall e 3 designbench arxiv 2310.15144",
+   "pages": 129,
+   "arxiv_year": null,
+   "extract_lines": 4476
+  },
+  {
+   "stem": "OpenAI-dall-e-3-improving-image-generation",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dall-e-3-improving-image-generation.md",
+   "company": "OpenAI",
+   "title": "dall e 3 improving image generation",
+   "pages": 19,
+   "arxiv_year": null,
+   "extract_lines": 1041
+  },
+  {
+   "stem": "OpenAI-dall-e-3-style-transfer-arxiv-2412.05325",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dall-e-3-style-transfer-arxiv-2412.05325.md",
+   "company": "OpenAI",
+   "title": "dall e 3 style transfer arxiv 2412.05325",
+   "pages": 7,
+   "arxiv_year": null,
+   "extract_lines": 434
+  },
+  {
+   "stem": "OpenAI-dall-e-3-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dall-e-3-system-card.md",
+   "company": "OpenAI",
+   "title": "dall e 3 system card",
+   "pages": 22,
+   "arxiv_year": null,
+   "extract_lines": 874
+  },
+  {
+   "stem": "OpenAI-dall-e-creating-images-from-text",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dall-e-creating-images-from-text.md",
+   "company": "OpenAI",
+   "title": "dall e creating images from text",
+   "pages": 20,
+   "arxiv_year": null,
+   "extract_lines": 1257
+  },
+  {
+   "stem": "OpenAI-deep-research-system-card-february-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-deep-research-system-card-february-2025.md",
+   "company": "OpenAI",
+   "title": "deep research system card february 2025",
+   "pages": 36,
+   "arxiv_year": null,
+   "extract_lines": 1609
+  },
+  {
+   "stem": "OpenAI-deliberative-alignment-arxiv-2412.16720",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-deliberative-alignment-arxiv-2412.16720.md",
+   "company": "OpenAI",
+   "title": "deliberative alignment arxiv 2412.16720",
+   "pages": 52,
+   "arxiv_year": null,
+   "extract_lines": 2586
+  },
+  {
+   "stem": "OpenAI-dpo-direct-preference-optimization",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dpo-direct-preference-optimization.md",
+   "company": "OpenAI",
+   "title": "dpo direct preference optimization",
+   "pages": 27,
+   "arxiv_year": null,
+   "extract_lines": 2023
+  },
+  {
+   "stem": "OpenAI-glide-text-guided-diffusion",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-glide-text-guided-diffusion.md",
+   "company": "OpenAI",
+   "title": "glide text guided diffusion",
+   "pages": 20,
+   "arxiv_year": null,
+   "extract_lines": 1420
+  },
+  {
+   "stem": "OpenAI-gpt-1-improving-language-understanding",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-1-improving-language-understanding.md",
+   "company": "OpenAI",
+   "title": "gpt 1 improving language understanding",
+   "pages": 12,
+   "arxiv_year": null,
+   "extract_lines": 791
+  },
+  {
+   "stem": "OpenAI-gpt-2-language-models-unsupervised-multitask-learners",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-2-language-models-unsupervised-multitask-learners.md",
+   "company": "OpenAI",
+   "title": "gpt 2 language models unsupervised multitask learners",
+   "pages": 24,
+   "arxiv_year": null,
+   "extract_lines": 2113
+  },
+  {
+   "stem": "OpenAI-gpt-3-language-models-few-shot-learners",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-3-language-models-few-shot-learners.md",
+   "company": "OpenAI",
+   "title": "gpt 3 language models few shot learners",
+   "pages": 75,
+   "arxiv_year": null,
+   "extract_lines": 5639
+  },
+  {
+   "stem": "OpenAI-gpt-4-5-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-5-system-card.md",
+   "company": "OpenAI",
+   "title": "gpt 4 5 system card",
+   "pages": 31,
+   "arxiv_year": null,
+   "extract_lines": 1527
+  },
+  {
+   "stem": "OpenAI-gpt-4-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-system-card.md",
+   "company": "OpenAI",
+   "title": "gpt 4 system card",
+   "pages": 60,
+   "arxiv_year": null,
+   "extract_lines": 2788
+  },
+  {
+   "stem": "OpenAI-gpt-4-technical-report-arxiv-2303.08774",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-technical-report-arxiv-2303.08774.md",
+   "company": "OpenAI",
+   "title": "gpt 4 technical report arxiv 2303.08774",
+   "pages": 100,
+   "arxiv_year": null,
+   "extract_lines": 5779
+  },
+  {
+   "stem": "OpenAI-gpt-4-technical-report-arxiv",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-technical-report-arxiv.md",
+   "company": "OpenAI",
+   "title": "gpt 4 technical report arxiv",
+   "pages": 100,
+   "arxiv_year": null,
+   "extract_lines": 5779
+  },
+  {
+   "stem": "OpenAI-gpt-4-technical-report",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-technical-report.md",
+   "company": "OpenAI",
+   "title": "gpt 4 technical report",
+   "pages": 100,
+   "arxiv_year": null,
+   "extract_lines": 5785
+  },
+  {
+   "stem": "OpenAI-gpt-4.5-system-card-february-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4.5-system-card-february-2025.md",
+   "company": "OpenAI",
+   "title": "gpt 4.5 system card february 2025",
+   "pages": 31,
+   "arxiv_year": null,
+   "extract_lines": 1527
+  },
+  {
+   "stem": "OpenAI-gpt-4o-system-card-arxiv-2410.21276",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4o-system-card-arxiv-2410.21276.md",
+   "company": "OpenAI",
+   "title": "gpt 4o system card arxiv 2410.21276",
+   "pages": 33,
+   "arxiv_year": null,
+   "extract_lines": 1599
+  },
+  {
+   "stem": "OpenAI-gpt-4o-system-card-official",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4o-system-card-official.md",
+   "company": "OpenAI",
+   "title": "gpt 4o system card official",
+   "pages": 33,
+   "arxiv_year": null,
+   "extract_lines": 1598
+  },
+  {
+   "stem": "OpenAI-gpt-4o-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4o-system-card.md",
+   "company": "OpenAI",
+   "title": "gpt 4o system card",
+   "pages": 33,
+   "arxiv_year": null,
+   "extract_lines": 1598
+  },
+  {
+   "stem": "OpenAI-gpt-4v-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4v-system-card.md",
+   "company": "OpenAI",
+   "title": "gpt 4v system card",
+   "pages": 18,
+   "arxiv_year": null,
+   "extract_lines": 605
+  },
+  {
+   "stem": "OpenAI-gpt-4v-vision-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4v-vision-system-card.md",
+   "company": "OpenAI",
+   "title": "gpt 4v vision system card",
+   "pages": 18,
+   "arxiv_year": null,
+   "extract_lines": 606
+  },
+  {
+   "stem": "OpenAI-gpt-5-arxiv-2601.03267",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5-arxiv-2601.03267.md",
+   "company": "OpenAI",
+   "title": "gpt 5 arxiv 2601.03267",
+   "pages": 61,
+   "arxiv_year": null,
+   "extract_lines": 3105
+  },
+  {
+   "stem": "OpenAI-gpt-5-system-card-arxiv-2601.03267",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5-system-card-arxiv-2601.03267.md",
+   "company": "OpenAI",
+   "title": "gpt 5 system card arxiv 2601.03267",
+   "pages": 61,
+   "arxiv_year": null,
+   "extract_lines": 3104
+  },
+  {
+   "stem": "OpenAI-gpt-5-system-card-august-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5-system-card-august-2025.md",
+   "company": "OpenAI",
+   "title": "gpt 5 system card august 2025",
+   "pages": 60,
+   "arxiv_year": null,
+   "extract_lines": 3103
+  },
+  {
+   "stem": "OpenAI-gpt-5-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5-system-card.md",
+   "company": "OpenAI",
+   "title": "gpt 5 system card",
+   "pages": 60,
+   "arxiv_year": null,
+   "extract_lines": 3103
+  },
+  {
+   "stem": "OpenAI-gpt-5.1-codex-max-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5.1-codex-max-card.md",
+   "company": "OpenAI",
+   "title": "gpt 5.1 codex max card",
+   "pages": 27,
+   "arxiv_year": null,
+   "extract_lines": 1229
+  },
+  {
+   "stem": "OpenAI-gpt-5.1-codex-max-model-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5.1-codex-max-model-card.md",
+   "company": "OpenAI",
+   "title": "gpt 5.1 codex max model card",
+   "pages": 27,
+   "arxiv_year": null,
+   "extract_lines": 1229
+  },
+  {
+   "stem": "OpenAI-gpt-5.1-system-card-addendum",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5.1-system-card-addendum.md",
+   "company": "OpenAI",
+   "title": "gpt 5.1 system card addendum",
+   "pages": 5,
+   "arxiv_year": null,
+   "extract_lines": 297
+  },
+  {
+   "stem": "OpenAI-gpt-5.2-system-card-december-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5.2-system-card-december-2025.md",
+   "company": "OpenAI",
+   "title": "gpt 5.2 system card december 2025",
+   "pages": 27,
+   "arxiv_year": null,
+   "extract_lines": 1139
+  },
+  {
+   "stem": "OpenAI-gpt-5.2-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5.2-system-card.md",
+   "company": "OpenAI",
+   "title": "gpt 5.2 system card",
+   "pages": 27,
+   "arxiv_year": null,
+   "extract_lines": 1139
+  },
+  {
+   "stem": "OpenAI-gpt-oss-120b-model-card-arxiv-2508.10925",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-120b-model-card-arxiv-2508.10925.md",
+   "company": "OpenAI",
+   "title": "gpt oss 120b model card arxiv 2508.10925",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 2060
+  },
+  {
+   "stem": "OpenAI-gpt-oss-model-card-arxiv-2508.10925",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-model-card-arxiv-2508.10925.md",
+   "company": "OpenAI",
+   "title": "gpt oss model card arxiv 2508.10925",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 2061
+  },
+  {
+   "stem": "OpenAI-gpt-oss-model-card-arxiv",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-model-card-arxiv.md",
+   "company": "OpenAI",
+   "title": "gpt oss model card arxiv",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 2061
+  },
+  {
+   "stem": "OpenAI-gpt-oss-model-card-august-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-model-card-august-2025.md",
+   "company": "OpenAI",
+   "title": "gpt oss model card august 2025",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 2062
+  },
+  {
+   "stem": "OpenAI-gpt-oss-model-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-model-card.md",
+   "company": "OpenAI",
+   "title": "gpt oss model card",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 2062
+  },
+  {
+   "stem": "OpenAI-image-gpt-generative-pretraining",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-image-gpt-generative-pretraining.md",
+   "company": "OpenAI",
+   "title": "image gpt generative pretraining",
+   "pages": 12,
+   "arxiv_year": null,
+   "extract_lines": 1233
+  },
+  {
+   "stem": "OpenAI-instructgpt-training-language-models-to-follow-instructions",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-instructgpt-training-language-models-to-follow-instructions.md",
+   "company": "OpenAI",
+   "title": "instructgpt training language models to follow instructions",
+   "pages": 68,
+   "arxiv_year": null,
+   "extract_lines": 4547
+  },
+  {
+   "stem": "OpenAI-jukebox-music-generation",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-jukebox-music-generation.md",
+   "company": "OpenAI",
+   "title": "jukebox music generation",
+   "pages": 20,
+   "arxiv_year": null,
+   "extract_lines": 1991
+  },
+  {
+   "stem": "OpenAI-learning-to-summarize-rlhf",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-learning-to-summarize-rlhf.md",
+   "company": "OpenAI",
+   "title": "learning to summarize rlhf",
+   "pages": 45,
+   "arxiv_year": null,
+   "extract_lines": 3564
+  },
+  {
+   "stem": "OpenAI-o1-preview-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-o1-preview-system-card.md",
+   "company": "OpenAI",
+   "title": "o1 preview system card",
+   "pages": 43,
+   "arxiv_year": null,
+   "extract_lines": 2514
+  },
+  {
+   "stem": "OpenAI-o1-system-card-arxiv-2412.16720",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-o1-system-card-arxiv-2412.16720.md",
+   "company": "OpenAI",
+   "title": "o1 system card arxiv 2412.16720",
+   "pages": 52,
+   "arxiv_year": null,
+   "extract_lines": 2586
+  },
+  {
+   "stem": "OpenAI-o1-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-o1-system-card.md",
+   "company": "OpenAI",
+   "title": "o1 system card",
+   "pages": 52,
+   "arxiv_year": null,
+   "extract_lines": 2585
+  },
+  {
+   "stem": "OpenAI-o3-and-o4-mini-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-o3-and-o4-mini-system-card.md",
+   "company": "OpenAI",
+   "title": "o3 and o4 mini system card",
+   "pages": 33,
+   "arxiv_year": null,
+   "extract_lines": 1448
+  },
+  {
+   "stem": "OpenAI-o3-mini-external-safety-testing-arxiv-2501.17749",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-o3-mini-external-safety-testing-arxiv-2501.17749.md",
+   "company": "OpenAI",
+   "title": "o3 mini external safety testing arxiv 2501.17749",
+   "pages": 9,
+   "arxiv_year": null,
+   "extract_lines": 567
+  },
+  {
+   "stem": "OpenAI-o3-mini-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-o3-mini-system-card.md",
+   "company": "OpenAI",
+   "title": "o3 mini system card",
+   "pages": 37,
+   "arxiv_year": null,
+   "extract_lines": 1849
+  },
+  {
+   "stem": "OpenAI-o3-mini-vs-deepseek-r1-safety-arxiv-2501.18438",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-o3-mini-vs-deepseek-r1-safety-arxiv-2501.18438.md",
+   "company": "OpenAI",
+   "title": "o3 mini vs deepseek r1 safety arxiv 2501.18438",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 844
+  },
+  {
+   "stem": "OpenAI-operator-system-card-january-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-operator-system-card-january-2025.md",
+   "company": "OpenAI",
+   "title": "operator system card january 2025",
+   "pages": 17,
+   "arxiv_year": null,
+   "extract_lines": 800
+  },
+  {
+   "stem": "OpenAI-point-e-3d-point-clouds",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-point-e-3d-point-clouds.md",
+   "company": "OpenAI",
+   "title": "point e 3d point clouds",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 1302
+  },
+  {
+   "stem": "OpenAI-scaling-laws-for-neural-language-models",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-scaling-laws-for-neural-language-models.md",
+   "company": "OpenAI",
+   "title": "scaling laws for neural language models",
+   "pages": 30,
+   "arxiv_year": null,
+   "extract_lines": 2477
+  },
+  {
+   "stem": "OpenAI-sora-2-system-card-september-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-sora-2-system-card-september-2025.md",
+   "company": "OpenAI",
+   "title": "sora 2 system card september 2025",
+   "pages": 7,
+   "arxiv_year": null,
+   "extract_lines": 296
+  },
+  {
+   "stem": "OpenAI-sora-geometrical-consistency-arxiv-2402.17403",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-sora-geometrical-consistency-arxiv-2402.17403.md",
+   "company": "OpenAI",
+   "title": "sora geometrical consistency arxiv 2402.17403",
+   "pages": 6,
+   "arxiv_year": null,
+   "extract_lines": 461
+  },
+  {
+   "stem": "OpenAI-sora-governance-challenges-arxiv-2406.11859",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-sora-governance-challenges-arxiv-2406.11859.md",
+   "company": "OpenAI",
+   "title": "sora governance challenges arxiv 2406.11859",
+   "pages": 12,
+   "arxiv_year": null,
+   "extract_lines": 778
+  },
+  {
+   "stem": "OpenAI-sora-world-model-survey-arxiv-2403.05131",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-sora-world-model-survey-arxiv-2403.05131.md",
+   "company": "OpenAI",
+   "title": "sora world model survey arxiv 2403.05131",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 1877
+  },
+  {
+   "stem": "OpenAI-sparks-of-agi-gpt4",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-sparks-of-agi-gpt4.md",
+   "company": "OpenAI",
+   "title": "sparks of agi gpt4",
+   "pages": 155,
+   "arxiv_year": null,
+   "extract_lines": 9587
+  },
+  {
+   "stem": "OpenAI-webgpt-browser-assisted-question-answering",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-webgpt-browser-assisted-question-answering.md",
+   "company": "OpenAI",
+   "title": "webgpt browser assisted question answering",
+   "pages": 32,
+   "arxiv_year": null,
+   "extract_lines": 1879
+  },
+  {
+   "stem": "OpenAI-whisper-robust-speech-recognition",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-whisper-robust-speech-recognition.md",
+   "company": "OpenAI",
+   "title": "whisper robust speech recognition",
+   "pages": 28,
+   "arxiv_year": null,
+   "extract_lines": 5436
+  },
+  {
+   "stem": "Tencent-HY-MT1.5_Machine_Translation",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HY-MT1.5_Machine_Translation.md",
+   "company": "Tencent",
+   "title": "HY MT1.5 Machine Translation",
+   "pages": 13,
+   "arxiv_year": null,
+   "extract_lines": 1067
+  },
+  {
+   "stem": "Tencent-HY-Motion_1.0_Text_to_Motion",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HY-Motion_1.0_Text_to_Motion.md",
+   "company": "Tencent",
+   "title": "HY Motion 1.0 Text to Motion",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 1125
+  },
+  {
+   "stem": "Tencent-HY-World_1.5_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HY-World_1.5_Technical_Report.md",
+   "company": "Tencent",
+   "title": "HY World 1.5 Technical Report",
+   "pages": 20,
+   "arxiv_year": null,
+   "extract_lines": 1266
+  },
+  {
+   "stem": "Tencent-HYMotion_1.0_Text_to_Motion",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HYMotion_1.0_Text_to_Motion.md",
+   "company": "Tencent",
+   "title": "HYMotion 1.0 Text to Motion",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 1125
+  },
+  {
+   "stem": "Tencent-HYWorld-Mirror_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HYWorld-Mirror_Technical_Report.md",
+   "company": "Tencent",
+   "title": "HYWorld Mirror Technical Report",
+   "pages": 19,
+   "arxiv_year": null,
+   "extract_lines": 1624
+  },
+  {
+   "stem": "Tencent-Hunyuan-Large_Open_MoE_Model",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-Hunyuan-Large_Open_MoE_Model.md",
+   "company": "Tencent",
+   "title": "Hunyuan Large Open MoE Model",
+   "pages": 18,
+   "arxiv_year": null,
+   "extract_lines": 1170
+  },
+  {
+   "stem": "Tencent-Hunyuan3D_1.0_Unified_Framework",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-Hunyuan3D_1.0_Unified_Framework.md",
+   "company": "Tencent",
+   "title": "Hunyuan3D 1.0 Unified Framework",
+   "pages": 11,
+   "arxiv_year": null,
+   "extract_lines": 1075
+  },
+  {
+   "stem": "Tencent-Hunyuan3D_2.0_High_Resolution_Assets",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-Hunyuan3D_2.0_High_Resolution_Assets.md",
+   "company": "Tencent",
+   "title": "Hunyuan3D 2.0 High Resolution Assets",
+   "pages": 28,
+   "arxiv_year": null,
+   "extract_lines": 1535
+  },
+  {
+   "stem": "Tencent-Hunyuan3D_2.1_Production_PBR_Material",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-Hunyuan3D_2.1_Production_PBR_Material.md",
+   "company": "Tencent",
+   "title": "Hunyuan3D 2.1 Production PBR Material",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 790
+  },
+  {
+   "stem": "Tencent-Hunyuan3D_2.1_Tutorial_Paper",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-Hunyuan3D_2.1_Tutorial_Paper.md",
+   "company": "Tencent",
+   "title": "Hunyuan3D 2.1 Tutorial Paper",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 790
+  },
+  {
+   "stem": "Tencent-Hunyuan3D_2.5_3D_Asset_Generation",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-Hunyuan3D_2.5_3D_Asset_Generation.md",
+   "company": "Tencent",
+   "title": "Hunyuan3D 2.5 3D Asset Generation",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 783
+  },
+  {
+   "stem": "Tencent-HunyuanDiT_Diffusion_Transformer",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanDiT_Diffusion_Transformer.md",
+   "company": "Tencent",
+   "title": "HunyuanDiT Diffusion Transformer",
+   "pages": 25,
+   "arxiv_year": null,
+   "extract_lines": 797
+  },
+  {
+   "stem": "Tencent-HunyuanDiT_Multi_Resolution_Diffusion",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanDiT_Multi_Resolution_Diffusion.md",
+   "company": "Tencent",
+   "title": "HunyuanDiT Multi Resolution Diffusion",
+   "pages": 25,
+   "arxiv_year": null,
+   "extract_lines": 797
+  },
+  {
+   "stem": "Tencent-HunyuanGameCraft_1.0_Game_Video",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanGameCraft_1.0_Game_Video.md",
+   "company": "Tencent",
+   "title": "HunyuanGameCraft 1.0 Game Video",
+   "pages": 12,
+   "arxiv_year": null,
+   "extract_lines": 1532
+  },
+  {
+   "stem": "Tencent-HunyuanGameCraft_2.0_Interactive",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanGameCraft_2.0_Interactive.md",
+   "company": "Tencent",
+   "title": "HunyuanGameCraft 2.0 Interactive",
+   "pages": 30,
+   "arxiv_year": null,
+   "extract_lines": 2787
+  },
+  {
+   "stem": "Tencent-HunyuanGameCraft_Interactive_Game_Video",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanGameCraft_Interactive_Game_Video.md",
+   "company": "Tencent",
+   "title": "HunyuanGameCraft Interactive Game Video",
+   "pages": 12,
+   "arxiv_year": null,
+   "extract_lines": 1532
+  },
+  {
+   "stem": "Tencent-HunyuanGame_Intelligent_Game_Creation",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanGame_Intelligent_Game_Creation.md",
+   "company": "Tencent",
+   "title": "HunyuanGame Intelligent Game Creation",
+   "pages": 51,
+   "arxiv_year": null,
+   "extract_lines": 2658
+  },
+  {
+   "stem": "Tencent-HunyuanImage_3.0_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanImage_3.0_Technical_Report.md",
+   "company": "Tencent",
+   "title": "HunyuanImage 3.0 Technical Report",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 752
+  },
+  {
+   "stem": "Tencent-HunyuanMT_Machine_Translation",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanMT_Machine_Translation.md",
+   "company": "Tencent",
+   "title": "HunyuanMT Machine Translation",
+   "pages": 18,
+   "arxiv_year": null,
+   "extract_lines": 1633
+  },
+  {
+   "stem": "Tencent-HunyuanOCR_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanOCR_Technical_Report.md",
+   "company": "Tencent",
+   "title": "HunyuanOCR Technical Report",
+   "pages": 36,
+   "arxiv_year": null,
+   "extract_lines": 2468
+  },
+  {
+   "stem": "Tencent-HunyuanProver_Automated_Theorem_Proving",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanProver_Automated_Theorem_Proving.md",
+   "company": "Tencent",
+   "title": "HunyuanProver Automated Theorem Proving",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 849
+  },
+  {
+   "stem": "Tencent-HunyuanProver_Theorem_Proving",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanProver_Theorem_Proving.md",
+   "company": "Tencent",
+   "title": "HunyuanProver Theorem Proving",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 849
+  },
+  {
+   "stem": "Tencent-HunyuanTurboS_Mamba_Transformer",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanTurboS_Mamba_Transformer.md",
+   "company": "Tencent",
+   "title": "HunyuanTurboS Mamba Transformer",
+   "pages": 26,
+   "arxiv_year": null,
+   "extract_lines": 2023
+  },
+  {
+   "stem": "Tencent-HunyuanVideo-Avatar_Audio_Driven_Animation",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanVideo-Avatar_Audio_Driven_Animation.md",
+   "company": "Tencent",
+   "title": "HunyuanVideo Avatar Audio Driven Animation",
+   "pages": 20,
+   "arxiv_year": null,
+   "extract_lines": 1008
+  },
+  {
+   "stem": "Tencent-HunyuanVideo_1.5_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanVideo_1.5_Technical_Report.md",
+   "company": "Tencent",
+   "title": "HunyuanVideo 1.5 Technical Report",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 910
+  },
+  {
+   "stem": "Tencent-HunyuanVideo_Large_Video_Generation_Model",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanVideo_Large_Video_Generation_Model.md",
+   "company": "Tencent",
+   "title": "HunyuanVideo Large Video Generation Model",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 1755
+  },
+  {
+   "stem": "Tencent-HunyuanVideo_Systematic_Framework",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-HunyuanVideo_Systematic_Framework.md",
+   "company": "Tencent",
+   "title": "HunyuanVideo Systematic Framework",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 1755
+  },
+  {
+   "stem": "Tencent-WorldPlay_Interactive_World_Modeling",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-WorldPlay_Interactive_World_Modeling.md",
+   "company": "Tencent",
+   "title": "WorldPlay Interactive World Modeling",
+   "pages": 18,
+   "arxiv_year": null,
+   "extract_lines": 1867
+  },
+  {
+   "stem": "Tencent-iFSQ_Image_Generation",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-iFSQ_Image_Generation.md",
+   "company": "Tencent",
+   "title": "iFSQ Image Generation",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 2259
+  },
+  {
+   "stem": "Tencent-iFSQ_Improving_FSQ_Image_Generation",
+   "extract_path": "PDF Extracts/AI Labs/Tencent-iFSQ_Improving_FSQ_Image_Generation.md",
+   "company": "Tencent",
+   "title": "iFSQ Improving FSQ Image Generation",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 2259
+  },
+  {
+   "stem": "Zhipu AI-AgentBench_2308.03688",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AgentBench_2308.03688.md",
+   "company": "Zhipu AI",
+   "title": "AgentBench 2308.03688",
+   "pages": 58,
+   "arxiv_year": 2023,
+   "extract_lines": 4089
+  },
+  {
+   "stem": "Zhipu AI-AgentRL_2510.04206",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AgentRL_2510.04206.md",
+   "company": "Zhipu AI",
+   "title": "AgentRL 2510.04206",
+   "pages": 24,
+   "arxiv_year": 2025,
+   "extract_lines": 1880
+  },
+  {
+   "stem": "Zhipu AI-AgentTuning_2310.12823",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AgentTuning_2310.12823.md",
+   "company": "Zhipu AI",
+   "title": "AgentTuning 2310.12823",
+   "pages": 31,
+   "arxiv_year": 2023,
+   "extract_lines": 2363
+  },
+  {
+   "stem": "Zhipu AI-AlignBench_2311.18743",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AlignBench_2311.18743.md",
+   "company": "Zhipu AI",
+   "title": "AlignBench 2311.18743",
+   "pages": 20,
+   "arxiv_year": 2023,
+   "extract_lines": 2815
+  },
+  {
+   "stem": "Zhipu AI-AlignMMBench_2406.09295",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AlignMMBench_2406.09295.md",
+   "company": "Zhipu AI",
+   "title": "AlignMMBench 2406.09295",
+   "pages": 18,
+   "arxiv_year": 2024,
+   "extract_lines": 2237
+  },
+  {
+   "stem": "Zhipu AI-AndroidGen_2504.19298",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AndroidGen_2504.19298.md",
+   "company": "Zhipu AI",
+   "title": "AndroidGen 2504.19298",
+   "pages": 22,
+   "arxiv_year": 2025,
+   "extract_lines": 2209
+  },
+  {
+   "stem": "Zhipu AI-AndroidLab_2410.24024",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AndroidLab_2410.24024.md",
+   "company": "Zhipu AI",
+   "title": "AndroidLab 2410.24024",
+   "pages": 22,
+   "arxiv_year": 2024,
+   "extract_lines": 2872
+  },
+  {
+   "stem": "Zhipu AI-AutoGLM_2411.00820",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AutoGLM_2411.00820.md",
+   "company": "Zhipu AI",
+   "title": "AutoGLM 2411.00820",
+   "pages": 10,
+   "arxiv_year": 2024,
+   "extract_lines": 632
+  },
+  {
+   "stem": "Zhipu AI-AutoWebGLM_2404.03648",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AutoWebGLM_2404.03648.md",
+   "company": "Zhipu AI",
+   "title": "AutoWebGLM 2404.03648",
+   "pages": 12,
+   "arxiv_year": 2024,
+   "extract_lines": 1871
+  },
+  {
+   "stem": "Zhipu AI-CaRR_2601.06021",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CaRR_2601.06021.md",
+   "company": "Zhipu AI",
+   "title": "CaRR 2601.06021",
+   "pages": 21,
+   "arxiv_year": 2026,
+   "extract_lines": 2124
+  },
+  {
+   "stem": "Zhipu AI-ChatGLM-Math_2404.02893",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-ChatGLM-Math_2404.02893.md",
+   "company": "Zhipu AI",
+   "title": "ChatGLM Math 2404.02893",
+   "pages": 28,
+   "arxiv_year": 2024,
+   "extract_lines": 2403
+  },
+  {
+   "stem": "Zhipu AI-ChatGLM_Technical_Report_2406.12793",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-ChatGLM_Technical_Report_2406.12793.md",
+   "company": "Zhipu AI",
+   "title": "ChatGLM Technical Report 2406.12793",
+   "pages": 19,
+   "arxiv_year": 2024,
+   "extract_lines": 1615
+  },
+  {
+   "stem": "Zhipu AI-CodeGeeX_2303.17568",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CodeGeeX_2303.17568.md",
+   "company": "Zhipu AI",
+   "title": "CodeGeeX 2303.17568",
+   "pages": 30,
+   "arxiv_year": 2023,
+   "extract_lines": 2730
+  },
+  {
+   "stem": "Zhipu AI-CogAgent_2312.08914",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CogAgent_2312.08914.md",
+   "company": "Zhipu AI",
+   "title": "CogAgent 2312.08914",
+   "pages": 27,
+   "arxiv_year": 2023,
+   "extract_lines": 1944
+  },
+  {
+   "stem": "Zhipu AI-CogCoM_2402.04236",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CogCoM_2402.04236.md",
+   "company": "Zhipu AI",
+   "title": "CogCoM 2402.04236",
+   "pages": 21,
+   "arxiv_year": 2024,
+   "extract_lines": 1900
+  },
+  {
+   "stem": "Zhipu AI-CogDL_2103.00959",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CogDL_2103.00959.md",
+   "company": "Zhipu AI",
+   "title": "CogDL 2103.00959",
+   "pages": 12,
+   "arxiv_year": 2021,
+   "extract_lines": 1797
+  },
+  {
+   "stem": "Zhipu AI-CogVLM2_2408.16500",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CogVLM2_2408.16500.md",
+   "company": "Zhipu AI",
+   "title": "CogVLM2 2408.16500",
+   "pages": 27,
+   "arxiv_year": 2024,
+   "extract_lines": 1864
+  },
+  {
+   "stem": "Zhipu AI-CogVLM_2311.03079",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CogVLM_2311.03079.md",
+   "company": "Zhipu AI",
+   "title": "CogVLM 2311.03079",
+   "pages": 17,
+   "arxiv_year": 2023,
+   "extract_lines": 2021
+  },
+  {
+   "stem": "Zhipu AI-CogVideoX_2408.06072",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CogVideoX_2408.06072.md",
+   "company": "Zhipu AI",
+   "title": "CogVideoX 2408.06072",
+   "pages": 30,
+   "arxiv_year": 2024,
+   "extract_lines": 1408
+  },
+  {
+   "stem": "Zhipu AI-CogVideo_2205.15868",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CogVideo_2205.15868.md",
+   "company": "Zhipu AI",
+   "title": "CogVideo 2205.15868",
+   "pages": 15,
+   "arxiv_year": 2022,
+   "extract_lines": 855
+  },
+  {
+   "stem": "Zhipu AI-CogView2_2204.14217",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CogView2_2204.14217.md",
+   "company": "Zhipu AI",
+   "title": "CogView2 2204.14217",
+   "pages": 15,
+   "arxiv_year": 2022,
+   "extract_lines": 940
+  },
+  {
+   "stem": "Zhipu AI-CogView3_2403.05121",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CogView3_2403.05121.md",
+   "company": "Zhipu AI",
+   "title": "CogView3 2403.05121",
+   "pages": 21,
+   "arxiv_year": 2024,
+   "extract_lines": 1038
+  },
+  {
+   "stem": "Zhipu AI-CogView_2105.13290",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-CogView_2105.13290.md",
+   "company": "Zhipu AI",
+   "title": "CogView 2105.13290",
+   "pages": 21,
+   "arxiv_year": 2021,
+   "extract_lines": 1136
+  },
+  {
+   "stem": "Zhipu AI-ComplexFuncBench_2501.10132",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-ComplexFuncBench_2501.10132.md",
+   "company": "Zhipu AI",
+   "title": "ComplexFuncBench 2501.10132",
+   "pages": 17,
+   "arxiv_year": 2025,
+   "extract_lines": 1899
+  },
+  {
+   "stem": "Zhipu AI-ComputerRL_2508.14040",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-ComputerRL_2508.14040.md",
+   "company": "Zhipu AI",
+   "title": "ComputerRL 2508.14040",
+   "pages": 33,
+   "arxiv_year": 2025,
+   "extract_lines": 1656
+  },
+  {
+   "stem": "Zhipu AI-DataSciBench_2501.18505",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-DataSciBench_2501.18505.md",
+   "company": "Zhipu AI",
+   "title": "DataSciBench 2501.18505",
+   "pages": 11,
+   "arxiv_year": 2025,
+   "extract_lines": 1269
+  },
+  {
+   "stem": "Zhipu AI-DeepDive_2509.10446",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-DeepDive_2509.10446.md",
+   "company": "Zhipu AI",
+   "title": "DeepDive 2509.10446",
+   "pages": 16,
+   "arxiv_year": 2025,
+   "extract_lines": 1467
+  },
+  {
+   "stem": "Zhipu AI-GLM-130B_2210.02414",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-GLM-130B_2210.02414.md",
+   "company": "Zhipu AI",
+   "title": "GLM 130B 2210.02414",
+   "pages": 56,
+   "arxiv_year": 2022,
+   "extract_lines": 4518
+  },
+  {
+   "stem": "Zhipu AI-GLM-4-Voice_2412.02612",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-GLM-4-Voice_2412.02612.md",
+   "company": "Zhipu AI",
+   "title": "GLM 4 Voice 2412.02612",
+   "pages": 14,
+   "arxiv_year": 2024,
+   "extract_lines": 1022
+  },
+  {
+   "stem": "Zhipu AI-GLM-4.5_ARC_2508.06471",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-GLM-4.5_ARC_2508.06471.md",
+   "company": "Zhipu AI",
+   "title": "GLM 4.5 ARC 2508.06471",
+   "pages": 26,
+   "arxiv_year": 2025,
+   "extract_lines": 2160
+  },
+  {
+   "stem": "Zhipu AI-GLM-4.6V_2507.01006",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-GLM-4.6V_2507.01006.md",
+   "company": "Zhipu AI",
+   "title": "GLM 4.6V 2507.01006",
+   "pages": 42,
+   "arxiv_year": 2025,
+   "extract_lines": 2659
+  },
+  {
+   "stem": "Zhipu AI-GLM_Original_2103.10360",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-GLM_Original_2103.10360.md",
+   "company": "Zhipu AI",
+   "title": "GLM Original 2103.10360",
+   "pages": 16,
+   "arxiv_year": 2021,
+   "extract_lines": 2125
+  },
+  {
+   "stem": "Zhipu AI-ImageReward_2304.05977",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-ImageReward_2304.05977.md",
+   "company": "Zhipu AI",
+   "title": "ImageReward 2304.05977",
+   "pages": 33,
+   "arxiv_year": 2023,
+   "extract_lines": 2707
+  },
+  {
+   "stem": "Zhipu AI-Inf-DiT_2405.04312",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-Inf-DiT_2405.04312.md",
+   "company": "Zhipu AI",
+   "title": "Inf DiT 2405.04312",
+   "pages": 24,
+   "arxiv_year": 2024,
+   "extract_lines": 1139
+  },
+  {
+   "stem": "Zhipu AI-LongAlign_2401.18058",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-LongAlign_2401.18058.md",
+   "company": "Zhipu AI",
+   "title": "LongAlign 2401.18058",
+   "pages": 19,
+   "arxiv_year": 2024,
+   "extract_lines": 1688
+  },
+  {
+   "stem": "Zhipu AI-LongBench-v2_2412.15204",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-LongBench-v2_2412.15204.md",
+   "company": "Zhipu AI",
+   "title": "LongBench v2 2412.15204",
+   "pages": 26,
+   "arxiv_year": 2024,
+   "extract_lines": 2551
+  },
+  {
+   "stem": "Zhipu AI-LongBench_2308.14508",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-LongBench_2308.14508.md",
+   "company": "Zhipu AI",
+   "title": "LongBench 2308.14508",
+   "pages": 19,
+   "arxiv_year": 2023,
+   "extract_lines": 2789
+  },
+  {
+   "stem": "Zhipu AI-LongCite_2409.02897",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-LongCite_2409.02897.md",
+   "company": "Zhipu AI",
+   "title": "LongCite 2409.02897",
+   "pages": 24,
+   "arxiv_year": 2024,
+   "extract_lines": 1924
+  },
+  {
+   "stem": "Zhipu AI-LongWriter_2408.07055",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-LongWriter_2408.07055.md",
+   "company": "Zhipu AI",
+   "title": "LongWriter 2408.07055",
+   "pages": 17,
+   "arxiv_year": 2024,
+   "extract_lines": 1542
+  },
+  {
+   "stem": "Zhipu AI-MathGLM-Vision_2409.13729",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-MathGLM-Vision_2409.13729.md",
+   "company": "Zhipu AI",
+   "title": "MathGLM Vision 2409.13729",
+   "pages": 30,
+   "arxiv_year": 2024,
+   "extract_lines": 2990
+  },
+  {
+   "stem": "Zhipu AI-MathGLM_2309.03241",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-MathGLM_2309.03241.md",
+   "company": "Zhipu AI",
+   "title": "MathGLM 2309.03241",
+   "pages": 26,
+   "arxiv_year": 2023,
+   "extract_lines": 2095
+  },
+  {
+   "stem": "Zhipu AI-MobileRL_2509.18119",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-MobileRL_2509.18119.md",
+   "company": "Zhipu AI",
+   "title": "MobileRL 2509.18119",
+   "pages": 25,
+   "arxiv_year": 2025,
+   "extract_lines": 2036
+  },
+  {
+   "stem": "Zhipu AI-NaturalCodeBench_2405.04520",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-NaturalCodeBench_2405.04520.md",
+   "company": "Zhipu AI",
+   "title": "NaturalCodeBench 2405.04520",
+   "pages": 23,
+   "arxiv_year": 2024,
+   "extract_lines": 2446
+  },
+  {
+   "stem": "Zhipu AI-P-tuning-v2_2110.07602",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-P-tuning-v2_2110.07602.md",
+   "company": "Zhipu AI",
+   "title": "P tuning v2 2110.07602",
+   "pages": 8,
+   "arxiv_year": 2021,
+   "extract_lines": 1119
+  },
+  {
+   "stem": "Zhipu AI-P-tuning_2103.10385",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-P-tuning_2103.10385.md",
+   "company": "Zhipu AI",
+   "title": "P tuning 2103.10385",
+   "pages": 10,
+   "arxiv_year": 2021,
+   "extract_lines": 1402
+  },
+  {
+   "stem": "Zhipu AI-ReST-MCTS_2406.03816",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-ReST-MCTS_2406.03816.md",
+   "company": "Zhipu AI",
+   "title": "ReST MCTS 2406.03816",
+   "pages": 38,
+   "arxiv_year": 2024,
+   "extract_lines": 2838
+  },
+  {
+   "stem": "Zhipu AI-RelayDiffusion_2309.03350",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-RelayDiffusion_2309.03350.md",
+   "company": "Zhipu AI",
+   "title": "RelayDiffusion 2309.03350",
+   "pages": 18,
+   "arxiv_year": 2023,
+   "extract_lines": 1213
+  },
+  {
+   "stem": "Zhipu AI-SWE-Dev_2506.07636",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-SWE-Dev_2506.07636.md",
+   "company": "Zhipu AI",
+   "title": "SWE Dev 2506.07636",
+   "pages": 20,
+   "arxiv_year": 2025,
+   "extract_lines": 1952
+  },
+  {
+   "stem": "Zhipu AI-SceneGenAgent_2410.21909",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-SceneGenAgent_2410.21909.md",
+   "company": "Zhipu AI",
+   "title": "SceneGenAgent 2410.21909",
+   "pages": 29,
+   "arxiv_year": 2024,
+   "extract_lines": 3492
+  },
+  {
+   "stem": "Zhipu AI-SciGLM_2401.07950",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-SciGLM_2401.07950.md",
+   "company": "Zhipu AI",
+   "title": "SciGLM 2401.07950",
+   "pages": 31,
+   "arxiv_year": 2024,
+   "extract_lines": 2694
+  },
+  {
+   "stem": "Zhipu AI-Self-Contrast_2404.00228",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-Self-Contrast_2404.00228.md",
+   "company": "Zhipu AI",
+   "title": "Self Contrast 2404.00228",
+   "pages": 15,
+   "arxiv_year": 2024,
+   "extract_lines": 1996
+  },
+  {
+   "stem": "Zhipu AI-TreeRL_2506.11902",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-TreeRL_2506.11902.md",
+   "company": "Zhipu AI",
+   "title": "TreeRL 2506.11902",
+   "pages": 15,
+   "arxiv_year": 2025,
+   "extract_lines": 1951
+  },
+  {
+   "stem": "Zhipu AI-VisionReward_2412.21059",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-VisionReward_2412.21059.md",
+   "company": "Zhipu AI",
+   "title": "VisionReward 2412.21059",
+   "pages": 27,
+   "arxiv_year": 2024,
+   "extract_lines": 3495
+  },
+  {
+   "stem": "Zhipu AI-VisualAgentBench_2408.06327",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-VisualAgentBench_2408.06327.md",
+   "company": "Zhipu AI",
+   "title": "VisualAgentBench 2408.06327",
+   "pages": 40,
+   "arxiv_year": 2024,
+   "extract_lines": 3921
+  },
+  {
+   "stem": "Zhipu AI-WebGLM_2306.07906",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-WebGLM_2306.07906.md",
+   "company": "Zhipu AI",
+   "title": "WebGLM 2306.07906",
+   "pages": 42,
+   "arxiv_year": 2023,
+   "extract_lines": 2426
+  },
+  {
+   "stem": "Zhipu AI-WebRL_2411.02337",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-WebRL_2411.02337.md",
+   "company": "Zhipu AI",
+   "title": "WebRL 2411.02337",
+   "pages": 32,
+   "arxiv_year": 2024,
+   "extract_lines": 2236
+  },
+  {
+   "stem": "xAI-2025-08-20-grok-4-model-card",
+   "extract_path": "PDF Extracts/AI Labs/xAI-2025-08-20-grok-4-model-card.md",
+   "company": "xAI",
+   "title": "2025 08 20 grok 4 model card",
+   "pages": 8,
+   "arxiv_year": null,
+   "extract_lines": 448
+  },
+  {
+   "stem": "xAI-2025-08-26-grok-code-fast-1-model-card",
+   "extract_path": "PDF Extracts/AI Labs/xAI-2025-08-26-grok-code-fast-1-model-card.md",
+   "company": "xAI",
+   "title": "2025 08 26 grok code fast 1 model card",
+   "pages": 6,
+   "arxiv_year": null,
+   "extract_lines": 317
+  },
+  {
+   "stem": "xAI-2025-09-19-grok-4-fast-model-card",
+   "extract_path": "PDF Extracts/AI Labs/xAI-2025-09-19-grok-4-fast-model-card.md",
+   "company": "xAI",
+   "title": "2025 09 19 grok 4 fast model card",
+   "pages": 7,
+   "arxiv_year": null,
+   "extract_lines": 405
+  },
+  {
+   "stem": "xAI-2025-11-17-grok-4-1-model-card",
+   "extract_path": "PDF Extracts/AI Labs/xAI-2025-11-17-grok-4-1-model-card.md",
+   "company": "xAI",
+   "title": "2025 11 17 grok 4 1 model card",
+   "pages": 6,
+   "arxiv_year": null,
+   "extract_lines": 372
+  }
+ ]
+}

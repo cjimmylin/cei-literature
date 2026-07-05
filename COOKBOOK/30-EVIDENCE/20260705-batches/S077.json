@@ -1,0 +1,17 @@
+{
+ "id": "S077",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment",
+   "extract_path": "PDF Extracts/2025/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.md",
+   "extract_lines": 3990
+  },
+  {
+   "stem": "2025-Mining)-Enhancing social media hate speech detection in low-resource",
+   "extract_path": "PDF Extracts/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.md",
+   "extract_lines": 3443
+  }
+ ]
+}

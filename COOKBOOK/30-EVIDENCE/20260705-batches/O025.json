@@ -1,0 +1,22 @@
+{
+ "id": "O025",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Chiu-MoReBench",
+   "extract_path": "PDF Extracts/2025/2025-Chiu-MoReBench.md",
+   "extract_lines": 3715
+  },
+  {
+   "stem": "2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ...",
+   "extract_path": "PDF Extracts/2025/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md",
+   "extract_lines": 1971
+  },
+  {
+   "stem": "2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT",
+   "extract_path": "PDF Extracts/2025/2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.md",
+   "extract_lines": 2642
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "S031",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Chua-AI Safety in Generative AI Large Language Models",
+   "extract_path": "PDF Extracts/2024/2024-Chua-AI Safety in Generative AI Large Language Models.md",
+   "extract_lines": 4236
+  },
+  {
+   "stem": "2024-DAlessandro-Deontology and Safe Artificial Intelligence",
+   "extract_path": "PDF Extracts/2024/2024-DAlessandro-Deontology and Safe Artificial Intelligence.md",
+   "extract_lines": 1423
+  },
+  {
+   "stem": "2024-Dognin-Contextual Moral Value Alignment Through",
+   "extract_path": "PDF Extracts/2024/2024-Dognin-Contextual Moral Value Alignment Through.md",
+   "extract_lines": 584
+  },
+  {
+   "stem": "2024-Elrod-Uncovering Theological and Ethical Biases in",
+   "extract_path": "PDF Extracts/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.md",
+   "extract_lines": 2594
+  }
+ ]
+}

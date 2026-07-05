@@ -1,0 +1,22 @@
+{
+ "id": "O005",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-Han-FFB",
+   "extract_path": "PDF Extracts/2023/2023-Han-FFB.md",
+   "extract_lines": 3335
+  },
+  {
+   "stem": "2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language",
+   "extract_path": "PDF Extracts/2023/2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language.md",
+   "extract_lines": 1328
+  },
+  {
+   "stem": "2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and",
+   "extract_path": "PDF Extracts/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md",
+   "extract_lines": 1466
+  }
+ ]
+}

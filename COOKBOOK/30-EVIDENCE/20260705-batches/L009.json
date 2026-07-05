@@ -1,0 +1,20 @@
+{
+ "id": "L009",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Anthropic-In-context_Reward_Hacking_2402.09656",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-In-context_Reward_Hacking_2402.09656.md",
+   "extract_lines": 2333,
+   "company": "Anthropic",
+   "title": "In context Reward Hacking 2402.09656"
+  },
+  {
+   "stem": "Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388.md",
+   "extract_lines": 4048,
+   "company": "Anthropic",
+   "title": "Language Models Dont Always Say What They Think 2305.04388"
+  }
+ ]
+}

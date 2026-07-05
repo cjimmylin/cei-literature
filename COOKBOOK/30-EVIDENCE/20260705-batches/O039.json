@@ -1,0 +1,17 @@
+{
+ "id": "O039",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified",
+   "extract_path": "PDF Extracts/2025/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.md",
+   "extract_lines": 7416
+  },
+  {
+   "stem": "2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a",
+   "extract_path": "PDF Extracts/2025/2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.md",
+   "extract_lines": 1086
+  }
+ ]
+}

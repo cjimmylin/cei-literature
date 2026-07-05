@@ -1,0 +1,42 @@
+{
+ "id": "S018",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-Catapang-EMoTES-3K",
+   "extract_path": "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md",
+   "extract_lines": 620
+  },
+  {
+   "stem": "2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender",
+   "extract_path": "PDF Extracts/2023/2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.md",
+   "extract_lines": 1910
+  },
+  {
+   "stem": "2023-Davani-Disentangling Perceptions of Offensiveness",
+   "extract_path": "PDF Extracts/2023/2023-Davani-Disentangling Perceptions of Offensiveness.md",
+   "extract_lines": 1622
+  },
+  {
+   "stem": "2023-Deng-Probing the Moral Development of Large Language",
+   "extract_path": "PDF Extracts/2023/2023-Deng-Probing the Moral Development of Large Language.md",
+   "extract_lines": 655
+  },
+  {
+   "stem": "2023-Durmus-Towards Measuring the Representation of",
+   "extract_path": "PDF Extracts/2023/2023-Durmus-Towards Measuring the Representation of.md",
+   "extract_lines": 1542
+  },
+  {
+   "stem": "2023-Feng-Case Repositories",
+   "extract_path": "PDF Extracts/2023/2023-Feng-Case Repositories.md",
+   "extract_lines": 515
+  },
+  {
+   "stem": "2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores",
+   "extract_path": "PDF Extracts/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md",
+   "extract_lines": 1277
+  }
+ ]
+}

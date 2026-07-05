@@ -1,0 +1,37 @@
+{
+ "id": "O023",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large",
+   "extract_path": "PDF Extracts/2025/2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.md",
+   "extract_lines": 3740
+  },
+  {
+   "stem": "2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic",
+   "extract_path": "PDF Extracts/2025/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md",
+   "extract_lines": 1209
+  },
+  {
+   "stem": "2025-Anonymous-BEATS",
+   "extract_path": "PDF Extracts/2025/2025-Anonymous-BEATS.md",
+   "extract_lines": 1832
+  },
+  {
+   "stem": "2025-Bai-Explicitly unbiased large language models still form biased",
+   "extract_path": "PDF Extracts/2025/2025-Bai-Explicitly unbiased large language models still form biased.md",
+   "extract_lines": 985
+  },
+  {
+   "stem": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities",
+   "extract_path": "PDF Extracts/2025/2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md",
+   "extract_lines": 688
+  },
+  {
+   "stem": "2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030",
+   "extract_path": "PDF Extracts/2025/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md",
+   "extract_lines": 310
+  }
+ ]
+}

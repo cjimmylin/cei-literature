@@ -1,0 +1,308 @@
+{
+ "theme": "moral-psychology",
+ "part": 3,
+ "of": 3,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2020-Hoover-Moral Foundations Twitter Corpus",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Hoover-Moral Foundations Twitter Corpus.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Srivastava-A Multi-Dimensional View of Aggression when",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Srivastava-A Multi-Dimensional View of Aggression when.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Ziems-The Moral Integrity Corpus",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Ziems-The Moral Integrity Corpus.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Deng-Probing the Moral Development of Large Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Deng-Probing the Moral Development of Large Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Nie-MoCa",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Nie-MoCa.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Biedma-Beyond Human Norms",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Biedma-Beyond Human Norms.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Garcia-The Moral Turing Test",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Garcia-The Moral Turing Test.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ji-MoralBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ji-MoralBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Khandelwal-Multilingual Defining Issues Test",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Khandelwal-Multilingual Defining Issues Test.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Sadhu-Social Bias in Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Sadhu-Social Bias in Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Takemoto-The moral machine experiment on large language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Takemoto-The moral machine experiment on large language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Yan-M$^3$oralBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Yan-M$^3$oralBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bae-CharMoral",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bae-CharMoral.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Chakraborty-Structured Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Chakraborty-Structured Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Farid-One Model, Many Morals",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Farid-One Model, Many Morals.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Griffiths-Explicitly Unbiased Large Language Models Still",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Griffiths-Explicitly Unbiased Large Language Models Still.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jotautait\u0117-Speciesism in AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jotautait\u0117-Speciesism in AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Leteno-Histoires Morales",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Leteno-Histoires Morales.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Lin-MORALISE",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Lin-MORALISE.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Neuman-Auditing the Ethical Logic of Generative AI Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Neuman-Auditing the Ethical Logic of Generative AI Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-SOCIETY-How Much of a Pluralist is",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-SOCIETY-How Much of a Pluralist is.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Samway-Are Language Models Consequentialist or Deontological",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Samway-Are Language Models Consequentialist or Deontological.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Trager-MFTCXplain",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Trager-MFTCXplain.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zhu-TrolleyBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zhu-TrolleyBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Li-PluriHarms",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Li-PluriHarms.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Flores-BenchMoral",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Flores-BenchMoral.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Sameer-Insights into Moral Reasoning of AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Sameer-Insights into Moral Reasoning of AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-PKU-Visual Distraction Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-PKU-Visual Distraction Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2016-Xu-How Can a Deontological Decision Lead to Moral",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2016-Xu-How Can a Deontological Decision Lead to Moral.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2018-Noothigattu-A Voting-Based System for Ethical Decision Making",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Noothigattu-A Voting-Based System for Ethical Decision Making.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Mainali-Automated Classification of Modes of Moral",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Mainali-Automated Classification of Modes of Moral.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Hagendorff-Virtue-Based Framework for AI Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Hagendorff-Virtue-Based Framework for AI Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Davani-Disentangling Perceptions of Offensiveness",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Davani-Disentangling Perceptions of Offensiveness.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Maile-The choice of deontological, virtue ethical, and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Maile-The choice of deontological, virtue ethical, and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Aksoy-Whose Morality Do They Speak",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Aksoy-Whose Morality Do They Speak.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Cao-The Moral Foundations Weibo Corpus",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Cao-The Moral Foundations Weibo Corpus.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Park-Morality is Non-Binary",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Park-Morality is Non-Binary.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Zangari-A survey on moral foundation theory and pre-trained language models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Zangari-A survey on moral foundation theory and pre-trained language models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Cheung-LLMs Amplified Cognitive Biases Moral",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Cheung-LLMs Amplified Cognitive Biases Moral.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Dillion-AI Language Model Rivals Expert Ethicist",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Dillion-AI Language Model Rivals Expert Ethicist.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Graves-AI Practical Wisdom and Compassion",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Graves-AI Practical Wisdom and Compassion.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Keshmirian-Many LLMs Are More Utilitarian Than One",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Keshmirian-Many LLMs Are More Utilitarian Than One.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Mahajan-Mapping Moral Reasoning in LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Mahajan-Mapping Moral Reasoning in LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zhang-Cognitive Bias in Generative AI Influences",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zhang-Cognitive Bias in Generative AI Influences.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Tagarelli-Culturally Grounded Personas in Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Tagarelli-Culturally Grounded Personas in Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2019-Aliman-Requisite Variety Ethical Utility Functions",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-Aliman-Requisite Variety Ethical Utility Functions.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Hendra-Decoding Moral Responses in AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hendra-Decoding Moral Responses in AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Okamoto-AI-based medical ethics education",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Okamoto-AI-based medical ethics education.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.card.md",
+   "kind": "paper"
+  }
+ ]
+}

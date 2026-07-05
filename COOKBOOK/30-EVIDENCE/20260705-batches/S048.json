@@ -1,0 +1,27 @@
+{
+ "id": "S048",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Stenseke-Computational Complexity of Ethics",
+   "extract_path": "PDF Extracts/2024/2024-Stenseke-Computational Complexity of Ethics.md",
+   "extract_lines": 4732
+  },
+  {
+   "stem": "2024-Sun-Towards Friendly AI",
+   "extract_path": "PDF Extracts/2024/2024-Sun-Towards Friendly AI.md",
+   "extract_lines": 1707
+  },
+  {
+   "stem": "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and",
+   "extract_path": "PDF Extracts/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md",
+   "extract_lines": 1499
+  },
+  {
+   "stem": "2024-Takemoto-The moral machine experiment on large language",
+   "extract_path": "PDF Extracts/2024/2024-Takemoto-The moral machine experiment on large language.md",
+   "extract_lines": 855
+  }
+ ]
+}

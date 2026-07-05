@@ -1,0 +1,20 @@
+{
+ "id": "L012",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459.md",
+   "extract_lines": 1541,
+   "company": "Anthropic",
+   "title": "The Capacity for Moral Self Correction in LLMs 2302.07459"
+  },
+  {
+   "stem": "Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862.md",
+   "extract_lines": 4810,
+   "company": "Anthropic",
+   "title": "Training a Helpful and Harmless Assistant with RLHF 2204.05862"
+  }
+ ]
+}

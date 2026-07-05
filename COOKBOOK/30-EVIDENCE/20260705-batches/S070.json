@@ -1,0 +1,37 @@
+{
+ "id": "S070",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice",
+   "extract_path": "PDF Extracts/2025/2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice.md",
+   "extract_lines": 1524
+  },
+  {
+   "stem": "2025-Institute-2025 AI Safety Index",
+   "extract_path": "PDF Extracts/2025/2025-Institute-2025 AI Safety Index.md",
+   "extract_lines": 115
+  },
+  {
+   "stem": "2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated",
+   "extract_path": "PDF Extracts/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+   "extract_lines": 2493
+  },
+  {
+   "stem": "2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets",
+   "extract_path": "PDF Extracts/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.md",
+   "extract_lines": 1047
+  },
+  {
+   "stem": "2025-Jamshidi-MoCoP",
+   "extract_path": "PDF Extracts/2025/2025-Jamshidi-MoCoP.md",
+   "extract_lines": 899
+  },
+  {
+   "stem": "2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment",
+   "extract_path": "PDF Extracts/2025/2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md",
+   "extract_lines": 2449
+  }
+ ]
+}

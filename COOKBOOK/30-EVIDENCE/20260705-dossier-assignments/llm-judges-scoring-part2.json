@@ -1,0 +1,283 @@
+{
+ "theme": "llm-judges-scoring",
+ "part": 2,
+ "of": 2,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2021-Taul\u00e9-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-Taul\u00e9-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Duan-Denevil",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Duan-Denevil.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Lin-ToxicChat",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Lin-ToxicChat.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-AI-Religious Bias Benchmarks for ChatGPT",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-AI-Religious Bias Benchmarks for ChatGPT.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Group-The AI Safety Benchmark",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Group-The AI Safety Benchmark.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Li-Benchmarking Ethics in Text-to-Image Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Li-Benchmarking Ethics in Text-to-Image Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Liu-JAILJUDGE",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Liu-JAILJUDGE.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-R\u00f6ttger-XSTest",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-R\u00f6ttger-XSTest.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Anonymous-BEATS",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Anonymous-BEATS.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bulla-Large Language Models meet moral values",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bulla-Large Language Models meet moral values.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Fan-FAIRMT-BENCH",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Fan-FAIRMT-BENCH.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Galatolo-Beyond Ethical Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Galatolo-Beyond Ethical Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jin-MedEthicEval",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jin-MedEthicEval.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Ju-NaVAB",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Ju-NaVAB.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Lan-McBE",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Lan-McBE.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Machlovi-GuardEval",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Machlovi-GuardEval.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Mohammadi-EvalMORAAL",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Mohammadi-EvalMORAAL.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Neuman-PRIME Framework Convergent Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Neuman-PRIME Framework Convergent Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Saunders-A Scalable Oversight Benchmark",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Saunders-A Scalable Oversight Benchmark.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Elrod-Uncovering Theological and Ethical Biases in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Elrod-Uncovering Theological and Ethical Biases in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Dillion-AI Language Model Rivals Expert Ethicist",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Dillion-AI Language Model Rivals Expert Ethicist.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zhang-AISafetyLab",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zhang-AISafetyLab.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Reasoning_Models_Dont_Always_Say_What_They_Think",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Reasoning_Models_Dont_Always_Say_What_They_Think.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Google DeepMind-ShieldGemma_arxiv_2407.21772",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Google DeepMind-ShieldGemma_arxiv_2407.21772.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Meta AI-Llama_2_2307.09288",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Meta AI-Llama_2_2307.09288.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "NVIDIA-HelpSteer2-Preference_Complementing_Ratings",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/NVIDIA-HelpSteer2-Preference_Complementing_Ratings.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-deep-research-system-card-february-2025",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-deep-research-system-card-february-2025.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-4-5-system-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-4-5-system-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Zhipu AI-AlignBench_2311.18743",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Zhipu AI-AlignBench_2311.18743.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "xAI-2025-08-20-grok-4-model-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/xAI-2025-08-20-grok-4-model-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "2025-Hendra-Decoding Moral Responses in AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hendra-Decoding Moral Responses in AI.card.md",
+   "kind": "paper"
+  }
+ ]
+}

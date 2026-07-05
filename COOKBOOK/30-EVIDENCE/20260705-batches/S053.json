@@ -1,0 +1,22 @@
+{
+ "id": "S053",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Xie-CultureLLM Incorporating Cultural Differences into Large",
+   "extract_path": "PDF Extracts/2024/2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md",
+   "extract_lines": 3101
+  },
+  {
+   "stem": "2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language",
+   "extract_path": "PDF Extracts/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md",
+   "extract_lines": 3757
+  },
+  {
+   "stem": "2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate",
+   "extract_path": "PDF Extracts/2024/2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate.md",
+   "extract_lines": 1150
+  }
+ ]
+}

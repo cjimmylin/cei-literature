@@ -1,0 +1,17 @@
+{
+ "id": "O007",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-Soemer-Antisemitic Messages A Guide to High-Quality",
+   "extract_path": "PDF Extracts/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.md",
+   "extract_lines": 784
+  },
+  {
+   "stem": "2023-TheDevastator-HelpSteer A-i Alignment Dataset",
+   "extract_path": "PDF Extracts/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md",
+   "extract_lines": 75
+  }
+ ]
+}

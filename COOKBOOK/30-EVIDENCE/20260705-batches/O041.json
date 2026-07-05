@@ -1,0 +1,17 @@
+{
+ "id": "O041",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Narnaware-SB-Bench",
+   "extract_path": "PDF Extracts/2025/2025-Narnaware-SB-Bench.md",
+   "extract_lines": 5318
+  },
+  {
+   "stem": "2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative",
+   "extract_path": "PDF Extracts/2025/2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative.md",
+   "extract_lines": 1673
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "S051",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-University-Monitoring the Evolution of Antisemitic Discourse",
+   "extract_path": "PDF Extracts/2024/2024-University-Monitoring the Evolution of Antisemitic Discourse.md",
+   "extract_lines": 1458
+  },
+  {
+   "stem": "2024-University-Using LLMs to Discover Emerging Coded",
+   "extract_path": "PDF Extracts/2024/2024-University-Using LLMs to Discover Emerging Coded.md",
+   "extract_lines": 1112
+  },
+  {
+   "stem": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including",
+   "extract_path": "PDF Extracts/2024/2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+   "extract_lines": 1019
+  },
+  {
+   "stem": "2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused",
+   "extract_path": "PDF Extracts/2024/2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused.md",
+   "extract_lines": 687
+  },
+  {
+   "stem": "2024-Velankar-SamPar A Marathi Hate Speech Dataset",
+   "extract_path": "PDF Extracts/2024/2024-Velankar-SamPar A Marathi Hate Speech Dataset.md",
+   "extract_lines": 554
+  },
+  {
+   "stem": "2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases",
+   "extract_path": "PDF Extracts/2024/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md",
+   "extract_lines": 2157
+  },
+  {
+   "stem": "2024-Wang-Possibilities and challenges in the moral growth of LLMs",
+   "extract_path": "PDF Extracts/2024/2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+   "extract_lines": 1177
+  },
+  {
+   "stem": "2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models",
+   "extract_path": "PDF Extracts/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md",
+   "extract_lines": 516
+  }
+ ]
+}

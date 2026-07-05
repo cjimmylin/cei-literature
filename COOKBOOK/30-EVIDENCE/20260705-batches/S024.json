@@ -1,0 +1,32 @@
+{
+ "id": "S024",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-Rao-What Makes it Ok to Set a Fire Iterative",
+   "extract_path": "PDF Extracts/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.md",
+   "extract_lines": 2140
+  },
+  {
+   "stem": "2023-Roger-Towards ethical multimodal systems",
+   "extract_path": "PDF Extracts/2023/2023-Roger-Towards ethical multimodal systems.md",
+   "extract_lines": 398
+  },
+  {
+   "stem": "2023-Rystr\u00f8m-Apolitical Intelligence",
+   "extract_path": "PDF Extracts/2023/2023-Rystr\u00f8m-Apolitical Intelligence.md",
+   "extract_lines": 1456
+  },
+  {
+   "stem": "2023-Shen-Large Language Model Alignment",
+   "extract_path": "PDF Extracts/2023/2023-Shen-Large Language Model Alignment.md",
+   "extract_lines": 3584
+  },
+  {
+   "stem": "2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection",
+   "extract_path": "PDF Extracts/2023/2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.md",
+   "extract_lines": 900
+  }
+ ]
+}

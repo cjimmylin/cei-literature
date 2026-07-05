@@ -1,0 +1,32 @@
+{
+ "id": "S091",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path",
+   "extract_path": "PDF Extracts/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md",
+   "extract_lines": 2115
+  },
+  {
+   "stem": "2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in",
+   "extract_path": "PDF Extracts/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md",
+   "extract_lines": 2106
+  },
+  {
+   "stem": "2026-Kolt-Legal Alignment for Safe and Ethical AI",
+   "extract_path": "PDF Extracts/2026/2026-Kolt-Legal Alignment for Safe and Ethical AI.md",
+   "extract_lines": 2175
+  },
+  {
+   "stem": "2026-Nadeem-Bias Beyond Borders",
+   "extract_path": "PDF Extracts/2026/2026-Nadeem-Bias Beyond Borders.md",
+   "extract_lines": 1666
+  },
+  {
+   "stem": "2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias",
+   "extract_path": "PDF Extracts/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.md",
+   "extract_lines": 837
+  }
+ ]
+}

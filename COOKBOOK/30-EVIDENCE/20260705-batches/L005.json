@@ -1,0 +1,13 @@
+{
+ "id": "L005",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Anthropic-Claude_4_Opus_Sonnet_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_4_Opus_Sonnet_System_Card.md",
+   "extract_lines": 4988,
+   "company": "Anthropic",
+   "title": "Claude 4 Opus Sonnet System Card"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "id": "S069",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models",
+   "extract_path": "PDF Extracts/2025/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md",
+   "extract_lines": 10008
+  }
+ ]
+}

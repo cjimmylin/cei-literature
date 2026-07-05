@@ -1,0 +1,37 @@
+{
+ "id": "S055",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-\u0160ekrst-AI Ethics by Design",
+   "extract_path": "PDF Extracts/2024/2024-\u0160ekrst-AI Ethics by Design.md",
+   "extract_lines": 966
+  },
+  {
+   "stem": "2025-Aditya-Toward global ethical frameworks for AI",
+   "extract_path": "PDF Extracts/2025/2025-Aditya-Toward global ethical frameworks for AI.md",
+   "extract_lines": 612
+  },
+  {
+   "stem": "2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed",
+   "extract_path": "PDF Extracts/2025/2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.md",
+   "extract_lines": 2322
+  },
+  {
+   "stem": "2025-Aina-Virtue Ethics by Design",
+   "extract_path": "PDF Extracts/2025/2025-Aina-Virtue Ethics by Design.md",
+   "extract_lines": 411
+  },
+  {
+   "stem": "2025-Ajwad Abrar-Religious Bias Landscape in Language and",
+   "extract_path": "PDF Extracts/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.md",
+   "extract_lines": 1893
+  },
+  {
+   "stem": "2025-Akpobi-Yankari Monolingual Yoruba Dataset",
+   "extract_path": "PDF Extracts/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.md",
+   "extract_lines": 619
+  }
+ ]
+}

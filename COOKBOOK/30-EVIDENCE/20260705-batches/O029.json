@@ -1,0 +1,32 @@
+{
+ "id": "O029",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Hilliard-Measuring AI Alignment with Human Flourishing",
+   "extract_path": "PDF Extracts/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.md",
+   "extract_lines": 2313
+  },
+  {
+   "stem": "2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to",
+   "extract_path": "PDF Extracts/2025/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+   "extract_lines": 1316
+  },
+  {
+   "stem": "2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset",
+   "extract_path": "PDF Extracts/2025/2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.md",
+   "extract_lines": 1890
+  },
+  {
+   "stem": "2025-Huang-Model Editing as a Double-Edged Sword",
+   "extract_path": "PDF Extracts/2025/2025-Huang-Model Editing as a Double-Edged Sword.md",
+   "extract_lines": 1602
+  },
+  {
+   "stem": "2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social",
+   "extract_path": "PDF Extracts/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md",
+   "extract_lines": 907
+  }
+ ]
+}

@@ -1,0 +1,308 @@
+{
+ "theme": "moral-psychology",
+ "part": 2,
+ "of": 3,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2018-Awad-The Moral Machine experiment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Awad-The Moral Machine experiment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Schramowski-The Moral Choice Machine",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Schramowski-The Moral Choice Machine.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2021-Lourie-Scruples",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-Lourie-Scruples.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Trager-The Moral Foundations Reddit Corpus",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Trager-The Moral Foundations Reddit Corpus.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Catapang-EMoTES-3K",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Catapang-EMoTES-3K.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Hopp-The Dutch Moral Foundations Stimulus Database",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Hopp-The Dutch Moral Foundations Stimulus Database.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Bajaj-GenMO Gender-bias in Morality Opinions",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Bajaj-GenMO Gender-bias in Morality Opinions.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Huang-Moral Persuasion in Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Huang-Moral Persuasion in Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Khandelwal-Do Moral Judgment and Reasoning Capability of",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Liu-Evaluating Moral Beliefs across LLMs through a",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Liu-Evaluating Moral Beliefs across LLMs through a.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Qiu-ProgressGym",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Qiu-ProgressGym.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Sorin-Ethical Alignment of LLMs in Healthcare",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Sorin-Ethical Alignment of LLMs in Healthcare.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bulla-Large Language Models meet moral values",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bulla-Large Language Models meet moral values.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Chiu-MoReBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Chiu-MoReBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Gao-MIST Moral Inference through Storytelling with Text and Images",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Huang-Model Editing as a Double-Edged Sword",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Huang-Model Editing as a Double-Edged Sword.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jiao-LLM Ethics Benchmark",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jiao-LLM Ethics Benchmark.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kumar-Are Rules Meant to be Broken",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kumar-Are Rules Meant to be Broken.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Li-Analyzing Cognitive Differences Among Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Li-Analyzing Cognitive Differences Among Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Mohammadi-EvalMORAAL",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Mohammadi-EvalMORAAL.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Russo-The Pluralistic Moral Gap",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Russo-The Pluralistic Moral Gap.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zhou-Moral Reasoning Across Languages",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zhou-Moral Reasoning Across Languages.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Wang-STREAM",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Wang-STREAM.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kumar-UniMoral ACL 2025 Best Resource Paper",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-MoralSycophancy-Moral Sycophancy in VLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-MoralSycophancy-Moral Sycophancy in VLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2016-Holyoak-Deontological coherence",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2016-Holyoak-Deontological coherence.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2018-Crone-The Socio-Moral Image Database (SMID)",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Crone-The Socio-Moral Image Database (SMID).card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Awad-Universals and variations in moral decisions made",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Awad-Universals and variations in moral decisions made.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Fraser-Does Moral Code Have a Moral Code",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Fraser-Does Moral Code Have a Moral Code.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Benkler-Assessing LLMs for Moral Value Pluralism",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Benkler-Assessing LLMs for Moral Value Pluralism.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-K\u00f6rner-Deontology and Utilitarianism in Real Life",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-K\u00f6rner-Deontology and Utilitarianism in Real Life.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Abdulhai-Moral Foundations of Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Abdulhai-Moral Foundations of Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Karpov-Inducing Human-like Biases in Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ober-Lyceum Project AI Ethics Aristotle",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ober-Lyceum Project AI Ethics Aristotle.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Stenseke-Computational Complexity of Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Stenseke-Computational Complexity of Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Wang-Possibilities and challenges in the moral growth of LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Wang-Possibilities and challenges in the moral growth of LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bryan-Virtue Ethics and Postponing Human Extinction",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bryan-Virtue Ethics and Postponing Human Extinction.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Dickerson-Who Gets the Kidney",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Dickerson-Who Gets the Kidney.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-El Masri-Towards Attuned AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-El Masri-Towards Attuned AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Liu-Diagnosing Moral Reasoning Acquisition in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Liu-Diagnosing Moral Reasoning Acquisition in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Pipitone-Unlocking practical wisdom",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Pipitone-Unlocking practical wisdom.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Yuan-Probabilistic Aggregation and Targeted Embedding",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Yun-VAPT Value-Alignment Perception Toolkit",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Yun-VAPT Value-Alignment Perception Toolkit.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-MaqasidAI-Maqasid Al-Shariah Age of AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-MaqasidAI-Maqasid Al-Shariah Age of AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Nadeem-Ethical Decision-Making in Humans and Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Nadeem-Ethical Decision-Making in Humans and Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Hendricks-LLMs Fuel Extremist Attitudes Moral Framings",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Hendricks-LLMs Fuel Extremist Attitudes Moral Framings.card.md",
+   "kind": "paper"
+  }
+ ]
+}

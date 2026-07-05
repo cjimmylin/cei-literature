@@ -1,0 +1,32 @@
+{
+ "id": "O046",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Sah-FairEval Evaluating Fairness in LLM-Based ...",
+   "extract_path": "PDF Extracts/2025/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....md",
+   "extract_lines": 2485
+  },
+  {
+   "stem": "2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for",
+   "extract_path": "PDF Extracts/2025/2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for.md",
+   "extract_lines": 1377
+  },
+  {
+   "stem": "2025-Satheesh-GG-BBQ",
+   "extract_path": "PDF Extracts/2025/2025-Satheesh-GG-BBQ.md",
+   "extract_lines": 1256
+  },
+  {
+   "stem": "2025-Saunders-A Scalable Oversight Benchmark",
+   "extract_path": "PDF Extracts/2025/2025-Saunders-A Scalable Oversight Benchmark.md",
+   "extract_lines": 778
+  },
+  {
+   "stem": "2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety",
+   "extract_path": "PDF Extracts/2025/2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md",
+   "extract_lines": 2493
+  }
+ ]
+}

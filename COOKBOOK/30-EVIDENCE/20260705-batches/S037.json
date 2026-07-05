@@ -1,0 +1,27 @@
+{
+ "id": "S037",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Hossein-ParsOffensive Persian Offensive Comments Dataset",
+   "extract_path": "PDF Extracts/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.md",
+   "extract_lines": 910
+  },
+  {
+   "stem": "2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and",
+   "extract_path": "PDF Extracts/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.md",
+   "extract_lines": 4706
+  },
+  {
+   "stem": "2024-Huang-Collective Constitutional AI Aligning a Language Model with Public",
+   "extract_path": "PDF Extracts/2024/2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.md",
+   "extract_lines": 2117
+  },
+  {
+   "stem": "2024-Huang-Moral Persuasion in Large Language Models",
+   "extract_path": "PDF Extracts/2024/2024-Huang-Moral Persuasion in Large Language Models.md",
+   "extract_lines": 822
+  }
+ ]
+}

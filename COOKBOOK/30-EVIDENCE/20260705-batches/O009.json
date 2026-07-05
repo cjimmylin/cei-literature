@@ -1,0 +1,32 @@
+{
+ "id": "O009",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-AI-Religious Bias Benchmarks for ChatGPT",
+   "extract_path": "PDF Extracts/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+   "extract_lines": 1811
+  },
+  {
+   "stem": "2024-Arshad-Understanding hate speech",
+   "extract_path": "PDF Extracts/2024/2024-Arshad-Understanding hate speech.md",
+   "extract_lines": 1102
+  },
+  {
+   "stem": "2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said",
+   "extract_path": "PDF Extracts/2024/2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.md",
+   "extract_lines": 1605
+  },
+  {
+   "stem": "2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating",
+   "extract_path": "PDF Extracts/2024/2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating.md",
+   "extract_lines": 967
+  },
+  {
+   "stem": "2024-Defrance-ABCFair",
+   "extract_path": "PDF Extracts/2024/2024-Defrance-ABCFair.md",
+   "extract_lines": 1424
+  }
+ ]
+}

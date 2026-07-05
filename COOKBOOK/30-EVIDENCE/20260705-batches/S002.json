@@ -1,0 +1,17 @@
+{
+ "id": "S002",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2016-Holyoak-Deontological coherence",
+   "extract_path": "PDF Extracts/2016/2016-Holyoak-Deontological coherence.md",
+   "extract_lines": 2843
+  },
+  {
+   "stem": "2016-Xu-How Can a Deontological Decision Lead to Moral",
+   "extract_path": "PDF Extracts/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+   "extract_lines": 1470
+  }
+ ]
+}

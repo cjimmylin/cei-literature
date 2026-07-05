@@ -1,0 +1,32 @@
+{
+ "id": "S072",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Kilov-Discerning What Matters",
+   "extract_path": "PDF Extracts/2025/2025-Kilov-Discerning What Matters.md",
+   "extract_lines": 1103
+  },
+  {
+   "stem": "2025-Kneer-Hard Problem AI Alignment Value Forks",
+   "extract_path": "PDF Extracts/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.md",
+   "extract_lines": 1284
+  },
+  {
+   "stem": "2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification",
+   "extract_path": "PDF Extracts/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.md",
+   "extract_lines": 2756
+  },
+  {
+   "stem": "2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate",
+   "extract_path": "PDF Extracts/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md",
+   "extract_lines": 1446
+  },
+  {
+   "stem": "2025-Leteno-Histoires Morales",
+   "extract_path": "PDF Extracts/2025/2025-Leteno-Histoires Morales.md",
+   "extract_lines": 2241
+  }
+ ]
+}

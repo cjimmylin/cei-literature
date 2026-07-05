@@ -1,0 +1,32 @@
+{
+ "id": "S066",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.",
+   "extract_path": "PDF Extracts/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md",
+   "extract_lines": 3421
+  },
+  {
+   "stem": "2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection",
+   "extract_path": "PDF Extracts/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md",
+   "extract_lines": 1601
+  },
+  {
+   "stem": "2025-Fasching-Inconsistencies in Hate Speech Detection Across",
+   "extract_path": "PDF Extracts/2025/2025-Fasching-Inconsistencies in Hate Speech Detection Across.md",
+   "extract_lines": 1340
+  },
+  {
+   "stem": "2025-Fenech-Borg-The Cultural Gene of Large Language Models",
+   "extract_path": "PDF Extracts/2025/2025-Fenech-Borg-The Cultural Gene of Large Language Models.md",
+   "extract_lines": 1016
+  },
+  {
+   "stem": "2025-Fillies-A novel German TikTok hate speech dataset far-right comments against",
+   "extract_path": "PDF Extracts/2025/2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md",
+   "extract_lines": 1324
+  }
+ ]
+}

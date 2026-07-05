@@ -1,0 +1,22 @@
+{
+ "id": "O022",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Yu-CMoralEval",
+   "extract_path": "PDF Extracts/2024/2024-Yu-CMoralEval.md",
+   "extract_lines": 2929
+  },
+  {
+   "stem": "2024-Zeng-AIR-Bench 2024",
+   "extract_path": "PDF Extracts/2024/2024-Zeng-AIR-Bench 2024.md",
+   "extract_lines": 2198
+  },
+  {
+   "stem": "2024-Zhang-SafetyBench",
+   "extract_path": "PDF Extracts/2024/2024-Zhang-SafetyBench.md",
+   "extract_lines": 1913
+  }
+ ]
+}

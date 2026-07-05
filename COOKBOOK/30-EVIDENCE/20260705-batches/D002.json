@@ -1,0 +1,57 @@
+{
+ "id": "D002",
+ "tier": "sonnet",
+ "mode": "degraded",
+ "papers": [
+  {
+   "stem": "2024-Rashid-Urdu Toxicity Detection A Multi-Stage and",
+   "paper_path": "papers/2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2024-Ribeiro-Machine Ethics Architecture of Virtue",
+   "paper_path": "papers/2024-Ribeiro-Machine Ethics Architecture of Virtue.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification",
+   "paper_path": "papers/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.md",
+   "extract_quality": "thin"
+  },
+  {
+   "stem": "2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach",
+   "paper_path": "papers/2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2024-team-Indic-Bias A Comprehensive Benchmark for Fairness",
+   "paper_path": "papers/2024-team-Indic-Bias A Comprehensive Benchmark for Fairness.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-AbuMusab-Virtue of Artificiality Islamic AI",
+   "paper_path": "papers/2025-AbuMusab-Virtue of Artificiality Islamic AI.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-AlGhazali-Amanah Framework Ethical AI",
+   "paper_path": "papers/2025-AlGhazali-Amanah Framework Ethical AI.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Ali-Islamic Ethics Trusteeship",
+   "paper_path": "papers/2025-Ali-Islamic Ethics Trusteeship.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-DharmaDigital-Dharma in the Digital Age Buddhism AI",
+   "paper_path": "papers/2025-DharmaDigital-Dharma in the Digital Age Buddhism AI.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -",
+   "paper_path": "papers/2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -.md",
+   "extract_quality": "missing"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "S047",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Sharma-TABHATE A Target-based Hate Speech Detection",
+   "extract_path": "PDF Extracts/2024/2024-Sharma-TABHATE A Target-based Hate Speech Detection.md",
+   "extract_lines": 807
+  },
+  {
+   "stem": "2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'",
+   "extract_path": "PDF Extracts/2024/2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.md",
+   "extract_lines": 4037
+  },
+  {
+   "stem": "2024-So-AI Trained on Confucian Analects",
+   "extract_path": "PDF Extracts/2024/2024-So-AI Trained on Confucian Analects.md",
+   "extract_lines": 542
+  },
+  {
+   "stem": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+   "extract_path": "PDF Extracts/2024/2024-So-AI Trained on Confucian Analects.md",
+   "extract_lines": 542
+  },
+  {
+   "stem": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of",
+   "extract_path": "PDF Extracts/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md",
+   "extract_lines": 1029
+  },
+  {
+   "stem": "2024-Sorin-Ethical Alignment of LLMs in Healthcare",
+   "extract_path": "PDF Extracts/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.md",
+   "extract_lines": 971
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "id": "S007",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2020-Gabriel-Artificial Intelligence Values and Alignment",
+   "extract_path": "PDF Extracts/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.md",
+   "extract_lines": 1389
+  },
+  {
+   "stem": "2020-Gehman-RealToxicityPrompts",
+   "extract_path": "PDF Extracts/2020/2020-Gehman-RealToxicityPrompts.md",
+   "extract_lines": 2716
+  },
+  {
+   "stem": "2020-Hoover-Moral Foundations Twitter Corpus",
+   "extract_path": "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md",
+   "extract_lines": 2606
+  },
+  {
+   "stem": "2020-Kumar-Evaluating Aggression Identification in Social",
+   "extract_path": "PDF Extracts/2020/2020-Kumar-Evaluating Aggression Identification in Social.md",
+   "extract_lines": 786
+  },
+  {
+   "stem": "2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained",
+   "extract_path": "PDF Extracts/2020/2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.md",
+   "extract_lines": 1409
+  }
+ ]
+}

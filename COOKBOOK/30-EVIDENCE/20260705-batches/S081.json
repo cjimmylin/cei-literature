@@ -1,0 +1,32 @@
+{
+ "id": "S081",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System",
+   "extract_path": "PDF Extracts/2025/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.md",
+   "extract_lines": 1589
+  },
+  {
+   "stem": "2025-Rodemann-A Statistical Case Against Empirical Human-AI",
+   "extract_path": "PDF Extracts/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.md",
+   "extract_lines": 1964
+  },
+  {
+   "stem": "2025-Sachdeva-Deliberative Dynamics and Value Alignment",
+   "extract_path": "PDF Extracts/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.md",
+   "extract_lines": 2251
+  },
+  {
+   "stem": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas",
+   "extract_path": "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+   "extract_lines": 1531
+  },
+  {
+   "stem": "2025-Sameer-Insights into Moral Reasoning of AI",
+   "extract_path": "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md",
+   "extract_lines": 631
+  }
+ ]
+}

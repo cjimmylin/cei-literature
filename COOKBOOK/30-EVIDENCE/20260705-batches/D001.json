@@ -1,0 +1,57 @@
+{
+ "id": "D001",
+ "tier": "sonnet",
+ "mode": "degraded",
+ "papers": [
+  {
+   "stem": "2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting",
+   "paper_path": "papers/2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2021-DaoistAI-Can a Machine Flow Like Dao",
+   "paper_path": "papers/2021-DaoistAI-Can a Machine Flow Like Dao.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2022-IslamicVirtue-Islamic Virtue-Based Ethics for AI",
+   "paper_path": "papers/2022-IslamicVirtue-Islamic Virtue-Based Ethics for AI.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2022-Unknown-HOTTEST Hate and Offensive Content Identification",
+   "paper_path": "papers/2022-Unknown-HOTTEST Hate and Offensive Content Identification.md",
+   "extract_quality": "thin"
+  },
+  {
+   "stem": "2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for",
+   "paper_path": "papers/2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2023-Ty-Impact of AI-Powered Technology on Religious Practices and Ethics The",
+   "paper_path": "papers/2023-Ty-Impact of AI-Powered Technology on Religious Practices and Ethics The.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2024-Khanduja-Telugu Language Hate Speech Detection Using",
+   "paper_path": "papers/2024-Khanduja-Telugu Language Hate Speech Detection Using.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2024-Maity-HateThaiSent Sentiment-Aided Hate Speech Detection in",
+   "paper_path": "papers/2024-Maity-HateThaiSent Sentiment-Aided Hate Speech Detection in.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2024-MaqasidAI-Maqasid Al-Shariah Age of AI",
+   "paper_path": "papers/2024-MaqasidAI-Maqasid Al-Shariah Age of AI.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot",
+   "paper_path": "papers/2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot.md",
+   "extract_quality": "missing"
+  }
+ ]
+}

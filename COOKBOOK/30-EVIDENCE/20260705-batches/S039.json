@@ -1,0 +1,37 @@
+{
+ "id": "S039",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Jin-Language Model Alignment in Multilingual Trolley",
+   "extract_path": "PDF Extracts/2024/2024-Jin-Language Model Alignment in Multilingual Trolley.md",
+   "extract_lines": 2600
+  },
+  {
+   "stem": "2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks",
+   "extract_path": "PDF Extracts/2024/2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.md",
+   "extract_lines": 1567
+  },
+  {
+   "stem": "2024-Kaiyom-HELM Safety",
+   "extract_path": "PDF Extracts/2024/2024-Kaiyom-HELM Safety.md",
+   "extract_lines": 804
+  },
+  {
+   "stem": "2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in",
+   "extract_path": "PDF Extracts/2024/2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.md",
+   "extract_lines": 1360
+  },
+  {
+   "stem": "2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata",
+   "extract_path": "PDF Extracts/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md",
+   "extract_lines": 1304
+  },
+  {
+   "stem": "2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural",
+   "extract_path": "PDF Extracts/2024/2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.md",
+   "extract_lines": 955
+  }
+ ]
+}

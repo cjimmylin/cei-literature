@@ -1,0 +1,13 @@
+{
+ "id": "L016",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Meta AI-Llama_2_2307.09288",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_2_2307.09288.md",
+   "extract_lines": 7242,
+   "company": "Meta AI",
+   "title": "Llama 2 2307.09288"
+  }
+ ]
+}

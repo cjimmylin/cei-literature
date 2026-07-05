@@ -1,0 +1,32 @@
+{
+ "id": "S042",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Liu-Evaluating Moral Beliefs across LLMs through a",
+   "extract_path": "PDF Extracts/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.md",
+   "extract_lines": 2691
+  },
+  {
+   "stem": "2024-Luu-ViTHSD Exploiting Hatred by Targets for Hate Speech Detection on",
+   "extract_path": "PDF Extracts/2024/2024-Luu-ViTHSD Exploiting Hatred by Targets for Hate Speech Detection on.md",
+   "extract_lines": 1629
+  },
+  {
+   "stem": "2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge",
+   "extract_path": "PDF Extracts/2024/2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.md",
+   "extract_lines": 844
+  },
+  {
+   "stem": "2024-Meijer-LLMs as mirrors of societal moral standards reflection of cultural",
+   "extract_path": "PDF Extracts/2024/2024-Meijer-LLMs as mirrors of societal moral standards reflection of cultural.md",
+   "extract_lines": 2470
+  },
+  {
+   "stem": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics",
+   "extract_path": "PDF Extracts/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+   "extract_lines": 1000
+  }
+ ]
+}

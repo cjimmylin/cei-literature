@@ -1,0 +1,17 @@
+{
+ "id": "O037",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety",
+   "extract_path": "PDF Extracts/2025/2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety.md",
+   "extract_lines": 2156
+  },
+  {
+   "stem": "2025-Lin-MORALISE",
+   "extract_path": "PDF Extracts/2025/2025-Lin-MORALISE.md",
+   "extract_lines": 3888
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "S076",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code",
+   "extract_path": "PDF Extracts/2025/2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+   "extract_lines": 4154
+  },
+  {
+   "stem": "2025-Mahajan-Mapping Moral Reasoning in LLMs",
+   "extract_path": "PDF Extracts/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.md",
+   "extract_lines": 1204
+  },
+  {
+   "stem": "2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion",
+   "extract_path": "PDF Extracts/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md",
+   "extract_lines": 764
+  },
+  {
+   "stem": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence",
+   "extract_path": "PDF Extracts/2025/2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+   "extract_lines": 1228
+  }
+ ]
+}

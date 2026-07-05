@@ -1,0 +1,34 @@
+{
+ "id": "L004",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Anthropic-Anthropic_Model_Spec_2025",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Anthropic_Model_Spec_2025.md",
+   "extract_lines": 1027,
+   "company": "Anthropic",
+   "title": "Anthropic Model Spec 2025"
+  },
+  {
+   "stem": "Anthropic-Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315.md",
+   "extract_lines": 2735,
+   "company": "Anthropic",
+   "title": "Challenges of Automated Red Teaming for LLMs 2401.03315"
+  },
+  {
+   "stem": "Anthropic-Claude_3.7_Sonnet_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_3.7_Sonnet_System_Card.md",
+   "extract_lines": 1936,
+   "company": "Anthropic",
+   "title": "Claude 3.7 Sonnet System Card"
+  },
+  {
+   "stem": "Anthropic-Claude_4.1_Opus_System_Card_August_2025",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_4.1_Opus_System_Card_August_2025.md",
+   "extract_lines": 836,
+   "company": "Anthropic",
+   "title": "Claude 4.1 Opus System Card August 2025"
+  }
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "theme": "pluralism-aggregation",
+ "part": 1,
+ "of": 3,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2018-Awad-The Moral Machine experiment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Awad-The Moral Machine experiment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Ziems-The Moral Integrity Corpus",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Ziems-The Moral Integrity Corpus.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Boddington-Normative Ethical Theory AI Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Boddington-Normative Ethical Theory AI Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Rao-Ethical Reasoning over Moral Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Rao-Ethical Reasoning over Moral Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Defrance-ABCFair",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Defrance-ABCFair.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Guldimann-COMPL-AI EU AI Act Compliance",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Guldimann-COMPL-AI EU AI Act Compliance.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Meadows-LocalValueBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Meadows-LocalValueBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Ju-NaVAB",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Ju-NaVAB.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Li-Analyzing Cognitive Differences Among Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Li-Analyzing Cognitive Differences Among Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Neuman-PRIME Framework Convergent Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Neuman-PRIME Framework Convergent Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Wu-CVC",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Wu-CVC.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Li-PluriHarms",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Li-PluriHarms.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Wang-STREAM",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Wang-STREAM.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2018-Noothigattu-A Voting-Based System for Ethical Decision Making",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Noothigattu-A Voting-Based System for Ethical Decision Making.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Gabriel-Artificial Intelligence Values and Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Gabriel-Artificial Intelligence Values and Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Gwagwa-The role of the African value of Ubuntu in global",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Gwagwa-The role of the African value of Ubuntu in global.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Feng-Case Repositories",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Feng-Case Repositories.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Ji-AI Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Ji-AI Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Rystr\u00f8m-Apolitical Intelligence",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Rystr\u00f8m-Apolitical Intelligence.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Arzberger-Nothing Comes Without Its World",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Arzberger-Nothing Comes Without Its World.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Cahyawijaya-High-Dimension Human Value Representation in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Cahyawijaya-High-Dimension Human Value Representation in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Gabriel-The Ethics of Advanced AI Assistants",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Gabriel-The Ethics of Advanced AI Assistants.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Huang-Collective Constitutional AI Aligning a Language Model with Public",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Park-Morality is Non-Binary",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Park-Morality is Non-Binary.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-So-AI Trained on Confucian Analects",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-So-AI Trained on Confucian Analects.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Wilders-Socratic Dialogue for Virtue Ethics in AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Zhi-Xuan-Beyond Preferences in AI Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Benavoli-AI Safety Uncertainty Incomplete Preferences",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Davies-Fairness identification of large language models in recommendation",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Davies-Fairness identification of large language models in recommendation.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Drukker-Concerns and Values in Human-Robot Interactions",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Drukker-Concerns and Values in Human-Robot Interactions.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-LaCroix-Metaethical perspectives on \u2018benchmarking\u2019 AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-LaCroix-Metaethical perspectives on \u2018benchmarking\u2019 AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Nay-Aligning AI Agents with Humans through Law as Information",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Nay-Aligning AI Agents with Humans through Law as Information.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Osei Mensah-Where are the missing values an exploration of the need to",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Osei Mensah-Where are the missing values an exploration of the need to.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Sorensen-Operationalizing Pluralistic Values",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Sorensen-Operationalizing Pluralistic Values.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Vishwanath-Machine Ethics or AI Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Vishwanath-Machine Ethics or AI Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Yaacov-Normative Moral Pluralism for AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Yaacov-Normative Moral Pluralism for AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zohny-ADEPT Simulating Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zohny-ADEPT Simulating Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Kolt-Legal Alignment for Safe and Ethical AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Kolt-Legal Alignment for Safe and Ethical AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2019-Aliman-Requisite Variety Ethical Utility Functions",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-Aliman-Requisite Variety Ethical Utility Functions.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-IslamicVirtue-Islamic Virtue-Based Ethics for AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-IslamicVirtue-Islamic Virtue-Based Ethics for AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Perera-Indigenous Peoples and AI Systematic Review",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Perera-Indigenous Peoples and AI Systematic Review.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-UbuntuAI-AI Ethics Meets Ubuntu Governance",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-UbuntuAI-AI Ethics Meets Ubuntu Governance.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.card.md",
+   "kind": "paper"
+  }
+ ]
+}

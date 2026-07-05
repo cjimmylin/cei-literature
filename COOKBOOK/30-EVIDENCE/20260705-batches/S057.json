@@ -1,0 +1,32 @@
+{
+ "id": "S057",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-An-MoralReason",
+   "extract_path": "PDF Extracts/2025/2025-An-MoralReason.md",
+   "extract_lines": 1018
+  },
+  {
+   "stem": "2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework",
+   "extract_path": "PDF Extracts/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md",
+   "extract_lines": 1096
+  },
+  {
+   "stem": "2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models",
+   "extract_path": "PDF Extracts/2025/2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models.md",
+   "extract_lines": 1512
+  },
+  {
+   "stem": "2025-Backmann-When Ethics and Payoffs Diverge",
+   "extract_path": "PDF Extracts/2025/2025-Backmann-When Ethics and Payoffs Diverge.md",
+   "extract_lines": 2792
+  },
+  {
+   "stem": "2025-Bae-CharMoral",
+   "extract_path": "PDF Extracts/2025/2025-Bae-CharMoral.md",
+   "extract_lines": 1396
+  }
+ ]
+}

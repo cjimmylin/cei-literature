@@ -1,0 +1,273 @@
+{
+ "theme": "best-practices",
+ "part": 4,
+ "of": 4,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2020-Gehman-RealToxicityPrompts",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Gehman-RealToxicityPrompts.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2021-R\u00f6ttger-HateCheck",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-R\u00f6ttger-HateCheck.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Chalkidis-FairLex",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Chalkidis-FairLex.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Han-FFB",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Han-FFB.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Lee-KoSBI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Lee-KoSBI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Soemer-Antisemitic Messages A Guide to High-Quality",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Soemer-Antisemitic Messages A Guide to High-Quality.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Guldimann-COMPL-AI EU AI Act Compliance",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Guldimann-COMPL-AI EU AI Act Compliance.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kirch-TRIAGE",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kirch-TRIAGE.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Luong-Realistic Evaluation of Toxicity in Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Luong-Realistic Evaluation of Toxicity in Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-R\u00f6ttger-XSTest",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-R\u00f6ttger-XSTest.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Vladimirova-FairJob",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Vladimirova-FairJob.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Zhang-SafetyBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Zhang-SafetyBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-An-MoralReason",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-An-MoralReason.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Chakraborty-Structured Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Chakraborty-Structured Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kasu-EthicsMH",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kasu-EthicsMH.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Lin-MORALISE",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Lin-MORALISE.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Hong-PrinciplismQA",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hong-PrinciplismQA.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2021-Wang-MedAI at SemEval-2021 Task 5",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-Wang-MedAI at SemEval-2021 Task 5.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Huang-Collective Constitutional AI Aligning a Language Model with Public",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ren-Safetywashing",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ren-Safetywashing.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Woodgate-Macro Ethics Principles for Responsible AI Systems",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Woodgate-Macro Ethics Principles for Responsible AI Systems.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Akpobi-Yankari Monolingual Yoruba Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Akpobi-Yankari Monolingual Yoruba Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Chared-AI-driven detection of hate speech on social media a case study in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Chared-AI-driven detection of hate speech on social media a case study in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kasirzadeh-Characterizing AI Agents for Alignment and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Liu-The Scales of Justitia",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Liu-The Scales of Justitia.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Priya-Deontic Temporal Logic for AI Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Priya-Deontic Temporal Logic for AI Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Unknown-A survey on multi-lingual offensive language detection - PMC",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Anthropic-A_General_Language_Assistant_as_a_Laboratory_for_Alignment_2112.00861",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-A_General_Language_Assistant_as_a_Laboratory_for_Alignment_2112.00861.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Meta AI-Llama_2_2307.09288",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Meta AI-Llama_2_2307.09288.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-dpo-direct-preference-optimization",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-dpo-direct-preference-optimization.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-o3-and-o4-mini-system-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-o3-and-o4-mini-system-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "2023-Ray-Benchmarking, ethical alignment, and evaluation",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Ray-Benchmarking, ethical alignment, and evaluation.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Hashmi-Enhancing Multilingual Hate Speech Detection From Language-Specific",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hashmi-Enhancing Multilingual Hate Speech Detection From Language-Specific.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Rana-Indigenous Data Sovereignty A Catalyst for Ethical AI in Business",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Rana-Indigenous Data Sovereignty A Catalyst for Ethical AI in Business.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-UbuntuAI-AI Ethics Meets Ubuntu Governance",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-UbuntuAI-AI Ethics Meets Ubuntu Governance.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Anthropic-In-context_Reward_Hacking_2402.09656",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-In-context_Reward_Hacking_2402.09656.card.md",
+   "kind": "lab"
+  }
+ ]
+}

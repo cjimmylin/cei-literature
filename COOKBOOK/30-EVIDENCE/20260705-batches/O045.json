@@ -1,0 +1,32 @@
+{
+ "id": "O045",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in",
+   "extract_path": "PDF Extracts/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.md",
+   "extract_lines": 796
+  },
+  {
+   "stem": "2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and",
+   "extract_path": "PDF Extracts/2025/2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and.md",
+   "extract_lines": 2067
+  },
+  {
+   "stem": "2025-Pourbahman-ELAB",
+   "extract_path": "PDF Extracts/2025/2025-Pourbahman-ELAB.md",
+   "extract_lines": 1245
+  },
+  {
+   "stem": "2025-Russo-The Pluralistic Moral Gap",
+   "extract_path": "PDF Extracts/2025/2025-Russo-The Pluralistic Moral Gap.md",
+   "extract_lines": 1565
+  },
+  {
+   "stem": "2025-SOCIETY-How Much of a Pluralist is",
+   "extract_path": "PDF Extracts/2025/2025-SOCIETY-How Much of a Pluralist is.md",
+   "extract_lines": 1820
+  }
+ ]
+}

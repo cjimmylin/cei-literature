@@ -1,0 +1,32 @@
+{
+ "id": "S027",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Altinok-Gender Bias in Turkish Word Embeddings",
+   "extract_path": "PDF Extracts/2024/2024-Altinok-Gender Bias in Turkish Word Embeddings.md",
+   "extract_lines": 1571
+  },
+  {
+   "stem": "2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus",
+   "extract_path": "PDF Extracts/2024/2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus.md",
+   "extract_lines": 1439
+  },
+  {
+   "stem": "2024-Arzberger-Nothing Comes Without Its World",
+   "extract_path": "PDF Extracts/2024/2024-Arzberger-Nothing Comes Without Its World.md",
+   "extract_lines": 1540
+  },
+  {
+   "stem": "2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation",
+   "extract_path": "PDF Extracts/2024/2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.md",
+   "extract_lines": 2436
+  },
+  {
+   "stem": "2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset",
+   "extract_path": "PDF Extracts/2024/2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md",
+   "extract_lines": 648
+  }
+ ]
+}

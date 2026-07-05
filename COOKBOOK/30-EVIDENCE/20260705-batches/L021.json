@@ -1,0 +1,27 @@
+{
+ "id": "L021",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "OpenAI-gpt-oss-model-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-model-card.md",
+   "extract_lines": 2062,
+   "company": "OpenAI",
+   "title": "gpt oss model card"
+  },
+  {
+   "stem": "OpenAI-gpt-oss-model-card-arxiv-2508.10925",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-model-card-arxiv-2508.10925.md",
+   "extract_lines": 2061,
+   "company": "OpenAI",
+   "title": "gpt oss model card arxiv 2508.10925"
+  },
+  {
+   "stem": "OpenAI-instructgpt-training-language-models-to-follow-instructions",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-instructgpt-training-language-models-to-follow-instructions.md",
+   "extract_lines": 4547,
+   "company": "OpenAI",
+   "title": "instructgpt training language models to follow instructions"
+  }
+ ]
+}

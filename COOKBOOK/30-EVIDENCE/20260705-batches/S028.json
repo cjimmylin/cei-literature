@@ -1,0 +1,37 @@
+{
+ "id": "S028",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Bajaj-GenMO Gender-bias in Morality Opinions",
+   "extract_path": "PDF Extracts/2024/2024-Bajaj-GenMO Gender-bias in Morality Opinions.md",
+   "extract_lines": 1625
+  },
+  {
+   "stem": "2024-Bertram-Comparative Survey of German Hate Speech Datasets Background",
+   "extract_path": "PDF Extracts/2024/2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.md",
+   "extract_lines": 667
+  },
+  {
+   "stem": "2024-Biedma-Beyond Human Norms",
+   "extract_path": "PDF Extracts/2024/2024-Biedma-Beyond Human Norms.md",
+   "extract_lines": 1134
+  },
+  {
+   "stem": "2024-Bignotti-Legal Minds, Algorithmic Decisions",
+   "extract_path": "PDF Extracts/2024/2024-Bignotti-Legal Minds, Algorithmic Decisions.md",
+   "extract_lines": 1606
+  },
+  {
+   "stem": "2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational",
+   "extract_path": "PDF Extracts/2024/2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational.md",
+   "extract_lines": 1515
+  },
+  {
+   "stem": "2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text",
+   "extract_path": "PDF Extracts/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.md",
+   "extract_lines": 724
+  }
+ ]
+}

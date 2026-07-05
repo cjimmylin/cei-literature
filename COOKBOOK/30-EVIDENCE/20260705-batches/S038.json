@@ -1,0 +1,22 @@
+{
+ "id": "S038",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-J. K. Lee-Detecting Bias in Large Language Models Fine-tuned KcBERT",
+   "extract_path": "PDF Extracts/2024/2024-J. K. Lee-Detecting Bias in Large Language Models Fine-tuned KcBERT.md",
+   "extract_lines": 691
+  },
+  {
+   "stem": "2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal",
+   "extract_path": "PDF Extracts/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.md",
+   "extract_lines": 1351
+  },
+  {
+   "stem": "2024-Jiang-WildTeaming at Scale",
+   "extract_path": "PDF Extracts/2024/2024-Jiang-WildTeaming at Scale.md",
+   "extract_lines": 5386
+  }
+ ]
+}

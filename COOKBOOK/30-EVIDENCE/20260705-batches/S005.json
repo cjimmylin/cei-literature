@@ -1,0 +1,32 @@
+{
+ "id": "S005",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2019-Borkan-Nuanced Metrics for Measuring Unintended Bias",
+   "extract_path": "PDF Extracts/2019/2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.md",
+   "extract_lines": 954
+  },
+  {
+   "stem": "2019-De-Arteaga-Bias in Bios",
+   "extract_path": "PDF Extracts/2019/2019-De-Arteaga-Bias in Bios.md",
+   "extract_lines": 1452
+  },
+  {
+   "stem": "2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset",
+   "extract_path": "PDF Extracts/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.md",
+   "extract_lines": 1513
+  },
+  {
+   "stem": "2019-Ibrohim-Multi-label Hate Speech and Abusive Language",
+   "extract_path": "PDF Extracts/2019/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md",
+   "extract_lines": 1366
+  },
+  {
+   "stem": "2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification",
+   "extract_path": "PDF Extracts/2019/2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification.md",
+   "extract_lines": 1432
+  }
+ ]
+}

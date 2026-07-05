@@ -1,0 +1,32 @@
+{
+ "id": "O003",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection",
+   "extract_path": "PDF Extracts/2022/2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.md",
+   "extract_lines": 1312
+  },
+  {
+   "stem": "2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction",
+   "extract_path": "PDF Extracts/2022/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.md",
+   "extract_lines": 1165
+  },
+  {
+   "stem": "2022-Parrish-BBQ Bias Benchmark for Question Answering",
+   "extract_path": "PDF Extracts/2022/2022-Parrish-BBQ Bias Benchmark for Question Answering.md",
+   "extract_lines": 2947
+  },
+  {
+   "stem": "2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of",
+   "extract_path": "PDF Extracts/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md",
+   "extract_lines": 283
+  },
+  {
+   "stem": "2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate",
+   "extract_path": "PDF Extracts/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md",
+   "extract_lines": 1466
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "S073",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Levine-Resource Rational Contractualism Should Guide AI Alignment",
+   "extract_path": "PDF Extracts/2025/2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.md",
+   "extract_lines": 1230
+  },
+  {
+   "stem": "2025-Li-Analyzing Cognitive Differences Among Large",
+   "extract_path": "PDF Extracts/2025/2025-Li-Analyzing Cognitive Differences Among Large.md",
+   "extract_lines": 2481
+  },
+  {
+   "stem": "2025-Li-Untangling Input Language from Reasoning Language A Diagnostic",
+   "extract_path": "PDF Extracts/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md",
+   "extract_lines": 2826
+  },
+  {
+   "stem": "2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits",
+   "extract_path": "PDF Extracts/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.md",
+   "extract_lines": 1435
+  }
+ ]
+}

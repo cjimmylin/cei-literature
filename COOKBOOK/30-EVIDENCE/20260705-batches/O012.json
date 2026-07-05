@@ -1,0 +1,12 @@
+{
+ "id": "O012",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Huang-TrustLLM",
+   "extract_path": "PDF Extracts/2024/2024-Huang-TrustLLM.md",
+   "extract_lines": 10442
+  }
+ ]
+}

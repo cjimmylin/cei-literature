@@ -1,0 +1,27 @@
+{
+ "id": "S079",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in",
+   "extract_path": "PDF Extracts/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.md",
+   "extract_lines": 3399
+  },
+  {
+   "stem": "2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models",
+   "extract_path": "PDF Extracts/2025/2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md",
+   "extract_lines": 1620
+  },
+  {
+   "stem": "2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias",
+   "extract_path": "PDF Extracts/2025/2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.md",
+   "extract_lines": 1686
+  },
+  {
+   "stem": "2025-Oh-Robustness of Large Language Models in Moral Judgements",
+   "extract_path": "PDF Extracts/2025/2025-Oh-Robustness of Large Language Models in Moral Judgements.md",
+   "extract_lines": 1841
+  }
+ ]
+}

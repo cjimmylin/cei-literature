@@ -1,0 +1,37 @@
+{
+ "id": "S014",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2022-Fraser-Does Moral Code Have a Moral Code",
+   "extract_path": "PDF Extracts/2022/2022-Fraser-Does Moral Code Have a Moral Code.md",
+   "extract_lines": 1697
+  },
+  {
+   "stem": "2022-Gwagwa-The role of the African value of Ubuntu in global",
+   "extract_path": "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+   "extract_lines": 806
+  },
+  {
+   "stem": "2022-Hagendorff-Virtue-Based Framework for AI Ethics",
+   "extract_path": "PDF Extracts/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+   "extract_lines": 1241
+  },
+  {
+   "stem": "2022-Hartvigsen-ToxiGen",
+   "extract_path": "PDF Extracts/2022/2022-Hartvigsen-ToxiGen.md",
+   "extract_lines": 2170
+  },
+  {
+   "stem": "2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media",
+   "extract_path": "PDF Extracts/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.md",
+   "extract_lines": 633
+  },
+  {
+   "stem": "2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT",
+   "extract_path": "PDF Extracts/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md",
+   "extract_lines": 770
+  }
+ ]
+}

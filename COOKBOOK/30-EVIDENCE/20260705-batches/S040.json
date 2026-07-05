@@ -1,0 +1,37 @@
+{
+ "id": "S040",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Kaneko-Eagle",
+   "extract_path": "PDF Extracts/2024/2024-Kaneko-Eagle.md",
+   "extract_lines": 1504
+  },
+  {
+   "stem": "2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference",
+   "extract_path": "PDF Extracts/2024/2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference.md",
+   "extract_lines": 1845
+  },
+  {
+   "stem": "2024-Khamassi-Strong and weak alignment of large language models",
+   "extract_path": "PDF Extracts/2024/2024-Khamassi-Strong and weak alignment of large language models.md",
+   "extract_lines": 1849
+  },
+  {
+   "stem": "2024-Khandelwal-Do Moral Judgment and Reasoning Capability of",
+   "extract_path": "PDF Extracts/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md",
+   "extract_lines": 1300
+  },
+  {
+   "stem": "2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs",
+   "extract_path": "PDF Extracts/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md",
+   "extract_lines": 763
+  },
+  {
+   "stem": "2024-Khandelwal-Multilingual Defining Issues Test",
+   "extract_path": "PDF Extracts/2024/2024-Khandelwal-Multilingual Defining Issues Test.md",
+   "extract_lines": 1315
+  }
+ ]
+}

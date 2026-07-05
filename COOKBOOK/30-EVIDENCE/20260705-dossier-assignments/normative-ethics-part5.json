@@ -1,0 +1,298 @@
+{
+ "theme": "normative-ethics",
+ "part": 5,
+ "of": 6,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2019-Ibrohim-Multi-label Hate Speech and Abusive Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Schramowski-The Moral Choice Machine",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Schramowski-The Moral Choice Machine.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Deng-Probing the Moral Development of Large Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Deng-Probing the Moral Development of Large Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Biedma-Beyond Human Norms",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Biedma-Beyond Human Norms.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kaneko-Eagle",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kaneko-Eagle.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Liu-Detecting Anti-Semitic Hate Speech Using Transformer-Based",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Liu-Detecting Anti-Semitic Hate Speech Using Transformer-Based.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Takemoto-The moral machine experiment on large language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Takemoto-The moral machine experiment on large language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bulla-Large Language Models meet moral values",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bulla-Large Language Models meet moral values.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Farid-One Model, Many Morals",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Farid-One Model, Many Morals.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jotautaite-From Stability to Inconsistency",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jotautaite-From Stability to Inconsistency.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kumar-BengaliMoralBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kumar-BengaliMoralBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Neuman-Auditing the Ethical Logic of Generative AI Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Neuman-Auditing the Ethical Logic of Generative AI Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jamshidi-MoCoP",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jamshidi-MoCoP.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-vanNuenen-Fragility of Moral Judgment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-vanNuenen-Fragility of Moral Judgment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2018-Noothigattu-A Voting-Based System for Ethical Decision Making",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Noothigattu-A Voting-Based System for Ethical Decision Making.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Mainali-Automated Classification of Modes of Moral",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Mainali-Automated Classification of Modes of Moral.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Fraser-Does Moral Code Have a Moral Code",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Fraser-Does Moral Code Have a Moral Code.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Sahoo-Detecting Unintended Social Bias in Toxic",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Sahoo-Detecting Unintended Social Bias in Toxic.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Hou-Foundational Moral Values for AI Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Hou-Foundational Moral Values for AI Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-DAlessandro-Deontology and Safe Artificial Intelligence",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-DAlessandro-Deontology and Safe Artificial Intelligence.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Hancox-Li-Is ETHICS about ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Hancox-Li-Is ETHICS about ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Woodgate-Macro Ethics Principles for Responsible AI Systems",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Woodgate-Macro Ethics Principles for Responsible AI Systems.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Brophy-Wide Reflective Equilibrium LLM Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Brophy-Wide Reflective Equilibrium LLM Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Fillies-A novel German TikTok hate speech dataset far-right comments against",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kasirzadeh-Characterizing AI Agents for Alignment and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Mahajan-Mapping Moral Reasoning in LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Mahajan-Mapping Moral Reasoning in LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Umer-Sacred or Secular Religious Bias in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Umer-Sacred or Secular Religious Bias in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Yilma-Ethics of AI in Africa",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Yilma-Ethics of AI in Africa.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-5.2-system-card-december-2025",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-5.2-system-card-december-2025.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "2021-DaoistAI-Can a Machine Flow Like Dao",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-DaoistAI-Can a Machine Flow Like Dao.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Chhabra-Evaluating Computational Models of Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Chhabra-Evaluating Computational Models of Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ribeiro-Machine Ethics Architecture of Virtue",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ribeiro-Machine Ethics Architecture of Virtue.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Nadeem-Ethical Decision-Making in Humans and Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Nadeem-Ethical Decision-Making in Humans and Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Sun-Axiology AI Ethics MCDA",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Sun-Axiology AI Ethics MCDA.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Hendricks-LLMs Fuel Extremist Attitudes Moral Framings",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Hendricks-LLMs Fuel Extremist Attitudes Moral Framings.card.md",
+   "kind": "paper"
+  }
+ ]
+}

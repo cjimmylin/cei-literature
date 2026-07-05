@@ -1,0 +1,28 @@
+{
+ "checked_at": "2026-07-05T14:02:16",
+ "papers": {
+  "expected": 620,
+  "valid": 619,
+  "invalid": 1,
+  "stragglers": 0,
+  "straggler_stems": [],
+  "invalid_details": {
+   "2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ...": [
+    "no page refs in body"
+   ]
+  }
+ },
+ "labs": {
+  "expected": 61,
+  "valid": 57,
+  "invalid": 0,
+  "stragglers": 4,
+  "straggler_stems": [
+   "Anthropic-Sabotage_Evaluations_for_Frontier_Models_2410.13161",
+   "Anthropic-Simple_Probes_Detect_Sycophancy_2406.09569",
+   "Anthropic-Sleeper_Agents_Training_Deceptive_LLMs_2312.00752",
+   "Google DeepMind-Gemini_Safety_arxiv_2403.04312"
+  ],
+  "invalid_details": {}
+ }
+}

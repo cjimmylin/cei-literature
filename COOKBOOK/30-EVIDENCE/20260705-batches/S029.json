@@ -1,0 +1,27 @@
+{
+ "id": "S029",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Cahyawijaya-High-Dimension Human Value Representation in",
+   "extract_path": "PDF Extracts/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.md",
+   "extract_lines": 2935
+  },
+  {
+   "stem": "2024-Cao-The Moral Foundations Weibo Corpus",
+   "extract_path": "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md",
+   "extract_lines": 1547
+  },
+  {
+   "stem": "2024-Chakravarthi-Findings of the Shared Task on",
+   "extract_path": "PDF Extracts/2024/2024-Chakravarthi-Findings of the Shared Task on.md",
+   "extract_lines": 839
+  },
+  {
+   "stem": "2024-Chhabra-Evaluating Computational Models of Ethics",
+   "extract_path": "PDF Extracts/2024/2024-Chhabra-Evaluating Computational Models of Ethics.md",
+   "extract_lines": 467
+  }
+ ]
+}

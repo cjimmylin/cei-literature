@@ -1,0 +1,27 @@
+{
+ "id": "O006",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-Huang-Flames",
+   "extract_path": "PDF Extracts/2023/2023-Huang-Flames.md",
+   "extract_lines": 3864
+  },
+  {
+   "stem": "2023-Lin-ToxicChat",
+   "extract_path": "PDF Extracts/2023/2023-Lin-ToxicChat.md",
+   "extract_lines": 923
+  },
+  {
+   "stem": "2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech",
+   "extract_path": "PDF Extracts/2023/2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech.md",
+   "extract_lines": 1183
+  },
+  {
+   "stem": "2023-Ray-Benchmarking, ethical alignment, and evaluation",
+   "extract_path": "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md",
+   "extract_lines": 2527
+  }
+ ]
+}

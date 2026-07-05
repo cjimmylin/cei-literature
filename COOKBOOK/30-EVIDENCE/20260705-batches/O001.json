@@ -1,0 +1,42 @@
+{
+ "id": "O001",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred",
+   "extract_path": "PDF Extracts/2018/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.md",
+   "extract_lines": 1482
+  },
+  {
+   "stem": "2018-Zhao-Gender Bias in Coreference Resolution",
+   "extract_path": "PDF Extracts/2018/2018-Zhao-Gender Bias in Coreference Resolution.md",
+   "extract_lines": 746
+  },
+  {
+   "stem": "2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection",
+   "extract_path": "PDF Extracts/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.md",
+   "extract_lines": 787
+  },
+  {
+   "stem": "2020-Mathew-HateXplain",
+   "extract_path": "PDF Extracts/2020/2020-Mathew-HateXplain.md",
+   "extract_lines": 1432
+  },
+  {
+   "stem": "2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection",
+   "extract_path": "PDF Extracts/2020/2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.md",
+   "extract_lines": 728
+  },
+  {
+   "stem": "2020-Shekhar-Automating News Comment Moderation with Limited Resources",
+   "extract_path": "PDF Extracts/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.md",
+   "extract_lines": 2537
+  },
+  {
+   "stem": "2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate",
+   "extract_path": "PDF Extracts/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md",
+   "extract_lines": 872
+  }
+ ]
+}

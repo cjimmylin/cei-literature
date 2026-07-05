@@ -1,0 +1,32 @@
+{
+ "id": "S012",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2021-Prabhumoye-Case Study",
+   "extract_path": "PDF Extracts/2021/2021-Prabhumoye-Case Study.md",
+   "extract_lines": 1624
+  },
+  {
+   "stem": "2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification",
+   "extract_path": "PDF Extracts/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.md",
+   "extract_lines": 1158
+  },
+  {
+   "stem": "2021-R\u00f6ttger-HateCheck",
+   "extract_path": "PDF Extracts/2021/2021-R\u00f6ttger-HateCheck.md",
+   "extract_lines": 2208
+  },
+  {
+   "stem": "2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for",
+   "extract_path": "PDF Extracts/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md",
+   "extract_lines": 836
+  },
+  {
+   "stem": "2021-Stenseke-Artificial Virtuous Agents",
+   "extract_path": "PDF Extracts/2021/2021-Stenseke-Artificial Virtuous Agents.md",
+   "extract_lines": 2138
+  }
+ ]
+}

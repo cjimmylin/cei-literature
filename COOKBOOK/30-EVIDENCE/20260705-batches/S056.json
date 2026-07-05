@@ -1,0 +1,22 @@
+{
+ "id": "S056",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large",
+   "extract_path": "PDF Extracts/2025/2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.md",
+   "extract_lines": 3629
+  },
+  {
+   "stem": "2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...",
+   "extract_path": "PDF Extracts/2025/2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....md",
+   "extract_lines": 3629
+  },
+  {
+   "stem": "2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans",
+   "extract_path": "PDF Extracts/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md",
+   "extract_lines": 1433
+  }
+ ]
+}

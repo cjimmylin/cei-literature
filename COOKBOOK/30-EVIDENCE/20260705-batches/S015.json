@@ -1,0 +1,32 @@
+{
+ "id": "S015",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2022-Jeong-KOLD Korean Offensive Language Dataset",
+   "extract_path": "PDF Extracts/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.md",
+   "extract_lines": 1769
+  },
+  {
+   "stem": "2022-Jiang-Can Machines Learn Morality",
+   "extract_path": "PDF Extracts/2022/2022-Jiang-Can Machines Learn Morality.md",
+   "extract_lines": 3987
+  },
+  {
+   "stem": "2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets",
+   "extract_path": "PDF Extracts/2022/2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.md",
+   "extract_lines": 274
+  },
+  {
+   "stem": "2022-Nkemelu-Tackling Hate Speech in Low-resource Languages",
+   "extract_path": "PDF Extracts/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md",
+   "extract_lines": 1350
+  },
+  {
+   "stem": "2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI",
+   "extract_path": "PDF Extracts/2022/2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.md",
+   "extract_lines": 861
+  }
+ ]
+}

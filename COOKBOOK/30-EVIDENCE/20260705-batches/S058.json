@@ -1,0 +1,27 @@
+{
+ "id": "S058",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Bali-How Deep Is Representational Bias in",
+   "extract_path": "PDF Extracts/2025/2025-Bali-How Deep Is Representational Bias in.md",
+   "extract_lines": 2469
+  },
+  {
+   "stem": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI",
+   "extract_path": "PDF Extracts/2025/2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md",
+   "extract_lines": 1835
+  },
+  {
+   "stem": "2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection",
+   "extract_path": "PDF Extracts/2025/2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md",
+   "extract_lines": 1775
+  },
+  {
+   "stem": "2025-Baum-Aggregation Problems in Machine Ethics",
+   "extract_path": "PDF Extracts/2025/2025-Baum-Aggregation Problems in Machine Ethics.md",
+   "extract_lines": 1386
+  }
+ ]
+}

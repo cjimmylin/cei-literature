@@ -1,0 +1,27 @@
+{
+ "id": "S059",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Benavoli-AI Safety Uncertainty Incomplete Preferences",
+   "extract_path": "PDF Extracts/2025/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.md",
+   "extract_lines": 4276
+  },
+  {
+   "stem": "2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP",
+   "extract_path": "PDF Extracts/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.md",
+   "extract_lines": 792
+  },
+  {
+   "stem": "2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate",
+   "extract_path": "PDF Extracts/2025/2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.md",
+   "extract_lines": 1283
+  },
+  {
+   "stem": "2025-Bolatbek-Detection of offensive content in the",
+   "extract_path": "PDF Extracts/2025/2025-Bolatbek-Detection of offensive content in the.md",
+   "extract_lines": 1490
+  }
+ ]
+}

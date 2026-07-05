@@ -1,0 +1,328 @@
+{
+ "theme": "contamination-robustness",
+ "part": 1,
+ "of": 2,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2018-Dixon-Measuring and Mitigating Unintended Bias in Text",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2019-Basile-SemEval-2019 Task 5",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-Basile-SemEval-2019 Task 5.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Shekhar-Automating News Comment Moderation with Limited Resources",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Shekhar-Automating News Comment Moderation with Limited Resources.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2021-R\u00f6ttger-HateCheck",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-R\u00f6ttger-HateCheck.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Duan-Denevil",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Duan-Denevil.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Lin-ToxicChat",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Lin-ToxicChat.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Fitzgerald-Some Issues in Predictive Ethics Modeling",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Fitzgerald-Some Issues in Predictive Ethics Modeling.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Jiang-WildTeaming at Scale",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Jiang-WildTeaming at Scale.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kirch-TRIAGE",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kirch-TRIAGE.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Liu-JAILJUDGE",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Liu-JAILJUDGE.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-R\u00f6ttger-XSTest",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-R\u00f6ttger-XSTest.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Zeng-AIR-Bench 2024",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Zeng-AIR-Bench 2024.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Griffiths-Explicitly Unbiased Large Language Models Still",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Griffiths-Explicitly Unbiased Large Language Models Still.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Herrador-The PacifAIst Benchmark",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Herrador-The PacifAIst Benchmark.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kumar-BengaliMoralBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kumar-BengaliMoralBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Neuman-Auditing the Ethical Logic of Generative AI Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Neuman-Auditing the Ethical Logic of Generative AI Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Sah-FairEval Evaluating Fairness in LLM-Based ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Shen-HateBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Shen-HateBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Wen-Evaluating Implicit Bias in Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Wen-Evaluating Implicit Bias in Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zhu-TrolleyBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zhu-TrolleyBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Rashid-Urdu Toxicity Detection A Multi-Stage and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jamshidi-MoCoP",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jamshidi-MoCoP.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-H\u00e4mmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-H\u00e4mmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ren-Safetywashing",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ren-Safetywashing.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-University-Using LLMs to Discover Emerging Coded",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-University-Using LLMs to Discover Emerging Coded.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Chua-Between a Rock and a Hard Place TRIAL",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Chua-Between a Rock and a Hard Place TRIAL.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Monnar-Cross-lingual hate speech detection using domain-specific word",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Oh-Robustness of Large Language Models in Moral Judgements",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Oh-Robustness of Large Language Models in Moral Judgements.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zhang-AISafetyLab",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zhang-AISafetyLab.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Nadeem-Bias Beyond Borders",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Nadeem-Bias Beyond Borders.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Anthropic-Anthropic_Model_Spec_2025",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Anthropic_Model_Spec_2025.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Claude_Sonnet_4.5_System_Card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Claude_Sonnet_4.5_System_Card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Reasoning_Models_Dont_Always_Say_What_They_Think",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Reasoning_Models_Dont_Always_Say_What_They_Think.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Technical_Report",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Google DeepMind-Gemini_2.5_Technical_Report.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Meta AI-Llama_3_2407.21783",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Meta AI-Llama_3_2407.21783.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-deliberative-alignment-arxiv-2412.16720",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-deliberative-alignment-arxiv-2412.16720.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-4-system-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-4-system-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-oss-model-card-arxiv-2508.10925",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-oss-model-card-arxiv-2508.10925.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-o3-and-o4-mini-system-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-o3-and-o4-mini-system-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-operator-system-card-january-2025",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-operator-system-card-january-2025.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315.card.md",
+   "kind": "lab"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "S032",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Farina-AI and Society Virtue Ethics Approach",
+   "extract_path": "PDF Extracts/2024/2024-Farina-AI and Society Virtue Ethics Approach.md",
+   "extract_lines": 834
+  },
+  {
+   "stem": "2024-Fitzgerald-Some Issues in Predictive Ethics Modeling",
+   "extract_path": "PDF Extracts/2024/2024-Fitzgerald-Some Issues in Predictive Ethics Modeling.md",
+   "extract_lines": 927
+  },
+  {
+   "stem": "2024-Freire-Uncovering Latent Human Wellbeing in Language",
+   "extract_path": "PDF Extracts/2024/2024-Freire-Uncovering Latent Human Wellbeing in Language.md",
+   "extract_lines": 601
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "L014",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_2.5_Technical_Report.md",
+   "extract_lines": 6986,
+   "company": "Google DeepMind",
+   "title": "Gemini 2.5 Technical Report"
+  },
+  {
+   "stem": "Google DeepMind-Gemini_Safety_arxiv_2403.04312",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_Safety_arxiv_2403.04312.md",
+   "extract_lines": 1143,
+   "company": "Google DeepMind",
+   "title": "Gemini Safety arxiv 2403.04312"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "id": "O027",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset",
+   "extract_path": "PDF Extracts/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.md",
+   "extract_lines": 1011
+  },
+  {
+   "stem": "2025-Flores-BenchMoral",
+   "extract_path": "PDF Extracts/2025/2025-Flores-BenchMoral.md",
+   "extract_lines": 649
+  },
+  {
+   "stem": "2025-Galatolo-Beyond Ethical Alignment",
+   "extract_path": "PDF Extracts/2025/2025-Galatolo-Beyond Ethical Alignment.md",
+   "extract_lines": 1836
+  },
+  {
+   "stem": "2025-Galea-From Measurement to Mitigation Exploring the Transferability of",
+   "extract_path": "PDF Extracts/2025/2025-Galea-From Measurement to Mitigation Exploring the Transferability of.md",
+   "extract_lines": 1278
+  },
+  {
+   "stem": "2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in",
+   "extract_path": "PDF Extracts/2025/2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.md",
+   "extract_lines": 1451
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "S022",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-Lee-VisAlign",
+   "extract_path": "PDF Extracts/2023/2023-Lee-VisAlign.md",
+   "extract_lines": 4096
+  },
+  {
+   "stem": "2023-Lu-The Chai Platform's AI Safety Framework",
+   "extract_path": "PDF Extracts/2023/2023-Lu-The Chai Platform's AI Safety Framework.md",
+   "extract_lines": 563
+  },
+  {
+   "stem": "2023-Maile-The choice of deontological, virtue ethical, and",
+   "extract_path": "PDF Extracts/2023/2023-Maile-The choice of deontological, virtue ethical, and.md",
+   "extract_lines": 1256
+  },
+  {
+   "stem": "2023-McDonald-AI alignment and the categorical imperative",
+   "extract_path": "PDF Extracts/2023/2023-McDonald-AI alignment and the categorical imperative.md",
+   "extract_lines": 791
+  },
+  {
+   "stem": "2023-Mougan-Kantian Deontology Meets AI Alignment",
+   "extract_path": "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.md",
+   "extract_lines": 939
+  },
+  {
+   "stem": "2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in",
+   "extract_path": "PDF Extracts/2023/2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.md",
+   "extract_lines": 615
+  }
+ ]
+}

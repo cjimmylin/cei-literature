@@ -1,0 +1,37 @@
+{
+ "id": "S082",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Samway-Are Language Models Consequentialist or Deontological",
+   "extract_path": "PDF Extracts/2025/2025-Samway-Are Language Models Consequentialist or Deontological.md",
+   "extract_lines": 4207
+  },
+  {
+   "stem": "2025-Sanwoolu-Kantian deontology for AI",
+   "extract_path": "PDF Extracts/2025/2025-Sanwoolu-Kantian deontology for AI.md",
+   "extract_lines": 487
+  },
+  {
+   "stem": "2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social",
+   "extract_path": "PDF Extracts/2025/2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.md",
+   "extract_lines": 1191
+  },
+  {
+   "stem": "2025-Schacht-Mapping Moral Reasoning Circuits",
+   "extract_path": "PDF Extracts/2025/2025-Schacht-Mapping Moral Reasoning Circuits.md",
+   "extract_lines": 484
+  },
+  {
+   "stem": "2025-Seker-HATECAT-TR A Hate Speech Span Detection",
+   "extract_path": "PDF Extracts/2025/2025-Seker-HATECAT-TR A Hate Speech Span Detection.md",
+   "extract_lines": 1250
+  },
+  {
+   "stem": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment",
+   "extract_path": "PDF Extracts/2025/2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+   "extract_lines": 1195
+  }
+ ]
+}

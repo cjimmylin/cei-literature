@@ -1,0 +1,22 @@
+{
+ "id": "O048",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for",
+   "extract_path": "PDF Extracts/2025/2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.md",
+   "extract_lines": 2693
+  },
+  {
+   "stem": "2025-Trager-MFTCXplain",
+   "extract_path": "PDF Extracts/2025/2025-Trager-MFTCXplain.md",
+   "extract_lines": 3168
+  },
+  {
+   "stem": "2025-Unknown-A survey on multi-lingual offensive language detection - PMC",
+   "extract_path": "PDF Extracts/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.md",
+   "extract_lines": 2952
+  }
+ ]
+}

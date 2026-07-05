@@ -1,0 +1,308 @@
+{
+ "theme": "design-space",
+ "part": 3,
+ "of": 4,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2019-Basile-SemEval-2019 Task 5",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-Basile-SemEval-2019 Task 5.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2019-Ibrohim-Multi-label Hate Speech and Abusive Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-Ibrohim-Multi-label Hate Speech and Abusive Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Pitenis-Offensive Language Identification in Greek",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Pitenis-Offensive Language Identification in Greek.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2021-Lourie-Scruples",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-Lourie-Scruples.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Trager-The Moral Foundations Reddit Corpus",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Trager-The Moral Foundations Reddit Corpus.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Boddington-Normative Ethical Theory AI Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Boddington-Normative Ethical Theory AI Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Han-FFB",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Han-FFB.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Zhang-Heterogeneous Value Alignment Evaluation for",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Zhang-Heterogeneous Value Alignment Evaluation for.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Defrance-ABCFair",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Defrance-ABCFair.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Group-The AI Safety Benchmark",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Group-The AI Safety Benchmark.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Jiang-WildTeaming at Scale",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Jiang-WildTeaming at Scale.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Tonneau-Turkish Hate Speech Superset Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Tonneau-Turkish Hate Speech Superset Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bae-CharMoral",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bae-CharMoral.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Galatolo-Beyond Ethical Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Galatolo-Beyond Ethical Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Herrador-The PacifAIst Benchmark",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Herrador-The PacifAIst Benchmark.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kilov-Discerning What Matters",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kilov-Discerning What Matters.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Li-Untangling Input Language from Reasoning Language A Diagnostic",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Mining)-Enhancing social media hate speech detection in low-resource",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Mining)-Enhancing social media hate speech detection in low-resource.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Samway-Are Language Models Consequentialist or Deontological",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Samway-Are Language Models Consequentialist or Deontological.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Seker-HATECAT-TR A Hate Speech Span Detection",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Seker-HATECAT-TR A Hate Speech Span Detection.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Jin-MedES Chinese Medical Ethics Scenarios",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Jin-MedES Chinese Medical Ethics Scenarios.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Velankar-SamPar A Marathi Hate Speech Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Velankar-SamPar A Marathi Hate Speech Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Mu\u00f1oz-Garc\u00eda-Leading and Non-Leading Prompts Quantifying Gender Bias in Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Mu\u00f1oz-Garc\u00eda-Leading and Non-Leading Prompts Quantifying Gender Bias in Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2016-Amodei-Concrete Problems in AI Safety",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2016-Amodei-Concrete Problems in AI Safety.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2018-Berberich-The Virtuous Machine",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Berberich-The Virtuous Machine.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Mainali-Automated Classification of Modes of Moral",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Mainali-Automated Classification of Modes of Moral.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-McDonald-AI alignment and the categorical imperative",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-McDonald-AI alignment and the categorical imperative.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Stenseke-Computational Complexity of Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Stenseke-Computational Complexity of Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-University-Using LLMs to Discover Emerging Coded",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-University-Using LLMs to Discover Emerging Coded.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Baum-Aggregation Problems in Machine Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Baum-Aggregation Problems in Machine Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-El Masri-Towards Attuned AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-El Masri-Towards Attuned AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Graves-AI Practical Wisdom and Compassion",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Graves-AI Practical Wisdom and Compassion.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Liu-The Scales of Justitia",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Liu-The Scales of Justitia.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Nay-Aligning AI Agents with Humans through Law as Information",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Nay-Aligning AI Agents with Humans through Law as Information.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Snoswell-Beyond Verdicts LLM Moral Competence",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Snoswell-Beyond Verdicts LLM Moral Competence.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Yaacov-Normative Moral Pluralism for AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Yaacov-Normative Moral Pluralism for AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Goel-Building Interpretable Models for Moral Decision-Making",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Goel-Building Interpretable Models for Moral Decision-Making.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Anthropic-Responsible_Scaling_Policy_1.0",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Responsible_Scaling_Policy_1.0.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Zhipu AI-AgentBench_2308.03688",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Zhipu AI-AgentBench_2308.03688.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "2023-Roger-Towards ethical multimodal systems",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Roger-Towards ethical multimodal systems.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Muntean-Moral Coherentism Theoretical Framework Muntean",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Muntean-Moral Coherentism Theoretical Framework Muntean.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.card.md",
+   "kind": "paper"
+  }
+ ]
+}

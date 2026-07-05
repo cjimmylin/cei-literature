@@ -1,0 +1,22 @@
+{
+ "id": "S003",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2018-Awad-The Moral Machine experiment",
+   "extract_path": "PDF Extracts/2018/2018-Awad-The Moral Machine experiment.md",
+   "extract_lines": 5636
+  },
+  {
+   "stem": "2018-Behzadan-TrolleyMod v1.0",
+   "extract_path": "PDF Extracts/2018/2018-Behzadan-TrolleyMod v1.0.md",
+   "extract_lines": 337
+  },
+  {
+   "stem": "2018-Berberich-The Virtuous Machine",
+   "extract_path": "PDF Extracts/2018/2018-Berberich-The Virtuous Machine.md",
+   "extract_lines": 1026
+  }
+ ]
+}

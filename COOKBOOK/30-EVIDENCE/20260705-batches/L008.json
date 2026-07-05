@@ -1,0 +1,27 @@
+{
+ "id": "L008",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073.md",
+   "extract_lines": 2048,
+   "company": "Anthropic",
+   "title": "Constitutional AI Harmlessness from AI Feedback 2212.08073"
+  },
+  {
+   "stem": "Anthropic-Constitutional_Classifiers_2501.18837",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_Classifiers_2501.18837.md",
+   "extract_lines": 4046,
+   "company": "Anthropic",
+   "title": "Constitutional Classifiers 2501.18837"
+  },
+  {
+   "stem": "Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603.md",
+   "extract_lines": 1174,
+   "company": "Anthropic",
+   "title": "Constitutional Classifiers Plus Plus 2601.04603"
+  }
+ ]
+}

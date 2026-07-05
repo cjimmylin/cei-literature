@@ -1,0 +1,22 @@
+{
+ "id": "O051",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Yao-NurValues",
+   "extract_path": "PDF Extracts/2025/2025-Yao-NurValues.md",
+   "extract_lines": 3717
+  },
+  {
+   "stem": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...",
+   "extract_path": "PDF Extracts/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+   "extract_lines": 2907
+  },
+  {
+   "stem": "2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large",
+   "extract_path": "PDF Extracts/2025/2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md",
+   "extract_lines": 1049
+  }
+ ]
+}

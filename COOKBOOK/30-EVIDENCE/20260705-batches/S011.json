@@ -1,0 +1,37 @@
+{
+ "id": "S011",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020",
+   "extract_path": "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
+   "extract_lines": 931
+  },
+  {
+   "stem": "2021-Lourie-Scruples",
+   "extract_path": "PDF Extracts/2021/2021-Lourie-Scruples.md",
+   "extract_lines": 2407
+  },
+  {
+   "stem": "2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection",
+   "extract_path": "PDF Extracts/2021/2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md",
+   "extract_lines": 1229
+  },
+  {
+   "stem": "2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models",
+   "extract_path": "PDF Extracts/2021/2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.md",
+   "extract_lines": 1266
+  },
+  {
+   "stem": "2021-Nurce-Detecting Abusive Albanian",
+   "extract_path": "PDF Extracts/2021/2021-Nurce-Detecting Abusive Albanian.md",
+   "extract_lines": 1093
+  },
+  {
+   "stem": "2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research",
+   "extract_path": "PDF Extracts/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.md",
+   "extract_lines": 1581
+  }
+ ]
+}

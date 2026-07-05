@@ -1,0 +1,17 @@
+{
+ "id": "O014",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling",
+   "extract_path": "PDF Extracts/2024/2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling.md",
+   "extract_lines": 2333
+  },
+  {
+   "stem": "2024-Lee-KorNAT",
+   "extract_path": "PDF Extracts/2024/2024-Lee-KorNAT.md",
+   "extract_lines": 4959
+  }
+ ]
+}

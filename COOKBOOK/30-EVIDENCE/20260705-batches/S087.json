@@ -1,0 +1,32 @@
+{
+ "id": "S087",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs",
+   "extract_path": "PDF Extracts/2025/2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.md",
+   "extract_lines": 2322
+  },
+  {
+   "stem": "2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and",
+   "extract_path": "PDF Extracts/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.md",
+   "extract_lines": 1088
+  },
+  {
+   "stem": "2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate",
+   "extract_path": "PDF Extracts/2025/2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md",
+   "extract_lines": 1460
+  },
+  {
+   "stem": "2025-Vishwanath-Machine Ethics or AI Alignment",
+   "extract_path": "PDF Extracts/2025/2025-Vishwanath-Machine Ethics or AI Alignment.md",
+   "extract_lines": 494
+  },
+  {
+   "stem": "2025-Waldner-AI Safety Alignment Ethics",
+   "extract_path": "PDF Extracts/2025/2025-Waldner-AI Safety Alignment Ethics.md",
+   "extract_lines": 2680
+  }
+ ]
+}

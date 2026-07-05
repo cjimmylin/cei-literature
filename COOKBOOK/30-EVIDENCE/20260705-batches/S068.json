@@ -1,0 +1,22 @@
+{
+ "id": "S068",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs",
+   "extract_path": "PDF Extracts/2025/2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs.md",
+   "extract_lines": 1287
+  },
+  {
+   "stem": "2025-Hatemo-Revisiting the Trolley Problem for AI",
+   "extract_path": "PDF Extracts/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.md",
+   "extract_lines": 1049
+  },
+  {
+   "stem": "2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset",
+   "extract_path": "PDF Extracts/2025/2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md",
+   "extract_lines": 2658
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "id": "S063",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Cheung-LLMs Amplified Cognitive Biases Moral",
+   "extract_path": "PDF Extracts/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.md",
+   "extract_lines": 1860
+  },
+  {
+   "stem": "2025-Chua-Between a Rock and a Hard Place TRIAL",
+   "extract_path": "PDF Extracts/2025/2025-Chua-Between a Rock and a Hard Place TRIAL.md",
+   "extract_lines": 3517
+  },
+  {
+   "stem": "2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons",
+   "extract_path": "PDF Extracts/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.md",
+   "extract_lines": 500
+  },
+  {
+   "stem": "2025-Davies-Fairness identification of large language models in recommendation",
+   "extract_path": "PDF Extracts/2025/2025-Davies-Fairness identification of large language models in recommendation.md",
+   "extract_lines": 986
+  },
+  {
+   "stem": "2025-De Montis-Morality in AI",
+   "extract_path": "PDF Extracts/2025/2025-De Montis-Morality in AI.md",
+   "extract_lines": 1583
+  }
+ ]
+}

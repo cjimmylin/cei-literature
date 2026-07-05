@@ -1,0 +1,37 @@
+{
+ "id": "S019",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-Hamad-Offensive Hebrew Corpus and Detection using BERT",
+   "extract_path": "PDF Extracts/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md",
+   "extract_lines": 1145
+  },
+  {
+   "stem": "2023-Hopp-The Dutch Moral Foundations Stimulus Database",
+   "extract_path": "PDF Extracts/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.md",
+   "extract_lines": 1655
+  },
+  {
+   "stem": "2023-Hou-A Multi-Level Framework for the AI Alignment",
+   "extract_path": "PDF Extracts/2023/2023-Hou-A Multi-Level Framework for the AI Alignment.md",
+   "extract_lines": 379
+  },
+  {
+   "stem": "2023-Hou-Foundational Moral Values for AI Alignment",
+   "extract_path": "PDF Extracts/2023/2023-Hou-Foundational Moral Values for AI Alignment.md",
+   "extract_lines": 811
+  },
+  {
+   "stem": "2023-H\u00e4mmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models",
+   "extract_path": "PDF Extracts/2023/2023-H\u00e4mmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.md",
+   "extract_lines": 2123
+  },
+  {
+   "stem": "2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media",
+   "extract_path": "PDF Extracts/2023/2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.md",
+   "extract_lines": 1618
+  }
+ ]
+}

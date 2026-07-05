@@ -1,0 +1,42 @@
+{
+ "id": "S017",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2022-Trager-The Moral Foundations Reddit Corpus",
+   "extract_path": "PDF Extracts/2022/2022-Trager-The Moral Foundations Reddit Corpus.md",
+   "extract_lines": 1714
+  },
+  {
+   "stem": "2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram",
+   "extract_path": "PDF Extracts/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.md",
+   "extract_lines": 1418
+  },
+  {
+   "stem": "2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain",
+   "extract_path": "PDF Extracts/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md",
+   "extract_lines": 1692
+  },
+  {
+   "stem": "2022-researchers-Hate Speech Classification in Bulgarian",
+   "extract_path": "PDF Extracts/2022/2022-researchers-Hate Speech Classification in Bulgarian.md",
+   "extract_lines": 983
+  },
+  {
+   "stem": "2023-Bang-Towards Answering Open-ended Ethical Quandary",
+   "extract_path": "PDF Extracts/2023/2023-Bang-Towards Answering Open-ended Ethical Quandary.md",
+   "extract_lines": 1423
+  },
+  {
+   "stem": "2023-Benkler-Assessing LLMs for Moral Value Pluralism",
+   "extract_path": "PDF Extracts/2023/2023-Benkler-Assessing LLMs for Moral Value Pluralism.md",
+   "extract_lines": 685
+  },
+  {
+   "stem": "2023-Boddington-Normative Ethical Theory AI Ethics",
+   "extract_path": "PDF Extracts/2023/2023-Boddington-Normative Ethical Theory AI Ethics.md",
+   "extract_lines": 973
+  }
+ ]
+}

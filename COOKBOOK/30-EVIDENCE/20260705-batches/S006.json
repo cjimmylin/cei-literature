@@ -1,0 +1,37 @@
+{
+ "id": "S006",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2019-Jikeli-Annotating Antisemitic Online Content Towards an",
+   "extract_path": "PDF Extracts/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.md",
+   "extract_lines": 2686
+  },
+  {
+   "stem": "2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis",
+   "extract_path": "PDF Extracts/2019/2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.md",
+   "extract_lines": 1386
+  },
+  {
+   "stem": "2020-Akrout-Machine Ethics - Creation of a Virtuous Machine",
+   "extract_path": "PDF Extracts/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.md",
+   "extract_lines": 1535
+  },
+  {
+   "stem": "2020-Awad-Crowdsourcing moral machines",
+   "extract_path": "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md",
+   "extract_lines": 1190
+  },
+  {
+   "stem": "2020-Awad-Universals and variations in moral decisions made",
+   "extract_path": "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md",
+   "extract_lines": 675
+  },
+  {
+   "stem": "2020-Della Foresta-Consequentialism Machine Ethics",
+   "extract_path": "PDF Extracts/2020/2020-Della Foresta-Consequentialism Machine Ethics.md",
+   "extract_lines": 429
+  }
+ ]
+}

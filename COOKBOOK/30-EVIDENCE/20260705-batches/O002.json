@@ -1,0 +1,32 @@
+{
+ "id": "O002",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2021-Barikeri-REDDITBIAS",
+   "extract_path": "PDF Extracts/2021/2021-Barikeri-REDDITBIAS.md",
+   "extract_lines": 1994
+  },
+  {
+   "stem": "2021-Cercas Curry-ConvAbuse",
+   "extract_path": "PDF Extracts/2021/2021-Cercas Curry-ConvAbuse.md",
+   "extract_lines": 2221
+  },
+  {
+   "stem": "2021-Hendrycks-Aligning AI with Shared Human Values",
+   "extract_path": "PDF Extracts/2021/2021-Hendrycks-Aligning AI with Shared Human Values.md",
+   "extract_lines": 1385
+  },
+  {
+   "stem": "2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social",
+   "extract_path": "PDF Extracts/2021/2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.md",
+   "extract_lines": 702
+  },
+  {
+   "stem": "2022-Chalkidis-FairLex",
+   "extract_path": "PDF Extracts/2022/2022-Chalkidis-FairLex.md",
+   "extract_lines": 2454
+  }
+ ]
+}

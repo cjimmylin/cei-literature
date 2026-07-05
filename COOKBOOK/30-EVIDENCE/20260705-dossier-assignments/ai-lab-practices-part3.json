@@ -1,0 +1,283 @@
+{
+ "theme": "ai-lab-practices",
+ "part": 3,
+ "of": 3,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2024-AI-Religious Bias Benchmarks for ChatGPT",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-AI-Religious Bias Benchmarks for ChatGPT.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kaiyom-HELM Safety",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kaiyom-HELM Safety.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Sorin-Ethical Alignment of LLMs in Healthcare",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Sorin-Ethical Alignment of LLMs in Healthcare.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Shen-PsychEthicsBench",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Shen-PsychEthicsBench.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2018-Berberich-The Virtuous Machine",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Berberich-The Virtuous Machine.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Della Foresta-Consequentialism Machine Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Della Foresta-Consequentialism Machine Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Hagendorff-Virtue-Based Framework for AI Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Hagendorff-Virtue-Based Framework for AI Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Hou-A Multi-Level Framework for the AI Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Hou-A Multi-Level Framework for the AI Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Shen-Large Language Model Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Shen-Large Language Model Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Chua-AI Safety in Generative AI Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Chua-AI Safety in Generative AI Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Hayes-Virtue and Narrative in AI Practices",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Hayes-Virtue and Narrative in AI Practices.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Khamassi-Strong and weak alignment of large language models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Khamassi-Strong and weak alignment of large language models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ranjan-A Comprehensive Survey of Bias in LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ranjan-A Comprehensive Survey of Bias in LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Sun-Towards Friendly AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Sun-Towards Friendly AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Zhi-Xuan-Beyond Preferences in AI Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Bali-How Deep Is Representational Bias in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Bali-How Deep Is Representational Bias in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Brophy-Wide Reflective Equilibrium LLM Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Brophy-Wide Reflective Equilibrium LLM Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Chua-Between a Rock and a Hard Place TRIAL",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Chua-Between a Rock and a Hard Place TRIAL.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Gabriel-AI Alignment as Fair Treatment of Claims",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Gabriel-AI Alignment as Fair Treatment of Claims.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Yaacov-Normative Moral Pluralism for AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Yaacov-Normative Moral Pluralism for AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Kolt-Legal Alignment for Safe and Ethical AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Kolt-Legal Alignment for Safe and Ethical AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Anthropic_Model_Spec_2025",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Anthropic_Model_Spec_2025.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Claude_4_Opus_Sonnet_System_Card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Claude_4_Opus_Sonnet_System_Card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Measuring_Faithfulness_in_CoT_Reasoning_2307.13702",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Measuring_Faithfulness_in_CoT_Reasoning_2307.13702.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-R1_arxiv_2501.12948",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/DeepSeek-DeepSeek-R1_arxiv_2501.12948.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Google DeepMind-ShieldGemma_arxiv_2407.21772",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Google DeepMind-ShieldGemma_arxiv_2407.21772.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Meta AI-Llama_3_2407.21783",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Meta AI-Llama_3_2407.21783.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "NVIDIA-HelpSteer2-Preference_Complementing_Ratings",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/NVIDIA-HelpSteer2-Preference_Complementing_Ratings.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-deep-research-system-card-february-2025",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-deep-research-system-card-february-2025.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-4-5-system-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-4-5-system-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-5-system-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-5-system-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-oss-model-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-oss-model-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-learning-to-summarize-rlhf",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-learning-to-summarize-rlhf.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-o3-mini-vs-deepseek-r1-safety-arxiv-2501.18438",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-o3-mini-vs-deepseek-r1-safety-arxiv-2501.18438.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Zhipu AI-AlignBench_2311.18743",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Zhipu AI-AlignBench_2311.18743.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "xAI-2025-11-17-grok-4-1-model-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/xAI-2025-11-17-grok-4-1-model-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "2023-Roger-Towards ethical multimodal systems",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Roger-Towards ethical multimodal systems.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-AlGhazali-Amanah Framework Ethical AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-AlGhazali-Amanah Framework Ethical AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Institute-2025 AI Safety Index",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Institute-2025 AI Safety Index.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.card.md",
+   "kind": "paper"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "S049",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations",
+   "extract_path": "PDF Extracts/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.md",
+   "extract_lines": 2305
+  },
+  {
+   "stem": "2024-Tlaie-Exploring and steering the moral compass of Large",
+   "extract_path": "PDF Extracts/2024/2024-Tlaie-Exploring and steering the moral compass of Large.md",
+   "extract_lines": 1237
+  },
+  {
+   "stem": "2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in",
+   "extract_path": "PDF Extracts/2024/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.md",
+   "extract_lines": 3141
+  }
+ ]
+}

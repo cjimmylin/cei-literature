@@ -1,0 +1,27 @@
+{
+ "id": "L023",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "OpenAI-operator-system-card-january-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-operator-system-card-january-2025.md",
+   "extract_lines": 800,
+   "company": "OpenAI",
+   "title": "operator system card january 2025"
+  },
+  {
+   "stem": "Zhipu AI-AgentBench_2308.03688",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AgentBench_2308.03688.md",
+   "extract_lines": 4089,
+   "company": "Zhipu AI",
+   "title": "AgentBench 2308.03688"
+  },
+  {
+   "stem": "Zhipu AI-AlignBench_2311.18743",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AlignBench_2311.18743.md",
+   "extract_lines": 2815,
+   "company": "Zhipu AI",
+   "title": "AlignBench 2311.18743"
+  }
+ ]
+}

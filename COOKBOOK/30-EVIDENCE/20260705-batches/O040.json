@@ -1,0 +1,22 @@
+{
+ "id": "O040",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs",
+   "extract_path": "PDF Extracts/2025/2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.md",
+   "extract_lines": 2469
+  },
+  {
+   "stem": "2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks",
+   "extract_path": "PDF Extracts/2025/2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.md",
+   "extract_lines": 1225
+  },
+  {
+   "stem": "2025-Monnar-Cross-lingual hate speech detection using domain-specific word",
+   "extract_path": "PDF Extracts/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md",
+   "extract_lines": 1367
+  }
+ ]
+}

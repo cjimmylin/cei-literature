@@ -1,0 +1,27 @@
+{
+ "id": "L024",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Zhipu AI-AlignMMBench_2406.09295",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AlignMMBench_2406.09295.md",
+   "extract_lines": 2237,
+   "company": "Zhipu AI",
+   "title": "AlignMMBench 2406.09295"
+  },
+  {
+   "stem": "xAI-2025-08-20-grok-4-model-card",
+   "extract_path": "PDF Extracts/AI Labs/xAI-2025-08-20-grok-4-model-card.md",
+   "extract_lines": 448,
+   "company": "xAI",
+   "title": "2025 08 20 grok 4 model card"
+  },
+  {
+   "stem": "xAI-2025-11-17-grok-4-1-model-card",
+   "extract_path": "PDF Extracts/AI Labs/xAI-2025-11-17-grok-4-1-model-card.md",
+   "extract_lines": 372,
+   "company": "xAI",
+   "title": "2025 11 17 grok 4 1 model card"
+  }
+ ]
+}

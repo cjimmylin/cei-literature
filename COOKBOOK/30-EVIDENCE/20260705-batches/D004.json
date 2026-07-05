@@ -1,0 +1,57 @@
+{
+ "id": "D004",
+ "tier": "sonnet",
+ "mode": "degraded",
+ "papers": [
+  {
+   "stem": "2025-Mu\u00f1oz-Garc\u00eda-Leading and Non-Leading Prompts Quantifying Gender Bias in Large",
+   "paper_path": "papers/2025-Mu\u00f1oz-Garc\u00eda-Leading and Non-Leading Prompts Quantifying Gender Bias in Large.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Perera-Indigenous Peoples and AI Systematic Review",
+   "paper_path": "papers/2025-Perera-Indigenous Peoples and AI Systematic Review.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Rana-Indigenous Data Sovereignty A Catalyst for Ethical AI in Business",
+   "paper_path": "papers/2025-Rana-Indigenous Data Sovereignty A Catalyst for Ethical AI in Business.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Sun-Axiology AI Ethics MCDA",
+   "paper_path": "papers/2025-Sun-Axiology AI Ethics MCDA.md",
+   "extract_quality": "thin"
+  },
+  {
+   "stem": "2025-UbuntuAI-AI Ethics Meets Ubuntu Governance",
+   "paper_path": "papers/2025-UbuntuAI-AI Ethics Meets Ubuntu Governance.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ...",
+   "paper_path": "papers/2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ....md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Unknown-New report and guidelines for indigenous data sovereignty in",
+   "paper_path": "papers/2025-Unknown-New report and guidelines for indigenous data sovereignty in.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2026-Hendricks-LLMs Fuel Extremist Attitudes Moral Framings",
+   "paper_path": "papers/2026-Hendricks-LLMs Fuel Extremist Attitudes Moral Framings.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2026-MoralSycophancy-Moral Sycophancy in VLMs",
+   "paper_path": "papers/2026-MoralSycophancy-Moral Sycophancy in VLMs.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2026-PKU-Visual Distraction Moral Reasoning",
+   "paper_path": "papers/2026-PKU-Visual Distraction Moral Reasoning.md",
+   "extract_quality": "missing"
+  }
+ ]
+}

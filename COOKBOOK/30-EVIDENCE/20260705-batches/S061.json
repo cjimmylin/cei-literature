@@ -1,0 +1,17 @@
+{
+ "id": "S061",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Bulla-Large Language Models meet moral values",
+   "extract_path": "PDF Extracts/2025/2025-Bulla-Large Language Models meet moral values.md",
+   "extract_lines": 3568
+  },
+  {
+   "stem": "2025-Buyl-AI Alignment at Your Discretion",
+   "extract_path": "PDF Extracts/2025/2025-Buyl-AI Alignment at Your Discretion.md",
+   "extract_lines": 4174
+  }
+ ]
+}

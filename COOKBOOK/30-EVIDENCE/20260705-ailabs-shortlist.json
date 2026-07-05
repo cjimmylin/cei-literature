@@ -1,0 +1,617 @@
+{
+ "generated_at": "2026-07-05T06:02:23",
+ "curation": "Fable-curated for values-alignment relevance + recency (2026-07-05)",
+ "count": 61,
+ "reports": [
+  {
+   "stem": "Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388.md",
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen3 Technical Report 2505.09388",
+   "pages": 35,
+   "arxiv_year": 2025,
+   "extract_lines": 5881,
+   "rationale": "non-US frontier safety section"
+  },
+  {
+   "stem": "Anthropic-A_General_Language_Assistant_as_a_Laboratory_for_Alignment_2112.00861",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-A_General_Language_Assistant_as_a_Laboratory_for_Alignment_2112.00861.md",
+   "company": "Anthropic",
+   "title": "A General Language Assistant as a Laboratory for Alignment 2112.00861",
+   "pages": 48,
+   "arxiv_year": 2021,
+   "extract_lines": 3543,
+   "rationale": "alignment lab framing + HHH evals"
+  },
+  {
+   "stem": "Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093.md",
+   "company": "Anthropic",
+   "title": "Alignment Faking in Large Language Models 2412.14093",
+   "pages": 137,
+   "arxiv_year": 2024,
+   "extract_lines": 9900,
+   "rationale": "alignment faking eval"
+  },
+  {
+   "stem": "Anthropic-Anthropic_Model_Spec_2025",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Anthropic_Model_Spec_2025.md",
+   "company": "Anthropic",
+   "title": "Anthropic Model Spec 2025",
+   "pages": 22,
+   "arxiv_year": null,
+   "extract_lines": 1027,
+   "rationale": "explicit values specification"
+  },
+  {
+   "stem": "Anthropic-Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315.md",
+   "company": "Anthropic",
+   "title": "Challenges of Automated Red Teaming for LLMs 2401.03315",
+   "pages": 22,
+   "arxiv_year": 2024,
+   "extract_lines": 2735,
+   "rationale": "red-teaming methodology"
+  },
+  {
+   "stem": "Anthropic-Claude_3.7_Sonnet_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_3.7_Sonnet_System_Card.md",
+   "company": "Anthropic",
+   "title": "Claude 3.7 Sonnet System Card",
+   "pages": 43,
+   "arxiv_year": null,
+   "extract_lines": 1936,
+   "rationale": "system card - eval methodology"
+  },
+  {
+   "stem": "Anthropic-Claude_4_Opus_Sonnet_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_4_Opus_Sonnet_System_Card.md",
+   "company": "Anthropic",
+   "title": "Claude 4 Opus Sonnet System Card",
+   "pages": 120,
+   "arxiv_year": null,
+   "extract_lines": 4988,
+   "rationale": "system card - values/agentic evals"
+  },
+  {
+   "stem": "Anthropic-Claude_4.1_Opus_System_Card_August_2025",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_4.1_Opus_System_Card_August_2025.md",
+   "company": "Anthropic",
+   "title": "Claude 4.1 Opus System Card August 2025",
+   "pages": 23,
+   "arxiv_year": null,
+   "extract_lines": 836,
+   "rationale": "system card"
+  },
+  {
+   "stem": "Anthropic-Claude_Opus_4.5_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_Opus_4.5_System_Card.md",
+   "company": "Anthropic",
+   "title": "Claude Opus 4.5 System Card",
+   "pages": 153,
+   "arxiv_year": null,
+   "extract_lines": 5710,
+   "rationale": "latest system card"
+  },
+  {
+   "stem": "Anthropic-Claude_Sonnet_4.5_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_Sonnet_4.5_System_Card.md",
+   "company": "Anthropic",
+   "title": "Claude Sonnet 4.5 System Card",
+   "pages": 149,
+   "arxiv_year": null,
+   "extract_lines": 5347,
+   "rationale": "system card"
+  },
+  {
+   "stem": "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548.md",
+   "company": "Anthropic",
+   "title": "Collective Constitutional AI Democratizing AI Alignment 2310.13548",
+   "pages": 35,
+   "arxiv_year": 2023,
+   "extract_lines": 2735,
+   "rationale": "democratic input to values"
+  },
+  {
+   "stem": "Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073.md",
+   "company": "Anthropic",
+   "title": "Constitutional AI Harmlessness from AI Feedback 2212.08073",
+   "pages": 34,
+   "arxiv_year": 2022,
+   "extract_lines": 2048,
+   "rationale": "foundational alignment method"
+  },
+  {
+   "stem": "Anthropic-Constitutional_Classifiers_2501.18837",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_Classifiers_2501.18837.md",
+   "company": "Anthropic",
+   "title": "Constitutional Classifiers 2501.18837",
+   "pages": 54,
+   "arxiv_year": 2025,
+   "extract_lines": 4046,
+   "rationale": "safety classifier evals (v1 + plus-plus)"
+  },
+  {
+   "stem": "Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603.md",
+   "company": "Anthropic",
+   "title": "Constitutional Classifiers Plus Plus 2601.04603",
+   "pages": 17,
+   "arxiv_year": 2026,
+   "extract_lines": 1174,
+   "rationale": "safety classifier evals (v1 + plus-plus)"
+  },
+  {
+   "stem": "Anthropic-In-context_Reward_Hacking_2402.09656",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-In-context_Reward_Hacking_2402.09656.md",
+   "company": "Anthropic",
+   "title": "In context Reward Hacking 2402.09656",
+   "pages": 19,
+   "arxiv_year": 2024,
+   "extract_lines": 2333,
+   "rationale": "in-context reward hacking"
+  },
+  {
+   "stem": "Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388.md",
+   "company": "Anthropic",
+   "title": "Language Models Dont Always Say What They Think 2305.04388",
+   "pages": 32,
+   "arxiv_year": 2023,
+   "extract_lines": 4048,
+   "rationale": "CoT faithfulness (both LM + reasoning variants)"
+  },
+  {
+   "stem": "Anthropic-Many-shot_Jailbreaking_2401.05566",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Many-shot_Jailbreaking_2401.05566.md",
+   "company": "Anthropic",
+   "title": "Many shot Jailbreaking 2401.05566",
+   "pages": 71,
+   "arxiv_year": 2024,
+   "extract_lines": 4600,
+   "rationale": "robustness eval"
+  },
+  {
+   "stem": "Anthropic-Measuring_Faithfulness_in_CoT_Reasoning_2307.13702",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Measuring_Faithfulness_in_CoT_Reasoning_2307.13702.md",
+   "company": "Anthropic",
+   "title": "Measuring Faithfulness in CoT Reasoning 2307.13702",
+   "pages": 14,
+   "arxiv_year": 2023,
+   "extract_lines": 1455,
+   "rationale": "CoT faithfulness methodology"
+  },
+  {
+   "stem": "Anthropic-Reasoning_Models_Dont_Always_Say_What_They_Think",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Reasoning_Models_Dont_Always_Say_What_They_Think.md",
+   "company": "Anthropic",
+   "title": "Reasoning Models Dont Always Say What They Think",
+   "pages": 18,
+   "arxiv_year": null,
+   "extract_lines": 966,
+   "rationale": "CoT faithfulness (both LM + reasoning variants)"
+  },
+  {
+   "stem": "Anthropic-Responsible_Scaling_Policy_1.0",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Responsible_Scaling_Policy_1.0.md",
+   "company": "Anthropic",
+   "title": "Responsible Scaling Policy 1.0",
+   "pages": 22,
+   "arxiv_year": null,
+   "extract_lines": 1215,
+   "rationale": "safety governance framework"
+  },
+  {
+   "stem": "Anthropic-Sabotage_Evaluations_for_Frontier_Models_2410.13161",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Sabotage_Evaluations_for_Frontier_Models_2410.13161.md",
+   "company": "Anthropic",
+   "title": "Sabotage Evaluations for Frontier Models 2410.13161",
+   "pages": 14,
+   "arxiv_year": 2024,
+   "extract_lines": 1838,
+   "rationale": "agentic safety evals"
+  },
+  {
+   "stem": "Anthropic-Simple_Probes_Detect_Sycophancy_2406.09569",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Simple_Probes_Detect_Sycophancy_2406.09569.md",
+   "company": "Anthropic",
+   "title": "Simple Probes Detect Sycophancy 2406.09569",
+   "pages": 5,
+   "arxiv_year": 2024,
+   "extract_lines": 736,
+   "rationale": "sycophancy probes"
+  },
+  {
+   "stem": "Anthropic-Sleeper_Agents_Training_Deceptive_LLMs_2312.00752",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Sleeper_Agents_Training_Deceptive_LLMs_2312.00752.md",
+   "company": "Anthropic",
+   "title": "Sleeper Agents Training Deceptive LLMs 2312.00752",
+   "pages": 36,
+   "arxiv_year": 2023,
+   "extract_lines": 2940,
+   "rationale": "deceptive alignment eval"
+  },
+  {
+   "stem": "Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report.md",
+   "company": "Anthropic",
+   "title": "Summer 2025 Pilot Sabotage Risk Report",
+   "pages": 67,
+   "arxiv_year": null,
+   "extract_lines": 3097,
+   "rationale": "agentic risk assessment"
+  },
+  {
+   "stem": "Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459.md",
+   "company": "Anthropic",
+   "title": "The Capacity for Moral Self Correction in LLMs 2302.07459",
+   "pages": 20,
+   "arxiv_year": 2023,
+   "extract_lines": 1541,
+   "rationale": "moral capability evaluation"
+  },
+  {
+   "stem": "Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Training_a_Helpful_and_Harmless_Assistant_with_RLHF_2204.05862.md",
+   "company": "Anthropic",
+   "title": "Training a Helpful and Harmless Assistant with RLHF 2204.05862",
+   "pages": 74,
+   "arxiv_year": 2022,
+   "extract_lines": 4810,
+   "rationale": "RLHF methodology"
+  },
+  {
+   "stem": "DeepSeek-DeepSeek-R1_arxiv_2501.12948",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-R1_arxiv_2501.12948.md",
+   "company": "DeepSeek",
+   "title": "DeepSeek R1 arxiv 2501.12948",
+   "pages": 86,
+   "arxiv_year": 2025,
+   "extract_lines": 5373,
+   "rationale": "RL alignment methodology"
+  },
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Pro_Model_Card",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_2.5_Pro_Model_Card.md",
+   "company": "Google DeepMind",
+   "title": "Gemini 2.5 Pro Model Card",
+   "pages": 21,
+   "arxiv_year": null,
+   "extract_lines": 1361,
+   "rationale": "model card"
+  },
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Technical_Report",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_2.5_Technical_Report.md",
+   "company": "Google DeepMind",
+   "title": "Gemini 2.5 Technical Report",
+   "pages": 73,
+   "arxiv_year": null,
+   "extract_lines": 6986,
+   "rationale": "frontier report w/ safety section"
+  },
+  {
+   "stem": "Google DeepMind-Gemini_Safety_arxiv_2403.04312",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_Safety_arxiv_2403.04312.md",
+   "company": "Google DeepMind",
+   "title": "Gemini Safety arxiv 2403.04312",
+   "pages": 16,
+   "arxiv_year": 2024,
+   "extract_lines": 1143,
+   "rationale": "safety eval methodology"
+  },
+  {
+   "stem": "Google DeepMind-ShieldGemma_arxiv_2407.21772",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-ShieldGemma_arxiv_2407.21772.md",
+   "company": "Google DeepMind",
+   "title": "ShieldGemma arxiv 2407.21772",
+   "pages": 11,
+   "arxiv_year": 2024,
+   "extract_lines": 936,
+   "rationale": "safety classifier"
+  },
+  {
+   "stem": "Meta AI-CyberSecEval_3_2408.01605",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-CyberSecEval_3_2408.01605.md",
+   "company": "Meta AI",
+   "title": "CyberSecEval 3 2408.01605",
+   "pages": 36,
+   "arxiv_year": 2024,
+   "extract_lines": 2764,
+   "rationale": "agentic security eval"
+  },
+  {
+   "stem": "Meta AI-Llama_2_2307.09288",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_2_2307.09288.md",
+   "company": "Meta AI",
+   "title": "Llama 2 2307.09288",
+   "pages": 77,
+   "arxiv_year": 2023,
+   "extract_lines": 7242,
+   "rationale": "RLHF + safety methodology"
+  },
+  {
+   "stem": "Meta AI-Llama_3_2407.21783",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_3_2407.21783.md",
+   "company": "Meta AI",
+   "title": "Llama 3 2407.21783",
+   "pages": 92,
+   "arxiv_year": 2024,
+   "extract_lines": 6542,
+   "rationale": "safety + evals section"
+  },
+  {
+   "stem": "Meta AI-Llama_Guard_2312.06674",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-Llama_Guard_2312.06674.md",
+   "company": "Meta AI",
+   "title": "Llama Guard 2312.06674",
+   "pages": 15,
+   "arxiv_year": 2023,
+   "extract_lines": 813,
+   "rationale": "safety classifier taxonomy"
+  },
+  {
+   "stem": "Microsoft Research-Phi-3_Safety_Post-Training",
+   "extract_path": "PDF Extracts/AI Labs/Microsoft Research-Phi-3_Safety_Post-Training.md",
+   "company": "Microsoft Research",
+   "title": "Phi 3 Safety Post Training",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 952,
+   "rationale": "safety post-training"
+  },
+  {
+   "stem": "NVIDIA-HelpSteer_Multi-attribute_Helpfulness_Dataset",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-HelpSteer_Multi-attribute_Helpfulness_Dataset.md",
+   "company": "NVIDIA",
+   "title": "HelpSteer Multi attribute Helpfulness Dataset",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 1532,
+   "rationale": "multi-attribute preference data"
+  },
+  {
+   "stem": "NVIDIA-HelpSteer2-Preference_Complementing_Ratings",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-HelpSteer2-Preference_Complementing_Ratings.md",
+   "company": "NVIDIA",
+   "title": "HelpSteer2 Preference Complementing Ratings",
+   "pages": 28,
+   "arxiv_year": null,
+   "extract_lines": 2125,
+   "rationale": "preference dataset methodology"
+  },
+  {
+   "stem": "NVIDIA-SteerLM_Attribute_Conditioned_SFT",
+   "extract_path": "PDF Extracts/AI Labs/NVIDIA-SteerLM_Attribute_Conditioned_SFT.md",
+   "company": "NVIDIA",
+   "title": "SteerLM Attribute Conditioned SFT",
+   "pages": 14,
+   "arxiv_year": null,
+   "extract_lines": 1510,
+   "rationale": "attribute-conditioned steering"
+  },
+  {
+   "stem": "OpenAI-deep-research-system-card-february-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-deep-research-system-card-february-2025.md",
+   "company": "OpenAI",
+   "title": "deep research system card february 2025",
+   "pages": 36,
+   "arxiv_year": null,
+   "extract_lines": 1609,
+   "rationale": "agentic system card"
+  },
+  {
+   "stem": "OpenAI-deliberative-alignment-arxiv-2412.16720",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-deliberative-alignment-arxiv-2412.16720.md",
+   "company": "OpenAI",
+   "title": "deliberative alignment arxiv 2412.16720",
+   "pages": 52,
+   "arxiv_year": null,
+   "extract_lines": 2586,
+   "rationale": "spec-based alignment method"
+  },
+  {
+   "stem": "OpenAI-dpo-direct-preference-optimization",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dpo-direct-preference-optimization.md",
+   "company": "OpenAI",
+   "title": "dpo direct preference optimization",
+   "pages": 27,
+   "arxiv_year": null,
+   "extract_lines": 2023,
+   "rationale": "DPO method"
+  },
+  {
+   "stem": "OpenAI-gpt-4-5-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-5-system-card.md",
+   "company": "OpenAI",
+   "title": "gpt 4 5 system card",
+   "pages": 31,
+   "arxiv_year": null,
+   "extract_lines": 1527,
+   "rationale": "system card"
+  },
+  {
+   "stem": "OpenAI-gpt-4-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-system-card.md",
+   "company": "OpenAI",
+   "title": "gpt 4 system card",
+   "pages": 60,
+   "arxiv_year": null,
+   "extract_lines": 2788,
+   "rationale": "system card"
+  },
+  {
+   "stem": "OpenAI-gpt-4o-system-card-arxiv-2410.21276",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4o-system-card-arxiv-2410.21276.md",
+   "company": "OpenAI",
+   "title": "gpt 4o system card arxiv 2410.21276",
+   "pages": 33,
+   "arxiv_year": null,
+   "extract_lines": 1599,
+   "rationale": "system card"
+  },
+  {
+   "stem": "OpenAI-gpt-5-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5-system-card.md",
+   "company": "OpenAI",
+   "title": "gpt 5 system card",
+   "pages": 60,
+   "arxiv_year": null,
+   "extract_lines": 3103,
+   "rationale": "latest system card"
+  },
+  {
+   "stem": "OpenAI-gpt-5-system-card-arxiv-2601.03267",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5-system-card-arxiv-2601.03267.md",
+   "company": "OpenAI",
+   "title": "gpt 5 system card arxiv 2601.03267",
+   "pages": 61,
+   "arxiv_year": null,
+   "extract_lines": 3104,
+   "rationale": "latest system card"
+  },
+  {
+   "stem": "OpenAI-gpt-5.2-system-card-december-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5.2-system-card-december-2025.md",
+   "company": "OpenAI",
+   "title": "gpt 5.2 system card december 2025",
+   "pages": 27,
+   "arxiv_year": null,
+   "extract_lines": 1139,
+   "rationale": "latest system card"
+  },
+  {
+   "stem": "OpenAI-gpt-oss-model-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-model-card.md",
+   "company": "OpenAI",
+   "title": "gpt oss model card",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 2062,
+   "rationale": "open-weights safety card"
+  },
+  {
+   "stem": "OpenAI-gpt-oss-model-card-arxiv-2508.10925",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-oss-model-card-arxiv-2508.10925.md",
+   "company": "OpenAI",
+   "title": "gpt oss model card arxiv 2508.10925",
+   "pages": 35,
+   "arxiv_year": null,
+   "extract_lines": 2061,
+   "rationale": "open-weights safety card"
+  },
+  {
+   "stem": "OpenAI-instructgpt-training-language-models-to-follow-instructions",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-instructgpt-training-language-models-to-follow-instructions.md",
+   "company": "OpenAI",
+   "title": "instructgpt training language models to follow instructions",
+   "pages": 68,
+   "arxiv_year": null,
+   "extract_lines": 4547,
+   "rationale": "foundational RLHF"
+  },
+  {
+   "stem": "OpenAI-learning-to-summarize-rlhf",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-learning-to-summarize-rlhf.md",
+   "company": "OpenAI",
+   "title": "learning to summarize rlhf",
+   "pages": 45,
+   "arxiv_year": null,
+   "extract_lines": 3564,
+   "rationale": "early RLHF"
+  },
+  {
+   "stem": "OpenAI-o1-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-o1-system-card.md",
+   "company": "OpenAI",
+   "title": "o1 system card",
+   "pages": 52,
+   "arxiv_year": null,
+   "extract_lines": 2585,
+   "rationale": "reasoning model system card"
+  },
+  {
+   "stem": "OpenAI-o3-and-o4-mini-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-o3-and-o4-mini-system-card.md",
+   "company": "OpenAI",
+   "title": "o3 and o4 mini system card",
+   "pages": 33,
+   "arxiv_year": null,
+   "extract_lines": 1448,
+   "rationale": "reasoning model system card"
+  },
+  {
+   "stem": "OpenAI-o3-mini-vs-deepseek-r1-safety-arxiv-2501.18438",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-o3-mini-vs-deepseek-r1-safety-arxiv-2501.18438.md",
+   "company": "OpenAI",
+   "title": "o3 mini vs deepseek r1 safety arxiv 2501.18438",
+   "pages": 16,
+   "arxiv_year": null,
+   "extract_lines": 844,
+   "rationale": "RL alignment methodology"
+  },
+  {
+   "stem": "OpenAI-operator-system-card-january-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-operator-system-card-january-2025.md",
+   "company": "OpenAI",
+   "title": "operator system card january 2025",
+   "pages": 17,
+   "arxiv_year": null,
+   "extract_lines": 800,
+   "rationale": "computer-use agent system card"
+  },
+  {
+   "stem": "Zhipu AI-AgentBench_2308.03688",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AgentBench_2308.03688.md",
+   "company": "Zhipu AI",
+   "title": "AgentBench 2308.03688",
+   "pages": 58,
+   "arxiv_year": 2023,
+   "extract_lines": 4089,
+   "rationale": "agentic eval methodology"
+  },
+  {
+   "stem": "Zhipu AI-AlignBench_2311.18743",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AlignBench_2311.18743.md",
+   "company": "Zhipu AI",
+   "title": "AlignBench 2311.18743",
+   "pages": 20,
+   "arxiv_year": 2023,
+   "extract_lines": 2815,
+   "rationale": "Chinese alignment benchmark"
+  },
+  {
+   "stem": "Zhipu AI-AlignMMBench_2406.09295",
+   "extract_path": "PDF Extracts/AI Labs/Zhipu AI-AlignMMBench_2406.09295.md",
+   "company": "Zhipu AI",
+   "title": "AlignMMBench 2406.09295",
+   "pages": 18,
+   "arxiv_year": 2024,
+   "extract_lines": 2237,
+   "rationale": "multimodal alignment benchmark"
+  },
+  {
+   "stem": "xAI-2025-08-20-grok-4-model-card",
+   "extract_path": "PDF Extracts/AI Labs/xAI-2025-08-20-grok-4-model-card.md",
+   "company": "xAI",
+   "title": "2025 08 20 grok 4 model card",
+   "pages": 8,
+   "arxiv_year": null,
+   "extract_lines": 448,
+   "rationale": "model card"
+  },
+  {
+   "stem": "xAI-2025-11-17-grok-4-1-model-card",
+   "extract_path": "PDF Extracts/AI Labs/xAI-2025-11-17-grok-4-1-model-card.md",
+   "company": "xAI",
+   "title": "2025 11 17 grok 4 1 model card",
+   "pages": 6,
+   "arxiv_year": null,
+   "extract_lines": 372,
+   "rationale": "model card w/ persona/values"
+  }
+ ]
+}

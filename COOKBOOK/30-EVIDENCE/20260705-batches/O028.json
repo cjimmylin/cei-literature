@@ -1,0 +1,27 @@
+{
+ "id": "O028",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in",
+   "extract_path": "PDF Extracts/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.md",
+   "extract_lines": 3244
+  },
+  {
+   "stem": "2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment",
+   "extract_path": "PDF Extracts/2025/2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md",
+   "extract_lines": 1794
+  },
+  {
+   "stem": "2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong",
+   "extract_path": "PDF Extracts/2025/2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong.md",
+   "extract_lines": 1872
+  },
+  {
+   "stem": "2025-Herrador-The PacifAIst Benchmark",
+   "extract_path": "PDF Extracts/2025/2025-Herrador-The PacifAIst Benchmark.md",
+   "extract_lines": 1162
+  }
+ ]
+}

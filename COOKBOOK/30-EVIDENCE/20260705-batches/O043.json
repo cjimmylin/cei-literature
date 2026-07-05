@@ -1,0 +1,17 @@
+{
+ "id": "O043",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Neuman-Auditing the Ethical Logic of Generative AI Models",
+   "extract_path": "PDF Extracts/2025/2025-Neuman-Auditing the Ethical Logic of Generative AI Models.md",
+   "extract_lines": 1886
+  },
+  {
+   "stem": "2025-Neuman-PRIME Framework Convergent Ethics",
+   "extract_path": "PDF Extracts/2025/2025-Neuman-PRIME Framework Convergent Ethics.md",
+   "extract_lines": 1187
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "S090",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a",
+   "extract_path": "PDF Extracts/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md",
+   "extract_lines": 1833
+  },
+  {
+   "stem": "2025-Zhu-TrolleyBench",
+   "extract_path": "PDF Extracts/2025/2025-Zhu-TrolleyBench.md",
+   "extract_lines": 834
+  },
+  {
+   "stem": "2025-Zohny-ADEPT Simulating Ethics",
+   "extract_path": "PDF Extracts/2025/2025-Zohny-ADEPT Simulating Ethics.md",
+   "extract_lines": 1827
+  },
+  {
+   "stem": "2025-\u00d3h\u00c9igeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and",
+   "extract_path": "PDF Extracts/2025/2025-\u00d3h\u00c9igeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.md",
+   "extract_lines": 1200
+  },
+  {
+   "stem": "2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language",
+   "extract_path": "PDF Extracts/2026/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.md",
+   "extract_lines": 1369
+  },
+  {
+   "stem": "2026-Goel-Building Interpretable Models for Moral Decision-Making",
+   "extract_path": "PDF Extracts/2026/2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+   "extract_lines": 401
+  }
+ ]
+}

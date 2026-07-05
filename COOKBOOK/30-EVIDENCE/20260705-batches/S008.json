@@ -1,0 +1,22 @@
+{
+ "id": "S008",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2020-Mainali-Automated Classification of Modes of Moral",
+   "extract_path": "PDF Extracts/2020/2020-Mainali-Automated Classification of Modes of Moral.md",
+   "extract_lines": 580
+  },
+  {
+   "stem": "2020-Mollas-ETHOS an Online Hate Speech Detection Dataset",
+   "extract_path": "PDF Extracts/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.md",
+   "extract_lines": 1245
+  },
+  {
+   "stem": "2020-Nangia-CrowS-Pairs",
+   "extract_path": "PDF Extracts/2020/2020-Nangia-CrowS-Pairs.md",
+   "extract_lines": 1403
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "O018",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in",
+   "extract_path": "PDF Extracts/2024/2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.md",
+   "extract_lines": 1863
+  },
+  {
+   "stem": "2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified",
+   "extract_path": "PDF Extracts/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.md",
+   "extract_lines": 1659
+  },
+  {
+   "stem": "2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark",
+   "extract_path": "PDF Extracts/2024/2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark.md",
+   "extract_lines": 2366
+  },
+  {
+   "stem": "2024-Qiu-ProgressGym",
+   "extract_path": "PDF Extracts/2024/2024-Qiu-ProgressGym.md",
+   "extract_lines": 2335
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "id": "L020",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "OpenAI-gpt-4o-system-card-arxiv-2410.21276",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4o-system-card-arxiv-2410.21276.md",
+   "extract_lines": 1599,
+   "company": "OpenAI",
+   "title": "gpt 4o system card arxiv 2410.21276"
+  },
+  {
+   "stem": "OpenAI-gpt-5-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5-system-card.md",
+   "extract_lines": 3103,
+   "company": "OpenAI",
+   "title": "gpt 5 system card"
+  },
+  {
+   "stem": "OpenAI-gpt-5-system-card-arxiv-2601.03267",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5-system-card-arxiv-2601.03267.md",
+   "extract_lines": 3104,
+   "company": "OpenAI",
+   "title": "gpt 5 system card arxiv 2601.03267"
+  },
+  {
+   "stem": "OpenAI-gpt-5.2-system-card-december-2025",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-5.2-system-card-december-2025.md",
+   "extract_lines": 1139,
+   "company": "OpenAI",
+   "title": "gpt 5.2 system card december 2025"
+  }
+ ]
+}

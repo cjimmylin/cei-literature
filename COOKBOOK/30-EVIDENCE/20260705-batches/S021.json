@@ -1,0 +1,22 @@
+{
+ "id": "S021",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2023-K\u00f6rner-Deontology and Utilitarianism in Real Life",
+   "extract_path": "PDF Extracts/2023/2023-K\u00f6rner-Deontology and Utilitarianism in Real Life.md",
+   "extract_lines": 3310
+  },
+  {
+   "stem": "2023-Lee-KoSBI",
+   "extract_path": "PDF Extracts/2023/2023-Lee-KoSBI.md",
+   "extract_lines": 2811
+  },
+  {
+   "stem": "2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large",
+   "extract_path": "PDF Extracts/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.md",
+   "extract_lines": 2811
+  }
+ ]
+}

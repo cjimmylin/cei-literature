@@ -1,0 +1,13 @@
+{
+ "id": "L001",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388",
+   "extract_path": "PDF Extracts/AI Labs/Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388.md",
+   "extract_lines": 5881,
+   "company": "Alibaba (Qwen)",
+   "title": "Qwen3 Technical Report 2505.09388"
+  }
+ ]
+}

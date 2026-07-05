@@ -1,0 +1,27 @@
+{
+ "id": "S089",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Yuan-Probabilistic Aggregation and Targeted Embedding",
+   "extract_path": "PDF Extracts/2025/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.md",
+   "extract_lines": 2269
+  },
+  {
+   "stem": "2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis",
+   "extract_path": "PDF Extracts/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md",
+   "extract_lines": 2551
+  },
+  {
+   "stem": "2025-Zhang-AISafetyLab",
+   "extract_path": "PDF Extracts/2025/2025-Zhang-AISafetyLab.md",
+   "extract_lines": 1471
+  },
+  {
+   "stem": "2025-Zhang-Cognitive Bias in Generative AI Influences",
+   "extract_path": "PDF Extracts/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.md",
+   "extract_lines": 1166
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "id": "L011",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Anthropic-Sabotage_Evaluations_for_Frontier_Models_2410.13161",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Sabotage_Evaluations_for_Frontier_Models_2410.13161.md",
+   "extract_lines": 1838,
+   "company": "Anthropic",
+   "title": "Sabotage Evaluations for Frontier Models 2410.13161"
+  },
+  {
+   "stem": "Anthropic-Simple_Probes_Detect_Sycophancy_2406.09569",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Simple_Probes_Detect_Sycophancy_2406.09569.md",
+   "extract_lines": 736,
+   "company": "Anthropic",
+   "title": "Simple Probes Detect Sycophancy 2406.09569"
+  },
+  {
+   "stem": "Anthropic-Sleeper_Agents_Training_Deceptive_LLMs_2312.00752",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Sleeper_Agents_Training_Deceptive_LLMs_2312.00752.md",
+   "extract_lines": 2940,
+   "company": "Anthropic",
+   "title": "Sleeper Agents Training Deceptive LLMs 2312.00752"
+  },
+  {
+   "stem": "Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Summer_2025_Pilot_Sabotage_Risk_Report.md",
+   "extract_lines": 3097,
+   "company": "Anthropic",
+   "title": "Summer 2025 Pilot Sabotage Risk Report"
+  }
+ ]
+}

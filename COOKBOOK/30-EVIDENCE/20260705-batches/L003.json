@@ -1,0 +1,13 @@
+{
+ "id": "L003",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093.md",
+   "extract_lines": 9900,
+   "company": "Anthropic",
+   "title": "Alignment Faking in Large Language Models 2412.14093"
+  }
+ ]
+}

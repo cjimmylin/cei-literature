@@ -1,0 +1,32 @@
+{
+ "id": "S050",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of",
+   "extract_path": "PDF Extracts/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.md",
+   "extract_lines": 2694
+  },
+  {
+   "stem": "2024-Tonneau-NaijaHate",
+   "extract_path": "PDF Extracts/2024/2024-Tonneau-NaijaHate.md",
+   "extract_lines": 2564
+  },
+  {
+   "stem": "2024-Tonneau-Turkish Hate Speech Superset Dataset",
+   "extract_path": "PDF Extracts/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.md",
+   "extract_lines": 1160
+  },
+  {
+   "stem": "2024-Toygar-Turkish Offensive Language Detection Dataset",
+   "extract_path": "PDF Extracts/2024/2024-Toygar-Turkish Offensive Language Detection Dataset.md",
+   "extract_lines": 730
+  },
+  {
+   "stem": "2024-Ungless-ETHICS WHITEPAPER",
+   "extract_path": "PDF Extracts/2024/2024-Ungless-ETHICS WHITEPAPER.md",
+   "extract_lines": 1536
+  }
+ ]
+}

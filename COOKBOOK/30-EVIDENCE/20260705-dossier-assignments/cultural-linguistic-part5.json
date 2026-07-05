@@ -1,0 +1,323 @@
+{
+ "theme": "cultural-linguistic",
+ "part": 5,
+ "of": 6,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2019-Basile-SemEval-2019 Task 5",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-Basile-SemEval-2019 Task 5.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Kumar-Evaluating Aggression Identification in Social",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Kumar-Evaluating Aggression Identification in Social.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Pitenis-Offensive Language Identification in Greek",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Pitenis-Offensive Language Identification in Greek.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Yasseri-Detecting Weak and Strong Islamophobic Hate",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2021-Nurce-Detecting Abusive Albanian",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-Nurce-Detecting Abusive Albanian.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Chalkidis-FairLex",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Chalkidis-FairLex.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Aroyo-DICES Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Aroyo-DICES Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Arshad-Understanding hate speech",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Arshad-Understanding hate speech.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Chakravarthi-Findings of the Shared Task on",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Chakravarthi-Findings of the Shared Task on.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Sharma-TABHATE A Target-based Hate Speech Detection",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Sharma-TABHATE A Target-based Hate Speech Detection.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Tonneau-NaijaHate",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Tonneau-NaijaHate.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Xie-CultureLLM Incorporating Cultural Differences into Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Xie-CultureLLM Incorporating Cultural Differences into Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Chakravarthi-Detecting Caste and Migration Hate Speech",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Chakravarthi-Detecting Caste and Migration Hate Speech.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Galea-From Measurement to Mitigation Exploring the Transferability of",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Galea-From Measurement to Mitigation Exploring the Transferability of.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jiao-LLM Ethics Benchmark",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jiao-LLM Ethics Benchmark.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Sah-FairEval Evaluating Fairness in LLM-Based ...",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Sah-FairEval Evaluating Fairness in LLM-Based ....card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Yao-NurValues",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Yao-NurValues.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Khanduja-Telugu Language Hate Speech Detection Using",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Khanduja-Telugu Language Hate Speech Detection Using.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Fenech-Borg-The Cultural Gene of Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Fenech-Borg-The Cultural Gene of Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kumar-UniMoral ACL 2025 Best Resource Paper",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Awad-Crowdsourcing moral machines",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Awad-Crowdsourcing moral machines.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Abbasi-Deep Learning for Religious and Continent-Based",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Abbasi-Deep Learning for Religious and Continent-Based.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Ramponi-Addressing Religious Hate Online From Taxonomy",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Ramponi-Addressing Religious Hate Online From Taxonomy.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-H\u00e4mmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-H\u00e4mmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Abdulhai-Moral Foundations of Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Abdulhai-Moral Foundations of Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Cahyawijaya-High-Dimension Human Value Representation in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Cahyawijaya-High-Dimension Human Value Representation in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Yoo-HyperCLOVA X Technical Report",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Yoo-HyperCLOVA X Technical Report.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Fillies-A novel German TikTok hate speech dataset far-right comments against",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Maldonado-Indigenous Ethics and Artificial Intelligence.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Ray-Incorporating indigenous knowledge systems into AI governance",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Ray-Incorporating indigenous knowledge systems into AI governance.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-team-Incorporating Diverse Perspectives in Cultural Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-team-Incorporating Diverse Perspectives in Cultural Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "2021-DaoistAI-Can a Machine Flow Like Dao",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-DaoistAI-Can a Machine Flow Like Dao.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Insights-Moral Reasoning Humans and LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Insights-Moral Reasoning Humans and LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.card.md",
+   "kind": "paper"
+  }
+ ]
+}

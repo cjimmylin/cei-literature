@@ -1,0 +1,308 @@
+{
+ "theme": "design-space",
+ "part": 1,
+ "of": 4,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2015-Clifford-Moral Foundations Vignettes",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2015-Clifford-Moral Foundations Vignettes.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2018-Rudinger-Gender Bias in Coreference Resolution",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Rudinger-Gender Bias in Coreference Resolution.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2019-De-Arteaga-Bias in Bios",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2019-De-Arteaga-Bias in Bios.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Mollas-ETHOS an Online Hate Speech Detection Dataset",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Hartvigsen-ToxiGen",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Hartvigsen-ToxiGen.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Hopp-The Dutch Moral Foundations Stimulus Database",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Hopp-The Dutch Moral Foundations Stimulus Database.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Rao-What Makes it Ok to Set a Fire Iterative",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Rao-What Makes it Ok to Set a Fire Iterative.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Huang-TrustLLM",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Huang-TrustLLM.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Lee-KorNAT",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Lee-KorNAT.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Sorin-Ethical Alignment of LLMs in Healthcare",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Sorin-Ethical Alignment of LLMs in Healthcare.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Anonymous-BEATS",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Anonymous-BEATS.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Chakraborty-Structured Moral Reasoning",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Chakraborty-Structured Moral Reasoning.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Gao-MIST Moral Inference through Storytelling with Text and Images",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Ju-NaVAB",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Ju-NaVAB.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Sachdeva-Deliberative Dynamics and Value Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Sachdeva-Deliberative Dynamics and Value Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Satheesh-GG-BBQ",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Satheesh-GG-BBQ.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Wang-Measuring Desired Group Discrimination in LLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Wang-Measuring Desired Group Discrimination in LLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Unknown-HOTTEST Hate and Offensive Content Identification",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Unknown-HOTTEST Hate and Offensive Content Identification.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Khanduja-Telugu Language Hate Speech Detection Using",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Khanduja-Telugu Language Hate Speech Detection Using.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Hong-PrinciplismQA",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Hong-PrinciplismQA.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-MoralSycophancy-Moral Sycophancy in VLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-MoralSycophancy-Moral Sycophancy in VLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2016-Xu-How Can a Deontological Decision Lead to Moral",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2016-Xu-How Can a Deontological Decision Lead to Moral.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2018-Kim-Toward Non-Intuition-Based Machine Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Kim-Toward Non-Intuition-Based Machine Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2020-Awad-Crowdsourcing moral machines",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2020-Awad-Crowdsourcing moral machines.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2021-Stenseke-Artificial Virtuous Agents",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-Stenseke-Artificial Virtuous Agents.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Feng-Case Repositories",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Feng-Case Repositories.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-K\u00f6rner-Deontology and Utilitarianism in Real Life",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-K\u00f6rner-Deontology and Utilitarianism in Real Life.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2023-Shen-Large Language Model Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2023-Shen-Large Language Model Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Wilders-Socratic Dialogue for Virtue Ethics in AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-De Montis-Morality in AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-De Montis-Morality in AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Gabriel-AI Alignment as Fair Treatment of Claims",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Gabriel-AI Alignment as Fair Treatment of Claims.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zohny-ADEPT Simulating Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zohny-ADEPT Simulating Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Alibaba (Qwen)-Qwen3_Technical_Report_2505.09388.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Pro_Model_Card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Google DeepMind-Gemini_2.5_Pro_Model_Card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Sanwoolu-Kantian deontology for AI",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Sanwoolu-Kantian deontology for AI.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Terziyan-Towards ethical evolution",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Terziyan-Towards ethical evolution.card.md",
+   "kind": "paper"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "O033",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Kasu-EthicsMH",
+   "extract_path": "PDF Extracts/2025/2025-Kasu-EthicsMH.md",
+   "extract_lines": 1218
+  },
+  {
+   "stem": "2025-Kumar-Are Rules Meant to be Broken",
+   "extract_path": "PDF Extracts/2025/2025-Kumar-Are Rules Meant to be Broken.md",
+   "extract_lines": 2653
+  },
+  {
+   "stem": "2025-Kumar-BengaliMoralBench",
+   "extract_path": "PDF Extracts/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md",
+   "extract_lines": 2983
+  }
+ ]
+}

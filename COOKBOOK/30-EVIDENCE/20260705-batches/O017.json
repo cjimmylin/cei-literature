@@ -1,0 +1,27 @@
+{
+ "id": "O017",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Liu-JAILJUDGE",
+   "extract_path": "PDF Extracts/2024/2024-Liu-JAILJUDGE.md",
+   "extract_lines": 2561
+  },
+  {
+   "stem": "2024-Luong-Realistic Evaluation of Toxicity in Large",
+   "extract_path": "PDF Extracts/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.md",
+   "extract_lines": 1092
+  },
+  {
+   "stem": "2024-Meadows-LocalValueBench",
+   "extract_path": "PDF Extracts/2024/2024-Meadows-LocalValueBench.md",
+   "extract_lines": 851
+  },
+  {
+   "stem": "2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and",
+   "extract_path": "PDF Extracts/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.md",
+   "extract_lines": 2749
+  }
+ ]
+}

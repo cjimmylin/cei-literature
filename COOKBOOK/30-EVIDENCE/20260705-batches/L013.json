@@ -1,0 +1,20 @@
+{
+ "id": "L013",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "DeepSeek-DeepSeek-R1_arxiv_2501.12948",
+   "extract_path": "PDF Extracts/AI Labs/DeepSeek-DeepSeek-R1_arxiv_2501.12948.md",
+   "extract_lines": 5373,
+   "company": "DeepSeek",
+   "title": "DeepSeek R1 arxiv 2501.12948"
+  },
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Pro_Model_Card",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-Gemini_2.5_Pro_Model_Card.md",
+   "extract_lines": 1361,
+   "company": "Google DeepMind",
+   "title": "Gemini 2.5 Pro Model Card"
+  }
+ ]
+}

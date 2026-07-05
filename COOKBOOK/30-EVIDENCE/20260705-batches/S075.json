@@ -1,0 +1,27 @@
+{
+ "id": "S075",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models",
+   "extract_path": "PDF Extracts/2025/2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models.md",
+   "extract_lines": 2439
+  },
+  {
+   "stem": "2025-Liu-Diagnosing Moral Reasoning Acquisition in",
+   "extract_path": "PDF Extracts/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in.md",
+   "extract_lines": 1552
+  },
+  {
+   "stem": "2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large",
+   "extract_path": "PDF Extracts/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.md",
+   "extract_lines": 1308
+  },
+  {
+   "stem": "2025-Machlovi-GuardEval",
+   "extract_path": "PDF Extracts/2025/2025-Machlovi-GuardEval.md",
+   "extract_lines": 1534
+  }
+ ]
+}

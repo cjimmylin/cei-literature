@@ -1,0 +1,32 @@
+{
+ "id": "S067",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Gabriel-AI Alignment as Fair Treatment of Claims",
+   "extract_path": "PDF Extracts/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.md",
+   "extract_lines": 1175
+  },
+  {
+   "stem": "2025-Gao-MIST Moral Inference through Storytelling with Text and Images",
+   "extract_path": "PDF Extracts/2025/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.md",
+   "extract_lines": 913
+  },
+  {
+   "stem": "2025-Gounaris-Virtue in the Machine",
+   "extract_path": "PDF Extracts/2025/2025-Gounaris-Virtue in the Machine.md",
+   "extract_lines": 1374
+  },
+  {
+   "stem": "2025-Graves-AI Practical Wisdom and Compassion",
+   "extract_path": "PDF Extracts/2025/2025-Graves-AI Practical Wisdom and Compassion.md",
+   "extract_lines": 2216
+  },
+  {
+   "stem": "2025-Griffiths-Explicitly Unbiased Large Language Models Still",
+   "extract_path": "PDF Extracts/2025/2025-Griffiths-Explicitly Unbiased Large Language Models Still.md",
+   "extract_lines": 2849
+  }
+ ]
+}

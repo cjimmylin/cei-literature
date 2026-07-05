@@ -1,0 +1,27 @@
+{
+ "id": "S054",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Zangari-A survey on moral foundation theory and pre-trained language models",
+   "extract_path": "PDF Extracts/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.md",
+   "extract_lines": 2692
+  },
+  {
+   "stem": "2024-Zhi-Xuan-Beyond Preferences in AI Alignment",
+   "extract_path": "PDF Extracts/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.md",
+   "extract_lines": 2563
+  },
+  {
+   "stem": "2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning",
+   "extract_path": "PDF Extracts/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md",
+   "extract_lines": 1938
+  },
+  {
+   "stem": "2024-with.pdf-Hate Speech Detection in Low-Resource Bodo and Assamese Texts with",
+   "extract_path": "PDF Extracts/2024/2024-with.pdf-Hate Speech Detection in Low-Resource Bodo and Assamese Texts with.md",
+   "extract_lines": 1268
+  }
+ ]
+}

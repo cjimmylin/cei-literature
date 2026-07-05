@@ -1,0 +1,57 @@
+{
+ "id": "D003",
+ "tier": "sonnet",
+ "mode": "degraded",
+ "papers": [
+  {
+   "stem": "2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to",
+   "paper_path": "papers/2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Hashmi-Enhancing Multilingual Hate Speech Detection From Language-Specific",
+   "paper_path": "papers/2025-Hashmi-Enhancing Multilingual Hate Speech Detection From Language-Specific.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Hendra-Decoding Moral Responses in AI",
+   "paper_path": "papers/2025-Hendra-Decoding Moral Responses in AI.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Hong-PrinciplismQA",
+   "paper_path": "papers/2025-Hong-PrinciplismQA.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-IndigenousEthics-Indigenous Ethics and AI",
+   "paper_path": "papers/2025-IndigenousEthics-Indigenous Ethics and AI.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Insights-Moral Reasoning Humans and LLMs",
+   "paper_path": "papers/2025-Insights-Moral Reasoning Humans and LLMs.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification",
+   "paper_path": "papers/2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Kumar-UniMoral",
+   "paper_path": "papers/2025-Kumar-UniMoral.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-MultiFaith-Faith Ethics Human Dignity AI",
+   "paper_path": "papers/2025-MultiFaith-Faith Ethics Human Dignity AI.md",
+   "extract_quality": "missing"
+  },
+  {
+   "stem": "2025-Muntean-Moral Coherentism Theoretical Framework Muntean",
+   "paper_path": "papers/2025-Muntean-Moral Coherentism Theoretical Framework Muntean.md",
+   "extract_quality": "missing"
+  }
+ ]
+}

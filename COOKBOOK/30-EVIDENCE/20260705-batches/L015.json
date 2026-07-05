@@ -1,0 +1,20 @@
+{
+ "id": "L015",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Google DeepMind-ShieldGemma_arxiv_2407.21772",
+   "extract_path": "PDF Extracts/AI Labs/Google DeepMind-ShieldGemma_arxiv_2407.21772.md",
+   "extract_lines": 936,
+   "company": "Google DeepMind",
+   "title": "ShieldGemma arxiv 2407.21772"
+  },
+  {
+   "stem": "Meta AI-CyberSecEval_3_2408.01605",
+   "extract_path": "PDF Extracts/AI Labs/Meta AI-CyberSecEval_3_2408.01605.md",
+   "extract_lines": 2764,
+   "company": "Meta AI",
+   "title": "CyberSecEval 3 2408.01605"
+  }
+ ]
+}

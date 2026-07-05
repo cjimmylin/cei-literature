@@ -1,0 +1,178 @@
+{
+ "theme": "agentic-multiturn",
+ "part": 2,
+ "of": 2,
+ "generated_at": "2026-07-05T14:10:14",
+ "cards": [
+  {
+   "stem": "2021-Cercas Curry-ConvAbuse",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2021-Cercas Curry-ConvAbuse.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Huang-Moral Persuasion in Large Language Models",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Huang-Moral Persuasion in Large Language Models.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Liu-JAILJUDGE",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Liu-JAILJUDGE.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Qiu-ProgressGym",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Qiu-ProgressGym.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Backmann-When Ethics and Payoffs Diverge",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Backmann-When Ethics and Payoffs Diverge.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Herrador-The PacifAIst Benchmark",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Herrador-The PacifAIst Benchmark.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Levine-Resource Rational Contractualism Should Guide AI Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Sachdeva-Deliberative Dynamics and Value Alignment",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Sachdeva-Deliberative Dynamics and Value Alignment.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2026-MoralSycophancy-Moral Sycophancy in VLMs",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2026-MoralSycophancy-Moral Sycophancy in VLMs.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2018-Behzadan-TrolleyMod v1.0",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2018-Behzadan-TrolleyMod v1.0.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Gabriel-The Ethics of Advanced AI Assistants",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Gabriel-The Ethics of Advanced AI Assistants.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Dubey-Addressing Moral Uncertainty using Large Language",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Dubey-Addressing Moral Uncertainty using Large Language.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Pipitone-Unlocking practical wisdom",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Pipitone-Unlocking practical wisdom.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "2025-Zohny-ADEPT Simulating Ethics",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Zohny-ADEPT Simulating Ethics.card.md",
+   "kind": "paper"
+  },
+  {
+   "stem": "Anthropic-Claude_3.7_Sonnet_System_Card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Claude_3.7_Sonnet_System_Card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Claude_4_Opus_Sonnet_System_Card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Claude_4_Opus_Sonnet_System_Card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Claude_Sonnet_4.5_System_Card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Claude_Sonnet_4.5_System_Card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Anthropic-Responsible_Scaling_Policy_1.0",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Responsible_Scaling_Policy_1.0.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Google DeepMind-Gemini_2.5_Pro_Model_Card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Google DeepMind-Gemini_2.5_Pro_Model_Card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Meta AI-CyberSecEval_3_2408.01605",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Meta AI-CyberSecEval_3_2408.01605.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Meta AI-Llama_3_2407.21783",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Meta AI-Llama_3_2407.21783.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-deep-research-system-card-february-2025",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-deep-research-system-card-february-2025.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-4-5-system-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-4-5-system-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-5-system-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-5-system-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-5.2-system-card-december-2025",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-5.2-system-card-december-2025.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-gpt-oss-model-card-arxiv-2508.10925",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-gpt-oss-model-card-arxiv-2508.10925.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "OpenAI-o3-and-o4-mini-system-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/OpenAI-o3-and-o4-mini-system-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "Zhipu AI-AgentBench_2308.03688",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Zhipu AI-AgentBench_2308.03688.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "xAI-2025-11-17-grok-4-1-model-card",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/xAI-2025-11-17-grok-4-1-model-card.card.md",
+   "kind": "lab"
+  },
+  {
+   "stem": "2025-Terziyan-Towards ethical evolution",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-cards/2025-Terziyan-Towards ethical evolution.card.md",
+   "kind": "paper"
+  }
+ ]
+}

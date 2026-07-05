@@ -1,0 +1,27 @@
+{
+ "id": "S060",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority",
+   "extract_path": "PDF Extracts/2025/2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md",
+   "extract_lines": 1287
+  },
+  {
+   "stem": "2025-Brophy-Wide Reflective Equilibrium LLM Alignment",
+   "extract_path": "PDF Extracts/2025/2025-Brophy-Wide Reflective Equilibrium LLM Alignment.md",
+   "extract_lines": 1226
+  },
+  {
+   "stem": "2025-Bryan-Virtue Ethics and Postponing Human Extinction",
+   "extract_path": "PDF Extracts/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.md",
+   "extract_lines": 448
+  },
+  {
+   "stem": "2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects",
+   "extract_path": "PDF Extracts/2025/2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects.md",
+   "extract_lines": 4293
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "S071",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ...",
+   "extract_path": "PDF Extracts/2025/2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....md",
+   "extract_lines": 2004
+  },
+  {
+   "stem": "2025-Jotautaite-From Stability to Inconsistency",
+   "extract_path": "PDF Extracts/2025/2025-Jotautaite-From Stability to Inconsistency.md",
+   "extract_lines": 842
+  },
+  {
+   "stem": "2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the",
+   "extract_path": "PDF Extracts/2025/2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.md",
+   "extract_lines": 394
+  },
+  {
+   "stem": "2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ...",
+   "extract_path": "PDF Extracts/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md",
+   "extract_lines": 595
+  },
+  {
+   "stem": "2025-Kasirzadeh-Characterizing AI Agents for Alignment and",
+   "extract_path": "PDF Extracts/2025/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.md",
+   "extract_lines": 1409
+  },
+  {
+   "stem": "2025-Keshmirian-Many LLMs Are More Utilitarian Than One",
+   "extract_path": "PDF Extracts/2025/2025-Keshmirian-Many LLMs Are More Utilitarian Than One.md",
+   "extract_lines": 2657
+  }
+ ]
+}

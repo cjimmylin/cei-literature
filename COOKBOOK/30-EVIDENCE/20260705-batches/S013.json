@@ -1,0 +1,47 @@
+{
+ "id": "S013",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2021-Taul\u00e9-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments",
+   "extract_path": "PDF Extracts/2021/2021-Taul\u00e9-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md",
+   "extract_lines": 1766
+  },
+  {
+   "stem": "2021-Wang-MedAI at SemEval-2021 Task 5",
+   "extract_path": "PDF Extracts/2021/2021-Wang-MedAI at SemEval-2021 Task 5.md",
+   "extract_lines": 502
+  },
+  {
+   "stem": "2022-Abbasi-Deep Learning for Religious and Continent-Based",
+   "extract_path": "PDF Extracts/2022/2022-Abbasi-Deep Learning for Religious and Continent-Based.md",
+   "extract_lines": 1102
+  },
+  {
+   "stem": "2022-Bang-Enabling Classifiers to Make Judgements",
+   "extract_path": "PDF Extracts/2022/2022-Bang-Enabling Classifiers to Make Judgements.md",
+   "extract_lines": 1518
+  },
+  {
+   "stem": "2022-Beyhan-A Turkish Hate Speech Dataset and Detection System",
+   "extract_path": "PDF Extracts/2022/2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md",
+   "extract_lines": 1160
+  },
+  {
+   "stem": "2022-Constantinescu-Can Robotic AI Be Virtuous",
+   "extract_path": "PDF Extracts/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.md",
+   "extract_lines": 580
+  },
+  {
+   "stem": "2022-Das-Hate Speech and Offensive Language Detection",
+   "extract_path": "PDF Extracts/2022/2022-Das-Hate Speech and Offensive Language Detection.md",
+   "extract_lines": 1438
+  },
+  {
+   "stem": "2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media",
+   "extract_path": "PDF Extracts/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.md",
+   "extract_lines": 776
+  }
+ ]
+}

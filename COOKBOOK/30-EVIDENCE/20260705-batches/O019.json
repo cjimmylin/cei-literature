@@ -1,0 +1,27 @@
+{
+ "id": "O019",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Ren-Safetywashing",
+   "extract_path": "PDF Extracts/2024/2024-Ren-Safetywashing.md",
+   "extract_lines": 3103
+  },
+  {
+   "stem": "2024-R\u00f6ttger-XSTest",
+   "extract_path": "PDF Extracts/2024/2024-R\u00f6ttger-XSTest.md",
+   "extract_lines": 2480
+  },
+  {
+   "stem": "2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context",
+   "extract_path": "PDF Extracts/2024/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md",
+   "extract_lines": 2627
+  },
+  {
+   "stem": "2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity",
+   "extract_path": "PDF Extracts/2024/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.md",
+   "extract_lines": 417
+  }
+ ]
+}

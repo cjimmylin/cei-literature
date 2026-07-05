@@ -1,0 +1,47 @@
+{
+ "id": "S004",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2018-Crone-The Socio-Moral Image Database (SMID)",
+   "extract_path": "PDF Extracts/2018/2018-Crone-The Socio-Moral Image Database (SMID).md",
+   "extract_lines": 2147
+  },
+  {
+   "stem": "2018-Dixon-Measuring and Mitigating Unintended Bias in Text",
+   "extract_path": "PDF Extracts/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md",
+   "extract_lines": 725
+  },
+  {
+   "stem": "2018-Kim-Toward Non-Intuition-Based Machine Ethics",
+   "extract_path": "PDF Extracts/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.md",
+   "extract_lines": 867
+  },
+  {
+   "stem": "2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments",
+   "extract_path": "PDF Extracts/2018/2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments.md",
+   "extract_lines": 879
+  },
+  {
+   "stem": "2018-Noothigattu-A Voting-Based System for Ethical Decision Making",
+   "extract_path": "PDF Extracts/2018/2018-Noothigattu-A Voting-Based System for Ethical Decision Making.md",
+   "extract_lines": 1519
+  },
+  {
+   "stem": "2018-Rudinger-Gender Bias in Coreference Resolution",
+   "extract_path": "PDF Extracts/2018/2018-Rudinger-Gender Bias in Coreference Resolution.md",
+   "extract_lines": 717
+  },
+  {
+   "stem": "2019-Aliman-Requisite Variety Ethical Utility Functions",
+   "extract_path": "PDF Extracts/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.md",
+   "extract_lines": 874
+  },
+  {
+   "stem": "2019-Basile-SemEval-2019 Task 5",
+   "extract_path": "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5.md",
+   "extract_lines": 1230
+  }
+ ]
+}

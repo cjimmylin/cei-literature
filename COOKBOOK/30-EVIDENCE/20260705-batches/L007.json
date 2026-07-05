@@ -1,0 +1,20 @@
+{
+ "id": "L007",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "Anthropic-Claude_Sonnet_4.5_System_Card",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Claude_Sonnet_4.5_System_Card.md",
+   "extract_lines": 5347,
+   "company": "Anthropic",
+   "title": "Claude Sonnet 4.5 System Card"
+  },
+  {
+   "stem": "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548",
+   "extract_path": "PDF Extracts/AI Labs/Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548.md",
+   "extract_lines": 2735,
+   "company": "Anthropic",
+   "title": "Collective Constitutional AI Democratizing AI Alignment 2310.13548"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "id": "S065",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2025-Drukker-Concerns and Values in Human-Robot Interactions",
+   "extract_path": "PDF Extracts/2025/2025-Drukker-Concerns and Values in Human-Robot Interactions.md",
+   "extract_lines": 3187
+  },
+  {
+   "stem": "2025-Dubey-Addressing Moral Uncertainty using Large Language",
+   "extract_path": "PDF Extracts/2025/2025-Dubey-Addressing Moral Uncertainty using Large Language.md",
+   "extract_lines": 1537
+  },
+  {
+   "stem": "2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in",
+   "extract_path": "PDF Extracts/2025/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.md",
+   "extract_lines": 1542
+  },
+  {
+   "stem": "2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation",
+   "extract_path": "PDF Extracts/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md",
+   "extract_lines": 393
+  },
+  {
+   "stem": "2025-El Masri-Towards Attuned AI",
+   "extract_path": "PDF Extracts/2025/2025-El Masri-Towards Attuned AI.md",
+   "extract_lines": 412
+  }
+ ]
+}

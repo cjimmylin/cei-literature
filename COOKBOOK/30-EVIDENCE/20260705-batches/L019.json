@@ -1,0 +1,34 @@
+{
+ "id": "L019",
+ "tier": "sonnet",
+ "papers": [
+  {
+   "stem": "OpenAI-deliberative-alignment-arxiv-2412.16720",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-deliberative-alignment-arxiv-2412.16720.md",
+   "extract_lines": 2586,
+   "company": "OpenAI",
+   "title": "deliberative alignment arxiv 2412.16720"
+  },
+  {
+   "stem": "OpenAI-dpo-direct-preference-optimization",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-dpo-direct-preference-optimization.md",
+   "extract_lines": 2023,
+   "company": "OpenAI",
+   "title": "dpo direct preference optimization"
+  },
+  {
+   "stem": "OpenAI-gpt-4-5-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-5-system-card.md",
+   "extract_lines": 1527,
+   "company": "OpenAI",
+   "title": "gpt 4 5 system card"
+  },
+  {
+   "stem": "OpenAI-gpt-4-system-card",
+   "extract_path": "PDF Extracts/AI Labs/OpenAI-gpt-4-system-card.md",
+   "extract_lines": 2788,
+   "company": "OpenAI",
+   "title": "gpt 4 system card"
+  }
+ ]
+}

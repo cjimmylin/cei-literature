@@ -1,0 +1,37 @@
+{
+ "id": "S041",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Kirgis-Differences in Moral Foundations of LLMs",
+   "extract_path": "PDF Extracts/2024/2024-Kirgis-Differences in Moral Foundations of LLMs.md",
+   "extract_lines": 471
+  },
+  {
+   "stem": "2024-Kyriacou-Artificial Moral Intelligence Aristotelian",
+   "extract_path": "PDF Extracts/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.md",
+   "extract_lines": 1152
+  },
+  {
+   "stem": "2024-Lazar-Frontier AI Ethics",
+   "extract_path": "PDF Extracts/2024/2024-Lazar-Frontier AI Ethics.md",
+   "extract_lines": 725
+  },
+  {
+   "stem": "2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A",
+   "extract_path": "PDF Extracts/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.md",
+   "extract_lines": 1226
+  },
+  {
+   "stem": "2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages",
+   "extract_path": "PDF Extracts/2024/2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.md",
+   "extract_lines": 2437
+  },
+  {
+   "stem": "2024-Liu-Detecting Anti-Semitic Hate Speech Using Transformer-Based",
+   "extract_path": "PDF Extracts/2024/2024-Liu-Detecting Anti-Semitic Hate Speech Using Transformer-Based.md",
+   "extract_lines": 923
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "S052",
+ "tier": "sonnet",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of",
+   "extract_path": "PDF Extracts/2024/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md",
+   "extract_lines": 921
+  },
+  {
+   "stem": "2024-Wilders-Socratic Dialogue for Virtue Ethics in AI",
+   "extract_path": "PDF Extracts/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.md",
+   "extract_lines": 1394
+  },
+  {
+   "stem": "2024-Woodgate-Macro Ethics Principles for Responsible AI Systems",
+   "extract_path": "PDF Extracts/2024/2024-Woodgate-Macro Ethics Principles for Responsible AI Systems.md",
+   "extract_lines": 2731
+  },
+  {
+   "stem": "2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios",
+   "extract_path": "PDF Extracts/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.md",
+   "extract_lines": 1562
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "O020",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Seror-The Moral Mind(s) of Large Language Models",
+   "extract_path": "PDF Extracts/2024/2024-Seror-The Moral Mind(s) of Large Language Models.md",
+   "extract_lines": 1795
+  },
+  {
+   "stem": "2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna",
+   "extract_path": "PDF Extracts/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md",
+   "extract_lines": 1169
+  },
+  {
+   "stem": "2024-Simpson-Parity Benchmark for Measuring Bias in",
+   "extract_path": "PDF Extracts/2024/2024-Simpson-Parity Benchmark for Measuring Bias in.md",
+   "extract_lines": 1559
+  },
+  {
+   "stem": "2024-Team-FABLE Fairness and Bias in LLM Evaluation",
+   "extract_path": "PDF Extracts/2024/2024-Team-FABLE Fairness and Bias in LLM Evaluation.md",
+   "extract_lines": 2733
+  }
+ ]
+}

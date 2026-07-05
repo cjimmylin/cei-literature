@@ -1,0 +1,27 @@
+{
+ "id": "O021",
+ "tier": "opus",
+ "mode": "full",
+ "papers": [
+  {
+   "stem": "2024-Vladimirova-FairJob",
+   "extract_path": "PDF Extracts/2024/2024-Vladimirova-FairJob.md",
+   "extract_lines": 1980
+  },
+  {
+   "stem": "2024-Yan-M$^3$oralBench",
+   "extract_path": "PDF Extracts/2024/2024-Yan-M$^3$oralBench.md",
+   "extract_lines": 1632
+  },
+  {
+   "stem": "2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity",
+   "extract_path": "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md",
+   "extract_lines": 815
+  },
+  {
+   "stem": "2024-Yoo-HyperCLOVA X Technical Report",
+   "extract_path": "PDF Extracts/2024/2024-Yoo-HyperCLOVA X Technical Report.md",
+   "extract_lines": 3785
+  }
+ ]
+}

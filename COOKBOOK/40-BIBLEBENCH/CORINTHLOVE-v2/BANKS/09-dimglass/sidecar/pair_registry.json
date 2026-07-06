@@ -1,0 +1,894 @@
+{
+ "private": {
+  "d2-private-0000": {
+   "valid": "DIMGLASS-QNT-0001",
+   "invalid": "DIMGLASS-QNT-0002"
+  },
+  "d2-private-0001": {
+   "valid": "DIMGLASS-COR-0001",
+   "invalid": "DIMGLASS-COR-0002"
+  },
+  "d2-private-0002": {
+   "valid": "DIMGLASS-COD-0001",
+   "invalid": "DIMGLASS-COD-0002"
+  },
+  "d2-private-0003": {
+   "valid": "DIMGLASS-LOG-0001",
+   "invalid": "DIMGLASS-LOG-0002"
+  },
+  "d2-private-0004": {
+   "valid": "DIMGLASS-RDG-0001",
+   "invalid": "DIMGLASS-RDG-0002"
+  },
+  "d2-private-0005": {
+   "valid": "DIMGLASS-QNT-0003",
+   "invalid": "DIMGLASS-QNT-0004"
+  },
+  "d2-private-0006": {
+   "valid": "DIMGLASS-COR-0003",
+   "invalid": "DIMGLASS-COR-0004"
+  },
+  "d2-private-0007": {
+   "valid": "DIMGLASS-COD-0003",
+   "invalid": "DIMGLASS-COD-0004"
+  },
+  "d2-private-0008": {
+   "valid": "DIMGLASS-LOG-0003",
+   "invalid": "DIMGLASS-LOG-0004"
+  },
+  "d2-private-0009": {
+   "valid": "DIMGLASS-RDG-0003",
+   "invalid": "DIMGLASS-RDG-0004"
+  },
+  "d2-private-0010": {
+   "valid": "DIMGLASS-QNT-0005",
+   "invalid": "DIMGLASS-QNT-0006"
+  },
+  "d2-private-0011": {
+   "valid": "DIMGLASS-COR-0005",
+   "invalid": "DIMGLASS-COR-0006"
+  },
+  "d2-private-0012": {
+   "valid": "DIMGLASS-COD-0005",
+   "invalid": "DIMGLASS-COD-0006"
+  },
+  "d2-private-0013": {
+   "valid": "DIMGLASS-LOG-0005",
+   "invalid": "DIMGLASS-LOG-0006"
+  },
+  "d2-private-0014": {
+   "valid": "DIMGLASS-RDG-0005",
+   "invalid": "DIMGLASS-RDG-0006"
+  },
+  "d2-private-0015": {
+   "valid": "DIMGLASS-QNT-0007",
+   "invalid": "DIMGLASS-QNT-0008"
+  },
+  "d2-private-0016": {
+   "valid": "DIMGLASS-COR-0007",
+   "invalid": "DIMGLASS-COR-0008"
+  },
+  "d2-private-0017": {
+   "valid": "DIMGLASS-COD-0007",
+   "invalid": "DIMGLASS-COD-0008"
+  },
+  "d2-private-0018": {
+   "valid": "DIMGLASS-LOG-0007",
+   "invalid": "DIMGLASS-LOG-0008"
+  },
+  "d2-private-0019": {
+   "valid": "DIMGLASS-RDG-0007",
+   "invalid": "DIMGLASS-RDG-0008"
+  },
+  "d2-private-0020": {
+   "valid": "DIMGLASS-QNT-0009",
+   "invalid": "DIMGLASS-QNT-0010"
+  },
+  "d2-private-0021": {
+   "valid": "DIMGLASS-COR-0009",
+   "invalid": "DIMGLASS-COR-0010"
+  },
+  "d2-private-0022": {
+   "valid": "DIMGLASS-COD-0009",
+   "invalid": "DIMGLASS-COD-0010"
+  },
+  "d2-private-0023": {
+   "valid": "DIMGLASS-LOG-0009",
+   "invalid": "DIMGLASS-LOG-0010"
+  },
+  "d2-private-0024": {
+   "valid": "DIMGLASS-RDG-0009",
+   "invalid": "DIMGLASS-RDG-0010"
+  },
+  "d2-private-0025": {
+   "valid": "DIMGLASS-QNT-0011",
+   "invalid": "DIMGLASS-QNT-0012"
+  },
+  "d2-private-0026": {
+   "valid": "DIMGLASS-COR-0011",
+   "invalid": "DIMGLASS-COR-0012"
+  },
+  "d2-private-0027": {
+   "valid": "DIMGLASS-COD-0011",
+   "invalid": "DIMGLASS-COD-0012"
+  },
+  "d2-private-0028": {
+   "valid": "DIMGLASS-LOG-0011",
+   "invalid": "DIMGLASS-LOG-0012"
+  },
+  "d2-private-0029": {
+   "valid": "DIMGLASS-RDG-0011",
+   "invalid": "DIMGLASS-RDG-0012"
+  },
+  "d2-private-0030": {
+   "valid": "DIMGLASS-QNT-0013",
+   "invalid": "DIMGLASS-QNT-0014"
+  },
+  "d2-private-0031": {
+   "valid": "DIMGLASS-COR-0013",
+   "invalid": "DIMGLASS-COR-0014"
+  },
+  "d2-private-0032": {
+   "valid": "DIMGLASS-COD-0013",
+   "invalid": "DIMGLASS-COD-0014"
+  },
+  "d2-private-0033": {
+   "valid": "DIMGLASS-LOG-0013",
+   "invalid": "DIMGLASS-LOG-0014"
+  },
+  "d2-private-0034": {
+   "valid": "DIMGLASS-RDG-0013",
+   "invalid": "DIMGLASS-RDG-0014"
+  },
+  "d2-private-0035": {
+   "valid": "DIMGLASS-QNT-0015",
+   "invalid": "DIMGLASS-QNT-0016"
+  },
+  "d2-private-0036": {
+   "valid": "DIMGLASS-COR-0015",
+   "invalid": "DIMGLASS-COR-0016"
+  },
+  "d2-private-0037": {
+   "valid": "DIMGLASS-COD-0015",
+   "invalid": "DIMGLASS-COD-0016"
+  },
+  "d2-private-0038": {
+   "valid": "DIMGLASS-LOG-0015",
+   "invalid": "DIMGLASS-LOG-0016"
+  },
+  "d2-private-0039": {
+   "valid": "DIMGLASS-RDG-0015",
+   "invalid": "DIMGLASS-RDG-0016"
+  },
+  "d2-private-0040": {
+   "valid": "DIMGLASS-QNT-0017",
+   "invalid": "DIMGLASS-QNT-0018"
+  },
+  "d2-private-0041": {
+   "valid": "DIMGLASS-COR-0017",
+   "invalid": "DIMGLASS-COR-0018"
+  },
+  "d2-private-0042": {
+   "valid": "DIMGLASS-COD-0017",
+   "invalid": "DIMGLASS-COD-0018"
+  },
+  "d2-private-0043": {
+   "valid": "DIMGLASS-LOG-0017",
+   "invalid": "DIMGLASS-LOG-0018"
+  },
+  "d2-private-0044": {
+   "valid": "DIMGLASS-RDG-0017",
+   "invalid": "DIMGLASS-RDG-0018"
+  },
+  "d2-private-0045": {
+   "valid": "DIMGLASS-QNT-0019",
+   "invalid": "DIMGLASS-QNT-0020"
+  },
+  "d2-private-0046": {
+   "valid": "DIMGLASS-COR-0019",
+   "invalid": "DIMGLASS-COR-0020"
+  },
+  "d2-private-0047": {
+   "valid": "DIMGLASS-COD-0019",
+   "invalid": "DIMGLASS-COD-0020"
+  },
+  "d2-private-0048": {
+   "valid": "DIMGLASS-LOG-0019",
+   "invalid": "DIMGLASS-LOG-0020"
+  },
+  "d2-private-0049": {
+   "valid": "DIMGLASS-RDG-0019",
+   "invalid": "DIMGLASS-RDG-0020"
+  },
+  "d2-private-0050": {
+   "valid": "DIMGLASS-QNT-0021",
+   "invalid": "DIMGLASS-QNT-0022"
+  },
+  "d2-private-0051": {
+   "valid": "DIMGLASS-COR-0021",
+   "invalid": "DIMGLASS-COR-0022"
+  },
+  "d2-private-0052": {
+   "valid": "DIMGLASS-COD-0021",
+   "invalid": "DIMGLASS-COD-0022"
+  },
+  "d2-private-0053": {
+   "valid": "DIMGLASS-LOG-0021",
+   "invalid": "DIMGLASS-LOG-0022"
+  },
+  "d2-private-0054": {
+   "valid": "DIMGLASS-RDG-0021",
+   "invalid": "DIMGLASS-RDG-0022"
+  },
+  "d2-private-0055": {
+   "valid": "DIMGLASS-QNT-0023",
+   "invalid": "DIMGLASS-QNT-0024"
+  },
+  "d2-private-0056": {
+   "valid": "DIMGLASS-COR-0023",
+   "invalid": "DIMGLASS-COR-0024"
+  },
+  "d2-private-0057": {
+   "valid": "DIMGLASS-COD-0023",
+   "invalid": "DIMGLASS-COD-0024"
+  },
+  "d2-private-0058": {
+   "valid": "DIMGLASS-LOG-0023",
+   "invalid": "DIMGLASS-LOG-0024"
+  },
+  "d2-private-0059": {
+   "valid": "DIMGLASS-RDG-0023",
+   "invalid": "DIMGLASS-RDG-0024"
+  },
+  "d2-private-0060": {
+   "valid": "DIMGLASS-QNT-0025",
+   "invalid": "DIMGLASS-QNT-0026"
+  },
+  "d2-private-0061": {
+   "valid": "DIMGLASS-COR-0025",
+   "invalid": "DIMGLASS-COR-0026"
+  },
+  "d2-private-0062": {
+   "valid": "DIMGLASS-COD-0025",
+   "invalid": "DIMGLASS-COD-0026"
+  },
+  "d2-private-0063": {
+   "valid": "DIMGLASS-LOG-0025",
+   "invalid": "DIMGLASS-LOG-0026"
+  },
+  "d2-private-0064": {
+   "valid": "DIMGLASS-RDG-0025",
+   "invalid": "DIMGLASS-RDG-0026"
+  },
+  "d2-private-0065": {
+   "valid": "DIMGLASS-QNT-0027",
+   "invalid": "DIMGLASS-QNT-0028"
+  },
+  "d2-private-0066": {
+   "valid": "DIMGLASS-COR-0027",
+   "invalid": "DIMGLASS-COR-0028"
+  },
+  "d2-private-0067": {
+   "valid": "DIMGLASS-COD-0027",
+   "invalid": "DIMGLASS-COD-0028"
+  },
+  "d2-private-0068": {
+   "valid": "DIMGLASS-LOG-0027",
+   "invalid": "DIMGLASS-LOG-0028"
+  },
+  "d2-private-0069": {
+   "valid": "DIMGLASS-RDG-0027",
+   "invalid": "DIMGLASS-RDG-0028"
+  },
+  "d2-private-0070": {
+   "valid": "DIMGLASS-QNT-0029",
+   "invalid": "DIMGLASS-QNT-0030"
+  },
+  "d2-private-0071": {
+   "valid": "DIMGLASS-COR-0029",
+   "invalid": "DIMGLASS-COR-0030"
+  },
+  "d2-private-0072": {
+   "valid": "DIMGLASS-COD-0029",
+   "invalid": "DIMGLASS-COD-0030"
+  },
+  "d2-private-0073": {
+   "valid": "DIMGLASS-LOG-0029",
+   "invalid": "DIMGLASS-LOG-0030"
+  },
+  "d2-private-0074": {
+   "valid": "DIMGLASS-RDG-0029",
+   "invalid": "DIMGLASS-RDG-0030"
+  },
+  "d2-private-0075": {
+   "valid": "DIMGLASS-QNT-0031",
+   "invalid": "DIMGLASS-QNT-0032"
+  },
+  "d2-private-0076": {
+   "valid": "DIMGLASS-COR-0031",
+   "invalid": "DIMGLASS-COR-0032"
+  },
+  "d2-private-0077": {
+   "valid": "DIMGLASS-COD-0031",
+   "invalid": "DIMGLASS-COD-0032"
+  },
+  "d2-private-0078": {
+   "valid": "DIMGLASS-LOG-0031",
+   "invalid": "DIMGLASS-LOG-0032"
+  },
+  "d2-private-0079": {
+   "valid": "DIMGLASS-RDG-0031",
+   "invalid": "DIMGLASS-RDG-0032"
+  },
+  "d2-private-0080": {
+   "valid": "DIMGLASS-QNT-0033",
+   "invalid": "DIMGLASS-QNT-0034"
+  },
+  "d2-private-0081": {
+   "valid": "DIMGLASS-COR-0033",
+   "invalid": "DIMGLASS-COR-0034"
+  },
+  "d2-private-0082": {
+   "valid": "DIMGLASS-COD-0033",
+   "invalid": "DIMGLASS-COD-0034"
+  },
+  "d2-private-0083": {
+   "valid": "DIMGLASS-LOG-0033",
+   "invalid": "DIMGLASS-LOG-0034"
+  },
+  "d2-private-0084": {
+   "valid": "DIMGLASS-RDG-0033",
+   "invalid": "DIMGLASS-RDG-0034"
+  },
+  "d2-private-0085": {
+   "valid": "DIMGLASS-QNT-0035",
+   "invalid": "DIMGLASS-QNT-0036"
+  },
+  "d2-private-0086": {
+   "valid": "DIMGLASS-COR-0035",
+   "invalid": "DIMGLASS-COR-0036"
+  },
+  "d2-private-0087": {
+   "valid": "DIMGLASS-COD-0035",
+   "invalid": "DIMGLASS-COD-0036"
+  },
+  "d2-private-0088": {
+   "valid": "DIMGLASS-LOG-0035",
+   "invalid": "DIMGLASS-LOG-0036"
+  },
+  "d2-private-0089": {
+   "valid": "DIMGLASS-RDG-0035",
+   "invalid": "DIMGLASS-RDG-0036"
+  },
+  "d2-private-0090": {
+   "valid": "DIMGLASS-QNT-0037",
+   "invalid": "DIMGLASS-QNT-0038"
+  },
+  "d2-private-0091": {
+   "valid": "DIMGLASS-COR-0037",
+   "invalid": "DIMGLASS-COR-0038"
+  },
+  "d2-private-0092": {
+   "valid": "DIMGLASS-COD-0037",
+   "invalid": "DIMGLASS-COD-0038"
+  },
+  "d2-private-0093": {
+   "valid": "DIMGLASS-LOG-0037",
+   "invalid": "DIMGLASS-LOG-0038"
+  },
+  "d2-private-0094": {
+   "valid": "DIMGLASS-RDG-0037",
+   "invalid": "DIMGLASS-RDG-0038"
+  },
+  "d2-private-0095": {
+   "valid": "DIMGLASS-QNT-0039",
+   "invalid": "DIMGLASS-QNT-0040"
+  },
+  "d2-private-0096": {
+   "valid": "DIMGLASS-COR-0039",
+   "invalid": "DIMGLASS-COR-0040"
+  },
+  "d2-private-0097": {
+   "valid": "DIMGLASS-COD-0039",
+   "invalid": "DIMGLASS-COD-0040"
+  },
+  "d2-private-0098": {
+   "valid": "DIMGLASS-LOG-0039",
+   "invalid": "DIMGLASS-LOG-0040"
+  },
+  "d2-private-0099": {
+   "valid": "DIMGLASS-RDG-0039",
+   "invalid": "DIMGLASS-RDG-0040"
+  },
+  "d2-private-0100": {
+   "valid": "DIMGLASS-QNT-0041",
+   "invalid": "DIMGLASS-QNT-0042"
+  },
+  "d2-private-0101": {
+   "valid": "DIMGLASS-COR-0041",
+   "invalid": "DIMGLASS-COR-0042"
+  },
+  "d2-private-0102": {
+   "valid": "DIMGLASS-COD-0041",
+   "invalid": "DIMGLASS-COD-0042"
+  },
+  "d2-private-0103": {
+   "valid": "DIMGLASS-LOG-0041",
+   "invalid": "DIMGLASS-LOG-0042"
+  },
+  "d2-private-0104": {
+   "valid": "DIMGLASS-RDG-0041",
+   "invalid": "DIMGLASS-RDG-0042"
+  },
+  "d2-private-0105": {
+   "valid": "DIMGLASS-QNT-0043",
+   "invalid": "DIMGLASS-QNT-0044"
+  },
+  "d2-private-0106": {
+   "valid": "DIMGLASS-COR-0043",
+   "invalid": "DIMGLASS-COR-0044"
+  },
+  "d2-private-0107": {
+   "valid": "DIMGLASS-COD-0043",
+   "invalid": "DIMGLASS-COD-0044"
+  },
+  "d3-private-0000": {
+   "valid": "DIMGLASS-LOG-0043",
+   "invalid": "DIMGLASS-LOG-0044"
+  },
+  "d3-private-0001": {
+   "valid": "DIMGLASS-RDG-0043",
+   "invalid": "DIMGLASS-RDG-0044"
+  },
+  "d3-private-0002": {
+   "valid": "DIMGLASS-QNT-0045",
+   "invalid": "DIMGLASS-QNT-0046"
+  },
+  "d3-private-0003": {
+   "valid": "DIMGLASS-COR-0045",
+   "invalid": "DIMGLASS-COR-0046"
+  },
+  "d3-private-0004": {
+   "valid": "DIMGLASS-COD-0045",
+   "invalid": "DIMGLASS-COD-0046"
+  },
+  "d3-private-0005": {
+   "valid": "DIMGLASS-LOG-0045",
+   "invalid": "DIMGLASS-LOG-0046"
+  },
+  "d3-private-0006": {
+   "valid": "DIMGLASS-RDG-0045",
+   "invalid": "DIMGLASS-RDG-0046"
+  },
+  "d3-private-0007": {
+   "valid": "DIMGLASS-QNT-0047",
+   "invalid": "DIMGLASS-QNT-0048"
+  },
+  "d3-private-0008": {
+   "valid": "DIMGLASS-COR-0047",
+   "invalid": "DIMGLASS-COR-0048"
+  },
+  "d3-private-0009": {
+   "valid": "DIMGLASS-COD-0047",
+   "invalid": "DIMGLASS-COD-0048"
+  },
+  "d3-private-0010": {
+   "valid": "DIMGLASS-LOG-0047",
+   "invalid": "DIMGLASS-LOG-0048"
+  },
+  "d3-private-0011": {
+   "valid": "DIMGLASS-RDG-0047",
+   "invalid": "DIMGLASS-RDG-0048"
+  },
+  "d3-private-0012": {
+   "valid": "DIMGLASS-QNT-0049",
+   "invalid": "DIMGLASS-QNT-0050"
+  },
+  "d3-private-0013": {
+   "valid": "DIMGLASS-COR-0049",
+   "invalid": "DIMGLASS-COR-0050"
+  },
+  "d3-private-0014": {
+   "valid": "DIMGLASS-COD-0049",
+   "invalid": "DIMGLASS-COD-0050"
+  },
+  "d3-private-0015": {
+   "valid": "DIMGLASS-LOG-0049",
+   "invalid": "DIMGLASS-LOG-0050"
+  },
+  "d3-private-0016": {
+   "valid": "DIMGLASS-RDG-0049",
+   "invalid": "DIMGLASS-RDG-0050"
+  },
+  "d3-private-0017": {
+   "valid": "DIMGLASS-QNT-0051",
+   "invalid": "DIMGLASS-QNT-0052"
+  },
+  "d3-private-0018": {
+   "valid": "DIMGLASS-COR-0051",
+   "invalid": "DIMGLASS-COR-0052"
+  },
+  "d3-private-0019": {
+   "valid": "DIMGLASS-COD-0051",
+   "invalid": "DIMGLASS-COD-0052"
+  },
+  "d3-private-0020": {
+   "valid": "DIMGLASS-LOG-0051",
+   "invalid": "DIMGLASS-LOG-0052"
+  },
+  "d3-private-0021": {
+   "valid": "DIMGLASS-RDG-0051",
+   "invalid": "DIMGLASS-RDG-0052"
+  },
+  "d3-private-0022": {
+   "valid": "DIMGLASS-QNT-0053",
+   "invalid": "DIMGLASS-QNT-0054"
+  },
+  "d3-private-0023": {
+   "valid": "DIMGLASS-COR-0053",
+   "invalid": "DIMGLASS-COR-0054"
+  },
+  "d3-private-0024": {
+   "valid": "DIMGLASS-COD-0053",
+   "invalid": "DIMGLASS-COD-0054"
+  },
+  "d3-private-0025": {
+   "valid": "DIMGLASS-LOG-0053",
+   "invalid": "DIMGLASS-LOG-0054"
+  },
+  "d3-private-0026": {
+   "valid": "DIMGLASS-RDG-0053",
+   "invalid": "DIMGLASS-RDG-0054"
+  },
+  "d3-private-0027": {
+   "valid": "DIMGLASS-QNT-0055",
+   "invalid": "DIMGLASS-QNT-0056"
+  },
+  "d3-private-0028": {
+   "valid": "DIMGLASS-COR-0055",
+   "invalid": "DIMGLASS-COR-0056"
+  },
+  "d3-private-0029": {
+   "valid": "DIMGLASS-COD-0055",
+   "invalid": "DIMGLASS-COD-0056"
+  },
+  "d3-private-0030": {
+   "valid": "DIMGLASS-LOG-0055",
+   "invalid": "DIMGLASS-LOG-0056"
+  },
+  "d3-private-0031": {
+   "valid": "DIMGLASS-RDG-0055",
+   "invalid": "DIMGLASS-RDG-0056"
+  },
+  "d3-private-0032": {
+   "valid": "DIMGLASS-QNT-0057",
+   "invalid": "DIMGLASS-QNT-0058"
+  },
+  "d3-private-0033": {
+   "valid": "DIMGLASS-COR-0057",
+   "invalid": "DIMGLASS-COR-0058"
+  },
+  "d3-private-0034": {
+   "valid": "DIMGLASS-COD-0057",
+   "invalid": "DIMGLASS-COD-0058"
+  },
+  "d3-private-0035": {
+   "valid": "DIMGLASS-LOG-0057",
+   "invalid": "DIMGLASS-LOG-0058"
+  },
+  "d3-private-0036": {
+   "valid": "DIMGLASS-RDG-0057",
+   "invalid": "DIMGLASS-RDG-0058"
+  },
+  "d3-private-0037": {
+   "valid": "DIMGLASS-QNT-0059",
+   "invalid": "DIMGLASS-QNT-0060"
+  },
+  "d3-private-0038": {
+   "valid": "DIMGLASS-COR-0059",
+   "invalid": "DIMGLASS-COR-0060"
+  },
+  "d3-private-0039": {
+   "valid": "DIMGLASS-COD-0059",
+   "invalid": "DIMGLASS-COD-0060"
+  },
+  "d3-private-0040": {
+   "valid": "DIMGLASS-LOG-0059",
+   "invalid": "DIMGLASS-LOG-0060"
+  },
+  "d3-private-0041": {
+   "valid": "DIMGLASS-RDG-0059",
+   "invalid": "DIMGLASS-RDG-0060"
+  },
+  "d3-private-0042": {
+   "valid": "DIMGLASS-QNT-0061",
+   "invalid": "DIMGLASS-QNT-0062"
+  },
+  "d3-private-0043": {
+   "valid": "DIMGLASS-COR-0061",
+   "invalid": "DIMGLASS-COR-0062"
+  },
+  "d3-private-0044": {
+   "valid": "DIMGLASS-COD-0061",
+   "invalid": "DIMGLASS-COD-0062"
+  },
+  "d3-private-0045": {
+   "valid": "DIMGLASS-LOG-0061",
+   "invalid": "DIMGLASS-LOG-0062"
+  },
+  "d3-private-0046": {
+   "valid": "DIMGLASS-RDG-0061",
+   "invalid": "DIMGLASS-RDG-0062"
+  },
+  "d3-private-0047": {
+   "valid": "DIMGLASS-QNT-0063",
+   "invalid": "DIMGLASS-QNT-0064"
+  },
+  "d3-private-0048": {
+   "valid": "DIMGLASS-COR-0063",
+   "invalid": "DIMGLASS-COR-0064"
+  },
+  "d3-private-0049": {
+   "valid": "DIMGLASS-COD-0063",
+   "invalid": "DIMGLASS-COD-0064"
+  },
+  "d3-private-0050": {
+   "valid": "DIMGLASS-LOG-0063",
+   "invalid": "DIMGLASS-LOG-0064"
+  },
+  "d3-private-0051": {
+   "valid": "DIMGLASS-RDG-0063",
+   "invalid": "DIMGLASS-RDG-0064"
+  },
+  "d3-private-0052": {
+   "valid": "DIMGLASS-QNT-0065",
+   "invalid": "DIMGLASS-QNT-0066"
+  },
+  "d3-private-0053": {
+   "valid": "DIMGLASS-COR-0065",
+   "invalid": "DIMGLASS-COR-0066"
+  },
+  "d3-private-0054": {
+   "valid": "DIMGLASS-COD-0065",
+   "invalid": "DIMGLASS-COD-0066"
+  },
+  "d3-private-0055": {
+   "valid": "DIMGLASS-LOG-0065",
+   "invalid": "DIMGLASS-LOG-0066"
+  },
+  "d3-private-0056": {
+   "valid": "DIMGLASS-RDG-0065",
+   "invalid": "DIMGLASS-RDG-0066"
+  },
+  "d3-private-0057": {
+   "valid": "DIMGLASS-QNT-0067",
+   "invalid": "DIMGLASS-QNT-0068"
+  },
+  "d3-private-0058": {
+   "valid": "DIMGLASS-COR-0067",
+   "invalid": "DIMGLASS-COR-0068"
+  },
+  "d3-private-0059": {
+   "valid": "DIMGLASS-COD-0067",
+   "invalid": "DIMGLASS-COD-0068"
+  },
+  "d3-private-0060": {
+   "valid": "DIMGLASS-LOG-0067",
+   "invalid": "DIMGLASS-LOG-0068"
+  },
+  "d3-private-0061": {
+   "valid": "DIMGLASS-RDG-0067",
+   "invalid": "DIMGLASS-RDG-0068"
+  },
+  "d3-private-0062": {
+   "valid": "DIMGLASS-QNT-0069",
+   "invalid": "DIMGLASS-QNT-0070"
+  },
+  "d3-private-0063": {
+   "valid": "DIMGLASS-COR-0069",
+   "invalid": "DIMGLASS-COR-0070"
+  },
+  "d3-private-0064": {
+   "valid": "DIMGLASS-COD-0069",
+   "invalid": "DIMGLASS-COD-0070"
+  },
+  "d3-private-0065": {
+   "valid": "DIMGLASS-LOG-0069",
+   "invalid": "DIMGLASS-LOG-0070"
+  },
+  "d3-private-0066": {
+   "valid": "DIMGLASS-RDG-0069",
+   "invalid": "DIMGLASS-RDG-0070"
+  },
+  "d3-private-0067": {
+   "valid": "DIMGLASS-QNT-0071",
+   "invalid": "DIMGLASS-QNT-0072"
+  },
+  "d3-private-0068": {
+   "valid": "DIMGLASS-COR-0071",
+   "invalid": "DIMGLASS-COR-0072"
+  },
+  "d3-private-0069": {
+   "valid": "DIMGLASS-COD-0071",
+   "invalid": "DIMGLASS-COD-0072"
+  },
+  "d3-private-0070": {
+   "valid": "DIMGLASS-LOG-0071",
+   "invalid": "DIMGLASS-LOG-0072"
+  },
+  "d3-private-0071": {
+   "valid": "DIMGLASS-RDG-0071",
+   "invalid": "DIMGLASS-RDG-0072"
+  },
+  "d3-private-0072": {
+   "valid": "DIMGLASS-QNT-0073",
+   "invalid": "DIMGLASS-QNT-0074"
+  },
+  "d3-private-0073": {
+   "valid": "DIMGLASS-COR-0073",
+   "invalid": "DIMGLASS-COR-0074"
+  },
+  "d3-private-0074": {
+   "valid": "DIMGLASS-COD-0073",
+   "invalid": "DIMGLASS-COD-0074"
+  },
+  "d3-private-0075": {
+   "valid": "DIMGLASS-LOG-0073",
+   "invalid": "DIMGLASS-LOG-0074"
+  },
+  "d3-private-0076": {
+   "valid": "DIMGLASS-RDG-0073",
+   "invalid": "DIMGLASS-RDG-0074"
+  },
+  "d3-private-0077": {
+   "valid": "DIMGLASS-QNT-0075",
+   "invalid": "DIMGLASS-QNT-0076"
+  },
+  "d3-private-0078": {
+   "valid": "DIMGLASS-COR-0075",
+   "invalid": "DIMGLASS-COR-0076"
+  },
+  "d3-private-0079": {
+   "valid": "DIMGLASS-COD-0075",
+   "invalid": "DIMGLASS-COD-0076"
+  },
+  "d3-private-0080": {
+   "valid": "DIMGLASS-LOG-0075",
+   "invalid": "DIMGLASS-LOG-0076"
+  },
+  "d3-private-0081": {
+   "valid": "DIMGLASS-RDG-0075",
+   "invalid": "DIMGLASS-RDG-0076"
+  },
+  "d3-private-0082": {
+   "valid": "DIMGLASS-QNT-0077",
+   "invalid": "DIMGLASS-QNT-0078"
+  },
+  "d3-private-0083": {
+   "valid": "DIMGLASS-COR-0077",
+   "invalid": "DIMGLASS-COR-0078"
+  },
+  "d3-private-0084": {
+   "valid": "DIMGLASS-COD-0077",
+   "invalid": "DIMGLASS-COD-0078"
+  },
+  "d3-private-0085": {
+   "valid": "DIMGLASS-LOG-0077",
+   "invalid": "DIMGLASS-LOG-0078"
+  },
+  "d3-private-0086": {
+   "valid": "DIMGLASS-RDG-0077",
+   "invalid": "DIMGLASS-RDG-0078"
+  },
+  "d3-private-0087": {
+   "valid": "DIMGLASS-QNT-0079",
+   "invalid": "DIMGLASS-QNT-0080"
+  },
+  "d3-private-0088": {
+   "valid": "DIMGLASS-COR-0079",
+   "invalid": "DIMGLASS-COR-0080"
+  },
+  "d3-private-0089": {
+   "valid": "DIMGLASS-COD-0079",
+   "invalid": "DIMGLASS-COD-0080"
+  },
+  "d3-private-0090": {
+   "valid": "DIMGLASS-LOG-0079",
+   "invalid": "DIMGLASS-LOG-0080"
+  },
+  "d3-private-0091": {
+   "valid": "DIMGLASS-RDG-0079",
+   "invalid": "DIMGLASS-RDG-0080"
+  },
+  "d3-private-0092": {
+   "valid": "DIMGLASS-QNT-0081",
+   "invalid": "DIMGLASS-QNT-0082"
+  },
+  "d3-private-0093": {
+   "valid": "DIMGLASS-COR-0081",
+   "invalid": "DIMGLASS-COR-0082"
+  },
+  "d3-private-0094": {
+   "valid": "DIMGLASS-COD-0081",
+   "invalid": "DIMGLASS-COD-0082"
+  },
+  "d3-private-0095": {
+   "valid": "DIMGLASS-LOG-0081",
+   "invalid": "DIMGLASS-LOG-0082"
+  },
+  "d3-private-0096": {
+   "valid": "DIMGLASS-RDG-0081",
+   "invalid": "DIMGLASS-RDG-0082"
+  },
+  "d3-private-0097": {
+   "valid": "DIMGLASS-QNT-0083",
+   "invalid": "DIMGLASS-QNT-0084"
+  },
+  "d3-private-0098": {
+   "valid": "DIMGLASS-COR-0083",
+   "invalid": "DIMGLASS-COR-0084"
+  },
+  "d3-private-0099": {
+   "valid": "DIMGLASS-COD-0083",
+   "invalid": "DIMGLASS-COD-0084"
+  },
+  "d3-private-0100": {
+   "valid": "DIMGLASS-LOG-0083",
+   "invalid": "DIMGLASS-LOG-0084"
+  },
+  "d3-private-0101": {
+   "valid": "DIMGLASS-RDG-0083",
+   "invalid": "DIMGLASS-RDG-0084"
+  },
+  "d3-private-0102": {
+   "valid": "DIMGLASS-QNT-0085",
+   "invalid": "DIMGLASS-QNT-0086"
+  },
+  "d3-private-0103": {
+   "valid": "DIMGLASS-COR-0085",
+   "invalid": "DIMGLASS-COR-0086"
+  },
+  "d3-private-0104": {
+   "valid": "DIMGLASS-COD-0085",
+   "invalid": "DIMGLASS-COD-0086"
+  },
+  "d3-private-0105": {
+   "valid": "DIMGLASS-LOG-0085",
+   "invalid": "DIMGLASS-LOG-0086"
+  },
+  "d3-private-0106": {
+   "valid": "DIMGLASS-RDG-0085",
+   "invalid": "DIMGLASS-RDG-0086"
+  },
+  "d3-private-0107": {
+   "valid": "DIMGLASS-QNT-0087",
+   "invalid": "DIMGLASS-QNT-0088"
+  }
+ },
+ "public": {
+  "d2-public-0004": {
+   "valid": "DIMGLASS-RDG-0200",
+   "invalid": "DIMGLASS-RDG-0201"
+  },
+  "d3-public-0005": {
+   "valid": "DIMGLASS-QNT-0202",
+   "invalid": "DIMGLASS-QNT-0203"
+  },
+  "d2-public-0012": {
+   "valid": "DIMGLASS-COD-0202",
+   "invalid": "DIMGLASS-COD-0203"
+  },
+  "d3-public-0013": {
+   "valid": "DIMGLASS-LOG-0202",
+   "invalid": "DIMGLASS-LOG-0203"
+  },
+  "d2-public-0020": {
+   "valid": "DIMGLASS-QNT-0206",
+   "invalid": "DIMGLASS-QNT-0207"
+  },
+  "d3-public-0021": {
+   "valid": "DIMGLASS-COR-0204",
+   "invalid": "DIMGLASS-COR-0205"
+  }
+ }
+}

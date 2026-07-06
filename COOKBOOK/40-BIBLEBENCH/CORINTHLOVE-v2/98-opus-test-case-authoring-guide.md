@@ -1,10 +1,12 @@
-**10CBench-v2 authoring guide · v1.0 (Fable, 2026-07-05) · status: ready for Opus execution**
+**10CBench-v2 authoring guide · v1.0 (Fable, 2026-07-05) · status: gate-revised 2026-07-05 (CO-5) — ready for Opus execution**
 
 # 98 — Opus Test-Case Authoring Guide (CORINTHLOVE-v2)
 
 This is the portfolio-wide execution brief for building the ten v2 question banks. Each design brief's §11 is the per-design spec; this guide is everything shared. Read this file, then the target brief, then EXECUTE. **Produce files, not plans.** If you find yourself writing a plan document instead of `generator.py`, stop and restart from the deliverable list.
 
 ## 0. Session setup
+
+> **Gate change-orders D-08…D-17 (CO-5), see `../CORINTHLOVE-REVIEWS/20260705-GATE-ADJUDICATION.md` and the revision instructions, must be applied to each brief BEFORE building its bank; build order per CO-8.**
 
 1. Model: run bank-building sessions on **Opus** (`/model opus`). Do not burn Fable credit on bank authoring. Mechanical sub-steps (formatting, YAML munging, count checks) may be delegated to Sonnet/Haiku subagents with explicit `model=`.
 2. Working directory: `CEI-Lit-WS/`. All bank files live under `COOKBOOK/40-BIBLEBENCH/CORINTHLOVE-v2/BANKS/<NN-codename>/`.
@@ -32,6 +34,8 @@ canary: "10CB2-<NN>-<GUID>"           # GUID v4, unique across the whole portfol
 ```
 
 **Hidden ground truth lives in sidecars, never in the item file.** Every bank has a `sidecar/` directory keyed by item id containing: normative annotations, window/threshold parameters, option inventories, planted lexicons, quality orderings, switch-points, simulation parameters — whatever the design's §11 names as hidden. Assert at build time: no sidecar value appears as a substring in any candidate-visible field (write a leakage-check script; run it in CI fashion at the end of every generator run).
+
+**Schema flexibility (CO-5).** Dynamic/trajectory designs (06 REBOUND) and simulation designs (10 ONEBODY) may replace `multiturn_script.stage_1..4` with design-native structures (`impulse_schedule` for 06, `community_seed` for 10) documented in the bank's README; all other fields remain mandatory. **Bank-size counting units per design:** 06 counts **episodes**; 10 counts **seeds** (each seed = candidate + control runs × replicates). All other banks count episodes/items as their §11 states.
 
 ## 2. Shared bank standards
 

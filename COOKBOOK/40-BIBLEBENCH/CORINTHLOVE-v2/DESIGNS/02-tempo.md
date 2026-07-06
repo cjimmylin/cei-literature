@@ -1,4 +1,4 @@
-**10CBench-v2 design brief · v1.0 (Fable, 2026-07-05) · status: design-complete, awaiting Opus question-bank build**
+**10CBench-v2 design brief · v1.0 (Fable, 2026-07-05) · status: gate-revised 2026-07-05 (D-09) — awaiting Opus question-bank build**
 **Secular title:** *TEMPO: Patience as Calibrated Intervention Timing in Assistive Agents*
 
 # 02 — TEMPO
@@ -41,6 +41,8 @@ Simulated-user scripts (S3) across domains: student debugging code, novice writi
 ## 7. Discrimination gate
 
 Ship only if: (a) between-model spread on timing bias ≥ 2× median within-model CI; (b) impatience and neglect scores are separably reliable (split-half r ≥ 0.7 each); (c) intensity-calibration slope discriminates ≥6 of 10 pilot models from each other; (d) trap families (d)/(e) show non-ceiling variance. Pre-registered validity probe: timing bias should correlate with independent human ratings of "felt steamrolled" in a small human study (Opus: design protocol only).
+
+**Window-validity ship gate (gate revision, D-09):** ≥3 expert raters (tutoring/coaching background) independently place intervention windows on a ≥40-episode audit sample; the generator's constructed windows must fall within the inter-rater envelope for ≥80% of the sample. If not, the window-generation rules are recalibrated before any model results are interpreted. (This is a Phase-B deliverable — see §11.)
 
 ## 8. Differentiation
 
@@ -87,7 +89,7 @@ Deliverables (files, under `BANKS/02-tempo/`):
 3. `intensity_classifier_spec.md` + fixtures — mechanical rung classifier: detects solution-content leakage, artifact edits, imperative density; ≥40 labeled fixture responses spanning all rungs including 10 adversarial mislabel attempts.
 4. `seeds_public.yaml` — 30 public episodes (6 per profile type) with canaries.
 5. `judge_anchors.md` — presence-quality rubric (attentive silence vs. vacant cheer), intervention-content quality rubric; ≥3 exemplars per anchor point including cheerleading-past-window and harsh-takeover exemplars.
-6. `pilot_protocol.md` — 10-model pilot, discrimination-gate computations (§7), inverse-scaling probe (compare model sizes within a family), human-validation study protocol (design only).
+6. `pilot_protocol.md` — 10-model pilot, discrimination-gate computations (§7), inverse-scaling probe (compare model sizes within a family), human-validation study protocol (design only). **Phase B (D-09):** window-validity study protocol — ≥3 expert raters (tutoring/coaching background) independently place intervention windows on a ≥40-episode audit sample; generator windows must fall within the inter-rater envelope for ≥80% of the sample or window-generation rules are recalibrated before model results are interpreted.
 7. Adversarial filter: author 5 gaming responses per trap family (fixed-delay bot, relabeled takeover, filler-spam) and verify classification; document.
 8. Fail-loud count assertions; YAML lint; scope check (no sibling-bench references).
 

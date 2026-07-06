@@ -202,3 +202,23 @@ documented. Its two old-stem citations are intentional historical record.
 
 Verification: zero bracketed old-stem citations remain in living reference material; all
 modified JSON parse; new stem present in `card-index.json`.
+
+---
+
+## Issue 4 RESOLVED (2026-07-06) — Gemini Safety PDF replaced (Jimmy-approved)
+
+Downloaded arXiv **2403.13793** "Evaluating Frontier Models for Dangerous Capabilities"
+(Phuong et al., Google DeepMind, 81pp); verified the title page before mutating anything.
+Following the Issue-1/2 pattern (stem preserved to avoid breaking references):
+
+- Bad files → `RECYCLE-BIN/AI-Lab-PDFs-bad-2026-07-06/` (`--BAD-CONTENT`/`--BAD-EXTRACT`): the old
+  PDF (was arXiv 2403.04312 = a Paley-graphs number-theory paper), extract, and vault card.
+- Correct PDF installed at the original stem path `AI-Lab-PDFs/Google DeepMind/Papers/
+  Gemini_Safety_arxiv_2403.04312.pdf` (external storage; not git-tracked).
+- Regenerated extract + vault card (PyMuPDF 1.26.5, 81pp) with a `regenerated:` frontmatter note
+  flagging the correct arXiv ID/title. Stem still embeds the wrong ID 2403.04312 — a future pass may
+  rename the stem + update references, as with Sabotage/Sleeper.
+
+**Remaining vault-fix blocker:** Issue 3 ("Simple Probes / Sycophancy", stem 2406.09569) is a topic
+conflation (candidate blog post is about sleeper agents) — still awaiting Jimmy's decision on the
+intended source before any replacement.

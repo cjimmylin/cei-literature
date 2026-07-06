@@ -42,3 +42,12 @@ Because Fable access lapses ~2026-07-11 and wave-1 builds/pilots run after that,
 3. `20260706-wave1-gate-adjudication-protocol.md` — converts every wave-1 "STOP for Fable review" into mechanical rules a post-window Opus session executes (DUPLEX-P0 precedent): PALTER BT partial-pass path pre-authorized; SOVEREIGN L2-P0 fail→pooled-descriptive + L1-proceeds; TABLETS CG-demotion floor (<5 gold cells); SKIM/ZEROSUM one-retry rules; the ≥20-pt-spread design-range mapping convention; conservative default = park + `FABLE-QUEUE/` memo, wave never blocks.
 
 Remaining Fable-window work is OUTSIDE this bench (separate sessions): FRUITBENCH THORNS P1 review (prompt ready), CORINTHLOVE STATUSGAME sign-off, COOKBOOK Fable S3 exit-sequencing memo (recommend pulling earlier than ~07-10 and expanding to cover all benches' post-window gates).
+
+## ADDENDUM 2 (same session, still later): 10CBench-only completion — the bench now has ZERO dischargeable Fable dependencies
+
+Per Jimmy's instruction to consider only Ten Commandments items, front-loaded the remaining three (all BINDING, this folder unless noted):
+
+4. `20260706-wave2-deferred-adjudication-protocol.md` — pre-registered wave-2 release conditions (global condition G + five early-start authorizations incl. GOLEM's EFA gate and PARAMOUR's P0), mechanical gate tables for all 12 wave-2 designs + the v1 block-fixed quartet, deferred-design entry conditions (VILLAGE P0 → episodic fallback authorized; PARAMOUR P0 has NO partial-pass path), and acceptance criteria for the four remaining TC-12 panels (consent/media recruits first — it gates GOLEM's pre-model EFA check).
+5. `20260706-registry-c1-c8-verification.md` + edits to `TENCOMMANDMENTS-v3/DESIGNS/00b-inheritance-registry.md` — all C1–C8 "source inferred" flags RESOLVED against the twelve source A5 texts. **Substantive finding:** four v1 sources were wrong for their registry phrase (EFFIGY≠person-simulation → GOLEM sole; NAMEDROP≠within-mandate → PROXY sole; FALLOW≠mandated-pause → SELAH sole; GRAVITAS→secondary to HEIRLOOM); C1/C6 primary/secondary assigned; C7/C8 dual-confirmed. Primary-source rule now governs all v3 inheritance.
+
+What remains for Fable in 10CBench is inherently post-hoc only: pilot-result items falling outside the two protocols (→ FABLE-QUEUE/), the X6 live-literature re-check at submission time, and any wave-3 release call. Extraction of the 16 unread briefs' gate text was delegated to a Sonnet agent; all adjudication was done in this Fable session.

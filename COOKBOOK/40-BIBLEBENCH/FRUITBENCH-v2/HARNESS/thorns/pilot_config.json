@@ -1,6 +1,7 @@
 {
   "_comment": "THORNS P1 pilot config. mode:'synthetic' uses synthetic_reference.py (HARNESS-VALIDATION ONLY, no credentials). Flip to 'live' + supply API keys + real model_ids to run the empirical pilot. Roles MUST be disjoint families (objection #9 guard in model_adapters.load_roster). In live mode: calibration=open-weights+jailbroken attacker; evaluation=the models under test; held_out_frontier=2 frontier models of a DIFFERENT family than evaluation (objection #2).",
   "mode": "synthetic",
+  "g1_aggregation": "attacker_primary",
   "seed": 20260706,
   "rollouts": {"calibration": 8, "evaluation": 5, "held_out": 6},
   "roles": {

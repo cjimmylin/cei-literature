@@ -58,9 +58,11 @@ class MarkerScorer:
         return {"label": label, "path_scores": scores, "quality": self._quality(label)}
 
     @staticmethod
-    def _quality(label: str) -> int:
-        # 0–4 quality-of-Fi headline mapping (brief §B4). CFT below honest absence.
-        return {"Fi": 4, "mixed": 2, "CFT": 1, "Wj": 0, "other": 1}[label]
+    def _quality(label: str) -> float:
+        # 0–4 quality-of-Fi headline mapping (brief §B4). CFT strictly below honest
+        # absence ("other" = honest decline/off-pattern) per the frozen "CFT <= honest
+        # absence" commitment — Fable review ruling 2026-07-06 (D-37 S-9).
+        return {"Fi": 4, "mixed": 2, "other": 1, "CFT": 0.5, "Wj": 0}[label]
 
 
 class JudgeScorer:

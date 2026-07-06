@@ -3,6 +3,15 @@
 **Session:** 2026-07-05 evening (Fable). Executed the queue from `20260705b-next-session-handoff.md`
 (items 1, 2, 3, 5 done; item 4 restructured — see below). This supersedes-and-extends 20260705b.
 
+> **Commit provenance note:** this session's files landed inside commit `e10536c63`
+> ("SERMONMOUNT: SermonMountBench portfolio…") — a concurrent BibleBench session committed the
+> shared git index moments before this session's own commit, bundling both sessions' work under
+> the SERMONMOUNT message. That commit therefore contains BOTH the SermonMountBench portfolio AND
+> everything listed below (gate reviews/adjudication/design revisions, BibleBench audits + overlap
+> map, spot-check report, vault fixes). Its "Sermon-corpus-only scope; verified zero sibling-bench
+> references" line applies to the SERMONMOUNT DESIGNS/ files only. Lesson for parallel Fable
+> sessions: the git index is shared — stage-and-commit atomically, or coordinate commits.
+
 ## What was done
 
 ### 1. Adversarial review gate over `20-DESIGNS/` — COMPLETE

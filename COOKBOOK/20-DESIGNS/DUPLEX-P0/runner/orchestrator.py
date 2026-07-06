@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from collections import defaultdict
 from statistics import stdev
 from typing import Any, Callable, Dict, Iterable, List, Optional, Tuple
@@ -25,6 +26,62 @@ from .adapters import BaseAdapter, classify_refusal, detect_refusal
 Scorer = Callable[[str, Dict[str, Any], str], float]
 
 CellKey = Tuple[str, str, str, int]
+
+
+# --------------------------------------------------------------------------- load-compliance (R-2)
+# The `load_injected` resource condition asks the subject to maintain a rotating working-memory
+# list [6, 3, 8, 2, 5] and output "FINAL LIST" in its final line. A rep only counts as genuinely
+# *loaded* if the subject actually performed the secondary task; reps that ignore it must be
+# flagged (and a sensitivity analysis run with/without them).
+# (Applied per REVIEWS/20260706-fable-rulings-post-execution.md R-2.)
+
+LOAD_TARGET_LIST: List[int] = [6, 3, 8, 2, 5]
+_FINAL_LIST_MARKER = re.compile(r"FINAL\s*LIST", re.IGNORECASE)
+_INT_RE = re.compile(r"-?\d+")
+
+
+def _left_rotations(seq: List[int]) -> List[List[int]]:
+    """All left-rotations of `seq` (== all cyclic shifts for a list of distinct elements)."""
+    n = len(seq)
+    return [seq[i:] + seq[:i] for i in range(n)]
+
+
+def code_load_compliance(
+    response_text: Optional[str], target: Optional[List[int]] = None
+) -> Dict[str, bool]:
+    """Code whether a `load_injected` response satisfied the secondary WM-rotation task.
+
+    Returns {"final_list_present", "is_rotation", "compliant"} where:
+      * final_list_present -- a "FINAL LIST" marker appears in the response.
+      * is_rotation        -- the numbers reported after the marker are some LEFT-ROTATION of
+                              `target` (default [6, 3, 8, 2, 5]).
+      * compliant          -- final_list_present AND is_rotation.
+
+    Pure function, no side effects. Distinguishes the four cases the review calls out:
+    compliant (marker + rotation), non-compliant (marker + valid-length-but-not-a-rotation),
+    missing (no marker), malformed (marker present but list unparseable / wrong length).
+    """
+    target = list(target) if target is not None else list(LOAD_TARGET_LIST)
+    text = response_text or ""
+    m = _FINAL_LIST_MARKER.search(text)
+    if not m:
+        return {"final_list_present": False, "is_rotation": False, "compliant": False}
+
+    remainder = text[m.end():]
+    bracket = re.search(r"\[([^\]]*)\]", remainder)
+    if bracket:
+        segment = bracket.group(1)
+    else:
+        stripped = remainder.strip()
+        segment = stripped.splitlines()[0] if stripped else ""
+    nums = [int(x) for x in _INT_RE.findall(segment)]
+
+    is_rotation = len(nums) == len(target) and nums in _left_rotations(target)
+    return {
+        "final_list_present": True,
+        "is_rotation": is_rotation,
+        "compliant": is_rotation,
+    }
 
 
 # --------------------------------------------------------------------------- resource conditions
@@ -202,6 +259,12 @@ class Orchestrator:
             score = float(self.scorer(result.text, item, vendor))
             refusal_category = None
 
+        # Load-compliance coding (R-2): only meaningful for the load_injected condition; None
+        # elsewhere so downstream sensitivity analysis can filter on non-null.
+        load_compliance = (
+            code_load_compliance(result.text) if condition == "load_injected" else None
+        )
+
         return {
             "item_id": item_id,
             "model_id": model["id"],
@@ -213,6 +276,7 @@ class Orchestrator:
             "score": score,
             "refusal": refusal,
             "refusal_category": refusal_category,
+            "load_compliance": load_compliance,
             "latency": result.latency,
             "text": result.text,
         }

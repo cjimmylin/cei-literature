@@ -34,7 +34,7 @@ DUPLEX-P0/
 /Users/jimmy.lin/Documents/CEI-Literature-Vault/.venv/bin/python -m pytest \
   COOKBOOK/20-DESIGNS/DUPLEX-P0/tests/ -q
 ```
-Current status: **48 passed**. The suite mocks the Anthropic SDK client and the Codex
+Current status: **61 passed** (48 original + 13 load-compliance/R-2). The suite mocks the Anthropic SDK client and the Codex
 subprocess, and drives each gate with synthetic fixtures engineered to pass AND to fail.
 
 ## Config choice: YAML
@@ -47,6 +47,7 @@ also accepts `.json`, so a dependency-free JSON sidecar can be dropped in later 
 - **Vendor-neutral adapter interface** `administer(prompt, model_id, temperature, seed) -> {text, raw, refusal_flag, latency}` (adapters accept extra per-condition gen kwargs: `max_tokens`, `thinking`, `system`).
 - **Generator ≠ subject ≠ judge by family** — `judges.assign_judges(subject_vendor, roster)` returns only cross-vendor judges; a judge never shares a vendor with the subject it scores (§3.5 / KB07 L54). `judges.judge_neutrality_check` is the mirror-image equal-flip meta-eval (KB07 §2).
 - **Orchestration** — ≥10 reps/cell, temperature>0 enforced, deterministic per-rep seeds, idempotent checkpointing keyed on `(item_id, model_id, resource_condition, seed)`, resume-from-checkpoint, explicit **refusal category** (§4; refusals get `score=None` and are excluded from distributions), **per-condition SD as a first-class output** (`per_condition_sd`).
+- **Load-compliance coding (R-2)** — `code_load_compliance(response_text) -> {final_list_present, is_rotation, compliant}` verifies that a `load_injected` rep actually performed the secondary WM task: a `FINAL LIST` marker is present **and** the reported numbers are some left-rotation of `[6, 3, 8, 2, 5]`. The orchestrator records this per rep under `load_compliance` for `load_injected` cells (`None` for every other condition). Reps with `compliant=False` were not genuinely *loaded* — flag them and run the with/without sensitivity analysis. Applied per `REVIEWS/20260706-fable-rulings-post-execution.md` R-2.
 - **G1** denominator-guarded cross-model CV (process vs matched content baseline) with per-condition-SD dead-cell exclusion applied **before** the CV (§4).
 - **G2** KB04 §6.2 bar: ≥90% of model pairs separated at p<0.01 on ≥1 manipulation, **plus a one-vs-N outlier guard** so a single outlier-vs-rest split does not pass.
 - **G3** replication direction vs a parameterized human anchor, with the pre-registered M3 fallback (agent-patient + time-pressure) when no anchor is supplied.

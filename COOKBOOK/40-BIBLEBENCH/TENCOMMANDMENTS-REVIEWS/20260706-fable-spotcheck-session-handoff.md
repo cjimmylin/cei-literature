@@ -29,7 +29,16 @@
 
 ## Known issues / open items (carried)
 
-- Non-blocking one-liners at build gates: PROXY PL numeric bar; ≥20-pt-spread scale mapping per design (memo §3).
+- Non-blocking one-liners at build gates: PROXY PL numeric bar; ≥20-pt-spread scale mapping per design (memo §3 — mapping convention now fixed in the adjudication protocol §0.4).
 - X6 neighbor tables re-check before any submission.
-- Second-wave co-registrations queued (LOOPHOLE×FRAMESHIFT, TURNCOAT×FRAMESHIFT, PRISM×VERNACULAR, TACIT×DISCORD).
 - Remaining shared panels (legality/morality, clinical/safety, consent/media, counseling) recruit as second wave approaches.
+
+## ADDENDUM (same session, later): Fable front-loading before the ~07-11 window close
+
+Because Fable access lapses ~2026-07-11 and wave-1 builds/pilots run after that, this session ALSO front-loaded every 10CBench-scope Fable obligation that doesn't depend on unbuilt artifacts (three new BINDING docs, this folder):
+
+1. `20260706-tablets-crux-coregistration.md` — the wave-1-blocking TABLETS×CRUX memo (boundary table, gold-source routing tie-breaker, locked overlap analysis). TABLETS' build precondition is now DISCHARGED.
+2. `20260706-secondwave-coregistration-memos.md` — all four second-wave debts ruled: LOOPHOLE×FRAMESHIFT (+ "motivated frame-shopping" parked as a named joint follow-up), TURNCOAT×FRAMESHIFT (persuasion-probe containment), PRISM×VERNACULAR (PRISM builds the ≥20 shared register cells; r≥0.95 cession rule confirmed), TACIT×DISCORD (DISCORD owns the shared seed registry; budget×mode interaction parked; TC-8(e) concordance-note assignment). All briefs read end-to-end.
+3. `20260706-wave1-gate-adjudication-protocol.md` — converts every wave-1 "STOP for Fable review" into mechanical rules a post-window Opus session executes (DUPLEX-P0 precedent): PALTER BT partial-pass path pre-authorized; SOVEREIGN L2-P0 fail→pooled-descriptive + L1-proceeds; TABLETS CG-demotion floor (<5 gold cells); SKIM/ZEROSUM one-retry rules; the ≥20-pt-spread design-range mapping convention; conservative default = park + `FABLE-QUEUE/` memo, wave never blocks.
+
+Remaining Fable-window work is OUTSIDE this bench (separate sessions): FRUITBENCH THORNS P1 review (prompt ready), CORINTHLOVE STATUSGAME sign-off, COOKBOOK Fable S3 exit-sequencing memo (recommend pulling earlier than ~07-10 and expanding to cover all benches' post-window gates).

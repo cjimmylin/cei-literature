@@ -12,7 +12,9 @@
 | Portfolio-level FO-2 (lattice-independence ledger) + FO-7 (structure-claims map) | **APPLIED** in `FRUITBENCH-v2/00-fruitbench-v2-portfolio.md` §4.6–4.7 |
 | Build-guide post-gate protocol | **APPLIED** as `OPUS-BUILD-GUIDE.md` §9 |
 | v1 non-blocking orders D-01–D-11, D-14–D-17 | **NOT applied** — ready-to-paste text in §2 below; paste as first action of that design's build session |
-| Program deliverables (§3) | **NOT started** |
+| Program deliverables (§3) | **PARTIALLY STARTED 2026-07-06** — FO-5 human-substitution protocol SHIPPED (`FRUITBENCH-v2/HARNESS/shared/human-substitution-protocol.md`); FO-2 lattice ledger SEEDED (THORNS = first substrate producer, instantiate when TRELLIS/STRIDE consume its kernels); FO-3 PANELS/ plan still NOT started (due before 3rd build session); FO-8 second-pass gate: **1 of 3 P1s done** |
+| **v2-02 THORNS P1 (build)** | **DONE 2026-07-06** (Opus). Feasibility map + frozen 20-cell slate; 60-item bank (bank+gold, static-audit clean, adversarially reviewed — no KILLs, 5 FIX items applied); runnable harness (calibration/scorer/D-21/D-22/heatmap, pluggable live adapters); synthetic gate run = **harness-validation only** (empirical gates PENDING credentials); real-model probe (N=4) confirms items elicit differentiated fruit + corroborates D-21 attractiveness risk. Report: `FRUITBENCH-v2/PILOTS/thorns/20260706-p1-pilot-report.md`. **2 items for second-pass Fable gate:** (a) ratify calibration-band aggregation rule (ensemble-mean vs attacker-primary moves G1); (b) frontier-attractiveness/deeper-embedding for telegraphed + novel/limit cells |
+| Build order progress (v2) | 02 THORNS **DONE** → **04 UNFENCED next** → 10 → 06 → 01 → 08 → 03 → 07 → 09 → 05 |
 
 Amendment protocol for §2: paste the block verbatim into the named location of the v1 brief, keeping the "Gate order D-xx (applied YYYY-MM-DD)" header with the actual date of pasting. Do not reword; wording is Fable-reviewed. If a block conflicts with something you find in the brief, STOP and flag for Fable review rather than reconciling silently.
 

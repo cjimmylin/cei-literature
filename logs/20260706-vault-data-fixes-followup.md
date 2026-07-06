@@ -222,3 +222,25 @@ Following the Issue-1/2 pattern (stem preserved to avoid breaking references):
 **Remaining vault-fix blocker:** Issue 3 ("Simple Probes / Sycophancy", stem 2406.09569) is a topic
 conflation (candidate blog post is about sleeper agents) — still awaiting Jimmy's decision on the
 intended source before any replacement.
+
+---
+
+## Issue 3 RESOLVED (2026-07-06) — Simple Probes: sleeper-agents blog, stem renamed (Jimmy-approved)
+
+Jimmy confirmed the intended source is the Anthropic blog **"Simple probes can catch sleeper agents"**
+(2024-04-23, MacDiarmid et al.) and that the stem name was wrong. The prior stem was doubly wrong:
+arXiv 2406.09569 = "Speech ReaLLM" (unrelated), and the topic is sleeper-agent *defection probes*, not
+sycophancy. Followed the CCAI precedent (rename, not stem-preserve, since the whole name was wrong):
+
+- Fetched + archived the blog article text (title, date, authors, all sections) via WebFetch; generated
+  a 2-page text PDF via **fpdf2** (per the CLAUDE.md PDF rule) at the new stem path.
+- Renamed stem `Simple_Probes_Detect_Sycophancy_2406.09569` → `Simple_Probes_Catch_Sleeper_Agents_2024`
+  across all 6 references: 5 COOKBOOK/30-EVIDENCE JSONs (reader-batches, ailabs-listing, run-state, L011,
+  ailabs-shortlist) + the AI-Labs README row (rewritten — title, blog link, description).
+- Bad Speech-ReaLLM PDF + extract → `RECYCLE-BIN/AI-Lab-PDFs-bad-2026-07-06/`. New extract + a NEW vault
+  card written (none existed before) with `source_url`, a `regenerated:` note, and the archived content.
+- Verified: new stem resolves; JSON all valid; zero old-stem remnants in living CEI-Lit-WS material.
+
+**Remaining (historical, intentionally left):** `logs/20260202-pdf_migration_*.json` still contains the
+old stem — a historical migration record, not a live citation. Both vault-fix blockers (Issues 3 & 4)
+are now RESOLVED; nothing outstanding on the vault-data-fixes track.

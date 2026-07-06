@@ -39,7 +39,7 @@ This directory contains Anthropic's foundational research papers and technical r
 | [Challenges of Automated Red-Teaming for LLMs](Challenges_of_Automated_Red-Teaming_for_LLMs_2401.03315.pdf) | [2401.03315](https://arxiv.org/abs/2401.03315) | 2024 | Explores limitations and challenges in automated red-teaming |
 | [Many-shot Jailbreaking](Many-shot_Jailbreaking_2401.05566.pdf) | [2401.05566](https://arxiv.org/abs/2401.05566) | 2024 | Demonstrates vulnerabilities in long-context models |
 | [In-context Reward Hacking](In-context_Reward_Hacking_2402.09656.pdf) | [2402.09656](https://arxiv.org/abs/2402.09656) | 2024 | Studies reward hacking behaviors that emerge in context |
-| [Simple Probes Detect Sycophancy](Simple_Probes_Detect_Sycophancy_2406.09569.pdf) | [2406.09569](https://arxiv.org/abs/2406.09569) | 2024 | Methods for detecting sycophantic behavior in models |
+| [Simple probes can catch sleeper agents](Simple_Probes_Catch_Sleeper_Agents_2024.pdf) | [blog 2024-04-23](https://www.anthropic.com/research/probes-catch-sleeper-agents) | 2024 | Linear "defection probes" on residual-stream activations detect sleeper-agent/deceptive behavior (AUROC >99%) |
 | [Sabotage Evaluations for Frontier Models](Sabotage_Evaluations_for_Frontier_Models_2410.13161.pdf) | [2410.13161](https://arxiv.org/abs/2410.13161) | 2024 | Evaluations for detecting sabotage capabilities in frontier models |
 | [Alignment Faking in Large Language Models](Alignment_Faking_in_Large_Language_Models_2412.14093.pdf) | [2412.14093](https://arxiv.org/abs/2412.14093) | 2024 | **ACL 2024 Best Paper** - First empirical demonstration of alignment faking without explicit training |
 

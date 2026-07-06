@@ -209,7 +209,7 @@
    "Anthropic-Claude_4_Opus_Sonnet_System_Card",
    "Anthropic-Claude_Opus_4.5_System_Card",
    "Anthropic-Claude_Sonnet_4.5_System_Card",
-   "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548",
+   "Anthropic-Towards_Understanding_Sycophancy_in_LMs_2310.13548",
    "Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073",
    "Anthropic-Constitutional_Classifiers_2501.18837",
    "Anthropic-Constitutional_Classifiers_Plus_Plus_2601.04603",
@@ -1847,7 +1847,7 @@
    "Anthropic-A_General_Language_Assistant_as_a_Laboratory_for_Alignment_2112.00861",
    "Anthropic-Alignment_Faking_in_Large_Language_Models_2412.14093",
    "Anthropic-Claude_4_Opus_Sonnet_System_Card",
-   "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548",
+   "Anthropic-Towards_Understanding_Sycophancy_in_LMs_2310.13548",
    "Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback_2212.08073",
    "Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388",
    "Anthropic-Many-shot_Jailbreaking_2401.05566",
@@ -2178,7 +2178,7 @@
    "2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit",
    "2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs",
    "2026-vanNuenen-Fragility of Moral Judgment",
-   "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548",
+   "Anthropic-Towards_Understanding_Sycophancy_in_LMs_2310.13548",
    "Anthropic-In-context_Reward_Hacking_2402.09656",
    "Anthropic-Measuring_Faithfulness_in_CoT_Reasoning_2307.13702",
    "Anthropic-The_Capacity_for_Moral_Self-Correction_in_LLMs_2302.07459",
@@ -2509,7 +2509,7 @@
    "Anthropic-Claude_4_Opus_Sonnet_System_Card",
    "Anthropic-Claude_Opus_4.5_System_Card",
    "Anthropic-Claude_Sonnet_4.5_System_Card",
-   "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548",
+   "Anthropic-Towards_Understanding_Sycophancy_in_LMs_2310.13548",
    "Anthropic-In-context_Reward_Hacking_2402.09656",
    "Anthropic-Language_Models_Dont_Always_Say_What_They_Think_2305.04388",
    "Anthropic-Many-shot_Jailbreaking_2401.05566",
@@ -13037,9 +13037,9 @@
    "words": 3065,
    "parse_issues": []
   },
-  "Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548": {
+  "Anthropic-Towards_Understanding_Sycophancy_in_LMs_2310.13548": {
    "kind": "lab",
-   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Collective_Constitutional_AI_Democratizing_AI_Alignment_2310.13548.card.md",
+   "path": "COOKBOOK/30-EVIDENCE/20260705-ailabs-cards/Anthropic-Towards_Understanding_Sycophancy_in_LMs_2310.13548.card.md",
    "theme_tags": [
     "ai-lab-practices",
     "validity-psychometrics",

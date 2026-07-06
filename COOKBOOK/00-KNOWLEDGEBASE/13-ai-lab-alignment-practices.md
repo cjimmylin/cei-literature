@@ -17,7 +17,7 @@
   "deliberately underspecified," culturally variable, and internally conflicting
   [Anthropic-A_General_Language_Assistant; 2025-Lindstrom].
 - **Specification variants:** private constitution [Anthropic-Constitutional_AI]; participatory public
-  constitution (CCAI: lower bias on all 9 BBQ dimensions at equal MMLU [Anthropic-Collective_Constitutional_AI]);
+  constitution (CCAI: lower bias on all 9 BBQ dimensions at equal MMLU [Anthropic-Towards_Understanding_Sycophancy_in_LMs]);
   spec-reasoned-at-inference (deliberative alignment [OpenAI-deliberative-alignment]); steerable
   attribute vectors, no single value system [NVIDIA-SteerLM]; rule-based rewards to resist reward
   hacking [DeepSeek-R1; Alibaba (Qwen)-Qwen3]; jurisdictional law/ideology [Han-HKGAI-V1 — anti-pattern].

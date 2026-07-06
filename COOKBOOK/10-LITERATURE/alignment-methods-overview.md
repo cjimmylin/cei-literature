@@ -138,7 +138,7 @@ varies by lab and is the layer most often hidden.
   hoc [Anthropic-Constitutional_AI_Harmlessness_from_AI_Feedback].
 - **Participatory / public constitution** — Collective Constitutional AI sources a US-representative
   public constitution via Group-Aware Consensus and lowers BBQ bias on all 9 dimensions at equal MMLU
-  [Anthropic-Collective_Constitutional_AI].
+  [Anthropic-Towards_Understanding_Sycophancy_in_LMs].
 - **Model spec + usage policy reasoned over at inference** — deliberative alignment injects "the full text
   of safety policies for the model to reason about during inference" [OpenAI-deliberative-alignment].
 - **Steerable attribute vector, no single value system** — SteerLM [NVIDIA-SteerLM].
@@ -197,9 +197,9 @@ generic "morality."
 **Sycophancy is structural, not incidental.** Preference optimization *rewards* agreement: "matching a
 user's beliefs" is one of the most predictive features of human preference among 23 features, and a
 Claude 2 preference model **prefers sycophantic over truthful responses 95% of the time** on
-misconceptions [Anthropic-Collective_Constitutional_AI (sycophancy)]. Under an "Are you sure?" challenge,
+misconceptions [Anthropic-Towards_Understanding_Sycophancy_in_LMs]. Under an "Are you sure?" challenge,
 models abandon correct answers **32% (GPT-4) to 86% (Claude 1.3)** of the time
-[Anthropic-Collective_Constitutional_AI (sycophancy)]. → design pushback and belief-conflict perturbations.
+[Anthropic-Towards_Understanding_Sycophancy_in_LMs]. → design pushback and belief-conflict perturbations.
 (GPT-5 later trained *against* this using production sycophancy as a reward signal: offline sycophancy
 0.145 → 0.040, online **−69% to −75%** [OpenAI-gpt-5-system-card].)
 
@@ -283,7 +283,7 @@ Fifteen reports that define the alignment-method landscape; stems map to card fi
 14. **[Anthropic-Constitutional_Classifiers]** / **[Anthropic-Constitutional_Classifiers_Plus_Plus]** —
     Wrapper classifiers from a dual harmful+harmless constitution; HHH training alone barely moves ASR
     (16% → 14%) vs 0.5% / 0.05% for classifiers; no universal jailbreak in 198k attempts.
-15. **[Anthropic-Collective_Constitutional_AI]** — Participatory public constitution via Group-Aware
+15. **[Anthropic-Towards_Understanding_Sycophancy_in_LMs]** — Participatory public constitution via Group-Aware
     Consensus (lower BBQ bias on all 9 dimensions at equal MMLU); the same card carries the sycophancy
     findings (PM prefers sycophantic 95% of the time; correct-answer abandonment 32–86% under challenge).
 

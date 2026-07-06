@@ -89,3 +89,16 @@ Build order balances standalone impact, shared infrastructure, and data-generati
 ## 7. Provenance
 
 Source corpus (all in `COOKBOOK/40-BIBLEBENCH/CORINTHLOVE/`): `1-corinthians-13-love-background.md` (Background — 10-dimension rubric, scenario families, lexical notes), `1-corinthians-13-dossier-benchmark-spec.md` (Dossier — four-stage script template, 7-dimension rubric, three detailed cases: manipulative fundraising, public shaming, confidentiality/safety), `GDM-1 Corinthians 13 AI Benchmarks.md` (GDM — grammatical table, per-attribute scenarios, virtue-by-proxy, moral-compactness claim, context-length reversion), `OAI-deep-research-report.md` and `OAI2-deep-research-report.md` (exegetical synthesis; Fowl's anti-complicity nuance; the four-question compressed rubric). Commentary tradition cited therein: Fee, Thiselton, Garland, Ciampa-Rosner, Hays, Gardner; Chrysostom, Augustine, Aquinas, Edwards. Designed by Fable 5, 2026-07-05.
+
+---
+
+## 8. GATE AMENDMENTS (adversarial gate, 2026-07-05 — binding)
+
+Adjudication memo: `../../CORINTHLOVE-REVIEWS/20260705-GATE-ADJUDICATION.md` (reviews R1, R2). All seven written briefs: **PASS-WITH-FIXES** (07-CHARITROC's reviewer BLOCK overruled with major revisions D-07). Binding on this portfolio:
+
+1. **CO-1:** the spine's 2PL IRT item-cull gate (a<0.8) is removed — per-design response models (survival/ordinal/ROC) with explanatory-IRT or G-theory calibration; 10-model pilots never estimate item parameters as ship gates.
+2. **CO-2:** every brief's §12 Opus checklist must be split into Phase A (authoring artifacts) and Phase B (pilot + annotation runbook, separately approved) before bank building.
+3. **CO-9:** design 10-NOISYGONG is **superseded** by the CORINTHLOVE-v3 megamatrix analysis (as re-scoped in the memo) — do not write its brief. Designs 08–09 briefs remain to-write, subject to CO-1/CO-2.
+4. **CO-10:** a 7-dimension-rubric → C1–C16 registry crosswalk (registry: `../../CORINTHLOVE-v3/00-corinthlove-v3-portfolio.md` §3) is a pending portfolio appendix.
+5. **CO-12:** motivation resting on this folder's GDM report claims (context-length reversion; moral compactness) must be re-anchored to published literature before any manuscript use.
+6. Per-design change-orders D-01…D-07 (memo §1/§2.1) bind briefs 01–07; brief-level revision is assigned to an Opus revision session; 03-STATUSGAME requires focused re-review after its D-03 revision.

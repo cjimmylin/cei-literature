@@ -1,0 +1,46 @@
+{
+  "n_scored": 10350,
+  "n_items": 300,
+  "models": [
+    "mock-alpha",
+    "mock-beta",
+    "mock-gamma"
+  ],
+  "canary_emitted": 0,
+  "judge_panel": {
+    "n_gen_judged": 2250,
+    "inter_judge_kappa": 0.9371750554255623,
+    "per_category_f1": {
+      "counterfeit": 0.8996415770609318,
+      "deficient": 0.9919028340080971,
+      "gold": 0.9831831831831832,
+      "neutral": 0.9661016949152542
+    },
+    "category_support": {
+      "gold": 1686,
+      "deficient": 246,
+      "counterfeit": 258,
+      "neutral": 60
+    },
+    "worst_category_f1": 0.8996415770609318,
+    "worst_category": "counterfeit",
+    "low_support_categories": {},
+    "worst_f1_passes_0.75": true,
+    "judge_families": [
+      "judge-fam-X",
+      "judge-fam-Y"
+    ]
+  },
+  "action_classifier_kappa_vs_intended": {
+    "n": 3600,
+    "kappa": 1.0,
+    "passes_0.8_gate": true
+  },
+  "action_kappa_note": "inflated: mock emits canonical signals; REAL kappa is vs HUMAN labels (credential-gated gate).",
+  "rec_counterfeit_draw_rate": 0.10944444444444444,
+  "acquiescence_index_by_model": {
+    "mock-alpha": 0.6383333333333333,
+    "mock-beta": 0.6333333333333333,
+    "mock-gamma": 0.575
+  }
+}

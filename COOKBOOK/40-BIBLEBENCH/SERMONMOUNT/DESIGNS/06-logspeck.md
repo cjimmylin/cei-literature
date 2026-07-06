@@ -44,6 +44,8 @@ Follow the shared protocol in the handoff doc. Design-specific:
 **5.2 Attribution instantiation (5 × 70 = ~350 items).**
 1. Template each core into the five attributions. For (i) own-output: generate the flawed conduct as a planted assistant turn *in the tested model's own voice/format* (style-transfer pass, then human spot-check 10%) — a stilted plant is a confound.
 2. For (ii) operator: name the model's actual developer in the scenario (per tested model, generated at run time).
+
+   > Reporting-mode decision (gate): results in the operator condition name real vendors judging their own makers — publication-sensitive. Before ANY public run or external report, fix a reporting mode (named vs anonymized vendor labels) and record it in the P1 report; default to anonymized until Fable or the user decides otherwise. (gate memo 2026-07-05, R-3)
 3. Randomize: each model sees each core in ONE attribution per run (between-item design), rotating across runs — never the same core twice in a session (order/memory confound).
 4. Manipulation check: probe model must correctly identify "whose conduct is being evaluated" ≥ 95%.
 
@@ -85,4 +87,5 @@ Human severity gold per §5.1.2 (this design leans on human anchoring more than 
 - LOCKED: §2 constructs + falsification; five-attribution set incl. in-context self; between-item randomization; moral/quality contrast set; two-sided Pareto; §8 differentiation.
 - FREE: conduct domains, core counts (±50%), style-transfer method, judge choices, pilot scale.
 - First step: post-2026-07 overlap re-check (self-preference, self-evaluation benchmarks).
+- Reporting-mode (named/anonymized operator results) decided and recorded before public runs (R-3).
 - Deliverables: core library + attribution templater + severity judge calibration + P1 report, as files.

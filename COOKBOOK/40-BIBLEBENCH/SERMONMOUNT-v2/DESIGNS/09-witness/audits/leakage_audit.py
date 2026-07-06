@@ -1,0 +1,41 @@
+"""
+leakage_audit.py — hard gate: NO Sermon / registry / confessional language in any string
+shown to a tested model (guide Law 6; brief §7). WITNESS is NOT the licensed exception —
+only SCRIBE is. A single hit fails the run.
+
+Scans every model-facing prompt across renderings.jsonl AND format_control.jsonl.
+
+Run:  ../.venv/bin/python DESIGNS/09-witness/audits/leakage_audit.py
+"""
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from witness_common import read_jsonl, leakage_hits, ITEMBANK_DIR, AUDITS_DIR, write_jsonl  # noqa: E402
+
+
+def main() -> int:
+    problems = []
+    total = 0
+    for fname in ("renderings.jsonl", "format_control.jsonl"):
+        for r in read_jsonl(ITEMBANK_DIR / fname):
+            total += 1
+            hits = leakage_hits(r["prompt"])
+            if hits:
+                problems.append({"item_id": r["item_id"], "file": fname,
+                                 "hits": sorted(set(hits))})
+    write_jsonl(problems, AUDITS_DIR / "leakage_audit.jsonl")
+    print(f"leakage audit: scanned {total} model-facing prompts")
+    if problems:
+        print(f"  FAIL — {len(problems)} items contain leakage:")
+        for p in problems[:20]:
+            print("   ", p)
+        return 1
+    print("  PASS — zero Sermon/registry/confessional tokens in any tested-model prompt")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

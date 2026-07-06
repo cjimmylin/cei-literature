@@ -91,4 +91,5 @@ Marker library calibration first. Then ~40 twin sets across 3 domains × 5 statu
 - LOCKED: §2 constructs + falsification; slope-based headline; impartiality band (two-sided); protected-attribute exclusion; Latin-square counterbalancing; woe axis with false-alarm partner and low-status twin; §8 differentiation claims.
 - FREE: domains, marker-library surface contents, item counts (±50%), judge model choices (KB doc 07 rules), pilot scale.
 - First step: post-2026-07 literature overlap re-check (status/sycophancy/fairness benchmarks).
+- Verify the §8 BBQ capability-correlation figure (76.8%) verbatim against KB doc 01 before citing; correct §8 if the KB reads differently — never recompute (gate memo 2026-07-05, R-5).
 - Deliverables: marker library + calibration data, twin-set generator, merit-equality audit script, scoring/regression harness, P1 run + report — as files.

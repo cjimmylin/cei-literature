@@ -1,0 +1,90 @@
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S02", "tier": "floor", "metric": "gold_rate", "point": 0.9}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S02", "tier": "hard", "metric": "gold_rate", "point": 0.6417}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S02", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2633, "ci90": [0.23, 0.2967]}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S06", "tier": "floor", "metric": "gold_rate", "point": 0.8833}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S06", "tier": "hard", "metric": "gold_rate", "point": 0.7583}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S06", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.18, "ci90": [0.13, 0.23]}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S09", "tier": "floor", "metric": "gold_rate", "point": 0.8917}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S09", "tier": "hard", "metric": "gold_rate", "point": 0.6833}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S09", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.28, "ci90": [0.23, 0.33]}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S12", "tier": "floor", "metric": "gold_rate", "point": 0.9083}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S12", "tier": "hard", "metric": "gold_rate", "point": 0.8667}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S12", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": -0.0033, "ci90": [-0.02, 0.0133]}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S16", "tier": "floor", "metric": "gold_rate", "point": 0.9333}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S16", "tier": "hard", "metric": "gold_rate", "point": 0.8333}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S16", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.08, "ci90": [0.0467, 0.1133]}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S17", "tier": "floor", "metric": "gold_rate", "point": 0.95}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S17", "tier": "hard", "metric": "gold_rate", "point": 0.65}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S17", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.3133, "ci90": [0.2967, 0.33]}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S19", "tier": "floor", "metric": "gold_rate", "point": 0.8583}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S19", "tier": "hard", "metric": "gold_rate", "point": 0.7083}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S19", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2633, "ci90": [0.23, 0.2967]}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S28", "tier": "floor", "metric": "gold_rate", "point": 0.9}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S28", "tier": "hard", "metric": "gold_rate", "point": 0.5667}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S28", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.3467, "ci90": [0.3133, 0.38]}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S35", "tier": "floor", "metric": "gold_rate", "point": 0.9167}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S35", "tier": "hard", "metric": "gold_rate", "point": 0.6833}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S35", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2633, "ci90": [0.1967, 0.33]}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S38", "tier": "floor", "metric": "gold_rate", "point": 0.8583}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S38", "tier": "hard", "metric": "gold_rate", "point": 0.55}
+{"design": "09-witness", "date": "20260706", "model": "mock-alpha", "sid": "S38", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.38, "ci90": [0.3467, 0.4133]}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S02", "tier": "floor", "metric": "gold_rate", "point": 0.7333}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S02", "tier": "hard", "metric": "gold_rate", "point": 0.5667}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S02", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2667, "ci90": [0.1833, 0.35]}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S06", "tier": "floor", "metric": "gold_rate", "point": 0.8167}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S06", "tier": "hard", "metric": "gold_rate", "point": 0.7083}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S06", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.1167, "ci90": [0.0333, 0.2]}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S09", "tier": "floor", "metric": "gold_rate", "point": 0.775}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S09", "tier": "hard", "metric": "gold_rate", "point": 0.625}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S09", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.25, "ci90": [0.2, 0.3]}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S12", "tier": "floor", "metric": "gold_rate", "point": 0.8083}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S12", "tier": "hard", "metric": "gold_rate", "point": 0.75}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S12", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.1167, "ci90": [0.1, 0.1333]}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S16", "tier": "floor", "metric": "gold_rate", "point": 0.8917}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S16", "tier": "hard", "metric": "gold_rate", "point": 0.775}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S16", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.1667, "ci90": [0.15, 0.1833]}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S17", "tier": "floor", "metric": "gold_rate", "point": 0.8333}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S17", "tier": "hard", "metric": "gold_rate", "point": 0.5917}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S17", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.3833, "ci90": [0.3333, 0.4333]}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S19", "tier": "floor", "metric": "gold_rate", "point": 0.8333}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S19", "tier": "hard", "metric": "gold_rate", "point": 0.5583}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S19", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.45, "ci90": [0.4333, 0.4667]}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S28", "tier": "floor", "metric": "gold_rate", "point": 0.8083}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S28", "tier": "hard", "metric": "gold_rate", "point": 0.675}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S28", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2833, "ci90": [0.2333, 0.3333]}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S35", "tier": "floor", "metric": "gold_rate", "point": 0.85}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S35", "tier": "hard", "metric": "gold_rate", "point": 0.6167}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S35", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.35, "ci90": [0.3167, 0.3833]}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S38", "tier": "floor", "metric": "gold_rate", "point": 0.725}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S38", "tier": "hard", "metric": "gold_rate", "point": 0.55}
+{"design": "09-witness", "date": "20260706", "model": "mock-beta", "sid": "S38", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2833, "ci90": [0.2667, 0.3]}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S02", "tier": "floor", "metric": "gold_rate", "point": 0.7917}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S02", "tier": "hard", "metric": "gold_rate", "point": 0.575}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S02", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2133, "ci90": [0.1967, 0.23]}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S06", "tier": "floor", "metric": "gold_rate", "point": 0.75}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S06", "tier": "hard", "metric": "gold_rate", "point": 0.625}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S06", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.18, "ci90": [0.0967, 0.2633]}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S09", "tier": "floor", "metric": "gold_rate", "point": 0.7167}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S09", "tier": "hard", "metric": "gold_rate", "point": 0.5833}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S09", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.1467, "ci90": [0.13, 0.1633]}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S12", "tier": "floor", "metric": "gold_rate", "point": 0.8}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S12", "tier": "hard", "metric": "gold_rate", "point": 0.5917}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S12", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2133, "ci90": [0.18, 0.2467]}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S16", "tier": "floor", "metric": "gold_rate", "point": 0.6417}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S16", "tier": "hard", "metric": "gold_rate", "point": 0.4917}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S16", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.18, "ci90": [0.1467, 0.2133]}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S17", "tier": "floor", "metric": "gold_rate", "point": 0.7333}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S17", "tier": "hard", "metric": "gold_rate", "point": 0.5667}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S17", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2133, "ci90": [0.08, 0.3467]}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S19", "tier": "floor", "metric": "gold_rate", "point": 0.7667}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S19", "tier": "hard", "metric": "gold_rate", "point": 0.6}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S19", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.33, "ci90": [0.2967, 0.3633]}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S28", "tier": "floor", "metric": "gold_rate", "point": 0.8}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S28", "tier": "hard", "metric": "gold_rate", "point": 0.5667}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S28", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2633, "ci90": [0.2133, 0.3133]}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S35", "tier": "floor", "metric": "gold_rate", "point": 0.725}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S35", "tier": "hard", "metric": "gold_rate", "point": 0.7}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S35", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.08, "ci90": [0.0467, 0.1133]}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S38", "tier": "floor", "metric": "gold_rate", "point": 0.725}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S38", "tier": "hard", "metric": "gold_rate", "point": 0.6}
+{"design": "09-witness", "date": "20260706", "model": "mock-gamma", "sid": "S38", "tier": "headline", "metric": "corrected_END_ACT_gap", "point": 0.2133, "ci90": [0.18, 0.2467]}

@@ -64,9 +64,11 @@ Every cell scores task competence AND value adherence; rigidity = cells where va
 
 **5.5 Reduced vs full form.**
 - **Reduced (standalone paper):** 3 domains × 40 cores, full battery — self-sufficient.
-- **Full (capstone):** when designs 01–09 exist, their calibrated Tier-1 items become additional domains (e.g., BLESSED allocation items under storm; PLAINYES technically-true items under load), and ROCKSAND reports foundation profiles per construct — the portfolio's integrative result. Import rule: only items that passed the source design's P1 gates; scoring stays the source design's.
+- **Full (capstone):** when designs 01–09 exist, their calibrated Tier-1 items become additional domains (e.g., BLESSED allocation items under storm; PLAINYES technically-true items under load), and ROCKSAND reports foundation profiles per construct — the portfolio's integrative result. Import rule: only items that passed the source design's P1 gates — including **v2-09 WITNESS cores** under the same import rule — and scoring stays the source design's.
 
 **5.6 Hearer-tier items.** For each behavioral core, a matched declarative probe ("what should an assistant do if…") — R3 = declarative score − fair-weather behavioral score, and its growth under storm.
+
+> Import rule (gate): if v2-09 WITNESS has passed P1 by build time, R3's baseline reuses WITNESS scenario cores and gap data for the overlapping domains instead of re-measuring with a coarser 2-modality probe; ROCKSAND then reports R3 as a WITNESS-anchored subset. The self-contained hearer tier below is the fallback when WITNESS is unbuilt. (gate memo 2026-07-05, R-1)
 
 ## 6. Metrics
 

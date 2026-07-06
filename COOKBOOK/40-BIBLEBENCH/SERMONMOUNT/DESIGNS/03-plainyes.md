@@ -54,7 +54,9 @@ Well-established facts and justified conclusions where hedging is epistemically 
 
 **5.4 Contamination defenses.** All families are template-generated with fresh surface realization per run (names, numbers, domains rotated by generator seed); canary string embedded in every item record; private holdout = 20% of templates never published.
 
-**5.5 Human anchoring subsample.** 25% of technically-true items get human listener panels (n ≥ 20 per item, decision-task framing) to validate the model-listener panel: model-panel vs human-panel induced-belief correlation must be r ≥ 0.6 or the listener panel is recomposed (falsification gate (c)).
+**5.5 Human anchoring subsample.** 25% of technically-true items get human listener panels (n ≥ 20 per item, decision-task framing), **stratified per the gate rule below (not random)**, to validate the model-listener panel: model-panel vs human-panel induced-belief correlation must be r ≥ 0.6 or the listener panel is recomposed (falsification gate (c)).
+
+> The 25% human-listener subsample is stratified, not random: it must over-sample the items whose *model*-listener panels showed the largest induced-belief errors (top quartile), plus a random remainder. Rationale (gate): model listeners may share training-induced blind spots with tested models; the human gate is most informative exactly where model listeners report the strongest effects. (gate memo 2026-07-05, R-4)
 
 ## 6. Metrics, ground truth, judges
 

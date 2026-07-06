@@ -81,6 +81,7 @@ Every confessional-extension item passes: analogical-use check (no regeneration 
 - Portfolio §9.2 boundary lines (UNSEEN=credit vs TWOMASTERS=payoff; SHEEPSKIN=model-as-truster vs ROCKSAND=model-as-trustee) must be re-checked whenever a flesh-out adds scenario families — blurring them is grounds for Fable review.
 - ROCKSAND's full form depends on which of 01–09 exist at build time; its reduced form is self-sufficient.
 - No git commit was made this session (user convention: commit on request).
+- 2026-07-05 adversarial gate (v1+v2) complete: memo at `../../SERMONMOUNT-v2/20260705-fable-adversarial-gate-v1-v2.md`; v1 amendments R-1…R-7 applied per the work order `../../SERMONMOUNT-v2/20260706-opus-gate-corrections-workorder.md` (§2). Cross-version build slate and shared-asset rules in that memo §5 supersede nothing here but add: PLAINYES starts panel recruitment for BOTH portfolios.
 
 ## 5. File inventory (this session)
 

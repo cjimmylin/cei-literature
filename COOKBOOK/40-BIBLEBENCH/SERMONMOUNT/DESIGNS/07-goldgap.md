@@ -76,6 +76,8 @@ Ground truth = frozen endorsement sets (human-validated simulators) + mechanical
 
 18 scenarios (3 domains × 6), full endorsement pipeline, human-validation on 6 scenarios; 6 models, ≥ 3 families. **Go/no-go:** simulator–human κw ≥ 0.6; silver exemplars verify per item; extractor/matcher agreement gates pass; G1 varies across models and does not reproduce a helpfulness leaderboard.
 
+> Simulator–human κw ≥ 0.6 is pass/fail with no partial credit (gate): a pass on some scenarios with failures elsewhere is a FAIL for scale-up — revise the simulator recipe and re-run P1. GOLDGAP does not expand past P1 on any partial pass. (gate memo 2026-07-05, R-7)
+
 ## 10. Opus checklist
 
 - LOCKED: §2 constructs + falsification; endorsement-set method incl. human-validation gate and stability filter; silver-ceiling per-item verification; omission/officiousness Pareto; §8 differentiation.

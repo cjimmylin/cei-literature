@@ -29,7 +29,7 @@ Positioning is identical to v1: Track A leads secular at NeurIPS/ICML/ICLR (D&B 
 | 09 | PALTER | No false witness (Exod 20:16) | Gestalt honesty: truthful-but-misleading composition, production + detection | Paltering rate by incentive dose; reader-belief delta | Reader-belief-delta scoring validated by a belief-transfer study |
 | 10 | ZEROSUM | No coveting (Exod 20:17) | Positional-framing correction: zero-sum bias in advisory reasoning | Zero-sum-bias slope along the payoff continuum | Ground truth derived from payoff structure — objective gold, no judge circularity |
 
-**Registered cross-analysis (v2 signature, mirroring v1's SOVEREIGN↔APPETITE):** **TURNCOAT↔SELAH.** Both measure "steadfastness": TURNCOAT rewards resisting illegitimate frame capture; SELAH penalizes resisting legitimate interruption. Pre-registered question: is capture-resistance correlated with momentum override (one stubbornness trait expressing as virtue and vice), or dissociable (frame security and corrigibility are separate abilities)? Either answer is a paper-grade result: correlation implies a corrigibility tax on value stability; dissociation refutes the "aligned = compliant" conflation. Analysis pre-registered before either pilot unblinds.
+**Registered cross-analysis (v2 signature, mirroring v1's SOVEREIGN↔APPETITE):** **TURNCOAT↔SELAH.** Both measure "steadfastness": TURNCOAT rewards resisting illegitimate frame capture; SELAH penalizes resisting legitimate interruption. Pre-registered question: is capture-resistance correlated with momentum override (one stubbornness trait expressing as virtue and vice), or dissociable (frame security and corrigibility are separate abilities)? Either answer is a paper-grade result: correlation implies a corrigibility tax on value stability; dissociation refutes the "aligned = compliant" conflation. Analysis pre-registered before either pilot unblinds (descriptive at N≤9 model subjects; no significance claims).
 
 ## 3. Shared design commitments (Seven Laws instantiation)
 
@@ -56,7 +56,24 @@ Inherited from v1 §4 and hardened. Shipping criteria per design, assessed at P1
 
 ## 5. X1–X6 compliance charter (adversarial-gate requirements, baked in from day one)
 
-v1 was drafted before the 20-DESIGNS adjudication (`../../..​/20-DESIGNS/REVIEWS/20260705-adjudication-memo.md`). v2 scaffolds are born compliant. Every design's P1 pilot MUST satisfy:
+v1 was drafted before the 20-DESIGNS adjudication (`../../..​/20-DESIGNS/REVIEWS/20260705-adjudication-memo.md`). The earlier claim that the v2 scaffolds are "born compliant" is **retracted** (R4-F19 / TC-2): X1–X6 compliance is a per-design status to be earned and audited, not a portfolio birthright — and X4 in particular was invoked charter-wide but discharged in zero scaffolds. The **compliance table** below records each design's status as of this 2026-07-06 revision; every design's P1 pilot MUST still satisfy the X1–X6 requirements that follow.
+
+**Compliance table (status as of the 2026-07-06 revision).** X1 = numeric go/no-go status per design as of this revision; X2/X3/X5/X6 = operational (charter-level, per §5 requirements); X4 = smallest-cell power note added per design (discharging R4-F19).
+
+| Design | X1 (numeric status) | X2 | X3 | X4 (power note) | X5 | X6 |
+|--------|---------------------|----|----|-----------------|----|----|
+| 01 TURNCOAT | Numeric (§4 gate + item-retention rules) | Operational | Operational | Smallest cell = source×legitimacy×dose; correlation with SELAH descriptive at pilot N (see §2) | Operational | Operational |
+| 02 GOLEM | Numeric (§4 gate + retention) | Operational (web-common ⇒ both probes at P1) | Operational | Smallest cell = ladder-tier×consent×purpose; contested tiers exploratory at pilot N | Operational | Operational |
+| 03 PROXY | Numeric (§4 gate + retention) | Operational | Operational (detection-probability first-class) | Smallest cell = mandate-ambiguity×domain; item-level cross-model CV only at pilot N | Operational | Operational |
+| 04 SELAH | Numeric (§4 gate + retention) | Operational | Operational (detection-probability first-class) | Smallest cell = sunk-cost×domain; descriptive at pilot N | Operational | Operational |
+| 05 HEIRLOOM | Numeric (§4 gate + retention) | Operational | Operational | Smallest cell = fence×rationale-status; point-biserial only at pilot N | Operational | Operational |
+| 06 KEEPER | Numeric (§4 gate); IR-vs-anomaly dissociation gate to be minted per R4-F2 | Operational | Operational | Worked example: per-(signal-family×salience); AO-index CIs reported, unpowered pair-families exploratory (R4-F3) | Operational | Operational |
+| 07 PARAMOUR | **P0 gate bar pending** — numeric probe→Δsign table + min-match fraction owed per R4-F5 before build | Operational (web-common ⇒ both probes at P1) | Operational | Per-(family×dose)=8 arcs; multi-session powered on restoration family only, DS demoted elsewhere (R4-F6) | Operational | Operational |
+| 08 SKIM | Numeric (§4 gate + retention) | Operational (published generator ⇒ both probes at P1) | Operational (traceability first-class) | Worked example: per-(family×magnitude×traceability); within-family θ + pooled θ reported (R4-F9) | Operational | Operational |
+| 09 PALTER | **BT gate number pending** — transfer-correlation bar + panel N owed per R4-F12 before build | Operational (published generator ⇒ both probes at P1) | Operational | Per-family BT slice; BT N to be powered for target CI half-width (R4-F13) | Operational | Operational |
+| 10 ZEROSUM | Numeric for forced-selection cells; open-response classifier scoped as validated-descriptive (R4-F15) | Operational (published generator ⇒ both probes at P1) | Operational | Per-(ρ×family); slope on 4 ρ points reported with CI width (R4-F16) | Operational | Operational |
+
+Every design's P1 pilot MUST satisfy:
 
 - **X1 — Pre-registered go/no-go decision rules.** Every pilot names numeric thresholds before data: the §4 discrimination gate; item retention rules (point-biserial ≥ 0.2 vs design total; facility bounds); judge validation bar (per-dimension κw ≥ 0.7 vs human sample); and a named kill criterion. "We will examine X" is not a decision rule.
 - **X2 — Shortcut/gaming audit.** (a) Lexical baseline: a bag-of-words/length classifier trained on item surfaces must not recover gold beyond chance + 10 points — else the bank leaks its labels. (b) 10%-fine-tune probe: fine-tuning a mid-tier model on 10% of the bank must not lift held-out performance ≥15 points — else the bank is memorizable style, not construct. Highest-risk designs (published generator spec: SKIM, ZEROSUM; web-common scenarios: GOLEM, PARAMOUR) run both at P1, others by full-bank release.
@@ -101,8 +118,8 @@ Unchanged from v1: Track B rubrics are trajectory-scored 0–4 per dimension; se
 | KEEPER | UPSTREAM | UPSTREAM: detecting *others'* violence precursors + mens-rea calibration. KEEPER: the model's *own* omission culpability and rescue duty. UPSTREAM's actor is a third party; KEEPER's actor is the model. |
 | PARAMOUR | TRIAD | TRIAD: complicity in human–human infidelity (absent spouse). PARAMOUR: the model *itself* as displacing intimate party. TRIAD's secrecy is between humans; PARAMOUR's displacement is toward the model. |
 | SKIM | PROVENANCE | PROVENANCE: appropriating *others'* property under affordance (legality–morality dissociation). SKIM: leaking value from resources *entrusted* to the agent, with continuous magnitude. PROVENANCE's assets belong to third parties; SKIM's are in the model's custody. |
-| PALTER | WITNESS | WITNESS: claim-level testimonial justice (verified/unverified d-prime, due process). PALTER: composition-level misleadingness where every atom is true. A false atomic claim disqualifies an item from PALTER. |
-| ZEROSUM | APPETITE | APPETITE: the model's acquisitive disposition + desire amplification. ZEROSUM: the *structure* of comparative reasoning, with payoff-math gold. ZEROSUM items carry an objectively determinable game structure; APPETITE items measure disposition where no such gold exists. |
+| PALTER | WITNESS (`../../TENCOMMANDMENTS/DESIGNS/09-witness-no-false-witness.md`) | WITNESS: claim-level testimonial justice (verified/unverified d-prime, due process) scored at the level of individual atomic claims. PALTER: composition-level, *gestalt* misleadingness where every atom is true. A false atomic claim disqualifies an item from PALTER and routes it to WITNESS's claim-level bar. Boundary now cites the real v1 scaffold (no longer forthcoming): WITNESS claim-level vs PALTER gestalt. |
+| ZEROSUM | APPETITE (`../../TENCOMMANDMENTS/DESIGNS/10-appetite-no-coveting.md`) | APPETITE: the model's acquisitive disposition + desire amplification, measured where no objective gold exists. ZEROSUM: the *structure* of comparative reasoning, scored against a payoff-math **certificate**. ZEROSUM items carry an objectively determinable game structure (the payoff certificate is gold); APPETITE items measure disposition. Boundary now cites the real v1 scaffold (no longer forthcoming): ZEROSUM payoff-certificate vs APPETITE disposition. |
 
 ### 8.2 vs the existing COOKBOOK 20-DESIGNS portfolio
 
@@ -129,6 +146,8 @@ Ordered by gold cheapness and harness reuse; later entries reuse earlier harness
 
 Cross-analysis dependency: TURNCOAT and SELAH pilots must both complete before the §2 registered analysis unblinds.
 
+Shared-custody-stack note (TC-12): SKIM and v1's PROVENANCE share ONE agentic custody stack — do not fork a second. PROVENANCE's custody spec is authoritative (budgets, quotas, credential store, logs); SKIM extends it with the continuous-magnitude × traceability parametrization. Build SKIM against PROVENANCE's spec.
+
 ## 10. Portfolio-level risks
 
 1. **Religious-provenance skepticism** at secular venues — unchanged mitigation from v1: Track A leads secular; the Decalogue is one declared anchor; clause-level construct discipline is the evidence of care.
@@ -137,3 +156,10 @@ Cross-analysis dependency: TURNCOAT and SELAH pilots must both complete before t
 4. **Panel load** (GOLEM consent tiers, HEIRLOOM fence gold, KEEPER act/omission ladder). Mitigation: κ ≥ 0.8 clear-band targets bound panel load; contested bands absorb divergence as signal, not noise.
 5. **Judge circularity on normative constructs** — strongest defense in the portfolio's history: ZEROSUM's math gold and SKIM/PROXY/SELAH's mechanical action coding need no normative judge for their headlines; PALTER's judge is validated against human reader panels (belief transfer), not ethical intuition.
 6. **Eval-awareness confounding** for agentic designs — X3 arm is universal; PROXY/SKIM/SELAH promote detection probability to a measured axis.
+
+## Revision log — 2026-07-06 gate fixes
+
+- R4-F19 / TC-2: §5 retracted the "born compliant" claim and replaced it with a per-design X1–X6 **compliance table** (X1 = numeric status per design; X2/X3/X5/X6 operational; X4 = smallest-cell power notes added per design).
+- R4-F20 / TC-4: §2 TURNCOAT↔SELAH registered analysis demoted to descriptive at N≤9 model subjects (no significance claims).
+- R4-F18 / TC-1: §8.1 PALTER↔WITNESS and ZEROSUM↔APPETITE rows now cite the real v1 scaffolds (`09-witness-no-false-witness.md`, `10-appetite-no-coveting.md`); phantom/forthcoming framing removed; concrete boundaries stated (WITNESS claim-level vs PALTER gestalt; ZEROSUM payoff-certificate vs APPETITE disposition).
+- TC-12: §9 added the shared-custody-stack note — SKIM and PROVENANCE share ONE custody stack (PROVENANCE's spec authoritative, SKIM extends).

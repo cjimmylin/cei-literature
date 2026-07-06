@@ -3,8 +3,10 @@
 > **CEI COOKBOOK · 20-DESIGNS.** Fable-authored (2026-07-05). This folder contains six full benchmark
 > designs and eight concept sketches, each grounded in the evidence layer (677 cards → 13 dossiers →
 > 13 knowledgebase docs) and the four completed CEI meta-evaluations (965 benchmark characterizations).
-> Every design targets a **documented void** with a **documented discrimination mechanism** — nothing
-> here re-treads saturated territory.
+> Every design targets a **documented void** with a **documented discrimination mechanism**. Novelty
+> and discrimination claims were re-scoped at the 2026-07-05 adversarial gate (see status section
+> below): voids are stated relative to the 965 characterized benchmarks, with named nearest neighbors
+> and [beyond-corpus] frontier work cited in each design's novelty statement.
 
 ---
 
@@ -56,16 +58,35 @@ battery with flip-rates; private rolling holdout + fresh-per-run generation + ca
 labels with psychometric value vectors; human baselines on the identical instrument; and explicit
 "whose values" datasheets.
 
-## Sequencing recommendation (for the post-Fable Opus sessions)
+## Sequencing recommendation (for the post-Fable Opus sessions; revised at the 2026-07-05 gate)
 
-1. **Start with Design 03 (DUPLEX)** — smallest infrastructure, strongest guaranteed-discrimination
-   argument (the r=−0.83 result makes the reviewer case airtight), fastest path to a publishable result.
-2. **Then Design 06 (CRUX)** — procedural generation core reusable by all other designs; builds the
-   shared item-engine.
+1. **Start with Design 03 (DUPLEX) — via its new P0 falsification gate.** Smallest infrastructure and
+   the fastest path to a decisive result either way. Honest framing (corrected at the gate): the
+   r=−0.83 result shows *content* instruments converge — it motivates process probes but does not
+   guarantee they discriminate; the direct discrimination evidence is a single instrument (MP-DP),
+   a single unreplicated effect on the weakest subject (Haiku 3.5). DUPLEX's rewritten pilot
+   therefore runs a cheap pre-registered P0 smoke test **before** any generator build.
+2. **P0 pass → continue DUPLEX; P0 fail → Design 06 (CRUX) takes the build-first slot** (and DUPLEX
+   is re-scoped as universal-signature measurement). CRUX second either way — its procedural
+   generation core is reusable by all other designs.
 3. **Then Design 01 (UNMARKED)** — the flagship; highest impact, highest harness cost; reuses CRUX's
    generator and DUPLEX's process instrumentation.
 4. Designs 02/04/05 can proceed in parallel with community/expert partnerships as the long pole
    (04 and 05 require co-design pipelines that should start early).
+
+## 2026-07-05 adversarial review gate — status
+
+The deferred Phase-5 gate ran on 2026-07-05: 12 refute-first Opus reviews (novelty + validity per
+design), adjudicated in `REVIEWS/20260705-adjudication-memo.md`. Outcomes: all six novelty reviews
+PASS-WITH-FIXES; all six validity reviews BLOCK; adjudicated result **REVISE-AND-PROCEED for all six**
+(no understudy promotions) plus the DUPLEX P0 restructure above. Six cross-cutting standards (X1–X6:
+numeric go/no-go rules, shortcut audits, eval-awareness comparator arms, power corrections,
+sub-project disclosures, novelty-statement hygiene) were applied to every design; each design file
+ends with a revision log mapping defects to changes. Sketch S6 (moral attention) was partially
+absorbed into Design 01 as its MA-identifiability mechanism; S6 remains listed as a (now narrower)
+standalone sketch. Related: the `40-BIBLEBENCH/` packs were audited against the cookbook the same
+day (`40-BIBLEBENCH/AUDITS/`), with a FRUITBENCH↔DUPLEX/INTRA overlap map reconciling the virtue
+designs with this portfolio.
 
 Each full design ends with a **pilot protocol** sized to be executable by Opus-tier sessions with
 ~9-model cross-vendor trials, and a **novelty statement** checked against the four feature matrices

@@ -27,4 +27,5 @@ Build **UNFENCED (v2-04) P1** per its brief (`../FRUITBENCH-v2/DESIGNS/04-unfenc
 - Synthetic numbers are harness-validation only, labeled as such (banner + `-synthetic-` filename token, now automatic); no headline on simulated raters (FO-5 protocol).
 - Fresh-eyes objections (FO-8a) BEFORE building; new dated reports, never overwrite; no deletions (`mv` to RECYCLE-BIN/); `git log -1` before committing (shared index); commit+push FRUITBENCH paths only.
 - FO-3 (PANELS/ capacity plan) is due **before the 3rd build session** — UNFENCED is the 2nd, so flag it as top item in your handoff.
-- End with a dated handoff + a Fable-review prompt for UNFENCED P1 (mirror `20260706-thorns-p1-fable-review-prompt.md`).
+- **Governance (post-Fable window):** run the builder self-audit (`20260706-p1-review-protocol.md` Part A) before handoff and attach the evidence to your pilot report; frozen-surface questions go to `20260706-PENDING-RULINGS.md` per `20260706-succession-protocol.md` (least-committal interim path, results marked PROVISIONAL) — never decide them in-session. The FO-8 gate is pre-registered at `20260706-fo8-gate-protocol.md`; note its precondition 5 (D-36 THORNS rework precedes the live calibration round).
+- End with a dated handoff + a review prompt for UNFENCED P1 structured per `20260706-p1-review-protocol.md` Parts B–D.

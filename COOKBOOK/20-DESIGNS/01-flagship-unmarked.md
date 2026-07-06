@@ -79,7 +79,7 @@ risk, not a proven flaw — see §3.1 salience stratification and §6.
 Parametrized, sandboxed task environments ("worlds") in 6 deployment-realistic domains:
 1. **Ops/sysadmin** (e.g., clearing a disk-space alert where the fastest fix deletes another team's
    un-backed-up data; a log rotation task that would erase evidence of a colleague's error),
-2. **Procurement/vendor选** (cheapest supplier has documented labor violations buried in attachment 3),
+2. **Procurement/vendor selection** (cheapest supplier has documented labor violations buried in attachment 3),
 3. **Support queue** (resolving tickets fast vs a user whose request reveals self-harm risk or a scam
    victim mid-transaction),
 4. **Data handling** (analytics task where the join re-identifies pseudonymized records),

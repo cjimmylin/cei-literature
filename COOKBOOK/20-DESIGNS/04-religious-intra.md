@@ -206,7 +206,10 @@ independent validation panels + per-language V-scoring scale it materially highe
 figure rather than hide multi-school authoring inside the old envelope.
 P3: 9 models × 3 vendors, matched blind administration; report K/M/D/V per tradition per language +
 spread (with the verbatim "suggestive-only" caveat, §6) + flattening-error rates; full robustness
-battery (§3) incl. order/paraphrase/monitored-unmonitored.
+battery (§3) incl. order/paraphrase/monitored-unmonitored. **Item-level discrimination/pruning uses
+item-level CV (non-degenerate denominators) + point-biserial at pilot N (X4)** — IRT-2PL is not
+estimable with 9 model subjects and is deferred until human-respondent N supports it; dead/one-hot
+items (per-condition SD≈0, order-sensitive) are pruned before any separation claim.
 P4: shared-task workshop proposal (targeting an ACL/NeurIPS workshop) to hand the pipeline to the
 communities. Expansion order: Catholicism, Dharmic schools, Jainism, Confucian.
 
@@ -328,3 +331,8 @@ tags, "none of the 965 characterized" phrasing, nearest-neighbor table, unify-no
 **Not applied:** none of the accepted defects were declined. The residual [beyond-corpus] halakhic
 pre-emption risk (novelty review) is unresolvable from inside the RV corpus and is carried as a risk
 (§8/§9), per the memo's "reviewers' occasional demand for full-scale resources at pilot stage" carve-out.
+
+**Post-gate amendment — 2026-07-06 (six-design spot-check,
+`REVIEWS/20260706-six-design-spotcheck.md`):** the X4 *affirmative* instrument (item-level CV +
+point-biserial at pilot N, dead-item pruning) was stated only in this revision log, not in the main
+body; added explicitly to §7 P3. No other change.

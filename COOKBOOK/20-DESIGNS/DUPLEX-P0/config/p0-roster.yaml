@@ -1,0 +1,128 @@
+# DUPLEX P0 — vendor-neutral model roster + resource-condition config
+# Design source: COOKBOOK/20-DESIGNS/03-moralpsych-duplex.md §3.5 (generator != subject != judge,
+# vendor-family separation) and §7 (P0 falsification-first smoke test).
+#
+# SCOPE DECISIONS (binding, from Jimmy):
+#   - Anthropic  : accessed via the installed `anthropic` SDK, key from env ANTHROPIC_API_KEY.
+#   - OpenAI     : accessed via the OAuth **Codex CLI** (`codex exec`), NOT an API key.
+#   - Google/Gemini : DEFERRED — adapter stubbed with NotImplementedError; roster present-but-disabled.
+#
+# Enable Gemini later by flipping vendors.google.enabled + the per-model enabled flags to true
+# once gemini_adapter is implemented.
+
+version: "2026-07-06"
+design_ref: "03-moralpsych-duplex.md §3.5 / §7"
+
+# ≥10 reps/cell, temperature>0 (§3 / §7). Opus 4.6 + Sonnet 4.6 still accept `temperature`
+# (sampling params are only removed on Opus 4.7/4.8/Fable 5).
+reps_per_cell: 10
+temperature: 0.7
+base_seed: 20260706
+
+# Axis-P resource-manipulation cells (§3, §7). ≥1 manipulation must clear the KB04 §6.2 bar (G2).
+resource_conditions:
+  - forced_immediate      # answer-first, <=16 tokens, no deliberation
+  - standard              # default budget
+  - extended_thinking     # adaptive/extended thinking on (deliberation +)
+  - load_injected         # concurrent constraint-tracking task in-prompt (deliberation -)
+
+# G1 needs a matched content-axis baseline scored on the SAME models.
+axes:
+  - process
+  - content
+
+vendors:
+
+  anthropic:
+    enabled: true
+    adapter: anthropic_adapter
+    auth: { type: api_key, env: ANTHROPIC_API_KEY }
+    # §3.5 names Opus 4.6 / Sonnet 4.6 / Haiku 3.5 as the 3 Anthropic subjects.
+    models:
+      - id: claude-opus-4-6
+        label: "Opus 4.6"
+        enabled: true
+        supports_thinking: true
+        judge_eligible: true
+      - id: claude-sonnet-4-6
+        label: "Sonnet 4.6"
+        enabled: true
+        supports_thinking: true
+        judge_eligible: true
+      - id: claude-3-5-haiku-20241022
+        label: "Haiku 3.5"
+        enabled: true
+        supports_thinking: false
+        judge_eligible: false
+        status: "RETIRED_2026-02-19"
+        note: >
+          Design §3.5 names Haiku 3.5 specifically because it is the single model that produced the
+          MP-DP dual-process effect (the whole DUPLEX motivation). Per the current model catalog
+          `claude-3-5-haiku-20241022` was RETIRED 2026-02-19 (replacement: claude-haiku-4-5).
+          BLOCKER — decide before any live run: (a) substitute claude-haiku-4-5 (changes the subject
+          that showed the effect), or (b) pin a still-available legacy Haiku snapshot. Left as the
+          design-named ID here so the substitution is a conscious, logged choice, not silent drift.
+
+  openai:
+    enabled: true
+    adapter: openai_codex_adapter
+    auth: { type: oauth_codex_cli, cli: codex }   # `codex exec` subprocess; OAuth, no API key
+    # §3.5 names GPT-5 Codex / GPT Mini as the 2 OpenAI subjects.
+    models:
+      - id: gpt-5-codex
+        label: "GPT-5 Codex"
+        enabled: true
+        judge_eligible: true
+        # TODO(live): confirm the exact model string accepted by `codex exec -m` on this codex
+        # version (0.134.0). `codex exec -m <MODEL>` — run `codex exec -m gpt-5-codex '...'` once
+        # creds exist to verify the identifier resolves.
+      - id: gpt-5-mini
+        label: "GPT Mini"
+        enabled: true
+        judge_eligible: true
+        # TODO(live): verify identifier ("GPT Mini" -> gpt-5-mini?) against installed codex.
+
+  google:
+    enabled: false            # DEFERRED — gemini_adapter raises NotImplementedError
+    adapter: gemini_adapter
+    auth: { type: todo_deferred }
+    # §3.5 names 4 Gemini subjects. Present-but-disabled so this file is the single switch to turn
+    # them on once the adapter exists.
+    models:
+      - id: gemini-2.5-flash-lite
+        label: "Gemini 2.5 Flash-Lite"
+        enabled: false
+        judge_eligible: true
+      - id: gemini-2.5-flash
+        label: "Gemini 2.5 Flash"
+        enabled: false
+        judge_eligible: true
+      - id: gemini-2.5-pro
+        label: "Gemini 2.5 Pro"
+        enabled: false
+        judge_eligible: true
+      - id: gemini-3.1-pro
+        label: "Gemini 3.1 Pro"
+        enabled: false
+        judge_eligible: true
+
+# Cross-family judge routing (§3.5 / KB07 L54: "never let one family generate items AND judge them").
+# A judge model NEVER shares a vendor with the subject whose response it scores. Resolved at runtime
+# by runner.judges.assign_judges(subject_vendor, roster).
+judge_routing:
+  policy: cross_vendor_only
+  min_judges_per_subject: 1
+
+# P0 go/no-go thresholds (§7 table + KB04 §6.2). Consumed by analysis.gates.run_p0_gates.
+p0_gates:
+  g1_epsilon: 0.02            # non-degenerate-denominator guard for cross-model CV
+  g1_sd_dead_threshold: 1.0e-6  # per-condition SD below this => dead cell, excluded BEFORE CV
+  g1_high_condition: extended_thinking
+  g1_low_condition: forced_immediate
+  g2_alpha: 0.01             # KB04 §6.2: pair separated at p<0.01
+  g2_sep_threshold: 0.90     # KB04 §6.2: >=90% of pairs
+  g3_delib_condition: extended_thinking
+  g3_intuitive_condition: forced_immediate
+  g3_fallback: agent_patient_time_pressure   # M3 pre-registered fallback if no human anchor
+  g3_human_anchor: null      # set to the measured human utilitarian-shift sign/effect from the P0 mini-norm
+  g3_min_effect: 0.02

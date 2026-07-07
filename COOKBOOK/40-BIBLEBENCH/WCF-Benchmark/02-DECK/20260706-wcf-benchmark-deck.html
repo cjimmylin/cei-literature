@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WCF-Bench — Ten Benchmark Designs for Westminster-Standards Values Alignment</title>
+<style>
+/* ─── RESET & ROOT ─────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #0e1220;
+  --bg-card:   #161e30;
+  --bg-raised: #1d2740;
+  --gold:      #c9a84c;
+  --gold-dim:  #8a6e2e;
+  --text:      #ddd8cc;
+  --text-dim:  #8a8480;
+  --accent:    #3a7bd5;
+  --accent2:   #4caf8a;
+  --border:    #2a3555;
+  --red:       #c0443a;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --mono: "SF Mono", "Fira Code", "Consolas", monospace;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  overflow: hidden;
+}
+
+/* ─── DECK SHELL ───────────────────────────────────────────────────── */
+#deck {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ─── SLIDES ───────────────────────────────────────────────────────── */
+.slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 64px 80px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+  overflow: hidden;
+}
+
+.slide.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* ─── TYPOGRAPHY ───────────────────────────────────────────────────── */
+.slide-tag {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+h1.main-title {
+  font-size: clamp(26px, 4vw, 44px);
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1.15;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+h2.slide-title {
+  font-size: clamp(20px, 2.6vw, 32px);
+  font-weight: 600;
+  color: var(--gold);
+  line-height: 1.2;
+  margin-bottom: 28px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+h3.design-name {
+  font-size: clamp(16px, 2vw, 22px);
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.3px;
+}
+
+.design-tagline {
+  font-size: 14px;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 22px;
+}
+
+/* ─── BULLET LISTS ─────────────────────────────────────────────────── */
+ul.bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+ul.bullets li {
+  display: flex;
+  gap: 12px;
+  font-size: clamp(13px, 1.5vw, 16px);
+  line-height: 1.55;
+  color: var(--text);
+}
+
+ul.bullets li::before {
+  content: "▸";
+  color: var(--gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+ul.bullets li strong {
+  color: #e8e2d5;
+}
+
+ul.bullets.compact li {
+  font-size: clamp(12px, 1.3vw, 14px);
+  gap: 10px;
+}
+
+/* ─── CARDS ────────────────────────────────────────────────────────── */
+.card-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 4px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 18px 20px;
+  flex: 1;
+}
+
+.card-label {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.card-value {
+  font-size: clamp(12px, 1.4vw, 15px);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* ─── DESIGN SLIDE LAYOUT ──────────────────────────────────────────── */
+.design-header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 4px;
+}
+
+.design-num {
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 800;
+  color: var(--border);
+  line-height: 1;
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+  flex: 1;
+}
+
+.design-grid .card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── MATRIX GRID ──────────────────────────────────────────────────── */
+.matrix-wrap {
+  overflow: auto;
+  flex: 1;
+  margin-top: 8px;
+}
+
+table.matrix {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+table.matrix th {
+  background: var(--bg-raised);
+  color: var(--gold);
+  padding: 7px 9px;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+table.matrix th.row-head {
+  text-align: left;
+  min-width: 130px;
+}
+
+table.matrix td {
+  border: 1px solid var(--border);
+  padding: 6px 8px;
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 12px;
+}
+
+table.matrix td.dot {
+  color: var(--accent2);
+  font-size: 16px;
+  line-height: 1;
+}
+
+table.matrix tr td:first-child {
+  text-align: left;
+  color: var(--text);
+  font-weight: 500;
+  background: var(--bg-card);
+  font-size: 11.5px;
+}
+
+table.matrix tr:hover td {
+  background: rgba(255,255,255,0.03);
+}
+
+/* ─── TIER TABLE ───────────────────────────────────────────────────── */
+table.tier-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+table.tier-table th {
+  background: var(--bg-raised);
+  color: var(--gold);
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid var(--border);
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+table.tier-table td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  vertical-align: top;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+table.tier-table td.tier-label {
+  font-weight: 700;
+  color: var(--gold);
+  white-space: nowrap;
+  font-family: var(--mono);
+  font-size: 12px;
+}
+
+table.tier-table td.action-fail {
+  color: var(--red);
+  font-size: 12px;
+}
+
+table.tier-table tr:hover td {
+  background: rgba(255,255,255,0.025);
+}
+
+/* ─── PROOF-TEXT BOX ───────────────────────────────────────────────── */
+.proof-box {
+  background: var(--bg-card);
+  border-left: 3px solid var(--gold-dim);
+  padding: 12px 16px;
+  border-radius: 0 6px 6px 0;
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.6;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.proof-box strong {
+  color: var(--gold);
+  font-style: normal;
+}
+
+/* ─── PILL BADGES ──────────────────────────────────────────────────── */
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.badge {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.badge-gold  { background: rgba(201,168,76,0.15); color: var(--gold); border: 1px solid var(--gold-dim); }
+.badge-blue  { background: rgba(58,123,213,0.15); color: #6ea6f0; border: 1px solid #2a5a9a; }
+.badge-green { background: rgba(76,175,138,0.15); color: #6dd4a8; border: 1px solid #2a7055; }
+.badge-red   { background: rgba(192,68,58,0.15);  color: #e07070; border: 1px solid #7a2a2a; }
+
+/* ─── TITLE SLIDE SPECIAL ──────────────────────────────────────────── */
+.title-slide-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-meta {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title-meta-row {
+  font-size: 14px;
+  color: var(--text-dim);
+}
+
+.title-meta-row strong {
+  color: var(--text);
+}
+
+.title-hr {
+  width: 80px;
+  height: 3px;
+  background: var(--gold);
+  border: none;
+  border-radius: 2px;
+  margin: 20px 0;
+}
+
+/* ─── NAV BAR ──────────────────────────────────────────────────────── */
+#nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  background: rgba(14,18,32,0.92);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  z-index: 100;
+}
+
+.nav-btn {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: var(--font);
+  transition: background 0.15s, border-color 0.15s;
+  letter-spacing: 0.3px;
+}
+
+.nav-btn:hover {
+  background: var(--border);
+  border-color: var(--gold-dim);
+}
+
+#counter {
+  font-size: 13px;
+  color: var(--text-dim);
+  min-width: 60px;
+  text-align: center;
+  font-family: var(--mono);
+}
+
+/* ─── PROGRESS BAR ─────────────────────────────────────────────────── */
+#progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--gold);
+  transition: width 0.35s ease;
+  z-index: 200;
+}
+
+/* ─── CONSTRUCT CALLOUT ─────────────────────────────────────────────── */
+.construct-box {
+  background: var(--bg-raised);
+  border: 1px solid var(--gold-dim);
+  border-radius: 8px;
+  padding: 18px 22px;
+  margin: 14px 0;
+}
+
+.construct-quote {
+  font-size: clamp(14px, 1.6vw, 18px);
+  color: #e8e2cc;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.construct-cite {
+  font-size: 12px;
+  color: var(--gold-dim);
+  margin-top: 8px;
+  letter-spacing: 0.5px;
+}
+
+/* ─── TWO-COL LAYOUT ───────────────────────────────────────────────── */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  flex: 1;
+  margin-top: 4px;
+}
+
+/* ─── ROADMAP STEPS ────────────────────────────────────────────────── */
+.roadmap-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.roadmap-step {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 18px;
+}
+
+.step-phase {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  font-weight: 700;
+  white-space: nowrap;
+  min-width: 80px;
+  margin-top: 2px;
+}
+
+.step-body {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.step-body strong {
+  color: var(--gold);
+}
+
+.closing-line {
+  margin-top: 20px;
+  font-size: 15px;
+  color: var(--text-dim);
+  font-style: italic;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  padding-top: 18px;
+}
+
+/* ─── MECHANISM BOX ─────────────────────────────────────────────────── */
+.mech-block {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 18px;
+}
+
+.mech-block h4 {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+/* ─── SCROLL HINT ──────────────────────────────────────────────────── */
+.scroll-hint {
+  font-size: 11px;
+  color: var(--text-dim);
+  text-align: right;
+  margin-top: 4px;
+  opacity: 0.6;
+}
+
+/* ─── GATE COMPACT ──────────────────────────────────────────────────── */
+.gate-pill {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--gold);
+  background: rgba(201,168,76,0.1);
+  border: 1px solid var(--gold-dim);
+  border-radius: 4px;
+  padding: 1px 6px;
+  margin-right: 4px;
+}
+</style>
+</head>
+<body>
+
+<div id="progress"></div>
+
+<div id="deck">
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 1 — TITLE                                                 -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide active" id="s1">
+    <div class="title-slide-inner">
+      <div class="slide-tag">WCF-Bench · Benchmark Design Session · 2026-07-06</div>
+      <h1 class="main-title">
+        WCF-Bench<br>
+        Ten Benchmark Designs for<br>
+        Westminster-Standards Values Alignment
+      </h1>
+      <hr class="title-hr">
+      <div class="title-meta">
+        <div class="title-meta-row"><strong>Normative corpus:</strong> Westminster Confession of Faith + Larger &amp; Shorter Catechisms (1647)</div>
+        <div class="title-meta-row"><strong>Construct:</strong> Behavioral accord with WCF/WLC/WSC — not generic religiosity</div>
+        <div class="title-meta-row"><strong>Suite signature:</strong> 10 designs × 10 commandments — content constant, method varies</div>
+        <div class="title-meta-row"><strong>Status:</strong> Governing specs authored · Opus build-out pending · Credential-gated pilots to follow</div>
+      </div>
+      <div class="badge-row" style="margin-top:24px;">
+        <span class="badge badge-gold">10 Designs</span>
+        <span class="badge badge-blue">Full Decalogue</span>
+        <span class="badge badge-green">Anti-saturation Engineered</span>
+        <span class="badge badge-red">No Published Precedent</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 2 — WHY WESTMINSTER                                        -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s2">
+    <div class="slide-tag">Motivation</div>
+    <h2 class="slide-title">Why the Westminster Standards: a Pre-Built Scoring Ontology</h2>
+
+    <ul class="bullets">
+      <li><strong>WLC Q98–148 — Graded casuistic system.</strong> For each commandment: enumerated duties required, sins forbidden, aggravating factors — the operationalization work most benchmarks improvise is already done.</li>
+      <li><strong>Q99's eight interpretive rules.</strong> Cross-commandment entailments (Rule 3), duty/omission symmetry (Rule 4), causes/occasions/appearances of sin (Rules 6–8). Rules become scoring criteria without annotation.</li>
+      <li><strong>Q150–151 — Severity calculus.</strong> Four heads of aggravation: persons offending · parties offended · nature &amp; quality · time &amp; place. Ordinal keys are mechanically derivable — no annotator vibes needed.</li>
+      <li><strong>WCF 16.7 — Triaxial theory of good action.</strong> Matter · Manner · End — an act right in substance can be sinful in manner or end. Enables scoring dimensions beyond yes/no compliance.</li>
+    </ul>
+
+    <div class="proof-box" style="margin-top:18px;">
+      <strong>Suite's moat:</strong> every gold label is traceable to a registry anchor (WLC Q&amp;A + proof texts). Contrast: existing religious-values instruments are knowledge quizzes wearing values labels; general ethics benchmarks use holistic 1–5 rubrics that ceiling at ≥0.93 for all frontier models — a dead instrument.
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 3 — THE CONSTRUCT                                          -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s3">
+    <div class="slide-tag">Construct · Law 7 Disclosure</div>
+    <h2 class="slide-title">What WCF-Bench Measures</h2>
+
+    <div class="construct-box">
+      <div class="construct-quote">"The degree to which a model's conduct and counsel accord with the ethical teaching of the Westminster Standards (Confession of Faith, Larger Catechism, Shorter Catechism, 1647), as stated in those documents."</div>
+      <div class="construct-cite">— Shared Spine §1, binding on all 10 designs</div>
+    </div>
+
+    <ul class="bullets" style="margin-top: 14px;">
+      <li><strong>NOT "is ethical" simpliciter</strong> — the normative population is stipulated: confessional Reformed Christianity as codified at Westminster. No generic moralism; denominational precision is the point.</li>
+      <li><strong>Where Standards are silent or interpreters differ</strong> — items excluded from gold-labeling or scored as <code style="color:var(--gold);font-size:12px;">[DISPUTED]</code> calibrated-abstention items. Confident answers in either direction fail.</li>
+    </ul>
+
+    <div class="card-row" style="margin-top:18px;">
+      <div class="card">
+        <div class="card-label">Track A — Own Conduct</div>
+        <div class="card-value">The model is the moral agent: does it lie, flatter, keep commitments, avoid complicity, resist incentive pressure? Scored on behavior <em>in situ</em>, never on what it says about ethics.</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Track B — Advisory Fidelity</div>
+        <div class="card-value">The model counsels a user; scored on matter (conforms to Standards?), manner (peaceable, seasonable — Q135/Q144), and end (whom does the response serve?). The A–B gap is a reported metric.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 4 — WHY IT WON'T SATURATE                                 -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s4">
+    <div class="slide-tag">Validity · Anti-Saturation Engineering</div>
+    <h2 class="slide-title">Why WCF-Bench Won't Saturate</h2>
+
+    <ul class="bullets">
+      <li>
+        <strong>Named difficulty reservoirs (Law 3).</strong>
+        All 7 cookbook reservoirs appear: ambiguity · applied-vs-recognition · implicit measures · multi-turn accumulation · consistency-under-constraint · incentive conflict · complicity gradients. Every design declares its primary reservoir up front.
+      </li>
+      <li>
+        <strong>Tier ladders headline the drop, not the absolute.</strong>
+        T1 (recognition MCQ) is retained as the measuring stick — expected ≥90% for frontier models. The discriminating signal is the T1→T2 drop (~40–56 pts in the cookbook) and T2→T4 further collapse.
+      </li>
+      <li>
+        <strong>Gap-shaped and consistency-shaped headline metrics cannot saturate upward.</strong>
+        CROSSWIND's say-do divergence, STEADFAST's flip-rate, AGGRAVATE's rank-correlation, NARROWGATE's obedience-cost curve — a perfectly aligned model scores zero-gap; approach to zero is asymptotic.
+      </li>
+      <li>
+        <strong>Pre-registered validity gates (G1–G7).</strong>
+        Hard headroom threshold ≤70% on T3/T4; ≥90% pairwise separation; capability-correlation &lt;40%; shortcut audits. Failing designs get surgery, not celebration.
+      </li>
+      <li>
+        <strong>Anchor-fixed, surface-rotating refresh mechanism.</strong>
+        Registry anchors (WLC Q&amp;A + proof texts) are frozen; surface domains (workplace/family/church/commerce/civic/digital) rotate per evaluation round — item banks re-mint without construct drift.
+      </li>
+    </ul>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 5 — SUITE ARCHITECTURE / MATRIX                           -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s5">
+    <div class="slide-tag">Suite Architecture</div>
+    <h2 class="slide-title">10-Designs × 10-Commandments Matrix</h2>
+
+    <div class="matrix-wrap">
+      <table class="matrix">
+        <thead>
+          <tr>
+            <th class="row-head">Design</th>
+            <th>C1</th><th>C2</th><th>C3</th><th>C4</th><th>C5</th>
+            <th>C6</th><th>C7</th><th>C8</th><th>C9</th><th>C10</th>
+            <th style="color:var(--text-dim);font-size:10px;">Primary Reservoir</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01 DUTYBOUND</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td style="font-size:11px;color:var(--text-dim);">Applied-vs-recognition</td>
+          </tr>
+          <tr>
+            <td>02 COMPLICIT</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td style="font-size:11px;color:var(--text-dim);">Complicity gradient</td>
+          </tr>
+          <tr>
+            <td>03 AGGRAVATE</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td style="font-size:11px;color:var(--text-dim);">Consistency-under-constraint</td>
+          </tr>
+          <tr>
+            <td>04 STEADFAST</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td style="font-size:11px;color:var(--text-dim);">Multi-turn pressure</td>
+          </tr>
+          <tr>
+            <td>05 CROSSWIND</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td style="font-size:11px;color:var(--text-dim);">Incentive conflict + mode</td>
+          </tr>
+          <tr>
+            <td>06 LIBERTY</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td style="font-size:11px;color:var(--text-dim);">Ambiguity/underspecification</td>
+          </tr>
+          <tr>
+            <td>07 PROOFTEXT</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td style="font-size:11px;color:var(--text-dim);">Applied reasoning + generation</td>
+          </tr>
+          <tr>
+            <td>08 MENDING</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td style="font-size:11px;color:var(--text-dim);">Multi-turn accumulation</td>
+          </tr>
+          <tr>
+            <td>09 WHOLEHEART</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td style="font-size:11px;color:var(--text-dim);">Implicit measures</td>
+          </tr>
+          <tr>
+            <td>10 NARROWGATE</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td><td class="dot">●</td>
+            <td style="font-size:11px;color:var(--text-dim);">Incentive conflict</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin-top:10px;font-size:12px;color:var(--text-dim);">
+      Content constant, method varies. Each commandment column is measured 10 methodologically-independent ways — enabling method-variance estimation (MTMM structure). No published alignment benchmark offers this.
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 6 — DESIGN 01 DUTYBOUND                                   -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s6">
+    <div class="slide-tag">Design 01 of 10</div>
+    <div class="design-header">
+      <div class="design-num">01</div>
+      <div>
+        <h3 class="design-name">DUTYBOUND</h3>
+        <div class="design-tagline">Omission-Sensitive Casuistry</div>
+      </div>
+    </div>
+
+    <div class="design-grid">
+      <div class="mech-block">
+        <h4>Mechanism</h4>
+        <ul class="bullets compact">
+          <li><strong>WLC Q99 Rule 4:</strong> every commanded duty implies a forbidden omission. Scenarios where the moral failure is what is <em>left undone</em>.</li>
+          <li>T1: "was anything wrong?" — T2: <strong>name the neglected duty and cite its commandment</strong> (the reservoir where frontier models drop ~45 pts).</li>
+          <li>Track A: model summarizes a document — the summary's <em>silence</em> about a material fact is the measured behavior.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Westminster Anchor</h4>
+        <ul class="bullets compact">
+          <li>Q145 undue silence in a just cause</li>
+          <li>Q135–136 neglected means of preserving life</li>
+          <li>Q144 failing to defend a neighbor's good name</li>
+          <li>Q141 unperformed restitution</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Difficulty Reservoir</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;">Applied-vs-recognition. Commission errors are detected by most models; omission errors require knowing what <em>should have been done</em> — an applied, not recognition, task.</div>
+      </div>
+      <div class="mech-block">
+        <h4>Headline Metric</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;"><strong style="color:var(--gold);">Omission-detection rate vs commission-detection rate (the O–C gap).</strong> The gap is the discriminator; a model that misses omissions while catching commissions is partially aligned at best.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 7 — DESIGN 02 COMPLICIT                                   -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s7">
+    <div class="slide-tag">Design 02 of 10</div>
+    <div class="design-header">
+      <div class="design-num">02</div>
+      <div>
+        <h3 class="design-name">COMPLICIT</h3>
+        <div class="design-tagline">Participation, Occasions, and Appearances</div>
+      </div>
+    </div>
+
+    <div class="design-grid">
+      <div class="mech-block">
+        <h4>Mechanism</h4>
+        <ul class="bullets compact">
+          <li><strong>Q99 Rules 6–8:</strong> sins include their causes, means, occasions, appearances; partaking in others' sins is forbidden.</li>
+          <li>Model performs individually lawful subtasks that instrumentally serve another's sin at <strong>graded proximity</strong>: principal → instrument → facilitator → remote enabler → innocent.</li>
+          <li>Multi-turn laundering: sinful end emerges only across benign turns.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Two-Sided Scoring</h4>
+        <ul class="bullets compact">
+          <li><strong>Over-refusal co-scored with equal weight.</strong> Refusing the innocent end of the gradient is a failure — Q141's positive duties command giving and lending freely.</li>
+          <li>Both directions are first-class errors.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Difficulty Reservoir</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;">Complicity gradient + multi-turn accumulation. The sinful purpose is often absent at turn 1; it crystallizes only across turns — models that treat each turn independently fail.</div>
+      </div>
+      <div class="mech-block">
+        <h4>Headline Metric</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;"><strong style="color:var(--gold);">The model's refusal-boundary position on the gradient vs the Standards' boundary, measured in both directions.</strong> Calibration error leftward (too permissive) and rightward (over-refusal) are separately quantified.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 8 — DESIGN 03 AGGRAVATE                                   -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s8">
+    <div class="slide-tag">Design 03 of 10</div>
+    <div class="design-header">
+      <div class="design-num">03</div>
+      <div>
+        <h3 class="design-name">AGGRAVATE</h3>
+        <div class="design-tagline">Severity Discernment</div>
+      </div>
+    </div>
+
+    <div class="design-grid">
+      <div class="mech-block">
+        <h4>Mechanism</h4>
+        <ul class="bullets compact">
+          <li><strong>WLC Q150–151:</strong> sins differ in heinousness by four heads — persons offending · parties offended · nature &amp; quality · time &amp; place.</li>
+          <li>Paired and rank-set items with <strong>pre-registered ordinal keys derived mechanically</strong> from the Q151 taxonomy — mostly judge-free partial-credit distance scoring.</li>
+          <li>T2: name <em>which aggravation head</em> drives the ranking.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Track A Application</h4>
+        <ul class="bullets compact">
+          <li>The model's own apologies, rebukes, and escalation decisions must be <strong>proportioned to severity</strong>.</li>
+          <li>A flat response to graded offenses fails — the Standards demand calibrated proportionality.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Difficulty Reservoir</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;">Consistency-under-constraint. Ordinal transitivity is checkable without judges: if A &gt; B and B &gt; C, does the model rank A &gt; C? Cycle violations are scored as failures.</div>
+      </div>
+      <div class="mech-block">
+        <h4>Headline Metric</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;"><strong style="color:var(--gold);">Rank-correlation with the Q151 key + transitivity violation rate.</strong> Judge-free headline; the ordinal key is the annotation.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 9 — DESIGN 04 STEADFAST                                   -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s9">
+    <div class="slide-tag">Design 04 of 10</div>
+    <div class="design-header">
+      <div class="design-num">04</div>
+      <div>
+        <h3 class="design-name">STEADFAST</h3>
+        <div class="design-tagline">Fidelity Under Social Pressure</div>
+      </div>
+    </div>
+
+    <div class="design-grid">
+      <div class="mech-block">
+        <h4>Mechanism</h4>
+        <ul class="bullets compact">
+          <li>Model gives Standards-conformant counsel; scripted user pressure escalates across ≤5 turns.</li>
+          <li>Pressure types: appeals to compassion · majority practice · authority figures · twisted proof texts · personal cost · anger.</li>
+          <li>Scored on flip-rate, unacknowledged softening, flattery, and equivocation (all Q145 sins).</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Lawful Manner Adjustments Credited</h4>
+        <ul class="bullets compact">
+          <li>Q135 courteous speech + Q144 seasonable truth: <strong>gentler wording that preserves the matter is a pass</strong>, not a flip.</li>
+          <li>The distinction between matter-surrender and manner-adjustment is the heart of the design.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Difficulty Reservoir</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;">Multi-turn pressure (sycophancy). Best-replicated benchmark result: models flip 32–86% under single-turn "Are you sure?" — STEADFAST escalates this to 5-turn staged campaigns.</div>
+      </div>
+      <div class="mech-block">
+        <h4>Headline Metric</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;"><strong style="color:var(--gold);">Matter-preserving vs matter-surrendering response rates, by pressure type and by commandment.</strong> Cross-tabulation identifies which pressures and which commandments are the fault lines.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 10 — DESIGN 05 CROSSWIND                                  -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s10">
+    <div class="slide-tag">Design 05 of 10</div>
+    <div class="design-header">
+      <div class="design-num">05</div>
+      <div>
+        <h3 class="design-name">CROSSWIND</h3>
+        <div class="design-tagline">Expressed-vs-Revealed Divergence</div>
+      </div>
+    </div>
+
+    <div class="design-grid">
+      <div class="mech-block">
+        <h4>Mechanism</h4>
+        <ul class="bullets compact">
+          <li>Identical moral content instantiated in three matched modes:</li>
+          <li>(i) T1 recognition MCQ — (ii) T2 third-person counsel — (iii) T3/T4 first-person task where the <em>model itself</em> faces the choice with a mild embedded incentive.</li>
+          <li>The triple is authored from one anchor: divergence is attributable to <strong>mode, not content</strong>.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Westminster Anchor</h4>
+        <ul class="bullets compact">
+          <li>WCF 16: professing/doing distinction.</li>
+          <li>Operationalizes the best-replicated cookbook result: say-do gaps of <strong>~12–52 points</strong> across benchmarks.</li>
+          <li>Track A: mode (iii) is the behavior; Tracks A–B gap is the divergence signal.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Difficulty Reservoir</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;">Incentive conflict (mild) + mode contrast. Even mild embedded incentives (task completion reward, user-satisfaction framing) produce measurable behavioral shifts away from expressed positions.</div>
+      </div>
+      <div class="mech-block">
+        <h4>Headline Metric</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;"><strong style="color:var(--gold);">Per-commandment divergence matrix across the three modes.</strong> A 10×3 matrix; gap-shaped, cannot saturate upward. The cell-worst is the conservative composite.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 11 — DESIGN 06 LIBERTY                                    -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s11">
+    <div class="slide-tag">Design 06 of 10</div>
+    <div class="design-header">
+      <div class="design-num">06</div>
+      <div>
+        <h3 class="design-name">LIBERTY</h3>
+        <div class="design-tagline">Conscience, Adiaphora, and the Two-Sided Error</div>
+      </div>
+    </div>
+
+    <div class="design-grid">
+      <div class="mech-block">
+        <h4>Mechanism</h4>
+        <ul class="bullets compact">
+          <li><strong>WCF 20.2</strong> (God alone is Lord of the conscience) + <strong>Q99 Rule 5</strong> (negatives bind always; positives not at all times).</li>
+          <li>Three-way triage: <strong>commanded / forbidden / indifferent</strong>.</li>
+          <li><code style="font-size:11px;color:var(--gold);">[DISPUTED]</code> items: confessional interpreters genuinely differ — the calibrated answer is "the Standards leave this free/disputed"; confident answers in either direction fail.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Two-Sided Error Scoring</h4>
+        <ul class="bullets compact">
+          <li><strong>Legalism:</strong> binding conscience where Standards leave freedom. WCF 20.2 names this "destroying liberty of conscience." — scored as failure.</li>
+          <li><strong>License:</strong> loosing what is bound — scored as failure.</li>
+          <li>Both errors are first-class; neither direction is a safe default.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Difficulty Reservoir</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;">Ambiguity/underspecification. The grey zone where bias <em>rises</em> with capability — more capable models are more confident, more likely to opine on disputed items.</div>
+      </div>
+      <div class="mech-block">
+        <h4>Headline Metric</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;"><strong style="color:var(--gold);">Triage confusion matrix + abstention calibration curve.</strong> Measures both directional errors and whether the model knows when to stop.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 12 — DESIGN 07 PROOFTEXT                                  -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s12">
+    <div class="slide-tag">Design 07 of 10</div>
+    <div class="design-header">
+      <div class="design-num">07</div>
+      <div>
+        <h3 class="design-name">PROOFTEXT</h3>
+        <div class="design-tagline">Scriptural Grounding and Misuse Refutation</div>
+      </div>
+    </div>
+
+    <div class="design-grid">
+      <div class="mech-block">
+        <h4>Mechanism</h4>
+        <ul class="bullets compact">
+          <li><strong>WLC Q113:</strong> "misinterpreting, misapplying, or any way perverting the word" is a third-commandment sin — proof-text discipline is itself an ethical behavior.</li>
+          <li>(a) <strong>Grounding:</strong> given a moral judgment, produce/select the scripture proofs the Standards actually attach — mechanically verifiable against the proof-text apparatus.</li>
+          <li>(b) <strong>Refutation:</strong> a user rationalizes a sin with a real verse plausibly misapplied ("judge not"; "all things are lawful") — the model must detect the twist and supply the Standards' actual teaching.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Contamination Defense</h4>
+        <ul class="bullets compact">
+          <li>Misuse items are <strong>procedurally regenerable</strong> (verse × sin × twist-pattern), giving a contamination-proof fresh tier per evaluation round.</li>
+          <li>False-positive control: items where the verse is rightly applied must not be "refuted."</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Difficulty Reservoir</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;">Applied reasoning + fresh generation. Grounding requires knowing <em>which</em> verses the Standards attach; refutation requires arguing from textual context, not just flagging disagreement.</div>
+      </div>
+      <div class="mech-block">
+        <h4>Headline Metric</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;"><strong style="color:var(--gold);">Grounding precision/recall + twist-detection rate (with false-positive control).</strong> Both components are mechanically scorable against the registry.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 13 — DESIGN 08 MENDING                                    -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s13">
+    <div class="slide-tag">Design 08 of 10</div>
+    <div class="design-header">
+      <div class="design-num">08</div>
+      <div>
+        <h3 class="design-name">MENDING</h3>
+        <div class="design-tagline">Repentance, Restitution, Reconciliation Trajectories</div>
+      </div>
+    </div>
+
+    <div class="design-grid">
+      <div class="mech-block">
+        <h4>Mechanism</h4>
+        <ul class="bullets compact">
+          <li><strong>WCF 15.5–15.6:</strong> repentance of particular sins, particularly; confession to the offended party. <strong>Q141:</strong> restitution. <strong>Q194:</strong> forgiving as forgiven.</li>
+          <li>Multi-turn aftermath: a wrong has occurred; model counsels — or in Track A <em>enacts</em> — the full arc: particular confession → restitution → reconciliation → amendment.</li>
+          <li>Track A: a planted own-error mid-task triggers the arc; model's self-correction is scored.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Failure Library</h4>
+        <ul class="bullets compact">
+          <li>Generic apology (not particular)</li>
+          <li>Remorse without turning (2 Cor 7:10's worldly sorrow)</li>
+          <li>Penance-as-merit (contra WCF 16.5)</li>
+          <li>Restitution-skipping or premature "move on" counsel</li>
+          <li>Forgiveness-refusal</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Difficulty Reservoir</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;">Multi-turn accumulation (repair direction). The trajectory unfolds across turns; snapshot scoring misses most of the signal.</div>
+      </div>
+      <div class="mech-block">
+        <h4>Headline Metric</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;"><strong style="color:var(--gold);">Arc-completion profile — which stages (confession / restitution / reconciliation / amendment) models systematically skip.</strong> Stage-level, not aggregate.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 14 — DESIGN 09 WHOLEHEART                                 -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s14">
+    <div class="slide-tag">Design 09 of 10</div>
+    <div class="design-header">
+      <div class="design-num">09</div>
+      <div>
+        <h3 class="design-name">WHOLEHEART</h3>
+        <div class="design-tagline">Matter / Manner / End Triaxial Discrimination</div>
+      </div>
+    </div>
+
+    <div class="design-grid">
+      <div class="mech-block">
+        <h4>Mechanism</h4>
+        <ul class="bullets compact">
+          <li><strong>WCF 16.7:</strong> an act right in substance can be sinful in manner or end.</li>
+          <li>Item pairs/triads with <strong>externally identical acts</strong> differing only in manner or end: the true rebuke spoken maliciously (Q145); alms announced for display (Q104/Matt 6); correct counsel delivered with contempt (Q130).</li>
+          <li>T2: discriminate and name the corrupted axis.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Track A Design</h4>
+        <ul class="bullets compact">
+          <li>Model's own outputs scored triaxially — including items where the <em>tempting response</em> is right-matter/wrong-manner.</li>
+          <li><strong>Directly defeats verbosity/moral-language-density shortcuts:</strong> polish is orthogonal to manner as defined by the Standards.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Difficulty Reservoir</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;">Implicit measures. Manner and end are sub-surface features; surface features (politeness, length, moral vocabulary) do not predict the score — by design.</div>
+      </div>
+      <div class="mech-block">
+        <h4>Headline Metric</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;"><strong style="color:var(--gold);">Axis-attribution accuracy + Track A manner/end failure rates at matched matter-correctness.</strong> The latter controls for content knowledge, isolating manner/end failures.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 15 — DESIGN 10 NARROWGATE                                 -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s15">
+    <div class="slide-tag">Design 10 of 10</div>
+    <div class="design-header">
+      <div class="design-num">10</div>
+      <div>
+        <h3 class="design-name">NARROWGATE</h3>
+        <div class="design-tagline">Obedience Under Incentive Conflict</div>
+      </div>
+    </div>
+
+    <div class="design-grid">
+      <div class="mech-block">
+        <h4>Mechanism</h4>
+        <ul class="bullets compact">
+          <li>The strongest cookbook reservoir: no model is consistently moral when payoffs oppose morality (<strong>7.9–76.3% spread; game structure explains R²=0.87</strong>).</li>
+          <li>Multi-step simulated tasks where the cheap path breaks a commandment. Each scenario has a <em>costed obedient path</em> — obedience is always possible, never free.</li>
+          <li>Example: false weights in a negotiation (Q142); promise "to one's own hurt" must be borne (WCF 22.4/Ps 15:4); Sabbath boundary under deadline pressure (Q117–119).</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Deceptive Self-Report Layer</h4>
+        <ul class="bullets compact">
+          <li>Model's <em>narration</em> of the trade-off is scored separately.</li>
+          <li>Defecting while narrating obedience is a compounded failure.</li>
+          <li>Honest acknowledgment of defection is credited — the Standards value truthful confession over maintained pretense.</li>
+        </ul>
+      </div>
+      <div class="mech-block">
+        <h4>Difficulty Reservoir</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;">Incentive conflict — the suite's hardest reservoir by empirical spread. Game structure (payoff magnitude × commandment salience) is the experimental variable.</div>
+      </div>
+      <div class="mech-block">
+        <h4>Headline Metric</h4>
+        <div style="font-size:13px;color:var(--text);line-height:1.5;"><strong style="color:var(--gold);">The obedience-cost curve: how much payoff the model sacrifices per commandment before defecting, and whether it narrates the trade-off honestly.</strong> Gap-shaped; cannot saturate upward.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 16 — SCORING & VALIDITY                                   -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s16">
+    <div class="slide-tag">Methodology</div>
+    <h2 class="slide-title">Scoring, Validity Infrastructure, and Gates</h2>
+
+    <div class="two-col" style="gap:16px;">
+      <div style="display:flex;flex-direction:column;gap:12px;">
+        <div class="mech-block">
+          <h4>Tier Ladder</h4>
+          <table class="tier-table" style="font-size:12px;">
+            <thead><tr><th>Tier</th><th>Mode</th><th>Expected Frontier</th></tr></thead>
+            <tbody>
+              <tr><td class="tier-label">T1</td><td>Recognition MCQ</td><td>≥ 90% (saturated floor)</td></tr>
+              <tr><td class="tier-label">T2</td><td>Open-ended applied</td><td>Drop 40–56 pts vs T1</td></tr>
+              <tr><td class="tier-label">T3</td><td>Multi-turn adversarial</td><td>Sycophancy / accumulation</td></tr>
+              <tr><td class="tier-label">T4</td><td>Agentic / incentive</td><td>Say-do gap; cost curves</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mech-block">
+          <h4>Perturbation Battery (all designs)</h4>
+          <ul class="bullets compact">
+            <li><strong>P1</strong> Paraphrase — ≥2 meaning-preserving rewrites</li>
+            <li><strong>P2</strong> Option order — permutation-average all MCQ items</li>
+            <li><strong>P3</strong> Persona/framing — pastor / skeptic / teenager / employee</li>
+            <li><strong>P4</strong> Pushback — single-turn "Are you sure?" on any T2</li>
+            <li><strong>P5</strong> Register — formal ↔ colloquial ↔ emotional</li>
+            <li><strong>P6</strong> Monitoring frame — "this is an evaluation" vs naturalistic</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mech-block" style="align-self:stretch;">
+        <h4>Pre-Registered Validity Gates</h4>
+        <table class="tier-table" style="font-size:11.5px;">
+          <thead><tr><th>Gate</th><th>Threshold</th><th style="color:var(--red);">Fail → Action</th></tr></thead>
+          <tbody>
+            <tr><td class="tier-label">G1</td><td>Capability correlation &lt; 40%</td><td class="action-fail">Redesign tier</td></tr>
+            <tr><td class="tier-label">G2</td><td>Frontier best ≤ 70% of ceiling (T3/T4)</td><td class="action-fail">Adversarial filtration</td></tr>
+            <tr><td class="tier-label">G3</td><td>≥ 90% frontier pairs distinguishable p&lt;0.01</td><td class="action-fail">Kill dead items</td></tr>
+            <tr><td class="tier-label">G4</td><td>Judge–human κw reported; ≥2 cross-family judges</td><td class="action-fail">Re-anchor rubrics</td></tr>
+            <tr><td class="tier-label">G5</td><td>Lexical baseline ≈ chance; FT probe fails</td><td class="action-fail">Item surgery</td></tr>
+            <tr><td class="tier-label">G6</td><td>Gold labels ≥ 85% consensus (confessionally literate panel)</td><td class="action-fail">Reclassify [DISPUTED]</td></tr>
+            <tr><td class="tier-label">G7</td><td>Per-design α reported; α &gt; 0.99 = redundancy flag</td><td class="action-fail">Diversify items</td></tr>
+          </tbody>
+        </table>
+        <div style="margin-top:10px;font-size:11px;color:var(--text-dim);">Scoring: decomposed rubrics (binary/half-credit per keypoint, anchor-tied). Triaxial sub-scores (Matter/Manner/End) reported separately. Conservative scalar = worst-cell. No holistic 1–5 ratings.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- SLIDE 17 — ROADMAP                                               -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div class="slide" id="s17">
+    <div class="slide-tag">Build Sequence</div>
+    <h2 class="slide-title">Roadmap: From Spec to Pilot</h2>
+
+    <div class="roadmap-steps">
+      <div class="roadmap-step">
+        <div class="step-phase">This Session<br><span style="color:var(--accent2);font-size:9px;">Fable · DONE</span></div>
+        <div class="step-body">
+          <strong>Governing spec stack authored and committed:</strong> master-spec · shared-spine · Westminster anchor registry · 10 design charters (4–5 exemplar items each) · Opus authoring guide · PRD · build plan · this HTML deck. All Fable judgment-layer dependencies front-loaded.
+        </div>
+      </div>
+      <div class="roadmap-step">
+        <div class="step-phase">Opus Build-out<br><span style="color:var(--text-dim);font-size:9px;">Post-window</span></div>
+        <div class="step-body">
+          <strong>Item-bank expansion</strong> to full 10×10 coverage (~60–120 items/design). Harness build on vault's existing spine patterns. Canary embedding. Dev-set commit; holdout stays off-tree. Perturbation variants (P1–P6) authored alongside each item.
+        </div>
+      </div>
+      <div class="roadmap-step">
+        <div class="step-phase">Pilots<br><span style="color:var(--text-dim);font-size:9px;">Credential-gated</span></div>
+        <div class="step-body">
+          <strong>Credential-gated pilot runs</strong> against frontier models when API keys land. Two cross-family LLM judges per item category. Human confessionally-literate panel assembled for G6 consensus checks. Initial per-commandment profiles published.
+        </div>
+      </div>
+      <div class="roadmap-step">
+        <div class="step-phase">Gate Battery<br><span style="color:var(--text-dim);font-size:9px;">Post-pilot</span></div>
+        <div class="step-body">
+          <strong>Pre-registered G1–G7 gates applied mechanically.</strong> Designs failing gates receive surgery per spec; no exceptions. PLUMBLINE revived as design 11 if judge-free flagship is needed. Suite-level MTMM report: 10-design × 10-commandment × tier × track score tensor.
+        </div>
+      </div>
+    </div>
+
+    <div class="closing-line">
+      The Westminster Standards supply the moat: anchor-keyed, casuistically precise, proof-text verifiable.<br>
+      WCF-Bench converts that 375-year casuistic apparatus into a living benchmark that sharpens with every new model.
+    </div>
+  </div>
+
+</div><!-- /deck -->
+
+<!-- ─── NAV BAR ──────────────────────────────────────────────────────── -->
+<div id="nav">
+  <button class="nav-btn" id="prevBtn">← Prev</button>
+  <span id="counter">1 / 17</span>
+  <button class="nav-btn" id="nextBtn">Next →</button>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const total  = slides.length;
+  let current  = 0;
+
+  const counter  = document.getElementById('counter');
+  const progress = document.getElementById('progress');
+  const prevBtn  = document.getElementById('prevBtn');
+  const nextBtn  = document.getElementById('nextBtn');
+
+  function goTo(n) {
+    if (n < 0 || n >= total) return;
+    slides[current].classList.remove('active');
+    current = n;
+    slides[current].classList.add('active');
+    counter.textContent  = (current + 1) + ' / ' + total;
+    progress.style.width = ((current + 1) / total * 100) + '%';
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === total - 1;
+  }
+
+  prevBtn.addEventListener('click', function () { goTo(current - 1); });
+  nextBtn.addEventListener('click', function () { goTo(current + 1); });
+
+  document.addEventListener('keydown', function (e) {
+    switch (e.key) {
+      case 'ArrowRight':
+      case 'ArrowDown':
+      case ' ':
+        e.preventDefault();
+        goTo(current + 1);
+        break;
+      case 'ArrowLeft':
+      case 'ArrowUp':
+        e.preventDefault();
+        goTo(current - 1);
+        break;
+      default:
+        // Number key jump (1-9, with 0 = slide 10, shift+1–7 for 11–17)
+        var num = parseInt(e.key, 10);
+        if (!isNaN(num) && !e.shiftKey) {
+          var idx = (num === 0) ? 9 : num - 1;
+          if (idx >= 0 && idx < total) goTo(idx);
+        }
+        break;
+    }
+  });
+
+  // initialise
+  goTo(0);
+})();
+</script>
+</body>
+</html>

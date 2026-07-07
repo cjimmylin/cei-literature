@@ -1,0 +1,63 @@
+# Opus Handoff — INNOVATION Execution Queue
+
+**Written:** 2026-07-07 by Fable 5 (last planned Fable session of the window)
+**For:** post-window Opus sessions (`/model opus`) · **Living doc:** checkbox-update in place (charter rule 1 exception)
+
+## How to use this file
+
+Work top-down within the current cycle. Every task names its tier — dispatch subagents with an explicit `model=` per the Fable-week/global tiering protocol (which remains good practice post-window: Sonnet/Haiku for mechanical work). Read the referenced RP brief *before* starting its tasks; briefs contain binding kill criteria (charter rule 2). When a task says "Fable-tier review," queue the artifact in a PENDING-RULINGS list per the succession-protocol pattern (`FRUITBENCH-REVIEWS/20260706-succession-protocol.md`) rather than self-approving — Jimmy adjudicates if no Fable window exists.
+
+## Cycle 1 — key-independent (start immediately)
+
+- [ ] **1.1 Taxonomy codes (V2)** — add Stage-4 research-topic codes for: specification, scalable-oversight, aggregation/social-choice, value-formation/EM, multi-agent-dynamics. Touch `classification-logic.md` standard via a new dated proposal file + Jimmy sign-off (it's a standards file). *Sonnet drafts, Opus verifies.* **Do this before 1.2 or the new papers vanish into old categories.**
+- [ ] **1.2 Acquisitions (V1)** — execute `04-missing-literature.md` P1 table first (17 anchors), then P2 by gap group. `/download-pdf` pipeline; ⚠-flagged IDs: verify on arXiv before download; log misses. *Sonnet-tier batch work; rate-limit discipline per API standards.*
+- [ ] **1.3 `fairgold` toolkit (RP-02 O2, T2)** — pure-computation rescoring engine + rule test suite. *Opus builds from the brief; no keys needed.*
+- [ ] **1.4 Position paper hardening (P3)** — `01-field-map-2026.md` + `02-gap-atlas.md` → external position-paper draft; replace sweep-level citations with verified ones from 1.2's downloaded PDFs. *Opus (manuscript-drafter agent). Fable-tier review before any submission.*
+- [ ] **1.5 RP-04 O1 prep** — assemble frozen response corpus from existing pilot outputs (FRUITBENCH THORNS, DIMGLASS exemplars, SERMONMOUNT WITNESS); design re-scoring matrix. *Opus.*
+- [ ] **1.6 RP-01 O1** — spec clause registries from the two public specs (fetch current versions; note version stamps). *Sonnet extracts, Opus verifies against the brief's registry spec.*
+
+## Cycle 2 — keys arrive (Jimmy gate)
+
+- [ ] **2.1 Shared runner (T1)** — one vendor-agnostic runner (Anthropic SDK + OpenAI; Gemini if key provided), caching + full transcript logging, rate-limit backoff from day one. Reuse THORNS harness spine patterns; respect its live-mode hard-block gates (S-1/S-2) for anything FRUITBENCH-derived. *Opus. This unblocks everything below.*
+- [ ] **2.2 RP-07 HAWTHORNE run** — O1 item pairs (**Fable-tier gate on 20-pair sample before scale**) → O2–O4 → P1 short paper draft. *Opus; the Wave-1 flagship.*
+- [ ] **2.3 RP-04 phase 1 run** — re-score frozen corpus with 3+ judge families → judge-bias memo (P2). **Pre-commit honored: if biases threaten published CEI verdicts, robustness pass on affected benches is mandatory, not optional.** *Opus.*
+
+## Cycle 3 — strategic builds
+
+- [ ] **3.1 RP-03 NOGOLD** — O1 item generation via CRUX engine + tiering → O2 harness → O4 dry-run at 30 items → **STOP: Fable-tier transcript review required before main run** (queue if no window). *Opus.*
+- [ ] **3.2 RP-09 SEISMOGRAPH O1–O3** — trait-coverage matrix; short-form extraction + equivalence pilot; organism acquisition (needs GPU-inference budget sign-off — Jimmy gate). *Opus + Sonnet inventory.*
+- [ ] **3.3 RP-01 O2–O3** — conflict/ambiguity harness + human-verification sample design (rater sourcing = Jimmy gate). *Opus.*
+- [ ] **3.4 COOKBOOK cross-links (V3)** — new dated pointer notes in COOKBOOK (never edit existing reports); S1/S3 upgrade-path notes referencing RP-05/RP-10. *Sonnet.*
+
+## Cycle 4+ — long poles (start when their gates clear)
+
+- [ ] **4.1 RP-05 DRIFTLAB** — after FRUITBENCH spine fixes land + runner exists; power analysis (O4) before any long runs.
+- [ ] **4.2 RP-06 SAYDO** — O1 triplet authoring can start earlier (**Fable-tier gate on 30-item sample**); main run after runner.
+- [ ] **4.3 RP-08 CONCLAVE** — O1 fidelity gates for 4–6 traditions first; **K1 is a hard gate — no deliberation runs until agents pass**. Non-negotiables registries (O4) queue for Fable-tier/Jimmy review.
+- [ ] **4.4 RP-02 invariance study** — after O1 inventory identifies ≥3 usable disaggregated datasets (else brief's K2 downgrade applies).
+- [ ] **4.5 RP-10 COMMONS** — after DRIFTLAB infra exists; pilot before scale (O4 budget curve).
+- [ ] **4.6 Bet review (V4)** — 2027-07: score B1–B5 from `01-field-map-2026.md` §6 in a new dated note.
+
+## Standing constraints (do not relax)
+
+1. Kill criteria in RP briefs are binding; execute mechanically; softening requires Fable-tier/Jimmy ruling.
+2. Judge-corruption caveat (G-09) cited in methods of every judge-using study.
+3. Report immutability everywhere; INNOVATION updates are new dated files (except this queue's checkboxes).
+4. No `rm` — RECYCLE-BIN only (hook-enforced). Validate YAML after any batch paper edits (`PYTHON/validate_all_papers.py`).
+5. Synthetic-data caveats travel with all RP-08 Phase-A and any MockModel outputs — never present harness-validation as measurement (the SERMONMOUNT lesson).
+6. Anti-leakage discipline for cross-vendor comparisons (`dispatching-parallel-agents` skill norms).
+
+## Jimmy's gate list (blocking, in priority order)
+
+1. **API keys** (Anthropic + OpenAI min; Gemini ideal) — blocks Cycle 2 entirely.
+2. **GPU-inference budget** (rented endpoints; no training) — blocks RP-09 validation + RP-04 phase 2.
+3. **Human raters/panels** — blocks RP-01 O3, RP-08 Phase B.
+4. **D6 licensing decision** (evidence-card corpus release) — blocks nothing; unlocks a cheap high-visibility artifact.
+5. **C1 workshop decision** — only after P1–P3 exist.
+
+## Known issues / honesty notes
+
+- Sweep-derived citations: top anchors fetch-verified; secondary items search-confirmed only; ~25 ⚠ IDs in `04-missing-literature.md` need confirm-at-download. Nothing ⚠ goes into external prose unverified.
+- The gap atlas's grep-count evidence is directional, not exhaustive (title/abstract matching undercounts).
+- 2026 arXiv IDs from sweeps (26xx.*) could not be independently re-verified this session; the missing-lit agent flagged them rather than dropping them.
+- This folder was authored in one Fable session; the field map's §6 bets are the built-in error-correction mechanism — keep the 2027-07 review.

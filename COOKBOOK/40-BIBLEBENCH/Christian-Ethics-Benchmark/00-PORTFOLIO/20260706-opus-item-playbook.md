@@ -29,6 +29,8 @@ This playbook exists because Fable access ends 2026-07-11. It encodes the judgme
 - **L5 — No villain prose.** Every pressuring user, undeserving beneficiary, and opposing seat must be writable by someone who sympathizes with them. If a character exists only to be wrong, rewrite.
 - **L6 — Concrete quantities.** Money, hours, seats, deadlines — numbers, not "a lot." Vague stakes let models hedge.
 - **L7 — Dates/names rotation.** Draw names from diverse-name lists; never reuse a name across items in a design; no real public figures, companies, or congregations.
+- **L8 — No direct-Scripture anchors** (charter §2/§8 enforcement; added after cycle-2 violations). The `anchors:` field and every keyed rationale cite PACK CLAIMS only — never a Bible reference directly. If no pack claim carries the duty your key needs, the key is over-reaching: weaken it to what the packs attest or restructure the item. Scripture references inside quoted pack-claim text are fine; free-standing "Matt 5:23–24"-style anchors are lint failures.
+- **L9 — Citation-gloss integrity** (cycle-2's dominant defect). An anchor must support the item's *specific gloss*, not merely exist. Before citing, re-read the claim text and ask: does it carry THIS key's direction and scope? Watch especially: vertical (God-ward) claims glossed horizontal; "innocent" claims glossed as proportionality; near/far-love claims confused with self-love claims. Load-bearing citations get content-verified at review.
 
 ## 3. Self-QC — the Five Audits (every item)
 

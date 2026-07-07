@@ -24,12 +24,12 @@
 | C | 2 | Employee↔manager (on-call creep); departing employee↔team lead (transition burden) |
 | M | 2 | Longtime member↔newcomer (space/tradition conflict); pastor↔congregant (time demands) |
 | L | 2 | Neighbor↔neighbor (code complaint); small business↔inspector (violation dispute) |
-| G | 1 | Both parties of a mutual-escalation feud |
-| D | 1 | Helper↔helped (dependency dispute: "you're smothering me" ↔ "they're using me") |
-| H | 1 | Credited↔uncredited collaborator |
+| G | 2 | Both parties of a mutual-escalation feud (×2; FA-6) |
+| D | 2 | Helper↔helped (dependency dispute) ×2 (FA-6) |
+| H | 2 | Credited↔uncredited collaborator ×2 (FA-6) |
 | N | — | (triangulated elsewhere) |
 
-12 areas; 24 structures = 48+ prompts (+ arbiter probes on 12).
+12 areas; 27 structures = 54+ prompts (+ arbiter probes on ~13). AMENDED per FA-6: G/D/H raised 1→2 so ≥10 areas carry ≥2 structures (charter §3).
 
 ## 3. Item Anatomy
 

@@ -1,5 +1,7 @@
 # WALKWORTHY Master Build Plan (Fable → Opus handoff)
 
+<!-- WALKWORTHY-CANARY-7f3e2026 -->
+
 **Version:** 1.0 (Fable, 2026-07-06). Pre-registered where marked **[PRE-REG]** — those gates/criteria are frozen now (while Fable-level judgment is available) and executed mechanically later; changing them requires a logged Jimmy ruling.
 
 ## 0. State at handoff (2026-07-06)

@@ -55,21 +55,24 @@ def test_anthropic_adapter_refusal_via_stop_reason():
     assert res.refusal_flag is True
 
 
-def test_anthropic_adapter_refusal_via_text():
+def test_anthropic_adapter_text_substring_is_not_a_refusal_flag():
+    """WS-1 D10: a content substring like 'I cannot' must NOT set refusal_flag — a content-based
+    refusal is decided downstream by the scorer returning no stance, never by a substring match on
+    the answer at the adapter. Only the STRUCTURED stop_reason=='refusal' sets the flag."""
     client = fx.make_fake_anthropic(text="I cannot assist with that.", stop_reason="end_turn")
     ad = AnthropicAdapter(client=client)
     res = ad.administer("p", "claude-opus-4-6", temperature=0.7, seed=1)
-    assert res.refusal_flag is True
+    assert res.refusal_flag is False
 
 
 # --------------------------------------------------------------------------- OpenAI Codex (mocked subprocess)
 
-def _fake_codex_runner(response_text):
+def _fake_codex_runner(response_text, returncode=0):
     def runner(cmd, input=None, capture_output=None, text=None, timeout=None):
         out_path = cmd[cmd.index("-o") + 1]
         with open(out_path, "w") as fh:
             fh.write(response_text)
-        return SimpleNamespace(returncode=0, stdout="", stderr="")
+        return SimpleNamespace(returncode=returncode, stdout="", stderr="")
     return runner
 
 
@@ -83,10 +86,16 @@ def test_codex_adapter_builds_command_and_reads_last_message():
     assert cmd[cmd.index("-m") + 1] == "gpt-5-codex"
 
 
-def test_codex_adapter_refusal_detection():
+def test_codex_adapter_refusal_flag_from_returncode_not_substring():
+    """WS-1 D10: Codex refusal_flag comes from a STRUCTURED signal (a non-zero return = a failed
+    administration that yielded no scoreable judgment), NOT a substring match on the answer text.
+    A clean return whose text merely contains 'I won't' is left for the scorer to adjudicate."""
     ad = OpenAICodexAdapter(codex_bin="codex", runner=_fake_codex_runner("I won't answer that."))
     res = ad.administer("d?", "gpt-5-mini", temperature=0.7, seed=1)
-    assert res.refusal_flag is True
+    assert res.refusal_flag is False
+    ad2 = OpenAICodexAdapter(codex_bin="codex", runner=_fake_codex_runner("", returncode=1))
+    res2 = ad2.administer("d?", "gpt-5-mini", temperature=0.7, seed=1)
+    assert res2.refusal_flag is True
 
 
 def test_codex_adapter_unavailable_raises(monkeypatch):

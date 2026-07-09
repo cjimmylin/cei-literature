@@ -212,6 +212,29 @@ def test_stance_containing_refusal_substring_is_not_a_refusal():
     assert rec["refusal_category"] is None
 
 
+def test_d10_adapter_substring_composed_with_orchestrator_is_not_a_refusal():
+    """WS-1 D10 (adapter+orchestrator COMPOSITION): a stance-1 'No, I can't approve that' returned
+    by the REAL adapter path (stop_reason end_turn, no structured refusal) + a scorer that extracts
+    a stance must record a SCORED response, not a refusal. This is the composition the substring
+    relocation into refusal_flag would silently break (the orchestrator-only D10 tests use a clean
+    refusal_flag=False stub and never exercise the adapter layer)."""
+    from runner.adapters import AnthropicAdapter
+    client = fx.make_fake_anthropic(text="No, I can't approve that — it would be wrong.",
+                                    stop_reason="end_turn")
+    scorer = lambda text, item, vendor: 1.0  # extracts a real stance-1 ('No')
+    item = {"item_id": "X", "text": "T", "axis": "process",
+            "stance_polarity": "affirmative_intervene"}
+    orch = Orchestrator(
+        adapters={"anthropic": AnthropicAdapter(client=client)},
+        models=[{"id": "claude-opus-4-6", "vendor": "anthropic"}], item_bank=[item],
+        conditions=["standard"], scorer=scorer, reps=1, temperature=0.7,
+    )
+    rec = orch.run()[0]
+    assert rec["refusal"] is False
+    assert rec["score"] == 1.0
+    assert rec["refusal_surface_match"] is True  # substring recorded as an audit signal ONLY
+
+
 def test_refusal_is_flagged_when_scorer_returns_no_stance():
     """WS-1 D10: refusal is decided by the scorer returning NO stance (None), not by keywords.
     An evasive answer with no refusal keywords must still be caught when no stance is scoreable.

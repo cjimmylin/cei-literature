@@ -161,7 +161,10 @@ class AnthropicAdapter(BaseAdapter):
 
         text = _extract_text(resp)
         stop_reason = getattr(resp, "stop_reason", None)
-        refusal = stop_reason == "refusal" or detect_refusal(text)
+        # WS-1 D10: refusal_flag carries ONLY the structured API signal. A content refusal ("I
+        # cannot ...") is decided downstream by the scorer returning no stance, never by a
+        # substring match on the answer (which would delete substantive stance-1 answers).
+        refusal = stop_reason == "refusal"
         return AdapterResult(text=text, raw=_raw(resp), refusal_flag=refusal, latency=latency)
 
 
@@ -286,7 +289,10 @@ class OpenAICodexAdapter(BaseAdapter):
             # fall back to stdout if the -o file was not produced (older/newer codex)
             text = getattr(proc, "stdout", "") or ""
         returncode = getattr(proc, "returncode", 0)
-        refusal = detect_refusal(text)
+        # WS-1 D10: refusal_flag carries ONLY a structured signal. codex exec has no explicit
+        # refusal stop_reason, so a non-zero return (a failed administration that produced no
+        # scoreable judgment) is the structured signal; content-based refusal is the scorer's job.
+        refusal = returncode != 0
         raw = {
             "cmd": cmd,
             "returncode": returncode,

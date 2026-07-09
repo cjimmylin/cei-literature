@@ -1,0 +1,6 @@
+# WALKWORTHY private holdout split — NEVER commit (charter §6.6: ≥30%/design never published)
+HOLDOUT/
+
+# item-drafting staging artifacts
+*-backfill-DRAFT.md
+*-DRAFT.md

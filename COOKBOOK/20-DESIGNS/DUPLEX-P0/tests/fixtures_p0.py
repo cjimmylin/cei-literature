@@ -119,57 +119,111 @@ N = 12
 SD = 0.015
 
 
-# ---- G1 ----
+# ---- G1 (per ruling G1-a/G1-b) --------------------------------------------------------------
+# Content baseline = cross-model CV of per-item mean stance in the STANDARD condition (same items,
+# same models); process axis = cross-model CV of per-item condition-deltas (abs per item). There
+# is NO separate "content" axis: content lives in the standard-condition scores of the SAME
+# process items. G2 separation therefore rides on a resource manipulation (extended_thinking),
+# NOT on standard (which must stay converged for a G1 pass) -- both use the same records.
+
+def _g1_item_block(r, model, fi, ext, std, rng, items=("i1", "i2"), fi_const=False,
+                   ext_const=False):
+    for it in items:
+        _cell(r, model, "anthropic", "process", "forced_immediate", fi, SD, N, rng,
+              constant=fi_const, item_id=it)
+        _cell(r, model, "anthropic", "process", "extended_thinking", ext, SD, N, rng,
+              constant=ext_const, item_id=it)
+        if std is not None:
+            _cell(r, model, "anthropic", "process", "standard", std, SD, N, rng, item_id=it)
+
 
 def g1_pass() -> List[Dict[str, Any]]:
+    """Process signatures spread (|ext-fi| = 0.40/0.10/0.02 -> high process CV); standard stance
+    converged ~0.50 across models -> low content CV. Process beats content."""
     rng = random.Random(11)
     r: List[Dict[str, Any]] = []
-    # process signatures |ext-fi|: 0.40, 0.10, 0.02  -> high cross-model CV
     for m, ext in (("mA", 0.90), ("mB", 0.60), ("mC", 0.52)):
-        _cell(r, m, "anthropic", "process", "forced_immediate", 0.50, SD, N, rng)
-        _cell(r, m, "anthropic", "process", "extended_thinking", ext, SD, N, rng)
-    # content: converged ~0.50 -> low cross-model CV
-    for m in ("mA", "mB", "mC"):
-        _cell(r, m, "anthropic", "content", "content_baseline", 0.50, SD, N, rng)
+        _g1_item_block(r, m, 0.50, ext, 0.50, rng)
     return r
 
 
 def g1_fail_degenerate() -> List[Dict[str, Any]]:
-    """Leading failure mode: RLHF homogenizes process too -> ext ~= fi for all models."""
+    """RLHF homogenizes process too -> ext ~= fi for all models -> near-zero cross-model mean of
+    signatures -> guarded process CV is None -> FAIL."""
     rng = random.Random(12)
     r: List[Dict[str, Any]] = []
     for m in ("mA", "mB", "mC"):
-        _cell(r, m, "anthropic", "process", "forced_immediate", 0.50, 0.01, N, rng)
-        _cell(r, m, "anthropic", "process", "extended_thinking", 0.50, 0.01, N, rng)
-        _cell(r, m, "anthropic", "content", "content_baseline", 0.50, SD, N, rng)
+        _g1_item_block(r, m, 0.50, 0.50, 0.50, rng)
     return r
 
 
 def g1_fail_cv() -> List[Dict[str, Any]]:
-    """Process CV tight/large but content CV larger -> process does NOT beat content."""
+    """Process deltas tight (0.30/0.31/0.29 -> low process CV) but standard stance spread
+    (0.30/0.60/0.90 -> high content CV) -> process does NOT beat content."""
     rng = random.Random(13)
     r: List[Dict[str, Any]] = []
-    for m, ext in (("mA", 0.80), ("mB", 0.81), ("mC", 0.79)):  # deltas 0.30/0.31/0.29
-        _cell(r, m, "anthropic", "process", "forced_immediate", 0.50, SD, N, rng)
-        _cell(r, m, "anthropic", "process", "extended_thinking", ext, SD, N, rng)
-    for m, cmean in (("mA", 0.30), ("mB", 0.60), ("mC", 0.90)):  # spread content
-        _cell(r, m, "anthropic", "content", "content_baseline", cmean, SD, N, rng)
+    for m, ext, std in (("mA", 0.80, 0.30), ("mB", 0.81, 0.60), ("mC", 0.79, 0.90)):
+        _g1_item_block(r, m, 0.50, ext, std, rng)
     return r
 
 
 def g1_dead_cell() -> List[Dict[str, Any]]:
-    """mC has a forced_immediate cell with SD~0 -> dead -> excluded BEFORE the CV."""
+    """mC's forced_immediate cell is constant (SD~0) -> DEAD -> mC dropped BEFORE the CV."""
     rng = random.Random(14)
     r: List[Dict[str, Any]] = []
-    _cell(r, "mA", "anthropic", "process", "forced_immediate", 0.50, SD, N, rng)
-    _cell(r, "mA", "anthropic", "process", "extended_thinking", 0.90, SD, N, rng)
-    _cell(r, "mB", "anthropic", "process", "forced_immediate", 0.50, SD, N, rng)
-    _cell(r, "mB", "anthropic", "process", "extended_thinking", 0.65, SD, N, rng)
-    # mC dead: constant forced_immediate
-    _cell(r, "mC", "anthropic", "process", "forced_immediate", 0.50, 0.0, N, rng, constant=True)
-    _cell(r, "mC", "anthropic", "process", "extended_thinking", 0.55, SD, N, rng)
-    for m in ("mA", "mB", "mC"):
-        _cell(r, m, "anthropic", "content", "content_baseline", 0.50, SD, N, rng)
+    _g1_item_block(r, "mA", 0.50, 0.90, 0.50, rng)
+    _g1_item_block(r, "mB", 0.50, 0.65, 0.50, rng)
+    _g1_item_block(r, "mC", 0.50, 0.55, 0.50, rng, fi_const=True)  # forced_immediate dead
+    return r
+
+
+def g1_percel_signature() -> List[Dict[str, Any]]:
+    """D5: one model, two items with OPPOSITE-sign deltas (+0.40, -0.40). Pooled abs delta
+    cancels to ~0; per-item abs-then-average is 0.40. Standard cells present so mA survives the
+    roster intersection."""
+    rng = random.Random(15)
+    r: List[Dict[str, Any]] = []
+    _cell(r, "mA", "anthropic", "process", "forced_immediate", 0.50, SD, N, rng, item_id="i1")
+    _cell(r, "mA", "anthropic", "process", "extended_thinking", 0.90, SD, N, rng, item_id="i1")
+    _cell(r, "mA", "anthropic", "process", "standard", 0.50, SD, N, rng, item_id="i1")
+    _cell(r, "mA", "anthropic", "process", "forced_immediate", 0.50, SD, N, rng, item_id="i2")
+    _cell(r, "mA", "anthropic", "process", "extended_thinking", 0.10, SD, N, rng, item_id="i2")
+    _cell(r, "mA", "anthropic", "process", "standard", 0.50, SD, N, rng, item_id="i2")
+    return r
+
+
+def g1_roster_mismatch() -> List[Dict[str, Any]]:
+    """D4: mC has process cells but NO standard cells -> excluded from BOTH CVs by the roster
+    intersection (same-models requirement), even though it has process data."""
+    rng = random.Random(16)
+    r: List[Dict[str, Any]] = []
+    _g1_item_block(r, "mA", 0.50, 0.90, 0.50, rng)
+    _g1_item_block(r, "mB", 0.50, 0.60, 0.50, rng)
+    _g1_item_block(r, "mC", 0.50, 0.30, None, rng)  # no standard -> not in content roster
+    return r
+
+
+def g1_provisional_thin_base() -> List[Dict[str, Any]]:
+    """G1-b: numeric pass (mA/mB spread signatures, converged standard) but the live fraction of
+    process cells is < 40% (mC/mD/mE forced_immediate dead) -> PROVISIONAL."""
+    rng = random.Random(17)
+    r: List[Dict[str, Any]] = []
+    _g1_item_block(r, "mA", 0.50, 0.90, 0.50, rng, items=("i1",))  # live pair
+    _g1_item_block(r, "mB", 0.50, 0.60, 0.50, rng, items=("i1",))  # live pair
+    for m in ("mC", "mD", "mE", "mF"):  # 4 dead pairs -> live fraction 2/6 = 0.33
+        _g1_item_block(r, m, 0.50, 0.55, None, rng, items=("i1",), fi_const=True)
+    return r
+
+
+def g1_unmeasurable() -> List[Dict[str, Any]]:
+    """D7/V-4: mA's extended_thinking cell is constant (SD~0) but that condition ran under a
+    temperature drop -> UNMEASURABLE (config determinism), excluded from BOTH numerator and
+    denominator -- NOT counted as a dead cell. mB/mC give a valid CV."""
+    rng = random.Random(18)
+    r: List[Dict[str, Any]] = []
+    _g1_item_block(r, "mA", 0.50, 0.70, 0.50, rng, items=("i1",), ext_const=True)  # unmeasurable
+    _g1_item_block(r, "mB", 0.50, 0.90, 0.50, rng, items=("i1",))
+    _g1_item_block(r, "mC", 0.50, 0.55, 0.50, rng, items=("i1",))
     return r
 
 
@@ -233,16 +287,20 @@ def g3_fallback_flat():
 # ---- combined P0 ----
 
 def p0_pass() -> List[Dict[str, Any]]:
-    """All three gates hold simultaneously."""
+    """All three gates hold simultaneously (post-G1-a model: content baseline = standard stance).
+
+    G1: process signatures 0.40/0.10/0.02 (spread -> high process CV); standard stance converged
+        ~0.50 across models (low content CV) -> process beats content.
+    G2: models separate on the extended_thinking manipulation (0.90/0.60/0.52), which is a valid
+        >=1-manipulation pass; standard stays converged (so it does NOT double as G1 content noise).
+    G3: deliberation (extended_thinking) > intuition (forced_immediate) -> positive direction,
+        matching human_anchor=+1.
+    """
     rng = random.Random(41)
     r: List[Dict[str, Any]] = []
-    ext = {"mA": 0.90, "mB": 0.60, "mC": 0.52}   # |ext-fi| = 0.40/0.10/0.02 (G1 process CV high)
-    std = {"mA": 0.20, "mB": 0.50, "mC": 0.80}   # separated on 'standard' (G2)
+    ext = {"mA": 0.90, "mB": 0.60, "mC": 0.52}
     for m in ("mA", "mB", "mC"):
-        _cell(r, m, "anthropic", "process", "forced_immediate", 0.50, SD, N, rng)
-        _cell(r, m, "anthropic", "process", "extended_thinking", ext[m], SD, N, rng)
-        _cell(r, m, "anthropic", "process", "standard", std[m], SD, N, rng)
-        _cell(r, m, "anthropic", "content", "content_baseline", 0.50, SD, N, rng)  # converged
+        _g1_item_block(r, m, 0.50, ext[m], 0.50, rng)
     return r
 
 

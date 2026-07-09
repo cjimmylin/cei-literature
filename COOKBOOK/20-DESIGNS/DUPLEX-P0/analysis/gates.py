@@ -52,69 +52,147 @@ def _group_scores(records: Sequence[dict], *keys):
 
 # --------------------------------------------------------------------------- G1
 
+def _cell_state(
+    scores: Sequence[float],
+    condition: str,
+    sd_dead_threshold: float,
+    unmeasurable_conditions: set,
+) -> str:
+    """Three-state cell coding (ruling G1-b / V-4): 'live' | 'dead' | 'unmeasurable' |
+    'incomplete'. A cell with < 2 reps is 'incomplete' (cannot judge liveness). A cell with
+    across-reps SD > threshold is 'live'. A near-constant cell is 'unmeasurable' (config
+    determinism) if its condition ran under a V-4 temperature drop, else 'dead' (content-domain
+    correct-answer signature)."""
+    if len(scores) < 2:
+        return "incomplete"
+    if sample_sd(scores) > sd_dead_threshold:
+        return "live"
+    return "unmeasurable" if condition in unmeasurable_conditions else "dead"
+
+
 def process_beats_content(
     results: Sequence[dict],
     epsilon: float = 0.02,
     sd_dead_threshold: float = 1e-6,
     high_condition: str = "extended_thinking",
     low_condition: str = "forced_immediate",
+    standard_condition: str = "standard",
+    live_cell_floor: float = 0.40,
+    unmeasurable_conditions: Optional[set] = None,
 ) -> dict:
-    """G1 — Process beats content on discrimination (§7 table row G1).
+    """G1 — Process beats content on discrimination (§7 row G1; rulings G1-a / G1-b).
 
-    Process-axis cross-model CV (denominator-guarded, dead-cells excluded) must EXCEED the
-    matched content-axis baseline CV on the same models.
+    Ruling G1-a redefines the two axes over the SAME process items, same models, same run (no
+    separate 'content' battery):
 
-    Per-model process signature = |mean(high_condition) - mean(low_condition)| pooled over
-    process items. A (model, condition) cell whose across-reps SD is <= sd_dead_threshold is a
-    DEAD cell (correct-answer signature, doc 04 §4); a model resting on a dead cell is dropped
-    from the process CV BEFORE the CV is computed. CV itself is guarded: if the cross-model mean
-    is within epsilon of zero (the "93x off a near-zero denominator" failure mode) it returns
-    None and the gate FAILS.
+      * process axis  = cross-model CV of the per-model *process signature*, where the signature
+        is the mean over items of the |per-item condition-delta| (mean(high) - mean(low) computed
+        PER ITEM, abs applied per item so opposite-sign items do not cancel -- D5).
+      * content baseline = cross-model CV of the per-model *content mean*, where the content mean
+        is the mean over items of that item's mean stance in the STANDARD condition (D3) -- the
+        model-to-model content disagreement. The discriminant-control battery is NOT this baseline.
+
+    Cell coding is three-state (ruling G1-b / V-4): a live (item, model) process pair contributes
+    a delta; a DEAD pair (a constant content cell) is excluded from the numerator but counts in
+    the live-cell-fraction denominator; an UNMEASURABLE pair (constant because its condition ran
+    under a V-4 temperature drop) counts in NEITHER. If the live fraction of process pairs falls
+    below `live_cell_floor` (0.40), a numeric pass is downgraded to PROVISIONAL (thin base).
+
+    CV is denominator-guarded: if the cross-model mean of the signatures is within epsilon of zero
+    (the near-zero-denominator failure mode) it returns None and the gate FAILS. The process and
+    content CVs are computed over the SAME model set (roster intersection -- D4).
     """
-    live = _live(results)
-    proc = [r for r in live if r.get("axis") == "process"]
-    cont = [r for r in live if r.get("axis") == "content"]
+    unmeasurable_conditions = set(unmeasurable_conditions or ())
+    proc = [r for r in _live(results) if r.get("axis") == "process"]
 
-    proc_cells = _group_scores(proc, "model_id", "resource_condition")
+    # scores grouped by (model, item, condition) so liveness/deltas are per-item, not pooled
+    cells: Dict[tuple, List[float]] = defaultdict(list)
+    for r in proc:
+        cells[(r["model_id"], r["item_id"], r["resource_condition"])].append(float(r["score"]))
+
+    models = sorted({m for (m, _i, _c) in cells})
+    items = sorted({i for (_m, i, _c) in cells})
 
     process_signatures: Dict[str, float] = {}
     dead_cells: List[dict] = []
-    models = sorted({r["model_id"] for r in proc})
-    for model in models:
-        hi = proc_cells.get((model, high_condition), [])
-        lo = proc_cells.get((model, low_condition), [])
-        if len(hi) < 2 or len(lo) < 2:
-            # incomplete cell — cannot judge liveness; skip this model from the process CV
-            continue
-        hi_sd = sample_sd(hi)
-        lo_sd = sample_sd(lo)
-        dead = hi_sd <= sd_dead_threshold or lo_sd <= sd_dead_threshold
-        if dead:
-            dead_cells.append(
-                {"model_id": model, "high_sd": hi_sd, "low_sd": lo_sd}
-            )
-            continue  # dropped BEFORE CV (§4)
-        process_signatures[model] = abs(mean(hi) - mean(lo))
+    unmeasurable_cells: List[dict] = []
+    live_pairs = 0
+    dead_pairs = 0
 
-    # content-axis matched baseline: cross-model CV of per-model mean content score
-    cont_by_model = _group_scores(cont, "model_id")
-    content_means = {m: mean(s) for m, s in cont_by_model.items() if len(s) >= 1}
+    for model in models:
+        per_item_abs_deltas: List[float] = []
+        for item in items:
+            hi = cells.get((model, item, high_condition))
+            lo = cells.get((model, item, low_condition))
+            if hi is None or lo is None:
+                continue  # not a process pair for this (model, item)
+            hs = _cell_state(hi, high_condition, sd_dead_threshold, unmeasurable_conditions)
+            ls = _cell_state(lo, low_condition, sd_dead_threshold, unmeasurable_conditions)
+            if hs == "incomplete" or ls == "incomplete":
+                continue
+            if hs == "unmeasurable" or ls == "unmeasurable":
+                if hs == "unmeasurable":
+                    unmeasurable_cells.append(
+                        {"model_id": model, "item_id": item, "condition": high_condition,
+                         "sd": sample_sd(hi)}
+                    )
+                if ls == "unmeasurable":
+                    unmeasurable_cells.append(
+                        {"model_id": model, "item_id": item, "condition": low_condition,
+                         "sd": sample_sd(lo)}
+                    )
+                continue  # V-4: excluded from BOTH numerator and denominator
+            if hs == "dead" or ls == "dead":
+                dead_pairs += 1
+                dead_cells.append(
+                    {"model_id": model, "item_id": item,
+                     "high_sd": sample_sd(hi), "low_sd": sample_sd(lo)}
+                )
+                continue  # dead: out of numerator, IN the live-fraction denominator
+            live_pairs += 1
+            per_item_abs_deltas.append(abs(mean(hi) - mean(lo)))  # D5: abs PER ITEM
+        if per_item_abs_deltas:
+            process_signatures[model] = mean(per_item_abs_deltas)
+
+    # content baseline: per-model mean over items of the item's STANDARD-condition mean stance (D3)
+    content_means_all: Dict[str, float] = {}
+    for model in models:
+        per_item_std = [
+            mean(cells[(model, item, standard_condition)])
+            for item in items
+            if cells.get((model, item, standard_condition))
+        ]
+        if per_item_std:
+            content_means_all[model] = mean(per_item_std)
+
+    # roster intersection (D4): CVs over models present in BOTH axes
+    models_used = sorted(set(process_signatures) & set(content_means_all))
+    process_signatures = {m: process_signatures[m] for m in models_used}
+    content_means = {m: content_means_all[m] for m in models_used}
 
     process_cv = coefficient_of_variation(process_signatures.values(), epsilon=epsilon)
     content_cv = coefficient_of_variation(content_means.values(), epsilon=epsilon)
 
-    passed = (
-        process_cv is not None
-        and content_cv is not None
-        and process_cv > content_cv
+    numeric_pass = (
+        process_cv is not None and content_cv is not None and process_cv > content_cv
     )
+    denom = live_pairs + dead_pairs
+    live_cell_fraction = (live_pairs / denom) if denom else 0.0
+    provisional = bool(numeric_pass and live_cell_fraction < live_cell_floor)
+    verdict = ("PROVISIONAL" if provisional else "PASS") if numeric_pass else "FAIL"
+
     return {
         "process_cv": process_cv,
         "content_cv": content_cv,
-        "pass": bool(passed),
+        "pass": bool(numeric_pass),
+        "provisional": provisional,
+        "verdict": verdict,
         "process_signatures": process_signatures,
         "content_means": content_means,
+        "models_used": models_used,
         "dead_cells": dead_cells,
+        "unmeasurable_cells": unmeasurable_cells,
+        "live_cell_fraction": live_cell_fraction,
         "n_models_process": len(process_signatures),
     }
 
@@ -313,6 +391,9 @@ def run_p0_gates(results: Sequence[dict], config: Optional[dict] = None) -> dict
         sd_dead_threshold=cfg.get("g1_sd_dead_threshold", 1e-6),
         high_condition=cfg.get("g1_high_condition", "extended_thinking"),
         low_condition=cfg.get("g1_low_condition", "forced_immediate"),
+        standard_condition=cfg.get("g1_standard_condition", "standard"),
+        live_cell_floor=cfg.get("g1_live_cell_floor", 0.40),
+        unmeasurable_conditions=cfg.get("g1_unmeasurable_conditions"),
     )
     g2 = pairwise_separation(
         results,
@@ -328,4 +409,11 @@ def run_p0_gates(results: Sequence[dict], config: Optional[dict] = None) -> dict
         min_effect=cfg.get("g3_min_effect", 0.02),
     )
     overall = bool(g1["pass"] and g2["pass"] and g3["pass"])
-    return {"G1": g1, "G2": g2, "G3": g3, "overall_pass": overall}
+    # Surface G1-b's thin-base caveat: a numeric pass on a <40%-live base is PROVISIONAL (build
+    # may start, but the 9-model + dead-cell audit gates P2 spend -- outcome table, ruling G1-b).
+    provisional = bool(overall and g1.get("provisional"))
+    return {
+        "G1": g1, "G2": g2, "G3": g3,
+        "overall_pass": overall,
+        "provisional": provisional,
+    }

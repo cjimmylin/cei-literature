@@ -18,6 +18,7 @@ RAW = {
     "content_tags": ["harm"],
     "is_discriminant_control": False,
     "greene_subset": True,
+    "stance_polarity": "affirmative_preserve",
     "scenario": "Scenario text.",
     "question": "Should you? Give a verdict.",
     "base_prompt": "Scenario text.\n\nShould you? Give a verdict.",
@@ -27,6 +28,7 @@ RAW = {
         "extended_thinking": "EXT-PROMPT: think step by step.",
         "load_injected": "LOAD-PROMPT: also count sentences.",
     },
+    "greene_fallback_prompt": "FALLBACK-PROMPT: agent-patient + time pressure.",
     "canary": "CEI-DUPLEX-P0::canary::DPX-P0-M001",
 }
 
@@ -44,6 +46,37 @@ def test_normalize_item_maps_core_fields():
 def test_normalize_axis_for_discriminant_control():
     dc = dict(RAW, is_discriminant_control=True)
     assert normalize_item(dc)["axis"] == "discriminant_control"
+
+
+def test_normalize_item_preserves_stance_polarity_and_greene_fallback():
+    """Adjudication protocol precondition: 'per-item stance-polarity key ... 12/48 novel items
+    currently invert the stance scale'. WS-1 D9: the polarity key lives in the bank metadata but
+    is dropped at the runner boundary ('only fixed in the bank metadata'). normalize_item MUST
+    preserve stance_polarity (needed for reverse-scoring, R-1) and greene_fallback_prompt (needed
+    to administer the G3 M3 fallback arm as a real arm, WS-1 D2).
+    """
+    item = normalize_item(RAW)
+    assert item["stance_polarity"] == "affirmative_preserve"
+    assert item["greene_fallback_prompt"] == "FALLBACK-PROMPT: agent-patient + time pressure."
+
+
+def test_record_carries_stance_polarity_and_greene_subset():
+    """WS-1 D1 (G3 'computed over the 5 Greene items' needs greene_subset on each record) and
+    WS-1 D9 (reverse-scoring needs stance_polarity on each record). _administer_one currently
+    emits neither; the analysis therefore cannot filter the Greene subset nor reverse-score.
+    The emitted result record MUST carry both, verbatim from the item.
+    """
+    item = normalize_item(RAW)  # greene_subset=True, stance_polarity="affirmative_preserve"
+    adapter = fx.FakeAdapter("anthropic")
+    orch = Orchestrator(
+        adapters={"anthropic": adapter},
+        models=[{"id": "claude-opus-4-6", "vendor": "anthropic"}],
+        item_bank=[item], conditions=["standard"], scorer=fx.fake_scorer,
+        reps=1, temperature=0.7,
+    )
+    recs = orch.run()
+    assert recs[0]["stance_polarity"] == "affirmative_preserve"
+    assert recs[0]["greene_subset"] is True
 
 
 def test_orchestrator_prefers_per_condition_prompt():

@@ -13,6 +13,7 @@ No live calls here: adapters and the scorer (judge) are injected.
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -20,10 +21,12 @@ from collections import defaultdict
 from statistics import stdev
 from typing import Any, Callable, Dict, Iterable, List, Optional, Tuple
 
-from .adapters import BaseAdapter, classify_refusal, detect_refusal
+from .adapters import BaseAdapter, detect_refusal
 
-# Scorer: (response_text, item, subject_vendor) -> float judgment (higher = more utilitarian).
-Scorer = Callable[[str, Dict[str, Any], str], float]
+# Scorer: (response_text, item, subject_vendor) -> stance judgment on the item's own affirmative
+# pole (higher = more agreement), or None when NO stance is scoreable. A None return is the
+# canonical refusal/abstention signal (WS-1 D10): refusal is decided here, not by keyword match.
+Scorer = Callable[[str, Dict[str, Any], str], Optional[float]]
 
 CellKey = Tuple[str, str, str, int]
 
@@ -125,9 +128,45 @@ def cell_key(item_id: str, model_id: str, condition: str, seed: int) -> CellKey:
     return (str(item_id), str(model_id), str(condition), int(seed))
 
 
+# --------------------------------------------------------------------------- stance polarity (R-1)
+
+def apply_stance_polarity(
+    raw: Optional[float],
+    stance_polarity: Optional[str],
+    scale: Tuple[float, float] = (1.0, 5.0),
+) -> Optional[float]:
+    """Map a raw stance onto the common 'intervene pole' axis (WS-1 D9 / R-1 / IB-4).
+
+    A raw score is the model's agreement with the item's OWN affirmative pole. IB-4 defines
+    PS-dir as 'shift toward the stance-5 (intervene) pole', so every record must live on the
+    intervene axis:
+
+      * affirmative_intervene -> passthrough (the affirmative pole already IS intervene).
+      * affirmative_preserve  -> reflect about the scale midpoint: (min + max) - raw. The
+        affirmative pole is PRESERVE, the intervene-opposite; the adjudication-protocol
+        precondition notes these items 'invert the stance scale'. This is the R-1 fix, applied
+        at record creation (WS-1 D9) rather than in the bank metadata alone.
+      * anything else (n/a, discriminant controls, None) -> passthrough (no intervene axis;
+        controls use the IB-5 commensurable-shift metric instead).
+    """
+    if raw is None:
+        return None
+    if stance_polarity == "affirmative_preserve":
+        lo, hi = scale
+        return (lo + hi) - float(raw)
+    return float(raw)
+
+
 def seed_for(base_seed: int, item_id: str, model_id: str, condition: str, rep: int) -> int:
-    """Deterministic, distinct-per-rep seed. Stable across runs so checkpoints line up."""
-    h = abs(hash((item_id, model_id, condition))) % 100000
+    """Deterministic, distinct-per-rep seed. Stable across runs so checkpoints line up.
+
+    Uses a hashlib SHA-256 digest of the cell identity rather than the builtin ``hash()``:
+    ``hash()`` on strings/tuples is randomized per process by PYTHONHASHSEED, which would make
+    the seed (and therefore the checkpoint key) differ between processes and silently defeat
+    idempotent resume (WS-1 D11). SHA-256 is process-stable.
+    """
+    key = f"{item_id}\x1f{model_id}\x1f{condition}".encode("utf-8")
+    h = int.from_bytes(hashlib.sha256(key).digest()[:8], "big") % 100000
     return int(base_seed) * 1000 + h * 100 + rep
 
 
@@ -181,6 +220,7 @@ class Orchestrator:
         base_seed: int = 20260706,
         out_path: Optional[str] = None,
         checkpoint: Optional[Checkpoint] = None,
+        stance_scale: Tuple[float, float] = (1.0, 5.0),
     ):
         if temperature <= 0:
             raise ValueError("temperature must be > 0 (design §3/§7 require temperature>0).")
@@ -194,6 +234,9 @@ class Orchestrator:
         self.reps = reps
         self.temperature = temperature
         self.base_seed = base_seed
+        # Pre-registered 1..5 stance ordinal (g3 mini-norm §2 / IB-5); used to reflect
+        # affirmative_preserve raw scores onto the common intervene axis (R-1 / WS-1 D9).
+        self.stance_scale = stance_scale
         self.out_path = out_path
         self.checkpoint = checkpoint if checkpoint is not None else Checkpoint()
         self.n_administrations = 0  # live adapter calls made this run (0 on a fully-resumed run)
@@ -251,13 +294,29 @@ class Orchestrator:
         )
         self.n_administrations += 1
 
-        refusal = bool(result.refusal_flag) or detect_refusal(result.text)
+        # Refusal = NO STANCE TAKEN (WS-1 D10): decided by the adapter's structured refusal flag
+        # or by the scorer failing to extract a stance (scorer -> None), NOT by a substring match
+        # on the answer. "No, I can't approve that" is a substantive stance-1 answer, not a
+        # refusal; substring-matching it would silently delete the preserve pole and bias PS
+        # toward intervention (compounds D9). `detect_refusal` is retained only as an auxiliary
+        # over-refusal-audit signal (§5.3), never as the decision.
+        refusal_flag = bool(result.refusal_flag)
+        raw = None if refusal_flag else self.scorer(result.text, item, vendor)
+        no_stance = raw is None
+        refusal = refusal_flag or no_stance
         if refusal:
+            raw_score: Optional[float] = None
             score: Optional[float] = None
-            refusal_category = classify_refusal(result.text) or "explicit_refusal"
+            refusal_category = "explicit_refusal" if refusal_flag else "no_stance"
         else:
-            score = float(self.scorer(result.text, item, vendor))
+            # raw_score = agreement with the item's own affirmative pole; score = the same
+            # value mapped onto the common intervene axis (R-1 reverse-scoring, WS-1 D9).
+            raw_score = float(raw)
+            score = apply_stance_polarity(
+                raw_score, item.get("stance_polarity"), self.stance_scale
+            )
             refusal_category = None
+        refusal_surface_match = detect_refusal(result.text)  # audit signal only, not a decision
 
         # Load-compliance coding (R-2): only meaningful for the load_injected condition; None
         # elsewhere so downstream sensitivity analysis can filter on non-null.
@@ -270,12 +329,18 @@ class Orchestrator:
             "model_id": model["id"],
             "vendor": vendor,
             "axis": axis,
+            # Analysis-required item metadata carried onto every record (WS-1 D1/D9):
+            # greene_subset -> G3 subset filter; stance_polarity -> reverse-scoring key.
+            "stance_polarity": item.get("stance_polarity"),
+            "greene_subset": bool(item.get("greene_subset")),
             "resource_condition": condition,
             "seed": seed,
             "rep": rep,
+            "raw_score": raw_score,
             "score": score,
             "refusal": refusal,
             "refusal_category": refusal_category,
+            "refusal_surface_match": refusal_surface_match,
             "load_compliance": load_compliance,
             "latency": result.latency,
             "text": result.text,

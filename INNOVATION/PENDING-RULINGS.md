@@ -4,13 +4,7 @@
 
 ---
 
-## PR-01 — Stage-4 taxonomy codes: sign-off + routing placement · **OPEN** · decides: Jimmy
-
-- **Artifact:** `INNOVATION/20260709-taxonomy-stage4-codes-proposal.md` (5 new codes, ready-to-apply patch in §7)
-- **Blocked on this:** application of the patch to `_OPERATING-SYSTEM/Standards/classification-logic.md` (standards file), and handoff item **1.2 Acquisitions** (~98 papers; running it first sends them into old categories).
-- **Decision needed:** (i) approve/revise/reject each of the 5 codes; (ii) pick routing option from proposal §9.1: (a) Stage-4-only, (b) mirror the five names into Stage 3's list, (c) apply `research_topic` regardless of the `ethics_overall < 50` gate.
-- **Fable recommendation (2026-07-09, FC-1):** approve all 5 as drafted; pick **(b)**. Under (a) most target papers route to Stage 3 and never receive the codes — defeating the 1.1-before-1.2 sequencing. (b) is mechanical and precedented (`AI Safety & Alignment` is already dual-homed). (c) changes classifier behavior corpus-wide; defer to the vocabulary-reconciliation pass (queue item 3.5).
-- **On approval:** apply §7 patch (+ Stage-3 mirror if (b)), run `PYTHON/validate_all_papers.py`, then unblock 1.2.
+*(no open rulings)*
 
 ---
 
@@ -18,4 +12,14 @@
 
 ## Resolved
 
-*(none yet)*
+### PR-01 — Stage-4 taxonomy codes: sign-off + routing placement · **RESOLVED 2026-07-09** · decided: Jimmy
+
+- **Ruling (Jimmy, verbatim intent):** all 5 codes approved as drafted; routing option **(b)** (mirror into Stage 3, dual-homed) selected; apply and unblock 1.2.
+- **Applied 2026-07-09 (same session, Fable-supervised):** §7 Patches A/B/C applied to `classification-logic.md` (version-history row 1.5) + Stage-3 mirror (list items 11–15, dual-homing note, matching example-keyword blocks in both stages' detection sections). `validate_all_papers.py`: 0 errors. Patch D (header `Version: 1.0` bump — pre-existing staleness) was gated separately in the proposal and remains unapplied; fold into queue item 3.5.
+- **Effect:** handoff item 1.2 (Acquisitions V1) UNBLOCKED; P1 batch dispatched same session.
+
+- **Original request (for the record):**
+  - Artifact: `INNOVATION/20260709-taxonomy-stage4-codes-proposal.md` (5 new codes, ready-to-apply patch in §7)
+  - Blocked: patch application (standards file) + handoff item 1.2 (~98 papers)
+  - Options: (a) Stage-4-only / (b) Stage-3 mirror / (c) bypass `ethics_overall < 50` gate
+  - Fable recommendation (FC-1): approve all 5; pick (b) — (a) lets papers route past Stage 4; (b) mechanical + precedented; (c) corpus-wide behavior change, deferred to item 3.5.

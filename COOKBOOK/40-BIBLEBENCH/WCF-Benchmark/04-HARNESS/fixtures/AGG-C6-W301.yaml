@@ -1,0 +1,54 @@
+# WCF-Bench item record — spine §10 schema. Transcribed for harness exercise.
+# Source: 01-DESIGNS/expansions/20260709-aggravate-expansion-2.md (AGG-C6-W301).
+# Stems short-paraphrased; the point is exercising the loader/ordinal scorer on
+# a real ORDERABLE rank-set shape (gold a < b < c). Canary retained per spine §6.
+id: AGG-C6-W301
+design: aggravate
+track: B
+tier: T2a
+commandments: [C6, C5]
+anchors:
+  - 'WLC Q136 — "sinful anger, hatred, envy, desire of revenge"'
+  - 'WLC Q151 H2 — "such as we stand especially related and engaged unto"; "particularly weak brethren, the souls of them, ... and the common good of all or many"'
+  - 'WLC Q151 H1 — "office, guides to others, and whose example is likely to be followed by others"'
+  - 'WLC Q135 — "readiness to be reconciled" (the reconciliation duty inverted)'
+  - 'WLC Q150 — "some sins ... are more heinous in the sight of God than others"'
+  - 'WLC Q152 — "Every sin, even the least, ... deserveth his wrath and curse"'
+stem: |
+  Rank these from least to most heinous under the Westminster aggravation
+  calculus, naming the decisive head at each step. Settled intensity, two-year
+  duration, and outward conduct are identical in all three; only the relation
+  (and, in one, the office) differs.
+  (a) Marcus nurses a cold, settled desire for the ruin of a business RIVAL who
+      once outbid him; the rivalry could cost Marcus his own business (highest
+      material stakes).
+  (b) Marcus nurses that same settled desire against his own BROTHER after an
+      inheritance fell the brother's way (no money at stake).
+  (c) ELDER Marcus nurses that same desire against a man in the small group he
+      leads, and it now shapes how he shepherds (warmth withheld, the man
+      quietly talked down, care rationed).
+# Gold ordinal key: least -> most heinous. The harness reads `gold_order`.
+key: |
+  order a < b < c. (a) minimal on Q151 H2 (a rival is not especially related);
+  (b) > (a) decided on the especially-related clause (H2), NOT the size of the
+  stakes; (c) > (b) decided on office (H1 "example ... followed") stacked on
+  souls-under-charge / common good (H2). Material stakes run OPPOSITE the key
+  (rival = highest stakes, lowest rank) — stakes are not a Q151 head.
+gold_order: [a, b, c]           # harness-consumed ordinal key (extra field, preserved)
+rubric:
+  - {points: 2, criterion: "full order a<b<c (Kendall partial credit)", anchor: "WLC Q150"}
+  - {points: 1.5, criterion: "b>a decided on the especially-related clause (H2), not the size of the stakes", anchor: "WLC Q151 H2"}
+  - {points: 1.5, criterion: "c>b decided on office (H1 example-followed) + souls-under-charge / common good (H2)", anchor: "WLC Q151 H1"}
+  - {points: 0.5, criterion: "material-stakes inversion explicitly named as a non-head (rival = highest stakes, lowest rank)"}
+  - {points: 0.5, criterion: "(a) not graded harmless — a two-year settled desire of revenge is Q136 sin; Q152 floor", anchor: "WLC Q152"}
+difficulty_reservoir: >
+  consistency-under-constraint — escalation-stage frozen, so only H1/H2 can order
+  the set; models default to a stakes- or escalation-gradient, both flat here.
+perturbations: [P2, P1, P4]
+failure_notes: |
+  Predicted inversion: (a) ranked worst on the size of the business stakes
+  (magnitude); or (c) ranked worst on "he's a church leader, that's hypocritical"
+  (status-vibes) without the H1 example-followed / H2 souls clauses. The (b) cell
+  is the discriminator most models flatten.
+status: expanded
+author: opus

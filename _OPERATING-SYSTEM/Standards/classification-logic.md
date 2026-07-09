@@ -239,6 +239,13 @@ Categorize ethical papers that don't fit traditional philosophical frameworks.
 8. **Responsible AI** - Governance, accountability, transparency
 9. **Machine Ethics** - Explicit machine ethics, artificial moral agents
 10. **Value Alignment** - Human values, preference learning, reward modeling
+11. **Specification & Compliance** - Model specs, constitutions, spec-adherence auditing (gap atlas G-01/02/03)
+12. **Scalable Oversight** - Weak-to-strong, debate, recursive critique, no-gold-truth evaluation, judge reliability (G-07/08/09)
+13. **Preference Aggregation & Social Choice** - Preference aggregation, collective/pluralistic alignment, deliberation pipelines (G-10/11/12)
+14. **Value Formation & Emergent Misalignment** - Emergent misalignment, persona geometry, value drift in training, coherent-values adjudication (G-20/21/22/23)
+15. **Multi-Agent Value Dynamics** - Agentic value dynamics, multi-agent alignment, value persistence/drift over operation (G-16/17/18/19)
+
+*Categories 11–15 are dual-homed in Stages 3 and 4 (PR-01 option (b), 2026-07-09): alignment-pipeline papers may score `ethics_overall` ≥ 50 (routing here) or < 50 (routing to Stage 4); the same five names apply in both stages.*
 
 ### Detection Logic
 Keyword matching on abstracts and titles, category-specific.
@@ -259,6 +266,27 @@ Keyword matching on abstracts and titles, category-specific.
 - hallucination, truthful, truthfulness
 - factual, factuality, misinformation
 - accuracy, veracity
+
+**Specification & Compliance:**
+- model spec, model specification, constitution, spec-adherence, spec compliance
+- SpecEval, spec-behavior consistency, deontic policy, policy card
+
+**Scalable Oversight:**
+- scalable oversight, weak-to-strong, weak-to-strong generalization
+- debate (as oversight), recursive critique, peer prediction, prover-verifier
+- LLM-as-judge reliability, judge bias, no ground truth
+
+**Preference Aggregation & Social Choice:**
+- social choice, preference aggregation, collective alignment, pluralistic alignment
+- distortion, clone-robust, population-proportional, deliberation pipeline
+
+**Value Formation & Emergent Misalignment:**
+- emergent misalignment, EM, persona vector, persona feature, persona direction
+- subliminal learning, character training, utility engineering, value drift (in training)
+
+**Multi-Agent Value Dynamics:**
+- multi-agent (value/alignment), emergent convention, tacit collusion, coordinated sabotage
+- agentic misalignment, value persistence, value drift (over operation), memory drift
 
 ### Edge Cases
 
@@ -292,6 +320,11 @@ Categorize non-ethical papers by technical domain.
 5. **Computer Vision** - Image/video processing
 6. **Benchmarks & Datasets** - Data contributions without ethical focus
 7. **AI Safety & Alignment** - Catch-all for technical safety papers missed by Stage 1
+8. **Specification & Compliance** - Model specs, constitutions, spec-adherence auditing (gap atlas G-01/02/03)
+9. **Scalable Oversight** - Weak-to-strong, debate, recursive critique, no-gold-truth evaluation, judge reliability (G-07/08/09)
+10. **Preference Aggregation & Social Choice** - Preference aggregation, collective/pluralistic alignment, deliberation pipelines (G-10/11/12)
+11. **Value Formation & Emergent Misalignment** - Emergent misalignment, persona geometry, value drift in training, coherent-values adjudication (G-20/21/22/23)
+12. **Multi-Agent Value Dynamics** - Agentic value dynamics, multi-agent alignment, value persistence/drift over operation (G-16/17/18/19)
 
 ### Detection Logic
 Keyword matching on abstracts and titles.
@@ -310,6 +343,27 @@ Keyword matching on abstracts and titles.
 - constitutional AI, harmlessness (if not caught in Stage 1)
 - truthfulness, factuality (if not caught in Stage 1)
 - reward hacking, specification gaming
+
+**Specification & Compliance:**
+- model spec, model specification, constitution, spec-adherence, spec compliance
+- SpecEval, spec-behavior consistency, deontic policy, policy card
+
+**Scalable Oversight:**
+- scalable oversight, weak-to-strong, weak-to-strong generalization
+- debate (as oversight), recursive critique, peer prediction, prover-verifier
+- LLM-as-judge reliability, judge bias, no ground truth
+
+**Preference Aggregation & Social Choice:**
+- social choice, preference aggregation, collective alignment, pluralistic alignment
+- distortion, clone-robust, population-proportional, deliberation pipeline
+
+**Value Formation & Emergent Misalignment:**
+- emergent misalignment, EM, persona vector, persona feature, persona direction
+- subliminal learning, character training, utility engineering, value drift (in training)
+
+**Multi-Agent Value Dynamics:**
+- multi-agent (value/alignment), emergent convention, tacit collusion, coordinated sabotage
+- agentic misalignment, value persistence, value drift (over operation), memory drift
 
 ### Purpose of "AI Safety & Alignment" Category in Non-Ethics
 
@@ -806,3 +860,4 @@ python3 PYTHON/validate_all_papers.py
 | 1.2 | 2026-03-13 | Moral psychology scoring: 8 mp_* fields (0-100) replace direct classification; moral_psychology now derived |
 | 1.3 | 2026-03-13 | Religious values scoring: 14 rv_* fields (0-100); religious_values now derived from scores |
 | 1.4 | 2026-03-13 | Normative ethics expanded from 3 to 5 frameworks: added care_ethics and contractarian_ethics |
+| 1.5 | 2026-07-09 | Stage 4 expanded from 7 to 12 research-topic codes: added Specification & Compliance, Scalable Oversight, Preference Aggregation & Social Choice, Value Formation & Emergent Misalignment, Multi-Agent Value Dynamics; same five names mirrored into Stage 3 (dual-homed) per PR-01 option (b) (outer-alignment gap atlas G-01…G-23; proposal INNOVATION/20260709-taxonomy-stage4-codes-proposal.md) |

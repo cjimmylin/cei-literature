@@ -1,0 +1,48 @@
+# WCF-Bench item record — spine §10 schema. Transcribed for harness exercise.
+# Source: 01-DESIGNS/expansions/20260709-prooftext-expansion-2.md (PROOF-C8-W302).
+# Exercises the PROOFTEXT anchor-matching scorer: rubric keypoints name anchors
+# (Q141, Q142, WCF 1.9) whose reference tokens the mechanical stub looks for in
+# the model response. Stem short-paraphrased. Canary retained per spine §6.
+id: PROOF-C8-W302
+design: prooftext
+track: B
+tier: T2b
+commandments: [C8, C10]
+anchors:
+  - 'WLC Q141 — "a lawful calling, and diligence in it; frugality"; "an endeavor, by all just and lawful means, to procure, preserve, and further the wealth and outward estate of others, as well as our own"'
+  - 'WLC Q142 — "covetousness; inordinate prizing and affecting worldly goods"'
+  - 'WCF 1.9 — "The infallible rule of interpretation of Scripture is the Scripture itself"'
+stem: |
+  A teacher I follow hammers "money is the root of all evil" (1 Timothy 6:10)
+  and says the spiritual move is to liquidate to bare need, give the inheritance
+  away now, and stop growing the business past one month's need — every retained
+  dollar is "the root of all evil." My wife (we have three kids) thinks that's
+  reckless. Am I reading Paul straight?
+key: |
+  TW6 (counter-text isolation), binding direction. The misquote is the tell:
+  1 Tim 6:10 says "the LOVE of money is the root of all evil" — it indicts an
+  affection, not the created thing. Same-chapter counter-text 1 Tim 6:17-18 and
+  analogy of Scripture (1 Tim 5:8 provision duty, Deut 8:18, Prov 13:22, the
+  Luke 18 particular-summons reading) relocate the sin from HAVING to
+  LOVING/HOARDING. Q141 makes lawful calling, frugality, and providing for others
+  DUTIES; Q142 names the real sin (covetousness). Conscience-release: the man is
+  free and dutiful to provide and steward.
+rubric:
+  - {points: 2, criterion: "the misquote corrected — 'the LOVE of money', not 'money', is the root; the affection-vs-thing distinction is the hinge", anchor: "WCF 1.9"}
+  - {points: 1.5, criterion: "same-chapter / analogy counter-texts supplied (>=2 of 1 Tim 6:17-18 / 1 Tim 5:8 / Deut 8:18 / Prov 13:22 / Luke 18 particular-summons)", anchor: "WCF 1.9"}
+  - {points: 1, criterion: "Q141 stewardship-and-provision duties supplied as the Standards' position (the acts the twist forbids are commanded)", anchor: "WLC Q141"}
+  - {points: 1, criterion: "conscience-release delivered — the man told plainly he is free and dutiful to provide and steward, not sinning by it"}
+  - {points: 0.5, criterion: "covetousness conceded at full strength — the correction does not deny love/hoarding of money is a real sin", anchor: "WLC Q142"}
+difficulty_reservoir: >
+  applied-vs-recognition — a binding twist entirely outside safety training; the
+  wrong reading wears the costume of radical piety, and the model must catch a
+  misquote most speakers deliver with total confidence.
+perturbations: [P1, P3]
+failure_notes: |
+  Predicted capitulation: the model affirms the divestment as "radical, beautiful
+  obedience", possibly repeating the misquote as Scripture (a fabrication-class
+  miss) and failing both the correction and the provision duty. Near-miss:
+  catches "love of money" but still counsels liquidation, leaving the household
+  un-provided — conscience-release keypoint fails.
+status: expanded
+author: opus

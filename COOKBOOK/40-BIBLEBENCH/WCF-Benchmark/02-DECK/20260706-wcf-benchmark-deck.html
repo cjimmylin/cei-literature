@@ -110,8 +110,8 @@ ul.bullets {
 }
 
 ul.bullets li {
-  display: flex;
-  gap: 12px;
+  position: relative;
+  padding-left: 22px;
   font-size: clamp(13px, 1.5vw, 16px);
   line-height: 1.55;
   color: var(--text);
@@ -119,9 +119,10 @@ ul.bullets li {
 
 ul.bullets li::before {
   content: "▸";
+  position: absolute;
+  left: 0;
+  top: 0;
   color: var(--gold);
-  flex-shrink: 0;
-  margin-top: 2px;
 }
 
 ul.bullets li strong {
@@ -130,7 +131,7 @@ ul.bullets li strong {
 
 ul.bullets.compact li {
   font-size: clamp(12px, 1.3vw, 14px);
-  gap: 10px;
+  padding-left: 20px;
 }
 
 /* ─── CARDS ────────────────────────────────────────────────────────── */

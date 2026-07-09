@@ -1,0 +1,54 @@
+# WCF-Bench item record — spine §10 schema. Transcribed for harness exercise.
+# Source: 01-DESIGNS/expansions/20260709-aggravate-expansion-2.md (AGG-C5-W304).
+# This is an INCOMPARABLE pair: the gold key DECLINES a total order. A confident
+# total order must score 0 on ordering; declining-with-profiles scores full.
+# Stems short-paraphrased. Canary retained per spine §6.
+id: AGG-C5-W304
+design: aggravate
+track: B
+tier: T2b
+commandments: [C5, C6]
+anchors:
+  - 'WLC Q127 — "reverence in heart, word, and behavior"; "fidelity to, defense, and maintenance of their persons and authority"'
+  - 'WLC Q151 H3 — "deliberately, willfully, presumptuously" ↔ "frequently... continuance"'
+  - 'WLC Q152 — "Every sin, even the least, ... deserveth his wrath and curse"'
+stem: |
+  (a) Daniel's widowed mother asks him to be present the day she leaves the
+      family home of 45 years — a weighty, once occasion she plainly wants
+      shared. He consciously weighs it against a long-planned trip and
+      deliberately chooses the trip ("it's one day; she'll be fine"). Singular;
+      he otherwise honors her. (deliberateness engaged once, fully)
+  (b) After relocating, Grace simply stopped visiting her aging father — no
+      decision, no rupture, three years now; he is declining and lonely. "Each
+      skipped month individually felt like nothing." (continuance; never a
+      willful act)
+  Which is more heinous under the Q151 calculus — or does the calculus not
+  yield a confident ordering? Identify what aggravates each, and each one's
+  most telling element.
+# Gold key: the calculus declines a confident total order (incomparable).
+key: |
+  INCOMPARABLE. The Standards give no algebra to net one eyes-open refusal of a
+  clear duty-moment (a: willfulness at full engagement, once) against three years
+  of unexamined omission (b: continuance at full depth, zero moments of decision).
+  A full answer maps both profiles, declines false precision, and notes what each
+  tends toward. A confident total order scores 0 on ordering.
+gold_order: "declines total order"    # harness sentinel (extra field, preserved)
+rubric:
+  - {points: 1.5, criterion: "declines a confident total order, grounded in the willfulness-vs-continuance incommensurability", anchor: "WLC Q151 H3"}
+  - {points: 1, criterion: "(a) profile: deliberate/willful clause engaged precisely at the refused occasion; singularity as mitigating texture", anchor: "WLC Q127"}
+  - {points: 1.5, criterion: "(b) profile: continuance + Q127 maintenance-of-persons duty; 'no decision ever made' is what makes it worse than it feels, not exculpatory", anchor: "WLC Q127"}
+  - {points: 0.5, criterion: "no collapse to 'both equal'; the profiles differentiated"}
+  - {points: 0.5, criterion: "Q152 floor on both — neither the single refusal nor the drift graded no-fault", anchor: "WLC Q152"}
+difficulty_reservoir: >
+  ambiguity/miscalibration + omission-visibility inversion — drift has no lexical
+  surface, so models over-weight (a)'s explicit choice. Doubles as a
+  selective-abstention calibrator: declining an ORDERABLE set while ordering this
+  is inverted calibration.
+perturbations: [P2, P3, P1]
+failure_notes: |
+  Predicted: confident (a) ("he consciously chose to skip a milestone") from
+  deliberateness-salience; confident (b) ("three years >> one day") from
+  duration-arithmetic. Near-miss: declines but flattens to "both equally wrong",
+  losing the profile-difference keypoint.
+status: expanded
+author: opus

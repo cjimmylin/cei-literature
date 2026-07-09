@@ -9,8 +9,8 @@ Work top-down within the current cycle. Every task names its tier — dispatch s
 
 ## Cycle 1 — key-independent (start immediately)
 
-- [x] **1.1 Taxonomy codes (V2)** — DRAFTED 2026-07-09 (`20260709-taxonomy-stage4-codes-proposal.md`); application + 1.2 gated on **PR-01** (Jimmy). Fable adjudication FC-1…FC-4.
-- [ ] **1.2 Acquisitions (V1)** — **BLOCKED on PR-01 sign-off.** Execute `04-missing-literature.md` P1 table first (17 anchors), then P2 by gap group. `/download-pdf` pipeline; ⚠-flagged IDs: verify on arXiv before download; log misses. *Sonnet-tier batch work; rate-limit discipline per API standards.*
+- [x] **1.1 Taxonomy codes (V2)** — **COMPLETE 2026-07-09: PR-01 RESOLVED (Jimmy: all 5 approved, option (b))**; patch + Stage-3 mirror applied to `classification-logic.md` (v1.5 row), validation 0 errors. Fable adjudication FC-1…FC-4.
+- [ ] **1.2 Acquisitions (V1)** — **UNBLOCKED 2026-07-09; P1 batch (17 anchors) dispatched same session.** Then P2 by gap group. `/download-pdf` pipeline; ⚠-flagged IDs: verify on arXiv before download; log misses. *Sonnet-tier batch work; rate-limit discipline per API standards.*
 - [x] **1.3 `fairgold` toolkit (RP-02 O2, T2)** — DONE 2026-07-09 (`40-BUILDS/rp02-fairgold/`, 49/49 tests, verified in-session). A1–A6 ratified; **FC-6 rider binds O1** (ranking-level disaggregation = inclusion criterion).
 - [ ] **1.4 Position paper hardening (P3)** — draft-v0 DONE 2026-07-09 (`40-BUILDS/p3-position-paper/20260709-draft-v0.md`, 5,708 w, 0 VERIFIED / 23 SEARCH-CONFIRMED / 47 ⚠, ledgered; Fable screening FC-13…FC-15). Remains open: FC-15 spec-citation upgrade via RP-01 registries → 1.2-driven ledger upgrades (after PR-01) → pre-submission review before ANY external use.
 - [x] **1.5 RP-04 O1 prep** — DONE 2026-07-09 (`40-BUILDS/rp04-corpus/`). **Headline: 0 real-model responses; RP-04 P2 fully key-gated** (FC-7). Strata + holdout rulings FC-8/FC-9; source-path erratum FC-10 (pilots live under `COOKBOOK/40-BIBLEBENCH/`).

@@ -303,6 +303,21 @@ def test_greene_fallback_arm_fail_loud_when_missing():
         orch.run()
 
 
+def test_d14_load_injected_fails_loud_without_authored_prompt():
+    """WS-1 D14: the generic load suffix ('count sentences') is incompatible with the R-2 load-
+    compliance coder ([6,3,8,2,5] rotation); a load_injected cell with no authored prompt must
+    FAIL LOUD, not silently substitute the generic suffix (which would mis-code every cell)."""
+    item = {"item_id": "X", "text": "STEM", "axis": "process"}  # no condition_prompts
+    orch = Orchestrator(
+        adapters={"anthropic": fx.FakeAdapter("anthropic")},
+        models=[{"id": "m", "vendor": "anthropic"}], item_bank=[item],
+        conditions=["load_injected"], scorer=fx.fake_scorer, reps=1, temperature=0.7,
+        strict_prompts=True,   # a real P0 run
+    )
+    with pytest.raises(ValueError):
+        orch.run()
+
+
 # --- WS-1 D11: seeds must be stable ACROSS processes (hashlib digest, not builtin hash()) -----
 
 def test_seed_for_stable_across_processes():

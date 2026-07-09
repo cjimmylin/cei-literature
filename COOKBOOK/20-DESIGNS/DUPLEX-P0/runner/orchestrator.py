@@ -235,6 +235,7 @@ class Orchestrator:
         stance_scale: Tuple[float, float] = (1.0, 5.0),
         frames: Optional[List[Optional[str]]] = None,
         administer_greene_fallback: bool = False,
+        strict_prompts: bool = False,
     ):
         if temperature <= 0:
             raise ValueError("temperature must be > 0 (design §3/§7 require temperature>0).")
@@ -253,6 +254,10 @@ class Orchestrator:
         self.frames: List[Optional[str]] = list(frames) if frames else [None]
         # Administer the M3 greene_fallback_prompt as a real arm for greene_subset items (WS-1 D2).
         self.administer_greene_fallback = administer_greene_fallback
+        # WS-1 D14: a real P0 run sets strict_prompts=True so a missing authored load_injected
+        # prompt fails loud instead of substituting the compliance-incompatible generic suffix.
+        # (Left False by default so the synthetic load-compliance-coder tests keep working.)
+        self.strict_prompts = strict_prompts
         # Pre-registered 1..5 stance ordinal (g3 mini-norm §2 / IB-5); used to reflect
         # affirmative_preserve raw scores onto the common intervene axis (R-1 / WS-1 D9).
         self.stance_scale = stance_scale
@@ -265,7 +270,7 @@ class Orchestrator:
     @staticmethod
     def render_prompt(
         item: Dict[str, Any], cfg: Dict[str, Any], condition: Optional[str] = None,
-        frame: Optional[str] = None, embed_idx: int = 0,
+        frame: Optional[str] = None, embed_idx: int = 0, strict_prompts: bool = False,
     ) -> str:
         # The greene_fallback arm (WS-1 D2) renders the item's greene_fallback_prompt verbatim.
         if condition == GREENE_FALLBACK_CONDITION:
@@ -281,6 +286,14 @@ class Orchestrator:
             cond_prompts = item.get("condition_prompts") or {}
             if condition and cond_prompts.get(condition):
                 base = cond_prompts[condition]
+            elif condition == "load_injected" and strict_prompts:
+                # D14: the generic load suffix ("count sentences") does NOT match the R-2 compliance
+                # coder ([6,3,8,2,5] rotation); substituting it silently would make every
+                # load_injected cell mis-coded. In a real run (strict_prompts) fail loud instead.
+                raise ValueError(
+                    f"item {item.get('item_id')!r} has no authored load_injected prompt; the "
+                    "generic suffix is incompatible with the R-2 load-compliance coder (WS-1 D14)."
+                )
             else:
                 base = item.get("text", "") + cfg.get("prompt_suffix", "")
         # Monitoring frame (X3) is an orthogonal wrapper applied ON TOP of the resource prompt.
@@ -326,7 +339,7 @@ class Orchestrator:
         self, item, item_id, axis, model, vendor, condition, cfg, seed, rep,
         frame=None, embed_idx=0,
     ) -> Dict[str, Any]:
-        prompt = self.render_prompt(item, cfg, condition, frame, embed_idx)
+        prompt = self.render_prompt(item, cfg, condition, frame, embed_idx, self.strict_prompts)
         result = self.adapters[vendor].administer(
             prompt=prompt,
             model_id=model["id"],
@@ -375,6 +388,8 @@ class Orchestrator:
             # greene_subset -> G3 subset filter; stance_polarity -> reverse-scoring key.
             "stance_polarity": item.get("stance_polarity"),
             "greene_subset": bool(item.get("greene_subset")),
+            "content_tags": item.get("content_tags"),          # IB-3(a) within-domain sensitivity
+            "is_discriminant_control": bool(item.get("is_discriminant_control")),  # IB-5 controls
             "resource_condition": condition,
             "monitoring_frame": frame,   # X3 factor (WS-1 D8); None on an unframed run
             "seed": seed,

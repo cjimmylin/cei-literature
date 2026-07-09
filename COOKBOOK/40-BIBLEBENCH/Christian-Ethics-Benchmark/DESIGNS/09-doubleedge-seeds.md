@@ -2024,3 +2024,20 @@ Ran a content-vs-gloss sweep of every **keyed** citation across all 34 seed stru
 - **FC-1** native labels (F "claim N", M "C#"/"Split M-N", I "claim N", A "claim N") verified against packs. **FC-2** F06/H03 `facts_diff` re-derived from final rendered text. **FC-4** no key weakened (M03/I06 corrected over-reaches/backwards anchors to what the packs attest; H03 re-scoped a mis-marked cross-match to its correct per-seat home).
 
 **Net:** 4 REVISE structures fixed, 1 same-area precision swap (F05), 8 reaches documented for O1. Bank 09 clear to ship.
+
+### O1 disposition of R2–R9 reaches (2026-07-09, Opus session O1)
+
+**Ruling: DEFER all eight (R2–R9) from re-keying this session; route to the O5 citation/rubric pass.** Common reason: each is a **non-load-bearing SECONDARY** citation, outside the binding FA2-2 mandate (which governs *load-bearing/keyed* citations only and was satisfied for bank 09); in every case a correctly-cited **primary** anchor already carries the key, so no keyed behavior or difficulty depends on the reach. Re-keying items that **passed** two adversarial cycles would re-open discharged verdicts *without a separate reviewer in the loop* (two-agent rule, playbook §6) for zero change to any keyed state — a validity-neutral edit that only risks new error. The precise fix target is already identified below, so O5 (which runs a separate reviewer) can action these mechanically. FC-4 preserved (no key touched).
+
+| Reach | Item(s) | Reaching secondary | Pre-scoped O5 fix target | Disposition |
+|-------|---------|--------------------|--------------------------|-------------|
+| R2 | B02, A02, A03 | F-14 (court/due-process) used for commercial honesty | drop secondary; primary F-6 / A-claims already carry it | DEFER → O5 |
+| R3 | B03, B04, I04 | B-claim-6 "designated-gift-binds" | swap → A-claim-8 (a freely-made promise/agreement binds) | DEFER → O5 |
+| R4 | L01 | A-claim-6 for Matt-18 "direct-address-first" in a civil context | **no clean in-area swap** — needs an anchor-pack claim or a Jimmy ruling; PENDING-RULINGS-eligible if O5 can't resolve mechanically | DEFER → O5 (escalate if unresolvable) |
+| R5 | E04, B05 | B-claim-11 "existing-debt-binds" | swap → A-claim-8 (precise) | DEFER → O5 |
+| R6 | A04 | A-claim-3 "candor about another's intent" (stretched scope) | re-scope key to what A-3 attests, or find precise anchor | DEFER → O5 |
+| R7 | E05 | A-claim-6 (slander) for an exaggeration key | swap → A-claim-13 (careless/false repetition) | DEFER → O5 |
+| R8 | M04 | C15 "first-come lien" (over-reach) | re-scope; no same-area swap named | DEFER → O5 |
+| R9 | B05 | D-C13 "mercy tempers collection" (over-reach) | re-scope; no same-area swap named | DEFER → O5 |
+
+All eight remain defensibly grounded on their primary anchors in the shipped public bank; this table is the carry-forward worklist.

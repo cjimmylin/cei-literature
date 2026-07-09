@@ -223,6 +223,86 @@ def test_refusal_is_flagged_when_scorer_returns_no_stance():
     assert rec["refusal_category"] == "no_stance"
 
 
+# --- WS-1 D8: monitoring frames (X3) as a first-class factor + greene fallback arm (D2) --------
+
+def test_frame_wrappers_match_bank_builder():
+    """runner/frames.py duplicates the bank builder's monitored/unmonitored wrappers so the runner
+    stays self-contained; they MUST NOT drift from items/build_p0_item_bank.py (source of truth)."""
+    import importlib.util
+    import runner.frames as rf
+    build_path = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "items", "build_p0_item_bank.py",
+    )
+    spec = importlib.util.spec_from_file_location("bank_builder", build_path)
+    bank = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(bank)
+    assert rf.MONITORED_PREPEND == bank.MONITORED_PREPEND
+    assert rf.EMBED_FRAMES == bank.EMBED_FRAMES
+
+
+def test_orchestrator_renders_both_monitoring_frames():
+    """WS-1 D8: the orchestrator must render the monitored/unmonitored frames (X3), not iterate
+    resource conditions only. Records carry monitoring_frame; the monitored prompt carries the
+    evaluation-notice prepend; cells cross condition × frame (5×2 factorial for the full run)."""
+    item = {"item_id": "X", "text": "BASE", "axis": "process"}
+    adapter = fx.FakeAdapter("anthropic")
+    orch = Orchestrator(
+        adapters={"anthropic": adapter}, models=[{"id": "m", "vendor": "anthropic"}],
+        item_bank=[item], conditions=["standard"], frames=["monitored", "unmonitored"],
+        scorer=fx.fake_scorer, reps=1, temperature=0.7,
+    )
+    recs = orch.run()
+    assert {r["monitoring_frame"] for r in recs} == {"monitored", "unmonitored"}
+    monitored = [c["prompt"] for c in adapter.calls if c["prompt"].startswith("[EVALUATION NOTICE]")]
+    assert len(monitored) == 1                       # exactly one monitored cell
+    assert len(recs) == 2                            # 1 item × 1 model × 1 cond × 2 frames × 1 rep
+
+
+def test_frame_seeds_distinct_so_checkpoint_separates_frames():
+    """A monitored and an unmonitored cell of the same (item,model,condition,rep) must get DISTINCT
+    seeds; otherwise the checkpoint would treat them as one cell and resume would drop a frame.
+    Back-compat: the frame=None seed is byte-identical to the frame-less signature (WS-1 D11)."""
+    s_mon = seed_for(20260706, "X", "m", "standard", 0, frame="monitored")
+    s_unmon = seed_for(20260706, "X", "m", "standard", 0, frame="unmonitored")
+    assert s_mon != s_unmon
+    assert seed_for(20260706, "X", "m", "standard", 0, frame=None) == \
+        seed_for(20260706, "X", "m", "standard", 0)
+
+
+def test_greene_fallback_arm_administered_for_greene_items():
+    """WS-1 D2: the M3 greene_fallback_prompt must be administered as a REAL arm for greene_subset
+    items (the fallback branch was previously dead). A greene item gets an extra administration on
+    resource_condition 'greene_fallback' whose prompt IS the item's greene_fallback_prompt."""
+    item = {"item_id": "G", "text": "BASE", "axis": "process", "greene_subset": True,
+            "greene_fallback_prompt": "FALLBACK PROMPT TEXT"}
+    adapter = fx.FakeAdapter("anthropic")
+    orch = Orchestrator(
+        adapters={"anthropic": adapter}, models=[{"id": "m", "vendor": "anthropic"}],
+        item_bank=[item], conditions=["extended_thinking"],
+        scorer=fx.fake_scorer, reps=1, temperature=0.7, administer_greene_fallback=True,
+    )
+    recs = orch.run()
+    fb = [r for r in recs if r["resource_condition"] == "greene_fallback"]
+    assert len(fb) == 1
+    assert any(c["prompt"] == "FALLBACK PROMPT TEXT" for c in adapter.calls)
+
+
+def test_greene_fallback_arm_fail_loud_when_missing():
+    """WS-1 D2: 'NO silent degrade — fail loud if the arm is absent.' A greene_subset item with no
+    greene_fallback_prompt must raise, not silently skip the fallback arm."""
+    item = {"item_id": "G", "text": "BASE", "axis": "process", "greene_subset": True,
+            "greene_fallback_prompt": None}
+    orch = Orchestrator(
+        adapters={"anthropic": fx.FakeAdapter("anthropic")},
+        models=[{"id": "m", "vendor": "anthropic"}],
+        item_bank=[item], conditions=["extended_thinking"],
+        scorer=fx.fake_scorer, reps=1, temperature=0.7, administer_greene_fallback=True,
+    )
+    with pytest.raises(ValueError):
+        orch.run()
+
+
 # --- WS-1 D11: seeds must be stable ACROSS processes (hashlib digest, not builtin hash()) -----
 
 def test_seed_for_stable_across_processes():

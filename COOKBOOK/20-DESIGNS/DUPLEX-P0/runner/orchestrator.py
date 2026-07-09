@@ -22,6 +22,9 @@ from statistics import stdev
 from typing import Any, Callable, Dict, Iterable, List, Optional, Tuple
 
 from .adapters import BaseAdapter, detect_refusal
+from .frames import apply_frame, EMBED_FRAMES
+
+GREENE_FALLBACK_CONDITION = "greene_fallback"
 
 # Scorer: (response_text, item, subject_vendor) -> stance judgment on the item's own affirmative
 # pole (higher = more agreement), or None when NO stance is scoreable. A None return is the
@@ -157,16 +160,25 @@ def apply_stance_polarity(
     return float(raw)
 
 
-def seed_for(base_seed: int, item_id: str, model_id: str, condition: str, rep: int) -> int:
+def seed_for(
+    base_seed: int, item_id: str, model_id: str, condition: str, rep: int,
+    frame: Optional[str] = None,
+) -> int:
     """Deterministic, distinct-per-rep seed. Stable across runs so checkpoints line up.
 
     Uses a hashlib SHA-256 digest of the cell identity rather than the builtin ``hash()``:
     ``hash()`` on strings/tuples is randomized per process by PYTHONHASHSEED, which would make
     the seed (and therefore the checkpoint key) differ between processes and silently defeat
     idempotent resume (WS-1 D11). SHA-256 is process-stable.
+
+    The monitoring `frame` (WS-1 D8) is folded into the digest ONLY when present, so distinct
+    frames get distinct seeds (and distinct checkpoint keys), while a frame-less call is
+    byte-identical to the original signature (no disturbance to non-framed runs).
     """
-    key = f"{item_id}\x1f{model_id}\x1f{condition}".encode("utf-8")
-    h = int.from_bytes(hashlib.sha256(key).digest()[:8], "big") % 100000
+    key = f"{item_id}\x1f{model_id}\x1f{condition}"
+    if frame:
+        key += f"\x1f{frame}"
+    h = int.from_bytes(hashlib.sha256(key.encode("utf-8")).digest()[:8], "big") % 100000
     return int(base_seed) * 1000 + h * 100 + rep
 
 
@@ -221,6 +233,8 @@ class Orchestrator:
         out_path: Optional[str] = None,
         checkpoint: Optional[Checkpoint] = None,
         stance_scale: Tuple[float, float] = (1.0, 5.0),
+        frames: Optional[List[Optional[str]]] = None,
+        administer_greene_fallback: bool = False,
     ):
         if temperature <= 0:
             raise ValueError("temperature must be > 0 (design §3/§7 require temperature>0).")
@@ -234,6 +248,11 @@ class Orchestrator:
         self.reps = reps
         self.temperature = temperature
         self.base_seed = base_seed
+        # Monitoring frames (X3, WS-1 D8): None -> the neutral, unframed run (back-compat); a list
+        # like ["monitored","unmonitored"] crosses each resource condition with each frame.
+        self.frames: List[Optional[str]] = list(frames) if frames else [None]
+        # Administer the M3 greene_fallback_prompt as a real arm for greene_subset items (WS-1 D2).
+        self.administer_greene_fallback = administer_greene_fallback
         # Pre-registered 1..5 stance ordinal (g3 mini-norm §2 / IB-5); used to reflect
         # affirmative_preserve raw scores onto the common intervene axis (R-1 / WS-1 D9).
         self.stance_scale = stance_scale
@@ -245,14 +264,27 @@ class Orchestrator:
 
     @staticmethod
     def render_prompt(
-        item: Dict[str, Any], cfg: Dict[str, Any], condition: Optional[str] = None
+        item: Dict[str, Any], cfg: Dict[str, Any], condition: Optional[str] = None,
+        frame: Optional[str] = None, embed_idx: int = 0,
     ) -> str:
-        # Prefer the authored per-condition prompt (resource_condition_variants) when present;
-        # otherwise fall back to the item stem + the generic condition suffix.
-        cond_prompts = item.get("condition_prompts") or {}
-        if condition and cond_prompts.get(condition):
-            return cond_prompts[condition]
-        return item.get("text", "") + cfg.get("prompt_suffix", "")
+        # The greene_fallback arm (WS-1 D2) renders the item's greene_fallback_prompt verbatim.
+        if condition == GREENE_FALLBACK_CONDITION:
+            base = item.get("greene_fallback_prompt")
+            if not base:
+                raise ValueError(
+                    f"greene_subset item {item.get('item_id')!r} has no greene_fallback_prompt; "
+                    "cannot administer the M3 fallback arm (WS-1 D2: fail loud, no silent degrade)."
+                )
+        else:
+            # Prefer the authored per-condition prompt (resource_condition_variants) when present;
+            # otherwise fall back to the item stem + the generic condition suffix.
+            cond_prompts = item.get("condition_prompts") or {}
+            if condition and cond_prompts.get(condition):
+                base = cond_prompts[condition]
+            else:
+                base = item.get("text", "") + cfg.get("prompt_suffix", "")
+        # Monitoring frame (X3) is an orthogonal wrapper applied ON TOP of the resource prompt.
+        return apply_frame(base, frame, embed_idx)
 
     # -- main loop ----------------------------------------------------------
 
@@ -261,30 +293,40 @@ class Orchestrator:
         for item in self.item_bank:
             item_id = item["item_id"]
             axis = item.get("axis", "process")
+            # stable per-item rotation index for the unmonitored embed (matches the bank builder's
+            # per-item rotation intent; deterministic across processes).
+            embed_idx = int.from_bytes(
+                hashlib.sha256(str(item_id).encode("utf-8")).digest()[:2], "big"
+            ) % len(EMBED_FRAMES)
+            conditions = list(self.conditions)
+            if self.administer_greene_fallback and item.get("greene_subset"):
+                conditions.append(GREENE_FALLBACK_CONDITION)  # WS-1 D2: real M3 fallback arm
             for model in self.models:
                 vendor = model["vendor"]
-                adapter = self.adapters[vendor]
-                for condition in self.conditions:
+                for condition in conditions:
                     cfg = condition_config(condition)
-                    for rep in range(self.reps):
-                        seed = seed_for(
-                            self.base_seed, item_id, model["id"], condition, rep
-                        )
-                        key = cell_key(item_id, model["id"], condition, seed)
-                        if self.checkpoint.is_done(key):
-                            continue
-                        rec = self._administer_one(
-                            item, item_id, axis, model, vendor, condition, cfg, seed, rep
-                        )
-                        self._emit(rec)
-                        self.checkpoint.mark(key)
-                        records.append(rec)
+                    for frame in self.frames:
+                        for rep in range(self.reps):
+                            seed = seed_for(
+                                self.base_seed, item_id, model["id"], condition, rep, frame=frame
+                            )
+                            key = cell_key(item_id, model["id"], condition, seed)
+                            if self.checkpoint.is_done(key):
+                                continue
+                            rec = self._administer_one(
+                                item, item_id, axis, model, vendor, condition, cfg,
+                                seed, rep, frame, embed_idx,
+                            )
+                            self._emit(rec)
+                            self.checkpoint.mark(key)
+                            records.append(rec)
         return records
 
     def _administer_one(
-        self, item, item_id, axis, model, vendor, condition, cfg, seed, rep
+        self, item, item_id, axis, model, vendor, condition, cfg, seed, rep,
+        frame=None, embed_idx=0,
     ) -> Dict[str, Any]:
-        prompt = self.render_prompt(item, cfg, condition)
+        prompt = self.render_prompt(item, cfg, condition, frame, embed_idx)
         result = self.adapters[vendor].administer(
             prompt=prompt,
             model_id=model["id"],
@@ -334,6 +376,7 @@ class Orchestrator:
             "stance_polarity": item.get("stance_polarity"),
             "greene_subset": bool(item.get("greene_subset")),
             "resource_condition": condition,
+            "monitoring_frame": frame,   # X3 factor (WS-1 D8); None on an unframed run
             "seed": seed,
             "rep": rep,
             "raw_score": raw_score,

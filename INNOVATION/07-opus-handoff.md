@@ -9,12 +9,12 @@ Work top-down within the current cycle. Every task names its tier — dispatch s
 
 ## Cycle 1 — key-independent (start immediately)
 
-- [ ] **1.1 Taxonomy codes (V2)** — add Stage-4 research-topic codes for: specification, scalable-oversight, aggregation/social-choice, value-formation/EM, multi-agent-dynamics. Touch `classification-logic.md` standard via a new dated proposal file + Jimmy sign-off (it's a standards file). *Sonnet drafts, Opus verifies.* **Do this before 1.2 or the new papers vanish into old categories.**
-- [ ] **1.2 Acquisitions (V1)** — execute `04-missing-literature.md` P1 table first (17 anchors), then P2 by gap group. `/download-pdf` pipeline; ⚠-flagged IDs: verify on arXiv before download; log misses. *Sonnet-tier batch work; rate-limit discipline per API standards.*
-- [ ] **1.3 `fairgold` toolkit (RP-02 O2, T2)** — pure-computation rescoring engine + rule test suite. *Opus builds from the brief; no keys needed.*
-- [ ] **1.4 Position paper hardening (P3)** — `01-field-map-2026.md` + `02-gap-atlas.md` → external position-paper draft; replace sweep-level citations with verified ones from 1.2's downloaded PDFs. *Opus (manuscript-drafter agent). Fable-tier review before any submission.*
-- [ ] **1.5 RP-04 O1 prep** — assemble frozen response corpus from existing pilot outputs (FRUITBENCH THORNS, DIMGLASS exemplars, SERMONMOUNT WITNESS); design re-scoring matrix. *Opus.*
-- [ ] **1.6 RP-01 O1** — spec clause registries from the two public specs (fetch current versions; note version stamps). *Sonnet extracts, Opus verifies against the brief's registry spec.*
+- [x] **1.1 Taxonomy codes (V2)** — DRAFTED 2026-07-09 (`20260709-taxonomy-stage4-codes-proposal.md`); application + 1.2 gated on **PR-01** (Jimmy). Fable adjudication FC-1…FC-4.
+- [ ] **1.2 Acquisitions (V1)** — **BLOCKED on PR-01 sign-off.** Execute `04-missing-literature.md` P1 table first (17 anchors), then P2 by gap group. `/download-pdf` pipeline; ⚠-flagged IDs: verify on arXiv before download; log misses. *Sonnet-tier batch work; rate-limit discipline per API standards.*
+- [x] **1.3 `fairgold` toolkit (RP-02 O2, T2)** — DONE 2026-07-09 (`40-BUILDS/rp02-fairgold/`, 49/49 tests, verified in-session). A1–A6 ratified; **FC-6 rider binds O1** (ranking-level disaggregation = inclusion criterion).
+- [ ] **1.4 Position paper hardening (P3)** — draft-v0 dispatched 2026-07-09 (`40-BUILDS/p3-position-paper/`); citations tagged by evidence class. Remains open: citation upgrade after 1.2 + Fable-tier/Jimmy review before ANY external use.
+- [x] **1.5 RP-04 O1 prep** — DONE 2026-07-09 (`40-BUILDS/rp04-corpus/`). **Headline: 0 real-model responses; RP-04 P2 fully key-gated** (FC-7). Strata + holdout rulings FC-8/FC-9; source-path erratum FC-10 (pilots live under `COOKBOOK/40-BIBLEBENCH/`).
+- [x] **1.6 RP-01 O1** — DONE 2026-07-09 (`40-BUILDS/rp01-registries/`; Model Spec 2025-12-18 = 66 clauses, Constitution 2026-01 = 49; VERIFIED-class, SHA-256 stamped). Riders: FC-11 (O2 scores from anchors, not excerpts), FC-12 (re-verify currency at O2 start).
 
 ## Cycle 2 — keys arrive (Jimmy gate)
 
@@ -28,6 +28,7 @@ Work top-down within the current cycle. Every task names its tier — dispatch s
 - [ ] **3.2 RP-09 SEISMOGRAPH O1–O3** — trait-coverage matrix; short-form extraction + equivalence pilot; organism acquisition (needs GPU-inference budget sign-off — Jimmy gate). *Opus + Sonnet inventory.*
 - [ ] **3.3 RP-01 O2–O3** — conflict/ambiguity harness + human-verification sample design (rater sourcing = Jimmy gate). *Opus.*
 - [ ] **3.4 COOKBOOK cross-links (V3)** — new dated pointer notes in COOKBOOK (never edit existing reports); S1/S3 upgrade-path notes referencing RP-05/RP-10. *Sonnet.*
+- [ ] **3.5 Stage-4 vocabulary reconciliation** *(added 2026-07-09, Fable FC-2)* — documented Stage-4 list vs live `research_topic` usage are out of sync ("Benchmarks & Datasets" used 0×; ≥8 live codes undocumented — see taxonomy proposal §9.2). New dated proposal + Jimmy sign-off (standards file). *Sonnet inventory, Opus proposal.*
 
 ## Cycle 4+ — long poles (start when their gates clear)
 

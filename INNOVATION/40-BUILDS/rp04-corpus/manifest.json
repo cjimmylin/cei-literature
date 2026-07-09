@@ -1,0 +1,154 @@
+{
+  "corpus": "RP-04 HIDDENCURRICULUM — frozen response corpus (Phase 1 dogfood)",
+  "assembled": "2026-07-09",
+  "assembled_by": "Opus session (item 1.5 of INNOVATION/07-opus-handoff.md)",
+  "source_repo_git_head": "1fbda2815bd7c63d1b072a6d0312a8e68c2273aa",
+  "source_git_state": "sources tracked/committed at HEAD above; copied read-only, never moved or modified",
+  "provenance_classes": {
+    "real-model": "actual API/frontier-model completions",
+    "synthetic-mock": "deterministic simulator output (SyntheticModel / MockModelClient); harness-validation ONLY — can validate re-scoring MACHINERY, can NEVER enter judge-bias measurement as model behavior",
+    "human-authored-stimulus": "hand-authored scenario prompts / items presented TO a model (not responses)",
+    "human-authored-key": "hand-authored gold rubric / scoring keys",
+    "synthetic-generated-stimulus": "parametrically generated scenario prompts (generator script, not a model)",
+    "derived-synthetic": "statistics/aggregates derived from synthetic-mock outputs"
+  },
+  "headline": "0 re-scoreable REAL model responses. The only real-model behavior (THORNS N=4 probe) was hand-scored and its verbatim text was NOT saved, so it cannot be re-scored. Every response-level record on disk is synthetic-mock. The corpus is therefore, today, a MACHINERY-VALIDATION corpus plus a frozen STIMULUS set for Cycle-2 generation — not a judge-bias measurement corpus.",
+  "entries": [
+    {
+      "id": "thorns-synth-results-v1",
+      "source_project": "FRUITBENCH-v2 / THORNS (design 02)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/PILOTS/thorns/20260706-pilot-results.json",
+      "frozen_path": "frozen/thorns/20260706-pilot-results.json",
+      "provenance": "derived-synthetic",
+      "records": "180 aggregate rows (60 calib + 60 ev + 40 held + 20 cells)",
+      "linkage": "aggregated over SyntheticModel runs on thorns bank items; NO raw response text stored",
+      "rescoreable": false,
+      "note": "aggregate rates only; G1 aggregation unresolved (pre-Fable-ruling run)"
+    },
+    {
+      "id": "thorns-synth-results-v2",
+      "source_project": "FRUITBENCH-v2 / THORNS (design 02)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/PILOTS/thorns/20260706b-synthetic-pilot-results.json",
+      "frozen_path": "frozen/thorns/20260706b-synthetic-pilot-results.json",
+      "provenance": "derived-synthetic",
+      "records": "180 aggregate rows",
+      "linkage": "re-run under Fable-ratified gate config (attacker-primary G1, 100% G3); flags dead-CFT thorns-craving-002",
+      "rescoreable": false
+    },
+    {
+      "id": "thorns-real-probe-n4",
+      "source_project": "FRUITBENCH-v2 / THORNS (design 02)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/PILOTS/thorns/20260706-p1-pilot-report.md §3",
+      "frozen_path": "frozen/thorns/REAL-probe-N4.json",
+      "provenance": "real-model",
+      "records": "4 hand-scored probes (R1-R4), single-vendor",
+      "linkage": "items thorns-envy-002 x2, thorns-craving-001, thorns-retaliate-003",
+      "rescoreable": false,
+      "note": "VERBATIM RESPONSE TEXT NOT SAVED — only path label + human note. The only real-model behavior in the corpus, but not re-scoreable. Qualitative provenance anchor."
+    },
+    {
+      "id": "thorns-bank-60",
+      "source_project": "FRUITBENCH-v2 / THORNS (design 02)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/*.yaml",
+      "frozen_path": "frozen/thorns/bank/",
+      "provenance": "human-authored-stimulus",
+      "records": "60 scenario items (3 x 20 priority cells)",
+      "linkage": "each paired to a gold key by id; canary in every prompt",
+      "rescoreable": "stimulus — generates responses in Cycle 2, then re-scoreable"
+    },
+    {
+      "id": "thorns-gold-60",
+      "source_project": "FRUITBENCH-v2 / THORNS (design 02)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/*.gold.yaml",
+      "frozen_path": "frozen/thorns/gold/",
+      "provenance": "human-authored-key",
+      "records": "60 gold rubric keys (fruit/vice/cft marker paths)",
+      "linkage": "1:1 with bank items by id"
+    },
+    {
+      "id": "thorns-pilot-report",
+      "source_project": "FRUITBENCH-v2 / THORNS (design 02)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/PILOTS/thorns/20260706-p1-pilot-report.md",
+      "frozen_path": "frozen/thorns/20260706-p1-pilot-report.md",
+      "provenance": "documentation",
+      "records": "1 report",
+      "linkage": "authoritative REAL-vs-SYNTHETIC provenance ledger for THORNS; source of the N=4 probe"
+    },
+    {
+      "id": "dimglass-seeds-public-30",
+      "source_project": "CORINTHLOVE-v2 / DIMGLASS (design 09)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/CORINTHLOVE-v2/BANKS/09-dimglass/seeds_public.yaml",
+      "frozen_path": "frozen/dimglass/seeds_public.yaml",
+      "provenance": "synthetic-generated-stimulus",
+      "records": "30 public episodes (multiturn_script stages 1-4)",
+      "linkage": "generator.py --seed 20260706; scoring keys in ground_truth.json by id",
+      "rescoreable": "stimulus — prompts only, no responses; generates responses in Cycle 2"
+    },
+    {
+      "id": "dimglass-ground-truth",
+      "source_project": "CORINTHLOVE-v2 / DIMGLASS (design 09)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/CORINTHLOVE-v2/BANKS/09-dimglass/sidecar/ground_truth.json",
+      "frozen_path": "frozen/dimglass/ground_truth.json",
+      "provenance": "synthetic-generated-key",
+      "records": "1026 scoring keys (gt_token / lure_token / hidden_labels)",
+      "linkage": "keyed by episode id; enables mechanical scoring of a model's FINAL: answer"
+    },
+    {
+      "id": "dimglass-mock-scored",
+      "source_project": "CORINTHLOVE-v2 / DIMGLASS (design 09)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/CORINTHLOVE-v2/BANKS/09-dimglass/export/scored_runs.MOCK.jsonl",
+      "frozen_path": "frozen/dimglass/scored_runs.MOCK.jsonl",
+      "provenance": "synthetic-mock",
+      "records": "80 rows (fictional mock-model-A, grade labels only, NO response text)",
+      "linkage": "80-episode subset of episode_table.jsonl",
+      "rescoreable": false,
+      "note": "grades only, no completions; harness-validation demo"
+    },
+    {
+      "id": "dimglass-episode-table",
+      "source_project": "CORINTHLOVE-v2 / DIMGLASS (design 09)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/CORINTHLOVE-v2/BANKS/09-dimglass/export/episode_table.jsonl",
+      "frozen_path": "frozen/dimglass/episode_table.jsonl",
+      "provenance": "synthetic-generated-stimulus",
+      "records": "80 episode rows (megamatrix export demo subset)",
+      "linkage": "flat export of a subset of the 1026 bank"
+    },
+    {
+      "id": "witness-scored-10350",
+      "source_project": "SERMONMOUNT-v2 / WITNESS (design 09)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/SERMONMOUNT-v2/DESIGNS/09-witness/pilots/20260706-p1-run/scored.jsonl",
+      "frozen_path": "frozen/witness/scored.jsonl",
+      "provenance": "synthetic-mock",
+      "records": "10350 response-level rows (model in {mock-alpha, mock-beta, mock-gamma})",
+      "linkage": "keyed to renderings.jsonl item ids; carries pole + gold + scored signal per (model,item,rep,monitored)",
+      "rescoreable": "MACHINERY-ONLY — richest response-level structure in the corpus; use to validate the re-scoring pipeline, NEVER as model behavior",
+      "note": "MockModelClient deterministic simulator; both AnthropicClient and CodexClient raise NotImplementedError; 0 real rows"
+    },
+    {
+      "id": "witness-renderings-240",
+      "source_project": "SERMONMOUNT-v2 / WITNESS (design 09)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/SERMONMOUNT-v2/DESIGNS/09-witness/itembank/renderings.jsonl",
+      "frozen_path": "frozen/witness/renderings.jsonl",
+      "provenance": "human-authored-stimulus",
+      "records": "240 model-facing prompts (30 cores x 4 modalities END/REC/GEN/ACT x 2 skins)",
+      "linkage": "expanded from cores.jsonl; each carries scoring_key + canary",
+      "rescoreable": "stimulus — generates responses in Cycle 2"
+    },
+    {
+      "id": "witness-cores-30",
+      "source_project": "SERMONMOUNT-v2 / WITNESS (design 09)",
+      "source_path": "COOKBOOK/40-BIBLEBENCH/SERMONMOUNT-v2/DESIGNS/09-witness/itembank/cores.jsonl",
+      "frozen_path": "frozen/witness/cores.jsonl",
+      "provenance": "human-authored-stimulus",
+      "records": "30 scenario cores (10 S-IDs x 3, 6 holdout)",
+      "linkage": "provenance='hand-authored (Opus build 2026-07-06); registry-anchored'; 33% reverse-keyed"
+    }
+  ],
+  "not_copied_referenced_only": [
+    {
+      "source_path": "COOKBOOK/40-BIBLEBENCH/CORINTHLOVE-v2/BANKS/09-dimglass/episodes/private_bank.yaml",
+      "reason": "996 private/holdout episodes (1.9 MB). Deliberately NOT frozen into INNOVATION to preserve the contamination/holdout split. Public seeds (30) copied as the representative frozen stimulus sample; ground_truth.json (all 1026 keys) copied for completeness.",
+      "provenance": "synthetic-generated-stimulus"
+    }
+  ]
+}

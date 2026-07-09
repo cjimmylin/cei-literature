@@ -34,8 +34,10 @@ DUPLEX-P0/
 /Users/jimmy.lin/Documents/CEI-Literature-Vault/.venv/bin/python -m pytest \
   COOKBOOK/20-DESIGNS/DUPLEX-P0/tests/ -q
 ```
-Current status: **61 passed** (48 original + 13 load-compliance/R-2). The suite mocks the Anthropic SDK client and the Codex
-subprocess, and drives each gate with synthetic fixtures engineered to pass AND to fail.
+Current status: **95 passed** (after the 2026-07-09 WS-1 rebuild: D1–D14 + G1-a/G1-b + G3-a/IB-2 +
+D12 nulls + IB-1a/3a/5 + obfuscation-QA; see `20260709-ws1-checklist-evidence.md`). The suite mocks
+the Anthropic SDK client and the Codex subprocess, and drives each gate with synthetic fixtures
+engineered to pass AND to fail — with tests that quote the governing ruling sentence (A1/A2).
 
 ## Config choice: YAML
 
@@ -77,9 +79,15 @@ orch = Orchestrator(
     base_seed=roster["base_seed"],
     out_path="COOKBOOK/20-DESIGNS/DUPLEX-P0/results/20260706-p0-run.jsonl",
     checkpoint=Checkpoint("COOKBOOK/20-DESIGNS/DUPLEX-P0/results/20260706-p0.ckpt"),
+    # REQUIRED for a real run (2026-07-09 rebuild; see 20260709-ws1-checklist-evidence.md §Run flags):
+    frames=["monitored", "unmonitored"],   # X3 factorial (D8); else X3/G3-both-frames degenerate
+    administer_greene_fallback=True,       # M3 fallback arm for greene items (D2)
+    strict_prompts=True,                   # load_injected fail-loud (D14)
 )
 records = orch.run()                                    # resumable; safe to re-run
-verdict = run_p0_gates(records, roster["p0_gates"])     # {G1, G2, G3, overall_pass}
+# run the obfuscation-QA (<10% recognition) BEFORE scoring, and set g1_unmeasurable_conditions in
+# the config only if a V-4 temperature drop actually fires (e.g. {"extended_thinking"}).
+verdict = run_p0_gates(records, roster["p0_gates"])     # {G1, G2, G3, X3, overall_pass, provisional}
 ```
 
 ## OPEN ITEMS blocking a live run (must be resolved first)
@@ -117,8 +125,8 @@ verdict = run_p0_gates(records, roster["p0_gates"])     # {G1, G2, G3, overall_p
    `temperature` on 4.x. TODO(live): verify temperature+thinking is accepted on the installed
    SDK/models; if the API rejects it, drop temperature for the thinking condition only.
 
-6. **G1 content-axis baseline mapping.** G1 compares the process axis to a *matched content-axis
-   baseline* (`axis == "content"`). The authored bank labels the §5 non-moral **discriminant
-   control** via `is_discriminant_control` (mapped to `axis="discriminant_control"`), which is NOT
-   the same construct. The analyst must designate which records constitute G1's content baseline
-   (a matched content-benchmark run on the same models, or a relabelled subset) before running G1.
+6. **G1 content-axis baseline mapping. — RESOLVED 2026-07-09 (ruling G1-a).** G1 no longer uses a
+   separate `axis=="content"` battery: the content baseline is the cross-model CV of the
+   **standard-condition** per-item mean stance of the SAME process items (no extra administration;
+   the discriminant-control battery is NOT the content baseline). Implemented in
+   `process_beats_content`; see `20260709-ws1-checklist-evidence.md` (D3 / content-wiring).

@@ -1,4 +1,4 @@
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from copy import deepcopy
 from dataclasses import FrozenInstanceError, replace
 from decimal import Decimal
@@ -43,6 +43,35 @@ class TraversableReadBombMapping(Mapping):
         return self._data.values()
 
 
+class EqualityBombString(str):
+    def __eq__(self, other):
+        raise RuntimeError("hostile string equality")
+
+
+class ComparisonBombInt(int):
+    def __eq__(self, other):
+        raise RuntimeError("hostile integer comparison")
+
+
+class IterationBombSequence(Sequence):
+    def __len__(self):
+        return 3
+
+    def __getitem__(self, index):
+        raise RuntimeError("hostile sequence traversal")
+
+
+class IterationBombMapping(Mapping):
+    def __len__(self):
+        return 0
+
+    def __iter__(self):
+        raise RuntimeError("hostile mapping traversal")
+
+    def __getitem__(self, key):
+        raise RuntimeError("hostile mapping indexed access")
+
+
 def test_capability_validator_fails_closed_on_hostile_mapping_indexing():
     reference = TraversableReadBombMapping(valid_capability_reference())
 
@@ -59,6 +88,75 @@ def test_professional_realism_predicate_fails_closed_on_hostile_mapping_indexing
         )
         is False
     )
+
+
+def test_release_budget_rejects_hostile_run_kind_without_invoking_equality():
+    assert (
+        evidence.release_budget_allows(
+            run_kind=EqualityBombString("smoke"),
+            scheduled_requests=9,
+            paid_calls=18,
+            terminal_actions_per_request=1,
+            syntax_repairs_per_request=1,
+            attributed_cost_usd=1.0,
+            price_attribution_complete=True,
+            cost_attribution_complete=True,
+        )
+        is False
+    )
+
+
+@pytest.mark.parametrize(
+    ("field", "value"),
+    [
+        ("scheduled_requests", ComparisonBombInt(9)),
+        ("paid_calls", ComparisonBombInt(18)),
+        ("terminal_actions_per_request", ComparisonBombInt(1)),
+        ("syntax_repairs_per_request", ComparisonBombInt(1)),
+    ],
+)
+def test_release_budget_rejects_hostile_count_subclasses(field, value):
+    arguments = {
+        "run_kind": "smoke",
+        "scheduled_requests": 9,
+        "paid_calls": 18,
+        "terminal_actions_per_request": 1,
+        "syntax_repairs_per_request": 1,
+        "attributed_cost_usd": 1.0,
+        "price_attribution_complete": True,
+        "cost_attribution_complete": True,
+    }
+    arguments[field] = value
+
+    assert evidence.release_budget_allows(**arguments) is False
+
+
+@pytest.mark.parametrize(
+    ("field", "hostile_value"),
+    [
+        ("mode", EqualityBombString("live")),
+        ("model_ids", IterationBombSequence()),
+        ("frozen_hashes", IterationBombMapping()),
+    ],
+)
+@pytest.mark.parametrize(
+    "property_name", ["official_eligible", "eligible_for_empirical_decision"]
+)
+def test_evidence_basis_bool_properties_fail_closed_on_hostile_fields(
+    field, hostile_value, property_name
+):
+    basis = official_basis()
+    object.__setattr__(basis, field, hostile_value)
+
+    assert getattr(basis, property_name) is False
+
+
+def test_professional_realism_passes_property_rejects_hostile_status():
+    result = evidence.ProfessionalRealismResult(
+        EqualityBombString("PASS"), {}, {}, ()
+    )
+
+    assert result.passes is False
 
 
 def test_capability_projections_are_derived_from_population_z_scores():

@@ -272,6 +272,12 @@ class EvidenceBasis:
 
     @property
     def official_eligible(self) -> bool:
+        try:
+            return self._official_eligible_unchecked()
+        except Exception:
+            return False
+
+    def _official_eligible_unchecked(self) -> bool:
         model_ids = _text_sequence(self.model_ids)
         vendors = _text_sequence(self.vendors)
         roster_valid = (
@@ -297,11 +303,15 @@ class EvidenceBasis:
             and all(_valid_sha256(value) for value in self.frozen_hashes.values())
         )
         return (
-            self.mode == "live"
+            type(self.mode) is str
+            and self.mode == "live"
+            and type(self.data_basis) is str
             and self.data_basis == "external_model_responses"
             and self.synthetic is False
             and self.diagnostic_status is None
+            and type(self.professional_realism_status) is str
             and self.professional_realism_status == "PASS"
+            and type(self.human_baseline_status) is str
             and self.human_baseline_status == "COMPLETE"
             and roster_valid
             and seeds_valid
@@ -311,7 +321,10 @@ class EvidenceBasis:
 
     @property
     def eligible_for_empirical_decision(self) -> bool:
-        return self.official_eligible
+        try:
+            return self.official_eligible
+        except Exception:
+            return False
 
 
 @dataclass(frozen=True)
@@ -332,7 +345,7 @@ class ProfessionalRealismResult:
 
     @property
     def passes(self) -> bool:
-        return self.status == "PASS"
+        return type(self.status) is str and self.status == "PASS"
 
 
 _PANEL_FIELDS = (
@@ -566,13 +579,15 @@ def release_budget_allows(
 ) -> bool:
     """Enforce terminal-action, repair, call, and returned-cost release caps."""
 
+    if type(run_kind) is not str:
+        return False
     counts = (
         scheduled_requests,
         paid_calls,
         terminal_actions_per_request,
         syntax_repairs_per_request,
     )
-    if not all(isinstance(value, int) and not isinstance(value, bool) for value in counts):
+    if not all(type(value) is int for value in counts):
         return False
     if run_kind == "smoke":
         expected_requests, call_cap, cost_cap = 9, 18, 1.0

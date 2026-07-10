@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# local secrets for O3+ live runs (never commit keys)
+.env

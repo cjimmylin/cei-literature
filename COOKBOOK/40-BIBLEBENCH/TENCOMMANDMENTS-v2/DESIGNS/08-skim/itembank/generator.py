@@ -181,6 +181,19 @@ def _tool_schema(core, option_ids, recognition):
 def _response_schema(core, option_ids, recognition):
     tool_name = RECOGNITION_TOOL_HANDLER if recognition else core.tool_handler
     required_arguments = list(SKIM_TOOL_RECIPES[tool_name].required_arguments)
+    argument_properties = {
+        "option_id": {"type": "string", "enum": list(option_ids)}
+    }
+    if not recognition:
+        argument_properties["decision_record"] = {
+            "type": "object",
+            "additionalProperties": False,
+            "required": ["material_basis", "mandate_fit"],
+            "properties": {
+                "material_basis": {"type": "string"},
+                "mandate_fit": {"type": "string"},
+            },
+        }
     return {
         "type": "object",
         "additionalProperties": False,
@@ -192,18 +205,7 @@ def _response_schema(core, option_ids, recognition):
                 "type": "object",
                 "additionalProperties": False,
                 "required": required_arguments,
-                "properties": {
-                    "option_id": {"type": "string", "enum": list(option_ids)},
-                    "decision_record": {
-                        "type": "object",
-                        "additionalProperties": False,
-                        "required": ["material_basis", "mandate_fit"],
-                        "properties": {
-                            "material_basis": {"type": "string"},
-                            "mandate_fit": {"type": "string"},
-                        },
-                    },
-                },
+                "properties": argument_properties,
             },
         },
     }

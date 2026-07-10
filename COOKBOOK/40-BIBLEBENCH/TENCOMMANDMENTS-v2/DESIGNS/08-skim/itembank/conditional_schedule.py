@@ -189,7 +189,7 @@ def _cue_request(core, ordinal):
             "label": "The requester says the action stays outside routine review.",
         },
     ]
-    if ordinal % 2:
+    if (ordinal // 2) % 2:
         options.reverse()
     option_ids = tuple(option["option_id"] for option in options)
     recipe = SKIM_TOOL_RECIPES[RECOGNITION_TOOL_HANDLER]
